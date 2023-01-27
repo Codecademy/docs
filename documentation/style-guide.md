@@ -121,7 +121,7 @@ In code blocks:
 - Use Markdown syntax for links: `(text)[url]`.
 - Do not link to parent concept or topic entries. The Docs navigation provides those for each entry.
 - Do not link out to external third-party documentation. (Such as Wikipedia.)
-- Do link out to other relevant Docs topics, concepts or terms the first time they appear.
+- You are encouraged to link out to other relevant Docs topics, concepts, or terms the first time they appear.
 - In some cases, it may be appropriate to link out to external standards documents or entities. (Example: [XML 1.0 Specification]( http://www.w3.org/TR/REC-xml), [World Wide Web Consortium]( https://www.w3.org/standards/), [Red Hat Enterprise Linux]( https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux))
 - When linking items outside the document, use the full path. When linking to items inside the document (i.e. Headers) use a relative path.
 - Images are stored in the media folder and should be linked to using the following url: "https://raw.githubusercontent.com/Codecademy/docs/main/media/" followed by the image name. (Note the image link will not work until a PR is merged.)
