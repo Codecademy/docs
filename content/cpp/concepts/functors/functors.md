@@ -53,7 +53,7 @@ class Hello {
         }
 };
 
-int main(){
+int main() {
 
     Hello salute;
     salute(3);
