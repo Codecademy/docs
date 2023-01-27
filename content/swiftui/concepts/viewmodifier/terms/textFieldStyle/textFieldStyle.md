@@ -26,9 +26,9 @@ The style passed as an argument to `.textFieldStyle()` is applied to the `TextFi
 
 > **Note:** If `.textFieldStyle()` is called on a [`View`](https://www.codecademy.com/resources/docs/swiftui/views), the specified style will be applied to every `TextField` within that view, unless it has its own `.textFieldStyle()`.
 
-## Example
+## Examples
 
-The following example shows a `TextField` with a built-in style applied:
+The following example shows a `TextField` contained in a [`Vstack`](https://www.codecademy.com/resources/docs/swiftui/views/vstack), with a built-in style applied:
 
 ```swift
 import SwiftUI
@@ -52,3 +52,63 @@ In the above example, `.textFieldStyle(.roundedBorder)` is called on the `TextFi
 This will display:
 
 ![SwiftUI ViewModifier .textFieldStyle()](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-textFieldStyle-roundedBorder.png)
+
+The next example shows four `TextField`s with different styles applied to them:
+
+```swift
+import SwiftUI
+
+struct myView: View {
+
+    @State private var value1: String = "TextField with .automatic style"
+    @State private var value2: String = "TextField with .plain style"
+    @State private var value3: String = "TextField with .roundedBorder style"
+    @State private var value4: String = "TextField with custom style"
+
+    var body: some View {
+
+        VStack() {
+
+            TextField("Automatic Style", text: $value1)
+                .textFieldStyle(.automatic)
+
+            TextField("Plain Style", text: $value2)
+                .textFieldStyle(.plain)
+
+            TextField("Rounded Border Style", text: $value3)
+                .textFieldStyle(.roundedBorder)
+
+            TextField("Custom Style", text: $value4)
+        }
+        .padding()
+        .background(.purple)
+        // ↓ custom textFieldStyle applied to the VStack view
+        .textFieldStyle(WhiteBorder())
+    }
+}
+
+// struct creating a custom textFieldStyle
+struct WhiteBorder: TextFieldStyle {
+    func _body(configuration: TextField<Self._Label>) -> some View {
+        configuration
+            .padding()
+            .overlay(
+                RoundedRectangle(cornerRadius: 30)
+                    .stroke(Color.white, lineWidth:2)
+            )
+    }
+}
+```
+
+The example above has some `TextField`s contained in a `VStack` with a purple background.
+
+- The first `TextField` applies the built-in `.automatic` style, which applies the default style.
+- The second `TextField` applies the `.plain` style, which doesn't apply any decoration.
+- The third `TextField` applies the `.roundedBorder` style, adding a rounded border.
+- The fourth `TextField` inherits the parent `VStack`'s custom style, and has a white rounded rectangle border applied to it.
+
+The `struct` creating the custom `TextFieldStyle` called `WhiteBorder()` is also included below the `VStack`.
+
+This will display:
+
+![SwiftUI ViewModifier custom .textFieldStyle()](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-textFieldStyle-custom.png)
