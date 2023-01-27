@@ -22,7 +22,7 @@ A **functor** is an object or struct that can be called like a function by overl
 For an object to be a functor, the class body must contain the following lines 
 
 ```pseudo
-class MyClass{
+class MyClass {
   public:
     type operator()(...) {
       // Function body
