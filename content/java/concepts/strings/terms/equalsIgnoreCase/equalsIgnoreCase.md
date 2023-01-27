@@ -10,7 +10,7 @@ CatalogContent:
   - 'learn-java'
 ---
 
-The `equalsIgnoreCase` method compares the strings in the program and then gives an output of true of false. It is not a case sensitive method, so this method does not consider this as a factor while comparing the strings.
+The `equalsIgnoreCase` method compares the strings in the program and then gives an output of true or false. It is not a case sensitive method, so this method does not consider this as a factor while comparing the strings.
 
 ## Syntax
 
