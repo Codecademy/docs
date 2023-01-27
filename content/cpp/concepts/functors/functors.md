@@ -25,7 +25,7 @@ For an object to be a functor, the class body must contain the following lines
 class MyClass{
   public:
     type operator()(...) {
-      // function body
+      // Function body
     }
 };
 ```
