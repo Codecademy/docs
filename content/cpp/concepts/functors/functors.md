@@ -46,19 +46,19 @@ The following code:
 using namespace std;
 
 class Hello {
-    public:
-        void operator()(int times){
-            for (int i = 1; i <= times; i++)
-               cout<<"Hello world!"<<endl;
-        }
+  public:
+    void operator()(int times){
+      for (int i = 1; i <= times; i++)
+        cout<<"Hello world!"<<endl;
+      }
 };
 
 int main() {
 
-    Hello salute;
-    salute(3);
+  Hello salute;
+  salute(3);
 
-    return 0;
+  return 0;
 }
 ```
 
