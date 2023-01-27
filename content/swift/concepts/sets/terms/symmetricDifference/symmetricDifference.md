@@ -1,6 +1,6 @@
 ---
 Title: '.symmetricDifference()'
-Description: 'Returns a new set with the elements.'
+Description: 'Returns a new set with all the elements from two sets that do not overlap.'
 Subjects:
   - 'Software Development'
   - 'Mobile Development'
@@ -13,17 +13,15 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.symmetricDifference()`** method returns a new set with the elements that are either in the set or in the given sequence, but not in both.
+The **`.symmetricDifference()`** method returns a new set with the elements that are either in the set or in the given sequence, but not in both. In other words, it returns a new set with all the elements from two sets that do not overlap.
 
 ## Syntax
 
 ```pseudo
-func symmetricDifference<S>(_other: S) -> Set<Element> where Element == S.Element, S:Sequence
+setName.symmetricDifference(otherSetName)
 ```
 
-The `other` parameter is a finite sequence of elements.
-
-Available when Element conforms to Hashable.
+The `otherSetName` parameter is a finite sequence of elements.
 
 ## Example
 
