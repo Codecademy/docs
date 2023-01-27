@@ -155,7 +155,7 @@ CatalogContent:
 - The metadata begins and ends with three dashes (`---`) on their own line.
 - There should be a line-break after the last line of the metadata.
 - There should not be extra line breaks within the metadata.
-- The data for `Title:` and `Description:` appear as single quoted strings on the same line.
+- The data for `Title:` and `Description:` appear as single-quoted strings on the same line.
 - Do not use apostrophes or quotes in the title or description.
 - Do not use boldface or italics in the title or description.
 - The description should be short, typically one sentence.
