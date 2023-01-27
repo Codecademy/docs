@@ -40,7 +40,7 @@ There are three types of Docs entries:
   - A line break should precede and follow the list.
   - There should be no line breaks between items in the list.
   - Full sentences should be punctuated appropriately, with leading capitals and ending punctuation.
-- Avoid using first and second person pronouns, i.e. "I", "we" and "you".
+- Avoid using first and second person pronouns, i.e. "I", "we", and "you".
 - Avoid words or phrases that assume the reader’s knowledge such as "easy", "obviously", "simply", "of course", and so on.
 - Always use an Oxford comma.
 - Limit the entry to the concept or term being illustrated. i.e. if you find yourself writing about a method or property in a concept entry, it would be better to give it its own term entry.
