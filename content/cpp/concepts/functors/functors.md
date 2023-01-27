@@ -46,7 +46,6 @@ The following code:
 using namespace std;
 
 class Hello {
-
     public:
         void operator()(int times){
             for (int i = 1; i <= times; i++)
