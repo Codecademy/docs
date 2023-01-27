@@ -161,18 +161,18 @@ CatalogContent:
 - The description should be short, typically one sentence.
 - The description should be echoed in the introductory paragraph of the entry, i.e. The information in the description should appear in the introduction to the entry.
 - `CatalogContent:` appears without spaces.
-- The entries for `Subjects:`, `Tags:`, and `CatalogContent:` appear as bulleted lists of single-quoted strings, starting on the next line.
-- The lists for `Subjects:`, `Tags:`, and `CatalogContent:` are indented two spaces before the dash.
+- The items for `Subjects:`, `Tags:`, and `CatalogContent:` appear as bulleted lists of single-quoted strings, starting on the next line.
+- The items for `Subjects:`, `Tags:`, and `CatalogContent:` are indented two spaces before the dash.
 - For `Subjects:`
-  - Entries are languages and technical fields that the entry relates to.
-  - Entries come from [this list]( https://github.com/Codecademy/docs/blob/main/documentation/subjects.md).
-  - Should have one to two entries. Always at least one.
+  - Items are languages and technical fields that the entry relates to.
+  - Items come from [this list]( https://github.com/Codecademy/docs/blob/main/documentation/subjects.md).
+  - Should have one to two items. Always at least one.
 - For `Tags:`
-  - Entries are key words that are relevant to the entry.
-  - Entries come from [this list]( https://github.com/Codecademy/docs/blob/main/documentation/tags.md).
-  - Should have three to four entries.
+  - Items are key words that are relevant to the entry.
+  - Items come from [this list]( https://github.com/Codecademy/docs/blob/main/documentation/tags.md).
+  - Should have three to four items.
   - If you wish to use a new tag, add it in the appropriate place in the [tags.md]( https://github.com/Codecademy/docs/blob/main/documentation/tags.md) file as part of your PR.
 - For `CatalogContent:`
-  - Entries are slugs of Codecademy course and Path landing pages that relate to the entry.
-  - For entries use [this document]( https://github.com/Codecademy/docs/blob/main/documentation/catalog-content.md) as a guide.
-  - Should have two entries.
+  - Items are slugs of Codecademy course and Path landing pages that relate to the entry.
+  - For items use [this document]( https://github.com/Codecademy/docs/blob/main/documentation/catalog-content.md) as a guide.
+  - Should have two items.
