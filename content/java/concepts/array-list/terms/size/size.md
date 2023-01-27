@@ -50,6 +50,6 @@ public class Main {
 
 The output for the above code is:
 
-```
+```shell
 Size of list: 3
 ```
