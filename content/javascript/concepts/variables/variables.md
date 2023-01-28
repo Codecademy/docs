@@ -36,9 +36,9 @@ let weight;
 const numberOfFingers = 20;
 ```
 
-## Dynamic typing
+## Dynamic Typing
 
-Unlike many programming languages, JavaScript doesn't force the user to specify a variable's data type. It assumes the data type based on the way a user assigns a value. For example, the example below assigns a string to a variable by putting the text between quotation marks. Without them, JavaScript reads it as a number. This is why it's considered to be a dynamically-typed language.
+Unlike many programming languages, JavaScript doesn't force the user to specify a variable's [data type](https://www.codecademy.com/resources/docs/javascript/data-types). It assumes the data type based on the value. The example below assigns a string to a variable by enclosing some numbers in single quotation marks. Without them, JavaScript reads the value as a number.
 
 ```js
 let movieTitle = '300'; // String
