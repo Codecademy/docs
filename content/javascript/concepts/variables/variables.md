@@ -38,7 +38,7 @@ const numberOfFingers = 20;
 
 ## Dynamic Typing
 
-Unlike many programming languages, JavaScript doesn't force the user to specify a variable's [data type](https://www.codecademy.com/resources/docs/javascript/data-types). It assumes the data type based on the value. The example below assigns a string to a variable by enclosing some numbers in single quotation marks. Without them, JavaScript reads the value as a number.
+Unlike many programming languages, JavaScript doesn't require the user to specify a variable's [data type](https://www.codecademy.com/resources/docs/javascript/data-types). It assumes the data type based on the value. The example below assigns a string to a variable by enclosing some numbers in single quotation marks. Without them, JavaScript reads the value as a number.
 
 ```js
 let movieTitle = '300'; // String
