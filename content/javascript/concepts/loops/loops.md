@@ -1,6 +1,6 @@
 ---
 Title: 'Loops'
-Description: 'A loop is a programming tool that is used to repeat a set of instructions. Iterate is a generic term that means “to repeat” until a specified condition is met.'
+Description: 'A loop is a programming tool that is used to repeat a set of instructions.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -75,9 +75,9 @@ The output would be:
 
 A `for` loop declares looping instructions, with three important pieces of information separated by semicolons `;`:
 
-- The initialization defines where to begin the loop by declaring (or referencing) the iterator variable
-- The stopping condition determines when to stop looping (when the expression evaluates to false)
-- The iteration statement updates the iterator each time the loop is completed
+- The initialization defines where to begin the loop by declaring (or referencing) the iterator variable.
+- The stopping condition determines when to stop looping (when the expression evaluates to false).
+- The iteration statement updates the iterator each time the loop is completed.
 
 ```js
 for (let i = 0; i < 4; i += 1) {
@@ -98,8 +98,8 @@ The output would be:
 
 A `for...of` loop iterates over an object's values rather than their keys. This allows for direct access to the items, as opposed to index-reference. Examples of iterable objects include:
 
-- An `Array` of elements.
-- A `String` of characters.
+- An [`Array`](https://www.codecademy.com/resources/docs/javascript/arrays) of elements.
+- A [`String`](https://www.codecademy.com/resources/docs/javascript/map) of characters.
 - A `Map` of key/value pairs.
 
 ```js
@@ -222,9 +222,9 @@ age: 10
 
 ## Break Keyword
 
-Within a loop, the break keyword may be used to exit the loop immediately, continuing execution after the loop body.
+Within a loop, the `break` keyword may be used to exit the loop immediately, continuing execution after the loop body.
 
-Here, the break keyword is used to exit the loop when i is greater than 5.
+Here, the `break` keyword is used to exit the loop when `i` is greater than `5`.
 
 ```js
 for (let i = 0; i < 99; i += 1) {
