@@ -48,7 +48,7 @@ The output would be:
 
 ## Do…While Loop
 
-A `do`...`while` statement creates a loop that executes a block of code once, checks if a condition is true, and then repeats the loop as long as the condition is true. They are used when you want the code to always execute at least once. The loop ends when the condition evaluates to false.
+A `do`...`while` statement creates a loop that executes a block of code once, checks if a condition is true, and then repeats the loop as long as the condition remains true. They are used when the loop body needs to be executed at least once. The loop ends when the condition evaluates to false.
 
 ```js
 let x = 0;
@@ -60,6 +60,7 @@ do {
   i++;
 } while (i < 5);
 ```
+
 The output would be:
 
 ```shell
@@ -69,7 +70,6 @@ The output would be:
 6
 10
 ```
-
 
 ## For Loop
 
@@ -197,7 +197,6 @@ const objectK = {
 const myEntries = Object.entries(objectK);
 
 console.log(myEntries);
-// Output: [ [ 'name', 'Codecademy' ], [ 'age', 10 ] ]
 ```
 
 The output would be:
