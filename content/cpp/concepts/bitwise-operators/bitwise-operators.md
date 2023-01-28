@@ -44,13 +44,12 @@ For example:
 ```cpp
 #include <iostream>
 
-int main()
-{
+int main() {
   std::cout << (4 & 5) << "\n";
+  // Output: 100 (base-2 binary system) = 4
 
   return 0;
 }
-// Output: 100 (base-2 binary system) = 4
 ```
 
 ## | Bitwise OR
@@ -75,13 +74,12 @@ For example:
 ```cpp
 #include <iostream>
 
-int main()
-{
+int main() {
   std::cout << (4 | 5) << std::endl;
+  // Output: 101 (base-2 binary system) = 5
 
   return 0;
 }
-// Output: 101 (base-2 binary system) = 5
 ```
 
 ## << Bitwise Left Shift
@@ -107,10 +105,12 @@ For example:
 ```cpp
 #include <iostream>
 
-int main()
-{
-  std::cout << (4 << 1) << "\n"; // Output: 1000 = 8
-  std::cout << (4 << 2) << "\n"; // Output: 10000 = 16
+int main() {
+  std::cout << (4 << 1) << "\n";
+  // Output: 1000 = 8
+
+  std::cout << (4 << 2) << "\n";
+  // Output: 10000 = 16
 
   return 0;
 }
@@ -143,10 +143,12 @@ In the example above, 00 is added to the left side of 4 (100 in base-2). Then, t
 ```cpp
 #include <iostream>
 
-int main()
-{
-  std::cout << (4 >> 1) << "\n"; // Output: 10 = 2
-  std::cout << (4 >> 2) << "\n"; // Output: 1 = 1
+int main() {
+  std::cout << (4 >> 1) << "\n";
+  // Output: 10 = 2
+
+  std::cout << (4 >> 2) << "\n";
+  // Output: 1 = 1
 
   return 0;
 }
@@ -175,10 +177,12 @@ The first bit of a signed integer is used to determine whether the result is pos
 ```cpp
 #include <iostream>
 
-int main()
-{
-  std::cout << (~(int)5) << "\n"; // Output: 1111111111111010 = -6
-  std::cout << (~(unsigned int)5) << "\n"; // Output: 11111111111111111111111111111010 = 4294967290
+int main() {
+  std::cout << (~(int)5) << "\n";
+  // Output: 1111111111111010 = -6
+
+  std::cout << (~(unsigned int)5) << "\n";
+  // Output: 11111111111111111111111111111010 = 4294967290
 
   return 0;
 }
@@ -201,11 +205,10 @@ The exclusive or (XOR) operator returns 1 if both the operands are different and
 ```cpp
 #include <iostream>
 
-int main()
-{
+int main() {
   std::cout << (12 ^ 10) << "\n";
+  // Output: 6
 
   return 0;
 }
-// Output: 6
 ```

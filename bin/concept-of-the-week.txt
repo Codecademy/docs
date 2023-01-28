@@ -1,1 +1,1 @@
-content/uiux/concepts/user-research/user-research.md
+content/git/concepts/pull/pull.md
