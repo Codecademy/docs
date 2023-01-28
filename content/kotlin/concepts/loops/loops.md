@@ -47,9 +47,7 @@ fun main() {
 }
 ```
 
-The `.toString()` method is used to convert `i` to a string so that the output will have some spacing.
-
-This will output:
+The `.toString()` method is used to convert `i` to a string so that a string operation can be performed on it. This will output:
 
 ```shell
 1 2 3 4 5 6 7 8 9 10
@@ -68,6 +66,8 @@ fun main() {
   }
 }
 ```
+
+While the `condition` evaluates to `true`, the while loop code block will execute.
 
 ### Example
 
