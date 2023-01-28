@@ -16,11 +16,13 @@ In Kotlin, a **loop** is a control flow statement that allows repeated execution
 
 - The `for` loop, which iterates over a range of values or elements in a collection.
 - The `while` loop, which repeatedly executes a block of code as long as a certain condition is true.
-- The `do-while` loop, which is similar to the `while` loop, but guarantees that the block of code will be executed at least once before the condition is checked.
+- The `do`-`while` loop, which is similar to the `while` loop, but guarantees that the block of code will be executed at least once before the condition is checked.
 
-## For loop
+## `for` Loop
 
-The `for` loop is used to iterate over a range of values or an iterable collection. The syntax for a `for` loop in Kotlin is:
+The `for` loop is used to iterate over a range of values or an iterable collection.
+
+### Syntax
 
 ```pseudo
 fun main() {
@@ -30,25 +32,34 @@ fun main() {
 }
 ```
 
-Here's an example of a `for` loop in Kotlin that prints the numbers from 1 to 10:
+- The `item` is an element within the `collection`.
+- The `collection` is any container for a group of items such as lists and sets.
+
+### Example
+
+Below is an example of a `for` loop that prints the numbers 1 through 10:
 
 ```kotlin
 fun main() {
   for(i in 1..10){
-    print(i)
+    print(i.toString() + " ")
   }
 }
 ```
 
+The `.toString()` method is used to convert `i` to a string so that the output will have some spacing.
+
 This will output:
 
-```
+```shell
 1 2 3 4 5 6 7 8 9 10
 ```
 
-## While loop
+## `while` Loop
 
-The `while` loop is used to execute a block of code repeatedly as long as a certain condition is true. The syntax for a `while` loop in Kotlin is:
+The `while` loop is used to execute a block of code repeatedly as long as a certain condition is true.
+
+### Syntax
 
 ```pseudo
 fun main() {
@@ -58,7 +69,9 @@ fun main() {
 }
 ```
 
-Here's an example of a `while` loop in Kotlin that prints the numbers from 1 to 10:
+### Example
+
+The example below uses a `while` loop to print the numbers 1 through 10:
 
 ```kotlin
 fun main() {
@@ -73,13 +86,15 @@ fun main() {
 
 The output for the above code will be:
 
-```
+```shell
 1 2 3 4 5 6 7 8 9 10
 ```
 
-## Do-While loop
+## `do`-`while` Loop
 
-A `do-while` loop in Kotlin is similar to a `while` loop, but the block of code is always executed at least once before the condition is checked. The syntax for a `do-while` loop is:
+A `do`-`while` loop in Kotlin is similar to a `while` loop, but the code within the `do` block is executed before the condition is checked.
+
+### Syntax
 
 ```pseudo
 fun main() {
@@ -89,7 +104,9 @@ fun main() {
 }
 ```
 
-In the example below, a variable `i` is declared with an initial value of 10. The loop will continue to run as long as `i` is greater than 0. Inside the loop, the value of `i` is printed, and then `i` is decremented by 1 on each iteration. This means that the value of `i` will be printed and reduced by 1 on each iteration until `i` is no longer greater than 0, at which point the loop will exit and the program will end:
+### Example
+
+In the example below, a variable `i` is declared with an initial value of 10. The loop will continue to run while `i` is greater than 0. Upon each iteration of the loop, the value of `i` is printed and then decremented by 1 until it is no longer greater than 0. Then, the loop will exit and the program will end:
 
 ```kotlin
 fun main() {
@@ -104,6 +121,6 @@ fun main() {
 
 This will output:
 
-```
+```shell
 10 9 8 7 6 5 4 3 2 1
 ```
