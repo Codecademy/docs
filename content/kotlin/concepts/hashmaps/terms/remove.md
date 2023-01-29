@@ -28,7 +28,7 @@ It takes one argument:
 
 ## Example
 
-Here is an example of how we can use the `remove()` function in a Kotlin program:
+Here is an example of how to use the `.remove()` method in a Kotlin program:
 
 ```kotlin
 fun main(){
