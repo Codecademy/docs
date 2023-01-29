@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-To remove a key-value pair from a `HashMap` in Kotlin, you can use the `remove()` function.
+The **`.remove()`** method is used to remove a key-value pair from a `HashMap` in Kotlin.
 
 ## Syntax
 
