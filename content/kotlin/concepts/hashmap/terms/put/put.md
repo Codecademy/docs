@@ -19,7 +19,7 @@ In Kotlin, the `.put()` method is used to add a key-value pair to a map. It is a
 ## Syntax
 
 ```pseudo
-fun <K, V> MutableMap<K, V>.put(key: K, value: V): V?
+myHashMap.put(key, value)
 ```
 
 It takes in two parameters:
@@ -29,24 +29,22 @@ It takes in two parameters:
 
 ## Example
 
-To add a key-value pair to a `HashMap` in Kotlin, the `.put()` method can be used. For example:
+To add a key-value pair to a `HashMap` in Kotlin, the `.put()` method can be used:
 
 ```kotlin
 fun main() {
   val map = HashMap<String, Int>()
+
   map.put("apple", 1)
   map.put("banana", 2)
   map.put("cherry", 3)
+
+  println(map)
 }
 ```
 
-The index operator `[]` can be used to add a key-value pair to a `HashMap`. For example:
+This will output:
 
-```kotlin
-fun main() {
-val map = HashMap<String, Int>()
-  map["apple"] = 1
-  map["banana"] = 2
-  map["cherry"] = 3
-}
+```shell
+{banana=2, apple=1, cherry=3}
 ```
