@@ -1,6 +1,6 @@
 ---
 Title: '.put()'
-Description: 'Used to add a key-value pair to a hash map.'
+Description: 'Adds a key-value pair to a hash map.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
