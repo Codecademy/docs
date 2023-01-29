@@ -1,6 +1,6 @@
 ---
 Title: '.put()'
-Description: 'Used to add a key-value pair to a map.'
+Description: 'Used to add a key-value pair to a hash map.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Kotlin, the `.put()` method is used to add a key-value pair to a map. It is a member function of the `MutableMap` interface, which means it can be called on any object that implements this interface, such as a `HashMap` or `LinkedHashMap`.
+In Kotlin, the `.put()` method is used to add a key-value pair to a hash map. It is a member function of the `MutableMap` interface, which means it can be called on any object that implements this interface, such as a `HashMap` or `LinkedHashMap`.
 
 ## Syntax
 
@@ -24,8 +24,8 @@ myHashMap.put(key, value)
 
 It takes in two parameters:
 
-- The `key` of the key-value pair to add or update in the map.
-- The `value` of the key-value pair to add or update in the map.
+- The `key` of the key-value pair to add or update in the hash map.
+- The `value` of the key-value pair to add or update in the hash map.
 
 ## Example
 
