@@ -6,7 +6,7 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Arrays'
-  - 'Data Types'
+  - 'Methods'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
