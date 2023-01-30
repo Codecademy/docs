@@ -1,6 +1,6 @@
 ---
 Title: 'Favicon'
-Description: 'A favicon is an icon that is displayed in the address bar for a browser and tab title for a website.`
+Description: 'A favicon is an icon that is displayed in the address bar for a browser and tab title for a website.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -32,4 +32,4 @@ The following attributes are used in the `<link>` element for favicons:
 
 > **Note:** The most common file format for favicons are files with the `.ico` extension. However, other image formats may be supported depending on the browser (e.g., `.png`, `.gif`, and `.jpeg`). An `.ico` file can be created using an image editor or online converter tool.
 
-With the favicon file and the `link` element in the HTML, the favicon should be displayed in the browser's address bar and tab title for the website.
+With the favicon file and the `link` element in the HTML, the favicon should be displayed in the browser's tab title for the website.
