@@ -1,1 +1,1 @@
-content/general/concepts/algorithm/algorithm.md
+content/css/concepts/math-functions/math-functions.md
