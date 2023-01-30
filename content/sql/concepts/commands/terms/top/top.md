@@ -33,7 +33,7 @@ FROM table_name;
 
 ## Examples
 
-The given query will display the top 5 rows from the `books` table.
+The following query selects all columns from the top 5 rows of the `books` table:
 
 ```sql
 SELECT TOP (5) *
