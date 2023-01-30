@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The HTML global `id` attribute is used to specify a unique id identifier for an [HTML](https://www.codecademy.com/resources/docs/html) element, which cannot be shared across multiple elements within the same HTML document. `id` attribute can be used as a bookmark to navigate to the specific point at a document. It can also serve as a selector in CSS to style the element or to manipulate the element in JavaScript. Contrary to the [`class`](https://www.codecademy.com/resources/docs/html/classes) attribute, elements can only have one id value.
+The HTML global **`id`** attribute is used to specify a unique id identifier for an HTML element, which cannot be shared across multiple elements within the same HTML document. The `id` attribute can be used as a bookmark to navigate to the specific point at a document. It can also serve as a selector in CSS to style the element or to manipulate the element in JavaScript. Contrary to the [`class`](https://www.codecademy.com/resources/docs/html/classes) attribute, elements can only have one id value.
 
 ## Syntax
 
