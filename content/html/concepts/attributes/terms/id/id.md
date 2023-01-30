@@ -56,6 +56,7 @@ Styling via `id` in a stylesheet:
 
 }
 ```
+
 The HTML element with `id` is selected in CSS for styling using `#` followed by the id value. This applies to internal or external ruleset styling methods. For an overview of all styling methods, please see [CSS Anatomy](https://www.codecademy.com/resources/docs/css/anatomy).
 
 
