@@ -35,6 +35,7 @@ Element with a defined `id` attribute that serves as a bookmark:
 ```
 
 Link to the bookmark:
+
 ```html
 <a href="#my-city">Navigate to the section about my city</a>
 ```
