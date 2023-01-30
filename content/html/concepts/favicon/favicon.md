@@ -26,12 +26,10 @@ Favicons originate as small images (usually 16 x 16 pixels) that are added to a 
 
 The following attributes are used in the `<link>` element for favicons:
 
--The `rel` attribute set to `"shortcut icon"` tells the browser that the linked resource is a favicon.
+- The `rel` attribute tells the browser that the linked resource is a favicon; setting to `"shortcut icon"` should accommodate most versions of the major browsers.
+- The `type` attribute specifies the format of the linked resource (i.e., `"image/x-icon"` for favicons).
+- The `href` attribute specifies the [file path](https://www.codecademy.com/resources/docs/general/file-paths) of the favicon file.
 
--The `type` attribute specifies the type of the favicon (in this case, "image/x-icon").
-
--The `href` attribute specifies the location of the favicon file.
-
-Any image format that is supported by web browsers can be used as a favicon, but the most common format is `.ico`. An `.ico` file can be created using an image editor or online converter tool.
+> **Note:** The most common file format for favicons are files with the `.ico` extension. However, other image formats may be supported depending on the browser (e.g., `.png`, `.gif`, and `.jpeg`). An `.ico` file can be created using an image editor or online converter tool.
 
 With the favicon file and the `link` element in the HTML, the favicon should be displayed in the browser's address bar and tab title for the website.
