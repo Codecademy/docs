@@ -21,7 +21,7 @@ The **`.remove()`** method is used to remove a key-value pair from a `HashMap` i
 fun <K, V> MutableMap<K, V>.remove(key: K): V?
 ```
 
-It takes one argument and returns :
+It takes one parameter and returns :
 
 - `key`: the key of the key-value pair to be removed
 - `V?` : the value associated with the removed key or null if the key is not found in the map.
