@@ -24,7 +24,7 @@ SELECT TOP (n) column_name(s)
 FROM table_name;
 ```
 
-The command can also be used with PERCENT to limit the result to the top (n) percent of rows:
+The command can also be used with PERCENT to limit the result to the top `n` percent of rows:
 
 ```sql
 SELECT TOP (n) PERCENT column_name(s)
