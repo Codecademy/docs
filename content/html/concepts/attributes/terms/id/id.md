@@ -53,7 +53,9 @@ Clicking on the link in the examples above will direct the browser screen to the
 Similarly to the `class` attribute, `id` is typically used to assign styles to the element it identifies. However, only one specific element can be targeted with `id` (compared to the `class` attribute which can be used to target multiple elements at once).
 
 ### Example:
+
 Styling via `id` in a stylesheet:
+
 ```css
 #my-city {
 
