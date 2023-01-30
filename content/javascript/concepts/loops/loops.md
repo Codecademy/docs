@@ -139,6 +139,8 @@ cherry
 ```
 
 ```js
+const shoppingCart = { banana: 2, apple: 5, cherry: 0 };
+
 for (const fruit in shoppingCart) {
   console.log(shoppingCart[fruit]);
 }
@@ -177,11 +179,19 @@ The output would be:
 An array’s length can be evaluated with the `.length` property. This is extremely helpful for looping through arrays, as the `.length` of the array can be used as the stopping condition in the loop.
 
 ```js
-for (let i = 0; i < array.length; i++) {
-  console.log(array[i]);
-}
+const fish = ['salmon', 'clown', 'whiting'];
 
-// Output: Every item in the array
+for (let i = 0; i < fish.length; i++) {
+  console.log(fish[i]);
+}
+```
+
+The output would be:
+
+```shell
+salmon
+clown
+whiting
 ```
 
 ## Looping Through Objects
