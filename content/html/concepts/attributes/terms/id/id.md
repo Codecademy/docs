@@ -20,7 +20,7 @@ The HTML global **`id`** attribute is used to specify a unique id identifier for
 <div id="myElement">My Element</div>
 ```
 
-Syntax consists of the `#` character followed by `=` assignment operator and an id name in `" "` quotation marks. Id name is case sensitive and must contain at least one character. It cannot start with a number and contain whitespaces.
+Syntax consists of `id` followed by the `=` assignment operator and an id name in `" "` quotation marks. Id name is case sensitive and must contain at least one character. It cannot start with a number or contain whitespaces.
 
 
 ## Navigation using bookmarks
