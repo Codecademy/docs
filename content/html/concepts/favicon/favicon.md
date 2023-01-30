@@ -17,7 +17,9 @@ A **favicon** (short for "favorite icon") is an icon that is displayed in the br
 
 ## Syntax
 ```pseudo
-<link rel="shortcut icon" type="image/x-icon" href="/path/to/favicon.ico" />
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="/path/to/favicon.ico" />
+</head>
 ```
 
 -The `rel` attribute set to `"shortcut icon"` tells the browser that the linked resource is a favicon.
