@@ -22,7 +22,6 @@ The HTML global **`id`** attribute is used to specify a unique id identifier for
 
 Syntax consists of `id` followed by the `=` assignment operator and an id name in `" "` quotation marks. Id name is case sensitive and must contain at least one character. It cannot start with a number or contain whitespaces.
 
-
 ## Navigation using bookmarks
 
 Bookmarks allow users to navigate on a webpage using links leading to another location on a page (i.e. to another element) with a specific `id`.
