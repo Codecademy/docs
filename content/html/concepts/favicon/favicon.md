@@ -22,6 +22,10 @@ A **favicon** (short for "favorite icon") is an icon that is displayed in the br
 </head>
 ```
 
+Favicons originate as small images (usually 16 x 16 pixels) that are added to a [`<link>`](https://www.codecademy.com/resources/docs/html/elements/link) element, which is included in the [`<head>`](https://www.codecademy.com/resources/docs/html/elements/head) of the HTML document.
+
+The following attributes are used in the `<link>` element for favicons:
+
 -The `rel` attribute set to `"shortcut icon"` tells the browser that the linked resource is a favicon.
 
 -The `type` attribute specifies the type of the favicon (in this case, "image/x-icon").
