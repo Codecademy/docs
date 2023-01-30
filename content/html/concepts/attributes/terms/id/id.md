@@ -41,6 +41,7 @@ Link to the bookmark:
 ```
 
 Link can also target location in another page:
+
 ```html
 <a href="city.html#my-city">Jump to the section about my city in another page</a>
 ```
