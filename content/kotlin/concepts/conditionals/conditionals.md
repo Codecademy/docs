@@ -85,7 +85,7 @@ if (condition1) {
 }
 ```
 
-Lets do a example where if probability is smaller or equal to 40, then only Unlikely will be printed. If probability is over 40 but smaller or equal to 80, then only Likely will be printed. If probability is over 80 but smaller or equal to 100, then only Yes will be printed. We solve this by using `if else-if` statement:
+Here is an example where if probability is smaller or equal to 40, then "Unlikely" will be printed. If probability is over 40 but smaller or equal to 80, then "Likely" will be printed. If probability is over 80 but smaller or equal to 100, then "Yes" will be printed. This is done by using `if else-if` statement:
 
 ```kotlin
 fun main() {
