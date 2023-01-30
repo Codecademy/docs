@@ -65,6 +65,7 @@ The HTML element with `id` is selected in CSS for styling using `#` followed by 
 The `id` attribute is also used to manipulate the element through DOM (Document Object Model) with JavaScript.
 
 ### Example:
+
 ```js
 function changeColor(newColor) {
     let element = document.getElementById("idOfElement");
