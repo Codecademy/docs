@@ -7,6 +7,7 @@ Subjects:
 Tags:
   - 'Favicon'
   - 'Documentation'
+  - 'Icons'
 CatalogContent:
   - 'learn-html'
   - 'paths/front-end-engineer-career-path'
