@@ -23,7 +23,7 @@ Array.Sort(myArray);
 
 ## Example
 
-The following example initializes the `letters` array with strings, then uses the `.Sort()` method to arrange the strings alphabetically. Finally, the `Console.Write()` method prints the sorted array to the console with a `foreach` loop:
+The following example initializes the `letters` array with strings, then uses the `.Sort()` method to arrange the strings alphabetically. Finally, a `foreach` loop passes each element of the sorted array to the `Console.Write()` method to be printed:
 
 ```cs
 using System;
