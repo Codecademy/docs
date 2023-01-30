@@ -17,7 +17,7 @@ Returns a specified number of rows from the top of the result.
 
 ## Syntax
 
-This command is used to select the inital rows from a table, limiting the result to a specified number, represented here by (n):
+This command is used to select the inital rows from a table, limiting the result to a specified number, represented here by `n`:
 
 ```sql
 SELECT TOP (n) column_name(s)
