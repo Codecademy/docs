@@ -16,6 +16,7 @@ CatalogContent:
 A **favicon** (short for "favorite icon") is an icon that is displayed in the browser's address bar and tab title for a website. It is used to help users quickly identify the website and distinguish it from other tabs or bookmarks.
 
 ## Syntax
+
 ```pseudo
 <head>
   <link rel="shortcut icon" type="image/x-icon" href="/path/to/favicon.ico" />
