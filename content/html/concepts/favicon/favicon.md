@@ -19,7 +19,7 @@ A **favicon** (short for "favorite icon") is an icon that is displayed in the br
 
 To add a favicon to a website, create a small image that will be used as the favicon, and then include a link to it in the `<head>` of the HTML document using the `link` element. Here's an example of how to do this:
 
-```html
+```pseudo
 <link rel="shortcut icon" type="image/x-icon" href="/path/to/favicon.ico" />
 ```
 
