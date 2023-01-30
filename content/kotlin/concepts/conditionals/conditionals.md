@@ -24,7 +24,7 @@ if(condition){
 }
 ```
 
-For example, let's suppose our bot, Qbot, can go watch a movie if it finishes its homework. To accomplish this, we can write a code that looks like:
+For example, let's suppose a bot, Qbot, can go watch a movie if it finishes its homework. To accomplish this, we can write a code that looks like:
 
 ```kotlin
 fun main(){
