@@ -48,7 +48,6 @@ Link can also target location in another page:
 
 Clicking on the link in the examples above will direct the browser screen to the location with `"my-city"` id either on the same page or on another page.
 
-
 ## Styling With `id`
 
 Similarly to the `class` attribute, `id` is typically used to assign styles to the element it identifies. However, only one specific element can be targeted with `id` (compared to the `class` attribute which can be used to target multiple elements at once).
