@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-Returns a specified number of rows from the top of the result.
+The **`TOP`** command returns a specified number of rows from the top of the result.
 
 ## Syntax
 
