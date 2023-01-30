@@ -16,9 +16,6 @@ CatalogContent:
 A **favicon** (short for "favorite icon") is an icon that is displayed in the browser's address bar and tab title for a website. It is used to help users quickly identify the website and distinguish it from other tabs or bookmarks.
 
 ## Syntax
-
-To add a favicon to a website, create a small image that will be used as the favicon, and then include a link to it in the `<head>` of the HTML document using the `link` element. Here's an example of how to do this:
-
 ```pseudo
 <link rel="shortcut icon" type="image/x-icon" href="/path/to/favicon.ico" />
 ```
