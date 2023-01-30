@@ -27,7 +27,9 @@ Syntax consists of `id` followed by the `=` assignment operator and an id name i
 Bookmarks allow users to navigate on a webpage using links leading to another location on a page (i.e. to another element) with a specific `id`.
 
 ### Example:
+
 Element with a defined `id` attribute that serves as a bookmark:
+
 ```html
 <h3 id="my-city">About my city</h3>
 ```
