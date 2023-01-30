@@ -40,7 +40,7 @@ SELECT TOP (5) *
 FROM books;
 ```
 
-The given query will display the top 25% of rows from the `films` table.
+The next query selects the top 25% of rows from the `movies` table, under just the `movie_titles` column:
 
 ```sql
 SELECT TOP (25) PERCENT movie_titles
