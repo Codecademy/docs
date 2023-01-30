@@ -1,6 +1,6 @@
 ---
 Title: '.remove()'
-Description: 'Used to remove a key-value pair from a HashMap'
+Description: 'Used to remove a key-value pair from a HashMap.'
 Subjects:
   - 'Computer Science'
 Tags:
