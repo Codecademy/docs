@@ -1,5 +1,5 @@
 ---
-Title: 'TOP'
+Title: 'SELECT TOP'
 Description: 'Returns a specified number of rows from the top of the result.'
 Subjects:
   - 'Data Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-The **`TOP`** command returns a specified number of rows from the top of the result.
+The **`SELECT TOP`** command returns a specified number of rows from the top of the result.
 
 ## Syntax
 
@@ -23,6 +23,8 @@ This command is used to select the inital rows from a table, limiting the result
 SELECT TOP (n) column_name(s)
 FROM table_name;
 ```
+
+Where `column_name(s)` is a comma delimited list of columns from the table `table_name`.
 
 The command can also be used with PERCENT to limit the result to the top `n` percent of rows:
 
