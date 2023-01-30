@@ -72,4 +72,5 @@ function changeColor(newColor) {
     element.style.color = newColor;
 }
 ```
+
 In the example above, the element is selected using the `getElementById()` method. We then change the color of that element by assigning a new value (passed in as an argument of the function) to the `style.color` property.
