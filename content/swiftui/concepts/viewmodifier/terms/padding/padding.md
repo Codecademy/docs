@@ -25,13 +25,17 @@ Text("This text has padding around it.")
 The `.padding()` modifier method uses the following optional parameters:
 
 - `edge` specifies which side(s) the padding should be applied to. The following options are possible:
-  - `.all` (default option): Applies padding to all edges of the view
-  - `.top`: Applies padding to the top edge of the view
-  - `.bottom`: Applies padding to the bottom edge of the view
-  - `.trailing`: Applies padding to the right edge of the view
-  - `.leading`: Applies padding to the left edge of the view
-  - `.vertical`: Applies padding to both the left and right edges of the view
-  - `.horizontal`: Applies padding to both the top and bottom edges of the view
+
+  | Option                  | Applies padding to               |
+  | ----------------------- | -------------------------------- |
+  | `.all` (default option) | All edges of the view            |
+  | `.top`                  | Top edge of the view             |
+  | `.bottom`               | Bottom edge of the view          |
+  | `.trailing`             | Right edge of the view           |
+  | `.leading`              | Left edge of the view            |
+  | `.horizontal`           | Top and bottom edges of the view |
+  | `.vertical`             | Left and right edges of the view |
+
 - The `amount` of padding is given in points as an integer. If given a `nil` value, SwiftUI assigns a default amount based on the device being used.
 
 Using the `.padding()` modifier method without any specified parameter results in the default behavior of the modifier: the default amount of spacing applied to all the edges of the view.
