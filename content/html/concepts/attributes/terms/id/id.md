@@ -43,7 +43,7 @@ Link to the bookmark:
 A link can also target a location on another page:
 
 ```html
-<a href="city.html#my-city">Jump to the section about my city in another page</a>
+<a href="city.html#my-city">Jump to the section about my city</a>
 ```
 
 Clicking on the link in the examples above will direct the browser screen to the location with `"my-city"` id either on the same page or on another page.
