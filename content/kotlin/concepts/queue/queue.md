@@ -51,12 +51,6 @@ val firstElement = queue.remove() // Returns 1
 val secondElement = queue.remove() // Returns 2
 ```
 
-Alternatively, you can use Queue interface which is implemented by LinkedList :
-
-```kotlin
-val queue = LinkedList<Int>().toQueue()
-```
-
 In the above example, a new `Queue` is created using the `LinkedList` class, then three elements are added to it using the `.add()` method. Then elements are removed from the `Queue` using the `.remove()` method, which returns the first element added to the `Queue` (`1`). The second and third elements (`2` and `3`) can be removed in the same way.
 
 ### Methods
