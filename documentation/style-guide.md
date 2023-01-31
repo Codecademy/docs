@@ -1,6 +1,6 @@
 # Docs Style Guide
 
-Welcome to Codecademy Docs. This document is a general guide about what standards entries should follow. Following this guide will reduce the number of potential edits that will need to be made to your PR.
+Welcome to Codecademy Docs! This document is a general guide about entry standards. Following this guide will reduce the number of potential edits that will need to be made to your PR.
 
 ## Types of Entries
 
