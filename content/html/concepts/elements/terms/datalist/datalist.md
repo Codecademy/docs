@@ -31,6 +31,10 @@ The **`<datalist>`** element displays pre-defined values to a user while typing 
 </datalist>
 ```
 
+A `<datalist>` element may have one or more [`<option>`](https://www.codecademy.com/resources/docs/html/elements/option) elements that each represent a suggestion that appears in a drop-down list when a user enters input.
+
+A <datalist> is then linked to a an [`<input>`](https://www.codecademy.com/resources/docs/html/elements/input) element by matching its `id` attribute with the `list` attribute of the `<input>` element.
+
 ## Example
 
 The following example demonstrates a datalist that autosuggests different high school subjects. Notice how the input tag and datalist are linked by matching values for the list attribute and id attribute for the input tag and datalist tag respectively.
