@@ -40,7 +40,7 @@ Link to the bookmark:
 <a href="#my-city">Navigate to the section about my city</a>
 ```
 
-Link can also target location in another page:
+A link can also target a location on another page:
 
 ```html
 <a href="city.html#my-city">Jump to the section about my city in another page</a>
