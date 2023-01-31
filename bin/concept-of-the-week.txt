@@ -1,1 +1,1 @@
-content/uiux/concepts/design/design.md
+content/css/concepts/math-functions/math-functions.md
