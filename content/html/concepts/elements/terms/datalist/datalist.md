@@ -2,19 +2,19 @@
 Title: '<datalist>'
 Description: 'Displays pre-defined values to a user while typing into an input box.'
 Subjects:
-  -'Computer Science'
-  -'Web Design'
-  -'Web Development'
+  - 'Computer Science'
+  - 'Web Design'
+  - 'Web Development'
 Tags:
-  -'Elements'
-  -'Form'
-  -'Id'
-  -'Input'
-  -'Lists'
-  -'Values'
+  - 'Elements'
+  - 'Form'
+  - 'Id'
+  - 'Input'
+  - 'Lists'
+  - 'Values'
 CatalogContent:
-  -'learn-html'
-  -'paths/front-end-engineer-career-path'
+  - 'learn-html'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 The **`<datalist>`** element displays pre-defined values to a user while typing into an input box. The user may enter any value and the `<datalist>` element will provide autosuggestions.
