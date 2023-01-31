@@ -39,7 +39,7 @@ def __init__(self, *args, **kwargs):
 
 class_instance = ClassName(1, 2)
 ```
-First `__new__()` is invoked during the construction of the object (instance of class ClassName) with the arguments 1 and 2 which are accepted within *args. The object is created by calling the `__new__()` method of the object base class which only takes in the class cls. It then returns an object which is then stored in obj and returned. This invokes the `__init__()` method of the ClassName class with the arguments (obj, *args, **kwargs).
+First `__new__()` is invoked during the construction of the object (instance of class ClassName) with the arguments 1 and 2 which are accepted within \*args. The object is created by calling the `__new__()` method of the object base class which only takes in the class cls. It then returns an object which is then stored in obj and returned. This invokes the `__init__()` method of the ClassName class with the arguments (obj, \*args, \*\*kwargs).
 
 This method has two main applications:
 
@@ -70,7 +70,7 @@ class Test(object):
 ## Codebyte Example 2
 
 
-Creating a subclass of the int class called MyInt. MyInt will have a mutable bitLength property. Note that when the int class’ __new__method is invoked `value` is passed in as the second argument. When `__new__()` returns an int object it will initialise it with `value`. The bitlength attribute as well as any other attribute can also be initialised within the `__new__()` method of myInt.
+Creating a subclass of the int class called MyInt. MyInt will have a mutable bitLength property. Note that when the int class\’ __new__method is invoked `value` is passed in as the second argument. When `__new__()` returns an int object it will initialise it with `value`. The bitlength attribute as well as any other attribute can also be initialised within the `__new__()` method of myInt.
 
 
 ```codebyte/python
