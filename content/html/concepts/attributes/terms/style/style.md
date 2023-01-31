@@ -5,7 +5,7 @@ Subjects:
   - 'Web Development'
   - 'Web Design'
 Tags:
-  - 'Style' 
+  - 'Style'
   - 'Attributes'
   - 'Elements'
   - 'Tags'
@@ -14,11 +14,11 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `style` attribute specifies how an element will be rendered in a web browser, e.g. the color or the size of a font in a paragraph.
+The `style` attribute specifies how an element will render in a web browser, e.g., the color or size of a font in a paragraph.
 
-When the `style` attribute is used inline, it overrides any styles set globally. 
+When the `style` attribute is used inline, it overrides any styles set globally.
 
-> **Note:** Most developers refrain from using the inline `style` attribute and set the style of the elements through an external CSS style sheet, which helps to keep the code clear and more easily maintained. The style can also be embedded in the `<head>` element using the `<style>` tag.
+> **Note:** Most developers refrain from using the inline `style` attribute and set the style of the elements through an external [CSS](https://www.codecademy.com/resources/docs/css) style sheet, which helps to keep the code clear and more easily maintained. The style can also be embedded in the `<head>` element using the `<style>` tag.
 
 ## Syntax
 
@@ -26,11 +26,11 @@ When the `style` attribute is used inline, it overrides any styles set globally.
 <element_tag style="property1:value;property2:value;"></element_tag>
 ```
 
-Like all global attributes, the `style` attribute supports all HTML tags and can take many properties, e.g. the `style` attribute can be used in the `<p>`, the `<h1>` or the `<hr>`.
+Like all global attributes, the `style` attribute supports all HTML tags and can take many properties, e.g., the `style` attribute can be used in the `<p>`, [`<h1>`](https://www.codecademy.com/resources/docs/html/elements/h1-h6), or [`<hr>`](https://www.codecademy.com/resources/docs/html/elements/hr) tags.
 
 ## Example
 
-In the example below, the `<p>` (paragraph) element is given a `style` attribute to specify its color, the text alignment, and the font size:
+In the example below, the `<p>` element is given a `style` attribute to specify its color, the text alignment, and the font size:
 
 ```html
 <p style="color:green;font-size:12px;text-align:center;">
