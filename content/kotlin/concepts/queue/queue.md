@@ -17,7 +17,7 @@ A **`Queue`** is a data structure that stores elements in a linear order, and fo
 
 ### Syntax
 
-The syntax for creating a queue in Kotlin using the LinkedList class is as follows :
+The syntax for creating a `Queue` in Kotlin using the `LinkedList` class is as follows:
 
 ```pseudo
 val queue = LinkedList<Type>()
