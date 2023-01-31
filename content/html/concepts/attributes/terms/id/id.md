@@ -58,7 +58,7 @@ Styling via `id` in a stylesheet:
 
 ```css
 #my-city {
-
+  color:#ff0000;
 }
 ```
 
