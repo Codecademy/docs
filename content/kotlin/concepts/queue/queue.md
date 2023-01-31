@@ -29,7 +29,7 @@ Where `Type` is the type of elements that the `Queue` will hold, for example, to
 val queue = LinkedList<Int>()
 ```
 
-You can also use the Queue interface which is implemented by LinkedList :
+The `Queue` interface, which is implemented by `LinkedList`, can also be used:
 
 ```pseudo
 val queue = LinkedList<Type>().toQueue()
