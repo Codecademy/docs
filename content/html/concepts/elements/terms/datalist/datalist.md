@@ -17,7 +17,7 @@ CatalogContent:
   -'paths/front-end-engineer-career-path'
 ---
 
-A **`<datalist>`** is a HTML element that displays pre-defined values to a user while typing into an input box. The user retains the freedom to enter any value, the `<datalist>` will provide autosuggestions.
+The **`<datalist>`** element displays pre-defined values to a user while typing into an input box. The user may enter any value and the `<datalist>` element will provide autosuggestions.
 
 ##Syntax
 
