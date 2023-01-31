@@ -1,6 +1,6 @@
 ---
 Title: '.substring()'
-Description: 'Returns a part of the string specified through starting and an optional ending index. If ending index is not specified, then the substring expands to the end of original string.'
+Description: 'Returns a part of the string specified through a starting index and an optional ending index.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -12,40 +12,36 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.substring()`** method returns a part of the string specified through starting and an optional ending index. If the ending index is not provided, then the substring expands to the end of of original string.
+The **`.substring()`** method returns a part of the string specified through a starting index and an optional ending index. If the ending index is not provided, then the substring will run from the starting index to the end of the original string.
 
 ## Syntax
 
 ```pseudo
-// Returns substring from startIndex to the end of string
-string.substring(int startIndex);
-
-// Returns substring from startIndex to (endIndex - 1)
-string.substring(int startIndex, int endIndex);
+string.substring(startIndex);
+string.substring(startIndex, endIndex);
 ```
-
-## Details
 
 - `.substring()` returns characters from start index up to, but not including, the character at the end index.
 
-- If the end index is omitted `.substring()` returns characters from the start index up through the end of the string.
+- If the end index is omitted `.substring()` returns characters from the start index to the end of the string.
 
 - If the start and end indexes are equal, `.substring()` returns an empty string.
 
-- If `startIndex` is negative, greater than the `end`, or greater than the length of the sequence then a [`StringIndexOutOfBoundsException`](https://www.codecademy.com/resources/docs/java/errors/stringindexoutofboundsexception) is thrown.
+- If `startIndex` is greater than the `endIndex`, greater than the length of the sequence, or if either index is negative then a [`StringIndexOutOfBoundsException`](https://www.codecademy.com/resources/docs/java/errors/stringindexoutofboundsexception) is thrown.
 
 ## Example
 
-Using `.substring()` to display characters from a given string.
+The following example uses `.substring()` to display a subset of characters from a given string.
 
 ```java
+// Example.java
 public class Example {
   public static void main(String[] args) {
-    String str = "Java is cool!";
-    // printing last 5 characters of str
-    System.out.println(str.substring(str.length() - 5));
-    // printing first 4 characters of str
-    System.out.println(str.substring(0, 5));
+    String blurb = "Java is cool!";
+    // Printing last 5 characters of blurb
+    System.out.println(blurb.substring(blurb.length() - 5));
+    // Printing first 4 characters of blurb
+    System.out.println(blurb.substring(0, 5));
   }
 }
 ```
