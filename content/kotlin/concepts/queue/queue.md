@@ -23,7 +23,7 @@ The syntax for creating a `Queue` in Kotlin using the `LinkedList` class is as f
 val queue = LinkedList<Type>()
 ```
 
-Where Type is the type of elements that the queue will hold, for example, if you want to store integers, you can use Int as the type :
+Where `Type` is the type of elements that the `Queue` will hold, for example, to store integers, use `Int` as the type :
 
 ```pseudo
 val queue = LinkedList<Int>()
