@@ -6,23 +6,23 @@ Welcome to Codecademy Docs! This document is a general guide about entry standar
 
 There are three types of Docs entries:
 
-- Topics
-  - Written by the maintainers as needed.
-  - Cover a broad category such as a programming languages like [Java](https://www.codecademy.com/resources/docs/java) and [C++](https://www.codecademy.com/resources/docs/cpp), or extensive subjects like ([Open Source](https://www.codecademy.com/resources/docs/open-source) and [Cybersecurity](https://www.codecademy.com/resources/docs/cybersecurity).
-  - Vary in structure from a couple of paragraphs to a multiple-sectioned entry.
-- Concepts
-  - Provided as a list under each topic.
-  - Cover a small piece of the parent topic such as a class, library, control structure, or language element.
-  - For non-language topics, can be any discrete subject within the parent topic. (Such as [Linux](https://www.codecademy.com/resources/docs/open-source/linux) under [Open Source](https://www.codecademy.com/resources/docs/open-source))
-  - For [General](https://www.codecademy.com/resources/docs/general) concepts, can be any computer/code related subject not broad enough for its own topic entry.
-  - Concepts typically have at least a couple of paragraphs and multiple sections. (see: [Headers/Sections](#headerssections))
-  - We provide a [template for a concept entry](https://github.com/Codecademy/docs/blob/main/documentation/entry-template.md).
-- Terms
-  - Are provided as a list under each parent concept.
-  - Cover small elements of a concept, typically a method, function, property, or command.
-  - Terms are typically shorter in length than concepts.
-  - Terms typically have no more than two or three sections. (see: [Headers/Sections](#headerssections))
-  - We provide a [template for a term entry](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md).
+### Topics
+- Written by the maintainers as needed.
+- Cover a broad category such as a programming languages like [Java](https://www.codecademy.com/resources/docs/java) and [C++](https://www.codecademy.com/resources/docs/cpp), or extensive subjects like ([Open Source](https://www.codecademy.com/resources/docs/open-source) and [Cybersecurity](https://www.codecademy.com/resources/docs/cybersecurity).
+- Vary in structure from a couple of paragraphs to a multiple-sectioned entry.
+### Concepts
+- Provided as a list under each [topic](#topics).
+- Cover a small piece of the parent topic such as a class, library, control structure, or language element.
+- For non-language topics, can be any discrete subject within the parent topic. (Such as [Linux](https://www.codecademy.com/resources/docs/open-source/linux) under [Open Source](https://www.codecademy.com/resources/docs/open-source))
+- For [General](https://www.codecademy.com/resources/docs/general) concepts, can be any computer/code related subject not broad enough for its own topic entry.
+- Concepts typically have at least a couple of paragraphs and multiple sections. (see: [Headers/Sections](#headerssections))
+- We provide a [template for a concept entry](https://github.com/Codecademy/docs/blob/main/documentation/entry-template.md).
+### Terms
+- Are provided as a list under each parent [concept](#concepts).
+- Cover small elements of a concept, typically a method, function, property, or command.
+- Terms are typically shorter in length than concepts.
+- Terms typically have no more than two or three sections. (see: [Headers/Sections](#headerssections))
+- We provide a [template for a term entry](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md).
 
 ## Writing Entries
 
@@ -160,6 +160,7 @@ CatalogContent:
 - Do not use boldface or italics in the title or description.
 - The description should be short, typically one sentence.
 - The description should be echoed in the introductory paragraph of the entry, i.e. The information in the description should appear in the introduction to the entry.
+- The description for a coding term should begin with a present-tense verb, i.e. "Returns", "Calculates", "Outputs", etc.
 - `CatalogContent:` appears without spaces.
 - The items for `Subjects:`, `Tags:`, and `CatalogContent:` appear as bulleted lists of single-quoted strings, starting on the next line.
 - The items for `Subjects:`, `Tags:`, and `CatalogContent:` are indented two spaces before the dash.
