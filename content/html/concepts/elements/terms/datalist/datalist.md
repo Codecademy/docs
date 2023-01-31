@@ -1,19 +1,16 @@
 ---
 Title: '<datalist>'
 Description: 'Displays pre-defined values to a user while typing into an input box.'
-Subjects:
-  -'Computer Science'
+Subjects: -'Computer Science'
   -'Web Design'
   -'Web Development'
-Tags:
-  -'Elements'
+Tags: -'Elements'
   -'Form'
   -'Id'
   -'Input'
   -'Lists'
   -'Values'
-CatalogContent:
-  -'learn-html'
+CatalogContent: -'learn-html'
   -'paths/front-end-engineer-career-path'
 ---
 
@@ -46,14 +43,14 @@ The following example demonstrates a `<datalist>` that autosuggests different sc
     <title>Learning About Datalists</title>
   </head>
   <body>
-    <input list="school-subjects" name="subject-choice" id="subject-choice">
+    <input list="school-subjects" name="subject-choice" id="subject-choice" />
     <datalist id="school-subjects">
-      <option value="English">
-      <option value="Math">
-      <option value="History">
-      <option value="Physics">
-      <option value="Biology">
-      <option value="Economics">
+      <option value="English"></option>
+      <option value="Math"></option>
+      <option value="History"></option>
+      <option value="Physics"></option>
+      <option value="Biology"></option>
+      <option value="Economics"></option>
     </datalist>
   </body>
 </html>
