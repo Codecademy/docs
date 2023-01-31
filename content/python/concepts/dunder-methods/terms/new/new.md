@@ -47,7 +47,7 @@ This method has two main applications:
 - Subclassing of immutable types which cannot be initialized via a simple __init__method.
 
 
-## Codebyte Example
+## Codebyte Example 1
 
 In this example the number of instances of Test is limited to ‘MaxNumberOfInstances’:
 
@@ -67,9 +67,11 @@ class Test(object):
         self.value = value
 ```
 
+## Codebyte Example 2
 
-Subclassing an immutable type
-Creating a subclass of the int class called MyInt. MyInt will have a mutable bitLength property. Note that when the int class’ __new__method is invoked ‘value’ is passed in as the second argument. When `__new__()` returns an int object it will initialise it with ‘value’. The bitlength attribute as well as any other attribute can also be initialised within the `__new__()` method of myInt.
+
+Creating a subclass of the int class called MyInt. MyInt will have a mutable bitLength property. Note that when the int class’ __new__method is invoked `value` is passed in as the second argument. When `__new__()` returns an int object it will initialise it with `value`. The bitlength attribute as well as any other attribute can also be initialised within the `__new__()` method of myInt.
+
 
 ```codebyte/python
 class MyInt(int):
