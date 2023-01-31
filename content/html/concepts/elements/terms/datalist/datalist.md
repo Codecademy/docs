@@ -37,7 +37,7 @@ A <datalist> is then linked to a an [`<input>`](https://www.codecademy.com/resou
 
 ## Example
 
-The following example demonstrates a datalist that autosuggests different high school subjects. Notice how the input tag and datalist are linked by matching values for the list attribute and id attribute for the input tag and datalist tag respectively.
+The following example demonstrates a `<datalist>` that autosuggests different school subjects. Its `id` is matched with the `<input>` element's `list` attribute, thus linking the two:
 
 ```html
 <!DOCTYPE html>
