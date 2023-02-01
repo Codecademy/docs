@@ -43,5 +43,6 @@ public class MyClass {
 This will print the following output:
 
 ```shell
+Hello World
 HELLO WORLD
 ```
