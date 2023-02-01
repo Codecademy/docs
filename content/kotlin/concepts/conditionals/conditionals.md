@@ -59,7 +59,7 @@ fun main(){
     val FinishedHomeWork = false
     if (FinishedHomeWork){
         print("Can go to watch the movie")
-    else{
+    }else{
         print("Cannot go out to watch movie")
     }
 }
