@@ -52,13 +52,3 @@ val secondElement = queue.remove() // Returns 2
 ```
 
 In the above example, a new `Queue` is created using the `LinkedList` class, then three elements are added to it using the `.add()` method. Then elements are removed from the `Queue` using the `.remove()` method, which returns the first element added to the `Queue` (`1`). The second and third elements (`2` and `3`) can be removed in the same way.
-
-### Methods
-
-The following are the basic methods available for the queue :
-
-- queue.add(element: Type) - Adds an element to the end of the queue
-- queue.remove() - Removes and returns the first element in the queue
-- queue.peek() - Returns the first element in the queue without removing it.
-- queue.isEmpty() - Returns true if the queue is empty, otherwise false.
-- queue.size - Returns the number of elements in the queue.
