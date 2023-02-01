@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Conditionals** are commands in kotlin that handle decisions. With conditionals, code is dynamic, which means that it can behave differently given a different condition. In conditionals statements we can write different code blocks which can execute when the condition is met.
+**Conditionals** are commands in Kotlin that handle decisions. With conditionals, code is dynamic, which means that it can behave differently given a different condition. In conditionals statements different code blocks can be written which can execute when the condition is met.
 
 ## If statement
 
