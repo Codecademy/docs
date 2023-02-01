@@ -23,7 +23,7 @@ The `.toUpperCase()` method returns a new string, so it must be assigned to a va
 
 ## Example
 
-The following example showcases the `.toUpperCase()` method:
+The following example applies the `.toUpperCase()` method to the given text:
 
 ```java
 
