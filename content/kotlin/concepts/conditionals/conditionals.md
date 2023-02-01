@@ -73,7 +73,7 @@ Cannot go out to watch movie
 
 ## If else-if statement
 
-By placing one `if-else` block after another, we form a structure known as `if else-if`. It is a structure that checks conditions one after another until it finds the first one that is fulfilled, and it calls its body. If all the conditions return false, the `else` block is called.
+By placing one `if-else` block after another, a structure is formed known as `if else-if`. It is a structure that checks conditions one after another until it finds the first one that is fulfilled, and it calls its body. If all the conditions return false, the `else` block is called.
 
 ```pseudo
 if (condition1) {
