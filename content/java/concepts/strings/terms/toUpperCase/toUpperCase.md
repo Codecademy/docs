@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.toUpperCase()`** method converts all the lowercase letters of a string into uppercase and returns that upper-cased string.
+The **`.toUpperCase()`** method converts all the lowercase letters of a string to uppercase and returns that new string.
 
 ## Syntax
 
