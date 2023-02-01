@@ -4,7 +4,6 @@ Description: 'Returns a given string in all uppercase letters'
 Subjects:
   - 'Computer Science'
 Tags:
-  - 'Booleans'
   - 'Strings'
   - 'Methods'
 CatalogContent:
