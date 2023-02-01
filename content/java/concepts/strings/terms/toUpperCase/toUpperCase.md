@@ -1,6 +1,6 @@
 ---
 Title: '.toUpperCase()'
-Description: 'Returns the string in uppercase letter'
+Description: 'Returns a given string in all uppercase letters'
 Subjects:
   - 'Computer Science'
 Tags:
