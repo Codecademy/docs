@@ -16,7 +16,7 @@ CatalogContent:
 
 ## If statement
 
-We use the `if` statement to invoke conditional code. In other words, the code will only run `if` a predicate is fulfilled.
+The `if` statement is used to invoke conditional code. In other words, the code will only run `if` a predicate is fulfilled.
 
 ```pseudo
 if(condition){
