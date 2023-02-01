@@ -32,6 +32,7 @@ public class MyClass {
     
     String text = "Hello World";
     String textUp = text.toUpperCase();
+    System.out.println(text);
     System.out.println(textUp);
   }
 }
