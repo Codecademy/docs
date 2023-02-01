@@ -1,6 +1,6 @@
 ---
 Title: 'TCP SYN Scan'
-Description: 'Performs a scan that can indicate open, filtered, and closed port states with a reduced risk of detection, since it never completes a full TCP connection.'
+Description: 'Performs a scan that can indicate open, filtered and closed port states with a reduced risk of detection, since it never completes a full TCP connection'
 Subjects:
   - 'Networking'
   - 'Cybersecurity'
@@ -14,17 +14,17 @@ CatalogContent:
   - 'paths/scan-systems-with-nmap'
 ---
 
-A **TCP SYN scan** runs by default when running Nmap as the root user or Administrator. It is the most popular scan option according to [Nmap.org](https://nmap.org/book/synscan.html). Quick and efficient, this scan can indicate open, filtered, and closed port states. It is requested by passing the `-sS` option to Nmap, but when running as the root user or Administrator, `-sS` is usually omitted. Also known as the half-open scan, it never completes the full TCP connection, so it's less likely to be blocked by firewalls.
+A **TCP SYN scan** runs by default when running Nmap as root or Administrator. It is the most popular scan option according to [Nmap.org](https://nmap.org). Quick and efficient, this scan can indicate open, filtered and closed port states. Also known as the half-open scan, it never completes the full TCP connection, so is less likely to be blocked by firewalls.
 
 ## Syntax
 
-Root privileges are required to perform a TCP SYN scan and the target can be any system with an established network connection. The following command performs a scan on `<target>` after entering the user password when prompted:
+To perform a TCP SYN scan the `-sS` option is passed to Nmap. Root privileges are required and the target can be any system with an established network connection. The following command performs a scan on `<target>` after entering the user password when prompted:
 
 ```pseudo
 sudo nmap -sS <target>
 ```
 
-> **Note:** `sudo` stands for "superuser do" and grants root or Administrator access.
+> **Note:** If logged as root or Administrator, both `sudo` and `-sS` can be omitted. `sudo` stands for "superuser do" and grants root or Administrator access.
 
 ## Example
 
