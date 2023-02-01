@@ -26,7 +26,7 @@ The `.toUpperCase()` method returns a new string, so it must be assigned to a va
 The following example applies the `.toUpperCase()` method to the given text:
 
 ```java
-
+// MyClass.java
 public class MyClass {
   public static void main(String[] args) {
     
