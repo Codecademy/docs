@@ -35,7 +35,7 @@ Concepts typically have at least a few paragraphs and multiple sections. (see: [
 - Do not use italics for new terms.
 - Always expand and explain abbreviations when using them for the first time.
 - When referring to properties and methods, include the leading dot, and for methods include trailing parenthesis: `.property`, `.method()`.
-- When referring to elements as they would appear in code (properties, methods, functions, commands, expressions, etc.) set them off with Markdown’s inline-code syntax i.e. backticks: (\`...\`). (see: [Code](#code))
+When referring to elements as they would appear in code (properties, methods, functions, commands, expressions, etc.) use Markdown’s inline-code syntax i.e. backticks: (\`...\`). (see: [Code](#code))
 - With bulleted lists:
   - A line break should precede and follow the list.
   - There should be no line breaks between items in the list.
