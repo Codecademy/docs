@@ -9,13 +9,13 @@ There are three types of Docs entries:
 ### Topics
 - Written by the maintainers as needed.
 - Cover a broad category such as a programming languages like [Java](https://www.codecademy.com/resources/docs/java) and [C++](https://www.codecademy.com/resources/docs/cpp), or extensive subjects like ([Open Source](https://www.codecademy.com/resources/docs/open-source) and [Cybersecurity](https://www.codecademy.com/resources/docs/cybersecurity).
-Vary in structure from a few paragraphs to a multiple-sectioned entry.
+- Vary in structure from a few paragraphs to a multiple-sectioned entry.
 ### Concepts
 - Provided as a list under each [topic](#topics).
-- Cover a small piece of the parent topic such as a class, library, control structure, or language element.
-For non-language topics, the entry can be any discrete subject within the parent topic. (Such as [Linux](https://www.codecademy.com/resources/docs/open-source/linux) under [Open Source](https://www.codecademy.com/resources/docs/open-source))
-For [General](https://www.codecademy.com/resources/docs/general) concepts, the entry can be any computer/code related subject not broad enough for its own topic entry.
-Concepts typically have at least a few paragraphs and multiple sections. (see: [Headers/Sections](#headerssections))
+- Cover a small piece of the parent topic such as a [class](https://www.codecademy.com/resources/docs/general/class), library, control structure, or language element.
+- For non-language topics, the entry can be any discrete subject within the parent topic. (Such as [Linux](https://www.codecademy.com/resources/docs/open-source/linux) under [Open Source](https://www.codecademy.com/resources/docs/open-source))
+- For [General](https://www.codecademy.com/resources/docs/general) concepts, the entry can be any computer/code related subject not broad enough for its own topic entry.
+- Concepts typically have at least a few paragraphs and multiple sections. (see: [Headers/Sections](#headerssections))
 - We provide a [template for a concept entry](https://github.com/Codecademy/docs/blob/main/documentation/entry-template.md).
 ### Terms
 - Are provided as a list under each parent [concept](#concepts).
@@ -35,14 +35,14 @@ Concepts typically have at least a few paragraphs and multiple sections. (see: [
 - Do not use italics for new terms.
 - Always expand and explain abbreviations when using them for the first time.
 - When referring to properties and methods, include the leading dot, and for methods include trailing parenthesis: `.property`, `.method()`.
-When referring to elements as they would appear in code (properties, methods, functions, commands, expressions, etc.) use Markdown’s inline-code syntax i.e. backticks: (\`...\`). (see: [Code](#code))
+- When referring to elements as they would appear in code (properties, methods, functions, commands, expressions, etc.) use Markdown’s inline-code syntax i.e. backticks: (\`...\`). (see: [Code](#code))
 - With bulleted lists:
   - A line break should precede and follow the list.
   - There should be no line breaks between items in the list.
   - Full sentences should be punctuated appropriately, with leading capitals and ending punctuation.
 - Avoid using first and second person pronouns, i.e. "I", "we", and "you".
 - Avoid words or phrases that assume the reader’s knowledge such as "easy", "obviously", "simply", "of course", and so on.
-- Always use an Oxford comma.
+- Always use an [Oxford comma](https://www.grammarly.com/blog/what-is-the-oxford-comma-and-why-do-people-care-so-much-about-it/).
 - Limit the entry to the concept or term being illustrated. i.e. if you find yourself writing about a method or property in a concept entry, it would be better to give it its own term entry.
 - Use a "note" to inform the reader of points of potential confusion or warn of potential pitfalls.
   - A "note" occupies its own line with line breaks before and after.
