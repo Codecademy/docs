@@ -47,18 +47,22 @@ people = {
 # Initial DataFrame
 df = pd.DataFrame(people)
 print("Original DataFrame:")
-print(df.head())
+print(df)
+
 
 # Example 1
 
-df2 = df.drop_duplicates(inplace=False)
+df1 = df.drop_duplicates(inplace=False)
+
 print("\nExample 1 DataFrame:")
-print(df2.head())
+print(df1)
+
 
 # Example 2 
 df.drop_duplicates(subset=['Name'], keep='last', inplace=True, ignore_index=True)
 print("\nExample 2 DataFrame:")
-print(df.head())
+print(df)
+
  ```
 
 This will produce the following output:
