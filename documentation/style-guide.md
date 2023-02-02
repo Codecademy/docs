@@ -72,7 +72,7 @@ Concept and term entries for a language function, method, command or other langu
 
 ## Code
 
-Markdown inline code syntax, i.e. single backticks (\`...\`), should be used to set off the following:
+Markdown inline code syntax, i.e. single backticks (\`...\`), should be used for the following:
 
 - Classes, methods, functions, commands and other language keywords.
 - References, such as variable or macro names, referring to a code block.
