@@ -15,7 +15,7 @@ Vary in structure from a few paragraphs to a multiple-sectioned entry.
 - Cover a small piece of the parent topic such as a class, library, control structure, or language element.
 For non-language topics, the entry can be any discrete subject within the parent topic. (Such as [Linux](https://www.codecademy.com/resources/docs/open-source/linux) under [Open Source](https://www.codecademy.com/resources/docs/open-source))
 For [General](https://www.codecademy.com/resources/docs/general) concepts, the entry can be any computer/code related subject not broad enough for its own topic entry.
-- Concepts typically have at least a couple of paragraphs and multiple sections. (see: [Headers/Sections](#headerssections))
+Concepts typically have at least a few paragraphs and multiple sections. (see: [Headers/Sections](#headerssections))
 - We provide a [template for a concept entry](https://github.com/Codecademy/docs/blob/main/documentation/entry-template.md).
 ### Terms
 - Are provided as a list under each parent [concept](#concepts).
