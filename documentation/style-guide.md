@@ -8,7 +8,7 @@ There are three types of Docs entries:
 
 ### Topics
 - Written by the maintainers as needed.
-- Cover a broad category such as a programming languages like [Java](https://www.codecademy.com/resources/docs/java) and [C++](https://www.codecademy.com/resources/docs/cpp), or extensive subjects like ([Open Source](https://www.codecademy.com/resources/docs/open-source) and [Cybersecurity](https://www.codecademy.com/resources/docs/cybersecurity).
+- Cover a broad category such as a programming languages like [Java](https://www.codecademy.com/resources/docs/java) and [C++](https://www.codecademy.com/resources/docs/cpp), or extensive subjects like [Open Source](https://www.codecademy.com/resources/docs/open-source) and [Cybersecurity](https://www.codecademy.com/resources/docs/cybersecurity).
 - Vary in structure from a few paragraphs to a multiple-sectioned entry.
 ### Concepts
 - Provided as a list under each [topic](#topics).
