@@ -1,6 +1,6 @@
 ---
 Title: '.frame()'
-Description: 'Applies an invisible frame around the View with the specified sizes.'
+Description: 'Applies an invisible frame around the view with the specified sizes.'
 Subjects:
   - 'Mobile Development'
   - 'iOS'
