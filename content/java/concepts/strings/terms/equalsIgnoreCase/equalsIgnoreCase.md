@@ -42,7 +42,7 @@ System.out.pritln("Is the second string equal to the third string? The answer is
 
 "The example above will have this output as a result:"
 
-```
+```output
 Is the first string equal to the second string? The answer is: true
 The example above will have the output: Is the second string equal to the third string? The answer is: false
 ```
