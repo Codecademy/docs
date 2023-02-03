@@ -17,11 +17,11 @@ The **`.equalsIgnoreCase()`** method compares strings and then then gives an out
 ```pseudo
 boolean result = stringOne.equalsIgnoreCase(stringTwo);
 ```
-On the syntax above, we have three different variables. One of them being a boolean type variable, the other two being a string type variable. As mentioned on the description of this method, `.equalsIgnoreCase()` compares strings in a case insensitive way, so if the values stored in the strings are same, the result stored in `result` will be true. Otherwise, it will be false.
+In the syntax above, there are three different variables. One of them, `result` being a boolean type variable, the other two being a string type variables. If the values stored in the strings are same, ignoring the case, the result stored in `result` will be true. Otherwise, it will be false.
 
 ## Example
 
-On the example below, there are three different strings named `firstString`, `secondString`, and `thirdString`. To store the result two boolean type variables are created, which are called `firstResult` and `secondResult`. With the `.equalsIgnoreCase()` method, the values assigned to strings are compared. As a result, there is an output of true, if the strings compared have the same values, and an output of false, if the values assigned to those strings are different. Then, as mentioned in the beginning, those values are stored in two different boolean type variables and the result is printed.
+In the example below, there are three different strings named `firstString`, `secondString`, and `thirdString`. To store the result, two boolean type variables are created, which are called `firstResult` and `secondResult`. With the `.equalsIgnoreCase()` method, the values assigned to strings are compared. As a result, there is an output of true, if the strings compared have the same values, and an output of false if the values assigned to those strings are different. Then, as mentioned in the beginning, those values are stored in two different boolean type variables and the result is printed.
 
 ```java
 String firstString="welcome"; 
@@ -34,7 +34,7 @@ boolean secondResult = secondString.equalsIgnoreCase(thirdString);
 System.out.pritln("Is the second string equal to the third string? The answer is: " + secondResult);
 ```
 
-"The example above will have this output as a result:"
+The example above will have this output as a result:
 
 ```output
 Is the first string equal to the second string? The answer is: true
