@@ -152,6 +152,7 @@ CatalogContent:
   - 'path/example-path'
 ---
 ```
+> **Note:** The template above does not apply to topic entries. See our [topic entry template](https://github.com/Codecademy/docs/blob/main/documentation/topic-info-template.md) for more details.
 
 - The metadata starts on the first line of the entry.
 - The metadata begins and ends with three dashes (`---`) on their own line.
