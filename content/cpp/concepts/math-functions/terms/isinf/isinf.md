@@ -1,6 +1,6 @@
 ---
 Title: 'isinf()'
-Description: 'Returns a value indicating whether the argument is an infinite value.'
+Description: 'Returns a value indicating whether or not the argument is an infinite value.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`isinf()`** function returns a value indicating whether the argument has an infinite value.
+The **`isinf()`** function returns a value indicating whether or not the argument is an infinite value.
 
 ## Syntax
 
@@ -49,7 +49,9 @@ int main() {
 
 This produces the following output:
 
-This produces the following output:
+```shell
+Not infinite
+```
 
 ## Codebyte Example
 
@@ -71,6 +73,7 @@ int main() {
   else {
     std::cout << "Result: Is infinite" << "\n";
   }
+
   if (result2 == 0) {
     std::cout << "Result2: Not infinite" << "\n";
   }
