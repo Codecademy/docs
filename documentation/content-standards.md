@@ -60,7 +60,7 @@ All entry file names use the `.md` format along with the following standards:
 - Each subsection should begin with a heading of size h2. (i.e., preceded by `##`)
 - All in-line code should be delineated by single backticks. (`)
 
-#### Code Blocks
+### Code Blocks
 
 Code examples are an excellent teaching tool. Many term entries will contain a code example as a standard field. Encyclopedia entries are more flexible, but if your encyclopedia entry doesn't contain any code blocks, take a moment to ask yourself if one would help! For details on how to format code blocks see the [Docs Style Guide](https://github.com/Codecademy/docs/blob/main/documentation/style-guide.md#code).
 
@@ -89,7 +89,7 @@ All code blocks should be delineated by triple backticks (```).
 - SQL: ```sql
 - Swift: ```swift
 
-#### Codebytes: Runnable Code Blocks
+### Codebytes: Runnable Code Blocks
 
 Codecademy has a new feature called [Codebytes](https://www.codecademy.com/codebyte-editor) that will allow learners to click a button to run code blocks themselves! The output to the console will appear next to the code block.
 
