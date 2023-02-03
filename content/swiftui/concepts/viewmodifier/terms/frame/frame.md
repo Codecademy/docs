@@ -50,7 +50,7 @@ The `.frame()` modifier method has the following optional parameters:
 
 > **NOTE:** The `.frame()` modifier method can be used with one parameter specified (either `height` or `width`) or two parameters specified (`height` and `width`, or `alignment` and one sizing parameter) or with all three parameters specified.
 
-### Defining a flexible frame
+### Defining a Flexible Frame
 
 ```pseudo
 Text("Some text is here.")
