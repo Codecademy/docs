@@ -115,7 +115,8 @@ In code blocks:
     - Use codebyte blocks appropriate to the language. (see: [Codebytes in Content Standards](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md#codebytes-runnable-code-blocks).)
     - They are usually preceded by a description of what the example does.
     - They are not followed by an "Output" block.
-- Code blocks may appear differently than the above if the entry warrants it.
+
+> **Note:** Code blocks may appear differently than the above if the entry warrants it.
 
 ## Links
 
