@@ -83,7 +83,7 @@ Markdown inline code syntax, i.e. single backticks (\`...\`), should be used for
 In code blocks:
 
 - Do not use tabs for indents. Use two spaces.
-- In code given as examples, the entire block should be runnable as written.
+- In code examples, the entire block should be runnable as written.
 - All code blocks should be syntactically correct.
 - Examples should be complete and not be broken into smaller blocks.
 - Comments should be capitalized and punctuated like a normal sentence.
