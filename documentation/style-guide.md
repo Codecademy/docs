@@ -46,7 +46,8 @@ There are three types of Docs entries:
 - Limit the entry to the concept or term being illustrated. i.e., if you find yourself writing about a method or property in a concept entry, it would be better to give it its own term entry.
 - Use a "note" to inform the reader of points of potential confusion or to warn of potential pitfalls.
   - A "note" occupies its own line with line breaks before and after.
-  - A "note" uses the Markdown blockquote (`>`) format followed by the word "Note:" in bold (`**`), followed by the note text: `> **Note:** Note Text.`
+  - A "note" uses the Markdown blockquote (`>`) format followed by the word "Note:" in bold (`**`), followed by the note text:
+    - `> **Note:** Note Text.`
   - A "note" should be brief. Generally, one line of text.
 - Be as concise as possible without sacrificing clarity.
 - Always check for grammar and spelling errors.
