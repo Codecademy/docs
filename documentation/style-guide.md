@@ -160,7 +160,7 @@ CatalogContent:
 - Do not use boldface or italics in the title or description.
 - The description should be short, typically one sentence.
 - The description should be repeated in the introductory paragraph of the entry, i.e., The information in the description should appear in the introduction to the entry.
-- The description for a coding term should begin with a present-tense verb, i.e. "Returns", "Calculates", "Outputs", etc.
+- The description for a coding term should begin with a present-tense verb, i.e., "Returns", "Calculates", "Outputs", etc.
 - `CatalogContent:` appears without spaces.
 - The items for `Subjects:`, `Tags:`, and `CatalogContent:` appear as bulleted lists of single-quoted strings, starting on the next line.
 - The items for `Subjects:`, `Tags:`, and `CatalogContent:` are indented two spaces before the dash.
