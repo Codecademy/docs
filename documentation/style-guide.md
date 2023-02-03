@@ -43,7 +43,7 @@ There are three types of Docs entries:
 - Avoid using first and second person pronouns, i.e. "I", "we", and "you".
 - Avoid words or phrases that assume the reader’s knowledge such as "easy", "obviously", "simply", "of course", and so on.
 - Always use an [Oxford comma](https://www.grammarly.com/blog/what-is-the-oxford-comma-and-why-do-people-care-so-much-about-it/).
-- Limit the entry to the concept or term being illustrated. i.e. if you find yourself writing about a method or property in a concept entry, it would be better to give it its own term entry.
+- Limit the entry to the concept or term being illustrated. i.e., if you find yourself writing about a method or property in a concept entry, it would be better to give it its own term entry.
 - Use a "note" to inform the reader of points of potential confusion or warn of potential pitfalls.
   - A "note" occupies its own line with line breaks before and after.
   - A "note" uses the Markdown blockquote format followed by the word "Note:" in bold, followed by the note text: `> **Note:** Note Text.`
