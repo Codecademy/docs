@@ -35,17 +35,17 @@ The `dir` attribute is used to set the base direction of text for display. It is
 >  **Note:** While declaring the directionality of the document in the html tag, don't forget to also declare the language of the document using the `lang` attribute. However, do not make the mistake of assuming that language declarations indicate directionality, or vice versa! Even if the language declaration has a script tag it won't affect the directionality of the text in the user agent. The directionality must always be declared using the `dir` attribute.
 
 ## Example 1:
-
-\<p dir="rtl">This paragraph is in English but incorrectly goes right to left.\</p>
-
+```html
+<p dir="rtl">This paragraph is in English but incorrectly goes right to left.</p>
+```
 This results in the following output:
 
 <p  dir="rtl">This paragraph is in English but incorrectly goes right to left.</p>
 
 ## Example 2:
-
-\<p dir="ltr">This paragraph is in English and correctly goes left to right.\</p>
-
+```html
+<p dir="ltr">This paragraph is in English and correctly goes left to right.</p>
+```
 This results in the following output:
 
 <p  dir="ltr">This paragraph is in English and correctly goes left to right.</p>
