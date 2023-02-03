@@ -62,7 +62,7 @@ All entry file names use the `.md` format along with the following standards:
 
 #### Code Blocks
 
-Code examples are an excellent teaching tool. Many term entries will contain a code example as a standard field. Encyclopedia entries are more flexible, but if your encyclopedia entry doesn't contain any code blocks, take a moment to ask yourself if one would help!
+Code examples are an excellent teaching tool. Many term entries will contain a code example as a standard field. Encyclopedia entries are more flexible, but if your encyclopedia entry doesn't contain any code blocks, take a moment to ask yourself if one would help! For details on how to format code blocks see the [Docs Style Guide](https://github.com/Codecademy/docs/blob/main/documentation/style-guide.md#code).
 
 All code blocks should be delineated by triple backticks (```).
 
@@ -121,17 +121,11 @@ Currently, Codebytes supports the following languages:
 
 ### Metadata
 
-| Variable Name    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                         | Example                                                                                             |
-| ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| `Title`          | The title of the entry. This will be displayed on the page at the top.                                                                                                                                                                                                                                                                                                                                                                              | Title: "OOP"                                                                                        |
-| `Description`    | A brief description (ideally under 150 characters) used in search engine results and content previews                                                                                                                                                                                                                                                                                                                                               | Description: "A brief description of OOP"                                                           |
-| `Subjects`       | Languages and technical fields that the entry relates to. We're storing all of our Subjects in the [subjects.md file](https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). Please only use Subjects from that list.<br /> - We aim to include an average of 1-2 subjects (and always at least 1!) with every entry.                                                                                                             | Subjects:<br /> - "Computer Science"<br /> - "Game Development"                                     |
-| `Tags`           | Key words that are relevant to the entry. We're storing all of our Tags in the [tags.md file](https://github.com/Codecademy/docs/blob/main/documentation/tags.md). Please only use Tags from that list, but if that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!<br /> - We aim to include an average of 3-4 tags with every entry.                                                                     | Tags:<br /> - "React"<br /> - "URL"<br /> - "Strings"<br />                                         |
-| `CatalogContent` | Slugs of Codecademy course and Path landing pages that relate to the entry. We're storing all of our slugs in the [catalog-content.md file](https://github.com/Codecademy/docs/blob/main/documentation/catalog-content.md).<br /> - Please avoid linking to individual content items, because their URLs may change and some are gated by Pro membership.<br /> - We aim to include 2 slugs with every entry (1 free course and 1 Pro course/Path). | CatalogContent:<br /> - "introduction-to-javascript"<br /> - "paths/front-end-engineer-career-path" |
+Each entry must begin with a metadata section. For guides to writing an entry's metadata, see the [Docs Style Guide](https://github.com/Codecademy/docs/blob/main/documentation/style-guide.md#metadata) and the templates for [concept entries](https://github.com/Codecademy/docs/blob/main/documentation/entry-template.md) and [term entries](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md).
 
-> **Note:** The template above does not apply to _topic_ entries. See our [topic entry template](https://github.com/Codecademy/docs/blob/main/documentation/topic-info-template.md) for more details.
+> **Note:** Topic entries follow a different metadata template than concepts and terms. See our [topic entry template](https://github.com/Codecademy/docs/blob/main/documentation/topic-info-template.md) for more details.
 
-#### General Writing Tips
+### General Writing Tips
 
 - Avoid referencing information that isn't strictly related to the topic of the entry. As a rule, you want to assume as little pre-existing knowledge as possible.
 - Avoid using first- and second-person pronouns (e.g. "I", "we", "you") if possible.
@@ -148,7 +142,7 @@ Currently, Codebytes supports the following languages:
 - Re-read your contents carefully, considering every line written.
 - The description of your content should contain keywords for SEO purposes.
 
-#### File Hosting
+### File Hosting
 
 If you'd like to host files such as images, videos, or GIFs, please upload it to the [/media folder](https://github.com/Codecademy/docs/tree/main/media) and use the format `https://raw.githubusercontent.com/Codecademy/docs/main/media/filename.ext`. That way we'll never have any broken links!
 
