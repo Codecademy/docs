@@ -1,31 +1,17 @@
 ---
-
 Title:
-
--  'dir'
-
+- 'dir'
 Description:
-
--  'Specifies the text direction of the content of an element.'
-
+- 'Specifies the text direction of the content of an element.'
 Subjects:
-
--  'Web Development'
-
--  'Web Design'
-
+- 'Web Development'
+- 'Web Design'
 Tags:
-
--  'Attribute'
-
--  'Value'
-
+- 'Attribute'
+- 'Value'
 Catalog Content:
-
--  'learn-html'
-
--  'paths/front-end-engineer-career-path'
-
+- 'learn-html'
+- 'paths/front-end-engineer-career-path'
 ---
 
 The **`dir`** global attribute specifies the text direction of an HTML element's content.
@@ -38,7 +24,8 @@ The `dir` attribute is used to set the base direction of text for display. It is
 <element  dir="ltr | rtl | auto">
 ```
 
-## Possible Attribute Values:
+## Possible Attribute Values: 
+
 |Value |Description |
 |--|--|
 | ltr| Default: Left-to-right text direction, such as English|
@@ -47,18 +34,18 @@ The `dir` attribute is used to set the base direction of text for display. It is
 
 >  **Note:** While declaring the directionality of the document in the html tag, don't forget to also declare the language of the document using the `lang` attribute. However, do not make the mistake of assuming that language declarations indicate directionality, or vice versa! Even if the language declaration has a script tag it won't affect the directionality of the text in the user agent. The directionality must always be declared using the `dir` attribute.
 
-## Example:
+## Example 1:
 
 \<p dir="rtl">This paragraph is in English but incorrectly goes right to left.\</p>
 
-#### Output:
+This results in the following output:
 
 <p  dir="rtl">This paragraph is in English but incorrectly goes right to left.</p>
 
-## Example:
+## Example 2:
 
 \<p dir="ltr">This paragraph is in English and correctly goes left to right.\</p>
 
-#### Output:
+This results in the following output:
 
 <p  dir="ltr">This paragraph is in English and correctly goes left to right.</p>
