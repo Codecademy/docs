@@ -19,7 +19,7 @@ The **`.frame()`** modifier method applies an invisible frame around the [`View`
 
 The `.frame()` modifier can create a fixed- or flexible-sized frame for the view. A fixed frame has a specified width and/or height. In contrast, a flexible frame can shrink and grow the view depending on the surroundings and content of the view. In both cases, the `.frame()` modifier takes various parameters for the dimensions and alignment of the created frame. Some parameters are optional and can be left out entirely or passed `nil` as a value.
 
-### Defining a fixed frame
+### Defining a Fixed Frame
 
 ```pseudo
 Text("Some text is here.")
