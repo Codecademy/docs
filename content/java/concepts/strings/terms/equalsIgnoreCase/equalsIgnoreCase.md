@@ -15,15 +15,9 @@ The **`.equalsIgnoreCase()`** method compares strings and then then gives an out
 ## Syntax
 
 ```pseudo
-String nameOfYourString = "the value you assign";
-String nameOfYourString2 = "THE VALUE YOU ASSIGN";
-String nameOfYourString3 = "Value you assing";
-boolean nameOfYourVariable = nameOfYourString.equalsIgnoreCase(nameOfYourString2);
-System.out.pritln(nameOfYourString.equalsIgnoreCase(nameOfYourString2)); //output of this will be true.
-boolen nameOfYourVariable2 = nameOfYourString2.equalsIgnoreCase(nameOfYourString3);
-System.out.pritln(nameOfYourString.equalsIgnoreCase(nameOfYourString3)); //output of this will be false.
+boolean result = stringOne.equalsIgnoreCase(stringTwo);
 ```
-In the Syntax (psuedo code) above, we created three different strings, and assigned them to three different values. Then, created two different boolean type variables and made them equal to our condition. For the last part, we have our print commands. The print result will be determined by comparing the values we assigned to the strings in a case in-sensitive manner. If the strings are equal to the same values, the program will print `true`. Otherwise, the program will print `false`.  
+On the syntax above, we have three different variables. One of them being a boolean type variable, the other two being a string type variable. As mentioned on the description of this method, `.equalsIgnoreCase()` compares strings in a case insensitive way, so if the values stored in the strings are same, the result stored in `result` will be true. Otherwise, it will be false.
 
 ## Example
 
@@ -46,3 +40,4 @@ System.out.pritln("Is the second string equal to the third string? The answer is
 Is the first string equal to the second string? The answer is: true
 The example above will have the output: Is the second string equal to the third string? The answer is: false
 ```
+
