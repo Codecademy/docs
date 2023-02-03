@@ -18,29 +18,31 @@ The **`.equalsIgnoreCase()`** method compares strings and then then gives an out
 String nameOfYourString = "the value you assign";
 String nameOfYourString2 = "THE VALUE YOU ASSIGN";
 String nameOfYourString3 = "Value you assing";
+boolean nameOfYourVariable = nameOfYourString.equalsIgnoreCase(nameOfYourString2);
 System.out.pritln(nameOfYourString.equalsIgnoreCase(nameOfYourString2)); //output of this will be true.
+boolen nameOfYourVariable2 = nameOfYourString2.equalsIgnoreCase(nameOfYourString3);
 System.out.pritln(nameOfYourString.equalsIgnoreCase(nameOfYourString3)); //output of this will be false.
 ```
+In the Syntax (psuedo code) above, we created three different strings, and assigned them to three different values. Then, created two different boolean type variables and made them equal to our condition. For the last part, we have our print commands. The print result will be determined by comparing the values we assigned to the strings in a case in-sensitive manner. If the strings are equal to the same values, the program will print `true`. Otherwise, the program will print `false`.  
 
 ## Example
 
-On the example below, we have three different strings named firstString, secondString, and thirdString. To store the result we created two boolean type variables, which are called firstResult and secondResult. With the **.equalsIgnoreCase()** method, we will be comparing the values we've assigned to strings. As a result, we will get an output of true, if the strings we compare have the same values. However, we will be getting an output of false, if the values we assigned to those strings are different. Then, as mentioned in the beginning, we will store those values in two different boolean type variables and print the result.
+On the example below, there are three different strings named `firstString`, `secondString`, and `thirdString`. To store the result two boolean type variables are created, which are called `firstResult` and `secondResult`. With the `.equalsIgnoreCase()` method, the values assigned to strings are compared. As a result, there is an output of true, if the strings compared have the same values, and an output of false, if the values assigned to those strings are different. Then, as mentioned in the beginning, those values are stored in two different boolean type variables and the result is printed.
 
-```example
-String firstString="welcome";  //decleration of the first string.
-String secondString="WELcome"; //decleration of the second string.
-string thirdString="Hello there"; //decleration of the third string.
-boolean firstResult = firstString.equalsIgnoreCase(secondString); //We created a boolean type variable here and named it firstResult, and we store the result in it. Result being the output of true or false after comparing firstString and the secondString.
-System.out.pritln("Is the first string equal to the second string? The answer is: " + firstResult); //both firstString and the secondString have the same value so the output will be true.
+```java
+String firstString="welcome"; 
+String secondString="WELcome"; 
+string thirdString="Hello there"; 
+boolean firstResult = firstString.equalsIgnoreCase(secondString);
+System.out.pritln("Is the first string equal to the second string? The answer is: " + firstResult);
 
-boolean secondResult = secondString.equalsIgnoreCase(thirdString); //We created another boolean type variable and named it secondResult. It will store the result in it. Result being the output of true or false depending on comparison of second and the third string.
+boolean secondResult = secondString.equalsIgnoreCase(thirdString);
 System.out.pritln("Is the second string equal to the third string? The answer is: " + secondResult);
 ```
 
-"The example above will have these outputs as a result:"
+"The example above will have this output as a result:"
 
 ```
 Is the first string equal to the second string? The answer is: true
 The example above will have the output: Is the second string equal to the third string? The answer is: false
 ```
-
