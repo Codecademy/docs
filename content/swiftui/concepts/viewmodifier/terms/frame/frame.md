@@ -95,6 +95,6 @@ In the above example, the `.frame()` modifier is called on the `Text` view. The 
 
 > **Note:** The `.frame()` modifier method does not apply a border around the view. Here the `.border()` modifier method is used to visualize the frame.
 
-This will display the following::
+This will display the following:
 
 ![SwiftUI ViewModifier .frame()](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-frame.png)
