@@ -172,7 +172,7 @@ CatalogContent:
   - Items are key words that are relevant to the entry.
   - Items come from [this list](https://github.com/Codecademy/docs/blob/main/documentation/tags.md).
   - Should have three to four items.
-  - If you wish to use a new tag, add it in the appropriate place in the [tags.md](https://github.com/Codecademy/docs/blob/main/documentation/tags.md) file as part of your PR.
+  - If you wish to use a new tag, add it in the appropriate place (alphabetical order) in the [tags.md](https://github.com/Codecademy/docs/blob/main/documentation/tags.md) file as part of your PR.
 - For `CatalogContent:`
   - Items are slugs of Codecademy course and Path landing pages that relate to the entry.
   - For items, use [this document](https://github.com/Codecademy/docs/blob/main/documentation/catalog-content.md) as a guide.
