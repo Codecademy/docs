@@ -24,6 +24,16 @@ There are three types of Docs entries:
 - Terms typically have no more than two or three sections. (see: [Headers/Sections](#headerssections))
 - We provide a [template for a term entry](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md).
 
+## File Names
+
+- All entry file names use the `.md` file extension.
+- They must match the title of the entry in the metadata. (e.g., "Three.js" -> `three-js.md`) (see: [Metadata](#metadata))
+- Words must be separated by dashes, not spaces or underscores. (e.g., "Data Types" -> `data-types.md`)
+  - If the title or name is meant to be in PascalCase: "HashTable" -> `hashtable.md`
+  - If the title or name is meant to be in camelCase: ".forEach()" -> `forEach.md` (without the `.` and `()`).
+- The name should always begin with a lowercase letter. (e.g., "Array" -> `array.md`, "HTML" -> `html.md`)
+- Punctuation must not be included in the file name, even if it exists in the entry name. (e.g., "Moore's Law" -> `moores-law.md`, "Three.js" -> `three-js.md`, `.nextAfter()` -> `nextAfter.md`)
+
 ## Writing Entries
 
 - Entries _must_ be completely original work. Copying from other websites (in whole or in part) is plagiarism and is unacceptable in Docs.
@@ -98,7 +108,7 @@ In code blocks:
   - "Example" blocks.
     - Used with a `## Example` header. (also `## Examples` or `## Example 2` etc.)
     - Shows example code.
-    - Use blocks appropriate to the language used. (see: [Code Blocks in Content Standards](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md#code-blocks).)
+    - Use blocks appropriate to the language used. (see: [Supported Code Blocks](#supported-code-blocks).)
     - They are usually preceded by a description of what the example does.
     - Often followed by an "Output" block.
     - Output should be illustrated in a separate "Output" block rather than listed as comments in the example code.
@@ -112,11 +122,50 @@ In code blocks:
     - Typically, only one per entry.
     - Typically, appears at the end of the entry.
     - Displays example code that is runnable.
-    - Use codebyte blocks appropriate to the language. (see: [Codebytes in Content Standards](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md#codebytes-runnable-code-blocks).)
+    - Use codebyte blocks appropriate to the language. (see: [Supported Codebyte Blocks](#supported-codebyte-blocks).)
     - They are usually preceded by a description of what the example does.
     - They are not followed by an "Output" block.
 
 > **Note:** Code blocks may appear differently than the above if the entry warrants it.
+
+### Supported Code Blocks
+
+Code blocks can reference a language to support syntax highlighting. The following languages are supported:
+
+- C: ` ```c `
+- C#: ` ```cs `
+- C++: ` ```cpp `
+- CSS: ` ```css `
+- Error: ` ```error `
+- Emojicode: ` ```emojic `
+- Golang: ` ```go `
+- HTML: ` ```html `
+- Java: ` ```java `
+- JavaScript: ` ```js `
+- Markdown: ` ```md `
+- PHP: ` ```php `
+- Plaintext: ` ```plaintext `
+- Pseudo: ` ```pseudo `
+- Python: ` ```py `
+- R: ` ```r `
+- Ruby: ` ```rb `
+- Sass: ` ```scss `
+- Scheme: ` ```scheme `
+- Shell/Program Output: ` ```shell `
+- SQL: ` ```sql `
+- Swift: ` ```swift `
+
+### Supported Codebyte Blocks
+
+Codebytes can be used with the following languages:
+
+- C++: ` ```codebyte/cpp `
+- C#: ` ```codebyte/csharp `
+- Go: ` ```codebyte/golang `
+- JavaScript: ` ```codebyte/javascript `
+- PHP: ` ```codebyte/php `
+- Python: ` ```codebyte/python `
+- Ruby: ` ```codebyte/ruby `
 
 ## Links
 
@@ -126,8 +175,20 @@ In code blocks:
 - You are encouraged to link out to other relevant Docs topics, concepts, or terms the first time they appear.
 - In some cases, it may be appropriate to link out to external standards documents or entities. (Example: [XML 1.0 Specification](http://www.w3.org/TR/REC-xml), [World Wide Web Consortium](https://www.w3.org/standards/), [Red Hat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux))
 - When linking items outside the document, use the full path. When linking to items inside the document (i.e. Headers) use a relative path.
-- Images are stored in the media folder and should be linked to using the following url: "https://raw.githubusercontent.com/Codecademy/docs/main/media/" followed by the image name. (Note the image link will not work until a PR is merged.)
 - If there are parentheses in the link, replace them with `%28` and `%29`.
+
+## File Hosting
+
+- If you'd like to host files such as images, or GIFs, please upload it to the [/media folder](https://github.com/Codecademy/docs/tree/main/media).
+- Images should be linked to using the following url: "https://raw.githubusercontent.com/Codecademy/docs/main/media/" followed by the image name.
+- File names should use dashes (`-`) to separate words rather than spaces or underscores.
+- File names should be in lower case.
+- Images should be used for diagrams, UI illustrations, and showing output to the user.
+- Images should not be used to illustrate code. [Code blocks](#code) should be used instead.
+ 
+> **Note:** Image links will not work until a PR is merged.
+
+> **Note:** Some existing images may use `https://static-assets.codecademy.com/Courses/` in their links. These come from existing Codecademy course content and are for internal use only. Please disregard those and use the above format instead.
 
 ## Metadata
 
