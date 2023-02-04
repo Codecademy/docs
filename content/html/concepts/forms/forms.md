@@ -1,6 +1,6 @@
 ---
 Title: 'Forms'
-Description: 'In HTML, __forms__ are used for gathering and sending user input to an external source for processing.'
+Description: 'In HTML, **forms** are used for gathering and sending user input to an external source for processing.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
