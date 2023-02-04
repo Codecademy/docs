@@ -7,17 +7,22 @@ Welcome to Codecademy Docs! This document is a general guide about entry standar
 There are three types of Docs entries:
 
 ### Topics
+
 - Written by the maintainers as needed.
 - Cover a broad category such as a programming languages like [Java](https://www.codecademy.com/resources/docs/java) and [C++](https://www.codecademy.com/resources/docs/cpp), or extensive subjects like [Open Source](https://www.codecademy.com/resources/docs/open-source) and [Cybersecurity](https://www.codecademy.com/resources/docs/cybersecurity).
 - Vary in structure from a few paragraphs to a multiple-sectioned entry.
+
 ### Concepts
+
 - Provided as a list under each [topic](#topics).
 - Cover a small piece of the parent topic such as a [class](https://www.codecademy.com/resources/docs/general/class), library, control structure, or language element.
 - For non-language topics, the entry can be any discrete subject within the parent topic. (Such as [Linux](https://www.codecademy.com/resources/docs/open-source/linux) under [Open Source](https://www.codecademy.com/resources/docs/open-source))
 - For [General](https://www.codecademy.com/resources/docs/general) concepts, the entry can be any computer/code related subject not broad enough for its own topic entry.
 - Concepts typically have at least a few paragraphs and multiple sections. (see: [Headers/Sections](#headerssections))
 - We provide a [template for a concept entry](https://github.com/Codecademy/docs/blob/main/documentation/entry-template.md).
+
 ### Terms
+
 - Are provided as a list under each parent [concept](#concepts).
 - Cover small elements of a concept, typically a method, function, property, or command.
 - Terms are typically shorter in length than concepts.
@@ -185,7 +190,7 @@ Codebytes can be used with the following languages:
 - File names should be in lower case.
 - Images should be used for diagrams, UI illustrations, and showing output to the user.
 - Images should not be used to illustrate code. [Code blocks](#code) should be used instead.
- 
+
 > **Note:** Image links will not work until a PR is merged.
 
 > **Note:** Some existing images may use `https://static-assets.codecademy.com/Courses/` in their links. These come from existing Codecademy course content and are for internal use only. Please disregard those and use the above format instead.
@@ -213,6 +218,7 @@ CatalogContent:
   - 'path/example-path'
 ---
 ```
+
 > **Note:** The template above does not apply to topic entries. See our [topic entry template](https://github.com/Codecademy/docs/blob/main/documentation/topic-info-template.md) for more details.
 
 - The metadata starts on the first line of the entry.
