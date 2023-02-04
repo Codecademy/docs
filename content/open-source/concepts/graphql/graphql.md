@@ -35,7 +35,7 @@ Before adopting GraphQL, developers should be familiar with RESTful architecture
 
 A common GraphQL workflow can be seen below:
 
-1. First, specific data is requested from the client via a query to GraphQL server.
+1. First, specific data is requested from the client via a query to the GraphQL server.
 2. To retrieve that data, a function on the GraphQL server is invoked.
 3. Lastly, the GraphQL server returns the specific data requested by the client.
 
