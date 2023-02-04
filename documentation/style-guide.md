@@ -103,7 +103,7 @@ In code blocks:
   - "Syntax" blocks.
     - Used with a `## Syntax` header.
     - Shows the general syntax of a language element.
-    - Use ```pseudo blocks.
+    - Use ` ```pseudo ` blocks.
     - They are usually followed by a description of parameters, return values etc.
   - "Example" blocks.
     - Used with a `## Example` header. (also `## Examples` or `## Example 2` etc.)
@@ -115,7 +115,7 @@ In code blocks:
   - "Output" blocks.
     - Follows an "Example" block.
     - Shows the output from an example.
-    - Use a ```shell block.
+    - Use a ` ```shell ` block.
     - Usually preceded by a sentence like, "This example results in the following output:"
   - "Codebyte Example" blocks.
     - Used with a `## Codebyte Example` header.
