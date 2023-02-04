@@ -17,43 +17,43 @@ The **`.sort_values()`** function sorts values in a [`DataFrame`](https://www.co
 ## Syntax
 
 ```pseudo
-dataframevalue.sort_values(by, *, axis=0, ascending=True, inplace=False, kind='quicksort', na_position='last', ignore_index=False, key=None)
+dataframevalue.sort_values(by, axis=0, ascending=True, inplace=False, kind='quicksort', na_position='last', ignore_index=False, key=None)
 ```
 
 `.sort_values()` uses the following parameters:
 - `by`: `Name` or `list of names` to sort by.
-- `axis`: Specify which axis will be sorted.
-- `ascending`: Specify whether the sort will be ascending or descending (True or False).
-- `inplace`: By setting it to True, the operation will be performed on the original DataFrame and the function will return None.
-- `kind`: Choose which algorithm to use: ‘quicksort’, ‘mergesort’, ‘heapsort’, or ‘stable’. For more information click [here](https://numpy.org/doc/stable/reference/generated/numpy.sort.html#numpy.sort).
-- `na_position`: Specify where to put the NaN values.
-- `ignore_index`: Ignore the original index and put the new ascending row of numbers in its place.
+- `axis`: Specify which axis will be sorted (0 or index, 1 or columns), it defaults to 0.
+- `ascending`: Specify whether the sort will be ascending or descending (`True` or `False`), it defaults to `True`.
+- `inplace`: By setting it to `True`, the operation will be performed on the original `DataFrame` and the function will return None, it defaults to `False`.
+- `kind`: Choose which algorithm to use: ‘quicksort’, ‘mergesort’, ‘heapsort’, or ‘stable’, it defaults to `quicksort`. For more information click [here](https://numpy.org/doc/stable/reference/generated/numpy.sort.html#numpy.sort).
+- `na_position`: Specify where to put the `NaN` values, it defaults to `last`.
+- `ignore_index`: Ignore the original index and put a new ascending set of values in its place. The default is `False`.
 - `key`: Apply a function before sorting.
 
 ## Example
 
-This example demonstrates the usage of `.sort_values()`.
+In the example below a DataFrame is created and sorted in multiple ways by applying the `.sort_values()` method and altering the parameters passed.
 
 ```py
-#Import pandas and numpy
+# Import pandas and numpy
 import pandas as pd
 import numpy as np
 
-#Create the DataFrame
+# Create the DataFrame
 df = pd.DataFrame({'numbers': [2, 2, 5, 9, np.nan, 1],
                    'letters': ['D', 'A', 'B', 'Z', np.nan, 'C']})
 
-#Sort by the column 'numbers'.
+# Sort by the column 'numbers'
 print(df.sort_values(by=['numbers']), end='\n\n')
 
-#Sort by the columns 'numbers' and 'letters'.
+# Sort by the columns 'numbers' and 'letters'
 print(df.sort_values(by=['numbers', 'letters']), end='\n\n')
 
-#Sort by the column 'numbers' and put NaN values first.
+# Sort by the column 'numbers' and put NaN values first
 print(df.sort_values(by=['numbers'], na_position='first'), end='\n\n')
 ```
 
-This is the output of the code:
+The output will look like this:
 ```shell
    numbers letters
 5      1.0       C
