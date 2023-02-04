@@ -39,7 +39,7 @@ A common GraphQL workflow can be seen below:
 2. To retrieve that data, a function on the GraphQL server is invoked.
 3. Lastly, the GraphQL server returns the specific data requested by the client.
 
-In a system like REST, only a single set of arguments can be passed in: the query parameters and URL segments of the request. But in GraphQL, every field and nested object has its own set of arguments, making GraphQL a complete replacement for making multiple API fetches. By passing arguments into scalar fields, data transformations can be implemented on the server rather than on every individual client, which can be more efficient.
+In a system like REST, only a single set of arguments can be passed in: the query parameters and [URL](https://www.codecademy.com/resources/docs/general/url) segments of the request. But in GraphQL, every field and nested object has its own set of arguments, making GraphQL a complete replacement for making multiple API fetches. By passing arguments into scalar fields, data transformations can be implemented on the server rather than on every individual client, which can be more efficient.
 
 ![source="https://graphql.org/learn/queries/"](https://raw.githubusercontent.com/Codecademy/docs/main/media/GraphQL-parameters-example.png)
 
