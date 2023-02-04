@@ -1,43 +1,50 @@
 ---
-Title: '<p>'
-Description: 'The <p> element defines a paragraph.'
+Title: 'Paragraphs'
+Description: 'Paragraphs are block-level elements that contain and display a block of text. They are enclosed by an opening and closing tag.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
 Tags:
   - 'Paragraph'
-  - 'Elements'
 CatalogContent:
   - 'learn-html'
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`<p>`** element, also known as the "paragraph" element, Browsers automatically add a single blank line before and after earch <p> element. Paragraph element **`<p>`** contains and displays a block of text. They are among the most common text-based HTML elements.
+Paragraph element `<p>` contains and displays a block of text. They are among the most common text-based HTML elements.
+
+They are block-level, which means it is as wide as it's parent element and as tall as its content's height.
 
 ## Syntax
-```pseudo
-<p>This is some text in a paragraph.</p>
+
+The pargraph element is enclosed by an opening `<p>` tag and a closing `</p>` tag:
+
+```html
+<p>
+  This is a block of text! Lorem ipsum dolor sit amet, consectetur adipisicing
+  elit.
+</p>
 ```
 
 ## Example
 
-The following example shows a list of [links](https://www.codecademy.com/resources/docs/html/paragraphs) that utilize the `<p>` element:
 ```html
 <!DOCTYPE html>
 <html>
   <body>
     <div style="width: 50%; margin: auto; border: 2px solid black;">
-      <!-- Paragraph Tag -->
       <p style="padding: 10px; font-family: system-ui;">
         It was love at first sight. The first time Yossarian saw the chaplain he
         fell madly in love with him. Yossarian was in the hospital with a pain
         in his liver that fell just short of being jaundice.
       </p>
-      <!-- Paragraph Tag -->
     </div>
   </body>
 </html>
 ```
 
-The rendered output would look like this:
-![Rendered paragraph tags](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-paragraph-example.png)
+![Paragraph example](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-paragraph-example.png)
+
+## Accessibility with Paragraphs
+
+Paragraphs are relatively easy for accessibility devices, such as screen readers, to find and process. The more `<p>` elements, the better.
