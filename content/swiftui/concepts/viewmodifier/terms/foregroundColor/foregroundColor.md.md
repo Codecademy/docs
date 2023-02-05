@@ -1,7 +1,19 @@
-﻿
-
+﻿---
+Title: .foregroundColor()
+Description: The .foregroundColor() modifier sets the foreground color displayed in a view.
+Subjects:
+ - 'SwiftUI'
+Tags: 
+ - 'SwiftUI'
+ - 'Modifier'
+ - 'View'
+ CatalogContent:
+ - 'learn-swiftUI'
+ - docs/content/swiftui/concepts/viewmodifier/terms/foregroundColor
+---
 # .foregroundColor ()
 The `.foregroundColor()` modifier sets the foreground color displayed in a [View](https://www.codecademy.com/resources/docs/swiftui/views).
+
 
 
 ## Syntax
