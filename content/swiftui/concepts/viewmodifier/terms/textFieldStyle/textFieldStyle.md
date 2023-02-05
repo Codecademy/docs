@@ -30,17 +30,11 @@ The style passed as an argument to `.textFieldStyle()` is applied to the `TextFi
 
 Here are some of the available built-in `TextField` styles:
 
-### .automatic
+- `.automatic` applies the default style to a text field.
 
-`.automatic` applies the default style to a text field.
+- `.plain` does not apply any styles to a text field.
 
-### .plain
-
-`.plain` does not apply any styles to a text field.
-
-### .roundedBorder
-
-`.roundedBorder` applies a rounded border to a text field.
+- `.roundedBorder` applies a rounded border to a text field.
 
 ## Examples
 
