@@ -69,7 +69,7 @@ There are three types of Docs entries:
 
 ## Headers/Sections
 
-- Do not use any h1 headers (in Markdown preceded by `#`).
+- Do not use any `h1` headers (in Markdown preceded by `#`).
 - Do not include a title header, that is automatically provided by the metadata.
 - Do not include a header before the introductory paragraph(s).
 - Main headers should be h2 (`##`).
