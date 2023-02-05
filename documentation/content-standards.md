@@ -44,7 +44,7 @@ We'll describe the standards for each of these components separately.
 
 ### File Name
 
-All entry file names use the `.md` format and follow the standards listed under "File Names" in the [Docs Style Guide](https://github.com/Codecademy/docs/blob/main/documentation/style-guide.md#file-names).
+All entry file names use the `.md` format and follow the standards listed under ["File Names" in the Docs Style Guide](https://github.com/Codecademy/docs/blob/main/documentation/style-guide.md#file-names).
 
 ### Content
 
