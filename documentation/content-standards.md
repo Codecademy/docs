@@ -106,7 +106,7 @@ Each entry must begin with a metadata section. For guides to writing an entry's 
 
 ### File Hosting
 
-You may use images or GIFs in your entries. They are often helpful in illustrating content, especially output to the end user. To attach an image to your entry, use the guidelines specified in the [Docs Style Guide](https://github.com/Codecademy/docs/blob/main/documentation/style-guide.md#file-hosting).
+You may use images or GIFs in your entries. They are often helpful in illustrating content, especially output to the end user. To attach an image to your entry, use the guidelines specified under ["File Hosting" in the Docs Style Guide](https://github.com/Codecademy/docs/blob/main/documentation/style-guide.md#file-hosting).
 
 ### I've read all the content standards. Now what?
 
