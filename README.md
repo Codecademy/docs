@@ -16,7 +16,6 @@ Docs is live with over 1000 high-quality entries. Now that the MVP is out, our g
 ### 📝 Content Team
 
 - [@lucwhite](https://github.com/lucwhite), Curriculum Developer
-- [@dusch4593](https://github.com/dusch4593), Content Contributor
 - [@yangc95](https://github.com/yangc95), Content Contributor
 - [@KTom101](https://github.com/KTom101), Content Contributor
 - [@caupolicandiaz](https://github.com/caupolicandiaz), Content Contributor
