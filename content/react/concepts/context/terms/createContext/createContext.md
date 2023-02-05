@@ -1,6 +1,6 @@
 ---
-Title: 'React createContext()'
-Description: 'The createContext() function is used to create an instance of the Context API.'
+Title: 'createContext()'
+Description: 'Creates an instance of the Context API.'
 Subjects:
   - 'Web Development'
 Tags:

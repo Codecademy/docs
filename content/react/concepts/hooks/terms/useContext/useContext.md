@@ -1,5 +1,5 @@
 ---
-Title: 'React useContext()'
+Title: 'useContext()'
 Description: 'Hook to use the React Context API in components.'
 Subjects:
   - 'Web Development'
