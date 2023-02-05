@@ -17,7 +17,6 @@ CatalogContent:
 
 A **Color** view is a way to incorporate colors in the user interface. It can be used to modify the backgrounds.
 
-
 ## Syntax
 
 ```pseudo
