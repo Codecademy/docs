@@ -1,6 +1,6 @@
 ---
 Title: '.sort_values()'
-Description: 'Sorts values in a DataFrame based on the specified column or columns.'
+Description: 'Sorts values in a DataFrame by one or more selected columns or rows.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -21,7 +21,7 @@ dataframevalue.sort_values(by, axis=0, ascending=True, inplace=False, kind='quic
 ```
 
 `.sort_values()` uses the following parameters:
-- `by`: `Name` or `list of names` to sort by.
+- `by`: A label or a list of labels to sort by (levels can also be specified if applicable).
 - `axis`: Specify which axis will be sorted (0 or index, 1 or columns), it defaults to 0.
 - `ascending`: Specify whether the sort will be ascending or descending (`True` or `False`), it defaults to `True`.
 - `inplace`: By setting it to `True`, the operation will be performed on the original `DataFrame` and the function will return None, it defaults to `False`.
