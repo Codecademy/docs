@@ -76,7 +76,7 @@ console.log('Hello, World!');
 ```
 ````
 
-For a list of supported languages, see "Supported Codebyte Blocks" in the [Docs Style Guide](https://github.com/Codecademy/docs/blob/main/documentation/style-guide.md#supported-codebyte-blocks)
+For a list of supported languages, see ["Supported Codebyte Blocks" in the Docs Style Guide](https://github.com/Codecademy/docs/blob/main/documentation/style-guide.md#supported-codebyte-blocks)
 
 > **Note:** Codebytes sometimes requires the code block to include some boilerplate code. To check what boilerplate is required for your language, select the language from the dropdown [in this demo page](https://www.codecademy.com/codebyte-editor). There you'll find a "Hello World!" program set up as an example!
 
