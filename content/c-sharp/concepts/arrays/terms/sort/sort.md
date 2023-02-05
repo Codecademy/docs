@@ -19,7 +19,7 @@ The **`.Sort()`** array method arranges the elements of an array in ascending or
 Array.Sort(myArray);
 ```
 
-`.Sort()` is a static method of the `Array` object. It takes one parameter, `myArray`, a one-dimensional zero-based array. The `.Sort()` method arranges the elements of the given array in ascending or alphabetical order.
+`.Sort()` is a static method of the `Array` object. It takes one parameter, `myArray`, a one-dimensional zero-based array.
 
 ## Example
 
@@ -33,7 +33,9 @@ public class Example
   public static void Main(string[] args)
   {
     string[] letters = {"M", "Y", "E", "T", "P"};
+
     Array.Sort(letters);
+
     foreach (string letter in letters)
     {
       System.Console.Write(letter + " ");
@@ -60,10 +62,12 @@ public class Example
   public static void Main(string[] args)
   {
     int[] numbers = {5895, 4810, 5364};
+
     Array.Sort(numbers);
+
     foreach (int number in numbers)
     {
-      System.Console.Write(number + " "); // Output: 4810 5364 5895 
+      System.Console.Write(number + " ");
     }
   }
 }
