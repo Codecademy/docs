@@ -13,13 +13,13 @@ CatalogContent:
 
 The **`<p>`** element, also known as the paragraph element, contains and displays a block of text. They are among the most common text-based HTML elements.
 
-They are block-level, which means it is as wide as it's parent element and as tall as its content's height. In addition, browsers automatically add a single blank line before and after earch <p> element.
+They are block-level, which means it is as wide as its parent element and as tall as its content's height. In addition, browsers automatically add a single blank line before and after each <p> element.
 
 ## Syntax
 
-The pargraph element is enclosed by an opening `<p>` tag and a closing `</p>` tag:
+The paragraph element is enclosed by an opening `<p>` tag and a closing `</p>` tag:
 
-```html
+```pseudo
 <p>This is some text in a paragraph.</p>
 ```
 
