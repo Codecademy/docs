@@ -47,7 +47,7 @@ The output would be:
 As seen above, the string given contains a `%` character followed by a letter to indicate what type of value will be formatted there. Some common ones are shown below:
 
 | Format Specifier(s) | Type(s)         |
-| ------------------- | ----------------|
+| ------------------- | --------------- |
 | `%c`                | char            |
 | `%f` or `%g`        | double or float |
 | `%d` or `%i`        | int             |
