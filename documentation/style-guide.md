@@ -72,8 +72,8 @@ There are three types of Docs entries:
 - Do not use any `h1` headers (in Markdown preceded by `#`).
 - Do not include a title header, that is automatically provided by the metadata.
 - Do not include a header before the introductory paragraph(s).
-- Main headers should be h2 (`##`).
-- Sub headers should be h3 (`###`).
+- Main headers should be `h2` (`##`).
+- Sub headers should be `h3` (`###`).
 - Headers should be written in Title Case.
 - Headers should not include ending punctuation.
 - Headers should not exceed 5 words.
