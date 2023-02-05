@@ -54,7 +54,7 @@ All entry file names use the `.md` format and follow the standards listed under 
 
 ### Code Blocks
 
-Code examples are an excellent teaching tool. Many term entries will contain a code example as a standard field. Encyclopedia entries are more flexible, but if your encyclopedia entry doesn't contain any code blocks, take a moment to ask yourself if one would help! For details on how to format code blocks see "Code" in the [Docs Style Guide](https://github.com/Codecademy/docs/blob/main/documentation/style-guide.md#code).
+Code examples are an excellent teaching tool. Many term entries will contain a code example as a standard field. Encyclopedia entries are more flexible, but if your encyclopedia entry doesn't contain any code blocks, take a moment to ask yourself if one would help! For details on how to format code blocks see ["Code" in the Docs Style Guide](https://github.com/Codecademy/docs/blob/main/documentation/style-guide.md#code).
 
 All code blocks should be delineated by triple backticks (```). Languages can be specified for syntax highlighting. For a list of supported languages, see "Supported Code Blocks" in the [Docs Style Guide](https://github.com/Codecademy/docs/blob/main/documentation/style-guide.md#supported-code-blocks)
 
