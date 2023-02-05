@@ -1,4 +1,19 @@
 
+---
+Title: 'Color'
+Description: 'Creates a color view, modifying the background color.'
+Subjects:
+  - 'Software Development'
+  - 'mOBILE Development'
+  - 'Computer Science'
+Tags:
+  - 'SwiftUI'
+  - 'SwiftUI Views'
+  - 'Views'
+CatalogContent:
+  - 'learn-swiftui'
+  - 'paths/build-ios-apps-with-swiftui'
+---
 
 A **Color** view is a way to incorporate colors in the user interface. It can be used to modify the backgrounds.
 
