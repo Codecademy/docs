@@ -31,7 +31,7 @@ class Example {
     String domain = "codecademy.com";
 
     // Output will be true as "codecademy.com" ends in "com"
-    boolbean bool = domain.endsWith("com");
+    boolean bool = domain.endsWith("com");
     
     System.out.println(bool)
   }
