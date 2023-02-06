@@ -109,7 +109,7 @@ In code blocks:
     - Used with a `## Syntax` header.
     - Shows the general syntax of a language element.
     - Use ` ```pseudo ` blocks.
-    - They are usually followed by a description of parameters, return values etc.
+    - They are usually followed by a description of parameters, return values, etc.
   - "Example" blocks.
     - Used with a `## Example` header. (also `## Examples` or `## Example 2` etc.)
     - Shows example code.
