@@ -14,6 +14,7 @@ CatalogContent:
 ---
 
 The **`.strikethrough`** view modifier method in SwiftUI can be used to strike through text within a view.
+
 > **Note**: This method is specifically for use with text, so it can be applied as a view modifier to any view that displays text, such as a Text or Label View. However, it cannot be applied to views that do not display text, such as an Image View.
 
 ## Syntax
