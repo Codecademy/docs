@@ -24,7 +24,7 @@ public String toLowerCase();
 
 ## Example 
 
-Converting uppercase characters to lowercase characters:
+This example converts uppercase characters to lowercase characters:
 
 ```java
 public class Example {
