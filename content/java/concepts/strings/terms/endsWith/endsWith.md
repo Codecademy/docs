@@ -18,3 +18,7 @@ The **`.endsWith()`** method returns a boolbean value based of if a string ends 
 ```pseudo
 str.endsWith(String suffix)
 ```
+
+The `.endsWith()` method only takes one parameter.
+
+- `suffix` (required): A string value that will be used to check given strings.
