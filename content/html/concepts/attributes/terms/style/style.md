@@ -26,7 +26,7 @@ When the `style` attribute is used inline, it overrides any styles set globally.
 <element_tag style="property1:value; property2:value;"></element_tag>
 ```
 
-Like all global attributes, the **`style`** attribute supports all HTML tags and can take many properties, e.g., the **`style`**git attribute can be used in the `<p>`, [`<h1>`](https://www.codecademy.com/resources/docs/html/elements/h1-h6), or [`<hr>`](https://www.codecademy.com/resources/docs/html/elements/hr) tags.
+Like all global attributes, the `style` attribute supports all HTML tags and can take many properties, e.g., the `style` attribute can be used in the `<p>`, [`<h1>`](https://www.codecademy.com/resources/docs/html/elements/h1-h6), or [`<hr>`](https://www.codecademy.com/resources/docs/html/elements/hr) tags.
 
 ## Example
 
