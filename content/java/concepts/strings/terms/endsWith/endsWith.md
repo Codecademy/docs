@@ -30,10 +30,10 @@ class Example {
   public static void main(String args[]) {
     String domain = "codecademy.com";
 
-    boolbean bool = domain.endsWith("com");
-
     // Output will be true as "codecademy.com" ends in "com"
-    System.out.println(bool)
+    boolbean bool = domain.endsWith("com");
+    
+    System.out.println(bool) // Prints true
   }
 }
 ```
