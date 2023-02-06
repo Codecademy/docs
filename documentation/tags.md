@@ -59,6 +59,7 @@ Comparison
 Compilation
 Components
 Computer Vision
+CMS
 Concatenation
 Conceptual
 Const
@@ -106,6 +107,7 @@ Events
 Exceptions
 Expo
 Express
+Favicon
 Files
 Finance
 Firebase
@@ -305,6 +307,7 @@ Web3
 WebRTC
 While
 Whiteboarding
+WordPress
 World Wide Web
 Xcode
 ```
