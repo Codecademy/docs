@@ -24,7 +24,7 @@ The `dir` attribute is used to set the base direction of text for display. It is
 <element  dir="ltr | rtl | auto">
 ```
 
-## Possible Attribute Values: 
+These are the possible attribute values:
 
 |Value |Description |
 |--|--|
