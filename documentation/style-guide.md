@@ -113,7 +113,7 @@ In code blocks:
   - "Example" blocks.
     - Used with a `## Example` header. (also `## Examples` or `## Example 2` etc.)
     - Shows example code.
-    - Use blocks appropriate to the language used. (see: [Supported Code Blocks](#supported-code-blocks).)
+    - Use blocks appropriate to the language used (see: [Supported Code Blocks](#supported-code-blocks)).
     - They are usually preceded by a description of what the example does.
     - Often followed by an "Output" block.
     - Output should be illustrated in a separate "Output" block rather than listed as comments in the example code.
@@ -127,7 +127,7 @@ In code blocks:
     - Typically, only one per entry.
     - Typically, appears at the end of the entry.
     - Displays example code that is runnable.
-    - Use codebyte blocks appropriate to the language. (see: [Supported Codebyte Blocks](#supported-codebyte-blocks).)
+    - Use codebyte blocks appropriate to the language (see: [Supported Codebyte Blocks](#supported-codebyte-blocks)).
     - They are usually preceded by a description of what the example does.
     - They are not followed by an "Output" block.
 
