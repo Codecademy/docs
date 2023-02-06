@@ -16,7 +16,7 @@ CatalogContent:
 
 The **`style`** attribute specifies how an element will render in a web browser, e.g., the color or size of a font in a paragraph.
 
-When the **`style`** attribute is used inline, it overrides any styles set globally.
+When the `style` attribute is used inline, it overrides any styles set globally.
 
 > **Note:** Most developers refrain from using the inline **`style`** attribute and set the style of the elements through an external [CSS](https://www.codecademy.com/resources/docs/css) style sheet, which helps to keep the code clean and more easily maintained. The styling of a page or elements on the page can also be embedded in the `<head>` element using the `<style>` tag.
 
