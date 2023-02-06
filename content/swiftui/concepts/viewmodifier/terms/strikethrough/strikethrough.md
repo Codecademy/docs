@@ -29,7 +29,9 @@ This method has two parameters:
 `color`: A color value used to color the strikethrough. This parameter is optional and defaults to the color of the text.
 
 ## Example
+
 The following example demonstrates how to use the .strikethrough() method to apply a blue strikethrough to text:
+
 ```swift
 var body: some View {
     Text("Here is a TextView with the .strikethrough() method applied to it using custom parameters.")
