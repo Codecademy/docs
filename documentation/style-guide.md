@@ -36,6 +36,7 @@ There are three types of Docs entries:
 - Words must be separated by dashes, not spaces or underscores. (e.g., "Data Types" -> `data-types.md`)
   - If the title or name is meant to be in PascalCase: "HashTable" -> `hashtable.md`
   - If the title or name is meant to be in camelCase: ".forEach()" -> `forEach.md` (without the `.` and `()`).
+  - If the title isn't in camelCase, it should be all lowercase.
 - The name should always begin with a lowercase letter. (e.g., "Array" -> `array.md`, "HTML" -> `html.md`)
 - Punctuation must not be included in the file name, even if it exists in the entry name. (e.g., "Moore's Law" -> `moores-law.md`, "Three.js" -> `three-js.md`, `.nextAfter()` -> `nextAfter.md`)
 
