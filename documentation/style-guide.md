@@ -244,6 +244,6 @@ CatalogContent:
   - Should have three to four items.
   - If you wish to use a new tag, add it in the appropriate place (alphabetical order) in the [tags.md](https://github.com/Codecademy/docs/blob/main/documentation/tags.md) file as part of your PR.
 - For `CatalogContent:`
-  - Items are slugs of Codecademy course and Path landing pages that relate to the entry.
+  - Items are slugs of Codecademy courses and path landing pages that relate to the entry.
   - For items, use [this document](https://github.com/Codecademy/docs/blob/main/documentation/catalog-content.md) as a guide.
   - Should have two items.
