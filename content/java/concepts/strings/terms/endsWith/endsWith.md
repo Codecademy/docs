@@ -22,3 +22,18 @@ str.endsWith(String suffix)
 The `.endsWith()` method only takes one parameter.
 
 - `suffix` (required): A string value that will be used to check given strings.
+
+## Example
+
+```java
+class Example {
+  public static void main(String args[]) {
+    String domain = "codecademy.com";
+
+    boolbean bool = domain.endsWith("com");
+
+    // Output will be true as "codecademy.com" ends in "com"
+    System.out.println(bool)
+  }
+}
+```
