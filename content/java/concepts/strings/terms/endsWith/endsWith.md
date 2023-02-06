@@ -12,3 +12,9 @@ CatalogContent:
 ---
 
 The **`.endsWith()`** method returns a boolbean value based of if a string ends with a given suffix. If the **string ends with the given suffix it will return true otherwise it will return false**.
+
+## Syntax
+
+```pseudo
+str.endsWith(String suffix)
+```
