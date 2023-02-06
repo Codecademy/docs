@@ -26,14 +26,10 @@ The style passed as an argument to `.textFieldStyle()` is applied to the `TextFi
 
 > **Note:** If `.textFieldStyle()` is called on a [`View`](https://www.codecademy.com/resources/docs/swiftui/views), the specified style will be applied to every `TextField` within that view, unless it has its own `.textFieldStyle()`.
 
-## Built-in `TextField` Styles
-
 Here are some of the available built-in `TextField` styles:
 
 - `.automatic` applies the default style to a text field.
-
 - `.plain` does not apply any styles to a text field.
-
 - `.roundedBorder` applies a rounded border to a text field.
 
 ## Examples
