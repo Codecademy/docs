@@ -33,7 +33,13 @@ class Example {
     // Output will be true as "codecademy.com" ends in "com"
     boolbean bool = domain.endsWith("com");
     
-    System.out.println(bool) // Prints true
+    System.out.println(bool)
   }
 }
+```
+
+This outputs the following:
+
+```shell
+true
 ```
