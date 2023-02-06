@@ -226,10 +226,10 @@ CatalogContent:
 - There should be a line-break after the last line of the metadata.
 - There should not be extra line breaks within the metadata.
 - The data for `Title:` and `Description:` appear as single-quoted strings on the same line.
-- Do not use apostrophes or quotes in the title or description.
-- Do not use boldface or italics in the title or description.
-- The description should be short, typically one sentence.
-- The description should be repeated in the introductory paragraph of the entry, i.e., The information in the description should appear in the introduction to the entry.
+- Do not use apostrophes or quotes in `Title:` or `Description:`.
+- Do not use boldface or italics in `Title:` or `Description:`.
+- `Description:` should be short, typically one sentence.
+- `Description:` should be repeated in the introductory paragraph of the entry, i.e., The information in `Description:` should appear in the introduction to the entry.
 - The description for a coding term should begin with a present-tense verb, i.e., "Returns", "Calculates", "Outputs", etc.
 - `CatalogContent:` appears without spaces.
 - The items for `Subjects:`, `Tags:`, and `CatalogContent:` appear as bulleted lists of single-quoted strings, starting on the next line.
