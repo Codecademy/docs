@@ -21,7 +21,7 @@ str.endsWith(String suffix)
 
 The `.endsWith()` method only takes one parameter.
 
-- `suffix` (required): A string value that will be used to check given strings.
+- `suffix` (required): The characters to be matched in the string.
 
 ## Example
 
