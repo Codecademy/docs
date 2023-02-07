@@ -19,7 +19,6 @@ The **`.endsWith()`** method returns `true` if a string ends with a given suffix
 str.endsWith(String suffix)
 ```
 
-
 - `suffix` (required): The characters to be matched in the string.
 
 ## Example
