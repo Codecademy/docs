@@ -30,3 +30,20 @@ The `.overlay()` modifier method takes two parameters to create a [`ZStack`](htt
 - `content` is used to declare the views to add to the foreground, stacked in the order that you list them. The last view that you list appears at the front of the stack.
 
 Using the `.overlay()` modifier method without any specified parameter results in the default behavior of the modifier: the foreground views will be centered to the view.
+
+## Example
+
+```swift
+	Color.blue
+		.frame(width: 200, height: 200)
+		.overlay {
+			Circle()
+				.frame(width: 100, height: 100)
+			Image(systemName: "star.fill")
+				.foregroundStyle(Color.yellow)
+		}
+```
+
+This will display the following:
+
+![SwiftUI ViewModifier Padding](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-overlay.png)
