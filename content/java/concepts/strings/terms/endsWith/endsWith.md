@@ -33,7 +33,7 @@ class Example {
     // Output will be true as "codecademy.com" ends in "com"
     boolean bool = domain.endsWith("com");
     
-    System.out.println(bool)
+    System.out.println(bool);
   }
 }
 ```
