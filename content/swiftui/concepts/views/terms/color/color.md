@@ -1,10 +1,9 @@
-
 ---
 Title: 'Color'
 Description: 'Creates a color view, modifying the background color.'
 Subjects:
   - 'Software Development'
-  - 'mOBILE Development'
+  - 'Mobile Development'
   - 'Computer Science'
 Tags:
   - 'SwiftUI'
