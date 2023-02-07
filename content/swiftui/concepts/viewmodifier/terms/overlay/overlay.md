@@ -1,8 +1,8 @@
 ---
 Title: '.overlay()'
-Description: 'Layers the views that you specify in front of a view.'
+Description: 'Layers the specified views in front of a view.'
 Subjects:
-  - 'Mobile Development'
+  - 'Mobile Development
   - 'iOS'
 Tags:
   - 'SwiftUI'
@@ -18,7 +18,7 @@ The **`.overlay()`** layers the views that you specify in front of a [`View`](ht
 ## Syntax
 
 ```pseudo
-	Text("This text will have a views layed over top of it.")
+	Text("This text will have views layered over top of it.")
 		.overlay(alignment) {
 			Subviews here
 		}
@@ -27,9 +27,9 @@ The **`.overlay()`** layers the views that you specify in front of a [`View`](ht
 The `.overlay()` modifier method takes two parameters to create a [`ZStack`](https://www.codecademy.com/resources/docs/swiftui/views/terms/zstack) to group the foreground views:
 
 - `alignment` specifies where to position the foreground views.
-- `content` is used to declare the views to add to the foreground, stacked in the order that you list them. The last view that you list appears at the front of the stack.
+- `content` is used to declare the views to add to the foreground, stacked in the order you list them. The last view that you list appears at the front of the stack.
 
-Using the `.overlay()` modifier method without any specified parameter results in the default behavior of the modifier: the foreground views will be centered to the view.
+Using the `.overlay()` modifier method without any specified parameter results in the default behavior of the modifier: the foreground views will be centered on the view.
 
 ## Example
 
