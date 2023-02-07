@@ -1,6 +1,6 @@
 ---
 Title: '.endsWith()'
-Description: 'Returns a boolean value depending on if a string ends with a given suffix'
+Description: 'Returns true if a string ends with a given suffix, otherwise false.'
 Subjects:
   - 'Computer Science'
 Tags:
