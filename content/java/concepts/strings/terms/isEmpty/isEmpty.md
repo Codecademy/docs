@@ -1,6 +1,6 @@
 ---
 Title: '.isEmpty()'
-Description: 'Returns true if a string has no content. Returns false if the string has content.
+Description: 'Returns true if a string has no content, otherwise false.
 Subjects:
   - 'Computer Science'
 Tags:
@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Returns `true` if a string has no content. Returns `false` if the string has content.
+The **`.isEmpty()`** method returns `true` if a string has no content. It returns `false` if the string has content.
 
 ## Syntax
 
@@ -19,13 +19,14 @@ Returns `true` if a string has no content. Returns `false` if the string has con
 string.isEmpty();
 ```
 
-- `string` The String to be checked for content.
+- `string`: The string to be checked for content.
 
 ## Example 1
 
-Call the `.isEmptyMethod()` method on the `drink` String and the `food` String:
+The example below applies the `.isEmpty()` method to the strings `drink` and `food`:
 
 ```java
+// isStringEmpty.java
 class isStringEmpty {
   public static void main(String[] args) {
     String drink = "lemonade";
@@ -33,29 +34,13 @@ class isStringEmpty {
 
     System.out.println(drink.isEmpty());
     System.out.println(food.isEmpty());
-    // Output: false
-    // Output: true
   }
 }
+
 ```
 
-## Example 2
+This will print the following output:
 
-Call the `.isEmptyMethod()` method on the `clothes` String and the `hat` String and save to boolean variables:
-
-```java
-class isStringEmpty {
-  public static void main(String[] args) {
-    String clothes = "jacket";
-    String hat = "";
-
-    boolean clothesIsEmpty = clothes.isEmpty();
-    boolean hatIsEmpty = hat.isEmpty();
-    
-    System.out.println(clothesIsEmpty);
-    System.out.println(hatIsEmpty);
-    // Output: false
-    // Output: true
-  }
-}
-```
+```shell
+    false
+    true
