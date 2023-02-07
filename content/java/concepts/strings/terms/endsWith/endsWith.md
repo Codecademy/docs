@@ -24,6 +24,8 @@ str.endsWith(String suffix)
 
 ## Example
 
+The example below demonstrates the use of the `.endsWith()` method:
+
 ```java
 // Example.java
 class Example {
