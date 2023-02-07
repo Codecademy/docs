@@ -26,6 +26,7 @@ The `.endsWith()` method only takes one parameter.
 ## Example
 
 ```java
+// Example.java
 class Example {
   public static void main(String args[]) {
     String domain = "codecademy.com";
