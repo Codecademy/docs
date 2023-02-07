@@ -48,7 +48,7 @@ func main() {
 
 ## String escapes
 
-As it was mentioned previously, escape characters are only supported in interpreted literals (remember: an interpreted literal is a string that uses double quotes `""`). Here you can see a list of some useful escape characters supported by Go strings: 
+As it was mentioned previously, escape characters are only supported in interpreted literals (remember: an interpreted literal is a string that uses double quotes `""`). The following is a list of some useful escape characters supported by Go strings: 
 
 |	Description		    |	Escape Character	  |
 |	:---:			        |		:---:			        | 
