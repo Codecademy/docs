@@ -76,7 +76,7 @@ func main() {
 
 After running this code, the compiler will output a message like this:
 
-```
+```shell
 # command-line-arguments
 ./main.go:5:32: syntax error: unexpected I at end of statement
 ```
