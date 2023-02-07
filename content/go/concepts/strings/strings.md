@@ -81,7 +81,7 @@ After running this code, the compiler will output a message like this:
 ./main.go:5:32: syntax error: unexpected I at end of statement
 ```
 
-This issue is solved by using the double quote escape character ` \''` like this:
+This issue is solved by using the double quote escape character ` \"` like this:
 
 ```go
 package main
