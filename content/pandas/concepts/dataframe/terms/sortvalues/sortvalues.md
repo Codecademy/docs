@@ -21,6 +21,7 @@ dataframevalue.sort_values(by, axis=0, ascending=True, inplace=False, kind='quic
 ```
 
 `.sort_values()` uses the following parameters:
+
 - `by`: A label or a list of labels to sort by (levels can also be specified if applicable).
 - `axis`: Specify which axis will be sorted (0 or index, 1 or columns), it defaults to 0.
 - `ascending`: Specify whether the sort will be ascending or descending (`True` or `False`), it defaults to `True`.
@@ -54,6 +55,7 @@ print(df.sort_values(by=['numbers'], na_position='first'), end='\n\n')
 ```
 
 The output will look like this:
+
 ```shell
    numbers letters
 5      1.0       C
