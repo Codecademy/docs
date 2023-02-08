@@ -1,6 +1,6 @@
 ---
 Title: 'TCP SYN Scan'
-Description: 'Performs a scan that can indicate open, filtered and closed port states with a reduced risk of detection, since it never completes a full TCP connection'
+Description: 'Performs a scan that can indicate open, filtered, and closed port states with a reduced risk of detection, since it never completes a full TCP connection.'
 Subjects:
   - 'Networking'
   - 'Cybersecurity'
@@ -9,12 +9,11 @@ Tags:
   - 'Cybersecurity'
   - 'Ethical Hacking'
 CatalogContent:
-  - 'introduction-to-cybersecurity'
   - 'introduction-to-ethical-hacking'
   - 'paths/scan-systems-with-nmap'
 ---
 
-A **TCP SYN scan** runs by default when running Nmap as root or Administrator. It is the most popular scan option according to [Nmap.org](https://nmap.org). Quick and efficient, this scan can indicate open, filtered and closed port states. Also known as the half-open scan, it never completes the full TCP connection, so is less likely to be blocked by firewalls.
+A **TCP SYN scan** runs by default when running Nmap as root or Administrator. It is the most popular scan option according to [Nmap.org](https://nmap.org). Quick and efficient, this scan can indicate open, filtered, and closed port states. Also known as the half-open scan, it never completes the full TCP connection, so is less likely to be blocked by firewalls.
 
 ## Syntax
 
@@ -34,7 +33,7 @@ The example below executes a TCP SYN scan on the target [scanme.nmap.org](http:/
 sudo nmap -sS scanme.nmap.org
 ```
 
-> **Note:** Explicit permission from domain target owner must be granted in order to scan. [Scanme.Nmap.Org](http://scanme.nmap.org/) is a service provided by the [Nmap Security Scanner Project](https://nmap.org) for test purposes.
+> **Note:** Explicit permission from the domain target owner must be granted to scan. [Scanme.Nmap.Org](http://scanme.nmap.org/) is a service provided by the [Nmap Security Scanner Project](https://nmap.org) for test purposes.
 
 The command above will output:
 
