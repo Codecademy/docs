@@ -12,15 +12,15 @@ CatalogContent:
   - 'path/computer-science'
 ---
 
-A Go **string** is a read-only data type that represents a UTF-8 encoded slice of bytes.
+A Go **string** is a read-only [data type](https://www.codecademy.com/resources/docs/go/data-types) that represents a UTF-8 encoded slice of bytes.
 
 As in many other languages, strings in Go are sequences of characters. Strings are immutable. Once a string is created in Go, its value cannot be changed. Attempts at changing it will result in the compiler throwing an error message. This is a key difference between strings in Go and strings in other languages.
 
 ## String Literals
 
-In Go, a string literal is a sequence of characters enclosed either within double-quotes `""` (also called **interpreted literals**) or backticks ` `` ` (also called **raw string literals**).
+In Go, a string literal is a sequence of characters enclosed either within double-quotes `""` (also called interpreted literals) or backticks ` `` ` (also called raw string literals).
 
-There are some differences between using interpreted or raw string literals. The most important ones are that interpreted literals support escape characters but do not span multiple lines, while raw string literals do not support escape characters, cannot contain backticks and can span multiple lines.
+There are some differences between using interpreted or raw string literals. The most important ones are that interpreted literals support escape characters but do not span multiple lines, while raw string literals do not support escape characters, cannot contain backticks, and can span multiple lines.
 
 Here is an example of how strings are defined and printed in Go using double quotes `""`:
 
@@ -46,9 +46,9 @@ func main() {
 }
 ```
 
-## String escapes
+## String Escapes
 
-As mentioned previously, escape characters are only supported in interpreted literals (remember: an interpreted literal is a string that uses double quotes `""`). The following is a list of some useful escape characters supported by Go strings:
+As mentioned previously, escape characters are only supported in interpreted literals (an interpreted literal is a string that uses double quotes `""`). The following is a list of some useful escape characters supported by Go strings:
 
 |   Description   | Escape Character |
 | :-------------: | :--------------: |
@@ -62,7 +62,7 @@ As mentioned previously, escape characters are only supported in interpreted lit
 | Carriage return |       `\r`       |
 | Go to next page |       `\f`       |
 
-Escape characters are useful to avoid ambiguities when the string being created has a character that may be problematic. An example of this would be defining `"There is no "I" in TEAM"` as an interpreted string literal. Since the string has double quotes in it, the compiler would throw an error message if defined as is. This can be avoided by using the double quote escape character `\"`. The following shows an example where the compiler would throw an error message due to double quotes being used within an interpreted string literal:
+Escape characters are useful to avoid ambiguities when the string being created has a character that may be problematic. An example of this would be defining `"There is no "I" in TEAM"` as an interpreted string literal. Since the string has double quotes in it, the compiler would throw an error message. This can be avoided by using the double quote escape character `\"`. The following shows an example where the compiler would throw an error message due to double quotes being used within an interpreted string literal:
 
 ```go
 package main
