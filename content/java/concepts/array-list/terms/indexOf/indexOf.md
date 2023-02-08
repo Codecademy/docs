@@ -22,7 +22,7 @@ The **`.indexOf()`** method returns the index of the first occurrence of the spe
 myArrayList.indexOf(element);
 ```
 
-The index of its first occurrence is returned if the `element` exists, even if the value is `null`. If the `element` can't be found, -1 will be returned.
+The index, if it exists, of the first occurrence of `element` is returned, even if the value is `null`. If the `element` cannot be found, -1 will be returned.
 
 ## Example
 
@@ -51,14 +51,16 @@ public class Main {
 }
 ```
 
-The first call will print the index of the first occurrence of the element `"Tiger"`. The second element `"Elephant"` does not exist. This will print the following:
+This will print the index of the first occurrence of the elements `"Tiger"` and `"Elephant"`, respectively:
 
 ```shell
 1
 -1
 ```
 
-The `.indexOf()` method does not work with primitive data types.
+In the example above, `"Elephant"` does not exist in the collection so -1 is returned.
+
+In addition, the `.indexOf()` method does not work with primitive data types.
 
 ```java
 import java.util.ArrayList;
@@ -81,7 +83,7 @@ public class HelloWorld {
 }
 ```
 
-Since the `.indexOf()` method does not work with primitive data types. The following error will be thrown:
+Since the `.indexOf()` method does not work with primitive data types, the following error will be thrown:
 
 ```shell
 javac /tmp/CmHIzfwn03/HelloWorld.java
