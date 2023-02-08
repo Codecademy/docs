@@ -46,13 +46,13 @@ The output would be:
 
 As seen above, the string given contains a `%` character followed by a letter to indicate what type of value will be formatted there. Some common ones are shown below:
 
-| Format Specifier | Type    |
-| ---------------- | ------- |
-| `%c`             | char    |
-| `%d`             | double  |
-| `%i`             | integer |
-| `%p`             | pointer |
-| `%s`             | string  |
+| Format Specifier(s) | Type(s)         |
+| ------------------- | --------------- |
+| `%c`                | char            |
+| `%f` or `%g`        | float or double |
+| `%d` or `%i`        | int             |
+| `%p`                | pointer         |
+| `%s`                | string          |
 
 ## Decimal Precision
 
