@@ -52,30 +52,3 @@ This example results in the following output:
 ```shell
 12
 ```
-
-## Codebyte Example
-
-The following example is runnable and will return each given numbers square root.
-
-```codebyte/csharp
-using System;
-
-namespace MySquareRoot
-{
-    public class Example
-    {
-        public static void Main(string[] args)
-        {
-            double a = Math.Sqrt(256);
-            double b = Math.Sqrt(-256);
-            double c = Math.Sqrt(500);
-            double d = Math.Sqrt(0.144);
-
-            Console.WriteLine(a);
-            Console.WriteLine(b);
-            Console.WriteLine(c);
-            Console.WriteLine(d);
-        }
-    }
-}
-```
