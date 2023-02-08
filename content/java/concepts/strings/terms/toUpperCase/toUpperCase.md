@@ -19,7 +19,7 @@ The **`.toUpperCase()`** method converts all lowercase letters of a string to up
 string.toUpperCase();
 ```
 Where `string` is the string in which all lowercase letters are converted to uppercase.
-The `.toUpperCase()` method returns a new string, so it must be assigned to a variable in order to reuse that new value.
+The `.toUpperCase()` method returns a new string consisting of the upper case form of the letters in the original string. To use the new upper case string, the returned string must be assigned to a variable.
 
 ## Example
 
