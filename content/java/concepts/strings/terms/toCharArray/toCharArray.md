@@ -22,7 +22,7 @@ string.toCharArray()
 
 ## Example 1
 
-Use `.toCharArray()` to print the character array `"Hello CodeCademy!"` and to demostrate that the length is equal to the string's length:
+Use `.toCharArray()` to print the character array `"Hello CodeCademy!"` and to demonstrate that the length is equal to the string's length:
 
 ```java
 class Example {
