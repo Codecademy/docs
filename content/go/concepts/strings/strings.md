@@ -52,15 +52,15 @@ As it was mentioned previously, escape characters are only supported in interpre
 
 |	Description		    |	Escape Character	  |
 |	:---:			        |		:---:			        | 
-| Single quote 	    |       ` \'`         |   
-| Double quote      |       ` \''` 	      | 
-| Backslash 	      |       ` \\` 	      |
-| New line 			    |       ` \n`		      | 
-| Horizontal tab    |       ` \t` 	      | 
+| Single quote 	    |       `\'`         |   
+| Double quote      |       `\''` 	      | 
+| Backslash 	      |       `\\` 	      |
+| New line 			    |       `\n`		      | 
+| Horizontal tab    |       `\t` 	      | 
 | Vertical tab		  |       `\v` 		      | 
-| Backspace 		    |       ` \b` 	      |  
-| Carriage return   |       ` \r` 	      | 
-| Go to next page   |     ` \f`           |   
+| Backspace 		    |       `\b` 	      |  
+| Carriage return   |       `\r` 	      | 
+| Go to next page   |      `\f`           |   
 
 Escape characters are useful to avoid ambiguities when the string you are creating has a character that may be problematic. An example of this would be defining `"There is no "I" in TEAM"` as an interpreted string literal. Since the string has double quotes in it, the compiler would throw an error message if defined as is. This can be avoided by using the double quote escape character `\"`. The following shows an example where the compiler would throw an error message due to double quotes being used within an interpreted string literal:
 
@@ -81,7 +81,7 @@ After running this code, the compiler will output a message like this:
 ./main.go:5:32: syntax error: unexpected I at end of statement
 ```
 
-This issue is solved by using the double quote escape character ` \"` like this:
+This issue is solved by using the double quote escape character `\"` like this:
 
 ```go
 package main
