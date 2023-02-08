@@ -34,21 +34,30 @@ The following example will implement how `Math.Sqrt()` will take its given value
 using System;
 
 namespace MySquareRoot
+{
+    public class Example
     {
-        public class Example
+        public static void Main(string[] args)
         {
-            public static void Main(string[] args)
-            {
-                double x = Math.Sqrt(144);
-
-                Console.WriteLine(x);
-            }    
-        }
+            double a = Math.Sqrt(256);
+            double b = Math.Sqrt(-256);
+            double c = Math.Sqrt(500);
+            double d = Math.Sqrt(0.144);
+            
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.WriteLine(c);
+            Console.WriteLine(d);
+        }    
     }
+}
 ```
 
 This example results in the following output:
 
 ```shell
-12
+16
+NaN
+22.3606797749979
+0.379473319220205
 ```
