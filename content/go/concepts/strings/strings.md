@@ -1,24 +1,24 @@
 ---
 Title: 'Strings'
-Description: 'A string is a read-only data type. Strings are chains of arbitrary bytes representing UTF-8 encoded characters.' 
-Subjects: 
+Description: 'A string is a read-only data type. Strings are chains of arbitrary bytes representing UTF-8 encoded characters.'
+Subjects:
   - 'Computer Science'
-Tags: 
+Tags:
   - 'Strings'
   - 'Data Types'
   - 'Characters'
-CatalogContent: 
+CatalogContent:
   - 'learn-go'
   - 'path/computer-science'
 ---
 
 A Go **string** is a read-only data type that represents a UTF-8 encoded slice of bytes.
 
-As in many other languages, strings in Go are sequences of characters. *Strings are immutable*. Once a string is created in Go, its value cannot be changed. Attempts at changing it will result in the compiler throwing an error message. This is a key difference between strings in Go and strings in other languages.
+As in many other languages, strings in Go are sequences of characters. _Strings are immutable_. Once a string is created in Go, its value cannot be changed. Attempts at changing it will result in the compiler throwing an error message. This is a key difference between strings in Go and strings in other languages.
 
 ## String Literals
 
-In Go, a string literal is a sequence of characters enclosed either within double-quotes `""` (also called *interpreted literals*) or backticks ` `` `  (also called *raw string literals*).
+In Go, a string literal is a sequence of characters enclosed either within double-quotes `""` (also called _interpreted literals_) or backticks ` `` ` (also called _raw string literals_).
 
 There are some differences between using interpreted or raw string literals. The most important ones are that interpreted literals support escape characters but do not span multiple lines, while raw string literals do not support escape characters, cannot contain backticks and can span multiple lines.
 
@@ -48,21 +48,21 @@ func main() {
 
 ## String escapes
 
-As it was mentioned previously, escape characters are only supported in interpreted literals (remember: an interpreted literal is a string that uses double quotes `""`). The following is a list of some useful escape characters supported by Go strings: 
+As mentioned previously, escape characters are only supported in interpreted literals (remember: an interpreted literal is a string that uses double quotes `""`). The following is a list of some useful escape characters supported by Go strings:
 
-|	Description		    |	Escape Character	  |
-|	:---:			        |		:---:			        | 
-| Single quote 	    |       `\'`         |   
-| Double quote      |       `\''` 	      | 
-| Backslash 	      |       `\\` 	      |
-| New line 			    |       `\n`		      | 
-| Horizontal tab    |       `\t` 	      | 
-| Vertical tab		  |       `\v` 		      | 
-| Backspace 		    |       `\b` 	      |  
-| Carriage return   |       `\r` 	      | 
-| Go to next page   |      `\f`           |   
+|   Description   | Escape Character |
+| :-------------: | :--------------: |
+|  Single quote   |       `\'`       |
+|  Double quote   |      `\''`       |
+|    Backslash    |       `\\`       |
+|    New line     |       `\n`       |
+| Horizontal tab  |       `\t`       |
+|  Vertical tab   |       `\v`       |
+|    Backspace    |       `\b`       |
+| Carriage return |       `\r`       |
+| Go to next page |       `\f`       |
 
-Escape characters are useful to avoid ambiguities when the string you are creating has a character that may be problematic. An example of this would be defining `"There is no "I" in TEAM"` as an interpreted string literal. Since the string has double quotes in it, the compiler would throw an error message if defined as is. This can be avoided by using the double quote escape character `\"`. The following shows an example where the compiler would throw an error message due to double quotes being used within an interpreted string literal:
+Escape characters are useful to avoid ambiguities when the string being created has a character that may be problematic. An example of this would be defining `"There is no "I" in TEAM"` as an interpreted string literal. Since the string has double quotes in it, the compiler would throw an error message if defined as is. This can be avoided by using the double quote escape character `\"`. The following shows an example where the compiler would throw an error message due to double quotes being used within an interpreted string literal:
 
 ```go
 package main
