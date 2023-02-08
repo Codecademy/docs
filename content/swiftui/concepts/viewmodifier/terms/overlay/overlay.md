@@ -2,7 +2,7 @@
 Title: '.overlay()'
 Description: 'Layers the specified views in front of a view.'
 Subjects:
-  - 'Mobile Development
+  - 'Mobile Development'
   - 'iOS'
 Tags:
   - 'SwiftUI'
