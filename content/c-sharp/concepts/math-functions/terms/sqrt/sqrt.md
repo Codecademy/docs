@@ -60,7 +60,7 @@ The following example is runnable and will return each given numbers square root
 ```codebyte/csharp
 using System;
 
-namespace MySqaureRoot
+namespace MySquareRoot
 {
     public class Example
     {
