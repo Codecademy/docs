@@ -21,7 +21,10 @@ The **`Math.Sqrt()`** method returns the square root of the number given.
 public static double Sqrt(double x);
 ```
 
-The `.Sqrt()` function will can take on one parameter at a time. As shown above _x_ is the value we want to find the sqaure root of.
+The method takes only one parameter, the variable `x`, of type `double`. The function will return a positive value of type `double` unless the value passed is one of the following:
+-If `x` is negative, the function will return `NaN` (not a number).
+-If `x` is `NaN`, the function will return `NaN`.
+-If `x` is `PositiveInfinity`, the function will return `PositiveInfinity`.
 
 ## Example
 
