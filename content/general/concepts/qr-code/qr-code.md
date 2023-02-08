@@ -36,4 +36,4 @@ QR Codes are also used as entry passes. When purchasing a movie ticket online, t
 
 But QR Codes can also be used to point a user to a malicious web site, just like a phishing email. One should be careful about scanning and clicking on a QR Code. A QR Code passed out at a conference, enabling the attendees to log into the local Wi-Fi is going to be safe to scan and click. On the other hand, a QR Code on a flyer stuck to a lamppost might be suspect. Just like emails, use good judgement before scanning and clicking.
 
-QR Codes are easy to create and use. They make it easy for users to use their mobile devices without the need to type in data. QR Codes are used by the QR Code’s creator, allowing the creator to track how the QR Code is used. 
+QR Codes are easy to create and use. They make it easy for users to use their mobile devices without the need to type in data. QR Codes are used by the QR Code’s creator, allowing the creator to track how the QR Code is used.
