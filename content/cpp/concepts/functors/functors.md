@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **functor** is an object or structure that can be called like a function by overloading the function-call operator `()`. Public access must be granted to the overloading of the `()` operator in order to be used as intended. Functors can simplify tasks and improve efficiency in many cases.
+A **functor** is an [object](https://www.codecademy.com/resources/docs/cpp/objects) or [structure](https://www.codecademy.com/resources/docs/cpp/structure) that can be called like a function by overloading the function-call operator `()`. Public access must be granted to the overloading of the `()` operator in order to be used as intended. Functors can simplify tasks and improve efficiency in many cases.
 
 ## Syntax
 
@@ -30,7 +30,7 @@ class MyClass {
 };
 ```
 
-Where `type` is the [data type](https://www.codecademy.com/resources/docs/cpp/data-types) to be returned and `(...)`are the arguments to be given for the execution. Then, to use the functor just create an instance of the class and when needed call it passing the arguments required as
+Where `type` is the [data type](https://www.codecademy.com/resources/docs/cpp/data-types) to be returned, `operator()` overloads the function call operator `()` and `(...)`are the arguments required to execute the function body. Then, in order to use the functor just create an instance of the class and when needed call it passing the arguments required as shown below
 
 ```pseudo 
  MyClass myclass;
@@ -39,7 +39,7 @@ Where `type` is the [data type](https://www.codecademy.com/resources/docs/cpp/da
 
 ## Example
 
-The following code:
+The following code overloads the function call operator `()` of class `Hello` in order to print `Hello world!` as many times as indicated by the argument `(int times)` allowing to create functors from such class:
 
 ```cpp
 #include<iostream>
