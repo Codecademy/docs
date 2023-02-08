@@ -1,6 +1,6 @@
 ---
 Title: '.overlay()'
-Description: 'Layers the specified views in front of a view.'
+Description: 'Layers the specified views in front of another view.'
 Subjects:
   - 'Mobile Development'
   - 'iOS'
