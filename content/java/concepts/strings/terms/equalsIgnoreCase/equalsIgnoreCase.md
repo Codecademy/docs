@@ -18,8 +18,9 @@ The **`.equalsIgnoreCase()`** method compares two strings ignoring lower/upper c
 ```pseudo
 boolean result = stringOne.equalsIgnoreCase(stringTwo);
 ```
+
 - `result` is a [boolean](https://www.codecademy.com/resources/docs/general/boolean) type [variable](https://www.codecademy.com/resources/docs/java/variables) that stores the output.
-- `stringOne` and `stringTwo` are the two strings being compared. 
+- `stringOne` and `stringTwo` are the two strings being compared.
 
 ## Example
 
@@ -27,9 +28,9 @@ In the example below, there are three different strings named `firstString`, `se
 
 ```java
 //Declare strings
-String firstString = "welcome"; 
-String secondString = "WELcome"; 
-string thirdString = "Hello there"; 
+String firstString = "welcome";
+String secondString = "WELcome";
+string thirdString = "Hello there";
 // Compare firstString and secondString
 boolean firstResult = firstString.equalsIgnoreCase(secondString);
 System.out.pritln("Is the first string equal to the second string? The answer is: " + firstResult);
@@ -44,4 +45,3 @@ This will output the following result:
 Is the first string equal to the second string? The answer is: true
 The example above will have the output: Is the second string equal to the third string? The answer is: false
 ```
-
