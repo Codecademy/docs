@@ -33,7 +33,7 @@ The following example will implement how `Math.Sqrt()` will take its given value
 ```cs
 using System;
 
-namespace MySqaureRoot
+namespace MySquareRoot
     {
         public class Example
         {
