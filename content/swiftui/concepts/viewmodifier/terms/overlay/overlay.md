@@ -20,7 +20,7 @@ The **`.overlay()`** layers the specified [views](https://www.codecademy.com/res
 ```pseudo
 	Text("This text will have views layered over top of it.")
 		.overlay(alignment) {
-			Subviews here
+			// Subviews here
 		}
 ```
 
