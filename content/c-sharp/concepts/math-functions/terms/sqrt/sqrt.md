@@ -11,7 +11,7 @@ CatalogContent:
     - 'paths/computer-science'
 ---
 
-The **`Math.Sqrt()`** method can return the sqaure root of a specified number. If the value of the number happens to be equal to Nan, NegativeInfinity, or PositiveInfinity, that value is returned.
+The **`Math.Sqrt()`** method returns the square root of the number given.
 
 ## Syntax
 
