@@ -33,6 +33,8 @@ Using the `.overlay()` modifier method without any specified parameter results i
 
 ## Example
 
+The following example uses the `.overlay` modifier to lay a star and a [`Circle`](https://www.codecademy.com/resources/docs/swiftui/views/terms/circle) over a over a `Color` view.:
+
 ```swift
 	Color.blue
 		.frame(width: 200, height: 200)
