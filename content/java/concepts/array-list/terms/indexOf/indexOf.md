@@ -26,7 +26,7 @@ The index of its first occurrence is returned if the `element` exists, even if t
 
 ## Example
 
-The following example features two calls to `.indexOf()` on an `ArrayList` called `animals`. The first call will print the index of the first occurrence of the element  `"Tiger"`. The second will return -1 because the element `"Elephant"` does not exist:
+The following example features two calls to `.indexOf()` on an `ArrayList` called `animals`:
 
 ```java
 // Import the ArrayList class from the java.util package
@@ -34,8 +34,8 @@ import java.util.ArrayList;
 
 public class Main {
   public static void main(String[] args) {
-    // Create ArrayList of type String named animals
-ArrayList<String> animals = new ArrayList<>();
+    // Create ArrayList of strings named animals
+    ArrayList<String> animals = new ArrayList<>();
 
     animals.add("Lion");
     animals.add("Tiger");
@@ -51,7 +51,7 @@ ArrayList<String> animals = new ArrayList<>();
 }
 ```
 
-This will print the following output:
+The first call will print the index of the first occurrence of the element `"Tiger"`. The second element `"Elephant"` does not exist. This will print the following:
 
 ```shell
 1
@@ -66,19 +66,22 @@ import java.util.ArrayList;
 public class HelloWorld {
   public static void main(String[] args) {
     System.out.println("Hello, World!");
+
     ArrayList<int> list = new ArrayList<>();
+
     list.add(1);
     list.add(2);
     list.add(3);
 
     int index = list.indexOf(2);
+
     System.out.println("ArrayList: " + list);
     System.out.println("Index with value of 2: " + index);
   }
 }
 ```
 
-Since `.indexOf()` method does not work with primitive data types. the following error will be thrown:
+Since the `.indexOf()` method does not work with primitive data types. The following error will be thrown:
 
 ```shell
 javac /tmp/CmHIzfwn03/HelloWorld.java
@@ -96,15 +99,17 @@ Wrapper classes (e.g., `Integer`) must be used for the `.indexOf()` method to wo
 import java.util.ArrayList;
 
 public class HelloWorld {
-
   public static void main(String[] args) {
     System.out.println("Hello, World!");
+
     ArrayList<Integer> list = new ArrayList<>();
+
     list.add(1);
     list.add(2);
     list.add(3);
 
     int index = list.indexOf(2);
+
     System.out.println("ArrayList: " + list);
     System.out.println("Index with value of 2: " + index);
   }
