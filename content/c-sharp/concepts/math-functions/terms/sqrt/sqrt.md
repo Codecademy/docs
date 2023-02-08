@@ -5,7 +5,9 @@ Subjects:
     - 'Computer Science'
     - 'Code Foundations'
 Tags:
-    - 'Sqrt'
+    - 'Arithmetic'
+    - 'Numbers'
+    - 'Methods'   
 CatalogContent:
     - 'learn-c-sharp'
     - 'paths/computer-science'
