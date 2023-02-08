@@ -53,7 +53,7 @@ As mentioned previously, escape characters are only supported in interpreted lit
 |   Description   | Escape Character |
 | :-------------: | :--------------: |
 |  Single quote   |       `\'`       |
-|  Double quote   |      `\''`       |
+|  Double quote   |       `\"`       |
 |    Backslash    |       `\\`       |
 |    New line     |       `\n`       |
 | Horizontal tab  |       `\t`       |
