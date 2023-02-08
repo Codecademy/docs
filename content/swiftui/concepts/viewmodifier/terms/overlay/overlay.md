@@ -18,10 +18,10 @@ The **`.overlay()`** layers the specified [views](https://www.codecademy.com/res
 ## Syntax
 
 ```pseudo
-	Text("This text will have views layered over top of it.")
-		.overlay(alignment) {
-			// Subviews here
-		}
+Text("This text will have views layered over top of it.")
+	.overlay(alignment) {
+		// Subviews here
+}
 ```
 
 The `.overlay()` modifier method takes two parameters to create a [`ZStack`](https://www.codecademy.com/resources/docs/swiftui/views/terms/zstack) to group the foreground views:
@@ -36,14 +36,14 @@ Using the `.overlay()` modifier method without any specified parameter results i
 The following example uses the `.overlay` modifier to lay a star and a [`Circle`](https://www.codecademy.com/resources/docs/swiftui/views/terms/circle) over a over a `Color` view.:
 
 ```swift
-	Color.blue
-		.frame(width: 200, height: 200)
+Color.blue
+	.frame(width: 200, height: 200)
 		.overlay {
 			Circle()
 				.frame(width: 100, height: 100)
 			Image(systemName: "star.fill")
 				.foregroundStyle(Color.yellow)
-		}
+}
 ```
 
 This will display the following:
