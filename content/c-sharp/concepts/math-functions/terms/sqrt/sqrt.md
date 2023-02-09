@@ -28,7 +28,7 @@ The method takes only one parameter, the variable `x`, of type `double`. The fun
 
 ## Example
 
-The following example will implement how `Math.Sqrt()` will take its given value in the function and return its square root by print it with the `Console.WriteLine()` method.
+The following example demonstrates the `Math.Sqrt()` method. Four different values are passed to method, and the return values are printed with the `Console.WriteLine()` method.
 
 ```cs
 using System;
