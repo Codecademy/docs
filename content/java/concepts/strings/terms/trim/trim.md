@@ -1,12 +1,12 @@
 ---
 Title: '.trim()'
-Description: 'Returns the number of characters contained in a string.'
+Description: 'Removes leading and trailing whitespace from a string.'
 Subjects:
   - 'Computer Science'
 Tags:
-  - 'Characters'
-  - 'Strings'
+  - 'String'
   - 'Methods'
+  - 'Whitespace'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
@@ -43,4 +43,4 @@ The output would be:
 
 ```shell
 Hello, Code Ninja!
-
+```
