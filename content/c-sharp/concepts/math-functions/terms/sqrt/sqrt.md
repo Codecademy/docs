@@ -18,7 +18,7 @@ The **`Math.Sqrt()`** method returns the square root of the number given.
 ## Syntax
 
 ```pseudo
-public static double Sqrt(double x);
+Math.Sqrt(x);
 ```
 
 The method takes only one parameter, the variable `x`, of type `double`. The function will return a positive value of type `double` unless the value passed is one of the following:
