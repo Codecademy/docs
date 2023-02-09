@@ -31,4 +31,4 @@ In the above example there are: two different variables that have been defined, 
 
 When we instantiate **check_if_string()**, once with **var1** (which contains a string) and then again with **var2** (which does not contain a string but instead an integer), the instance passing in **var1** evaluates to `True` and the instance passing in **var2** evaluates to `False`.
 
-# test
+# test2
