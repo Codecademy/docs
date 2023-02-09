@@ -14,8 +14,19 @@ isinstance(object, type)
 
 ## Example
 ```
-intro = "Hello World!"
+var1 = "Hello World!"
+var2 = 123
 
-if isinstance(intro, str)
-  print(f'{intro}' is a string type!')
+def check_if_string(value):
+    if isinstance(value, str):
+        print(f'{value} is a string type.')
+    else:
+        print(f'{value} is not a string.')
+    
+check_if_string(var1)
+check_if_string(var2)
 ```
+
+In the above example there are: two different variables that have been defined, a simple function named "check_if_string", and below it two instantiations of that function. Inside this function is a conditional if statement that checks whether the contents of the parameter "value" (that we pass into the function) is a string using the isinstance() function.
+
+When we instantiate check_if_string() two times, once with var1 (which contains string) and then with var2 (which does not contain a string but instead integer), the one passing in var1 evaluates to True and the instance passing in var2 evaluates to False.
