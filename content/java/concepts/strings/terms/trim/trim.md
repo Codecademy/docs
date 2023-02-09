@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.trim()`** method returns the number of characters contained in a string.
+The **`.trim()`** method removes any leading and trailing whitespace from a string.
 
 ## Syntax
 
