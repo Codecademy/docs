@@ -152,22 +152,6 @@ Anonymous functions are similar to normal functions, but do not have a name. The
 Anyonymous functions can be passed as parameter to another function.
 They are also called closures/functions literals.
 
-Each function can have at most one variadic parameter(keys ...int).
-The type of a variadic parameter is always a slice type.
-
-Println is a variadic function
-
-This snippet shows how println is defined under the hood in go
-
-```
-// Println formats using the default formats for its operands and writes to standard output.
-// Spaces are always added between operands and a newline is appended.
-// It returns the number of bytes written and any write error encountered.
-func Println(a ...any) (n int, err error) {
-	return Fprintln(os.Stdout, a...)
-}
-```
-
 Below is an example of an anonymous function:
 
 ```go
@@ -219,6 +203,26 @@ a+b = 7
 
 Program exited.
 ```
+
+### Vardiac parameters
+
+Each function can have at most one variadic parameter(keys ...int).
+The type of a variadic parameter is always a slice type.
+
+Println is a variadic function
+
+This snippet shows how println is defined under the hood in go
+
+```
+// Println formats using the default formats for its operands and writes to standard output.
+// Spaces are always added between operands and a newline is appended.
+// It returns the number of bytes written and any write error encountered.
+func Println(a ...any) (n int, err error) {
+	return Fprintln(os.Stdout, a...)
+}
+```
+
+
 
 ### Methods
 
