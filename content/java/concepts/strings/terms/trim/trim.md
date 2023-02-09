@@ -31,7 +31,7 @@ import java.io.*;
 
 class Example {
   public static void main(String[] args) {
-    String greetings = "   Hello, Code Ninja!  ";
+    String greetings = "   Hello, Stranger!  ";
     System.out.println(greetings.trim());
   }
 }
@@ -42,5 +42,5 @@ In this example, the .trim() method removes leading and trailing whitespaces fro
 The output would be:
 
 ```shell
-Hello, Code Ninja!
+Hello, Stranger!
 ```
