@@ -13,5 +13,9 @@ isinstance(object, type)
 ```
 
 ## Example
-        This is a test
-This is a second test
+```
+intro = "Hello World!"
+
+if isinstance(intro, str)
+  print(f'{intro}' is a string type!')
+```
