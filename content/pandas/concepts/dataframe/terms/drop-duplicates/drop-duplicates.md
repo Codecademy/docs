@@ -75,7 +75,7 @@ This will produce the following output:
 2    Manon   10         Orange
 3    Manon    7          Green
 4  Nouhoum    9           Blue
-4  Nouhoum    9           Blue
+5  Nouhoum    9           Blue
 
 
 Example 1 DataFrame:
