@@ -11,4 +11,7 @@ The isinstance() function determines whether one object equals the value type de
 ```pseudo
 isinstance(object, type)
 ```
+
 ## Example
+        This is a test
+This is a second test
