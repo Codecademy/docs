@@ -154,13 +154,20 @@ They are also called closures/functions literals.
 
 Each function can have at most one variadic parameter(keys ...int).
 The type of a variadic parameter is always a slice type.
-think about it we have been using a function that takes vardiac parameters..
-yaa the built-in fuction Println is an example of vardiac function.
 
-Println is a variadic function refer [here](https://golang.org/pkg/fmt/#Println)
+Println is a variadic function
 
-for more specific information [here](https://cs.opensource.google/go/go/+/refs/tags/go1.19.5:src/fmt/print.go;l=293)
-<!-- TODO remove vardiac fn doc nd code from below aftr getting clear suggestion -->
+This snippet shows how println is defined under the hood in go
+
+```
+// Println formats using the default formats for its operands and writes to standard output.
+// Spaces are always added between operands and a newline is appended.
+// It returns the number of bytes written and any write error encountered.
+func Println(a ...any) (n int, err error) {
+	return Fprintln(os.Stdout, a...)
+}
+```
+
 Below is an example of an anonymous function:
 
 ```go
