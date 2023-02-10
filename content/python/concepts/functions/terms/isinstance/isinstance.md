@@ -1,8 +1,3 @@
-<div align="left">
-  <h1>isinstance()</h1>
-  <strong>Function that evaluates if a value type equates to True</strong><br>
-</div>
-<br>
 ---
 Title: '.isinstance()'
 Description: 'Returns `True` if object is the specified type. Otherwise it will return `False`.'
@@ -28,6 +23,9 @@ CatalogContent:
   - 'python'
   - 'functions/isinstance'
 ---
+
+<h1>isinstance()</h1>
+<strong>Function that evaluates if a value type equates to True</strong><br>
 
 ## Description
 The isinstance() function determines whether one object equals the value type desired.
