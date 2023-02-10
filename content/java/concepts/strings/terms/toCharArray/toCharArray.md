@@ -67,7 +67,7 @@ class Example2 {
 }
 ```
 
-The output would be:
+This will produce the following output:
 
 ```
 H
