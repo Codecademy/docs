@@ -58,7 +58,7 @@ class Example2 {
   public static void main(String[] args) {
     String salutation = "Hello CodeCademy!";
 
-    char[] array = string.toCharArray();
+    char[] textArray = salutation.toCharArray();
 
     for (int i = 0; i < array.length; i++) {
         System.out.println(array[i]);
