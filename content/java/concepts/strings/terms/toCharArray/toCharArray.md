@@ -50,7 +50,7 @@ The length of the array is: 17
 
 ## Example 2
 
-Use `.toCharArray()` and then print all the characters from the array `"Hello CodeCademy!"` using a for loop:
+The example below uses the `.toCharArray()` method to create a new array, and uses a loop to iterate through the array and print each character:
 
 ```java
 class Example2 {
