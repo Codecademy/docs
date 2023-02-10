@@ -224,7 +224,7 @@ func Println(a ...any) (n int, err error) {
 
 
 
-### Methods
+## Methods
 
 - A function is called a method if it is defined with a receiver.
 - A receiver is a parameter that is declared before the function name.
