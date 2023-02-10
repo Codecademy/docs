@@ -56,7 +56,7 @@ The example below uses the `.toCharArray()` method to create a new array, and us
 // Example2.java
 class Example2 {
   public static void main(String[] args) {
-    String string = "Hello CodeCademy!";
+    String salutation = "Hello CodeCademy!";
 
     char[] array = string.toCharArray();
 
