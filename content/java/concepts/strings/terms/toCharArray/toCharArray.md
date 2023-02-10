@@ -21,40 +21,15 @@ string.toCharArray()
 - Where `string` is the string to be transformed to a new array of characters.
 - This method doesn't take any parameters.
 
-## Example 1
 
-Use `.toCharArray()` to print the character array `"Hello CodeCademy!"` and to demonstrate that the length is equal to the string's length:
 
-```java
-class Example {
-  public static void main(String[] args) {
-    String string = "Hello CodeCademy!";
-
-    char[] array = string.toCharArray();
-
-    System.out.println(array);
-    System.out.println("The length of the string is: "+ string.length());
-    System.out.println("The length of the array is: "+ array.length);
-  }
-}
-```
-
-The output would be:
-
-```
-Hello CodeCademy!
-The length of the string is: 17
-The length of the array is: 17
-
-```
-
-## Example 2
+## Example
 
 The example below uses the `.toCharArray()` method to create a new array, and uses a loop to iterate through the array and print each character:
 
 ```java
-// Example2.java
-class Example2 {
+// Example.java
+class Example {
   public static void main(String[] args) {
     String salutation = "Hello CodeCademy!";
 
