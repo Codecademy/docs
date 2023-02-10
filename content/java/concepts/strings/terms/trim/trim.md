@@ -6,7 +6,7 @@ Subjects:
 Tags:
   - 'String'
   - 'Methods'
-  - 'Whitespace'
+  - 'Characters'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
