@@ -1,3 +1,18 @@
+---
+Title: 'Cryptography'
+Description: 'A method of protecting information and communications through the use of codes that allow only the sender and receiver of a message to view its contents.'
+Subjects:
+  - 'Computer Science'
+  - 'Cybersecurity'
+Tags:
+  - 'Cybersecurity'
+  - 'Cryptography'
+CatalogContent:
+  - 'introduction-to-cybersecurity'
+  - 'paths/fundamentals-of-cybersecurity'
+  - 'introduction-to-personal-digital-security'
+---
+
 # Cryptography 
 
 A method of protecting information and communications through the use of codes that allow only the sender and receiver of a message to view its contents. In cryptography, an original message in plaintext is changed by means of an algorithm into something that is unreadable, known as ciphertext.
