@@ -280,7 +280,6 @@ after pass by reference {pavan pooja@example.com}
 Program exited.
 ```
 
-
 ## Points to Remember
 
 Names of the functions must be unique in the package scope exceptions for this are init and using blank identifier(these can never be called directly they are only used to implement interfaces or provide helper functionality.)
