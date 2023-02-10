@@ -60,8 +60,8 @@ class Example2 {
 
     char[] textArray = salutation.toCharArray();
 
-    for (int i = 0; i < array.length; i++) {
-        System.out.println(array[i]);
+    for (int i = 0; i < textArray.length; i++) {
+        System.out.println(textArray[i]);
       }
   }
 }
