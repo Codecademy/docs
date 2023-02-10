@@ -3,7 +3,6 @@
   <strong>Function that evaluates if a value type equates to True</strong><br>
 </div>
 <br>
-
 ---
 Title: '.isinstance()'
 Description: 'Returns `True` if object is the specified type. Otherwise it will return `False`.'
