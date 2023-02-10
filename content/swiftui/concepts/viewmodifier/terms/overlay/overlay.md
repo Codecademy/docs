@@ -19,8 +19,8 @@ The **`.overlay()`** layers the specified [views](https://www.codecademy.com/res
 
 ```pseudo
 Text("This text will have views layered over top of it.")
-	.overlay(alignment) {
-		// Subviews here
+  .overlay(alignment) {
+    // Subviews here
 }
 ```
 
@@ -37,12 +37,12 @@ The following example uses the `.overlay` modifier to lay a star and a [`Circle`
 
 ```swift
 Color.blue
-	.frame(width: 200, height: 200)
-		.overlay {
-			Circle()
-				.frame(width: 100, height: 100)
-			Image(systemName: "star.fill")
-				.foregroundStyle(Color.yellow)
+  .frame(width: 200, height: 200)
+    .overlay {
+      Circle()
+        .frame(width: 100, height: 100)
+      Image(systemName: "star.fill")
+        .foregroundStyle(Color.yellow)
 }
 ```
 
