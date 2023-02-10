@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The method `.toCharArray()` returns a new character array from the given string. Its length is equal to the the length of this string.
+The method `.toCharArray()` returns a new character array from the given string. The length of the array is equal to the length of the original string.
 
 ## Syntax
 
