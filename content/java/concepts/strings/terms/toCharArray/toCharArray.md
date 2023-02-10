@@ -8,6 +8,7 @@ Tags:
   - 'Methods'
 CatalogContent:
   - 'learn-java'
+  - 'paths/computer-science'
 ---
 
 The method `.toCharArray()` returns a new character array from the given string. Its length is equal to the the length of this string.
