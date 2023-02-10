@@ -11,8 +11,11 @@ Tags:
  - 'learn-swiftUI'
  - docs/content/swiftui/concepts/viewmodifier/terms/foregroundColor
 ---
+
 The **`.foregroundColor()`** modifier sets the foreground color displayed in a [View](https://www.codecademy.com/resources/docs/swiftui/views).
+
 ## Syntax
+
 ```
 struct MyView: View {
   var body: some View {
@@ -25,6 +28,7 @@ struct MyView: View {
 The `.foregroundColor(green)` is applying the color green to the `Text` (which conforms to the `View` protocol). 
 
 ## Example
+
 ```
 struct ContentView: View {
  var body: some View {
@@ -39,11 +43,3 @@ In the above example, the `foregroundColor(.green)` modifier is called on the `T
 This will display the following:
 
 ! [image] (/Volumes/LaCie/Git-Practice/docs/media/SwiftUI-foregroundColor-display.png)
-
-
-
-
-
-
-
-
