@@ -4,6 +4,32 @@
 </div>
 <br>
 
+---
+Title: '.isinstance()'
+Description: 'Returns `True` if object is the specified type. Otherwise it will return `False`.'
+Subjects:
+  - 'Computer Science'
+  - 'Python'
+  - 'Engineering'
+  - 'Programming'
+  - 'Web Dev'
+  - 'Data Science'
+  - 'Data Analytics'
+Tags:
+  - 'Python'
+  - 'Functions'
+  - 'Built-in'
+  - 'Boolean'
+  - 'Objects'
+  - 'Types'
+  - 'TypeError'
+  - 'Parameters'
+  - 'Class'
+CatalogContent:
+  - 'python'
+  - 'functions/isinstance'
+---
+
 ## Description
 The isinstance() function determines whether one object equals the value type desired.
 
