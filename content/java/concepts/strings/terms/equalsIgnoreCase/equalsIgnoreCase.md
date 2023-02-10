@@ -18,6 +18,7 @@ The **`.equalsIgnoreCase()`** method compares two strings ignoring lower/upper c
 ```pseudo
 boolean result = stringOne.equalsIgnoreCase(stringTwo);
 ```
+
 - `result` is a [boolean](https://www.codecademy.com/resources/docs/general/boolean) type [variable](https://www.codecademy.com/resources/docs/java/variables) that stores the output.
 - `stringOne` and `stringTwo` are the two strings being compared. 
 
@@ -28,16 +29,18 @@ The example below uses the `.equalsIgnoreCase()` method to compare the `firstStr
 ```java
 public class CompareStrings {
   public static void main(String[] args) { 
-//Declare strings
-String firstString = "welcome"; 
-String secondString = "WELcome"; 
-String thirdString = "Hello there"; 
-// Compare firstString and secondString
-boolean firstResult = firstString.equalsIgnoreCase(secondString);
-System.out.println("Is the first string equal to the second string? The answer is: " + firstResult);
-//Compare secondString and thirdString
-boolean secondResult = secondString.equalsIgnoreCase(thirdString);
-System.out.println("Is the second string equal to the third string? The answer is: " + secondResult);
+    //Declare strings
+    String firstString = "welcome"; 
+    String secondString = "WELcome"; 
+    String thirdString = "Hello there"; 
+    
+    // Compare firstString and secondString
+    boolean firstResult = firstString.equalsIgnoreCase(secondString);
+    System.out.println("Is the first string equal to the second string? The answer is: " + firstResult);
+    
+    //Compare secondString and thirdString
+    boolean secondResult = secondString.equalsIgnoreCase(thirdString);
+    System.out.println("Is the second string equal to the third string? The answer is: " + secondResult);
   }
 }
 ```
@@ -48,4 +51,3 @@ This will output the following result:
 Is the first string equal to the second string? The answer is: true
 The example above will have the output: Is the second string equal to the third string? The answer is: false
 ```
-
