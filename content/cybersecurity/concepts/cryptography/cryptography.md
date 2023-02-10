@@ -13,8 +13,6 @@ CatalogContent:
   - 'introduction-to-personal-digital-security'
 ---
 
-# Cryptography 
-
 A method of protecting information and communications through the use of codes that allow only the sender and receiver of a message to view its contents. In cryptography, an original message in plaintext is changed by means of an algorithm into something that is unreadable, known as ciphertext.
 
 ## Cryptography In-Use:
@@ -32,12 +30,6 @@ Cryptography approach uses a secret key for both encryption and decryption. Data
 - _Integrity_: integrity is the idea that the information contained within the message cannot be tampered with while in storage or transit.
 - _Authenticity_: authenticity ensures that both the sender and recipient can confirm each other’s identities and the destination of the message.
 
-## Relevant Courses:
 
-[Fundamentals of Cybersecurity](https://www.codecademy.com/learn/paths/fundamentals-of-cybersecurity)
-
-[Introduction to Cybersecurity](https://www.codecademy.com/learn/introduction-to-cybersecurity)
-
-[Introduction to Personal Digital Security](https://www.codecademy.com/learn/introduction-to-personal-digital-security)
 
 
