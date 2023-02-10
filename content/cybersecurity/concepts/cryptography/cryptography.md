@@ -13,7 +13,7 @@ CatalogContent:
   - 'introduction-to-personal-digital-security'
 ---
 
-A method of protecting information and communications through the use of codes that allow only the sender and receiver of a message to view its contents. In cryptography, an original message in plaintext is changed by means of an algorithm into something that is unreadable, known as ciphertext.
+**Cryptography** is a method of protecting information and communications through the use of codes that allow only the sender and receiver of a message to view its contents. In cryptography, an original message in plaintext is changed by means of an algorithm into something that is unreadable, known as ciphertext.
 
 ## Cryptography In-Use:
 
