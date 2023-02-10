@@ -18,7 +18,7 @@ The method `.toCharArray()` returns a new character array from the given string.
 ```java
 string.toCharArray()
 ```
-- Where `string` is the string to be transform in a new array of characters.
+- Where `string` is the string to be transformed to a new array of characters.
 - This method doesn't take parameters.
 
 ## Example 1
