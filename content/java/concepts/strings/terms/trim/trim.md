@@ -38,7 +38,7 @@ class Example {
 }
 ```
 
-In this example, the .trim() method removes leading and trailing whitespaces from the string greetings.
+In the example below, the `.trim()` method removes leading and trailing whitespaces from the string `greetings`.
 
 The output would be:
 
