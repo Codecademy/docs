@@ -204,7 +204,7 @@ a+b = 7
 Program exited.
 ```
 
-### Vardiac parameters
+## Vardiac parameters
 
 Each function can have at most one variadic parameter(keys ...int).
 The type of a variadic parameter is always a slice type.
