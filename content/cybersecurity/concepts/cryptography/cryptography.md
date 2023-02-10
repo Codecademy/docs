@@ -19,7 +19,7 @@ CatalogContent:
 
 Cryptography provides confidentiality, integrity, authentication for sensitive information while it is stored (at rest), traveling across a network (in transit), and existing in memory (in use).Two main types of cryptosystems enforce confidentiality: symmetric and asymmetric cryptosystems.
 
-## Symmetric vs. Asymmetric Cryptography:
+### Symmetric vs. Asymmetric Cryptography:
 
 Cryptography approach uses a secret key for both encryption and decryption. Data is changed into a format that cannot be read or interpreted by someone who does not have the key used to encrypt it during this phase. Symmetric cryptography is based on a single shared key that all parties are privy to and can utilize to encrypt and decrypt data. Asymmetric cryptography encrypts and decrypts a message using a pair of similar keys. Anybody can use a public key to encrypt a document so that only the recipient can decrypt it with their private key. A private key is only known to whoever generated it.
 
