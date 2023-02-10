@@ -24,7 +24,7 @@ No parameters are required for the `.trim()` method.
 
 ## Example
 
-The `.trim)` method is showcased in the following example:
+The `.trim()` method is showcased in the following example:
 
 ```java
 import java.io.*;
