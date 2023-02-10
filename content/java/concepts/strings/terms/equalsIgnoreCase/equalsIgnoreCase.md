@@ -20,7 +20,7 @@ boolean result = stringOne.equalsIgnoreCase(stringTwo);
 ```
 
 - `result` is a [boolean](https://www.codecademy.com/resources/docs/general/boolean) type [variable](https://www.codecademy.com/resources/docs/java/variables) that stores the output.
-- `stringOne` and `stringTwo` are the two strings being compared. 
+- `stringOne` and `stringTwo` are the two strings being compared.
 
 ## Example
 
@@ -28,16 +28,16 @@ The example below uses the `.equalsIgnoreCase()` method to compare the `firstStr
 
 ```java
 public class CompareStrings {
-  public static void main(String[] args) { 
+  public static void main(String[] args) {
     //Declare strings
-    String firstString = "welcome"; 
-    String secondString = "WELcome"; 
-    String thirdString = "Hello there"; 
-    
+    String firstString = "welcome";
+    String secondString = "WELcome";
+    String thirdString = "Hello there";
+
     // Compare firstString and secondString
     boolean firstResult = firstString.equalsIgnoreCase(secondString);
     System.out.println("Is the first string equal to the second string? The answer is: " + firstResult);
-    
+
     //Compare secondString and thirdString
     boolean secondResult = secondString.equalsIgnoreCase(thirdString);
     System.out.println("Is the second string equal to the third string? The answer is: " + secondResult);
