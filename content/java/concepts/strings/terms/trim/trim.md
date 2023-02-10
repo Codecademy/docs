@@ -40,7 +40,7 @@ class Example {
 
 In the example below, the `.trim()` method removes leading and trailing whitespaces from the string `greetings`.
 
-The output would be:
+This will produce the following output:
 
 ```shell
 Hello, Stranger!
