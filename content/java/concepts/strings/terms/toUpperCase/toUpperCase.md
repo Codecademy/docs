@@ -30,7 +30,7 @@ The following example applies the `.toUpperCase()` method to the given text:
 // MyClass.java
 public class MyClass {
   public static void main(String[] args) {
-    
+
     String text = "Hello World";
     String textUp = text.toUpperCase();
     System.out.println(text);
