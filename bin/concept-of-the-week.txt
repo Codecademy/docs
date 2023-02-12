@@ -1,1 +1,1 @@
-content/git/concepts/pull-requests/pull-requests.md
+content/typescript/concepts/about-typescript/about-typescript.md
