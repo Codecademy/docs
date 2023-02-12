@@ -59,9 +59,3 @@ class Program {
   }
 }
 ```
-
-This codebyte example results in the following output:
-
-```shell
-Math.Max (int, double) = 1000.1
-```
