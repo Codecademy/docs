@@ -1,6 +1,6 @@
 ---
 Title: '.subSequence()'
-Description: 'Returns a character sequence from the string'
+Description: 'Returns a character sequence from a string'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -11,24 +11,24 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-# .subSequence() Method
+**`.subSquence()`** is a built-in method that returns a new character sequence that is a subsequence of the user-specified string.
 
-## Descripion
-The `.subSquence()` is a built-in method that returns a new character sequence that is a subsequence of the user-specified string.
+## Syntax
+
+```pseudo
+str.subSequence(int startIndex, int endIndex)
+```
+The `subSequence()` method will return a subsequence of the `str` string that starts with the character at the position `startIndex` and ends with the character at the position `endIndex -1`
 
 The `.subSquence()` method takes two parameters:
   - `startIndex` - the starting index (inclusive);
   - `endIndex` - the ending index (exclusive).
 
   Both parameters must be `integers`.
-
-## Syntax
-```pseudo
-str.subSequence(int startIndex, int endIndex)
-```
-  The `subSequence()` method will return a subsequence of the `str` string that starts with the character at the position `startIndex` and ends with the character at the position `endIndex -1`
 .
 ## Example
+
+The following example will return a subsequence of the `str` string.
 
 ```java
 class Main {
@@ -41,6 +41,7 @@ class Main {
 ```
 
 This will print:
+
 ```
 Java
 ```
