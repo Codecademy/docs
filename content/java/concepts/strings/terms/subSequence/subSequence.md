@@ -25,7 +25,7 @@ The `.subSquence()` method takes two parameters:
   - `endIndex` - the ending index (exclusive).
 
   Both parameters must be `integers`.
-.
+
 ## Example
 
 The following example will return a subsequence of the `str` string.
