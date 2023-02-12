@@ -17,13 +17,13 @@ The **`Math.Max()`** method returns the larger of two specified numbers.
 ## Syntax
 
 ```pseudo
-//returns the greater value from the two numbers
 Math.Max(num1, num2)
 ```
+`Math.Max()` returns the greater value from `num1` and `num2`.
 
 ## Example
 
-The following example compares two integers `i1` and `i2` and writes greater to the console.
+The following example compares two integers `i1` and `i2` and writes the greater integer to the console.
 
 ```cs
 using System;
@@ -37,9 +37,15 @@ class Program {
 }
 ```
 
+This example results in the following output:
+
+```shell
+Math.Max (int) = 345
+```
+
 ## Codebyte Example
 
-The following example demonstrates `Math.Max()` function that compares two numbers, an `int` and `double`, and writes greater to the console. This is a runnable example.
+The following example demonstrates `Math.Max()` function that compares two numbers, an `int` and a `double`, and writes the greater number to the console. This is a runnable example.
 
 ```codebyte/csharp
 using System;
@@ -47,9 +53,15 @@ using System;
 class Program {
   public static void Main (string[] args) {
     int i1 = 234;
-    double d1=1000.1;
+    double d1 = 1000.1;
 
     Console.WriteLine("Math.Max (int, double) = " + Math.Max(i1,d1));
   }
 }
+```
+
+This codebyte example results in the following output:
+
+```shell
+Math.Max (int, double) = 1000.1
 ```
