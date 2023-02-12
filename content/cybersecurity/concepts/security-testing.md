@@ -2,25 +2,28 @@
 Title: 'Security Testing'
 Description: 'Security Testing is a critical aspect of software development life cycle that helps protect systems and applications from potential security threats.'
 Subjects:
-  - 'Security Testing'
-
+  - 'Cybersecurity'
 Tags:
-  - 'Security Testing'
-
+  - 'Cybersecurity'
 CatalogContent:
-  - 'introduction-to-security-testing'
-  - 'paths/fundamentals-of-cybersecurity'
+  - 'learn-security-testing'
+  - 'paths/cybersecurity'
 
 
 
-**Security Testing** is a critical aspect of software development that helps protect systems and applications from potential security threats. This type of testing evaluates the security of a system or application, identifies vulnerabilities and weaknesses, and verifies compliance with industry standards and regulations. With the increasing number of cyber attacks and data breaches, security testing is more important than ever to ensure the confidentiality, integrity, and availability of sensitive information.
+**Security Testing** is a critical aspect of software development that helps protect systems and applications from potential security threats
+  ⋅⋅* It examines security, discovers weaknesses, and confirms compliance with industry standards and regulations.
+  ⋅⋅* With growing cyber attacks and data breaches, security testing is crucial to ensure the confidentiality, integrity, and availability of sensitive data.
 
 
 There are three main methods for security testing:
 **Black Box Testing**: This approach to security testing evaluates a system or application without knowledge of its internal structure or implementation details. Black box testing focuses on functional requirements and the user interface, and can be used to identify security vulnerabilities that an attacker would exploit.
-**White Box Testing**: This approach to security testing evaluates a system or application with knowledge of its internal structure and implementation details. White box testing focuses on code-level security, including input validation, error handling, and access controls.
-**Gray Box Testing**: This approach to security testing combines elements of both black box and white box testing. Gray box testing provides some knowledge of the internal structure of a system or application, but not a complete understanding. This type of testing is useful for identifying security vulnerabilities that would be missed by black box testing but may not be as comprehensive as white box testing.
 
+**White Box Testing**: This approach to security testing evaluates a system or application with knowledge of its internal structure and implementation details. White box testing focuses on code-level security, including input validation, error handling, and access controls.
+
+**Gray box testing merges features of black box and white box testing.
+  ⋅⋅* It offers partial knowledge of the internal structure of a system or app but not a full understanding.
+  ⋅⋅* Gray box testing is valuable for discovering security vulnerabilities that black box testing may miss, but it may not be as exhaustive as white box testing.
 
 Here are some key details of security testing:
 
@@ -35,3 +38,5 @@ Here are some key details of security testing:
 **Compliance Testing**: This type of testing verifies that a system or application complies with industry regulations and standards, such as PCI DSS, HIPAA, or ISO 27001. Compliance testing helps ensure that an organization's security practices meet the requirements of regulatory bodies and help prevent legal and financial consequences.
 **Remediation: After security weaknesses are identified during testing, remediation involves fixing the vulnerabilities and implementing security controls to prevent similar issues in the future.
 **Maintenance: Security testing should be an ongoing process to ensure the continued security of a system or application. Regular security testing, vulnerability assessments, and remediation are essential to maintaining the security of a system or application over time.
+
+---
