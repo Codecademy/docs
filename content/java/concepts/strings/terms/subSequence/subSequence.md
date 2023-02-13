@@ -18,6 +18,7 @@ CatalogContent:
 ```pseudo
 str.subSequence(int startIndex, int endIndex)
 ```
+
 The `subSequence()` method will return a subsequence of the `str` string that starts with the character at the position `startIndex` and ends with the character at the position `endIndex -1`
 
 The `.subSquence()` method takes two parameters:
