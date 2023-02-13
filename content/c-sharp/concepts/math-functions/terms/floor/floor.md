@@ -33,7 +33,6 @@ using System;
 public class Floor {
     public static void Main() {
         Console.WriteLine(Math.Floor(5.05));
-        //returns 5
     }
 }
 ```
