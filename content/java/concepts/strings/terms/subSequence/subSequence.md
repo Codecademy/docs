@@ -1,6 +1,6 @@
 ---
 Title: '.subSequence()'
-Description: 'Returns a character sequence from a string'
+Description: 'Returns a character sequence from a string.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**`.subSquence()`** is a built-in method that returns a new character sequence that is a subsequence of the user-specified string.
+**`.subSquence()`** is a built-in method that returns a new character sequence that is a subsequence of a user-specified string.
 
 ## Syntax
 
@@ -42,6 +42,6 @@ class Main {
 
 This will print:
 
-```
+```shell
 Java
 ```
