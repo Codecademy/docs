@@ -24,7 +24,7 @@ No parameters are required for the `.trim()` method.
 
 ## Example
 
-The `.trim()` method is showcased in the following example:
+In the example below, the `.trim()` method removes leading and trailing whitespaces from the string `greetings`.
 
 ```java
 // Example.java
@@ -37,8 +37,6 @@ class Example {
   }
 }
 ```
-
-In the example below, the `.trim()` method removes leading and trailing whitespaces from the string `greetings`.
 
 This will produce the following output:
 
