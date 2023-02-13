@@ -1,6 +1,6 @@
 ---
 Title: '.isEmpty()'
-Description: 'Returns true if a string has no content, otherwise false.
+Description: 'Returns true if a string has no content, otherwise false.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -25,7 +25,7 @@ string.isEmpty();
 
 The example below applies the `.isEmpty()` method to the strings `drink` and `food`:
 
-```java
+````java
 // isStringEmpty.java
 class isStringEmpty {
   public static void main(String[] args) {
@@ -40,9 +40,9 @@ class isStringEmpty {
 This will print the following output:
 
 ```shell
-false 
+false
 true
-```
+````
 
 This will print the following output:
 
