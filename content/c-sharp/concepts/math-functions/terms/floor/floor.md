@@ -27,6 +27,7 @@ Math.floor(x);
 The following example uses Math.floor() to return the largest whole number before 5.05
 
 ```cs
+//Include the System namespace
 using System;
 
 public class Floor {
@@ -38,7 +39,7 @@ public class Floor {
 ```
 
 ## Codebyte Example (if applicable)
-Math.floor() has practical applications where a non-whole number would not make sense.  For example, if you were required to take only full vacation days, but you have 11.5 days accrued, the only relevant number to you is the largest whole number below 11.5
+Math.floor() has practical applications where a non-whole number would not make sense.  For example, if you were required to take only full vacation days, but you have 11.5 days accrued, the only relevant number to you is the largest whole number below 11.5.
 
 
 ```codebyte/csharp
