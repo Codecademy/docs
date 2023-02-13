@@ -1,1 +1,1 @@
-content/css/concepts/math-functions/math-functions.md
+content/typescript/concepts/about-typescript/about-typescript.md
