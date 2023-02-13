@@ -28,9 +28,9 @@ These are the possible attribute values:
 
 |Value |Description |
 |--|--|
-| ltr| Default: Left-to-right text direction, such as English|
+|ltr| Default: Left-to-right text direction, such as English|
 |rtl |Right-to-left text direction, such as Arabic |
-| auto| Let the browser figure out the text direction, based on the content (only recommended if the text direction is unknown)| 
+|auto| Let the browser figure out the text direction, based on the content (only recommended if the text direction is unknown)| 
 
 >  **Note:** While declaring the directionality of the document in the html tag, don't forget to also declare the language of the document using the `lang` attribute. However, do not make the mistake of assuming that language declarations indicate directionality, or vice versa! Even if the language declaration has a script tag it won't affect the directionality of the text in the user agent. The directionality must always be declared using the `dir` attribute.
 
