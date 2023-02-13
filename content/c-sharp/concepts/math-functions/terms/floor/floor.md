@@ -16,6 +16,8 @@ CatalogContent:
 **Math.floor()** is a static method that always rounds down and returns the largest whole integer less than or equal to the given number.
 
 ## Syntax
+In C#, the Math.floor() method is used to find the largest whole integer which is less than or equal to the argument passed in.  The floor method accepts arguments in float and double format.
+
 ```pseudo
 Math.floor(x);
 ```
@@ -25,7 +27,7 @@ Math.floor(x);
 
 ```cs
 public class Floor {
-    public static void example() {
+    public static void Example() {
         Math.floor(5.05);
         //returns 5
     }
