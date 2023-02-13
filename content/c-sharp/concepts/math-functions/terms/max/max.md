@@ -6,6 +6,7 @@ Subjects:
   - 'Code Foundations'
 Tags:
   - 'Methods'
+  - 'Numbers'
   - 'Arithmetic'
 CatalogContent:
   - 'learn-c-sharp'
@@ -28,7 +29,7 @@ The following example compares two integers `i1` and `i2` and writes the greater
 ```cs
 using System;
 
-class Program {
+public class Example {
   public static void Main (string[] args) {
     int i1 = -234, i2 = 345;
 
@@ -41,21 +42,4 @@ This example results in the following output:
 
 ```shell
 Math.Max (int) = 345
-```
-
-## Codebyte Example
-
-The following example demonstrates `Math.Max()` function that compares two numbers, an `int` and a `double`, and writes the greater number to the console. This is a runnable example.
-
-```codebyte/csharp
-using System;
-
-class Program {
-  public static void Main (string[] args) {
-    int i1 = 234;
-    double d1 = 1000.1;
-
-    Console.WriteLine("Math.Max (int, double) = " + Math.Max(i1,d1));
-  }
-}
 ```
