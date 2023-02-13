@@ -1,5 +1,5 @@
 Bar Code
-Ganeral
+General
 QR Code
 Quick Response 
 Scan

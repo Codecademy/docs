@@ -1,6 +1,17 @@
 ---
 Title: 'QR Codes'
 Description: 'QR Codes and how are they used'
+Subjects:
+  - General
+  - QR Code
+  - Quick Response Code
+  - Scan
+Tags:
+  - Bar Code
+  - General
+  - QR Code
+  - Quick Response
+  - Scan
 CatalogContent:
   - 'General'
   - 'QR Codes'
@@ -14,6 +25,8 @@ A **QR Code** (quick response code) is code that can be read by a computer, just
 
 QR Codes are used just like their bar code counterparts: They contain data, and when scanned the data is entered into an app or is used by a device, greatly speeding up the data entry process and eliminating typing errors. Bar codes usually hold just a number, and once scanned and entered into an application. The scanned number can be used to lookup a specific item and retrieve the item’s name, price, and other information. QR Codes hold all kinds of data, so they are more widely used than bar codes.
 
+Some QR Codes are static, and some are dynamic. A static QR Code has all the data encoded, and the data will not change. If a data entry error is made during QR Code creation, that error is permanent. A dynamic QR Code fixes the problem. A dynamic QR Code will retrieve data from the internet, allowing the QR Code owner to edit the data as needed.
+
 QR Codes do need to be square in shape, but there is room for some artistic styling. The squares and data dots can have rounded corners. The QR Code does not have to be black on white. The black can be changed to another color, but a higher contrast leads to more readability. A logo can be included in the center square. These changes make the QR Code visually unique and more suited to its use.
 
 ## Reading a QR Code
@@ -23,8 +36,6 @@ To read a QR Code one does not need a special laser bar code reader. Most camera
 ## Creating a QR Code
 
 Software is used to create the QR Code. The user enters data to be encoded and how the QR Code will be used. When the user is done entering the data, the software will create the QR Code. There are several QR Code generator websites. Some will generate basic QR Codes for free.
-
-Some QR Codes are static, and some are dynamic. A static QR Code has all the data encoded, and the data will not change. If a data entry error is made during QR Code creation, that error is permanent. A dynamic QR Code fixes the problem. A dynamic QR	Code will retrieve data from the internet, allowing the QR Code owner to edit the data as needed.
 
 ## Uses for QR Codes
 
