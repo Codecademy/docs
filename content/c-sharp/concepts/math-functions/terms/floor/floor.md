@@ -24,7 +24,7 @@ Math.Floor(x);
 - Code using the `Math.Floor()` method must have access to the `System` namespace.
 
 ## Example
-The following example uses Math.Floor() to return the largest whole number before 5.05
+The following example uses `Math.Floor()` to return the largest whole number.
 
 ```cs
 //Include the System namespace
