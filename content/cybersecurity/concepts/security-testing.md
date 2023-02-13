@@ -23,7 +23,7 @@ There are three main methods for security testing:
 
 **Gray box testing merges features of black box and white box testing.
   - It offers partial knowledge of the internal structure of a system or app but not a full understanding.
-  ⋅⋅* Gray box testing is valuable for discovering security vulnerabilities that black box testing may miss, but it may not be as exhaustive as white box testing.
+  - Gray box testing is valuable for discovering security vulnerabilities that black box testing may miss, but it may not be as exhaustive as white box testing.
 
 Here are some key details of security testing:
 
