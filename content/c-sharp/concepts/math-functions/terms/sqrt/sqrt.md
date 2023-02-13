@@ -2,15 +2,15 @@
 Title: '.Sqrt()'
 Description: 'Returns the square root of a number.'
 Subjects:
-    - 'Computer Science'
-    - 'Code Foundations'
+  - 'Computer Science'
+  - 'Code Foundations'
 Tags:
-    - 'Arithmetic'
-    - 'Numbers'
-    - 'Methods'   
+  - 'Arithmetic'
+  - 'Numbers'
+  - 'Methods'
 CatalogContent:
-    - 'learn-c-sharp'
-    - 'paths/computer-science'
+  - 'learn-c-sharp'
+  - 'paths/computer-science'
 ---
 
 The **`Math.Sqrt()`** method returns the square root of the number given.
@@ -43,12 +43,12 @@ namespace MySquareRoot
             double b = Math.Sqrt(-256);
             double c = Math.Sqrt(500);
             double d = Math.Sqrt(0.144);
-            
+
             Console.WriteLine(a);
             Console.WriteLine(b);
             Console.WriteLine(c);
             Console.WriteLine(d);
-        }    
+        }
     }
 }
 ```
