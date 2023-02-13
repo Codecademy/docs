@@ -38,21 +38,7 @@ public class Floor {
 }
 ```
 
-## Codebyte Example
-Math.Floor() has practical applications where a non-whole number would not make sense.  For example, if you were required to take only full vacation days, but you have 11.5 days accrued, the only relevant number to you is the largest whole number below 11.5.
+The example will result in the following output:
 
-
-```codebyte/csharp
-using System;
-
-public class Vacation {
-
-    public static void Main() 
-    {
-        float vacationDaysAccrued = 11.5f;
-
-        Console.WriteLine("You can use " + Math.Floor(vacationDaysAccrued) + " vacation days right now.");
-        //returns a string containing 11
-    }
-}
-```
+```shell
+5
