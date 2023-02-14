@@ -22,22 +22,7 @@ There are three main methods for security testing:
   - White Box Testing
   - Gray Box Testing
 
-**Black Box Testing**: 
-  - Black box testing evaluates a system or application without knowledge of its internal structure or implementation details.
-  - Black box testing focuses on functional requirements and the user interface.
-  - Black box testing can be used to identify security vulnerabilities that an attacker would exploit.
-
-**White Box Testing**: 
-  - White box testing evaluates a system or application with knowledge of its internal structure and implementation details.
-  - White box testing focuses on code-level security.
-  - Code-level security includes input validation, error handling, and access controls.
-
-**Gray box testing merges features of black box and white box testing.
-  - It offers partial knowledge of the internal structure of a system or app but not a full understanding.
-  - Gray box testing is valuable for discovering security vulnerabilities that black box testing may miss, but it may not be as exhaustive as white box testing.
-
 Here are some key details of security testing:
-
 
   - Vulnerability assessment: This is the process of identifying, classifying, and prioritizing vulnerabilities in a system or application. Vulnerability assessments can be performed manually or with automated tools.
   - Penetration Testing: This type of testing simulates an attack on a system or application to identify security weaknesses and vulnerabilities. Penetration testing is usually performed by ethical hackers, who use the same tools and techniques as malicious hackers to identify potential security issues.
