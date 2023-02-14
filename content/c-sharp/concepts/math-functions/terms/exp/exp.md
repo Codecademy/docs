@@ -16,9 +16,9 @@ CatalogContent:
 The **`Math.Exp()`** method returns the value of raising **`e`** with the number given as a **power**.
 **`e`** stands for Euler's number, the **Euler's number** is an irrational number, with an approximate constant value of **2.71828** , that provides a constant base to the **natural logarithm** or **`log`** and can be understood as a limit of a given progression.
 
-```tex
+$$
 \sum\limits_{n=0}^{\infty} \frac{1}{n!} = 1 + \frac{1}{n+1} + \frac{1}{(n+1)(n+2)} + \frac{1}{(n+1)(n+2)(n+3)} + \cdots
-```
+$$
 
 Consequently, the **`Math.Exp()`** method is the inverse of the **`Math.Log()`** method.
 
