@@ -20,7 +20,7 @@ The `String` class' `.replaceAll()` method replaces every matching subsequence i
 string.replaceAll(String regex, String repl);
 ```
 
-`regex` represents the regular expression to which this string is to be matched.
+`regex` represents the [regular expression](https://www.codecademy.com/resources/docs/general/regular-expressions) to which this string is to be matched.
 `repl` represents the string to be substituted for each match.
 
 
