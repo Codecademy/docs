@@ -1,4 +1,16 @@
-# Risk Management 
+---
+Title: 'Risk Management'
+Description: 'Risk management is a detailed process of identifying factors that could damage or disclose data, evaluating those factors, and implementing careful solutions for mitigating or reducing risk.'
+Subjects:
+  - 'Computer Science'
+  - 'Cybersecurity'
+Tags:
+  - 'Best Practices'
+  - 'Cybersecurity'
+CatalogContent:
+  - 'introduction-to-cybersecurity'
+  - 'paths/fundamentals-of-cybersecurity'
+---
 
 **Risk management** is a detailed process of identifying factors that could damage or disclose data, evaluating those factors, and implementing careful solutions for mitigating or reducing risk.
 
@@ -20,11 +32,3 @@ The following four strategies are commonly used in cyber risk management.
 - _Mitigation_: mitigation is when controls and other preventive measures are used to reduce the level of risk facing an organization.
 - _Risk Transfer_: risk transfer occurs when one party shifts the pure risk from one party to another.
 - _Avoidance_: avoidance occurs when a party eliminates risks and hazards that can negatively affect an organization and its assets.
-
-## Relevant Courses:
-
-[Cyber Resilience Risk Management](https://www.codecademy.com/learn/paths/cyber-resilience-risk-management)
-
-[Fundamentals of Cybersecurity](https://www.codecademy.com/learn/paths/fundamentals-of-cybersecurity)
-
-
