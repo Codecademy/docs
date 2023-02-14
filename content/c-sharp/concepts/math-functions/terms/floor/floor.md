@@ -20,10 +20,12 @@ CatalogContent:
 ```pseudo
 Math.Floor(x);
 ```
-- The `Math.Floor()` method is used to find the largest whole integer which is less than or equal to the argument, `x`, passed in.  The method accepts arguments in float and double format.
+
+- The `Math.Floor()` method is used to find the largest whole integer which is less than or equal to the argument, `x`, passed in. The method accepts arguments in float and double format.
 - Code using the `Math.Floor()` method must have access to the `System` namespace.
 
 ## Example
+
 The following example uses `Math.Floor()` to return the largest whole number.
 
 ```cs
@@ -41,3 +43,4 @@ The example will result in the following output:
 
 ```shell
 5
+```
