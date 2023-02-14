@@ -1,6 +1,6 @@
 # Spear phishing
 
-Spear phishing is a type of social engineering scam that attempts to trick the recipient into providing confidential information to the attacker. Spear phishing is a more targeted cyber attack than phishing.
+**Spear phishing** is a type of social engineering scam that attempts to trick the recipient into providing confidential information to the attacker. Spear phishing is a more targeted cyber attack than phishing.
 
 ## Spear phishing In-Use:
 
