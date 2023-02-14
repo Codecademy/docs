@@ -31,7 +31,7 @@ This method replaces all the substrings in the string that match the given regul
 
 ## Example
 
-The example below removes all whitespace
+The example below removes all whitespace:
 
 ```java
 String myString = "Dog\t  \r\rComputer\n\n  \r House \t Yes \n  ";
