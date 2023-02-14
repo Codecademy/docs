@@ -27,7 +27,7 @@ This method replaces all the substrings in the string that match the given regul
 
 > **Note:** It's important to note that certain characters in the replacement string, such as backslashes and dollar signs ($), may have special meanings, so it's recommended to use `Matcher.quoteReplacement(String)` to prevent these characters from affecting the results.
 
-Both the `.replace()` and `.replaceAll()` methods replace all occurrences of a matching string and accept `CharSequence` as input. However, the key difference is that `.replaceAll()` treats the given `CharSequence` as a *regular expression* and searches for `regex` matches, while `.replace()` treats the input as plain text.
+> **Note:** Both the [`.replace()`](https://www.codecademy.com/resources/docs/java/strings/replace) and `.replaceAll()` methods replace all occurrences of a matching string and accept `CharSequence` as input. However, the key difference is that `.replaceAll()` treats the given `CharSequence` as a *regular expression* and searches for `regex` matches, while `.replace()` treats the input as plain text.
 
 ## Example
 
