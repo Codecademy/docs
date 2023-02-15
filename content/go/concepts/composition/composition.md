@@ -13,15 +13,62 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'paths/computer-science'
 ---
 
-[Introduction - make sure first mention of concept is in **bold**.] (The first 160 characters of this section will appear as the description of the page when it shows up on search engines. It's important!)
-Go's composition is like having a big toolbox with all the special tools you need to build amazing computer projects.
+Go's **composition** is like having a big toolbox with all the special tools you need to build amazing computer projects. The English definition of compose means to "create" or "make up a whole by adding parts". As composition is the noun form of compose, you can take a gander of what composition in Go might consist of.
 
-## Subsection 1
+## How to compose a composition
 
-[Text about subsection 1]
-Go's composition is a combination of various elements that make the language a powerful and efficient tool for software development. Here are some of the key elements that make up Go's composition:
+Go's composition is a combination of various elements that make the language a powerful and efficient tool for software development. 
 
-1. Simple and expressive syntax: Go's syntax is designed to be simple and easy to read. This makes it easier for developers to write and understand code, as well as reduce the likelihood of syntax-related errors. For example, Go's variable declaration is straightforward and intuitive:
+Let us take a look by first creating a struct called `pizza`
+
+```
+package main
+
+import "fmt"
+
+type Pizza struct {
+	Name        string
+	Size        string
+	Toppings    []string
+	IsDelicious bool
+}
+```
+[Confused on what a struct is? You can come check out our link to understand Structs by clicking this sentence!](https://www.codecademy.com/resources/docs/go/structs)
+
+Now that we have our struct, we are capable of creating a new function that can help us define what specific **Style of Pizza** we want.
+
+So let's do that here.
+```
+package main
+
+import "fmt"
+
+type Pizza struct {
+	Name        string
+	Size        string
+	Toppings    []string
+	IsDelicious bool
+}
+
+func pizzaStyle(p Pizza) string {
+	return p.Name + " pizza is a " + p.Size + " pizza with toppings of " + fmt.Sprint(p.Toppings)
+}
+
+func main() {
+	myPizza := Pizza{
+		Name:        "Margherita",
+		Size:        "medium",
+		Toppings:    []string{"tomatoes", "mozzarella", "basil"},
+		IsDelicious: true,
+	}
+
+	fmt.Println(pizzaStyle(myPizza))
+}
+```
+What do you think this would output?
+Click below to get the answer:
+>!Margherita pizza is a medium pizza with toppings of [tomatoes mozzarella basil]
+
 
 
 
