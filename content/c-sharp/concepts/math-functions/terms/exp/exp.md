@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.Exp()`** method returns the value of raising _e_ the power of a given number.
+The **`Math.Exp()`** method returns the value of raising _e_ to the power of a given number.
 _e_ stands for Euler's number, an irrational number, with an approximate constant value of 2.71828. It provides a constant base to the natural logarithm or log and can be understood as a limit of a given progression.
 
 $$
