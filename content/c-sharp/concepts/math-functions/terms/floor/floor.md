@@ -29,7 +29,7 @@ Math.Floor(x);
 The following example uses `Math.Floor()` to return the largest whole number.
 
 ```cs
-//Include the System namespace
+// Include the System namespace
 using System;
 
 public class Floor {
