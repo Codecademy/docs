@@ -132,7 +132,7 @@ We also define a struct called Restaurant that contains the pizza struct, the re
 
 In the main function, we create a Pizza struct called myPizza and a Restaurant struct called myRestaurant. We then pass myPizza to pizzaStyle and myRestaurant to restaurantInfo, which are then printed to the console.
 
-**Can you guess what both outputs would be? **
+**Can you guess what both outputs would be?**
 <details><summary>Click here to get the answer!</summary>
     <pre>
     Margherita pizza is a medium pizza with toppings of [tomatoes mozzarella basil]
