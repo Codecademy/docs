@@ -33,7 +33,7 @@ type Pizza struct {
 	IsDelicious bool
 }
 ```
-[Confused on what a struct is? You can come check out our link to understand Structs by clicking this sentence!](https://www.codecademy.com/resources/docs/go/structs)
+[Are you feeling bewildered by the concept of structs in programming? Look no further! Don't let confusion hold you back - unlock the power of structs today by clicking this text!](https://www.codecademy.com/resources/docs/go/structs)
 
 ## Using the struct we created to make a function
 
