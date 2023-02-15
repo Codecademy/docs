@@ -1,6 +1,6 @@
 ---
 Title: '.Floor()'
-Description: 'Math.Floor() rounds down and returns the largest whole integer less than or equal to the given number.'
+Description: 'Rounds down and returns the largest whole integer less than or equal to the given number.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
