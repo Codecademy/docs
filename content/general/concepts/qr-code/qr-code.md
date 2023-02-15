@@ -1,17 +1,6 @@
 ---
 Title: 'QR Codes'
 Description: 'QR Codes and how are they used'
-Subjects:
-  - General
-  - QR Code
-  - Quick Response Code
-  - Scan
-Tags:
-  - Bar Code
-  - General
-  - QR Code
-  - Quick Response
-  - Scan
 CatalogContent:
   - 'General'
   - 'QR Codes'
@@ -21,7 +10,7 @@ CatalogContent:
 
 ## What is a QR Code?
 
-A **QR Code** (quick response code) is code that can be read by a computer, just like the standard bar codes that appear on products at retail stores. But the QR Code It is different than the standard bar code. The standard bar code is one dimensional and reads horizontally. A QR Code is a square, with the data enclosed within the square. The three squares in the corners of the QR code tell the QR Code scanning software how the QR Code is orientated, so the scanning software can read the QR Code’s data correctly. [Here](https://www.qr-code-generator.com/qr-code-marketing/qr-codes-basics/) is a good web page detailing how the data is structured in the QR Code.  
+A **QR Code** (quick response code) is code that can be read by a computer, just like the standard bar codes that appear on products at retail stores. But the QR Code is different than the standard bar code. The standard bar code is one dimensional and reads horizontally. A QR Code is a square, with the data enclosed within the square. The three squares in the corners of the QR code tell the QR Code scanning software how the QR Code is orientated, so the scanning software can read the QR Code’s data correctly. [Here](https://www.qr-code-generator.com/qr-code-marketing/qr-codes-basics/) is a good web page detailing how the data is structured in the QR Code.  
 
 QR Codes are used just like their bar code counterparts: They contain data, and when scanned the data is entered into an app or is used by a device, greatly speeding up the data entry process and eliminating typing errors. Bar codes usually hold just a number, and once scanned and entered into an application. The scanned number can be used to lookup a specific item and retrieve the item’s name, price, and other information. QR Codes hold all kinds of data, so they are more widely used than bar codes.
 

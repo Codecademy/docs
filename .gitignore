@@ -7,5 +7,3 @@ yarn-error.log*
 *.swp
 *.swo
 tmp
-/content/general/concepts/qr-code/subjects.md
-/content/general/concepts/qr-code/tags.md

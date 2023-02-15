@@ -26,6 +26,7 @@ Automation
 Azure
 A-Frame
 Background
+Bar Code
 Bash/Shell
 Beautiful Soup
 Best Practices
@@ -217,8 +218,10 @@ Print
 Probability
 Promise
 Properties
+QR Code
 Queries
 Queues
+Quick Response Code
 Quicksort
 Rails
 Random
@@ -234,6 +237,7 @@ Regular Expressions
 Requests
 Responsive
 Rest Parameter
+Scan
 Schema Design
 Scikit-learn
 Scope
