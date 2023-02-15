@@ -1,6 +1,6 @@
 ---
 Title: '.startsWith()'
-Description: 'Returns true if a string starts with given character(s) and false otherwise.'
+Description: 'Returns true if a string starts with a given character sequence and false otherwise.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -12,19 +12,20 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.startsWith()`** method returns `true` if a string starts with given character(s). Otherwise, `false` is returned.
+The **`.startsWith()`** method returns `true` if a string starts with a given character sequence. Otherwise, `false` is returned.
 
 ## Syntax
 
 ```pseudo
-string.startsWith(object);
+string.startsWith(stringOfCharacters);
 ```
 
-The `object` can either be a string literal or a representation of a `String` value. This will return `true` if the `object` has the same starting character sequence as `string` .
+The `stringOfChcaracters` can either be a string literal or a representation of a `String` value (Variable/Constant etc). 
+The method will return `true` if `stringOfCharacters` is the same starting character sequence as `string` .
 
 ## Example
 
-The following example showcases the `.startsWith()` method:
+The following example demonstrates the `.startsWith()` method:
 
 ```java
 import java.io.*;
