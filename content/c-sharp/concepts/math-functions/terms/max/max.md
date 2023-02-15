@@ -20,6 +20,7 @@ The **`Math.Max()`** method returns the larger of two specified numbers.
 ```pseudo
 Math.Max(num1, num2)
 ```
+
 `Math.Max()` returns the greater value from `num1` and `num2`.
 
 ## Example
