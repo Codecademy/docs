@@ -19,7 +19,7 @@ The **`.equalsIgnoreCase()`** method compares two strings ignoring lower/upper c
 boolean result = stringOne.equalsIgnoreCase(stringTwo);
 ```
 
-- `result` is a [boolean](https://www.codecademy.com/resources/docs/general/boolean) type [variable](https://www.codecademy.com/resources/docs/java/variables) that stores the output.
+- `result` is a [boolean](https://www.codecademy.com/resources/docs/general/data-types/boolean) type [variable](https://www.codecademy.com/resources/docs/java/variables) that stores the output.
 - `stringOne` and `stringTwo` are the two strings being compared.
 
 ## Example
