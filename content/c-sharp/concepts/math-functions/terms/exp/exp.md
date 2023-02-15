@@ -1,6 +1,6 @@
 ---
 Title: '.Exp()'
-Description: 'Returns the result of raising e with a specific number.'
+Description: 'Returns the result of raising e to the power of a specific number.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
@@ -13,14 +13,14 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.Exp()`** method returns the value of raising **`e`** with the number given as a **power**.
-**`e`** stands for Euler's number, the **Euler's number** is an irrational number, with an approximate constant value of **2.71828** , that provides a constant base to the **natural logarithm** or **`log`** and can be understood as a limit of a given progression.
+The **`Math.Exp()`** method returns the value of raising _e_ the power of a given number.
+_e_ stands for Euler's number, an irrational number, with an approximate constant value of 2.71828. It provides a constant base to the natural logarithm or log and can be understood as a limit of a given progression.
 
 $$
 \sum\limits_{n=0}^{\infty} \frac{1}{n!} = 1 + \frac{1}{n+1} + \frac{1}{(n+1)(n+2)} + \frac{1}{(n+1)(n+2)(n+3)} + \cdots
 $$
 
-Consequently, the **`Math.Exp()`** method is the inverse of the **`Math.Log()`** method.
+Consequently, the `Math.Exp()` method is the inverse of the `Math.Log()` method.
 
 ## Syntax
 
