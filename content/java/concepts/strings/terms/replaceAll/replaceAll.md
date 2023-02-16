@@ -21,7 +21,7 @@ The `String` class' **`.replaceAll()`** method replaces every matching subsequen
 string.replaceAll(String regex, String repl);
 ```
 
-`regex` represents the [regular expression](https://www.codecademy.com/resources/docs/general/regular-expressions) to which this string is to be matched.
+`regex` represents the [regular expression](https://www.codecademy.com/resources/docs/general/regular-expressions): a set of special characters and letters used for matching specific text.
 `repl` represents the string to be substituted for each match.
 
 This method replaces all the substrings in the string that match the given regular expression (`regex`) with the given replacement (`repl`).
