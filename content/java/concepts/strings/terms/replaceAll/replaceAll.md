@@ -24,7 +24,6 @@ string.replaceAll(String regex, String repl);
 `regex` represents the [regular expression](https://www.codecademy.com/resources/docs/general/regular-expressions): a set of special characters and letters used for matching specific text.
 `repl` represents the string to be substituted for each match.
 
-This method replaces all the substrings in the string that match the given regular expression (`regex`) with the given replacement (`repl`).
 
 > **Note:** It's important to note that certain characters in the replacement string, such as backslashes and dollar signs ($), may have special meanings, so it's recommended to use `Matcher.quoteReplacement(String)` to prevent these characters from affecting the results.
 
