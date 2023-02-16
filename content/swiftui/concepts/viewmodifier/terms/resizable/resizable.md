@@ -78,7 +78,7 @@ The image on the left is before applying the `.resizable()` modifier and on the 
 
 ## Example: With Parameters
 
-The following example sets the `capInsets: EdgeInsets()` for `top`, `leading`, `bottom`, and `trailing` to 20. Next, we then tile the image within the parent container by setting the `resizingMode: .tile`. This tiles many red circles within the 300x300 parent container and sets the space between the circles to 20, basically making them closer together. If we used a lower value of say 10, the circles would be further apart. If we used 50, the circles would push together and basically form a giant red square.
+The following example sets the `capInsets: EdgeInsets()` for `top`, `leading`, `bottom`, and `trailing` to `20`. Next, the image is tiled within the parent container by setting the `resizingMode: .tile`. This tiles many red circles within the `300x300` parent container and sets the space between the circles to `20`, basically making them closer together. If a lower value of `10` is used, the circles would be further apart. If `50` is used, the circles would push together and basically form a giant red square.
 
 ```swift
 import SwiftUI
