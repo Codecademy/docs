@@ -32,7 +32,7 @@ Inside the view, the `.resizable()` modifier is applied to the [`Image` view](ht
 
 ### Optional Parameters
 
-The `.resizable()` modifier also accepts two optional parameters: `resizable(capInsets: EdgeInsets = EdgeInsets())` and `resizable(resizingMode: Image.ResizingMode = .stretch)`. The `capInsets: EdgeInsets = EdgeInsets()` parameter sets the parts of the image that should not be affected by the resizing or while tiling it affects the spacing in between each tile. The `resizable(resizingMode: Image.ResizingMode = .stretch)` sets the mode of the resizing to either stretch(the default mode) or tile the image.
+The `.resizable()` modifier accepts two optional parameters: `resizable(capInsets: EdgeInsets = EdgeInsets())` and `resizable(resizingMode: Image.ResizingMode = .stretch)`. The `capInsets: EdgeInsets = EdgeInsets()` parameter sets the parts of the image that should not be affected by the resizing or while tiling it affects the spacing in between each tile. The `resizable(resizingMode: Image.ResizingMode = .stretch)` sets the mode of the resizing to either stretch (the default mode) or tile the image.
 
 ```pseudo
 import SwiftUI
