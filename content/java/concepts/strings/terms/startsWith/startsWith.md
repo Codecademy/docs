@@ -21,7 +21,7 @@ string.startsWith(stringOfCharacters);
 ```
 
 The `stringOfChcaracters` can either be a string literal or a representation of a `String` value (Variable/Constant etc). 
-The method will return `true` if `stringOfCharacters` is the same starting character sequence as `string` .
+The method will return `true` if `string` starts with `stringOfCharacters`.
 
 ## Example
 
