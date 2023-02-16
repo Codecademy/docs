@@ -28,7 +28,7 @@ struct ContentView: View {
 }
 ```
 
-Inside the view, the `.resizable()` modifier is applied to the [`Image` view](https://www.codecademy.com/resources/docs/swiftui/views/image). The image will now resize to fit in the parent ['VStack' view](https://www.codecademy.com/resources/docs/swiftui/views/vstack)'s frame of 300x300.
+Inside the view, the `.resizable()` modifier is applied to the [`Image` view](https://www.codecademy.com/resources/docs/swiftui/views/image). The image will now resize to fit in the parent ['VStack' view](https://www.codecademy.com/resources/docs/swiftui/views/vstack)'s frame of `300x300`.
 
 ### Optional Parameters
 
