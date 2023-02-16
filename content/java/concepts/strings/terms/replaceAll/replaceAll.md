@@ -7,6 +7,7 @@ Subjects:
 Tags:
   - 'Strings'
   - 'Methods'
+  - 'Characters'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
