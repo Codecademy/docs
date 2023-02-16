@@ -76,7 +76,7 @@ The image on the left is before applying the `.resizable()` modifier and on the 
 
 ![SwiftUI ViewModifier .resizable()](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-resizable.png)
 
-## Example: With Parameters
+## Example (With Parameters)
 
 The following example sets the `capInsets: EdgeInsets()` for `top`, `leading`, `bottom`, and `trailing` to `20`. Next, the image is tiled within the parent container by setting the `resizingMode: .tile`. This tiles many red circles within the `300x300` parent container and sets the space between the circles to `20`, basically making them closer together. If a lower value of `10` is used, the circles would be further apart. If `50` is used, the circles would push together and basically form a giant red square.
 
