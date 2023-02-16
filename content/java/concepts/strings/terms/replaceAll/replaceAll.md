@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `String` class' `.replaceAll()` method replaces every matching subsequence in the input sequence with the specified replacement string.
+The `String` class' **`.replaceAll()`** method replaces every matching subsequence in the input sequence with the specified replacement string.
 
 ## Syntax
 
