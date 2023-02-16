@@ -53,7 +53,7 @@ struct ContentView: View {
 }
 ```
 
-## Example
+## Example (Without Parameters)
 
 The following example creates a red circle image that is resizable and fills the space of its `VStack` parent view, which is 300x300, and a border to show its size:
 
