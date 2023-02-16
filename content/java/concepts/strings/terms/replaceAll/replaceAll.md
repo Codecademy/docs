@@ -34,12 +34,16 @@ string.replaceAll(String regex, String repl);
 The example below removes all whitespace:
 
 ```java
-String myString = "Dog\t  \r\rComputer\n\n  \r House \t Yes \n  ";
+public class Main {
+  public static void main(String[] args) {
+    String myString = "Dog\t  \r\rComputer\n\n  \r House \t Yes \n  ";
 
-String regex = "\\s";
-String replacement = "";
+    String regex = "\\s";   
+    // The shorthand code \s represents spaces, tabs, and newline characters
+    String replacement = "";
 
-String newString = myString.replaceAll(regex, replacement);
+    String newString = myString.replaceAll(regex, replacement);
+    System.out.println(newString);
 ```
 
 This results in the following output:
