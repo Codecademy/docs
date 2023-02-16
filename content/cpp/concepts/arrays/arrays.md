@@ -1,6 +1,6 @@
 ---
 Title: 'Arrays'
-Description: 'Like a vector, an array is a data structure used in C++ to store a sequential collection of elements. Unlike vectors, its size cannot be changed. Being able to store multiple pieces of related information in the same structure is very useful when writing C++ programs. When creating an array, have to be kept in mind: The type of data to be store inside it and hoow many items it should be able to hold (its size). An array can be created a lot like how normal variables are created: by specifying the data type, giving it a descriptive name, and also specifying its size'
+Description: 'Like a vector, an array is a data structure used in C++ to store a sequential collection of elements. Unlike vectors, its size cannot be changed.The ability to store multiple pieces of related information in the same structure is very useful when writing C++ programs. When creating an array, it has to be kept in mind: The type of data to be store inside it and how many items it should be able to hold (its size). An array can be created a lot like how normal variables are created: by specifying the data type, giving it a descriptive name, and also specifying its size'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -37,7 +37,7 @@ In many cases, what data needs to go in the array will not be known until after 
 int favoriteNums[] = {7, 9, 15, 16};
 ```
 
-This array would also have a size of 4, but it does not need to be explicitly specifed when initialized this way.
+This array would also have a size of 4, but it does not need to be explicitly specified when initialized this way.
 
 ## Array Indices
 
@@ -58,4 +58,4 @@ std::cout << vowels[0];
 
 In the case above, an array of `chars` was initialized with all the vowels, and then the first element in the array at index 0 was printed out. Then the element at index `0` was modified by being assigned a new value of `'r'`, which got printed out below.
 
-Arrays in C++ have a set size, meaning elements can not be added or removed once the array has been created. Only existing elements may be modified without changing the total size or shape of the structure.
+Arrays in C++ have a fixed size, meaning elements can not be added or removed once the array has been created. Only existing elements may be modified without changing the total size or shape of the structure.
