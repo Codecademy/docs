@@ -42,3 +42,4 @@ This outputs the following:
 
 ```shell
 true
+```
