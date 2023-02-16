@@ -103,6 +103,6 @@ This will display:
 
 ![SwiftUI ViewModifier .resizable() Tiling of 20](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-resizable-tile.png)
 
-If we changed the `EdgeInsets` to 50, we would end up with the following:
+Changing the `EdgeInsets` values to `50`, will result in the following:
 
 ![SwiftUI ViewModifier .resizable() Tiling of 50](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-resizable-tile-50.png)
