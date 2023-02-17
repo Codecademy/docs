@@ -1,6 +1,6 @@
 ---
 Title: '.matches()'
-Description: 'The method checks whether a string matches a given regular expression.'
+Description: 'Checks whether a string matches a given regular expression.'
 Subjects:
   - 'Computer Science'
 Tags:
