@@ -16,9 +16,6 @@ iOS
 Machine Learning
 Mobile Development
 Networking
-QR Code
-Quick Response Code
-Scan
 Web Design
 Web Development
 ```

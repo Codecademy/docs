@@ -1,6 +1,14 @@
 ---
 Title: 'QR Codes'
 Description: 'QR Codes and how are they used'
+Subjects:
+  - QR Code
+  - Quick Response Code
+Tags:
+  - Bar Code
+  - QR Code
+  - Quick Responce Code
+  - Scan
 CatalogContent:
   - 'General'
   - 'QR Codes'
