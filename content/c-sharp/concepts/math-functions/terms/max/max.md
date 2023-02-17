@@ -1,5 +1,5 @@
 ---
-Title: 'Math.Max()'
+Title: '.Max()'
 Description: 'Returns the larger of two specified numbers.'
 Subjects:
   - 'Computer Science'
