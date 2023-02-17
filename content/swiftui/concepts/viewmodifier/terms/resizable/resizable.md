@@ -18,13 +18,13 @@ The **`.resizable()`** modifier configures an image in a [`View`](https://www.co
 
 ```pseudo
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image("image-file")
-                .resizable()
-        }
-        .frame(width: 300, height: 300)
+  var body: some View {
+    VStack {
+      Image("image-file")
+        .resizable()
     }
+    .frame(width: 300, height: 300)
+  }
 }
 ```
 
@@ -38,37 +38,37 @@ The `.resizable()` modifier accepts two optional parameters: `resizable(capInset
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image("RedCircle")
-                .resizable(capInsets: EdgeInsets(
-                    top: 20,
-                    leading: 20,
-                    bottom: 20,
-                    trailing: 20
-                ), resizingMode: .tile) // We can also use .stretch
-        }
-        .frame(width: 300, height: 300)
+  var body: some View {
+    VStack {
+      Image("RedCircle")
+        .resizable(capInsets: EdgeInsets(
+          top: 20,
+          leading: 20,
+          bottom: 20,
+          trailing: 20
+        ), resizingMode: .tile) // .stretch can also be used
     }
+    .frame(width: 300, height: 300)
+  }
 }
 ```
 
 ## Example (Without Parameters)
 
-The following example creates a red circle image that is resizable and fills the space of its `VStack` parent view, which is 300x300, and a border to show its size:
+The following example creates a red circle image that is resizable and fills the space of its `VStack` parent view, which is `300x300`, and a border to show its size:
 
 ```swift
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image("RedCircle")
-                .resizable()
-        }
-        .frame(width: 300, height: 300)
-        .border(.black, width: 2)
+  var body: some View {
+    VStack {
+      Image("RedCircle")
+        .resizable()
     }
+    .frame(width: 300, height: 300)
+    .border(.black, width: 2)
+  }
 }
 ```
 
@@ -84,18 +84,18 @@ The following example sets the `capInsets: EdgeInsets()` for `top`, `leading`, `
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image("RedCircle")
-                .resizable(capInsets: EdgeInsets(
-                    top: 20,
-                    leading: 20,
-                    bottom: 20,
-                    trailing: 20
-                ), resizingMode: .tile)
-        }
-        .frame(width: 300, height: 300)
+  var body: some View {
+    VStack {
+      Image("RedCircle")
+        .resizable(capInsets: EdgeInsets(
+          top: 20,
+          leading: 20,
+          bottom: 20,
+          trailing: 20
+        ), resizingMode: .tile)
     }
+    .frame(width: 300, height: 300)
+  }
 }
 ```
 
