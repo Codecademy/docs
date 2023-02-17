@@ -21,8 +21,6 @@ string.matches(regex)
 
 The `.matches()` method takes a single parameter:
   - `regex`:  a regular expression that the string is compared to.
- 
-## Return Value
 
 The `.matches()` method returns:
   - True if `regex` matches the string.
@@ -41,10 +39,18 @@ class Example {
     // five letter string that starts with 'hello' or ends with 'goodbye'
     String regex = "^hello|goodbye$";
 
-    System.out.println("hello quick brown fox".matches(regex)); // true
-    System.out.println("hi lazy dog".matches(regex)); // false
-    System.out.println("goodbye quick brown fox".matches(regex)); // false
-    System.out.println("lazy dog, goodbye".matches(regex)); // true
+    System.out.println("hello quick brown fox".matches(regex));
+    System.out.println("hi lazy dog".matches(regex));
+    System.out.println("goodbye quick brown fox".matches(regex));
+    System.out.println("lazy dog, goodbye".matches(regex));
   }
 }
+```
+This example results in the following output:
+
+```shell
+True
+False
+False
+True
 ```
