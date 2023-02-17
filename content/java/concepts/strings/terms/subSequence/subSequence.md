@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**`.subSquence()`** is a `String` method that returns a new character sequence that is a substring of a string.
+**`.subSquence()`** is a `String` method that returns a new character sequence that is a substring of a given string.
 
 ## Syntax
 
@@ -19,7 +19,7 @@ CatalogContent:
 str.subSequence(int startIndex, int endIndex)
 ```
 
-The `.subSequence()` method will return a substring of the `str` string from `startIndex` to `endIndex -1`.
+The `.subSequence()` method will return a substring of the `str` string from `startIndex` to `endIndex` - 1.
 
 The `.subSquence()` method takes two parameters:
   - `startIndex` - the starting index (inclusive);
