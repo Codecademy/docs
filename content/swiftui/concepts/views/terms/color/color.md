@@ -26,7 +26,7 @@ var body: some View {
 }
 ```
 - `Color.color-example`  changes the background color.
-- .foregroundColor(.color-example) changes the color of the content (ex: "text") itself
+- .foregroundColor(.color-example) changes the color of the content (ex: "text") itself.
 
 ## Example
 The following example changes the colors to white on black:
