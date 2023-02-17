@@ -120,7 +120,7 @@ function Container() {
 }
 ```
 
-But how is the `theme` state changed? The `setter` function is passed to the `Button` component as a prop, which uses it as an `onClick` event. In this example the theme is changed to `black` if the theme is `white` and vice versa.
+How is the `theme` state changed? The `setter` function is passed to the `Button` component as a prop, which uses it as an `onClick` event. In this example, the theme is changed to `black` if the theme is `white` and vice versa.
 
 ```jsx
 function Button(props) {

@@ -15,19 +15,19 @@ The **createContext()** function is used to create an instance of the [Context A
 
 ## Syntax
 
-In the usage of `createContext` a `defaultValue` can be passed as argument.
+In the usage of `createContext()` a `defaultValue` can be passed as argument.
 
-```js
+```pseudo
 import { createContext } from 'react';
 
-const ThemeContext = createContext('dark');
+const ThemeContext = createContext(defaultValue);
 ```
 
-The data of the defaultValue can either be another context made from the `createContext()` method or a primitive [data type](https://www.codecademy.com/resources/docs/javascript/data-types), including `null`.
+The data of the `defaultValue` can either be another context made from the `createContext()` method or a primitive [data type](https://www.codecademy.com/resources/docs/javascript/data-types), including `null`.
 
-`createContext` returns a context object that has to be named in `PascalCase`. To pass the context down further it is necessary to wrap the component tree in a `context Provider`. Inside the `Provider` a `value` prop has to be passed.
+`createContext()` returns a context object that has to be named in `PascalCase`. To pass the context down further it is necessary to wrap the component tree in a `context Provider`. Inside the `Provider` a `value` prop has to be passed.
 
-```js
+```jsx
 export default function App() {
   const theme = 'light';
   return (
@@ -40,7 +40,7 @@ export default function App() {
 
 > **Note**: The `value` prop must not be omitted!
 
-Other components have to use the `useContext` hook to get the information in the context.
+Other components have to use the `useContext()` hook to get the information in the context.
 
 > **Note**: In legacy code there may not only be `Providers` but also `Consumers` that wrap the components. This is no longer recommended and will therefore not be discussed here.
 
