@@ -26,7 +26,7 @@ The `.matches()` method takes a single parameter:
 
 The `.matches()` method returns:
   - True if `regex` matches the string.
-  - False if the regex doesn't match the string.
+  - False if `regex` doesn't match the string.
   
 ## Example
 
