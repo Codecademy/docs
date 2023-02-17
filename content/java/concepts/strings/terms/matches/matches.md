@@ -20,7 +20,7 @@ string.matches(regex)
 ```
 
 The `.matches()` method takes a single parameter:
-  - regex - a regular expression that the string is compared to.
+  - `regex`:  a regular expression that the string is compared to.
  
 ## Return Value
 
