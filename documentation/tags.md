@@ -59,6 +59,7 @@ Comparison
 Compilation
 Components
 Computer Vision
+CMS
 Concatenation
 Conceptual
 Const
@@ -106,6 +107,7 @@ Events
 Exceptions
 Expo
 Express
+Favicon
 Files
 Finance
 Firebase
@@ -196,6 +198,7 @@ OOP
 Open Source
 Operating Systems
 Operators
+Optimization
 Optionals
 Output
 p5
@@ -242,6 +245,7 @@ Semantic
 Servers
 Server-Side Rendering
 Sets
+Slices
 Socket.IO
 Sort
 Span
@@ -258,6 +262,7 @@ Structure
 Style
 SwiftUI
 SwiftUI Views
+SwiftUI ViewModifiers
 Switch
 Symbol
 Syntax
@@ -302,6 +307,7 @@ Web3
 WebRTC
 While
 Whiteboarding
+WordPress
 World Wide Web
 Xcode
 ```

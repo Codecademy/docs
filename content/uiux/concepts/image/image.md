@@ -8,7 +8,7 @@ Tags:
   - 'UX'
 CatalogContent:
   - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 **Images** come in different forms, like photographs, illustrations, or digital art. In contrast to [animations](https://www.codecademy.com/resources/docs/uiux/animations) and [videos](https://www.codecademy.com/resources/docs/uiux/videos), images are static. However, designers may add motion to images, transforming them into animations.
