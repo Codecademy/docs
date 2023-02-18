@@ -43,7 +43,7 @@ class Example {
 
 This will produce the following output:
 
-```
+```shell
 H
 e
 l
