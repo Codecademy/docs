@@ -31,7 +31,7 @@ Math.Exp(double n);
 
 The method takes only one parameter; the variable `n` (number) of type `double`. The function will return a positive value of type `double` unless the value passed is one of the following:
 
-- If `n` is `0`, the function will return `1` .
+- If `n` is `0`, the function will return `1`.
 - If `n` is `PositiveInfinity`, the function will return `PositiveInfinity`.
 - If `n` is `NegativeInfinity`, the function will return `0`.
 - If `n` is `NaN`, the function will return `NaN`.
