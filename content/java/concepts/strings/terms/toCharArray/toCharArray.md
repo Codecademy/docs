@@ -24,7 +24,7 @@ string.toCharArray()
 
 ## Example
 
-The example below uses the `.toCharArray()` method to create a new array, and uses a loop to iterate through the array and print each character:
+The example below uses the `.toCharArray()` method to create a new array, uses a loop to iterate through the array , and prints each character:
 
 ```java
 // Example.java
