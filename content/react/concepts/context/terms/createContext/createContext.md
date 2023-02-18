@@ -15,7 +15,7 @@ The **createContext()** function is used to create an instance of the [Context A
 
 ## Syntax
 
-In the usage of `createContext()` a `defaultValue` can be passed as argument.
+In the usage of `createContext()` a `defaultValue` can be passed as an argument.
 
 ```pseudo
 import { createContext } from 'react';

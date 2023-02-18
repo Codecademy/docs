@@ -15,7 +15,7 @@ The **`useContext()`** hook subscribes a child [component](https://www.codecadem
 
 ## Syntax
 
-The components can then use the `Context` value using the `useContext` hook:
+The components can then use the `Context` value using the `useContext()` hook:
 
 ```pseudo
 const theme = useContext(ThemeContext);
@@ -83,7 +83,7 @@ function Container() {
 }
 ```
 
-The `useContext()` hook was used to apply a `ThemeContext` to the `<Container>` component in order to switch the colors of the text and background (between `black'` and `'white'`).
+The `useContext()` hook was used to apply a `ThemeContext` to the `<Container>` component in order to switch the colors of the text and background (between `'black'` and `'white'`).
 
 ```jsx
 import React, { createContext, useContext, useState } from 'react';
