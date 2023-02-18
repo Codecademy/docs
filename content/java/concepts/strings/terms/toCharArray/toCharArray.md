@@ -2,7 +2,7 @@
 Title: '.toCharArray()'
 Description: 'Returns an new character array from a given string.'
 Subjects:
-  - 'Java: Strings'
+  - 'Computer Science'
 Tags:
   - 'Strings'
   - 'Methods'
