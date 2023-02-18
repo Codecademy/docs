@@ -42,7 +42,7 @@ Here are some rules for defining classes in Kotlin:
 
 ## Examples
 
-The following example creates a `Dog` class with the properties `name`, `breed`,  and `age` and a function `bark()`:
+The following example creates a `Dog` class with the properties `name`, `breed`, and `age` and a function `bark()`:
 
 ```kotlin
 class Dog {
@@ -55,31 +55,33 @@ class Dog {
 }
 ```
 
-To create an object of this class, the `constructor` can be used:
+To create an object of this class, the `constructor` can be used. The properties and functions of the object can be accessed using the dot notation:
 
 ```kotlin
-val myDog = Dog()
-```
+fun main(){
+  // Constructor
+  val myDog = Dog()
 
-Properties and functions of the object can be accessed using the dot notation:
-
-```kotlin
-myDog.name = "Fido"
-myDog.breed = "Labrador"
-myDog.age = 3
-myDog.bark()
+  // Accessing properties and functions
+  myDog.name = "Fido"
+  myDog.breed = "Labrador"
+  myDog.age = 3
+  myDog.bark() // Output: Woof!
+}
 ```
 
 A primary constructor can also be defined in the class header:
 
 ```kotlin
 class Dog(var name: String, var breed: String, var age: Int) {
-    fun bark() {
-        println("Woof!")
-    }
+  fun bark() {
+    println("Woof!")
+  }
 }
 
-val myDog = Dog("Fido", "Labrador", 3)
+fun main(){
+  val myDog = Dog("Fido", "Labrador", 3)
+}
 ```
 
 This eliminates the need to define default values for the properties and allows the creation of objects of the class using the concise `constructor` syntax shown above.
@@ -88,29 +90,31 @@ Secondary constructors can also be defined in a class by using the `constructor`
 
 ```kotlin
 class Dog {
-    var name: String
-    var breed: String
-    var age: Int
+  var name: String
+  var breed: String
+  var age: Int
 
-    constructor(name: String, breed: String, age: Int) {
-        this.name = name
-        this.breed = breed
-        this.age = age
-    }
+  constructor(name: String, breed: String, age: Int) {
+    this.name = name
+    this.breed = breed
+    this.age = age
+  }
 
-    constructor(name: String, breed: String) {
-        this.name = name
-        this.breed = breed
-        this.age = 0
-    }
+  constructor(name: String, breed: String) {
+    this.name = name
+    this.breed = breed
+    this.age = 0
+  }
 
-    fun bark() {
-        println("Woof!")
-    }
+  fun bark() {
+    println("Woof!")
+  }
 }
 
-val myDog = Dog("Fido", "Labrador", 3)
-val myPuppy = Dog("Buddy", "Golden Retriever")
+fun main(){
+  val myDog = Dog("Fido", "Labrador", 3)
+  val myPuppy = Dog("Buddy", "Golden Retriever")
+}
 ```
 
 This allows the creation of objects of the class using different sets of arguments.
