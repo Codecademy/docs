@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.fontWeight()`** modifier sets the font weight of the text in Text View.
+The **`.fontWeight()`** modifier sets the font weight of the text in [Text View](https://www.codecademy.com/resources/docs/swiftui/views/text).
 
 ## Syntax
 
@@ -24,15 +24,15 @@ Text("your text")
 
 `.weight` can be one of the following values:
 
-- .ultraLight
-- .thin
-- .light
-- .regular
-- .medium
-- .semibold
-- .bold
-- .heavy
-- .black
+- `.ultraLight`
+- `.thin`
+- `.light`
+- `.regular`
+- `.medium`
+- `.semibold`
+- `.bold`
+- `.heavy`
+- `.black`
 
 ## Example
 
