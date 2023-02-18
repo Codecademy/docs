@@ -17,7 +17,7 @@ The **`Math.Exp()`** method returns the value of raising `e` to the power of a g
 
 `e` stands for Euler's number, an irrational number, with an approximate constant value of 2.71828. It provides a constant base to the natural logarithm or log and can be understood as a limit of a given progression.
 
-![alt text](https://github.com/kpetrov2/docs/blob/MathExp-kpetrov2/image.jpg?raw=true)
+![alt text](https://github.com/kpetrov2/docs/blob/MathExp-kpetrov2/eFormula.jpg?raw=true)
 
 Consequently, the `Math.Exp()` method is the inverse of the `Math.Log()` method.
 
