@@ -30,7 +30,7 @@ The example below uses the `.toCharArray()` method to create a new array, and us
 // Example.java
 class Example {
   public static void main(String[] args) {
-    String salutation = "Hello CodeCademy!";
+    String salutation = "Hello Codecademy!";
 
     char[] textArray = salutation.toCharArray();
 
