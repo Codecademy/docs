@@ -34,11 +34,11 @@ INNER JOIN authors
 
 ## OUTER JOIN
 
-An [OUTER JOIN](https://www.codecademy.com/resources/docs/sql/commands/outer-join) will combine rows from different tables even if the join condition is not met. These commands include the following:
+An `OUTER JOIN` will combine rows from different tables even if the join condition is not met. These commands include the following:
 
 - [`LEFT JOIN`](https://www.codecademy.com/resources/docs/sql/commands/left-join), which combines matches with all rows from the left-side table.
 - [`RIGHT JOIN`](https://www.codecademy.com/resources/docs/sql/commands/right-join), which combines matches with all rows from the right-side table.
-- [`FULL OUTER JOIN`](https://www.codecademy.com/resources/docs/sql/commands/outer-join), which combines matches with all rows from the left- and right-side tables.
+- [`FULL OUTER JOIN`](https://www.codecademy.com/resources/docs/sql/commands/full-outer-join), which combines matches with all rows from the left- and right-side tables.
 
 ## UNION
 

@@ -147,8 +147,8 @@ When many arguments need to be passed into a function, it can be tedious to type
 ```codebyte/python
 def print_biography(name, country, age, hobby):
   print("Hello! My name is " + name + " and I'm " + str(age) +
-        " years old. I come from " + country + ", and in my
-        free time I like to " + hobby + ".")
+        " years old. I come from " + country +
+         ", and in my free time I like to " + hobby + ".")
 
 adam = {
   "name": "Adam",
