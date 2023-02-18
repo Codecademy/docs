@@ -13,8 +13,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.Exp()`** method returns the value of raising _e_ to the power of a given number.
-_e_ stands for Euler's number, an irrational number, with an approximate constant value of 2.71828. It provides a constant base to the natural logarithm or log and can be understood as a limit of a given progression.
+The **`Math.Exp()`** method returns the value of raising `e` to the power of a given number.
+
+`e` stands for Euler's number, an irrational number, with an approximate constant value of 2.71828. It provides a constant base to the natural logarithm or log and can be understood as a limit of a given progression.
 
 $$
 \sum\limits_{n=0}^{\infty} \frac{1}{n!} = 1 + \frac{1}{n+1} + \frac{1}{(n+1)(n+2)} + \frac{1}{(n+1)(n+2)(n+3)} + \cdots
@@ -28,12 +29,12 @@ Consequently, the `Math.Exp()` method is the inverse of the `Math.Log()` method.
 Math.Exp(double n);
 ```
 
-- The method takes only one parameter, the variable `n` (number), of type `double`. The function will return a positive value of type `double` unless the value passed is one of the following:
-    - If `n` is `0`, the function will return `1` .
-    - If `n` is `PositiveInfinity`, the function will return `PositiveInfinity`.
-    - If `n` is `NegativeInfinity`, the function will return `0`.
-    - If `n` is `NaN`, the function will return `NaN`.
+The method takes only one parameter; the variable `n` (number) of type `double`. The function will return a positive value of type `double` unless the value passed is one of the following:
 
+- If `n` is `0`, the function will return `1` .
+- If `n` is `PositiveInfinity`, the function will return `PositiveInfinity`.
+- If `n` is `NegativeInfinity`, the function will return `0`.
+- If `n` is `NaN`, the function will return `NaN`.
 
 ## Example
 
@@ -44,25 +45,25 @@ using System;
 
 namespace MathExpMethod
 {
-    public class Example
+  public class Example
+  {
+    public static void Main(string[] args)
     {
-        public static void Main(string[] args)
-        {
-            double firstCase = Math.Exp(1);
-            double secondCase = Math.Exp(-1);
-            double thirdCase = Math.Exp(0);
-            double fourthCase = Math.Exp(double.PositiveInfinity);
-            double fifthCase = Math.Exp(double.NegativeInfinity);
-            double sixthCase = Math.Exp(double.NaN);
+      double firstCase = Math.Exp(1);
+      double secondCase = Math.Exp(-1);
+      double thirdCase = Math.Exp(0);
+      double fourthCase = Math.Exp(double.PositiveInfinity);
+      double fifthCase = Math.Exp(double.NegativeInfinity);
+      double sixthCase = Math.Exp(double.NaN);
 
-            Console.WriteLine(firstCase);
-            Console.WriteLine(secondCase);
-            Console.WriteLine(thirdCase);
-            Console.WriteLine(fourthCase);
-            Console.WriteLine(fifthCase);
-            Console.WriteLine(sixthCase);
-        }
+      Console.WriteLine(firstCase);
+      Console.WriteLine(secondCase);
+      Console.WriteLine(thirdCase);
+      Console.WriteLine(fourthCase);
+      Console.WriteLine(fifthCase);
+      Console.WriteLine(sixthCase);
     }
+  }
 }
 ```
 
