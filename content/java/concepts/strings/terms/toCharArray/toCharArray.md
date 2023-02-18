@@ -15,7 +15,7 @@ The method **`.toCharArray()`** returns a new character array from the given str
 
 ## Syntax
 
-```java
+```pseudo
 string.toCharArray()
 ```
 
