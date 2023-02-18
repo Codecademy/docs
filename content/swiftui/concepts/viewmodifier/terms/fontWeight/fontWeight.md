@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.fontWeight()`** modifier sets the font weight.
+The **`.fontWeight()`** modifier sets the font weight of the text in Text View.
 
 ## Syntax
 
@@ -22,7 +22,7 @@ Text("your text")
   .fontWeight(.weight)
 ```
 
-`.weight` can take one of the following values:
+`.weight` can be one of the following values:
 
 - .ultraLight
 - .thin
@@ -36,7 +36,7 @@ Text("your text")
 
 ## Example
 
-In the following example we use `.regular` and `.bold` expressions to set font weight.
+In the following example, the font weight is set using the `.regular` and `.bold` expressions.
 
 ```swift
 import SwiftUI
