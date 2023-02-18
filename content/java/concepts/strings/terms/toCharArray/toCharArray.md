@@ -22,8 +22,6 @@ string.toCharArray()
 - Where `string` is the string to be transformed to a new array of characters.
 - This method doesn't take any parameters.
 
-
-
 ## Example
 
 The example below uses the `.toCharArray()` method to create a new array, and uses a loop to iterate through the array and print each character:
