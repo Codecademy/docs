@@ -20,8 +20,8 @@ The **`.startsWith()`** method returns `true` if a string starts with a given ch
 string.startsWith(stringOfCharacters);
 ```
 
-The `stringOfChcaracters` can either be a string literal or a representation of a `String` value (Variable/Constant etc). 
-The method will return `true` if `stringOfCharacters` is the same starting character sequence as `string` .
+The `stringOfChcaracters` can either be a string literal or a representation of a `String` value (variables, constants, etc). 
+This method will only return case-sensitive matches (i.e. "Word" != "word").
 
 ## Example
 
