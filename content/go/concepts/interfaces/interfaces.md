@@ -12,10 +12,7 @@ CatalogContent:
   - 'paths/back-end-engineer-career-path'
 ---
 
-
-
 An interace is a set of method signatures.
-
 
 ```go
 
@@ -86,7 +83,6 @@ love with max
 arranged marriage with max
 
 ```
-
 
 In the above example, 
  - we have `marriage` interface which has two methods `love` and `arranged`.
