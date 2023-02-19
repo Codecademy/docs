@@ -85,11 +85,11 @@ arranged marriage with max
 ```
 
 In the above example, 
- - we have `marriage` interface which has two methods `love` and `arranged`.
- - We have two structs `john` and `max` which implements the `marriage` interface , note that neither `john` nor `max` has any explicit declaration to         implement the interface.
+ - The `marriage` interface has two methods `love` and `arranged`.
+ - Structs `john` and `max` implements the `marriage` interface , note that neither `john` nor `max` has any explicit declaration to implement the interface.
  - As long as the struct has all the methods in the interface, it is said to implement the interface.
- - We have a function `newLife` which takes `marriage` interface as an argument.
- - We call the `newLife` function with `john` and `max` structs.
+ - function `newLife` takes `marriage` interface as an argument.
+ - It's possible to call the `newLife` function with `john` and `max` structs.
 
 > Advantage of using interface is that we can pass any struct which implements the `marriage` interface to the `newLife` function. and it is possible to  change the implementation of the `love` and `arranged` methods in the `john` and `max` structs without affecting the `newLife` function.
 
