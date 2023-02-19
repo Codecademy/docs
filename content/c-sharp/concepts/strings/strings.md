@@ -39,7 +39,7 @@ char source = {'1','2','3','A','B','C'};
 string myString4 = new string(source);
 ```
 
-> **Note:** The new operator is only used to create a string when initalizing with an array of `char`.
+> **Note:** The `new` operator is only used to create a string when initalizing with an array of `char`.
 >
 > **Note:** It is best practice to initalize an empty string with the `System.String.Empty` constant value or the `""` string literal rather than with `null` to avoid an unwanted `NullRefrenceException`.
 
