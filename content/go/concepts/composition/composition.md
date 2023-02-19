@@ -13,7 +13,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'paths/computer-science'
 ---
 
-Go's **composition** is like having a big toolbox with all the special tools you need to build amazing computer projects. The English definition of compose means to "create" or "make up a whole by adding parts". As composition is the noun form of compose, you can take a gander of what composition in Go might consist of.
+Go's **composition** is like having a big toolbox with all the special tools needed to build amazing computer projects. The English definition of compose means to "create" or "make up a whole by adding parts". Go's composition is a combination of various elements that make the language a powerful and efficient tool for software development. 
 
 ## First things first, structs
 
