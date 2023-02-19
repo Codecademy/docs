@@ -144,7 +144,7 @@ In the main function, we create a Pizza struct called myPizza and a Restaurant s
 
 Composition is a very strong technique for making complex structures and objects as a developer. Problems are broken down into smaller parts, and then managed in a structured way. The result is something that is efficient, maintainable, and flexible. (All important for solving problems!)
 
-When designing software, it's important to consider the composition of the components we create and how they fit together to form a larger system. By adopting a compositional approach, we can create software that is flexible, scalable, and easy to maintain over time.
+When designing software, it's important to consider the composition of the components we create and how they fit together to form a larger system. By adopting a compositional approach, software is created that is flexible, scalable, and easy to maintain over time.
 
 
 
