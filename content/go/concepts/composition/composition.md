@@ -37,9 +37,10 @@ type Pizza struct {
 
 ## Using the struct we created to make a function
 
-Now that we have our struct, we are capable of creating a new function that can help us define what specific **Style of Pizza** we want.
+This struct can be used to create a new function that can help define what specific style of pizza is wanted.
 
-So let's do that here.
+This is done in the following example:
+
 ```
 package main
 
@@ -74,9 +75,9 @@ Margherita pizza is a medium pizza with toppings of [tomatoes mozzarella basil]
 
 
 
-## A struct within a struct?! It's a composition!
+## A Struct Within a Struct
 
-Take a good long look at this code and try to see what is different.
+The following example has an important difference.
 
 ```
 package main
@@ -122,13 +123,13 @@ func main() {
 	fmt.Println(restaurantInfo(myRestaurant))
 }
 ```
-You can see that the **Restaurant struct contains the Pizza struct!**
+In this example the `Restaurant` struct contains the `Pizza` struct.
 
-In this example, we define a struct called Pizza with fields for the name, size, toppings, and whether or not it's delicious. The pizzaStyle function takes a Pizza struct as an argument and returns a string that describes the pizza.
+In this example, a struct called `Pizza` is defined with fields for the name, size, toppings, and whether or not it's delicious. The `pizzaStyle` function takes a `Pizza` struct as an argument and returns a string that describes the pizza.
 
-We also define a struct called Restaurant that contains the pizza struct, the restaurant name, and the restaurant rating. The restaurantInfo function takes a Restaurant struct as an argument and returns a string that describes the restaurant.
+A struct called `Restaurant` is also defined that contains the `Pizza` struct, the restaurant name, and the restaurant rating. The `restaurantInfo` function takes a `Restaurant` struct as an argument and returns a string that describes the restaurant.
 
-In the main function, we create a Pizza struct called myPizza and a Restaurant struct called myRestaurant. We then pass myPizza to pizzaStyle and myRestaurant to restaurantInfo, which are then printed to the console.
+In the main function, a `Pizza` struct called `myPizza` and a `Restaurant` struct called `myRestaurant` are created. Then `myPizza` is passsed to `pizzaStyle` and `myRestaurant` is passed to `restaurantInfo`, which are then printed to the console.
 
 **Output:**
 ```
