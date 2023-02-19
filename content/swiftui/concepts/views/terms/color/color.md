@@ -25,25 +25,25 @@ var body: some View {
         .foregroundColor(.color-example) //Modifier
 }
 ```
+
 - `Color.color-example`  changes the background color.
-- .foregroundColor(.color-example) changes the color of the content (ex: "text") itself.
+- `.foregroundColor(.color-example)` changes the color of the content (ex: "text") itself.
 
 ## Example
+
 The following example changes the colors to white on black:
 
 ```swift
 var body: some View {
-        
-        VStack {
-            Color.black
-           
-                .overlay(
-            Text("Codecademy__")
-                .foregroundColor(.white)
+  VStack {
+    Color.black
+      .overlay(
+          Text("Codecademy__")
+            .foregroundColor(.white)
             )
-        }
-        .padding()
-    }
+      }
+  .padding()
+  }
 ```
 
 - `Color.black` makes the background color black. 
