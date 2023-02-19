@@ -19,7 +19,7 @@ Go's **composition** is like having a big toolbox with all the special tools nee
 
 Go's composition is a combination of various elements that make the language a powerful and efficient tool for software development. 
 
-Let us take a look by first creating a struct called `pizza`
+The following example creates a [struct](https://www.codecademy.com/resources/docs/go/structs) called `pizza`
 
 ```
 package main
