@@ -67,12 +67,10 @@ func main() {
 	fmt.Println(pizzaStyle(myPizza))
 }
 ```
-**What do you think this would output?**
-<details><summary>Click here to get the answer:</summary>
-    <pre>
-    Margherita pizza is a medium pizza with toppings of [tomatoes mozzarella basil]
-    </pre>
-</details>
+**Output:**
+```
+Margherita pizza is a medium pizza with toppings of [tomatoes mozzarella basil]
+```
 
 
 
@@ -132,21 +130,14 @@ We also define a struct called Restaurant that contains the pizza struct, the re
 
 In the main function, we create a Pizza struct called myPizza and a Restaurant struct called myRestaurant. We then pass myPizza to pizzaStyle and myRestaurant to restaurantInfo, which are then printed to the console.
 
-**Can you guess what both outputs would be?**
-<details><summary>Click here to get the answer!</summary>
-    <pre>
-    Margherita pizza is a medium pizza with toppings of [tomatoes mozzarella basil]
-    Pizzeria del Corso has a rating of 4 and serves the following pizzas: [{Margherita medium [tomatoes mozzarella basil] true}]
-    </pre>
-</details>
+**Output:**
+```
+Margherita pizza is a medium pizza with toppings of [tomatoes mozzarella basil]
+Pizzeria del Corso has a rating of 4 and serves the following pizzas: [{Margherita medium [tomatoes mozzarella basil] true}]
+```
 
 ## Conclusions
 
 Composition is a very strong technique for making complex structures and objects as a developer. Problems are broken down into smaller parts, and then managed in a structured way. The result is something that is efficient, maintainable, and flexible. (All important for solving problems!)
 
 When designing software, it's important to consider the composition of the components we create and how they fit together to form a larger system. By adopting a compositional approach, software is created that is flexible, scalable, and easy to maintain over time.
-
-
-
-
-
