@@ -21,7 +21,7 @@ Go's composition is a combination of various elements that make the language a p
 
 The following example creates a [struct](https://www.codecademy.com/resources/docs/go/structs) called `pizza`
 
-```
+```go
 package main
 
 import "fmt"
@@ -33,15 +33,12 @@ type Pizza struct {
 	IsDelicious bool
 }
 ```
-[Are you feeling bewildered by the concept of structs in programming? Look no further! Don't let confusion hold you back - unlock the power of structs today by clicking this text!](https://www.codecademy.com/resources/docs/go/structs)
-
-## Using the struct we created to make a function
 
 This struct can be used to create a new function that can help define what specific style of pizza is wanted.
 
 This is done in the following example:
 
-```
+```go
 package main
 
 import "fmt"
@@ -68,8 +65,8 @@ func main() {
 	fmt.Println(pizzaStyle(myPizza))
 }
 ```
-**Output:**
-```
+**This example results in the following output:**
+```shell
 Margherita pizza is a medium pizza with toppings of [tomatoes mozzarella basil]
 ```
 
@@ -79,7 +76,7 @@ Margherita pizza is a medium pizza with toppings of [tomatoes mozzarella basil]
 
 The following example has an important difference.
 
-```
+```go
 package main
 
 import "fmt"
@@ -131,8 +128,8 @@ A struct called `Restaurant` is also defined that contains the `Pizza` struct, t
 
 In the main function, a `Pizza` struct called `myPizza` and a `Restaurant` struct called `myRestaurant` are created. Then `myPizza` is passsed to `pizzaStyle` and `myRestaurant` is passed to `restaurantInfo`, which are then printed to the console.
 
-**Output:**
-```
+**This example results in the following output:**
+```shell
 Margherita pizza is a medium pizza with toppings of [tomatoes mozzarella basil]
 Pizzeria del Corso has a rating of 4 and serves the following pizzas: [{Margherita medium [tomatoes mozzarella basil] true}]
 ```
