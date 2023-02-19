@@ -84,7 +84,7 @@ for name in topBabyNames {
 }
 // Output:
 // Liam is the coolest name.
-// Jackson is the coolest.
+// Jackson is the coolest name.
 ```
 
 > **Note:** Alternatively, the [`.forEach()`](https://www.codecademy.com/resources/docs/swift/arrays/forEach) method can be used to iterate over an array.
