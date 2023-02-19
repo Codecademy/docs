@@ -140,7 +140,7 @@ In the main function, we create a Pizza struct called myPizza and a Restaurant s
     </pre>
 </details>
 
-# Conclusion about Compositions
+## Conclusions
 
 Composition is no doubt a very strong technique for making complex structures and objects as a developer. We break down problems into smaller parts, and then manage them in a structured way. As a result, we get something that is efficient, maintainable, and flexible. (All important for solving problems!)
 
