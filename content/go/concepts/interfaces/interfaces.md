@@ -1,4 +1,16 @@
-
+---
+Title: 'interfaces'
+Description: 'An interace is a set of method signatures.'
+Subjects:
+  - 'Code Foundations'
+  - 'Computer Science'
+Tags:
+  - 'Control Flow'
+  - 'interfaces'
+CatalogContent:
+  - 'learn-go'
+  - 'paths/back-end-engineer-career-path'
+---
 
 
 
