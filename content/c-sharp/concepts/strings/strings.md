@@ -63,21 +63,21 @@ line break.
 
 These are some of the escape sequences used in string literals:
 
-| Escape Sequence | Character Name |
-|-----------------|----------------|
-| `\'` | Single quote |
-| `\"` | Double quote |
-| `\\` | Backslash |
-| `\0` | Null |
-| `\n` | New line |
-| `\r` | Carriage return |
-| `\t` | Horizontal tab |
-| `\uNNNN` | UTF-16 Unicode character (range `\u0000` - `\uFFFF`) |
-| `\U00NNNNNN` | UTF-32 Unicode character (range `\U00000000` - `\U0010FFFF`) |
+| Escape Sequence | Character Name                                               |
+| --------------- | ------------------------------------------------------------ |
+| `\'`            | Single quote                                                 |
+| `\"`            | Double quote                                                 |
+| `\\`            | Backslash                                                    |
+| `\0`            | Null                                                         |
+| `\n`            | New line                                                     |
+| `\r`            | Carriage return                                              |
+| `\t`            | Horizontal tab                                               |
+| `\uNNNN`        | UTF-16 Unicode character (range `\u0000` - `\uFFFF`)         |
+| `\U00NNNNNN`    | UTF-32 Unicode character (range `\U00000000` - `\U0010FFFF`) |
 
 ### Verbatim String Literals
 
-Verbatim string literals are a convenience used for multi-line strings, strings that contain backslashes or embedded double quotes.  Verbatim string literals begin with `@"` rather than just `"` as with a quoted literal string.
+Verbatim string literals are a convenience used for multi-line strings, strings that contain backslashes or embedded double quotes. Verbatim string literals begin with `@"` rather than just `"` as with a quoted literal string.
 
 > **Note:** Use two double quotes (`""`) to include a double quote in a Verbatim string literal.
 
