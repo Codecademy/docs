@@ -22,7 +22,9 @@ Text("Some text")
     .tracking(x)
 ```
 
-The `.tacking()` modifier method takes parameter, `x`, which is entered as an integer to define the space to be added to deducted or deducted from each character's default spacing in `pt` (points). SwiftUI applies the system default value if `x` is given `0` as a value or no parameter is given. A positive value for `x` results additional spacing, whereas a negative value results a decrease in spacing.
+The `.tracking()` modifier method takes one parameter, `x`, entered as an integer to define the space to be added to or deducted from each character's default spacing in `pt` (points). SwiftUI applies the system's default value if `x` is given `0` as a value or no parameter is given. A positive value for `x` results in additional spacing, whereas a negative value results in decreased spacing. Any non-default value for `x` will disable non-essential ligatures.
+
+> **Note:** `.tracking()` is not the same as `.kerning()`. The `.kerning()` modifier method modifies the offset that a `Text` view should shift each character from the default spacing. Although both the `.tracking()` and `.kerning()` modifier methods modify the spacing of characters, they behave differently.
 
 ## Example
 
