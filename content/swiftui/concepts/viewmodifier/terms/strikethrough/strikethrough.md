@@ -19,20 +19,19 @@ The **`.strikethrough`** view modifier method in SwiftUI can be used to strike t
 
 ## Syntax
 
-```psuedo
+```pseudo
 Text("Some Text")
     .strikethrough(parameters)
 ```
 
-This method has two parameters:
+This method has two optional parameters:
 
-`active`: A Boolean value that determines whether the strikethrough should be applied or not. This parameter is optional and defaults to true.
-
-`color`: A color value used to color the strikethrough. This parameter is optional and defaults to the color of the text.
+- `active`: A boolean value that determines whether the strikethrough should be applied or not. This parameter defaults to true.
+- `color`: A color value used to color the strikethrough. This parameter defaults to the color of the text.
 
 ## Example
 
-The following example demonstrates how to use the .strikethrough() method to apply a blue strikethrough to text:
+The following example demonstrates how to use the `.strikethrough()` method to apply a blue strikethrough to text:
 
 ```swift
 var body: some View {
