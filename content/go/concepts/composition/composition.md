@@ -17,8 +17,6 @@ Go's **composition** is like having a big toolbox with all the special tools nee
 
 ## Structs
 
-Go's composition is a combination of various elements that make the language a powerful and efficient tool for software development. 
-
 The following example creates a [struct](https://www.codecademy.com/resources/docs/go/structs) called `pizza`
 
 ```go
@@ -65,12 +63,10 @@ func main() {
 	fmt.Println(pizzaStyle(myPizza))
 }
 ```
-**This example results in the following output:**
+This example results in the following output:
 ```shell
 Margherita pizza is a medium pizza with toppings of [tomatoes mozzarella basil]
 ```
-
-
 
 ## A Struct Within a Struct
 
@@ -128,7 +124,7 @@ A struct called `Restaurant` is also defined that contains the `Pizza` struct, t
 
 In the main function, a `Pizza` struct called `myPizza` and a `Restaurant` struct called `myRestaurant` are created. Then `myPizza` is passsed to `pizzaStyle` and `myRestaurant` is passed to `restaurantInfo`, which are then printed to the console.
 
-**This example results in the following output:**
+This example results in the following output:
 ```shell
 Margherita pizza is a medium pizza with toppings of [tomatoes mozzarella basil]
 Pizzeria del Corso has a rating of 4 and serves the following pizzas: [{Margherita medium [tomatoes mozzarella basil] true}]
