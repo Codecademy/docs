@@ -22,13 +22,13 @@ Text("Some text")
     .tracking(x)
 ```
 
-The `.tracking()` modifier method takes one parameter, `x`, entered as an integer to define the space to be added to or deducted from each character's default spacing in `pt` (points). SwiftUI applies the system's default value if `x` is given `0` as a value or no parameter is given. A positive value for `x` results in additional spacing, whereas a negative value results in decreased spacing. Any non-default value for `x` will disable non-essential ligatures.
+The `.tracking()` modifier method takes one parameter, `x`, entered as an integer to define the space to be added to or deducted from each character's default spacing in `pt` (points). SwiftUI applies the system's default value if `x` is given `0` as a value or no parameter is given. A positive value for `x` results in additional spacing, whereas a negative value results in decreased spacing.
 
-> **Note:** `.tracking()` is not the same as `.kerning()`. The `.kerning()` modifier method modifies the offset that a `Text` view should shift each character from the default spacing. Although both the `.tracking()` and `.kerning()` modifier methods modify the spacing of characters, they behave differently.
+> **Note:** `.tracking()` is not the same as `.kerning()`. Although both the `.tracking()` and `.kerning()` modifier methods modify the spacing of characters, they behave differently. `.tracking()` will pull apart the ligatures and does not leave trailing whitespace, while `.kerning()` will maintain ligatures and leaves some trailing whitespace.
 
 ## Example
 
-In the example below, the `.tracking()` modifier method is called on three `Text` views with `-5`, no value and `5` parameters.
+In the example below, the `.tracking()` modifier method is called on three `Text` views with decreased, default and increased tracking values.
 
 ```swift
 var body: some View {
