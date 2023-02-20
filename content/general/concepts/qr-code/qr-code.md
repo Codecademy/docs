@@ -2,18 +2,12 @@
 Title: 'QR Codes'
 Description: 'QR Codes and how are they used'
 Subjects:
-  - QR Code
-  - Quick Response Code
+  - Computer Science
 Tags:
-  - Bar Code
-  - QR Code
-  - Quick Responce Code
-  - Scan
+  - Images
 CatalogContent:
-  - 'General'
-  - 'QR Codes'
-  - 'Subjects'
-  - 'Tags'
+  - 'paths/code-foundations'
+  - 'paths/computer-science'
 ---
 
 ## What is a QR Code?
