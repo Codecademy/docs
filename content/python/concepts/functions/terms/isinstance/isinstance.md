@@ -2,40 +2,36 @@
 Title: 'isinstance()'
 Description: 'Returns `True` if object is the specified type. Otherwise function will return `False`.'
 Subjects:
-  - 'Computer Science'
-  - 'Python'
-  - 'Engineering'
-  - 'Programming'
-  - 'Web Dev'
   - 'Data Science'
-  - 'Data Analytics'
+  - 'Data Visualization'
+  - 'Machine Learning'
+  - 'Web Development'
 Tags:
-  - 'Python'
-  - 'Functions'
-  - 'Built-in'
-  - 'Boolean'
+  - 'AI'
+  - 'Algorithms'
+  - 'Booleans'
+  - 'Classes'
+  - 'Data Types'
+  - 'Development'
   - 'Objects'
-  - 'Types'
-  - 'TypeError'
-  - 'Parameters'
-  - 'Class'
+  - 'Syntax'
 CatalogContent:
-  - 'python'
-  - 'functions/isinstance'
+- 'learn-python-3'
+- 'paths/computer-science'
 ---
 
-<h1>isinstance()</h1>
-<strong>Python function that evaluates if a value type equates to True</strong><br>
+# isinstance()
+**Python function that evaluates if a value type equates to True**
 
-## Description
-The isinstance() function determines whether one object is a designated value type. If it is, the function will return `True`, otherwise the function will return `False`.
+# Description
+Returns True *if* object is the specificed type. Otherwise function will return False.
 
-## Syntax
+# Syntax
 ```py
 isinstance(object, class)
 ```
 
-## Example
+# Example
 ```py
 var1 = "Hello World!"
 var2 = 123
@@ -50,8 +46,8 @@ check_if_string(var1)
 check_if_string(var2)
 ```
 
-## Output
-```pseudo
+# This example results in the following output:
+```py
 True
 False
 ```
