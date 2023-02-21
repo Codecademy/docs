@@ -1,6 +1,6 @@
 ---
 Title: '.tracking()'
-Description: 'Modifies the spacing of the characters in a Text view.'
+Description: 'Adjusts the spacing of the characters in a Text view.'
 Subjects:
   - 'Mobile Development'
   - 'iOS'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.tracking()`** modifier method modifies the spacing of the characters in a [`Text`](https://www.codecademy.com/resources/docs/swiftui/views/text) view.
+The **`.tracking()`** modifier method adjusts the spacing of the characters in a [`Text`](https://www.codecademy.com/resources/docs/swiftui/views/text) view.
 
 ## Syntax
 
@@ -24,7 +24,7 @@ Text("Some text")
 
 The `.tracking()` modifier method takes one parameter, `x`, entered as an integer to define the space to be added to or deducted from each character's default spacing in `pt` (points). SwiftUI applies the system's default value if `x` is given `0` as a value or no parameter is given. A positive value for `x` results in additional spacing, whereas a negative value results in decreased spacing.
 
-> **Note:** `.tracking()` is not the same as `.kerning()`. Although both the `.tracking()` and `.kerning()` modifier methods modify the spacing of the characters, they behave differently. `.tracking()` will pull apart the ligatures and does not leave trailing whitespace, while `.kerning()` will maintain ligatures and leaves some trailing whitespace.
+> **Note:** `.tracking()` is not the same as `.kerning()`. Although both the `.tracking()` and `.kerning()` modifier methods adjust the spacing of the characters, they behave differently. `.tracking()` will pull apart the ligatures and does not leave trailing whitespace, while `.kerning()` will maintain ligatures and leaves some trailing whitespace.
 
 ## Example
 
