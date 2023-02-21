@@ -1,5 +1,5 @@
 ---
-Title: 'SDLC'
+Title: 'Software Development Life Cycle'
 Description: 'The Software Development Life Cycle (SDLC) is a process that is used to efficiently produce cost-effective and high-quality software through a series of structured steps or phases.'
 Subjects:
   - 'Mobile Development'
