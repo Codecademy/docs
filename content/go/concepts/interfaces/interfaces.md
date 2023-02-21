@@ -12,7 +12,6 @@ CatalogContent:
   - 'paths/back-end-engineer-career-path'
 ---
 
-
 An interace is a set of method signatures.
 
 ```go
