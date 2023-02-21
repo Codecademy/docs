@@ -7,7 +7,6 @@ Tags:
   - 'Cybersecurity'
 CatalogContent:
   - 'paths/scan-systems-with-nmap'
-  - 'paths/securing-express-applications'
   - 'introduction-to-ethical-hacking'
 ---
 
