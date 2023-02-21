@@ -4,7 +4,6 @@ Description: 'Blue team typically consists of incident response professionals wh
 Subjects:
   - 'Cybersecurity'
 Tags:
-  - 'Cybersecurity'
   - 'Ethical Hacking'
 CatalogContent:
   - 'paths/scan-systems-with-nmap'
@@ -28,7 +27,5 @@ Conversely, a red team will use a variety of tactics such as social engineering,
 The blue team’s job is to prevent and detect attacks. Common skills for the blue team include, but are not limited to:
 
 - Detailed knowledge of concepts such as firewalls, intrusion detection systems and antivirus software
-
 - Familiarity with common security standards and frameworks such as the National Institute of Standards and Technology (NIST) Cybersecurity Framework and the Payment Card Industry Data Security Standard (PCI DSS).
-
 - Familiarity with common tools used in cybersecurity, such as penetration testing software and security information and event management (SIEM) systems.
