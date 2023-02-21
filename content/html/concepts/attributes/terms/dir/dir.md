@@ -1,15 +1,15 @@
 ---
 Title: 'dir'
-Description: 'Specifies the text direction of the content of an HTML element.'
+Description: 'Sets the direction of an HTML element's text.'
 Subjects:
-- 'Web Development'
-- 'Web Design'
+ - 'Web Development'
+ - 'Web Design'
 Tags:
-- 'Attributes'
-- 'HTML'
+ - 'Attributes'
+ - 'HTML'
 CatalogContent:
-- 'learn-html'
-- 'paths/front-end-engineer-career-path'
+ - 'learn-html'
+ - 'paths/front-end-engineer-career-path'
 ---
 
   The HTML global **`dir`** attribute sets the direction of an [HTML element](https://www.codecademy.com/resources/docs/html/elements)'s text. This is useful for languages that use right-to-left scripts like Adlam, Arabic, Dhivehi, Hebrew, Mandinka, N'Ko, Pashto, Persian, Pular, Sindhi, Syriac, Thaana, Urdu, Yiddish, etc.
@@ -20,6 +20,8 @@ CatalogContent:
 <element  dir="ltr | rtl | auto">
 ```
 
+## Values:
+
 `dir` can be set to one of the following values:
 
 |Value |Description |
@@ -28,7 +30,7 @@ CatalogContent:
 |rtl |Right-to-left text direction, such as Arabic |
 |auto| Let the browser figure out the text direction, based on the content (only recommended if the text direction is unknown)| 
 
->  **Note:** The use of the `dir` attribute declares only the direction of text in an html document and does not affect the language of the document. The language should also be declared using the `lang` attribute.
+>  **Note:**  Always declare the language using the `lang` attribute in conjunction with setting the text direction with the `dir` attribute. Language declarations do not imply directionality or vice versa. The two must be set separately. 
 
 ## Example 1
 
@@ -40,6 +42,8 @@ The following example sets the `dir` attribute on a [`<p>` element](https://www.
 This results in the following output:
 
 ![Incorrect use of dir attribute](/media/html-dir-incorrect.png "incorrect use of dir attribute")
+
+> **Note:** The punctuation mark, `.`, is placed at the front of the sentence when using `rtl` direction. The LRM control character `&lrm;` can be placed at the end of the sentence to display the punctuation as if the text is left-to-right.
 
 ## Example 2
 
