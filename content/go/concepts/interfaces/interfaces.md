@@ -121,6 +121,94 @@ func Println(a ...interface{}) (n int, err error) {
 ```
 > due to the empty interface, we can pass any type to the `Println` function.
 
+An interface in go can be embedded in other interfaces or structs.
+
+### Embedding interface in a struct and another interface:
+
+```go
+package main
+
+import "fmt"
+
+// any type that need to implement marriage should also implement all methods of dating
+type marriage interface {
+	dating
+	love()
+	arranged()
+}
+
+type dating interface {
+	compatibility()
+}
+
+type john struct {
+	age int
+}
+
+func (a john) love() {
+	fmt.Println("love with john")
+}
+
+func (a john) arranged() {
+	fmt.Println("arranged marriage with john")
+}
+func (a john) compatibility() {
+	fmt.Println("compatible with john")
+}
+
+type parents struct {
+	//named marriage interface
+	m     marriage
+	quote string
+}
+
+type lovers struct {
+	//unnamed marriage interface
+	marriage
+	quote string
+}
+
+func main() {
+	a := john{age: 24}
+	p := parents{quote: "I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more", m: a}
+	
+	//p.love()
+	//as this has named marriage interface m calling directly with .m would raise compiler error
+	/*-----------------------ERROR-----*---------------------------*/
+	// ./prog.go:39:4: p.love undefined (type parents has no field or method love)
+
+	p.m.love()
+	p.m.compatibility()
+	p.m.arranged()
+
+	l := lovers{quote: "I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more", marriage: a}
+	fmt.Println("\n", l.quote, "\n")
+	//its possible to directly access the methods of embedded interface if the embedded interface is anonymous or unnamed.
+	l.love()
+	l.compatibility()
+	l.arranged()
+}
+
+```
+
+## output:
+
+```shell
+
+love with john
+compatible with john
+arranged marriage with john
+
+ I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more 
+
+love with john
+compatible with john
+arranged marriage with john
+
+Program exited.
+
+```
+
 
 
 
