@@ -27,3 +27,16 @@ TextField("Some label", text: $someValueBinding)
 This method has one required parameter:
 
 - `type`: One of the keyboard types defined in the **UIKeyboardType** enumeration.
+
+## Example
+
+The following example demonstrates how to use the `.keyboardType()` method to ensure the user can only enter a correctly formatted email address:
+
+```swift
+TextField("someone@example.com", text: $emailAddress)
+    .keyboardType(.emailAddress)
+```
+
+This will display:
+
+![SwiftUI ViewModifier KeyboardType](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-viewmodifier-keyboardtype.png)
