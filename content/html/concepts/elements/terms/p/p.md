@@ -1,6 +1,6 @@
 ---
-Title: 'Paragraphs'
-Description: 'Paragraphs are block-level elements that contain and display a block of text. They are enclosed by an opening and closing tag.'
+Title: '<p>'
+Description: 'Contains and displays a block of text that defines a paragraph.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -11,19 +11,16 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Paragraph element `<p>` contains and displays a block of text. They are among the most common text-based HTML elements.
+The **`<p>`** element, also known as the paragraph element, contains and displays a block of text. They are among the most common text-based HTML elements.
 
-They are block-level, which means it is as wide as it's parent element and as tall as its content's height.
+They are block-level, which means it is as wide as its parent element and as tall as its content's height. In addition, browsers automatically add a single blank line before and after each `<p>` element.
 
 ## Syntax
 
-The pargraph element is enclosed by an opening `<p>` tag and a closing `</p>` tag:
+The paragraph element is enclosed by an opening `<p>` tag and a closing `</p>` tag:
 
-```html
-<p>
-  This is a block of text! Lorem ipsum dolor sit amet, consectetur adipisicing
-  elit.
-</p>
+```pseudo
+<p>This is some text in a paragraph.</p>
 ```
 
 ## Example
