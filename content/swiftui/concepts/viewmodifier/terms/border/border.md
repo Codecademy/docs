@@ -21,6 +21,7 @@ The **`.border()`** view modifier in SwiftUI can be used to add a border to a vi
 View
     .border(_ content: ShapeStyle, width: CGFloat = 1)
 ```
+
 This method has one required parameter:
 
 - `content`: A value that sets the color and style of the border which needs to conform to the `ShapeStyle` protocol, like a `Color` or `HierarchicalShapeStyle`.
