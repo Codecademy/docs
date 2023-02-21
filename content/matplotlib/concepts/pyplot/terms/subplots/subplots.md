@@ -17,25 +17,26 @@ CatalogContent:
 
 The **'pyplot.subplots()'** function returns:
 
+- fig: _Figure_
+
+- ax: _ax_ can be either a signe Axes object, or an array of Axes objects if more than one subplot was created. The dimensions of the resulting array can be controlled with the squeeze keyword.
+
 ## Syntax
 ```pseudo
 pyplot.subplots(nrows, ncols)
 ```
 
-fig: _Figure_
-ax: _ax_ can be either a signe Axes object, or an array of Axes objects if more than one subplot was created. The dimensions of the resulting array can be controlled with the squeeze keyword.
-
 The following parameters can be used:
-|  Parameter Name  | Data Type(s)                                          | Usage:
-| :--------------: |  :----------                                          | ----------------------------------------------------------------------
-| 'nrows, ncols'   | int, default:1                                        |Number of rows/columns of the subplot grid.
-| 'sharex, sharey' | bool or {'none', 'all', 'row', 'col'}, default:False  |Controls sharing of properties among x (sharex) or y (sharey) axe.When subplots have a shared x-axis along a column, only the x tick labels of the bottom subplot are created. Similarly, when subplots have a shared y-axis along a row, only the y tick labels of the first column subplot are created. |
-| 'squeeze'        | bool, default: True                                   | If True, extra dimensions are squeezed out from the returned array of Axes. If False, no squeezing at all is done: the returned Axes object is always a 2D array containing Axes instances, even if it ends up being 1x1.                                                                                | 
-| 'width_ratios'   | array-like of length ncols, optional                  | Defines the relative widths of the columns. Each column gets a relative width of width_ratios[i] / sum(width_ratios). If not given, all columns will have the same width. Equivalent to gridspec_kw={'width_ratios': [...]}                                                                              |
-| 'height_ratios'  | array-like of lenght nrows                            | Defines the relative heights of the rows. Each row gets a relative height of height_ratios[i] / sum(height_ratios). If not given, all rows will have the same height. Convenience for gridspec_kw={'height_ratios': [...]}.                                                                              |
-| 'subplot_kw'     | dict                                                  | Dict with keywords passed to the add_subplot call used to create each subplot.                                                                                                                                                                                                                           |
-| 'gridspec_kw'    | dict                                                  | Dict with keywords passed to the GridSpec constructor used to create the grid the subplots are placed on.                                                                                                                                                                                                |
-| '**fig_kw'       |                                                       | All additional keyword arguments are passed to the pyplot.figure call.                                                                                                                                                                                                                                   |
+|  Parameter Name  | Data Type(s)                                               | Usage:
+| :--------------: |  :---------------                                          | ----------------------------------------------------------------------
+| 'nrows, ncols'   | int, default:1                                             |Number of rows/columns of the subplot grid.
+| 'sharex, sharey' | bool or {'none', 'all', 'row', 'col'}, default:False       |Controls sharing of properties among x (sharex) or y (sharey) axe.When subplots have a shared x-axis along a column, only the x tick labels of the bottom subplot are created. Similarly, when subplots have a shared y-axis along a row, only the y tick labels of the first column subplot are created. |
+| 'squeeze'        | bool, default: True                                        | If True, extra dimensions are squeezed out from the returned array of Axes. If False, no squeezing at all is done: the returned Axes object is always a 2D array containing Axes instances, even if it ends up being 1x1.                                                                                | 
+| 'width_ratios'   | array-like of length ncols, optional                       | Defines the relative widths of the columns. Each column gets a relative width of width_ratios[i] / sum(width_ratios). If not given, all columns will have the same width. Equivalent to gridspec_kw={'width_ratios': [...]}                                                                              |
+| 'height_ratios'  | array-like of lenght nrows                                 | Defines the relative heights of the rows. Each row gets a relative height of height_ratios[i] / sum(height_ratios). If not given, all rows will have the same height. Convenience for gridspec_kw={'height_ratios': [...]}.                                                                              |
+| 'subplot_kw'     | dict                                                       | Dict with keywords passed to the add_subplot call used to create each subplot.                                                                                                                                                                                                                           |
+| 'gridspec_kw'    | dict                                                       | Dict with keywords passed to the GridSpec constructor used to create the grid the subplots are placed on.                                                                                                                                                                                                |
+| '**fig_kw'       |                                                            | All additional keyword arguments are passed to the pyplot.figure call.                                                                                                                                                                                                                                   |
 
 ## Example
 In the following example, basic 2 x 2 grid of Axes is formed using **subplots**.
