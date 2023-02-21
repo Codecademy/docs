@@ -4,8 +4,8 @@ Description: 'Searches a string for a specified value, and returns the position 
 Subjects:
   - 'Computer Science'
 Tags:
-  - 'String'
-  - 'Method'
+  - 'Strings'
+  - 'Methods'
   - 'Characters'
 CatalogContent:
   - 'learn-java'
@@ -17,7 +17,7 @@ The **`.lastIndexOf()`** method searches a string for a specified value and retu
 ## Syntax
 
 ```pseudo
-string.lastIndexOf(searchValue, fromIndex
+string.lastIndexOf(searchValue, fromIndex)
 ```
 
 - `searchValue`: The character or sequence of characters being searched for. 
@@ -28,9 +28,16 @@ string.lastIndexOf(searchValue, fromIndex
 This example below searches the string `sentence` for the value `'the'` and returns the index of the last occurrence:
 
 ```java
-let str = 'The quick brown fox jumps over the lazy dog';
-let lastPos = str.lastIndexOf('the');
-console.log(lastPos); 
+class Main {
+   public static void main(String[] args) {
+
+     String sentence = "The quick brown fox jumps over the lazy dog";
+
+     int lastPos = sentence.lastIndexOf("the");
+
+     System.out.println(lastPos);
+  }
+} 
 ```
 This will output the following:
 
