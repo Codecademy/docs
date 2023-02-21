@@ -8,7 +8,7 @@ Tags:
   - 'Strings'
   - 'Methods'
 CatalogContent:
-  - 'learn java'
+  - 'learn-java'
   - 'paths/computer-science'
 ---
 
@@ -19,15 +19,16 @@ The **`.toLowerCase()`** method converts all the characters of a string to lower
 ## Syntax
 
 ```java
-lowerCaseString = upperCaseString.toLowerCase();
+upperCaseString.toLowerCase();
 ```
-Where `lowerCaseString` is the string with all lower case characters and `upperCaseString` is the string with some or all upper case characters that will be converted.
+Where `upperCaseString` is the string with some or all upper case characters to be converted.
 
 ## Example 
 
 This example converts uppercase characters to lowercase characters:
 
 ```java
+// Example.java
 public class Example {
     public static void main(String[] args){ 
         String S1 = new String("ThiS IS an EXAMple");
