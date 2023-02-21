@@ -1,6 +1,6 @@
 ---
 Title: '.subplots()'
-Description: It create a figure and a set of subplots. This utility wrapper makes it convenient to create common layouts of subplots, including the enclosing figure object, in a single call.
+Description: It create a figure and a set of subplots. This function makes it easy to generate layouts of subplots, including the enclosing figure object.
 Subjects:
   -  'Data Science'
   -  'Data Visualization'
