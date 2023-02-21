@@ -28,7 +28,7 @@ The `.tracking()` modifier method takes one parameter, `x`, entered as an intege
 
 ## Example
 
-In the example below, the `.tracking()` modifier method is called on three `Text` views with decreased, default and increased tracking values.
+In the example below, the `.tracking()` modifier method is called on three `Text` views with decreased, default, and increased tracking values.
 
 ```swift
 var body: some View {
