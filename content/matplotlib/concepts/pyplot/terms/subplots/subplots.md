@@ -17,7 +17,7 @@ CatalogContent:
 
 The **'pyplot.subplots()'** function returns:
 
-##Syntax
+## Syntax
 ```pseudo
 pyplot.subplots(nrows, ncols)
 ```
@@ -37,7 +37,7 @@ The following parameters can be used:
 | 'gridspec_kw'    | dict                                                  | Dict with keywords passed to the GridSpec constructor used to create the grid the subplots are placed on.                                                                                                                                                                                                |
 | '**fig_kw'       |                                                       | All additional keyword arguments are passed to the pyplot.figure call.                                                                                                                                                                                                                                   |
 
-##Example
+## Example
 In the following example, basic 2 x 2 grid of Axes is formed using **subplots**.
 
 It returs a **Figure** instance and an array of **Axes** objects.
