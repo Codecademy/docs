@@ -12,6 +12,7 @@ CatalogContent:
   - 'paths/back-end-engineer-career-path'
 ---
 
+
 An interace is a set of method signatures.
 
 ```go
@@ -210,8 +211,18 @@ Program exited.
 ```
 
 
+## codebyte example
 
+```codebyte/golang
 
+package main
+import "fmt"
+
+func main() {
+	fmt.Println("practice here")
+}
+
+```
 
 
 
