@@ -33,7 +33,7 @@ This method has one required parameter:
 The following example demonstrates how to use the `.keyboardType()` method to ensure the user can only enter a correctly formatted email address:
 
 ```swift
-TextField("someone@example.com", text: $emailAddress)
+TextField("user-name@example.com", text: $emailAddress)
     .keyboardType(.emailAddress)
 ```
 
