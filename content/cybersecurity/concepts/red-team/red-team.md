@@ -8,7 +8,6 @@ Tags:
   - 'Ethical Hacking'
 CatalogContent:
   - 'paths/scan-systems-with-nmap'
-  - 'paths/securing-express-applications'
   - 'introduction-to-ethical-hacking'
 ---
 
