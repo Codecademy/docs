@@ -1,6 +1,6 @@
 ---
 Title: 'dir'
-Description: 'Sets the direction of an HTML element's text.'
+Description: 'Sets the direction of the text of an HTML element.'
 Subjects:
  - 'Web Development'
  - 'Web Design'
