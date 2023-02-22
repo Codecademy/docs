@@ -5,6 +5,7 @@ Subjects:
   - 'Cybersecurity'
 Tags:
   - 'Cybersecurity'
+  - 'Ethical Hacking'
 CatalogContent:
   - 'paths/scan-systems-with-nmap'
   - 'paths/securing-express-applications'
