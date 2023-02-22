@@ -17,12 +17,8 @@ The **`.kerning()`** modifier sets the spacing size between text characters in a
 ## Syntax
 
 ```pseudo
-struct MyView: View {
-    var body: some View {
-        Text("This text will have kerning applied.")
-            .kerning(amount)
-    }
-}
+Text("This text will have kerning applied.")
+  .kerning(amount)
 ```
 
 The `.kerning()` modifier offsets text character spacing by the `amount` (in points) and is applied to all text in the [`Text` view](https://www.codecademy.com/resources/docs/swiftui/views/text). The `amount` parameter is a float value. A positive value will increase the spacing size and a negative value will decrease it. A value of `0` will set the default text character spacing.
