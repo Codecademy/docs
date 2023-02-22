@@ -21,21 +21,23 @@ The **`.toLowerCase()`** method converts all the characters of a string to lower
 ```java
 upperCaseString.toLowerCase();
 ```
+
 Where `upperCaseString` is the string with some or all upper case characters to be converted.
 
-## Example 
+## Example
 
 This example converts uppercase characters to lowercase characters:
 
 ```java
 // Example.java
 public class Example {
-    public static void main(String[] args){ 
+    public static void main(String[] args){
         String S1 = new String("ThiS IS an EXAMple");
         System.out.println(S1.toLowerCase());
     }
 }
 ```
+
 This outputs the following:
 
 ```shell
