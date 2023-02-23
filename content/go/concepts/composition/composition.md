@@ -17,7 +17,7 @@ Go's **composition** is like having a big toolbox with all the special tools nee
 
 ## Structs
 
-The following example creates a [struct](https://www.codecademy.com/resources/docs/go/structs) called `pizza`
+The following example creates a [struct](https://www.codecademy.com/resources/docs/go/structs) called `pizza`:
 
 ```go
 package main
@@ -63,7 +63,9 @@ func main() {
 	fmt.Println(pizzaStyle(myPizza))
 }
 ```
+
 This example results in the following output:
+
 ```shell
 Margherita pizza is a medium pizza with toppings of [tomatoes mozzarella basil]
 ```
@@ -116,6 +118,7 @@ func main() {
 	fmt.Println(restaurantInfo(myRestaurant))
 }
 ```
+
 In this example the `Restaurant` struct contains the `Pizza` struct.
 
 In this example, a struct called `Pizza` is defined with fields for the name, size, toppings, and whether or not it's delicious. The `pizzaStyle` function takes a `Pizza` struct as an argument and returns a string that describes the pizza.
@@ -125,6 +128,7 @@ A struct called `Restaurant` is also defined that contains the `Pizza` struct, t
 In the main function, a `Pizza` struct called `myPizza` and a `Restaurant` struct called `myRestaurant` are created. Then `myPizza` is passsed to `pizzaStyle` and `myRestaurant` is passed to `restaurantInfo`, which are then printed to the console.
 
 This example results in the following output:
+
 ```shell
 Margherita pizza is a medium pizza with toppings of [tomatoes mozzarella basil]
 Pizzeria del Corso has a rating of 4 and serves the following pizzas: [{Margherita medium [tomatoes mozzarella basil] true}]
