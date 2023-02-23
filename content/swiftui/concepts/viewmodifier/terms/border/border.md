@@ -1,6 +1,6 @@
 ---
 Title: '.border()'
-Description: 'Applies a horizontal line through the middle of the text in a string.'
+Description: 'Applies a border to a view, which can be customized with a specified style and width.'
 Subjects:
   - 'Mobile Development'
   - 'iOS'
@@ -40,12 +40,12 @@ var body: some View {
 }
 ```
 
-In the above example, we have a Text view that displays the text `"This view has a blue border."` with some padding. We've then applied the `.border()` modifier to the Text view, which adds a border around the view.
+In the above example, we have a Text view that displays the text `"This view has a blue border."` with some padding. The `.border()` modifier is then applied to the Text view, which adds a border around the view.
 
-In our example, we've specified a blue border with a width of 4 points. However, you can customize these values as needed to achieve the desired look for your app.
+In our example, a blue border is specified with a width of 4 points. However, you can customize these values as needed to achieve the desired look for your app.
 
 This will display:
 
 ![SwiftUI ViewModifier Border](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-viewmodifier-border.png)
 
-> **Note**: Keep in mind that the .border() modifier had a `cornerRadius` parameter which has since been deprecated so if you want to round the corners of your border you can use the `overlay()` modifier and having a `RoundedRectangle()` with an `cornerRadius` value instead.
+> **Note**: Keep in mind that the .border() modifier had a `cornerRadius` parameter which has since been deprecated so if you want to round the corners of your border you can use the `overlay()` modifier and having a `RoundedRectangle()` with a `cornerRadius` value instead.
