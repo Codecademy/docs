@@ -39,6 +39,8 @@ struct MyStructure: View {
 }
 ```
 
-The image is scaled down in the example above with the `.scaledToFit()` modifier to fit the width of the parent `View`. The original aspect ratio of the image has been maintained.
+This will display the following:
 
 ![SwiftUI ViewModifier scaledToFit](https://raw.githubusercontent.com/Codecademy/docs/main/media/scaled-to-fit.jpg)
+
+The image is scaled down in the example above with the `.scaledToFit()` modifier to fit the width of the parent `View`. The original aspect ratio of the image has been maintained.
