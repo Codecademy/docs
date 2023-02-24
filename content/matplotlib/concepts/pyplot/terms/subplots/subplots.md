@@ -1,25 +1,21 @@
 ---
 Title: '.subplots()'
-Description: It create a figure and a set of subplots. This function makes it easy to generate layouts of subplots, including the enclosing figure object.
+Description: Returns a chart figure as a set of subplots.
 Subjects:
   -  'Data Science'
   -  'Data Visualization'
-  -  'Data Analytics'
+
 Tags:
   -  'Graphs'
   -  'Libraries'
   -  'Matplotlib'
+
 CatalogContent:
   -  'learn-python-3'
   -  'visualize-data-with-python'
-  -  'machine-learning'
 ---
 
-The **'pyplot.subplots()'** function returns:
-
-- fig: _Figure_
-
-- ax: _ax_ can be either a signe Axes object, or an array of Axes objects if more than one subplot was created. The dimensions of the resulting array can be controlled with the squeeze keyword.
+The **`.subplots()`** method returns a figure with multiple subplots. This method is a convenient way to generate subplot layouts, including the enclosing figure object.
 
 ## Syntax
 ```pseudo
@@ -39,9 +35,7 @@ The following parameters can be used:
 | `**fig_kw`       |                                                            | Any other keyword arguments are passed to the pyplot.figure method.                                                                                                                                                   |
 
 ## Example
-In the following example, basic 2 x 2 grid of Axes is formed using **subplots**.
-
-It returs a **Figure** instance and an array of **Axes** objects.
+In the following example, It returns 1 x 2 grid of Axes with the following sinusoidal and cosine plots.
 
 ```py
 import matplotlib.pyplot as plt
