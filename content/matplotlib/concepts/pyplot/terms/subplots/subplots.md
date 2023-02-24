@@ -29,14 +29,14 @@ pyplot.subplots(nrows, ncols)
 The following parameters can be used:
 |  Parameter Name  | Data Type(s)                                               | Usage:
 | :--------------: |  :---------------                                          | ----------------------------------------------------------------------
-| `nrows, ncols`   | int, default:1                                             |Number of rows/columns of the subplot grid.
-| `sharex, sharey` | bool or {'none', 'all', 'row', 'col'}, default:False       |Controls sharing of properties among x (sharex) or y (sharey) axe.When subplots have a shared x-axis along a column, only the x tick labels of the bottom subplot are created. Similarly, when subplots have a shared y-axis along a row, only the y tick labels of the first column subplot are created. |
-| `squeeze`        | bool, default: True                                        | If True, extra dimensions are squeezed out from the returned array of Axes. If False, no squeezing at all is done: the returned Axes object is always a 2D array containing Axes instances, even if it ends up being 1x1.                                                                                | 
-| `width_ratios`   | array-like of length ncols, optional                       | Defines the relative widths of the columns. Each column gets a relative width of width_ratios[i] / sum(width_ratios). If not given, all columns will have the same width. Equivalent to gridspec_kw={'width_ratios': [...]}                                                                              |
-| `height_ratios`  | array-like of lenght nrows                                 | Defines the relative heights of the rows. Each row gets a relative height of height_ratios[i] / sum(height_ratios). If not given, all rows will have the same height. Convenience for gridspec_kw={'height_ratios': [...]}.                                                                              |
-| `subplot_kw`     | dict                                                       | Dict with keywords passed to the add_subplot call used to create each subplot.                                                                                                                                                                                                                           |
-| `gridspec_kw`    | dict                                                       | Dict with keywords passed to the GridSpec constructor used to create the grid the subplots are placed on.                                                                                                                                                                                                |
-| `**fig_kw`       |                                                            | All additional keyword arguments are passed to the pyplot.figure call.                                                                                                                                                                                                                                   |
+| `nrows, ncols`   | int, default:1                                             | This refers to the quantity of rows or columns within the grid of subplots.                                                                                                                                           |
+| `sharex, sharey` | bool or {'none', 'all', 'row', 'col'}, default:False       | Sharex and sharey control the sharing of properties among x or y axis of subplots. Shared x-axis or y-axis allows for creating tick labels only on the bottom subplot or first column subplot, respectively.          |
+| `squeeze`        | bool, default: True                                        | Removes additional dimensions from the array of Axes when set to True. If set to False, it will always return a 2D array of Axes instances, even if the size is 1x1.                                                  | 
+| `width_ratios`   | array-like of length ncols, optional                       | Defines the proportional width of columns, where each column has a width of width_ratios[i] / sum(width_ratios). If not given, all columns have equal width. It is equivalent to gridspec_kw={'width_ratios': [...]}. |
+| `height_ratios`  | array-like of lenght nrows                                 | Sets the proportional height of rows, dividing the total height among them. If not provided, all rows have an equal height. It is a shortcut for gridspec_kw={'height_ratios': [...]}.                                |
+| `subplot_kw`     | dict                                                       | Dictionary that includes keywords that are passed to the add_subplot method, which is used to generate each subplot.                                                                                                  |
+| `gridspec_kw`    | dict                                                       | Dictionary that contains keywords passed to the GridSpec constructor used for creating the grid where subplots are positioned.                                                                                        |
+| `**fig_kw`       |                                                            | Any other keyword arguments are passed to the pyplot.figure method.                                                                                                                                                   |
 
 ## Example
 In the following example, basic 2 x 2 grid of Axes is formed using **subplots**.
@@ -47,16 +47,29 @@ It returs a **Figure** instance and an array of **Axes** objects.
 import matplotlib.pyplot as plt
 import numpy as np
 
-fig, axs = plt.subplots(ncols=2, nrows=2, figsize=(5.5, 3.5),
-                        layout="constrained")
-# add an artist, in this case a nice label in the middle...
-for row in range(2):
-    for col in range(2):
-        axs[row, col].annotate(f'axs[{row}, {col}]', (0.5, 0.5),
-                               transform=axs[row, col].transAxes,
-                               ha='center', va='center', fontsize=18,
-                               color='darkgrey')
-fig.suptitle('plt.subplots()')
+# Create some sample data
+x = np.linspace(0, 10, 100)
+y1 = np.sin(x)
+y2 = np.cos(x)
+
+# Create a figure with two subplots, arranged vertically
+fig, axs = plt.subplots(2, 1, figsize=(8, 6), layout="constrained")
+
+# Plot the first subplot (top)
+axs[0].plot(x, y1)
+axs[0].set_title('Sinusoidal Plot')
+axs[0].set_xlabel('x-axis')
+axs[0].set_ylabel('y-axis')
+
+# Plot the second subplot (bottom)
+axs[1].plot(x, y2)
+axs[1].set_title('Cosine Plot')
+axs[1].set_xlabel('x-axis')
+axs[1].set_ylabel('y-axis')
+
+# Display the figure
+fig.suptitle("plt.subplots()")
+plt.show()
 ```
 
-![Output of the matplotlib.pyplot.subplots() function](https://matplotlib.org/stable/_images/sphx_glr_arranging_axes_001.png)
+![Output of the matplotlib.pyplot.subplots() function](/media/subplots-example.png)
