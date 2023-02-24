@@ -8,7 +8,6 @@ Tags:
   - 'Computer Science'
 CatalogContent:
   - 'introduction-to-cybersecurity'
-  - 'cybersecurity-for-business'
   - 'paths/fundamentals-of-cybersecurity'
 ---
 
