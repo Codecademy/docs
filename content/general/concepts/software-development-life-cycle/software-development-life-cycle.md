@@ -12,18 +12,18 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The **Software Development Life Cycle (SDLC)** is a process that is used to efficiently produce cost-effective and high-quality software through a series of structured steps or phases. Essentially, it is a standard industry approach to software development that outlines an entire project and timeline.
+The **Software Development Life Cycle (SDLC)** is a structured process that is ideally used to efficiently produce cost-effective and high-quality software. It is a standard industry approach to software development that documents an entire project and timeline. Through clear documentation, internal stakeholders can collectively understand the direction of a project.
 
 ## Phases
 
 The SDLC phases are as follows:
 
-1. Planning is the phase where requirement gathering and analysis takes place. It involves brainstorming ideas to solve some problem as a result of customer feedback or need.
-2. Defining or requirement defining is the phase that involves creating a Software Requirement Specification (SRS). The SRS document defines the purpose, product, and technical requirements. This allows everyone working on the software to understand the product's mission.
-3. Designing is based on the SRS and results in a Design Document Specification (DDS). The DDS is reviewed by all stakeholders based on a set of criteria.
-4. Development or building deals with reviewing and implementing code that will be integrated into the software.
-5. Testing and integration is the phase that [software tests](https://www.codecademy.com/resources/docs/general/software-testing) are performed to determine if the software satisfies the SRS. If it meets requirements, then the product or feature is integrated into the software.
-6. Maintaining is an ongoing phase that involves supporting and updating the software as needed.
+1. Plan: The phase where requirement gathering and analysis takes place. It involves brainstorming ideas to solve some problem as a result of customer feedback or need.
+2. Define: The phase where requirement defining takes place and involves creating a Software Requirement Specification (SRS). The SRS document defines the purpose, product, and technical requirements. This allows everyone working on the software to understand the product's mission.
+3. Design: Based on the SRS and results in a Design Document Specification (DDS). The DDS is reviewed by all stakeholders based on a set of criteria.
+4. Develop: The building phase that deals with reviewing and implementing code that will be integrated into the software.
+5. Test and Integrate: The phase that [software tests](https://www.codecademy.com/resources/docs/general/software-testing) are performed to determine if the software satisfies the SRS. If it meets requirements, then the product or feature is integrated into the software.
+6. Maintain: An ongoing phase that involves supporting and updating the software as needed.
 
 ## Models
 
