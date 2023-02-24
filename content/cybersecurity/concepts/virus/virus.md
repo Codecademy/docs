@@ -10,7 +10,6 @@ Tags:
 CatalogContent:
   - 'paths/cyber-resilience-risk-management'
   - 'paths/fundamentals-of-cybersecurity'
-  - 'introduction-to-personal-digital-security'
 ---
 
 A **virus** is a type of computer program that can replicate and infect a system with malicious code. Computer viruses have two main functions: propagation and destruction. Propagation is when a virus self-replicates by placing a copy of itself into other programs across a network. Destruction refers to the damage a computer virus can cause to your computer by deleting files or reformatting your hard drive.
