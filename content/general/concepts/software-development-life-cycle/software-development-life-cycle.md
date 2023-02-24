@@ -27,7 +27,7 @@ The SDLC phases are as follows:
 
 ## Models
 
-The Waterfall Method was the first model to be created, however, many models now exist as part of the SDLC:
+The Waterfall Model was the first model to be created, however, there are currently many different models for implementing a SDLC:
 
 - Agile: Iterative development and continuous integration. The scrum methodology is a common implementation of the agile model in which teams work in sprints. Sprints are time-constrained periods where a team works to complete a certain goal.
 - Big Bang: Named after the physical theory, this model involves creating a product through available resources for technical development. There is little planning or documenting.
