@@ -17,7 +17,7 @@ CatalogContent:
 
 ## Cryptography In-Use:
 
-Cryptography provides confidentiality, integrity, authentication for sensitive information while it is stored (at rest), traveling across a network (in transit), and existing in memory (in use).Two main types of cryptosystems enforce confidentiality: symmetric and asymmetric cryptosystems.
+Cryptography provides confidentiality, integrity, authentication for sensitive information while it is stored (at rest), traveling across a network (in transit), and existing in memory (in use). Two main types of cryptosystems enforce confidentiality: symmetric and asymmetric cryptosystems.
 
 ### Symmetric vs. Asymmetric Cryptography:
 
