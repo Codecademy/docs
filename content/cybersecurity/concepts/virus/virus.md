@@ -1,6 +1,6 @@
 ---
 Title: 'Virus'
-Description: 'Virus is a type of computer program that can replicate and infect a system with malicious code.'
+Description: 'A virus is a type of computer program that can replicate and infect a system with malicious code.'
 Subjects:
   - 'Cybersecurity'
   - 'Computer Science'
