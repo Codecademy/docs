@@ -23,7 +23,7 @@ Cryptography provides confidentiality, integrity, authentication for sensitive i
 
 Cryptography's approach uses a secret key for both encryption and decryption. Data is changed into a format that cannot be read or interpreted by someone who does not have the key used to encrypt it during this phase. Symmetric cryptography is based on a single shared key that all parties are privy to and can utilize to encrypt and decrypt data. Asymmetric cryptography encrypts and decrypts a message using a pair of similar keys. Anybody can use a public key to encrypt a document so that only the recipient can decrypt it with their private key. A private key is only known to the party that generated it.
 
-## Cryptography's Goal:
+## Cryptography's Goals:
 
 - _Confidentiality_: confidentiality means that only the intended recipient can decrypt and thus read the message.
 - _Non-repudiation_: non-repudiation means the sender of the message cannot backtrack and deny their reasons for sending the message.
