@@ -21,11 +21,8 @@ A virus's payload delivers the destructive power and negatively impacts the conf
 ## Different Types of Viruses
 
 - Malware: short for malicious software. Malware is any type of software that could harm a computer system. Malware can make a computer perform actions without the owner’s consent or knowledge.
-
 - Trojan Horse: a type of malware that uses code to install seemingly benign software, but it is actually used to create back doors into a system. The result is typically loss or theft of data.
-
 - Worm: a piece of malicious software that replicates itself in order to spread to other systems. It often traverses across a network, exploiting security flaws on the target system to allow access.
-
 - Spyware: software that tries to monitor and gather information about a user without their knowledge or consent. Spyware can monitor and log activity on a target system, or gather credit card and other personally identifiable information.
 
 
