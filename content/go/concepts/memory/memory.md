@@ -30,7 +30,7 @@ x := 10
 y := x
 ```
 
-In this code, the value of `x` is being read and stored in the variable `y`.
+In this code, the value of `x` is read and stored in the variable `y`.
 
 ### 2. Writing
 
@@ -42,7 +42,7 @@ y := 20
 x = y
 ```
 
-In this code, the value of `y` is being written to the memory location associated with `x`.
+In this code, the value of `y` is written to the memory location associated with `x`.
 
 ### 3. Allocating
 
@@ -56,7 +56,7 @@ This code creates a new block of memory for an `int` value and stores a pointer 
 
 ### 4. Freeing
 
-This operation involves releasing a block of memory that is no longer needed, so that it can be reused in the program. In Go, memory is automatically managed using a garbage collector, so explicit freeing of memory is not usually necessary.
+This operation involves releasing a block of memory that is no longer needed so that it can be reused in the program. In Go, memory is automatically managed using a garbage collector, so explicit freeing of memory is not usually necessary.
 
 ## Concurrent Access to Shared Memory
 
@@ -64,4 +64,4 @@ One important aspect of the Go memory model is that it allows multiple threads t
 
 ## Ordering of Memory Operations
 
-However, the Go memory model also requires that certain memory operations be performed in a specific order to ensure that the program behaves correctly. For example, a write operation must occur before a read operation which depends on the written value.
+The Go memory model also requires that certain memory operations be performed in a specific order to ensure that the program behaves correctly. For example, a write operation must occur before a read operation which depends on the written value.
