@@ -21,15 +21,11 @@ The components can read the `Context` value using the `useContext()` hook:
 const myValue = useContext(MyContext);
 ```
 
-The `useContext()` hook searches for the closest provider above the component in which it was called within the tree hierarchy. Therefore, providers within the same component are ignored.
-
-Additionally, `useContext` needs to be imported from `react` at the top of the file.
-
-## Example
+The `useContext()` hook searches for the closest provider above the component in which it was called within the tree hierarchy. Therefore, providers within the same component are ignored. Additionally, `useContext` needs to be imported from `react` at the top of the file.
 
 Context is passed to other components by wrapping them in a context provider component. Inside the component, a `value` prop has to be created and assigned a value:
 
-```jsx
+```pseudo
 <MyContext.Provider value={theme}>
   {/*
     Child compoments that subscribe to the context
@@ -38,7 +34,9 @@ Context is passed to other components by wrapping them in a context provider com
 </MyContext.Provider>
 ```
 
-The following example shows how a background theme could be passed down to all child components via the `useContext()` hook. The `value` prop in this case is the `theme` state:
+## Example 1
+
+The following example shows a single file, `App.js`, and how a background theme could be passed down to all child components via the `useContext()` hook. The `value` prop in this case is the `theme` state:
 
 ```jsx
 // App.js
@@ -102,9 +100,9 @@ The `useContext()` hook was used to apply a `ThemeContext` to the `<Container>` 
 
 The `theme` state is changed through the `setter` function that is passed to the `Button` component as a prop. The component uses it in the `onClick` event. In the example above, the theme is changed to black if the theme is white and vice versa.
 
-## Context From Other Files
+## Example 2
 
-The `useContext()` hook can subscribe a component to a context imported from another file, as well:
+The following example shows how the `useContext()` hook can subscribe a component to a context imported from another file:
 
 ```jsx
 // App.js
