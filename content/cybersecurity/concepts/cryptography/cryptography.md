@@ -29,7 +29,3 @@ Cryptography's approach uses a secret key for both encryption and decryption. Da
 - _Non-repudiation_: non-repudiation means the sender of the message cannot backtrack and deny their reasons for sending the message.
 - _Integrity_: integrity is the idea that the information contained within the message cannot be tampered with while in storage or transit.
 - _Authenticity_: authenticity ensures that both the sender and recipient can confirm each other’s identities and the destination of the message.
-
-
-
-
