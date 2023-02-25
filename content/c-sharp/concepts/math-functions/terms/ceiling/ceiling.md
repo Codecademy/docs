@@ -21,9 +21,9 @@ Catalog Content:
 Math.Ceiling(val);
 ```
 
-- The method takes only one parameter, `val`, the number to be rounded (as a `decimal` or `double` type). 
+- The method takes only one parameter, `val`, the number to be rounded (as a `decimal` or `double` type).
 
-## Example 
+## Example
 
 The following example uses `Math.Ceiling()` to return the next full integer.
 
