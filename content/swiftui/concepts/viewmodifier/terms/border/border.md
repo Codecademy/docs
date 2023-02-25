@@ -48,4 +48,4 @@ This will display:
 
 ![SwiftUI ViewModifier Border](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-viewmodifier-border.png)
 
-> **Note**: Keep in mind that the .border() modifier had a `cornerRadius` parameter which has since been deprecated so if you want to round the corners of your border you can use the `overlay()` modifier and having a `RoundedRectangle()` with a `cornerRadius` value instead.
+> **Note**: Keep in mind that the .border() modifier had a `cornerRadius` parameter which has since been deprecated so if you want to round the corners of your border you can use the `overlay()` modifier and have a `RoundedRectangle()` with a `cornerRadius` value instead.
