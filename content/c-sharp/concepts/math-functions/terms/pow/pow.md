@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.Pow()`** method returns the first input number raised to the power of the second input number.
+The **`Math.Pow()`** method returns a number raised to the power of a second number.
 
 ## Syntax
 
