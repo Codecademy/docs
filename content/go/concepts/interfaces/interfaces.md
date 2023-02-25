@@ -91,9 +91,9 @@ In the above example,
  - function `newLife` takes `marriage` interface as an argument.
  - It's possible to call the `newLife` function with `john` and `max` structs.
 
-> Advantage of using interface is that we can pass any struct which implements the `marriage` interface to the `newLife` function. and it is possible to  change the implementation of the `love` and `arranged` methods in the `john` and `max` structs without affecting the `newLife` function.
+The advantage of using an interface is that any struct can be passed to the `newLife` function as long as it implements the `marriage` interface. and it is possible to  change the implementation of the `love` and `arranged` methods in the `john` and `max` structs without affecting the `newLife` function.
 
-> It is also possible to make a new type and `newLife` can use it without changing the `newLife` function as long as the new type implements the `marriage` interface.
+It is also possible to make a new type and `newLife` can use it without changing the `newLife` function as long as the new type implements the `marriage` interface.
 
 Go's compiler will ensure that all the methods in the interface are implemented in the struct.
 
@@ -105,11 +105,13 @@ An interface with no methods is called an empty interface.
 type interfaceName interface {}
 ```
 
-Tradeoff of using empty interface is lose of type safety as there are no methods its possible to pass any type to the function which takes empty interface as an argument.
+The tradeoff of using an empty interface is the loss of type safety.  As there are no methods, it's possible to pass any type to a function that takes an empty interface as an argument.
 
-Example: Println function in fmt package takes empty interface as an argument.
+### Example
 
-### go source code for fmt.Println function:
+The `Println` function in the `fmt` package takes an empty interface as an argument.
+
+Below is the go source code for the `fmt.Println` function:
 
 ```go
 // Println formats using the default formats for its operands and writes to standard output.
@@ -119,11 +121,12 @@ func Println(a ...interface{}) (n int, err error) {
 	return Fprintln(os.Stdout, a...)
 }
 ```
-> due to the empty interface, we can pass any type to the `Println` function.
+
+> ##Note:** due to the empty interface, we can pass any type to the `Println` function.
 
 An interface in go can be embedded in other interfaces or structs.
 
-### Embedding interface in a struct and another interface:
+## Embedding an Interface
 
 ```go
 package main
@@ -191,7 +194,7 @@ func main() {
 
 ```
 
-## output:
+This example results in the following output:
 
 ```shell
 
@@ -210,7 +213,7 @@ Program exited.
 ```
 
 
-## codebyte example
+## Codebyte Example
 
 ```codebyte/golang
 
