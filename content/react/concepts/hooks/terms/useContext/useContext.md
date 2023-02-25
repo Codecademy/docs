@@ -1,6 +1,6 @@
 ---
 Title: 'useContext()'
-Description: 'Hook to use the React Context API in components.'
+Description: 'Subscribes a component to a context which includes its value prop that exists further up the component tree.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -11,31 +11,33 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`useContext()`** hook subscribes a child [component](https://www.codecademy.com/resources/docs/react/components) to a [context component](https://www.codecademy.com/resources/docs/react/context) (and its `value` [prop](https://www.codecademy.com/resources/docs/react/props)) that exists further up the component tree.
+The **`useContext()`** hook subscribes a child [component](https://www.codecademy.com/resources/docs/react/components) to a [context](https://www.codecademy.com/resources/docs/react/context) which includes its `value` [prop](https://www.codecademy.com/resources/docs/react/props) that exists further up the component tree.
 
 ## Syntax
 
-The components can then use the `Context` value using the `useContext()` hook:
+The components can read the `Context` value using the `useContext()` hook:
 
 ```pseudo
-const theme = useContext(ThemeContext);
+const myValue = useContext(MyContext);
 ```
 
 The `useContext()` hook searches for the closest provider above the component in which it was called within the tree hierarchy. Therefore, providers within the same component are ignored.
 
+Additionally, `useContext` needs to be imported from `react` at the top of the file.
+
 ## Example
 
-The following example shows how a background theme could be passed down to all child components via the `useContext()` hook, and without using props:
+The following example shows how a background theme could be passed down to all child components via the `useContext()` hook:
 
 ```jsx
 // App.js
-
 import { createContext, useContext, useState } from 'react';
 
 const ThemeContext = createContext();
 
 export default function App() {
   const [theme, setTheme] = useState('white');
+
   return (
     <ThemeContext.Provider value={theme}>
       <Button setTheme={setTheme} />
@@ -47,6 +49,7 @@ export default function App() {
 function Button(props) {
   const theme = useContext(ThemeContext);
   const textColor = theme === 'white' ? 'black' : 'white';
+
   return (
     <button
       style={{
@@ -67,6 +70,7 @@ function Button(props) {
 function Container() {
   const theme = useContext(ThemeContext);
   const textColor = theme === 'white' ? 'black' : 'white';
+
   return (
     <div
       style={{
@@ -83,34 +87,26 @@ function Container() {
 }
 ```
 
-The `useContext()` hook was used to apply a `ThemeContext` to the `<Container>` component in order to switch the colors of the text and background (between `'black'` and `'white'`).
+The `useContext()` hook was used to apply a `ThemeContext` to the `<Container>` component to switch the colors of the text and background between `'black'` and `'white'`.
+
+The context is then passed to other components by wrapping them in a context provider component. Inside the component, a `value` prop has to be created and assigned a value (in this case the `theme` state):
 
 ```jsx
-import React, { createContext, useContext, useState } from 'react';
-
-const ThemeContext = createContext();
+<ThemeContext.Provider value={theme}>
+  {/*
+    Child compoments that subscribe to the context
+    through the context provider.
+  */}
+</ThemeContext.Provider>
 ```
 
-The `Context` is then passed to other `components` by wrapping them in a `Context Provider` component. Inside the component, a `value` prop has to be created and assigned a value (in this case the `theme` state).
-
-```jsx
-function App() {
-  const [theme, setTheme] = useState('white');
-  return (
-    <ThemeContext.Provider value={theme}>
-      <Container />
-      <Button setTheme={setTheme} />
-    </ThemeContext.Provider>
-  );
-}
-```
-
-If other components should use the `theme` state, it is necessary to use the `useContext` hook.
+If other components should use the `theme` state, it is necessary to use the `useContext` hook:
 
 ```jsx
 function Container() {
   const theme = useContext(ThemeContext);
   const textColor = theme === 'white' ? 'black' : 'white';
+
   return (
     <div style={{ background: theme, color: textColor }}>
       <h2>I will change my color!</h2>
@@ -120,12 +116,13 @@ function Container() {
 }
 ```
 
-How is the `theme` state changed? The `setter` function is passed to the `Button` component as a prop, which uses it as an `onClick` event. In this example, the theme is changed to `black` if the theme is `white` and vice versa.
+The `theme` state is changed through the `setter` function that is passed to the `Button` component as a prop. The component uses it in the `onClick` event. In this example, the theme is changed to black if the theme is white and vice versa.
 
 ```jsx
 function Button(props) {
   const theme = useContext(ThemeContext);
   const textColor = theme === 'white' ? 'black' : 'white';
+
   return (
     <button
       style={{
@@ -170,7 +167,7 @@ export function App() {
 }
 ```
 
-Now, other files can import the `NotificationContext`, along with the exported `Provider`, to be applied to their own components:
+Now, other files can import the `NotificationContext`, along with the exported `Provider`, to be applied to their components:
 
 ```jsx
 // Display.js
