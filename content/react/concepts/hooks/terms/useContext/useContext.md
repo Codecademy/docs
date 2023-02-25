@@ -27,7 +27,18 @@ Additionally, `useContext` needs to be imported from `react` at the top of the f
 
 ## Example
 
-The following example shows how a background theme could be passed down to all child components via the `useContext()` hook:
+Context is passed to other components by wrapping them in a context provider component. Inside the component, a `value` prop has to be created and assigned a value:
+
+```jsx
+<MyContext.Provider value={theme}>
+  {/*
+    Child compoments that subscribe to the context
+    through the context provider.
+  */}
+</MyContext.Provider>
+```
+
+The following example shows how a background theme could be passed down to all child components via the `useContext()` hook. The `value` prop in this case is the `theme` state:
 
 ```jsx
 // App.js
@@ -87,59 +98,9 @@ function Container() {
 }
 ```
 
-The `useContext()` hook was used to apply a `ThemeContext` to the `<Container>` component to switch the colors of the text and background between `'black'` and `'white'`.
+The `useContext()` hook was used to apply a `ThemeContext` to the `<Container>` component to switch the colors of the text and background between black and white.
 
-The context is then passed to other components by wrapping them in a context provider component. Inside the component, a `value` prop has to be created and assigned a value (in this case the `theme` state):
-
-```jsx
-<ThemeContext.Provider value={theme}>
-  {/*
-    Child compoments that subscribe to the context
-    through the context provider.
-  */}
-</ThemeContext.Provider>
-```
-
-If other components should use the `theme` state, it is necessary to use the `useContext` hook:
-
-```jsx
-function Container() {
-  const theme = useContext(ThemeContext);
-  const textColor = theme === 'white' ? 'black' : 'white';
-
-  return (
-    <div style={{ background: theme, color: textColor }}>
-      <h2>I will change my color!</h2>
-      <h6>So will the background!</h6>
-    </div>
-  );
-}
-```
-
-The `theme` state is changed through the `setter` function that is passed to the `Button` component as a prop. The component uses it in the `onClick` event. In this example, the theme is changed to black if the theme is white and vice versa.
-
-```jsx
-function Button(props) {
-  const theme = useContext(ThemeContext);
-  const textColor = theme === 'white' ? 'black' : 'white';
-
-  return (
-    <button
-      style={{
-        background: theme,
-        color: textColor,
-        border: `1px solid ${textColor}`,
-        borderRadius: 6,
-      }}
-      onClick={() => {
-        theme === 'white' ? props.setTheme('black') : props.setTheme('white');
-      }}
-    >
-      Click me to change the color
-    </button>
-  );
-}
-```
+The `theme` state is changed through the `setter` function that is passed to the `Button` component as a prop. The component uses it in the `onClick` event. In the example above, the theme is changed to black if the theme is white and vice versa.
 
 ## Context From Other Files
 
