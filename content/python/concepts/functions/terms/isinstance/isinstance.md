@@ -1,6 +1,6 @@
 ---
 Title: 'isinstance()'
-Description: 'Returns `True` if object is the specified type. Otherwise function will return `False`.'
+Description: 'Returns True if the given object is the specified type. Otherwise the function will return False.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
