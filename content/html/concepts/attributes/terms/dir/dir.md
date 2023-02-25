@@ -39,6 +39,7 @@ The following example sets the `dir` attribute on a [`<p>` element](https://www.
 ```html
 <p dir="rtl">This paragraph is in English but incorrectly goes right to left.</p>
 ```
+
 This results in the following output:
 
 ![Incorrect use of dir attribute](/media/html-dir-incorrect.png "incorrect use of dir attribute")
@@ -52,6 +53,7 @@ The following example sets the `dir` attribute on a `<p>` element to `ltr`:
 ```html
 <p dir="ltr">This paragraph is in English and correctly goes left to right.</p>
 ```
+
 This results in the following output:
 
 ![Correct use of dir attribute](/media/html-dir-correct.png "Correct use of dir attribute")
