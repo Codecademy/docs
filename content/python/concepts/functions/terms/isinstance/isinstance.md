@@ -3,7 +3,7 @@ Title: 'isinstance()'
 Description: 'Returns `True` if object is the specified type. Otherwise function will return `False`.'
 Subjects:
   - 'Data Science'
-  - 'Data Visualization'
+  - 'Computer Science'
   - 'Machine Learning'
   - 'Web Development'
 Tags:
