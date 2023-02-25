@@ -42,7 +42,7 @@ var body: some View {
 
 In the above example, we have a Text view that displays the text `"This view has a blue border."` with some padding. The `.border()` modifier is then applied to the Text view, which adds a border around the view.
 
-In our example, a blue border is specified with a width of 4 points. However, you can customize these values as needed to achieve the desired look for your app.
+In our example, a blue border is specified with a width of 4 points. However, these values can be customized as needed to achieve the desired look for an app.
 
 This will display:
 
