@@ -1,6 +1,6 @@
 ---
 Title: '.Ceiling()'
-Description: 'Returns the smallest integer which is greater or equal to a given number.'
+Description: 'Returns the smallest integer which is greater than or equal to a given number.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
