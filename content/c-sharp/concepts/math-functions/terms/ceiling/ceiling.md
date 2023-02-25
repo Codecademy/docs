@@ -8,7 +8,7 @@ Tags:
   - 'Libraries'
   - 'Arithmetic'
   - 'Functions'
-Catalog Content:
+CatalogContent:
   - 'learn-c-sharp'
   - 'paths/computer-science'
 ---
