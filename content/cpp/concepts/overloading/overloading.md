@@ -8,6 +8,7 @@ Tags:
   - 'Operators'
   - 'Binary'
   - 'Logical'
+  - 'Functions'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
