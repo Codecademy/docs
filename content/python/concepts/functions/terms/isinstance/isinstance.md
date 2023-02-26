@@ -10,7 +10,6 @@ Tags:
   - 'AI'
   - 'Algorithms'
   - 'Booleans'
-  - 'Classes'
   - 'Data Types'
   - 'Development'
   - 'Objects'
