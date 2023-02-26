@@ -1,7 +1,7 @@
 ---
-Title: 'Classes'
+Title: 'class'
 
-Description: 'Classes are HTML attributes used to select one or more elements for the application of styling or logic.'
+Description: 'class is a HTML attribute used to select one or more elements for the application of styling or logic.'
 
 Subjects:
   - 'Web Development'
@@ -11,8 +11,12 @@ Tags:
   - 'Attributes'
   - 'Classes'
   - 'Style'
+  
+Catalog content:
+  - 'learn html'
+  - 'paths/front-end-engineer-career-path'
 
-Classes are HTML attributes used to select one or more elements for CSS styling or JavaScript purposes.
++**`class`** is a HTML attribute used to select one or more elements for CSS styling or JavaScript purposes.
 
 ## For Styling
 
@@ -27,7 +31,7 @@ Inside the stylesheet, a class name is selected with the following syntax:
 
 A class selector is a name preceded by a period (`.`).
 
-Below is some markup with a `title`, containing a `header-1` and `P1` and  `P2`. The styling for the `header-1 `, elements with the `P1` and `P1`class name received different styling.
+Below is some markup with the classes `header-1` and `P1` and  `P2`. Elements with the `header-1`, `P1` and `P2` class names receive different styling.
 
 ```html
 <!DOCTYPE html>
@@ -69,7 +73,7 @@ Below is some markup with a `title`, containing a `header-1` and `P1` and  `P2`.
 
 ## For JavaScript
 
-The `class` attribute is used to perform JavaScript operations on HTML elements. Through the Document Object Model ("DOM"), there are various JavaScript methods built for selecting elements via their class.
+The `class` attribute is used to perform JavaScript operations on HTML elements. Through the Document Object Model ("DOM") there are various JavaScript methods built for selecting elements via their class.
 
 Assuming the markup from the last example is linked to a JavaScript file:
 
@@ -81,6 +85,4 @@ const innerDiv = document
 
 ```
 
-The code above is getting an element with a class property and prints it to the console
-
-recreated on 02/24/2023 again
+The code above gets an element with a class property and prints it to the console.
