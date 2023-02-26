@@ -69,26 +69,27 @@ The product of 80.2 and 90.99 is: 7297.4
 
 Operator overloading redefines built-in operators for user-defined classes. When an overloaded operator is called, the compiler determines which definition to use based on the arguments provided. The following operators can be overloaded:
 
-| Category | Operators | Names |
-| ---| --- | --- |
-| Arithmetic | `+`, `-`, `*`, `/`, `%`, `++`, `—-` | add/positive, subtract/negative, multiply, divide, modulo, increment, decrement |
-| Assignment | `=`, `+=`,`*=`, `/=`,`-=`, `%=`, `&=`, `^=`, `&#124;=`, `<<=`, `>>=` | assign, add & assign, multiply & assign, divide & assign, subtract & assign, modulo & assign, bitwise AND & assign, bitwise exclusive OR & assign, bitwise inclusive OR & assign, shift bits left & assign, shift bits right & assign |
-| Bitwise | `&`, `&#124;`, `^`, `~`, `<<`, `>>` | bitwise AND, bitwise inclusive OR, bitwise exclusive OR, bit inversion, shift bits left, shift bits right |
-| Logical | `&&`, `&#124;&#124;`, `!` | logical AND, logical OR, logical NOT |
-| Relational | `==`, `!=`, `>`, `<`, `>=`, `<=`| equal to, not equal to, greater than, less than, greater than or equal to, less than or equal to |
-| Member Access | `->`, `->*` | member of pointer, pointer to member of pointer
-| Allocation/Deallocation | `new`, `new[]`, `delete`, `delete[]` | new, new & allocate, delete, delete & allocate
-| Other | `,`, `()`, `[]` | comma, function call, subscript/array index |
+| Category                | Operators                                                            | Names                                                                                                                                                                                                                                 |
+| ----------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Arithmetic              | `+`, `-`, `*`, `/`, `%`, `++`, `—-`                                  | add/positive, subtract/negative, multiply, divide, modulo, increment, decrement                                                                                                                                                       |
+| Assignment              | `=`, `+=`,`*=`, `/=`,`-=`, `%=`, `&=`, `^=`, `&#124;=`, `<<=`, `>>=` | assign, add & assign, multiply & assign, divide & assign, subtract & assign, modulo & assign, bitwise AND & assign, bitwise exclusive OR & assign, bitwise inclusive OR & assign, shift bits left & assign, shift bits right & assign |
+| Bitwise                 | `&`, `&#124;`, `^`, `~`, `<<`, `>>`                                  | bitwise AND, bitwise inclusive OR, bitwise exclusive OR, bit inversion, shift bits left, shift bits right                                                                                                                             |
+| Logical                 | `&&`, `&#124;&#124;`, `!`                                            | logical AND, logical OR, logical NOT                                                                                                                                                                                                  |
+| Relational              | `==`, `!=`, `>`, `<`, `>=`, `<=`                                     | equal to, not equal to, greater than, less than, greater than or equal to, less than or equal to                                                                                                                                      |
+| Member Access           | `->`, `->*`                                                          | member of pointer, pointer to member of pointer                                                                                                                                                                                       |
+| Allocation/Deallocation | `new`, `new[]`, `delete`, `delete[]`                                 | new, new & allocate, delete, delete & allocate                                                                                                                                                                                        |
+| Other                   | `,`, `()`, `[]`                                                      | comma, function call, subscript/array index                                                                                                                                                                                           |
 
 The operators below cannot be overloaded:
 
-| Category | Operators | Names |
-| --- | --- | --- |
-| Conditional (or Ternary)  | `?` | conditional |
-| Scope | `::` | scope access |
-| Member Access | `.`, `.*` | member of object, pointer to member of object |
+| Category                 | Operators | Names                                         |
+| ------------------------ | --------- | --------------------------------------------- |
+| Conditional (or Ternary) | `?`       | conditional                                   |
+| Scope                    | `::`      | scope access                                  |
+| Member Access            | `.`, `.*` | member of object, pointer to member of object |
 
 ### Syntax
+
 ```pseudo
 class className {
   public:
@@ -135,7 +136,7 @@ class Pyramid {
       pyramid.height = this->height + p.height;
       return pyramid;
     }
-    
+
   private:
     double base;
     double height;
