@@ -36,7 +36,7 @@ functionName(parameters2);
 
 ### Example
 
-The following example overloads the `mulitiply` function:
+The following example overloads the `multiply()` function:
 
 ```cpp
 #include <iostream>
