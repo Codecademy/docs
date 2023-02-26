@@ -119,16 +119,16 @@ The operators below cannot be overloaded:
 - ?
 
 ### Syntax
-
-The `operator` keyword is used with the following syntax to overload operators:
-
 ```pseudo
 class className {
   public:
     returnType operator symbol (arguments) {
+      // code goes here
     }
 };
 ```
+
+The `operator` keyword is used along with the following:
 
 - `className`: name of the class
 - `returnType`: return type of the function
@@ -143,34 +143,35 @@ The following codebyte example overloads the plus (`+`) operator within the `Pyr
 #include <iostream>
 using namespace std;
 
-class Pyramid{
+class Pyramid {
   public:
   // Defining getters and setters
-    double getVolume(void){
+    double getVolume(void) {
       return (base*height)/3;
     }
 
-    void setBase(double b){
+    void setBase(double b) {
       base = b;
     }
 
-    void setHeight(double h){
+    void setHeight(double h) {
       height = h;
     }
 
     // Overload + operator
-    Pyramid operator+(const Pyramid& p){
+    Pyramid operator + (const Pyramid& p) {
       Pyramid pyramid;
       pyramid.base = this->base + p.base;
       pyramid.height = this->height + p.height;
       return pyramid;
     }
+    
   private:
     double base;
     double height;
 };
 
-int main(){
+int main() {
   // Declare pyramids and volume variables
   Pyramid pyramid1;
   Pyramid pyramid2;
