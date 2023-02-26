@@ -74,7 +74,7 @@ The left image shows the red circle without the `.resizable()` modifier not fill
 
 ## Example (With Parameters)
 
-The following example sets the `capInsets: EdgeInsets()` for `top`, `leading`, `bottom`, and `trailing` edges to `20`. Next, the image is tiled within the parent container by setting the `resizingMode: .tile`. This tiles many red circles within the `300x300` parent container and sets the space between the circles to `20`, making them closer together. The circles would be further apart if a lower value of `10` is used. If `50` is used, the circles would push together, forming a giant red square.
+The following example sets the `capInsets: EdgeInsets()` for `top`, `leading`, `bottom`, and `trailing` edges to `20`. Next, the image is tiled within the parent container by setting the `resizingMode: .tile`. This tiles many red circles within the `300` x by `300` `pt` (points) parent container and sets the space between the circles to 20, making them closer together. The circles would be further apart if a lower value of 10 is used. If 50 is used, the circles would push together, forming a giant red square.
 
 ```swift
 import SwiftUI
@@ -99,6 +99,6 @@ This will display the following:
 
 ![SwiftUI ViewModifier .resizable() Tiling of 20](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-resizable-tile.png)
 
-Changing the `EdgeInsets` values to `50` will result in the following:
+Changing the `EdgeInsets` values to 50 will result in the following:
 
 ![SwiftUI ViewModifier .resizable() Tiling of 50](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-resizable-tile-50.png)
