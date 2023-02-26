@@ -25,8 +25,8 @@ Text("Some text")
 The `.tracking()` modifier method takes one parameter, `x`, entered as an integer to define the space to be added to or deducted from each character's default spacing in `pt` (points). The value of `x` can create the following trackings:
 
 - `0` or not specifying a value results in the system's default spacing of each character,
-- a positive value applies additional spacing,
-- whereas a negative value creates decreased spacing.
+- A positive value applies additional spacing,
+- A negative value decreases spacing.
 
 > **Note:** `.tracking()` is not the same as `.kerning()`. Although both the `.tracking()` and `.kerning()` modifier methods adjust the spacing of the characters, they behave differently. `.tracking()` will pull apart the ligatures and does not leave trailing whitespace, while `.kerning()` will maintain ligatures and leaves some trailing whitespace.
 
