@@ -1,6 +1,6 @@
 ---
 Title: 'issubclass()'
-Description: 'Returns True <span style="color:red">if</span> a given [class](https://www.codecademy.com/resources/docs/python/classes) is a subclass of one <span style="color:red">or</span> more classes.'
+Description: 'Returns True if a given class is a subclass of one or more classes.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -11,7 +11,6 @@ CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
-The **`issubclass()` function returns `True` based on whether a given [class](https://www.codecademy.com/resources/docs/python/classes) is a subclass of one or more classes.
 
 The **`issubclass()` function returns `True` based on whether a given [class](https://www.codecademy.com/resources/docs/python/classes) is a subclass of one or more classes.
 
@@ -22,8 +21,9 @@ issubclass(class, candidateClasses)
 ```
 
 `issubclass()` take two parameters:
-- `class` - a validly defined class
-- `candidateClasses` - a single class or type, or a [tuple](https://www.codecademy.com/resources/docs/python/tuples) of classes and types
+
+- `class` - A validly defined class.
+- `candidateClasses` - A single class or type, or a [tuple](https://www.codecademy.com/resources/docs/python/tuples) of classes and types.
 
 if any relationship exists, `True` is returned, otherwise `False`.
 
