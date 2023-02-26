@@ -32,7 +32,7 @@ class Join {
     String element1 = "Hello";
     String element2 = "World";
 
-    String message = String.join(" ", element1, element2)
+    String message = String.join(" ", element1, element2);
     System.out.println(message);
   }
 }
@@ -52,7 +52,7 @@ Use `.join()` to join the name of your friends to a single string, each name sep
 class JoinPipe {
   public static void main(String[] args) {
     String names = String.join(" | ", "Carl", "Jonas", "Emily", "Daniel", "Nina");
-    System.out.println(names)
+    System.out.println(names);
   }
 }
 ```
