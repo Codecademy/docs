@@ -29,7 +29,6 @@ Since a function can be overloaded multiple times, the syntax can look different
 ```pseudo
 functionName(parameters1);
 functionName(parameters2);
-...
 ```
 
 - `funtionName`: name of the function that is the same for each definition.
