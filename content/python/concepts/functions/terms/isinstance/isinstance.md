@@ -42,7 +42,8 @@ check_if_string(var1)
 check_if_string(var2)
 ```
 
-# This example results in the following output:
+This example results in the following output:
+
 ```py
 True
 False
