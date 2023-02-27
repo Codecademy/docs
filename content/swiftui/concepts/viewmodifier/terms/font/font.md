@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.font()`** modifier applies a specified font to text in a [`View`](https://www.codecademy.com/resources/docs/swiftui/views).
+The **`.font()`** modifier applies a specified font to text in a [view](https://www.codecademy.com/resources/docs/swiftui/views).
 
 ## Syntax
 
@@ -25,7 +25,7 @@ struct MyView: View {
 }
 ```
 
-Inside `some View`, the `.fontName` font passed as an argument to the `.font()` modifier is applied to all text within the [`Text` view](https://www.codecademy.com/resources/docs/swiftui/views/text). There are a selection of standard fonts available. It's also possible to create system fonts and add in custom fonts.
+Inside `some View`, the `.fontName` font passed as an argument to the `.font()` modifier is applied to all text within the [text view](https://www.codecademy.com/resources/docs/swiftui/views/text). There are a selection of standard fonts available. It's also possible to create system fonts and add in custom fonts.
 
 Here are some standard fonts:
 
@@ -67,7 +67,7 @@ struct FontView: View {
 }
 ```
 
-In the above example, various standard fonts are applied to the first six `Text` views. The last two `Text` views have created system fonts applied to them.
+In the above example, various standard fonts are applied to the first six text views. The last two text views have created system fonts applied to them.
 
 This will display:
 
