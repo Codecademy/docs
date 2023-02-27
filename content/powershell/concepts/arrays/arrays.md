@@ -47,13 +47,13 @@ $colors = "red", "yellow", "black", "blue"
 ```
 
 The indexes in PowerShell starts at `0`.
-```pseudo
-      +---------------------------------+
-Value | "red"  "yellow"  "black" "blue" |
-      +---------------------------------+
-Index |   0       1         2       3   |
-      +---------------------------------+
-```
+
+|   Index   |       Value      |
+| :-------: | :--------------: |
+|    `0`    |    `"red"`       |
+|    `1`    |    `"yellow"`    |
+|    `2`    |    `"black"`     |
+|    `3`    |    `"blue"`      |
 
 Brackets `[ ]` are used to access an item in array. To access `"black"` in the `colors` array, for example:
 

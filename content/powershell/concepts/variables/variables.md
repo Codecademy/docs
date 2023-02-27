@@ -34,7 +34,7 @@ To create a variable, a variable reference is followed by an equal sign `=` and 
 $my_string_variable = "Hello, World!"
 ```
 
-Variables names are NOT case-sensitive and can include spaces and special characters. The convention is to use only alphanumeric characters and the underscore `_` character.
+Variables names are *not* case-sensitive and can include spaces and special characters. The convention is to use only alphanumeric characters and the underscore `_` character.
 
 ## Variable Types
 
