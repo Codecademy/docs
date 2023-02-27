@@ -51,7 +51,7 @@ This method has two main applications:
 
 In this example the number of instances of Test is limited to ‘MaxNumberOfInstances’:
 
-```codebyte/python
+```py
 class Test(object):
     numberOfInstances = 0
     MaxNumberOfInstances = 4
