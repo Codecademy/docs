@@ -81,4 +81,3 @@ class MyInt(int):
 int1 = MyInt(2, 4)
 print(int1, int1.bitLength)
 ```
-[Official Python documentation](https://docs.python.org/3/reference/datamodel.html#object.__new__)
