@@ -1,5 +1,5 @@
 ---
-Title: '.charAt()'
+Title: '.join()'
 Description: 'Returns the character at the given index in the string.'
 Subjects:
   - 'Computer Science'
