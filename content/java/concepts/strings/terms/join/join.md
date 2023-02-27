@@ -1,6 +1,6 @@
 ---
 Title: '.join()'
-Description: 'Returns the character at the given index in the string.'
+Description: 'Returns a new string composed of the elements joined together with the specified delimiter.'
 Subjects:
   - 'Computer Science'
 Tags:
