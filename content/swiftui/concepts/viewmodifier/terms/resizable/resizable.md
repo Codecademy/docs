@@ -21,10 +21,7 @@ Image("image-file")
     .resizable()
 ```
 
-The `.resizable()` modifier is applied to the [`Image`](https://www.codecademy.com/resources/docs/swiftui/views/image) view, which makes the image resize itself to fit its space.
-
-
-The `.resizable()` modifier accepts two optional parameters:
+The `.resizable()` modifier is applied to the [`Image`](https://www.codecademy.com/resources/docs/swiftui/views/image) view, which makes the image resize itself to fit its space. Additionally, the `.resizable()` modifier accepts two optional parameters:
 
 - `capInsets: EdgeInsets = EdgeInsets()` parameter sets the parts of the image that should not be affected by the resizing or, while tiling, it affects the spacing between each tile. The `EdgeInsets()` parameter also takes parameters as sides and spacing (e.g., `top: 20`).
 - `resizable(resizingMode: Image.ResizingMode = .stretch)`, where `.stretch` sets the resizing mode to stretch the image (the default mode) or `.tile` repeats the image to fill the available space.
