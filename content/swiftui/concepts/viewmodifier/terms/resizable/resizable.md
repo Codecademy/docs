@@ -23,7 +23,6 @@ Image("image-file")
 
 The `.resizable()` modifier is applied to the [`Image`](https://www.codecademy.com/resources/docs/swiftui/views/image) view, which makes the image resize itself to fit its space.
 
-### Optional Parameters
 
 The `.resizable()` modifier accepts two optional parameters:
 
