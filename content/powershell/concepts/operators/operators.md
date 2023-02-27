@@ -15,7 +15,8 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-*Operators* are used to perform specific mathematical or logical functions on data, often stored in variables. PowerShell offers multiple types of operators to manipulate data including:
+**Operators** are used to perform specific mathematical or logical functions on data, often stored in variables. PowerShell offers multiple types of operators to manipulate data including:
+
 - Arithmetic Operators
 - Assignment Operators
 - Unary Operators
@@ -23,7 +24,9 @@ CatalogContent:
 - Logical Operators
 
 ## Arithmetic Operators
+
 PowerShell has the following arithmetic operators which are used to calculate numeric values. Arithmetic operators include:
+
 | Operator |      Name      | Description                                                                                 |
 | :------: | :------------: | --------------------------------------------------------------------------------------------|
 |   `+`    |    Addition    | Adds numbers, concatenates strings and arrays                                               |
@@ -43,6 +46,7 @@ $x = $x % 2 # x is now 1
 ```
 
 Arithmetic operators, `+` and `*`, also work on strings and arrays.
+
 ```PowerShell
 PS > $best_learning_platform = "code" + "cademy"
 PS > $best_learning_platform + "!" * 3
@@ -70,7 +74,9 @@ PS > $fibonacci_2 * 2
 ```
 
 ## Assignment Operators
+
 Assignment operators can be used to assign, change, or append values to variables. These operators are a shorter syntax for assigning the result of an arithmetic operator. The general syntax of the assignment operators is: `<Variable> <Assignment Operator> <Value>`.
+
 
 | Operator |                Name                | Description                                 |
 | :------: | :--------------------------------: | ------------------------------------------- |
@@ -82,6 +88,7 @@ Assignment operators can be used to assign, change, or append values to variable
 |   `%=`   |     Modulo Compound Assignment     | `$x %= 3` is short for `$x = $x % 3`.       |
 
 ## Unary Operators
+
 Unary operators increase or decrease the value of a variable by 1.
 
 | Operator |      Name      | Description                                                   |
@@ -90,6 +97,7 @@ Unary operators increase or decrease the value of a variable by 1.
 |   `--`   |   Decrement    | `$x--` returns `$x - 1`                                       |
 
 ## Equality Comparison Operators
+
 Equality operators in PowerShell are binary operators that compare two integer or string values that return `True` if the operator condition is met, otherwise `False`.
 
 | Operator |           Name           | Description                                                   |
@@ -102,6 +110,7 @@ Equality operators in PowerShell are binary operators that compare two integer o
 |   `-le`  | Greater Than or Equal to | `$x -le $y` is `true` if `x` is greater than or equal to `y`. |
 
 ## Logical Operators
+
 Logical operators allow us to combine multiple operator expressions and statements into complex conditionals. They operate on boolean values and return boolean values.
 
 | Operator            | Name  | Description                                                           |
@@ -112,7 +121,9 @@ Logical operators allow us to combine multiple operator expressions and statemen
 |   `!` or `-not`     | Not   | `!$x` is `True` when `$x` is `False` and `False` when `$x` is `True`. |
 
 ## Operator Precedence
+
 Precedence order is the order in which PowerShell evaluates the operators if multiple operators are used in the same expression. Operator precedence in PowerShell is as follows:
+
 - Parentheses: `( )`
 - Unary operators: `++`, `--`
 - `!`, `not`
