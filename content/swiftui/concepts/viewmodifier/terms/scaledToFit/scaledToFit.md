@@ -21,7 +21,7 @@ Image("image-file")
     .scaledToFit()
 ```
 
-The `.scaledToFit()` modifier takes no parameters and returns the `View` scaled with the original aspect ratio.
+The `.scaledToFit()` modifier takes no parameters and returns the view scaled with the original aspect ratio.
 
 ## Example
 
