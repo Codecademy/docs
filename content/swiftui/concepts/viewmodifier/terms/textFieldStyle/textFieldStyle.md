@@ -26,7 +26,7 @@ The `style` passed as an argument to `.textFieldStyle()` is applied to the `Text
 
 > **Note:** If `.textFieldStyle()` is called on a [view](https://www.codecademy.com/resources/docs/swiftui/views), the specified style will be applied to every text field within that view, unless it has its own `.textFieldStyle()`.
 
-Here are some of the available built-in `TextField` styles:
+Here are some of the available built-in text field styles:
 
 - `.automatic` applies the default style to a text field.
 - `.plain` does not apply any styles to a text field.
