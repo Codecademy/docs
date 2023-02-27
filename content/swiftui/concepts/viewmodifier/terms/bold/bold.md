@@ -25,7 +25,7 @@ The `.bold()` modifier takes no parameters and returns the `Text` view with bold
 
 ## Example
 
-The following example creates bold text:
+The following example creates bolded text:
 
 ```swift
 import SwiftUI
