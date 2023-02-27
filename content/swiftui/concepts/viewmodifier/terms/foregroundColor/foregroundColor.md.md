@@ -5,10 +5,9 @@ Subjects:
   - 'Mobile Development'
   - 'iOS'
 Tags:
-  - 'Modifier'
   - 'SwiftUI'
   - 'SwiftUI ViewModifiers'
-  - 'View'
+  - 'Xcode'
 CatalogContent:
   - 'learn-swift'
   - 'paths/build-ios-apps-with-swiftui'
