@@ -1,6 +1,6 @@
 ---
 Title: '.textFieldStyle()'
-Description: 'Applies a specified style to a TextField.'
+Description: 'Applies a specified style to a text field.'
 Subjects:
   - 'Mobile Development'
   - 'iOS'
