@@ -33,8 +33,8 @@ functionName(parameters2);
 
 More declarations can be added as needed and a declaration has the following parts:
 
-- `funtionName`: name of the function that is the same for each definition.
-- `parameters1` and `parameters2`: parameters for each definition, these must be different for each definition.
+- `functionName`: The name of the function that is the same for each definition.
+- `parameters1` and `parameters2`: Parameters for each definition, these must be different for each definition.
 
 ### Example
 
@@ -44,15 +44,15 @@ The following example overloads the `multiply()` function:
 #include <iostream>
 using namespace std;
 
-void multiply(int x, int y){
+void multiply(int x, int y) {
   cout << "The product of " << x << " and " << y << " is: " << (x*y) << endl;
 }
 
-void multiply(double x, double y){
+void multiply(double x, double y) {
   cout << "The product of " << x << " and " << y << " is: " << (x*y) << endl;
 }
 
-int main(){
+int main() {
   multiply(20,10);
   multiply(80.2, 90.99);
 }
@@ -101,10 +101,10 @@ class className {
 
 The `operator` keyword is used along with the following:
 
-- `className`: name of the class
-- `returnType`: return type of the function
-- `symbol`: operator is which to overload
-- `arguments`: arguments to pass in
+- `className`: Name of the class.
+- `returnType`: Return type of the function.
+- `symbol`: Operator in which to overload.
+- `arguments`: Arguments to pass in.
 
 ### Codebyte Example
 
