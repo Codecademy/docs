@@ -1,1 +1,1 @@
-content/general/concepts/boolean/boolean.md
+content/sql/concepts/dates/dates.md

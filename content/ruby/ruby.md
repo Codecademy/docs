@@ -7,4 +7,4 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-[**Ruby**](https://www.ruby-lang.org/en/) is a dynamic, general-purpose programming language most commonly used for web development. Its key designer, Yukihiro Matsumoto, said that Ruby was designed for humans, not machines, making it a favorite of many developers and tech companies. Its most popular implementation is with the powerful [Ruby on Rails](https://www.codecademy.com/resources/docs/ruby/ruby-on-rails) web [framework](https://www.codecademy.com/resources/docs/general/framework).
+[**Ruby**](https://www.ruby-lang.org/en/) is a dynamic, general-purpose programming language most commonly used for web development. Its key designer, [Yukihiro Matsumoto](https://www.codecademy.com/resources/docs/general/historical-technical-figures/yukihiro-matsumoto), said that Ruby was designed for humans, not machines, making it a favorite of many developers and tech companies. Its most popular implementation is with the powerful [Ruby on Rails](https://www.codecademy.com/resources/docs/ruby/ruby-on-rails) web [framework](https://www.codecademy.com/resources/docs/general/framework).
