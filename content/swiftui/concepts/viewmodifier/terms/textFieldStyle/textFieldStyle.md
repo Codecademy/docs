@@ -18,8 +18,8 @@ The **`.textFieldStyle()`** modifier applies a specified style to a [text field]
 ## Syntax
 
 ```pseudo
-        TextField("label", text: $bindingValue)
-            .textFieldStyle(style)
+TextField("label", text: $bindingValue)
+    .textFieldStyle(style)
 ```
 
 The style passed as an argument to `.textFieldStyle()` is applied to the `TextField`. Built-in styles are available in Swift UI and it's also possible to create custom styles.
