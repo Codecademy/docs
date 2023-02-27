@@ -6,7 +6,7 @@ Subjects:
   - 'iOS'
 Tags:
   - 'SwiftUI'
-  - 'SwiftUI Modifiers'
+  - 'SwiftUI ViewModifiers'
   - 'Xcode'
 CatalogContent:
   - 'learn-swift'
@@ -39,4 +39,4 @@ In the above example, the `foregroundColor()` modifier with the `.green` paramet
 
 This will display the following:
 
-![image](/Volumes/LaCie/Git-Practice/docs/media/SwiftUI-foregroundColor-display.png)
+![SwiftUI ViewModifier .foregroundColor()](https://raw.githubusercontent.com/Codecademy/docs/main/media/SwiftUI-foregroundColor-display.png)
