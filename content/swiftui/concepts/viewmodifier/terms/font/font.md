@@ -1,6 +1,6 @@
 ---
 Title: '.font()'
-Description: 'Applies a specified font to text in a View.'
+Description: 'Applies a specified font to text in a view.'
 Subjects:
   - 'Mobile Development'
   - 'iOS'
