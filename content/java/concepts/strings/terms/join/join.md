@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Returns a new string composed of the elements joined together with the specified delimiter.
+The **`.join()`** method returns a new string composed of the elements joined together with the specified delimiter.
 
 ## Syntax
 
