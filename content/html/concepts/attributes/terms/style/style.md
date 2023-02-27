@@ -1,6 +1,6 @@
 ---
-Title: 'Style'
-Description: 'Specifies how a page will be rendered in a web browser.'
+Title: 'style'
+Description: 'Specifies how an element will be rendered in a web browser.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -30,7 +30,7 @@ Like all global attributes, the `style` attribute supports all HTML tags and can
 
 ## Example
 
-In the example below, the `<p>` element is given a `style` attribute to specify its color, the text alignment, and the font size:
+In the example below, the [`<p>`](https://www.codecademy.com/resources/docs/html/elements/p) element is given a `style` attribute to specify its color, text alignment, and font size:
 
 ```html
 <p style="color:green; font-size:12px; text-align:center;">
