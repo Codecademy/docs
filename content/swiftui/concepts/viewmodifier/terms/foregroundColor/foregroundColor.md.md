@@ -20,7 +20,6 @@ The **`.foregroundColor()`** modifier sets the foreground color displayed in a [
 ```pseudo
 Text("We are setting the foreground color to green!")
     .foregroundColor(color)
-}
 ```
 
 The `.foregroundColor()` applies the `color` to the `Text` which conforms to the `View` protocol.
