@@ -49,6 +49,7 @@ True
 False
 ```
 
-In the above example there are: two different variables that have been defined, a simple function named `check_if_string`, and two instantiations of that function. Inside the function is a conditional `if` statement that checks whether the contents of the parameter `value` (that is passed into the function) is a string using the `isinstance()` function.
+The example below demonstrates the use of the `isinstance()` method to test if multiple objects are of type `str`:
+
 
  
