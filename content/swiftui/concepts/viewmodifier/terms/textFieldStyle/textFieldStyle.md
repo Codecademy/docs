@@ -59,7 +59,7 @@ This will display:
 
 ![SwiftUI ViewModifier .textFieldStyle()](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-textFieldStyle-roundedBorder.png)
 
-The next example shows four `TextField`s with different styles applied to them:
+The next example shows four text fields with different styles applied to them:
 
 ```swift
 import SwiftUI
