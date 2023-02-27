@@ -13,20 +13,17 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.foregroundColor()`** modifier sets the foreground color displayed in a [View](https://www.codecademy.com/resources/docs/swiftui/views).
+The **`.foregroundColor()`** modifier sets the foreground color displayed in a [view](https://www.codecademy.com/resources/docs/swiftui/views).
 
 ## Syntax
 
 ```pseudo
-struct MyView: View {
-    var body: some View {
-        Text("We are setting the foreground color to green!")
-            .foregroundColor(.green)
-    }
+Text("We are setting the foreground color to green!")
+    .foregroundColor(color)
 }
 ```
 
-The `.foregroundColor(green)` is applying the color green to the `Text` (which conforms to the `View` protocol).
+The `.foregroundColor()` applies the `color` to the `Text` which conforms to the `View` protocol.
 
 ## Example
 
@@ -39,7 +36,7 @@ struct ContentView: View {
 }
 ```
 
-In the above example, the `foregroundColor(.green)` modifier is called on the `Text` view. This applies the color green to all characters within the `Text`.
+In the above example, the `foregroundColor()` modifier with the `.green` parameter is called on the `Text` view. This applies the color green to all characters.
 
 This will display the following:
 
