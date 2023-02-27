@@ -93,7 +93,7 @@ struct myView: View {
     }
 }
 
-// struct creating a custom textFieldStyle
+// Structure creating a custom textFieldStyle
 struct WhiteBorder: TextFieldStyle {
     func _body(configuration: TextField<Self._Label>) -> some View {
         configuration
