@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.bold()`** modifier method applies a bold style to text in a [`Text`](https://www.codecademy.com/resources/docs/swiftui/views/text) view.
+The **`.bold()`** modifier method applies a bold font weight to [text](https://www.codecademy.com/resources/docs/swiftui/views/text).
 
 ## Syntax
 
