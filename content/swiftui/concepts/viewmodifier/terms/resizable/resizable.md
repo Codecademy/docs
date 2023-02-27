@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.resizable()`** modifier method configures an image in a [`View`](https://www.codecademy.com/resources/docs/swiftui/views) to resize itself to fit the surrounding space of its parent container.
+The **`.resizable()`** modifier method configures an image in a [`View`](https://www.codecademy.com/resources/docs/swiftui/views), resizing itself to fit the surrounding space of its parent container.
 
 ## Syntax
 
