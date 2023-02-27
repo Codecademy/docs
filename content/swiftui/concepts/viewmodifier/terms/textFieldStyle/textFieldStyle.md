@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.textFieldStyle()`** modifier applies a specified style to a [`TextField`](https://www.codecademy.com/resources/docs/swiftui/views/textfield).
+The **`.textFieldStyle()`** modifier applies a specified style to a [text field](https://www.codecademy.com/resources/docs/swiftui/views/textfield).
 
 ## Syntax
 
