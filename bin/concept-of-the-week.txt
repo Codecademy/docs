@@ -1,1 +1,1 @@
-content/git/concepts/pull/pull.md
+content/sql/concepts/dates/dates.md
