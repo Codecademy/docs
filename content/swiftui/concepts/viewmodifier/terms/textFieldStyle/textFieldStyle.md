@@ -88,7 +88,7 @@ struct myView: View {
         }
         .padding()
         .background(.purple)
-        // ↓ custom textFieldStyle applied to the VStack view
+        // ↓ Custom textFieldStyle applied to the VStack view
         .textFieldStyle(WhiteBorder())
     }
 }
