@@ -106,7 +106,7 @@ struct WhiteBorder: TextFieldStyle {
 }
 ```
 
-The example above has some `TextField`s contained in a `VStack` with a purple background.
+The example above has some text fields contained in a `VStack` with a purple background.
 
 - The first `TextField` applies the built-in `.automatic` style, which applies the default style.
 - The second `TextField` applies the `.plain` style, which doesn't apply any decoration.
