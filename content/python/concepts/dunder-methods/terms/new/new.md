@@ -1,6 +1,6 @@
 ---
 Title: '__new__()'
-Description: 'Static method which creates a new instance of a class'
+Description: 'Static method which creates a new instance of a class.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`__new__()`** method creates a new instance of a class cls and takes in the class (of which the instance was requested) as the first argument.
+The **`__new__()`** method creates a new instance of a class `cls` and takes in the class (of which the instance was requested) as the first argument.
 
 ## Syntax
 
@@ -27,7 +27,7 @@ class ClassName:
     return obj
 ```
 
-Object creation is typically done by invoking the superclass’ `__new__()` in two ways. The first argument of `__new__()` is always the class which is passed in as the first parameter automatically. The name cls is not a keyword; it’s used to reference the class (the first parameter) by convention. When `__new__()` returns an instance of cls it automatically invokes the [`__init__()`](https://www.codecademy.com/resources/docs/python/dunder-methods/init) method of that instance with the arguments passed to it. The first argument passed to `__init__()` will be the instance itself (this happens automatically) which is by convention referenced by self.
+Object creation is typically done by invoking the superclass’ `__new__()` in two ways. The first argument of `__new__()` is always the class which is passed in as the first parameter automatically. The name `cls` is not a keyword; it’s used to reference the class (the first parameter) by convention. When `__new__()` returns an instance of `cls` it automatically invokes the [`__init__()`](https://www.codecademy.com/resources/docs/python/dunder-methods/init) method of that instance with the arguments passed to it. The first argument passed to `__init__()` will be the instance itself (this happens automatically) which is by convention referenced by `self`.
 
 In the example above no parent class was specified therefore the class will directly inherit from the object base class (from which all classes inherit). Therefore calling it explicitly using `object.__new__(cls)` will have the same effect.
 
@@ -39,13 +39,13 @@ def __init__(self, *args, **kwargs):
 
 class_instance = ClassName(1, 2)
 ```
-First `__new__()` is invoked during the construction of the object (instance of class ClassName) with the arguments 1 and 2 which are accepted within \*args. The object is created by calling the `__new__()` method of the object base class which only takes in the class cls. It then returns an object which is then stored in obj and returned. This invokes the `__init__()` method of the ClassName class with the arguments (obj, \*args, \*\*kwargs).
+
+First `__new__()` is invoked during the construction of the object (instance of class `ClassName`) with the arguments `1` and `2` which are accepted within `\*args`. The object is created by calling the `__new__()` method of the object base class which only takes in the class `cls`. It then returns an object which is then stored in `obj` and returned. This invokes the `__init__()` method of the `ClassName` class with the arguments `(obj, \*args, \*\*kwargs)`.
 
 This method has two main applications:
 
 - Customizing how new class instances are created.
-- Subclassing of immutable types which cannot be initialized via a simple __init__method.
-
+- Subclassing of immutable types which cannot be initialized via a simple `__init__()` method.
 
 ## Codebyte Example 1
 
@@ -69,9 +69,7 @@ class Test(object):
 
 ## Codebyte Example 2
 
-
 Creating a subclass of the int class called MyInt. MyInt will have a mutable bitLength property. Note that when the int class’ `__new__()` method is invoked `value` is passed in as the second argument. When `__new__()` returns an int object it will initialise it with `value`. The bitlength attribute as well as any other attribute can also be initialised within the `__new__()` method of myInt.
-
 
 ```codebyte/python
 class MyInt(int):
