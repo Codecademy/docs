@@ -1,6 +1,6 @@
 ---
 Title: '.replaceFirst()'
-Description: 'Replaces the matching subsequence in the input sequence with the specified replacement string.'
+Description: 'Replaces the first matching substring in a given string with the specified replacement string.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -13,40 +13,46 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `String` class' **`.replaceFirst()`** method replaces the first matching subsequence in the input sequence with the specified replacement string.
+The **`.replaceFirst()`** method replaces the first matching substring in a given string with the specified replacement string.
 
 ## Syntax
 
 ```pseudo
-string.replaceFirst(String regex, String repl);
+string.replaceFirst(String substring, String replacement);
 ```
 
-`regex` represents the [regular expression](https://www.codecademy.com/resources/docs/general/regular-expressions): a set of special characters and letters used for matching specific text.
-`repl` represents the string to be substituted for each match.
+The **`.replaceFirst()`** method takes two parameters:
 
-> **Note:** It's important to note that certain characters in the replacement string, such as backslashes and dollar signs ($), may have special meanings, so it's recommended to use `Matcher.quoteReplacement(String)` to prevent these characters from affecting the results.
->
-> **Note:** Both the [`.replace()`](https://www.codecademy.com/resources/docs/java/strings/replace) and `.replaceAll()` methods replace all occurrences of a matching string and accept `CharSequence` as input. However, the key difference is that `.replaceAll()` treats the given `CharSequence` as a _regular expression_ and searches for `regex` matches, while `.replace()` treats the input as plain text.
+- `substring`, a string or a [regular expression](https://www.codecademy.com/resources/docs/general/regular-expressions) (a set of special characters and letters) to specify which substring needs to be replaced.
+  > **Note:** In regular expressions some characters, for example asterisk (`*`) or question mark (`?`), have special meanings. To match a substring with special characters, these characters must be "escaped" with the backslash (`\`) character or the`Matcher.quoteReplacement(String)` method can be used to get the string literal of a string passed as parameter.
+- `replacement`, a string to specify the substring to be substituted for.
+
+The **`.replaceFirst()`** method returns a string with the replaced substring.
+
+The `.replaceFirst()`** method only replaces the first  matching occurrence, while the [`.replaceAll()`](https://www.codecademy.com/resources/docs/java/strings/replaceAll) replaces all matching occurrences of the specified `substring`.
 
 ## Example
 
-The example below removes all whitespace:
+The example below replaces the first occurrence of the string `pizza` with the  string `donut`:
 
 ```java
 public class Main {
   public static void main(String[] args) {
-    String myString = "Dog\t  \r\rComputer\n\n  \r House \t Yes \n  ";
+    String myString = "I love pizza. I eat pizza every day. I make my own pizza. ";
+    System.out.print("Original string: " + myString +"\n");
 
-    String regex = "\\s";
-    // The shorthand code \s represents spaces, tabs, and newline characters
-    String replacement = "";
+    String substring = "pizza";
+    String replacement = "donut";
 
-    String newString = myString.replaceAll(regex, replacement);
-    System.out.println(newString);
+    String replacedString = myString.replaceFirst(substring, replacement);
+    System.out.println("Replaced string: " + replacedString);
+  }
+}
 ```
 
 This results in the following output:
 
 ```shell
-DogComputerHouseYes
+Original string: I love pizza. I eat pizza every day. I make my own pizza. 
+Replaced string: I love donut. I eat pizza every day. I make my own pizza. 
 ```
