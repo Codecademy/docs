@@ -24,7 +24,7 @@ TextField("label", text: $bindingValue)
 
 The `style` passed as an argument to `.textFieldStyle()` is applied to the `TextField`. Built-in styles are available in SwiftUI and it's also possible to create custom styles.
 
-> **Note:** If `.textFieldStyle()` is called on a [`View`](https://www.codecademy.com/resources/docs/swiftui/views), the specified style will be applied to every `TextField` within that view, unless it has its own `.textFieldStyle()`.
+> **Note:** If `.textFieldStyle()` is called on a [view](https://www.codecademy.com/resources/docs/swiftui/views), the specified style will be applied to every text field within that view, unless it has its own `.textFieldStyle()`.
 
 Here are some of the available built-in `TextField` styles:
 
