@@ -50,7 +50,7 @@ struct ContentView: View {
 
 ## Example (Without Parameters)
 
-The following example creates an image of a red circle that is resizable and fills the space of its ['VStack'](https://www.codecademy.com/resources/docs/swiftui/views/vstack) parent view, which has a size of `300x300` points, and a border to show its size:
+The following example creates an image of a red circle that is resizable and fills the space of its ['VStack'](https://www.codecademy.com/resources/docs/swiftui/views/vstack) parent view, which has a size of `300` by `300` points (`pt`), and a border to show its size:
 
 ```swift
 import SwiftUI
