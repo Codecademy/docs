@@ -14,7 +14,7 @@ CatalogContent:
 
 A **virus** is a type of computer program that can replicate and infect a system with malicious code. Computer viruses have two main functions: propagation and destruction. Propagation is when a virus self-replicates by placing a copy of itself into other programs across a network. Destruction refers to the damage a computer virus can cause to your computer by deleting files or reformatting your hard drive.
 
-## Virus In-Use:
+## Virus In-Use
 
 A virus's payload delivers the destructive power and negatively impacts the confidentiality, integrity, or availability of systems or data. Common signs of computer viruses can include unwanted pop-up windows, programs that self-execute, accounts being logged out, and crashing of the device. The risk of a virus can be mitigated by installing anti-virus software, scanning on a regular basis, and backing up data.
 
