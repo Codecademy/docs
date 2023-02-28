@@ -4,7 +4,7 @@ Description: 'Operators are used to perform specific mathematical or logical fun
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-  - 'Bash\Shell'
+  - 'Bash/Shell'
 Tags:
   - 'Arithmetic'
   - 'Assignment'
@@ -41,7 +41,7 @@ PowerShell has the following arithmetic operators which are used to calculate nu
 
 Arithmetic operators are binary operators. Their syntax in PowerShell is `<Operand_1> <Arithmetic Operator> <Operand_2>`.
 
-```PowerShell
+```shell
 $x = 5 + 5  # x is now 10
 $x = $x - 8 # x is now 2
 $x = $x * 3 # x is now 6
@@ -51,13 +51,13 @@ $x = $x % 2 # x is now 1
 
 Arithmetic operators, `+` and `*`, also work on strings and arrays.
 
-```PowerShell
+```shell
 PS > $best_learning_platform = "code" + "cademy"
 PS > $best_learning_platform + "!" * 3
 codecademy!!!
 ```
 
-```PowerShell
+```shell
 PS > $fibonacci_1 = 0, 1, 1
 PS > $fibonacci_2 = 2, 3, 5
 PS > $fibonacci_1 + $fibonacci_2
@@ -90,6 +90,16 @@ Assignment operators can be used to assign, change, or append values to variable
 |   `*=`   | Multiplication Compound Assignment | `$x *= 3` is short for `$x = $x * 3`.       |
 |   `/=`   |    Division Compound Assignment    | `$x /= 3` is short for `$x = $x / 3`.       |
 |   `%=`   |     Modulo Compound Assignment     | `$x %= 3` is short for `$x = $x % 3`.       |
+
+### Example
+
+```shell
+PS > $number = 4
+PS > $number += 6 # $number is now 10
+PS > $number /= 2 # $number is now 5
+PS > $number
+5
+```
 
 ## Unary Operators
 
@@ -135,3 +145,20 @@ Precedence order is the order in which PowerShell evaluates the operators if mul
 - Comparison operators: `-eq`, `-ne`, `-gt`, `-ge`, `-lt`, `-le`
 - `-and`, `-or`, `-xor`
 - Assignment operators: `=`, `+=`, `-=`, `*=`, `/=`, `%=`
+
+## Examples
+
+```shell
+PS > $num_1 = 4
+PS > $num_2 = 3
+PS > $num_1 -lt $num_2  # num_1 is not less than num_2
+False
+
+PS > $num_2++           # num_2 is now 4
+PS > $num_1 -ge $num_2  # num_1 is greater than or equal to num_2
+True
+
+PS > $num_1 /= 2        # num_1 is now 2
+PS > $num_1 -lt $num_2 -xor $num_1 -ge $num_2 # True because only one expression is True
+True
+```

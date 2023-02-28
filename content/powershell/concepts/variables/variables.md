@@ -21,7 +21,7 @@ A **variable** is a location in computer memory used to store data, usually to b
 
 Variables in PowerShell are referenced using a dollar sign `$` followed by a valid variable name.
 
-```PowerShell
+```shell
 PS > $pi
 3.14
 ```
@@ -30,7 +30,7 @@ PS > $pi
 
 To create a variable, a variable reference is followed by an equal sign `=` and the value to be assigned. 
 
-```PowerShell
+```shell
 $my_string_variable = "Hello, World!"
 ```
 
@@ -40,7 +40,7 @@ Variables names are *not* case-sensitive and can include spaces and special char
 
 PowerShell dynamically assigns a type to a variable depending on the value assigned to it. `.GetType().Name` can be appended to a variable reference to get that variable’s data type.
 
-```PowerShell
+```shell
 PS > $my_string_variable.GetType().Name
 String
 ```
@@ -49,7 +49,7 @@ String
 
 A certain type can be enforced onto a variable via casting. To create a constrained variable, specify the type in brackets before the variable reference.
 
-```PowerShell
+```shell
 PS > [Int]$age = 25
 PS > $age
 25
@@ -62,7 +62,7 @@ Cannot convert value "age" to type "System.Int32". Error: "Input string was not 
 
 Multiple variables can be created with one statement using either the same value for all variables or multiple values.
 
-```PowerShell
+```shell
 $i = $j = $k = 0 # Same value
 $number, $color, $bool = 25, "red", $false # Multiple values
 ```
@@ -73,7 +73,7 @@ Environment Variables store information related to the current environment like 
 
 Running the `Get-ChildItem` cmdlet on the `Env:` drive lists all the environment variables. Alternatively, specifying the exact environment variable gets its value. 
 
-```PowerShell
+```shell
 Get-ChildItem Env: # Lists all environment variables
 (Get-Childitem Env:EIN_IMAGE).Value # Prints value of EIN_IMAGE
 $Env:EIN_IMAGE # Shorter version to print value of EIN_IMAGE
