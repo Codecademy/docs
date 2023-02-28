@@ -31,7 +31,7 @@ In Cybersecurity, some concepts that go into achieving Cyber Resiliency are:
 
 - **Restoration Order:** Refers to the sequence of mission-critical business processes that should be restored. 
 
-- _Diversity_ -> Refers to the multilayered security mechanism of having different types of access control provided by different entities/products.
+- **Diversity:** Refers to the multilayered security mechanism of having different types of access control provided by different entities/products.
 
 
 
