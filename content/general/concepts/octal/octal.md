@@ -1,44 +1,41 @@
 ---
-Title: 'The Title' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'A brief description' # Required; ideally under 150 characters and starts with a present-tense verb (used in search engine results and content previews)
+Title: 'Octal' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
+Description: 'Octal is a number system that uses digits from 0 to 7. Compared to the decimal system each digit corresponds to the power of 8 instead of the power of 10.' # Required; ideally under 150 characters and starts with a present-tense verb (used in search engine results and content previews)
 Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
-  - 'A subject name'
-  - 'A second subject name'
-  - 'An nth subject name'
+  - 'Computer Science'
+  - 'Data Science'
+  - 'Code Foundations'
 Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
-  - 'A tag'
-  - 'A second tag'
-  - 'An nth tag'
+  - 'Best Practices'
+  - 'Encoding'
 CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
-  - 'learn-example-course'
-  - 'path/example-path'
+  - 'paths/code-foundations'
+  - 'paths/computer-science'
 ---
 
-[A brief definition - make sure first mention of term is in **bold**.]
+The **octal** number system can be compared with the decimal, the hexadecimal, the binary, and many other systems. As the name says the system consists of 8 different digits (0-7). In our daily life, we are used to the decimal system, which consists of steps to the power of 10. Instead the Octal system uses steps to the power of 8.
 
-## Syntax
-
-[Text, code, images, parameters, etc. about the syntax]
+However in modern technologies and programming the octal system is rarely used, instead, the binary or hexadecimal system is used commonly.
+In the case of the hexadecimal system, the octal system has the advantage of using only numbers, therefore, renouncing using the alphabet.
 
 ## Example
 
-[Text, code, images, etc. about example 1]
+octal	decimal
+0		0
+1		1
+2		2
+3		3
+7		7
+10		8
+11		9
+12		10
+20		16
+40		32
+100		64
 
-## Codebyte Example (if applicable)
+Each digit is a power of 8, so the last digit (decimal 0-7) is 8^0, equalling 1, the one in front of it 8^1, and so on. If we write the octal system as a calculation to convert it to the decimal system we would get:
 
-We can currently support:
+125	= 1 * 8^2	+ 2 * 8^1	+ 5 * 8^0
+	= 64 	    + 16		+ 5
+	= 85
 
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
-
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
-
-```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
-```
