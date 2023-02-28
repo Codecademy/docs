@@ -123,7 +123,7 @@ when (expression) {
     }
     ...
     else -> {
-        // code to execute if expression does not match any of the above values
+        // Code to execute if expression does not match any of the above values
     }
 }
 ```
