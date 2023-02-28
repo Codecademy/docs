@@ -46,7 +46,7 @@ The additional `else` block is used to provide an alternative for the cases when
 
 ```pseudo
 if(condition){
-    //code block
+    // Code block
 }else{
     //code block
 }
