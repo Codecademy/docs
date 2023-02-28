@@ -25,7 +25,7 @@ In Cybersecurity, some concepts that go into achieving Cyber Resiliency are:
 
 - **Replication:** Refers to having multiple copies of the same data available in multiple locations.
 
-- _Non-Persistence_ -> This concept refers to the ability to maintain a system’s integrity despite multiple attempts of changes by the users or attackers. 
+- **Non-Persistence:** Refers to the ability to maintain a system’s integrity despite multiple attempts of changes by the users or attackers. 
 
 - _High Availability_ ->  Refers to the assurance that a system will be available to respond to requests and complete requested operations in a timely manner.
 
