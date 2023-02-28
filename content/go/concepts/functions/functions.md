@@ -141,7 +141,7 @@ func main() {
 This produces the following output: 
 
 ```shell
-Hey I am no name
+Hey, I have no name
 Hey Pavan
 
 Program exited.
