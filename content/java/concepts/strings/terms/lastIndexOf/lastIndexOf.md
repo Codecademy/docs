@@ -1,5 +1,5 @@
 ---
-Title: '.lastIndexOf()' 
+Title: '.lastIndexOf()'
 Description: 'Searches a string for a specified value, and returns the position of the match.'
 Subjects:
   - 'Computer Science'
@@ -37,7 +37,7 @@ class Main {
 
      System.out.println(lastPos);
   }
-} 
+}
 ```
 
 This will output the following:
