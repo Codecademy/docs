@@ -106,7 +106,7 @@ func main() {
 
 ```
 
-```bash
+```shell
 ./prog.go:6:7: syntax error: unexpected name, expecting (
 ./prog.go:8:3: syntax error: unexpected ( after top level declaration
 
