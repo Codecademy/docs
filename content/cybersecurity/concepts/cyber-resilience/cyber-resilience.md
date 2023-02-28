@@ -27,7 +27,7 @@ In Cybersecurity, some concepts that go into achieving Cyber Resiliency are:
 
 - **Non-Persistence:** Refers to the ability to maintain a system’s integrity despite multiple attempts of changes by the users or attackers. 
 
-- _High Availability_ ->  Refers to the assurance that a system will be available to respond to requests and complete requested operations in a timely manner.
+- **High Availability:** Refers to the assurance that a system will be available to respond to requests and complete requested operations in a timely manner.
 
 - _Restoration Order_ -> Refers to the sequence of mission-critical business processes that should be restored. 
 
