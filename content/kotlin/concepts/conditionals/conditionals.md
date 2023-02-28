@@ -48,7 +48,7 @@ The additional `else` block is used to provide an alternative for the cases when
 if(condition){
     // Code block
 }else{
-    //code block
+    // Code block
 }
 ```
 
