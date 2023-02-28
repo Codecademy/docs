@@ -9,7 +9,9 @@ Tags:
   - 'Arrays'
   - 'Data Types'
   - 'Data Structures'
+  - 'Index'
   - 'Lists'
+  - 'Operators'
   - 'Variable Types'
 CatalogContent:
   - 'learn-powershell'

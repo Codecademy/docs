@@ -123,6 +123,13 @@ Feel free to add suggestions for new slugs to the lists as part of your PR! Be s
 - 'paths/computer-science'
 ```
 
+### PowerShell
+
+```
+- 'learn-powershell'
+- 'paths/computer-science'
+```
+
 ### Python
 
 ```

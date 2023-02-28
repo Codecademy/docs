@@ -6,10 +6,14 @@ Subjects:
   - 'Computer Science'
   - 'PowerShell'
 Tags:
-  - 'Operators'
   - 'Arithmetic'
+  - 'Assignment'
   - 'Comparison'
+  - 'Equality'
   - 'Logical'
+  - 'Operators'
+  - 'Precedence'
+  - 'Unary'
 CatalogContent:
   - 'learn-powershell'
   - 'paths/computer-science'

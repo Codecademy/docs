@@ -2,14 +2,18 @@
 Title: 'Objects'
 Description: 'Objects are made up of properties and methods. PowerShell allows us to create custom objects and add our own variables and functions to them.'
 Subjects:
+  - 'Code Foundations'
   - 'Computer Science'
   - 'PowerShell'
 Tags:
-  - 'Objects'
-  - 'OOP'
   - 'Classes'
   - 'Data Types'
   - 'Data Structures'
+  - 'Hash Maps'
+  - 'Methods'
+  - 'Objects'
+  - 'OOP'
+  - 'Properties'
 CatalogContent:
   - 'learn-powershell'
   - 'paths/computer-science'

@@ -6,9 +6,9 @@ Subjects:
   - 'Computer Science'
   - 'PowerShell'
 Tags:
-  - 'Variables'
   - 'Data Types'
   - 'Environment Variables'
+  - 'Variables'
   - 'Variable Types'
 CatalogContent:
   - 'learn-powershell'
