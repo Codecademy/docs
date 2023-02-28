@@ -1,6 +1,6 @@
 ---
 Title: '.replaceFirst()'
-Description: 'Replaces the first matching substring in a given string with the specified replacement string.'
+Description: 'Replaces the first matching substring in a string with the specified replacement string.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.replaceFirst()`** method replaces the first matching substring in a given string with the specified replacement string.
+The **`.replaceFirst()`** method replaces the first matching substring in a string with the specified replacement string.
 
 ## Syntax
 
@@ -21,30 +21,30 @@ The **`.replaceFirst()`** method replaces the first matching substring in a give
 string.replaceFirst(String substring, String replacement);
 ```
 
-The **`.replaceFirst()`** method takes two parameters:
+The `.replaceFirst()` method takes two parameters:
 
-- `substring`, a string or a [regular expression](https://www.codecademy.com/resources/docs/general/regular-expressions) (a set of special characters and letters) to specify which substring needs to be replaced.
-  > **Note:** In regular expressions some characters, for example asterisk (`*`) or question mark (`?`), have special meanings. To match a substring with special characters, these characters must be "escaped" with the backslash (`\`) character or the`Matcher.quoteReplacement(String)` method can be used to get the string literal of a string passed as parameter.
+- `substring`, a string or a [regular expression](https://www.codecademy.com/resources/docs/general/regular-expressions) to specify which substring needs to be replaced.
+  > **Note:** In regular expressions, some characters, for example, the asterisk (`*`) or the question mark (`?`), have special meanings. To match a substring with these special characters, they must be "escaped" with the backslash (`\`) character, or the 'Matcher.quoteReplacement(String)` method can be used to get the string literal of any string passed as a parameter.
 - `replacement`, a string to specify the substring to be substituted for.
 
-The **`.replaceFirst()`** method returns a string with the replaced substring.
+The `.replaceFirst()` method returns a string with the replaced substring.
 
-The `.replaceFirst()`** method only replaces the first  matching occurrence, while the [`.replaceAll()`](https://www.codecademy.com/resources/docs/java/strings/replaceAll) replaces all matching occurrences of the specified `substring`.
+The `.replaceFirst()` method only replaces the first matching occurrence of the `substring`, while the [`.replaceAll()`](https://www.codecademy.com/resources/docs/java/strings/replaceAll) replaces all matching occurrences of the `substring`.
 
 ## Example
 
-The example below replaces the first occurrence of the string `pizza` with the  string `donut`:
+The example below replaces the first occurrence of the substring `pizza` in the `myString` string with the replacement substring `donut`. Then, it uses the `System.out.println()` method to display both the original and replaced strings on the console:
 
 ```java
 public class Main {
   public static void main(String[] args) {
     String myString = "I love pizza. I eat pizza every day. I make my own pizza. ";
-    System.out.print("Original string: " + myString +"\n");
-
     String substring = "pizza";
     String replacement = "donut";
-
+    
     String replacedString = myString.replaceFirst(substring, replacement);
+
+    System.out.println("Original string: " + myString );
     System.out.println("Replaced string: " + replacedString);
   }
 }
@@ -53,6 +53,6 @@ public class Main {
 This results in the following output:
 
 ```shell
-Original string: I love pizza. I eat pizza every day. I make my own pizza. 
-Replaced string: I love donut. I eat pizza every day. I make my own pizza. 
+Original string: I love pizza. I eat pizza every day. I make my own pizza.
+Replaced string: I love donut. I eat pizza every day. I make my own pizza.
 ```
