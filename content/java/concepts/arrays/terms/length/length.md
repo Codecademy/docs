@@ -25,7 +25,7 @@ arrayName.length;
 - `arrayName`: The name of the array to call `.length` on.
 ## Example
 
-Here's an example of how to use the .length property to determine the size of an array:
+The example below uses the `.length` property to determine the size of an array:
 
 ```java
 int[] numbers = {1, 2, 3, 4, 5};
