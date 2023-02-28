@@ -13,15 +13,15 @@ CatalogContent:
   - ''
 ---
 
-A **Search algorithm** is a type of algorithm used in artificial intelligence to find the best or most optimal solution to a problem by exploring a set of possible solutions, also called a "search space." Essentially, search algorithms help computers "search" through a large number of possiblities in order to find a solution that works the best, given a set of constraints.
+A **Search algorithm** is a type of algorithm used in artificial intelligence to find the best or most optimal solution to a problem by exploring a set of possible solutions, also called a **search space**. Essentially, search algorithms help computers search through a large number of possiblities in order to find a solution that works the best, given a set of constraints.
 
-Search Algorithms typically operate by organizing the search space into a particular type of graph, commonly a tree, and evaluate the best score, or "cost", of traversing each branch of the tree. The algorithm produces a path from the start state to the goal state with the best cost that the specific type of search algorithm being used can find.
+Search Algorithms typically operate by organizing the search space into a particular type of graph, commonly a tree, and evaluate the best score, or **cost**, of traversing each branch of the tree. The algorithm produces a path from the start state to the goal state with the best cost that the specific type of search algorithm being used can find.
 
 Search algorithms are typically organized into two categories:
 
 ### Uninformed Search
 
-Uninformed search algorithms consist of general purpose traverse the state space or search tree without any information about how good a state is. These are also referred to as _blind search_ algorihtms.
+Uninformed search algorithms consist of general purpose traverse the state space or search tree without any information about how good a state is. These are also referred to as blind search algorihtms.
 
 ### Informed Search
 
