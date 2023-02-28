@@ -20,7 +20,7 @@ The `if` statement is used to invoke conditional code. In other words, the code 
 
 ```pseudo
 if(condition){
-    // code block
+    // Code block
 }
 ```
 
