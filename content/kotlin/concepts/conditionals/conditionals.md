@@ -14,7 +14,7 @@ CatalogContent:
 
 **Conditionals** are commands in Kotlin that handle decisions. With conditionals, code is dynamic, which means that it can behave differently given a different condition. In conditional statements different code blocks can be written which can execute when the condition is met.
 
-## If statement
+## If Statement
 
 The `if` statement is used to invoke conditional code. In other words, the code will only run `if` a predicate is fulfilled.
 
