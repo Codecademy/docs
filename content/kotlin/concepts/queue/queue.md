@@ -38,24 +38,33 @@ val queue = LinkedList<Type>().toQueue()
 ### Example
 
 ```kotlin
+import java.util.*
+
+fun main() {
 // Create a new queue
-val queue = LinkedList<Int>()
+    val queue = LinkedList<Int>()
 
 // Add elements to the queue
-queue.add(1)
-queue.add(2)
-queue.add(3)
+    queue.add(1)
+    queue.add(2)
+    queue.add(3)
+    println("The queue after adding the elements: " + queue)
 
 // Remove elements from the queue
-val firstElement = queue.remove() // Returns 1
-val secondElement = queue.remove() // Returns 2
+    val firstElement = queue.remove() // Returns 1
+    val secondElement = queue.remove() // Returns 2
+    print(firstElement )
+    println(" "+ secondElement)
+    println("The queue after removing the elements from queue: " + queue)
+}
 ```
 
 The output for the above code will be:
 
 ```shell
-[1, 2, 3]
-[3]
+The queue after adding the elements: [1, 2, 3]
+1 2
+The queue after removing the elements from queue: [3]
 ```
 
 In the above example, a new `Queue` is created using the `LinkedList` class, then three elements are added to it using the `.add()` method. Then elements are removed from the `Queue` using the `.remove()` method, which returns the first element added to the `Queue` (`1`). The second and third elements (`2` and `3`) can be removed in the same way.
