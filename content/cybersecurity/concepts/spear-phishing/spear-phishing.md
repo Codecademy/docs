@@ -8,7 +8,6 @@ Tags:
 CatalogContent:
   - 'introduction-to-cybersecurity'
   - 'paths/fundamentals-of-cybersecurity'
-  - 'introduction-to-personal-digital-security'
 ---
 
 **Spear Phishing** is a type of social engineering scam that attempts to trick the recipient into providing confidential information to the attacker. Spear phishing is a more targeted cyber attack than phishing.
