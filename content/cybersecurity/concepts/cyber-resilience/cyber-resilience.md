@@ -5,6 +5,7 @@ Subjects:
   - 'Cybersecurity'
 Tags:
   - 'Cybersecurity'
+  - 'Infrastructure'
 CatalogContent:
   - 'paths/cyber-resilience-risk-management'
 ---
