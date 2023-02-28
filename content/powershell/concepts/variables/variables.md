@@ -4,7 +4,7 @@ Description: 'Variables are a way to store and manipulate data. There are multip
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-  - 'PowerShell'
+  - 'Bash/Shell'
 Tags:
   - 'Data Types'
   - 'Environment Variables'

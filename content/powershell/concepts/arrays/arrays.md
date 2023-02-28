@@ -4,7 +4,7 @@ Description: 'Arrays are a data structure that hold a collection of items. Power
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-  - 'PowerShell'
+  - 'Bash\Shell'
 Tags:
   - 'Arrays'
   - 'Data Types'

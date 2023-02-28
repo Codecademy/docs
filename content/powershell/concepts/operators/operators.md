@@ -4,7 +4,7 @@ Description: 'Operators are used to perform specific mathematical or logical fun
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-  - 'PowerShell'
+  - 'Bash\Shell'
 Tags:
   - 'Arithmetic'
   - 'Assignment'

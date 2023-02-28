@@ -4,7 +4,7 @@ Description: 'Objects are made up of properties and methods. PowerShell allows u
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-  - 'PowerShell'
+  - 'Bash/Shell'
 Tags:
   - 'Classes'
   - 'Data Types'
