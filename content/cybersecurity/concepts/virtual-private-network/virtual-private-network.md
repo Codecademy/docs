@@ -12,10 +12,12 @@ CatalogContent:
 ---
 **Virtual Private Network (VPN)** is a solution to allow remote access for employees to connect to their organization's internal network from their home or while traveling. VPN traffic goes over a public network so encryption is important. A VPN provides a secure communications method for data transmitted between networks.
 
-## Virtual Private Network In-Use:
+## Virtual Private Network In-Use
+
 Employees will often use a VPN when working remotely in order to connect to their company network. While public Wi-Fi is convenient, it is also insecure. Using a VPN ensures that sensitive company data is encrypted. This means that it works like a filter by turning all your data into indecipherable text.
 
-## Different Types of VPN:
+## Different Types of VPN
+
 There are three types of VPN:
 - Site-to-site VPN: Used to connect branch offices to a central office over the internet when the offices are separated by distance.
 - Remote access VPN: Used to allow individual users to remotely connect to a central network. The remote devices that connect to the network are referred to as endpoints.
