@@ -24,7 +24,7 @@ string.replaceFirst(String substring, String replacement);
 The `.replaceFirst()` method takes two parameters:
 
 - `substring`, a string or a [regular expression](https://www.codecademy.com/resources/docs/general/regular-expressions) to specify which substring needs to be replaced.
-  > **Note:** In regular expressions, some characters, for example, the asterisk (`*`) or the question mark (`?`), have special meanings. To match a substring with these special characters, they must be "escaped" with the backslash (`\`) character, or the 'Matcher.quoteReplacement(String)` method can be used to get the string literal of any string passed as a parameter.
+> **Note:** In regular expressions, some characters, for example, the asterisk (`*`) or the question mark (`?`), have special meanings. To match a substring with these special characters, they must be "escaped" with the backslash (`\`) character, or the 'Matcher.quoteReplacement(String)` method can be used to get the string literal of any string passed as a parameter.
 - `replacement`, a string to specify the substring to be substituted for.
 
 The `.replaceFirst()` method returns a string with the replaced substring.
