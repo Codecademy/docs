@@ -337,7 +337,7 @@ Program exited.
 
 ## Codebyte Example
 
-The following example is runnable and can be edited:
+The following codebyte example provides another example of a function. It is runnable and can be edited:
 
 ```codebyte/golang
 package main
