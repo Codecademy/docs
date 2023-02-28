@@ -77,7 +77,7 @@ By placing one `if-else` block after another, a structure is formed known as `if
 
 ```pseudo
 if (condition1) {
-    // code to execute if condition1 is true
+    // Code to execute if condition1 is true
 } else if (condition2) {
     // code to execute if condition1 is false and condition2 is true
 } else {
