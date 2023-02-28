@@ -52,7 +52,7 @@ if(condition){
 }
 ```
 
-Like in the above example of Qbot if the `FinishedHomework` is given as `false` then the `else` statement can be used:
+In this example the value of `FinishedHomework` is given as `false` resulting in execution of the `else` statement:
 
 ```kotlin
 fun main(){
