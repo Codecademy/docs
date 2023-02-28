@@ -23,7 +23,7 @@ In Cybersecurity, some concepts that go into achieving Cyber Resiliency are:
 
 - **Redundancy:** Refers to having alternate ways to maintain the availability of a resource.
 
-- _Replication_ -> In Cybersecurity, replication refers to having multiple copies of the same data available in multiple locations.
+- **Replication:** Refers to having multiple copies of the same data available in multiple locations.
 
 - _Non-Persistence_ -> This concept refers to the ability to maintain a system’s integrity despite multiple attempts of changes by the users or attackers. 
 
