@@ -137,7 +137,8 @@ func main() {
 }
 
 ```
-output is 
+
+This produces the following output: 
 
 ```bash
 Hey I am no name
