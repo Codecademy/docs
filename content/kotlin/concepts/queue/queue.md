@@ -15,7 +15,7 @@ CatalogContent:
 
 A **`Queue`** is an interface in Kotlin that represents a data structure that stores elements in a linear order, and follows the First In, First Out (FIFO) principle. This means that the first element added to the queue will be the first one to be removed.
 
-### Syntax
+## Syntax
 
 The syntax for creating a `Queue` in Kotlin using the `LinkedList` class is as follows:
 
