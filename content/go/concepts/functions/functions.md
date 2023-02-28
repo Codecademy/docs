@@ -113,7 +113,7 @@ func main() {
 Go build failed.
 ```
 
-There is a way to define a function inside a function as below:
+A function can be defined inside a function as shown below:
 
 ```go
 package main
