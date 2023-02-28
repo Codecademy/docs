@@ -116,7 +116,7 @@ The `when` statement is an alternative to `if else-if`. On every branch of the `
 ```pseudo
 when (expression) {
     value1 -> {
-        // code to execute if expression == value1
+        // Code to execute if expression == value1
     }
     value2 -> {
         // code to execute if expression == value2
