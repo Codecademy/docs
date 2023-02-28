@@ -10,12 +10,12 @@ CatalogContent:
  - 'concepts/time-module'
 ---
 
-The python time module function .sleep() suspends execution of current thread for a given period of time(in seconds).
+The python time module function .sleep() suspends execution of current thread for a given period of time in seconds.
 
 ### **Syntax** 
 
-```time.sleep(duration)``` 
-Duration is the time(in seconds) the execution will be suspended/delayed.
+``time.sleep(duration)`` 
+Duration is the time in seconds the execution will be suspended/delayed.
 
 This will suspend execution for 23.4 seconds.
 This function is part of the python time module which handles time related tasks.
@@ -38,8 +38,8 @@ The example below will output time after a 5 second delay from current time.
 ```codebyte/python
 import time
 
-print "Start : %s" % time.ctime()
+print ("Start : %s" % time.ctime())
 time.sleep( 5 )
-print "End : %s" % time.ctime()
+print ("End : %s" % time.ctime())
 
 ```
