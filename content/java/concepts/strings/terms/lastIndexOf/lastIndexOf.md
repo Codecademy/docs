@@ -20,7 +20,7 @@ The **`.lastIndexOf()`** method searches a string for a specified value and retu
 string.lastIndexOf(searchValue, fromIndex)
 ```
 
-- `searchValue`: The character or sequence of characters being searched for. 
+- `searchValue`: The character or sequence of characters being searched for.
 - `fromIndex` (optional): The starting index to search from in the `string`.
 
 ## Example
