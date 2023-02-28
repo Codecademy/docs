@@ -13,7 +13,7 @@ CatalogContent:
 
 **Social Engineering** is when an attacker uses human emotion (usually fear and urgency) to trick the target into performing an action, such as send the attacker money, divulge sensitive customer information, or disclose authentication credentials.
 
-## Social Engineering In-Use:
+## Social Engineering In-Use
 
 An individual might receive an email from an unsuspecting user telling them that their account has been compromised and will be deactivated unless they click the link in the email and confirm their credit card details. Once the individual clicks the link in the email, it navigate the individual to a fake website where they can insert their credit card details. 
 
