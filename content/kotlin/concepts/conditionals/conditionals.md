@@ -128,7 +128,7 @@ when (expression) {
 }
 ```
 
-In the following example, if the probability is smaller or equal to 40, then "Unlikely" will be printed. If the probability is over 40 but smaller or equal to 80, then "Likely" will be printed. If probability is over 80 but smaller or equal to 100, then "Yes" will be printed. Otherwise, "What?" will be printed. This time the `when` statement will be used to solve this:
+In the code below, the conditional statements of the previous example are implemented with a `when` statement in lieu of multiple `if-else` blocks:
 
 ```kotlin
 fun main() {
