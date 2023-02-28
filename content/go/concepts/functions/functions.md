@@ -124,7 +124,7 @@ func main() {
 	func() {
 		fmt.Println("Hey I am no name")
 	}()
-	greeting := "hey I am no name"
+	greeting := "Hey, there."
 	//greeting can be accessed inside of nested functions and can be changed
 	//or assign it to a variable to make it reusable
 	secondWay := func(name string) {
