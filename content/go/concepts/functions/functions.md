@@ -122,7 +122,7 @@ import "fmt"
 
 func main() {
 	func() {
-		fmt.Println("Hey I am no name")
+		fmt.Println("Hey, I have no name")
 	}()
 	greeting := "Hey, there."
 	//greeting can be accessed inside of nested functions and can be changed
