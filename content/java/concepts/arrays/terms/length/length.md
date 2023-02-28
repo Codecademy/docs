@@ -33,7 +33,7 @@ int length = numbers.length;
 System.out.println("Length of the array is" + length)
 ```
 
-In this example, the `numbers` array contains five elements, and the `.length` property returns the value 5, which is assigned to the `length` variable.
+In this example, the `numbers` array contains five elements, and the `.length` property returns the value `5`, which is assigned to the `length` variable.
 
 Output for the above code will be:
 
