@@ -40,7 +40,7 @@ The output for the above code will be:
 Can go out to watch the movie
 ```
 
-## Else statement
+## Else Statement
 
 The additional `else` block is used to provide an alternative for the cases when a predicate is not fulfilled.
 
