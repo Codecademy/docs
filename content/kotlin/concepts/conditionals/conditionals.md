@@ -109,7 +109,7 @@ The output for the above code will be:
 Likely
 ```
 
-## When statement
+## When Statement
 
 The `when` statement is an alternative to `if else-if`. On every branch of the `when` statement, a predicate and a body is specified. The body will be executed only for the first predicate that returns true. So it works just like `if else-if`, but it's preferred because its syntax is better suited for multiple conditions. And thanks to the fact that it's a single statement, Kotlin can run this code faster than checking multiple `if else-if` statements.
 
