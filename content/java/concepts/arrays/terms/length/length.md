@@ -22,6 +22,7 @@ The syntax of the `.length` property is the following:
 arrayName.length;
 ```
 
+- `arrayName`: The name of the array to call `.length` on.
 ## Example
 
 Here's an example of how to use the .length property to determine the size of an array:
