@@ -93,7 +93,7 @@ float counterFactor = 15.87E4;
 
 ### Char
 
-Chars use single quotations marks `'` to represent single characters such as letters, [numbers](https://www.codecademy.com/resources/docs/general/number), [whitespace](https://www.codecademy.com/resources/docs/general/whitespace), special characters, and symbols. Each char only occupies one byte in memory. In C, sequences of chars are called [strings](https://www.codecademy.com/resources/docs/c/strings).
+Chars use single quotations marks `'` to represent single characters such as letters, [numbers](https://www.codecademy.com/resources/docs/general/data-types/number), [whitespace](https://www.codecademy.com/resources/docs/general/whitespace), special characters, and symbols. Each char only occupies one byte in memory. In C, sequences of chars are called [strings](https://www.codecademy.com/resources/docs/c/strings).
 
 ```c
 char a = 'a';
