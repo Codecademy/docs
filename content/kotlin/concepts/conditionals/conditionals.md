@@ -79,7 +79,7 @@ By placing one `if-else` block after another, a structure is formed known as `if
 if (condition1) {
     // Code to execute if condition1 is true
 } else if (condition2) {
-    // code to execute if condition1 is false and condition2 is true
+    // Code to execute if condition1 is false and condition2 is true
 } else {
     // Code to execute if both condition1 and condition2 are false
 }
