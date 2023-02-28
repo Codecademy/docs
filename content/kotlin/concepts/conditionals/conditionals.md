@@ -119,7 +119,7 @@ when (expression) {
         // Code to execute if expression == value1
     }
     value2 -> {
-        // code to execute if expression == value2
+        // Code to execute if expression == value2
     }
     ...
     else -> {
