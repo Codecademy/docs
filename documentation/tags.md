@@ -58,6 +58,7 @@ Comments
 Comparison
 Compilation
 Components
+Composition
 Computer Vision
 CMS
 Concatenation
@@ -122,6 +123,7 @@ Formatting
 Frameworks
 Functions
 Functional Programming
+Functors
 Ggplot2
 Git
 GitHub
