@@ -81,7 +81,7 @@ func main() {
 ```
 The output is:
 
-```bash
+```shell
 Hey I am a function returned by function sounds cool right?
 13 7
 check me i dont have parenthesis around my return see nice right
