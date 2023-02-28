@@ -16,7 +16,7 @@ In Java, the **`.length`** property is used to determine the length or size of a
 
 ## Syntax
 
-Here is the syntax of .length property:
+The syntax of the `.length` property is the following:
 
 ```pseudo
 arrayName.length;
