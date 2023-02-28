@@ -14,7 +14,7 @@ CatalogContent:
 
 In Git, a branch is an independent version of the main codebase. They're used for modifying or adding new code to a project without affecting the main codebase, usually named the `main` branch.
 
-Branches are a core component of software development with Git. When a new branch is created, a copy of the source branch is made. All code changes or additions in the new branch are isolated from the source branch or main codebase. When the changes in the new branch are ready, they can be merged back into the main codebase. Branches also make it easier to test code or undo changes because they can be deleted without affecting the main codebase or any other branches.
+Branches are a core component of software development with Git. When a new branch is created, a copy of the source branch is made. All code changes (additions or deletions) in the new branch are isolated from the source branch or main codebase. When the changes in the new branch are ready, they can be merged back into the main codebase. Branches also make it easier to test code or undo changes because they can be deleted without affecting the main codebase or any other branches.
 
 <!-- IMAGE: Standard Git branching with main branch, splitting into two, merging at the end. -->
 
