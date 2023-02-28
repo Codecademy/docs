@@ -19,12 +19,12 @@ The method **`.toCharArray()`** returns a new character array from the given str
 string.toCharArray()
 ```
 
-- Where `string` is the string to be transformed to a new array of characters.
+- `string` is the string to be transformed to a new array of characters.
 - This method doesn't take any parameters.
 
 ## Example
 
-The example below uses the `.toCharArray()` method to create a new array, uses a loop to iterate through the array , and prints each character:
+The example below uses the `.toCharArray()` method to create a new array, uses a loop to iterate through the array, and prints each character:
 
 ```java
 // Example.java
