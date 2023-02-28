@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Java, the **`.length`** property is used to determine the length or size of an array. It is a built-in property of arrays and returns an integer value that represents the number of elements in the array.
+In Java, the **`.length`** property is used to determine the length or size of an array. It is a built-in property for arrays and returns an integer value that represents the number of elements in the array.
 
 ## Syntax
 
