@@ -140,7 +140,7 @@ func main() {
 
 This produces the following output: 
 
-```bash
+```shell
 Hey I am no name
 Hey Pavan
 
