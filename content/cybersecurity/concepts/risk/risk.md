@@ -14,7 +14,7 @@ CatalogContent:
 
 **Risk** is the possibility or likelihood that a threat will exploit a vulnerability to cause harm to an asset. _Risks_ posed to people, processes or technology could result in financial loss, operational disruption or physical damage.
 
-## Risk In-Use:
+## Risk In-Use
 
 Risk can take several forms. External cyber risks include cyberattacks, phishing, ransomware, and DDoS attacks. Internal risks can come from malicious insider threats, however, they can also come as a result of employee negligence. Unpatched software, poor training, and misconfiguring databases are all examples of how employees can mistakenly expose information.
 
