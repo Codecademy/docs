@@ -8,6 +8,7 @@ Tags:
   - 'Infrastructure'
 CatalogContent:
   - 'paths/cyber-resilience-risk-management'
+  - 'paths/fundamentals-of-cybersecurity'
 ---
 
 **Cyber Resilience** is the ability of an organization to withstand and recover from cyber incidents. It describes the ability to continue operating despite experiencing challenging cyber events such as ransomware, Distributed Denial of Service (DDoS), social engineering, and insider threats.
