@@ -35,7 +35,7 @@ struct ContentView: View {
 }
 ```
 
-In the above example, the `foregroundColor()` modifier with the `.green` parameter is called on the `Text` view. This applies the color green to all characters.
+In the above example, the `.foregroundColor()` modifier with the `.green` parameter is called on the `Text` view. This applies the color green to all characters.
 
 This will display the following:
 
