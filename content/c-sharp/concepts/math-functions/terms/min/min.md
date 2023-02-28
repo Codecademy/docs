@@ -12,7 +12,6 @@ CatalogContent:
   - 'learn-c-sharp'
   - 'paths/computer-science'
 ---
-# .Min()
 
 The **`Math.Min()`** method returns the lesser of two specified numbers.
 
@@ -46,7 +45,10 @@ This example results in the following output:
 Math.Min (int) = -134
 ```
 
-Now it's your turn, try changing the values of xint1 and xint2 to see the results.
+## Codebyte Example
+
+Try changing the values of xint1 and xint2 to see the results.
+
 ```codebyte/csharp
 string str = "{0}: The lesser of {1,3} and {2,3} is {3}.";
 
