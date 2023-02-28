@@ -21,7 +21,7 @@ Becoming cyber resilient is essential to preventing business disruptions that ma
 
 In Cybersecurity, some concepts that go into achieving Cyber Resiliency are:
 
-- _Redundancy_ -> In Cybersecurity, redundancy refers to having alternate ways to maintain the availability of a resource.
+- **Redundancy:** Refers to having alternate ways to maintain the availability of a resource.
 
 - _Replication_ -> In Cybersecurity, replication refers to having multiple copies of the same data available in multiple locations.
 
