@@ -51,7 +51,7 @@ This algorithm uses a heuristic function to guide the search towards the optimal
 
 Search algorithms are used in various fields of artificial intelligence, including:
 
-### pathfinding
+### Pathfinding
 
 pathfinding problems involve finding the shortest path between two points in a given graph or network. BFS or A\* search can be used to explore the graph and find the optimal path.
 
