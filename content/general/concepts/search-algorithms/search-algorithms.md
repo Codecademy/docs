@@ -10,7 +10,7 @@ Tags:
   - 'Graphs'
   - 'Graph Search'
 CatalogContent:
-  - ''
+  - 'paths/data-science'
 ---
 
 A **Search algorithm** is a type of algorithm used in artificial intelligence to find the best or most optimal solution to a problem by exploring a set of possible solutions, also called a **search space**. Essentially, search algorithms help computers search through a large number of possiblities in order to find a solution that works the best, given a set of constraints.
