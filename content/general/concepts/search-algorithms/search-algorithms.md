@@ -61,4 +61,4 @@ In optimization problems, the goal is to find the minimum or maximum value of a 
 
 ### Game Playing
 
-in game playing, search algorithms are used to evaluate all possible moves and choose the one that is most likely to lead to a win or the best possible outcome. This is done by constructing a search tree where each node represents a game state and the edges represent the moves that can be taken to reach a new game state.
+In game playing, search algorithms are used to evaluate all possible moves and choose the one that is most likely to lead to a win, or the best possible outcome. This is done by constructing a search tree where each node represents a game state and the edges represent the moves that can be taken to reach the associated new game state.
