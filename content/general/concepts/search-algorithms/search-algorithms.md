@@ -53,7 +53,7 @@ Search algorithms are used in various fields of artificial intelligence, includi
 
 ### Pathfinding
 
-pathfinding problems involve finding the shortest path between two points in a given graph or network. BFS or A\* search can be used to explore the graph and find the optimal path.
+Pathfinding problems involve finding the shortest path between two points in a given graph or network. BFS or A\* search can be used to explore a graph and find the optimal path.
 
 ### optimization
 
