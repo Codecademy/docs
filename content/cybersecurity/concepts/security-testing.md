@@ -26,7 +26,7 @@ There are three main methods for security testing:
   - Gray Box Testing
     - This approach to security testing combines elements of both black box and white box testing. Gray box testing provides some knowledge of the internal structure of a system or application, but not a complete understanding. This type of testing is useful for identifying security vulnerabilities that would be missed by black box testing but may not be as comprehensive as white box testing.
 
-Here are some key details of security testing:
+### Additional Domains and Elements of Security Testing
 
   - Vulnerability assessment: This is the process of identifying, classifying, and prioritizing vulnerabilities in a system or application. Vulnerability assessments can be performed manually or with automated tools.
   - Penetration Testing: This type of testing simulates an attack on a system or application to identify security weaknesses and vulnerabilities. Penetration testing is usually performed by ethical hackers, who use the same tools and techniques as malicious hackers to identify potential security issues.
