@@ -57,7 +57,7 @@ Pathfinding problems involve finding the shortest path between two points in a g
 
 ### Optimization
 
-In optimization problems, the goal is to find the minimum or maximum value of a function, subject to some constraints. Search algorithms such as hill climbing or simulated annealing can be used to search for the optimal solution.
+In optimization problems, the goal is to find the minimum or maximum value of a function, subject to some constraints. Search algorithms such as hill climbing or simulated annealing are often used in optimization cases.
 
 ### game playing
 
