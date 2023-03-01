@@ -37,7 +37,7 @@ In the case of the hexadecimal system, the octal system has the advantage of usi
 Each digit is a power of 8, so the last digit (decimal 0-7) is 8^0, equalling 1, the one in front of it 8^1, and so on. If we write the octal system as a calculation to convert it to the decimal system we would get:
 
 ```
-125	= 1 * 8^2   + 2 * 8^1   + 5 * 8^0
+125 = 1 * 8^2   + 2 * 8^1   + 5 * 8^0
     = 64        + 16        + 5
     = 85
 ```   
