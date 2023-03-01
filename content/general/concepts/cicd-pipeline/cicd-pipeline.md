@@ -27,11 +27,3 @@ There are four main steps to the CICD Pipeline:
 2. Build
 3. Test
 4. Deploy
-
-
- 
-
-![CICD Pipeline](https://www.redhat.com/themes/custom/rhdc/templates/layout/optimize-test/img/ci-cd-flow-desktop.webp)
-
-
-
