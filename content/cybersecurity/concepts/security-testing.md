@@ -1,6 +1,6 @@
 ---
 Title: 'Security Testing'
-Description: 'Security Testing is a critical aspect of software development life cycle that helps protect systems and applications from potential security threats.'
+Description: 'Security testing is a critical aspect of the software development life cycle that helps protect systems and applications from potential security threats.'
 Subjects:
   - 'Cybersecurity'
 Tags:
