@@ -11,7 +11,7 @@ CatalogContent:
   - 'introduction-to-personal-digital-security'
 ---
 
-**Social Engineering** is when an attacker uses human emotion (usually fear and urgency) to trick the target into performing an action, such as send the attacker money, divulge sensitive customer information, or disclose authentication credentials.
+**Social Engineering** is when an attacker uses human emotion (usually fear and urgency) to trick the target into performing an action, such as sending the attacker money, divulging sensitive customer information, or disclosing authentication credentials.
 
 ## Social Engineering In-Use
 
