@@ -1,6 +1,6 @@
 ---
 Title: 'CICD Pipeline'
-Description: 'CICD Pipeline automates the software / application delivery process.'
+Description: 'The CICD pipeline automates the software/application delivery process.'
 Subjects: 
   - 'Developer Tools'
   - 'Mobile Development'
