@@ -49,7 +49,7 @@ This algorithm uses a heuristic function to guide the search towards the optimal
 
 ## Application of Search Algorithms
 
-Search algorithms are used in various fields of artificial intelligence, including
+Search algorithms are used in various fields of artificial intelligence, including:
 
 ### pathfinding
 
