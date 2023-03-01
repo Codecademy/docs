@@ -23,10 +23,10 @@ The **CICD Pipeline** is the combination of continuous integration, delivery and
 ## Steps of the CICD Pipeline
 
 There are four main steps to the CICD Pipeline: 
-    1. Source
-    2. Build
-    3. Test
-    4. Deploy
+1. Source
+2. Build
+3. Test
+4. Deploy
 
 
  
