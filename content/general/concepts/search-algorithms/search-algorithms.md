@@ -21,7 +21,7 @@ Search algorithms are typically organized into two categories:
 
 ### Uninformed Search
 
-Uninformed search algorithms consist of general purpose traverse the state space or search tree without any information about how good a state is. These are also referred to as blind search algorihtms.
+Uninformed search algorithms consist of general purpose traversals of the state space or search tree without any information about how good a state is. These are also referred to as blind search algorithms.
 
 ### Informed Search
 
