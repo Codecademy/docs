@@ -6,7 +6,7 @@ Subjects: # Please only use Subjects in the subjects.md file (https://github.com
   - 'Data Science'
   - 'Code Foundations'
 Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
-  - 'Best Practices'
+  - 'Arithmetic'
   - 'Encoding'
 CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
   - 'paths/code-foundations'
@@ -20,18 +20,19 @@ In the case of the hexadecimal system, the octal system has the advantage of usi
 
 ## Example
 
-octal	decimal
-0		0
-1		1
-2		2
-3		3
-7		7
-10		8
-11		9
-12		10
-20		16
-40		32
-100		64
+|octal	|decimal |
+|-------|--------|
+|0		|0       |
+|1		|1       |
+|2	    |2       |
+|3		|3       |
+|7		|7       |
+|10		|8       |
+|11		|9       |
+|12		|10      |
+|20		|16      |
+|40		|32      |
+|100	|64      |
 
 Each digit is a power of 8, so the last digit (decimal 0-7) is 8^0, equalling 1, the one in front of it 8^1, and so on. If we write the octal system as a calculation to convert it to the decimal system we would get:
 
