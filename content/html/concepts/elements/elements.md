@@ -16,18 +16,31 @@ An HTML element is a piece of content in an HTML document.
 
 ## Syntax
 
+Elements consist of at least one tag but can have two tags with optional content. The tag name determines how the element will be rendered in the HTML document. Elements can also have [attributes](https://www.codecademy.com/resources/docs/html/attributes).
+
+### HTML Element
+
 ```pseudo
 <opening-tag> content </closing-tag>
 ```
 
-Most elements include opening and closing [tags](https://www.codecademy.com/resources/docs/html/tags), enclosing the element's content. The content of an element is optional and can be text content or other nested elements.
+Most HTML elements include opening and closing [tags](https://www.codecademy.com/resources/docs/html/tags), enclosing the element's content. The content of an element is optional and can be text content, other elements or comments.
+
+### Void HTML Element
 
 ```pseudo
 <void-element-tag>
+```
+
+Some elements cannot have content; therefore, they do not require a closing tag. These elements are called void or empty elements.
+
+### Self Closing HTML Element
+
+```pseudo
 <self-closing-tag />
 ```
 
-Some elements cannot have content; therefore, they do not require a closing tag. These elements are called void or empty elements. However, adding a closing slash (`/`) at the opening tag's end is allowed, which creates a self-closing element. Turning void elements into self-closing is up to personal preference, but it improves compatibility with XHTML. The following elements are void elements:
+Adding a closing slash (`/`) at the end of the void element's opening tag is allowed, which creates a self-closing element. Turning void elements into self-closing is up to personal preference, but it improves compatibility with XHTML. The following elements are void elements:
 
 - `<area>`
 - `<base>`
