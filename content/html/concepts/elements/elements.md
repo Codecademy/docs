@@ -1,6 +1,6 @@
 ---
 Title: 'Elements'
-Description: 'An HTML element is a piece of content in an HTML document. It is everything from the opening tag to the closing tag.'
+Description: 'An HTML element is a piece of content in an HTML document.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -18,15 +18,34 @@ An HTML element is a piece of content in an HTML document.
 
 ```pseudo
 <opening-tag> content </closing-tag>
-
-<self-closing-element />
 ```
 
-Most elements are made of opening and closing [tags](https://www.codecademy.com/resources/docs/html/tags) but some are self-closing. Furthermore, some self-closing elements like [`<br>`](https://www.codecademy.com/resources/docs/html/elements/br) can have a slash at the end like so: `<br />`.
+Most elements include opening and closing [tags](https://www.codecademy.com/resources/docs/html/tags), enclosing the element's content. The content of an element is optional and can be text content or other nested elements.
+
+```pseudo
+<void-element-tag>
+<self-closing-tag />
+```
+
+Some elements cannot have content; therefore, they do not require a closing tag. These elements are called void or empty elements. However, adding a closing slash (`/`) at the opening tag's end is allowed, which creates a self-closing element. Turning void elements into self-closing is up to personal preference, but it improves compatibility with XHTML. The following elements are void elements:
+
+- `<area>`
+- `<base>`
+- [`<br>`](https://www.codecademy.com/resources/docs/html/elements/br)
+- `<col>`
+- [`<embed>`](https://www.codecademy.com/resources/docs/html/elements/embed)
+- [`<hr>`](https://www.codecademy.com/resources/docs/html/elements/hr)
+- [`<img>`](https://www.codecademy.com/resources/docs/html/elements/img)
+- [`<input>`](https://www.codecademy.com/resources/docs/html/elements/input)
+- [`<link>`](https://www.codecademy.com/resources/docs/html/elements/link)
+- [`<meta>`](https://www.codecademy.com/resources/docs/html/elements/meta)
+- [`<source>`](https://www.codecademy.com/resources/docs/html/elements/source)
+- `<track>`
+- `<wbr>`
 
 ## Nested Elements
 
-HTML elements can be nested, which means that elements can contain other elements inside them, or nested. All HTML documents consist of nested HTML elements.
+HTML elements can be nested, meaning that elements can contain other elements inside or nested. All HTML documents consist of nested HTML elements.
 
 The following example contains four HTML elements: `<html>`, `<body>`, `<h1>`, and `<p>`:
 
