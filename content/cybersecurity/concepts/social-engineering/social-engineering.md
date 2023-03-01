@@ -1,6 +1,6 @@
 ---
 Title: 'Social Engineering'
-Description: 'Social engineering is whne an attacker uses human emotion (usually fear and urgency) to trick the target into performing an action, such as send the attacker money, divulge sensitive customer information, or disclose authentication credentials.'
+Description: 'Social engineering is when an attacker uses human emotion (usually fear and urgency) to trick the target into performing an action, such as sending the attacker money, divulging sensitive customer information, or disclosing authentication credentials.'
 Subjects:
   - 'Cybersecurity'
 Tags:
