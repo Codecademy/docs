@@ -13,7 +13,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'paths/computer-science'
 ---
 
-The **octal** number system can be compared with the decimal, the hexadecimal, the binary, and many other systems. As the name says the system consists of 8 different digits (0-7). In our daily life, we are used to the decimal system, which consists of steps to the power of 10. Instead the Octal system uses steps to the power of 8.
+The **octal** number system can be compared with the decimal, the hexadecimal, the [binary](https://www.codecademy.com/resources/docs/general/binary), and many other systems. As the name says the system consists of 8 different digits (0-7). In our daily life, we are used to the decimal system, which consists of steps to the power of 10. Instead the Octal system uses steps to the power of 8.
 
 However in modern technologies and programming the octal system is rarely used, instead, the binary or hexadecimal system is used commonly.
 In the case of the hexadecimal system, the octal system has the advantage of using only numbers, therefore, renouncing using the alphabet.
