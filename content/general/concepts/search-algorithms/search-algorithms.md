@@ -25,7 +25,7 @@ Uninformed search algorithms consist of general purpose traversals of the state 
 
 ### Informed Search
 
-Informed search algorithms have information about the goal during the traversal. This allows the search to prioritize its expansion toward the goal state instead of exploring directions that may have a good cost but dont lead to the goal. By including extra rules that help us estimate how close we are to the goal, known as _heuristics_, Informed search algorithms can be more computationally efficient when searching for a path to the goal state.
+Informed search algorithms have information about the goal during the traversal. This allows the search to prioritize its expansion toward the goal state instead of exploring directions that may yield a favorable cost but don't lead to the goal, or global optimum. By including extra rules that aid in estimating the location of the goal, known as _heuristics_, informed search algorithms can be more computationally efficient when searching for a path to the goal state.
 
 ## Types of Search Algorithms
 
