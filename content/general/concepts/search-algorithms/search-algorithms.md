@@ -55,7 +55,7 @@ Search algorithms are used in various fields of artificial intelligence, includi
 
 Pathfinding problems involve finding the shortest path between two points in a given graph or network. BFS or A\* search can be used to explore a graph and find the optimal path.
 
-### optimization
+### Optimization
 
 In optimization problems, the goal is to find the minimum or maximum value of a function, subject to some constraints. Search algorithms such as hill climbing or simulated annealing can be used to search for the optimal solution.
 
