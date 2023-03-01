@@ -1,14 +1,14 @@
 ---
-Title: 'Composition' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
+Title: 'Composition'
 Description: 'Composition is useful for building flexible and maintainable code.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
-Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
+Subjects:
   - 'Code Foundations'
   - 'Computer Science'
   - 'Web Development'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
+Tags:
   - 'Composition'
   - 'Development'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+CatalogContent:
   - 'learn-go'
   - 'paths/computer-science'
 ---
@@ -25,10 +25,10 @@ package main
 import "fmt"
 
 type Pizza struct {
-	Name        string
-	Size        string
-	Toppings    []string
-	IsDelicious bool
+  Name        string
+  Size        string
+  Toppings    []string
+  IsDelicious bool
 }
 ```
 
@@ -42,10 +42,10 @@ package main
 import "fmt"
 
 type Pizza struct {
-	Name        string
-	Size        string
-	Toppings    []string
-	IsDelicious bool
+  Name        string
+  Size        string
+  Toppings    []string
+  IsDelicious bool
 }
 
 func pizzaStyle(p Pizza) string {
@@ -53,14 +53,13 @@ func pizzaStyle(p Pizza) string {
 }
 
 func main() {
-	myPizza := Pizza{
-		Name:        "Margherita",
-		Size:        "medium",
-		Toppings:    []string{"tomatoes", "mozzarella", "basil"},
-		IsDelicious: true,
-	}
-
-	fmt.Println(pizzaStyle(myPizza))
+  myPizza := Pizza{
+    Name:        "Margherita",
+    Size:        "medium",
+    Toppings:    []string{"tomatoes", "mozzarella", "basil"},
+    IsDelicious: true,
+  }
+  fmt.Println(pizzaStyle(myPizza))
 }
 ```
 
@@ -80,52 +79,52 @@ package main
 import "fmt"
 
 type Pizza struct {
-	Name        string
-	Size        string
-	Toppings    []string
-	IsDelicious bool
+  Name        string
+  Size        string
+  Toppings    []string
+  IsDelicious bool
 }
 
 func pizzaStyle(p Pizza) string {
-	return p.Name + " pizza is a " + p.Size + " pizza with toppings of " + fmt.Sprint(p.Toppings)
+  return p.Name + " pizza is a " + p.Size + " pizza with toppings of " + fmt.Sprint(p.Toppings)
 }
 
 type Restaurant struct {
-	Name      string
-	Rating    int
-	PizzaMenu []Pizza
+  Name      string
+  Rating    int
+  PizzaMenu []Pizza
 }
 
 func restaurantInfo(r Restaurant) string {
-	return r.Name + " has a rating of " + fmt.Sprint(r.Rating) + " and serves the following pizzas: " + fmt.Sprint(r.PizzaMenu)
+  return r.Name + " has a rating of " + fmt.Sprint(r.Rating) + " and serves the following pizzas: " + fmt.Sprint(r.PizzaMenu)
 }
 
 func main() {
-	myPizza := Pizza{
-		Name:        "Margherita",
-		Size:        "medium",
-		Toppings:    []string{"tomatoes", "mozzarella", "basil"},
-		IsDelicious: true,
-	}
+  myPizza := Pizza{
+    Name:        "Margherita",
+    Size:        "medium",
+    Toppings:    []string{"tomatoes", "mozzarella", "basil"},
+    IsDelicious: true,
+  }
 
-	myRestaurant := Restaurant{
-		Name:      "Pizzeria del Corso",
-		Rating:    4,
-		PizzaMenu: []Pizza{myPizza},
-	}
+  myRestaurant := Restaurant{
+    Name:      "Pizzeria del Corso",
+    Rating:    4,
+    PizzaMenu: []Pizza{myPizza},
+  }
 
-	fmt.Println(pizzaStyle(myPizza))
-	fmt.Println(restaurantInfo(myRestaurant))
+  fmt.Println(pizzaStyle(myPizza))
+  fmt.Println(restaurantInfo(myRestaurant))
 }
 ```
 
 In this example `Restaurant` contains the `Pizza` structure.
 
-In this example, a `struct` named `Pizza` is defined with fields for the name, size, toppings, and whether or not it's delicious. The `pizzaStyle` function takes a `Pizza` struct as an argument and returns a string that describes the pizza.
+In this example, a `struct` named `Pizza` is defined with fields for the name, size, toppings, and whether or not it's delicious. The `pizzaStyle` function takes a `Pizza` `struct` as an argument and returns a string that describes the pizza.
 
 A `struct` named `Restaurant` is also defined that contains the `Pizza` structure, the restaurant name, and the restaurant rating. The `restaurantInfo()` function takes a `Restaurant` instance as an argument and returns a string that describes the restaurant.
 
-In the main function, a `Pizza` struct called `myPizza` and a `Restaurant` struct called `myRestaurant` are created. Then `myPizza` is passsed to `pizzaStyle` and `myRestaurant` is passed to `restaurantInfo`, which are then printed to the console.
+In the main function, a `Pizza` struct called `myPizza` and a `Restaurant` `struct` called `myRestaurant` are created. Then `myPizza` is passsed to `pizzaStyle` and `myRestaurant` is passed to `restaurantInfo`, which are then printed to the console.
 
 This example results in the following output:
 
@@ -134,7 +133,7 @@ Margherita pizza is a medium pizza with toppings of [tomatoes mozzarella basil]
 Pizzeria del Corso has a rating of 4 and serves the following pizzas: [{Margherita medium [tomatoes mozzarella basil] true}]
 ```
 
-## Conclusions
+## Benefits Of Using Composition
 
 Composition is a very strong technique for making complex structures and objects as a developer. Problems are broken down into smaller parts, and then managed in a structured way. The result is something that is efficient, maintainable, and flexible. (All important for solving problems!)
 
