@@ -13,11 +13,11 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'paths/computer-science'
 ---
 
-Go's **composition** is like having a big toolbox with all the special tools needed to build amazing computer projects. The English definition of compose means to "create" or "make up a whole by adding parts". Go's composition is a combination of various elements that make the language a powerful and efficient tool for software development. 
+Go's **composition** is like having a big toolbox with all the special tools needed to build amazing computer projects. The English definition of compose means to create or make up a whole by adding parts. Go's composition is a combination of various elements that make the language a powerful and efficient tool for software development. 
 
 ## Structs
 
-The following example creates a [struct](https://www.codecademy.com/resources/docs/go/structs) called `pizza`:
+The following example creates a [struct](https://www.codecademy.com/resources/docs/go/structs) called `Pizza`:
 
 ```go
 package main
@@ -32,7 +32,7 @@ type Pizza struct {
 }
 ```
 
-This struct can be used to create a new function that can help define what specific style of pizza is wanted.
+This structure can be used to create a new function that can help define what specific style of pizza is ordered.
 
 This is done in the following example:
 
@@ -119,11 +119,11 @@ func main() {
 }
 ```
 
-In this example the `Restaurant` struct contains the `Pizza` struct.
+In this example `Restaurant` contains the `Pizza` structure.
 
-In this example, a struct called `Pizza` is defined with fields for the name, size, toppings, and whether or not it's delicious. The `pizzaStyle` function takes a `Pizza` struct as an argument and returns a string that describes the pizza.
+In this example, a `struct` named `Pizza` is defined with fields for the name, size, toppings, and whether or not it's delicious. The `pizzaStyle` function takes a `Pizza` struct as an argument and returns a string that describes the pizza.
 
-A struct called `Restaurant` is also defined that contains the `Pizza` struct, the restaurant name, and the restaurant rating. The `restaurantInfo` function takes a `Restaurant` struct as an argument and returns a string that describes the restaurant.
+A `struct` named `Restaurant` is also defined that contains the `Pizza` structure, the restaurant name, and the restaurant rating. The `restaurantInfo()` function takes a `Restaurant` instance as an argument and returns a string that describes the restaurant.
 
 In the main function, a `Pizza` struct called `myPizza` and a `Restaurant` struct called `myRestaurant` are created. Then `myPizza` is passsed to `pizzaStyle` and `myRestaurant` is passed to `restaurantInfo`, which are then printed to the console.
 
