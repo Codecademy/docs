@@ -67,6 +67,21 @@ Sources are written in preference order, so that the first source listed is play
 </video>
 ```
 
+
+Here is another example of how attributes can be used together simultaneously:
+
+```html
+<video autoplay muted loop>
+  <source type="video/mp4" src="spooky_ghost.mp4" />
+</video>
+```
+
+- The `autoplay` attribute will play the video automatically once it has loaded.
+- `muted` ensures there will be no audio output.
+- `loop` will replay the video again once it has finished.
+
+These attributes can be used together in any order to specify how a video behaves on your webpage. You should also note that these attributes can be used with the `controls` attribute too.
+
 ## Accessibility with Videos
 
 It is generally discouraged to use videos as the background for a webpage. In many cases a static image should be considered instead in order to avoid any potential issues caused by moving images as well as to better support users with screen readers. However, if a video must be used as a background, a few key steps should be taken to best support the most users:
