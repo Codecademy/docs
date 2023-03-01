@@ -23,11 +23,11 @@ CI stands for Continuous Integration. This is the automation process for Develop
 
 ## CD
 
-The first CD stands for continuous delivery. This is the automated delivery of code to the testing and development steps of the pipeline. These environments are usually in a repository like [Github](https://www.github.com)
+The first CD stands for Continuous Delivery. This is the automated delivery of code to the testing and development steps of the pipeline. These environments are usually in a repository like [Github](https://www.github.com)
 
 ## The other CD
 
-The second CD stands for continuous deployment. When code passes the automated tests, it is automatically placed in production, which is then used for automatic deployment. 
+The second CD stands for Continuous Deployment. When code passes the automated tests, it is automatically placed in production, which is then used for automatic deployment. 
 
 ## Steps of the CICD Pipeline
 
