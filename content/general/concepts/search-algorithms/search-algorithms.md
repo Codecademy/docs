@@ -59,6 +59,6 @@ Pathfinding problems involve finding the shortest path between two points in a g
 
 In optimization problems, the goal is to find the minimum or maximum value of a function, subject to some constraints. Search algorithms such as hill climbing or simulated annealing are often used in optimization cases.
 
-### game playing
+### Game Playing
 
 in game playing, search algorithms are used to evaluate all possible moves and choose the one that is most likely to lead to a win or the best possible outcome. This is done by constructing a search tree where each node represents a game state and the edges represent the moves that can be taken to reach a new game state.
