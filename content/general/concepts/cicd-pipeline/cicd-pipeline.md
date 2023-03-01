@@ -7,8 +7,8 @@ Subjects:
   - 'Web Design'
   - 'Web Development'
 Tags:
-  - 'CICD'
-  - 'Automation'
+  - 'Developer Tools'
+  - 'Development'
 CatalogContent:
   - 'paths/front-end-engineer-career-path'
   - 'paths/back-end-engineer-career-path'
