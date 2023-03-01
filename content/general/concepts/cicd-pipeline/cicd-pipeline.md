@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/back-end-engineer-career-path'
 ---
 
-**CICD Pipeline** is the combination of continuous integration, delivery and deployment of software development and application deployment. The four main steps of the pipeline are: Source, Build, Test and Deploy. 
+The **CICD Pipeline** is the combination of continuous integration, delivery and deployment of software development and application deployment. The four main steps of the pipeline are: Source, Build, Test and Deploy. 
 
 ## CI
 
