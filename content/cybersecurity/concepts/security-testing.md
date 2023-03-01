@@ -5,6 +5,8 @@ Subjects:
   - 'Cybersecurity'
 Tags:
   - 'Cybersecurity'
+  - 'Ethical Hacking'
+  - 'Infrastructure'
 CatalogContent:
   - 'learn-security-testing'
   - 'paths/cybersecurity'
