@@ -67,7 +67,6 @@ Sources are written in preference order, so that the first source listed is play
 </video>
 ```
 
-
 Here is another example of how attributes can be used together simultaneously:
 
 ```html
@@ -80,7 +79,7 @@ Here is another example of how attributes can be used together simultaneously:
 - `muted` ensures there will be no audio output.
 - `loop` will replay the video again once it has finished.
 
-These attributes can be used together in any order to specify how a video behaves on your webpage. You should also note that these attributes can be used with the `controls` attribute too.
+These attributes can be used together in any order to specify how a video behaves on a webpage. Also note that these attributes can be used with the `controls` attribute too.
 
 ## Accessibility with Videos
 
