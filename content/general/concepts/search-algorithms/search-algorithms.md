@@ -1,6 +1,6 @@
 ---
 Title: 'Search Algorithms'
-Description: 'search algorithms are a class of algorithms used to find an optimal solution to a problem by exploring a search space.'
+Description: 'Search algorithms are a class of algorithms used to find an optimal solution to a problem by exploring a search space.'
 Subjects:
   - 'Machine Learning'
   - 'Computer Science'
