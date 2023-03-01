@@ -27,8 +27,3 @@ A virus's payload delivers the destructive power and negatively impacts the conf
 - Trojan Horse: A type of malware that uses code to install seemingly benign software, but it is actually used to create back doors into a system. The result is typically loss or theft of data.
 - Worm: A piece of malicious software that replicates itself in order to spread to other systems. It often traverses across a network, exploiting security flaws on the target system to allow access.
 - Spyware: Software that tries to monitor and gather information about a user without their knowledge or consent. It can monitor and log activity on a target system, or gather credit card and other personally identifiable information.
-
-
-
-
-
