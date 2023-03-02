@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.kerning()`** modifier sets the spacing size between text characters in a [view](https://www.codecademy.com/resources/docs/swiftui/views).
+The **`.kerning()`** modifier adjusts the spacing size between text characters in a [view](https://www.codecademy.com/resources/docs/swiftui/views).
 
 ## Syntax
 
