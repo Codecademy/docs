@@ -31,7 +31,6 @@ Common examples include but are not limited to:
 - Changing the order of rows of data by sorting those rows by the values of a certain column of data such as Date or Employee ID Number.
 - Adding columns and or rows of data to the DataFrame that were not present in the original DataFrame.
 
-
 ### .reset_index() Parameters
 The .reset_index() method provides many parameters which allow for more precision when resetting a DataFrame index. The following parameters will be used in the examples later in this article.
 
