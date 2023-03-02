@@ -32,4 +32,4 @@ A multi-faceted approach is the best way to prevent spear phishing. Email protec
 
 ## Spear phishing vs. Phishing vs. Whaling
 
-Spear phishing often is used interchangeably with phishing and whaling, but it is important to note the differences. Phishing is a more generic attempt to dupe a victim. It emphasizes quantity. Phishing emails or texts are usually sent to large groups of individuals as opposed to a targeted individual in a spear phishing campaign. Whaling prioritizes high-level targets, specifically the various chief officers of an organization. 
+Spear phishing is often used interchangeably with phishing and whaling, but it is important to note the differences. Phishing is a more generic attempt to dupe a victim. It emphasizes quantity. Phishing emails or texts are usually sent to large groups of individuals as opposed to a targeted individual in a spear phishing campaign. Whaling prioritizes high-level targets, specifically the various chief officers of an organization.
