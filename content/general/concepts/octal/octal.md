@@ -1,6 +1,6 @@
 ---
 Title: 'Octal' 
-Description: 'Octal is a number system that uses digits from 0 to 7. Compared to the decimal system each digit corresponds to the power of 8 instead of the power of 10.' 
+Description: 'Octal is a number system base 8. It consists of figures from 0 to 7. Every figure in a number written in octal corresponds to 8 to the power of the certain digit.'
 Subjects: 
   - 'Computer Science'
   - 'Data Science'
