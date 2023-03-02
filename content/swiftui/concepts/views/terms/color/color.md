@@ -51,4 +51,4 @@ var body: some View {
 
 The code-block above will display an interface filled with the color black and the text "Codecademy" in white.
 
-![Color](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-colors-background.png)
+![Color](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-color-background.png)
