@@ -1,5 +1,5 @@
 ---
-Title: 'regionMatches()'
+Title: '.regionMatches()'
 Description: 'Tests if two string regions are equal.'
 Subjects:
   - 'Computer Science'
@@ -12,12 +12,12 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.regionMatches()`** tests if two string regions are equal. It compares a substring of the String object with another substring of the string passed as an argument.
+The **`.regionMatches()`** method tests if two string regions are equal. It compares a substring of the String object with another substring of the string passed as an argument.
 
 ## Syntax
 
-```java
-regionMatches (boolean ignoreCase, int toffset, String other, int ooffset, int len);
+```pseudo 
+string.regionMatches(boolean ignoreCase, int toffset, String other, int ooffset, int len);
 ```
 
 Where:
