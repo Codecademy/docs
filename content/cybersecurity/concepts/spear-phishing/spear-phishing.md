@@ -22,9 +22,9 @@ The targeted nature of spear phishing makes it difficult to detect. For example,
 
 Spear phishing can have significant financial and reputational consequences for an organization, however there are signs to watch out for to stay protected against these threats:
 
-- _A sense of urgency_: spear phishing subject lines usually provoke an urgent response in the hope that the victim will act impulsively and engage.
-- _Poor imaging_: most companies will make sure to provide high-quality logos and images in their emails. A spear phishing email may contain grainy or blurry graphics.
-- _Links, addresses and domains_: look for discrepancies in email addresses, links and domain names to identify a potential spear phishing attempt. If there is a link, hover over it to reveal the URL. 
+- A sense of urgency: Spear phishing subject lines usually provoke an urgent response in the hope that the victim will act impulsively and engage.
+- Poor imaging: Most companies will make sure to provide high-quality logos and images in their emails. A spear phishing email may contain grainy or blurry graphics.
+- Links, addresses and domains: Look for discrepancies in email addresses, links and domain names to identify a potential spear phishing attempt. If there is a link, hover over it to reveal the URL. 
 
 ## How to prevent spear phishing?
 
