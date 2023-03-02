@@ -29,7 +29,7 @@ The `.replaceFirst()` method takes two parameters:
 
 The `.replaceFirst()` method returns a string with the replaced substring.
 
-The `.replaceFirst()` method only replaces the first matching occurrence of the `substring`, while the [`.replaceAll()`](https://www.codecademy.com/resources/docs/java/strings/replaceAll) replaces all matching occurrences of the `substring`.
+The `.replaceFirst()` method only replaces the first matching occurrence of the `substring`, while [`.replaceAll()`](https://www.codecademy.com/resources/docs/java/strings/replaceAll) replaces all matching occurrences of the `substring`.
 
 ## Example
 
