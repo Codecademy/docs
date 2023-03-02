@@ -38,7 +38,7 @@ The example below replaces the first occurrence of the substring `pizza` in `myS
 ```java
 public class Main {
   public static void main(String[] args) {
-    String myString = "I love pizza. I eat pizza every day. I make my own pizza. ";
+    String myString = "I love pizza. I eat pizza every day. I make my own pizza.";
     String substring = "pizza";
     String replacement = "donut";
     
