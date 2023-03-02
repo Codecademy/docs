@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/fundamentals-of-cybersecurity'
 ---
 
-**Risk management** is a detailed process of identifying factors that could damage or disclose data, evaluating those factors, and implementing careful solutions for mitigating or reducing risk.
+**Risk management** is a detailed process of identifying factors that could damage or expose data, evaluating those factors, and implementing careful solutions for mitigating, or reducing, risk.
 
 ## Risk Management In-Use:
 
