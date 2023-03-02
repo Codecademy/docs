@@ -6,7 +6,7 @@ Subjects:
   - 'iOS'
 Tags:
   - 'SwiftUI'
-  - 'SwiftUI Modifiers'
+  - 'SwiftUI ViewModifiers'
   - 'Xcode'
 CatalogContent:
   - 'learn-swift'

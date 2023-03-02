@@ -6,7 +6,7 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'SwiftUI'
-  - 'SwiftUI Modifiers'
+  - 'SwiftUI ViewModifiers'
 CatalogContent:
   - 'learn-swift'
   - 'paths/computer-science'
