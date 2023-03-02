@@ -10,13 +10,11 @@ Tags:
 CatalogContent:
   - 'learn-security-testing'
   - 'paths/cybersecurity'
-
 ---
 
 **Security testing** is a critical aspect of software development that helps protect systems and applications from potential security threats.
   - It examines security, discovers weaknesses, and confirms compliance with industry standards and regulations.
   - With growing cyber attacks and data breaches, security testing is crucial to ensure the confidentiality, integrity, and availability of sensitive data.
-
 
 There are three main methods for security testing:
   - Black Box Testing
