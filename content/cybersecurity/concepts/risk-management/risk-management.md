@@ -18,7 +18,7 @@ CatalogContent:
 
 An organization may need to employ risk management strategies to mitigate and safeguard against cybersecurity threats. Cyber risk management can encompass the identification of risks, assessment of those risks, and the implementation of controls to reduce the risk. 
 
-## Commonly Used Risk Management Frameworks:
+## Commonly Used Risk Management Frameworks
 
  - _NIST CSF_: the National Institute of Standards and Technology Cybersecurity Framework (NIST CSF) is a voluntary framework which consists of standards, guidelines and leading practices to manage cybersecurity risk.
 - _ISO 27001_: the International Organization for Standardization (ISO) publishes the leading international standard focused on information security known as ISO 27001. This is also a voluntary international standard.
