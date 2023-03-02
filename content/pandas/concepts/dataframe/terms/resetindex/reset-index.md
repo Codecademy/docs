@@ -1,6 +1,6 @@
 ---
 Title: '.reset_index()'
-Description: 'This article is about how the .reset_index() is used in pandas dataframes.'
+Description: 'Resets the index of a DataFrame to be continuous' 
 Subjects: 
   - 'Data Science'
   - 'Pandas'
@@ -12,8 +12,7 @@ CatalogContent:
   - 'learn-python'
   - 'paths/data-science'
 ---
-This article is about how the **.reset_index()** is used in pandas dataframes.
-
+Sometimes there is a need to modify a DataFrame object to better meet a certain use case. When these modifications are applied they often leave smaller DataFrames with indexes that are messy and not continuous. Resetting the index with **.reset_index()** fixes these issues.
 
 ## Syntax
 ```py
@@ -22,27 +21,21 @@ df.read_csv('some_csv.csv', index_col = 'Account Number')
 df.reset_index()
 ```
 
-
-### What Is .reset_index() 
-Sometimes there is a need to modify a dataframe object to better meet a certain use case. When these modifications are applied they often leave smaller dataframes with indexes that are messy and not continuous.
-Resetting the index with .reset_index() fixes these issues.
-
-
 ### Actions Which Cause Indexing Issues 
 Common examples include but are not limited to:
 
 - Changing the order of columns.
 - Using a column or multiple columns of the database as an index instead of the default index pandas provides and then later needing a numbered index.
-- Filtering out certain rows of the dataframe based on the value of a column of data.
+- Filtering out certain rows of the DataFrame based on the value of a column of data.
 - Changing the order of rows of data by sorting those rows by the values of a certain column of data such as Date or Employee ID Number.
-- Adding columns and or rows of data to the dataframe that were not present in the original dataframe.
+- Adding columns and or rows of data to the DataFrame that were not present in the original DataFrame.
 
 
 ### .reset_index() Parameters
-The .reset_index() method provides many parameters which allow for more precision when resetting a dataframe index. The following parameters will be used in the examples later in this article.
+The .reset_index() method provides many parameters which allow for more precision when resetting a DataFrame index. The following parameters will be used in the examples later in this article.
 
-- *drop:* The drop parameter can be set to True or False and is set to False by default. When this parameter is set to True it replaces the previous dataframe index with the new index provided by .reset_index() otherwise it sets the new index in front of the old index.
-- *inplace:* The inplace parameter can be set to True or False and is set to False by default. When this parameter is set to True it applies all changes .reset_index() makes to the current instance of the dataframe otherwise it creates a new dataframe instance with the changes applied to that dataframe.
+- *drop:* The drop parameter can be set to True or False and is set to False by default. When this parameter is set to True it replaces the previous DataFrame index with the new index provided by .reset_index() otherwise it sets the new index in front of the old index.
+- *inplace:* The inplace parameter can be set to True or False and is set to False by default. When this parameter is set to True it applies all changes .reset_index() makes to the current instance of the DataFrame otherwise it creates a new DataFrame instance with the changes applied to that DataFrame.
 
 
 ## Examples
@@ -59,6 +52,8 @@ print(df)
 ```
 
 ## Output
+This results in the following output:
+
 ```shell
 
   Animal ID          Name                DateTime     MonthYear  \
@@ -98,15 +93,15 @@ import pandas as pd
 df = pd.read_csv('Austin_Animal_Center_intakes.csv').head()
 pd.set_option('display.max_columns', None)
 
-#this section of code removes the furball from our dog dataframe
+#this section of code removes the furball from our dog DataFrame
 df = df[df['Animal Type'] != 'Cat']
 
-#uncommenting the line below this line will remove the index of the original dataframe and reset the order
+#uncommenting the line below this line will remove the index of the original DataFrame and reset the order
 #df.reset_index(inplace = True, drop = True)
 print(df)
 ```
 
-## Output without df.reset_index(inplace = True, drop = True)
+## Output without `df.reset_index(inplace = True, drop = True)`:
 ```shell
 
   Animal ID     Name                DateTime     MonthYear  \
@@ -134,10 +129,9 @@ print(df)
 4  Doberman Pinsch/Australian Cattle Dog     Tan/Gray
 ```
 
-The indexing now jumps from two to four after the row containing the cat is removed. This can become very messy when dealing with large dataframes containing hundreds or even thousands of rows.
+The indexing now jumps from two to four after the row containing the cat is removed. This can become very messy when dealing with large DataFrames containing hundreds or even thousands of rows.
 
-
-## Output With df.reset_index(inplace = True, drop = True)
+This is the output with `df.reset_index(inplace = True, drop = True)`:
 ```
   Animal ID     Name                DateTime     MonthYear  \
 0   A786884   *Brock  01/03/2019 04:19:00 PM  January 2019   
@@ -164,5 +158,4 @@ The indexing now jumps from two to four after the row containing the cat is remo
 3  Doberman Pinsch/Australian Cattle Dog     Tan/Gray
 ```
 
-After applying df.reset_index(inplace = True, drop = True) the dataframe index order is now neat and continuous for easy indexing.
-Sorry, Johnny Ringo dogs are just cooler than cats!
+After applying `df.reset_index(inplace = True, drop = True)` the DataFrame index order is now neat and continuous for easy indexing.
