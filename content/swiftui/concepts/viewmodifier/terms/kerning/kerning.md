@@ -45,7 +45,7 @@ struct KerningView: View {
 }
 ```
 
-In the above example, the `.kerning()` modifier is called on three text views, contained in a [`VStack`](https://www.codecademy.com/resources/docs/swiftui/views/vstack).
+In the above example, the `.kerning()` modifier is called on three text views, contained in a [`VStack`](https://www.codecademy.com/resources/docs/swiftui/views/vstack):
 
 - In the first, the kerning value is set to `-5`, decreasing the spacing between the characters by `-5` points.
 - In the second, the kerning value is set to `0`, applying the default spacing and so the text will not be affected.
