@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **octal** number system can be compared with the decimal, the hexadecimal, the [binary](https://www.codecademy.com/resources/docs/general/binary), and many other systems. As the name says the system consists of 8 different digits (0-7). In our daily life, we are used to the decimal system, which consists of steps to the power of 10. Instead the Octal system uses steps to the power of 8.
+The **octal** number system is base 8. The number system that we are used to is decimal, which is base 10. There are other number systems like [binary](https://www.codecademy.com/resources/docs/general/binary) or hexadecimal that work similarly. The octal system being base 8 means that there are only 8 possible digits: 0-7. Nevertheless, every number can be displayed.
 
 In the past, the octal system was used more often because systems were based on 12/24/36-bit but in today's technologies, especially with 16/32/64-bit the binary or hexadecimal system is used commonly. In the case of the hexadecimal system, the octal system has the advantage of using only numbers, therefore, renouncing using the alphabet.
 
