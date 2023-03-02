@@ -37,7 +37,7 @@ This algorithm explores as far as possible along each branch before backtracking
 
 ### Breadth-First Search (BFS)
 
-This algorithm explores all the neighbor nodes at the present depth before moving on to the nodes at the next depth level. BFS is often used when the search space is relatively small. Think of BFS as a traversal pattern that tries to explore broadly across many different paths at the same time.
+This algorithm explores all the neighbor nodes at the current level before moving on to the nodes at the next level. Think of BFS as a traversal pattern that tries to explore broadly across many different paths at the same time.
 
 ### Uniform Cost Search (UCS)
 
