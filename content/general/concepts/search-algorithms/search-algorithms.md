@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-A **search algorithm** is a type of algorithm used in artificial intelligence to find the best or most optimal solution to a problem by exploring a set of possible solutions, also called a *search space*. Essentially, search algorithms help computers filter through a large number of possibilities in order to find a solution that works best for a given set of constraints.
+A **search algorithm** is a type of algorithm used in artificial intelligence to find the best or most optimal solution to a problem by exploring a set of possible solutions, also called a *search space*. A search algorithm filters through a large number of possibilities to find a solution that works best for a given set of constraints.
 
 Search algorithms typically operate by organizing the search space into a particular type of graph, commonly a tree, and evaluate the best score, or *cost*, of traversing each branch of the tree. A solution is a path from the start state to the goal state that optimizes the cost given the parameters of the implemented algorithm.
 
