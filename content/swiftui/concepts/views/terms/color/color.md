@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-A **Color** view is a way into incorporate colors in the user interface. It can be used to modify the backgrounds.
+A **Color** view is a way to incorporate colors into the user interface. It can be used to modify the backgrounds.
 
 ## Syntax
 
