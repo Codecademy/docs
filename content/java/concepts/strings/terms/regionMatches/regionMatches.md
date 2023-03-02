@@ -12,34 +12,46 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.regionMatches()`** method converts all the characters of a string to lowercase characters in Java.
-
-> **Note:** This method is locale sensitive, in consequence it might produce unexpected results because it takes into account the user's locale, particularly when the string represents locale-specific values, e.g. date or time.
+The **`.regionMatches()`** tests if two string regions are equal. It compares a substring of the String object with another substring of the string passed as an argument.
 
 ## Syntax
 
 ```java
-upperCaseString.toLowerCase();
+regionMatches (boolean ignoreCase, int toffset, String other, int ooffset, int len);
 ```
 
-Where `upperCaseString` is the string with some or all upper case characters to be converted.
+Where:
+- `ignoreCase` is a boolean value that specifies whether the method should be case-sensitive or not.
+- `toffset` is an integer representing the index of the starting point of the substring in the first string to be compared.
+- `other` is the string argument to be compared.
+- `ooffset` is an integer representing the index of the starting point of the substring in the second string to be compared.
+- `len` is an integer representing the number of characters to be compared in both strings.
+&nbsp;  
+
+> **Note:** For the method to be case sensitive, `ignoreCase` can also be omitted.
 
 ## Example
 
-This example converts uppercase characters to lowercase characters:
+This example compares a substring of the String object with a substring of a specified string:
 
 ```java
 // Example.java
-public class Example {
-    public static void main(String[] args){
-        String S1 = new String("ThiS IS an EXAMple");
-        System.out.println(S1.toLowerCase());
-    }
+public class Example{
+  
+  public static void main(String[] args){
+     
+    String S1 = new String("This is an example");
+    String S2 = new String("is");
+    System.out.print("Result of comparing S1 with S2: ");
+    System.out.println(S1.regionMatches(true, 5, S2, 0, 2));
+    
+  }
+  
 }
 ```
 
 This outputs the following:
 
 ```shell
-this is an example
+Result of comparing S1 with S2: true
 ```
