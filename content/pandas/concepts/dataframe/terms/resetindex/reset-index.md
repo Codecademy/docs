@@ -38,7 +38,6 @@ The .reset_index() method provides many parameters which allow for more precisio
 - *drop:* The drop parameter can be set to True or False and is set to False by default. When this parameter is set to True it replaces the previous DataFrame index with the new index provided by .reset_index() otherwise it sets the new index in front of the old index.
 - *inplace:* The inplace parameter can be set to True or False and is set to False by default. When this parameter is set to True it applies all changes .reset_index() makes to the current instance of the DataFrame otherwise it creates a new DataFrame instance with the changes applied to that DataFrame.
 
-
 ## Examples
 In the following examples imagine working on a project about dogs and wanting to use data from an animal shelter about dogs in that shelter but the data in the .csv file has data about cats and dogs.
 To follow along a copy of the [Austin_Animal_Center_intakes.csv](https://www.kaggle.com/datasets/jackdaoud/animal-shelter-analytics) can be downloaded from Kaggle.
