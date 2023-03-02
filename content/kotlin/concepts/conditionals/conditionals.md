@@ -106,6 +106,7 @@ fun main() {
 The output for the above code will be:
 
 ```shell
+Is it going to rain?
 Likely
 ```
 
