@@ -14,7 +14,7 @@ CatalogContent:
 
 **Risk management** is a detailed process of identifying factors that could damage or expose data, evaluating those factors, and implementing careful solutions for mitigating, or reducing, risk.
 
-## Risk Management In-Use:
+## Risk Management In-Use
 
 An organization may need to employ risk management strategies to mitigate and safeguard against cybersecurity threats. Cyber risk management can encompass the identification of risks, assessment of those risks, and the implementation of controls to reduce the risk. 
 
