@@ -26,7 +26,7 @@ var body: some View {
 }
 ```
 
-- `Color.color-example`  changes the background color.
+- `Color.color-example` changes the background color.
 - `.foregroundColor(.color-example)` changes the color of the content (ex: "text") itself.
 
 ## Example
@@ -46,7 +46,7 @@ var body: some View {
   }
 ```
 
-- `Color.black` makes the background color black. 
+- `Color.black` makes the background color black.
 - `foregroundColor(.white)` sets the text color to white.
 
 The code-block above will display an interface filled with the color black and the text "Codecademy" in white.
