@@ -1,6 +1,6 @@
 ---
 Title: '.kerning()'
-Description: 'Sets the spacing size between text characters in a view.'
+Description: 'Adjusts the spacing size between text characters in a view.'
 Subjects:
   - 'Mobile Development'
   - 'iOS'
