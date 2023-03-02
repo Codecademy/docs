@@ -18,7 +18,7 @@ CatalogContent:
 
 The targeted nature of spear phishing makes it difficult to detect. For example, attackers who claim to be the CEO could trick finance executives into sending money to their bank account. An attacker might create messages that seem like the IT (Information Technology) Department is asking for more information. Deploying [multi-factor authentication](https://www.codecademy.com/resources/docs/cybersecurity/multi-factor-authentication), strong password management policies, and participating in training and awareness campaigns are good measures to help mitigate risks.
 
-## Signs of spear phishing
+## Signs of Spear Phishing
 
 Spear phishing can have significant financial and reputational consequences for an organization, however there are signs to watch out for to stay protected against these threats:
 
