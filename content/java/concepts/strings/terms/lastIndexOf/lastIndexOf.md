@@ -1,6 +1,6 @@
 ---
 Title: '.lastIndexOf()'
-Description: 'Searches a string for a specified value, and returns the position of the match.'
+Description: 'Searches a string for a specified value and returns the position of the match.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -29,13 +29,12 @@ This example below searches the string `sentence` for the value `'the'` and retu
 
 ```java
 class Main {
-   public static void main(String[] args) {
+  public static void main(String[] args) {
+    String sentence = "The quick brown fox jumps over the lazy dog";
 
-     String sentence = "The quick brown fox jumps over the lazy dog";
+    int lastPos = sentence.lastIndexOf("the");
 
-     int lastPos = sentence.lastIndexOf("the");
-
-     System.out.println(lastPos);
+    System.out.println(lastPos);
   }
 }
 ```
