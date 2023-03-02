@@ -1,6 +1,6 @@
 ---
 Title: 'Void'
-Description: 'Void types denote functions that have side effects but do not return an actual result.'
+Description: 'Denotes functions that have side effects but do not return an actual result.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
