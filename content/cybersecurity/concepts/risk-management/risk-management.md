@@ -1,6 +1,6 @@
 ---
 Title: 'Risk Management'
-Description: 'Risk management is a detailed process of identifying factors that could damage or disclose data, evaluating those factors, and implementing careful solutions for mitigating or reducing risk.'
+Description: 'Risk management is a detailed process of identifying factors that could damage or expose data, evaluating those factors, and implementing careful solutions for mitigating risk.'
 Subjects:
   - 'Computer Science'
   - 'Cybersecurity'
