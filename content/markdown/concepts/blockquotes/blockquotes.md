@@ -51,6 +51,12 @@ Blockquotes can also be nested by adding two chevrons `>>` in front of it:
 > > The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
 ```
 
+The output would be:
+
+> Dorothy followed her through many of the beautiful rooms in her castle.
+>
+> > The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+
 ## Blockquotes with Other Elements
 
 Blockquotes can contain other Markdown formatted elements, though, not all elements can be used — you’ll need to experiment to see which ones work with your .md processor.
