@@ -25,7 +25,7 @@ issubclass(class, candidateClasses)
 - `class` - A validly defined class.
 - `candidateClasses` - A single class or type, or a [tuple](https://www.codecademy.com/resources/docs/python/tuples) of classes and types.
 
-If any relationship exists, `True` is returned, `False` otherwise.
+If `class` is a subclass of `candidateClasses` (direct or indirect), `True` is returned, `False` otherwise.
 
 ## Example
 
