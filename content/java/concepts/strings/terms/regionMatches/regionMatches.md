@@ -26,7 +26,6 @@ Where:
 - `other` is the string argument to be compared.
 - `ooffset` is an integer representing the index of the starting point of the substring in the second string to be compared.
 - `len` is an integer representing the number of characters to be compared in both strings.
-&nbsp;  
 
 > **Note:** For the method to be case sensitive, `ignoreCase` can also be omitted.
 
