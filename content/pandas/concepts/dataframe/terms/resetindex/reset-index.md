@@ -15,13 +15,24 @@ CatalogContent:
 Sometimes there is a need to modify a DataFrame object to better meet a certain use case. When these modifications are applied they often leave smaller DataFrames with indexes that are messy and not continuous. Resetting the index with **.reset_index()** fixes these issues.
 
 ## Syntax
+
 ```py
 import pandas as pd
 df.read_csv('some_csv.csv', index_col = 'Account Number')
 df.reset_index()
 ```
 
-### Actions Which Cause Indexing Issues 
+In this syntax example the `index_col = Account Number` parameter sets the index of the DataFrame to a column named Account Number and then df.reset_index() resets the DataFrame index. 
+
+### `.reset_index()` Parameters
+
+The .reset_index() method provides many parameters which allow for more precision when resetting a DataFrame index. The following parameters will be used in the examples later in this article.
+
+- *drop:* The drop parameter can be set to True or False and is set to False by default. When this parameter is set to True it replaces the previous DataFrame index with the new index provided by .reset_index() otherwise it sets the new index in front of the old index.
+- *inplace:* The inplace parameter can be set to True or False and is set to False by default. When this parameter is set to True it applies all changes .reset_index() makes to the current instance of the DataFrame otherwise it creates a new DataFrame instance with the changes applied to that DataFrame.
+
+## Actions Which Cause Indexing Issues 
+
 Common examples include but are not limited to:
 
 - Changing the order of columns.
@@ -30,19 +41,13 @@ Common examples include but are not limited to:
 - Changing the order of rows of data by sorting those rows by the values of a certain column of data such as Date or Employee ID Number.
 - Adding columns and or rows of data to the DataFrame that were not present in the original DataFrame.
 
-
-### .reset_index() Parameters
-The .reset_index() method provides many parameters which allow for more precision when resetting a DataFrame index. The following parameters will be used in the examples later in this article.
-
-- *drop:* The drop parameter can be set to True or False and is set to False by default. When this parameter is set to True it replaces the previous DataFrame index with the new index provided by .reset_index() otherwise it sets the new index in front of the old index.
-- *inplace:* The inplace parameter can be set to True or False and is set to False by default. When this parameter is set to True it applies all changes .reset_index() makes to the current instance of the DataFrame otherwise it creates a new DataFrame instance with the changes applied to that DataFrame.
-
-
 ## Examples
+
 In the following examples imagine working on a project about dogs and wanting to use data from an animal shelter about dogs in that shelter but the data in the .csv file has data about cats and dogs.
 To follow along a copy of the [Austin_Animal_Center_intakes.csv](https://www.kaggle.com/datasets/jackdaoud/animal-shelter-analytics) can be downloaded from Kaggle.
 
 ## Example Of The Original Dataframe
+
 ```py
 import pandas as pd
 
@@ -51,7 +56,6 @@ pd.set_option('display.max_columns', None)
 print(df)
 ```
 
-## Output
 This results in the following output:
 
 ```shell
@@ -85,7 +89,7 @@ This results in the following output:
 4  Doberman Pinsch/Australian Cattle Dog      Tan/Gray
 ```
 
-## Example Removing Cats From Dataframe
+### Example Removing Cats From Dataframe
 
 ```py
 import pandas as pd
@@ -102,6 +106,7 @@ print(df)
 ```
 
 ## Output without `df.reset_index(inplace = True, drop = True)`:
+
 ```shell
 
   Animal ID     Name                DateTime     MonthYear  \
