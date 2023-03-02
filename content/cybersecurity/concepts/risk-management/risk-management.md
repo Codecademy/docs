@@ -28,7 +28,7 @@ An organization may need to employ risk management strategies to mitigate and sa
 
 The following four strategies are commonly used in cyber risk management.
 
-- _Acceptance_: acceptance occurs when the result after a cost/benefits analysis shows that the costs of prevention and protection would outweigh the possible cost of loss due to the risk.
-- _Mitigation_: mitigation is when controls and other preventive measures are used to reduce the level of risk facing an organization.
-- _Risk Transfer_: risk transfer occurs when one party shifts the pure risk from one party to another.
-- _Avoidance_: avoidance occurs when a party eliminates risks and hazards that can negatively affect an organization and its assets.
+- Acceptance: Acceptance occurs when the result after a cost/benefits analysis shows that the costs of prevention and protection would outweigh the possible cost of loss due to the risk.
+- Mitigation: Mitigation is when controls and other preventive measures are used to reduce the level of risk facing an organization.
+- Risk Transfer: Risk transfer occurs when one party shifts the pure risk from one party to another.
+- Avoidance: Avoidance occurs when a party eliminates risks and hazards that can negatively affect an organization and its assets.
