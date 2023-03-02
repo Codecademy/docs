@@ -30,6 +30,6 @@ Spear phishing can have significant financial and reputational consequences for 
 
 A multi-faceted approach is the best way to prevent spear phishing. Email protection solutions can detect suspicious emails. Security awareness training is equally as important. Employees are often the first line of defense so it is very important that they are trained on how to detect suspicious cyber activity. Employees need to know that they should not open spam or unsolicited email from unknown parties and that they should never click on links in the email. 
 
-## Spear phishing vs. Phishing vs. Whaling:
+## Spear phishing vs. Phishing vs. Whaling
 
 Spear phishing often is used interchangeably with phishing and whaling, but it is important to note the differences. Phishing is a more generic attempt to dupe a victim. It emphasizes quantity. Phishing emails or texts are usually sent to large groups of individuals as opposed to a targeted individual in a spear phishing campaign. Whaling prioritizes high-level targets, specifically the various chief officers of an organization. 
