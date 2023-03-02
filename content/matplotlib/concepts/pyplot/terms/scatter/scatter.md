@@ -1,12 +1,12 @@
 ---
-Title: '.scatter()
+Title: '.scatter()'
 Description: 'Creates a scatter plot of x vs. y values.'
 Subjects:
  - 'Data Science'
  - 'Data Visualization'
 Tags:
  - 'Graphs'
- - ' Libraries'
+ - 'Libraries'
  - 'Matplotlib'
 CatalogContent:
  - 'learn-python-3'
@@ -37,7 +37,7 @@ Both 'x' and 'y' parameters are required, and represent float or array-like obje
 - `edgecolors`: The edge color of the marker.
 - `plotnonfinite`: Boolean value determining whether to plot nonfinite (`inf`, `-inf`, `nan`) values. Default is `False`.
 
-## Example
+## Examples
 
 Examples below demonstrate the use of `.scatter()` to plot values and vary marker properties.
 
@@ -50,7 +50,9 @@ y1 = [14, 28, 44, 56, 67, 53, 47, 30, 11]
 plt.scatter(x1, y1)
 plt.show()
 ```
+
 Output:
+
 ![Output of matplotlib.pyplot.scatter() function example](/media/matplotlib-scatter-1.png)
 
 ```py
@@ -64,5 +66,6 @@ plt.show()
 ```
 
 Output:
+
 ![Output of matplotlib.pyplot.scatter() function example 2](/media/matplotlib-scatter-2.png)
 
