@@ -33,7 +33,7 @@ The `.replaceFirst()` method only replaces the first matching occurrence of the 
 
 ## Example
 
-The example below replaces the first occurrence of the substring `pizza` in the `myString` string with the replacement substring `donut`. Then, it uses the `System.out.println()` method to display both the original and replaced strings on the console:
+The example below replaces the first occurrence of the substring `pizza` in `myString` with the string `donut` and prints the results.
 
 ```java
 public class Main {
