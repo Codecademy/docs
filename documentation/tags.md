@@ -58,7 +58,9 @@ Comments
 Comparison
 Compilation
 Components
+Composition
 Computer Vision
+CMS
 Concatenation
 Conceptual
 Const
@@ -106,6 +108,7 @@ Events
 Exceptions
 Expo
 Express
+Favicon
 Files
 Finance
 Firebase
@@ -120,6 +123,7 @@ Formatting
 Frameworks
 Functions
 Functional Programming
+Functors
 Ggplot2
 Git
 GitHub
@@ -196,6 +200,7 @@ OOP
 Open Source
 Operating Systems
 Operators
+Optimization
 Optionals
 Output
 p5
@@ -304,6 +309,7 @@ Web3
 WebRTC
 While
 Whiteboarding
+WordPress
 World Wide Web
 Xcode
 ```
