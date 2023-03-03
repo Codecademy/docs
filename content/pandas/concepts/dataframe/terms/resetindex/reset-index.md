@@ -33,6 +33,7 @@ The `.reset_index()` method provides many parameters which allow for more precis
 - *inplace:* The inplace parameter can be set to True or False and is set to False by default. When this parameter is set to True it applies all changes `.reset_index()` makes to the current instance of the DataFrame otherwise it creates a new DataFrame instance with the changes applied to that DataFrame.
 
 ## Actions Which Cause Indexing Issues 
+
 Common examples include but are not limited to:
 
 - Changing the order of columns.
