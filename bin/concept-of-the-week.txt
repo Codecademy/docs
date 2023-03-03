@@ -1,1 +1,1 @@
-content/css/concepts/math-functions/math-functions.md
+content/sql/concepts/dates/dates.md
