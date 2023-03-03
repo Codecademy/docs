@@ -58,7 +58,6 @@ struct FontView: View {
             Text("Some text using a created system monospaced font.")
                 .font(.system(.title2, design: .monospaced, weight: .bold))
         }.padding()
-
     }
 }
 ```
