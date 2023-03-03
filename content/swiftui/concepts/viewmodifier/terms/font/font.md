@@ -17,12 +17,8 @@ The **`.font()`** modifier applies a specified font to text in a [view](https://
 ## Syntax
 
 ```pseudo
-struct MyView: View {
-    var body: some View {
-        Text("This text will have the font below applied to it.")
-            .font(.fontName)
-    }
-}
+Text("This text will have the font below applied to it.")
+    .font(.fontName)
 ```
 
 Inside `some View`, the `.fontName` font passed as an argument to the `.font()` modifier is applied to all text within the [text view](https://www.codecademy.com/resources/docs/swiftui/views/text). There are a selection of standard fonts available. It's also possible to create system fonts and add in custom fonts.
