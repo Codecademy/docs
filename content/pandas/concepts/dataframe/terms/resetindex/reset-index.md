@@ -23,7 +23,7 @@ df.read_csv('some_csv.csv', index_col = 'Account Number')
 df.reset_index()
 ```
 
-In this syntax example the `index_col = Account Number` parameter sets the index of the DataFrame to a column named Account Number and then df.reset_index() resets the DataFrame index. 
+In this syntax example the `index_col = Account Number` parameter sets the index of the DataFrame to a column named Account Number and then `df.reset_index()` resets the DataFrame index. 
 
 ### `.reset_index()` Parameters
 
