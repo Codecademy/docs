@@ -23,6 +23,7 @@ arrayName.length;
 ```
 
 - `arrayName`: The name of the array to call `.length` on.
+
 ## Example
 
 The example below uses the `.length` property to determine the size of an array:
