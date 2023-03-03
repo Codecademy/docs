@@ -21,7 +21,7 @@ Text("I will be bold text!")
     .bold()
 ```
 
-The `.bold()` modifier takes no parameters and returns the `Text` view with bold text.
+The `.bold()` modifier takes no parameters and returns a `Text` view with bold text.
 
 ## Example
 
