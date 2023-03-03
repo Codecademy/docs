@@ -106,7 +106,7 @@ df = df[df['Animal Type'] != 'Cat']
 print(df)
 ```
 
-## Output without `df.reset_index(inplace = True, drop = True)`:
+This is the output without `df.reset_index(inplace = True, drop = True)`:
 
 ```shell
 
