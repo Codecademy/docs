@@ -34,7 +34,7 @@ Here are some of the available built-in text field styles:
 
 ## Examples
 
-The following example shows a `TextField` contained in a [`Vstack`](https://www.codecademy.com/resources/docs/swiftui/views/vstack), with a built-in style applied:
+The following example shows a `TextField` contained in a [`VStack`](https://www.codecademy.com/resources/docs/swiftui/views/vstack), with a built-in style applied:
 
 ```swift
 import SwiftUI
