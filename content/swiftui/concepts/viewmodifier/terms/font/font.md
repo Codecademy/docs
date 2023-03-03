@@ -21,7 +21,7 @@ Text("This text will have the font below applied to it.")
     .font(.fontName)
 ```
 
-Inside `some View`, the `.fontName` font passed as an argument to the `.font()` modifier is applied to all text within the [text view](https://www.codecademy.com/resources/docs/swiftui/views/text). There are a selection of standard fonts available. It's also possible to create system fonts and add in custom fonts.
+The `.fontName` passed as an argument to the `.font()` modifier is applied to all text within the [text view](https://www.codecademy.com/resources/docs/swiftui/views/text). There are a selection of standard fonts available. It's also possible to create system fonts and add in custom fonts.
 
 Here are some standard fonts:
 
