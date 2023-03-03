@@ -66,4 +66,4 @@ In the above example, various standard fonts are applied to the first six text v
 
 This will display:
 
-![SwiftUI ViewModifier .font()](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-font.png)
+![SwiftUI ViewModifier .font()](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-viewmodifier-font.png)
