@@ -12,6 +12,7 @@ CatalogContent:
   - 'learn-python'
   - 'paths/data-science'
 ---
+
 Sometimes there is a need to modify a DataFrame object to better meet a certain use case. When these modifications are applied they often leave smaller DataFrames with indexes that are messy and not continuous. Resetting the index with **.reset_index()** fixes these issues.
 
 ## Syntax
