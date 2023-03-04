@@ -1,6 +1,6 @@
 ---
 Title: 'Octal' 
-Description: 'Octal is a number system base 8. It consists of figures from 0 to 7. Every figure in a number written in octal corresponds to 8 to the power of the certain digit.'
+Description: 'Octal is a number system base 8.'
 Subjects: 
   - 'Computer Science'
   - 'Data Science'
