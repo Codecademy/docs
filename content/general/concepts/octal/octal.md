@@ -15,7 +15,7 @@ CatalogContent:
 
 The **octal** number system is a base-8 number system that uses digits from 0-7 to represent any number. Octal is a number system similar to other number systems like [binary](https://www.codecademy.com/resources/docs/general/binary) and hexadecimal.
 
-The octal system was often used in the past because systems were based on 12, 24, or 36 bits. The binary or hexadecimal system is commonly used in today's technologies, especially with 16, 32, or 64-bit machines. The octal number system has an advantage over the hexadecimal system in that we do not need to use characters from the alphabet to express a number in octal.
+Octal was often used because machines were based on 12, 24, or 36 bits. In contrast, binary or hexadecimal are commonly used in modern technologies, especially with 16, 32, or 64-bit machines. The octal number system has an advantage over the hexadecimal system in that characters from the alphabet are not used to express a number in octal.
 
 ## Example
 
