@@ -12,19 +12,38 @@ CatalogContent:
     - 'paths/computer-science-career-path'
 ---
 
-`Hexadecimal`(hex, hex numbers or base-16) is a numeral system that uses a base of 16. The first ten digits are the same as in the standard decimal system(0-9) and letters A-F are used to represent the numbers 10-15. A hex number is prefixed with 0x. Example: 0x11F36A.
 
-Decimal number system: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
-Hexadec number system: 0 1 2 3 4 5 6 7 8 9  A  B  C  D  E  F
-(Table)
+`Hexadecimal`(hex, hex numbers, or base-16) is a numeral system that uses a base of 16 as opposed to the standard decimal system, base 10. The two have the first ten digits in common, 0-9. The remaining digits 10-15 are represented by the letters A-F in base 16. The letters are case-insensitive. 
+
+| Decimal   | Hex       |
+|---------- |-----------|
+|     1     |     1     |    
+|     2     |     2     |
+|     3     |     3     |
+|     4     |     4     |
+|     5     |     5     |
+|     6     |     6     |
+|     7     |     7     |
+|     8     |     8     |
+|     9     |     9     |
+|    10     |     A     |
+|    11     |     B     |
+|    12     |     C     |
+|    13     |     D     |
+|    14     |     E     |
+|    15     |     F     |
+
+## Syntax
+A hexadecimal number is prefixed with `0x`.
 
 
 ## Hex Colors
-Hex numbers are often used to represent color(hex colors) and is specified with #RRGGBB(red, green and blue). Examples:
+Hex numbers often represent colors(hex colors) and are specified with `#RRGGBB`(red, green, and blue). One example of a hex color is `#0000FF` and represents the color blue. We know this because red and green is set to their lowest value, `00`, and blue set to their highest value, `FF`. A hex color is prefixed with `#`.
 
-#0000FF represent the color blue because red and green are both set to its lowest value, 00, and blue is set to its highest value, FF.
+## Example
 
-To display the color white, all six digits are set to its highest value, FF: #FFFFFF. 
-
-To display the color black, all six digits are set to its lowest value, 00: #000000.
-
+```css
+h1 {
+    color: #0000FF;
+}
+```
