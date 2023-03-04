@@ -19,7 +19,7 @@ Search algorithms typically operate by organizing the search space into a partic
 
 Search algorithms are typically organized into two categories:
 
- - Uninformed Search
+- Uninformed Search: algorithms that are general purpose traversals of the state space or search tree without any information about how good a state is. These are also referred to as blind search algorithms.
 
     Uninformed search algorithms consist of general purpose traversals of the state space or search tree without any information about how good a state is. These are also referred to as blind search algorithms.
 
