@@ -6,7 +6,7 @@ Subjects:
 Tags:
   - Images
 CatalogContent:
-  - 'paths/code-foundations'
+  - 'paths/code-foundations'  
   - 'paths/computer-science'
 ---
 
