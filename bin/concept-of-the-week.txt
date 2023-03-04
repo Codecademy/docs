@@ -1,1 +1,1 @@
-content/typescript/concepts/about-typescript/about-typescript.md
+content/sql/concepts/dates/dates.md
