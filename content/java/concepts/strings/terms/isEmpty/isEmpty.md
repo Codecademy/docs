@@ -25,7 +25,7 @@ string.isEmpty();
 
 The example below applies the `.isEmpty()` method to the strings `drink` and `food`:
 
-````java
+```java
 // isStringEmpty.java
 class isStringEmpty {
   public static void main(String[] args) {
@@ -36,6 +36,7 @@ class isStringEmpty {
     System.out.println(food.isEmpty());
   }
 }
+```
 
 This will print the following output:
 
@@ -43,10 +44,3 @@ This will print the following output:
 false
 true
 ````
-
-This will print the following output:
-
-```shell
-    false
-    true
-```
