@@ -23,9 +23,6 @@ SELECT COUNT(column_name)
 FROM table_name;
 ```
 
-* 'COUNT()'
-`COUNT()` is a function that takes the name of a column as an argument and counts the number of rows where the column is not `NULL`.
-
 ## Example
 
 Suppose there's an `employees` table with the following values:
@@ -36,6 +33,9 @@ Suppose there's an `employees` table with the following values:
 | Pam     | 41500  | 2          |
 | Jim     | 45000  | 4          |
 | Dwight  | 55000  | NULL       |
+
+* 'COUNT()'
+`COUNT()` is a function that takes the name of a column as an argument and counts the number of rows where the column is not `NULL`.
 
 The `COUNT(column_name)` counts non `NULL` values in that column.
 
@@ -56,7 +56,7 @@ The result would be:
 * COUNT(\*) and COUNT(1)
 When * or 1 are used as an argument of 'COUNT()', that counts the number of all rows including `NULL`.
 
-`COUNT(*)` counts number of rows including `NULL` values. `COUNT(1)` counts non `NULL` values. `COUNT(*)` and `COUNT(1)` have the same results because `COUNT(1)` replaces all records with the value `1` and counts the number of value `1`.
+`COUNT(*)` counts number of rows including `NULL` values. `COUNT(1)` replaces all values including `NULL` with 1, so it counts all records including `NULL` values. Therefore, `COUNT(*)` and `COUNT(1)` have the same results.
 
 To find the total number of rows in the `employees` table, the given query can be used:
 
