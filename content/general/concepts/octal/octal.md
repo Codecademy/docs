@@ -35,9 +35,6 @@ octal|decimal
 
 Each digit corresponds to a power of 8, so the last digit (decimal 0-7) is 8<sup>0</sup>, equalling 1, the one in front of it 8<sup>1</sup>, and so on. So each digit represents the figure times 8 to the power of its position. If we write the octal system as a calculation to convert it to the decimal system we would get:
 
-
-125 = 1 \* 8<sup>2</sup>  + 2 \* 8<sup>1</sup>   + 5 \* 8<sup>0</sup>
-    = 64        + 16        + 5
-    = 85
+125 = 1 \* 8<sup>2</sup>  + 2 \* 8<sup>1</sup>   + 5 \* 8<sup>0</sup> = 64 + 16 + 5 = 85
 
 
