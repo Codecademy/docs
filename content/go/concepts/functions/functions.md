@@ -176,7 +176,7 @@ func main() {
 
 	// The following anonymous function have no results. so it can be omitted
 
-	func(a, b int) { // equivalent to func(a int,b int)
+	func(a, b int) { // Equivalent to func(a int,b int)
 		println("a+b =", a+b)
 	}(x, y)
 
