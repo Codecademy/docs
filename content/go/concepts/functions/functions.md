@@ -180,7 +180,7 @@ func main() {
 		println("a+b =", a+b)
 	}(x, y)
 
-	func(keys ...int) { // variadic parameters
+	func(keys ...int) { // Variadic parameters
 		for _, key := range keys {
 			fmt.Println(key)
 		}
