@@ -236,7 +236,7 @@ func Println(a ...any) (n int, err error) {
 
 **_implicit dereferencing_** refers to the automatic process of taking the address of a value and passing a pointer to a method when a method with a pointer receiver is called on that value.
 
-In go the complier does this automatically.
+In Go, the complier does this automatically.
 
 Below is an example of methods in Go:
 
