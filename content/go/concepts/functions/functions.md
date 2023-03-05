@@ -152,7 +152,7 @@ Program exited.
 
 Anonymous functions are similar to normal functions, but do not have a name. They can be called immediately after being defined.
 Anyonymous functions can be passed as parameters to another function.
-They are also called closures/functions literals.
+They are also called closure/function literals.
 
 Below is an example of an anonymous function:
 
