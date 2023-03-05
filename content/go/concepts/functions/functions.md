@@ -235,7 +235,7 @@ func Println(a ...any) (n int, err error) {
 - If the receiver is a pointer, the function can modify the value to which the receiver points.
 - If the receiver is a value, the function can modify a copy of the value to which the receiver points.
 
-**_implicit dereferencing_** refers to the automatic process of taking the address of a value and passing a pointer to a method when a method with a pointer receiver is called on that value.
+**Implicit dereferencing** refers to the automatic process of taking the address of a value and passing a pointer to a method when a method with a pointer receiver is called on that value.
 
 In Go, the complier does this automatically.
 
