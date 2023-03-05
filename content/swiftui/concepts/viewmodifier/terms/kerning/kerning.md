@@ -18,7 +18,7 @@ The **`.kerning()`** modifier adjusts the spacing size between text characters i
 
 ```pseudo
 Text("This text will have kerning applied.")
-  .kerning(amount)
+    .kerning(amount)
 ```
 
 The `.kerning()` modifier offsets text character spacing by the `amount` (in points) and is applied to all text in the [text view](https://www.codecademy.com/resources/docs/swiftui/views/text). The `amount` parameter is a float value. A positive value will increase the spacing size and a negative value will decrease it. A value of `0` will set the default text character spacing.
