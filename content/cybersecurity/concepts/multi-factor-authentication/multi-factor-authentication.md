@@ -18,15 +18,15 @@ One factor is typically a username or email and password combination. This is th
 
 ## Factors
 
-There are, broadly speaking, five ways for a user to prove his identity. A user can prove his identity through
+There are, broadly speaking, five ways for a user to prove their identity. A user can prove their identity through the following:
 
 - Something the user knows
 - Something the user has
 - Something the user is
-- Some*where* the user is
-- Some*when* the user is
+- Somewhere the user is
+- Somewhen the user is
 
-Multi-factor authentication is typically discussed online or in a corporate context as two-factor authentication (2FA) which consists in the user providing two of the above factors as a means to more securely verify his identity. More factors being used in the verification process results in greater security. 
+Multi-factor authentication is typically discussed online or in a corporate context as two-factor authentication (2FA) which consists in the user providing two of the above factors as a means to more securely verify their identity. More factors being used in the verification process results in greater security. 
 
 Below are common examples for each of the authentication factors.
 
@@ -36,19 +36,19 @@ Below are common examples for each of the authentication factors.
 
 Typically the first (and often only) factor used to verify user identity. Examples include the user knowing:
 
-- a password
-- a personal identification number (PIN)
-- a signature
+- A password
+- A personal identification number (PIN)
+- A signature
 
 ### Something the User Has
 
 This factor refers to a physical object in the possession of the user. Something the user has is often the second factor of authentication referred to in a 2FA authentication procedure. Examples include the user having:
 
-- a mobile phone
-- a USB key
-- a security token
-- a bank card
-- a physical key
+- A mobile phone
+- A USB key
+- A security token
+- A bank card
+- A physical key
 
 The physical objects used for verification are signed in such a way as to certify their belonging to the individual whose identity is being verified (e.g., a model number on a lock key, a PIN being sent to the user's phone, etc.)
 
@@ -56,18 +56,18 @@ The physical objects used for verification are signed in such a way as to certif
 
 Something the user is typically refers to the user's biology in the form of biometric markers. This factor can also refer to the user's behavioral tendencies. Examples include the user's:
 
-- fingerprint(s)
-- face
-- voice
-- iris(es)
-- keystroke typing dynamics
+- Fingerprint(s)
+- Face
+- Voice
+- Iris(es)
+- Keystroke typing dynamics
 
 ### Somewhere the User Is
 
 This factor uses information about the user's location. Examples include the user's:
 
-- [geolocation](https://www.codecademy.com/resources/docs/general/geolocation)
-- proximity to a particular location
+- [Geolocation](https://www.codecademy.com/resources/docs/general/geolocation)
+- Proximity to a particular location
 
 Somewhere the user is may be used, for example, to allow the user access to a mobile phone only if the user is within a certain distance of his or her workplace.
 
