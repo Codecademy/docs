@@ -127,7 +127,7 @@ func main() {
 	}()
 	greeting := "Hey, there."
 	// Greeting can be accessed inside of nested functions and can be changed
-	//or assign it to a variable to make it reusable
+	// Or assigned to a variable to make it reusable
 	secondWay := func(name string) {
 		greeting = "Hey " + name
 
