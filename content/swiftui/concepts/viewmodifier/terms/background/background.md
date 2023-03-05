@@ -58,4 +58,8 @@ The `.background()` modifier is then applied with the `Color.indigo` value passe
 
 Finally, a corner radius of 12 points is applied to the view using the `.cornerRadius()` modifier. This creates a view with an indigo background, white text, and rounded corners.
 
+This will display:
+
+![SwiftUI ViewModifier Background](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-viewmodifier-background.png)
+
 > **Note**: Keep in mind that the `.background()` modifier can only be applied to a single view. If you want to apply a background to a group of views, you should consider using a container view, such as `ZStack`. Another tip is that you can use the `.opacity()` modifier along with `.background()` to set the transparency of the background.
