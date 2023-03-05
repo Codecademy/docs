@@ -63,7 +63,7 @@ func printResult(f func(int64, int64) (int64, int64), a int64, b int64) {
 	fmt.Println(c, d)
 }
 
-// functions can return functions as well!
+// Functions can return functions as well!
 func returnFunc() func() {
 	return func() {
 		fmt.Println("This is a function returned by another function.")
