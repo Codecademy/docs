@@ -14,17 +14,18 @@ CatalogContent:
 - 'paths/computer-science'
 ---
 
-# Description
 The **isinstance()** function determines whether one object is a designated value type. If it is, the function will return `True`, otherwise the function will return `False`.
 
-# Syntax
+## Syntax
+
 ```py
 isinstance(object, class)
 ```
 
 The example below demonstrates the use of the `isinstance()` method to test if multiple objects are of type `str`:
 
-# Example
+## Example
+
 ```py
 var1 = "Hello World!"
 var2 = 123
@@ -40,6 +41,7 @@ check_if_string(var2)
 ```
 
 This example results in the following output:
+
 ```py
 True
 False
