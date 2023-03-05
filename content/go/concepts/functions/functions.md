@@ -213,7 +213,7 @@ The type of a variadic parameter is always a slice type.
 
 `Println` is a variadic function
 
-This snippet shows how println is defined under the hood in go
+This snippet shows how `Println` is defined under the hood in go
 
 ```
 // Println formats using the default formats for its operands and writes to standard output.
