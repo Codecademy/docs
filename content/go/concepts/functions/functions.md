@@ -174,7 +174,7 @@ func main() {
 		fmt.Println("x*y =", x*y)
 	}()
 
-	// The following anonymous function have no results. so it can be omitted
+	// The following anonymous function has no results so it can be omitted
 
 	func(a, b int) { // Equivalent to func(a int,b int)
 		println("a+b =", a+b)
