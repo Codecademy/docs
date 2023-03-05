@@ -54,7 +54,7 @@ func MultipleReturns2(a int64, b int64) (c int64, d int64) {
 	x, y := a+b, a-b
 	c = x
 	d = y
-	return // dont have to specify the return names if we are using named return values in func definition
+	return // Return names don't need to be specified if using named return values in func definition
 }
 
 // passing a function as a parameter
