@@ -327,7 +327,7 @@ func _init() {
 
 This example results in the following output:
 
-```bash
+```shell
 Initializing package main
 Initializing package main again
 Hello, World!
