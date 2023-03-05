@@ -14,25 +14,29 @@ CatalogContent:
 The **`.Copy()`** method in [C#](https://www.codecademy.com/resources/docs/c-sharp) 
 copies a range of elements from one array to another array. 
 
-### Syntax
+## Syntax
 
-```
+```pseudo
 //Copies sourceArray to destinationArray
 Array.Copy(sourceArray, destinationArray, int length);
 ```
+
 `.Copy()` is a static method of the `Array` object. It takes the arguments `sourceArray`, 
 `destinationArray` and `length`, which is specified as an integer.
+
 The `sourceArray` is copied, starting from the first element of the array, 
 to the `destinationArray` which also starts from its first element. It is possible to _overload_
-this method with multiple parameters and you can learn more on the
-on Microsoft's online [.NET](https://learn.microsoft.com/en-us/dotnet/api/system.array.copy?view=net-7.0#code-try-0) 
-documentation.
-### Example
+this method with multiple parameters and you can learn 
+more from Microsoft's online .NET documentation.
+
+## Example
+
 The following example initializes the array `sourceArray` and the array
 `destinationArray`. Using a `foreach` loop,
 the contents of `destinationArray` are printed
 to the console:
-```
+
+```cs
 using System;
   public class Example
   {
@@ -42,7 +46,7 @@ using System;
        
        string[] destinationArray = new string[sourceArray.Length];
 
-                                    //sourceArray.Length returns the integer for the third parameter, length. 
+       //sourceArray.Length returns the integer for the third parameter, length. 
                                                                                                           
        Array.Copy(sourceArray, destinationArray, sourceArray.Length);
     
@@ -53,19 +57,22 @@ using System;
     }
   }
 ```
+
 This is what is printed to the console:
-```
+
+```shell
 red orange yellow green blue indigo violet
 ```
 
+## Codebyte Example
 
-### Codebyte Example
 The following codebyte is runnable and shows one of the several
 overload functions with the ``Array.Copy()`` method. In this example,
-`sourceArray` is copied starting from the third element in the array **[2]**
-and stores elements **[2]**, **[3]**, **[4]** starting as the first element in `destinationArray`.
-The remaining elements return **0**:  
-```
+`sourceArray` is copied starting from the third element in the array `[2]`
+and stores elements `[2]`, `[3]`, `[4]` starting as the first element in `destinationArray`.
+The remaining elements return `0`:  
+
+```codebyte/csharp
 using System;
   public class OverloadExample
   {
@@ -85,7 +92,9 @@ using System;
     }
   }
 ```
+
 This is what is printed to the console:
-```
+
+```shell
 30 40 50 0 0 0
 ```
