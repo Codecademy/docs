@@ -184,7 +184,7 @@ func main() {
 		for _, key := range keys {
 			fmt.Println(key)
 		}
-	}(1, 2, 3, 4, 5)// can pass any number of arguments
+	}(1, 2, 3, 4, 5) // Can pass any number of arguments
 
 }
 
