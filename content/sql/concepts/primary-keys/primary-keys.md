@@ -43,7 +43,7 @@ ADD PRIMARY KEY (id);
 
 When the primary key for one table appears in a different table, it is called a foreign key. The most common types of [joins](https://www.codecademy.com/resources/docs/sql/joins) will be joining a foreign key from one table with the primary key from another table.
 
-Using the following `customer` table, for example:
+Using the following `customer` table as an example:
 
 ```sql
 CREATE TABLE customers (
