@@ -264,7 +264,7 @@ func main() {
 	s.passyByValue("xyz")
 	fmt.Println("after pass by value", s)
 	s.passByRef("pooja@example.com")
-	// equivalent to (&s).passByRef
+	// Equivalent to (&s).passByRef
 	// This is because the compiler will automatically convert s to &s implicit dereferencing
 	fmt.Println("after pass by reference", s)
 
