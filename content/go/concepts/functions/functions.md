@@ -43,7 +43,7 @@ import (
 
 // we can omit the paranthesis if there is only one parameter
 func Hello(name string) string {
-	return "check me i dont have parenthesis around my return see " + name
+	return "This is being returned with no parentheses. " + name
 }
 
 func MultipleReturns(a int64, b int64) (int64, int64) {
