@@ -34,7 +34,7 @@ This method has one required parameter:
 And a few optional parameters:
 
 - `alignment`: The alignment of the background within the view.
-> **Note**: The `alignment` parameter's default value is `center`, but other options include `.top`, `.bottom`, `.leading`, `.topTrailing`, `.bottomLeading`, and `.bottomTrailing`.
+  > **Note**: The `alignment` parameter's default value is `center`, but other options include `.top`, `.bottom`, `.leading`, `.topTrailing`, `.bottomLeading`, and `.bottomTrailing`.
 - `blendMode`: The blend mode to use when rendering the background.
 - `ignoresSafeAreaEdges`: Whether the background should ignore safe area edges.
 
@@ -54,7 +54,7 @@ var body: some View {
 
 In the above example, we have a `Text` view displaying the string `"I have an Indigo background!"`. The `.padding()` modifier adds space around the text, while `.foregroundColor()` sets the text color to white.
 
-The `.background()` modifier is then applied with the `Color.indigo` value passed in as the content parameter, to give the view an indigo background. 
+The `.background()` modifier is then applied with the `Color.indigo` value passed in as the content parameter, to give the view an indigo background.
 
 Finally, a corner radius of 12 points is applied to the view using the `.cornerRadius()` modifier. This creates a view with an indigo background, white text, and rounded corners.
 
