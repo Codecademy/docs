@@ -79,7 +79,8 @@ func main() {
 }
 
 ```
-The output is:
+
+This outputs the following:
 
 ```shell
 Hey I am a function returned by function sounds cool right?
