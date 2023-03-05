@@ -211,7 +211,7 @@ Program exited.
 Each function can have at most one variadic parameter(keys ...int).
 The type of a variadic parameter is always a slice type.
 
-Println is a variadic function
+`Println` is a variadic function
 
 This snippet shows how println is defined under the hood in go
 
