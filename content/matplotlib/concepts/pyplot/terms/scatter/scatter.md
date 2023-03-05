@@ -10,7 +10,7 @@ Tags:
  - 'Matplotlib'
 CatalogContent:
  - 'learn-python-3'
- - 'paths/computer-science'
+ - 'paths/data-science'
 ---
 
 The **`.scatter()`** method in the matplotlib library is used to draw a scatter plot, showing a relationship between variables.
@@ -21,20 +21,20 @@ The **`.scatter()`** method in the matplotlib library is used to draw a scatter 
 matplotlib.pyplot.scatter(x, y, s, c, marker, cmap, norm, vmin, vmax, alpha, linewidths, edgecolors, plotnonfinite)
 ```
 
-Both 'x' and 'y' parameters are required, and represent float or array-like objects. Other parameters are optional and vary plot features like marker size and/or color.
+Both 'x' and 'y' parameters are required, and represent float or array-like objects. Other parameters are optional and modify plot features like marker size and/or color.
 
 `.scatter()` takes the following arguments:
 
 - `x` and `y`: Positional arguments of type float or array.
 - `s`: A float or an array (of size equal to x or y) specifying marker size.
 - `c`: An array or list specifying marker color.
-- `marker`: The marker style.
-- `cmap`: A Colormap instance used to map scalar data to colors.
-- `norm`: Normalization method used to scale scalar data to the [0, 1] range before mapping. Linear scaling is default.
-- `vmin` and `vmax`: Define the data range that the colormap covers (if norm is not specified).
-- `alpha`: Marker blending value, between 0 (transparent) and 1 (opaque).
-- `linewidths`: The linewidth of the marker edge.
-- `edgecolors`: The edge color of the marker.
+- `marker`: Sets the marker style, specified with a shorthand code (e.g. ".": point, "o": circle) or an instance of the class.
+- `cmap`: A Colormap instance used to map scalar data to colors. (Default: "viridis")
+- `norm`: Normalization method used to scale scalar data to a range of (0 to 1) before mapping. Linear scaling is default.
+- `vmin` and `vmax`: Sets the data range for the colormap (if norm is not specified).
+- `alpha`: Sets the transparency value of the markers - range between 0 (transparent) and 1 (opaque). 
+- `linewidths`: Sets the linewidth of the marker edge.
+- `edgecolors`: Sets the edge color of the marker.
 - `plotnonfinite`: Boolean value determining whether to plot nonfinite (`inf`, `-inf`, `nan`) values. Default is `False`.
 
 ## Examples
