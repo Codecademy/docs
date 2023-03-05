@@ -57,7 +57,7 @@ func MultipleReturns2(a int64, b int64) (c int64, d int64) {
 	return // Return names don't need to be specified if using named return values in func definition
 }
 
-// passing a function as a parameter
+// Passing a function as a parameter
 func printResult(f func(int64, int64) (int64, int64), a int64, b int64) {
 	c, d := f(a, b)
 	fmt.Println(c, d)
