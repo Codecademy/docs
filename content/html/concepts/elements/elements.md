@@ -34,7 +34,7 @@ Most HTML elements include opening and closing [tags](https://www.codecademy.com
 
 Some elements cannot have content; therefore, they do not require a closing tag. These elements are called void or empty elements.
 
-### Self Closing HTML Element
+### Self-Closing HTML Element
 
 ```pseudo
 <self-closing-tag />
