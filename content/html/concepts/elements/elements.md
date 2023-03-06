@@ -1,6 +1,6 @@
 ---
 Title: 'Elements'
-Description: 'An HTML element is a piece of content in an HTML document.'
+Description: 'Elements are discrete components within an HTML document that generally consist of at least one tag but can have two tags with optional content.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -12,19 +12,25 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-An HTML element is a piece of content in an HTML document.
+**Elements** are discrete components within an HTML document that generally consist of at least one tag but can have two tags with optional content. The tag name determines how the element will be rendered in the HTML document. Elements can also have any number of [attributes](https://www.codecademy.com/resources/docs/html/attributes).
 
 ## Syntax
 
-Elements consist of at least one tag but can have two tags with optional content. The tag name determines how the element will be rendered in the HTML document. Elements can also have [attributes](https://www.codecademy.com/resources/docs/html/attributes).
+Elements can be grouped, whether or not they can have contents. Elements that can't have any content are void and self-closing elements. If an element has attributes, attributes must be attached to the opening tag of the element.
 
-### HTML Element
+### HTML Element with Content
 
 ```pseudo
 <opening-tag> content </closing-tag>
 ```
 
-Most HTML elements include opening and closing [tags](https://www.codecademy.com/resources/docs/html/tags), enclosing the element's content. The content of an element is optional and can be text content, other elements or comments.
+Most HTML elements include opening and closing [tags](https://www.codecademy.com/resources/docs/html/tags), enclosing the element's content. The content of an element is optional and can be any of the following:
+
+- Text content, which creates raw text elements. For example `<title>`, [`<i>`](https://www.codecademy.com/resources/docs/html/elements/i), [`<label>`](https://www.codecademy.com/resources/docs/html/elements/label), [`<li>`](https://www.codecademy.com/resources/docs/html/elements/li) elements can only hold text content.
+- Other elements, creating nested elements (see below). Nested elements can also have text content along with the elements.
+- Comments only or in combination with text content and nested elements.
+
+In rare cases, the opening tag can be omitted. For example, the opening tag of [`<head>`](https://www.codecademy.com/resources/docs/html/elements/head) and `<body>` can be left out if they are empty.
 
 ### Void HTML Element
 
