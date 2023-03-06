@@ -1,16 +1,17 @@
 ---
-Title: 'asin'
+Title: '.Asin'
 Description: 'Math function which returns the inverse sine of an angle'
 Subjects: 
   - 'Computer Science'
 Tags:
-  - 'Geometry'
+  - 'Libraries'
+  - 'Arithmetic'
+  - 'Functions'
 CatalogContent:
-  - 'learn-cs' # There is no corresponding Catalog Content in the catalog content file. Please revise as needed
+  - 'learn-c-sharp'
   - 'paths/computer-science'
 ---
 
-[Introduction - make sure first mention of concept is in **bold**.] (The first 160 characters of this section will appear as the description of the page when it shows up on search engines. It's important!)
 The **Math.asin()** function computes an **angle** in **radians** whose **sine** is a specified number. In Math, this is known as the **inverse sine** function.
 
 ## Syntax
@@ -19,32 +20,31 @@ The **Math.asin()** function computes an **angle** in **radians** whose **sine**
 
 ## Parameters
 
-value: the input value, which must be in the range -1 <= value <= 1
+```value```: the input value, which must be in the range -1 <= value <= 1
 
 ## Return Value
 
-An angle measured in radians, and of type Double, whose sine is value. If an invalid value is passed to the function, or no value is passed at all, NaN is returned.
+An angle measured in radians, and of type ```double```, whose sine is ```value```. If an invalid value is passed to the function, or no value is passed at all, ```NaN``` is returned.
 
 ## Codebyte Example
 
 ```codebyte/cs
-# Example runnable code block.
 using System;
 class CodeacademyDemo
 {
     static void Main()
     {
         Double result = Math.Asin(0);
-        System.Console.WriteLine("Asin(0) = "+ result + " radians");
+        System.Console.WriteLine("Asin(0) = "+ result + " radians"); // 0
 
         Double result1 = Math.Asin(1);
-        System.Console.WriteLine("Asin(1) = "+ result1 + " radians");
+        System.Console.WriteLine("Asin(1) = "+ result1 + " radians"); // 1.57079633
 
         Double result2 = Math.Asin(-1);
-        System.Console.WriteLine("Asin(-1) = "+ result2 + " radians");
+        System.Console.WriteLine("Asin(-1) = "+ result2 + " radians"); // -1.57079633
 
         Double result3 = Math.Asin(2);
-        System.Console.WriteLine("Asin(2) = "+ result3);
+        System.Console.WriteLine("Asin(2) = "+ result3); // NaN
     }
 }
 ```
