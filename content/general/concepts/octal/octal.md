@@ -36,4 +36,3 @@ octal|decimal
 Each digit corresponds to a power of 8. The last digit (decimal 0-7) is 8<sup>0</sup>, equalling 1. The one in front of it is 8<sup>1</sup>, and so on. So each digit represents the figure times 8 to the power of its position. An octal number is converted to decimal like so (using octal 125 as an example):
 
 125 = 1 \* 8<sup>2</sup> + 2 \* 8<sup>1</sup> + 5 \* 8<sup>0</sup> = 64 + 16 + 5 = 85
-
