@@ -12,26 +12,26 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.regionMatches()`** method tests if two string regions are equal. It compares a substring of the String object with another substring of the string passed as an argument.
+The **`.regionMatches()`** method tests if two string regions are equal. It compares a substring in the given `String` to another substring in the argument passed.
 
 ## Syntax
 
 ```pseudo 
-string.regionMatches(boolean ignoreCase, int toffset, String other, int ooffset, int len);
+string.regionMatches(ignoreCase, toffset, other, ooffset, len);
 ```
 
 Where:
 - `ignoreCase` is a boolean value that specifies whether the method should be case-sensitive or not.
-- `toffset` is an integer representing the index of the starting point of the substring in the first string to be compared.
+- `toffset` is an integer representing the index of the substring in the first string to be compared.
 - `other` is the string argument to be compared.
-- `ooffset` is an integer representing the index of the starting point of the substring in the second string to be compared.
+- `ooffset` is an integer representing the index of the substring in the second string to be compared.
 - `len` is an integer representing the number of characters to be compared in both strings.
 
-> **Note:** For the method to be case sensitive, `ignoreCase` can also be omitted.
+> **Note:** For the method to be case-sensitive, `ignoreCase` can also be omitted.
 
 ## Example
 
-This example compares a substring of the String object with a substring of a specified string:
+The example below compares a substring in variables `S1` and `S2`:
 
 ```java
 // Example.java
