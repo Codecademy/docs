@@ -58,9 +58,10 @@ public class Example
     }
 }
 ```
-```pseudo
+
 The example above will return the following output:
 
+```pseudo
 Broadcast from Earth:
    [0] : The_Eve_of_the_War
    [1] : Horsell_Common_and_the_Heat_Ray
