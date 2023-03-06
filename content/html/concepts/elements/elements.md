@@ -16,7 +16,7 @@ CatalogContent:
 
 ## Syntax
 
-Elements can be grouped, whether or not they can have contents. Elements that can't have any content are void and self-closing elements. If an element has attributes, attributes must be attached to the opening tag of the element.
+Elements can be grouped, whether or not they can support content. Elements that can't have any content are void and self-closing elements. If an element has attributes, attributes must be attached to the opening tag of the element.
 
 ### HTML Element with Content
 
