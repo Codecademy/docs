@@ -1,6 +1,6 @@
 ---
 Title: '.Asin()'
-Description: 'Math function which returns the inverse sine of an angle'
+Description: 'Returns an angle in radians whose sine is a specified number.'
 Subjects: 
   - 'Computer Science'
 Tags:
@@ -18,13 +18,9 @@ The **Math.Asin()** function computes an **angle** in **radians** whose **sine**
 
 ```public static double Asin (double value)```
 
-## Parameters
+`value`: the input value, which must be in the range -1 <= `value` <= 1
 
-```value```: the input value, which must be in the range -1 <= value <= 1
-
-## Return value
-
-An angle measured in radians, and of type ```double```, whose sine is ```value```. If an invalid value is passed to the function, or no value is passed at all, ```NaN``` is returned.
+Returns an angle measured in radians, of type `double`, whose sine is `value`. If an invalid value is passed to the function, or no value is passed at all, `NaN` is returned.
 
 ## Codebyte Example
 
