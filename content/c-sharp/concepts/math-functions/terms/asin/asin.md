@@ -1,5 +1,5 @@
 ---
-Title: '.Asin'
+Title: '.Asin()'
 Description: 'Math function which returns the inverse sine of an angle'
 Subjects: 
   - 'Computer Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **Math.asin()** function computes an **angle** in **radians** whose **sine** is a specified number. In Math, this is known as the **inverse sine** function.
+The **Math.Asin()** function computes an **angle** in **radians** whose **sine** is a specified number. In Math, this is known as the **inverse sine** function.
 
 ## Syntax
 
@@ -22,13 +22,13 @@ The **Math.asin()** function computes an **angle** in **radians** whose **sine**
 
 ```value```: the input value, which must be in the range -1 <= value <= 1
 
-## Return Value
+## Return value
 
 An angle measured in radians, and of type ```double```, whose sine is ```value```. If an invalid value is passed to the function, or no value is passed at all, ```NaN``` is returned.
 
 ## Codebyte Example
 
-```codebyte/cs
+```cs
 using System;
 class CodeacademyDemo
 {
