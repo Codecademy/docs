@@ -2,15 +2,15 @@
 Title: '.scatter()'
 Description: 'Creates a scatter plot of x vs. y values.'
 Subjects:
- - 'Data Science'
- - 'Data Visualization'
+  - 'Data Science'
+  - 'Data Visualization'
 Tags:
- - 'Graphs'
- - 'Libraries'
- - 'Matplotlib'
+  - 'Graphs'
+  - 'Libraries'
+  - 'Matplotlib'
 CatalogContent:
- - 'learn-python-3'
- - 'paths/data-science'
+  - 'learn-python-3'
+  - 'paths/data-science'
 ---
 
 The **`.scatter()`** method in the matplotlib library is used to draw a scatter plot, showing a relationship between variables.
@@ -32,7 +32,7 @@ Both 'x' and 'y' parameters are required, and represent float or array-like obje
 - `cmap`: A Colormap instance used to map scalar data to colors. (Default: "viridis")
 - `norm`: Normalization method used to scale scalar data to a range of (0 to 1) before mapping. Linear scaling is default.
 - `vmin` and `vmax`: Sets the data range for the colormap (if norm is not specified).
-- `alpha`: Sets the transparency value of the markers - range between 0 (transparent) and 1 (opaque). 
+- `alpha`: Sets the transparency value of the markers - range between 0 (transparent) and 1 (opaque).
 - `linewidths`: Sets the linewidth of the marker edge.
 - `edgecolors`: Sets the edge color of the marker.
 - `plotnonfinite`: Boolean value determining whether to plot nonfinite (`inf`, `-inf`, `nan`) values. Default is `False`.
@@ -68,4 +68,3 @@ plt.show()
 Output:
 
 ![Output of matplotlib.pyplot.scatter() function example 2](/media/matplotlib-scatter-2.png)
-
