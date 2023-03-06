@@ -1,4 +1,4 @@
-﻿---
+---
 Title: '.foregroundColor()'
 Description: 'Sets the foreground color that is displayed in a view.'
 Subjects:
@@ -35,8 +35,8 @@ struct ContentView: View {
 }
 ```
 
-In the above example, the `foregroundColor()` modifier with the `.green` parameter is called on the `Text` view. This applies the color green to all characters.
+In the above example, the `.foregroundColor()` modifier with the `.green` parameter is called on the `Text` view. This applies the color green to all characters.
 
 This will display the following:
 
-![image](/Volumes/LaCie/Git-Practice/docs/media/SwiftUI-foregroundColor-display.png)
+![SwiftUI ViewModifier .foregroundColor()](https://raw.githubusercontent.com/Codecademy/docs/main/media/SwiftUI-foregroundColor-display.png)
