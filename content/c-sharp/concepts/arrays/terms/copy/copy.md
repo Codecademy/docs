@@ -26,7 +26,7 @@ Array.Copy(sourceArray, destinationArray, int length);
 
 The `sourceArray` is copied, starting from the first element of the array, 
 to the `destinationArray` which also starts from its first element. It is possible to _overload_
-this method with multiple parameters and you can learn 
+this method with multiple parameters.
 more from Microsoft's online .NET documentation.
 
 ## Example
