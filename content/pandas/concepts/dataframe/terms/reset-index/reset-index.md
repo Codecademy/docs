@@ -25,7 +25,7 @@ df = dataframe_value.reset_index()
 The `.reset_index()` method provides the following parameters:
 
 - *drop:* Takes a boolean value and is set to `False` by default. When this parameter is set to `True` it replaces the previous DataFrame index with the new index provided by `.reset_index()`, otherwise it sets the new index in front of the old index.
-- *inplace:* The inplace parameter can be set to True or False and is set to False by default. When this parameter is set to True it applies all changes `.reset_index()` makes to the current instance of the DataFrame otherwise it creates a new DataFrame instance with the changes applied to that DataFrame.
+- *inplace:* Takes a boolean value and is set to `False` by default. When this parameter is set to `True` it applies all changes to the current instance of the DataFrame, otherwise it creates a new DataFrame instance with the changes applied to that DataFrame.
 
 ## Actions Which Cause Indexing Issues 
 
