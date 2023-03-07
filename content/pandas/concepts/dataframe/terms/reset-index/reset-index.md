@@ -39,7 +39,6 @@ Common examples include but are not limited to:
 
 ## Example
 
-In the following examples imagine working on a project about dogs and wanting to use data from an animal shelter about dogs in that shelter but the data in the .csv file has data about cats and dogs.
 To follow along a copy of the [Austin_Animal_Center_intakes.csv](https://www.kaggle.com/datasets/jackdaoud/animal-shelter-analytics) can be downloaded from Kaggle.
 
 ### Example Of The Original DataFrame
