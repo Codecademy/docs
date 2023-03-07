@@ -17,7 +17,7 @@ In computer science, a **tuple** is a data structure consisting of an ordered co
 
 Typically, a tuple implementation in any programming language has the following characteristics:
 
-- It can contain an [object](https://www.codecademy.com/resources/docs/general/object) or any other [data type](https://www.codecademy.com/resources/docs/general/data-types) in any combination.
+- It can contain an [object](https://www.codecademy.com/resources/docs/general/data-structures/object) or any other [data type](https://www.codecademy.com/resources/docs/general/data-types) in any combination.
 - It allows duplicate entries.
 - It has a specified order, determined by the order of elements during creation.
 - It is immutable and cannot have its elements changed once it is defined.

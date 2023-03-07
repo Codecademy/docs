@@ -45,7 +45,7 @@ Data is stored in an object, depicted by a pair of curly braces `{ }`, and name-
 - [Array](https://www.codecademy.com/resources/docs/general/data-types/array): An ordered, comma delimited, list of zero or more elements of one of JSON's data types, enclosed in square brackets.
 - [Boolean](https://www.codecademy.com/resources/docs/general/data-types/boolean): Either `true` or `false`.
 - [Number](https://www.codecademy.com/resources/docs/general/data-types/number): A signed decimal number. JSON makes no distinction between integer and floating point.
-- [Object](https://www.codecademy.com/resources/docs/general/object): A collection of name-value pairs inside curly brackets.
+- [Object](https://www.codecademy.com/resources/docs/general/data-structures/object): A collection of name-value pairs inside curly brackets.
 - [String](https://www.codecademy.com/resources/docs/general/data-types/string): A sequence of zero or more Unicode characters enclosed in double quotes.
 - `null`: An empty value represented by the word `null`.
 
