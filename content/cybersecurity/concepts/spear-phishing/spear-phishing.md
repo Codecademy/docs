@@ -24,11 +24,11 @@ Spear phishing can have significant financial and reputational consequences for 
 
 - A sense of urgency: Spear phishing subject lines usually provoke an urgent response in the hope that the victim will act impulsively and engage.
 - Poor imaging: Most companies will make sure to provide high-quality logos and images in their emails. A spear phishing email may contain grainy or blurry graphics.
-- Links, addresses and domains: Look for discrepancies in email addresses, links and domain names to identify a potential spear phishing attempt. If there is a link, hover over it to reveal the URL. 
+- Links, addresses and domains: Look for discrepancies in email addresses, links and domain names to identify a potential spear phishing attempt. If there is a link, hover over it to reveal the URL.
 
 ## How to prevent spear phishing?
 
-A multi-faceted approach is the best way to prevent spear phishing. Email protection solutions can detect suspicious emails. Security awareness training is equally as important. Employees are often the first line of defense so it is very important that they are trained on how to detect suspicious cyber activity. Employees need to know that they should not open spam or unsolicited email from unknown parties and that they should never click on links in the email. 
+A multi-faceted approach is the best way to prevent spear phishing. Email protection solutions can detect suspicious emails. Security awareness training is equally as important. Employees are often the first line of defense so it is very important that they are trained on how to detect suspicious cyber activity. Employees need to know that they should not open spam or unsolicited email from unknown parties and that they should never click on links in the email.
 
 ## Spear phishing vs. Phishing vs. Whaling
 
