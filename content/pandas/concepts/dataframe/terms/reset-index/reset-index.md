@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-Sometimes there is a need to modify a DataFrame object to better meet a certain use case. When these modifications are applied they often leave smaller DataFrames with indexes that are messy and not continuous. Resetting the index with **`.reset_index()`** fixes these issues.
+Through the course of exploratory analysis, and other data work, a DataFrame object will often be modified to clean and/or restructure the data. Through this work an index may become discontinuous or additional levels may be added or subtracted from the index. The **`.reset_index()`** method can be used to reestablish a continuous index as well as remove one or more unwanted levels.
 
 ## Syntax
 
