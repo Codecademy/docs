@@ -1,6 +1,6 @@
 ---
 Title: 'title'
-Description: 'Contains information about the element it belongs to.'
+Description: 'Contains and can display the specified information about the element it belongs to.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -13,7 +13,9 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`title`** global attribute contains information about the element it belongs to.
+The **`title`** global attribute contains and can display the specified information about the element it belongs to.
+
+> **Note:** Although the `title` attribute can display additional information on the screen, it does not work with touch screens, keyboard-only navigation, or assistive technologies.
 
 ## Syntax
 
@@ -21,15 +23,18 @@ The **`title`** global attribute contains information about the element it belon
 <opening-tag title="text"></closing-tag>
 ```
 
-The `title` global attribute can be used on any HTML [`element`](https://www.codecademy.com/resources/docs/html/elements) by adding the attribute to the opening-tag. The `text` value of the attribute can be any text, even multi-line text. This text will appear as a tooltip text while hovering over the element it is attached to.
+The `title` attribute can be used with any HTML [`element`](https://www.codecademy.com/resources/docs/html/elements) by adding the attribute to the opening tag. The `text` value of the attribute can be any string, including empty string (`""`) and multi-line text. This `text` will appear next to the element as a tooltip text (hint) while hovering over the element to which it is attached.
 
-Inheritance
+For nested elements, the `title` attribute will be inherited from the parent element if the child element has no `title` attribute.
 
 ### Special Use Cases
 
-- <link rel="stylesheet">, creates an alternate stylesheet.
-- If included on the <abbr> opening tag, the title must be a full expansion of the abbreviation or acronym. Instead of using title, when possible, provide an expansion of the abbreviation or acronym in plain text on first use, using the <abbr> to mark up the abbreviation. This enables all users know what name or term the abbreviation or acronym shortens while providing a hint to user agents on how to announce the content.
-- While title can be used to provide a programmatically associated label for an <input> element, this is not good practice. Use a <label> instead.
+While any element can have a `title` attribute, for some elements it provides a special function. When the `title` attribute is used with:
+
+- an [`<abbr>`](https://www.codecademy.com/resources/docs/html/elements/abbr) element, it must contain a description or expansion of the abbreviation.
+- an [`<iframe>`](https://www.codecademy.com/resources/docs/html/elements/iframe) element, it should describe the embedded content for assistive technologies.
+- an [`<input>`](https://www.codecademy.com/resources/docs/html/elements/input) element in forms the information is only visible when hovering over the element. It is better to use a `<label>` element, that is visible all the time.
+- a `<link rel="stylesheet">` element, it specifies the default and alternate stylesheets.
 
 ## Example
 
@@ -39,6 +44,6 @@ In the example below, the `<p>` element is given a `title` attribute to provide 
 <p title="Also known as water bears or moss piglets.">Tardigrades can survive some of the harshest conditions.</p>
 ```
 
-This results in a tooltip with the specified text appearing while hovering over the paragraph:
+This results in a tooltip with the specified text appearing next to the paragraph while hovering over it:
 
 ![HTML title attribute](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-attribute-title.png)
