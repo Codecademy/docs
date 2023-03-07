@@ -87,7 +87,7 @@ This results in the following output:
 
 ```py
 
-#this section of code removes the furball from our dog DataFrame
+# This section of code removes the furball from our dog DataFrame
 df = df[df['Animal Type'] != 'Cat']
 
 # Uncommenting the line below this line will remove the index of the original DataFrame and reset the order
