@@ -21,7 +21,6 @@ Sometimes there is a need to modify a DataFrame object to better meet a certain 
 df = dataframe_value.reset_index()
 
 
-### `.reset_index()` Parameters
 
 The `.reset_index()` method provides many parameters which allow for more precision when resetting a DataFrame index. The following parameters will be used in the examples later in this article.
 
