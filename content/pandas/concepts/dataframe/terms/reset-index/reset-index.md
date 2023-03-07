@@ -20,7 +20,6 @@ Sometimes there is a need to modify a DataFrame object to better meet a certain 
 ```pseudo
 df = dataframe_value.reset_index()
 
-In this syntax example the `index_col = Account Number` parameter sets the index of the DataFrame to a column named Account Number and then `df.reset_index()` resets the DataFrame index. 
 
 ### `.reset_index()` Parameters
 
