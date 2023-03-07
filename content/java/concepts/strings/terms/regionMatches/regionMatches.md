@@ -16,11 +16,12 @@ The **`.regionMatches()`** method tests if two string regions are equal. It comp
 
 ## Syntax
 
-```pseudo 
+```pseudo
 string.regionMatches(ignoreCase, toffset, other, ooffset, len);
 ```
 
 Where:
+
 - `ignoreCase` is a boolean value that specifies whether the method should be case-sensitive or not.
 - `toffset` is an integer representing the index of the substring in the first string to be compared.
 - `other` is the string argument to be compared.
@@ -36,16 +37,16 @@ The example below compares a substring in variables `S1` and `S2`:
 ```java
 // Example.java
 public class Example{
-  
+
   public static void main(String[] args){
-     
+
     String S1 = new String("This is an example");
     String S2 = new String("is");
     System.out.print("Result of comparing S1 with S2: ");
     System.out.println(S1.regionMatches(true, 5, S2, 0, 2));
-    
+
   }
-  
+
 }
 ```
 
