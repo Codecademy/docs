@@ -83,7 +83,7 @@ This results in the following output:
 4  Doberman Pinsch/Australian Cattle Dog      Tan/Gray
 ```
 
-### Example Removing Cats From Dataframe
+### Removing Cats From the Dataframe
 
 ```py
 import pandas as pd
