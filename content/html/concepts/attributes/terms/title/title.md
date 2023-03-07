@@ -20,25 +20,25 @@ The **`title`** global attribute contains and can display the specified informat
 ## Syntax
 
 ```pseudo
-<opening-tag title="text"></closing-tag>
+<opening-tag title="text"> content </closing-tag>
 ```
 
-The `title` attribute can be used with any HTML [`element`](https://www.codecademy.com/resources/docs/html/elements) by adding the attribute to the opening tag. The `text` value of the attribute can be any string, including empty string (`""`) and multi-line text. This `text` will appear next to the element as a tooltip text (hint) while hovering over the element to which it is attached.
+The `title` attribute can be used with any HTML [`element`](https://www.codecademy.com/resources/docs/html/elements) by adding the attribute to the opening tag. The `text` value of the attribute can be any string, including empty string (`""`) and multi-line text. This `text` will appear next to the element as a tooltip text (hint) while hovering over the element it is used with.
 
 For nested elements, the `title` attribute will be inherited from the parent element if the child element has no `title` attribute.
 
 ### Special Use Cases
 
-While any element can have a `title` attribute, for some elements it provides a special function. When the `title` attribute is used with:
+While any element can have a `title` attribute, it provides a special function for some elements. When the `title` attribute is used with:
 
-- an [`<abbr>`](https://www.codecademy.com/resources/docs/html/elements/abbr) element, it must contain a description or expansion of the abbreviation.
-- an [`<iframe>`](https://www.codecademy.com/resources/docs/html/elements/iframe) element, it should describe the embedded content for assistive technologies.
-- an [`<input>`](https://www.codecademy.com/resources/docs/html/elements/input) element in forms the information is only visible when hovering over the element. It is better to use a `<label>` element, that is visible all the time.
-- a `<link rel="stylesheet">` element, it specifies the default and alternate stylesheets.
+- the [`<abbr>`](https://www.codecademy.com/resources/docs/html/elements/abbr) element, the `title` must contain a description or expansion of the abbreviation.
+- the [`<iframe>`](https://www.codecademy.com/resources/docs/html/elements/iframe) element, the `title` should describe the embedded content for assistive technologies.
+- the [`<input>`](https://www.codecademy.com/resources/docs/html/elements/input) element in a form the information is only visible when hovering over the element. It is better to use a `<label>` element that is always visible.
+- the `<link rel="stylesheet">` element, the `title` specifies the default and alternate stylesheets.
 
 ## Example
 
-In the example below, the `<p>` element is given a `title` attribute to provide further information about the text in the paragraph:
+In the example below, the `<p>` element uses a `title` attribute to provide further information about the text in the paragraph:
 
 ```html
 <p title="Also known as water bears or moss piglets.">Tardigrades can survive some of the harshest conditions.</p>
