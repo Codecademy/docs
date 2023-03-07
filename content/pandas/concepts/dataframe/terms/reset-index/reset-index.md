@@ -96,7 +96,7 @@ pd.set_option('display.max_columns', None)
 #this section of code removes the furball from our dog DataFrame
 df = df[df['Animal Type'] != 'Cat']
 
-#uncommenting the line below this line will remove the index of the original DataFrame and reset the order
+# Uncommenting the line below this line will remove the index of the original DataFrame and reset the order
 #df.reset_index(inplace = True, drop = True)
 print(df)
 ```
