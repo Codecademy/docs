@@ -97,7 +97,7 @@ pd.set_option('display.max_columns', None)
 df = df[df['Animal Type'] != 'Cat']
 
 # Uncommenting the line below this line will remove the index of the original DataFrame and reset the order
-#df.reset_index(inplace = True, drop = True)
+# df.reset_index(inplace = True, drop = True)
 print(df)
 ```
 
