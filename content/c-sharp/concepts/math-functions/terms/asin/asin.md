@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **Math.Asin()** function computes an **angle** in **radians** whose **sine** is a specified number. In Math, this is known as the **inverse sine** function.
+The **Math.Asin()** function computes an angle in radians whose sine is a specified number. In Math, this is known as the inverse sine function.
 
 ## Syntax
 
