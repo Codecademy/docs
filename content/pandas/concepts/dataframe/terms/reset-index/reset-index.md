@@ -39,7 +39,7 @@ Common examples include but are not limited to:
 
 ## Example
 
-To follow along a copy of the [Austin_Animal_Center_intakes.csv](https://www.kaggle.com/datasets/jackdaoud/animal-shelter-analytics) can be downloaded from Kaggle.
+To follow along a copy of the [Austin_Animal_Center_intakes.csv](https://data.austintexas.gov/Health-and-Community-Services/Austin-Animal-Center-Intakes/wter-evkm) can be downloaded from city of Austin data portal.
 
 ### Example Of The Original DataFrame
 
