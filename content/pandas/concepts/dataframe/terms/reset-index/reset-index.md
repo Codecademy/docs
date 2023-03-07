@@ -55,7 +55,6 @@ print(df)
 This results in the following output:
 
 ```shell
-
   Animal ID          Name                DateTime     MonthYear  \
 0   A786884        *Brock  01/03/2019 04:19:00 PM  January 2019   
 1   A706918         Belle  07/05/2015 12:59:00 PM     July 2015   
