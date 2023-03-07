@@ -86,10 +86,6 @@ This results in the following output:
 ### Removing Cats From the Dataframe
 
 ```py
-import pandas as pd
-
-df = pd.read_csv('Austin_Animal_Center_intakes.csv').head()
-pd.set_option('display.max_columns', None)
 
 #this section of code removes the furball from our dog DataFrame
 df = df[df['Animal Type'] != 'Cat']
