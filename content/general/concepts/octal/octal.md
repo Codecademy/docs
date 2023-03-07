@@ -19,19 +19,19 @@ Octal was often used because machines were based on 12, 24, or 36 bits. In contr
 
 ## Example
 
-octal|decimal
----|---
-0|0
-1|1
-2|2
-3|3
-7|7
-10|8
-11|9
-12|10
-20|16
-40|32
-100|64
+| octal | decimal |
+| ----- | ------- |
+| 0     | 0       |
+| 1     | 1       |
+| 2     | 2       |
+| 3     | 3       |
+| 7     | 7       |
+| 10    | 8       |
+| 11    | 9       |
+| 12    | 10      |
+| 20    | 16      |
+| 40    | 32      |
+| 100   | 64      |
 
 Each digit corresponds to a power of 8. The last digit (decimal 0-7) is 8<sup>0</sup>, equalling 1. The one in front of it is 8<sup>1</sup>, and so on. So each digit represents the figure times 8 to the power of its position. An octal number is converted to decimal like so (using octal 125 as an example):
 
