@@ -133,6 +133,7 @@ This is the output without `df.reset_index(inplace = True, drop = True)`:
 The indexing now jumps from two to four after the row containing the cat is removed. This can become very messy when dealing with large DataFrames containing hundreds or even thousands of rows.
 
 This is the output with `df.reset_index(inplace = True, drop = True)`:
+
 ```
   Animal ID     Name                DateTime     MonthYear  \
 0   A786884   *Brock  01/03/2019 04:19:00 PM  January 2019   
