@@ -15,7 +15,7 @@ There are three types of Docs entries:
 ### Concepts
 
 - Provided as a list under each [topic](#topics).
-- Cover a small piece of the parent topic such as a [class](https://www.codecademy.com/resources/docs/general/class), library, control structure, or language element.
+- Cover a small piece of the parent topic such as a [class](https://www.codecademy.com/resources/docs/general/data-structures/class), library, control structure, or language element.
 - For non-language topics, the entry can be any discrete subject within the parent topic. (Such as [Linux](https://www.codecademy.com/resources/docs/open-source/linux) under [Open Source](https://www.codecademy.com/resources/docs/open-source))
 - For [General](https://www.codecademy.com/resources/docs/general) concepts, the entry can be any computer/code related subject not broad enough for its own topic entry.
 - Concepts typically have at least a few paragraphs and multiple sections. (see: [Headers/Sections](#headerssections))
@@ -193,6 +193,8 @@ Codebytes can be used with the following languages:
 - Images should not be used to illustrate code. [Code blocks](#code) should be used instead.
 
 > **Note:** Image links will not work until a PR is merged.
+
+<!--blank-->
 
 > **Note:** Some existing images may use `https://static-assets.codecademy.com/Courses/` in their links. These come from existing Codecademy course content and are for internal use only. Please disregard those and use the above format instead.
 
