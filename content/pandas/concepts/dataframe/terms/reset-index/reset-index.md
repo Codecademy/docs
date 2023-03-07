@@ -17,11 +17,8 @@ Sometimes there is a need to modify a DataFrame object to better meet a certain 
 
 ## Syntax
 
-```py
-import pandas as pd
-df.read_csv('some_csv.csv', index_col = 'Account Number')
-df.reset_index()
-```
+```pseudo
+df = dataframe_value.reset_index()
 
 In this syntax example the `index_col = Account Number` parameter sets the index of the DataFrame to a column named Account Number and then `df.reset_index()` resets the DataFrame index. 
 
