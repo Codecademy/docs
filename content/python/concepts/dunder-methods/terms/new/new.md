@@ -1,6 +1,6 @@
 ---
 Title: '__new__()'
-Description: 'Static method which creates a new instance of a class.'
+Description: 'Creates a new instance of a class.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`__new__()`** method creates a new instance of a class `cls` and takes in the class (of which the instance was requested) as the first argument.
+The **`__new__()`** static method creates a new instance of a class `cls` and takes in the class (of which the instance was requested) as the first argument.
 
 ## Syntax
 
