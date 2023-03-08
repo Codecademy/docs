@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **loop** is a logical structure used in [C#](https://www.codecademy.com/resources/docs/c-sharp) to repeatedly execute a block of code. This repetition can either iterate an exact number of times (definite) or continuously until a condition is met (indefinite).
+A **loop** is a logical structure used to repeatedly execute a block of code. This repetition can either iterate an exact number of times (definite) or continuously until a condition is met (indefinite).
 
 ## For Loop
 
