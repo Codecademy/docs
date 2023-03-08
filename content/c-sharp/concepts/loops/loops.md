@@ -83,4 +83,4 @@ do
   i++;
 } while (i >= 5);
 ```
-> Note: the loop in the last example will still run once even though the condition returns `false`.
+> **Note:** the loop in the last example will still run once even though the condition returns `false`.
