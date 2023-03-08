@@ -40,7 +40,7 @@ for (int i = 1; i <= 10; i++)
 
 ## While Loop
 
-The `while` loop in C# executes an unspecified number of times until the given condition returns `false`. The condition is tested before each iteration of the loop. If the condition is `false` when it is tested the first time, the code block is never ran.
+The `while` loop in C# executes an unspecified number of times until the given condition returns `false`. The condition is tested before each iteration of the loop. If the condition is `false` when it is tested the first time, the code block is never run.
 
 ```cs
 int i = 0;
