@@ -17,22 +17,16 @@ A **loop** is a logical structure used to repeatedly execute a block of code. Th
 
 In C# the `for` loop uses definite repetition to run a block of code a specified number of times and consists of three statements separated by semicolons.
 
-```cs
-for (int i = 5; i > 0; i--)
-{
-  //repeated code here
-}
-```
 Statement 1 executes only once, before the code block runs for the first time, and is commonly used to set the initial value of a variable.
 
 Statement 2 is a conditional statement that must return `true` for the code block to execute.
 
 Statement 3 runs after each repetition of the loop and is typically used to alter the value of the variable set in Statement 1.
 
-```codebyte/csharp
-for (int i = 1; i <= 10; i++)
+```cs
+for (int i = 5; i > 0; i--)
 {
-  Console.WriteLine($"Code block ran {i} time(s)");
+  //repeated code here
 }
 ```
 
@@ -51,15 +45,6 @@ while (i > -5)
 }
 ```
 
-```codebyte/csharp
-int i = 1;
-while (i < 8)
-{
-  Console.WriteLine($"Code block ran {i} time(s)");
-  i++;
-}
-```
-
 > **Note:** the variable tested in the condition should be updated within the code block to avoid an infinite loop.
 
 ## Do While Loop
@@ -75,12 +60,4 @@ do
 } while (i <= 3);
 ```
 
-```codebyte/csharp
-int i = 1;
-do
-{
-  Console.WriteLine($"Code block ran {i} time(s)");
-  i++;
-} while (i >= 5);
-```
 > **Note:** the loop in the last example will still run once even though the condition returns `false`.
