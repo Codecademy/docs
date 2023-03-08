@@ -15,15 +15,72 @@ A **loop** is a logical structure used in [C#](https://www.codecademy.com/resour
 
 ## For Loop
 
-In C# the `for` loop uses definite repetition to run a block of code a specified number of times and consists of three statements.
+In C# the `for` loop uses definite repetition to run a block of code a specified number of times and consists of three statements separated by semicolons.
 
-```pseudo
-for (statement 1; statement 2; statement 3)
+```cs
+for (int i = 5; i > 0; i--)
 {
-  //your code here
+  //repeated code here
+}
+```
+Statement 1 executes only once, before the code block runs for the first time, and is commonly used to set the initial value of a variable.
+
+Statement 2 is a conditional statement that must return `true` for the code block to execute.
+
+Statement 3 runs after each repetition of the loop and is typically used to alter the value of the variable set in Statement 1.
+
+```codebyte/csharp
+for (int i = 1; i <= 10; i++)
+{
+  Console.WriteLine($"Code block ran {i} time(s)");
 }
 ```
 
+> Note: Be careful to avoid creating an infinite loop, which occurs if the stop condition never returns `false`.
+
 ## While Loop
 
+The `while` loop in C# executes an unspecified number of times until the given condition returns `false`. The condition is tested before each iteration of the loop. If the condition is `false` when it is tested the first time, the code block is never ran.
+
+```cs
+int i = 0;
+while (i > -5)
+{
+  //repeated code here
+  i--;
+}
+```
+
+```codebyte/csharp
+int i = 1;
+while (i < 8)
+{
+  Console.WriteLine($"Code block ran {i} time(s)");
+  i++;
+}
+```
+
+> Note: the variable tested in the condition should be updated within the code block to avoid an infinite loop.
+
 ## Do While Loop
+
+This form of loop uses the `do` keyword, followed by the code block, followed by the `while` keyword and condition. Unlike the `while` loop it checks the condition after the code block is executed. This means the loop will always iterate at least once, but the condition must be `true` for it to continue.
+
+```cs
+int i = 1;
+do
+{
+  //repeated code here
+  i++;
+} while (i <= 3);
+```
+
+```codebyte/csharp
+int i = 1;
+do
+{
+  Console.WriteLine($"Code block ran {i} time(s)");
+  i++;
+} while (i >= 5);
+```
+> Note: the loop in the last example will still run once even though the condition returns `false`.
