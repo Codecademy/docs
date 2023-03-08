@@ -36,7 +36,7 @@ for (int i = 1; i <= 10; i++)
 }
 ```
 
-> Note: Be careful to avoid creating an infinite loop, which occurs if the stop condition never returns `false`.
+> **Note:** Be careful to avoid creating an infinite loop, which occurs if the stop condition never returns `false`.
 
 ## While Loop
 
