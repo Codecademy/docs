@@ -60,7 +60,7 @@ while (i < 8)
 }
 ```
 
-> Note: the variable tested in the condition should be updated within the code block to avoid an infinite loop.
+> **Note:** the variable tested in the condition should be updated within the code block to avoid an infinite loop.
 
 ## Do While Loop
 
