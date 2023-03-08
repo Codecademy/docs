@@ -31,7 +31,7 @@ Object creation is typically done by invoking the superclass’ `__new__()` in t
 
 In the example above, no parent class was specified, therefore, the class will directly inherit from the object base class (from which all classes inherit). Calling it explicitly using `object.__new__(cls)` will have the same effect.
 
-When the following code is appended to the one above:
+When the following pseudocode is appended to the previous one above:
 
 ```pseudo
 def __init__(self, *args, **kwargs):
