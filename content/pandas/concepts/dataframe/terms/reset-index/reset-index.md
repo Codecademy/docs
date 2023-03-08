@@ -19,13 +19,17 @@ Through the course of exploratory analysis, and other data work, a DataFrame obj
 
 ```pseudo
 df = dataframe_value.reset_index()
-
-
+```
 
 The `.reset_index()` method provides the following parameters:
 
 - *drop:* Takes a boolean value and is set to `False` by default. When this parameter is set to `True` it replaces the previous DataFrame index with the new index provided by `.reset_index()`, otherwise it sets the new index in front of the old index.
 - *inplace:* Takes a boolean value and is set to `False` by default. When this parameter is set to `True` it applies all changes to the current instance of the DataFrame, otherwise it creates a new DataFrame instance with the changes applied to that DataFrame.
+- *level:* Takes integer, string, tuple, list, or None values and is set to `None` by default. Removes the levels provided from the index.
+- *col_level:* Takes integer or string values and is set to 0 by default. Determines what level the labels are inserted into when the columns have multiple levels. The first level is set by default.
+- *col_fill:* Takes a string, list, or None and is set to `None` by default. Determines how the other levels of are named when the columns have multiple levels. Uses the index name by default.
+- *allow_duplicates:* Optional parameter which takes a boolean value and is set to `lib.no_default` by default. When this parameter is set to `True` it allows duplicate column labels to be created.
+- *names:* Takes interger, string, 1-dimensional list, or None values and is set to `None` by default. Renames the index DataFrame column. In the case that the Dataframe has a MultiIndex this value has to be a list or tuple equal in length to the number of levels.
 
 ## Actions Which Cause Indexing Issues 
 
