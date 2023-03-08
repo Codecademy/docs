@@ -69,7 +69,7 @@ class Test(object):
 
 ## Codebyte Example
 
-The codebyte example below creates a subclass of the int class called `MyInt`. `MyInt` will have a mutable `bitLength` property. Note that when the int class’ `__new__()` method is invoked, `value` is passed in as the second argument. When `__new__()` returns an `int` object, it will initialize it with `value`. The `bitlength` attribute as well as any other attribute can also be initialized within the `__new__()` method of `myInt`.
+The codebyte example below creates a subclass of the `int` class called `MyInt`. `MyInt` will have a mutable `bitLength` property. Note that when the `int` class’ `__new__()` method is invoked, `value` is passed in as the second argument. When `__new__()` returns an `int` object, it will initialize it with `value`. The `bitlength` attribute as well as any other attribute can also be initialized within the `__new__()` method of `myInt`.
 
 ```codebyte/python
 class MyInt(int):
