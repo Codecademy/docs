@@ -42,7 +42,7 @@ check_if_string(var2)
 
 This example results in the following output:
 
-```py
+```shell
 True
 False
 ```
