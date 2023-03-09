@@ -15,7 +15,7 @@ CatalogContent:
 
 The **`title`** global attribute contains and can display the specified information about the element it belongs to.
 
-> **Note:** Although the `title` attribute can display additional information on the screen, it does not work with touch screens, keyboard-only navigation, or assistive technologies.
+> **Note:** Although the `title` attribute can display additional information on the screen, it does not work with touch screens and keyboard-only navigation. Using the `title` attribute is especially important for assistive technologies to help provide a user-friendly browsing experience.
 
 ## Syntax
 
