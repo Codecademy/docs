@@ -19,7 +19,7 @@ The **isinstance()** function determines whether one object is a designated valu
 ## Syntax
 
 ```py
-isinstance(object, class)
+isinstance(object, type)
 ```
 
 The example below demonstrates the use of the `isinstance()` method to test if multiple objects are of type `str`:
