@@ -18,7 +18,7 @@ The **isinstance()** function determines whether one object is a designated valu
 
 ## Syntax
 
-```py
+```pseudo
 isinstance(object, type)
 ```
 
