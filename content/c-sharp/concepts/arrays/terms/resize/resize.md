@@ -6,6 +6,8 @@ Subjects:
   - 'Code Foundations'
 Tags:
   - 'Arrays'
+  - 'Methods'
+  - 'Collections'
 CatalogContent:
   - 'learn-c-sharp'
   - 'paths/computer-science'
@@ -33,17 +35,17 @@ public class Example
 {
    public static void Main()
    {
-        //Martians have intercepted a broadcast of the musical album, Jeff Wayne's "War of the Worlds", and they love it.  The Martians have created an array of the songs they were able to intercept.
+        // Martians have intercepted a broadcast of the musical album, Jeff Wayne's "War of the Worlds", and they love it.  The Martians have created an array of the songs they were able to intercept.
         String[] WaroftheWorlds = {"The_Eve_of_the_War", "Horsell_Common_and_the_Heat_Ray", "The_Artilleryman_and_the_Fighting_Machine", "Forever_Autumn", "Thunder_Child", "The_Red_Weed_(Part_1)", "The_Spirit_of_Man", "The_Red_Weed_(Part_2)", "The_Artilleryman_Returns", "Brave_New_World"};
         Console.WriteLine("Broadcast from Earth:");
         PrintUlla(WaroftheWorlds);
 
-        //The Martians know that there are still three songs on the album, but they do not know what these songs are called.  Instead, they resize their array to set empty placeholders for these songs.
+        // The Martians know that there are still three songs on the album, but they do not know what these songs are called.  Instead, they resize their array to set empty placeholders for these songs.
         Array.Resize(ref WaroftheWorlds, WaroftheWorlds.Length + 3);
         Console.WriteLine("Complete Broadcast (Will Receive Soon):");
         PrintUlla(WaroftheWorlds);
         
-        //The Martians favorite part of the album is really where they triumph over humanity. They decide that this part of the array is their favorite, and resize the array to only include the first five songs.
+        // The Martians favorite part of the album is really where they triumph over humanity. They decide that this part of the array is their favorite, and resize the array to only include the first five songs.
         Array.Resize(ref WaroftheWorlds, 5);
         Console.WriteLine("Invasion Plan:");
         PrintUlla(WaroftheWorlds);
