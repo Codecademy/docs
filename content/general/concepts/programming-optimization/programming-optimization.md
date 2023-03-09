@@ -106,7 +106,7 @@ For example:
 - On early C compilers, for-loops had an unconditional jump, however, while-loops have a conditional jump.
 - A language that is dynamically typed may be slower than a statically typed language, but it may be easier to write and maintain.
 
-In the most general terms, source code optimization tends to substitute generic high-level programming structures with lower-level source code, thus enhancing performance and/or reducing resource consumption (e.g. [CPU](https://www.codecademy.com/resources/docs/general/cpu), memory, etc.)).
+In the most general terms, source code optimization tends to substitute generic high-level programming structures with lower-level source code, thus enhancing performance and/or reducing resource consumption (e.g. [CPU](https://www.codecademy.com/resources/docs/general/computer-hardware/cpu), memory, etc.)).
 
 Such aforementioned programming optimizations can now be performed by compilers. Although compilers can optimize source code at a lower level, they are often limited to general purpose optimization, thus making manual optimization still necessary, allowing talented and experienced programmers to be creative with their solutions.
 
@@ -148,7 +148,7 @@ do {
 } while (v < 100);
 ```
 
-Written as above should not only save the CPU cycles but can also be used on any [processor](https://www.codecademy.com/resources/docs/general/processor).
+Written as above should not only save the CPU cycles but can also be used on any [processor](https://www.codecademy.com/resources/docs/general/computer-hardware/processor).
 
 #### Strength Reduction
 
