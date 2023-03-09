@@ -10,8 +10,8 @@ Tags:
   - 'Algorithms'
   - 'Booleans'
 CatalogContent:
-- 'learn-python-3'
-- 'paths/computer-science'
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
 The **isinstance()** function determines whether one object is a designated value type. If it is, the function will return `True`, otherwise the function will return `False`.
