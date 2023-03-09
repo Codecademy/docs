@@ -58,6 +58,7 @@ Comments
 Comparison
 Compilation
 Components
+Composition
 Computer Vision
 CMS
 Concatenation
@@ -107,6 +108,7 @@ Events
 Exceptions
 Expo
 Express
+Favicon
 Files
 Finance
 Firebase
@@ -121,6 +123,7 @@ Formatting
 Frameworks
 Functions
 Functional Programming
+Functors
 Ggplot2
 Git
 GitHub

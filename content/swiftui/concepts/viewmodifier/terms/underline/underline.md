@@ -1,12 +1,12 @@
 ---
 Title: '.underline()'
-Description: 'Applies an underline style to text characters in a View.'
+Description: 'Applies an underline style to text characters in a view.'
 Subjects:
   - 'Mobile Development'
   - 'iOS'
 Tags:
   - 'SwiftUI'
-  - 'SwiftUI Modifiers'
+  - 'SwiftUI ViewModifiers'
 CatalogContent:
   - 'learn-swift'
   - 'paths/build-ios-apps-with-swiftui'
@@ -34,7 +34,7 @@ var body: some View {
     }
 ```
 
-In the above example, the `.underline()` modifier is called on the `Text` View. This applies an underlined style to all characters within the `Text`.
+In the above example, the `.underline()` modifier is called on the `Text` view. This applies an underlined style to all characters within the `Text`.
 
 This will display the following:
 
