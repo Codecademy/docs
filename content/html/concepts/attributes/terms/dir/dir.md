@@ -42,7 +42,7 @@ The following example sets the `dir` attribute on a [`<p>` element](https://www.
 
 This results in the following output:
 
-![Incorrect use of dir attribute](/media/html-dir-incorrect.png)
+![Incorrect use of dir attribute](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-dir-incorrect.png)
 
 > **Note:** The punctuation mark, `.`, is placed at the front of the sentence when using `rtl` direction. The LRM control character `&lrm;` can be placed at the end of the sentence to display the punctuation as if the text is left-to-right.
 
@@ -56,4 +56,4 @@ The following example sets the `dir` attribute on a `<p>` element to `ltr`:
 
 This results in the following output:
 
-![Correct use of dir attribute](/media/html-dir-correct.png)
+![Correct use of dir attribute](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-dir-correct.png)
