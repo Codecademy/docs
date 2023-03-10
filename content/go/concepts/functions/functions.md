@@ -208,14 +208,14 @@ Program exited.
 
 ## Variadic Parameters
 
-Each function can have at most one variadic parameter(keys ...int).
+Each function can have at most one variadic parameter (keys ...int).
 The type of a variadic parameter is always a slice type.
 
-`Println` is a variadic function
+`Println` is a variadic function.
 
-This snippet shows how `Println` is defined under the hood in go
+This following shows the internal implementation of `Println` in Go:
 
-```
+```shell
 // Println formats using the default formats for its operands and writes to standard output.
 // Spaces are always added between operands and a newline is appended.
 // It returns the number of bytes written and any write error encountered.
@@ -282,18 +282,18 @@ Program exited.
 
 ## Points to Remember
 
-Names of the functions must be unique in the package scope exceptions for this are init and using blank identifier(these can never be called directly they are only used to implement interfaces or provide helper functionality.)
+Names of the functions must be unique in the package scope; exceptions for this are `init` or when using a blank identifier (these can never be called directly they are only used to implement interfaces or provide helper functionality.)
 
 Reasons to use a blank identifier is for better readability and to say that this function is not meant to be called directly from outside the package.
-Another use case for blank identifier is to implement interfaces
+Another use case for blank identifier is to implement interfaces.
 
 <!-- TODO: update link here after interfaces in go is done or make a example here with interfaces need opinion of someone -->
 
 - Value semantics is appropriate when the data is safe to be copied. In this case, passing a copy of the data to a function or method is sufficient and can improve performance by avoiding the overhead of passing a pointer.
 
-- Pointer semantics is appropriate when the data is not safe to be copied. In this case, passing a pointer to the data allows the function or method to modify the original data.Using pointers is more efficient when dealing with large data structures, as it avoids the cost of copying the entire data structure. However, pointers add complexity to the program.
+- Pointer semantics is appropriate when the data is not safe to be copied. In this case, passing a pointer to the data allows the function or method to modify the original data. The use of pointers is more efficient when dealing with large data structures, as it avoids the cost of copying the entire data structure. However, pointers add complexity to the program.
 
-The `init` function is called before the `main` function and can be called multiple times
+The `init` function is called before the `main` function and can be called multiple times.
 
 Below is an example with the `init` function:
 
