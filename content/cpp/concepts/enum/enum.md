@@ -75,7 +75,7 @@ int main() {
 
 ## Scoped Enums
 
-Scoped enums are a feature added in C++11.
+**Scoped enums** are a feature added in C++11.
 
 Scoped enums differ from unscoped enums by:
 - Containing their constants in their namespace
