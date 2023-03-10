@@ -81,7 +81,7 @@ Scoped enums differ from unscoped enums by:
 - Containing their constants in their namespace
 - Being strongly typed
 
-By containing their constants to their namespace, scoped enums avoid name conflicts with other enums
+By containing their constants to their namespace, scoped enumerations avoid name conflicts with other enumerations.
 
 Example:
 
