@@ -10,8 +10,8 @@ Tags:
   - 'Anonymous Functions'
 CatalogContent:
   - 'learn-go'
-  - 'paths/computer-science'
   - 'paths/back-end-engineer-career-path'
+  - 'paths/computer-science'
 ---
 
 **Functions** are blocks of code that can be reused multiple times.
@@ -22,12 +22,12 @@ Functions are defined using the `func` keyword, followed by the function name, p
 Syntax for a function in Go is as follows:
 
 ```pseudo
-func functionName(parameter type)(resultReturn type){
+func functionName(parameter type)(returnValue type){
     return value
 }
 ```
 
-The parameter names and result names must be either all present or all absent.
+The `parameter` and `returnValue` names must be either all present or all absent.
 Pass by value is used for parameters, meaning the function receives a copy of the parameter's value. To modify the parameter, pass a pointer.
 
 Below are some examples of how to define functions in Go:
