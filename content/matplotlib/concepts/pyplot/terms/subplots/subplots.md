@@ -1,6 +1,6 @@
 ---
 Title: '.subplots()'
-Description: Adds a given number of subplots to a matplotlib figure.
+Description: 'Adds a given number of subplots to a matplotlib figure.'
 Subjects:
   -  'Data Science'
   -  'Data Visualization'
@@ -16,12 +16,14 @@ CatalogContent:
 The **`.subplots()`** method returns a figure with multiple subplots. This method is an efficient way to create popular subplot layouts with a high-level and concise syntax.
 
 ## Syntax
+
 ```pseudo
 pyplot.subplots(nrows, ncols)
 ```
 
-`subplots()` has the following parameters:
-|  Parameter Name  | Data Type(s)                                                        | Usage:
+`.subplots()` has the following parameters:
+
+|  Parameter Name  | Data Type(s)                                                        | Usage
 | :--------------: |  :----------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `nrows, ncols`   | int                                                                 | The quantity of rows and/or columns within the grid of subplots. Defaults to 1.                                                                                                                                                       |
 | `sharex, sharey` | bool or one of the following arguments: 'none', 'all', 'row', 'col' | `sharex` and `sharey` control the sharing of properties among x or y axis of subplots. Shared x-axis or y-axis allows for creating tick labels only on the bottom subplot or first column subplot, respectively. Default is `False`.  |
@@ -64,4 +66,4 @@ plt.show()
 ```
 
 The output is shown below:
-![Output of the matplotlib.pyplot.subplots() function](/media/subplots-example.png)
+![Output](/media/subplots-example.png)
