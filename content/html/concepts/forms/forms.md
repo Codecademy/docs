@@ -20,6 +20,14 @@ In HTML, **forms** are used for gathering and sending user input to an external 
 
 ## Syntax
 
+```html
+<form>
+<!-- form elements -->
+</form>
+```
+
+## Example
+
 The following is an example of an HTML form that features `<input>` elements:
   
 ```html
