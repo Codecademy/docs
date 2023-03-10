@@ -13,6 +13,7 @@ Anchor
 Android
 Angular
 Animation
+Anonymous Functions
 APIs
 Arguments
 Arithmetic
