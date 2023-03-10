@@ -32,7 +32,7 @@ For nested elements, the `title` attribute will be inherited from the parent ele
 While any element can have a `title` attribute, it provides a special function for some elements. When the `title` attribute is used with:
 
 - [`<abbr>`](https://www.codecademy.com/resources/docs/html/elements/abbr): The `title` must contain a description or expansion of the abbreviation.
-- the [`<iframe>`](https://www.codecademy.com/resources/docs/html/elements/iframe) element, the `title` should describe the embedded content for assistive technologies.
+- [`<iframe>`](https://www.codecademy.com/resources/docs/html/elements/iframe): The `title` should describe the embedded content for assistive technologies.
 - the [`<input>`](https://www.codecademy.com/resources/docs/html/elements/input) element in a form the information is only visible when hovering over the element. It is better to use a `<label>` element that is always visible.
 - the `<link rel="stylesheet">` element, the `title` specifies the default and alternate stylesheets.
 
