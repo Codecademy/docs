@@ -34,7 +34,7 @@ While any element can have a `title` attribute, it provides a special function f
 - [`<abbr>`](https://www.codecademy.com/resources/docs/html/elements/abbr): The `title` must contain a description or expansion of the abbreviation.
 - [`<iframe>`](https://www.codecademy.com/resources/docs/html/elements/iframe): The `title` should describe the embedded content for assistive technologies.
 - [`<input>`](https://www.codecademy.com/resources/docs/html/elements/input): This element only displays information when a user is hovering over the element. It is better to use a `<label>` element that is always visible.
-- the `<link rel="stylesheet">` element, the `title` specifies the default and alternate stylesheets.
+- `<link rel="stylesheet">`: The `title` specifies the default and alternate stylesheets.
 
 ## Example
 
