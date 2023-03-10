@@ -1,6 +1,6 @@
 ---
 Title: 'isinstance()'
-Description: 'Returns True if the given object is the specified type. Otherwise the function will return False.'
+Description: 'Returns a boolean indicating if the given object is the specified type.'
 Subjects:
   - 'Data Science'
   - 'Data Visualization'
@@ -10,21 +10,23 @@ Tags:
   - 'Algorithms'
   - 'Booleans'
 CatalogContent:
-- 'learn-python-3'
-- 'paths/computer-science'
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
 The **isinstance()** function determines whether one object is a designated value type. If it is, the function will return `True`, otherwise the function will return `False`.
 
+## Example
+
 ## Syntax
 
-```py
-isinstance(object, class)
+```pseudo
+isinstance(object, type)
 ```
 
-The example below demonstrates the use of the `isinstance()` method to test if multiple objects are of type `str`:
+[Python Data Types](https://www.codecademy.com/resources/docs/python/data-types)
 
-## Example
+The example below demonstrates the use of the `isinstance()` method to test if multiple objects are of type `str`:
 
 ```py
 var1 = "Hello World!"
@@ -42,7 +44,7 @@ check_if_string(var2)
 
 This example results in the following output:
 
-```py
+```shell
 True
 False
 ```
