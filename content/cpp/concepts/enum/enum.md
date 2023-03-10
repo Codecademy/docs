@@ -72,3 +72,22 @@ int main() {
   std::cout << month;
 }
 ```
+
+## Scoped Enums
+
+Scoped enums are a feature added in C++11.
+
+Scoped enums differ from unscoped enums by:
+- Containing their constants in their namespace
+- Being strongly typed
+
+By containing their constants to their namespace, scoped enums avoid name conflicts with other enums
+
+Example:
+
+```cpp
+enum class WeekDay {sun, mon, tue, wed, thu, fri, sat};
+//...
+Weekday day = WeekDay::sun; // Notice how we need to preface "sun" with "Weekday::"
+int friday = WeekDay::fri; // error, must cast to an int
+```
