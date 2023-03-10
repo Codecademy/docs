@@ -1,6 +1,6 @@
 ---
 Title: 'Functions'
-Description: 'Functions are a block of code that can be reused multiple times.'
+Description: 'Functions are blocks of code that can be reused multiple times.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -14,8 +14,8 @@ CatalogContent:
   - 'paths/back-end-engineer-career-path'
 ---
 
-**Functions** are a block of code that can be reused multiple times.
-Functions are defined using the `func` keyword, followed by the function name, parameters, and return type. 
+**Functions** are blocks of code that can be reused multiple times.
+Functions are defined using the `func` keyword, followed by the function name, parameters, and return type.
 
 ## Syntax
 
@@ -38,44 +38,44 @@ Below are some examples of how to define functions in Go:
 package main
 
 import (
-	"fmt"
+  "fmt"
 )
 
 // Parentheses can be omitted if there is only one parameter
 func Hello(name string) string {
-	return "This is being returned with no parentheses. " + name
+  return "This is being returned with no parentheses. " + name
 }
 
 func MultipleReturns(a int64, b int64) (int64, int64) {
-	return a + b, a - b
+  return a + b, a - b
 }
 
 func MultipleReturns2(a int64, b int64) (c int64, d int64) {
-	x, y := a+b, a-b
-	c = x
-	d = y
-	return // Return names don't need to be specified if using named return values in func definition
+  x, y := a+b, a-b
+  c = x
+  d = y
+  return // Return names don't need to be specified if using named return values in func definition
 }
 
 // Passing a function as a parameter
 func printResult(f func(int64, int64) (int64, int64), a int64, b int64) {
-	c, d := f(a, b)
-	fmt.Println(c, d)
+  c, d := f(a, b)
+  fmt.Println(c, d)
 }
 
 // Functions can return functions as well!
 func returnFunc() func() {
-	return func() {
-		fmt.Println("This is a function returned by another function.")
-	}
+  return func() {
+    fmt.Println("This is a function returned by another function.")
+  }
 }
 
 func main() {
-	returnFunc()()
-	printResult(MultipleReturns, 10, 3)
-	fmt.Println(Hello("nice right"))
-	fmt.Println(MultipleReturns(10, 3))
-	fmt.Println(MultipleReturns2(10, 3))
+  returnFunc()()
+  printResult(MultipleReturns, 10, 3)
+  fmt.Println(Hello("nice right"))
+  fmt.Println(MultipleReturns(10, 3))
+  fmt.Println(MultipleReturns2(10, 3))
 }
 
 ```
@@ -92,7 +92,7 @@ check me i dont have parenthesis around my return see nice right
 Program exited.
 ```
 
-> **Note:** Functions must be directly declared at package level, not inside other functions.
+Functions must be directly declared at package level, not inside other functions. Otherwise, an error message is thrown:
 
 ```go
 package main
@@ -100,9 +100,9 @@ package main
 import "fmt"
 
 func main() {
-	func name() {
-		fmt.Println("hey")
-	}()
+  func name() {
+    fmt.Println("hey")
+  }()
 }
 
 ```
@@ -122,24 +122,24 @@ package main
 import "fmt"
 
 func main() {
-	func() {
-		fmt.Println("Hey, I have no name")
-	}()
-	greeting := "Hey, there."
-	// Greeting can be accessed inside of nested functions and can be changed
-	// Or assigned to a variable to make it reusable
-	secondWay := func(name string) {
-		greeting = "Hey " + name
+  func() {
+    fmt.Println("Hey, I have no name")
+  }()
+  greeting := "Hey, there."
+  // Greeting can be accessed inside of nested functions and can be changed
+  // Or assigned to a variable to make it reusable
+  secondWay := func(name string) {
+    greeting = "Hey " + name
 
-	}
-	secondWay("Pavan")
-	fmt.Println(greeting)
+  }
+  secondWay("Pavan")
+  fmt.Println(greeting)
 
 }
 
 ```
 
-This produces the following output: 
+This produces the following output:
 
 ```shell
 Hey, I have no name
@@ -164,27 +164,27 @@ import "fmt"
 
 func main() {
 
-	x, y := func() (int, int) {
-		fmt.Println("This function has no parameters.")
-		return 3, 4
-	}()
-	fmt.Println(x, y) //3 and 4
+  x, y := func() (int, int) {
+    fmt.Println("This function has no parameters.")
+    return 3, 4
+  }()
+  fmt.Println(x, y) //3 and 4
 
-	func() {
-		fmt.Println("x*y =", x*y)
-	}()
+  func() {
+    fmt.Println("x*y =", x*y)
+  }()
 
-	// The following anonymous function has no results so it can be omitted
+  // The following anonymous function has no results so it can be omitted
 
-	func(a, b int) { // Equivalent to func(a int,b int)
-		println("a+b =", a+b)
-	}(x, y)
+  func(a, b int) { // Equivalent to func(a int,b int)
+    println("a+b =", a+b)
+  }(x, y)
 
-	func(keys ...int) { // Variadic parameters
-		for _, key := range keys {
-			fmt.Println(key)
-		}
-	}(1, 2, 3, 4, 5) // Can pass any number of arguments
+  func(keys ...int) { // Variadic parameters
+    for _, key := range keys {
+      fmt.Println(key)
+    }
+  }(1, 2, 3, 4, 5) // Can pass any number of arguments
 
 }
 
@@ -220,11 +220,9 @@ This snippet shows how `Println` is defined under the hood in go
 // Spaces are always added between operands and a newline is appended.
 // It returns the number of bytes written and any write error encountered.
 func Println(a ...any) (n int, err error) {
-	return Fprintln(os.Stdout, a...)
+  return Fprintln(os.Stdout, a...)
 }
 ```
-
-
 
 ## Methods
 
@@ -245,29 +243,29 @@ Below is an example of methods in Go:
 package main
 
 import (
-	"fmt"
+  "fmt"
 )
 
 type student struct {
-	name  string
-	email string
+  name  string
+  email string
 }
 
 func (s student) passyByValue(name string) {
-	s.name = name
+  s.name = name
 }
 func (s *student) passByRef(email string) {
-	s.email = email
+  s.email = email
 }
 func main() {
-	s := student{"pavan", "pavan@example.com"}
-	fmt.Println("initially", s)
-	s.passyByValue("xyz")
-	fmt.Println("after pass by value", s)
-	s.passByRef("pooja@example.com")
-	// Equivalent to (&s).passByRef
-	// This is because the compiler will automatically convert s to &s implicit dereferencing
-	fmt.Println("after pass by reference", s)
+  s := student{"pavan", "pavan@example.com"}
+  fmt.Println("initially", s)
+  s.passyByValue("xyz")
+  fmt.Println("after pass by value", s)
+  s.passByRef("pooja@example.com")
+  // Equivalent to (&s).passByRef
+  // This is because the compiler will automatically convert s to &s implicit dereferencing
+  fmt.Println("after pass by reference", s)
 
 }
 ```
@@ -287,7 +285,7 @@ Program exited.
 Names of the functions must be unique in the package scope exceptions for this are init and using blank identifier(these can never be called directly they are only used to implement interfaces or provide helper functionality.)
 
 Reasons to use a blank identifier is for better readability and to say that this function is not meant to be called directly from outside the package.
-Another use case for blank identifier is to implement interfaces 
+Another use case for blank identifier is to implement interfaces
 
 <!-- TODO: update link here after interfaces in go is done or make a example here with interfaces need opinion of someone -->
 
@@ -305,23 +303,23 @@ Below is an example with the `init` function:
 package main
 
 import (
-	"fmt"
+  "fmt"
 )
 
 func init() {
-	fmt.Println("Initializing package main")
+  fmt.Println("Initializing package main")
 }
 
 func init() {
-	fmt.Println("Initializing package main again")
+  fmt.Println("Initializing package main again")
 }
 
 func main() {
-	fmt.Println("Hello, World!")
-	_init()
+  fmt.Println("Hello, World!")
+  _init()
 }
 func _init() {
-	fmt.Println("Initializing package main!!")
+  fmt.Println("Initializing package main!!")
 }
 
 ```
@@ -345,13 +343,13 @@ The following codebyte example provides another example of a function. It is run
 package main
 
 import (
-	"fmt"
+  "fmt"
 )
 
 func Hello(name string) string {
-	return "Hello " + name
+  return "Hello " + name
 }
 func main() {
-	fmt.Println(Hello("World!"))
+  fmt.Println(Hello("World!"))
 }
 ```
