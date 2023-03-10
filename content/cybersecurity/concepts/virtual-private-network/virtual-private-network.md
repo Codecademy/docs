@@ -1,6 +1,6 @@
 ---
 Title: 'Virtual Private Network'
-Description: 'Virtual Private Network (VPN) is a solution to allow remote access for employees to connect to their organization's internal network from their home or while traveling.'
+Description: 'Virtual Private Network (VPN) is a solution to allow remote access for employees to connect to the internal network of their organization from their home or while traveling.'
 Subjects:
   - 'Cybersecurity'
 Tags:
