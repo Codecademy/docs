@@ -41,7 +41,9 @@ While any element can have a `title` attribute, it provides a special function f
 In the example below, the `<p>` element uses a `title` attribute to provide further information about the text in the paragraph:
 
 ```html
-<p title="Also known as water bears or moss piglets.">Tardigrades can survive some of the harshest conditions.</p>
+<p title="Also known as water bears or moss piglets.">
+  Tardigrades can survive some of the harshest conditions.
+</p>
 ```
 
 This results in a tooltip with the specified text appearing next to the paragraph while hovering over it:
