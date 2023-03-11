@@ -1,18 +1,19 @@
 ---
 Title: 'Code Blocks'
-Description: 'Code blocks can be used to hold multiple lines of code. They preserve formatting and provide syntax highlighting when possible.'
+Description: 'Code blocks can be used to display multiple lines of code. They preserve formatting and provide syntax highlighting when possible.'
 Subjects:
   - 'Developer Tools'
   - 'Web Development'
 Tags:
   - 'Markdown'
   - 'GitHub'
+  - 'Documentation' 
 CatalogContent:
   - 'learn-html'
   - 'paths/front-end-engineer-career-path'
 ---
 
-Code blocks can be used to hold multiple lines of code. They preserve formatting and provide syntax highlighting when possible.
+Code blocks can be used to display multiple lines of code. They preserve formatting and provide syntax highlighting when possible.
 
 ## Basic Usage
 
