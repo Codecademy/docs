@@ -17,16 +17,16 @@ A **`.bar()`** function returns a chart/graph that represents categorical data w
 
 ## Syntax
 
-``` pseudo
+```pseudo
 plt.bar(x, height, width, bottom, align)
 ```
 
 The parameters to the function are:
-  - `x`: Float or array-like values (may be an index and is not required to be scalar).
-  - `height`: Float or array-like values designating the heights of the bars.
-  - `width`: Float or array-like values designating the widths of the bars (the default is 0.8). 
-  - `bottom`: Float or array-like values to designate the y coordinates of the bars (default: 0).
-  - `align`: Keyword (‘center’ or ‘edge’) designating the bar alignment (default: ‘center’).
+- `x`: Float or array-like values (may be an index and is not required to be scalar).
+- `height`: Float or array-like values designating the heights of the bars.
+- `width`: Float or array-like values designating the widths of the bars (the default is 0.8). 
+- `bottom`: Float or array-like values to designate the y coordinates of the bars (default: 0).
+- `align`: Keyword (‘center’ or ‘edge’) designating the bar alignment (default: ‘center’).
 
 ## Example
 
