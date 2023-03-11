@@ -124,6 +124,7 @@ Frameworks
 Functions
 Functional Programming
 Functors
+Geometry
 Ggplot2
 Git
 GitHub
@@ -280,6 +281,7 @@ Title
 Transitions
 Transpilation
 Trees
+Trigonometry
 Try
 Tuples
 Types
