@@ -46,25 +46,33 @@ A `switch` statement includes one or more `case` conditions. The `case` conditio
 ## Codebyte Example
 
 ```codebyte/csharp
-string favoriteTurtle = "Donatello";
+using System;
 
-switch (favoriteTurtle) 
+public class Example
 {
-  case "Leonardo":
-    Console.WriteLine("Leads!")
-    break;
-  case "Donatello":
-    Console.WriteLine("Does machines!")
-    break;
-  case "Raphael":
-    Console.WriteLine("Cool, but rude!")
-    break;
-  case "Michelangelo":
-    Console.WriteLine("Party dude!")
-    break;
-  default:
-    Console.WriteLine($"{favoriteTurtle} sounds cool, but I'll bet they're not a ninja!")
-    break;
+  public static void Main(string[] args)
+  {
+  string favoriteTurtle = "Donatello";
+
+  switch (favoriteTurtle) 
+  {
+    case "Leonardo":
+      Console.WriteLine("Leads!");
+      break;
+    case "Donatello":
+      Console.WriteLine("Does machines!");
+      break;
+    case "Raphael":
+      Console.WriteLine("Cool, but rude!");
+      break;
+    case "Michelangelo":
+      Console.WriteLine("Party dude!");
+      break;
+    default:
+      Console.WriteLine($"{favoriteTurtle} sounds cool, but I'll bet they're not a ninja!");
+      break;
+  }
+ }
 }
 
 // Output: "Does machines!"
