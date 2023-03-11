@@ -92,3 +92,15 @@ enum class WeekDay {sun, mon, tue, wed, thu, fri, sat};
 Weekday day = WeekDay::sun; // Notice how we need to preface "sun" with "Weekday::"
 int friday = WeekDay::fri; // error, must cast to an int
 ```
+
+Here's an example where scoped enums avoid name collisions:
+
+```cpp
+enum class LogResult {Sucess, InvalidFileName, WriteError};
+enum class SocketResult {Success, InvalidAddrError, TimeoutError};
+//...
+LogResult logger_result = log(...);
+
+if (logger_result == LogResult::Sucess) {...} // Because Sucess is scoped to LogResult, it doesn't collide with SocketResult::Success
+
+```
