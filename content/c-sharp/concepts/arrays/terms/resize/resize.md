@@ -22,7 +22,7 @@ The **`.Resize()`** method changes the number of elements of a one-dimensional a
 Array.Resize<int>(ref int[] array, int newSize);
 ```
 
-`.Resize()` is a method of the `Array` object.  When used with a one-dimensional array, it defines the number of elements acceptable by the array, or redefines the size of an array.  This can be used to both lengthen or shorten the number of elements within a given array.
+`.Resize()` is a method of the `Array` object. When used with a one-dimensional array, it defines the number of elements acceptable by the array, or redefines the size of an array. This can be used to both lengthen or shorten the number of elements within a given array.
 
 ## Example
 
@@ -44,13 +44,13 @@ public class Example
         Array.Resize(ref WaroftheWorlds, WaroftheWorlds.Length + 3);
         Console.WriteLine("Complete Broadcast (Will Receive Soon):");
         PrintUlla(WaroftheWorlds);
-        
+
         // The Martians favorite part of the album is really where they triumph over humanity. They decide that this part of the array is their favorite, and resize the array to only include the first five songs.
         Array.Resize(ref WaroftheWorlds, 5);
         Console.WriteLine("Invasion Plan:");
         PrintUlla(WaroftheWorlds);
    }
-   
+
     public static void PrintUlla(String[] WaroftheWorlds)  {
         for(int i = 0; i < WaroftheWorlds.Length; i++)
         {
@@ -87,9 +87,9 @@ Complete Broadcast (Will Receive Soon):
    [7] : The_Red_Weed_(Part_2)
    [8] : The_Artilleryman_Returns
    [9] : Brave_New_World
-   [10] : 
-   [11] : 
-   [12] : 
+   [10] :
+   [11] :
+   [12] :
 
 Invasion Plan:
    [0] : The_Eve_of_the_War
