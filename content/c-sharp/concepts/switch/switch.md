@@ -21,14 +21,14 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 ```pseudo
 switch (expression) 
 {
-  case x:
-    // code block
+  case alpha:
+    // Code block
     break;
-  case y:
-    // code block
+  case beta:
+    // Code block
     break;
   default:
-    // code block
+    // Code block
     break;
 }
 ```
