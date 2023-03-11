@@ -37,7 +37,7 @@ A `switch` statement includes one or more `case` conditions. The `case` conditio
 
 ## Properties
 
-- `switch`: Definition of the `switch` statement
+- `switch`: Definition of the `switch` statement.
 - `expression`: The logic each `case` will be evaluated against
 - `case`: A value the `expression` is matched against. If the `case` matches the result of the `expression`, the code block within the `case` will be executed.
 - `break` (recommended): Terminates the switch statement. Recommended at the end of each `case` and `default`. I.e. Once the code block within a `case` has been executed, terminate the `switch` statement.
