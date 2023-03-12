@@ -9,7 +9,8 @@ Tags:
     - 'color'
     - 'bases'
 CatalogContent:
-    - 'paths/computer-science-career-path'
+    - 'paths/computer-science'
+    - 'paths/code-foundations'
 ---
 
 
