@@ -75,7 +75,7 @@ int main() {
 
 ## Scoped Enums
 
-**Scoped enums** are a feature added in C++11.
+Scoped enums are a feature added in C++11.
 
 Scoped enums differ from unscoped enums by:
 
@@ -84,23 +84,23 @@ Scoped enums differ from unscoped enums by:
 
 By containing their constants to their namespace, scoped enumerations avoid name conflicts with other enumerations.
 
-Example:
+## Example
 
 ```cpp
 enum class WeekDay {sun, mon, tue, wed, thu, fri, sat};
 //...
-Weekday day = WeekDay::sun; // Notice how we need to preface "sun" with "Weekday::"
+WeekDay day = WeekDay::sun; // Notice how we need to preface "sun" with "Weekday::"
 int friday = WeekDay::fri; // error, must cast to an int
 ```
 
 Here's an example where scoped enums avoid name collisions:
 
 ```cpp
-enum class LogResult {Sucess, InvalidFileName, WriteError};
+enum class LogResult {Success, InvalidFileName, WriteError};
 enum class SocketResult {Success, InvalidAddrError, TimeoutError};
 //...
 LogResult logger_result = log(...);
 
-if (logger_result == LogResult::Sucess) {...} // Because Sucess is scoped to LogResult, it doesn't collide with SocketResult::Success
+if (logger_result == LogResult::Success) {...} // Because Success is scoped to LogResult, it doesn't collide with SocketResult::Success
 
 ```
