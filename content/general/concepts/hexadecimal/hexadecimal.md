@@ -13,7 +13,6 @@ CatalogContent:
     - 'paths/code-foundations'
 ---
 
-
 `Hexadecimal`(hex, hex numbers, or base-16) is a numeral system that uses a base of 16 as opposed to the standard decimal system, base 10. The two have the first ten digits in common, 0-9. The remaining digits 10-15 are represented by the letters A-F in base 16. The letters are case-insensitive. 
 
 | Decimal   | Hex       |
