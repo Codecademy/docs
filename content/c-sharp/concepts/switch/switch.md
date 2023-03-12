@@ -40,7 +40,7 @@ A `switch` statement includes one or more `case` conditions. The `case` conditio
 - `switch`: Definition of the `switch` statement.
 - `expression`: The logic each `case` will be evaluated against.
 - `case`: A value the `expression` is matched against. If the `case` matches the result of the `expression`, the code block within the `case` will be executed.
-- `break` (recommended): Terminates the switch statement. Recommended at the end of each `case` and `default`. I.e. Once the code block within a `case` has been executed, terminate the `switch` statement.
+- `break` (recommended): Terminates the switch statement. Recommended at the end of each `case` and `default` to terminate the switch once the case has been fulfilled. A switch statement tests all cases unless a `break`, `throw`, or `return` statement is used to direct control out of the switch. If no `break` statement exists in a case, C# will throw a compile time error.
 - `default` (optional): The behavior executed if no `case` condition matches the `expression`.
 
 ## Codebyte Example
