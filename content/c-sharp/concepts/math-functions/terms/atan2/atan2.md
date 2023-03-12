@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **Math.Atan2()** function returns the angle, in radians, between the positive x-axis and a vector to the point with the given (x, y) in the Cartesian plane.
+The **Math.Atan2()** function returns the angle, in radians, between the positive x-axis and a vector to the point with the given (x, y) coordinates in the Cartesian plane.
 
 ## Syntax
 
