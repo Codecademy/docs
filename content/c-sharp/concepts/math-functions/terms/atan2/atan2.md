@@ -13,7 +13,6 @@ Tags:
   - 'Trigonometry'
 CatalogContent:
   - 'learn-c-sharp'
-  - 'learn-c-sharp-methods'
   - 'paths/computer-science'
 ---
 
