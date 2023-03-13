@@ -1,6 +1,6 @@
 ---
 Title: 'Composition'
-Description: 'Composition is useful for building flexible and maintainable code.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
+Description: 'Composition is useful for building flexible and maintainable code.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -17,7 +17,7 @@ In Go, composition refers to the structuring of data and behavior by combining m
 
 ## Structs
 
-The following example creates a [struct](https://www.codecademy.com/resources/docs/go/structs) called `Pizza`:
+The following example creates a [`struct`](https://www.codecademy.com/resources/docs/go/structs) called `Pizza`:
 
 ```go
 package main
@@ -49,7 +49,7 @@ type Pizza struct {
 }
 
 func pizzaStyle(p Pizza) string {
-	return p.Name + " pizza is a " + p.Size + " pizza with toppings of " + fmt.Sprint(p.Toppings)
+  return p.Name + " pizza is a " + p.Size + " pizza with toppings of " + fmt.Sprint(p.Toppings)
 }
 
 func main() {
@@ -120,11 +120,11 @@ func main() {
 
 In this example `Restaurant` contains the `Pizza` structure.
 
-In this example, a `struct` named `Pizza` is defined with fields for the name, size, toppings, and whether or not it's delicious. The `pizzaStyle` function takes a `Pizza` `struct` as an argument and returns a string that describes the pizza.
+The `Pizza` `struct` is defined with fields for the name, size, toppings, and whether or not it's delicious. The `pizzaStyle` function takes a `Pizza` `struct` as an argument and returns a string that describes the pizza.
 
 A `struct` named `Restaurant` is also defined that contains the `Pizza` structure, the restaurant name, and the restaurant rating. The `restaurantInfo()` function takes a `Restaurant` instance as an argument and returns a string that describes the restaurant.
 
-In the main function, a `Pizza` struct called `myPizza` and a `Restaurant` `struct` called `myRestaurant` are created. Then `myPizza` is passsed to `pizzaStyle` and `myRestaurant` is passed to `restaurantInfo`, which are then printed to the console.
+In the main function, a `Pizza` struct called `myPizza` and a `Restaurant` `struct` called `myRestaurant` are created. Then, `myPizza` is passed to `pizzaStyle()` and `myRestaurant` is passed to `restaurantInfo()`, which are then printed to the console.
 
 This example results in the following output:
 
@@ -135,6 +135,6 @@ Pizzeria del Corso has a rating of 4 and serves the following pizzas: [{Margheri
 
 ## Benefits Of Using Composition
 
-Composition is a very strong technique for making complex structures and objects as a developer. Problems are broken down into smaller parts, and then managed in a structured way. The result is something that is efficient, maintainable, and flexible. (All important for solving problems!)
+Composition is a very strong technique for making complex structures and objects as a developer. Problems are broken down into smaller parts, and then managed in a structured way.
 
-When designing software, it's important to consider the composition of the components we create and how they fit together to form a larger system. By adopting a compositional approach, software is created that is flexible, scalable, and easy to maintain over time.
+When designing software, it's important to consider the composition of the components created and how they fit together to form a larger system. By adopting a compositional approach, software is created that is flexible, scalable, and easy to maintain over time.
