@@ -31,7 +31,7 @@ This method has one required parameter:
 
 - `content`: The view to use as the background.
 
-And a few optional parameters:
+Additionally, there are a few optional parameters:
 
 - `alignment`: The alignment of the background within the view.
   > **Note**: The `alignment` parameter's default value is `.center`, but other options include `.top`, `.bottom`, `.leading`, `.topTrailing`, `.bottomLeading`, and `.bottomTrailing`.
