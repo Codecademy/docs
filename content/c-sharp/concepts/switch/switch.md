@@ -35,7 +35,7 @@ switch (expression)
 
 A `switch` statement includes one or more `case` conditions. The `case` conditions are evaluated in top-to-bottom order. If none of the `case` conditions evaluate to `true`, the `default` condition is executed. If no `default` is defined, the switch statement is bypassed.
 
-## Properties
+Common Switch syntax definitions:
 
 - `switch`: Definition of the `switch` statement.
 - `expression`: The logic each `case` will be evaluated against.
@@ -44,6 +44,10 @@ A `switch` statement includes one or more `case` conditions. The `case` conditio
 - `default` (optional): The behavior executed if no `case` condition matches the `expression`.
 
 ## Codebyte Example
+
+The following example creates a string variable named `favoriteTurtle` with the value of `"Donatello"`. A switch statement is defined that evalutes the value of `favoriteTurtle`. If a case matches the value of `favoriteTurtle`, a corresponding message is printed to the console. If none of the cases in the switch statement match the value of `favoriteTurtle`, a default message is printed to the console.
+
+Let's see how well you know '80s cartoon theme songs!
 
 ```codebyte/csharp
 using System;
