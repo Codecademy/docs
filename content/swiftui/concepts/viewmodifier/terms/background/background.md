@@ -42,13 +42,13 @@ And a few optional parameters:
 
 ```swift
 var body: some View {
-        VStack {
-            Text("I have an Indigo background!")
-        }
-        .padding()
-        .foregroundColor(.white)
-        .background(Color.indigo)
-        .cornerRadius(12)
+    VStack {
+        Text("I have an Indigo background!")
+    }
+    .padding()
+    .foregroundColor(.white)
+    .background(Color.indigo)
+    .cornerRadius(12)
 }
 ```
 
