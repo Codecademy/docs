@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Math.Cos()** is a class method that always rounds up to the next full integer. It is used to return the smallest integer greater than or equal to the specified number.
+The **`Math.Cos()`** class method returns the cosine of a given angle.
 
 ## Syntax
 
@@ -22,28 +22,46 @@ CatalogContent:
 Math.Cos(angle);
 ```
 
-- The method takes only one parameter, `angle`, the number to be rounded (as a `decimal` or `double` type).
+The `Math.Cos()` method takes only one `double` type parameter, `angle`, the angle in radians, to calculate the cosine of it. The `Math.Cos()` method returns the cosine of the `angle` as a `double` value.
 
 ## Example
 
-The following example uses `Math.Cos()` to return the next full integer.
+The following example first converts `60` degrees to radians and then uses `Math.Cos()` method to return the cosine of that angle. Finally, the `Console.WriteLine()` function prints the result to the console:
 
 ```cs
-// Include the System namespace
 using System;
-public class Demo {
-   public static void Main(){
-      decimal val1 = 6.64M;
-      decimal val2 = -9.02M;
-      Console.WriteLine("Solution = " + Math.Ceiling(val1));
-      Console.WriteLine("Solution = " + Math.Ceiling(val2));
-   }
+
+public class Example {
+  public static void Main(string[] args) {
+    double degrees = 60;
+    //Convert degrees to radians
+    double radians = degrees * Math.PI/180;
+
+    Console.WriteLine("The cosine of " + degrees + " degrees is: " + Math.Cos(radians));
+  }
 }
 ```
 
 The example will result in the following output:
 
 ```shell
-Solution = 7
-Solution = -9
+The cosine of 60 degrees is: 0.5
+```
+
+## Codebyte Example
+
+The following example is runnable and returns the cosine of the `angle` given in degrees:
+
+```codebyte/csharp
+using System;
+
+public class Example {
+
+  public static void Main(string[] args) {
+    double angle = 0;
+    double angleRad = angle * Math.PI/180;
+
+    Console.WriteLine("The cosine of " + angle + " degrees is: " + Math.Cos(angleRad));
+  }
+}
 ```
