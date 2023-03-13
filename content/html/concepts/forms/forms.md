@@ -16,11 +16,19 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-In HTML, forms are used for gathering and sending user input to an external source (like a [server](https://www.codecademy.com/resources/docs/general/server)) for processing. This is done with the [`<form>`](https://www.codecademy.com/resources/docs/html/elements/form) tag, which contains various labels and [inputs](https://www.codecademy.com/resources/docs/html/elements/input).
+In HTML, **forms** are used for gathering and sending user input to an external source (like a [server](https://www.codecademy.com/resources/docs/general/server)) for processing. This is done with the [`<form>`](https://www.codecademy.com/resources/docs/html/elements/form) element, which contains various [labels](https://www.codecademy.com/resources/docs/html/elements/label) and [inputs](https://www.codecademy.com/resources/docs/html/elements/input).
+
+## Syntax
+
+```html
+<form>
+  <!-- Form elements -->
+</form>
+```
 
 ## Example
 
-The following example
+The following is an example of an HTML form that features `<input>` elements:
 
 ```html
 <!DOCTYPE html>
