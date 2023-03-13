@@ -22,7 +22,7 @@ In HTML, **forms** are used for gathering and sending user input to an external 
 
 ```html
 <form>
-<!-- form elements -->
+  <!-- Form elements -->
 </form>
 ```
 
