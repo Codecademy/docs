@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Go, composition refers to the structuring of data and behavior by combining multiple smaller types into a single, larger type. Composition in Go is achieved through embedding, which allows a struct to inherit the fields and methods of another struct. This allows for code reuse and modular design. Composition in Go is often preferred over inheritance as it provides a more flexible and maintainable approach to structuring code. With composition, complex types can be built from simpler components, promoting separation of concerns and making the code easier to understand and test. 
+In Go, composition refers to the structuring of data and behavior by combining multiple smaller types into a single, larger type. Composition in Go is achieved through embedding, which allows a `struct` to inherit the fields and methods of another `struct`. This allows for code reuse and modular design. With composition, complex types can be built from simpler components, promoting separation of concerns and making the code easier to understand and test. 
 
 ## Structs
 
