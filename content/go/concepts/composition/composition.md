@@ -86,7 +86,7 @@ type Pizza struct {
 }
 
 func pizzaStyle(p Pizza) string {
-  return p.Name + " pizza is a " + p.Size + " pizza with toppings of " + fmt.Sprint(p.Toppings)
+  return p.Name + " pizza is a " + p.Size + " pizza with toppings of: " + fmt.Sprint(p.Toppings)
 }
 
 type Restaurant struct {
@@ -129,7 +129,7 @@ In the main function, a `Pizza` struct called `myPizza` and a `Restaurant` `stru
 This example results in the following output:
 
 ```shell
-Margherita pizza is a medium pizza with toppings of [tomatoes mozzarella basil]
+Margherita pizza is a medium pizza with toppings of: [tomatoes mozzarella basil]
 Pizzeria del Corso has a rating of 4 and serves the following pizzas: [{Margherita medium [tomatoes mozzarella basil] true}]
 ```
 
