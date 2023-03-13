@@ -34,7 +34,7 @@ This method has one required parameter:
 And a few optional parameters:
 
 - `alignment`: The alignment of the background within the view.
-  > **Note**: The `alignment` parameter's default value is `center`, but other options include `.top`, `.bottom`, `.leading`, `.topTrailing`, `.bottomLeading`, and `.bottomTrailing`.
+  > **Note**: The `alignment` parameter's default value is `.center`, but other options include `.top`, `.bottom`, `.leading`, `.topTrailing`, `.bottomLeading`, and `.bottomTrailing`.
 - `blendMode`: The blend mode to use when rendering the background.
 - `ignoresSafeAreaEdges`: Whether the background should ignore safe area edges.
 
