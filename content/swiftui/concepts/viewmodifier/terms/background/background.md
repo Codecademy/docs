@@ -36,7 +36,9 @@ Additionally, there are a few optional parameters:
 - `alignment`: The alignment of the background within the view.
   > **Note**: The `alignment` parameter's default value is `.center`, but other options include `.top`, `.bottom`, `.leading`, `.topTrailing`, `.bottomLeading`, and `.bottomTrailing`.
 - `blendMode`: The blend mode to use when rendering the background.
+  > **Note**: The `blendMode` parameter takes a `BlendMode` enumeration value. Some possible values are `.normal`, `.multiply`, `.screen`, `.overlay`, and `.colorDodge`, among others.
 - `ignoresSafeAreaEdges`: Whether the background should ignore safe area edges.
+  > **Note**: The `ignoresSafeAreaEdges` parameter takes a `Bool` value. When set to `true`, the background will ignore the safe area edges, and when set to `false`, the background will respect the safe area edges.
 
 ## Example
 
