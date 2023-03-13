@@ -1,6 +1,6 @@
 ---
 Title: 'AI'
-Description: 'Artificial Intelligence (AI) refers to both the study of intelligent agents and to the intelligent agents themselves. Currently, AI can be categorized into three groups: narrow, general, and super-artificial intelligence.'
+Description: 'Artificial Intelligence (AI) refers to both the study of intelligent agents and to the intelligent agents themselves. Currently, AI can be categorized into three groups: narrow-, general-, and super-artificial intelligence.'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/build-deep-learning-models-with-tensorflow'
@@ -8,7 +8,7 @@ CatalogContent:
 
 **Artificial Intelligence (AI)** refers to both the study of intelligent agents and the intelligent agents themselves. An "intelligent agent" is any device designed to achieve some goal, receive information from its environment as input, and output a response that maximizes the success of achieving said goal.
 
-Currently, AI can be categorized into three groups: narrow, general, and super-artificial intelligence.
+Currently, AI can be categorized into three groups: narrow-, general-, and super-artificial intelligence.
 
 ## AI Categories
 
