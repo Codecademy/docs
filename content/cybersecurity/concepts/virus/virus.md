@@ -1,6 +1,6 @@
 ---
 Title: 'Virus'
-Description: 'A virus is a type of computer program that can infect a system with malicious code and replicate itself.'
+Description: 'A virus is a type of malware that can infect a system.'
 Subjects:
   - 'Cybersecurity'
   - 'Computer Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/fundamentals-of-cybersecurity'
 ---
 
-A **virus** is a type of computer program that can infect a system with malicious code and replicate itself. Computer viruses have two main functions:
+A **virus** is a of malware that can infect a system. Computer viruses have two main functions:
 
 1. Destruction: Refers to the damage a computer virus can cause to a computer by deleting files or reformatting the hard drive.
 2. Propagation: When a virus self-replicates by placing a copy of itself into other programs across a network.
