@@ -1,6 +1,6 @@
 ---
 Title: '.Acos()'
-Description: 'Returns the inverse cosine of the argument in radians.'
+Description: 'Returns the inverse cosine of the argument.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.Acos()`** method returns the inverse cosine of the argument measured in radians. In other words: It returns the angle whose cosine is the specified number.
+The **`Math.Acos()`** method returns the absolute value of the inverse cosine of the argument measured in radians. In other words: It returns the positive angle whose cosine is the specified number.
 
 ## Syntax
 
@@ -28,7 +28,7 @@ The method takes only one parameter, the variable `x`, of type `double`. The fun
 
 ## Example
 
-The following example demonstrates the `Math.Acos()` method. Five different values are passed to the method, and the return values are printed with the `Console.WriteLine()` method.
+The following example demonstrates the `Math.Acos()` method for five different values. The return values are printed with the `Console.WriteLine()` method.
 
 ```cs
 using System;
@@ -62,5 +62,5 @@ This example results in the following output:
 0
 NaN
 NaN
-1.57079633
+1.5707963267949
 ```
