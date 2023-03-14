@@ -41,7 +41,7 @@ string myString4 = new string(source);
 
 The `new` operator is only used to create a string when initializing with an array of `char`.
 
-> **Note:** It is best practice to initialize an empty string with the `System.String.Empty` constant value or the `""` string literal rather than with `null` to avoid an unwanted `NullRefrenceException`.
+> **Note:** It is best practice to initialize an empty string with the `System.String.Empty` constant value or the `""` string literal rather than with `null` to avoid an unwanted `NullReferenceException`.
 
 ## String Literals
 
