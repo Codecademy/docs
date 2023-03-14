@@ -35,7 +35,7 @@ string myString3 = "Hello World!";
 var localString = "Still a strongly-typed string.";
 
 // The string constructor can create a string from a char*, char[] or sbyte*.
-char source = {'1','2','3','A','B','C'};
+char[] source = {'1','2','3','A','B','C'};
 string myString4 = new string(source);
 ```
 
