@@ -22,7 +22,7 @@ The **`Math.Sin()`** class method returns the sine of a given angle.
 Math.Sin(angle);
 ```
 
-The `Math.Sin()` method takes only one `double` type parameter, `angle`, the angle in radians, to calculate the sine of it. The `Math.Sin()` method returns the sine of the `angle` as a `double` value.
+The `Math.Sin()` method takes only one `double` type parameter - `angle` - an angle in radians. The `Math.Sin()` method returns the sine of the `angle` as a `double` value.
 
 ## Example
 
@@ -34,10 +34,11 @@ using System;
 public class Example {
   public static void Main(string[] args) {
     double degrees = 30;
-    //Convert degrees to radians
     double radians = degrees * Math.PI/180;
 
-    Console.WriteLine("The sine of " + degrees + " degrees is: " + Math.Sin(radians));
+    double sine = Math.Sin(radians);
+
+    Console.WriteLine("The sine of " + degrees + " degrees is: " + sine);
   }
 }
 ```
@@ -58,10 +59,10 @@ using System;
 public class Example {
 
   public static void Main(string[] args) {
+    //angle in degrees
     double angle = -90;
-    double angleRad = angle * Math.PI/180;
 
-    Console.WriteLine("The sine of " + angle + " degrees is: " + Math.Sin(angleRad));
+    Console.WriteLine("The sine of " + angle + " degrees is: " + Math.Sin(angle * Math.PI/180));
   }
 }
 ```
