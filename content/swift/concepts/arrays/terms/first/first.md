@@ -22,7 +22,7 @@ The **`.first()`** method returns the first element of the array that fulfills t
 arrayName.first(where: { condition })
 ```
 
-The `.first()` method takes a single `condition` parameter. It is a [closure](https://www.codecademy.com/resources/docs/swift/closures) that returns a [boolean](https://www.codecademy.com/resources/docs/general/boolean) value indicating whether a given array element is a match.
+The `.first()` method takes a single `condition` parameter. It is a [closure](https://www.codecademy.com/resources/docs/swift/closures) that returns a [boolean](https://www.codecademy.com/resources/docs/general/data-types/boolean) value indicating whether a given array element is a match.
 
 ## Example
 
