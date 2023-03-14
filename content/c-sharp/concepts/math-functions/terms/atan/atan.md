@@ -17,5 +17,8 @@ CatalogContent:
 ```pseudo
 Math.Atan(x);
 ```
-- The `Math.Atan()` method takes int and double arguments and returns a double.
+- The `Math.Atan()` method takes one double as an argument and returns a double.
 - Using this method requires the `System` namespace.
+
+
+## Example
