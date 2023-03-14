@@ -18,3 +18,4 @@ CatalogContent:
 Math.Atan(x);
 ```
 - The `Math.Atan()` method takes int and double arguments and returns a double.
+- Using this method requires the `System` namespace.
