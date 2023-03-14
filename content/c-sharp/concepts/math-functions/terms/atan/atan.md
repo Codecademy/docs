@@ -5,7 +5,9 @@ Description: 'Returns the inverse tangent of the argument.'
 Subjects:
   - 
 Tags:
-  - 
+  - 'Arithmatic'
+  - 'Methods'
+  - 'Numbers'
 CatalogContent:
   - 
 ---
