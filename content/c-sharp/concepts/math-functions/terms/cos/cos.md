@@ -22,7 +22,7 @@ The **`Math.Cos()`** class method returns the cosine of a given angle.
 Math.Cos(angle);
 ```
 
-The `Math.Cos()` method takes only one `double` type parameter, `angle`, the angle in radians, to calculate the cosine of it. The `Math.Cos()` method returns the cosine of the `angle` as a `double` value.
+The `Math.Cos()` method takes only one `double` parameter - `angle` - an angle in radians. The `Math.Cos()` method returns the cosine of the `angle` as a `double` value.
 
 ## Example
 
@@ -34,10 +34,11 @@ using System;
 public class Example {
   public static void Main(string[] args) {
     double degrees = 60;
-    //Convert degrees to radians
     double radians = degrees * Math.PI/180;
 
-    Console.WriteLine("The cosine of " + degrees + " degrees is: " + Math.Cos(radians));
+    double cosine = Math.Cos(radians);
+
+    Console.WriteLine("The cosine of " + degrees + " degrees is: " + cosine);
   }
 }
 ```
@@ -58,10 +59,10 @@ using System;
 public class Example {
 
   public static void Main(string[] args) {
+    //an angle in degrees
     double angle = 0;
-    double angleRad = angle * Math.PI/180;
 
-    Console.WriteLine("The cosine of " + angle + " degrees is: " + Math.Cos(angleRad));
+    Console.WriteLine("The cosine of " + angle + " degrees is: " + Math.Cos(angle * Math.PI/180));
   }
 }
 ```
