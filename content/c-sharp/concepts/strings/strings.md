@@ -162,7 +162,7 @@ Interpolation can be used with verbatim string literals, preceding them with `@$
 ```cs
 string name = "John";
 string greet = @"""Hello World!""";
-string myString @$"{name}
+string myString = @$"{name}
   says,
     {greet}";
 /* The resulting string:
@@ -177,7 +177,7 @@ Interpolation can also be used with raw string literals. They are preceded by on
 ```cs
 string name = "John";
 string greet = @"""Hello World!""";
-string myString $""""
+string myString = $""""
 {name}
   says,
     {greet}
