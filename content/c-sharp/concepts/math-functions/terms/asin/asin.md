@@ -16,7 +16,8 @@ The **Math.Asin()** function computes an angle in radians whose sine is a specif
 
 ## Syntax
 
-```public static double Asin (double value)```
+```pseudo
+Math.Asin(value);
 
 `value`: the input value, which must be in the range -1 <= `value` <= 1
 
