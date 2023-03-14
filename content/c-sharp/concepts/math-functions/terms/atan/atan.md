@@ -17,3 +17,4 @@ CatalogContent:
 ```pseudo
 Math.Atan(x);
 ```
+- The `Math.Atan()` method takes int and double arguments and returns a double.
