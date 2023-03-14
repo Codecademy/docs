@@ -18,6 +18,7 @@ The **Math.Asin()** method computes an angle in radians whose sine is a specifie
 
 ```pseudo
 Math.Asin(value);
+```
 
 `value`: the input value of type double, which must be in the range -1 <= `value` <= 1.
 
@@ -27,7 +28,7 @@ Returns an angle measured in radians, of type `double`, whose sine is `value`. I
 
 ```cs
 using System;
-class CodeacademyDemo
+class CodecademyDemo
 {
     static void Main()
     {
