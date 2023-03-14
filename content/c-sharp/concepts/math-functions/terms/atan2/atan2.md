@@ -65,6 +65,7 @@ public class Program
 ```
 
 This example produces the following output:
+
 ```
 The angle in radians between the positive x-axis and
 a vector to the point (4, 3) is: 0.643501108793284,
@@ -92,4 +93,3 @@ class Sample {
   }
 }
 ```
-
