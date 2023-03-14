@@ -9,3 +9,5 @@ Tags:
 CatalogContent:
   - 
 ---
+
+**Math.Atan()** is a static method that calculates the inverse tangent of a given number, in radians.
