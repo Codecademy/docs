@@ -1,6 +1,6 @@
 ---
 Title: 'Arrays'
-Description: 'Arrays are a data structure that hold a collection of items. PowerShell provides many ways to access, update, and manipulate array items.'
+Description: 'Arrays are a data structure that holds a collection of items. PowerShell provides many ways to access, update, and manipulate array items.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -48,7 +48,7 @@ The items in an array are accessed using their index, or their position in the a
 $colors = "red", "yellow", "black", "blue"
 ```
 
-The indexes in PowerShell starts at `0`.
+The indexes in PowerShell start at `0`.
 
 |   Index   |       Value      |
 | :-------: | :--------------: |
@@ -57,7 +57,7 @@ The indexes in PowerShell starts at `0`.
 |    `2`    |    `"black"`     |
 |    `3`    |    `"blue"`      |
 
-Brackets `[ ]` are used to access an item in array. To access `"black"` in the `colors` array, for example:
+Brackets `[ ]` are used to access an item in an array. To access `"black"` in the `colors` array, for example:
 
 ```shell
 PS > $colors[2]
@@ -77,10 +77,11 @@ black
 blue
 ```
 
-## Indexing Tricks
+## Indexing
 
-PowerShell offers much more flexibility when indexing items such as
-- Multiple indexes: separate indexes with commas to print multiple items
+PowerShell offers much more flexibility when indexing items such as:
+
+- Multiple indexes: Separate indexes with commas to print multiple items.
 
 ```shell
 PS > $colors[0,2]
@@ -88,7 +89,7 @@ red
 black
 ```
 
-- Range operator `..`: print all items between two indexes (exclusive)
+- Range operator `..`: Print all items between two indexes (exclusive).
 
 ```shell
 PS > $colors[1..3]
@@ -97,7 +98,7 @@ black
 blue
 ```
 
-- Reverse range: use range operator from higher index to a lower index to print items in reverse order (inclusive)
+- Reverse range: Use range operator from a higher index to a lower index to print items in reverse order (inclusive).
 
 ```shell
 PS > $colors[2..1]
@@ -105,7 +106,7 @@ black
 brown
 ```
 
-- Negative indexes: items are referenced in reverse order where the last item has index `-1`
+- Negative indexes: Items are referenced in reverse order where the last item has index `-1`.
 
 ```shell
 PS > $colors[-1]
@@ -184,7 +185,7 @@ String
 
 ## Strongly Typed Arrays
 
-Types can be casted onto arrays to force each item in the array adhere to that type.
+Types can be casted onto arrays to force each item in the array to adhere to that type.
 
 ```shell
 PS > [String[]]$fruits = "apple", "banana", "kiwi"
@@ -201,7 +202,7 @@ $dogs_arr = @(
 )
 ```
 
-Each object in the array as well its properties and methods can be accessed individually.
+Each object in the array as well as its properties and methods can be accessed individually.
 
 ```shell
 PS > $dogs_arr.ForEach({ $_.Name + " is " + $_.Age + " years old."})

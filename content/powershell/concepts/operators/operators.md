@@ -33,11 +33,11 @@ PowerShell has the following arithmetic operators which are used to calculate nu
 
 | Operator |      Name      | Description                                                                                 |
 | :------: | :------------: | --------------------------------------------------------------------------------------------|
-|   `+`    |    Addition    | Adds numbers, concatenates strings and arrays                                               |
-|   `-`    |  Subtraction   | Subtracts or negates numbers                                                                |
-|   `*`    | Multiplication | Multiplies numbers or copies strings and arrays a specified number of times                 |
-|   `/`    |    Division    | Divides numbers                                                                             |
-|   `%`    |     Modulo     | Returns the remainder of a division operation                                               |
+|   `+`    |    Addition    | Adds numbers, concatenates strings and arrays.                                               |
+|   `-`    |  Subtraction   | Subtracts or negates numbers.                                                                |
+|   `*`    | Multiplication | Multiplies numbers or copies strings and arrays a specified number of times.                 |
+|   `/`    |    Division    | Divides numbers.                                                                             |
+|   `%`    |     Modulo     | Returns the remainder of a division operation.                                               |
 
 Arithmetic operators are binary operators. Their syntax in PowerShell is `<Operand_1> <Arithmetic Operator> <Operand_2>`.
 

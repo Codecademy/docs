@@ -1,6 +1,6 @@
 ---
 Title: 'Objects'
-Description: 'Objects are made up of properties and methods. PowerShell allows us to create custom objects and add our own variables and functions to them.'
+Description: 'Objects are made up of properties and methods. PowerShell allows developers to create custom objects and add variables and functions to them.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -21,8 +21,8 @@ CatalogContent:
 
 Everything in PowerShell is an **object**. An object is a combination of variables and functions. Each object has:
 
-- **Properties**: variables that describe the object (characteristics)
-- **Methods**: functions that describe how to use the object (actions)
+- Properties: Variables that describe the object (characteristics).
+- Methods: Functions that describe how to use the object (actions).
 
 Each object is an instance of a blueprint called a *type*, or *[class](https://en.wikipedia.org/wiki/Class_(computer_programming))*. 
 
@@ -75,7 +75,7 @@ Thursday, January 19, 2023 3:34:43 AM
 
 ## Object Methods
 
-Methods are the actions an object can take. One of the methods of a String object, for example, is `Contains()`. This method returns `True` if a string contains the specified substring, otherwise `False`.
+Methods are the actions an object can take. One of the methods of a `String` object, for example, is `Contains()`. This method returns `True` if a string contains the specified substring, otherwise `False`.
 
 ```shell
 PS > $my_string = "codecademy"
@@ -83,7 +83,7 @@ PS > $my_string.Contains("code")
 True
 ```
 
-`MemberType` parameter of the `Get-Member` cmdlet can be modified to show only the methods of an object.
+The `MemberType` parameter of the `Get-Member` cmdlet can be modified to show only the methods of an object.
 
 ```shell
 $dog | Get-Member -MemberType Method # Shows all methods of the dog object
@@ -142,6 +142,6 @@ An alternative method to creating a custom object is by utilizing a hashtable. A
 ```shell
 $dog = [PSCustomObject]@{ # Creates a custom object called dog
     Name = "Rufus" # Adds a Name property with "Rufus" as its value
-    Age = 10       # Adds a Age property with 10 as its value
+    Age = 10       # Adds an Age property with 10 as its value
 }
 ```
