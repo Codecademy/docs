@@ -188,3 +188,27 @@ John
     "Hello World!"
 */
 ```
+
+## Codebyte Example
+
+The following is a runnable example showing string interpolation and verbatim string literals.
+
+> **Note:** When editing this codebyte, be aware that the version of C# being used does not permit raw string literals.
+
+```codebyte/csharp
+using System;
+					
+public class Program
+{
+  public static void Main()
+  {
+    string name = "John";
+    string greet = @"""Hello World!""";
+    string myString = @$"{name}
+  says,
+    {greet}";	
+		
+    Console.WriteLine(myString);
+  }
+}
+```
