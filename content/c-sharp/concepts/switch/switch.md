@@ -47,8 +47,6 @@ Common Switch syntax definitions:
 
 The following example creates a string variable named `favoriteTurtle` with the value of `"Donatello"`. A switch statement is defined that evalutes the value of `favoriteTurtle`. If a case matches the value of `favoriteTurtle`, a corresponding message is printed to the console. If none of the cases in the switch statement match the value of `favoriteTurtle`, a default message is printed to the console.
 
-Let's see how well you know '80s cartoon theme songs!
-
 ```codebyte/csharp
 using System;
 
