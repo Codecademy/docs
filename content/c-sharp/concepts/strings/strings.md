@@ -146,7 +146,7 @@ string temp = """text.""";
 
 ## String Interpolation
 
-Interpolated strings contain expressions delimited by curly braces (`{...}`) that are evaluated when the string literal is evaluated and used in the place of the whole expression. It can improve the readability and maintainability of code. An interpolated quoted string literal is identified by a preceding `$` character.
+Interpolated strings contain expressions delimited by curly braces (`{...}`) that are evaluated when the string literal is evaluated and used in place of the whole expression. It can improve the readability and maintainability of code. An interpolated quoted string literal is identified by a preceding `$` character.
 
 ```cs
 string name = "John";
