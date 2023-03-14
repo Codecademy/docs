@@ -197,7 +197,7 @@ The following is a runnable example showing string interpolation and verbatim st
 
 ```codebyte/csharp
 using System;
-					
+
 public class Program
 {
   public static void Main()
@@ -206,8 +206,8 @@ public class Program
     string greet = @"""Hello World!""";
     string myString = @$"{name}
   says,
-    {greet}";	
-		
+    {greet}";
+
     Console.WriteLine(myString);
   }
 }
