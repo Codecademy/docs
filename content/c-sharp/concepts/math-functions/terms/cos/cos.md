@@ -22,7 +22,7 @@ The **`Math.Cos()`** class method returns the cosine of a given angle.
 Math.Cos(angle);
 ```
 
-The `Math.Cos()` method takes only one parameter,`angle`, an angle in radians of type `double`. The method returns the cosine of the `angle` as a `double` value or `NaN` (not a number) if the value of `angle` equals:
+The `Math.Cos()` method takes only one parameter, `angle`, an angle in radians of type `double`. The method returns the cosine of the `angle` as a `double` value or `NaN` (not a number) if the value of `angle` equals:
 
 - `NaN`
 - `NegativeInfinity`
