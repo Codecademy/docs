@@ -63,7 +63,7 @@ using System;
 public class Example {
 
   public static void Main(string[] args) {
-    //angle in degrees
+    // Angle in degrees
     double angle = -90;
 
     Console.WriteLine("The sine of " + angle + " degrees is: " + Math.Sin(angle * Math.PI/180));
