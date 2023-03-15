@@ -41,7 +41,7 @@ public class Main {
     String myString = "I love pizza. I eat pizza every day. I make my own pizza.";
     String substring = "pizza";
     String replacement = "donut";
-    
+
     String replacedString = myString.replaceFirst(substring, replacement);
 
     System.out.println("Original string: " + myString );
