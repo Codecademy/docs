@@ -18,7 +18,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 ## Syntax
 
 ```pseudo
-switch (expression) 
+switch (expression)
 {
   case alpha:
     // Code block
@@ -55,7 +55,7 @@ public class Example
   {
   string favoriteTurtle = "Donatello";
 
-  switch (favoriteTurtle) 
+  switch (favoriteTurtle)
   {
     case "Leonardo":
       Console.WriteLine("Leads!");
