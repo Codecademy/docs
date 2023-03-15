@@ -30,7 +30,7 @@ The `Math.Sin()` method takes only one parameter,`angle`, an angle in radians of
 
 ## Example
 
-The following example first converts `30` degrees to radians, then uses the `Math.Sin()` method to return the sine of that angle, and `Math.Round()` rounds up the result to four decimals. Finally, the `Console.WriteLine()` function prints the result to the console:
+The following example first converts `30` degrees to radians, then uses the `Math.Sin()` method to return the sine of that angle, and `Math.Round()` rounds up the result to five decimals. Finally, the `Console.WriteLine()` function prints the result to the console:
 
 ```cs
 using System;
