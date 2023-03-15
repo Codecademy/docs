@@ -46,3 +46,19 @@ This example will print the following output:
 ```shell
 0.6435011087932844 
 ```
+
+The example below shows the code in action:
+
+```codebyte/csharp
+namespace AtanExample {
+  class Example {
+    static void Main(string[] args) {
+      double oppSide = 3;
+      double adjSide = 4;
+      double tangentValue = oppSide / adjSide;
+      double arctangentValue = System.Math.Atan(tangentValue);
+      System.Console.WriteLine($"Arcangent = {arctangentValue}");
+    }
+  }
+}
+```
