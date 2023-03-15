@@ -24,7 +24,7 @@ Text("This text will have views layered over top of it.")
 }
 ```
 
-The `.overlay()` modifier method takes two parameters to create a [`ZStack`](https://www.codecademy.com/resources/docs/swiftui/views/terms/zstack) to group the foreground views:
+The `.overlay()` modifier method takes two parameters to create a [`ZStack`](https://www.codecademy.com/resources/docs/swiftui/views/zstack) to group the foreground views:
 
 - `alignment` specifies where to position the foreground views.
 - `content` is used to declare the views to add to the foreground, stacked in the order listed. The last view appears at the front of the stack.
@@ -33,7 +33,7 @@ Using the `.overlay()` modifier method without any specified parameter results i
 
 ## Example
 
-The following example uses the `.overlay` modifier to lay a star and a [`Circle`](https://www.codecademy.com/resources/docs/swiftui/views/terms/circle) over a `Color` view:
+The following example uses the `.overlay` modifier to lay a star and a [`Circle`](https://www.codecademy.com/resources/docs/swiftui/views/circle) over a `Color` view:
 
 ```swift
 import SwiftUI
