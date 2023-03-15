@@ -25,7 +25,7 @@ Math.Cos(angle);
 The `Math.Cos()` method takes only one parameter,`angle`, an angle in radians of type `double`. The method returns the cosine of the `angle` as a `double` value or `NaN` (not a number) if the value of `angle` equals:
 
 - `NaN`
-- `NegativeInfinity`, or
+- `NegativeInfinity`
 - `PositiveInfinity`
 
 ## Example
