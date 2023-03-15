@@ -28,7 +28,7 @@ The method takes one parameter `x` of the type `double`. It will return a positi
 
 ## Example
 
-The following example prints the results of the *`Math.Acos()`* method for five different values.
+The following example prints the results of the `Math.Acos()` method for five different values.
 
 ```cs
 using System;
