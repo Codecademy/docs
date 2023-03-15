@@ -63,7 +63,7 @@ using System;
 public class Example {
 
   public static void Main(string[] args) {
-    //angle in degrees
+    // Angle in degrees
     double angle = 0;
 
     Console.WriteLine("The cosine of " + angle + " degrees is: " + Math.Cos(angle * Math.PI/180));
