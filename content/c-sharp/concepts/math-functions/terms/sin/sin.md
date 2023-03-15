@@ -22,7 +22,7 @@ The **`Math.Sin()`** class method returns the sine of a given angle.
 Math.Sin(angle);
 ```
 
-The `Math.Sin()` method takes only one `double` type parameter - `angle` - an angle in radians. The `Math.Sin()` method returns the sine of the `angle` as a `double` value  or `NaN` (not a number) if the `angle` equals to:
+The `Math.Sin()` method takes only one parameter,`angle`, an angle in radians of type `double`. The method returns the sine of the `angle` as a `double` value  or `NaN` (not a number) if the value of `angle` equals:
 
 - `NaN`,
 - `NegativeInfinity`, or
