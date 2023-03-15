@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.Acos()`** method returns the absolute value of the inverse cosine of the argument measured in radians. In other words: It returns the positive angle whose cosine is the specified number.
+The **`Math.Acos()`** method returns the absolute value of the inverse cosine of the argument, measured in radians. In other words: It returns the positive angle whose cosine is the specified number.
 
 ## Syntax
 
@@ -21,14 +21,14 @@ The **`Math.Acos()`** method returns the absolute value of the inverse cosine of
 Math.Acos(x);
 ```
 
-The method takes only one parameter, the variable `x`, of type `double`. The function will return a positive value of type `double` unless the value passed is one of the following:
--If `x` is less than -1, the function will return `NaN` (not a number).
--If `x` is greater than 1, the function will return `NaN`.
--If `x` is `NaN`, the function will return `NaN`.
+The method takes one parameter `x` of the type `double`. It will return a positive value of type `double` except in the following cases:
+-If `x` is less than -1, it will return `NaN` (not a number).
+-If `x` is greater than 1, it will return `NaN`.
+-If `x` is `NaN`, it will return `NaN`.
 
 ## Example
 
-The following example demonstrates the `Math.Acos()` method for five different values. The return values are printed with the `Console.WriteLine()` method.
+The following example prints the results of the *`Math.Acos()`* function for five different values.
 
 ```cs
 using System;
@@ -55,7 +55,7 @@ namespace MySquareRoot
 }
 ```
 
-This example results in the following output:
+This results in the following output:
 
 ```shell
 1.0471975511966
