@@ -25,3 +25,18 @@ Math.Atan(x);
 
 
 ## Example
+
+The following example uses `Math.Atan()` to return the arctangent of a right angled triangle, where the side opposite the angle is equal to 3, and the side adjacent is 4.
+
+```cs
+using System;
+public class Atan {
+  public static void Main() {
+    double oppSide = 3;
+    double adjSide = 4;
+    double tangent = oppSide / adjSide;
+    double arctangent = Math.Atan(tangent);
+    Console.WriteLine(arctangent);
+    }
+}
+```
