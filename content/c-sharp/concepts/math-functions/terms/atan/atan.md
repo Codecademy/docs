@@ -40,3 +40,9 @@ public class Atan {
     }
 }
 ```
+
+This example will print the following output:
+
+```shell
+0.6435011087932844 
+```
