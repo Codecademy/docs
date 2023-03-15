@@ -1,7 +1,7 @@
 ---
 Title: '.Asin()'
 Description: 'Returns an angle in radians whose sine is a specified number.'
-Subjects: 
+Subjects:
   - 'Computer Science'
 Tags:
   - 'Libraries'
