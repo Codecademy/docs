@@ -40,7 +40,7 @@ enum day {sun, mon, tue, wed, thu, fri, sat};
 - `fri` would have the value 5
 - `sat` would have the value 6
 
-Here'a another example where one of the constants is assigned a value:
+Here's another example where one of the constants is assigned a value:
 
 ```cpp
 enum grade {freshman=9, sophomore, junior, senior};
