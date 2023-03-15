@@ -22,13 +22,10 @@ View
     .border(content, width: CGFloat)
 ```
 
-This method has one required parameter:
+This method has one required parameter and one optional parameter:
 
-- `content`: A value that sets the color and style of the border which needs to conform to the `ShapeStyle` protocol, like a `Color` or `HierarchicalShapeStyle`.
-
-And one optional parameter:
-
-- `width`: This value determines the width of the border with a default value of 1.
+- `content`: A required value that sets the color and style of the border which needs to conform to the `ShapeStyle` protocol, like a `Color` or `HierarchicalShapeStyle`.
+- `width`: This optional value determines the width of the border and defaults to 1.
 
 ## Example
 
