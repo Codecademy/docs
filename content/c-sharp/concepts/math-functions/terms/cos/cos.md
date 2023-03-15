@@ -26,7 +26,7 @@ The `Math.Cos()` method takes only one parameter,`angle`, an angle in radians of
 
 - `NaN`
 - `NegativeInfinity`, or
-- `PositiveInfinity`.
+- `PositiveInfinity`
 
 ## Example
 
