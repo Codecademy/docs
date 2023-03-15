@@ -26,7 +26,7 @@ The `Math.Sin()` method takes only one parameter,`angle`, an angle in radians of
 
 - `NaN`
 - `NegativeInfinity`
-- `PositiveInfinity`.
+- `PositiveInfinity`
 
 ## Example
 
