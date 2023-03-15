@@ -61,4 +61,59 @@ matplotlib.pyplot.pie(x, explode, labels, colors, autopct, pctdistance, shadow, 
 
 -  `hatch`: Str or list, Hatching pattern applied to all pie wedges or sequence of patterns through which the chart will cycle.
 
-  
+  ## Examples
+
+ 
+Examples below demonstrate the use of `.pie()` to plot values and show the functionality of some arguments.
+
+A simple pie chart: 
+
+```py
+
+# Import libraries
+from matplotlib import pyplot as plt
+
+# Creating dataset
+pizza = ['CHEESE','PEPPERONI','VEGGIE','MEAT','BBQ CHICKEN','HAWAIIAN']
+data = [23,  17,  35,  29,  12,  41]
+
+# Creating plot
+plt.pie(data, labels = pizza)
+
+# show plot
+plt.show()
+
+```
+
+Output:
+
+![Output of matplotlib.pyplot.scatter() function example 1](/media/matplotlib-pie-1.png)
+
+
+Customizing the pie chart:
+
+```py
+
+# Import libraries
+import matplotlib.pyplot as plt
+
+# Plot data
+pizza = ['CHEESE','PEPPERONI','VEGGIE','MEAT','BBQ CHICKEN','HAWAIIAN']
+popularity = [22.2,  17.6,  8.8,  8,  7.7,  6.7]
+
+#colors = ['red', 'green', 'yellow', 'blue', 'purple', 'brown']
+colors = ['#FF6188',  '#A9DC76',  '#FFD866',  '#78DCE8',  '#AB9DF2',  '#8c564b']
+
+# explode 1st slice
+explode = (0.1,  0,  0,  0,  0,  0)
+
+# Plot
+plt.pie(popularity, explode=explode, labels=pizza, colors=colors, autopct='%1.1f%%', shadow=True, startangle=140)
+plt.show()
+
+```
+
+Output:
+
+![Output of matplotlib.pyplot.scatter() function example 1](/media/matplotlib-pie-2.png)
+
