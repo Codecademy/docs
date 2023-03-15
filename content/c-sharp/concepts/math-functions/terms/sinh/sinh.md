@@ -22,23 +22,23 @@ The **`Math.Sinh()`** class method returns the hyperbolic sine of a given angle.
 Math.Sinh(angle);
 ```
 
-The `Math.Sinh()` method takes only one parameter,`angle`, an angle in radians of type `double`. The method returns the hyperbolic sine of the `angle` as a `double` value or a `double` value equals to `angle` if the value of `angle` equals:
+The `Math.Sinh()` method takes only one parameter, `angle`, an angle in radians of type `double`. The method returns the hyperbolic sine of the `angle` as a `double` value or the given `angle` as a  `double` value if the value of `angle` equals:
 
 - `NaN`
 - `NegativeInfinity`
 - `PositiveInfinity`
 
-> **Note:** Depending on the used operating system or architecture, the exact result or input range of the `Math.Sinh()` method may differ due to the differences in the C runtime environment.
+> **Note:** Depending on the used operating system or architecture, the exact result or the input range of the `Math.Sinh()` method may differ due to the differences in the C runtime environment.
 
 ## Example
 
-The following example first converts `60` degrees to radians, then uses the `Math.Sinh()` method to return the hyperbolic sine of that angle, and `Math.Round()` rounds up the result to five decimals. Finally, the `Console.WriteLine()` function prints the result to the console:
+The following example first converts `88` degrees to radians, then uses the `Math.Sinh()` method to return the hyperbolic sine of that angle, and `Math.Round()` rounds up the result to five decimals. Finally, the `Console.WriteLine()` function prints the result to the console:
 
 ```cs
 using System;
 public class Example {
   public static void Main(string[] args) {
-    double degrees = 60;
+    double degrees = 88;
     double radians = degrees * Math.PI/180;
     double hyperbolicSine = Math.Round(Math.Sinh(radians), 5);
     Console.WriteLine("The hyperbolic sine of " + degrees + " degrees is: " + hyperbolicSine);
@@ -49,7 +49,7 @@ public class Example {
 The example will result in the following output:
 
 ```shell
-The hyperbolic sine of 60 degrees is: 0.5
+The hyperbolic sine of 88 degrees is: 2.2151
 ```
 
 ## Codebyte Example
