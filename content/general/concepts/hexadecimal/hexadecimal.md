@@ -32,6 +32,11 @@ CatalogContent:
 |    14     |     E     |
 |    15     |     F     |
 
+## Power Of 2
+
+Hexadecimal, as well as binary(base 2) and octal(base 8) number systems, have bases that are powers of 2. This makes it easy to convert between these systems. 
+
+
 ## Syntax
 
 A hexadecimal number is prefixed with `0x`.
