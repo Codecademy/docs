@@ -22,7 +22,7 @@ The **`Math.Sinh()`** class method returns the hyperbolic sine of a given angle.
 Math.Sinh(angle);
 ```
 
-The `Math.Sinh()` method takes only one parameter, `angle`, an angle in radians of type `double`. The method returns the hyperbolic sine of the `angle` as a `double` value or the given `angle` as a  `double` value if the value of `angle` equals:
+The `Math.Sinh()` method takes only one parameter, `angle`, an angle in radians of type `double`. The method returns the hyperbolic sine of the `angle` as a `double` value or the given `angle` as a `double` value if the value of `angle` equals:
 
 - `NaN`
 - `NegativeInfinity`
@@ -40,7 +40,9 @@ public class Example {
   public static void Main(string[] args) {
     double degrees = 88;
     double radians = degrees * Math.PI/180;
+
     double hyperbolicSine = Math.Round(Math.Sinh(radians), 5);
+    
     Console.WriteLine("The hyperbolic sine of " + degrees + " degrees is: " + hyperbolicSine);
   }
 }
