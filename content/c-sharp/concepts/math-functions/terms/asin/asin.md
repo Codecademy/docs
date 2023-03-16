@@ -26,7 +26,7 @@ Returns an angle measured in radians, of type `double`, whose sine is `value`. I
 
 ## Codebyte Example
 
-```cs
+```codebyte/csharp
 using System;
 class CodecademyDemo
 {
