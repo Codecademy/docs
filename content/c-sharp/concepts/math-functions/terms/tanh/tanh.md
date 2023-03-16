@@ -1,6 +1,6 @@
 ---
-Title: '.Tanh()' 
-Description: 'Computes the hyperbolic tangent of a given angle in radians'
+Title: '.Tanh()'
+Description: 'Computes the hyperbolic tangent of a given angle in radians.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -13,20 +13,22 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.tanh()`** method returns the hyperbolic tangent of a number.
-
+The **`Math.tanh()`** method returns the hyperbolic tangent of a given angle in radians.
 
 ## Syntax
 
 ```pseudo
 Math.Tahn(x);
 ```
-Parameter:This method accepts only single parameters.
 
-`x`:This parameter is the value to be passed to tanh()
-`Returns`:This function returns the hyperbolic tangent value of a number.
+Parameter: This method accepts only single parameter.
+
+`x`: This parameter is the angle in radians.
+Returns: This function returns the hyperbolic tangent value of `x`.
 
 ## Example
+
+The code is declaring two constants, `x` and `y`, and then calculating the hyperbolic tangent of `x` using the Math.tanh() function. The resulting value is stored in `y`. Finally, the value of `y` is printed to the console using console.log().
 
 ```cs
 const x = 2;
