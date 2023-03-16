@@ -39,7 +39,7 @@ std::vector<int> grades(10);
 std::vector<double> order = {3.99, 12.99, 2.49};
 ```
 
-## Getting Information 
+## Getting Information
 
 Since a vector is dynamic and can grow and shrink it's size to accomodate new elements, the language gives us a few methods to get information from the vector.
 
@@ -63,11 +63,10 @@ std::cout << order[2];
 
 Due to the dynamic nature of vectors, it can be hard to keep track of the number of elements they hold at a point in time manually. Luckily for us, vectors come with a helpful method to solve this problem called `.size()`
 
-```cpp 
-// Number of elements in the vector 
-std::cout << order.size(); 
+```cpp
+// Number of elements in the vector
+std::cout << order.size();
 ```
-
 
 ### `.at()`
 
