@@ -34,7 +34,7 @@ int grades[6]; // An array to hold six integers
 Alternatively, the length can be omitted and the array's initial values can be assigned to it instead. Values are assigned inside of the curly brackets and separated by commas.
 
 ```c
-int grades[] = {96, 90, 77, 84, 88, 91};
+int grades[] = {96, 90, 77, 84, 88, 91} ;
 ```
 
 ## Accessing Values with Indexes
