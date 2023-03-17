@@ -57,7 +57,7 @@ This form of loop uses the `do` keyword, followed by the code block, followed by
 int i = 1;
 do
 {
-  //repeated code here
+  // Repeated code here
   i++;
 } while (i <= 3);
 ```
