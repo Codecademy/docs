@@ -34,16 +34,16 @@ class CodecademyDemo
     static void Main()
     {
         Double result = Math.Asin(0);
-        System.Console.WriteLine("Asin(0) = "+ result + " radians"); // 0
+        System.Console.WriteLine("Asin(0) = "+ result + " radians");
 
         Double result1 = Math.Asin(1);
-        System.Console.WriteLine("Asin(1) = "+ result1 + " radians"); // 1.57079633
+        System.Console.WriteLine("Asin(1) = "+ result1 + " radians");
 
         Double result2 = Math.Asin(-1);
-        System.Console.WriteLine("Asin(-1) = "+ result2 + " radians"); // -1.57079633
+        System.Console.WriteLine("Asin(-1) = "+ result2 + " radians");
 
         Double result3 = Math.Asin(2);
-        System.Console.WriteLine("Asin(2) = "+ result3); // NaN
+        System.Console.WriteLine("Asin(2) = "+ result3);
     }
 }
 ```
