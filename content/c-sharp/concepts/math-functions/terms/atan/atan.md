@@ -12,7 +12,6 @@ CatalogContent:
   - 'Learn c-sharp'
   - 'paths/computer-science'
 ---
-
 **Math.Atan()** is a static method that calculates the inverse tangent of a given number, in radians.
 
 ## Syntax
@@ -20,6 +19,7 @@ CatalogContent:
 ```pseudo
 Math.Atan(x);
 ```
+
 - The `Math.Atan()` method takes one double as an argument and returns a double.
 - Using this method requires the `System` namespace.
 
@@ -47,14 +47,16 @@ This example will print the following output:
 0.6435011087932844 
 ```
 
+## Codebyte Example
+
 The example below shows the code in action:
 
 ```codebyte/csharp
 namespace AtanExample {
   class Example {
     static void Main(string[] args) {
-      double oppSide = 3;
-      double adjSide = 4;
+      double oppSide = 7;
+      double adjSide = 5;
       double tangentValue = oppSide / adjSide;
       double arctangentValue = System.Math.Atan(tangentValue);
       System.Console.WriteLine($"Arcangent = {arctangentValue}");

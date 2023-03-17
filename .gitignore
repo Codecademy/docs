@@ -6,4 +6,9 @@ yarn-debug.log*
 yarn-error.log*
 *.swp
 *.swo
+*.vsidx
 tmp
+ProjectSettings.json
+VSWorkspaceState.json
+workspaceFileList.bin
+slnx.sqlite
