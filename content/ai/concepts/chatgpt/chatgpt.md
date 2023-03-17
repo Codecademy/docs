@@ -1,6 +1,6 @@
 ---
 Title: 'ChatGPT'
-Description: 'ChatGPT is a publically accessible web-based ChatBot and API interface created by OpenAI. It connects to a large language model (LLM) called GPT (Generative Pre-Trained Transformer). GPT includes some of the largest models ever created. After the model training, there is further fine-tuning to improve its generated responses.'
+Description: 'ChatGPT is a publically available web-based chatbot and API interface created by OpenAI. It connects to a large language model (LLM) called GPT (Generative Pre-Trained Transformer). GPT includes some of the largest models ever created. After the model training, there is further fine-tuning to improve its generated responses.'
 Subjects:
   - 'Machine Learning'
   - 'Data Science'
@@ -20,9 +20,13 @@ CatalogContent:
 
 ## How ChatGPT Works
 
-In some ways `ChatGPT` is comparable to the Google search engine. Both systems use content from the internet, but do not search the internet at the time of search - it would be too slow. Like the Google search engine, ChatGPT uses a pre-trained model from a previous time. GPT is only aware of the content from the time of training.
+`ChatGPT` is part of a new group of LLM models which are now made available by a technology called `Transformers`. Other notable and similar LLM models include `BERT` used by Google to understand user searches, `DALL-E` which can generate images, and `GPT-Neo` an promising open source LLM.
 
-Beyond this `ChatGPT` is very different. Some differences include:
+ChatGPT is the packaging of a set of trained LLMs into a chatbot and developer friendly interface. This has created a system where there is low barrier to entry and almost everyone can start using the LLM.
+
+### What is the relation to Internet Search?
+
+`ChatGPT` is trained by using vast quantities of data from the Internet. However LLMs are different from Internet search engines:
 
 - No ongoing daily web crawlers and updates
 - The size of the data trained in the model
@@ -49,11 +53,11 @@ While RNNs have been very useful in doing language translation, they do not scal
 
 ### Breakthrough with Transformers
 
-The breakthrough that allowed BERT and ChatGPT-based models is called `Transformers`. This was introduced in a paper from 2019 entitled “Attention is all you need”. It was presented as a way to build machine translation but to have much faster parallel execution. It also has a new concept called `Self Attention` to further make sense of long language sequences. It creates connections between different parts of the sequence.
+The breakthrough that allowed BERT and ChatGPT-based models is called `Transformers`. This was introduced in a paper from 2019 entitled `“Attention is all you need”`. It was presented as a way to build machine translation but to have much faster parallel execution. It also has a new concept called `Self Attention` to further make sense of long language sequences. It creates connections between different parts of the sequence.
 
-So how does it all really work? In the `Transformer` based model each word is transformed into a token. As tokens are read as part of an input sentence the model starts predicting what the output should be - just like word completion.
+So how does it all really work? In the `Transformer` based model each word is transformed into a token. As tokens are read as part of an input sentence the model starts predicting what the output should be - similar in concept to sentence completion.
 
-As each successive token is read, the model generates a potential output of tokens. The potential connections and relationships are not just in connection to words but with sentences. The use of `Transformers` and `Attention` create this advanced model. The model used by ChatGPT can accept several thousand tokens.
+Due to the use of `Transformers` in creating the model, the potential output is not just a prediction of the next word. Because the model is trained with deep understanding and `Attention` whole sentences and groupings of text are generated. The model used by ChatGPT can accept several thousand tokens as input .
 
 ## Challenges
 
@@ -67,7 +71,7 @@ Because ChatGPT works so well many people are concerned about its usage. You cou
 
 ### Bias
 
-The internet is full of biased negative information. For ChatGPT to be useful this information needs to be filtered so it is not produced in responses. ChatGPT has come a long way in this regard.
+The internet is full of biased negative information. For ChatGPT to be useful this information needs to be filtered so it is not produced in responses. OpenAI has identified this as a major concern with ChatGPT and LLMs in general.
 
 ## The Future
 
