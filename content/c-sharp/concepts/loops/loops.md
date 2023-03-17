@@ -62,4 +62,4 @@ do
 } while (i <= 3);
 ```
 
-> **Note:** the loop in the last example will still run once even though the condition returns `false`.
+> **Note:** The loop in the last example will still run once even though the condition returns `false`.
