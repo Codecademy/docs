@@ -40,7 +40,9 @@ public class Example {
   public static void Main(string[] args) {
     double degrees = 45;
     double radians = degrees * Math.PI/180;
+
     double hyperbolicCosine = Math.Round(Math.Cosh(radians), 5);
+    
     Console.WriteLine("The hyperbolic cosine of " + degrees + " degrees is: " + hyperbolicCosine);
   }
 }
