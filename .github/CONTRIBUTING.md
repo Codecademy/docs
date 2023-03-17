@@ -134,7 +134,7 @@ To link your Codecademy user profile to GitHub:
 
 We will not accept entries that were exclusively generated through an AI tool. We have this policy because:
 
-- AI generated content is often confidently incorrect, leading to the spread of inacurrate or misleading information.
+- AI-generated content is often confidently incorrect, leading to the spread of inaccurate or misleading information.
 - We provide authorship credit for submissions, and to submit AI generated work under one's own name would be a violation of our plagarism policy.
 - Codecademy Docs is an educational space for people to learn how to write effective technical documentation, using generative AI, at this point, negatively impacts that desired learning goal.  
 
