@@ -42,7 +42,7 @@ The `while` loop in C# executes an unspecified number of times until the given c
 int i = 0;
 while (i > -5)
 {
-  //repeated code here
+  // Repeated code here
   i--;
 }
 ```
