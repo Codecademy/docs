@@ -1,6 +1,6 @@
 ---
 Title: '.getBytes()'
-Description: 'Encodes the string into an array of bytes that represent the characters in the string'
+Description: 'Encodes the string into an array of bytes that represent the characters in the string.'
 Subjects:
   - 'Computer Science'
 Tags:
