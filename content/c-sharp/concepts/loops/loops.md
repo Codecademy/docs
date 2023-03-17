@@ -1,6 +1,6 @@
 ---
 Title: 'Loops'
-Description: 'A loop is a logical structure that allows for the repeated execution of multiple iterations of a block of code.'
+Description: 'A loop is a logical structure that allows for the repeated execution of a block of code.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
