@@ -47,4 +47,4 @@ This outputs the following:
 667975538
 ```
 
-**Note:** The hash code value may vary for the same object when the program is executed multiple times.
+> **Note:** The hash code value may vary for the same object when the program is executed multiple times.
