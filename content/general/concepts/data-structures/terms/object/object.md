@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-An **object** is associative data that commonly takes the form of a data structure, [function](https://www.codecademy.com/resources/docs/general/function), [method](https://www.codecademy.com/resources/docs/general/method), variable, or [class](https://www.codecademy.com/resources/docs/general/class).
+An **object** is associative data that commonly takes the form of a data structure, [function](https://www.codecademy.com/resources/docs/general/function), [method](https://www.codecademy.com/resources/docs/general/method), variable, or [class](https://www.codecademy.com/resources/docs/general/data-structures/class).
 
 Objects provide a structured programming approach and are the core units of [object-oriented-programming (OOP)](https://www.codecademy.com/resources/docs/general/programming-paradigms/object-oriented-programming). Developers can easily create various identical objects and modify existing ones within the program.
 
