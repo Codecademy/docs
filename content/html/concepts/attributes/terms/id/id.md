@@ -3,15 +3,17 @@ Title: 'id'
 Description: 'Used to specify a unique id for an HTML element, which cannot be shared across multiple elements within the same HTML document.'
 Subjects:
   - 'Web Development'
+  - 'Web Design'
 Tags:
   - 'Attributes'
-  - 'HTML'
+  - 'Elements'
+  - 'Tags'
 CatalogContent:
   - 'learn-html'
   - 'paths/front-end-engineer-career-path'
 ---
 
-The HTML global **`id`** attribute is used to specify a unique identifier for an [HTML element](https://www.codecademy.com/resources/docs/html/elements). It cannot be shared across multiple elements within the same HTML document. The `id` attribute can be used as a bookmark to navigate to a specific point in a document. It can also serve as a selector in [CSS](https://www.codecademy.com/resources/docs/css) to style the element or to manipulate the element in JavaScript. Contrary to the [`class`](https://www.codecademy.com/resources/docs/html/classes) attribute, elements can only have one id value.
+The HTML global **`id`** attribute is used to specify a unique identifier for an [HTML element](https://www.codecademy.com/resources/docs/html/elements). It cannot be shared across multiple elements within the same HTML document. The `id` attribute can be used as a bookmark to navigate to a specific point in a document. It can also serve as a selector in [CSS](https://www.codecademy.com/resources/docs/css) to style the element or to manipulate the element in [JavaScript](https://www.codecademy.com/resources/docs/javascript). Contrary to the [`class`](https://www.codecademy.com/resources/docs/html/classes) attribute, elements can only have one id value.
 
 ## Syntax
 
@@ -20,6 +22,28 @@ The HTML global **`id`** attribute is used to specify a unique identifier for an
 ```
 
 The syntax consists of `id` followed by the assignment operator (`=`) and an `id` name in quotation marks (`" "`). The `id` name is case-sensitive and must contain at least one character. It cannot start with a number or contain whitespaces.
+
+## Unique ID Attributes
+
+Specific and unique `id` attributes can be assigned to elements to differentiate them, and `id` values can be referenced in CSS and JavaScript to manipulate, format, and perform specific instructions on a single element alone, without affecting others of the same type.
+
+Valid `id` attribute values begin with a letter and must comprise only letters (`a`-`Z`), digits (`0`-`9`), hyphens (`-`), underscores (`_`), and periods (`.`).
+
+```html
+<h1 id="th1s_is.v4lid">Hello World</h1>
+```
+
+> **Note:** While `th1s_is.v4lid` is indeed a valid `id` value, it's best to use a consistent naming scheme such as camel case (`thisIsValid`), dash case (`this-is-valid`), or snake case (`this_is_valid`).
+
+## Example
+
+In the example below, the `<p>` (paragraph) element is given a unique identifier in its `id` attribute, and the text color is set using the `style` attribute:
+
+```html
+<p id="my-paragraph" style="color: aqua;">
+  Here's some text that is being altered by the HTML attributes
+</p>
+```
 
 ## Navigation Using Bookmarks
 
