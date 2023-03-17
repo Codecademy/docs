@@ -6,6 +6,8 @@ Subjects:
   - 'Code Foundations'
 Tags:
   - 'Loops'
+  - 'For'
+  - 'Control Flow'
 CatalogContent:
   - 'learn-c-sharp'
   - 'paths/computer-science'
