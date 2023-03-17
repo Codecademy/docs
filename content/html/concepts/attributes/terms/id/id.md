@@ -3,15 +3,17 @@ Title: 'id'
 Description: 'Used to specify a unique id for an HTML element, which cannot be shared across multiple elements within the same HTML document.'
 Subjects:
   - 'Web Development'
+  - 'Web Design'
 Tags:
   - 'Attributes'
-  - 'HTML'
+  - 'Elements'
+  - 'Tags'
 CatalogContent:
   - 'learn-html'
   - 'paths/front-end-engineer-career-path'
 ---
 
-The HTML global **`id`** attribute is used to specify a unique identifier for an [HTML element](https://www.codecademy.com/resources/docs/html/elements). It cannot be shared across multiple elements within the same HTML document. The `id` attribute can be used as a bookmark to navigate to a specific point in a document. It can also serve as a selector in [CSS](https://www.codecademy.com/resources/docs/css) to style the element or to manipulate the element in JavaScript. Contrary to the [`class`](https://www.codecademy.com/resources/docs/html/classes) attribute, elements can only have one id value.
+The HTML global **`id`** attribute is used to specify a unique identifier for an [HTML element](https://www.codecademy.com/resources/docs/html/elements). It cannot be shared across multiple elements within the same HTML document. The `id` attribute can be used as a bookmark to navigate to a specific point in a document. It can also serve as a selector in [CSS](https://www.codecademy.com/resources/docs/css) to style the element or to manipulate the element in [JavaScript](https://www.codecademy.com/resources/docs/javascript). Contrary to the [`class`](https://www.codecademy.com/resources/docs/html/classes) attribute, elements can only have one id value.
 
 ## Syntax
 
