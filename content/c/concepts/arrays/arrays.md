@@ -1,6 +1,6 @@
 ---
 Title: 'Arrays'
-Description: 'In the C language, an array is a list of values, with a fixed length. Being able to store multiple pieces of related information in the same structure is very useful when writing C programs. The syntax for declaring an array is first specify the data type, then a descriptive array name, followed by square brackets surrounding the arrays length (number of items): pseudo type name[length];  To declare an int array named grades with a length of 6:'
+Description: 'In the C language, an array is a data structure of a fixed length that stores a list of values.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'

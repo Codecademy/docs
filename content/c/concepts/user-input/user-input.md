@@ -1,6 +1,6 @@
 ---
 Title: 'User Input'
-Description: 'The scanf() function, which stands for “scan format", reads a formatted string from the standard input stream, which is usually the user keyboard. pseudo scanf("formatted string", &variable);  Here, the user can enter a value in the terminal, press Enter, and that number will get stored in the pinNumber variable. c scanf("%d", &pinNumber);'
+Description: 'For user input, the C language has the scanf function, which stands for scan format. It reads a formatted string from the standard input stream, which is usually the user keyboard.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
