@@ -136,7 +136,7 @@ We will not accept entries that were exclusively generated through an AI tool. W
 
 - AI-generated content is often confidently incorrect, leading to the spread of inaccurate or misleading information.
 - We provide authorship credit for submissions, and to submit AI-generated work under one's own name would be a violation of our plagiarism policy.
-- Codecademy Docs is an educational space for people to learn how to write effective technical documentation, using generative AI, at this point, negatively impacts that desired learning goal.  
+- Codecademy Docs is an educational space for people to learn how to write effective technical documentation. Using generative AI, at this point, negatively impacts that desired learning goal.  
 
 ## How do we update a PR branch?
 
