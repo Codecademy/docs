@@ -23,7 +23,7 @@ In C# the `for` loop uses definite repetition to run a block of code a specified
 
 - Statement 2 is a conditional statement that must return `true` for the code block to execute.
 
-Statement 3 runs after each repetition of the loop and is typically used to alter the value of the variable set in Statement 1.
+- Statement 3 runs after each repetition of the loop and is typically used to alter the value of the variable set in Statement 1.
 
 ```cs
 for (int i = 5; i > 0; i--)
