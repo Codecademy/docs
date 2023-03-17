@@ -22,9 +22,9 @@ The **`Math.Sinh()`** class method returns the hyperbolic sine of a given angle.
 Math.Sinh(angle);
 ```
 
-The `Math.Sinh()` method takes only one parameter, `angle`, an angle in radians of type `double`. The method returns the hyperbolic sine of the `angle` as a `double` value or the given `angle` as a `double` value if the value of `angle` equals:
+The `Math.Sinh()` method takes only one parameter, `angle`, an angle in radians of type `double`. The method returns the hyperbolic sine of the `angle` as a `double` value, or a `double` value equals to `angle` if the value of `angle` is:
 
-- `NaN`
+- `NaN` (not a number)
 - `NegativeInfinity`
 - `PositiveInfinity`
 
