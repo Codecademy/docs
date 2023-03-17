@@ -41,5 +41,3 @@ The example below displays an image element with three attributes:
 These declare its source, width, and height.
 
 **Note:** Attribute names are not case-sensitive, but it is good practice to write HTML markup in lowercase.
-
-
