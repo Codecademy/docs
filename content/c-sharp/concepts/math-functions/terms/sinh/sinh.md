@@ -28,7 +28,7 @@ The `Math.Sinh()` method takes only one parameter, `angle`, an angle in radians 
 - `NegativeInfinity`
 - `PositiveInfinity`
 
-> **Note:** Depending on the used operating system or architecture, the exact result or the input range of the `Math.Sinh()` method may differ due to the differences in the C runtime environment.
+> **Note:** Depending on the operating system or architecture, the exact result or the input range of the `Math.Sinh()` method may differ due to the differences in the C runtime environment.
 
 ## Example
 
