@@ -138,13 +138,13 @@ Logical operators allow us to combine multiple operator expressions and statemen
 
 Precedence order is the order in which PowerShell evaluates the operators if multiple operators are used in the same expression. Operator precedence in PowerShell is as follows:
 
-- Parentheses: `( )`
-- Unary operators: `++`, `--`
-- `!`, `not`
-- Arithmetic operators: `*`, `/`, `%`, `+`, `-`
-- Comparison operators: `-eq`, `-ne`, `-gt`, `-ge`, `-lt`, `-le`
-- `-and`, `-or`, `-xor`
-- Assignment operators: `=`, `+=`, `-=`, `*=`, `/=`, `%=`
+1. Parentheses: `( )`
+2. Unary operators: `++`, `--`
+3. `!`, `not`
+4. Arithmetic operators: `*`, `/`, `%`, `+`, `-`
+5. Comparison operators: `-eq`, `-ne`, `-gt`, `-ge`, `-lt`, `-le`
+6. `-and`, `-or`, `-xor`
+7. Assignment operators: `=`, `+=`, `-=`, `*=`, `/=`, `%=`
 
 ## Examples
 
