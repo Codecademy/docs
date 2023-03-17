@@ -19,7 +19,7 @@ A **loop** is a logical structure used to repeatedly execute a block of code. Th
 
 In C# the `for` loop uses definite repetition to run a block of code a specified number of times and consists of three statements separated by semicolons.
 
-Statement 1 executes only once, before the code block runs for the first time, and is commonly used to set the initial value of a variable.
+- Statement 1 executes only once, before the code block runs for the first time, and is commonly used to set the initial value of a variable.
 
 Statement 2 is a conditional statement that must return `true` for the code block to execute.
 
