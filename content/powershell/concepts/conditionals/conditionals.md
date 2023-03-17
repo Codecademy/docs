@@ -1,6 +1,6 @@
 ---
 Title: 'Conditionals'
-Description: 'The if, else, elseif, and switch conditionals in PowerShell are used for control flow. They allow us to choose which sections of code are executed based on conditions.'
+Description: 'The if, else, elseif, and switch conditionals in PowerShell are used for control flow. They allow the choice of which sections of code are executed based on conditions.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -50,7 +50,7 @@ if($my_num -gt 0) {
   Write-Host "A positive number" # Prints if $my_num is more than 0
 }
 else {
-  Write-Host "A negative number" # Prints if $my_num is less than 0
+  Write-Host "A negative number" # Prints if $my_num is less than or equal to 0
 }
 ```
 
@@ -110,4 +110,4 @@ switch ($my_num) {
 }
 ```
 
-Even if a condition is `True`, the following conditions are still tested unless a `break` statement is provided.
+> **Note:** Even if a condition is `True`, the following conditions are still tested unless a `break` statement is provided.
