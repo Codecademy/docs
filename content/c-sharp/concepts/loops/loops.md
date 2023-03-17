@@ -28,7 +28,7 @@ In C# the `for` loop uses definite repetition to run a block of code a specified
 ```cs
 for (int i = 5; i > 0; i--)
 {
-  //repeated code here
+  // Repeated code here
 }
 ```
 
