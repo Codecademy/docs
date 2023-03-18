@@ -62,3 +62,5 @@ public class Example
   }
 }
 ```
+
+Below are a selected list of `System.Math` methods:
