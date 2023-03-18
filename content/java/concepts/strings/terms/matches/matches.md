@@ -37,7 +37,6 @@ The `.matches()` method is showcased in the following example:
 
 class Example {
   public static void main(String[] args) {
-    // a regex pattern for
     // a regex that matches 'hello' or 'goodbye'
     String regex = "^hello|goodbye$";
 
