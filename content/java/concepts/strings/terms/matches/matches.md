@@ -21,9 +21,9 @@ string.matches(regex)
 ```
 
 - The `.matches()` method returns a boolean value.
-  - The parameter `regex` is a given regular expression that the string is compared to. 
+  - The parameter `regex` is a given regular expression that the string is compared to.
   - This method only returns `true` for complete matches, it will not return 'true' for a subset of characters.
-  
+
 ## Example
 
 The `.matches()` method is showcased in the following example:
@@ -43,6 +43,7 @@ class Example {
   }
 }
 ```
+
 This example results in the following output:
 
 ```shell
