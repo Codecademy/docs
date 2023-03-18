@@ -53,5 +53,5 @@ This example results in the following output:
 false
 true
 false
-True
+true
 ```
