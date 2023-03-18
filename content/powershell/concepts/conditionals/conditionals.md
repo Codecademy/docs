@@ -6,6 +6,7 @@ Subjects:
   - 'Computer Science'
   - 'Bash/Shell'
 Tags:
+  - 'Break'
   - 'Conditionals'
   - 'Control Flow'
   - 'Else'
@@ -99,7 +100,6 @@ $my_num = 10
 switch ($my_num) {
   {$PSItem -gt 5} { 
     Write-Host "Greater than 5"
-    break # "Greater than 0" would also be printed if this was missing
   }
   {$PSItem -gt 0} { 
     Write-Host "Greater than 0" 
@@ -110,8 +110,22 @@ switch ($my_num) {
 }
 ```
 
-`$PSItem` is an automatic variable that contains the value passed to the `switch` statement.
+> **Note:** `$PSItem` is an automatic variable that contains the value passed to the `switch` statement. It can be replaced with its shorthand alias `$_`.
 
-> **Note:** `$PSItem` can be replaced with its shorthand alias `$_`.
+The above example prints `"Greater than 5"` and `"Greater than 0"` since their corresponding conditions are `True`. Even if a condition is `True`, the following conditions are still tested unless a `break` statement is provided, as in the example below which only prints `"Greater than 5"`.
 
-> **Note:** Even if a condition is `True`, the following conditions are still tested unless a `break` statement is provided.
+```shell
+$my_num = 10
+switch ($my_num) {
+  {$_ -gt 5} { 
+    Write-Host "Greater than 5"
+    break
+  }
+  {$_ -gt 0} { 
+    Write-Host "Greater than 0" 
+  }
+  {$_ -lt 5} { 
+    Write-Host "Less than 5" 
+  }
+}
+```
