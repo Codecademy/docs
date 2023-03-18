@@ -20,7 +20,7 @@ The **`.matches()`** method checks whether a string matches a given [regular exp
 string.matches(regex)
 ```
 
-The `.matches()` method takes a single parameter:
+- The `.matches()` method returns a boolean value.
   - `regex`:  a regular expression that the string is compared to.
 
 The `.matches()` method returns:
