@@ -44,7 +44,7 @@ class Example {
     System.out.println("hello quick brown fox".matches(regex));
     System.out.println("hi lazy dog".matches(regex));
     System.out.println("goodbye quick brown fox".matches(regex));
-    System.out.println("lazy dog, goodbye".matches(regex));
+    System.out.println("Hello".matches(regex));
   }
 }
 ```
