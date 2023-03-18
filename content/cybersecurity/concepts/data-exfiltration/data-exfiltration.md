@@ -19,5 +19,5 @@ Common data exfiltration attacks include social engineering and phishing campaig
 ## Types of Data Exfiltration:
 Data exfiltration can occur in various ways. Malware and insider threats are two of the more common ways it can occur. Cybercriminals will try to insert malware onto a network device which will then scan other devices on the network for sensitive information. The malware may remain latent to avoid detection while still exfiltrating data. In an insider threat scenario, trusted employees can inflict harm on an organization for their own gain in order to exfiltrate data. They can steal data by making google drive links public, moving critical files to personal devices, or abusing access privileges. 
 
-## How to prevent Data Exfiltration:
+## How to Prevent Data Exfiltration:
 Data Loss Prevention (DLP) solutions are often used by organizations to prevent data exfiltration. These platforms have specific algorithms to monitor, detect and block confidential data from leaving an organization. As an alternative to DLP solutions, many organizations strive to prevent insider threats. There are various tools and platforms such as Splunk,ManageEngine Endpoint, and SecureTrust,  which rely on a combination of user and data activity monitoring to detect and prevent insider threats.
