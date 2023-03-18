@@ -18,14 +18,14 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Arrays** are a data structure that holds a collection of items. Items can be of the same type or multiple types.
+**Arrays** are a [data structure](https://www.codecademy.com/resources/docs/general/data-structures) that holds a collection of items. Items can be of the same type or multiple types.
 
 ## Creating an Array
 
 Separating items by commas (`,`) is the simplest way to create an array in PowerShell.
 
 ```shell
-$my_arr = 25, "codecademy", 1, $False
+$my_arr = 25, "Codecademy", 1, $False
 ```
 
 Alternatively, the array subexpression operator `@( )` can be used. Anything placed within the parentheses is treated as an item of the array.
@@ -91,6 +91,8 @@ black
 
 - Range operator `..`: Print all items between two indexes (exclusive).
 
+> Note: this syntax is exclusive since the stop index `3` is not included.
+
 ```shell
 PS > $colors[1..3]
 brown
@@ -99,6 +101,8 @@ blue
 ```
 
 - Reverse range: Use range operator from a higher index to a lower index to print items in reverse order (inclusive).
+
+> Note: this syntax is inclusive since both the start and stop indexes, `2` and `1`, are included.
 
 ```shell
 PS > $colors[2..1]
@@ -165,10 +169,10 @@ Containment operators check whether or not an item is in an array and returns a 
 
 |      Operator      |                Syntax               |                     Example                    |
 | :----------------: | :---------------------------------: | :--------------------------------------------: |
-|   `-contains`      |    `<array> -contains <item>`       |   `$fibonacci -contains 4` returns `False`     |
-|   `-notcontains`   |    `<array> -notcontains <item>`    |   `$fibonacci -notcontains 4` returns `True`   |
-|   `-in`            |    `<item> -in <array>`             |   `5 -in $fibonacci` returns `True`            |
-|   `-notin`         |    `<item> -notin <array>`          |   `5 -notin $fibonacci` returns `False`        |
+|   `-contains`      |    `<array> -contains <item>`       |   `$fibonacci -contains 4` returns `False`.    |
+|   `-notcontains`   |    `<array> -notcontains <item>`    |   `$fibonacci -notcontains 4` returns `True`.  |
+|   `-in`            |    `<item> -in <array>`             |   `5 -in $fibonacci` returns `True`.           |
+|   `-notin`         |    `<item> -notin <array>`          |   `5 -notin $fibonacci` returns `False`.       |
 
 ### `-join`
 
@@ -205,7 +209,9 @@ $dogs_arr = @(
 Each object in the array as well as its properties and methods can be accessed individually.
 
 ```shell
-PS > $dogs_arr.ForEach({ $_.Name + " is " + $_.Age + " years old."})
+PS > $dogs_arr.ForEach({ $PSItem.Name + " is " + $PSItem.Age + " years old."})
 Rufus is 10 years old.
 Miku is 2 years old.
 ```
+
+> Note: `$PSItem` can be replaced with its shorthand alias `$_`

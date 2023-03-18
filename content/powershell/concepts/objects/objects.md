@@ -36,41 +36,24 @@ All information associated with an object is called a member. The `Get-Member` c
 
 ## Object Properties
 
-Properties are also called attributes and are characteristics of an object. String objects, for example, have a property called `Length`, which holds the number of characters in a string.
+Properties are also called attributes and are characteristics of an object. The `Get-Member` cmdlet can be utilized with the `MemberType` parameter to only show the properties of an object. Consider a `String` object as an example:
 
 ```shell
-PS > "hello".Length # "hello" has 5 characters
-5
+PS > $my_string = "Codecademy"
+PS > $my_string | Get-Member -MemberType Property # Shows all properties of the String object
+   
+  TypeName: System.String
+
+Name   MemberType Definition       
+----   ---------- ----------       
+Length Property   int Length {get;}
 ```
 
-The `Get-Member` cmdlet can be utilized with the `MemberType` parameter to only show the properties of an object. Consider a script file:
+`String` objects have a property called `Length`, which holds the number of characters in a string.
 
 ```shell
-PS > Get-ChildItem .\script.ps1 | Get-Member -MemberType Property # Shows all properties of the script
-   
-  TypeName: System.IO.FileInfo
-
-Name              MemberType Definition
-----              ---------- ----------
-Attributes        Property   System.IO.FileAttributes Attributes {get;set;}
-CreationTime      Property   datetime CreationTime {get;set;}
-CreationTimeUtc   Property   datetime CreationTimeUtc {get;set;}
-Directory         Property   System.IO.DirectoryInfo Directory {get;}
-DirectoryName     Property   string DirectoryName {get;}
-Exists            Property   bool Exists {get;}
-Extension         Property   string Extension {get;}
-FullName          Property   string FullName {get;}
-IsReadOnly        Property   bool IsReadOnly {get;set;}
-LastAccessTime    Property   datetime LastAccessTime {get;set;}
-LastAccessTimeUtc Property   datetime LastAccessTimeUtc {get;set;}
-LastWriteTime     Property   datetime LastWriteTime {get;set;}
-LastWriteTimeUtc  Property   datetime LastWriteTimeUtc {get;set;}
-Length            Property   long Length {get;}
-LinkTarget        Property   string LinkTarget {get;}
-Name              Property   string Name {get;}
-
-PS > (Get-ChildItem .\script.ps1).CreationTime # Prints the date when the script was created
-Thursday, January 19, 2023 3:34:43 AM
+PS > $my_string.Length # "Codecademy" has 10 characters
+10
 ```
 
 ## Object Methods
@@ -78,15 +61,14 @@ Thursday, January 19, 2023 3:34:43 AM
 Methods are the actions an object can take. One of the methods of a `String` object, for example, is `Contains()`. This method returns `True` if a string contains the specified substring, otherwise `False`.
 
 ```shell
-PS > $my_string = "codecademy"
-PS > $my_string.Contains("code")
+PS > $my_string.Contains("Code")
 True
 ```
 
 The `MemberType` parameter of the `Get-Member` cmdlet can be modified to show only the methods of an object.
 
 ```shell
-$dog | Get-Member -MemberType Method # Shows all methods of the dog object
+$my_string | Get-Member -MemberType Method # Shows all methods of the String object
 ```
 
 ## Creating a Custom Object

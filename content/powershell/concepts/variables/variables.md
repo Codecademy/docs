@@ -1,13 +1,12 @@
 ---
 Title: 'Variables'
-Description: 'Variables are a way to store and manipulate data. There are multiple types including environment variables which can be created in a variety of ways.'
+Description: 'Variables are a way to store and manipulate data. There are multiple types of variables which can be created and used in a variety of ways.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
   - 'Bash/Shell'
 Tags:
   - 'Data Types'
-  - 'Environment Variables'
   - 'Variables'
   - 'Variable Types'
 CatalogContent:
@@ -66,16 +65,4 @@ Multiple variables can be created with one statement using either the same value
 ```shell
 $i = $j = $k = 0 # Same value
 $number, $color, $bool = 25, "red", $false # Multiple values
-```
-
-## Environment Variables
-
-Environment Variables store information related to the current environment like the Operating System and user sessions. These global variables can be accessed across commands and programs.
-
-Running the `Get-ChildItem` cmdlet on the `Env:` drive lists all the environment variables. Alternatively, specifying the exact environment variable gets its value. 
-
-```shell
-Get-ChildItem Env: # Lists all environment variables
-(Get-Childitem Env:EIN_IMAGE).Value # Prints value of EIN_IMAGE
-$Env:EIN_IMAGE # Shorter version to print value of EIN_IMAGE
 ```
