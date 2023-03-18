@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Files** are named locations on the computer's disk that permanently store information for future use of its data. They are used to permanently store data in non-volatile memory (e.g. hard disk) as opposed to volatile sources like Random Access Memory [RAM](https://www.codecademy.com/resources/docs/general/ram), which loses its data when the computer is turned off.
+**Files** are named locations on the computer's disk that permanently store information for future use of its data. They are used to permanently store data in non-volatile memory (e.g. hard disk) as opposed to volatile sources like Random Access Memory [RAM](https://www.codecademy.com/resources/docs/general/computer-hardware/ram), which loses its data when the computer is turned off.
 
 ## File Handling
 
