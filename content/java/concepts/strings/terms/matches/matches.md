@@ -50,7 +50,7 @@ class Example {
 This example results in the following output:
 
 ```shell
-True
+false
 False
 False
 True
