@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.matches()`** method checks whether a string matches a given [regular expression](https://www.codecademy.com/resources/docs/general/regular-expressions), returning True or False.
+The **`.matches()`** method checks whether a string matches a given [regular expression](https://www.codecademy.com/resources/docs/general/regular-expressions), returning `true` or `false`.
 
 ## Syntax
 
