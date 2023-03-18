@@ -56,7 +56,7 @@ PS > (Get-Childitem Env:HOMEDRIVE).Value
 C:
 ```
 
-Alternatively, a short hand can be used:
+Alternatively, a shorthand syntax can be used:
 
 ```shell
 PS > $Env:HOMEDRIVE
@@ -71,4 +71,4 @@ The syntax for creating environment variables is:
 $Env:EXAMPLE_ENV_VAR = "custom value"
 ```
 
-> Note: Per convention, environment variable names are capitalized.
+> **Note:** Per convention, environment variable names are capitalized.

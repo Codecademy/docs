@@ -91,7 +91,7 @@ black
 
 - Range operator `..`: Print all items between two indexes (exclusive).
 
-> Note: this syntax is exclusive since the stop index `3` is not included.
+> **Note:** This syntax is exclusive since the stop index `3` is not included.
 
 ```shell
 PS > $colors[1..3]
@@ -102,7 +102,7 @@ blue
 
 - Reverse range: Use range operator from a higher index to a lower index to print items in reverse order (inclusive).
 
-> Note: this syntax is inclusive since both the start and stop indexes, `2` and `1`, are included.
+> **Note:** This syntax is inclusive since both the start and stop indexes, `2` and `1`, are included.
 
 ```shell
 PS > $colors[2..1]
@@ -214,4 +214,4 @@ Rufus is 10 years old.
 Miku is 2 years old.
 ```
 
-> Note: `$PSItem` can be replaced with its shorthand alias `$_`
+> **Note:** `$PSItem` can be replaced with its shorthand alias `$_`.
