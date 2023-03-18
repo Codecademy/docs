@@ -49,7 +49,6 @@ print(df)
 # Example 1
 
 df1 = df.drop_duplicates(inplace=False)
-
 print("\nExample 1 DataFrame:")
 print(df1)
 
