@@ -12,7 +12,7 @@ CatalogContent:
   - 'fundamentals-of-cybersecurity'
 ---
 
-**Risk** is the possibility or likelihood that a threat will exploit a vulnerability to cause harm to an asset. _Risks_ posed to people, processes or technology could result in financial loss, operational disruption or physical damage.
+**Risk** is the possibility or likelihood that a threat will exploit a vulnerability to cause harm to an asset. Risks posed to people, processes or technology could result in financial loss, operational disruption or physical damage.
 
 ## Risk In-Use
 
