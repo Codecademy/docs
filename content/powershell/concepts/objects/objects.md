@@ -22,13 +22,13 @@ CatalogContent:
 Everything in PowerShell is an **object**. An object is a combination of variables and functions. Each object has:
 
 - Properties: Variables that describe the object (characteristics).
-- Methods: Functions that describe how to use the object (actions).
+- Methods: Functions that define how to use the object (actions).
 
 Each object is an instance of a blueprint called a type, or [class](https://www.codecademy.com/resources/docs/general/class). 
 
 ## Getting Properties and Methods of an Object
 
-All information associated with an object is called a member. The `Get-Member` cmdlet reveals the member of an object – properties, methods, and so on. It also shows the type of an object.
+All information associated with an object is called a member. The `Get-Member` cmdlet reveals the members of an object, such as properties and methods. It also shows the type of an object.
 
 ```shell
 "Codecademy" | Get-Member
@@ -36,7 +36,7 @@ All information associated with an object is called a member. The `Get-Member` c
 
 ## Object Properties
 
-Properties, or attributes, are characteristics of an object. String objects, for example, have a property called `Length` which holds the number of characters in a string.
+Properties are also called attributes and are characteristics of an object. String objects, for example, have a property called `Length`, which holds the number of characters in a string.
 
 ```shell
 PS > "hello".Length # "hello" has 5 characters
@@ -116,7 +116,7 @@ ToString    Method     string ToString()
 To add properties to custom objects, use the `Add-Member` cmdlet. A type of member must be specified using the `-MemberType` parameter. For a simple key-value pair, we use `NoteProperty` but there is also `AliasProperty`, `CodeProperty`, and `ScriptProperty`.
 
 ```shell
-$dog | Add-Member -MemberType NoteProperty -Name "Name" -Value "Rufus"
+$dog | Add-Member -MemberType NoteProperty -Name "DogName" -Value "Rufus"
 ```
 
 `-Name` is used to specify the name of the property and `-Value` is used to specify the value to be assigned.

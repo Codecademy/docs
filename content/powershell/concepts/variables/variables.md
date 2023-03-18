@@ -22,6 +22,7 @@ A **variable** is a location in computer memory used to store data, usually to b
 Variables in PowerShell are referenced using a dollar sign `$` followed by a valid variable name.
 
 ```shell
+PS > $pi = 3.14
 PS > $pi
 3.14
 ```
@@ -47,7 +48,7 @@ String
 
 ## Constrained Variables
 
-A certain type can be enforced onto a variable via casting. To create a constrained variable, specify the type in brackets before the variable reference.
+A constrained variable is when a certain type can be enforced onto a variable via casting. To create a constrained variable, specify the type in brackets before the variable reference.
 
 ```shell
 PS > [Int]$age = 25

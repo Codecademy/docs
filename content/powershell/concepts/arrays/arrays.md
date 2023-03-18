@@ -22,7 +22,7 @@ CatalogContent:
 
 ## Creating an Array
 
-Separating items by commas `,` is the simplest way to create an array in PowerShell.
+Separating items by commas (`,`) is the simplest way to create an array in PowerShell.
 
 ```shell
 $my_arr = 25, "codecademy", 1, $False
@@ -57,7 +57,7 @@ The indexes in PowerShell start at `0`.
 |    `2`    |    `"black"`     |
 |    `3`    |    `"blue"`      |
 
-Brackets `[ ]` are used to access an item in an array. To access `"black"` in the `colors` array, for example:
+Brackets `[ ]` are used to access an item in an array. To access `"black"` in the `$colors` array, for example:
 
 ```shell
 PS > $colors[2]
@@ -79,7 +79,7 @@ blue
 
 ## Indexing
 
-PowerShell offers much more flexibility when indexing items such as:
+PowerShell offers flexibility when indexing items, such as:
 
 - Multiple indexes: Separate indexes with commas to print multiple items.
 
@@ -115,7 +115,7 @@ blue
 
 ## Iteration
 
-Each array object has a method called `ForEach` which can be utilized to perform the same action on each of its items. PowerShell defines the variable `PSItem` or just underscore `_` to refer to each item in the array.
+Each array object has a method called `ForEach` which can be utilized to perform the same action on each of its items. PowerShell defines the variable `$PSItem` or just underscore `_` to refer to each item in the array.
 
 ```shell
 PS > $colors.ForEach({ $PSItem.Length }) # $_.Length also works

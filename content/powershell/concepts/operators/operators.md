@@ -29,7 +29,7 @@ CatalogContent:
 
 ## Arithmetic Operators
 
-PowerShell has the following arithmetic operators which are used to calculate numeric values. Arithmetic operators include:
+PowerShell arithmetic operators are used to calculate numeric values. These include:
 
 | Operator |      Name      | Description                                                                                 |
 | :------: | :------------: | --------------------------------------------------------------------------------------------|
@@ -39,7 +39,7 @@ PowerShell has the following arithmetic operators which are used to calculate nu
 |   `/`    |    Division    | Divides numbers.                                                                             |
 |   `%`    |     Modulo     | Returns the remainder of a division operation.                                               |
 
-Arithmetic operators are binary operators. Their syntax in PowerShell is `<Operand_1> <Arithmetic Operator> <Operand_2>`.
+Arithmetic operators are binary operators, which means they act on two operands. Their syntax in PowerShell is `<Operand_1> <Arithmetic Operator> <Operand_2>`.
 
 ```shell
 $x = 5 + 5  # x is now 10
@@ -52,9 +52,9 @@ $x = $x % 2 # x is now 1
 Arithmetic operators, `+` and `*`, also work on strings and arrays.
 
 ```shell
-PS > $best_learning_platform = "code" + "cademy"
+PS > $best_learning_platform = "Code" + "cademy"
 PS > $best_learning_platform + "!" * 3
-codecademy!!!
+Codecademy!!!
 ```
 
 ```shell
@@ -107,8 +107,8 @@ Unary operators increase or decrease the value of a variable by 1.
 
 | Operator |      Name      | Description                                                   |
 | :------: | :------------: | ------------------------------------------------------------- |
-|   `++`   |   Increment    | `$x++` returns `$x + 1`                                       |
-|   `--`   |   Decrement    | `$x--` returns `$x - 1`                                       |
+|   `++`   |   Increment    | `$x++` is short for `$x = $x + 1`                                       |
+|   `--`   |   Decrement    | `$x--` is short for `$x = $x - 1`                                       |
 
 ## Equality Comparison Operators
 
@@ -118,10 +118,10 @@ Equality operators in PowerShell are binary operators that compare two integer o
 | :------: | :----------------------: | ------------------------------------------------------------- |
 |   `-eq`  |          Equal           | `$x -eq $y` is `true` if `x` and `y` are equal.               |
 |   `-ne`  |        Not Equal         | `$x -ne $y` is `true` if `x` and `y` are not equal.           |
-|   `-gt`  |        Less Than         | `$x -gt $y` is `true` if `x` is less than `y`.                |
-|   `-lt`  |       Greater Than       | `$x -lt $y` is `true` if `x` is greater than `y`.             |
-|   `-ge`  |  Less Than or Equal to   | `$x -ge $y` is `true` if `x` is less than or equal to `y`.    |
-|   `-le`  | Greater Than or Equal to | `$x -le $y` is `true` if `x` is greater than or equal to `y`. |
+|   `-gt`  |        Greater Than         | `$x -gt $y` is `true` if `x` is greater than `y`.                |
+|   `-lt`  |       Less Than       | `$x -lt $y` is `true` if `x` is less than `y`.             |
+|   `-ge`  |  Greater Than or Equal to   | `$x -ge $y` is `true` if `x` is greater than or equal to `y`.    |
+|   `-le`  | Less Than or Equal to | `$x -le $y` is `true` if `x` is less than or equal to `y`. |
 
 ## Logical Operators
 
