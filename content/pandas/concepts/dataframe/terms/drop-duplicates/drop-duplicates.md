@@ -42,6 +42,7 @@ people = {
 }
 
 # Initial DataFrame
+
 df = pd.DataFrame(people)
 print("Original DataFrame:")
 print(df)
