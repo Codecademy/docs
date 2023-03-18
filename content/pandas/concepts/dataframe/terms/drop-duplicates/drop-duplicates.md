@@ -42,19 +42,16 @@ people = {
 }
 
 # Initial DataFrame
-
 df = pd.DataFrame(people)
 print("Original DataFrame:")
 print(df)
 
 # Example 1
-
 df1 = df.drop_duplicates(inplace=False)
 print("\nExample 1 DataFrame:")
 print(df1)
 
 # Example 2
-
 df.drop_duplicates(subset=['Name'], keep='last', inplace=True, ignore_index=True)
 print("\nExample 2 DataFrame:")
 print(df)
