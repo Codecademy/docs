@@ -21,7 +21,8 @@ string.matches(regex)
 ```
 
 - The `.matches()` method returns a boolean value.
-  - `regex`:  a regular expression that the string is compared to.
+  - The parameter `regex` is a given regular expression that the string is compared to. 
+  - This method only returns complete matches, it will not return 'true' for a subset of characters.
 
 The `.matches()` method returns:
   - True if `regex` matches the string.
