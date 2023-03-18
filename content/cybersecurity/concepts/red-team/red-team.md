@@ -14,7 +14,7 @@ CatalogContent:
 **Red Team** is a group of people within an organization who try to play the role of cybercriminals and emulate an adversary's attack. A Red Team’s objective is to improve an enterprise's cybersecurity posture by demonstrating the impacts of successful attacks.
 
 ## Red Team In-Use:
-A Red Team might seek to carry out a penetration test in order to model real-world attack techniques and methods. It can usually gain access through theft of user credentials and social engineering techniques. Red teams are usually composed of highly experienced security professionals or ethical hackers. Red teams can help organizations identify misconfigurations, strengthen network security, and increase awareness among employees as to the risk of human error which may compromise the organization’s security.
+A Red Team might seek to carry out a penetration test to model real-world attack techniques and methods. It can usually gain access through the theft of user credentials and social engineering techniques. Red teams are usually composed of highly experienced security professionals or ethical hackers. Red teams can help organizations identify misconfigurations, strengthen network security, and increase awareness among employees as to the risk of human error which may compromise the organization’s security.
 
 ## Some Examples of Red Team:
 - Social engineering: Seemingly harmless emails are sent to try and trick employees to give up their access credentials or download malware. If the red team does manage to dupe someone, they will continue to move laterally throughout the system while testing more vulnerabilities along the way.
