@@ -41,7 +41,7 @@ class Example {
     String regex = "Hello|Goodbye";
 
     System.out.println("Hello World".matches(regex));
-    System.out.println("hi lazy dog".matches(regex));
+    System.out.println("Goodbye".matches(regex));
     System.out.println("goodbye quick brown fox".matches(regex));
     System.out.println("Hello".matches(regex));
   }
