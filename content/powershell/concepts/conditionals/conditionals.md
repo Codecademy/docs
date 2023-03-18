@@ -97,17 +97,21 @@ PowerShell allows conditional expressions to be used in `switch` statements.
 ```shell
 $my_num = 10
 switch ($my_num) {
-  {$_ -gt 5} { 
+  {$PSItem -gt 5} { 
     Write-Host "Greater than 5"
     break # "Greater than 0" would also be printed if this was missing
   }
-  {$_ -gt 0} { 
+  {$PSItem -gt 0} { 
     Write-Host "Greater than 0" 
   }
-  {$_ -lt 5} { 
+  {$PSItem -lt 5} { 
     Write-Host "Less than 5" 
   }
 }
 ```
+
+`$PSItem` is an automatic variable that contains the value passed to the `switch` statement.
+
+> **Note:** `$PSItem` can be replaced with its shorthand alias `$_`.
 
 > **Note:** Even if a condition is `True`, the following conditions are still tested unless a `break` statement is provided.

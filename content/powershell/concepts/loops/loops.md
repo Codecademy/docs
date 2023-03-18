@@ -60,13 +60,15 @@ The example above code is equivalent to using the `foreach` method of arrays:
 
 ```shell
 $array.foreach({
-  if ($_ % 2 -eq 0) {
-    Write-Host $_ "is" Even
+  if ($PSItem % 2 -eq 0) {
+    Write-Host $PSItem "is" Even
   } else {
-    Write-Host $_ "is" Odd
+    Write-Host $PSItem "is" Odd
   }
 })
 ```
+
+> **Note:** `$PSItem` can be replaced with its shorthand alias `$_`.
 
 ## `while` Loop
 
@@ -117,4 +119,13 @@ for ($i = 0; $i -lt 5; $i++) {
 }
 ```
 
-The above example prints `0` and `1` since the loop exits when `$i` becomes `2`. If `continue` is used instead of `break`, the iteration when `$i` is `2` is skipped and it prints `0`, `1`, `3`, `4`.
+The above example prints `0` and `1` since the loop exits when `$i` becomes `2`. If `continue` is used instead of `break`, like in the example below, the iteration when `$i` is `2` is skipped and it prints `0`, `1`, `3`, `4`.
+
+```shell
+for ($i = 0; $i -lt 5; $i++) {
+  if ($i -eq 2) {
+    continue
+  }
+  Write-Host $i
+}
+```
