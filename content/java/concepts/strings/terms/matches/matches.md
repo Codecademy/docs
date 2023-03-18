@@ -33,7 +33,7 @@ The `.matches()` method returns:
 The `.matches()` method is showcased in the following example:
 
 ```java
-import java.io.*;
+\\ Example.java
 
 class Example {
   public static void main(String[] args) {
