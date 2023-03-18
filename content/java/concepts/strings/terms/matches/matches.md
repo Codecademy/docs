@@ -40,7 +40,7 @@ class Example {
     // a regex that matches 'hello' or 'goodbye'
     String regex = "Hello|Goodbye";
 
-    System.out.println("hello quick brown fox".matches(regex));
+    System.out.println("Hello World".matches(regex));
     System.out.println("hi lazy dog".matches(regex));
     System.out.println("goodbye quick brown fox".matches(regex));
     System.out.println("Hello".matches(regex));
