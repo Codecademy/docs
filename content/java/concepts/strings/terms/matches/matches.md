@@ -52,6 +52,6 @@ This example results in the following output:
 ```shell
 false
 true
-False
+false
 True
 ```
