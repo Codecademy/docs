@@ -22,11 +22,7 @@ string.matches(regex)
 
 - The `.matches()` method returns a boolean value.
   - The parameter `regex` is a given regular expression that the string is compared to. 
-  - This method only returns complete matches, it will not return 'true' for a subset of characters.
-
-The `.matches()` method returns:
-  - True if `regex` matches the string.
-  - False if `regex` doesn't match the string.
+  - This method only returns `true` for complete matches, it will not return 'true' for a subset of characters.
   
 ## Example
 
