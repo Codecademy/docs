@@ -13,6 +13,7 @@ Anchor
 Android
 Angular
 Animation
+Anonymous Functions
 APIs
 Arguments
 Arithmetic
@@ -58,7 +59,9 @@ Comments
 Comparison
 Compilation
 Components
+Composition
 Computer Vision
+CMS
 Concatenation
 Conceptual
 Const
@@ -106,6 +109,7 @@ Events
 Exceptions
 Expo
 Express
+Favicon
 Files
 Finance
 Firebase
@@ -120,6 +124,7 @@ Formatting
 Frameworks
 Functions
 Functional Programming
+Functors
 Ggplot2
 Git
 GitHub
@@ -196,6 +201,7 @@ OOP
 Open Source
 Operating Systems
 Operators
+Optimization
 Optionals
 Output
 p5
@@ -242,6 +248,7 @@ Semantic
 Servers
 Server-Side Rendering
 Sets
+Slices
 Socket.IO
 Sort
 Span
@@ -258,6 +265,7 @@ Structure
 Style
 SwiftUI
 SwiftUI Views
+SwiftUI ViewModifiers
 Switch
 Symbol
 Syntax
@@ -302,6 +310,7 @@ Web3
 WebRTC
 While
 Whiteboarding
+WordPress
 World Wide Web
 Xcode
 ```

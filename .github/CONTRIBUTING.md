@@ -18,7 +18,7 @@ There are many ways to contribute to Codecademy Docs:
 - Give feedback in the [Typeform Survey](https://codecademyready.typeform.com/to/hzVIWDgz).
 - Join the [#CodecademyDocs](https://twitter.com/search?q=%23CodecademyDocs&src=typed_query&f=live) discussion on Twitter.
 
-If you're new to Codecademy Docs and contributing for the first time, it is recommended that you visit the [Issues](https://github.com/Codecademy/docs/issues) section and ask to be assigned to an [open issue](https://github.com/Codecademy/docs/blob/main/.github/CONTRIBUTING.md#how-do-i-claim-an-issue) that interests you. Otherwise, feel free to submit a [PR](https://www.codecademy.com/resources/docs/git/pull-requests) by creating a new [branch](https://www.codecademy.com/resources/docs/general/git/branch) in your fork to create a new entry or edit an existing one.
+If you're new to Codecademy Docs and contributing for the first time, it is recommended that you visit the [Issues](https://github.com/Codecademy/docs/issues) section and ask to be assigned to an [open issue](https://github.com/Codecademy/docs/blob/main/.github/CONTRIBUTING.md#how-do-i-claim-an-issue) that interests you. Otherwise, feel free to submit a [PR](https://www.codecademy.com/resources/docs/git/pull-requests) by creating a new [branch](https://www.codecademy.com/resources/docs/git/branch) in your fork to create a new entry or edit an existing one.
 
 ## How do I claim an Issue?
 
@@ -129,6 +129,14 @@ To link your Codecademy user profile to GitHub:
 - Formatting standards
 - Typos/bugs
 - Plagiarism
+
+## What is the policy for using generative AI?
+
+We will not accept entries that were exclusively generated through an AI tool. We have this policy because:
+
+- AI-generated content is often confidently incorrect, leading to the spread of inaccurate or misleading information.
+- We provide authorship credit for submissions, and to submit AI-generated work under one's own name would be a violation of our plagiarism policy.
+- Codecademy Docs is an educational space for people to learn how to write effective technical documentation. Using generative AI, at this point, negatively impacts that desired learning goal.
 
 ## How do we update a PR branch?
 

@@ -81,7 +81,7 @@ console.log(number);
 
 ## Comparison Operators
 
-These operators compare values and return a [boolean](https://www.codecademy.com/resources/docs/general/boolean) value of `true` or `false`.
+These operators compare values and return a [boolean](https://www.codecademy.com/resources/docs/general/data-types/boolean) value of `true` or `false`.
 
 - `==`: Returns `true` or `false` based on whether the value of two operands are equal.
 - `===`: Returns `true` or `false` based on whether the value and type of two operands are equal.
@@ -155,13 +155,76 @@ console.log(isPenguin);
 
 ## Conditional Operator
 
-The conditional, or ternary, operator uses the question mark `?` and colon `:` characters to assign a value to a variable based on a conditional statement:
+The conditional, or ternary, operator uses the question mark `?` and colon `:` to assign a value to a variable based on a conditional statement:
 
 ```pseudo
 variable = condition ? assignedIfTrue : assignedIfFalse;
 ```
 
 This operator combines the functionalities of the assignment, comparison, and logical operators.
+
+### Multi-Step Ternary Operator Examples
+
+Multiple steps can be performed by a ternary operator, based on certain conditions (similar to an `if...else` statement).
+
+A key point to consider is where the parentheses (`()`) are placed.
+
+The following example shows how a ternary operator can conditionally increment numeric values similar to how it's done in an `if...else` statement:
+
+```js
+let i = true;
+let a = 0;
+let b = 0;
+
+if (i == true) {
+  a++;
+  b++;
+} else {
+  a = 0;
+  b = 0;
+}
+
+console.log('a = ', a, 'b = ', b);
+
+// The ternary equivalent
+i == true ? (a++, b++) : ((a = 0), (b = 0));
+
+console.log('a = ', a, 'b = ', b);
+
+let c = 0;
+i == true ? (a++, b++, c++) : ((a = 0), (b = 0), (c = 0));
+
+console.log('a =', a, 'b =', b, 'c =', c);
+```
+
+This will output the following:
+
+```shell
+a = 1 b = 1
+a = 2 b = 2
+a = 3 b = 3 c = 1
+```
+
+The following ternary operator will throw a `SyntaxError` due to how the parentheses are placed:
+
+```js
+let i = true;
+
+// This implementation will fail
+i == true ? (a++), (b++) : (a = 0), (b = 0);
+console.log('a = ', a, 'b = ', b);
+```
+
+This will output:
+
+```shell
+Output:
+i == true ? (a++), (b++) : (a = 0), (b = 0);
+                 ^
+SyntaxError: Unexpected token ','
+```
+
+> **Note:** The ternary operator and `if...else` condition performance speeds are roughly the same. Although the ternary operator can help consolidate several lines of code, utilizing it is up to preference.
 
 ### Codebyte Example
 

@@ -17,7 +17,7 @@ CatalogContent:
 
 ## Syntax
 
-```cpp
+```pseudo
 std::cin >> variable;
 ```
 
@@ -30,8 +30,7 @@ In this example, the program will prompt the user to enter a number with `"Enter
 ```cpp
 #include <iostream>
 
-int main()
-{
+int main() {
   int tip = 0;
 
   std::cout << "Enter amount: ";

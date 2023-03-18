@@ -26,23 +26,21 @@ stackName.empty();
 
 ## Codebyte Example
 
-The following example uses the `.empty()` method to [loop](https://www.codecademy.com/resources/docs/cpp/loops) through the values of `myStack` and [pop](https://www.codecademy.com/resources/docs/cpp/stacks/terms/pop) off the next value until it is empty:
+The following example uses the `.empty()` method to [loop](https://www.codecademy.com/resources/docs/cpp/loops) through the values of `myStack` and [pop](https://www.codecademy.com/resources/docs/cpp/stacks/pop) off the next value until it is empty:
 
 ```codebyte/cpp
 #include <iostream>
 #include <stack>
 #include <string>
 
-int main()
-{
+int main() {
   std::stack<std::string> myStack;
   myStack.push("A");
   myStack.push("B");
   myStack.push("C");
   myStack.push("D");
 
-  while (!myStack.empty())
-  {
+  while (!myStack.empty()) {
     std::cout << ' ' << myStack.top();
     myStack.pop();
   }

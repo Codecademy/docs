@@ -18,7 +18,7 @@ A **function** is a set of statements that are executed together when the functi
 
 ## Built-in Functions
 
-C++ has many built-in functions. In order to use them, wthe required library has to be impored using `#include`.
+C++ has many built-in functions. In order to use them, the required library has to be imported using `#include`.
 
 Here a function named `sqrt()` is made available from the `<cmath>` library:
 
@@ -26,8 +26,7 @@ Here a function named `sqrt()` is made available from the `<cmath>` library:
 #include <iostream>
 #include <cmath>
 
-int main()
-{
+int main() {
   std::cout << sqrt(10);
   // Output: 3.16228
 }
@@ -51,14 +50,12 @@ The definition is the actual body of the function which executes when a function
 void blah();
 
 // Main function
-int main()
-{
+int main() {
   blah();
 }
 
 // Function definition
-void blah()
-{
+void blah() {
   std::cout << "Blah blah";
 }
 ```
@@ -70,13 +67,11 @@ In C++, if the type of a function is declared as `void`, it does not return a va
 ```cpp
 #include <iostream>
 
-void print()
-{
+void print() {
   std::cout << "Hello World!";
 }
 
-int main()
-{
+int main() {
   print();
 }
 ```
@@ -92,14 +87,12 @@ On the other hand, a `void` function (one that does not return anything) does no
 
 int sum(int a, int b);
 
-int main()
-{
+int main() {
   int r = sum(10, 20);
   std::cout << r;
 }
 
-int sum(int a, int b)
-{
+int sum(int a, int b) {
   return(a + b);
 }
 ```
@@ -116,8 +109,7 @@ Function declarations are generally stored in a header file (`.hpp` or `.h`) and
 #include <iostream>
 #include "functions.hpp"
 
-int main()
-{
+int main() {
   std::cout << say_hi("Sabaa");
 }
 ```
@@ -136,8 +128,7 @@ std::string say_hi(std::string name);
 #include "functions.hpp"
 
 // Function definition
-std::string say_hi(std::string name)
-{
+std::string say_hi(std::string name) {
   return "Hey there, " + name + "!\n";
 }
 ```
@@ -151,15 +142,13 @@ In C++, the values passed to a function are known as arguments. They represent t
 
 void print(int);
 
-int main()
-{
+int main() {
   print(10);
   // The argument 10 is received as input value
 }
 
 // Parameter a is defined for the function print
-void print(int a)
-{
+void print(int a) {
   std::cout << a;
 }
 ```

@@ -33,11 +33,12 @@ The following example uses `sinh()` to return the hyperbolic sine of `0.0` in ra
 #include <iostream>
 #include <cmath>
 
-int main()
-{
+int main() {
   double x = 0.0;
   double result;
+
   result = std::sinh(x);
+
   std::cout << "The hyperbolic sine of " << x << " radians is " << result << "\n";
   // Output: The hyperbolic sine of 0 radians is 0
 }
