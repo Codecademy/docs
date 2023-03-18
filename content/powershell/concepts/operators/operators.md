@@ -116,12 +116,12 @@ Equality operators in PowerShell are binary operators that compare two integer o
 
 | Operator |           Name             | Description                                                   |
 | :------: | :------------------------: | ------------------------------------------------------------- |
-|   `-eq`  |          Equal             | `$x -eq $y` is `true` if `x` and `y` are equal.               |
-|   `-ne`  |        Not Equal           | `$x -ne $y` is `true` if `x` and `y` are not equal.           |
-|   `-gt`  |        Greater Than        | `$x -gt $y` is `true` if `x` is greater than `y`.             |
-|   `-lt`  |         Less Than          | `$x -lt $y` is `true` if `x` is less than `y`.                |
-|   `-ge`  |  Greater Than or Equal to  | `$x -ge $y` is `true` if `x` is greater than or equal to `y`. |
-|   `-le`  |   Less Than or Equal to    | `$x -le $y` is `true` if `x` is less than or equal to `y`.    |
+|   `-eq`  |          Equal             | `$x -eq $y` is `True` if `x` and `y` are equal.               |
+|   `-ne`  |        Not Equal           | `$x -ne $y` is `True` if `x` and `y` are not equal.           |
+|   `-gt`  |        Greater Than        | `$x -gt $y` is `True` if `x` is greater than `y`.             |
+|   `-lt`  |         Less Than          | `$x -lt $y` is `True` if `x` is less than `y`.                |
+|   `-ge`  |  Greater Than or Equal to  | `$x -ge $y` is `True` if `x` is greater than or equal to `y`. |
+|   `-le`  |   Less Than or Equal to    | `$x -le $y` is `True` if `x` is less than or equal to `y`.    |
 
 ## Logical Operators
 
