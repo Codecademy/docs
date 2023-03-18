@@ -6,6 +6,7 @@ Subjects:
   - 'Data Science'
 Tags:
   - 'Files'
+  - 'Data'
 CatalogContent:
   - 'paths/code-foundations'
   - 'paths/computer-science'
