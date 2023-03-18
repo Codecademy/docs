@@ -61,7 +61,7 @@ print(df)
 
 This will produce the following output:
 
-```
+```shell
 Original DataFrame:
       Name  Age Favorite Color
 0    Peter    7           Pink
