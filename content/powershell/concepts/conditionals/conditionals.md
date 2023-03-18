@@ -18,7 +18,7 @@ CatalogContent:
 
 **Conditionals** enable execution of code based on provided conditions. They take in an expression and check if it is `True` or `False`. If the expression is `True`, one set of statements is executed. Otherwise, another set of instructions is performed. This control of flow makes programs more robust by enabling them to address multiple scenarios.
 
-There are four types of conditionals in PowerShell:
+There are four types of conditional statements in PowerShell:
 
 1. `if`
 2. `else`
@@ -40,7 +40,7 @@ The example above prints `A True Statement` *and* `After the if statement` if `$
 
 ## `else` 
 
-The `else` clause is appended to the `if` statement.
+The `else` clause always follows the `if` statement.
 
 - If the condition is `True`, the code in the `if` section is executed.
 - If the condition is `False`, the code in the `else` section is executed.

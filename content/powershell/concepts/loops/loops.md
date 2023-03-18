@@ -75,7 +75,7 @@ The `while` loop executes statements repeatedly as long as the condition is `Tru
 ```shell
 $count = 0
 while($count -lt 15) {
-	$count += 3
+  $count += 3
   Write-Host The count is $count
 }
 ```

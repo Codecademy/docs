@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **function** is a set of statements that are executed when the function is called. Functions allow programmers to break down a problem into smaller chunks and each function is written to perform a particular task. A few of the major reasons for using functions are readability and reusability.
+A **function** is a set of statements that are executed when the function name is called. Functions allow programmers to break down a problem into smaller chunks and help define a particular task. A few of the major reasons for using functions are readability and reusability.
 
 ## Function Definition
 
@@ -51,7 +51,7 @@ Parameters can be added to function declaration to make them more flexible. The 
 
 ```pseudo
 Function <Name>{
-  Param (<parameter 1>, <parameter 2>, ...)
+  param (<parameter 1>, <parameter 2>, ...)
   <statements>
   ...
 }
