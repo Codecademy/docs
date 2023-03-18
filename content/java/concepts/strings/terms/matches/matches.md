@@ -6,6 +6,7 @@ Subjects:
 Tags:
   - 'Strings'
   - 'Methods'
+  - 'Regular Expressions'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
