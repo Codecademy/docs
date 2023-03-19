@@ -22,10 +22,12 @@ View
     .border(content, width: CGFloat)
 ```
 
-- `content`: A required value that sets the color and style of the border which needs to conform to the `ShapeStyle` protocol, like a `Color` or `HierarchicalShapeStyle`.
-- `width`: This optional value determines the width of the border and defaults to 1.
+This view modifier can be applied to any type of `View`, including [`Text`](https://www.codecademy.com/resources/docs/swiftui/views/text), [`Image`](https://www.codecademy.com/resources/docs/swiftui/views/image), and any type of layout such as [`VStack`](https://www.codecademy.com/resources/docs/swiftui/views/vstack), [`HStack`](https://www.codecademy.com/resources/docs/swiftui/views/hstack), and [`ZStack`](https://www.codecademy.com/resources/docs/swiftui/views/zstack).
 
-> **Note**: This view modifier can be applied to any type of `View`, including `Text`, `Image`, and any type of stack such as `VStack`, `HStack`, and `ZStack`.
+It can accept the following parameters:
+
+- `content`: A required value that sets the color and style of the border which needs to conform to the `ShapeStyle` protocol, like a [`Color`](https://www.codecademy.com/resources/docs/swiftui/views/color) or `HierarchicalShapeStyle`.
+- `width`: This optional value determines the width of the border and defaults to 1.
 
 ## Example
 
@@ -37,7 +39,7 @@ var body: some View {
 }
 ```
 
-In the above example, a `Text` view displays the text `"This view has a blue border."` with some padding. The `.border()` modifier is then applied to the view, which adds a border around it.
+In the above example, a text view displays the text `"This view has a blue border."` with some padding. The `.border()` modifier is then applied to the view, which adds a border around it.
 
 In the example, a blue border is specified with a width of 4 points. However, these values can be customized as needed to achieve the desired look for an app.
 
@@ -45,4 +47,4 @@ This will display:
 
 ![SwiftUI ViewModifier Border](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-viewmodifier-border.png)
 
-> **Note**: Keep in mind that the `.border()` modifier had a `cornerRadius` parameter which has since been deprecated. If rounding the corners of the border are needed, the [`.overlay()`](https://www.codecademy.com/resources/docs/swiftui/viewmodifier/overlay) modifier and a [`RoundedRectangle()`](https://www.codecademy.com/resources/docs/swiftui/views/roundedrectangle) with a `cornerRadius` value can be used instead.
+> **Note**: Keep in mind that the `.border()` modifier had a `cornerRadius` parameter which has since been deprecated. If rounding the corners of the border is needed, the [`.overlay()`](https://www.codecademy.com/resources/docs/swiftui/viewmodifier/overlay) modifier and a [`RoundedRectangle()`](https://www.codecademy.com/resources/docs/swiftui/views/roundedrectangle) with a `cornerRadius` value can be used instead.
