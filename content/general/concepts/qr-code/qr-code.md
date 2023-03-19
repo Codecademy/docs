@@ -12,7 +12,7 @@ CatalogContent:
 
 ## What is a QR Code?
 
-A **QR Code** (quick response code) is code used to store information that can be read by a device with a QR scanner. QR codes differ from barcodes seen in a retail or grocery store in that a standard barcode is one-dimensional and reads horizontally. A QR code is a square-shaped, with the data enclosed within the square. The three squares in the corners of the QR code tell the QR code scanning software how the QR code is orientated, so the scanning software can read the QR code’s data correctly. [Here](https://www.qr-code-generator.com/qr-code-marketing/qr-codes-basics/) is a good web page detailing how the data is structured in the QR code.
+A **QR Code** (quick response code) is code used to store information and it can be read by a device that has QR scanning software on it. QR codes differ from barcodes seen in a retail or grocery store in that a standard barcode is one-dimensional and reads horizontally. A QR code is a square-shaped, with the data enclosed within the square. The three squares in the corners of the QR code tell the QR code scanning software how the QR code is orientated, so the scanning software can read the QR code’s data correctly. [Here](https://www.qr-code-generator.com/qr-code-marketing/qr-codes-basics/) is a good web page detailing how the data is structured in the QR code.
 
 QR codes are used just like their bar code counterparts: They contain data, and when scanned the data is entered into an app or is used by a device, greatly speeding up the data entry process and eliminating typing errors. Barcodes usually hold just a number, and once scanned and entered into an application. The scanned number can be used to lookup a specific item and retrieve the item’s name, price, and other information. QR codes hold all kinds of data, so they are more widely used than barcodes.
 
@@ -30,7 +30,7 @@ Software is used to create the QR code. The user enters the data to be encoded a
 
 ## Uses for QR Codes
 
-QR codes have many more uses than regular bar codes. QR codes hold more data, and they are easily readable by today’s mobile devices. The data can be just text, or instructions to open an app and populate fields. A QR code can hold the URL for a web page or help log into a Wi-Fi network. QR codes can show proof of purchase.  They are also used to track how many times the QR code has been scanned. There are several other uses as well. 
+QR codes have many more uses than regular bar codes. QR codes hold more data, and they are easily readable by today’s mobile devices. The data can be just text, or instructions to open an app and populate fields. A QR code can hold the URL for a web page or help log into a Wi-Fi network. QR codes can show proof of purchase. They are also used to track how many times the QR code has been scanned. There are several other uses as well.
 
 One of the most common uses for QR codes is an URL for a web page. Instead of requiring a user to enter “codecademy.com/resources/docs/general” into a web browser, the URL is embedded into a QR code. The user scans the QR code and clicks the link. Many restaurants use QR code URLs for online menus. Sporting events use QR codes allowing spectators to get up-to-the-minute stats. Charitable organizations use QR codes to direct donors to the donation website.
 
