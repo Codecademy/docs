@@ -28,11 +28,11 @@ The `Math.Sin()` method takes only one parameter, `angle`, an angle in radians o
 - `NegativeInfinity`
 - `PositiveInfinity`
 
-> **Note:** Depending on the used operating system or architecture, the exact result or the input range of the `Math.Sin()` method may differ due to the differences in the C runtime environment.
-
 ## Example
 
-The following example first converts `30` degrees to radians, then uses the `Math.Sin()` method to return the sine of that angle, and `Math.Round()` rounds up the result to five decimals. Finally, the `Console.WriteLine()` function prints the result to the console:
+The following example first converts `30` degrees to radians, then uses the `Math.Sin()` method to return the sine of that angle. Finally, the `Console.WriteLine()` function prints the result to the console:
+
+> **Note:** Depending on the operating system or architecture, the exact result or the input range of the `Math.Sin()` method may differ due to the differences in the C runtime environment.
 
 ```cs
 using System;
@@ -42,7 +42,7 @@ public class Example {
     double degrees = 30;
     double radians = degrees * Math.PI/180;
 
-    double sine = Math.Round(Math.Sin(radians), 5);
+    double sine = Math.Sin(radians);
 
     Console.WriteLine("The sine of " + degrees + " degrees is: " + sine);
   }
@@ -68,7 +68,7 @@ public class Example {
     // Angle in degrees
     double angle = -90;
 
-    Console.WriteLine("The sine of " + angle + " degrees is: " + Math.Round(Math.Sin(angle * Math.PI/180), 5));
+    Console.WriteLine("The sine of " + angle + " degrees is: " + Math.Sin(angle * Math.PI/180));
   }
 }
 ```
