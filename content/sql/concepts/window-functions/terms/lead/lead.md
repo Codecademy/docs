@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-The **`LEAD`** window function takes the name of the column and an integer offset as arguments and returns the contents of the cell in the specified column of the row that is the specified number of rows after the current row.
+The **`LEAD()`** window function takes a column and a positive integer offset as arguments and returns the contents of the cell in the specified column that is the specified number of rows after the current row.
 
 ## Syntax
 
