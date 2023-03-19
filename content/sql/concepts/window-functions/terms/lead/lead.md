@@ -20,6 +20,11 @@ The **`LEAD()`** window function takes a column and a positive integer offset as
 
 ## Syntax
 
+```pseudo
+SELECT LEAD(column_name, offset, [default]) OVER()
+```
+The default argument is optional and will be NULL by default.
+
 ## Example
 
 ```sql
