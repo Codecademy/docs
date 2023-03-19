@@ -28,11 +28,11 @@ The `Math.Cos()` method takes only one parameter, `angle`, an angle in radians o
 - `NegativeInfinity`
 - `PositiveInfinity`
 
-> **Note:** Depending on the used operating system or architecture, the exact result or the input range of the `Math.Cos()` method may differ due to the differences in the C runtime environment.
-
 ## Example
 
-The following example first converts `60` degrees to radians, then uses the `Math.Cos()` method to return the sine of that angle, and `Math.Round()` rounds up the result to five decimals. Finally, the `Console.WriteLine()` function prints the result to the console:
+The following example first converts `60` degrees to radians, then uses the `Math.Cos()` method to return the sine of that angle. Finally, the `Console.WriteLine()` function prints the result to the console:
+
+> **Note:** Depending on the used operating system or architecture, the exact result or the input range of the `Math.Cos()` method may differ due to the differences in the C runtime environment.
 
 ```cs
 using System;
@@ -42,7 +42,7 @@ public class Example {
     double degrees = 60;
     double radians = degrees * Math.PI/180;
 
-    double cosine = Math.Round(Math.Cos(radians), 5);
+    double cosine = Math.Cos(radians);
 
     Console.WriteLine("The cosine of " + degrees + " degrees is: " + cosine);
   }
@@ -68,7 +68,7 @@ public class Example {
     // Angle in degrees
     double angle = 0;
 
-    Console.WriteLine("The cosine of " + angle + " degrees is: " + Math.Round(Math.Cos(angle * Math.PI/180), 5));
+    Console.WriteLine("The cosine of " + angle + " degrees is: " + Math.Cos(angle * Math.PI/180));
   }
 }
 ```
