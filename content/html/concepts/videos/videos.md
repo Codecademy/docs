@@ -12,11 +12,11 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Embedding **videos** within a site creates more lively and informative pages that are more attractive to visitors. Similar to serving images, serving video raises concerns on the impact to users due to the higher bandwidth requirements as well as the less accessible nature of the medium.
+Embedding **videos** within a site creates more lively and informative pages that are more attractive to visitors. Similar to serving images, serving video raises concerns about the impact on users due to the higher bandwidth requirements as well as the less accessible nature of the medium.
 
 ## Choosing a Video Codec and Format
 
-Unless videos are preloaded or set to automatically play, their impact on page speed should be minimal. However, attention should be paid to video file sizes to guarantee that the greatest numbers of users can stream them.
+Unless videos are preloaded or set to automatically play, their impact on page speed should be minimal. However, attention should be paid to video file sizes to guarantee that the greatest number of users can stream them.
 
 Videos typically contain multiple items:
 
@@ -26,14 +26,12 @@ Videos typically contain multiple items:
 
 Therefore, there is a distinction between the format of the codec used to encode each of these individual items as well as the format of the container meant to package it all together. Container and codec support is browser dependent, with the latest generation of codecs attempting to provide even better video compression with less quality loss.
 
-`MP4` is not only the most widely supported container format, but also supports the largest number of codecs, so it is the default option for containers. The situation for audio codecs is similar, with `AAC` being the default due to its good compression and wide spread use. For video codecs there are two main options: `H.264` for if support is of the upmost concern and `AV1` for streaming the absolute smallest files at a given quality.
+`MP4` is not only the most widely supported container format, but also supports the largest number of codecs, so it is the default option for containers. The situation for audio codecs is similar, with `AAC` being the default due to its good compression and widespread use. For video codecs, there are two main options or media stacks:
 
-In summary there are two main media stacks:
-
-| Container Format | Video Codec | Audio Codec | Use Case                                                    |
-| ---------------- | ----------- | ----------- | ----------------------------------------------------------- |
-| MP4              | H.264       | AAC         | Compatible with most every browser                          |
-| MP4              | AV1         | AAC         | Better compression with better quality, but less compatible |
+| Container Format | Video Codec | Audio Codec | Use Case                                                                                                                         |
+| ---------------- | ----------- | ----------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| MP4              | H.264       | AAC         | Compatible with most every browser and used if support is of the utmost concern.                                                 |
+| MP4              | AV1         | AAC         | Useed for streaming the absolute smallest files at a given quality. Better compression with better quality, but less compatible. |
 
 ## Inserting a Video
 
@@ -67,7 +65,7 @@ Sources are written in preference order, so that the first source listed is play
 </video>
 ```
 
-Here is another example of how attributes can be used together simultaneously:
+Here is another example of how boolean attributes can be used together simultaneously:
 
 ```html
 <video autoplay muted loop>
@@ -79,20 +77,20 @@ Here is another example of how attributes can be used together simultaneously:
 - `muted` ensures there will be no audio output.
 - `loop` will replay the video again once it has finished.
 
-These attributes can be used together in any order to specify how a video behaves on a webpage. Also note that these attributes can be used with the `controls` attribute too.
+These attributes can be used together in any order to specify how a video behaves on a webpage. Also, note that these attributes can be used with the `controls` attribute too.
 
 ## Accessibility with Videos
 
-It is generally discouraged to use videos as the background for a webpage. In many cases a static image should be considered instead in order to avoid any potential issues caused by moving images as well as to better support users with screen readers. However, if a video must be used as a background, a few key steps should be taken to best support the most users:
+It is generally discouraged to use videos as the background for a webpage. In many cases, a static image should be considered instead to avoid any potential issues caused by moving images as well as to better support users with screen readers. However, if a video must be used as a background, a few key steps should be taken to best support the most users:
 
 - If the video is purely decorative, `aria-hidden="true"` can denote to screen readers that the video provides no additional context or content and is purely decorative.
-- The `prefers-reduced-motion` CSS media query can be used to disable autoplaying videos for certain users.
+- The `prefers-reduced-motion` CSS media query can be used to disable auto-playing videos for certain users.
 
 To convey the same content to users who are not able to view videos, provide either sufficient captions or aria descriptions for the video.
 
 Captions can be added as a child of the `<video>` element using the `<track>` tag with the following key attributes:
 
-- `kind` to describe the text track. Here is it is a `caption`, but it can also be `subtitles` or `metadata`.
+- `kind` to describe the text track. Here it is a `caption`, but it can also be `subtitles` or `metadata`.
 - `label` is how this option is represented in the user interface.
 - `srclang` represents the language for the caption.
 - `src` is the actual location of the caption track. Text tracks such as subtitles and captions use the `WebVTT` format as indicated by the `.vtt` extension.
