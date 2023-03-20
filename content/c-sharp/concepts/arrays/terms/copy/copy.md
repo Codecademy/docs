@@ -34,10 +34,7 @@ It is also possible to overload this method with two additional parameters:
 
 ## Example
 
-The following example initializes the array `sourceArray` and the array
-`destinationArray`. Using a `foreach` loop,
-the contents of `destinationArray` are printed
-to the console:
+The following example initializes the array `sourceArray` and the array `destinationArray`. Using a `foreach` loop, the contents of `destinationArray` are printed to the console:
 
 ```cs
 using System;
@@ -67,11 +64,7 @@ red orange yellow green blue indigo violet
 
 ## Codebyte Example
 
-The following codebyte is runnable and shows one of the several
-overload functions with the `Array.Copy()` method. In this example,
-`sourceArray` is copied starting from the third element in the array `[2]`
-and stores elements `[2]`, `[3]`, `[4]` starting as the first element in `destinationArray`.
-The remaining elements return `0`:
+The following codebyte is runnable and shows one of the several overload functions with the `Array.Copy()` method. In this example, `sourceArray` is copied starting from the third element in the array `[2]`and stores elements `[2]`, `[3]`, `[4]` starting as the first element in `destinationArray`. The remaining elements return `0`:
 
 ```codebyte/csharp
 using System;
