@@ -46,3 +46,20 @@ The example will result in the following output:
 Solution = 7
 Solution = -9
 ```
+
+## Codebyte Example
+
+The following example is runnable and uses the `Math.Ceiling()` method to return the smallest whole number that is greater than or equal to the given `double` type `number`:
+
+```codebyte/csharp
+using System;
+
+public class Floor {
+    public static void Main() {
+      double number = 3.14159;
+      double ceiling = Math.Ceiling(number);
+
+      Console.WriteLine("The ceiling value of " + number + " is " + ceiling);
+    }
+}
+```

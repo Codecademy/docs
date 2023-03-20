@@ -44,3 +44,20 @@ The example will result in the following output:
 ```shell
 5
 ```
+
+## Codebyte Example
+
+The following example is runnable and uses the `Math.Floor()` method to return the largest whole number that is less than or equal to the given `double` type `number`:
+
+```codebyte/csharp
+using System;
+
+public class Floor {
+    public static void Main() {
+      double number = 3.14159;
+      double floor = Math.Floor(number);
+
+      Console.WriteLine("The floor value of " + number + " is " + floor);
+    }
+}
+```
