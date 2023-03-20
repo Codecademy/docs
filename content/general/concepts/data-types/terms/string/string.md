@@ -1,6 +1,6 @@
 ---
 Title: 'String'
-Description: 'In computer science, sequences of characters are referred to as strings. Strings can be any length and can include any character such as letters, numbers, symbols, whitespace (spaces, tabs, new lines). It is usually contained within a pair of single quotes or "double quotes". A string can be thought of as a list of characters. Like any other list, each character in a string has an index.'
+Description: 'Stores a sequence of indexed characters that can be of any length and is contained within a pair of single or double quotes.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'

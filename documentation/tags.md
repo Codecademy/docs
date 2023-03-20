@@ -13,6 +13,7 @@ Anchor
 Android
 Angular
 Animation
+Anonymous Functions
 APIs
 Arguments
 Arithmetic
@@ -58,6 +59,7 @@ Comments
 Comparison
 Compilation
 Components
+Composition
 Computer Vision
 CMS
 Concatenation
@@ -69,6 +71,7 @@ CRUD
 CSV
 Cybersecurity
 D3
+Data
 Data Structures
 Data Types
 Database
@@ -122,6 +125,7 @@ Formatting
 Frameworks
 Functions
 Functional Programming
+Functors
 Ggplot2
 Git
 GitHub
