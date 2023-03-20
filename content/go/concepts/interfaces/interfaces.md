@@ -22,7 +22,7 @@ type InterfaceName interface {
 
 ```
 
-A type implements an interface by implementing its methods. 
+A type implements an interface by implementing its methods.
 Interfaces are implemented implicitly.
 Interfaces enable polymorphism in Go.
 
@@ -33,42 +33,42 @@ Interfaces enable polymorphism in Go.
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 type marriage interface {
-	love()
-	arranged()
+    love()
+    arranged()
 }
 
 type john struct{}
 
 func (a *john) love() {
-	fmt.Println("love with john")
+    fmt.Println("love with john")
 }
 
 func (a *john) arranged() {
-	fmt.Println("arranged marriage with john")
+    fmt.Println("arranged marriage with john")
 }
 
 type max struct{}
 
 func (a *max) love() {
-	fmt.Println("love with max")
+    fmt.Println("love with max")
 }
 
 func (a *max) arranged() {
-	fmt.Println("arranged marriage with max")
+    fmt.Println("arranged marriage with max")
 }
 
 func newLife(guy marriage) {
-	guy.love()
-	guy.arranged()
+    guy.love()
+    guy.arranged()
 }
 
 func main() {
-	newLife(&john{})
-	newLife(&max{})
+    newLife(&john{})
+    newLife(&max{})
 }
 
 ```
@@ -84,14 +84,15 @@ arranged marriage with max
 
 ```
 
-In the above example, 
- - The `marriage` interface has two methods `love` and `arranged`.
- - Structs `john` and `max` implements the `marriage` interface , note that neither `john` nor `max` has any explicit declaration to implement the interface.
- - As long as the struct has all the methods in the interface, it is said to implement the interface.
- - function `newLife` takes `marriage` interface as an argument.
- - It's possible to call the `newLife` function with `john` and `max` structs.
+In the above example,
 
-The advantage of using an interface is that any struct can be passed to the `newLife` function as long as it implements the `marriage` interface. and it is possible to  change the implementation of the `love` and `arranged` methods in the `john` and `max` structs without affecting the `newLife` function.
+- The `marriage` interface has two methods `love` and `arranged`.
+- Structs `john` and `max` implements the `marriage` interface , note that neither `john` nor `max` has any explicit declaration to implement the interface.
+- As long as the struct has all the methods in the interface, it is said to implement the interface.
+- function `newLife` takes `marriage` interface as an argument.
+- It's possible to call the `newLife` function with `john` and `max` structs.
+
+The advantage of using an interface is that any struct can be passed to the `newLife` function as long as it implements the `marriage` interface. and it is possible to change the implementation of the `love` and `arranged` methods in the `john` and `max` structs without affecting the `newLife` function.
 
 It is also possible to make a new type and `newLife` can use it without changing the `newLife` function as long as the new type implements the `marriage` interface.
 
@@ -105,7 +106,7 @@ An interface with no methods is called an empty interface.
 type interfaceName interface {}
 ```
 
-The tradeoff of using an empty interface is the loss of type safety.  As there are no methods, it's possible to pass any type to a function that takes an empty interface as an argument.
+The tradeoff of using an empty interface is the loss of type safety. As there are no methods, it's possible to pass any type to a function that takes an empty interface as an argument.
 
 ### Example
 
@@ -118,15 +119,15 @@ Below is the go source code for the `fmt.Println` function:
 // Spaces are always added between operands and a newline is appended.
 // It returns the number of bytes written and any write error encountered.
 func Println(a ...interface{}) (n int, err error) {
-	return Fprintln(os.Stdout, a...)
+    return Fprintln(os.Stdout, a...)
 }
 ```
 
-> ##Note:** due to the empty interface, we can pass any type to the `Println` function.
-
-An interface in go can be embedded in other interfaces or structs.
+> ##Note:\*\* due to the empty interface, we can pass any type to the `Println` function.
 
 ## Embedding an Interface
+
+An interface in go can be embedded in other interfaces or structs.
 
 ```go
 package main
@@ -135,61 +136,61 @@ import "fmt"
 
 // any type that need to implement marriage should also implement all methods of dating
 type marriage interface {
-	dating
-	love()
-	arranged()
+    dating
+    love()
+    arranged()
 }
 
 type dating interface {
-	compatibility()
+    compatibility()
 }
 
 type john struct {
-	age int
+    age int
 }
 
 func (a john) love() {
-	fmt.Println("love with john")
+    fmt.Println("love with john")
 }
 
 func (a john) arranged() {
-	fmt.Println("arranged marriage with john")
+    fmt.Println("arranged marriage with john")
 }
 func (a john) compatibility() {
-	fmt.Println("compatible with john")
+    fmt.Println("compatible with john")
 }
 
 type parents struct {
-	//named marriage interface
-	m     marriage
-	quote string
+    //named marriage interface
+    m     marriage
+    quote string
 }
 
 type lovers struct {
-	//unnamed marriage interface
-	marriage
-	quote string
+    //unnamed marriage interface
+    marriage
+    quote string
 }
 
 func main() {
-	a := john{age: 24}
-	p := parents{quote: "I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more", m: a}
-	
-	//p.love()
-	//as this has named marriage interface m calling directly with .m would raise compiler error
-	/*-----------------------ERROR-----*---------------------------*/
-	// ./prog.go:39:4: p.love undefined (type parents has no field or method love)
+    a := john{age: 24}
+    p := parents{quote: "I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more", m: a}
 
-	p.m.love()
-	p.m.compatibility()
-	p.m.arranged()
+    //p.love()
+    //as this has named marriage interface m calling directly with .m would raise compiler error
+    /*-----------------------ERROR-----*---------------------------*/
+    // ./prog.go:39:4: p.love undefined (type parents has no field or method love)
 
-	l := lovers{quote: "I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more", marriage: a}
-	fmt.Println("\n", l.quote, "\n")
-	//its possible to directly access the methods of embedded interface if the embedded interface is anonymous or unnamed.
-	l.love()
-	l.compatibility()
-	l.arranged()
+    p.m.love()
+    p.m.compatibility()
+    p.m.arranged()
+
+    l := lovers{quote: "I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more", marriage: a}
+    fmt.Println("\n", l.quote, "\n")
+    //its possible to directly access the methods of embedded interface if the embedded interface is anonymous or unnamed.
+    l.love()
+    l.compatibility()
+    l.arranged()
 }
 
 ```
@@ -202,7 +203,7 @@ love with john
 compatible with john
 arranged marriage with john
 
- I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more 
+ I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more
 
 love with john
 compatible with john
@@ -212,16 +213,50 @@ Program exited.
 
 ```
 
-
 ## Codebyte Example
 
 ```codebyte/golang
 
 package main
-import "fmt"
+
+import (
+    "fmt"
+)
+
+type marriage interface {
+    love()
+    arranged()
+}
+
+type john struct{}
+
+func (a *john) love() {
+    fmt.Println("love with john")
+}
+
+func (a *john) arranged() {
+    fmt.Println("arranged marriage with john")
+}
+
+type max struct{}
+
+func (a *max) love() {
+    fmt.Println("love with max")
+}
+
+func (a *max) arranged() {
+    fmt.Println("arranged marriage with max")
+}
+
+func newLife(guy marriage) {
+    guy.love()
+    guy.arranged()
+}
 
 func main() {
-	fmt.Println("practice here")
+    newLife(&john{})
+    newLife(&max{})
 }
+
 
 ```
