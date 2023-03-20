@@ -1,25 +1,23 @@
 ---
-Title: 'interfaces'
-Description: 'An interace is a set of method signatures.'
+Title: 'Interfaces'
+Description: 'An interface is a set of method signatures.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
   - 'Control Flow'
-  - 'interfaces'
+  - 'Interfaces'
 CatalogContent:
   - 'learn-go'
   - 'paths/back-end-engineer-career-path'
 ---
 
-An interace is a set of method signatures.
+An interface is a set of method signatures.
 
 ```go
-
 type InterfaceName interface {
     method() return_type
 }
-
 ```
 
 A type implements an interface by implementing its methods.
@@ -29,7 +27,6 @@ Interfaces enable polymorphism in Go.
 ## Example
 
 ```go
-
 package main
 
 import (
@@ -70,12 +67,11 @@ func main() {
     newLife(&john{})
     newLife(&max{})
 }
-
 ```
 
 Output:
 
-```bash
+```shell
 
 love with john
 arranged marriage with john
@@ -87,12 +83,12 @@ arranged marriage with max
 In the above example,
 
 - The `marriage` interface has two methods `love` and `arranged`.
-- Structs `john` and `max` implements the `marriage` interface , note that neither `john` nor `max` has any explicit declaration to implement the interface.
+- Structs `john` and `max` implement the `marriage` interface. Note that neither `john` nor `max` has any explicit declaration to implement the interface.
 - As long as the struct has all the methods in the interface, it is said to implement the interface.
-- function `newLife` takes `marriage` interface as an argument.
-- It's possible to call the `newLife` function with `john` and `max` structs.
+- The function `newLife` takes a `marriage` interface as an argument.
+- It's possible to call the `newLife` function with the `john` and `max` structs.
 
-The advantage of using an interface is that any struct can be passed to the `newLife` function as long as it implements the `marriage` interface. and it is possible to change the implementation of the `love` and `arranged` methods in the `john` and `max` structs without affecting the `newLife` function.
+The advantage of using an interface is that any struct can be passed to the `newLife` function as long as it implements the `marriage` interface. It is possible to change the implementation of the `love` and `arranged` methods in the `john` and `max` structs without affecting the `newLife` function.
 
 It is also possible to make a new type and `newLife` can use it without changing the `newLife` function as long as the new type implements the `marriage` interface.
 
@@ -134,7 +130,7 @@ package main
 
 import "fmt"
 
-// any type that need to implement marriage should also implement all methods of dating
+// Any type that needs to implement marriage should also implement all methods of dating.
 type marriage interface {
     dating
     love()
