@@ -13,6 +13,7 @@ Anchor
 Android
 Angular
 Animation
+Anonymous Functions
 APIs
 Arguments
 Arithmetic
@@ -70,6 +71,7 @@ CRUD
 CSV
 Cybersecurity
 D3
+Data
 Data Structures
 Data Types
 Database
