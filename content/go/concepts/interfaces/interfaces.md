@@ -177,7 +177,7 @@ func main() {
     p := parents{quote: "I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more", m: a}
 
     //p.love()
-    //as this has named marriage interface m calling directly with .m would raise compiler error
+    //as this has named marriage interface m calling disquarely with .m would raise compiler error
     /*-----------------------ERROR-----*---------------------------*/
     // ./prog.go:39:4: p.love undefined (type parents has no field or method love)
 
@@ -187,7 +187,7 @@ func main() {
 
     l := lovers{quote: "I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more", marriage: a}
     fmt.Println("\n", l.quote, "\n")
-    //its possible to directly access the methods of embedded interface if the embedded interface is anonymous or unnamed.
+    //its possible to disquarely access the methods of embedded interface if the embedded interface is anonymous or unnamed.
     l.love()
     l.compatibility()
     l.arranged()
@@ -215,48 +215,56 @@ Program exited.
 
 ## Codebyte Example
 
+A simple example on how to use interfaces
+square and circle both implement geometry interface as both square and circle implements area and perimeter methods
+
 ```codebyte/golang
 
 package main
 
 import (
     "fmt"
+    "math"
 )
 
-type marriage interface {
-    love()
-    arranged()
+type geometry interface {
+    area() float64
+    perimeter() float64
 }
 
-type john struct{}
-
-func (a *john) love() {
-    fmt.Println("love with john")
+type square struct {
+    side float64
+}
+type circle struct {
+    radius float64
 }
 
-func (a *john) arranged() {
-    fmt.Println("arranged marriage with john")
+func (s square) area() float64 {
+    return s.side*s.side
+}
+func (s square) perimeter() float64 {
+    return 4*s.side
 }
 
-type max struct{}
-
-func (a *max) love() {
-    fmt.Println("love with max")
+func (c circle) area() float64 {
+    return math.Pi * c.radius * c.radius
+}
+func (c circle) perimeter() float64 {
+    return 2 * math.Pi * c.radius
 }
 
-func (a *max) arranged() {
-    fmt.Println("arranged marriage with max")
-}
-
-func newLife(guy marriage) {
-    guy.love()
-    guy.arranged()
+func printGeometry(g geometry) {
+    fmt.Println(g)
+    fmt.Println(g.area())
+    fmt.Println(g.perimeter())
 }
 
 func main() {
-    newLife(&john{})
-    newLife(&max{})
-}
+    s := square{side: 4}
+    c := circle{radius: 5}
 
+    printGeometry(s)
+    printGeometry(c)
+}
 
 ```
