@@ -12,7 +12,6 @@ Tags:
   - 'SQLite'
   - 'Tables'
 CatalogContent:
-  - 'learn-sql'
   - 'paths/analyze-data-with-sql'
 ---
 
