@@ -7,7 +7,7 @@ Subjects:
 Tags:
   - 'Markdown'
   - 'GitHub'
-  - 'Documentation' 
+  - 'Documentation'
 CatalogContent:
   - 'learn-html'
   - 'paths/front-end-engineer-career-path'
