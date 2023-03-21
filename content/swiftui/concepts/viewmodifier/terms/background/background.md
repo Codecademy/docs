@@ -54,11 +54,11 @@ var body: some View {
 }
 ```
 
-In the above example, a `Text` view ia displaying the string `"I have an Indigo background!"`. The `.padding()` modifier adds space around the text, while `.foregroundColor()` sets the text color to white.
+In the above example, a `Text` view is displaying the string `"I have an Indigo background!"`. The `.padding()` modifier adds space around the text, while `.foregroundColor()` sets the text color to white.
 
 The `.background()` modifier is then applied with the `Color.indigo` value passed in as the content parameter, to give the view an indigo background.
 
-Finally, a corner radius of 12 points is applied to the view using the `.cornerRadius()` modifier. This creates a view with an indigo background, white text, and rounded corners.
+Finally, a corner radius of `12` points is applied to the view using the `.cornerRadius()` modifier. This creates a view with an indigo background, white text, and rounded corners.
 
 This will display:
 
