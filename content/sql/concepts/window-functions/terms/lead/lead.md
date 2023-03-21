@@ -41,5 +41,47 @@ The third argument will be `NULL` by default.
 
 ## Example
 
+Suppose there's a `yearly_sales` table like this:
+
+| month | sales |
+| ----- | ----- |
+| 1     | 1000  |
+| 2     | 500   |
+| 3     | 750   |
+| 4     | 800   |
+| 5     | 500   |
+| 6     | 400   |
+| 7     | 300   |
+| 8     | 500   |
+| 9     | 700   |
+| 10    | 800   |
+| 11    | 1000  |
+| 12    | 1250  |
+
+By running this query, we can get the next month's sales for every month, with the last month having "NA" as its value. 
+
 ```sql
+SELECT month,
+  sales,
+  LEAD(sales, 1, "NA") OVER(
+    ORDER BY month
+  ) AS next_month_sales
+FROM yearly_sales;
 ```
+
+This will be the output:
+
+| month | sales | next_month_sales
+| ----- | ----- | ----------------
+| 1     | 1000  | 500
+| 2     | 500   | 750
+| 3     | 750   | 800
+| 4     | 800   | 500
+| 5     | 500   | 400
+| 6     | 400   | 300
+| 7     | 300   | 500
+| 8     | 500   | 700
+| 9     | 700   | 800
+| 10    | 800   | 1000
+| 11    | 1000  | 1250
+| 12    | 1250  | NA
