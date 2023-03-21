@@ -29,7 +29,7 @@ View
 
 This method has one required parameter:
 
-- `content`: The view to use as the background.
+- `Content`: The view to use as the background.
 
 Additionally, there are a few optional parameters:
 
