@@ -16,18 +16,16 @@ CatalogContent:
 
 The `COUNT()` aggregate function returns the total number of rows that match the specified criteria.
 
-* 'COUNT()'
-`COUNT()` is a function that takes the name of a column as an argument and counts the number of rows where the column is not `NULL`. The `COUNT(column_name)` counts non `NULL` values in that column.
-
-* COUNT(\*) and COUNT(1)
-When * or 1 are used as an argument of 'COUNT()', that counts the number of all rows including `NULL`.
-
 ## Syntax
 
 ```sql
 SELECT COUNT(column_name)
 FROM table_name;
 ```
+
+`COUNT()` takes the name of a column as an argument and counts the number of rows where the column is not `NULL`. The non `NULL` values are counted in the column that passed in using the `column_name`.
+
+When `*` or `1` are passed as an argument into `COUNT()`, the number of all rows, not excluding `NULL`, are included in the count.
 
 ## Example
 
@@ -43,35 +41,26 @@ Suppose there's an `employees` table with the following values:
 To find the total number of rows in the `employees` table that has experience, the given query can be used:
 
 ```sql
-SELECT COUNT("experience")
+SELECT COUNT(experience)
 FROM employees;
 ```
 
 The result would be:
 
-| COUNT("experience") |
-| --------- |
-| 3         |
+| COUNT(experience) |
+| ----------------- |
+| 3                 |
 
-
-`COUNT(*)` counts number of rows including `NULL` values. `COUNT(1)` replaces all values including `NULL` with 1, so it counts all records including `NULL` values. Therefore, `COUNT(*)` and `COUNT(1)` have the same results.
+`COUNT(*)` counts number of rows including `NULL` values. `COUNT(1)` replaces all values not excluding `NULL` with 1, so it includes them in the count. Therefore, `COUNT(*)` and `COUNT(1)` have the same results.
 
 To find the total number of rows in the `employees` table, the given query can be used:
 
 ```sql
 SELECT COUNT(*)
 FROM employees;
-```
 
-or
-
-```sql
 SELECT COUNT(1)
 FROM employees;
 ```
 
-The result would be:
-
-| COUNT(\*) |
-| --------- |
-| 4         |
+Both queries above would result in a count of 4.
