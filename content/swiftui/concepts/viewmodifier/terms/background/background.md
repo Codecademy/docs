@@ -21,7 +21,7 @@ The **`.background()`** view modifier in SwiftUI can be used to apply a backgrou
 View
     .background(
         Content,
-        alignment: Alignment = .center,
+        alignment: .alignment,
         blendMode: BlendMode? = nil,
         ignoresSafeAreaEdges: Edge.Set = .init()
     )
