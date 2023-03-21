@@ -51,7 +51,7 @@ The result would be:
 | ----------------- |
 | 3                 |
 
-`COUNT(*)` counts number of rows including `NULL` values. `COUNT(1)` replaces all values not excluding `NULL` with 1, so it includes them in the count. Therefore, `COUNT(*)` and `COUNT(1)` have the same results.
+`COUNT(*)` counts the number of rows including `NULL` values. `COUNT(1)` replaces all values not excluding `NULL` with 1, so it includes them in the count. Therefore, `COUNT(*)` and `COUNT(1)` have the same results.
 
 To find the total number of rows in the `employees` table, the given query can be used:
 
