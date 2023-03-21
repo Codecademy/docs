@@ -28,6 +28,7 @@ FROM table
 ```
 
 The `ORDER BY` clause is required. You can also add a third, optional argument that sets the value of cells where the target row doesn't exist.
+
 ```pseudo
 SELECT LEAD(column1_name, offset, default) OVER(
   ORDER BY column2_name
