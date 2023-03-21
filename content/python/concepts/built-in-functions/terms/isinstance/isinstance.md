@@ -4,30 +4,28 @@ Description: 'Returns True if the given object is the specified type. Otherwise 
 Subjects:
   - 'Data Science'
   - 'Computer Science'
-  - 'Machine Learning'
-  - 'Web Development'
 Tags:
-  - 'AI'
-  - 'Algorithms'
   - 'Booleans'
   - 'Data Types'
   - 'Development'
-  - 'Objects'
-  - 'Syntax'
 CatalogContent:
-- 'learn-python-3'
-- 'paths/computer-science'
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
-# Description
-The **isinstance()** function determines whether one object is a designated value type. If it is, the function will return `True`, otherwise the function will return `False`.
+The **isinstance()** function determines whether a given object is of a designated value type. If it is, the function will return `True`, otherwise the function will return `False`.
 
-# Syntax
-```py
+## Syntax
+
+```pseudo
 isinstance(object, class)
 ```
 
-# Example
+- `object` is the object, or a reference to the object, to be tested.
+- `class` is the type the function will use in this assertion (e.g. list, set, etc.).
+
+## Example
+
 ```py
 var1 = "Hello World!"
 var2 = 123
@@ -37,19 +35,14 @@ def check_if_string(value):
         print(f'{value} is a string type.')
     else:
         print(f'{value} is not a string.')
-    
+
 check_if_string(var1)
 check_if_string(var2)
 ```
 
 This example results in the following output:
 
-```py
-True
-False
+```shell
+Hello World! is a string type.
+123 is not a string.
 ```
-
-The example below demonstrates the use of the `isinstance()` method to test if multiple objects are of type `str`:
-
-
- 
