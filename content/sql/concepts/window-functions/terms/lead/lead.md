@@ -5,12 +5,10 @@ Subjects:
   - 'Data Science'
   - 'Computer Science'
 Tags:
-  - 'Database'
-  - 'Queries'
+  - 'Functions'
   - 'PostgreSQL'
   - 'MySQL'
   - 'SQLite'
-  - 'Tables'
 CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
