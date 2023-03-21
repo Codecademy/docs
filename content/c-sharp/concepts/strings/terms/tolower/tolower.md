@@ -19,7 +19,6 @@ The **`ToLower()`** method is a string method in C# that returns a new string in
 ```pseudo
 string lowerCaseString = originalString.ToLower();
 ```
-
 Here, `originalString` is the string being converted to lowercase, and `lowerCaseString` is the new string that contains the lowercase characters.
 
 ## Example
