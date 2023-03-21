@@ -23,7 +23,7 @@ The **`LEAD()`** window function takes a column and a positive integer offset as
 SELECT LEAD(column1_name, offset) OVER(
   ORDER BY column2_name
 )
-FROM table
+FROM table;
 ```
 
 The `ORDER BY` clause is required. You can also add a third, optional argument that sets the value of cells where the target row doesn't exist.
@@ -32,7 +32,7 @@ The `ORDER BY` clause is required. You can also add a third, optional argument t
 SELECT LEAD(column1_name, offset, default) OVER(
   ORDER BY column2_name
 )
-FROM table
+FROM table;
 ```
 
 The third argument will be `NULL` by default.
