@@ -22,7 +22,6 @@ Math.Atan(x);
 - The `Math.Atan()` method takes one double as an argument and returns a double.
 - Using this method requires the `System` namespace.
 
-
 ## Example
 
 The following example uses `Math.Atan()` to return the arctangent of a right angled triangle, where the side opposite the angle is equal to 3, and the side adjacent is 4.
