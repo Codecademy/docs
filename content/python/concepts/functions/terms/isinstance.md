@@ -16,8 +16,6 @@ CatalogContent:
 
 The **isinstance()** function determines whether one object is a designated value type. If it is, the function will return `True`, otherwise the function will return `False`.
 
-## Example
-
 ## Syntax
 
 ```pseudo
@@ -26,7 +24,9 @@ isinstance(object, type)
 
 [Python Data Types](https://www.codecademy.com/resources/docs/python/data-types)
 
-The example below demonstrates the use of the `isinstance()` method to test if multiple objects are of type `str`:
+The example below demonstrates the use of the `isinstance()` function to test if multiple objects are of type `str`:
+
+## Example
 
 ```py
 var1 = "Hello World!"
@@ -45,6 +45,6 @@ check_if_string(var2)
 This example results in the following output:
 
 ```shell
-True
-False
+Hello World! is a string type.
+123 is not a string.
 ```
