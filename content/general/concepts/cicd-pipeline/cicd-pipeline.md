@@ -20,5 +20,6 @@ The **CICD Pipeline** is the combination of continuous integration, delivery and
 
 2. **Build** - The process of using code from the repository to link necessary dependencies and libraries to "build" an executable file. Scripts can be utilized to convert the file in to a Virtual Machine or Container. Logs generated during this time are used to find errors and send notifications to developers when the build is complete. 
 
-3. Test
+3. **Test** - Automated testing tools confirm the build is working and any new additons are not causing disruptions to a previous working version. If there are any errors, the test results are sent back to the developers to fix. 
+
 4. Deploy
