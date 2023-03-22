@@ -1,6 +1,6 @@
 ---
 Title: 'Semantic HTML'
-Description: 'Semantic HTML is the use of HTML tags that represent the content so that browsers can appropriately parse a site's content.'
+Description: 'Semantic HTML is the use of HTML tags that represent the content so that browsers can appropriately parse the content of the site.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
