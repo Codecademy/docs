@@ -16,8 +16,6 @@ CatalogContent:
 
 The **isinstance()** function determines whether one object is a designated value type. If it is, the function will return `True`, otherwise the function will return `False`.
 
-## Example
-
 ## Syntax
 
 ```pseudo
