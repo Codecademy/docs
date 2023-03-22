@@ -26,7 +26,7 @@ isinstance(object, type)
 
 ## Example
 
-The example below demonstrates the use of the `isinstance()` method to test if multiple objects are of type `str`:
+The example below demonstrates the use of the `isinstance()` function to test if multiple objects are of type `str`:
 
 ```py
 var1 = "Hello World!"
