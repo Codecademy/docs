@@ -72,9 +72,9 @@ a vector to the point (4, 3) is: 0.643501108793284,
 which is equivalent to 36.869897645844 degrees.
 ```
 
-## Codebyte example
+## Codebyte Example
 
-The following is a runnable example. Try changing the values of the variables to see different results:
+The following is a runnable example. Changing the values of the variables will yield different results:
 
 ```codebyte/csharp
 using System;
