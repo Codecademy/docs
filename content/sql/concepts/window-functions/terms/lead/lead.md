@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-The **`LEAD()`** window function takes a column and a positive integer offset as arguments and returns the value of the cell in that column that is the specified number of rows after the current row. A third argument can be added to fill cells that don't have a corresponding row.
+The **`LEAD()`** window function takes a column and a positive integer offset as arguments and returns the value of the cell in that column that is the specified number of rows after the current row. A third argument can be added to fill cells that do not have a corresponding row.
 
 ## Syntax
 
@@ -24,7 +24,7 @@ SELECT LEAD(column1_name, offset) OVER(
 FROM table;
 ```
 
-The `ORDER BY` clause is required. You can also add a third, optional argument that sets the value of cells where the corresponding row doesn't exist.
+The `ORDER BY` clause is required. You can also add a third, optional argument that sets the value of cells where the corresponding row does not exist.
 
 ```pseudo
 SELECT LEAD(column1_name, offset, default) OVER(
@@ -33,9 +33,9 @@ SELECT LEAD(column1_name, offset, default) OVER(
 FROM table;
 ```
 
-The third argument will be `NULL` by default.s
+The third argument will be `NULL` by default.
 
-When using `LEAD()` with partitions, any cells with a corresponding row in another partition will be filled with a default value. Think of it as treating each partition as a separate table.
+When using `LEAD()` with partitions, any cells with a corresponding row in another partition will be filled with the default value. Think of it as treating each partition as a separate table.
 
 ## Example
 
