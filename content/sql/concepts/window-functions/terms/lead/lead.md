@@ -15,10 +15,6 @@ CatalogContent:
 
 The **`LEAD()`** window function takes a column and a positive integer offset as arguments and returns the value of the cell in that column that is the specified number of rows after the current row. A third argument can be added to fill cells that don't have a corresponding row.
 
-## Partitions
-
-When using `LEAD()` with partitions, any cells with a corresponding row in another partition will be filled with a default value. Think of it as treating each partition as a separate table.
-
 ## Syntax
 
 ```pseudo
@@ -37,7 +33,9 @@ SELECT LEAD(column1_name, offset, default) OVER(
 FROM table;
 ```
 
-The third argument will be `NULL` by default.
+The third argument will be `NULL` by default.s
+
+When using `LEAD()` with partitions, any cells with a corresponding row in another partition will be filled with a default value. Think of it as treating each partition as a separate table.
 
 ## Example
 
