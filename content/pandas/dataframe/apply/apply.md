@@ -86,7 +86,6 @@ dtype: int64
 
 type of x: 
 <class 'pandas.core.series.Series'>
-So you can find it returns 'Series'.
 
 
 'Y':
