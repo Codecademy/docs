@@ -17,7 +17,7 @@ The **`LEAD()`** window function takes a column and a positive integer offset as
 
 ## Partitions
 
-Any cells with a corresponding row in another partition will be filled with a default value. Think of it as treating each partition as a separate table.
+When using `LEAD()` with partitions, any cells with a corresponding row in another partition will be filled with a default value. Think of it as treating each partition as a separate table.
 
 ## Syntax
 
@@ -41,7 +41,7 @@ The third argument will be `NULL` by default.
 
 ## Example
 
-Suppose there's a `yearly_sales` table like this:
+Suppose there's a `yearly_sales` table that looks like this:
 
 | month | sales |
 | ----- | ----- |
