@@ -1,6 +1,6 @@
 ---
 Title: 'Semantic HTML'
-Description: 'Semantic HTML is the use of HTML tags that are representative of the content, so that browsers can appropriately parse the content of a site.'
+Description: 'Semantic HTML is the use of HTML tags that represent the content so that browsers can appropriately parse a site's content.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**Semantic HTML** is the use of HTML tags that are representative of the content, so that browsers can appropriately parse the content of a site. This is beneficial as it ensures that content can be described accurately for those that rely on accessibility features.
+**Semantic HTML** is the use of HTML tags that represent the content so that browsers can appropriately parse a site's content. This is beneficial as it ensures that content can be described accurately for those that rely on accessibility features.
 
 ## Non-Semantic Tags
 
@@ -22,4 +22,4 @@ Tags such as a `<div>` or `<span>` represent non-semantic HTML: these tags do no
 
 ## Semantic Tags
 
-Semantic tags are those that are designated for a specific purpose such as `<header>` or `<figure>`, which is communicated by the tag name. In addition to providing better clarity to the organization and content of a page semantic tags enable additional features for accessibility. For example, the use of the `<button>` tag for controlling any embedded media also allows for navigation, and use of the button via keyboard.
+Semantic tags, such as `<header>` or `<figure>`, are designated for a specific purpose, which is communicated by the tag name. In addition to providing better clarity to the organization and content of a page, semantic tags enable additional features for accessibility. For example, using the `<button>` tag for controlling any embedded media also allows for navigation, and use of the button via keyboard.
