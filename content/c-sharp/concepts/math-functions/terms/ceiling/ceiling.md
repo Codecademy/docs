@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Math.Ceiling()** is a class method that always rounds up to the next full integer. It is used to return the smallest integer greater than or equal to the specified number.
+**`Math.Ceiling()`** is a class method that always rounds up to the next full integer. It is used to return the smallest integer greater than or equal to the specified number.
 
 ## Syntax
 
@@ -54,12 +54,12 @@ The following example is runnable and uses the `Math.Ceiling()` method to return
 ```codebyte/csharp
 using System;
 
-public class Floor {
-    public static void Main() {
-      double number = 3.14159;
-      double ceiling = Math.Ceiling(number);
+public class Example {
+  public static void Main() {
+    double number = 3.14159;
+    double ceiling = Math.Ceiling(number);
 
-      Console.WriteLine("The ceiling value of " + number + " is " + ceiling);
-    }
+    Console.WriteLine("The ceiling value of " + number + " is " + ceiling);
+  }
 }
 ```

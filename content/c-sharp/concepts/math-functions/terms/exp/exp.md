@@ -83,12 +83,12 @@ The following example is runnable and uses the `Math.Exp()` method to return the
 ```codebyte/csharp
 using System;
 
-public class Floor {
-    public static void Main() {
-      double number = 0;
-      double exponential = Math.Exp(number);
+public class Example {
+  public static void Main() {
+    double number = 0;
+    double exponential = Math.Exp(number);
 
-      Console.WriteLine("The value of e raised to the power of " + number + " is " + exponential);
-    }
+    Console.WriteLine("The value of e raised to the power of " + number + " is " + exponential);
+  }
 }
 ```

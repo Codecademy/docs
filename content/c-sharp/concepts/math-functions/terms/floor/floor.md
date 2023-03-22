@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Math.Floor()** is a static method that always rounds down and returns the largest whole integer which is less than or equal to the given number.
+**`Math.Floor()`** is a static method that rounds down and returns the largest whole integer that is less than or equal to the given number.
 
 ## Syntax
 
@@ -21,7 +21,7 @@ CatalogContent:
 Math.Floor(x);
 ```
 
-- The `Math.Floor()` method is used to find the largest whole integer which is less than or equal to the argument, `x`, that is passed in. The argument can be of a float or double type.
+- The `Math.Floor()` method is used to find the largest whole integer that is less than or equal to the argument, x, passed in. The argument can be of a `float` or `double` type.
 - The `System` namespace is required to access this method.
 
 ## Example
@@ -52,12 +52,12 @@ The following example is runnable and uses the `Math.Floor()` method to return t
 ```codebyte/csharp
 using System;
 
-public class Floor {
-    public static void Main() {
-      double number = 3.14159;
-      double floor = Math.Floor(number);
+public class Example {
+  public static void Main() {
+    double number = 3.14159;
+    double floor = Math.Floor(number);
 
-      Console.WriteLine("The floor value of " + number + " is " + floor);
-    }
+    Console.WriteLine("The floor value of " + number + " is " + floor);
+  }
 }
 ```
