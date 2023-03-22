@@ -24,6 +24,8 @@ isinstance(object, type)
 
 [Python Data Types](https://www.codecademy.com/resources/docs/python/data-types)
 
+## Example
+
 The example below demonstrates the use of the `isinstance()` method to test if multiple objects are of type `str`:
 
 ```py
