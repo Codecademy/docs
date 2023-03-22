@@ -8,7 +8,7 @@ Tags:
   - 'Methods'
   - 'Numbers'
   - 'Arithmetic'
-  - 'Functions' 
+  - 'Functions'
 CatalogContent:
   - 'learn-c-sharp'
   - 'paths/computer-science'
@@ -22,7 +22,7 @@ The **`Math.Sin()`** class method returns the sine of a given angle.
 Math.Sin(angle);
 ```
 
-The `Math.Sin()` method takes only one parameter, `angle`, an angle in radians of type `double`. The method returns the sine of the `angle` as a `double` value  or `NaN` (not a number) if the value of `angle` equals:
+The `Math.Sin()` method takes only one parameter, `angle`, an angle in radians of type `double`. The method returns the sine of the `angle` as a `double` value or `NaN` (not a number) if the value of `angle` equals:
 
 - `NaN`
 - `NegativeInfinity`
@@ -31,8 +31,6 @@ The `Math.Sin()` method takes only one parameter, `angle`, an angle in radians o
 ## Example
 
 The following example first converts `30` degrees to radians, then uses the `Math.Sin()` method to return the sine of that angle. Finally, the `Console.WriteLine()` function prints the result to the console:
-
-> **Note:** Depending on the operating system or architecture, the exact result or the input range of the `Math.Sin()` method may differ due to the differences in the C runtime environment.
 
 ```cs
 using System;
