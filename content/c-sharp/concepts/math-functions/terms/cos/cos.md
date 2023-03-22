@@ -8,7 +8,7 @@ Tags:
   - 'Methods'
   - 'Numbers'
   - 'Arithmetic'
-  - 'Functions' 
+  - 'Functions'
 CatalogContent:
   - 'learn-c-sharp'
   - 'paths/computer-science'
@@ -31,8 +31,6 @@ The `Math.Cos()` method takes only one parameter, `angle`, an angle in radians o
 ## Example
 
 The following example first converts `60` degrees to radians, then uses the `Math.Cos()` method to return the sine of that angle. Finally, the `Console.WriteLine()` function prints the result to the console:
-
-> **Note:** Depending on the operating system or architecture, the exact result or the input range of the `Math.Cos()` method may differ due to the differences in the C runtime environment.
 
 ```cs
 using System;
