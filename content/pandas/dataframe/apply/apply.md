@@ -22,7 +22,7 @@ x = dataframevalue.apply(func, axis=0, raw=False, result_type=None, args=(), **k
 ```
 - `dataframevalue` is the DataFrame with the source data.
 - x means `return value`, a DataFrame or a Series object, with the changes.
-- This function does `NOT` make changes to the original DataFrame object. You can save its result to a varible, like `x` here.
+- This function does `NOT` make changes to the original DataFrame object. The result is saved to a variable, like `x` here.
 
 
 `DataFrame.apply()` has the following parameters:
