@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The apply() method allows you to apply a function along an axis of the DataFrame. Default 0, which is the index(row) axis. Objects passed to the function are Series objects whose index is either the DataFrame’s index (axis=0) or the DataFrame’s columns (axis=1). By default (result_type=None), the final return type is inferred from the return type of the applied function. Otherwise, it depends on the result_type argument.
+The apply() method allows you to apply a function along an axis of the DataFrame. The default is axis 0, which is the index (row) axis. Objects passed to the function are Series objects whose index is either the DataFrame’s index (axis=0) or the DataFrame’s columns (axis=1). By default (`result_type`=None), the final return type is inferred from the return type of the applied function. Otherwise, it depends on the `result_type` argument.
 
 ## Syntax
 
