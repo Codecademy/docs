@@ -95,11 +95,25 @@ Feel free to add suggestions for new slugs to the lists as part of your PR! Be s
 - 'paths/front-end-engineer-career-path'
 ```
 
+### Kotlin
+
+```
+- 'learn-kotlin'
+- 'paths/computer-science'
+```
+
 ### Markdown
 
 ```
 - 'learn-html'
 - 'paths/front-end-engineer-career-path'
+```
+
+### Open Source
+
+```
+- 'introduction-to-open-source'
+- 'paths/code-foundations'
 ```
 
 ### PHP
@@ -113,6 +127,51 @@ Feel free to add suggestions for new slugs to the lists as part of your PR! Be s
 
 ```
 - 'learn-python-3'
+- 'paths/computer-science'
+```
+
+### Python:Matplotlib
+
+```
+- 'learn-python-3'
+- 'paths/computer-science'
+- 'paths/data-science'
+- 'paths/data-science-foundations'
+```
+
+### Python:Numpy
+
+```
+- 'learn-python-3'
+- 'paths/computer-science'
+- 'paths/data-science'
+- 'paths/data-science-foundations'
+```
+
+### Python:Pandas
+
+```
+- 'learn-python-3'
+- 'paths/computer-science'
+- 'paths/data-science'
+- 'paths/data-science-foundations'
+```
+
+### Python:Seaborn
+
+```
+- 'learn-python-3'
+- 'paths/computer-science'
+- 'paths/data-science'
+- 'paths/data-science-foundations'
+```
+
+### R
+
+```
+- 'learn-r'
+- 'paths/data-science'
+- 'paths/data-science-foundations'
 - 'paths/computer-science'
 ```
 
@@ -136,9 +195,18 @@ Feel free to add suggestions for new slugs to the lists as part of your PR! Be s
 ```
 - 'learn-sql'
 - 'paths/analyze-data-with-sql'
+- 'paths/data-science'
+- 'paths/data-science-foundations'
 ```
 
 ### Swift
+
+```
+- 'learn-swift'
+- 'paths/build-ios-apps-with-swiftui'
+```
+
+### SwiftUI
 
 ```
 - 'learn-swift'

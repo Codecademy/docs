@@ -17,18 +17,18 @@ The **`.indexOf()`** method returns the first index at which an element can be f
 
 ## Syntax
 
-```js
-array.indexOf(searchElement, startIndex);
+```pseudo
+array.indexOf(element, startIndex);
 ```
 
-- `searchElement`: The element we are looking for.
-- `startIndex`: The index position to begin search from. Optional.
+The following parameters are used in the `.indexOf()` method:
 
-A negative `startIndex` will offset from the end of the array to begin search.
+- The `element` to be searched for in the `array`.
+- The optional `startIndex` position to begin searching from. If one is not given, the search starts from the beginning of the array. Negative indices will offset from the end of the `array`.
 
 ## Examples
 
-In the example below, the index for the number 12 is logged to the console:
+In the example below, the index for the number `12` is logged to the console:
 
 ```js
 const numbers = [6, 12, 8, 10];
@@ -48,7 +48,7 @@ console.log(indexOfPineapple);
 // Output: -1
 ```
 
-Check if color `'blue'` is in the `colors` array and after the first element:
+Check if color `'blue'` is in the `colors` array starting with the second element:
 
 ```js
 const colors = ['blue', 'orange', 'pink', 'yellow', 'teal'];
