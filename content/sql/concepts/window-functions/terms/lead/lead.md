@@ -24,7 +24,7 @@ SELECT LEAD(column1_name, offset) OVER(
 FROM table;
 ```
 
-The `ORDER BY` clause is required. You can also add a third, optional argument that sets the value of cells where the corresponding row does not exist.
+The `ORDER BY` clause is required. There is also a third, optional argument that sets the value of cells where the corresponding row does not exist.
 
 ```pseudo
 SELECT LEAD(column1_name, offset, default) OVER(
@@ -56,7 +56,7 @@ Suppose there's a `yearly_sales` table that looks like this:
 | 11    | 1000  |
 | 12    | 1250  |
 
-By running this query, we can get the next month's sales for every month, with the last month having "NA" as its value. 
+Running the following query shows the next month's sales for every month, with the last month having "NA" as its value.
 
 ```sql
 SELECT month,
