@@ -97,7 +97,6 @@ dtype: int64
 
 type of y: 
 <class 'pandas.core.series.Series'>
-'y' is same with 'x'. So the default vault of axis is '0'.
 
 
 'z':
