@@ -109,7 +109,6 @@ dtype: int64
 
 type of z:
 <class 'pandas.core.series.Series'>
-'z' is different with "y". so you can see how 'axis = 1' takes effects.
 
 
 'l':
