@@ -23,7 +23,7 @@ The **`.Replace()`** method when applied to the string gives back a new string w
 myString.Replace(char oldChar, char newChar);
 
 // Replaces old string with new string.
-String.Replace(string oldString, string newString);
+myString.Replace(string oldString, string newString);
 ```
 
 The `.Replace()` method takes the original string returns a new string with the following changes in it:
