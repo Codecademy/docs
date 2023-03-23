@@ -35,7 +35,7 @@ The `.Replace()` method takes the original string returns a new string with the 
 
 > **Note:** If `newChar` or `newString` is `null`, than all occurances of `oldChar` or `oldString` are removed.
 
-> **Note:** The `.Replace()` method does not modify the original `string`. It always produces the new string.
+> **Note:** The `.Replace()` method does not modify the original `string`. It always produces a new string.
 
 ## Example 1
 
