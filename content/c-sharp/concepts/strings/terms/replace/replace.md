@@ -10,7 +10,7 @@ Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/
   - 'Methods'
   - 'Characters'
 CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
-  - 'Learn C#'
+  - 'learn-c-sharp'
   - 'https://www.codecademy.com/learn/learn-c-sharp'
 ---
 
