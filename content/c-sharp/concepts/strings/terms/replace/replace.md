@@ -1,6 +1,6 @@
 ---
 Title: '.Replace()' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'The .Replace() method when applied to the string gives back a new string where every instance of a certain character or string in the original string is swapped with a different specified character or string.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
+Description: 'Returns a new string where every instance of a certain character or string in the original string is swapped with a different specified character or string.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
 Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
   - 'Computer Science'
   - 'Web Design'
