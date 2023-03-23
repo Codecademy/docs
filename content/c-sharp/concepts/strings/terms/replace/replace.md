@@ -11,7 +11,7 @@ Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/
   - 'Characters'
 CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
   - 'learn-c-sharp'
-  - 'https://www.codecademy.com/learn/learn-c-sharp'
+  - 'paths/computer-science'
 ---
 
 The **`.Replace()`** method when applied to the string gives back a new string where every instance of a certain character or string in the original string is swapped with a different specified character or string.
