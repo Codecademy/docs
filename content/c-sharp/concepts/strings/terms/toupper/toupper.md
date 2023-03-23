@@ -20,8 +20,7 @@ The **`.ToUpper()`** method is a method in C# that takes a string and returns a 
 somestring.ToUpper()
 ```
 
-This method will not change the input string.
-
+> **Note:** This method will not change the input string.
 
 ## Example
 
@@ -34,7 +33,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        originalString = "Hello World"
+        string originalString = "Hello World";
 
         string uppercaseString = originalString.ToUpper();
 
