@@ -57,7 +57,7 @@ New string: "A,B,C,D,E,F,G,H,I"
 
 ## Example 2
 
-The following example takes the `string` named `wrongString`, replaces the word `fourth` with the word `third`, and returns the new `string` named `wrightString`.
+The following example takes the `string` named `wrongString`, replaces the word `fourth` with the word `third`, and returns the new `string` named `rightString`.
 
 ```cs
 string wrongString = "Earth is the fourth planet from the Sun.";
