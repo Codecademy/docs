@@ -12,9 +12,9 @@ CatalogContent:
   - 'learn-the-command-line'
 ---
 
-Pull requests (PRs) are used to recommend the merging of code from one branch into a different branch. PRs are a core tool in open-source software development as it allows developers to propose changes to large, open-source codebases.
+Pull requests (PRs) are used to recommend the merging of code from one [branch](https://www.codecademy.com/resources/docs/git/branch) into a different branch. PRs are a core tool in open-source software development as it allows developers to propose changes to large, open-source codebases.
 
-After reviewing, if the changes are approved by author(s)/collaborators of the repository, they are merged into the base branch (this is usually named the `main` branch). If the changes are not approved, the maintainer(s) may either ask the requester for additional changes or decline the PR altogether.
+After reviewing, if the changes are approved by the author(s)/collaborators of the repository, they are merged into the base branch (this is usually named the `main` branch). If the changes are not approved, the maintainer(s) may either ask the requester for additional changes or decline the PR altogether.
 
 PRs are featured on popular version control platforms such as [GitHub](https://github.com/) and [GitLab](https://about.gitlab.com/).
 
@@ -25,7 +25,7 @@ The prerequisites for creating a PR and contributing to a project are:
 1. Fork the project.
 2. Clone the forked repository to local machine.
 3. Create, and switch into, a new branch.
-4. Add, commit, and push the changes back to repository.
+4. Add, commit, and push the changes back to the repository.
 
 With the newly added changes pushed, open the web page of the repository. There should be a button that says "Create Pull Request" placed somewhere, similar to the image below.
 
