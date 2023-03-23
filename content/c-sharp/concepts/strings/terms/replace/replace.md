@@ -20,7 +20,7 @@ The **`.Replace()`** method when applied to the string gives back a new string w
 
 ```
 // Replaces old character with new character.
-String.Replace(char oldChar, char newChar);
+myString.Replace(char oldChar, char newChar);
 
 // Replaces old string with new string.
 String.Replace(string oldString, string newString);
