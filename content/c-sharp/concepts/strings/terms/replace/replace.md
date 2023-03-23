@@ -70,7 +70,7 @@ It produces the following output to the console:
 
 ```cs
 Wrong statement is: Earth is the fourth planet from the Sun.
-Wright statement is: Earth is the third planet from the Sun.
+Right statement is: Earth is the third planet from the Sun.
 ```
 
 Interested in helping build Docs? Read the [Contribution Guide](https://github.com/Codecademy/docs/blob/main/.github/CONTRIBUTING.md) or share your thoughts in this [feedback form](https://codecademyready.typeform.com/to/hzVIWDgz).
