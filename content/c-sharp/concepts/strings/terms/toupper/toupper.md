@@ -1,6 +1,6 @@
 ---
-Title: '.ToLower()'
-Description: 'The ToUpper() method is used to convert all the characters in a given string to uppercase.'
+Title: '.ToUpper()'
+Description: 'Returns a new string in all uppercase characters based on the passed string.'
 Subjects:
 - 'Computer Science'
 - 'Code Foundations'
@@ -12,43 +12,50 @@ Subjects:
 - 'paths/computer-science'
 ---
 
-The **`ToUpper()`** method is a method in C# that takes a string and returns a copy of this string converted to uppercase. Numbers and symbols are not changed.
+The **`.ToUpper()`** method is a method in C# that takes a string and returns a copy of this string converted to uppercase. Numbers and symbols are not changed.
 
 ## Syntax
 
 ```pseudo
-string.ToUpper()
+somestring.ToUpper()
 ```
-The .ToUpper() return a new string whose letters are converted to uppercase.
 
 This method will not change the input string.
 
 
 ## Example
 
-In this following example, `originalString` is the string being converted to uppercase, and `uppercaseString` is the new string that contains the uppercase characters. We can see that that the original string remains unchanged:
+In this following example, `originalString` is the string being converted to uppercase, and `uppercaseString` is the new string that contains the uppercase characters. We can see that the original string remains unchanged:
 
 ```cs
-originalString = "Hello World"
+using System;
 
-string uppercaseString = originalString.ToUpper();
+class Program
+{
+    static void Main(string[] args)
+    {
+        originalString = "Hello World"
 
-Console.WriteLine(originalString);
-Console.WriteLine(uppercaseString);
+        string uppercaseString = originalString.ToUpper();
+
+        Console.WriteLine(originalString);
+        Console.WriteLine(uppercaseString);
+    }
+}
 ```
+
 Here is the output:
-```pseudo
+
+```shell
 Hello World
 HELLO WORLD
 ```
 
 ## Codebyte Example
 
-To convert `originalString`, which contains the text *"Hi! I'm Codecademy"*, to uppercase then store in a new string variable named `uppercaseString`:
+The example below converts a given string to uppercase and stores this value in a new string variable named `uppercaseString`:
 
 ```codebyte/csharp
-// This code demonstrates the use of the ToUpper() method in C#
-
 using System;
 
 class Program
