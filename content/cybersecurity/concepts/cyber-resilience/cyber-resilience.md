@@ -15,7 +15,7 @@ CatalogContent:
 
 ## Cyber Resilience In-Use
 
-Becoming cyber resilient is essential to preventing business disruptions that may result from a cybersecurity incident. In order to become cyber resilient, an organization must first consider its current state security posture. Most importantly, the so-called crown jewels (i.e. critical business/service infrastructure) must be identified, prioritized, and protected. Actions such as application control and implementing the principle of least privilege can lessen risk and increase resilience.
+Becoming cyber resilient is essential to preventing business disruptions. In order to become cyber resilient, an organization must first consider its current state security posture. Most importantly, the so-called crown jewels (i.e. critical business/service infrastructure) must be identified, prioritized, and protected. Actions such as application control and implementing the principle of least privilege can lessen risk and increase resilience.
 
 ## Ways to Achieve Cyber Resilience
 
