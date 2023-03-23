@@ -1,6 +1,6 @@
 ---
 Title: 'Cyber Resilience'
-Description: 'Cyber Resilience is the ability of an organization to withstand and recover from cyber incidents.'
+Description: 'Cyber resilience is the ability of an organization to withstand and recover from events that could disrupt the normal operation of computer infrastructures.'
 Subjects:
   - 'Cybersecurity'
 Tags:
