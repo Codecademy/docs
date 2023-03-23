@@ -2,14 +2,14 @@
 Title: '.ToUpper()'
 Description: 'Returns a new string in all uppercase characters based on the passed string.'
 Subjects:
-- 'Computer Science'
-- 'Code Foundations'
-  Tags:
-- 'Strings'
-- 'Methods'
-  CatalogContent:
-- 'learn-c-sharp'
-- 'paths/computer-science'
+  - 'Computer Science'
+  - 'Code Foundations'
+Tags:
+  - 'Strings'
+  - 'Methods'
+CatalogContent:
+  - 'learn-c-sharp'
+  - 'paths/computer-science'
 ---
 
 The **`.ToUpper()`** method is a method in C# that takes a string and returns a copy of this string converted to uppercase. Numbers and symbols are not changed.
