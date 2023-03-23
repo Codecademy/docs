@@ -1,11 +1,13 @@
 ---
-Title: 'Tech Stack'
-Description: 'A tech stack refers to a set of software that work together to build digital products or solutions such as websites or mobile applications.'
+Title: 'Software Stack'
+Description: 'A software stack refers to a set of software that work together to build digital products or solutions such as websites or mobile applications.'
 Subjects:
-  - 'Computer Science'
   - 'Code Foundations'
+  - 'Computer Science'
+  - 'Web Design'
+  - 'Web Development'
 Tags:
-  - 'ASP.NET'
+  - 'Development'
   - 'Frameworks'
   - 'Rails'
 CatalogContent:
@@ -29,20 +31,31 @@ The back-end tech stack is comprised of programming languages, [frameworks](http
 
 ## Common Stacks
 
+Below are some common stacks used to develop fullstack applications.
+
 ### LAMP Stack
 
 The LAMP stack is a popular back-end tech stack used to create web apps. It is one of the oldest tech stacks and provides a collection of software for delivering high-performance web applications. This stack contains the following technologies:
 
-- Linux: An open-source operating system based on the Linux kernel.
+- [Linux](https://www.codecademy.com/resources/docs/open-source/linux): An open-source operating system based on the Linux kernel.
 - Apache: A free and open-source cross-platform web server.
 - MySQL: A relational database management system for storing and manipulating data on the back-end.
-- PHP: A server-side scripting programming language used for creating dynamic web applications.
+- [PHP](https://www.codecademy.com/resources/docs/php): A server-side scripting programming language used for creating dynamic web applications.
 
-### MERN And Alternative Stacks
+### MEXN Stack
 
-MERN is a set of JavaScript-based technologies used in the web application development process. Alternative stacks are the MEVN and MEAN stack. The only difference being Vue.js or Angular.js is used in place of React.js as the front-end technology:
+This well-known tech stack comes in a few forms but all of them use:
 
-- MongoDB: A document database used to build highly available and scalable internet applications.
-- Express(.js): A back-end framework built on Node.js and it provides features for developing mobile and web applications.
-- [React(.js)](https://www.codecademy.com/resources/docs/react)/Vue.js/Angular.js: These are front-end technologies for building user interfaces and single-page applications.
-- Node(.js): A runtime environment that runs JavaScript on the server-side.
+- [MongoDB](https://www.codecademy.com/learn/learn-mongodb) for the databse. It is a document database used to build highly available and scalable internet applications.
+- [Express.js](https://www.codecademy.com/resources/docs/open-source/express) for the back-end. It is a back-end framework built on Node.js and it provides features for developing mobile and web applications.
+- [Node.js](https://www.codecademy.com/resources/docs/open-source/node-js) for the server. It is a runtime environment that runs JavaScript on the server-side.
+
+One of the following front-end frameworks, for building user interfaces and single-page applications, is commonly used in this stack:
+
+- [React.js](https://www.codecademy.com/resources/docs/react) (ME**R**N)
+- [Angular](https://www.codecademy.com/resources/docs/open-source/angular) (ME**A**N
+- [Vue](https://www.codecademy.com/learn/learn-vue-js) (ME**V**N)
+
+### Django Stack
+
+Highlights for this stack include the use of [Django](https://www.codecademy.com/learn/paths/build-python-web-apps-with-django), a popular [Python](https://www.codecademy.com/resources/docs/python) framework that is structured around creating templates. This can be used with a front-end framework like Vue for building a web application.
