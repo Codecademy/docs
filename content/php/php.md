@@ -9,7 +9,7 @@ CatalogContent:
 
 ​​<link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-php-used-for/" />
 
-**PHP** (a recursive acronym for "PHP Hypertext Preprocessor") is a popular [open-source](https://www.codecademy.com/resources/docs/open-source) scripting language widely used as a [server-side](https://www.codecademy.com/resources/docs/general/server-side-rendering) tool for creating dynamic web pages.
+**PHP** (a recursive acronym for "PHP Hypertext Preprocessor") is a popular [open-source](https://www.codecademy.com/resources/docs/open-source) scripting language widely used as a [server-side](https://www.codecademy.com/resources/docs/general/software-stack/server-side-rendering) tool for creating dynamic web pages.
 
 A big part of PHP's value is its use as a dynamic scripting language that works hand-in-hand with [HTML](https://www.codecademy.com/resources/docs/html).
 

@@ -52,6 +52,6 @@ Rails uses a common structural pattern known as the Model-View-Controller (MVC) 
 
 Rails is used across many industries for building web apps and services. This includes applications like marketing websites, content management systems (CMSs), eCommerce sites, and custom web applications. Tasks for working with Rails may include:
 
-- Creating templates that generate web pages for the [front-end](https://www.codecademy.com/resources/docs/general/front-end).
+- Creating templates that generate web pages for the [front-end](https://www.codecademy.com/resources/docs/general/software-stack/front-end).
 - Writing web services that return [JSON](https://www.codecademy.com/resources/docs/general/json) for JS-based front-end applications.
-- Writing [back-end](https://www.codecademy.com/resources/docs/general/back-end) code (on the [server-side](https://www.codecademy.com/resources/docs/general/server-side-rendering)) and front-end code (on the client-side) with [HTML](https://www.codecademy.com/resources/docs/html), [CSS](https://www.codecademy.com/resources/docs/css), and JS.
+- Writing [back-end](https://www.codecademy.com/resources/docs/general/software-stack/back-end) code (on the [server-side](https://www.codecademy.com/resources/docs/general/software-stack/server-side-rendering)) and front-end code (on the client-side) with [HTML](https://www.codecademy.com/resources/docs/html), [CSS](https://www.codecademy.com/resources/docs/css), and JS.

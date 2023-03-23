@@ -16,13 +16,13 @@ CatalogContent:
 
 <link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-back-end/" />
 
-The **back-end** of a program or web application serves data to the [front-end](https://www.codecademy.com/resources/docs/general/front-end) from sources like a [database](https://www.codecademy.com/resources/docs/general/database).
+The **back-end** of a program or web application serves data to the [front-end](https://www.codecademy.com/resources/docs/general/software-stack/front-end) from sources like a [database](https://www.codecademy.com/resources/docs/general/database).
 
 ## Restaurant Analogy
 
 A common analogy for the relationship between the front-end and back-end are customers and employees at a restaurant (representation of the front-end):
 
-- The customer places their order (or "request") with the waiter/waitress (or [server](https://www.codecademy.com/resources/docs/general/server)).
+- The customer places their order (or "request") with the waiter/waitress (or [server](https://www.codecademy.com/resources/docs/general/software-stack/server)).
 - The order is then taken to the kitchen (representation of the back-end).
 - There, the order is prepared (or "processed") with the necessary ingredients (or "data") to produce the expected food item (or "response").
 - Finally, the food item is brought back out to the dining area for the customer.
@@ -32,7 +32,7 @@ A common analogy for the relationship between the front-end and back-end are cus
 Back-end web development can involve a variety of tasks, including:
 
 - Creating, integrating, and managing databases.
-- Using back-end [frameworks](https://www.codecademy.com/resources/docs/general/framework) to build [server-side](https://www.codecademy.com/resources/docs/general/server-side-rendering) software.
+- Using back-end [frameworks](https://www.codecademy.com/resources/docs/general/framework) to build [server-side](https://www.codecademy.com/resources/docs/general/software-stack/server-side-rendering) software.
 - Validating data to make sure it's formatted correctly before being sent to the database.
 - Integrating user-facing elements with server-side elements to make sure that information is being sent to the right place so the server can retrieve it.
 

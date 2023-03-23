@@ -19,15 +19,15 @@ A **technology (or "tech") stack** refers to a set of software that work togethe
 
 ### Front-End Tech Stack
 
-The [front-end](https://www.codecademy.com/resources/docs/general/front-end) is the part of an application the user interacts with. The [UI/UX design](https://www.codecademy.com/resources/docs/uiux) of an application or website should be seamless and straightforward, which is why it is a primary goal of front-end development.
+The [front-end](https://www.codecademy.com/resources/docs/general/software-stack/front-end) is the part of an application the user interacts with. The [UI/UX design](https://www.codecademy.com/resources/docs/uiux) of an application or website should be seamless and straightforward, which is why it is a primary goal of front-end development.
 
 The three major elements that make up the front-end stack are [HTML](https://www.codecademy.com/resources/docs/html), [CSS](https://www.codecademy.com/resources/docs/css), and [JavaScript](https://www.codecademy.com/resources/docs/javascript).
 
 ### Back-End Tech Stack
 
-The [back-end](https://www.codecademy.com/resources/docs/general/back-end), or server-side, refers to parts of an application's code that allow it to operate and handle new and existing data.It is inaccessible to the user. The back-end of an application is where the data and operating syntax are stored and accessed.
+The [back-end](https://www.codecademy.com/resources/docs/general/software-stack/back-end), or server-side, refers to parts of an application's code that allow it to operate and handle new and existing data.It is inaccessible to the user. The back-end of an application is where the data and operating syntax are stored and accessed.
 
-The back-end tech stack is comprised of programming languages, [frameworks](https://www.codecademy.com/resources/docs/general/framework), [databases](https://www.codecademy.com/resources/docs/general/database), and [servers](https://www.codecademy.com/resources/docs/general/server).
+The back-end tech stack is comprised of programming languages, [frameworks](https://www.codecademy.com/resources/docs/general/framework), [databases](https://www.codecademy.com/resources/docs/general/database), and [servers](https://www.codecademy.com/resources/docs/general/software-stack/server).
 
 ## Common Stacks
 

@@ -19,7 +19,7 @@ CatalogContent:
 
 ## History of GraphQL
 
-GraphQL was initially developed by Meta (formerly Facebook) in 2012 to address internal issues with their mobile applications. As an alternative to representational state transfer (REST) architecture, GraphQL became open source in 2015. Consequently, because GraphQL makes data transfers more efficient, it reduced network usage for Meta's mobile applications drastically. Since then, GraphQL has attracted a large number of developers and is becoming increasingly popular for client-[server](https://www.codecademy.com/resources/docs/general/server) communication.
+GraphQL was initially developed by Meta (formerly Facebook) in 2012 to address internal issues with their mobile applications. As an alternative to representational state transfer (REST) architecture, GraphQL became open source in 2015. Consequently, because GraphQL makes data transfers more efficient, it reduced network usage for Meta's mobile applications drastically. Since then, GraphQL has attracted a large number of developers and is becoming increasingly popular for client-[server](https://www.codecademy.com/resources/docs/general/software-stack/server) communication.
 
 ## Why Adopt GraphQL?
 

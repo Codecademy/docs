@@ -12,13 +12,13 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-A **static site generator (SSG)** is a tool used to render webpages on a [server](https://www.codecademy.com/resources/docs/general/server) at build time, before a client makes a request.
+A **static site generator (SSG)** is a tool used to render webpages on a [server](https://www.codecademy.com/resources/docs/general/software-stack/server) at build time, before a client makes a request.
 
 ## Evolution of Webpage Rendering
 
 In the early days of the web, websites were served as static pages in the form of multiple [HTML](https://www.codecademy.com/resources/docs/html) files. A client would make a request to a server and in return, receive a set of unchanging (i.e., static) resources. Any visible changes to the site would need to be made by manually editing the HTML hosted on the server.
 
-However, as the web evolved, websites were no longer limited to providing static content. [Server-side rendering (SSR)](https://www.codecademy.com/resources/docs/general/server-side-rendering) was adopted and allowed for content to be “customized” dynamically. Content management systems (CMSs), such as WordPress and Drupal, employ an SSR approach and were introduced in response to the growing amount of content that needed to be maintained.
+However, as the web evolved, websites were no longer limited to providing static content. [Server-side rendering (SSR)](https://www.codecademy.com/resources/docs/general/software-stack/server-side-rendering) was adopted and allowed for content to be “customized” dynamically. Content management systems (CMSs), such as WordPress and Drupal, employ an SSR approach and were introduced in response to the growing amount of content that needed to be maintained.
 
 ## How SSGs Differ from CMSs
 

@@ -16,13 +16,13 @@ CatalogContent:
 
 <link rel="canonical" href="https://www.codecademy.com/article/what-is-node" />
 
-[**Node.js**](https://nodejs.org/en) (or "Node") is a free, open-source [JavaScript (JS)](https://www.codecademy.com/resources/docs/javascript) runtime environment for [back-end](https://www.codecademy.com/resources/docs/general/back-end) development and building [server-side](https://www.codecademy.com/resources/docs/general/server-side-rendering) or desktop applications.
+[**Node.js**](https://nodejs.org/en) (or "Node") is a free, open-source [JavaScript (JS)](https://www.codecademy.com/resources/docs/javascript) runtime environment for [back-end](https://www.codecademy.com/resources/docs/general/software-stack/back-end) development and building [server-side](https://www.codecademy.com/resources/docs/general/software-stack/server-side-rendering) or desktop applications.
 
 Written in [C](https://www.codecademy.com/resources/docs/c), [C++](https://www.codecademy.com/resources/docs/cpp), and JS, Node.js is built on the open-source [V8](https://v8.dev/) JS engine, used to power browsers such as Google Chrome. As V8 supports new features in JS, they are incorporated into Node.
 
 ## JS and Node.js
 
-JS has existed since 1995 and has since taken over as the dominant language for web development. For much of its life, JS was used mainly for client-side scripting inside [`<script>`](https://www.codecademy.com/resources/docs/html/elements/script) elements executing in web browsers. This limitation meant that developers were often working in many different languages and frameworks between the [front-end](https://www.codecademy.com/resources/docs/general/front-end) (client-side) and back-end (server-side) aspects of a web application.
+JS has existed since 1995 and has since taken over as the dominant language for web development. For much of its life, JS was used mainly for client-side scripting inside [`<script>`](https://www.codecademy.com/resources/docs/html/elements/script) elements executing in web browsers. This limitation meant that developers were often working in many different languages and frameworks between the [front-end](https://www.codecademy.com/resources/docs/general/software-stack/front-end) (client-side) and back-end (server-side) aspects of a web application.
 
 Although there were other projects to bring JS to server-side applications, the functionality took off with the launch of Node.js in 2009. Node allows developers to write server-side JS code that can directly access a computer's operating system and processes such as input/output and file storage.
 
