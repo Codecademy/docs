@@ -72,18 +72,16 @@ func main() {
 Output:
 
 ```shell
-
 love with john
 arranged marriage with john
 love with max
 arranged marriage with max
-
 ```
 
-In the above example,
+In the above example:
 
 - The `marriage` interface has two methods `love` and `arranged`.
-- Structs `john` and `max` implement the `marriage` interface. Note that neither `john` nor `max` has any explicit declaration to implement the interface.
+- `john` and `max` implement the `marriage` interface. Note that neither `john` nor `max` have any explicit declaration to implement the interface.
 - As long as the struct has all the methods in the interface, it is said to implement the interface.
 - The function `newLife` takes a `marriage` interface as an argument.
 - It's possible to call the `newLife` function with the `john` and `max` structs.
