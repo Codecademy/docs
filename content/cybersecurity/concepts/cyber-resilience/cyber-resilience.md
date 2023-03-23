@@ -19,7 +19,7 @@ Becoming cyber resilient is essential to preventing business disruptions. In ord
 
 ## Ways to Achieve Cyber Resilience
 
-In Cybersecurity, some concepts that go into achieving Cyber Resiliency are:
+In cybersecurity, some best practices that contribute to achieving cyber resiliency are:
 - **Redundancy:** Refers to having alternate ways to maintain the availability of a resource.
 - **Replication:** Refers to having multiple copies of the same data available in multiple locations.
 - **Non-Persistence:** Refers to the ability to maintain a system’s integrity despite multiple attempts of changes by the users or attackers. 
