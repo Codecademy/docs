@@ -32,10 +32,11 @@ String.EndsWith(string, comparisonType)
 ```
 
 `.EndsWith()` is a static methid of the `String` object.  It takes the following arguments:
+
 - `char` is a instance of the `Char` structure; represents a single letter
 - `string` is a instance of the `String` object
 - `ignoreCase` is a boolean; if `true` then case is ignored for comparison (e.g., 'a' == 'A')
-- `culture` is an instance of the `CultureInfo` class which includes culture-specific sort order rules
+- `culture` is an instance of the `System.Globalization.CultureInfo` class which includes culture-specific sort order rules
 - `comparisonType` is an element of the `StringComparison` enumeration which encapsulates the case- and culture-specific criteria; available fields include:
   - `CurrentCulture` = use the current culture rules
   - `CurrentCultureIgnoreCase` = use the current culture rules but ignore case
@@ -46,4 +47,80 @@ String.EndsWith(string, comparisonType)
 
 ## Example
 
+The following example initializes the array `sourceArray` and the array `destinationArray`. Using a `foreach` loop, the contents of `destinationArray` are printed to the console:
 
+```cs
+using System;
+using System.Threading;
+
+public class Example 
+{
+    public static void Main() 
+    {
+        string baseString = "AbCdEfG";
+        string compareEnd = "efg";
+
+        bool result;
+
+        // String.EndsWith(string)
+        result = baseString.EndsWith(compareEnd);
+        Console.WriteLine("Simple compare: {0}", result.ToString());
+
+        // String.EndsWith(string, ignoreCase, culture)
+        result = baseString.EndsWith(compareEnd, true, Thread.CurrentThread.CurrentCulture);
+        Console.WriteLine("compare using Case/Culture: {0}", result.ToString());
+
+        // String.EndsWith(string, comparisonType)
+        result = baseString.EndsWith(compareEnd, StringComparison.InvariantCulture);
+        Console.WriteLine("compare using Enumeration: {0}", result.ToString());
+    }
+
+}
+```
+
+This is what is printed to the console:
+
+```shell
+Simple compare: False
+compare using Case/Culture: True
+compare using Enumeration: False
+```
+
+## Codebyte Example
+
+The following codebyte is runnable and shows one of the several overload functions with the `String.EndsWith()` method. In this example, the `months` array is populated with the months of the year, and the `.EndsWith()` method is used to determine the number of months that end in the letter 'y'.:
+
+```codebyte/csharp
+using System;
+
+public class CodeByteExample
+{
+    public static void Main()
+    {
+        string[] months = new string[] {"January",
+                                        "February",
+                                        "March",
+                                        "April",
+                                        "May",
+                                        "June",
+                                        "July",
+                                        "August",
+                                        "September",
+                                        "October",
+                                        "November",
+                                        "December"};
+        
+        int y_count = 0;
+        
+        foreach (string month in months)
+        {
+            if (month.EndsWith('y'))
+            {
+                y_count++;
+            }
+        }
+
+        Console.WriteLine("{0} months end in the letter 'y'", y_count);
+    }
+} 
+```
