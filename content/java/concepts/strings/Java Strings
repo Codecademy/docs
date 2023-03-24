@@ -1,0 +1,22 @@
+ALT-H1
+
+In Java code, strings are variables. The information in Java Strings are bound by quotation marks. Java strings are objects that can perform certain functions. Java strings can be used to find the length of a certain text. Java strings can also convert text from uppercase to lowercase and lowercase to uppercase. 
+
+##h3
+** A major benefit for using Java Strings is to use memory effectively**
+
+##h4
+
+An example of how to use Java strings to convert text from lowercase to uppercase is:
+
+String txt = “neel aroon”
+SystemOut.println(txt.toUpperCase());
+
+The output would be NEEL AROON. 
+
+An example of how to use Jave Strings to find the length of text is:
+
+String txt =”NEEL AROON”
+SystemOut.println(txt.length”()); 
+
+The output would be 9. 
