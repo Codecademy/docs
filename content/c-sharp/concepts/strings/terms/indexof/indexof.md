@@ -31,7 +31,7 @@ public int IndexOf(string value, int startIndex, int count);
 
 ## Example
 
-The following example uses the `IndexOf()` method to find the index of the first occurrence of the character 'd' in the string "Codecademy docs".
+The following example uses the `IndexOf()` method to find the index of the first occurrence of the character "d" in the string "Codecademy docs".
 
 ```cs
 string str = "Codecademy docs";
