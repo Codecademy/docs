@@ -26,7 +26,7 @@ public int IndexOf(string value, int startIndex, int count);
 ```
 
 - `value` : The substring or character to search for.
-- `startIndex` (non-mandatory): The index from where the search should start.
+- `startIndex` (optional): The index from where the search should start.
 - `count` (non-mandatory): Maximum number of characters to search.
 
 
