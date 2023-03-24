@@ -48,7 +48,8 @@ Index: 2
 
 ## Codebyte Example
 
-The following codebyte is runnable and shows the usage of the `IndexOf()` method on a string
+The following codebyte is runnable and shows the usage of the `IndexOf()` method on a string.
+
 ```codebyte/csharp
 using System;
 
