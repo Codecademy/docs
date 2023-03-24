@@ -81,7 +81,7 @@ This example results in the following output:
 The cat in the hat wears a red and white striped hat
 Index of 'h': 11
 Index of 'cat': 4
-Index of 'a' starting from index 10: 13
+Index of 'a' starting from index 10: 16
 Index of 'dog': -1
 ```
 
