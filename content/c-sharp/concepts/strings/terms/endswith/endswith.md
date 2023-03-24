@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.EndsWith()`** method determines whether the end of the String instance matches the specified character or string.  Additional parameters may be supplied to define the criteria for a match.
+The **`.EndsWith()`** method determines whether the end of the `String` instance matches the specified character or string.  Additional parameters may be supplied to define the criteria for a match.
 
 ## Syntax
 
