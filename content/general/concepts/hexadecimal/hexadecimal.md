@@ -34,7 +34,7 @@ CatalogContent:
 
 ## Power Of 2
 
-Hexadecimal, as well as binary(base 2) and octal(base 8) number systems, have bases that are powers of 2. This makes it easy to convert between these systems. 
+Hexadecimal, as well as binary (base 2) and octal (base 8), have bases that are powers of two, making it easy to convert between one another.
 
 
 ## Syntax
