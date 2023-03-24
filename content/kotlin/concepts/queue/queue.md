@@ -15,56 +15,108 @@ CatalogContent:
 
 A **`Queue`** is an interface in Kotlin that represents a data structure that stores elements in a linear order, and follows the First In, First Out (FIFO) principle. This means that the first element added to the queue will be the first one to be removed.
 
-## Syntax
+## Creating a Queue
 
-The syntax for creating a `Queue` in Kotlin using the `LinkedList` class is as follows:
+In kotlin we can create a queue easily by following:
 
-```pseudo
-val queue = LinkedList<Type>()
+```kotlin
+import java.util*
+fun main() {
+  // create a queue of strings
+  val queue: Queue<String> = LinkedList()
+}
 ```
 
-`Type` is the type of elements that the `Queue` will hold. For example, to store integers, use `Int` as the type:
+In the above code sample we have create an empty queue and to further add elements in it we will learn the method call `.add`.
 
-```pseudo
-val queue = LinkedList<Int>()
-```
+## Adding elements in Queue
 
-The `Queue` interface, which is implemented by `LinkedList`, can also be used:
-
-```pseudo
-val queue = LinkedList<Type>().toQueue()
-```
-
-### Example
+We use the .add() function to add elements in the queue that we have created above:
 
 ```kotlin
 import java.util.*
 
 fun main() {
-// Create a new queue
-    val queue = LinkedList<Int>()
+  // create a queue of strings
+  val queue: Queue<String> = LinkedList()
 
-// Add elements to the queue
-    queue.add(1)
-    queue.add(2)
-    queue.add(3)
-    println("The queue after adding the elements: $queue")
-
-// Remove elements from the queue
-    val firstElement = queue.remove() // Returns 1
-    val secondElement = queue.remove() // Returns 2
-    print(firstElement )
-    println(" $secondElement")
-    println("The queue after removing the elements from queue: $queue")
+  // add elements to the queue
+  queue.add("apple")
+  queue.add("banana")
+  queue.add("orange")
+  println(queue)
 }
 ```
 
 The output for the above code will be:
 
 ```shell
-The queue after adding the elements: [1, 2, 3]
-1 2
-The queue after removing the elements from queue: [3]
+[apple, banana, orange]
 ```
 
-In the above example, a new `Queue` is created using the `LinkedList` class, then three elements are added to it using the `.add()` method. Then elements are removed from the `Queue` using the `.remove()` method, which returns the first element added to the `Queue` (`1`). The second and third elements (`2` and `3`) can be removed in the same way.
+So here we learned to add elements in our queue and now in the next section we will learn about removing the elements from the queue.
+
+## Removing an element from the Queue
+
+We use `.remove()` function to remove the elements from the queue that we have created.
+
+```kotlin
+import java.util.*
+
+fun main() {
+  // create a queue of strings
+  val queue: Queue<String> = LinkedList()
+
+  // add elements to the queue
+  queue.add("apple")
+  queue.add("banana")
+  queue.add("orange")
+  println(queue)
+  val a = queue.remove()
+  val b = queue.remove()
+  val c =queue.remove()
+  println(queue)
+  print(a,b,c)
+}
+
+fun print(a: String, b: String, c: String) {
+  println("First element removed is: $a ")
+  println("Second element removed is: $b ")
+  println("Third element removed is: $c ")
+}
+```
+
+The output for the above code will be:
+
+```shell
+[apple, banana, orange]
+[]
+First element removed is: apple
+Second element removed is: banana
+Third element removed is: orange
+```
+
+In the above code we removed the elements using the `.remove()` function and also showcased the removed elements order in the output.
+
+## Peeking an element in the Queue
+
+We use this method to print out the first element of the queue.
+
+```kotlin
+fun main() {
+  val queue: Queue<String> = LinkedList()
+  queue.add("apple")
+  queue.add("banana")
+  queue.add("orange")
+  println(queue)
+  val frontElement = queue.peek()
+  println("The front element peeked is: $frontElement")
+}
+```
+
+The output for the above code will be:
+
+```shell
+[apple, banana, orange]
+The front element peeked is: apple
+```
