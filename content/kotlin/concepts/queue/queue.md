@@ -58,7 +58,7 @@ So here we learned to add elements in our queue and now in the next section we w
 
 ## Removing an element from the Queue
 
-We use `.remove()` function to remove the elements from the queue that we have created.
+We use the `.remove()` function to remove elements from the queue we created. Here's an example that shows how we can use the `.remove()` function:
 
 ```kotlin
 import java.util.*
