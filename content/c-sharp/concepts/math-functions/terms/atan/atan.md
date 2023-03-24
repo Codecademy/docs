@@ -8,9 +8,10 @@ Tags:
   - 'Methods'
   - 'Numbers'
 CatalogContent:
-  - 'learn c-sharp'
+  - 'learn-c-sharp'
   - 'paths/computer-science'
 ---
+
 **Math.Atan()** is a static method that calculates the inverse tangent of a given number, in radians.
 
 ## Syntax
