@@ -100,7 +100,7 @@ In the above code we removed the elements using the `.remove()` function and als
 
 ## Peeking an element in the Queue
 
-We use this method to print out the first element of the queue.
+We use the `.peek()` function to print out the first element of the queue. We can use the function like:
 
 ```kotlin
 fun main() {
