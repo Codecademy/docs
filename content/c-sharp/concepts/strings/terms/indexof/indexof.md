@@ -29,7 +29,6 @@ public int IndexOf(string value, int startIndex, int count);
 - `startIndex` (optional): The index from where the search should start.
 - `count` (optional): Maximum number of characters to search.
 
-
 ## Example
 
 The following example uses the `IndexOf()` method to find the index of the first occurrence of the character 'd' in the string "Codecademy docs".
