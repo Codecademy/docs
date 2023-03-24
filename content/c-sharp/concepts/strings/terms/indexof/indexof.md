@@ -76,6 +76,7 @@ public class IndexOfExample
 ```
 
 This example results in the following output: 
+
 ```shell
 The cat in the hat wears a red and white striped hat
 Index of 'h': 11
