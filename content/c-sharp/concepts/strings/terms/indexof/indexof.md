@@ -1,4 +1,3 @@
-
 ---
 Title: '.IndexOf()'
 Description: 'Returns the index of a specified character or substring in a string.'
