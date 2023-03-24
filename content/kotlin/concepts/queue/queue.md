@@ -17,7 +17,7 @@ A **`Queue`** is an interface in Kotlin that represents a data structure that st
 
 ## Creating a Queue
 
-In kotlin we can create a queue easily by following:
+In Kotlin, creating a queue is easy if we follow these steps:
 
 ```kotlin
 import java.util*
@@ -31,7 +31,7 @@ In the above code sample we have create an empty queue and to further add elemen
 
 ## Adding elements in Queue
 
-We use the .add() function to add elements in the queue that we have created above:
+We use the `.add()` function to add elements in the queue that we have created above:
 
 ```kotlin
 import java.util.*
