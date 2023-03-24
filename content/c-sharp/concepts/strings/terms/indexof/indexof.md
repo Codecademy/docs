@@ -46,7 +46,6 @@ This example results in the following output:
 Index: 2
 ```
 
-
 ## Codebyte Example
 
 The following codebyte is runnable and shows the usage of the `IndexOf()` method on a string
