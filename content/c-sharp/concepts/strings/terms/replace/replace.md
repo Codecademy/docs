@@ -70,5 +70,5 @@ It produces the following output to the console:
 
 ```shell
 False statement: Earth is the fourth planet from the Sun.
-Right statement is: Earth is the third planet from the Sun.
+True statement: Earth is the third planet from the Sun.
 ```
