@@ -63,7 +63,7 @@ The following example takes the `string` named `wrongString`, replaces the word 
 string wrongString = "Earth is the fourth planet from the Sun.";
 string rightString = wrongString.Replace("fourth", "third");
 Console.WriteLine($"False statement: {wrongString}");
-Console.WriteLine($"Right statement is: {rightString}");
+Console.WriteLine($"True statement: {rightString}");
 ```
 
 It produces the following output to the console:
