@@ -1,6 +1,6 @@
 ---
 Title: 'Waterfall'
-Description: 'Models a Software Development Life Cycle (SDLC) where the goal is to create a minimum viable product (MVP).'
+Description: 'A model of software development where the goal is to create a minimum viable product.'
 Subjects:
   - 'Mobile Development'
   - 'Web Development'
