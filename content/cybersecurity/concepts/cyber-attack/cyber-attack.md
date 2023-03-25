@@ -44,9 +44,9 @@ There are several types of cyber attacks. Some of the most common include:
 
 Organizations and individuals can and should take steps to prevent cyber attacks.
 
-- Along with self-directed learning, organizations should educate employees on common cyber threats, including phishing and social engineering.
+- Along with self-directed learning, organizations should educate employees on common cyber threats, including phishing and [social engineering](https://www.codecademy.com/resources/docs/cybersecurity/social-engineering).
 - Perimeter defenses, such as firewalls, should be installed and kept up to date.
 - State-of-the-art antivirus software and malware detectors should be in place and continually updated to address threats.
 - While patch management might seem tedious, it can help prevent vulnerabilities from being exploited.
-- Strong user authentication and authortization practices, such as strong passwords and multi-factor authentication, should be utilized.
+- Strong user authentication and authortization practices, such as strong passwords and [multi-factor authentication](https://www.codecademy.com/resources/docs/cybersecurity/multi-factor-authentication), should be utilized.
 - Businesses should especially have a response plan to deal with security breaches.
