@@ -69,6 +69,6 @@ Console.WriteLine($"True statement: {rightString}");
 It produces the following output to the console:
 
 ```shell
-Wrong statement is: Earth is the fourth planet from the Sun.
+False statement: Earth is the fourth planet from the Sun.
 Right statement is: Earth is the third planet from the Sun.
 ```
