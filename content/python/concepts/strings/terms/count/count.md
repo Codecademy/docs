@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-The **.count()** finds the number of times the specified substring occurs within a given string.
+The **`.count()`** method finds the number of times the specified substring occurs within a given string.
 
 ## Syntax
 
