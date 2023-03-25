@@ -42,10 +42,18 @@ The `.Replace()` method takes the original string returns a new string with the 
 The following example takes the `string` named `oldString`, replaces all the hyphen characters `-` with comma characters `,`, and returns the new `string` named `newString`.
 
 ```cs
-string oldString = "A-B-C-D-E-F-G-H-I";
-string newString = oldString.Replace('-', ',');
-Console.WriteLine($"Old string: \"{oldString}\"");
-Console.WriteLine($"New string: \"{newString}\"");
+using System;
+
+public class Example
+{
+    public static void Main(string[] args)
+    {
+        string oldString = "A-B-C-D-E-F-G-H-I";
+        string newString = oldString.Replace('-', ',');
+        Console.WriteLine($"Old string: \"{oldString}\"");
+        Console.WriteLine($"New string: \"{newString}\"");
+    }
+}
 ```
 
 It produces the following output to the console:
@@ -60,10 +68,18 @@ New string: "A,B,C,D,E,F,G,H,I"
 The following example takes the `string` named `wrongString`, replaces the word `fourth` with the word `third`, and returns the new `string` named `rightString`.
 
 ```cs
-string wrongString = "Earth is the fourth planet from the Sun.";
-string rightString = wrongString.Replace("fourth", "third");
-Console.WriteLine($"False statement: {wrongString}");
-Console.WriteLine($"True statement: {rightString}");
+using System;
+
+public class Example
+{
+    public static void Main(string[] args)
+    {
+        string wrongString = "Earth is the fourth planet from the Sun.";
+        string rightString = wrongString.Replace("fourth", "third");
+        Console.WriteLine($"False statement: {wrongString}");
+        Console.WriteLine($"True statement: {rightString}");
+    }
+}
 ```
 
 It produces the following output to the console:
