@@ -27,5 +27,5 @@ The diagram below shows how the workflow mirrors the natural flow of a waterfall
 
 ## Disadvantages
 
-- Difficult to make changes once the project has been started.
+- Difficult to make changes once the project is underway.
 - Testing is delayed until development is completed, so errors aren't found until later.
