@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The **Waterfall** Model Software Development Life Cycle (SDLC) aims to create a minimum viable product (MVP). Each phase in the SDLC must be completed before moving on to the next. It is suited to projects where features are easily defined from the start.
+The **waterfall** model is a Software Development Life Cycle (SDLC) that aims to create a minimum viable product (MVP). Each phase in this SDLC must be completed before moving on to the next. It is suited to projects where features are easily defined from the start.
 
 The Waterfall Model was the first SDLC methodology to be created and was first documented in 1970 by an American computer scientist called Dr. Winston W. Royce, though the term "Waterfall" wasn't used until later.
 
