@@ -29,7 +29,7 @@ myString.Replace(string oldString, string newString);
 The `.Replace()` method takes the original string returns a new string with the following changes in it:
 
 * All occurrences of indicated character are replaced with another one.
-* All occurances of indicated string are replaced with another one.
+* All occurrences of indicated string are replaced with another one.
 
 > **Note:** If `oldChar` or `oldString` is not found in the original string, than the method returns the string without changes.
 
