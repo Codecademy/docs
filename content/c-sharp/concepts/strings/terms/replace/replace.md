@@ -31,7 +31,7 @@ The `.Replace()` method takes the original string returns a new string with the 
 * All occurances of indicated character are replaced with another one.
 * All occurances of indicated string are replaced with another one.
 
-> **Note:** If `oldChar` or `oldString` is not found in the original string, than the `.Replace()` method returns the string witout changes.
+> **Note:** If `oldChar` or `oldString` is not found in the original string, than the method returns the string without changes.
 
 > **Note:** If `newChar` or `newString` is `null`, than all occurances of `oldChar` or `oldString` are removed.
 
