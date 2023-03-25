@@ -18,7 +18,7 @@ The **`.Replace()`** method when applied to the string gives back a new string w
 
 ## Syntax
 
-```
+```pseudo
 // Replaces old character with new character.
 myString.Replace(char oldChar, char newChar);
 
@@ -28,12 +28,16 @@ myString.Replace(string oldString, string newString);
 
 The `.Replace()` method takes the original string returns a new string with the following changes in it:
 
-* All occurrences of indicated character are replaced with another one.
-* All occurrences of indicated string are replaced with another one.
+- All occurrences of indicated character are replaced with another one.
+- All occurrences of indicated string are replaced with another one.
 
 > **Note:** If `oldChar` or `oldString` is not found in the original string, than the method returns the string without changes.
 
-> **Note:** If `newChar` or `newString` is `null`, than all occurances of `oldChar` or `oldString` are removed.
+<!---Blank-->
+
+> **Note:** If `newChar` or `newString` is `null`, than all occurrences of `oldChar` or `oldString` are removed.
+
+<!---Blank-->
 
 > **Note:** The `.Replace()` method does not modify the original `string`, it always produces a new string.
 
