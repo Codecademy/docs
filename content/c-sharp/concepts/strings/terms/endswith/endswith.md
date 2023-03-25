@@ -6,7 +6,7 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Strings'
-  - 'Characters;
+  - 'Characters'
   - 'Methods'
 CatalogContent:
   - 'learn-c-sharp'
