@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.EndsWith()`** method determines whether the end of the `String` instance matches the specified character or string.  Additional parameters may be supplied to define the criteria for a match.
+The **`.EndsWith()`** method determines whether the end of the `String` instance matches the specified character or string. Additional parameters may be supplied to define the criteria for a match.
 
 ## Syntax
 
@@ -31,7 +31,7 @@ String.EndsWith(string, ignoreCase, culture)
 String.EndsWith(string, comparisonType)
 ```
 
-`.EndsWith()` is a static methid of the `String` object.  It takes the following arguments:
+`.EndsWith()` is a static methid of the `String` object. It takes the following arguments:
 
 - `char` is a instance of the `Char` structure; represents a single letter
 - `string` is a instance of the `String` object
@@ -53,9 +53,9 @@ The following example initializes the array `sourceArray` and the array `destina
 using System;
 using System.Threading;
 
-public class Example 
+public class Example
 {
-    public static void Main() 
+    public static void Main()
     {
         string baseString = "AbCdEfG";
         string compareEnd = "efg";
@@ -109,9 +109,9 @@ public class CodeByteExample
                                         "October",
                                         "November",
                                         "December"};
-        
+
         int y_count = 0;
-        
+
         foreach (string month in months)
         {
             if (month.EndsWith('y'))
@@ -122,5 +122,5 @@ public class CodeByteExample
 
         Console.WriteLine("{0} months end in the letter 'y'", y_count);
     }
-} 
+}
 ```
