@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.EndsWith()`** method determines whether the end of the `String` instance matches the specified character or string. Additional parameters may be supplied to define the criteria for a match.
+The **`.EndsWith()`** method determines whether the end of the `string` instance matches the specified character or string. Additional parameters may be supplied to define the criteria for a match.
 
 ## Syntax
 
@@ -31,23 +31,23 @@ String.EndsWith(string, ignoreCase, culture)
 String.EndsWith(string, comparisonType)
 ```
 
-`.EndsWith()` is a static methid of the `String` object. It takes the following arguments:
+`.EndsWith()` is a static method of the `String` object. It takes the following arguments:
 
-- `char` is a instance of the `Char` structure; represents a single letter
-- `string` is a instance of the `String` object
-- `ignoreCase` is a boolean; if `true` then case is ignored for comparison (e.g., 'a' == 'A')
-- `culture` is an instance of the `System.Globalization.CultureInfo` class which includes culture-specific sort order rules
+- `char` is an instance of the `Char` structure; represents a single letter.
+- `string` is an instance of the `String` object.
+- `ignoreCase` is a boolean; if `true` then case is ignored for comparison (e.g., 'a' == 'A').
+- `culture` is an instance of the `System.Globalization.CultureInfo` class which includes culture-specific sort order rules.
 - `comparisonType` is an element of the `StringComparison` enumeration which encapsulates the case- and culture-specific criteria; available fields include:
-  - `CurrentCulture` = use the current culture rules
-  - `CurrentCultureIgnoreCase` = use the current culture rules but ignore case
-  - `InvariantCulture` = use the invariant culture's sorting rules (it's a culture that doesn't change based on the user's location)
-  - `InvariantCultureIgnoreCase` = use the invariant culture rules but ignore case
-  - `Ordinal` = use ordinal (binary) sort rules to compare strings
-  - `OrdinalIgnoreCase` = use ordinal (binary) sort rules to compare strings but ignore case
+  - `CurrentCulture` sets the current culture rules.
+  - `CurrentCultureIgnoreCase` sets the current culture rules but ignores case.
+  - `InvariantCulture` sets the invariant culture's sorting rules (it's a culture that doesn't change based on the user's location).
+  - `InvariantCultureIgnoreCase` sets the invariant culture rules but ignores case.
+  - `Ordinal` sets ordinal (binary) sort rules to compare strings.
+  - `OrdinalIgnoreCase` sets ordinal (binary) sort rules to compare strings but ignores case.
 
 ## Example
 
-The following example initializes the array `sourceArray` and the array `destinationArray`. Using a `foreach` loop, the contents of `destinationArray` are printed to the console:
+The following example illustrates a few of the ways the overloaded `String.EndsWith()` method may be used to evaluate the end of a `string`.
 
 ```cs
 using System;
@@ -68,11 +68,11 @@ public class Example
 
         // String.EndsWith(string, ignoreCase, culture)
         result = baseString.EndsWith(compareEnd, true, Thread.CurrentThread.CurrentCulture);
-        Console.WriteLine("compare using Case/Culture: {0}", result.ToString());
+        Console.WriteLine("Compare using Case/Culture: {0}", result.ToString());
 
         // String.EndsWith(string, comparisonType)
         result = baseString.EndsWith(compareEnd, StringComparison.InvariantCulture);
-        Console.WriteLine("compare using Enumeration: {0}", result.ToString());
+        Console.WriteLine("Compare using Enumeration: {0}", result.ToString());
     }
 
 }
@@ -82,13 +82,13 @@ This is what is printed to the console:
 
 ```shell
 Simple compare: False
-compare using Case/Culture: True
-compare using Enumeration: False
+Compare using Case/Culture: True
+Compare using Enumeration: False
 ```
 
 ## Codebyte Example
 
-The following codebyte is runnable and shows one of the several overload functions with the `String.EndsWith()` method. In this example, the `months` array is populated with the months of the year, and the `.EndsWith()` method is used to determine the number of months that end in the letter 'y'.:
+In this example, the `months` array is populated with the months of the year, and the `.EndsWith()` method is used to determine the number of months that end in the letter 'y':
 
 ```codebyte/csharp
 using System;
