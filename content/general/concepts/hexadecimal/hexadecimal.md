@@ -44,4 +44,4 @@ A hexadecimal number is prefixed with `0x`.
 
 ## Hex Colors
 
-Hex numbers often represent colors(hex colors) and are specified with `#RRGGBB`(red, green, and blue). One example of a hex color is `#0000FF` and represents the color blue. We know this because red and green is set to their lowest value, `00`, and blue set to their highest value, `FF`. A hex color is prefixed with `#`.
+Hex numbers are often used to represent colors (hex colors) and are specified in the following way: `#RRGGBB`(red, green, and blue). One example of a hex color is `#0000FF` which represents the color blue. This is because red and green are set to their lowest value, `00`, and blue is set to its highest value, `FF`.
