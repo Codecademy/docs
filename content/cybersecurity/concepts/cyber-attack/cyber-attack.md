@@ -48,5 +48,5 @@ Organizations and individuals can and should take steps to prevent cyber attacks
 - Perimeter defenses, such as firewalls, should be installed and kept up to date.
 - State-of-the-art antivirus software and malware detectors should be in place and continually updated to address threats.
 - While patch management might seem tedious, it can help prevent vulnerabilities from being exploited.
-- Strong user authentication and authortization practices, such as strong passwords and [multi-factor authentication](https://www.codecademy.com/resources/docs/cybersecurity/multi-factor-authentication), should be utilized.
+- Strong user authentication and authorization practices, such as strong passwords and [multi-factor authentication](https://www.codecademy.com/resources/docs/cybersecurity/multi-factor-authentication), should be utilized.
 - Businesses should especially have a response plan to deal with security breaches.
