@@ -47,7 +47,7 @@ String.EndsWith(string, comparisonType)
 
 ## Example
 
-The following example illustrates a few of the ways the overloaded `String.EndsWith()` method may be used to evaluate the end of a `string`.
+The following example illustrates a few of the ways the `String.EndsWith()` method may be used to evaluate the end of a `string`.
 
 ```cs
 using System;
