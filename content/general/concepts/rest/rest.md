@@ -16,7 +16,7 @@ CatalogContent:
 
 **REST** is an architectural style for [API](https://www.codecademy.com/resources/docs/general/api) design that is defined by six constraints. These constraints were first documented in Roy Fielding's dissertation ["Architectural Styles and the Design of Network-based Architectures"](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm). The acronym REST stands for REpresentational State Transfer, which is foundational to this design architecture, the sharing of resources, or rather representations of those resources, across systems.
 
-The constraints that define REST architecture include the following:
+## REST Constraints
 
 - Uniform Interface: A constraint that governs the implementation of these interfaces, requiring the use of standard methods and identified resources.
 
