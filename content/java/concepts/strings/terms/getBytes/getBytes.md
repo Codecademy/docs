@@ -32,8 +32,8 @@ import java.util.*;
 
 public class Example {
   public static void main(String[] args) {
-    String str = "codeacademy.com";
-    byte[] byteArray = str.getBytes();
+    String myStr = "codeacademy.com";
+    byte[] myByteArray = str.getBytes();
     System.out.println(Arrays.toString(byteArray));
   }
 }
