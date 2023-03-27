@@ -37,7 +37,7 @@ def check_if_string(value):
         print(f'{value} is a string type.')
     else:
         print(f'{value} is not a string.')
-    
+
 check_if_string(var1)
 check_if_string(var2)
 ```
