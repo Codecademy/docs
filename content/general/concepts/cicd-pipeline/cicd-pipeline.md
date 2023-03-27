@@ -16,7 +16,9 @@ CatalogContent:
 
 The **CICD Pipeline** is the combination of continuous integration, delivery and deployment of software development and application deployment. **CI** stands for **Continuous Integration**. This is the automation process for Developers. **CD** stands for both **Continous Delivery** and **Continuous Deployment**. Continuous Delivery is the automated delivery of code to the testing and development steps of the pipeline. These environments are usually in a repository like [Github](https://www.github.com). Continuous Deployment refers to code passing automated tests and then automatically placed in production, which in turn is used for automatic deployment. The four main steps of the pipeline are: 
 
-1. **Source** - The creation of code by developers, which is continuously integrated within a shared repository. Version control systems, like [Git](https://git-scm.com/) are used for tracking and managing changes to the software. When changes are commited to the repository, automated builds and testing are triggered.
+## Four Steps in CICD Pipeline
+
+1. Source: The creation of code by developers, which is continuously integrated within a shared repository. Version control systems, like Git are used for tracking and managing changes to the software. When changes are commited to the repository, automated builds and tests are triggered.
 
 2. Build: The process of using code from the repository to link necessary dependencies and libraries to "build" an executable file. Scripts can be utilized to convert the file in to a Virtual Machine or Container. Logs generated during this time are used to find errors and send notifications to developers when the build is complete. 
 
