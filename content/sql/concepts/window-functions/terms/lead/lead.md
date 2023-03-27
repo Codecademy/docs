@@ -18,24 +18,16 @@ The **`LEAD()`** window function takes a column and a positive integer offset as
 ## Syntax
 
 ```pseudo
-SELECT LEAD(column1_name, offset) OVER(
+LEAD(column1_name, offset) OVER(
   ORDER BY column2_name
 )
-FROM table;
 ```
 
-The `ORDER BY` clause is required. There is also a third, optional argument that sets the value of cells where the corresponding row does not exist.
+* The [`ORDER BY`](https://www.codecademy.com/resources/docs/sql/commands/order-by) clause is required. 
 
-```pseudo
-SELECT LEAD(column1_name, offset, default) OVER(
-  ORDER BY column2_name
-)
-FROM table;
-```
+* There is also a third, optional argument that sets the value of cells where the corresponding row does not exist. The third argument will be `NULL` by default.
 
-The third argument will be `NULL` by default.
-
-When using `LEAD()` with partitions, any cells with a corresponding row in another partition will be filled with the default value. Think of it as treating each partition as a separate table.
+* When using `LEAD()` with partitions, any cells with a corresponding row in another partition will be filled with the default value. Think of it as treating each partition as a separate table.
 
 ## Example
 
