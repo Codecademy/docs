@@ -1,6 +1,6 @@
 ---
 Title: 'Loops'
-Description: 'C++ has two types of loops: For and While. Loops execute the same group of statements multiple times until a stop condition is met.'
+Description: 'C++ has two types of loops: For and While. Loops execute the same group of statements multiple times until the condition is no longer true.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'

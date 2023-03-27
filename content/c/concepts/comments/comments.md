@@ -1,6 +1,6 @@
 ---
 Title: 'Comments'
-Description: 'Comments are a piece of text within a program that are not executed. They are used to provide additional information to aid in understanding the code. In C, there are two types of comments: single and multi-line.'
+Description: 'Comments are a piece of text within a program that are not executed. They are used to provide additional information to aid in understanding the code. In C, there are single and multi-line comments.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'

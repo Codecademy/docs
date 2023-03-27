@@ -1,6 +1,6 @@
 ---
 Title: 'User Input'
-Description: 'For user input, the C language has the scanf function, which stands for scan format. It reads a formatted string from the standard input stream, which is usually the user keyboard.'
+Description: 'In the C language, the scanf function stands for scan format and handles user input. It reads a formatted string from the standard input stream, which is usually the user keyboard.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'

@@ -1,6 +1,6 @@
 ---
 Title: 'Random'
-Description: 'C++ contains a function called rand from the cstdlib library that generates a random number.'
+Description: 'C++ contains a function from the cstdlib library called rand that generates a random number.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'

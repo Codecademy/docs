@@ -1,6 +1,6 @@
 ---
 Title: 'Files'
-Description: 'Computers use file systems to store and retrieve data. The fstream library, short for file stream, enables working with files in C++. The fstream library has three classes that are used to create, write or read files: ofstream, ifstream, and fstream.'
+Description: 'Computers use file systems to store and retrieve data. The fstream library, short for file stream, enables working with files in C++. The fstream library has three classes that are used to create, write, and read files: ofstream, ifstream, and fstream.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
