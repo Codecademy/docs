@@ -23,7 +23,7 @@ LEAD(column1_name, offset) OVER(
 )
 ```
 
-* The [`ORDER BY`](https://www.codecademy.com/resources/docs/sql/commands/order-by) clause is required. 
+* The [`ORDER BY`](https://www.codecademy.com/resources/docs/sql/commands/order-by) clause is required.
 
 * There is also a third, optional argument that sets the value of cells where the corresponding row does not exist. The third argument will be `NULL` by default.
 
