@@ -1,4 +1,4 @@
-﻿---
+---
 Title: '.foregroundColor()'
 Description: 'Sets the foreground color that is displayed in a view.'
 Subjects:
