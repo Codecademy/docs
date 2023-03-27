@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`getBytes()`** method encodes the string into an array of bytes that represent the characters in the string.
+The **`.getBytes()`** method encodes a string into an array of bytes that represents the characters in the string.
 
 ## Syntax
 
