@@ -17,7 +17,7 @@ The **`.hashCode()`** method returns an integer hash code value for the object o
 s[0]*31^(n-1) + s[1]*31^(n-2) + ... + s[n-1]
 ```
 
-Where s[i] is the ith character of the string, n is the length of the string, and ^ indicates exponentiation.
+`s[i]` is the `i`-th character of the string, `n` is the length of the string, and `^` indicates exponentiation.
 
 ## Syntax
 
