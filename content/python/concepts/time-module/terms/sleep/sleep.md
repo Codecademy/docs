@@ -8,7 +8,7 @@ Tags:
   - 'Time'
 CatalogContent:
   - 'learn-python-3'
-  - 'concepts/time-module'
+  - 'paths/computer-science'
 ---
 
 The **.sleep()** method suspends execution of the current [thread](https://www.codecademy.com/resources/docs/python/threading) for a given period of time in seconds.
@@ -31,6 +31,13 @@ import time
 print("Printed immediately.")
 time.sleep(2.4)
 print("Printed after 2.4 seconds.")
+```
+
+The output will be:
+
+```shell
+Printed immediately.
+Printed after 2.4 seconds.
 ```
 
 ## Codebyte Example
