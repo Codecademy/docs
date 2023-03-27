@@ -14,7 +14,9 @@ CatalogContent:
   - 'paths/back-end-engineer-career-path'
 ---
 
-The **CICD Pipeline** is the combination of continuous integration, delivery and deployment of software development and application deployment. **CI** stands for **Continuous Integration**. This is the automation process for Developers. **CD** stands for both **Continous Delivery** and **Continuous Deployment**. Continuous Delivery is the automated delivery of code to the testing and development steps of the pipeline. These environments are usually in a repository like [Github](https://www.github.com). Continuous Deployment refers to code passing automated tests and then automatically placed in production, which in turn is used for automatic deployment. The four main steps of the pipeline are: 
+The **CICD Pipeline** is the combination of continuous integration, delivery, and deployment of software development and application deployment.
+
+CI (Continuous Integration) is the automation process for Developers. CD (Continuous Delivery and Continuous Deployment) is the automated delivery of code to the testing and development steps of the pipeline. These environments are usually in a repository like Github. Continuous deployment refers to code passing automated tests and then placed in production, which in turn is used for automatic deployment.
 
 ## Four Steps in CICD Pipeline
 
