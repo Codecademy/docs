@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`hashCode()`** method returns an integer hash code value for the object on which it is invoked. The hash code for a String object is computed like this:
+The **`.hashCode()`** method returns an integer hash code value for the object on which it is invoked. The hash code for a `String` object is computed as follows:
 
 ```pseudo
 s[0]*31^(n-1) + s[1]*31^(n-2) + ... + s[n-1]
