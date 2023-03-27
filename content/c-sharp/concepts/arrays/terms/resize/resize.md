@@ -51,7 +51,7 @@ public class Example
         PrintUlla(WaroftheWorlds);
    }
 
-    public static void PrintUlla(String[] WaroftheWorlds)  
+    public static void PrintUlla(String[] WaroftheWorlds)
     {
         for(int i = 0; i < WaroftheWorlds.Length; i++)
         {
