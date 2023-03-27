@@ -2,11 +2,11 @@
 Title: 'QR Codes'
 Description: 'A QR Code, or quick response code, is code used to store information that can be read by a QR scanner.'
 Subjects:
-  - Computer Science
+  - 'Computer Science'
 Tags:
-  - Images
+  - 'Images'
 CatalogContent:
-  - 'paths/code-foundations'
+  - 'learn-c-plus-plus'
   - 'paths/computer-science'
 ---
 
