@@ -17,14 +17,15 @@ The **`.hashCode()`** method returns an integer hash code value for the object o
 s[0]*31^(n-1) + s[1]*31^(n-2) + ... + s[n-1]
 ```
 
+Where s[i] is the ith character of the string, n is the length of the string, and ^ indicates exponentiation.
+
 ## Syntax
 
 ```pseudo
 int hashCodeValue = objectName.hashCode();
 ```
 
-- `hashCodeValue` is an integer variable that stores the hash code value returned by the .hashCode() method.
-- `objectName` is the object for which we want to obtain the hash code value.
+- `hashCodeValue` is an integer variable that stores the hash code value returned by the `.hashCode()` method.
 
 ## Example
 
@@ -47,4 +48,4 @@ This outputs the following:
 667975538
 ```
 
-> **Note:** The hash code value may vary for the same object when the program is executed multiple times.
+> **Note:** The hash code value may vary for the same object when the program is executed multiple times. This is because the hash code value is generated based on the object's memory address, which may vary each time the program is run due to the dynamic nature of memory allocation in computer systems.
