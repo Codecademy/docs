@@ -60,9 +60,11 @@ console.log(sumOfValues);
 
 ## Codebyte Example
 
+The following codebyte example multiplies all the values in an array and returns the product:
+
 ```codebyte/js
 const values = [8, 12, 21, 58, 2, 3];
-let productOfValues = 0;
+let productOfValues = 1;
 
 values.forEach((value) => (productOfValues *= value));
 
