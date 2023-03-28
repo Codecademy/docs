@@ -30,6 +30,8 @@ for (initialization; condition; increment) {
 }
 ```
 
+For example:
+
 ```c
 for (int i = 0; i < 4; i++) {
   printf("%d\n", i);
@@ -86,6 +88,8 @@ do {
 } while (condition);
 ```
 
+For example:
+
 ```c
 int x = 0;
 int i = 0;
@@ -112,6 +116,8 @@ The output would be:
 A nested `for` loop is when a `for` loop runs inside another `for` loop.
 
 The inner loop will run all its iterations for each iteration of the outer loop.
+
+For example:
 
 ```c
 for (int outer = 0; outer < 2; outer++) {
