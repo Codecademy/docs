@@ -1,6 +1,6 @@
 ---
 Title: 'Agile'
-Description: 'Agile development is a software development methodology that emphasizes iteration, flexibility, and cross-team collaboration.'
+Description: 'Agile is a software development methodology that emphasizes iteration, flexibility, and cross-team collaboration.'
 Subjects:
   - 'Mobile Development'
   - 'Web Development'
@@ -12,11 +12,11 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-**Agile Development** is a software development methodology that emphasizes iteration, flexibility and cross-team collaboration. 
+**Agile** is a software development methodology that emphasizes iteration, flexibility and cross-team collaboration. 
 
-Agile as a defined development methodology is fairly new. In 2001, a group of 17 software developers calling themselves the Agile Alliance published the [Agile Manifesto](https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto), which consists of 4 values and [12 principles](https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto).  Taken together, these documents argue that software development should incorporate numerous opportunities for user feedback, be created by self-organized cross-functional teams, and demonstrate tangible progress every few weeks. 
+Agile as a defined development methodology is fairly new. In 2001, a group of 17 software developers calling themselves the Agile Alliance published the [Agile Manifesto](https://www.agilealliance.org/agile101/the-agile-manifesto/), which consists of 4 values and [12 principles](https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto). Taken together, these documents argue that software development should incorporate numerous opportunities for user feedback, be created by self-organized cross-functional teams, and demonstrate tangible progress every few weeks. 
 
-Since then, several Agile frameworks have been developed and become popular in the tech sector. Two of the most popular of these are Scrum and Lean. An important note is that while these frameworks are often used interchangeably with Agile, they are not them same. Agile is a general set of development principles, Lean and Scrum are specific frameworks for carrying out those princples. While these and other frameworks have important differences in implementation, there all have certain common features, which are: 
+Since then, several Agile frameworks have been developed and become popular in the tech sector. Two of the most popular of these are Scrum and Lean. An important note is that while these frameworks are often used interchangeably with Agile, they are not the same. Agile is a general set of development principles, Lean and Scrum are specific frameworks for carrying out those principles. While these and other frameworks have important differences in implementation, they all share a number of features, which are: 
 
 * Work is completed by a self-organized, cross-functional team. 
 * Work is completed in 2-4 week intervals, often called sprints. 
