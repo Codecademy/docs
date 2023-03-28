@@ -16,7 +16,7 @@ CatalogContent:
 
 **Containerization** is a type of virtualization that bundles code with its required environment. These bundles are called “containers”. Containers can be run in nearly all computing environments and are widely used in cloud computing.
 
-## How do containers work?
+## How do Containers Work?
 
 Containers work by providing a self-contained and isolated environment for software to run. They are typically managed in container orchestration systems, such as Kubernetes or Docker Swarm. These systems automate the work of managing and scheduling individual containers across clusters of servers.
 
