@@ -25,8 +25,8 @@ Math.Sinh(angle);
 The `Math.Sinh()` method takes only one parameter: an `angle` in radians of type `double`. The method returns the hyperbolic sine of the angle as a `double` value, except if the value of `angle` equals:
 
 - `NaN` (not a number), then it returns `NaN`.
-- `NegativeInfinity`, then it returns `PositiveInfinity`.
-- `PositiveInfinity`, then it also returns `PositiveInfinity`.
+- `NegativeInfinity`, then it returns `NegativeInfinity`.
+- `PositiveInfinity`, then it returns `PositiveInfinity`.
 
 > **Note:** Depending on the operating system or architecture, the exact result or the input range of the `Math.Sinh()` method may differ due to the differences in the C runtime environment.
 
