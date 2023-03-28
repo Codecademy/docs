@@ -22,7 +22,7 @@ Containers work by providing a self-contained and isolated environment for softw
 
 Containers are built from container images, which provide specifications for the container and how it is instantiated. A container image can be thought of as a recipe, and the container is the dish made from following that recipe. Docker is a common platform for building, packaging, and distributing container images.
 
-## Containers vs. virtual machines
+## Containers vs. Virtual Machines
 
 Containers and [virtual machines](https://www.codecademy.com/resources/docs/general/virtual-machines) are both types of virtualization technology that are used for similar purposes. However, a main difference is that containers virtualize at the operating system-level, and virtual machines virtualize at the hardware-level. This means that multiple containers can run on a single, shared operating system kernel, such as the [Linux kernel](https://www.codecademy.com/resources/docs/open-source/linux-kernel). Virtual machines do not traditionally use a shared operating system, although some hypervisors now support container-like virtualization which can allow multiple virtual machines to use a single operating system kernel. Because multiple containers share the same kernel, they are typically considered less secure than virtual machines.
 
