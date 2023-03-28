@@ -1,6 +1,6 @@
 ---
 Title: 'Queue'
-Description: 'A Queue is a collection interface that offers additional operations for accessing or manipulating items at the head of the queue.'
+Description: 'A Queue is a collection interface that represents a data structure that stores elements in a linear order, and follows the First In, First Out (FIFO) principle.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -13,34 +13,38 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **`Queue`** is an interface in Kotlin that represents a data structure that stores elements in a linear order, and follows the First In, First Out (FIFO) principle. This means that the first element added to the queue will be the first one to be removed.
+A **`Queue`** is a collection interface in Kotlin that represents a data structure that stores elements in a linear order, and follows the First In, First Out (FIFO) principle. This means that the first element added to the queue will be the first one to be removed.
 
 ## Creating a Queue
 
-In Kotlin, creating a queue is easy if we follow these steps:
+In Kotlin, a queue can be created using the `Queue` interface:
 
-```kotlin
-import java.util*
-fun main() {
-  // create a queue of strings
-  val queue: Queue<String> = LinkedList()
-}
+```pseudo
+val queue: Queue<Type> = Collection()
 ```
 
-In the above code sample we have create an empty queue and to further add elements in it we will learn the method call `.add`.
+- `queue` is a variable that is of type `Queue`.
+- `Type` is the data type of the elements within the queue.
+- `Collection` is the collections class that is used to implement the queue. Some possible implementations include a `LinkedList`, `ArrayDeque`, and `PriorityQueue`.
 
-## Adding elements in Queue
+Below, a queue of string elements is created using an instance of the `LinkedList` collection:
 
-We use the `.add()` function to add elements in the queue that we have created above:
+```kotlin
+val queue: Queue<String> = LinkedList()
+```
+
+## Adding Elements to a Queue
+
+The `.add()` method can be used to add elements to a queue:
 
 ```kotlin
 import java.util.*
 
 fun main() {
-  // create a queue of strings
+  // Create a queue of strings
   val queue: Queue<String> = LinkedList()
 
-  // add elements to the queue
+  // Add elements to the queue
   queue.add("apple")
   queue.add("banana")
   queue.add("orange")
@@ -54,27 +58,28 @@ The output for the above code will be:
 [apple, banana, orange]
 ```
 
-So here we learned to add elements in our queue and now in the next section we will learn about removing the elements from the queue.
+## Removing Elements from a Queue
 
-## Removing an element from the Queue
-
-We use the `.remove()` function to remove elements from the queue we created. Here's an example that shows how we can use the `.remove()` function:
+The `.remove()` method can be used to remove elements from a queue:
 
 ```kotlin
 import java.util.*
 
 fun main() {
-  // create a queue of strings
+  // Create a queue of strings
   val queue: Queue<String> = LinkedList()
 
-  // add elements to the queue
+  // Add elements to the queue
   queue.add("apple")
   queue.add("banana")
   queue.add("orange")
+  
   println(queue)
+  
   val a = queue.remove()
   val b = queue.remove()
   val c =queue.remove()
+  
   println(queue)
   print(a,b,c)
 }
@@ -96,19 +101,24 @@ Second element removed is: banana
 Third element removed is: orange
 ```
 
-In the above code we removed the elements using the `.remove()` function and also showcased the removed elements order in the output.
+In the above code, the elements were removed from the queue using `.remove()` method. In addition, a variable was created to hold each element that was removed.
 
-## Peeking an element in the Queue
+## Peeking at Elements in a Queue
 
-We use the `.peek()` function to print out the first element of the queue. We can use the function like:
+The `.peek()` method can be used to print out the first element in a queue:
 
 ```kotlin
+import java.util.*
+
 fun main() {
   val queue: Queue<String> = LinkedList()
+  
   queue.add("apple")
   queue.add("banana")
   queue.add("orange")
+  
   println(queue)
+  
   val frontElement = queue.peek()
   println("The front element peeked is: $frontElement")
 }
