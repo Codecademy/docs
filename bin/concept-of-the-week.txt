@@ -1,1 +1,1 @@
-content/html/concepts/entities/entities.md
+content/html/concepts/classes/classes.md
