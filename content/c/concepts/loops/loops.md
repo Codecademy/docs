@@ -80,6 +80,12 @@ The output would be:
 
 A `do`...`while` statement creates a loop that executes a block of code once, checks if a condition is true, and then repeats the loop as long as the condition remains true. They are used when the loop body needs to be executed at least once. The loop ends when the condition evaluates to false.
 
+```pseudo
+do {
+  // Code to be executed at least once
+} while (condition);
+```
+
 ```c
 int x = 0;
 int i = 0;
@@ -110,7 +116,6 @@ The inner loop will run all its iterations for each iteration of the outer loop.
 ```c
 for (int outer = 0; outer < 2; outer++) {
   for (int inner = 0; inner < 3; inner++) {
-    console.log(`${outer}-${inner}`);
     printf("%d-%d\n", outer, inner);
   }
 }
