@@ -8,7 +8,7 @@ Tags:
   - 'Methods'
   - 'Numbers'
   - 'Arithmetic'
-  - 'Functions' 
+  - 'Functions'
 CatalogContent:
   - 'learn-c-sharp'
   - 'paths/computer-science'
@@ -22,27 +22,28 @@ The **`Math.Sinh()`** class method returns the hyperbolic sine of a given angle.
 Math.Sinh(angle);
 ```
 
-The `Math.Sinh()` method takes only one parameter, `angle`, an angle in radians of type `double`. The method returns the hyperbolic sine of the `angle` as a `double` value, or a `double` value equals to `angle` if the value of `angle` is:
+The `Math.Sinh()` method takes only one parameter: an `angle` in radians of type `double`. The method returns the hyperbolic sine of the angle as a `double` value, except if the value of `angle` equals:
 
-- `NaN` (not a number)
-- `NegativeInfinity`
-- `PositiveInfinity`
+- `NaN` (not a number), then it returns `NaN`.
+- `NegativeInfinity`, then it returns `PositiveInfinity`.
+- `PositiveInfinity`, then it also returns `PositiveInfinity`.
 
 > **Note:** Depending on the operating system or architecture, the exact result or the input range of the `Math.Sinh()` method may differ due to the differences in the C runtime environment.
 
 ## Example
 
-The following example first converts `88` degrees to radians, then uses the `Math.Sinh()` method to return the hyperbolic sine of that angle, and `Math.Round()` rounds up the result to five decimals. Finally, the `Console.WriteLine()` function prints the result to the console:
+The following example first converts `88` degrees to radians, then uses the `Math.Sinh()` method to return the hyperbolic sine of that angle. `Math.Round()` rounds up the result to five decimals. Finally, the `Console.WriteLine()` function prints the result to the console:
 
 ```cs
 using System;
+
 public class Example {
   public static void Main(string[] args) {
     double degrees = 88;
     double radians = degrees * Math.PI/180;
 
     double hyperbolicSine = Math.Round(Math.Sinh(radians), 5);
-    
+
     Console.WriteLine("The hyperbolic sine of " + degrees + " degrees is: " + hyperbolicSine);
   }
 }
@@ -60,10 +61,12 @@ The following example is runnable and returns the hyperbolic sine of the `angle`
 
 ```codebyte/csharp
 using System;
+
 public class Example {
   public static void Main(string[] args) {
     // Angle in degrees
     double angle = 0;
+
     Console.WriteLine("The hyperbolic sine of " + angle + " degrees is: " + Math.Round(Math.Sinh(angle * Math.PI/180), 5));
   }
 }
