@@ -41,7 +41,6 @@ public class Example {
   public static void Main(string[] args) {
     double degrees = 88;
     double radians = degrees * Math.PI/180;
-
     double hyperbolicSine = Math.Round(Math.Sinh(radians), 5);
 
     Console.WriteLine("The hyperbolic sine of " + degrees + " degrees is: " + hyperbolicSine);
