@@ -73,13 +73,13 @@ fun main() {
   queue.add("apple")
   queue.add("banana")
   queue.add("orange")
-  
+
   println(queue)
-  
+
   val a = queue.remove()
   val b = queue.remove()
   val c =queue.remove()
-  
+
   println(queue)
   print(a,b,c)
 }
@@ -112,13 +112,13 @@ import java.util.*
 
 fun main() {
   val queue: Queue<String> = LinkedList()
-  
+
   queue.add("apple")
   queue.add("banana")
   queue.add("orange")
-  
+
   println(queue)
-  
+
   val frontElement = queue.peek()
   println("The front element peeked is: $frontElement")
 }
