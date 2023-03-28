@@ -1,5 +1,5 @@
 ---
-Title: 'CICD Pipeline'
+Title: 'Learn the CICD Pipeline'
 Description: 'The CICD pipeline automates the software/application delivery process.'
 Subjects: 
   - 'Developer Tools'
