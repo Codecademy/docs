@@ -26,15 +26,14 @@ myString.ToLower();
 
 ## Example
 
-In the following example, a new string `originalString` is created that contains some all-caps text. Then, the `.ToLower()` method is called on this string and the result is stored in a new string variable `lowerCaseString`. Finally, the value of `lowerCaseString` is printed to the console:
+In the following example, the `.ToLower()` method is called on a string `originalString`, and is printed to the console:
 
 ```cs
 using System;
 
 string originalString = "HELLO WORLD";
-string lowerCaseString = originalString.ToLower();
 
-Console.WriteLine(lowerCaseString); // Output: "hello world"
+Console.WriteLine(originalString.ToLower()); // Output: "hello world"
 ```
 
 ## Codebyte Example
