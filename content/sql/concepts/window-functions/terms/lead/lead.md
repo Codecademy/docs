@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-The **`LEAD()`** window function takes a column and a positive integer offset as arguments and returns the value of the cell in that column that is the specified number of rows after the current row. A third argument can be added to fill cells that do not have a corresponding row.
+The **`LEAD()`** window function takes a column and an integer offset as arguments and returns the value of the cell in that column that is the specified number of rows after the current row. A third argument can be added to fill cells that do not have a corresponding row.
 
 ## Syntax
 
