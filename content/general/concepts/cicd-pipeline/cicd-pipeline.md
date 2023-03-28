@@ -24,6 +24,6 @@ CI (Continuous Integration) is the automation process for developers. CD (Contin
 
 2. Build: The process of using code from the repository to link necessary dependencies and libraries to "build" an executable file. Scripts can be utilized to convert the file in to a [virtual machine](https://www.codecademy.com/resources/docs/general/virtual-machines) or container. Logs generated during this time are used to find errors and send notifications to developers when the build is complete. 
 
-3. Test: Automated testing tools confirm the build is working and any new additons are not causing disruptions to a previous working version. If there are any errors, the test results are sent back to the developers to fix. 
+3. Test: Automated testing tools confirm the build is working and any new additions are not causing disruptions to a previous working version. If there are any errors, the test results are sent back to the developers to fix. 
 
 4. Deploy: After a build sucessfully passes rigorous testing, it is automatically deployed to the production environment. Since no deployment is perfect, there are still ways to report the unexpected errors and alert developers, which starts the process all over again. 
