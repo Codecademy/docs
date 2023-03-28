@@ -42,6 +42,6 @@ Containers can easily be scaled to handle changes in demand. For example, if a c
 
 Containers are designed to be lightweight, and they are typically faster and more efficient than other forms of virtualization. One major reason for this is because containers do not have to boot an entire operating system, unlike traditional virtual machines. Additionally, because containers are designed to be small and efficient, more containers can be run on a single host.
 
-## Who uses containers?
+## Containerization Uses
 
 Many software companies use containers and other virtualization technology. Containerization is a fundamental part of [cloud computing](https://www.codecademy.com/resources/docs/cloud-computing), [data science](https://www.codecademy.com/resources/docs/general/data-science), [cybersecurity](https://www.codecademy.com/resources/docs/cybersecurity), and more.
