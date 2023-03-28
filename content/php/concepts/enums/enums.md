@@ -20,7 +20,7 @@ Enums are available in many languages and are implemented in different features,
 
 ## Syntax
 
-In order to create an Enum it is used the `enum` keyword to declare them, followed by the name of the Enum..
+In order to create an Enum it is used the `enum` keyword to declare them, followed by the name of the Enum.
 
 ```
 enum Starters {
