@@ -21,6 +21,7 @@ An evaluation function estimates the cost to reach the goal node from the curren
 In a weighted graph, the total cost from the start node to the goal node is the sum of the cost of every visited edge along the path. The values from the evaluation function do not contribute to the total cost. They are only there to guide the search.
 
 ## Best-First Search Algorithms
+
 The following is a list of Best-First search algorithms.
 
 - Greedy Best-First Search: A search algorithms where the evaluation function is strictly equal to the heuristic function, disregarding the edge weights in a weighted graph.
