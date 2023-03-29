@@ -28,10 +28,10 @@ df_copy = df.copy()
 
 ## Shallow vs. Deep Copy
 
-Notice that .copy() method has an deep parameter that can dictate the behavior of the resulting dataframe. We can either make a shallow or a deep copy of pandas dataframe.
-1. In a shallow copy, the new object points to the same data as the original object, and any changes made to the copy will affect the original object. Changes made to the original dataframe will also be reflected in the shallow copy. By default, .copy() creates a shallow copy.
+Notice that .copy() method has a deep parameter that can dictate the behavior of the resulting dataframe. We can either make a shallow or a deep copy of pandas dataframe.
+1. In a shallow copy, the new object points to the same data as the original object, and any changes made to the copy will affect the original object. Changes made to the original dataframe will also be reflected in the shallow copy. By default, .copy() creates a shallow copy. But you can set deep=False to enforce a shallow copy.
 
-2. In a deep copy, a new object is created with a completely new set of data that is identical to the original data. Changes made to the copied object will not affect the original object and vice versa, even if the original data is modified.
+2. In a deep copy, a new object is created with a completely new set of data that is identical to the original data. Changes made to the copied object will not affect the original object and vice versa, even if the original data is modified. You can set deep=True to enforce a deep copy.
 
 ## Example:
 
@@ -41,26 +41,28 @@ import pandas as pd
 # create a DataFrame
 df = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
 
-# create a shallow copy of the DataFrame
-shallow_copy = df.copy(deep=False)
-
 # create a deep copy of the DataFrame
 deep_copy = df.copy(deep=True)
 
-# modify the shallow copy
-shallow_copy['A'][0] = 10
+# create a shallow copy of the DataFrame
+shallow_copy = df.copy(deep=False)
 
 # modify the deep copy
 deep_copy['A'][1] = 20
 
-# print the original DataFrame
-print(df)
+# modify the shallow copy
+shallow_copy['A'][0] = 10
+
+# print the deep copy
+print(deep_copy)
 
 # Output
 #     A  B
-# 0  10  4
-# 1   2  5
+# 0   1  4
+# 1  20  5
 # 2   3  6
+
+# Changes are reflected in the deep copy.
 
 # print the shallow copy
 print(shallow_copy)
@@ -71,12 +73,17 @@ print(shallow_copy)
 # 1   2  5
 # 2   3  6
 
-# print the deep copy
-print(deep_copy)
+# Changes are reflected in the shallow copy
+
+# print the original DataFrame
+print(df)
 
 # Output
 #     A  B
-# 0   1  4
-# 1  20  5
+# 0  10  4
+# 1   2  5
 # 2   3  6
+
+# Changes made to the shallow copy, have also affected the original dataframe. But changes made
+# to the deep copy have not affected the original dataframe.
 ```
