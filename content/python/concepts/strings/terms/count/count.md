@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-The **`.count()`** method finds the number of times the specified substring occurs within a given string.
+The **`.count()`** method finds the number of times the specified substring occurs within a given string. This method is case sensitive.
 
 ## Syntax
 
@@ -23,8 +23,8 @@ The `.count()` method is called on a string using the following syntax:
 string.count(substring, start=..., end=...)
 ```
 
-- `substring` is the substring to search for
-- `start` and `end` are optional and respectively specifies a starting and end position for the search
+- `substring` is the substring to search for.
+- `start` and `end` are optional and specify the search's starting and end positions.
 
 > **Note:** When not specified, `start` defaults to `0` and `end` defaults to `len(string)` which means the search will be performed on the whole string.
 
