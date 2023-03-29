@@ -1,7 +1,6 @@
 ---
-Title: 'Enumerations or Enums'
-Description: 'An Enumerations or Enum is an special or enumerated custom type that allows developers to have a fixed number of possible values.
-
+Title: 'Enums'
+Description: Description: 'An enumeration (enum) is an special or enumerated custom type that allows developers to have a fixed number of possible values.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
@@ -14,19 +13,19 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-An Enumeration or Enum is a special or enumerated custom type that allows developers to have a fixed number of possible values.
+An enumeration (`enum`) is a special or enumerated custom type that allows developers to have a fixed number of possible values.
 
-Enums are available in many languages and are implemented in different features, but in PHP Enums are a special kind of object, they're a class.
+`Enum`s are available in many languages and are implemented in different features, but in PHP, enumerations are a special kind of object.
 
 ## Syntax
 
-In order to create an Enum it is used the `enum` keyword to declare them, followed by the name of the Enum.
+The keyword, `enum`, is used to declare an enumeration, followed by the name of the `enum`.
 
-```
-enum Starters {
-  case Charmander;
-  case Squirtle;
-  case Bulbasaur;
+```php
+enum my_enum {
+  case Case1;
+  case Case2;
+  case Case3;
 }
 ```
 
@@ -34,22 +33,22 @@ enum Starters {
 
 ```php
 <?php
-enum Starter {
-  case Charmander;
-  case Squirtle;
-  case Bulbasaur;
+enum color {
+  case Pink;
+  case Blue;
+  case Yellow;
   }
 
-  // functions and methods
-  function choose_starter(Starter $starter) { }
+  // Functions and methods
+  function choose_color(Color $color) { }
 }
 ?>
 ```
 
-By using the `Starter` Enum, now it is possible to enforce types when accepting or returning a values for starter:
+By using the `Color` enumeration, now it is possible to enforce types when accepting or returning a values for color:
 
-```
-choose_starter(Starter :: Charmander);
-choose_starter(Starter :: Squirtle);
-choose_starter(Starter :: Bulbasaur);
+```php
+choose_color(Starter :: Pink);
+choose_color(Starter :: Blue);
+choose_color(Starter :: Yellow);
 ```
