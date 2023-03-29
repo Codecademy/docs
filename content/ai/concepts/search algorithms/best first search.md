@@ -1,6 +1,6 @@
 ---
 Title: 'Best-First Search'
-Description: 'A graph searching algorithm that expands a node based on an evaluation function.'
+Description: 'A graph searching algorithm that determines a path between nodes based on an evaluation function.'
 Subjects:
   - 'Data Science'
   - 'AI'
