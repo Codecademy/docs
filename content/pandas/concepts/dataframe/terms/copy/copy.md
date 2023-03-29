@@ -22,9 +22,8 @@ df_copy = df.copy()
 
 | Parameter Name | Data Type                | Usage                                                                                                                             |
 | :------------: | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
-|    `deep`      | bool                     | This argument specifies whether the copy should be a deep copy or a shallow copy. If deep=True, then the copy is a deep copy      |
-|    `inplace`   | bool                     | This argument specifies whether the copy should be made in place or not. If inplace=False (the default), the copy is made to a    |
-|                |                          | new object, and the original object is left unchanged.                                                                            |
+|     `deep`     | bool                     | This argument specifies whether the copy should be a deep copy or a shallow copy. If deep=True, then the copy is a deep copy      |
+|    `inplace`   | bool                     | If inplace=False (the default), the copy is made to a new object, and the original object is left unchanged.                      |
 |     `meta`     | python dict              | This argument is used to specify metadata to be attached to the copy                                                              |
 
 ## Shallow vs. Deep Copy
