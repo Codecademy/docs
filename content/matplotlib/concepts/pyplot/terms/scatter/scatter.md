@@ -53,7 +53,7 @@ plt.show()
 
 Output:
 
-![Output of matplotlib.pyplot.scatter() function example](/media/matplotlib-scatter-1.png)
+![Output of matplotlib.pyplot.scatter() function example](https://raw.githubusercontent.com/Codecademy/docs/main/media/matplotlib-scatter-1.png)
 
 ```py
 import matplotlib.pyplot as plt
@@ -67,4 +67,4 @@ plt.show()
 
 Output:
 
-![Output of matplotlib.pyplot.scatter() function example 2](/media/matplotlib-scatter-2.png)
+![Output of matplotlib.pyplot.scatter() function example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/matplotlib-scatter-2.png)
