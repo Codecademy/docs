@@ -24,6 +24,6 @@ In a weighted graph, the total cost from the start node to the goal node is the 
 
 The following is a list of Best-First search algorithms.
 
-- Greedy Best-First Search: A search algorithms where the evaluation function is strictly equal to the heuristic function, disregarding the edge weights in a weighted graph.
+- Greedy Best-First Search: A search algorithm where the evaluation function is strictly equal to the heuristic function, disregarding the edge weights in a weighted graph.
 - A* Search: A search algorithm where the evaluation function takes into account the edge weights as well as the heuristic measure.
 - BEAM Search: A search algorithm where, in a weighted graph, only the _n_ (in this case, _n_ is known as the beam width) most promising nodes are considered for further exploration.
