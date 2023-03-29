@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-The **`.count()`** method finds the number of times the specified substring occurs within a given string. This method is case sensitive.
+The **`.count()`** method finds the number of times the specified substring occurs within a given string. This method is case-sensitive.
 
 ## Syntax
 
