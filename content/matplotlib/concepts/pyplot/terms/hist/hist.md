@@ -21,7 +21,9 @@ The **`.hist()`** method in the matplotlib library is used to draw a histogram p
 matplotlib.pyplot.hist(x, bins, range, density, weights, cumulative, bottom, histtype, align, orientation, rwidth, log, color, label, stacked)
 ```
 
-The `x` argument, the data to be plotted, is the only required parameter. Other parameters are optional and can be used to customize plot elements such as the number of bins, color, and other relevant features.
+The `x` argument is the only required parameter. It represents the values that will be plotted and can be of type float or array.
+
+Other parameters are optional and can be used to customize plot elements such as the number of bins, color, and other relevant features.
 
 `.hist()` takes the following arguments:
 
@@ -32,14 +34,14 @@ The `x` argument, the data to be plotted, is the only required parameter. Other 
 - `weights`: Accepts an array of values (must match the shape of `x`) that determines the relative contribution of each value in `x`.
 - `cumulative`: Takes a boolean value, and if `True` computes a cumulative histogram where each bin gives counts of the relevant values within that bin in addition to all the values smaller than that bin.
 - `bottom`: Sets the floor or the bottom of the bins, default is 0.
-- `histtype`: Takes keywords (e.g. 'bar', 'barstacked', 'step', 'stepfilled') to modify the histogram type.
-- `align`: Sets the alignment of the bins, default is 'mid' (options include 'left' and 'right').
-- `orientation`: Sets the orientation of the histogram, default is vertical.
+- `histtype`: Takes keywords (e.g. `bar`, `barstacked`, `step`, `stepfilled`) to modify the histogram type.
+- `align`: Sets the alignment of the bins, default is `mid` (options include `left` and `right`).
+- `orientation`: Sets the orientation of the histogram, default is `vertical`.
 - `rwidth`: Sets the bar width as a fraction of the bin size.
-- `log`: Changes the 'y' values, the frequency of values, to a log scale.
+- `log`: Changes the "y" values, the frequency of values, to a log scale.
 - `color`: Sets the color of the lines/bars.
 - `label`: Option to include names for multiple data sets.
-- `stacked`: Boolean value that transforms the plot to be stacked, similar to stacked bar graph.
+- `stacked`: Boolean value that transforms the plot to be stacked, similar to a stacked bar graph.
 
 ## Example
 
@@ -53,10 +55,6 @@ import math
 # Data is available at https://data.austintexas.gov/Health-and-Community-Services/Austin-Animal-Center-Intakes/wter-evkm
 df = pd.read_csv('/content/Austin_Animal_Center_Intakes.csv')
 
-# Creating dog and cat specific DataFrames
-df_dog = df[df['Animal Type']== 'Dog'].copy()
-df_cat = df[df['Animal Type']== 'Cat'].copy()
-
 # Function for standardizing pet age values
 def get_months(x):
     if x.endswith('years'):
@@ -67,19 +65,18 @@ def get_months(x):
         return int(x.split(' ')[0])
 
 # Applying the function to create a new months column
-df_dog['months'] = df_dog['Age upon Intake'].apply(get_months)
-df_cat['months'] = df_cat['Age upon Intake'].apply(get_months)
+df['months'] = df['Age upon Intake'].apply(get_months)
 
 # Creating the plot
 plt.figure(figsize=(16,8))
 ax = plt.gca()
 
-ax.hist(df_dog['months'],histtype='step',bins=20)
-ax.hist(df_cat['months'],histtype='step',bins=20, color='red')
+ax.hist(df.loc[df['Animal Type']=='Dog',['months']],range=(0,200))
+ax.set_title('Numbers of Adopted Dogs by Age')
 plt.xlabel('Months')
 plt.show()
 ```
 
 Output:
 
-![Output of matplotlib.pyplot.hist() function example](/media/matplotlib-hist-fig.png)
+![Output of matplotlib.pyplot.hist() function example](/media/matplotlib-hist-dogs-fig.png)
