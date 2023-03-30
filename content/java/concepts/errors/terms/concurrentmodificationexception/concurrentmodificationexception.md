@@ -1,17 +1,14 @@
 ---
 Title: 'ConcurrentModificationException'
-Description: 'Occurs when item Removed or Add from Iterable content during Iteration.'
+Description: 'Occurs when an item is removed or added from iterable content during iteration.'
 Subjects:
   - 'Code Foundations'
-  - 'Computer Science
+  - 'Computer Science'
 Tags:
   - 'Errors'
-  - 'Error Handling
+  - 'Error Handling'
   - 'Exceptions'
-  - 'Exceptions Handling'
-  - 'Iterator'
   - 'Debugging'
-  - 'ConcurrentModificationException'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
@@ -19,7 +16,7 @@ CatalogContent:
 
 The `ConcurrentModificationException` exception is thrown when one thread is iterating through a collection using an Iterator object, and another thread modifies the collection by adding, removing, or modifying its elements. When the `Iterator` object tries to access the next element in the `collection`, it detects that the collection has been modified, and throws the `ConcurrentModificationException`.
 
-### EXAMPLE
+## EXAMPLE
 
 ```java
 import java.util.ArrayList;
@@ -35,10 +32,10 @@ public class modificationError {
   arr.add("Four");
 
   try {
-   // enhanced for loop, It used the Iterator class under the hood. 
+   // Enhanced for loop, It uses the Iterator class under the hood. 
    for (String elem : arr) {
         if (elem.equals("One")) {
-            arr.remove(elem); // this will throw the exception.
+            arr.remove(elem); // This will throw the exception.
         }
         System.out.println(elem); // Will not reach this line.
     }
