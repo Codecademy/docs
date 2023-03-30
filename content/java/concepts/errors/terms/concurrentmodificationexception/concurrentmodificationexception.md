@@ -16,7 +16,7 @@ CatalogContent:
 
 The `ConcurrentModificationException` exception is thrown when one thread is iterating through a collection using an Iterator object, and another thread modifies the collection by adding, removing, or modifying its elements. When the `Iterator` object tries to access the next element in the `collection`, it detects that the collection has been modified, and throws the `ConcurrentModificationException`.
 
-## EXAMPLE
+## Example
 
 ```java
 import java.util.ArrayList;
