@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-In Pandas, .copy() is a method that creates a copy of a DataFrame or a Series. This method either returns a fully independent copy of dataframe or a shallow copy (see Shallow vs. Deep Copy section).
+In Pandas, **`.copy()`** is a method that creates a copy of a DataFrame or a Series. This method returns a fully independent copy of DataFrame or a shallow copy (see Shallow vs. Deep Copy section).
 
 ## Syntax
 ```pseudo
