@@ -84,7 +84,7 @@ for name in topBabyNames {
 }
 // Output:
 // Liam is the coolest name.
-// Jackson is the coolest.
+// Jackson is the coolest name.
 ```
 
 > **Note:** Alternatively, the [`.forEach()`](https://www.codecademy.com/resources/docs/swift/arrays/forEach) method can be used to iterate over an array.
@@ -104,6 +104,6 @@ print("To make life interesting, next week I'll fly to \(statesVisited.randomEle
 
 ### Methods
 
-There are many array manipulation methods available in the Swift Standard Library, including generic Collection based methods. Some of these include testing the contents of arrays (e.g. `contains()` and `.isEmpty`) while others can modify or manipulate the array entirely (e.g., `map()`, `reduce()`, and `sort()`).
+There are many array manipulation methods available in the Swift Standard Library, including generic collection-based methods. Some of these include testing the contents of arrays (e.g. `contains()` and `.isEmpty`) while others can modify or manipulate the array entirely (e.g., `map()`, `reduce()`, and `sort()`).
 
 Below are some methods available for arrays:
