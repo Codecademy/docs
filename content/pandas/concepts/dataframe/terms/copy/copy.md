@@ -16,6 +16,7 @@ CatalogContent:
 In Pandas, **`.copy()`** is a method that creates a copy of a DataFrame or a Series. This method returns a fully independent copy of DataFrame or a shallow copy (see Shallow vs. Deep Copy section).
 
 ## Syntax
+
 ```pseudo
 df_copy = df.copy()
 ```
