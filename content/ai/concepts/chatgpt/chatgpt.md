@@ -81,10 +81,12 @@ The internet is full of biased negative information. For ChatGPT to be useful th
 
 ChatGPT was intended to be a demonstration product. Companies around the world are evaluating how to use this new technology. There are usage scenarios that may reduce or replace some work being performed by human beings. These include:
 
+- Processing and summarizing text
 - Filtering human-generated content
 - Creating advanced chatbots
 - Writing code
-- Summarizing news articles
+- Customer service and support
+- Generating styled documents (i.e. resumes, proposals, emails)
 - Much more!
 
 ### Cost
