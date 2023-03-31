@@ -65,7 +65,7 @@ Due to the use of `Transformers` in creating the model, the potential output is 
 
 ### Hallucinations
 
-ChatGPT and LLMs in general often give confident and plausible generated results but they are wrong or do not make sense. In AI these are called Hallucinations. With prompt engineering, ChatGPT can be told to not give an answer unless it has high confidence in the results.
+ChatGPT and LLMs in general often give confident and plausible generated results but they are wrong or do not make sense. In AI these are called Hallucinations. With prompt engineering, ChatGPT can be told to not give an answer unless it has high confidence in the results. This can reduce hallucinations but not completely solve the problem.
 
 ### Plagiarism and cheating
 
