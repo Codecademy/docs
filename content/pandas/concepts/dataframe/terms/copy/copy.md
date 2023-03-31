@@ -1,6 +1,6 @@
 ---
 Title: '.copy()'
-Description: 'Returns a DataFrame object with rows or columns removed based on column or index names.'
+Description: 'Returns a copy of a DataFrame or Series.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
