@@ -31,6 +31,7 @@ ChatGPT is the packaging of a set of trained LLMs into a chatbot and developer f
 `ChatGPT` is trained by using vast quantities of data from the Internet. However LLMs are different from Internet search engines:
 
 - No ongoing daily web crawlers and updates
+- Data can be out of date. `ChatGPT 3` uses data from 2021.
 - The size of the data trained in the model
 - ChatGPT uses a type of fine-tuning called Reinforcement Learning from Human Feedback (RLHF)
 - ChatGPT-specific approaches including `prompts`, `embeddings`, and parameters such as `temperature`.
