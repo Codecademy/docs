@@ -11,8 +11,6 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/data-science'
-  - 'paths/data-science-foundations'
 ---
 
 The **`.subplots()`** method returns a figure with multiple subplots. This method is an efficient way to create popular subplot layouts with a high-level and concise syntax.
