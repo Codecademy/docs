@@ -26,7 +26,7 @@ string.count(substring, start=..., end=...)
 - `substring` is the substring to search for.
 - `start` and `end` are optional and specify the search's starting and end positions.
 
-> **Note:** When not specified, `start` defaults to `0` and `end` defaults to `len(string)` which means the search will be performed on the whole string.
+> **Note:** When not specified, `start` defaults to `0` and `end` defaults to `len(string)`, which means the search will be performed on the whole string.
 
 ## Example
 
@@ -45,7 +45,7 @@ The output is:
 
 ## Codebyte Example
 
-The codebyte example below is runnable and counts the number of times "at" is in the string startng at position `2` and ending at position `7`:
+The codebyte example below is runnable and counts the number of times "at" is in the string starting at position `2` and ending at position `7`:
 
 ```codebyte/python
 game = "catattack"
