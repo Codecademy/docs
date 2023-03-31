@@ -20,12 +20,7 @@ In Pandas, **`.copy()`** is a method that creates a copy of a DataFrame or a Ser
 ```pseudo
 df_copy = df.copy()
 ```
-
-| Parameter Name | Data Type                | Usage                                                                                                                             |
-| :------------: | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
-|     `deep`     | bool                     | This argument specifies whether the copy should be a deep copy or a shallow copy. If deep=True, then the copy is a deep copy      |
-|    `inplace`   | bool                     | If inplace=False (the default), the copy is made to a new object, and the original object is left unchanged.                      |
-|     `meta`     | python dict              | This argument is used to specify metadata to be attached to the copy                                                              |
+The boolean parameter `deep` specifies whether `.copy()` should create a deep or a shallow copy. The default value is `deep=True`, which enforces a deep copy.                                                            
 
 ## Shallow vs. Deep Copy
 
