@@ -1,4 +1,16 @@
-# Enum
+---
+Title: 'Enum'
+Description: 'Enum is used to assign custom names to integral constants'
+Subjects:
+  - 'Code Foundations'
+  - 'Computer Science'
+Tags:
+  - 'Enums'
+  - 'Variable Type'
+CatalogContent:
+  - 'learn-c'
+  - 'paths/computer-science'
+---
 
 A **enum** (enumeration) is a user-defined data type in C. It is used to assign names to integral constants, the principal purpose of this names is to create a program that is easy to read and maintain. It is defined using the `enum` keyword.
 
@@ -17,72 +29,9 @@ enum name
 
 An enum is made up of members where each `memberName` can have a defined integral constant (i.e. 0, 10, 2) or just the `memberName`.
 
-## Example
+## Examples
 
-The following example uses the `enum` keyword to create a `day` enumeration:
-
-```c
-enum day {
-	Sunday, 
-	Monday,
-	Tuesday,
-	Wednesday,
-	Thursday,
-	Friday,
-	Saturday
-};
-```
-
-`Sunday` will be setvalue 0, `Monday` will be set to a value of 1, and so  `Patient` structure.
-
-## Another Example
-
-```c
-
-// Another example program to demonstrate working
-// of enum in C
-#include<stdio.h>
- 
-enum year{Jan, Feb, Mar, Apr, May, Jun, Jul,
-          Aug, Sep, Oct, Nov, Dec};
- 
-int main()
-{
-   int i;
-   for (i=Jan; i<=Dec; i++)   
-      printf("%d ", i);
-   
-   return 0;
-}
-```
-
-### Output
-
-```c
-0 1 2 3 4 5 6 7 8 9 10 11
-```
-
-## Note
-
-### 1. Two enum names can have the same value. For instance, both ‘Running’ and ‘In_Progress’ have the same value of 1.
-
-```c
-#include <stdio.h>
-enum State {Todo = 0, Running = 1, In_Progress = 1};
-int main()
-{
-    printf("%d, %d, %d", Todo, Running, In_Progress);
-    return 0;
-}
-```
-
-#### Output
-
-```shell
-0, 1, 1
-```
-
-### 2. If we do not explicitly assign values to enum MemberName, the compiler by default assigns values starting from 0. For instance, Sunday gets a value of 0, Monday gets 1, and so on.
+If we do not explicitly assign values to `enum` `day`, the compiler by default assigns values starting from 0. For instance, `sundays` gets a value of 0, `monday` gets 1, and so on.
 
 ```c
 #include <stdio.h>
@@ -96,13 +45,31 @@ int main()
 }
 ```
 
-#### Output
+This example results in the following output:
 
 ```shell
 The day number stored in d is 3
 ```
 
-### 3. We can assign values to a particular name in any order. All unassigned names get value as the value of the previous name plus one.
+Two `enum` names can have the same value. For instance, both `Running` and `In_Progress` have the same value of 1.
+
+```c
+#include <stdio.h>
+enum State {Todo = 0, Running = 1, In_Progress = 1};
+int main()
+{
+    printf("%d, %d, %d", Todo, Running, In_Progress);
+    return 0;
+}
+```
+
+This example results in the following output.
+
+```shell
+0, 1, 1
+```
+
+We can assign values to a particular name in any order. All unassigned names get value as the value of the previous name plus one.
 
 ```c
 #include <stdio.h>
@@ -117,10 +84,10 @@ int main()
 }
 ```
 
-#### Output
+This example resulsts in the following output:
 
 ```shell
 1 2 20 21 10 11 12
 ```
 
-### 4.  All enum constants must be unique in their scope.
+> **Note** All `enum` constants must be unique in their scope.
