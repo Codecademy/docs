@@ -39,7 +39,7 @@ Note that the designation of the `deep` parameter can have impacts on the result
 ```py
 import pandas as pd
 
-# create a DataFrame
+# Create a DataFrame
 df = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
 
 # create a deep copy of the DataFrame
