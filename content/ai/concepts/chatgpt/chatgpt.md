@@ -61,15 +61,19 @@ So how does it all really work? In the `Transformer` based model each word is tr
 
 Due to the use of `Transformers` in creating the model, the potential output is not just a prediction of the next word. Because the model is trained with deep understanding and `Attention` whole sentences and groupings of text are generated. The model used by ChatGPT can accept several thousand tokens as input .
 
-## Challenges
+## Risks and Limitations
 
-### Hallucinations
+### Misinformation
+
+Because current LLMs are trained against data sets from some period of time in the past they don't always give accurate information. Also their correctness is only as good as the data they are trained with. This doesn't always result in accurate results.
+
+### Disinformation
 
 ChatGPT and LLMs in general often give confident and plausible generated results but they are wrong or do not make sense. In AI these are called Hallucinations. With prompt engineering, ChatGPT can be told to not give an answer unless it has high confidence in the results. This can reduce hallucinations but not completely solve the problem.
 
-### Plagiarism and cheating
+### Data Security
 
-Because ChatGPT works so well many people are concerned about its usage. You could use ChatGPT to generate a 500-word essay that convincingly looks like a person wrote it. In some tests, it has been proven ChatGPT could answer many common standardized tests.
+Using ChatGPT requires the sending of information over the internet. Sending personal or sensitive information presents a possible security risk.
 
 ### Bias
 
