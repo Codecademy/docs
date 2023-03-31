@@ -29,7 +29,8 @@ df_copy = df.copy()
 
 ## Shallow vs. Deep Copy
 
-Notice that .copy() method has a deep parameter that can dictate the behavior of the resulting dataframe. We can either make a shallow or a deep copy of pandas dataframe.
+Note that the designation of the `deep` parameter can have impacts on the resulting copy as well as the original DataFrame.
+
 1. In a shallow copy, the new object points to the same data as the original object, and any changes made to the copy will affect the original object. Changes made to the original dataframe will also be reflected in the shallow copy. By default, .copy() creates a shallow copy. But you can set deep=False to enforce a shallow copy.
 
 2. In a deep copy, a new object is created with a completely new set of data that is identical to the original data. Changes made to the copied object will not affect the original object and vice versa, even if the original data is modified. You can set deep=True to enforce a deep copy.
