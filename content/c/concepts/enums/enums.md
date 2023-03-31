@@ -1,7 +1,6 @@
-
 # Enum
 
-A **enum** (enumeration) is a user-defined data type in C. It is mainly used to assign names to integral constants, the names make a program easy to read and maintain. It is defined using the `enum` keyword.
+A **enum** (enumeration) is a user-defined data type in C. It is used to assign names to integral constants, the principal purpose of this names is to create a program that is easy to read and maintain. It is defined using the `enum` keyword.
 
 ## Syntax
 
@@ -65,14 +64,14 @@ int main()
 
 ## Note
 
-### 1. Two enum names can have the same value. For example, in the following C program both ‘Failed’ and ‘Freezed’ have the same value 0.
+### 1. Two enum names can have the same value. For instance, both ‘Running’ and ‘In_Progress’ have the same value of 1.
 
 ```c
 #include <stdio.h>
-enum State {Working = 1, Failed = 0, Freezed = 0};
+enum State {Todo = 0, Running = 1, In_Progress = 1};
 int main()
 {
-    printf("%d, %d, %d", Working, Failed, Freezed);
+    printf("%d, %d, %d", Todo, Running, In_Progress);
     return 0;
 }
 ```
@@ -80,10 +79,10 @@ int main()
 #### Output
 
 ```shell
-1, 0, 0
+0, 1, 1
 ```
 
-### 2. If we do not explicitly assign values to enum names, the compiler by default assigns values starting from 0. For example, in the following C program, Sunday gets a value of 0, Monday gets 1, and so on.
+### 2. If we do not explicitly assign values to enum MemberName, the compiler by default assigns values starting from 0. For instance, Sunday gets a value of 0, Monday gets 1, and so on.
 
 ```c
 #include <stdio.h>
@@ -91,7 +90,7 @@ enum day {sunday, monday, tuesday, wednesday, thursday, friday, saturday};
  
 int main()
 {
-    enum day d = thursday;
+    enum day d = wednesday;
     printf("The day number stored in d is %d", d);
     return 0;
 }
@@ -100,14 +99,14 @@ int main()
 #### Output
 
 ```shell
-The day number stored in d is 4
+The day number stored in d is 3
 ```
 
 ### 3. We can assign values to a particular name in any order. All unassigned names get value as the value of the previous name plus one.
 
 ```c
 #include <stdio.h>
-enum day {sunday = 1, monday, tuesday = 5,
+enum day {sunday = 1, monday, tuesday = 20,
           wednesday, thursday = 10, friday, saturday};
  
 int main()
@@ -121,9 +120,7 @@ int main()
 #### Output
 
 ```shell
-1 2 5 6 10 11 12
+1 2 20 21 10 11 12
 ```
 
-### 4. The value assigned to enum names must be some integral constant, i.e., the value must be in the range from minimum possible integer value to maximum possible integer value.
-
-### 5.  All enum constants must be unique in their scope. For example, the following program fails in compilation.
+### 4.  All enum constants must be unique in their scope.
