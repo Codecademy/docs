@@ -78,7 +78,7 @@ NaN
 
 ## Codebyte Example
 
-The following example is runnable and uses the `Math.Exp()` method to return the value of raising `e` to the power of the given  `double` type `number`:
+The following example is runnable and uses the `Math.Exp()` method to return the value of raising `e` to the power of the given `double` type `number`:
 
 ```codebyte/csharp
 using System;
