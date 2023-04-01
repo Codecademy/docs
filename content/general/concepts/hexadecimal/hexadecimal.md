@@ -39,8 +39,7 @@ Hexadecimal, as well as binary(base 2) and octal(base 8) number systems, have ba
 
 ## Syntax
 
-A hexadecimal number is prefixed with `0x`.
-
+A hexadecimal number is prefixed with `0x` when refering to the base 16 number system.
 
 ## Hex Colors
 
