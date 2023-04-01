@@ -60,3 +60,4 @@ public class Example {
     Console.WriteLine("The max value of " + num1 + " and " + num2 + " is " + max);
   }
 }
+```
