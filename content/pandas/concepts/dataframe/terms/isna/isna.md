@@ -19,7 +19,6 @@ The **`.isna()`** method checks whether the objects of a dataframe or a series c
 
 ```py
 # Check for NA values.
-
 df.isna()
 ```
 ## Example
