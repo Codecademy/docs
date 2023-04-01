@@ -75,3 +75,20 @@ Infinity
 0
 NaN
 ```
+
+## Codebyte Example
+
+The following example is runnable and uses the `Math.Exp()` method to return the value of raising `e` to the power of the given `double` type `number`:
+
+```codebyte/csharp
+using System;
+
+public class Example {
+  public static void Main() {
+    double number = 0;
+    double exponential = Math.Exp(number);
+
+    Console.WriteLine("The value of e raised to the power of " + number + " is " + exponential);
+  }
+}
+```
