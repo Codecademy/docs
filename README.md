@@ -51,3 +51,5 @@ Please read through the [Contribution Guide](https://github.com/Codecademy/docs/
 ## Additional Notes
 
 Remember, if you ever have any questions at all, we're always here to help in the [Codecademy Forums](https://discuss.codecademy.com/c/community/community-docs/2205) and [Codecademy Discord](https://discord.com/invite/codecademy).
+
+I wish to learn as much as I can to make myself useful
