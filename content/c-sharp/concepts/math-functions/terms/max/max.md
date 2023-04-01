@@ -44,3 +44,19 @@ This example results in the following output:
 ```shell
 Math.Max (int) = 345
 ```
+
+## Codebyte Example
+
+The following example is runnable and uses the `Math.Max()` method to return the greater  number from the given two `integer` type numbers, `num1` and `num2`:
+
+```codebyte/csharp
+using System;
+
+public class Example {
+  public static void Main() {
+    int num1 = 12756, num2 = 12104;
+    int max = Math.Max(num1, num2);
+
+    Console.WriteLine("The max value of " + num1 + " and " + num2 + " is " + max);
+  }
+}
