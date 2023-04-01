@@ -20,7 +20,7 @@ Below we'll follow the `if`, `else` and, `else if` statements one by one while e
 
 An `if statement` compares two values and returns a value `if` true.
 
-## Example 1
+## Example of `if statement`
   ```cs
 
   var input1 = 10;
@@ -42,8 +42,6 @@ If the code above did not return true the code below will return false.
   ```
 >**note** `===` means equal. `!==` means not equal. 
 
-## Explanation of example 1
-
 We start by creating three variables (`var`) and assigning a value to two of them. The third variable will be assigned in a later stage of the code.
 
 After creating the variables we start our `if statement`.
@@ -56,7 +54,7 @@ after that, we wrote a second `if statement` which checked if the output was equ
 
 A `else statement` goes in combination with the `if statement` and returns a value `if` false.
 
-## Example 2
+## Example of `else statement`
   ```cs
 
   var input1 = 10;
@@ -76,9 +74,6 @@ A `else statement` goes in combination with the `if statement` and returns a val
   }
 
   ```
-
-## Explanation of example 2
-
 We again start by creating three variables (`var`) and assigning a value to two of them. The third variable will be assigned in a later stage of the code.
 
 After creating the variables we again start our `if statement`.
@@ -91,7 +86,7 @@ after that, we wrote a second `if statement` which checked if the output was equ
 
 An `else if statement` comes after an `if statement` if more comparing is needed and before an `else statement` we've added another variable to the mix.
 
-## Example 3
+## Example `else if statement`
   ```cs
 
   var input1 = 10;
@@ -116,9 +111,6 @@ An `else if statement` comes after an `if statement` if more comparing is needed
   }
 
   ```
-
-## Explanation of example 3
-
 We now start by creating four variables (`var`) and assigning a value to three of them. The fourth variable will be assigned in a later stage of the code.
 
 After creating the variables we again start our `if statement`.
@@ -135,7 +127,7 @@ after that, we wrote a second `if statement` which checked if the variable outpu
 
 The conditional operator `?:` also known as the `ternary conditional operator` checks a boolean output and returns one of the two results depending on it being true or false. 
 
-## Example 4
+## Example of `Ternary operator`
   ```cs
 
   string getInput1(input1) => input1 === 10 ? "I returned true" : "I returned false";
@@ -144,9 +136,6 @@ The conditional operator `?:` also known as the `ternary conditional operator` c
   Console.WriteLine(getInput1(5)); // PRINTS TO THE CONSOLE "I RETURNED FALSE"
 
   ```
-
-## Explanation of example 4
-
 `A Ternary operator` can be read as followed: *is this `condition` true ? yes : no. If the `condition` is true it returns yes and if it's false it returns no.
 
 In our example, we checked if input1 is equal to 10. If this is true it returns *I returned true*. If this is false it returns *I returned false*. 
