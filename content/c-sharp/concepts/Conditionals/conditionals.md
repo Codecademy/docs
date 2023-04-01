@@ -7,7 +7,10 @@ Subjects:
   - 'Mobile Development'
   - 'Game Development'
 Tags:
-  -
+  - 'Booleans'
+  - 'Development'
+  - 'Script'
+  - 'Variables'
 CatalogContent:
   - 'learn-typescript'
   - 'paths/full-stack-engineer-career-path'
