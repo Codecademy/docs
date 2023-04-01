@@ -61,3 +61,20 @@ NaN
 22.3606797749979
 0.379473319220205
 ```
+
+## Codebyte Example
+
+The following example is runnable and uses the `Math.Sqrt()` method to return a `double` type value of the square root of `number`:
+
+```codebyte/csharp
+using System;
+
+public class Example {
+  public static void Main() {
+    double number = 100;
+    double squareRoot = Math.Sqrt(number);
+
+    Console.WriteLine("The square root of " + number + " is " + squareRoot);
+  }
+}
+```
