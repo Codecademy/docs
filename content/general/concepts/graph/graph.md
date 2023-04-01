@@ -37,5 +37,5 @@ There are a few data structures typically used for implementing a graph. Each st
 There are many well-known algorithms that have been developed for working with graphs, some of them include the following:
 
 - Breadth First Search: A path-finding and mapping algorithm that relies on a layered approach to finding the next closest nodes within a graph.
-- Djikstra: This is a shortest-path algorithm that can be used on weighted graphs, but not on graphs that include negative weights.
+- Dijkstra: This is a shortest-path algorithm that can be used on weighted graphs, but not on graphs that include negative weights.
 - Bellman-Ford: Another shortest-path algorithm that is specifically designed for addressing graphs with negative weights.
