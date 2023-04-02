@@ -45,7 +45,7 @@ The expression or variable's resulting value must be of a type in which it can b
 
 ## Example 1: Evaluating a variable
 
-Let's say we want to print out some statements to a student based on a grade they got on a test or quiz.
+The following prints out some statements to a student based on a grade they got on a test or quiz.
 
 ```c
 #include <stdio.h>
