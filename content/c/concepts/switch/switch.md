@@ -114,4 +114,4 @@ This example will output:
 The addition of 1 and 3 results in 4
 ```
 
-Just as aforementioned, you can use a switch-case statement to evaluate the value of not just a variable, but also an expression, as long as the expression results in one value that is either a number or something containing a numerical value.
+Just as aforementioned, a switch-case statement can be used to evaluate the value of not just a variable, but also an expression, as long as the expression results in one value that is either a number or something containing a numerical value.
