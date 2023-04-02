@@ -37,7 +37,7 @@ switch(expression) {
 
 Here's how the switch-case statement works:
 
-1. The switch `expression` is evaluated only once
+1. The switch `expression` is evaluated only once.
 2. The value of the expression will be compared with the values of each `case`, and if there is a match with a provided `case`, its corresponding block of code is executed.  If there is no code block provided in the case, it moves on right to the next case until it finds a case where there is a code block, and executes that code block there.
 3. The `break` keyword breaks out of the switch block, and stops any further executions of statements in the switch.  The program now exits the switch.
 4. The code inside the `default` case is executed if none of the above cases are matched with the resulting value of the expression.  This case is optional, and acts just like the `else` in an `if..else-if..else` statement -- it acts as a "catch-all" case.
