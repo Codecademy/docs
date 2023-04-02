@@ -104,13 +104,7 @@ int main(){
 	default:
 	    printf("The addition of %d and %d does not result in either 3 or 4\n", num1, num2);
     }
-
-    /**************************************
-    Should output:
-
-    The addition of 1 and 3 results in 4
-    **************************************/
-  
+    return 0;  
 }
 ```
 
