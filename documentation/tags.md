@@ -18,6 +18,7 @@ Arguments
 Arithmetic
 Arrays
 ASP.NET
+Assignment
 Asymptotic Notation
 Async Await
 Attributes
@@ -99,6 +100,8 @@ Else
 Encapsulation
 Encoding
 Enum
+Environment Variables
+Equality
 Error Handling
 Errors
 ES6
@@ -212,6 +215,7 @@ Physics
 Pointers
 Positioning
 PostgreSQL
+Precedence
 Primary Key
 Print
 Probability
@@ -285,6 +289,7 @@ Type Guard
 Type Narrowing
 Typography
 UI
+Unary
 Union
 Unicode
 Units
