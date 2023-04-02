@@ -26,7 +26,7 @@ Since the beginning of the 21st century, data science has been used in generally
 
 - Data Visualization
 - Data Engineering
-- [Machine Learning](https://www.codecademy.com/resources/docs/general/machine-learning) & Deep Learning
+- [Machine Learning](https://www.codecademy.com/resources/docs/ai/machine-learning) & Deep Learning
 - [Artificial Intelligence](https://www.codecademy.com/resources/docs/ai)
 - [Cloud and Distributed Computing](https://www.codecademy.com/resources/docs/general/cloud-computing)
 - Business Intelligence and Strategy
