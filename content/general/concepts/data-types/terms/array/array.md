@@ -1,6 +1,6 @@
 ---
 Title: 'Array'
-Description: 'An array is a collection of stored data that can hold values of various data type.'
+Description: 'Stores data with values of a various data type in an ordered collection of elements.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
