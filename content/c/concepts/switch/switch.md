@@ -83,7 +83,6 @@ int main(){
 }
 ```
 
-Notice that the case for the grade `B` did not have a code block on its own -- not even a `break` keyword, so the switch statement went to the next case of `C` and executed the block of code there.
 
 ## Example 2: Evaluating an expression
 
