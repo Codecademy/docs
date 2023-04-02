@@ -40,7 +40,6 @@ Hexadecimal, as well as binary (base 2) and octal (base 8), have bases that are 
 
 A hexadecimal number is prefixed with `0x` in many computer languages to identify it as a base 16 number.
 
-
 ## Hex Colors
 
 Hex numbers are often used to represent colors (hex colors) and are specified in the following way: `#RRGGBB`(red, green, and blue). One example of a hex color is `#0000FF` which represents the color blue. This is because red and green are set to their lowest value, `00`, and blue is set to its highest value, `FF`.
