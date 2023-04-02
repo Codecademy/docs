@@ -38,7 +38,7 @@ Here's how the switch-case statement works:
 
 1. The switch `expression` is evaluated only once.
 2. The value of the expression will be compared with the values of each `case`, and if there is a match with a provided `case`, its corresponding block of code is executed.  If there is no code block provided in the case, it moves on right to the next case until it finds a case where there is a code block, and executes the code block there.
-3. The `break` keyword breaks out of the switch block, and stops any further executions of statements in the switch.  The program now exits the switch.
+3. The `break` keyword breaks out of the switch block, and stops any further executions of statements in the switch.  (Without the `break`, execution would continue with the next `case` statement.) The program now exits the switch.
 4. The code inside the `default` case is executed if none of the above cases are matched with the resulting value of the expression.  This case is optional, and acts just like the `else` in an `if..else-if..else` statement.  It acts as a "catch-all" case.
 
 The expression or variable's resulting value must be of a type in which it can be considered an integral or enumerated type.  Examples of valid result types for switch-case expressions are `int`, `double`, `float`, and `char`.  (Remember that characters, which have type `char`, are integral, because they have integer ASCII codes.)  This statement will not be valid for expressions or variables that, for example, result in a string value.
