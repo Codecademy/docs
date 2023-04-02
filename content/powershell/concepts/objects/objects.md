@@ -24,7 +24,7 @@ Everything in PowerShell is an **object**. An object is a combination of variabl
 - Properties: Variables that describe the object (characteristics).
 - Methods: Functions that define how to use the object (actions).
 
-Each object is an instance of a blueprint called a type, or [class](https://www.codecademy.com/resources/docs/general/class). 
+Each object is an instance of a blueprint called a type, or [class](https://www.codecademy.com/resources/docs/general/class).
 
 ## Getting Properties and Methods of an Object
 
@@ -41,11 +41,11 @@ Properties are also called attributes and are characteristics of an object. The 
 ```shell
 PS > $my_string = "Codecademy"
 PS > $my_string | Get-Member -MemberType Property # Shows all properties of the String object
-   
+
   TypeName: System.String
 
-Name   MemberType Definition       
-----   ---------- ----------       
+Name   MemberType Definition
+----   ---------- ----------
 Length Property   int Length {get;}
 ```
 
@@ -85,12 +85,12 @@ By default, new custom objects have no properties and four methods.
 PS > $dog | Get-Member
   TypeName: System.Management.Automation.PSCustomObject
 
-Name        MemberType Definition                    
-----        ---------- ----------                    
+Name        MemberType Definition
+----        ---------- ----------
 Equals      Method     bool Equals(System.Object obj)
-GetHashCode Method     int GetHashCode()             
-GetType     Method     type GetType()                
-ToString    Method     string ToString() 
+GetHashCode Method     int GetHashCode()
+GetType     Method     type GetType()
+ToString    Method     string ToString()
 ```
 
 ### Adding Properties

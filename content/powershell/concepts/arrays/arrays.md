@@ -37,7 +37,7 @@ $arr_3 = @(                               # Multi-line Array
     "Uno"
     "Dos"
     "Tres"
-) 
+)
 ```
 
 ## Accessing Array Items
@@ -50,12 +50,12 @@ $colors = "red", "yellow", "black", "blue"
 
 The indexes in PowerShell start at `0`.
 
-|   Index   |       Value      |
-| :-------: | :--------------: |
-|    `0`    |    `"red"`       |
-|    `1`    |    `"yellow"`    |
-|    `2`    |    `"black"`     |
-|    `3`    |    `"blue"`      |
+| Index |   Value    |
+| :---: | :--------: |
+|  `0`  |  `"red"`   |
+|  `1`  | `"yellow"` |
+|  `2`  | `"black"`  |
+|  `3`  |  `"blue"`  |
 
 Brackets `[ ]` are used to access an item in an array. To access `"black"` in the `$colors` array, for example:
 
@@ -167,12 +167,12 @@ PS > $fibonacci_2 * 2
 
 Containment operators check whether or not an item is in an array and returns a boolean.
 
-|      Operator      |                Syntax               |                     Example                    |
-| :----------------: | :---------------------------------: | :--------------------------------------------: |
-|   `-contains`      |    `<array> -contains <item>`       |   `$fibonacci -contains 4` returns `False`.    |
-|   `-notcontains`   |    `<array> -notcontains <item>`    |   `$fibonacci -notcontains 4` returns `True`.  |
-|   `-in`            |    `<item> -in <array>`             |   `5 -in $fibonacci` returns `True`.           |
-|   `-notin`         |    `<item> -notin <array>`          |   `5 -notin $fibonacci` returns `False`.       |
+|    Operator    |            Syntax             |                   Example                   |
+| :------------: | :---------------------------: | :-----------------------------------------: |
+|  `-contains`   |  `<array> -contains <item>`   |  `$fibonacci -contains 4` returns `False`.  |
+| `-notcontains` | `<array> -notcontains <item>` | `$fibonacci -notcontains 4` returns `True`. |
+|     `-in`      |     `<item> -in <array>`      |     `5 -in $fibonacci` returns `True`.      |
+|    `-notin`    |    `<item> -notin <array>`    |   `5 -notin $fibonacci` returns `False`.    |
 
 ### `-join`
 

@@ -31,13 +31,13 @@ CatalogContent:
 
 PowerShell arithmetic operators are used to calculate numeric values. These include:
 
-| Operator |      Name      | Description                                                                   |
-| :------: | :------------: | ----------------------------------------------------------------------------- |
-|   `+`    |    Addition    | Adds numbers, concatenates strings and arrays.                                |
-|   `-`    |  Subtraction   | Subtracts or negates numbers.                                                 |
-|   `*`    | Multiplication | Multiplies numbers or copies strings and arrays a specified number of times.  |
-|   `/`    |    Division    | Divides numbers.                                                              |
-|   `%`    |     Modulo     | Returns the remainder of a division operation.                                |
+| Operator |      Name      | Description                                                                  |
+| :------: | :------------: | ---------------------------------------------------------------------------- |
+|   `+`    |    Addition    | Adds numbers, concatenates strings and arrays.                               |
+|   `-`    |  Subtraction   | Subtracts or negates numbers.                                                |
+|   `*`    | Multiplication | Multiplies numbers or copies strings and arrays a specified number of times. |
+|   `/`    |    Division    | Divides numbers.                                                             |
+|   `%`    |     Modulo     | Returns the remainder of a division operation.                               |
 
 Arithmetic operators are binary operators, which means they act on two operands. Their syntax in PowerShell is `<Operand_1> <Arithmetic Operator> <Operand_2>`.
 
@@ -81,7 +81,6 @@ PS > $fibonacci_2 * 2
 
 Assignment operators can be used to assign, change, or append values to variables. These operators are a shorter syntax for assigning the result of an arithmetic operator. The general syntax of the assignment operators is: `<Variable> <Assignment Operator> <Value>`.
 
-
 | Operator |                Name                | Description                                 |
 | :------: | :--------------------------------: | ------------------------------------------- |
 |   `=`    |             Assignment             | `$x = 3` assigns value `3` to variable `x`. |
@@ -105,34 +104,34 @@ PS > $number
 
 Unary operators increase or decrease the value of a variable by 1.
 
-| Operator |      Name      | Description                        |
-| :------: | :------------: | ---------------------------------- |
-|   `++`   |   Increment    | `$x++` is short for `$x = $x + 1`. |
-|   `--`   |   Decrement    | `$x--` is short for `$x = $x - 1`. |
+| Operator |   Name    | Description                        |
+| :------: | :-------: | ---------------------------------- |
+|   `++`   | Increment | `$x++` is short for `$x = $x + 1`. |
+|   `--`   | Decrement | `$x--` is short for `$x = $x - 1`. |
 
 ## Equality Comparison Operators
 
 Equality operators in PowerShell are binary operators that compare two integer or string values that return `True` if the operator condition is met, otherwise `False`.
 
-| Operator |           Name             | Description                                                   |
-| :------: | :------------------------: | ------------------------------------------------------------- |
-|   `-eq`  |          Equal             | `$x -eq $y` is `True` if `x` and `y` are equal.               |
-|   `-ne`  |        Not Equal           | `$x -ne $y` is `True` if `x` and `y` are not equal.           |
-|   `-gt`  |        Greater Than        | `$x -gt $y` is `True` if `x` is greater than `y`.             |
-|   `-lt`  |         Less Than          | `$x -lt $y` is `True` if `x` is less than `y`.                |
-|   `-ge`  |  Greater Than or Equal to  | `$x -ge $y` is `True` if `x` is greater than or equal to `y`. |
-|   `-le`  |   Less Than or Equal to    | `$x -le $y` is `True` if `x` is less than or equal to `y`.    |
+| Operator |           Name           | Description                                                   |
+| :------: | :----------------------: | ------------------------------------------------------------- |
+|  `-eq`   |          Equal           | `$x -eq $y` is `True` if `x` and `y` are equal.               |
+|  `-ne`   |        Not Equal         | `$x -ne $y` is `True` if `x` and `y` are not equal.           |
+|  `-gt`   |       Greater Than       | `$x -gt $y` is `True` if `x` is greater than `y`.             |
+|  `-lt`   |        Less Than         | `$x -lt $y` is `True` if `x` is less than `y`.                |
+|  `-ge`   | Greater Than or Equal to | `$x -ge $y` is `True` if `x` is greater than or equal to `y`. |
+|  `-le`   |  Less Than or Equal to   | `$x -le $y` is `True` if `x` is less than or equal to `y`.    |
 
 ## Logical Operators
 
 Logical operators allow us to combine multiple operator expressions and statements into complex conditionals. They operate on boolean values and return boolean values.
 
-| Operator            | Name  | Description                                                           |
-| :-----------------: | :---: | --------------------------------------------------------------------- |
-|   `-and`            | And   | `$x -and $y` is `True` only if `$x` and `$y` are both `True`.         |
-|  `-or`              | Or    | `$x -or $y` is `True` if either `$x` or `$y` is `True`.               |
-|  `-xor`             | Xor   | `$x -xor $y` is `True` if only, but not both, `$x` or `$y` is `True`. |
-|   `!` or `-not`     | Not   | `!$x` is `True` when `$x` is `False` and `False` when `$x` is `True`. |
+|   Operator    | Name | Description                                                           |
+| :-----------: | :--: | --------------------------------------------------------------------- |
+|    `-and`     | And  | `$x -and $y` is `True` only if `$x` and `$y` are both `True`.         |
+|     `-or`     |  Or  | `$x -or $y` is `True` if either `$x` or `$y` is `True`.               |
+|    `-xor`     | Xor  | `$x -xor $y` is `True` if only, but not both, `$x` or `$y` is `True`. |
+| `!` or `-not` | Not  | `!$x` is `True` when `$x` is `False` and `False` when `$x` is `True`. |
 
 ## Operator Precedence
 

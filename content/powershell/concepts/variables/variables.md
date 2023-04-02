@@ -28,7 +28,7 @@ PS > $pi
 
 ## Creating a Variable
 
-To create a variable, a variable reference is followed by an equal sign `=` and the value to be assigned. 
+To create a variable, a variable reference is followed by an equal sign `=` and the value to be assigned.
 
 ```shell
 $my_string_variable = "Hello, World!"
