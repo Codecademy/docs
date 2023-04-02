@@ -86,7 +86,7 @@ int main(){
 
 ## Example 2: Evaluating an expression
 
-Let's see if the addition of 2 numbers results in either a total of 5 or 4.
+The following determines if the addition of 2 numbers results in either a total of 5 or 4.
 
 ```c
 #include <stdio.h>
