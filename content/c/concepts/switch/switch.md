@@ -83,6 +83,12 @@ int main(){
 }
 ```
 
+This example will output:
+
+```shell
+Good job!
+Your grade is B
+```
 
 ## Example 2: Evaluating an expression
 
