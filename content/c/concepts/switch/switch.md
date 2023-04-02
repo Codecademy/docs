@@ -1,5 +1,5 @@
 ---
-Title: 'switch-case' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
+Title: 'Switch' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
 Description: 'Evaluates an expression or variable to execute a code of block if the expression's result matches a case value.' # Required; ideally under 150 characters and starts with a present-tense verb (used in search engine results and content previews)
 Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
   - 'Code Foundations'
