@@ -24,5 +24,5 @@ Examples of wireframe elements include:
 - [Search Fields](https://www.codecademy.com/resources/docs/uiux/search-fields)
 - [Text](https://www.codecademy.com/resources/docs/uiux/text)
 - [Buttons](https://www.codecademy.com/resources/docs/uiux/buttons)
-- [Images](https://www.codecademy.com/resources/docs/uiux/images)
+- [Images](https://www.codecademy.com/resources/docs/uiux/image)
 - [Videos](https://www.codecademy.com/resources/docs/uiux/videos)

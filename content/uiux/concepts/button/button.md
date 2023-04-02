@@ -16,7 +16,7 @@ A **button** is a design element that allows users to take action.
 Buttons play an essential role in digital products because they help users complete various actions, such as confirming a purchase, uploading a file, or closing a pop-up modal.
 
 The design of a button should clearly convey its function, so the user understands what will happen if they select it. A button may feature text, an icon, or both to communicate what it does.
-Additionally, [text](https://www.codecademy.com/resources/docs/uiux/text), [images](https://www.codecademy.com/resources/docs/uiux/images), or other design elements near the button can provide context to clarify its purpose.
+Additionally, [text](https://www.codecademy.com/resources/docs/uiux/text), [images](https://www.codecademy.com/resources/docs/uiux/image), or other design elements near the button can provide context to clarify its purpose.
 
 ### Button Elements
 
