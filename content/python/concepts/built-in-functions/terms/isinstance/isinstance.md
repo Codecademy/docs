@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **isinstance()** function determines whether a given object is of a designated value type. If it is, the function will return `True`, otherwise the function will return `False`.
+The **`isinstance()`** function determines whether a given object is of a designated value type. If it is, the function will return `True`, otherwise the function will return `False`.
 
 ## Syntax
 
