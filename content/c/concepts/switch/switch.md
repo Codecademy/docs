@@ -101,6 +101,7 @@ int main(){
 	    break;
 	case 4:
 	    printf("The addition of %d and %d results in 4\n", num1, num2);
+	    break;
 	default:
 	    printf("The addition of %d and %d does not result in either 3 or 4\n", num1, num2);
     }
