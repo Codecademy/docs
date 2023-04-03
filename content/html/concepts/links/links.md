@@ -85,3 +85,11 @@ The two primary attributes are:
   </body>
 </html>
 ```
+
+## Try it yourself
+
+This example shows you how to create a link to Codecademy.com. Try editing the URL and the link text to create your own link.  
+
+```codebyte/html
+<a href="http://www.codecademy.com">Go to Codecademy</a>
+```
