@@ -17,22 +17,22 @@ CatalogContent:
 
 ## Features
 
-Some of the features and constraints that define the use and functionality of a breadth-first search (BFS) algorithm, include the following:
+Some of the features and constraints that define the use and functionality of a breadth-first search (BFS) algorithm include the following:
 
 - A relatively simple and efficient algorithm for finding the shortest-path in graphs that do not have edge weights.
 - In addition to finding the shortest path between two nodes this algorithm can be used to map or traverse a graph to find all connections or if a given path exists between any pair of nodes.
 
 ## Implementation
 
-The example below walks through a basic implementation of BFS that will take a starting node, an end node, and a graph as arguments. However, to start, a brief overview of the necessary steps or pseudocode that will serve as an outline for the final implementation.
+The example below walks through a basic implementation of BFS that will take a starting node, an end node, and a graph as arguments. However, to start, a brief overview of the necessary steps or pseudocode will serve as an outline for the final implementation.
 
-The BFS algorithm is built upon a simple process of elimination. It begins with the selection of a node and the identification of all the neighboring nodes. The algorithm iterates through these basic steps until all nodes have been evaluated (or another objective has been achieved). Through this process the graph is explored in a layered approach where each node at a given level (or degree) is evaluated before moving on to the next. Implicitly, a search employing this process will yield the shortest path between any two nodes.
+The BFS algorithm is built upon a simple process of elimination. It begins with the selection of a node and the identification of all the neighboring nodes. The algorithm iterates through these basic steps until all nodes have been evaluated (or another objective has been achieved). Through this process, the graph is explored in a layered approach where each node at a given level (or degree) is evaluated before moving on to the next. Implicitly, a search employing this process will yield the shortest path between any two nodes.
 
-As noted in the description above the BFS process is an iterative one. The implementation commonly revolves around adding and removing nodes as their evaluated from a stack.
+As noted in the description above, the BFS process is an iterative one. The implementation commonly revolves around adding and removing nodes as their evaluated from a stack.
 
 The implementation below can be broken down into the following steps:
 
-- A list is initialized with the starting node, nodes will be added to and removed from this list in a queue-like manner.
+- A list is initialized with the starting node, and nodes will be added to and removed from this list in a queue-like manner.
 - Another list is initialized for tracking nodes that have already been processed.
 - A variable is initialized for tracking the path (the sequence of nodes from the source to the final node).
 - A variable is initialized to represent the current node being evaluated (the last item in the path).
