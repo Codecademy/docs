@@ -23,7 +23,7 @@ list.append(iterable)
 
 This will place passed in iterable (list, tuple, or string) as new elements at the very end of the list.
 
-`.append()` does not return any value.
+`.extend()` does not return any value.
 
 ## Examples
 
