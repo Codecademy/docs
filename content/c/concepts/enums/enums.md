@@ -5,8 +5,8 @@ Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
-  - 'Enums'
-  - 'Variable Type'
+  - 'Enum'
+  - 'Variable Types'
 CatalogContent:
   - 'learn-c'
   - 'paths/computer-science'
@@ -19,11 +19,11 @@ A **enum** (enumeration) is a user-defined data type in C. It is used to assign 
 ```pseudo
 enum name
 {
-	memberName1 = <integral constant>,
-	memberName2,
-	memberName3,
-	...
-	memberNameN
+  memberName1 = <integral constant>,
+  memberName2,
+  memberName3,
+  ...
+  memberNameN
 };
 ```
 
