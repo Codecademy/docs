@@ -1,6 +1,6 @@
 ---
 Title: 'Enum'
-Description: 'Enum is used to assign custom names to integral constants'
+Description: 'An enum is used to assign custom names to integral constants.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **enum** (enumeration) is a user-defined data type in C. It is used to assign names to integral constants, the principal purpose of this names is to create a program that is easy to read and maintain. It is defined using the `enum` keyword.
+An **enum** (enumeration) is a user-defined data type in C. It is used to assign names to integral constants. The principal purpose of these names is to create a program that is easy to read and maintain. It is defined using the `enum` keyword.
 
 ## Syntax
 
@@ -31,7 +31,7 @@ An enum is made up of members where each `memberName` can have a defined integra
 
 ## Examples
 
-If we do not explicitly assign values to `enum` `day`, the compiler by default assigns values starting from 0. For instance, `sundays` gets a value of 0, `monday` gets 1, and so on.
+If we do not explicitly assign values to `enum` `day`, the compiler by default assigns values starting from 0. For instance, `sunday` gets a value of 0, `monday` gets 1, and so on.
 
 ```c
 #include <stdio.h>
