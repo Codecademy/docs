@@ -13,14 +13,15 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Breadth-first search** is a shortest-path and traversing algorithm for unweighted graphs. This is a foundational algorithm in [graph](https://www.codecademy.com/resources/docs/general/graph) theory from which many other algorithms start.
+**Breadth-first search (BFS)** is a traversing algorithm for unweighted graphs. This is a foundational algorithm in [graph](https://www.codecademy.com/resources/docs/general/graph) theory from which many other algorithms start.
 
 ## Features
 
-Some of the features and constraints that define the use and functionality of a breadth-first search (BFS) algorithm include the following:
+Some of the features and constraints that define the use and functionality of a breadth-first search algorithm include the following:
 
 - A relatively simple and efficient algorithm for finding the shortest-path in graphs that do not have edge weights.
-- In addition to finding the shortest path between two nodes this algorithm can be used to map or traverse a graph to find all connections or if a given path exists between any pair of nodes.
+- It has a time complexity of O (vertices + edges).
+- In addition to finding the shortest path between two nodes, this algorithm can be used to map or traverse a graph to find all connections or if a given path exists between any pair of nodes.
 
 ## Implementation
 
@@ -28,7 +29,7 @@ The example below walks through a basic implementation of BFS that will take a s
 
 The BFS algorithm is built upon a simple process of elimination. It begins with the selection of a node and the identification of all the neighboring nodes. The algorithm iterates through these basic steps until all nodes have been evaluated (or another objective has been achieved). Through this process, the graph is explored in a layered approach where each node at a given level (or degree) is evaluated before moving on to the next. Implicitly, a search employing this process will yield the shortest path between any two nodes.
 
-As noted in the description above, the BFS process is an iterative one. The implementation commonly revolves around adding and removing nodes as their evaluated from a stack.
+As noted in the description above, the BFS process is an iterative one. The implementation commonly revolves around adding and removing nodes as their evaluated from a queue.
 
 The implementation below can be broken down into the following steps:
 
@@ -41,18 +42,17 @@ The implementation below can be broken down into the following steps:
 - If the starting node is present in an edge-pair, as the source or destination, then the accompanying (neighboring) node is added to the `neighbors` list.
 - Once all the neighbors have been collected, another loop iterates over this list.
 - A second variable for updating the path (`curr_path`) is instatiated. This variable is the sum of the existing steps in addition to the current node.
-- Each neighbor is tested, if it matches the destination node the search is complete and `curr_path` is returned.
-- If the neighbor is not a match the path is added to the queue. Once all the neighbors have been tested the process starts again from the top with the next path in the queue. And the function continues testing each neighbor from the final node in the `curr_path`.
+- Each neighbor is tested. If it matches the destination node, the search is complete and `curr_path` is returned.
+- If the neighbor is not a match, the path is added to the queue. Once all the neighbors have been tested, the process starts again from the top with the next path in the queue. And the function continues testing each neighbor from the final node in the `curr_path`.
 - The loop iterates until the queue is empty or until a path is returned.
 - If all the nodes are processed and there is no path, an empty list is returned.
 
 ## Example
 
-The example below generates a random graph and solves the shortest path between two nodes. For the sake of succinctness, the example below leverages the Python library, networkx, for generating a random graph. This library is available by default within [Google Colaboratory](https://colab.research.google.com) and can serve as a convenient environment for reproducing this example.
+The example below generates a random graph and solves the shortest path between two nodes. For the sake of succinctness, the example below leverages the Python library, `networkx`, for generating a random graph. This library is available by default within [Google Colaboratory](https://colab.research.google.com) and can serve as a convenient environment for reproducing this example.
 
 ```python
 # Imports and graph setup
-
 import networkx as nx
 from matplotlib import pyplot as plt
 plt.rcParams["figure.figsize"] = (10,10)
