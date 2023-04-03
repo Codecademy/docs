@@ -20,7 +20,7 @@ Most Java compilers do little to no optimization of the code, leaving that task 
 
 ## Compiling a Java File
 
-The Java compiler is executed on the [command line](https://www.codecademy.com/resources/docs/general/terminal) in [Unix](https://www.codecademy.com/resources/docs/general/unix) or DOS shells as follows:
+The Java compiler is executed on the [command line](https://www.codecademy.com/resources/docs/command-line/terminal) in [Unix](https://www.codecademy.com/resources/docs/general/unix) or DOS shells as follows:
 
 ```pseudo
 javac ProgramName.java
