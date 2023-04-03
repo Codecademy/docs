@@ -21,7 +21,7 @@ The **`abs()`** function returns the absolute value of the argument.
 $result = abs(n);
 ```
 
-Where `n` is the number to find the absolute value of. 
+Where `n` is the number to find the absolute value of.
 
 ## Example
 
