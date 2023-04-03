@@ -63,3 +63,25 @@ do
 ```
 
 > **Note:** The loop in the last example will still run once even though the condition returns `false`.
+
+## For Each Loop
+
+The `foreach` loop in C# execute a block of code for each element in a given array or collection. Each iteration, the block is run with a different element of the array.  
+It is declared with the `foreach` keyword, followed by, in parentheses, a variable type, a variable name, the keyword `in` and the collection to iterate over.
+
+```cs
+// array to loop over
+int[] numbersArray = {0, 1, 2, 3};
+
+foreach (int number in numbersArray)
+{
+  Console.WriteLine(number);
+}
+
+/* output:
+0
+1
+2
+3
+*/
+```
