@@ -14,8 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Functions** are blocks of code that can be reused multiple times.
-Functions are defined using the `func` keyword, followed by the function name, parameters, and return type.
+**Functions** are blocks of code that can be reused multiple times. They are defined using the `func` keyword, followed by the function name, parameters, and return type.
 
 ## Syntax
 
@@ -77,7 +76,6 @@ func main() {
   fmt.Println(MultipleReturns(10, 3))
   fmt.Println(MultipleReturns2(10, 3))
 }
-
 ```
 
 This outputs the following:
@@ -104,7 +102,6 @@ func main() {
     fmt.Println("hey")
   }()
 }
-
 ```
 
 ```shell
@@ -126,8 +123,10 @@ func main() {
     fmt.Println("Hey, I have no name")
   }()
   greeting := "Hey, there."
+
   // Greeting can be accessed inside of nested functions and can be changed
   // Or assigned to a variable to make it reusable
+
   secondWay := func(name string) {
     greeting = "Hey " + name
 
@@ -136,7 +135,6 @@ func main() {
   fmt.Println(greeting)
 
 }
-
 ```
 
 This produces the following output:
@@ -157,7 +155,6 @@ They are also called closure/function literals.
 Below is an example of an anonymous function:
 
 ```go
-
 package main
 
 import "fmt"
@@ -187,7 +184,6 @@ func main() {
   }(1, 2, 3, 4, 5) // Can pass any number of arguments
 
 }
-
 ```
 
 This example produces the following output:
@@ -321,7 +317,6 @@ func main() {
 func _init() {
   fmt.Println("Initializing package main!!")
 }
-
 ```
 
 This example results in the following output:
