@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **switch case** statement in PHP executes different blocks of code based on a variable or an expression. It's a helpful alternative to multiple if-else statements, especially when there are many conditions to check. By grouping related conditions, switch case simplifies code and makes it easier to read. Moreover, it speeds up code execution by evaluating the expression only once.
+A **switch case** statement in PHP executes different blocks of code based on a variable or an expression. It's a helpful alternative to multiple `elseif` [conditional](https://www.codecademy.com/resources/docs/php/conditionals) statements, especially when there are many conditions to check. By grouping related conditions, switch case statements simplify code and make it easier to read. Moreover, it speeds up code execution by evaluating the expression only once.
 
 ### Syntax
 
