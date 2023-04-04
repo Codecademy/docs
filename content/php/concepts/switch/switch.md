@@ -9,27 +9,24 @@ Tags:
   - 'Conditionals'
 CatalogContent:
   - 'learn-php'
-  - 'paths/front-end-engineer-career-path'
   - 'paths/computer-science'
 ---
 
-## Switch
-
-A switch case statement in PHP executes different blocks of code based on a variable or an expression. It's a helpful alternative to multiple if-else statements, especially when there are many conditions to check. By grouping related conditions, switch case simplifies code and makes it easier to read. Moreover, it speeds up code execution by evaluating the expression only once.
+A **switch case** statement in PHP executes different blocks of code based on a variable or an expression. It's a helpful alternative to multiple if-else statements, especially when there are many conditions to check. By grouping related conditions, switch case simplifies code and makes it easier to read. Moreover, it speeds up code execution by evaluating the expression only once.
 
 ### Syntax
 
 ```
 switch (expression) {
   case value1:
-    // code to be executed if expression matches value1
+    // Code to be executed if expression matches value1
     break;
   case value2:
-    // code to be executed if expression matches value2
+    // Code to be executed if expression matches value2
     break;
   ...
   default:
-    // code to be executed if expression does not match any of the cases
+    // Code to be executed if expression does not match any of the cases
 }
 ```
 
@@ -37,7 +34,7 @@ In the above syntax, the switch statement compares the `expression` to each case
 
 If there's a match, the code block associated with that case is executed. The `default` case is optional, and it specifies the code that should be executed when none of the cases match the expression.
 
-It's important to end each case block with a `break` statement, or the code will continue to the next case block.
+> **Note:** It's important to end each case block with a `break` statement, or the code will continue to the next case block.
 
 ### Example
 
