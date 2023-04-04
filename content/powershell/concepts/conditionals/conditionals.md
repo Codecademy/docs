@@ -26,11 +26,12 @@ There are four types of conditional statements in PowerShell:
 3. `elseif`
 4. `switch`
 
-## `if`
+## if
 
 The `if` statement executes a block of code if the condition expression is `True`.
 
 ```shell
+$my_num = 2
 if($my_num -eq 2){ 
   Write-Host "A True Statement"
 }
@@ -39,7 +40,7 @@ Write-Host "After the if statement"
 
 The example above prints `A True Statement` *and* `After the if statement` if `$my_num` is equal to `2`. Otherwise, it skips the statement within the `if` curly braces `{ }` and just prints `After the if statement`.
 
-## `else` 
+## else
 
 The `else` clause always follows the `if` statement.
 
@@ -47,6 +48,7 @@ The `else` clause always follows the `if` statement.
 - If the condition is `False`, the code in the `else` section is executed.
 
 ```shell
+$my_num = 2
 if($my_num -gt 0) {
   Write-Host "A positive number" # Prints if $my_num is more than 0
 }
@@ -55,11 +57,12 @@ else {
 }
 ```
 
-## `elseif`
+## elseif
 
 One or more `elseif` statements can be added between `if` and `else` to test multiple conditions.
 
 ```shell
+$my_num = 2
 if($my_num -gt 0) {
   Write-Host "A positive number" # Prints if $my_num is more than 0
 }
@@ -71,7 +74,7 @@ else {
 }
 ```
 
-## `switch`
+## switch
 
 The `switch` statement provides a simpler syntax for the same behavior as `if` / `elseif` expressions that check for equality.
 
@@ -80,8 +83,10 @@ $my_num = 2
 switch ($my_num) {
   1 { 
     Write-Host "You chose 1"
+  }
   2 { 
     Write-Host "You chose 2"
+  }
   3 { 
     Write-Host "You chose 3"
   }
