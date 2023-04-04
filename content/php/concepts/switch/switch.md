@@ -59,4 +59,3 @@ switch ($day) {
 }
 ?>
 ```
-The code above compares the value of the variable `$day` to each case value. If the value of `$day` matches with the case value "Tuesday", the code block associated with the second case is executed, which prints "Today is Tuesday." to the screen.
