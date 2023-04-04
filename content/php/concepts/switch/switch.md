@@ -36,11 +36,12 @@ If there's a match, the code block associated with that case is executed. The `d
 
 > **Note:** It's important to end each case block with a `break` statement, or the code will continue to the next case block.
 
-### Example
+### Codebyte Example
 
-Here's an example of how to use the switch case statement in PHP:
+The following codebyte example uses switch statements to compare the value of the variable `$day` to each case value. If the value of `$day` matches with the case value "Tuesday", the code block associated with the second case is executed, which prints "Today is Tuesday." to the screen:
 
 ```codebyte/php
+<?php
 $day = "Tuesday";
 
 switch ($day) {
@@ -56,5 +57,6 @@ switch ($day) {
   default:
     echo "Today is a different day.";
 }
+?>
 ```
 The code above compares the value of the variable `$day` to each case value. If the value of `$day` matches with the case value "Tuesday", the code block associated with the second case is executed, which prints "Today is Tuesday." to the screen.
