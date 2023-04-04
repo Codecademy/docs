@@ -46,4 +46,4 @@ set CLASSPATH=path\to\file
 
 ## Online Java Compilers
 
-Several sites offer online Java compilers, allowing the entry of small Java programs in a web-based [IDE](https://www.codecademy.com/resources/docs/general/ide) and running them on the fly. [JDoodle](https://www.jdoodle.com/online-java-compiler/) is one such site that offers this ability.
+Several sites offer online Java compilers, allowing the entry of small Java programs in a web-based [IDE](https://www.codecademy.com/resources/docs/general/developer-tools/ide) and running them on the fly. [JDoodle](https://www.jdoodle.com/online-java-compiler/) is one such site that offers this ability.
