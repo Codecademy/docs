@@ -12,7 +12,8 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'learn-c'
   - 'paths/computer-science'
 ---
-In C, the **`switch case`** statement is one that allows us to execute a block of code, like you would if were to use the `if..else-if..else` statement.  A main difference here, though, is that this statement is much easier to read and write.
+
+In C, the **`switch case`** statement is one that allows us to execute a block of code, similar to the `if..else-if..else` statement.  A main difference here, though, is that this statement is much easier to read and write.
 
 However, it can only evaluate one expression or variable at a time.
 
