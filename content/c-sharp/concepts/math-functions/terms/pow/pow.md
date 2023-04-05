@@ -47,7 +47,7 @@ This example results in the following output:
 
 ## Codebyte Example
 
-The following example is runnable and uses the `Math.Pow()` method to return a `double` type value of `number` raised to the power of `power`:
+The following example is runnable and uses the `Math.Pow()` method to return a `double` type value of `2` raised to the power of `10`:
 
 ```codebyte/csharp
 using System;
