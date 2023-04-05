@@ -66,7 +66,7 @@ do
 
 ## For Each Loop
 
-The `foreach` loop in C# execute a block of code for each element in a given array or collection. Each iteration, the block is run with a different element of the array.
+The `foreach` loop in C# executes a block of code for each element in a given array or collection. Each iteration, the block is run with a different element of the array.
 
 It is declared with the `foreach` keyword, followed by, in parentheses, a variable type, a variable name, the keyword `in` and the collection to iterate over.
 
