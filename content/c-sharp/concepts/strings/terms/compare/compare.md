@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.Compare()`** method is a string method that compares two specified strings in alphabetical order and returns an integer that represents their relative order.
+The **`.Compare()`** method is a string method that compares two specified [`strings`](https://www.codecademy.com/resources/docs/c-sharp/strings) in alphabetical order and returns an integer that represents their relative order.
 
 ## Syntax
 
@@ -20,26 +20,26 @@ The **`.Compare()`** method is a string method that compares two specified strin
 String.Compare(string1, string2, `ignoreCase`);
 ```
 
-The `.Compare()` method is called on the `String` class. It takes two strings, `string1` and `string2`, as arguments and compares them alphabetically.
+The `.Compare()` method is called on the `String` class. It takes two `string` type arguments, `string1` and `string2`, to compare them alphabetically.
 
-> **Note:** The third argument, `ignoreCase`,  is an optional `boolean` parameter. By default, when it is left out or it is set to `false`, the `.Compare()` method case sensitive. Setting the `ignoreCase` to `true` makes the `.Compare()` method to ignore the letter case during comparison.
+> **Note:** `ignoreCase` is an optional `boolean` type argument. By default, `false` or not specified, the `.Compare()` method is case-sensitive. Passing `true` as the third argument makes the`.Compare()` method non-case-sensitive.
 
-The `.Compare()` method returns an `integer` that represents the relative order of `string1` and `string2`:
+The `.Compare()` method returns an `integer` that represents the relative order of `string1` and `string2` in the alphabet:
 
-- `0`, if their position is the same (`string1` and `string2` are the same)
-- a negative `integer`, if `string1` comes before `string2` in alphabetical order
-- positive `integer`, if `string2` comes before `string1` in alphabetical order
+- `0` if their position is the same (`string1` and `string2` are identical)
+- a negative `integer` if `string1` comes before `string2`
+- a positive `integer` if `string2` comes before `string1`
 
 ## Example
 
-In the following example, the `.Compare()` method is used to compare `str1`  with `str2` and `str3`, and the returned integer is printed to the console:
+In the following example, the `.Compare()` method compares `Pizza` with `pizza` and `waffle`. Then the `WriteLine()` method prints the returned integer to the console:
 
 ```cs
 using System;
 
 public class Example {
   public static void Main (string[] args) {
-    string str1 = "Pizza", str2 = "pizza", str3 = "waffles";
+    string str1 = "Pizza", str2 = "pizza", str3 = "waffle";
 
     Console.WriteLine(String.Compare(str1, str2));
     Console.WriteLine(String.Compare(str1, str3));
@@ -47,7 +47,7 @@ public class Example {
 }
 ```
 
-In the first case, the two strings are not the same, and the method is case sensitive. `str2` comes first alphabetically, as it is small case. In the second case, `str1` comes before `str3`. This example results in the following output:
+In the first case, `pizza` comes before `Pizza` in alphabetical order, as it is lowercase and the method is case-sensitive. In the second case, `Pizza` comes before `waffle` in alphabetical order. This example results in the following output:
 
 ```shell
 1
@@ -56,7 +56,7 @@ In the first case, the two strings are not the same, and the method is case sens
 
 ## Codebyte Example
 
-In the following runnable example, the `.Compare()` method is used to determine the alphabetical order of `string1` and `string2`, while the letter casing is ignored. The returned integer is printed to the console with the `WriteLine()` method.
+In the following runnable example, the `.Compare()` method determines the alphabetical order of the given `string1` and `string2`, while the letter casing is ignored. Finally, the `WriteLine()` method prints the returned integer to the console.
 
 ```codebyte/csharp
 using System;
