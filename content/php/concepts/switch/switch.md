@@ -16,7 +16,7 @@ A **switch case** statement in PHP executes different blocks of code based on a 
 
 ### Syntax
 
-```
+```pseudo
 switch (expression) {
   case value1:
     // Code to be executed if expression matches value1
