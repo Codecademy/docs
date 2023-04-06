@@ -1,18 +1,17 @@
-
 ---
-Title: Version Control / Version Control Systems
-Description: Version Control is a system that helps you manage changes to code or documents over time. 
+Title: 'Version Control'
+Description: 'Version Control is a system that helps manage changes to code or documents over time.' 
 Subjects:
   - 'Developer Tools'
 Tags:
   - 'Developer Tools'
   - 'Version Control'
 CatalogContent: 
-  - 'learn-example-course'
-  - 'path/example-path'
+  - 'paths/computer-science'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-Version Control is a system that helps you manage changes to code or documents over time. It allows you to keep track of revisions, revert to earlier versions, and collaborate with others on the same project.
+**Version Control** is a system that helps manage changes to code or documents over time. It allows the developer to keep track of revisions, revert to earlier versions, and collaborate with others on the same project.
 
 A Version Control System (VCS) is a tool that manages the changes to code or documents over time. There are two main types of VCS:
 
@@ -43,7 +42,6 @@ VCS has a wide range of applications, including:
 - **Code Backup:** By storing code in a VCS, developers can ensure that their code is backed up and accessible in case of data loss.
 - **Version Management:** VCS enables developers to maintain multiple versions of their codebase, which can be useful when working on different features or products.
 - **Error Detection:** VCS allows developers to track bugs and issues in their codebase, making it easier to identify and fix errors.
-
 
 ## Benefits of Version Control
 
@@ -79,4 +77,4 @@ By avoiding these common mistakes, you can ensure that you get the most out of y
 
 ## Conclusion
 
-Version Control is an essential tool for any developer or team working on code or documents. It provides benefits such as collaboration, history tracking, branching and merging, backup and restore, and code reviews. By following best practices and using a VCS, you can improve the quality and efficiency of your work.
+Version Control is an essential tool for any developer or team working on code or documents. It provides benefits such as collaboration, history tracking, branching and merging, backup and restore, and code reviews. By following best practices and using a VCS, a developer can improve the quality and efficiency of their work.
