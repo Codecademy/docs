@@ -62,7 +62,7 @@ def get_months(x):
     elif x.endswith('weeks'):
         return math.ceil(int(x.split(' ')[0]) / 4 )
     else:
-        return int(x.split(' ')[0])
+        return 1
 
 # Applying the function to create a new months column
 df['months'] = df['Age upon Intake'].apply(get_months)
