@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/fundamentals-of-cybersecurity'
 ---
 
-A **virus** is a of malware that can infect a system. Computer viruses have two main functions:
+A **virus** is a type of malware that can infect a computer system. Viruses have two main functions:
 
 1. Destruction: Refers to the damage a computer virus can cause to a computer by deleting files or reformatting the hard drive.
 2. Propagation: When a virus self-replicates by placing a copy of itself into other programs across a network.
@@ -23,7 +23,20 @@ A virus's payload delivers the destructive power and negatively impacts the conf
 
 ## Different Types of Viruses
 
-- Malware: Short for malicious software, malware is any type of software that could harm a computer system. It can make a computer perform actions without the owner’s consent or knowledge.
-- Trojan Horse: A type of malware that uses code to install seemingly benign software, but it is actually used to create back doors into a system. The result is typically loss or theft of data.
+There are many different types of viruses. They include:
+
+- Parasitic Virus: Attaches to an executable file such as a .com or .exe and is executed with the host file.
+- Macro Virus: Found in programs such as Microsoft Word or Excel that host their own scripting language. These viruses can hide in file formats run by these programs such as .doc or .xlsx.
+- Web Scripting Virus: Exploits vulnabilities in browsers to install malicious software can be found on unsafe websites or even in malicious banner ads.
+- Polymorphic Virus: Attempts to evade anti-virus software by altering its own code each time its run.
+- Boot Sector Virus: Originated when computers booted from floppy disks, now commonly distributed by USB drives, it injects itself into the boot process of the computer.
 - Worm: A piece of malicious software that replicates itself in order to spread to other systems. It often traverses across a network, exploiting security flaws on the target system to allow access.
+
+## Other Types of Malware
+
+A virus is a type of malware. Malware is short for malicious software, malware is any type of software that could harm a computer system. It can make a computer perform actions without the owner’s consent or knowledge. Types of malware aside from viruses include:
+
+- Trojan Horse: A type of malware that uses code to install seemingly benign software, but it is actually used to create back doors into a system. The result is typically loss or theft of data.
 - Spyware: Software that tries to monitor and gather information about a user without their knowledge or consent. It can monitor and log activity on a target system, or gather credit card and other personally identifiable information.
+- Adware: Software that spawns unwanted advertisements through popups or other means. Designed to be difficult to remove, they can severly drain resources on a system.
+- Ransomware: Malware that typically encrypts all or part of the data on a system and extorts the user for money, typically cryptocurrency, to retrieve the decryption key.
