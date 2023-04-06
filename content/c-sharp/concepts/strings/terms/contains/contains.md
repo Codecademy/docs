@@ -1,6 +1,6 @@
 ---
 Title: '.Contains()'
-Description: 'Defines whether a certain string *contains* a substring, passed as parameter.Returns a boolean data type.'
+Description: 'Determines whether a character or subset of characters is present within a given string'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -13,39 +13,58 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.Contains()`** method defines whether the `string` includes a particular character or substring. Returns true if the character is included, else the method returns false. There is an opportunity to add extra parameters to correspond to the comparison rules.
+The **`.Contains()`** method determines whether a `string` includes a particular character or substring. It returns `true` if the character is included, otherwise the method returns `false`. There are additional parameters that can modify the comparison rules.
 
 ## Syntax
 
 ```pseudo
-// Defines whether the String includes a given character
+// Determines whether the String includes a given character
 String.Contains(char);
 
-// Defines whether the String includes a given string
+// Determines whether the String includes a given string
 String.Contains(string);
 
-// Defines whether the String includes a given character considering the type of comparison
+// Determines whether the String includes a given character considering the type of comparison
 String.Contains(char, comparisonType)
 
-// Defines whether the String includes a given string considering the type of comparison
+// Determines whether the String includes a given string considering the type of comparison
 String.Contains(string, comparisonType)
 ```
 
-`.Contains()` takes arguments such as:
+`.Contains()` takes the following arguments:
 
-- `char`is a single letter.
-- `string`is a subsequence of characters.
-- `comparisonType`is an enumeration value that sets the comparison rules.
+- `char` is a single character.
+- `string` is a sequence of characters.
+- `comparisonType` is an enumeration value that sets the comparison rules.
 
 ## Example
-
+// Поработать над пассивным залогом
+The following example shows how we can use `.Contains()` method
 
 ```cs
+using System;
 
+public class Example
+{
+    public static void Main()
+    {
+        string stringToSeek = "The distance is nothing when one has a motive.";
+        //Не уверена в названии переменной
+        string stringToBeFind = "motive";
+
+        bool result;
+
+        result = stringToSeek.Contains(stringToBeFind);
+        Console.WriteLine(result);
+    }
+
+}
 ```
 
 Here is the following output:
 
 ```shell
+
+True
 
 ```
