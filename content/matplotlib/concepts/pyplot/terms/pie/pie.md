@@ -53,7 +53,7 @@ The `x` parameter, the data to be mapped, is required and represents a 1D array-
 
 -  `center`: (float, float), the coordinates of the center of the chart.
 
--  `frame`: Bool, plot Axes frame with the chart if true.
+-  `frame`: Bool, plot Axes frame with the chart if `True`.
 
 -  `rotatelabels`: Rotate each label to the angle of the corresponding slice if true.
 
