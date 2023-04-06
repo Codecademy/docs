@@ -11,8 +11,6 @@ CatalogContent:
     - 'learn-python-3'
     - 'paths/data-science'
 ---
-
-
 The **`.isna()`** method checks whether the objects of a dataframe or a series contain missing or null values `(NA, NaN)` and returns a new object with the same shape as the original object but with boolean values `True` or `False` as the elements. True indicates the presence of null or missing values and False indicates otherwise. The original `DataFrame` object, used to call the method, remains unchanged.'
 
 ## Syntax
@@ -23,8 +21,8 @@ df.isna()
 ```
 ## Example
 
-Here are some examples for using the `.isna()` method on both DataFrame and Series objects, with and without the optional parameters:
-### Example 1: **`.isna()`** with DataFrame
+Here are some examples for using the `.isna()` method on both DataFrame and Series objects:
+### Example 1: `.isna()` with DataFrame
 ```py
 import pandas as pd
 
@@ -50,7 +48,7 @@ The Output from using `.isna()` on DataFrame without optional parameters:
 2   True  False   True
 3  False  False  False
 ```
-### Example 2: **`.isna()`** with Series
+### Example 2: `.isna()` with Series
 ```py
 import pandas as pd
 
@@ -62,7 +60,7 @@ missing_values = s.isna()
 
 print(missing_values)
 ```
-The Output from using `.isna()` on Series with optional parameters:
+The Output from using `.isna()` on Series:
 ```shell
 0    False
 1     True
