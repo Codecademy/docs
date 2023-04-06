@@ -67,7 +67,7 @@ plt.show()
 
 Output:
 
-![Output of matplotlib.pyplot.pie() function example 1](/media/matplotlib-pie-1.png)
+![Output of matplotlib.pyplot.pie() function example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/matplotlib-pie-1.png)
 
 
 Customizing the pie chart:
@@ -93,5 +93,5 @@ plt.show()
 
 Output:
 
-![Output of matplotlib.pyplot.pie() function example 2](/media/matplotlib-pie-2.png)
+![Output of matplotlib.pyplot.pie() function example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/matplotlib-pie-2.png)
 
