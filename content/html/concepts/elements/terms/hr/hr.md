@@ -27,7 +27,7 @@ The `<hr>` element is self-closing and the forward slash `/` is optional. This s
 
 ## Example
 
-In the following example, the `<hr>` element provides a semantic break between the text of two [`<p>`](https://www.codecademy.com/resources/docs/html/paragraphs) elements:
+In the following example, the `<hr>` element provides a semantic break between the text of two [`<p>`](https://www.codecademy.com/resources/docs/html/elements/p) elements:
 
 ```html
 <p>This is a paragraph.</p>
