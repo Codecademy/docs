@@ -80,7 +80,6 @@ plt.pie(data, labels = pizza)
 
 # show plot
 plt.show()
-
 ```
 
 Output:
