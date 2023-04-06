@@ -28,7 +28,7 @@ The `.Compare()` method returns an `integer` that represents the relative order 
 
 - `0` if their position is the same (`string1` and `string2` are identical)
 - `-1` if `string1` comes before `string2`
-- a positive `integer` if `string2` comes before `string1`
+- `1` if `string2` comes before `string1`
 
 ## Example
 
