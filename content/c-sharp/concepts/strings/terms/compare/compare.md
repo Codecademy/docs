@@ -1,6 +1,6 @@
 ---
 Title: '.Compare()'
-Description: 'Compares two specified strings in alphabetical order and returns an integer that represents their relative order.'
+Description: 'Compares the alphabetical order of two strings and returns an integer that represents their relative ranking.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
