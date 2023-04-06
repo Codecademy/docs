@@ -33,5 +33,6 @@ The code is declaring two constants, `x` and `y`, and then calculating the hyper
 ```cs
 const x = 2;
 const y = Math.tanh(x);
+
 console.log(y); // Output: 0.9640275800758169
 ```
