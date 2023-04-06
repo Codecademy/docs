@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.Compare()`** method is a string method that compares two specified [`strings`](https://www.codecademy.com/resources/docs/c-sharp/strings) in alphabetical order and returns an integer that represents their relative order.
+The **`.Compare()`** method is a string method that compares the alphabetical order of two specified [`strings`](https://www.codecademy.com/resources/docs/c-sharp/strings) and returns an integer that represents their relative ranking.
 
 ## Syntax
 
