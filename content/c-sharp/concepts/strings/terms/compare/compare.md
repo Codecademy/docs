@@ -56,7 +56,7 @@ In the first case, `pizza` comes before `Pizza` in alphabetical order, as it is 
 
 ## Codebyte Example
 
-In the following runnable example, the `.Compare()` method determines the alphabetical order of the given `string1` and `string2`, while the letter casing is ignored. Finally, the `WriteLine()` method prints the returned integer to the console.
+In the following runnable example, the `.Compare()` method determines the alphabetical order of `string1` and `string2`, while the letter casing is ignored. Finally, the `WriteLine()` method prints the returned integer to the console.
 
 ```codebyte/csharp
 using System;
