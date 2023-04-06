@@ -62,7 +62,6 @@ The `x` parameter, the data to be mapped, is required and represents a 1D array-
 -  `hatch`: Str or list, Hatching pattern applied to all pie wedges or sequence of patterns through which the chart will cycle.
 
   ## Examples
-
  
 Examples below demonstrate the use of `.pie()` to plot values and show the functionality of some arguments.
 
