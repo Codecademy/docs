@@ -27,9 +27,9 @@ There are many different types of viruses. They include:
 
 - Parasitic Virus: Attaches to an executable file such as a .com or .exe and is executed with the host file.
 - Macro Virus: Found in programs such as Microsoft Word or Excel that host their own scripting language. These viruses can hide in file formats run by these programs such as .doc or .xlsx.
-- Web Scripting Virus: Exploits vulnabilities in browsers to install malicious software can be found on unsafe websites or even in malicious banner ads.
+- Web Scripting Virus: Exploits vulnabilities in browsers to install malicious software. Can be found on unsafe websites or even in malicious banner ads.
 - Polymorphic Virus: Attempts to evade anti-virus software by altering its own code each time its run.
-- Boot Sector Virus: Originated when computers booted from floppy disks, now commonly distributed by USB drives, it injects itself into the boot process of the computer.
+- Boot Sector Virus: Originated when computers booted from floppy disks, now commonly distributed by USB drives. It injects itself into the boot process of the computer.
 - Worm: A piece of malicious software that replicates itself in order to spread to other systems. It often traverses across a network, exploiting security flaws on the target system to allow access.
 
 ## Other Types of Malware
