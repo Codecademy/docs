@@ -24,6 +24,7 @@ Math.Tahn(x);
 Parameter: This method accepts only single parameter.
 
 `x`: This parameter is the angle in radians.
+
 Returns: This function returns the hyperbolic tangent value of `x`.
 
 ## Example
