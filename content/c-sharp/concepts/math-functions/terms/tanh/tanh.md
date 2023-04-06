@@ -29,7 +29,7 @@ Returns: This function returns the hyperbolic tangent value of `x`.
 
 ## Example
 
-The code is declaring two constants, `x` and `y`, and then calculating the hyperbolic tangent of `x` using the Math.tanh() function. The resulting value is stored in `y`. Finally, the value of `y` is printed to the console using console.log().
+The code is declaring two constants, `x` and `y`, and then calculating the hyperbolic tangent of `x` using the `Math.tanh()` function. The resulting value is stored in `y`. Finally, the value of `y` is printed to the console.
 
 ```cs
 const x = 2;
