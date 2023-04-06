@@ -17,7 +17,7 @@ The **`.Compare()`** method is a string method that compares two specified [`str
 ## Syntax
 
 ```pseudo
-String.Compare(string1, string2, `ignoreCase`);
+String.Compare(string1, string2, ignoreCase);
 ```
 
 The `.Compare()` method is called on the `String` class. It takes two `string` type arguments, `string1` and `string2`,  and compares them alphabetically.
