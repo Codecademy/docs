@@ -47,7 +47,7 @@ The `x` parameter, the data to be mapped, is required and represents a 1D array-
 
 -  `counterclock`: Boolean to specify fractions direction, clockwise or counterclockwise.
 
--  `wedgeprops`: Dict of arguments passed to each `patches.Wedge`
+-  `wedgeprops`: Dict of arguments passed to each `patches.Wedge`.
 
 -  `textprops`: Dict of arguments to pass to the text objects.
 
