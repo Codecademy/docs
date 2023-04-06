@@ -28,6 +28,7 @@ CatalogContent:
 ## for Loop
 
 The `for` loop executes the enclosed code until the given condition is met. It has three parts:
+
 - The initialization of a counter variable
 - The stop condition
 - The increment/decrement of the counter variable

@@ -32,13 +32,13 @@ The `if` statement executes a block of code if the condition expression is `True
 
 ```shell
 $my_num = 2
-if($my_num -eq 2){ 
+if($my_num -eq 2){
   Write-Host "A True Statement"
 }
 Write-Host "After the if statement"
 ```
 
-The example above prints `A True Statement` *and* `After the if statement` if `$my_num` is equal to `2`. Otherwise, it skips the statement within the `if` curly braces `{ }` and just prints `After the if statement`.
+The example above prints `A True Statement` _and_ `After the if statement` if `$my_num` is equal to `2`. Otherwise, it skips the statement within the `if` curly braces `{ }` and just prints `After the if statement`.
 
 ## else
 
@@ -81,16 +81,16 @@ The `switch` statement provides a simpler syntax for the same behavior as `if` /
 ```shell
 $my_num = 2
 switch ($my_num) {
-  1 { 
+  1 {
     Write-Host "You chose 1"
   }
-  2 { 
+  2 {
     Write-Host "You chose 2"
   }
-  3 { 
+  3 {
     Write-Host "You chose 3"
   }
-  default { 
+  default {
     Write-Host "No match"
   }
 }
@@ -103,14 +103,14 @@ PowerShell allows conditional expressions to be used in `switch` statements.
 ```shell
 $my_num = 10
 switch ($my_num) {
-  {$PSItem -gt 5} { 
+  {$PSItem -gt 5} {
     Write-Host "Greater than 5"
   }
-  {$PSItem -gt 0} { 
-    Write-Host "Greater than 0" 
+  {$PSItem -gt 0} {
+    Write-Host "Greater than 0"
   }
-  {$PSItem -lt 5} { 
-    Write-Host "Less than 5" 
+  {$PSItem -lt 5} {
+    Write-Host "Less than 5"
   }
 }
 ```
@@ -122,15 +122,15 @@ The above example prints `"Greater than 5"` and `"Greater than 0"` since their c
 ```shell
 $my_num = 10
 switch ($my_num) {
-  {$_ -gt 5} { 
+  {$_ -gt 5} {
     Write-Host "Greater than 5"
     break
   }
-  {$_ -gt 0} { 
-    Write-Host "Greater than 0" 
+  {$_ -gt 0} {
+    Write-Host "Greater than 0"
   }
-  {$_ -lt 5} { 
-    Write-Host "Less than 5" 
+  {$_ -lt 5} {
+    Write-Host "Less than 5"
   }
 }
 ```
