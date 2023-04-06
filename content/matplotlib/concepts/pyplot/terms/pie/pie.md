@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.pie()`** method in the matplotlib library is used to draw a pie chart, showing the percentage of the parts with respect to the whole data.
+The **`.pie()`** method in the Matplotlib library is used to draw a pie chart, a common format that shows the percentage of individual elements with respect to the data as a whole.
 
 ## Syntax
 
