@@ -92,7 +92,6 @@ Output:
 Customizing the pie chart:
 
 ```py
-
 # Import libraries
 import matplotlib.pyplot as plt
 
