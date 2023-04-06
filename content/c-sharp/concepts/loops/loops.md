@@ -76,7 +76,7 @@ int[] numbersArray = {0, 1, 2, 3};
 
 foreach (int number in numbersArray)
 {
-  Console.WriteLine(number);
+  System.Console.WriteLine(number);
 }
 ```
 
