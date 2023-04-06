@@ -21,7 +21,7 @@ The **`.pie()`** method in the Matplotlib library is used to draw a pie chart, a
 matplotlib.pyplot.pie(x, explode, labels, colors, autopct, pctdistance, shadow, labeldistance, startangle, radius, counterclock, wedgeprops, textprops, center, frame, rotatelabels, normalize, hatch, data)
 ```
 
-'x' parameter is required, and represents a 1D array-like object. Other parameters are optional and modify plot features like wedge colors and/or labels.
+The `x` parameter, the data to be mapped, is required and represents a 1D array-like object. Other parameters are optional and modify plot features like wedge colors and labels.
 
 `.pie()` takes the following arguments:
 
