@@ -61,7 +61,7 @@ std::cout << order[2];
 
 ### `.size()`
 
-Due to the dynamic nature of vectors, it can be hard to keep track of the number of elements they hold at a point in time manually. Luckily for us, vectors come with a helpful method to solve this problem called `.size()`
+Due to the dynamic nature of vectors, it can be hard to keep track of the number of elements they hold at a point in time manually. Luckily, vectors come with a helpful method to solve this problem called `.size()`
 
 ```cpp
 // Number of elements in the vector
