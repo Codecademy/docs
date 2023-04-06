@@ -68,7 +68,6 @@ Examples below demonstrate the use of `.pie()` to plot values and show the funct
 A simple pie chart: 
 
 ```py
-
 # Import libraries
 from matplotlib import pyplot as plt
 
