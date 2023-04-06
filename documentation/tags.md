@@ -40,6 +40,7 @@ Bootstrap
 Borders
 Box Model
 Box Plot
+Break
 Browser Compatibility
 Browsers
 Bubble Sort
@@ -65,6 +66,7 @@ Concatenation
 Conceptual
 Const
 Constructors
+Continue
 Control Flow
 CRUD
 CSV
@@ -119,6 +121,7 @@ Flexbox
 Flutter
 Fonts
 For
+ForEach
 Foreign Key
 Form
 Formatting
