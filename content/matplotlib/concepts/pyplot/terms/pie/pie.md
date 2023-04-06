@@ -1,6 +1,6 @@
 ---
 Title: '.pie()'
-Description:  'Creates a pie chart of array x.'
+Description: 'Creates a pie chart based on a given array of values.'
 Subjects:
   - 'Data Science'
   - 'Data Visualization'
