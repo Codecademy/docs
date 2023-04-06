@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The Python `.unlink()` file method allows the user to delete a file path if it exists in the system or computer. [`.remove()`](https://www.codecademy.com/resources/docs/python/file-methods/remove) is the alternative to delete a specific file.
+The Python `.unlink()` file method allows the user to delete a file path if it exists in the system or computer. [`.remove()`](https://www.codecademy.com/resources/docs/python/files/remove) is the alternative to delete a specific file.
 
 **Note**: A `FileNotFoundError` is raised if the file is not found or isn't in the current directory.
 
@@ -28,7 +28,7 @@ import os
 os.unlink("file_path")
 ```
 
-Entire folders or directories can be removed using the [`.rmdir()`](https://www.codecademy.com/resources/docs/python/file-methods/rmdir) method.
+Entire folders or directories can be removed using the [`.rmdir()`](https://www.codecademy.com/resources/docs/python/files/rmdir) method.
 
 ## Example
 
