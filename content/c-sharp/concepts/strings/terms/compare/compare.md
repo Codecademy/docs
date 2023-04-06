@@ -27,7 +27,7 @@ The `.Compare()` method is called on the `String` class. It takes two `string` t
 The `.Compare()` method returns an `integer` that represents the relative order of `string1` and `string2` in the alphabet:
 
 - `0` if their position is the same (`string1` and `string2` are identical)
-- a negative `integer` if `string1` comes before `string2`
+- `-1` if `string1` comes before `string2`
 - a positive `integer` if `string2` comes before `string1`
 
 ## Example
