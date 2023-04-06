@@ -106,7 +106,6 @@ explode = (0.1,  0,  0,  0,  0,  0)
 # Plot
 plt.pie(popularity, explode=explode, labels=pizza, colors=colors, autopct='%1.1f%%', shadow=True, startangle=140)
 plt.show()
-
 ```
 
 Output:
