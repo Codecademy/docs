@@ -1,13 +1,16 @@
 
 ---
 Title: Version Control / Version Control Systems
-Description: Version Control is a system that helps you manage changes to code or documents over time.
+Description: Version Control is a system that helps you manage changes to code or documents over time. 
+Subjects:
+  - 'Developer Tools'
 Tags:
+  - 'Developer Tools'
   - 'Version Control'
-  - 'Manage Changes'
+CatalogContent: 
+  - 'learn-example-course'
+  - 'path/example-path'
 ---
-
-# Version Control and Version Control Systems
 
 Version Control is a system that helps you manage changes to code or documents over time. It allows you to keep track of revisions, revert to earlier versions, and collaborate with others on the same project.
 
