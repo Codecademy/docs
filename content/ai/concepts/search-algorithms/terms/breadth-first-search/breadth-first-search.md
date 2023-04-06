@@ -20,7 +20,7 @@ CatalogContent:
 Some of the features and constraints that define the use and functionality of a breadth-first search algorithm include the following:
 
 - A relatively simple and efficient algorithm for finding the shortest-path in graphs that do not have edge weights.
-- It has a time complexity of O (vertices + edges).
+- It has a time complexity of _O(|V| + |E|)_, which is the sum of the vertices and edges.
 - In addition to finding the shortest path between two nodes, this algorithm can be used to map or traverse a graph to find all connections or if a given path exists between any pair of nodes.
 
 ## Implementation
