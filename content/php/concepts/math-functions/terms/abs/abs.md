@@ -23,18 +23,12 @@ $result = abs(n);
 
 Where `n` is the number to find the absolute value of.
 
-## Example
+## Codebyte Example
 
 Using `abs()` to return the absolute value of `-6.5`:
 
-```php
+```codebyte/php
 <?php
   echo(abs(-6.5));
 ?>
-```
-
-This results in the following output:
-
-```shell
-6.5
 ```
