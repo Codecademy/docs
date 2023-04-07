@@ -57,7 +57,7 @@ class Name : Mylistener{ //
 }
 ```
 
-In above code the `Mylistener` interface declares two functions and a property i.e. `name` is a read-write property of type String, `jump()` is a function with a default implementation that prints the text "World", and `EmptyFn()` is a function without a body.
+In above code the `Mylistener` interface declares two functions and a property i.e. `name` is a read-write property of type String, `jump()` is a function with a default implementation that prints the text `"World"`, and `EmptyFn()` is a function without a body. The `Name` class implements the `Mylistener` interface and overrides its two functions and property. The name property is initialized to `"Hello"` and is made writable in the `Name` class. The `EmptyFn()` function is also overridden with a new implementation that prints the text `"Override Text"`. The `jump()` function is optional to override, so it remains unchanged in the `Name` class.
 
 The output for the above code will be:
 
