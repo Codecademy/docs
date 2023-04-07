@@ -77,7 +77,7 @@ import matplotlib.pyplot as plt
 
 # Plot data
 pizza = ['CHEESE','PEPPERONI','VEGGIE','MEAT','BBQ CHICKEN','HAWAIIAN']
-popularity = [22.2,  17.6,  8.8,  8,  7.7,  6.7]
+popularity = [22,  17,  9,  8,  7,  6]
 
 #colors = ['red', 'green', 'yellow', 'blue', 'purple', 'brown']
 colors = ['#FF6188',  '#A9DC76',  '#FFD866',  '#78DCE8',  '#AB9DF2',  '#8c564b']
