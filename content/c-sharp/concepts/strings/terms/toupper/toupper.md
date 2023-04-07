@@ -24,7 +24,6 @@ somestring.ToUpper()
 
 This method will not change the input string.
 
-
 ## Example
 
 In the following example, `originalString` is the string being converted to uppercase, and `uppercaseString` is the new string that contains the uppercased characters. The original string remains unchanged:
