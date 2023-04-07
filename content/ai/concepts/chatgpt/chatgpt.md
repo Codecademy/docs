@@ -44,7 +44,7 @@ There were several generations of AI technologies that have led up to ChatGPT.
 
 **Artificial Neural Networks** (ANNs) are a class of computational functions inspired by how neurons work in the human brain. Neurons are arranged in layers and training occurs by guiding the network to differentiate between correct and incorrect answers. These are called feed-forward networks because signals move forward through the system.
 
-One example of a common ANN is a **Convolutional Neural network** (CNN). These are commonly used in image recognition. A _convolution_ can be thought of as a filter applied to the image to make things like edges or specific features stand out.
+One example of a common ANN is a **Convolutional Neural Network** (CNN). These are commonly used in image recognition. A _convolution_ can be thought of as a filter applied to the image to make things like edges or specific features stand out.
 
 ### Recurrent Neural Networks
 
