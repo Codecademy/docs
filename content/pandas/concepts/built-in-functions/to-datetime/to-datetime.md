@@ -1,8 +1,11 @@
-# NEW ENTRY TO FUNCTION to.datetype()
+# to_datetime()
+The to_datetime() function in the Pandas library of Python converts a string representation of a date or time to a datetime object.
 
 ## Syntax
 This function can be used via pandas library. It returns us structure in datetime format. We can use various input arguments as showned and described below.
-`pandas.to_datetime(arg, format=None, errors='raise', dayfirst=False, yearfirst=False, utc=None, box=True, infer_datetime_format=False, origin='unix', cache=True)`
+```py
+pandas.to_datetime(arg, format=None, errors='raise', dayfirst=False, yearfirst=False, utc=None, box=True, infer_datetime_format=False, origin='unix', cache=True)
+```
 
 | Parameter name | Data type | Usage |
 | -------------- | --------- | ----- |
@@ -19,10 +22,15 @@ This function can be used via pandas library. It returns us structure in datetim
 | cache | bool (default True) | is beeing used in datetime conversion, works only with at least 50 values |
 
 ## Example
-```
+First section of the following code shows us how to import needed library and how to create list of string. After that, it calls our function and prints results into console.
+```py
 import pandas as pd
 my_list = ['2039/11/09']
+
 xyz = pd.to_datetime(my_list)
 print(xyz)
 ```
-Output: `DatetimeIndex(['2039-11-09'], dtype='datetime64[ns]', freq=None)`
+The following output will be showned:
+```shell
+DatetimeIndex(['2039-11-09'], dtype='datetime64[ns]', freq=None)
+```
