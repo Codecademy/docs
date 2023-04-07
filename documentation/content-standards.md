@@ -9,7 +9,7 @@ These are regular entries that give detailed explanations of a coding concept. T
 General (language-agnostic):
 
 - [Comment](https://www.codecademy.com/resources/docs/general/comment)
-- [IDE](https://www.codecademy.com/resources/docs/general/ide)
+- [IDE](https://www.codecademy.com/resources/docs/general/developer-tools/ide)
 - [Array](https://www.codecademy.com/resources/docs/general/data-types/array)
 
 Python (language-specific):
