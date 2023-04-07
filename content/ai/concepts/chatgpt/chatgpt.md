@@ -48,17 +48,17 @@ One example of a common ANN is a **Convolutional Neural Network** (CNN). These a
 
 ### Recurrent Neural Networks
 
-One limitation of ANNs is that they don’t have the concept of time sequences and the input size is fixed. So for language processing where you have a sequence of words or a sentence, Recurrent Neural Networks (RNNs) were created.
+One limitation of ANNs is that they don’t have the concept of time sequences and the input size is fixed. So for language processing where a sequence of words or a sentence exists, **Recurrent Neural Networks** (RNNs) were created.
 
-RNNs feed decision results back in the system. So for example if we wanted to translate the sentence “What time is it?” by the time the word “it” is encountered, the system would already know all about the question.
+RNNs feed decision results back into the system. So for example, if the sentence “What time is it?” were to be translated, when the word “it” is encountered, the system would already know all about the question.
 
-While RNNs have been very useful in doing language translation, they do not scale well with large amounts of information. Also computation can not be done in parallel.
+While RNNs are very useful for language translation, they do not scale well with large amounts of information. Also, computations cannot be done in parallel.
 
 ### Breakthrough with Transformers
 
-The breakthrough that allowed BERT and ChatGPT-based models is called **Transformers**. This was introduced in a paper from 2019 entitled **“Attention is all you need”**. It was presented as a way to build machine translation but to have much faster parallel execution. It also has a new concept called **Self Attention** to further make sense of long language sequences. It creates connections between different parts of the sequence.
+The breakthrough that allowed BERT and ChatGPT-based models is called **transformers**, introduced in a paper from 2019 entitled _“Attention is all you need”_. It was presented as a way to build machine translation but to have much faster parallel execution. It also introduced a new concept called _Self Attention_ to further make sense of long language sequences. It creates connections between different parts of the sequence.
 
-So how does it all really work? In the **Transformer** based model each word is transformed into a token. As tokens are read as part of an input sentence the model starts predicting what the output should be - similar in concept to sentence completion.
+So how does it all work? In the transformer-based model, each word is transformed into a token. As tokens are read as part of an input sentence the model starts predicting what the output should be - similar in concept to sentence completion.
 
 Due to the use of transformers in creating the model, the potential output is not just a prediction of the next word. Because the model is trained with deep understanding and "attention", whole sentences and groupings of text are generated. The model used by ChatGPT can accept several thousand tokens as input.
 
