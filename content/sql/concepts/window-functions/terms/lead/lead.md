@@ -48,7 +48,7 @@ Suppose there's a `yearly_sales` table that looks like this:
 | 11    | 1000  |
 | 12    | 1250  |
 
-Running the following query shows the next month's sales for every month, with the last month having "NA" as its value.
+Running the following query shows the next month's sales for every month, with the last month having `NA` as its value.
 
 ```sql
 SELECT month,
