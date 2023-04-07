@@ -62,7 +62,7 @@ def get_months(x):
   elif 'month' in x:
       return int(x.split(' ')[0])
   elif 'year' in x:
-      return abs(int(x.split(' ')[0]) * 12) # Some rows had negative values
+      return abs(int(x.split(' ')[0]) * 12) # Some rows have negative values
   else:
       return 1 # If the entry is in days the function rounds up to 1 month
 
