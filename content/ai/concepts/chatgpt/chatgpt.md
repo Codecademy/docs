@@ -22,7 +22,7 @@ CatalogContent:
 
 ## How ChatGPT Works
 
-**ChatGPT** is part of a new group of LLM models which are now made available by a technology called **Transformers**. Other notable and similar LLM models include **BERT** used by Google to understand user searches, **DALL-E** which can generate images, and **GPT-Neo** an promising open source LLM.
+**ChatGPT** is part of a new group of LLM models that are now made available by a technology called **transformers**. Other notable and similar LLM models include **BERT** used by Google to understand user searches; **DALL-E**, which can generate images; and **GPT-Neo**, a promising open-source LLM.
 
 ChatGPT is the packaging of a set of trained LLMs into a chatbot and developer friendly interface. This has created a system where there is low barrier to entry and almost everyone can start using the LLM.
 
@@ -42,9 +42,9 @@ There were several generations of AI technologies that have led up to ChatGPT.
 
 ### Feed Forward Networks
 
-Artificial Neural Networks (ANNs) are a class of computational functions inspired by how neurons work in the human brain. Neurons are arranged in layers and training occurs by guiding the network to know correct from incorrect answers. These are called feed-forward networks because signals move forward through the system.
+**Artificial Neural Networks** (ANNs) are a class of computational functions inspired by how neurons work in the human brain. Neurons are arranged in layers and training occurs by guiding the network to differentiate between correct and incorrect answers. These are called feed-forward networks because signals move forward through the system.
 
-One example of a common ANN is called Convolutional Neural network (CNN). These are commonly used in image recognition. You can think of a convolution as a filter applied to the image to make things like edges or specific features stand out.
+One example of a common ANN is a **Convolutional Neural network** (CNN). These are commonly used in image recognition. A _convolution_ can be thought of as a filter applied to the image to make things like edges or specific features stand out.
 
 ### Recurrent Neural Networks
 
@@ -60,17 +60,17 @@ The breakthrough that allowed BERT and ChatGPT-based models is called **Transfor
 
 So how does it all really work? In the **Transformer** based model each word is transformed into a token. As tokens are read as part of an input sentence the model starts predicting what the output should be - similar in concept to sentence completion.
 
-Due to the use of **Transformers** in creating the model, the potential output is not just a prediction of the next word. Because the model is trained with deep understanding and **Attention** whole sentences and groupings of text are generated. The model used by ChatGPT can accept several thousand tokens as input .
+Due to the use of transformers in creating the model, the potential output is not just a prediction of the next word. Because the model is trained with deep understanding and "attention", whole sentences and groupings of text are generated. The model used by ChatGPT can accept several thousand tokens as input.
 
 ## Risks and Limitations
 
 ### Misinformation
 
-Because current LLMs are trained against data sets from some period of time in the past they don't always give accurate information. Also their correctness is only as good as the data they are trained with. This doesn't always result in accurate results.
+Because current LLMs are trained against data sets from some period in the past, they don't always give accurate information. Also, their correctness is only as good as the data they are trained with. This doesn't always lead to accurate results.
 
 ### Disinformation
 
-ChatGPT and LLMs in general often give confident and plausible generated results but they are wrong or do not make sense. In AI these are called Hallucinations. With prompt engineering, ChatGPT can be told to not give an answer unless it has high confidence in the results. This can reduce hallucinations but not completely solve the problem.
+ChatGPT and LLMs in general often give confident and plausible generated results, but sometimes they are wrong or do not make sense. In AI, these are called **hallucinations**. With prompt engineering, ChatGPT can be told to not give an answer unless it has high confidence in the results. This can reduce hallucinations but not completely solve the problem.
 
 ### Data Security
 
@@ -78,7 +78,7 @@ Using ChatGPT requires the sending of information over the internet. Sending per
 
 ### Bias
 
-The internet is full of biased negative information. For ChatGPT to be useful this information needs to be filtered so it is not produced in responses. OpenAI has identified this as a major concern with ChatGPT and LLMs in general.
+The internet is full of biased negative information. For ChatGPT to be useful, this information needs to be filtered so that it is not produced in responses. OpenAI has identified this as a major concern with ChatGPT and LLMs in general.
 
 ## The Future
 
@@ -96,7 +96,7 @@ ChatGPT was intended to be a demonstration product. Companies around the world a
 
 ### Cost
 
-Costs to train a LLM can be in the millions of dollars - so to train frequently may hit commercial challenges. After training each **inference** or transaction costs some amount of money and computing power.
+Costs to train a LLM can be in the millions of dollars - so training frequently may hit commercial challenges. After training, each _inference_ or transaction costs some amount of money and computing power.
 
 ### New areas of Tech
 
