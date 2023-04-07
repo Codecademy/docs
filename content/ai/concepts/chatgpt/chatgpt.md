@@ -28,12 +28,12 @@ ChatGPT is the packaging of a set of trained LLMs into a chatbot and developer f
 
 ### What is the relation to Internet Search?
 
-**ChatGPT** is trained by using vast quantities of data from the internet. However LLMs are different from internet search engines:
+**ChatGPT** is trained by using vast quantities of data from the internet. However, LLMs are different from internet search engines in the following ways:
 
-- No ongoing daily web crawlers and updates
+- No ongoing daily web crawlers and updates.
 - Data can be out of date. **ChatGPT 3** uses data from 2021.
-- The size of the data trained in the model
-- ChatGPT uses a type of fine-tuning called Reinforcement Learning from Human Feedback (RLHF)
+- The size of the data trained in the model.
+- ChatGPT uses a type of fine-tuning called Reinforcement Learning from Human Feedback (RLHF).
 - ChatGPT-specific approaches including **prompts**, **embeddings**, and parameters such as **temperature**.
 
 ## History of ChatGPT
