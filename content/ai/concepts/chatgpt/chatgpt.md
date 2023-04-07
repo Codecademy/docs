@@ -18,23 +18,23 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-`ChatGPT` is a publically available web-based chatbot and API interface created by `OpenAI`. It connects to a large language model (LLM) called GPT (Generative Pre-Trained Transformer). GPT includes some of the largest models ever created. After the model training, there is further fine-tuning to improve its generated responses.
+**ChatGPT** is a publically available web-based chatbot and API interface created by **OpenAI**. It connects to a large language model (LLM) called GPT (Generative Pre-Trained Transformer). GPT includes some of the largest models ever created. After the model training, there is further fine-tuning to improve its generated responses.
 
 ## How ChatGPT Works
 
-`ChatGPT` is part of a new group of LLM models which are now made available by a technology called `Transformers`. Other notable and similar LLM models include `BERT` used by Google to understand user searches, `DALL-E` which can generate images, and `GPT-Neo` an promising open source LLM.
+**ChatGPT** is part of a new group of LLM models which are now made available by a technology called **Transformers**. Other notable and similar LLM models include **BERT** used by Google to understand user searches, **DALL-E** which can generate images, and **GPT-Neo** an promising open source LLM.
 
 ChatGPT is the packaging of a set of trained LLMs into a chatbot and developer friendly interface. This has created a system where there is low barrier to entry and almost everyone can start using the LLM.
 
 ### What is the relation to Internet Search?
 
-`ChatGPT` is trained by using vast quantities of data from the Internet. However LLMs are different from Internet search engines:
+**ChatGPT** is trained by using vast quantities of data from the Internet. However LLMs are different from Internet search engines:
 
 - No ongoing daily web crawlers and updates
-- Data can be out of date. `ChatGPT 3` uses data from 2021.
+- Data can be out of date. **ChatGPT 3** uses data from 2021.
 - The size of the data trained in the model
 - ChatGPT uses a type of fine-tuning called Reinforcement Learning from Human Feedback (RLHF)
-- ChatGPT-specific approaches including `prompts`, `embeddings`, and parameters such as `temperature`.
+- ChatGPT-specific approaches including **prompts**, **embeddings**, and parameters such as **temperature**.
 
 ## History of ChatGPT
 
@@ -56,11 +56,11 @@ While RNNs have been very useful in doing language translation, they do not scal
 
 ### Breakthrough with Transformers
 
-The breakthrough that allowed BERT and ChatGPT-based models is called `Transformers`. This was introduced in a paper from 2019 entitled `“Attention is all you need”`. It was presented as a way to build machine translation but to have much faster parallel execution. It also has a new concept called `Self Attention` to further make sense of long language sequences. It creates connections between different parts of the sequence.
+The breakthrough that allowed BERT and ChatGPT-based models is called **Transformers**. This was introduced in a paper from 2019 entitled **“Attention is all you need”**. It was presented as a way to build machine translation but to have much faster parallel execution. It also has a new concept called **Self Attention** to further make sense of long language sequences. It creates connections between different parts of the sequence.
 
-So how does it all really work? In the `Transformer` based model each word is transformed into a token. As tokens are read as part of an input sentence the model starts predicting what the output should be - similar in concept to sentence completion.
+So how does it all really work? In the **Transformer** based model each word is transformed into a token. As tokens are read as part of an input sentence the model starts predicting what the output should be - similar in concept to sentence completion.
 
-Due to the use of `Transformers` in creating the model, the potential output is not just a prediction of the next word. Because the model is trained with deep understanding and `Attention` whole sentences and groupings of text are generated. The model used by ChatGPT can accept several thousand tokens as input .
+Due to the use of **Transformers** in creating the model, the potential output is not just a prediction of the next word. Because the model is trained with deep understanding and **Attention** whole sentences and groupings of text are generated. The model used by ChatGPT can accept several thousand tokens as input .
 
 ## Risks and Limitations
 
@@ -96,8 +96,8 @@ ChatGPT was intended to be a demonstration product. Companies around the world a
 
 ### Cost
 
-Costs to train a LLM can be in the millions of dollars - so to train frequently may hit commercial challenges. After training each `inference` or transaction costs some amount of money and computing power.
+Costs to train a LLM can be in the millions of dollars - so to train frequently may hit commercial challenges. After training each **inference** or transaction costs some amount of money and computing power.
 
 ### New areas of Tech
 
-ChatGPT `Prompt Engineering`, `Embeddings`, and `Fine tuning` are necessary in using the new LLM technology. While there are predictings that some types of coding may change, new programming approaches are being created.
+ChatGPT **Prompt Engineering**, **Embeddings**, and **Fine tuning** are necessary in using the new LLM technology. While there are predictings that some types of coding may change, new programming approaches are being created.
