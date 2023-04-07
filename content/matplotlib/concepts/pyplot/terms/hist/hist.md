@@ -57,12 +57,14 @@ df = pd.read_csv('/content/Austin_Animal_Center_Intakes.csv')
 
 # Function for standardizing pet age values
 def get_months(x):
-    if x.endswith('years'):
-        return abs(int(x.split(' ')[0]) * 12) # Some year entries included negative values
-    elif x.endswith('weeks'):
+  if 'week' in x:
         return math.ceil(int(x.split(' ')[0]) / 4 )
-    else:
-        return 1
+  elif 'month' in x:
+      return int(x.split(' ')[0])
+  elif 'year' in x:
+      return abs(int(x.split(' ')[0]) * 12) # Some rows had negative values
+  else:
+      return 1 # If the entry is in days the function rounds up to 1 month
 
 # Applying the function to create a new months column
 df['months'] = df['Age upon Intake'].apply(get_months)
