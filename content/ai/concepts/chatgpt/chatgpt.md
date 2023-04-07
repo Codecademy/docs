@@ -18,7 +18,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-**ChatGPT** is a publically available web-based chatbot and API interface created by **OpenAI**. It connects to a large language model (LLM) called GPT (Generative Pre-Trained Transformer). GPT includes some of the largest models ever created. After the model training, there is further fine-tuning to improve its generated responses.
+**ChatGPT** is a publicly available web-based chatbot and API interface created by **OpenAI**. It connects to a large language model (LLM) called GPT (Generative Pre-Trained Transformer). GPT includes some of the largest models ever created. After the model training, there is further fine-tuning to improve its generated responses.
 
 ## How ChatGPT Works
 
