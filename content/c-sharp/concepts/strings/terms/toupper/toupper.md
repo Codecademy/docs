@@ -1,6 +1,6 @@
 ---
 Title: '.ToUpper()'
-Description: 'Returns a new string in all uppercase characters based on the passed string.'
+Description: 'Returns a new string with all uppercase characters.'
 Subjects:
 - 'Computer Science'
 - 'Code Foundations'
@@ -12,7 +12,9 @@ Subjects:
 - 'paths/computer-science'
 ---
 
-The **`.ToUpper()`** method is a method in C# that takes a string and returns a copy of this string converted to uppercase. Numbers and symbols are not changed.
+The **`.ToUpper()`** method is a method in C# that returns a new string with all the characters converted to uppercase. Numbers and symbols are not changed.
+
+This method does not modify the original string, but instead, it creates a new string that contains the uppercase version of the original string.
 
 ## Syntax
 
@@ -25,7 +27,7 @@ This method will not change the input string.
 
 ## Example
 
-In this following example, `originalString` is the string being converted to uppercase, and `uppercaseString` is the new string that contains the uppercase characters. We can see that the original string remains unchanged:
+In this following example, `originalString` is the string being converted to uppercase, and `uppercaseString` is the new string that contains the uppercased characters. The original string remains unchanged:
 
 ```cs
 using System;
@@ -35,7 +37,6 @@ class Program
     static void Main(string[] args)
     {
         originalString = "Hello World"
-
         string uppercaseString = originalString.ToUpper();
 
         Console.WriteLine(originalString);
@@ -62,11 +63,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        string originalString = "Hi! I'm Codecademy";
+        originalString = "Hello World"
         string uppercaseString = originalString.ToUpper();
 
-        Console.WriteLine("Original string: " + originalString);
-        Console.WriteLine("Uppercase string: " + uppercaseString);
+        Console.WriteLine(originalString);
+        Console.WriteLine(uppercaseString);
     }
 }
 ```
