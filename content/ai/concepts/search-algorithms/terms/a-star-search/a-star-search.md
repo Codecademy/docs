@@ -55,3 +55,45 @@ The algorithm concludes when the goal node _G_ is removed from the open list and
 > Note: The algorithm ends when the goal node _G_ has been explored, NOT when it is added to the open list.
 
 ## Example
+
+Consider the following example of trying to find the shortest path from _S_ to _G_ in the following graph:
+
+![Example Graph](https://raw.githubusercontent.com/Codecademy/docs/AI-Hisham/media/a-star-example-graph.png)
+
+An open list is maintained in which the node _S_ is the only node in the list. The search tree can now be constructed.
+
+Exploring _S_:
+
+![a-star-1](https://raw.githubusercontent.com/Codecademy/docs/AI-Hisham/media/a-star-tree-1.png)
+
+_A_ is the current most promising path, so it is explored next:
+
+![a-star-2](https://raw.githubusercontent.com/Codecademy/docs/AI-Hisham/media/a-star-tree-2.png)
+
+Exploring _D_:
+
+![a-star-3](https://raw.githubusercontent.com/Codecademy/docs/AI-Hisham/media/a-star-tree-3.png)
+
+Exploring _F_:
+
+![a-star-4](https://raw.githubusercontent.com/Codecademy/docs/AI-Hisham/media/a-star-tree-4.png)
+
+Notice that the goal node _G_ has been found. However, it is still not explored, so the alogrithm continues because there may be a shorter path to G. The node _B_ has two entries in the open list: one at a cost of 16 (child of _S_) and one at a cost of 18 (child of _A_). The one with the lowest cost is explored next:
+
+![a-star-5](https://raw.githubusercontent.com/Codecademy/docs/AI-Hisham/media/a-star-tree-5.png)
+
+Eploring _C_:
+
+![a-star-6](https://raw.githubusercontent.com/Codecademy/docs/AI-Hisham/media/a-star-tree-6.png)
+
+The next node in the open list is again _B_. However, because _B_ has already been explored, meaning a shortest path to _B_ has been found, it is not explored again and the algorithm continues to the next candidate.
+
+![a-star-7](https://raw.githubusercontent.com/Codecademy/docs/AI-Hisham/media/a-star-tree-7.png)
+
+The next node to be explored is the goal node _G_, meaning the shortest path to _G_ has been found! The path is constructed by tracing the graph backward from _G_ to _S_:
+
+![a-star-8](https://raw.githubusercontent.com/Codecademy/docs/AI-Hisham/media/a-star-tree-8.png)
+
+## Using the A\* Algorithm
+
+This algorithm is guranteed to find a shortest path if one exists. One of the main uses of this algorithm are route planning. However, there are many other uses.
