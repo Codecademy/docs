@@ -1,6 +1,6 @@
 ---
 Title: '.isna()'
-Description: 'Checks whether the objects of a dataframe or a series contain missing or null values and returns a corresponding boolean `True` or `False` value.'
+Description: 'Checks whether the objects of a Dataframe or a series contain missing or null values and returns a corresponding boolean `True` or `False` value.'
 Subjects:
     - 'Computer Science'
     - 'Pandas'
@@ -11,7 +11,7 @@ CatalogContent:
     - 'learn-python-3'
     - 'paths/data-science'
 ---
-The **`.isna()`** method checks whether the objects of a dataframe or a series contain missing or null values `(NA, NaN)` and returns a new object with the same shape as the original object but with boolean values `True` or `False` as the elements. True indicates the presence of null or missing values and False indicates otherwise. The original `DataFrame` object, used to call the method, remains unchanged.'
+The **`.isna()`** method checks whether the objects of a `Dataframe` or a series contain missing or null values `(NA, NaN)` and returns a new object with the same shape as the original object but with boolean values `True` or `False` as the elements. `True` indicates the presence of null or missing values and `False` indicates otherwise. The original `DataFrame` object, used to call the method, remains unchanged.
 
 ## Syntax
 
