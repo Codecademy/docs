@@ -1,7 +1,7 @@
 ---
 Title: '.Reverse()'
-Description: 'Reverses the sequence of a subset of the elements in the one-dimensional Array.'
-Subjects: 
+Description: 'Reverses the sequence of a subset of the elements in a one-dimensional array.'
+Subjects:
   - 'Computer Science'
   - 'Code Foundations'
 Tags:
@@ -11,13 +11,22 @@ CatalogContent:
   - 'paths/build-web-apps-with-asp-net'
 ---
 
+The **`.Reverse()`** method reverses the sequence of a subset of the elements in a one-dimensional array.
+
 ## Syntax
 
 ```pseudo
-// Reverses the sequence of a subset of the elements in the one-dimensional Array.
-
-public static void **Reverse** (Array array, int index, int length); 
+Array.Reverse(sourceArray, index, length);
 ```
+
+`.Reverse()` takes the following parameters:
+
+- `someArray`, the array to be reversed
+- `index`, an integer specifying the start of the subset
+- `length`, an integer specifing the num of elements of the subset
+
+If the method is run without specifing and index and length, then the entire array will be reversed.
+
 ## Example
 
 The following example initializes `myArray` with values, and reverses the sequence:
@@ -25,53 +34,47 @@ The following example initializes `myArray` with values, and reverses the sequen
 ```cs
 using System;
 
-  public class ArrayReverse
+public class Example
+{
+  public static void Main(string[] args)
   {
-    static void Main(string[] args)
-    {
-      int[] myArray = {0, 1, 2, 3, 4}; //initialize an array
+    string[] spamLetters = {"S", "P", "A", "M"};
 
-      Array.Reverse(myArray); //reverse items in myArray
-        
-      for ( int i = myArray.GetLowerBound(0); i <= myArray.GetUpperBound(0); i++ )
-        Console.WriteLine( "\t{1}", myArray.GetValue( i ) ); //output 4 3 2 1 0
+    Array.Reverse(spamLetters);
+
+    foreach (string s in spamLetters)
+    {
+      System.Console.Write(s + " ");
     }
   }
+}
 ```
-Other arguments (int index, int length) must be used to change the sequence of a subset of elements:
 
-```cs
-using System;
+The code returns the following output:
 
-  public class ArrayReverse
-  {
-    static void Main(string[] args)
-    {
-      int[] myArray = {0, 1, 2, 3, 4}; //initialize an array
-
-      Array.Reverse(myArray, 1, 4); //reverse items in myArray
-        
-      for ( int i = myArray.GetLowerBound(0); i <= myArray.GetUpperBound(0); i++ )
-        Console.WriteLine( "\t{1}", myArray.GetValue( i ) ); // output 0 4 3 2 1
-    }
-  }
+```shell
+M A P S
 ```
 
 ## Codebyte Example
 
-```codebyte/js
+The following example uses the `.Reverse()` method to flip the final 4 characters of an array.
+
+```codebyte/csharp
 using System;
 
-  public class ArrayReverse
+public class Example
+{
+  public static void Main(string[] args)
   {
-    static void Main(string[] args)
-    {
-      int[] myArray = {0, 1, 2, 3, 4}; //initialize an array
+    string[] alphaBit = {"L", "M", "N", "O", "P"};
 
-      Array.Reverse(myArray); //reverse the sequence of elements in myArray
-        
-      for ( int i = myArray.GetLowerBound(0); i <= myArray.GetUpperBound(0); i++ )
-        Console.WriteLine( "\t{1}", myArray.GetValue( i ) ); //print all elements in myArray
+    Array.Reverse(alphaBit, 1, 4);
+
+    foreach (string a in alphaBit)
+    {
+      System.Console.Write(a + " ");
     }
   }
+}
 ```
