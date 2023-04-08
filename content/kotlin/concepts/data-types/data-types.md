@@ -354,7 +354,7 @@ In the above, the `error()` function throws an exception and does not return a v
 
 ### Unit
 
-In Kotlin, `Unit` is another special type that represents the absence of a value. It's similar to [`Void`](https://www.codecademy.com/resources/docs/general/void) in other programming languages and is used to indicate that a function does not return a value. `Unit` is also a subtype of `Any` which means that it can be used in place of any type.
+In Kotlin, `Unit` is another special type that represents the absence of a value. It's similar to [`Void`](https://www.codecademy.com/resources/docs/general/data-types/void) in other programming languages and is used to indicate that a function does not return a value. `Unit` is also a subtype of `Any` which means that it can be used in place of any type.
 
 The `Unit` type can be used to specify that a function has a return type of `Unit` when it is not possible to infer the return type from the function's body. For example:
 
