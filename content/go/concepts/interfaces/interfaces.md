@@ -12,7 +12,9 @@ CatalogContent:
   - 'paths/back-end-engineer-career-path'
 ---
 
-An interface is composed of set of method signatures. These method signatures define the input and return values of which a data type or structure can conform to. In order to implement an interface, the type or structure must satisfy all the defined method signatures.
+<h2>Creating an Interface</h2>
+
+An interface is composed of set of method signatures. These method signatures define the input and return values of which a data type or struct can conform to. In order to implement an interface, the type or struct must satisfy all the defined method signatures.
 
 ```go
 type InterfaceName interface {
@@ -20,9 +22,7 @@ type InterfaceName interface {
 }
 ```
 
-A type implements an interface by implementing its methods.
-Interfaces are implemented implicitly.
-Interfaces enable polymorphism in Go.
+A type implements an interface by implementing its methods, In `Go` Interfaces are implmented implicitly and they also enable polymorphism.
 
 ## Example
 
@@ -83,14 +83,14 @@ In the above example:
 - The `marriage` interface has two methods `love` and `arranged`.
 - `john` and `max` implement the `marriage` interface. Note that neither `john` nor `max` have any explicit declaration to implement the interface.
 - As long as the struct has all the methods in the interface, it is said to implement the interface.
-- The function `newLife` takes a `marriage` interface as an argument.
-- It's possible to call the `newLife` function with the `john` and `max` structs.
+- The function `newLife()` takes a `marriage` interface as an argument.
+- It's possible to call `newLife()` with the `john` and `max` structs.
 
-The advantage of using an interface is that any struct can be passed to the `newLife` function as long as it implements the `marriage` interface. It is possible to change the implementation of the `love` and `arranged` methods in the `john` and `max` structs without affecting the `newLife` function.
+The advantage of using an interface is that any `struct` can be passed to the `newLife()` function as long as it implements the `marriage` interface. It is possible to change the implementation of the `love` and `arranged` methods in the `john` and `max` structs without affecting the `newLife()` function.
 
-It is also possible to make a new type and `newLife` can use it without changing the `newLife` function as long as the new type implements the `marriage` interface.
+It is also possible to make a new type and `newLife()` can use it without any change as long as the new type implements the `marriage` interface.
 
-Go's compiler will ensure that all the methods in the interface are implemented in the struct.
+Go's compiler will ensure that all the methods in the interface are implemented in the `struct`.
 
 ## Empty Interface
 
@@ -100,13 +100,13 @@ An interface with no methods is called an empty interface.
 type interfaceName interface {}
 ```
 
-The tradeoff of using an empty interface is the loss of type safety. As there are no methods, it's possible to pass any type to a function that takes an empty interface as an argument.
+The tradeoff of using an empty interface is the loss of type safety. Since there are no methods, it's possible to pass any type to a function that takes an empty interface as an argument.
 
 ### Example
 
-The `Println` function in the `fmt` package takes an empty interface as an argument.
+The `Println()` function in the `fmt` package takes an empty interface as an argument.
 
-Below is the go source code for the `fmt.Println` function:
+Below is the Go source code for the `fmt.Println()` function:
 
 ```go
 // Println formats using the default formats for its operands and writes to standard output.
@@ -117,8 +117,7 @@ func Println(a ...interface{}) (n int, err error) {
 }
 ```
 
-> ##Note:\*\* due to the empty interface, we can pass any type to the `Println` function.
-
+>**Note:** Due to the empty interface, any type can be passed to the `Println()` function.
 ## Embedding an Interface
 
 An interface in go can be embedded in other interfaces or structs.
@@ -155,13 +154,13 @@ func (a john) compatibility() {
 }
 
 type parents struct {
-    //named marriage interface
+    //Named marriage interface
     m     marriage
     quote string
 }
 
 type lovers struct {
-    //unnamed marriage interface
+    //Unnamed marriage interface
     marriage
     quote string
 }
@@ -209,8 +208,15 @@ Program exited.
 
 ## Codebyte Example
 
-A simple example on how to use interfaces
-square and circle both implement geometry interface as both square and circle implements area and perimeter methods
+A simple example on how to use interfaces, Square and circle both implement geometry interface as both square and circle implements area and perimeter methods
+
+<h3>Explanation<h3>
+
+In the Below Code The geometry interface has two methods area() and perimeter(), both of which return a float64. The square and circle structs implement these methods, allowing them to be used interchangeably as geometry objects.
+
+The code then defines a printGeometry() function, which takes a geometry object as its parameter and prints its details, including its area and perimeter.
+
+In the main() function, a square and a circle are created, and the printGeometry() function is called for each of them, demonstrating how the two different types can be used interchangeably as geometry objects.
 
 ```codebyte/golang
 
