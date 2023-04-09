@@ -22,8 +22,6 @@ type InterfaceName interface {
 }
 ```
 
-A type implements an interface by implementing its methods, In `Go`, interfaces are implemented implicitly and enables polymorphism.
-
 ### Example
 
 ```go
@@ -92,6 +90,8 @@ It is also possible to make a new type and `newLife()` can use it without any ch
 
 Go's compiler will ensure that all the methods in the interface are implemented in the `struct`.
 
+  A type implements an interface by implementing its methods, In `Go`, interfaces are implemented implicitly and enables polymorphism.
+
 ## Empty Interface
 
 An interface with no methods is called an empty interface.
@@ -117,7 +117,7 @@ func Println(a ...interface{}) (n int, err error) {
 }
 ```
 
->**Note:** Due to the empty interface, any type can be passed to the `Println()` function.
+> **Note:** Due to the empty interface, any type can be passed to the `Println()` function.
 
 ## Embedding an Interface
 
