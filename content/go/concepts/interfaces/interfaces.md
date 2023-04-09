@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/back-end-engineer-career-path'
 ---
 
-An interface is a set of method signatures.
+An interface is composed of set of method signatures. These method signatures define the input and return values of which a data type or structure can conform to. In order to implement an interface, the type or structure must satisfy all the defined method signatures.
 
 ```go
 type InterfaceName interface {
