@@ -8,21 +8,21 @@ Tags:
   - 'Loops'
   - 'While'
   - 'For'
-  - 'Do-While'
+  - 'Control Flow'
 CatalogContent:
   - 'learn-c'
   - 'paths/computer-science'
 ---
 
-A loop is a programming tool that is used to repeat a set of instructions. Iterate is a generic term that means “to repeat” in the context of loops. A loop will continue to iterate until a specified condition, commonly known as a stopping condition, is met.
+A **loop** is a programming tool that is used to repeat a set of instructions. Iterate is a generic term that means “to repeat” in the context of loops. A loop will continue to iterate until a specified condition, commonly known as a stopping condition, is met.
 
 ## For Loop
 
-A `for` loop declares looping instructions, with three important pieces of information separated by semicolons `;`:
+A `for` loop begins with the `for` keyword and a statement declaring the three parameters governing the iteration, all separated by semicolons`;`:
 
-- The initialization defines where to begin the loop by declaring (or referencing) the iterator variable.
-- The stopping condition determines when to stop looping (when the expression evaluates to false).
-- The iteration statement updates the iterator each time the loop is completed.
+- The `initialization` defines where to begin the loop by declaring (or referencing) the iterator variable.
+- The `condition` determines when to stop looping (when the expression evaluates to false).
+- The `increment` statement updates the iterator each time the loop is completed.
 
 ```pseudo
 for (initialization; condition; increment) {
