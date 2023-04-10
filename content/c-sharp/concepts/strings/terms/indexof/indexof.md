@@ -18,11 +18,11 @@ The **`.IndexOf()`** method is a string method that returns the index of the fir
 ## Syntax
 
 ```pseudo
-public int IndexOf(char value);
-public int IndexOf(string value);
-public int IndexOf(char value, int startIndex);
-public int IndexOf(string value, int startIndex);
-public int IndexOf(string value, int startIndex, int count);
+IndexOf(char value);
+IndexOf(string value);
+IndexOf(char value, int startIndex);
+IndexOf(string value, int startIndex);
+IndexOf(string value, int startIndex, int count);
 ```
 
 - `value` : The substring or character to search for.
