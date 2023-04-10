@@ -86,5 +86,5 @@ Index of 'a' starting from index 10: 16
 Index of 'dog': -1
 ```
 
-In this example We use the `IndexOf()` method to find the index of the first occurrence of the letter `'h'`, the substring `"cat"`, the letter `'a'` starting from index `10`, and the substring `"dog"`. Since `"dog"` is not found in the string, the method returns `-1`.
+This example used the `.IndexOf()` method to find the index of the first occurrence of the letter `'h'`, the substring `"cat"`, the letter `'a'` starting from index `10`, and the substring `"dog"`. Since `"dog"` is not found in the string, the method returns `-1`.
 
