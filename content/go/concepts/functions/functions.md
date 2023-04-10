@@ -27,7 +27,8 @@ func functionName(parameter type)(returnValue type){
 ```
 
 The `parameter` and `returnValue` names must be either all present or all absent.
-Pass by value is used for parameters, meaning the function receives a copy of the parameter's value. To modify the parameter, pass a pointer.
+
+Parameters are passed by value, meaning the function receives a copy of the parameter's value. For a parameter to be passed by reference, allowing it to be modified within the function, it can be declared as a pointer type.
 
 Below are some examples of how to define functions in Go:
 
