@@ -1,5 +1,5 @@
 ---
-Title: '.ToLower()'
+Title: '.getChars()'
 Description: 'Converts all the characters in a given string to lowercase.'
 Subjects:
   - 'Computer Science'
