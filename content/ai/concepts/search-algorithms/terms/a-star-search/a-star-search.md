@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/machine-learning-ai-engineering-foundations'
 ---
 
-**A\* Search** is an informed best-first search algorithm that efficiently determines the lowest cost path between any two nodes in a directed weighted graph with non-negative edge weights. This algorithm is a variant of Dijkstra's algorithm. A slight difference arises from the fact that an evaluation function is used to determine which node to explore next. The algorithm is correct for the same reason as Dijkstra's algorithm.
+**A\* Search** is an informed [best-first search algorithm](https://www.codecademy.com/resources/docs/ai/search-algorithms/best-first-search) that efficiently determines the lowest cost path between any two nodes in a directed weighted graph with non-negative edge weights. This algorithm is a variant of Dijkstra's algorithm. A slight difference arises from the fact that an evaluation function is used to determine which node to explore next. The algorithm is correct for the same reason as Dijkstra's algorithm.
 
 ## Evaluation Function
 
@@ -58,41 +58,43 @@ The algorithm concludes when the goal node _G_ is removed from the open list and
 
 Consider the following example of trying to find the shortest path from _S_ to _G_ in the following graph:
 
-![Example Graph](https://raw.githubusercontent.com/Codecademy/docs/AI-Hisham/media/a-star-example-graph.png)
+![Example Graph](https://raw.githubusercontent.com/Codecademy/docs/main/media/a-star-example-graph.png)
+
+Each edge has an associated weight, and each node has a heuristic cost (in parentheses).
 
 An open list is maintained in which the node _S_ is the only node in the list. The search tree can now be constructed.
 
 Exploring _S_:
 
-![a-star-1](https://raw.githubusercontent.com/Codecademy/docs/AI-Hisham/media/a-star-tree-1.png)
+![a-star-1](https://raw.githubusercontent.com/Codecademy/docs/main/media/a-star-tree-1.png)
 
 _A_ is the current most promising path, so it is explored next:
 
-![a-star-2](https://raw.githubusercontent.com/Codecademy/docs/AI-Hisham/media/a-star-tree-2.png)
+![a-star-2](https://raw.githubusercontent.com/Codecademy/docs/main/media/a-star-tree-2.png)
 
 Exploring _D_:
 
-![a-star-3](https://raw.githubusercontent.com/Codecademy/docs/AI-Hisham/media/a-star-tree-3.png)
+![a-star-3](https://raw.githubusercontent.com/Codecademy/docs/main/media/a-star-tree-3.png)
 
 Exploring _F_:
 
-![a-star-4](https://raw.githubusercontent.com/Codecademy/docs/AI-Hisham/media/a-star-tree-4.png)
+![a-star-4](https://raw.githubusercontent.com/Codecademy/docs/main/media/a-star-tree-4.png)
 
 Notice that the goal node _G_ has been found. However, it is still not explored, so the alogrithm continues because there may be a shorter path to G. The node _B_ has two entries in the open list: one at a cost of 16 (child of _S_) and one at a cost of 18 (child of _A_). The one with the lowest cost is explored next:
 
-![a-star-5](https://raw.githubusercontent.com/Codecademy/docs/AI-Hisham/media/a-star-tree-5.png)
+![a-star-5](https://raw.githubusercontent.com/Codecademy/docs/main/media/a-star-tree-5.png)
 
 Eploring _C_:
 
-![a-star-6](https://raw.githubusercontent.com/Codecademy/docs/AI-Hisham/media/a-star-tree-6.png)
+![a-star-6](https://raw.githubusercontent.com/Codecademy/docs/main/media/a-star-tree-6.png)
 
 The next node in the open list is again _B_. However, because _B_ has already been explored, meaning a shortest path to _B_ has been found, it is not explored again and the algorithm continues to the next candidate.
 
-![a-star-7](https://raw.githubusercontent.com/Codecademy/docs/AI-Hisham/media/a-star-tree-7.png)
+![a-star-7](https://raw.githubusercontent.com/Codecademy/docs/main/media/a-star-tree-7.png)
 
 The next node to be explored is the goal node _G_, meaning the shortest path to _G_ has been found! The path is constructed by tracing the graph backward from _G_ to _S_:
 
-![a-star-8](https://raw.githubusercontent.com/Codecademy/docs/AI-Hisham/media/a-star-tree-8.png)
+![a-star-8](https://raw.githubusercontent.com/Codecademy/docs/main/media/a-star-tree-8.png)
 
 ## Using the A\* Algorithm
 
