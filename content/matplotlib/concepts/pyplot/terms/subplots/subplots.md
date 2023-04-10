@@ -66,5 +66,4 @@ plt.show()
 ```
 
 The output is shown below:
-![Output](https://raw.githubusercontent.com/Codecademy/docs/main
-/media/matplotlib-subplots-example.png)
+![Output](https://raw.githubusercontent.com/Codecademy/docs/main/media/matplotlib-subplots-example.png)
