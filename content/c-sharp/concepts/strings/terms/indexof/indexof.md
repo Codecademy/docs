@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`IndexOf()`** method is a string method that returns the index of the first occurrence of a specified character or substring in a given string. If the character or substring is not found, it returns `-1`.
+The **`.IndexOf()`** method is a string method that returns the index of the first occurrence of a specified character or substring in a given string. If the character or substring is not found, it returns `-1`.
 
 ## Syntax
 
