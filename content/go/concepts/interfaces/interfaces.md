@@ -90,7 +90,7 @@ It is also possible to make a new type and `newLife()` can use it without any ch
 
 Go's compiler will ensure that all the methods in the interface are implemented in the `struct`.
 
-  A type implements an interface by implementing its methods, In `Go`, interfaces are implemented implicitly and enables polymorphism.
+A type implements an interface by implementing its methods, In `Go`, interfaces are implemented implicitly and enables polymorphism.
 
 ## Empty Interface
 
