@@ -23,9 +23,9 @@ Array.Reverse(sourceArray, index, length);
 
 - `someArray`, the array to be reversed
 - `index`, an integer specifying the start of the subset
-- `length`, an integer specifing the num of elements of the subset
+- `length`, an integer specifying the number of elements of the subset
 
-If the method is run without specifing and index and length, then the entire array will be reversed.
+If the method is run without specifying and index and length, then the entire array will be reversed.
 
 ## Example
 
