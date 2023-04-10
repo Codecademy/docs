@@ -1,0 +1,13 @@
+---
+Title: '.ToLower()'
+Description: 'Converts all the characters in a given string to lowercase.'
+Subjects:
+  - 'Computer Science'
+  - 'Code Foundations'
+Tags:
+  - 'Strings'
+  - 'Methods'
+CatalogContent:
+  - 'learn-c-sharp'
+  - 'paths/computer-science'
+---
