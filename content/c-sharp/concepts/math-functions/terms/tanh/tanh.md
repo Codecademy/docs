@@ -21,20 +21,24 @@ The **`Math.tanh()`** method returns the hyperbolic tangent of a given angle in 
 Math.Tahn(x);
 ```
 
-Parameter: This method accepts only single parameter.
-
-`x`: This parameter is the angle in radians.
-
-Returns: This function returns the hyperbolic tangent value of `x`.
+This method accepts a single parameter,`x`, which is the angle in radians. It returns the hyperbolic tangent value of `x`.
 
 ## Example
 
-The code is declaring two constants, `x` and `y`, and then calculating the hyperbolic tangent of `x` using the `Math.tanh()` function. The resulting value is stored in `y`. Finally, the value of `y` is printed to the console.
+The example below declares two constants, `x` and `y`, and then calculates the hyperbolic tangent of `x` using the `Math.tanh()` function. The resulting value is stored in `y`. Finally, the value of `y` is printed to the console.
 
 ```cs
-const x = 2;
-const y = Math.tanh(x);
+using System;
 
-console.log(y);
-// Output: 0.9640275800758169
+public class Program
+{
+  public static void Main()
+  {
+    double x = 2;
+    double y = Math.Tanh(x);
+
+    Console.WriteLine(y);
+    // Output: 0.9640275800758169
+  }
+}
 ```
