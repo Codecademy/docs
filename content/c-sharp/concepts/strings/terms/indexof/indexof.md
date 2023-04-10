@@ -7,7 +7,7 @@ Subjects:
 Tags:
   - 'Methods'
   - 'Strings'
-  - 'String Searching'
+  - 'Search'
 CatalogContent:
   - 'learn-c-sharp'
   - 'paths/computer-science'
