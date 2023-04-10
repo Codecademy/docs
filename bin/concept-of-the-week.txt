@@ -1,1 +1,1 @@
-content/html/concepts/entities/entities.md
+content/css/concepts/inheritance/inheritance.md
