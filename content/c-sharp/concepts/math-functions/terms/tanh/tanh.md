@@ -25,7 +25,7 @@ This method accepts a single parameter,`x`, which is the angle in radians. It re
 
 ## Example
 
-The example below declares two constants, `x` and `y`, and then calculates the hyperbolic tangent of `x` using the `Math.Tanh()` function. The resulting value is stored in `y`. Finally, the value of `y` is printed to the console.
+The example below declares two double values, `x` and `y`, and then calculates the hyperbolic tangent of `x` using the `Math.Tanh()` function. The resulting value is stored in `y`. Finally, the value of `y` is printed to the console.
 
 ```cs
 using System;
