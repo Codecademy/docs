@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.tanh()`** method returns the hyperbolic tangent of a given angle in radians.
+The **`Math.Tanh()`** method returns the hyperbolic tangent of a given angle in radians.
 
 ## Syntax
 
