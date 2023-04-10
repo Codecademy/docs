@@ -30,7 +30,7 @@ let rgbColor = Color(red: amount, green: amount, blue: amount)
 
 ### HSL
 
-HSL colors can be created by specifying the amount of `hue`, `saturation` and `lightness` as `Double` values. `hue` requires a value between 0 and 360. `saturation` and `lightness` both require values between 0 and 1.
+HSL colors can be created by specifying the amount of `hue`, `saturation`, and `lightness` as `Double` values. `hue` requires a value between 0 and 360. `saturation` and `lightness` both require values between 0 and 1.
 
 ```pseudo
 let hslColor = Color(hue: amount, saturation: amount, lightness: amount)
@@ -85,13 +85,13 @@ let someColor = Color(.color property and optional color component values)
 
 Here are some of the standard color properties that are available. Many of the color properties will change depending on their context, for example, if light or dark mode is set.
 
-- `.red` (context dependent)
-- `.orange` (context dependent)
-- `.green` (context dependent)
+- `.red` (context-dependent)
+- `.orange` (context-dependent)
+- `.green` (context-dependent)
 - `.white`
 - `.black`
-- `.primary` (context dependent)
-- `.secondary` (context dependent)
+- `.primary` (context-dependent)
+- `.secondary` (context-dependent)
 
 ### Example
 
