@@ -98,4 +98,4 @@ The next node to be explored is the goal node _G_, meaning the shortest path to 
 
 ## Using the A\* Algorithm
 
-This algorithm is guranteed to find a shortest path if one exists. One of the main uses of this algorithm are route planning. However, there are many other uses.
+This algorithm is guranteed to find a shortest path if one exists. One of the main uses of this algorithm is route planning. However, there are many other uses.
