@@ -18,7 +18,7 @@ CatalogContent:
 
 The evaluation function, _f(x)_, for the A\* search algorithm is the following:
 
-```tex
+```pseudo
 f(x) = g(x) + h(x)
 ```
 
