@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/machine-learning-ai-engineering-foundations'
 ---
 
-**Best-first search** (BFS) is a class of search algorithms that explores a graph (the graph can be weighted or unweighted) for a path from some start node to a goal node. These algorithms are known as informed search algorithms, meaning that they incorporate information regarding the location of the goal node relative to any other node. This information is quantified by an evaluation function denoted by _f(x)_. In a weighted graph, the evaluation function can combine information regarding the edge weights and some heuristic function, _h(x)_, that represents a measure from a node (_x_ in this case) to the goal node. When searching for the goal node, a BFS algorithm (not to be confused with breadth-first search) selects the node with the most promising value determined by the evaluation function.
+**Best-first search** is a class of search algorithms that explores a graph (the graph can be weighted or unweighted) for a path from some start node to a goal node. These algorithms are known as informed search algorithms, meaning that they incorporate information regarding the location of the goal node relative to any other node. This information is quantified by an evaluation function denoted by _f(x)_. In a weighted graph, the evaluation function can combine information regarding the edge weights and some heuristic function, _h(x)_, that represents a measure from a node (_x_ in this case) to the goal node. When searching for the goal node, a BFS algorithm (not to be confused with breadth-first search) selects the node with the most promising value determined by the evaluation function.
 
 ## Evaluation Function
 
