@@ -6,6 +6,7 @@ Subjects:
   - 'Code Foundations'
 Tags:
   - 'Arrays'
+  - 'Methods'
 CatalogContent:
   - 'learn-c-sharp'
   - 'paths/build-web-apps-with-asp-net'
@@ -21,7 +22,7 @@ Array.Reverse(sourceArray, index, length);
 
 `.Reverse()` takes the following parameters:
 
-- `someArray`, the array to be reversed
+- `sourceArray`, the array to be reversed
 - `index`, an integer specifying the start of the subset
 - `length`, an integer specifying the number of elements of the subset
 
@@ -29,7 +30,7 @@ If the method is run without specifying and index and length, then the entire ar
 
 ## Example
 
-The following example initializes `myArray` with values, and reverses the sequence:
+The following example initializes `spamLetters` with values, and reverses the sequence:
 
 ```cs
 using System;
