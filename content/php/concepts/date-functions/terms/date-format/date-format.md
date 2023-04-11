@@ -21,7 +21,7 @@ The `date_format()` function takes a `DateTime` object and a format string and r
 $datestring = date_format($object, $format);
 ```
 
-The `$object` parameter is a `DateTime` object as returned by [`date_create()`](https://www.codecademy.com/resources/docs/php/date-functions/date_create). And the `$format` parameter is a format string that can use the following characters:
+The `$object` parameter is a `DateTime` object as returned by [`date_create()`](https://www.codecademy.com/resources/docs/php/date-functions/date-create). And the `$format` parameter is a format string that can use the following characters:
 
 | Character | Description                                                                        |
 | :-------: | ---------------------------------------------------------------------------------- |
