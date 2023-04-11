@@ -81,4 +81,4 @@ plt.show()
 
 Output:
 
-![Output of matplotlib.pyplot.hist() function example](/media/matplotlib-hist-dogs-fig.png)
+![Output of matplotlib.pyplot.hist() function example](https://raw.githubusercontent.com/Codecademy/docs/main/media/matplotlib-hist-dogs-fig.png)
