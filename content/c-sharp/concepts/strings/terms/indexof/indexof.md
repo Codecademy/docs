@@ -58,18 +58,18 @@ public class IndexOfExample
     public static void Main()
     {
         string sentence = "The cat in the hat wears a red and white striped hat";
-        
+
         Console.WriteLine(sentence);
-        
+
         int index1 = sentence.IndexOf('h');
         Console.WriteLine($"Index of 'h': {index1}");
-        
+
         int index2 = sentence.IndexOf("cat");
         Console.WriteLine($"Index of 'cat': {index2}");
-        
+
         int index3 = sentence.IndexOf('a', 10);
         Console.WriteLine($"Index of 'a' starting from index 10: {index3}");
-        
+
         int index4 = sentence.IndexOf("dog");
         Console.WriteLine($"Index of 'dog': {index4}");
     }
