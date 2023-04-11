@@ -80,7 +80,7 @@ Exploring _F_:
 
 ![a-star-4](https://raw.githubusercontent.com/Codecademy/docs/main/media/a-star-tree-4.png)
 
-Notice that the goal node _G_ has been found. However, it is still not explored, so the alogrithm continues because there may be a shorter path to G. The node _B_ has two entries in the open list: one at a cost of 16 (child of _S_) and one at a cost of 18 (child of _A_). The one with the lowest cost is explored next:
+Notice that the goal node _G_ has been found. However, it hasn't been explored, so the algorithm continues because there may be a shorter path to G. The node _B_ has two entries in the open list: one at a cost of 16 (child of _S_) and one at a cost of 18 (child of _A_). The one with the lowest cost is explored next:
 
 ![a-star-5](https://raw.githubusercontent.com/Codecademy/docs/main/media/a-star-tree-5.png)
 
