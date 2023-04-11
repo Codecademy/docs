@@ -50,7 +50,7 @@ current_lowest_cost = min(current_lowest_cost, parent_node_cost + edge_weight)
 
 All nodes except for the start node start with a lowest cost of infinity. The start node has an initial lowest cost of 0.
 
-The algorithm concludes when the goal node _G_ is removed from the open list and explored indicating that a shortest path has been found. The shortest path is the path from the start node _S_ to the goal node _G_ in the tree.
+The algorithm concludes when the goal node _G_ is removed from the open list and explored, indicating that a shortest path has been found. The shortest path is the path from the start node _S_ to the goal node _G_ in the tree.
 
 > Note: The algorithm ends when the goal node _G_ has been explored, NOT when it is added to the open list.
 
