@@ -1,6 +1,6 @@
 ---
 Title: 'ArithmeticException'
-Description: 'Occurs when an arithmetic operation yields an error '
+Description: 'Occurs when an arithmetic operation yields an error.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
