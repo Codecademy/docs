@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.Acos()`** method returns the absolute value of the inverse cosine of the argument, measured in radians. In other words: It returns the positive angle whose cosine is the specified number.
+The **`Math.Acos()`** method returns the absolute value of the inverse cosine of the argument, measured in radians. In other words, it returns the positive angle whose cosine is the specified number.
 
 ## Syntax
 
@@ -22,9 +22,9 @@ Math.Acos(x);
 ```
 
 The method takes one parameter `x` of the type `double`. It will return a positive value of type `double` except in the following cases:
--If `x` is less than -1, it will return `NaN` (not a number).
--If `x` is greater than 1, it will return `NaN`.
--If `x` is `NaN`, it will return `NaN`.
+- If `x` is less than -1, it will return `NaN` (not a number).
+- If `x` is greater than 1, it will return `NaN`.
+- If `x` is `NaN`, it will return `NaN`.
 
 ## Example
 
