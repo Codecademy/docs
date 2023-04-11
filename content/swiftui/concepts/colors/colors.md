@@ -1,12 +1,12 @@
 ---
-Title: 'Color'
-Description: 'Color is a structure that creates color instances. Colors can be created from RGB, HSL, or grayscale component values and from standard color properties.'
+Title: 'Colors'
+Description: 'Color is a structure that creates color instances. Colors can be created from  RGB, HSL, or grayscale component values and from standard color properties.'
 Subjects:
   - 'Mobile Development'
   - 'iOS'
 Tags:
   - 'SwiftUI'
-  - 'SwiftUI ViewModifiers'
+  - 'Colors'
 CatalogContent:
   - 'learn-swift'
   - 'paths/build-ios-apps-with-swiftui'
