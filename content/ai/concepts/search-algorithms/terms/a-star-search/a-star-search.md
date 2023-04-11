@@ -84,7 +84,7 @@ Notice that the goal node _G_ has been found. However, it hasn't been explored, 
 
 ![a-star-5](https://raw.githubusercontent.com/Codecademy/docs/main/media/a-star-tree-5.png)
 
-Eploring _C_:
+Exploring _C_:
 
 ![a-star-6](https://raw.githubusercontent.com/Codecademy/docs/main/media/a-star-tree-6.png)
 
