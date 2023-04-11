@@ -1,1 +1,1 @@
-content/pandas/concepts/built-in-functions/built-in-functions.md
+content/css/concepts/inheritance/inheritance.md
