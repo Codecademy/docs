@@ -40,7 +40,7 @@ After the files are staged for commit, use the following syntax:
 git commit
 ```
 
-> **Note:** Using the `git commit` command by itself will open up an editor (usually set to [Vim](https://www.codecademy.com/resources/docs/open-source/vim) by default), where users will be asked to add a commit message. After writing a message, saving and closing the file (`:wq` in Vim) will add that message to the current commit.
+> **Note:** Using the `git commit` command by itself will open up an editor (usually set to [Vim](https://www.codecademy.com/resources/docs/command-line/vim) by default), where users will be asked to add a commit message. After writing a message, saving and closing the file (`:wq` in Vim) will add that message to the current commit.
 
 Here is an example of what the commit message prompt might look like when using `git commit`:
 
