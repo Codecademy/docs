@@ -1,6 +1,6 @@
 ---
 Title: '.LastIndexOf()'
-Description: 'Find the last occurrence of a specified character or substring within a string'
+Description: 'Finds the last occurrence of a specified character or substring within a string.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -15,9 +15,9 @@ CatalogContent:
 
 The **`.LastIndexOf()`** method returns the last occurrence of a specified character or substring within a `string`.
 
-The method return `-1` if there's not such valid search results.
+The method returns `-1` if there's no such match.
 
-An additional parameters may be supplied to define the criteria for the search.
+Additional parameters may be supplied to define the criteria for the search.
 
 ## Syntax
 
@@ -45,11 +45,11 @@ String.LastIndexOf(string, startIndex, length);
 // Determines the zero-base index of the last occurrence of substring within the string, using the stringComparison method.
 String.LastIndexOf(substring, stringComparison);
 
-// Same as about but use additional startIndex. The search starts at the startIndex and proceeds backward toward the beginning of the string, using the stringComparison method.
+// Same as above but uses additional startIndex. The search starts at the startIndex and proceeds backward toward the beginning of the string, using the stringComparison method.
 String.LastIndexOf(substring, startIndex, stringComparison);
 
-// Same as about but use additional searching length. The search starts at the startIndex and proceeds backward toward the beginning of the string for a specified number of character positions, using the stringComparison method.
-String.LastIndexOf(substring, startIndex, lenth, stringComparison);
+// Same as above but uses additional searching length. The search starts at the startIndex and proceeds backward toward the beginning of the string for a specified number of character positions, using the stringComparison method.
+String.LastIndexOf(substring, startIndex, length, stringComparison);
 ```
 
 `.LastIndexOf()` is a method of the `String` object. It may take following parameters:
@@ -57,7 +57,7 @@ String.LastIndexOf(substring, startIndex, lenth, stringComparison);
 - `char` is an instance of the Char structure; represents a single letter.
 - `string` is an instance of the String object.
 - `startIndex` is an Int32 object.
-- `len` is an Int32 object.
+- `length` is an Int32 object.
 - `stringComparison` is an enumeration which encapsulates the case- and culture-specific criteria; available fields include:
     - `CurrentCulture` sets the current culture rules.
     - `CurrentCultureIgnoreCase` sets the current culture rules but ignores case.
@@ -115,7 +115,7 @@ Search using starting postion & string comparision: 15
 
 ## Codebyte Example
 
-In this example, the `String.LastIndexOf()` is use with `compareStr`, `startIndex` and  `strCmp` parameters to determine the zero-base index of the last occurrence of substring within the string. The search starts at the startIndex and proceeds backward toward the beginning of the string, using the StringComparison method:
+In this example, the `String.LastIndexOf()` is used with `compareStr`, `startIndex` and  `strCmp` parameters to determine the zero-base index of the last occurrence of substring within the string. The search starts at the startIndex and proceeds backward toward the beginning of the string, using the StringComparison method:
 
 ```codebyte/csharp
 using System;
