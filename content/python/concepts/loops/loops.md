@@ -115,3 +115,9 @@ for i in big_number_list:
     continue
   print(i)
 ```
+
+## Video Walkthrough
+
+In this video, you will learn how to use the for and while loops in a Python script.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qKjJFz4lUoQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
