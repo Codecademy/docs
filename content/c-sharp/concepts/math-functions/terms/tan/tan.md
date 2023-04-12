@@ -8,7 +8,7 @@ Tags:
   - 'Methods'
   - 'Numbers'
   - 'Arithmetic'
-  - 'Functions' 
+  - 'Functions'
 CatalogContent:
   - 'learn-c-sharp'
   - 'paths/computer-science'
