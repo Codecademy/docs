@@ -1,10 +1,26 @@
-| Title | Description | Subjects | Tags | CatalogContent |
-| ----- | ----------- | -------- | ---- | -------------- |
-| .to_datetime() | Reads inputs representation and converts it into data-time type | Data Science, Computer Science | Date, Display, Pandas | learn-python-3, paths/data-science |
+---
+Title: '.to_datetime()'
+Description: 'Reads inputs representation and returns it into data-time type'
+Subjects:
+  - 'Data Science'
+  - 'Computer Science'
+Tags:
+  - 'Date'
+  - 'Display'
+  - 'Pandas'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/data-science '
+---
 
-The to_datetime() function in the Pandas library of Python converts a string representation of a date or time to a datetime object.
+
+The **to_datetime()** function in the Pandas library of Python. It reads a string (or another) representation of a **date** and **time** to a **datetime object**.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Syntax
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 This function can be used via the Pandas library. It returns a value in datetime format. Various input arguments can be used as shown and described below.
 
@@ -26,7 +42,11 @@ pandas.to_datetime(arg, format=None, errors='raise', dayfirst=False, yearfirst=F
 | origin | scalar (default unix) | reference date is based on that |
 | cache | bool (default True) | is beeing used in datetime conversion, works only with at least 50 values |
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Example
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 First section of the following code shows how to import the needed library and how to create list of string. After that, it calls the `.to_datetime()` function and prints results onto the console.
 
