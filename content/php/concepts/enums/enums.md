@@ -1,6 +1,6 @@
 ---
 Title: 'Enums'
-Description: Description: 'An enumeration (enum) is an special or enumerated custom type that allows developers to have a fixed number of possible values.'
+Description: 'An enumeration (enum) is an special or enumerated custom type that allows developers to have a fixed number of possible values.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
