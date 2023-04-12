@@ -17,7 +17,7 @@ An enumeration (`enum`) is a special or enumerated custom type that allows devel
 
 `Enum`s are available in many languages and are implemented in different features, but in PHP, enumerations are a special kind of object.
 
-## Syntax
+## Creating an `enum`
 
 The keyword, `enum`, is used to declare an enumeration, followed by the name of the `enum`.
 
@@ -33,22 +33,21 @@ enum my_enum {
 
 ```php
 <?php
-enum color {
-  case Pink;
-  case Blue;
-  case Yellow;
+  enum Color {
+    case Pink;
+    case Blue;
+    case Yellow;
   }
 
   // Functions and methods
   function choose_color(Color $color) { }
-}
 ?>
 ```
 
-By using the `Color` enumeration, now it is possible to enforce types when accepting or returning a values for color:
+By using the `Color` enumeration, now it is possible to enforce types when accepting or returning a value for color:
 
 ```php
-choose_color(Starter :: Pink);
-choose_color(Starter :: Blue);
-choose_color(Starter :: Yellow);
+choose_color(Starter::Pink);
+choose_color(Starter::Blue);
+choose_color(Starter::Yellow);
 ```
