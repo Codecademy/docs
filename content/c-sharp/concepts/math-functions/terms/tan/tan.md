@@ -33,15 +33,8 @@ The `Math.Tan()` method takes only one parameter, `angle`, an angle in radians o
 The following example first converts `45` degrees to radians, then uses the `Math.Tangent()` method to return the tangent of that angle. Finally, the `Console.WriteLine()` function prints the result to the console:
 
 ```cs
-using System;
-public class Example {
-  public static void Main(string[] args) {
-    double degrees = 45;
-    double radians = degrees * Math.PI/180;
-    double sine = Math.Tan(radians);
-    Console.WriteLine("The sine of " + degrees + " degrees is: " + sine);
-  }
-}
+double degrees = 45;
+double tangent = Math.Tan(degrees * Math.PI/180);
 ```
 
 The example will result in the following output:
