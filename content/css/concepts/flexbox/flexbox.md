@@ -27,3 +27,9 @@ When working with flexbox, there are two axes:
 
 - The main axis
 - The cross axis
+
+## Video Walkthrough
+
+Watch this video for a step-by-step demonstration on how to use CSS flexbox. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Kn_iONVdOwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
