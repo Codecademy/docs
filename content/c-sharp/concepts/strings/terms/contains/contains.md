@@ -38,7 +38,6 @@ String.Contains(string, comparisonType)
 - `comparisonType` is an enumeration value that sets the comparison rules.
 
 ## Example
-// Поработать над пассивным залогом
 The following example shows how we can use `.Contains()` method
 
 ```cs
@@ -49,22 +48,27 @@ public class Example
     public static void Main()
     {
         string stringToSeek = "The distance is nothing when one has a motive.";
-        //Не уверена в названии переменной
-        string stringToBeFind = "motive";
+        string substring = "motive";
+        char character = 'l';
 
         bool result;
 
-        result = stringToSeek.Contains(stringToBeFind);
+        // String.Contains(string)
+        result = stringToSeek.Contains(substring);
+        Console.WriteLine(result);
+
+        // String.Contains(char)
+        result = stringToSeek.Contains(character);
         Console.WriteLine(result);
     }
-
 }
 ```
 
 Here is the following output:
 
 ```shell
-
-True
-
+Whether the specified string contains the word "motive": True
+Whether the specified string contains the following character "l": False
 ```
+
+
