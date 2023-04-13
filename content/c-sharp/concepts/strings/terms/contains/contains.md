@@ -71,4 +71,24 @@ Whether the specified string contains the word "motive": True
 Whether the specified string contains the following character "l": False
 ```
 
+## Codebyte Example
 
+The example below determines whether the word `helpful` is included in the particular string.
+
+```codebyte/csharp
+using System;
+
+public class CodeByte
+{
+    public static void Main()
+    {
+        string exampleString = "Codecademy is very helpful";
+        string stringToFind = "helpful";
+
+        if (exampleString.Contains(stringToFind))
+        {
+          Console.WriteLine("The example string contains the word \"{0}\"", stringToFind);
+        }
+    }
+}
+```
