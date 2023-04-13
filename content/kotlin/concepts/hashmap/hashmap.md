@@ -37,9 +37,10 @@ A mutable or immutable `HashMap` is created with the `mutableMapOf()` or `mapOf(
 val mutableMap = mutableMapOf<KeyType, ValueType>()
 val immutableMap = mapOf<KeyType, ValueType>()
 ```
+
 ## Accessing Items
 
-To access an item in a `HashMap`, you can use the indexing operator [] with the key of the desired value. If the key exists in the hashmap, the indexing operator will return the corresponding value. If the key does not exist in the hashmap, the indexing operator will return null.
+To access an item in a `HashMap`, the indexing operator `[]` is used with the key of the desired value. If the key exists in the hashmap, the indexing operator will return the corresponding value. If the key does not exist in the hashmap, the indexing operator will return null.
 
 ```kotlin
 fun main() {
@@ -60,7 +61,8 @@ This will print the following output:
 ```shell
 Washington D.C.
 ```
-You can also use the get(key) method to access the value associated with a specific key. This method returns the value associated with the key if it exists in the hashmap, or null if it does not.
+
+You can also use the `.get(key)` method to access the value associated with a specific key. This method returns the value associated with the key if it exists in the hashmap, or null if it does not.
 
 ```kotlin
 val capital = locationsMap.get("India")
@@ -75,19 +77,19 @@ New Delhi
 
 ## Adding Items
 
-To add an item to a hashmap, you can use the put(key, value) method. This method adds a new key-value pair to the hashmap. If the key already exists in the hashmap, the value associated with the key is updated.
+To add an item to a hashmap, you can use the `.put(key, value)` method. This method adds a new key-value pair to the hashmap. If the key already exists in the hashmap, the value associated with the key is updated.
 
 ```kotlin
 locationsMap.put("China", "Beijing")
 ```
 
-You can also use the indexing operator [] to add a new key-value pair to the hashmap. This method is useful if you want to add a new item to the hashmap and you do not know if the key already exists.
+The indexing operator `[]` can also be used to add a new key-value pair to the hashmap. This method is useful to add a new item to the hashmap and it is not known if the key already exists.
 
 ```kotlin
 locationsMap["Germany"] = "Berlin"
 ```
 
-Let's print the capital cities of the countries:
+The following prints the capital cities of the countries:
 
 ```kotlin
 fun main() {
@@ -116,6 +118,3 @@ Paris, France
 Berlin, Germany
 New Delhi, India
 ```
-
-
-
