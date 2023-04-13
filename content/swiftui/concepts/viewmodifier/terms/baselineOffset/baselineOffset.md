@@ -27,7 +27,6 @@ Text("This text is shifted down.")
 The `.baselineOffset()` modifier method uses the following parameter:
 
 - `baselineOffset` specifies how many points the text is shifted up or down. The parameter can be positive, negative, or zero.
-
 - The `amount` of offset is given in points as an integer.
 
 Using the `. baselineOffset()` modifier method without any specified parameter results in an error.
