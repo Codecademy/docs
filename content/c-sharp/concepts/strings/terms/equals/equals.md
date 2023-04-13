@@ -18,6 +18,8 @@ The **`.Equals()`** method determines whether two string objects have the same v
 
 ```pseudo
 String.Equals(string1, string2)
+
+string1.Equals(string2)
 ```
 
 `.Equals()` is a method of class `String`. This method will take two parameters in the form of string objects and check their values for equality.
