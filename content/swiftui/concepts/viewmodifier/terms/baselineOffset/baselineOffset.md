@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.baselineOffset()`** modifier method moves text in a view [view](https://www.codecademy.com/resources/docs/swiftui/views) vertically relative to its baseline. The bounds of the text's parent view expands to contain the modified text.
+The **`.baselineOffset()`** modifier method moves text in a [view](https://www.codecademy.com/resources/docs/swiftui/views) vertically relative to its baseline. The bounds of the text's parent view expands to contain the modified text.
 
 ## Syntax
 
