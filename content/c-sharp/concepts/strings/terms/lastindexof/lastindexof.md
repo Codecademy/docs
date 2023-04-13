@@ -57,12 +57,12 @@ String.LastIndexOf(substring, startIndex, length, stringComparison);
 - `startIndex` is an Int32 object.
 - `length` is an Int32 object.
 - `stringComparison` is an enumeration which encapsulates the case- and culture-specific criteria; available fields include:
-    - `CurrentCulture` sets the current culture rules.
-    - `CurrentCultureIgnoreCase` sets the current culture rules but ignores case.
-    - `InvariantCulture` sets the invariant culture's sorting rules (it's a culture that doesn't change based on the user's location).
-    - `InvariantCultureIgnoreCase` sets the invariant culture rules but ignores case.
-    - `Ordinal` sets ordinal (binary) sort rules to compare strings.
-    - `OrdinalIgnoreCase` sets ordinal (binary) sort rules to compare strings but ignores case.
+  - `CurrentCulture` sets the current culture rules.
+  - `CurrentCultureIgnoreCase` sets the current culture rules but ignores case.
+  - `InvariantCulture` sets the invariant culture's sorting rules (it's a culture that doesn't change based on the user's location).
+  - `InvariantCultureIgnoreCase` sets the invariant culture rules but ignores case.
+  - `Ordinal` sets ordinal (binary) sort rules to compare strings.
+  - `OrdinalIgnoreCase` sets ordinal (binary) sort rules to compare strings but ignores case.
 
 ## Example
 
@@ -80,19 +80,19 @@ public class HelloWorld
         int startIndex = 17;
         int searchLength = 4;
         int result;
-        
+
         // String.LastIndexOf(string)
         result = baseString.LastIndexOf(compareStr);
         Console.WriteLine("Simple search: {0}", result.ToString());
-        
+
         // String.LastIndexOf(string, startIndex)
         result = baseString.LastIndexOf(compareStr, startIndex);
         Console.WriteLine("Search using starting postion: {0}", result.ToString());
-        
+
         // String.LastIndexOf(string, startIndex, length)
         result = baseString.LastIndexOf(compareStr, startIndex, searchLength);
         Console.WriteLine("Search using starting postion & searching length: {0}", result.ToString());
-        
+
         // String.LastIndexOf(string, startIndex, length, stringComparison)
         compareStr = "C";
         StringComparison strCmp = StringComparison.InvariantCultureIgnoreCase;
@@ -113,7 +113,7 @@ Search using starting postion & string comparision: 15
 
 ## Codebyte Example
 
-In this example, the `String.LastIndexOf()` is used with `compareStr`, `startIndex` and  `strCmp` parameters to determine the last occurrence of substring within the string:
+In this example, the `String.LastIndexOf()` is used with `compareStr`, `startIndex` and `strCmp` parameters to determine the last occurrence of a substring within the string:
 
 ```codebyte/csharp
 using System;
@@ -126,7 +126,7 @@ public class HelloWorld
         string compareStr = "C";
         int startIndex = 17;
         StringComparison strCmp = StringComparison.InvariantCultureIgnoreCase;
-        
+
         int result = baseString.LastIndexOf(compareStr, startIndex, strCmp);
         Console.WriteLine("Search using starting postion & string comparision: {0}", result.ToString());
     }
