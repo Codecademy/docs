@@ -22,33 +22,31 @@ Additional parameters may be supplied to define the criteria for the search.
 ## Syntax
 
 ```pseudo
-// Determines the zero-base index of the last occurrence of char within the string
+// Determines the zero-based index of the last occurrence of char within the string
 String.LastIndexOf(char);
 
-// Same as above but uses additional starting position. The search starts at the startIndex and proceeds backward toward the beginning of the string.
+// Same as above but uses an additional starting position parameter. The search starts at the startIndex and proceeds backward toward the beginning of the string.
 String.LastIndexOf(char, startIndex);
 
-// Same as above but uses additional searching length. The search starts at the startIndex and proceeds backward toward the beginning of the string for a specified number of character positions.
+// Same as above but uses an additional searching length parameter. The search starts at the startIndex and proceeds backward toward the beginning of the string for a specified number of character positions.
 String.LastIndexOf(char, startIndex, length);
 
-
-// Determines the zero-base index of the last occurrence of substring within the string
+// Determines the zero-based index of the last occurrence of substring within the string
 String.LastIndexOf(substring);
 
-// Same as above but uses additional starting position. The search starts at the startIndex and proceeds backward toward the beginning of the string.
+// Same as above but uses an additional starting position parameter. The search starts at the startIndex and proceeds backward toward the beginning of the string.
 String.LastIndexOf(substring, startIndex);
 
-// Same as above but uses additional searching length. The search starts at the startIndex and proceeds backward toward the beginning of the string for a specified number of character positions.
+// Same as above but uses an additional searching length parameter. The search starts at the startIndex and proceeds backward toward the beginning of the string for a specified number of character positions.
 String.LastIndexOf(string, startIndex, length);
 
-
-// Determines the zero-base index of the last occurrence of substring within the string, using the stringComparison method.
+// Determines the zero-based index of the last occurrence of substring within the string, using the stringComparison method.
 String.LastIndexOf(substring, stringComparison);
 
-// Same as above but uses additional startIndex. The search starts at the startIndex and proceeds backward toward the beginning of the string, using the stringComparison method.
+// Same as above but uses an additional startIndex parameter. The search starts at the startIndex and proceeds backward toward the beginning of the string, using the stringComparison method.
 String.LastIndexOf(substring, startIndex, stringComparison);
 
-// Same as above but uses additional searching length. The search starts at the startIndex and proceeds backward toward the beginning of the string for a specified number of character positions, using the stringComparison method.
+// Same as above but uses an additional searching length parameter. The search starts at the startIndex and proceeds backward toward the beginning of the string for a specified number of character positions, using the stringComparison method.
 String.LastIndexOf(substring, startIndex, length, stringComparison);
 ```
 
@@ -115,7 +113,7 @@ Search using starting postion & string comparision: 15
 
 ## Codebyte Example
 
-In this example, the `String.LastIndexOf()` is used with `compareStr`, `startIndex` and  `strCmp` parameters to determine the zero-base index of the last occurrence of substring within the string. The search starts at the startIndex and proceeds backward toward the beginning of the string, using the StringComparison method:
+In this example, the `String.LastIndexOf()` is used with `compareStr`, `startIndex` and  `strCmp` parameters to determine the last occurrence of substring within the string:
 
 ```codebyte/csharp
 using System;
@@ -125,7 +123,7 @@ public class HelloWorld
     public static void Main(string[] args)
     {
         string baseString = "Hello, I'm Codecademy";
-        compareStr = "C";
+        string compareStr = "C";
         int startIndex = 17;
         StringComparison strCmp = StringComparison.InvariantCultureIgnoreCase;
         
