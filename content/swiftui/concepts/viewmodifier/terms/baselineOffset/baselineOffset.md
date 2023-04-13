@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.baselineOffset()`** modifier method moves text in a view [view](https://www.codecademy.com/resources/docs/swiftui/views) vertically relative to it's baseline. The bounds of the text's parent view expand to contain the modified text.
+The **`.baselineOffset()`** modifier method moves text in a view [view](https://www.codecademy.com/resources/docs/swiftui/views) vertically relative to its baseline. The bounds of the text's parent view expands to contain the modified text.
 
 ## Syntax
 
@@ -26,13 +26,7 @@ Text("This text is shifted down.")
 
 The `.baselineOffset()` modifier method uses the following parameter:
 
-- `baselineOffset` specifies how many points the text is shifted up or down. The following options are possible:
-
-  | Option                  | Applies padding to               |
-  | ----------------------- | -------------------------------- |
-  | `0` (default option) | Text stays at level of baseline             |
-  | `5`                  | Text is shifted up 5 points above baseline  |
-  | `-5`                 | Text is shifted up 5 points below baseline  |
+- `baselineOffset` specifies how many points the text is shifted up or down. The parameter can be positive, negative, or zero.
 
 - The `amount` of offset is given in points as an integer.
 
