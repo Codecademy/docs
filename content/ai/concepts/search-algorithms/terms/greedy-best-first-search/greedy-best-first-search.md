@@ -29,3 +29,9 @@ Here, the evaluation function is equal to the heuristic function. Since this sea
 A heuristic function, **h(x)**, evaluates the successive node based on how close it lies to the target node. In other words, it chooses the immediate low-cost option. As this is the case, however, it does not necessarily find the shortest path to the goal.
 
 Suppose a bot is trying to move from point A to point B. In greedy best-first search, the bot will choose to move to the position that brings it closest to the goal, disregarding if another position ultimately yields a shorter distance. In the case that there is an obstruction, it will evaluate the previous nodes with the shortest distance to the goal, and continuously choose the node that is closest to the goal.
+
+## Example
+
+Consider the following example of finding the path from **A** to **B** in the following graph:
+
+![Greedy best-first search example graph](https://raw.githubusercontent.com/Codecademy/docs/main/media/greedy-best-first-search-example-graph.png)
