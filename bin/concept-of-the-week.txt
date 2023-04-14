@@ -1,1 +1,1 @@
-content/sql/concepts/dates/dates.md
+content/css/concepts/inheritance/inheritance.md
