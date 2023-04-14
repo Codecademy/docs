@@ -28,7 +28,7 @@ abcs = [i for i in string.ascii_lowercase]
 
 abcs = pd.Series(abcs)
 
-print(abcs + \n)
+print(abcs)
 
 abcs = pd.get_dummies(abcs)
 
