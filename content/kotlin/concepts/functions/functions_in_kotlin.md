@@ -34,5 +34,8 @@ fun function_name(arguments): return type {
   return statment
 }
 ```
-+ The function_name is used to call the function in the program.
-+ Arguments have to be in the parentheses, arguments are pieces
++ The *function_name* is used to call the function in the program.
++ *Arguments* have to be in the parentheses, arguments are pieces
++ Return type is by default *Unit*, *Unit* means the function will not return a value, it is optional to include
++ In the *body* containes the instructions.
++ *Return statment* is needed only if the *return type* is not *unit*.
