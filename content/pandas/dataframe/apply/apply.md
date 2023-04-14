@@ -57,20 +57,26 @@ z = df.apply(calc_sum,axis = 1)
 l = df.apply(np.sqrt)
 m = df.apply(lambda x: pd.Series([0, 1, 2]), axis=1, result_type="expand")
 
+print("Original dataframe:")
 print(df)
 
+print("\nx:")
 print(x)
 print(type(x))
 
+print("\ny:")
 print(y)
 print(type(y))
 
+print("\nz:")
 print(z)
 print(type(z))
 
+print("\nl:")
 print(l)
 print(type(l))
 
+print("\nm:")
 print(m)
 print(type(m))
 ```
@@ -78,57 +84,50 @@ print(type(m))
 Results are below:
 
 ```shell
-'x':
+Original dataframe:
+   col 1  col 2  col 3  col 4
+0      1      5      9     13
+1      2      6     10     14
+2      3      7     11     15
+3      4      8     12     16
+
+x:
 col 1    10
 col 2    26
 col 3    42
 col 4    58
 dtype: int64
-
-type of x: 
 <class 'pandas.core.series.Series'>
 
-
-'Y':
+y:
 col 1    10
 col 2    26
 col 3    42
 col 4    58
 dtype: int64
-
-type of y: 
 <class 'pandas.core.series.Series'>
 
-
-'z':
+z:
 0    28
 1    32
 2    36
 3    40
 dtype: int64
-
-type of z:
 <class 'pandas.core.series.Series'>
 
-
-'l':
+l:
       col 1     col 2     col 3     col 4
 0  1.000000  2.236068  3.000000  3.605551
 1  1.414214  2.449490  3.162278  3.741657
 2  1.732051  2.645751  3.316625  3.872983
 3  2.000000  2.828427  3.464102  4.000000
-
-type of 'l':
 <class 'pandas.core.frame.DataFrame'>
 
-
-'m':
+m:
    0  1  2
 0  0  1  2
 1  0  1  2
 2  0  1  2
 3  0  1  2
-
-type of 'm':
 <class 'pandas.core.frame.DataFrame'>
 ```
