@@ -17,7 +17,7 @@ The **`.italic()`** view modifier method in SwiftUI can be used to make text wit
 
 ## Syntax
 
-```psuedo
+```pseudo
 Text("This text will be italic")
     .italic()
 ```
