@@ -32,6 +32,14 @@ Suppose a bot is trying to move from point A to point B. In greedy best-first se
 
 ## Example
 
-Consider the following example of finding the path from **A** to **B** in the following graph:
+Consider the following example of finding the path from **P** to **S** in the following graph:
 
-![Greedy best-first search example graph](https://raw.githubusercontent.com/Codecademy/docs/main/media/greedy-best-first-search-example-graph.png)
+![Greedy Best-first Search Example Graph](https://raw.githubusercontent.com/Codecademy/docs/main/media/greedy-best-first-search-example-graph.png)
+
+![Greedy Best-first Search 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/greedy-best-first-search-tree-1.png)
+
+![Greedy Best-first Search 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/greedy-best-first-search-tree-2.png)
+
+![Greedy Best-first Search 3](https://raw.githubusercontent.com/Codecademy/docs/main/media/greedy-best-first-search-tree-3.png)
+
+![Greedy Best-first Search Final Example Graph](https://raw.githubusercontent.com/Codecademy/docs/main/media/greedy-best-first-search-final-example-graph.png)
