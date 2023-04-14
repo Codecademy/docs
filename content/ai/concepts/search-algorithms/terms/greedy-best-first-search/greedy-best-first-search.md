@@ -58,5 +58,3 @@ In this example, the cost is measured strictly using the heuristic value. In oth
 The total cost here for the path (**PCUS**) evaluates to 10 while the actual cost is 11. Had the search taken into consideration another path (**PRES**), it would have yielded the lowest distance of 10 rather than 11.
 
 ![Greedy Best-first Search Final Example Graph](https://raw.githubusercontent.com/Codecademy/docs/main/media/greedy-best-first-search-final-example-graph.png)
-
-Another issue with the greedy search is infinite
