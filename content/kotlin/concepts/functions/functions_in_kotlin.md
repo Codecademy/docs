@@ -126,14 +126,37 @@ fun area(side1: Int, side2: Int): Int{
   return side1 * side2
 }
 ```
-Curly brackets and return can be removed add adding equals sign `=`, we get single line function.
+Curly brackets `{}` and `return` can be removed and by adding equals sign `=`, we get single line function.
 
 ```
 fun area(side1: Int, side2: Int): Int = side1 * side2
 ```
 
-The compiler can concludes the return type also, we can remove the return type.
+The compiler can concludes the `return type` also, we can remove the `return type`.
 
 ```
 fun area(side1: Int, side2: Int) = side1 * side2
+```
+
+## Function Literals
+
+Function becomes `function literal` when we assigne it as a value. There are 2 types of function literals: `Lambda Expression` and `Anonymous function`.
+
+### Lambda Expression
+
+`Lambda Expression` is short function between curly braces `{}`. The `return` is replaced by `->`. Adding `return type` is optional because the compiler deduce it from the type interface. Lambda Epression can be executed by typing `variable name` with brackets `()` or using `.invoke`
+
+```
+variable name = {Lambda Expression}
+
+fun main() {
+  //Lambad Expression
+  val learn = {println("Learn Kotlin")}
+  //executing
+  learn()
+  learn.invoke()
+//output:
+//Learn Kotlin
+//Learn Kotlin
+}
 ```
