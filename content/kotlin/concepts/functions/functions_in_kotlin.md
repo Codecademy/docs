@@ -67,9 +67,17 @@ fun main(){
 `Arguments` can have default value. It is assigned with equals sign `=`.
 
 ```
-fun default(firstname: String = "Kotlin"){
-  body
+fun default(name: String = "Kotlin"){
+  print("Hello $name")
 }
+```
+Default `arguments` can be change when calling a function.
+```
+fun main(){
+  default("Java")
+}
+///output
+///Hello Java
 ```
 
 
