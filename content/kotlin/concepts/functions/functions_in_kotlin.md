@@ -159,7 +159,7 @@ A function becomes a function literal when we assign it as a value. There are tw
 
 ### Lambda Expressions
 
-`Lambda Expression` is a short function between curly braces `{}`. The `return` is replaced by `->`. Adding `return type` is optional because the compiler deduce it from the type interface.
+A lambda expression is a short function between curly braces `{}`. The `return` is replaced by `->`. Adding `return type` is optional because the compiler can infer it from the type interface.
 
 ```
 variable name = {Lambda Expression}
