@@ -1,6 +1,6 @@
 ---
-Title: 'conditionals'
-Description: 'Compares inputs and gives an boolean output depending on it being True or False.'
+Title: 'Conditionals'
+Description: 'Conditionals compare inputs and return a boolean value of either true or false.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
@@ -16,129 +16,119 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
+In C#, **conditionals** compare inputs and return a boolean value indicating whether it evaluates to `true` or `false`.
 
-Below we'll follow the `if`, `else` and, `else if` statements one by one while expanding the example.
+Conditional statements include the `if`, `else` and `else if` statements. A shorthand for the `if`/`else` statement is the conditional or ternary operator.
 
-## `if statements`
+## `if` Statement
 
-An `if statement` compares two values and returns a value `if` true.
+An `if` statement evaluates a condition that, when true, will run a code block that follows.
 
-## Example of `if statement`
-  ```cs
+In the example below, three variables (`var`) and assigned values. Then, an `if` statement checks for a condition; if it evaluates to true, then the variable of boolean type will change:
 
-  var input1 = 10;
-  var input2 = 10;
-  var output;
+```cs
+var input1 = 10;
+var input2 = 10;
+var output = false;
 
-  if (input1 === input2){
-      output = true; // SETS THE VALUE OF OUTPUT TO TRUE.
-  }
-  ```
+if (input1 == input2) {
+  output = true; // Sets the output from false to true.
+}
+```
 
-If the code above did not return true the code below will return false.
+If the code above returned `true`, the code block below will print a statement to the console:
 
-  ```cs
-  if(output === true){
-      Console.WriteLine('I returned true')
-  }
+```cs
+if (output == true) {
+  Console.WriteLine("I returned true");
+}
+```
 
-  ```
->**note** `===` means equal. `!==` means not equal. 
+> **Note** `==` means equal and `!=` means not equal. 
 
-We start by creating three variables (`var`) and assigning a value to two of them. The third variable will be assigned in a later stage of the code.
+### `else` Statements
 
-After creating the variables we start our `if statement`.
+An `else` statement is combined with the `if` statement. In the case that the condition following the `if` statement returns `false`, the code block following the `else` statement will run.
 
-`if` input1 is equal to input 2 then set the variable of output to true. In our example, input1 was equal to input 2. The `if statement` check was true so it ran the code setting the value of output to true. 
+In the example below, three variables are assigned values:
 
-after that, we wrote a second `if statement` which checked if the output was equal to true. The output of this was true so it ran the code and wrote *I returned true* to the console. if the first `if statement` would have been false. The output would not get assigned a value and the second `if statement` would return false meaning no text will be written to the console.
+```cs
+var input1 = 10;
+var input2 = 10;
+var output = false;
 
-## `else statements`
+// If the input variables are not equal, the output will be set to true.
+if (input1 != input2) {
+  output = true;
+} else {
+  output = false;
+}
 
-A `else statement` goes in combination with the `if statement` and returns a value `if` false.
+if (output == true) {
+  // If the output is true, the following string will be printed.
+  Console.WriteLine("I returned true");
+} else {
+  // Otherwise, the string within this else block will be printed.
+  Console.WriteLine("I returned false");
+}
+```
 
-## Example of `else statement`
-  ```cs
+Since the output is `false`, this will output:
 
-  var input1 = 10;
-  var input2 = 10;
-  var output;
+```shell
+I returned false
+```
 
-  if (input1 !== input2){
-      output = true; // SETS THE VALUE OF OUTPUT TO TRUE.
-  } else {
-      output = false; // SETS THE VALUE OF OUTPUT TO FALSE.
-  }
+### `else if` Statements
 
-  if(output === true){
-      Console.WriteLine('I returned true')
-  } else {
-      return
-  }
+An `else if` statement comes after an `if` statement and is used if an extra comparison is needed before an `else` statement.
 
-  ```
-We again start by creating three variables (`var`) and assigning a value to two of them. The third variable will be assigned in a later stage of the code.
+```cs
+// Four variables are declared here.
+var input1 = 10;
+var input2 = 10;
+var input3 = 5;
+var output = false;
 
-After creating the variables we again start our `if statement`.
+// If input1 is equal to input3 then set the variable of output to true.
+if (input1 == input3) {
+  output = true;
+// If input1 is equal to input2, then set the variable of output to true as well.
+} else if (input1 == input2) {
+  output = true;
+// If the two conditions above are false, the else code block will run.
+} else {
+  output = false;
+}
 
-`if` input1 is not equal to input 2 then set the variable of output to false. In our example, input1 was equal to input 2. The `if statement` check was false so it ran the code setting the value of output to false. 
+if (output == true) {
+  Console.WriteLine("I returned true");
+} else if (output == false) {
+  Console.WriteLine("I returned false");
+} else {
+  Console.WriteLine("Error");
+}
+```
 
-after that, we wrote a second `if statement` which checked if the output was equal to true. The output of this was false so it ran no code and wrote nothing to the console. if the first `if statement` would have been true. The variable output would get assigned to true and the second `if statement` would return true meaning the text *I returned true* would we have written in the console. 
+Above, the `else if` condition was true so the output was reassigned a value of `true`. This would run the code block in the first `if` block which will output:
 
-## `else if statements`
+```shell
+I returned true
+```
 
-An `else if statement` comes after an `if statement` if more comparing is needed and before an `else statement` we've added another variable to the mix.
+## Conditional Operator
 
-## Example `else if statement`
-  ```cs
+The conditional operator `?:` also known as the ternary operator, checks a boolean output and returns one of two results depending wether the condition is true or false. The ternary operator can be read in pseudocode as follows:
 
-  var input1 = 10;
-  var input2 = 10;
-  var input3 = 5;
-  var output;
+```cs
+Is this condition true ? Run this if yes : Run this if no;
+```
 
-  if (input1 === input3){
-      output = true; // SETS THE VALUE OF OUTPUT TO TRUE.
-  } else if (input1 === input2){
-      output = true; // SETS THE VALUE OF OUTPUT TO TRUE.
-  } else {
-      output = false; // SETS THE VALUE OF OUTPUT TO FALSE.
-  }
+In the example below, the condition that is checked is if `input1` is equal to 10. If that condition is true, it returns the first string. Otherwise, it returns the second string:
 
-  if(output === true){
-      Console.Writeline('I returned true')
-  } else if (output === false) {
-      Console.Writeline('I returned false')
-  } else {
-      return
-  }
+```cs
+string getInput1(int input1) => input1 === 10 ? "I returned true" : "I returned false";
 
-  ```
-We now start by creating four variables (`var`) and assigning a value to three of them. The fourth variable will be assigned in a later stage of the code.
-
-After creating the variables we again start our `if statement`.
-
-`if` input1 is equal to input3 then set the variable of output to true. In our example, input1 was not equal to input3. The `if statement` check was false so it ran the next part of the code.
-
-`else if` input1 is equal to input2 then set the variable of output to true. In our example, input1 was equal to input2 setting the value of output to true. 
-
-If this was also false the `else statement` would run setting the value of output to false.
-
-after that, we wrote a second `if statement` which checked if the variable output was equal to true. The output of this was true so it wrote *I returned true* to the console. if the first `if statement` would have been false the `else if statement` would run. This would check if output was equal to false. This would have been true and written *I returned false* to the console.
-
-## `Ternary operator`
-
-The conditional operator `?:` also known as the `ternary conditional operator` checks a boolean output and returns one of the two results depending on it being true or false. 
-
-## Example of `Ternary operator`
-  ```cs
-
-  string getInput1(input1) => input1 === 10 ? "I returned true" : "I returned false";
-
-  Console.WriteLine(getInput1(10)); // PRINTS TO THE CONSOLE "I RETURNED TRUE"
-  Console.WriteLine(getInput1(5)); // PRINTS TO THE CONSOLE "I RETURNED FALSE"
-
-  ```
-`A Ternary operator` can be read as followed: *is this `condition` true ? yes : no. If the `condition` is true it returns yes and if it's false it returns no.
-
-In our example, we checked if input1 is equal to 10. If this is true it returns *I returned true*. If this is false it returns *I returned false*. 
+Console.WriteLine(getInput1(10)); // Output: "I returned true"
+Console.WriteLine(getInput1(5)); // Output: "I returned false"
+```
