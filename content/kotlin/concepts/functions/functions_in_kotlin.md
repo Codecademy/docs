@@ -99,10 +99,41 @@ fun functionName(argument) {
 
 ### Return statment
 
-If their is a `return statment` in the function then their must be also a `return type`. `Return statment` is defined by keyword `return`.
+If their is a `return statment` in the function then their must be also a `return type`. `Return statment` is defined by keyword `return`. Lines after the `return statment` will not be executed.
 
 ```
 fun adding(num1: Int,num2: Int): Int{
   var sum = num1 + num2
+  //return statment, returns the variable sum
   return sum
 }
+
+fun adding(num1: Int,num2: Int): Int{
+  var sum = num1 + num2
+  //return statment, returns the variable sum
+  return sum
+  //println will not execute
+  println("Nice job")
+}
+```
+
+## Single line function
+
+Single line function can be writen only if function has **single expression**.
+
+```
+fun area(side1: Int, side2: Int): Int{
+  return side1 * side2
+}
+```
+Curly brackets and return can be removed add adding equals sign `=`, we get single line function.
+
+```
+fun area(side1: Int, side2: Int): Int = side1 * side2
+```
+
+The compiler can concludes the return type also, we can remove the return type.
+
+```
+fun area(side1: Int, side2: Int) = side1 * side2
+```
