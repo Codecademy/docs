@@ -172,7 +172,6 @@ fun main() {
 
 An anonymous function is assigned as a variable, `fun` comes after equals sign `=`. It has no name, which is why it is called anonymous. 
 
-**Option One** `Anonymous Function`:
 After variable name is `argument type` in parentheses `()` then `-> return type` and `fun` is after equals sign `=`, `return statement` comes after `->` in curly brackets `{}`.
 
 **Option Two** of `Anonymous Function`
