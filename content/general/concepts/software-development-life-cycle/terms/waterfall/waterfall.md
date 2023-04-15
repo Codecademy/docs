@@ -18,7 +18,7 @@ The waterfall model was the first SDLC methodology to be created and was first d
 
 The diagram below shows how the workflow mirrors the natural flow of a waterfall, with the stages being completed in linear, sequential steps:
 
-![SDLC Waterfall Model](https://raw.githubusercontent.com/Codecademy/docs/main/media/sldc-waterfall.jpg)
+![SDLC Waterfall Model](https://raw.githubusercontent.com/Codecademy/docs/main/media/sdlc-waterfall.jpg)
 
 ## Advantages
 
