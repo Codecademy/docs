@@ -29,7 +29,7 @@ fun main() {
 
 User defined functions start with the `fun` keyword, followed by the function name, the parameters (if there are any), and the function body which is enclosed in curly braces.
 
-```
+```pseudo
 fun functionName(arguments): return type {
   body
   return statment
