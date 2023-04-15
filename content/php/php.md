@@ -24,7 +24,7 @@ A PHP interpreter makes a website dynamic and customizable, allowing a site to r
 
 [Symfony](https://symfony.com/at-a-glance), a French PHP framework provider, works on PHP-based projects for organizations of all kinds. This includes [the 2016 campaign site](https://symfony.com/blog/an-open-source-web-platform-for-the-new-president-of-france) of French President Emmanuel Macron.
 
-[Laravel](https://google.com) is another PHP framework used for developing web applications. It is known for its elegant syntax, modular structure, and built-in features that make it easier to develop high-quality web applications. Many leading companies use Laravel to develop their web applications including [GitLab](https://about.gitlab.com/) and [Pfizer](https://www.pfizer.com/).
+[Laravel](https://laravel.com/) is another PHP framework used for developing web applications. It is known for its elegant syntax, modular structure, and built-in features that make it easier to develop high-quality web applications. Many leading companies use Laravel to develop their web applications including [GitLab](https://about.gitlab.com/) and [Pfizer](https://www.pfizer.com/).
 
 Lastly, [CakePHP](https://cakephp.org/) is also an open-source framework that has been used by various companies, including:
 
