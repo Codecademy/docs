@@ -13,7 +13,7 @@ CatalogContent:
 
 # Functions in Kotlin
 
-**Functions are essential part of any Kotlin program.**Functions are reusable part of code that can be called in any part of the code. The Kotlin program has to start with `main()` function or there will be an error. `fun` is used to define a function in Kotlin but thear are also predefinec functions like `println `and `print`. Functions are called in the `main()` function.
+**Functions are an essential part of any Kotlin program.**Functions are a reusable part of code that can be called in any part of the program. The Kotlin program has to start with the `main()` function, or there will be an error. `fun` is used to define a function in Kotlin, but there are also predefined functions like `println `and `print`. Functions are called in the `main()` function.
 
 ## Function `main()`
 
@@ -26,7 +26,7 @@ fun main() {
 ```
 ## Creating functions in Kotlin ###
 
-User defined functions start with the `fun` keyword, followed by the function name, parameters(if there is any) and the function body which is enclose in curly braces
+User defined functions start with the `fun` keyword, followed by the function name, parameters (if there is any) and the function body which is enclosed in curly braces.
 
 ```
 fun functionName(arguments): return type {
@@ -36,14 +36,14 @@ fun functionName(arguments): return type {
 ```
 + *fun* is used to define a function.
 + The *functionName* is used to call the function in the program.
-+ *Arguments* have to be in the parentheses, arguments are pieces of information feeded to the function.
-+ *Return type* declares the type of returning value. It is optional to include.
-+ In the *body* containes the instructions.
++ *Arguments* have to be in the parentheses, arguments are pieces of information fed to the function.
++ *Return type* declares the type of a returning value. It is optional to include.
++ In the *body* contains the instructions.
 + *Return statment* returns the value of the function.
 
 ### Arguments
 
-`Argument` is data inserted to function. `Arguments` must have a name and data type of inserted data.Between `argument` and `data type` must be colon `:`. arguments are seperated by coma `,` .
+`Argument` is data inserted to function. `Arguments` must have a name and data type of inserted data. Between `argument` and `data type` must be a colon `:`. The arguments are separated by comma `,` .
 ```
 fun functionName(argumentName: dataType, argumentName2 : datatype){
   body
@@ -53,7 +53,7 @@ fun sample(num1: Int,num2: Int){
   body
 }
 ```
-When calling function, `arguments` can be put in their assaign spot or defined by name. By defining by name the `arguments` do not need to be at the same order as in the function header.
+When calling the function, `arguments` can be put in their assigned spot or defined by name. By defining by name the `arguments` do not need to be in the same order as in the function header.
 
 ```
 fun main(){
@@ -75,7 +75,7 @@ fun default(firstname: String = "Kotlin"){
 
 ### Return type
 
-The `return type` expresses the returning valu type. Entering `return type` is optional. `Return type` is after parantheses and colon `:`. By default the return value is `Unit`, `Unit` means their is no returning valu.
+The `return type` expresses the returning value type. Entering `return type` is optional. `Return type` is after parentheses and colon `:`. By default the return value is `Unit`, `Unit` means there is no returning value.
 
 ```
 fun functionName(argument): return type {
@@ -88,7 +88,7 @@ fun sample(name: String): String {
 
 ### Function body
 
-`Function body` has the instruction for the function. It must be between curly brackets `{}`. `Function body` is indented, except for single line function. The opening curly bracket `{` is at the end of the function header and the closing curly bracket `}` is under the last line of `function body`.
+`Function body` has the instruction for the function. It must be between curly brackets `{}`. `Function body` is indented, except for single line function. The opening curly bracket `{` is at the end of the function header and the closing curly bracket `}` is below the last line of `function body`.
 
 ```
 fun functionName(argument) {
@@ -99,18 +99,18 @@ fun functionName(argument) {
 
 ### Return statment
 
-If their is a `return statment` in the function then their must be also a `return type`. `Return statment` is defined by keyword `return`. Lines after the `return statment` will not be executed.
+If there is a `return statement` in the function,then there must be also a `return type`. `Return statement` is defined by keyword `return`. Lines after the `return statement` will not be executed.
 
 ```
 fun adding(num1: Int,num2: Int): Int{
   var sum = num1 + num2
-  //return statment, returns the variable sum
+  //Return statement, returns the variable sum
   return sum
 }
 
 fun adding(num1: Int,num2: Int): Int{
   var sum = num1 + num2
-  //return statment, returns the variable sum
+  //Return statement, returns the variable sum
   return sum
   //println will not execute
   println("Nice job")
@@ -119,20 +119,20 @@ fun adding(num1: Int,num2: Int): Int{
 
 ## Single line function
 
-Single line function can be writen only if function has **single expression**.
+The single line function can be written only if the function has **single expression**.
 
 ```
 fun area(side1: Int, side2: Int): Int{
   return side1 * side2
 }
 ```
-Curly brackets `{}` and `return` can be removed and by adding equals sign `=`, we get single line function.
+Curly brackets `{}` and `return` can be removed and by adding an equals sign `=`, we get the single line function.
 
 ```
 fun area(side1: Int, side2: Int): Int = side1 * side2
 ```
 
-The compiler can concludes the `return type` also, we can remove the `return type`.
+The compiler can conclude the `return type` also, we can remove the `return type`.
 
 ```
 fun area(side1: Int, side2: Int) = side1 * side2
@@ -140,11 +140,11 @@ fun area(side1: Int, side2: Int) = side1 * side2
 
 ## Function Literals
 
-Function becomes `function literal` when we assigne it as a value. There are 2 types of function literals: `Lambda Expression` and `Anonymous Function`.
+Function becomes `function literal` when we assign it as a value. There are 2 types of function literals: `Lambda Expression` and `Anonymous Function`.
 
 ### Lambda Expression
 
-`Lambda Expression` is short function between curly braces `{}`. The `return` is replaced by `->`. Adding `return type` is optional because the compiler deduce it from the type interface.
+`Lambda Expression` is a short function between curly braces `{}`. The `return` is replaced by `->`. Adding `return type` is optional because the compiler deduce it from the type interface.
 
 ```
 variable name = {Lambda Expression}
@@ -162,13 +162,13 @@ fun main() {
 
 ### Anonymous Function
 
-`Anonymous function` is assaigned as variable, `fun` comes after equals sign `=` and has no name thats why it is called anonymous. 
+`Anonymous function` is assigned as a variable, `fun` comes after equals sign `=` and has no name that`s why it is called anonymous. 
 
 **Option One** `Anonymous Function`:
-After variable name is `argument type` in parentheses `()` then `-> return type` and `fun` is after equals sign `=`, `return statment` comes after `->` in curly bracets `{}`.
+After variable name is `argument type` in parentheses `()` then `-> return type` and `fun` is after equals sign `=`, `return statement` comes after `->` in curly brackets `{}`.
 
 **Option Two** of `Anonymous Function`
-After variable name is equals sign `=`, then `fun` after it is argument with argument type in parantheses `()`, it is followed by `: return type` and the `return statment` in curly brackets `{}`.
+After the variable name is equals sign `=`, then `fun` after it is argument with argument type in parentheses `()`, it is followed by `: return type` and the `return statement` in curly brackets `{}`.
 
 ```
 fun main() {
