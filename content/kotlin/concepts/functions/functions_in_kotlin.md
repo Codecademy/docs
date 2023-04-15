@@ -157,7 +157,7 @@ fun area(side1: Int, side2: Int) = side1 * side2
 
 A function becomes a function literal when we assign it as a value. There are two types of function literals: "lambda expressions" and "anonymous functions".
 
-### Lambda Expression
+### Lambda Expressions
 
 `Lambda Expression` is a short function between curly braces `{}`. The `return` is replaced by `->`. Adding `return type` is optional because the compiler deduce it from the type interface.
 
