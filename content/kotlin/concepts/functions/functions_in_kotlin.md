@@ -9,6 +9,7 @@ Tags:
   - 'Kotlin'
 CatalogContent: 
   - 'learn-kotlin'
+  - 'paths/computer-science'
 ---
 
 # Functions in Kotlin
