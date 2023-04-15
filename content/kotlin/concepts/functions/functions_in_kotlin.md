@@ -64,7 +64,7 @@ fun main(){
 }
 ```
 
-`Arguments` can have default value.
+`Arguments` can have default value. It is assigned with equals sign `=`.
 
 ```
 fun default(firstname: String = "Kotlin"){
@@ -140,23 +140,44 @@ fun area(side1: Int, side2: Int) = side1 * side2
 
 ## Function Literals
 
-Function becomes `function literal` when we assigne it as a value. There are 2 types of function literals: `Lambda Expression` and `Anonymous function`.
+Function becomes `function literal` when we assigne it as a value. There are 2 types of function literals: `Lambda Expression` and `Anonymous Function`.
 
 ### Lambda Expression
 
-`Lambda Expression` is short function between curly braces `{}`. The `return` is replaced by `->`. Adding `return type` is optional because the compiler deduce it from the type interface. Lambda Epression can be executed by typing `variable name` with brackets `()` or using `.invoke`
+`Lambda Expression` is short function between curly braces `{}`. The `return` is replaced by `->`. Adding `return type` is optional because the compiler deduce it from the type interface.
 
 ```
 variable name = {Lambda Expression}
 
 fun main() {
   //Lambad Expression
-  val learn = {println("Learn Kotlin")}
+  val adding = {num1: Int, num2: Int -> num1 + num2 }
   //executing
-  learn()
-  learn.invoke()
+  println(adding(1,2))
 //output:
-//Learn Kotlin
-//Learn Kotlin
+//3
 }
 ```
+
+### Anonymous Function
+
+`Anonymous function` is assaigned as variable, `fun` comes after equals sign `=` and has no name thats why it is called anonymous. 
+
+**Option One** `Anonymous Function`:
+After variable name is `argument type` in parentheses `()` then `-> return type` and `fun` is after equals sign `=`, `return statment` comes after `->` in curly bracets `{}`.
+
+**Option Two** of `Anonymous Function`
+After variable name is equals sign `=`, then `fun` after it is argument with argument type in parantheses `()`, it is followed by `: return type` and the `return statment` in curly brackets `{}`.
+
+```
+fun main() {
+  //Option One
+  var addingOne: (Int, Int) -> Int = fun(num1, num2): Int { return num1 + num2 }
+  //Option Two
+  var addingTwo = fun(num1: Int, num2: Int): Int { return num1 + num2 }
+  print(addingOne(1, 2))
+  print(addingTwo(1, 2))
+//output
+//3
+//3
+} 
