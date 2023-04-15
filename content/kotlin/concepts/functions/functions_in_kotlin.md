@@ -111,7 +111,7 @@ fun functionName(argument) {
 }
 ```
 
-### Return statment
+### Return Statement
 
 If there is a `return statement` in the function,then there must be also a `return type`. `Return statement` is defined by keyword `return`. Lines after the `return statement` will not be executed.
 
