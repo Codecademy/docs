@@ -37,7 +37,7 @@ fun functionName(arguments): return type {
 ```
 
 - `fun` is used to define a function.
-+ The *functionName* is used to call the function in the program.
+- The `functionName` is used to call the function in the program.
 + *Arguments* have to be in the parentheses, arguments are pieces of information fed to the function.
 + *Return type* declares the type of a returning value. It is optional to include.
 + In the *body* contains the instructions.
