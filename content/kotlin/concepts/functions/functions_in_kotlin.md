@@ -133,7 +133,7 @@ fun adding(num1: Int,num2: Int): Int{
 
 ## Single Line Function
 
-The single line function can be written only if the function has **single expression**.
+The single line function can be written only if the function has a single expression.
 
 ```
 fun area(side1: Int, side2: Int): Int{
