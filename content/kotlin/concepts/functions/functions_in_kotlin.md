@@ -147,7 +147,7 @@ Curly brackets `{}` and `return` can be removed and by adding an equals sign `=`
 fun area(side1: Int, side2: Int): Int = side1 * side2
 ```
 
-The compiler can conclude the `return type` also, we can remove the `return type`.
+The compiler can infer the return type so we can also remove the return type declaration.
 
 ```
 fun area(side1: Int, side2: Int) = side1 * side2
