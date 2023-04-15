@@ -11,7 +11,7 @@ Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/
   - 'Scikit-learn'
   - 'Statistics'
 CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
-  - 'path/master-statistics-with-python'
+  - 'learn-python-3'
   - 'path/data-scientist'
 ---
 
