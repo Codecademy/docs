@@ -13,11 +13,11 @@ CatalogContent:
 
 # Functions in Kotlin
 
-**Functions are essential part of any Kotlin program.** The Kotlin program has to start with `main()` function or there will be an error. **fun** is used to define a function in Kotlin but thear are also predefinec functions like println and print. Functions are called in the **main()** function.
+**Functions are essential part of any Kotlin program.** The Kotlin program has to start with `main()` function or there will be an error. **fun** is used to define a function in Kotlin but thear are also predefinec functions like println and print. Functions are called in the `main()` function.
 
 ## Function **main()**
 
-Function **main()** is the entry point to Kotlin programing and also required in every Kotlin program. The **main()** function is meant to include your code that you write and is not called anywhere.
+Function `main()` is the entry point to Kotlin programing and also required in every Kotlin program. The `main()` function is meant to include your code that you write and is not called anywhere. Check that your code is between the `main()` function curly brackets { }.
 
 ```
 fun main() {
@@ -29,13 +29,37 @@ fun main() {
 User defined functions start with the **fun** keyword, followed by the function name, parameters(if there is any) and the function body which is enclose in curly braces
 
 ```
-fun function_name(arguments): return type {
+fun functionName(arguments): return type {
   body
   return statment
 }
 ```
-+ The *function_name* is used to call the function in the program.
-+ *Arguments* have to be in the parentheses, arguments are pieces
-+ Return type is by default *Unit*, *Unit* means the function will not return a value, it is optional to include
++ *fun* is used to define a function.
++ The *functionName* is used to call the function in the program.
++ *Arguments* have to be in the parentheses, arguments are pieces of information feeded to the function.
++ *Return type* is by default *Unit*, *Unit* means the function will not return a value, it is optional to include
 + In the *body* containes the instructions.
 + *Return statment* is needed only if the *return type* is not *unit*.
+
+### Arguments
+
+Argument is data inserted to function. Arguments must have a name and data type of inserted data.
+```
+fun functionName(argumentName: dataType){
+  body
+}
+
+fun sample(number: Int){
+  body
+}
+```
+Arguments can have default value.
+
+```
+fun default(name: String = "Kotlin") {
+  body
+}
+```
+
+### Return type
+
