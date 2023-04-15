@@ -45,7 +45,7 @@ fun functionName(arguments): return type {
 
 ### Arguments
 
-`Argument` is data inserted to function. `Arguments` must have a name and data type of inserted data. Between `argument` and `data type` must be a colon `:`. The arguments are separated by comma `,` .
+Arguments are data passed to the function. They must have a name and data type. Between the argument name and data type must be a colon `:`. The arguments are separated by comma `,` .
 
 ```pseudo
 fun functionName(argumentName: dataType, argumentName2 : datatype){
