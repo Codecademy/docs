@@ -82,7 +82,6 @@ fun main(){
 ///Hello Java
 ```
 
-
 ### Return type
 
 The `return type` expresses the returning value type. Entering `return type` is optional. `Return type` is after parentheses and colon `:`. By default the return value is `Unit`, `Unit` means there is no returning value.
