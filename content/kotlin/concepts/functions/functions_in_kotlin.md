@@ -115,7 +115,7 @@ fun functionName(argument) {
 
 If there is a return statement in the function, then there must be also a return type. The return statement is defined by keyword `return`. Lines after the return statement will not be executed.
 
-```
+```pseudo
 fun adding(num1: Int,num2: Int): Int{
   var sum = num1 + num2
   //Return statement, returns the variable sum
