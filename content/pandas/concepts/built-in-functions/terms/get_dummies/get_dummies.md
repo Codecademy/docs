@@ -10,8 +10,6 @@ Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/
   - 'Pandas'
   - 'Scikit-learn'
   - 'Statistics'
-  - 'Variable Types'
-  - 'Variables'
 CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
   - 'path/master-statistics-with-python'
   - 'path/data-scientist'
