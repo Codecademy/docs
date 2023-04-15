@@ -44,7 +44,7 @@ if (output == true) {
 }
 ```
 
-> **Note** `==` means equal and `!=` means not equal. 
+> **Note** `==` means equal and `!=` means not equal.
 
 ### `else` Statements
 
