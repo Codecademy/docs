@@ -24,7 +24,8 @@ fun main() {
   println("Hello World")
 }
 ```
-## Creating functions in Kotlin ###
+
+## Creating Functions in Kotlin
 
 User defined functions start with the `fun` keyword, followed by the function name, parameters (if there is any) and the function body which is enclosed in curly braces.
 
