@@ -140,6 +140,7 @@ fun area(side1: Int, side2: Int): Int{
   return side1 * side2
 }
 ```
+
 Curly brackets `{}` and `return` can be removed and by adding an equals sign `=`, we get the single line function.
 
 ```
