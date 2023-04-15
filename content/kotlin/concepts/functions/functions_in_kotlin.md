@@ -94,6 +94,7 @@ The return type expresses the returning value type. Including the return type is
 fun functionName(argument): return type {
   body
 }
+
 fun sample(name: String): String {
   body
 }
