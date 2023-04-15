@@ -17,7 +17,7 @@ CatalogContent:
 
 ## Function `main()`
 
-Function `main()` is the entry point to Kotlin programing and also required in every Kotlin program. The `main()` function is meant to include your code that you write and is not called anywhere. Check that your code is between the `main()` function curly brackets `{}`.
+Function `main()` is the entry point to a Kotlin program and is required. The `main()` function is meant to include the code of the program and is not called anywhere. The code should be between the `main()` function curly brackets `{}`.
 
 ```
 fun main() {
