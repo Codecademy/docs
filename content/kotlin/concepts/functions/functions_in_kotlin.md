@@ -131,7 +131,7 @@ fun adding(num1: Int,num2: Int): Int{
 }
 ```
 
-## Single line function
+## Single Line Function
 
 The single line function can be written only if the function has **single expression**.
 
