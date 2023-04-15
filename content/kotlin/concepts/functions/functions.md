@@ -1,6 +1,6 @@
 ---
 Title: 'Functions'
-Description: 'Functions are the most essential part of kotlin'
+Description: 'Functions are the most essential part of kotlin. A function is a reusable block of code that can be called from elsewhere in the program.'
 Subjects: 
   - 'Mobile Development'
 Tags: 
@@ -51,9 +51,11 @@ Arguments are data passed to the function. They must have a name and data type. 
 fun functionName(argumentName: dataType, argumentName2 : datatype){
   body
 }
+```
 
+```pseudo
 fun sample(num1: Int,num2: Int){
-  body
+  println(num1 + num2)
 }
 ```
 
@@ -96,8 +98,14 @@ fun functionName(argument): return type {
 }
 
 fun sample(name: String): String {
-  body
+  return "Hello " + name
 }
+fun main(){
+  print(sample("Tom"))
+}
+
+///output
+///Hello Tom
 ```
 
 ### Function Body
@@ -106,7 +114,6 @@ The function body contains the code for the function. It must be between curly b
 
 ```pseudo
 fun functionName(argument) {
-  bodyline1
   bodyline2
 }
 ```
@@ -116,12 +123,6 @@ fun functionName(argument) {
 If there is a return statement in the function, then there must be also a return type. The return statement is defined by keyword `return`. Lines after the return statement will not be executed.
 
 ```pseudo
-fun adding(num1: Int,num2: Int): Int{
-  var sum = num1 + num2
-  //Return statement, returns the variable sum
-  return sum
-}
-
 fun adding(num1: Int,num2: Int): Int{
   var sum = num1 + num2
   //Return statement, returns the variable sum
