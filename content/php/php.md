@@ -32,4 +32,3 @@ Lastly, [CakePHP](https://cakephp.org/) is also an open-source framework that ha
 - Printivo.com, a Nigerian customized printing company, who used PHP for their customer-facing website and internal order management systems.
 
 
-[def]: https://google.com
