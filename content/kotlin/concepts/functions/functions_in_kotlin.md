@@ -174,7 +174,7 @@ An anonymous function is assigned as a variable, `fun` comes after equals sign `
 
 - Option One: After the variable name is the argument types in parentheses `()` then `->` and the return type. This is followed by the equals sign `=` then the `fun` keyword, arguments in parenthesis, the return type, and the single return statement in curly braces `{}` .
 
-After the variable name is equals sign `=`, then `fun` after it is argument with argument type in parentheses `()`, it is followed by `: return type` and the `return statement` in curly brackets `{}`.
+- Option Two: After the variable name is an equals sign `=`, then the `fun` keyword, followed by the arguments with argument types in parentheses `()`, followed by `:` and the return type, followed by a single return statement in curly brackets `{}`.
 
 ```
 fun main() {
