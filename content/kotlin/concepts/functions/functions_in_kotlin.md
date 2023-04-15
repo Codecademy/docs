@@ -13,11 +13,11 @@ CatalogContent:
 
 # Functions in Kotlin
 
-**Functions are essential part of any Kotlin program.** The Kotlin program has to start with `main()` function or there will be an error. **fun** is used to define a function in Kotlin but thear are also predefinec functions like println and print. Functions are called in the `main()` function.
+**Functions are essential part of any Kotlin program.** The Kotlin program has to start with `main()` function or there will be an error. `fun` is used to define a function in Kotlin but thear are also predefinec functions like println and print. Functions are called in the `main()` function.
 
-## Function **main()**
+## Function `main()`
 
-Function `main()` is the entry point to Kotlin programing and also required in every Kotlin program. The `main()` function is meant to include your code that you write and is not called anywhere. Check that your code is between the `main()` function curly brackets { }.
+Function `main()` is the entry point to Kotlin programing and also required in every Kotlin program. The `main()` function is meant to include your code that you write and is not called anywhere. Check that your code is between the `main()` function curly brackets `{}`.
 
 ```
 fun main() {
@@ -26,7 +26,7 @@ fun main() {
 ```
 ## Creating functions in Kotlin ###
 
-User defined functions start with the **fun** keyword, followed by the function name, parameters(if there is any) and the function body which is enclose in curly braces
+User defined functions start with the `fun` keyword, followed by the function name, parameters(if there is any) and the function body which is enclose in curly braces
 
 ```
 fun functionName(arguments): return type {
@@ -43,7 +43,7 @@ fun functionName(arguments): return type {
 
 ### Arguments
 
-Argument is data inserted to function. Arguments must have a name and data type of inserted data.
+`Argument` is data inserted to function. `Arguments` must have a name and data type of inserted data.Between `argument` and `data type` must be colon `:`
 ```
 fun functionName(argumentName: dataType){
   body
@@ -53,7 +53,7 @@ fun sample(number: Int){
   body
 }
 ```
-Arguments can have default value.
+`Arguments` can have default value.
 
 ```
 fun default(name: String = "Kotlin") {
@@ -62,4 +62,15 @@ fun default(name: String = "Kotlin") {
 ```
 
 ### Return type
+
+The `return type` expresses the returning valu type. Entering `return type` is optional.
+
+```
+fun functionName(argument): return type{
+  body
+}
+fun sample(name: String): String{
+  body
+}
+```
 
