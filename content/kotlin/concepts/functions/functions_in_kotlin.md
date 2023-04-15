@@ -40,7 +40,7 @@ fun functionName(arguments): return type {
 - The `functionName` is used to call the function in the program.
 - `Arguments` have to be in the parentheses. Arguments are pieces of information fed to the function.
 - `Return type` declares the type of a returning value. It is optional.
-+ In the *body* contains the instructions.
+- The `body` contains the code to be executed.
 + *Return statment* returns the value of the function.
 
 ### Arguments
