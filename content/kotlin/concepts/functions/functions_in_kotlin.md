@@ -66,11 +66,22 @@ fun default(name: String = "Kotlin") {
 The `return type` expresses the returning valu type. Entering `return type` is optional.
 
 ```
-fun functionName(argument): return type{
+fun functionName(argument): return type {
   body
 }
-fun sample(name: String): String{
+fun sample(name: String): String {
   body
+}
+```
+
+### Function body
+
+`Function body` has the instruction for the function. It must be between curly brackets `{}`. `Function body` is indented, except for single line function. The opening curly bracket `{` is at the end of the first line of function and the closing curly bracket is under the last line of `function body }`.
+
+```
+fun functionName(argument) {
+  bodyline1
+  bodyline2
 }
 ```
 
