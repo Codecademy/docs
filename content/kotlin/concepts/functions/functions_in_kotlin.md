@@ -88,7 +88,7 @@ fun main(){
 
 ### Return type
 
-The `return type` expresses the returning value type. Entering `return type` is optional. `Return type` is after parentheses and colon `:`. By default the return value is `Unit`, `Unit` means there is no returning value.
+The return type expresses the returning value type. Including the return type is optional. The return type is entered after the parentheses and a colon `:`. By default the return value is `Unit`. `Unit` means there is no returning value.
 
 ```
 fun functionName(argument): return type {
