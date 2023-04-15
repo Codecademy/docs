@@ -56,7 +56,8 @@ fun sample(num1: Int,num2: Int){
   body
 }
 ```
-When calling the function, `arguments` can be put in their assigned spot or defined by name. By defining by name the `arguments` do not need to be in the same order as in the function header.
+
+When calling the function, `arguments` can be put in their assigned spot or specified by name. By specifying the name the `arguments` do not need to be in the same order as in the function header.
 
 ```
 fun main(){
