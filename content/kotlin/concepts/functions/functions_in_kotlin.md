@@ -1,6 +1,6 @@
 ---
 Title: 'Functions in Kotlin'
-Description: 'Kotlin will not run without functions'
+Description: 'Functions is '
 Subjects: 
   - 'Mobile Development'
 Tags: 
@@ -13,7 +13,7 @@ CatalogContent:
 
 # Functions in Kotlin
 
-**Functions are essential part of any Kotlin program.** The Kotlin program has to start with `main()` function or there will be an error. `fun` is used to define a function in Kotlin but thear are also predefinec functions like println and print. Functions are called in the `main()` function.
+**Functions are essential part of any Kotlin program.**Functions are reusable part of code that can be called in any part of the code. The Kotlin program has to start with `main()` function or there will be an error. `fun` is used to define a function in Kotlin but thear are also predefinec functions like `println `and `print`. Functions are called in the `main()` function.
 
 ## Function `main()`
 
@@ -154,9 +154,10 @@ fun main() {
   val adding = {num1: Int, num2: Int -> num1 + num2 }
   //executing
   println(adding(1,2))
+}
+
 //output:
 //3
-}
 ```
 
 ### Anonymous Function
@@ -177,7 +178,9 @@ fun main() {
   var addingTwo = fun(num1: Int, num2: Int): Int { return num1 + num2 }
   print(addingOne(1, 2))
   print(addingTwo(1, 2))
+} 
+
 //output
 //3
 //3
-} 
+```
