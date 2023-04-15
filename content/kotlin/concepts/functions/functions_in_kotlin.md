@@ -102,7 +102,7 @@ fun sample(name: String): String {
 
 ### Function body
 
-`Function body` has the instruction for the function. It must be between curly brackets `{}`. `Function body` is indented, except for single line function. The opening curly bracket `{` is at the end of the function header and the closing curly bracket `}` is below the last line of `function body`.
+The function body contains the code for the function. It must be between curly brackets `{}`. The function body is indented, except for a single line function. The opening curly bracket `{` is at the end of the function header and the closing curly bracket `}` is below the last line of the function body.
 
 ```
 fun functionName(argument) {
