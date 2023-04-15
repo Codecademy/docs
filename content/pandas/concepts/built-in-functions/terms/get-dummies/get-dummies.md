@@ -35,6 +35,7 @@ A number of other parameters are optional or have default arguments. Some of the
 | `drop_first` | bool, default False | If `True`, this drops the first level of each variable to undergo dummy encoding. | 
 
 ## Codebyte Example
+
 Creates a list of letters in the alphabet `abcs`, converts `abcs` to a Series, and prints the Series. Then uses the `.get_dummys()` function on the Series to create a DataFrame whose columns are indicator variables for each level of the single categorical variable in the Series. Finally, prints the DataFrame. 
 
 ```codebyte/python
