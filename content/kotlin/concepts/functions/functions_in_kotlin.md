@@ -75,7 +75,9 @@ fun default(name: String = "Kotlin"){
   print("Hello $name")
 }
 ```
-Default `arguments` can be change when calling a function.
+
+Default arguments can be changed when calling a function.
+
 ```
 fun main(){
   default("Java")
