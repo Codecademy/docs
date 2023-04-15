@@ -15,7 +15,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'path/data-scientist'
 ---
 
-The **.get_dummies()** function creates dummy (indicator) variables from categorical variables. Each level of the categorical variable gets its own column - a dummy variable. The dummy variables take on the value "1" if the original categorical variable was that level or "0" if not. 
+The **`.get_dummies()`** function creates dummy (indicator) variables from categorical variables. Each level of the categorical variable gets its own column - a dummy variable. The dummy variables take on the value "1" if the original categorical variable was that level or "0" if not. 
 
 ## Codebyte Example
 ```codebyte/python
