@@ -68,7 +68,7 @@ fun main(){
 }
 ```
 
-`Arguments` can have default value. It is assigned with equals sign `=`.
+Arguments can have a default value. It is assigned with the equals sign `=`.
 
 ```
 fun default(name: String = "Kotlin"){
