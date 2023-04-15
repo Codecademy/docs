@@ -1,6 +1,6 @@
 ---
 Title: 'Functions in Kotlin'
-Description: 'Functions is '
+Description: 'Functions is most essential part of kotlin'
 Subjects: 
   - 'Mobile Development'
 Tags: 
