@@ -1,5 +1,5 @@
 ---
-Title: 'Functions in Kotlin'
+Title: 'Functions'
 Description: 'Functions are the most essential part of kotlin'
 Subjects: 
   - 'Mobile Development'
