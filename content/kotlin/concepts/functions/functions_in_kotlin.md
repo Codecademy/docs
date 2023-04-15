@@ -35,6 +35,7 @@ fun functionName(arguments): return type {
   return statment
 }
 ```
+
 + *fun* is used to define a function.
 + The *functionName* is used to call the function in the program.
 + *Arguments* have to be in the parentheses, arguments are pieces of information fed to the function.
