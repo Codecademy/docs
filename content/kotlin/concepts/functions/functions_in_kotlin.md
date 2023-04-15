@@ -37,33 +37,45 @@ fun functionName(arguments): return type {
 + *fun* is used to define a function.
 + The *functionName* is used to call the function in the program.
 + *Arguments* have to be in the parentheses, arguments are pieces of information feeded to the function.
-+ *Return type* is by default *Unit*, *Unit* means the function will not return a value, it is optional to include
++ *Return type* declares the type of returning value. It is optional to include.
 + In the *body* containes the instructions.
-+ *Return statment* is needed only if the *return type* is not *unit*.
++ *Return statment* returns the value of the function.
 
 ### Arguments
 
-`Argument` is data inserted to function. `Arguments` must have a name and data type of inserted data.Between `argument` and `data type` must be colon `:`
+`Argument` is data inserted to function. `Arguments` must have a name and data type of inserted data.Between `argument` and `data type` must be colon `:`. arguments are seperated by coma `,` .
 ```
-fun functionName(argumentName: dataType){
+fun functionName(argumentName: dataType, argumentName2 : datatype){
   body
 }
 
-fun sample(number: Int){
+fun sample(num1: Int,num2: Int){
   body
 }
 ```
+When calling function, `arguments` can be put in their assaign spot or defined by name. By defining by name the `arguments` do not need to be at the same order as in the function header.
+
+```
+fun main(){
+  println(sample(3,5))
+}
+fun main(){
+  println(sample(num2=5, num1=3))
+}
+```
+
 `Arguments` can have default value.
 
 ```
-fun default(name: String = "Kotlin") {
+fun default(firstname: String = "Kotlin"){
   body
 }
 ```
 
+
 ### Return type
 
-The `return type` expresses the returning valu type. Entering `return type` is optional.
+The `return type` expresses the returning valu type. Entering `return type` is optional. `Return type` is after parantheses and colon `:`. By default the return value is `Unit`, `Unit` means their is no returning valu.
 
 ```
 fun functionName(argument): return type {
@@ -76,7 +88,7 @@ fun sample(name: String): String {
 
 ### Function body
 
-`Function body` has the instruction for the function. It must be between curly brackets `{}`. `Function body` is indented, except for single line function. The opening curly bracket `{` is at the end of the first line of function and the closing curly bracket is under the last line of `function body }`.
+`Function body` has the instruction for the function. It must be between curly brackets `{}`. `Function body` is indented, except for single line function. The opening curly bracket `{` is at the end of the function header and the closing curly bracket `}` is under the last line of `function body`.
 
 ```
 fun functionName(argument) {
@@ -85,3 +97,12 @@ fun functionName(argument) {
 }
 ```
 
+### Return statment
+
+If their is a `return statment` in the function then their must be also a `return type`. `Return statment` is defined by keyword `return`.
+
+```
+fun adding(num1: Int,num2: Int): Int{
+  var sum = num1 + num2
+  return sum
+}
