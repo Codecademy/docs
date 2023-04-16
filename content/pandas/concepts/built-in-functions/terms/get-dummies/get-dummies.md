@@ -37,7 +37,7 @@ A number of other parameters are optional or have default arguments. Some of the
 
 ## Codebyte Example
 
-Creates a list of letters in the alphabet `abcs`, converts `abcs` to a Series, and prints the Series. Then uses the `.get_dummys()` function on the Series to create a DataFrame whose columns are indicator variables for each level of the single categorical variable in the Series. Finally, prints the DataFrame. 
+The code below creates a list based on the letters of the alphabet `abcs`, converts `abcs` to a Series, and prints the Series. Then the `.get_dummys()` function is applied to the Series to create a DataFrame whose columns are indicator variables for each level of the single categorical variable in the Series. Finally, the DataFrame is printed. 
 
 ```codebyte/python
 import pandas as pd
