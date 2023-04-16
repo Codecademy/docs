@@ -20,7 +20,7 @@ The **`.Compare()`** method is a string method that compares the alphabetical or
 String.Compare(string1, string2, ignoreCase);
 ```
 
-- The `.Compare()` method is called on the `String` class. It takes two `string` type arguments, `string1` and `string2`,  and compares them alphabetically.
+- The `.Compare()` method is called on the `String` class. It takes two `string` type arguments, `string1` and `string2`, and compares them alphabetically.
 - `ignoreCase` is an optional `boolean` type argument. By default the `.Compare()` method is case-sensitive. Passing `true` as the third argument makes the `.Compare()` method case-insensitive.
 
 The `.Compare()` method returns an `integer` that represents the relative order of `string1` and `string2` in the alphabet:
