@@ -25,7 +25,7 @@ pd.get_dummies(data)
 
 The `data` parameter is the data to be converted to dummy variables. It is the only mandatory parameter. It can be any array-like data structure including a pandas Series or DataFrame. 
 
-A number of other parameters are optional or have default arguments. Some of the key parameters are listed below.
+The other parameters are optional or have default arguments. They are listed below.
 
 | Parameter Name | Data Type | Usage |
 | :--- | :--- | :--- |
