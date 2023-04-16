@@ -33,7 +33,9 @@ A number of other parameters are optional or have default arguments. Some of the
 | `prefix_sep` | str, default '_' | If the `prefix` parameter is not `None`, this is a string appended after the prefix separating it from the level of the categorical variable. |
 | `dummy_na` | bool, default False | Adds a column to indicate NaNs. If false, NaNs are ignored. |
 | `columns` | list-like, default None | If a DataFrame is passed to the `data` parameter, a list of columns to can be passed to the `columns` parameter to be encoded as dummy variables. If `columns` is `None` then all the columns with object, string, or category dtype will be converted. |
+| `sparse` | bool, default False | If `True`, the dummy-encoded columns are backed by a `SparseArray`. If `False`, the dummy-encoded columns are backed by a NumPy array. |
 | `drop_first` | bool, default False | If `True`, this drops the first level of each variable to undergo dummy encoding. | 
+| `dtype` | dtype, default bool | Specifies the dtype for dummy variable columns that are created. Note: Only a single dtype is permitted. | 
 
 ## Codebyte Example
 
