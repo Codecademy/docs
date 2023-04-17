@@ -23,7 +23,7 @@ SELECT COUNT(column_name)
 FROM table_name;
 ```
 
-`COUNT()` takes the name of a column as an argument and counts the number of rows where the column is not `NULL`. The non `NULL` values are counted in the column that passed in using the `column_name`.
+`COUNT()` takes the name of a column as an argument and counts the number of rows where the column is not `NULL`. The non `NULL` values are counted in the column that is passed in using the `column_name`.
 
 When `*` or `1` are passed as an argument into `COUNT()`, the number of all rows, not excluding `NULL`, are included in the count.
 
