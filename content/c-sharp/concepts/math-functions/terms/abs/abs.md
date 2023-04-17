@@ -24,9 +24,9 @@ Math.Abs(number);
 
 The `Math.Abs()` method takes only one parameter, `number`, a `decimal`, `double` or `integer` type number. The method returns the absolute value of the `number` with the same type as the `number`, except if the value of `number` equals:
 
-- `NaN` (not a number), then it returns `NaN`,
-- `NegativeInfinity`, then it returns `PositiveInfinity`,
-- `PositiveInfinity`, then it also returns `PositiveInfinity`.
+- `NaN` (not a number), then it returns `NaN`
+- `NegativeInfinity`, then it returns `PositiveInfinity`
+- `PositiveInfinity`, then it also returns `PositiveInfinity`
 
 ## Example
 
