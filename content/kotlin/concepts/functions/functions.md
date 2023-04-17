@@ -63,8 +63,6 @@ When calling the function, `arguments` can be put in their assigned spot or spec
 ```pseudo
 fun main(){
   println(sample(3,5))
-}
-fun main(){
   println(sample(num2=5, num1=3))
 }
 ```
@@ -95,7 +93,9 @@ The return type expresses the returning value type. Including the return type is
 fun functionName(argument): return type {
   body
 }
+```
 
+```
 fun sample(name: String): String {
   return "Hello " + name
 }
