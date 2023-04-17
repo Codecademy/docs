@@ -1,1 +1,1 @@
-content/css/concepts/inheritance/inheritance.md
+content/go/concepts/memory/memory.md
