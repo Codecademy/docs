@@ -22,10 +22,10 @@ The **`Math.Abs()`** class method returns the absolute value of a given number.
 Math.Abs(number);
 ```
 
-The `Math.Abs()` method takes only one parameter, `number`, a number of either `decimal`, `double` or `integer` type. The method returns the absolute value of the `number` with the same type as the `number`, except if the value of `number` equals:
+The `Math.Abs()` method takes only one parameter, `number`, a `decimal`, `double` or `integer` type number. The method returns the absolute value of the `number` with the same type as the `number`, except if the value of `number` equals:
 
-- `NaN` (not a number), then it returns `NaN`.
-- `NegativeInfinity`, then it returns `PositiveInfinity`.
+- `NaN` (not a number), then it returns `NaN`,
+- `NegativeInfinity`, then it returns `PositiveInfinity`,
 - `PositiveInfinity`, then it also returns `PositiveInfinity`.
 
 ## Example
@@ -43,8 +43,8 @@ public class Example {
     decimal abs1 = Math.Abs(num1);
     double abs2 = Math.Abs(num2);
 
-    Console.WriteLine("The absolute value of of " + num1 + " is: " + abs1);
-    Console.WriteLine("The absolute value of of " + num2 + " is: " + abs2);
+    Console.WriteLine("The absolute value of " + num1 + " is: " + abs1);
+    Console.WriteLine("The absolute value of " + num2 + " is: " + abs2);
   }
 }
 ```
@@ -52,13 +52,13 @@ public class Example {
 The example will result in the following output:
 
 ```shell
-The absolute value of of -1.23 is: 1.23
-The absolute value of of 6.674E-11 is: 6.674E-11
+The absolute value of -1.23 is: 1.23
+The absolute value of 6.674E-11 is: 6.674E-11
 ```
 
 ## Codebyte Example
 
-The following example is runnable and returns the absolute of a `double` type number:
+The following example is runnable and returns the absolute value of a `double` type number:
 
 ```codebyte/csharp
 using System;
