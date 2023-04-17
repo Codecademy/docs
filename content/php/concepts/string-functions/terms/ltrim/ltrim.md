@@ -33,7 +33,6 @@ The following example demonstrates the `ltrim()` function with both one and two 
 
 ```codebyte/php
 <?php
-<?php
   $tooMuchWhiteSpace = "                           Heyo Mom!";
   echo $tooMuchWhiteSpace . "\n";
 
@@ -45,4 +44,4 @@ The following example demonstrates the `ltrim()` function with both one and two 
 ?>
 ```
 
-**Note**: Notice how the second argument, `Heyo `, removed the characters `H`, `e`, `y`, and `o`, but left a leading space before the `M`. It didn't remove the second `o`, either, because it found a character that it wasn't instructed to remove, i.e. the leading ` `.
+> **Note**: Notice how the second argument, `Heyo `, removed the characters `H`, `e`, `y`, and `o`, but left the `M`. It didn't remove the second `o`, either, because it found a character that it wasn't instructed to remove, i.e. the leading `M`.
