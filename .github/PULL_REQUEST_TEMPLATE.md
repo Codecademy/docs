@@ -18,28 +18,27 @@ Of course, you can opt not to do this and be listed as an "Anonymous contributor
 ### Description
 
 <!-- Please write a summary of the change, such as which topic(s) and file(s) that you have edited or created. Please also include relevant motivation and context: -->
+I have edited the PULL_REQUEST_TEMPLATE.md file for my codeacademy github practice. I deleted the type of change that are irrelevant to this PR and checked all the boxses in the checklist section.
 
 ### Type of Change
 
 <!--- Please delete or cross off the bullet point(s) that are irrelevant to this PR: -->
 
 - Adding a new entry
-- Editing an existing entry (fixing a typo, bug, issues, etc)
-- Updating the documentation
 
 ### Checklist
 
 <!-- Please check ALL the boxes: -->
 
-- [ ] All writings are my own.
-- [ ] My entry follows the Codecademy Docs style guide.
-- [ ] My changes generate no new warnings.
-- [ ] I have performed a self-review of my own writing and code.
-- [ ] I have checked my entry and corrected any misspellings.
-- [ ] I have made corresponding changes to the documentation if needed.
-- [ ] I have confirmed my changes are not being pushed from my forked `main` branch.
-- [ ] I have confirmed that I'm pushing from a new branch named after the changes I'm making.
-- [ ] Under "Development" on the right, I have linked any issues that are relevant to this PR (write "Closes #<issue number> in the "Description" above).
+- [x] All writings are my own.
+- [x] My entry follows the Codecademy Docs style guide.
+- [x] My changes generate no new warnings.
+- [x] I have performed a self-review of my own writing and code.
+- [x] I have checked my entry and corrected any misspellings.
+- [x] I have made corresponding changes to the documentation if needed.
+- [x] I have confirmed my changes are not being pushed from my forked `main` branch.
+- [x] I have confirmed that I'm pushing from a new branch named after the changes I'm making.
+- [x] Under "Development" on the right, I have linked any issues that are relevant to this PR (write "Closes #<issue number> in the "Description" above).
 
 <!--
 Having trouble with the PR checker? Here are some common issues and resolutions:
