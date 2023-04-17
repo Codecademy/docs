@@ -52,6 +52,6 @@ The following is an example of an HTML form that features `<input>` elements:
 
 ## Video Walkthrough
 
-Watch this video for a step-by-step tutorial on creating HTML forms. 
+Watch this video for a step-by-step tutorial on creating HTML forms.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZSRAI6cJlRo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
