@@ -1,6 +1,6 @@
 ---
 Title: 'Functions'
-Description: 'Functions are the most essential part of kotlin. A function is a reusable block of code that can be called from elsewhere in the program.'
+Description: 'A function is a reusable block of code that can be called from elsewhere in the program.'
 Subjects: 
   - 'Mobile Development'
 Tags: 
