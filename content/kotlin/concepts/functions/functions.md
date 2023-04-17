@@ -165,7 +165,7 @@ A lambda expression is a short function between curly braces `{}`. The `return` 
 variable name = {Lambda Expression}
 
 fun main() {
-  //Lambad Expression
+  //Lambda Expression
   val adding = {num1: Int, num2: Int -> num1 + num2 }
   //executing
   println(adding(1,2))
