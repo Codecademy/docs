@@ -32,6 +32,7 @@ The `$characters` parameter is an optional string that specifies specific charac
 The following example demonstrates the `ltrim()` function with both one and two arguments.
 
 ```codebyte/php
+<pre>
 <?php
   $tooMuchWhiteSpace = "                           Heyo Mom!";
   echo $tooMuchWhiteSpace . "\n";
@@ -42,6 +43,7 @@ The following example demonstrates the `ltrim()` function with both one and two 
   $trimCharacters = ltrim($trimmedDown, "Heyo ");
   echo $trimCharacters;
 ?>
+</pre>
 ```
 
 > **Note**: Notice how the second argument, `Heyo `, removed the characters `H`, `e`, `y`, and `o`, but left the `M`. It didn't remove the second `o`, either, because it found a character that it wasn't instructed to remove, i.e. the leading `M`.
