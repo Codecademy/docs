@@ -38,7 +38,7 @@ Suppose there's an `employees` table with the following values:
 | Jim     | 45000  | 4          |
 | Dwight  | 55000  | NULL       |
 
-To find the total number of rows in the `employees` table that has experience, the given query can be used:
+To find the total number of rows in the `employees` table that have experience, the given query can be used:
 
 ```sql
 SELECT COUNT(experience)
