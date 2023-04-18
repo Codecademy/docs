@@ -31,7 +31,7 @@ User defined functions start with the `fun` keyword, followed by the function na
 ```pseudo
 fun functionName(arguments): return type {
   body
-  return statment
+  return statement
 }
 ```
 
