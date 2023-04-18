@@ -93,7 +93,7 @@ WeekDay day = WeekDay::sun; // Notice how we need to preface "sun" with "Weekday
 int friday = WeekDay::fri; // error, must cast to an int
 ```
 
-Here's an example where scoped enums avoid name collisions:
+Here's an example where scoped enumerations avoid name collisions:
 
 ```cpp
 enum class LogResult {Success, InvalidFileName, WriteError};
