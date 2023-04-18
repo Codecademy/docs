@@ -26,7 +26,7 @@ interface Name {
 
 ## Example
 
-In the following code example, we defined and implemented an interface name `MyListener` and a class named 'Name' which is inheriting the interface 'MyListener':
+In the following code example, an interface named `MyListener` is defined and a class named `Name` which inherits it:
 
 ```kotlin
 fun main() {
