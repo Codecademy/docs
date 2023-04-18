@@ -103,8 +103,8 @@ fun main(){
   print(sample("Tom"))
 }
 
-///output
-///Hello Tom
+// Output
+// Hello Tom
 ```
 
 ### Function Body
