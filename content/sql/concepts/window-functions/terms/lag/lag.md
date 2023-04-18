@@ -42,7 +42,6 @@ Users Table
 | jenna      | black     | 35  |
 | kyle       | xy        | 60  |
 
-<br>
 
 ```sql
 SELECT *,
