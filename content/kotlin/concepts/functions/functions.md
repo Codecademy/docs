@@ -40,7 +40,7 @@ fun functionName(arguments): return type {
 - `arguments` have to be in the parentheses. Arguments are pieces of information fed to the function.
 - `return type` declares the type of a returning value. It is optional.
 - `body` contains the code to be executed.
-- `Return statement` returns the value of the function.
+- `return statement` returns the value of the function.
 
 ### Arguments
 
