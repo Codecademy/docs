@@ -124,7 +124,7 @@ If there is a return statement in the function, then there must be also a return
 ```pseudo
 fun adding(num1: Int,num2: Int): Int{
   var sum = num1 + num2
-  //Return statement, returns the variable sum
+  // Return statement, returns the variable sum
   return sum
   //println will not execute
   println("Nice job")
