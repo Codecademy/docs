@@ -192,7 +192,7 @@ fun main() {
   println(addingTwo(1, 2))
 } 
 
-//output
-//3
-//3
+// Output
+// 3
+// 3
 ```
