@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Functions** are an essential part of any Kotlin program. Functions are a reusable part of code that can be called in any part of the program. The Kotlin program has to start with the `main()` function, or there will be an error. `fun` is used to define a function in Kotlin, but there are also predefined functions like `println `and `print`.
+**Functions** are an essential part of any Kotlin program. Functions are a reusable part of code that can be called in any part of the program. A Kotlin program has to start with the `main()` function, or there will be an error. The `fun` keyword is used to define a function in Kotlin, but there are also predefined functions like `println` and `print`.
 
 ## Function `main()`
 
