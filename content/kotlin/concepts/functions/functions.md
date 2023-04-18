@@ -1,13 +1,13 @@
 ---
 Title: 'Functions'
 Description: 'A function is a reusable block of code that can be called from elsewhere in the program.'
-Subjects: 
+Subjects:
   - 'Mobile Development'
-Tags: 
+Tags:
   - 'Android'
   - 'Functions'
   - 'Kotlin'
-CatalogContent: 
+CatalogContent:
   - 'learn-kotlin'
   - 'paths/computer-science'
 ---
@@ -177,7 +177,7 @@ fun main() {
 
 ### Anonymous Function
 
-An anonymous function is assigned as a variable, `fun` comes after equals sign `=`. It has no name, which is why it is called anonymous. 
+An anonymous function is assigned as a variable, `fun` comes after equals sign `=`. It has no name, which is why it is called anonymous.
 
 - Option One: After the variable name is the argument types in parentheses `()` then `->` and the return type. This is followed by the equals sign `=` and the `fun` keyword, arguments in parenthesis, the return type, and the single return statement in curly braces `{}` .
 - Option Two: After the variable name is an equals sign `=`, then the `fun` keyword, followed by the arguments with argument types in parentheses `()`, followed by `:` and the return type, followed by a single return statement in curly brackets `{}`.
@@ -190,7 +190,7 @@ fun main() {
   var addingTwo = fun(num1: Int, num2: Int): Int { return num1 + num2 }
   println(addingOne(1, 2))
   println(addingTwo(1, 2))
-} 
+}
 
 // Output
 // 3
