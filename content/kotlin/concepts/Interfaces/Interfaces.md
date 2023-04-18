@@ -32,26 +32,26 @@ In the following code example, an interface named `MyListener` is defined and a 
 fun main() {
   var myObject = Name()
   println(myObject.name)
-  
+
   myObject.name ="XYZ"
   println(myObject.name)
-  
+
   myObject.EmptyFn()
 }
 
 interface Mylistener {
   var name: String  // The normal properties are by default abstract in nature it cannot be given a body.
-  
+
   fun jump() {
     print("World")
   } // The function's body shows that its `open` in nature.
-  
+
   fun EmptyFn() // Methods are by default `open` and `public` in nature so it can give the body for the function or call it in other class and override it.
 }
 
 class Name : Mylistener {
   override var name: String = "Hello"
-  
+
   override fun EmptyFn() {
     println("Override Text")
   }
