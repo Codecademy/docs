@@ -60,7 +60,7 @@ This example produces the following output:
 
 ## Codebyte Example
 
-Use the Codebytes editor below to produce a new Series using Pandas .sum() method.
+Use the Codebytes editor below to produce a new Series with the `.sum()` method.
 
 ```codebyte/py
 import pandas as pd
