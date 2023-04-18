@@ -126,7 +126,7 @@ fun adding(num1: Int,num2: Int): Int{
   var sum = num1 + num2
   // Return statement, returns the variable sum
   return sum
-  //println will not execute
+  // println will not execute
   println("Nice job")
 }
 ```
