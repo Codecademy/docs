@@ -35,7 +35,7 @@ The other parameters are optional or have default arguments. They are listed bel
 | `columns`        | list-like, default `None`                        | If a DataFrame is passed to the `data` parameter, a list of columns can be passed to the `columns` parameter to be encoded as dummy variables. If `columns` is `None` then all the columns with object, string, or category dtype will be converted. |
 | `sparse`         | `bool`, default `False`                           | If `True`, the dummy-encoded columns are backed by a `SparseArray`. If `False`, the dummy-encoded columns are backed by a NumPy `array`.                                                                                                                 |
 | `drop_first`     | `bool`, default `False`                            | If `True`, this drops the first level of each variable to undergo dummy encoding.                                                                                                                                                                    |
-| dtype          | dtype, default bool                            | Specifies the dtype for dummy variable columns that are created. Note: Only a single dtype is permitted.                                                                                                                                           |
+| `dtype`          | dtype, default `bool`                            | Specifies the dtype for dummy variable columns that are created. Note: Only a single dtype is permitted.                                                                                                                                           |
 
 ## Codebyte Example
 
