@@ -102,5 +102,4 @@ enum class SocketResult {Success, InvalidAddrError, TimeoutError};
 LogResult logger_result = log(...);
 
 if (logger_result == LogResult::Success) {...} // Because Success is scoped to LogResult, it doesn't collide with SocketResult::Success
-
 ```
