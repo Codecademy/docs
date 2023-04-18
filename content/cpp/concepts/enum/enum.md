@@ -1,6 +1,6 @@
 ---
 Title: 'Enums'
-Description: 'In C++, an enumeration (enum) is a user defined type where we specify a set of values for a variable and the variable can only take one out of a small set of possible values. The keyword enum is used to define an enumeration. cpp enum name {const1, const2, ...};  Heres an example: cpp'
+Description: 'In C++, an enumeration (enum) is a user defined type where a set of values are specified for a variable and the variable can only take one out of a small set of possible values.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -40,7 +40,7 @@ enum day {sun, mon, tue, wed, thu, fri, sat};
 - `fri` would have the value 5
 - `sat` would have the value 6
 
-Here'a another example where one of the constants is assigned a value:
+Here's another example where one of the constants is assigned a value:
 
 ```cpp
 enum grade {freshman=9, sophomore, junior, senior};

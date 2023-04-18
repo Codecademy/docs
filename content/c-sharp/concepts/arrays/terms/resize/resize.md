@@ -51,7 +51,8 @@ public class Example
         PrintUlla(WaroftheWorlds);
    }
 
-    public static void PrintUlla(String[] WaroftheWorlds)  {
+    public static void PrintUlla(String[] WaroftheWorlds)
+    {
         for(int i = 0; i < WaroftheWorlds.Length; i++)
         {
             Console.WriteLine("   [{0}] : {1}", i, WaroftheWorlds[i]);
@@ -63,7 +64,7 @@ public class Example
 
 The example above will return the following output:
 
-```pseudo
+```shell
 Broadcast from Earth:
    [0] : The_Eve_of_the_War
    [1] : Horsell_Common_and_the_Heat_Ray

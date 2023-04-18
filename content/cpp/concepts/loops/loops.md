@@ -1,6 +1,6 @@
 ---
 Title: 'Loops'
-Description: 'A loop can execute a statement or group of statements multiple times and the following is the general from of a loop statement in most programming languages. A while loop statement repeatedly executes the code block within as long as the condition is true. The moment the condition becomes false, the program will exit the loop. Note that the while loop might not ever run. If the condition is false initially, the code block will be skipped. cpp while (password != 1234) { std::cout > password;'
+Description: 'C++ has two types of loops: For and While. Loops execute the same group of statements multiple times until the condition is no longer true.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
