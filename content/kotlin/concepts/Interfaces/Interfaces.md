@@ -18,12 +18,10 @@ An **interface** is a type that defines a set of methods and properties that a c
 
 This is how the basic syntax of an interface can be created:
 
-```kotlin
-interface Shape {
-  fun area(): Double
-  fun perimeter(): Double
+```pseudo
+interface Name {
+  // Properties and functions go here in the body.
 }
-```
 
 ## Example
 
