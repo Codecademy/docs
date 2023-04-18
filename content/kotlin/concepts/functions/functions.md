@@ -81,8 +81,8 @@ Default arguments can be changed when calling a function.
 fun main(){
   default("Java")
 }
-///output
-///Hello Java
+// Output
+// Hello Java
 ```
 
 ### Return Type
