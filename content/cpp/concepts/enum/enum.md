@@ -81,14 +81,13 @@ Scoped enums differ from unscoped enums by:
 
 - Containing their constants in their namespace.
 - Being strongly-typed.
-
-By containing their constants to their namespace, scoped enumerations avoid name conflicts with other enumerations.
+- By containing their constants to their namespace, scoped enumerations avoid name conflicts with other enumerations.
 
 ## Example
 
 ```cpp
 enum class WeekDay {sun, mon, tue, wed, thu, fri, sat};
-//...
+
 WeekDay day = WeekDay::sun; // Notice how we need to preface "sun" with "Weekday::"
 int friday = WeekDay::fri; // error, must cast to an int
 ```
@@ -98,7 +97,7 @@ Here's an example where scoped enumerations avoid name collisions:
 ```cpp
 enum class LogResult {Success, InvalidFileName, WriteError};
 enum class SocketResult {Success, InvalidAddrError, TimeoutError};
-//...
+
 LogResult logger_result = log(...);
 
 if (logger_result == LogResult::Success) {...} // Because Success is scoped to LogResult, it doesn't collide with SocketResult::Success
