@@ -186,7 +186,7 @@ An anonymous function is assigned as a variable, `fun` comes after equals sign `
 fun main() {
   // Option One
   var addingOne: (Int, Int) -> Int = fun(num1, num2): Int { return num1 + num2 }
-  //Option Two
+  // Option Two
   var addingTwo = fun(num1: Int, num2: Int): Int { return num1 + num2 }
   print(addingOne(1, 2))
   print(addingTwo(1, 2))
