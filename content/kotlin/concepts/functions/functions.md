@@ -155,7 +155,7 @@ fun area(side1: Int, side2: Int) = side1 * side2
 
 ## Function Literals
 
-A function becomes a function literal when we assign it as a value. There are two types of function literals: "lambda expressions" and "anonymous functions".
+A function becomes a function literal when it is assigned as a value. There are two types of function literals: "lambda expressions" and "anonymous functions".
 
 ### Lambda Expressions
 
