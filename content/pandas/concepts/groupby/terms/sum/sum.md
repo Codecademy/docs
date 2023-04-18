@@ -14,7 +14,7 @@ CatalogContent:
 
 The **`.sum()`** method produces a new `Series` or [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) with aggregate sums for the groups in a [`GroupBy`](https://www.codecademy.com/resources/docs/pandas/groupby) object.
 
-## Syntax for Pandas .sum() Method
+## Syntax 
 
 ```pseudo
 groupbyobject.sum(numeric_only, min_count)
