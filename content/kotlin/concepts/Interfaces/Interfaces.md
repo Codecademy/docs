@@ -22,6 +22,7 @@ This is how the basic syntax of an interface can be created:
 interface Name {
   // Properties and functions go here in the body.
 }
+```
 
 ## Example
 
