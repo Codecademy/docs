@@ -8,7 +8,7 @@ Tags:
   - 'Database'
   - 'Queries'
 CatalogContent:
-  - 'data-science-foundations'
+  - 'learn-sql'
   - 'paths/analyze-data-with-sql'
 ---
 
