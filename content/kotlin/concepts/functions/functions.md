@@ -119,7 +119,7 @@ fun functionName(argument) {
 
 ### Return Statement
 
-If there is a return statement in the function, then there must be also a return type. The return statement is defined by keyword `return`. Lines after the return statement will not be executed.
+If there is a return statement in the function, then there must be also a return type. The return statement is defined by the keyword `return`. Lines after the return statement will not be executed.
 
 ```pseudo
 fun adding(num1: Int,num2: Int): Int{
