@@ -171,8 +171,8 @@ fun main() {
   println(adding(1,2))
 }
 
-//output:
-//3
+// Output
+// 3
 ```
 
 ### Anonymous Function
