@@ -14,7 +14,7 @@ CatalogContent:
 
 An **interface** is a type that defines a set of methods and properties that a class can implement. It provides a way to define a contract between the implementing class and the calling code. An interface can be thought of as a blueprint for a class, where the class must implement all the methods and properties defined in the interface.
 
-## Syntax
+## Creating An Interface
 
 This is how the basic syntax of an interface can be created:
 
