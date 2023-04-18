@@ -42,7 +42,6 @@ Users Table
 | jenna      | black     | 35  |
 | kyle       | xy        | 60  |
 
-
 ```sql
 SELECT *,
     LAG(age, 1) OVER (
