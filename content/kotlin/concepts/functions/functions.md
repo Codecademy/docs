@@ -167,7 +167,7 @@ variable name = {Lambda Expression}
 fun main() {
   // Lambda Expression
   val adding = {num1: Int, num2: Int -> num1 + num2 }
-  //executing
+  // Executing
   println(adding(1,2))
 }
 
