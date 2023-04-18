@@ -58,7 +58,7 @@ This example produces the following output:
 2   C   12.0
 ```
 
-### Try It Yourself
+## Codebyte Example
 
 Use the Codebytes editor below to produce a new Series using Pandas .sum() method.
 
