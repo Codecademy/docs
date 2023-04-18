@@ -79,8 +79,8 @@ Scoped enums are a feature added in C++11.
 
 Scoped enums differ from unscoped enums by:
 
-- Containing their constants in their namespace
-- Being strongly typed
+- Containing their constants in their namespace.
+- Being strongly-typed.
 
 By containing their constants to their namespace, scoped enumerations avoid name conflicts with other enumerations.
 
