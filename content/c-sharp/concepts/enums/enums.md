@@ -1,6 +1,6 @@
 ---
 Title: 'Enums'
-Description: 'An enum (or "Enumeration type") is a set of named labels that each represent a number.'
+Description: 'An Enum (or "Enumeration type") is a set of named labels that each represent a number.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
@@ -15,6 +15,8 @@ CatalogContent:
   - 'learn-c-sharp'
   - 'paths/computer-science'
 ---
+
+An **Enum** (or "Enumeration type") is a set of named labels that each represent a number.
 
 ## Syntax
 
@@ -31,7 +33,7 @@ enum NinjaTurtle {
 Console.WriteLine((int)NinjaTurtle.Raphael == 3); // prints "True"
 ```
 
-However, you can also choose to assign specific number values.
+However, specific number values can also be assigned.
 
 ```cs
 enum BreadCount {
@@ -40,6 +42,37 @@ enum BreadCount {
   Gross = 144,
   GreatGross = 1728
 }
+```
+
+The following example uses an enum to identify whether a place is a city, country, or planet.
+```cs
+using System.Collections.Generic;
+
+enum PlaceType {
+  City,
+  Country,
+  Planet,
+}
+
+class Place {
+  public string name { get; set; }
+  public PlaceType type { get; set; }
+
+  public Place(string n, PlaceType t) {
+    name = n;
+    type = t;
+  }
+}
+
+public class Example {
+  public static void Main() {
+    List<Place> places = new List<Place>();
+    places.Add(new Place("Tokyo", PlaceType.City));
+    places.Add(new Place("Canada", PlaceType.Country));
+    places.Add(new Place("Jupiter", PlaceType.Planet));
+  }
+}
+
 ```
 
 ## Codebyte Example
