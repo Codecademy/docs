@@ -22,7 +22,7 @@ The `...` used below is meant to indicate code before or after the `NTILE()` cla
 
 A number is required between the parenthesis.
 
-An "ORDER BY" and a "PARTITION BY" clause is a good idea to include. It makes the data more organized.
+An `ORDER BY` and a `PARTITION BY` clause is a good idea to include. It makes the data more organized.
 
 ```pseudo
   ... 
