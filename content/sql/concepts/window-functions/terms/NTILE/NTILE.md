@@ -18,7 +18,7 @@ The **`NTILE()`** SQL function groups data into roughly equal groups like the SQ
 
 ## Syntax
 
-The "..." signs are meant to indicate code before or after the syntax below. It's not part of the actual syntax.
+The `...` used below is meant to indicate code before or after the `NTILE()` clause below. It's not part of the actual syntax.
 
 A number is required between the () tags.
 
