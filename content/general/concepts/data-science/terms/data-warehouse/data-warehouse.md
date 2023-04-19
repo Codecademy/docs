@@ -13,9 +13,9 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-A **data warehouse** is a collection of stored data resources that are designed for use in analysis and business intelligence applications. The term data warehousing refers to the development of these data resources from existing or new sources of data.
+A **data warehouse** is a collection of stored data resources that are designed for use in analysis and business intelligence applications. The term **data warehousing** refers to the development of these data resources from existing or new sources of data.
 
-The use of data warehousing is a relatively recent development. It is a tool that has grown out of the widespread adoption of analytics by businesses and the growing need to have the data that is being collected available in a final form for the use in business intelligence applications, such as Power BI.
+The use of data warehousing is a relatively recent development. It is a tool that has grown out of businesses' widespread adoption of analytics and the growing need to have the data that is being collected available in a final form for the use in business intelligence applications, such as Power BI.
 
 ## Implementation
 
@@ -27,8 +27,8 @@ The first step is always to collect all of the disparate data sources that will 
 
 ### Transform
 
-Traditionally, transforming is the second step in the process. The extracted data is stored in a staging area and transformed to meet the needs of the end user.
+Traditionally, **transforming** is the second step in the process. The extracted data are stored in a staging area and transformed to meet the needs of the end user.
 
 ### Load
 
-Loading entails the transfer or storage of the transformed data to the data warehouse. It is now often the case that the load and transform steps are inverted. With modern cloud computing the staging step falls away and final destination (the data warehouse) is where all the processing takes place.
+**Loading** entails storing or transferring the transformed data to the data warehouse. It is now often the case that the load and transform steps are inverted. With modern cloud computing, the staging step falls away and the final destination (the data warehouse) is where all the processing occurs.
