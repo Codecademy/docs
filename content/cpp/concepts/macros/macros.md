@@ -51,7 +51,7 @@ This results in the output:
 Area is 28.2744
 ```
 
-#### Try It Yourself
+### Codebyte Example
 
 Use the Codebytes editor below to create your own C++ object-like macro. 
 
