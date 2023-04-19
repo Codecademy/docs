@@ -14,7 +14,7 @@ CatalogContent:
   - paths/analyze-data-with-sql
 ---
 
-The NTILE() SQL tag. Groups data into roughly equal groups. Like the SQL "GROUP BY" clause. However **NTILE()** is applicable to window functions. A number can be specified between the () tags. Which will display the data organized roughly across a specified number of groups.
+The **`NTILE()`** SQL function groups data into roughly equal groups like the SQL "GROUP BY" clause. However `NTILE()` is applicable to window functions. A number can be specified with the function which will display the data organized roughly across a specified number of groups.
 
 ## Syntax
 
