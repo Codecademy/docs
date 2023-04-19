@@ -112,7 +112,7 @@ Area is 78.54
 
 ### Codebyte Example
 
-Use the Codebytes editor below to create your own C++ function-like macro. 
+Use the Codebyte editor below to create your own C++ function-like macro. 
 
 ```codebyte/cpp
 #include <iostream>
