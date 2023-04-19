@@ -17,9 +17,11 @@ The **`.scaledToFill()`**  modifier method scales a view to fill its parent view
 ## Syntax
 
 ```pseudo
-<View>
+View
     .scaledToFill()
 ```
+
+> **Note**: This method is the same as using `.aspectRatio()` with a nil aspect ratio and a content mode of `.fill`.
 
 ## Example
 
