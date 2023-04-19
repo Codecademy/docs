@@ -233,7 +233,7 @@ TEST defined
 TEST undefined
 ```
 
-#### Try It Yourself
+### Codebyte Example
 
 Use the Codebytes editor below to try undefining a C++ macro. 
 
