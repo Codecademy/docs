@@ -49,7 +49,7 @@ Let's say there is a "basketball_points" table where the first 10 rows look like
 | Dwayne Wade | 2 | 90 |
 | Dwayne Wade | 3 | 74 |
 
-Then running an NTILE query so the different artists streams in millions can be seen across week.
+Then running an NTILE query so the different players and their points can be seen across weeks.
 
 ```sql
   SELECT
@@ -64,7 +64,7 @@ Then running an NTILE query so the different artists streams in millions can be 
   LIMIT 10;
 ```
 
-Running the following query will show data from the "basketball_points" table organized roughly into 4 groups. They're going to be partitioned by week. That means that we will see a week at a time before we see the next week. Then each week is ordered by total_points in descending order. Then we name the "NTILE()" result column to "quartile". So, we know where artists place in one of four quartiles of total points scored for that specific week.
+Running the following query will show data from the "basketball_points" table organized roughly into 4 groups. They're going to be partitioned by week. That means that we will see a week at a time before we see the next week. Then each week is ordered by total_points in descending order. Then we name the "NTILE()" result column to "quartile". So, we know where players place in one of four quartiles of total points scored for that specific week.
 
 At last, we select the "player", "week" and "total_points" columns. Along with the NTILE() column from earlier called "quartile" Then we "LIMIT" the rows to 10 so we don't get all the data at once.
 
