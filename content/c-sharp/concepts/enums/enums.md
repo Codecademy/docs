@@ -45,6 +45,7 @@ enum BreadCount {
 ```
 
 The following example uses an enum to identify whether a place is a city, country, or planet.
+
 ```cs
 using System.Collections.Generic;
 
