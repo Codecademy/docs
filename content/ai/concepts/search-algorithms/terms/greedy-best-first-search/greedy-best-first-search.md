@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/machine-learning-ai-engineering-foundations'
 ---
 
-**Greedy best-first search** is an informed search algorithm where the evaluation function is strictly equal to the heuristic function, disregarding the edge weights in a weighted graph. To get from one node to a target node, the lowest value resulting from some heuristic function, **h(x)**, is considered as the successive node to traverse to. The goal is to choose the quickest and shortest path to the target node.
+**Greedy best-first search** is an informed search algorithm where the evaluation function is strictly equal to the heuristic function, disregarding the edge weights in a weighted graph. To get from a start node to a target node, the lowest value resulting from some heuristic function, **h(x)**, is considered as the successive node to traverse to. The goal is to choose the quickest and shortest path to the target node.
 
 ## Evaluation Function
 
@@ -22,11 +22,11 @@ The evaluation function, **f(x)**, for the greedy best-first search algorithm is
 f(x) = h(x)
 ```
 
-Here, the evaluation function is equal to the heuristic function. Since this search disregards edge weights, finding the lowest-cost path is uncertain.
+Here, the evaluation function is equal to the heuristic function. Since this search disregards edge weights, finding the lowest-cost path is not guaranteed.
 
 ### Heuristic Function
 
-A heuristic function, **h(x)**, evaluates the successive node based on how close it lies to the target node. In other words, it chooses the immediate low-cost option. As this is the case, however, it does not necessarily find the shortest path to the goal.
+A heuristic function, **h(x)**, evaluates the successive node based on how close it is to the target node. In other words, it chooses the immediate low-cost option. As this is the case, however, it does not necessarily find the shortest path to the goal.
 
 Suppose a bot is trying to move from point A to point B. In greedy best-first search, the bot will choose to move to the position that brings it closest to the goal, disregarding if another position ultimately yields a shorter distance. In the case that there is an obstruction, it will evaluate the previous nodes with the shortest distance to the goal, and continuously choose the node that is closest to the goal.
 
@@ -43,18 +43,18 @@ Consider finding the path from **P** to **S** in the following graph:
 
 ![Greedy Best-first Search Example Graph](https://raw.githubusercontent.com/Codecademy/docs/main/media/greedy-best-first-search-example-graph.png)
 
-In this example, the cost is measured strictly using the heuristic value. In other words, how close it lies to the target.
+In this example, the cost is measured strictly using the heuristic value. In other words, how close it is to the target.
 
 ![Greedy Best-first Search 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/greedy-best-first-search-tree-1.png)
 
-**C** has the lowest cost here of 6, therefore the search will continue here:
+**C** has the lowest cost of 6. Therefore, the search will continue like so:
 
 ![Greedy Best-first Search 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/greedy-best-first-search-tree-2.png)
 
-**U** has the lowest cost compared to **M** or **R**, so the search will continue there. Finally, **S** has a heuristic value of 0 since that is our target node:
+**U** has the lowest cost compared to **M** and **R**, so the search will continue by exploring **U**. Finally, **S** has a heuristic value of 0 since that is the target node:
 
 ![Greedy Best-first Search 3](https://raw.githubusercontent.com/Codecademy/docs/main/media/greedy-best-first-search-tree-3.png)
 
-The total cost here for the path (**PCUS**) evaluates 11. Had the search taken into consideration another path (**PRES**), it would have yielded the lowest cost of 10 rather than 11.
+The total cost for the path (**P** -> **C** -> **U** -> **S**) evaluates to 11. The potential problem with a greedy best-first search is revealed by the path (**P** -> **R** -> **E** -> **S**) having a cost of 10, which is lower than (**P** -> **C** -> **U** -> **S**). Greedy best-first search ignored this path because it does not consider the edge weights.
 
 ![Greedy Best-first Search Final Example Graph](https://raw.githubusercontent.com/Codecademy/docs/main/media/greedy-best-first-search-final-example-graph.png)
