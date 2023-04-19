@@ -1,5 +1,5 @@
 ---
-Title: NTILE()
+Title: 'NTILE()'
 Description: Groups data together from a window function in roughly equal groups.
 Subjects: 
   - 'Data Science'
