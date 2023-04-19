@@ -176,7 +176,7 @@ Line number: 9
 
 #### Try It Yourself
 
-Use the Codebytes editor below to create your own C++ predefined macro. 
+Use the Codebyte editor below to create your own C++ predefined macro. 
 
 ```codebyte/cpp
 #include <iostream>
