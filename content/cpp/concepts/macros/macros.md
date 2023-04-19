@@ -53,7 +53,7 @@ Area is 28.2744
 
 ### Codebyte Example
 
-Use the Codebytes editor below to create your own C++ object-like macro. 
+Use the Codebyte editor below to create your own C++ object-like macro. 
 
 ```codebyte/cpp
 #include <iostream>
