@@ -22,7 +22,7 @@ The `...` used below is meant to indicate code before or after the `NTILE()` cla
 
 A number is required between the parenthesis.
 
-An `ORDER BY` and a `PARTITION BY` clause is a good idea to include. It makes the data more organized.
+An `ORDER BY` and a `PARTITION BY` clause is a good idea to include. It makes the data more organized. The `ORDER BY` SQL clause can show query results in ascending or descending order. They can be specified with `ASC` or `DESC` respectively.
 
 ```pseudo
   ... 
@@ -34,20 +34,20 @@ An `ORDER BY` and a `PARTITION BY` clause is a good idea to include. It makes th
 
 ## Example
 
-Let's say there is a "streams" table where the first 10 rows look like this:
+Let's say there is a "basketball_points" table where the first 10 rows look like this:
 
-| Artist | Week | streams_millions | chart_position |
-| -------- | ------ | ---- | ---------------- |
-| Drake | 1 | 288.2 | 1 |
-| Drake | 2 | 160.9 | 1 |
-| Drake | 3 | 140.0 | 2 |
-| Drake | 4 | 131.8 | 2 |
-| Drake | 5 | 123.7 | 1 |
-| Drake | 6 | 126.2 | 1 |
-| Drake | 7 | 122.6 | 1 |
-| Drake | 8 | 117.6 | 1 |
-| The Weeknd | 1 |76.3 | 6 |
-| The Weeknd | 2 | 72.6 | 9 |
+| player | Week | total_points |
+| -------- | ------ | ---- |
+| Kobe Bryant | 1 | 300 |
+| Kobe Bryant | 2 | 220 |
+| Kobe Bryant | 3 | 183 |
+| Pau Gasol | 1 | 170 |
+| Pau Gasol | 2 | 155 |
+| Pau Gasol | 3 | 149 |
+| Pau Gasol | 4 | 142 |
+| Dwayne Wade | 1 | 112 |
+| Dwayne Wade | 2 | 90 |
+| Dwayne Wade | 3 | 74 |
 
 Then running an NTILE query so the different artists streams in millions can be seen across week.
 
@@ -55,31 +55,30 @@ Then running an NTILE query so the different artists streams in millions can be 
   SELECT
   NTILE(4) OVER (
     PARTITION BY week
-    ORDER BY streams_millions DESC
+    ORDER BY total_points DESC
   ) AS 'quartile',
-  artist,
+  player,
   week,
-  streams_millions
-  FROM streams
+  total_points
+  FROM basketball_points
   LIMIT 10;
 ```
 
-Running the following query will show data from the "streams" table organized roughly into 4 groups. They're going to be partitioned by week. That means that we will see a week at a time before we see the next week. Then each week is ordered by streams_millions in descending order. Then we name the "NTILE()" result column to "quartile". So, we know where artists place in one of four quartiles of popularity.
+Running the following query will show data from the "basketball_points" table organized roughly into 4 groups. They're going to be partitioned by week. That means that we will see a week at a time before we see the next week. Then each week is ordered by total_points in descending order. Then we name the "NTILE()" result column to "quartile". So, we know where artists place in one of four quartiles of total points scored for that specific week.
 
-At last, we select the "artist", "week" and "streams_millions" columns. Along with the NTILE() column from earlier called "quartile" Then we "LIMIT" the rows to 10 so we don't get all the data at once.
+At last, we select the "player", "week" and "total_points" columns. Along with the NTILE() column from earlier called "quartile" Then we "LIMIT" the rows to 10 so we don't get all the data at once.
 
 That will give us the following output:
 
-
-| quartile | artist | week | streams_millions |
+| quartile | player | week | total_points |
 | -------- | ------ | ---- | ---------------- |
-| 1 | drake | 1 | 288.2 |
-| 1 | The Weeknd | 1 | 76.3 |
-| 2 | Luke Combs | 1 | 55.8 |
-| 2 | Taylor Swift | 1 | 47.7 |
-| 3 | Doja Cat | 1 | 41.7 |
-| 3 | Bad Bunny | 1 | 33.7 |
-| 4 | Beyoncé | 1 | 26.3 |
-| 4 | Lady Gaga | 1 | 15.4 |
-| 1 | Drake | 2 | 160.9 |
-| 1 | The Weeknd | 2 | 72.6 |
+| 1 | Kobe Bryant | 1 | 300 |
+| 1 | Pau Gasol | 1 | 170 |
+| 2 | Dwayne Wade | 1 | 112 |
+| 2 | LeBron James | 1 | 110 |
+| 3 | Carmelo Anthony | 1 | 105 |
+| 3 | Dirk Nowitzki | 1 | 101 |
+| 4 | Kevin Durant | 1 | 98 |
+| 4 | Chris Bosh | 1 | 95 |
+| 1 | Kobe Bryant | 2 | 220 |
+| 1 | Pau Gasol | 2 | 155 |
