@@ -20,7 +20,7 @@ An **Enum** (or "Enumeration type") is a set of named labels that each represent
 
 ## Syntax
 
-By default, each entry in an enum is assign a zero-indexed value.
+By default, each entry in an enum is assigned a zero-indexed value.
 
 ```cs
 enum NinjaTurtle {
@@ -44,7 +44,7 @@ enum BreadCount {
 }
 ```
 
-The following example uses an enum to identify whether a place is a city, country, or planet.
+The following example uses an enum to identify whether a given place is a city, country, or planet.
 
 ```cs
 using System.Collections.Generic;
