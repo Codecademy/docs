@@ -32,7 +32,7 @@ The `padding` property is often used to expand the background color and make the
 
 ## Video Walkthrough
 
-Watch this video on how to contrast the CSS margin and padding properties.
+Watch this video on the differences between the CSS margin and padding properties.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MaB7pehA1c0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
