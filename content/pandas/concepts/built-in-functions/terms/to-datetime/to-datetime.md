@@ -10,7 +10,7 @@ Tags:
   - 'Pandas'
 CatalogContent:
   - 'learn-python-3'
-  - 'paths/data-science '
+  - 'paths/data-science'
 ---
 
 The **`.to_datetime()`** function returns a pandas datetime object for a given object, often an array or dictionary-like type such as a Series or DataFrame.
