@@ -1,6 +1,6 @@
 ---
 Title: '.isna()'
-Description: 'Checks whether the objects of a Dataframe or a series contain missing or null values and returns a corresponding boolean `True` or `False` value.'
+Description: 'Checks whether the objects of a Dataframe or a series contain missing or null values and returns a corresponding boolean value.'
 Subjects:
     - 'Computer Science'
     - 'Pandas'
@@ -12,12 +12,11 @@ CatalogContent:
     - 'paths/data-science'
 ---
 
-
-The **`.isna()`** method checks whether the objects of a `Dataframe` or a series contain missing or null values `(NA, NaN)` and returns a new object with the same shape as the original object but with boolean values `True` or `False` as the elements. `True` indicates the presence of null or missing values and `False` indicates otherwise. The original `DataFrame` object, used to call the method, remains unchanged.
+The **`.isna()`** method checks whether the objects of a Dataframe or a Series contain missing or null values `(NA, NaN)` and returns a new object with the same shape as the original but with boolean values `True` or `False` as the elements. `True` indicates the presence of null or missing values and `False` indicates otherwise. The original DataFrame object, used to call the method, remains unchanged.
 
 ## Syntax
 
-```py
+```pseudo
 # Check for NA values.
 df.isna()
 ```
@@ -26,7 +25,7 @@ df.isna()
 
 Here are some examples for using the `.isna()` method on both DataFrame and Series objects:
 
-### Example 1: `.isna()` with DataFrame
+### Example 1: `.isna()` with a DataFrame
 
 ```py
 import pandas as pd
@@ -44,7 +43,7 @@ missing_values = df.isna()
 print(missing_values)
 ```
 
-The Output from using `.isna()` on DataFrame without optional parameters:
+The code above results in the following output:
 
 ```shell
        A      B      C
@@ -54,7 +53,7 @@ The Output from using `.isna()` on DataFrame without optional parameters:
 3  False  False  False
 ```
 
-### Example 2: `.isna()` with Series
+### Example 2: `.isna()` with a Series
 
 ```py
 import pandas as pd
@@ -68,7 +67,7 @@ missing_values = s.isna()
 print(missing_values)
 ```
 
-The Output from using `.isna()` on Series:
+The code above results in the following output:
 ```shell
 0    False
 1     True
