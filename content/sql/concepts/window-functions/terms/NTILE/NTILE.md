@@ -69,7 +69,7 @@ Running the following query will show data from the "basketball_points" table or
 
 Finally, the "player", "week" and "total_points" columns are selected. The last line of the query adds a "LIMIT" condition, so that only the first 10 rows are displayed.
 
-That will give us the following output:
+That will yield the following output:
 
 | quartile | player | week | total_points |
 | -------- | ------ | ---- | ---------------- |
