@@ -65,7 +65,7 @@ Then running an NTILE query so the different players and their points can be see
   LIMIT 10;
 ```
 
-Running the following query will show data from the "basketball_points" table organized roughly into 4 groups. They're going to be partitioned by week. That means that we will see a week at a time before we see the next week. Then each week is ordered by total_points in descending order. Then we name the "NTILE()" result column to "quartile". So, we know where players place in one of four quartiles of total points scored for that specific week.
+Running the following query will show data from the "basketball_points" table organized roughly into 4 groups. They're going to be partitioned by week. That means that the results will display each week as a contiguous group. Each week is also ordered by total_points in descending order. Then the result of the "ntile" operation is set as "quartile". So, now this new column highlights where players place in one of four quartiles of total points scored for that specific week.
 
 At last, we select the "player", "week" and "total_points" columns. Along with the NTILE() column from earlier called "quartile" Then we "LIMIT" the rows to 10 so we don't get all the data at once.
 
