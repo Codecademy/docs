@@ -154,3 +154,9 @@ print(f"After reassigning list item: {streaming_platforms}\n")
 streaming_platforms[1] = "Twitch"
 # reassignment of list to string will throw an error
 ```
+
+## Video Walkthrough
+
+Watch this video which illustrates the characteristics of Python tuples.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qM7Iz_DRDH8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
