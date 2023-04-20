@@ -1,7 +1,7 @@
 ---
 Title: 'NTILE()'
 Description: 'Groups data together from a window function in roughly equal groups.'
-Subjects: 
+Subjects:
   - 'Data Science'
   - 'Computer Science'
 Tags:
@@ -26,7 +26,7 @@ A number is required between the parenthesis.
 An `ORDER BY` and a `PARTITION BY` clause is a good idea to include. It makes the data more organized. The `ORDER BY` SQL clause can show query results in ascending or descending order. They can be specified with `ASC` or `DESC` respectively.
 
 ```pseudo
-  ... 
+  ...
   NTILE(number_of_groups_to_split_data_between) OVER (
     PARTITION BY column1_name
     ORDER BY column2_name DESC
@@ -37,18 +37,18 @@ An `ORDER BY` and a `PARTITION BY` clause is a good idea to include. It makes th
 
 Let's say there is a "basketball_points" table where the first 10 rows look like this:
 
-| player | week | total_points |
-| -------- | ------ | ---- |
-| Kobe Bryant | 1 | 300 |
-| Kobe Bryant | 2 | 220 |
-| Kobe Bryant | 3 | 183 |
-| Pau Gasol | 1 | 170 |
-| Pau Gasol | 2 | 155 |
-| Pau Gasol | 3 | 149 |
-| Pau Gasol | 4 | 142 |
-| Dwayne Wade | 1 | 112 |
-| Dwayne Wade | 2 | 90 |
-| Dwayne Wade | 3 | 74 |
+| player      | week | total_points |
+| ----------- | ---- | ------------ |
+| Kobe Bryant | 1    | 300          |
+| Kobe Bryant | 2    | 220          |
+| Kobe Bryant | 3    | 183          |
+| Pau Gasol   | 1    | 170          |
+| Pau Gasol   | 2    | 155          |
+| Pau Gasol   | 3    | 149          |
+| Pau Gasol   | 4    | 142          |
+| Dwayne Wade | 1    | 112          |
+| Dwayne Wade | 2    | 90           |
+| Dwayne Wade | 3    | 74           |
 
 Then running an NTILE query so the different players and their points can be seen across weeks.
 
@@ -71,15 +71,15 @@ Finally, the "player", "week" and "total_points" columns are selected. The last 
 
 That will yield the following output:
 
-| quartile | player | week | total_points |
-| -------- | ------ | ---- | ---------------- |
-| 1 | Kobe Bryant | 1 | 300 |
-| 1 | Pau Gasol | 1 | 170 |
-| 2 | Dwayne Wade | 1 | 112 |
-| 2 | LeBron James | 1 | 110 |
-| 3 | Carmelo Anthony | 1 | 105 |
-| 3 | Dirk Nowitzki | 1 | 101 |
-| 4 | Kevin Durant | 1 | 98 |
-| 4 | Chris Bosh | 1 | 95 |
-| 1 | Kobe Bryant | 2 | 220 |
-| 1 | Pau Gasol | 2 | 155 |
+| quartile | player          | week | total_points |
+| -------- | --------------- | ---- | ------------ |
+| 1        | Kobe Bryant     | 1    | 300          |
+| 1        | Pau Gasol       | 1    | 170          |
+| 2        | Dwayne Wade     | 1    | 112          |
+| 2        | LeBron James    | 1    | 110          |
+| 3        | Carmelo Anthony | 1    | 105          |
+| 3        | Dirk Nowitzki   | 1    | 101          |
+| 4        | Kevin Durant    | 1    | 98           |
+| 4        | Chris Bosh      | 1    | 95           |
+| 1        | Kobe Bryant     | 2    | 220          |
+| 1        | Pau Gasol       | 2    | 155          |
