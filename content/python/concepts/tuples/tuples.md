@@ -54,10 +54,10 @@ The built-in [`tuple()`](https://www.codecademy.com/resources/docs/python/built-
 When values are assigned to a tuple, it is "packed." When those same values are utilized later on in a program, the tuple is "unpacked."
 
 ```py
-# packed tuple
+# Packed tuple
 my_tuple = (1, 2, 3)
 
-# unpacked tuple
+# Unpacked tuple
 (one, two, three) = my_tuple
 
 print(one)
@@ -75,10 +75,10 @@ Output:
 > **Note:** The number of variables must be equal to the number of values in the tuple. Otherwise, an asterisk (`*`) must be used to gather the remaining values in a list:
 >
 > ```py
-> # packed tuple
+> # Packed tuple
 > my_tuple = (1, 2, 3, 4, 5)
 >
-> # unpacked tuple
+> # Unpacked tuple
 > (one, two, *three) = my_tuple
 >
 > print(one)
