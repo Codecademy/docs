@@ -37,7 +37,7 @@ An `ORDER BY` and a `PARTITION BY` clause is a good idea to include. It makes th
 
 Let's say there is a "basketball_points" table where the first 10 rows look like this:
 
-| player | Week | total_points |
+| player | week | total_points |
 | -------- | ------ | ---- |
 | Kobe Bryant | 1 | 300 |
 | Kobe Bryant | 2 | 220 |
