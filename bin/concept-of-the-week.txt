@@ -1,1 +1,1 @@
-content/sql/concepts/dates/dates.md
+content/go/concepts/memory/memory.md
