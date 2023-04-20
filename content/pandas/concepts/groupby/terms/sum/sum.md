@@ -73,4 +73,3 @@ group = df.groupby(['Key'], as_index=False)
 
 print(group.sum())
 ```
-
