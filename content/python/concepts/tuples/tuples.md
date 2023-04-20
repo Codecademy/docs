@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **tuple** is a data structure of comma-separated values. Unlike [dictionaries](https://www.codecademy.com/resources/docs/python/dictionaries), which are unordered and mutable, tuples are immutable and their elements are ordered by insertion (similar to [lists](https://www.codecademy.com/resources/docs/python/lists). Tuple elements can be of different [data types](https://www.codecademy.com/resources/docs/python/data-types).
+A **tuple** is a data structure comprised of comma-separated values. Unlike [dictionaries](https://www.codecademy.com/resources/docs/python/dictionaries), which are unordered and mutable, tuples are immutable and their elements are ordered by insertion (similar to [lists](https://www.codecademy.com/resources/docs/python/lists)). Tuple elements can be of different [data types](https://www.codecademy.com/resources/docs/python/data-types).
 
 Tuples also support built-in sequence functions such as [`len()`](https://www.codecademy.com/resources/docs/python/built-in-functions/len), [`min()`](https://www.codecademy.com/resources/docs/python/built-in-functions/min), and [`max()`](https://www.codecademy.com/resources/docs/python/built-in-functions/max).
 
@@ -142,17 +142,17 @@ streaming_platforms = (list_1, list_2)
 print(f"Original tuple: {streaming_platforms}\n")
 
 streaming_platforms[0].append("YouTube")
-# this is allowed
+# This is allowed
 
 print(f"After appending to list: {streaming_platforms}\n")
 
 streaming_platforms[0][-1] = "YT"
-# this is also allowed
+# This is also allowed
 
 print(f"After reassigning list item: {streaming_platforms}\n")
 
 streaming_platforms[1] = "Twitch"
-# reassignment of list to string will throw an error
+# Reassignment of list to string will throw an error
 ```
 
 ## Video Walkthrough
