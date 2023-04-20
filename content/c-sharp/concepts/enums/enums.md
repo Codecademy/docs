@@ -44,6 +44,8 @@ enum BreadCount {
 }
 ```
 
+## Example
+
 The following example uses an enum to identify whether a given place is a city, country, or planet.
 
 ```cs
