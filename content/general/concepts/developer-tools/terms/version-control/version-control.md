@@ -16,7 +16,7 @@ CatalogContent:
 A Version Control System (VCS) is a tool that manages the changes to code or documents over time. There are two main types of VCS:
 
 1. **Centralized Version Control Systems (CVCS)** - in which a single repository serves as the central point of collaboration for all users. Examples of CVCS include SVN (Subversion) and CVS (Concurrent Versions System).
-2. **Distributed Version Control Systems (DVCS)** - in which each user has a complete copy of the repository on their local machine, allowing them to work offline and merge changes with others later. Examples of DVCS include Git, Mercurial, and Bazaar.
+2. **Distributed Version Control Systems (DVCS)** - in which each user has a complete copy of the repository on their local machine, allowing them to work offline and merge changes with others later. Examples of DVCS include [Git](https://www.codecademy.com/resources/docs/git), Mercurial, and Bazaar.
 
 ## Purpose of Version Control Systems
 
@@ -61,7 +61,7 @@ Here are some best practices to follow when using a VCS:
 - **Write Good Commit Messages:** Write descriptive commit messages that explain what was changed and why.
 - **Use Branches:** Use branches to develop new features or versions separately from the main codebase, and merge them back when ready.
 - **Review Code:** Review code changes before merging them into the main codebase to catch errors and enforce coding standards.
-- **Backup Your Repository:** Back up your repository regularly to prevent data loss or corruption.
+- **Redundancy:** The use of a VCS provides redundancy and minimizes the risk of data loss or corruption.
 
 ## Common Mistakes to Avoid
 
