@@ -11,7 +11,8 @@ Tags:
   - 'SQLite'
   - 'Functions'
 CatalogContent:
-  - paths/analyze-data-with-sql
+  - 'learn-sql'
+  - 'paths/analyze-data-with-sql'
 ---
 
 The **`NTILE()`** SQL function groups data into roughly equal groups like the SQL "GROUP BY" clause. However `NTILE()` is applicable to window functions. A number can be specified with the function which will display the data organized roughly across a specified number of groups.
