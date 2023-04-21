@@ -1,6 +1,6 @@
 ---
 Title: 'Enums'
-Description: 'An Enum (or "Enumeration type") is a set of named labels that each represent a number.'
+Description: 'An enum, or enumeration type, is a set of named labels that each represent a number.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-An **Enum** (or "Enumeration type") is a set of named labels that each represent a number.
+An **enum**, or enumeration type, is a set of named labels that each represent a number.
 
 ## Syntax
 
@@ -30,7 +30,7 @@ enum NinjaTurtle {
   Raphael // 3
 }
 
-Console.WriteLine((int)NinjaTurtle.Raphael == 3); // prints "True"
+Console.WriteLine((int)NinjaTurtle.Raphael == 3); // Prints "True"
 ```
 
 However, specific number values can also be assigned.
@@ -75,7 +75,6 @@ public class Example {
     places.Add(new Place("Jupiter", PlaceType.Planet));
   }
 }
-
 ```
 
 ## Codebyte Example
