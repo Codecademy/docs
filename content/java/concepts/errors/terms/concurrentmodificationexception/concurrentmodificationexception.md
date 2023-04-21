@@ -23,7 +23,7 @@ The following example throws the `ConcurrentModificationException` because the `
 ```java
 import java.util.ArrayList;
 
-public class modificationError {
+public class ModificationError {
  public static void main(String args[])
  {
   // Creating an object of ArrayList Object
