@@ -190,15 +190,13 @@ Program exited.
 
 ## Codebyte Example
 
-A simple example on how to use interfaces, Square and circle both implement geometry interface as both square and circle implements area and perimeter methods
+A simple example on how to use interfaces, `square` and `circle` both implement the `geometry` interface as both implement the required methods.
 
-<h3>Explanation<h3>
+In the code below, the `geometry` interface has two methods `area()` and `perimeter()`, both of which return a float64. `square` and `circle` implement these methods, allowing them to be used interchangeably as geometric objects.
 
-In the Below Code The geometry interface has two methods area() and perimeter(), both of which return a float64. The square and circle structs implement these methods, allowing them to be used interchangeably as geometry objects.
+The code then defines a `printGeometry()` function, which takes a geometry object as its parameter and prints its details, including its area and perimeter.
 
-The code then defines a printGeometry() function, which takes a geometry object as its parameter and prints its details, including its area and perimeter.
-
-In the main() function, a square and a circle are created, and the printGeometry() function is called for each of them, demonstrating how the two different types can be used interchangeably as geometry objects.
+In the `main()` function, a square and a circle are created, and the `printGeometry()` function is called for each of them, demonstrating how the two different types can be used interchangeably as geometric objects.
 
 ```codebyte/golang
 
