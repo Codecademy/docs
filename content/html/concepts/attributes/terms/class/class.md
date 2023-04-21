@@ -8,7 +8,7 @@ Tags:
   - 'Attributes'
   - 'Classes'
   - 'Style'
-Catalog content:
+CatalogContent:
   - 'learn-html'
   - 'paths/front-end-engineer-career-path'
 ---
