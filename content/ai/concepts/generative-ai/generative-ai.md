@@ -81,7 +81,7 @@ People can create or edit new images from existing text and images. There is a r
 
 **GANs** or were the standard way to create images until recently. Random noise is used to create an image. The image is then fed into another network which is trained to determine the quality. Then both becoem better.
 
-Inspired by the world of physics. Think of opening a bottle of perfume on one side of a large room. Eventually the molecules we smell diffuse into the air in the room and the consolidated perfume diffuses into the air by bouncing around with molecules of air. The air molecules move around randomly and are noisy, but the track of the molecules can be reversed back to the bottle.
+Diffusion models are instead inspired by the world of physics. Think of opening a bottle of perfume on one side of a large room. Eventually the molecules we smell diffuse into the air in the room. The noisy track of the molecules can be reversed back to the bottle.
 
 The text is interpreted and used by an image creator which is a diffusion model.
 
@@ -94,7 +94,7 @@ The text is interpreted and used by an image creator which is a diffusion model.
 
 **GenAI** allows for the creation of long playing high-fidelity music from text descriptions and additional sound imput conditions.
 
-We can hum a melody and turn it into song being played by guitar. We can change the style of any melody or song to for example Jazz, Rock, or comptuer music.
+The recorded hum a melody and turn it into song being played by guitar. We can change the style of any melody or song to for example Jazz, Rock, or comptuer music.
 
 Inputs can also be stories, or images and music even created from different media.
 
@@ -129,6 +129,7 @@ While **GenAI** is generally discussed in the context of Text, Images, Music, an
 - 3D Models - text to space creation
 - Video - movies, animations, transition between real and generated
 - Education - personalizing, customizing lessons, tutoring
+- Many others!
 
 ## Impact and Possibilities
 
