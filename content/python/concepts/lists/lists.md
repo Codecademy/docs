@@ -82,6 +82,6 @@ While using a list as a queue is possible, it is not efficient because applying 
 
 ## Video Walkthrough
 
-Watch this video for a step-by-step demonstration on how to create and edit Python lists. 
+Watch this video for a step-by-step demonstration on how to create and edit Python lists.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mZdNLYYJNis" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
