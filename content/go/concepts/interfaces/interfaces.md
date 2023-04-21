@@ -199,7 +199,6 @@ The code then defines a `printGeometry()` function, which takes a geometry objec
 In the `main()` function, a square and a circle are created, and the `printGeometry()` function is called for each of them, demonstrating how the two different types can be used interchangeably as geometric objects.
 
 ```codebyte/golang
-
 package main
 
 import (
@@ -246,5 +245,4 @@ func main() {
     printGeometry(s)
     printGeometry(c)
 }
-
 ```
