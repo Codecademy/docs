@@ -1,22 +1,19 @@
 ---
 Title: 'class'
-
 Description: 'class is a HTML attribute used to select one or more elements for the application of styling or logic.'
-
 Subjects:
   - 'Web Development'
   - 'Web Design'
-
 Tags:
   - 'Attributes'
   - 'Classes'
   - 'Style'
-  
 Catalog content:
-  - 'learn html'
+  - 'learn-html'
   - 'paths/front-end-engineer-career-path'
+---
 
-+**`class`** is a HTML attribute used to select one or more elements for CSS styling or JavaScript purposes.
+A **`class`** is a HTML attribute used to select one or more elements for CSS styling or JavaScript purposes.
 
 ## For Styling
 
@@ -31,7 +28,7 @@ Inside the stylesheet, a class name is selected with the following syntax:
 
 A class selector is a name preceded by a period (`.`).
 
-Below is some markup with the classes `header-1` and `P1` and  `P2`. Elements with the `header-1`, `P1` and `P2` class names receive different styling.
+Below is some markup with the classes `header-1` and `P1` and `P2`. Elements with the `header-1`, `P1` and `P2` class names receive different styling.
 
 ```html
 <!DOCTYPE html>
@@ -42,7 +39,6 @@ Below is some markup with the classes `header-1` and `P1` and  `P2`. Elements wi
         background-color: lightblue;
         font-size: 40px;
       }
-
       .P1 {
         background-color: white;
         font-size: 25px;
@@ -55,19 +51,25 @@ Below is some markup with the classes `header-1` and `P1` and  `P2`. Elements wi
     <title>Classes</title>
   </head>
   <body>
-  <!--HEADER-->
-    
-    <p><img src="images/android-chrome-512x512.png" width="360px" height="240px"></p>
-    
-    <div class="title">
-    <h1 class="header-1">PIZZA MAN HE DELIVERS</h1>    
-  </div>
-  <!--HISTORY-->
+    <!--HEADER-->
+    <p>
+      <img
+        src="images/android-chrome-512x512.png"
+        width="360px"
+        height="240px"
+      />
+    </p>
 
-    <p class="P1">Pizza Man he delivers is a family-owned business since 1964. Our goal is to make the best pizza and have it delivered to your place.</p>
-    <p class="P2">We have 3 locations so far and growing. </p>
-    </body>
- 
+    <div class="title">
+      <h1 class="header-1">PIZZA MAN</h1>
+    </div>
+    <!--HISTORY-->
+    <p class="P1">
+      Pizza Man is a family-owned business since 1964. Our goal is to make the
+      best pizza and have it delivered to your place.
+    </p>
+    <p class="P2">We have 3 locations so far and growing.</p>
+  </body>
 </html>
 ```
 
@@ -78,11 +80,8 @@ The `class` attribute is used to perform JavaScript operations on HTML elements.
 Assuming the markup from the last example is linked to a JavaScript file:
 
 ```js
-const innerDiv = document
-  .getElementsByClassName('header-1')
-  console.log(innerDiv)
-
-
+const innerDiv = document.getElementsByClassName('header-1');
+console.log(innerDiv);
 ```
 
 The code above gets an element with a class property and prints it to the console.
