@@ -1,6 +1,6 @@
 ---
-Title: 'class'
-Description: 'class is a HTML attribute used to select one or more elements for the application of styling or logic.'
+Title: 'Class'
+Description: 'An HTML attribute used to select one or more elements for the application of styling or logic.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -13,7 +13,7 @@ Catalog content:
   - 'paths/front-end-engineer-career-path'
 ---
 
-A **`class`** is a HTML attribute used to select one or more elements for CSS styling or JavaScript purposes.
+A **`class`** is an HTML attribute used to select one or more elements for CSS styling or JavaScript purposes.
 
 ## For Styling
 
