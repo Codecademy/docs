@@ -38,7 +38,7 @@ The changes is being driven by a new paradigm. Before AI applications were task 
 
 The models have a generative ability and were the beginning of Generative AI. **ChatGPT** demonstrated abilities to generate and completed text.
 
-Can leverage the vast amount of pre-trained data with a small amount of additional **tuning** and **prompting**. Tuning adds labels into the data. Prompting bridges the gap between training and what we want. While training the LLM is expensive, the usage or **inference** leverages all the training but can be cost effective.
+Using this approach we can leverage the vast amount of pre-trained data with a small amount of additional **tuning** and **prompting**. Tuning adds labels into the data. Prompting bridges the gap between training and what we want. While training the LLM is expensive, the usage or **inference** leverages all the training but can be cost effective.
 
 The breakthrough is leveraging these powerful **LLMs** to be used for generative AI not for just text generation but for many other generative purposes.
 
@@ -166,6 +166,8 @@ Generative AI may open up entirely new ways we can create and consume content. F
 Generation of speech based on text with high fidelity style will allow creates to make content where they were limited by voice overlay before.
 
 Code generation, while automating repetitive work may result in higher quality code and the focus on new creative user centric solutions.
+
+Movies and video creation once expensive and available through large studios and digital production groups can instead be created by individuals and bound only by their imagination.
 
 Content may be connected back through the block chain to compensate original creators.
 
