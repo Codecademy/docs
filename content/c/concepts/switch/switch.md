@@ -74,7 +74,7 @@ int main(){
   printf("Your grade is %c\n", grade);
 
   return 0;
-}v
+}
 ```
 
 This example will output:
