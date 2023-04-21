@@ -46,16 +46,6 @@ func (a *john) arranged() {
   fmt.Println("arranged marriage with john")
 }
 
-type max struct{}
-
-func (a *max) love() {
-  fmt.Println("love with max")
-}
-
-func (a *max) arranged() {
-  fmt.Println("arranged marriage with max")
-}
-
 func newLife(guy marriage) {
   guy.love()
   guy.arranged()
@@ -63,7 +53,6 @@ func newLife(guy marriage) {
 
 func main() {
   newLife(&john{})
-  newLife(&max{})
 }
 ```
 
@@ -72,21 +61,16 @@ Output:
 ```shell
 love with john
 arranged marriage with john
-love with max
-arranged marriage with max
 ```
 
 In the above example:
 
 - The `marriage` interface has two methods: `love` and `arranged`.
-- `john` and `max` implement the `marriage` interface. Note that neither `john` nor `max` have any explicit declaration to implement the interface.
+- `john` implements the `marriage` interface but does not have any explicit declaration to implement the interface.
 - As long as the `struct` has all the methods in the interface, it is said to implement the interface.
 - The function `newLife()` takes a `marriage` interface as an argument.
-- It's possible to call `newLife()` with the `john` and `max` structures.
 
-The advantage of using an interface is that any `struct` can be passed to the `newLife()` function as long as it implements the `marriage` interface. It is possible to change the implementation of the `love` and `arranged` methods in the `john` and `max` structures without affecting the `newLife()` function.
-
-It is also possible to make a new type and `newLife()` can use it without any change as long as the new type implements the `marriage` interface.
+One benefit of using an interface is that any `struct` that implements the marriage interface can be passed as an argument to the `newLife()` function. This means that `john` can have its `love` and `arranged` methods modified without affecting `newLife()`. As long as the `marriage` interface is still implemented, any modified structure can still be used with the `newLife()` function.
 
 Go's compiler will ensure that all the methods in the interface are implemented in the `struct`.
 
