@@ -12,15 +12,17 @@ CatalogContent:
   - 'paths/back-end-engineer-career-path'
 ---
 
-An interface is composed of set of method signatures. These method signatures define the input and return values of which a data type or struct can conform to. In order to implement an interface, the type or struct must satisfy all the defined method signatures.
+An interface is composed of set of method signatures. These method signatures define the input and return values of which a data type or struct can conform to. In order to implement an interface, the type or `struct` must satisfy all the defined method signatures.
 
 ## Creating an Interface
 
-```go
+```pseudo
 type InterfaceName interface {
-    method() return_type
+  // Method signatures
 }
 ```
+
+>**Note:** Interface names are written in either camelCase or PascalCase. Conventionally, interfaces with one method should end with -er.
 
 ### Example
 
