@@ -18,12 +18,12 @@ Adds list elements to end of the list.
 ## Syntax
 
 ```py
-list.append(iterable)
+list.extend(iterable)
 ```
 
-This will place passed in iterable (list, tuple, or string) as new elements at the very end of the list.
+This will place elements passed in an iterable (list, tuple, or string) as new elements at the very end of the list.
 
-`.append()` does not return any value.
+`.extend()` does not return any value.
 
 ## Examples
 
