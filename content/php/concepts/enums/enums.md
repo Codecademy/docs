@@ -1,6 +1,6 @@
 ---
 Title: 'Enums'
-Description: 'An enumeration (enum) is an special or enumerated custom type that allows developers to have a fixed number of possible values.'
+Description: 'An enumeration (enum) is a special or enumerated custom type that allows developers to have a fixed number of possible values.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
@@ -15,7 +15,7 @@ CatalogContent:
 
 An enumeration (`enum`) is a special or enumerated custom type that allows developers to have a fixed number of possible values.
 
-`Enum`s are available in many languages and are implemented in different features, but in PHP, enumerations are a special kind of object.
+Enumerations are available in many languages and are implemented in different features, but in PHP, they are a special kind of object.
 
 ## Creating an `enum`
 
