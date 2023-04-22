@@ -75,7 +75,7 @@ Below is some markup with the classes `header-1` and `P1` and `P2`. Elements wit
 
 ## For JavaScript
 
-The `class` attribute is used to perform JavaScript operations on HTML elements. Through the Document Object Model ("DOM") there are various JavaScript methods built for selecting elements via their class.
+The `class` attribute is used to perform [JavaScript](https://www.codecademy.com/resources/docs/javascript) operations on HTML elements. Through the Document Object Model ("DOM") there are various JavaScript methods built for selecting elements via their class.
 
 Assuming the markup from the last example is linked to a JavaScript file:
 
