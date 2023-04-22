@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `.slice()` array method returns a shallow copy of all or part of an array without modifying the original.
+The `.slice()` array method returns a shallow copy of all or part of an array without modifying the original. A shallow copy duplicates the contents of an object into a new instance by reference; which is why changes to the copy are not reflected in the original.
 
 ## Syntax
 

@@ -13,6 +13,7 @@ Anchor
 Android
 Angular
 Animation
+Anonymous Functions
 APIs
 Arguments
 Arithmetic
@@ -50,6 +51,7 @@ Cryptocurrency
 Classes
 Cloud Computing
 Code Editors
+Conditionals
 Collections
 Colors
 Combinators
@@ -58,6 +60,7 @@ Comments
 Comparison
 Compilation
 Components
+Composition
 Computer Vision
 CMS
 Concatenation
@@ -69,6 +72,7 @@ CRUD
 CSV
 Cybersecurity
 D3
+Data
 Data Structures
 Data Types
 Database
@@ -122,6 +126,8 @@ Formatting
 Frameworks
 Functions
 Functional Programming
+Functors
+Geometry
 Ggplot2
 Git
 GitHub
@@ -278,6 +284,7 @@ Title
 Transitions
 Transpilation
 Trees
+Trigonometry
 Try
 Tuples
 Types

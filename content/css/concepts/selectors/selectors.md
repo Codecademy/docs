@@ -101,3 +101,9 @@ p.center {
   color: red;
 }
 ```
+
+## Video Walkthrough
+
+Watch this video on how to compare the various selectors in CSS.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Xv6KmV2Zp4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -17,9 +17,7 @@ The **`Math.Exp()`** method returns the value of raising `e` to the power of a g
 
 `e` stands for Euler's number, an irrational number, with an approximate constant value of 2.71828. It provides a constant base to the natural logarithm or log and can be understood as a limit of a given progression.
 
-$$
-\sum\limits_{n=0}^{\infty} \frac{1}{n!} = 1 + \frac{1}{n+1} + \frac{1}{(n+1)(n+2)} + \frac{1}{(n+1)(n+2)(n+3)} + \cdots
-$$
+![e Formula](https://raw.githubusercontent.com/Codecademy/docs/main/media/e-formula.jpg)
 
 Consequently, the `Math.Exp()` method is the inverse of the `Math.Log()` method.
 
@@ -76,4 +74,21 @@ This example results in the following output:
 Infinity
 0
 NaN
+```
+
+## Codebyte Example
+
+The following example is runnable and uses the `Math.Exp()` method to return the value of raising `e` to the power of the given `double` type `number`:
+
+```codebyte/csharp
+using System;
+
+public class Example {
+  public static void Main() {
+    double number = 0;
+    double exponential = Math.Exp(number);
+
+    Console.WriteLine("The value of e raised to the power of " + number + " is " + exponential);
+  }
+}
 ```
