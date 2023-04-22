@@ -42,7 +42,7 @@ More can be learned about JSON by visiting [json.org](https://www.json.org/).
 
 Data is stored in an object, depicted by a pair of curly braces `{ }`, and name-value pairs are separated by a colon `:`. The pairs themselves are separated by a comma `,`. The following are [data types](https://www.codecademy.com/resources/docs/general/data-types) that can be used:
 
-- [Array](https://www.codecademy.com/resources/docs/general/data-types/array): An ordered, comma delimited, list of zero or more elements of one of JSON's data types, enclosed in square brackets.
+- [Array](https://www.codecademy.com/resources/docs/general/data-structures/array): An ordered, comma delimited, list of zero or more elements of one of JSON's data types, enclosed in square brackets.
 - [Boolean](https://www.codecademy.com/resources/docs/general/data-types/boolean): Either `true` or `false`.
 - [Number](https://www.codecademy.com/resources/docs/general/data-types/number): A signed decimal number. JSON makes no distinction between integer and floating point.
 - [Object](https://www.codecademy.com/resources/docs/general/data-structures/object): A collection of name-value pairs inside curly brackets.
