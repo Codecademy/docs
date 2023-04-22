@@ -88,6 +88,8 @@ Compare using Enumeration: False
 
 ## Codebyte Example
 
+In this example, the `months` array is populated with the months of the year, and the `.StartsWith()` method is used to determine the number of months that start in the letter 'J':
+
 ```codebyte/csharp
 using System;
 
