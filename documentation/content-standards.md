@@ -10,7 +10,7 @@ General (language-agnostic):
 
 - [Comment](https://www.codecademy.com/resources/docs/general/comment)
 - [IDE](https://www.codecademy.com/resources/docs/general/developer-tools/ide)
-- [Array](https://www.codecademy.com/resources/docs/general/data-types/array)
+- [Array](https://www.codecademy.com/resources/docs/general/data-structures/array)
 
 Python (language-specific):
 
