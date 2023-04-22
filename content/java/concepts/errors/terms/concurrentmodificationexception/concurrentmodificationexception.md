@@ -34,7 +34,7 @@ public class ModificationError {
   arr.add("Four");
 
   try {
-   // Enhanced for loop, It uses the Iterator class under the hood. 
+   // Enhanced for loop, It uses the Iterator class under the hood.
    for (String elem : arr) {
         if (elem.equals("One")) {
             arr.remove(elem); // This will throw the exception.
