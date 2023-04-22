@@ -45,9 +45,9 @@ String.StartsWith(string, comparisonType)
   - `Ordinal` sets ordinal (binary) sort rules to compare strings.
   - `OrdinalIgnoreCase` sets ordinal (binary) sort rules to compare strings but ignores case.
 
-  ## Example
+## Example
 
-  The following example illustrates a few of the ways the `String.StartsWith()` method may be used to evaluate the start of a `string`.
+The following example illustrates a few of the ways the `String.StartsWith()` method may be used to evaluate the start of a `string`.
 
 ```cs
 using System;
