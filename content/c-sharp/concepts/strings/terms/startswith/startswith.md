@@ -71,7 +71,7 @@ public class Example
         Console.WriteLine("Compare using Case/Culture: {0}", result.ToString());
 
         // String.StartsWith(string, comparisonType)
-        result = baseString.StartsWith(compareEnd, StringComparison.InvariantCulture);
+        result = baseString.StartsWith(compareStart, StringComparison.InvariantCulture);
         Console.WriteLine("Compare using Enumeration: {0}", result.ToString());
     }
 
@@ -118,7 +118,7 @@ public class CodeByteExample
             }
         }
 
-        Console.WriteLine("{0} months start in the letter 'J'", j_count);
+        Console.WriteLine("{0} months starts in the letter 'J'", j_count);
     }
 }
 ```
