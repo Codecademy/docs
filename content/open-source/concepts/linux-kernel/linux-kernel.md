@@ -25,7 +25,7 @@ Some primary functions of the Linux kernel are listed below.
 
 ### Hardware Interface
 
-The Linux kernel connects the Linux user space with the hardware. It interprets requests from applications and sends them to the appropriate hardware resources. These include internal hardware, such as the [CPU](https://www.codecademy.com/resources/docs/general/cpu) or [RAM](https://www.codecademy.com/resources/docs/general/ram), and peripheral hardware, such as storage disks or monitors.
+The Linux kernel connects the Linux user space with the hardware. It interprets requests from applications and sends them to the appropriate hardware resources. These include internal hardware, such as the [CPU](https://www.codecademy.com/resources/docs/general/computer-hardware/cpu) or [RAM](https://www.codecademy.com/resources/docs/general/computer-hardware/ram), and peripheral hardware, such as storage disks or monitors.
 
 When an application needs to perform a task, it sends a request to the Linux OS. Then, the Linux kernel determines where to send the request. For example, if a user began listening to music on their computer, the Linux kernel would have to send a request to multiple hardware resources, including speakers or headphones.
 

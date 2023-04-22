@@ -1,1 +1,1 @@
-content/swift/concepts/dictionaries/dictionaries.md
+content/go/concepts/memory/memory.md
