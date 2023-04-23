@@ -24,7 +24,7 @@ String.StartsWith(char);
 // Determines whether the start of String instance matches the specified string
 String.StartsWith(string);
 
-// Same as above but uses additional case-sensitive and culture-sensitive
+// Same as above but uses additional case-sensitive and culture-sensitive criteria.
 String.StartsWith(string, ignoreCase, culture)
 
 // Same as above but uses an enumeration to determine the case- and culture-sensitive criteria
