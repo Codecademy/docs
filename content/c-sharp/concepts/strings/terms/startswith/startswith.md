@@ -18,7 +18,7 @@ The **`.StartsWith()`** method determines whether the start of the `string` inst
 ## Syntax
 
 ```pseudo
-// Determines whether the String instance's first character matches the specified character
+// Determines whether the String instance's first character matches the specified character.
 String.StartsWith(char);
 
 // Determines whether the start of String instance matches the specified string
