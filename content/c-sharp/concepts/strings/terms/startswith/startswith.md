@@ -27,7 +27,7 @@ String.StartsWith(string);
 // Same as above but uses additional case-sensitive and culture-sensitive criteria.
 String.StartsWith(string, ignoreCase, culture)
 
-// Same as above but uses an enumeration to determine the case- and culture-sensitive criteria
+// Same as above but uses an enumeration to determine the case- and culture-sensitive criteria.
 String.StartsWith(string, comparisonType)
 ```
 
