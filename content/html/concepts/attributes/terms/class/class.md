@@ -1,5 +1,5 @@
 ---
-Title: 'Class'
+Title: 'class'
 Description: 'An HTML attribute used to select one or more elements for the application of styling or logic.'
 Subjects:
   - 'Web Development'
