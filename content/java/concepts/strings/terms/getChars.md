@@ -30,15 +30,14 @@ In the following example, `getChars()` converts a `string` into a new array.
 
 string originalString = "Welcome to Texas"
 
-`console.WriteLine.=(originalString.getChars(11, 15, newArray 0))`; //prints Texas
+`console.WriteLine.=(originalString.getChars(11, 15, newArray 0)); //prints Texas`
 
 ## Codebyte Example
 
 In the following example, `getChar()` converts an array into a new shorter array. It then prints the new array in the consule. 
 
-``codebyte/csharp ``
 
-``class main {
+class main {
   static void main(Strings args [])
   {
     string str = "Welcome to Texas";
@@ -54,4 +53,4 @@ In the following example, `getChar()` converts an array into a new shorter array
   }
 
 }
-``
+
