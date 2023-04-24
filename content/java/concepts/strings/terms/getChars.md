@@ -1,6 +1,6 @@
 ---
 Title: '.getChars()'
-Description: ' A java strings method that copies characters from the given string into the destination character array.'
+Description: ' Copies characters from the given string into the destination character array.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
@@ -12,33 +12,33 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **.getChars()** string method copies a set of characters from an array. The method then copies the characters into character array.
+The **.getChars()** string method copies a set of characters from a string into a destinatin character array. 
 
-## **Synthax**
+## Synthax
 
-```pseudo
-str.getChars(12, 25, destArray, 0);
-```
+``pseudo
+str.getChars(start, end, destArray, 0);
+``
 
-'str' is the string that is being converted to a new array 
+`str` is the string that is being converted to a new array 
 
-## **Example
+## Example
 
-In the following example, 'getChars()' converts a 'string' into a new array. 
+In the following example, `getChars()` converts a `string` into a new array. 
 
-```cs
+``cs
 using System;
-```
+``
 
 string originalString = "Welcome to Texas"
 
 console.WriteLine.=(originalString.getChars(11, 15, newArray 0)); //prints Texas
 
-## **Codebyte Example
+## Codebyte Example
 
 In the following example, 'getChar()' converts an array into a new shorter array. It then prints the new array in the consule. 
 
-```codebyte/csharp
+``codebyte/csharp ``
 
 class main {
   static void main(Strings args [])
