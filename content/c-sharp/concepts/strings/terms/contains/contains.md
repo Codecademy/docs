@@ -67,8 +67,8 @@ public class Example
 Here is the following output:
 
 ```shell
-Whether the specified string contains the word "motive": True
-Whether the specified string contains the following character "l": False
+True
+False
 ```
 
 ## Codebyte Example
