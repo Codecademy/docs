@@ -16,9 +16,9 @@ The **.getChars()** string method copies a set of characters from a string into 
 
 ## Synthax
 
-``pseudo
+`pseudo
 str.getChars(start, end, destArray, 0);
-``
+`
 
 `str` is the string that is being converted to a new array 
 
@@ -37,7 +37,7 @@ string originalString = "Welcome to Texas"
 In the following example, `getChar()` converts an array into a new shorter array. It then prints the new array in the consule. 
 
 
-class main {
+`class main {
   static void main(Strings args [])
   {
     string str = "Welcome to Texas";
@@ -51,6 +51,5 @@ class main {
     }
     
   }
-
-}
+`
 
