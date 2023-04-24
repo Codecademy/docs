@@ -38,7 +38,7 @@ In the following example, `getChar()` converts an array into a new shorter array
 
 ``codebyte/csharp ``
 
-`class main {
+``class main {
   static void main(Strings args [])
   {
     string str = "Welcome to Texas";
@@ -53,5 +53,5 @@ In the following example, `getChar()` converts an array into a new shorter array
     }
   }
 
-}`
-```
+}``
+
