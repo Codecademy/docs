@@ -50,8 +50,8 @@ In the following example, `getChar()` converts an array into a new shorter array
     { catch (Exception ex) {
       System.out.pringln(ex)
     }
-    }
+    
   }
 
-}``
-
+}
+``
