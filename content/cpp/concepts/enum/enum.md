@@ -88,7 +88,7 @@ Scoped enums differ from unscoped enums by:
 ```cpp
 enum class WeekDay {sun, mon, tue, wed, thu, fri, sat};
 
-WeekDay day = WeekDay::sun; // Notice how we need to preface "sun" with "Weekday::"
+WeekDay day = WeekDay::sun; // Notice that "sun" is prefaced with "Weekday::"
 int friday = WeekDay::fri; // error, must cast to an int
 ```
 
@@ -98,7 +98,7 @@ Here's an example where scoped enumerations avoid name collisions:
 enum class LogResult {Success, InvalidFileName, WriteError};
 enum class SocketResult {Success, InvalidAddrError, TimeoutError};
 
-LogResult logger_result = log(...);
+LogResult logger_result = LogResult::Success;
 
 if (logger_result == LogResult::Success) {...} // Because Success is scoped to LogResult, it doesn't collide with SocketResult::Success
 ```
