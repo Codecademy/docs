@@ -22,7 +22,7 @@ type InterfaceName interface {
 }
 ```
 
->**Note:** Interface names are written in either camelCase or PascalCase. Conventionally, interfaces with one method should end with -er.
+> **Note:** Interface names are written in either camelCase or PascalCase. Conventionally, interfaces with one method should end with -er.
 
 ### Example
 
