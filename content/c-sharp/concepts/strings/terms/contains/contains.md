@@ -35,7 +35,15 @@ String.Contains(string, comparisonType)
 
 - `char` is a single character.
 - `string` is a sequence of characters.
-- `comparisonType` is an enumeration value that sets the comparison rules.
+- `comparisonType` is an enumeration value that allows to add specific rules to compare strings such as culture, case, and sort. Passing as an additional argument:
+ - `CurrentCulture` determines whether strings match culture-sensitive criteria.
+ - `CurrentCultureIgnoreCase` same as above and ignores the case.
+ - `InvariantCulture` determines whether strings match culture-sensitive criteria and the invariant culture.
+ - `InvariantCultureIgnoreCase` same as above and ignores the case.
+ - `Ordinal` determines whether strings match using binary sort rules.
+ - `OrdinalIgnoreCase` same as above and ignores the case.
+
+
 
 ## Example
 The following example shows how we can use `.Contains()` method
