@@ -1,1 +1,1 @@
-content/css/concepts/inheritance/inheritance.md
+content/general/concepts/server/server.md
