@@ -32,15 +32,15 @@ var body: some View {
     VStack {
         Text("I have no vertical shift.")
             .border(Color.red)
-            
+
         Text("I have no vertical shift.")
             .baselineOffset(0)
             .border(Color.yellow)
-            
+
         Text("I have 15 points of vertical shift upwards.")
             .baselineOffset(15)
             .border(Color.blue)
-            
+
         Text("I have 15 points of vertical shift downwards.")
             .baselineOffset(-15)
             .border(Color.green)
