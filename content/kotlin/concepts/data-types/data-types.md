@@ -365,3 +365,9 @@ fun doSomething(): Unit {
 ```
 
 In the above example, the `doSomething()` function performs some action and does not return a value. Therefore, its return type is `Unit`.
+
+## Video Walkthrough
+
+Watch this video to learn about various Kotlin data types, including variables, constants, strings, and arrays.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dLvzXnc-6xc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
