@@ -1,1 +1,1 @@
-content/sql/concepts/dates/dates.md
+content/general/concepts/server/server.md

@@ -23,7 +23,7 @@ Content items that are often included on a homepage:
 - Login/sign up
 - Contact
 - [Hero image](https://www.codecademy.com/resources/docs/uiux/hero-image)
-- [Images](https://www.codecademy.com/resources/docs/uiux/images)
+- [Images](https://www.codecademy.com/resources/docs/uiux/image)
 
 This is how [Codecademy’s homepage](https://www.codecademy.com) is structured.
 
