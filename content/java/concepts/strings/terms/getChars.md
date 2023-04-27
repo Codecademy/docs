@@ -2,14 +2,14 @@
 Title: '.getChars()'
 Description: ' Copies characters from the given string into the destination character array.'
 Subjects:
-  - 'Computer Science'
+  - 'Java'
   - 'Code Foundations'
 Tags:
   - 'Strings'
   - 'Methods'
 CatalogContent:
   - 'learn-c-sharp'
-  - 'paths/computer-science'
+  - 'paths/Java'
 ---
 
 The **.getChars()** string method copies a set of characters from a string into a destination character array. 
