@@ -12,7 +12,7 @@ Tags:
   - 'Script'
   - 'Variables'
 CatalogContent:
-  - 'learn-typescript'
+  - 'learn-c-sharp'
   - 'paths/full-stack-engineer-career-path'
 ---
 
@@ -20,11 +20,11 @@ In C#, **conditionals** compare inputs and return a boolean value indicating whe
 
 Conditional statements include the `if`, `else` and `else if` statements. A shorthand for the `if`/`else` statement is the conditional or ternary operator.
 
-## `if` Statement
+## If Statement
 
 An `if` statement evaluates a condition that, when true, will run a code block that follows.
 
-In the example below, three variables (`var`) and assigned values. Then, an `if` statement checks for a condition; if it evaluates to true, then the variable of boolean type will change:
+In the example below, three variables are declared and assigned values. Then, an `if` statement checks for a condition; if it evaluates to true, then the variable of boolean type will change:
 
 ```cs
 var input1 = 10;
@@ -46,7 +46,7 @@ if (output == true) {
 
 > **Note** `==` means equal and `!=` means not equal.
 
-### `else` Statements
+### Else Statements
 
 An `else` statement is combined with the `if` statement. In the case that the condition following the `if` statement returns `false`, the code block following the `else` statement will run.
 
@@ -79,11 +79,11 @@ Since the output is `false`, this will output:
 I returned false
 ```
 
-### `else if` Statements
+### Else If Statements
 
 An `else if` statement comes after an `if` statement and is used if an extra comparison is needed before an `else` statement.
 
-```cs
+```pseudo
 // Four variables are declared here.
 var input1 = 10;
 var input2 = 10;
@@ -118,7 +118,7 @@ I returned true
 
 ## Conditional Operator
 
-The conditional operator `?:` also known as the ternary operator, checks a boolean output and returns one of two results depending wether the condition is true or false. The ternary operator can be read in pseudocode as follows:
+The conditional operator `?:` also known as the ternary operator, checks a boolean output and returns one of two results depending on whether the condition is true or false. The ternary operator can be read in pseudocode as follows:
 
 ```cs
 Is this condition true ? Run this if yes : Run this if no;
