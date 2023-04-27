@@ -12,9 +12,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **.getChars()** string method copies a set of characters from a string into a destinatin character array. 
+The **.getChars()** string method copies a set of characters from a string into a destination character array. 
 
-## Synthax
+## Syntax
 
 `pseudo
 str.getChars(start, end, destArray, 0);
