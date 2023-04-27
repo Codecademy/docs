@@ -2,15 +2,15 @@
 Title: '.StartsWith()'
 Description: 'Determines if the start of the string instance matches the specified string and returns a boolean.'
 Subjects:
- - 'Code Foundations'
- - 'Computer Science'
+  - 'Code Foundations'
+  - 'Computer Science'
 Tags:
- - 'Strings'
- - 'Methods'
- - 'Characters'
+  - 'Strings'
+  - 'Methods'
+  - 'Characters'
 CatalogContent:
- - 'learn-c-sharp'
- - 'paths/computer-science'
+  - 'learn-c-sharp'
+  - 'paths/computer-science'
 ---
 
 The **`.StartsWith()`** method determines whether the start of the `string` instance matches the specified character or string. Additional parameters may be supplied to define the criteria for a match.
