@@ -13,32 +13,35 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The apply() method allows you to apply a function along an axis of the DataFrame. The default is axis 0, which is the index (row) axis. Objects passed to the function are Series objects whose index is either the DataFrame’s index (axis=0) or the DataFrame’s columns (axis=1). By default (`result_type`=None), the final return type is inferred from the return type of the applied function. Otherwise, it depends on the `result_type` argument.
+ "apply()" is a method of Pandas DataFrame. It allows you apply function along one axis of DataFrame data. 
 
 ## Syntax
 
 ```pseudo
 x = dataframevalue.apply(func, axis=0, raw=False, result_type=None, args=(), **kwargs)
 ```
-- `dataframevalue` is the DataFrame with the source data.
-- x means `return value`, a DataFrame or a Series object, with the changes.
-- This function does `NOT` make changes to the original DataFrame object. The result is saved to a variable, like `x` here.
+- `dataframevalue` is DataFrame with the source data.
+- This function `func` does `NOT` make changes to the original DataFrame object. The result is saved to a variable, in this case, it's `x`.
 
+`dataframevalue` will be divided into "Series" objects and passed each "Series" to the funciton `x`. When axis = 0 (default vaule), `dataframevalue` was cut into Series objects vertically. Each Series object has same index with the DataFrame’s index. When axis = 1, `dataframevalue` was cut horizontally. Each Series object has same column name with the DataFrame’s column name.
 
-`DataFrame.apply()` has the following parameters:
+When `result_type` = 0 (default vaule), the final return type depends on the return type of function `func`. Otherwise, it's decided by the `result_type` argument. 
 
-| Parameter Name | Data Type                | Usage                                                                                                                             |
-| :------------: | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
-|   `func`   |  function name     | Function to apply to each column or row.|
-|   `axis`   | 0/1 or 'index'/'columns', default 0 | Axis along which the function is applied: `0 or 'index'`: apply function to each column; `1 or 'columns'`: apply function to each row.|
-|   `raw`    | bool, default False | Determines if row or column is passed as a Series or ndarray object: `False`, passes each row or column as a Series to the function; `True`, it passes ndarray objects instead. This will achieve much better performance when applying a Numpy reduction function|
-| `result_type` | {'expand', 'reduce', 'broadcast', None}, default None | These only act when axis=1 (columns): `'expand'`, list-like results will be turned into columns; `'reduce'`, returns a Series if possible rather than expanding list-like results. This is the opposite of 'expand'; `'broadcast'`, results will be broadcast to the original shape of the DataFrame, the original index and columns will be retained; `'None'`, The default behaviour depends on the return value of the applied function.|
-|    `args`  | tuple   | Positional arguments to pass to func in addition.    |
-|  `**kwargs`  |     | Additional keyword arguments to pass as keywords arguments to func. |
+More details about `DataFrame.apply()`'s parameters:
+
+|  Parameter |  Define  |Usage  |
+| :------------: | ------------- | -------------------------- |
+|   `func`   |  name of the function    | Function applys to each column or row of the DataFrame data. It can be a customized function. Just call the funtion by name without brackets "()"|
+|   `axis`   | 0/1 or index/columns, Default 0| Axis , the function is applied along:  `0('index'）`: apply function to every column; `1('columns')`: apply function to every row. |
+|   `raw`    | bool. Default False | Determines type of the object passed in function `'func'`: Series or ndarray. `False`, it passes each row or column as a Series object; `True`, it passes ndarray objects instead. This will achieve much better performance when applying a Numpy reduction function|
+| `result_type` | {'broadcast','expand', 'reduce', , None}. Default None | These options only work when axis=1 :`'expand'`, list-like results will be converted into columns; `'reduce'`,the opposite of `'expand'`, returns a Series object if possible rather than a list-like results ; `'broadcast'`, results will have the original shape of the DataFrame data, also with same index and columns; `'None'`, The default behaviour.The return type depends on the return type of function.|
+|    `args`  | tuple   | Positional arguments to func extraly |
+|  `**kwargs`  |     |  keyword arguments to func in addtion. |
 
 ## Example
 
-In the following examples, the `.apply()` method is used with different parameters:
+In the following examples, the `.apply()` method is used with different parameters:  
+'y' is same with 'x'. So you can see the default vault of axis is '0'. 'z' is different with "y". so you can see how 'axis = 1' takes effects.
 
 ```py
 import pandas as pd
