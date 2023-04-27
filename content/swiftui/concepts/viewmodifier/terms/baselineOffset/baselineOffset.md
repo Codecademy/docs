@@ -45,6 +45,8 @@ var body: some View {
             .baselineOffset(-15)
             .border(Color.green)
     }
+    .padding(50)
+    .background(Color(red: 0.1, green: 0.1, blue: 0.1))
 }
 ```
 
