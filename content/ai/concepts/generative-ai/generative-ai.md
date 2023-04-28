@@ -18,7 +18,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-Generative AI or **GenAI**, based on **LLMs** or Large Language Models is a rapidly changing technology involving with the creation of highly realistic, complex, stylized, unique media or creations from human initiated natural language prompts.
+Generative AI or **GenAI**, based on Large Language Models **LLMs** is a rapidly changing technology involving with the creation of highly realistic, complex, stylized, unique media or creations from human initiated natural language prompts.
 
 ## Generative AI
 
@@ -147,7 +147,7 @@ Different companies are quickly setting up polices around Generative AI. Google 
 
 ### Speed of change
 
-What is different about Generative AI is the speed of change. This is creating fear of the unknown as it is difficult to predict what will happen next. Digital artists and some tech leaders such as Elon Musk and Steve Wozniak are calling for the halting of Generative AI until the impacts on society are more understood.
+What is different about Generative AI is the speed of change. This is creating fear of the unknown as it is difficult to predict what will happen next. Digital artists and some prominent tech leaders are calling for the halting of Generative AI until the impacts on society are more understood.
 
 ### How we work
 
