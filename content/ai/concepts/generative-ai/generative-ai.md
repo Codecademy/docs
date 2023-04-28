@@ -65,61 +65,10 @@ An additional argument is that the human element is not present in **GenAI** cre
 
 Generative AI is a combination of several technologies and has many applications. Effective LLMs are used to understand a natural language prompt and a technologies such as **Diffusion models** in the case of image generation.
 
-### Text and Writing
-
-One of the first Generative AI mediums people think of is text and writing. Having ChatGPT generate poems or the summary of a meeting. Generative AI can create blogs, write ad copy, create new content based on text input, and is great at summarizing and changing the style and tone of text content.
-
-Some common tools include:
-
-- GPT
-- Jasper
-- AI-Writer
-- Lex
-
-### Images
-
-People can create or edit new images from existing text and images. There is a random seed so the images are unique new creations. Image creation is mainly based on a relatively new development called Diffusion. What is a diffusion model?
-
-#### Diffusion models
-
-**GANs** or were the standard way to create images until recently. Random noise is used to create an image. The image is then fed into another network which is trained to determine the quality. Then both become better.
-
-Diffusion models are instead inspired by the world of physics. Think of opening a bottle of perfume on one side of a large room. Eventually the molecules we smell diffuse into the air in the room. The noisy track of the molecules can be reversed back to the bottle.
-
-The text is interpreted and used by an image creator which is a diffusion model.
-
-- DALL-E
-- Midjourney
-- Imagery
-- Stable Diffusion
-
-### Music
-
-**GenAI** allows for the creation of long playing high-fidelity music from text descriptions and additional sound input conditions.
-
-The recorded hum a melody and turn it into song being played by guitar. We can change the style of any melody or song to for example Jazz, Rock, or computer music.
-
-Inputs can also be stories, or images and music even created from different media.
-
-Some common tools include Mubert Studio, Jukebox from OpenAI, and MusicLM from Google.
-
-### Code
-
-Coding was one of the first areas commercialized with **GenAI**. Github released Copilot X which act as an AI paired programmer. Some features include:
-
-- Code completion
-- Chat ability with Copilot and ask things it to explain what the code does or write unit tests for you.
-- Answer questions based on **docs**
-- Copilot is integrated into large **docs** systems such as **MDN**
-- Voice coding
-- Fill in text in pull requests for things like summaries and descriptions
-
-**GenAI** for coding offers many future possibilities as Generative AI has proven to be successful in mundane involved tasks such as connecting different computer systems together by understanding the protocols involved without having to map fields and values manually. Some other uses include:
-
-- Bug fixing
-- Code refactoring
-- Style fixing
-- Application UI development
+- Text and Writing
+- Images
+- Music
+- Code
 
 ### Other areas
 
