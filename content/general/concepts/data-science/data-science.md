@@ -1,6 +1,6 @@
 ---
 Title: 'Data Science'
-Description: 'Data Science is a multidisciplinary field of study that utilizes data collection, data analysis, data visualization to extract insight from data.'
+Description: 'Data Science is a multidisciplinary field of study that utilizes data collection, data analysis, and data visualization to extract insights from data.'
 Subjects:
   - 'Data Science'
   - 'Data Visualization'
@@ -18,17 +18,17 @@ CatalogContent:
   - 'learn-r'
 ---
 
-**Data Science** is a multidisciplinary field of study that utilizes data collection, data analysis, and data visualization to extract insight from data. It incorporates skills from a long list of computer science, statistical, mathematical, and visual design disciplines.
+**Data Science** is a multidisciplinary field of study that utilizes data collection, data analysis, and data visualization to extract insights from data. It incorporates skills from a broad range of disciplines that include computer science, statistics, mathematics, and visual design.
 
 ## Application
 
-Since the beginning of the 21st century, data science has been used in generally every field of industry to extract insight from data for finding new efficiencies in business decision-making and product development. These applications are largely related to fields of study rooted in data science, including:
+Since the beginning of the 21st century, data science has been used in generally every field of industry to extract insights from data that may be leveraged in business decision-making and product development. These applications are largely related to fields of study rooted in data science, including:
 
 - Data Visualization
 - Data Engineering
-- [Machine Learning](https://www.codecademy.com/resources/docs/general/machine-learning) & Deep Learning
-- [Artificial Intelligence](https://www.codecademy.com/resources/docs/general/artificial-intelligence)
-- [Cloud and Distributed Computing](https://www.codecademy.com/resources/docs/general/cloud-computing)
+- [Machine Learning](https://www.codecademy.com/resources/docs/ai/machine-learning) & Deep Learning
+- [Artificial Intelligence](https://www.codecademy.com/resources/docs/ai)
+- [Cloud and Distributed Computing](https://www.codecademy.com/resources/docs/cloud-computing)
 - Business Intelligence and Strategy
 
 ## Languages and Tools
@@ -43,7 +43,7 @@ Since the beginning of the 21st century, data science has been used in generally
 - Excel
 - Tableau
 - [SQL](https://www.codecademy.com/resources/docs/sql)
-- [Jupyter Notebook](https://www.codecademy.com/resources/docs/general/jupyter-notebook)
+- Jupyter Notebooks
 - MATLAB
 
 ## History
@@ -53,3 +53,7 @@ Many statisticians have argued that data science is not a new field, but rather 
 In 1662, John Graunt produced _Natural and Political Observations Made Upon the Bills of Mortality_ in which he estimated the population of London by using annual funeral records, familial death rates, and average family size.
 
 Without the correlation to statistics involved, many consider John Tukey to be the inventor of data science where in March 1962 he published _The Future of Data Analysis_ where he described a field he called “data analysis,” which resembles modern data science. With advents in data processing and storage, applications of data science have accelerated in both complexity and popularity.
+
+## Concepts
+
+Some of the fundamental concepts and tools of data science are explored below:

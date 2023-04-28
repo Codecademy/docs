@@ -65,9 +65,9 @@ While not a 100%-guarantee, steps can be taken to protect against malicious hack
 - Never leaving login credentials exposed in a public place.
 - Using password protection for all devices.
 - Avoiding public Wi-Fi networks, such as ones at coffee shops or airports, because they have lax security measures.
-- Connecting to services with a [VPN](https://www.codecademy.com/resources/blog/what-is-a-vpn/), which encrypts all data you send and receive while connected.
+- Connecting to services with a [VPN](https://www.codecademy.com/resources/docs/cybersecurity/virtual-private-network), which encrypts all data you send and receive while connected.
 - Using an internet firewall to help filter out malicious data.
-- Learning to recognize and avoid phishing attacks and other types of social engineering.
+- Learning to recognize and avoid phishing attacks and other types of [social engineering](https://www.codecademy.com/resources/docs/cybersecurity/social-engineering).
 - Only installing software from trusted sources.
 - Avoiding websites that might host malicious code.
 
