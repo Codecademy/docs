@@ -34,19 +34,21 @@ Things are changing quickly and the impact is only just starting to being predic
 
 ### Foundation models
 
-The changes is being driven by a new paradigm. Before AI applications were task specific. Now a single foundation model can drive multiple different tasks. Unstructured and unsupervised training. **LLMs** or large language models are foundation models.
+In the past, AI applications were very task specific. The recent technology shift has been to use large **foundation models** to drive a number of different tasks. Large amounts of unstructured and unsupervised training is used to create the **foundation model**. **LLMs** are a type of **foundation model**.
 
-The models have a generative ability and were the beginning of Generative AI. **ChatGPT** demonstrated abilities to generate and completed text.
+The models have a generative ability and were the start of **Generative AI**. **ChatGPT** demonstrated the ability to generate and completed natural language prompts.
 
-Using this approach we can leverage the vast amount of pre-trained data with a small amount of additional **tuning** and **prompting**. Tuning adds labels into the data. Prompting bridges the gap between training and what we want. While training the LLM is expensive, the usage or **inference** leverages all the training but can be cost effective.
-
-The breakthrough is leveraging these powerful **LLMs** to be used for generative AI not for just text generation but for many other generative purposes.
+Using the concept of **foundation models** we can leverage the vast amount of pre-trained data with a small amount of additional **tuning** and **prompting**. **Tuning** adds labels into the data. **Prompting** bridges the gap between training and our intention. While training the **LLM** is expensive, the usage referred to as **inference** is more cost effective.
 
 ### The question of intelligence?
 
-Artificial Intelligence **AI** is the matching or exceeding the intelligence of a human being. Things that we often associate with intelligence such as calculating mathematical problems, playing chess, or remembering vast amounts of data can already be done more quickly than a person could.
+Artificial Intelligence **AI** is the matching or exceeding the intelligence of a human being. Things that we often associate with intelligence such as doing math, playing chess, or remembering vast amounts of data already can be done more quickly than a person could.
 
-With LLMs and diffusion with random seeding we can now match or exceed other skills we often associate with intelligence such as understanding and then creating new text content including stories, poems, analyzing content, creating unique images or even art.
+With **LLMs** and a technology called **diffusion** AI systems can now match or exceed other skills we often associate with intelligence such a:
+-Understanding and then creating new text content.
+-Writing never before created stories and poems.
+-Analyzing content for tone and emotions.
+-Creating unique images and video.
 
 ### Is it art?
 
