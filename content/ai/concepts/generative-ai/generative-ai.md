@@ -1,6 +1,6 @@
 ---
 Title: 'Generative-AI'
-Description: Generative AI or **GenAI** is a rapidly changing technology involving with the creation of highly realistic, complex, stylized, unique media and content from human initiated natural language prompts.
+Description: **Generative AI** (GenAI) involves the creation of complex, intricate, and realistic digital media. Before **GenAI** digital media of this level could only be created by human beings. These unique creations are driven by natural language prompts.
 Subjects:
   - 'Machine Learning'
   - 'Data Science'
@@ -18,19 +18,19 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-Generative AI or **GenAI**, based on Large Language Models **LLMs** is a rapidly changing technology involving with the creation of highly realistic, complex, stylized, unique media or creations from human initiated natural language prompts.
+**Generative AI** (GenAI) involves the creation of complex, intricate, and realistic digital media. Before **GenAI** digital media of this level could only be created by human beings. These unique creations are driven by natural language prompts.
 
 ## Generative AI
 
-**LLMs**, large language models trained on terabytes of textual data have allowed models to be created which can understand semantics and intent.
+**GenAI** is based on **Large Language Models** (LLMs). **LLMs** are trained on terabytes of textual data from the Internet. This models have the capability of understanding human language semantics and intent.
 
-In the case of **ChatGPT** it was discovered with some additional training the LLM can be highly useable.
+In the case of **ChatGPT**, one breakthrough was the discovery that with some additional training the **LLMs** can be easily used to produce impressive text based results.
 
-Generative AI is the connection of **LLMs** with other technologies to all the generation of media such as images, video, music, or code with text prompts and also media inputs. The output has the quality of photorealism. It allows creativity to quickly create new characters, scenes, and generate new ideas.
+**GenAI** is the connection of **LLMs** with technologies that in addition to text results can generate digital media such as images, video, music, or code.
 
-**GenAI** is being explored for things beyond media in fields as varied as molecule discovery for pharmaceuticals and 3D shape generation.
+There is exploration of going beyond digital media and use this technology for things as varied as the discovery of new molecules and 3D designs.
 
-Things are changing quickly and the impact is only just starting to being predicted. Most people are expecting a step change in certain ways how we live and work.
+Things are changing quickly and the impact is only just starting to being predicted and felt. Most people are expecting a step change in certain ways how we live and work.
 
 ### Foundation models
 
@@ -172,3 +172,13 @@ Movies and video creation once expensive and available through large studios and
 Content may be connected back through the block chain to compensate original creators.
 
 Generative AI may help people understand more how creative processes work in general and how to continually enhance the human process.
+
+---
+
+The output has the quality of:
+
+- Photorealism for images
+- New generated video
+- Music of different styles
+- types, unique new music, . It allows creativity to quickly create new characters, scenes, and generate new ideas.
+  Text prompts and also existing digital media are used as inputs.
