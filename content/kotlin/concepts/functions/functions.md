@@ -89,7 +89,7 @@ fun main(){
 
 The return type expresses the returning value type. Including the return type is optional. The return type is entered after the parentheses and a colon `:`. By default the return value is `Unit`. `Unit` means there is no returning value.
 
-```kotlin
+```pseudo
 fun functionName(argument): return type {
   body
 }
