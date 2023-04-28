@@ -1,6 +1,6 @@
 ---
 Title: 'Generative-AI'
-Description: **Generative AI** (GenAI) involves the creation of complex, intricate, and realistic digital media. Before **GenAI** digital media of this level could only be created by human beings. These unique creations are driven by natural language prompts.
+Description: **Generative AI** (GenAI) involves the creation of new and unique digital content. Before **GenAI** digital content of this level could only be created by human beings. These unique creations are driven by natural language prompts.
 Subjects:
   - 'Machine Learning'
   - 'Data Science'
@@ -18,17 +18,17 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-**Generative AI** (GenAI) involves the creation of complex, intricate, and realistic digital media. Before **GenAI** digital media of this level could only be created by human beings. These unique creations are driven by natural language prompts.
+**Generative AI** (GenAI) involves the creation of new and unique digital content. Before **GenAI** digital content of this level could only be created by human beings. These unique creations are driven by natural language prompts.
 
 ## Generative AI
 
-**GenAI** is based on **Large Language Models** (LLMs). **LLMs** are trained on terabytes of textual data from the Internet. This models have the capability of understanding human language semantics and intent.
+**GenAI** is based on **Large Language Models** (LLMs). **LLMs** are trained on terabytes of textual data from the Internet. These models have the capability of understanding human language semantics and intent.
 
 In the case of **ChatGPT**, one breakthrough was the discovery that with some additional training the **LLMs** can be easily used to produce impressive text based results.
 
-**GenAI** is the connection of **LLMs** with technologies that in addition to text results can generate digital media such as images, video, music, or code.
+**GenAI** is the connection of **LLMs** with technologies that in addition to text results can generate digital content such as images, video, music, or code.
 
-There is exploration of going beyond digital media and use this technology for things as varied as the discovery of new molecules and 3D designs.
+There is exploration of going beyond digital content and use this technology for things as varied as the discovery of new molecules and 3D designs.
 
 Things are changing quickly and the impact is only just starting to being predicted and felt. Most people are expecting a step change in certain ways how we live and work.
 
@@ -42,7 +42,7 @@ Using the concept of **foundation models** we can leverage the vast amount of pr
 
 ### The question of intelligence?
 
-Artificial Intelligence **AI** is the matching or exceeding the intelligence of a human being. Things that we often associate with intelligence such as doing math, playing chess, or remembering vast amounts of data already can be done more quickly better than a person can.
+Artificial Intelligence **AI** is the matching or exceeding the intelligence of a human being. Things that we often associate with intelligence such as doing math, playing chess, or remembering vast amounts of data already can be done more quickly better than a person.
 
 With **LLMs** and a technology called **diffusion** AI systems can now match or exceed other skills we often associate with intelligence such as:
 
@@ -124,13 +124,3 @@ Movies and video creation once expensive and available through large studios and
 Content may be connected back through the block chain to compensate original creators.
 
 Generative AI may help people understand more how creative processes work in general and how to continually enhance the human process.
-
----
-
-The output has the quality of:
-
-- Photorealism for images
-- New generated video
-- Music of different styles
-- types, unique new music, . It allows creativity to quickly create new characters, scenes, and generate new ideas.
-  Text prompts and also existing digital media are used as inputs.
