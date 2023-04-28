@@ -1,7 +1,7 @@
 ---
 Title: '.removeValue()'
 Description: 'Removes a key-value pairing from a dictionary based on a given key.'
-Subjects: 
+Subjects:
   - 'Mobile Development'
   - 'Computer Science'
 Tags:
@@ -19,6 +19,7 @@ CatalogContent:
 `dictionaryInstance.removeValue(forKey: key)`
 
 ## Example
+
 ```swift
 var fruitBasket = [
     "Apples":3,
@@ -29,9 +30,10 @@ var fruitBasket = [
 
 if let removedValue = fruitBasket.removeValue(forKey: "Apples") {
     print(removedValue) // Output 3
-  
+
 } else {
     print("The key 'Apples' does not exist in the dictionary.")
 }
 ```
+
 In the example above, the `fruitBasket` dictionary is checked to see if the key `Apples` exists. If it does, it will remove that key and its print corresponding value. If it doesn't, a value of nil is returned.
