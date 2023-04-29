@@ -47,7 +47,7 @@ Math.Max (int) = 345
 
 ## Codebyte Example
 
-The following example is runnable and uses the `Math.Max()` method to return the greater  number from the given two `integer` type numbers, `number1` and `number2`:
+The following example is runnable and uses the `Math.Max()` method to return the greater number from the given two `integer` type numbers, `number1` and `number2`:
 
 ```codebyte/csharp
 using System;
