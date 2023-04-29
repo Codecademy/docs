@@ -26,12 +26,13 @@ ROW_NUMBER() OVER (
 
 )
 ```
-* **`PARTITION BY`** is an optional parameter used to create partitions (groups of rows). If it is not used, **`ROW_NUMBER()`** will treat the result set as one partition. It is important to note that **`ROW_NUMBER()`** is applied to each partition separately; so the first row in a partition is assigned '1', the second row is assigned '2', and so on.
-* **`ORDER BY`** defines the order within each partition. It is a mandatory parameter, because **`ROW_NUMBER()`** is order sensitive.
-* **`ROW_NUMBER()`** can also be used for **pagination**, dividing the data set into discrete increments. For example, if a result set would have 100 rows, adding a **`WHERE`** clause would allow the user to selectively view only results 11-20.
+* `PARTITION BY` is an optional parameter used to create partitions (groups of rows). If it is not used, `ROW_NUMBER()` will treat the result set as one partition. It is important to note that `ROW_NUMBER()` is applied to each partition separately; so the first row in a partition is assigned '1', the second row is assigned '2', and so on.
+* `ORDER BY` defines the order within each partition. It is a mandatory parameter, because `ROW_NUMBER()` is order sensitive.
+* `ROW_NUMBER()` can also be used for **pagination**, dividing the data set into discrete increments. For example, if a result set would have 100 rows, adding a **`WHERE`** clause would allow the user to selectively view only results 11-20.
 
 ## Example
-This function is useful when creating tables. The following example uses a dataset, **`customers`**, with entries for **`first_name`** , **`last_name`** , and **`city`**(where they live).
+
+This function is useful when creating tables. The following example uses a dataset, `customers`, with entries for `first_name`, `last_name`, and `city`(where they live).
 
 | first_name | last_name | city         |
 | ---        | ---       | ---          |
@@ -46,7 +47,7 @@ This function is useful when creating tables. The following example uses a datas
 | Samantha   | Daniels   | Dallas       |
 | Emily      | Pugh      | Manchester   |
 
-Using the following statement, the above information is pulled from the dataset **`customers`**. It is ordered alphabetically by their first name, then each row is assigned an integer starting with '1'.
+Using the following statement, the above information is pulled from the dataset `customers`. It is ordered alphabetically by their first name, then each row is assigned an integer starting with '1'.
 
 ```sql
 SELECT 
@@ -59,7 +60,8 @@ SELECT
 FROM 
    customers;
 ```
-This creates the following output. Notice that the above statement does not have a **`PARTITION BY`** parameter. This essentially creates just one partition, the result set.
+
+This creates the following output. Notice that the above statement does not have a `PARTITION BY` parameter. This essentially creates just one partition, the result set.
 
 | row_num | first_name | last_name | city        |
 | ---     | ---        | ---       | ---         |
@@ -74,7 +76,7 @@ This creates the following output. Notice that the above statement does not have
 | 9       | Susan      | Davidson  | Dallas      |
 | 10      | Tyler      | Hunter    | Houston     |
 
-For **pagination**, the function would be changed like so to only show the first 5 entries:
+For pagination, the function would be changed like so to only show the first 5 entries:
 
 ```sql
 WITH customers AS (
@@ -98,24 +100,33 @@ WHERE
     row_num > 0 AND 
     row_num <= 5;
 ```
+Which would give the following output:
 
-The **`ROW_NUMBER()`** function above could instead be modified like so to include partitions:
+| row_num | first_name | last_name | city        |
+| ---     | ---        | ---       | ---         |
+| 1       | Chris      | Blake     | Manchester  |
+| 2       | Emily      | Pugh      | Manchester  |
+| 3       | Eric       | Gustav    | Louisville  |
+| 4       | Joseph     | Chang     | Raleigh     |
+| 5       | Mary       | Greene    | Raleigh     |
+
+The `ROW_NUMBER()` function above could instead be modified like so to include partitions:
 
 ```sql
 SELECT 
-   
    ROW_NUMBER() OVER (
       PARTITION BY city
       ORDER BY first_name
    ) row_num,
      first_name, 
      last_name, 
-     city,
+     city
 FROM 
    customers
 ORDER BY 
    city;
 ```
+
 | row_num | first_name | last_name | city        |
 | ---     | ---        | ---       | ---         |
 | 1       | Samantha   | Daniels   | Dallas      |
@@ -129,4 +140,4 @@ ORDER BY
 | 1       | Joseph     | Chang     | Raleigh     |
 | 2       | Mary       | Greene    | Raleigh     |
 
-Above, the result set is partitioned by **`city`**. Each partition then has the **`ROW_NUMBER()`** function applied to it. Each **`city`** therefore has its own first row, assigned '1'; second row, assigned '2'; and so on.
+Above, the result set is partitioned by `city`. Each partition then has the `ROW_NUMBER()` function applied to it. Each `city` therefore has its own first row, assigned '1'; second row, assigned '2'; and so on.
