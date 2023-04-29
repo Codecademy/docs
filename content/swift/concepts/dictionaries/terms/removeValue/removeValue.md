@@ -12,11 +12,15 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-**The `.removeValue()` method will remove a key-value pairing from a dictionary based on a given key. If the key exists in the dictionary, the method will return the removed value. However, if the key is not found, the method will return nil.**
+The **`.removeValue()`** method will remove a key-value pairing from a dictionary based on a given key. If the key exists in the dictionary, the method will return the removed value. However, if the key is not found, the method will return nil.
 
 ## Syntax
 
-`dictionaryInstance.removeValue(forKey: key)`
+```pseudo
+dictionaryInstance.removeValue(forKey: key)
+```
+
+The **`dictionaryInstance`** is a dictionary that you want to remove a key-value pairing from. The **`key`** paramater is the key you would like to remove. 
 
 ## Example
 
