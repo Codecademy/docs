@@ -3,32 +3,35 @@ Title: 'Operators'
 Description: 'Operators are used to perform various operations on variables and values of various data types.'
 Subjects:
   - 'Computer Science'
+  - 'Code Foundations'
 Tags:
   - 'Operators'
-  - 'kotlin'
+  - 'Conditionals'
+  - 'Kotlin'
 CatalogContent:
   - 'learn-kotlin'
+  - 'paths/computer-science'
 ---
 
-# Understanding Kotlin Operators
+## Understanding Kotlin Operators
 
-Operators are essential building blocks of any programming language, and Kotlin is no exception. Kotlin supports a wide range of operators that perform a variety od tasks, such as performing arithmetic operations, comparing values, and manipulating bits.
+Operators are essential building blocks of any programming language, and Kotlin is no exception. Kotlin supports a wide range of operators that perform a variety of tasks, such as performing arithmetic, comparing values, and manipulating bits.
 
-In this article, we'll dive into the world of Kotlin operators, explore their different types, and see how they can be used in code.
+The sections that follow will review the main categories of Kotlin operators and demonstrate their basic implementation in code.
 
 ## Arithmetic Operators
 
-Arithmetic operators are used to perform basic mathematical operations, such as addition, dubstraction, multiplication, and division. Kotlin supports the following arithmetic operators:
+Arithmetic operators are used to perform basic mathematical operations, such as addition, subtraction, multiplication, and division. Kotlin supports the following arithmetic operators:
 
-* '+' (addition)
-* '-' (substraction)
-* '*' (multiplication)
-* '/' (division)
-* '%' (module)
+- '+' (addition)
+- '-' (subtraction)
+- '\*' (multiplication)
+- '/' (division)
+- '%' (modulo)
 
-Here's an expample of how to use arithmetic operators in Kotlin:
+Here's an example of how to use arithmetic operators in Kotlin:
 
-```
+```kotlin
 val a = 10
 val b = 5
 val c = a + b // c is now 15
@@ -42,16 +45,16 @@ val g = a % b // g is now 0
 
 Comparison operators are used to compare two values and determine wheter they are equal, not equal, greater than, less than, greater than or equal to, or less than or equal to. Kotlin supports the following comparison operators:
 
-* '==' (equals to)
-* '!=' (not equals to)
-* '>' (greater than)
-* '<' (less than)
-* '>=' ()greater than or equals to)
-* '<=' (less than or equals to)
+- '==' (equals to)
+- '!=' (not equals to)
+- '>' (greater than)
+- '<' (less than)
+- '>=' ()greater than or equals to)
+- '<=' (less than or equals to)
 
 Here's an example of how to use comparison operators in Kotlin:
 
-```
+```kotlin
 val a = 10
 val b = 5
 val c = 10
@@ -67,15 +70,15 @@ println(d <= b) // false
 
 ## Logical Operators
 
-Logical operators are used to combine two or mode conditions and determine the overall result. Kotlin supports the following logical operators:
+Logical operators are used to combine two or more conditions and determine the overall result. Kotlin supports the following logical operators:
 
-* '&&' (and)
-* '!!' (or)
-* '!' (not)
+- '&&' (and)
+- '!!' (or)
+- '!' (not)
 
 Here's an example of how to use logical operators in Kotlin:
 
-```
+```kotlin
 val a = 10
 val b = 5
 val c = 15
@@ -89,35 +92,35 @@ println(!(a > b)) // false
 
 Bitwise operators are used to perform bitwise operations on binary values. Kotlin supports the following bitwise operators:
 
-* 'and' (bitwise and)
-* 'or' (bitwise or)
-* 'xor' (bitwise xor)
-* 'inv' (bitwise complement)
+- 'and' (bitwise and)
+- 'or' (bitwise or)
+- 'xor' (bitwise xor)
+- 'inv' (bitwise complement)
 
 Here's an example of how to use bitwise operators in Kotlin:
 
-```
+```kotlin
 val a = 0b1010
 val b = 0b1100
 
-println(a and b) // 0b1000
-println(a or b) // 0b1110
-println(a xor b) // 0b0110
-println(b.inv()) // 0b0011
+println(a and b) // 8
+println(a or b) // 14
+println(a xor b) // 6
+println(b.inv()) // -13
 ```
 
 ## Assignment Operators
 
 Assignment operators are used to assign a value to a variable. Kotlin supports the following assignment operators:
 
-* '=' (simple assignment) used to specify default values for parameters.
-* '+=' (addition assignment)
-* '-=' (substraction assignment)
-* '*=' (multiplication assignment)
-* '/*' (division assignment)
-* '%=' (module assignment)
+- '=' (simple assignment) used to specify default values for parameters.
+- '+=' (addition assignment)
+- '-=' (subtraction assignment)
+- '\*=' (multiplication assignment)
+- '/\*' (division assignment)
+- '%=' (modulo/remainder assignment)
 
-## Increment and decrement operators
+## Increment and Decrement Operators
 
-* '++' (increment)
-* '--' (decrement)
+- '++' (increment)
+- '--' (decrement)
