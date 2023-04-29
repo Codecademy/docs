@@ -32,7 +32,7 @@ ROW_NUMBER() OVER (
 
 ## Example
 
-This function is useful when creating tables. The following example uses a dataset, `customers`, with entries for `first_name`, `last_name`, and `city`(where they live).
+This function is useful when creating tables. The following example is using a dataset, `customers`, with entries for `first_name`, `last_name`, and `city`(where they live).
 
 | first_name | last_name | city         |
 | ---        | ---       | ---          |
