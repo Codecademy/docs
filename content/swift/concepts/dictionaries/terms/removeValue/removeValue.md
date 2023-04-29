@@ -20,7 +20,7 @@ The **`.removeValue()`** method will remove a key-value pairing from a dictionar
 dictionaryInstance.removeValue(forKey: key)
 ```
 
-The **`dictionaryInstance`** is a dictionary that you want to remove a key-value pairing from. The **`key`** paramater is the key you would like to remove. 
+The **`dictionaryInstance`** is a dictionary that you want to remove a key-value pairing from. The **`key`** paramater is the key you would like to remove.
 
 ## Example
 
