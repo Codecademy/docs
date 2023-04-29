@@ -44,3 +44,20 @@ This example results in the following output:
 ```shell
 8^3 = 512
 ```
+
+## Codebyte Example
+
+The following example is runnable and uses the `Math.Pow()` method to return a `double` type value of `2` raised to the power of `10`:
+
+```codebyte/csharp
+using System;
+
+public class Example {
+  public static void Main() {
+    double number = 2, power = 10;
+    double value = Math.Pow(number, power);
+
+    Console.WriteLine("The value of " + number + " raised to the power of " + power + " is " + value);
+  }
+}
+```
