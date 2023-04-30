@@ -37,19 +37,19 @@ string originalString = "Welcome to Texas"
 In the following example, `getChar()` converts an array into a new shorter array. It then prints the new array in the consule. 
 
 
-```class main {
-  static void main(Strings args [])
+`class example{
+  public static void main(Strings args [])
   {
     string str = "Welcome to Texas";
-    char [] = new chars[5];
+    char [] destArray = new chars[5];
     try {
-      str.getChars(0, 5, newArray, 0)
+      str.getChars(0, 5, destArray, 0)
       System.out.println(newArray);
     }
-    { catch (Exception ex) {
+     catch (Exception ex) {
       System.out.pringln(ex)
     }
     
   }
-```
+`
 
