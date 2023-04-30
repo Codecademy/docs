@@ -26,13 +26,14 @@ ROW_NUMBER() OVER (
 
 )
 ```
+
 * `PARTITION BY` is an optional parameter used to create partitions (groups of rows). If it is not used, `ROW_NUMBER()` will treat the result set as one partition. It is important to note that `ROW_NUMBER()` is applied to each partition separately; so the first row in a partition is assigned '1', the second row is assigned '2', and so on.
 * `ORDER BY` defines the order within each partition. It is a mandatory parameter, because `ROW_NUMBER()` is order sensitive.
 * `ROW_NUMBER()` can also be used for **pagination**, dividing the data set into discrete increments. For example, if a result set would have 100 rows, adding a **`WHERE`** clause would allow the user to selectively view only results 11-20.
 
 ## Example
 
-This function is useful when creating tables. The following example is using a dataset, `customers`, with entries for `first_name`, `last_name`, and `city`(where they live).
+This function is useful when creating tables. The following example is using a dataset, `customers`, with entries for `first_name`, `last_name`, and `city` (where they live).
 
 | first_name | last_name | city         |
 | ---        | ---       | ---          |
@@ -100,6 +101,7 @@ WHERE
     row_num > 0 AND 
     row_num <= 5;
 ```
+
 Which would give the following output:
 
 | row_num | first_name | last_name | city        |
