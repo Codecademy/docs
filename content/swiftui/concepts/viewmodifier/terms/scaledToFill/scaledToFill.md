@@ -38,6 +38,6 @@ struct MyStruct: View {
 }
 ```
 
-The image on the left shows the circle without the **`.scaledToFill()`** modifier applied. The image on the right shows the circle with the **`.scaledToFill()`** modifer applied.
+The image on the left shows the circle without the `.scaledToFill()` modifier applied. The image on the right shows the circle with the `.scaledToFill()` modifier applied.
 
 ![SwiftUI ViewModifier scaledToFill](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-viewmodifier-scaledToFill.png)
