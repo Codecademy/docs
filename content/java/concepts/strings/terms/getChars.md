@@ -23,10 +23,12 @@ getChars(int srcBegin, int srcEnd, char[] dst, int dstBegin)
 ```
 A brief description of the parameters is below:
 
+---
 srcBegin: The index to start copying the new array. 
 scrEnd: The index to stop copying the new array. 
 dst: The name of the new array. 
 dstBegin: The index of the destination array. 
+---
 
 ## Example
 
