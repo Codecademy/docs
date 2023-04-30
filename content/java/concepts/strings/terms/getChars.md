@@ -17,10 +17,9 @@ The **.getChars()** string method copies a set of characters from a string into 
 ## Syntax
 
 `pseudo
-str.getChars(start, end, destArray, 0);
-`
+The basic syntax of .getChars() in Java is:
 
-`str` is the string that is being converted to a new array 
+getChars(int srcBegin, int srcEnd, char[] dst, int dstBegin)
 
 ## Example
 
