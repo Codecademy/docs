@@ -15,7 +15,7 @@ TruffleRuby is an implementation of Ruby that uses the Truffle framework and Gra
 
 TruffleRuby works by translating Ruby code into an [abstract syntax tree (AST)](https://www.codecademy.com/resources/docs/general/developer-tools/abstract-syntax-tree), which is then optimized and compiled into [machine code](https://www.codecademy.com/resources/docs/general/machine-code) using the Truffle framework and GraalVM. TruffleRuby also provides a high-level, platform-independent interface for interacting with native code, which allows it to integrate seamlessly with existing Ruby libraries and extensions.
 
-# What are the benefits of TruffleRuby?
+## What are the benefits of TruffleRuby?
 
 TruffleRuby offers several benefits over other Ruby implementations, including improved performance, reduced memory usage, and enhanced compatibility with existing Ruby code and libraries. It also provides a number of advanced features, such as fast startup times, low-level access to system resources, and support for parallelism and concurrency.
 
