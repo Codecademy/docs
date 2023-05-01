@@ -39,6 +39,6 @@ end
 
 When run using the `_truffleruby_` command, this program executes much faster than the equivalent code running on other Ruby implementations, thanks to TruffleRuby's advanced optimization techniques.
 
-# Conclusion
+## Conclusion
 
 TruffleRuby is a powerful implementation of the Ruby programming language that offers improved performance and advanced features through the use of the Truffle framework and GraalVM. By leveraging the power of just-in-time compilation and other optimization techniques, TruffleRuby is able to provide a fast and efficient runtime environment for Ruby programs of all kinds.
