@@ -21,7 +21,6 @@ TruffleRuby offers several benefits over other Ruby implementations, including i
 
 ## Example of implementation
 
-## Exemple1: Fibonnacci sequence
 The following code generates the first 20 numbers in the Fibonacci sequence using TruffleRuby:  
 
 ```ruby
