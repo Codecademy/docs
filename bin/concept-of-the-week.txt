@@ -1,1 +1,1 @@
-content/general/concepts/server/server.md
+content/cpp/concepts/structure/structure.md
