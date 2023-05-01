@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.length()`** method returns the length of the given string in terms of bytes. It functions exactly like the [.size()](https://www.codecademy.com/resources/docs/python/strings/size) method but follows a more intuitive terminology (i.e., "the length of a string" rather than "the size of a string"). However, both methods yield the same result.
+The **`.length()`** method returns the length of the given string in terms of bytes. It functions exactly like the [.size()](https://www.codecademy.com/resources/docs/cpp/strings/size) method but follows a more intuitive terminology (i.e., "the length of a string" rather than "the size of a string"). However, both methods yield the same result.
 
 ## Syntax
 
