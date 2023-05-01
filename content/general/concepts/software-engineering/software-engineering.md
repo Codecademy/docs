@@ -2,7 +2,6 @@
 Title: 'Software Engineering'
 Description: 'Software engineering is a field of study that involves using engineering principles to design, build, test, and maintain software systems.'
 Subjects:
-  - 'Mobile Development'
   - 'Web Development'
   - 'Computer Science'
 Tags:
