@@ -13,7 +13,7 @@ TruffleRuby is an implementation of Ruby that uses the Truffle framework and Gra
 
 # How does TruffleRuby work?
 
-TruffleRuby works by translating Ruby code into an abstract syntax tree (AST), which is then optimized and compiled into machine code using the Truffle framework and GraalVM. TruffleRuby also provides a high-level, platform-independent interface for interacting with native code, which allows it to integrate seamlessly with existing Ruby libraries and extensions.
+TruffleRuby works by translating Ruby code into an [abstract syntax tree (AST)](https://www.codecademy.com/resources/docs/general/developer-tools/abstract-syntax-tree), which is then optimized and compiled into [machine code](https://www.codecademy.com/resources/docs/general/machine-code) using the Truffle framework and GraalVM. TruffleRuby also provides a high-level, platform-independent interface for interacting with native code, which allows it to integrate seamlessly with existing Ruby libraries and extensions.
 
 # What are the benefits of TruffleRuby?
 
