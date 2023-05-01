@@ -1,5 +1,5 @@
 ---
-Title: '.scaledToFill'
+Title: '.scaledToFill()'
 Description: 'Scales the view to fill its parent view while maintaining the original aspect ratio.'
 Subjects:
   - 'Mobile Devolopment'
@@ -21,7 +21,7 @@ View
     .scaledToFill()
 ```
 
-> **Note**: This method is the same as using `.aspectRatio()` with a nil aspect ratio and a content mode of `.fill`.
+> **Note**: This method is the same as using `.aspectRatio()` with a `nil` aspect ratio and a content mode of `.fill`.
 
 ## Example
 
