@@ -11,7 +11,7 @@ Ruby is a popular dynamic programming language, known for its elegant syntax, fl
 
 TruffleRuby is an implementation of Ruby that uses the Truffle framework and GraalVM to optimize the performance of Ruby programs. It achieves this by using just-in-time (JIT) compilation to dynamically generate optimized machine code at runtime, based on the execution profile of the program.
 
-# How does TruffleRuby work?
+## How does TruffleRuby work?
 
 TruffleRuby works by translating Ruby code into an [abstract syntax tree (AST)](https://www.codecademy.com/resources/docs/general/developer-tools/abstract-syntax-tree), which is then optimized and compiled into [machine code](https://www.codecademy.com/resources/docs/general/machine-code) using the Truffle framework and GraalVM. TruffleRuby also provides a high-level, platform-independent interface for interacting with native code, which allows it to integrate seamlessly with existing Ruby libraries and extensions.
 
