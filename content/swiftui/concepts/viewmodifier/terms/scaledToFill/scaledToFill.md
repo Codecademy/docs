@@ -1,7 +1,7 @@
 ---
 Title: '.scaledToFill'
 Description: 'Scales the view to fill its parent view while maintaining the original aspect ratio.'
-Subjects: 
+Subjects:
   - 'Mobile Devolopment'
   - 'iOS'
 Tags:
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.scaledToFill()`**  modifier method scales a view to fill its parent view while maintaining the original aspect ratio. It takes no parameters.
+The **`.scaledToFill()`** modifier method scales a view to fill its parent view while maintaining the original aspect ratio. It takes no parameters.
 
 ## Syntax
 
