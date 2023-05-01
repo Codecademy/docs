@@ -27,7 +27,6 @@ implode($separator, $array)
 - `separator` - Optional string value. If omitted defaults to empty string.
 - `array` - An array of string elements to implode.
 
-
 ## Example
 
 The example below uses the `implode()` function to create the sentence 'I love learning with Codecademy'. The separator is a single white space.
