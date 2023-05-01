@@ -44,4 +44,4 @@ The following example demonstrates the `ltrim()` function with both one and two 
 ?>
 ```
 
-The second argument, `Heyo `, removed the characters `H`, `e`, `y`, `o`, and the single space. It left the rest of the string starting from the character `M` because it wasn't instructed by the second argument to remove that character.
+The second argument, in the second call of the function, removed the characters `H`, `e`, `y`, `o`, and the single space. It left the rest of the string starting from the character `M` because it wasn't instructed by the second argument to remove that character.
