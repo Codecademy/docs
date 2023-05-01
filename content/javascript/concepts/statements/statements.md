@@ -46,3 +46,67 @@ var x = 5;
 var X = 6;
 ``` 
 
+## Types of Statements
+
+There are several types of statements in JavaScript, including:
+
+Expression statements: statements that evaluate an expression, such as function calls or assignments:
+
+```js
+// Function call
+console.log('Hello World');
+// Assignment
+let x = 5;
+```
+Conditional statements: statements that control program flow based on a condition, such as if statements or switch statements:
+
+```js
+// If statement
+if (x > 5) {
+  console.log('x is greater than 5');
+}
+// Switch statement
+switch (x) {
+  case 1:
+    console.log('x is 1');
+    break;
+  case 2:
+    console.log('x is 2');
+    break;
+  default:
+    console.log('x is neither 1 nor 2');
+}
+```
+
+Loop statements: statements that repeat an operation while a condition is true, such as while loops or for loops:
+
+```js
+// While loop
+while (x < 5) {
+  console.log(x);
+  x++;
+}
+// For loop
+for (let i = 0; i < 5; i++) {
+  console.log(i);
+}
+```
+
+Jump statements: statements that transfer control to another part of the program, such as break or return statements:
+
+```js
+// Break statement
+for (let i = 0; i < 5; i++) {
+  if (i === 3) {
+    break;
+  }
+  console.log(i);
+}
+// Return statement
+function add(x, y) {
+  return x + y;
+}
+```
+## Notes
+
+To summarize, JavaScript statements are instructions that tell the browser what to do.
