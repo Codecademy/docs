@@ -11,16 +11,11 @@ CatalogContent:
   - 'paths/fundamentals-of-cybersecurity'
 ---
 
-[Introduction - make sure first mention of concept is in **bold**.] (The first 160 characters of this section will appear as the description of the page when it shows up on search engines. It's important!)
+**Ransomware** is a [cyber attack](https://www.codecademy.com/resources/docs/cybersecurity/cyber-attack) that blocks and prevents a user from accessing important files or personal data that is located on a device or computer.
 
-## Subsection 1
+## Preventing Ransomware
 
-[Text about subsection 1]
+There are various basic countermeasures:
 
-## Subsection 2
-
-[Text about subsection 2]
-
-## Subsection n
-
-[Text about subsection n]
+- Use secured networks when possible. Using unsecured networks will leave the device unprotected and increases the [risk](https://www.codecademy.com/resources/docs/cybersecurity/risk) of ransomware infecting the device. The use of an [Virtual-Private-Network](https://www.codecademy.com/resources/docs/cybersecurity/virtual-private-network) is reccomended to secure and encrypt the connection to protect against threats.
+- Perform frequent backups of important data and store them on a separate device that cannot be accessed from the network. If a device is infected with ransomware, it is possible to restore the device to a previous state before infection occurred.
