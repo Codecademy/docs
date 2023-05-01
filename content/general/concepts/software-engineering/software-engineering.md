@@ -13,7 +13,6 @@ Tags:
 CatalogContent:
   - 'learn-how-to-code'
   - 'paths/full-stack-engineer-career-path'
-  - 'paths/back-end-engineer-career-path'
 ---
 
 **Software engineering** is a field of study that involves using engineering principles to design, build, [test](https://www.codecademy.com/resources/docs/general/software-testing), and maintain software systems. Software engineers need to understand how to write quality code and use various tools and [frameworks](https://www.codecademy.com/resources/docs/general/framework) to perform these tasks. There are many programming languages used in software engineering, including [JavaScript](https://www.codecademy.com/resources/docs/javascript), [Java](https://www.codecademy.com/resources/docs/java), [C#](https://www.codecademy.com/resources/docs/c-sharp), [Python](https://www.codecademy.com/resources/docs/python), and more.
