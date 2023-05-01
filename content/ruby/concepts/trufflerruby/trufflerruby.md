@@ -7,7 +7,7 @@
 
 Ruby is a popular dynamic programming language, known for its elegant syntax, flexibility, and ease of use. However, the performance of Ruby programs can be a bottleneck, especially when dealing with complex and computationally-intensive tasks.
 
-# What is TruffleRuby ?
+## What is TruffleRuby?
 
 TruffleRuby is an implementation of Ruby that uses the Truffle framework and GraalVM to optimize the performance of Ruby programs. It achieves this by using just-in-time (JIT) compilation to dynamically generate optimized machine code at runtime, based on the execution profile of the program.
 
