@@ -47,6 +47,7 @@ var body: some View {
     }
     .padding(50)
     .background(Color(red: 0.1, green: 0.1, blue: 0.1))
+    .foregroundColor(.white)
 }
 ```
 
