@@ -28,3 +28,21 @@ let x = 5;
 console.log(x);
 ```
 
+JavaScript variables are containers for storing data values.
+In this example, x, y, and z, are variables, declared with the var keyword:
+    
+```js
+var x = 5;
+var y = 6;
+var z = x + y;
+``` 
+
+JavaScript identifiers are case-sensitive. The names x and X have different meanings:
+    
+```js
+// Assign 5 to x
+var x = 5;
+// Assign 6 to X
+var X = 6;
+``` 
+
