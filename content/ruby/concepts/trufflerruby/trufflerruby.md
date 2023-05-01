@@ -19,7 +19,7 @@ TruffleRuby works by translating Ruby code into an [abstract syntax tree (AST)](
 
 TruffleRuby offers several benefits over other Ruby implementations, including improved performance, reduced memory usage, and enhanced compatibility with existing Ruby code and libraries. It also provides a number of advanced features, such as fast startup times, low-level access to system resources, and support for parallelism and concurrency.
 
-# EXemples of implementation
+## Example of implementation
 
 ## Exemple1: Fibonnacci sequence
 The following code generates the first 20 numbers in the Fibonacci sequence using TruffleRuby:  
