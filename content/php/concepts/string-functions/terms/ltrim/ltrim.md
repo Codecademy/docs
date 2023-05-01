@@ -25,14 +25,13 @@ ltrim($string, $characters);
 
 The `$string` parameter gives the function a target string to remove whitespace or specific characters from.
 
-The `$characters` parameter is an optional string that specifies specific characters the function should remove. `ltrim()` will start at the left side of the string and remove any characters that match the ones provided in the `$characters` argument until it finds a character that does not match.
+The `$characters` parameter is an optional string that specifies characters the function should remove. `ltrim()` will start at the left side of the string and remove any characters that match the ones provided in the `$characters` argument until it finds one that does not match.
 
 ## Codebyte Example
 
 The following example demonstrates the `ltrim()` function with both one and two arguments.
 
 ```codebyte/php
-<pre>
 <?php
   $tooMuchWhiteSpace = "                           Heyo Mom!";
   echo $tooMuchWhiteSpace . "\n";
@@ -43,7 +42,6 @@ The following example demonstrates the `ltrim()` function with both one and two 
   $trimCharacters = ltrim($trimmedDown, "Heyo ");
   echo $trimCharacters;
 ?>
-</pre>
 ```
 
-> **Note**: Notice how the second argument, `Heyo `, removed the characters `H`, `e`, `y`, and `o`, but left the `M`. It didn't remove the second `o`, either, because it found a character that it wasn't instructed to remove, i.e. the leading `M`.
+The second argument, `Heyo `, removed the characters `H`, `e`, `y`, `o`, and the single space. It left the rest of the string starting from the character `M` because it wasn't instructed by the second argument to remove that character.
