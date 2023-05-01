@@ -3,7 +3,7 @@
 **TruffleRuby** is an implementation of the Ruby programming language, built on top of the Truffle framework and GraalVM. It is designed to improve the performance of Ruby programs by using [just-in-time (JIT)](https://www.codecademy.com/resources/docs/general/jit-compilation) compilation and other advanced optimization techniques, and provides compatibility with existing Ruby code and libraries.
 
 
-# Background
+## Background
 
 Ruby is a popular dynamic programming language, known for its elegant syntax, flexibility, and ease of use. However, the performance of Ruby programs can be a bottleneck, especially when dealing with complex and computationally-intensive tasks.
 
