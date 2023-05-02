@@ -5,7 +5,7 @@ Subjects:
   - 'Mobile Development'
   - 'Computer Science'
 Tags:
-  - 'Dictionaries'
+  - 'Dictionary'
   - 'Properties'
 CatalogContent:
   - 'learn-swift'
@@ -20,7 +20,9 @@ The **`.removeValue()`** method will remove a key-value pairing from a dictionar
 dictionaryInstance.removeValue(forKey: key)
 ```
 
-The **`dictionaryInstance`** is a dictionary that you want to remove a key-value pairing from. The **`key`** paramater is the key you would like to remove.
+The `dictionaryInstance` is the dictionary in which the key-value pairing will be removed. The `key` parameter is the key to remove.
+
+In the example below, the `fruitBasket` dictionary is checked to see if the key `Apples` exists. If it does, it will remove that key and print the corresponding value. If it doesn't, a value of `nil` is returned.
 
 ## Example
 
@@ -39,5 +41,3 @@ if let removedValue = fruitBasket.removeValue(forKey: "Apples") {
     print("The key 'Apples' does not exist in the dictionary.")
 }
 ```
-
-In the example above, the `fruitBasket` dictionary is checked to see if the key `Apples` exists. If it does, it will remove that key and its print corresponding value. If it doesn't, a value of nil is returned.
