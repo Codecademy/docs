@@ -1,12 +1,12 @@
 ---
 Title: 'Ransomware'
 Description: 'Ransomware is a cyber-attack that blocks and prevents a user from accessing important files or personal data that is located on a device or computer.'
-Subjects: 
+Subjects:
   - 'Cybersecurity'
   - 'Computer Science'
 Tags:
   - 'Cybersecurity'
-CatalogContent: 
+CatalogContent:
   - 'introduction-to-cybersecurity'
   - 'paths/fundamentals-of-cybersecurity'
 ---
@@ -21,5 +21,5 @@ There are various basic countermeasures to avoid ransomware from infecting a dev
 - Perform frequent backups of important data and store them on a separate device that cannot be accessed from the network. If a device is infected with ransomware, it is possible to restore the device to a previous state before the infection occurred.
 - Implement the use of [Multi-factor Authentication](https://www.codecademy.com/resources/docs/cybersecurity/multi-factor-authentication) to ensure that an attacker will not gain access to important accounts online by verifying an additional factor, such as a token, that the authentic user would only possess.
 - Avoid downloading software from suspicious websites, as they could contain ransomware hidden in their files. It is recommended to only download software and updates from trusted official support websites.
-- Avoid opening suspicious links or documents in emails sent by an unknown sender. Attackers will hide ransomware in emails in the hopes that someone opens them and infects the device that they are on. 
+- Avoid opening suspicious links or documents in emails sent by an unknown sender. Attackers will hide ransomware in emails in the hopes that someone opens them and infects the device that they are on.
 - Use up-to-date security software to protect devices. Outdated software might contain [Vulnerabilities](https://www.codecademy.com/resources/docs/cybersecurity/vulnerability) making it easy for the attacker to infect the device.
