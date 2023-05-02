@@ -5,7 +5,7 @@ Subjects:
   - 'Mobile Development'
   - 'Computer Science'
 Tags:
-  - 'Dictionaries'
+  - 'Dictionary'
   - 'Properties'
 CatalogContent:
   - 'learn-swift'
@@ -19,6 +19,7 @@ The **`.removeAll()`** method will remove all key-value pairs from a dictionary.
 ```pseudo
 dictionaryInstance.removeAll()
 ```
+**Note:** The `.removeAll()` method takes no parameters.
 
 ## Example
 
@@ -40,4 +41,3 @@ In the example above, all key-value pairs in the `bookShelf` dictionary are remo
 [:]
 ```
 
-Please note that the `.removeAll()` method takes no parameters.
