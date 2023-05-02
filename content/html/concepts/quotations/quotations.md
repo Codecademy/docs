@@ -1,0 +1,43 @@
+---
+Title: 'Quotations'
+Description: 'In HTML, a quotation is a portion of text that is attributed to someone else. '
+Subjects:
+  - 'Web Development'
+  - 'Web Design'
+Tags:
+  - 'Quotations'
+CatalogContent:
+  - 'learn-html'
+  - 'paths/front-end-engineer-career-path'
+---
+
+In HTML, a quotation is a portion of text that is attributed to someone else. HTML provides several ways to mark up quotations on a web page, using specific [tags](https://www.codecademy.com/resources/docs/html/tags) for short and long quotations.
+
+## Short Quotations
+
+Short quotations are used for brief, inline quotations that are a few words or less. To create a short quotation, you can use the `q` tag. Here's an example of how to use the `q` tag:
+
+```pseudo
+<p>According to <q>Albert Einstein</q>, "Imagination is more important than knowledge."</p>
+
+```
+In this example, the text "Albert Einstein" is enclosed in the "q" tag to indicate that it's a quotation. The quotation marks around "Imagination is more important than knowledge" are automatically added by the browser.
+
+## Long Quotations
+
+Long quotations are used for quotations that are longer than a few words and typically require their own paragraph. To create a long quotation, you can use the `blockquote` tag. Here's an example of how to use the `blockquote` tag:
+
+```pseudo
+<blockquote>
+<p>"The best way to predict your future is to create it."</p>
+<footer>Abraham Lincoln</footer>
+</blockquote>
+
+```
+
+In this example, the text "The best way to predict your future is to create it" is enclosed in the `blockquote` tag to indicate that it's a quotation. The `footer` tag is used to specify the author of the quote.
+
+Both the `<q>` and `<blockquote>` tags provide a semantic markup for quotations, which can be used by screen readers to distinguish quoted text from surrounding content, making it easier for visually impaired users to navigate web content.
+
+
+In conclusion, HTML provides two types of quotation tags: short quotations and long quotations. Short quotations can be created using the `q` tag, while long quotations can be created using the `blockquote` tag. By using these tags correctly, you can add quotations to your web pages .
