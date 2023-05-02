@@ -1,6 +1,6 @@
 ---
 Title: 'Big Bang'
-Description: 'A software development model without any specific processes.'
+Description: 'Big Bang is a software development model without any specific processes.'
 Subjects:
   - 'Mobile Development'
   - 'Web Development'
@@ -12,20 +12,44 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The **Big Bang** model is a [Software Development Life Cycle](https://www.codecademy.com/resources/docs/general/software-development-life-cycle) (SDLC) process that has no specific processes. The development requires no or very little planing. This process simply stars with acquiring the inputs, such as time and resources and as a result, a software it the outcome.
+The **Big Bang** model is a [Software Development Life Cycle](https://www.codecademy.com/resources/docs/general/software-development-life-cycle) (SDLC) model without any specific processes.
 
-Image
+The Big Bang model requires no or minimal planning. Instead, the development starts with acquiring the inputs, such as:
+
+- time,
+- effort and
+- resources.
+
+This model focuses on software development so developers can jump straight to the implementation to create software as the outcome.
+
+The diagram below shows an overview of the Big Bang model:
 
 ![SDLC Big Bang Model](https://raw.githubusercontent.com/Codecademy/docs/main/media/sdlc-bigbang.png)
 
+## Use-cases
+
+The Big Bang model is best suited in the following cases:
+
+- smaller or simple projects,
+- small development teams,
+- when requirements are not specified at the start of the project or can change during the development,
+- experimental projects,
+- projects for learning purposes.
+
 ## Advantages
 
-- ideal for small projects /teams
-- flexibility
-- no planning
+The strength of the Big Bang model lies in its simplicity. This model can offer the following advantages:
+
+- it requires no or minimal planning,
+- it is easy to understand the process and manage the project,
+- it can be time and cost-effective,
+- it requires few resources,
+- it provides flexibility for developers but also the project.
 
 ## Disadvantages
 
-- not suitable for complex / bigger projects / ongoing projects
-- uncertainty
-- high cost if requirements are misunderstood
+The Big Bang model, mainly due to the minimal planning included in it, has the following disadvantages:
+
+- it is not suitable for complex, larger or ongoing projects,
+- it comes with uncertainty, and high-risks and low reliability,
+- unclear requirements at the beginning of the development can create higher costs or longer developmental times for the final product.
