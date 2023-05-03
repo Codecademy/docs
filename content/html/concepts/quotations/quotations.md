@@ -36,7 +36,7 @@ Long quotations are used for quotations that are longer than a few words and typ
 
 ```
 
-In this example, the text "The best way to predict your future is to create it" is enclosed in the `blockquote` tag to indicate that it's a quotation. The `footer` tag is used to specify the author of the quote.
+In this example, the text "The best way to predict your future is to create it" is enclosed in the `<blockquote>` tag to indicate that it's a quotation. The `<footer>` tag is used to specify the author of the quote.
 
 Both the `<q>` and `<blockquote>` tags provide a semantic markup for quotations, which can be used by screen readers to distinguish quoted text from surrounding content, making it easier for visually impaired users to navigate web content.
 
