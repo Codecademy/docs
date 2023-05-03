@@ -68,7 +68,7 @@ substring <- substr(my_string, start = 1, stop = 5)
 
 ## Modifying Strings
 
-To modify a string, you can use various functions available in R. For example, you can convert a string to uppercase or lowercase using the `toupper()` and `tolower()` functions, respectively:
+To modify a string, you can use various `functions` available in R. For example, you can convert a string to uppercase or lowercase using the `toupper()` and `tolower()` functions, respectively:
 
 ```r
 my_string <- "Hello, World!"
