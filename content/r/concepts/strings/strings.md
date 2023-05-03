@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Strings in R are a fundamental data type used for storing text data. They are created using quotation marks, either single (') or double ("), and can contain any combination of letters, numbers, and symbols. In this entry, we'll cover the syntax for creating and manipulating strings in R.
+Strings in R are a fundamental data type used for storing text data. They are created using quotation marks, either single (') or double ("), and can contain any combination of letters, numbers, and symbols. The sections that follow will cover the syntax for creating and manipulating strings in R.
 
 ## Syntax
 
