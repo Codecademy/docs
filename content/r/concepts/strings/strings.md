@@ -57,6 +57,7 @@ substring <- my_string[1:5]
 # Output: "Hello"
 
 ```
+
 You can also use the substr() function to extract a substring from a string:
 
 ```r
@@ -88,6 +89,7 @@ trimmed_string <- trimws(my_string)
 ```
 
 ## Calculating the Length of a String
+
 In R, the `nchar()` function is used to calculate the length of a string:
 
 ```r
@@ -98,3 +100,4 @@ my_string <- "Hello, World!"
 string_length <- nchar(my_string)
 # Output: 13
 
+```
