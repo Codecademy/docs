@@ -43,11 +43,11 @@ In the following example, `getChar()` converts an array into a new shorter array
     string str = "Welcome to Texas";
     char [] destArray = new chars[5];
     try {
-      str.getChars(0, 5, destArray, 0)
+      str.getChars(11, 16, destArray, 0)
       System.out.println(newArray);
     }
      catch (Exception ex) {
-      System.out.pringln(ex)
+      System.out.pringln("The string is too short.")
     }
     
   }
