@@ -33,7 +33,6 @@ Long quotations are used for quotations that are longer than a few words and typ
 <p>"The best way to predict your future is to create it."</p>
 <footer>Abraham Lincoln</footer>
 </blockquote>
-
 ```
 
 In this example, the text "The best way to predict your future is to create it" is enclosed in the `<blockquote>` tag to indicate that it's a quotation. The `<footer>` tag is used to specify the author of the quote.
