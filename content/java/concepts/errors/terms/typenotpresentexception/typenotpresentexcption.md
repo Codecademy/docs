@@ -1,6 +1,6 @@
 ---
 Title: 'TypeNotPresentException'
-Description: 'Occurs when an application tries to access a type using a string representing the type's name, but no definition for the type with the specified   name can be found. This exception differs from ClassNotFoundException in that ClassNotFoundException is a checked exception, whereas this exception is unchecked.'
+Description: 'Occurs when an application tries to access a type using a string representing the type's name, but no definition for the type with the specified name can be found.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -14,12 +14,12 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-This exception can be thrown when undefined type variables are attempted to be accessed as well as when types (classes, interfaces or annotation types) are loaded. It can, in particular, be thrown by the API used to read annotations reflectively.
+The `TypeNotPresentException` occurs when an application tries to access a type using a string representing the type's name, but no definition for the type with the specified name can be found. This exception differs from `ClassNotFoundException` in that `ClassNotFoundException` is a checked exception, whereas this exception is unchecked. This exception can be thrown when undefined type variables are attempted to be accessed as well as when types (classes, interfaces or annotation types) are loaded. It can, in particular, be thrown by the API used to read annotations reflectively.
 
 ## Example
 
 The `TypeNotPresentException` is thrown in the following example because a custom annotation contains an element that refers to a class that exists at compile-time but not at runtime:
-First, the custom annotation MyAnnotation is created. This annotation contains an element context that refers to the javax.xml.bind.JAXBContext class:
+First, the custom annotation `MyAnnotation` is created. This annotation contains an element context that refers to the `javax.xml.bind.JAXBContext` class:
 
 ```java
 import java.lang.annotation.Retention;
@@ -31,7 +31,7 @@ public @interface MyAnnotation {
     Class<JAXBContext> context() default JAXBContext.class;
 }
 ```
-Next, a class TypeNotPresentExceptionExample is created that uses the MyAnnotation annotation. It then uses reflection to read the annotation and it’s context element:
+Next, a class `TypeNotPresentExceptionExample` is created that uses the `MyAnnotation` annotation. It then uses reflection to read the annotation and its context element:
 
 ```java
 @MyAnnotation
