@@ -38,4 +38,4 @@ Pull requests (PRs) are used to propose new changes to be merged into the base `
 
 ![Red arrow on the Codecademy Docs repo pointing at a pop-up link for creating a new pull request](https://raw.githubusercontent.com/Codecademy/docs/main/media/create_pull_request_link.png)
 
-The draft for the PR borrows from a [template](https://github.com/Codecademy/docs/blob/main/.github/PULL_REQUEST_TEMPLATE.md) to assist with submitting information. After the PR is officially created, it is assigned a number and added to the ["Pull requests" tab](https://github.com/Codecademy/docs/pulls) to await [review](https://www.codecademy.com/resources/docs/docs-community/contributing-to-docs/reviews).
+The draft for the PR borrows from a [template](https://github.com/Codecademy/docs/blob/main/.github/PULL_REQUEST_TEMPLATE.md) to assist with submitting information. After the PR is officially created, it is assigned a number and added to the ["Pull requests" tab](https://github.com/Codecademy/docs/pulls) to await [review](https://www.codecademy.com/resources/docs/docs-community/contributions/reviews).
