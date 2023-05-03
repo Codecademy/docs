@@ -36,9 +36,11 @@ string_1 <- "Hello"
 string_2 <- "world"
 my_string <- paste(string_1, string_2)
 ```
+
 You can also use the `paste0()` function, which concatenates strings without any separator:
 
 ```r
+
 # Concatenating two strings without a separator
 string_1 <- "Hello"
 string_2 <- "world"
@@ -48,6 +50,7 @@ my_string <- paste0(string_1, string_2)
 ## Subsetting Strings
 
 To extract a specific portion of a string, you can use square brackets `[]` and specify the starting and ending indices:
+
 ```r
 my_string <- "Hello, World!"
 substring <- my_string[1:5]
@@ -75,6 +78,7 @@ uppercase_string <- toupper(my_string)
 lowercase_string <- tolower(my_string)
 # Output: "hello, world!"
 ```
+
 You can also remove whitespace from the beginning and/or end of a string using the `trimws()` function:
 
 ```r
@@ -82,6 +86,7 @@ my_string <- "   Hello, World!   "
 trimmed_string <- trimws(my_string)
 # Output: "Hello, World!"
 ```
+
 ## Calculating the Length of a String
 In R, the `nchar()` function is used to calculate the length of a string:
 
@@ -93,7 +98,3 @@ my_string <- "Hello, World!"
 string_length <- nchar(my_string)
 # Output: 13
 
-# Extract the first 5 characters of the string
-substring <- substr(my_string, start = 1, stop = 5)
-# Output: "Hello"
-```
