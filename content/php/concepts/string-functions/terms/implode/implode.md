@@ -29,7 +29,7 @@ implode($separator, $array)
 
 ## Example
 
-The example below uses the `implode()` function to create the sentence 'I love learning with Codecademy'. The separator is a single white space.
+The example below uses the `implode()` function to create the sentence 'I love learning with Codecademy'. The separator is a single space.
 
 ```php
 <?php
@@ -40,7 +40,7 @@ The example below uses the `implode()` function to create the sentence 'I love l
 
 ## Codebyte Example
 
-The following example show the use of `implode()` function with and without the use of the `separator`.
+The following example shows the use of `implode()` function with and without the use of the `separator`.
 
 ```codebyte/php
 <?php
