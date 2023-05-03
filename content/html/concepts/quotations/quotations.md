@@ -19,7 +19,6 @@ Short quotations are used for brief, inline quotations that are a few words or l
 
 ```pseudo
 <p>According to Albert Einstein, <q>Imagination is more important than knowledge.</q></p>
-
 ```
 
 In this example, the text "Imagination is more important than knowledge" is enclosed in the `<q>` tag to indicate that it's a quotation. The quotation marks around "Imagination is more important than knowledge" are automatically added by the browser.
