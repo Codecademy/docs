@@ -6,6 +6,7 @@ Subjects:
  - 'Computer Science'
 Tags:
  - 'Statements'
+ - 'Syntax'
 CatalogContent:
  - 'introduction-to-javascript'
  - 'paths/front-end-engineer-career-path'
@@ -15,13 +16,13 @@ In JavaScript, statements are instructions that are executed by the browser or N
 
 ## Syntax
 
-In this statement, a const variable called greeting is declared and assigned the value of 'Hello World':
+In this statement, a const variable called 'greeting' is declared and assigned the value of `'Hello World'`:
 
 ```js
 const greeting = 'Hello World';
 ```
 
-The first statement assigns the value 5 to the variable x, while the second statement logs the value of x to the console:
+The first statement assigns the value 5 to the variable `x`, while the second statement logs the value of `x` to the console:
 
 ```js
 let x = 5;
@@ -29,7 +30,7 @@ console.log(x);
 ```
 
 JavaScript variables are containers for storing data values.
-In this example, x, y, and z, are variables, declared with the var keyword:
+In this example, `x`, `y`, and `z`, are variables, declared with the `var` keyword:
     
 ```js
 var x = 5;
@@ -37,7 +38,7 @@ var y = 6;
 var z = x + y;
 ``` 
 
-JavaScript identifiers are case-sensitive. The names x and X have different meanings:
+JavaScript identifiers are case-sensitive. The names `x` and `X` have different meanings:
     
 ```js
 // Assign 5 to x
@@ -107,6 +108,3 @@ function add(x, y) {
   return x + y;
 }
 ```
-## Notes
-
-To summarize, JavaScript statements are instructions that tell the browser what to do.
