@@ -39,7 +39,7 @@ my_string <- paste(string_1, string_2)
 You can also use the `paste0()` function, which concatenates strings without any separator:
 
 ```r
-# Concatenating two strings without separator
+# Concatenating two strings without a separator
 string_1 <- "Hello"
 string_2 <- "world"
 my_string <- paste0(string_1, string_2)
