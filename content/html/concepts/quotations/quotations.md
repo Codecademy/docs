@@ -26,7 +26,7 @@ In this example, the text "Imagination is more important than knowledge" is encl
 
 ## Long Quotations
 
-Long quotations are used for quotations that are longer than a few words and typically require their own paragraph. To create a long quotation, you can use the `blockquote` tag. Here's an example of how to use the `blockquote` tag:
+Long quotations are used for quotations that are longer than a few words and typically require their own paragraph. To create a long quotation, you can use the `[<blockquote>](https://www.codecademy.com/resources/docs/html/elements/blockquote)` tag. Here's an example of how to use the `<blockquote>` tag:
 
 ```pseudo
 <blockquote>
