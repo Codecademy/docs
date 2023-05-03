@@ -7,7 +7,6 @@ Subjects:
 Tags:
   - 'R'
   - 'Strings'
- 
 CatalogContent:
   - 'learn-r'
   - 'paths/computer-science'
