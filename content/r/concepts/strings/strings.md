@@ -28,7 +28,7 @@ my_string_2 <- "This is a string."
 
 ## Concatenating Strings
 
-To combine multiple strings together, you can use the paste() function:
+To combine multiple strings together, you can use the `paste()` function:
 
 ```r
 # Concatenating two strings
