@@ -19,7 +19,7 @@ CatalogContent:
 
 Here are some common runtimes:
 
-![Graph of the different kinds of Big-O notation](https://raw.githubusercontent.com/Codecademy/docs/main/media/big-o-graph-expanded.png)
+![Graph of the different kinds of Big-O notation](https://raw.githubusercontent.com/Codecademy/docs/main/media/big-o-graph-extended.png)
 
 |  Runtime   |                 Name                  | Description                                                       | Use Case(s)                                                                                                                                                                 |
 | :--------: | :-----------------------------------: | ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
