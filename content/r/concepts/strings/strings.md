@@ -82,7 +82,7 @@ my_string <- "   Hello, World!   "
 trimmed_string <- trimws(my_string)
 # Output: "Hello, World!"
 ```
-## Example
+## Calculating the Length of a String
 Here's an example of using strings in R to calculate the length of a string and to subset a string:
 
 ```r
