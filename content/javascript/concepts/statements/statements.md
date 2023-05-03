@@ -22,7 +22,7 @@ In this statement, a const variable called 'greeting' is declared and assigned t
 const greeting = 'Hello World';
 ```
 
-The first statement assigns the value 5 to the variable `x`, while the second statement logs the value of `x` to the console:
+The first statement below assigns the value 5 to the variable `x`, while the second statement logs the value of `x` to the console:
 
 ```js
 let x = 5;
