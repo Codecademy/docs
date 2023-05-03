@@ -40,5 +40,4 @@ In this example, the text "The best way to predict your future is to create it" 
 
 Both the `<q>` and `<blockquote>` tags provide a semantic markup for quotations, which can be used by screen readers to distinguish quoted text from surrounding content, making it easier for visually impaired users to navigate web content.
 
-
 In conclusion, HTML provides two types of quotation tags: short quotations and long quotations. Short quotations can be created using the `q` tag, while long quotations can be created using the `blockquote` tag. By using these tags correctly, you can add quotations to your web pages .
