@@ -16,7 +16,7 @@ CatalogContent:
 
 The **`floor()`** function returns a rounded number down to the nearest integer and if necessary, returns a result.
 
-The result returns a variable type of float.
+The result returns a value type of float.
 
 ## Syntax
 
