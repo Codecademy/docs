@@ -24,7 +24,7 @@ The result returns a value type of float.
 $result = floor(n);
 ```
 
-Where `n` is the number rounded down to the nearest integer.
+Where `n` is the number to be rounded down to the nearest integer.
 
 ## Example
 
