@@ -8,10 +8,9 @@ Subjects:
 Tags:
   - 'Arithmetic'
   - 'Functions'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
-                # Not sure what paths to add here. In the abs.md file I can see that learn-php' and 'paths/computer-science' are added so I was considering adding the same
-  - 'learn-example-course'
-  - 'path/example-path'
+CatalogContent:
+  - 'learn-php'
+  - 'paths/computer-science'
 ---
 
 The **`min()`** function returns the lowest value out of a group or array of values.
