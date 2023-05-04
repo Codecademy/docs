@@ -32,7 +32,7 @@ Here are some common runtimes:
 
 ## Simplifying Big-O Expressions
 
-When determining an expression that characterizes the time or space complexity of an algorithm, an expression may contain multiple terms ( e.g., _O(n) + O(ln(n))_ ). In the context of Big-O, the focus is on the relative change as the input gets large. And as the input gets larger (approaches infinity) the higher-order terms take precedence over the lower-order terms, which is why the Big-O notation would simplify to just _O(n)_.
+When determining an expression that characterizes the time or space complexity of an algorithm, an expression may contain multiple terms ( e.g., _O(n) + O(ln(n))_ ). In the context of Big-O, the focus is on the relative change as the input gets large. And as the input gets larger (approaches infinity), the higher-order terms take precedence over the lower-order terms, which is why the Big-O notation would simplify to just _O(n)_.
 
 ## Python Big-O Practice
 
