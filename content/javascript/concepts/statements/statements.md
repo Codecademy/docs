@@ -2,21 +2,21 @@
 Title: 'Statements'
 Description: 'In JavaScript, a statement is a unit of code that performs a specific action or task.'
 Subjects:
- - 'Web Development'
- - 'Computer Science'
+  - 'Web Development'
+  - 'Computer Science'
 Tags:
- - 'Statements'
- - 'Syntax'
+  - 'Statements'
+  - 'Syntax'
 CatalogContent:
- - 'introduction-to-javascript'
- - 'paths/front-end-engineer-career-path'
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-In JavaScript, statements are instructions that are executed by the browser or Node.js. A statement can be a simple or complex operation that performs an action, such as assigning a value to a variable, calling a function, or controlling program flow with conditional statements.
+In JavaScript, **statements** are instructions that are executed by the browser or Node.js. A statement can be a simple or complex operation that performs an action, such as assigning a value to a variable, calling a function, or controlling program flow with conditional statements.
 
 ## Syntax
 
-In this statement, a const variable called 'greeting' is declared and assigned the value of `'Hello World'`:
+In this statement, a const variable called `greeting` is declared and assigned the value of `'Hello World'`:
 
 ```js
 const greeting = 'Hello World';
@@ -31,27 +31,27 @@ console.log(x);
 
 JavaScript variables are containers for storing data values.
 In this example, `x`, `y`, and `z`, are variables, declared with the `var` keyword:
-    
+
 ```js
 var x = 5;
 var y = 6;
 var z = x + y;
-``` 
+```
 
 JavaScript identifiers are case-sensitive. The names `x` and `X` have different meanings:
-    
+
 ```js
 // Assign 5 to x
 var x = 5;
 // Assign 6 to X
 var X = 6;
-``` 
+```
 
 ## Types of Statements
 
 There are several types of statements in JavaScript, including:
 
-Expression statements: statements that evaluate an expression, such as function calls or assignments:
+**Expression** statements: statements that evaluate an expression, such as function calls or assignments:
 
 ```js
 // Function call
@@ -59,7 +59,8 @@ console.log('Hello World');
 // Assignment
 let x = 5;
 ```
-Conditional statements: statements that control program flow based on a condition, such as if statements or switch statements:
+
+**Conditional** statements: statements that control program flow based on a condition, such as `if` statements or `switch` statements:
 
 ```js
 // If statement
@@ -79,7 +80,7 @@ switch (x) {
 }
 ```
 
-Loop statements: statements that repeat an operation while a condition is true, such as while loops or for loops:
+**Loop** statements: statements that repeat an operation while a condition is true, such as `while` loops or `for` loops:
 
 ```js
 // While loop
@@ -93,7 +94,7 @@ for (let i = 0; i < 5; i++) {
 }
 ```
 
-Jump statements: statements that transfer control to another part of the program, such as break or return statements:
+**Jump** statements: statements that transfer control to another part of the program, such as `break` or `return` statements:
 
 ```js
 // Break statement
