@@ -44,6 +44,7 @@ public class TypeNotPresentExceptionExample {
     }
 }
 ```
+
 The output would look like this:
 
 ```shell
