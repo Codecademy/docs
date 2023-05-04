@@ -31,6 +31,7 @@ public @interface MyAnnotation {
     Class<JAXBContext> context() default JAXBContext.class;
 }
 ```
+
 Next, a class `TypeNotPresentExceptionExample` is created that uses the `MyAnnotation` annotation. It then uses reflection to read the annotation and its context element:
 
 ```java
