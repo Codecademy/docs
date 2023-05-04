@@ -1,6 +1,6 @@
 ---
 Title: 'floor()'
-Description: 'Overview and examples of using the floor() function in php.
+Description: 'Returns a rounded number down to the nearest integer and if necessary, returns a result.'
 Subjects:
   - 'Computer Science'
   - 'Web Design'
