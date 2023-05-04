@@ -29,7 +29,7 @@ $max_value = max($numbers);
 echo "The maximum value in the array is: " . $max_value;
 ```
 
-The example uses the max() function to find the highest value in the array of numbers and then prints the result using the echo statement. The output will be the maximum value found in the array.
+In the above example, we have an array of numbers, and we use the `max()` function to find the highest value in the array and then print the result using the echo statement.. The output will be:
 
 ```php
 The maximum value in the array is: 90
