@@ -1,6 +1,6 @@
 ---
 Title: 'Code'
-Description: Coding was one of the first areas commercialized with **GenAI**.
+Description: 'Coding was one of the first areas commercialized with GenAI.'
 Subjects:
   - 'Machine Learning'
   - 'Data Science'
