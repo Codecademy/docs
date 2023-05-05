@@ -1,6 +1,6 @@
 ---
 Title: 'Generative-AI'
-Description: **Generative AI** (GenAI) involves the creation of new and unique digital content. Before **GenAI** digital content of this level could only be created by human beings. These unique creations are driven by natural language prompts.
+Description: Generative AI (GenAI) involves the creation of new and unique digital content. Before GenAI digital content of this level could only be created by human beings. These unique creations are driven by natural language prompts.
 Subjects:
   - 'Machine Learning'
   - 'Data Science'
@@ -18,52 +18,54 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-**Generative AI** (GenAI) involves the creation of new and unique digital content. Before **GenAI** digital content of this level could only be created by human beings. These unique creations are driven by natural language prompts.
+**Generative AI** (GenAI) involves the creation of new and unique digital content. Before GenAI, digital content of this level could only be created by human beings. These unique creations are driven by natural language prompts.
 
 ## Generative AI
 
-**GenAI** is based on **Large Language Models** (LLMs). **LLMs** are trained on terabytes of textual data from the Internet. These models have the capability of understanding human language semantics and intent.
+GenAI is based on Large Language Models (LLMs). LLMs are trained on terabytes of textual data from the Internet. These models have the capability of understanding human language semantics and intent.
 
-In the case of **ChatGPT**, one breakthrough was the discovery that with some additional training the **LLMs** can be easily used to produce impressive text based results.
+In the case of ChatGPT, one breakthrough was the discovery that with some additional training the LLMs can be easily used to produce impressive text based results.
 
-**GenAI** is the connection of **LLMs** with technologies that in addition to text results can generate digital content such as images, video, music, or code.
+GenAI is the connection of LLMs with technologies that in addition to text results can generate digital content such as images, video, music, or code.
 
 There is exploration of going beyond digital content and use this technology for things as varied as the discovery of new molecules and 3D designs.
 
 Things are changing quickly and the impact is only just starting to being predicted and felt. Most people are expecting a step change in certain ways how we live and work.
 
-### Foundation models
+### Foundation Models
 
-In the past, AI applications were very task specific. The recent technology shift has been to use large **foundation models** to drive a number of different tasks. Large amounts of unstructured and unsupervised training is used to create the **foundation model**. **LLMs** are a type of **foundation model**.
+In the past, AI applications were very task specific. The recent technology shift has been to use large foundation models to drive a number of different tasks. Large amounts of unstructured and unsupervised training is used to create the foundation model. LLMs are a type of foundation model.
 
-The models have a generative ability and were the start of **Generative AI**. **ChatGPT** demonstrated the ability to generate and completed natural language prompts.
+The models have a generative ability and were the start of Generative AI. ChatGPT demonstrated the ability to generate text based on natural language prompts.
 
-Using the concept of **foundation models** we can leverage the vast amount of pre-trained data with a small amount of additional **tuning** and **prompting**. **Tuning** adds labels into the data. **Prompting** bridges the gap between training and our intention. While training the **LLM** is expensive, the usage referred to as **inference** is more cost effective.
+Using the concept of foundation models we can leverage the vast amount of pre-trained data with a small amount of additional tuning and prompting. Tuning adds labels into the data. Prompting bridges the gap between training and intention. While training the LLM is expensive, the usage referred to as inference is more cost effective.
 
-### The question of intelligence?
+### The Question of Intelligence?
 
-Artificial Intelligence **AI** is the matching or exceeding the intelligence of a human being. Things that we often associate with intelligence such as doing math, playing chess, or remembering vast amounts of data already can be done more quickly better than a person.
+Artificial Intelligence (AI) is the matching or exceeding the intelligence of a human being. Things that we often associate with intelligence such as doing math, playing chess, or remembering vast amounts of data already can be done more quickly and better by computer.
 
-With **LLMs** and a technology called **diffusion** AI systems can now match or exceed other skills we often associate with intelligence such as:
+With LLMs and a technology called diffusion AI systems can now match or exceed other skills we often associate with intelligence such as:
 
--Understanding and creating new text content.
--Writing never before created stories and poems.
--Analyzing content for tone and emotions.
--Creating unique images and video.
+- Understanding and creating new text content.
+- Writing never before created stories and poems.
+- Analyzing content for tone and emotions.
+- Creating unique images and video.
 
-### Is it art?
+### Is it Art?
 
-In 2022 Jason Allen’s AI generated work, Théâtre D’opéra Spatial, won first place in the digital category at the Colorado State Fair. The artist did indicate that he used the **GenAI** platform **Midjourney**. It was later discovered that the judges weren't familiar with the tool at the time of judging.
+In 2022 Jason Allen’s AI generated work, _Théâtre D’opéra Spatial_, won first place in the digital category at the Colorado State Fair. The artist did indicate that he used the GenAI platform Midjourney. It was later discovered that the judges weren't familiar with the tool at the time of judging.
 
-The question does **GenAI** create art is now being asked. Parallels are being drawn. When photography was introduced, only painting had ever been considered art. Photography wasn't considered art and the same discussion took place. Now, few people would argue that photography can be art.
+The question does GenAI create art is now being asked. Parallels are being drawn. When photography was introduced, only painting had ever been considered art. Photography wasn't considered art and the same discussion took place. Now, few people would argue that photography cannot be art.
 
-Another argument is that since there is no advanced skill required from the operator. Some consider are the application of skills developed over many years. However, modern art has been about concept and technique - not necessarily skill.
+Another argument is that since there is no advanced skill required from the operator, it is not art. Some consider art as the application of skills developed over many years. However, some modern art has been about concept and technique - not necessarily skill.
 
-An additional argument is that the human element is not present in **GenAI** created works. The counter argument is that the creation is still driven by a person who has emotion, creativity, and intent.
+An additional argument against it being art is that that the human element is not present in GenAI created works. The counter argument is that the creation is still driven by a person who has emotion, creativity, and intent.
 
 ## Applications
 
-Generative AI is a combination of several technologies and has many applications. Effective LLMs are used to understand a natural language prompt and a technologies such as **Diffusion models** in the case of image generation.
+Generative AI is a combination of several technologies and has many applications. Effective LLMs are used to understand a natural language prompt and technologies such as diffusion models are used in the case of image generation.
+
+Some content types GenAI is being used for include:
 
 - Text and Writing
 - Images
@@ -87,11 +89,9 @@ While **GenAI** is generally discussed in the context of Text, Images, Music, an
 
 ### Legality
 
-The legal aspects of Generative AI is not yet defined. Class action lawsuits due to training data showing up infringing on the rights of artists.
+The legal aspects of Generative AI is not yet defined. Class action lawsuits due to training data showing up infringing on the rights of artists. Freedom of expression, in the US fair use allows limited use of copyrighted material without permission of the copyright holder.
 
-Freedom of expression, in the US fair use allows limited use of copyrighted material without permission of the copyright holder.
-
-Such as commentary, search engines, news reporting, research so copyright law not to rigid. Transformative which is defined as a new expression, meaning, or message to the work.
+Uses are allowed, such as commentary, search engines, news reporting, research and other transformative work. Transformative is defined as bringing a new expression, meaning, or message to the work. It can be argued that GenAI works can be transformative.
 
 ### Policy
 
