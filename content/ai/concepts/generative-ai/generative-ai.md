@@ -103,11 +103,11 @@ What is different about Generative AI is the speed of change. This is creating f
 
 ### How we work
 
-Generative AI is expected to have significant impacts on the working world. Directly hundreds of millions of jobs will be affected.
+Generative AI is expected to have significant impacts on the working world. Hundreds of millions of jobs will be directly affected.
 
 In some sense the change is expected to be welcome as jobs that are currently mundane or have been difficult to automate will go away. For example frame editing, common artwork generation, and basic copywriting.
 
-One concern with this reduction is how jobs typically mentor juniors. If the mundane entry work goes away - how will the next generation be trained?
+One concern with this reduction is how jobs typically mentor juniors. If the mundane entry work goes away, how will the next generation be trained?
 
 ### Possibilities
 
@@ -117,7 +117,7 @@ Generative AI may open up entirely new ways we can create and consume content. F
 
 Generation of speech based on text with high fidelity style will allow creates to make content where they were limited by voice overlay before.
 
-Code generation, while automating repetitive work may result in higher quality code and the focus on new creative user centric solutions.
+Code generation, while automating repetitive work may result in higher quality code and the focus on new creative user-centric solutions.
 
 Movies and video creation once expensive and available through large studios and digital production groups can instead be created by individuals and bound only by their imagination.
 
