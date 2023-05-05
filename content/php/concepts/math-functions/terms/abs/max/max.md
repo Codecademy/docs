@@ -1,6 +1,6 @@
 ---
 Title: 'Max()'
-Description: 'The max() function in PHP is used to find the highest value in an array or a list of variables. It returns the highest value from the input provided.'
+Description: 'Used to find the highest value in an array or a list of variables. It returns the highest value from the input provided.'
 Subjects:
   - 'Computer Science'
   - 'Web Design'
