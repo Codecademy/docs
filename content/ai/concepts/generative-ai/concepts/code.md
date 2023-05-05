@@ -15,7 +15,7 @@ CatalogContent:
 
 **Coding** was one of the first areas commercialized with GenAI.
 
-### Code
+## Code
 
 Github released Copilot X which act as an AI paired programmer. Some features include:
 
