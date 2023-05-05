@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-Coding was one of the first areas commercialized with **GenAI**.
+**Coding** was one of the first areas commercialized with GenAI.
 
 ### Code
 
