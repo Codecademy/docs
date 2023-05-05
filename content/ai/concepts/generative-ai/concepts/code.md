@@ -17,18 +17,18 @@ CatalogContent:
 
 ## Code
 
-GitHub released Copilot X which acts as an AI-paired programmer. Some features include:
+Generative AI is at an early stage. It often yields impressive but not perfect results. The best workflow is where generated output can be further reviewed and improved. For example, GitHub has released Copilot X which acts as an AI-paired programmer. Some features include:
 
 - Code completion.
-- Chat ability with Copilot and ask things it to explain what the code does or write unit tests for you.
-- Answer questions based on documentation.
-- Copilot is integrated into large documentation systems such as MDN.
+- Chat ability that can explain what code does.
+- Ability to generate unit tests from new code.
+- Answer questions based on existing documentation such as MDN; a major open source web technology documentation site.
 - Voice coding.
-- Fill-in-text in pull requests for things like summaries and descriptions.
+- Fill-in-the-text parts of pull requests including summaries and descriptions.
 
-GenAI for coding offers many future possibilities. Generative AI can complete mundane tasks (such as connecting different computer systems) by understanding the protocols involved without having to map fields and values manually. Some other uses include:
+GenAI for coding offers many future possibilities. It's showing promise in many areas such as writing functional code blocks, building user interfaces, and even connecting different systems by mapping fields and values. Some other uses include:
 
 - Bug fixing
 - Code refactoring.
 - Style fixing
-- Application UI development
+- Web site creation.
