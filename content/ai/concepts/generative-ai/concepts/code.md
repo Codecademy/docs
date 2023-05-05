@@ -20,8 +20,8 @@ CatalogContent:
 Generative AI is at an early stage. It often yields impressive, but not perfect results. The best workflow is where generated output can be further reviewed and improved. For example, GitHub has released Copilot X which acts as an AI-paired programmer. Some features include:
 
 - Code completion.
-- Chat ability that can explain what code does.
-- Ability to generate unit tests from new code.
+- Chat ability that can explain what the code does.
+- Ability to generate unit tests.
 - Answer questions based on existing documentation such as MDN; a major open source web technology documentation site.
 - Voice coding.
 - Fill-in-the-text parts of pull requests; for example the summary and description.
