@@ -1,6 +1,6 @@
 ---
 Title: 'floor()'
-Description: 'Returns a rounded number down to the nearest integer and if necessary, returns a result.'
+Description: 'Returns a rounded number down to the nearest integer.'
 Subjects:
   - 'Computer Science'
   - 'Web Design'
