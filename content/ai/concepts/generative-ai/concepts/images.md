@@ -1,6 +1,6 @@
 ---
 Title: 'Images'
-Description: People can generate new images from existing text prompts and images. There is a random seed so the images are unique new creations.  **GenAI** uses **diffusion models** to create new unique images.
+Description: GenAI can generate new images from existing text prompts and images. Because of a random seed, the images generated are unique creations. GenAI uses diffusion models to create these new unique images.
 Subjects:
   - 'Machine Learning'
   - 'Data Science'
@@ -13,17 +13,17 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-People can generate new images from existing text prompts and images. There is a random seed so the images are unique new creations. **GenAI** uses **diffusion models** to create new unique images.
+GenAI can generate new images from existing text prompts and images. Because of a random seed, the images generated are unique creations. GenAI uses diffusion models to create these new unique images.
 
-#### Diffusion models
+## Diffusion Models
 
-Image creation is mainly based on a relatively new development called Diffusion. What is a diffusion model?
+Image creation is mainly based on a relatively new development called diffusion. What is a diffusion model?
 
-**GANs** or were the standard way to create images until recently. Random noise is used to create an image. The image is then fed into another network which is trained to determine the quality. Then both become better.
+Until recently, Generative Adversarial Networks (GANs) were the standard way to create images. With this approach, random noise is used to create an image. The image is then fed into another network which is trained to determine the quality. With more iterations, both networks (adversaries) can improve.
 
-Diffusion models are instead inspired by the world of physics. Think of opening a bottle of perfume on one side of a large room. Eventually the molecules we smell diffuse into the air in the room. The noisy track of the molecules can be reversed back to the bottle.
+Diffusion models are instead inspired by the world of physics. Imagine a pot of coffee brewing in a large room. Eventually the molecules we can smell diffuse into the air and travel throughout. If later someone asked for another pot of coffee we could trace back the motion track of the molecules and create another pot.
 
-The text is interpreted and used by an image creator which is a diffusion model.
+GenAI image platforms are trained on vast amounts of data. By using diffusion models, these platforms can turn natural language descriptions into photo-realistic images. Some of these platforms include:
 
 - DALL-E
 - Midjourney
