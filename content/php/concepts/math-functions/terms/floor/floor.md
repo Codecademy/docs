@@ -27,6 +27,7 @@ $result = floor(n);
 Where `n` is the number to be rounded down to the nearest integer.
 
 ## Example
+
 ```php
 floor(3.4)
 ```
