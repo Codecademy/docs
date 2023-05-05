@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `max()` function in PHP is used to find the highest value in an [array](https://www.codecademy.com/resources/docs/php/arrays) or a list of [variables](https://www.codecademy.com/resources/docs/php/variables). It returns the highest value from the input provided.
+The **`max()`** function in PHP is used to find the highest value in an [array](https://www.codecademy.com/resources/docs/php/arrays) or a list of [variables](https://www.codecademy.com/resources/docs/php/variables). It returns the highest value from the input provided.
 
 ## Syntax
 
