@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/code-foundations'
 ---
 
-**Reviews** are conducted by members of the Curriculum Free Team (CFT) at Codecademy who help maintain the [`docs` repository](https://www.codecademy.com/resources/docs/docs-community/docs-repository).
+**Reviews** are conducted by members of the Curriculum Free Team (CFT) at Codecademy who help maintain the [`docs` repository](https://www.codecademy.com/resources/docs/docs-community/contributions/docs-repository).
 
 ## The Review Process
 
