@@ -9,8 +9,8 @@ Subjects:
 Tags:
   - 'AI'
 CatalogContent:
-  - 'machine-learning'
-  - 'paths/data-science'
+  - 'paths/machine-learning-engineer'
+  - 'intro-to-chatgpt'
 ---
 
 **Coding** was one of the first areas commercialized with GenAI.

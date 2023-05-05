@@ -9,11 +9,11 @@ Subjects:
 Tags:
   - 'AI'
 CatalogContent:
-  - 'machine-learning'
-  - 'paths/data-science'
+  - 'paths/machine-learning-engineer'
+  - 'intro-to-chatgpt'
 ---
 
-GenAI can generate new images from existing text prompts and images. Because of a random seed, the images generated are unique creations. GenAI uses diffusion models to create these new unique images.
+**Generative images** is the generation of new unique images from text prompts and existing images. Because of a random seed, the images generated are unique creations. GenAI uses diffusion models to create these new unique images.
 
 ## Diffusion Models
 

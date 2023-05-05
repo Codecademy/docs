@@ -14,11 +14,11 @@ Tags:
   - 'Prompt Engineering'
   - 'Attention'
 CatalogContent:
-  - 'machine-learning'
-  - 'paths/data-science'
+  - 'paths/machine-learning-engineer'
+  - 'intro-to-chatgpt'
 ---
 
-GenAI allows for the creation of long-playing high-fidelity music from text descriptions and additional sound input conditions.
+**Generative Music** is the creation of long-playing high-fidelity music from text descriptions and additional sound input conditions.
 
 GenAI can take the recorded hum of a melody and turn it into a song being played by guitar. It can change the style of any melody or song, for example, changing it to jazz, rock, or computer music.
 

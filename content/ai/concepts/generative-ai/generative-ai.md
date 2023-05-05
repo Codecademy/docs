@@ -14,8 +14,8 @@ Tags:
   - 'Prompt Engineering'
   - 'Attention'
 CatalogContent:
-  - 'machine-learning'
-  - 'paths/data-science'
+  - 'paths/machine-learning-engineer'
+  - 'intro-to-chatgpt'
 ---
 
 **Generative AI** (GenAI) involves the creation of new and unique digital content. Before GenAI, digital content of this level could only be created by human beings. These unique creations are driven by natural language prompts.
@@ -67,10 +67,10 @@ Generative AI is a combination of several technologies and has many applications
 
 Some content types GenAI is being used for include:
 
-- Text and Writing
-- Images
-- Music
-- Code
+- [Text](https://www.codecademy.com/resources/docs/ai/generative-ai/text)
+- [Images](https://www.codecademy.com/resources/docs/ai/generative-ai/images)
+- [Music](https://www.codecademy.com/resources/docs/ai/generative-ai/music)
+- [Code](https://www.codecademy.com/resources/docs/ai/generative-ai/code)
 
 ### Other areas
 
