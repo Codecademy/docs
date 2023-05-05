@@ -19,7 +19,7 @@ CatalogContent:
 
 GitHub released Copilot X which acts as an AI-paired programmer. Some features include:
 
-- Code completion
+- Code completion.
 - Chat ability with Copilot and ask things it to explain what the code does or write unit tests for you.
 - Answer questions based on documentation.
 - Copilot is integrated into large documentation systems such as MDN.
