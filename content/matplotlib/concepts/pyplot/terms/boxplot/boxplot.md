@@ -1,6 +1,6 @@
 ---
-Title: '.subplots()'
-Description: 'Draws a box and whisker plot.'
+Title: '.boxplot()'
+Description: 'Returns a box and whisker plot.'
 Subjects:
   - 'Data Science'
   - 'Data Visualization'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.boxplot()`** is a method in the matplotlib library returns a box and whisker plot by taking one or more arrays of data as input.
+The **`.boxplot()`** is a method in the Matplotlib library that returns a box and whisker plot based on one or more arrays of data as input.
 
 ## Syntax
 
@@ -21,13 +21,13 @@ The **`.boxplot()`** is a method in the matplotlib library returns a box and whi
 matplotlib.pyplot.boxplot(x, notch, sym, vert, whis, bootstrap, usermedians, conf_intervals, positions, widths, patch_artist, labels, manage_ticks, autorange, meanline, zorder )
 ```
 
-The 'x' parameter is required, and represents an array or a sequence of vectors. Other parameters are optional and used to modify the features of the boxplot.
+The `x` parameter is required, and represents an array or a sequence of vectors. Other parameters are optional and used to modify the features of the boxplot.
 
 `.boxplot()` takes the following arguments:
 
 - `x` : Takes in the data to be plotted as a list, array, or a sequence of arrays. Each array represents a different dataset to be plotted in the boxplot.
-- `notch`:  If `True`, a notch is drawn around the median to give an idea of the median uncertainty.
-- `sym`: This parameter is used to specify the symbol to be used to represent outliers. By default, outliers are represented as dots.
+- `notch`: If `True`, a notch is drawn around the median to represent the median uncertainty.
+- `sym`: A parameter is used to modify the designation of outliers. By default, outliers are represented as dots, if an empty string is passed any outliers in the data will not be visible in the plot.
 - `vert`: If `True`, the boxplot is drawn vertically (default). If `False`, it is drawn horizontally.
 - `whis`: This parameter is used to specify the whisker length as a multiple of the IQR. The default is 1.5, which is the standard length.
 - `bootstrap`: Specifies whether to bootstrap the confidence intervals around the median for notched boxplots.
@@ -60,7 +60,7 @@ plt.show()
 
 Output:
 
-![Output of matplotlib.pyplot.boxplot() method example 1](https://raw.githubusercontent.com/astro-satyam75/docs/my_feature/media/matplotlib-boxplot-example1-output.png)
+![Output of matplotlib.pyplot.boxplot() method example 1](https://raw.githubusercontent.com/astro-satyam75/docs/my_feature/media/matplotlib-boxplot-example-one.png)
 
 ```py
 import matplotlib.pyplot as plt
@@ -83,4 +83,4 @@ plt.show()
 
 Output:
 
-![Output of matplotlib.pyplot.boxplot() method example 2](https://raw.githubusercontent.com/astro-satyam75/docs/my_feature/media/matplotlib-boxplot-example2-output.png)
+![Output of matplotlib.pyplot.boxplot() method example 2](https://raw.githubusercontent.com/astro-satyam75/docs/my_feature/media/matplotlib-boxplot-example-two.png)
