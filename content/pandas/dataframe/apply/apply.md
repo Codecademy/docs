@@ -84,7 +84,7 @@ print(m)
 print(type(m))
 ```
 
-Results are below:
+The results are the following:
 
 ```shell
 Original dataframe:
