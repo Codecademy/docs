@@ -11,7 +11,6 @@ Tags:
 
   - 'Rails'
 CatalogContent:
-  - 'learn-rails'
   - 'learn-ruby'
   - 'paths/full-stack-engineer-career-path'
 ---
