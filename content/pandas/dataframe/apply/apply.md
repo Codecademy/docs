@@ -23,7 +23,7 @@ x = dataframevalue.apply(func, axis=0, raw=False, result_type=None, args=(), **k
 - `dataframevalue` is the DataFrame with the source data.
 - This function `func` does `NOT` make changes to the original DataFrame object. The result is saved to a variable, in this case, it's `x`.
 
-`dataframevalue` will be divided into "Series" objects and passed each "Series" to the funciton `x`. When axis = 0 (default vaule), `dataframevalue` was cut into Series objects vertically. Each Series object has same index with the DataFrame’s index. When axis = 1, `dataframevalue` was cut horizontally. Each Series object has same column name with the DataFrame’s column name.
+`dataframevalue` will be divided into Series objects and each Series is passed to the function `x`. When `axis` = 0 (default value), `dataframevalue` was cut into Series objects vertically. Each Series object has the same index as the DataFrame’s index. When `axis` = 1, `dataframevalue` was cut horizontally. Each Series object has the same column name as the DataFrame’s column name.
 
 When `result_type` = 0 (default value), the final return type depends on the return type of function `func`. Otherwise, it's decided by the `result_type` argument. 
 
