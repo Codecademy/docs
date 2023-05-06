@@ -7,7 +7,8 @@ Subjects:
   - 'Data Science'
 Tags:
   - 'Ruby'
-  - 'GraalVMg'
+  - 'Optimization'
+
   - 'Rails'
 CatalogContent:
   - 'learn-rails'
