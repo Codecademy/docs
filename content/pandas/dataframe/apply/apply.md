@@ -36,7 +36,7 @@ More details about `DataFrame.apply()`'s parameters:
 |   `raw`    | bool. Default `False` | Determines the type of the object passed into function `'func'`: Series or ndarray. `False`, it passes each row or column as a Series object; `True`, it passes ndarray objects instead. This will achieve much better performance when applying a Numpy reduction function.|
 | `result_type` | {'broadcast','expand', 'reduce', , None}. Default None | These options only work when axis=1 :`'expand'`, list-like results will be converted into columns; `'reduce'`,the opposite of `'expand'`, returns a Series object if possible rather than a list-like results ; `'broadcast'`, results will have the original shape of the DataFrame data, also with same index and columns; `'None'`, The default behaviour.The return type depends on the return type of function.|
 |    `args`  | tuple   | Additional positional arguments to `func`. |
-|  `**kwargs`  |     |  keyword arguments to func in addtion. |
+|  `**kwargs`  |     |  Additional keyword arguments to `func`. |
 
 ## Example
 
