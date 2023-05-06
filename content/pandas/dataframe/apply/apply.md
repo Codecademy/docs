@@ -41,7 +41,8 @@ More details about `DataFrame.apply()`'s parameters:
 ## Example
 
 In the following examples, the `.apply()` method is used with different parameters:  
-'y' is same with 'x'. So you can see the default vault of axis is '0'. 'z' is different with "y". so you can see how 'axis = 1' takes effects.
+
+`x` and `y` apply the `calc_sum` function to `df` to calculate the sum of each column. `z` applies the `calc_sum` function to `df` to calculate the sum of each row. `l` applies the `np.sqrt` function to `df` to calculate the square root of each value. `m` applies a lambda function to create a new DataFrame with three column values.
 
 ```py
 import pandas as pd
