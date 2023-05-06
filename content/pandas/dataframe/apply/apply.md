@@ -21,7 +21,7 @@ The **`apply()`** method is used to apply a function along one axis of DataFrame
 x = dataframevalue.apply(func, axis=0, raw=False, result_type=None, args=(), **kwargs)
 ```
 - `dataframevalue` is the DataFrame with the source data.
-- This function `func` does `NOT` make changes to the original DataFrame object. The result is saved to a variable, in this case, it's `x`.
+- This function `func` does NOT make changes to the original DataFrame object. The result is saved to a variable, in this case, it's `x`.
 
 `dataframevalue` will be divided into Series objects and each Series is passed to the function `x`. When `axis` = 0 (default value), `dataframevalue` was cut into Series objects vertically. Each Series object has the same index as the DataFrame’s index. When `axis` = 1, `dataframevalue` was cut horizontally. Each Series object has the same column name as the DataFrame’s column name.
 
