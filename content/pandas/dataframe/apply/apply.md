@@ -1,6 +1,6 @@
 ---
 Title: '.apply()'
-Description: 'The apply() method allows you to apply a function along one axis of the DataFrame.'
+Description: 'Used to apply a function along one axis of the DataFrame.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
