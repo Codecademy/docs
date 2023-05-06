@@ -104,7 +104,7 @@ class cake:
   def __next__(self):
     if self.piece < self.maxPieces:
       self.piece += 1
-      return "piece"+str(self.piece)
+      return "piece" + str(self.piece)
     else:
       raise StopIteration
 
