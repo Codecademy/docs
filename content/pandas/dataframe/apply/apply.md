@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
- "apply()" is a method of Pandas DataFrame. It allows you apply function along one axis of DataFrame data. 
+The **`apply()`** method is used to apply a function along one axis of DataFrame data. 
 
 ## Syntax
 
