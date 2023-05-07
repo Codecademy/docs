@@ -60,7 +60,7 @@ plt.show()
 
 Output:
 
-![Output of matplotlib.pyplot.boxplot() method example 1](https://raw.githubusercontent.com/astro-satyam75/docs/my_feature/media/matplotlib-boxplot-example-1.png)
+![Output of matplotlib.pyplot.boxplot() method example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/matplotlib-boxplot-example-1.png)
 
 ```py
 import matplotlib.pyplot as plt
