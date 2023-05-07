@@ -14,9 +14,10 @@ CatalogContent:
 ---
 
 **setTimeout** is a function serviced globally by the window object provided by the user's browser, it is not part of JavaScript because it is not a JavaScript function.
+
 ## Syntax
 
- **setTimeout** is capable of receiving multiple parameters where the first is a callback function, the second parameter receives a number that represents the time in milliseconds **(1s = 1000ms)**, that defines the time needed for the callback to execute, the third parameter onwards will be the parameters that the callback function would take in case arguments are defined within the callback.
+**setTimeout** is capable of receiving multiple parameters where the first is a callback function, the second parameter receives a number that represents the time in milliseconds **(1s = 1000ms)**, that defines the time needed for the callback to execute, the third parameter onwards will be the parameters that the callback function would take in case arguments are defined within the callback.
 
 The provided sample code contains some examples of how setTimeout is composed:
 
@@ -35,9 +36,8 @@ The following pieces of code will show some examples about the setTimeout implem
 ```js
 // Defining the function
 
-function sayHello(){
-
-    console.log('Hello from Codecademy');
+function sayHello() {
+  console.log('Hello from Codecademy');
 }
 
 // Calling the function using setTimeout.
@@ -57,9 +57,7 @@ An example based on [Arrow Functions](https://www.codecademy.com/resources/docs/
 // Defining the function
 
 setTimeout(() => {
-
   console.log('HelloWorld from Codecademy');
-
 }, 2000);
 ```
 
@@ -69,22 +67,19 @@ As we're calling our function with `setTimeout` the output will be displayed aft
 HelloWorld from Codecademy
 ```
 
-##### Example using a parameters
+### Example using a parameters
 
 ```js
-
 // Defining the function
 
 function sayHello(a, b) {
-
-    console.log('hello ' + a);
-    console.log('Welcome to ' + b);
+  console.log('hello ' + a);
+  console.log('Welcome to ' + b);
 }
 
 setTimeout(sayHello, 3000, 'Student', 'Codecademy');
 
 console.log('This message is shown first');
-
 ```
 
 As we're calling our function with `setTimeout` the output will be displayed after 3 seconds:
