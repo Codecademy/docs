@@ -83,4 +83,4 @@ plt.show()
 
 Output:
 
-![Output of matplotlib.pyplot.boxplot() method example 2](https://raw.githubusercontent.com/astro-satyam75/docs/my_feature/media/matplotlib-boxplot-example-2.png)
+![Output of matplotlib.pyplot.boxplot() method example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/matplotlib-boxplot-example-2.png)
