@@ -34,7 +34,7 @@ These frameworks are used for developing any software for the Web, including web
 
 - [Angular](https://www.codecademy.com/resources/docs/open-source/angular), an open-source [TypeScript](https://www.codecademy.com/resources/docs/typescript)-based framework.
 - Django, a [Python](https://www.codecademy.com/resources/docs/python)-based framework that is fast, secure, and has a great admin interface.
-- [Rails](https://www.codecademy.com/resources/docs/open-source/ruby-on-rails), a full-stack framework written in [Ruby](https://www.codecademy.com/resources/docs/ruby).
+- [Rails](https://www.codecademy.com/resources/docs/ruby/ruby-on-rails), a full-stack framework written in [Ruby](https://www.codecademy.com/resources/docs/ruby).
 - Gatsby, a [React](https://www.codecademy.com/resources/docs/react)-based framework used for building static websites like landing pages, portfolios, and blogs.
 
 ### Mobile Development Frameworks
