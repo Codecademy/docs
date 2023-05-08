@@ -18,7 +18,7 @@ CatalogContent:
 
 Function `main()` is the entry point to a Kotlin program and is required. The `main()` function is meant to include the code of the program and is not called anywhere. The code should be between the `main()` function curly brackets `{}`.
 
-```
+```kotlin
 fun main() {
   println("Hello World")
 }
@@ -52,7 +52,7 @@ fun functionName(argumentName: dataType, argumentName2 : datatype){
 }
 ```
 
-```pseudo
+```kotlin
 fun sample(num1: Int,num2: Int){
   println(num1 + num2)
 }
@@ -60,7 +60,7 @@ fun sample(num1: Int,num2: Int){
 
 When calling the function, `arguments` can be put in their assigned spot or specified by name. If the arguments are specified by name they do not need to be in the same order as in the function header.
 
-```pseudo
+```kotlin
 fun main(){
   println(sample(3,5))
   println(sample(num2=5, num1=3))
@@ -69,7 +69,7 @@ fun main(){
 
 Arguments can have a default value. It is assigned with the equals sign `=`.
 
-```
+```kotlin
 fun default(name: String = "Kotlin"){
   print("Hello $name")
 }
@@ -77,7 +77,7 @@ fun default(name: String = "Kotlin"){
 
 Default arguments can be changed when calling a function.
 
-```
+```kotlin
 fun main(){
   default("Java")
 }
@@ -95,7 +95,7 @@ fun functionName(argument): return type {
 }
 ```
 
-```
+```kotlin
 fun sample(name: String): String {
   return "Hello " + name
 }
@@ -121,7 +121,7 @@ fun functionName(argument) {
 
 If there is a return statement in the function, then there must be also a return type. The return statement is defined by the keyword `return`. Lines after the return statement will not be executed.
 
-```pseudo
+```kotlin
 fun adding(num1: Int,num2: Int): Int{
   var sum = num1 + num2
   // Return statement, returns the variable sum
@@ -135,7 +135,7 @@ fun adding(num1: Int,num2: Int): Int{
 
 The single line function can be written only if the function has a single expression.
 
-```
+```kotlin
 fun area(side1: Int, side2: Int): Int{
   return side1 * side2
 }
@@ -143,13 +143,13 @@ fun area(side1: Int, side2: Int): Int{
 
 Curly brackets `{}` and `return` can be removed and by adding an equals sign `=`, we get the single line function.
 
-```
+```kotlin
 fun area(side1: Int, side2: Int): Int = side1 * side2
 ```
 
 The compiler can infer the return type so we can also remove the return type declaration.
 
-```
+```kotlin
 fun area(side1: Int, side2: Int) = side1 * side2
 ```
 
@@ -161,9 +161,11 @@ A function becomes a function literal when it is assigned as a value. There are 
 
 A lambda expression is a short function between curly braces `{}`. The `return` is replaced by `->`. Adding `return type` is optional because the compiler can infer it from the type interface.
 
-```
+```pseudo
 variable name = {Lambda Expression}
+```
 
+```kotlin
 fun main() {
   // Lambda Expression
   val adding = {num1: Int, num2: Int -> num1 + num2 }
@@ -182,7 +184,7 @@ An anonymous function is assigned as a variable, `fun` comes after equals sign `
 - Option One: After the variable name is the argument types in parentheses `()` then `->` and the return type. This is followed by the equals sign `=` and the `fun` keyword, arguments in parenthesis, the return type, and the single return statement in curly braces `{}` .
 - Option Two: After the variable name is an equals sign `=`, then the `fun` keyword, followed by the arguments with argument types in parentheses `()`, followed by `:` and the return type, followed by a single return statement in curly brackets `{}`.
 
-```
+```kotlin
 fun main() {
   // Option One
   var addingOne: (Int, Int) -> Int = fun(num1, num2): Int { return num1 + num2 }
@@ -196,3 +198,9 @@ fun main() {
 // 3
 // 3
 ```
+
+## Video Walkthrough
+
+Watch this video to learn about functions and their use in Kotlin programming.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Jl7ARLCZv5w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
