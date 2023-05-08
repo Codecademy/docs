@@ -12,7 +12,6 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-[Introduction - make sure first mention of concept is in **bold**.] (The first 160 characters of this section will appear as the description of the page when it shows up on search engines. It's important!)
 
 **Scope** in programming refers to the visibility and accessibility of variables, functions, and objects within a particular part of a program. It defines where these entities can be accessed and how long their values persist during program execution. Understanding scope is crucial for writing maintainable and bug-free code, as it helps organize and manage variables, prevents naming conflicts, and ensures proper memory management.
 
