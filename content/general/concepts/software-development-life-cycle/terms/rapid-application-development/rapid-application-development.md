@@ -20,6 +20,7 @@ CatalogContent:
 **Rapid Application Development (RAD)** is a software development methodology that emphasizes quick prototyping and iterative development to meet the requirements of a project. The primary goal of RAD is to reduce development time and costs by quickly delivering a working prototype to the client for feedback and iteration.
 
 ## Origins 
+
 RAD was developed in the 1980s by James Martin as a response to the Waterfall model, which was the dominant methodology at the time. Martin wanted to create a more efficient approach to software development that could handle fast-changing requirements and enable quick delivery of applications. The RAD approach was based on iterative development, where the emphasis was on building a prototype quickly and then refining it based on feedback from stakeholders.
 
 ## Methodology
