@@ -23,7 +23,8 @@ CatalogContent:
 
 RAD was developed in the 1980s by James Martin as a response to the Waterfall model, which was the dominant methodology at the time. Martin wanted to create a more efficient approach to software development that could handle fast-changing requirements and enable quick delivery of applications. The RAD approach was based on iterative development, where the emphasis was on building a prototype quickly and then refining it based on feedback from stakeholders.
 
-## Methodology
+## Methodology  
+
 RAD involves a collaborative approach where developers work closely with stakeholders to identify requirements, design, prototype, develop, and test the software. The process is iterative, meaning that feedback from the client is used to refine the prototype until the final product is delivered. RAD is particularly useful for projects with fast-changing requirements and where time-to-market is critical.
 
 ## Advantages 
