@@ -27,6 +27,7 @@ RAD was developed in the 1980s by James Martin as a response to the Waterfall mo
 RAD involves a collaborative approach where developers work closely with stakeholders to identify requirements, design, prototype, develop, and test the software. The process is iterative, meaning that feedback from the client is used to refine the prototype until the final product is delivered. RAD is particularly useful for projects with fast-changing requirements and where time-to-market is critical.
 
 ## Advantages 
+
 - Rapid prototyping and iterative development ensure that the final product meets the client's needs.
 - Reduces development time and costs.
 - Collaboration between developers and stakeholders ensures that the project's requirements are met.
