@@ -36,11 +36,10 @@ RAD involves a collaborative approach where developers work closely with stakeho
 
 ## Disadvantages
 
--  Can result in a poorly architected system if the focus is on delivering quickly over robust architectural design.
--  Requires significant collaboration between developers and stakeholders, which can be challenging.
+- Can result in a poorly architected system if the focus is on delivering quickly over robust architectural design.
+- Requires significant collaboration between developers and stakeholders, which can be challenging.
 - May not be suitable for complex projects where requirements are not well defined or where there are significant technical constraints.
 - Quality of the final product may be compromised if fast delivery is emphasized over quality.
 - Requires skilled developers with expertise in rapid prototyping and iterative development.
 
 While the RAD methodology's emphasis on rapid prototyping and iterative development has its advantages, it also has the potential for poorly designed software. The use of RAD should be considered on a case-by-case basis, depending on the project's specific requirements and constraints.
-
