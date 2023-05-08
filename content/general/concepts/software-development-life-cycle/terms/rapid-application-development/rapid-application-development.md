@@ -38,7 +38,7 @@ RAD involves a collaborative approach where developers work closely with stakeho
 
 -  Can result in a poorly architected system if the focus is on delivering quickly over robust architectural design.
 -  Requires significant collaboration between developers and stakeholders, which can be challenging.
--May not be suitable for complex projects where requirements are not well defined or where there are significant technical constraints.
+- May not be suitable for complex projects where requirements are not well defined or where there are significant technical constraints.
 - Quality of the final product may be compromised if fast delivery is emphasized over quality.
 - Requires skilled developers with expertise in rapid prototyping and iterative development.
 
