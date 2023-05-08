@@ -1,1 +1,1 @@
-content/cpp/concepts/structure/structure.md
+content/python/concepts/conditionals/conditionals.md
