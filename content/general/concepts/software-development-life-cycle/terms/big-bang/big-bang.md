@@ -1,6 +1,6 @@
 ---
 Title: 'Big Bang'
-Description: 'Big Bang is a software development model without any specific processes.'
+Description: 'Big Bang is a software development model without specific processes.'
 Subjects:
   - 'Mobile Development'
   - 'Web Development'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The **Big Bang** model is a [Software Development Life Cycle](https://www.codecademy.com/resources/docs/general/software-development-life-cycle) (SDLC) model without any specific processes.
+The **Big Bang** model is a [Software Development Life Cycle](https://www.codecademy.com/resources/docs/general/software-development-life-cycle) (SDLC) model without specific processes.
 
 The Big Bang model requires no or minimal planning. Instead, the development starts with acquiring the inputs, such as:
 
@@ -44,12 +44,12 @@ The strength of the Big Bang model lies in its simplicity. This model can offer 
 - it is easy to understand the process and manage the project,
 - it can be time and cost-effective,
 - it requires few resources,
-- it provides flexibility for developers but also the project.
+- it provides flexibility for developers and also the project.
 
 ## Disadvantages
 
 The Big Bang model, mainly due to the minimal planning included in it, has the following disadvantages:
 
 - it is not suitable for complex, larger or ongoing projects,
-- it comes with uncertainty, and high-risks and low reliability,
+- it comes with uncertainty, can have high risks and low reliability,
 - unclear requirements at the beginning of the development can create higher costs or longer developmental times for the final product.
