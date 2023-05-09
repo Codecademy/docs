@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD041 MD002 -->
 <div align="center">
   <h1>📕 Codecademy Docs</h1>
   <strong>Documentation for popular programming languages and frameworks.</strong><br>
@@ -15,24 +16,22 @@ Docs is live with over 1000 high-quality entries. Now that the MVP is out, our g
 
 ### 📝 Content Team
 
-- [@lucwhite](https://github.com/lucwhite), Curriculum Developer
-- [@yangc95](https://github.com/yangc95), Content Contributor
-- [@KTom101](https://github.com/KTom101), Content Contributor
+- [@aherman91](https://github.com/aherman91), Curriculum Developer
 - [@caupolicandiaz](https://github.com/caupolicandiaz), Content Contributor
-- [@sswiniarski](https://github.com/sswiniarski), Content Contributor
 - [@HishamT](https://github.com/HishamT), Content Contributor
+- [@KTom101](https://github.com/KTom101), Content Contributor
+- [@sswiniarski](https://github.com/sswiniarski), Content Contributor
+- [@yangc95](https://github.com/yangc95), Content Contributor
 
 We are currently building a team of community volunteers and educators to maintain Codecademy Docs. Let us know if you are interested.
 
 ### 🏗 Engineering Team
 
-- [@aionate0812](https://github.com/aionate0812)
 - [@awgraves](https://github.com/awgraves)
 - [@bndiep](https://github.com/bndiep)
 - [@christian-dinh](https://github.com/christian-dinh)
 - [@codecademy-aditya](https://github.com/codecademy-aditya)
 - [@jrood](https://github.com/jrood)
-- [@njradford](https://github.com/njradford)
 
 ## How do I contribute?
 
