@@ -1,1 +1,1 @@
-content/general/concepts/server/server.md
+content/python/concepts/conditionals/conditionals.md

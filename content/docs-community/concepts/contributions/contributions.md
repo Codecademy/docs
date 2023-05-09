@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/code-foundations'
 ---
 
-**Contributions** to Docs allow community members of all skill sets to not only reinforce what they've (perhaps already) learned, but also to hone their skills in version control with [Git](https://www.codecademy.com/resources/docs/git), peer-to-peer collaboration on [GitHub](https://www.codecademy.com/resources/docs/general/github), and writing content in [Markdown](https://www.codecademy.com/resources/docs/markdown). Contributors get to work with the content team that maintains Docs as their contributions go through the [review](https://www.codecademy.com/resources/docs/general/docs-community/reviews) process.
+**Contributions** to Docs allow community members of all skill sets to not only reinforce what they've (perhaps already) learned, but also to hone their skills in version control with [Git](https://www.codecademy.com/resources/docs/git), peer-to-peer collaboration on [GitHub](https://www.codecademy.com/resources/docs/general/github), and writing content in [Markdown](https://www.codecademy.com/resources/docs/markdown). Contributors get to work with the content team that maintains Docs as their contributions go through the [review](https://www.codecademy.com/resources/docs/docs-community/contributions/reviews) process.
 
 There are two primary types of Docs contributions:
 
