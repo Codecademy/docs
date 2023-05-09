@@ -35,5 +35,5 @@ Each iteration consists of all above phases but has different aims which are usu
 
 ## Disadvantages:
 
-- Complex workflow and required expertise especially in Risk Analysis.
+- Complex workflow and requires expertise especially in risk analysis.
 - Costly and time-consuming.
