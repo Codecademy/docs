@@ -1,6 +1,6 @@
 ---
 Title: '.Max()'
-Description: 'Returns the larger of two specified numbers.'
+Description: 'Returns the greater of two specified numbers.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.Max()`** method returns the larger of two specified numbers.
+The **`Math.Max()`** method returns the greater of two specified numbers.
 
 ## Syntax
 
@@ -43,4 +43,21 @@ This example results in the following output:
 
 ```shell
 Math.Max (int) = 345
+```
+
+## Codebyte Example
+
+The following example is runnable and uses the `Math.Max()` method to return the greater number from the given two `integer` type numbers, `number1` and `number2`:
+
+```codebyte/csharp
+using System;
+
+public class Example {
+  public static void Main() {
+    int number1 = 12756, number2 = 12104;
+    int max = Math.Max(number1, number2);
+
+    Console.WriteLine("The max value of " + number1 + " and " + number2 + " is " + max);
+  }
+}
 ```

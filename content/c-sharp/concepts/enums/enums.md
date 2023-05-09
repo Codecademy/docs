@@ -51,13 +51,13 @@ The following example uses an enum to identify whether a given place is a city, 
 ```cs
 using System.Collections.Generic;
 
-enum PlaceType {
+public enum PlaceType {
   City,
   Country,
   Planet,
 }
 
-class Place {
+public class Place {
   public string name { get; set; }
   public PlaceType type { get; set; }
 
@@ -85,7 +85,7 @@ The following example uses an enum to classify different types of log messages.
 using System;
 using System.Collections.Generic;
 
-enum LogLevel {
+public enum LogLevel {
   Info,
   Warn,
   Error,

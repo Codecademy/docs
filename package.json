@@ -5,7 +5,7 @@
     "glob": "^7.1.7"
   },
   "devDependencies": {
-    "@codecademy/eslint-config": "^3.1.0",
+    "@codecademy/eslint-config": "^8.0.0",
     "@codecademy/prettier-config": "^0.1.10",
     "@codecademy/tsconfig": "^0.2.0",
     "@types/glob": "^7.1.4",
