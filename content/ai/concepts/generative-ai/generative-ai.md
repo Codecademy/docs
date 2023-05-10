@@ -90,7 +90,7 @@ While GenAI is generally discussed in the context of text, images, music, and co
 
 The legal aspects of Generative AI is not yet defined. Class action lawsuits due to training data showing up infringing on the rights of artists. Freedom of expression, in the US fair use allows limited use of copyrighted material without permission of the copyright holder.
 
-Uses are allowed, such as commentary, search engines, news reporting, research and other transformative work. Transformative is defined as bringing a new expression, meaning, or message to the work. It can be argued that GenAI works can be transformative.
+Some uses are allowed, such as commentary, search engines, news reporting, research, and other transformative work. **Transformative** is defined as bringing a new expression, meaning, or message to the work. It can be argued that GenAI works can be transformative.
 
 ### Policy
 
