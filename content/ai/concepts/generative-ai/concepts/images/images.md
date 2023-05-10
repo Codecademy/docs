@@ -1,6 +1,6 @@
 ---
 Title: 'Images'
-Description: GenAI can generate new images from existing text prompts and images. Because of a random seed, the images generated are unique creations. GenAI uses diffusion models to create these new unique images.
+Description: 'GenAI can generate new images from existing text prompts and images. Because of a random seed, the images generated are unique creations. GenAI uses diffusion models to create these new unique images.'
 Subjects:
   - 'Machine Learning'
   - 'Data Science'
