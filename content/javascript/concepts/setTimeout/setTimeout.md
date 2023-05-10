@@ -61,7 +61,7 @@ setTimeout(() => {
 }, 2000);
 ```
 
-As we're calling our function with `setTimeout` the output will be displayed after 2 seconds:
+The output from the arrow function will be displayed after 2 seconds:
 
 ```output
 HelloWorld from Codecademy
