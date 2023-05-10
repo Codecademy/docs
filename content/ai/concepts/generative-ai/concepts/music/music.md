@@ -1,6 +1,6 @@
 ---
 Title: 'Music'
-Description: GenAI allows for the creation of long-playing high-fidelity music from text descriptions and additional sound input conditions.
+Description: 'GenAI allows for the creation of long-playing high-fidelity music from text descriptions and additional sound input conditions.'
 Subjects:
   - 'Machine Learning'
   - 'Data Science'
