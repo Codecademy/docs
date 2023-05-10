@@ -74,7 +74,7 @@ Some content types GenAI is being used for include:
 
 ### Other areas
 
-While **GenAI** is generally discussed in the context of Text, Images, Music, and Coding there are many other active areas. Some of these include.
+While GenAI is generally discussed in the context of text, images, music, and coding, there are many other active areas. Some of these include:
 
 - Voice such as high fidelity text to speech
 - Scientific Discovery - generating hypothesis, accelerating discovery
