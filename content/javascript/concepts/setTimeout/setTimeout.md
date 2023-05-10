@@ -81,7 +81,7 @@ setTimeout(sayHello, 3000, 'Student', 'Codecademy');
 console.log('This message is shown first');
 ```
 
-As we're calling our function with `setTimeout` the output will be displayed after 3 seconds:
+The output will be displayed after 3 seconds:
 
 ```shell
 This message is shown first
