@@ -13,7 +13,6 @@ CatalogContent:
   - 'introduction-to-open-source'
   - 'paths/computer-science'
 ---
-
 **Rapid Application Development (RAD)** is a software development methodology that emphasizes quick prototyping and iterative development to meet the requirements of a project. The primary goal of RAD is to reduce development time and costs by quickly delivering a working prototype to the client for feedback and iteration.
 
 ## Origins 
