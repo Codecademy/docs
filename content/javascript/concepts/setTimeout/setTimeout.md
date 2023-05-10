@@ -83,7 +83,7 @@ console.log('This message is shown first');
 
 As we're calling our function with `setTimeout` the output will be displayed after 3 seconds:
 
-```output
+```shell
 This message is shown first
 hello Student
 Welcome to Codecademy
