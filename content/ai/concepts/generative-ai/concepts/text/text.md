@@ -25,7 +25,7 @@ CatalogContent:
 - Write a blog entry
 - Create Ad copy
 
-In general Generative AI can create new content based on text input, and is great at summarizing and changing the style and tone of text content.
+In general, Generative AI can create new content based on text input and is great at summarizing and changing the style and tone of text content.
 
 Some common tools include:
 
