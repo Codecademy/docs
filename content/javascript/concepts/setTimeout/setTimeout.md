@@ -71,7 +71,6 @@ HelloWorld from Codecademy
 
 ```js
 // Defining the function
-
 function sayHello(a, b) {
   console.log('hello ' + a);
   console.log('Welcome to ' + b);
