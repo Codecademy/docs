@@ -20,7 +20,6 @@ The **iterative approach** to software development is a methodology that emphasi
 
 ## Origins  
 
-
 The origins of the iterative approach can be traced back to the 1950s and 1960s when software development was in its infancy. However, it was not until the 1980s that the iterative approach gained wider acceptance and became a popular methodology for software development. At that time, software development was viewed as a linear process that involved several distinct stages, such as requirements gathering, design, coding, testing, and maintenance. However, as software projects became larger and more complex, it became clear that this linear approach was inadequate. In response, software developers began to experiment with iterative methods that emphasized incremental progress and continuous feedback. 
   
   
