@@ -1,6 +1,6 @@
 ---
 Title: 'setTimeout()'
-Description: 'Explain what the function does here.'
+Description: 'setTimeout() allows users to execute callbacks after a period of time expressed in milliseconds'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -17,23 +17,23 @@ CatalogContent:
 
 ## Syntax
 
-`setTimeout` is capable of receiving multiple parameters where the first is a callback function, the second parameter receives a number that represents the time in milliseconds **(1s = 1000ms)**, that defines the time needed for the callback to execute, the third parameter onwards will be the parameters that the callback function would take in case arguments are defined within the callback.
+`setTimeout()` is capable of receiving multiple parameters where the first is a callback function, the second parameter receives a number that represents the time in milliseconds **(1s = 1000ms)**, that defines the time needed for the callback to execute, the third parameter onwards will be the parameters that the callback function would take in case arguments are defined within the callback.
 
 The provided sample code contains some examples of how setTimeout is composed:
 
 ```pseudo
-setTimeout(function)
+setTimeout(callback)
 
-setTimeout(function, delay)
+setTimeout(callback, delay)
 
-setTimeout(function, delay, param)
+setTimeout(callback, delay, param)
 ```
 
 ## Usage example
 
 The following pieces of code will show some examples about the setTimeout implementation:
 
-```js
+```shell
 // Defining the function
 
 function sayHello() {
@@ -45,7 +45,7 @@ function sayHello() {
 setTimeout(sayHello, 4000);
 ```
 
-As we're calling our function with `setTimeout` the output will be displayed after 4 seconds:
+The output will be displayed after 4 seconds:
 
 ```output
 Hello from Codecademy
@@ -53,7 +53,7 @@ Hello from Codecademy
 
 An example using [arrow functions](https://www.codecademy.com/resources/docs/javascript/arrow-functions) would be:
 
-```js
+```shell
 // Defining the function
 
 setTimeout(() => {
@@ -69,7 +69,7 @@ HelloWorld from Codecademy
 
 ### Example using a parameters
 
-```js
+```shell
 // Defining the function
 function sayHello(a, b) {
   console.log('hello ' + a);
