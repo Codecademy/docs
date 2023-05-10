@@ -51,7 +51,7 @@ As we're calling our function with `setTimeout` the output will be displayed aft
 Hello from Codecademy
 ```
 
-An example based on [Arrow Functions](https://www.codecademy.com/resources/docs/javascript/arrow-functions) would be:
+An example using [arrow functions](https://www.codecademy.com/resources/docs/javascript/arrow-functions) would be:
 
 ```js
 // Defining the function
