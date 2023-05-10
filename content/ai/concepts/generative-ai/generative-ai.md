@@ -1,6 +1,6 @@
 ---
 Title: 'Generative-AI'
-Description: Generative AI (GenAI) involves the creation of new and unique digital content. Before GenAI digital content of this level could only be created by human beings. These unique creations are driven by natural language prompts.
+Description: 'Generative AI (GenAI) involves the creation of new and unique digital content. Before GenAI digital content of this level could only be created by human beings. These unique creations are driven by natural language prompts.'
 Subjects:
   - 'Machine Learning'
   - 'Data Science'
