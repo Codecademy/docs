@@ -19,14 +19,14 @@ Pascal has many built-in functions. In order to use them, the required unit has 
 Here a `function` named sqrt() is made available from the math unit:
 
 ```pascal 
-program Example;
+program MathEX;
 uses math;
 
 begin
   writeln(sqrt(10));
   { Output: 3.16227766016838 }
 end.
-
+```
 
 ### Function Declaration & Definition
 A Pascal `function` has two parts:
@@ -38,7 +38,7 @@ A Pascal `function` has two parts:
 The definition is the actual body of the `function` which executes when a `function` is called. The body of a `function` is typically enclosed in begin and end statements.
 
 ```pascal
-program Example;
+program Func_Print;
 
 {Function declaration}
 
@@ -66,7 +66,7 @@ Void Functions
 In Pascal, a `function` that does not return a value is declared with the keyword procedure. These functions are useful for a set of statements that do not require returning a value.
 
 ```pascal
-program Example;
+program ProcPrint;
 
 {Procedure declaration}
 procedure print();
@@ -87,27 +87,28 @@ On the other hand, a procedure (one that does not return anything) does not requ
 
 ```pascal
 
-program Example;
+program Sum;
 
 {Function declaration}
 
-function sum(a, b: integer): integer;
+function sum(x, y: real): real;
 
 begin
 end;
 
 begin
-  writeln(sum(10, 20));
+  writeln(sum(10.5, 25.7));
 end;
 
 {Function definition}
-function sum(a, b: integer): integer;
+function sum(a, b: real): real;
 begin
   sum := a + b;
 end;
 ```
 `Function` Declarations in Unit File
-Pascal functions typically have two parts: declaration and definition.
+Pascal functions typically have two parts: 
+declaration and definition.
 
 `Function` declarations are generally stored in a unit file (.pas) and function definitions (body of the function that defines how it is implemented) are written in the same file.
 
@@ -119,14 +120,14 @@ unit Example;
 {Function declaration}
 
 interface
-  function say_hi(name: string): string;
+  function say(name: string): string;
 
 {Function definition}
 
 implementation
-  function say_hi(name: string): string;
+  function say(name: string): string;
   begin
-    say_hi := 'Hey there, ' + name + '!' + #10;
+    say := 'Hello there, ' + name + '!' + #10;
   end;
 end.
 
@@ -134,7 +135,7 @@ program Example_Main;
 uses Example;
 
 begin
-  writeln(say_hi('Sabaa'));
+  writeln(say('Youssef'));
 end.
 ```
 
@@ -143,7 +144,7 @@ In Pascal, the values passed to a function are known as parameters. They represe
 
 ```pascal
 
-program Example;
+program Pas_EX;
 
 {Procedure declaration}
 

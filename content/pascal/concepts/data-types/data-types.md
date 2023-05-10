@@ -34,11 +34,11 @@ Integer is a type for storing integer (whole) numbers. An integer usually requir
 
 ```pascal
 var
-  year: Integer;
-  age: Integer;
+  Number: Integer;
+  Weeks: Integer;
 begin
-  year := 1991;
-  age := 28;
+  Number := 1;
+  Weeks := 4;
 end;
 ```
 
@@ -47,11 +47,11 @@ Real numbers can be stored using Real, Single, Double, or Extended data types. T
 
 ```pascal
 var
-  price: Real;
-  pi: Double;
+  cost: Real;
+  piM: Double;
 begin
-  price := 8.99;
-  pi := 3.14159;
+  cost := 8.99;
+  piM := 3.14159;
 end;
 ```
 
@@ -60,11 +60,11 @@ The Boolean type stores boolean values of True or False. These values usually re
 
 ```pascal
 var
-  organ_donor: Boolean;
-  late_to_work: Boolean;
+  donor: Boolean;
+  paid: Boolean;
 begin
-  organ_donor := True;
-  late_to_work := False;
+  donor := True;
+  paid := False;
 end;
 ```
 
@@ -73,11 +73,11 @@ The Char type stores individual characters, wrapped in single quotes '. Characte
 
 ```pascal
 var
-  grade: Char;
-  punctuation: Char;
+  Mark: Char;
+  interogation: Char;
 begin
-  grade := 'A';
-  punctuation := '?';
+  grade := '20';
+  interogation := '?';
 end;
 ```
 
@@ -87,11 +87,11 @@ The String type is used for storing text strings.
 
 ```pascal
 var
-  message: String;
-  user: String;
+  letter: String;
+  name: String;
 begin
-  message := 'good nite';
-  user := '@sonnynomnom';
+  letter := 'Hello world';
+  name := 'user@user';
 
 end;
 ```
