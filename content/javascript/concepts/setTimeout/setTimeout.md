@@ -21,7 +21,7 @@ CatalogContent:
 
 The provided sample code contains some examples of how setTimeout is composed:
 
-```js
+```pseudo
 setTimeout(function)
 
 setTimeout(function, delay)
