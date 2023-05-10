@@ -4,7 +4,6 @@ Description: 'Generative AI can create blogs, write ad copy, create new content 
 Subjects:
   - 'Machine Learning'
   - 'Data Science'
-  - 'Large Language Model'
   - 'Transformers'
 Tags:
   - 'AI'
