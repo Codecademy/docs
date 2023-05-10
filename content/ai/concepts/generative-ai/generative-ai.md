@@ -112,7 +112,7 @@ One concern with this reduction is how jobs typically mentor juniors. If the mun
 
 While any new disruptive technology creates a lot of uncertainties many people are also excited about what the future may bring.
 
-Generative AI may open up entirely new ways we can create and consume content. For example media now is difficult and time consuming to create even just in one length and format. Generative AI may allow different versions of movies, stories, and short videos to be generated from the same source media to allow new ways of media consumption.
+Generative AI may open up entirely new ways to create and consume content. For example, media now is difficult and time-consuming to create even just in one length and format. Generative AI may allow different versions of movies, stories, and short videos to be generated from the same source media to allow new ways of media consumption.
 
 Generation of speech based on text with high fidelity style will allow creates to make content where they were limited by voice overlay before.
 
