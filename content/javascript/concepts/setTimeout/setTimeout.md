@@ -1,6 +1,6 @@
 ---
 Title: 'setTimeout()'
-Description: setTimeout is a function serviced globally by the window object provided by the user's browser.
+Description: 'Explain what the function does here.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
