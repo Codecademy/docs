@@ -13,7 +13,7 @@ CatalogContent:
   - 'intro-to-chatgpt'
 ---
 
-**Coding** was one of the first areas commercialized with GenAI.
+Coding was one of the first areas commercialized with **Generative AI (GenAI)**.
 
 ## Code
 
