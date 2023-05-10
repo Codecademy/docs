@@ -94,7 +94,7 @@ Some uses are allowed, such as commentary, search engines, news reporting, resea
 
 ### Policy
 
-Different companies are quickly setting up polices around Generative AI. Google announced that they are allowing AI generated advertising content. Shutterstock has announced that they will allow the selling content generated with OpenAI only and are working on a royalty system for content used to sell generated content based on original work.
+Different companies are quickly setting up policies around Generative-AI. Google announced that they are allowing AI-generated advertising content. Shutterstock has announced that they will allow the selling of content generated with OpenAI and are working on a royalty system for content used to sell generated content based on original work.
 
 ### Speed of change
 
