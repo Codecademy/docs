@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-`setTimeout` is a function serviced globally by the window object provided by the user's browser, it is not part of JavaScript because it is not a JavaScript function.
+`setTimeout()` is a function serviced globally by the window object provided by the user's browser, it is not part of JavaScript because it is not a JavaScript function.
 
 ## Syntax
 
