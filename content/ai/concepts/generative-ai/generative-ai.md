@@ -24,7 +24,7 @@ GenAI is based on **Large Language Models (LLMs)**. LLMs are trained on terabyte
 
 In the case of ChatGPT, one breakthrough was the discovery that with some additional training, the LLMs can be easily used to produce impressive text-based results.
 
-GenAI is the connection of LLMs with technologies that in addition to text results can generate digital content such as images, video, music, or code.
+GenAI is the connection of LLMs with technologies that, in addition to text results, can generate digital content such as images, video, music, or code.
 
 There is exploration of going beyond digital content and use this technology for things as varied as the discovery of new molecules and 3D designs.
 
