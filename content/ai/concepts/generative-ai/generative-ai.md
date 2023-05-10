@@ -82,7 +82,7 @@ While GenAI is generally discussed in the context of text, images, music, and co
 
 ### Legality
 
-The legal aspects of Generative AI are not yet defined. Class action lawsuits due to training data are showing up as infringing on the rights of artists. Related US laws include the first amendment and fair use copyright act of 1976. These laws allow for the limited use of copyrighted material, without permission of the copyright holder.
+The legal aspects of Generative AI are not yet defined. Class action lawsuits due to training data are showing up as infringing on the rights of artists. Related US laws include the first amendment and the fair use copyright act of 1976. These laws allow for the limited use of copyrighted material without permission of the copyright holder.
 
 Some uses are allowed, such as commentary, search engines, news reporting, research, and other transformative work. **Transformative** is defined as bringing a new expression, meaning, or message to the work. It can be argued that GenAI works can be transformative.
 
@@ -108,12 +108,12 @@ While any new disruptive technology creates a lot of uncertainties many people a
 
 Generative AI may open up entirely new ways to create and consume content. For example, media now is difficult and time-consuming to create even just in one length and format. Generative AI may allow different versions of movies, stories, and short videos to be generated from the same source media to allow new ways of media consumption.
 
-Generation of speech based on text with high fidelity style will allow creates to make content where they were limited by voice overlay before.
+Generation of speech based on text with high fidelity style will allow creators to make content where they were limited by voice overlay before.
 
-Code generation, while automating repetitive work may result in higher quality code and the focus on new creative user-centric solutions.
+With regards to code generation, automating repetitive work may result in higher quality code. Also it gives coders more time to focus on new creative user-centric solutions.
 
-Movies and video creation once expensive and available through large studios and digital production groups can instead be created by individuals and bound only by their imagination.
+Movies and video creation once expensive and possible only by large studios and digital production groups can instead be created by individuals and is bound only by their imagination.
 
-Content may be connected back through the block chain to compensate original creators.
+Content may be connected back through a block chain to compensate original creators.
 
 Generative AI may help people understand more how creative processes work in general and how to continually enhance the human process.
