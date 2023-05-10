@@ -17,7 +17,7 @@ CatalogContent:
 
 ## Diffusion Models
 
-Image creation is mainly based on a relatively new development called diffusion. What is a diffusion model?
+Image creation is mainly based on a relatively new development called a **diffusion model**.
 
 Until recently, Generative Adversarial Networks (GANs) were the standard way to create images. With this approach, random noise is used to create an image. The image is then fed into another network which is trained to determine the quality. With more iterations, both networks (adversaries) can improve.
 
