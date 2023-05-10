@@ -5,7 +5,6 @@ Subjects:
   - 'Machine Learning'
   - 'Data Science'
   - 'Large Language Model'
-  - 'Transformers'
 Tags:
   - 'AI'
   - 'Transformers'
