@@ -1,5 +1,5 @@
 ---
-Title: 'setTimeout'
+Title: 'setTimeout()'
 Description: setTimeout is a function serviced globally by the window object provided by the user's browser.
 Subjects:
   - 'Web Development'
