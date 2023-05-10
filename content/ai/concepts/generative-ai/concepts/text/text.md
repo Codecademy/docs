@@ -1,6 +1,6 @@
 ---
 Title: 'Text'
-Description: Generative AI can create blogs, write ad copy, create new content based on text input, and is great at summarizing and changing the style and tone of text content.
+Description: 'Generative AI can create blogs, write ad copy, create new content based on text input, and is great at summarizing and changing the style and tone of text content.'
 Subjects:
   - 'Machine Learning'
   - 'Data Science'
