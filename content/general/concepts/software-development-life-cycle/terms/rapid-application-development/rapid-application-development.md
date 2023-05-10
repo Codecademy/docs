@@ -5,12 +5,10 @@ Description: 'Rapid Application Development (RAD) is a software development meth
 Subjects:
   - 'Mobile Development'
   - 'Web Development'  
-  
-  Tags:
+Tags:
   - 'Documentation'
   - 'Best Practices'
   - 'Development'  
-  
 CatalogContent:
   - 'introduction-to-open-source'
   - 'paths/computer-science'
