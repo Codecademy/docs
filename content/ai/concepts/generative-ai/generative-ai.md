@@ -4,7 +4,6 @@ Description: 'Generative AI (GenAI) involves the creation of new and unique digi
 Subjects:
   - 'Machine Learning'
   - 'Data Science'
-  - 'Large Language Model'
 Tags:
   - 'AI'
   - 'Transformers'
