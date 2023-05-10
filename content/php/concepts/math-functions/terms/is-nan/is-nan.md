@@ -1,6 +1,6 @@
 ---
-Title: 'is-nan' 
-Description: 'Finds whether a value is not a number.'
+Title: 'is-nan()' 
+Description: 'Checks whether a value is not a number.'
 Subjects:
   - 'Computer Science'
   - 'Web Design'
@@ -8,13 +8,13 @@ Subjects:
 Tags:
   - 'Functions'
   - 'Arithmetic'
-  - 'An nth tag'
+  
 CatalogContent: 
   - 'learn-php'
   - 'paths/computer-science'
 ---
 
-The **`is_nan`** function checks whether the argument is 'not a number'.
+The **`is_nan()`** function checks whether the argument is not a number.
 
 ## Syntax
 
@@ -22,7 +22,7 @@ The **`is_nan`** function checks whether the argument is 'not a number'.
 $result = is_nan(n);
 ```
 
-Returns **true** if `n` is 'not a number', else **false**.
+Returns `1` if `n` is not a number, else returns nothing.
 
 ## Codebyte Example
 
@@ -30,5 +30,6 @@ Using `is_nan()` to check whether `10` is 'not a number':
 
 ```codebyte/php
 <?php
-  echo(is_nan(10));
+echo "10:", is_nan(10) . "<br>";
+echo "acos 1.01: ", is_nan(acos(1.01));
 ?>
