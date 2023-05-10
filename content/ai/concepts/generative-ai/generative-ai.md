@@ -6,11 +6,6 @@ Subjects:
   - 'Data Science'
 Tags:
   - 'AI'
-  - 'Transformers'
-  - 'Embeddings'
-  - 'Prompts'
-  - 'Prompt Engineering'
-  - 'Attention'
 CatalogContent:
   - 'paths/machine-learning-engineer'
   - 'intro-to-chatgpt'

@@ -4,8 +4,6 @@ Description: 'GenAI can generate new images from existing text prompts and image
 Subjects:
   - 'Machine Learning'
   - 'Data Science'
-  - 'Large Language Model'
-  - 'Transformers'
 Tags:
   - 'AI'
 CatalogContent:

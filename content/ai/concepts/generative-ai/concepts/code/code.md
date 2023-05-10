@@ -4,8 +4,6 @@ Description: 'Coding was one of the first areas commercialized with GenAI.'
 Subjects:
   - 'Machine Learning'
   - 'Data Science'
-  - 'Large Language Model'
-  - 'Transformers'
 Tags:
   - 'AI'
 CatalogContent:

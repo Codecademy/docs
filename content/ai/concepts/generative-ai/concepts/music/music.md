@@ -4,15 +4,8 @@ Description: 'GenAI allows for the creation of long-playing high-fidelity music 
 Subjects:
   - 'Machine Learning'
   - 'Data Science'
-  - 'Large Language Model'
-  - 'Transformers'
 Tags:
   - 'AI'
-  - 'Transformers'
-  - 'Embeddings'
-  - 'Prompts'
-  - 'Prompt Engineering'
-  - 'Attention'
 CatalogContent:
   - 'paths/machine-learning-engineer'
   - 'intro-to-chatgpt'
