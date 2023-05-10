@@ -21,7 +21,7 @@ CatalogContent:
 
 ## Generative AI
 
-GenAI is based on Large Language Models (LLMs). LLMs are trained on terabytes of textual data from the Internet. These models have the capability of understanding human language semantics and intent.
+GenAI is based on **Large Language Models (LLMs)**. LLMs are trained on terabytes of textual data from the Internet. These models have the capability of understanding human language semantics and intent.
 
 In the case of ChatGPT, one breakthrough was the discovery that with some additional training the LLMs can be easily used to produce impressive text based results.
 
