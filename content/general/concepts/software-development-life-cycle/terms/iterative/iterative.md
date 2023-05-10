@@ -34,7 +34,7 @@ Today, the iterative approach is widely used in software development and is seen
 - Increased collaboration: The iterative approach emphasizes collaboration between developers, customers, and other stakeholders, which can lead to better communication and a more effective development process.
 - Better risk management: The iterative approach allows developers to identify and mitigate potential risks early in the development process, reducing the likelihood of costly errors later on.
   
-  ## Disadvantages
+## Disadvantages
   
 - Increased complexity: The iterative approach can make the development process more complex as it involves frequent changes and modifications to the requirements and design. This can lead to confusion and difficulties in managing the project.
 - Costly: Iterative development can be more costly than traditional development methods due to the need for frequent testing and rework. Additionally, the need for continuous feedback and collaboration can increase project overheads.
