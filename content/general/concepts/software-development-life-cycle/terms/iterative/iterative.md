@@ -2,18 +2,18 @@
 Title: 'Iterative Approach to Software Development'
 Description: 'The iterative approach to software development is a methodology that emphasizes the importance of incremental progress and continuous feedback in the software development lifecycle (SDLC).'  
 
-Subjects:
-  - 'Mobile Development'
-  - 'Web Development'  
-   
-  Tags:
-  - 'Documentation'
-  - 'Best Practices'
-  - 'Development'  
+Subjects:  
+'Mobile Development'
+'Web Development'  
+ 
+ Tags:  
+ 'Documentation'
+ 'Best Practices'
+ 'Development'  
     
-CatalogContent:
-  - 'introduction-to-open-source'
-  - 'paths/computer-science'
+CatalogContent:  
+'introduction-to-open-source'
+'paths/computer-science'
 ---
 
 The **iterative approach** to software development is a methodology that emphasizes the importance of incremental progress and continuous feedback in the software development lifecycle (SDLC). This approach involves breaking down a larger project into smaller, more manageable chunks that can be developed, tested, and deployed in shorter time frames. Each iteration builds upon the previous one, with feedback and adjustments being incorporated into subsequent iterations.
