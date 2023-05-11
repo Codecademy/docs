@@ -56,7 +56,7 @@ substring <- my_string[1:5]
 # Output: "Hello"
 ```
 
-You can also use the `substr()` function to extract a substring from a string:
+The `substr()` function extracts a substring from a string:
 
 ```r
 my_string <- "Hello, World!"
