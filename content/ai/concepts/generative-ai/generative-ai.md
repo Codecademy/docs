@@ -21,7 +21,7 @@ In the case of ChatGPT, one breakthrough was the discovery that with some additi
 
 GenAI is the connection of LLMs with technologies that, in addition to text results, can generate digital content such as images, video, music, or code.
 
-There is exploration of going beyond digital content and use this technology for things as varied as the discovery of new molecules and 3D designs.
+There is exploration of going beyond digital content and using this technology for things as varied as the discovery of new molecules and 3D designs.
 
 Things are changing quickly and the impact is only just starting to be predicted and felt. Most people are expecting changes in work and living lifestyles.
 
