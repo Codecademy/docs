@@ -69,7 +69,7 @@ Some content types GenAI is being used for include:
 
 While GenAI is generally discussed in the context of text, images, music, and coding, there are many other active areas. Some of these include:
 
-- Voice such as high fidelity text to speech
+- High fidelity text to speech
 - Scientific Discovery - generating hypothesis, accelerating discovery
 - Chemistry - molecule and drug discovery
 - Medical imaging
