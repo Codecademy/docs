@@ -17,13 +17,13 @@ CatalogContent:
 
 GenAI is based on **Large Language Models (LLMs)**. LLMs are trained on terabytes of textual data from the Internet. These models have the capability of understanding human language semantics and intent.
 
-In the case of ChatGPT, one breakthrough was the discovery that with some additional training, the LLMs can be easily used to produce impressive text-based results.
+In the case of ChatGPT, one breakthrough was the discovery that with some additional training, the LLMs can be used to produce impressive text-based results.
 
 GenAI is the connection of LLMs with technologies that, in addition to text results, can generate digital content such as images, video, music, or code.
 
 There is exploration of going beyond digital content and use this technology for things as varied as the discovery of new molecules and 3D designs.
 
-Things are changing quickly and the impact is only just starting to being predicted and felt. Most people are expecting a step change in certain ways how we live and work.
+Things are changing quickly and the impact is only just starting to be predicted and felt. Most people are expecting changes in work and living lifestyles.
 
 ### Foundation Models
 
@@ -35,7 +35,7 @@ Using the concept of foundation models we can leverage the vast amount of pre-tr
 
 ### The Question of Intelligence?
 
-Artificial Intelligence (AI) is the matching or exceeding the intelligence of a human being. Things that we often associate with intelligence such as doing math, playing chess, or remembering vast amounts of data already can be done more quickly and better by computer.
+Artificial Intelligence (AI) is the matching or exceeding the intelligence of a human being. Things that are often associated with intelligence such as doing math, playing chess, or remembering vast amounts of data already can be done more quickly and better by computer.
 
 With LLMs and a technology called diffusion AI systems can now match or exceed other skills we often associate with intelligence such as:
 
@@ -44,7 +44,7 @@ With LLMs and a technology called diffusion AI systems can now match or exceed o
 - Analyzing content for tone and emotions.
 - Creating unique images and video.
 
-### Is it Art?
+### Is It Art?
 
 In 2022 Jason Allen’s AI generated work, _Théâtre D’opéra Spatial_, won first place in the digital category at the Colorado State Fair. The artist did indicate that he used the GenAI platform Midjourney. It was later discovered that the judges weren't familiar with the tool at the time of judging.
 
@@ -65,7 +65,7 @@ Some content types GenAI is being used for include:
 - [Music](https://www.codecademy.com/resources/docs/ai/generative-ai/music)
 - [Code](https://www.codecademy.com/resources/docs/ai/generative-ai/code)
 
-### Other areas
+### Other Areas
 
 While GenAI is generally discussed in the context of text, images, music, and coding, there are many other active areas. Some of these include:
 
@@ -84,7 +84,7 @@ While GenAI is generally discussed in the context of text, images, music, and co
 
 The legal aspects of Generative AI are not yet defined. Class action lawsuits due to training data are showing up as infringing on the rights of artists. Related US laws include the first amendment and the fair use copyright act of 1976. These laws allow for the limited use of copyrighted material without permission of the copyright holder.
 
-Some uses are allowed, such as commentary, search engines, news reporting, research, and other transformative work. **Transformative** is defined as bringing a new expression, meaning, or message to the work. It can be argued that GenAI works can be transformative.
+Some uses are allowed, such as commentary, search engines, news reporting, research, and other transformative work. **Transformative** is defined as bringing a new expression, meaning, or message to the work. It can be argued that GenAI content can be transformative.
 
 ### Policy
 
@@ -94,11 +94,11 @@ Different companies are quickly setting up policies around Generative-AI. Google
 
 What is different about Generative AI is the speed of change. This is creating fear of the unknown as it is difficult to predict what will happen next. Digital artists and some prominent tech leaders are calling for the halting of Generative AI until the impacts on society are more understood.
 
-### How we work
+### Impact on Jobs
 
 Generative AI is expected to have significant impacts on the working world. Hundreds of millions of jobs will be directly affected.
 
-In some sense the change is expected to be welcome as jobs that are currently mundane or have been difficult to automate will go away. For example frame editing, common artwork generation, and basic copywriting.
+In some sense the change is expected to be welcomed as jobs that are currently mundane or have been difficult to automate will go away. For example frame editing, common artwork generation, and basic copywriting.
 
 One concern with this reduction is how jobs typically mentor juniors. If the mundane entry work goes away, how will the next generation be trained?
 
@@ -114,6 +114,4 @@ With regards to code generation, automating repetitive work may result in higher
 
 Movies and video creation once expensive and possible only by large studios and digital production groups can instead be created by individuals and is bound only by their imagination.
 
-Content may be connected back through a block chain to compensate original creators.
-
-Generative AI may help people understand more how creative processes work in general and how to continually enhance the human process.
+Generative AI may help people understand more about how creative processes work in general and how to continually enhance the human process.
