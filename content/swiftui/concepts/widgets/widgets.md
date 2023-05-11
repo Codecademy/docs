@@ -1,5 +1,5 @@
 ---
-Title: 'SwiftUI Widgets'
+Title: 'Widgets'
 Description: 'Building user interfaces across Apple platforms.'
 Subjects: 
     - 'iOS Development'
