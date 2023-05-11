@@ -9,7 +9,7 @@ Tags:
     - 'iOS'
 CatalogContent: 
     - 'paths/ios-developer'
-    - 'Learn SwiftUI'
+    - 'learn-swift'
 ---
 
 # SwiftUI Widgets
