@@ -17,7 +17,7 @@ In JavaScript, **statements** are instructions that are executed by the browser 
 
 ## Expression Statements
 
-Expression statements, such as function calls or assignments, evaluate an expression.
+Expression statements, such as function calls or assignments, evaluate an expression and generate a value in JavaScript. They can be assigned to a [variable](https://www.codecademy.com/resources/docs/javascript/variables) or used as part of a larger expression.
 
 ### Syntax
 
