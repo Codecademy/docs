@@ -48,7 +48,7 @@ my_string <- paste0(string_1, string_2)
 
 ## Subsetting Strings
 
-To extract a specific portion of a string, you can use square brackets `[]` and specify the starting and ending indices:
+Square brackets `[]`, that specify the starting and ending indices `[start:end]`, can be used to extract a specific portion of a string:
 
 ```r
 my_string <- "Hello, World!"
