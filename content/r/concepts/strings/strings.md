@@ -77,7 +77,7 @@ lowercase_string <- tolower(my_string)
 # Output: "hello, world!"
 ```
 
-You can also remove whitespace from the beginning and/or end of a string using the `trimws()` function:
+Whitespace can be removed from the beginning and/or end of a string using the `trimws()` function:
 
 ```r
 my_string <- "   Hello, World!   "
