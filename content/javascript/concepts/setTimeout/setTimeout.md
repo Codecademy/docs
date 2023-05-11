@@ -64,10 +64,10 @@ setTimeout(() => {
 The output from the arrow function will be displayed after 2 seconds:
 
 ```output
-HelloWorld from Codecademy
+Helloworld from Codecademy
 ```
 
-### Example using a parameters
+### Example using parameters
 
 ```shell
 // Defining the function
