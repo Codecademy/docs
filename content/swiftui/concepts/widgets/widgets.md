@@ -44,7 +44,6 @@ Remember to adjust the code and configurations as per your project's requirement
 
 # WidgetKit
 
-## What is WidgetKit?
 WidgetKit is a framework introduced by Apple that allows developers to create interactive and dynamic widgets for iOS, macOS, and watchOS. Widgets provide users with quick access to information or app functionality directly from the home screen or Today View.
 
 With WidgetKit, developers can design and build widgets using SwiftUI, leveraging its declarative syntax and powerful UI components. Widgets can display various types of information such as weather updates, calendar events, news headlines, or custom data from the app.
