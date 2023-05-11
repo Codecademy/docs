@@ -51,7 +51,9 @@ The output will be displayed after 4 seconds:
 Hello from Codecademy
 ```
 
-An example using [arrow functions](https://www.codecademy.com/resources/docs/javascript/arrow-functions) would be:
+## Example using Arrow Functions
+
+The following example can be done by using arrow functions, in which case, instead of declaring it using the word `function`, we can just create it by using `() =>`, for more information visit [arrow functions](https://www.codecademy.com/resources/docs/javascript/arrow-functions).
 
 ```shell
 // Defining the function
