@@ -14,45 +14,10 @@ CatalogContent:
 
 In JavaScript, **statements** are instructions that are executed by the browser or Node.js. A statement can be a simple or complex operation that performs an action, such as assigning a value to a variable, calling a function, or controlling program flow with conditional statements.
 
+## Declaration Statements
 
-## Expression Statements
+Declaration statements are variables, function, or classes that are introduced into a program. These statements begin with a keyword followed by its identifier or name.
 
-Expression statements, such as function calls or assignments, evaluate an expression and generate a value in JavaScript. They can be assigned to a [variable](https://www.codecademy.com/resources/docs/javascript/variables) or used as part of a larger expression.
-
-### Syntax
-
-```js
-// Function call
-console.log('Hello World');
-// Assignments
-// Assign 5 to x
-var x = 5;
-// Assign 6 to X
-var X = 6;
-```
-
-In this statement, a `const` variable named `greeting` is declared and assigned the value of `'Hello World'`:
-
-### Syntax
-
-```js
-const greeting = 'Hello World';
-```
-
-The first statement below assigns the value 5 to the variable `x`, while the second statement logs the value of `x` to the console:
-
-### Syntax
-
-```js
-let x = 5;
-console.log(x);
-```
-
-JavaScript [variables](https://www.codecademy.com/resources/docs/javascript/variables) are containers for storing data values.
-In this example, `x`, `y`, `X`, and `z`, are [variables](https://www.codecademy.com/resources/docs/javascript/variables), declared with the `var` keyword.
-JavaScript identifiers are also case-sensitive. Note that `x` is not the same as `X`:
-
-### Syntax
 
 ```js
 var x = 5;
@@ -61,11 +26,39 @@ var X = 4;
 var z = x + y;
 ```
 
+JavaScript [variables](https://www.codecademy.com/resources/docs/javascript/variables) are containers for storing data values.
+In this example, `x`, `y`, `X`, and `z`, are declared with the `var` keyword.
+
+JavaScript identifiers are also case-sensitive. (Note that `x` is not the same as `X`).
+
+## Expression Statements
+
+Expression statements, such as function calls or assignments, evaluate an expression and generate a value in JavaScript. They can be assigned to a variable or used as part of a larger expression and are then discarded.
+
+```js
+// Function call
+console.log('Hello World');
+```
+
+The second statement below re-assigns the value 5 to the variable `x`, while the third statement logs the value of `x` to the console:
+
+```js
+var x = 5;
+x = 6;
+console.log(x);
+```
+
+In this statement, a `const` variable named `greeting` is declared and assigned the value of `'Hello World'`:
+
+```js
+const greeting = 'Hello World';
+```
+
+
 ## Conditional Statements
 
 [Conditional](https://www.codecademy.com/resources/docs/javascript/conditionals) statements, such as `if` statements or `switch` statements, control program flow based on a condition.
 
-### Syntax
 
 ```js
 // If statement
@@ -89,7 +82,6 @@ switch (x) {
 
 [Loop](https://www.codecademy.com/resources/docs/javascript/loops) statements, such as `while` loops or `for` loops, repeat an operation while a condition is true.
 
-### Syntax
 
 ```js
 // While loop
@@ -107,7 +99,6 @@ for (let i = 0; i < 5; i++) {
 
 Jump statements, such as `break` or `return` statements, transfer control to another part of the program.
 
-### Syntax
 
 ```js
 // Break statement
