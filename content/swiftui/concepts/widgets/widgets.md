@@ -15,7 +15,7 @@ CatalogContent:
 # SwiftUI Widgets
 
 ## What are SwiftUI Widgets?
-**SwiftUI Widgets** are interactive components that provide users with glanceable information or quick access to app functionality directly from the home screen of their device. They are mini-applications that can display dynamic content, such as weather updates, calendar events, or news headlines. SwiftUI widgets can be created using the WidgetKit framework and are highly customizable, allowing developers to design visually appealing and personalized experiences for users without requiring them to open the full app.
+**Widgets** in SwiftUI  are interactive components that provide users with glanceable information or quick access to app functionality directly from the home screen of their device. They are mini-applications that can display dynamic content, such as weather updates, calendar events, or news headlines. SwiftUI widgets can be created using the WidgetKit framework and are highly customizable, allowing developers to design visually appealing and personalized experiences for users without requiring them to open the full app.
 
 ## To create a widget using the Widget Extension template in Xcode, follow these steps:
 
