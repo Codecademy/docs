@@ -1,5 +1,5 @@
 ---
-Title: 'is-nan()' 
+Title: 'is_nan()'
 Description: 'Checks whether a value is not a number.'
 Subjects:
   - 'Computer Science'
@@ -8,7 +8,6 @@ Subjects:
 Tags:
   - 'Functions'
   - 'Arithmetic'
-  
 CatalogContent: 
   - 'learn-php'
   - 'paths/computer-science'
