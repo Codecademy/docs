@@ -16,7 +16,7 @@ CatalogContent:
 
 ## Syntax
 
-To create a string in R, simply enclose the text you want to use in quotation marks `' '`/ `" "`. Here are some examples:
+To create a string in R, simply enclose any desired text in quotation marks `' '`/ `" "`. Here are some examples:
 
 ```r
 # Single quotes
