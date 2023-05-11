@@ -39,7 +39,11 @@ std::vector<int> grades(10);
 std::vector<double> order = {3.99, 12.99, 2.49};
 ```
 
-## Index
+## Getting Information
+
+Since a vector is dynamic and can grow and shrink it's size to accomodate new elements, the language gives us a few methods to get information from the vector.
+
+### Index
 
 An index refers to an element’s position within an ordered list, like a vector or an [array](https://www.codecademy.com/resources/docs/cpp/arrays). The first element has an index of 0.
 
@@ -53,6 +57,15 @@ std::cout << order[0];
 
 // What's the last element?
 std::cout << order[2];
+```
+
+### `.size()`
+
+Due to the dynamic nature of vectors, it can be hard to keep track of the number of elements they hold at a point in time manually. Luckily, vectors come with a helpful method to solve this problem called `.size()`:
+
+```cpp
+// Number of elements in the vector
+std::cout << order.size();
 ```
 
 ### `.at()`

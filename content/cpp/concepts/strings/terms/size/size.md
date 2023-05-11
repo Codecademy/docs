@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.size()`** method returns the size of a given string in terms of bytes. It functions just like the [`.length()`](https://www.codecademy.com/resources/docs/python/strings/length) method, but `.size()` is there to follow the consistency of other standard library containers (e.g., [maps](https://www.codecademy.com/resources/docs/cpp/maps) and [vectors](https://www.codecademy.com/resources/docs/cpp/vectors)).
+The **`.size()`** method returns the size of a given string in terms of bytes. It functions just like the [`.length()`](https://www.codecademy.com/resources/docs/cpp/strings/length) method, but `.size()` is there to follow the consistency of other standard library containers (e.g., [maps](https://www.codecademy.com/resources/docs/cpp/maps) and [vectors](https://www.codecademy.com/resources/docs/cpp/vectors)).
 
 ## Syntax
 

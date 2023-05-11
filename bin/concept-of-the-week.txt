@@ -1,1 +1,1 @@
-content/pandas/concepts/built-in-functions/built-in-functions.md
+content/python/concepts/conditionals/conditionals.md
