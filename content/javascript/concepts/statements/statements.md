@@ -14,7 +14,22 @@ CatalogContent:
 
 In JavaScript, **statements** are instructions that are executed by the browser or Node.js. A statement can be a simple or complex operation that performs an action, such as assigning a value to a variable, calling a function, or controlling program flow with conditional statements.
 
-## Declaration
+
+## Expression Statements
+
+Expression statements, such as function calls or assignments, evaluate an expression.
+
+### Syntax
+
+```js
+// Function call
+console.log('Hello World');
+// Assignments
+// Assign 5 to x
+var x = 5;
+// Assign 6 to X
+var X = 6;
+```
 
 In this statement, a `const` variable named `greeting` is declared and assigned the value of `'Hello World'`:
 
@@ -26,16 +41,18 @@ const greeting = 'Hello World';
 
 The first statement below assigns the value 5 to the variable `x`, while the second statement logs the value of `x` to the console:
 
+### Syntax
 
 ```js
 let x = 5;
 console.log(x);
 ```
 
-JavaScript variables are containers for storing data values.
-In this example, `x`, `y`, `X`, and `z`, are variables, declared with the `var` keyword.
+JavaScript [variables](https://www.codecademy.com/resources/docs/javascript/variables) are containers for storing data values.
+In this example, `x`, `y`, `X`, and `z`, are [variables](https://www.codecademy.com/resources/docs/javascript/variables), declared with the `var` keyword.
 JavaScript identifiers are also case-sensitive. Note that `x` is not the same as `X`:
 
+### Syntax
 
 ```js
 var x = 5;
@@ -44,28 +61,9 @@ var X = 4;
 var z = x + y;
 ```
 
-
-
-## Expression Statements
-
-Statements that evaluate an expression, such as function calls or assignments:
-
-### Syntax
-
-```js
-// Function call
-console.log('Hello World');
-// Assignment
-let x = 5;
-// Assign 5 to x
-var x = 5;
-// Assign 6 to X
-var X = 6;
-```
-
 ## Conditional Statements
 
-Statements that control program flow based on a condition, such as `if` statements or `switch` statements:
+[Conditional](https://www.codecademy.com/resources/docs/javascript/conditionals) statements, such as `if` statements or `switch` statements, control program flow based on a condition.
 
 ### Syntax
 
@@ -89,7 +87,7 @@ switch (x) {
 
 ## Loop Statements
 
-Statements that repeat an operation while a condition is true, such as `while` loops or `for` loops:
+[Loop](https://www.codecademy.com/resources/docs/javascript/loops) statements, such as `while` loops or `for` loops, repeat an operation while a condition is true.
 
 ### Syntax
 
@@ -107,7 +105,7 @@ for (let i = 0; i < 5; i++) {
 
 ## Jump Statements
 
-Statements that transfer control to another part of the program, such as `break` or `return` statements:
+Jump statements, such as `break` or `return` statements, transfer control to another part of the program.
 
 ### Syntax
 
