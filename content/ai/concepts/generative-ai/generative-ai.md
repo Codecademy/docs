@@ -48,7 +48,7 @@ With LLMs and a technology called diffusion AI, systems can now match or exceed 
 
 In 2022 Jason Allen’s AI generated work, _Théâtre D’opéra Spatial_, won first place in the digital category at the Colorado State Fair. The artist did indicate that he used the GenAI platform Midjourney. It was later discovered that the judges weren't familiar with the tool at the time of judging.
 
-The question does GenAI create art is now being asked. Parallels are being drawn. When photography was introduced, only painting had ever been considered art. Photography wasn't considered art and the same discussion took place. Now, few people would argue that photography cannot be art.
+The question "Does GenAI create art?" is now being asked. When photography was introduced, only painting had been considered art. Photography wasn't considered art and the same discussion took place. Now, few people would argue that photography cannot be art.
 
 Another argument is that since there is no advanced skill required from the operator, it is not art. Some consider art as the application of skills developed over many years. However, some modern art has been about concept and technique - not necessarily skill.
 
