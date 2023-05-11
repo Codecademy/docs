@@ -20,7 +20,7 @@ The **`max()`** function in PHP is used to find the highest value in an [array](
 max($var1, $var2, $var3, ...);
 ```
 
-$var1, $var2, $var3: These are the [variables](https://www.codecademy.com/resources/docs/php/variables) or [array](https://www.codecademy.com/resources/docs/php/arrays) from which the maximum value will be returned.
+`$var1`, `$var2`, `$var3` are the [variables](https://www.codecademy.com/resources/docs/php/variables) or [array](https://www.codecademy.com/resources/docs/php/arrays) from which the maximum value will be returned.
 
 ## Example
 
