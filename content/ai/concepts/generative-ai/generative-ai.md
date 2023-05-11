@@ -37,7 +37,7 @@ Using the concept of foundation models we can leverage the vast amount of pre-tr
 
 Artificial Intelligence (AI) is the matching or exceeding the intelligence of a human being. Things that are often associated with intelligence such as doing math, playing chess, or remembering vast amounts of data already can be done more quickly and better by computer.
 
-With LLMs and a technology called diffusion AI systems can now match or exceed other skills we often associate with intelligence such as:
+With LLMs and a technology called diffusion AI, systems can now match or exceed other skills we often associate with intelligence such as:
 
 - Understanding and creating new text content.
 - Writing never before created stories and poems.
