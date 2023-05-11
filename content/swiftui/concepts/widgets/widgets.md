@@ -8,7 +8,7 @@ Tags:
     - 'User Interface'
     - 'iOS'
 CatalogContent: 
-    - 'paths/iOS Development'
+    - 'paths/ios-developer'
     - 'Learn SwiftUI'
 ---
 
