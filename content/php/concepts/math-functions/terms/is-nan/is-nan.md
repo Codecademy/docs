@@ -30,6 +30,6 @@ Using `is_nan()` to check whether `10` is 'not a number':
 
 ```codebyte/php
 <?php
-echo "10:", is_nan(10) . "<br>";
-echo "acos 1.01: ", is_nan(acos(1.01));
+  echo "10:", is_nan(10), "\n";
+  echo "sqrt of -1: ", is_nan(sqrt(-1));
 ?>
