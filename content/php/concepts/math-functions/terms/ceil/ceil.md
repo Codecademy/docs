@@ -27,10 +27,18 @@ Where `n` is the fractional number to find the next highest integer value of.
 
 ```php
 <?php
-  $x = ceil(9.4);     // x = 10
-  $y = ceil(6.01);    // y = 7
-  $z = ceil(-1.637);  // z = -1
+  echo ceil(9.4)."\n";
+  echo ceil(6.01)."\n";
+  echo ceil(-1.637);
 ?>
+```
+
+This example results in the following output:
+
+```shell
+10
+7
+-1
 ```
 
 ## Codebyte Example
