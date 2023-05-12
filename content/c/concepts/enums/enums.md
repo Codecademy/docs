@@ -35,12 +35,12 @@ If we do not explicitly assign values to `enum` `day`, the compiler by default a
 
 ```c
 #include <stdio.h>
-enum day {sunday, monday, tuesday, wednesday, thursday, friday, saturday};
+enum fruits {apple, orange, bananna, peach, grape};
  
 int main()
 {
-    enum day d = wednesday;
-    printf("The day number stored in d is %d", d);
+    enum fruits d = bananna;
+    printf("The fruit number stored in d is %d", d);
     return 0;
 }
 ```
@@ -48,7 +48,7 @@ int main()
 This example results in the following output:
 
 ```shell
-The day number stored in d is 3
+The day number stored in d is 2
 ```
 
 Two `enum` names can have the same value. For instance, both `Running` and `In_Progress` have the same value of 1.
