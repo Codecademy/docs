@@ -23,7 +23,6 @@ The **`ROW_NUMBER()`** window function assigns a sequential integer (1,2,3...) t
 ROW_NUMBER() OVER (
   [PARTITION BY partition_expression,...]
   ORDER BY sort_expression [ASC | DESC], ...
-
 )
 ```
 
@@ -81,25 +80,25 @@ For pagination, the function would be changed like so to only show the first 5 e
 
 ```sql
 WITH customers AS (
-    SELECT
-        ROW_NUMBER() OVER (
-             ORDER BY
-                first_name
-        ) row_num,
-        first_name,
-        last_name,
-        city
-     FROM
-        customers
-) SELECT
-    first_name,
-    last_name,
-    city
-FROM
+  SELECT
+    ROW_NUMBER() OVER (
+      ORDER BY
+        first_name
+      ) row_num,
+      first_name,
+      last_name,
+      city
+  FROM
     customers
+) SELECT
+  first_name,
+  last_name,
+  city
+FROM
+  customers
 WHERE
-    row_num > 0 AND
-    row_num <= 5;
+  row_num > 0 AND
+  row_num <= 5;
 ```
 
 Which would give the following output:
@@ -116,17 +115,17 @@ The `ROW_NUMBER()` function above could instead be modified like so to include p
 
 ```sql
 SELECT
-   ROW_NUMBER() OVER (
-      PARTITION BY city
-      ORDER BY first_name
-   ) row_num,
-     first_name,
-     last_name,
-     city
+  ROW_NUMBER() OVER (
+   PARTITION BY city
+   ORDER BY first_name
+  ) row_num,
+    first_name,
+    last_name,
+    city
 FROM
-   customers
+  customers
 ORDER BY
-   city;
+  city;
 ```
 
 | row_num | first_name | last_name | city       |
