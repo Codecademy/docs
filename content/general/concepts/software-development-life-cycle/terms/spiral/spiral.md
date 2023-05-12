@@ -15,6 +15,7 @@ CatalogContent:
 The **Spiral model** is a Software Development Life Cycle (SDLC) that combines the [Waterfall model](https://www.codecademy.com/resources/docs/general/software-development-life-cycle/waterfall) and iterative development approaches. Each phase within this model involve risk analysis and prototyping.
 
 The Spiral model was first introduced by Barry Boehm in 1986 as a result of applying iterative development in constructing softwares. It is divided into four phases:
+
 1. Planning
 2. Risk Analysis
 3. Engineering
