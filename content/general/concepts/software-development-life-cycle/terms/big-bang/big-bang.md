@@ -18,7 +18,7 @@ The Big Bang model requires no or minimal planning. Instead, the development sta
 
 - Time.
 - Effort.
-- resources.
+- Resources.
 
 This model focuses on software development so developers can jump straight to the implementation to create software as the outcome.
 
