@@ -23,7 +23,7 @@ The **`hex2bin()`** function converts a string of hexadecimal values to its bina
 hex2bin(hex_string);
 ```
 
-The `hex_string` parameter represents the hexadecimal values to be converted.
+The `hex_string` parameter represents the string of hexadecimal values to be converted.
 
 ## Codebyte Example
 
