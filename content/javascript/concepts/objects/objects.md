@@ -169,3 +169,9 @@ Person {
 person.greeting();
 // Output: "Hi, I am Elizabeth Harmon"
 ```
+
+## Video Walkthrough
+
+Watch this video to learn how to create JavaScript objects containing different types of data and functions, and access their properties.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MsvR9zVM8dI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
