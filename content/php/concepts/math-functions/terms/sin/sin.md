@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`sin()`** function returns the sine of a given angle in radians.
+The **`sin()`** function returns the sine of a angle given in radians.
 
 ## Syntax
 
