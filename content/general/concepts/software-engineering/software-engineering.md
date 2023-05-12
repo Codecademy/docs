@@ -40,6 +40,6 @@ A [back-end](https://www.codecademy.com/resources/docs/general/back-end) enginee
 
 A [full-stack](https://www.codecademy.com/resources/docs/general/full-stack) engineer performs front-end and back-end software engineering tasks. They typically work on web applications, although some full-stack engineers work on desktop and mobile applications. Full-stack engineers have the skills to work on the user interface, server, and database components of an application. They are also familiar with an assortment of front-end and back-end languages, tools, and frameworks.
 
-## Where do Software Engineers Work?
+## Where Do Software Engineers Work?
 
-Software engineers work in a variety of industries. Although many software engineers work at tech companies, there are other industries which hire software engineers, such as financial institutions, healthcare organizations, government agencies, and education institutions.
+Software engineers work in a variety of industries. Although many software engineers work at tech companies, there are other industries that hire software engineers, such as financial institutions, healthcare organizations, government agencies, and education institutions.
