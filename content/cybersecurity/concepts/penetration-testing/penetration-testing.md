@@ -1,6 +1,6 @@
 ---
 Title: 'Penetration Testing'
-Description: 'Penetration Testing involves breaking into a system to better identify cybersecurity weaknesses so that the security posture can be improved.'
+Description: 'Penetration Testing, also referred to as pen testing, involves breaking into a system to better identify cybersecurity weaknesses so that the security posture can be improved.'
 Subjects:
   - 'Cybersecurity'
 Tags:
