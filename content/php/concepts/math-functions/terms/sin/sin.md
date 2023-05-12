@@ -11,7 +11,6 @@ Tags:
   - 'Numbers'
 CatalogContent:
   - 'learn-php'
-  - 'paths/computer-science'
   - 'paths/front-end-engineer-career-path'
 ---
 
