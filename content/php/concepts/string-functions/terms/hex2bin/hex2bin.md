@@ -35,4 +35,3 @@ The following example shows how to use the `hex2bin()` function:
 ?>
 ```
 
-> The `hex2bin()` function is available only in PHP 5.4.0 and later versions.
