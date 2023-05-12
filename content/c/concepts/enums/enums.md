@@ -1,5 +1,5 @@
 ---
-Title: 'Enum'
+Title: 'Enums'
 Description: 'An enum is used to assign custom names to integral constants.'
 Subjects:
   - 'Code Foundations'
