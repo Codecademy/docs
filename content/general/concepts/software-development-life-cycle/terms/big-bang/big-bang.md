@@ -17,7 +17,7 @@ The **Big Bang** model is a [Software Development Life Cycle](https://www.codeca
 The Big Bang model requires no or minimal planning. Instead, the development starts with acquiring the inputs, such as:
 
 - Time.
-- effort and
+- Effort.
 - resources.
 
 This model focuses on software development so developers can jump straight to the implementation to create software as the outcome.
