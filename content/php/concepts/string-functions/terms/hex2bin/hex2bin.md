@@ -36,4 +36,3 @@ The following example shows how to use the `hex2bin()` function:
   echo $binary_string . PHP_EOL;
 ?>
 ```
-
