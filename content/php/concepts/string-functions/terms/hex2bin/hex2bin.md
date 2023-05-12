@@ -15,6 +15,8 @@ CatalogContent:
 
 The **`hex2bin()`** function converts a string of hexadecimal values to its binary representation.
 
+> **Note:** This function does **NOT** convert a hexadecimal number to a binary number. The `hex2bin()` function is available only in PHP 5.4.0 and later versions.
+
 ## Syntax
 
 ```pseudo
