@@ -19,6 +19,6 @@ A pen test is different from a vulnerability assessment in that pen testers are 
 
 Ultimately, the goal is for clients to have a detailed understanding of where they are vulnerable and to help them to become as secure as possible.
 
-## Who Conducts Pen Tests?
+## Pen Testers
 
 Pen testing is conducted by ethical hackers who have permission to hack a client’s systems. Pen testers may be outsourced or in-house, sitting on the [red team](https://www.codecademy.com/resources/docs/cybersecurity/red-team) of a security organization. They use a diverse skill set including knowledge of network security, operating systems, software vulnerabilities, and IT administration to conduct their work.
