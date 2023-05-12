@@ -27,7 +27,7 @@ enum name
 };
 ```
 
-An enum is made up of members where each `memberName` can have a defined integral constant (i.e. 0, 10, 2) or just the `memberName`.
+An enum is made up of members where each `memberName` can have a defined integral constant (e.g. 0, 10, 2) or just the `memberName`.
 
 ## Examples
 
