@@ -22,7 +22,7 @@ CatalogContent:
 
 ## How ChatGPT Works
 
-**ChatGPT** is part of a new group of LLM models that are now made available by a technology called **transformers**. Other notable and similar LLM models include **BERT** used by Google to understand user searches; **DALL-E**, which can generate images; and **GPT-Neo**, a promising open-source LLM.
+**ChatGPT** is part of a new group of LLMs that are now made available by a technology called **transformers**. Other notable and similar LLMs include **BERT** used by Google to understand user searches; **DALL-E**, which can generate images; and **GPT-Neo**, a promising open-source LLM.
 
 ChatGPT is the packaging of a set of trained LLMs into a chatbot and developer friendly interface. This has created a system where there is low barrier to entry and almost everyone can start using the LLM.
 
@@ -56,7 +56,7 @@ While RNNs are very useful for language translation, they do not scale well with
 
 ### Breakthrough with Transformers
 
-The breakthrough that allowed BERT and ChatGPT-based models is called **transformers**, introduced in a paper from 2019 entitled _“Attention is all you need”_. It was presented as a way to build machine translation but to have much faster parallel execution. It also introduced a new concept called _Self Attention_ to further make sense of long language sequences. It creates connections between different parts of the sequence.
+The breakthrough that allowed BERT and ChatGPT-based models is called **transformers**, introduced in a paper from 2017 entitled _“Attention is all you need”_. It was presented as a way to build machine translation but to have much faster parallel execution. It also introduced a new concept called _Self Attention_ to further make sense of long language sequences. It creates connections between different parts of the sequence.
 
 So how does it all work? In the transformer-based model, each word is transformed into a token. As tokens are read as part of an input sentence the model starts predicting what the output should be - similar in concept to sentence completion.
 
