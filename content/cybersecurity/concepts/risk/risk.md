@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/cyber-resilience-risk-management'
 ---
 
-**Risk** is the possibility that a threat will exploit a vulnerability to cause harm to an asset. Risks posed to people, processes, or technology could result in financial loss, operational disruption, or physical damage.
+**Risk** is the possibility that a threat will exploit a [vulnerability](https://www.codecademy.com/resources/docs/cybersecurity/vulnerability) to cause harm to an asset. Risks posed to people, processes, or technology could result in financial loss, operational disruption, or physical damage.
 
 ## Types of Risk
 
