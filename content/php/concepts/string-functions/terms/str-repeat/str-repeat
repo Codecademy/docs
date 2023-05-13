@@ -1,5 +1,5 @@
 ---
-Title: 'str_replace()'
+Title: 'str_repeat()'
 Description: 'Returns a string with occurrences of a specified substring replaced by another string.'
 Subjects:
   - 'Computer Science'
