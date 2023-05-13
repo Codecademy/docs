@@ -22,6 +22,40 @@ max($var1, $var2, $var3, ...);
 
 `$var1`, `$var2`, `$var3` are the [variables](https://www.codecademy.com/resources/docs/php/variables) or [array](https://www.codecademy.com/resources/docs/php/arrays) from which the maximum value will be returned.
 
+It can be called either with multiple parameters or with a single array parameter.
+
+When called with multiple parameters, the **`max()`** function takes a comma-separated list of variables or values, like this:
+
+```php
+$max_value = max($var1, $var2, $var3);
+
+```
+
+In this case, the **`max()`** function compares the values of $var1, $var2, and $var3, and returns the highest value among them, which is then assigned to the variable $max_value.
+
+When called with a single array parameter, the **`max()`** function takes an array of values, like this:
+
+```php
+$max_value = max([$var1, $var2, $var3]);
+
+```
+
+In this case, the **`max()`** function compares the values in the array `[$var1, $var2, $var3]`, and returns the highest value among them, which is then assigned to the variable `$max_value`.
+
+It's important to note that if the **`max()`** function is called with a single non-array parameter, like this:
+
+```php
+$max_value = max($var1);
+```
+
+it will cause a PHP error, because the function expects at least two parameters when called with multiple values. Therefore, to use **`max()`** with a single value, it's necessary to put it into an array:
+
+```php
+$max_value = max([$var1]);
+```
+
+This will return the value of `$var1`, since it's the only value in the array.
+
 ## Example
 
 The example uses the `max()` function to find the highest value in the array of numbers and then prints the result using the `echo` statement. The output will be the maximum value found in the array.
