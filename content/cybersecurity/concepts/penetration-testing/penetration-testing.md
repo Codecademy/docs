@@ -11,7 +11,7 @@ CatalogContent:
   - 'introduction-to-ethical-hacking'
 ---
 
-**Penetration testing**, also referred to as pen testing, involves attempting to break into a system to better identify cybersecurity weaknesses so that the security posture can be improved. It is typically conducted by [ethical hackers](https://www.codecademy.com/resources/docs/cybersecurity/hacking) who have an offensive security lens. 
+**Penetration testing**, also referred to as pen testing, involves attempting to break into a system to better identify cybersecurity weaknesses so that the security posture can be improved. It is typically conducted by [ethical hackers](https://www.codecademy.com/resources/docs/cybersecurity/hacking) who have an offensive security lens.
 
 ## Penetration Testing vs. Assessments
 
