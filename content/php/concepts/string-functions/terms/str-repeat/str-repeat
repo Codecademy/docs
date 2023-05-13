@@ -13,21 +13,6 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
----
-Title: 'str_replace()'
-Description: 'Returns a string with occurrences of a specified substring replaced by another string.'
-Subjects:
-  - 'Computer Science'
-  - 'Web Design'
-  - 'Web Development'
-Tags:
-  - 'Strings'
-  - 'Functions'
-CatalogContent:
-  - 'learn-php'
-  - 'paths/computer-science'
----
-
 # str_repeat()
 
 The `str_repeat()` function returns a string that repeats a substring a specified number of times.
