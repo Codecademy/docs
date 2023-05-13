@@ -1,6 +1,6 @@
 ---
 Title: 'str_repeat()'
-Description: 'Returns a string with occurrences of a specified substring replaced by another string.'
+Description: 'Returns a string with occurrences of a specified substring repeated a specified number of times.'
 Subjects:
   - 'Computer Science'
   - 'Web Design'
