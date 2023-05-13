@@ -117,6 +117,7 @@ The output would be:
 ```
 
 ## Codebyte Example
+
 Return an `array` of all values in ages[] that are 18 or over:
 
 ```codebyte/javascript
