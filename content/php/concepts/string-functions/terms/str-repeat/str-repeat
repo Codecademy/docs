@@ -41,7 +41,7 @@ str_replace($string, $repeat)
 - `$string`:  Specifies the string to repeat and it is required.
 - ```$repeat``` Specifies the number of times the string will be repeated. Must be greater or equal to 0 and it is also required.
 
-## Code Byte Example
+## Codebyte Example
 
 This example provides a few demonstrations of `str_repeat()` operating on a string.
 
