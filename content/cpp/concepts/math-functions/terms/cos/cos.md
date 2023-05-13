@@ -37,3 +37,25 @@ int main() {
   // Output: The cosine of 3.1416 radians is -1
 }
 ```
+
+## Codebyte Example
+
+When you run the program, the output for the `cos()` function with integral type will be:
+
+```codebyte/cpp
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+  int x = 1;
+  double result;
+
+  // result is in double
+  result = cos(x);
+  cout << "cos(x) = " << result << endl;
+  
+  return 0;
+}
+```
