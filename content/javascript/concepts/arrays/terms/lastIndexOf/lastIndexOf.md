@@ -40,17 +40,6 @@ const lastIndexOf2 = numbers.lastIndexOf(2);
 console.log(lastIndexOf2);
 // Output: 1
 ```
-
-Since the `fromIndex` is not specified, the search will start at the end of the array. Then, iterating backward, the element we are searching for is found at index 1.
-
-## Codebyte Example 1
-```codebyte/javascript
-const numbers = [1, 2, 3];
-const lastIndexOf2 = numbers.lastIndexOf(2);
-
-console.log(lastIndexOf2);
-```
-
 ## Example 2
 
 ```js
@@ -72,26 +61,6 @@ const lastIndexOfCherry = fruits.lastIndexOf('cherry');
 console.log(lastIndexOfCherry);
 // Output: -1
 ```
-## Codebyte Example 2
-
-```codebyte/javascript
-const numbers = [1, 2, 3];
-const lastIndexOf2 = numbers.lastIndexOf(2);
-
-console.log(lastIndexOf2);
-```
-
-
-If the element is not found, the result will be `-1`:
-
-```codebyte/javascript
-const fruits = ['apple', 'orange', 'peach'];
-
-const lastIndexOfCherry = fruits.lastIndexOf('cherry');
-
-console.log(lastIndexOfCherry);
-```
-
 ## Example 3
 
 Check if the color 'blue' is in the `rainbow` array, before the fifth element:
@@ -115,23 +84,6 @@ console.log(checkIndigo);
 
 Since `fromIndex` is assigned to 4, the search will begin at `blue` and search all previous elements before it. The element `indigo` will not be found by the search because none of the elements after `blue` will be searched.
 
-## Codebyte Example 3
-```codebyte/javascript
-const rainbow = [
-  'red',
-  'orange',
-  'yellow',
-  'green',
-  'blue',
-  'indigo',
-  'violet',
-];
-
-const checkIndigo = rainbow.lastIndexOf('indigo', 4);
-
-console.log(checkIndigo);
-```
-
 ## Example 4
 
 Multiple matches will only return the last index where a match occurs:
@@ -144,12 +96,12 @@ const lastGreeting = repeatGreeting.lastIndexOf('hello world');
 console.log(lastGreeting);
 // Output: 2
 ```
-## Codebyte Example 4
+## Codebyte Example 
 
 ```codebyte/javascript
-const repeatGreeting = ['hello world', 'hello world', 'hello world'];
+const paragraph = 'The quick brown fox jumps over the lazy dog. If the dog barked, was it really lazy?';
 
-const lastGreeting = repeatGreeting.lastIndexOf('hello world');
+const searchTerm = 'dog';
 
-console.log(lastGreeting);
+console.log(`The index of the first "${searchTerm}" from the end is ${paragraph.lastIndexOf(searchTerm)}`);
 ```

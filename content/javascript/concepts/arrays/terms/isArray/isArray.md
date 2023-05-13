@@ -43,14 +43,6 @@ console.log(Array.isArray(true));
 ```
 ## Codebyte Example
 
-Check if the following values are arrays:
-
 ```codebyte/javascript
-console.log(Array.isArray([]));
-
-console.log(Array.isArray({}));
-
-console.log(Array.isArray(new Array(5)));
-
-console.log(Array.isArray(true));
+console.log(Array.isArray(new Int16Array([15, 33])));
 ```
