@@ -115,3 +115,58 @@ The output would be:
   team: "Red"
 }]
 ```
+## Codebyte Example
+
+Filtering out all small values:
+
+```codebyte/javascript
+const numbers = [6, 44, 87, 1, 197, 22];
+
+const filteredNumbers = numbers.filter((num) => num >= 10);
+
+console.log(filteredNumbers);
+```
+
+Filtering by index:
+
+```codebyte/javascript
+const numbers = [6, 44, 87, 1, 197, 22];
+
+const filterByIndex = numbers.filter((element, index) => {
+  return index % 2 === 0;
+});
+
+console.log(filterByIndex);
+```
+
+Filtering out names that don't begin with the given character:
+
+```codebyte/javascript
+const names = ['Jim', 'Bob', 'Sarah', 'Alex', 'James', 'Sam', 'Peter'];
+
+const filteredNames = (char, array) => {
+  return array.filter((name) => name[0].toLowerCase() === char);
+};
+
+console.log(filteredNames('j', names));
+```
+
+Filtering an array of objects:
+
+```codebyte/javascript
+const kickballPlayers = [
+  { name: 'Jim', team: 'Red' },
+  { name: 'Bob', team: 'Red' },
+  { name: 'Sarah', team: 'Blue' },
+  { name: 'Alex', team: 'Red' },
+  { name: 'James', team: 'Blue' },
+  { name: 'Sam', team: 'Blue' },
+  { name: 'Peter', team: 'Red' },
+  { name: 'Michael', team: 'Red' },
+  { name: 'Kenny', team: 'Blue' },
+  { name: 'Matt', team: 'Blue' },
+];
+
+const redTeam = kickballPlayers.filter((player) => player.team === 'Red');
+
+console.log(redTeam);
