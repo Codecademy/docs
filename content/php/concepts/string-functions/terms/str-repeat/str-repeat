@@ -53,4 +53,5 @@ echo (str_repeat("I-don't-apear",0). "\n");
 
 ?>
 ```
-Notice How the third echo statment doesn't apear in the output do it being repeated zero times .
+
+Notice how the third `echo` statement doesn't appear in the output due it being repeated zero times.
