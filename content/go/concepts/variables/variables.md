@@ -14,11 +14,17 @@ CatalogContent:
   - 'paths/back-end-engineer-career-path'
 ---
 
-**Variables** are used to store values with specific [data types](https://www.codecademy.com/resources/docs/go/data-types) (e.g., numbers, strings, or booleans) in memory for later use.
+**Variables** are used to store values with specific [data types](https://www.codecademy.com/resources/docs/go/data-types) (e.g. numbers, strings, or booleans) in memory for later use.
 
-## Difference From Constants
+## Variables Versus Constants
 
 Unlike constants, variables can be reassigned after declaration, but its data type must remain the same as it was when first initialized. For example, an `int` variable can start with a value of 2 and be reassigned to 0 (another `int`), but it can't be reassigned as "Codecademy" (a `string`).
+
+> **Note:** In Go, constants can not be declared from calculated values, in other words, the value cannot be the result of an expression (e.g. the sum of two values or variables).
+
+<!--linebreak-->
+
+> **Note:** In many languages constants are named using all capitals or beginning with a capital. This convention is not utilized in Go because capitalization is reserved to designate a package as public or private.
 
 ## Syntax
 
@@ -28,7 +34,7 @@ var name type
 
 Variable statements begin with the `var` keyword, followed by its `name`, and then the variable `type`.
 
-Variable names begin with a letter and are case-sensitive. They must not contain special characters, only letters and digits. They must also not be a reserved Go keyword such as `if` or `for`.
+Variable names can begin with a letter, or underscore, and are case-sensitive. Although the use of underscores is permitted, it's not recommended. Camel case is the idiomatic convention for variable naming. Variable names can be composed of letters and digits (in GO letters may include a range of symbols, however it is not recommended to use these). Additionally, they must also not be a reserved Go keyword such as `if` or `for`.
 
 ## Declaration
 
@@ -53,6 +59,8 @@ This way is used to assign values directly when defining a variable:
 var state bool = true
 var nameOfProgrammer string = "Codecademy Learner"
 ```
+
+> **Note:** If a value is not declared Go will assign a zero value by default (`0` or `false` for bools).
 
 ### Initializing Using Type Inference
 
@@ -79,3 +87,5 @@ This way is used to declare multiple variables on the same line. Variables are s
 var numbers, name = 100, "Codecademy User"
 user, activeState := "Abdulrahman", true
 ```
+
+> **Note:** In Go, all variables must be utilized, or 'read'. If a variable is not utilized it will result in a compile-time error.
