@@ -44,6 +44,7 @@ str_replace($string, $repeat)
 ## Code Byte Example
 
 This example provides a few demonstrations of `str_repeat()` operating on a string.
+
 ```codebyte/php
 <?php
 
