@@ -44,6 +44,12 @@ console.log(lastIndexOf2);
 Since the `fromIndex` is not specified, the search will start at the end of the array. Then, iterating backward, the element we are searching for is found at index 1.
 
 ## Codebyte Example 1
+```codebyte/javascript
+const numbers = [1, 2, 3];
+const lastIndexOf2 = numbers.lastIndexOf(2);
+
+console.log(lastIndexOf2);
+```
 
 ## Example 2
 
@@ -67,6 +73,16 @@ console.log(lastIndexOfCherry);
 // Output: -1
 ```
 ## Codebyte Example 2
+
+```codebyte/javascript
+const numbers = [1, 2, 3];
+const lastIndexOf2 = numbers.lastIndexOf(2);
+
+console.log(lastIndexOf2);
+```
+
+
+If the element is not found, the result will be `-1`:
 
 ```codebyte/javascript
 const fruits = ['apple', 'orange', 'peach'];
