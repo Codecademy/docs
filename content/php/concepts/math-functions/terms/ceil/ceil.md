@@ -25,6 +25,8 @@ Where `n` is the fractional number to find the next highest integer value of.
 
 ## Example
 
+This example demonstrates the usage of ceil function with three different arguments and outputs results of each in a new line:
+
 ```php
 <?php
   echo ceil(9.4)."\n";
@@ -33,7 +35,7 @@ Where `n` is the fractional number to find the next highest integer value of.
 ?>
 ```
 
-This example results in the following output:
+It results in the following output:
 
 ```shell
 10
