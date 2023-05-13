@@ -39,7 +39,7 @@ str_replace($string, $repeat)
 ```
 
 - `$string`:  Specifies the string to repeat and it is required.
-- ```$repeat``` Specifies the number of times the string will be repeated. Must be greater or equal to 0 and it is also required.
+- `$repeat`: Specifies the number of times the string will be repeated. Must be greater or equal to 0 and it is also required.
 
 ## Codebyte Example
 
