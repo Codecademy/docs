@@ -32,7 +32,7 @@ This can lead to consequences like identity theft, which is time-consuming, frus
 
 There are several types of cyber attacks. Some of the most common include:
 
-- Malicious software like malware that can spy on someone unnoticed (spyware) or hijack entire systems (ransomware).
+- Malicious software like [malware](https://www.codecademy.com/resources/docs/cybersecurity/malware) that can spy on someone unnoticed (spyware) or hijack entire systems (ransomware).
 - Phishing scams where an email, text, or link could trick a user into sharing sensitive, private information.
 - A "man-in-the-middle" (MitM) attack where the attacker intercepts a connection between multiple users.
 - Distributed Denial of Service (DDoS) attacks that overload a system's resources and bandwidth.
