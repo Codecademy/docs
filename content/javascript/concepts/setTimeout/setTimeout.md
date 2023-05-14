@@ -49,7 +49,7 @@ The output will be displayed after 4 seconds:
 Hello from Codecademy
 ```
 
-## Example 1
+## Example 1.1
 
 The following example can be done by using arrow functions, in which case, instead of declaring it using the word `function`, we can just create it by using `() =>`, for more information visit [arrow functions](https://www.codecademy.com/resources/docs/javascript/arrow-functions).
 
@@ -66,7 +66,7 @@ The output from the arrow function will be displayed after 2 seconds:
 Helloworld from Codecademy
 ```
 
-## Example 2
+## Example 1.2
 
 ```shell
 // Defining the function
