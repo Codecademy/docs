@@ -12,7 +12,7 @@ Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/
   - 'Coding'
   - 'Numbers'
 CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
-  - 'iOS-path-course'
+  - 'learn-python-3'
   - 'path/iOS developer'
 ---
 
