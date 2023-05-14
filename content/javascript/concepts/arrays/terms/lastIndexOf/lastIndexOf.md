@@ -40,6 +40,7 @@ const lastIndexOf2 = numbers.lastIndexOf(2);
 console.log(lastIndexOf2);
 // Output: 1
 ```
+
 ## Example 2
 
 Since the `fromIndex` is not specified, the search will start at the end of the array. Then, iterating backward, the element we are searching for is found at index 1.
