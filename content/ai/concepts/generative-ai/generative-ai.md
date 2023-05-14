@@ -99,7 +99,7 @@ Generative AI is expected to have significant impacts on the working world. Hund
 
 In some sense the change is expected to be welcomed as jobs that are currently mundane or have been difficult to automate will go away. For example frame editing, common artwork generation, and basic copywriting.
 
-One concern with this reduction is how jobs typically mentor juniors. If the mundane entry work goes away, how will the next generation be trained?
+One impact of this reduction will be how new joiners are mentored. New joiners are often given basic tasks. The approach to mentorship will change with the ability of Generative AI to accomplish these same tasks.
 
 ### Possibilities
 
