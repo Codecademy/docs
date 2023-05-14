@@ -45,7 +45,7 @@ print("Octal value of 10:",val)
 
 ```
 
-### Output:
+This example results in the following output:
 
 ```shell
 # Octal value of 10: 0o12
