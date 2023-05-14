@@ -22,7 +22,7 @@ The V model was first put into use in the late twentieth century and has been wi
 4. Module design
 5. Coding
 
-Except for **Coding**, the other four phases are linked to a distinct testing activity each. Going up from the bottom **(Module design)**, those testing activities are, respectively:
+Except for Coding, the other four phases are linked to a distinct testing activity each. Going up from the bottom (Module design), those testing activities are, respectively:
 
 - Unit testing
 - Integration Testing
