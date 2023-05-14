@@ -34,7 +34,8 @@ The function returns an octal string.
 
 ## Example
 
-A simple python example to get an octal value of a decimal number.
+This example gets an octal value of a decimal number.
+
 
 ```py
 # Python oct() function example  
