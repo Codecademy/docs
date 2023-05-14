@@ -39,7 +39,7 @@ Artificial Intelligence (AI) is the matching or exceeding the intelligence of a 
 
 With LLMs and a technology called diffusion AI, systems can now match or exceed other skills we often associate with intelligence such as:
 
-- Understanding and creating new text content.
+- Accurately responding to language inputs and creating new text content.
 - Writing original stories and poems.
 - Analyzing content for tone and emotions.
 - Creating unique images and video.
