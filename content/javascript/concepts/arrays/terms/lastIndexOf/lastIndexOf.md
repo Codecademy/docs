@@ -42,6 +42,8 @@ console.log(lastIndexOf2);
 ```
 ## Example 2
 
+Since the `fromIndex` is not specified, the search will start at the end of the array. Then, iterating backward, the element we are searching for is found at index 1.
+
 ```js
 const numbers = [1, 2, 3];
 const lastIndexOf2 = numbers.lastIndexOf(2);
@@ -49,7 +51,6 @@ const lastIndexOf2 = numbers.lastIndexOf(2);
 console.log(lastIndexOf2);
 // Output: 1
 ```
-
 
 If the element is not found, the result will be `-1`:
 
@@ -61,6 +62,7 @@ const lastIndexOfCherry = fruits.lastIndexOf('cherry');
 console.log(lastIndexOfCherry);
 // Output: -1
 ```
+
 ## Example 3
 
 Check if the color 'blue' is in the `rainbow` array, before the fifth element:
