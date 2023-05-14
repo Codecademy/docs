@@ -65,7 +65,8 @@ print("Octal value of 0b0101:",val)
 # hexadecimal number  
 print("Octal value of 0XAF:",val2)  
 ```
-### Output
+
+This example results in the following output:
 
 ```shell
 # Octal value of 0b0101: 0o5
