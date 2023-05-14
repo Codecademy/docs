@@ -46,7 +46,7 @@ print("Octal value of 10:",val)
 
 ### Output:
 
-```py
+```shell
 # Octal value of 10: 0o12
 ```
 
