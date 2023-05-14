@@ -1,0 +1,73 @@
+---
+Title: 'Oct.md' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
+Description: 'Python oct() function is used to get an octal value of an integer number' # Required; ideally under 150 characters and starts with a present-tense verb (used in search engine results and content previews)
+Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
+  - 'Computer Science'
+  - 'Functions'
+  - 'Python'
+Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
+  - 'Functions'
+  - 'Coding'
+  - 'numbers'
+CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+  - 'iOS-path-course'
+  - 'path/iOS developer'
+---
+
+[**This** method takes an argument and returns an integer converted into an octal string.]
+
+## Syntax
+
+```py
+oct(integer)
+```
+
+### Parameters
+
+**integer**: value which is to be converted into an octal string.
+
+### Returns 
+
+It returns an octal string.
+
+## Example
+
+A simple python example to get an octal value of a decimal number.
+
+```py
+# Python oct() function example  
+# Calling function  
+val = oct(10)  
+# Displaying result  
+print("Octal value of 10:",val)  
+
+```
+
+### Output:
+
+```py
+# Octal value of 10: 0o12
+```
+
+## Example 2
+In Python, binary, hexadecimal values are integer values. So, we can get octal conversion of binary and hexadecimal values as well. 
+See an example below. We can currently support:
+
+```py
+# Python oct() function example  
+# Calling function  
+val  = oct(0b0101) # Binary to octal  
+val2 = oct(0XAF) # Hexadecimal to octal  
+# Displaying result  
+# binary number  
+print("Octal value of 0b0101:",val)  
+# hexadecimal number  
+print("Octal value of 0XAF:",val2)  
+```
+### Output
+
+```py
+# Octal value of 0b0101: 0o5
+# Octal value of 0XAF: 0o257
+```
+
