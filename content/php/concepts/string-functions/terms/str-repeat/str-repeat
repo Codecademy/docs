@@ -21,7 +21,7 @@ The `str_repeat()` function returns a string that repeats a substring a specifie
 str_replace($string, $repeat)
 ```
 
-- `$string`:  Specifies the string to repeat and it is required.
+- `$string`: Specifies the string to repeat and it is required.
 - `$repeat`: Specifies the number of times the string will be repeated. Must be greater or equal to 0 and it is also required.
 
 ## Codebyte Example
