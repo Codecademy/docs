@@ -13,12 +13,12 @@ CatalogContent:
 
 **Generative text** is a commonly discussed type of generated content. Some applications include:
 
-- Generating poems
-- Writing stories
-- Writing legal contracts
-- Summarizing a meeting
-- Write a blog entry
-- Create Ad copy
+- Generating poems.
+- Writing stories.
+- Writing legal contracts.
+- Summarizing a meeting.
+- Write a blog entry.
+- Create Ad copy.
 
 Generative AI can create new content based upon text input and prompts. It can summarize and alter the style and tone of text.
 
