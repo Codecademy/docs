@@ -67,7 +67,7 @@ print("Octal value of 0XAF:",val2)
 ```
 ### Output
 
-```py
+```shell
 # Octal value of 0b0101: 0o5
 # Octal value of 0XAF: 0o257
 ```
