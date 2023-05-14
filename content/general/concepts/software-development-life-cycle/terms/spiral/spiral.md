@@ -27,14 +27,14 @@ Each iteration consists of all above phases but has different aims which are usu
 - Release candidate
 - Launch
 
-## Advantages:
+## Advantages
 
 - Products are prototyped for quick introduction.
 - Errors and failures are identified and handled as they arise.
 - Frequent feedback and refinement through cycles.
 - Flexible and adaptive to changes.
 
-## Disadvantages:
+## Disadvantages
 
 - Complex workflow and requires expertise especially in risk analysis.
 - Costly and time-consuming.
