@@ -34,7 +34,7 @@ int main() {
 ```
 ## Codebyte Example
 
-Example of the C++ `abs()` function
+C++ example of the function `abs()`
 
 ```codebyte/cpp
 #include <iostream>
