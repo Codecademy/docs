@@ -55,7 +55,6 @@ The following example can be done by using arrow functions, in which case, inste
 
 ```shell
 // Defining the function
-
 setTimeout(() => {
   console.log('HelloWorld from Codecademy');
 }, 2000);
