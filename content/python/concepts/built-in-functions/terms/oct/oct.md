@@ -30,7 +30,7 @@ Where `integer` is the value which is to be converted into an octal string.
 
 ### Returns 
 
-It returns an octal string.
+The function returns an octal string.
 
 ## Example
 
