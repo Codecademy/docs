@@ -10,8 +10,8 @@ Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/
   - 'Coding'
   - 'numbers'
 CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
-  - 'iOS-path-course'
-  - 'path/iOS developer'
+  - 'Learn - Python'
+  - 'path/Computer Science'
 ---
 
 [**This** method takes an argument and returns an integer converted into an octal string.]
