@@ -1,5 +1,5 @@
 ---
-Title: 'ARGF'
+Title: 'ARGF and ARGV'
 Description: 'ARGF is a module in Ruby used for reading files passed as command line arguments or in standard input (STDIN) in a terminal. A Ruby script using ARGF may be thought of as implementing a subset of the functions of the Unix command `cat`.'
 Subjects:
   - 'Web Development'
