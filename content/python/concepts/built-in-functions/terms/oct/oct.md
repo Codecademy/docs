@@ -23,7 +23,6 @@ The **oct()** function takes an argument and returns an integer converted into a
 ```py
 oct(integer)
 ```
-
 ### Parameters
 
 Where `integer` is the value which is to be converted into an octal string.
