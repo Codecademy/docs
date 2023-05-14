@@ -64,7 +64,7 @@ setTimeout(() => {
 
 The output from the arrow function will be displayed after 2 seconds:
 
-```output
+```shell
 Helloworld from Codecademy
 ```
 
