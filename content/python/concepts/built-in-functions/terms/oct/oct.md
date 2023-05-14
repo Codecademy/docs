@@ -16,7 +16,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'paths/computer-science'
 ---
 
-[**This** method takes an argument and returns an integer converted into an octal string.]
+The **oct()** function takes an argument and returns an integer converted into an octal string.
 
 ## Syntax
 
