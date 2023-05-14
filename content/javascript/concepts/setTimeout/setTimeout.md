@@ -29,7 +29,7 @@ setTimeout(callback, delay)
 setTimeout(callback, delay, param)
 ```
 
-## Usage example
+## Examples
 
 The following pieces of code will show some examples about the setTimeout implementation:
 
