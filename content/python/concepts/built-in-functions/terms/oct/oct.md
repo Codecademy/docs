@@ -49,6 +49,7 @@ This example results in the following output:
 ```
 
 ## Example 2
+
 In Python, binary and hexadecimal values are integer values. So, the `oct()` function can return octal conversion of binary and hexadecimal values as well. 
 
 ```py
