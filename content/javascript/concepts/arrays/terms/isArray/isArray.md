@@ -41,6 +41,7 @@ console.log(Array.isArray(new Array(5)));
 console.log(Array.isArray(true));
 // Output: false
 ```
+
 ## Codebyte Example
 
 The `Array.isArray()` static method determines whether the passed value is an `Array`.
