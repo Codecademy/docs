@@ -41,7 +41,6 @@ function sayHello() {
 }
 
 // Calling the function using setTimeout.
-
 setTimeout(sayHello, 4000);
 ```
 
