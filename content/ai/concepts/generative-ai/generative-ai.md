@@ -56,7 +56,7 @@ An additional argument against it being art is that that the human element is no
 
 ## Applications
 
-Generative AI is a combination of several technologies and has many applications. Effective LLMs are used to understand a natural language prompt and technologies such as diffusion models are used in the case of image generation.
+Generative AI is a combination of several technologies and has many applications. Effective LLMs are used to process a natural language prompt and technologies such as diffusion models are used in the case of image generation.
 
 Some content types GenAI is being used for include:
 
