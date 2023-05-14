@@ -63,6 +63,7 @@ const lastIndexOfCherry = fruits.lastIndexOf('cherry');
 console.log(lastIndexOfCherry);
 // Output: -1
 ```
+
 ## Example 3
 
 Check if the color 'blue' is in the `rainbow` array, before the fifth element:
