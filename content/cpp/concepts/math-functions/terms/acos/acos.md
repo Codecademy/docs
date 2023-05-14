@@ -37,27 +37,3 @@ int main() {
   // Output: 1.5708 radians
 }
 ```
-## Codebyte Example
-
-Using the `acos()` function with an integral type
-
-```codebyte/cpp
-#include <iostream>
-#include <cmath>
-
-using namespace std;
-
-int main()
-{
-  int x = -1;
-  double result;
-
-  result = acos(x);
-  
-  cout << "acos(x) = " << result << " radians" << endl;
-  // Converting result to degrees
-  cout << "acos(x) = " << result*180/3.1415 << " degrees";
-  
-  return 0;
-}
-```
