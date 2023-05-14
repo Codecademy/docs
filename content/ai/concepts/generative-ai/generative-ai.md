@@ -89,6 +89,10 @@ Some uses are allowed, such as commentary, search engines, news reporting, resea
 
 Different companies are quickly setting up policies around Generative-AI. Google announced that they are allowing AI-generated advertising content. Shutterstock has announced that they will allow the selling of content generated with OpenAI and are working on a royalty system for content used to sell generated content based on original work.
 
+### Accuracy
+
+The correctness of the input data used during model training controls the accuracy of the generated content. There is no way to guarantee quality, accuracy, lack of bias, or timeliness. With the increased consumption of generated content, cases of misinformation (unintended and intended) are being considered.
+
 ### Speed of change
 
 What is different about Generative AI is the speed of change. This is creating fear of the unknown as it is difficult to predict what will happen next. Digital artists and some prominent tech leaders are calling for the halting of Generative AI until the impacts on society are more understood.
