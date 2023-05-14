@@ -11,7 +11,6 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/data-science'
 ---
 
 Returns the quotient and remainder of the division of two numbers.
