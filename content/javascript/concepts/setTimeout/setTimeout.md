@@ -35,7 +35,6 @@ The following pieces of code will show some examples about the `setTimeout()` im
 
 ```shell
 // Defining the function
-
 function sayHello() {
   console.log('Hello from Codecademy');
 }
