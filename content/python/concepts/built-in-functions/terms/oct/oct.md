@@ -26,7 +26,7 @@ oct(integer)
 
 ### Parameters
 
-**integer**: value which is to be converted into an octal string.
+Where `integer` is the value which is to be converted into an octal string.
 
 ### Returns 
 
