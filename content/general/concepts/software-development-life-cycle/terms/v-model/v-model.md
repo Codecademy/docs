@@ -1,6 +1,6 @@
 ---
 Title: 'V Model'
-Description: 'A model of software development focused on the validation and verification of the product.'
+Description: 'Focused on the validation and verification of the product.'
 Subjects:
   - 'Mobile Development'
   - 'Web Development'
