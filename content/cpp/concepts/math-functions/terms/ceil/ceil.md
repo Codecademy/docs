@@ -39,3 +39,23 @@ int main() {
   // Output: The result is 13!
 }
 ```
+
+## Codebyte Example
+
+The C++ `ceil()` for Integral Types
+
+```codebyte/cpp
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+  int num = 15;
+
+  double result = ceil(num);
+
+  cout << "Ceil of " << num<< " = " << result;
+
+  return 0;
+}
+```

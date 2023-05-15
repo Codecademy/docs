@@ -37,3 +37,23 @@ int main() {
   // Output: The cube root of 27 is 3
 }
 ```
+
+## Codebyte Example
+
+The `cbrt()` function With integral Argument
+
+```codebyte/cpp
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+  int num = 15;
+
+  double result = ceil(num);
+
+  cout << "Ceil of " << num<< " = " << result;
+
+  return 0;
+}
+```
