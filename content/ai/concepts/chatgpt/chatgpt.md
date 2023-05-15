@@ -26,7 +26,7 @@ CatalogContent:
 
 ChatGPT is the packaging of a set of trained LLMs into a chatbot and developer friendly interface. This has created a system where there is low barrier to entry and almost everyone can start using the LLM.
 
-### What is the relation to Internet Search?
+### What is the Relation to Internet Search?
 
 **ChatGPT** is trained by using vast quantities of data from the internet. However, LLMs are different from internet search engines in the following ways:
 
@@ -98,6 +98,6 @@ ChatGPT was intended to be a demonstration product. Companies around the world a
 
 Costs to train a LLM can be in the millions of dollars - so training frequently may hit commercial challenges. After training, each _inference_ or transaction costs some amount of money and computing power.
 
-### New areas of Tech
+### New Areas of Tech
 
-ChatGPT **Prompt Engineering**, **Embeddings**, and **Fine tuning** are necessary in using the new LLM technology. While there are predictings that some types of coding may change, new programming approaches are being created.
+ChatGPT **Prompt Engineering**, **Embeddings**, and **Fine tuning** are necessary in using new LLM technology. There are predictions that some types of coding may change as these technologies continue to develop, however, work in the assessment and refinement of new programming approaches is just beginning.
