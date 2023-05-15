@@ -61,3 +61,23 @@ public class Example {
   }
 }
 ```
+
+## Codebyte Example
+
+We use the `Math.Pow` function to calculate the value of `x` raised to the power of `exponent`. The result is stored in the `result` variable.
+```
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        double x = 2.5;
+        double exponent = 3;
+        double result = Math.Pow(x, exponent);
+
+        Console.WriteLine($"{x} raised to the power of {exponent} is {result}.");
+    }
+}
+```
+

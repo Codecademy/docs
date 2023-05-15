@@ -61,3 +61,23 @@ public class Example {
   }
 }
 ```
+
+## Codebyte Example
+
+We use the `Math.Max` function to compare the values of `a` and `b` and retrieve the maximum value. The result is stored in the `max` variable.
+
+```codebyte/csharp
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int a = 5;
+        int b = 8;
+        int max = Math.Max(a, b);
+
+        Console.WriteLine($"The maximum value between {a} and {b} is {max}.");
+    }
+}
+```
