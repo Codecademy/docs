@@ -23,9 +23,11 @@ divmod(x, y)
 
 The `divmod()` method takes two arguments and returns a tuple, with the result of the division and the remainder.
 
+> **Note:** The method only accepts non-complex values and the quotient returned will always be a whole number (the quotient returned is the result of a floor-division).
+
 ## Example
 
-Use `divmod()` to calculate the quotient and remainder of dividing `10` by `3`:
+In the code below `divmod()` is implemented with two positive integers:
 
 ```python
 result = divmod(10, 3)
@@ -33,21 +35,20 @@ result = divmod(10, 3)
 print(result)
 ```
 
-Output
+The code above results in the following output:
 
 ```shell
 (3, 1)
 ```
 
-In this example, the quotient of 10 divided by 3 is 3, and the remainder is 1.
-
+In this example, 10 divided by 3 yields 3, and the remainder is 1.
 
 ## Codebyte Example
 
-Use `divmod()` to calculate the quotient and remainder of dividing `-15` by `4`:
+Below `divmod()` is passed two floating point values:
 
 ```codebyte/python
-result = divmod(-15, 4)
+result = divmod(10.0, 2.5)
 
 print(result)
 ```
