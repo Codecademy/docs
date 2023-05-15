@@ -65,4 +65,3 @@ This example results in the following output:
 # Octal value of 0b0101: 0o5
 # Octal value of 0XAF: 0o257
 ```
-
