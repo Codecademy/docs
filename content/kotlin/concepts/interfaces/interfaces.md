@@ -1,5 +1,5 @@
 ---
-Title: 'Interface'
+Title: 'Interfaces'
 Description: 'Interfaces are an abstract class describing methods and variables that should exist in any class that implements the interface.'
 Subjects:
   - 'Computer Science'
