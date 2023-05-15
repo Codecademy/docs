@@ -26,7 +26,7 @@ The **`Spacer`** is an adaptive view that expands as much as possible within a s
 var body: some View {
   HStack {
   	Text(name)
-    Spacer()
+  	Spacer()
   }
 }
 ```
@@ -57,7 +57,7 @@ var body: some View {
   HStack {
   	Spacer()
   	Text(name)
-    Spacer()
+  	Spacer()
   }
 }
 ```
