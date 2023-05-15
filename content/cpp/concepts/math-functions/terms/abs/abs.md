@@ -32,6 +32,7 @@ int main() {
   // Output: 6.5
 }
 ```
+
 ## Codebyte Example
 
 C++ example of the function `abs()`
