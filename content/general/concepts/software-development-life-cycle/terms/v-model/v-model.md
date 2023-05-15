@@ -1,5 +1,5 @@
 ---
-Title: 'V-model'
+Title: 'V Model'
 Description: 'A model of software development focused on the validation and verification of the product.'
 Subjects:
   - 'Mobile Development'
@@ -12,9 +12,9 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The **V-model** is a Software Development Life Cycle (SDLC)  that is based on the [Waterfall model](https://www.codecademy.com/resources/docs/general/software-development-life-cycle/waterfall) and emphasizes the **verification** and **validation** of the product. Each phase of this model is paired with a level of testing.
+The **V model** is a Software Development Life Cycle (SDLC) that is based on the [Waterfall model](https://www.codecademy.com/resources/docs/general/software-development-life-cycle/waterfall) and emphasizes the verification and validation of the product. Each phase of this model is paired with a level of testing.
 
-The V-model was first implemented in the late twentieth century and has been widely used ever since. It can be divided in five main phases:
+The V model was first implemented in the late twentieth century and has been widely used ever since. It can be divided in five main phases:
 
 1. Requirements analysis
 2. System design
