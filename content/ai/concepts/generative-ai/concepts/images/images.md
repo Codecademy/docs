@@ -19,7 +19,7 @@ Image creation is mainly based on a relatively new development called a **diffus
 
 Until recently, Generative Adversarial Networks (GANs) were the standard way to create images. With this approach, random noise is used to create an image. The image is then fed into another network which is trained to determine the quality. With more iterations, both networks (adversaries) can improve.
 
-Diffusion models are instead inspired by the world of physics. Imagine a pot of coffee brewing in a large room. Eventually the molecules we can smell diffuse into the air and travel throughout. If later someone asked for another pot of coffee we could trace back the motion track of the molecules and create another pot.
+Diffusion models are instead inspired by the world of physics. Imagine a pot of coffee brewing in a large room. Eventually the molecules that can be smelled will diffuse into the air and travel throughout. If later someone asked for another pot of coffee, we could trace back the motion track of the molecules and create another pot.
 
 GenAI image platforms are trained on vast amounts of data. By using diffusion models, these platforms can turn natural language descriptions into photo-realistic images. Some of these platforms include:
 
