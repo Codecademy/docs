@@ -89,15 +89,15 @@ describe.each(glob.sync('content/**/*.md'))('%s', (file) => {
 
   const fileContent = fs.readFileSync(file, 'utf8');
 
-  if (!fileContent.startsWith('---')) {
-    throw new Error(
-      `error: ${file} does not contain properly formatted frontmatter. Check for leading invisible characters.`
-    );
-  }
-
   if (!frontmatter.test(fileContent)) {
     throw new Error(
       `error: ${file} does not contain properly formatted frontmatter.`
+    );
+  }
+
+  if (!fileContent.startsWith('---')) {
+    throw new Error(
+      `error: ${file} does not contain properly formatted frontmatter. Check for leading invisible characters.`
     );
   }
 
