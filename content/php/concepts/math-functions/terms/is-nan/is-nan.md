@@ -25,7 +25,7 @@ Returns `1` if `n` is not a number, else returns nothing.
 
 ## Codebyte Example
 
-Using `is_nan()` to check whether `10` is 'not a number':
+The following codebyte example uses `is_nan()` on the values of `10` and `sqrt(-1)` to check if each one is 'not a number':
 
 ```codebyte/php
 <?php
