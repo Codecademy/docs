@@ -29,6 +29,20 @@ Text("Hello, World!") // SwiftUI Text view.
 ```
 **Output**:
 
+![Output image](TapgestuerOutput.png)
+
+In the above example, everytime you tap the text view "Hello, World", it prints "View Tapped" in the console.
+You can also implement action on a certain amount of tap gesture counts.
+
+```Swift
+Text("Hello, World!") // SwiftUI Text view.
+            .onTapGesture(count: 3) { // by using this modifier, you can run a specifec action when the View is tapped 3 times.
+                print("View Tapped") // this function will print "View Tapped" in the console.
+            }
+
+```
+
+ 
 
 
 
