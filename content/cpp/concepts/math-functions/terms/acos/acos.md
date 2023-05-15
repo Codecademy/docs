@@ -37,6 +37,7 @@ int main() {
   // Output: 1.5708 radians
 }
 ```
+
 ## Codebyte Example
 
 Using the `acos()` function with an integral type
