@@ -8,7 +8,7 @@ Subjects:
 Tags:
   - 'Functions'
   - 'Arithmetic'
-CatalogContent: 
+CatalogContent:
   - 'learn-php'
   - 'paths/computer-science'
 ---
@@ -32,3 +32,4 @@ The following codebyte example uses `is_nan()` on the values of `10` and `sqrt(-
   echo "10:", is_nan(10), "\n";
   echo "sqrt of -1: ", is_nan(sqrt(-1));
 ?>
+```
