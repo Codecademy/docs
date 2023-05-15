@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`ord()`** function returns the integer that represents the Unicode character argument.
+The **`ord()`** function returns the integer that represents the Unicode character argument. It is the inverse function of [`chr()`](https://www.codecademy.com/resources/docs/python/built-in-functions/chr) which provides the Unicode character for the integer passed.
 
 ## Syntax
 
