@@ -35,7 +35,6 @@ This example gets an octal value of a decimal number.
 val = oct(10)  
 # Displaying result  
 print("Octal value of 10:",val)  
-
 ```
 
 This example results in the following output:
