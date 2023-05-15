@@ -1,25 +1,20 @@
 ---
-Title: 'PHP String Functions echo()'
-Description: 'Outputs one or more strings'
+Title: 'echo()'
+Description: 'Outputs one or more strings.'
 Subjects:
   - 'Web Development'
-  - 'PHP'
+  - 'Computer Science'
 Tags:
-  - 'echo'
-  - 'string'
-  - 'output'
+  - 'Strings'
+  - 'Output'
 CatalogContent:
   - 'learn-php'
   - 'paths/web-development'
 ---
 
+> The metadata above provides information about the entry for the PHP String Functions echo().
 
-> **Note:** The metadata above provides information about the entry for the PHP String Functions echo().
-
-
-
-The PHP programming language offers a wide range of built-in functions for working with strings. One of the most commonly used functions is `echo()`, which is used to output one or more strings to the browser or command-line interface.
-
+One of the most commonly used functions in PHP is **`echo()`**, which is used to output one or more strings to the browser or command-line interface.
 ## Syntax:
 
 ```php
@@ -30,30 +25,23 @@ The `echo()` function can accept one or more strings as arguments, separated by 
 
 ## Examples:
 
+This example will output the text "Hello, world!" to the screen.
+
 ```php
 echo "Hello World!";
-
-
 echo "Hello", " ", "World", "!";
 ```
 
-Output:
-
-```shell
-Hello World!
-```
-
-This will output the text "Hello, world!" to the screen. You can also use `echo()` to output variables:
+You can also use `echo()` to output variables:
 
 ```php
   $name = "John";
   echo "My name is $name";
-
-
-  echo 'My name is '.$name;
+  or
+  echo 'My name is ' . $name;
 ```
 
-Output:
+This example will output:
 
 ```shell
 My name is John
