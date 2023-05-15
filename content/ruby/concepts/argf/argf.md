@@ -1,6 +1,6 @@
 ---
 Title: 'ARGF and ARGV'
-Description: 'ARGF is a module in Ruby used for reading files passed as command line arguments or in standard input (STDIN) in a terminal. A Ruby script using ARGF may be thought of as implementing a subset of the functions of the Unix command `cat`.'
+Description: 'ARGF is a module in Ruby used for reading files passed as command line arguments or in standard input (STDIN) in a terminal. A Ruby script using ARGF may be thought of as implementing a subset of the functions of the Unix command cat.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -28,14 +28,13 @@ echo "standard input" | cat
 ```
 The cat command can accept a filename or you can | pipe another command as standard input.
 
-### Reading files with Ruby
+## ARGF - the F is for files
 
 ```ruby
 # argf.rb
 puts ARFG.read
 ```
 
-## ARGF - the F is for files
 The ARGF module has a method #file that you can use to recognize what file it is currently handling. Type this on the command line:
 ```shell
 ruby argf.rb file1 file2
@@ -45,6 +44,7 @@ ruby argf.rb file1 file2
 ```
 
 If no file is passed in, ARGF can also detect the standard input stream being piped in.
+
 ```shell
 echo "STDIN" | ruby argf.rb
 # Output:
@@ -52,6 +52,7 @@ echo "STDIN" | ruby argf.rb
 ```
 
 A combination of files and standard input is accepted too.
+
 ```shell
 echo "STDIN" | ruby argf.rb file1 file2 -
 # Output:
@@ -61,6 +62,7 @@ echo "STDIN" | ruby argf.rb file1 file2 -
 ```
 
 ## ARGV - the V is for variable
+
 Behind the scenes, inside the file there is a Ruby array called ARGV which contains the names of all arguments passed to the file at the command line or through STDIN.
 
 ```ruby
@@ -69,6 +71,7 @@ puts ARGV.inspect
 ```
 
 The ARGV array doesn't care whether the arguments are valid filenames or not.
+
 ```shell
 ruby argf_inspect_argv.rb file1 file2
 # Output: ["file1", "file2"]
@@ -77,18 +80,19 @@ ruby argf_inspect_argv.rb one two
 # Output: ["one", "two"]
 ```
 
-## shift
+## `shift`
 ARGF is using ARGV to store the names of the files passed into it at the command line.
 Files that are processed by ARGF.read are shifted off the ARGV array
 
-However, as is often the case with terminal commands, flags like --verbose or --all are often used.
+However, as is often the case with terminal commands, flags like `--verbose` or `--all` are often used.
 What happens in a case like this?
 ```shell
 ruby argf_inspect_argv.rb --all one two
 # Output: ["--all", "one", "two"]
 ```
 
-We should use the #shift method of ARGV
+The #shift method of ARGV should be used:
+
 ```ruby
 # argv_shift.rb
 ARGV.shift
