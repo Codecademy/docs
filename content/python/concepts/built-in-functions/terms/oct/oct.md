@@ -29,7 +29,6 @@ The function returns an octal string.
 
 This example gets an octal value of a decimal number.
 
-
 ```py
 # Python oct() function example  
 # Calling function  
