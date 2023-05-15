@@ -1,6 +1,6 @@
 ---
 Title: 'Code'
-Description: '**Generative Coding** is the use of Generative AI (GenAI) to assist in software development. It was one of the first applications of Generative AI technology to be commercialized.'
+Description: 'Generative coding is the use of Generative AI (GenAI) to assist in software development. It was one of the first applications of Generative AI technology to be commercialized.'
 Subjects:
   - 'Machine Learning'
   - 'Data Science'
@@ -11,11 +11,11 @@ CatalogContent:
   - 'intro-to-chatgpt'
 ---
 
-**Generative Coding** is the use of Generative AI (GenAI) to assist in software development. It was one of the first applications of Generative AI technology to be commercialized.
+**Generative coding** is the use of Generative AI (GenAI) to assist in software development. It was one of the first applications of Generative AI technology to be commercialized.
 
 ## Code
 
-Generative AI is at an early stage. It often yields impressive, but not perfect results. Generally, the most productive workflows use the generated output as a starting point, and then includes further reviews and improvements. For example, GitHub has released Copilot X which acts as an AI-paired programmer. Some features include:
+Generative AI is at an early stage of development. It often yields impressive, but not perfect results. Generally, the most productive workflows use the generated output as a starting point, and then includes further reviews and improvements. For example, GitHub has released Copilot X which acts as an AI-paired programmer. Some features include:
 
 - Code completion.
 - Chat ability that can explain what the code does.
