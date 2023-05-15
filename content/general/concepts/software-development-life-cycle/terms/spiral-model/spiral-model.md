@@ -1,6 +1,6 @@
 ---
-Title: 'Spiral'
-Description: 'A model of software development that combines the Waterfall model with iterative development.'
+Title: 'Spiral Model'
+Description: 'Combines the Waterfall model with iterative development.'
 Subjects:
   - 'Mobile Development'
   - 'Web Development'
