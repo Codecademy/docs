@@ -1,6 +1,6 @@
 ---
 Title: 'Big Bang'
-Description: 'Big Bang is a software development model without specific processes.'
+Description: 'A software development model without specific processes.'
 Subjects:
   - 'Mobile Development'
   - 'Web Development'
