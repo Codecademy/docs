@@ -23,7 +23,8 @@ hex(integer)
 
 ## Example
 
-Use `hex()` function to convert the integer `31` to hexidecimal
+In the code below the `hex()` function is used to convert the integer `31` to hexidecimal.
+
 ```python
 n = hex(31)
 print(n)
