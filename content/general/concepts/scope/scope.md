@@ -45,6 +45,6 @@ In this pseudocode, the following scopes exist:
 
 The pseudocode snippet demonstrates how variables can have different scopes depending on where they are declared. Understanding scope is essential for correctly accessing variables and avoiding conflicts between different parts of a program.
 
+## More information
 
-
-
+You can review more information regarding the concept of scope for [Python](https://www.codecademy.com/resources/docs/python/scope), [Ruby](https://www.codecademy.com/resources/docs/ruby/scope), and [Javascript](https://www.codecademy.com/resources/docs/javascript/variable-scope)
