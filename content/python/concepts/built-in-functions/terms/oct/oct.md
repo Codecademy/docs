@@ -23,7 +23,8 @@ The **`oct()`** function takes an integer and returns the corresponding octal st
 
 oct(integer)
 ```
-Where `integer` is the value which is to be converted into an octal string.
+Where `integer` is the value to be converted into an octal string.
+
 
 The function returns an octal string.
 
