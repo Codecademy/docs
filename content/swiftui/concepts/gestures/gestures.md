@@ -62,26 +62,32 @@ Text("Hello, World!") // SwiftUI Text view.
             }
 ```
 
+There is so more types of gestures struct, to check them all visit: <https://developer.apple.com/documentation/swiftui/gestures>
+
 ## Advanced Gestures
+For more advanced gestures you should use the `gesture()` modifier with one of the gesture structs:` DragGesture, LongPressGesture, MagnificationGesture, RotationGesture, and TapGesture`. These all have special modifiers, usually `onEnded()` and often `onChanged() `too, and you can use them to take action when the gestures are in-flight (for `onChanged()`) or completed (`for onEnded()`).
 
+As an example, we could attach a magnification gesture to a view so that pinching in and out scales the view up and down. This can be done by creating two `@State` properties to store the scale amount, using that inside a `scaleEffect()` modifier, then setting those values in the gesture, like this:
 
-[Text about subsection n]
+```Swift
+struct ContentView: View {
+    @State private var currentAmount = 0.0
+    @State private var finalAmount = 1.0
 
-## Codebyte Example (if applicable)
-
-We can currently support:
-
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
-
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
-
-```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
+    var body: some View {
+        Text("Hello, World!")
+            .scaleEffect(finalAmount + currentAmount)
+            .gesture(
+                MagnificationGesture()
+                    .onChanged { amount in
+                        currentAmount = amount - 1
+                    }
+                    .onEnded { amount in
+                        finalAmount += currentAmount 
+                        currentAmount = 0
+                    }
+            )
+    }
+}
 ```
+// this a comment for the person who will review this doc, I don't know if i can put images or not. if I can please tell me to add some images for this file.
