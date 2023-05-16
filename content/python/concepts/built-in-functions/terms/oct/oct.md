@@ -30,7 +30,8 @@ The function returns an octal string.
 
 ## Example
 
-This example gets an octal value of a decimal number.
+This example returns the octal string for the value `10`.
+
 
 ```py
 # Calling function  
