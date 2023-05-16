@@ -21,7 +21,8 @@ The **`hex()`** function converts an integer number to a hexadecimal string with
 hex(integer)
 ```
 
-## Example 1
+## Example
+
 Use `hex()` function to convert the integer `31` to hexidecimal
 ```python
 n = hex(31)
