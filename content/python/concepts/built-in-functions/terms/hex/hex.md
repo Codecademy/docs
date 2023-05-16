@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-**hex()** converts an integer number to a lowercase hexadecimal string prefixed with “0x”
+The **`hex()`** function converts an integer number to a hexadecimal string with the prefix `0x`.
 
 ## Syntax
 
