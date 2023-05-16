@@ -59,7 +59,8 @@ val2 = oct(0XAF) # Hexadecimal to octal
 # Binary number  
 
 print("Octal value of 0b0101:",val)  
-# hexadecimal number  
+# Hexadecimal number  
+
 print("Octal value of 0XAF:",val2)  
 ```
 
