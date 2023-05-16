@@ -1,6 +1,6 @@
 ---
-Title: 'Spiral'
-Description: 'A model of software development that combines the Waterfall model with iterative development.'
+Title: 'Spiral Model'
+Description: 'Combines the Waterfall model with iterative development.'
 Subjects:
   - 'Mobile Development'
   - 'Web Development'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The **Spiral model** is a Software Development Life Cycle (SDLC) that combines the [Waterfall model](https://www.codecademy.com/resources/docs/general/software-development-life-cycle/waterfall) and iterative development approaches. Each phase within this model involves risk analysis and prototyping.
+The **Spiral model** is a Software Development Life Cycle (SDLC) that combines the [Waterfall model](https://www.codecademy.com/resources/docs/general/software-development-life-cycle/waterfall-model) and iterative development approaches. Each phase within this model involves risk analysis and prototyping.
 
 The Spiral model was first introduced by Barry Boehm in 1986 as a result of applying iterative development in constructing software. It is divided into four phases:
 
