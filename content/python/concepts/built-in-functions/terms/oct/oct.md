@@ -56,7 +56,8 @@ In Python, binary and hexadecimal values are integer values. So, the `oct()` fun
 val  = oct(0b0101) # Binary to octal  
 val2 = oct(0XAF) # Hexadecimal to octal  
 # Displaying result  
-# binary number  
+# Binary number  
+
 print("Octal value of 0b0101:",val)  
 # hexadecimal number  
 print("Octal value of 0XAF:",val2)  
