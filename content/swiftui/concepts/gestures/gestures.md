@@ -29,28 +29,41 @@ Text("Hello, World!") // SwiftUI Text view.
 ```
 **Output**:
 
-![Output image](TapgestuerOutput.png)
+```Shell
+View Tapped 
+```
 
 In the above example, everytime you tap the text view "Hello, World", it prints "View Tapped" in the console.
-You can also implement action on a certain amount of tap gesture counts.
+You can also implement the action after certain amount of tap gestures. For example:
 
 ```Swift
 Text("Hello, World!") // SwiftUI Text view.
             .onTapGesture(count: 3) { // by using this modifier, you can run a specifec action when the View is tapped 3 times.
                 print("View Tapped") // this function will print "View Tapped" in the console.
             }
+```
+**Output**:
 
+```Shell
+View Tapped
+```
+In this example it prints "View Tapped" after taping the text view for three times.
+ 
+> Important note: When you need a button, use a Button instance rather than a tap gesture. You can use any view as the button’s label, and the button type automatically provides many of the standard behaviors that users expect from a button, like accessibility labels and hints. 
+
+
+## Long Press Gestures
+`onLongPressGesture()` it's used for handling long presses. Like `.onTapGesture()`, `onLongPressGesture()` is also customizable. For example, you can specify a minimum duration for the press, so your action closure only triggers after a specific number of seconds have passed. For example, this will trigger only after two seconds:
+
+```Swift
+Text("Hello, World!") // SwiftUI Text view.
+            .onLongPressGesture(minimumDuration: 2) { // by using this modifier, you can run a specifec action after pressing the text view for 2 seconds.
+                print("Long pressed!") // this function will print "View Tapped" in the console.
+            }
 ```
 
- 
+## Advanced Gestures
 
-
-
-## Subsection 2
-
-[Text about subsection 2]
-
-## Subsection n
 
 [Text about subsection n]
 
