@@ -1,5 +1,5 @@
 ---
-Title: 'Big Bang'
+Title: 'Big Bang Model'
 Description: 'A software development model without specific processes.'
 Subjects:
   - 'Mobile Development'
