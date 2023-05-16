@@ -28,7 +28,6 @@ In the code below the `hex()` function is used to convert the integer `31` to he
 ```python
 n = hex(31)
 print(n)
-```
 ## Example 2
 Print the hexidecimal converted values of the array `[1, 100, -200, 5834]` 
 ```codebyte/python
