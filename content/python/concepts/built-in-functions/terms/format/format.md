@@ -29,7 +29,7 @@ language = "Python"
 print("{} is one of the most loved programming language !".format(language))
 ```
 
-This will print the following output:
+Output:
 
 ```shell
 Python is one of the most loved programming language !
@@ -39,7 +39,7 @@ You can use index-based positioning to format the string:
 print("{1} can learn to {0} on codecademy".format('code','You'))
 ```
 
-This will print the following output:
+Output:
 
 ```shell
 You can learn to code on codecademy
@@ -49,7 +49,7 @@ You could also pass keyword arguments in the format function:
 print("Playing {sport} is my hobby".format(sport='Basketball'))
 ```
 
-This will print the following output:
+Output:
 
 ```shell
 Playing Basketball is my hobby
