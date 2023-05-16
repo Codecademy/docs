@@ -17,7 +17,7 @@ The **`hex()`** function converts an integer number to a hexadecimal string with
 
 ## Syntax
 
-```py
+```pseudo
 hex(integer)
 ```
 
