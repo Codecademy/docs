@@ -19,7 +19,8 @@ The **`oct()`** function takes an integer and returns the corresponding octal st
 
 ## Syntax
 
-```py
+```pseudo
+
 oct(integer)
 ```
 Where `integer` is the value which is to be converted into an octal string.
