@@ -29,7 +29,7 @@ In the code below the `hex()` function is used to convert the integer `31` to he
 n = hex(31)
 print(n)
 ## Codebyte Example
-Print the hexidecimal converted values of the array `[1, 100, -200, 5834]` 
+The following example prints the hexadecimal values of the array `[1, 100, -200, 5834]`. 
 ```codebyte/python
 arr = [1, 100, -200, 5834]
 
