@@ -50,7 +50,7 @@ This will print the following output:
 2. Amazon
 ```
 
-### Codebytes
+## Codebyte Example
 
 The following examples show how the `enumerate()` function is used on some of the iterables:
 
