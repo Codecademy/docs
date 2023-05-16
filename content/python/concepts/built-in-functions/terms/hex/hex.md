@@ -1,6 +1,6 @@
 ---
 Title: 'hex()'
-Description: 'Converts an integer number to a lowercase hexadecimal string prefixed with “0x”'
+Description: 'Converts an integer number to a lowercase hexadecimal string.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
