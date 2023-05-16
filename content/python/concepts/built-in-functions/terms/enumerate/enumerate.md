@@ -1,6 +1,6 @@
 ---
 Title: 'enumerate()'
-Description: 'Returns a list of tuples containing the index and the element of all the elements in an iterator in the form of a tuple.'
+Description: 'Returns a list of tuples containing the index and the element of all the elements in an iterator.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
