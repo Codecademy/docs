@@ -25,7 +25,7 @@ The part of the tree with nodes `1`, `2`, and `3` is referred to as the left sub
 
 ## Binary Search Tree vs. Hash Table
 
-Like a [hash table](https://www.codecademy.com/resources/docs/general/hash-table), a binary search tree is a method of storing keys for later retrieval and manipulation. Both have their own strengths, and the best storage type to use is dependent on what tasks are going to be undertaken with the data being stored.
+Like a [hash table](https://www.codecademy.com/resources/docs/general/data-structures/hash-table), a binary search tree is a method of storing keys for later retrieval and manipulation. Both have their own strengths, and the best storage type to use is dependent on what tasks are going to be undertaken with the data being stored.
 
 If the primary tasks needed are search, insert, or delete, a hash table performs them in O(1) time (in [big-O notation](https://www.codecademy.com/resources/docs/general/big-o-notation)). A binary search tree performs them in O(log(n)) time. So if just these operations are all that are needed, a hash table is more performant.
 
