@@ -25,7 +25,7 @@ CatalogContent:
 - `do`..`until`
 - `foreach`
 
-## for Loop
+## `for` Loop
 
 The `for` loop executes the enclosed code until the given condition is met. It has three parts:
 
@@ -42,7 +42,7 @@ for ($i = 1; $i -le 5; $i++) {
 
 The above `for` loop prints squares of numbers up to `5`.
 
-## foreach Loop
+## `foreach` Loop
 
 The `foreach` loop is specifically for iterating over items in an array.
 
@@ -71,7 +71,7 @@ $array.foreach({
 
 > **Note:** `$PSItem` can be replaced with its shorthand alias `$_`.
 
-## while Loop
+## `while` Loop
 
 The `while` loop executes statements repeatedly as long as the condition is `True`. The following example counts by 3 until `$count` reaches `15`.
 
@@ -83,7 +83,7 @@ while($count -lt 15) {
 }
 ```
 
-## do..while Loop
+## `do`..`while` Loop
 
 The `do`..`while` loop is a slight variation of the `while` loop in which statements are executed once before the condition is checked.
 
@@ -95,7 +95,7 @@ do {
 Write-Host "Correct!"
 ```
 
-## do..until Loop
+## `do`..`until` Loop
 
 The `do`..`until` loop is the same as the `do`..`while` loop except that the loop exits when the condition is `True`.
 
@@ -107,7 +107,7 @@ do {
 Write-Host "Correct!"
 ```
 
-## break and continue Statements
+## `break` and `continue` Statements
 
 `break` and `continue` are special statements for exiting loops early and skipping iterations, respectively.
 

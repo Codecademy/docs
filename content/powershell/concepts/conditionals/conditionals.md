@@ -38,7 +38,7 @@ if($my_num -eq 2){
 Write-Host "After the if statement"
 ```
 
-The example above prints `A True Statement` _and_ `After the if statement` if `$my_num` is equal to `2`. Otherwise, it skips the statement within the `if` curly braces `{ }` and just prints `After the if statement`.
+The example above prints `"A True Statement"` and `"After the if statement"` if `$my_num` is equal to `2`. Otherwise, it skips the statement within the `if` curly braces `{ }` and just prints `"After the if statement"`.
 
 ## else
 
@@ -96,7 +96,7 @@ switch ($my_num) {
 }
 ```
 
-The example above prints `You chose 2`. If `$my_num` was `4`, for example, it would print `No match` since the `default` clause is run if all other conditions fail.
+The example above prints `"You chose 2"`. If `$my_num` was `4`, for example, it would print `"No match"` since the `default` clause is run if all other conditions fail.
 
 PowerShell allows conditional expressions to be used in `switch` statements.
 

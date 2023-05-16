@@ -110,7 +110,7 @@ black
 brown
 ```
 
-- Negative indexes: Items are referenced in reverse order where the last item has index `-1`.
+- Negative indexes: Items are referenced in reverse order where the last item has an index of `-1`.
 
 ```shell
 PS > $colors[-1]

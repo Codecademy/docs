@@ -78,7 +78,7 @@ StatusDisplay "server.ps1" "normal"
 
 ## Default Parameters
 
-A function will use default parameters _unless_ arguments are explicitly provided in the function call. Default parameters are defined by assigning values to parameters:
+A function will use default parameters unless arguments are explicitly provided in the function call. Default parameters are defined by assigning values to parameters:
 
 ```pseudo
 Function <Name>{
