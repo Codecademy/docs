@@ -26,22 +26,3 @@ std::cout << round(2.6);  // Round 2.6
 ```
 
 A list of other popular math functions from the `<cmath>` library can be found in the table below:
-
-## Codebyte Example
-
-The C++ `<cmath>` header file declares a set of functions to perform mathematical operations such as: `sqrt()` to calculate the square root, `log()` to find natural logarithm of a number etc.
-
-```codebyte/cpp
-#include <iostream>
-#include <cmath>
-using namespace std;
-
-int main() {
-  cout << "Square root of 25 = ";
-   
-  // print the square root of 25
-  cout << sqrt(25);
-
-  return 0;
-}
-```
