@@ -41,7 +41,7 @@ int main() {
 
 ## Codebyte Example
 
-We use the `cbrt` function from the `<cmath>` library to calculate the cube root of `x`.
+The following example uses the `cbrt()` function to calculate the cube root of `x`.
 
 ```codebyte/cpp
 #include <iostream>
