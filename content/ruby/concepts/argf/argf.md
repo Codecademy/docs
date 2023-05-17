@@ -8,11 +8,9 @@ Tags:
   - 'Files'
 CatalogContent:
   - 'learn-ruby'
-  - 'front-end-engineer-career-path'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-ARFG and ARGV
-=============
 
 ARGF is a module in Ruby used for reading files passed as command line arguments or in standard input (STDIN) in a terminal. A Ruby script using ARGF may be thought of as implementing a subset of the functions of the Unix command cat.
 
@@ -81,6 +79,7 @@ ruby argf_inspect_argv.rb one two
 ```
 
 ## `shift`
+
 ARGF is using ARGV to store the names of the files passed into it at the command line.
 Files that are processed by ARGF.read are shifted off the ARGV array
 
