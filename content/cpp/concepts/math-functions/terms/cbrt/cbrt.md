@@ -38,22 +38,21 @@ int main() {
 }
 ```
 
+
 ## Codebyte Example
 
-The `cbrt()` function With integral Argument
+The following example uses the `cbrt()` function to calculate the cube root of `x`.
 
 ```codebyte/cpp
 #include <iostream>
 #include <cmath>
-using namespace std;
 
 int main() {
-  int num = 15;
+    double x = 27.0;
+    double result = cbrt(x);
 
-  double result = ceil(num);
+    std::cout << "The cube root of " << x << " is " << result << std::endl;
 
-  cout << "Ceil of " << num<< " = " << result;
-
-  return 0;
+    return 0;
 }
 ```
