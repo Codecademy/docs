@@ -68,7 +68,7 @@ NaN
 
 ## Codebyte Example
 
-We use the `Math.Acos` function to calculate the arc cosine of `x`. The result is stored in the `result` variable.
+The example below uses `Math.Acos()` to calculate the arc cosine of `x`. The result is stored in the `result` variable.
 
 ```codebyte/csharp
 using System;
