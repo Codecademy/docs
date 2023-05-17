@@ -40,7 +40,7 @@ int main() {
 
 ## Codebyte Example
 
-When you run the program, the output for the `cos()` function with integral type will be:
+The code below returns the cosine for the passed value:
 
 ```codebyte/cpp
 #include <iostream>
