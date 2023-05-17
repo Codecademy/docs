@@ -8,8 +8,8 @@ Tags:
   - 'Strings'
   - 'Methods'
 CatalogContent:
-  - 'learn-c-sharp'
-  - 'paths/Java'
+  - 'learn-java'
+  - 'paths/computer-science'
 ---
 
 The **.getChars()** string method copies a set of characters from a string into a destination character array. 
@@ -17,25 +17,23 @@ The **.getChars()** string method copies a set of characters from a string into 
 ## Syntax
 
 
-The basic syntax of .getChars() in Java is:
+The basic syntax of `.getChars()` in Java is:
 ```pseudo
 getChars(int srcBegin, int srcEnd, char[] dst, int dstBegin)
 ```
-A brief description of the parameters is below:
-
+A brief description of the parameters is as folllows:
 
 srcBegin: - 'The index to start copying the new array. '
 
 scrEnd: - 'The index to stop copying the new array.'
 
-dst: - 'name of the new array. '
+dst: - 'The name of the new array. '
 
-dstBegin: - 'The index of the destination array.' 
+dstBegin: The index of the destination array.
 
 ## Example
 
-In the following example, `getChar()` converts an array into a new shorter array. It then prints the new array in the consule. 
-
+In the following example, `getChar()` converts an array into a new shorter array. It then prints the new array in the console 
 
 ```class example{
   public static void main(Strings args [])
