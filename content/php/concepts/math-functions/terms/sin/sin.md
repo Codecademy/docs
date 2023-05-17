@@ -56,4 +56,3 @@ The codebyte example below uses the `sin()` function to return the sine of the `
 ?>
 ```
 
-The result is close but not equal to zero due to machine precision.
