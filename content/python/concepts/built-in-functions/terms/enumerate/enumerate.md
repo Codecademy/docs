@@ -55,6 +55,7 @@ This will print the following output:
 The following examples show how the `enumerate()` function is used on some of the iterables:
 
 ```codebyte/python
+
 #Using Enumerate on a String
 
 word = "Python"
@@ -75,4 +76,5 @@ colleges = ['Cornell', 'Yale', 'MIT']
 
 for index, college in enumerate(colleges):
     print(index, college)
+
 ```
