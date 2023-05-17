@@ -13,6 +13,7 @@ Anchor
 Android
 Angular
 Animation
+Ann
 Anonymous Functions
 APIs
 Arguments
@@ -178,6 +179,7 @@ Logical
 Logistic Regression
 Loops
 Map
+Machine Learning
 Margin
 MATLAB
 Matplotlib
@@ -193,6 +195,8 @@ Naive Bayes
 Natural Language Processing
 Netlify
 Networking
+Neural Networks
+Neurons
 NLP
 Node
 NPM
@@ -312,6 +316,7 @@ VR
 Vue
 Web3
 WebRTC
+Weight & Bias
 While
 Whiteboarding
 WordPress
