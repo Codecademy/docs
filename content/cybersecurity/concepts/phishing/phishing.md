@@ -1,6 +1,6 @@
 ---
 Title: 'Phishing'
-Description: 'Phishing is a form of fraud, which aims to trick users into sharing sensitive information or personal data or download malware.'
+Description: 'Phishing is a form of fraud, which aims to trick users into sharing sensitive information or personal data or downloading malware.'
 Subjects:
   - 'Computer Science'
   - 'Cybersecurity'
@@ -11,40 +11,51 @@ CatalogContent:
   - 'paths/fundamentals-of-cybersecurity'
 ---
 
-**Phishing** is a form of fraud, which aims to trick users into sharing sensitive information or personal data or download malware. Phishing can use many medium, including emails, text messages and voice messages, phone calls or social media. Phishing is a type of [social engineering](https://www.codecademy.com/resources/docs/cybersecurity/social-engineering); and it is one of the most common type of  [cyber attacks](https://www.codecademy.com/resources/docs/cybersecurity/cyber-attack).
+**Phishing** is a form of fraud which aims to trick users into sharing sensitive information or personal data or downloading malware. Phishing can happen through many mediums, including emails, text messages, voice messages, phone calls, or social media. Phishing is one of the most common types of [cyber attack](https://www.codecademy.com/resources/docs/cybersecurity/cyber-attack), and it relies on [social engineering](https://www.codecademy.com/resources/docs/cybersecurity/social-engineering) to defraud users.
+
+## Consequences of Phishing
+
+Phishing can harm users in many forms with a wide range of severity. Successful phishing attacks can result in the following:
+
+- Identity theft,
+- Financial loss,
+- Damage to hardware (e.g. laptop) or software,
+- Damage to personal or business reputation.
 
 ## Types of Phishing
 
-- Bulk Phising emails
-- Spare Phishing
-- Business Email Compromise
-- SMS Phishing
-- Voice Phishing
-- Social Media Phishing
-- App or in-app Phishing
+Phishing can happen through any communication channel, and usually, the attacker pretends to be a person or organization the user recognizes or trusts. The following table contains the different types of phishing techniques:
+
+| Type of phishing          | Definition |
+| --------------------------| -----------|
+| Bulk Phishing Emails      | Deceptive messages sent to a large number of recipients, impersonating legitimate organizations or people to obtain sensitive information or infecting devices with malware. This is the most commonly used type of phishing technique. |
+| [Spare Phishing](https://www.codecademy.com/resources/docs/cybersecurity/spear-phishing)             | Personalized, fraudulent emails that trick users into revealing sensitive information or performing malicious actions. |
+| Business Email Compromise | Manipulated or compromised legitimate email accounts within a business or organization that tries to deceive employees or customers into sharing sensitive information or making financial transactions. |
+| SMS Phishing              | Phishing through SMS or phone text messages. |
+| Voice Phishing            | Phishing through phone calls or voice messages. |
+| Social Media Phishing     | Impersonated or compromised accounts of individuals or organizations on social media platforms that try to trick users into revealing their personal information or manipulating them into downloading harmful content. |
+| App or In-App Phishing    | Phishing that occurs within a mobile or web application through deceptive fraudulent interfaces. |
 
 ## Signs of Phishing
 
-Too Good To Be True
-Sense of Urgency
-Hyperlinks
-Attachments
-Requests for sensitive or personal information, or to update profile or payment information
-Requests to send or move money
-File attachment(s) the recipient did not request or expect
-A sense of urgency, whether blatant ('Your account will be closed today...') or subtle (e.g., a request from a colleague to pay an invoice immediately) threats of jail time or other unrealistic consequences
-Threats of jail time or other unrealistic consequences
-Poor spelling or grammar
-Inconsistent or spoofed sender address
-Links shortened using Bit.Ly or some other link-shortening service
-Images of text used in place of text (in messages, or on web pages linked to in messages)
+Although phishing emails or messages can be very decisive, certain characteristics of phishing can help identify fraudulent messages. These are the following:
+
+- Unusual or unknown sender,
+- Generic greeting,
+- Poor spelling and typos,
+- Offering, giving away or winning something,
+- Request for personal information,
+- Request for sending money,
+- Request to complete actions urgently,
+- Unrealistic negative consequences of not fulfilling requests,
+- File attachments,
+- Links or shortened links in the message
 
 ## Phishing Prevention
 
-Spam filters and email security software use data on existing phishing scams and machine learning algorithms to identify suspected phishing emails (and other spam), then move them to a separate folder and disable any links they contain.
+Phishing attacks continuously evolve; there will be no chance of avoiding them. Therefore it is crucial to be aware of the current techniques and stay alert. The following tools are here to support users in reducing the risk of getting phished:
 
-Antivirus and anti-malware software detects and neutralizes malicious files or code in phishing emails.
-
-Multi-factor authentication requires at least one login credential in addition to a username and a password—for example, a one-time code sent to the users' cell phone. By providing and additional last line of defense against phishing scams or other attacks that successfully compromise passwords, multi-factor authentication can undermine spear phishing attacks and prevent BEC.
-
-Web filters prevent users from visiting known malicious web sites ('blacklisted' sites) and display alerts whenever users visit suspected malicious or fake web sites.
+- Spam filters,
+- Antivirus and anti-malware software,
+- Multi-factor authentication,
+- Web filters.
