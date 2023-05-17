@@ -42,7 +42,7 @@ The example will result in the following output:
 1.2246467991474E-16
 ```
 
-which is close but not equal to zero due to machine precision.
+The result is close to but not equal to zero due to machine precision.
 
 ## Codebyte Example
 
