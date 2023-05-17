@@ -14,7 +14,7 @@ CatalogContent:
 
 **`Font`** is a `struct` that creates `Font` instances that can be applied to text by passing them to the [`.font()`](https://www.codecademy.com/resources/docs/swiftui/viewmodifier/font) view modifier.
 
-`Font` instances can be created using standard fonts, which are type properties of `Font`. Fonts can also be created and modified using builtin `Font` methods such as `system()`, [`italic()`](https://www.codecademy.com/resources/docs/swiftui/viewmodifier/italic) and [`bold()`](https://www.codecademy.com/resources/docs/swiftui/viewmodifier/bold).
+`Font` instances can be created using standard fonts, which are type properties of `Font`. Fonts can also be created and modified using built-in `Font` methods such as `.system()`, [`.italic()`](https://www.codecademy.com/resources/docs/swiftui/viewmodifier/italic), and [`.bold()`](https://www.codecademy.com/resources/docs/swiftui/viewmodifier/bold).
 
 ## Standard Fonts
 
