@@ -68,9 +68,9 @@ struct FontView: View {
 
 In the above example:
 
-- The first text view has `titleFont` applied. `titleFont` is created from the standard `Font` type property `largeTitle` with the method `lowercaseSmallCaps()` applied to it.
-- The next text view has the method `monospaced()` applied, setting the text to use a monospaced font.
-- The last text view has a created system font `footnoteFont` applied, with a `footnote` style, `serif` `design` and `bold` `weight`.
+- The first text view has `titleFont` applied. `titleFont` is created from the standard `Font` type property, `.largeTitle`, with the method `.lowercaseSmallCaps()` applied to it.
+- The next text view has the method `.monospaced()` applied, setting the text to use a monospaced font.
+- The last text view has a created system font `footnoteFont` applied, with a `.footnote` style, `.serif` design, and `.bold` weight.
 
 This will display:
 
