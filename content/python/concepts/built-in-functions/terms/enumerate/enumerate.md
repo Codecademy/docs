@@ -1,6 +1,6 @@
 ---
 Title: 'enumerate()'
-Description: 'Returns a list of tuples containing the index and the element of all the elements in an iterator.'
+Description: 'Returns a list of tuples containing an index and an element for each of the elements in an iterator.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`enumerate()`** function returns a list of [tuples](https://www.codecademy.com/resources/docs/python/tuples) containing the index and the element of all the elements in an iterator.
+The **`enumerate()`** function returns a list of [tuples](https://www.codecademy.com/resources/docs/python/tuples) containing an index and an element for each of the elements in an iterator.
 
 ## Syntax
 
@@ -36,11 +36,6 @@ companies_list = ["Google","Microsoft","Amazon"]
 for index,company in enumerate(companies_list):
   print(f"{index}. {company}")
 ```
-Enumerate returns a Tuple as shown below:
-
-```shell
-[(0,"Google"),(1,"Microsoft"),(2,"Amazon")]
-```
 
 This will print the following output:
 
@@ -52,25 +47,25 @@ This will print the following output:
 
 ## Codebyte Example
 
-The following examples show how the `enumerate()` function is used on some of the iterables:
+The following examples show how the `enumerate()` function is used with several iterable types:
 
 ```codebyte/python
 
-#Using Enumerate on a String
+# Using enumerate on a string
 
 word = "Python"
 
 for index, letter in enumerate(word):
     print(index, letter)
     
-#Using Enumerate on a Dictionary
+# using enumerate on a dictionary
 
 animal_dict = {'Cat':1, 'Dog':2, 'Horse':3}
 
 for index, (animal, number) in enumerate(animal_dict.items()):
     print(index, animal, number)
 
-#Using Enumerate on a List
+# using enumerate on a list
 
 colleges = ['Cornell', 'Yale', 'MIT']
 
