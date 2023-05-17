@@ -74,4 +74,4 @@ In the above example:
 
 This will display:
 
-![SwiftUI ViewModifier .font()](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-font.png)
+![SwiftUI Fonts](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-font.png)
