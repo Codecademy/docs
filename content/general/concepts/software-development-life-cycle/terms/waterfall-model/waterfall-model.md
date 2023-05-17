@@ -1,6 +1,6 @@
 ---
 Title: 'Waterfall'
-Description: 'A model of software development where the goal is to create a minimum viable product.'
+Description: 'Creates a minimum viable product through phases that are completed in a specific order.'
 Subjects:
   - 'Mobile Development'
   - 'Web Development'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The **waterfall** model is a Software Development Life Cycle (SDLC) that aims to create a minimum viable product (MVP). Each phase in this SDLC must be completed before moving on to the next. It is suited to projects where features are easily defined from the start.
+The **Waterfall model** is a Software Development Life Cycle (SDLC) that aims to create a minimum viable product (MVP). Each phase in this SDLC must be completed before moving on to the next. It is suited to projects where features are easily defined from the start.
 
 The waterfall model was the first SDLC methodology to be created and was first documented in 1970 by American computer scientist Dr. Winston W. Royce, though the term "waterfall" wasn't used until later.
 
