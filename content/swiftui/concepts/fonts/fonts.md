@@ -49,7 +49,6 @@ The following example shows a [`VStack`](https://www.codecademy.com/resources/do
 import SwiftUI
 
 struct FontView: View {
-
     let titleFont = Font.largeTitle.lowercaseSmallCaps()
     let footnoteFont = Font.system(.footnote, design: .serif, weight: .bold)
 
