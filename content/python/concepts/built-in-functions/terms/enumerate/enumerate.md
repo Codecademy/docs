@@ -53,19 +53,19 @@ The following examples show how the `enumerate()` function is used with several 
 
 # Using enumerate on a string
 
-word = "Python"
+word = 'Python'
 
 for index, letter in enumerate(word):
     print(index, letter)
-    
-# using enumerate on a dictionary
+
+# Using enumerate on a dictionary
 
 animal_dict = {'Cat':1, 'Dog':2, 'Horse':3}
 
 for index, (animal, number) in enumerate(animal_dict.items()):
     print(index, animal, number)
 
-# using enumerate on a list
+# Using enumerate on a list
 
 colleges = ['Cornell', 'Yale', 'MIT']
 
