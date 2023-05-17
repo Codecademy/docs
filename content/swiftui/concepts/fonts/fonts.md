@@ -31,13 +31,13 @@ Below is a list of some of the standard `Font` type properties:
 
 Below is a list of some of the `Font` methods used to modify and create fonts:
 
-- `bold()` applies a bold style.
-- `italic()` applies an italic style.
-- `weight()` applies the specified weight style.
-- `monospaced()` applies a monospaced font style.
-- `lowercaseSmallCaps()` converts lowercase characters to small capital characters.
-- `system(_ style:, design:, weight:)` applies a specified font style with optional design and/or weight styles.
-- `system(size:, weight:, design:)` applies a specified size with optional weight and/or design styles.
+- `.bold()` applies a bold style.
+- `.italic()` applies an italic style.
+- `.weight()` applies the specified weight style.
+- `.monospaced()` applies a monospaced font style.
+- `.lowercaseSmallCaps()` converts lowercase characters to small capital characters.
+- `.system(_ style:, design:, weight:)` applies a specified font style with optional design and/or weight styles.
+- `.system(size:, weight:, design:)` applies a specified size with optional weight and/or design styles.
 
 It is also possible to create custom fonts using the `custom()` methods.
 
