@@ -1,6 +1,6 @@
 ---
 Title: 'iter()'
-Description: 'Learn how to use the built-in Python function iter()'
+Description: 'Returns an iterator object for a given object'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -31,34 +31,31 @@ Here is an example of how you might use the `iter()` function:
 
 ```py
 # create a list
-my_list = ["apple", "banana", "cherry"]
+fruits = ["apple", "banana", "cherry"]
 
 # get an iterator object
-my_iter = iter(my_list)
+fruit_iter = iter(fruits)
 
 # iterate over the list using the iterator
-print(next(my_iter))
-print(next(my_iter))
-print(next(my_iter))
+print(next(fruit_iter))
+print(next(fruit_iter))
+print(next(fruit_iter))
 ```
 
 In the above code snippet, we first create a list of fruits. We then use the `iter()` function to get an iterator object for the list. Finally, we use the `next()` function to iterate over the items in the list.
 
 ## Codebyte Example
 
-In this Codebyte example, we are doing essentially the same thing as in the previous example. However, we are using a `while True` loop to continue calling `next(my_iter)` until a `StopIteration` exception is raised, indicating that there are no more items to iterate over.
+In the following example, we are doing almost the same thing as in the previous example. However, we are using a `while True` loop to continue calling `next(fruit_iter)` until a `StopIteration` exception is raised, indicating that there are no more items to iterate over.
 
 ```codebyte/python
-# create a list
-my_list = ["apple", "banana", "cherry"]
+fruits = ["apple", "banana", "cherry"]
 
-# get an iterator object
-my_iter = iter(my_list)
+fruit_iter = iter(fruits)
 
-# iterate over the list using the iterator
 try:
     while True:
-        print(next(my_iter))
+        print(next(fruit_iter))
 except StopIteration:
     pass
 ```
