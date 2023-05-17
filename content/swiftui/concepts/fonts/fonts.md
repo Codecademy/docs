@@ -39,7 +39,7 @@ Below is a list of some of the `Font` methods used to modify and create fonts:
 - `.system(_ style:, design:, weight:)` applies a specified font style with optional design and/or weight styles.
 - `.system(size:, weight:, design:)` applies a specified size with optional weight and/or design styles.
 
-It is also possible to create custom fonts using the `custom()` methods.
+It is also possible to create custom fonts using the `.custom()` method.
 
 ## Example
 
