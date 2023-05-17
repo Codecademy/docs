@@ -42,7 +42,7 @@ int main() {
 
 ## Codebyte Example
 
-The C++ `ceil()` for Integral Types
+The code below demonstrates the `ceil()` function with an integral type:
 
 ```codebyte/cpp
 #include <iostream>
