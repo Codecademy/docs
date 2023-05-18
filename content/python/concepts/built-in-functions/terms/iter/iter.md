@@ -1,6 +1,6 @@
 ---
 Title: 'iter()'
-Description: 'Returns an iterator object for a given object'
+Description: 'Returns an iterator object for a given object.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -17,7 +17,7 @@ The **`iter()`** function is a built-in Python function used to create an **iter
 ## Syntax
 
 ```pseudo
-iter(object[, sentinel])
+iter(object, sentinel)
 ```
 
 - `object`: Required. An object. The `iter()` function returns an iterator object for this.
