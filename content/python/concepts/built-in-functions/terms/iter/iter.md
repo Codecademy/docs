@@ -36,7 +36,7 @@ fruits = ["apple", "banana", "cherry"]
 # Get an iterator object
 fruit_iter = iter(fruits)
 
-# iterate over the list using the iterator
+# Iterate over the list using the iterator
 print(next(fruit_iter))
 print(next(fruit_iter))
 print(next(fruit_iter))
