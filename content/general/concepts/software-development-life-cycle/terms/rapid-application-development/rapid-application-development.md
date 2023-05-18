@@ -23,6 +23,15 @@ RAD was developed in the 1980s by James Martin as a response to the Waterfall mo
 
 RAD involves a collaborative approach where developers work closely with stakeholders to identify requirements, design, prototype, develop, and test the software. The process is iterative, meaning that feedback from the client is used to refine the prototype until the final product is delivered. RAD is particularly useful for projects with fast-changing requirements and where time-to-market is critical.
 
+## Phases of Rapid Application Development
+
+RAD typically consists of four phases:  
+- **Requirements Planning:** Project team collaborates with stakeholders to identify and prioritize software requirements. User involvement ensures understanding of needs and expectations.  
+- **User Design:** Prototypes and mock-ups are created through rapid iterations of design, implementation, and testing. Functional prototypes are demonstrated to gather feedback and validation from users and stakeholders.  
+- **Construction:** Coding and development of the software system takes place, emphasizing speed and efficiency. Reusable components and existing frameworks are utilized. Iterative development, frequent testing, and user feedback ensure meeting desired requirements.  
+- **Cutover:** Transition from development to production environment occurs, involving final testing, deployment, and user training. Thorough testing identifies and resolves remaining issues. After successful testing, the system is deployed, and users are trained for effective software usage.
+
+
 ## Advantages 
 
 - Rapid prototyping and iterative development ensure that the final product meets the client's needs.
