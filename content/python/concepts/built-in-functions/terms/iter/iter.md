@@ -46,7 +46,7 @@ In the code above a list is declared, and the `iter()` function is used to get a
 
 ## Codebyte Example
 
-In the following example, we are doing almost the same thing as in the previous example. However, we are using a `while True` loop to continue calling `next(fruit_iter)` until a `StopIteration` exception is raised, indicating that there are no more items to iterate over.
+In the following example, the code is iterating and printing the items in the `fruits` list as in the previous example. However, in this instance a `while` loop is used to continue calling `next(fruit_iter)` until a `StopIteration` exception is raised, indicating that there are no more items to iterate over.
 
 ```codebyte/python
 fruits = ["apple", "banana", "cherry"]
