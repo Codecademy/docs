@@ -46,7 +46,7 @@ The result is close to but not equal to zero due to machine precision.
 
 ## Codebyte Example
 
-The codebyte example below uses the `sin()` function to return the sine of the `180` angle given in degrees. Then, it uses the `deg2rad()` function to parse from degrees to radians:
+The codebyte example below uses the `sin()` function to return the sine of the `540` angle given in degrees. Then, it uses the `deg2rad()` function to parse from degrees to radians:
 
 ```codebyte/php
 <?php
