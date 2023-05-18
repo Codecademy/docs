@@ -35,4 +35,3 @@ Using `tan()` to return the tangent of the angle in radians:
   echo "Tangent of $angle radians: $tangent\n";
 ?>
 ```
-
