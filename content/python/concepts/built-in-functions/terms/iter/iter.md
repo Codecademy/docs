@@ -5,7 +5,7 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Built-in Functions'
+  - 'Functions'
   - 'Iterators'
 CatalogContent:
   - 'learn-python-3'
