@@ -33,7 +33,7 @@ The code below demonstrates the use of the `iter()` function:
 # Create a list
 fruits = ["apple", "banana", "cherry"]
 
-# get an iterator object
+# Get an iterator object
 fruit_iter = iter(fruits)
 
 # iterate over the list using the iterator
