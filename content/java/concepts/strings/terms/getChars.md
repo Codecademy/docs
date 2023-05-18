@@ -17,6 +17,7 @@ The **.getChars()** string method copies a set of characters from a string into 
 ## Syntax
 
 The basic syntax of `.getChars()` in Java is:
+
 ```pseudo
 getChars(int srcBegin, int srcEnd, char[] dst, int dstBegin)
 ```
