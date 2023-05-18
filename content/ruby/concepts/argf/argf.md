@@ -23,6 +23,7 @@ cat file2
 echo "standard input" | cat
 # Output: standard input
 ```
+
 The cat command can accept a filename or you can | pipe another command as standard input.
 
 ## ARGF - the F is for files
@@ -33,6 +34,7 @@ puts ARFG.read
 ```
 
 The ARGF module has a method #file that you can use to recognize what file it is currently handling. Type this on the command line:
+
 ```shell
 ruby argf.rb file1 file2
 # Output:
@@ -84,6 +86,7 @@ Files that are processed by ARGF.read are shifted off the ARGV array
 
 However, as is often the case with terminal commands, flags like `--verbose` or `--all` are often used.
 What happens in a case like this?
+
 ```shell
 ruby argf_inspect_argv.rb --all one two
 # Output: ["--all", "one", "two"]
