@@ -77,9 +77,9 @@ class Program
 {
     static void Main()
     {
-        double x = 0.5;
+        double x = -1.0;
         double result = Math.Acos(x);
-        
+
         Console.WriteLine($"The arc cosine of {x} is {result} radians.");
     }
 }
