@@ -3,10 +3,7 @@ Title: 'Artificial Neural Networks'
 Description: 'A neural network is a method in artificial intelligence that teaches computers to process data in a way that is inspired by the human brain.'
 Subjects:
   - 'Machine Learning'
-  - 'Brain Activity'
-  - 'Machine Learning'
-  - 'Deep Learning'
-  - 'Perceptrons'
+  - 'Computer Science'
 Tags:
   - 'AI'
   - 'Machine Learning'
