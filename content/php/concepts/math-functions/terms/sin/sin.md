@@ -51,8 +51,7 @@ The codebyte example below uses the `sin()` function to return the sine of the `
 ```codebyte/php
 <?php
 
-  echo(sin(deg2rad(180)));
+  echo(sin(deg2rad(540)));
 
 ?>
 ```
-
