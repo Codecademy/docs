@@ -11,7 +11,7 @@ Tags:
   - 'Numbers'
 CatalogContent:
   - 'learn-php'
-  - 'paths/front-end-engineer-career-path'
+  - 'paths/computer-science'
 ---
 
 The **`sin()`** function returns the sine of an angle given in radians.
