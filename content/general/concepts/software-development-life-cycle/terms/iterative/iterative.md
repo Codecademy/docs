@@ -4,7 +4,6 @@ Description: 'The iterative approach to software development is a methodology th
 Subjects:  
  - 'Mobile Development'
 'Web Development'  
- 
  Tags:  
  'Documentation'
  'Best Practices'
