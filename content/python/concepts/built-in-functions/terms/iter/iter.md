@@ -16,8 +16,6 @@ The **`iter()`** function is a built-in Python function used to create an **iter
 
 ## Syntax
 
-The `iter()` function has two main forms:
-
 ```pseudo
 iter(object[, sentinel])
 ```
