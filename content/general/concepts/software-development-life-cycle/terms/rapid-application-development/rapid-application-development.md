@@ -28,7 +28,7 @@ RAD involves a collaborative approach where developers work closely with stakeho
 - Rapid prototyping and iterative development ensure that the final product meets the client's needs.
 - Reduces development time and costs.
 - Collaboration between developers and stakeholders ensures that the project's requirements are met.
-- Flexible and adaptable - ideal for projects with rapidly changing requirements.
+- Flexible and adaptable which is ideal for projects with rapidly changing requirements.
 - Improved time-to-market, as prototypes can be quickly delivered to the client for feedback.
 
 ## Disadvantages
