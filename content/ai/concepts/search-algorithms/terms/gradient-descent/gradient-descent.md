@@ -5,7 +5,8 @@ Subjects:
   - 'Data Science'
   - 'AI'
 Tags:
-  - 'Search Algorithms'
+  - 'Search'
+  - 'Algorithms'
   - 'AI'
 CatalogContent:
   - 'learn-python-3'
