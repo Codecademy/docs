@@ -25,7 +25,7 @@ Today, the iterative approach is widely used in software development and is seen
   
 ## Advantages  
   
-  Some of the benefits of the iterative approach to the SDLC include:
+Some of the benefits of the iterative approach to the SDLC include:
 
 - Improved flexibility: The iterative approach allows developers to respond quickly to changing requirements and adapt to new technologies as they emerge.
 - Increased collaboration: The iterative approach emphasizes collaboration between developers, customers, and other stakeholders, which can lead to better communication and a more effective development process.
