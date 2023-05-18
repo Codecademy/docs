@@ -27,7 +27,7 @@ iter(object[, sentinel])
 
 ## Example
 
-Here is an example of how you might use the `iter()` function:
+The code below demonstrates the use of the `iter()` function:
 
 ```py
 # create a list
