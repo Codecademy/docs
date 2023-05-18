@@ -10,17 +10,16 @@ Tags:
   - 'ANN'
   - 'Neural Networks'
   - 'Weight & Bias'
-  - 'Neurons'
 CatalogContent:
   - 'machine-learning'
   - 'paths/data-science'
 ---
 
-**Artificial Neural Networks (ANN)** A neural network is a method in artificial intelligence that teaches computers to process data in a way that is inspired by the human brain. 
+**Artificial neural networks (ANN)** are a method in artificial intelligence that teaches computers to process data in a way that is inspired by the human brain. 
 ## What Is An Artificial Neural Network (ANN)
 
 - It is a type of machine learning process, called deep learning, that uses interconnected nodes or neurons in a layered structure that resembles the human brain.
-- An ANN is one of the main tools used for machine learning, they are brain-inspired systems used to replicate the way that we humans learn.
+- An ANN is one of the main tools used for machine learning, it is a brain-inspired system used to replicate the way that humans learn.
 
 ### The Process
 
