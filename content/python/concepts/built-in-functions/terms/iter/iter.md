@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`iter()`** function is a built-in Python function used to create an **iterator** object.
+The **`iter()`** function is a built-in Python function used to create an `iterator` object.
 
 ## Syntax
 
