@@ -42,7 +42,7 @@ print(next(fruit_iter))
 print(next(fruit_iter))
 ```
 
-In the above code snippet, we first create a list of fruits. We then use the `iter()` function to get an iterator object for the list. Finally, we use the `next()` function to iterate over the items in the list.
+In the code above a list is declared, and the `iter()` function is used to get an iterator object for the list. Finally, the `next()` function is used to step through the items in the list.
 
 ## Codebyte Example
 
