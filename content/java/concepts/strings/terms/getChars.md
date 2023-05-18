@@ -1,6 +1,6 @@
 ---
 Title: '.getChars()'
-Description: ' Copies characters from the given string into the destination character array.'
+Description: 'Copies characters from the given string into the destination character array.'
 Subjects:
   - 'Java'
   - 'Code Foundations'
