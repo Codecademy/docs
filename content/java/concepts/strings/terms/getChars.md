@@ -26,7 +26,6 @@ A brief description of the parameters is as folllows:
 - `scrEnd`: The index to stop copying the new array.
 
 dst: - 'The name of the new array. '
-
 dstBegin: The index of the destination array.
 
 ## Example
