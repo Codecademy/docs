@@ -35,7 +35,4 @@ $tangent = tan($angle);
 echo "Tangent of $angle radians: $tangent\n";
 ?>
 ```
-## Output
-```Output/php
-Tangent of 0.8 radians: 1.0296385570504
-```
+
