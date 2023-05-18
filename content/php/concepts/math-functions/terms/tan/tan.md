@@ -25,7 +25,7 @@ Where `$angle` is the angle in radians.
 
 ## Codebyte Example
 
-Using `tan()` to return the tangent of the angle of `0.8`:
+Using `tan()` to return the tangent of the angle in radians:
 
 ```codebyte/php
 <?php
