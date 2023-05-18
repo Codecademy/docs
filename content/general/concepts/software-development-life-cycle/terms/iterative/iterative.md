@@ -8,7 +8,6 @@ Subjects:
  'Documentation'
  'Best Practices'
  'Development'  
-    
 CatalogContent:  
 'introduction-to-open-source'
 'paths/computer-science'
