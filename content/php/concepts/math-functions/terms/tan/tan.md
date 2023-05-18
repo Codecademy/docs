@@ -34,7 +34,6 @@ $tangent = tan($angle);
 
 echo "Tangent of $angle radians: $tangent\n";
 ?>
-
 ```
 ## Output
 ```Output/php
