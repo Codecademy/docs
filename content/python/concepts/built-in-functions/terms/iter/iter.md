@@ -30,7 +30,7 @@ iter(object[, sentinel])
 The code below demonstrates the use of the `iter()` function:
 
 ```py
-# create a list
+# Create a list
 fruits = ["apple", "banana", "cherry"]
 
 # get an iterator object
