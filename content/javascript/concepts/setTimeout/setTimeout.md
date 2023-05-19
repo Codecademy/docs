@@ -1,6 +1,6 @@
 ---
 Title: 'setTimeout()'
-Description: 'setTimeout() allows users to execute callbacks after a period of time expressed in milliseconds'
+Description: 'Allows users to execute callbacks after a period of time expressed in milliseconds.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -13,13 +13,13 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-`setTimeout()` is a function serviced globally by the window object provided by the user's browser, it is not part of JavaScript because it is not a JavaScript function.
+**`setTimeout()`** is a function serviced globally by the window object provided by the user's browser.
 
 ## Syntax
 
 `setTimeout()` is capable of receiving multiple parameters where the first is a callback function, the second parameter receives a number that represents the time in milliseconds **(1s = 1000ms)**, that defines the time needed for the callback to execute, the third parameter onwards will be the parameters that the callback function would take in case arguments are defined within the callback.
 
-The provided sample code contains some examples of how setTimeout is composed:
+The provided sample code contains some examples of how `setTimeout()` is composed:
 
 ```pseudo
 setTimeout(callback)
@@ -49,7 +49,7 @@ The output will be displayed after 4 seconds:
 Hello from Codecademy
 ```
 
-## Example 1.1
+## Example
 
 The following example can be done by using arrow functions, in which case, instead of declaring it using the word `function`, we can just create it by using `() =>`, for more information visit [arrow functions](https://www.codecademy.com/resources/docs/javascript/arrow-functions).
 
@@ -66,7 +66,9 @@ The output from the arrow function will be displayed after 2 seconds:
 Helloworld from Codecademy
 ```
 
-## Example 1.2
+## Codebyte Example
+
+In the runnable example below, a function is called after 3 seconds:
 
 ```shell
 // Defining the function
@@ -80,10 +82,3 @@ setTimeout(sayHello, 3000, 'Student', 'Codecademy');
 console.log('This message is shown first');
 ```
 
-The output will be displayed after 3 seconds:
-
-```shell
-This message is shown first
-hello Student
-Welcome to Codecademy
-```
