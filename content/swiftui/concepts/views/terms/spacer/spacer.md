@@ -17,7 +17,7 @@ CatalogContent:
   - 'paths/builds-ios-apps-with-swiftui'
 ---
 
-The **`Spacer`** is an adaptive view that expands as much as possible within a stack, such as a **`HStack`** or **`VStack`**.
+The **`Spacer`** is an adaptive view that expands as much as possible within a stack, such as a `HStack` or `VStack`.
 
 ## Syntax
 
