@@ -117,7 +117,6 @@ func main() {
 
   // Print map gradebook
   fmt.Println(gradebook)
-
 }
 ```
 
@@ -134,7 +133,6 @@ The following code will print the corresponding value for the key `"John"`.
 ```go
   // Print the value with key "John"
   fmt.Println(gradebook["John"])
-
 ```
 
 This will output:
@@ -152,7 +150,6 @@ The following code will access the value in a map corresponding to the key of "A
   anaScore := gradebook["Ana"]
 
   fmt.Println(anaScore)
-
 ```
 
 This will output:
@@ -171,7 +168,6 @@ The following code demonstrates what is returned for a non-existent key. The map
 
   // Since "David" does not exist in the map, 0 will be printed
   fmt.Println(johnScore)
-
 ```
 
 This will output:
@@ -194,7 +190,6 @@ The following code will first print an initialized map. It will then add two mor
 
   // Print the map again
   fmt.Println(gradebook)
-
 ```
 
 This will output:
@@ -217,14 +212,14 @@ The following code will first print an initialized map. It will then remove a ke
 
   // Print the map again
   fmt.Println(gradebook)
-
 ```
 
 This will output:
 
-````shell
+```shell
 map[Ana:95.6 Emma:90 George:76.4 John:85.2]
 map[Ana:95.6 Emma:90 George:76.4]
+```
 
 ### Codebyte Example
 
@@ -278,4 +273,4 @@ func main() {
   // Output map
   fmt.Println("final map: ", gradebook)
 }
-````
+```
