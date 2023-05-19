@@ -159,7 +159,6 @@ CSS Grid and Flexbox are powerful layout tools. Here's an example comparing the 
 ```
 
 
----
 
 ## Example 1
 
