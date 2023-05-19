@@ -10,6 +10,9 @@ Tags:
   - 'ANN'
   - 'Neural Networks'
   - 'Weight & Bias'
+  - 'Brain Activity' **
+  - 'Deep Learning'
+  - 'Perceptrons'
 CatalogContent:
   - 'machine-learning'
   - 'paths/data-science'
