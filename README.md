@@ -41,11 +41,10 @@ There are many ways to contribute to Codecademy Docs:
 - Submit a Pull Request to create a new entry.
 - Submit a typo/bug in [GitHub Issues](https://github.com/Codecademy/docs/issues).
 - Share your thoughts in this [Codecademy Docs feedback form](https://codecademyready.typeform.com/to/hzVIWDgz) to tell us how we can improve Docs!
-- Join the [#CodecademyDocs](https://twitter.com/search?q=%23CodecademyDocs&src=typed_query&f=live) discussion on Twitter.
 
 Whether you are a code newbie or a seasoned hacker, there's something for you!
 
-Please read through the [Contribution Guide](https://github.com/Codecademy/docs/blob/main/.github/CONTRIBUTING.md) ✨. There you'll find a write-up of our content standards and style guide, as well as templates for creating your entries.
+[Contribute to Docs](https://www.codecademy.com/pages/contribute-docs)! Head over to our [Contribution Guide](https://www.codecademy.com/resources/docs/contribution-guide) that provides a step-by-step video and text guide on how you can make an impact through Docs.
 
 ## Additional Notes
 
