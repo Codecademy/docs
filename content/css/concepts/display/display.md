@@ -176,7 +176,6 @@ Setting a `div` element to behave like a flex box.
   display: flex;
 }
 ```
----
 ## CSS Display property cheat sheet: 
 
 ![css display cheat sheet](css_display.png)
