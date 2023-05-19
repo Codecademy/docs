@@ -49,3 +49,9 @@ In the following example, `getChar()` converts an array into a new shorter array
   }
 ```
 
+This results in the following output:
+
+```shell
+Welco
+```
+
