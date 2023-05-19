@@ -13,7 +13,7 @@ Anchor
 Android
 Angular
 Animation
-Ann
+ANN
 Anonymous Functions
 APIs
 Arguments
@@ -41,6 +41,7 @@ Bootstrap
 Borders
 Box Model
 Box Plot
+Brain Activity
 Browser Compatibility
 Browsers
 Bubble Sort
@@ -196,7 +197,6 @@ Natural Language Processing
 Netlify
 Networking
 Neural Networks
-Neurons
 NLP
 Node
 NPM
@@ -217,6 +217,7 @@ Padding
 Pandas
 Paragraph
 Parameters
+Perceptrons
 Phaser
 Physics
 Pointers

@@ -4,13 +4,11 @@ Feel free to add suggestions for new Subjects to the list as part of your PR! Be
 
 ```
 Bash/Shell
-Brain Activity
 Code Foundations
 Computer Science
 Cybersecurity
 Data Science
 Data Visualization
-Deep Learning
 Developer Tools
 Game Development
 Interview Prep
@@ -18,7 +16,6 @@ iOS
 Machine Learning
 Mobile Development
 Networking
-Perceptrons
 Web Design
 Web Development
 ```
