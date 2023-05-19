@@ -15,10 +15,10 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-**Artificial neural networks (ANN)** are a method in artificial intelligence that teaches computers to process data in a way that is inspired by the human brain. 
+**Artificial neural networks (ANN)** A method in artificial intelligence which teaches computers to process data in a similar way that's inspired by the human brain. 
 ## What Is An Artificial Neural Network (ANN)
 
-- It is a type of machine learning process, called deep learning, that uses interconnected nodes or neurons in a layered structure that resembles the human brain.
+- An ANN a type of machine learning process, called deep learning, that uses interconnected nodes or neurons in a layered structure that resembles the human brain.
 - An ANN is one of the main tools used for machine learning, it is a brain-inspired system used to replicate the way that humans learn.
 
 ### The Process
@@ -29,10 +29,10 @@ CatalogContent:
 
 ### AI
 
-- AI works on a collections of technologies which allow the computer to sense, learn, reason & act, it powers algorithms which are instructions encoded in computer programs.
-- AI works because of machine learning which is equipped with algorithms & vast amounts of datasets trained to recognize patterns & solve complex problems.
+- AI works on a collection of technologies which allow the computer to sense, learn, reason & act, it powers algorithms which are instructions encoded in computer programs.
+- AI works because of machine learning which is equipped with algorithms and vast amounts of datasets trained to recognize patterns and solve complex problems.
 
 ### ANN
 
-- Neural networks are the core for machine learning algorithms, A neural network is trained on specific datasets which it extracts the information from and passes it through different layers searching for patterns.
+- Neural networks are the core of machine learning algorithms. A neural network is trained on specific datasets from which it extracts the information and passes it through different layers searching for patterns.
 - Once a neural networks is trained on a dataset it can start to encounter new scenarios and start making predictions based off that previous dataset. 
