@@ -1,16 +1,18 @@
-# Codecademy Docs: Contribution Guide 👩🏻‍💻👨🏾‍💻👩🏼‍💻
+# Docs: Contribution Guide 👩🏻‍💻👨🏾‍💻👩🏼‍💻
 
-Welcome to the [Codecademy Docs](https://www.codecademy.com/resources/docs) GitHub repo!
+Please see our [updated contribution guide](https://www.codecademy.com/resources/docs/contribution-guide).
+
+Welcome to the [Docs](https://www.codecademy.com/resources/docs) GitHub repo!
 
 We are an inclusive and passionate team of technologists and life-long learners around the world building free programming resources for a better tomorrow. For newcomers, contributing to an open-source project for the first time can be intimidating and overwhelming. Perhaps you’re a code newbie or maybe you’ve been tinkering for years but haven’t found that special project yet.
 
-Good news, you are in the right place! Codecademy Docs is the perfect open-contribution project for you to get started. Every part of [Codecademy Docs](https://www.codecademy.com/resources/docs) content (entries, documentation, and translations) is written by amazing creative folks like yourself.
+Good news, you are in the right place! Docs is the perfect open-contribution project for you to get started. Every part of [Docs](https://www.codecademy.com/resources/docs) content (entries, documentation, and translations) is written by amazing creative folks like yourself.
 
 Thanks for your interest; we'd love to have you contribute. 💖
 
 ## How do I contribute?
 
-There are many ways to contribute to Codecademy Docs:
+There are many ways to contribute to Docs:
 
 - Submit a Pull Request to edit an existing entry.
 - Submit a Pull Request to create a new entry.
@@ -18,7 +20,7 @@ There are many ways to contribute to Codecademy Docs:
 - Give feedback in the [Typeform Survey](https://codecademyready.typeform.com/to/hzVIWDgz).
 - Join the [#CodecademyDocs](https://twitter.com/search?q=%23CodecademyDocs&src=typed_query&f=live) discussion on Twitter.
 
-If you're new to Codecademy Docs and contributing for the first time, it is recommended that you visit the [Issues](https://github.com/Codecademy/docs/issues) section and ask to be assigned to an [open issue](https://github.com/Codecademy/docs/blob/main/.github/CONTRIBUTING.md#how-do-i-claim-an-issue) that interests you. Otherwise, feel free to submit a [PR](https://www.codecademy.com/resources/docs/git/pull-requests) by creating a new [branch](https://www.codecademy.com/resources/docs/git/branch) in your fork to create a new entry or edit an existing one.
+If you're new to Docs and contributing for the first time, it is recommended that you visit the [Issues](https://github.com/Codecademy/docs/issues) section and ask to be assigned to an [open issue](https://github.com/Codecademy/docs/blob/main/.github/CONTRIBUTING.md#how-do-i-claim-an-issue) that interests you. Otherwise, feel free to submit a [PR](https://www.codecademy.com/resources/docs/git/pull-requests) by creating a new [branch](https://www.codecademy.com/resources/docs/git/branch) in your fork to create a new entry or edit an existing one.
 
 ## How do I claim an Issue?
 
@@ -98,7 +100,7 @@ The following are templates for creating your new entries:
 
 ### Codecademy Username
 
-As a Codecademy Docs contributor, you have the opportunity to have your Codecademy username displayed on the side of the entry!
+As a Docs contributor, you have the opportunity to have your Codecademy username displayed on the side of the entry!
 
 If you wish to have your Codecademy profile listed in the entry, before making the PR, make sure that your Codecademy user profile and your GitHub are linked, and that your Codecademy profile is set to public. You can stay anonymous by not linking them.
 
@@ -136,7 +138,7 @@ We will not accept entries that were exclusively generated through an AI tool. W
 
 - AI-generated content is often confidently incorrect, leading to the spread of inaccurate or misleading information.
 - We provide authorship credit for submissions, and to submit AI-generated work under one's own name would be a violation of our plagiarism policy.
-- Codecademy Docs is an educational space for people to learn how to write effective technical documentation. Using generative AI, at this point, negatively impacts that desired learning goal.
+- Docs is an educational space for people to learn how to write effective technical documentation. Using generative AI, at this point, negatively impacts that desired learning goal.
 
 ## How do we update a PR branch?
 
@@ -157,7 +159,7 @@ git push
 
 ## Additional Resources
 
-- [How to Contribute to Codecademy Docs](https://dev.to/codecademy/how-to-contribute-to-codecademy-docs-1a77) article
+- [How to Contribute to Docs](https://dev.to/codecademy/how-to-contribute-to-codecademy-docs-1a77) article
 
 Remember, if you ever have any questions at all, we're always here to help in the [Codecademy Forums](https://discuss.codecademy.com/c/community/community-docs/2205) and [Codecademy Discord](https://discord.com/invite/codecademy).
 
