@@ -12,9 +12,8 @@ CatalogContent:
   - 'paths/web-development'
 ---
 
-> The metadata above provides information about the entry for the PHP String Functions echo().
-
 One of the most commonly used functions in PHP is **`echo()`**, which is used to output one or more strings to the browser or command-line interface.
+
 ## Syntax:
 
 ```php
@@ -37,18 +36,10 @@ You can also use `echo()` to output variables:
 ```php
   $name = "John";
   echo "My name is $name";
-  or
-  echo 'My name is ' . $name;
 ```
 
-This example will output:
-
-```shell
-My name is John
-```
-
-This will output "My name is John" to the screen. In the example above, we use the concatenation operator (.) to join the string "My name is " with the variable `$name`.
-
+In the example above, the output will be "My name is John".
+We use the concatenation operator (.) to join the string "My name is " with the variable `$name`.
 It is also possible to use `echo()` to output HTML code. For example:
 
 ```php
