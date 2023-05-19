@@ -6,7 +6,6 @@ Subjects:
   - 'Developer Tools'
   - 'iOS'
   - 'Mobile Development'
-  - 'Software Development'
 Tags:
   - 'Interface'
   - 'iOS'
