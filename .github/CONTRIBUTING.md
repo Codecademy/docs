@@ -1,6 +1,6 @@
 # Docs: Contribution Guide 👩🏻‍💻👨🏾‍💻👩🏼‍💻
 
-Please see our [updated contribution guide](https://www.codecademy.com/resources/docs/contribution-guide).
+> **[Contribute to Docs](https://www.codecademy.com/pages/contribute-docs)!** Please see our updated **[Contribution Guide](https://www.codecademy.com/resources/docs/contribution-guide)** that provides a step-by-step video and text guide on how you can make an impact through Docs. 🌠
 
 Welcome to the [Docs](https://www.codecademy.com/resources/docs) GitHub repo!
 
