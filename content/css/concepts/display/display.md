@@ -19,7 +19,6 @@ The CSS `display` property is a fundamental attribute that controls how an HTML 
 
 Understanding the different values of the `display` property is crucial for building well-structured and responsive web layouts. By choosing the appropriate value, you can control the flow of elements, create grids, and adjust the visibility of specific elements.
 
-In this guide, we will explore the commonly used values of the `display` property, provide examples of their usage, and discuss various considerations and techniques to maximize its potential.
 
 
 
@@ -55,60 +54,82 @@ The following values can be appplied to the `display` property:
 - `initial`
 - `inherit`
 
-## Differences between display values:
+## Differences between display values
+The display property in CSS allows you to control how elements are rendered on a webpage. Here are the commonly used display values and their descriptions:
+
+### 1. Display: block
+
+ Elements with display: block; are rendered as block-level elements. They create a line break after the element and occupy the full width of their parent container.
 ```css
 .block-element {
   display: block;
 }
-
-.inline-element {
-  display: inline;
-}
-
-.inline-block-element {
-  display: inline-block;
-}
-
-.hidden-element {
-  display: none;
-}
-
-.flex-container {
-  display: flex;
-}
-
-
 ```
 
-## Common use cases:
-
+### 2. Display: inline
+Elements with display: inline; are rendered as inline elements. They don't create line breaks and occupy only the necessary width and height based on their content.
 ```css
-/* Block-level element for creating a layout with stacked elements */
-.block-element {
-  display: block;
-}
-
-/* Inline element for inline text elements */
 .inline-element {
   display: inline;
 }
+```
 
-/* Inline block for inline elements that need block-level properties */
+### 3. Display: inline-block
+
+  Elements with display: inline-block; are rendered as inline-level block elements. They behave like inline elements but allow you to set width, height, padding, and margins.
+```css
 .inline-block-element {
   display: inline-block;
 }
+```
+### 4. Display: none
 
-/* Hide an element from the layout */
+ Elements with display: none; are not rendered and are completely hidden from the page. They don't take up any space in the document flow.
+```css
 .hidden-element {
   display: none;
 }
+```
+### 5. Display: flex
 
-/* Flexible container for creating responsive and flexible layouts */
+ Elements with display: flex; create a flex container, allowing you to build flexible and responsive layouts. Flex items inside the container can be positioned and resized using flexbox properties.
+```css
 .flex-container {
   display: flex;
 }
-
 ```
+### 6. Display: grid
+
+Elements with display: grid; create a grid container that enables you to define rows and columns, creating a two-dimensional grid system. Child elements inside the container can be placed in specific cells and adjusted for size and alignment.
+```css
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Overriding display values:
 
@@ -184,8 +205,5 @@ Setting a `div` element to behave like a flex box.
   display: flex;
 }
 ```
----
-## CSS Display property cheat sheet: 
 
-![css display cheat sheet](css_display.png)
 
