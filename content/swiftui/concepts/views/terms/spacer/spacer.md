@@ -47,7 +47,7 @@ var body: some View {
 
 This will display the following:
 
-![HStack](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-spacer-left)
+![HStack](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-spacer-left.png)
 
 In this next example below, each `Spacer` fills the view on both the left and right of the `Text`. This effectively pushes the `Text` into the center, with each `Spacer` expanding as much as the parent view will allow on each side.
 
