@@ -127,6 +127,7 @@ In code blocks:
     - Used with a `## Codebyte Example` header.
     - Typically, only one per entry.
     - Typically, appears at the end of the entry.
+    - Is original code, not a copy of a prior example in Docs or an existing example on another site.
     - Displays example code that is runnable.
     - Use codebyte blocks appropriate to the language (see: [Supported Codebyte Blocks](#supported-codebyte-blocks)).
     - They are usually preceded by a description of what the example does.
