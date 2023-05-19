@@ -65,4 +65,3 @@ This will display the following:
 
 ![HStack](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-spacer-left-and-right.png)
 
-
