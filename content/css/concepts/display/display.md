@@ -13,7 +13,6 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-# CSS Display Property
 
 The CSS `display` property is a fundamental attribute that controls how an HTML element is rendered on a webpage. It determines the type of box used for an element and influences its layout and positioning within the document.
 
