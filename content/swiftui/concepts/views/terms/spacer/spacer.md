@@ -34,7 +34,7 @@ The `Spacer` is an adaptive view that sits within a stack, expanding as much as 
 
 ## Examples
 
-In the example below, the **`Spacer`** in the **`HStack`** fills the view to the left of the **`Text`**, effectively pushing the **`Text`** to the right.
+In the example below, the `Spacer` in the `HStack` fills the view to the left of the `Text`, effectively pushing the `Text` to the right.
 
 ```swift
 var body: some View {
