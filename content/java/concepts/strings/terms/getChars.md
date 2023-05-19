@@ -21,7 +21,6 @@ The basic syntax of `.getChars()` in Java is:
 ```pseudo
 getChars(int srcBegin, int srcEnd, char[] dst, int dstBegin)
 ```
-
 A brief description of the parameters is as follows:
 
 - `srcBegin`: The index to start copying the new array.
