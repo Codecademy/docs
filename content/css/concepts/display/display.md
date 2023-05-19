@@ -107,6 +107,7 @@ The following values can be appplied to the `display` property:
 ## Overriding display values:
 
 CSS specificity allows you to override default display values of elements. Here's an example of overriding display:
+
 ```css
 /* Original CSS */
 .element {
