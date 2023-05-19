@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **map** is a built-in data structure that is used to store a collection of unordered key-value pairs. The pairs can be of the same type, or of mixed types. It is Go's implementation of a hash table, which allows for efficient access, insertion, and deletion.
+A **map** is a built-in data structure that is used to store a collection of unordered key-value pairs. The pairs can be of the same type or of mixed types. It is Go's implementation of a hash table, which allows for efficient access, insertion, and deletion.
 
 ## Syntax
 
