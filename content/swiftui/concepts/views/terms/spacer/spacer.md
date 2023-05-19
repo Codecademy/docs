@@ -30,7 +30,7 @@ var body: some View {
 }
 ```
 
-The **`Spacer`** is an adaptive view that sits within a stack, expanding as much as the parent view will allow.
+The `Spacer` is an adaptive view that sits within a stack, expanding as much as the parent view will allow.
 
 ## Examples
 
