@@ -1,6 +1,6 @@
 ---
-Title: 'Agile'
-Description: 'Agile is a software development methodology that emphasizes iteration, flexibility, and cross-team collaboration.'
+Title: 'Agile Model'
+Description: 'Emphasizes iteration, flexibility, and cross-team collaboration.'
 Subjects:
   - 'Mobile Development'
   - 'Web Development'
