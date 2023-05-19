@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.bar()`** function returns a chart/graph that represents categorical data with vertical bars with heights proportional to the values that they represent. Bars can be plotted as stacked or grouped.
+The **`.bar()`** function returns a chart/graph that represents categorical data using vertical bars with heights proportional to the values that they represent. Bars can be plotted as stacked or grouped.
 
 ## Syntax
 
@@ -32,7 +32,7 @@ The parameters to the function are:
 
 ## Example
 
-Goal: Return the value of "X", "Y" and "Z" in a graph representation. In this example the `x` and `y` arrays will be allocated to the `x` and `height` arguments respectively. The last argument specifies the color of the bars.
+Goal: Return the value of "X", "Y" and "Z" in a graph representation. In this example, the `x` and `y` arrays will be allocated to the `x` and `height` arguments respectively. The last argument specifies the color of the bars.
 
 ```py
 import matplotlib.pyplot as plt
