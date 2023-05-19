@@ -20,7 +20,6 @@ Understanding the different values of the `display` property is crucial for buil
 
 
 
-
 ## Syntax
 
 ```css
