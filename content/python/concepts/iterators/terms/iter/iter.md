@@ -42,21 +42,14 @@ print(next(cars_iter))
 This will print the following output:
 
 ```shell
-Hello, World! Let's count:
-2
-3
-4
-5
-6
-7
-8
-9
-StopIteration Exception raised. Value returned was equal to sentinel value
+Ferrari
+Lamborghini
+Porsche
 ```
 
 ## Applying a Sentinel
 
-The following example applies the optional `sentinel` parameter through a callable class object (though the `__call__()` method):
+The following example applies the optional `sentinel` parameter through a callable class object (through the `__call__()` method):
 
 ```py
 class codeNinjaCount:
@@ -77,6 +70,21 @@ while True:
   except StopIteration:
     print("StopIteration Exception raised. Value returned was equal to sentinel value")
     break
+```
+
+This will return the following output:
+
+```shell
+Hello, World! Let's count:
+2
+3
+4
+5
+6
+7
+8
+9
+StopIteration Exception raised. Value returned was equal to sentinel value
 ```
 
 ### Codebyte Example
