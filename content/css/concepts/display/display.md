@@ -15,7 +15,7 @@ CatalogContent:
 
 The CSS `display` property is a fundamental attribute that controls how an HTML element is rendered on a webpage. It determines the type of box used for an element and influences its layout and positioning within the document.
 
-Understanding the different values of the `display` property is crucial for building well-structured and responsive web layouts. By choosing the appropriate value, you can control the flow of elements, create grids, and adjust the visibility of specific elements.
+Understanding the different values of the `display` property is crucial for building well-structured and responsive web layouts. By choosing the appropriate value, the flow of elements can be controlled, grids can be created, and the visibility of specific elements can be adjusted.
 
 In this guide, we will explore the commonly used values of the `display` property, provide examples of their usage, and discuss various considerations and techniques to maximize its potential.
 
