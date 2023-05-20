@@ -30,7 +30,8 @@ Text("Hello, World!") // SwiftUI Text view.
             }
 
 ```
-**Output**:
+
+This example will output the following when the view is tapped:
 
 ```Shell
 View Tapped 
