@@ -56,7 +56,7 @@ View Tapped
 In this example it prints "View Tapped" after taping the text view three times.
 
  
-> Important note: When you need a button, use a Button instance rather than a tap gesture. You can use any view as the button’s label, and the button type automatically provides many of the standard behaviors that users expect from a button, like accessibility labels and hints. 
+> **Note:** When a button is needed, use a Button instance rather than a tap gesture. Any view can be used as the button’s label, and the button type automatically provides many of the standard behaviors that users expect from a button, like accessibility labels and hints. 
 
 
 ## Long Press Gestures
