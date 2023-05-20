@@ -106,7 +106,7 @@ ruby argv_shift.rb --all one two
 
 ## `readlines`
 
-The method of `.readlines` creates an array of strings of each line of each file passed to the Ruby script.
+The method `.readlines` creates an array of strings of each line of each file passed to the Ruby script.
 It's commonly used for separating the lines of a file into array items so they can be iterated over with other methods such as `.each`.
 
 ```ruby
