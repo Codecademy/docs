@@ -33,9 +33,7 @@ Text("Hello, World!") // SwiftUI Text view.
 
 This example will output the following when the view is tapped:
 
-```Shell
-View Tapped 
-```
+![Screen_Recording_2023-05-20_at_4_05_58_PM_AdobeExpress](https://github.com/EngOmarAhmedIOS/docs/media/Screen_Recording_2023-05-20_at_4_05_58_PM_AdobeExpress.gif)
 
 In the above example, every time the text view "Hello, World" is tapped, it prints "View Tapped" in the console.
 The action can also be implemented after certain amount of tap gestures. For example:
@@ -99,4 +97,3 @@ struct ContentView: View {
     }
 }
 ```
-// this a comment for the person who will review this doc, I don't know if i can put images or not. if I can please tell me to add some images for this file.
