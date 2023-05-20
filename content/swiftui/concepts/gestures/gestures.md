@@ -44,7 +44,8 @@ The action can also be implemented after certain amount of tap gestures. For exa
 Text("Hello, World!") // SwiftUI Text view.
             .onTapGesture(count: 3) { // By using this modifier, a specific action can be run when the View is tapped 3 times.
 
-                print("View Tapped") // this function will print "View Tapped" in the console.
+                print("View Tapped") // This function will print "View Tapped" in the console.
+
             }
 ```
 **Output**:
