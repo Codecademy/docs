@@ -17,8 +17,7 @@ The **`.animation()`** modifier applies an animation to a [view](https://www.cod
 ## Syntax
 
 ```pseudo
-< View to be animated >
-    < View modifier that varies depending on switchValue >
+View
     .animation(animation, value: switchValue)
 ```
 
