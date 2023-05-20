@@ -1,5 +1,5 @@
 ---
-Title: 'ARGF and ARGV'
+Title: 'ARGF'
 Description: 'ARGF is a module in Ruby used for reading files passed as command line arguments or in standard input (STDIN) in a terminal. A Ruby script using ARGF may be thought of as implementing a subset of the functions of the Unix command cat.'
 Subjects:
   - 'Web Development'
@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-ARGF is a module in Ruby used for reading files passed as command line arguments or in standard input (STDIN) in a terminal. A Ruby script using ARGF may be thought of as implementing a subset of the functions of the Unix command cat.
+**ARGF** is a module in Ruby used for reading files passed as command line arguments or in standard input (STDIN) in a terminal. A Ruby script using ARGF may be thought of as implementing a subset of the functions of the Unix command cat.
 
 ```shell
 cat file1
@@ -24,16 +24,16 @@ echo "standard input" | cat
 # Output: standard input
 ```
 
-The cat command can accept a filename or you can | pipe another command as standard input.
+The `cat` command can accept a filename or it can pipe (`|`) another command as standard input.
 
-## ARGF - the F is for files
+## ARGF - The F Is for Files
 
 ```ruby
 # argf.rb
-puts ARFG.read
+puts ARGF.read
 ```
 
-The ARGF module has a method #file that you can use to recognize what file it is currently handling. Type this on the command line:
+The ARGF module has a method `.read` that can be used to read the entire contents of afiles passed in as command line arguments.
 
 ```shell
 ruby argf.rb file1 file2
@@ -60,16 +60,16 @@ echo "STDIN" | ruby argf.rb file1 file2 -
 # STDIN
 ```
 
-## ARGV - the V is for variable
+## ARGV - The V Is for Variable
 
-Behind the scenes, inside the file there is a Ruby array called ARGV which contains the names of all arguments passed to the file at the command line or through STDIN.
+Under the hood, inside the file, there is a Ruby array termed `ARGV` which contains the names of all arguments passed to the file at the command line or through STDIN.
 
 ```ruby
 # argf_inspect_argv.rb
 puts ARGV.inspect
 ```
 
-The ARGV array doesn't care whether the arguments are valid filenames or not.
+The `ARGV` array disregards whether the arguments are valid filenames or not.
 
 ```shell
 ruby argf_inspect_argv.rb file1 file2
@@ -81,18 +81,15 @@ ruby argf_inspect_argv.rb one two
 
 ## `shift`
 
-ARGF is using ARGV to store the names of the files passed into it at the command line.
-Files that are processed by ARGF.read are shifted off the ARGV array
-
-However, as is often the case with terminal commands, flags like `--verbose` or `--all` are often used.
-What happens in a case like this?
+As is often the case with terminal commands, flags like `--verbose` or `--all` are often used.
 
 ```shell
 ruby argf_inspect_argv.rb --all one two
 # Output: ["--all", "one", "two"]
 ```
 
-The #shift method of ARGV should be used:
+`ARGV` stores the names of the files and other arguments passed in through the command line.
+The `.shift` method of ARGV can be used to remove any arguments from the ARGV array that are not files.
 
 ```ruby
 # argv_shift.rb
@@ -105,9 +102,12 @@ ruby argv_shift.rb --all one two
 ["one", "two"]
 ```
 
+> **Note:** Files that are processed by `ARGF.read` are shifted off the `ARGV` array.
+
 ## `readlines`
 
-The method of ARGF #readlines created an array of strings of each line of each file passed to the Ruby script.
+The method of `.readlines` creates an array of strings of each line of each file passed to the Ruby script.
+It's commonly used for separating the lines of a file into array items so they can be iterated over with other methods such as `.each`.
 
 ```ruby
 # argv_readlines.rb
@@ -124,7 +124,7 @@ ruby argv_readlines.rb file1 file2
 # ["Contents of file1\n", "Contents of file2\n"]
 ```
 
-`#readlines` will not accept command line arguments that are not valid filenames.
+`.readlines` will not accept command line arguments that are not valid filenames.
 
 ```shell
 ruby argv_readlines.rb one two
