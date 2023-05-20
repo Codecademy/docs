@@ -73,6 +73,7 @@ Text("Hello, World!") // SwiftUI Text view.
 There is so more types of gestures struct, to check them all visit: <https://developer.apple.com/documentation/swiftui/gestures>
 
 ## Advanced Gestures
+
 For more advanced gestures the `gesture()` modifier should be used with one of the gesture structs: `DragGesture`, `LongPressGesture`, `MagnificationGesture`, `RotationGesture`, and `TapGesture`. These all have special modifiers, usually `onEnded()` and often `onChanged() `too, and they can be used to take action when the gestures are in-flight (for `onChanged()`) or completed (`for onEnded()`).
 
 
