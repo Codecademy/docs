@@ -14,7 +14,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'path/iOS-path'
 ---
 
-Views can respond to your tap,drags,pinches and other gestures. Just by adding **Gesture** modifer to your View.
+Views can respond to taps, drags, pinches and other gestures just by adding **Gesture** modifiers to your View.
 
 ## Tap Gestures
 
