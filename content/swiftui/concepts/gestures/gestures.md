@@ -37,7 +37,7 @@ This example will output the following when the view is tapped:
 View Tapped 
 ```
 
-In the above example, everytime you tap the text view "Hello, World", it prints "View Tapped" in the console.
+In the above example, every time the text view "Hello, World" is tapped, it prints "View Tapped" in the console.
 You can also implement the action after certain amount of tap gestures. For example:
 
 ```Swift
