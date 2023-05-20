@@ -22,56 +22,64 @@ This is the most basic type of Gesture.
 The `.onTapGesture()` modifier can be called on the view desired to track the gesture on.
 
 ```Swift
-Text("Hello, World!") // SwiftUI Text view.
-            .onTapGesture { // Using this modifier, a specific action can be run when the View is tapped.
-
-                print("View Tapped") // This function will print "View Tapped" in the console.
-
+struct Tap: View {
+    var body: some View {
+        Text("Hello, World!")
+            .onTapGesture {
+                print("View Tapped") 
             }
+        
+    }
+}
 
 ```
 
-This example will output the following when the view is tapped:
+The output looks like:
 
-![Screen_Recording_2023-05-20_at_4_05_58_PM_AdobeExpress](https://github.com/EngOmarAhmedIOS/docs/media/Screen_Recording_2023-05-20_at_4_05_58_PM_AdobeExpress.gif)
+![Tap_Gesture_SwiftUI.gif](https://raw.githubusercontent.com/Codecademy/docs/main/media/Tap_Gesture_SwiftUI.gif)
 
-In the above example, every time the text view "Hello, World" is tapped, it prints "View Tapped" in the console.
+Every time the text view "Hello, World" is tapped, it prints "View Tapped" in the console.
 The action can also be implemented after certain amount of tap gestures. For example:
 
 ```Swift
-Text("Hello, World!") // SwiftUI Text view.
-            .onTapGesture(count: 3) { // By using this modifier, a specific action can be run when the View is tapped 3 times.
-
-                print("View Tapped") // This function will print "View Tapped" in the console.
-
+struct Tap: View {
+    var body: some View {
+        Text("Hello, World!")
+            .onTapGesture(count: 3) {
+                print("View Tapped") 
             }
-```
-**Output**:
-
-```Shell
-View Tapped
+        
+    }
+}
 ```
 In this example it prints "View Tapped" after taping the text view three times.
 
- 
 > **Note:** When a button is needed, use a Button instance rather than a tap gesture. Any view can be used as the button’s label, and the button type automatically provides many of the standard behaviors that users expect from a button, like accessibility labels and hints. 
 
 ## Long Press Gestures
 
-`onLongPressGesture()` it's used for handling long presses. Like `.onTapGesture()`, `onLongPressGesture()` is also customizable. For example, a minimum duration for the press can be specified, so your action closure only triggers after a specific number of seconds have passed. For example, this will trigger only after two seconds:
+`onLongPressGesture()` it's used for handling long presses gesture. `onLongPressGesture()` have an extra parameter called `minimumDuration:` (takes Double as input), it's used to specify after how much time the action will be executed. For example:
 
 ```Swift
-Text("Hello, World!") // SwiftUI Text view.
-            .onLongPressGesture(minimumDuration: 2) { // Dy using this modifier, a specific action can be run after pressing the text view for 2 seconds.
-
-                print("Long pressed!") // this function will print "View Tapped" in the console.
+struct Tap: View {
+    var body: some View {
+        Text("Hello, World!")
+            .onLongPressGesture(minimumDuration: 2) {
+                print("View Tapped")
             }
+        
+    }
+}
 ```
+The output looks like:
 
+![Tap_Gesture_SwiftUI.gif](https://raw.githubusercontent.com/Codecademy/docs/main/media/Long_Gesuter_SwiftUI.gif)
+
+ "Long pressed!" was be printed in the console after pressing the text view for 2 seconds.
 
 ## Advanced Gestures
 
-For more advanced gestures the `gesture()` modifier should be used with one of the gesture structs: `DragGesture`, `LongPressGesture`, `MagnificationGesture`, `RotationGesture`, and `TapGesture`. These all have special modifiers, usually `onEnded()` and often `onChanged() `too, and they can be used to take action when the gestures are in-flight (for `onChanged()`) or completed (`for onEnded()`).
+For more advanced and customizable gestures use the `gesture()` modifier with one of the gesture structs like: `DragGesture()`, `LongPressGesture()`, `MagnificationGesture()`, `RotationGesture()`, and `TapGesture()`. These all have special modifiers, usually `onEnded()` and `onChanged() `, and they can be used to take action when the gestures are in-flight (for `onChanged()`) or completed (`for onEnded()`).
 
 
 As an example, a magnification gesture could be attached to a view so that pinching in and out scales the view up and down. This can be done by creating two `@State` properties to store the scale amount, using that inside a `scaleEffect()` modifier, then setting those values in the gesture, like this:
@@ -97,3 +105,37 @@ struct ContentView: View {
     }
 }
 ```
+The output looks like:
+
+![Tap_Gesture_SwiftUI.gif](https://raw.githubusercontent.com/Codecademy/docs/main/media/Magnfication_Gesture_SwiftUI.gif)
+
+There is a problem with the code above, because the text view didn't return to it's normal state, this can result in a bad user experience. So to fix this problem the `currentAmount` property will be assigned to zero in the `.onEnded()` modifier, so the text view will return to it's normal size after completing the gesture: 
+
+```Swift
+struct Tap: View {
+    @State private var currentAmount = 0.0
+
+        var body: some View {
+            Text("Hello, World!")
+                .padding()
+                .foregroundColor(.red)
+                .scaleEffect(1 + currentAmount)
+                .gesture(
+                    MagnificationGesture()
+                        .onChanged { amount in
+                            currentAmount = amount - 1
+                        }
+                        .onEnded { amount in
+                            withAnimation(.spring()){
+                                currentAmount = 0
+                            }
+                        }
+                )
+        }
+}
+```
+The output looks like:
+
+![Tap_Gesture_SwiftUI.gif](https://raw.githubusercontent.com/Codecademy/docs/main/media/Magnfication_Gesture_SwiftUI_withAnimation.gif)
+
+the `withAnimation(.spring()){}` was added to gave the text view a spring animation while it return's to it's normal size, as it look in the gif above.
