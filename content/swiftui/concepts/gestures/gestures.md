@@ -70,7 +70,6 @@ Text("Hello, World!") // SwiftUI Text view.
             }
 ```
 
-There is so more types of gestures struct, to check them all visit: <https://developer.apple.com/documentation/swiftui/gestures>
 
 ## Advanced Gestures
 
