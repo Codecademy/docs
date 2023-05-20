@@ -24,11 +24,12 @@ RAD involves a collaborative approach where developers work closely with stakeho
 
 ## Phases of Rapid Application Development
 
-RAD typically consists of four phases:  
-- **Requirements Planning:** Project team collaborates with stakeholders to identify and prioritize software requirements. User involvement ensures understanding of needs and expectations.  
-- **User Design:** Prototypes and mock-ups are created through rapid iterations of design, implementation, and testing. Functional prototypes are demonstrated to gather feedback and validation from users and stakeholders.  
-- **Construction:** Coding and development of the software system takes place, emphasizing speed and efficiency. Reusable components and existing frameworks are utilized. Iterative development, frequent testing, and user feedback ensure meeting desired requirements.  
-- **Cutover:** Transition from development to production environment occurs, involving final testing, deployment, and user training. Thorough testing identifies and resolves remaining issues. After successful testing, the system is deployed, and users are trained for effective software usage.
+RAD typically consists of four phases:
+
+1. **Requirements Planning:** Project team collaborates with stakeholders to identify and prioritize software requirements. User involvement ensures understanding of needs and expectations.  
+2. **User Design:** Prototypes and mock-ups are created through rapid iterations of design, implementation, and testing. Functional prototypes are demonstrated to gather feedback and validation from users and stakeholders.  
+3. **Construction:** Coding and development of the software system takes place, emphasizing speed and efficiency. Reusable components and existing frameworks are utilized. Iterative development, frequent testing, and user feedback ensure meeting desired requirements.  
+4. **Cutover:** Transition from development to production environment occurs, involving final testing, deployment, and user training. Thorough testing identifies and resolves remaining issues. After successful testing, the system is deployed, and users are trained for effective software usage.
 
 
 ## Advantages 
