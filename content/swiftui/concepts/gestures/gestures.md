@@ -23,7 +23,8 @@ The `.onTapGesture()` modifier can be called on the view desired to track the ge
 
 ```Swift
 Text("Hello, World!") // SwiftUI Text view.
-            .onTapGesture { // by using this modifier, you can run a specifec action when the View is tapped.
+            .onTapGesture { // Using this modifier, a specific action can be run when the View is tapped.
+
                 print("View Tapped") // this function will print "View Tapped" in the console.
             }
 
