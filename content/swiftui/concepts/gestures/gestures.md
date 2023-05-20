@@ -72,7 +72,8 @@ Text("Hello, World!") // SwiftUI Text view.
 There is so more types of gestures struct, to check them all visit: <https://developer.apple.com/documentation/swiftui/gestures>
 
 ## Advanced Gestures
-For more advanced gestures you should use the `gesture()` modifier with one of the gesture structs:` DragGesture, LongPressGesture, MagnificationGesture, RotationGesture, and TapGesture`. These all have special modifiers, usually `onEnded()` and often `onChanged() `too, and you can use them to take action when the gestures are in-flight (for `onChanged()`) or completed (`for onEnded()`).
+For more advanced gestures the `gesture()` modifier should be used with one of the gesture structs: `DragGesture`, `LongPressGesture`, `MagnificationGesture`, `RotationGesture`, and `TapGesture`. These all have special modifiers, usually `onEnded()` and often `onChanged() `too, and they can be used to take action when the gestures are in-flight (for `onChanged()`) or completed (`for onEnded()`).
+
 
 As an example, a magnification gesture could be attached to a view so that pinching in and out scales the view up and down. This can be done by creating two `@State` properties to store the scale amount, using that inside a `scaleEffect()` modifier, then setting those values in the gesture, like this:
 
