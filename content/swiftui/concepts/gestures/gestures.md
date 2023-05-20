@@ -38,7 +38,7 @@ View Tapped
 ```
 
 In the above example, every time the text view "Hello, World" is tapped, it prints "View Tapped" in the console.
-You can also implement the action after certain amount of tap gestures. For example:
+The action can also be implemented after certain amount of tap gestures. For example:
 
 ```Swift
 Text("Hello, World!") // SwiftUI Text view.
