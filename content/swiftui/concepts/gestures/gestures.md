@@ -64,7 +64,8 @@ In this example it prints "View Tapped" after taping the text view three times.
 
 ```Swift
 Text("Hello, World!") // SwiftUI Text view.
-            .onLongPressGesture(minimumDuration: 2) { // by using this modifier, you can run a specifec action after pressing the text view for 2 seconds.
+            .onLongPressGesture(minimumDuration: 2) { // Dy using this modifier, a specific action can be run after pressing the text view for 2 seconds.
+
                 print("Long pressed!") // this function will print "View Tapped" in the console.
             }
 ```
