@@ -19,7 +19,7 @@ Views can respond to taps, drags, pinches and other gestures just by adding **Ge
 ## Tap Gestures
 
 This is the most basic type of Gesture.
-You can call `.onTapGesture()` modifier on the view you want to track gesture on.
+The `.onTapGesture()` modifier can be called on the view desired to track the gesture on.
 
 ```Swift
 Text("Hello, World!") // SwiftUI Text view.
