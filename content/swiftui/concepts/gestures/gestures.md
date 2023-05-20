@@ -60,7 +60,7 @@ In this example it prints "View Tapped" after taping the text view three times.
 
 ## Long Press Gestures
 
-`onLongPressGesture()` it's used for handling long presses. Like `.onTapGesture()`, `onLongPressGesture()` is also customizable. For example, you can specify a minimum duration for the press, so your action closure only triggers after a specific number of seconds have passed. For example, this will trigger only after two seconds:
+`onLongPressGesture()` it's used for handling long presses. Like `.onTapGesture()`, `onLongPressGesture()` is also customizable. For example, a minimum duration for the press can be specified, so your action closure only triggers after a specific number of seconds have passed. For example, this will trigger only after two seconds:
 
 ```Swift
 Text("Hello, World!") // SwiftUI Text view.
