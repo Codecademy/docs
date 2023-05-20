@@ -58,7 +58,6 @@ In this example it prints "View Tapped" after taping the text view three times.
  
 > **Note:** When a button is needed, use a Button instance rather than a tap gesture. Any view can be used as the button’s label, and the button type automatically provides many of the standard behaviors that users expect from a button, like accessibility labels and hints. 
 
-
 ## Long Press Gestures
 `onLongPressGesture()` it's used for handling long presses. Like `.onTapGesture()`, `onLongPressGesture()` is also customizable. For example, you can specify a minimum duration for the press, so your action closure only triggers after a specific number of seconds have passed. For example, this will trigger only after two seconds:
 
