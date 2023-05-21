@@ -35,7 +35,7 @@ struct Tap: View {
 
 The output looks like:
 
-![Tap_Gesture_SwiftUI.gif](https://raw.githubusercontent.com/Codecademy/docs/main/media/Tap_Gesture_SwiftUI.gif)
+![This is a gif that shows the effect of using TapGesture in Xcode simulation](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-tapgesture-example.gif)
 
 Every time the text view "Hello, World" is tapped, it prints "View Tapped" in the console.
 The action can also be implemented after certain amount of tap gestures. For example:
@@ -72,7 +72,7 @@ struct Tap: View {
 ```
 The output looks like:
 
-![Tap_Gesture_SwiftUI.gif](https://raw.githubusercontent.com/Codecademy/docs/main/media/Long_Gesuter_SwiftUI.gif)
+![This is a gif that shows the effect of using LongPressGesture in Xcode simulation](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-longgesture-example.gif)
 
  "Long pressed!" was be printed in the console after pressing the text view for 2 seconds.
 
@@ -105,7 +105,7 @@ struct ContentView: View {
 ```
 The output looks like:
 
-![Tap_Gesture_SwiftUI.gif](https://raw.githubusercontent.com/Codecademy/docs/main/media/Magnfication_Gesture_SwiftUI.gif)
+![This is a gif that shows the effect of using MagnificationGesture in Xcode simulation](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-magnificationgesture-example.gif)
 
 There is a problem with the code above, because the text view didn't return to it's normal state, this can result in a bad user experience. So to fix this problem the `currentAmount` property will be assigned to zero in the `.onEnded()` modifier, so the text view will return to it's normal size after completing the gesture: 
 
@@ -134,6 +134,6 @@ struct Tap: View {
 ```
 The output looks like:
 
-![Tap_Gesture_SwiftUI.gif](https://raw.githubusercontent.com/Codecademy/docs/main/media/Magnfication_Gesture_SwiftUI_withAnimation.gif)
+![This is a gif that shows the effect of using MagnificationGesture with Spring animation in Xcode simulation](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-magnficationgesture-example-with-animation.gif)
 
 the `withAnimation(.spring()){}` was added to gave the text view a spring animation while it returns to its normal size, as it looks in the gif above.
