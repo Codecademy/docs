@@ -1,6 +1,6 @@
 ---
 Title: 'Math Functions'
-Description: 'SQL Math Functions are built-in features in SQL, which let you do mathematical operations, directly in your database queries.'
+Description: 'SQL Math Functions are built-in features in SQL, which allow mathematical operations directly in database queries.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
