@@ -23,8 +23,22 @@ View
 
 The `.animation()` modifier takes two arguments:
 
-- An animation property or function, for example `.easeIn` or `.easeIn(duration: 2)`.
-- A `value` that whenever it changes, triggers the animation.
+- An animation type property or method, for example `.easeIn` or `.easeIn(duration: 2)`.
+- A `value` that whenever it changes, triggers the animation, for example a boolean variable called `switchValue`.
+
+Below is a table describing some of the animation type properties and methods.
+
+| Property or Method      | Description                                                                                                                                                    |
+| ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `.easeIn`               | Animation starts slow then speeds up.                                                                                                                          |
+| `.easeIn(duration:)`    | Same as `.easeIn`, but with a duration specified in seconds.                                                                                                   |
+| `.easeOut`              | Animation starts fast then slows down.                                                                                                                         |
+| `.easeOut(duration:)`   | Same as `.easeOut`, but with a duration specified in seconds.                                                                                                  |
+| `.easeInOut`            | Amimation starts slow, speeds up, then slows down.                                                                                                             |
+| `.easeInOut(duration:)` | Same as `.easeInOut`, but with a duration specified in seconds.                                                                                                |
+| `.linear`               | Animation has a constant speed.                                                                                                                                |
+| `.linear(duration:)`    | Same as `.linear`, but with a duration specified in seconds.                                                                                                   |
+| `.spring()`             | Animation behaves like a spring. `response`,`dampingFraction`, and `blendDuration` can be optionally added as arguments to change the behaviour of the spring. |
 
 ## Example
 
