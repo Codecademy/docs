@@ -10,7 +10,7 @@ Tags:
   - 'ANN'
   - 'Neural Networks'
   - 'Weight & Bias'
-  - 'Brain Activity' **
+  - 'Brain Activity' 
   - 'Deep Learning'
   - 'Perceptrons'
 CatalogContent:
