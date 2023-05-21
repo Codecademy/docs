@@ -35,4 +35,4 @@ This example demonstrates the use of `str_shuffle()` on a string.
 ```
 
 > **Note:** that the output will vary each time this program is executed, as the `str_shuffle()` function shuffles the string randomly.
-(The function should not be used for cryptography, because it does not generate cryptographically secure random numbers.)
+> The function should not be used for cryptography, because it does not generate cryptographically secure random numbers.
