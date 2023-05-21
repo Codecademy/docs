@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-**SQL Math Functions** are built-in features in SQL, which let you do mathematical operations, such as addition, subtraction, and even more complex calculations, directly in your database queries. This makes it easier and more efficient to work with numerical data in SQL, as you don't need to extract the data and process it separately.
+**SQL Math Functions** are built-in features in SQL, which allow mathematical operations and complex calculations, directly in database queries. This makes it easier and more efficient to work with numerical data in SQL, as there's no need to extract the data and process it separately.
 
 ### Example
 
