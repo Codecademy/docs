@@ -17,7 +17,7 @@ CatalogContent:
 
 ## Syntax
 
-**`setTimeout()`** is capable of receiving multiple parameters where the first is a callback function, the second parameter receives a number that represents the time in milliseconds **(1s = 1000ms)**, that defines the time needed for the callback to execute, the third parameter onwards will be the parameters that the callback function would take in case arguments are defined within the callback.
+`setTimeout()` is capable of receiving multiple parameters where the first is a callback function, the second parameter receives a number that represents the time in milliseconds (1s = 1000ms), that defines the time needed for the callback to execute, the third parameter onwards will be the parameters that the callback function would take in case arguments are defined within the callback.
 
 The provided sample code contains some examples of how `setTimeout()` is composed:
 
