@@ -18,31 +18,31 @@ CatalogContent:
 
 ### Example
 
-In this example, the following data is given, in a table named `orders`:
+In this example, the following data is given, in a table named `employees`:
 
-| order_id | product_price | quantity |
-| -------- | ------------- | -------- |
-| 1        | 20            | 3        |
-| 2        | 15            | 5        |
-| 3        | 30            | 2        |
-| 4        | 10            | 1        |
+| employee_id | salary  |
+| ----------- | ------- |
+| 1           | 3500.27 |
+| 2           | 1530.90 |
+| 3           | 3025.10 |
+| 4           | 5040.50 |
 
-The multiplication (\*) math function can be used to calculate the total price for each order:
+The `FLOOR()` math function can be used to calculate the largest integer that is less than or equal to a given value:
 
 ```sql
-SELECT order_id, product_price, quantity, product_price * quantity AS total_price
-FROM orders;
+SELECT employee_id, FLOOR(salary) AS floored_salary
+FROM employees;
 ```
 
-In this SQL statement, `product_price` and `quantity` are multiplied for each order to calculate `total_price`. The [`AS`](https://www.codecademy.com/resources/docs/sql/commands/as) keyword is used to rename the `product_price * quantity` column to `total_price` in the output.
+In this SQL statement, the `salary` values are floored for each employee to calculate the `floored_salary`. The [`AS`](https://www.codecademy.com/resources/docs/sql/commands/as) keyword is used to rename the `FLOOR(salary)` column to `floored_salary` in the output.
 
 The output will be:
 
-| order_id | product_price | quantity | total_price |
-| -------- | ------------- | -------- | ----------- |
-| 1        | 20            | 3        | 60          |
-| 2        | 15            | 5        | 75          |
-| 3        | 30            | 2        | 60          |
-| 4        | 10            | 1        | 10          |
+| employee_id | floored_salary |
+| ----------- | -------------- |
+| 1           | 3500           |
+| 2           | 1530           |
+| 3           | 3025           |
+| 4           | 5040           |
 
 This is a practical example of math functions in SQL.
