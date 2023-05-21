@@ -51,7 +51,7 @@ Hello from Codecademy
 
 ## Example 2
 
-The following example can be done by using arrow functions, in which case, instead of declaring it using the word `function`, we can just create it by using `() =>`, for more information visit [arrow functions](https://www.codecademy.com/resources/docs/javascript/arrow-functions).
+The following example shows the use of [arrow functions](https://www.codecademy.com/resources/docs/javascript/arrow-functions). Instead of declaring it using the word `function`, we can just create it by using `() =>`.
 
 ```shell
 // Defining the function
