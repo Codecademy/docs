@@ -138,4 +138,4 @@ The output looks like:
 
 ![Tap_Gesture_SwiftUI.gif](https://raw.githubusercontent.com/Codecademy/docs/main/media/Magnfication_Gesture_SwiftUI_withAnimation.gif)
 
-the `withAnimation(.spring()){}` was added to gave the text view a spring animation while it return's to it's normal size, as it look in the gif above.
+the `withAnimation(.spring()){}` was added to gave the text view a spring animation while it returns to its normal size, as it looks in the gif above.
