@@ -47,6 +47,13 @@ more than one line
 
 print("Hello, World!")
 ```
+## Note: Python strings can be created using single inverted commas (' '), double inverted commas (" ") and triple inverted commas (''' ''').
+Both single line and multi line comments or strings can be written in Python using (' '), (" ") or (''' ''') depending on the need.
+For example, if we are using " " marks in our sentence then the comment should be made by using single or triple quote.
+
+                                      ''' I am writing a comment that uses double quote.
+                                            Ram said " I will not come."
+                                            '''
 
 ## Codebyte Example
 
