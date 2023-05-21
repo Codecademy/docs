@@ -78,10 +78,11 @@ other options.
 
 ### Using default values
 
-This is a way of initializing struct fields to default values, rather than explicitly set each field to it's value every
+This is a way of initializing struct fields to default values, rather than explicitly setting each one to its value every
 time a new instance of that struct is created.
 To use this method, a constructor function is defined. This will create a new instance of the struct and will set its
 default values if none is provided.
+These default values will be replaced when a new value is set to the field.
 
 #### Example
 
@@ -103,4 +104,89 @@ func main(){
 }
 ```
 
-These default values will be replaced when a new value is set to the field.
+There's another way to set default values.
+
+#### Example 2
+
+```go
+type Car struct {
+    brand string `default: "Tesla"`
+    year int `default: 2022`
+    mileage float64 `default: 1520.20`
+}
+```
+
+Not specifying a default value for a field, when initializing it, will set a value of 0 or empty strings.
+
+## Initializing Structs
+
+There are two ways to initialize a struct in Go. With the `var` keyword or a `literal value`.
+
+### Example - var keyword
+
+```go
+type Car struct {
+    brand string
+    year int
+    mileage float64
+}
+
+func main() {
+
+    var grandmaCar = Car
+    grandmaCar.brand = "Toyota"
+    grandmaCar.year = 1993
+    grandmaCar.mileage = 251200.84
+
+}
+```
+
+This approach is useful when you want to initialize the fields individually.
+
+### Example - literal value
+
+```go
+func main() {
+
+    dadsCar := Car{
+       brand: "Range Rover",
+       year: 2022,
+       mileage: 10005.25
+       }
+}
+```
+
+This way of initializing is handy to initialize the struct with all the field values at once.
+
+## Adding a method
+
+Methods are added outside the struct. For that, a receiver function is needed which will have a reference to the struct,
+to allow it to operate on the structs' data. The receiver, the struct itself, is a parameter that provides access to its own fields.
+
+### Example
+
+```codebyte/golang
+package main
+import "fmt"
+
+type Car struct {
+    brand string
+    year int
+    mileage float64
+}
+
+func (myCar Car) Drive() {
+   fmt.Println("I am driving my car.")
+}
+
+func main() {
+    myCar := Car{
+      brand: "BMW",
+      year: 2010,
+      mileage: 15000}
+
+  myCar.Drive()
+}
+```
+
+In the example above, the function Drive() takes the Car struct as their receiver, and on the main function, the method is invoked using dot notation printing on the console `I am driving my car.`
