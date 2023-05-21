@@ -25,7 +25,7 @@ Install the newest version with `npm`:
 npm install react-router-dom@latest
 ```
 
-The newest version of React Router is [v6](https://reactrouter.com/docs/en/v6/getting-started/overview), which comes with many breaking changes including:
+The newest version of React Router is [v6](https://reactrouter.com/en/6.10.0/start/overview), which comes with many breaking changes including:
 
 - Using a `<Routes />` component instead of a `<Switch />` component for `<Route />` configuration.
 - Using the `element` attribute instead of `component` when passing a JSX to a `<Link />`.

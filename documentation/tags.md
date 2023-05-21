@@ -19,6 +19,7 @@ Arguments
 Arithmetic
 Arrays
 ASP.NET
+Assignment
 Asymptotic Notation
 Async Await
 Attributes
@@ -40,6 +41,7 @@ Bootstrap
 Borders
 Box Model
 Box Plot
+Break
 Browser Compatibility
 Browsers
 Bubble Sort
@@ -51,6 +53,7 @@ Cryptocurrency
 Classes
 Cloud Computing
 Code Editors
+Conditionals
 Collections
 Colors
 Combinators
@@ -66,6 +69,7 @@ Concatenation
 Conceptual
 Const
 Constructors
+Continue
 Control Flow
 CRUD
 CSV
@@ -102,6 +106,8 @@ Else
 Encapsulation
 Encoding
 Enum
+Environment Variables
+Equality
 Error Handling
 Errors
 ES6
@@ -119,6 +125,7 @@ Flexbox
 Flutter
 Fonts
 For
+ForEach
 Foreign Key
 Form
 Formatting
@@ -217,6 +224,7 @@ Physics
 Pointers
 Positioning
 PostgreSQL
+Precedence
 Primary Key
 Print
 Probability
@@ -291,6 +299,7 @@ Type Guard
 Type Narrowing
 Typography
 UI
+Unary
 Union
 Unicode
 Units
