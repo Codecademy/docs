@@ -1,6 +1,6 @@
 ---
 Title: 'setTimeout()'
-Description: 'Allows users to execute callbacks after a period of time expressed in milliseconds'
+Description: 'Allows users to execute callbacks after a period of time expressed in milliseconds.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
