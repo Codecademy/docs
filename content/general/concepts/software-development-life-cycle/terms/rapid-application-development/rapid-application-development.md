@@ -1,13 +1,13 @@
 ---
 Title: 'Rapid Application Development (RAD)'
-Description: 'Rapid Application Development (RAD) is a software development methodology that emphasizes quick prototyping and iterative development to meet the requirements of a project.'  
+Description: 'Rapid Application Development (RAD) is a software development methodology that emphasizes quick prototyping and iterative development to meet the requirements of a project.'
 Subjects:
   - 'Mobile Development'
-  - 'Web Development'  
+  - 'Web Development'
 Tags:
   - 'Documentation'
   - 'Best Practices'
-  - 'Development'  
+  - 'Development'
 CatalogContent:
   - 'introduction-to-open-source'
   - 'paths/computer-science'
