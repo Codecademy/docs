@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `str_shuffle()` function randomly shuffles a string. It generates a different order of characters each time it is called.
+The **`str_shuffle()`** function randomly shuffles a string. It generates a different order of characters each time it is called.
 
 ## Syntax
 
