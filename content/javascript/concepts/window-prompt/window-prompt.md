@@ -19,7 +19,7 @@ CatalogContent:
 
 **`prompt()`** expects 1 to 2 parameters, the first one display the title of the dialog, and the second is used for default value that can also be optional and it is used in case that the user does not input any data, otherwise would be null.
 
-The provided sample code contains some examples of how `setTimeout()` is composed:
+The provided sample code contains some examples of how `prompt()` is composed:
 
 ```pseudo
 prompt()
