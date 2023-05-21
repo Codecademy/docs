@@ -27,10 +27,8 @@ struct Tap: View {
             .onTapGesture {
                 print("View Tapped") 
             }
-        
     }
 }
-
 ```
 
 The output looks like:
