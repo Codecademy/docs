@@ -45,4 +45,4 @@ The output will be:
 | 3        | 30            | 2        | 60          |
 | 4        | 10            | 1        | 10          |
 
-This is a simple but practical example of math functions in SQL.
+This is a practical example of math functions in SQL.
