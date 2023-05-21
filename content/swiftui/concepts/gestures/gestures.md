@@ -1,19 +1,19 @@
 ---
-Title: 'Gestures' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'Defines interactions from taps, clicks, and swipes to fine-grained gestures.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
-Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
+Title: 'Gestures' 
+Description: 'Defines interactions from taps, clicks, and swipes to fine-grained gestures.' 
+Subjects: 
   - 'iOS'
   - 'Mobile Development'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
+Tags:
   - 'SwiftUI ViewModifiers'
   - 'SwiftUI'
   - 'iOS'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+CatalogContent: 
   - 'learn-iOS-course'
   - 'path/iOS-path'
 ---
 
-Views can respond to taps, drags, pinches and other gestures just by adding **Gesture** modifiers to your View.
+`Views` can respond to taps, drags, pinches and other gestures just by adding **Gesture** modifiers to the view.
 
 ## Tap Gestures
 
