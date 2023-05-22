@@ -27,3 +27,5 @@ commit   f5b5bd8f9eaa443d4020cbe918x742e7ddd22000
 Author : John Doe <John.Doe@mail.com>
 Date: Mon May 22 14:21:03 2023 -0400.
 ```
+
+The example log above shows the different elements that make up a commit, but the most useful is the git hash (f5b5bd8f9eaa443d4020cbe918x742e7ddd22000), which can be used to revert our commit changes using the git revert command.
