@@ -7,8 +7,8 @@ Tags:
   - "SwiftUI" 
   - "iOS"
 CatalogContent: 
-  - "learn-swift"
-  - "paths/ios-developer"
+  - 'learn-swift'
+  - 'paths/ios-developer'
 ---
 
 # SwiftUI Lists
