@@ -26,5 +26,4 @@ On current branch
 commit (commit hash unique number), example: f5b5bd8f9eaa443d4020cbe918x742e7ddd22000
 Author : Author's name.
 Date: date when changes were commited to the project.
-
 ```
