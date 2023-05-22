@@ -1,6 +1,6 @@
 ---
 Title: 'clearInterval'
-Description: 'cancels a timer previously stablished by setInterval()'
+Description: 'Cancels a timer previously stablished by setInterval().'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
