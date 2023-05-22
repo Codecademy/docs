@@ -31,12 +31,11 @@ prompt(message, defaultValue)
 
 ## Example
 
+In the following code sample, the browser will automatically stop any running Javascript code until the user clicks on the `OK` button or `cancel` button. If the user clicks on cancel button 'Chihuahuas' will be printed out.
+
 ```shell
 const dog = prompt('What\'s your favorite dog?', 'Chihuahuas');
 
-// The browser will automatically stop any running Javascript code until the user clicks on the `OK` button or `cancel` button.
-
 console.log(`I really love ${dog}!`);
 
-// If the user clicks on cancel button 'Chihuahuas' will be printed out.
 ```
