@@ -12,7 +12,7 @@ CatalogContent:
   - 'learn-git'
 ---
 
-The git `log` command is used to track the commit history of a project's repository. After running, it will display project-related information, such as a detailed commit history, which can be used to go back in time to a previous version of the project.
+In Git, the **`log`** command is used to track a [branch's](https://www.codecademy.com/resources/docs/git/branch) commit history. After running, it will display project-related information, such as a detailed commit history, which can be used as a reference to go back in time to a previous version of the project.
 
 ## Example
 
