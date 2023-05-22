@@ -75,7 +75,8 @@ A string will be printed in the console after pressing the text view for 2 secon
 
 The `gesture()` modifier is used for more advanced and customizable gestures, with one of the gesture `struct`s like: `DragGesture()`, `LongPressGesture()`, `MagnificationGesture()`, `RotationGesture()`, and `TapGesture()`. These all have special modifiers, usually `.onEnded()` and `.onChanged() `, and they can be used to take action when the gestures are in-flight (for `.onChanged()`) or completed (for `.onEnded()`).
 
-As an example, a magnification gesture could be attached to a view so that pinching in and out scales the view up and down. This can be done by creating two `@State` properties to store the scale amount, using that inside a `scaleEffect()` modifier, then setting those values in the gesture, like this:
+In the example below, a magnification gesture could be attached to a view so that pinching in and out scales the view up and down. This can be done by creating two `@State` properties to store the scale amount, using that inside a `.scaleEffect()` modifier, then setting those values in the gesture:
+
 
 ```Swift
 struct ContentView: View {
