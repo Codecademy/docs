@@ -68,7 +68,7 @@ Hello World from Codecademy
 
 ## Codebyte Example
 
-[Codebyte](https://help.codecademy.com/hc/en-us/articles/1260806285369-Codebytes) is way to easily write, share, and edit executable code blocks directly in the Codecademy.
+In the following code example, `setTimeout()` is used to call the `sayHello()` function after 3 seconds.
 
 ```shell
 // Defining the function
