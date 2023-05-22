@@ -47,3 +47,5 @@ The output will be:
 | 1              | 5.7           |
 | 2              | 18.5          |
 | 3              | 30.2          |
+
+**Note:** `ABS()` is compatible with various SQL database systems such as MySQL, PostgreSQL, Oracle, and SQL Server.
