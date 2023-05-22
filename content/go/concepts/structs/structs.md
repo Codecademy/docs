@@ -22,7 +22,7 @@ making it easy to access and store all the related data without cluttering up th
 
 ## Syntax
 
-To declare a struct in Go, it's used the `type` and `struct` keywords. Inside we declare as many data fields as needed with
+To declare a struct in Go, use the `type` and `struct` keywords. Inside is declared as many data fields as needed with
 their corresponding data type.
 
 ```pseudo
@@ -48,11 +48,9 @@ In this particular example, both members have the same data type, but it's not m
 
 ## Setting values
 
-### Using dot notation
+### Using Dot Notation
 
 In Go, there are a few ways to set values on a struct. One of them is setting each value individually by using dot notation.
-
-#### Example
 
 ```go
 type Car struct {
@@ -69,22 +67,20 @@ func main(){
 }
 ```
 
-In the example above, a Car struct is defined and in the main function, the values are set using the dot notation.
+In the example above, a Car struct is defined. In the main function, the values are set using the dot notation.
 This method is used to access and modify the fields of a struct. To set the value of a field, use the `.` operator followed
 by the name of the field to modify, and then assign the desired value.
 
 This way of setting values is very intuitive and convenient. However, for initializations more complex, is best to consider
 other options.
 
-### Using default values
+### Using Default Values
 
 This is a way of initializing struct fields to default values, rather than explicitly setting each one to its value every
 time a new instance of that struct is created.
 To use this method, a constructor function is defined. This will create a new instance of the struct and will set its
 default values if none is provided.
 These default values will be replaced when a new value is set to the field.
-
-#### Example
 
 ```go
 func NewCar(brand string, year int, mileage float64) *myCar {
@@ -106,8 +102,6 @@ func main(){
 
 There's another way to set default values.
 
-#### Example 2
-
 ```go
 type Car struct {
     brand string `default: "Tesla"`
@@ -122,7 +116,7 @@ Not specifying a default value for a field, when initializing it, will set a val
 
 There are two ways to initialize a struct in Go. With the `var` keyword or a `literal value`.
 
-### Example - var keyword
+### Using the `var` keyword
 
 ```go
 type Car struct {
@@ -143,7 +137,7 @@ func main() {
 
 This approach is useful when you want to initialize the fields individually.
 
-### Example - literal value
+### Using a Literal Value
 
 ```go
 func main() {
@@ -158,12 +152,10 @@ func main() {
 
 This way of initializing is handy to initialize the struct with all the field values at once.
 
-## Adding a method
+## Adding a Method
 
 Methods are added outside the struct. For that, a receiver function is needed which will have a reference to the struct,
 to allow it to operate on the structs' data. The receiver, the struct itself, is a parameter that provides access to its own fields.
-
-### Example
 
 ```codebyte/golang
 package main
