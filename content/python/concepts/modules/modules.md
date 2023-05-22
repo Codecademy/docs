@@ -73,7 +73,7 @@ Python has a very broad selection of third-party modules that are devoted to par
 
 These are third-party Python modules that have topic entries:
 
-- [NumPy](https://www.codecademy.com/resources/docs/numpy): a popular open-source Python library used for complex mathematical operations and multi-dimensional [arrays](https://www.codecademy.com/resources/docs/general/data-types/array).
+- [NumPy](https://www.codecademy.com/resources/docs/numpy): a popular open-source Python library used for complex mathematical operations and multi-dimensional [arrays](https://www.codecademy.com/resources/docs/general/data-structures/array).
 - [Pandas](https://www.codecademy.com/resources/docs/pandas): a popular open-source Python module used for data analysis and manipulation.
 
 Below is a selection of other third-party modules of note:
