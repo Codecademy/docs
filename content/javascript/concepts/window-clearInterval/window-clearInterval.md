@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**`clearInterval`** is a window method used to shut down the loop-calling process of a **setInterval()** execution when this has been called and must be stopped or aborted it.
+**`clearInterval()`** is a window method used to shut down the loop-calling process of a `setInterval()` execution when it must be stopped or aborted.
 
 ## Syntax
 
