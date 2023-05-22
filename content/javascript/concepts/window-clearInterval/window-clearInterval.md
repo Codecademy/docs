@@ -33,10 +33,7 @@ The following sample shows the usage of `clearInterval()` by canceling a previou
 let firstInterval = setInterval(firstTimer, 2000);
 
 function firstTimer() {
-  document.body.innerHTML = "Hello world from Javascript";
-}
-
-function stopTimer() {
+  document.body.innerHTML = 'Hello world from Javascript';
   clearInterval(firstInterval);
 }
 ```
