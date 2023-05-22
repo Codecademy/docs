@@ -67,10 +67,9 @@ struct Tap: View {
     }
 }
 ```
-The output looks like:
+A string will be printed in the console after pressing the text view for 2 seconds. On Xcode, this will display:
 
 ![This is a gif that shows the effect of using LongPressGesture in Xcode simulation](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-longgesture-example.gif)
-
 
 ## Advanced Gestures
 
