@@ -25,7 +25,7 @@ FROM table_name;
 
 ## Example
 
-In this example the following data is given:
+In this example, the following data is given in the `transactions` table:
 
 | temperature_id | temperature |
 | -------------- | ----------- |
