@@ -29,7 +29,7 @@ clearInterval(intervalID)
 
 The following sample shows the usage of `clearInterval()` by canceling a previously added `setInterval()` to a function.
 
-```shell
+```js
 let firstInterval = setInterval(firstTimer, 2000);
 
 function firstTimer() {
