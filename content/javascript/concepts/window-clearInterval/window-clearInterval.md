@@ -1,5 +1,5 @@
 ---
-Title: 'clearInterval'
+Title: 'clearInterval()'
 Description: 'Cancels a timer previously stablished by setInterval().'
 Subjects:
   - 'Web Development'
