@@ -27,6 +27,8 @@ clearInterval(intervalID)
 
 ## Example
 
+The following sample shows the usage of `clearInterval()` by canceling a previously added `setInterval()` to a function.
+
 ```shell
 let firstInterval = setInterval(firstTimer, 2000);
 
