@@ -17,7 +17,7 @@ CatalogContent:
 
 ## Syntax
 
-**`prompt()`** expects 1 to 2 parameters, the first one display the title of the dialog, and the second is used for default value that can also be optional and it is used in case that the user does not input any data, otherwise would be null.
+`prompt()` expects 1 to 2 parameters. The first one is used to display the title of the dialog. The second is used for an optional default value used in case the user does not input any data, otherwise `prompt()` returns null.
 
 The provided sample code contains some examples of how `prompt()` is composed:
 
