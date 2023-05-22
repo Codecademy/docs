@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**`prompt()`** is a method serviced globally by the window object provided by the user's browser.
+The **`prompt()`** method is serviced globally by the `window` object provided by the user's browser. It displays a dialog with an optional message asking users to input some text.
 
 ## Syntax
 
