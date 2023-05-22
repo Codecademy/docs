@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**`setTimeout()`** is a function serviced globally by the window object provided by the user's browser.
+**`setTimeout()`** is a function serviced globally by the window object provided by the user's browser. It allows users to execute callbacks after a period of time expressed in milliseconds.
 
 ## Syntax
 
