@@ -99,7 +99,8 @@ struct ContentView: View {
     }
 }
 ```
-The output looks like:
+
+This will display on Xcode:
 
 ![This is a gif that shows the effect of using MagnificationGesture in Xcode simulation](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-magnificationgesture-example.gif)
 
