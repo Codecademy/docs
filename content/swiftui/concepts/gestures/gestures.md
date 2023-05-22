@@ -1,6 +1,6 @@
 ---
 Title: 'Gestures' 
-Description: 'Gestures are view modifier's used to make the view respond to taps, clicks, and swipes to fine-grained gestures.' 
+Description: 'Gestures are view modifiers used to make the view respond to taps, clicks, and swipes to fine-grained gestures.' 
 Subjects: 
   - 'iOS'
   - 'Mobile Development'
