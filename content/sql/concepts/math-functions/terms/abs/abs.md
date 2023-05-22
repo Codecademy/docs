@@ -14,8 +14,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-The `ABS()` function in SQL returns the absolute value of a given number.
-That means, It effectively converts negative numbers to positive numbers, and leaves positive numbers unchanged.
+The `ABS()` function in SQL returns the absolute value of a given number. That means, it effectively converts negative numbers to positive numbers, and leaves positive numbers unchanged.
 
 ## Syntax
 
