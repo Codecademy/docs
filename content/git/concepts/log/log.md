@@ -16,7 +16,7 @@ The git `log` command is used to track the commit history of a project's reposit
 
 ## Example
 
-Below is a short example of how the `git log` command works. By running `git log` will show a list of all previous commit on current [branch](https://www.codecademy.com/resources/docs/git/branch):
+Below is a short example of how the `git log` command works. Running `git log` will show a list of all previous commits on the current branch:
 
 ```shell
 $ git log
