@@ -1,6 +1,6 @@
 ---
 Title: 'Gestures' 
-Description: 'Defines interactions from taps, clicks, and swipes to fine-grained gestures.' 
+Description: 'Gestures are view modifiers used to make the view respond to taps, clicks, and swipes to fine-grained gestures.' 
 Subjects: 
   - 'iOS'
   - 'Mobile Development'
@@ -13,12 +13,11 @@ CatalogContent:
   - 'path/iOS-path'
 ---
 
-`Views` can respond to taps, drags, pinches and other gestures just by adding **Gesture** modifiers to the view.
+Gestures are view modifier used to make the view respond to taps, drags, pinches and other gestures just by adding **Gesture** modifiers to the view.
 
 ## Tap Gestures
 
-This is the most basic type of Gesture.
-The `.onTapGesture()` modifier can be called on the view desired to track the gesture on.
+This is the most basic type of Gesture. The `.onTapGesture()` modifier can be called on the view desired to track the gesture on.
 
 ```Swift
 struct Tap: View {
