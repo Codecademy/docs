@@ -68,6 +68,8 @@ Hello World from Codecademy
 
 ## Codebyte Example
 
+[Codebyte](https://help.codecademy.com/hc/en-us/articles/1260806285369-Codebytes) is way to easily write, share, and edit executable code blocks directly in the Codecademy.
+
 ```shell
 // Defining the function
 function sayHello(a, b) {
