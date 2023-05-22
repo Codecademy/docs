@@ -36,6 +36,7 @@ The output looks like:
 ![This is a gif that shows the effect of using TapGesture in Xcode simulation](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-tapgesture-example.gif)
 
 Every time the text view "Hello, World" is tapped, it prints "View Tapped" in the console.
+
 The action can also be implemented after certain amount of tap gestures. For example:
 
 ```Swift
