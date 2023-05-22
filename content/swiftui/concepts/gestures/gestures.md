@@ -45,7 +45,6 @@ struct Tap: View {
             .onTapGesture(count: 3) {
                 print("View Tapped") 
             }
-        
     }
 }
 ```
