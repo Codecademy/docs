@@ -31,7 +31,7 @@ setTimeout(callback, delay, param)
 
 ## Example 1
 
-The following piece of code will shows an example of the `setTimeout()` implementation:
+The following example shows an example of the `setTimeout()` implementation:
 
 ```shell
 // Defining the function
