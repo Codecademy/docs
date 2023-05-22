@@ -17,7 +17,7 @@ CatalogContent:
 
 ## Syntax
 
-**`clearInterval`** receives a parameter called intervalId which is returned from the previously created `setInterval()` timer.
+`clearInterval()` receives a parameter called `intervalId` which is returned from the previously created `setInterval()` timer.
 
 The provided sample code contains some examples of how `clearInterval` is composed:
 
