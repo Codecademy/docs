@@ -52,7 +52,7 @@ Both single line and multi line comments or strings can be written in Python usi
 For example, if we are using " " marks in our sentence then the comment should be made by using single or triple quote.
 
                                       ''' I am writing a comment that uses double quote.
-                                            Ram said " I will not come."
+    Ram said, "I will not come."
                                             '''
 
 ## Codebyte Example
