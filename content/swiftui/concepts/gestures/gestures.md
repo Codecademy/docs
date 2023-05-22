@@ -64,7 +64,6 @@ struct Tap: View {
             .onLongPressGesture(minimumDuration: 2) {
                 print("View Tapped")
             }
-        
     }
 }
 ```
