@@ -1,5 +1,5 @@
 ---
-Title: "SwiftUI lists" 
+Title: "Lists" 
 Description: "Building Lists in SwiftUI"
 Subjects:  
   - "iOS Development"
