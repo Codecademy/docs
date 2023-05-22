@@ -104,7 +104,8 @@ This will display on Xcode:
 
 ![This is a gif that shows the effect of using MagnificationGesture in Xcode simulation](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-magnificationgesture-example.gif)
 
-There is a problem with the code above, because the text view didn't return to it's normal state, this can result in a bad user experience. So to fix this problem the `currentAmount` property will be assigned to zero in the `.onEnded()` modifier, so the text view will return to it's normal size after completing the gesture: 
+There is a problem with the code above, because the text view didn't return to its normal state, which can result in a bad user experience. To fix this problem, the `currentAmount` property will be assigned to zero in the `.onEnded()` modifier, so the text view will return to its normal size after completing the gesture: 
+
 
 ```Swift
 struct Tap: View {
