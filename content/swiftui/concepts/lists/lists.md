@@ -1,11 +1,11 @@
 ---
-Title: "Lists" 
-Description: "In SwiftUI, lists are single-column containers that vertically display a collection of items."
+Title: 'Lists'
+Description: 'In SwiftUI, lists are single-column containers that vertically display a collection of items.'
 Subjects:  
-  - "iOS Development"
+  - 'iOS Development'
 Tags:
-  - "SwiftUI" 
-  - "iOS"
+  - 'SwiftUI'
+  - 'iOS'
 CatalogContent: 
   - 'learn-swift'
   - 'paths/ios-developer'
