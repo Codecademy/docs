@@ -71,7 +71,6 @@ The output looks like:
 
 ![This is a gif that shows the effect of using LongPressGesture in Xcode simulation](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-longgesture-example.gif)
 
- "Long pressed!" was be printed in the console after pressing the text view for 2 seconds.
 
 ## Advanced Gestures
 
