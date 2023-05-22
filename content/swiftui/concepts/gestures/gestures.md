@@ -122,7 +122,8 @@ struct Tap: View {
                             currentAmount = amount - 1
                         }
                         .onEnded { amount in
-                            withAnimation(.spring()){
+                            withAnimation(.spring()) {
+
                                 currentAmount = 0
                             }
                         }
