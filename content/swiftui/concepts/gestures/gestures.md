@@ -55,7 +55,7 @@ In this example it prints "View Tapped" after taping the text view three times.
 
 ## Long Press Gestures
 
-`onLongPressGesture()` it's used for handling long presses gesture. `onLongPressGesture()` have an extra parameter called `minimumDuration:` (takes Double as input), it's used to specify after how much time the action will be executed. For example:
+`.onLongPressGesture()` is used for handling long press gestures. `.onLongPressGesture()` has an extra parameter called `minimumDuration` which takes a double as the input value. It's used to specify how much time will elapse before an action is executed. For example:
 
 ```Swift
 struct Tap: View {
