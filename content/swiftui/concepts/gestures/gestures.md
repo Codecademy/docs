@@ -131,7 +131,8 @@ struct Tap: View {
         }
 }
 ```
-The output looks like:
+
+This will display on Xcode:
 
 ![This is a gif that shows the effect of using MagnificationGesture with Spring animation in Xcode simulation](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-magnficationgesture-example-with-animation.gif)
 
