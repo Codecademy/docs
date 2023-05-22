@@ -1,6 +1,6 @@
 ---
 Title: 'prompt()'
-Description: 'Displays a dialog with an optional message asking users to input some text'
+Description: 'Displays a dialog with an optional message asking users to input some text.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
