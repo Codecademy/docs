@@ -1,6 +1,6 @@
 ---
 Title: 'Log'
-Description: 'The git log command is used to track the commit history of a project's repository.'
+Description: 'The git log command is used to track the commit history of a project repository.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
