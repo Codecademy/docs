@@ -53,7 +53,14 @@ Although phishing emails or messages can be very decisive, certain characteristi
 
 ## Phishing Prevention
 
-Phishing attacks continuously evolve; there will be no chance of avoiding them. Therefore it is crucial to be aware of the current techniques and stay alert. The following tools are here to support users in reducing the risk of getting phished:
+As phishing attacks continuously evolve, it is important to be prepared to prevent them. The following best practices can help to reduce the risk of phishing attacks:
+
+- Awareness and continued education on phishing techniques
+- Staying alert and being cautious before taking actions (e.g. clicking links or providing information)
+- Regularly installing software updates
+- Frequently changing passwords
+
+The following tools can support users in phishing prevention:
 
 - Spam filters,
 - Antivirus and anti-malware software,
