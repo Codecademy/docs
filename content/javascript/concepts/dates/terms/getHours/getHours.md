@@ -46,5 +46,5 @@ The example below is runnable, and first, it defines `currentTime` with today's 
 const currentTime = new Date();
 const currentHour = currentTime.getHours();
 
-console.log("The current hour of the day is: " + currentHour);
+console.log("The current hour is: " + currentHour);
 ```
