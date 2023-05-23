@@ -33,7 +33,7 @@ setTimeout(callback, delay, param)
 
 The following example uses the `setTimeout()` function to set a timer to execute the `sayHello()` function:
 
-```shell
+```js
 // Defining the function
 function sayHello() {
   console.log('Hello from Codecademy');
