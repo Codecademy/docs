@@ -38,7 +38,7 @@ Phishing can happen through any communication channel, and usually, the attacker
 
 ## Signs of Phishing
 
-Although phishing emails or messages can be very decisive, certain characteristics of phishing can help identify fraudulent content. These characteristics are:
+Although phishing emails or messages can be persuasive and take many forms, they often share certain characteristics that can help identify fraudulent content. These characteristics are:
 
 - Unusual or unknown sender,
 - Generic greeting,
