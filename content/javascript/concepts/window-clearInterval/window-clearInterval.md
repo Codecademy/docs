@@ -36,4 +36,8 @@ function firstTimer() {
   document.body.innerHTML = 'Hello world from Javascript';
   clearInterval(firstInterval);
 }
+
+firstTimer();
 ```
+
+In the example above, a 2-second interval is added using `setInterval()`, but in the function call, `clearInterval()` cancels it.
