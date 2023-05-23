@@ -19,7 +19,7 @@ The **`prompt()`** method is serviced globally by the `window` object provided b
 
 `prompt()` expects 1 to 2 parameters. The first one is used to display the title of the dialog. The second is used for an optional default value used in case the user does not input any data, otherwise `prompt()` returns null.
 
-Below shows some examples of how `prompt()` is composed:
+Below are examples of how `prompt()` can be composed:
 
 ```pseudo
 prompt()
