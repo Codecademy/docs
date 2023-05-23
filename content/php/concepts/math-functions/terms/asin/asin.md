@@ -26,10 +26,9 @@ The `asin()` function takes only one parameter, `number`, a number between -1 an
 
 If the `number` is outside of the range of -1 to 1, the function returns `NAN` (not a number).
 
-
 ## Codebyte Examples
 
-The codebyte example below uses the `asin()` function to return the arc sine of the `2` and `-1`:
+The codebyte example below uses the `asin()` function to return the arc sine of `2` and `-1`:
 
 ```codebyte/php
 <?php
