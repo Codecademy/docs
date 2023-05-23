@@ -45,7 +45,7 @@ setTimeout(sayHello, 4000);
 
 The output will be displayed after 4 seconds:
 
-```output
+```shell
 Hello from Codecademy
 ```
 
