@@ -16,7 +16,7 @@ The **`.getDate()`** method returns the day of the month.
 
 ## Syntax
 
-```js
+```shell
 myDate.getDate();
 ```
 
