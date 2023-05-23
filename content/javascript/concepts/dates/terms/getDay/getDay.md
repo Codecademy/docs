@@ -48,7 +48,7 @@ if (today.getDay() === 5) {
 
 ## Codebyte Example
 
-The example below is runnable, and first, it defines a variable called `today` with a new `Date` of today's date, then uses the `getDay()` method to store the weekday from that date into a variable called `weekDay`. Then `console.log` prints the number representing that day of the week to the screen:
+The example below is runnable, and first, it defines `today` with today's date, then the result of the `.getDay()` method is assigned to `weekDay`. Finally, a `console.log` call prints the value to the screen:
 
 ```codebyte/javascript
 const today = new Date();
