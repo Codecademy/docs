@@ -42,6 +42,7 @@ Bootstrap
 Borders
 Box Model
 Box Plot
+Brain Activity
 Browser Compatibility
 Browsers
 Bubble Sort
