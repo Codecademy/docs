@@ -1,6 +1,6 @@
 ---
 Title: 'POWER()'
-Description: 'Calculates the power of a number.'
+Description: 'Returns the value of a number raised to the power of another number.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
