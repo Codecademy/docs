@@ -16,7 +16,7 @@ The **`.getHours()`** method returns the hours of a date according to the local 
 
 ## Syntax
 
-```js
+```shell
 myDate.getHours();
 ```
 
