@@ -53,9 +53,9 @@ The `PrintArray` method can be used to print the array before and after clearing
 ```codebyte/csharp
 using System;
 
-class Program
+public class ClearExample
 {
-    static void Main()
+    public static void Main()
     {
         int[] numbers = { 1, 2, 3, 4, 5 };
 
