@@ -20,11 +20,11 @@ Called from an instance of the `Date` class, will return the day of the week.
 myDate.getDay();
 ```
 
-The return value of `getDay()` will only be an integer number between `0` and `6`:
+The return value of `getDay()` is an integer number between `0` and `6`:
 
 - `0` meaning Sunday
 - `1` meaning Monday
-- `2` meaning Tueseday
+- `2` meaning Tuesday
 - `3` meaning Wednesday
 - `4` meaning Thursday
 - `5` meaning Friday
@@ -44,4 +44,15 @@ if (today.getDay() === 5) {
 }
 
 // Output: It is Friday, let's have a coffee later!
+```
+
+## Codebyte Example
+
+The example below is runnable, and first, it defines a variable called `today` with a new `Date` of today's date, then uses the `getDay()` method to store the weekday from that date into a variable called `weekDay`. Then `console.log` prints the number representing that day of the week to the screen:
+
+```codebyte/javascript
+const today = new Date();
+const weekDay = today.getDay();
+
+console.log(weekDay);
 ```

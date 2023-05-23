@@ -40,7 +40,7 @@ if (today.getDate() < 10) {
 
 ## Codebyte Example
 
-The example below first defines a variable `myDate` with a new `Date`, then uses the `getDate()` method to store the day from that date into a variable called `payDay`. Then `console.log` prints this day to the screen:
+The example below is runnable, and first, it defines a variable `myDate` with a new `Date`, then uses the `getDate()` method to store the day from that date into a variable called `payDay`. Then `console.log` prints this day to the screen:
 
 ```codebyte/javascript
 const myDate = new Date("May 25, 2023 15:15:00");
