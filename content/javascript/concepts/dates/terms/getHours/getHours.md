@@ -1,6 +1,6 @@
 ---
 Title: '.getHours()'
-Description: 'Called from an instance of the Date class, will return the hour according to the local time.'
+Description: 'Returns the hours of a date according to the local time.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Called from an instance of the `Date` class, will return the hour according to the local time.
+The **`.getHours()`** method returns the hours of a date according to the local time.
 
 ## Syntax
 

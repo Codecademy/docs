@@ -1,6 +1,6 @@
 ---
 Title: '.getDay()'
-Description: 'Called from an instance of the Date class, will return the day of the week.'
+Description: 'Returns the day of the week.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Called from an instance of the `Date` class, will return the day of the week.
+The **`.getDay()`** method returns the day of the week.
 
 ## Syntax
 

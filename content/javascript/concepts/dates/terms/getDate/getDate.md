@@ -1,6 +1,6 @@
 ---
 Title: '.getDate()'
-Description: 'Called from an instance of the Date class, will return the date of the month. All return values will be integers between 1 and 31.'
+Description: 'Returns the day of the month.
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Called from an instance of the `Date` class, will return the date of the month.
+The **`.getDate()`** method returns the day of the month.
 
 ## Syntax
 
@@ -20,7 +20,7 @@ Called from an instance of the `Date` class, will return the date of the month.
 myDate.getDate();
 ```
 
-The return value of `getDate()` is an integer number between `1` and `31` representing a day of a month.
+The return value of `getDate()` is an integer number between `1` and `31` representing the day of a month.
 
 ## Example
 
@@ -40,7 +40,7 @@ if (today.getDate() < 10) {
 
 ## Codebyte Example
 
-The example below is runnable, and first, it defines a variable `myDate` with a new `Date`, then uses the `getDate()` method to store the day from that date into a variable called `payDay`. Then `console.log` prints this day to the screen:
+The example below is runnable, and first, it defines a variable `myDate` with a given new `Date`, then uses the `getDate()` method to store the day from that date into a variable called `payDay`. Then `console.log` prints this day to the screen:
 
 ```codebyte/javascript
 const myDate = new Date("May 25, 2023 15:15:00");
