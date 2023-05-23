@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-The `POWER()` function in SQL is a mathematical function that calculates the power of a number. It is compatible with various SQL database systems such as MySQL, PostgreSQL, Oracle, and SQL Server.
+The **`POWER()`** function in SQL is a mathematical function that returns the value of a number raised to the power of another number. It is compatible with various SQL database systems such as MySQL, PostgreSQL, Oracle, and SQL Server.
 
 ## Syntax
 
