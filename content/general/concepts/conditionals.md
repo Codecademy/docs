@@ -1,10 +1,28 @@
-## General Conditionals
+---
+Title: Conditionals
+Description: Conditionals in programming are statements that allow the execution of different blocks of code based on certain conditions. They enable programs to make decisions and perform different actions depending on whether a condition is true or false.
+Subjects: 
+  - 'Code Foundations'
+  - 'Computer Science'
+  - 'Interview Prep'
+Tags: 
+  - 'Conditionals'
+  - 'Control Flow'
+ 
+CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+  - 'path/code-foundations'
+  - 'path/computer-science'
+
+---
+
+**Conditionals** in programming are statements that allow the execution of different blocks of code based on certain conditions. They enable programs to make decisions and perform different actions depending on whether a condition is true or false.
 Many times we have to take a decision based on some conditions, for example, if we want to decide whether a person can vote or not, we need to check if the person is 18 years or older or not.
 
 Such decision-making is done with the help of conditionals.Besides, condtionals are also required for flow control.
 
 All the languages support conditonals in various ways, but majorly there are two main conditionals: 
 > if- else
+> 
 > switch
 
 ## If-else
@@ -105,3 +123,15 @@ For example a program that determines the day of the week based on a given numbe
           break
     }
 
+## Codebyte 
+
+We can currently support:
+
+- Python
+- JavaScript
+- Ruby
+- C++
+- C#
+- PHP
+- Java
+- C
