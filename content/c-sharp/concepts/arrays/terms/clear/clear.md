@@ -48,7 +48,7 @@ public class Example
 ## Codebyte Example
 
 This example creates an integer array `numbers` with some initial values. It then calls `.Clear()`, to clear the elements of the array.
-The `PrintArray()` method can be used to print the array before and after clearing it.
+The `PrintArray()` method is used to print the array before and after clearing it.
 
 ```codebyte/csharp
 using System;
