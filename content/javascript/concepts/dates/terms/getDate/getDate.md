@@ -20,7 +20,7 @@ The **`.getDate()`** method returns the day of the month.
 myDate.getDate();
 ```
 
-The return value of `getDate()` is an integer number between `1` and `31` representing the day of a month.
+The return value of `.getDate()` is an integer number between `1` and `31` representing the day of a month.
 
 ## Example
 
