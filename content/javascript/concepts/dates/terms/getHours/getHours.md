@@ -20,7 +20,7 @@ The **`.getHours()`** method returns the hours of a date according to the local 
 myDate.getHours();
 ```
 
-The return value of `getHours()` is an integer number between `0` and `23`, meaning the hour according to the local time.
+The return value of `.getHours()` is an integer number between `0` and `23`, meaning the hour according to the local time.
 
 ## Example
 
