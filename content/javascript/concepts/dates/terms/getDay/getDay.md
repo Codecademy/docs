@@ -16,7 +16,7 @@ The **`.getDay()`** method returns the day of the week.
 
 ## Syntax
 
-```js
+```shell
 myDate.getDay();
 ```
 
