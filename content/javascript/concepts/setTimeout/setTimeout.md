@@ -70,7 +70,7 @@ Hello World from Codecademy
 
 In the following code example, `setTimeout()` is used to call the `sayHello()` function after 3 seconds.
 
-```shell
+```codebyte/javascript
 // Defining the function
 function sayHello(a, b) {
   console.log('hello ' + a);
