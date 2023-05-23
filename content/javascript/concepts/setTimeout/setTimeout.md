@@ -53,7 +53,7 @@ Hello from Codecademy
 
 The following example uses [arrow functions](https://www.codecademy.com/resources/docs/javascript/arrow-functions). Instead of declaring the function using the keyword `function`, it is created using `() =>`.
 
-```shell
+```js
 // Defining the function
 setTimeout(() => {
   console.log('Hello World from Codecademy');
