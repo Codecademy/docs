@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/fundamentals-of-cybersecurity'
 ---
 
-**Phishing** is a form of fraud which aims to trick users into sharing sensitive information or personal data or downloading malware. Phishing can happen through many mediums, including emails, text messages, voice messages, phone calls, or social media. Phishing is one of the most common types of [cyber attacks](https://www.codecademy.com/resources/docs/cybersecurity/cyber-attack), and it relies on [social engineering](https://www.codecademy.com/resources/docs/cybersecurity/social-engineering) to defraud users.
+**Phishing** is a form of fraud which aims to trick users into sharing sensitive information or personal data or downloading [malware](https://www.codecademy.com/resources/docs/cybersecurity/malware). Phishing can happen through many mediums, including emails, text messages, voice messages, phone calls, or social media. Phishing is one of the most common types of [cyber attacks](https://www.codecademy.com/resources/docs/cybersecurity/cyber-attack), and it relies on [social engineering](https://www.codecademy.com/resources/docs/cybersecurity/social-engineering) to defraud users.
 
 ## Consequences of Phishing
 
