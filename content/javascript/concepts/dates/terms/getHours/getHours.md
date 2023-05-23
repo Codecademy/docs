@@ -20,7 +20,7 @@ Called from an instance of the `Date` class, will return the hour according to t
 myDate.getHours();
 ```
 
-The return value of `getHours()` will only be an integer number between `0` and `23`, meaning the hour according to the local time.
+The return value of `getHours()` is an integer number between `0` and `23`, meaning the hour according to the local time.
 
 ## Example
 
@@ -36,4 +36,15 @@ if (today.getHours() === 10) {
 }
 
 // Output: It is not 10 in the morning now.
+```
+
+## Codebyte Example
+
+The example below is runnable, and first, it defines a variable called `currentTime` with a new `Date` of today's date and time, then uses the `getHours()` method to store the hour from that date into a variable called `currentHour`. Then `console.log` prints the number representing that hour of the day to the screen:
+
+```codebyte/javascript
+const currentTime = new Date();
+const currentHour = currentTime.getHours();
+
+console.log("The current hour of the day is: " + currentHour);
 ```
