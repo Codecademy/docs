@@ -64,5 +64,5 @@ The following tools can support users in preventing phishing:
 
 - Spam filters,
 - Antivirus and anti-malware software,
-- Multi-factor authentication,
+- [Multi-factor authentication](https://www.codecademy.com/resources/docs/cybersecurity/multi-factor-authentication),
 - Web filters.
