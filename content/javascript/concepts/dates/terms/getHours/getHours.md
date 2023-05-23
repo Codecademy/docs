@@ -40,7 +40,7 @@ if (today.getHours() === 10) {
 
 ## Codebyte Example
 
-The example below is runnable, and first, it defines a variable called `currentTime` with a new `Date` of today's date and time, then uses the `getHours()` method to store the hour from that date into a variable called `currentHour`. Then `console.log` prints the number representing that hour of the day to the screen:
+The example below is runnable, and first, it defines `currentTime` with today's date and time, then the result of the `.getHours()`method is saved in `currentHour`. Lastly, a `console.log` call prints the value to the screen:
 
 ```codebyte/javascript
 const currentTime = new Date();
