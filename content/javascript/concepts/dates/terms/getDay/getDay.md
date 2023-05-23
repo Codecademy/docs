@@ -20,7 +20,7 @@ The **`.getDay()`** method returns the day of the week.
 myDate.getDay();
 ```
 
-The return value of `getDay()` is an integer number between `0` and `6`:
+The return value of `.getDay()` is an integer number between `0` and `6`:
 
 - `0` meaning Sunday
 - `1` meaning Monday
