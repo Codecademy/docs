@@ -18,7 +18,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-**Artificial neural networks (ANN)** A method in artificial intelligence which teaches computers to process data in a similar way that's inspired by the human brain. 
+**Artificial neural networks (ANN)** A method in artificial intelligence which teaches computers to process data in a similar way such as the human brain. 
 ## What Is An Artificial Neural Network (ANN)
 
 - An ANN a type of machine learning process, called deep learning, that uses interconnected nodes or neurons in a layered structure that resembles the human brain.
