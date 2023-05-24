@@ -40,7 +40,7 @@ public class Example
 
 ## Codebyte Example
 
-The following runnable code uses the `.Length()` function to print out the length of the `numbers` array:
+The following runnable code uses the `.Length` property to return the length of the `numbers` array:
 
 ```codebyte/csharp
 using System;
@@ -54,5 +54,4 @@ public class LengthExample
         Console.WriteLine(numbers.Length);
     }
 }
-
 ```

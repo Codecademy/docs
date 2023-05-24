@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.Clear()` method is used to clear the contents of an array, returning each element to its default value.
+The **`.Clear()`** method is used to clear the contents of an array, returning each element to its default value.
 
 ## Syntax
 
@@ -78,5 +78,4 @@ public class ClearExample
         Console.WriteLine();
     }
 }
-
 ```

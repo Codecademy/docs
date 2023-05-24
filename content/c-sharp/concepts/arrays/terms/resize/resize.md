@@ -121,6 +121,4 @@ public class ResizeExample
         Console.WriteLine(numbers.Length);
     }
 }
-
-
 ```
