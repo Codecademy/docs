@@ -35,7 +35,7 @@ In this example, the following data is given, in a table named `employees`:
 | 3           | 3025.10 |
 | 4           | 5040.50 |
 
-The `FLOOR()` function can be used to calculate the largest integer that is less than or equal to a given value:
+The `FLOOR()` function can be used to return the largest integer that is less than or equal to a given value:
 
 ```sql
 SELECT employee_id, FLOOR(salary) AS floored_salary
