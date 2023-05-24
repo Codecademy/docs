@@ -33,7 +33,7 @@ dstBegin: The index of the destination array.
 
 In the following example, `getChar()` converts an array into a new shorter array. It then prints the new array in the console 
 
-```class example{
+```class java
   public static void main(Strings args [])
   {
     string str = "Welcome to Texas";
@@ -43,7 +43,7 @@ In the following example, `getChar()` converts an array into a new shorter array
       System.out.println(newArray);
     }
      catch (Exception ex) {
-      System.out.pringln("The string is too short.")
+      System.out.println("The string is too short.");
     }
     
   }
