@@ -1,6 +1,6 @@
 ---
-Title: "getattr()"
-Description: "Returns the value of the named property in the specified object."
+Title: 'getattr()'
+Description: 'Returns the value of the named property in the specified object.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -23,9 +23,10 @@ The built-in **getattr()** function returns the value of the named property in a
 getattr(object, name, default)
 ```
 
-The `getattr()` method takes at least 2 parameters: 
+The `getattr()` method takes at least 2 parameters:
+
 - `object`, the given object
--  `name`, a string with the name of the attribute
+- `name`, a string with the name of the attribute
 - `default`, (optional) a value to be returned when the named attribute does not exist
 
 ## Examples
