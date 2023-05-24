@@ -1,6 +1,6 @@
 ---
 Title: '.getDate()'
-Description: 'Returns the day of the month.
+Description: 'Returns the day of the month.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
