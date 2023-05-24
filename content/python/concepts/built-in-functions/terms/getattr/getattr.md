@@ -2,38 +2,39 @@
 Title: "getattr()"
 Description: "Returns the value of the named property in the specified object."
 Subjects:
-  - "Computer Science"
-  - "Data Science"
+  - 'Computer Science'
+  - 'Data Science'
 Tags:
-  - "Functions"
-  - "Methods"
-  - "Objects"
-  - "Classes"
-  - "OOP"
+  - 'Functions'
+  - 'Methods'
+  - 'Objects'
+  - 'Classes'
+  - 'OOP'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/computer-science"
-  - "paths/data-science"
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
 The built-in **getattr()** function returns the value of the named property in a specified object/[Class](https://github.com/Codecademy/docs/blob/main/content/python/concepts/classes/classes.md).
 
 ## Syntax
 
-```py
+```shell
 getattr(object, name, default)
 ```
 
-The `getattr()` method takes at least 2 parameters: `object`, the object whose attribute we need to work with. `name`, a string with the name of the attribute.
-The `default` parameter is optional, it will be returned when the named attribute does not exist.
+The `getattr()` method takes at least 2 parameters: 
+- `object`, the given object
+-  `name`, a string with the name of the attribute
+- `default`, (optional) a value to be returned when the named attribute does not exist
 
-## Example
+## Examples
 
 ### Example 1
 
 ```py
 class Cat:
-    hobby = 'sleep'
+    hobby = 'sleeping'
     age = 2
 
 pet = Cat()
@@ -51,7 +52,7 @@ My cat is 2 years old.
 
 ```py
 class Cat:
-    hobby = 'sleep'
+    hobby = 'sleeping'
     age = 2
 
 pet = Cat()
@@ -72,7 +73,7 @@ AttributeError: 'Cat' object has no attribute 'love'
 
 ```py
 class Cat:
-    hobby = 'sleep'
+    hobby = 'sleeping'
     age = 2
 
 pet = Cat()
@@ -92,7 +93,7 @@ Use `getattr()` to get the value of the named property in a specified object/cla
 
 ```codebyte/python
 class Cat:
-    hobby = 'sleep'
+    hobby = 'sleeping'
     age = 2
 
 pet = Cat()
