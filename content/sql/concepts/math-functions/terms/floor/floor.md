@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-The SQL math function `FLOOR()` returns the largest integer that is less than or equal to a specified numeric value. It effectively rounds down a number to the nearest whole integer.
+The SQL math function **`FLOOR()`** returns the largest integer that is less than or equal to a specified numeric value. It effectively rounds down a number to the nearest whole integer.
 
 ## Syntax
 
