@@ -1,6 +1,6 @@
 ---
-Title: 'POWER()'
-Description: 'Returns the value of a number raised to the power of another number.'
+Title: 'FLOOR()'
+Description: 'Rounds down a number to the nearest whole integer.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
@@ -15,6 +15,15 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
+The SQL math function `FLOOR()` returns the largest integer that is less than or equal to a specified numeric value. It effectively rounds down a number to the nearest whole integer.
+
+## Syntax
+
+```sql
+SELECT FLOOR(number)
+FROM table_name;
+```
+
 ## Example
 
 In this example, the following data is given, in a table named `employees`:
@@ -26,7 +35,7 @@ In this example, the following data is given, in a table named `employees`:
 | 3           | 3025.10 |
 | 4           | 5040.50 |
 
-The `FLOOR()` math function can be used to calculate the largest integer that is less than or equal to a given value:
+The `FLOOR()` function can be used to calculate the largest integer that is less than or equal to a given value:
 
 ```sql
 SELECT employee_id, FLOOR(salary) AS floored_salary
