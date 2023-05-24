@@ -42,7 +42,7 @@ SELECT employee_id, FLOOR(salary) AS floored_salary
 FROM employees;
 ```
 
-In this SQL statement, the `salary` values are floored for each employee to calculate the `floored_salary`. The [`AS`](https://www.codecademy.com/resources/docs/sql/commands/as) keyword is used to rename the `FLOOR(salary)` column to `floored_salary` in the output.
+In this SQL statement, the `salary` values are floored for each employee to get the `floored_salary`. The [`AS`](https://www.codecademy.com/resources/docs/sql/commands/as) keyword is used to name the resulting column `floored_salary` in the output.
 
 The output will be:
 
