@@ -13,7 +13,6 @@ Anchor
 Android
 Angular
 Animation
-ANN
 Anonymous Functions
 APIs
 Arguments
@@ -42,7 +41,7 @@ Bootstrap
 Borders
 Box Model
 Box Plot
-Brain Activity
+Break
 Browser Compatibility
 Browsers
 Bubble Sort

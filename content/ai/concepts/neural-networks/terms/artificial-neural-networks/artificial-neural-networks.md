@@ -7,10 +7,8 @@ Subjects:
 Tags:
   - 'AI'
   - 'Machine Learning'
-  - 'ANN'
   - 'Neural Networks'
   - 'Weight & Bias'
-  - 'Brain Activity' 
   - 'Deep Learning'
   - 'Perceptrons'
 CatalogContent:
@@ -26,7 +24,7 @@ CatalogContent:
 
 ### The Process
 
-- Neural networks are trained on specific data which then get broken down into the input layer (where information is fed into) then to the hidden layer (where weight and bias are calculated from the input layer) and lastly the output layer (where information is output after algorithms are processed from the hidden and input layers) via perceptrons (similar to human neurons but for machines to process, store, calculate and move data forward)
+- Neural networks are trained on specific data which then get broken down into the input layer (where information is fed into) then to the hidden layer (where weight and bias are calculated from the input layer) and lastly the output layer (where information is output after algorithms are processed from the hidden and input layers) via perceptrons (similar to human neurons but for machines to process, store, calculate and move data forward).
 
 ## Relation To AI
 
@@ -38,4 +36,4 @@ CatalogContent:
 ### ANN
 
 - Neural networks are the core of machine learning algorithms. A neural network is trained on specific datasets from which it extracts the information and passes it through different layers searching for patterns.
-- Once a neural networks is trained on a dataset it can start to encounter new scenarios and start making predictions based off that previous dataset. 
+- Once a neural network is trained on a dataset it can start to encounter new scenarios and start making predictions based off that previous dataset. 
