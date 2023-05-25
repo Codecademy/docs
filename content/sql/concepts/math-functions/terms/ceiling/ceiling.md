@@ -24,6 +24,8 @@ SELECT CEILING(value)
 FROM table_name;
 ```
 
+- `value` - This is the value to be rounded up.
+
 ## Example
 
 The following data is given in a `temperatures` table:
