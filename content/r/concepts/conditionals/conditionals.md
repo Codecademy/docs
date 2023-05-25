@@ -1,16 +1,15 @@
 ---
-Title: 'R - Conditionals'
-Description: 'A brief description on the usage of conditional statements, comparison and logic operators in R'
+Title: 'Conditionals'
+Description: 'Statements that return a boolean value that provide control flow in a program'
 Subjects:
-  - 'Conditinal Statements'
+  - 'Conditional Statements'
   - 'Comparison Operators'
   - 'Logical Operators'
 Tags:
   - 'R'
-  - 'conditionals'
-  - 'comparison'
-  - 'logic'
-  
+  - 'Conditionals'
+  - 'Comparison'
+  - 'Logic'
 CatalogContent:
   - 'learn-r'
   - 'paths/computer-science'
@@ -146,7 +145,7 @@ Logical operators in R can be used to combine or negate logical values. Here are
 - `!` (not): Negates a logical value. If the operand is `TRUE`, it returns `FALSE`, and if the operand is `FALSE`, it returns `TRUE`.
 
 Examples:
-  ```R
+  ```r
     # AND (&&)
     x <- 5
     y <- 10
