@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-The SQL function **`CEILING()`** is used to round up a numeric value to the next highest integer. It returns the smallest integer that is greater than or equal to the input value.
+The SQL function **`CEILING()`** is used to round up a numeric value to the next highest integer. It returns the next whole value that is greater than or equal to the input value.
 
 ## Syntax
 
