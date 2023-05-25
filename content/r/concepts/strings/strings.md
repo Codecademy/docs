@@ -35,7 +35,7 @@ The `paste()` function combines multiple strings together:
 string_1 <- "Hello"
 string_2 <- "world"
 my_string <- paste(string_1, string_2)
-#output: "Hello world"
+# Output: "Hello world"
 ```
 
 The `paste0()` function concatenates strings without any separator:
@@ -45,7 +45,7 @@ The `paste0()` function concatenates strings without any separator:
 string_1 <- "Hello"
 string_2 <- "world"
 my_string <- paste0(string_1, string_2)
-# Output: "Hello world"
+# Output: "Helloworld"
 ```
 
 ## Subsetting Strings
