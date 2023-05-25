@@ -30,7 +30,7 @@ if (condition) {
 
 ## If-Else Statement
 
-The `if-else` statement allows you to execute one block of code if a condition is true, and another block of code if the condition is false. The general syntax is:
+The `if-else` statement allows the execution of a block of code if a condition is true, and another block of code if the condition is false. The general syntax is:
 
 ```pseudo
 if (condition) {
@@ -64,7 +64,7 @@ Examples:
 
 ## Comparison Operators
 
-Comparison operators in R allow you to compare values and produce logical results. Here are some commonly used comparison operators:
+Comparison operators in R allow the comparison of values and produce logical results. Here are some commonly used comparison operators:
 
 - `<` (less than): Returns `TRUE` if the left operand is less than the right operand.
 - `>` (greater than): Returns `TRUE` if the left operand is greater than the right operand.
