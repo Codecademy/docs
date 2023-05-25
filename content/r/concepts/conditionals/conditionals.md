@@ -6,7 +6,6 @@ Subjects:
   - 'Comparison Operators'
   - 'Logical Operators'
 Tags:
-  - 'R'
   - 'Conditionals'
   - 'Comparison'
   - 'Logic'
@@ -39,27 +38,28 @@ if (condition) {
 }
 ```
 
-Examples:
-  ```r
-    # If Statement
-    x <- 10
+Examples of `if-else` statements:
 
-    if (x > 5) {
-      print("x is greater than 5")
-    }
-    # In this example, the code inside the `if` block will be executed because the condition `x > 5` is true.
+```r
+# If Statement
+x <- 10
+
+if (x > 5) {
+  print("x is greater than 5")
+}
+# In this example, the code inside the if block will be executed because the condition x > 5 is true.
 
 
-    # If-Else Statement
-    x <- 3
+# If-Else Statement
+x <- 3
 
-    if (x > 5) {
-      print("x is greater than 5")
-    } else {
-      print("x is less than or equal to 5")
-    }
-    # In this example, since the condition `x > 5` is false, the code inside the `else` block will be executed.
-  ```
+if (x > 5) {
+  print("x is greater than 5")
+} else {
+  print("x is less than or equal to 5")
+}
+# In this example, since the condition x > 5 is false, the code inside the else block will be executed.
+```
 
 ## Comparison Operators
 
@@ -72,67 +72,68 @@ Comparison operators in R allow the comparison of values and produce logical res
 - `<=` (less than or equal to): Returns `TRUE` if the left operand is less than or equal to the right operand.
 - `>=` (greater than or equal to): Returns `TRUE` if the left operand is greater than or equal to the right operand.
 
-Examples:
-  ```r
-    # Less than (<) 
-    x <- 5
-    y <- 10
-    
-    if (x < y) {
-      print("x is less than y")
-    }
-    # Output: 'x is less than y'
+Examples of comparison operators in R:
+
+```r
+# Less than (<)
+x <- 5
+y <- 10
+
+if (x < y) {
+  print("x is less than y")
+}
+# Output: x is less than y
 
 
-    # Greater than (>) 
-    x <- 5
-    y <- 10
-    
-    if (x > y) {
-      print("x is greater than y")
-    }
-    # Output: No output in this case
+# Greater than (>)
+x <- 5
+y <- 10
+
+if (x > y) {
+  print("x is greater than y")
+}
+# No output in this case
 
 
-    # Equal to (==) 
-    x <- 5
-    y <- 5
-    
-    if (x == y) {
-      print("x is equal to y")
-    }
-    # Output: `x is equal to y`
-    
+# Equal to (==)
+x <- 5
+y <- 5
 
-    # Not equal to (!=) 
-    x <- 5
-    y <- 10
-    
-    if (x != y) {
-      print("x is not equal to y")
-    }
-    # Output: `x is not equal to y`
+if (x == y) {
+  print("x is equal to y")
+}
+# Output: x is equal to y
 
 
-    # Less than or equal to (<=)
-    x <- 5
-    y <- 10
-    
-    if (x <= y) {
-      print("x is less than or equal to y")
-    }
-    # Output: `x is less than or equal to y`
+# Not equal to (!=)
+x <- 5
+y <- 10
+
+if (x != y) {
+  print("x is not equal to y")
+}
+# Output: x is not equal to y
 
 
-    # Greater than or equal to (>=)
-    x <- 5
-    y <- 5
+# Less than or equal to (<=)
+x <- 5
+y <- 10
 
-    if (x >= y) {
-      print("x is greater than or equal to y")
-    }
-    # Output: `x is greater than or equal to y`
-  ```
+if (x <= y) {
+  print("x is less than or equal to y")
+}
+# Output: x is less than or equal to y
+
+
+# Greater than or equal to (>=)
+x <- 5
+y <- 5
+
+if (x >= y) {
+  print("x is greater than or equal to y")
+}
+# Output: x is greater than or equal to y
+```
 
 These operators are commonly used in conditional statements to compare values and make decisions.
 
@@ -144,36 +145,37 @@ Logical operators in R can be used to combine or negate logical values. Here are
 - `||` (or): Returns `TRUE` if either the left or right operand is `TRUE`.
 - `!` (not): Negates a logical value. If the operand is `TRUE`, it returns `FALSE`, and if the operand is `FALSE`, it returns `TRUE`.
 
-Examples:
-  ```r
-    # AND (&&)
-    x <- 5
-    y <- 10
-    
-    if (x > 0 && y > 0) {
-      print("Both x and y are positive")
-    }
-    # Output: `Both x and y are positive`
+Examples of logical operators in R:
+
+```r
+# AND (&&)
+x <- 5
+y <- 10
+
+if (x > 0 && y > 0) {
+  print("Both x and y are positive")
+}
+# Output: Both x and y are positive
 
 
-    # OR (||)
-    x <- 5
-    y <- -10
-    
-    if (x > 0 || y > 0) {
-      print("Either x or y is positive")
-    }
-    # Output: `Either x or y is positive`
+# OR (||)
+x <- 5
+y <- -10
+
+if (x > 0 || y > 0) {
+  print("Either x or y is positive")
+}
+# Output: Either x or y is positive
 
 
-    # NOT (!)
-    x <- 5
-    
-    if (!(x == 10)) {
-      print("x is not equal to 10")
-    }
-    # Output: `x is not equal to 10`
-    ```
+# NOT (!)
+x <- 5
+
+if (!(x == 10)) {
+  print("x is not equal to 10")
+}
+# Output: x is not equal to 10
+```
 
 Logical operators are often used to combine multiple conditions in conditional statements or to negate a condition.
 
