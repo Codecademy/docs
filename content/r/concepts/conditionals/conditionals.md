@@ -22,7 +22,7 @@ CatalogContent:
 
 The `if` statement is used to execute a block of code if a condition is true. The general syntax is:
 
-```pseud
+```pseudo
 if (condition) {
   # Code to be executed if condition is true
 }
@@ -32,7 +32,7 @@ if (condition) {
 
 The `if-else` statement allows you to execute one block of code if a condition is true, and another block of code if the condition is false. The general syntax is:
 
-```Pseudo
+```pseudo
 if (condition) {
   # Code to be executed if condition is true
 } else {
@@ -102,7 +102,7 @@ Examples:
     if (x == y) {
       print("x is equal to y")
     }
-    #Output: `x is equal to y`
+    # Output: `x is equal to y`
     
 
     # Not equal to (!=) 
@@ -132,7 +132,7 @@ Examples:
     if (x >= y) {
       print("x is greater than or equal to y")
     }
-    #Output: `x is greater than or equal to y`
+    # Output: `x is greater than or equal to y`
   ```
 
 These operators are commonly used in conditional statements to compare values and make decisions.
