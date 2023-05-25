@@ -24,6 +24,8 @@ SELECT FLOOR(number)
 FROM table_name;
 ```
 
+- `number` - The value which will be floored / rounded down.
+
 ## Example
 
 In this example, the following data is given, in a table named `employees`:
