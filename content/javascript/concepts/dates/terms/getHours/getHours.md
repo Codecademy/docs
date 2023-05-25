@@ -1,6 +1,6 @@
 ---
 Title: '.getHours()'
-Description: 'Called from an instance of the Date class, will return the hour according to the local time.'
+Description: 'Returns the hours of a date according to the local time.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -12,15 +12,15 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Called from an instance of the `Date` class, will return the hour according to the local time.
+The **`.getHours()`** method returns the hours of a date according to the local time.
 
 ## Syntax
 
-```js
+```shell
 myDate.getHours();
 ```
 
-The return value of `getHours()` will only be an integer number between `0` and `23`, meaning the hour according to the local time.
+The return value of `.getHours()` is an integer number between `0` and `23`, meaning the hour according to the local time.
 
 ## Example
 
@@ -36,4 +36,15 @@ if (today.getHours() === 10) {
 }
 
 // Output: It is not 10 in the morning now.
+```
+
+## Codebyte Example
+
+The example below is runnable, and first, it defines `currentTime` with today's date and time, then the result of the `.getHours()`method is saved in `currentHour`. Lastly, a `console.log` call prints the value to the screen:
+
+```codebyte/javascript
+const currentTime = new Date();
+const currentHour = currentTime.getHours();
+
+console.log("The current hour is: " + currentHour);
 ```
