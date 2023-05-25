@@ -1,6 +1,6 @@
 ---
 Title: 'Conditionals'
-Description: 'Statements that return a boolean value that provide control flow in a program'
+Description: 'Conditional statements return a boolean value that provides control flow in a program.'
 Subjects:
   - 'Conditional Statements'
   - 'Comparison Operators'
