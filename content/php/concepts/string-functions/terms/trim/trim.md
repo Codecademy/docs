@@ -31,7 +31,7 @@ Optionally, the stripped characters can also be specified using the characters p
 
 `$trimmed = trim($text, " \t.");`
 
-## Codebyte Example (if applicable)
+## Codebyte Example
 
 ```
 <?php
