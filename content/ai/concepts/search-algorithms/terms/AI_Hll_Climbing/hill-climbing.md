@@ -44,7 +44,7 @@ To use the Hill Climbing algorithm for your optimization problem, follow these s
 
 ## Limitations
 
-The Hill Climbing algorithm has certain limitations that you should be aware of:
+The hill climbing algorithm has certain limitations to keep aware of:
 
 - Local Optima: It may get stuck in local optima, suboptimal solutions that are better than their neighbors but worse than the global optimum.
 - Plateaus: It struggles to navigate flat regions or plateaus where there are no uphill moves.
