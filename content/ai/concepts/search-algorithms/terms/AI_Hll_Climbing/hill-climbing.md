@@ -25,7 +25,7 @@ The Hill Climbing algorithm follows a simple iterative process to search for the
 - Neighbor Generation: Generate neighboring solutions by making small modifications to the current solution.
 - Selection: Choose the best neighboring solution based on its objective function value.
 - Comparison: Compare the objective function value of the best neighboring solution with the current solution.
-Iteration: Repeat the process until a termination condition is met.
+- Iteration: Repeat the process until a termination condition is met.
 
 ## Usage
 
