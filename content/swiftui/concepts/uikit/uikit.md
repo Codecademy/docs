@@ -1,13 +1,15 @@
 ---
 Title: 'UIKit'
 Description: 'UIKit is a foundational framework for building user interfaces in iOS and iPadOS applications.'
-Codecademy Hub Page: 'https://www.codecademy.com/catalog/language/swift'
+Subjects:
+  - 'Mobile Development'
+  - 'iOS'
+Tags:
+  - 'SwiftUI'
 CatalogContent:
-  - 'swiftui'
-  - 'uikit'
+  - 'learn-swift'
+  - 'paths/build-ios-apps-with-swiftui'
 ---
-
-## UIKit
 
 UIKit is a foundational framework for building user interfaces in iOS and iPadOS applications. It provides a comprehensive set of components and tools that enable developers to create visually appealing and interactive user interfaces. UIKit has been the primary framework for building iOS apps for many years and continues to be widely used.
 
