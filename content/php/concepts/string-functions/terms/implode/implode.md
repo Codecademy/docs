@@ -24,7 +24,7 @@ implode($separator, $array)
 
 `implode()` accepts the following parameters:
 
-- `separator` - Optional string value. If omitted defaults to empty string.
+- `separator` - Optional string value. If omitted, the default is an empty string.
 - `array` - An array of string elements to implode.
 
 ## Example
