@@ -51,7 +51,7 @@ The following example shows the use of `implode()` function with and without the
     $regular_word = implode( $regular );
 
     echo $hyphenated_word;
-    echo("<br/>");
+    echo("\r\n");
     echo $regular_word;
     echo("<br/>");
 ?>
