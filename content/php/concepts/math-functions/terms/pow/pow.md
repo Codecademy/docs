@@ -9,8 +9,9 @@ Tags:
   - 'Arithmetic'
   - 'Numbers'
   - 'Functions'
-CatalogContent: -'learn-PHP'
-  -'paths/web-development'
+CatalogContent:
+  - 'learn-php'
+  - 'paths/computer-science'
 ---
 
 The **`pow()`** function returns the number raised to the power of the exponent.
