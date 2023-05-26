@@ -58,7 +58,7 @@ Local Optima: It may get stuck in local optima, suboptimal solutions that are be
 - Dependency on Initial Solution: The quality of the final solution can be highly dependent on the initial solution chosen.
 
 ## Code Example
-
+```
 import random
 
 def objective_function(solution):
@@ -101,3 +101,20 @@ def hill_climbing():
 best_solution, best_fitness = hill_climbing()
 print("Best Solution:", best_solution)
 print("Best Fitness:", best_fitness)
+
+```
+Suppose we have a game where you need to find the best solution to win. This code helps us find that solution.
+
+First, the code uses a special tool called "random" to help make random choices. This will be useful later.
+
+Next, there is a function called "objective_function." It's like a judge who decides how good a solution is. The function looks at the solution you give it and adds up all the parts. If the total is high, it means the solution is good.
+
+Then, there is another function called "generate_neighbor." This function helps make small changes to a solution. It takes a solution and picks a random spot. It then either flips a switch there (from 0 to 1 or 1 to 0) or leaves it as it is. It's like changing one small thing in your solution.
+
+Now, we come to the main part called "hill_climbing." This is where the magic happens! It starts by making a random solution with switches set to 0 or 1. Then, it asks the judge (the "objective_function") how good this solution is. This is the starting point.
+
+The code then keeps making changes to the solution and checking with the judge how good the new solution is. If the new solution is better than the current one, it becomes the new solution. It keeps doing this over and over, always trying to find a better solution.
+
+But, there is a rule: if the new solution is not better than the current one, it stops trying to find a better solution. It means it reached the top of the hill and can't climb any higher. It's like saying, "I tried my best, but this is as good as it gets."
+
+Finally, when the code can't find any better solutions, it tells us the best solution it found and how good it is. It's like saying, "Hey, I found the best way to win the game! This is it, and it's really good!"
