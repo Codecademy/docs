@@ -17,6 +17,8 @@ The **`hex()`** function converts an integer number to a hexadecimal string with
 
 ## Syntax
 
+An **integer** is the number zero (0), a postive natural number (1, 2, 3, etc.) or a negative integer that includes a minus sign (-1, -2, -3, etc).
+
 ```pseudo
 hex(integer)
 ```
