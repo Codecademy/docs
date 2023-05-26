@@ -13,7 +13,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'path/computer-science'
 ---
 
-`trim()` returns a string with whitespace stripped from the beginning and end of string.
+The **`trim()`** function returns a string with whitespace stripped from the beginning and end of string.
 
 ## Pseudo Code:
 
