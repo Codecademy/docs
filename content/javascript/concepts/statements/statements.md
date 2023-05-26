@@ -16,8 +16,9 @@ In JavaScript, **statements** are instructions that are executed by the browser 
 
 ## Declaration Statements
 
-Declaration statements are variables, function, or classes that are introduced into a program. These statements begin with a keyword followed by its identifier or name.
+Declaration statements are [variables](https://www.codecademy.com/resources/docs/javascript/variables), [functions](https://www.codecademy.com/resources/docs/javascript/functions), or classes that are introduced into a program. These statements begin with a keyword followed by its identifier or name.
 
+Variables are containers for storing data values:
 
 ```js
 var x = 5;
@@ -26,10 +27,9 @@ var X = 4;
 var z = x + y;
 ```
 
-JavaScript [variables](https://www.codecademy.com/resources/docs/javascript/variables) are containers for storing data values.
 In this example, `x`, `y`, `X`, and `z`, are declared with the `var` keyword.
 
-JavaScript identifiers are also case-sensitive. (Note that `x` is not the same as `X`).
+> **Note:** JavaScript identifiers are case-sensitive. Notice that `x` is not the same as `X`.
 
 ## Expression Statements
 
@@ -48,23 +48,16 @@ x = 6;
 console.log(x);
 ```
 
-In this statement, a `const` variable named `greeting` is declared and assigned the value of `'Hello World'`:
-
-```js
-const greeting = 'Hello World';
-```
-
-
 ## Conditional Statements
 
-[Conditional](https://www.codecademy.com/resources/docs/javascript/conditionals) statements, such as `if` statements or `switch` statements, control program flow based on a condition.
-
+[Conditional](https://www.codecademy.com/resources/docs/javascript/conditionals) statements, such as `if` statements or `switch` statements, control program flow based on a condition:
 
 ```js
 // If statement
 if (x > 5) {
   console.log('x is greater than 5');
 }
+
 // Switch statement
 switch (x) {
   case 1:
@@ -80,8 +73,7 @@ switch (x) {
 
 ## Loop Statements
 
-[Loop](https://www.codecademy.com/resources/docs/javascript/loops) statements, such as `while` loops or `for` loops, repeat an operation while a condition is true.
-
+[Loop](https://www.codecademy.com/resources/docs/javascript/loops) statements, such as `while` loops or `for` loops, repeat a block of code while a condition is `true`:
 
 ```js
 // While loop
@@ -89,6 +81,7 @@ while (x < 5) {
   console.log(x);
   x++;
 }
+
 // For loop
 for (let i = 0; i < 5; i++) {
   console.log(i);
@@ -99,7 +92,6 @@ for (let i = 0; i < 5; i++) {
 
 Jump statements, such as `break` or `return` statements, transfer control to another part of the program.
 
-
 ```js
 // Break statement
 for (let i = 0; i < 5; i++) {
@@ -108,6 +100,7 @@ for (let i = 0; i < 5; i++) {
   }
   console.log(i);
 }
+
 // Return statement
 function add(x, y) {
   return x + y;
