@@ -1,21 +1,15 @@
 ---
 Title: 'Hill climbing' 
-
-
-Description: 'Hill climbing is a simple local search algorithm used in optimization problems. It is inspired by the metaphor of climbing a hill to reach the peak.' 
-
+Description: 'Hill climbing is a simple local search algorithm used in optimization problems. 
+It is inspired by the metaphor of climbing a hill to reach the peak.' 
 Subjects: 
   - 'AI'
   - 'Data Science'
-
 Tags:
-
   - 'Search'
   - 'Algorithms'
   - 'AI'
-
 CatalogContent: 
-
   - 'learn-python-3'
   - 'paths/paths/machine-learning-ai-engineering-foundations'
 ---
