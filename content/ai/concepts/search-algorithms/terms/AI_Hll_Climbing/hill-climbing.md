@@ -34,7 +34,7 @@ To use the Hill Climbing algorithm for your optimization problem, follow these s
 - Step 1: Define the search space: Determine the range or domain of possible solutions for your problem.
 - Step 2: Define the objective function: Create a function that measures the quality or fitness of a solution.
 - Step 3: Initialization: Generate or select an initial solution within the search space.
-Step 4: Iterative process: Repeat the following steps until a termination condition is met:
+- Step 4: Iterative process: Repeat the following steps until a termination condition is met:
 Evaluate the current solution using the objective function.
 Generate neighboring solutions by making small modifications to the current solution.
 Select the best neighboring solution based on its objective function value.
