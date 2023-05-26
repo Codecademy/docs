@@ -27,7 +27,7 @@ The **hill climbing** search algorithm is a local search algorithm used for opti
 The Hill Climbing algorithm follows a simple iterative process to search for the best solution:
 
 - Initialization: Start with an initial solution within the search space.
-Evaluation: Evaluate the quality of the current solution using an objective function or fitness measure.
+- Evaluation: Evaluate the quality of the current solution using an objective function or fitness measure.
 Neighbor Generation: Generate neighboring solutions by making small modifications to the current solution.
 Selection: Choose the best neighboring solution based on its objective function value.
 Comparison: Compare the objective function value of the best neighboring solution with the current solution.
