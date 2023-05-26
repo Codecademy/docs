@@ -54,7 +54,7 @@ The Hill Climbing algorithm has certain limitations that you should be aware of:
 
 Local Optima: It may get stuck in local optima, suboptimal solutions that are better than their neighbors but worse than the global optimum.
 - Plateaus: It struggles to navigate flat regions or plateaus where there are no uphill moves.
-Multiple Peaks: It may miss the global optimum if the search space has multiple peaks or valleys.
+- Multiple Peaks: It may miss the global optimum if the search space has multiple peaks or valleys.
 Dependency on Initial Solution: The quality of the final solution can be highly dependent on the initial solution chosen.
 
 ## Code Example
