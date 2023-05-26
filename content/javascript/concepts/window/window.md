@@ -22,18 +22,13 @@ The `window` object is the global object of JavaScript when run within a browser
 Below shows the use of a `window` method, `.alert()`, to display a message to the user:
 
 ```js
-window.alert("Hello World!");
+window.alert('Hello World!');
 ```
 
 Because the `window` object is global, the "window." portion can also be omitted:
 
 ```js
-alert("Hello World!");
+alert('Hello World!');
 ```
 
 The `window` object has a number of properties and methods, some of which are listed below:
-
-
-
-
-
