@@ -29,8 +29,8 @@ This example demonstrates the usage of the `ceil()` function with three differen
 
 ```php
 <?php
-  echo ceil(9.4)."\n";
-  echo ceil(6.01)."\n";
+  echo ceil(9.4)."</br>";
+  echo ceil(6.01)."</br>";
   echo ceil(-1.637);
 ?>
 ```
