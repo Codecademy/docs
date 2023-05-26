@@ -98,7 +98,6 @@ print("Best Solution:", best_solution)
 print("Best Fitness:", best_fitness)
 ```
 
-```
 Suppose we have a game where you need to find the best solution to win. This code helps us find that solution.
 
 First, the code uses a special tool called "random" to help make random choices. This will be useful later.
