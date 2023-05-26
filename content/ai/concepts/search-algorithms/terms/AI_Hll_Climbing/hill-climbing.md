@@ -8,7 +8,7 @@ Subjects:
   - 'AI'
   - 'Data Science'
 
-Tags: !
+Tags:
 
   - 'Search'
   - 'Algorithms'
