@@ -14,8 +14,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `NegativeArraySizeException` is a runtime exception in Java that occurs when an application attempts to create an array with a negative size.
-Since the `NegativeArraySizeException` is an unchecked exception, it does not need to be declared in the throws clause of a method or constructor.
+**`NegativeArraySizeException`** is a runtime exception in Java that occurs when an application attempts to create an array with a negative size.
+
+Since the `NegativeArraySizeException` is an unchecked exception, it does not need to be declared in the `throws` clause of a method or constructor.
 
 ## Example
 
