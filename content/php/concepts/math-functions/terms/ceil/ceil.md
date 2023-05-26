@@ -25,7 +25,7 @@ Where `n` is the fractional number to find the next highest integer value of.
 
 ## Example
 
-This example demonstrates the usage of ceil function with three different arguments and outputs results of each in a new line:
+This example demonstrates the usage of the `ceil()` function with three different arguments, and outputs results of each on a new line:
 
 ```php
 <?php
