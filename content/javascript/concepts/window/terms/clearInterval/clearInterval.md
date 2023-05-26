@@ -27,7 +27,7 @@ clearInterval(intervalID)
 
 ## Example
 
-The following sample shows the usage of `clearInterval()` by canceling a previously added `setInterval()` to a function.
+The following code demonstrates the application of `clearInterval()` to cancel a previously added `setInterval()` call.
 
 ```js
 let firstInterval = setInterval(firstTimer, 2000);
