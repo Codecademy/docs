@@ -53,6 +53,7 @@ The hill climbing algorithm has certain limitations to keep aware of:
 
 ## Code Example
 ```
+```py
 import random
 
 def objective_function(solution):
