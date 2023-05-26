@@ -30,9 +30,10 @@ Where `n` is the number to be rounded down to the nearest integer.
 
 ```php
 floor(3.4)
+// Output: 3
 ```
 
-In the example above, the result will be a float value of `3` as the function rounds `3.4` down to `3`.
+The result will be a float value of `3` as the function rounds `3.4` down to `3`.
 
 ## Codebyte Example
 
