@@ -40,7 +40,7 @@ Generate neighboring solutions by making small modifications to the current solu
 Select the best neighboring solution based on its objective function value.
   - Compare the objective function value of the best neighboring solution with the current solution.
 If the neighboring solution is better, update the current solution. Otherwise, terminate the algorithm.
-Step 5: Termination condition: Define a condition to stop the algorithm, such as reaching a maximum number of iterations, achieving a specific threshold for the objective function value, or exceeding a time limit.
+- Step 5: Termination condition: Define a condition to stop the algorithm, such as reaching a maximum number of iterations, achieving a specific threshold for the objective function value, or exceeding a time limit.
 
 ## Limitations
 
