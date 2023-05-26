@@ -96,6 +96,7 @@ def hill_climbing():
 best_solution, best_fitness = hill_climbing()
 print("Best Solution:", best_solution)
 print("Best Fitness:", best_fitness)
+```
 
 ```
 Suppose we have a game where you need to find the best solution to win. This code helps us find that solution.
