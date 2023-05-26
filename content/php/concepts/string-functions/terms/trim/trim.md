@@ -1,6 +1,6 @@
 ---
 Title: 'trim()' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'Strip whitespace (or other characters) from the beginning and end of a string' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
+Description: 'Strips whitespace (or other characters) from the beginning and end of a string.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
 Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
   - 'Computer Science'
   - 'Web Design'
