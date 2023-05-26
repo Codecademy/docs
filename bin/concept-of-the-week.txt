@@ -1,1 +1,1 @@
-content/python/concepts/conditionals/conditionals.md
+content/python/concepts/operators/operators.md
