@@ -1,5 +1,6 @@
 ---
-Title: 'AI hill climbing' 
+Title: 'Hill climbing' 
+
 
 Description: 'Hill climbing is a simple local search algorithm used in optimization problems. It is inspired by the metaphor of climbing a hill to reach the peak.' 
 
