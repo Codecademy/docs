@@ -15,7 +15,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 
 The **`trim()`** function returns a string with whitespace stripped from the beginning and end of string.
 
-## Pseudo Code:
+## Syntax
 
 `trim(string $string, string $characters = " \n\r\t\v\x00"): string`
 
