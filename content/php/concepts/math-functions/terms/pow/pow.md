@@ -24,7 +24,8 @@ pow(number $base, number $exp) : number
 
 The `pow()` function takes two parameters:
 
--`$base` is the number to be raised. -`$exp` is the power for a base to be raised.
+-`$base` is the number to be raised.
+-`$exp` is the power for a base to be raised.
 
 The exponent operator `**` can be used instead of this function. `pow($base, $exp)` returns the base raised to the exponent, which is the same as `$base ** $exp`.
 
