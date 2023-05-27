@@ -97,7 +97,7 @@ print("Best Solution:", best_solution)
 print("Best Fitness:", best_fitness)
 ```
 
-Suppose we have a game where you need to find the best solution to win. This code helps us find that solution.
+Suppose there is a game where the best solution needs to be found in order to win. This code helps find that solution.
 
 First, the code uses a special tool called [`random`](https://www.codecademy.com/resources/docs/python/random-module) to help make random choices. This will be useful later.
 
