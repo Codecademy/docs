@@ -104,7 +104,7 @@ First, the code uses a special tool called [`random`](https://www.codecademy.com
 
 Next, there is a function called "objective_function." It's like a judge who decides how good a solution is. The function looks at the solution you give it and adds up all the parts. If the total is high, it means the solution is good.
 
-Then, there is another function called "generate_neighbor." This function helps make small changes to a solution. It takes a solution and picks a random spot. It then either flips a switch there (from 0 to 1 or 1 to 0) or leaves it as it is. It's like changing one small thing in your solution.
+Then, there is another function called `generate_neighbor.` This function helps make small changes to a solution. It takes a solution and picks a random spot. It then either flips a switch there (from 0 to 1 or 1 to 0) or leaves it as it is. It's like changing one small thing in the solution.
 
 Now, we come to the main part called "hill_climbing." This is where the magic happens! It starts by making a random solution with switches set to 0 or 1. Then, it asks the judge (the "objective_function") how good this solution is. This is the starting point.
 
