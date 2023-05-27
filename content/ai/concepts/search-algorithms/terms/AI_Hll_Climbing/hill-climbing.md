@@ -99,7 +99,8 @@ print("Best Fitness:", best_fitness)
 
 Suppose we have a game where you need to find the best solution to win. This code helps us find that solution.
 
-First, the code uses a special tool called "random" to help make random choices. This will be useful later.
+First, the code uses a special tool called [`random`](https://www.codecademy.com/resources/docs/python/random-module) to help make random choices. This will be useful later.
+
 
 Next, there is a function called "objective_function." It's like a judge who decides how good a solution is. The function looks at the solution you give it and adds up all the parts. If the total is high, it means the solution is good.
 
