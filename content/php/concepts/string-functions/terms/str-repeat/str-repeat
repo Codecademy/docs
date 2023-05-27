@@ -28,6 +28,8 @@ str_replace($string, $repeat)
 
 This example provides a few demonstrations of `str_repeat()` operating on a string.
 
+> **Note:** The third echo statement will not output to the console due to the second argument of `str_repeat` being set to `0`.
+
 ```codebyte/php
 <?php
 
