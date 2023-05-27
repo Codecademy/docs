@@ -17,23 +17,20 @@ The **`trim()`** function returns a string with whitespace stripped from the beg
 
 ## Syntax
 
-`trim(string $string, string $characters = " \n\r\t\v\x00"): string`
+```pseudo
+trim(string $string, string $characters = " \n\r\t\v\x00"): string
+```
 
 Parameters:
-------------------------------------------------------
-string
-The string that will be trimmed.
 
-characters
-Optionally, the stripped characters can also be specified using the characters parameter. Simply list all characters that you want to be stripped. With .. you can specify a range of characters.
-
-## Syntax
-
-`$trimmed = trim($text, " \t.");`
+- `$string`: The string that will be trimmed.
+- `$characters`: Optionally, the stripped characters can also be specified using the characters parameter. List all characters to be stripped. A range of characters can be specified with `..`.
 
 ## Codebyte Example
 
-```
+This example creates an [array](https://www.codecademy.com/resources/docs/php/arrays) of strings, and displays them before and after applying a [function](https://www.codecademy.com/resources/docs/php/functions) on each element that uses the `trim()` function on them.
+
+```codebyte/php
 <?php
 function trim_value(&$value) 
 { 
