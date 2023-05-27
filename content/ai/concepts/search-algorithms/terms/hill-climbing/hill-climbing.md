@@ -1,14 +1,14 @@
 ---
-Title: 'Hill climbing' 
-Description: 'Hill climbing is a simple local search algorithm used in optimization problems. It is inspired by the metaphor of climbing a hill to reach the peak.' 
-Subjects: 
+Title: 'Hill climbing'
+Description: 'Hill climbing is a simple local search algorithm used in optimization problems. It is inspired by the metaphor of climbing a hill to reach the peak.'
+Subjects:
   - 'AI'
   - 'Data Science'
 Tags:
   - 'Search'
   - 'Algorithms'
   - 'AI'
-CatalogContent: 
+CatalogContent:
   - 'learn-python-3'
   - 'paths/paths/machine-learning-ai-engineering-foundations'
 ---
@@ -51,7 +51,8 @@ The hill climbing algorithm has certain limitations to keep aware of:
 - Dependency on Initial Solution: The quality of the final solution can be highly dependent on the initial solution chosen.
 
 ## Code Example
-```
+
+````
 ```py
 import random
 
@@ -75,27 +76,27 @@ def hill_climbing():
     # Initialization
     current_solution = [random.randint(0, 1) for _ in range(10)]  # Generate an initial solution
     current_fitness = objective_function(current_solution)
-    
+
     # Iterative process
     while True:
         # Neighbor generation
         neighbor = generate_neighbor(current_solution)
         neighbor_fitness = objective_function(neighbor)
-        
+
         # Comparison
         if neighbor_fitness >= current_fitness:
             current_solution = neighbor
             current_fitness = neighbor_fitness
         else:
             break  # Terminate if no better solution is found
-    
+
     return current_solution, current_fitness
 
 # Usage example
 best_solution, best_fitness = hill_climbing()
 print("Best Solution:", best_solution)
 print("Best Fitness:", best_fitness)
-```
+````
 
 Suppose there is a game where the best solution needs to be found in order to win. This code helps find that solution.
 
