@@ -38,4 +38,3 @@ echo (str_repeat("I-don't-appear ",0). "\n");
 ?>
 ```
 
-Notice how the third `echo` statement doesn't appear in the output due it being repeated zero times.
