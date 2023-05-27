@@ -15,7 +15,7 @@ CatalogContent:
 
 The **`window`** object is the global object of JavaScript when run within a browser and represents the browser window. All browsers support it. It contains as members all global JavaScript objects, functions, and variables. Such variables become properties of the `window` object, such functions become methods of the `window` object.
 
-> **Note:** If a browser window contains [`<iframe>`](https://www.codecademy.com/resources/docs/html/elements/iframe) tags, there will be one `window` object for the page containing the `<iframe>` tags, and an additional `window` object for the page in each `<iframe>`
+> **Note:** If a browser window contains [`<iframe>`](https://www.codecademy.com/resources/docs/html/elements/iframe) tags, there will be one `window` object for the page containing the `<iframe>` tags, and an additional `window` object for the page in each `<iframe>`.
 
 ## Syntax
 
