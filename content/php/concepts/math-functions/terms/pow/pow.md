@@ -19,7 +19,7 @@ The **`pow()`** function returns the number raised to the power of the exponent.
 ## Syntax
 
 ```pseudo
-pow(number $base, number $exp) : number
+pow(number $base, number $exp)
 ```
 
 The `pow()` function takes two parameters:
