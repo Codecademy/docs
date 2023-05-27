@@ -106,7 +106,7 @@ Next, there is a function called `objective_function.` It's like a judge who dec
 
 Then, there is another function called `generate_neighbor.` This function helps make small changes to a solution. It takes a solution and picks a random spot. It then either flips a switch there (from 0 to 1 or 1 to 0) or leaves it as it is. It's like changing one small thing in the solution.
 
-Now, we come to the main part called "hill_climbing." This is where the magic happens! It starts by making a random solution with switches set to 0 or 1. Then, it asks the judge (the "objective_function") how good this solution is. This is the starting point.
+Now is the main part, called `hill_climbing.` This is where the magic happens! It starts by making a random solution with switches set to 0 or 1. Then, it asks the judge (the `objective_function`) how good this solution is. This is the starting point.
 
 The code then keeps making changes to the solution and checking with the judge how good the new solution is. If the new solution is better than the current one, it becomes the new solution. It keeps doing this over and over, always trying to find a better solution.
 
