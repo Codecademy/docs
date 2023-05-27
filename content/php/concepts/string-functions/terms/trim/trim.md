@@ -32,9 +32,9 @@ This example creates an [array](https://www.codecademy.com/resources/docs/php/ar
 
 ```codebyte/php
 <?php
-function trim_value(&$value) 
-{ 
-    $value = trim($value); 
+function trim_value(&$value)
+{
+    $value = trim($value);
 }
 
 $fruit = array('mango','guava ', ' strawberry ');
