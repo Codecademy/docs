@@ -101,7 +101,6 @@ Suppose there is a game where the best solution needs to be found in order to wi
 
 First, the code uses a special tool called [`random`](https://www.codecademy.com/resources/docs/python/random-module) to help make random choices. This will be useful later.
 
-
 Next, there is a function called `objective_function.` It's like a judge who decides how good a solution is. The function looks at the solution given to it and adds up all the parts. If the total is high, it means the solution is good.
 
 Then, there is another function called `generate_neighbor.` This function helps make small changes to a solution. It takes a solution and picks a random spot. It then either flips a switch there (from 0 to 1 or 1 to 0) or leaves it as it is. It's like changing one small thing in the solution.
