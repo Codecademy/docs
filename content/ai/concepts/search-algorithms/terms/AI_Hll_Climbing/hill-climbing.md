@@ -112,4 +112,4 @@ The code then keeps making changes to the solution and checking with the judge h
 
 But, there is a rule: if the new solution is not better than the current one, it stops trying to find a better solution. It means it reached the top of the hill and can't climb any higher. It's like saying, "I tried my best, but this is as good as it gets."
 
-Finally, when the code can't find any better solutions, it tells us the best solution it found and how good it is. It's like saying, "Hey, I found the best way to win the game! This is it, and it's really good!"
+Finally, when the code can't find any better solutions, it responds with the best solution it found and how good it is. It's like saying, "Hey, I found the best way to win the game! This is it, and it's really good!"
