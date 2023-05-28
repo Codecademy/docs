@@ -54,8 +54,7 @@ PS > [Int]$age = 25
 PS > $age
 25
 
-PS > [Int]$age = "twenty five"
-# Results in an error
+PS > [Int]$age = "twenty five" # Results in an error
 Cannot convert value "age" to type "System.Int32". Error: "Input string was not in a correct format."
 ```
 

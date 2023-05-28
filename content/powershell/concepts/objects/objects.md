@@ -40,9 +40,7 @@ Properties are also called attributes and are characteristics of an object. The 
 
 ```shell
 PS > $my_string = "Codecademy"
-
-# Shows all properties of the String object
-PS > $my_string | Get-Member -MemberType Property
+PS > $my_string | Get-Member -MemberType Property # Shows all properties of the String object
 
   TypeName: System.String
 
@@ -54,9 +52,8 @@ Length Property   int Length {get;}
 `String` objects have a property called `Length`, which holds the number of characters in a string.
 
 ```shell
-PS > $my_string.Length
+PS > $my_string.Length # "Codecademy" has 10 characters
 10
-# "Codecademy" has 10 characters
 ```
 
 ## Object Methods

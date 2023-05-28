@@ -103,13 +103,8 @@ Assignment operators can be used to assign, change, or append values to variable
 
 ```shell
 PS > $number = 4
-
-PS > $number += 6
-# $number is now 10
-
-PS > $number /= 2
-# $number is now 5
-
+PS > $number += 6 # $number is now 10
+PS > $number /= 2 # $number is now 5
 PS > $number
 5
 ```
@@ -164,21 +159,14 @@ Precedence order is the order in which PowerShell evaluates the operators if mul
 ```shell
 PS > $num_1 = 4
 PS > $num_2 = 3
-PS > $num_1 -lt $num_2
+PS > $num_1 -lt $num_2  # num_1 is not less than num_2
 False
-# num_1 is not less than num_2
 
-PS > $num_2++
-# num_2 is now 4
-
-PS > $num_1 -ge $num_2
+PS > $num_2++           # num_2 is now 4
+PS > $num_1 -ge $num_2  # num_1 is greater than or equal to num_2
 True
-# num_1 is greater than or equal to num_2
 
-PS > $num_1 /= 2
-# num_1 is now 2
-
-PS > $num_1 -lt $num_2 -xor $num_1 -ge $num_2
+PS > $num_1 /= 2        # num_1 is now 2
+PS > $num_1 -lt $num_2 -xor $num_1 -ge $num_2 # True because only one expression is True
 True
-# True because only one expression is True
 ```
