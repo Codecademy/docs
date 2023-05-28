@@ -126,3 +126,28 @@ const anotherWeek = weekDays.slice();
 console.log(anotherWeek);
 // Output: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 ```
+
+### Codebyte Example
+
+sliceing of the arrays:
+
+```codebyte/js
+let fruits=['Banana','Orange','Grapefruit','Apple','Mango'];
+
+//  Two arguments:
+let citrusFruits = fruits.slice(1,3);
+console.log(citrusFruits);
+
+//  Negative arguments:
+let lastTwo = fruits.slice(-2);
+console.log(lastTwo);
+
+// One argument:
+let fromOrange = fruits.slice(1);
+console.log(fromOrange);
+
+// Zero argument:
+let allFruits = fruits.slice();
+console.log(allFruits);
+
+```
