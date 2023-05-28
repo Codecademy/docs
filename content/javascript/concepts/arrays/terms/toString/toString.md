@@ -40,7 +40,7 @@ Converting the array to a string:
 
 ```codebyte/js
 
-let fruits = ['Apple','Blueberries','Banana','Lemon','Mango','Orange','Grapes'];
+let fruits = ['Apple','Blueberries','Banana','Lemon','Mango','Orange','Grapes','pineapple'];
 let fruitsString= greeting.toString();
 console.log(fruitsString);
 
