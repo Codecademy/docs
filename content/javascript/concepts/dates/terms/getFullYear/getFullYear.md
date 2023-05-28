@@ -1,6 +1,6 @@
 ---
 Title: 'getFullYear()' 
-Description: 'Return the current full year' 
+Description: 'Returns the four digit year for the given date' 
 Subjects: 
   - 'Web Development'
 Tags: 
@@ -10,7 +10,7 @@ CatalogContent:
   - 'paths/web-development'
 ---
 
-The **getFullYear** method returns the current four digit year
+The **getFullYear** method returns a four digit year for the date according to local time.
 
 ## Syntax
 
@@ -18,10 +18,14 @@ The **getFullYear** method returns the current four digit year
 myDate.getFullYear()
 ```
 
+The returned value of `.getFullYear()` method is an integer for the provided date.
+
 ## Example
 
+In the example below the `year` variable store the value of a new Date object and then logs the year to the console.
+
 ```js
-const getYear = new Date().getFullYear()
-// returns 2023
+const year = new Date().getFullYear()
+console.log(year)
 ```
 
