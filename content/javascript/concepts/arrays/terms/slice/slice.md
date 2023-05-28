@@ -129,7 +129,7 @@ console.log(anotherWeek);
 
 ### Codebyte Example
 
-sliceing of the arrays:
+slicing of the arrays:
 
 ```codebyte/js
 let fruits=['Banana','Orange','Grapefruit','Apple','Mango'];
