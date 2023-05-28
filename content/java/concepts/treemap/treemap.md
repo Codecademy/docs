@@ -12,13 +12,13 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **`TreeMap`** is an implementation of the [`Map`](https://www.codecademy.com/resources/docs/java/map) interface, where its items are stored as key-value pairs and it is sorted either by natural ordering of its keys or through a [Comparator](https://www.codecademy.com/resources/docs/java/comparator).
+A **`TreeMap`** is an implementation of the [`Map`](https://www.codecademy.com/resources/docs/java/map) interface, where its items are stored as key-value pairs and it is sorted either by natural ordering of its keys or through a [`Comparator`](https://www.codecademy.com/resources/docs/java/comparator).
 
 A `TreeMap` differs from a [`HashMap`](https://www.codecademy.com/resources/docs/java/hashmap) in terms of how their contents are stored. A `HashMap` stores its keys as hashes in a [hash table](https://www.codecademy.com/resources/docs/general/data-structures/hash-table) whereas a `TreeMap` stores its keys in a [binary tree structure](https://www.codecademy.com/resources/docs/general/binary-search-tree), which is a type of tree data structure that has at most two children nodes per parent.
 
-While the structure of a `TreeMap` is more orderly, it comes as a tradeoff with speed in comparison to a `HashMap`. In [Big-O notation](https://www.codecademy.com/resources/docs/general/big-o-notation), most `HashMap` operations run in amortized O(1) time; they are generally more time-efficient. Most `TreeMap` operations run in O(log(n)) time and the `TreeMap` is generally more space-efficient due to its dynamic allocation of memory per value added.
+While the structure of a `TreeMap` is more orderly, it comes as a tradeoff with speed in comparison to a `HashMap`. In [Big-O notation](https://www.codecademy.com/resources/docs/general/big-o-notation), most `HashMap` operations run in amortized **O(1)** time; they are generally more time-efficient. Most `TreeMap` operations run in **O(log(n))** time and the `TreeMap` is generally more space-efficient due to its dynamic allocation of memory per value added.
 
-> **Note:** Complexity is a crucial factor when determining what structure to implement. You would want to aim for a `HashMap` for faster operations over data. For structured and sorted operations on data, it's best to stick to a `TreeMap`.
+> **Note:** Complexity is a crucial factor when determining what structure to implement. For faster operations over data, aim for a `HashMap`. For structured and sorted operations on data, it's best to stick to a `TreeMap`.
 
 ## Syntax
 
