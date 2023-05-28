@@ -2,7 +2,7 @@
 Title: '.updateValue()'
 Description: 'Replaces the value stored for the given key or creates a new key-value pair.'
 Subjects:
-  - 'Mobile Development
+  - 'Mobile Development'
   - 'iOS'
   - 'Computer Science'
 Tags:
