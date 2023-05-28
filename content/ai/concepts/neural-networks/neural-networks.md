@@ -1,5 +1,5 @@
 ---
-Title: 'Artificial Neural Networks'
+Title: 'Neural Networks'
 Description: 'A neural network is a method in artificial intelligence that teaches computers to process data in a way that is inspired by the human brain.'
 Subjects:
   - 'Machine Learning'
@@ -17,6 +17,7 @@ CatalogContent:
 ---
 
 **Artificial neural networks (ANN)** are a method in artificial intelligence which teaches computers to process data in a similar way such as the human brain. 
+
 ## What Is An Artificial Neural Network (ANN)
 
 - An ANN a type of machine learning process, called deep learning, that uses interconnected nodes or neurons in a layered structure that resembles the human brain.
