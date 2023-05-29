@@ -37,3 +37,21 @@ int main() {
   // Output: 1.5708 radians
 }
 ```
+
+## Codebyte Example
+
+In this example, the `std::acos()` function is applied to the variable `x`, which holds the value `0.0`. The `std::acos()` function returns the inverse cosine (also known as arccosine) of the provided argument.
+
+```codebyte/cpp
+#include <iostream>
+#include <cmath>
+
+int main() {
+  double x = 0.0;
+  double result = std::acos(x);
+
+  std::cout << "Inverse cosine of " << x << " is " << result << " radians\n";
+
+  return 0;
+}
+```

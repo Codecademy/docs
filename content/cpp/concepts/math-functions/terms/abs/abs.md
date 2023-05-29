@@ -32,3 +32,21 @@ int main() {
   // Output: 6.5
 }
 ```
+
+## Codebyte Example
+
+In this example, the `std::abs()` function is applied to the variable `num`, which holds the value -6.5. The absolute value of -6.5 is 6.5.
+
+```codebyte/cpp
+#include <iostream>
+#include <cmath>
+
+int main() {
+  double num = -6.5;
+  double absValue = std::abs(num);
+  
+  std::cout << "Absolute value of " << num << " is " << absValue << "\n";
+  
+  return 0;
+}
+```
