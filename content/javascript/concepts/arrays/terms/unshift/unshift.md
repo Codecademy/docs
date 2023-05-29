@@ -53,7 +53,7 @@ console.log(countToTen);
 
 ### Codebyte Example
 
-The code below adds `Lemon` and `Pineapple` to the beginning of the array `fruits` with the help of the unshift() method.
+The code below adds `Lemon` and `Pineapple` to the beginning of the array `fruits` with the help of the `unshift()` method.
 
 ```codebyte/js
 
