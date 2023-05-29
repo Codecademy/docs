@@ -10,7 +10,7 @@ Tags:
   - 'AI'
 CatalogContent:
   - 'learn-python-3'
-  - 'paths/paths/machine-learning-ai-engineering-foundations'
+  - 'paths/machine-learning-ai-engineering-foundations'
 ---
 
 The **hill climbing** search algorithm is a local search algorithm used for optimization problems. It is designed to find the highest point or the best solution within a given search space by iteratively exploring neighboring solutions.
