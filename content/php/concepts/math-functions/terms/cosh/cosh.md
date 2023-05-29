@@ -44,7 +44,7 @@ The output will be:
 
 ## Codebyte Example
 
-In this executable example of the function, the `$x` variable can be changed to print the `cosh()` of it
+In this executable example of the function, the `$x` variable can be changed to print the `cosh()` of it:
 
 ```codebyte/php
 <?php
