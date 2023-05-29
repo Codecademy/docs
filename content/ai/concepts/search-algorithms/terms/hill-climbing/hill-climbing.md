@@ -52,8 +52,8 @@ The hill climbing algorithm has certain limitations to keep aware of:
 
 ## Code Example
 
-````
-```py
+
+```psuedo
 import random
 
 def objective_function(solution):
@@ -96,7 +96,7 @@ def hill_climbing():
 best_solution, best_fitness = hill_climbing()
 print("Best Solution:", best_solution)
 print("Best Fitness:", best_fitness)
-````
+```
 
 Suppose there is a game where the best solution needs to be found in order to win. This code helps find that solution.
 
