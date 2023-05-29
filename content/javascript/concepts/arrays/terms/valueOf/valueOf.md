@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `.valueOf()` method returns the value of all the elements of the original array.
+The **`.valueOf()`** method returns the value of all the elements of the original array.
 
 ## Syntax
 
@@ -32,7 +32,7 @@ console.log(newArray);
 // Output: ['JS', 'Python', 'Java', 'C++']
 ```
 
-**Note:** This method will not change the original array. However, if the original array or the variable which holds it (using the `.valueOf()` method) is manipulated, the value of the array will change accordingly.
+> **Note:** This method will not change the original array. However, if the original array or the variable which holds it (using the `.valueOf()` method) is manipulated, the value of the array will change accordingly.
 
 ### Codebyte Example
 
