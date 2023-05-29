@@ -28,7 +28,7 @@ The hill climbing algorithm follows a simple iterative process to search for the
 
 ## Usage
 
-To use the Hill Climbing algorithm for your optimization problem, follow these steps:
+To use the hill climbing algorithm for your optimization problem, follow these steps:
 
 - Step 1: Define the search space: Determine the range or domain of possible solutions for your problem.
 - Step 2: Define the objective function: Create a function that measures the quality or fitness of a solution.
