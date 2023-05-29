@@ -17,7 +17,7 @@ The **hill climbing** search algorithm is a local search algorithm used for opti
 
 ## Algorithm Overview
 
-The Hill Climbing algorithm follows a simple iterative process to search for the best solution:
+The hill climbing algorithm follows a simple iterative process to search for the best solution:
 
 - Initialization: Start with an initial solution within the search space.
 - Evaluation: Evaluate the quality of the current solution using an objective function or fitness measure.
