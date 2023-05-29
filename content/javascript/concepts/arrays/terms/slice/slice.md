@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `.slice()` array method returns a shallow copy of all or part of an array without modifying the original. A shallow copy duplicates the contents of an object into a new instance by reference; which is why changes to the copy are not reflected in the original.
+The **`.slice()`** array method returns a shallow copy of all or part of an array without modifying the original. A shallow copy duplicates the contents of an object into a new instance by reference; which is why changes to the copy are not reflected in the original.
 
 ## Syntax
 
@@ -31,7 +31,7 @@ If only one argument is specified, the returned array contains all elements from
 array.slice(start);
 ```
 
-If `start` and `end` values are not provided, the slicing of array will be of the whole array.
+If `start` and `end` values are not provided, the method will return a copy of the whole array.
 
 ```js
 array.slice();
@@ -129,16 +129,16 @@ console.log(anotherWeek);
 
 ### Codebyte Example
 
-slicing of the arrays:
+Below are several examples of slicing the `fruits` array:
 
 ```codebyte/js
 let fruits=['Banana','Orange','Grapefruit','Apple','Mango'];
 
-//  Two arguments:
+// Two arguments:
 let citrusFruits = fruits.slice(1,3);
 console.log(citrusFruits);
 
-//  Negative arguments:
+// Negative arguments:
 let lastTwo = fruits.slice(-2);
 console.log(lastTwo);
 
@@ -146,8 +146,7 @@ console.log(lastTwo);
 let fromOrange = fruits.slice(1);
 console.log(fromOrange);
 
-// Zero argument:
+// Zero arguments:
 let allFruits = fruits.slice();
 console.log(allFruits);
-
 ```
