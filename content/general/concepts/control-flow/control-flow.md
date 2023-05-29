@@ -1,4 +1,10 @@
-
+---
+Title: 'Control Flow' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
+Description: 'short introduction to the concept of control flow in programming' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
+CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+  - 'learn-how-to-code'
+  - 'paths/code-foundations'
+---
 # Control Flow
     Control flow refers to the order in which statements and instructions are executed in a program. It determines how the program progresses from one instruction to another based on certain conditions and logic. Control flow mechanisms allow developers to create dynamic and flexible programs that can make decisions, repeat tasks, and respond to various inputs.
 
