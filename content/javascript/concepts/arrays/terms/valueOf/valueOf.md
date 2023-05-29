@@ -33,3 +33,18 @@ console.log(newArray);
 ```
 
 **Note:** This method will not change the original array. However, if the original array or the variable which holds it (using the `.valueOf()` method) is manipulated, the value of the array will change accordingly.
+
+### Codebyte Example
+
+The code below uses the `valueOf()` method to return the `fruits` array and assign it to a variable `myBag`. If we make changes to the original `fruits` array by pushing a new element `Pineapple`, the value of `myBag` will also change because it holds a reference to the same `fruits` array.
+
+```codebyte/js
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+const myBag = fruits.valueOf();
+console.log(myBag); // ["Banana", "Orange", "Apple", "Mango"]
+
+fruits.push("Pineapple");
+console.log(myBag); // ["Banana", "Orange", "Apple", "Mango", "Pineapple"]
+
+```

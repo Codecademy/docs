@@ -50,3 +50,14 @@ countToTen.unshift(1, 2);
 console.log(countToTen);
 // Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
+
+### Codebyte Example
+
+The code below adds `Lemon` and `Pineapple` to the beginning of the array `fruits` with the help of the unshift() method.
+
+```codebyte/js
+
+let fruits = ['Apple','Blueberries','Banana','Mango','Orange','Grapes'];
+fruits.unshift("Lemon","Pineapple");
+console.log(fruits);
+```
