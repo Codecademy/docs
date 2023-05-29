@@ -39,7 +39,7 @@ console.log(date.valueOf());
 The following example shows the work of `.valueOf()` method.
 
 ```codebyte/javascript
-const currentDate = new Date('May 29, 2023 20:29:31');
+const exampleDate = new Date('May 29, 2023 20:29:31');
 
-console.log(currentDate.valueOf());
+console.log(exampleDate.valueOf());
 ```

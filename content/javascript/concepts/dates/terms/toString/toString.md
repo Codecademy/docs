@@ -45,9 +45,9 @@ console.log(currentDateString);
 The following example shows the work of `.toString()` method.
 
 ```codebyte/javascript
-const currentDate = new Date('May 29, 2023 20:29:31');
-const currentDateString = currentDate.toString();
+const exampleDate = new Date('May 29, 2023 20:29:31');
+const exampleDateString = exampleDate.toString();
 
-console.log(typeof currentDate);
-console.log(typeof currentDateString);
+console.log(typeof exampleDate);
+console.log(typeof exampleDateString);
 ```
