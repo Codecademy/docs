@@ -18,11 +18,11 @@ The **getFullYear** method returns a four digit year for the date according to l
 myDate.getFullYear()
 ```
 
-The returned value of `.getFullYear()` method is an integer for the provided date.
+The returned value of `.getFullYear()` method is an integer representing the year for the provided date `myDate`
 
 ## Example
 
-In the example below the `year` variable store the value of a new Date object and then logs the year to the console.
+In the example below the `year` variable stores the year returned from a new Date object and then logs it to the console.
 
 ```js
 const year = new Date().getFullYear()
