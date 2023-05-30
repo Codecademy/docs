@@ -11,19 +11,16 @@ Tags:
   - 'Fields'
 CatalogContent:
   - 'learn-go'
-  - 'path/computer-science'
+  - 'paths/computer-science'
 ---
 
-A **struct** is a user-defined type that combines several fields of different data types, normally related, forming a
-collection.
+A **struct** is a user-defined type that combines several fields of different data types, normally related, forming a collection.
 
-It works as a container, holding multiple fields of data, such as integers, strings, booleans, or even other structs,
-making it easy to access and store all the related data without cluttering up the code with multiple variables.
+It works as a container, holding multiple fields of data, such as integers, strings, booleans, or even other structs, making it easy to access and store all the related data without cluttering up the code with multiple variables.
 
 ## Syntax
 
-To declare a struct in Go, use the `type` and `struct` keywords. Inside is declared as many data fields as needed with
-their corresponding data type.
+To declare a struct in Go, use the `type` and `struct` keywords. Inside the curly braces data fields are declared as needed with their corresponding data type.
 
 ```pseudo
 type <struct_name> struct {
@@ -42,8 +39,8 @@ type Rectangle struct {
 }
 ```
 
-In this example, `Rectangle` is the name of the struct, and `width` and `height` are the fields contained in it. The fields
-have a corresponding data type, float64, to be able to store decimal numbers.
+In this example, `Rectangle` is the name of the struct, and `width` and `height` are the fields contained in it. The fields have a corresponding data type, `float64`, to be able to store decimal numbers.
+
 In this particular example, both members have the same data type, but it's not mandatory.
 
 ## Setting values
@@ -67,20 +64,17 @@ func main(){
 }
 ```
 
-In the example above, a Car struct is defined. In the main function, the values are set using the dot notation.
-This method is used to access and modify the fields of a struct. To set the value of a field, use the `.` operator followed
-by the name of the field to modify, and then assign the desired value.
+In the example above, a Car struct is defined. In the `main` function, the values are set using the dot notation.
+This method is used to access and modify the fields of a struct. To set the value of a field, use the `.` operator followed by the name of the field to modify, and then assign the desired value.
 
-This way of setting values is very intuitive and convenient. However, for initializations more complex, is best to consider
+This way of setting values is very intuitive and convenient. However, for more complex initializations, it is best to consider
 other options.
 
 ### Using Default Values
 
-This is a way of initializing struct fields to default values, rather than explicitly setting each one to its value every
-time a new instance of that struct is created.
-To use this method, a constructor function is defined. This will create a new instance of the struct and will set its
-default values if none is provided.
-These default values will be replaced when a new value is set to the field.
+An alternative method is to use default values rather than explicitly setting each one to its value every time a new instance of that struct is created.
+
+To use this method, a constructor function is defined. This will create a new instance of the struct and will set its default values if none are provided. These default values will be replaced when a new value is set to the field.
 
 ```go
 func NewCar(brand string, year int, mileage float64) *myCar {
@@ -94,9 +88,9 @@ func NewCar(brand string, year int, mileage float64) *myCar {
 func main(){
     car1 := NewCar()
 
-    fmt.Printf("Brand: %s\n", car1.Brand)       // output: Brand: Toyota
-    fmt.Printf("Year: %d\n", car1.Year)         // output: Year: 2023
-    fmt.Printf("Mileage: %f\n", car1.Mileage)   // output: Mileage: 0
+    fmt.Printf("Brand: %s\n", car1.Brand)       // Output: Brand: Toyota
+    fmt.Printf("Year: %d\n", car1.Year)         // Output: Year: 2023
+    fmt.Printf("Mileage: %f\n", car1.Mileage)   // Output: Mileage: 0
 }
 ```
 
@@ -110,13 +104,13 @@ type Car struct {
 }
 ```
 
-Not specifying a default value for a field, when initializing it, will set a value of 0 or empty strings.
+If a default value is not specified for a field, when initializing it, it will be assigned a zero value (e.g. 0 for integers, false for bools).
 
 ## Initializing Structs
 
-There are two ways to initialize a struct in Go. With the `var` keyword or a `literal value`.
+There are two ways to initialize a struct in Go. With the `var` keyword or a literal value.
 
-### Using the `var` keyword
+### Using the `var` Keyword
 
 ```go
 type Car struct {
@@ -154,8 +148,7 @@ This way of initializing is handy to initialize the struct with all the field va
 
 ## Adding a Method
 
-Methods are added outside the struct. For that, a receiver function is needed which will have a reference to the struct,
-to allow it to operate on the structs' data. The receiver, the struct itself, is a parameter that provides access to its own fields.
+Methods are added outside the struct. For that, a receiver function is needed which will have a reference to the struct, to allow it to operate on the structs' data. The receiver, the struct itself, is a parameter that provides access to its own fields.
 
 ```codebyte/golang
 package main
@@ -181,4 +174,4 @@ func main() {
 }
 ```
 
-In the example above, the function Drive() takes the Car struct as their receiver, and on the main function, the method is invoked using dot notation printing on the console `I am driving my car.`
+In the example above, the function `Drive()` takes the `Car` struct as the receiver, and in the `main` function the method is invoked using dot notation printing to the console `I am driving my car.`
