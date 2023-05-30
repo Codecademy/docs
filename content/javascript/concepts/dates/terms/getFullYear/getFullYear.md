@@ -1,16 +1,17 @@
 ---
 Title: 'getFullYear()' 
-Description: 'Returns the four digit year for the given date' 
+Description: 'Returns the four digit year for the given date.' 
 Subjects: 
   - 'Web Development'
 Tags: 
   - 'Date'
-  - 'Method'
+  - 'Methods'
 CatalogContent: 
-  - 'paths/web-development'
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-The **getFullYear** method returns a four digit year for the date according to local time.
+The **`getFullYear`** method returns a four digit year for the date according to local time.
 
 ## Syntax
 
@@ -18,7 +19,7 @@ The **getFullYear** method returns a four digit year for the date according to l
 myDate.getFullYear()
 ```
 
-The returned value of `.getFullYear()` method is an integer representing the year for the provided date `myDate`
+The returned value of `.getFullYear()` method is an integer representing the year for the provided date `myDate`.
 
 ## Example
 
