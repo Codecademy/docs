@@ -24,7 +24,7 @@ View
 The `.animation()` modifier takes two arguments:
 
 - An animation type property or method, for example `.easeIn` or `.easeIn(duration: 2)`.
-- A `value` that whenever it changes, triggers the animation, for example a boolean variable called `switchValue`.
+- A `value` that triggers the animation when the `switchValue` variable changes. This variable can be an integer or boolean.
 
 Below is a table describing some of the animation type properties and methods.
 
@@ -48,12 +48,10 @@ The following example shows text that fades in when a button is pressed:
 import SwiftUI
 
 struct AnimationView: View {
-
     @State private var showText = false
 
     var body: some View {
         VStack {
-
             Button("Show Secret Message") {
                 showText.toggle()
             }
@@ -68,7 +66,7 @@ struct AnimationView: View {
 }
 ```
 
-In the above example, `showText` is initially set to `false`, setting the opacity of the view `Text("Hello!")` to be `0`, hiding the text.
+In the example above, `showText` is initially set to `false`, setting the opacity of the view `Text("Hello!")` to be `0`, hiding the text.
 
 When the button is pressed, `showText` changes to be `true` and triggers the animation, easing in the text to a visible opacity of `1` over a `2` second duration.
 
