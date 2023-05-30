@@ -33,3 +33,15 @@ numbers.reverse();
 console.log(numbers);
 // Output: [9, 2, 5]
 ```
+
+## Codebyte Example
+
+The following example below uses '.reverse()' on an array, 'sports', to reverse the order of the elements. 
+
+```codebyte/js
+const sports = ['baseball', 'basketball', 'football', 'socccer'];
+console.log(sports)
+
+const reversedSports = sports.reverse()
+console.log(reversedSports)
+```
