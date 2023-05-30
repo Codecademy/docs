@@ -12,7 +12,7 @@ CatalogContent:
   - 'intro-to-chatgpt'
 ---
 
-**Large language models (LLMs)** are artificial intelligence systems that are designed to process and generate human language on a massive scale. These models are trained on vast amounts of text data and use advanced machine learning algorithms to learn the patterns and structures of language. LLMs have become increasingly popular in recent years due to their ability to perform a wide range of language-related tasks such as language translation, text summarization, and question-answering. Some examples of LLMs include [OpenAI's](https://openai.com) GPT series, Google's BERT, and Facebook's [RoBERTa](https://www.open-roberta.org).
+**Large language models (LLMs)** are artificial intelligence systems that are designed to process and generate human language on a massive scale. These models are trained on vast amounts of text data and use advanced machine learning algorithms to learn the patterns and structures of language. LLMs have become increasingly popular in recent years due to their ability to perform a wide range of language-related tasks such as language translation, text summarization, and question-answering. Some examples of LLMs include [OpenAI's](https://openai.com) GPT series, Google's BERT and Bard (powered by LaMDA), and Facebook's [RoBERTa](https://www.open-roberta.org).
 
 LLMs typically consist of a large neural network architecture that is trained on massive datasets. These models are trained using unsupervised learning techniques, which means that they do not require explicit human supervision to learn. Instead, they learn from the patterns and structures present in the data.
 
