@@ -44,7 +44,7 @@ The output will be:
 
 ## Codebyte Example
 
-In this excecutable example, a value is assigned to the variable `$x`. Then the `tanh()` function is called, passing `$x` as the input. The returned result is stored in the variable `$result`. Finally, echo is used to display the calculated hyperbolic tangent value.:
+In this excecutable example, a value is assigned to the variable `$x`. Then the `tanh()` function is called, passing `$x` as the input. The returned result is stored in the variable `$result`. Finally, echo is used to display the calculated hyperbolic tangent value.
 
 ```codebyte/php
 <?php
