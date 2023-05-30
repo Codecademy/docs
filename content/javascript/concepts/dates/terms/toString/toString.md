@@ -42,7 +42,7 @@ console.log(currentDateString);
 
 ## Codebyte Example
 
-The following example shows the work of `.toString()` method.
+The following is runnable, and demonstrates the use of the `.toString()` method.
 
 ```codebyte/javascript
 const exampleDate = new Date('May 29, 2023 20:29:31');
