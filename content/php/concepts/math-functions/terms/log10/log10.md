@@ -21,8 +21,6 @@ The **`log10()`** function returns the base-10 logarithm of a number.
 log10($arg);
 ```
 
-## Parameters
-
 The function accepts a single parameter `$arg` which refers to the number of whose the logarithm is to be calculated.
 
 ## Codebyte Example
