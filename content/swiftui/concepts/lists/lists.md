@@ -12,7 +12,7 @@ CatalogContent:
 ---
 
 
-Lists in **SwiftUI** are single-column containers that vertically display a collection of items. The `List` component is used to create this feature. 
+**Lists** in SwiftUI are single-column containers that vertically display a collection of items. The `List` component is used to create this feature. 
 
 ##  Creating Lists 
 SwiftUI offers you many ways to create lists. Say for example, your groccery list app to show the items of food you want after the navigation section. Here's how it would look: 
