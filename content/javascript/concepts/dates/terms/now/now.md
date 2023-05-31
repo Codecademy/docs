@@ -59,7 +59,7 @@ console.log(monthsSince1970);
 
 The following executable example returns the current timestamp in milliseconds since January 1, 1970 00:00:00 UTC:
 
-> **Note**: The code will output different values each time it is executed.
+> **Note**: The code will print different values each time it is executed.
 
 ```codebyte/javascript
 
