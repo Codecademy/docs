@@ -1,32 +1,31 @@
 ---
-Title: 'getFullYear()' 
-Description: 'Returns the four digit year for the given date.' 
-Subjects: 
+Title: 'getFullYear()'
+Description: 'Returns the four digit year for the given date.'
+Subjects:
   - 'Web Development'
-Tags: 
+Tags:
   - 'Date'
   - 'Methods'
-CatalogContent: 
+CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`getFullYear`** method returns a four digit year for the date according to local time.
+The **`.getFullYear()`** method returns a four digit year for the date according to local time.
 
 ## Syntax
 
 ```js
-myDate.getFullYear()
+myDate.getFullYear();
 ```
 
-The returned value of `.getFullYear()` method is an integer representing the year for the provided date `myDate`.
+The returned value of the `.getFullYear()` method is an integer representing the year for the provided date `myDate`.
 
-## Example
+## Codebyte Example
 
 In the example below the `year` variable stores the year returned from a new Date object and then logs it to the console.
 
-```js
+```codebyte/javascript
 const year = new Date().getFullYear()
 console.log(year)
 ```
-
