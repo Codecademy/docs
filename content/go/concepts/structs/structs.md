@@ -43,7 +43,7 @@ In this example, `Rectangle` is the name of the struct, and `width` and `height`
 
 In this particular example, both members have the same data type, but it's not mandatory.
 
-## Setting values
+## Setting Values
 
 ### Using Dot Notation
 
@@ -77,22 +77,20 @@ An alternative method is to use default values rather than explicitly setting ea
 To use this method, a constructor function is defined. This will create a new instance of the struct and will set its default values if none are provided. These default values will be replaced when a new value is set to the field.
 
 ```go
-func NewCar(brand string, year int, mileage float64) *myCar {
-    return &myCar{
-        Brand: "Toyota",
-        Year: 2023,
-        Mileage: 0
-    }
+func NewCar(brand string, year int, mileage float64) *Car {
+    return &Car{brand, year, mileage}
 }
 
 func main(){
-    car1 := NewCar()
+    car1 := NewCar("Toyota", 2023, 0)
 
-    fmt.Printf("Brand: %s\n", car1.Brand)       // Output: Brand: Toyota
-    fmt.Printf("Year: %d\n", car1.Year)         // Output: Year: 2023
-    fmt.Printf("Mileage: %f\n", car1.Mileage)   // Output: Mileage: 0
+    fmt.Printf("Brand: %s\n", car1.brand)       // Output: Brand: Toyota
+    fmt.Printf("Year: %d\n", car1.year)         // Output: Year: 2023
+    fmt.Printf("Mileage: %f\n", car1.mileage)   // Output: Mileage: 0
 }
 ```
+
+> **Note:** Constructor functions such as `NewCar`, in the code above, return struct pointers. The `*` operator is used in the function statement to declare the return value as a pointer type, and the `&` address operator is designating the returned `Car` struct as a pointer, a reference to a memory location.
 
 There's another way to set default values.
 
@@ -121,7 +119,7 @@ type Car struct {
 
 func main() {
 
-    var grandmaCar = Car
+    var grandmaCar Car
     grandmaCar.brand = "Toyota"
     grandmaCar.year = 1993
     grandmaCar.mileage = 251200.84
@@ -139,8 +137,8 @@ func main() {
     dadsCar := Car{
        brand: "Range Rover",
        year: 2022,
-       mileage: 10005.25
-       }
+       mileage: 10005.25,
+    }
 }
 ```
 
