@@ -1,5 +1,5 @@
 ---
-Title: 'getFullYear()'
+Title: '.getFullYear()'
 Description: 'Returns the four digit year for the given date.'
 Subjects:
   - 'Web Development'
