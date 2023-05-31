@@ -33,7 +33,6 @@ Parameters of the `.amin()` function:
 * `inital`: The maximum value of an output element.
 * `where`: A boolean array that maps to `array` and selects which elements to compare for the minimum.
 
-
 Returns:
 
 * If axis is None, the result would be a scalar value of the minimum element of the array.
