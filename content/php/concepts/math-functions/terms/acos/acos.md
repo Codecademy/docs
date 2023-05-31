@@ -1,6 +1,7 @@
 ---
 Title: 'acos()'
-Description: 'Returns a rounded number down to the nearest integer.'
+Description: 'Returns the angle whose cosine value is equal to the specified value.'
+
 Subjects:
   - 'Computer Science'
   - 'Web Design'
