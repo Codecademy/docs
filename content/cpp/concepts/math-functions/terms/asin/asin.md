@@ -40,7 +40,7 @@ int main() {
 
 ## Codebyte Example
 
-In this example, the `std::asin()` function is applied to the variable `x`, which holds the value `0.5`. The `std::asin()` function returns the inverse sine (also known as arcsine) of the provided argument. The inverse sine of `0.5` is approximately `0.5236` radians
+In this example, the `std::asin()` function is applied to the variable `x`, which holds the value `0.5`. The `std::asin()` function returns the inverse sine (also known as arcsine) of the provided argument.
 
 ```codebyte/cpp
 #include <iostream>
