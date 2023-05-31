@@ -1,5 +1,5 @@
 ---
-Title: 'floor()'
+Title: 'acos()'
 Description: 'Returns a rounded number down to the nearest integer.'
 Subjects:
   - 'Computer Science'
