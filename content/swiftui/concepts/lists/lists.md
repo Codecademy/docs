@@ -19,9 +19,9 @@ SwiftUI offers many ways to create lists. Say for example, the groccery list app
 ```
 NavigationView {
 List { 
-Diary
-Produce
-Meats
+View 1
+View 2
+View 
 } 
 }
 ```
