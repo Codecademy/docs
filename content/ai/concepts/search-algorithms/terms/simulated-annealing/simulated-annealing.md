@@ -22,4 +22,4 @@ CatalogContent:
 - The annealing parameters are set, raising and reducing the temperatures (the scale of such distribution from point to point) for lowering values. The simulated annealing is concluded when it reaches the lowest minima or hits a certain stopping criteria.
 
 ## Describe It's Relation To AI
-- 
+- Simulated annealing uses machine learning to constantly improve itself based on an algorithm which tests various points over and over to find the lowest minima. This is done via a similar process called physical annealing, the process through which a material is heated till the annealing temperature and then cooled down for the desired structure formation.
