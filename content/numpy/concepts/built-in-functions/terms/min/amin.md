@@ -11,13 +11,10 @@ Tags:
   - 'NumPy'
 CatalogContent:
   - 'learn-python-3'
-  - 'paths/computer-science'
   - 'paths/data-science'
-  - 'paths/data-science-foundations'
 ---
 
-The **`.amin()`** function returns the minimum of an array or minimum along an axis. The `a.min()` function have the equivalent `ndarray.min()` method.
-
+The **`.amin()`** function returns the minimum of an array or minimum along an axis. The `a.min()` function is equivalent to `ndarray.min()`.
 
 ## Syntax
 
@@ -27,12 +24,12 @@ numpy.amin(a, axis, out, keepdims, initial, where)
 
 The `a` parameter is required and represents the array of elements to choose the minimum from. All other parameters are optional.
 
-Parameters of `.amin()` function:
+Parameters of the `.amin()` function:
 
 * `a`: The array of elements to choose the minimum from.
-* `axis`: An int or a tuple of ints specifying the axis/axes along which to choose the minimum. By default the flattened input is used (`axis=None`).
+* `axis`: An int or a tuple of ints specifying the axis/axes along which to choose the minimum. By default it is set as `axis=None`.
 * `out`: An [`ndarray`](https://www.codecademy.com/resources/docs/numpy/ndarray) to receive result. Must have the same shape as expected output.
-* `keepdims`: a boolean; if `True` will keep reduced axes in the result as dimensions with size one.
+* `keepdims`: A boolean; if `True` will keep reduced axes in the result as dimensions with size one.
 * `inital`: The maximum value of an output element.
 * `where`: A boolean array that maps to `array` and selects which elements to compare for the minimum.
 
@@ -40,8 +37,8 @@ Parameters of `.amin()` function:
 Returns:
 
 * If axis is None, the result would be a scalar value of the minimum element of the array.
-* If axis is an integer, the result would be an array of dimension a.ndim -1.
-* If axis is a tuple, the result would be an array of dimension a.ndim - len(axis)
+* If axis is an integer, the result would be an array of dimension `a.ndim - 1`.
+* If axis is a tuple, the result would be an array of dimension `a.ndim - len(axis)`.
 
 ## Example
 
