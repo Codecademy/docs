@@ -18,7 +18,7 @@ The `str_repeat()` function returns a string that repeats a substring a specifie
 ## Syntax
 
 ```pseudo
-str_replace($string, $repeat)
+str_repeat($string, $repeat)
 ```
 
 - `$string`: Specifies the string argument to repeat. It is required.
