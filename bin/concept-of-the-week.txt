@@ -1,1 +1,1 @@
-content/cpp/concepts/structure/structure.md
+content/cpp/concepts/arrays/arrays.md
