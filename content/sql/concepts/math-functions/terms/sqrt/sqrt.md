@@ -18,7 +18,7 @@ CatalogContent:
 
 ## Syntax
 
-```sql
+```pseudo
 SELECT SQRT(number);
 ```
 
