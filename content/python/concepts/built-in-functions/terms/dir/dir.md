@@ -23,7 +23,7 @@ dir(object)
 
 ## Example
 
-Use `dir(Atomo)`  to return all properties and methods of the Atomo object, without values.
+The example below uses `dir()` to return all of the properties and methods of the `Atomo` object, without values.
 
 ```py
 class Atomo:
