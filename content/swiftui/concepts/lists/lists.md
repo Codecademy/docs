@@ -11,7 +11,6 @@ CatalogContent:
   - 'paths/ios-developer'
 ---
 
-# SwiftUI Lists
 
 Lists in **SwiftUI** are single-column containers that vertically display a collection of items. The `List` component is used to create this feature. 
 
