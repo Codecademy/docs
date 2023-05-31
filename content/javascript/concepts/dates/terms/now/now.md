@@ -54,3 +54,16 @@ console.log(monthsSince1970);
 // Output: 627
 // Note: your output may vary
 ```
+
+## Codebyte Example
+
+The following executable example returns the current timestamp in milliseconds since January 1, 1970 00:00:00 UTC:
+
+> **Note**: The code will output different values each time it is executed.
+
+```codebyte/javascript
+
+const currentTimeStamp = Date.now();
+console.log(currentTimeStamp);
+
+```
