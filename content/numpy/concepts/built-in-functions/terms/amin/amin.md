@@ -11,7 +11,9 @@ Tags:
   - 'NumPy'
 CatalogContent:
   - 'learn-python-3'
+  - 'paths/computer-science'
   - 'paths/data-science'
+  - 'paths/data-science-foundations'
 ---
 
 The **`.amin()`** function returns the minimum of an array or minimum along an axis.
