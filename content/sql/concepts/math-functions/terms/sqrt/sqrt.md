@@ -19,7 +19,7 @@ CatalogContent:
 ## Syntax
 
 ```pseudo
-SELECT SQRT(number);
+SQRT(number);
 ```
 
 ## Example
