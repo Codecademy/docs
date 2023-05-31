@@ -18,17 +18,20 @@ CatalogContent:
 
 ## Syntax
 
-```sql
-SELECT SQRT(number);
+```pseudo
+SQRT(number);
 ```
+
+Number in this case should be any positive integer or variable. For example, 144 as seen below.
 
 ## Example
 
-For example, the square root of 144 is 12, as 12 multiplied by 12 equals 144. It is important to note, SQRT() requires a positive number, and will always return a positive number.
+The square root of 144 is 12, as 12 multiplied by 12 equals 144. It is important to note, SQRT() requires a positive number, and will always return a positive number.
 
 ```sql
 SELECT SQRT(144);
 ```
+
 Yields:
 
 ```sql
