@@ -23,7 +23,8 @@ The built-in math function **`acos()`** determines the `arc cosine` of a given v
 $result = acos(number);
 ```
 
-Where `number` is the number that should be Specifies in range -1 to 1.
+Where `number` is the number that the function returns the arc cosine for. Should be specified in range -1 to 1.
+
 
 ## Example
 
