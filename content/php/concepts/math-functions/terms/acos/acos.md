@@ -33,7 +33,8 @@ acos(0.64)
 ```
 
 The result will be a float value of `0.87629806116834`.
-acos(-1) returns the value of Pi.
+`acos(-1)` returns the value of Pi.
+
 ## Codebyte Example
 
 The `acos()` function returns the arc cosine of the given number as a float value in radians.
