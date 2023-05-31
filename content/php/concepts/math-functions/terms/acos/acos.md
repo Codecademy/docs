@@ -15,7 +15,6 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-
 The built-in math function **`acos()`** determines the `arc cosine` of a given value. The inverse cosine function, which is used to identify the angle whose cosine value is equal to the specified value, is referred to as the `arc cosine` function.
 
 ## Syntax
