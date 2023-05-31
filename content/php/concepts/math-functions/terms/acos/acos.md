@@ -33,7 +33,7 @@ acos(0.64)
 // Output: 0.87629806116834
 ```
 
-The result will be a float value of `0.87629806116834` as the function angle in `rad`.
+The result will be a float value of `0.87629806116834`.
 acos(-1) returns the value of Pi.
 ## Codebyte Example
 
