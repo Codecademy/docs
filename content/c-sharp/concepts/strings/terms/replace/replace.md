@@ -92,3 +92,23 @@ It produces the following output to the console:
 False statement: Earth is the fourth planet from the Sun.
 True statement: Earth is the third planet from the Sun.
 ```
+
+## Codebyte Example
+
+In the following runnable example, the `.Replace()` function is used to create a `replacedString` from the `originalString`. Then both string are printed to the console:
+
+```codebyte/csharp
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string originalString = "Hello, world!";
+        string replacedString = originalString.Replace("world", "universe");
+
+        Console.WriteLine("Original string: " + originalString);
+        Console.WriteLine("Replaced string: " + replacedString);
+    }
+}
+```
