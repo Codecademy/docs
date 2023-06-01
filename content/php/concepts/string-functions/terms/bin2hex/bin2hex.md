@@ -1,6 +1,6 @@
 ---
 Title: 'bin2hex()'
-Description: 'Converts a string of hexadecimal values to its binary representation.'
+Description: 'Converts a string to hexadecimal values.'
 Subjects:
   - 'Computer Science'
   - 'Web Design'
@@ -13,26 +13,42 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`bin2hex()`** function converts a string of hexadecimal values to its binary representation.
+The **`bin2hex()`** function converts a string of characters to hexadecimal values.
 
-> **Note:** This function does **NOT** convert a hexadecimal number to a binary number. The `hex2bin()` function is available only in PHP 5.4.0 and later versions.
+> **Note:** This function does **NOT** convert strings representing binary digits into hexadecimal values.
 
 ## Syntax
 
 ```pseudo
-hex2bin(hex_string);
+bin2hex(char_string);
 ```
 
-The `hex_string` parameter represents the string of hexadecimal values to be converted.
+The `bin2hex()` function takes only one parameter, `char_string`, characters of type `string`. The function returns the hexadecimal value of the given `char_string`.
+
+### Example
+
+The following example uses the `bin2hex()` function to convert the `string` of `PHP` into hexadecimal values. Then the `echo` command prints this value to the console:
+
+```php
+<?php
+  echo bin2hex("PHP");
+?>
+```
+
+The example will result in the following output:
+
+```shell
+504850
+```
 
 ## Codebyte Example
 
-The following example shows how to use the `hex2bin()` function:
+The following example is runnable and creates a new string variable, `my_string`. Next, it uses the `bin2hex()` function to convert `my_string` into a hexadecimal value, and finally, the `echo` command prints this value to the console:
 
 ```codebyte/php
 <?php
-  $hex_string = '48656c6c6f20576f726c6421';
-  $binary_string = hex2bin($hex_string);
-  echo $binary_string . PHP_EOL;
+  $my_string = 'I am learning PHP';
+  $hex_value = bin2hex($my_string);
+  echo "The hexadecimal value of `" . $my_string ."` characters are: " . $hex_value;
 ?>
 ```
