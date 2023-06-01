@@ -22,7 +22,7 @@ CatalogContent:
 SQRT(number);
 ```
 
-Number in this case should be any positive integer. For example, 144 as seen below.
+`number` in this case should be any positive integer. For example, 144 as seen below.
 
 ## Example
 
