@@ -26,7 +26,7 @@ SQRT(number);
 
 ## Example
 
-The square root of 144 is 12, as 12 multiplied by 12 equals 144. It is important to note, SQRT() requires a positive number, and will always return a positive number.
+The square root of 144 is 12, as 12 multiplied by 12 equals 144. It is important to note, `SQRT()` requires a positive number, and will always return a positive number.
 
 ```sql
 SELECT SQRT(144);
