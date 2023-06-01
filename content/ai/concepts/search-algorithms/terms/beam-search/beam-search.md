@@ -33,30 +33,30 @@ It is important to note that every level of the search tree contains at most β 
 
 Consider the following example of searching a graph from **S** to **G**. For simplicity, only the edge weights will be used for evaluation. A beam width of β = 2 will be used, meaning only the top two nodes are considered at every level.
 
-![Example-graph](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-example-graph.png)
+[Example-graph](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-example-graph.png)
 
 Initialize the tree and add **S** to the **closed list**:
 
-![BEAM-Search-1](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-Tree-1.png)
+[BEAM-Search-1](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-Tree-1.png)
 
 **S** only has one adjacent node, so it is added to the tree:
 
-![BEAM-Search-2](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-Tree-2.png)
+[BEAM-Search-2](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-Tree-2.png)
 
 Explore **I**. Nodes **N** and **H** are the top two nodes, so those are added to the tree:
-![BEAM-Search-3](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-Tree-3.png)
+[BEAM-Search-3](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-Tree-3.png)
 
 Nodes **F** (adjacent to **H** in the graph) and **L** (adjacent to **N** in the graph) are next:
-![BEAM-Search-4](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-Tree-4.png)
+[BEAM-Search-4](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-Tree-4.png)
 
 The incompleteness of this algorithm can be seen in this step. Node **G** has appeared in the **open list** but unfortunately, it has been eliminated by the beam width. Nodes **M** and **C** are next:
-![BEAM-Search-5](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-Tree-5.png)
+[BEAM-Search-5](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-Tree-5.png)
 
 It is in this step that node **G** has been found:
-![BEAM-Search-6](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-Tree-6.png)
+[BEAM-Search-6](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-Tree-6.png)
 
 Trace the path from **S** to **G**:
-![Final-path](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-final-path.png)
+[Final-path](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-final-path.png)
 
 ## Advantages and Disadvantages
 
