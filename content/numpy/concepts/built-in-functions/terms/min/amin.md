@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.amin()`** function returns the minimum of an array or minimum along an axis. The `a.min()` function is equivalent to `ndarray.min()`.
+The **`.amin()`** function returns the minimum of an array or minimum along an axis. The `.amin()` function is equivalent to `ndarray.min()`.
 
 ## Syntax
 
