@@ -95,7 +95,7 @@ True statement: Earth is the third planet from the Sun.
 
 ## Codebyte Example
 
-In the following runnable example, the `.Replace()` function is used to create a `replacedString` from the `originalString`. Then both string are printed to the console:
+In the following runnable example, the `.Replace()` method is used to create a `replacedString` from the `originalString`. Then both string are printed to the console:
 
 ```codebyte/csharp
 using System;
