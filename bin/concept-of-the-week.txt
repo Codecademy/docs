@@ -1,1 +1,1 @@
-content/python/concepts/conditionals/conditionals.md
+content/cpp/concepts/arrays/arrays.md
