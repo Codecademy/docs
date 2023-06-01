@@ -14,7 +14,7 @@ CatalogContent:
   - 'path/analyze-data-with-sql'
 ---
 
-**SQRT()** is a function in SQL that returns the square root of a number input. The square root of any given number is a number that multiplied by itself will result in the number. 
+**`SQRT()`** is a function in SQL that returns the square root of a number input. The square root of any given number is a value that multiplied by itself will result in the passed number. 
 
 ## Syntax
 
