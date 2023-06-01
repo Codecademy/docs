@@ -57,13 +57,18 @@ console.log(monthsSince1970);
 
 ## Codebyte Example
 
-The following executable example returns the current timestamp in milliseconds since January 1, 1970 00:00:00 UTC:
-
-> **Note**: The code will print different values each time it is executed.
+In this example, the function measures the time taken to execute a task. The code records the start time using Date.now() before the task and the end time after the task.
 
 ```codebyte/javascript
+const startTime = Date.now();
 
-const currentTimeStamp = Date.now();
-console.log(currentTimeStamp);
+// Simulate a time-consuming task
+for (let i = 0; i < 3000000000; i++) {
+  // Perform some calculations
+}
 
+const endTime = Date.now();
+const executionTime = endTime - startTime;
+
+console.log(`Execution time: ${executionTime} milliseconds`);
 ```

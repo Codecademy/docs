@@ -93,7 +93,6 @@ Monday April 11, 2022
 In the following example the variables `region` and `options` can be modified, to print the Date in a custom format:
 
 ```codebyte/javascript
-
 const today = new Date(Date.now());
 
 const region = 'de-DE';
@@ -105,5 +104,4 @@ const options = {
 };
 
 console.log(today.toLocaleDateString(region, options));
-
 ```
