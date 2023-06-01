@@ -12,7 +12,18 @@ CatalogContent:
 ---
 
 
-**Lists** in SwiftUI are single-column containers that vertically display a collection of items. The `struct` component is used to create this feature. 
+**Lists** in SwiftUI are single-column containers that vertically display a collection of items. The `struct` component is used to create this feature. Here is an example:
+```
+struct ListExample: View {
+  var body: some View {
+    List {
+      Text("Item 1")
+      Text("Item 2")
+      Text("Item 3")
+    }
+  }
+}
+```
 
 ##  Creating Lists 
 SwiftUI offers many ways to create lists. Say for example, the groccery list app can show the user's desired items of food after the navigation section. Here's how it would look: 
