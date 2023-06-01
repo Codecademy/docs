@@ -15,7 +15,7 @@ CatalogContent:
 
 The **`bin2hex()`** function converts a string of characters to hexadecimal values.
 
-> **Note:** This function does **NOT** convert strings representing binary digits into hexadecimal values.
+> **Note:** This function does **NOT** convert strings representing binary digits to hexadecimal values.
 
 ## Syntax
 
@@ -27,7 +27,7 @@ The `bin2hex()` function takes only one parameter, `char_string`, characters of 
 
 ### Example
 
-The following example uses the `bin2hex()` function to convert the `string` of `PHP` into hexadecimal values. Then the `echo` command prints this value to the console:
+The following example uses the `bin2hex()` function to convert the `string` of `"PHP"` to hexadecimal values. Then the `echo` command prints this value to the console:
 
 ```php
 <?php
