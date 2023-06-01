@@ -20,7 +20,7 @@ Removes the last element of an array, decrements the array length, and returns t
 array.pop();
 ```
 
-## Examples
+## Example
 
 To pop the element `'sleep'` from the `schedule` array:
 
@@ -29,15 +29,19 @@ const schedule = ['wake up', 'eat', 'work', 'play', 'sleep'];
 const lastThingToDo = schedule.pop();
 
 console.log(lastThingToDo);
-// Output: sleep
-
 console.log(schedule);
-// Output: ['wake up', 'eat', 'work', 'play']
+```
+
+This results in the following output:
+
+```shell
+sleep
+['wake up', 'eat', 'work', 'play']
 ```
 
 ## Codebyte Example
 
-The following example below uses '.pop()' on an array, 'flavor', to remove the last element.
+The following example below uses `.pop()` on an array, `flavor`, to remove the last element.
 
 ```codebyte/js
 const flavor = ['Vanilla', 'Chocolate', 'Strawberry', 'Oreo'];
