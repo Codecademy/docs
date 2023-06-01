@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`bin2hex()`** function converts a string of characters to hexadecimal values.
+The **`bin2hex()`** function converts a `string` of characters to a `string` of hexadecimal values.
 
 > **Note:** This function does **NOT** convert strings representing binary digits to hexadecimal values.
 
@@ -23,7 +23,7 @@ The **`bin2hex()`** function converts a string of characters to hexadecimal valu
 bin2hex(char_string);
 ```
 
-The `bin2hex()` function takes only one parameter, `char_string`, characters of type `string`. The function returns the hexadecimal value of the given `char_string`.
+The `bin2hex()` function takes only one parameter as a `string`, `char_string`. The function returns a `string`, the hexadecimal value of `char_string`.
 
 ### Example
 
@@ -43,12 +43,12 @@ The example will result in the following output:
 
 ## Codebyte Example
 
-The following example is runnable and creates a new string variable, `my_string`. Next, it uses the `bin2hex()` function to convert `my_string` into a hexadecimal value, and finally, the `echo` command prints this value to the console:
+The following example is runnable and creates a new `string` type variable, `my_string`. Then, the `bin2hex()` function converts `my_string` into a hexadecimal value, and finally, the `echo` command prints this value to the console:
 
 ```codebyte/php
 <?php
-  $my_string = 'I am learning PHP';
+  $my_string = "I am learning PHP";
   $hex_value = bin2hex($my_string);
-  echo "The hexadecimal value of `" . $my_string ."` characters are: " . $hex_value;
+  echo "The hexadecimal value of \"" . $my_string ."\" characters are: " . $hex_value;
 ?>
 ```
