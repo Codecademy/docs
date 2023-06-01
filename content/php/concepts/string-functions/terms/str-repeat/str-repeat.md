@@ -1,6 +1,5 @@
 ---
 Title: 'str_repeat()'
-Description: 'Returns a string with occurrences of a specified substring repeated a specified number of times.'
 Description: 'Returns a string that repeats a substring a specified number of times.'
 Subjects:
   - 'Computer Science'
@@ -13,10 +12,7 @@ CatalogContent:
   - 'learn-php'
   - 'paths/computer-science'
 ---
-
 The `str_repeat()` function returns a string that repeats a substring a specified number of times.
-
-@@ -18,11 +18,11 @@ The `str_repeat()` function returns a string that repeats a substring a specifie
 ## Syntax
 
 ```pseudo
@@ -25,6 +21,7 @@ str_repeat($string, $repeat)
 
 - `$string`: Specifies the string argument to repeat. It is required.
 - `$repeat`: Specifies the number of times the string will be repeated. Must be greater or equal to 0. It is also required.
+
 
 ## Codebyte Example
 
