@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`repr()`** function returns a printable string describing the object that is passed in. It gives us the string representation passed implicitly to the `eval()` function.
+The **`repr()`** function returns a printable string describing the object that is passed in. In other words, it returns the string representation passed implicitly to the `eval()` function.
 
 A class can control what this function returns for its instances when called by defining a [`__repr__()`](https://www.codecademy.com/resources/docs/python/dunder-methods/repr) dunder method.
 
@@ -26,7 +26,7 @@ repr(object)
 
 ## Codebyte Example
 
-Bellow, two instances of `repr()` are called:
+Below, two instances of `repr()` are called:
 
 - The first one returns the default value (a string with the name and address of the object, enclosed in angle brackets).
 - The second defines the output string and implements the `__repr__()`method.
@@ -44,5 +44,4 @@ var = Variable()
 
 print(repr(cte))
 print(repr(var))
-
 ```
