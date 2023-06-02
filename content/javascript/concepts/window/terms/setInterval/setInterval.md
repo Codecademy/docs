@@ -1,5 +1,5 @@
 ---
-Title: 'setinterval'
+Title: 'setinterval()'
 Description: 'Executes a function repeatedly at specified intervals.'
 Subjects:
   - 'Web Development'
