@@ -42,7 +42,7 @@ Below is a table describing some of the animation type properties and methods.
 
 ## Example
 
-The following example shows text that fades in when a button is pressed:
+The following example shows text that fades in when a [button](https://www.codecademy.com/resources/docs/swiftui/views/button) is pressed:
 
 ```swift
 import SwiftUI
