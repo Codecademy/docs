@@ -15,7 +15,7 @@ In HTML, a quotation is a portion of text that is attributed to a specific perso
 
 ## Short Quotations
 
-Short quotations are used for brief, inline quotations that are a few words or less. To create a short quotation, you can use the [`<q>` tag](https://www.codecademy.com/resources/docs/html/elements/q). Here's an example of how to use the `<q>` tag:
+Short quotations such as a short sentence or fragment should be set off with the [`<q>` tag](https://www.codecademy.com/resources/docs/html/elements/q). Here's an example of how to use the `<q>` tag:
 
 ```pseudo
 <p>According to Albert Einstein, <q>Imagination is more important than knowledge.</q></p>
