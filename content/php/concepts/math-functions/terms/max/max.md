@@ -40,7 +40,7 @@ $max_value = max([$var1, $var2, $var3]);
 
 ```
 
-In this case, the **`max()`** function compares the values in the array `[$var1, $var2, $var3]`, and returns the highest value among them, which is then assigned to the variable `$max_value`.
+In this case, the **`max()`** function compares the values in the array `[$var1, $var2, $var3]`, returns the highest value among them, and then assigns it to the variable `$max_value`.
 
 It's important to note that if the **`max()`** function is called with a single non-array parameter, like this:
 
