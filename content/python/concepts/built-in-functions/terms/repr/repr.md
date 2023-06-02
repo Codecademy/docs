@@ -18,7 +18,7 @@ A class can control what this function returns for its instances when called by 
 
 ## Syntax
 
-The `repr()` function accepts a single object as parameter. 
+The `repr()` function accepts a single object as parameter.
 
 ```pseudo
 repr(object)
@@ -39,7 +39,7 @@ class Variable:
     pass
   def __repr__(self):
     return "Undefined variable"
-    
+
 var = Variable()
 
 print(repr(cte))
