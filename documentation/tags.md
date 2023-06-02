@@ -184,6 +184,7 @@ Logical
 Logistic Regression
 Loops
 Map
+Machine Learning
 Margin
 MATLAB
 Matplotlib
@@ -220,6 +221,7 @@ Padding
 Pandas
 Paragraph
 Parameters
+Perceptrons
 Phaser
 Physics
 Pointers
