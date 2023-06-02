@@ -17,7 +17,7 @@ The **`prompt()`** function is serviced globally by the `window` object provided
 
 ## Syntax
 
-`prompt()` expects 1 to 2 parameters.
+`prompt()` expects up to two parameters.
 
 Below are examples of how `prompt()` can be composed:
 
@@ -29,11 +29,12 @@ prompt(message)
 prompt(message, defaultValue)
 ```
 
-The first one is used to display the title of the dialog. The second is used for an optional default value used in case the user does not input any data, otherwise `prompt()` returns null.
+- `message` is used to display the title of the dialog.
+- `defaultValue` is used for an optional default value used in case the user does not input any data, otherwise `prompt()` returns null.
 
 ## Example
 
-In the following code sample, the browser will automatically stop any running JavaScript code until the user clicks on the `OK` button or `cancel` button. If the user clicks on the cancel button, `'Chihuahuas'` will be printed out.
+In the following code sample, the browser will automatically stop any running JavaScript code until the user clicks on the `OK` or `cancel` button. If the user clicks on the cancel button, `'Chihuahuas'` will be printed out:
 
 ```js
 const dog = prompt("What's your favorite dog?", 'Chihuahuas');
