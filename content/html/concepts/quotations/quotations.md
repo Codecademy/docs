@@ -29,9 +29,9 @@ Long quotations are used for quotations that are longer than a few words and typ
 
 ```pseudo
 <blockquote>
-<p>"The best way to predict your future is to create it."</p>
-<footer>Abraham Lincoln</footer>
+  <p>"The greatest glory in living lies not in never falling, but in rising every time we fall. The way to get started is to quit talking and begin doing. Your time is limited, don't waste it living someone else's life. Don't be trapped by dogma, which is living the result of other people's thinking. Don't let the noise of other's opinions drown your own inner voice. And most important, have the courage to follow your heart and intuition. They somehow already know what you truly want to become. Everything else is secondary."</p> 
 </blockquote>
+
 ```
 
 In this example, the text "The best way to predict your future is to create it" is enclosed in the `<blockquote>` tag to indicate that it's a quotation. The `<footer>` tag is used to specify the author of the quote.
