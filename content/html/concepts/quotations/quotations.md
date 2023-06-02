@@ -1,6 +1,6 @@
 ---
 Title: 'Quotations'
-Description: 'In HTML, a quotation is a portion of text that is attributed to someone else. '
+Description: 'In HTML, a quotation is a portion of text that is attributed to a specific person or source.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
