@@ -27,7 +27,7 @@ In this example, the text "Imagination is more important than knowledge" is encl
 
 For longer quotations the `[<blockquote>](https://www.codecademy.com/resources/docs/html/elements/blockquote)` tag is used in lieu of `<q>`. Here's an example of how to use the `<blockquote>` tag:
 
-```pseudo
+```html
 <blockquote>
 <p>"The best way to predict your future is to create it."</p>
 <footer>Abraham Lincoln</footer>
