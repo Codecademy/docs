@@ -48,7 +48,7 @@ It's important to note that if the **`max()`** function is called with a single 
 $max_value = max($var1);
 ```
 
-it will cause a PHP error, because the function expects at least two parameters when called with multiple values. Therefore, to use **`max()`** with a single value, it's necessary to put it into an array:
+The function expects at least two parameters when called with multiple values. Therefore, to use **`max()`** with a single parameter, it's necessary to use an array:
 
 ```php
 $max_value = max([$var1]);
