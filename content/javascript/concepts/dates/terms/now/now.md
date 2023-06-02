@@ -57,7 +57,7 @@ console.log(monthsSince1970);
 
 ## Codebyte Example
 
-In this example, the function measures the time taken to execute a task. The code records the start time using Date.now() before the task and the end time after the task.
+In this example, the function measures the time taken to execute a task. The code records the start time using `Date.now()` before the task and again after the task is complete.
 
 ```codebyte/javascript
 const startTime = Date.now();
