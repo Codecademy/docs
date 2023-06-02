@@ -1,6 +1,6 @@
 ---
 Title: 'max()'
-Description: 'Used to find the highest value in an array or a list of variables. It returns the highest value from the input provided.'
+Description: 'Finds and returns the highest value in an array or a list of variables.'
 Subjects:
   - 'Computer Science'
   - 'Web Design'
