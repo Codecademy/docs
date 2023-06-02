@@ -16,36 +16,44 @@ The **setInterval()** method is used to execute a function repeatedly at specifi
 
 ## Syntax
 
-The `setInterval()` function is used to execute a function repeatedly at a specified interval (delay). It takes the following parameters:
+The `setInterval()` function is used to execute a function repeatedly at a specified interval (delay).
 
-1. The function to be executed. Alternatively code snippet.
-2. Delay in milliseconds between each execution. This parameter is optional and if not provided defaults to 0.
-3. Optional additional arguments, which are passed to the function once the timer expires.
+```pseudo
+setInterval(function, delay, arg0, arg1, /* … ,*/ argN)
+```
 
-After `setInterval()` execution, the function argument is first executed only after a given delay.
+It takes the following parameters:
+
+- The `function` to be executed. Alternatively code snippet.
+- The `delay` in milliseconds between each execution. This parameter is optional and if not provided defaults to 0.
+- Optional additional arguments (`arg0`, `arg1` ... `argN`), which are passed to the `function` once the timer expires.
+
+After `setInterval()` execution, the `function` argument is first executed only after a given `delay`.
 
 It returns A numeric, non-zero value as `intervalID` of the timer created by the call to `setInterval()`. This `intervalID` value can be passed to `clearInterval()` to cancel the interval.
 
 ## Example 1
 
-```
+Following code outputs "Hello" to given number each second.
+
+```js
 let i = 0;
 
 setInterval(() => {
   i = i + 1;
   console.log('Hello number ' + i);
 }, 1000);
+```
 
-// Expected results: outputs "Hello" to given number each second
-```
 ## Example 2
-```
+
+Following code outputs current date and time followed by additional arguments.
+
+```js
 function myFunc(arg1, argN) {
   console.log(Date(), arg1, argN);
 }
 
 setInterval(myFunc, 2000, "first argument", "n-th argument");
-
-// Expected results: outputs current date and time following with additional arguments
 ```
 
