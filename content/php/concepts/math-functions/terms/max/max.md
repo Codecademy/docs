@@ -6,7 +6,7 @@ Subjects:
   - 'Web Design'
   - 'Web Development'
 Tags:
- - 'Functions'
+  - 'Functions'
 CatalogContent:
   - 'learn-php'
   - 'paths/computer-science'
