@@ -48,3 +48,20 @@ This results in the following output:
 ```cpp
 Sine of 60 degrees is 0.866025
 ```
+
+### Codebyte Example
+
+The following code example returns the `sine` of a given angle in `radians` using the `sin` function.
+
+```codebyte/cpp
+
+#include <iostream>
+#include <cmath> // for sin
+
+int main() {
+    double x = 3.14 / 2;
+    std::cout << "The sine of " << x << " is " << sin(x) << std::endl;
+    return 0;
+}
+
+```
