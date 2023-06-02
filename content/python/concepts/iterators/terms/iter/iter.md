@@ -56,43 +56,38 @@ cherry
 The following example applies the optional `sentinel` parameter through a callable class object (though the `__call__()` method):
 
 ```py
-class codeNinjaCount:
-    def __init__(self, greeting, num):
-        self.greeting = greeting
-        self.num = num
-        print(f"{self.greeting}! Let's count:")
+class Countdown:
 
-    def __call__(self):
-        self.num += 1
-        return self.num
+    def __init__(self,start):
+        self.start = start
 
-codeNinjaIterable = iter(codeNinjaCount("Hello, World", 1), 10)
+    def __iter__(self):
+        return self
 
-while True:
-    try:
-        next_num = next(codeNinjaIterable)
-        if next_num == 10:
-            raise StopIteration
-        print(next_num)
-    except StopIteration:
-        print("StopIteration Exception raised. Value returned was equal to sentinel value")
-        break
+    def __next__(self):
+        self.start -= 1
+        return self.start
 
+    __call__ = __next__
+
+my_iter = iter(Countdown(10), 0)
+
+for x in my_iter:
+    print(x)
 ```
 
 The output will be:
 
 ```shell
-Hello, World! Let's count:
-2
-3
-4
-5
-6
-7
-8
 9
-StopIteration Exception raised. Value returned was equal to sentinel value
+8
+7
+6
+5
+4
+3
+2
+1
 ```
 
 ## Codebyte Example
