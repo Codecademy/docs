@@ -24,13 +24,6 @@ max($var1, $var2, $var3, ...);
 
 It can be called either with multiple parameters or with a single [array](https://www.codecademy.com/resources/docs/php/array) parameter.
 
-When called with multiple parameters, the **`max()`** function takes a comma-separated list of variables or values, like this:
-
-```php
-$max_value = max($var1, $var2, $var3);
-
-```
-
 In this case, the **`max()`** function compares the values of $var1, $var2, and $var3, and returns the highest value among them, which is then assigned to the variable $max_value.
 
 When called with a single array parameter, the **`max()`** function takes an array of values, like this:
