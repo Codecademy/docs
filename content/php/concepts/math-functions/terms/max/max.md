@@ -1,5 +1,5 @@
 ---
-Title: 'Max()'
+Title: 'max()'
 Description: 'Used to find the highest value in an array or a list of variables. It returns the highest value from the input provided.'
 Subjects:
   - 'Computer Science'
