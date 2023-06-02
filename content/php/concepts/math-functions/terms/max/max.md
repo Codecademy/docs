@@ -22,7 +22,7 @@ max($var1, $var2, $var3, ...);
 
 `$var1`, `$var2`, `$var3` are the [variables](https://www.codecademy.com/resources/docs/php/variables) from which the maximum value will be returned.
 
-It can be called either with multiple parameters or with a single array parameter.
+It can be called either with multiple parameters or with a single [array](https://www.codecademy.com/resources/docs/php/array) parameter.
 
 When called with multiple parameters, the **`max()`** function takes a comma-separated list of variables or values, like this:
 
