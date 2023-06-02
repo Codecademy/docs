@@ -1,1 +1,1 @@
-content/javascript/concepts/enums/enums.md
+content/cpp/concepts/arrays/arrays.md
