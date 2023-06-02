@@ -13,6 +13,7 @@ Anchor
 Android
 Angular
 Animation
+ANN
 Anonymous Functions
 APIs
 Arguments
@@ -41,7 +42,7 @@ Bootstrap
 Borders
 Box Model
 Box Plot
-Break
+Brain Activity
 Browser Compatibility
 Browsers
 Bubble Sort
@@ -184,6 +185,7 @@ Logical
 Logistic Regression
 Loops
 Map
+Machine Learning
 Margin
 MATLAB
 Matplotlib
@@ -199,6 +201,7 @@ Naive Bayes
 Natural Language Processing
 Netlify
 Networking
+Neural Networks
 NLP
 Node
 NPM
@@ -219,6 +222,7 @@ Padding
 Pandas
 Paragraph
 Parameters
+Perceptrons
 Phaser
 Physics
 Pointers
@@ -320,6 +324,7 @@ VR
 Vue
 Web3
 WebRTC
+Weight & Bias
 While
 Whiteboarding
 WordPress
