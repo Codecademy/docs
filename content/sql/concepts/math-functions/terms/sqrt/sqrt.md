@@ -1,24 +1,24 @@
 ---
 Title: 'SQRT()'
 Description: 'Returns the square root of a given number.'
-Subjects: 
+Subjects:
   - 'Computer Science'
   - 'Data Science'
-Tags: 
+Tags:
   - 'MySQL'
   - 'PostgreSQL'
   - 'SQLite'
   - 'SQL Server'
-CatalogContent: 
+CatalogContent:
   - 'learn-sql'
   - 'path/analyze-data-with-sql'
 ---
 
-**`SQRT()`** is a function in SQL that returns the square root of a number input. The square root of any given number is a value that multiplied by itself will result in the passed number. 
+**`SQRT()`** is a function in SQL that returns the square root of a number input. The square root of any given number is a value that multiplied by itself will result in the passed number.
 
 ## Syntax
 
-```pseudo
+```sql
 SQRT(number);
 ```
 
@@ -34,7 +34,7 @@ SELECT SQRT(144);
 
 Yields:
 
-```sql
+```shell
 12
 ```
 
