@@ -66,7 +66,7 @@ $max_value = max($numbers);
 echo "The maximum value in the array is: " . $max_value;
 ```
 
-This example results in the following output.
+This example results in the following output:
 
 ```shell
 The maximum value in the array is: 90
