@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-In HTML, a quotation is a portion of text that is attributed to someone else. HTML provides several ways to mark up quotations on a web page, using specific [tags](https://www.codecademy.com/resources/docs/html/tags) for short and long quotations.
+In HTML, a quotation is a portion of text that is attributed to a specific person or source. HTML provides several ways to mark up quotations on a web page, using specific [tags](https://www.codecademy.com/resources/docs/html/tags) for short and long quotations.
 
 ## Short Quotations
 
