@@ -12,7 +12,9 @@ CatalogContent:
   - 'learn-php'
   - 'paths/computer-science'
 ---
+
 The `str_repeat()` function returns a string that repeats a substring a specified number of times.
+
 ## Syntax
 
 ```pseudo
@@ -21,7 +23,6 @@ str_repeat($string, $repeat)
 
 - `$string`: Specifies the string argument to repeat. It is required.
 - `$repeat`: Specifies the number of times the string will be repeated. Must be greater or equal to 0. It is also required.
-
 
 ## Codebyte Example
 
