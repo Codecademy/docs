@@ -54,7 +54,7 @@ To graph a linear function in AI, follow these steps:
 
 ## Example
 
-Let's consider a simple AI model that predicts housing prices based on the size of the house (`x`). The model is represented by the linear function `y = 100x + 50`, where `y` is the predicted price.
+Let's consider a simple model that predicts housing prices based on the size of the house (`x`). The model is represented by the linear function `y = 100x + 50`, where `y` is the predicted price.
 
 To graph this function, plot the actual housing price data points on the graph, initialize the slope as 100, and the y-intercept as 50. Calculate the predicted prices for the corresponding house sizes and connect the points to visualize the line.
 
