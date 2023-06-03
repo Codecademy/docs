@@ -1,6 +1,6 @@
 ---
 Title: `Table`
-Description: Table view in SwiftUI
+Description: `A container that presents rows of data arranged in one or more columns, optionally providing the ability to select one or more members.`
 Subjects: Mobile Development, iOS application, SwiftUI
 Tags: SwiftUI, iOS, table, view
 
