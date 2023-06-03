@@ -40,7 +40,7 @@ if (today.getSeconds() > 50) {
 
 ## Codebyte Example
 
-The example below defines a new `Date` object `dateTimeNow`, uses the `getSeconds()` method to extract and store the seconds in a new variable `seconds`, and then logs the current date\time, the current seconds, and the seconds remaining in the current minute.
+The example below defines a new `Date` object `dateTimeNow`, and then saves the result of the `getSeconds()` method in a new variable `seconds`. Finally, the current date\time, the current seconds, and the seconds remaining in the current minute are logged to the console.
 
 ```codebyte/javascript
 let dateTimeNow = new Date();
