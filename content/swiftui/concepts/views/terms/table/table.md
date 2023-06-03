@@ -48,7 +48,7 @@ To make rows of a table selectable, provide a binding to a selection variable
 ## Styling Tables
 
 Use tableStyle (_:) modifier to set a TableStyle for all the tables within view
-* AutmaticTableStyle
+* AutomaticTableStyle
 * InsetTableStyle
 * BorderedTableStyle
 
