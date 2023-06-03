@@ -6,7 +6,6 @@ Tags: SwiftUI, iOS, table, view
 
 ---
 
-# SWIFTUI - LIST
 
 ## **A container that presents rows of data arranged in one or more columns, optionally providing the ability to select one or more members**
 
