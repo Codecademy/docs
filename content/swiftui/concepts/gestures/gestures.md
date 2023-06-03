@@ -1,6 +1,6 @@
 ---
 Title: 'Gestures'
-Description: 'Gestures are view modifiers used to make the view respond to taps, clicks, and swipes to fine-grained gestures.'
+Description: 'Gestures are used to make the view respond to various physical touches.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
@@ -13,11 +13,11 @@ CatalogContent:
   - 'path/iOS-path'
 ---
 
-Gestures are view modifier's used to make the view respond to taps, drags, pinches and other gestures just by adding **Gesture** modifiers to the view.
+**Gestures** are used to make the view respond to various physical touches like taps, swipes, drags, and other standard screen motions.
 
 ## Tap Gestures
 
-This is the most basic type of Gesture. The `.onTapGesture()` modifier can be called on the view desired to track the gesture on.
+This is the most basic type of gesture. The `.onTapGesture()` modifier can be called on the view desired to track the gesture on:
 
 ```Swift
 struct Tap: View {
@@ -30,13 +30,13 @@ struct Tap: View {
 }
 ```
 
-The output looks like:
+The output looks like this:
 
 ![This is a gif that shows the effect of using TapGesture in Xcode simulation](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-tapgesture-example.gif)
 
-Every time the text view "Hello, World" is tapped, it prints "View Tapped" in the console.
+Every time the text view `"Hello, World"` is tapped, it prints `"View Tapped"` in the console.
 
-The action can also be implemented after certain amount of tap gestures. For example:
+The action can also be implemented after a certain amount of tap gestures. For example:
 
 ```Swift
 struct Tap: View {
@@ -49,7 +49,7 @@ struct Tap: View {
 }
 ```
 
-In this example it prints "View Tapped" after taping the text view three times.
+In this example, it prints `"View Tapped"` after taping the text view three times.
 
 > **Note:** When a button is needed, a `Button` instance should be used rather than a tap gesture. Any view can be used as the button’s label, and the button type automatically provides many of the standard behaviors that users expect, like accessibility labels and hints.
 
@@ -74,7 +74,7 @@ A string will be printed in the console after pressing the text view for 2 secon
 
 ## Advanced Gestures
 
-The `gesture()` modifier is used for more advanced and customizable gestures, with one of the gesture `struct`s like: `DragGesture()`, `LongPressGesture()`, `MagnificationGesture()`, `RotationGesture()`, and `TapGesture()`. These all have special modifiers, usually `.onEnded()` and `.onChanged()`, and they can be used to take action when the gestures are in-flight (for `.onChanged()`) or completed (for `.onEnded()`).
+The `.gesture()` modifier is used for more advanced and customizable gestures, with one of the gesture `struct`s like: `DragGesture()`, `LongPressGesture()`, `MagnificationGesture()`, `RotationGesture()`, and `TapGesture()`. These all have special modifiers, usually `.onEnded()` and `.onChanged()`, and they can be used to take action when the gestures are in-flight (for `.onChanged()`) or completed (for `.onEnded()`).
 
 In the example below, a magnification gesture could be attached to a view so that pinching in and out scales the view up and down. This can be done by creating two `@State` properties to store the scale amount, using that inside a `.scaleEffect()` modifier, then setting those values in the gesture:
 
@@ -104,7 +104,7 @@ This will display on Xcode:
 
 ![This is a gif that shows the effect of using MagnificationGesture in Xcode simulation](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-magnificationgesture-example.gif)
 
-There is a problem with the code above, because the text view didn't return to its normal state, which can result in a bad user experience. To fix this problem, the `currentAmount` property will be assigned to zero in the `.onEnded()` modifier, so the text view will return to its normal size after completing the gesture:
+There is a problem with the code above because the text view didn't return to its normal state, which can result in a bad user experience. To fix this problem, the `currentAmount` property will be assigned to zero in the `.onEnded()` modifier, so the text view will return to its normal size after completing the gesture:
 
 ```Swift
 struct Tap: View {
@@ -135,4 +135,4 @@ This will display on Xcode:
 
 ![This is a gif that shows the effect of using MagnificationGesture with Spring animation in Xcode simulation](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-magnficationgesture-example-with-animation.gif)
 
-the `withAnimation(.spring()){}` was added to gave the text view a spring animation while it returns to its normal size, as it looks in the gif above.
+The `withAnimation(.spring()){}` was added to give the text view a spring animation while it returns to its normal size, as it looks in the **.gif** above.
