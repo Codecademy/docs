@@ -26,7 +26,8 @@ A linear function can be represented by the equation `y = mx + b`, where:
 - `m` is the slope of the line, which determines the rate of change.
 - `b` is the y-intercept, representing the value of `y` when `x` is zero.
 
-#### Visually interpreted as:
+### A Linear Graph:
+
 ![Visual image](https://github.com/Himasnhu-AT/Media_files/blob/main/Visualizing%20image.png)
 
 ## Slope
