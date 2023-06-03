@@ -34,7 +34,7 @@ The object declaration combines the definition of the class and the creation of 
 
 ## 
 **Example**
-
+~~~
 object HelloKitty {
   fun sayHello(name: String) {
     println("Hi, $name!")
@@ -44,7 +44,7 @@ object HelloKitty {
 fun main() {
    HelloKitty.sayHello("Liany<3")
     }
-
+~~~
 In this example, we have an object called "HelloKitty" that contains a method called "sayHello". The "sayHello" method takes a String parameter called "name" and displays the message "Hi, name!" on the console.
 The console print:
 
