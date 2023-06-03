@@ -47,7 +47,7 @@ While AI algorithms work with numerical calculations, visualizing linear functio
 
 To graph a linear function in AI, follow these steps:
 1. Plot the data points from your dataset, where the x-axis represents the input variable (`x`) and the y-axis represents the output variable (`y`).
-2. Choose the initial slope (`m`) and y-intercept (`b`) values or use the randomly initialized values if training a model.
+2. Choose the initial slope (`m`) and y-intercept (`b`) values or use the randomly initialized values of training a model.
 3. Calculate the predicted output for each input using the linear function equation `y = mx + b`.
 4. Plot the predicted values on the graph.
 5. Connect the points to visualize the line representing the linear function.
