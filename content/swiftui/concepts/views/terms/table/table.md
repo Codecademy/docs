@@ -9,7 +9,7 @@ Tags: SwiftUI, iOS, table, view
 
 A **Table** is a container that presents rows of data arranged in one or more columns, optionally providing the ability to select one or more members.
 
-You commonly create tables from collections of data.
+Tables are commonly created from collections of data.
 If there are more rows than can fit in the available space,  table provides vertical scrolling automatically (on macOS, the table also provides horizontal scrolling if there are more columns than can fit in the width of the view)
 
 >struct Product: Identifiable {
