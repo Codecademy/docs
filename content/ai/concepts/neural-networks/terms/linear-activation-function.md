@@ -58,7 +58,6 @@ Let's consider a simple model that predicts housing prices based on the size of 
 
 To graph this function, plot the actual housing price data points on the graph, initialize the slope as 100, and the y-intercept as 50. Calculate the predicted prices for the corresponding house sizes and connect the points to visualize the line.
 
-
 ```python
 import numpy as np
 
