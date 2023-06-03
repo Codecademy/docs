@@ -77,7 +77,7 @@ print("Linear combination:", linear_combination)
 
 In this example, we have a simple linear function with two input features (`features`) and two corresponding weights (`weights`). The linear combination is computed by taking the dot product of the weights and features and adding the bias term. Finally, the result is printed out.
 
-> Note that this code assumes the presence of the NumPy library for array operations. Make sure you have NumPy installed or adjust the code accordingly if you're using a different numerical computing library.
+> **Note:** This code assumes the availability of the NumPy library for array operations. Make sure you have NumPy installed or adjust the code accordingly if you're using a different numerical computing library.
 
 ## To-Do Exercise
 
