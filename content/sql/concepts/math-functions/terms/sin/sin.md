@@ -10,7 +10,6 @@ Tags:
   - 'PostgreSQL'
   - 'SQLite'
   - 'Math Functions'
-
 CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
@@ -52,4 +51,4 @@ The output will be:
 
 The `SIN()` function calculates the sine of each angle in degrees and returns the corresponding sine values.
 
-> **Note:** For the use of this method with SQL databases like MySQL, PostgreSQL, SQLite, or SQL Server, refer to their respective documentation for more details on the `SIN() function implementation and compatibility.
+> **Note:** For the use of this method with SQL databases like MySQL, PostgreSQL, SQLite, or SQL Server, refer to their respective documentation for more details on the `SIN()` function implementation and compatibility.
