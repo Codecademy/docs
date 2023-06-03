@@ -1,6 +1,6 @@
 ---
 Title: 'The Title'
-Description: 'A brief description'
+Description: 'Linear functions provide a simple yet powerful way of describing the relationship between variables.'
 Subjects: 
   - 'Data Science'
   - 'Machine Learning'
