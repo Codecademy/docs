@@ -32,7 +32,7 @@ A linear function can be represented by the equation `y = mx + b`, where:
 
 ## Slope
 
-The slope (`m`) is a critical parameter in linear functions. In the context of AI, the slope represents the weight or coefficient associated with the input variable (`x`). It determines the impact of `x` on the output `y`. The larger the slope, the more significant the effect of `x` on the prediction.
+The slope (`m`) is a critical parameter in linear functions. In the context of AI, the slope represents the weight or coefficient associated with the input variable (`x`). It determines the impact of `x` on the output `y`. The larger the slope, the larger the impact of `x` on the prediction.
 
 During the training process, AI algorithms adjust the slope (weight) to minimize the difference between the predicted output and the actual output. This optimization procedure is known as gradient descent, where the gradient of the loss function guides the update of the slope to improve the model's performance.
 
