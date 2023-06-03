@@ -46,7 +46,7 @@ Similar to the slope, the y-intercept is also adjusted during the training phase
 
 While AI algorithms work with numerical calculations, visualizing linear functions can provide valuable insights. Graphs help us understand the behavior of the model and its relationship with the data.
 
-To graph a linear function in AI, follow these steps:
+To graph a linear function, follow these steps:
 1. Plot the data points from your dataset, where the x-axis represents the input variable (`x`) and the y-axis represents the output variable (`y`).
 2. Choose the initial slope (`m`) and y-intercept (`b`) values or use the randomly initialized values of training a model.
 3. Calculate the predicted output for each input using the linear function equation `y = mx + b`.
