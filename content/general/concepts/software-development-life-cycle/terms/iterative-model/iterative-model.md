@@ -2,15 +2,15 @@
 Title: 'Iterative Model'
 Description: 'An approach to software development that emphasizes the importance of incremental progress and continuous feedback in the software development lifecycle (SDLC).'  
 Subjects:  
- - 'Mobile Development'
- - 'Web Development'  
+  - 'Mobile Development'
+  - 'Web Development'  
 Tags:  
- 'Documentation'
- 'Best Practices'
- 'Development'  
+  - 'Documentation'
+  - 'Best Practices'
+  - 'Development'  
 CatalogContent:  
-'introduction-to-open-source'
-'paths/computer-science'
+  - 'introduction-to-open-source'
+  - 'paths/computer-science'
 ---
 
 The **Iterative model** to software development is a methodology that emphasizes the importance of incremental progress and continuous feedback in the software development lifecycle (SDLC). This approach involves breaking down a larger project into smaller, more manageable chunks that can be developed, tested, and deployed in shorter time frames. Each iteration builds upon the previous one, with feedback and adjustments being incorporated into subsequent iterations.
