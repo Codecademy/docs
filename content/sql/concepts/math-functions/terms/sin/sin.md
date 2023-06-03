@@ -29,13 +29,13 @@ FROM table_name;
 
 In this example, we have a table called `angles` that contains the following angles in degrees:
 
-|angles|
-| ----------- | 
-| 30           |
-| 45           |
-| 60          |
+| angle |
+| ----- |
+| 30    |
+| 45    |
+| 60    |
 
-We can use the **`SIN()`** function to calculate the sine of each angle:
+Below, the `SIN()` function is used to calculate the sine of each angle:
 
 ```sql
 SELECT angle, SIN(angle) AS sine_value
@@ -44,16 +44,12 @@ FROM angles;
 
 The output will be:
 
-| angle | sine_value    |
-|-------|---------------|
-| 30    | 0.5           |
-| 45    | 0.70710678    |
-| 60    | 0.8660254     |
+| angle | sine_value |
+| ----- | ---------- |
+| 30    | 0.5        |
+| 45    | 0.70710678 |
+| 60    | 0.8660254  |
 
-The **`SIN()`** function calculates the sine of each angle in degrees and returns the corresponding sine values.
+The `SIN()` function calculates the sine of each angle in degrees and returns the corresponding sine values.
 
-
-
-
-
-If you want to use SQL databases like MySQL, PostgreSQL, SQLite, or SQL Server, make sure to refer to their respective documentation for more details on the SIN() function implementation and compatibility.
+> **Note:** For the use of this method with SQL databases like MySQL, PostgreSQL, SQLite, or SQL Server, refer to their respective documentation for more details on the `SIN() function implementation and compatibility.
