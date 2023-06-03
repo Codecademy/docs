@@ -21,7 +21,7 @@ The origins of the Iterative model can be traced back to the 1950s and 1960s whe
   
 ## Current Usage  
 
-Today, the iterative approach is widely used in software development and is seen as an effective way to manage complex projects that involve multiple stakeholders, changing requirements, and evolving technologies. It is particularly well-suited for agile development methodologies that emphasize collaboration, flexibility, and adaptability.
+Today, the Iterative model is widely used in software development and is seen as an effective way to manage complex projects that involve multiple stakeholders, changing requirements, and evolving technologies. It is particularly well-suited for agile development methodologies that emphasize collaboration, flexibility, and adaptability.
   
 ## Advantages  
   
