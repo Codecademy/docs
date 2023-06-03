@@ -12,7 +12,6 @@ Tags:
 CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
-
 ---
 
 The **`LOG()`** function in SQL returns the natural logarithm of a given number, or the logarithm of the number to the specified base. The given number must be greater than 0, and the base must be greater than 1.
@@ -27,7 +26,7 @@ SELECT LOG(base,number)
 FROM table_name;
 ```
 
-## Example
+## Example 1
 
 In this example, the following data is given in the `table_1` table:
 
@@ -37,7 +36,7 @@ In this example, the following data is given in the `table_1` table:
 | 2    | 10     |
 | 3    | 22.6   |
 
-The `LOG()` function is used to calculate the natural logarithm of the number value:
+The `LOG()` function is used to calculate the natural logarithm of each value in the  `number` column:
 
 ```sql
 SELECT number, LOG(number) AS log_num
@@ -52,6 +51,8 @@ The output will be:
 | 10     | 2.3025850929940459 |
 | 22.6   | 3.1179499062782403 |
 
+## Example 2
+
 In this example, the following data is given in the `table_2` table:
 
 | id   | base | number |
@@ -60,7 +61,7 @@ In this example, the following data is given in the `table_2` table:
 | 2    | 4    | 2      |
 | 3    | 3    | 27     |
 
-The `LOG()` function is used to calculate the logarithm of the number value to the base value:
+The `LOG()` function is used to calculate the logarithm of the `number` value to the `base` value:
 
 ```sql
 SELECT base,number,LOG(base,number) AS log_num
