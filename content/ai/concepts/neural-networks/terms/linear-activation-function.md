@@ -9,7 +9,6 @@ Tags:
   - 'Machine Learning'
 ---
 
-# Linear Functions for AI Learning
 
 **Introduction**
 
