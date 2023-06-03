@@ -33,7 +33,7 @@ Some of the benefits of the Iterative model include:
   
 ## Disadvantages
   
-- Increased complexity: The iterative approach can make the development process more complex as it involves frequent changes and modifications to the requirements and design. This can lead to confusion and difficulties in managing the project.
+- Increased complexity: This approach can make the development process more complex as it involves frequent changes and modifications to the requirements and design. This can lead to confusion and difficulties in managing the project.
 - Costly: Iterative development can be more costly than traditional development methods due to the need for frequent testing and rework. Additionally, the need for continuous feedback and collaboration can increase project overheads.
 - Time-consuming: The iterative approach can be time-consuming due to the need for frequent testing and rework. This can lead to delays in the project timeline and increased time to market.
 - Can be difficult to manage: Managing iterative development can be challenging, especially when dealing with large teams and complex projects. It can be difficult to keep track of changes and ensure that everyone is working towards the same goal.
