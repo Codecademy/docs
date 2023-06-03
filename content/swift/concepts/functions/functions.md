@@ -16,7 +16,10 @@ CatalogContent:
 **Functions** are self-contained chunks of code that perform a specific task. You give a function a name that identifies what it does, and this name is used to “call” the function to perform its task when needed
 
 ## Defining and Calling Functions
-Any funcation have three important parameters used to define it, first the funcation name, this is used to call the function, second is the number of parameters a function takes, parameters refers to the input the function take when calling it and lastly the return type of the function, this refer to the output data type of the function. A small tip when defining the name of the function name it something that describes it's functionality.
+Any funcation have three important parameters used to define it, first the funcation name, this is used to call the function, second is the number of parameters a function takes, parameters refers to the input the function take when calling it and lastly the return type of the function, this refer to the output data type of the function. A small tip when defining the name of the function name it something that describes it's functionality. This below figure describe the syntax of funcations in swift.
+
+![This diagram explains the syntax of the functions in Swift ](https://raw.githubusercontent.com/Codecademy/docs/main/media/funcationsDiagram.png)
+
 
 ## Subsection 2
 
