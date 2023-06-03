@@ -29,7 +29,7 @@ Some of the benefits of the Iterative model include:
 
 - Improved flexibility: Allows developers to respond quickly to changing requirements and adapt to new technologies as they emerge.
 - Increased collaboration: Emphasizes collaboration between developers, customers, and other stakeholders, which can lead to better communication and a more effective development process.
-- Better risk management: The iterative approach allows developers to identify and mitigate potential risks early in the development process, reducing the likelihood of costly errors later on.
+- Better risk management: Allows developers to identify and mitigate potential risks early in the development process, reducing the likelihood of costly errors later on.
   
 ## Disadvantages
   
