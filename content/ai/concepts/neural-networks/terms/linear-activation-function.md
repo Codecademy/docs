@@ -81,5 +81,5 @@ In this example, we have a simple linear function with two input features (`feat
 
 ## To-Do Exercise
 
-Build a simple linear regression model using the [Kaggle housing dataset](https://www.kaggle.com/datasets/harrywang/housing). After building the model using your favorite library, such as TensorFlow or scikit-learn, observe the ease and usefulness of linear regression. The graph should resemble something like this:
+Build a simple linear regression model using the [Kaggle housing dataset](https://www.kaggle.com/datasets/harrywang/housing). The final graph should resemble something like this:
 ![To-Do Task](https://github.com/Himasnhu-AT/Media_files/blob/main/Example_linear%20function%20in%20AI.png)
