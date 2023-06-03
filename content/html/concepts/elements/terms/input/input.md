@@ -24,7 +24,7 @@ The **`<input>`** element creates an interactive element, usually used within a 
 <input />
 ```
 
-The `<input>` element that has no closing tag, meaning that it cannot have elements inside of it. 
+The `<input>` element that has no closing tag, meaning that it cannot have elements inside of it.
 
 ### Attributes
 
