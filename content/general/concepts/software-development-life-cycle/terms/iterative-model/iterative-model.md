@@ -1,4 +1,4 @@
- ---
+---
 Title: 'Iterative Model'
 Description: 'An approach to software development that emphasizes the importance of incremental progress and continuous feedback in the software development lifecycle (SDLC).'  
 Subjects:  
