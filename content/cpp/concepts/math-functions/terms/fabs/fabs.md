@@ -33,7 +33,7 @@ int main() {
 }
 ```
 
-### Codebyte Example
+## Codebyte Example
 
 The following code example returns the absolute value with the help of the `fabs()` method.
 
