@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`<input>`** element creates an interactive element, usually used within a [form](https://www.codecademy.com/resources/docs/html/forms) to allow user input.It can be used to make text boxes, [color pickers](https://www.codecademy.com/resources/docs/uiux/color-picker), date pickers, and other [UI](https://www.codecademy.com/resources/docs/uiux/ui-design) elements.
+The **`<input>`** element creates an interactive element, usually used within a [form](https://www.codecademy.com/resources/docs/html/forms) to allow user input. It can be used to make text boxes, [color pickers](https://www.codecademy.com/resources/docs/uiux/color-picker), date pickers, and other [UI](https://www.codecademy.com/resources/docs/uiux/ui-design) elements.
 
 ## Syntax
 
