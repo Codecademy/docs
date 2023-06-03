@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`<input>`** element creates an interactive element, usually used within a [form](https://www.codecademy.com/resources/docs/html/forms) to allow user input. It can be used to make text boxes, [color pickers](https://www.codecademy.com/resources/docs/uiux/color-picker), date pickers, and other [UI](https://www.codecademy.com/resources/docs/uiux/ui-design) elements.
+The **`<input>`** element creates an interactive element, usually used within a [form](https://www.codecademy.com/resources/docs/html/forms) to allow user input.It can be used to make text boxes, [color pickers](https://www.codecademy.com/resources/docs/uiux/color-picker), date pickers, and other [UI](https://www.codecademy.com/resources/docs/uiux/ui-design) elements. Also, the `for` attributes are linking the [<label> elements](https://www.codecademy.com/resources/docs/html/elements/label) to the `id`of the <input> elements.
 
 ## Syntax
 
@@ -52,8 +52,8 @@ The following examples uses a `<form>` element that features `<input>` elements:
   <body>
     <form>
       <!-- This input type requires the user to enter a valid email address -->
-      <label for ="email" id="email">Email Address</label>
-      <input type="email" />
+      <label for ="email" >Email Address</label>
+      <input type="email" id="email"/>
 
       <!-- This input hides the typed password with ****s -->
       <label for="pass">Password</label>
