@@ -39,7 +39,7 @@ If there are more rows than can fit in the available space, the table provides v
 
 
 
-### You interact with the table by selecting one or more rows and then performing actions from the toolbar or a context menu.
+Tables are interacted with by selecting one or more rows and then performing actions from the toolbar or a context menu.
 
 To make rows of a table selectable, provide a binding to a selection variable
 * Binding to a single instance of the table data’s id type creates a single-selection table
