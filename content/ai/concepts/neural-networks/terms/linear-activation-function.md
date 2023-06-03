@@ -16,7 +16,7 @@ Tags:
 For example, here's an image illustrating a linear function with data points plotted on a graph:
 ![Example](https://github.com/Himasnhu-AT/Media_files/blob/main/Example_linear%20function%20in%20AI.png)
 
-In this document, we will explore linear functions and their applications in AI.
+This entry explores linear functions and their applications in AI.
 
 ## Representation
 
