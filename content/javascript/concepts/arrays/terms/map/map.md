@@ -54,3 +54,26 @@ const fullNames = students.map((student) => {
 console.log(fullNames);
 // Output: ['Samantha Jones', 'Hector Gonzales', 'Jeremiah Duncan']
 ```
+
+## Codebyte Example
+
+The example below defines a new array `teachers`. Next, the results of the `map()` method are stored in a new variable, array `courses`. Finally, the items of the `courses` array are logged to the console.
+
+```codebyte/javascript
+const teachers = [
+    { firstName: 'Candid', lastName: 'Cameron', course: 'Computer Science'},
+    { firstName: 'Emphatic', lastName: 'Emmanuel', course: 'Economics'},
+    { firstName: 'Humble', lastName: 'Henry', course: 'Humanity'},
+    { firstName: 'Mystic', lastName: 'Mia', course: 'Mathematics'},
+    { firstName: 'Sensible', lastName: 'Sasha', course: 'Science'}
+];
+
+const courses = teachers.map((teacher) => {
+    return teacher.course;
+});
+
+console.log(`\nCourse list:\n`);
+courses.forEach((course, i) => {
+    console.log(`${i + 1}) ${course}`);
+});
+```
