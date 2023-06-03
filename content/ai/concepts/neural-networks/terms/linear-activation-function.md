@@ -11,7 +11,9 @@ Tags:
 
 
 
-Linear functions are fundamental mathematical models that play a crucial role in machine learning and artificial intelligence. They provide a simple yet powerful way to represent relationships between variables. For example, here's an image illustrating a linear function with data points plotted on a graph:
+**Linear functions** are fundamental mathematical models that play a crucial role in machine learning and artificial intelligence. They provide a simple yet powerful way of describing the relationships between variables.
+
+For example, here's an image illustrating a linear function with data points plotted on a graph:
 ![Example](https://github.com/Himasnhu-AT/Media_files/blob/main/Example_linear%20function%20in%20AI.png)
 
 In this document, we will explore linear functions and their applications in AI.
