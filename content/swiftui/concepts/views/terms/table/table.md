@@ -45,7 +45,7 @@ To make rows of a table selectable, provide a binding to a selection variable
 * Binding to a single instance of the table data’s id type creates a single-selection table
 * Binding to a Set creates a table that supports multiple selections
 
-## Styling tabels
+## Styling Tables
 
 Use tableStyle (_:) modifier to set a TableStyle for all the tables within view
 * AutmaticTableStyle
