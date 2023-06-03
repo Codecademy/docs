@@ -1,5 +1,5 @@
 ---
-Title: SwiftUI table
+Title: `Table`
 Description: Table view in SwiftUI
 Subjects: Mobile Development, iOS application, SwiftUI
 Tags: SwiftUI, iOS, table, view
