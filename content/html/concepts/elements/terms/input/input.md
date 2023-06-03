@@ -24,7 +24,7 @@ The **`<input>`** element creates an interactive element, usually used within a 
 <input />
 ```
 
-The `<input>` element that has no closing tag, meaning that it cannot have elements inside of it.
+The `<input>` element that has no closing tag, meaning that it cannot have elements inside of it. Also, the `for` attributes are linking the [<label> elements](https://www.codecademy.com/resources/docs/html/elements/label) to the `id`of the <input> elements.
 
 ### Attributes
 
