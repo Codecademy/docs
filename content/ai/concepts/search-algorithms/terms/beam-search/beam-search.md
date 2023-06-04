@@ -1,6 +1,6 @@
 ---
 Title: 'BEAM Search'
-Description: 'A graph searching algorithm that is a variant of breadth-first search'
+Description: 'A graph searching algorithm that is a variant of breadth-first search.'
 Subjects:
   - 'Data Science'
   - 'AI'
