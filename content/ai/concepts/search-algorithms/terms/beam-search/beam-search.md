@@ -41,7 +41,7 @@ Initialize the tree and add **S** to the **closed list**:
 
 **S** only has one adjacent node, so it is added to the tree:
 
-[BEAM-Search-2](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-Tree-2.png)
+![BEAM-Search-2](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-Tree-2.png)
 
 Explore **I**. Nodes **N** and **H** are the top two nodes, so those are added to the tree:
 [BEAM-Search-3](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-Tree-3.png)
