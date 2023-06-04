@@ -14,6 +14,7 @@ Tags:
 **Linear functions** are fundamental mathematical models that play a crucial role in machine learning and artificial intelligence. They provide a simple yet powerful way of describing the relationships between variables.
 
 For example, here's an image illustrating a linear function with data points plotted on a graph:
+
 ![Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/Example_linear%20function%20in%20AI.png)
 
 This entry explores linear functions and their applications in AI.
@@ -82,4 +83,5 @@ In this example, we have a simple linear function with two input features (`feat
 ## To-Do Exercise
 
 Build a simple linear regression model using the [Kaggle housing dataset](https://www.kaggle.com/datasets/harrywang/housing). The final graph should resemble something like this:
+
 ![To-Do Task](https://raw.githubusercontent.com/Codecademy/docs/main/media/Example_linear%20function%20in%20AI.png)
