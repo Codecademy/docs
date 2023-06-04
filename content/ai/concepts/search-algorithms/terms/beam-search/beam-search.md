@@ -50,7 +50,7 @@ Nodes **F** (adjacent to **H** in the graph) and **L** (adjacent to **N** in the
 ![BEAM-Search-4](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-Tree-4.png)
 
 The incompleteness of this algorithm can be seen in this step. Node **G** has appeared in the **open list** but unfortunately, it has been eliminated by the beam width. Nodes **M** and **C** are next:
-[BEAM-Search-5](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-Tree-5.png)
+![BEAM-Search-5](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-Tree-5.png)
 
 It is in this step that node **G** has been found:
 [BEAM-Search-6](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-Tree-6.png)
