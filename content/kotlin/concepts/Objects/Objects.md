@@ -4,7 +4,7 @@ Description: 'Kotlin object declaration is a special type of declaration that al
 Subjects: 
   - 'Mobile Development'
 Tags:
-  - 'android'
+  - 'Android'
   - 'kotlin'
   - 'object'
 CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
