@@ -21,7 +21,7 @@ CatalogContent:
   - 'learn-how-to-code'
   - 'paths/code-foundations'
 ---
-# Control Flow
+
 Control flow refers to the order in which statements and instructions are executed in a program. It determines how the program progresses from one instruction to another based on certain conditions and logic. Control flow mechanisms allow developers to create dynamic and flexible programs that can make decisions, repeat tasks, and respond to various inputs.
 
 ## Ways to Control Flow in a Program
