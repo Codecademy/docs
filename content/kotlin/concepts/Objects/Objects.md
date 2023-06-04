@@ -15,7 +15,7 @@ Kotlin **`object`** declaration is a special type of declaration that allows the
 
 ## Syntax
 
-```Pseudo
+```pseudo
 object MyObject {
     val property: Type = value
 
