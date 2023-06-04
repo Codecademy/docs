@@ -40,7 +40,7 @@ In this example the following data is given in the table `angles`:
 The `TAN()` function can be used to calculate the `tangent_value`:
 
 ```sql
-SELECT id,angle_in_degrees, TAN(angle_in_degrees * (PI()/180)) AS tangent_value
+SELECT id, angle_in_degrees, TAN(angle_in_degrees * (PI()/180)) AS tangent_value
 FROM angles;
 ```
 
