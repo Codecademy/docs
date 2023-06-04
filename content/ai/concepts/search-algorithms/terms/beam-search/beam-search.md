@@ -33,7 +33,7 @@ It is important to note that every level of the search tree contains at most β 
 
 Consider the following example of searching a graph from **S** to **G**. For simplicity, only the edge weights will be used for evaluation. A beam width of β = 2 will be used, meaning only the top two nodes are considered at every level.
 
-[Example-graph](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-example-graph.png)
+![Example-graph](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-example-graph.png)
 
 Initialize the tree and add **S** to the **closed list**:
 
