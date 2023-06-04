@@ -42,7 +42,7 @@ The snippet below shows a logo being inserted into an HTML file:
 
 The snippet below shows a [video](https://www.codecademy.com/resources/docs/html/videos) being inserted into an HTML file: 
 
-```
+```html
 <video source controls width="200" src="https://youtu.be/0QHaxrUkSE"  type="youtube"/>
 ```
 
