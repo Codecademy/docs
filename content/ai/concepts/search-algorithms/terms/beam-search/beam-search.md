@@ -47,7 +47,7 @@ Explore **I**. Nodes **N** and **H** are the top two nodes, so those are added t
 ![BEAM-Search-3](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-Tree-3.png)
 
 Nodes **F** (adjacent to **H** in the graph) and **L** (adjacent to **N** in the graph) are next:
-[BEAM-Search-4](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-Tree-4.png)
+![BEAM-Search-4](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-Tree-4.png)
 
 The incompleteness of this algorithm can be seen in this step. Node **G** has appeared in the **open list** but unfortunately, it has been eliminated by the beam width. Nodes **M** and **C** are next:
 [BEAM-Search-5](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-Tree-5.png)
