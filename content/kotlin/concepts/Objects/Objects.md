@@ -49,7 +49,5 @@ This example, shows an object called `HelloKitty` that contains a method called 
 The following is printed to the console:
 
 ```shell
-```shell
 Hi, Liany<3!
-```
 ```
