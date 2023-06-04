@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The  **`src`** attribute is  used to specify the location of a digital source, which is typically a URL. It is required for HTML elements like [`<img>`](https://www.codecademy.com/resources/docs/html/images) so that they can appear on a website or application. 
+The  **`src`** attribute is  used to specify the location of a digital source, which is typically a URL. It is required for HTML elements like [`<img>`](https://www.codecademy.com/resources/docs/html/elements/img) so that they can appear on a website or application. 
 
 ## Syntax
 
