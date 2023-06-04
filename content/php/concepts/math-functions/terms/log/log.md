@@ -41,6 +41,6 @@ Using `log()` to return the value of 1.9459101490553:
 
 ```codebyte/php
 <?php
-  echo(floor(7));
+  echo(log(7));
 ?>
 ```
