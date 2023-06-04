@@ -37,7 +37,7 @@ Consider the following example of searching a graph from **S** to **G**. For sim
 
 Initialize the tree and add **S** to the **closed list**:
 
-[BEAM-Search-1](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-Tree-1.png)
+![BEAM-Search-1](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-Tree-1.png)
 
 **S** only has one adjacent node, so it is added to the tree:
 
