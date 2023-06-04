@@ -29,7 +29,9 @@ Where `number` is the number whose logarithm is to be calculated and `base` is o
 ## Example
 
 ```php
-floor(1)
+<?php
+  echo(log(1));
+?>
 // Output: 0
 ```
 
