@@ -21,7 +21,6 @@ The  **`src`** attribute is  used to specify the location of a digital source, w
 <element  src="url">
 ```
 
-
 `src` can also be used in the following elements :
 
 | Direction | Description                                                                                                          |
