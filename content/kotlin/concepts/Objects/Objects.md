@@ -6,7 +6,7 @@ Subjects:
 Tags:
   - 'Android'
   - 'Kotlin'
-  - 'object'
+  - 'Objects'
 CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
   - 'learn-kotlin'
   - 'www.codecademy.com/learn/learn-kotlin'
