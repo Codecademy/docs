@@ -56,7 +56,7 @@ It is in this step that node **G** has been found:
 ![BEAM-Search-6](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-Tree-6.png)
 
 Trace the path from **S** to **G**:
-[Final-path](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-final-path.png)
+![Final-path](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-final-path.png)
 
 ## Advantages and Disadvantages
 
