@@ -29,6 +29,7 @@ MyObject.property
 MyObject.myFunction()
 ```
 ---
+
 The object declaration combines the definition of the class and the creation of its instance into a concise and powerful construct.
 
 ## Example
