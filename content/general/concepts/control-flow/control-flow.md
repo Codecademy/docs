@@ -1,6 +1,22 @@
 ---
 Title: 'Control Flow' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'short introduction to the concept of control flow in programming' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
+Description: 'Control flow refers to the order in which statements and instructions are executed in a program.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
+Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
+  - 'Code Foundations'
+  - 'Computer Science'
+Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
+  - 'Control Flow'
+  - 'Conditionals'
+  - 'Loops'
+  - 'If'
+  - 'Else'
+  - 'Switch'
+  - 'For'
+  - 'ForEach'
+  - 'While'
+  - 'Break'
+  - 'Continue'
+  - 'Return'
 CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
   - 'learn-how-to-code'
   - 'paths/code-foundations'
@@ -33,15 +49,5 @@ Many programming languages provide control flow keywords or constructs that alte
 - **Continue:** The continue keyword is used within a loop to skip the remaining statements in the current iteration and move to the next iteration.
 
 - **Return:** The return keyword is used to exit a function or method and return a value to the caller. It can also be used to terminate the execution of a program in some cases.
-
-### _Related Entries_
-+ [If Statement]()
-+ [Switch Statement]()
-+ [For Loop]()
-+ [While Loop]()
-+ [Do-While Loop]()
-+ [Break Statement]()
-+ [Continue Statement]()
-+ [Return Statement]()
 
 By using these control flow mechanisms, developers can create programs that respond intelligently to different scenarios, making them more flexible and powerful. Understanding control flow is crucial for designing efficient algorithms and writing clean, readable code.
