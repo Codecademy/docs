@@ -44,7 +44,7 @@ Initialize the tree and add **S** to the **closed list**:
 ![BEAM-Search-2](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-Tree-2.png)
 
 Explore **I**. Nodes **N** and **H** are the top two nodes, so those are added to the tree:
-[BEAM-Search-3](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-Tree-3.png)
+![BEAM-Search-3](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-Tree-3.png)
 
 Nodes **F** (adjacent to **H** in the graph) and **L** (adjacent to **N** in the graph) are next:
 [BEAM-Search-4](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-Tree-4.png)
