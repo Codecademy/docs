@@ -19,12 +19,12 @@ The **setInterval()** method is used to execute a function repeatedly at specifi
 The `setInterval()` function is used to execute a function repeatedly at a specified interval (delay).
 
 ```pseudo
-setInterval(function, delay, arg0, arg1, /* … ,*/ argN)
+intervalID = setInterval(function, delay, arg0, arg1, /* … ,*/ argN)
 ```
 
 It takes the following parameters:
 
-- The `function` to be executed. Alternatively code snippet.
+- The `function` to be executed or, alternatively, a code snippet.
 - The `delay` in milliseconds between each execution. This parameter is optional and if not provided defaults to 0.
 - Optional additional arguments (`arg0`, `arg1` ... `argN`), which are passed to the `function` once the timer expires.
 
@@ -56,4 +56,3 @@ function myFunc(arg1, argN) {
 
 setInterval(myFunc, 2000, "first argument", "n-th argument");
 ```
-
