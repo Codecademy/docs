@@ -53,7 +53,7 @@ The incompleteness of this algorithm can be seen in this step. Node **G** has ap
 ![BEAM-Search-5](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-Tree-5.png)
 
 It is in this step that node **G** has been found:
-[BEAM-Search-6](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-Tree-6.png)
+![BEAM-Search-6](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-Tree-6.png)
 
 Trace the path from **S** to **G**:
 [Final-path](https://raw.githubusercontent.com/Codecademy/docs/main/media/BEAM-Search-final-path.png)
