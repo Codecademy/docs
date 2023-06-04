@@ -38,7 +38,8 @@ The snippet below shows a logo being inserted into an HTML file:
 ```html
 <img src="logo.png" alt="Codecademy logo" />
 ```
-**Note: When using online images or images from the folders in an IDE workspace, always add `alt` text at the end of the `img`  element just in case the brower has trouble finding them.**
+
+> **Note:** When using online images or images from the folders in an IDE workspace, always add `alt` text at the end of the `<img>`  element just in case the browser has trouble finding them.
 ## Example #2: Video
 
 The snippet below shows a [video](https://www.codecademy.com/resources/docs/html/videos) being inserted into an HTML file: 
