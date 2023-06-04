@@ -45,6 +45,7 @@ fun main() {
     }
 ```
 This example, shows an object called `HelloKitty` that contains a method called `sayHello`. The `sayHello` method takes a `String` parameter called `name` and displays the message `Hi, name!` on the console.
+
 The following is printed to the console:
 
 ```shell
