@@ -11,7 +11,6 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'learn-kotlin'
   - 'paths/computer-science'
 ---
-\
 Kotlin **`object`** declaration is a special type of declaration that allows the creation of a single instance of a class, commonly known as a Singleton.
 
 ## Syntax
