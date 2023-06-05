@@ -18,7 +18,7 @@ The **`iter()`** function returns an [iterator](https://www.codecademy.com/resou
 ## Syntax
 
 ```pseudo
-iter(object, sentinel[optional])
+iter(object, sentinel)
 ```
 
 - `object`: A required object parameter. The `iter()` function returns an iterator object for this.
