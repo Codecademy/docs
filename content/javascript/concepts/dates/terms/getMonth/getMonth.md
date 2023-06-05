@@ -47,13 +47,13 @@ if (today.getMonth() === 5) {
 
 ## Codebyte Example
 
-The example below defines a new `Date` object `dateTimeNow`, an array `months` containing the names of the calendar months, and stores the result of the  `getMonth()` method in a new variable `month`. Finally, the current date\time, the current month, and the months remaining in the current year are logged to the console.
+The example below defines a new `Date` object `dateTimeNow`, an array `months` containing the names of the calendar months, and stores the result of the `getMonth()` method in a new variable `month`. Finally, the current date\time, the current month, and the months remaining in the current year are logged to the console.
 
 ```codebyte/javascript
 let dateTimeNow = new Date();
-let months = 
-   ['January', 'February', 'March', 'April', 
-    'May', 'June', 'July', 'August', 
+let months =
+   ['January', 'February', 'March', 'April',
+    'May', 'June', 'July', 'August',
     'September', 'October', 'November', 'December'];
 let month = dateTimeNow.getMonth(); // Uses 0-based indexing; January = 0
 
