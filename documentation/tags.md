@@ -184,6 +184,7 @@ Logical
 Logistic Regression
 Loops
 Map
+Machine Learning
 Margin
 MATLAB
 Matplotlib
@@ -199,6 +200,7 @@ Naive Bayes
 Natural Language Processing
 Netlify
 Networking
+Neural Networks
 NLP
 Node
 NPM
@@ -219,6 +221,7 @@ Padding
 Pandas
 Paragraph
 Parameters
+Perceptrons
 Phaser
 Physics
 Pointers
@@ -321,6 +324,7 @@ VR
 Vue
 Web3
 WebRTC
+Weight & Bias
 While
 Whiteboarding
 WordPress

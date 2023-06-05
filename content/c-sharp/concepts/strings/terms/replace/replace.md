@@ -1,6 +1,6 @@
 ---
 Title: '.Replace()' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'Returns a new string where every instance of a certain character or string in the original string is swapped with a different specified character or string.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
+Description: 'Returns a new string where every instance of a certain character or substring in the original string is swapped with a different specified character or substring.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
 Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
   - 'Computer Science'
   - 'Web Design'
@@ -14,7 +14,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'paths/computer-science'
 ---
 
-The **`.Replace()`** method when applied to the string gives back a new string where every instance of a certain character or string in the original string is swapped with a different specified character or string.
+The **`.Replace()`** method returns a new string where every instance of a certain character or substring in the original string is swapped with a different specified character or substring.
 
 ## Syntax
 
@@ -91,4 +91,24 @@ It produces the following output to the console:
 ```shell
 False statement: Earth is the fourth planet from the Sun.
 True statement: Earth is the third planet from the Sun.
+```
+
+## Codebyte Example
+
+In the following runnable example, the `.Replace()` method is used to create a `replacedString` from the `originalString`. Then both strings are printed to the console:
+
+```codebyte/csharp
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string originalString = "Hello, world!";
+        string replacedString = originalString.Replace("world", "universe");
+
+        Console.WriteLine("Original string: " + originalString);
+        Console.WriteLine("Replaced string: " + replacedString);
+    }
+}
 ```
