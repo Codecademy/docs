@@ -14,17 +14,19 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-The **`LOG()`** function in SQL returns the natural logarithm of a given number, or the logarithm of the number to the specified base. The given number must be greater than 0, and the base must be greater than 1.
+The **`LOG()`** function in SQL returns the natural logarithm of a given number, or the logarithm of the number to the specified base. 
 
 ## Syntax
 
-```sql
-SELECT LOG(number)
-FROM table_name;
+```pseudocode
+LOG(number)
 
-SELECT LOG(base,number) 
-FROM table_name;
+LOG(base,number) 
 ```
+
+The input value `number` refers to the value for which you want to calculate the logarithm. The number must be a positive real number greater than 0. It represents the value you want to find the exponent for.
+
+The input value `base` represents the number to which the logarithm is being calculated. It determines the scale of the logarithm. The base must be a positive real number greater than 0, except for 1. The logarithm calculates the exponent to which the base must be raised to obtain the given number.
 
 ## Example 1
 
