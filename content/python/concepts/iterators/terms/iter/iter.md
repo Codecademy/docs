@@ -21,8 +21,8 @@ The **`iter()`** function returns an [iterator](https://www.codecademy.com/resou
 iter(object, sentinel[optional])
 ```
 
-- `object`: Required. An object. The `iter()` function returns an iterator object for this.
-- `sentinel`: Optional. If set, the iterator will call the object with no arguments for each call to its `__next__()` method. If the value returned is equal to `sentinel`, `StopIteration` will be raised, otherwise the value will be returned.
+- `object`: A required object parameter. The `iter()` function returns an iterator object for this.
+- `sentinel`: An optional paramater. If set, the iterator will call the object with no arguments for each call to its `__next__()` method. If the value returned is equal to `sentinel`; `StopIteration` will be raised, otherwise the value will be returned.
 
 ## Example
 
@@ -57,23 +57,22 @@ The following example applies the optional `sentinel` parameter through a callab
 
 ```py
 class Countdown:
+  def __init__(self,start):
+    self.start = start
 
-    def __init__(self,start):
-        self.start = start
+  def __iter__(self):
+    return self
 
-    def __iter__(self):
-        return self
+  def __next__(self):
+    self.start -= 1
+    return self.start
 
-    def __next__(self):
-        self.start -= 1
-        return self.start
-
-    __call__ = __next__
+  __call__ = __next__
 
 my_iter = iter(Countdown(10), 0)
 
 for x in my_iter:
-    print(x)
+  print(x)
 ```
 
 The output will be:
@@ -100,6 +99,7 @@ The following code examples use the `iter()` function and a `for` loop to produc
 fruits = ['apple', 'orange', 'banana']
 
 print("Example with iter() and next() : ")
+
 fruits_iter = iter(fruits)
 
 print(next(fruits_iter))
@@ -108,6 +108,7 @@ print(next(fruits_iter))
 print("------------------------------------")
 
 print("Example with for loop : ")
+
 for fruit in fruits:
   print(fruit)
 ```
