@@ -24,7 +24,7 @@ Hackers can be split into three distinct types: black hats, grey hats, and white
 
 ### Black Hat Hackers
 
-These are the hackers that are notoriously regarded as "the bad guys" that infiltrate systems either for personal gain or to impress other hackers. Generally, a black hat hacker uses [malware](https://www.codecademy.com/resources/docs/cybersecurity/malware), viruses, and ransomware attacks to do the following:
+These are the hackers that are notoriously regarded as "the bad guys" that infiltrate systems either for personal gain or to impress other hackers. Generally, a black hat hacker uses [malware](https://www.codecademy.com/resources/docs/cybersecurity/malware), [viruses](https://www.codecademy.com/resources/docs/cybersecurity/malware/virus), and [ransomware](https://www.codecademy.com/resources/docs/cybersecurity/malware/ransomware) attacks to do the following:
 
 - Steal credit card and/or bank account information.
 - Leak sensitive information to the public.
