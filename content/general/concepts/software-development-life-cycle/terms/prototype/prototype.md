@@ -1,6 +1,6 @@
 ---
 Title: 'Prototype Model'
-Description: 'The prototype model involves creating a simplified model of the product to test its concept and functionality.'
+Description: 'The Prototype model involves creating a simplified model of the product to test its concept and functionality.'
 Subjects:
   - 'Mobile Development'
   - 'Web Development'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The **prototype model** is a software development approach that involves creating a simplified model of the future product to test its concept and functionality with minimal resource costs. The process of creating a prototype involves a few steps: development, testing, and continuous improvement based on testing results and feedback.
+The **Prototype model** is a software development approach that involves creating a simplified model of the future product to test its concept and functionality with minimal resource costs. The process of creating a prototype involves a few steps based on testing results and feedback: development, testing, and continuous improvement.
 
 The prototype may include only the essential design elements and features that are necessary for visualizing and demonstrating the fundamental capabilities of the product. Prototypes are used by the development team in collaboration with customers and stakeholders to test the product's design, architecture, and functionality.
 
