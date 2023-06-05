@@ -14,14 +14,14 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-The **`LOG()`** function in SQL returns the natural logarithm of a given number, or the logarithm of the number to the specified base. 
+The **`LOG()`** function in SQL returns the natural logarithm of a given number, or the logarithm of the number to the specified base.
 
 ## Syntax
 
 ```pseudocode
 LOG(number)
 
-LOG(base,number) 
+LOG(base,number)
 ```
 
 The input value `number` refers to the value for which you want to calculate the logarithm. The number must be a positive real number greater than 0. It represents the value you want to find the exponent for.
@@ -32,13 +32,13 @@ The input value `base` represents the number to which the logarithm is being cal
 
 In this example, the following data is given in the `table_1` table:
 
-| id   | number |
-| ---- | ------ |
-| 1    | 1      |
-| 2    | 10     |
-| 3    | 22.6   |
+| id  | number |
+| --- | ------ |
+| 1   | 1      |
+| 2   | 10     |
+| 3   | 22.6   |
 
-The `LOG()` function is used to calculate the natural logarithm of each value in the  `number` column:
+The `LOG()` function is used to calculate the natural logarithm of each value in the `number` column:
 
 ```sql
 SELECT number, LOG(number) AS log_num
@@ -57,11 +57,11 @@ The output will be:
 
 In this example, the following data is given in the `table_2` table:
 
-| id   | base | number |
-| ---- | ---- | ------ |
-| 1    | 2    | 1      |
-| 2    | 4    | 2      |
-| 3    | 3    | 27     |
+| id  | base | number |
+| --- | ---- | ------ |
+| 1   | 2    | 1      |
+| 2   | 4    | 2      |
+| 3   | 3    | 27     |
 
 The `LOG()` function is used to calculate the logarithm of the `number` value to the `base` value:
 
