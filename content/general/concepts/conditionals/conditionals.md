@@ -9,8 +9,8 @@ Tags:
   - 'Conditionals'
   - 'Control Flow'
 CatalogContent:
-  - 'path/code-foundations'
-  - 'path/computer-science'
+  - 'paths/code-foundations'
+  - 'paths/computer-science'
 ---
 
 **Conditionals** in programming are statements that allow the execution of different blocks of code based on certain criteria. They enable programs to make decisions and perform different actions depending on whether a condition is true or false and help with flow control.
