@@ -20,7 +20,7 @@ All programming languages support conditonals in various ways, but there are two
 
 > **Note:** The following pseudo code blocks are not written in any particular language.
 
-## If-else
+## If-else Statements
 
 The `if` statement is the most basic form of a conditional. It checks a condition and executes a block of code if the condition is true. 
 If the condition is false, the program continues with the next instruction. The basic syntax for an `if` statement is as follows:
