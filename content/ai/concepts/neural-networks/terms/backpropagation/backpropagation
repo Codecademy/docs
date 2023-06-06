@@ -1,6 +1,6 @@
 ---
 Title: 'Backpropagation'
-Description: 'A comprehensive explanation of backpropagation and its role in training artificial neural networks.'
+Description: 'Backpropagation is a crucial algorithm in the field of machine learning, specifically in the training of artificial neural networks (ANNs).'
 Subjects: 
   - 'Data Science'
   - 'Machine Learning'
