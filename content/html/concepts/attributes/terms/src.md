@@ -31,7 +31,9 @@ The  **`src`** attribute is  used to specify the location of a digital source, w
 | `<track>` | Specifies the subtitles and closed captions for  `<audio>` and  `<video>` elements. |
 | [`<video>`](https://www.codecademy.com/resources/docs/html/elements/video)  | Embeds movie clips or other video sources into an HTML file. |
 | [ `<img>`](https://www.codecademy.com/resources/docs/html/images) | Embeds online photos, logos, and other pictures into a HTML file.
+
 ## Example #1: Image 
+
 The snippet below shows a logo being inserted into an HTML file:  
 
 ```html
