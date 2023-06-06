@@ -35,5 +35,4 @@ The codebyte example below uses the `asin()` function to return the arc sine of 
   echo asin(2), "\n";
   echo asin(-1);
 ?>
-
 ```
