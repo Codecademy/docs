@@ -14,7 +14,7 @@ CatalogContent:
 
 One of the most commonly used functions in PHP is **`echo()`**, which is used to output one or more strings to the browser or command-line interface.
 
-## Syntax:
+## Syntax
 
 ```pseudo
 echo string1, string2, ..., stringN;
