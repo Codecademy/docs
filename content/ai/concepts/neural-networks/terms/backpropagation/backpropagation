@@ -57,7 +57,8 @@ Backpropagation is a fundamental technique in training artificial neural network
 - **Deep Learning:** Backpropagation forms the basis of deep learning, enabling the training of deep neural networks with many layers and millions of parameters.
 
 ## Example:
-Let's consider a simple Backprogression modelwritten in python:
+
+The following is a simple Backprogression model written in python:
 
 ```py
 import numpy as np
