@@ -1,5 +1,5 @@
 ---
-Title: 'objects'
+Title: 'Objects'
 Description: 'Kotlin object declaration is a special type of declaration that allows the creation of a single instance of a class, commonly known as a Singleton.'
 Subjects: 
   - 'Mobile Development'
