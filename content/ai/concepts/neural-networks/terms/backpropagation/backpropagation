@@ -17,7 +17,6 @@ Still Confused? Well this is hard to understand, here's another visualization th
 
 ![backpropagation layers](https://raw.githubusercontent.com/Codecademy/docs/main/media/backpropagation_layers.png)
 
-In this document, we will delve into the concept of backpropagation, understand its inner workings, and explore how it is used in an artificial neural network.
 
 ## What is Backpropagation?
 
