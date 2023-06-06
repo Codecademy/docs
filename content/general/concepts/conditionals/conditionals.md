@@ -4,7 +4,6 @@ Description: 'Conditionals in programming are statements that allow the executio
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-  - 'Interview Prep'
 Tags:
   - 'Conditionals'
   - 'Control Flow'
