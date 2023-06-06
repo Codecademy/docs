@@ -21,7 +21,7 @@ In this document, we will delve into the concept of backpropagation, understand 
 
 ## What is Backpropagation?
 
-Backpropagation, short for "backward propagation of errors," is a supervised learning algorithm that calculates the gradient of the loss function with respect to the network's weights. It allows us to determine how much each weight contributes to the overall error or loss of the network's predictions.
+Backpropagation, short for "backward propagation of errors," is a supervised learning algorithm that calculates the gradient of the loss function with respect to the network's weights. It allows the determination of how much each weight contributes to the overall error or loss of the network's predictions.
 
 ## How is Backpropagation Used in Artificial Neural Networks?
 
