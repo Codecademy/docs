@@ -55,7 +55,7 @@ A slice can be created from another array or slice (`array_name`). The slice wil
 
 #### Example
 
-A slice created from an array (`array_name`). The example below declares a slice that points to an array's elements from index `2` to `5` (not including `5`):
+The example below declares a slice that points to an array's elements from index `2` to `5` (not including `5`):
 
 ```go
 s := array_name[2:5]
@@ -63,7 +63,7 @@ s := array_name[2:5]
 
 ### An Empty Slice
 
-A slice can be initialized using `make`.
+A slice can also be initialized using the `make()` function.
 
 #### Syntax
 
@@ -115,11 +115,11 @@ Slice elements can be accessed in the same way as array elements.
 
 ### Syntax
 
-Below is the syntax to access an element at index `element_index` from a slice with the name `slice_name`.
-
 ```pseudo
 slice_name[element_index]
 ```
+
+A given value is accessed by passing the `element_index` in `[]` with the `slice_name`.
 
 ### Codebyte Example
 
@@ -136,6 +136,45 @@ func main() {
 
   // Access an element
   fmt.Println("Third Element:", s[2])
+
+}
+```
+
+## Appending a Slice
+
+Elements can be added to a slice with the `append()` function. Slices, or rather the underlying arrays that they reference, are stored in memory in sequential locations. If elements are appended beyond the initial capacity of a slice, then `append()` will leverage the Go runtime to provision a new slice with a greater capacity. If the length of the slice is less than 1,024 the capacity will double when a new slice is required, otherwise it will increase by 25%.
+
+### Syntax
+
+```pseudo
+new_slice = append(new_slice, 1, 2, 3, n)
+```
+
+One or more values can be passed with the slice to `append()`.
+
+### Codebyte Example
+
+The example below demonstrates the use of `append()` and the resulting changes to the length and capacity of the slice.
+
+```codebyte/go
+package main
+
+import "fmt"
+
+func main() {
+
+  s := make([]int, 2)
+
+  // Print the initial length and capacity
+  fmt.Println("Length:", len(s), "Capacity:", cap(s))
+
+  // Append an element
+  s = append(s, 1, 2)
+  fmt.Println("Length:", len(s), "Capacity:", cap(s))
+
+  // Append another element
+  s = append(s, 3)
+  fmt.Println("Length:", len(s), "Capacity:", cap(s))
 
 }
 ```
