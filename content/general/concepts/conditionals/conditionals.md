@@ -31,7 +31,7 @@ if (condition) {
 }
 ```
 
-`else` proceeds an `if` statement, and provides an alternative block of code to execute when the specified condition is false.
+`else` can proceed an `if` statement, and provides an alternative block of code to execute when the specified condition is false.
 
 ```pseudo
 if (condition) {
