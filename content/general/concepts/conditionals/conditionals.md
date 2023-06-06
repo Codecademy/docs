@@ -14,7 +14,7 @@ CatalogContent:
 
 **Conditionals** in programming are statements that allow the execution of different blocks of code based on certain criteria. They enable programs to make decisions and perform different actions depending on whether a condition is true or false and help with flow control.
 
-For example, for a person can vote, they must be 18 years or older. In this case, the condition would be whether they're 18 or older, and depending on that being true or false, they would either be or not be able to vote. Such decision-making is done with the help of conditionals.
+For example, in the United States a citizen must be 18 years old by election day to be eligible to vote. In this case, the condition would be if a given person is 18 or older that determines if they are eligible to vote (assuming they meet all other requirements). Such decision-making can be accomplished programmatically with conditionals.
 
 All programming languages support conditonals in various ways, but there are two main conditionals: `if`-`else` and `switch`.
 
