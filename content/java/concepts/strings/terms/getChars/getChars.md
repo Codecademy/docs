@@ -31,9 +31,9 @@ A brief description of the parameters is as follows:
 
 ## Example
 
-In the following example, `getChar()` converts an array into a new shorter array. It then prints the new array in the console
+In the following example, `.getChars()` converts an array into a new shorter array. It then prints the new array in the console:
 
-```class java
+```java
 public class Test {
 
    public static void main(String args[]) {
@@ -44,7 +44,7 @@ public class Test {
 
          System.out.println(NewLine);
       } catch ( Exception ex) {
-         System.out.println("The string is too short.");
+         System.out.println("The indexes are out of range.");
       }
    }
 }
