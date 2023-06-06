@@ -38,7 +38,7 @@ The backpropagation algorithm can be summarized in the following steps:
 
 5. **Repeat:** Steps 1 to 4 are repeated for a fixed number of iterations or until a convergence criterion is met. The network gradually learns to minimize the error and improve its predictions.
 
-Here's an illustration that explains the workig of backpropagation:
+Here's an illustration that explains the working of backpropagation:
 
 ![Working of backpropagation](https://raw.githubusercontent.com/Codecademy/docs/main/media/Backpropagation%20Working.png)
 
