@@ -25,12 +25,13 @@ The  **`src`** attribute is  used to specify the location of a digital source, w
 
 | Direction | Description                                                                                                          |
 | --------- | -------------------------------------------------------------------------------------------------------------------- |
-| [`<audio>`](https://www.codecademy.com/resources/docs/html/elements/audio)    | Embeds sound files on websites and applications                                                         |
-| [`<input>`](https://www.codecademy.com/resources/docs/html/elements/input)     | Creates interactive textboxes for online forms.                                                                          |
+| [`<audio>`](https://www.codecademy.com/resources/docs/html/elements/audio)    | Embeds sound files on websites and applications |                                                         |
+| [`<img>`](https://www.codecademy.com/resources/docs/html/images) | Embeds online photos, logos, and other pictures into a HTML file. |
+| [`<input>`](https://www.codecademy.com/resources/docs/html/elements/input)     | Creates interactive textboxes for online forms. |                                                                    |
 | [`<script>`](https://www.codecademy.com/resources/docs/html/elements/script)    | Embeds Javascript and other executive code or data into a HTML file . |
 | `<track>` | Specifies the subtitles and closed captions for  `<audio>` and  `<video>` elements. |
 | [`<video>`](https://www.codecademy.com/resources/docs/html/elements/video)  | Embeds movie clips or other video sources into an HTML file. |
-| [`<img>`](https://www.codecademy.com/resources/docs/html/images) | Embeds online photos, logos, and other pictures into a HTML file.
+
 
 ## Example #1: Image 
 
@@ -49,5 +50,4 @@ The snippet below shows a [video](https://www.codecademy.com/resources/docs/html
 ```html
 <video source controls width="200" src="https://youtu.be/0QHaxrUkSE"  type="youtube"/>
 ```
-
  
