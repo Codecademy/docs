@@ -67,7 +67,6 @@ Instead, you should use return to send a value from a function or method. The re
 
 The following example shows how to use `echo` on a returned value:
 
-
 ```codebyte/php
 function getGreeting() {
   return 'Hello, world!';
