@@ -47,7 +47,7 @@ For example, regarding the eligibility to vote, an `if`-`else` statement can be 
 if (int age >= 18) {
   print("You can vote");
 } else {
-  print("You can't vote);
+  print("You can't vote");
 }
 ```
       
