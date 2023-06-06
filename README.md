@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD041 MD002 -->
 <div align="center">
-  <h1>📕 Codecademy Docs</h1>
+  <h1>📕 Docs</h1>
   <strong>Documentation for popular programming languages and frameworks.</strong><br>
   <strong>Built by the community. Maintained by Codecademy.</strong>
 </div>
@@ -8,7 +8,7 @@
 
 ## What is Docs?
 
-[Codecademy Docs](https://www.codecademy.com/resources/docs) is a free, easily accessible reference for coding terms and concepts, available to developers all over the world. If you forget what JavaScript hoisting is, we want you to be able to look up "JS hoisting" on any search engine, click a Codecademy Doc entry, and have an answer in seconds.
+[Docs](https://www.codecademy.com/resources/docs) is a free, easily accessible reference for coding terms and concepts, available to developers all over the world. If you forget what JavaScript hoisting is, we want you to be able to look up "JS hoisting" on any search engine, click a Doc entry, and have an answer in seconds.
 
 ## What stage of development are we in right now?
 
@@ -23,7 +23,7 @@ Docs is live with over 1000 high-quality entries. Now that the MVP is out, our g
 - [@sswiniarski](https://github.com/sswiniarski), Content Contributor
 - [@yangc95](https://github.com/yangc95), Content Contributor
 
-We are currently building a team of community volunteers and educators to maintain Codecademy Docs. Let us know if you are interested.
+We are currently building a team of community volunteers and educators to maintain Docs. Let us know if you are interested.
 
 ### 🏗 Engineering Team
 
@@ -35,17 +35,17 @@ We are currently building a team of community volunteers and educators to mainta
 
 ## How do I contribute?
 
-There are many ways to contribute to Codecademy Docs:
+There are many ways to contribute to Docs:
 
 - Submit a Pull Request to edit an existing entry.
 - Submit a Pull Request to create a new entry.
 - Submit a typo/bug in [GitHub Issues](https://github.com/Codecademy/docs/issues).
-- Share your thoughts in this [Codecademy Docs feedback form](https://codecademyready.typeform.com/to/hzVIWDgz) to tell us how we can improve Docs!
-- Join the [#CodecademyDocs](https://twitter.com/search?q=%23CodecademyDocs&src=typed_query&f=live) discussion on Twitter.
+- Reply to the thread on [Possible Content Discussion](https://discuss.codecademy.com/t/find-a-starting-point-possible-content-discussion/745868) to share ideas and collaborate with other contributors, maintainers, or super users to determine good future issues.
+- Share your thoughts in this [Docs feedback form](https://codecademyready.typeform.com/to/hzVIWDgz) to tell us how we can improve Docs!
 
 Whether you are a code newbie or a seasoned hacker, there's something for you!
 
-Please read through the [Contribution Guide](https://github.com/Codecademy/docs/blob/main/.github/CONTRIBUTING.md) ✨. There you'll find a write-up of our content standards and style guide, as well as templates for creating your entries.
+Please read through the [Contribution Guide](https://www.codecademy.com/resources/docs/contribution-guide) ✨. There you'll find a write-up of our content standards and style guide, as well as templates for creating your entries.
 
 ## Additional Notes
 

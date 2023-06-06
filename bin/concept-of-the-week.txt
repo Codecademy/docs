@@ -1,1 +1,1 @@
-content/javascript/concepts/enums/enums.md
+content/markdown/concepts/tables/tables.md
