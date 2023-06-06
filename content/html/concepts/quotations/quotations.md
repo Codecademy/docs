@@ -35,6 +35,8 @@ For longer quotations the `[<blockquote>](https://www.codecademy.com/resources/d
   let the noise of other's opinions drown your own inner voice. And most important, have the courage
   to follow your heart and intuition. They somehow already know what you truly want to become. 
   Everything else is secondary."</p> 
+   <footer>Steve Jobs</footer>
+  
 </blockquote>
 
 ```
