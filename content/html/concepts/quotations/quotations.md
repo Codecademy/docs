@@ -29,7 +29,12 @@ For longer quotations the `[<blockquote>](https://www.codecademy.com/resources/d
 
 ```html
 <blockquote>
-  <p>"The greatest glory in living lies not in never falling, but in rising every time we fall. The way to get started is to quit talking and begin doing. Your time is limited, don't waste it living someone else's life. Don't be trapped by dogma, which is living the result of other people's thinking. Don't let the noise of other's opinions drown your own inner voice. And most important, have the courage to follow your heart and intuition. They somehow already know what you truly want to become. Everything else is secondary."</p> 
+  <p>"The greatest glory in living lies not in never falling, but in rising every time we fall. The way 
+  to get started is to quit talking and begin doing. Your time is limited, don't waste it living someone 
+  else's life. Don't be trapped by dogma, which is living the result of other people's thinking. Don't 
+  let the noise of other's opinions drown your own inner voice. And most important, have the courage
+  to follow your heart and intuition. They somehow already know what you truly want to become. 
+  Everything else is secondary."</p> 
 </blockquote>
 
 ```
