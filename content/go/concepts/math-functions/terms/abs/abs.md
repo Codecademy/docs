@@ -37,13 +37,13 @@ The following caluates the absolute value of `-255` and prints out the result:
 package main
 
 import (
-	"fmt"
-	"math"
+  "fmt"
+  "math"
 )
 
 func main() {
-	number := math.Abs(-255)
-	fmt.Printf("%.1f\n", number)
+  number := math.Abs(-255)
+  fmt.Printf("%.1f\n", number)
 }
 ```
 
@@ -61,12 +61,12 @@ The following example is runnable and shows the `Abs()` function handling an inf
 package main
 
 import (
-	"fmt"
-	"math"
+  "fmt"
+  "math"
 )
 
 func main() {
-	number := math.Abs(math.Inf(-1))
-	fmt.Printf("%.1f\n", number)
+  number := math.Abs(math.Inf(-1))
+  fmt.Printf("%.1f\n", number)
 }
 ```
