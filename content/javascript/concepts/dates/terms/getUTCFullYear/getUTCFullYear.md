@@ -16,16 +16,18 @@ The **`.getUTCFullYear()`** method is a built-in function in JavaScript that ret
 This method is particularly useful when you need to retrieve the year component of a date regardless of the time zone or local system settings. It ensures consistent results regardless of the user's geographical location.
 
 ## Syntax
-```js
+
+```pseudo
 Date.getUTCFullYear();
 ```
 
 ## Example
 
-Consider the following example that demonstrates the usage of the `getUTCFullYear()` method:
+Consider the following example that demonstrates the usage of the `.getUTCFullYear()` method:
 
 ```js
 const date = new Date('2023-06-06T10:30:00Z');
 const year = date.getUTCFullYear();
 
 console.log(year);  // Output: 2023
+```
