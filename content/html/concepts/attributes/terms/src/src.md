@@ -1,4 +1,4 @@
-﻿---
+---
 Title: 'src'
 Description: 'An HTML attribute used to specify the location of a digital resource.'
 Subjects:
@@ -32,8 +32,7 @@ The  **`src`** attribute is  used to specify the location of a digital source, w
 | `<track>` | Specifies the subtitles and closed captions for  `<audio>` and  `<video>` elements. |
 | [`<video>`](https://www.codecademy.com/resources/docs/html/elements/video)  | Embeds movie clips or other video sources into an HTML file. |
 
-
-## Example #1: Image 
+## Example 1: Image 
 
 The snippet below shows a logo being inserted into an HTML file:  
 
@@ -43,11 +42,10 @@ The snippet below shows a logo being inserted into an HTML file:
 
 > **Note:** When using online images or images from the folders in an IDE workspace, always add `alt` text at the end of the `<img>`  element just in case the browser has trouble finding them.
 
-## Example #2: Video
+## Example 2: Video
 
 The snippet below shows a [video](https://www.codecademy.com/resources/docs/html/videos) being inserted into an HTML file: 
 
 ```html
 <video source controls width="200" src="https://youtu.be/0QHaxrUkSE"  type="youtube"/>
 ```
- 
