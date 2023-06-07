@@ -40,6 +40,7 @@ echo "My name is $name";
 
 In the example above, the output will be "My name is John".
 The concatenation operator (.) joins the string "My name is " with the variable `$name`.
+
 It is also possible to use `echo()` to output HTML code. For example:
 
 ```php
@@ -51,6 +52,7 @@ This will output a heading tag to the screen.
 > **Note:** HTML and PHP code can both be used within `echo()` statements.
 
 One important thing to keep in mind when using `echo()` is that it does not return a value. In other words, the output of `echo()` cannot be assigned to a variable or used in an expression.
+
 For example, the following code will not work:
 
 ```php
@@ -63,7 +65,7 @@ The output error will be something like this:
 Parse error: syntax error, unexpected token "echo" in /home/user/scripts/code.php on line 2
 ```
 
-Instead, you should use return to send a value from a function or method. The return statement is followed by the value that you want to return.
+Instead, the value of the function or method should be returned first using the `return` keyword. 
 
 The following example shows how to use `echo` on a returned value:
 
