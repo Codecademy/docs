@@ -65,7 +65,7 @@ The output error will be something like this:
 Parse error: syntax error, unexpected token "echo" in /home/user/scripts/code.php on line 2
 ```
 
-Instead, the value of the function or method should be returned first using the `return` keyword. 
+Instead, the value of the function or method should be returned first using the `return` keyword.
 
 The following example shows how to use `echo` on a returned value:
 
