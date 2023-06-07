@@ -18,13 +18,13 @@ Go supports many different math functions through the `math` package. You must i
 package main
 
 import (
-	"fmt"
-	"math"
+  "fmt"
+  "math"
 )
 
 func main() {
-	number := math.Abs(-255)
-	fmt.Printf("%.1f\n", number)
+  number := math.Abs(-255)
+  fmt.Printf("%.1f\n", number)
 }
 ```
 
