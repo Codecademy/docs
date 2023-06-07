@@ -9,7 +9,7 @@ Tags:
   - 'Elements'
   - 'Style'
 CatalogContent: 
-   - 'learn-html'
+  - 'learn-html'
   - 'paths/front-end-engineer-career-path'
 ---
 
