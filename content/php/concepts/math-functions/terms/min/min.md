@@ -1,6 +1,6 @@
 ---
 Title: 'min()'
-Description: 'Returns the lowest value out of a group or array of values'
+Description: 'Returns the lowest value out of a group or array of values.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
