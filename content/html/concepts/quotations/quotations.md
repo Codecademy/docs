@@ -18,7 +18,10 @@ In HTML, a quotation is a portion of text that is attributed to a specific perso
 Short quotations such as a short sentence or fragment should be set off with the [`<q>` tag](https://www.codecademy.com/resources/docs/html/elements/q). Here's an example of how to use the `<q>` tag:
 
 ```html
-<p>According to Albert Einstein, <q>Imagination is more important than knowledge.</q></p>
+<p>
+  According to Albert Einstein,
+  <q>Imagination is more important than knowledge.</q>
+</p>
 ```
 
 In this example, the text "Imagination is more important than knowledge" is enclosed in the `<q>` tag to indicate that it's a quotation. The quotation marks around "Imagination is more important than knowledge" are automatically added by the browser.
@@ -29,16 +32,17 @@ For longer quotations the `[<blockquote>](https://www.codecademy.com/resources/d
 
 ```html
 <blockquote>
-  <p>"The greatest glory in living lies not in never falling, but in rising every time we fall. The way 
-  to get started is to quit talking and begin doing. Your time is limited, don't waste it living someone 
-  else's life. Don't be trapped by dogma, which is living the result of other people's thinking. Don't 
-  let the noise of other's opinions drown your own inner voice. And most important, have the courage
-  to follow your heart and intuition. They somehow already know what you truly want to become. 
-  Everything else is secondary."</p> 
-   <footer>Steve Jobs</footer>
-  
+  <p>
+    "The greatest glory in living lies not in never falling, but in rising every
+    time we fall. The way to get started is to quit talking and begin doing.
+    Your time is limited, don't waste it living someone else's life. Don't be
+    trapped by dogma, which is living the result of other people's thinking.
+    Don't let the noise of other's opinions drown your own inner voice. And most
+    important, have the courage to follow your heart and intuition. They somehow
+    already know what you truly want to become. Everything else is secondary."
+  </p>
+  <footer>Steve Jobs</footer>
 </blockquote>
-
 ```
 
 In this example, the text "The best way to predict your future is to create it" is enclosed in the `<blockquote>` tag to indicate that it's a quotation. The `<footer>` tag is used to specify the author of the quote.
