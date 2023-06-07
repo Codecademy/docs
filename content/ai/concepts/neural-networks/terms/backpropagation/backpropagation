@@ -7,14 +7,19 @@ Subjects:
 Tags: 
   - 'AI'
   - 'Machine Learning'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/machine-learning-ai-engineering-foundations'
 ---
 
 **Backpropagation** is a crucial algorithm in the field of machine learning, specifically in the training of artificial neural networks (ANNs). It enables the neural network to learn and improve its performance by iteratively adjusting the weights and biases of its connections. Here's an example inage, which visualizes the concept of backpropagation:
 
+<!-- original image -->
 ![backpropagation Explained](https://raw.githubusercontent.com/Codecademy/docs/main/media/Backpropagation_intro.png)
 
-Still Confused? Well this is hard to understand, here's another visualization that will show you multiple layers present in backpropagation based model:
+Here's another visualization that will show you multiple layers present in backpropagation based model:
 
+<!-- original image -->
 ![backpropagation layers](https://raw.githubusercontent.com/Codecademy/docs/main/media/backpropagation_layers.png)
 
 
@@ -40,6 +45,7 @@ The backpropagation algorithm can be summarized in the following steps:
 
 Here's an illustration that explains the working of backpropagation:
 
+<!-- original image -->
 ![Working of backpropagation](https://raw.githubusercontent.com/Codecademy/docs/main/media/Backpropagation%20Working.png)
 
 ## Benefits and Importance of Backpropagation
@@ -55,90 +61,3 @@ Backpropagation is a fundamental technique in training artificial neural network
 - **Adaptability:** Backpropagation allows neural networks to adapt and improve their performance over time, making them suitable for tasks that involve changing environments or evolving data patterns.
 
 - **Deep Learning:** Backpropagation forms the basis of deep learning, enabling the training of deep neural networks with many layers and millions of parameters.
-
-## Example:
-
-The following is a simple Backprogression model written in python:
-
-```py
-import numpy as np
-
-def sigmoid(x):
-    # Sigmoid activation function
-    return 1 / (1 + np.exp(-x))
-
-def sigmoid_derivative(x):
-    # Derivative of the sigmoid function
-    return sigmoid(x) * (1 - sigmoid(x))
-
-class NeuralNetwork:
-    def __init__(self, layers):
-        self.layers = layers
-        self.weights = []
-        self.biases = []
-        for i in range(1, len(layers)):
-            # Initialize weights and biases for each layer
-            w = np.random.randn(layers[i], layers[i-1])
-            b = np.zeros((layers[i], 1))
-            self.weights.append(w)
-            self.biases.append(b)
-
-    def feedforward(self, x):
-        # Perform the forward pass through the network
-        a = x
-        activations = [a]
-        for w, b in zip(self.weights, self.biases):
-            z = np.dot(w, a) + b
-            a = sigmoid(z)
-            activations.append(a)
-        return activations
-
-    def backpropagation(self, x, y):
-        # Perform the backward pass (backpropagation) to update weights and biases
-        m = x.shape[1]  # Number of training examples
-
-        # Forward pass
-        activations = self.feedforward(x)
-        a = activations[-1]  # Output layer activations
-
-        # Backward pass
-        delta = a - y  # Calculate initial error
-
-        for i in range(len(self.weights)-1, -1, -1):
-            a = activations[i]  # Current layer activations
-            z = np.dot(self.weights[i], a) + self.biases[i]
-            sigmoid_prime = sigmoid_derivative(z)
-            delta = np.dot(self.weights[i].T, delta) * sigmoid_prime
-
-            # Update weights and biases
-            self.weights[i] -= (1/m) * np.dot(delta, a.T)
-            self.biases[i] -= (1/m) * np.sum(delta, axis=1, keepdims=True)
-
-    def train(self, x, y, epochs, learning_rate):
-        for epoch in range(epochs):
-            self.backpropagation(x, y)
-            if epoch % 100 == 0:
-                # Calculate and print the loss every 100 epochs
-                loss = np.mean(np.square(self.feedforward(x)[-1] - y))
-                print(f"Epoch {epoch}: Loss = {loss}")
-
-# Example usage
-# Create a neural network with 2 input neurons, 3 hidden neurons, and 1 output neuron
-network = NeuralNetwork([2, 3, 1])
-
-# Define the training data
-x_train = np.array([[0, 0], [0, 1], [1, 0], [1, 1]]).T
-y_train = np.array([[0, 1, 1, 0]])
-
-# Train the network
-network.train(x_train, y_train, epochs=1000, learning_rate=0.1)
-
-# Test the trained network
-x_test = np.array([[0, 0], [0, 1], [1, 0], [1, 1]]).T
-predictions = network.feedforward(x_test)[-1]
-print("Predictions:", predictions)
-```
-
-This code demonstrates the implementation of a simple neural network with two input neurons, three hidden neurons, and one output neuron. The network is trained using the XOR logical operation as an example. The backpropagation algorithm is used to update the weights and biases of the network based on the calculated errors. Finally, the trained network is tested on new input data to make predictions.
-
-Please note that this is a basic implementation for demonstration purposes, and in practical scenarios, more advanced techniques, optimizations, and additional layers may be used to achieve better performance.
