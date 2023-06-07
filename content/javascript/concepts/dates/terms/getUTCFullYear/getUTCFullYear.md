@@ -18,8 +18,12 @@ This method is particularly useful when you need to retrieve the year component 
 ## Syntax
 
 ```pseudo
-Date.getUTCFullYear();
+const date = new Date();
+date.getUTCFullYear();
 ```
+**`Date`** object is used for working with dates and times. The object provides a way to create, manipulate, and format dates in various formats.
+
+A Date object can be created by declaring a new variable with the `new Date()` constructor.
 
 ## Example
 
