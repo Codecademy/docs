@@ -36,7 +36,7 @@ To create a dynamic list, there needs to be some data that populates it. One way
 For example, a list of restaurant menu courses could be stored in array like so:
 
 ```swift
-var menu = ["Appetizer", "Entree", "Dessert"]
+var menu = ["Appetizer", "Entrée", "Dessert"]
 ```
 
 ## How To Make Data Identifiable in the List
