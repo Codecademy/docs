@@ -9,25 +9,25 @@ Subjects:
 Tags:
   - 'AI'
   - 'Neural Networks'
-  - 'CNN'
+  
 CatalogContent:
   - 'machine-learning'
   - 'paths/machine-learning-engineer'
 ---
 
-# What is a CNN?
 
-CNNs are a **type of neural network** that are primarily used for image classification. They are also used for other tasks such as object detection, image segmentation, and natural language processing.
 
-CNNs are inspired by the **visual cortex** of the brain. The visual cortex is the part of the brain that processes visual information. 
+**Convolutional Neural Networks** (CNNs) are a type of neural network that are primarily used for image classification. They are also used for other tasks such as object detection, image segmentation, and natural language processing.
 
-# How does a CNN work?
+CNNs are inspired by the visual cortex of the brain. The visual cortex is the part of the brain that processes visual information. 
 
-CNNs extract features from images using specialized layers called **convolutional layers**. These layers apply filters to the input image which helps them to learn about features such as patterns and edges.
+## How does a CNN work?
 
-The output (extracted features from the CNN layer) are then passed on to **fully connected layers**, which aid the CNN in classification and, prediction tasks.
+CNNs extract features from images using specialized layers called convolutional layers. These layers apply filters to the input image which helps them to learn about features such as patterns and edges.
 
-# Relation to AI
+The output (extracted features from the CNN layer) are then passed on to fully connected layers, which aid the CNN in classification and, prediction tasks.
 
-Due to their ability to extract features from images, CNNs are widely used in the field of computer vision with it's applications ranging from Augmented-Reality to Self-Driving Cars.
+## Relation to AI
+
+Due to their ability to extract features from images, CNNs are widely used in the field of computer vision with its applications ranging from augmented-reality to self-driving cars.
 
