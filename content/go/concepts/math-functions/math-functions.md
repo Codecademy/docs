@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Go supports many different math functions through the `math` package. You must import the `math` package before using these functions, as in the example below:
+Go supports many different **math functions** through the `math` package. The `math` package must be imported before using these functions, as in the example below:
 
 ```go
 package main
