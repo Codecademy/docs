@@ -1,5 +1,5 @@
 ---
-Title: **'hash()'**
+Title: 'hash()'
 Description: 'Returns the hash value as a fixed sized integer'
 Subjects:
 - 'Data Science'
