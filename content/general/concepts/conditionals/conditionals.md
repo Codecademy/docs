@@ -22,7 +22,7 @@ All programming languages support conditonals in various ways, but there are two
 
 ## If-else Statements
 
-The `if` statement is the most basic form of a conditional. It checks a condition and executes a block of code if the condition is true. 
+The `if` statement is the most basic form of a conditional. It checks a condition and executes a block of code if the condition is true.
 If the condition is false, the program continues with the next instruction. The basic syntax for an `if` statement is as follows:
 
 ```pseudo
@@ -50,7 +50,7 @@ if (int age >= 18) {
   print("You can't vote");
 }
 ```
-      
+
 ## Switch Statements
 
 The `switch` statement provides a way to perform different actions based on various values of a variable or expression.
@@ -60,11 +60,11 @@ It simplifies complex `if`-`else` chains. The basic syntax for a `switch` statem
 ```pseudo
 switch (variable/expression) {
   case value1:
-    // Code to be executed if the variable/expression matches value1.  
+    // Code to be executed if the variable/expression matches value1.
     break;
   case value2:
     // Code to be executed if the variable/expression matches value2.
-    break; 
+    break;
   // More cases...
   default:
     // Required code to be executed if none of the cases match the variable/expression.
