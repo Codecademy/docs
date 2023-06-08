@@ -2,8 +2,6 @@
 Title: 'Convolutional Neural Networks'
 Description: 'Convolutional Neural Networks are a type of neural network that are primarily used for image classification.'
 Subjects:
-  - 'Computer Science'
-Subjects:
   - 'Deep Learning'
   - 'Computer Science'
 Tags:
