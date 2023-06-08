@@ -1,8 +1,10 @@
-*Python property function
+# Python property function
 
 The property function lets coders use getter, setter, and deleting functions in more advanced ways
-
-**Syntax
+<br>
+<br>
+<br>
+## Syntax
 
 the property function takes up to four arguments
 
@@ -15,9 +17,10 @@ fset specifies a setter funtion
 fdel specifies a deleting function
 
 doc specifies a typical documentation function
-
-
-**Code example
+<br>
+<br>
+<br>
+## Code example
 
 class Person:
 
@@ -33,9 +36,9 @@ class Person:
     def set_name(self):
         del self.name
 
-    prop = property(get_name, set_name, del_name) # Now the getter, setter, and deleting method are connected through property()
+    prop = property(get_name, set_name, del_name)   # Now the getter, setter, and deleting methods are connected through property()
 
-p1 = Person()
-p1.prop = "John Smith" # Setter method is automatically called
-print(p1.prop) # Getter is automatically called
-del p1.prop # Deleteing method is automatically called
+p1 = Person()<br>
+p1.prop = "John Smith" &nbsp;&nbsp;&nbsp;# Setter method is automatically called<br>
+print(p1.prop) &nbsp;&nbsp;&nbsp;# Getter is automatically called<br>
+del p1.prop &nbsp;&nbsp;&nbsp;# Deleteing method is automatically called
