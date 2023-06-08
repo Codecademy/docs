@@ -29,7 +29,8 @@ func greet(person: String) -> String {
     return greeting
 }
 ```
-For example, this function called greet and takes a `String` parameter called person, and returns a `String` equale to Hello plus `person` value. Call the greet(person:) function by passing it a `String` value after the person argument label as shown below:
+
+For example, this function called `greet` takes a `String` parameter called `person`, and returns a `String` equal to "Hello" plus the `person` value. The `greet(person:)` function is called by passing it a `String` value after the `person:` argument label as shown below:
 
 ```Swift
 print(greet(person: "Anna"))
