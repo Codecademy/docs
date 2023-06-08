@@ -33,9 +33,9 @@ The following example uses the `ltrim()` function first without and then with a 
 
 ```php
 <?php
-$str1 = "   Peanut Butter";
-$str2 = "Apricot Jelly";
-echo ltrim($str1) . " and" . ltrim($str2, "Apricot");
+  $str1 = "   Peanut Butter";
+  $str2 = "Apricot Jelly";
+  echo ltrim($str1) . " and" . ltrim($str2, "Apricot");
 ?> 
 ```
 

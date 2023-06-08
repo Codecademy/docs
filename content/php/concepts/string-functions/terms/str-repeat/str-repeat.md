@@ -18,26 +18,30 @@ The `str_repeat()` function returns a string that repeats a substring a specifie
 ## Syntax
 
 ```pseudo
-str_replace($string, $repeat)
+str_repeat($string, $repeat)
 ```
 
-- `$string`: Specifies the string to repeat and it is required.
-- `$repeat`: Specifies the number of times the string will be repeated. Must be greater or equal to 0 and it is also required.
+The `str_repeat()` function has two required parameters:
 
-### Example
+- `$string`: Specifies the `string` to repeat.
+- `$repeat`: Specifies the number of times `$string` will be repeated. It must be greater or equal to `0`.
 
-The following example uses the `str_repeat()` function to convert the `string` of `"PHP"` to hexadecimal values. Then the `echo` command prints this value to the console:
+The `str_repeat()` function returns a `string` containing the given `$string` repeated `$repeat` times. If `$repeat` is `0`, it returns an empty `string`.
+
+## Example
+
+The following example uses the `str_repeat()` function to repeat the `"bon"` `2` times. Then the `echo` command prints this `string` to the console:
 
 ```php
 <?php
-  echo bin2hex("PHP");
+  echo str_repeat("bon", 2);
 ?>
 ```
 
 The example will result in the following output:
 
 ```shell
-504850
+bonbon
 ```
 
 ## Codebyte Example
@@ -48,10 +52,8 @@ This example provides a few demonstrations of `str_repeat()` operating on a stri
 
 ```codebyte/php
 <?php
-
-echo (str_repeat("I-am-repeated ",3)."\n");
-echo (str_repeat("Cool ",10). "\n");
-echo (str_repeat("I-don't-appear ",0). "\n");
-
+  echo (str_repeat("I-am-repeated ",3)."\n");
+  echo (str_repeat("Cool ",10). "\n");
+  echo (str_repeat("I-don't-appear ",0). "\n");
 ?>
 ```
