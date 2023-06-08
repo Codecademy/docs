@@ -23,7 +23,7 @@ The returned value from `getTime()` is an number value showing the number of mil
 
 ## Example
 
-In the example the variable `today` creates a new Date with the `getTime` method and logs the result to the console.
+In the example the variable `today` stores the number of milliseconds from 1/1/1970 to the current time created using by the `getTime()` method on a new `Date` and logs the result to the console.
 
 ```js
 const today = new Date().getTime()
