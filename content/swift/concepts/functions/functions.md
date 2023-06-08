@@ -1,6 +1,6 @@
 ---
 Title: 'Functions' 
-Description: 'Define and call functions, label their arguments, and use their return values.'
+Description: 'Functions are self-contained chunks of code that perform a specific task.'
 Subjects: 
   - 'iOS'
   - 'Code Foundations'
