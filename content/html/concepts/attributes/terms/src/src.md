@@ -26,7 +26,7 @@ The **`src`** attribute is used to specify the location of a digital source, whi
 | Direction                                                                    | Description                                                                       |
 | ---------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | --- |
 | [`<audio>`](https://www.codecademy.com/resources/docs/html/elements/audio)   | Embeds sound files on websites and applications                                   |     |
-| [`<img>`](https://www.codecademy.com/resources/docs/html/images)             | Embeds online photos, logos, and other pictures into a HTML file.                 |
+| [`<img>`](https://www.codecademy.com/resources/docs/html/images)             | Embeds online photos, logos, and other pictures into an HTML file.                 |
 | [`<input>`](https://www.codecademy.com/resources/docs/html/elements/input)   | Creates interactive textboxes for online forms.                                   |     |
 | [`<script>`](https://www.codecademy.com/resources/docs/html/elements/script) | Embeds Javascript and other executive code or data into a HTML file .             |
 | `<track>`                                                                    | Specifies the subtitles and closed captions for `<audio>` and `<video>` elements. |
