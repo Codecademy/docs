@@ -41,8 +41,8 @@ import re
 
 text = '**Note:** This method only takes positive arguments'
 
-print(re.split(r"\*\*|\:", text))
-# A backslash indicates that the parentheses are part of the pattern
+print(re.split(r"\*\*|:", text))
+# The backslashes indicate that the asterisks are part of the pattern
 ```
 
 The code will yield:
