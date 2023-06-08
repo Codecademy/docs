@@ -23,7 +23,7 @@ The **`src`** attribute is used to specify the location of a digital source, whi
 
 `src` can also be used in the following elements :
 
-| Direction                                                                    | Description                                                                       |
+| HTML Tag                                                                    | Description                                                                       |
 | ---------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | --- |
 | [`<audio>`](https://www.codecademy.com/resources/docs/html/elements/audio)   | Embeds sound files on websites and applications                                   |     |
 | [`<img>`](https://www.codecademy.com/resources/docs/html/images)             | Embeds online photos, logos, and other pictures into an HTML file.                 |
