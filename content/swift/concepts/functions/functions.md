@@ -156,7 +156,9 @@ func swapTwoInts(_ a: inout Int, _ b: inout Int) {
     b = temporaryA
 }
 ```
-This function simmply swaps the value of a and b.
+
+This function swaps the value of a and b.
+
 ```Swift
 var someInt = 3
 var anotherInt = 107
