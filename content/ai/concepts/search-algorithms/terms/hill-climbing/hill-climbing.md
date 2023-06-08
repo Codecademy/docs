@@ -30,8 +30,8 @@ The hill climbing algorithm follows a simple iterative process to search for the
 
 To use the hill climbing algorithm for your optimization problem, follow these steps:
 
-- Step 1: Define the search space: Determine the range or domain of possible solutions for your problem.
-- Step 2: Define the objective function: create a function that measures the quality or fitness of a solution.
+- Step 1: Define the search space: Determine the range or domain of possible solutions for the problem.
+- Step 2: Define the objective function: Create a function that measures the quality or fitness of a solution.
 - Step 3: Initialization: Generate or select an initial solution within the search space.
 - Step 4: Iterative process: Repeat the following steps until a termination condition is met:
   - Evaluate the current solution using the objective function.
@@ -43,12 +43,12 @@ To use the hill climbing algorithm for your optimization problem, follow these s
 
 ## Limitations
 
-The hill climbing algorithm has certain limitations to keep aware of:
+The hill climbing algorithm has certain limitations to keep in mind:
 
 - Local Optima: It may get stuck in local optima, suboptimal solutions that are better than their neighbors but worse than the global optimum.
-- Plateaus: It struggles to navigate flat regions or plateaus where there are no uphill moves.
+- Plateaus: It has difficulty navigating flat regions or plateaus where there are no uphill moves.
 - Multiple Peaks: It may miss the global optimum if the search space has multiple peaks or valleys.
-- Dependency on Initial Solution: The quality of the final solution can be highly dependent on the initial solution chosen.
+- Dependency on Initial solution: The quality of the final solution can be highly dependent on the initial solution chosen.
 
 ## Code Example
 
@@ -100,14 +100,14 @@ Suppose there is a game where the best solution needs to be found in order to wi
 
 First, the code uses a special tool called [`random`](https://www.codecademy.com/resources/docs/python/random-module) to help make random choices. This will be useful later.
 
-Next, there is a function called `objective_function.` It's like a judge who decides how good a solution is. The function looks at the solution given to it and adds up all the parts. If the total is high, it means the solution is good.
+Next, a function called `objective_function()` determines how good a solution is. The function looks at the solution given to it and adds up all the parts. If the total is high, it means the solution is good.
 
-Then, there is another function called `generate_neighbor.` This function helps make small changes to a solution. It takes a solution and picks a random spot. It then either flips a switch there (from 0 to 1 or 1 to 0) or leaves it as it is. It's like changing one small thing in the solution.
+Then, the `generate_neighbor()` function helps make small changes to a solution. It takes a solution and picks a random spot. It then either flips a switch there (from 0 to 1 or 1 to 0) or leaves it as it is. It's like changing one small thing in the solution.
 
-Now is the main part, called `hill_climbing.` This is where the magic happens! It starts by making a random solution with switches set to 0 or 1. Then, it asks the judge (the `objective_function`) how good this solution is. This is the starting point.
+Now is the main part, called `hill_climbing()`. This is where the magic happens! It starts by making a random solution with switches set to 0 or 1. Then, it asks the judge (the `objective_function()`) how good this solution is. This is the starting point.
 
-The code then keeps making changes to the solution and checking with the judge how good the new solution is. If the new solution is better than the current one, it becomes the new solution. It keeps doing this over and over, always trying to find a better solution.
+The code then keeps making changes to the solution and checking with the judge how good the new solution is. If the new solution is better than the current one, it becomes the new solution. It does this repeatedly, always trying to find a better solution.
 
-But, there is a rule: if the new solution is not better than the current one, it stops trying to find a better solution. It means it reached the top of the hill and can't climb any higher. It's like saying, "I tried my best, but this is as good as it gets."
+But, there is a rule: if the new solution is not better than the current one, it stops trying to find a better solution, meaning it has reached the top of the hill and can't climb any higher. It's like saying, "I tried my best, but this is as good as it gets."
 
 Finally, when the code can't find any better solutions, it responds with the best solution it found and how good it is. It's like saying, "Hey, I found the best way to win the game! This is it, and it's really good!"
