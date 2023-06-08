@@ -121,6 +121,7 @@ arithmeticMean(3, 8.25, 18.75)
 ```
 The values passed to a variadic parameter are made available within the function’s body as an array. For example, a variadic parameter with a name of `numbers` and a type of `Double`... is made available within the function’s body as a constant array called `numbers` of type `[Double]`.
 ## In-Out Parameters
+
 To be able to change the value passed for a certain argument, must you be an `inout` argument. An in-out parameter is denoted by inout in the function definition, and when the function is called, its variable argument must be prepended with an &.
 > **Note**: in-out parameters can’t have default values, and variadic parameters can’t be marked as inout.
 ```Swift
