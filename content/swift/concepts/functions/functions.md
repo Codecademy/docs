@@ -17,7 +17,7 @@ CatalogContent:
 
 ## Defining and Calling Functions
 
-Any funcation have three important parameters used to define it, first the funcation name, this is used to call the function, second is the number of parameters a function takes, parameters refers to the input the function take when calling it and lastly the return type of the function, this refer to the output data type of the function. A small tip when defining the name of the function, the name should describe it's functionality. 
+Any function has three important elements used to define it. First is the function name. This is used to call the function. Second is the number of parameters a function takes, parameters referring to the input the function takes when calling it. Lastly is the return type of the function, which refers to the output data type of the function. When defining the name of the function, the name should describe its functionality. 
 This below figure describe the syntax of funcations in swift:
 
 ![This diagram explains the syntax of the functions in Swift ](https://raw.githubusercontent.com/Codecademy/docs/main/media/funcationsDiagram.png)
