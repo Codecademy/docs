@@ -97,7 +97,8 @@ But if a parameter has an argument label, the argument must be labeled when call
 
 ## Functions With an Implicit Return
 
-if the whole function consists of a single expression, the function implicitly returns that expression like:
+If the whole function body consists of a single expression, the function implicitly returns the value of that expression. For example:
+
 ```Swift
 func greeting(for person: String) -> String {
     "Hello, " + person + "!"
