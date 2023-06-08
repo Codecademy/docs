@@ -64,3 +64,4 @@ In the example below, we define **my_tuple** as "1, 2, 3". Subsequently, we use 
 my_tuple = (1, 2, 3)
 hash_value = hash(my_tuple)
 print(hash_value)
+```
