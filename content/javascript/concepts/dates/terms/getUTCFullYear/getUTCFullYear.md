@@ -21,9 +21,9 @@ This method is particularly useful when it's necessary to retrieve the year comp
 const date = new Date();
 result = date.getUTCFullYear();
 ```
-**`Date`** object is used for working with dates and times. The object provides a way to create, manipulate, and format dates in various formats.
+A `Date` object is used for working with dates and times. The object provides a way to create, manipulate, and format dates in various formats.
 
-A Date object can be created by declaring a new variable with the `new Date()` constructor.
+A `Date` object can be created by declaring a new variable with the `new Date()` constructor.
 
 ## Example
 
