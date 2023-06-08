@@ -38,6 +38,7 @@ print(greet(person: "Anna"))
 ```
 
 ## Multiple Parameters
+
 Functions can take more than one input parameter, the parameters must be separated by commas and assigned during the function call.
 For example, this function takes two numbers as an input, and returns the division of the two numbers:
 
