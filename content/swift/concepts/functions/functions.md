@@ -108,6 +108,7 @@ func greeting(for person: String) -> String {
 The entire definition of the `greeting(for:)` function is the greeting message that it returns, which means it can use this shorter form. Any function that contains one return line can omit the `return` keyword.
 
 ## Default Parameters
+
 A default parameter has a real value assigned to a parameter in the function’s definition like:
 ```Swift
 func timeToFinishBook(numWords: Double, wordsPerMin: Double = 200) -> Double {
