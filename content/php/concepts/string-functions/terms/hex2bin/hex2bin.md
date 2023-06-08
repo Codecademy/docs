@@ -25,9 +25,9 @@ hex2bin(hex_string);
 
 The `hex_string` parameter represents the string of hexadecimal values to be converted.
 
-### Example
+## Example
 
-The following example uses the `hex2bin()` function to convert `"504850"`, a `string` of hexadecimal values, to `string` values. Then the `echo` command prints this value to the console:
+The following example uses the `hex2bin()` function to convert `"504850"`, a `string` of hexadecimal values, to a `string`. Then the `echo` command prints this value to the console:
 
 ```php
 <?php
