@@ -13,13 +13,13 @@ CatalogContent:
 
 The **`.getUTCFullYear()`** method is a built-in function in JavaScript that returns the year of the specified date according to universal time. It extracts the four-digit year (e.g. 2023) from a given Date object, based on the Coordinated Universal Time (UTC) time zone.
 
-This method is particularly useful when you need to retrieve the year component of a date regardless of the time zone or local system settings. It ensures consistent results regardless of the user's geographical location.
+This method is particularly useful when it's necessary to retrieve the year component of a date regardless of the time zone or local system settings. It ensures consistent results regardless of the user's geographical location.
 
 ## Syntax
 
 ```pseudo
 const date = new Date();
-date.getUTCFullYear();
+result = date.getUTCFullYear();
 ```
 **`Date`** object is used for working with dates and times. The object provides a way to create, manipulate, and format dates in various formats.
 
@@ -33,5 +33,11 @@ Consider the following example that demonstrates the usage of the `.getUTCFullYe
 const date = new Date('2023-06-06T10:30:00Z');
 const year = date.getUTCFullYear();
 
-console.log(year);  // Output: 2023
+console.log(year);
+```
+
+This example results in the following output:
+
+```shell
+2023
 ```
