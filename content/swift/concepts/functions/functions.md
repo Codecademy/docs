@@ -21,7 +21,7 @@ Any function has three important elements used to define it. First is the functi
 
 The figure below describes the syntax of functions in Swift:
 
-![This diagram explains the syntax of the functions in Swift ](https://raw.githubusercontent.com/Codecademy/docs/main/media/funcationsDiagram.png)
+![This diagram explains the syntax of the functions in Swift ](https://raw.githubusercontent.com/Codecademy/docs/main/media/swift-functions-diagram.png)
 
 ```Swift
 func greet(person: String) -> String {
