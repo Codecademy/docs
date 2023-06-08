@@ -96,6 +96,7 @@ best_solution, best_fitness = hill_climbing()
 print("Best Solution:", best_solution)
 print("Best Fitness:", best_fitness)
 ```
+
 Suppose there is a game where the best solution needs to be found in order to win. This code helps find that solution.
 
 First, the code uses a special tool called [`random`](https://www.codecademy.com/resources/docs/python/random-module) to help make random choices. This will be useful later.
