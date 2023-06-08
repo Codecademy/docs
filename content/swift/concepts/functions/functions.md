@@ -124,6 +124,7 @@ print("\(timeToFinishBook(numWords: 93000)) hours")
 When a function with a default parameter is called, an argument for that parameter is not required. If the argument is included, that value will overwrite the default value and be used in the function body.
 
 ## Variadic Parameters
+
 A variadic parameter accepts zero or more values of a specified type. Write variadic parameters by inserting three period characters (...) after the parameter’s type name like the example below calculates the arithmetic mean (also known as the average) for a list of numbers of any length:
 ```Swift
 func arithmeticMean(_ numbers: Double...) -> Double {
