@@ -109,7 +109,8 @@ The entire definition of the `greeting(for:)` function is the greeting message t
 
 ## Default Parameters
 
-A default parameter has a real value assigned to a parameter in the function’s definition like:
+A default parameter has a value assigned to a parameter in the function’s definition. For example:
+
 ```Swift
 func timeToFinishBook(numWords: Double, wordsPerMin: Double = 200) -> Double {
   let totalMinutes = numWords / wordsPerMin 
