@@ -31,7 +31,7 @@ Where `result` is the absolute value of `number`.
 
 ## Example
 
-The following caluates the absolute value of `-255` and prints out the result:
+The following calculates the absolute value of `-255` and prints out the result:
 
 ```go
 package main
