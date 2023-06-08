@@ -81,7 +81,7 @@ console.log(`\nCurrent grocery list:\n`);
 groceries.forEach((item, i) => {
     console.log(`${i + 1}) ${item}`);
 });
-console.log(`\nTotal grocery items: ${groceries.length}`); // 5
+console.log(`\nTotal grocery items: ${groceries.length}`);
 
 groceries.length = 3; // Removing the last grocery item
 
@@ -89,6 +89,6 @@ console.log(`\nUpdated grocery list:\n`);
 groceries.forEach((item, i) => {
     console.log(`${i + 1}) ${item}`);
 });
-console.log(`\nTotal grocery items: ${groceries.length}`); // 4
-console.log(`\nItem 4: ${groceries[3]}`); // undefined; last item deleted
+console.log(`\nTotal grocery items: ${groceries.length}`);
+console.log(`\nItem 4: ${groceries[3]}`);
 ```

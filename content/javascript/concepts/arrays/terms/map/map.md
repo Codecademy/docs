@@ -57,7 +57,7 @@ console.log(fullNames);
 
 ## Codebyte Example
 
-The example below defines a new array `teachers`. Next, the results of the `map()` method are stored in a new variable, array `courses`. Finally, the items of the `courses` array are logged to the console.
+The example below defines a new array `teachers`. Next, the results of the `.map()` method are stored in a new variable, array `courses`. Finally, the items of the `courses` array are logged to the console.
 
 ```codebyte/javascript
 const teachers = [
