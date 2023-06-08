@@ -83,7 +83,8 @@ print("min is \(bounds.min) and max is \(bounds.max)")
 
 ## Omitting Argument Labels
 
-If you don't want the argument to be labeled, use the `_` instead of an explicit argument label for that parameter.
+To avoid having an argument labeled, use the `_` instead of an explicit argument label for that parameter.
+
 ```Swift
 func findDifference(_ a: Int, b: Int) -> Int {
   return a - b
