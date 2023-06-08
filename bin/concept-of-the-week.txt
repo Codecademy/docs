@@ -1,1 +1,1 @@
-content/python/concepts/operators/operators.md
+content/markdown/concepts/tables/tables.md
