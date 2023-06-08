@@ -140,7 +140,9 @@ arithmeticMean(1, 2, 3, 4, 5)
 arithmeticMean(3, 8.25, 18.75)
 // returns 10.0, which is the arithmetic mean of these three numbers
 ```
-The values passed to a variadic parameter are made available within the function’s body as an array. For example, a variadic parameter with a name of `numbers` and a type of `Double`... is made available within the function’s body as a constant array called `numbers` of type `[Double]`.
+
+The values passed to a variadic parameter are made available within the function’s body as an array. For example, a variadic parameter with a name of `numbers` and a type of `Double...` is made available within the function’s body as a constant array called `numbers` of type `Double`.
+
 ## In-Out Parameters
 
 To be able to change the value passed for a certain argument, an `inout` argument should be used. An in-out parameter is denoted by `inout` in the function definition, and when the function is called, its variable argument must be prepended with an `&`.
