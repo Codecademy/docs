@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `str_repeat()` function returns a string that repeats a substring a specified number of times.
+The `str_repeat()` function returns a `string` that repeats a substring a specified number of times.
 
 ## Syntax
 
@@ -46,7 +46,7 @@ bonbon
 
 ## Codebyte Example
 
-This example provides a few demonstrations of `str_repeat()` operating on a string.
+This example is runnable and uses the `str_repeat()` function:
 
 > **Note:** The third echo statement will not output to the console due to the second argument of `str_repeat` being set to `0`.
 
