@@ -15,7 +15,7 @@ CatalogContent:
 
 **Selectors** are used to style [HTML elements](https://www.codecademy.com/resources/docs/html/elements) according to their type and/or attributes.
 
-All markups can be selected with the `*` selector:
+All markups can be selected with the `*` selector.
 
 ```css
 * {
@@ -39,7 +39,7 @@ The `element-type` must be a valid HTML element.
 
 ### Example
 
-In the following example, all `<p>` elements on the page will be center-aligned, with a red text color:
+In the following example all `<p>` elements on the page will be center-aligned with a red text color.
 
 ```css
 p {
@@ -50,7 +50,7 @@ p {
 
 ## Selecting by Attribute
 
-Most commonly, the `class` and `id` attributes are assigned to elements for styling purposes. An `id` cannot start with a number.
+The `class` and `id` attributes are generally assigned for styling different elements on the same page and linking to sections or other pages of the site.
 
 ### Syntax
 
