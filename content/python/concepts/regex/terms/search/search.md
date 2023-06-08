@@ -15,7 +15,7 @@ CatalogContent:
   - 'text-preprocessing'
 ---
 
-The `.search()` method returns the first match of a character pattern anywhere in a given string.
+The **`.search()`** method returns the first match of a character pattern anywhere in a given string.
 
 ## Syntax
 
@@ -35,7 +35,7 @@ There are optional arguments that include the following:
 - An index value to end the search (endpos): `40`
 - Flags: `IGNORECASE`, `VERBOSE`, `DOTALL`
 
-**Note:** `.search()` will only return the the first match (as a match object) within the string; alternatively, the `.findall()` method matches every occurrence (and returns a list of matches).
+> **Note:** `.search()` will only return the the first match (as a match object) within the string; alternatively, the `.findall()` method matches every occurrence (and returns a list of matches).
 
 ## Example
 
@@ -60,10 +60,10 @@ The output will look like this:
 
 The following example features a regex that uses the `.search()` method to match a web address:
 
-```py
+```codebyte/python
 import re
 
-result = re.search(r"www\S+", "the tutorials at www.codeacademy.com")
+result = re.search(r"www\S+", "the tutorials at www.codecademy.com")
 # \S matches any character except a space, tab or newline
 
 print(result)

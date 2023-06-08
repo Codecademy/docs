@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Regex**, short for [regular expressions](https://www.codecademy.com/resources/docs/general/regular-expressions), is a powerful system for searching text. Regular expressions are implemented in a variety of languages including java and python.
+**Regex**, short for [regular expressions](https://www.codecademy.com/resources/docs/general/regular-expressions), is a powerful system for searching text. Regular expressions are implemented in a variety of languages including Java and Python.
 
 ## Syntax
 
