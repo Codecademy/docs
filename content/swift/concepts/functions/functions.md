@@ -92,7 +92,8 @@ func findDifference(_ a: Int, b: Int) -> Int {
 
 print(findDifference(6, b: 4)) // Prints: 2
 ```
-but if a parameter has an argument label, the argument must be labeled when calling the function.
+
+But if a parameter has an argument label, the argument must be labeled when calling the function.
 
 ## Functions With an Implicit Return
 if the whole function consists of a single expression, the function implicitly returns that expression like:
