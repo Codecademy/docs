@@ -72,7 +72,9 @@ func minMax(array: [Int]) -> (min: Int, max: Int) {
     return (currentMin, currentMax)
 }
 ```
+
 Because the tuple’s member values are named as part of the function’s return type, they can be accessed with dot syntax to retrieve the minimum and maximum found values, as done below:
+
 ```Swift
 let bounds = minMax(array: [8, -6, 2, 109, 3, 71])
 print("min is \(bounds.min) and max is \(bounds.max)")
