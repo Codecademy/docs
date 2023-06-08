@@ -96,6 +96,7 @@ print(findDifference(6, b: 4)) // Prints: 2
 But if a parameter has an argument label, the argument must be labeled when calling the function.
 
 ## Functions With an Implicit Return
+
 if the whole function consists of a single expression, the function implicitly returns that expression like:
 ```Swift
 func greeting(for person: String) -> String {
