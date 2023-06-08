@@ -16,7 +16,7 @@ Creates a new array with the results of calling a function for every element in 
 
 ## Syntax
 
-```js
+```pseudo
 array.map((element, index, array) => {...});
 ```
 
@@ -24,7 +24,7 @@ The callback function accepts the following parameters:
 
 - `element` (required): The current element we are iterating through.
 - `index` (optional): The index of the current element we are iterating through.
-- `array` (optional): The array that `map()` was called on.
+- `array` (optional): The array that `.map()` was called on.
 
 ## Examples
 
