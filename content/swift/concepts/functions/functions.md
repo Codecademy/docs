@@ -55,7 +55,9 @@ print(decimal)
 ## Returning Multiple Values
 
 A tuple type can be used as the return type for a function to return multiple values as part of one compound return value. Each value within its parentheses needs to be labeled and assigned a type in the function definition.
-For example, this function takes array of `Int` as an input, and return the smallest and largest number in the array.
+
+For example, this function takes array of `Int` as an input, and returns the smallest and largest number in the array.
+
 ```Swift
 func minMax(array: [Int]) -> (min: Int, max: Int) {
     var currentMin = array[0]
