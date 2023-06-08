@@ -24,6 +24,22 @@ str_replace($string, $repeat)
 - `$string`: Specifies the string to repeat and it is required.
 - `$repeat`: Specifies the number of times the string will be repeated. Must be greater or equal to 0 and it is also required.
 
+### Example
+
+The following example uses the `str_repeat()` function to convert the `string` of `"PHP"` to hexadecimal values. Then the `echo` command prints this value to the console:
+
+```php
+<?php
+  echo bin2hex("PHP");
+?>
+```
+
+The example will result in the following output:
+
+```shell
+504850
+```
+
 ## Codebyte Example
 
 This example provides a few demonstrations of `str_repeat()` operating on a string.

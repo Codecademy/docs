@@ -25,6 +25,22 @@ hex2bin(hex_string);
 
 The `hex_string` parameter represents the string of hexadecimal values to be converted.
 
+### Example
+
+The following example uses the `hex2bin()` function to convert the `string` of `"PHP"` to hexadecimal values. Then the `echo` command prints this value to the console:
+
+```php
+<?php
+  echo bin2hex("PHP");
+?>
+```
+
+The example will result in the following output:
+
+```shell
+504850
+```
+
 ## Codebyte Example
 
 The following example shows how to use the `hex2bin()` function:

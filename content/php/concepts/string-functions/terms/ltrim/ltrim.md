@@ -27,6 +27,22 @@ The `$string` parameter gives the function a target string to remove whitespace 
 
 The `$characters` parameter is an optional string that specifies characters the function should remove. `ltrim()` will start at the left side of the string and remove any characters that match the ones provided in the `$characters` argument until it finds one that does not match.
 
+### Example
+
+The following example uses the `ltrim()` function to convert the `string` of `"PHP"` to hexadecimal values. Then the `echo` command prints this value to the console:
+
+```php
+<?php
+  echo bin2hex("PHP");
+?>
+```
+
+The example will result in the following output:
+
+```shell
+504850
+```
+
 ## Codebyte Example
 
 The following example demonstrates the `ltrim()` function with both one and two arguments.
