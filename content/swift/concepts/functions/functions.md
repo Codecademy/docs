@@ -13,7 +13,7 @@ CatalogContent:
   - 'path/iOS-path'
 ---
 
-**Functions** are self-contained chunks of code that perform a specific task. You give a function a name that identifies what it does, and this name is used to “call” the function to perform its task when needed.
+**Functions** are self-contained chunks of code that perform a specific task. A function is given a name that identifies what it does, and this name is used to “call” the function to perform its task when needed.
 
 ## Defining and Calling Functions
 Any funcation have three important parameters used to define it, first the funcation name, this is used to call the function, second is the number of parameters a function takes, parameters refers to the input the function take when calling it and lastly the return type of the function, this refer to the output data type of the function. A small tip when defining the name of the function, the name should describe it's functionality. 
