@@ -44,20 +44,17 @@ int main() {
 }
 ```
 
-### Codebyte Example
+## Codebyte Example
 
 The following code example returns the hyperbolic sine of a given number using the `sinh` function.
 
 ```codebyte/cpp
-
 #include <iostream>
-#include <cmath> // for sinh
+#include <cmath> // For the sinh method
 
 int main() {
     double x = 4;
     std::cout << "The hyperbolic sine of " << x << " is " << sinh(x) << std::endl;
     return 0;
 }
-
-
 ```

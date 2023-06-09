@@ -33,19 +33,17 @@ int main() {
 }
 ```
 
-### Codebyte Example
+## Codebyte Example
 
 The following code example returns the absolute value with the help of the `fabs()` method.
 
 ```codebyte/cpp
-
 #include <iostream>
-#include <cmath> // for fabs
+#include <cmath> // For the fabs method
 
 int main() {
     double x = -3.14;
     std::cout << "The absolute value of " << x << " is " << fabs(x) << std::endl;
     return 0;
 }
-
 ```

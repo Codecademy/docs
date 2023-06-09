@@ -49,19 +49,17 @@ This results in the following output:
 Sine of 60 degrees is 0.866025
 ```
 
-### Codebyte Example
+## Codebyte Example
 
-The following code example returns the `sine` of a given angle in `radians` using the `sin` function.
+The following code example returns the sine of a given angle in `radians` using the `sin()` function.
 
 ```codebyte/cpp
-
 #include <iostream>
-#include <cmath> // for sin
+#include <cmath> //  For the sin method
 
 int main() {
     double x = 3.14 / 2;
     std::cout << "The sine of " << x << " is " << sin(x) << std::endl;
     return 0;
 }
-
 ```
