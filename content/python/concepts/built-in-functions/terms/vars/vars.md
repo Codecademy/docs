@@ -9,7 +9,7 @@ Tags:
   - 'Objects'
 CatalogContent: 
   - 'learn-python'
-	- 'paths/computer-science'
+  - 'paths/computer-science'
 ---
 
 **vars()** is a built-in python function that returns the __dict__ attribute of an object. The __dict__ attribute is a dictionary containing the object's changeable attributes.
