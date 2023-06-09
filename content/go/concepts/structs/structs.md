@@ -64,7 +64,7 @@ func main(){
 }
 ```
 
-In the example above, a Car struct is defined. In the `main` function, the values are set using the dot notation.
+In the example above, a `Car` struct is defined. In the `main` function, the values are set using the dot notation.
 This method is used to access and modify the fields of a struct. To set the value of a field, use the `.` operator followed by the name of the field to modify, and then assign the desired value.
 
 This way of setting values is very intuitive and convenient. However, for more complex initializations, it is best to consider
@@ -127,7 +127,7 @@ func main() {
 }
 ```
 
-This approach is useful when you want to initialize the fields individually.
+This approach is useful when initializing the fields individually.
 
 ### Using a Literal Value
 
@@ -147,6 +147,8 @@ This way of initializing is handy to initialize the struct with all the field va
 ## Adding a Method
 
 Methods are added outside the struct. For that, a receiver function is needed which will have a reference to the struct, to allow it to operate on the structs' data. The receiver, the struct itself, is a parameter that provides access to its own fields.
+
+In the example below, the function `Drive()` takes the `Car` struct as the receiver, in the `main` function the method is invoked using dot notation printing to the console `I am driving my car.`
 
 ```codebyte/golang
 package main
@@ -171,5 +173,3 @@ func main() {
   myCar.Drive()
 }
 ```
-
-In the example above, the function `Drive()` takes the `Car` struct as the receiver, and in the `main` function the method is invoked using dot notation printing to the console `I am driving my car.`
