@@ -8,7 +8,7 @@ Tags:
   - 'Attributes'
   - 'Objects'
 CatalogContent: 
-	- 'learn-python'
+  - 'learn-python'
 	- 'paths/computer-science'
 ---
 
