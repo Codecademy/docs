@@ -29,7 +29,9 @@ Where `number` is the number that the function returns the arc cosine for. Shoul
 ## Example
 
 ```php
+<?php
 acos(0.64)
+?>
 ```
 
 The result will be a float value of `0.87629806116834`.
