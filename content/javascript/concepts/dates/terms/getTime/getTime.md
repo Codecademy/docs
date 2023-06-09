@@ -11,7 +11,7 @@ CatalogContent:
   - 'introduction-to-javascript'
 ---
 
-The **`getTime()`** method returns the number of milliseconds since the 1st of January 1970.
+The **`.getTime()`** method returns the number of milliseconds since the 1st of January 1970.
 
 ## Syntax
 
