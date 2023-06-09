@@ -4,7 +4,9 @@ Description: 'Returns the __dict__ attirbute of an object.'
 Subjects: 
   - 'Computer Science'
 Tags: 
-	- 'built-in functions'
+  - 'Functions'
+  - 'Attributes'
+  - 'Objects'
 CatalogContent: 
 	- 'learn-python'
 	- 'paths/computer-science'
