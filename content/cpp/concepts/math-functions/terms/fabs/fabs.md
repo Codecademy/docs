@@ -35,7 +35,7 @@ int main() {
 
 ## Codebyte Example
 
-The following code example returns the absolute value with the help of the `fabs()` method.
+The following code example returns the absolute value of a decimal with the `fabs()` method.
 
 ```codebyte/cpp
 #include <iostream>
