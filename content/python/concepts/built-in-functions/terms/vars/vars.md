@@ -22,7 +22,7 @@ vars(object)
 
 ## Example
 
-Use vars() to return the __dict__ attributes of the object 'Person'
+The following example uses `vars()` to return the `__dict__` attributes of the object `Person`:
 
 ```codebyte/python
 	class Person:
