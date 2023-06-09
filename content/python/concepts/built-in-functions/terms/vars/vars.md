@@ -2,7 +2,7 @@
 Title: 'vars()'
 Description: 'Returns the __dict__ attirbute of an object.'
 Subjects: 
-	- 'computer science'
+  - 'Computer Science'
 Tags: 
 	- 'built-in functions'
 CatalogContent: 
