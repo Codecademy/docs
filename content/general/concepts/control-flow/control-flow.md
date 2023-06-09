@@ -1,15 +1,15 @@
 ---
-Title: 'Control Flow' 
-Description: 'Control flow refers to the order in which statements and instructions are executed in a program.' 
-Subjects: 
+Title: 'Control Flow'
+Description: 'Control flow refers to the order in which statements and instructions are executed in a program.'
+Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-Tags: 
+Tags:
   - 'Control Flow'
   - 'Conditionals'
   - 'Loops'
   - 'Switch'
-CatalogContent: 
+CatalogContent:
   - 'learn-how-to-code'
   - 'paths/code-foundations'
 ---
@@ -28,7 +28,7 @@ Conditional statements provide the ability to make decisions within a program ba
 
 ### 2. Loops
 
-[Loops](https://www.codecademy.com/resources/docs/javascript/loops) are used to repeat a block of code multiple times until a certain condition is met. They are handy for iterating over collections, performing repetitive tasks, and implementing algorithms that require repeated execution. The following types of loops are commonly used:
+Loops are used to repeat a block of code multiple times until a certain condition is met. They are handy for iterating over collections, performing repetitive tasks, and implementing algorithms that require repeated execution. The following types of loops are commonly used:
 
 - **For Loops:** A `for` loop executes a block of code a fixed number of times, typically iterating over a range of values. It typically consists of an initialization statement, a condition for termination, and an increment or decrement statement.
 
