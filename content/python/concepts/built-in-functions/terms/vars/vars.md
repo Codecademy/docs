@@ -20,6 +20,8 @@ CatalogContent:
 vars(object)
 ```
 
+Here, 'object' refers to an instance of a particular class.
+
 ## Example
 
 The following example uses `vars()` to return the `__dict__` attributes of the object `Person`:
@@ -31,6 +33,5 @@ The following example uses `vars()` to return the `__dict__` attributes of the o
 		country = "norway"
 
 	x = vars(Person)
-	
-	>>>{'__module__': '__main__', 'name': 'John', 'age': 36, 'country': 'norway', '__dict__': <attribute '__dict__' of 'Person' objects>, '__weakref__': <attribute '__weakref__' of 'Person' objects>, '__doc__': None}
+	print(x)
 ```
