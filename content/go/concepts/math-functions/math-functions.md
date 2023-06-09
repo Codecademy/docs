@@ -23,7 +23,7 @@ import (
 )
 
 func main() {
-  number := math.Abs(-255)
+  number := math.Round(-2.55)
   fmt.Printf("%.1f\n", number)
 }
 ```
