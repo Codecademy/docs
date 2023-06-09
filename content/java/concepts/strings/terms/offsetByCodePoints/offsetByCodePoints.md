@@ -1,0 +1,108 @@
+---
+Title: 'offsetByCodePoints()'
+Description: 'Returns the new index of a character in a string after applying the specified code point offset.'
+Subjects:
+  - 'Computer Science'
+Tags:
+  - 'Strings'
+  - 'Methods'
+CatalogContent:
+  - 'learn-java'
+  - 'paths/computer-science'
+---
+
+The **`offsetByCodePoints()`** function is used to calculate the index of a character in a string by specifying a starting index and a code point offset. It returns the new index after applying the offset limit.
+
+It is useful when working with strings that contain characters with multiple code points, such as emojis or characters from non-Latin scripts. This function helps accurately navigate and manipulate the index based on code points, allowing you to access specific characters or portions of the string.
+
+## Syntax
+
+```java
+Strings.offsetByCodePoints(int startIndex,int  offsetIndex)
+```
+
+- `startIndex` (int): The starting index in the string from which the offset is applied.
+
+- `OffsetIndex` (int): The offset, in terms of code points, by which the index is adjusted. Positive values move the index forward, and negative values move it backward.
+
+## Example 1
+
+In this example, the code point offset is set to 7, which means the new index will be 7. It moves the index forward by 7 code points, effectively pointing to the character `'W'` in the string.
+
+```java
+class OffsetByCodePoints {
+  public static void main(String[] args) {
+  String str = "Hello, World!";
+  int startIndex = 0; // Starting index
+  int offsetIndex = 7; // Code point offset
+  int newIndex = str.offsetByCodePoints(startIndex, offsetIndex);
+  System.out.println("New Index: " + newIndex);
+  // Output: New Index: 7
+
+
+
+
+  }
+}
+```
+
+The output would be:
+
+```
+New Index: 7
+```
+
+## Example 2
+
+In this example, the string str contains the phrase `"hello, दुनिया!"`(meaning "hello, world!" in English). The starting index is set to 0, and the code point offset is 6.
+
+The `**offsetByCodePoints()**` method calculates the new index by moving it forward by 6 code points. The new index will be 6, pointing to the character `'द'` (da) in the string.
+
+```java
+class OffsetByCodePoints {
+  public static void main(String[] args) {
+  String str = "hello, दुनिया!";
+  int startIndex = 0; // Starting index
+  int offsetIndex = 6; // Code point offset
+
+  int newIndex = str.offsetByCodePoints(startIndex, offsetIndex);
+  System.out.println("New Index: " + newIndex);
+
+  // Output: New Index: 6
+
+
+
+  }
+}
+```
+
+The output would be:
+
+```
+New Index: 6
+```
+
+## Example 3
+
+In this example, the string str contains the text `"Hello, 世界!".` We specify the starting index as 0 and the code point offset as 5. The `**offsetByCodePoints()**` method returns the new index after applying the offset, which is 5 in this case. It means that the character at index 5 is the desired character.
+
+```java
+class OffsetByCodePoints {
+  public static void main(String[] args) {
+   String str = "Hello, 世界!";
+   int startIndex = 0; // Starting index
+   int offsetIndex = 5; // Code point offset
+
+   int newIndex = str.offsetByCodePoints(startIndex, offsetIndex);
+   System.out.println("New Index: " + newIndex);
+   // Output: New Index: 5
+
+  }
+}
+```
+
+The output would be:
+
+```
+New Index: 5
+```
