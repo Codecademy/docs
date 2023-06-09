@@ -10,8 +10,8 @@ Tags:
 - 'Input'
 - 'Methods'
 CatalogContent:
-- 'Learn Python 3'
-- 'Learn Data Structures and Algorithms with Python'
+- 'learn-python-3'
+- 'paths/computer-science'
 
 ---
 
