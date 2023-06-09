@@ -15,6 +15,7 @@ CatalogContent:
 **`vars()`** is a built-in python function that returns the `__dict__` attribute of an object. The `__dict__` attribute is a dictionary containing the object's changeable attributes.
 
 ## Syntax
+
 ```pseudo
 vars(object)
 ```
