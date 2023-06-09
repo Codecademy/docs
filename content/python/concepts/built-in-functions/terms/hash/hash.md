@@ -9,8 +9,6 @@ Tags:
 - 'Functions'
 - 'Input'
 - 'Methods'
-- 'Output'
-- 'Print'
 CatalogContent:
 - 'Learn Python 3'
 - 'Learn Data Structures and Algorithms with Python'
