@@ -30,7 +30,7 @@ Where `number` is the number that the function returns the arc cosine for. Shoul
 
 ```php
 <?php
-acos(0.64)
+  echo(acos(0.64));
 ?>
 ```
 
