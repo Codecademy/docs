@@ -1,6 +1,6 @@
 ---
 Title: ATAN Function
-Description: Explanation and usage of the ATAN function in SQL.
+Description: Trigonometric function returning the arctangent angle in SQL
 Subjects:
   - SQL
   - Mathematics
