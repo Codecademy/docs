@@ -9,7 +9,8 @@ Tags:
   - Mathematical Functions
   - SQL Functions
 CatalogContent:
-  - sql/concepts/math-functions
+ - 'learn-sql'
+ - 'paths/analyze-data-with-sql'
 ---
 
 The **`ATAN()`** function in SQL is a mathematical function utilized to compute the arctangent of a provided number. It evaluates the angle, measured in radians, whose tangent corresponds to the specified number. This function finds its utility in numerous mathematical and analytical calculations, such as determining angles or performing trigonometric operations within SQL queries.
