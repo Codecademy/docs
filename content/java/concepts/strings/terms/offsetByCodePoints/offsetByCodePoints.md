@@ -1,5 +1,5 @@
 ---
-Title: 'offsetByCodePoints()'
+Title: '.offsetByCodePoints()'
 Description: 'Returns the new index of a character in a string after applying the specified code point offset.'
 Subjects:
   - 'Computer Science'
@@ -33,15 +33,11 @@ In this example, the code point offset is set to 7, which means the new index wi
 class OffsetByCodePoints {
   public static void main(String[] args) {
   String str = "Hello, World!";
-  int startIndex = 0; // Starting index
-  int offsetIndex = 7; // Code point offset
+  int startIndex = 0;
+  int offsetIndex = 7;
+
   int newIndex = str.offsetByCodePoints(startIndex, offsetIndex);
   System.out.println("New Index: " + newIndex);
-  // Output: New Index: 7
-
-
-
-
   }
 }
 ```
@@ -62,16 +58,11 @@ The `**offsetByCodePoints()**` method calculates the new index by moving it forw
 class OffsetByCodePoints {
   public static void main(String[] args) {
   String str = "hello, दुनिया!";
-  int startIndex = 0; // Starting index
-  int offsetIndex = 6; // Code point offset
+  int startIndex = 0;
+  int offsetIndex = 6;
 
   int newIndex = str.offsetByCodePoints(startIndex, offsetIndex);
   System.out.println("New Index: " + newIndex);
-
-  // Output: New Index: 6
-
-
-
   }
 }
 ```
@@ -89,16 +80,15 @@ In this example, the string str contains the text `"Hello, 世界!".` We specify
 ```java
 class OffsetByCodePoints {
   public static void main(String[] args) {
-   String str = "Hello, 世界!";
-   int startIndex = 0; // Starting index
-   int offsetIndex = 5; // Code point offset
+    String str = "こんにちは、世界！";
+    int startIndex = 0;
+    int offsetIndex = 5;
 
-   int newIndex = str.offsetByCodePoints(startIndex, offsetIndex);
-   System.out.println("New Index: " + newIndex);
-   // Output: New Index: 5
-
+    int newIndex = str.offsetByCodePoints(startIndex, offsetIndex);
+    System.out.println("New Index: " + newIndex);
   }
 }
+
 ```
 
 The output would be:
