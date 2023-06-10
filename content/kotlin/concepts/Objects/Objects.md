@@ -1,6 +1,6 @@
 ---
 Title: 'Objects'
-Description: 'Kotlin object declaration is a special type of declaration that allows the creation of a single instance of a class, commonly known as a Singleton.'
+Description: 'In kotlin the concept of Objects have two possible use: expression and declarations.'
 Subjects: 
   - 'Mobile Development'
 Tags:
@@ -12,7 +12,53 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'paths/computer-science'
 ---
 
-Kotlin **`object`** declaration is a special type of declaration that allows the creation of a single instance of a class, commonly known as a Singleton.
+**`Object expression`**   
+Its a kind of expression that create an object of anonymous classes (classes that aren't explicitly declared with the class).
+This kind of classes are very useful for one-time use.
+
+## Syntax
+
+```pseudo
+fun main() {
+    val myObject = object {
+        val valueOne = L
+        val valueTwo = A
+        fun sum() {
+            val result = valueOne + valueTwo
+            println("The sum is: $result")
+        }
+    }
+    
+    myObject.sum()
+}
+```
+
+## Example:
+
+```
+fun main() {
+    val myAnonymusObject = object { //create an anonymous object using the object expression *object*.
+        val name = "Princess"
+        val color = "pink"
+        fun presentation() {
+            println("Hi, I'm $name, and I like $color.")
+        }
+    }
+
+    myAnonymusObject.presentation()
+}
+```
+
+The example shows an object without a explicitly class declaration.
+
+The following is printed to the console:  
+```shell
+"Hi, I'm Princess and I like pink."
+```
+- - -
+
+**`Object declaration`**  
+Is a special type of declaration that allows the creation of a single instance of a class, commonly known as a Singleton.
 
 ## Syntax
 
