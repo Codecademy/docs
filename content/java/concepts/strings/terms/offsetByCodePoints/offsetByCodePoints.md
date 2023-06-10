@@ -1,5 +1,5 @@
 ---
-Title: 'offsetByCodePoints()'
+Title: '.offsetByCodePoints()'
 Description: 'Returns the new index of a character in a string after applying the specified code point offset.'
 Subjects:
   - 'Computer Science'
