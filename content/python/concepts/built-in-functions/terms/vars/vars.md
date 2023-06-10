@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**`vars()`** is a built-in python function that returns the `__dict__` attribute of an object. The `__dict__` attribute is a dictionary containing the object's changeable attributes.
+**`vars()`** is a built-in Python function that returns the `__dict__` attribute of an object. The `__dict__` attribute is a dictionary containing the object's mutable attributes.
 
 ## Syntax
 
