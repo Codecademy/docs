@@ -22,7 +22,7 @@ vars(object)
 
 Here, 'object' refers to an instance of a particular class.
 
-## Example
+## Codebyte Example
 
 The following example uses `vars()` to return the `__dict__` attributes of the object `Person`:
 
