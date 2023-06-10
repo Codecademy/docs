@@ -1,6 +1,6 @@
 ---
 Title: 'vars()'
-Description: 'Returns the __dict__ attirbute of an object.'
+Description: 'Returns the __dict__ attribute of an object.'
 Subjects: 
   - 'Computer Science'
 Tags: 
