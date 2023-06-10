@@ -20,7 +20,7 @@ CatalogContent:
 vars(object)
 ```
 
-Here, 'object' refers to an instance of a particular class.
+Here, `object` refers to an instance of a particular class.
 
 ## Codebyte Example
 
