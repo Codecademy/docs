@@ -27,11 +27,11 @@ Here, `object` refers to an instance of a particular class.
 The following example uses `vars()` to return the `__dict__` attributes of the object `Person`:
 
 ```codebyte/python
-	class Person:
-		name = "John"
-		age = 36
-		country = "norway"
+class Person:
+	name = "John"
+	age = 36
+	country = "norway"
 
-	x = vars(Person)
-	print(x)
+x = vars(Person)
+print(x)
 ```
