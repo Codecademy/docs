@@ -14,7 +14,7 @@ The `Euclidean algorithm` is a recursive algorithm that allows us to find the hi
 
 There can be multiple methods to solve and find the highest common factor (HCF) of two numbers. In this explanation, let's explore a basic approach first and then move on to the `Euclidean algorithm`.
 
-## Basic Approach
+## Method 1
 
 In the basic approach, Let's follow a simple rule to find the GCD. Let's start by finding the minimum value between the two given numbers. Then, let's divide this minimum value by both numbers. If the number does not divide both numbers evenly, let's decrease it by `1` and continue dividing it by both numbers. Let's repeat this process until the minimum value can divide both numbers evenly. At that point, the minimum value is our HCF (highest common factor).
 
@@ -45,7 +45,7 @@ The output for the above code will be:
 
 Here two methods are shown using Euclidean algorithm to find the HCF of two numbers. So let's take two numbers as 'a' and 'b' as our inputs.
 
-## Method 1
+## Method 2
 
 In this method, we aim to compare both 'a' and 'b'. Whichever number is greater, we subtract the smaller number from the larger number and update the value of the larger number accordingly. If 'a' is greater than 'b', we replace 'a' with 'a - b', and if 'b' is greater than 'a', we replace 'b' with 'b - a'. We repeat this step until 'a' becomes equal to 'b'. Once 'a' and 'b' are equal, we return 'a' as the answer. At this point, the value of 'a' (which is equal to 'b') represents the highest common factor (HCF) of the original values of 'a' and 'b'.
 
@@ -90,7 +90,7 @@ If we debug the code above step by steps then:
 - At this point, the while loop exits, and we return 'a' as our answer, which is 5.
 - Therefore, the highest common factor (HCF) of (15, 20) is 5.
 
-## Method 2
+## Method 3
 
 In this method we will use [recursion](https://www.codecademy.com/learn/discrete-math-recurrence-relations). The method takes two integer parameters 'a' and 'b' . Then returns an integer as the result. The gcd method uses a `recursive` approach to implement the `Euclidean algorithm`. It first checks if `b` is equal to 0. If it is, then it means that `a` is the GCD, and it returns `a` as the result. If `b` is not 0, it means there is a remainder when `a` is divided by `b`. In this case, the method calls itself recursively with the arguments `b` and `a % b`. This recursive call continues until `b` becomes 0, at which point the base case is triggered, and the GCD is found.
 
