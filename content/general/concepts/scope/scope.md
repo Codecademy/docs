@@ -40,8 +40,7 @@ end function
 In this pseudocode, the following scopes exist:
 
 1. Global Scope: The 'globalVariable' is declared outside any functions or blocks, making it accessible from anywhere within the program, including all functions and blocks.
-2. Block Scope: The 'blockVariable' is declared within the if-statement block. It is only accessible within that block and any nested blocks, such as the for-loop. Trying to access 'blockVariable' outside of its block would result in an error.
-3. Loop Scope: The 'loopVariable' is declared within the for-loop block. It has scope limited to that block and is only accessible during each iteration of the loop. Attempting to access 'loopVariable' outside of the loop would result in an error.
+2. Local Scope: The 'blockVariable' is declared within the if-statement block. It is only accessible within that block and any nested blocks, such as the for-loop. Trying to access 'blockVariable' outside of its block would result in an error. The 'loopVariable' is declared within the for-loop block. It has scope limited to that block and is only accessible during each iteration of the loop. Attempting to access 'loopVariable' outside of the loop would result in an error.
 
 The pseudocode snippet demonstrates how variables can have different scopes depending on where they are declared. Understanding scope is essential for correctly accessing variables and avoiding conflicts between different parts of a program.
 
