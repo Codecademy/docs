@@ -17,7 +17,7 @@ The ** `getUTCDay()` ** method returns the day of the week in the specified date
 ## Syntax
 
 ```javascript
-date.getUTCday();
+getUTCday();
 ```
 The return value will give you a integer between 0 and 6:
   * 0 = Sunday
@@ -27,3 +27,14 @@ The return value will give you a integer between 0 and 6:
   * 4 = Thursday
   * 5 = Friday
   * 6 = Saturday
+
+## Example
+
+The following example shows the method in use.
+
+```javascript
+const date = new Date('10 June 2023 14:15:30');
+console.log(date.getUTCDay());
+```
+
+The output will be 6.
