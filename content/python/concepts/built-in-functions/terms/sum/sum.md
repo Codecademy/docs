@@ -70,4 +70,4 @@ message = sum(words, start="")
 print(message)  # Output: 'Hello World!'
 ```
 
-Note: The `sum()` function works with any iterable object that contains numbers or elements that can be added together.
+> **Note:** The `sum()` function works with any iterable object that contains numbers or elements that can be added together.
