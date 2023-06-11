@@ -129,6 +129,7 @@ The length() function can also be used to find the dimension of a matrix:
 myMatrix2 <- matrix(c("tokyo", "delhi", "washington", "paris"), nrow = 2, ncol = 2)
 length(myMatrix2) 
 ```
+
 ## Mathematical Operations on Matrices
 
 Addition, Subtraction, Multiplication and Division can also be performed on Matrices in R.
