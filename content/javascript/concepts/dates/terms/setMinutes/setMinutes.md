@@ -25,8 +25,12 @@ The `.setMinutes()` method is called on `Date` object `myDate` with an input arg
 ## Example
 
 ```javascript
-const eventDay = new Date();
+const eventDay = new Date("June 11, 2023 14:20:29");
 eventDay.setMinutes(30);
+
+const hoursMinutes = eventDay.getHours() + ":" + eventDay.getMinutes();
+
+console.log(hoursMinutes); // 14:30
 ```
 
 In this example, a new `Date` object is instantiated and assigned to the `const` variable `eventDay`. `setMinutes()` is called on the `eventDay` `Date` object with a minute value of `30` minutes to change its current minute value. 
