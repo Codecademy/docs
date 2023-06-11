@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.setDate()`** method changes the minute value of the Date object according to local time.
+The **`.setMinutes()`** method changes the minute value of the Date object according to local time.
 
 ## Syntax
 
