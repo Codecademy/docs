@@ -53,6 +53,7 @@ The snippet below shows a [video](https://www.codecademy.com/resources/docs/html
   controls
   width="200"
   src="https://youtu.be/0QHaxrUkSE"
-  type="youtube"
-/>
+  type="youtube">
+  </video>
+
 ```
