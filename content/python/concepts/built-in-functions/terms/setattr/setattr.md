@@ -45,11 +45,11 @@ print("My new name is " + new_name)
 
 # output: My new name is John
 ```
-## Codebyte Example (if applicable)
+## Codebyte Example
 
 Suppose we have a `Person` class that represents a person with attributes such as name and age. We can use the `setattr()` function to dynamically set the value of an attribute.
 
-```py
+```codebyte/py
 class Person:
     pass
 
