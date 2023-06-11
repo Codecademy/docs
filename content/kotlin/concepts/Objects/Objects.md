@@ -7,7 +7,7 @@ Tags:
   - 'Android'
   - 'Kotlin'
   - 'Objects'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+CatalogContent:
   - 'learn-kotlin'
   - 'paths/computer-science'
 ---
