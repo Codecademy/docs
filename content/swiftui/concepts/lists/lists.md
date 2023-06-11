@@ -49,4 +49,23 @@ ForEach(menu, id: \.self) { course in
 }
 ```
 
-For styling purposes, modifiers like `.listStyle()` can be used to alter how a list is displayed.
+For styling purposes, modifiers like `.listStyle()` can be used to alter how a list is displayed. Here's an example:
+```swift
+import SwiftUI
+
+struct MenuView: View {
+    var menu = ["Appetizer", "Entrée", "Dessert"]
+
+    var body: some View {
+        List(menu, id: \.self) { section in
+            Section(header: Text(section)) {
+                // Add your section content here, like so:
+                Text("Item 1")
+                Text("Item 2")
+            }
+        }
+        .listStyle(GroupedListStyle())
+    }
+}
+```
+In the above example, the `.listStyle` modifier `GroupedListStyle` is used to put the items in numerical order. 
