@@ -22,7 +22,6 @@ Strings.offsetByCodePoints(int startIndex,int  offsetIndex)
 ```
 
 - `startIndex` (int): The starting index in the string from which the offset is applied.
-
 - `OffsetIndex` (int): The offset, in terms of code points, by which the index is adjusted. Positive values move the index forward, and negative values move it backward.
 
 ## Example 1
@@ -50,32 +49,7 @@ New Index: 7
 
 ## Example 2
 
-In this example, the string str contains the phrase `"hello, दुनिया!"`(meaning "hello, world!" in English). The starting index is set to 0, and the code point offset is 6.
-
-The `**offsetByCodePoints()**` method calculates the new index by moving it forward by 6 code points. The new index will be 6, pointing to the character `'द'` (da) in the string.
-
-```java
-class OffsetByCodePoints {
-  public static void main(String[] args) {
-  String str = "hello, दुनिया!";
-  int startIndex = 0;
-  int offsetIndex = 6;
-
-  int newIndex = str.offsetByCodePoints(startIndex, offsetIndex);
-  System.out.println("New Index: " + newIndex);
-  }
-}
-```
-
-The output would be:
-
-```
-New Index: 6
-```
-
-## Example 3
-
-In this example, the string str contains the text `"Hello, 世界!".` We specify the starting index as 0 and the code point offset as 5. The `**offsetByCodePoints()**` method returns the new index after applying the offset, which is 5 in this case. It means that the character at index 5 is the desired character.
+In this example, the string str contains the text `"こんにちは、世界！"`. We specify the starting index as 0 and the code point offset as 5. The `**offsetByCodePoints()**` method returns the new index after applying the offset, which is 5 in this case. It means that the character at index 5 is the desired character.
 
 ```java
 class OffsetByCodePoints {
@@ -88,7 +62,6 @@ class OffsetByCodePoints {
     System.out.println("New Index: " + newIndex);
   }
 }
-
 ```
 
 The output would be:
