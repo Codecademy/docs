@@ -61,7 +61,7 @@ Hello number 3
 
 ## Example 2
 
-Following code outputs current date and time followed by additional arguments.
+The following code outputs the current date and time followed by additional arguments.
 
 ```js
 let i = 1; // initial count
