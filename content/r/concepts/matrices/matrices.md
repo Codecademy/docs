@@ -16,7 +16,7 @@ In R, **Matrices** are rectangular data structures that contain elements of the 
 
 Matrices are created using the `matrix()` function, which takes the data elements and dimensions as input parameters. The elements can be numeric, character, logical, or any other data type supported by R. The dimensions of a matrix define the number of rows and columns, allowing for organized storage and efficient computations.
 
-Once created, matrices in R offer a wide range of operations and functions. You can perform basic arithmetic operations, such as addition, subtraction, multiplication, and division, on matrices of compatible dimensions. R also provides functions for matrix transposition, subsetting, row and column manipulation, and various matrix algebra operations like determinant calculation, inverse computation, and eigenvalue extraction.
+Once created, matrices offer a wide range of operations and functions. Basic arithmetic operations can be performed, such as addition, subtraction, multiplication, and division, on matrices of compatible dimensions. R also provides functions for matrix transposition, subsetting, row and column manipulation, and various matrix algebra operations like determinant calculation, inverse computation, and eigenvalue extraction.
 
 
 ## Syntax
