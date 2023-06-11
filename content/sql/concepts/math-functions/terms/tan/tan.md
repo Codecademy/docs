@@ -51,3 +51,5 @@ The output will be:
 | 1   | 80               | 5.67128181961771   |
 | 2   | 45               | 1.0                |
 | 3   | 170              | -0.176326980708465 |
+
+> **Note:** For the use of this method with SQL databases like MySQL, PostgreSQL, SQLite, or SQL Server, refer to their respective documentation for more details on the `TAN()` function implementation and compatibility.
