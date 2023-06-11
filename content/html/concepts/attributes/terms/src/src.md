@@ -25,12 +25,12 @@ The **`src`** attribute is used to specify the location of a digital source, whi
 
 | HTML Tag | Description |
 |---|---|
-| `<audio>` | Embeds sound files on websites and applications. |
-| `<img>` | Embeds online photos, logos, and other pictures into an HTML file. |
-| `<input>` | Creates interactive textboxes for online forms. |
-| `<script>` | Embeds JavaScript and other executive code or data into an HTML file. |
+| [`<audio>`](https://www.codecademy.com/resources/docs/html/elements/audio)| Embeds sound files on websites and applications. |
+| [`<img>`](https://www.codecademy.com/resources/docs/html/images)| Embeds online photos, logos, and other pictures into an HTML file. |
+| [`<input>`](https://www.codecademy.com/resources/docs/html/elements/input)| Creates interactive textboxes for online forms. |
+| [`<script>`](https://www.codecademy.com/resources/docs/html/elements/script)| Embeds JavaScript and other executive code or data into an HTML file. |
 | `<track>` | Specifies the subtitles and closed captions for `<audio>` and `<video>` elements. |
-| `<video>` | Embeds movie clips or other video sources into an HTML file. |
+| [`<video>`](https://www.codecademy.com/resources/docs/html/elements/video)| Embeds movie clips or other video sources into an HTML file. |
 
 
 ## Example 1: Image
