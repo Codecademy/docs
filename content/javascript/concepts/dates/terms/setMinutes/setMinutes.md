@@ -20,7 +20,7 @@ The **`.setMinutes()`** method changes the minute value of the Date object accor
 myDate.setMinutes(minutesValue);
 ```
 
-The **`.setMinutes()`** method is called on `Date` object `myDate` with an input argument `minutesValue` that contains the desired minute value.
+The `.setMinutes()` method is called on `Date` object `myDate` with an input argument `minutesValue` that contains the desired minute value.
 
 ## Example
 
