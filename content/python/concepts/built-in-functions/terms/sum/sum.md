@@ -18,7 +18,7 @@ Takes in an iterable object, such as a list or tuple, and returns the sum of all
 
 ## Syntax
 
-```python
+```pseudo
 sum(iterable, start=0)
 ```
 
