@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In R, **Matrices** are rectangular data structures that contain elements of the same data type arranged in rows and columns. They provide a convenient way to store and manipulate structured data, making them widely used in various data analysis and statistical operations. \par
+In R, **Matrices** are rectangular data structures that contain elements of the same data type arranged in rows and columns. They provide a convenient way to store and manipulate structured data, making them widely used in various data analysis and statistical operations.
 
 Matrices in R are created using the `matrix()` function, which takes the data elements and dimensions as input parameters. The elements can be numeric, character, logical, or any other data type supported by R. The dimensions of a matrix define the number of rows and columns, allowing for organized storage and efficient computations. \par
 
