@@ -1,0 +1,68 @@
+---
+Title: 'Setattr()'
+Description: 'Sets the value of the attribute of an object.'
+Subjects:
+  - 'Code Foundations'
+  - 'Computer Science'
+Tags:
+  - 'Methods'
+  - 'Objects'
+  - 'Functions'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/computer-science'
+---
+
+The **`Setattr()`** function is a built-in Python function that is used to set the value of a named attribute of an object. It allows you to dynamically assign or modify attributes of an object at runtime.
+
+## Syntax
+
+```pseudo
+setattr(object, attribute, value)
+```
+
+The `setattr()` function requires three parameters:
+
+- `object`: an object.
+- `attribute`: attribute name that you want to set.
+- `value`: value you want to give the `attribute`.
+
+## Example
+
+The following example will change the `value` of the `name` attribute from the `Person` object:
+
+```py
+class Person:
+  name = "Alex"
+  age = 30
+
+# Updating the name property
+setattr(Person, 'name', "John")
+
+# Retrieving the name property
+new_name = getattr(Person, 'name')
+print("My new name is " + new_name)
+
+# output: My new name is John
+```
+## Codebyte Example (if applicable)
+
+Suppose we have a `Person` class that represents a person with attributes such as name and age. We can use the `setattr()` function to dynamically set the value of an attribute.
+
+```py
+class Person:
+    pass
+
+# Create an instance of the Person class
+person = Person()
+
+# Set the name attribute using setattr()
+setattr(person, 'name', 'John Doe')
+
+# Set the age attribute using setattr()
+setattr(person, 'age', 25)
+
+# Access the attributes
+print(person.name)  # Output: John Doe
+print(person.age)   # Output: 25
+```
