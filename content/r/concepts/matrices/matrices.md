@@ -128,7 +128,7 @@ myMatrix2 <- matrix(c("tokyo", "delhi", "washington", "paris"), nrow = 2, ncol =
 "cairo" %in% thismatrix 
 ```
 
-## Dimension and Length of Matrix
+# Dimension and Length of Matrix
 The dim() function is used to find the number of rows and columns in a Matrix:
 
 ```r
@@ -141,7 +141,7 @@ The length() function can also be used to find the dimension of a Matrix:
 myMatrix2 <- matrix(c("tokyo", "delhi", "washington", "paris"), nrow = 2, ncol = 2)
 length(myMatrix2) 
 ```
-## Mathematical Operations on Matrices
+# Mathematical Operations on Matrices
 
 Addition, Subtraction, Multiplication and Division can also be performed on Matrices in R.
 
