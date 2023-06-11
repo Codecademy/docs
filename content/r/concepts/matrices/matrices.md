@@ -122,7 +122,8 @@ The dim() function is used to find the number of rows and columns in a Matrix:
 myMatrix2 <- matrix(c("tokyo", "delhi", "washington", "paris"), nrow = 2, ncol = 2)
 dim(myMatrix2) 
 ```
-The length() function can also be used to find the dimension of a Matrix:
+
+The length() function can also be used to find the dimension of a matrix:
 
 ```r
 myMatrix2 <- matrix(c("tokyo", "delhi", "washington", "paris"), nrow = 2, ncol = 2)
