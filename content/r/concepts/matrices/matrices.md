@@ -149,5 +149,4 @@ result3 <- matrix1 * matrix2
 result4 <- matrix1 / matrix2
 ```
 
-## Pro-Tip💡 
 Matrices are often used to represent data sets or mathematical models in R. They are commonly employed in statistical analysis, data manipulation, linear algebra, and machine learning tasks. With the availability of powerful packages like `matrixStats`, `Matrix`, and `dplyr`, working with matrices in R becomes even more efficient and flexible.
