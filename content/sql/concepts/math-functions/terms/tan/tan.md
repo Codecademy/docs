@@ -25,7 +25,7 @@ SELECT TAN(angle);
 
 `angle` is the radiant value, for which the tangent is calculated.
 
-> `Note`: The TAN() function operates using radians as its input, not degrees. To convert degrees to radians, the degree value can be multiplied by π/180.
+> **Note:** The `TAN()` function operates using radians as its input, not degrees. To convert degrees to radians, the degree value can be multiplied by π/180.
 
 ## Example
 
