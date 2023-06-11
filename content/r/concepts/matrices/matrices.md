@@ -21,7 +21,7 @@ Once created, matrices offer a wide range of operations and functions. Basic ari
 
 ## Syntax
 
-To create a matrix in R, simply use the 'matrix()' method. Here are some examples:
+To create a matrix, simply use the 'matrix()' method. Here are some examples:
 
 ```r
 # Create a matrix with 8 values stored in a tabular format with 2 rows and 4 columns
