@@ -21,6 +21,10 @@ Takes in an iterable object, such as a list or tuple, and returns the sum of all
 ```pseudo
 sum(iterable, start=0)
 ```
+**iterable:** is an object capable of returning its elements one at a time
+for example a list, tuple or dictionary.
+
+**start:** is a number added to the sum of the numbers in the iterable.
 
 ## Example 1
 
@@ -31,7 +35,11 @@ numbers = [1, 2, 3, 4, 5]
 
 total = sum(numbers)
 
-print(total) # Output: 15
+print(total)
+```
+
+```shell
+15
 ```
 
 ## Example 2
@@ -43,31 +51,40 @@ prices = (10.99, 5.99, 8.49)
 
 total = sum(prices)
 
-print(total)  # Output: 25.47
+print(total)
+```
+
+```shell
+25.47
 ```
 
 ## Example 3
 
 Using the `start` parameter to specify an initial value for the sum:
 
-```python
+```codebyte/python
 numbers = [1, 2, 3, 4, 5]
 
 total = sum(numbers, start=10)
 
-print(total)  # Output: 25
+print(total)
 ```
 
-## Example 4
+```shell
+25
+```
+
+## Codebyte Example
 
 Summing up a list of strings (concatenation):
 
-```python
+```codebyte/python
 words = ["Hello", " ", "World", "!"]
 
 message = sum(words, start="")
 
-print(message)  # Output: 'Hello World!'
+print(message)
 ```
+
 
 > **Note:** The `sum()` function works with any iterable object that contains numbers or elements that can be added together.
