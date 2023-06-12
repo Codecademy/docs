@@ -20,7 +20,7 @@ The targeted nature of spear phishing makes it difficult to detect. For example,
 
 ## Signs of Spear Phishing
 
-Spear phishing can have significant financial and reputational consequences for an organization, however there are signs to watch out for to stay protected against these threats:
+Spear phishing can have significant financial and reputational consequences for an organization, however, there are signs to watch out for to stay protected against these threats:
 
 - A sense of urgency: Spear phishing subject lines usually provoke an urgent response in the hope that the victim will act impulsively and engage.
 - Poor imaging: Most companies will make sure to provide high-quality logos and images in their emails. A spear phishing email may contain grainy or blurry graphics.
