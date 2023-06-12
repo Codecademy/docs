@@ -60,7 +60,7 @@ This produces the following output:
 
 ```shell
 16
-[10,12,14,16]
+[10 12 14 16]
 [ 8 16]
 ```
 
