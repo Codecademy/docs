@@ -1,13 +1,16 @@
 ---
-Title: ATAN Function
-Description: Trigonometric function returning the arctangent angle in SQL
+Title: 'ATAN()'
+Description: 'Returns the arctangent of a provided number.'
 Subjects:
-  - SQL
-  - Mathematics
+  - 'Data Science'
+  - 'Data Visualization'
+  - 'Computer Science'
 Tags:
-  - Trigonometry
-  - Mathematical Functions
-  - SQL Functions
+  - 'SQL'
+  - 'MySQL'
+  - 'PostgreSQL'
+  - 'SQLite'
+  - 'Functions'
 CatalogContent:
  - 'learn-sql'
  - 'paths/analyze-data-with-sql'
