@@ -47,7 +47,7 @@ print("My new name is " + new_name)
 ```
 ## Codebyte Example
 
-Suppose we have a `Person` class that represents a person with attributes such as name and age. We can use the `setattr()` function to dynamically set the value of an attribute.
+Suppose there is a `Person` class that represents a person with attributes such as name and age. The `setattr()` function can be used to dynamically set the value of an attribute.
 
 ```codebyte/py
 class Person:
