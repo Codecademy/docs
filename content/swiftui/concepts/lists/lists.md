@@ -1,17 +1,17 @@
 ---
 Title: 'Lists'
 Description: 'In SwiftUI, lists are single-column containers that vertically display a collection of items.'
-Subjects:  
+Subjects:
   - 'iOS Development'
 Tags:
   - 'SwiftUI'
   - 'iOS'
-CatalogContent: 
+CatalogContent:
   - 'learn-swift'
   - 'paths/ios-developer'
 ---
 
-**Lists** in SwiftUI are single-column containers that vertically display a collection of items. 
+**Lists** in SwiftUI are single-column containers that vertically display a collection of items.
 
 ## Creating Lists
 
@@ -50,6 +50,7 @@ ForEach(menu, id: \.self) { course in
 ```
 
 For styling purposes, modifiers like `.listStyle()` can be used to alter how a list is displayed. Here's an example:
+
 ```swift
 import SwiftUI
 
@@ -68,4 +69,5 @@ struct MenuView: View {
     }
 }
 ```
-In the above example, the `.listStyle` modifier `GroupedListStyle` is used to put the items in numerical order. 
+
+In the above example, the `.listStyle` modifier `GroupedListStyle` is used to put the items in numerical order.
