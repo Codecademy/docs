@@ -27,7 +27,7 @@ NavigationSplitView or NavigationStack
 
 Here are a few of the `placement` property types:
 
-- `.automatic` places the search box will be automatically, this is the default value.
+- `.automatic` places the search box automatically, this is the default value.
 - `.sidebar` places the search box in the sidebar.
 - `.toolbar` places the search box in the toolbar.
 
