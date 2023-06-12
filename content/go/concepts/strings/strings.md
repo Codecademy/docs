@@ -105,8 +105,8 @@ import (
 )
 func main() {
   name := "Codecademy"
-  find := "e"
-  fmt.Println(find, "is in", name, strings.Count(name,find), "times")
+  find := "d"
+  fmt.Println(find, "is in", name, "at index", strings.Index(name,find))
 }
 ```
 
