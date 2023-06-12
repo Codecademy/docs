@@ -21,7 +21,7 @@ The **`.firstIndexOf()`** method in Swift returns the index of the first element
 arrayName.firstIndexOf { condition }
 ```
 
-The **`.firstIndexOf()`** method takes a single parameter, which is a closure representing the condition that an element must satisfy. The closure returns a boolean value indicating whether a particular element meets the condition.
+The `.firstIndexOf()` method takes a single parameter, which is a closure representing the condition that an element must satisfy. The closure returns a boolean value indicating whether a particular element meets the condition.
 
 ## Example
 
