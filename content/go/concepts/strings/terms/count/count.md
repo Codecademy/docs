@@ -20,7 +20,7 @@ The **`Count()`** function returns the number of times a given substring appears
 strings.Count(str, sub)
 ```
 
-Where `str` is the string being searched.  `sub`, on the other hand, is the substring being searched for. It returns an `int` as the number of non-overlapping occurrences of `sub` in `str`. When `sub` is an empty string, `Count()` will count the boundaries before and after each character in `str`. (i.e. When `str` is "A" and `sub` is "", `Count()` returns 2. When `str` is "ABC" and `sub` is "", then `Count()` returns 4.)
+Where `str` is the string being searched. `sub`, on the other hand, is the substring being searched for. It returns an `int` as the number of non-overlapping occurrences of `sub` in `str`. When `sub` is an empty string, `Count()` will count the boundaries before and after each character in `str`. (i.e. When `str` is "A" and `sub` is "", `Count()` returns 2. When `str` is "ABC" and `sub` is "", then `Count()` returns 4.)
 
 ## Example
 
