@@ -10,7 +10,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `Euclidean algorithm` is a recursive algorithm that allows us to find the highest common factor (HCF) of two numbers. It is based on the observation that if two numbers are given, say A and B, where B divides A evenly (leaving no remainder), then B is the HCF of A and B. In other words, the larger number is divisible by the smaller number without any remainder.
+The `Euclidean algorithm` is a recursive algorithm that allows developers to find the highest common factor (HCF) of two numbers. It is based on the observation that if two numbers are given, say A and B, where B divides A evenly (leaving no remainder), then B is the HCF of A and B. In other words, the larger number is divisible by the smaller number without any remainder.
 
 There can be multiple methods to solve and find the highest common factor (HCF) of two numbers. In this explanation, let's explore a basic approach first and then move on to the `Euclidean algorithm`.
 
