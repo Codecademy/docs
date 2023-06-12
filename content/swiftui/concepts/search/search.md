@@ -1,6 +1,6 @@
 ---
 Title: 'Search'
-Description: 'A Search Interface can be easily created using the .searchable() view modifier'
+Description: 'A Search Interface can be easily created using the .searchable() view modifier.'
 Subjects:
   - 'Mobile Development'
   - 'iOS'
