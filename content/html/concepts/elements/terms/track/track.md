@@ -1,6 +1,6 @@
 ---
 Title: 'track' 
-Description: 'An HTML element that specifies subtitles, closed captioning, and other text files for the `<audio>`or the `<video>` element.' 
+Description: 'An HTML element that specifies subtitles, closed captioning, and other text files for media elements.' 
 Subjects:
   - 'Web Development'
   - 'Web Design'
