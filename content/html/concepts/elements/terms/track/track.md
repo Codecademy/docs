@@ -25,7 +25,7 @@ source= src="url">
 `<track>` can be paired with the following attributes:
   | HTML Attribute | Description |
 |---|---|
-| `chapter` | Utlized when user(s) navigates through the audio or film.|
+| `chapters` | Utilized when user(s) navigates through the audio or film.|
 | `default` | Implies that the track should be enabled unless the user's preferences indicate that another track is best suited for the project. Can only be used with **one** `<track>` element at a time. |
 | `description` | Describes textual description of the video content. **NOTE:** Best suited for users who are blind or if the video cannot be seen.|
 | `kind` | Describes how the track's text should be used (e.g., `captions`, `subtitles`, `descriptions`, and `chapters`)|
