@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Setattr()`** function is a built-in Python function used to set the value of a named attribute of an object. It allows you to dynamically assign or modify attributes of an object at runtime.
+The **`Setattr()`** function is a built-in Python function used to set the value of a named attribute of an object. It allows a developer to dynamically assign or modify attributes of an object at runtime.
 
 ## Syntax
 
