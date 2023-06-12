@@ -1,7 +1,7 @@
 ---
 Title: 'Objects'
-Description: 'In kotlin the concept of Objects have two possible use: expression and declarations.'
-Subjects: 
+Description: 'In Kotlin there are two main statement types for the creation of class objects: expressions and declarations.'
+Subjects:
   - 'Mobile Development'
 Tags:
   - 'Android'
@@ -12,11 +12,13 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**`Object expression`**   
-Its a kind of expression that create an object of anonymous classes (classes that aren't explicitly declared with the class).
-This kind of classes are very useful for one-time use.
+In Kotlin there are two main statement types for the creation of class objects: expressions and declarations.
 
-## Syntax
+## Object Expressions
+
+An object expression is a statement that creates an object from an anonymous class (classes that aren't explicitly declared). This kind of classes are very useful for one-time use.
+
+## Expression Syntax
 
 ```pseudo
 fun main() {
@@ -28,16 +30,16 @@ fun main() {
             println("The sum is: $result")
         }
     }
-    
+
     myObject.sum()
 }
 ```
 
-## Example:
+An example of object expression:
 
 ```
 fun main() {
-    val myAnonymusObject = object { //create an anonymous object using the object expression *object*.
+    val myAnonymousObject = object { //create an anonymous object using the object expression *object*.
         val name = "Princess"
         val color = "pink"
         fun presentation() {
@@ -45,22 +47,21 @@ fun main() {
         }
     }
 
-    myAnonymusObject.presentation()
+    myAnonymousObject.presentation()
 }
 ```
 
-The example shows an object without a explicitly class declaration.
+The example shows an object without a explicit class declaration. The following is printed to the console:
 
-The following is printed to the console:  
 ```shell
 "Hi, I'm Princess and I like pink."
 ```
-- - -
 
-**`Object declaration`**  
-Is a special type of declaration that allows the creation of a single instance of a class, commonly known as a Singleton.
+## Object Declarations
 
-## Syntax
+Object declarations allow for the creation of a single instance of a class, commonly known as a Singleton.
+
+## Declaration Syntax
 
 ```pseudo
 object MyObject {
@@ -78,7 +79,7 @@ MyObject.myFunction()
 
 The object declaration combines the definition of the class and the creation of its instance into a concise and powerful construct.
 
-## Example
+The following code demonstrates the implementation of an object declaration:
 
 ```
 object HelloKitty {
@@ -86,7 +87,7 @@ object HelloKitty {
     println("Hi, $name!")
       }
         }
-        
+
 fun main() {
    HelloKitty.sayHello("Liany<3")
     }
