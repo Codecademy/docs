@@ -32,10 +32,11 @@ source= src="url">
 | `label` | Describes list of available text tracks.|
 | `metadata` | Tracks used by scripts, not available to users.|
 | `src` | The track's URL. **NOTE:** The track's URL **must** be valid and in a Web Video Text Tracks (.vtt, WebVTT) file format.|
-| `srclang` | Track text data's language. **NOTE:** **Must** be a valid [BCP 47](https://r12a.github.io/app-subtags/) language tag and defined if  `kind` attribute is set to `subtitles`.|
+| `srclang` | Track text data's language.|
                    
 
 ## Example 1: Audio
+
 The snippet below shows the `<track>` tag with the `captions` attribute for an [`<audio>`](https://www.codecademy.com/resources/docs/html/elements/audio) element:
 
 ```html
@@ -46,6 +47,7 @@ The snippet below shows the `<track>` tag with the `captions` attribute for an [
 ```
 
 ##  Example 2: Video 
+
 The snippet below shows the `<track>` tag with the `captions` attribute for a  [`<video>`](https://www.codecademy.com/resources/docs/html/elements/video) element:
 ```html
 <video controls width="200">
