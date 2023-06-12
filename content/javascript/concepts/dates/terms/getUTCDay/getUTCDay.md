@@ -1,5 +1,5 @@
 ---
-Title: '.getUTCday()'
+Title: '.getUTCDay()'
 Description: 'Returns the day of the week in the specified date according to universal time.'
 Subjects:
   - 'Web Development'
