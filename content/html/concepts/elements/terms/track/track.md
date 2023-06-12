@@ -22,7 +22,6 @@ source= src="url">
 <track src="text-based file description" kind="type of text" 
  other attribute="description"> 
  </element>
-```
 `<track>` can be paired with the following attributes:
   | HTML Attribute | Description |
 |---|---|
