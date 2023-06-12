@@ -79,7 +79,7 @@ The output for the above code will be:
 5
 ```
 
-When we debug the code above step by step, we can analyze it as follows:
+When debugging the code above step by step, one can analyze the code as follows:
 
 - Since 'b' is greater than 'a' (20 > 15), here 'b' is replaced with 'b - a', which gives us 'b = 20 - 15 = 5'.
 - Now 'a' is 15 and 'b' is 5.
@@ -119,12 +119,12 @@ The output for the above code will be:
 
 Let's debug the code above step by steps:
 
-- Given the input of two integers: `a = 150` and `b = 500`, we proceed to enter the `EuclideanOptimized` function. The first `if` statement encountered checks if `b` is equal to 0. In this particular case, `b` is not equal to 0, resulting in the program exiting the `if` statement.
-- Then proceed to return `EuclideanOptimized`, but with the arguments changed to `(b, a % b)`.
-- In the first recursive cycle, `a % b` will be `150`. Since 150 is smaller than 500, it cannot be divided evenly by 500. Therefore, the remainder is equal to the original number, which is 150. Consequently, the next arguments for `EuclideanOptimized` are `(500, 150)`.
+- Given the input of two integers: `a = 150` and `b = 500`, the code proceeds to enter the `EuclideanOptimized` function. The first `if` statement encountered checks if `b` is equal to 0. In this particular case, `b` is not equal to 0, resulting in the program exiting the `if` statement.
+- Then the code proceeds to return `EuclideanOptimized`, but with the arguments changed to `(b, a % b)`.
+- In the first recursive cycle, the value of `a % b` will be `150`. Since 150 is smaller than 500, it cannot be divided evenly by 500. Therefore, the remainder is equal to the original number, which is 150. Consequently, the next arguments for `EuclideanOptimized` are `(500, 150)`.
 - The function is restarted with the arguments `(500, 150)`. Upon entering the function, the `if` statement is encountered. However, since `b` is not equal to 0, the program exits the `if` statement. The next recursive cycle will use the arguments `(150, 50)`, which are obtained by calculating the modulus of `500 % 150`.
 - Once again, the function is initiated with arguments `(150, 50)`. Upon entering the function, the `if` statement is encountered. Similarly to previous iterations, `b` is not equal to 0, and thus the program exits the `if` statement. The new arguments for the next recursive cycle are determined by calculating the modulus of `150 % 50`, resulting in `(50, 0)`.
-- In this recursive cycle, when we enter the `if` statement, the condition `b == 0` is satisfied. Therefore, the function will return `a`, and the highest common factor (HCF) for the input will be 50.
+- In this recursive cycle, when the code enters the `if` statement, the condition `b == 0` is satisfied. Therefore, the function will return `a`, and the highest common factor (HCF) for the input will be 50.
 
 ## Time complexities
 
