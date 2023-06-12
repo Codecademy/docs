@@ -35,7 +35,8 @@ Parameters of the `.amax()` function:
 
 Returns:
 The maximum element in the array `a`.
-- If axis is None, the result would be a scalar value.
+- If `axis` is None, the result would be a scalar value.
+
 - If axis is an integer, the result would be an array of dimension `a.ndim - 1`.
 - If axis is a tuple, the result would be an array of dimension `a.ndim - len(axis)`.
 
