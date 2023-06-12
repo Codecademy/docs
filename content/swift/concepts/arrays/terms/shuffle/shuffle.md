@@ -34,7 +34,7 @@ var numbers = [1, 2, 3, 4, 5]
 
 ```
 
-We can use the **`.shuffle()`** method to randomly shuffle the elements in the array:
+The **`.shuffle()`** method can be used to randomly shuffle the elements in the array:
 
 ```swift
 numbers.shuffle()
