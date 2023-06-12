@@ -30,7 +30,7 @@ source= src="url">
 | `description` | Describes textual description of the video content. **NOTE:** Best suited for users who are blind or if the video cannot be seen.|
 | `kind` | Describes how the track's text should be used (e.g., `captions`, `subtitles`, `descriptions`, and `chapters`)|
 | `label` | Describes list of available text tracks.|
-| `metadata` | Tracks used by scripts. Not available by users.|
+| `metadata` | Tracks used by scripts, not available to users.|
 | `src` | The track's URL. **NOTE:** The track's URL **must** be valid and in a Web Video Text Tracks (.vtt, WebVTT) file format.|
 | `srclang` | Track text data's language. **NOTE:** **Must** be a valid [BCP 47](https://r12a.github.io/app-subtags/) language tag and defined if  `kind` attribute is set to `subtitles`.|
                    
