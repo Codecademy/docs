@@ -1,12 +1,12 @@
 ---
-Title: '.getUTCDate()' 
-Description: 'Returns the day of the month for the provided date.' 
-Subjects: 
+Title: '.getUTCDate()'
+Description: 'Returns the day of the month for the provided date.'
+Subjects:
   - 'Web Development'
 Tags:
   - 'Date'
   - 'Methods'
-CatalogContent: 
+CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
@@ -23,9 +23,15 @@ The `.getUTCDate()` method returns the day of the month as an integer (1-31) for
 
 ## Example
 
-In the example below, the variable `myDate` stores the day of the month returned from a new `Date` object and logs the value to the console. In this example the date provided to `myDate` is 1st March 2023 so the integer returned is `1`.
+In the example below, the variable `myDate` stores the day of the month returned from a new `Date` object and logs the value to the console.
 
-```pseudo
-const myDate = new Date('2023-03-01')
-console.log(myDate.getUTCDate())
+```js
+const myDate = new Date('2023-03-01');
+console.log(myDate.getUTCDate());
+```
+
+This results in the following output:
+
+```shell
+1
 ```
