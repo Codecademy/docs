@@ -4,7 +4,6 @@ Description: 'An HTML element that specifies subtitles, closed captioning, and o
 Subjects:
   - 'Web Development'
   - 'Web Design'
-  
 Tags: 
   - 'Attributes'
   - 'Elements'
