@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`<track>`** element used to define and add the `<video>` or the `<audio>` elements' subtitles, closed captions, or other text-based content to an HTMl file. 
+The **`<track>`** element is used to add subtitles, closed captions, or other text-based content to `<video>` or `<audio>` elements in an HTML file. 
 ## Syntax
 
 ```pseudo
