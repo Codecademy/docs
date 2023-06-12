@@ -22,7 +22,6 @@ Takes in an iterable object, such as a list or tuple, and returns the sum of all
 sum(iterable, start=0)
 ```
 - `iterable`: is an object capable of returning its elements one at a time for example a list, tuple, or dictionary.
-
 - `start`: is a number added to the sum of the numbers in the iterable.
 
 ## Example 1
@@ -36,7 +35,7 @@ total = sum(numbers)
 
 print(total)
 ```
-
+This example results in the following output:
 ```shell
 15
 ```
@@ -52,7 +51,7 @@ total = sum(prices)
 
 print(total)
 ```
-
+This example results in the following output:
 ```shell
 25.47
 ```
@@ -68,7 +67,7 @@ total = sum(numbers, start=10)
 
 print(total)
 ```
-
+This example results in the following output:
 ```shell
 25
 ```
@@ -84,6 +83,5 @@ message = sum(words, start="")
 
 print(message)
 ```
-
 
 > **Note:** The `sum()` function works with any iterable object that contains numbers or elements that can be added together.
