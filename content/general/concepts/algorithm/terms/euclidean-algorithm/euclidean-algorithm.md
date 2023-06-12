@@ -47,7 +47,7 @@ Here two methods are shown using Euclidean algorithm to find the HCF of two numb
 
 ## Method 2
 
-In this method, we aim to compare both 'a' and 'b'. Whichever number is greater, we subtract the smaller number from the larger number and update the value of the larger number accordingly. If 'a' is greater than 'b', we replace 'a' with 'a - b', and if 'b' is greater than 'a', we replace 'b' with 'b - a'. We repeat this step until 'a' becomes equal to 'b'. Once 'a' and 'b' are equal, we return 'a' as the answer. At this point, the value of 'a' (which is equal to 'b') represents the highest common factor (HCF) of the original values of 'a' and 'b'.
+In this method, the aim is to compare both 'a' and 'b'. Whichever number is greater,  the smaller number is subtracted from the larger number. It also updates the value of the larger number accordingly. If 'a' is greater than 'b', replace 'a' with 'a - b', and if 'b' is greater than 'a', replace 'b' with 'b - a'. Repeat this step until 'a' becomes equal to 'b'. Once 'a' and 'b' are equal, return 'a' as the answer. At this point, the value of 'a' (which is equal to 'b') represents the highest common factor (HCF) of the original values of 'a' and 'b'.
 
 ```java
 class Euclidean1 {
