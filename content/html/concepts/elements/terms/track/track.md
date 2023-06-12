@@ -46,7 +46,7 @@ The snippet below shows the `<track>` tag with the `captions` attribute for an [
 ```
 
 ##  Example 2: Video 
-The snippet below shows the `<track>`tag with the `captions` attribute being implemented into the [`<video>`](https://www.codecademy.com/resources/docs/html/videos) element:
+The snippet below shows the `<track>` tag with the `captions` attribute for a  [`<video>`](https://www.codecademy.com/resources/docs/html/elements/video) element:
 ```html
 <video controls width="200">
   <source src="https://www.youtube.com/watch?v=0QHaxrUkSE" type="video/mp4">
