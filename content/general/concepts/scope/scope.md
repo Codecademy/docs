@@ -46,4 +46,4 @@ The pseudocode snippet demonstrates how variables can have different scopes depe
 
 ## More information
 
-You can review more information regarding the concept of scope for [Python](https://www.codecademy.com/resources/docs/python/scope), [Ruby](https://www.codecademy.com/resources/docs/ruby/scope), and [Javascript](https://www.codecademy.com/resources/docs/javascript/variable-scope)
+Hungry for more information? Consider going to the docs section on Codeacademy to learn about the concept of scope in [Python](https://www.codecademy.com/resources/docs/python/scope), [Ruby](https://www.codecademy.com/resources/docs/ruby/scope), and [Javascript](https://www.codecademy.com/resources/docs/javascript/variable-scope)
