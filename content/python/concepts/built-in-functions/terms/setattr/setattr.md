@@ -25,7 +25,7 @@ The `setattr()` function requires three parameters:
 
 - `object`: an object.
 - `attribute`: attribute name that you want to set.
-- `value`: the value you want to give the `attribute`.
+- `value`: the value to give the `attribute`.
 
 ## Example
 
