@@ -36,7 +36,7 @@ source= src="url">
                    
 
 ## Example 1: Audio
-The snippet below shows the `<track>`tag with the `captions`attribute being implemented into the [`<audio>`](https://www.codecademy.com/resources/docs/html/elements/audio) element:
+The snippet below shows the `<track>` tag with the `captions` attribute for an [`<audio>`](https://www.codecademy.com/resources/docs/html/elements/audio) element:
 
 ```html
 <audio controls>
