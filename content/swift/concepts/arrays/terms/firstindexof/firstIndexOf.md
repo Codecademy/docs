@@ -7,13 +7,13 @@ Subjects:
 Tags:
   - 'Arrays'
   - 'Methods'
-  - 'Searching'
+  - 'Search'
 CatalogContent:
   - 'learn-swift'
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.firstIndexOf()`** method in Swift returns the index of the first element in an array that fulfills a specified condition. If no element satisfies the condition, it returns **`nil`**.
+The **`.firstIndexOf()`** method in Swift returns the index of the first element in an array that fulfills a specified condition. If no element satisfies the condition, it returns `nil`.
 
 ## Syntax
 
@@ -43,16 +43,16 @@ if let index = temperatures.firstIndexOf({ $0 > threshold }) {
 }
 ```
 
-In this example, the closure **`{ $0 > threshold }`** is used as the condition. It checks whether each temperature in the array is greater than the threshold. If a temperature exceeding the threshold is found, the index of that temperature is printed. Otherwise, a message indicating that no temperature exceeds the threshold is printed.
+In this example, the closure `{ $0 > threshold }` is used as the condition. It checks whether each temperature in the array is greater than the threshold. If a temperature exceeding the threshold is found, the index of that temperature is printed. Otherwise, a message indicating that no temperature exceeds the threshold is printed.
 
 The output will be:
 
-```csharp
+```shell
 The first temperature exceeding 25 degrees is at index 2 .
 ```
 
 In this case, the temperature 25 is the first element in the array that satisfies the condition, and its index is 2.
 
-Note that the .firstIndexOf() method returns an optional value, so we use optional binding (if let) to safely unwrap the result.
+The `.firstIndexOf()` method returns an optional value, so optional binding (if let) is used to safely unwrap the result.
 
 > **"Note: The `.firstIndexOf()` method is available in Swift 4.2 and later versions."**
