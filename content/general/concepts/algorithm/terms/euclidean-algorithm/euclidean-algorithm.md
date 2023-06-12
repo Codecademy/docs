@@ -10,7 +10,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `Euclidean algorithm` is a recursive algorithm that allows us to find the highest common factor (HCF) of two numbers. It is based on the observation that if we have two numbers, say A and B, and if B divides A evenly (leaving no remainder), then B is the HCF of A and B. In other words, the larger number is divisible by the smaller number without any remainder.
+The `Euclidean algorithm` is a recursive algorithm that allows us to find the highest common factor (HCF) of two numbers. It is based on the observation that if two numbers are given, say A and B, where B divides A evenly (leaving no remainder), then B is the HCF of A and B. In other words, the larger number is divisible by the smaller number without any remainder.
 
 There can be multiple methods to solve and find the highest common factor (HCF) of two numbers. In this explanation, let's explore a basic approach first and then move on to the `Euclidean algorithm`.
 
@@ -73,26 +73,28 @@ public static void main(String[] args) {
 }
 ```
 
-The out for the above code will be:
+The output for the above code will be:
 
 ```shell
 5
 ```
 
-If we debug the code above step by steps then:
+When we debug the code above step by step, we can analyze it as follows:
 
-- Since 'b' is greater than 'a' (20 > 15), we replace 'b' with 'b - a', which gives us 'b = 20 - 15 = 5'.
-- Now 'a' is still 15, and 'b' is 5.
-- We proceed to replace 'a' with 'a - b', resulting in 'a = 15 - 5 = 10'.
+- Since 'b' is greater than 'a' (20 > 15), here 'b' is replaced with 'b - a', which gives us 'b = 20 - 15 = 5'.
+- Now 'a' is 15 and 'b' is 5.
+- The result is 'a= 15-5=10' after replacing 'a' with 'a-b'.
 - The values are now 'a = 10' and 'b = 5'.
-- We continue the process and replace 'a' with 'a - b', giving us 'a = 10 - 5 = 5'.
+- The process is continued as 'a' is replaced with 'a - b', resulting in 'a = 10 - 5 = 5'.
 - Now 'a' and 'b' are both equal to 5.
 - At this point, the while loop exits, and we return 'a' as our answer, which is 5.
 - Therefore, the highest common factor (HCF) of (15, 20) is 5.
 
 ## Method 3
 
-In this method we will use [recursion](https://www.codecademy.com/learn/discrete-math-recurrence-relations). The method takes two integer parameters 'a' and 'b' . Then returns an integer as the result. The gcd method uses a `recursive` approach to implement the `Euclidean algorithm`. It first checks if `b` is equal to 0. If it is, then it means that `a` is the GCD, and it returns `a` as the result. If `b` is not 0, it means there is a remainder when `a` is divided by `b`. In this case, the method calls itself recursively with the arguments `b` and `a % b`. This recursive call continues until `b` becomes 0, at which point the base case is triggered, and the GCD is found.
+In this method, a recursive approach is used to implement the Euclidean algorithm for finding the greatest common divisor (GCD) of two integers, 'a' and 'b'. The method takes 'a' and 'b' as integer parameters and returns an integer as the result. The GCD method starts by checking if 'b' is equal to 0. If it is, then it means that 'a' is the GCD, and it returns 'a' as the result. However, if 'b' is not 0, it indicates that there is a remainder when 'a' is divided by 'b'. In this case, the method calls itself recursively with the arguments 'b' and 'a % b'. This recursive call continues until 'b' eventually becomes 0, triggering the base case and resulting in the discovery of the GCD.
+
+For more information on recursion, you can refer to this [resource](https://www.codecademy.com/learn/java-algorithms/modules/recursion-apcs/cheatsheet).
 
 ```java
 public class Euclidean2 {
@@ -117,16 +119,11 @@ The output for the above code will be:
 
 Let's debug the code above step by steps:
 
-- We have two integers as input: `a = 150` and `b = 500`. We enter the `EuclideanOptimized` function, and the first `if` statement we encounter is `(b == 0)`. In this case, `b` is not equal to 0, so we will exit the `if` statement.
-
-- We then proceed to return `EuclideanOptimized`, but with the arguments changed to `(b, a % b)`.
-
+- Given the input of two integers: `a = 150` and `b = 500`, we proceed to enter the `EuclideanOptimized` function. The first `if` statement encountered checks if `b` is equal to 0. In this particular case, `b` is not equal to 0, resulting in the program exiting the `if` statement.
+- Then proceed to return `EuclideanOptimized`, but with the arguments changed to `(b, a % b)`.
 - In the first recursive cycle, `a % b` will be `150`. Since 150 is smaller than 500, it cannot be divided evenly by 500. Therefore, the remainder is equal to the original number, which is 150. Consequently, the next arguments for `EuclideanOptimized` are `(500, 150)`.
-
-- We now start the function again with arguments `(500, 150)`. We enter the `if` statement, but since `b` is not equal to 0, we will exit the `if` statement. The returned arguments for the next recursive cycle will be `(150, 50)` after calculating the modulus of `500 % 150`.
-
-- Once again, we start the function with arguments `(150, 50)`. We enter the `if` statement, but as before, `b` is not equal to 0, so we exit the `if` statement. The returned arguments after the modulus of `150 % 50` are `(50, 0)`.
-
+- The function is restarted with the arguments `(500, 150)`. Upon entering the function, the `if` statement is encountered. However, since `b` is not equal to 0, the program exits the `if` statement. The next recursive cycle will use the arguments `(150, 50)`, which are obtained by calculating the modulus of `500 % 150`.
+- Once again, the function is initiated with arguments `(150, 50)`. Upon entering the function, the `if` statement is encountered. Similarly to previous iterations, `b` is not equal to 0, and thus the program exits the `if` statement. The new arguments for the next recursive cycle are determined by calculating the modulus of `150 % 50`, resulting in `(50, 0)`.
 - In this recursive cycle, when we enter the `if` statement, the condition `b == 0` is satisfied. Therefore, the function will return `a`, and the highest common factor (HCF) for the input will be 50.
 
 ## Time complexities
