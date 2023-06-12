@@ -18,7 +18,7 @@ The **`TypeNotPresentException`** is an exception in Java that occurs when an ap
 
 ## Example
 
-In this below code, we have a generic class `TypeNotPresentExceptionExample` with a type parameter T. We attempt to instantiate the class with the type argument NonExistentClass, which is a non-existent class. This triggers a `TypeNotPresentException` since the type NonExistentClass is not available at runtime We catch the exception and display the type name and cause.
+In the provided code snippet, there is a generic class called `TypeNotPresentExceptionExample` that includes a type parameter T. The objective is to create an instance of this class using the type argument NonExistentClass, which does not exist. Consequently, a `TypeNotPresentException` is raised due to the unavailability of the NonExistentClass type during runtime. The exception is handled, and both the type name and cause are subsequently exhibited.
 
 In this code, T is defined as the type parameter for the `TypeNotPresentExceptionExample` class. It acts as a placeholder for the type that will be specified when creating an instance of the class.
 
