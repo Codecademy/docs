@@ -16,7 +16,7 @@ Adds one or more elements to beginning of array and returns new length.
 
 ## Syntax
 
-```js
+```pseudo
 array.unshift(item1, item2, ...);
 ```
 
@@ -57,6 +57,6 @@ The code below adds `Lemon` and `Pineapple` to the beginning of the array `fruit
 
 ```codebyte/js
 let fruits = ['Apple','Blueberries','Banana','Mango','Orange','Grapes'];
-fruits.unshift("Lemon","Pineapple");
+fruits.unshift('Lemon','Pineapple');
 console.log(fruits);
 ```
