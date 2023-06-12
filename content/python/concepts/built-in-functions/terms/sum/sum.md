@@ -23,7 +23,7 @@ sum(iterable, start=0)
 ```
 - `iterable`: is an object capable of returning its elements one at a time for example a list, tuple, or dictionary.
 
-**start:** is a number added to the sum of the numbers in the iterable.
+- `start`: is a number added to the sum of the numbers in the iterable.
 
 ## Example 1
 
