@@ -26,6 +26,7 @@ source= src="url">
 ```
 
 `<track>` can be paired with the following attributes:
+
 | HTML Attribute | Description |
 |---|---|
 | `chapters` | Utilized when a user navigates through the audio or film.|
