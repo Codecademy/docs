@@ -2,7 +2,7 @@
 Title:
 ‘.getUTCMonth()'
 Description:
-‘Method of date instances that returns the month date according to universal time, as a zero-based value (where zero indicates the first month of the year).' 
+'Returns the month of the passed date according to universal time, as a zero-based value.' 
 Subjects: 
   - ‘Web Development’
   - ‘Computer Science’
