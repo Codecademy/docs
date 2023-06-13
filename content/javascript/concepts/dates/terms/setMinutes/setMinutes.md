@@ -34,6 +34,9 @@ const hoursMinutes = eventDay.getHours() + ":" + eventDay.getMinutes();
 
 console.log(hoursMinutes); 
 ```
+
+The example above results in the following output:
+
 ```shell
 14:30
 ```
