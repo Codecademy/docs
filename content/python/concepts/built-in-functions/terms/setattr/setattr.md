@@ -42,7 +42,6 @@ setattr(Person, "name", "John")
 # Retrieving the name property
 new_name = getattr(Person, "name")
 print("My new name is " + new_name)
-
 ```
 
 The code results in the following output:
