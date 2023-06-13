@@ -1,1 +1,1 @@
-content/html/concepts/entities/entities.md
+content/r/concepts/functions/functions.md

@@ -19,6 +19,7 @@ Arguments
 Arithmetic
 Arrays
 ASP.NET
+Assignment
 Asymptotic Notation
 Async Await
 Attributes
@@ -40,6 +41,7 @@ Bootstrap
 Borders
 Box Model
 Box Plot
+Break
 Browser Compatibility
 Browsers
 Bubble Sort
@@ -51,6 +53,7 @@ Cryptocurrency
 Classes
 Cloud Computing
 Code Editors
+Conditionals
 Collections
 Colors
 Combinators
@@ -66,6 +69,7 @@ Concatenation
 Conceptual
 Const
 Constructors
+Continue
 Control Flow
 CRUD
 CSV
@@ -102,6 +106,8 @@ Else
 Encapsulation
 Encoding
 Enum
+Environment Variables
+Equality
 Error Handling
 Errors
 ES6
@@ -119,6 +125,7 @@ Flexbox
 Flutter
 Fonts
 For
+ForEach
 Foreign Key
 Form
 Formatting
@@ -126,6 +133,7 @@ Frameworks
 Functions
 Functional Programming
 Functors
+Geometry
 Ggplot2
 Git
 GitHub
@@ -176,6 +184,7 @@ Logical
 Logistic Regression
 Loops
 Map
+Machine Learning
 Margin
 MATLAB
 Matplotlib
@@ -191,6 +200,7 @@ Naive Bayes
 Natural Language Processing
 Netlify
 Networking
+Neural Networks
 NLP
 Node
 NPM
@@ -211,11 +221,13 @@ Padding
 Pandas
 Paragraph
 Parameters
+Perceptrons
 Phaser
 Physics
 Pointers
 Positioning
 PostgreSQL
+Precedence
 Primary Key
 Print
 Probability
@@ -244,6 +256,7 @@ Scope
 Script
 Seaborn
 Search
+Search Algorithms
 Selectors
 Semantic
 Servers
@@ -282,6 +295,7 @@ Title
 Transitions
 Transpilation
 Trees
+Trigonometry
 Try
 Tuples
 Types
@@ -289,6 +303,7 @@ Type Guard
 Type Narrowing
 Typography
 UI
+Unary
 Union
 Unicode
 Units
@@ -309,6 +324,7 @@ VR
 Vue
 Web3
 WebRTC
+Weight & Bias
 While
 Whiteboarding
 WordPress

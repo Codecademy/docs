@@ -51,7 +51,8 @@ public class Example
         PrintUlla(WaroftheWorlds);
    }
 
-    public static void PrintUlla(String[] WaroftheWorlds)  {
+    public static void PrintUlla(String[] WaroftheWorlds)
+    {
         for(int i = 0; i < WaroftheWorlds.Length; i++)
         {
             Console.WriteLine("   [{0}] : {1}", i, WaroftheWorlds[i]);
@@ -63,7 +64,7 @@ public class Example
 
 The example above will return the following output:
 
-```pseudo
+```shell
 Broadcast from Earth:
    [0] : The_Eve_of_the_War
    [1] : Horsell_Common_and_the_Heat_Ray
@@ -97,4 +98,27 @@ Invasion Plan:
    [2] : The_Artilleryman_and_the_Fighting_Machine
    [3] : Forever_Autumn
    [4] : Thunder_Child
+```
+
+## Codebyte Example
+
+The following executable example of the `.Resize()` method initializes an array `numbers` and then doubles the length of it.
+
+```codebyte/csharp
+using System;
+
+public class ResizeExample
+{
+    public static void Main()
+    {
+        int[] numbers = { 1, 2, 3, 4, 5 };
+
+        Console.WriteLine(numbers.Length);
+
+         // Resize the array to double its length
+        Array.Resize(ref numbers, numbers.Length * 2);
+
+        Console.WriteLine(numbers.Length);
+    }
+}
 ```
