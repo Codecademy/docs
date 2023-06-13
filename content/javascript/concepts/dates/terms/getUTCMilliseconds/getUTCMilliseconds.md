@@ -28,7 +28,7 @@ The method will return `NaN` if the date is [invalid](https://developer.mozilla.
 In the given example, the constant `now` is assigned a date/time value returned by the new `Date` object. This is then logged to the console.
 
 ```js
-const now = new Date("2020-08-09T01:32:28.412Z");
+const now = new Date("2020-08-09T01:32:28.412+01:00");
 console.log(now.getUTCMilliseconds());
 ```
 The following will be logged to the console:
@@ -41,6 +41,6 @@ The following will be logged to the console:
 
 ```codebyte/js
 # Example runnable code block.
-const now = new Date("2020-08-09T01:32:28.412Z");
+const now = new Date("2020-08-09T01:32:28.412+01:00");
 console.log(now.getUTCMilliseconds());
 ```
