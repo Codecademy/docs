@@ -8,6 +8,7 @@ Tags:
   - 'Methods'
 CatalogContent:
   - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 The **`.getUTCMinutes()`** method returns the minutes for the date provided according to Coordinated Universal Time (UTC).
