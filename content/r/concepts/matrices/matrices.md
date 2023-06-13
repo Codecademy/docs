@@ -17,7 +17,6 @@ Matrices are created using the `matrix()` function, which takes the data element
 
 Once created, matrices offer a wide range of operations and functions. Basic arithmetic operations can be performed, such as addition, subtraction, multiplication, and division, on matrices of compatible dimensions. R also provides functions for matrix transposition, subsetting, row and column manipulation, and various matrix algebra operations like determinant calculation, inverse computation, and eigenvalue extraction.
 
-
 ## Syntax
 
 To create a matrix, simply use the `matrix()` method. Here are some examples:
@@ -55,6 +54,7 @@ This example results in the following output:
 [1,] "tokyo" "washington"
 [2,] "delhi" "paris"   
 ```
+
 ## Access Matrix Items
 
 The matrix items can be accessed by using `[ ]` brackets where the first parameter in the bracket specifies the row-position, while the second specifies the column-position: 
@@ -226,6 +226,7 @@ This example results in the following output:
 ```shell
 [1] 4
 ```
+
 ## Mathematical Operations on Matrices
 
 Addition, Subtraction, Multiplication and Division can also be performed on Matrices in R.
