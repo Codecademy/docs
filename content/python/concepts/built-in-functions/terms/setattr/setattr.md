@@ -1,5 +1,5 @@
 ---
-Title: 'Setattr()'
+Title: 'setattr()'
 Description: 'Sets the value of the attribute of an object.'
 Subjects:
   - 'Code Foundations'
@@ -44,7 +44,8 @@ new_name = getattr(Person, "name")
 print("My new name is " + new_name)
 
 ```
-### Output:
+
+The code results in the following output:
 
 ```shell
 My new name is John
@@ -70,9 +71,4 @@ setattr(person, "age", 25)
 # Access the attributes
 print(person.name)
 print(person.age)
-```
-### Output:
-```shell
-John Doe
-25
 ```
