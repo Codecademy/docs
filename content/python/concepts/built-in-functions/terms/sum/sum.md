@@ -35,7 +35,9 @@ total = sum(numbers)
 
 print(total)
 ```
+
 This example results in the following output:
+
 ```shell
 15
 ```
