@@ -13,7 +13,7 @@ CatalogContent:
  - 'introduction-to-javascript'
 ---
 
-get methods retrieve the date components based on the user’s local timezone settings. For increased control over the dates and times, you can use the **`.getUTCMonth()`** method, which are exactly the same as the `getMonth()` method, except they calculate the time based on the UTC (Coordinated Universal Time) standard.
+Get methods are used to retrieve date components based on the user’s local timezone settings. The **`.getUTCMonth()`** method returns the month of the date passed, similar to `.getMonth()`. However, `.getUTCMonth()` calculates the time based on the UTC (Coordinated Universal Time) standard.
 
 ## Syntax
 ```
