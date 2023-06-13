@@ -35,7 +35,7 @@ Therefore, there is a distinction between the format of the codec used to encode
 
 ## Inserting a Video
 
-A video is inserted onto a page through opening and closing `<video>` tags. Self-closing `<source>` tags are nested inside the `<video>` tags:
+A video is inserted onto a page through opening and closing [`<video>`](https://www.codecademy.com/resources/docs/html/elements/video) tags. Self-closing `<source>` tags are nested inside the `<video>` tags:
 
 ```pseudo
 <video attribute1 attribute2... poster="">
@@ -45,22 +45,6 @@ A video is inserted onto a page through opening and closing `<video>` tags. Self
   <a href="">Some text</a>
 </video>
 ```
-
-Sources are written in preference order, so that the first source listed is played if the browser supports it, with the subsequent sources acting as a fallback. This is usually used to try newer video formats while also providing a fallback for better compatibility.
-
-### Attributes
-
-Videos can have various attributes that are added in the opening `<video>` tag:
-
-| Attribute | Description |
-| ---------------- | ----------- |
-| `autoplay` (boolean) | Plays the video automatically once it has loaded. |
-| `control` (boolean) | Browser offer playback controls to the user. |
-| `loop` (boolean) | Replays the video again once it has finished. |
-| `muted` (boolean) | Ensures there will be no audio output. |
-| `poster`| Provides a thumbnail for the video, specifying an image's file path. |
-
-Attributes can be used together in any order to specify how a video behaves on a webpage.
 
 ### Example
 
