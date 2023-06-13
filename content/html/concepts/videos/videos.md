@@ -1,6 +1,6 @@
 ---
 Title: 'Videos'
-Description: 'Embedding videos within a site creates more lively and informative pages that are more attractive to visitors.'
+Description: 'Embedding videos within a site creates lively and informative pages that are attractive to visitors.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -12,9 +12,9 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Embedding **videos** within a site creates more lively and informative pages that are more attractive to visitors. Similar to serving images, serving video raises concerns about the impact on users due to the higher bandwidth requirements as well as the less accessible nature of the medium.
+Embedding **videos** within a site creates lively and informative pages that are attractive to visitors. Similar to serving images, serving videos raise concerns about the impact on users due to greater bandwidth requirements as well as the less accessible nature of the medium.
 
-## Choosing a Video Codec and Format
+## Video Codec and Format
 
 Unless videos are preloaded or set to automatically play, their impact on page speed should be minimal. However, attention should be paid to video file sizes to guarantee that the greatest number of users can stream them.
 
@@ -35,10 +35,37 @@ Therefore, there is a distinction between the format of the codec used to encode
 
 ## Inserting a Video
 
-Below is an example of how a video is commonly inserted into a page:
+A video is inserted onto a page through opening and closing `<video>` tags. Self-closing `<source>` tags are nested inside the `<video>` tags:
+
+```pseudo
+<video attribute1 attribute2... poster="">
+  <source type="video/mp4" src="filename1.filetype" />
+  <source type="video/mp4" src="filename2.filetype" />
+  ...
+  <a href="">Some text</a>
+</video>
+```
+
+Sources are written in preference order, so that the first source listed is played if the browser supports it, with the subsequent sources acting as a fallback. This is usually used to try newer video formats while also providing a fallback for better compatibility.
+
+### Attributes
+
+Videos can have various attributes that are added in the opening `<video>` tag:
+
+| Attribute | Description |
+| ---------------- | ----------- |
+| `autoplay` (boolean) | Plays the video automatically once it has loaded. |
+| `control` (boolean) | Browser offer playback controls to the user. |
+| `loop` (boolean) | Replays the video again once it has finished. |
+| `muted` (boolean) | Ensures there will be no audio output. |
+| `poster`| Provides a thumbnail for the video, specifying an image's file path. |
+
+Attributes can be used together in any order to specify how a video behaves on a webpage.
+
+### Example
 
 ```html
-<video controls poster="spooky_ghost.jpg">
+<video controls autoplay loop poster="spooky_ghost.jpg">
   <source type="video/mp4" src="spooky_ghost.mp4" />
 
   Sorry, your browser doesn't support this video. Click
@@ -48,15 +75,15 @@ Below is an example of how a video is commonly inserted into a page:
 
 This example:
 
-- Sets the `control` attribute to have the browser offer playback controls to the user.
+- Includes `controls`, `autoplay`, and `loop` attributes.
 - Provides a thumbnail for the video with `poster="spooky_ghost.jpg"`.
-- Declares the source file for the video, `spooky_ghost.mp4`, and its MIME type, `video/mp4`.
+- Declares the source file for the video, `spooky_ghost.mp4`, and its MIME (Multipurpose Internet Mail Extensions) or media type, `video/mp4`.
 - Provides a fallback text that allows the user to download the video instead.
 
-Sources are written in preference order, so that the first source listed is played if the browser supports it, with the subsequent sources acting as a fallback. This is usually used to try newer video formats while also providing a fallback for better compatibility. To modify the original example to support the `AV1` video codec and fallback to the `H.264` video codec:
+To modify the original example to support the `AV1` video codec and fallback to the `H.264` video codec:
 
 ```html
-<video controls poster="spooky_ghost.jpg">
+<video controls autoplay loop poster="spooky_ghost.jpg">
   <source type="video/mp4" src="spooky_ghost_av1.mp4" />
   <source type="video/mp4" src="spooky_ghost_h264.mp4" />
 
@@ -64,20 +91,6 @@ Sources are written in preference order, so that the first source listed is play
   <a href="spooky_ghost_h264.mp4">here</a> to download it instead.
 </video>
 ```
-
-Here is another example of how boolean attributes can be used together simultaneously:
-
-```html
-<video autoplay muted loop>
-  <source type="video/mp4" src="spooky_ghost.mp4" />
-</video>
-```
-
-- The `autoplay` attribute will play the video automatically once it has loaded.
-- `muted` ensures there will be no audio output.
-- `loop` will replay the video again once it has finished.
-
-These attributes can be used together in any order to specify how a video behaves on a webpage. Also, note that these attributes can be used with the `controls` attribute too.
 
 ## Accessibility with Videos
 
