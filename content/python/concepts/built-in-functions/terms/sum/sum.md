@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-Takes in an iterable object, such as a list or tuple, and returns the sum of all elements.
+The **`sum()`## function takes in an iterable object, such as a list or tuple, and returns the sum of all elements.
 
 ## Syntax
 
