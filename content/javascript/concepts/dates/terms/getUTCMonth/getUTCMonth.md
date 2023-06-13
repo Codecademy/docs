@@ -16,7 +16,7 @@ CatalogContent:
 Get methods are used to retrieve date components based on the user’s local timezone settings. The **`.getUTCMonth()`** method returns the month of the date passed, similar to `.getMonth()`. However, `.getUTCMonth()` calculates the time based on the UTC (Coordinated Universal Time) standard.
 
 ## Syntax
-```
+```pseudo
 const today = new Date();
 const month = today.getUTCMonth();
 ```
