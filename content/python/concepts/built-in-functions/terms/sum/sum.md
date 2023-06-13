@@ -71,7 +71,9 @@ total = sum(numbers, start=10)
 
 print(total)
 ```
+
 This example results in the following output:
+
 ```shell
 25
 ```
