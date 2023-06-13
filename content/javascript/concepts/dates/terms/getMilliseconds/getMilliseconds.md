@@ -36,7 +36,9 @@ if (today.getMilliseconds() === 500) {
 }
 ```
 
-```
+This results in the following output:
+
+```shell
 It is half a second.
 ```
 
