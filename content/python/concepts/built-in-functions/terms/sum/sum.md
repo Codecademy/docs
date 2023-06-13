@@ -53,7 +53,9 @@ total = sum(prices)
 
 print(total)
 ```
+
 This example results in the following output:
+
 ```shell
 25.47
 ```
