@@ -221,6 +221,11 @@ myMatrix2 <- matrix(c("tokyo", "delhi", "washington", "paris"), nrow = 2, ncol =
 length(myMatrix2) 
 ```
 
+This example results in the following output:
+
+```shell
+[1] 4
+```
 ## Mathematical Operations on Matrices
 
 Addition, Subtraction, Multiplication and Division can also be performed on Matrices in R.
