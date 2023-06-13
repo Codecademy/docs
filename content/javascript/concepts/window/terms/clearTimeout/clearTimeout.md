@@ -13,11 +13,11 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**`clearTimeout()`** is a window method that allows to clear a previously scheduled `setTimeout()` from running.
+**`clearTimeout()`** is a window method that stops a previously scheduled [setTimeout()](https://www.codecademy.com/resources/docs/javascript/window/setTimeout) from running.
 
 ## Syntax
 
-`clearTimeout()` receives a timeoutID as it's argument, which is returned by the corresponding call of `setTimeout()`.
+`clearTimeout()` receives a timeout ID as its argument, which is returned by the corresponding call of `setTimeout()`.
 
 ```pseudo
 clearTimeout(timeoutID);
