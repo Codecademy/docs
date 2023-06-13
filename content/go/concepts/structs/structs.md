@@ -148,7 +148,7 @@ This way of initializing is handy to initialize the struct with all the field va
 
 Methods are added outside the struct. For that, a receiver function is needed which will have a reference to the struct, to allow it to operate on the structs' data. The receiver, the struct itself, is a parameter that provides access to its own fields.
 
-In the example below, the function `Drive()` takes the `Car` struct as the receiver, in the `main` function the method is invoked using dot notation printing to the console `I am driving my car.`
+In the codebyte example below, the function `Drive()` takes the `Car` struct as the receiver, in the `main` function the method is invoked using dot notation printing to the console `I am driving my car.`
 
 ```codebyte/golang
 package main
