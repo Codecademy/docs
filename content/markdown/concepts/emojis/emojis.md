@@ -16,7 +16,7 @@ CatalogContent:
 In Markdown, **emojis** are symbols that are conveyed via text and/or shortcodes. 
 
 ## Syntax
-When using regular Markdown, you can just copy and paste emojis straight from sources like [Emojipedia](https://emojipedia.org/):
+When using Markdown, you can just copy and paste emojis straight from sources like [Emojipedia](https://emojipedia.org/):
 ```md
 Markdown for a specific text image of emoji 
 ```
@@ -24,15 +24,12 @@ Another method that is used shortcodes, emojis being described through words. Th
 ```md
 : emoji: 
 ```
-
-## Example 1: Regular Markdown
+## Example 1: Markdown
 An emoji is copied from a source like [Emojipedia](https://emojipedia.org/) and used to signify the role being described in the heading below:
 ```md
 ### Content Writing Team 📝
 ```
-
 ## Example 2: Emoji Shortcodes 
-
 In the paragraph below, the shortcode is conveyed in accordance to [GitHub's standards](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#using-emoji):
 ```md
 Don't forget to leave a star on our repository! :star: 
