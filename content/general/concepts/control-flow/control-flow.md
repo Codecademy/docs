@@ -16,7 +16,7 @@ CatalogContent:
 
 **Control flow** refers to the order in which statements and instructions are executed in a program. It determines how the program progresses from one instruction to another based on certain conditions and logic. Control flow mechanisms allow developers to create dynamic and flexible programs that can make decisions, repeat tasks, and respond to various inputs.
 
-## Ways to Control Flow in a Program
+## Ways To Control Flow in a Program
 
 ### 1. Conditional Statements
 
@@ -34,7 +34,7 @@ Loops are used to repeat a block of code multiple times until a certain conditio
 
 - **While Loops:** A `while` loop repeatedly executes a block of code as long as a specified condition remains true. It evaluates the condition before each iteration, and if the condition becomes false, the loop is terminated.
 
-- **Do-While Loops:** A `do-while` loop is similar to a while loop but guarantees that the code block is executed at least once. It evaluates the condition after executing the block, and if the condition is true, the loop continues.
+- **Do-While Loops:** A `do-while` loop is similar to a `while` loop but guarantees that the code block is executed at least once. It evaluates the condition after executing the block, and if the condition is true, the loop continues.
 
 ### 3. Control Flow Keywords
 
