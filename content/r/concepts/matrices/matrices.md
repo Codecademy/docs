@@ -229,7 +229,7 @@ This example results in the following output:
 
 ## Mathematical Operations on Matrices
 
-Addition, Subtraction, Multiplication and Division can also be performed on Matrices in R.
+Addition, subtraction, multiplication and division can also be performed on matrices in R.
 
 ```r
 # Create two 2x3 matrices.
