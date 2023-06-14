@@ -165,7 +165,7 @@ The `c()` function may be used to remove rows and columns:
 ```r
 myMatrix2 <- matrix(c("tokyo", "delhi", "washington", "paris"), nrow = 2, ncol = 2)
 
-#Remove the first row and the first column
+# Remove the first row and the first column
 myMatrix2 <- myMatrix2[-c(1), -c(1)]
 
 # Print the matrix
