@@ -27,11 +27,11 @@ Things are changing quickly and the impact is only just starting to be predicted
 
 ### Foundation Models
 
-In the past, AI applications were very task specific. The recent technology shift has been to use large foundation models to drive a number of different tasks. Large amounts of unstructured and unsupervised training is used to create the foundation model. LLMs are a type of foundation model.
+In the past, AI applications were very task specific. The recent technology shift has been to use [foundation models](https://www.codecademy.com/resources/docs/ai/foundation-models) to drive a number of different tasks.
 
 The models have a generative ability and were the start of Generative AI. ChatGPT demonstrated the ability to generate text based on natural language prompts.
 
-Using the concept of foundation models we can leverage the vast amount of pre-trained data with a small amount of additional tuning and prompting. Tuning adds labels into the data. Prompting bridges the gap between training and intention. While training the LLM is expensive, the usage referred to as inference is more cost effective.
+Using the concept of foundation models, vast amount of pre-trained data can be leveraged with a small amount of additional tuning and prompting. Tuning adds labels into the data. Prompting bridges the gap between training and intention. While training the LLM is expensive, the usage referred to as inference is more cost effective.
 
 ### The Question of Intelligence?
 
