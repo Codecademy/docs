@@ -17,7 +17,7 @@ In Markdown, **emojis** are symbols that are conveyed via text and/or shortcodes
 
 ## Syntax
 
-When using Markdown, you can just copy and paste emojis straight from sources like [Emojipedia](https://emojipedia.org/):
+When using Markdown, emojis can be copied and pasted straight from sources like [Emojipedia](https://emojipedia.org/):
 
 ```md
 Markdown for a specific text image of emoji 
