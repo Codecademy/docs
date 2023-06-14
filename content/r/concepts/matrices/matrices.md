@@ -204,7 +204,7 @@ The `dim()` function is used to find the number of rows and columns in a matrix:
 ```r
 myMatrix2 <- matrix(c("tokyo", "delhi", "washington", "paris"), nrow = 2, ncol = 2)
 
-# Print
+# Return
 dim(myMatrix2) 
 ```
 
