@@ -18,7 +18,7 @@ The **`dir()`** function returns the list of valid attributes of the passed obje
 
 ## Syntax
 
-```py
+```pseudo
 dir(object)
 ```
 
