@@ -197,7 +197,7 @@ This example results in the following output:
   [1] FALSE 
 ```
 
-## Dimension and Length of Matrix
+## Dimension and Length of a Matrix
 
 The `dim()` function is used to find the number of rows and columns in a matrix:
 
