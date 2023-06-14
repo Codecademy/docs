@@ -16,7 +16,7 @@ The **`.setMinutes()`** method changes the minute value of the Date object accor
 
 ## Syntax
 
-```javascript
+```pseudo
 myDate.setMinutes(minutesValue);
 ```
 
