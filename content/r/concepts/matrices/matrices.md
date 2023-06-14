@@ -242,7 +242,7 @@ result1 <- matrix1 + matrix2
 # Subtract the matrices
 result2 <- matrix1 - matrix2
 
-# Multiply the matrices.
+# Multiply the matrices
 result3 <- matrix1 * matrix2
 
 # Divide the matrices
