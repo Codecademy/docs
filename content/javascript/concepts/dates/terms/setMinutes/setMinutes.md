@@ -43,7 +43,7 @@ The example above results in the following output:
 
 ## Codebyte Example
 
-The code example below sets the minute value of the `eventDay` Date object to `30`. The current minute value is then logged into the console.
+The code example below sets the minute value of `eventDay` to `30`. The current minute value is then logged to the console.
 
 ```codebyte/javascript
 const eventDay = new Date();
