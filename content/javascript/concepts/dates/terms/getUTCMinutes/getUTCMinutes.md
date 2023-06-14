@@ -31,6 +31,6 @@ console.log(minutes)
 
 This outputs the following:
 
-```
+```shell
 27
 ```
