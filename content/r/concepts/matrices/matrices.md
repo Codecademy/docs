@@ -180,7 +180,7 @@ This example results in the following output:
 
 ## Check if an Item Exists
 
-To find out if a specified item is present in a matrix, use the  `%in%` operator:
+To find out if a specified item is present in a matrix, use the `%in%` operator:
 
 ```r
 myMatrix2 <- matrix(c("tokyo", "delhi", "washington", "paris"), nrow = 2, ncol = 2)
