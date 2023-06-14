@@ -1,1 +1,1 @@
-content/cpp/concepts/structure/structure.md
+content/r/concepts/functions/functions.md
