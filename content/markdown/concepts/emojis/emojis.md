@@ -1,6 +1,6 @@
 ---
 Title: 'emoji' 
-Description: 'These symbols are organized by Markdown-flavored text or shortcodes' 
+Description: 'Emojis are organized by Markdown-flavored text or shortcodes.' 
 Subjects:
   - 'Developer Tools'
   - 'Web Development'
