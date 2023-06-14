@@ -1,6 +1,6 @@
 ---
 Title: 'Matrices'
-Description: 'Matrices in R are a fundamental data type used for storing two dimensional tabular data with rows and columns.'
+Description: 'Matrices in R are a fundamental data type used for storing two-dimensional tabular data with rows and columns.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
