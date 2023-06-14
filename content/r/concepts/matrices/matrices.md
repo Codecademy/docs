@@ -185,7 +185,7 @@ To find out if a specified item is present in a matrix, use the `%in%` operator:
 ```r
 myMatrix2 <- matrix(c("tokyo", "delhi", "washington", "paris"), nrow = 2, ncol = 2)
 
-# Print
+# Return
 "delhi" %in% myMatrix2 
 "cairo" %in% myMatrix2 
 ```
