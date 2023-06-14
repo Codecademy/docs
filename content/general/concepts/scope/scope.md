@@ -20,20 +20,20 @@ To illustrate the concept of scope, consider the following pseudocode snippet, w
 
 ```pseudo
 function main()
-    set globalVariable = 10
+  set globalVariable = 10
 
-    if true:
-        set blockVariable = 20
+  if true:
+    set blockVariable = 20
         
-        for i = 1 to 3:
-            set loopVariable = i
-            display loopVariable
+    for i = 1 to 3:
+      set loopVariable = i
+      display loopVariable
             
-        display blockVariable
-        
-    display globalVariable
     display blockVariable
-    display loopVariable
+        
+  display globalVariable
+  display blockVariable
+  display loopVariable
 end function
 ```
 
