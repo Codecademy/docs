@@ -25,7 +25,7 @@ The method will return `NaN` if the [date](https://www.codecademy.com/resources/
 
 ## Example
 
-In the given example, the constant `now` is assigned a date/time value returned by the new `Date` object. This is then logged to the console.
+In the given example, `.getUTCMilliseconds()` is applied to the constant `now` and logged to the console.
 
 ```js
 const now = new Date("2020-08-09T01:32:28.412+01:00");
