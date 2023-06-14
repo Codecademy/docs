@@ -37,11 +37,3 @@ The code will result in the following output:
 ```shell
   412
 ```
-
-## Codebyte Example
-
-```codebyte/js
-# Example runnable code block.
-const now = new Date("2020-08-09T01:32:28.412+01:00");
-console.log(now.getUTCMilliseconds());
-```
