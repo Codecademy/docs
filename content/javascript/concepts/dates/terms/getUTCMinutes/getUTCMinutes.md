@@ -27,8 +27,8 @@ The following example uses the `.getUTCMinutes()` method to get the minutes of `
 
 ```js
 const myDate = new Date('2023-06-13T16:27:00.175Z');
-const minutes = myDate.getUTCMinutes()
-console.log(minutes)
+const minutes = myDate.getUTCMinutes();
+console.log(minutes);
 ```
 
 This outputs the following:
