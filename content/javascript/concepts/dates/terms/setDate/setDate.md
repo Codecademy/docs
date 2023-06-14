@@ -8,22 +8,24 @@ Tags:
   - 'Methods'
 CatalogContent: 
   - 'intro-to-javascript'
-  - 'path/front-end-engineer'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 The **`.setDate()`** method changes the day of the month according to local time.
 
 ## Syntax
 
-```js
+```pseudo
 myDate.setDate()
 ```
 
+The `.setDate` method changes the day of the month of a provided date according to local time.
+
 ## Example
 
-In the example below, the `myDate` takes the provided date and then uses the `setDate()` method to change this to 24. This will print Tuesday 24th January to the console.
+In the example below, the `myDate` variable takes the provided date and then uses the `.setDate()` method is applied to return a modified date.
 
-```pseudo
+```js
 const myDate = new Date('2023-01-01')
-console.log(myDate.setDate(24)) // prints 24 January 2023
+console.log(myDate.setDate(24))
 ```
