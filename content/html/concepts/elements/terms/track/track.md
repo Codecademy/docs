@@ -26,16 +26,17 @@ source= src="url">
 ```
 
 `<track>` can be paired with the following attributes:
-| HTML Attribute | Description |
-|---|---|
-| `chapters` | Utilized when a user navigates through the audio or film.|
-| `default` | Implies that the track should be enabled unless the user's preferences indicate that another track is best suited for the project. Can only be used with **one** `<track>` element at a time. |
-| `description` | Describes textual description of the video content. This is best suited for users who are blind or if the video cannot be seen.|
-| `kind` | Describes how the track's text should be used (e.g. `captions`, `subtitles`, `descriptions`, and `chapters`).|
-| `label` | Describes list of available text tracks.|
-| `metadata` | Tracks used by scripts, not available to users.|
-| `src` | The track's URL, it **must** be valid and in a Web Video Text Tracks (.vtt, WebVTT) file format.|
-| `srclang` | Track text data's language.|
+
+| HTML Attribute | Description                                                                                                                                                                                   |
+| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `chapters`     | Utilized when a user navigates through the audio or film.                                                                                                                                     |
+| `default`      | Implies that the track should be enabled unless the user's preferences indicate that another track is best suited for the project. Can only be used with **one** `<track>` element at a time. |
+| `description`  | Describes textual description of the video content. This is best suited for users who are blind or if the video cannot be seen.                                                               |
+| `kind`         | Describes how the track's text should be used (e.g. `captions`, `subtitles`, `descriptions`, and `chapters`).                                                                                 |
+| `label`        | Describes list of available text tracks.                                                                                                                                                      |
+| `metadata`     | Tracks used by scripts, not available to users.                                                                                                                                               |
+| `src`          | The track's URL, it **must** be valid and in a Web Video Text Tracks (.vtt, WebVTT) file format.                                                                                              |
+| `srclang`      | Track text data's language.                                                                                                                                                                   |
 
 ## Example 1: Audio
 
