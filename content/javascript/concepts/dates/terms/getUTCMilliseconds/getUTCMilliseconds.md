@@ -21,7 +21,7 @@ myDate.getUTCMilliseconds()
 
 The `.getUTCMilliseconds()` method will return an integer between 0 and 999, which represents the milliseconds for the given date, according to universal time.
 
-The method will return `NaN` if the date is [invalid](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date#the_epoch_timestamps_and_invalid_date).
+The method will return `NaN` if the [date](https://www.codecademy.com/resources/docs/javascript/dates) is invalid.
 
 ## Example
 
