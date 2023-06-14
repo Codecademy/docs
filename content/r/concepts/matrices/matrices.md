@@ -25,7 +25,7 @@ To create a matrix, simply use the `matrix()` method. Here are some examples:
 # Create a matrix with 8 values stored in a tabular format with 2 rows and 4 columns
 myMatrix <- matrix(c(1, 2, 3, 4, 5, 6, 7, 8), nrow=2, ncol=4)
 
-# Print the created matrix
+# Return the created matrix
 myMatrix
 ```
 
@@ -43,7 +43,7 @@ Another example of matrices with string values is:
 # Create matrix with string values
 myMatrix2 <- matrix(c("tokyo", "delhi", "washington", "paris"), nrow = 2, ncol = 2)
 
-# Print the created matrix
+# Return the created matrix
 myMatrix2
 ```
 
@@ -62,7 +62,7 @@ The matrix items can be accessed by using `[ ]` brackets where the first paramet
 ```r
 myMatrix2 <- matrix(c("tokyo", "delhi", "washington", "paris"), nrow = 2, ncol = 2)
 
-# Print
+# Return statement
 myMatrix2[1, 2] 
 ```
 
@@ -77,7 +77,7 @@ The whole row can be accessed if by specifying a comma after the number in the b
 ```r
 myMatrix2 <- matrix(c("tokyo", "delhi", "washington", "paris"), nrow = 2, ncol = 2)
 
-# Print
+# Return statement
 myMatrix2[1, ] 
 ```
 
@@ -87,7 +87,7 @@ This example results in the following output:
 [1] "tokyo"      "washington"
 ```
 
-The whole column can be accessed if you specify a comma before the number in the bracket:
+The whole column can be accessed by specifying a comma before the number in the bracket:
 
 ```r
 myMatrix2 <- matrix(c("tokyo", "delhi", "washington", "paris"), nrow = 2, ncol = 2)
@@ -109,7 +109,7 @@ Multiple rows can be accessed by using the `c()` function:
 ```r
 myMatrix2 <- matrix(c("tokyo", "delhi", "washington", "paris"), nrow = 2, ncol = 2)
 
-# Print
+# Return statement
 myMatrix2[c(1, 2),] 
 ```
 
@@ -129,7 +129,7 @@ The `cbind()` function may be used to add more columns in a Matrix:
 myMatrix2 <- matrix(c("tokyo", "delhi", "washington", "paris"), nrow = 2, ncol = 2)
 newmatrix <- cbind(myMatrix2, c("london", "berlin"))
 
-# Print the new matrix
+# Return the new matrix
 newmatrix 
 ```
 
@@ -147,7 +147,7 @@ The `rbind()` function is used to add more rows in a Matrix:
 myMatrix2 <- matrix(c("tokyo", "delhi", "washington", "paris"), nrow = 2, ncol = 2)
 newmatrix <- rbind(myMatrix2, c("moscow", "brasília"))
 
-# Print the new matrix
+# Return the new matrix
 newmatrix 
 ```
 
@@ -168,7 +168,7 @@ myMatrix2 <- matrix(c("tokyo", "delhi", "washington", "paris"), nrow = 2, ncol =
 # Remove the first row and the first column
 myMatrix2 <- myMatrix2[-c(1), -c(1)]
 
-# Print the matrix
+# Return the matrix
 myMatrix2  
 ```
 
