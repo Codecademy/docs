@@ -30,6 +30,7 @@ console.log(minutes)
 ```
 
 This outputs the following:
+
 ```
 27
 ```
