@@ -23,6 +23,8 @@ The `.getUTCMinutes()` method returns the minutes as an integer between `0` and 
 
 ## Example
 
+The following example uses the `.getUTCMinutes()` method to get the minutes of `2023-06-13T16:27:00.175Z` and logs the result to the console:
+
 ```js
 const myDate = new Date('2023-06-13T16:27:00.175Z');
 const minutes = myDate.getUTCMinutes()
