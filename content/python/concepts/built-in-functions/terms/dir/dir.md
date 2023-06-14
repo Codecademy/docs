@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-Returns the list of valid attributes of the passed object.
+The **`dir()`** function returns the list of valid attributes of the passed object.
 
 ## Syntax
 
