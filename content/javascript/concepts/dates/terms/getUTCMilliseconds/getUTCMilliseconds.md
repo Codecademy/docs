@@ -31,7 +31,8 @@ In the given example, `.getUTCMilliseconds()` is applied to the constant `now` a
 const now = new Date("2020-08-09T01:32:28.412+01:00");
 console.log(now.getUTCMilliseconds());
 ```
-The following will be logged to the console:
+
+The code will result in the following output:
 
 ```shell
   412
