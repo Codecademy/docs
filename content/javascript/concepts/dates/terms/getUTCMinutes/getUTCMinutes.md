@@ -19,7 +19,7 @@ The **`.getUTCMinutes()`** method returns the minutes for the date provided acco
 myDate.getUTCMinutes()
 ```
 
-The `.getUTCMinutes()` method returns the minutes as an integer between `0` and `59` for the provided date according to UTC time.
+The `.getUTCMinutes()` method returns the minutes as an integer between `0` and `59` for the provided date, `myDate`, according to UTC time.
 
 ## Example
 
