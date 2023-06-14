@@ -34,14 +34,6 @@ The `<video>` element may include [`<source>`](https://www.codecademy.com/resour
 
 Sources are written in preference order, so that the first source listed is played if the browser supports it, with the subsequent sources acting as a fallback. This is usually used to try newer video formats while also providing a fallback for better compatibility.
 
-It may also use attributes to convey intention. Some common ones are below:
-
-- `autoplay`: If this attribute is present the video will play automatically.
-- `controls`: If this attribute is present the video will have an overlay allowing the user to control the video.
-- `height` and `width`: Control the height and width dimensions of the video element (in pixels).
-- `poster`: The URL for a photo to show the user while the video is loading.
-- `src`: The URL for the video that should be shown to the user.
-
 ### Attributes
 
 Videos can have various attributes that are added in the opening `<video>` tag:
@@ -49,10 +41,13 @@ Videos can have various attributes that are added in the opening `<video>` tag:
 | Attribute  | Type    | Description                                                          |
 | ---------- | ------- | -------------------------------------------------------------------- |
 | `autoplay` | Boolean | Plays the video automatically once it has loaded.                    |
-| `control`  | Boolean | Browser offer playback controls to the user.                         |
+| `controls` | Boolean | Browser offer playback controls to the user.                         |
 | `loop`     | Boolean | Replays the video again once it has finished.                        |
 | `muted`    | Boolean | Ensures there will be no audio output.                               |
-| `poster`   | String  | Provides a thumbnail for the video, specifying an image's file path. |
+| `poster`   |         | Provides a thumbnail for the video, specifying an image's file path. |
+| `height`   |         | Controls the height dimensions of the video element (in pixels).     |
+| `width`    |         | Controls the width dimensions of the video element (in pixels).      |
+| `src`      |         | Provides the URL for the video that should be shown to the user.     |
 
 Attributes can be used together in any order to specify how a video behaves on a webpage.
 
