@@ -1,6 +1,6 @@
 ---
 Title: '.setMinutes()'
-Description: 'Changes the minute value of the Date object according to local time.'
+Description: 'Changes the minute value of a date object according to local time.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
