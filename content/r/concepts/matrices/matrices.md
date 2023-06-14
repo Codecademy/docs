@@ -236,7 +236,7 @@ Addition, subtraction, multiplication and division can also be performed on matr
 matrix1 <- matrix(c(1, 2, 3, 4, 5, 6), nrow = 3)
 matrix2 <- matrix(c(7, 8, 9, 10, 11, 12), nrow = 3)
 
-# Add the matrices.
+# Add the matrices
 result1 <- matrix1 + matrix2
 
 # Subtract the matrices
