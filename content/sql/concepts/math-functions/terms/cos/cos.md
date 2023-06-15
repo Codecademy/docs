@@ -46,7 +46,7 @@ FROM angles;
 
 The output will be:
 
-| id  | angle_in_degrees | cos_value      |
+| id  | angle_in_degrees | cos_value          |
 | --- | ---------------- | ------------------ |
 | 1   | 10               | 0.984807753012208  |
 | 2   | 45               | 0.7071067811865476 |
