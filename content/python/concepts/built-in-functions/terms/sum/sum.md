@@ -19,7 +19,7 @@ The **`sum()`** function takes in an iterable object, such as a list or tuple, a
 ## Syntax
 
 ```pseudo
-sum(iterable, start=0)
+sum(iterable, start = 0)
 ```
 - `iterable`: An object capable of returning its elements one at a time such as a list, tuple, or dictionary.
 - `start`: A number added to the sum of the numbers in the iterable.
@@ -80,12 +80,12 @@ This example results in the following output:
 
 ## Codebyte Example
 
-Summing up a list of strings (concatenation):
+Summing up a list of lists (concatenation):
 
 ```codebyte/python
-words = ["Hello", " ", "World", "!"]
+num_lists = [[1, 2, 3], [4, 6, 8]]
 
-message = sum(words, start="")
+message = sum(num_lists, start=[])
 
 print(message)
 ```
