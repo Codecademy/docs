@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-The SQL function **`COS()`** calculates the cosine of a given angle, expressed in radians. It returns the ratio of the adjacent side of a right triangle to its hypotenuse, representing the cosine value between -1 and 1.
+The SQL function **`COS()`** calculates the cosine of a given angle, expressed in radians.
 
 ## Syntax
 
