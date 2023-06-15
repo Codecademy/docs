@@ -55,11 +55,15 @@ const inventory = new Map([
 
 console.log('Inventory map size: ', inventory.size);
 
+console.log('Bob uses a tape roll.');
 inventory.set('Tape Roll', '0');
 console.log('We ran out of tape ', inventory.get('Tape Roll'));
 
+console.log('Deleting tape from the map...');
 console.log(inventory.delete('Tape Roll')); // Output: true
 console.log('Updated inventory map size: ', inventory.size);
 
+console.log('Deleting tape again from the map...');
 console.log(inventory.delete('Tape Roll')); // Output: false
+console.log('Updated inventory map size: ', inventory.size);
 ```
