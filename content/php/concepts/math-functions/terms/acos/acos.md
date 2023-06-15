@@ -1,7 +1,6 @@
 ---
 Title: 'acos()'
 Description: 'Returns the angle whose cosine value is equal to the specified value.'
-
 Subjects:
   - 'Computer Science'
   - 'Web Design'
@@ -34,8 +33,9 @@ Where `number` is the number that the function returns the arc cosine for. Shoul
 ?>
 ```
 
-The result will be a float value of `0.87629806116834`.
-`acos(-1)` returns the value of Pi.
+The result will be a float value of `0.87629806116834`. 
+
+> **Note:** `acos(-1)` returns the value of Pi, `π`.
 
 ## Codebyte Example
 
