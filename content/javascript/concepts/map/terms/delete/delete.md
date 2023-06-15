@@ -53,14 +53,13 @@ const inventory = new Map([
   ['Brick', '5,000']
 ]);
 
-console.log('Size of inventory map: ', inventory.size);
+console.log('Inventory map size: ', inventory.size);
 
-console.log('Tape quantity', inventory.get('Tape Roll'));
 inventory.set('Tape Roll', '0');
 console.log('We ran out of tape ', inventory.get('Tape Roll'));
 
 console.log(inventory.delete('Tape Roll')); // Output: true
-console.log('Size of updated inventory map: ', inventory.size);
+console.log('Updated inventory map size: ', inventory.size);
 
 console.log(inventory.delete('Tape Roll')); // Output: false
 ```
