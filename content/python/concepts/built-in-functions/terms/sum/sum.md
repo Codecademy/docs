@@ -21,8 +21,8 @@ The **`sum()`** function takes in an iterable object, such as a list or tuple, a
 ```pseudo
 sum(iterable, start=0)
 ```
-- `iterable`: is an object capable of returning its elements one at a time for example a list, tuple, or dictionary.
-- `start`: is a number added to the sum of the numbers in the iterable.
+- `iterable`: An object capable of returning its elements one at a time such as a list, tuple, or dictionary.
+- `start`: A number added to the sum of the numbers in the iterable.
 
 ## Example 1
 
