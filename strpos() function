@@ -1,0 +1,41 @@
+# `strpos()`
+
+The `strpos()` function in PHP is used to find the position of the first occurrence of a substring within a string. It returns the numeric position of the substring if found, and `false` if the substring is not present in the given string.
+
+## Syntax
+
+```php
+int|false strpos ( string $haystack , mixed $needle [, int $offset = 0 ] )
+
+The strpos() function takes three parameters:
+
+$haystack: The string to search within.
+$needle: The substring to search for.
+$offset (optional): An optional parameter to specify the position within the $haystack string to start the search. If provided, the function starts searching from that position. The default value is 0.
+
+$string = "Hello, world!";
+$substring = "world";
+
+$position = strpos($string, $substring);
+if ($position !== false) {
+    echo "The substring '$substring' was found at position $position.";
+} else {
+    echo "The substring '$substring' was not found in the string.";
+}
+
+Output:
+The substring 'world' was found at position 7.
+
+Runnable Example
+$string = "Hello, world!";
+$substring = "world";
+
+$position = strpos($string, $substring);
+if ($position !== false) {
+    echo "The substring '$substring' was found at position $position.";
+} else {
+    echo "The substring '$substring' was not found in the string.";
+}
+
+
+Feel free to copy the above content into your README.md file and make any necessary adjustments.
