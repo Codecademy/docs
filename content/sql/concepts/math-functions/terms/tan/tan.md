@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-The SQL **`TAN()`** function is a mathematical function that returns the tangent of an angle in radians. It takes one argument, the angle, and returns the tangent value as a numeric result.
+The SQL **`TAN()`** function is a mathematical function that returns the tangent of an angle given in radians. It takes one argument, the angle, and returns the tangent value as a numeric result.
 
 ## Syntax
 
