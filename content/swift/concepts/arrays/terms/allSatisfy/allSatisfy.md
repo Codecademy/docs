@@ -4,11 +4,10 @@ Description: 'Returns a Boolean expression indicating whether every element of a
 Subjects:
   - 'IOS'
   - 'Mobile Development'
-  - 'Swift'
-  - 'SwiftUI'
 Tags:
   - 'Arrays'
   - 'Methods'
+  - 'SwiftUI'
 CatalogContent:
   - 'learn-Swift'
   - 'paths/build-ios-apps-with-swiftui'
