@@ -1,6 +1,6 @@
 ---
 Title: 'TAN()'
-Description: 'Returns the tangent of an angle in radians.'
+Description: 'Returns the tangent of an angle given in radians.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
