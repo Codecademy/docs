@@ -23,7 +23,7 @@ The SQL **`TAN()`** function is a mathematical function that returns the tangent
 SELECT TAN(angle);
 ```
 
-`angle` is the radiant value, for which the tangent is calculated.
+`angle` is the radian value, for which the tangent is calculated.
 
 > **Note:** The `TAN()` function operates using radians as its input, not degrees. To convert degrees to radians, the degree value can be multiplied by π/180.
 
