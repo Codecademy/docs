@@ -24,7 +24,6 @@ $result = acos(number);
 
 Where `number` is the number that the function returns the arc cosine for. Should be specified in range -1 to 1.
 
-
 ## Example
 
 ```php
@@ -33,7 +32,7 @@ Where `number` is the number that the function returns the arc cosine for. Shoul
 ?>
 ```
 
-The result will be a float value of `0.87629806116834`. 
+The result will be a float value of `0.87629806116834`.
 
 > **Note:** `acos(-1)` returns the value of Pi, `π`.
 
