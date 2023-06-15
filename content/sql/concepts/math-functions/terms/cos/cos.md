@@ -23,7 +23,7 @@ The SQL function **`COS()`** calculates the cosine of a given angle, expressed i
 SELECT COS(angle);
 ```
 
-`angle` is the value, for which the cosine is calculated.
+`angle` is the value, for which the cosine is calculated. The cosine value returned will be between -1 and 1.
 
 > **Note:** The `COS()` function uses radians as its input, not degrees. To convert degrees to radians, the degree value can be multiplied by π/180.
 
