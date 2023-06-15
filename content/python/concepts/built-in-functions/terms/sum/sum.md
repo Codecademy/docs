@@ -64,7 +64,7 @@ This example results in the following output:
 
 Using the `start` parameter to specify an initial value for the sum:
 
-```codebyte/python
+```python
 numbers = [1, 2, 3, 4, 5]
 
 total = sum(numbers, start=10)
