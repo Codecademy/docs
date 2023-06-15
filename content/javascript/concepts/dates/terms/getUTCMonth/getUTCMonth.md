@@ -1,15 +1,15 @@
 ---
 Title: '.getUTCMonth()'
-Description: 'Returns the month of the passed date according to universal time, as a zero-based value.' 
-Subjects: 
+Description: 'Returns the month of the passed date according to universal time, as a zero-based value.'
+Subjects:
   - 'Web Development'
   - 'Computer Science'
 Tags:
   - 'Date'
   - 'Methods'
 CatalogContent:
- - 'introduction-to-javascript'
- - 'paths/front-end-engineer-career-path'
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 Get methods are used to retrieve date components based on the user’s local timezone settings. The **`.getUTCMonth()`** method returns the month of the date passed, similar to `.getMonth()`. However, `.getUTCMonth()` calculates the time based on the UTC (Coordinated Universal Time) standard.
