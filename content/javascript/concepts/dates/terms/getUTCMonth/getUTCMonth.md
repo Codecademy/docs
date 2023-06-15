@@ -1,14 +1,12 @@
 ---
-Title:
-‘.getUTCMonth()'
-Description:
-'Returns the month of the passed date according to universal time, as a zero-based value.' 
+Title: '.getUTCMonth()'
+Description: 'Returns the month of the passed date according to universal time, as a zero-based value.' 
 Subjects: 
-  - ‘Web Development’
-  - ‘Computer Science’
+  - 'Web Development'
+  - 'Computer Science'
 Tags:
-  - ‘Date’
-  - 'Methods’
+  - 'Date'
+  - 'Methods'
 CatalogContent:
  - 'introduction-to-javascript'
  - 'paths/front-end-engineer-career-path'
