@@ -30,7 +30,7 @@ const myDate = new Date('1 January 2023 11:20')
 console.log(myDate.getUTCHours())
 ```
 
-Returns the following to the console
+Returns the following to the console:
 
 ```shell
 11
