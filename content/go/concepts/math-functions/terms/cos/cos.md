@@ -31,7 +31,7 @@ Where `result` is the cosine value of `angle`.
 
 ## Example
 
-The following calculates the absolute value of `-255` and prints out the result:
+The following calculates the cosine of angle `Pi/3` and prints out the result:
 
 ```go
 package main
@@ -51,7 +51,7 @@ func main() {
 The output will be:
 
 ```shell
-0.866
+0.9
 ```
 
 ## Codebyte Example
