@@ -37,3 +37,30 @@ console.log(fruits.delete('Strawberries')); // Output: false
 ```
 
 The first `.delete()` statement returns `true` because `fruits` contain an entry with `Oranges` as a key and has successfully removed it. The second statement returns `false` because an entry with the `Strawberries` key does not exist in `fruits`.
+
+## Codebyte Example
+
+In the example below, we declare a new inventory `Map` of consumable construction supplies linking them to their current quantities on hand. Throughout this program:
+
+- Bob will log that he used a roll of tape by updating its value using the [`.set()` method](https://www.codecademy.com/resources/docs/javascript/map/set).
+- Bob noticed he used the last roll so he will remove it from the map using the [`.delete()` method](https://www.codecademy.com/resources/docs/javascript/map/delete). He feels confident it worked correctly due to `true` being displayed in the console output.
+- Manny notices that there are no Tape Rolls left, but he doesn't know Bob already called the [`.delete()` method](https://www.codecademy.com/resources/docs/javascript/map/delete). He attemps to delete it and notices the console outputs `false`.
+
+```codebyte/js
+const inventory = new Map([
+  ['Nail', '1,000'],
+  ['Tape Roll', '1'],
+  ['Brick', '5,000']
+]);
+
+console.log('Size of inventory map: ', inventory.size);
+
+console.log('Tape quantity', inventory.get('Tape Roll'));
+inventory.set('Tape Roll', '0');
+console.log('We ran out of tape ', inventory.get('Tape Roll'));
+
+console.log(inventory.delete('Tape Roll')); // Output: true
+console.log('Size of updated inventory map: ', inventory.size);
+
+console.log(inventory.delete('Tape Roll')); // Output: false
+```
