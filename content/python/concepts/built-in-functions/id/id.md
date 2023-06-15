@@ -1,0 +1,106 @@
+---
+Title: 'id()'
+Description: 'The id() function gives a unique number for any object in Python. This number is the location of the object in the computer’s memory.
+This will be consistent for the duration of the object's lifetime'
+Subjects:
+  - 'Computer Science'
+  - 'Data Science'
+  
+Tags: 
+  - 'Functions'
+  - 'Methods'
+  - 'Id'
+  - 'Objects'
+  - 'Numbers'
+  - 'Memory'
+  - 'Debugging'
+
+CatalogContent: 
+  - 'learn-python-3'
+  - 'paths/computer-science'
+  - 'paths/data-science'
+---
+
+The **id() function** gives a unique number for any object in Python. This number is the location of the object in the computer’s memory.
+This will be consistent for the duration of the object's lifetime 
+
+## Syntax
+
+```pseudo
+id(object)
+```
+
+The parameter can be any given object such as a string, list, number, dictionary etc.
+
+## Example
+
+In the example below, when the 2 **immutable** variables are executed via the id() function, 
+they return the same value pointing to the same location in memory.
+This is because immutable objects don't change. Let's use the immutable **string** object to demonstrate this: 
+
+ ```py 
+color = 'green'
+
+favColor = 'green'
+
+print(id(color))
+
+print(id(favColor))
+```
+
+This example results in the following output:
+```shell
+# Output of color: 140307997340656
+# Output of favColor: 140307997340656
+```
+
+## Example 2
+
+In this next example, we will execute the id() function with 2 **mutable** variables. 
+Take note of how they will return different values and 2 separate unique ids. 
+This is because mutable objects are able to change. Let's use the mutable **list** object to demonstrate this:
+
+```py 
+animals = ['lions', 'tigers', 'bears']
+
+favAnimals = ['lions', 'tigers', 'bears']
+
+print(id(animals)); 
+
+print(id(favAnimals)); 
+```
+
+This example results in the following output:
+```shell
+# Output of animals: 140279020355392
+# Output of favAnimals: 140279020204352
+```
+
+## Codebyte Example 
+
+The following example displays the output of the immutable **number** object:
+
+
+```codebyte/python
+hello = 30;
+goodbye = 30;
+
+print(id(hello))
+print(id(goodbye))
+```
+
+## Codebyte Example 2
+
+The following example displays the output of the mutable **dictionary** object:
+
+
+```codebyte/python
+fruit = {"name": "Banana", "color": "yellow"}
+favFruit = {"name": "Banana", "color": "yellow"}
+
+print(id(fruit))
+print(id(favFruit))
+```
+
+
+
