@@ -22,7 +22,6 @@ The **`ATAN()`** function in SQL is a mathematical function utilized to compute 
 
 ## Syntax
 
-The syntax of the **`ATAN()`** function in SQL is as follows:
 
 ```sql
 ATAN(expression)
