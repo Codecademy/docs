@@ -19,13 +19,13 @@ The **`.getUTCHours()`** returns the hours for the provided date according to un
 myDate.getUTCHours()
 ```
 
-The `.getUTCHours()` method returns hours as an integer between 0-23 (midnight will return 0) for the provided date `myDate`.
+The `.getUTCHours()` method returns hours as an integer between `0`-`23` (midnight will return `0`) for the provided date `myDate`.
 
 ## Example
 
-In the example below, the variable `myDate` stores the hours returned from a new `Date` object and logs the value to the console. In this example the date provided to `myDate` is 1st January 2023 11:20 +900 GMT which will return Sun Jan 01 2023 02:20:00, so the integer returned is `2`.
+In the example below, the variable `myDate` stores the hours returned from a new `Date` object and logs the value to the console.
 
-```pseudo
+```js
 const myDate = new Date('1 January 2023 11:20 GMT+900')
 console.log(myDate.getUTCHours())
 ```
