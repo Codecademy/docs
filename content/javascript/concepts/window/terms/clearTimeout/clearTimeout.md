@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**`clearTimeout()`** is a window method that stops a previously scheduled [setTimeout()](https://www.codecademy.com/resources/docs/javascript/window/setTimeout) from running.
+**`clearTimeout()`** is a window method that stops a previously scheduled [`setTimeout()`](https://www.codecademy.com/resources/docs/javascript/window/setTimeout) from running.
 
 ## Syntax
 
