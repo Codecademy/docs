@@ -74,7 +74,7 @@ exec(code_object)
 
 ## Example 4
 
-Use `exec()` with `globals` and `locals`:
+This example uses `exec()` with `globals` and `locals`:
 
 ```codebyte/python
 code = input("Enter your command: ")
