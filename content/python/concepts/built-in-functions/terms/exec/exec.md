@@ -76,7 +76,7 @@ exec(code_object)
 
 This example uses `exec()` with `globals` and `locals`:
 
-```codebyte/python
+```py
 code = input("Enter your command: ")
 
 #In this example a user could inject malicious code like "import os; os.system('cat /etc/passwd')"
