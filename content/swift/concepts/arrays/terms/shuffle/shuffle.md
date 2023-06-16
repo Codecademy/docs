@@ -54,4 +54,4 @@ Each time the code is executed, the output will be different since the elements 
 
 The **`.shuffle()`** method provides a convenient way to introduce randomness into the order of elements in an array, which can be useful for various scenarios like randomizing game elements, shuffling a playlist, or generating random sequences.
 
-> **"Note: The `.shuffle()` method is available in Swift 4.2 and later versions."**
+> **Note:** The `.shuffle()` method is available in Swift 4.2 and later versions.
