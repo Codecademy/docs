@@ -62,7 +62,7 @@ exec(code)
 
 ## Example 3
 
-Use `exec()` to execute a code object:
+This example uses `exec()` to execute a code object:
 
 ```codebyte/python
 code = 'import datetime\nprint("Hello, Codecademy!")\ncurrent_time = datetime.datetime.now()\nprint(current_time)'
