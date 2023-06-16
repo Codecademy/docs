@@ -23,7 +23,7 @@ The syntax of the **`.shuffle()`** method is as follows:
 arrayName.shuffle()
 ```
 
-The **`arrayName`** is the name of the array that you want to shuffle.
+The **`arrayName`** is the name of the array to shuffle.
 
 ## Example
 
