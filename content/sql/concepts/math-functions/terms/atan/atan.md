@@ -27,8 +27,8 @@ The **`ATAN()`** function in SQL is a mathematical function utilized to compute 
 ATAN(expression)
 ```
 
-- If the input expression is a numeric value, the **`ATAN()`** function returns the arctangent of that value in radians.
-- If the input expression is `NULL`, the **`ATAN()`** function also returns `NULL`.
+- If the input expression is a numeric value, the `ATAN()` function returns the arctangent of that value in radians.
+- If the input expression is `NULL`, the `ATAN()` function also returns `NULL`.
 
 ## Example
 
