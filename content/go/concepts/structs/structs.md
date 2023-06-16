@@ -108,7 +108,6 @@ If a default value is not specified for a field, when initializing it, it will b
 
 There are two ways to initialize a struct in Go: the `var` keyword or a literal value.
 
-
 ### Using the `var` Keyword
 
 ```go
