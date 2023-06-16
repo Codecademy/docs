@@ -34,14 +34,14 @@ Where `number` is the number whose logarithm is to be calculated and `base` is a
 ?>
 ```
 
-This will result in the following output:
+This will result in the following output: 0
 
 ## Codebyte Example
 
-Using `log()` to return the value of 1.9459101490553:
+Using `log()` to return the value of 5 base 10: 0.69897000433602
 
 ```codebyte/php
 <?php
-  echo(log(7));
+  echo(log(5,10));
 ?>
 ```
