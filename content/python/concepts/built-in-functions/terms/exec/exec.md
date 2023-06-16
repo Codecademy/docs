@@ -1,6 +1,6 @@
 --
 Title: 'exec()'
-Description: 'Executes code object or string containing python code.'
+Description: 'Executes a code object or string containing python code.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
