@@ -18,7 +18,7 @@ The **`exec()`** function executes a code object or string containing python cod
 
 ## Syntax
 
-```py
+```pseudo
 exec(object, globals=None, locals=None)
 ```
 
