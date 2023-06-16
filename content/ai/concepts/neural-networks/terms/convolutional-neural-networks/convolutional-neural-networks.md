@@ -16,7 +16,7 @@ CatalogContent:
 
 CNNs are inspired by the visual cortex of the brain. The visual cortex is the part of the brain that processes visual information.
 
-## How does a CNN work?
+## How Does a CNN Work?
 
 CNNs extract features from images using specialized layers called convolutional layers. These layers apply filters to the input image which helps them to learn about features such as patterns and edges.
 
