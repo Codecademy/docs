@@ -27,7 +27,7 @@ A `Date` object can be created by declaring a new variable with the `new Date()`
 
 ## Example
 
-Consider the following example that uses the `.getUTCSeconds()` method to get the seconds of `2023-06-06T10:30:04` and logs the result to the console:
+The following example uses the `.getUTCSeconds()` method to get the seconds of `2023-06-06T10:30:04` and logs the result to the console:
 
 ```js
 const date = new Date('2023-06-06T10:30:04');
