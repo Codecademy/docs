@@ -188,6 +188,7 @@ Machine Learning
 Margin
 MATLAB
 Matplotlib
+Matrices
 Media Queries
 Memory
 Metadata
