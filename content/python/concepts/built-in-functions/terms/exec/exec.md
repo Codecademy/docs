@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-Returns ``None``.
+The **`exec()`** function executes a code object or string containing python code.
 
 ## Syntax
 
