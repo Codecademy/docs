@@ -1,1 +1,1 @@
-content/markdown/concepts/tables/tables.md
+content/r/concepts/functions/functions.md
