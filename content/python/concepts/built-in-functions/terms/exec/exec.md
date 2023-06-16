@@ -26,6 +26,8 @@ exec(object, globals=None, locals=None)
 * `globals`: (optional) A dictionary containing global variables. If not specified, defaults to `None`. 
 * ```locals```: (optional) A dictionary containing global variables. If not specified, defaults to ```None```.
 
+The `exec()` function returns `None`.
+
 ## Example 1
 
 Use `exec()` to parse and execute Python code contained in the string `code`:
