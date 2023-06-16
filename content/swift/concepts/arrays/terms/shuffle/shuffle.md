@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.shuffle()`** method in Swift Arrays is used to randomly shuffle the elements of an array. It reorders the elements in a random order, providing a different arrangement of the elements each time it is called.
+The **`.shuffle()`** method in Swift is used to randomly shuffle the elements of an array. It reorders the elements in a random order, providing a different arrangement of the elements each time it is called.
 
 ## Syntax
 
