@@ -23,7 +23,7 @@ The **`ATAN()`** function in SQL is a mathematical function utilized to compute 
 ## Syntax
 
 
-```sql
+```pseudo
 ATAN(expression)
 ```
 
