@@ -17,7 +17,6 @@ The **`getUTCSeconds()`** method returns the seconds (ranging from 0 to 59) of a
 
 ## Syntax
 
-
 ```pseudo
 Date.getUTCSeconds()
 ```
