@@ -12,11 +12,10 @@ CatalogContent:
   - 'paths/front-end-developer-career-path'
 ---
 
-The getUTCSeconds() method returns the seconds (ranging from 0 to 59) of a specific date according to UTC (Coordinated Universal Time).
+The **`getUTCSeconds()`** method returns the seconds (ranging from 0 to 59) of a specific date according to UTC (Coordinated Universal Time).
 
 
 ## Syntax
-
 
 ```pseudo
 Date.getUTCSeconds()
@@ -28,7 +27,7 @@ A `Date` object can be created by declaring a new variable with the `new Date()`
 
 ## Example
 
-Consider the following example that uses the `.getUTCSeconds()` method to get the seconds of `2023-06-06T10:30:04` and logs the result to the console:
+The following example uses the `.getUTCSeconds()` method to get the seconds of `2023-06-06T10:30:04` and logs the result to the console:
 
 ```js
 const date = new Date('2023-06-06T10:30:04');
@@ -42,10 +41,13 @@ This example results in the following output:
 ```shell
 4
 ```
-The example below demonstrates the use of `.getUTCSeconds()` to print the current time in seconds to the console:
 
-```js
+## Codebyte Example
+
+The codebyte example below uses the `.getUTCSeconds()` method to get the current time in seconds and logs it to the console:
+
+```codebyte/javascript
 const today = new Date();
 const today_seconds = today.getUTCSeconds();
-console.log(today_seconds) //ouput: current second of todays UTC time
+console.log(today_seconds); 
 ```
