@@ -16,7 +16,7 @@ CatalogContent:
 
 The **`log()`** function returns the natural logarithm of a value.
 
-The result returns a value type of `float`.
+The value returned by the function is a `float` type.
 
 ## Syntax
 
