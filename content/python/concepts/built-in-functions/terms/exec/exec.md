@@ -30,7 +30,7 @@ The `exec()` function returns `None`.
 
 ## Example 1
 
-Use `exec()` to parse and execute Python code contained in the string `code`:
+This example uses `exec()` to parse and execute Python code contained in the string `code`:
 
 ```codebyte/python
 code = 'print("Hello, Codecademy!")'
