@@ -43,7 +43,7 @@ This example results in the following output:
 ```
 The example below demonstrates the use of `.getUTCSeconds()` to print the current time in seconds to the console:
 
-```js
+```codebyte/javascript
 const today = new Date();
 const today_seconds = today.getUTCSeconds();
 console.log(today_seconds) //ouput: current second of todays UTC time
