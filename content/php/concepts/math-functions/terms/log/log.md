@@ -1,6 +1,6 @@
 ---
 Title: 'log()'
-Description: 'Returns the natural logarithm of different numbers.'
+Description: 'Returns the natural logarithm of a value.'
 Subjects:
   - 'Computer Science'
   - 'Web Design'
