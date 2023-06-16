@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-developer-career-path'
 ---
 
-The getUTCSeconds() method returns the seconds (ranging from 0 to 59) of a specific date according to UTC (Coordinated Universal Time).
+The **`getUTCSeconds()`** method returns the seconds (ranging from 0 to 59) of a specific date according to UTC (Coordinated Universal Time).
 
 
 ## Syntax
