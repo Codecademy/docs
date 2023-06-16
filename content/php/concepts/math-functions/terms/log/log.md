@@ -32,7 +32,6 @@ Where `number` is the number whose logarithm is to be calculated and `base` is a
 <?php
   echo(log(1));
 ?>
-// Output: 0
 ```
 
 The result will be a float value of `0` as the logarithmic value of `1` is `0`.
