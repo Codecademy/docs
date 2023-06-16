@@ -41,7 +41,10 @@ This example results in the following output:
 ```shell
 4
 ```
-The example below demonstrates the use of `.getUTCSeconds()` to print the current time in seconds to the console:
+
+## Codebyte Example
+
+The codebyte example below uses the `.getUTCSeconds()` method to get the current time in seconds and logs it to the console:
 
 ```codebyte/javascript
 const today = new Date();
