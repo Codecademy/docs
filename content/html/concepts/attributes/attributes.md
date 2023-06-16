@@ -21,15 +21,6 @@ Attributes consist of a name and a value in the format `name="value"`:
 <tag name="value"></tag>
 ```
 
-So for example, the `<img>` image element has a mandatory `src` attribute that contains the image file path/URL:
-
-```html
-<img src="codecademy_logo.png" />
-```
-
-- `src` is the attribute name.
-- `codecademy_logo.png` is the attribute value.
-
 HTML elements can have any number of attributes.
 
 The example below displays an image element with three attributes:
