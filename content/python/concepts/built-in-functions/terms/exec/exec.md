@@ -53,7 +53,7 @@ print(current_time)
 
 The content of the file `code.txt` is read until the end of the file (EOF) into a string. The content (Python commands) is executed by `exec()`.
 
-```codebyte/python
+```py
 with open('code.txt','r') as file:
   code = file.read()
 
