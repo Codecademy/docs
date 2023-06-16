@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`log()`** function returns the natural logarithm of different numbers.
+The **`log()`** function returns the natural logarithm of a value.
 
 The result returns a value type of `float`.
 
