@@ -34,7 +34,7 @@ This example results in the following output:
 ```shell
      [,1] [,2] [,3] [,4]
 [1,]    1    3    5    7
-[2,]    2    4    6    8 
+[2,]    2    4    6    8
 ```
 
 Another example of matrices with string values is:
@@ -50,20 +50,20 @@ myMatrix2
 This example results in the following output:
 
 ```shell
-     [,1]    [,2]        
+     [,1]    [,2]
 [1,] "tokyo" "washington"
-[2,] "delhi" "paris"   
+[2,] "delhi" "paris"
 ```
 
 ## Access Matrix Items
 
-The matrix items can be accessed by using `[ ]` brackets where the first parameter in the bracket specifies the row-position, while the second specifies the column-position: 
+The matrix items can be accessed by using `[ ]` brackets where the first parameter in the bracket specifies the row-position, while the second specifies the column-position:
 
 ```r
 myMatrix2 <- matrix(c("tokyo", "delhi", "washington", "paris"), nrow = 2, ncol = 2)
 
 # Return statement
-myMatrix2[1, 2] 
+myMatrix2[1, 2]
 ```
 
 This example results in the following output:
@@ -78,7 +78,7 @@ The whole row can be accessed if by specifying a comma after the number in the b
 myMatrix2 <- matrix(c("tokyo", "delhi", "washington", "paris"), nrow = 2, ncol = 2)
 
 # Return statement
-myMatrix2[1, ] 
+myMatrix2[1, ]
 ```
 
 This example results in the following output:
@@ -92,14 +92,14 @@ The whole column can be accessed by specifying a comma before the number in the 
 ```r
 myMatrix2 <- matrix(c("tokyo", "delhi", "washington", "paris"), nrow = 2, ncol = 2)
 
-# Print
-myMatrix2[, 2]     
+# Return statement
+myMatrix2[, 2]
 ```
 
 This example results in the following output:
 
 ```shell
-[1] "washington" "paris" 
+[1] "washington" "paris"
 ```
 
 ## Accessing Multiple Rows
@@ -110,13 +110,13 @@ Multiple rows can be accessed by using the `c()` function:
 myMatrix2 <- matrix(c("tokyo", "delhi", "washington", "paris"), nrow = 2, ncol = 2)
 
 # Return statement
-myMatrix2[c(1, 2),] 
+myMatrix2[c(1, 2),]
 ```
 
 This example results in the following output:
 
 ```shell
-      [,1]    [,2]        
+      [,1]    [,2]
 [1,] "tokyo" "washington"
 [2,] "delhi" "paris"
 ```
@@ -130,13 +130,13 @@ myMatrix2 <- matrix(c("tokyo", "delhi", "washington", "paris"), nrow = 2, ncol =
 newmatrix <- cbind(myMatrix2, c("london", "berlin"))
 
 # Return the new matrix
-newmatrix 
+newmatrix
 ```
 
 This example results in the following output:
 
 ```shell
-   [,1]    [,2]         [,3]    
+   [,1]    [,2]         [,3]
 [1,] "tokyo" "washington" "london"
 [2,] "delhi" "paris"      "berlin"
 ```
@@ -148,16 +148,16 @@ myMatrix2 <- matrix(c("tokyo", "delhi", "washington", "paris"), nrow = 2, ncol =
 newmatrix <- rbind(myMatrix2, c("moscow", "brasília"))
 
 # Return the new matrix
-newmatrix 
+newmatrix
 ```
 
 This example results in the following output:
 
 ```shell
-      [,1]     [,2]        
+      [,1]     [,2]
 [1,] "tokyo"  "washington"
-[2,] "delhi"  "paris"     
-[3,] "moscow" "brasília" 
+[2,] "delhi"  "paris"
+[3,] "moscow" "brasília"
 ```
 
 The `c()` function may be used to remove rows and columns:
@@ -169,13 +169,13 @@ myMatrix2 <- matrix(c("tokyo", "delhi", "washington", "paris"), nrow = 2, ncol =
 myMatrix2 <- myMatrix2[-c(1), -c(1)]
 
 # Return the matrix
-myMatrix2  
+myMatrix2
 ```
 
 This example results in the following output:
 
 ```shell
-  [1] "paris" 
+  [1] "paris"
 ```
 
 ## Check if an Item Exists
@@ -186,26 +186,26 @@ To find out if a specified item is present in a matrix, use the `%in%` operator:
 myMatrix2 <- matrix(c("tokyo", "delhi", "washington", "paris"), nrow = 2, ncol = 2)
 
 # Return
-"delhi" %in% myMatrix2 
-"cairo" %in% myMatrix2 
+"delhi" %in% myMatrix2
+"cairo" %in% myMatrix2
 ```
 
 This example results in the following output:
 
 ```shell
   [1] TRUE
-  [1] FALSE 
+  [1] FALSE
 ```
 
 ## Dimension and Length of a Matrix
 
-The `dim()` function is used to find the number of rows and columns in a matrix:
+The `dim()` function is used to find the number of rows and columns in a matrix (and can also be used to reshape a matrix):
 
 ```r
 myMatrix2 <- matrix(c("tokyo", "delhi", "washington", "paris"), nrow = 2, ncol = 2)
 
 # Return
-dim(myMatrix2) 
+dim(myMatrix2)
 ```
 
 This example results in the following output:
@@ -218,7 +218,7 @@ The `length()` function can also be used to find the dimension of a matrix:
 
 ```r
 myMatrix2 <- matrix(c("tokyo", "delhi", "washington", "paris"), nrow = 2, ncol = 2)
-length(myMatrix2) 
+length(myMatrix2)
 ```
 
 This example results in the following output:
