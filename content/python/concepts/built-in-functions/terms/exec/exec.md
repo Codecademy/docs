@@ -22,7 +22,7 @@ The **`exec()`** function executes a code object or string containing python cod
 exec(object, globals=None, locals=None)
 ```
 
-* ```object```: String or code object
+* `object` : String or code object
 * `globals`: (optional) A dictionary containing global variables. If not specified, defaults to `None`. 
 * ```locals```: (optional) A dictionary containing global variables. If not specified, defaults to ```None```.
 
