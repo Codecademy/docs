@@ -24,7 +24,7 @@ The value returned by the function is a `float` type.
 $result = log(number,base);
 ```
 
-Where `number` is the number whose logarithm is to be calculated and `base` is optional parameter which signifies the logarithmic base to be used. By default `base` is *e*.
+Where `number` is the number whose logarithm is to be calculated and `base` is an optional parameter which signifies the logarithmic base to be used. By default `base` is *e*.
 
 ## Example
 
