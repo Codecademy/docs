@@ -46,5 +46,5 @@ The example below demonstrates the use of `.getUTCSeconds()` to print the curren
 ```codebyte/javascript
 const today = new Date();
 const today_seconds = today.getUTCSeconds();
-console.log(today_seconds) //ouput: current second of todays UTC time
+console.log(today_seconds); 
 ```
