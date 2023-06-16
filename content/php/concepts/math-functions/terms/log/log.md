@@ -34,7 +34,7 @@ Where `number` is the number whose logarithm is to be calculated and `base` is a
 ?>
 ```
 
-The result will be a float value of `0` as the logarithmic value of `1` is `0`.
+This will result in the following output:
 
 ## Codebyte Example
 
