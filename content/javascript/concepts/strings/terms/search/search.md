@@ -39,3 +39,17 @@ const programmingLanguage = 'JavaScript';
 console.log(programmingLanguage.search(/java/));
 // Output: -1
 ```
+
+## Codebyte Example
+
+The following is runnable, and demonstrates the use of the `search.()' method:
+
+```codebyte/javascript
+// search successful
+const sunnyWeather = 'Today is a sunny day.';
+console.log(weather.search(/day/, weather));
+
+// search failure
+const rainyWeather = 'Today is rainy day.';
+console.log(exampleStr2.replace(/Day/, weather));
+```
