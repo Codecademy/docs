@@ -22,4 +22,4 @@ Businesses educate and train employees across the organization. Employees at all
 
 - Think Before Clicking: Attackers employ a sense of urgency to make a person act first and think later in social engineering attacks. If a person receives an email with a sense of urgency that seems unusual, that person should take a moment to check if the source is credible first.
 - Research The Sources: Check the domain links to see if they are real. Usually, a typo/spelling error is an indicator that something isn’t right. Hovering a cursor on a link before a person clicks on it will reveal where the link will send them.
-- Be Careful Downloading: If a person does not know the sender, that person shouldn’t open the message. Cybercriminals will often use email attachments to spread viruses and other forms of malware.
+- Be Careful Downloading: If a person does not know the sender, that person shouldn’t open the message. Cybercriminals will often use email attachments to spread [viruses](https://www.codecademy.com/resources/docs/cybersecurity/malware/virus) and other forms of [malware](https://www.codecademy.com/resources/docs/cybersecurity/malware).
