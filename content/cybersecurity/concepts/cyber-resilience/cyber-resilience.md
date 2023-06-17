@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/fundamentals-of-cybersecurity'
 ---
 
-**Cyber resilience** is the ability of an organization to withstand and recover from events that could disrupt the normal operation of computer infrastructures. It describes the ability to continue operating despite experiencing challenging events such as ransomware, Distributed Denial of Service (DDoS), [social engineering](https://www.codecademy.com/resources/docs/cybersecurity/social-engineering), system failures, natural disasters and insider threats.
+**Cyber resilience** is the ability of an organization to withstand and recover from events that could disrupt the normal operation of computer infrastructures. It describes the ability to continue operating despite experiencing challenging events such as [ransomware](https://www.codecademy.com/resources/docs/cybersecurity/malware/ransomware), Distributed Denial of Service (DDoS), [social engineering](https://www.codecademy.com/resources/docs/cybersecurity/social-engineering), system failures, natural disasters and insider threats.
 
 ## Cyber Resilience In-Use
 
