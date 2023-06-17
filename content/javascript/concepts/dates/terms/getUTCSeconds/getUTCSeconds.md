@@ -48,5 +48,5 @@ The codebyte example below uses the `.getUTCSeconds()` method to get the current
 ```codebyte/javascript
 const today = new Date();
 const today_seconds = today.getUTCSeconds();
-console.log(today_seconds); 
+console.log(today_seconds);
 ```
