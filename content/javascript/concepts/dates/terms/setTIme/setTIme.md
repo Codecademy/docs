@@ -19,7 +19,7 @@ The **`.setTime()`** method returns a number, representing the number of millise
 myDate.setTime(millisec)
 ```
 
-The returned value from `.getTime()` is a value representing the number of milliseconds since the 1st of January 1970.
+The returned value from `.setTime()` is a value representing the number of milliseconds since the 1st of January 1970.
 
 ## Example
 
