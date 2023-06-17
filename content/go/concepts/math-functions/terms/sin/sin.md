@@ -1,6 +1,6 @@
 ---
 Title: 'Sin()'
-Description: 'Learn how to use the Sin() function in Go to calculate the sine of an angle.'
+Description: 'Used to calculate the sine of an angle.'
 Subjects:
   - 'Go'
   - 'Math'
