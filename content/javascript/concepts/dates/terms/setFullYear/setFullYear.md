@@ -1,6 +1,6 @@
 ---
 Title: '.setFullYear()'
-Description: 'Changes the year, month, and/or day of month  according to local time.'
+Description: 'Changes the year, month, and/or day according to local time.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
