@@ -53,5 +53,5 @@ console.log(eventDate);
 
 eventDate.setFullYear(0);
 
-console.log(event.getFullYear());
+console.log(eventDate.getFullYear());
 ```
