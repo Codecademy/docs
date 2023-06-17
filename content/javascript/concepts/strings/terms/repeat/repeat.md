@@ -41,3 +41,15 @@ console.log('Berlin is my favorite city! '.repeat(3.5));
 ```
 
 The decimal will be converted to an integer. So in this case, `3.5` becomes `3`.
+
+## Codebyte Example
+
+The following is runnable, and demonstrates the use of the `.repeat()` method:
+
+```codebyte/javascript
+// using integer value
+console.log('I love javascript! '.repeart(2));
+
+// using decimal value
+console.log('I love javascript! '.repeat(3.5));
+```
