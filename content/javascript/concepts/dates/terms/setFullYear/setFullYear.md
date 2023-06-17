@@ -17,10 +17,6 @@ The **`.setFullYear()`** method changes the year, month, and/or day according to
 ## Syntax
 
 ```shell
-// Change year according to local time
-setFullYear(yearValue)
-// Change year and month according to local time
-setFullYear(yearValue, monthValue)
 // Change year, month and date according to local time
 setFullYear(yearValue, monthValue, dateValue)
 
