@@ -2,10 +2,11 @@
 Title: 'Sin()'
 Description: 'Used to calculate the sine of an angle.'
 Subjects:
-  - 'Go'
-  - 'Math'
+  - 'Code Foundations'
+  - 'Computer Science'
 Tags:
-  - 'Go Functions'
+  - 'Functions'
+  - 'Methods'
   - 'Trigonometry'
 CatalogContent:
   - 'learn-go'
@@ -18,20 +19,14 @@ The **`Sin()`** function in Go is used to calculate the sine of an angle. It ret
 
 The syntax for using the Sin() function in Go is as follows:
 
-```go
-package main
+```pseudo
+import "math"
 
-import (
-    "fmt"
-    "math"
-)
-
-func main() {
-    angle := 3
-    sine := math.Sin(angle)
-    fmt.Println("The sine of" angle "radians is", sine)
-}
+result := math.Sin(angle)
 ```
+
+Where `result` is the sine of `angle`.
+
 ## Example
 
 The following example demonstrates the usage of the `Sin()` function:
