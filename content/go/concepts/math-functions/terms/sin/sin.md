@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **Sin() function** in Go is used to calculate the sine of an angle. It returns the sine value of the specified angle (which is in radians, by default).
+The **`Sin()`** function in Go is used to calculate the sine of an angle. It returns the sine value of the specified angle, which is in radians.
 
 ## Syntax
 
