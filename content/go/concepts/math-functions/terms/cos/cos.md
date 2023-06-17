@@ -1,6 +1,6 @@
 ---
 Title: 'Cos()'
-Description: 'Returns the float64 value that represents the cosine of the given angle.'
+Description: 'Returns the cosine of the given angle.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -13,17 +13,16 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **Cos()** function returns the float64 value that represents the cosine of the given angle.
+The **`Cos()`** function returns the cosine of the given angle (in radians). The `math` library must be imported in order to use this function.
 
 ## Syntax
 
 ```pseudo
-import "math"
 
 result := math.Cos(angle)
 ```
 
-Where `result` is the cosine value of `angle`.
+Where `result` is the cosine value of `angle`, returned as a float, except under the following circumstances:
 
 - The result of `Cos(-Inf)` is `NaN`
 - The result of `Cos(+Inf)` is `NaN`
@@ -31,7 +30,7 @@ Where `result` is the cosine value of `angle`.
 
 ## Example
 
-The following calculates the cosine of angle `Pi/3` and prints out the result:
+The following calculates the cosine of `angle` and prints out the result:
 
 ```go
 package main
@@ -56,7 +55,7 @@ The output will be:
 
 ## Codebyte Example
 
-The following example is runnable and shows the `Cos()` function handling an infinite angle.
+The following example is runnable and shows how the `Cos()` function handles infinite values.
 
 ```codebyte/golang
 package main
