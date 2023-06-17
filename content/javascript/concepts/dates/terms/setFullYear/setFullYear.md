@@ -26,7 +26,7 @@ The return value of `.setFullYear()` is the new timestamp obtained after changin
 
 ## Example
 
-To set the year and month of a Date instance to July,1887 :
+To set the year and month for the date July, 1887 :
 
 ```js
 const exampleDate = new Date();
