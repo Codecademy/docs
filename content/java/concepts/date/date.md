@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In simple terms, the `Date` [class](https://www.codecademy.com/learn/learn-java-classes-and-methods) represents a specific point in time, down to milliseconds. It provides methods to manipulate and format dates, as well as perform operations such as comparison and arithmetic. It internally stores the number of milliseconds that have elapsed since January 1, 1970, 00:00:00 GMT (also known as the Unix epoch).
+The **`Date`** [class](https://www.codecademy.com/learn/learn-java-classes-and-methods) represents a specific point in time, down to milliseconds. It provides methods to manipulate and format dates, as well as perform operations such as comparison and arithmetic. It internally stores the number of milliseconds that have elapsed since January 1, 1970, 00:00:00 GMT (also known as the Unix epoch).
 
 ## Syntax
 
