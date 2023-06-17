@@ -45,3 +45,17 @@ const birdsNotBears = kidsBook.replace(/bear/g, 'bird');
 console.log(birdsNotBears);
 // Output: Brown bird, brown bird, what do you see?
 ```
+## Codebyte Example
+
+The following is runnable, and demonstrates the use of the `.replace()` method:
+
+```codebyte/javascript
+// replacing a single value
+const exampleStr1 = 'The quick brown fox jumps over the lazy dog.';
+console.log(exampleStr.replace('dog', 'goat'));
+
+// replacing multiple value using regex
+const exampleStr2 = 'apples are round, and apples are juicy.';
+const regex = /apples/g
+console.log(exampleStr2.replace(regex, 'oranges'));
+```
