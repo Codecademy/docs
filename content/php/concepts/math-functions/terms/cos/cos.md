@@ -25,7 +25,7 @@ Where `$angle` is the angle in radians.
 
 ## Codebyte Example
 
-Using `cos()` to return the tangent of the angle in radians:
+Using `cos()` to return the cosine of the angle in radians:
 
 ```codebyte/php
 <?php
