@@ -11,7 +11,7 @@ CatalogContent:
   - 'introduction-to-javascript'
 ---
 
-The **`.setTime()`** method returns a number, representing the number of milliseconds between the date object and midnight January 1 1970.
+The **`.setTime()`** method sets date and time by adding or subtracting a specified number of milliseconds to/from midnight January 1, 1970.
 
 ## Syntax
 
@@ -27,7 +27,7 @@ In the example below, the `myDate` variable takes the provided Time and then the
 
 ```js
 const myDate = new Date();
-myDate.setTime(1332403882588);
+myDate.setTime(1623918645000);
 
 console.log(myDate);
 ```
@@ -35,5 +35,5 @@ console.log(myDate);
 This results in the following output:
 
 ```shell
-'Thu Mar 22 2012 13:41:22 GMT+0530 (India Standard Time)'
+Sun Jun 17 2021 12:30:45 GMT+0000 (Coordinated Universal Time)
 ```
