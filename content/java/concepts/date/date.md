@@ -5,7 +5,7 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Classes'
-  - 'Integers'
+  - 'Date'
   - 'Methods'
 CatalogContent:
   - 'learn-java'
