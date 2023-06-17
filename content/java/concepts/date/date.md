@@ -16,7 +16,7 @@ The **`Date`** [class](https://www.codecademy.com/learn/learn-java-classes-and-m
 
 ## Example
 
-```pseudo
+```java
 import java.util.Date;
 
 public class DateExample {
