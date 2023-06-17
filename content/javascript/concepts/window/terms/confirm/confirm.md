@@ -1,6 +1,6 @@
 ---
 Title: 'confirm()'
-Description: 'Instructs the browsers window to show a optional message, the user then must confirm or cancel the message'
+Description: 'Instructs the browser window to show a optional message, the user then must confirm or cancel the message'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -19,7 +19,7 @@ The **`confirm()`** method takes in a message parameter that will be displayed i
 
 The confirm() method has one optional parameter which takes in a [string](https://www.codecademy.com/resources/docs/general/data-types/string) to display a message.
 
-```js
+```pseudo
 window.confirm(message);
 ```
 
