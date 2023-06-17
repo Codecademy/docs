@@ -29,7 +29,7 @@ In the example below, the `myDate` variable takes the provided Time and then the
 const myDate = new Date();
 myDate.setTime(1332403882588);
 
-console.log(myDate.getDate());
+console.log(myDate);
 ```
 
 This results in the following output:
