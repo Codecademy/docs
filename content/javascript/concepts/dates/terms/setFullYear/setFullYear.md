@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.setFullYear()`** method changes the year, month, and/or day of month according to local time. The **`.setFullYear()`** method modifies the date object in place, meaning it updates the year, month, and day values of the provided date object. It also takes into account any overflow or underflow of the values. For example, if you set the month to 15, the year will be incremented accordingly.
+The **`.setFullYear()`** method changes the year, month, and/or day according to local time. The `.setFullYear()` method modifies a `Date` object in place, meaning it updates the year, month, and day values of the provided object. It also takes into account any overflow or underflow of the values. For example, if you set the month to 15, the year will be incremented accordingly.
 
 ## Syntax
 
