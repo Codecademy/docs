@@ -22,7 +22,7 @@ setFullYear(yearValue, monthValue, dateValue)
 
 ```
 
-The return value of `.setFullYear()` is the new timestamp obtained after changing the Date object in place. If a parameter is `NaN` or the date is set to Invalid Date, `NaN` is returned.
+The return value of `.setFullYear()` is the new timestamp obtained after changing the `Date` object in place. The function can be called with one or more parameters. If a parameter is `NaN` or the date is set to Invalid Date, `NaN` is returned.
 
 ## Example
 
