@@ -45,6 +45,7 @@ const birdsNotBears = kidsBook.replace(/bear/g, 'bird');
 console.log(birdsNotBears);
 // Output: Brown bird, brown bird, what do you see?
 ```
+
 ## Codebyte Example
 
 The following is runnable, and demonstrates the use of the `.replace()` method:
