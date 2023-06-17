@@ -32,7 +32,7 @@ public class DateExample {
 }
 ```
 
-The output for the above code will be:
+The output for the above code will resemble the following, with values for the current date:
 
 ```shell
 Current date and time: Wed Jun 16 12:34:56 GMT 2023
