@@ -47,7 +47,7 @@ The example below is runnable, and first, it defines `eventDate` with today's da
 ```codebyte/javascript
 const eventDate = new Date();
 
-event.setFullYear(eventDate.getFullYear()-10);
+eventDate.setFullYear(eventDate.getFullYear()-10);
 
 console.log(eventDate);
 
