@@ -12,7 +12,7 @@ CatalogContent:
   - 'learn-git'
 ---
 
-In Git, the **`revert`** command is used to create a new commit that will undo any changes made to a previous commit. This can be considered as the safe undo command because it keeps previous history. The command is best used when working with others and need to preserve the commit history.
+In Git, the **`revert`** command is used to create a new commit that will undo any changes made to a previous commit. This can be considered as the safe undo command because it keeps previous history. The command is best used when working with others and there's a need to preserve the commit history.
 
 > **Note:** This command can be mistaken for the [`reset`](https://www.codecademy.com/resources/docs/git/reset) command, which is a more dangerous undo command because it alters existing hitory.
 
@@ -22,11 +22,9 @@ In Git, the **`revert`** command is used to create a new commit that will undo a
 git revert <commit-reference>
 ```
 
-### Commit Reference
-
 The `commit-reference` is the unique hash of a commit that is generated after creation. This hash is a long string that is a mix of characters and numbers that is usually represented by a shorter version: `a63b1329066c8ddd95c8d7bb201bacfb8b18e167` -> `a63b132`
 
-`git revert` can be used with the commit hash (as seen below) or with the `HEAD` keyword (as seen with [`reset`](https://www.codecademy.com/resources/docs/git/reset)), which refers to the commit being viewed on the currently checked-out branch.
+`git revert` can be used with the commit hash (as seen below) or with the `HEAD` keyword (as seen below), which refers to the commit being viewed on the currently checked-out branch.
 
 ## Example
 
@@ -47,6 +45,13 @@ The writer for file 2 mentions that file 2 is no longer needed. By looking at th
 ```shell 
 $ git revert f85ef36
 ```
+
+Another option to remove file 2 is with the `HEAD` keyword. Looking at the same log as before, it shows the commit for file 2 is located at `HEAD@{2}`. File 2 can then be removed with the following line.
+
+```shell
+$ git revert HEAD~2
+```
+
 By running the `git revert` command, this will then open a prompt to edit the message before comitting the revert. Once the message has been saved, check the logs to view the status of file 2.
 
 ```shell
@@ -58,7 +63,7 @@ f85ef36 HEAD@{3}: commit: add file 2
 fc3980d HEAD@{4}: commit (initial): add file 1
 ```
 
-The log still shows the original commit of "add file 2", but has moved forward instead and deleted file 2 with the most recent commit. The end result is file 1, file 3, and file 4 are preserved, but file 2 no longer exists. By using `git revert` it creates a new commit to delete the specific commit, but still keeps previous history.
+The log still shows the original commit of "add file 2", but it has moved forward and deleted file 2 with the most recent commit. The end result is file 1, file 3, and file 4 are preserved, while file 2 no longer exists. By using `git revert`, a new commit is created to delete the specific commit while preserving the previous history.
 
 The `revert` command also has options that can be added such as:
 
