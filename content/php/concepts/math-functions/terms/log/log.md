@@ -16,17 +16,19 @@ CatalogContent:
 
 The **`log()`** function returns the natural logarithm of a value.
 
-The value returned by the function is a `float` type.
-
 ## Syntax
 
 ```pseudo
 $result = log(number,base);
 ```
 
-Where `number` is the number whose logarithm is to be calculated and `base` is an optional parameter which signifies the logarithmic base to be used. By default `base` is *e*.
+Where `number` is the number whose logarithm is to be calculated and `base` is an optional parameter which signifies the logarithmic base to be used. By default `base` is _e_.
+
+The value returned by the function is a `float` type.
 
 ## Example
+
+A basic implementation of the `log()` function:
 
 ```php
 <?php
@@ -34,11 +36,15 @@ Where `number` is the number whose logarithm is to be calculated and `base` is a
 ?>
 ```
 
-This will result in the following output: 0
+This will result in the following output:
+
+```shell
+0
+```
 
 ## Codebyte Example
 
-Using `log()` to return the value of 5 base 10: 0.69897000433602
+Using `log()` to return the value of 5 base 10:
 
 ```codebyte/php
 <?php
