@@ -11,11 +11,11 @@ CatalogContent:
   - 'introduction-to-ethical-hacking'
 ---
 
-**Red Team** is a group of people within an organization who try to play the role of cybercriminals and emulate an adversary's attack. A Red Team’s objective is to improve an enterprise's cybersecurity posture by demonstrating the impacts of successful attacks.
+**Red Team** is a group of people within an organization who try to play the role of cybercriminals and emulate an [adversary's attack](https://www.codecademy.com/resources/docs/cybersecurity/cyber-attack). A Red Team’s objective is to improve an enterprise's cybersecurity posture by demonstrating the impacts of successful attacks.
 
 ## Red Team In-Use
 
-A Red Team might seek to carry out a penetration test to model real-world attack techniques and methods. It can usually gain access through the theft of user credentials and [social engineering](https://www.codecademy.com/resources/docs/cybersecurity/social-engineering) techniques. Red teams are usually composed of highly experienced security professionals or [ethical hackers](https://www.codecademy.com/resources/docs/cybersecurity/hacking). Red teams can help organizations identify misconfigurations, strengthen network security, and increase awareness among employees as to the risk of human error which may compromise the organization’s security.
+A Red Team might seek to carry out a [penetration test](https://www.codecademy.com/resources/docs/cybersecurity/penetration-testing) to model real-world attack techniques and methods. It can usually gain access through the theft of user credentials and [social engineering](https://www.codecademy.com/resources/docs/cybersecurity/social-engineering) techniques. Red teams are usually composed of highly experienced security professionals or [ethical hackers](https://www.codecademy.com/resources/docs/cybersecurity/hacking). Red teams can help organizations identify misconfigurations, strengthen network security, and increase awareness among employees as to the risk of human error which may compromise the organization’s security.
 
 ## Some Examples of Red Team
 
