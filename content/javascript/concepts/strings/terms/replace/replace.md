@@ -53,7 +53,7 @@ The following is runnable, and demonstrates the use of the `.replace()` method:
 ```codebyte/javascript
 // replacing a single value
 const exampleStr1 = 'The quick brown fox jumps over the lazy dog.';
-console.log(exampleStr.replace('dog', 'goat'));
+console.log(exampleStr1.replace('dog', 'goat'));
 
 // replacing multiple value using regex
 const exampleStr2 = 'apples are round, and apples are juicy.';
