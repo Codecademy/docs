@@ -34,7 +34,7 @@ func main() {
 ```
 ## Example
 
-Here's an example that demonstrates the usage of the Sin() function:
+The following example demonstrates the usage of the `Sin()` function:
 
 ```go
 package main
