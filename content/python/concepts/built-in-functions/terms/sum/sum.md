@@ -85,9 +85,9 @@ Summing up a list of lists (concatenation):
 ```codebyte/python
 num_lists = [[1, 2, 3], [4, 6, 8]]
 
-message = sum(num_lists, start=[])
+combined_list = sum(num_lists, [])
 
-print(message)
+print(combined_list)
 ```
 
 > **Note:** The `sum()` function works with any iterable object that contains numbers or elements that can be added together.
