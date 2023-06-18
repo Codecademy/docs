@@ -7,15 +7,13 @@ Subjects:
 Tags:
   - 'Arithmetic'
   - 'Functions'
-  - 'Hyperbolic Functions'
   - 'Numbers'
 CatalogContent:
   - 'learn-php'
   - 'paths/computer-science'
 ---
 
-
-The **`sinh()`**function is used to calculate the hyperbolic sine of a given number.
+The **`sinh()`** function is used to calculate the hyperbolic sine of a given number.
 
 ## Syntax
 
@@ -27,12 +25,12 @@ The `sinh()` function takes one parameter, `number`, which can be either an inte
 
 ## Example
 
-Use `sinh()` to calculate the hyperbolic sine of `2.5`:
+The example below illustrates a basic implementation of the function:
 
 ```php
 <?php
 
-  echo sinh(2.5);  // Output: 6.0502033806203
+  echo sinh(2.5);
 
 ?>
 ```
@@ -51,12 +49,9 @@ The codebyte example below demonstrates the usage of the `sinh()` function with 
 ```codebyte/php
 <?php
 
-  echo sinh(-3);  // Output: -10.01787492741
+  echo sinh(-3);
 
-?>
+?
 ```
 
-In this example, the `sinh()` function is called with the number `-3` as the parameter. The output will be `-10.01787492741`, which is the hyperbolic sine of `-3`.
-
-**Note:** The `sinh()` function is the inverse of the `asinh()` function.
-```
+>**Note:** The `sinh()` function is the inverse of the `asinh()` function.
