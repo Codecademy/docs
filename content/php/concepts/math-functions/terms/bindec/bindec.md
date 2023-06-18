@@ -23,7 +23,6 @@ bindec(string $binary_string): int
 ```
 
 - `$binary_string`: The binary string to be converted to decimal.
-
 - Returns an integer representing the decimal value of the binary string.
 
 ## Example 
