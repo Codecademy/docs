@@ -67,7 +67,7 @@ Using the `start` parameter to specify an initial value for the sum:
 ```python
 numbers = [1, 2, 3, 4, 5]
 
-total = sum(numbers, start=10)
+total = sum(numbers, 10)
 
 print(total)
 ```
