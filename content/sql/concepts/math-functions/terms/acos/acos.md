@@ -19,13 +19,13 @@ The SQL function **`ACOS()`** calculates the arccosine of a given value, express
 
 ## Syntax
 
-```sql
-SELECT ACOS(value);
+```pseudo
+ACOS(value);
 ```
 
-`value` is the number, for which the arccosine is calculated. This input value must be between -1 and 1, or the function will return NULL.
+`value` is the number, for which the arccosine is calculated. This input value must be between -1 and 1, or the function will return `NULL`.
 
->**Note:** The output value of the `ACOS()` function uses radians, not degrees. To convert radians to degrees, the radian value can be multiplied by 180/π.
+> **Note:** The output value of the `ACOS()` function uses radians, not degrees. To convert radians to degrees, the radian value can be multiplied by 180/π.
 
 ## Example
 
