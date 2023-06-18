@@ -19,10 +19,11 @@ The **`SIN()`** function in SQL is a mathematical function that returns the sine
 
 ## Syntax
 
-```sql
-SELECT SIN(angle)
-FROM table_name;
+```pseudo
+SIN(angle)
 ```
+
+Where `angle` is the angle in radians.
 
 ## Example
 
