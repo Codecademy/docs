@@ -69,7 +69,8 @@ This produces the following output:
 
 ## Codebyte Example
 
-The following example creates a 2-dimensional array each containing 8 random integers (between 1 and 20). First, it prints the array, then performs four `.amax()` operations with different arguments to return the maximum values.
+The following example creates a 2-dimensional array composed of random integers (between 1 and 20). The code prints the array, and then prints the result of four `.amax()` operations that use different arguments.
+
 
 ```codebyte/python
 import numpy as np
