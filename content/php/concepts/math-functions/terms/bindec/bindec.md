@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `bindec()` function in PHP is used to convert a binary string representation to its decimal equivalent. It takes a binary string as input and returns the corresponding decimal value.
+The **`bindec()`** function in PHP is used to convert a binary string representation to its decimal equivalent. It takes a binary string as input and returns the corresponding decimal value.
 
 ## Syntax
 
