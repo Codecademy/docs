@@ -46,7 +46,8 @@ The maximum element in the array `a`.
 
 ## Example
 
-The following example creates an array and then uses a few `.amin()` operations to return the minimum.
+The following example creates an array and applies several `.amin()` operations, and returns each result to console.
+
 
 ```py
 import numpy as np
