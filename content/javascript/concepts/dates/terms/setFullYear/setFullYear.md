@@ -19,7 +19,6 @@ The **`.setFullYear()`** method changes the year, month, and/or day according to
 ```shell
 // Change year, month and date according to local time
 setFullYear(yearValue, monthValue, dateValue)
-
 ```
 
 The return value of `.setFullYear()` is the new timestamp obtained after changing the `Date` object in place. The function can be called with one or more parameters. If a parameter is `NaN` or the date is set to Invalid Date, `NaN` is returned.
@@ -37,7 +36,7 @@ console.log(exampleDate);
 This example results in the following output:
 
 ```shell
-Sun Aug 14 1887 18:21:27 GMT+0521 (India Standard Time)
+1887-08-18T04:19:26.754Z
 ```
 
 ## Codebyte Example
