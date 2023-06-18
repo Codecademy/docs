@@ -63,7 +63,7 @@ The output for the above code will be:
 
 In this example, the binary string `1100101` is converted to its decimal equivalent, which is `101`.
 
-It's important to note that if the binary string contains characters other than `0` and `1`, or if it's an empty string, the `bindec()` function will return `0`. Additionally, if the binary string is too large to fit into an integer, the function may return an incorrect result due to integer overflow.
+> **Note:** If the binary string contains characters other than `0` and `1`, or if it's an empty string, the `bindec()` function will return `0`. Additionally, if the binary string is too large to fit into an integer (defined by the system, usually 32 or 64 bits) the function may return an incorrect result due to integer overflow.
 
 ## Additional details
 
