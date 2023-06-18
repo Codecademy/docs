@@ -15,7 +15,8 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.amax()`** function returns the maximum value of an array or maximum along an axis. The `.amax()` function is equivalent to the NumPy method `ndarray.max()`.
+The **`.amax()`** function returns the maximum value of a given array or the maximum along an axis. The `.amax()` function is equivalent to the NumPy method `ndarray.max()`.
+
 
 ## Syntax
 
