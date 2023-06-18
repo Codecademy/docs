@@ -18,8 +18,6 @@ The **`bindec()`** function in PHP is used to convert a binary string representa
 
 ## Syntax
 
-Here's an explanation of the `bindec()` function along with syntax:
-
 ```pseudo
 bindec(string $binary_string): int
 ```
