@@ -36,7 +36,6 @@ Parameters of the `.amax()` function:
 - `where`: (Default = <no value>) A boolean array that maps to `a` with identical dimensions and selects which elements to compare for the maximum.
 
 Returns:
-The maximum element in the array `a`.
 - If `axis` is None, the result would be a scalar value.
 
 - If `axis` is an integer, the result would be an array of dimension `a.ndim - 1`.
