@@ -25,7 +25,6 @@ bindec(string $binary_string): int
 ```
 
 - **Parameters**:
-
   - `$binary_string`: The binary string to be converted to decimal.
 
 - **Return Value**:
