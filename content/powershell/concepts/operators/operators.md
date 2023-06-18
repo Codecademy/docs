@@ -42,11 +42,20 @@ PowerShell arithmetic operators are used to calculate numeric values. These incl
 Arithmetic operators are binary operators, which means they act on two operands. Their syntax in PowerShell is `<Operand_1> <Arithmetic Operator> <Operand_2>`.
 
 ```shell
-$x = 5 + 5  # x is now 10
-$x = $x - 8 # x is now 2
-$x = $x * 3 # x is now 6
-$x = $x / 2 # x is now 3
-$x = $x % 2 # x is now 1
+$x = 5 + 5
+# x is now 10
+
+$x = $x - 8
+# x is now 2
+
+$x = $x * 3
+# x is now 6
+
+$x = $x / 2
+# x is now 3
+
+$x = $x % 2
+# x is now 1
 ```
 
 Arithmetic operators, `+` and `*`, also work on strings and arrays.
