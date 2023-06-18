@@ -1,6 +1,7 @@
 ---
 Title: '.amax()'
-Description: 'Returns the maximum of an array or maximum along an axis.'
+Description: 'Returns the maximum of a given array or maximum along an axis.'
+
 Subjects:
   - 'Computer Science'
   - 'Data Science'
