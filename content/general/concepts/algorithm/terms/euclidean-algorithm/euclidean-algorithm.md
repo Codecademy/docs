@@ -1,6 +1,6 @@
 ---
 Title: 'Euclidean algorithm'
-Description: 'The Euclidean algorithm is a simple and efficient method for finding the highest common factor (HCF), also known as the greatest common divisor (GCD), of two numbers.'
+Description: 'A simple and efficient method for finding the highest common factor (HCF), also known as the greatest common divisor (GCD), of two numbers.'
 Subjects:
   - 'Computer Science'
 Tags:
