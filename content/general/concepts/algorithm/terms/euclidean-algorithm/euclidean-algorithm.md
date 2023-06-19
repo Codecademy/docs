@@ -146,4 +146,4 @@ To summarize, the time complexities of the three codes are as follows:
 - Code 2: O(max(a, b))
 - Code 3: **O(log(max(a, b)))**
 
-These time complexities typically represent the worst-case scenarios and assume that the `a` and `b` values are relatively large. In practice, the actual time taken by the algorithms can vary depending on the input values.
+> **Note:** These time complexities typically represent the worst-case scenarios and assume that the `a` and `b` values are relatively large. In practice, the actual time taken by the algorithms can vary depending on the input values.
