@@ -142,7 +142,7 @@ Let's debug the code above step by steps:
 
 To summarize, the time complexities of the three codes are as follows:
 
-- Code 1: O(min(a, b))
+- Code 1: **O(min(a, b))**
 - Code 2: O(max(a, b))
 - Code 3: **O(log(max(a, b)))**
 
