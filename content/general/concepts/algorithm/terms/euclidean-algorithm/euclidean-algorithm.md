@@ -134,7 +134,7 @@ Let's debug the code above step by steps:
 
 - Method 2:
 
-  - The second code also calculates the GCD using an iterative approach known as the Euclidean algorithm. It repeatedly subtracts the smaller number from the larger number until the two numbers become equal (the GCD). The time complexity of this algorithm depends on the number of iterations required to reach the GCD. In the worst case, where one number is a multiple of the other, the time complexity is O(max(a, b)).
+  - The second code also calculates the GCD using an iterative approach known as the Euclidean algorithm. It repeatedly subtracts the smaller number from the larger number until the two numbers become equal (the GCD). The time complexity of this algorithm depends on the number of iterations required to reach the GCD. In the worst case, where one number is a multiple of the other, the time complexity is **O(max(a, b))**.
 
 - Method 3:
 
