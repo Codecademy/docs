@@ -16,7 +16,7 @@ The **`.setFullYear()`** method changes the year, month, and/or day according to
 
 ## Syntax
 
-```shell
+```pseudo
 // Change year, month and date according to local time
 setFullYear(yearValue, monthValue, dateValue)
 ```
@@ -29,7 +29,7 @@ To set the year and month for the date July, 1887 :
 
 ```js
 const exampleDate = new Date();
-exampleDate.setFullYear(1887,7);
+exampleDate.setFullYear(1887, 7);
 console.log(exampleDate);
 ```
 
