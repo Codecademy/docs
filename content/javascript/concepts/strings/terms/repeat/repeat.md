@@ -20,9 +20,9 @@ The `.repeat()` string method repeats a string a specified number of times. Stri
 string.repeat(count);
 ```
 
-`count` is an integer between `0` and `Infinity`, indicating the number of times to repeat a string.
+`count` is an number between `0` and `Infinity`, indicating the number of times to repeat a string. If the number is a decimal value, it is rounded down to the nearest integer.
 
-## Example 1
+## Example
 
 Repeating a string a specified number of times:
 
@@ -31,13 +31,16 @@ console.log('Berlin is my favorite city! '.repeat(2));
 // Output: Berlin is my favorite city! Berlin is my favorite city!
 ```
 
-## Example 2
+## Codebyte Example
 
-Repeating a string a specified number of times using a decimal:
+The following is runnable, and demonstrates the use of the `.repeat()` method:
 
-```js
-console.log('Berlin is my favorite city! '.repeat(3.5));
-// Output: Berlin is my favorite city! Berlin is my favorite city! Berlin is my favorite city!
+```codebyte/javascript
+const myString = 'I love JavaScript! '
+
+// Using integer value
+console.log(myString.repeat(2));
+
+// Using decimal value that gets rounded down from 3.5 to 3
+console.log(myString.repeat(3.5));
 ```
-
-The decimal will be converted to an integer. So in this case, `3.5` becomes `3`.
