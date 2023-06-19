@@ -1,1 +1,1 @@
-content/markdown/concepts/tables/tables.md
+content/general/concepts/cache/cache.md
