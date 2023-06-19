@@ -19,13 +19,13 @@ The **`.getUTCMilliseconds()`** method returns the milliseconds for the provided
 myDate.getUTCMilliseconds()
 ```
 
-The `.getUTCMilliseconds()` method will return an integer between 0 and 999, which represents the milliseconds for the given date, according to universal time.
+The `.getUTCMilliseconds()` method will return an integer between 0 and 999, which represents the milliseconds for the given date, `myDate`, according to universal time.
 
 The method will return `NaN` if the [date](https://www.codecademy.com/resources/docs/javascript/dates) is invalid.
 
 ## Example
 
-In the given example, `.getUTCMilliseconds()` is applied to the constant `now` and logged to the console.
+In the given example, `.getUTCMilliseconds()` is applied to the constant `selectedDate` and logged to the console.
 
 ```js
 const selectedDate = new Date("2020-08-09T01:32:28.412+01:00");
