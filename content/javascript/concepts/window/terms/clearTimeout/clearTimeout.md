@@ -17,11 +17,11 @@ CatalogContent:
 
 ## Syntax
 
-The `clearTimeout()` function receives a timeout ID as its argument, which is returned by the corresponding call of `setTimeout()`, and cancels its execution.
-
 ```pseudo
 clearTimeout(timeoutID);
 ```
+
+The `clearTimeout()` function receives a timeout ID as its argument, which is returned by the corresponding call of `setTimeout()`, and cancels its execution.
 
 ## Example
 
