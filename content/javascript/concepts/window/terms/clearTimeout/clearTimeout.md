@@ -17,7 +17,7 @@ CatalogContent:
 
 ## Syntax
 
-`clearTimeout()` receives a timeout ID as its argument, which is returned by the corresponding call of `setTimeout()`.
+The `clearTimeout()` function receives a timeout ID as its argument, which is returned by the corresponding call of `setTimeout()`, and cancels its execution.
 
 ```pseudo
 clearTimeout(timeoutID);
@@ -36,4 +36,4 @@ const timeoutID = setTimeout(() => {
 clearTimeout(timeoutID);
 ```
 
-In the example above, a `setTimeout()` is invoked allowing to schedule the execution of that function after the 3-second delay (3000ms). However, to cancel that schedule timeout before it runs, the `clearTimeout()`is called, passing the timeout ID.
+In the example above, a `setTimeout()` is invoked allowing to schedule the execution of that function after the 3-second delay (3000ms). However, to cancel that schedule timeout before it runs, the `clearTimeout()` is called, passing the timeout ID.
