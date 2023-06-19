@@ -27,16 +27,10 @@ The **`arrayName`** is the name of the array to shuffle.
 
 ## Example
 
-Consider an array of numbers:
+Consider an array of numbers represented by the variable `numbers` on which The **`.shuffle()`** method can be used to randomly shuffle the elements in the array:
 
 ```swift
 var numbers = [1, 2, 3, 4, 5]
-
-```
-
-The **`.shuffle()`** method can be used to randomly shuffle the elements in the array:
-
-```swift
 numbers.shuffle()
 print(numbers)
 
