@@ -41,7 +41,6 @@ The example will result in the following output:
 6.0502033806203
 ```
 
-
 ## Codebyte Example
 
 The codebyte example below demonstrates the usage of the `sinh()` function with a negative number:
@@ -51,7 +50,7 @@ The codebyte example below demonstrates the usage of the `sinh()` function with 
 
   echo sinh(-3);
 
-?
+?>
 ```
 
->**Note:** The `sinh()` function is the inverse of the `asinh()` function.
+> **Note:** The `sinh()` function is the inverse of the `asinh()` function.
