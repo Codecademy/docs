@@ -28,7 +28,7 @@ The method will return `NaN` if the [date](https://www.codecademy.com/resources/
 In the given example, `.getUTCMilliseconds()` is applied to the constant `selectedDate` and logged to the console.
 
 ```js
-const selectedDate = new Date("2020-08-09T01:32:28.412+01:00");
+const selectedDate = new Date('2020-08-09T01:32:28.412+01:00');
 console.log(selectedDate.getUTCMilliseconds());
 ```
 
