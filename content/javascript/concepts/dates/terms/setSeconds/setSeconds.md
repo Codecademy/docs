@@ -1,6 +1,6 @@
 ---
 Title: '.setSeconds()'
-Description: 'Set the seconds component of a date object to a specified value'
+Description: 'Sets the seconds component of a date object to a specified value.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -11,7 +11,7 @@ CatalogContent:
   - 'introduction-to-javascript'
 ---
 
-The **`.setSeconds()`** method takes an integer value as its parameter, representing the new value for the seconds.
+The **`.setSeconds()`** method sets the seconds component of a date object to a specified value. It takes an integer value as its parameter, representing the new value for the seconds.
 
 ## Syntax
 
@@ -19,15 +19,15 @@ The **`.setSeconds()`** method takes an integer value as its parameter, represen
 myDate.setSeconds(secondsValue)
 ```
 
-The returned value from `.setSeconds()` modifies the original date object by setting the seconds to the specified value.
+The returned value from `.setSeconds()` modifies the original date object, `myDate`, by setting the seconds to `secondsValue`.
 
 ## Example
 
 In the example below, the `myDate` variable takes the provided Time and then the `.setSeconds()` method is applied to return a modified time.
 
 ```js
-const myDate = new Date();
-myDate.setSeconds(30);
+const myDate = new Date(August 29, 2022 23:15:30);
+myDate.setSeconds(42);
 
 console.log(myDate);
 ```
@@ -35,5 +35,5 @@ console.log(myDate);
 This results in the following output:
 
 ```shell
-Thu Jun 17 2023 12:34:30 GMT+0000
+Mon Aug 29 2022 23:15:42 GMT+0000
 ```
