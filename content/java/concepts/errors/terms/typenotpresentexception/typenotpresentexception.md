@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`TypeNotPresentException`** is an exception in Java that occurs when an application tries to access a type using its name as a string, but the type definition cannot be found. Unlike ClassNotFoundException, this exception is unchecked. It can happen when attempting to access undefined type variables or when loading classes, interfaces, or annotation types. This exception is particularly relevant when using reflective annotation reading APIs. Overall, the TypeNotPresentException is thrown when the specified type is not present or cannot be accessed at runtime.
+**`TypeNotPresentException`** is an exception in Java that occurs when an application tries to access a type using its name as a string, but the type definition cannot be found. Unlike the `ClassNotFoundException`, this exception is unchecked at compile-time. It can happen when attempting to access undefined type variables or when loading classes, interfaces, or annotation types. This exception is particularly relevant when using reflective annotation reading APIs. Overall, the `TypeNotPresentException` is thrown when the specified type is not present or cannot be accessed at runtime.
 
 ## Example
 
@@ -23,7 +23,7 @@ In the provided code snippet, there is a generic class called `TypeNotPresentExc
 In this code, T is defined as the type parameter for the `TypeNotPresentExceptionExample` class. It acts as a placeholder for the type that will be specified when creating an instance of the class.
 
 Keep in mind that NonExistentClass should be replaced with an actual class name that does not exist in your codebase to observe the `TypeNotPresentException`.
-Please note that `TypeNotPresentException` is typically encountered in scenarios involving generics and type erasure. It is not directly thrown when a class is missing.:
+Please note that `TypeNotPresentException` is typically encountered in scenarios involving generics and type erasure. It is not directly thrown when a class is missing:
 
 ```java
 import java.lang.reflect.ParameterizedType;
@@ -51,6 +51,11 @@ public class TypeNotPresentExceptionExample<T> {
 The output would look like this:
 
 ```shell
-Type not present: com.example.NonExistentClass
-Cause: null
+TypeNotPresentExceptionExample.java:7: error: cannot find symbol
+            TypeNotPresentExceptionExample<NonExistentClass> example =
+                                           ^
+  symbol:   class NonExistentClass
+  location: class TypeNotPresentExceptionExample<T>
+  where T is a type-variable:
+    T extends Object declared in class TypeNotPresentExceptionExample
 ```
