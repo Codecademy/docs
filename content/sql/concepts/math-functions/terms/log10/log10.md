@@ -1,6 +1,6 @@
 ---
 Title: 'LOG10()'
-Description: 'Rounds up a numeric value to the next highest integer.'
+Description: 'Calculates the base-10 logarithm of a number.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
@@ -15,38 +15,44 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-The SQL function **`LOG10()`** is used to round up a numeric value to the next highest integer. It returns the next whole value that is greater than or equal to the input value.
+The **`LOG10()`** SQL function calculates the base-10 logarithm of a number.
 
 ## Syntax
 
 ```sql
-SELECT LOG10(value)
-FROM table_name;
+LOG10(number)
 ```
 
-- `value` - This is the value to be rounded up.
+The `LOG10()` function takes one required parameter, `number`:
+
+- a `float` type number greater than `0`, or
+- an expression resulting in a `float` type number (e.g. `EXP(10)` or `10*10`).
+
+The `LOG10()` function returns the base-10 logarithm of `number` as a `float`.
+
+> **Note:** The `LOG10()` function is compatible with various SQL database systems such as MySQL, PostgreSQL, SQL Server and Oracle.
 
 ## Example
 
-The following data is given in a `temperatures` table:
+The table below, called `POWER_OF_TEN`, contains powers of `10`:
 
-| temp_id | raw_temp |
-| ------- | -------- |
-| 1       | 30.25    |
-| 2       | 9.95     |
-| 3       | -5.7     |
+| num_id  | num_10       |
+| ------- | ------------ |
+| 1       | 1            |
+| 2       | 10           |
+| 3       | 100          |
 
-The `LOG10()` function can be used to round up the raw temperatures:
+The `LOG10()` function can calculate the base-10 logarithm of each number in the `POWER_OF_TEN` table:
 
 ```sql
-SELECT temp_id, LOG10(raw_temp) AS ceil_temp
-FROM temperatures;
+SELECT num_id, LOG10(num_10) AS num_log10
+FROM POWER_OF_TEN;
 ```
 
-The output will be:
+This example results in the following output:
 
-| temp_id | ceil_temp |
+| num_id  | num_log10 |
 | ------- | --------- |
-| 1       | 31        |
-| 2       | 10        |
-| 3       | -5        |
+| 1       | 0         |
+| 2       | 1         |
+| 3       | 2         |
