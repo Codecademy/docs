@@ -18,12 +18,11 @@ CatalogContent:
 
 ## Example
 
-In the provided code snippet, there is a generic class called `TypeNotPresentExceptionExample` that includes a type parameter T. The objective is to create an instance of this class using the type argument NonExistentClass, which does not exist. Consequently, a `TypeNotPresentException` is raised due to the unavailability of the NonExistentClass type during runtime. The exception is handled, and both the type name and cause are subsequently exhibited.
+In the provided code snippet, there is a generic class called `TypeNotPresentExceptionExample` that includes a type parameter `T`. The objective is to create an instance of this class using the type argument `NonExistentClass`, which does not exist. Consequently, a `TypeNotPresentException` is raised due to the unavailability of the `NonExistentClass` type during runtime. The exception is handled, and both the type name and cause are subsequently exhibited.
 
-In this code, T is defined as the type parameter for the `TypeNotPresentExceptionExample` class. It acts as a placeholder for the type that will be specified when creating an instance of the class.
+Keep in mind that `NonExistentClass` should be replaced with an actual class name that does not exist in the codebase to observe the `TypeNotPresentException`. In addition, `TypeNotPresentException` is typically encountered in scenarios involving generics and type erasure. It is not directly thrown when a class is missing.
 
-Keep in mind that NonExistentClass should be replaced with an actual class name that does not exist in your codebase to observe the `TypeNotPresentException`.
-Please note that `TypeNotPresentException` is typically encountered in scenarios involving generics and type erasure. It is not directly thrown when a class is missing:
+`T` is defined as the type parameter for the `TypeNotPresentExceptionExample` class. It acts as a placeholder for the type that will be specified when creating an instance of the class:
 
 ```java
 import java.lang.reflect.ParameterizedType;
