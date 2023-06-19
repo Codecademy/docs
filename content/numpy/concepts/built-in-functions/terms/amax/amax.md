@@ -17,7 +17,6 @@ CatalogContent:
 
 The **`.amax()`** function returns the maximum value of a given array or the maximum along an axis. The `.amax()` function is equivalent to the NumPy method `ndarray.max()`.
 
-
 ## Syntax
 
 ```pseudo
@@ -36,17 +35,14 @@ Parameters of the `.amax()` function:
 - `where`: (Default = <no value>) A boolean array that maps to `a` with identical dimensions and selects which elements to compare for the maximum.
 
 Returns:
+
 - If `axis` is None, the result would be a scalar value.
-
 - If `axis` is an integer, the result would be an array of dimension `a.ndim - 1`.
-
 - If `axis` is a tuple, the result would be an array of dimension `a.ndim - len(axis)`.
-
 
 ## Example
 
 The following example creates an array and applies several `.amin()` operations, and returns each result to console.
-
 
 ```py
 import numpy as np
@@ -69,7 +65,6 @@ This produces the following output:
 ## Codebyte Example
 
 The following example creates a 2-dimensional array composed of random integers (between 1 and 20). The code prints the array, and then prints the result of four `.amax()` operations that use different arguments.
-
 
 ```codebyte/python
 import numpy as np
