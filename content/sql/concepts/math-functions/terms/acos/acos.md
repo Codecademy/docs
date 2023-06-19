@@ -52,4 +52,4 @@ The output will be:
 | 2   | 1           | 0            |
 | 3   | -0.5        | 2.0943951    |
 
-> **Note:** For the use of this method with SQL databases like MySQL, SQLite, PostgreSQL, or SQL Server, refer to their respective documentation for more details on the `COS()` function implementation and compatibility.
+> **Note:** For the use of this method with SQL databases like MySQL, SQLite, PostgreSQL, or SQL Server, refer to their respective documentation for more details on the `ACOS()` function implementation and compatibility.
