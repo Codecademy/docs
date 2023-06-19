@@ -43,8 +43,14 @@ var herbGarden = ["Dill", "Lavender", "Parsley", "Rosemary", "Sage", "Thyme"]
 // Set the element at position 0 to "Mint", replacing "Dill".
 herbGarden[0] = "Mint"
 
-// Get the element at position 0, this will print "Mint".
+// Print the element at position 0
 print(herbGarden[0])
+```
+
+This example will output the following:
+
+```shell
+Mint
 ```
 
 This next example shows how to set a new value in a dictionary and print it:
@@ -56,10 +62,16 @@ var gardenInfo = ["name": "Happy Herb Garden", "type": "Herb", "length": "1m"]
 // Set the element with the key "length" to "2m", replacing "1m".
 gardenInfo["length"] = "2m"
 
-// Get the element with the key "length", this will print "2m".
+// Print the element with the key "length".
 print(gardenInfo["length"]!)
+```
 
-// Note: The "!" forces the optional String? value to unwrap
+> **Note:** The "!" forces the optional String? value to unwrap
+
+This example will output the following:
+
+```shell
+2m
 ```
 
 ## Creating Subscripts
@@ -109,11 +121,14 @@ struct FlowerGarden {
 
 let sakura = FlowerGarden(flower: "🌸")
 print(sakura[5])
-// Prints "🌸🌸🌸🌸🌸"
 
 let sunflower = FlowerGarden(flower: "🌻")
 print(sunflower[3])
-// Prints "🌻🌻🌻"
 ```
 
-Two instances of `FlowerGarden` are declared and then subscript notation is used to access them and print out the specified number of flowers.
+Two instances of `FlowerGarden` are declared and then subscript notation is used to access them and print out the specified number of flowers, resulting in this output:
+
+```shell
+🌸🌸🌸🌸🌸
+🌻🌻🌻
+```
