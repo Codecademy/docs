@@ -5,7 +5,7 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Algorithms'
-  - 'Hcf'
+  - 'Arithmetic'
 CatalogContent:
   - 'paths/computer-science'
 ---
