@@ -186,6 +186,7 @@ Loops
 Map
 Machine Learning
 Margin
+Math
 MATLAB
 Matplotlib
 Matrices
