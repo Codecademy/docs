@@ -78,7 +78,8 @@ Elements with `display: inline;` are rendered as inline elements. They don't cre
 
 ### 3. Display: inline-block
 
-  Elements with display: inline-block; are rendered as inline-level block elements. They behave like inline elements but allow you to set width, height, padding, and margins.
+Elements with `display: inline-block;` are rendered as inline-level block elements. They behave like inline elements but allow you to set width, height, padding, and margins.
+
 ```css
 .inline-block-element {
   display: inline-block;
