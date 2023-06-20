@@ -139,7 +139,7 @@ Elements with `display: grid;` create a grid container that enables you to defin
 
 
 
-## Overriding display values:
+## Overriding display values
 
 CSS specificity allows you to override default display values of elements. Here's an example of overriding display:
 
