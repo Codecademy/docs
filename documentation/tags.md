@@ -189,6 +189,7 @@ Margin
 Math
 MATLAB
 Matplotlib
+Matrices
 Media Queries
 Memory
 Metadata
