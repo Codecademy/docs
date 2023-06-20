@@ -170,7 +170,8 @@ The display property can be combined with media queries to create responsive des
 
 ```
 
-## display: grid and display: flex comparison:
+## `display: grid` and `display: flex` Comparison
+
 CSS Grid and Flexbox are powerful layout tools. Here's an example comparing the two:
 
 ```css
