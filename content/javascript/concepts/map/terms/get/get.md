@@ -40,7 +40,7 @@ console.log(fruits.get('Bananas')); // Output: undefined
 ## Codebyte Example
 
 The code below uses a new `Map` that contains purchase orders.
-Throughout this example:
+In this example:
 
 - Samantha will `get` the next purchase order that she needs to fill from the map using the [`.get()` method](https://www.codecademy.com/resources/docs/javascript/map/get).
 - Once the purchase order has been worked, Samantha will remove it from the map using the [`.delete()` method](https://www.codecademy.com/resources/docs/javascript/map/delete).
