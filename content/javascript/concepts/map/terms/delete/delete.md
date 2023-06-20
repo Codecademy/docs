@@ -40,7 +40,7 @@ The first `.delete()` statement returns `true` because `fruits` contain an entry
 
 ## Codebyte Example
 
-In the example below, we declare a new inventory `Map` of consumable construction supplies linking them to their current quantities on hand. Throughout this example:
+In the code below, a new inventory `Map` of consumable construction supplies catalogs the current quantities on hand. In this example:
 
 - Bob will log that he used a roll of tape by updating its value using the [`.set()` method](https://www.codecademy.com/resources/docs/javascript/map/set).
 - Bob noticed he used the last roll so he will remove it from the map using the [`.delete()` method](https://www.codecademy.com/resources/docs/javascript/map/delete). He feels confident it worked correctly due to `true` being displayed in the console output.
