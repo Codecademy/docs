@@ -1,6 +1,6 @@
 ---
 Title: '.setTime()'
-Description: 'Sets date and time by adding or subtracting a specified number of milliseconds to/from midnight January 1, 1970.'
+Description: 'Sets the date and time by adding or subtracting a specified number of milliseconds to/from midnight January 1, 1970.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -11,7 +11,7 @@ CatalogContent:
   - 'introduction-to-javascript'
 ---
 
-The **`.setTime()`** method sets date and time by adding or subtracting a specified number of milliseconds to/from midnight January 1, 1970.
+The **`.setTime()`** method sets the date and time by adding or subtracting a specified number of milliseconds to/from midnight January 1, 1970.
 
 ## Syntax
 
@@ -23,13 +23,13 @@ The returned value from `.setTime()` is a value representing the number of milli
 
 ## Example
 
-In the example below, the `myDate` variable takes the provided Time and then the `.setTime()` method is applied to return a modified time.
+In the example below, the `myDate` is declared and then the `.setTime()` method is applied to return a modified time.
 
 ```js
 const myDate = new Date();
 myDate.setTime(1623918645000);
 
-console.log(myDate);
+console.log(myDate.toString());
 ```
 
 This results in the following output:
