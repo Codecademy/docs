@@ -106,7 +106,7 @@ If a default value is not specified for a field, when initializing it, it will b
 
 ## Initializing Structs
 
-There are two ways to initialize a struct in Go. With the `var` keyword or a literal value.
+There are two ways to initialize a struct in Go: the `var` keyword or a literal value.
 
 ### Using the `var` Keyword
 
@@ -142,11 +142,11 @@ func main() {
 }
 ```
 
-This way of initializing is handy to initialize the struct with all the field values at once.
+This way of initialization is handy to set all the field values at once.
 
 ## Adding a Method
 
-Methods are added outside the struct. For that, a receiver function is needed which will have a reference to the struct, to allow it to operate on the structs' data. The receiver, the struct itself, is a parameter that provides access to its own fields.
+Methods are added outside the struct. For instance, a receiver function is needed which will have a reference to the struct, to allow it to operate on the structs' data. The receiver, the struct itself, is a parameter that provides access to its own fields.
 
 In the codebyte example below, the function `Drive()` takes the `Car` struct as the receiver, in the `main` function the method is invoked using dot notation printing to the console `I am driving my car.`
 
