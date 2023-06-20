@@ -29,9 +29,7 @@ The example below illustrates a basic implementation of the function:
 
 ```php
 <?php
-
   echo sinh(2.5);
-
 ?>
 ```
 
@@ -47,9 +45,7 @@ The codebyte example below demonstrates the usage of the `sinh()` function with 
 
 ```codebyte/php
 <?php
-
   echo sinh(-3);
-
 ?>
 ```
 
