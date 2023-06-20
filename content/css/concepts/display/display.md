@@ -85,6 +85,7 @@ Elements with `display: inline-block;` are rendered as inline-level block elemen
   display: inline-block;
 }
 ```
+
 ### 4. Display: none
 
  Elements with display: none; are not rendered and are completely hidden from the page. They don't take up any space in the document flow.
