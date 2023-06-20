@@ -22,8 +22,6 @@ The **`dir()`** function returns the list of valid attributes of the passed obje
 dir(object)
 ```
 
-## Parameters
-
 - `object` : An empty/filled tuple, list, set, dictionary or any user-defined object.
 
 ## Example
