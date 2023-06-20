@@ -68,7 +68,8 @@ Elements with `display: block;` are rendered as block-level elements. They creat
 
 ### 2. Display: inline
 
-Elements with display: inline; are rendered as inline elements. They don't create line breaks and occupy only the necessary width and height based on their content.
+Elements with `display: inline;` are rendered as inline elements. They don't create line breaks and occupy only the necessary width and height based on their content.
+
 ```css
 .inline-element {
   display: inline;
