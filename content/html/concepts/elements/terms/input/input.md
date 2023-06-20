@@ -56,7 +56,7 @@ The following examples uses a `<form>` element that features `<input>` elements 
       <input type="email" id="email"/>
 
       <!-- This input hides the typed password with ****s -->
-      <label for="pass">Password</label>
+      <label for="password">Password</label>
       <input type="password" id="password" name="password"/>
 
       <!-- This input provides a checkbox -->
