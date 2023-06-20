@@ -18,7 +18,6 @@ CatalogContent:
 
 `TypeNotPresentException` is typically encountered in scenarios involving generics and type erasure. It is not directly thrown when a class is missing.
 
-
 ## Example
 
 Below, `T` is defined as the type parameter for the `TypeNotPresentExceptionExample` class. It acts as a placeholder for the type that will be specified when creating an instance of the class:
