@@ -44,7 +44,7 @@ In the code below, a new inventory `Map` of consumable construction supplies cat
 
 - Bob will log that he used a roll of tape by updating its value using the [`.set()` method](https://www.codecademy.com/resources/docs/javascript/map/set).
 - Bob noticed he used the last roll so he will remove it from the map using the `.delete()` method. He feels confident it worked correctly due to `true` being displayed in the console output.
-- Manny notices that there are no Tape Rolls left, but he doesn't know Bob already called the [`.delete()` method](https://www.codecademy.com/resources/docs/javascript/map/delete). He attemps to delete it and notices the console outputs `false`.
+- Manny notices that there are no Tape Rolls left, but he doesn't know Bob already called the `.delete()` method. He attemps to delete it and notices the console outputs `false`.
 
 ```codebyte/js
 const inventory = new Map([
