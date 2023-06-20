@@ -64,6 +64,6 @@ console.log(inventory.delete('Tape Roll'));
 console.log('Updated inventory map size: ', inventory.size);
 
 console.log('Deleting tape again from the map...');
-console.log(inventory.delete('Tape Roll')); // Output: false
+console.log(inventory.delete('Tape Roll'));
 console.log('Updated inventory map size: ', inventory.size);
 ```
