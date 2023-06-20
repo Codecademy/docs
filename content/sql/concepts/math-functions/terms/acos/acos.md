@@ -1,18 +1,18 @@
 ---
 Title: 'ACOS()'
-Descriptiom: 'Returns the arccosine of a given angle.'
+Description: 'Returns the arccosine of a given angle.'
 Subjects:
-    - 'Data Science'
-    - 'Computer Science'
+  - 'Data Science'
+  - 'Computer Science'
 Tags:
-    - 'SQL'
-    - 'MySQL'
-    - 'PostgreSQL'
-    - 'SQLite'
-    - 'Functions'
+  - 'SQL'
+  - 'MySQL'
+  - 'PostgreSQL'
+  - 'SQLite'
+  - 'Functions'
 CatalogContent:
-    - 'learn-sql'
-    - 'paths/analyze-data-with-sql'
+  - 'learn-sql'
+  - 'paths/analyze-data-with-sql'
 ---
 
 The SQL function **`ACOS()`** calculates the arccosine of a given value, expressed in radians.
@@ -29,7 +29,7 @@ ACOS(value);
 
 ## Example
 
-In the following example this data is given in the table `values`:
+The following example uses the data given in the table `values`:
 
 | id  | input_value |
 | --- | ----------- |
