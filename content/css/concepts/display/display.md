@@ -53,6 +53,7 @@ The following values can be appplied to the `display` property:
 - `inherit`
 
 ## Differences between display values
+
 The display property in CSS allows you to control how elements are rendered on a webpage. Here are the commonly used display values and their descriptions:
 
 ### 1. Display: block
