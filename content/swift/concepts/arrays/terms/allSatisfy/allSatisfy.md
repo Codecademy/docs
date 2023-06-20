@@ -12,7 +12,8 @@ CatalogContent:
   - 'learn-Swift'
   - 'paths/build-ios-apps-with-swiftui'
 ---
-** .allSatisfy() ** is a Swift method that checks if all the elements in an array satisfies a given condition. 
+
+**`.allSatisfy()`** is a Swift method that checks if all the elements in an array satisfies a given condition. 
 
 ## Syntax
 ```pseudo
