@@ -17,10 +17,6 @@ The CSS `display` property is a fundamental attribute that controls how an HTML 
 
 Understanding the different values of the `display` property is crucial for building well-structured and responsive web layouts. By choosing the appropriate value, you can control the flow of elements, create grids, and adjust the visibility of specific elements.
 
-
-
-
-
 ## Syntax
 
 ```css
@@ -117,28 +113,6 @@ Elements with `display: grid;` create a grid container that enables you to defin
 }
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Overriding display values
 
 CSS specificity allows you to override default display values of elements. Here's an example of overriding display:
@@ -153,7 +127,6 @@ CSS specificity allows you to override default display values of elements. Here'
 .container .element {
   display: block;
 }
-
 ```
 
 ## Responsive design considerations
@@ -172,30 +145,56 @@ The display property can be combined with media queries to create responsive des
     display: block; /* Display element on larger screens */
   }
 }
-
-
 ```
 
 ## `display: grid` and `display: flex` Comparison
 
-CSS Grid and Flexbox are powerful layout tools. Here's an example comparing the two:
+CSS Grid and Flexbox are powerful layout tools. The choice between display: flex and display: grid depends on the layout requirements and the desired design approach. 
+Flexbox is particularly useful for creating responsive and flexible layouts, especially when dealing with content in a linear fashion, such as navigation menus, image galleries, or vertically aligned elements. 
+CSS Grid is well-suited for creating advanced and flexible layouts, such as magazine-style designs, multi-column layouts, or designs that require explicit control over the placement of elements in a grid-like structure. Here is an example illustrating the difference between the two:
 
 ```css
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 10px;
-}
-
-.flex-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-
+      .flex-container {
+        display: flex;
+        justify-content: space-around;
+      }
+      .flex-item {
+        background-color: cyan;
+        padding: 20px;
+        margin: 2px;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-gap: 10px;
+      }
+      .grid-item {
+        background-color: orange;
+        padding: 20px;
+      }
+      .item-1 {
+        grid-column: 1 / span 2;
+        grid-row: 1;
+      }
+      .item-2 {
+        grid-column: 3;
+        grid-row: 1 / span 2;
+      }
+      .item-3 {
+        grid-column: 1;
+        grid-row: 2 / span 2;
+      }
+      .item-4 {
+        grid-column: 2 / span 2;
+        grid-row: 3;
+      }
+      .item-6 {
+        grid-column: 1 / span 3;
+      }
 ```
 
-
+![Display Flex Versus Display Grid Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-display-flex-versus-grid.png)
 
 ## Example 1
 
@@ -213,5 +212,3 @@ Setting a `div` element to behave like a flex box.
   display: flex;
 }
 ```
-
-
