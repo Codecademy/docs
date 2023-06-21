@@ -11,7 +11,7 @@ CatalogContent:
   - 'introduction-to-javascript'
 ---
 
-The **`.setSeconds()`** method sets the seconds component of a date object to a specified value. It takes an integer value as its parameter, representing the new value for the seconds.
+The **`.setSeconds()`** method sets the seconds component of a `Date` object to a specified value. It takes an integer value as its parameter, representing the new value for the seconds.
 
 ## Syntax
 
