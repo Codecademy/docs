@@ -18,7 +18,7 @@ There can be multiple methods to solve and find the highest common factor (HCF) 
 
 In the basic approach, the purpose is to find the GCD. To do this, find the minimum value between the two given numbers. Then, divide it by both numbers. If the number does not divide both numbers evenly, decrease it by `1` and continue dividing. Lastly, repeat this process until the minimum value can divide both numbers evenly. At this point, the minimum value is the HCF (highest common factor).
 
-```pseudo
+```java
 public static void main(String[] args) {
         System.out.println(gcd(10,15));
     }
@@ -49,7 +49,7 @@ Here two methods are shown using Euclidean algorithm to find the HCF of two numb
 
 In this method, the aim is to compare both 'a' and 'b'. Whichever number is greater,  the smaller number is subtracted from the larger number. It also updates the value of the larger number accordingly. If 'a' is greater than 'b', replace 'a' with 'a - b', and if 'b' is greater than 'a', replace 'b' with 'b - a'. Repeat this step until 'a' becomes equal to 'b'. Once 'a' and 'b' are equal, return 'a' as the answer. At this point, the value of 'a' (which is equal to 'b') represents the highest common factor (HCF) of the original values of 'a' and 'b'.
 
-```pseudo
+```java
 class Euclidean1 {
 static int gcd(int a, int b) {
 
@@ -96,7 +96,7 @@ In this method, a recursive approach is used to implement the Euclidean algorith
 
 For more information on recursion, refer to this [resource](https://www.codecademy.com/learn/java-algorithms/modules/recursion-apcs/cheatsheet).
 
-```pseudo
+```java
 public class Euclidean2 {
 public static void main(String[] args) {
     System.out.println(EuclideanOptimized(150, 500));
