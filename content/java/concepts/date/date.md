@@ -1,6 +1,6 @@
 ---
 Title: 'Date'
-Description: 'The Date class in the java.util package is used to represent dates and times in Java'
+Description: 'The Date class in the java.util package is used to represent dates and times in Java.'
 Subjects:
   - 'Computer Science'
 Tags:
