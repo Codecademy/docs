@@ -40,4 +40,4 @@ It provides a way to map pieces of data to each other, and allows for quick acce
 
 `🍿` is used to list key value pairs, where each key is separated from its value with a `➡️`. This will create an instance of `🍯`, which is stored into dictionary.
 
-`🍯` is implemented as a hash table and is O(1) on average and O(n) in worst case.
+`🍯` is implemented as a hash table and is **O(1)** on average and **O(n)** in worst case.
