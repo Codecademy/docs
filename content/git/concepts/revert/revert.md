@@ -38,18 +38,18 @@ f85ef36 HEAD@{2}: commit: add file 2
 fc3980d HEAD@{3}: commit (initial): add file 1
 ```
 
-The above shows that each commit has a new file added. File 1 is the first commit and file 4 is the most recent commit. 
+The above shows that each commit has a new file added. File 1 is the first commit and file 4 is the most recent commit.
 
 The writer for file 2 mentions that file 2 is no longer needed. To remove the file, while preserving all the other commits, the `revert` command is used with the hash for the commit in which file 2 was added:
 
-```shell 
-$ git revert f85ef36
+```shell
+git revert f85ef36
 ```
 
 Another option to remove file 2 is with the `HEAD` keyword. Looking at the same log as before, it shows the commit for file 2 is located at `HEAD@{2}`. File 2 can then be removed with the following line:
 
 ```shell
-$ git revert HEAD~2
+git revert HEAD~2
 ```
 
 By running the `git revert` command, this will then open a prompt to edit the message before committing the revert. Once the message has been saved, check the logs to view the status of file 2:
