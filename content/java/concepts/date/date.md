@@ -55,6 +55,6 @@ Here are some important aspects and methods of the `Date` class:
   - `.toString()`: Returns a string representation. The default format is not very readable or localized.
   - `SimpleDateFormat` class (from java.text package): Allows formatting and parsing of dates using patterns.
 - Comparing dates:
-  - `.before(Date when)`: Checks if the Date object is before the specified date.
+  - `.before(Date when)`: Checks if the given date is before the time specified.
   - `.after(Date when)`: Checks if the Date object is after the specified date.
   - `.compareTo(Date anotherDate)`: Compares the Date object with another Date object.
