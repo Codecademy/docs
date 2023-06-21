@@ -56,5 +56,5 @@ Here are some important aspects and methods of the `Date` class:
   - `SimpleDateFormat` class (from java.text package): Allows formatting and parsing of dates using patterns.
 - Comparing dates:
   - `.before(Date when)`: Checks if the given date is before the time specified.
-  - `.after(Date when)`: Checks if the Date object is after the specified date.
+  - `.after(Date when)`: Checks if the given date is after the time specified.
   - `.compareTo(Date anotherDate)`: Compares the Date object with another Date object.
