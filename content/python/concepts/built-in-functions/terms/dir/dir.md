@@ -11,7 +11,6 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/data-science'
 ---
 
 The **`dir()`** function returns the list of valid attributes of the passed object.
