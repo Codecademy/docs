@@ -39,7 +39,7 @@ Current date and time: Wed Jun 16 12:34:56 GMT 2023
 Milliseconds since Unix epoch: 1678450496000
 ```
 
-In the above code, the `Date` class is imported from the `java.util` package. Inside the main method, a `Date` object named `currentDate` is created using the default constructor. This represents the current date and time. The number of milliseconds since the Unix epoch can be accessed using the `getTime()` method of the `Date` class. In the example, the value is assigned to the variable `currentTimeMillis`. Finally, the current date and time are displayed by printing the `currentDate` object using `System.out.println()`, and the number of milliseconds since the Unix epoch is also printed.
+In the above code, the `Date` class is imported from the `java.util` package. Inside the main method, `currentDate` is assigned the current date and time. Next `.getTime()` method is used to return the number of milliseconds since the epoch. Finally, both values are logged to the console.
 
 ## Methods
 
