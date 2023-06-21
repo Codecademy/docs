@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `str_repeat()` function returns a `string` that repeats a substring a specified number of times.
+The **`str_repeat()`** function returns a `string` that repeats a substring a specified number of times.
 
 ## Syntax
 

@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `ltrim()` function accepts a `string` as its parameter, removes whitespace from the left side of that `string`, and then returns it.
+The **`ltrim()`** function accepts a `string` as its parameter, removes whitespace from the left side of that `string`, and then returns it.
 
 Optionally, `ltrim()` can accept a second parameter containing specific characters to remove from the left side of the target `string`.
 
@@ -29,14 +29,14 @@ The `$characters` parameter is an optional `string` that specifies characters to
 
 ## Example
 
-The following example uses the `ltrim()` function, first without and then with a second parameter. In the first case, without the second parameter, the `ltrim()` function removes the whitespace from the left side of `"   Peanut Butter"`. In the second case, the `ltrim()` function has `"Apricot"` as a second parameter, which will remove the specified characters from `"Apricot Jelly"`. Finally, the `echo` command prints the concatenated `strings` to the console:
+The following example uses the `ltrim()` function, first without and then with a second parameter. In the first case, without the second parameter, the `ltrim()` function removes the whitespace from the left side of `" Peanut Butter"`. In the second case, the `ltrim()` function has `"Apricot"` as a second parameter, which will remove the specified characters from `"Apricot Jelly"`. Finally, the `echo` command prints the concatenated `strings` to the console:
 
 ```php
 <?php
   $str1 = "   Peanut Butter";
   $str2 = "Apricot Jelly";
   echo ltrim($str1) . " and" . ltrim($str2, "Apricot");
-?> 
+?>
 ```
 
 The example will result in the following output:
