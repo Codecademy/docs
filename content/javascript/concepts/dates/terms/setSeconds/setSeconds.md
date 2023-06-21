@@ -19,7 +19,7 @@ The **`.setSeconds()`** method sets the seconds component of a `Date` object to 
 myDate.setSeconds(secondsValue)
 ```
 
-The returned value from `.setSeconds()` modifies the original date object, `myDate`, by setting the seconds to `secondsValue`.
+The returned value from `.setSeconds()` modifies the original `Date` object, `myDate`, by setting the seconds to `secondsValue`.
 
 ## Example
 
