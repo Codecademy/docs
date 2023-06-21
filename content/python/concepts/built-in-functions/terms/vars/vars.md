@@ -1,13 +1,13 @@
 ---
 Title: 'vars()'
 Description: 'Returns the __dict__ attribute of an object.'
-Subjects: 
+Subjects:
   - 'Computer Science'
-Tags: 
+Tags:
   - 'Functions'
   - 'Attributes'
   - 'Objects'
-CatalogContent: 
+CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
@@ -28,9 +28,9 @@ The following example uses `vars()` to return the `__dict__` attributes of the o
 
 ```codebyte/python
 class Person:
-	name = "John"
-	age = 36
-	country = "norway"
+  name = "John"
+  age = 36
+  country = "Norway"
 
 x = vars(Person)
 print(x)
