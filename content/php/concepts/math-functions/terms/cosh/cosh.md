@@ -22,7 +22,7 @@ The **`cosh()`** function in PHP returns the hyperbolic cosine of a number. It c
 $result = cosh(number);
 ```
 
-`number` - represents the input value for which the hyperbolic cosine will be returned.
+`number`: Represents the input value for which the hyperbolic cosine will be returned.
 
 ## Example
 
