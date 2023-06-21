@@ -46,7 +46,7 @@ In the above code, the `Date` class is imported from the `java.util` package. In
 Here are some important aspects and methods of the `Date` class:
 
 - Creating a `Date` object:
-  - `Date()`: Creates a Date object representing the current date and time.
+  - `Date()`: Creates an object representing the current date and time.
   - `Date(long millis)`: Creates a `Date` object with the specified number of milliseconds since January 1, 1970, 00:00:00 GMT (the Unix epoch).
 - Getting and setting date components:
   - `.getTime()`: Returns the number of milliseconds since the Unix epoch.
