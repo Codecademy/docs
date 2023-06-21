@@ -57,4 +57,4 @@ Here are some important aspects and methods of the `Date` class:
 - Comparing dates:
   - `.before(Date when)`: Checks if the given date is before the time specified.
   - `.after(Date when)`: Checks if the given date is after the time specified.
-  - `.compareTo(Date anotherDate)`: Compares the Date object with another Date object.
+  - `.compareTo(Date anotherDate)`: Returns a value based on the relative order of two dates.
