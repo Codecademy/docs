@@ -1,6 +1,6 @@
 ---
 Title: 'General'
-Description: 'The General section is home to all programming and computer-related concepts that are language-agnostic and do not belong in one of the broader topic areas.'
+Description: 'The General section is home to all programming and computer-related concepts that are language-agnostic and do not belong in one of the focused topic areas.'
 CatalogContent:
   - 'learn-html'
   - 'paths/code-foundations'
