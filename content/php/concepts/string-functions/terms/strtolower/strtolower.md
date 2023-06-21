@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`strtolower()`** method in PHP converts a string to lowercase. It takes a string as input and returns a new string with all the characters converted to lowercase.
+The **`strtolower()`** function in PHP converts a string to lowercase. It takes a string as input and returns a new string with all the characters converted to lowercase.
 
 ## Syntax
 
