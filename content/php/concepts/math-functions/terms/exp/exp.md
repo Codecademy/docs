@@ -18,9 +18,7 @@ The **`exp()`** function Returns _e_ raised to the power of x.
 ## Syntax
 
 ```pseudo
-
 exp($x)
-
 ```
 
 - `$x`: specifies the exponent that _e_ will be raised to.
