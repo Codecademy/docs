@@ -22,7 +22,7 @@ The **`tanh()`** function in PHP is a mathematical function that returns the hyp
 $result = tanh($number);
 ```
 
-`$number` - the input value for which the hyperbolic tangent will be returned.
+`$number`: The input value for which the hyperbolic tangent will be returned.
 
 ## Example
 
