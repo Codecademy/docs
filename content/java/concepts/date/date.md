@@ -52,7 +52,7 @@ Here are some important aspects and methods of the `Date` class:
   - `.getTime()`: Returns the number of milliseconds since the Unix epoch.
   - `.setTime(long time)`: Sets the time using the specified number of milliseconds.
 - Formatting and parsing dates:
-  - `.toString()`: Returns a string representation of the Date object. The default format is not very readable or localized.
+  - `.toString()`: Returns a string representation. The default format is not very readable or localized.
   - `SimpleDateFormat` class (from java.text package): Allows formatting and parsing of dates using patterns.
 - Comparing dates:
   - `.before(Date when)`: Checks if the Date object is before the specified date.
