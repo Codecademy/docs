@@ -26,7 +26,7 @@ The returned value from `.setSeconds()` modifies the original `Date` object, `my
 In the example below, the `myDate` variable is declared and then the `.setSeconds()` method is applied to return a modified time.
 
 ```js
-const myDate = new Date(August 29, 2022 23:15:30);
+const myDate = new Date('August 29, 2022 23:15:30');
 myDate.setSeconds(42);
 
 console.log(myDate.toString());
