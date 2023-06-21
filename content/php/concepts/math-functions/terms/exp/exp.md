@@ -25,6 +25,8 @@ exp($x)
 
 ## Codebyte Example
 
+The following codebyte illustrates using the **exp()** function with a variety of arguments:
+
 ```codebyte/php
 <?php
   echo (exp(0)."\n");
