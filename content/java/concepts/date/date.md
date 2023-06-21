@@ -50,7 +50,7 @@ Here are some important aspects and methods of the `Date` class:
   - `Date(long millis)`: Creates a `Date` object with the specified number of milliseconds since January 1, 1970, 00:00:00 GMT (the Unix epoch).
 - Getting and setting date components:
   - `.getTime()`: Returns the number of milliseconds since the Unix epoch.
-  - `.setTime(long time)`: Sets the time value of the Date object using the specified number of milliseconds.
+  - `.setTime(long time)`: Sets the time using the specified number of milliseconds.
 - Formatting and parsing dates:
   - `.toString()`: Returns a string representation of the Date object. The default format is not very readable or localized.
   - `SimpleDateFormat` class (from java.text package): Allows formatting and parsing of dates using patterns.
