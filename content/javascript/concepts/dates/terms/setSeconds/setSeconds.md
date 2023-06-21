@@ -29,7 +29,7 @@ In the example below, the `myDate` variable is declared and then the `.setSecond
 const myDate = new Date(August 29, 2022 23:15:30);
 myDate.setSeconds(42);
 
-console.log(myDate);
+console.log(myDate.toString());
 ```
 
 This results in the following output:
