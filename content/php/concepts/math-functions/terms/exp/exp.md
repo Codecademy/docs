@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `exp()` function Returns E raised to the power of x (E^x^).
+The **`exp()`** function Returns _e_ raised to the power of x.
 
 ## Syntax
 
@@ -23,7 +23,7 @@ exp($x)
 
 ```
 
-- `$x`: specifies the exponent that E will be raised to.
+- `$x`: specifies the exponent that _e_ will be raised to.
 
 ## Codebyte Example
 
