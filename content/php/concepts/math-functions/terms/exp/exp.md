@@ -1,6 +1,6 @@
 ---
 Title: 'Exp()'
-Description: 'Returns E raised to the power of x (E^x^).'
+Description: 'Returns e raised to the power of x.'
 
 Subjects:
   - 'Computer Science'
