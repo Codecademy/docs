@@ -18,7 +18,6 @@ The **`Cos()`** function returns the cosine of the given angle (in radians). The
 ## Syntax
 
 ```pseudo
-
 result := math.Cos(angle)
 ```
 
