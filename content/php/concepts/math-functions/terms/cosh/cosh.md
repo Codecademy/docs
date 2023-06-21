@@ -41,16 +41,3 @@ The output will be:
 ```shell
 6.1322894796637
 ```
-
-## Codebyte Example
-
-In this executable example of the function, the `$x` variable can be changed to print the `cosh()` of it:
-
-```codebyte/php
-<?php
-$x = 2.5;
-
-$result = cosh($x);
-echo "The hyperbolic cosine of $x is: $result";
-?>
-```
