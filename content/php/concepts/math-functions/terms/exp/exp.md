@@ -1,19 +1,15 @@
 ---
 Title: 'Exp()'
 Description: 'Returns e raised to the power of x.'
-
 Subjects:
   - 'Computer Science'
   - 'Web Design'
   - 'Web Development'
-
 Tags:
   - 'Strings'
   - 'Functions'
-
 CatalogContent:
   - 'learn-php'
-
   - 'paths/computer-science'
 ---
 
