@@ -21,7 +21,7 @@ To prevent SQL injection, databases should not take user input as a command to b
 
 ## Vulnerable Queries
 
-In this example, there is a form that asks for your `User ID`. This form will run this SQL command to check if the user exists.
+In this example, there is a form that asks for a `User ID`. This form will run this SQL command to check if the user exists.
 
 ```sql
 SELECT * FROM users WHERE UserID = 'input from user';
@@ -45,7 +45,7 @@ SELECT * FROM Projects WHERE UserID = '1'; DELETE FROM Projects WHERE '1'='1'
 2. The semi-colon `;` indicates the end of a command and the beginning of the next one.
 3. The next command will delete all the rows from the `Projects` table.
 
-## Parameterized queries
+## Parameterized Queries
 
 ```sql
 string sql = "SELECT * FROM users WHERE UserID = $userInput"
