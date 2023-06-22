@@ -150,7 +150,7 @@ The display property can be combined with media queries to create responsive des
 
 ## `display: grid` and `display: flex` Comparison
 
-CSS Grid and Flexbox are powerful layout tools. The choice between display: flex and display: grid depends on the layout requirements and the desired design approach. 
+CSS Grid and Flexbox are powerful layout tools. The choice between `display: flex` and `display: grid` depends on the layout requirements and the desired design approach. 
 Flexbox is particularly useful for creating responsive and flexible layouts, especially when dealing with content in a linear fashion, such as navigation menus, image galleries, or vertically aligned elements. 
 CSS Grid is well-suited for creating advanced and flexible layouts, such as magazine-style designs, multi-column layouts, or designs that require explicit control over the placement of elements in a grid-like structure. Here is an example illustrating the difference between the two:
 
