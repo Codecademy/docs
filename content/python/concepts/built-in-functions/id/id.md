@@ -81,7 +81,6 @@ This example results in something resembling the following output:
 
 The following example displays the output of the immutable `number` object:
 
-
 ```codebyte/python
 hello = 30;
 goodbye = 30;
@@ -89,8 +88,6 @@ goodbye = 30;
 print(id(hello))
 print(id(goodbye))
 ```
-
-
 
 
 
