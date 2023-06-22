@@ -1,5 +1,5 @@
 ---
-Title: 'Exp()'
+Title: 'exp()'
 Description: 'Returns e raised to the power of x.'
 Subjects:
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`exp()`** function Returns _e_ raised to the power of x.
+The **`exp()`** function returns _e_ raised to the power of x.
 
 ## Syntax
 
@@ -21,11 +21,11 @@ The **`exp()`** function Returns _e_ raised to the power of x.
 exp($x)
 ```
 
-- `$x`: specifies the exponent that _e_ will be raised to.
+- `$x`: Specifies the exponent that _e_ will be raised to.
 
 ## Codebyte Example
 
-The following codebyte illustrates using the `exp()` function with a variety of arguments:
+The following codebyte illustrates the use of the `exp()` function with a variety of arguments:
 
 ```codebyte/php
 <?php
