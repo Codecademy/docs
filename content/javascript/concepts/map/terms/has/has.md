@@ -44,7 +44,7 @@ The first `.has()` statement checks that there are `'Apples'` in `fruits`, which
 
 The following example checks if there is a known abbreviation for the strings `Typescript` and `Rust`.
 
-```js
+```codebyte/js
 const languageAbbreviation = new Map([
   ['JavaScript', 'JS'],
   ['Golang', 'Go'],

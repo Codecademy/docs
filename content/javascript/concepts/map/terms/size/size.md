@@ -38,9 +38,9 @@ console.log(fruits.size); // Output: 2
 
 ## Codebyte Example
 
-The following example maps names to the age of the corresponding person. The value of the `size` property changes after deleting a key-value pair.
+The following example uses the `size` property to confirm the number of elements in a map after deleting a key-value pair.
 
-```js
+```codebyte/js
 const personAge = new Map([
   ['John', 19],
   ['Mary', 54],
@@ -54,4 +54,3 @@ personAge.delete('Mary');
 
 console.log(personAge.size);
 ```
-
