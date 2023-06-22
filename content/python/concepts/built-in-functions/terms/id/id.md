@@ -4,22 +4,19 @@ Description: 'Gives a unique number for any object in Python.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
-Tags: 
+Tags:
   - 'Functions'
   - 'Methods'
   - 'Id'
-  - 'Objects'
-  - 'Numbers'
   - 'Memory'
   - 'Debugging'
-CatalogContent: 
+CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
   - 'paths/data-science'
 ---
 
-The **`id()`** function gives a unique number for any object in Python. This number is the location of the object in the computer’s memory.
-This will be consistent for the duration of the object's lifetime 
+The **`id()`** function gives a unique number for any object in Python. This number is the location of the object in the computer’s memory. This will be consistent for the duration of the object's lifetime.
 
 ## Syntax
 
@@ -27,15 +24,15 @@ This will be consistent for the duration of the object's lifetime
 id(object)
 ```
 
-The parameter, `object`, can be any given object such as a string, list, number, dictionary etc.
+The parameter, `object`, can be any given object such as a string, list, number, dictionary, etc.
 
 ## Example
 
-In the example below, when two **immutable** variables are executed using the id() function,
-both return the same value pointing to the same location in memory.
-This is because immutable objects don't change. The following example uses the immutable `string` object to demonstrate this: 
+In the example below, when two **immutable** variables are compared using the `id()` function, both return the same value pointing to the same location in memory.
 
- ```py 
+This is because immutable objects don't change. The following example uses an immutable `string` object to demonstrate this:
+
+```py
 color = 'green'
 
 favColor = 'green'
@@ -45,7 +42,7 @@ print(id(color))
 print(id(favColor))
 ```
 
-This example results something resembling the following output:
+This example results in something resembling the following output:
 
 ```shell
 140307997340656
@@ -54,18 +51,18 @@ This example results something resembling the following output:
 
 ## Example 2
 
-In this next example, the id() function will be executed with two **mutable** variables.
-Take note of how the function will return different values and two separate unique ids.
-This is because mutable objects are able to change. The mutable `list` object can be used to demonstrate this:
+In this next example, the `id()` function will be executed with two **mutable** variables. Take note of how the function will return different values: two separate unique ids.
 
-```py 
+This is because mutable objects are able to change. A mutable `list` object can be used to demonstrate this:
+
+```py
 animals = ['lions', 'tigers', 'bears']
 
 favAnimals = ['lions', 'tigers', 'bears']
 
-print(id(animals)); 
+print(id(animals))
 
-print(id(favAnimals)); 
+print(id(favAnimals))
 ```
 
 This example results in something resembling the following output:
@@ -75,13 +72,13 @@ This example results in something resembling the following output:
 140279020204352
 ```
 
-## Codebyte Example 
+## Codebyte Example
 
-The following example displays the output of the immutable `number` object:
+The following example displays the output of two immutable `number` objects:
 
 ```codebyte/python
-hello = 30;
-goodbye = 30;
+hello = 30
+goodbye = 30
 
 print(id(hello))
 print(id(goodbye))
