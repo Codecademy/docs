@@ -35,7 +35,7 @@ Sigmoid activation functions are commonly used in machine learning because they 
 
 Sigmoid activation functions can be used for many practical machine learning tasks, such as:
 
-- Binary classification: Sigmoid activation functions are especially useful in binary classification tasks, where samples are assigned to one of two classes. In such tasks, a threshold (typically 0.5) can be set so that values above the threshold are classified into one class, and values below the threshold are classified into the other task.
+- Binary classification: Sigmoid activation functions are especially useful in binary classification tasks, where samples are assigned to one of two classes. In such tasks, a threshold (typically 0.5) can be set so that values above the threshold are classified into one class, and values below the threshold are classified into the other class.
 - Sentiment analysis: Sentiment analysis aims to determine the emotion, or sentiment, of text data. Sigmoid activation functions can be used to assign probabilities to different sentiment classes, such as positive or negative sentiment.
 - Fraud detection: Sigmoid activation functions can be used in neural networks to detect the likelihood of a transaction being fraudulent based on multiple transaction features.
 - Financial risk assessment: Sigmoid activation functions can be used in neural networks to assign probabilities to different risk factors, such as credit risk or the likelihood of loan defaults.
