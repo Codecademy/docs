@@ -105,6 +105,7 @@ Elements with `display: flex;` create a flex container, allowing you to build fl
 ### 6. Display: grid
 
 Elements with `display: grid;` create a grid container that enables you to define rows and columns, creating a two-dimensional grid system. Child elements inside the container can be placed in specific cells and adjusted for size and alignment.
+
 ```css
 .grid-container {
   display: grid;
