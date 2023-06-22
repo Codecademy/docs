@@ -18,14 +18,12 @@ Searches a list for a particular item and returns the number of matching entries
 ## Syntax
 
 ```py
-list.count(value, start, end)
+list.count(value)
 ```
 
-The `.count()` method has three parameters:
+The `.count()` method takes a single argument:
 
-- `value`: The string to search for. (Required)
-- `start`: The index to start the search. Default is index 0.
-- `end`: The position to end the search. Default is end of the string.
+- `value`: Required. Any type (string, number, list, tuple, etc.). The value to search for.
 
 ## Example 1
 
@@ -42,13 +40,24 @@ print(numPen)
 
 ## Example 2
 
-To count the number of `'pen'` within the `backpack` list from index 0 to index 5:
+Count Tuple and List Elements Inside List:
 
 ```codebyte/python
-backpack = ['pencil', 'pen', 'notebook', 'textbook', 'pen', 'highlighter', 'pen']
+# random list
+random = ['a', ('a', 'b'), ('a', 'b'), [3, 4]]
 
-numPen = backpack.count('pen', 0, 5)
+# count element ('a', 'b')
+count = random.count(('a', 'b'))
 
-print(numPen)
-# Output: 2
+# print count
+print("The count of ('a', 'b') is:", count)
+
+# count element [3, 4]
+count = random.count([3, 4])
+
+# print count
+print("The count of [3, 4] is:", count)
+
+# The count of ('a', 'b') is: 2
+# The count of [3, 4] is: 1
 ```
