@@ -23,6 +23,21 @@ str_shuffle($string)
 
 - `$string` is the string to be shuffled.
 
+## Example
+
+The following example uses the `str_shuffle()` function to repeat the `"bon"` `2` times. Then the `echo` command prints this `string` to the console:
+
+```php
+<?php
+  echo str_shuffle("bon", 2);
+?>
+```
+
+The example will result in the following output:
+
+```shell
+bonbon
+
 ## Codebyte Example
 
 This example demonstrates the use of `str_shuffle()` on a string.

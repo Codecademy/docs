@@ -23,6 +23,21 @@ strlen(string);
 
 The `string` can either be a literal sequence of characters surrounded by quotes or a variable that refers to such a sequence.
 
+## Example
+
+The following example uses the `strlen()` function to repeat the `"bon"` `2` times. Then the `echo` command prints this `string` to the console:
+
+```php
+<?php
+  echo strlen("bon", 2);
+?>
+```
+
+The example will result in the following output:
+
+```shell
+bonbon
+
 ## Codebyte Example
 
 The following example showcases the two ways of using the `strlen()` method:
