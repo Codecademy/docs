@@ -13,12 +13,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Tan()`** function returns the tangent of the given angle (in radians). The `math` library must be imported in order to use this function.
+The **`Tan()`** function returns the tangent of an angle given in radians. The `math` library must be imported in order to use this function.
 
 ## Syntax
 
 ```pseudo
-
 result := math.Tan(angle)
 ```
 
