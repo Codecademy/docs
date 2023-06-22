@@ -25,7 +25,7 @@ LOG10(number)
 
 The `LOG10()` function takes one required parameter, `number`:
 
-- a `float` type number greater than `0`, or
+- A `float` type number greater than `0`.
 - an expression resulting in a `float` type number (e.g. `EXP(10)` or `10*10`).
 
 The `LOG10()` function returns the base-10 logarithm of `number` as a `float`.
