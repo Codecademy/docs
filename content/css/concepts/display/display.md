@@ -52,7 +52,7 @@ The following values can be appplied to the `display` property:
 
 The display property in CSS allows you to control how elements are rendered on a webpage. Here are the commonly used display values and their descriptions:
 
-### 1. Display: block
+### 1. `display: block`
 
 Elements with `display: block;` are rendered as block-level elements. They create a line break after the element and occupy the full width of their parent container.
 
