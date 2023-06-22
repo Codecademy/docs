@@ -49,7 +49,7 @@ SELECT num_id, LOG10(num_10) AS num_log10
 FROM POWER_OF_TEN;
 ```
 
-This example results in the following output:
+The above example results in the following output:
 
 | num_id  | num_log10 |
 | ------- | --------- |
