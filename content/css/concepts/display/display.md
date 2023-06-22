@@ -129,7 +129,7 @@ CSS specificity allows you to override default display values of elements. Here'
 }
 ```
 
-## Responsive design considerations
+## Responsive Design Considerations
 
 The display property can be combined with media queries to create responsive designs. Here's an example:
 
