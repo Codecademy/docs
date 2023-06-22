@@ -90,18 +90,7 @@ print(id(hello))
 print(id(goodbye))
 ```
 
-## Codebyte Example 2
 
-The following example displays the output of the mutable **dictionary** object:
-
-
-```codebyte/python
-fruit = {"name": "Banana", "color": "yellow"}
-favFruit = {"name": "Banana", "color": "yellow"}
-
-print(id(fruit))
-print(id(favFruit))
-```
 
 
 
