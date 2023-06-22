@@ -16,7 +16,7 @@ There can be multiple methods to solve and find the highest common factor (HCF) 
 
 ## Method 1
 
-In the basic approach, the purpose is to find the GCD. To do this, find the minimum value between the two given numbers. Then, divide it by both numbers. If the number does not divide both numbers evenly, decrease it by `1` and continue dividing. Lastly, repeat this process until the minimum value can divide both numbers evenly. At this point, the minimum value is the HCF (highest common factor).
+In the basic approach, the purpose is to find the GCD. To do this, find the minimum value between the two given numbers. Then, divide it by both numbers. If the number does not divide both numbers evenly, decrease it by `1` and continue dividing. Lastly, repeat this process until the minimum value can divide both numbers evenly. At this point, the minimum value is the HCF (highest common factor). The following code illustrates this method in Java:
 
 ```java
 public static void main(String[] args) {
@@ -47,7 +47,7 @@ Here two methods are shown using Euclidean algorithm to find the HCF of two numb
 
 ## Method 2
 
-In this method, the aim is to compare both 'a' and 'b'. Whichever number is greater,  the smaller number is subtracted from the larger number. It also updates the value of the larger number accordingly. If 'a' is greater than 'b', replace 'a' with 'a - b', and if 'b' is greater than 'a', replace 'b' with 'b - a'. Repeat this step until 'a' becomes equal to 'b'. Once 'a' and 'b' are equal, return 'a' as the answer. At this point, the value of 'a' (which is equal to 'b') represents the highest common factor (HCF) of the original values of 'a' and 'b'.
+In this method, the aim is to compare both 'a' and 'b'. Whichever number is greater,  the smaller number is subtracted from the larger number. It also updates the value of the larger number accordingly. If 'a' is greater than 'b', replace 'a' with 'a - b', and if 'b' is greater than 'a', replace 'b' with 'b - a'. Repeat this step until 'a' becomes equal to 'b'. Once 'a' and 'b' are equal, return 'a' as the answer. At this point, the value of 'a' (which is equal to 'b') represents the highest common factor (HCF) of the original values of 'a' and 'b'. The following code illustrates this method in Java:
 
 ```java
 class Euclidean1 {
@@ -94,7 +94,7 @@ When debugging the code above step by step, one can analyze the code as follows:
 
 In this method, a recursive approach is used to implement the Euclidean algorithm for finding the greatest common divisor (GCD) of two integers, 'a' and 'b'. The method takes 'a' and 'b' as integer parameters and returns an integer as the result. The GCD method starts by checking if 'b' is equal to 0. If it is, then it means that 'a' is the GCD, and it returns 'a' as the result. However, if 'b' is not 0, it indicates that there is a remainder when 'a' is divided by 'b'. In this case, the method calls itself recursively with the arguments 'b' and 'a % b'. This recursive call continues until 'b' eventually becomes 0, triggering the base case and resulting in the discovery of the GCD.
 
-For more information on recursion, refer to this [resource](https://www.codecademy.com/learn/java-algorithms/modules/recursion-apcs/cheatsheet).
+For more information on recursion, refer to this [resource](https://www.codecademy.com/learn/java-algorithms/modules/recursion-apcs/cheatsheet). The following code illustrates this method in Java:
 
 ```java
 public class Euclidean2 {
