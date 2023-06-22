@@ -4,7 +4,6 @@ Description: 'Gives a unique number for any object in Python.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
-  
 Tags: 
   - 'Functions'
   - 'Methods'
@@ -13,7 +12,6 @@ Tags:
   - 'Numbers'
   - 'Memory'
   - 'Debugging'
-
 CatalogContent: 
   - 'learn-python-3'
   - 'paths/computer-science'
@@ -88,5 +86,3 @@ goodbye = 30;
 print(id(hello))
 print(id(goodbye))
 ```
-
-
