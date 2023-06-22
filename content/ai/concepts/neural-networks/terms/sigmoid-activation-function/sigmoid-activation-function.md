@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-A **sigmoid activation function** is a specific type of sigmoid function commonly used in [machine learning](https://www.codecademy.com/resources/docs/ai/machine-learning) and various fields of [artificial intelligence](https://www.codecademy.com/resources/docs/ai) (AI). They play a crucial role in machine learning by enabling the development of [neural networks](https://www.codecademy.com/resources/docs/ai/neural-networks) for many machine learning tasks. In other areas of AI, sigmoid activation functions can be applied to probabilistic modeling, decision making, uncertainty modeling, and more.
+A **sigmoid activation function** is a specific type of sigmoid function commonly used in [machine learning](https://www.codecademy.com/resources/docs/ai/machine-learning) and various fields of artificial intelligence (AI). They play a crucial role in machine learning by enabling the development of neural networks for many machine learning tasks. In other areas of AI, sigmoid activation functions can be applied to probabilistic modeling, decision making, uncertainty modeling, and more.
 
 ## Sigmoid Functions
 
