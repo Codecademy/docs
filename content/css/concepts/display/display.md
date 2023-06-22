@@ -196,7 +196,7 @@ CSS Grid is well-suited for creating advanced and flexible layouts, such as maga
 
 ![Display Flex Versus Display Grid Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-display-flex-versus-grid.png)
 
-## Example 1
+## Example 
 
 Setting a `div` element to behave like a flex box.
 
