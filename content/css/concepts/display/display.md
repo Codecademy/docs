@@ -72,7 +72,7 @@ Elements with `display: inline;` are rendered as inline elements. They don't cre
 }
 ```
 
-### 3. Display: inline-block
+### 3.`display: inline-block`
 
 Elements with `display: inline-block;` are rendered as inline-level block elements. They behave like inline elements but allow you to set width, height, padding, and margins.
 
