@@ -1,6 +1,6 @@
 ---
 Title: 'Diffusion Models'
-Description: ''
+Description:'Diffusion Models are generative models, which means they are used to generate data similar to what they were trained on. 
 Subjects:
   - 'Machine Learning'
   - 'Data Science'
@@ -18,4 +18,8 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-**AI Diffusion Models** 
+**AI Diffusion Models** Are generative models, which means they are used to generate data similar to what they were trained on. 
+
+### What A Diffusion Model Is
+- 
+-
