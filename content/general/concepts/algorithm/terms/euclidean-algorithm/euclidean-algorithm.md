@@ -90,7 +90,7 @@ The step by step execution of the above code is as follows:
 - Now 'a' and 'b' are both equal to 5.
 - At this point, the while loop exits, and `a` is returned. Therefore, the HCF of `15` and `20` is `5`.
 
-## Method 3
+## Method 3: A Recursive Euclidean Approach
 
 In this method, a recursive approach is used to implement the Euclidean algorithm for finding the greatest common divisor (GCD) of two integers, 'a' and 'b'. The method takes 'a' and 'b' as integer parameters and returns an integer as the result. The GCD method starts by checking if 'b' is equal to 0. If it is, then it means that 'a' is the GCD, and it returns 'a' as the result. However, if 'b' is not 0, it indicates that there is a remainder when 'a' is divided by 'b'. In this case, the method calls itself recursively with the arguments 'b' and 'a % b'. This recursive call continues until 'b' eventually becomes 0, triggering the base case and resulting in the discovery of the GCD.
 
