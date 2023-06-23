@@ -138,7 +138,7 @@ The step by step execution of this example is as follows:
 
 - Method 3:
 
-  - The third code is an optimized version of the Euclidean algorithm that uses recursion. It calculates the GCD by repeatedly taking the modulus of `a` with `b` and calling itself with the new values (`b` and `a%b`) until `b` becomes 0. The time complexity of this optimized Euclidean algorithm is **O(log(max(a, b)))** since the algorithm reduces the values quickly by taking the modulus.
+  - The third example is an optimized version of the Euclidean algorithm that uses recursion. It calculates the GCD by repeatedly taking the modulus of `a` with `b` and calling itself with the new values (`b` and `a%b`) until `b` equals `0`. The time complexity of this optimized Euclidean algorithm is *O(log(max(a, b)))* since the algorithm reduces the values quickly by taking the modulus.
 
 To summarize, the time complexities of the three codes are as follows:
 
