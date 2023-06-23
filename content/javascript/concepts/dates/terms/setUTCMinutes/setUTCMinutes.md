@@ -3,7 +3,7 @@ Title: '.setUTCMinutes()'
 Desciption: 'brief, description of the setUTCMinutes function, examples'
 Subjects: 
     - 'Computer Science' 
-    - 'JavaScript'
+    - 'Web Development'
 Tags: 
     - 'Methods'
     - 'Date'
