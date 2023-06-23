@@ -97,6 +97,7 @@ console.log(lastGreeting);
 The example below defines a new array `cities`. The array lists the city 'Berlin' twice. `lastIndexOf` array method finds Berlin's last position in the array.
 
 ```codebyte/javascript
+
 const cities = ['London', 'New York', 'Sydney', 'Berlin', 'Paris', 'Berlin', 'Dublin'];
 
 const findCityPosition = cities.lastIndexOf('Berlin', cities.length);
