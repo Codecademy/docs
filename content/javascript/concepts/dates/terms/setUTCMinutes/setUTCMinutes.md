@@ -8,8 +8,8 @@ Tags:
     - 'Methods'
     - 'Date'
 CatalogContent:
-    - 'paths/web-development'
-    - 'Collaborating-with-the-github-community'
+    - 'introduction-to-javascript'
+    - 'paths/front-end-engineer-career-path'
 ---
 
 The **.setUTCMinutes()** method of [Date](https://www.codecademy.com/resources/docs/javascript/dates) instances changes the minutes for this instance according to **universal time (UTC)**.
