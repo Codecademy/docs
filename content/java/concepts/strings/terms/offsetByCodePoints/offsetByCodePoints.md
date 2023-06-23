@@ -17,7 +17,7 @@ It is useful when working with strings that contain characters with multiple cod
 
 ## Syntax
 
-```java
+```pseudo
 Strings.offsetByCodePoints(int startIndex,int  offsetIndex)
 ```
 
