@@ -18,7 +18,7 @@ A **function** is a set of statements that are executed together when the functi
 
 ## Built-in Functions
 
-C++ has many built-in functions. In order to use them, wthe required library has to be impored using `#include`.
+C++ has many built-in functions. In order to use them, the required library has to be imported using `#include`.
 
 Here a function named `sqrt()` is made available from the `<cmath>` library:
 

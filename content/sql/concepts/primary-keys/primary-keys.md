@@ -1,6 +1,6 @@
 ---
 Title: 'Primary Keys'
-Description: 'SQL tables sometimes have a column that uniquely identifies each row of that table. These special columns are called primary keys. A primary key column has a few requirements: - None of the values can be NULL. - Each value must be unique (i.e., you can’t have two customers with the same customerid in the customers table). - A table can not have more than one primary key column. Heres an orders table where the orderid is its primary key: | orderid | customerid | totalcost | purchasedate |'
+Description: 'Primary keys are special columns used to uniquely identify each row of a table in SQL.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -12,15 +12,61 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-SQL tables sometimes have a column that uniquely identifies each row of that table. These special columns are called primary keys.
+**Primary keys** are special columns that are used to uniquely identify each row of a table in SQL.
 
-A primary key column has a few requirements:
+## Syntax
+
+```pseudo
+CREATE TABLE table_key (
+  id INTEGER PRIMARY KEY,
+  column_1 TEXT,
+  column_2 INTEGER
+);
+```
+
+The `PRIMARY KEY` constraint is used to create columns that uniquely identify each row. A primary key column has a few requirements:
 
 - None of the values can be `NULL`.
-- Each value must be unique (i.e., you can’t have two customers with the same `customer_id` in the `customers` table).
-- A table can not have more than one primary key column.
+- Each value must be unique (e.g., two rows in a `customers` table wouldn't have the same primary `customer_id`).
+- A table cannot have more than one primary key.
 
-Here's an `orders` table where the `order_id` is its primary key:
+Attempts to insert a row with an existing primary key will result in a constraint violation that prevents the new row from being added.
+
+If a table was created without a primary key, it can be added with the [`ALTER TABLE`](https://www.codecademy.com/resources/docs/sql/commands/alter-table) command. The statement below adds a primary `id` column, via the `PRIMARY KEY` constraint, to `table_name`:
+
+```pseudo
+ALTER TABLE table_name
+ADD PRIMARY KEY (id);
+```
+
+## Foreign Keys
+
+When the primary key for one table appears in a different table, it is called a foreign key. The most common types of [joins](https://www.codecademy.com/resources/docs/sql/joins) will be joining a foreign key from one table with the primary key from another table.
+
+Using the following `customers` table as an example:
+
+```sql
+CREATE TABLE customers (
+  customer_id INTEGER NOT NULL,
+  first_name varchar(255),
+  last_name varchar(255)
+);
+```
+
+The `orders` table is created and joined via `FOREIGN KEY` with the existing `customer` table through its `customer_id`:
+
+```sql
+CREATE TABLE orders (
+  order_id INTEGER NOT NULL,
+  total_cost FLOAT,
+  purchase_date DATE,
+  customer_id INTEGER NOT NULL,
+  PRIMARY KEY (order_id),
+  FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
+);
+```
+
+The displayed `orders` table, with its primary key (`order_id`) and foreign key (`customer_id`), may look like this:
 
 | order_id | customer_id | total_cost | purchase_date |
 | -------- | ----------- | ---------- | ------------- |
@@ -28,20 +74,13 @@ Here's an `orders` table where the `order_id` is its primary key:
 | 2        | 1294        | 61.42      | 2022-01-01    |
 | 3        | 1001        | 23.45      | 2022-01-02    |
 
-## Syntax
+## Composite Keys
 
-`PRIMARY KEY` columns can be used to uniquely identify the row. Attempts to insert a row with an identical value to a row already in the table will result in a _constraint violation_ which will not allow you to insert the new row.
+Sometimes, having one primary key per table is not enough to uniquely identify a row. In such cases, multiple columns would work as composite keys for the table. This requirement should be detected during the designing phase of a database.
 
-The statement below sets a `PRIMARY KEY` on the `students` table:
+For example, a database of car parts will have to uniquely identify a row of parts. Either the `engine_ID` or `body_ID` could be used. However, this may create ambiguity as cars could get their engines swapped.
 
-```sql
-CREATE TABLE students (
-  id INTEGER PRIMARY KEY,
-  name TEXT,
-  grade INTEGER,
-  age INTEGER
-);
-```
+Depending on local regulations, a car may require an engine part ID and a body ID to be associated with a license plate. One solution might be adding more row information about the car, such as `left_door_ID`, `gearbox_ID`, etc. But then a specific car would have to be identified by two different aspects: its body and its engine.
 
 If you have created a table that doesn't have a primary key, you can alter it to add a one.
 
@@ -54,6 +93,23 @@ ADD PRIMARY KEY (ID);
 
 ## Foreign Keys
 
-When the primary key for one table appears in a different table, it is called a foreign key.
+A composite key would be useful in this case. This is how a `vehicle_registry` table might look (extra parts/columns omitted for brevity):
 
-Why is this important? The most common types of joins will be joining a foreign key from one table with the primary key from another table. For instance, when we join the `orders` table and the `customers` table, we join on the `customer_id` column, which is a foreign key in `orders` and the primary key in `customers`.
+
+| engine_id | body_id | gearbox_id | purchase_date |
+| --------- | ------- | ---------- | ------------- |
+| 500       | abc     | 001        | 2022-01-01    |
+| 600       | def     | 002        | 2022-01-01    |
+| 700       | ghi     | 003        | 2022-01-02    |
+
+The statement below creates the `vehicle_registry` table with a composite key:
+
+```sql
+CREATE TABLE vehicle_registry (
+  engine_id INTEGER,
+  body_id TEXT,
+  gearbox_id INTEGER,
+  purchase_date DATE,
+  PRIMARY KEY(engine_id, body_id, purchase_date)
+);
+```

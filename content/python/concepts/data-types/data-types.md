@@ -54,5 +54,5 @@ languages = ("Python", "JavaScript", "Go")
 
 print(isinstance(word, str)) # Output: True
 print(isinstance(languages, list)) # Output: False
-print(isinstance(languages, tuple)) # Ouput: True
+print(isinstance(languages, tuple)) # Output: True
 ```

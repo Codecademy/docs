@@ -9,8 +9,8 @@ These are regular entries that give detailed explanations of a coding concept. T
 General (language-agnostic):
 
 - [Comment](https://www.codecademy.com/resources/docs/general/comment)
-- [IDE](https://www.codecademy.com/resources/docs/general/ide)
-- [Array](https://www.codecademy.com/resources/docs/general/array)
+- [IDE](https://www.codecademy.com/resources/docs/general/developer-tools/ide)
+- [Array](https://www.codecademy.com/resources/docs/general/data-structures/array)
 
 Python (language-specific):
 
@@ -44,52 +44,21 @@ We'll describe the standards for each of these components separately.
 
 ### File Name
 
-All entry file names use the `.md` format along with the following standards:
-
-- They must match the title of the entry. (e.g., "Three.js" -> `three-js.md`)
-- It must be separated by dashes, where appropriate. (e.g., "Data Types" -> `data-types.md`)
-  - If the title or name is meant to be in PascalCase: "HashTable" -> `hashtable.md`
-  - If the title or name is meant to be in camelCase: ".forEach()" -> `forEach.md` (without the `.` and `()`).
-- The name should always begin with a lowercase letter. (e.g., "Array" -> `array.md`, "HTML" -> `html.md`)
-- Punctuation must not be included in the file name, even if it exists in the entry name. (e.g., "Moore's Law" -> `moores-law.md`, "Three.js" -> `three-js.md`, `.nextAfter()` -> `nextAfter.md`)
+All entry file names use the `.md` format and follow the standards listed under ["File Names" in the Docs Style Guide](https://github.com/Codecademy/docs/blob/main/documentation/style-guide.md#file-names).
 
 ### Content
 
 - All text should be written in Markdown
   - For more details on our standards for Markdown content, see Codecademy's [Curriculum Markdown Style Guide](http://curriculum-documentation.codecademy.com/content-guidelines/markdown-style-guide/).
-- Each subsection should begin with a heading of size h2. (i.e., preceded by `##`)
-- All in-line code should be delineated by single backticks. (`)
+- All entries should follow the guidelines set forth in the [Docs Style Guide](https://github.com/Codecademy/docs/blob/main/documentation/style-guide.md).
 
-#### Code Blocks
+### Code Blocks
 
-Code examples are an excellent teaching tool. Many term entries will contain a code example as a standard field. Encyclopedia entries are more flexible, but if your encyclopedia entry doesn't contain any code blocks, take a moment to ask yourself if one would help!
+Code examples are an excellent teaching tool. Many term entries will contain a code example as a standard field. Encyclopedia entries are more flexible, but if your encyclopedia entry doesn't contain any code blocks, take a moment to ask yourself if one would help! For details on how to format code blocks see ["Code" in the Docs Style Guide](https://github.com/Codecademy/docs/blob/main/documentation/style-guide.md#code).
 
-All code blocks should be delineated by triple backticks (```).
+All code blocks should be delineated by triple backticks (```). Languages can be specified for syntax highlighting. For a list of supported languages, see ["Supported Code Blocks" in the Docs Style Guide](https://github.com/Codecademy/docs/blob/main/documentation/style-guide.md#supported-code-blocks)
 
-- C: ```c
-- C#: ```cs
-- C++: ```cpp
-- CSS: ```css
-- Error: ```error
-- Emojicode: ```emojic
-- Golang: ```go
-- HTML: ```html
-- Java: ```java
-- JavaScript: ```js
-- Markdown: ```md
-- PHP: ```php
-- Plaintext: ```plaintext
-- Pseudo: ```pseudo
-- Python: ```py
-- R: ```r
-- Ruby: ```rb
-- Sass: ```scss
-- Scheme: ```scheme
-- Shell/Program Output: ```shell
-- SQL: ```sql
-- Swift: ```swift
-
-#### Codebytes: Runnable Code Blocks
+### Codebytes: Runnable Code Blocks
 
 Codecademy has a new feature called [Codebytes](https://www.codecademy.com/codebyte-editor) that will allow learners to click a button to run code blocks themselves! The output to the console will appear next to the code block.
 
@@ -107,32 +76,19 @@ console.log('Hello, World!');
 ```
 ````
 
-Currently, Codebytes supports the following languages:
-
-- C++: `cpp`
-- C#: `csharp`
-- Go: `golang`
-- JavaScript: `javascript`
-- PHP: `php`
-- Python: `python`
-- Ruby: `ruby`
+For a list of supported languages, see ["Supported Codebyte Blocks" in the Docs Style Guide](https://github.com/Codecademy/docs/blob/main/documentation/style-guide.md#supported-codebyte-blocks)
 
 > **Note:** Codebytes sometimes requires the code block to include some boilerplate code. To check what boilerplate is required for your language, select the language from the dropdown [in this demo page](https://www.codecademy.com/codebyte-editor). There you'll find a "Hello World!" program set up as an example!
 
 ### Metadata
 
-| Variable Name    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                         | Example                                                                                             |
-| ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| `Title`          | The title of the entry. This will be displayed on the page at the top.                                                                                                                                                                                                                                                                                                                                                                              | Title: "OOP"                                                                                        |
-| `Description`    | A brief description (ideally under 150 characters) used in search engine results and content previews                                                                                                                                                                                                                                                                                                                                               | Description: "A brief description of OOP"                                                           |
-| `Subjects`       | Languages and technical fields that the entry relates to. We're storing all of our Subjects in the [subjects.md file](https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). Please only use Subjects from that list.<br /> - We aim to include an average of 1-2 subjects (and always at least 1!) with every entry.                                                                                                             | Subjects:<br /> - "Computer Science"<br /> - "Game Development"                                     |
-| `Tags`           | Key words that are relevant to the entry. We're storing all of our Tags in the [tags.md file](https://github.com/Codecademy/docs/blob/main/documentation/tags.md). Please only use Tags from that list, but if that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!<br /> - We aim to include an average of 3-4 tags with every entry.                                                                     | Tags:<br /> - "React"<br /> - "URL"<br /> - "Strings"<br />                                         |
-| `CatalogContent` | Slugs of Codecademy course and Path landing pages that relate to the entry. We're storing all of our slugs in the [catalog-content.md file](https://github.com/Codecademy/docs/blob/main/documentation/catalog-content.md).<br /> - Please avoid linking to individual content items, because their URLs may change and some are gated by Pro membership.<br /> - We aim to include 2 slugs with every entry (1 free course and 1 Pro course/Path). | CatalogContent:<br /> - "introduction-to-javascript"<br /> - "paths/front-end-engineer-career-path" |
+Each entry must begin with a metadata section. For guides to writing an entry's metadata, see the ["Metadata" in the Docs Style Guide](https://github.com/Codecademy/docs/blob/main/documentation/style-guide.md#metadata) and the templates for [concept entries](https://github.com/Codecademy/docs/blob/main/documentation/concept-entry-template.md) and [term entries](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md).
 
-> **Note:** The template above does not apply to _topic_ entries. See our [topic entry template](https://github.com/Codecademy/docs/blob/main/documentation/topic-info-template.md) for more details.
+> **Note:** Topic entries follow a different metadata template than concepts and terms. See our [topic entry template](https://github.com/Codecademy/docs/blob/main/documentation/topic-entry-template.md) for more details.
 
-#### General Writing Tips
+### General Writing Tips
 
+- Follow the [Docs Style Guide](https://github.com/Codecademy/docs/blob/main/documentation/style-guide.md).
 - Avoid referencing information that isn't strictly related to the topic of the entry. As a rule, you want to assume as little pre-existing knowledge as possible.
 - Avoid using first- and second-person pronouns (e.g. "I", "we", "you") if possible.
 - Brevity without sacrificing clarity. Make every word count and be clear and concise.
@@ -148,14 +104,14 @@ Currently, Codebytes supports the following languages:
 - Re-read your contents carefully, considering every line written.
 - The description of your content should contain keywords for SEO purposes.
 
-#### File Hosting
+### File Hosting
 
-If you'd like to host files such as images, videos, or GIFs, please upload it to the [/media folder](https://github.com/Codecademy/docs/tree/main/media) and use the format `https://raw.githubusercontent.com/Codecademy/docs/main/media/filename.ext`. That way we'll never have any broken links!
-
-> **Note:** Some images may use `https://static-assets.codecademy.com/Courses/` in their links. These come from existing Codecademy course content and are for internal-use only. Please disregard those and use the `media` folder and format `https://raw.githubusercontent.com/Codecademy/docs/main/media/filename.ext`, instead.
+You may use images or GIFs in your entries. They are often helpful in illustrating content, especially output to the end user. To attach an image to your entry, use the guidelines specified under ["File Hosting" in the Docs Style Guide](https://github.com/Codecademy/docs/blob/main/documentation/style-guide.md#file-hosting).
 
 ### I've read all the content standards. Now what?
 
-Check out the [entry template](https://github.com/Codecademy/docs/blob/main/documentation/entry-template.md) and [term entry template](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md) in this folder. And take a look at [GitHub Issues](https://github.com/Codecademy/docs/issues) to see where help is needed!
+Review the [Docs Style Guide](https://github.com/Codecademy/docs/blob/main/documentation/style-guide.md) for an in-depth explanation of what's expected out of a Docs entry.
+
+Check out the [concept entry template](https://github.com/Codecademy/docs/blob/main/documentation/concept-entry-template.md) and [term entry template](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md) in this folder. And take a look at [GitHub Issues](https://github.com/Codecademy/docs/issues) to see where help is needed!
 
 For a refresher on how to make a Pull Request, head back to the [Contribution Guide](https://github.com/Codecademy/docs/blob/main/.github/CONTRIBUTING.md). 🎒

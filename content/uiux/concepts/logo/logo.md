@@ -8,7 +8,7 @@ Tags:
   - 'UX'
 CatalogContent:
   - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 A **logo** is a symbol, graphic, or emblem, that is used to represent a company, product, or brand. A logo presents a unique opportunity for companies to stand out and create a brand identity that assists in brand recognition. Additionally, the color of a logo plays a significant role in how a brand is perceived based on the emotional response it creates.

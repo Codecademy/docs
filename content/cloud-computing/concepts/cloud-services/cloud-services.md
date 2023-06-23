@@ -7,7 +7,7 @@ Tags:
   - 'Cloud Computing'
   - 'Networking'
 CatalogContent:
-  - 'learn/foundations-of-cloud-computing'
+  - 'foundations-of-cloud-computing'
   - 'paths/back-end-engineer-career-path'
 ---
 
@@ -63,7 +63,7 @@ Disadvantages include:
 
 GCP was introduced by Google in 2010 and is the smallest of the big three cloud-computing platforms.
 
-- GCP offers over 100 services including computing, networking, and [big data](https://www.codecademy.com/resources/docs/general/big-data).
+- GCP offers over 100 services including computing, networking, and [big data](https://www.codecademy.com/resources/docs/general/data-science/big-data).
 - GCP services include Google Workspace, enterprise Android, and Chrome OS.
 - As of 2021 GCP has 27 geographic regions and 146 edge locations.
 
@@ -72,7 +72,7 @@ The advantages of GCP include:
 - Easily integrates with other Google products and services.
 - Excellent integrations with open-source projects and third-party services.
 - Easily accommodates growth by offering considerable scaling and load-balancing capabilities.
-- Cutting edge [AI](https://www.codecademy.com/resources/docs/general/artificial-intelligence) and [machine learning](https://www.codecademy.com/resources/docs/general/machine-learning) services.
+- Cutting edge [AI](https://www.codecademy.com/resources/docs/ai) and [machine learning](https://www.codecademy.com/resources/docs/general/machine-learning) services.
 
 The disadvantages include:
 

@@ -19,7 +19,7 @@ Because surveys rely on data self-reported by users, they are considered an [att
 
 ## Survey Design
 
-Survey design commonly starts with understanding the research question(s) and purpose of the study. A pilot survey can be created to test the survey and iterate on the format before rolling out the survey to real participants. In general, survey questions should be examined to remove biases or leading questions to avoid influencing the results ([this list shows common biases in Miro's guide to UX surveys](https://miro.com/guides/ux-research/surveys-questions)). Once results have been collected, the process moves on to analysis to examine takeaways and trends from the data.
+Survey design commonly starts with understanding the research question(s) and purpose of the study. A pilot survey can be created to test the survey and iterate on the format before rolling out the survey to real participants. In general, survey questions should be examined to remove biases or leading questions to avoid influencing the results ([this Miro's article shows how to get the most out of UX surveys](https://miro.com/blog/guide-ux-surveys/)). Once results have been collected, the process moves on to analysis to examine takeaways and trends from the data.
 
 ## Combining with Other Methods
 

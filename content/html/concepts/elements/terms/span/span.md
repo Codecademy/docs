@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`<span>`** element is used for grouping text or elements together for styling and scripting. Unlike the block-level [`<div>`](https://www.codecademy.com/resources/docs/html/elements/div) element, `<span>` is an inline element that is usually wrapped inside another element. ([`<li>`](https://www.codecademy.com/resources/docs/html/elements/li), [`<p>`](https://www.codecademy.com/resources/docs/html/paragraphs), etc.)
+The **`<span>`** element is used for grouping text or elements together for styling and scripting. Unlike the block-level [`<div>`](https://www.codecademy.com/resources/docs/html/elements/div) element, `<span>` is an inline element that is usually wrapped inside another element. ([`<li>`](https://www.codecademy.com/resources/docs/html/elements/li), [`<p>`](https://www.codecademy.com/resources/docs/html/elements/p), etc.)
 
 This element should only be used whenever there is no [semantic element](https://www.codecademy.com/resources/docs/html/semantic-html) to use instead.
 

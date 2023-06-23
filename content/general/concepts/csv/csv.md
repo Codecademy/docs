@@ -6,6 +6,7 @@ Subjects:
   - 'Data Science'
 Tags:
   - 'Files'
+  - 'Data'
 CatalogContent:
   - 'paths/code-foundations'
   - 'paths/computer-science'
@@ -21,7 +22,7 @@ For example, some applications use quotation marks (`"`) or a backslash (`\`) to
 
 An example CSV file containing data about large animals and a common rendering of its tabular form can be found below:
 
-```psuedo
+```pseudo
 Animal,Average Length (Feet),Average Weight (Tons)
 African Bush Elephant,19.7,5.4
 Indian Rhinoceros,13.8,2.1

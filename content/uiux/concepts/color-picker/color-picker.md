@@ -8,10 +8,10 @@ Tags:
   - 'UX'
 CatalogContent:
   - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-The **color picker** can be used to update a layer’s [fill](https://www.codecademy.com/resources/uiux/fill) and [stroke](https://www.codecademy.com/resources/uiux/stroke).
+The **color picker** can be used to update a layer’s [fill](https://www.codecademy.com/resources/docs/uiux/fill) and [stroke](https://www.codecademy.com/resources/docs/uiux/stroke).
 
 ### Selecting Colors
 

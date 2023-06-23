@@ -59,14 +59,14 @@ objectName.propertyName
 person.lastName;
 ```
 
-Bracket notation must be used if the property name has numbers, spaces, or special characters:
+Bracket notation must be used if the property name has spaces, special characters, or begins with a number:
 
 ```pseudo
-objectName["propertyName"]
+objectName['property Name']
 ```
 
 ```js
-person['lastName'];
+person['last Name'];
 ```
 
 ## Object Methods
@@ -169,3 +169,9 @@ Person {
 person.greeting();
 // Output: "Hi, I am Elizabeth Harmon"
 ```
+
+## Video Walkthrough
+
+Watch this video to learn how to create JavaScript objects containing different types of data and functions, and access their properties.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MsvR9zVM8dI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

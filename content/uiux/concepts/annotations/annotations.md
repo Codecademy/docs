@@ -8,7 +8,7 @@ Tags:
   - 'UX'
 CatalogContent:
   - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 **Annotations** are often in the form of notes or comments that are included in design [deliverables](https://www.codecademy.com/resources/docs/uiux/deliverables). Annotations within a design deliverable look like this:

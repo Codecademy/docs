@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Java, **classes** are blueprints or templates for objects in Java. They detail the general structure and data for an object including information such as properties, attributes, and method behavior.
+In Java, **classes** are blueprints or templates for objects in Java. They detail the general structure and data for an object including information such as properties, attributes, and method behavior. Classes are classified as a [reference data type](https://www.codecademy.com/resources/docs/java/data-types#reference-data-types).
 
 ## Syntax
 

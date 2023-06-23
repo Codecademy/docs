@@ -8,7 +8,7 @@ Tags:
   - 'UX'
 CatalogContent:
   - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 **Navigation** allows users to travel through a digital interface and interact with elements such as [links](https://www.codecademy.com/resources/docs/html/links) and [buttons](https://www.codecademy.com/resources/docs/html/elements/button). Interacting with these elements can result in internal or external navigation.

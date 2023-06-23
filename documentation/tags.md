@@ -13,11 +13,13 @@ Anchor
 Android
 Angular
 Animation
+Anonymous Functions
 APIs
 Arguments
 Arithmetic
 Arrays
 ASP.NET
+Assignment
 Asymptotic Notation
 Async Await
 Attributes
@@ -39,6 +41,7 @@ Bootstrap
 Borders
 Box Model
 Box Plot
+Break
 Browser Compatibility
 Browsers
 Bubble Sort
@@ -50,6 +53,7 @@ Cryptocurrency
 Classes
 Cloud Computing
 Code Editors
+Conditionals
 Collections
 Colors
 Combinators
@@ -58,16 +62,20 @@ Comments
 Comparison
 Compilation
 Components
+Composition
 Computer Vision
+CMS
 Concatenation
 Conceptual
 Const
 Constructors
+Continue
 Control Flow
 CRUD
 CSV
 Cybersecurity
 D3
+Data
 Data Structures
 Data Types
 Database
@@ -98,6 +106,8 @@ Else
 Encapsulation
 Encoding
 Enum
+Environment Variables
+Equality
 Error Handling
 Errors
 ES6
@@ -106,6 +116,7 @@ Events
 Exceptions
 Expo
 Express
+Favicon
 Files
 Finance
 Firebase
@@ -114,12 +125,15 @@ Flexbox
 Flutter
 Fonts
 For
+ForEach
 Foreign Key
 Form
 Formatting
 Frameworks
 Functions
 Functional Programming
+Functors
+Geometry
 Ggplot2
 Git
 GitHub
@@ -170,9 +184,12 @@ Logical
 Logistic Regression
 Loops
 Map
+Machine Learning
 Margin
+Math
 MATLAB
 Matplotlib
+Matrices
 Media Queries
 Memory
 Metadata
@@ -185,6 +202,7 @@ Naive Bayes
 Natural Language Processing
 Netlify
 Networking
+Neural Networks
 NLP
 Node
 NPM
@@ -196,6 +214,7 @@ OOP
 Open Source
 Operating Systems
 Operators
+Optimization
 Optionals
 Output
 p5
@@ -204,11 +223,13 @@ Padding
 Pandas
 Paragraph
 Parameters
+Perceptrons
 Phaser
 Physics
 Pointers
 Positioning
 PostgreSQL
+Precedence
 Primary Key
 Print
 Probability
@@ -237,6 +258,7 @@ Scope
 Script
 Seaborn
 Search
+Search Algorithms
 Selectors
 Semantic
 Servers
@@ -259,6 +281,7 @@ Structure
 Style
 SwiftUI
 SwiftUI Views
+SwiftUI ViewModifiers
 Switch
 Symbol
 Syntax
@@ -274,6 +297,7 @@ Title
 Transitions
 Transpilation
 Trees
+Trigonometry
 Try
 Tuples
 Types
@@ -281,6 +305,7 @@ Type Guard
 Type Narrowing
 Typography
 UI
+Unary
 Union
 Unicode
 Units
@@ -301,8 +326,10 @@ VR
 Vue
 Web3
 WebRTC
+Weight & Bias
 While
 Whiteboarding
+WordPress
 World Wide Web
 Xcode
 ```

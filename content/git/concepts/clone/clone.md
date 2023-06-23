@@ -20,7 +20,7 @@ Many common Git commands are performed only on a local repository, that is, a re
 
 The syntax for cloning in Git via HTTPS is this:
 
-```psuedo
+```pseudo
 git clone https://github.com/repository/URL.git
 ```
 

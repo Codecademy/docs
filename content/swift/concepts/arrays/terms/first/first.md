@@ -12,9 +12,9 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.first()`** method returns the first element of the array that fulfills the condition, or `nil` if there is no element that fulfills the condition.
+The **`.first()`** method returns the first element of the array that fulfills the specified condition. Otherwise, it returns `nil`.
 
-> **Note:** `.first()` is an method while `.first` is a property. For details about the `.first` array property see the bottom part of this document.
+> **Note:** `.first()` is a method while `.first` is a property. Details about the `.first` array property can be found near the bottom of this entry.
 
 ## Syntax
 
@@ -22,21 +22,19 @@ The **`.first()`** method returns the first element of the array that fulfills t
 arrayName.first(where: { condition })
 ```
 
-The `.first()` method takes one argument:
-
-- `condition`, a [closure](https://www.codecademy.com/resources/docs/swift/closures) that takes an element of the array as its argument and returns a Boolean value indicating whether the element is a match.
+The `.first()` method takes a single `condition` parameter. It is a [closure](https://www.codecademy.com/resources/docs/swift/closures) that returns a [boolean](https://www.codecademy.com/resources/docs/general/data-types/boolean) value indicating whether a given array element is a match.
 
 ## Example
 
 ```swift
-var values = [3,4,5,6,7]
+var values = [3, 4, 5, 6, 7]
 
 let greaterThanFive = values.first(where: { $0 > 5 })
 
 print(greaterThanFive!) // Force unwrapping optional
 ```
 
-In the example above, the `.first()` method is searching through the `values` array. The condition is if an item in the array is greater than `5` and will return the first item that meets that condition.
+In the example above, the `.first()` method is searching through the `values` array. The first item that meets the condition of being greater than `5` will be returned.
 
 This will output:
 

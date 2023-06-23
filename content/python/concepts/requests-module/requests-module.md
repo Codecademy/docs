@@ -23,7 +23,7 @@ The HTTP request returns a Response Object with all the response data (content, 
 
 ## Installation
 
-Installing the `requests` module is done by running the following [pip](https://www.codecademy.com/resources/docs/python/pip) command in the [terminal](https://www.codecademy.com/resources/docs/general/terminal):
+Installing the `requests` module is done by running the following [pip](https://www.codecademy.com/resources/docs/python/pip) command in the [terminal](https://www.codecademy.com/resources/docs/command-line/terminal):
 
 ```shell
 pip install requests
