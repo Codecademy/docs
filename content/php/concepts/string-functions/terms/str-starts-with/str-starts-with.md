@@ -29,7 +29,6 @@ The `$stringstartswith` function returns true if the `$str` starts with the `$su
 
 ## Codebyte Example
 
-The example below checks if the string `Peanut Butter Jelly` starts with the letter `P`.
 The example below gives three demonstration of the `str_starts_with()` function operating on the same string(single character, multiple characters and a case-sensitive example)
 
 ```codebyte/php
