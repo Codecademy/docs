@@ -32,8 +32,8 @@ In the example below, the `Spacer()` in the `HStack` fills the view to the left 
 ```swift
 var body: some View {
   HStack {
-  	Spacer()
-  	Text("Example")
+    Spacer()
+    Text("Example")
   }
 }
 ```
@@ -47,9 +47,9 @@ In the next example below, each `Spacer()` fills the view on both the left and r
 ```swift
 var body: some View {
   HStack {
-  	Spacer()
-  	Text("Example")
-  	Spacer()
+    Spacer()
+    Text("Example")
+    Spacer()
   }
 }
 ```
@@ -57,4 +57,3 @@ var body: some View {
 This will display the following:
 
 ![SwiftUI Spacer Example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-spacer-left-and-right.png)
-
