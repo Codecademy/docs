@@ -82,7 +82,7 @@ The output for the above code will be:
 
 The step by step execution of the above code is as follows:
 
-- Since 'b' is greater than 'a' (20 > 15), here 'b' is replaced with 'b - a', which gives us 'b = 20 - 15 = 5'.
+- Since `b` is greater than `a` (20 > 15), here `b` is replaced with `b - a`, which gives results in `b = 20 - 15 = 5`.
 - Now 'a' is 15 and 'b' is 5.
 - The result is 'a= 15-5=10' after replacing 'a' with 'a-b'.
 - The values are now 'a = 10' and 'b = 5'.
