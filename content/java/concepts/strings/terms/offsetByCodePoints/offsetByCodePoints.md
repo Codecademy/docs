@@ -26,7 +26,7 @@ Strings.offsetByCodePoints(int startIndex,int  offsetIndex)
 
 ## Example 1
 
-In this example, the code point offset is set to 7, which means the new index will be 7. It moves the index forward by 7 code points, effectively pointing to the character `'W'` in the string.
+In this example, the code point offset is set to `7`, which means the new index will be `7`. This results in the new index pointing to the character `'W'` in the string.
 
 ```java
 class OffsetByCodePoints {
