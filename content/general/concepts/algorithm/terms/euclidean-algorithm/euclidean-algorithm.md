@@ -1,5 +1,5 @@
 ---
-Title: 'Euclidean algorithm'
+Title: 'Euclidean Algorithm'
 Description: 'A simple and efficient method for finding the highest common factor (HCF), also known as the greatest common divisor (GCD), of two numbers.'
 Subjects:
   - 'Computer Science'
