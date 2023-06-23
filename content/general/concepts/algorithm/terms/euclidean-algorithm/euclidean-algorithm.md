@@ -130,7 +130,7 @@ The step by step execution of this example is as follows:
 
 - Method 1:
 
-  - The first code uses a simple iterative approach to find the greatest common divisor (GCD) of two numbers. It starts by finding the minimum value between `a` and `b`, then iterates from that value down to 1, checking if it divides both `a` and `b`. Therefore, the time complexity of this code is **O(min(a, b))**.
+  - The first example uses a simple iterative approach to find the greatest common divisor (GCD) of two numbers. It starts by finding the minimum value between `a` and `b`, then iterates from that value down to 1, checking if it divides both `a` and `b`. Therefore, the time complexity of this code is *O(min(a, b))*.
 
 - Method 2:
 
