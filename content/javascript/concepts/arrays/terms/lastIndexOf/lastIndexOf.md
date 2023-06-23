@@ -14,36 +14,18 @@ CatalogContent:
 
 The `.lastIndexOf()` array method returns the last index at which an element can be found. Otherwise, it returns `-1` if the element is not found.
 
-The array is searched backward, starting at `fromIndex`. If `fromIndex` is undefined, the search starts from the last index.
-
 ## Syntax
 
-```js
+```pseudo
 array.lastIndexOf(searchElement, fromIndex);
 ```
 
 - `searchElement`: The element we are looking for.
-- `fromIndex` (optional): The starting index position that search begins.
+- `fromIndex` (optional): The starting index position that search begins. The default value of `fromIndex` is `array.length - 1`. Therefore, if undefined, the search starts from the last index.
 
 A negative `fromIndex` will offset from the end of the array to begin search. The array is still searched backward.
 
-**Note:** The default value of `fromIndex` is `array.length - 1`.
-
-## Example 1
-
-Find the last index of `2` in the `numbers` array:
-
-```js
-const numbers = [1, 2, 3];
-const lastIndexOf2 = numbers.lastIndexOf(2);
-
-console.log(lastIndexOf2);
-// Output: 1
-```
-
-Since the `fromIndex` is not specified, the search will start at the end of the array. Then, iterating backward, the element we are searching for is found at index 1.
-
-## Example 2
+## Examples
 
 If the element is not found, the result will be `-1`:
 
@@ -56,9 +38,7 @@ console.log(lastIndexOfCherry);
 // Output: -1
 ```
 
-## Example 3
-
-Check if the color 'blue' is in the `rainbow` array, before the fifth element:
+If the color blue is in the `rainbow` array, before the fifth element:
 
 ```js
 const rainbow = [
@@ -71,36 +51,22 @@ const rainbow = [
   'violet',
 ];
 
-const checkIndigo = rainbow.lastIndexOf('indigo', 4);
+const checkIndigo = rainbow.lastIndexOf('indigo');
 
 console.log(checkIndigo);
-// Output: -1
+// Output: 5
 ```
 
 Since `fromIndex` is assigned to 4, the search will begin at `blue` and search all previous elements before it. The element `indigo` will not be found by the search because none of the elements after `blue` will be searched.
 
-## Example 4
-
-Multiple matches will only return the last index where a match occurs:
-
-```js
-const repeatGreeting = ['hello world', 'hello world', 'hello world'];
-
-const lastGreeting = repeatGreeting.lastIndexOf('hello world');
-
-console.log(lastGreeting);
-// Output: 2
-```
-
 ## Codebyte Example
 
-The example below defines a new array `cities`. The array lists the city 'Berlin' twice. `lastIndexOf` array method finds Berlin's last position in the array.
+The example below defines a new array `cities`. The array lists the city 'Berlin' twice (multiple matches will only return the last index within the index range where a match occurs):
 
 ```codebyte/javascript
-
 const cities = ['London', 'New York', 'Sydney', 'Berlin', 'Paris', 'Berlin', 'Dublin'];
 
-const findCityPosition = cities.lastIndexOf('Berlin', cities.length);
+const findCityPosition = cities.lastIndexOf('Berlin', cities.length - 3);
 
 console.log(findCityPosition);
 ```
