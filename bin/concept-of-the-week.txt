@@ -1,1 +1,1 @@
-content/javascript/concepts/enums/enums.md
+content/general/concepts/cache/cache.md

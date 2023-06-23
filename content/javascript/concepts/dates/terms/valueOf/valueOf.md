@@ -34,3 +34,13 @@ console.log(date);
 console.log(date.valueOf());
 // Output: 915177600000
 ```
+
+## Codebyte Example
+
+The following is runnable, and demonstrates the use of the `.valueOf()` method.
+
+```codebyte/javascript
+const exampleDate = new Date('May 29, 2023 20:29:31');
+
+console.log(exampleDate.valueOf());
+```
