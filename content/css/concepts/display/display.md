@@ -92,7 +92,7 @@ Elements with `display: none;` are not rendered and are completely hidden from t
 }
 ```
 
-### 5. Display: flex
+### 5. `display: flex`
 
 Elements with `display: flex;` create a flex container, allowing you to build flexible and responsive layouts. Flex items inside the container can be positioned and resized using flexbox properties.
 
