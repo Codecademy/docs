@@ -7,6 +7,7 @@ Tags:
   - 'Algorithms'
   - 'Arithmetic'
 CatalogContent:
+  - 'learn-java'
   - 'paths/computer-science'
 ---
 
