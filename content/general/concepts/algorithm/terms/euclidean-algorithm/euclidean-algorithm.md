@@ -124,7 +124,7 @@ The step by step execution of this example is as follows:
 - In the first recursive cycle, the value of `a % b` will be `150`. Since 150 is smaller than 500, it cannot be divided evenly by 500. Therefore, the remainder is equal to the original number, which is 150. Consequently, the next arguments for `EuclideanOptimized` are `(500, 150)`.
 - The function is restarted with the arguments `(500, 150)`. Upon entering the function, the `if` statement is encountered. However, since `b` is not equal to `0`, the program moves on to the next recursive cycle with the arguments `(150, 50)` ( `500 % 150` yields `50`).
 - Once again, the function is initiated with arguments `(150, 50)`. As in previous iterations, `b` is not equal to `0`, and thus the program moves on to the next recursive cycle. The second argument in this case is determined by calculating the modulus `150 % 50`, which yields the argument values `(50, 0)`.
-- In this recursive cycle, when the code enters the `if` statement, the condition `b == 0` is satisfied. Therefore, the function will return `a`, and the highest common factor (HCF) for the input will be 50.
+- In this recursive cycle, when the code enters the `if` statement, the condition `b == 0` is satisfied. Therefore, the function will return `a`,  which has a value of `50`, the highest common factor for the original arguments.
 
 ## Time complexities
 
