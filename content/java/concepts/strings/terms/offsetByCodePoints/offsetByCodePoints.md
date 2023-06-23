@@ -22,7 +22,7 @@ Strings.offsetByCodePoints(int startIndex,int  offsetIndex)
 ```
 
 - `startIndex` (int): The starting index in the string from which the offset is applied.
-- `OffsetIndex` (int): The offset, in terms of code points, by which the index is adjusted. Positive values move the index forward, and negative values move it backward.
+- `offsetIndex` (int): The offset, in terms of code points, by which the index is adjusted. Positive values move the index forward, and negative values move it backward.
 
 ## Example 1
 
