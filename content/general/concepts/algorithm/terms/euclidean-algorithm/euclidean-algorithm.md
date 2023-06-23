@@ -119,7 +119,7 @@ The output for the above code will be:
 
 The step by step execution of this example is as follows:
 
-- Given the input of two integers: `a = 150` and `b = 500`, the code proceeds to enter the `EuclideanOptimized` function. The first `if` statement encountered checks if `b` is equal to 0. In this particular case, `b` is not equal to 0, resulting in the program exiting the `if` statement.
+- Given the input of two integers: `a = 150` and `b = 500`, the code steps into the `EuclideanOptimized` function. The first `if` statement encountered checks if `b` is equal to `0`. In this particular case, `b` is not equal to `0`, resulting in the program exiting the `if` statement.
 - Then the code proceeds to return `EuclideanOptimized`, but with the arguments changed to `(b, a % b)`.
 - In the first recursive cycle, the value of `a % b` will be `150`. Since 150 is smaller than 500, it cannot be divided evenly by 500. Therefore, the remainder is equal to the original number, which is 150. Consequently, the next arguments for `EuclideanOptimized` are `(500, 150)`.
 - The function is restarted with the arguments `(500, 150)`. Upon entering the function, the `if` statement is encountered. However, since `b` is not equal to 0, the program exits the `if` statement. The next recursive cycle will use the arguments `(150, 50)`, which are obtained by calculating the modulus of `500 % 150`.
