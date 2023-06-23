@@ -93,6 +93,7 @@ console.log(lastGreeting);
 ```
 
 ## Codebyte Example
+
 The example below defines a new array `cities`. The array lists the city 'Berlin' twice. `lastIndexOf` array method finds Berlin's last position in the array.
 
 ```codebyte/javascript
