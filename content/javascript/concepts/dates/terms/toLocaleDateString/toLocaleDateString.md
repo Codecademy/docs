@@ -87,3 +87,21 @@ The output will be:
 ```shell
 Monday April 11, 2022
 ```
+
+## Codebyte Example
+
+In the following example the variables `region` and `options` can be modified, to print the Date in a custom format:
+
+```codebyte/javascript
+const today = new Date(Date.now());
+
+const region = 'de-DE';
+const options = {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+  weekday: 'long',
+};
+
+console.log(today.toLocaleDateString(region, options));
+```

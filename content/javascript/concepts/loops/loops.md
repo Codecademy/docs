@@ -1,6 +1,6 @@
 ---
 Title: 'Loops'
-Description: 'A loop is a programming tool that is used to repeat a set of instructions. Iterate is a generic term that means “to repeat” in the context of loops. A loop will continue to iterate until a specified condition, commonly known as a stopping condition, is met.'
+Description: 'A loop is a programming tool that is used to repeat a set of instructions.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -36,45 +36,70 @@ while (i < 5) {
 }
 ```
 
+The output would be:
+
+```shell
+0
+1
+2
+3
+4
+```
+
 ## Do…While Loop
 
-A `do`...`while` statement creates a loop that executes a block of code once, checks if a condition is true, and then repeats the loop as long as the condition is true. They are used when you want the code to always execute at least once. The loop ends when the condition evaluates to false.
+A `do`...`while` statement creates a loop that executes a block of code once, checks if a condition is true, and then repeats the loop as long as the condition remains true. They are used when the loop body needs to be executed at least once. The loop ends when the condition evaluates to false.
 
 ```js
-x = 0;
-i = 0;
+let x = 0;
+let i = 0;
 
 do {
   x = x + i;
   console.log(x);
   i++;
 } while (i < 5);
+```
 
-// Output: 0 1 3 6 10
+The output would be:
+
+```shell
+0
+1
+3
+6
+10
 ```
 
 ## For Loop
 
 A `for` loop declares looping instructions, with three important pieces of information separated by semicolons `;`:
 
-- The initialization defines where to begin the loop by declaring (or referencing) the iterator variable
-- The stopping condition determines when to stop looping (when the expression evaluates to false)
-- The iteration statement updates the iterator each time the loop is completed
+- The initialization defines where to begin the loop by declaring (or referencing) the iterator variable.
+- The stopping condition determines when to stop looping (when the expression evaluates to false).
+- The iteration statement updates the iterator each time the loop is completed.
 
 ```js
 for (let i = 0; i < 4; i += 1) {
   console.log(i);
 }
+```
 
-// Output: 0, 1, 2, 3
+The output would be:
+
+```shell
+0
+1
+2
+3
 ```
 
 ## `for...of` Loop
 
 A `for...of` loop iterates over an object's values rather than their keys. This allows for direct access to the items, as opposed to index-reference. Examples of iterable objects include:
 
-- An `Array` of elements.
-- A `String` of characters.
+- An [`Array`](https://www.codecademy.com/resources/docs/javascript/arrays) of elements.
+- A [`String`](https://www.codecademy.com/resources/docs/javascript/map) of characters.
 - A `Map` of key/value pairs.
 
 ```js
@@ -95,7 +120,7 @@ cherry
 
 ## `for...in` Loop
 
-A `for..in..` loop iterates over any object with string type keys and allows for access to the values by index-reference.
+A `for..in..` loop iterates over any object with string type keys and allows for access to the values by index-reference. The following accesses the keys:
 
 ```js
 const shoppingCart = { banana: 2, apple: 5, cherry: 0 };
@@ -113,7 +138,11 @@ apple
 cherry
 ```
 
+To access the values:
+
 ```js
+const shoppingCart = { banana: 2, apple: 5, cherry: 0 };
+
 for (const fruit in shoppingCart) {
   console.log(shoppingCart[fruit]);
 }
@@ -139,7 +168,7 @@ for (let i = items.length - 1; i >= 0; i -= 1) {
 }
 ```
 
-The output should look like:
+The output would be:
 
 ```shell
 2. cherry
@@ -152,11 +181,19 @@ The output should look like:
 An array’s length can be evaluated with the `.length` property. This is extremely helpful for looping through arrays, as the `.length` of the array can be used as the stopping condition in the loop.
 
 ```js
-for (let i = 0; i < array.length; i++) {
-  console.log(array[i]);
-}
+const fish = ['salmon', 'clown', 'whiting'];
 
-// Output: Every item in the array
+for (let i = 0; i < fish.length; i++) {
+  console.log(fish[i]);
+}
+```
+
+The output would be:
+
+```shell
+salmon
+clown
+whiting
 ```
 
 ## Looping Through Objects
@@ -172,7 +209,12 @@ const objectK = {
 const myEntries = Object.entries(objectK);
 
 console.log(myEntries);
-// Output: [ [ 'name', 'Codecademy' ], [ 'age', 10 ] ]
+```
+
+The output would be:
+
+```shell
+[ [ 'name', 'Codecademy' ], [ 'age', 10 ] ]
 ```
 
 Next, a `for..of` loop can be used to print the `key`'s and `value`'s for `myEntries`:
@@ -183,7 +225,7 @@ for (const [key, value] of myEntries) {
 }
 ```
 
-The output will look like this:
+The output would be:
 
 ```shell
 name: Codecademy
@@ -192,9 +234,9 @@ age: 10
 
 ## Break Keyword
 
-Within a loop, the break keyword may be used to exit the loop immediately, continuing execution after the loop body.
+Within a loop, the `break` keyword may be used to exit the loop immediately, continuing execution after the loop body.
 
-Here, the break keyword is used to exit the loop when i is greater than 5.
+Here, the `break` keyword is used to exit the loop when `i` is greater than `5`.
 
 ```js
 for (let i = 0; i < 99; i += 1) {
@@ -203,8 +245,17 @@ for (let i = 0; i < 99; i += 1) {
   }
   console.log(i);
 }
+```
 
-// Output: 0 1 2 3 4 5
+The output would be:
+
+```shell
+0
+1
+2
+3
+4
+5
 ```
 
 ## Nested For Loop
@@ -221,7 +272,7 @@ for (let outer = 0; outer < 2; outer += 1) {
 }
 ```
 
-The output should look like:
+The output would be:
 
 ```shell
 0-0

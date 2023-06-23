@@ -8,10 +8,10 @@ Tags:
   - 'UX'
 CatalogContent:
   - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-**Images** come in different forms, like photographs, illustrations, or digital art. In contrast to [animations](https://www.codecademy.com/resources/docs/uiux/animations) and [videos](https://www.codecademy.com/resources/docs/uiux/videos), images are static. However, designers may add motion to images, transforming them into animations.
+**Images** come in different forms, like photographs, illustrations, or digital art. In contrast to [animations](https://www.codecademy.com/resources/docs/uiux/animation) and [videos](https://www.codecademy.com/resources/docs/uiux/video), images are static. However, designers may add motion to images, transforming them into animations.
 
 Images serve many purposes in digital products. Some images are decorative and add to the visual appeal of the interface. Other images are functional, such as product photos or illustrations of a technical process. Regardless of their purpose, images must be [accessible](https://www.codecademy.com/resources/docs/uiux/accessibility) to be effective. Resources from [WebAIM](https://webaim.org/techniques/images/) and [The A11Y Project](https://www.a11yproject.com/resources/#images-and-icons) provide considerations for designing accessible images and writing alternative text.
 

@@ -20,5 +20,5 @@ jobs:
           pullRequestMerged: |
              👋 @{{ author }}
              You have contributed to Codecademy Docs, and we would like to know more about you and your experience.
-             Please take a minute to fill out [this four question survey](https://codecademyready.typeform.com/to/F7tcd9gi) to help us better understand Docs contributions and how we can improve the experience for you and our learners.
+             Please take a minute to fill out [this four question survey](https://codecademyready.typeform.com/to/O3hzYoBB) to help us better understand Docs contributions and how we can improve the experience for you and our learners.
              Thank you for your help!

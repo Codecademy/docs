@@ -32,5 +32,5 @@ topBabyNames.forEach { name in
 }
 // Output:
 // Liam is the coolest name.
-// Jackson is the coolest.
+// Jackson is the coolest name.
 ```

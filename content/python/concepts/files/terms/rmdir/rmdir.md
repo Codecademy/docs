@@ -35,7 +35,7 @@ The `.rmdir()` method works in the following ways:
 - A `"folder_name"` that will be successfully deleted if the folder exists in the current directory.
 - A `"folder_path"` can also be passed if it exists outside of the current directory.
 
-Files can be removed using the [`.remove()`](https://www.codecademy.com/resources/docs/python/file-methods/remove) method.
+Files can be removed using the [`.remove()`](https://www.codecademy.com/resources/docs/python/files/remove) method.
 
 ## Example
 

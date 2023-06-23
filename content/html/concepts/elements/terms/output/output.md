@@ -27,7 +27,7 @@ The `<output>` element requires opening and closing tags that wrap around the re
 
 The `<output>` element takes the following attributes:
 
-- `for` indicates the id of one or multiple elements (separated by a space) whose values are factored in the calculation.
+- `for` indicates the [id](https://www.codecademy.com/resources/docs/html/attributes/id) of one or multiple elements (separated by a space) whose values are factored in the calculation.
 - `form` indicates one or more forms the `<output>` element belongs to.
 - `name` indicates the name of the element.
 

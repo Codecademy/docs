@@ -18,7 +18,7 @@ A **pointer** is a [variable](https://www.codecademy.com/resources/docs/c/variab
 
 ## Understanding Pointers
 
-Data is stored in a computer's [memory](https://www.codecademy.com/resources/docs/general/what-is-ram). A variable represents a specific location within that memory and consists of three parts:
+Data is stored in a computer's [memory](https://www.codecademy.com/resources/docs/general/computer-hardware/ram). A variable represents a specific location within that memory and consists of three parts:
 
 - An identifier (name)
 - A value

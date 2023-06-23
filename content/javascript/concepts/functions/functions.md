@@ -143,6 +143,12 @@ JavaScript uses the `void` keyword for denoting expressions that return a value 
 
 ```codebyte/javascript
 void function printHello() {
-  console.log("Hello, Code Ninjas!");
+  console.log("Hello, Codecademy!");
 }();
 ```
+
+## Video Walkthrough
+
+Watch this video to learn how to define basic functions and invoke them in JavaScript.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RwgA0W0kX-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

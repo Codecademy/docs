@@ -8,7 +8,7 @@ Tags:
   - 'UX'
 CatalogContent:
   - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 **Wireframe elements** are [low-fidelity](https://www.codecademy.com/resources/docs/uiux/low-fidelity) components that help communicate ideas during the [wireframing](https://www.codecademy.com/resources/docs/uiux/wireframe) process.
@@ -23,6 +23,6 @@ Examples of wireframe elements include:
 - [Navigation](https://www.codecademy.com/resources/docs/uiux/navigation)
 - [Search Fields](https://www.codecademy.com/resources/docs/uiux/search-fields)
 - [Text](https://www.codecademy.com/resources/docs/uiux/text)
-- [Buttons](https://www.codecademy.com/resources/docs/uiux/buttons)
-- [Images](https://www.codecademy.com/resources/docs/uiux/images)
-- [Videos](https://www.codecademy.com/resources/docs/uiux/videos)
+- [Buttons](https://www.codecademy.com/resources/docs/uiux/button)
+- [Images](https://www.codecademy.com/resources/docs/uiux/image)
+- [Videos](https://www.codecademy.com/resources/docs/uiux/video)

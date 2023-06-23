@@ -20,7 +20,7 @@ SQL supports a range of data types across widely used classes of data, such as t
 - String or character types
 - Temporal types for dates and times
 
-These data types are found across all flavors of SQl; however, some versions of SQL may support several distinct data types of a particular class while others may only have one (the definitions below are specific to PostgreSQL).
+These data types are found across all flavors of SQL. However, some versions of SQL may support several distinct data types of a particular class while others may only have one (the definitions below are specific to PostgreSQL).
 
 - `integer`: A whole number between -2147483648 and 2147483647. Postgres also includes alternatives `smallint` and `bigint`.
 - `real`: A floating-point type that has variable-precision with a maximum range of 6 decimals.

@@ -8,7 +8,7 @@ Tags:
   - 'UX'
 CatalogContent:
   - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 **Text properties** refer to the text’s style settings, such as typeface, size, spacing, and alignment. In [design software](https://www.codecademy.com/resources/docs/uiux/design-software), default text properties are applied, and each property can be adjusted to suit the needs of the design.

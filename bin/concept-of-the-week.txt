@@ -1,1 +1,1 @@
-content/uiux/concepts/user-research/user-research.md
+content/general/concepts/cache/cache.md

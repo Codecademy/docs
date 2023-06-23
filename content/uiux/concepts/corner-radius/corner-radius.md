@@ -8,7 +8,7 @@ Tags:
   - 'UX'
 CatalogContent:
   - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 The **corner radius** indicates the amount of rounding on the cornders of a shape. If the corner radius is zero, then there is no rounding, meaning that the corners are completely squared off. Increasing the value of the corner radius adds more rounding to the corners.

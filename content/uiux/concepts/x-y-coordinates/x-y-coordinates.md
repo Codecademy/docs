@@ -8,7 +8,7 @@ Tags:
   - 'UX'
 CatalogContent:
   - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 An **X coordinate** and a **Y coordinate** indicate the location of a point along the X-axis (horizontal) and Y-axis (vertical). X and Y coordinates are written in parenthesis: (9, 30). The first value is the X coordinate and the second value is the Y coordinate.
