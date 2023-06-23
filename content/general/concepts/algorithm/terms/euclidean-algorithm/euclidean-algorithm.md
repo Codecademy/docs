@@ -17,7 +17,9 @@ There are multiple methods to solve and find the highest common factor (HCF) of 
 
 ## Method 1
 
-In the basic approach, the purpose is to find the GCD. To do this, find the minimum value between the two given numbers. Then, divide it by both numbers. If the number does not divide both numbers evenly, decrease it by `1` and continue dividing. Lastly, repeat this process until the minimum value can divide both numbers evenly. At this point, the minimum value is the HCF (highest common factor). The following code illustrates this method in Java:
+In the basic approach, the purpose is to find the GCD. To do this, find the minimum value between the two given numbers. Then, divide both numbers by the minimum value. If either of the divisions results in a remainder, decrease the minimum value by `1` and continue dividing. This process repeats until the minimum value can divide both numbers evenly. At this point, the minimum value is the HCF. 
+
+The following code illustrates this method in Java:
 
 ```java
 public static void main(String[] args) {
