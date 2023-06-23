@@ -44,9 +44,6 @@ The output for the above code will be:
 5
 ```
 
-## Approach with Euclidean algorithm
-
-Here two methods are shown using Euclidean algorithm to find the HCF of two numbers. So let's take two numbers as 'a' and 'b' as our inputs.
 
 ## Method 2
 
