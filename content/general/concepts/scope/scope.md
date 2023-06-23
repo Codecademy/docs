@@ -32,8 +32,6 @@ function main()
     display blockVariable
         
   display globalVariable
-  display blockVariable
-  display loopVariable
 end function
 ```
 
