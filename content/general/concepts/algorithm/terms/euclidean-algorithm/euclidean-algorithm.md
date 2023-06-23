@@ -142,8 +142,8 @@ The step by step execution of this example is as follows:
 
 To summarize, the time complexities of the three codes are as follows:
 
-- Code 1: **O(min(a, b))**
-- Code 2: **O(max(a, b))**
-- Code 3: **O(log(max(a, b)))**
+- Method 1: *O(min(a, b))*
+- Method 2: *O(max(a, b))*
+- Method 3: *O(log(max(a, b)))*
 
 > **Note:** These time complexities typically represent the worst-case scenarios and assume that the `a` and `b` values are relatively large. In practice, the actual time taken by the algorithms can vary depending on the input values.
