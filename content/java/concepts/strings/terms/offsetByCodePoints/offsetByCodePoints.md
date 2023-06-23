@@ -18,7 +18,7 @@ It is useful when working with strings that contain characters with multiple cod
 ## Syntax
 
 ```pseudo
-Strings.offsetByCodePoints(int startIndex,int  offsetIndex)
+Strings.offsetByCodePoints(startIndex, offsetIndex)
 ```
 
 - `startIndex` (int): The starting index in the string from which the offset is applied.
