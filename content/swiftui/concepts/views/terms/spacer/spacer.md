@@ -1,5 +1,5 @@
 ---
-Title: 'Spacer()'
+Title: 'Spacer'
 Description: 'Creates space between views.'
 Subjects:
   - 'Computer Science'
