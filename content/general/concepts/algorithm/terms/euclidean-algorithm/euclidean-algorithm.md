@@ -88,7 +88,7 @@ The step by step execution of the above code is as follows:
 - The values are now 'a = 10' and 'b = 5'.
 - The process continues, `a` is replaced with `a - b`, resulting in `a = 10 - 5 = 5`.
 - Now 'a' and 'b' are both equal to 5.
-- At this point, the while loop exits, and we return 'a' as our answer, which is 5.
+- At this point, the while loop exits, and `a` is returned. Therefore, the HCF of `15` and `20` is `5`.
 - Therefore, the highest common factor (HCF) of (15, 20) is 5.
 
 ## Method 3
