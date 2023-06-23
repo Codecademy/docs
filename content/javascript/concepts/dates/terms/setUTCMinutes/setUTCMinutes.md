@@ -20,36 +20,27 @@ The **.setUTCMinutes()** method of [Date](https://www.codecademy.com/resources/d
     setUTCMinutes(minutes, seconds)
     setUTCMinutes(minutes, seconds, ms)
 ```
-<style>
-    .par{
-        display: inline-block; 
-        background-color: rgba(63, 66, 71, 255); 
-        border: 1px solid rgba(63, 66, 71, 255); 
-        border-radius: 5px; 
-        padding: 1px 4px;
-    }
-</style>
 ## Parameters
-<span class='par'>minutes</span>
+`minutes`
 <br/>
 An integer value between 0 and 59 representing the minutes.
 <br/>
+
+`seconds`
 <br/>
-<span class='par'>seconds</span>
+An integer value between 0 and 59 representing the seconds. If `seconds` is specified, you must also specify `minutes`.
 <br/>
-An integer value between 0 and 59 representing the seconds. If <span class='par'>seconds</span> is specified, you must also specify <span class='par'>minutes</span>.
+
+`ms`
 <br/>
-<br/>
-<span class='par'>ms</span>
-<br/>
-An integer value between 0 and 999 representing the milliseconds. If <span class='par'>ms</span> is specified, you must also specify <span class='par'>minutes</span> and <span class='par'>seconds</span>.
+An integer value between 0 and 999 representing the milliseconds. If `ms` is specified, you must also specify `minutes` and `seconds`.
 <br/>
 <br/>
 <br/>
-If <span class='par'>seconds</span> and <span class='par'>ms</span> are not specified, the values returned from [getUTCSeconds()](https://www.codecademy.com/resources/docs/javascript/dates/getUTCSeconds) and [getUTCMilliseconds()](https://www.codecademy.com/resources/docs/javascript/dates/getUTCMilliseconds) methods are used.
+If `seconds`and `ms` are not specified, the values returned from [getUTCSeconds()](https://www.codecademy.com/resources/docs/javascript/dates/getUTCSeconds) and [getUTCMilliseconds()](https://www.codecademy.com/resources/docs/javascript/dates/getUTCMilliseconds) methods are used.
 
 ## Return Value
-Changes the [Date](https://www.codecademy.com/resources/docs/javascript/dates) instance and return its new timestamp. If a parameter is <span class = 'par'>NaN</span>, the date is set to Invalid Date and <span class = 'par'>NaN</span> is returned.
+Changes the [Date](https://www.codecademy.com/resources/docs/javascript/dates) instance and return its new timestamp. If a parameter is `NaN`, the date is set to Invalid Date and `NaN` is returned.
 
 ## **Example**
 ```js
