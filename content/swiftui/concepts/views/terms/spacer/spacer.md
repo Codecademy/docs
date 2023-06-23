@@ -1,6 +1,6 @@
 ---
 Title: 'Spacer()'
-Description: 'Creates an adaptive view with no content that expands as much as it can.'
+Description: 'Creates space between views.'
 Subjects:
   - 'Computer Science'
   - 'Developer Tools'
@@ -17,24 +17,17 @@ CatalogContent:
   - 'paths/builds-ios-apps-with-swiftui'
 ---
 
-The **`Spacer`** is an adaptive view that expands as much as possible within a stack, such as a `HStack` or `VStack`.
+A **`Spacer`** view is an adaptive view that creates space between views. It expands in dimensions as much as the parent view will allow.
 
 ## Syntax
 
 ```pseudo
-var body: some View {
-  HStack {
-  	Text(name)
-  	Spacer()
-  }
-}
+Spacer()
 ```
-
-The `Spacer` is an adaptive view that sits within a stack, expanding as much as the parent view will allow.
 
 ## Examples
 
-In the example below, the `Spacer` in the `HStack` fills the view to the left of the `Text`, effectively pushing the `Text` to the right.
+In the example below, the `Spacer()` in the `HStack` fills the view to the left of the `Text`, effectively pushing the `Text` to the right.
 
 ```swift
 var body: some View {
