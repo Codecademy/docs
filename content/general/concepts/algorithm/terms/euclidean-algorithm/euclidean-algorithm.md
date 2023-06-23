@@ -47,7 +47,9 @@ The output for the above code will be:
 
 ## Method 2: A Basic Euclidean Algorithm Approach
 
-In this method, the aim is to compare both 'a' and 'b'. Whichever number is greater,  the smaller number is subtracted from the larger number. It also updates the value of the larger number accordingly. If 'a' is greater than 'b', replace 'a' with 'a - b', and if 'b' is greater than 'a', replace 'b' with 'b - a'. Repeat this step until 'a' becomes equal to 'b'. Once 'a' and 'b' are equal, return 'a' as the answer. At this point, the value of 'a' (which is equal to 'b') represents the highest common factor (HCF) of the original values of 'a' and 'b'. The following code illustrates this method in Java:
+In this method, the aim is to compare both `a` and `b`. The process begins by identifying the larger value and subtracting the smaller number from the larger number. The larger number is now replaced with the result of the subtraction. These steps repeat until the values are equal. This convergent value is the HCF. 
+
+The following code illustrates this method in Java:
 
 ```java
 class Euclidean1 {
