@@ -1,7 +1,7 @@
 ---
 Title: 'Scope'
 Description: 'Visibility and accessibility of variables, functions, and objects within a particular part of a program.'
-Subjects: 
+Subjects:
   - 'Computer Science'
   - 'Code Foundations'
 Tags:
@@ -24,13 +24,13 @@ function main()
 
   if true:
     set blockVariable = 20
-        
+
     for i = 1 to 3:
       set loopVariable = i
       display loopVariable
-            
+
     display blockVariable
-        
+
   display globalVariable
 end function
 ```
