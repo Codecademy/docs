@@ -25,7 +25,7 @@ The `$str` represents the input string to check.
 
 The `$substr` represents the substring to search for in the input string.
 
-The `$stringstartswith` function returns true if the `$str` starts with the `$substr` or false otherwise.
+The `str_starts_with()` function returns true if the `$str` starts with the `$substr` or false otherwise.
 
 ## Codebyte Example
 
