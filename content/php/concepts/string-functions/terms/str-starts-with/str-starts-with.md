@@ -1,6 +1,6 @@
 ---
 Title: 'str_starts_with()'
-Description: 'Performs a case-sensitive search to check if a string starts with a certain substring:'
+Description: 'Performs a case-sensitive search to check if a string starts with a certain substring.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
