@@ -126,7 +126,7 @@ The step by step execution of this example is as follows:
 - Once again, the function is initiated with arguments `(150, 50)`. As in previous iterations, `b` is not equal to `0`, and thus the program moves on to the next recursive cycle. The second argument in this case is determined by calculating the modulus `150 % 50`, which yields the argument values `(50, 0)`.
 - In this recursive cycle, when the code enters the `if` statement, the condition `b == 0` is satisfied. Therefore, the function will return `a`,  which has a value of `50`, the highest common factor for the original arguments.
 
-## Time complexities
+## Time Complexities
 
 - Method 1:
 
