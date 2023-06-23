@@ -41,7 +41,7 @@ class OffsetByCodePoints {
 }
 ```
 
-The output would be:
+The code above results in the following output:
 
 ```
 New Index: 7
