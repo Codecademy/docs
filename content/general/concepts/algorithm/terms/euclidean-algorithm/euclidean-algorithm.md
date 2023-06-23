@@ -117,7 +117,7 @@ The output for the above code will be:
 50
 ```
 
-Let's debug the code above step by steps:
+The step by step execution of this example is as follows:
 
 - Given the input of two integers: `a = 150` and `b = 500`, the code proceeds to enter the `EuclideanOptimized` function. The first `if` statement encountered checks if `b` is equal to 0. In this particular case, `b` is not equal to 0, resulting in the program exiting the `if` statement.
 - Then the code proceeds to return `EuclideanOptimized`, but with the arguments changed to `(b, a % b)`.
