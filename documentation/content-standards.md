@@ -82,9 +82,9 @@ For a list of supported languages, see ["Supported Codebyte Blocks" in the Docs 
 
 ### Metadata
 
-Each entry must begin with a metadata section. For guides to writing an entry's metadata, see the ["Metadata" in the Docs Style Guide](https://github.com/Codecademy/docs/blob/main/documentation/style-guide.md#metadata) and the templates for [concept entries](https://github.com/Codecademy/docs/blob/main/documentation/entry-template.md) and [term entries](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md).
+Each entry must begin with a metadata section. For guides to writing an entry's metadata, see the ["Metadata" in the Docs Style Guide](https://github.com/Codecademy/docs/blob/main/documentation/style-guide.md#metadata) and the templates for [concept entries](https://github.com/Codecademy/docs/blob/main/documentation/concept-entry-template.md) and [term entries](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md).
 
-> **Note:** Topic entries follow a different metadata template than concepts and terms. See our [topic entry template](https://github.com/Codecademy/docs/blob/main/documentation/topic-info-template.md) for more details.
+> **Note:** Topic entries follow a different metadata template than concepts and terms. See our [topic entry template](https://github.com/Codecademy/docs/blob/main/documentation/topic-entry-template.md) for more details.
 
 ### General Writing Tips
 
@@ -112,6 +112,6 @@ You may use images or GIFs in your entries. They are often helpful in illustrati
 
 Review the [Docs Style Guide](https://github.com/Codecademy/docs/blob/main/documentation/style-guide.md) for an in-depth explanation of what's expected out of a Docs entry.
 
-Check out the [concept entry template](https://github.com/Codecademy/docs/blob/main/documentation/entry-template.md) and [term entry template](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md) in this folder. And take a look at [GitHub Issues](https://github.com/Codecademy/docs/issues) to see where help is needed!
+Check out the [concept entry template](https://github.com/Codecademy/docs/blob/main/documentation/concept-entry-template.md) and [term entry template](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md) in this folder. And take a look at [GitHub Issues](https://github.com/Codecademy/docs/issues) to see where help is needed!
 
 For a refresher on how to make a Pull Request, head back to the [Contribution Guide](https://github.com/Codecademy/docs/blob/main/.github/CONTRIBUTING.md). 🎒

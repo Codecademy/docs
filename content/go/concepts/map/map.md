@@ -1,6 +1,6 @@
 ---
 Title: 'Map'
-Description: 'Map is a built-in data structure used to store data of the same or different data type in unordered key-value pairs.'
+Description: 'A built-in data structure used to store unordered key-value pairs.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -11,25 +11,35 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **map** is a built-in data structure that is used to store a collection of unordered key-value pairs that can be the same or different data type. It is Go's implementation of a hash table, which allows for efficient access, insertion, and deletion.
+A **map** is a built-in data structure that is used to store a collection of unordered key-value pairs. The pairs can be of the same type or of mixed types. It is Go's implementation of a hash table, which allows for efficient access, insertion, and deletion.
 
 ## Syntax
 
-### Initializing an empty map
-
-An empty map can be created using the `create()` function and assigning it to a variable.
+An empty map can be created using the `make()` function and assigning it to a variable.
 
 ```pseudo
-variable_name := create(map[key_data_type]value_data_type)
+variable_name := make(map[key_data_type]value_data_type)
 ```
 
-### Initializing a map with existing key-value pairs
-
-A map can also be initialized with key-values pairs by using a map literal.
+An empty map can also be created by assigning the variable to a map literal.
 
 ```pseudo
-map_name := map[key_data_type]value_data_type{key-1: value-1...}
+variable_name := map[key_data_type]value_data_type{}
 ```
+
+### Initializing a Map With Existing Key-Value Pairs
+
+A map literal can also be used when initializing values in the declaration.
+
+```pseudo
+map_name := map[key_data_type]value_data_type{
+  key-1: value-1,
+  key-2: value-2,
+  key-N: value-N,
+}
+```
+
+> **Note:** All pairs should terminate with a comma, including the final pair, unless the assignment is all made on one line.
 
 ### Accessing Items
 
@@ -45,7 +55,7 @@ The value that results from the code above can also be stored in a variable for 
 variable_name := map_name[key_value]
 ```
 
-If the key does not exist, then a `null` value will be returned based on the data type of the values in the map.
+If the key does not exist, then the zero value will be returned based on the data type of the values in the map (e.g. int : 0, bool : false).
 
 ### Adding Items
 
@@ -55,9 +65,17 @@ Add new key-value pairs into the map by setting the new key value to a new value
 map_name[new_key] = [new_value]
 ```
 
+### Removing Items
+
+Key-value pairs can be removed from a map with the built-in `delete()` function.
+
+```pseudo
+delete(map_name, existing_key)
+```
+
 ## Examples
 
-### Create empty map
+### Declaring an Empty Map
 
 The following code demonstrates how to create and print an empty map.
 
@@ -83,9 +101,9 @@ This will output:
 map[]
 ```
 
-### Initialize a map with key-value pairs
+### Declaring a Map with Values
 
-The following code demonstrates how to initialize and print a map already containing key-value-pairs.
+The following code demonstrates how to initialize and print a map with key-value pairs.
 
 ```go
 package main
@@ -99,7 +117,6 @@ func main() {
 
   // Print map gradebook
   fmt.Println(gradebook)
-
 }
 ```
 
@@ -109,24 +126,13 @@ This will output:
 map[John:85.2 Ana:95.6]
 ```
 
-### Access a key-value pair in the map
+### Accessing Elements
 
 The following code will print the corresponding value for the key `"John"`.
 
 ```go
-package main
-
-import "fmt"
-
-func main() {
-
-  // Initialize map gradebook with values
-  gradebook := map[string]float32{"John": 85.2, "Ana": 95.6}
-
   // Print the value with key "John"
   fmt.Println(gradebook["John"])
-
-}
 ```
 
 This will output:
@@ -135,26 +141,15 @@ This will output:
 85.2
 ```
 
-### Access and store a key-value pair in a variable
+### Storing a Map Value in a Variable
 
 The following code will access the value in a map corresponding to the key of "Ana". It will store the result in a variable called `anaScore` and print it.
 
 ```go
-package main
-
-import "fmt"
-
-func main() {
-
-  // Initialize map gradebook with values
-  gradebook := map[string]float32{"John": 85.2, "Ana": 95.6}
-
   // Store the value that has a key of "Ana" in anaScore
   anaScore := gradebook["Ana"]
 
   fmt.Println(anaScore)
-
-}
 ```
 
 This will output:
@@ -163,27 +158,16 @@ This will output:
 95.6
 ```
 
-### Accessing a key that does not exist
+### Accessing a Key That Doesn't Exist
 
 The following code demonstrates what is returned for a non-existent key. The map maps a string to a float.
 
 ```go
-package main
-
-import "fmt"
-
-func main() {
-
-  // Initialize map gradebook with values
-  gradebook := map[string]float32{"John": 85.2, "Ana": 95.6}
-
   // Store the value that has a key of "John" in johnScore
   johnScore := gradebook["David"]
 
   // Since "David" does not exist in the map, 0 will be printed
   fmt.Println(johnScore)
-
-}
 ```
 
 This will output:
@@ -192,20 +176,11 @@ This will output:
 0
 ```
 
-### Adding a new key-value pair into a map
+### Adding Values
 
 The following code will first print an initialized map. It will then add two more key-value pairs into the map and print the map.
 
 ```go
-package main
-
-import "fmt"
-
-func main() {
-
-  // Initialize map gradebook with values
-  gradebook := map[string]float32{"John": 85.2, "Ana": 95.6}
-
   // Print the initialized map
   fmt.Println(gradebook)
 
@@ -215,8 +190,6 @@ func main() {
 
   // Print the map again
   fmt.Println(gradebook)
-
-}
 ```
 
 This will output:
@@ -226,11 +199,33 @@ map[Ana:95.6 John:85.2]
 map[Ana:95.6 Emma:90 George:76.4 John:85.2]
 ```
 
+### Removing Values
+
+The following code will first print an initialized map. It will then remove a key-value pair and print the map.
+
+```go
+  // Print the initialized map
+  fmt.Println(gradebook)
+
+  // Delete an item
+  delete(gradebook, "John")
+
+  // Print the map again
+  fmt.Println(gradebook)
+```
+
+This will output:
+
+```shell
+map[Ana:95.6 Emma:90 George:76.4 John:85.2]
+map[Ana:95.6 Emma:90 George:76.4]
+```
+
 ### Codebyte Example
 
 The following code will summarize all the initializations and operations for a map in Go that has been shown in this document.
 
-```go
+```codebyte/golang
 package main
 
 import "fmt"
@@ -259,7 +254,7 @@ func main() {
   // Access non-existing key gets zero value
   fmt.Println("grade of Bob who is not in map gradebook: ", gradebook["Bob"])
 
-  // Store the value of the key "Ana" into variable
+  // Store the value of the key "Ana"
   anaGrade := gradebook["Ana"]
 
   // Print the variable
@@ -269,20 +264,13 @@ func main() {
   gradebook["Bob"] = 100
   gradebook["Elizabeth"] = 88.6
 
-
   // Output map gradebook with new values
   fmt.Println("map gradebook with 2 more values: ", gradebook)
 
+  // Remove a key-value pair
+  delete(gradebook, "Bob")
+
+  // Output map
+  fmt.Println("final map: ", gradebook)
 }
-```
-
-This will output:
-
-```shell
-Empty map m:  map[]
-m with 2 added key-value pairs:  map[Alex:92.5 Amanda:85.2]
-map gradebook:  map[Ana:95.6 John:85.2]
-grade of Bob who does not exist within map gradebook:  0
-Ana grade:  95.6
-map gradebook with 2 more values: map[Ana:95.6 Bob:100 Elizabeth:88.6 John:85.2]
 ```
