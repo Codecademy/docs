@@ -33,22 +33,22 @@ In the example below, the `Spacer()` in the `HStack` fills the view to the left 
 var body: some View {
   HStack {
   	Spacer()
-  	Text(name)
+  	Text("Example")
   }
 }
 ```
 
 This will display the following:
 
-![HStack](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-spacer-left.png)
+![SwiftUI Spacer Example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-spacer-left.png)
 
-In this next example below, each `Spacer` fills the view on both the left and right of the `Text`. This effectively pushes the `Text` into the center, with each `Spacer` expanding as much as the parent view will allow on each side.
+In the next example below, each `Spacer()` fills the view on both the left and right of the `Text`. This effectively pushes the `Text` into the center, with each `Spacer` expanding as much as the parent view will allow on each side.
 
 ```swift
 var body: some View {
   HStack {
   	Spacer()
-  	Text(name)
+  	Text("Example")
   	Spacer()
   }
 }
@@ -56,5 +56,5 @@ var body: some View {
 
 This will display the following:
 
-![HStack](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-spacer-left-and-right.png)
+![SwiftUI Spacer Example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-spacer-left-and-right.png)
 
