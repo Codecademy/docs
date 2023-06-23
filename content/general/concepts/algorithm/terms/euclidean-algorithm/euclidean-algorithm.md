@@ -80,7 +80,7 @@ The output for the above code will be:
 5
 ```
 
-When debugging the code above step by step, one can analyze the code as follows:
+The step by step execution of the above code is as follows:
 
 - Since 'b' is greater than 'a' (20 > 15), here 'b' is replaced with 'b - a', which gives us 'b = 20 - 15 = 5'.
 - Now 'a' is 15 and 'b' is 5.
