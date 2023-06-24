@@ -48,10 +48,10 @@ console.log(lastLetter);
 
 ## Codebyte Example
 
-The following is runnable, and demonstrates the use of the `.chatAt()` method:
+The following is runnable, and demonstrates the use of the `.charAt()` method:
 
 ```codebyte/javascript
-const myString = 'I love JavaScript! '
+const myString = 'I love JavaScript! ';
 
 // Using integer value
 console.log(myString.charAt(2));
