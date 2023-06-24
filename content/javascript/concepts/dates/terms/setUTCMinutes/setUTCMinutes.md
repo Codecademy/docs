@@ -1,6 +1,6 @@
 ---
 Title: '.setUTCMinutes()'
-Desciption: 'brief, description of the setUTCMinutes function, examples'
+Description: 'Changes the minutes for a Date instance according to universal time (UTC).'
 Subjects: 
     - 'Computer Science' 
     - 'Web Development'
