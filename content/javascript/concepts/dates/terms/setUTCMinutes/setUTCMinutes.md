@@ -21,7 +21,6 @@ The **`.setUTCMinutes()`** method of `Date` instances changes the minutes for th
     setUTCMinutes(minutes, seconds)
     setUTCMinutes(minutes, seconds, ms)
 ```
-## Parameters
 `minutes`
 <br/>
 An integer value between 0 and 59 representing the minutes.
