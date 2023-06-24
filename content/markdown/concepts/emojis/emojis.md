@@ -7,7 +7,6 @@ Subjects:
 Tags:
   - 'GitHub'
   - 'Documentation'
-
 CatalogContent:
   - 'learn-html'
   - 'paths/front-end-engineer-career-path'
