@@ -200,6 +200,7 @@ Modules
 MySQL
 Naive Bayes
 Natural Language Processing
+Nested queries
 Netlify
 Networking
 Neural Networks
@@ -279,6 +280,7 @@ Stringr
 Strings
 Structure
 Style
+Subqueries
 SwiftUI
 SwiftUI Views
 SwiftUI ViewModifiers
