@@ -48,7 +48,5 @@ The output will be:
 | 2              | 1             |  1.5707963267948966   |
 | 3              | -0.9          |  -1.1197695149986342  |
 
-It works with with SQL Server (starting with 2008), Azure SQL Database, Azure SQL Data Warehouse, Parallel Data Warehouse
-
 > **Note:** For the use of this method with SQL databases like MySQL, SQLite, PostgreSQL, or SQL Server, refer to their respective documentation for more details on the ASIN() function implementation and compatibility.
 
