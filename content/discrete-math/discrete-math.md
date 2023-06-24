@@ -1,12 +1,12 @@
 ---
 Title: 'Discrete Math'
-Description: 'Discrete Math is a fundamental branch of mathematics that provides the foundation for various concepts and techniques used in computer science and problem-solving. It encompasses a range of topics, like sets, propostions, relations, functions, logic, proof and number theory.'
+Description: 'Discrete Math is a fundamental branch of mathematics that provides the foundation for various concepts and techniques used in computer science and problem-solving.'
 Codecademy Hub Page: 'https://www.codecademy.com/catalog/subject/computer-science'
 CatalogContent:
   - 'computer-science'
 ---
 
-**Discrete mathematics** is a fundamental branch of mathematics that provides the foundation for various concepts and techniques used in computer science and problem-solving. It encompasses a range of topics, like sets, propostions, relations, functions, logic, proof and number theory.
+**Discrete mathematics** is a fundamental branch of mathematics that provides the foundation for various concepts and techniques used in computer science and problem-solving. It encompasses a range of topics, like sets, propositions, relations, functions, logic, proof and number theory.
 
 ## Advantages
 
