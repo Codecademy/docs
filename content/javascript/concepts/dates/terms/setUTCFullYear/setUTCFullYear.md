@@ -16,7 +16,8 @@ The **`setUTCFullYear()`** method of `Date` instances changes the year for this 
 
 ## Syntax
 
-```*setUTCFullYear(yearValue)*
+```
+*setUTCFullYear(yearValue)*
 *setUTCFullYear(yearValue, monthValue)*
 *setUTCFullYear(yearValue, monthValue, dateValue)*
 ```
@@ -49,6 +50,7 @@ If a parameter you specify is outside of the expected range, `setUTCFullYear()` 
 
 Using `setUTCFullYear()`
 
-`const theBigDay = new Date();`
-`theBigDay.setUTCFullYear(1997);`
-
+```
+const theBigDay = new Date();
+theBigDay.setUTCFullYear(1997);
+```
