@@ -33,7 +33,7 @@ The method changes the `Date` instance and returns its new timestamp. If a param
 ## Example
 In the following example, the `.toUTCString()` method converts a `Date` object to a string representation using the UTC(Coordinated Universal Time) timezone.
 ```js
-const date = new Date();
+const date = new Date(Date.UTC(2023, 5, 23, 12, 34, 56)); // Year, Month , Day, Hour, Minute, Second
 console.log("Before:", date.toUTCString()); // Before: Wed, 23 Jun 2023 12:34:56 GMT
 
 date.setUTCMinutes(45);
