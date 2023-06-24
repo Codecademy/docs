@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-The **`ASIN()`** function in SQL is a mathematical function that returns the sine of an angle.  
+The **`ASIN()`** function in SQL is a mathematical function that returns the  inverse sine of a number.  
 
 ## Syntax
 
