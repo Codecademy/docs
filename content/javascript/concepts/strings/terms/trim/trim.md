@@ -28,3 +28,23 @@ Removing all existing whitespace from both ends of a string using `.trim()` meth
 console.log('  Hello World   '.trim());
 // Output: Hello World
 ```
+
+## Codebyte Example
+
+The following example demonstrates the `.trim()` method:
+
+```codebyte/javascript
+
+//Create a variable with whitespace.
+const space = '   I have space  ';
+
+//Print the variable.
+console.log(space);
+
+// Expected output: "   I have space!   ";
+
+//Now print variable with .trim()
+console.log(space.trim());
+
+// Expected output: "I have space!";
+```
