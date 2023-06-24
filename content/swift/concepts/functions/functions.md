@@ -9,7 +9,7 @@ Tags:
   - 'Algorithms'
   - 'Functions'
 CatalogContent:
-  - 'learn-Swift-course'
+  - 'learn-swift'
   - 'path/iOS-path'
 ---
 
