@@ -68,5 +68,4 @@ Use `globals()` to get the symbol table:
 
 ```codebyte/python
 print(globals())
-
 ```
