@@ -81,7 +81,7 @@ The object declaration combines the definition of the class and the creation of 
 
 The following code demonstrates the implementation of an object declaration:
 
-```
+```kotlin
 object HelloKitty {
   fun sayHello(name: String) {
     println("Hi, $name!")
