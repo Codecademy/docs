@@ -16,7 +16,7 @@ In Kotlin there are two main statement types for the creation of class objects: 
 
 ## Object Expressions
 
-An object expression is a statement that creates an object from an anonymous class (classes that aren't explicitly declared). This kind of classes are very useful for one-time use.
+An object expression is a statement that creates an object from an anonymous class (classes that aren't explicitly declared). These kinds of classes are very useful for one-time use.
 
 ## Expression Syntax
 
