@@ -5,8 +5,8 @@ Subjects: # Please only use Subjects in the subjects.md file (https://github.com
   - 'SQL'
 
 Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
-  - 'subqueries'
-  - 'nested queries'
+  - 'Subqueries'
+  - 'Nested queries'
 
 CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
   - 'learn-sql'
