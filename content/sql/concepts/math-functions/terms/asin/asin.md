@@ -21,7 +21,7 @@ The **`ASIN()`** function in SQL is a mathematical function that returns the  in
 ```pseudo
 ASIN(number)
 ```
-The specified number must be between -1 to 1, otherwise this function returns NULL.
+The specified number must be between -1 to 1, otherwise this function returns `NULL`.
 
 ## Example
 
