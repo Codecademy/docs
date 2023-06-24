@@ -10,7 +10,7 @@ Tags:
   - 'Functions'
 CatalogContent:
   - 'learn-swift'
-  - 'path/iOS-path'
+  - 'paths/build-ios-apps-with-swiftui'
 ---
 
 **Functions** are self-contained chunks of code that perform a specific task. A function is given a name that identifies what it does, and this name is used to “call” the function to perform its task when needed.
