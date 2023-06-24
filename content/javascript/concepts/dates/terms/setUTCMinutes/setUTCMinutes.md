@@ -23,8 +23,8 @@ The **`.setUTCMinutes()`** method of `Date` instances changes the minutes for th
 ```
 
 - `minutes`: An integer value between 0 and 59 representing the minutes.
-- `seconds`: An integer value between 0 and 59 representing the seconds. If `seconds` is specified, you must also specify `minutes`.
-- `ms`: An integer value between 0 and 999 representing the milliseconds. If `ms` is specified, you must also specify `minutes` and `seconds`.
+- `seconds`: An integer value between 0 and 59 representing the seconds. If `seconds` is specified, `minutes` must also be specified.
+- `ms`: An integer value between 0 and 999 representing the milliseconds. If `ms` is specified, `minutes` and `seconds` must also be specified.
 
 If `seconds`and `ms` are not specified, the values returned from [getUTCSeconds()](https://www.codecademy.com/resources/docs/javascript/dates/getUTCSeconds) and [getUTCMilliseconds()](https://www.codecademy.com/resources/docs/javascript/dates/getUTCMilliseconds) methods are used.
 
