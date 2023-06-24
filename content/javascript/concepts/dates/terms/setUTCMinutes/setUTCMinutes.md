@@ -41,7 +41,9 @@ date.setUTCMinutes(45);
 console.log("After:", date.toUTCString()); // After: Wed, 23 Jun 2023 12:45:56 GMT
 ```
 In the following example, the `.toUTCString()` method converts a `Date` object to a string representation using the UTC(Coordinated Universal Time) timezone:
-### Output
+
+This example results in the following output.
+
 ```js
 Before: Wed, 23 Jun 2023 12:34:56 GMT
 After: Wed, 23 Jun 2023 12:45:56 GMT
