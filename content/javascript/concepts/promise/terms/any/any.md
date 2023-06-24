@@ -28,8 +28,8 @@ If the `iterable` object is empty or all the Promises within are rejected, an `A
 ```js
 Promise.any([])
   .then((values) => console.log(values))
-  .catch((err) => console.log(err))// Output: [AggregateError: All promises were rejected]
-  .finally(() => console.log("Operations on Promise.any() have finished."))
+  .catch((err) => console.log(err)) // Output: [AggregateError: All promises were rejected]
+  .finally(() => console.log('Operations on Promise.any() have finished.'));
 ```
 
 ## Example #2
