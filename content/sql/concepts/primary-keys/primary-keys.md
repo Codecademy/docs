@@ -82,13 +82,13 @@ For example, a database of car parts will have to uniquely identify a row of par
 
 Depending on local regulations, a car may require an engine part ID and a body ID to be associated with a license plate. One solution might be adding more row information about the car, such as `left_door_ID`, `gearbox_ID`, etc. But then a specific car would have to be identified by two different aspects: its body and its engine.
 
-If you have created a table that doesn't have a primary key, you can alter it to add a one.
+If a created table does not have a primary key, it can be added.
 
-The statement below creates a `PRIMARY KEY` constraint on the `ID` column on the `people` table:
+The statement below creates a `PRIMARY KEY` constraint on the `id` column on the `people` table:
 
 ```sql
 ALTER TABLE people
-ADD PRIMARY KEY (ID);
+ADD PRIMARY KEY (id);
 ```
 
 ## Foreign Keys
