@@ -37,7 +37,7 @@ fun main() {
 
 An example of an object expression:
 
-```
+```kotlin
 fun main() {
     val myAnonymousObject = object { //create an anonymous object using the object expression *object*.
         val name = "Princess"
