@@ -23,7 +23,7 @@ When using Markdown, emojis can be copied and pasted straight from sources like 
 Markdown for a specific text image of emoji
 ```
 
-Another method that is used are shortcodes, emojis being described through words. These vary from application to application, so it's important to refer to their Markdown style guide to ensure that the emojis are described accordingly.
+Another method to use are shortcodes, emojis being described through words. These vary from application to application, so it's important to refer to their Markdown style guide to ensure that the emojis are described accordingly.
 
 ```md
 : emoji:
