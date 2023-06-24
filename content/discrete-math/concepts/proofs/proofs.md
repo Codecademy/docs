@@ -1,23 +1,33 @@
 ---
 Title: 'Proofs' 
-Description: 'A brief description' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
+Description: 'Proofs is a concept of Discrete Mathematics used to verify the truthfulness and validity of statements using logical reasoning' 
 Subjects:
   - 'Computer Science'
   - 'Discrete Math'
 Tags:
   - 'arithmetic'
-  - 'A second tag'
-  - 'An nth tag'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
-  - 'learn-example-course'
-  - 'path/example-path'
+  - 'math'
+  - 'logical'
+  - 'logic'
+CatalogContent:
+  - 'computer-science'
+  - 'paths/computer-science/'
 ---
 
-**Proofs** are an integral part of mathematics used to verify the truthfulness and validity of statements. Proofs use logical reasoning to establish the certainty of mathematical claims, playing a crucial and indispensable role in advancing the field of mathematics. Proofs help in solving the problem partially or completely.
+**Proofs** is a concept of Discete Mathematics used to verify the truthfulness and validity of statements. Proofs use logical reasoning to establish the certainty of mathematical claims, playing a crucial role in advancing the field of mathematics. Proofs help in solving the problem partially or completely.
 
 ## Conjecture
 
-A mathematical proof is constructed using a Conjecture. Conjecture can be thought of as a building block of mathematical proof that make up a hypothesis that can be validated using logics and patterns. 
+Conjecture are used to construct a mathematical proof. Conjecture can be thought of as a building block of a hypothesis that can be validated using logics and patterns. 
 
-Mathematical exploration and discovery heavily depends on the the implementation of conjecture.
+Mathematical exploration and discovery heavily depends on the implementation of conjecture.
+
+## Base Case 
+
+Base Case is termed as the initial or smallest value that verifies the statement to be correct. According to Principal of Mathematical Induction, Proof is bifurcated into two steps: 
+
+- Base Case (_verification of base step_): The initial or smallest value is checked to establish the truth of the statement.
+- Inductive Step (_inductive hypothesis and conclusion_): Assuming the statement holds for a given value, it is shown that it also holds for the next value, extending the validity of the statement.
+
+
 
