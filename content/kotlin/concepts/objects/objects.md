@@ -35,7 +35,7 @@ fun main() {
 }
 ```
 
-An example of object expression:
+An example of an object expression:
 
 ```
 fun main() {
