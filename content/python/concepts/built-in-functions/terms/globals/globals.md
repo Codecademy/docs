@@ -16,7 +16,7 @@ Tags:
   - 'paths/computer-science'
 ---
 
-The built-in **globals()** function allows you to access the global scope's name table, which is a writable dictionary containing the current global names and their corresponding values in your code. You can also use this function to access or even modify the value of a global variable from with functions.
+The built-in **`globals()`** function allows access to the global scope's name table, which is a writable dictionary containing the current global names and their corresponding values in the code. This function can be used to access or modify the value of a global variable from within functions.
 
 ## Syntax
 
@@ -26,8 +26,8 @@ globals()
 
 The `globals()` method doesn't take any parameters.
 
-The globals() method returns the dictionary of the current global symbol table.
-<br><br>
+The `globals()` method returns the dictionary of the current global symbol table.
+
 ## Examples
 
 ### Example 1
@@ -39,12 +39,13 @@ print(globals())
 
 ```
 
-This code returns the following dictionary. <br>Notice that the **length** global variable is listed in the dictionary.
+This code returns the following dictionary. Notice that the **length** global variable is listed in the dictionary.
 
 ```shell
 {'__name__': '__main__', '__doc__': None, '__package__': None, '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': None, '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, 'age': 23}
 
 ```
+
 ### Example 2
 
 ```py
@@ -55,9 +56,9 @@ print('The length is:', length)
 
 ```
 
-The global variable **length** is set to **123**. The global variable in this example can be modified using the **globals()** method with the dictionary key [length]. It can be also modified from within a function.
+The global variable `length` is set to `123`. The global variable in this example can be modified using the `globals()` function with the dictionary key `[length]`. It can be also modified from within a function.
 
-The code will return
+The code will return:
 
 ```shell
 The length is: 125
@@ -65,7 +66,7 @@ The length is: 125
 
 ## Codebyte Example
 
-Use `globals()` to get the symbol table 
+Use `globals()` to get the symbol table:
 
 ```codebyte/python
 print(globals())
