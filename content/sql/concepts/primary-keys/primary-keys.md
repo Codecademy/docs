@@ -91,10 +91,7 @@ ALTER TABLE people
 ADD PRIMARY KEY (id);
 ```
 
-## Foreign Keys
-
 A composite key would be useful in this case. This is how a `vehicle_registry` table might look (extra parts/columns omitted for brevity):
-
 
 | engine_id | body_id | gearbox_id | purchase_date |
 | --------- | ------- | ---------- | ------------- |
