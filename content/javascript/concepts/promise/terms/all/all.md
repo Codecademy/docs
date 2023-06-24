@@ -56,6 +56,6 @@ Promise.all([promiseA, promiseB])
 The output would be:
 
 ```plaintext
-Results from Promise.all(): [144,42]
+Results from Promise.all(): [23,144]
 Operations for Promise.all() have finished.
 ```
