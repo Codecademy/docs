@@ -14,7 +14,8 @@ CatalogContent:
 
 The **`.setUTCMinutes()`** method of `Date` instances changes the minutes for this instance according to universal time (UTC).
 
-## **Syntax(JS)**
+## Syntax
+
 ```js
     setUTCMinutes(minutes)
     setUTCMinutes(minutes, seconds)
@@ -42,7 +43,8 @@ If `seconds`and `ms` are not specified, the values returned from [getUTCSeconds(
 ## Return Value
 The method changes the `Date` instance and returns its new timestamp. If a parameter is `NaN`, the date is set to Invalid Date and `NaN` is returned.
 
-## **Example**
+## Example
+
 ```js
 const date = new Date();
 console.log("Before:", date.toUTCString()); // Before: Wed, 23 Jun 2023 12:34:56 GMT
