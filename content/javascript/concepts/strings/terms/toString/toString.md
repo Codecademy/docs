@@ -46,3 +46,17 @@ This will produce the following output:
 Value of str variable is 3
 Type of str variable is string
 ```
+## Codebyte Example
+
+The following example demonstrates the `.toString()` method:
+
+```codebyte/javascript
+
+// Declaring numeric object
+let arr = ["Hi", "All", "this", "is", "an", "Array"]
+console.log(arr.toString())
+
+//Output 
+Hi,All,this,is,an,Array
+//In Output, comma-separated string values are printed on the console.
+```
