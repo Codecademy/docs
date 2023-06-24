@@ -33,7 +33,7 @@ In this example, the following data is given in the `numbers` table:
 | 2              | 1            |
 | 3              | -0.9         |
 
-The `ASIN()` function is used to calculate the arcsine as the output_number:
+The `ASIN()` function is used to calculate the arcsine as `output_number`:
 
 ```sql
 SELECT id, input_number, ASIN(input_number) AS output_number
