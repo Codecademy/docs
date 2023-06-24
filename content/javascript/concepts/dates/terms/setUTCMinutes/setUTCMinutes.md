@@ -12,7 +12,7 @@ CatalogContent:
     - 'paths/front-end-engineer-career-path'
 ---
 
-The **.setUTCMinutes()** method of [Date](https://www.codecademy.com/resources/docs/javascript/dates) instances changes the minutes for this instance according to **universal time (UTC)**.
+The **`.setUTCMinutes()`** method of `Date` instances changes the minutes for this instance according to universal time (UTC).
 
 ## **Syntax(JS)**
 ```js
@@ -40,7 +40,7 @@ An integer value between 0 and 999 representing the milliseconds. If `ms` is spe
 If `seconds`and `ms` are not specified, the values returned from [getUTCSeconds()](https://www.codecademy.com/resources/docs/javascript/dates/getUTCSeconds) and [getUTCMilliseconds()](https://www.codecademy.com/resources/docs/javascript/dates/getUTCMilliseconds) methods are used.
 
 ## Return Value
-Changes the [Date](https://www.codecademy.com/resources/docs/javascript/dates) instance and return its new timestamp. If a parameter is `NaN`, the date is set to Invalid Date and `NaN` is returned.
+The method changes the `Date` instance and returns its new timestamp. If a parameter is `NaN`, the date is set to Invalid Date and `NaN` is returned.
 
 ## **Example**
 ```js
@@ -51,7 +51,7 @@ date.setUTCMinutes(45);
 
 console.log("After:", date.toUTCString()); // After: Wed, 23 Jun 2023 12:45:56 GMT
 ```
-**.toUTCString()** method converts a [Date](https://www.codecademy.com/resources/docs/javascript/dates) object to a string representation using the UTC(Coordinated Universal Time) timezone.
+In the following example, the `.toUTCString()` method converts a `Date` object to a string representation using the UTC(Coordinated Universal Time) timezone:
 ### Output
 ```js
 Before: Wed, 23 Jun 2023 12:34:56 GMT
