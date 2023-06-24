@@ -18,8 +18,8 @@ The **`ASIN()`** function in SQL is a mathematical function that returns the  in
 
 ## Syntax
 
-```sql
-SELECT ASIN(number);
+```pseudo
+ASIN(number)
 ```
 The specified number must be between -1 to 1, otherwise this function returns NULL.
 
