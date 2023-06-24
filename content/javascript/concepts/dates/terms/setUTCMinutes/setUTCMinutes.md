@@ -31,7 +31,7 @@ If `seconds`and `ms` are not specified, the values returned from [getUTCSeconds(
 The method changes the `Date` instance and returns its new timestamp. If a parameter is `NaN`, the date is set to Invalid Date and `NaN` is returned.
 
 ## Example
-
+In the following example, the `.toUTCString()` method converts a `Date` object to a string representation using the UTC(Coordinated Universal Time) timezone.
 ```js
 const date = new Date();
 console.log("Before:", date.toUTCString()); // Before: Wed, 23 Jun 2023 12:34:56 GMT
@@ -40,7 +40,7 @@ date.setUTCMinutes(45);
 
 console.log("After:", date.toUTCString()); // After: Wed, 23 Jun 2023 12:45:56 GMT
 ```
-In the following example, the `.toUTCString()` method converts a `Date` object to a string representation using the UTC(Coordinated Universal Time) timezone:
+
 
 This example results in the following output.
 
