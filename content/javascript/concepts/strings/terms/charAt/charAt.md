@@ -45,3 +45,17 @@ const lastLetter = greeting.charAt(greeting.length - 1);
 console.log(lastLetter);
 // Output: d
 ```
+
+## Codebyte Example
+
+The following is runnable, and demonstrates the use of the `.chatAt()` method:
+
+```codebyte/javascript
+const myString = 'I love JavaScript! '
+
+// Using integer value
+console.log(myString.charAt(2));
+
+// Using decimal value that gets rounded down from 3.5 to 3
+console.log(myString.charAt(2));
+```
