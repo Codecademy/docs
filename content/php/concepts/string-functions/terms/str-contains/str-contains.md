@@ -18,17 +18,17 @@ The **`str_contains()`** function performs a case sensitive search for a given s
 ## Syntax
 
 ```pseudo
-str_contains($haystack, $needle)
+str_contains($aString, $aSubstring)
 ```
 
-- `$haystack` the string to be searched.
-- `$needle` the substring to be found.
+- `$aString`: The string to be searched.
+- `$aSubstring`: The substring to be found.
 
-## Codebyte Example
+## Example
 
-The following runnable example demonstrates the case sensitive nature of `str_contains()`.
+The following example demonstrates the case sensitive nature of `str_contains()`.
 
-```codebyte/php
+```php
 <?php
     $sentence = "I love New York";
     $word = "new";
@@ -44,4 +44,8 @@ The following runnable example demonstrates the case sensitive nature of `str_co
 ?>
 ```
 
-Note that when `$word` is assigned the string `"New"` the code within the second if statement executes.
+The above code results in the following output:
+
+```shell
+    New found.
+```
