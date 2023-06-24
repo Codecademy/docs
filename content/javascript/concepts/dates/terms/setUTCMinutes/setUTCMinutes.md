@@ -43,7 +43,6 @@ date.setUTCMinutes(45);
 console.log("After:", date.toUTCString()); // After: Wed, 23 Jun 2023 12:45:56 GMT
 ```
 
-
 This example results in the following output.
 
 ```js
