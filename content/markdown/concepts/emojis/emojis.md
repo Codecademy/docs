@@ -39,7 +39,7 @@ An emoji is copied from a source like [Emojipedia](https://emojipedia.org/) and 
 
 ## Example 2: Emoji Shortcodes
 
-In the paragraph below, the shortcode is conveyed in accordance to [GitHub's standards](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#using-emoji):
+In the paragraph below, the shortcode is conveyed in accordance with [GitHub's standards](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#using-emoji):
 
 ```md
 Don't forget to leave a star on our repository! :star:
