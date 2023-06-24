@@ -59,3 +59,38 @@ The output would be:
 Results from Promise.all(): [23,144]
 Operations for Promise.all() have finished.
 ```
+
+```codebyte/javascript
+const promise1 = new Promise((resolve, reject) => {
+  console.log('The first promise has resolved');
+  const result = 'Success!';
+  if (result) {
+    resolve(result);
+  } else {
+    reject('Error');
+  }
+});
+
+const promise2 = new Promise((resolve, reject) => {
+  if (90 / 3 === 30) {
+    console.log('The second promise has resolved');
+    resolve(30);
+  } else {
+    reject({
+      errorType: 'TypeError',
+      message: `Unexpected type - expected ${typeof (90 / 3)}.`,
+    });
+  }
+});
+
+Promise.all([promise1, promise2])
+  .then((values) => {
+    console.log(`Results from Promise.all(): [${values}]`);
+  })
+  .catch((err) => {
+    console.log(`Promise.all Failed! \n${err.errorType}: ${err.message}`);
+  })
+  .finally(() => {
+    console.log('Operations for Promise.all() have finished.');
+  });
+```
