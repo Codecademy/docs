@@ -35,19 +35,19 @@ The example below gives three demonstration of the `str_starts_with()` function 
 <?php
 $str = 'Peanut Butter Jelly';
 $substr = 'P';
-$stringstartswith = str_starts_with($str, $substr) ? 'begins' : 'does not begin'; 
+$stringstartswith = str_starts_with($str, $substr) ? 'begins' : 'does not begin';
 
 echo ("the string $str $stringstartswith with $substr.\n");
 
 $str = 'Peanut Butter Jelly';
 $substr = 'Peanut';
-$stringstartswith = str_starts_with($str, $substr) ? 'begins' : 'does not begin'; 
+$stringstartswith = str_starts_with($str, $substr) ? 'begins' : 'does not begin';
 
 echo "the string $str $stringstartswith with $substr.\n";
 
 $str = 'Peanut Butter Jelly';
 $substr = 'p';
-$stringstartswith = str_starts_with($str, $substr) ? 'begins' : 'does not begin'; 
+$stringstartswith = str_starts_with($str, $substr) ? 'begins' : 'does not begin';
 
 echo "the string $str $stringstartswith with $substr.\n";
 ?>
