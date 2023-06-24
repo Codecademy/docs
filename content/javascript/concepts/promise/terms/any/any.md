@@ -65,3 +65,32 @@ Promise.any(promises)
   })
   .finally(() => console.log('Operations on Promise.any() have finished.'));
 ```
+
+## Codebyte Example
+
+With an array of Promises:
+
+```codebyte/javascript
+const promise1 = new Promise((resolve, reject) => {
+  reject(false);
+});
+
+const promise2 = new Promise((resolve, reject) => {
+  reject('This promise will fail');
+});
+
+const promise3 = new Promise((resolve, reject) => {
+  resolve('Success!');
+});
+
+const promises = [promise1, promise2, promise3];
+
+Promise.any(promises)
+  .then((result) => {
+    console.log(result);
+  })
+  .catch((err) => {
+    console.log(err);
+  })
+  .finally(() => console.log('Operations on Promise.any() have finished.'));
+```
