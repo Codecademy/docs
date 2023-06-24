@@ -70,3 +70,27 @@ const didYouFindWaldo = people.indexOf('Waldo');
 console.log(didYouFindWaldo);
 // Output: -1
 ```
+
+## Codebyte Example
+
+The following is runnable, and demonstrates the use of the `.indexOf()` method:
+
+```codebyte/javascript
+// Using a string
+const myString = 'I love JavaScript! ';
+
+// Case 1: Searchable value exists
+console.log(myString.indexOf('love'));
+
+// Case 2: Searchable value does not exist
+console.log(myString.indexOf('hate'));
+
+// Using an array
+const myArray = ['Javascript, Python, Ruby, GO'];
+
+// Case 1: Searchable value exists
+console.log(myArray.indexOf('GO'));
+
+// Case 2: Searchable value does not exist
+console.log(myArray.indexOf('C++'));
+```
