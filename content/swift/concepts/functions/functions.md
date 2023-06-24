@@ -1,6 +1,6 @@
 ---
 Title: 'Functions' 
-Description: 'Functions are self-contained chunks of code that perform a specific task.'
+Description: 'Functions are a type of structure that allows a set of operations to be packaged and repeated as desired.'
 Subjects: 
   - 'iOS'
   - 'Code Foundations'
