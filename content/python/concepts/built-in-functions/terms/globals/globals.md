@@ -43,7 +43,6 @@ This code returns the following dictionary. Notice that the **length** global va
 
 ```shell
 {'__name__': '__main__', '__doc__': None, '__package__': None, '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': None, '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, 'age': 23}
-
 ```
 
 ### Example 2
@@ -53,7 +52,6 @@ length = 123
 
 globals()['length'] = 125
 print('The length is:', length)
-
 ```
 
 The global variable `length` is set to `123`. The global variable in this example can be modified using the `globals()` function with the dictionary key `[length]`. It can be also modified from within a function.
