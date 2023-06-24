@@ -21,22 +21,11 @@ The **`.setUTCMinutes()`** method of `Date` instances changes the minutes for th
     setUTCMinutes(minutes, seconds)
     setUTCMinutes(minutes, seconds, ms)
 ```
-`minutes`
-<br/>
-An integer value between 0 and 59 representing the minutes.
-<br/>
 
-`seconds`
-<br/>
-An integer value between 0 and 59 representing the seconds. If `seconds` is specified, you must also specify `minutes`.
-<br/>
+- `minutes`: An integer value between 0 and 59 representing the minutes.
+- `seconds`: An integer value between 0 and 59 representing the seconds. If `seconds` is specified, you must also specify `minutes`.
+- `ms`: An integer value between 0 and 999 representing the milliseconds. If `ms` is specified, you must also specify `minutes` and `seconds`.
 
-`ms`
-<br/>
-An integer value between 0 and 999 representing the milliseconds. If `ms` is specified, you must also specify `minutes` and `seconds`.
-<br/>
-<br/>
-<br/>
 If `seconds`and `ms` are not specified, the values returned from [getUTCSeconds()](https://www.codecademy.com/resources/docs/javascript/dates/getUTCSeconds) and [getUTCMilliseconds()](https://www.codecademy.com/resources/docs/javascript/dates/getUTCMilliseconds) methods are used.
 
 The method changes the `Date` instance and returns its new timestamp. If a parameter is `NaN`, the date is set to Invalid Date and `NaN` is returned.
