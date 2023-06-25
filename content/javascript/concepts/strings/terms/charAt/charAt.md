@@ -57,5 +57,5 @@ const myString = 'I love JavaScript! ';
 console.log(myString.charAt(2));
 
 // Using decimal value that gets rounded down from 3.5 to 3
-console.log(myString.charAt(2));
+console.log(myString.charAt(3.5));
 ```
