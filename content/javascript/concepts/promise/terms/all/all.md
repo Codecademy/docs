@@ -62,6 +62,8 @@ Operations for Promise.all() have finished.
 
 ## Codebyte Example
 
+With two Promise objects:
+
 ```codebyte/javascript
 const promise1 = new Promise((resolve, reject) => {
   console.log('The first promise has resolved');
