@@ -1,0 +1,81 @@
+---
+Title: '.findLast())'
+Description: "Finds the first value within the array, starting the search from the end of the array to the beginning of the array"
+Subjects:
+  - 'Web Development'
+  - 'Computer Science'
+Tags:
+  - 'Arrays'
+  - 'Methods'
+CatalogContent:
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
+---
+
+The `.findLast()` array method finds the first value within the array, starting the search from the end of the array to the beginning of the array.
+
+## Syntax
+
+```js
+array.findLast((element, index) => {...});
+```
+
+A function can be invoked with three arguments:
+
+- `element`: The current element we are iterating through.
+- `index` (optional): The index of the array element.
+
+## Examples
+
+Find the value 200 in the array:
+
+```js
+const numbers = [10,42,53,12,45,66,33,6,10000,200,10];
+
+const findNumber = numbers.findLast((value) => {
+    return value === 200;
+})
+
+
+console.log(findNumber);
+```
+
+This results in the following output:
+
+```shell
+[200]
+```
+
+## Codebyte Example
+
+```codebyte/js
+
+// This is an example of using .find().
+
+let age = [13,20,15,45,1,44,80]
+
+console.log('find() method: ');
+
+let findResult = age.find((value) => {
+    console.log('Checking age: ', value);
+    return value === 80
+})
+
+console.log(`Oldest age is ${findResult}`)
+
+// Now we use .findLast().
+
+age = [13,20,15,45,1,44,80]
+
+console.log('findLast() method: ');
+
+findResult = age.findLast((value) => {
+    console.log('Checking age: ', value);
+    return value === 80
+})
+
+console.log(`Oldest age is ${findResult}`)
+
+// If you ever need to search for an element within the array, and you know the value will be towards the end, using .findLast shortens the path to finding the element.
+
+```
