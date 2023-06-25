@@ -35,7 +35,6 @@ It is generally not suggested to use binary step in the hidden layer as it is a 
 
 ### Codebyte Example
 
-
 The following is an example of the activation function in Python:
 
 ```codebyte/python
