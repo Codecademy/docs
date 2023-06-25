@@ -23,6 +23,17 @@ CatalogContent:
 ## More About Diffusion Models
 - A Diffusion model is a deep learning generative model that works by adding noise to the available training data known as the forward diffusion process, it then reverses the process to recover the data. This is known as denoising or the reverse diffusion process.
 
+**3 Diffusion Model Categories**
+- The three fundamental mathematical frameworks that support the science behind diffusion models, work on the same principles of adding noise and removing it to generate new samples. 
+1. **DDPMs**
+-  Denoising Diffusion Probabilistic Models (generative models mainly used to remove noise from visual or audio data).
+
+2. **SGMs**
+- Noise-Conditioned Score-Based Generative Models (can generate new samples from a given distribution. They work by learning an estimation score function that can estimate the log density of the target distribution). 
+*In english this means buiding of an estimate based on observed data of which we would like to sample*.
+
+3. **SDEs**
+- Stochastic Differential Equations (describe changes in random processes concerning time. Widely used in physics and financial markets involving random factors that significantly impact market outcomes).
 ### Image Example
 ![Alt text](<ai diffusion model example.png>)
 
