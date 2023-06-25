@@ -17,7 +17,7 @@ CatalogContent:
 
 ## Binary Step Activation Function
 
-**Binary Step** is the simplest threshold based activation function which works by either activating the node i.e., passing on its output to the next layer in case the threshold value is surpassed or doing nothing at all. 
+**Binary Step** is the simplest threshold-based activation function which works by either activating the node, i.e. passing on its output to the next layer in case the threshold value is surpassed, or doing nothing at all. 
 
 ![Binary Step Activation Plot](https://raw.githubusercontent.com/Codecademy/docs/main/media/binary-step-plot.png)
 
