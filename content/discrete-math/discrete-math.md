@@ -13,7 +13,7 @@ CatalogContent:
 Discrete Mathematics offers the following advantages to the user:
 
 - **Efficiency:** Discrete mathematics enables the development of efficient algorithms and data structures, optimizing computational processes and reducing time complexity. This is crucial for handling large-scale data and solving complex problems in computer science and other domains.
-- **Problem-solving:** Discrete mathematics equips individuals with problem-solving skills and logical reasoning. It enables the analysis and process of breaking down complex problems into smaller, more manageable components,  which in turn facilitates the development of effective solutions.
+- **Problem-solving:** Discrete mathematics equips individuals with problem-solving skills and logical reasoning. It enables the analysis and process of breaking down complex problems into smaller, more manageable components, which in turn facilitates the development of effective solutions.
 - **Algorithm Design:** Discrete mathematics include techniques such as graph theory, combinatorics, and optimization, which are essential for developing algorithms that efficiently solve various computational problems.
 - **Data Representation:** Discrete mathematics offers different data structures, such as arrays, lists, trees, and graphs, for organizing and representing data. These structures enable efficient storage, retrieval, and manipulation of information in computer systems.
 - **Cryptography and Security:** In Discrete mathematics, concepts like number theory, modular arithmetic, and encryption algorithms form the basis of cryptographic systems used for secure transactions, data privacy, and information security.
