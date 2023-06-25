@@ -41,7 +41,7 @@ print(globals())
 This code returns the following dictionary. Notice that the `length` global variable is listed in the dictionary.
 
 ```shell
-{'__name__': '__main__', '__doc__': None, '__package__': None, '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': None, '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, 'length': 23}
+{'__name__': '__main__', '__doc__': None, '__package__': None, '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': None, '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, 'length': 123}
 ```
 
 ### Example 2
