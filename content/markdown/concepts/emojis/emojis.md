@@ -1,5 +1,5 @@
 ---
-Title: 'emoji'
+Title: 'Emojis'
 Description: 'Emojis are organized by Markdown-styled text or shortcodes.'
 Subjects:
   - 'Developer Tools'
