@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-The **`ASIN()`** function in SQL is a mathematical function that returns the  inverse sine of a number.  
+The **`ASIN()`** function in SQL is a mathematical function that returns the inverse sine of a number.  
 
 ## Syntax
 
@@ -49,4 +49,3 @@ The output will be:
 | 3              | -0.9          |  -1.1197695149986342  |
 
 > **Note:** For the use of this method with SQL databases like MySQL, SQLite, PostgreSQL, or SQL Server, refer to their respective documentation for more details on the ASIN() function implementation and compatibility.
-
