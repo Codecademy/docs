@@ -67,8 +67,4 @@ Use `globals()` to get the symbol table:
 
 ```codebyte/python
 print(globals())
-<<<<<<< HEAD
 ```
-=======
-```
->>>>>>> c1495cfdb081fa8d4c62085200ef9fff1368904b
