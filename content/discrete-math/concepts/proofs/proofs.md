@@ -1,6 +1,6 @@
 ---
 Title: 'Proofs'
-Description: 'Proofs are a concept in Discrete Mathematics used to verify the truthfulness and validity of statements using logical reasoning'
+Description: 'Proofs are a concept in Discrete mathematics used to verify the truthfulness and validity of statements using logical reasoning'
 Subjects:
   - 'Computer Science'
   - 'Discrete Math'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science/'
 ---
 
-**Proofs** are a concept in Discrete Mathematics used to verify the truthfulness and validity of statements. They use logical reasoning to establish the certainty of mathematical claims, playing a crucial role in advancing the field of mathematics. Proofs are also helpful in solving the problem partially or completely.
+**Proofs** are a concept in Discrete mathematics used to verify the truthfulness and validity of statements. They use logical reasoning to establish the certainty of mathematical claims, playing a crucial role in advancing the field of mathematics. Proofs are also helpful in solving the problem partially or completely.
 
 ## Conjecture
 
