@@ -1,6 +1,6 @@
 ---
 Title: 'Binary Step Activation Function'
-Description: 'A binary-step function is the simplest threshold based activation function which works by either firing the node in case the threshold value is surpassed or doing nothing at all.'
+Description: 'The simplest threshold based activation function which works by either firing the node in case the threshold value is surpassed or doing nothing at all.'
 Subjects:
   - 'Machine Learning'
   - 'Data Science'
