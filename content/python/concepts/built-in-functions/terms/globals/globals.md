@@ -36,13 +36,12 @@ The `globals()` method returns the dictionary of the current global symbol table
 length = 123
 
 print(globals())
-
 ```
 
-This code returns the following dictionary. Notice that the **length** global variable is listed in the dictionary.
+This code returns the following dictionary. Notice that the `length` global variable is listed in the dictionary.
 
 ```shell
-{'__name__': '__main__', '__doc__': None, '__package__': None, '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': None, '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, 'age': 23}
+{'__name__': '__main__', '__doc__': None, '__package__': None, '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': None, '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, 'length': 23}
 ```
 
 ### Example 2
@@ -68,5 +67,4 @@ Use `globals()` to get the symbol table:
 
 ```codebyte/python
 print(globals())
-
 ```
