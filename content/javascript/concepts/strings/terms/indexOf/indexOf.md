@@ -84,13 +84,4 @@ console.log(myString.indexOf('love'));
 
 // Case 2: Searchable value does not exist
 console.log(myString.indexOf('hate'));
-
-// Using an array
-const myArray = ['Javascript, Python, Ruby, GO'];
-
-// Case 1: Searchable value exists
-console.log(myArray.indexOf('GO'));
-
-// Case 2: Searchable value does not exist
-console.log(myArray.indexOf('C++'));
 ```
