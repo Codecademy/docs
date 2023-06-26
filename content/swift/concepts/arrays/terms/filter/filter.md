@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.filter()`** method returns an updated array based on the existing array with all entries that meet the condition stated in the filter. If no entry meets the condition stated in the filter, the method returns `nil`. The original, existing array is not affected by this method.
+The **`.filter()`** method takes an array and returns a new array with only elements that meet the condition stated in the filter. If none of the elements meet the condition stated in the filter, the method returns `nil`. The original, existing array is not affected by this method.
 
 ## Syntax
 
