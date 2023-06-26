@@ -43,7 +43,7 @@ console.log(findNumber);
 This results in the following output:
 
 ```shell
-[200]
+200
 ```
 
 ## Codebyte Example
