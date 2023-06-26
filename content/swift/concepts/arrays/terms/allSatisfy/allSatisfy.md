@@ -1,6 +1,6 @@
 ---
 Title: '.allSatisfy()'
-Description: 'Returns a Boolean expression indicating whether every element of a sequence satisfies a given condition.'
+Description: 'Returns a boolean expression indicating whether every element of a sequence satisfies a given condition.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-**`.allSatisfy()`** is a Swift method that checks if all the elements in an array satisfy a given condition. 
+**`.allSatisfy()`** is a Swift method that checks if all the elements in an array satisfy a given condition.
 
 ## Syntax
 
@@ -25,7 +25,7 @@ array.allSatisfy(condition)
 
 ## Example
 
-In the example below, an array called `numbers` is declared. Then the `.allSatisfy()` method  is used to evaluate if the elements of `numbers` are all even (divisible by two).
+In the example below, an array called `numbers` is declared. Then the `.allSatisfy()` method is used to evaluate if the elements of `numbers` are all even (divisible by two).
 
 ```swift
 // Create an array
