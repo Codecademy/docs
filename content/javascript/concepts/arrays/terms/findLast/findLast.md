@@ -47,7 +47,7 @@ This results in the following output:
 
 ## Codebyte Example
 
-In this example, we will showcase the difference on how .find() and .findLast() search for the age within the array.
+This example showcases the difference on how .find() and .findLast() search for the age within the array.
 
 ```codebyte/js
 // This is an example of using .find().
