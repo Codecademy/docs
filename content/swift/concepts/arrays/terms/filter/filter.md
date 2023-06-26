@@ -27,7 +27,7 @@ The `.filter()` method takes a single `condition` parameter. It is a [closure](h
 ```swift
 var names = ["Ariel", "Jamsin", "Cinderella", "Aurora", "Belle", "Mulan", "Tiana", "Moana"]
 
-//return all elements that start with an "A"
+// Return all elements that start with an "A"
 var result = names.filter( {$0.hasPrefix("A")})
 
 print(result)
