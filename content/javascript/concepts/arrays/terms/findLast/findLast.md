@@ -47,10 +47,9 @@ This results in the following output:
 
 ## Codebyte Example
 
-```codebyte/js
-
 In this example, we will showcase the difference on how .find() and .findLast() search for the age within the array.
 
+```codebyte/js
 // This is an example of using .find().
 
 let age = [13,20,15,45,1,44,80]
