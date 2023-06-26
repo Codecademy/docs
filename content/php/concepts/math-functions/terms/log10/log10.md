@@ -21,11 +21,11 @@ The **`log10()`** function returns the base-10 logarithm of a number.
 log10($arg);
 ```
 
-The function accepts a single parameter `$arg` which refers to the number of whose the logarithm is to be calculated.
+The function accepts a single parameter, `$arg`, which represents the number to calculate the base-10 logarithm for.
 
 ## Codebyte Example
 
-Using `log10()` to return the base-10 logarithm of `100`:
+The following codebyte example uses the `log10()` function to return the base-10 logarithm of `100`, then it outputs the result using `[echo](https://www.codecademy.com/resources/docs/php/string-functions/echo)`:
 
 ```codebyte/php
 <?php
