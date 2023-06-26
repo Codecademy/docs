@@ -1,11 +1,11 @@
 ---
-Title: 'str_contains()' 
+Title: 'str_contains()'
 Description: 'Returns a boolean indicating if the specified string contains the substring provided.'
-Subjects: 
+Subjects:
   - 'Computer Science'
   - 'Web Design'
   - 'Web Development'
-Tags: 
+Tags:
   - 'Strings'
   - 'Functions'
 CatalogContent:
@@ -47,5 +47,5 @@ The following example demonstrates the case sensitive nature of `str_contains()`
 The above code results in the following output:
 
 ```shell
-    New found.
+New found.
 ```
