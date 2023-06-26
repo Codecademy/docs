@@ -25,7 +25,7 @@ The function can be invoked with two arguments:
 - `element`: The current element we are iterating through.
 - `index` (optional): The index of the array element.
 
-## Examples
+## Example
 
 Find the value 200 in the array:
 
