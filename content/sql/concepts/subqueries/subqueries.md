@@ -1,22 +1,21 @@
 ---
 Title: 'SQL Subqueries' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'Learn about SQL subqueries and how they can be used in different scenarios.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
+Description: 'SQL subqueries are queries that are embedded within another query' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
 Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
-  - 'SQL'
-
+  - 'Computer Science'
+  - 'Data Science'
 Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
   - 'Subqueries'
-  - 'Nested queries'
+  - 'SQLite'
+  - 'MySQL'
+  - 'PostgreSQL'
 
 CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
-  - 'paths/data-science'
-  - 'paths/data-science-foundations'
 ---
 
-**SQL Subqueries** also known as nested queries or inner queries, are queries that are embedded within another query. They allow you to retrieve data from one query and use it as a part of another query. Subqueries provide a powerful mechanism for performing complex database operations.
-
+**SQL Subqueries** also known as nested queries or inner queries, are queries that are embedded within another query. They allow the retrieval of data from one query and use it as a part of another query. Subqueries provide a powerful mechanism for performing complex database operations.
 ## Used in Place of a Scalar
 
 One common use case for subqueries is to replace a scalar value in a query. A scalar subquery returns a single value and can be used in expressions, such as the SELECT list, WHERE clause, or even as a part of an arithmetic operation.
