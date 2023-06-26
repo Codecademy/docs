@@ -9,7 +9,7 @@ Tags:
   - 'Methods'
   - 'SwiftUI'
 CatalogContent:
-  - 'learn-Swift'
+  - 'learn-swift'
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
