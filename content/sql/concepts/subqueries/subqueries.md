@@ -9,13 +9,13 @@ Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/
   - 'SQLite'
   - 'MySQL'
   - 'PostgreSQL'
-
 CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
 ---
 
 **SQL Subqueries** also known as nested queries or inner queries, are queries that are embedded within another query. They allow the retrieval of data from one query and use it as a part of another query. Subqueries provide a powerful mechanism for performing complex database operations.
+
 ## Used in Place of a Scalar
 
 One common use case for subqueries is to replace a scalar value in a query. A scalar subquery returns a single value and can be used in expressions, such as the SELECT list, WHERE clause, or even as a part of an arithmetic operation.
