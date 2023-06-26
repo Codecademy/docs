@@ -16,7 +16,6 @@ iOS
 Machine Learning
 Mobile Development
 Networking
-SQL
 Web Design
 Web Development
 ```
