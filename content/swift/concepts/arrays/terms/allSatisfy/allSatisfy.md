@@ -25,7 +25,7 @@ array.allSatisfy(condition)
 
 ## Example
 
-In the example below, an array was created called numbers with the values of 2, 4, 6, 8. We want to know if all the values in our array is even so we use the .allSatisfy method to check each value against a condition of our choosing. The condition in this example confirms if a value is even by verifying it is divisble by 2. If all values in the array satsify this condition the output will be true. 
+In the example below, an array called `numbers` is declared. Then the `.allSatisfy()` method  is used to evaluate if the elements of `numbers` are all even (divisible by two).
 
 ```swift
 // Create an array
