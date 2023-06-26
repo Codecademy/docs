@@ -30,7 +30,7 @@ In the example below, an array was created called numbers with the values of 2, 
 ```swift
 // Create an array
 let numbers = [2, 4, 6, 8]
-//create condition
+// Specify the condition to be tested
 let evenNumbers = numbers.allSatisfy({$0 % 2 == 0})
 print(evenNumbers)
 ```
