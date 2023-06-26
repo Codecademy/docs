@@ -2,7 +2,7 @@
 Title: '.allSatisfy()'
 Description: 'Returns a Boolean expression indicating whether every element of a sequence satisfies a given condition.'
 Subjects:
-  - 'IOS'
+  - 'iOS'
   - 'Mobile Development'
 Tags:
   - 'Arrays'
