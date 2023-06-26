@@ -20,7 +20,7 @@ The `.findLast()` array method returns the first value found in the array by sta
 array.findLast((element, index) => {...});
 ```
 
-A function can be invoked with three arguments:
+The function can be invoked with two arguments:
 
 - `element`: The current element we are iterating through.
 - `index` (optional): The index of the array element.
