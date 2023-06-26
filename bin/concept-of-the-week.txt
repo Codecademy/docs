@@ -1,1 +1,1 @@
-content/r/concepts/functions/functions.md
+content/java/concepts/math-methods/math-methods.md
