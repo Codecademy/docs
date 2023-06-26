@@ -21,7 +21,7 @@ CatalogContent:
 array.allSatisfy(condition)
 ```
 
-`condition` runs a true/false test on an array or set of given input values.
+`condition`: An expression that is used to test the values in the array.
 
 ## Example
 
