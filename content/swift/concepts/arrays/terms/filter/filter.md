@@ -1,6 +1,6 @@
 ---
 Title: '.filter()'
-Description: 'Returns an updated array from existing array by removing elements that do not meet the condition stated in the filter. The existing array does not change.'
+Description: 'Returns a new array with only the elements that meet the condition stated in the filter.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
