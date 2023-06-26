@@ -20,7 +20,7 @@ CatalogContent:
 There are three main methods for security testing:
 
 - Black Box Testing
-  - This approach to security testing evaluates a system or application without knowledge of its internal structure or implementation details. Black box testing focuses on functional requirements and the user interface, and can be used to identify security vulnerabilities that an attacker would exploit.
+  - This approach to security testing evaluates a system or application without knowledge of its internal structure or implementation details. Black box testing focuses on functional requirements and the user interface, and can be used to identify security [vulnerabilities](https://www.codecademy.com/resources/docs/cybersecurity/vulnerability) that an attacker would exploit.
 - White Box Testing
   - This approach to security testing evaluates a system or application with knowledge of its internal structure and implementation details. White box testing focuses on code-level security, including input validation, error handling, and access controls.
 - Gray Box Testing
@@ -29,7 +29,7 @@ There are three main methods for security testing:
 ### Additional Domains and Elements of Security Testing
 
 - Vulnerability assessment: This is the process of identifying, classifying, and prioritizing vulnerabilities in a system or application. Vulnerability assessments can be performed manually or with automated tools.
-- Penetration Testing: This type of testing simulates an attack on a system or application to identify security weaknesses and vulnerabilities. Penetration testing is usually performed by [ethical hackers](https://www.codecademy.com/resources/docs/cybersecurity/hacking), who use the same tools and techniques as malicious hackers to identify potential security issues.
+- [Penetration Testing](https://www.codecademy.com/resources/docs/cybersecurity/penetration-testing): This type of testing simulates an attack on a system or application to identify security weaknesses and vulnerabilities. Penetration testing is usually performed by [ethical hackers](https://www.codecademy.com/resources/docs/cybersecurity/hacking), who use the same tools and techniques as malicious hackers to identify potential security issues.
 - Network Security Testing: This type of testing focuses on the security of a network infrastructure, including firewalls, routers, and switches. Network security testing can identify vulnerabilities in network configurations and help prevent unauthorized access, data theft, and other security threats.
 - Application Security Testing: This type of testing focuses on the security of individual applications, including web applications, mobile apps, and desktop applications. Application security testing can identify vulnerabilities in the code, architecture, and deployment of an application.
 - Database Security Testing: This type of testing focuses on the security of databases and the sensitive data they contain. Database security testing can identify vulnerabilities in database configurations, access controls, data encryption, and help prevent unauthorized access to sensitive data.
