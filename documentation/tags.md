@@ -200,7 +200,6 @@ Modules
 MySQL
 Naive Bayes
 Natural Language Processing
-Nested queries
 Netlify
 Networking
 Neural Networks
