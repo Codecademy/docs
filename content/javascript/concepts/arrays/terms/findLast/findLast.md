@@ -76,6 +76,6 @@ findResult = age.findLast((value) => {
 
 console.log(`Oldest age is ${findResult}`)
 
-// If you ever need to search for an element within the array, and you know the value will be towards the end, using .findLast shortens the path to finding the element.
-
 ```
+
+> **Note:** If you ever need to search for an element within the array, and you know the value will be towards the end, using .findLast shortens the path to finding the element.
