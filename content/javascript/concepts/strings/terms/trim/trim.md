@@ -41,10 +41,6 @@ const space = '   I have space  ';
 //Print the variable.
 console.log(space);
 
-// Expected output: "   I have space!   ";
-
 //Now print variable with .trim()
 console.log(space.trim());
-
-// Expected output: "I have space!";
 ```

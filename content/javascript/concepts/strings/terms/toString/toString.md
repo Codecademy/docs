@@ -55,8 +55,4 @@ The following example demonstrates the `.toString()` method:
 // Declaring numeric object
 let arr = ["Hi", "All", "this", "is", "an", "Array"]
 console.log(arr.toString())
-
-//Output 
-Hi,All,this,is,an,Array
-//In Output, comma-separated string values are printed on the console.
 ```
