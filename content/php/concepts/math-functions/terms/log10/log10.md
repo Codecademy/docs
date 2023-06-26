@@ -30,7 +30,7 @@ The following codebyte example uses the `log10()` function to return the base-10
 ```codebyte/php
 <?php
    $arg=100;
-   echo "log10(" . $arg . ")=" . log10($arg) . "
+   echo "log10(" . $arg . ") = " . log10($arg) . "
 ";
 ?>
 ```
