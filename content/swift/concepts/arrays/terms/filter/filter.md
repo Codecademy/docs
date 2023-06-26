@@ -33,7 +33,7 @@ var result = names.filter( {$0.hasPrefix("A")})
 print(result)
 ```
 
-In the example above, the `.filter()` method is searching through the `names` array. All items that meet the condition of starting with `A` will be returned.
+In the example above, the `.filter()` method is used to search through the `names` array. All items that meet the condition of starting with `A` will be returned.
 
 This will output:
 
