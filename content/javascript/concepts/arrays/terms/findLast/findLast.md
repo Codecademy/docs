@@ -30,12 +30,11 @@ The function can be invoked with two arguments:
 Find the value 200 in the array:
 
 ```js
-const numbers = [10,42,53,12,45,66,33,6,10000,200,10];
+const numbers = [10, 42, 53, 12, 45, 66, 33, 6, 10000, 200, 10];
 
 const findNumber = numbers.findLast((value) => {
-    return value === 200;
-})
-
+  return value === 200;
+});
 
 console.log(findNumber);
 ```
@@ -49,6 +48,8 @@ This results in the following output:
 ## Codebyte Example
 
 ```codebyte/js
+
+In this example, we will showcase the difference on how .find() and .findLast() search for the age within the array.
 
 // This is an example of using .find().
 
