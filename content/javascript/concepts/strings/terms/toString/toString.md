@@ -51,8 +51,6 @@ Type of str variable is string
 The following example demonstrates the `.toString()` method:
 
 ```codebyte/javascript
-
-// Declaring numeric object
 let arr = ["Hi", "All", "this", "is", "an", "Array"]
 console.log(arr.toString())
 ```
