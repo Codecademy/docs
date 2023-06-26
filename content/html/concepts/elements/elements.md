@@ -59,7 +59,7 @@ Adding a closing slash (`/`) at the end of the void element's opening tag is all
 - [`<link>`](https://www.codecademy.com/resources/docs/html/elements/link)
 - [`<meta>`](https://www.codecademy.com/resources/docs/html/elements/meta)
 - [`<source>`](https://www.codecademy.com/resources/docs/html/elements/source)
-- `<track>`
+- [`<track>`](https://www.codecademy.com/resources/docs/html/elements/track)
 - `<wbr>`
 
 ## Nested Elements
