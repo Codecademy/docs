@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Kotlin there are two main statement types for the creation of class objects: expressions and declarations.
+In Kotlin there are two main statement types for the creation of class **objects**: expressions and declarations.
 
 ## Object Expressions
 
