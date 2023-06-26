@@ -25,7 +25,7 @@ The function accepts a single parameter, `$arg`, which represents the number to 
 
 ## Codebyte Example
 
-The following codebyte example uses the `log10()` function to return the base-10 logarithm of `100`, then it outputs the result using `[echo](https://www.codecademy.com/resources/docs/php/string-functions/echo)`:
+The following codebyte example uses the `log10()` function to return the base-10 logarithm of `100`, then it outputs the result using [echo](https://www.codecademy.com/resources/docs/php/string-functions/echo):
 
 ```codebyte/php
 <?php
