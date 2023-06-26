@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `.findLast()` array method finds the first value within the array, starting the search from the end of the array to the beginning of the array.
+The `.findLast()` array method returns the first value found in the array by starting the search from the end of the array to the beginning of the array.
 
 ## Syntax
 
