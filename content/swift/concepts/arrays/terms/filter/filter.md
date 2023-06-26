@@ -1,6 +1,6 @@
 ---
 Title: '.filter()'
-Description: 'Returns an new array with only the elements that meet the condition stated in the filter.'
+Description: 'Returns a new array with only the elements that meet the condition stated in the filter.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
