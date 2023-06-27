@@ -1,6 +1,6 @@
 ---
 Title: '.all()'
-Description: "Returns a new Promise that can be accessed as an array of resolved values of fulfulled Promises. It takes an iterable object, such as an Array, that contains one or more Promise objects. This is ideal when working with Promises that depend on one another's completion."
+Description: 'Returns a new promise that can be accessed as an array of resolved values of fulfilled promises.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -11,19 +11,19 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The `.all()` method returns a new Promise that can be accessed as an array of resolved values of fulfilled Promises. It takes an iterable object, such as an `Array`, that contains one or more Promise objects. This is ideal when working with Promises that depend on one another's completion.
+The **`.all()`** method returns a new `Promise` object that can be accessed as an array of resolved values of fulfilled promises. It takes an iterable object, such as an `Array`, that contains one or more `Promise` objects. This is ideal when working with promises that depend on one another's completion.
 
 ## Syntax
 
-```js
+```pseudo
 Promise.all(iterableObject);
 ```
 
-The `iterableObject` is usually an array of Promise objects. If the array is empty, a Promise object that resolves into an empty array will be returned.
+The `iterableObject` is usually an array of `Promise` objects. If the array is empty, a `Promise` object that resolves into an empty array will be returned.
 
 ## Example
 
-Working with two Promise objects, `promiseA` and `promiseB`:
+Working with two promises, `promiseA` and `promiseB`:
 
 ```js
 const promiseA = new Promise((resolve, reject) => {
@@ -55,7 +55,7 @@ Promise.all([promiseA, promiseB])
 
 The output would be:
 
-```plaintext
+```shell
 Results from Promise.all(): [144,42]
 Operations for Promise.all() have finished.
 ```

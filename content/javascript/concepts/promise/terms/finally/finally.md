@@ -11,11 +11,11 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Returns a new `Promise` object after the previous Promise in the chain has been resolved or rejected. This last part of the chain will execute no matter what.
+Returns a new `Promise` object after the previous promise in the chain has been resolved or rejected. This last part of the chain will execute no matter what.
 
 ## Syntax
 
-```js
+```pseudo
 myPromiseObject.then(fulfilledPromiseCallback).finally(finalPromiseCallback);
 ```
 
@@ -49,7 +49,7 @@ myPromise
 
 ## Codebyte Example
 
-In the following example, the callback function passed to `finally` is executed when the promise either resolves or rejects.
+In the following example, the callback function passed to `finally()` is executed when the promise either resolves or rejects.
 
 ```codebyte/js
 new Promise((resolve, reject) => resolve('Promise 1'))
