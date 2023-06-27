@@ -39,5 +39,5 @@ print(result)
 This will output:
 
 ```shell
-["Ariel", "Aurora"] 
+["Ariel", "Aurora"]
 ```
