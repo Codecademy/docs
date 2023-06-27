@@ -25,9 +25,9 @@ roundedNumber := math.Ceil(floatingNumber)
 
 The `Cei()` function receives a value of type `float64` and returns a single value of the same type. This returned value is the argument rounded to the nearest integer.
 
-- When passing `Ceil(±Inf)` the returned value will be the same as the argument.
-- When passing `Ceil(Nan)` the returned value will be also `Nan`.
-- When passing `Ceil(±0)` the returned value will be exactly the same as the argument.
+- When passing `Ceil(±Inf)`, the returned value will be the same as the argument.
+- When passing `Ceil(Nan)`, the returned value will be also `Nan`.
+- When passing `Ceil(±0)`, the returned value will be exactly the same as the argument.
 
 ## Example
 
