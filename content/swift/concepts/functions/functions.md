@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-**Functions** are self-contained chunks of code that perform a specific task. A function is given a name that identifies what it does, and this name is used to “call” the function to perform its task when needed.
+**Functions** are blocks of code organized together to perform a specific task. A function is given a name that identifies what it does, and this name is used to “call” the function to perform its task when needed.
 
 ## Defining and Calling Functions
 
