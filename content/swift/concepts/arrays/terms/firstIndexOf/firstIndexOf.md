@@ -31,7 +31,7 @@ Consider an array of integers representing the temperatures in Celsius:
 let temperatures = [23, 18, 25, 20, 22, 21]
 ```
 
-We can use the `.firstIndexOf()` method to find the index of the first temperature that exceeds a certain threshold, such as 25 degrees:
+The `.firstIndex()` method is used below to find the index of the first temperature that exceeds a certain threshold, such as 25 degrees:
 
 ```swift
 let threshold = 25
