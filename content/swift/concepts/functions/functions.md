@@ -150,7 +150,7 @@ The values passed to a variadic parameter are made available within the function
 
 To be able to change the value passed for a certain argument, an `inout` argument should be used. An in-out parameter is denoted by `inout` in the function definition, and when the function is called, its variable argument must be prepended with an `&`.
 
-> **Note**: in-out parameters can’t have default values, and variadic parameters can’t be marked as `inout`.
+> **Note:** Parameters declared as `inout` can’t have default values, and variadic parameters can’t be marked as `inout`.
 
 ```Swift
 func decrement(_ a: inout Int) {
