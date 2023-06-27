@@ -17,7 +17,7 @@ CatalogContent:
 
 ## How to Define and Call a Function
 
-Any function has three important elements used to define it. First is the function name. This is used to call the function. Second is the number of parameters a function takes, parameters referring to the input the function takes when calling it. Lastly is the return type of the function, which refers to the output data type of the function. When defining the name of the function, the name should describe its functionality. 
+A function has three important elements that define it. First is the function name, which is used to call the function. Second are the parameters a function takes, parameters refer to the input the function takes when it is called. Lastly is the return type of the function, which refers to the output data type of the function. When defining the name of the function, the name should describe its functionality.
 
 The figure below describes the syntax of functions in Swift:
 
