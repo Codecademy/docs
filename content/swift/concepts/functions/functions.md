@@ -114,7 +114,7 @@ The entire definition of the `salute()` function is the message that it returns,
 
 ## Default Parameters
 
-A default parameter has a value assigned to a parameter in the function’s definition. For example:
+A default parameter has a value assigned to it in the function’s definition. For example:
 
 ```Swift
 func timeToFinishBook(numWords: Double, wordsPerMin: Double = 200) -> Double {
