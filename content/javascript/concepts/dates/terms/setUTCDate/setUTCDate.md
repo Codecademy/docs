@@ -1,0 +1,40 @@
+---
+Title: '.setUTCDate()'
+Description: 'Changes the day to a Date object in Coordinated Universal Time (UTC).'
+Subjects:
+  - 'Web Development'
+Tags:
+  - 'Date'
+  - 'Methods'
+  - 'Time'
+CatalogContent:
+  - 'paths/web-development'
+  - 'introduction-to-javascript'
+---
+
+The **`.setUTCDate()`** method changes the day to a Date object.
+
+## Syntax
+
+```pseudo
+myDate.setUTCDate(day)
+```
+
+The `.setUTCDate()` method receives a day argument representing a number between 1 to 31.
+
+## Example
+
+In this example, we create a Date object in a variable called `myDate`. We then use `.setUTCDate()` to modify the day to 10.
+
+```js
+var myDate = new Date('Jun 26, 2023 18:10:40');
+myDate.setUTCDate(10);
+
+console.log(myDate.toString());
+```
+
+Output:
+
+```shell
+Tue Jun 10 2023 18:10:40 GMT+0000 (Coordinated Universal Time)
+```
