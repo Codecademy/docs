@@ -106,7 +106,7 @@ If the whole function body consists of a single expression, the function implici
 
 ```Swift
 func salute(name: String) -> String {
-    return "Hello, " + name + "!"
+  "Hello, " + name + "!"
 }
 ```
 
