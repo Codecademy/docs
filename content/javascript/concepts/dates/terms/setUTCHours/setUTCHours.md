@@ -36,7 +36,7 @@ Optionally, the method can also set the date's minute, second, and millisecond U
 This example sets the hour value of the `eventHour` object to `14`.
 
 ```javascript
-const eventHour = new Date("2023-06-25T00:00:00");
+const eventHour = new Date('2023-06-25T00:00:00');
 eventHour.setUTCHours(14);
 
 console.log(eventHour);
