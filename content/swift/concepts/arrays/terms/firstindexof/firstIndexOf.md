@@ -36,7 +36,7 @@ We can use the `.firstIndexOf()` method to find the index of the first temperatu
 ```swift
 let threshold = 25
 
-if let index = temperatures.firstIndexOf(where: { $0 > threshold }) {
+if let index = temperatures.firstIndex(of: threshold, where: { $0 > threshold }) {
     print("The first temperature exceeding \(threshold) degrees is at index \(index).")
 } else {
     print("No temperature exceeds \(threshold) degrees.")
@@ -48,7 +48,7 @@ In this example, the closure `{ $0 > threshold }` is used as the condition. It c
 The output will be:
 
 ```shell
-The first temperature exceeding 25 degrees is at index 2 .
+No temperature exceeds 25 degrees.
 ```
 
 In this case, the temperature 25 is the first element in the array that satisfies the condition, and its index is 2.
