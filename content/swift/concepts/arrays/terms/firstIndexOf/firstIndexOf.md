@@ -51,7 +51,7 @@ The output will be:
 No temperature exceeds 25 degrees.
 ```
 
-In this case, the temperature 25 is the first element in the array that satisfies the condition, and its index is 2.
+In this case, there are no temperatures that exceed 25. So, the `else` message is printed.
 
 The `.firstIndex()` method returns an optional value, so optional binding (if let) is used to safely unwrap the result.
 
