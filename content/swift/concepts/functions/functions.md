@@ -146,7 +146,7 @@ totalSumof(1, 2, 3, 4, 5)
 
 The values passed to a variadic parameter are made available within the function’s body as an array. For example, a variadic parameter with a name of `numbers` and a type of `Int...` is made available within the function’s body as a constant array called `numbers` of type `Int`.
 
-## In-Out Parameters
+## Functions With In-Out Parameters
 
 To be able to change the value passed for a certain argument, an `inout` argument should be used. An in-out parameter is denoted with the `inout` keyword in the function definition, and when the function is called, its variable argument must be prepended with an `&`.
 
