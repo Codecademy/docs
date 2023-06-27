@@ -30,7 +30,7 @@ func salute(name: String) -> String {
 }
 ```
 
-For example, this function called `greet` takes a `String` parameter called `person`, and returns a `String` equal to "Hello" plus the `person` value. The `greet(person:)` function is called by passing it a `String` value after the `person:` argument label as shown below:
+For example, the function `salute` takes a `String` parameter called `name`, and returns a `String` equal to "Hello" plus the `name` value. The `salute()` function is called by passing it a `String` value after the `name:` argument label as shown below:
 
 ```Swift
 print(salute(name: "Anna"))
