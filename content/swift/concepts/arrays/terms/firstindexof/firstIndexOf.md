@@ -36,7 +36,7 @@ We can use the `.firstIndexOf()` method to find the index of the first temperatu
 ```swift
 let threshold = 25
 
-if let index = temperatures.firstIndexOf({ $0 > threshold }) {
+if let index = temperatures.firstIndexOf(where: { $0 > threshold }) {
     print("The first temperature exceeding \(threshold) degrees is at index \(index).")
 } else {
     print("No temperature exceeds \(threshold) degrees.")
