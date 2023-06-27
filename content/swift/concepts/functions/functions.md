@@ -168,4 +168,4 @@ print(number)
 
 The example above shows that the original values of `number` is modified by the `decrement(_ :)` function, even though the variable were originally defined outside of the function.
 
-> **Note**: In-out parameters aren’t the same as returning a value from a function. The `decrement` example above doesn’t define a `return` type or return a value, but it still modifies the values of `number`. In-out parameters are an alternative way for a function to have an effect outside of the scope of its function body.
+> **Note:** In-out parameters aren’t the same as returning a value from a function. The `decrement()` example above doesn’t define a `return` type or return a value, but it still modifies the value of `number`. In-out parameters are an alternative way for a function to have an effect outside of the scope of the function body.
