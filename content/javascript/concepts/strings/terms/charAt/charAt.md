@@ -16,11 +16,11 @@ Returns a single character at the specified index of a string.
 
 ## Syntax
 
-```js
+```pseudo
 string.charAt(index);
 ```
 
-`index` is a required parameter representing the index of the character you want to return.
+`index` is a required parameter representing the index of the character to be returned.
 
 ## Examples
 

@@ -1,6 +1,6 @@
 ---
 Title: '.indexOf()'
-Description: 'Searches a string for a given value and returns the first index if found. Returns -1 if not found.'
+Description: 'Searches a string for a given value and returns the first index if found.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -16,7 +16,7 @@ Searches a string for a given value and returns the first index if found. Return
 
 ## Syntax
 
-```js
+```pseudo
 string.indexOf(value, startSearch);
 ```
 
@@ -76,12 +76,12 @@ console.log(didYouFindWaldo);
 The following is runnable, and demonstrates the use of the `.indexOf()` method:
 
 ```codebyte/javascript
-// Using a string
+// Declaring a string
 const myString = 'I love JavaScript! ';
 
-// Case 1: Searchable value exists
+// Case 1: Target value exists
 console.log(myString.indexOf('love'));
 
-// Case 2: Searchable value does not exist
+// Case 2: Target value does not exist
 console.log(myString.indexOf('hate'));
 ```

@@ -16,7 +16,7 @@ Concatenates or combines strings together.
 
 ## Syntax
 
-```js
+```pseudo
 string.concat(string_1, string_2, string_3);
 ```
 
@@ -25,8 +25,8 @@ string.concat(string_1, string_2, string_3);
 Concatenating a string:
 
 ```js
-console.log('Do you like Latte or '.concat('Cappuccino?'));
-// Output: Do you like Latte or Cappuccino?
+console.log('Would you like a latte or '.concat('cappuccino?'));
+// Output: Would you like a latte or cappuccino?
 ```
 
 ## Example 2
@@ -34,11 +34,11 @@ console.log('Do you like Latte or '.concat('Cappuccino?'));
 Concatenating strings with the usage of variables:
 
 ```js
-const x = 'Do you like Latte or';
-const y = 'Cappuccino?';
+const x = 'Would you like a latte or';
+const y = 'cappuccino?';
 
 console.log('Hey Bob! '.concat(x, ' ', y));
-// Output: Hey Bob! Do you like Latte or Cappuccino?
+// Output: Hey Bob! Would you like a latte or cappuccino?
 ```
 
 ## Codebyte Example
