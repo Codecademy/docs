@@ -15,7 +15,7 @@ CatalogContent:
 
 **Functions** are blocks of code organized together to perform a specific task. A function is given a name that identifies what it does, and this name is used to “call” the function to perform its task when needed.
 
-## Defining and Calling Functions
+## How to Define and Call a Function
 
 Any function has three important elements used to define it. First is the function name. This is used to call the function. Second is the number of parameters a function takes, parameters referring to the input the function takes when calling it. Lastly is the return type of the function, which refers to the output data type of the function. When defining the name of the function, the name should describe its functionality. 
 
