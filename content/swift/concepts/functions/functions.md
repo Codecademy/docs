@@ -130,7 +130,7 @@ When a function with a default parameter is called, an argument for that paramet
 
 ## How to Use Variadic Parameters
 
-A variadic parameter accepts zero or more values of a specified type. Variadic parameters are written by inserting three period characters (`...`) after the parameter’s type name. The example below calculates the arithmetic mean (also known as the average) for a list of numbers of any length:
+A variadic parameter are flexible arguments that accepts zero or more values of a specified type. Variadic parameters are written by inserting three period characters (`...`) after the parameter’s type name. The example below calculates the sum of all the elements in a list of numbers of any length:
 
 ```Swift
 func totalSumof(_ numbers: Int...) -> Int {
