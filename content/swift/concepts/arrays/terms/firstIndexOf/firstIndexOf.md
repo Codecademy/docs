@@ -53,6 +53,6 @@ No temperature exceeds 25 degrees.
 
 In this case, the temperature 25 is the first element in the array that satisfies the condition, and its index is 2.
 
-The `.firstIndexOf()` method returns an optional value, so optional binding (if let) is used to safely unwrap the result.
+The `.firstIndex()` method returns an optional value, so optional binding (if let) is used to safely unwrap the result.
 
 > **"Note: The `.firstIndex()` method is available in Swift 4.2 and later versions."**
