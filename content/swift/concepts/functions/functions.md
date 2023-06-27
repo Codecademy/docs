@@ -110,7 +110,7 @@ func salute(name: String) -> String {
 }
 ```
 
-The entire definition of the `greeting(for:)` function is the greeting message that it returns, which means it can use this shorter form. Any function that contains one return line can omit the `return` keyword.
+The entire definition of the `salute()` function is the message that it returns, which means it can use this shorter form. Any function that contains one return line can omit the `return` keyword.
 
 ## Default Parameters
 
