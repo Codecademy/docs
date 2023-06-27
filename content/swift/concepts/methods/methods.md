@@ -56,7 +56,9 @@ Here's an example that defines a simple __Counter__ class, which can be used to 
 
   
 
-```class Counter {
+```swift
+swift
+class Counter {
 
 var count = 0
 
@@ -100,7 +102,8 @@ Instance methods are called using dot syntax, just like accessing properties:
 
   
 
-```let counter = Counter()
+```swift
+let counter = Counter()
 
 // the initial counter value is 0
 
@@ -138,7 +141,8 @@ In most cases, we don't need to use the __self__ keyword explicitly because Swif
 
   
 
-```struct Point {
+```swift
+struct Point {
 
 var x = 0.0, y = 0.0
 
@@ -192,7 +196,8 @@ So, the __mutating__ keyword allows us to modify the properties of a value type 
 
   
 
-```struct Point {
+```swift
+struct Point {
 
 var x = 0.0, y = 0.0
 
@@ -232,7 +237,8 @@ When a method in Swift is marked as __mutating__, this means it can modify the p
 
   
 
-```struct Person {
+```swift
+struct Person {
 
 var name: String
 
@@ -258,7 +264,8 @@ This can be useful in situations where the aim is to completely replace the inst
 
   
 
-```struct GameCharacter {
+```swift
+struct GameCharacter {
 
 var name: String
 
@@ -300,7 +307,8 @@ To define a type method, we use the __static__ keyword before the method declara
 
   
 
-```struct MathUtility {
+```swift
+struct MathUtility {
 
 static func multiply(_ a: Int, by b: Int) -> Int {
 
@@ -322,7 +330,8 @@ Here's an example of how we could use this method:
 
   
 
-```let result = MathUtility.multiply(5, by: 3)
+```swift
+let result = MathUtility.multiply(5, by: 3)
 
 print(result) // Output: 15
 
