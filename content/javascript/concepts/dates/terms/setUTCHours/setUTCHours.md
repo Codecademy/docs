@@ -22,14 +22,14 @@ myDate.setUTCHours(hoursValue);
 
 The `.setUTCHours()` method is called on the `myDate` object with an input argument `hoursValue` that passes the new hour value.
 
-Optionally, you can use the method to also set the date's minute, second, and millisecond UTC values. These are the valid number ranges for the time units:
+Optionally, the method can also set the date's minute, second, and millisecond UTC values. The valid number ranges for the time units are as follows:
 
 - **Hours** (required): _0_ to _23_
 - **Minutes** (optional): _0_ to _59_
 - **Seconds** (optional): _0_ to _59_
 - **Milliseconds** (optional): _0_ to _999_
 
-> **Note**: You can only set the object's second and millisecond values when the preceding time unit is defined in the method call. For example, if you want to use the method to set a `Date` object's millisecond value, you must also set its minute and second values.
+> **Note**: The object's second and millisecond values can only be set when the preceding time unit is defined in the method call. For example, to set a `Date` object's millisecond value, the minute and second values must be set as well.
 
 ## Examples
 
@@ -43,10 +43,10 @@ console.log(eventHour);
 console.log(eventHour.getUTCHours());
 ```
 
-The example would output this:
+The code above results in the following output:
 
 ```shell
-2023-06-24T14:30:00.000Z
+2023-06-25T14:30:00.000Z
 14
 ```
 
