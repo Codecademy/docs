@@ -105,7 +105,7 @@ print(findDifferenceBetween(6,4)) // Prints: 2
 If the whole function body consists of a single expression, the function implicitly returns the value of that expression. For example:
 
 ```Swift
-func salute(name: String) -> String 
+func salute(name: String) -> String {
     return "Hello, " + name + "!"
 }
 ```
