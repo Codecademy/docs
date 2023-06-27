@@ -86,7 +86,7 @@ print("Minimum number is \(bounds.MinNumber) and maximum number is \(bounds.MaxN
 // Prints "Minimum number is -6 and maximum number is 109"
 ```
 
-## Omitting Argument Labels
+## How to Omit Argument Labels
 
 To avoid having an argument labeled, use the `_` instead of an explicit argument label for that parameter.
 
