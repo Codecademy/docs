@@ -1,7 +1,7 @@
 ---
-Title: 'Functions' 
+Title: 'Functions'
 Description: 'Functions are blocks of code organized together to preform a specific task.'
-Subjects: 
+Subjects:
   - 'iOS'
   - 'Code Foundations'
 Tags:
@@ -46,9 +46,9 @@ For example, this function takes two numbers as an input, and returns the sum of
 ```Swift
 func sum(x: Int, y: Int) -> Int {
   return x + y
-} 
+}
 
-let result = sum(x: 1, y: 2) 
+let result = sum(x: 1, y: 2)
 print(result)
  // Prints:  3
 ```
@@ -64,7 +64,7 @@ func minMax(array: [Int]) -> (MinNumber: Int, MaxNumber: Int) {
     var MinNumber = array[0]
     var MaxNumber = array[0]
     if array.isEmpty {
-    return nil 
+    return nil
     }else{
     for value in array {
         if value < MinNumber {
@@ -118,19 +118,19 @@ A default parameter has a value assigned to it in the function’s definition. F
 
 ```Swift
 func timeToFinishBook(numWords: Double, wordsPerMin: Double = 200) -> Double {
-  let totalMinutes = numWords / wordsPerMin 
-  return totalMinutes / 60 
+  let totalMinutes = numWords / wordsPerMin
+  return totalMinutes / 60
 }
 
 print("\(timeToFinishBook(numWords: 93000)) hours")
-// Prints: 7.75 hours 
+// Prints: 7.75 hours
 ```
 
 When a function with a default parameter is called, an argument for that parameter is not required. If the argument is included, that value will overwrite the default value and be used in the function body.
 
 ## How to Use Variadic Parameters
 
-A variadic parameter are flexible arguments that accepts zero or more values of a specified type. Variadic parameters are written by inserting three period characters (`...`) after the parameter’s type name. The example below calculates the sum of all the elements in a list of numbers of any length:
+Variadic parameters are flexible arguments that accepts zero or more values of a specified type. They are declared by inserting three period characters (`...`) after the parameter’s type name. The example below calculates the sum of all the elements in a list of numbers of any length:
 
 ```Swift
 func totalSumof(_ numbers: Int...) -> Int {
@@ -138,7 +138,7 @@ func totalSumof(_ numbers: Int...) -> Int {
     for number in numbers {
         total += number
     }
-    return total 
+    return total
 }
 totalSumof(1, 2, 3, 4, 5)
 // returns 15, which is the sum of the numbers
