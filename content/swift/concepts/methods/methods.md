@@ -96,3 +96,35 @@ print("The point is now at (\(somePoint.x), \(somePoint.y))")
 ```
 
 In the above code, the __moveBy(x:y:)__ method is marked as __mutating__ because it modifies the __x__ and __y__ properties of the structure __Point__.
+
+## Assigning to self Within a Mutating Method
+
+When you have a method in Swift that is marked as __mutating__, it means that the method can modify the properties of the structure or enumeration it belongs to. But what if you want to change the entire instance itself, not just its properties? In Swift, you can assign a new instance to the special keyword __self__ within a mutating method.
+
+```struct Person {
+    var name: String
+
+    mutating func changeName(newName: String) {
+        self = Person(name: newName)  // Assigning a new instance to self
+    }
+}
+```
+
+In the code above, we have a structure called __Person__ with a property called __name__. The __changeName__ method is marked as mutating__ because it modifies the __Person__ instance. Inside this method, you can assign a completely new __Person__ instance to __self__. It's like creating a whole new person and replacing the old one with it.
+
+This can be useful in situations where you want to completely replace the instance with a new one. For example, let's say we have a game character represented by a structure:
+
+```struct GameCharacter {
+    var name: String
+    var health: Int
+
+    mutating func respawn() {
+        // Creating a new character instance with updated properties
+        self = GameCharacter(name: "Player", health: 100)
+    }
+}
+```
+
+In the code above, the __respawn__ method is marked as __mutating__. When the character needs to respawn, we can use __self__ within the method to create a new __GameCharacter__ instance with the desired properties and replace the old character with it.
+
+So, assigning to __self__ within a mutating method allows you to change the entire instance itself, giving you the flexibility to create new instances and replace the old ones when needed.
