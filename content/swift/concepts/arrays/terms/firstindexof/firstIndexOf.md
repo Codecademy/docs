@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.firstIndexOf()`** method in Swift returns the index of the first element in an array that fulfills a specified condition. If no element satisfies the condition, it returns `nil`.
+The **`.firstIndex()`** method in Swift returns the index of the first element in an array that fulfills a specified condition. If no element satisfies the condition, it returns `nil`.
 
 ## Syntax
 
