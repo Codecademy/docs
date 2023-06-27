@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The `.all()` method returns a new Promise that can be accessed as an array of resolved values of fulfulled Promises. It takes an iterable object, such as an `Array`, that contains one or more Promise objects. This is ideal when working with Promises that depend on one another's completion.
+The `.all()` method returns a new Promise that can be accessed as an array of resolved values of fulfilled Promises. It takes an iterable object, such as an `Array`, that contains one or more Promise objects. This is ideal when working with Promises that depend on one another's completion.
 
 ## Syntax
 
@@ -58,4 +58,43 @@ The output would be:
 ```plaintext
 Results from Promise.all(): [144,42]
 Operations for Promise.all() have finished.
+```
+
+## Codebyte Example
+
+The following example demonstrates that the promise returned from `Promise.all` resolves only if all promises (passed as an array) resolve. The resolved value is an array containing the values of each resolved promise.
+
+If at least one promise was rejected, `Promise.all` rejects with the value of the first rejected promise it encounters.
+
+```codebyte/js
+function getPromise(shouldResolve, value) {
+  return new Promise((resolve, reject) => {
+    if (shouldResolve) {
+      resolve(value);
+    } else {
+      reject(value);
+    }
+  });
+}
+
+function onResolve(value) {
+  console.log('Resolved: ' + value);
+}
+
+function onReject(value) {
+  console.log('Rejected: ' + value);
+}
+
+const resolvedPromise1 = getPromise(true, 'Resolved promise 1');
+const resolvedPromise2 = getPromise(true, 'Resolved promise 2');
+const rejectedPromise1 = getPromise(false, 'Rejected promise 1');
+const rejectedPromise2 = getPromise(false, 'Rejected promise 2');
+
+Promise.all([resolvedPromise1, resolvedPromise2])
+  .then(onResolve)
+  .catch(onReject);
+
+Promise.all([rejectedPromise1, resolvedPromise1, rejectedPromise2, resolvedPromise2])
+  .then(onResolve)
+  .catch(onReject);
 ```
