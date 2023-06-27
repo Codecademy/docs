@@ -40,7 +40,8 @@ print(salute(name: "Anna"))
 ## Multiple Parameters
 
 Functions can take more than one input parameter, the parameters must be separated by commas and assigned during the function call.
-For example, this function takes two numbers as an input, and returns the division of the two numbers:
+
+For example, this function takes two numbers as an input, and returns the sum of the two numbers:
 
 ```Swift
 func sum(x: Int, y: Int) -> Int {
