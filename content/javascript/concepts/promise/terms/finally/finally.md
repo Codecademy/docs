@@ -46,3 +46,17 @@ myPromise
   Operations have ended.
   */
 ```
+
+## Codebyte Example
+
+In the following example, the callback function passed to `finally` is executed when the promise either resolves or rejects.
+
+```codebyte/js
+new Promise((resolve, reject) => resolve('Promise 1'))
+  .then((value) => console.log('Resolved: ' + value))
+  .finally(() => console.log('Always log this when the promise fulfills!'));
+
+new Promise((resolve, reject) => reject('Promise 2'))
+  .catch((value) => console.log('Rejected: ' + value))
+  .finally(() => console.log('Just log it!'));
+```
