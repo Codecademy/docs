@@ -1,32 +1,32 @@
 ---
 
-Title: Methods
+Title: 'Methods'
 
-Description: Learn about methods in Swift and how they are used to perform actions and provide functionality.
+Description: 'Learn about methods in Swift and how they are used to perform actions and provide functionality.'
 
 Subjects:
 
-- iOS
+- 'iOS'
 
-- Mobile Development
+- 'Mobile Development'
 
-- Game Development
+- 'Game Development'
 
 Tags:
 
-- Methods
+- 'Methods'
 
-- Functions
+- 'Functions'
 
-- Properties
+- 'Properties'
 
-- Parameters
+- 'Parameters'
 
-- Self
+- 'Self'
 
-- Mutating
+- 'Mutating'
 
-- Type Methods
+- 'Type Methods'
 
   
 
