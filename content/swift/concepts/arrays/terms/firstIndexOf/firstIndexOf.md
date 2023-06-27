@@ -43,7 +43,6 @@ if let index = temperatures.firstIndex(where: { $0 > threshold }) {
 }
 ```
 
-In this example, the closure `{ $0 > threshold }` is used as the condition. It checks whether each temperature in the array is greater than the threshold. If a temperature exceeding the threshold is found, the index of that temperature is printed. Otherwise, a message indicating that no temperature exceeds the threshold is printed.
 
 The output will be:
 
