@@ -69,3 +69,30 @@ if somePoint.isToTheRightOf(x: 1.0) {
 ```
 
 In the above code, __self.x__ is used to refer to the instance property __x__, while __x__ alone refers to the parameter.
+
+##Modifying Value Types from Within Instance Methods
+
+By default, when you have a structure or enumeration in Swift (which are called value types), you can't directly change their properties from within their instance methods. 
+
+However, if you want to be able to modify the properties of a structure or enumeration inside a specific method, you can use the __mutating__ keyword. This keyword tells Swift that the method might change the properties of the structure or enumeration. 
+
+When the method is called and makes changes, those changes are saved and applied to the original instance of the structure or enumeration when the method finishes. 
+
+So, the __mutating__ keyword allows you to modify the properties of a value type within its instance methods.
+
+```struct Point {
+    var x = 0.0, y = 0.0
+    
+    mutating func moveBy(x deltaX: Double, y deltaY: Double) {
+        x += deltaX
+        y += deltaY
+    }
+}
+
+var somePoint = Point(x: 1.0, y: 1.0)
+somePoint.moveBy(x: 2.0, y: 3.0)
+print("The point is now at (\(somePoint.x), \(somePoint.y))")
+// Prints "The point is now at (3.0, 4.0)"
+```
+
+In the above code, the __moveBy(x:y:)__ method is marked as __mutating__ because it modifies the __x__ and __y__ properties of the structure __Point__.
