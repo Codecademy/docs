@@ -13,14 +13,14 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-*Depth-first search (BFS)* is a traversing algorithm for unweighted graphs. This is a foundational algorithm in [graph](https://www.codecademy.com/resources/docs/general/graph) theory from which many other algorithms start.
+*Depth-first search (DFS)* is a traversing algorithm for unweighted graphs. This is a foundational algorithm in [graph](https://www.codecademy.com/resources/docs/general/graph) theory from which many other algorithms start.
 
 ## Features
 
 Some of the features and constraints that define the use and functionality of a depth-first search algorithm include the following:
 
 - A relatively simple and efficient algorithm for finding the shortest-path in graphs that do not have edge weights.
-- It has a time complexity of *O(|V| + |E|)*, which is the sum of the vertices and edges.
+- It has a time complexity of **O(|V| + |E|)**, which is the sum of the vertices and edges.
 - It finds a solution but may or may not be optimal one.
 
 ## Implementation
@@ -37,12 +37,13 @@ The implementation below can be broken down into the following steps:
 - Now, repeat steps 3 and 4 until no vertices are left to visit from the vertex on the stack's top.
 - If no vertex is left, go back and pop a vertex from the stack.
 - Repeat steps 2, 3, and 4 until the stack is empty.
-- 
-## Example:
-![image](https://github.com/Codecademy/docs/assets/100008872/b28fc472-761d-47e9-8189-a6b7865f7cb8)
 
+## Example:
+https://raw.githubusercontent.com/Codecademy/docs/main/media/Depth-First-Search-Example.png
 
 ## code:
+The following is an implementation in python:
+
 ```python
 #visited keepds record of visited nodes
 def dfs(graph,start,goal,stack,visited):
@@ -80,5 +81,7 @@ stack=[]
 dfs(graph,start,goal,visited,stack)
 ```
 
-## output:
-![image](https://github.com/Codecademy/docs/assets/100008872/7b040a7d-90b4-4188-8ef0-067f0507695d)
+```shell
+The path traversed is:
+A B D E H I C F G J >
+```
