@@ -100,7 +100,7 @@ print(findDifferenceBetween(6,4)) // Prints: 2
 
 > **Note:** If a parameter has an argument label, the argument must be labeled when calling the function.
 
-## Functions With an Implicit Return
+## An Implicit Return
 
 If the whole function body consists of a single expression, the function implicitly returns the value of that expression. For example:
 
