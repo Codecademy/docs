@@ -2,7 +2,7 @@
 Title: '.firstIndex()'
 Description: 'Returns the index of the first element in an array that satisfies the given condition.'
 Subjects:
-  - 'Swift'
+  - 'iOS'
   - 'Mobile Development'
 Tags:
   - 'Arrays'
