@@ -157,7 +157,7 @@ func decrement(_ a: inout Int) {
 }
 ```
 
-This function decrement the value of a by 1.
+This function decrements a passed value by 1.
 
 ```Swift
 var number = 3
