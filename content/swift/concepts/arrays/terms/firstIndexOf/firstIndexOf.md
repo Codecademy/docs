@@ -55,4 +55,4 @@ In this case, the temperature 25 is the first element in the array that satisfie
 
 The `.firstIndexOf()` method returns an optional value, so optional binding (if let) is used to safely unwrap the result.
 
-> **"Note: The `.firstIndexOf()` method is available in Swift 4.2 and later versions."**
+> **"Note: The `.firstIndex()` method is available in Swift 4.2 and later versions."**
