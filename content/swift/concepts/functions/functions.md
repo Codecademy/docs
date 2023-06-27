@@ -1,6 +1,6 @@
 ---
 Title: 'Functions' 
-Description: 'A functions is a set of code organized together to preform a specific task.'
+Description: 'Functions are blocks of code organized together to preform a specific task.'
 Subjects: 
   - 'iOS'
   - 'Code Foundations'
