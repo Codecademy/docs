@@ -163,7 +163,7 @@ This function decrements a passed value by 1.
 var number = 3
 decrement(&number)
 print(number)
-// Prints "2"
+// Prints 2
 ```
 
 The example above shows that the original value of `number` is modified by the `decrement()` function, even though the variable was originally defined outside of the function.
