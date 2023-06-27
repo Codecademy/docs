@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **Max()** function returns the maximum value of two specified numbers.
+The **`Max()`** function returns the maximum value of two specified numbers.
 
 ## Syntax
 
@@ -27,19 +27,19 @@ result := math.Max(num1, num2)
 
 ## Example
 
-The following example compares two integer values and prints out the maximum value as result.
+The following example compares two integer values and prints out the maximum value `result`.
 
 ```go
 package main
 
 import (
-    "fmt"
-    "math"
+  "fmt"
+  "math"
 )
 
 func main() {
-    result := math.Max(27, 28)
-    fmt.Printf("%.1f\n", result)
+  result := math.Max(27, 28)
+  fmt.Printf("%.1f\n", result)
 }
 ```
 
@@ -51,22 +51,22 @@ The output will be:
 
 ## Codebyte Example
 
-The following example is runnable and uses the `math.Max()` method to return the maximum value from the given two numbers.
+The following example is runnable and uses the `math.Max()` method to return the maximum value from the two given numbers.
 
 ```codebyte/golang
 package main
 
 import (
-	"fmt"
-	"math"
+  "fmt"
+  "math"
 )
 
 func main() {
-	num1 := 800.0
-	num2 := 700.0
+  num1 := 800.0
+  num2 := 700.0
 
-	result := math.Max(num1, num2)
+  result := math.Max(num1, num2)
 
-	fmt.Printf("The max value of %.1f and %.1f is %.1f\n", num1, num2, result)
+  fmt.Printf("The max value of %.1f and %.1f is %.1f\n", num1, num2, result)
 }
 ```
