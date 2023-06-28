@@ -14,7 +14,7 @@ CatalogContent:
 
 The **`getTimezoneOffset()`** method returns the time zone offset in minutes between the user's local time and UTC (Coordinated Universal Time). The offset represents the difference in minutes between the UTC time and the local time of the user's system.
 
-This method is particularly useful when you need to work with time-related operations that involve time zone conversions or calculations. By using **`getTimezoneOffset()`**, you can obtain the current offset and consider it when performing various operations, such as displaying local time, converting between time zones, or adjusting dates and times based on the user's location.
+This method is particularly useful when working with time-related operations that involve time zone conversions or calculations. By using **`getTimezoneOffset()`**, the current offset can be obtained and considered when performing various operations, such as displaying local time, converting between time zones, or adjusting dates and times based on the user's location.
 
 ## Syntax
 
@@ -38,13 +38,13 @@ console.log(timezoneOffset);
 
 The code above results in the following output:
 
-```
+```shell
 New Index: -300
 ```
 
 ## Example 2
 
-In this example, we create a new `Date` object for a specific date and time, in this case, `June 28, 2023, at 12:00:00`. The .`getTimezoneOffset()` method is called on the date object, and the resulting time zone offset value is stored in the `timezoneOffset` variable. The output will be the time zone offset in minutes for the given date and time. The output can vary depending on the user's location and system settings.
+In this example, a new `Date` object is created for a specific date and time, in this case, `June 28, 2023, at 12:00:00`. The `.getTimezoneOffset()` method is called on the date object, and the resulting time zone offset value is stored in the `timezoneOffset` variable. The output will be the time zone offset in minutes for the given date and time. The output can vary depending on the user's location and system settings.
 
 Note that the returned value of .`getTimezoneOffset()` is the opposite sign of the actual time zone offset. For example, if the local time zone is `5` hours behind UTC, the method will return a positive value of `300`. Similarly, if the local time zone is `5` hours ahead of UTC, the method will return a negative value of `-300`.
 
@@ -57,6 +57,6 @@ console.log(timezoneOffset);
 
 The code above results in the following output:
 
-```
+```shell
 New Index: -300
 ```
