@@ -10,7 +10,7 @@ Tags:
   - 'Values'
   - 'Variable Types'
   - 'Variables'
- CatalogContent:
+CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
