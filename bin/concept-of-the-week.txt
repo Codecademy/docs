@@ -1,1 +1,1 @@
-content/markdown/concepts/tables/tables.md
+content/java/concepts/math-methods/math-methods.md

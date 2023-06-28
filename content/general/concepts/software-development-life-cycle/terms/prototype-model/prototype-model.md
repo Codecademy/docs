@@ -45,4 +45,4 @@ Prototypes can also be classified by the level of detail:
 5. Prototype refinement: The feedback obtained from testing is used to improve the prototype and meet the requirements of the product.
 6. Development: After the prototype has been refined and meets customer requirements, the team moves on to the final product development.
 
-The prototype model follows an iterative development process, where testing and feedback collection are conducted for each new version of the prototype. Based on the results of testing and new requirements for improving the prototype are formed, and a new version is released. This process is repeated until the prototype satisfies the interests of all project participants.
+The Prototype model follows an iterative development process, where testing and feedback collection are conducted for each new version of the prototype. Based on the results of testing and new requirements for improving the prototype are formed, and a new version is released. This process is repeated until the prototype satisfies the interests of all project participants.
