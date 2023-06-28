@@ -197,18 +197,4 @@ The output for the above code is:
 False
 ```
 
-**Checking if all elements in a dictionary meet a certain condition:**
-
-```codebyte/python
-student_scores = {'Alice': 85, 'Bob': 92, 'Charlie': 88}
-all_high_scores = all(score >= 80 for score in student_scores.values())
-print(all_high_scores)
-```
-
-The output for the above code is:
-
-```shell
-True
-```
-
 The `all()` function returns `True` if all elements in an iterable are considered "truthy" (i.e., they evaluate to `True` in a boolean context). Otherwise, it returns `False`.
