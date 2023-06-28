@@ -12,7 +12,7 @@ CatalogContent:
   - 'intro-to-chatgpt'
 ---
 
-**Foundation models** power AI systems that are trained on text, images, code, and other formats of data. These models pre-train on large amounts of unlabeled data from the internet. They can then be fine-tuned to perform various downstream tasks, like generating content(referred to as [generative AI (GenAI)](https://www.codecademy.com/resources/docs/ai/generative-ai)).
+**Foundation models** power AI systems that are trained on text, images, code, and other formats of data. These models pre-train on large amounts of unlabeled data from the internet. They can then be fine-tuned to perform various downstream tasks, like generating content(referred to as [generative AI (GenAI)](https://www.codecademy.com/resources/docs/ai/generative-ai).
 
 Foundation models are capable of powering downstream tasks that involve language, vision, robotics, reasoning, and human interactions.
 
