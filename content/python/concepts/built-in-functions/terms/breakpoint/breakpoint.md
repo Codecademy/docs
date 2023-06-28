@@ -64,3 +64,26 @@ This will cause the following in the terminal:
 ![Terminal window showing the breakpoint() formula](https://raw.githubusercontent.com/Codecademy/docs/main/media/python-built-in-functions-breakpoint-screenshot.png)
 
 The execution of the program was paused, showing a prompt in the terminal. At this point, the code can be analyzed using the previously mentioned commands.
+
+## Codebyte Example
+
+Here's an example to demonstrate the usage of `breakpoint()`:
+
+```codebyte/python
+def calculate_sum(numbers):
+  total = 0
+  for number in numbers:
+      total += number
+      breakpoint()
+  return total
+
+numbers = [1, 2, 3, 4, 5]
+result = calculate_sum(numbers)
+print("Sum:", result)
+```
+
+In this example, there is a function called `calculate_sum()` that takes a list of numbers and calculates their sum. Inside the for loop, a `breakpoint()` call is inserted to pause the execution and allow debugging.
+
+When the code is run and reaches the `breakpoint()` line, the program will pause, and there will be an opportunity to interactively debug the code. The value of `number`, `total`, or any other relevant variables can be inspected. Additionally, the loop can be stepped through using debugger commands to see how the sum is calculated.
+
+By using `breakpoint()` strategically in the code, issues can be identified and resolved or insights into the flow of the program during runtime can be gained.
