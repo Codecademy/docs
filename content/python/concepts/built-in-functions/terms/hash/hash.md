@@ -28,7 +28,7 @@ The `object` can be of any hashable type, such as numbers, strings, tuples, or c
 
 ## Example
 
-The example below begins by defining a class called `MyClass` with an attribute called value. The `hash()` method is implemented to customize the hashing behavior based on the value attribute using the `hash()` function.
+The example below begins by defining a class called `MyClass` with an attribute called value. The `__hash__()` method is implemented to customize the hashing behavior based on the value attribute using the `hash()` function.
 
 Two instances of `MyClass` `obj1` and `obj2`, are created with different values. The `hash()` function is used to calculate the hash values of these objects. And these values are then printed to the console.
 
