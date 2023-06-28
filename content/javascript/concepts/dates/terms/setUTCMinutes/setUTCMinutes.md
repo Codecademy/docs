@@ -1,15 +1,15 @@
 ---
 Title: '.setUTCMinutes()'
 Description: 'Changes the minutes for a given date according to universal time (UTC).'
-Subjects: 
-    - 'Computer Science' 
-    - 'Web Development'
-Tags: 
-    - 'Methods'
-    - 'Date'
+Subjects:
+  - 'Computer Science'
+  - 'Web Development'
+Tags:
+  - 'Methods'
+  - 'Date'
 CatalogContent:
-    - 'introduction-to-javascript'
-    - 'paths/front-end-engineer-career-path'
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 The **`.setUTCMinutes()`** method changes the minutes of a `Date` instance according to universal time (UTC).
@@ -36,11 +36,11 @@ In the following example, the `.toUTCString()` method converts a `Date` object t
 
 ```js
 const date = new Date(Date.UTC(2023, 5, 23, 12, 34, 56)); // Year, Month , Day, Hour, Minute, Second
-console.log("Before:", date.toUTCString()); // Before: Wed, 23 Jun 2023 12:34:56 GMT
+console.log('Before:', date.toUTCString()); // Before: Wed, 23 Jun 2023 12:34:56 GMT
 
 date.setUTCMinutes(45);
 
-console.log("After:", date.toUTCString()); // After: Wed, 23 Jun 2023 12:45:56 GMT
+console.log('After:', date.toUTCString()); // After: Wed, 23 Jun 2023 12:45:56 GMT
 ```
 
 This example results in the following output.
