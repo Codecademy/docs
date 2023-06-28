@@ -20,8 +20,6 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 
 One common use case for subqueries is to replace a scalar value in a query. A scalar subquery returns a single value and can be used in expressions, such as the `SELECT` list, `WHERE` clause, or even as a part of an arithmetic operation.
 
-## Syntax
-
 ```pseudo
 SELECT emp_name, salary
 FROM employees
@@ -33,8 +31,6 @@ This example retrieves the employee name and salary for those employees whose sa
 ## Used in Place of a Table
 
 Subqueries can also be used in place of a table to retrieve data. This allows for operations on a subset of data derived from another table or set of tables.
-
-## Syntax
 
 ```pseudo
 SELECT salesperson_id, total_sales
@@ -49,8 +45,6 @@ In this example, the subquery calculates the total sales made by each salesperso
 
 Another common use case for subqueries is to include them in a `WHERE` clause to filter data based on specific conditions.
 
-## Syntax
-
 ```pseudo
 SELECT product_name, price
 FROM products
@@ -58,4 +52,3 @@ WHERE category_id IN (SELECT category_id FROM categories WHERE category_name = '
 ```
 
 This example selects the product name and price for all products that belong to the 'Electronics' category using a subquery in the WHERE clause.
-
