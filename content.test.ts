@@ -87,9 +87,22 @@ describe.each(glob.sync('content/**/*.md'))('%s', (file) => {
     Tags?: string[];
   };
 
-  const { attributes }: FrontMatterResult<FrontMatterAttributes> = frontmatter(
-    fs.readFileSync(file, 'utf8')
-  );
+  const fileContent = fs.readFileSync(file, 'utf8');
+
+  if (!frontmatter.test(fileContent)) {
+    throw new Error(
+      `error: ${file} does not contain properly formatted frontmatter.`
+    );
+  }
+
+  if (!fileContent.startsWith('---')) {
+    throw new Error(
+      `error: ${file} does not contain properly formatted frontmatter. Check for leading invisible characters.`
+    );
+  }
+
+  const { attributes }: FrontMatterResult<FrontMatterAttributes> =
+    frontmatter(fileContent);
 
   it('has only valid metadata keys', () => {
     const validKeys: Record<string, string> = {

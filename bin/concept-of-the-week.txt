@@ -1,1 +1,1 @@
-content/python/concepts/conditionals/conditionals.md
+content/java/concepts/math-methods/math-methods.md
