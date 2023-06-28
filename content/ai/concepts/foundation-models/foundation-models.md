@@ -12,7 +12,7 @@ CatalogContent:
   - 'intro-to-chatgpt'
 ---
 
-**Foundation models** power AI systems that are trained on text, images, code, and other formats of data. These models pre-train on large amounts of unlabeled data from the internet. They can then be fine-tuned to perform various downstream tasks, like generating content(referred to as [GenAI](https://www.codecademy.com/resources/docs/ai/generative-ai)).
+**Foundation models** power AI systems that are trained on text, images, code, and other formats of data. These models pre-train on large amounts of unlabeled data from the internet. They can then be fine-tuned to perform various downstream tasks, like generating content(referred to as [generative AI (GenAI)](https://www.codecademy.com/resources/docs/ai/generative-ai)).
 
 Foundation models are capable of powering downstream tasks that involve language, vision, robotics, reasoning, and human interactions.
 
@@ -40,7 +40,7 @@ Foundation models use various architecture types. One of which includes the tran
 
 Foundation models are based on [deep learning](https://www.codecademy.com/resources/docs/ai/machine-learning) standards and transfer learning.
 
-Pre-training models on data is vital in transfer learning, which deals with the application of knowledge learned from one task onto another task. As computer hardware increase in speed and memory, the amount of training data that is able to be processed increases as well, making foundation models possible.
+Pre-training models on data is vital in transfer learning, which deals with the application of knowledge learned from one task onto another task. As computer hardware increases in speed and memory, the amount of training data that is able to be processed increases as well, making foundation models possible.
 
 ## Existing Models
 
@@ -48,7 +48,7 @@ Some examples of existing foundation models include:
 
 - BERT (Bidirectional Encoder Representations from Transformers) is a model introduced by Google in 2018.
 - LaMDA (Language Model for Dialogue Applications) is a model introduced by Google in 2020, and powers Bard which was released in March 2023.
-- GPT (Generative Pre-trained Transformer)(https://www.codecademy.com/resources/docs/ai/chatgpt) is a model that was first introduced by OpenAI in 2018. It is trained on text and code, and powers [ChatGPT](https://www.codecademy.com/resources/docs/ai/chatgpt) which was released in November 2022.
+- GPT (Generative Pre-trained Transformer) is a model that was first introduced by OpenAI in 2018. It is trained on text and code, and powers [ChatGPT](https://www.codecademy.com/resources/docs/ai/chatgpt) which was released in November 2022.
 - DALL-E is a model introduced in 2021 by OpenAI. It is based on GPT-3 and is used to produce images.
 
 ## Model Types
