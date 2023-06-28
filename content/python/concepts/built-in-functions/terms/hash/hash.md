@@ -32,7 +32,7 @@ The example below begins by defining a class called `MyClass` with an attribute 
 
 Two instances of `MyClass` `obj1` and `obj2`, are created with different values. The `hash()` function is used to calculate the hash values of these objects. And these values are then printed to the console.
 
-This example demonstrates how to customize the hash function for a class using the `hash()` method. The `hash()` function allows us to obtain the hash value of an object, which is an integer used for quick comparison and dictionary key lookups.
+This example demonstrates how to customize the hash function for a class using the `__hash__()` method. The `hash()` function allows us to obtain the hash value of an object, which is an integer used for quick comparison and dictionary key lookups.
 
 ```py
 # Define a class
