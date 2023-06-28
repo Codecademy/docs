@@ -7,7 +7,6 @@ Subjects:
 Tags:
   - 'Dictionary'
   - 'Scope'
-  - 'Symbol'
   - 'Values'
   - 'Variable Types'
   - 'Variables'
@@ -20,17 +19,14 @@ The built-in **`globals()`** function allows access to the global scope's name t
 
 ## Syntax
 
-```shell
+```pseudo
 globals()
 ```
 
-The `globals()` method doesn't take any parameters.
+- This method doesn't take any parameters.
+- This method returns the dictionary of the current global symbol table.
 
-The `globals()` method returns the dictionary of the current global symbol table.
-
-## Examples
-
-### Example 1
+## Example 1
 
 ```py
 length = 123
@@ -44,7 +40,7 @@ This code returns the following dictionary. Notice that the `length` global vari
 {'__name__': '__main__', '__doc__': None, '__package__': None, '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': None, '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, 'length': 123}
 ```
 
-### Example 2
+## Example 2
 
 ```py
 length = 123
@@ -53,7 +49,7 @@ globals()['length'] = 125
 print('The length is:', length)
 ```
 
-The global variable `length` is set to `123`. The global variable in this example can be modified using the `globals()` function with the dictionary key `[length]`. It can be also modified from within a function.
+The global variable in this example is modified using the `globals()` function with the dictionary key `[length]`. It can be also modified from within a function.
 
 The code will return:
 
