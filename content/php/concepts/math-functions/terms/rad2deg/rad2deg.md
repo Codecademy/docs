@@ -20,6 +20,7 @@ The **`rad2deg()`** function in PHP converts radians to degrees. It accepts a nu
 ```psuedo
 rad2deg(number);
 ```
+
 Where `number` is the radian value to convert to degrees. The value returned by the function is a `float` type and is the equivalent of `number` in degrees.
 
 ## Example
