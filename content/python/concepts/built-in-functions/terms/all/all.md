@@ -210,3 +210,5 @@ The output for the above code is:
 ```shell
 True
 ```
+
+The `all()` function returns `True` if all elements in an iterable are considered "truthy" (i.e., they evaluate to `True` in a boolean context). Otherwise, it returns `False`.
