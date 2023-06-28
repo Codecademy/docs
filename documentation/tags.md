@@ -280,6 +280,7 @@ Stringr
 Strings
 Structure
 Style
+Subqueries
 SwiftUI
 SwiftUI Views
 SwiftUI ViewModifiers
