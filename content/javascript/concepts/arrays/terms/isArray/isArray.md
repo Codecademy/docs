@@ -41,3 +41,13 @@ console.log(Array.isArray(new Array(5)));
 console.log(Array.isArray(true));
 // Output: false
 ```
+
+## Codebyte Example
+
+In the example below the `.isArray()` method is used to check if the variable `numbers` is an array. The result is logged to the console.
+
+```codebyte/javascript
+const numbers = [2, 5, 11, 26, 34, 47];
+
+console.log(Array.isArray(numbers));
+```

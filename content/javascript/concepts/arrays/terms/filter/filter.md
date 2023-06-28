@@ -115,3 +115,23 @@ The output would be:
   team: "Red"
 }]
 ```
+
+## Codebyte Example
+
+The example below shows the `filter` array method being used with two criteria on the array `techCompany`.
+
+```codebyte/javascript
+let techCompany = [
+  {name: 'John Doe', tenure: 8, position: 'Developer'},
+  {name: 'Elisabeth Hills', tenure: 2, position: 'Developer'},
+  {name: 'Izabella Zboncak', tenure: 4, position: 'Finance'},
+  {name: 'Jane Smith', tenure: 11, position: 'Developer'},
+  {name: 'Mo DuBuque', tenure: 3, position: 'HR'},
+  {name: 'Markus Pagac', tenure: 9, position: 'CEO'},
+  {name: 'Jack Jakubowski', tenure: 7, position: 'Developer'}
+];
+
+let employees = techCompany.filter(company => company.tenure >= 5 && company.position == 'Developer');
+
+console.log(employees)
+```
