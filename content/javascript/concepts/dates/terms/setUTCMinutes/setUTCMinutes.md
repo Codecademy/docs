@@ -17,9 +17,9 @@ The **`.setUTCMinutes()`** method changes the minutes of a `Date` instance accor
 ## Syntax
 
 ```pseudo
-    setUTCMinutes(minutes)
-    setUTCMinutes(minutes, seconds)
-    setUTCMinutes(minutes, seconds, ms)
+setUTCMinutes(minutes)
+setUTCMinutes(minutes, seconds)
+setUTCMinutes(minutes, seconds, ms)
 ```
 
 - `minutes`: An integer value between 0 and 59 representing the minutes.
