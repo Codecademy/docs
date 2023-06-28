@@ -1,7 +1,6 @@
 ---
 
-Title: 'Methods'
-
+Title: 'Methods`
 Description: 'Learn about methods in Swift and how they are used to perform actions and provide functionality.'
 
 Subjects:
@@ -86,23 +85,21 @@ count = 0
 
   
 
-In the above code, the __Counter__ class defines 3 instance methods:
+In the above code, the `Counter` class defines 3 instance methods:
 
   
 
-1.  __increment()__ increments the counter by 1
+1.  `increment()` increments the counter by 1
 
-2.  __increment(by: Int)__ increments the counter by a specified integer amount
+2.  `increment(by: Int)` increments the counter by a specified integer amount
 
-3.  __reset()__ resets the counter to zero
+3.  `reset()` resets the counter to zero
 
   
 
 Instance methods are called using dot syntax, just like accessing properties:
 
-  
-
-```swift
+`swift
 let counter = Counter()
 
 // the initial counter value is 0
@@ -172,7 +169,7 @@ print("This point is to the right of the line where x == 1.0")
 
   
 
-In the above code, __self.x__ is used to refer to the instance property __x__, while __x__ alone refers to the parameter.
+In the above code`self` is used to refer to the instance propert`, whil` alone refers to the parameter.
 
   
 
@@ -225,11 +222,11 @@ print("The point is now at (\(somePoint.x), \(somePoint.y))")
 
   
 
-In the above code, the __moveBy(x:y:)__ method is marked as __mutating__ because it modifies the __x__ and __y__ properties of the structure __Point__.
+In the above code, the `moveBy(x:y:)` method is marked as __mutating__ because it modifies the `x` and `y` properties of the structure `Point`.
 
   
 
-## Assigning to self Within a Mutating Method
+## Assigning to self Within a Mutating Metho`
 
   
 
@@ -256,7 +253,7 @@ self = Person(name: newName) // Assigning a new instance to self
 
   
 
-In the code above, we have a structure called __Person__ with a property called __name__. The __changeName__ method is marked as mutating__ because it modifies the __Person__ instance. Inside this method, it's possible to assign a completely new __Person__ instance to __self__. It's like creating a whole new person and replacing the old one with it.
+In the code above, we have a structure called _`Person_` with a property called _`name_`. The _`changeName_` method is marked as __mutating__ because it modifies the _`Person_` instance. Inside this method, it's possible to assign a completely new _`Person_` instance to _`self_`. It's like creating a whole new person and replacing the old one with i`
 
   
 
@@ -287,11 +284,11 @@ self = GameCharacter(name: "Player", health: 100)
 
   
 
-In the code above, the __respawn__ method is marked as __mutating__. When the character needs to respawn, we can use __self__ within the method to create a new __GameCharacter__ instance with the desired properties and replace the old character with it.
+In the code above, the `respawn` method is marked as __mutating__. When the character needs to respawn, we can use `self` within the method to create a new `GameCharacter` instance with the desired properties and replace the old character with it.
 
   
 
-So, assigning to __self__ within a mutating method allows us to change the entire instance itself, giving us the flexibility to create new instances and replace the old ones when needed.
+So, assigning to __self__ within a mutating method allows us t`change the entire instance itself, giving us the flexibility to create new instances and replace the old ones when needed.
 
   
 
@@ -322,11 +319,11 @@ return a * b
 
   
 
-In the code above, we have a structure called __MathUtility__. Inside it, we define a type method called __multiply__. This method takes two parameters (__a__ and __b__) and returns their multiplication result. Since it's a type method, we use the __static__ keyword before the method declaration.
+In the code above, we have a structure called `MathUtility`. Inside it, we define a type method called `multiply`. This method takes two parameters (`a` and `b`) and returns their multiplication result. Since it's a type method, we use the `static` keyword before the method declaration.
 
   
 
-Here's an example of how we could use this method:
+Here's an example of how this method could be us`:
 
   
 
@@ -339,7 +336,7 @@ print(result) // Output: 15
 
   
 
-We directly called __multiply__ on the __MathUtility__ type, passing in the values 5 and 3 as arguments. The type method performs the multiplication and returns the result, which is then assigned to the __result__ constant. Finally, we print the result, which will be 15 in this case.
+We directly called `multiply` on the `MathUtility` type, passing in the values 5 and 3 as arguments. The type method performs the multiplication and returns the result, which is then assigned to the `result` constant. Finally, we print the result, which will be 15 in this case.
 
   
 
