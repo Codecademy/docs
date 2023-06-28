@@ -68,22 +68,24 @@ Promise.any(promises)
 
 ## Codebyte Example
 
-With an array of Promises:
+Resolves after a rejected Promise and when it reaches the first resolved Promise:
 
 ```codebyte/javascript
-const promise1 = new Promise((resolve, reject) => {
+const rejectedPromise = new Promise((resolve, reject) => {
   reject(false);
 });
 
-const promise2 = new Promise((resolve, reject) => {
-  reject('This promise will fail');
+const secondResolved = new Promise((resolve, reject) => {
+  setTimeout(() => {
+        resolve('This promise resolves second');
+    }, 1000);
 });
 
-const promise3 = new Promise((resolve, reject) => {
-  resolve('Success!');
+const firstResolved = new Promise((resolve, reject) => {
+  resolve('This promise resolves first');
 });
 
-const promises = [promise1, promise2, promise3];
+const promises = [rejectedPromise, secondResolved, firstResolved];
 
 Promise.any(promises)
   .then((result) => {
