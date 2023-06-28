@@ -1,14 +1,14 @@
 ---
 Title: 'rad2deg()'
 Description: 'Converts radians to degrees.'
-Subjects: 
+Subjects:
   - 'Computer Science'
   - 'Web Design'
   - 'Web Development'
-Tags: 
+Tags:
   - 'Arithmetic'
   - 'Functions'
-CatalogContent: 
+CatalogContent:
   - 'learn-php'
   - 'paths/computer-science'
 ---
@@ -17,7 +17,7 @@ The **`rad2deg()`** function in PHP converts radians to degrees. It accepts a nu
 
 ## Syntax
 
-```psuedo
+```pseudo
 rad2deg(number);
 ```
 
@@ -41,7 +41,7 @@ This example results in the following output:
 
 ## Codebyte Example
 
-The following example returns the degree value for 0.48 radians.
+The following example returns the degree value for `0.48` radians.
 
 ```codebyte/php
 <?php
