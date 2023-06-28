@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The built-in **`hash()`** function returns the hash value of an object as a fixed sized integer. The object can be of various types, including numbers, strings, tuples, or custom objects that have implemented the `hash()` method. The hash value is computed using a specific hashing algorithm based on the object's type. It's worth noting that the `hash()` function is a built-in function in Python and doesn't require any import statements. Hash values are useful for efficient comparison of dictionary keys during lookups.
+The built-in **`hash()`** function returns the hash value of an object as a fixed sized integer. The object can be of various types, including numbers, strings, tuples, or custom objects that have implemented the `__hash__()` method. The hash value is computed using a specific hashing algorithm based on the object's type. It's worth noting that the `hash()` function is a built-in function in Python and doesn't require any import statements. Hash values are useful for efficient comparison of dictionary keys during lookups.
 
 ## Syntax
 
