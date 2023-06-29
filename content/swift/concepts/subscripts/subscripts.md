@@ -31,7 +31,7 @@ array[index] = new value
 dictionary[key] = new value
 ```
 
-### Examples
+### Getting and Setting Examples
 
 The following example demonstrates how to set a new value in an array and then print it:
 
