@@ -132,7 +132,7 @@ This is `True` because all items in the tuple are `True`.
 
 ## Codebyte Example
 
-The following example demonstrate the use of `all()` function.
+The following example demonstrates the use of `all()` function.
 
 **Checking if all elements in a list satisfy a condition:**
 
@@ -144,57 +144,6 @@ print(all_even)
 names = ['Alice', 'Bob', 'Charlie']
 all_long_names = all(len(name) > 3 for name in names)
 print(all_long_names)
-```
-
-The output for the above code is:
-
-```shell
-True
-False
-```
-
-**Validating a list of strings to ensure they are all non-empty:**
-
-```codebyte/python
-strings = ['Hello', 'World', 'OpenAI', '']
-all_non_empty = all(strings)
-print(all_non_empty)
-```
-
-The output for the above code is:
-
-```shell
-False
-```
-
-**Checking if all elements in a dictionary meet a certain condition:**
-
-```codebyte/python
-student_scores = {'Alice': 85, 'Bob': 92, 'Charlie': 88}
-all_high_scores = all(score >= 80 for score in student_scores.values())
-print(all_high_scores)
-```
-
-The output for the above code is:
-
-```shell
-True
-```
-
-**Checking if all elements in multiple lists are equal:**
-
-```codebyte/python
-list1 = [1, 2, 3]
-list2 = [1, 2, 3]
-list3 = [1, 2, 10]
-all_equal = all(x == y for x, y in zip(list1, list2, list3))
-print(all_equal)
-```
-
-The output for the above code is:
-
-```shell
-False
 ```
 
 The `all()` function returns `True` if all elements in an iterable are considered "truthy" (i.e., they evaluate to `True` in a boolean context). Otherwise, it returns `False`.
