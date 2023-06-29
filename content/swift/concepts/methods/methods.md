@@ -47,80 +47,69 @@ __Methods__ in Swift are like special functions that belong to certain things, s
 
   
 
-Instance methods are functions that belong to instances of a class, structure, or enumeration. They support the functionality of those instances, either by providing ways to access and modify properties or by providing functionality related to the instance's purpose.
+Instance methods in Swift are like actions or behaviors that objects can perform. They are specific to each object and define what the object can do or how it can interact with other objects. 
 
   
 
-Here's an example that defines a simple __Counter__ class, which can be used to count the number of times an action occurs:
+Here's an example that defines a  __Robot__ class, which can perform different actions based on it's programming:
 
   
 
 ```swift
-swift
-class Counter {
-
-var count = 0
-
-func increment() {
-
-count += 1
-
+class Robot {
+    var name: String
+    var powerLevel: Int
+    
+    init(name: String, powerLevel: Int) {
+        self.name = name
+        self.powerLevel = powerLevel
+    }
+    
+    func recharge() {
+        print("\(name) is recharging...")
+        powerLevel = 100
+        print("\(name) is fully charged!")
+    }
+    
+    func performTask(task: String) {
+        if powerLevel > 0 {
+            if task == "Fire Lasers" {
+                print("\(name) is firing lasers!")
+                powerLevel -= 20
+            } else {
+                print("\(name) is performing task: \(task)")
+                powerLevel -= 10
+            }
+        } else {
+            print("\(name) is out of power. Please recharge.")
+        }
+    }
 }
-
-func increment(by amount: Int) {
-
-count += amount
-
-}
-
-func reset() {
-
-count = 0
-
-}
-
-}
-
 ```
 
   
 
-In the above code, the `Counter` class defines 3 instance methods:
+In this example, the `Robot` class represents a robot with a `name` and a `powerLevel`. 
+
+1.  The `recharge()` method allows the robot to recharge its power level back to 100
+2.  The `performTask(task:)` method simulates the robot performing a task by decrementing its `powerLevel`
+3.  If `powerLevel` reaches zero, it displays a message to recharge the robot.
 
   
 
-1.  `increment()` increments the counter by 1
+Instance methods are called using dot syntax:
 
-2.  `increment(by: Int)` increments the counter by a specified integer amount
+```swift
+let myRobot = Robot(name: "Jeff", powerLevel: 80)
 
-3.  `reset()` resets the counter to zero
+myRobot.performTask(task: "Clean the house")   // Output: Jeff is performing task: Clean the house
 
-  
+myRobot.performTask(task: "Fire Lasers")       // Output: Jeff is firing lasers!
 
-Instance methods are called using dot syntax, just like accessing properties:
-
-`swift
-let counter = Counter()
-
-// the initial counter value is 0
-
-  
-
-counter.increment()
-
-// counter is now 1
-
-  
-
-counter.increment(by: 5)
-
-// counter is now 6
-
-  
-
-counter.reset()
-
-// counter is 0 again
+myRobot.recharge()
+// Output:
+// Jeff is recharging...
+// Jeff is fully charged!
 
 ```
 
