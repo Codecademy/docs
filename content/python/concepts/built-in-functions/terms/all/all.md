@@ -130,7 +130,7 @@ print(all(my_tuple))
 
 This is `True` because all items in the tuple are `True`.
 
-## Codebyte Examples
+## Codebyte Example
 
 The following example demonstrate the use of `all()` function.
 
