@@ -99,7 +99,7 @@ subscript(input parameters) -> return type {
 }
 ```
 
-### Example
+### Creating Subscripts Example
 
 The example below defines a read-only subscript within a [`struct`](https://www.codecademy.com/resources/docs/swift/structures) called `FlowerGarden`.
 
