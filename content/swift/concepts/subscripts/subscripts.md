@@ -16,7 +16,6 @@ CatalogContent:
 
 ## Using Subscripts to Get and Set Values
 
-### Syntax
 
 The syntax below shows how a value can be retrieved from an array using subscript notation, by passing an integer as the `index` in square brackets after the array name. Dictionary values are retrieved similarly, by passing the `key` in square brackets after the dictionary name.
 
