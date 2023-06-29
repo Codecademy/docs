@@ -29,7 +29,7 @@ In problems related to `Kadane's algorithm` an array of numbers will be given, a
 
 ## Example
 
-The following implementation of `Kadane's algorithm` is done in [java](https://www.codecademy.com/learn/learn-java)
+The following implementation of `Kadane's algorithm` is done in [java](https://www.codecademy.com/learn/learn-java):
 
 ```java
 public class KadaneAlgorithm {
