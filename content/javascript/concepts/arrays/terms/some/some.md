@@ -16,7 +16,7 @@ The **`.some()`** method tests whether at least one item in the array passes the
 
 ## Syntax
 
-```js
+```pseudo
 array.some(callback);
 ```
 
@@ -31,7 +31,6 @@ const numbers = [2, 4, 5, 7, 8];
 const callback = (element) => element % 2 === 0
 
 console.log(numbers.some(callback))
-// Returns true
 ```
 
 ```js
@@ -39,10 +38,9 @@ const numbers = [2, 4, 5, 7, 8];
 const callback = (element) => element % 6 === 0
 
 console.log(numbers.some(callback))
-// Returns false
 ```
 
-### Codebyte Example
+## Codebyte Example
 
 Below are several examples of running the some method through the `numbers` array:
 
