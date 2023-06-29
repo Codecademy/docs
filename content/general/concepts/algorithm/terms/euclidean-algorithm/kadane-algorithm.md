@@ -16,7 +16,7 @@ Kadane's algorithm is an efficient way to find the maximum sum of a contiguous s
 
 ## Explanation
 
-To understand `Kadane's algorithm` an array of numbers will be given, and the goal is to find the biggest sum that can be made using a bunch of consecutive numbers. Skipping any numbers or using them out of order is not allowed.
+In problems related to `Kadane's algorithm` an array of numbers will be given, and the goal is to find the biggest sum that can be made using a bunch of consecutive numbers. Skipping any numbers or using them out of order is not allowed.
 
 **Here's how it can be done:**
 
@@ -25,6 +25,7 @@ To understand `Kadane's algorithm` an array of numbers will be given, and the go
 - Next, add 1 to the running sum, making it 6. Now comes the choice: Should the current sum of 6 be continued or start a new sum of 1? Since 6 is bigger, continue.
 - Now, add 5 to the running sum, resulting in 11. Once again, compare 11 with the current sum and observe that 11 is still bigger. Finally, add 4, which gives a running sum of 15.
 - Therefore, the biggest sum that can be made with consecutive numbers in this array is 15!
+- In the same way if in an array any negative integer is given then we will compare the last sum and consider the highest sum sub array as the output.
 
 ## Example
 
@@ -45,7 +46,6 @@ public class KadaneAlgorithm {
             } else {
                 maxEndingHere = maxEndingHere + nums[i];
             }
-
             if (maxEndingHere > maxSoFar) {
                 maxSoFar = maxEndingHere;
                 end = i;
