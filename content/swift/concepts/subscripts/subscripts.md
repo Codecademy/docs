@@ -5,7 +5,7 @@ Subjects:
   - 'iOS'
   - 'Mobile Development'
 Tags:
-  - 'Subscripts'
+  - 'Collections'
   - 'Data Structures'
 CatalogContent:
   - 'learn-swift'
