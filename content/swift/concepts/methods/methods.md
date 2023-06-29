@@ -39,7 +39,7 @@ CatalogContent:
 
   
 
-__Methods__ are functions associated with a particular type in Swift. They can be defined and called on classes, structures, and enumerations. Methods encapsulate specific tasks and functionality for working with an instance or type.
+__Methods__ in Swift are like special functions that belong to certain things, such as classes, structures, or groups of related values called enumerations. You can create and use methods to perform specific tasks or actions with those things.
 
   
 
