@@ -118,6 +118,7 @@ Expo
 Express
 Favicon
 Files
+Filter
 Finance
 Firebase
 Flask
@@ -186,6 +187,7 @@ Loops
 Map
 Machine Learning
 Margin
+Math
 MATLAB
 Matplotlib
 Matrices
@@ -278,6 +280,7 @@ Stringr
 Strings
 Structure
 Style
+Subqueries
 SwiftUI
 SwiftUI Views
 SwiftUI ViewModifiers
