@@ -65,7 +65,7 @@ gardenInfo["length"] = "2m"
 print(gardenInfo["length"]!)
 ```
 
-> **Note:** The "!" forces the optional String? value to unwrap
+> **Note:** The "!" forces the optional String? value to unwrap.
 
 This example will output the following:
 
