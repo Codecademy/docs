@@ -24,7 +24,7 @@ hash(object)
 
 The `hash()` function takes a single argument, `object`, which represents the object from which to obtain the hash value.
 
-The `object` can be of any hashable type, such as numbers, strings, tuples, or custom objects that implement the `hash()` method.
+The `object` can be of any hashable type, such as numbers, strings, tuples, or custom objects that implement the `__hash__()` method.
 
 ## Example
 
