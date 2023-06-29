@@ -28,7 +28,7 @@ The return value of `.setFullYear()` is the new timestamp obtained after changin
 To set the year and month for the date July, 1887 :
 
 ```js
-const exampleDate = new Date("1/1/2023");
+const exampleDate = new Date('1/1/2023');
 exampleDate.setFullYear(1887, 7);
 console.log(exampleDate);
 ```
