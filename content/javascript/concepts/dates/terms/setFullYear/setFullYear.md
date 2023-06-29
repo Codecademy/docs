@@ -28,7 +28,7 @@ The return value of `.setFullYear()` is the new timestamp obtained after changin
 To set the year and month for the date July, 1887 :
 
 ```js
-const exampleDate = new Date();
+const exampleDate = new Date("1/1/2023");
 exampleDate.setFullYear(1887, 7);
 console.log(exampleDate);
 ```
@@ -36,7 +36,7 @@ console.log(exampleDate);
 This example results in the following output:
 
 ```shell
-1887-08-18T04:19:26.754Z
+1887-08-01T00:00:00.000Z
 ```
 
 ## Codebyte Example
@@ -49,8 +49,4 @@ const eventDate = new Date();
 eventDate.setFullYear(eventDate.getFullYear()-10);
 
 console.log(eventDate);
-
-eventDate.setFullYear(0);
-
-console.log(eventDate.getFullYear());
 ```
