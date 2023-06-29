@@ -20,12 +20,12 @@ In problems related to `Kadane's algorithm` an array of numbers will be given, a
 
 **Here's how it can be done:**
 
-- Start with the first number and add it to a running total. Then, move to the next number and decide whether it's better to continue with the current sum or start a new sum from this number. Always aim to keep the biggest sum seen so far.
+- Start with the first number and add it to a running total. Then, move to the next number and decide whether it's better to continue with the current sum or start a new sum from this number. Always aim to keep the largest sum seen so far.
 - For example, consider the array [2, 3, 1, 5, 4]. Begin with 2, and the running sum is 2. Move to 3. Is it better to continue with the current sum of 2 + 3 = 5 or start a new sum of 3? Since 5 is bigger, continue with it.
 - Next, add 1 to the running sum, making it 6. Now comes the choice: Should the current sum of 6 be continued or start a new sum of 1? Since 6 is bigger, continue.
 - Now, add 5 to the running sum, resulting in 11. Once again, compare 11 with the current sum and observe that 11 is still bigger. Finally, add 4, which gives a running sum of 15.
 - Therefore, the biggest sum that can be made with consecutive numbers in this array is 15!
-- In the same way if in an array any negative integer is given then we will compare the last sum and consider the highest sum sub array as the output.
+- In the same way, if in an array any negative integer is given, compare the last sum and consider the highest-sum subarray as the output.
 
 ## Example
 
