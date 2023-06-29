@@ -75,7 +75,6 @@ This example will output the following:
 
 ## Creating Subscripts
 
-### Syntax
 
 Subscripts are created using the `subscript` keyword followed by the input parameters (e.g. `index` or `key`) in brackets and then the return type.
 
