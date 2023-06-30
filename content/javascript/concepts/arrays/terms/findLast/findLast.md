@@ -25,7 +25,7 @@ The function can be invoked with the following arguments:
 - `element`: The current element we are iterating through.
 - `index` (optional): The index of the array element.
 - `expression` (optional): A specified condition.
-
+>**Note:** A function can also be passed as an argument when more complex logic is required.
 ## Example
 
 Find the value 200 in the array:
