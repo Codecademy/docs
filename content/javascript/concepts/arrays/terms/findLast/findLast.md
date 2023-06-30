@@ -33,9 +33,7 @@ Find the value 200 in the array:
 ```js
 const numbers = [10, 42, 53, 12, 45, 66, 33, 6, 10000, 200, 10];
 
-const findNumber = numbers.findLast((value) => {
-  return value === 200;
-});
+const findNumber = numbers.findLast((value) => value == 200);
 
 console.log(findNumber);
 ```
