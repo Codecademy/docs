@@ -20,7 +20,7 @@ The `.findLast()` array method returns the last instance of an element in an arr
 array.findLast((element, index) => {...});
 ```
 
-The function can be invoked with two arguments:
+The function can be invoked with the following arguments:
 
 - `element`: The current element we are iterating through.
 - `index` (optional): The index of the array element.
