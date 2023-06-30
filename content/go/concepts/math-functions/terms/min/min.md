@@ -38,7 +38,7 @@ import (
 )
 
 func main() {
-  result := math.Min(27, 28)
+  result := math.Min(6, 11)
   fmt.Printf("%.1f\n", result)
 }
 ```
@@ -46,7 +46,7 @@ func main() {
 The output will be:
 
 ```shell
-27.0
+6.0
 ```
 
 ## Codebyte Example
@@ -62,8 +62,8 @@ import (
 )
 
 func main() {
-  num1 := 800.0
-  num2 := 700.0
+  num1 := 480.0
+  num2 := 720.0
 
   result := math.Min(num1, num2)
 
