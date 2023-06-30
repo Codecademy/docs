@@ -23,27 +23,11 @@ result := math.Pow(x, y)
 
 Where `result` is the value of x raised to the power y, returned as a float64, except under the following circumstances:
 
-- The result of `Pow(x, ±0)` is `1` for any `x`
-- The result of `Pow(1, y)` is `1` for any `y`
-- The result of `Pow(x, 1)` is `x` for any `x`
-- The result of `Pow(NaN, y)` is `NaN`
-- The result of `Pow(NaN, y)` is `NaN`
-- The result of `Pow(x, NaN)` is `NaN`
-- The result of `Pow(±0, y)` is `±Inf` for `y an odd integer < 0`
-- The result of `Pow(±0, -Inf)` is `+Inf`
-- The result of `Pow(±0, +Inf)` is `+0`
-- The result of `Pow(±0, y)` is `+Inf` for finite `y < 0` and not an `odd integer`
-- The result of `Pow(±0, y)` is `±0` for `y an odd integer > 0`
-- The result of `Pow(±0, y)` is `+0` for finite `y > 0` and not an `odd integer`
-- The result of `Pow(-1, ±Inf)` is `1`
-- The result of `Pow(x, +Inf)` is `+Inf` for `|x| > 1`
-- The result of `Pow(x, -Inf)` is `+0` for `|x| > 1`
-- The result of `Pow(x, +Inf)` is `+0` for `|x| < 1`
-- The result of `Pow(x, -Inf)` is `+Inf` for `|x| < 1`
-- The result of `Pow(+Inf, y)` is `+Inf` for `y > 0`
-- The result of `Pow(+Inf, y)` is `+0` for `y < 0`
-- The result of `Pow(-Inf, y)` is `Pow(-0, -y)`
-- The result of `Pow(x, y)` is `NaN` for finite `x < 0` and finite `non-integer y`
+- If `y` is `0` or the x is `1`, the result is always `1`
+- If either `x` or `y` is `NaN`, the result is `NaN`
+- If `x` is `0`, the result depends on the sign and type (odd or not) of y. It can be `+Inf`, `-Inf`, or `0`
+- If `x` is `+Inf` or `-Inf`, the result depends on the sign of `y` and can be `+Inf`, `-Inf`, or `0`
+- If `x` is a finite negative number and `y` is a finite non-integer, the result is `NaN`
 
 ## Example
 
