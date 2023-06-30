@@ -1,6 +1,6 @@
 ---
 Title: '.findLast()'
-Description: 'Returns the first value found in the array by starting the search from the end of the array to the beginning of the array.'
+Description: 'Returns the last instance of an element in an array that meets the specified condition.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
