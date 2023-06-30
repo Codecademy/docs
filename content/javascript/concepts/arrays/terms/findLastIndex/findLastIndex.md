@@ -16,7 +16,7 @@ The `.findLastIndex()` iterates through the array in reverse order and returns t
 
 ## Syntax
 
-```js
+```pseudo 
 array.findLastIndex((element, index) => {...});
 ```
 
