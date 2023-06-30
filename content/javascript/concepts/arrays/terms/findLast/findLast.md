@@ -16,7 +16,7 @@ The `.findLast()` array method returns the last instance of an element in an arr
 
 ## Syntax
 
-```js
+```pseudo
 array.findLast((element, index) => {...});
 ```
 
