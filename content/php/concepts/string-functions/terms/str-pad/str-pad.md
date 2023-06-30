@@ -28,7 +28,7 @@ The `str_pad()` function has two required parameters and two optional parameters
 - `$pad_string`: Specifies the string to use for padding. If it's not declared, it defaults to whitespace.
 - `$pad_type`: Specifies what side to pad the string. The value can be `STR_PAD_BOTH`, `STR_PAD_LEFT`, or `STR_PAD_RIGHT`. If it's not declared, it defaults to `STR_PAD_RIGHT`.
 
-The `str_pad()` function returns a `string` containing the given `$string` with a new `length` based on the `length` of the given `$string` combined with the `$pad_string` that can be added to the right, left, or both sides of `$string`.
+The `str_pad()` function returns a `string` containing the given `$string` with a new length based on `$length`, combining of the given `$string` with the `$pad_string` that can be added to the right, left, or both sides of `$string`.
 
 
 ## Example
