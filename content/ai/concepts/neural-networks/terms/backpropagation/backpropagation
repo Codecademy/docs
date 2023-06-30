@@ -12,16 +12,7 @@ CatalogContent:
   - 'paths/machine-learning-ai-engineering-foundations'
 ---
 
-**Backpropagation** is a crucial algorithm in the field of machine learning, specifically in the training of artificial neural networks (ANNs). It enables the neural network to learn and improve its performance by iteratively adjusting the weights and biases of its connections. Here's an example inage, which visualizes the concept of backpropagation:
-
-<!-- original image -->
-![backpropagation Explained](https://raw.githubusercontent.com/Codecademy/docs/main/media/Backpropagation_intro.png)
-
-Here's another visualization that will show you multiple layers present in backpropagation based model:
-
-<!-- original image -->
-![backpropagation layers](https://raw.githubusercontent.com/Codecademy/docs/main/media/backpropagation_layers.png)
-
+**Backpropagation** is a crucial algorithm in the field of machine learning, specifically in the training of artificial neural networks (ANNs). It enables the neural network to learn and improve its performance by iteratively adjusting the weights and biases of its connections.
 
 ## What is Backpropagation?
 
@@ -42,11 +33,6 @@ The backpropagation algorithm can be summarized in the following steps:
 4. **Weight and Bias Updates:** Using the calculated errors, the algorithm adjusts the weights and biases of the network's connections. This adjustment is done iteratively, typically using an optimization algorithm like gradient descent, which minimizes the error by updating the weights in the direction opposite to the gradient.
 
 5. **Repeat:** Steps 1 to 4 are repeated for a fixed number of iterations or until a convergence criterion is met. The network gradually learns to minimize the error and improve its predictions.
-
-Here's an illustration that explains the working of backpropagation:
-
-<!-- original image -->
-![Working of backpropagation](https://raw.githubusercontent.com/Codecademy/docs/main/media/Backpropagation%20Working.png)
 
 ## Benefits and Importance of Backpropagation
 
