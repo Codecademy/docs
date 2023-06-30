@@ -18,13 +18,13 @@ The **`str_pad()`** method returns a string with a new length by making it longe
 ## Syntax
 
 ```pseudo
-str_pad($string, length, $pad_string, $pad_type)
+str_pad($string, $length, $pad_string, $pad_type)
 ```
 
-The `str_pad()` function has four required parameters:
+The `str_pad()` function has two required parameters and two optional parameters:
 
 - `$string`: Specifies the `string` to make longer.
-- `length`: Specifies the `length` of the return string. If the value of `length` is negative, less than, or equal to the length of the input string, no padding takes place, and `$string` will be returned.
+- `$length`: Specifies the length of the return string. If the value of `$length` is negative, less than, or equal to the length of the input string, no padding takes place, and `$string` will be returned.
 - `$pad_string`: Specifies the string to use for padding. If it's not declared, it defaults to whitespace.
 - `$pad_type`: Specifies what side to pad the string. The value can be `STR_PAD_BOTH`, `STR_PAD_LEFT`, or `STR_PAD_RIGHT`. If it's not declared, it defaults to `STR_PAD_RIGHT`.
 
@@ -52,7 +52,7 @@ hello.........................
 
 This example is runnable and uses the `str_pad()` function:
 
-> **Note:** The final echo statement will return the original string to the console due to the second argument of `str_pad` being set to `4` which means that the length of the output string is less than the original string. `str_pad` function doesn't want that to be logical.
+> **Note:** The final echo statement will return the original string to the console due to the second argument of `str_pad()` being set to `4` which means that the length of the output string is less than the original string.
 
 ```codebyte/php
 <?php
