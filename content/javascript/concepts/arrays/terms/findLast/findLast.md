@@ -24,6 +24,7 @@ The function can be invoked with the following arguments:
 
 - `element`: The current element we are iterating through.
 - `index` (optional): The index of the array element.
+- `expression` (optional): A specified condition.
 
 ## Example
 
