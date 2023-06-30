@@ -1,6 +1,6 @@
 ---
 Title: '.randomElement()'
-Description: 'Returns a random element from of arrary.'
+Description: 'Returns a random element from an arrary.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
@@ -12,14 +12,14 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The ** `.randomElement()` method will randomly return an element from an  array. If the array is empty, it will return nil.
+The ** `.randomElement()`**method will randomly return an element from an  array. If the array is empty, it will return `nil`.
 
 ## Syntax
 
 ```swift 
 arrayName.randomElement()
-
 ```
+The `.randomElement()` method selects a random element from an array, and the return value is an optional value.
 
 ## Example
 
@@ -31,7 +31,7 @@ print(randomDiscount)
 print(randomDiscount2)
 ```
 
-The output will be:
+The output will be similar to:
 
 ```shell
 10%
