@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-A Search Interface can be easily created using the `.searchable()` [view modifier](https://www.codecademy.com/resources/docs/swiftui/viewmodifier) applied to a `NavigationSplitView` or `NavigationStack`, or to a [view](https://www.codecademy.com/resources/docs/swiftui/views) within them.
+A **Search Interface** can be easily created using the `.searchable()` [view modifier](https://www.codecademy.com/resources/docs/swiftui/viewmodifier) applied to a `NavigationSplitView` or `NavigationStack`, or to a [view](https://www.codecademy.com/resources/docs/swiftui/views) within them.
 
 ## Syntax
 
