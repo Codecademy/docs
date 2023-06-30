@@ -36,7 +36,7 @@ Here are a few of the `placement` property types:
 The following example is a simple search interface. Two variables are declared:
 
 - An empty string named `searchText` to hold the text for searches.
-- an [array](https://www.codecademy.com/resources/docs/swift/arrays) `plants` containing plant names for the search to filter.
+- A `plants` [array](https://www.codecademy.com/resources/docs/swift/arrays) containing plant names for the search to filter.
 
 When the text in the search box is updated, `searchText` also updates, being bound by the `.searchable()`'s `text` parameter `$searchText`. The code within the `List` checks whether to show a plant depending on the value of `searchText`.
 
