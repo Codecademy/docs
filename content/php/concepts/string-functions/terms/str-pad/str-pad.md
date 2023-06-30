@@ -30,11 +30,9 @@ The `str_pad()` function has two required parameters and two optional parameters
 
 The `str_pad()` function returns a `string` containing the given `$string` with a new length based on `$length`, combining of the given `$string` with the `$pad_string` that can be added to the right, left, or both sides of `$string`.
 
-
 ## Example
 
 The following example uses the `str_pad()` function to add period symbols `"."` to the right side of the string `"hello"` until the string has the length of `30`:
-
 
 ```php
 <?php
