@@ -39,6 +39,13 @@ ALTER TABLE table_name
 ADD PRIMARY KEY (id);
 ```
 
+For example, to create a `PRIMARY KEY` constraint on the `id` column on a table named `people`:
+
+```sql
+ALTER TABLE people
+ADD PRIMARY KEY (id);
+```
+
 ## Foreign Keys
 
 When the primary key for one table appears in a different table, it is called a foreign key. The most common types of [joins](https://www.codecademy.com/resources/docs/sql/joins) will be joining a foreign key from one table with the primary key from another table.
@@ -81,15 +88,6 @@ Sometimes, having one primary key per table is not enough to uniquely identify a
 For example, a database of car parts will have to uniquely identify a row of parts. Either the `engine_ID` or `body_ID` could be used. However, this may create ambiguity as cars could get their engines swapped.
 
 Depending on local regulations, a car may require an engine part ID and a body ID to be associated with a license plate. One solution might be adding more row information about the car, such as `left_door_ID`, `gearbox_ID`, etc. But then a specific car would have to be identified by two different aspects: its body and its engine.
-
-If a created table does not have a primary key, it can be added.
-
-The statement below creates a `PRIMARY KEY` constraint on the `id` column on the `people` table:
-
-```sql
-ALTER TABLE people
-ADD PRIMARY KEY (id);
-```
 
 A composite key would be useful in this case. This is how a `vehicle_registry` table might look (extra parts/columns omitted for brevity):
 
