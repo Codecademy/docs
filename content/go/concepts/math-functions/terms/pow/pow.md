@@ -23,7 +23,7 @@ result := math.Pow(x, y)
 
 Where `result` is the value of x raised to the power y, returned as a float64, except under the following circumstances:
 
-- If `y` is `0` or the x is `1`, the result is always `1`
+- If `y` is `0` or x is `1`, the result is always `1`
 - If either `x` or `y` is `NaN`, the result is `NaN`
 - If `x` is `0`, the result depends on the sign and type (odd or not) of y. It can be `+Inf`, `-Inf`, or `0`
 - If `x` is `+Inf` or `-Inf`, the result depends on the sign of `y` and can be `+Inf`, `-Inf`, or `0`
