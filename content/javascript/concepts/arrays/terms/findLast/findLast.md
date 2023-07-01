@@ -44,37 +44,4 @@ This results in the following output:
 200
 ```
 
-## Codebyte Example
-
-This example showcases the difference on how .find() and .findLast() search for the age within the array.
-
-```codebyte/js
-// This is an example of using .find().
-
-let age = [13,20,15,45,1,44,80]
-
-console.log('find() method: ');
-
-let findResult = age.find((value) => {
-    console.log('Checking age: ', value);
-    return value === 80
-})
-
-console.log(`Oldest age is ${findResult}`)
-
-// Now we use .findLast().
-
-age = [13,20,15,45,1,44,80]
-
-console.log('findLast() method: ');
-
-findResult = age.findLast((value) => {
-    console.log('Checking age: ', value);
-    return value === 80
-})
-
-console.log(`Oldest age is ${findResult}`)
-
-```
-
 > **Note:** If you ever need to search for an element within the array, and you know the value will be towards the end, using .findLast shortens the path to finding the element.
