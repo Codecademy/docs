@@ -118,6 +118,7 @@ Expo
 Express
 Favicon
 Files
+Filter
 Finance
 Firebase
 Flask
@@ -279,6 +280,7 @@ Stringr
 Strings
 Structure
 Style
+Subqueries
 SwiftUI
 SwiftUI Views
 SwiftUI ViewModifiers
