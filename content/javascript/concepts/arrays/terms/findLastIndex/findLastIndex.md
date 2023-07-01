@@ -49,7 +49,6 @@ This results in the following output:
 
 ```codebyte/js
 
-In this example, we will showcase the difference on how .findIndex() and .findLastIndex() iterate through the array.
 // This is an example of using .findIndex().
 
 let age = [13, 20, 15, 45, 1, 44, 80]
