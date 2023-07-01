@@ -20,7 +20,7 @@ The **`Contains()`** function returns a boolean value indicating whether a given
 strings.Contains(str, sub_str)
 ```
 
-Where `str` is the original string and `sub_str` is the substring that we wanted to check against the original string.
+Where `str` is the original string and `sub_str` is the substring to check against the original string.
 
 ## Example
 
