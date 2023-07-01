@@ -16,7 +16,7 @@ The `.findLastIndex()` iterates through the array in reverse order and returns t
 
 ## Syntax
 
-```pseudo 
+```pseudo
 array.findLastIndex((element, index) => {...});
 ```
 
@@ -45,24 +45,27 @@ This results in the following output:
 9
 ```
 
-## Codebyte Example
+## Example 2
 
 In this example, showcasing the difference on how **.findIndex()** and **.findLastIndex()** iterate through the array:
 
-```codebyte/js
-// This is an example of using .findIndex().
-
-let age = [13, 20, 15, 45, 1, 44, 80]
+```js
+let age = [13, 20, 15, 45, 1, 44, 80];
 
 console.log('findIndex() method: ');
 
 let findIndex = age.find((value, index) => {
-    console.log('Checking age index: ', index);
-    return value === 80
-})
+  console.log('Checking age index: ', index);
+  return value === 80;
+});
+```
 
+```shell
+0, 1, 2, 3, 4, 5, 6, 7, 8
+```
 
-// Now we use .findLastIndex().
+```js
+Now we use .findLastIndex().
 
 age = [13, 20, 15, 45, 1, 44, 80]
 
@@ -72,6 +75,10 @@ findIndex = age.findLastIndex((value, index) => {
     console.log('Checking age index: ', index);
     return value === 80
 })
+```
+
+```shell
+6
 ```
 
 > **Note:** If ever needing to search for an element's index within the array, and knowing the value will be towards the end, using **.findLastIndex** shortens the iteration path.
