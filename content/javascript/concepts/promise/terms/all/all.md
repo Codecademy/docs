@@ -60,8 +60,6 @@ Results from Promise.all(): [23,144]
 Operations for Promise.all() have finished.
 ```
 
-## Codebyte Example
-
 ```codebyte/javascript
 const promise1 = new Promise((resolve, reject) => {
   console.log('The first promise has resolved');
