@@ -24,20 +24,28 @@ format(value, format_specification)
 
 In the following example, a float is formatted in a variable called "pi," which stores an approximation of the value of pi. The format is done using specifications that denote that the output should be a string that represents the provided float, but only using two decimal places.
 
+```python
 pi = 3.14159
 formatted = format(pi, '.2f')
 print(formatted)
+```
 
-Output:
+Output for above code is:
+```shell
 3.14
+```
 
 ## Codebyte Example (if applicable)
 
 The next example uses the **format()** function to convert an integer to a binary and print its string representation.
 
+```python
 value = 42
 formatted = format(value, 'b')  # Format value as binary
 print(formatted)
+```
 
-Output:
+Output for the above code is:
+```shell
 101010
+```
