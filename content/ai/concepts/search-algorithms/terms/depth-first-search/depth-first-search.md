@@ -4,6 +4,7 @@ Description: 'A shortest-path and traversing algorithm for unweighted graphs.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
+  - 'Artificial Intellignce'
 Tags:
   - 'Graphs'
   - 'Graph Search'
@@ -13,21 +14,23 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-*Depth-first search (DFS)* is a traversing algorithm for unweighted graphs. This is a foundational algorithm in [graph](https://www.codecademy.com/resources/docs/general/graph) theory from which many other algorithms start.
+**Depth-first search (DFS)** is a traversing algorithm for unweighted graphs. This is a foundational algorithm in [graph](https://www.codecademy.com/resources/docs/general/graph) theory from which many other algorithms start.
 
 ## Features
 
 Some of the features and constraints that define the use and functionality of a depth-first search algorithm include the following:
-
-- A relatively simple and efficient algorithm for finding the shortest-path in graphs that do not have edge weights.
+- Depth First Search algorithm traverses a graph in a depthward motion and uses a stack to remember to get the next vertex to start a search, when a dead end occurs in any iteration. 
+- A relatively simple algorithm for finding the shortest-path in graphs that do not have edge weights.
 - It has a time complexity of **O(|V| + |E|)**, which is the sum of the vertices and edges.
-- It finds a solution but may or may not be optimal one.
+- It finds a solution but may or may not be optimal one as in BFS.
+- The difference between DFS and BFS is that DFS takes less time than BFS and finds a solution.
+- The disadvantage of DFS is that it may get stuck in infinite loop if depth is infinite.
 
 ## Implementation
 
-The example below walks through a basic implementation of DFS that will take a starting node, an end node, and a graph as arguments. However, to start, a brief overview of the necessary steps or pseudocode will serve as an outline for the final implementation.
+The example below walks through a basic implementation of DFS that will take a starting node, an end node, and a graph as arguments. 
 The depth-first search (DFS) algorithm starts with the initial node of graph G and goes deeper until we find the goal node or the node with no children.
-Because of the recursive nature, stack data structure can be used to implement the DFS algorithm
+Because of the recursive nature, stack data structure can be used to implement the DFS algorithm.
 
 The implementation below can be broken down into the following steps:
 
