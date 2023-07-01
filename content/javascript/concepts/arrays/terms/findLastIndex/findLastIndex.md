@@ -48,7 +48,6 @@ This results in the following output:
 ## Codebyte Example
 
 ```codebyte/js
-
 // This is an example of using .findIndex().
 
 let age = [13, 20, 15, 45, 1, 44, 80]
