@@ -47,6 +47,8 @@ This results in the following output:
 
 ## Codebyte Example
 
+In this example, showcasing the difference on how **.findIndex()** and **.findLastIndex()** iterate through the array:
+
 ```codebyte/js
 // This is an example of using .findIndex().
 
