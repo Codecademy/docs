@@ -1,6 +1,6 @@
 ---
 Title: 'strlen()'
-Description: 'Returns the number of bytes in a given string.'
+Description: 'Returns the length of a string.'
 Subjects:
   - 'Computer Science'
   - 'Web Design'
@@ -13,34 +13,35 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`strlen()`** method returns the number of bytes in a given string.
+The **`strlen()`** method returns the length of a `string`.
 
 ## Syntax
 
 ```pseudo
-strlen(string);
+strlen($string);
 ```
 
-The `string` can either be a literal sequence of characters surrounded by quotes or a variable that refers to such a sequence.
+The `strlen()` method takes one required parameter: `$string`, which can be a literal sequence of characters surrounded by quotes or a variable that refers to such a sequence. The method returns the length of `$string` in `bytes`, including all characters, special characters and whitespaces. It returns `0` if `$string` is an empty `string`.
 
 ## Example
 
-The following example uses the `strlen()` function to repeat the `"bon"` `2` times. Then the `echo` command prints this `string` to the console:
+The following example uses the `strlen()` method to determine the length of a sentence. Then the `echo` command prints it to the console:
 
 ```php
 <?php
-  echo strlen("bon", 2);
+  echo strlen("How many characters are in this sentence?");
 ?>
 ```
 
 The example will result in the following output:
 
 ```shell
-bonbon
+41
+```
 
 ## Codebyte Example
 
-The following example showcases the two ways of using the `strlen()` method:
+The following example uses the `strlen()` method in two different ways:
 
 ```codebyte/php
 <?php
