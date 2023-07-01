@@ -24,24 +24,27 @@ The function can be invoked with the following arguments:
 
 - `element`: The current element we are iterating through.
 - `index` (optional): The index of the array element.
-- `expression` (optional): A specified condition.
->**Note:** A function can also be passed as an argument when more complex logic is required.
+- `expression`: A specified condition or logic.
+
 ## Example
 
-Find the value 200 in the array:
+Find the value `200` in the array `numbers`:
 
 ```js
-const numbers = [10, 42, 53, 12, 45, 66, 33, 6, 10000, 200, 10];
+const numbers = [10, 42, 53, 12, 200, 66, 33, 6, 10000, 200, 10];
 
-const findNumber = numbers.findLast((value) => value == 200);
-
-console.log(findNumber);
+numbers.findLast((value, index) => {
+  if (value === 200) {
+    console.log(`There is an instance of ${value} at index ${index}`);
+  }
+});
 ```
 
 This results in the following output:
 
 ```shell
-200
+There is an instance of 200 at index 9
+There is an instance of 200 at index 4
 ```
 
-> **Note:** If you ever need to search for an element within the array, and you know the value will be towards the end, using .findLast shortens the path to finding the element.
+> **Note:** If an element is known to be towards the end of an array, using `.findLast()` can shorten the path to finding the element.
