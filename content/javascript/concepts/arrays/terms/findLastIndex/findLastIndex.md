@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `.findLastIndex()` iterates through the array in reverse order and returns the index that passes the provided testing function. If no item passes, returns -1.
+The `.findLastIndex()` iterates through the array in reverse order and returns the index that passes the provided testing function. If no item passes, it returns -1.
 
 ## Syntax
 
