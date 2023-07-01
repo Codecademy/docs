@@ -74,7 +74,6 @@ findIndex = age.findLastIndex((value, index) => {
     return value === 80
 })
 
-
 ```
 
 > **Note:** If ever needing to search for an element's index within the array, and knowing the value will be towards the end, using **.findLastIndex** shortens the iteration path.
