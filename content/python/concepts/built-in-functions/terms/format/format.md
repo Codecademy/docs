@@ -26,7 +26,8 @@ The **format()** function returns a string from an input value, formatted to the
 format(value, format_specification)
 
 ## Example
-In the following example we format a float in a variable called pi, which stores an aproximation of the value of pi. The format is done using specifications that denote that the output should be a string that is the provided float, but only using two decimal places.
+
+In the following example, a float is formatted in a variable called "pi," which stores an approximation of the value of pi. The format is done using specifications that denote that the output should be a string that represents the provided float, but only using two decimal places.
 
 pi = 3.14159
 formatted = format(pi, '.2f')
