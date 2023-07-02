@@ -8,7 +8,7 @@ Tags:
   - 'Semantic'
   - 'Tags'
   
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+CatalogContent: 
   - 'learn-html'
   - 'paths/front-end-engineer-career-path'
 ---
