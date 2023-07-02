@@ -1,14 +1,6 @@
 ---
 Title: 'Discrete Math'
 Description: 'Discrete math is a fundamental branch of mathematics that provides the foundation for various concepts and techniques used in computer science and problem-solving.'
-Subjects:
-  - 'Computer Science'
-  - 'Discrete Math'
-Tags:
-  - 'Arithmetic'
-  - 'Math'
-  - 'Logical'
-  - 'Logic'
 CatalogContent:
   - 'computer-science'
 ---
