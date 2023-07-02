@@ -31,6 +31,8 @@ Here are a few of the `placement` property types:
 - `.sidebar` places the search box in the sidebar.
 - `.toolbar` places the search box in the toolbar.
 
+`prompt` is the prompt text to show in the search box. This defaults to display "Search" if the `prompt` parameter is not used.
+
 ## Example
 
 The following example is a simple search interface. Two variables are declared:
