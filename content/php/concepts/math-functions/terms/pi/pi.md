@@ -22,7 +22,7 @@ The **`pi()`** function returns the value of PI.
 pi();
 ```
 
-The `pi()` function has no parameters. It returns the value of PI as float
+The `pi()` function has no parameters. It returns the value of PI as float. `M_PI`, being a constant, also returns the same value.
 
 ## Example
 
@@ -36,4 +36,12 @@ This will output:
 
 ```shell
 // 3.1415926535898
+```
+
+## Codebyte Example
+
+```codebyte/php
+<?php
+  echo pi();
+?>
 ```
