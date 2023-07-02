@@ -12,9 +12,9 @@ CatalogContent:
   - 'paths/front-end-developer-career-path'
 ---
 
-The **`.getTimezoneOffset()`** method returns the time zone offset in minutes between the user's local time and UTC (Coordinated Universal Time). The offset represents the difference in minutes between the UTC time and the local time of the user's system.
+The **`getTimezoneOffset()`** method returns the time zone offset in minutes between the user's local time and UTC (Coordinated Universal Time). The offset represents the difference in minutes between the UTC time and the local time of the user's system.
 
-This method is particularly useful when working with time-related operations that involve time zone conversions or calculations. By using `.getTimezoneOffset()`, the current offset can be obtained and considered when performing various operations, such as displaying local time, converting between time zones, or adjusting dates and times based on the user's location.
+This method is particularly useful when working with time-related operations that involve time zone conversions or calculations. By using **`getTimezoneOffset()`**, the current offset can be obtained and considered when performing various operations, such as displaying local time, converting between time zones, or adjusting dates and times based on the user's location.
 
 ## Syntax
 
@@ -23,17 +23,23 @@ Date.getTimezoneOffset();
 ```
 
 - A `Date` object is used for working with dates and times. The object provides a way to create, manipulate, and format dates in various formats.
-- A `Date` object can be created by declaring a new variable with the `new Date()` constructor.
+  -A `Date` object can be created by declaring a new variable with the `new Date()` constructor.
 
 ## Example 1
 
-The .`getTimezoneOffset()` method is called on the `Date` object, and the resulting time zone offset value in minutes is stored in the `timezoneOffset` variable. Finally, the value is printed to the console. The output will be a negative or positive integer representing the time zone offset in minutes. For example, if the output is `-300`, it means that the local time zone is 5 hours behind UTC.
+The .`getTimezoneOffset()` method is called on the `date object`, and the resulting time zone offset value in minutes is stored in the `timezoneOffset` variable. Finally, the value is printed to the console. The output will be a negative or positive integer representing the time zone offset in minutes. For example, if the output is `-300`, it means that the local time zone is 5 hours behind UTC.
 
 ```js
 const date = new Date();
 const timezoneOffset = date.getTimezoneOffset();
 
 console.log(timezoneOffset);
+```
+
+The code above results in the following output:
+
+```shell
+New Index: -300
 ```
 
 ## Example 2
