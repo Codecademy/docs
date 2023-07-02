@@ -19,27 +19,34 @@ The **`<address>`** tag is a semantic HTML element that is used to indicate that
 
 ## Syntax
 
-[Text, code, images, parameters, etc. about the syntax]
+```html
+<address>
+  <!-- contact information goes here -->
+</address>
+```
 
-## Example
+## Example 1
 
-[Text, code, images, etc. about example 1]
+The below code snippet shows the `<address>` tag being used to convey a person's email address and phone number:
 
-## Codebyte Example (if applicable)
+```html
+<p>Want to work together? Contact me via the information below:</p>
+<address>
+  <a href="mailto:janesmith@gmail.com">janesmith@gmail.com</a><br />
+  <a href="tel:+13165452398">(316) 545-2398</a>
+</address>
+```
 
-We can currently support:
+## Example #2
 
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
+The snippet below shows a food blogger and their company's contact information:
 
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
-
-```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
+```html
+<address>
+  Written by <a href="mailto:jasminebakes@gmail.com">Jasmine Sanchez</a>.<br />
+  Visit us at:<br />
+  Fairytale Confections<br />
+  Box 354, Agrabah<br />
+  USA
+</address>
 ```
