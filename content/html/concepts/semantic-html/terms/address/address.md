@@ -1,14 +1,13 @@
 ---
-Title: '<address>' 
-Description: 'Used to provide a person or organization's contact information' 
+Title: '<address>'
+Description: 'Represents the contact information of a business or person '
 Subjects:
   - 'Web Development'
   - 'Web Design'
-Tags: 
+Tags:
   - 'Semantic'
   - 'Tags'
-  
-CatalogContent: 
+CatalogContent:
   - 'learn-html'
   - 'paths/front-end-engineer-career-path'
 ---
