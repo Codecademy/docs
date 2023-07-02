@@ -36,7 +36,15 @@ Use 2 to 3 sentences to explain the concept of for loops in Javascript to a 5 ye
 
 ### Define Your Purpose
 
-Another key to writting effective prompts, is defining the purpose of your prompt. Or in other words, effectively defining the goal you wish for the LLM to achieve.
+Another key to writting effective prompts, is defining the purpose of your prompt. Or in other words, effectively defining the goal you wish for the LLM to achieve. This can be done by specifying the tone, format and audience of your prompt.
+
+One area in which tone is important, is writting an email. For example, you would probably have a different tone when writting an email to your sibling, versus your boss. Therefore, when asking an LLM to write a draft of an email, it is important to make sure it understands what tone you would prefer.
+
+In addition to specifying the tone, you can also specify the format that you wish an LLM to follow. In some situations you may want the LLM to use a bullet list, versus a series of paragraphs.
+
+Finally, by specifying a possible audience, an LLM can even be more precise when generating text. For instance, an LLM will most likely provide additional details when writting an email for a professional audience, versus a less technical audience.
+
+### Provide Context
 
 ## Prompt Engineering Techniques
 
