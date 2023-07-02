@@ -33,3 +33,5 @@ print(favoriteSongs.isEmpty)
 //Output: false
 
 ```
+
+> **Note:** [Big-O](https://www.codecademy.com/resources/docs/general/big-o-notation) of this method is **O(1)**.
