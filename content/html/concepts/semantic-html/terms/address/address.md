@@ -1,9 +1,9 @@
 ---
 Title: '<address>' 
 Description: 'Used to provide a person or organization's contact information' 
-Subjects: 
-  - 'Web Design'
+Subjects:
   - 'Web Development'
+  - 'Web Design'
 Tags: 
   - 'Semantic'
   - 'Tags'
