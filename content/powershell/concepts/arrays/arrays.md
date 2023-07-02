@@ -31,9 +31,14 @@ $my_arr = 25, "Codecademy", 1, $False
 Alternatively, the array subexpression operator `@( )` can be used. Anything placed within the parentheses is treated as an item of the array.
 
 ```shell
-$arr_1 = @($True, 5, (Get-Date).DateTime) # 3 elements
-$arr_2 = @( )                             # Empty Array
-$arr_3 = @(                               # Multi-line Array
+# 3 elements
+$arr_1 = @($True, 5, (Get-Date).DateTime)
+
+# Empty Array
+$arr_2 = @( )
+
+# Multi-line Array
+$arr_3 = @(
     "Uno"
     "Dos"
     "Tres"
