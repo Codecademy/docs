@@ -31,7 +31,7 @@ CatalogContent:
 
 - **SDEs** : Stochastic Differential Equations (describe changes in random processes concerning time. Widely used in physics and financial markets involving random factors that significantly impact market outcomes).
 ## Image Generation
-![Alt text](<ai diffusion model example.png>)
+![Alt text](../../../../../../media/ai-diffusion-model-example.png)
 
 - Diffusion models start with a base image from what it has been previously trained on and slowly adds more and more gaussian noise over time.   
 - It then gradually removes the noise, this learned denoising process then generates new, high-quality images from random seeds also known as random noised images.
