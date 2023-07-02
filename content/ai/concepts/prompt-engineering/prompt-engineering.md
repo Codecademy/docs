@@ -46,29 +46,54 @@ Finally, by specifying a possible audience, an LLM can even be more precise when
 
 ### Provide Context
 
-## Prompt Engineering Techniques
+As mentioned earlier, LLMs are trained using vast amounts of data. It uses this data to effectively predicate and craft responses to a user's prompt. One way to indirectly control what data an LLM uses in it's response, is by clearly defining the context of your prompt.
 
-[Text about subsection 2]
+A common use case in which context is important, is when asking an LLM to debug an error message from your code. This itself can be an entire area of study by itself, because there can be many types of errors. Let us say we are encountering a specific error associated with a line of our code. A good prompt for this scenario would be the following.
 
-## Risks & Misuses
+```
+I'm encountering an error in my code. Given the error message, and the following block of code, can you help me find a solution?
 
-[Text about subsection n]
+Here is the error message:
+x
+Here is the block of code:
+y
+```
+
+Keep in mind `x` and `y` are just place holders. When using this prompt you will want to provide the relevant information.
 
 ## Prompt Examples
 
-We can currently support:
+Here are some examples that implement some of the concepts mentioned above.
 
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
-
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
-
-```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
 ```
+Act as a Spanish language tutor. I am new to learning Spanish.
+
+Provide me with 20 must know phrases in Spanish.
+
+Provide translation and pronunciation instructions.
+```
+
+In this instance we are giving the LLM purpose by defining our famialarity with Spanish. The LLM will now craft a response knowing that it's audience is new to Spanish.
+
+```
+Imagine yourself as a teacher and I'm your student. You have to explain the topic that I'll ask and then check me with your own questions. For example:
+
+You: Binary addition of two bits is done with two operators - AND and XOR. When adding two bits, the output's most significant bit is set to 1 if both bits are 1, and the least significant bit is set to 1 if either bit, but not both, are 1. For example: 0b1 + 0b1 = 0b10, 0b0 + 0b1 = 0b01. Is everything clear?
+Me: Yes.
+You: Excellent. Solve the following examples: 0b0 + 0b0, 0b1 + 0b0
+Me: 0b0 + 0b0 = 0b01, 0b1 + 0b0 = 0b01
+You: No, 0b0 + 0b0 = 0b00 because both input bits are zeros.
+Me: Oh, I see...
+
+And here are a few commands:
+!difficulty (number) - sets the difficulty level of the problems. 0-100. The higher the difficulty, the harder the problems.
+!hint (example) - asks for a hint, but not the answer. Ideally, you should guide me in the right direction rather than explain everything.
+!topic (topic) - changes the "lesson" topic and forgets everything that was before.
+!help - displays this list of commands and chat description.
+
+If you understood everything, write "OK" and nothing else.
+```
+
+This example is a little more advanced, but shows how an LLM can be a "low-code" solution. As you can see this prompt has built in commands in which we can adjust the context of the conversation dynamically.
+
+This prompt also shows how can we train the LLM to respond with a specific format.
