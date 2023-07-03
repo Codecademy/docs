@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Proofs** are a concept in discrete mathematics used to verify the truthfulness and validity of statements. They use logical reasoning to establish the certainty of mathematical claims, playing a crucial role in advancing the field of mathematics. 
+**Proofs** are a concept in discrete mathematics used to verify the truthfulness and validity of statements. They use logical reasoning to establish the certainty of mathematical claims, playing a crucial role in advancing the field of mathematics.
 
 ## Conjecture
 
