@@ -17,7 +17,7 @@ CatalogContent:
 
 `Error` is an empty protocol built in Swift, so any type can represent an error condition by conforming to the protocol.
 
-As an error type can be simply a set of related error conditions, it is preferable to model it as an enumeration type.
+As an error type can be simply a set of related error conditions, it is preferable to model it as an [enumeration type](https://www.codecademy.com/resources/docs/swift/enums).
 
 Below is an example of how to model the error conditions that might occur while operating a car in a Swift program.
 
