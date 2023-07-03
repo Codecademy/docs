@@ -45,7 +45,7 @@ func throwFunc2() throws -> ReturnType {}
 func nonthrowFunc() {}
 ```
 
-For example, while trying to start a car, the car might not be able to start; either there's no gas or the engine is damaged. The following example is one way to model the behaviors.
+For example, while trying to start a `Car`, the ˋCar` might not be able to start; either there's no gas or the engine is damaged. The following example is one way to model the behaviors.
 
 ```swift
 struct Car {
@@ -63,7 +63,7 @@ func start(car: Car) throws {
    throw CarError.noFuel
   }
 
-  if replaceOil {
+  if car.replaceOil {
     throw CarError.check(fluid: "Oil")
   }
 }
@@ -87,7 +87,7 @@ func tryError() throws {
 
 ## Handling the Errors
 
-A do-catch statement is where errors from throwing functions are caught and handled inside the surrounding function.
+A `do-catch` statement is where errors from throwing functions are caught and handled inside the surrounding function.
 
 ```swift
 func handleErrors() {
@@ -102,7 +102,7 @@ func handleErrors() {
 }
 ```
 
-Let's return to the car example and watch a do-catch statement in action.
+The following example shows a ˋdo-catch` statement within the previous example:
 
 ```swift
 func drive(car: Car) {
