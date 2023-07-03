@@ -47,24 +47,3 @@ The output will be:
 ```shell
 Cut("Hello, world!", ",") = "Hello", " world!", true
 ```
-
-## Codebyte Example
-
-The following example is runnable and shows how the `Cut()` function can be used in a program:
-
-```codebyte/golang
-package main
-
-import (
-  "fmt"
-  "strings"
-)
-
-func main() {
-  s := "CodeAcademy Go Hub"
-  sep := "Go"
-  before, after, found := strings.Cut(s, sep)
-
-  fmt.Printf("The original string was: \"%s\"\nAfter cutting \"%s\", the before is: \"%s\", the after is: \"%s\", and found is: %v\n", s, sep, before, after, found)
-}
-```
