@@ -14,7 +14,7 @@ CatalogContent:
 
 The **`<address>`** tag is a semantic HTML element that is used to indicate that an organization or person's contact information is being provided. This tag can include information such as a mailing address, links to social media, email, phone number, URLs, etc. This element can also be used in various areas such as the top of the webpage or its bottom.
 
-**Note:** Only contact information should be presented within the `<address>` tag. Content such as an blog post's publication date should be use within their respective elements, for example, the `<time>` tag.
+> **Note:** Only contact information should be presented within the `<address>` tag. Content such as an blog post's publication date should be use within their respective elements, for example, the `<time>` tag.
 
 ## Syntax
 
