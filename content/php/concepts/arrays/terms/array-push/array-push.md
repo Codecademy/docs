@@ -60,15 +60,11 @@ This example is runnable and uses the `array_push()` function:
 $supermarkets = array("Costco","Walmart");
 array_push($supermarkets,"Sam's Club","Target");
 print_r($supermarkets);
-
 echo "\n \n";
-
 $companies = array("Microsoft","Adobe"); 
 array_push($companies,["Meta","Amazon"]);
 print_r($companies);
-
 echo "\n \n";
-
 $Electronic_devices = array("a"=>"Television","b"=>"Laptop");
 array_push($Electronic_devices,"Tablet","Smartphone");
 print_r($Electronic_devices);
