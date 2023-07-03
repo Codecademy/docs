@@ -1,6 +1,6 @@
 ---
 Title: '<address>'
-Description: 'Represents the contact information of a business or person '
+Description: 'Represents the contact information of a business or person.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
