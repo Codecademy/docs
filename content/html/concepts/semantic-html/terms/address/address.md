@@ -18,7 +18,7 @@ The **`<address>`** tag is a semantic HTML element that is used to indicate that
 
 ## Syntax
 
-```html
+```pseudo 
 <address>
   <!-- contact information goes here -->
 </address>
