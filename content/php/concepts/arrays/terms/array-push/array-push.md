@@ -1,6 +1,6 @@
 ---
 Title: 'array_push()'
-Description: 'Inserts one or more element values to the end of an array, and return the new number of element values in the array.'
+Description: 'Inserts one or more element values to the end of an array, and returns the new number of element values in the array.'
 Subjects:
   - 'Computer Science'
   - 'Web Design'
@@ -13,20 +13,20 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`array_push()`** method inserts one or more element values to the end of an array, and return the new number of element values in the array.
+The **`array_push()`** method inserts one or more element values to the end of an array, and returns the new number of element values in the array.
 
 ## Syntax
 
 ```pseudo
-array_push($array, $value)
+array_push($array, $value1, $value2, ... $valueN)
 ```
 
 The `array_push()` function has one required parameter and some optional parameters:
 
 - `$array`: Specifies the input `array`.
-- `$value`: Specifies the element value to add. This function can add more than one element value at a time that can be seperated by commas.
+- `$value1 ... $valueN`: Specifies the element values to add. This function adds one or more element values at a time which are separated by commas.
 
-The `array_push()` function returns an `array` containing all element values from the given `$array` with new element values that has been inserted to the end of the `$array`.
+The `array_push()` function returns the element count of `$array` with the new element values inserted to the end of the `$array`.
 
 ## Example
 
