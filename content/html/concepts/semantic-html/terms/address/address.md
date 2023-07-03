@@ -31,7 +31,7 @@ The below code snippet shows the `<address>` tag being used to convey a person's
 ```html
 <p>Want to work together? Contact me via the information below:</p>
 <address>
-  <a href="mailto:roodang@gmail.com">roodang@gmail.com</a><br />
+  <a href="mailto:roodang@smail.com">roodang@smail.com</a><br />
   <a href="tel:+13165552398">(316).555.2398 </a>
 </address>
 ```
@@ -42,7 +42,7 @@ The snippet below shows a food blogger and their company's contact information:
 
 ```html
 <address>
-  Written by <a href="mailto:stoopplants@gmail.com">Stoop Branch </a>.<br />
+  Written by <a href="mailto:stoopplants@tmail.com">Stoop Branch </a>.<br />
   Visit us at:<br />
   Tree Opius<br />
   Box 354, Palm Tree<br />
