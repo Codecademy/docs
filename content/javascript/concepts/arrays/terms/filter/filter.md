@@ -74,51 +74,9 @@ console.log(filteredNames('j', names));
 // Output: ["Jim", "James"]
 ```
 
-Filtering an array of objects:
-
-```js
-const kickballPlayers = [
-  { name: 'Jim', team: 'Red' },
-  { name: 'Bob', team: 'Red' },
-  { name: 'Sarah', team: 'Blue' },
-  { name: 'Alex', team: 'Red' },
-  { name: 'James', team: 'Blue' },
-  { name: 'Sam', team: 'Blue' },
-  { name: 'Peter', team: 'Red' },
-  { name: 'Michael', team: 'Red' },
-  { name: 'Kenny', team: 'Blue' },
-  { name: 'Matt', team: 'Blue' },
-];
-
-const redTeam = kickballPlayers.filter((player) => player.team === 'Red');
-
-console.log(redTeam);
-```
-
-The output would be:
-
-```shell
-[{
-  name: "Jim",
-  team: "Red"
-}, {
-  name: "Bob",
-  team: "Red"
-}, {
-  name: "Alex",
-  team: "Red"
-}, {
-  name: "Peter",
-  team: "Red"
-}, {
-  name: "Michael",
-  team: "Red"
-}]
-```
-
 ## Codebyte Example
 
-The example below shows the `filter` array method being used with two criteria on the array `techCompany`.
+The example below shows the `filter` array method being used to filter an array of objects, called `techCompany`, using two criteria.
 
 ```codebyte/javascript
 let techCompany = [
