@@ -71,7 +71,3 @@ if (str_ends_with('NiceJob', 'job')) {
 }
 ?>
 ```
-
-```
-
-```
