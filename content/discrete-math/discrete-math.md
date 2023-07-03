@@ -6,7 +6,7 @@ CatalogContent:
   - 'computer-science'
 ---
 
-**Discrete mathematics** is a fundamental branch of mathematics that provides the foundation for various concepts and techniques used in computer science and problem-solving. It encompasses a range of topics  setthat include sets, propositions, relations, functions, logic, proofs and number theory.
+**Discrete mathematics** is a fundamental branch of mathematics that provides the foundation for various concepts and techniques used in computer science and problem-solving. It encompasses a range of topics that include sets, propositions, relations, functions, proofs, logic and number theory.
 
 ## Advantages
 
