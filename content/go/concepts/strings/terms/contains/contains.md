@@ -9,10 +9,10 @@ Tags:
   - 'Characters'
 CatalogContent:
   - 'learn-go'
-  - 'path/computer-science'
+  - 'paths/computer-science'
 ---
 
-The **`Contains()`** function returns a boolean value indicating whether a given substring is present or not in a given string. If given substring is present in the given string then it returns true, else it returns false.
+The **`Contains()`** function returns a boolean value indicating whether a given substring is present or not in a given string. The method returns `true` if the substring is present, otherwise it returns `false`.
 
 ## Syntax
 
@@ -47,7 +47,7 @@ false
 
 ## Codebyte Example
 
-The following example is runnable and uses the `strings.Contains()` function to return a boolean value indicating whether a given substring is present or not in a given string.
+The following example is runnable and uses the `strings.Contains()` function to determine if the given value is present in the string `codecademy`.
 
 ```codebyte/golang
 package main
