@@ -33,7 +33,7 @@ A brief explanation of `Selection Sort`:
 
 ## Example
 
-The following code illustrates this algorithm in [java](https://www.codecademy.com/learn/learn-java):
+The following example written in [Java](https://www.codecademy.com/learn/learn-java) shows an implementation of selection sort and then uses it to sort `{5, 3, 4, 1, 2}`:
 
 ```java
 public class SelectionSort {
