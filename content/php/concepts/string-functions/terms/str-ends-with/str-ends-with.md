@@ -61,13 +61,13 @@ This example is runnable and uses the **`str_ends_with()`** function:
 
 <?php
 if (str_ends_with('NiceJob', 'Bob')) {
-    echo "NiceJob Ends with Bob\n"; // doesn't print
+    echo "NiceJob Ends with Bob\n";
 }
 if (str_ends_with('NiceJob', '')) {
-    echo "All Strings end with empty String\n"; // does print due to the reason in note 1
+    echo "All Strings end with empty String\n";
 }
 if (str_ends_with('NiceJob', 'job')) {
-    echo "str_ends_with() doesn't care about Case\n"; // doesn't print due to the reason in note 2
+    echo "str_ends_with() doesn't care about Case\n";
 }
 ?>
 ```
