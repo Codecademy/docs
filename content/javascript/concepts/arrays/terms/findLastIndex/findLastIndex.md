@@ -65,7 +65,7 @@ let findIndex = age.find((value, index) => {
 ```
 
 ```js
-Now we use .findLastIndex().
+// Now we use .findLastIndex().
 
 age = [13, 20, 15, 45, 1, 44, 80]
 
