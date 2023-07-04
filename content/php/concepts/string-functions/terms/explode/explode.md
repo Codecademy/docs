@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `explode()` function takes a string and splits it on a given delimiter string. It returns an array of the substrings produced.
+The **`explode()`** function takes a `string` and splits it on a given delimiter `string`. It returns an `array` of the substrings produced.
 
 ## Syntax
 
@@ -22,8 +22,8 @@ The `explode()` function takes a string and splits it on a given delimiter strin
 explode($delimiter, $string, $limit)
 ```
 
-The `$delimiter` parameter specifies the string on which `$string` will be split.
-The `$string` parameter is the string that will be split by the `explode()` function.
+The `$delimiter` parameter specifies the `string` on which `$string` will be split.
+The `$string` parameter is the `string` that will be split by the `explode()` function.
 
 The `$limit` parameter is an optional `int` that specifies how many strings will be returned in the resulting array as follows:
 
@@ -37,11 +37,32 @@ The `$delimiter` has the following behaviors:
 - If `$delimiter` is an empty string, `explode()` will throw a `ValueError` exception.
 - If `$delimiter` is not found in `$string` and a negative `$length` is used, an empty array is returned.
 - If `$delimiter` is not found in `$string` and `$length` is positive or omitted, an array containing `$string` is returned.
-- If `$delimiter` is found at the start or end of `$string`, empty values for each `$delimiter` will be added to the start or end of the returned array respectively.
+- If `$delimiter` is found at the start or end of `$string`, empty values for each `$delimiter` will be added to the start or end of the returned `array` respectively.
+
+### Example
+
+The following example uses the `explode()` function to convert a `string` of fruits separated by `", "` to an `array` of the fruits. Then the `print_r()` function prints the information about the  returned `array` to the console:
+
+```php
+<?php
+  print_r (explode(", ", "apple, strawberry, orange"));
+?>
+```
+
+The example will result in the following output:
+
+```shell
+Array
+(
+  [0] => apple
+  [1] => strawberry
+  [2] => orange
+)
+```
 
 ## Codebyte Example
 
-The following shows three examples of the `explode()` function operating on one comma-delimited string.
+The following shows three examples of the `explode()` function operating on one comma-delimited `string`.
 
 ```codebyte/php
 <?php
