@@ -39,3 +39,22 @@ int main() {
   // Output: The result is 13!
 }
 ```
+
+## Codebyte Example
+
+Use `ceil()` to round up the double `3.14159`:
+
+```codebyte/cpp
+#include <iostream>
+#include <cmath>
+
+int main() {
+  double n = 3.14159;
+  double result;
+
+  result = std::ceil(n);
+
+  std::cout << "The result is " << result << "!\n";
+  // Output: The result is 4!
+}
+```
