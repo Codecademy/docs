@@ -117,50 +117,55 @@ myRobot.recharge()
 
 ## The self Property
 
-  
+In Swift, every object created from a class or structure has a special thing called `self`. It's like a magic word that points to the object itself (think `.this`). So, when we're inside a function that belongs to an object, we can use the keyword `self` to do things with that object's properties and functions.
 
-Every instance of a type in Swift has a special property called __self__. It refers to the instance itself (think .this), allowing us to access its properties and methods from within instance methods.
+Every now and again it is possible to run into a problem if a method has a parameter with the same name as the object's property. In those cases, we can use `self` to make it clear that we're talking about the object and not the parameter.
 
-  
-
-In most cases, we don't need to use the __self__ keyword explicitly because Swift automatically assumes we're referring to the current instance. However, if a parameter name of an instance method has the same name as an instance property, we can use __self__ to clarify which one we're referring to.
-
-  
+Imagine you have a `Car` class with a method called `drive`:
 
 ```swift
-struct Point {
+class Car {
+    var brand: String
+    var model: String
+    var year: Int
+    var isEngineRunning: Bool = false
 
-var x = 0.0, y = 0.0
+    init(brand: String, model: String, year: Int) {
+        self.brand = brand
+        self.model = model
+        self.year = year
+    }
 
-func isToTheRightOf(x: Double) -> Bool {
+    func startEngine() {
+        if !isEngineRunning {
+            isEngineRunning = true
+            print("\(brand) \(model) engine started.")
+        } else {
+            print("The engine is already running.")
+        }
+    }
 
-return self.x > x
-
+    func stopEngine() {
+        if isEngineRunning {
+            isEngineRunning = false
+            print("\(brand) \(model) engine stopped.")
+        } else {
+            print("The engine is already stopped.")
+        }
+    }
 }
 
-}
-
-  
-
-let somePoint = Point(x: 4.0, y: 5.0)
-
-  
-
-if somePoint.isToTheRightOf(x: 1.0) {
-
-print("This point is to the right of the line where x == 1.0")
-
-}
-
-// Prints "This point is to the right of the line where x == 1.0"
-
+let myCar = Car(brand: "Toyota", model: "Corolla", year: 2022)
+myCar.startEngine() // Output: "Toyota Corolla engine started."
+myCar.stopEngine()  // Output: "Toyota Corolla engine stopped."
 ```
+In this code, a Car class is defined with properties like `brand`, `model`, `year`, and `isEngineRunning`. 
 
-  
+There are also two methods: `startEngine` and `stopEngine`. These methods use the `self` keyword to refer to the specific instance of the car. 
 
-In the above code`self` is used to refer to the instance propert`, whil` alone refers to the parameter.
+Inside the methods, the car's properties, like `brand` and `model` can be accessed, and the status of `isEngineRunning` can be modified based on whether it's already running or stopped.
 
-  
+When an instance of the Car class is created, like myCar, the methods can be called on that specific instance to start and stop its engine. The `self` keyword helps us work with the object itself and keep track of its state and behavior.
 
 ##Modifying Value Types from Within Instance Methods
 
