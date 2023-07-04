@@ -47,7 +47,7 @@ This results in the following output:
 
 ## Example 2
 
-In this example, showcasing the difference on how **.findIndex()** and **.findLastIndex()** iterate through the array:
+This example showcases the difference in the how `.findIndex()` and `.findLastIndex()` iterate through the array:
 
 ```js
 let age = [13, 20, 15, 45, 1, 44, 80];
