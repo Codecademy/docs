@@ -55,18 +55,57 @@ Array (
 
 This example is runnable and uses the `array_push()` function:
 
+> **Note:** Each example below uses `print_r`, `echo`, and `foreach` syntaxes to output a specific array's values and keys after that array has been inserted with new element values using the `array_push()` function.  
+
 ```codebyte/php
 <?php
-$supermarkets = array("Costco","Walmart");
-array_push($supermarkets,"Sam's Club","Target");
-print_r($supermarkets);
-echo "\n";
-$companies = array("Microsoft","Adobe"); 
-array_push($companies,["Meta","Amazon"]);
-print_r($companies);
-echo "\n";
-$Electronic_devices = array("a"=>"Television","b"=>"Laptop");
-array_push($Electronic_devices,"Tablet","Smartphone");
-print_r($Electronic_devices);
+  $supermarkets = array("Costco","Walmart");
+  array_push($supermarkets,"Sam's Club","Target");
+  print_r($supermarkets);
+
+  echo "\n\n";
+
+  echo $supermarkets;
+
+  echo "\n\n";
+
+  foreach($supermarkets as $val){
+      echo $val."\n";
+  }
+
+  echo "\n\n";
+
+  $companies = array("Microsoft","Adobe"); 
+  array_push($companies,"Meta","Amazon");
+  print_r($companies);
+
+  echo "\n\n";
+
+  echo $companies;
+
+  echo "\n\n";
+
+  foreach($companies as $key => $val){
+      echo $key ."=>". $val."\n";
+  }
+
+  echo "\n\n";
+
+
+  $Electronic_devices = array("a"=>"Television","b"=>"Laptop");
+  array_push($Electronic_devices,"Tablet","Smartphone");
+  print_r($Electronic_devices);
+
+  echo "\n\n";
+
+  echo $Electronic_devices;
+
+  echo "\n\n";
+
+  foreach($Electronic_devices as $key => $val){
+      echo $key ."=>". $val."\n";
+  }
+
+  echo "\n\n";
 ?>
 ```
