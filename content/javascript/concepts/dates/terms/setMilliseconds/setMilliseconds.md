@@ -26,7 +26,7 @@ The  return value of `.setMilliseconds()` is the new timestamp after updating mi
 
 ## Example
 
-To set the millisecond value of given date to 421 :
+To set the millisecond value of given date to 421:
 
 ```js
 const eventDate = new Date('1/1/2023');
