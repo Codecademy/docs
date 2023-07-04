@@ -1,6 +1,6 @@
 ---
 Title: '.findLastIndex()'
-Description: 'Iterates through the array in reverse order and returns the index that passes the provided testing function. If no item passes, it returns -1.'
+Description: 'Iterates through the array in reverse order and returns the index that passes the provided testing function.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
