@@ -22,7 +22,7 @@ array.findLastIndex((element, index) => {...});
 
 The function can be invoked with two arguments:
 
-- `element`: The current element we are iterating through.
+- `element`: The current element in the iteration.
 - `index` (optional): The index of the array element.
 
 ## Example
