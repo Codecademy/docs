@@ -19,9 +19,9 @@ The **`cbrt()`** function returns the cube root of the argument.
 std::cbrt(n)
 ```
 
-## Example 1
+## Example
 
-Use `cbrt()` to return the cube root of `27`:
+The following example uses the `cbrt()` function to find the cube root of `27`:
 
 ```cpp
 #include <iostream>
@@ -35,5 +35,24 @@ int main() {
 
   std::cout << "The cube root of " << x << " is " << result << "\n";
   // Output: The cube root of 27 is 3
+}
+```
+
+## Codebyte Example
+
+The following example is runnable and returns the cube root of `8` with the `cbrt()` function:
+
+```codebyte/cpp
+#include <iostream>
+#include <cmath>
+
+int main() {
+  double x = 8;
+  double result;
+
+  result = std::cbrt(x);
+
+  std::cout << "The cube root of " << x << " is " << result << "\n";
+  // Output: The cube root of 8 is 2
 }
 ```
