@@ -28,14 +28,14 @@ var favoriteSongs = [String]()
 print(favoriteSongs.isEmpty)
 ```
 ```shell
-//Output: true
+true
 ```
 ```swift
 favoriteSongs.append("Stayin' Alive")
 print(favoriteSongs.isEmpty)
 ```
 ```shell
-//Output: false
+false
 
 ```
 
