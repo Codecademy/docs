@@ -27,26 +27,6 @@ The function can be invoked with two arguments:
 
 ## Example
 
-Find the index with a value of 200 in the array:
-
-```js
-const numbers = [10, 42, 53, 12, 45, 66, 33, 6, 10000, 200, 10];
-
-const findIndexResult = numbers.findLastIndex((value, index) => {
-  return value === 200;
-});
-
-console.log(findIndexResult);
-```
-
-This results in the following output:
-
-```shell
-9
-```
-
-## Example 2
-
 In this example, showcasing the difference on how **.findIndex()** and **.findLastIndex()** iterate through the array:
 
 ```js
