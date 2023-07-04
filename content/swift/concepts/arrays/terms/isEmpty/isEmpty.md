@@ -26,10 +26,15 @@ arrayName.isEmpty
 var favoriteSongs = [String]()
 
 print(favoriteSongs.isEmpty)
+```
+```shell
 //Output: true
-
+```
+```swift
 favoriteSongs.append("Stayin' Alive")
 print(favoriteSongs.isEmpty)
+```
+```shell
 //Output: false
 
 ```
