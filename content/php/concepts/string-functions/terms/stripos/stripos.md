@@ -48,29 +48,16 @@ The output of the above code will be `2`, as the string "will" starts at index 2
 
 `stripos()` is case-insensitive. In the example above, the result would be the same if the second parameter was written as "WILL" instead of "will".
 
+## Codebyte
+
 ### With Required and Optional Parameters
 
-```php
+```codebyte/php
 <?php
 echo stripos("I will return the position of a string", "will", 3);
 ?>
 ```
 
-The above code won't return anything, as the search begins at index 3. The string "will" doesn't appear again after index 2.
+The above code won't return anything as the search begins at index 3. The string "will" doesn't appear again after index 2.
 
 > **Note:** The output will not return anything, but will evaluate to `false`.
-
-## Codebyte
-
-The following example is a runnable code snippet using `stripos()`. It only uses the required parameters: the given string ("I like pizza") and the string to find ("pizza").
-
-```codebyte/php
-<?php
-$given_string = "I like pizza";
-$string_to_find = "pizza";
-
-$position_of_pizza = stripos($given_string, $string_to_find);
-
-echo $position_of_pizza;
-?>
-```
