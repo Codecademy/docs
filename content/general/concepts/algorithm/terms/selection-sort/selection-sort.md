@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-`Selection sort` is an in-place comparison sorting `algorithm`. It divides the input array into two parts: the sorted subarray at the beginning and the unsorted subarray at the end. The algorithm repeatedly selects the minimum (or maximum) element from the unsorted subarray and swaps it with the first unsorted element, expanding the sorted subarray by one element.
+**Selection sort** is an in-place comparison sorting algorithm. It divides the input array into two parts: the sorted subarray at the beginning and the unsorted subarray at the end. The algorithm repeatedly selects the minimum (or maximum) element from the unsorted subarray and swaps it with the first unsorted element, expanding the sorted subarray by one element.
 
 ## Explanation
 
