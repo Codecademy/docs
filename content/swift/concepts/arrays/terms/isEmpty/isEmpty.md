@@ -24,19 +24,17 @@ arrayName.isEmpty
 
 ```swift
 var favoriteSongs = [String]()
-
 print(favoriteSongs.isEmpty)
-```
-```shell
-true
-```
-```swift
+
 favoriteSongs.append("Stayin' Alive")
 print(favoriteSongs.isEmpty)
 ```
-```shell
-false
 
+This will output:
+
+```shell
+true
+false
 ```
 
 > **Note:** [Big-O](https://www.codecademy.com/resources/docs/general/big-o-notation) of this method is **O(1)**.
