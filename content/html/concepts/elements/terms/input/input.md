@@ -52,15 +52,18 @@ The following examples use a `<form>` element that features `<input>` elements. 
   <body>
     <form>
       <!-- This input type requires the user to enter a valid email address -->
-      <label for ="email" >Email Address</label>
-      <input type="email" id="email"/>
+      <label for="email">Email Address</label>
+      <input type="email" id="email" />
 
       <!-- This input hides the typed password with ****s -->
       <label for="password">Password</label>
-      <input type="password" id="password" name="password"/>
+      <input type="password" id="password" name="password" />
 
       <!-- This input provides a checkbox -->
-      <input type="checkbox" id="remember" value="remember"/><label for="remember">Remember Me</label>
+      <input type="checkbox" id="remember" value="remember" /><label
+        for="remember"
+        >Remember Me</label
+      >
 
       <!-- This input provides a radio button group -->
       <label>
