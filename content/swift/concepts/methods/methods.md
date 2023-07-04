@@ -3,9 +3,15 @@
 
   
 
+  
+
 Title: 'Methods`
 
+  
+
 Description: 'Learn about methods in Swift and how they are used to perform actions and provide functionality.'
+
+  
 
   
 
@@ -13,8 +19,25 @@ Subjects:
 
   
 
+  
+
 - 'iOS'
 
+  
+
+  
+
+- 'Mobile Development
+
+  
+
+  
+
+- 'Game Development
+
+  
+
+  
   
 
 - 'Mobile Development
@@ -29,7 +52,11 @@ Tags:
 
   
 
+  
+
 - 'Methods'
+
+  
 
   
 
@@ -37,7 +64,11 @@ Tags:
 
   
 
+  
+
 - 'Properties'
+
+  
 
   
 
@@ -45,11 +76,17 @@ Tags:
 
   
 
+  
+
 - 'Self'
 
   
 
+  
+
 - 'Mutating'
+
+  
 
   
 
@@ -59,7 +96,11 @@ Tags:
 
   
 
+  
+
 CatalogContent:
+
+  
 
   
 
@@ -67,11 +108,17 @@ CatalogContent:
 
   
 
+  
+
 - 'build-ios-apps-with-swiftui'
 
   
 
+  
+
 ---
+
+  
 
   
 
@@ -83,7 +130,11 @@ __Methods__ in Swift are like special functions that belong to certain things, s
 
   
 
+  
+
 ## Instance Methods
+
+  
 
   
 
@@ -95,13 +146,120 @@ Instance methods in Swift are like actions or behaviours that objects can perfor
 
   
 
+  
+
 Here's an example that defines a __Robot__ class, which can perform different actions based on its programming:
 
   
 
   
 
+  
+
 ```swift
+
+  
+
+class  Robot {
+
+  
+
+var name: String
+
+  
+
+var powerLevel: Int
+
+  
+
+init(name: String, powerLevel: Int) {
+
+  
+
+self.name = name
+
+  
+
+self.powerLevel = powerLevel
+
+  
+
+}
+
+  
+
+func  recharge() {
+
+  
+
+print("\(name) is recharging...")
+
+  
+
+powerLevel = 100
+
+  
+
+print("\(name) is fully charged!")
+
+  
+
+}
+
+  
+
+func  performTask(task: String) {
+
+  
+
+if powerLevel > 0 {
+
+  
+
+if task == "Fire Lasers" {
+
+  
+
+print("\(name) is firing lasers!")
+
+  
+
+powerLevel -= 20
+
+  
+
+} else {
+
+  
+
+print("\(name) is performing task: \(task)")
+
+  
+
+powerLevel -= 10
+
+  
+
+}
+
+  
+
+} else {
+
+  
+
+print("\(name) is out of power. Please recharge.")
+
+  
+
+}
+
+  
+
+}
+
+  
+
 
 class  Robot {
 
@@ -155,14 +313,38 @@ print("\(name) is out of power. Please recharge.")
 
 }
 
+  
+
 ```
 
   
 
   
 
+  
+
+In this example, the `Robot` class represents a robot with a `name` and a `powerLevel`.
 In this example, the `Robot` class represents a robot with a `name` and a `powerLevel`.
 
+  
+
+  
+
+1. The `recharge()` method allows the robot to recharge its power level back to 100
+
+  
+
+2. The `performTask(task:)` method simulates the robot performing a task by decrementing its `powerLevel`
+
+  
+
+3. If `powerLevel` reaches zero, it displays a message to recharge the robot.
+
+  
+
+  
+
+  
   
 
 1. The `recharge()` method allows the robot to recharge its power level back to 100
@@ -179,10 +361,29 @@ Instance methods are called using dot syntax:
 
   
 
+  
+
 ```swift
+
+  
 
 let myRobot = Robot(name: "Jeff", powerLevel: 80)
 
+  
+
+  
+
+myRobot.performTask(task: "Clean the house") // Output: Jeff is performing task: Clean the house
+
+  
+
+  
+
+myRobot.performTask(task: "Fire Lasers") // Output: Jeff is firing lasers!
+
+  
+
+  
   
 
 myRobot.performTask(task: "Clean the house") // Output: Jeff is performing task: Clean the house
@@ -195,11 +396,19 @@ myRobot.performTask(task: "Fire Lasers") // Output: Jeff is firing lasers!
 
 myRobot.recharge()
 
+  
+
 // Output:
+
+  
 
 // Jeff is recharging...
 
+  
+
 // Jeff is fully charged!
+
+  
 
   
 
@@ -209,7 +418,11 @@ myRobot.recharge()
 
   
 
+  
+
 ## The self Property
+
+  
 
   
 
@@ -217,7 +430,11 @@ In Swift, every object created from a class or structure has a special thing cal
 
   
 
+  
+
 Every now and again it is possible to run into a problem if a method has a parameter with the same name as the object's property. In those cases, we can use `self` to make it clear that we're talking about the object and not the parameter.
+
+  
 
   
 
@@ -225,7 +442,29 @@ Imagine you have a `Car` class with a method called `drive`:
 
   
 
+  
+
 ```swift
+
+  
+
+class  Car {
+
+  
+
+var brand: String
+
+  
+
+var model: String
+
+  
+
+var year: Int
+
+  
+
+var isEngineRunning: Bool = false
 
 class  Car {
 
@@ -239,6 +478,27 @@ var isEngineRunning: Bool = false
 
   
 
+  
+
+init(brand: String, model: String, year: Int) {
+
+  
+
+self.brand = brand
+
+  
+
+self.model = model
+
+  
+
+self.year = year
+
+  
+
+}
+  
+
 init(brand: String, model: String, year: Int) {
 
 self.brand = brand
@@ -249,6 +509,39 @@ self.year = year
 
 }
 
+  
+
+  
+
+func  startEngine() {
+
+  
+
+if !isEngineRunning {
+
+  
+
+isEngineRunning = true
+
+  
+
+print("\(brand)  \(model) engine started.")
+
+  
+
+} else {
+
+  
+
+print("The engine is already running.")
+
+  
+
+}
+
+  
+
+}
   
 
 func  startEngine() {
@@ -266,6 +559,42 @@ print("The engine is already running.")
 }
 
 }
+
+  
+
+  
+
+func  stopEngine() {
+
+  
+
+if isEngineRunning {
+
+  
+
+isEngineRunning = false
+
+  
+
+print("\(brand)  \(model) engine stopped.")
+
+  
+
+} else {
+
+  
+
+print("The engine is already stopped.")
+
+  
+
+}
+
+  
+
+}
+
+  
 
   
 
@@ -289,15 +618,27 @@ print("The engine is already stopped.")
 
   
 
+  
+
 let myCar = Car(brand: "Toyota", model: "Corolla", year: 2022)
+
+  
 
 myCar.startEngine() // Output: "Toyota Corolla engine started."
 
+  
+
 myCar.stopEngine() // Output: "Toyota Corolla engine stopped."
+
+  
 
 ```
 
+  
+
 In this code, a Car class is defined with properties like `brand`, `model`, `year`, and `isEngineRunning`.
+
+  
 
   
 
@@ -305,8 +646,41 @@ There are also two methods: `startEngine` and `stopEngine`. These methods use th
 
   
 
+  
+
 Inside the methods, the car's properties, like `brand` and `model` can be accessed, and the status of `isEngineRunning` can be modified based on whether it's already running or stopped.
 
+  
+
+  
+
+When an instance of the Car class is created, like myCar, the methods can be called on that specific instance to start and stop its engine. The `self` keyword helps us work with the object itself and keep track of its state and behaviour.
+
+  
+
+  
+
+## Modifying Value Types from Within Instance Methods
+
+  
+
+  
+
+  
+
+In Swift, structures and enumerations are called "__value types__" By default, they don't allow us to directly change their properties from inside their methods.
+
+  
+  
+  
+  
+
+However, if we want to modify a property of a structure or enumeration from within a specific method, we can use the keyword "__mutating__". This tells Swift that the method might make changes to the structure or enumeration's properties.
+
+  
+  
+  
+  
   
 
 When an instance of the Car class is created, like myCar, the methods can be called on that specific instance to start and stop its engine. The `self` keyword helps us work with the object itself and keep track of its state and behaviour.
@@ -319,10 +693,17 @@ When an instance of the Car class is created, like myCar, the methods can be cal
 
   
 
+When a mutating method is called and makes changes, those changes are saved and applied to the original structure or enumeration. In other words, the method can update the values of the structure or enumeration.
+
+  
+  
 In Swift, structures and enumerations are called __value types__ By default, they don't allow us to directly change their properties from inside their methods. 
 
 
 
+Imagine a `Spaceship` struct. Each spaceship has a fuel level and the manufacturers need a method to refuel the spaceship
+
+  
 
 However, if we want to modify a property of a structure or enumeration from within a specific method, we can use the keyword __mutating__. This tells Swift that the method might make changes to the structure or enumeration's properties.
 
@@ -341,183 +722,29 @@ Imagine a `Spaceship` struct. Each spaceship has a fuel level and the manufactur
 
   
 
----
+struct  Spaceship {
 
   
 
   
 
-Title: 'Methods`
-
-  
-
-Description: 'Learn about methods in Swift and how they are used to perform actions and provide functionality.'
+var fuelLevel: Int
 
   
 
   
 
-Subjects:
+mutating  func  refuel(amount: Int) {
 
   
 
   
 
-- 'iOS'
+fuelLevel += amount
 
   
 
   
-
-- 'Mobile Development
-
-  
-
-  
-
-- 'Game Development
-
-  
-
-  
-
-Tags:
-
-  
-
-  
-
-- 'Methods'
-
-  
-
-  
-
-- 'Functions'
-
-  
-
-  
-
-- 'Properties'
-
-  
-
-  
-
-- 'Parameters'
-
-  
-
-  
-
-- 'Self'
-
-  
-
-  
-
-- 'Mutating'
-
-  
-
-  
-
-- 'Type Methods'
-
-  
-
-  
-
-  
-
-CatalogContent:
-
-  
-
-  
-
-- 'learn-swift'
-
-  
-
-  
-
-- 'build-ios-apps-with-swiftui'
-
-  
-
-  
-
----
-
-  
-
-  
-
-  
-
-__Methods__ in Swift are like special functions that belong to certain things, such as classes, structures, or groups of related values called enumerations. You can create and use methods to perform specific tasks or actions with those things.
-
-  
-
-  
-
-  
-
-## Instance Methods
-
-  
-
-  
-
-  
-
-Instance methods in Swift are like actions or behaviours that objects can perform. They are specific to each object and define what the object can do or how it can interact with other objects.
-
-  
-
-  
-
-  
-
-Here's an example that defines a __Robot__ class, which can perform different actions based on its programming:
-
-  
-
-  
-
-  
-
-```swift
-
-  
-
-class  Robot {
-
-  
-
-var name: String
-
-  
-
-var powerLevel: Int
-
-  
-
-init(name: String, powerLevel: Int) {
-
-  
-
-self.name = name
-
-  
-
-self.powerLevel = powerLevel
-
-  
-
-}
 
   
 
@@ -541,56 +768,6 @@ print("\(name) is fully charged!")
 
   
 
-func  performTask(task: String) {
-
-  
-
-if powerLevel > 0 {
-
-  
-
-if task == "Fire Lasers" {
-
-  
-
-print("\(name) is firing lasers!")
-
-  
-
-powerLevel -= 20
-
-  
-
-} else {
-
-  
-
-print("\(name) is performing task: \(task)")
-
-  
-
-powerLevel -= 10
-
-  
-
-}
-
-  
-
-} else {
-
-  
-
-print("\(name) is out of power. Please recharge.")
-
-  
-
-}
-
-  
-
-}
-
   
 
 }
@@ -601,6 +778,73 @@ print("\(name) is out of power. Please recharge.")
 
   
 
+  
+
+The manufacturers create a spaceship and call it `newSpaceship` with an initial fuel level of 50:
+
+  
+
+  
+
+```swift
+
+  
+
+var newSpaceship = Spaceship(fuelLevel: 50)
+
+  
+
+print("Current fuel level: \(newSpaceship.fuelLevel)") // Output: "Current fuel level: 50"
+
+  
+
+```
+
+  
+
+  
+
+Sometime later newSpaceship docks at a space station and refuels by adding 30 units of fuel:
+
+  
+
+  
+
+```swift
+
+  
+
+newSpaceship.refuel(amount: 30)
+
+  
+
+print("New fuel level after refuelling: \(newSpaceship.fuelLevel)") // Output: "New fuel level after refueling: 80"
+
+  
+
+```
+
+  
+
+  
+
+In the above code the manufacturer's `refuel(amount:)` method is marked as `mutating` because it modifies `fuelLevel` property of the `newSpaceship` struct. This allows them to increase the spaceship's fuel level.
+
+  
+
+  
+
+Just like a spaceship can refuel and increase its fuel level, the `mutating` keyword in Swift allows us to modify properties of a value type like the spaceship within its instance methods when certain actions, like refuelling, are performed.
+
+  
+
+  
+
+## Assigning to `self` Within a Mutating Method`
+
+  
+
+  
   
 
   
@@ -1019,6 +1263,10 @@ When a method in Swift is marked as __mutating__, this means it can modify the p
 
   
 
+  
+
+  
+
 ```swift
 
   
@@ -1243,9 +1491,26 @@ Here's an example of how this method could be used:
 
   
 
+In the code above, there is a structure called `MathUtility`. A type method called `multiply` is defined inside it. This method takes two parameters (`a` and `b`) and returns their multiplication result. Since it's a type method, the `static` keyword is used before the method declaration.
+
+  
+
+  
+
+  
+
+Here's an example of how this method could be used:
+
+  
+
+  
+
   
 
 ```swift
+
+  
+
 
   
 
@@ -1270,6 +1535,10 @@ print(result) // Output: 15
   
 
 We directly called `multiply` on the `MathUtility` type, passing in the values 5 and 3 as arguments. The type method performs the multiplication and returns the result, which is then assigned to the `result` constant. Finally, we print the result, which will be 15 in this case.
+
+  
+
+  
 
   
 
