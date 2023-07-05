@@ -53,6 +53,5 @@ int main() {
   result = std::cbrt(x);
 
   std::cout << "The cube root of " << x << " is " << result << "\n";
-  // Output: The cube root of 8 is 2
 }
 ```
