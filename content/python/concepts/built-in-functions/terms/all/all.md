@@ -134,7 +134,7 @@ This is `True` because all items in the tuple are `True`.
 
 The following example demonstrates the use of `all()` function.
 
-**Checking if all elements in a list satisfy a condition:**
+Checking if all elements in a list satisfy a condition:
 
 ```codebyte/python
 numbers = [2, 4, 6, 8, 10]
