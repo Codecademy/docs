@@ -4,7 +4,6 @@ Description: 'Checks if a string ends with a given substring.'
 Subjects:
   - 'Computer Science'
   - 'Web Design'
-  - 'Web Development'
 Tags:
   - 'Strings'
   - 'Functions'
