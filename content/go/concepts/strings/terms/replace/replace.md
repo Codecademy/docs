@@ -1,6 +1,6 @@
 ---
 Title: 'Replace()' 
-Description: 'Return a copy of the given string with the first n non-overlapping instances of old replaced by new one.' 
+Description: 'replaces all or number of occurrences of a specified substring within a given string with another substring. It returns a new string with the replacements made.' 
 Subjects: 
   - 'Code Foundations'
   - 'Computer Science
@@ -29,7 +29,7 @@ The `strings.Replace()` function takes four parameters:
 - `provided str`: given or the original string
 - `old str`: the string that will be replaced
 - `new str`: the string that replaces the old string
-- `n`: the count of replacements made for the old string.
+- `n`: the count of replacements made for the old string
 
 ## Example
 
