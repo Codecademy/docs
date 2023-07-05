@@ -55,6 +55,5 @@ int main() {
   result = std::ceil(n);
 
   std::cout << "The result is " << result << "!\n";
-  // Output: The result is 4!
 }
 ```
