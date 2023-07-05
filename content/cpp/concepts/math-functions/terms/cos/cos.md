@@ -53,6 +53,5 @@ int main() {
   result = std::cos(x);
 
   std::cout << "The cosine of " << x << " radians is " << result << "\n";
-  // Output: The cosine of 2.5 radians is -0.801
 }
 ```
