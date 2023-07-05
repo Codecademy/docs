@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`str_ends_with()`** function Checks if a **`string`** ends with a given **`substring`**
+The **`str_ends_with()`** function checks if a string ends with a given substring.
 
 ## Syntax
 
