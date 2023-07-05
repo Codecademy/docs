@@ -30,7 +30,7 @@ The **`str_ends_with()`** function returns a **`bool`** which is **`true`** if *
 
 ## Example
 
-The following example uses the **`str_ends_with()`** function to check if the `"fiddlesticks"` ends with `"sticks"` and then prints to the console `" fiddlesticks end with sticks "`:
+The following example uses the **`str_ends_with()`** function to check if the `"fiddlesticks"` ends with `"sticks"` and then prints to the console:
 
 ```php
 
