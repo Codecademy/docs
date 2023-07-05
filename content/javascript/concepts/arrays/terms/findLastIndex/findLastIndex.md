@@ -27,7 +27,7 @@ The function can be invoked with two arguments:
 
 ## Example
 
-In this example, we see the difference on how **.findIndex()** and **.findLastIndex()** iterate through the array:
+The following examples highlight the difference in how `.findIndex()` and `.findLastIndex()` iterate through an array:
 
 ```js
 let age = [13, 20, 15, 45, 1, 44, 80];
@@ -41,6 +41,7 @@ let findIndex = age.find((value, index) => {
 ```
 
 ```shell
+findIndex() method:
 Checking age index: 0
 Checking age index: 1
 Checking age index: 2
@@ -51,7 +52,7 @@ Checking age index: 6
 ```
 
 ```js
-// Now we use .findLastIndex().
+// Now .findLastIndex().
 
 age = [13, 20, 15, 45, 1, 44, 80];
 
@@ -64,6 +65,7 @@ findIndex = age.findLastIndex((value, index) => {
 ```
 
 ```shell
+findLastIndex() method:
 Checking age index: 6
 ```
 
