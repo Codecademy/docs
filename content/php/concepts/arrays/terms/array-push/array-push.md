@@ -55,25 +55,21 @@ Array (
 
 This example is runnable and uses the `array_push()` function:
 
-> **Note:** Each example below uses `print_r`, `echo`, and `foreach` syntaxes to output a specific array's values and keys after that array has been inserted with new element values using the `array_push()` function.  
+> **Note:** The first example uses `count()` function to count the length of an array. `foreach` syntaxes in the examples below is used to loop through each keys and values of an array.   
 
 ```codebyte/php
 <?php
-  $supermarkets = array("Costco","Walmart");
-  array_push($supermarkets,"Sam's Club","Target");
-  print_r($supermarkets);
+	$supermarkets = array("Costco","Walmart");
+	$size = count($supermarkets);
+	echo("Array legnth before array_push(): " . $size) . "\n\n";
+	$newsize = array_push($supermarkets,"Sam's Club","Target");
+	echo("Array legnth after array_push(): " . $newsize . "\n\n");
 
-  echo "\n\n";
+	foreach($supermarkets as $val){
+      echo “Supermarket’s name: $val. \n";
+	}
 
-  echo $supermarkets;
-
-  echo "\n\n";
-
-  foreach($supermarkets as $val){
-      echo $val."\n";
-  }
-
-  echo "\n\n";
+	echo "\n\n";
 
   $companies = array("Microsoft","Adobe"); 
   array_push($companies,"Meta","Amazon");
@@ -86,23 +82,6 @@ This example is runnable and uses the `array_push()` function:
   echo "\n\n";
 
   foreach($companies as $key => $val){
-      echo $key ."=>". $val."\n";
-  }
-
-  echo "\n\n";
-
-
-  $Electronic_devices = array("a"=>"Television","b"=>"Laptop");
-  array_push($Electronic_devices,"Tablet","Smartphone");
-  print_r($Electronic_devices);
-
-  echo "\n\n";
-
-  echo $Electronic_devices;
-
-  echo "\n\n";
-
-  foreach($Electronic_devices as $key => $val){
       echo $key ."=>". $val."\n";
   }
 
