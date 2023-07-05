@@ -51,16 +51,16 @@ Checking age index: 6
 ```
 
 ```js
-Now we use .findLastIndex().
+// Now we use .findLastIndex().
 
-age = [13, 20, 15, 45, 1, 44, 80]
+age = [13, 20, 15, 45, 1, 44, 80];
 
 console.log('findLastIndex() method: ');
 
 findIndex = age.findLastIndex((value, index) => {
-    console.log('Checking age index: ', index);
-    return value === 80
-})
+  console.log('Checking age index: ', index);
+  return value === 80;
+});
 ```
 
 ```shell
