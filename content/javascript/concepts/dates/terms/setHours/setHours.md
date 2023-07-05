@@ -16,7 +16,10 @@ The **`.setHours()`** method sets the hours for a specified date according to lo
 ## Syntax
 
 ```pseudo
-myDate.setDate()
+myDate.setHours(hoursValue)
+myDate.setHours(hoursValue, minutesValue)
+myDate.setHours(hoursValue, minutesValue, secondsValue)
+myDate.setHours(hoursValue, minutesValue, secondsValue, millisecondsValue)
 ```
 
 The `.setDate()` method changes the day of the month of a provided date according to local time.
