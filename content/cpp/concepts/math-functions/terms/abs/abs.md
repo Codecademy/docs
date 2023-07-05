@@ -32,3 +32,18 @@ int main() {
   // Output: 6.5
 }
 ```
+
+## Codebyte Example
+
+The following example is runnable and outputs the absolute value of `-5.1`:
+
+```codebyte/cpp
+#include <iostream>
+#include <cmath>
+
+int main() {
+  double x = -5.1;
+  std::cout << std::abs(x) << std::endl;
+  return 0;
+}
+```
