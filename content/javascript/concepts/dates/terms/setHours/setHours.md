@@ -1,6 +1,6 @@
 ---
 Title: '.setHours()'
-Description: 'Changes the hours for a specified date according to local time.'
+Description: 'Sets the hours for a specified date according to local time.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -37,18 +37,18 @@ The `.setHours()` method changes the hours, minutes, seconds and millisecons for
 
 ## Example
 
-In the example below, the `myDate` variable takes the provided date and then the `.setDate()` method is applied to return a modified date.
+In the example below, the `myDate` variable takes the provided date and then the `.setHours()` method is applied to return a date with set hours, minutes and seconds.
 
 ```js
-const myDate = new Date('2023-01-01');
-myDate.setDate(24);
+const myDate = new Date('2023-02-05');
+myDate.setHours(15, 36, 45);
 
-console.log(myDate.getDate());
+console.log(myDate);
 ```
 
 This results in the following output:
 
 ```shell
-24
+2023-02-05T15:36:45.000Z
 ```
 
