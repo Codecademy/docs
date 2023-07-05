@@ -20,16 +20,16 @@ The **`str_ends_with()`** function checks if a string ends with a given substrin
 str_ends_with( $string , $substring )
 ```
 
-The **`str_ends_with()`** function has two required parameters:
+The `str_ends_with()` function has two required parameters:
 
-- **`$string`**: Specifies the **`string`** to check if it ends with the **`$substring`**.
-- **`$substring`**: Specifies the **`string`** to check for in the **`$string`** .
+- `$string`: Specifies the `string` to check if it ends with the `$substring`.
+- `$substring`: Specifies the `string` to check for in the `$string` .
 
-The **`str_ends_with()`** function returns a **`bool`** which is **`true`** if **`$string`** ends with **`$substring`**, **`false`** otherwise.
+The `str_ends_with()` function returns a `bool` which is `true` if `$string` ends with `$substring`, `false` otherwise.
 
 ## Example
 
-The following example uses the **`str_ends_with()`** function to check if the `"fiddlesticks"` ends with `"sticks"` and then prints to the console:
+The following example uses the `str_ends_with()` function to check if the `"fiddlesticks"` ends with `"sticks"` and then prints to the console:
 
 ```php
 <?php
@@ -47,7 +47,7 @@ fiddlesticks end with sticks
 
 ## Codebyte Example
 
-This example is runnable and uses the **`str_ends_with()`** function:
+This example is runnable and uses the `str_ends_with()` function:
 
 > **Note 1:** The second echo statement will be true as all strings end with empty strings.
 > **Note 2:** The third echo statement will be false because the case does not match.
