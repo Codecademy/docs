@@ -14,22 +14,22 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **strings.Replace()** returns a copy of the string that contains a new string that is created by replacing the elements in the old string.
+The **strings.Replace()** replaces all or number of occurrences of a specified substring within a given string with another substring. It returns a new string with the replacements made.
 
 ## Syntax
 
 ```pseudo
-func Replace(given str, old str, new str, n int) string
+func Replace(provided str, old str, new str, n int) string
 ```
+
+If the 'old str' is empty, it corresponds to the beginning of the 'provided str'. It returns up to k+1 replacements after each UTF-8 sequence, resulting in a k-rune string. If n is a negative integer, there is no limit to the number of substitutions that can be made.
 
 The `strings.Replace()` function takes four parameters:
 
-- `given str`: given or the original string
-- `old str`: the string to be replaced
+- `provided str`: given or the original string
+- `old str`: the string that will be replaced
 - `new str`: the string that replaces the old string
-- `n`: number of times the old string is replaced
-
-> **Note**: If the old string is empty, it matches the start of the string. After each UTF-8 sequence, it yields up to k+1 replacements, giving a k-rune string. There is no limit to how many replacements can be made if n is less than zero.
+- `n`: the count of replacements made for the old string.
 
 ## Example
 
@@ -58,7 +58,7 @@ The output will be:
 
 ## Codebyte Example (if applicable)
 
-The following example is runnable and uses the `strings.Replace()` method to replace the old string(one) with the new string(1).
+The provided example is executable and demonstrates the usage of the `strings.Replace()` function. It replaces occurrences of the old string "one" with the new string "1".
 
 ```codebyte/golang
 package main
