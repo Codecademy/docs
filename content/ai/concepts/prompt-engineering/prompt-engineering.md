@@ -61,7 +61,7 @@ Here is the block of code:
 y
 ```
 
-Keep in mind `x` and `y` are just place holders. When using this prompt you will want to provide the relevant information.
+Keep in mind `x` and `y` are just place holders. When using this prompt the relevant information should be provided.
 
 ## Prompt Examples
 
