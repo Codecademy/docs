@@ -1,6 +1,6 @@
 ---
 Title: '.getTimezoneOffset()'
-Description: 'Returns the time zone offset in minutes between the user's local time and UTC.'
+Description: 'Returns the time zone offset in minutes between the local time and UTC.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
