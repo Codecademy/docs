@@ -37,7 +37,7 @@ The `.setHours()` method changes the hours, minutes, seconds and millisecons for
 
 ## Example
 
-In the example below, the `myDate` variable takes the provided date and then the `.setHours()` method is applied to return a date with set hours, minutes and seconds.
+In the example below, the `myDate` variable takes the provided date and applies the `.setHours()` method to set the hours, minutes, and seconds of the date:
 
 ```js
 const myDate = new Date('2023-02-05');
