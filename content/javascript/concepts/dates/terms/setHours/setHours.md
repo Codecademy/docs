@@ -26,14 +26,14 @@ The `.setHours()` method changes the hours, minutes, seconds and millisecons for
 
 ## Parameters
 
-`hoursValue` 
-- ##### Required. 0 to 23 representing the hours.
-`minutesValue`
-- ##### Optional. 0 to 59 representing the minutes.
-`secondsValue`
-- ##### Optional. 0 to 59 representing the seconds. You must also specify `minutesValue`.
-`millisecondsValue`
-- ##### Optional. 0 to 999 representing the milliseconds. You must also specify `minutesValue` and `secondsValue`.
+**`hoursValue:`** 
+- Required. 0 to 23 representing the hours.
+**`minutesValue:`**
+- Optional. 0 to 59 representing the minutes.
+**`secondsValue:`**
+- Optional. 0 to 59 representing the seconds. You must also specify `minutesValue`.
+**`millisecondsValue:`**
+- Optional. 0 to 999 representing the milliseconds. You must also specify `minutesValue` and `secondsValue`.
 
 ## Example
 
