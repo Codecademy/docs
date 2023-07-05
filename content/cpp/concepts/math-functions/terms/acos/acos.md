@@ -46,11 +46,13 @@ The following example is runnable and outputs the inverse cosine of `-0.5`:
 #include <iostream>
 #include <cmath>
 
+using namespace std;
+
 int main() {
   double x = -0.5;
-  double result = std::acos(x);
+  double result = acos(x);
 
-  std::cout << result << " radians" << std::endl;
+  cout << result << " radians" << endl;
 
   return 0;
 }
