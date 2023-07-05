@@ -98,4 +98,4 @@ If you understood everything, write "OK" and nothing else.
 
 This example is a little more advanced, but shows how an LLM can be a "low-code" solution. This prompt has built in commands in which we can adjust the context of the conversation dynamically.
 
-This prompt also shows how can we train the LLM to respond with a specific format.
+This prompt also shows how the LLM can be trained to respond with a specific format.
