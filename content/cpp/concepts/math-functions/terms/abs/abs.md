@@ -41,9 +41,11 @@ The following example is runnable and outputs the absolute value of `-5.1`:
 #include <iostream>
 #include <cmath>
 
+using namespace std;
+
 int main() {
   double x = -5.1;
-  std::cout << std::abs(x) << std::endl;
+  cout << abs(x) << endl;
   return 0;
 }
 ```
