@@ -22,7 +22,18 @@ myDate.setHours(hoursValue, minutesValue, secondsValue)
 myDate.setHours(hoursValue, minutesValue, secondsValue, millisecondsValue)
 ```
 
-The `.setDate()` method changes the day of the month of a provided date according to local time.
+The `.setHours()` method changes the hours, minutes, seconds and millisecons for this date according to local time.
+
+## Parameters
+
+`hoursValue` 
+- ##### Required. 0 to 23 representing the hours.
+`minutesValue`
+- ##### Optional. 0 to 59 representing the minutes.
+`secondsValue`
+- ##### Optional. 0 to 59 representing the seconds. You must also specify `minutesValue`.
+`millisecondsValue`
+- ##### Optional. 0 to 999 representing the milliseconds. You must also specify `minutesValue` and `secondsValue`.
 
 ## Example
 
