@@ -22,26 +22,26 @@ The **`explode()`** function takes a `string` and splits it on a given delimiter
 explode($delimiter, $string, $limit)
 ```
 
-The `$delimiter` parameter specifies the `string` on which `$string` will be split.
-The `$string` parameter is the `string` that will be split by the `explode()` function.
+The `explode()` function takes three parameters:
 
-The `$limit` parameter is an optional `int` that specifies how many strings will be returned in the resulting array as follows:
+- `$delimiter`: a required `string` that specifies the characters on which `$string` will be split. The `$delimiter` has the following behaviors:
 
-- A positive value will return up to `$limit` strings, if more than `$limit` strings can be produced splitting on `$delimiter`, the last element will contain the remainder of `$string`.
-- A `$limit` of zero is treated as 1.
-- A negative `$limit` will omit the last n elements from the result.
-- If `$limit` is omitted, `explode()` will return as many substrings as possible.
+  - If `$delimiter` is an empty `string`, `explode()` will throw a `ValueError` exception.
+  - If `$delimiter` is not found in `$string` and a negative `$length` is used, an empty `array` is returned.
+  - If `$delimiter` is not found in `$string` and `$length` is positive or omitted, an `array` containing `$string` is returned.
+  - If `$delimiter` is found at the start or end of `$string`, empty values for each `$delimiter` will be added to the beginning or end of the returned `array` respectively.
 
-The `$delimiter` has the following behaviors:
+- `$string`: a required `string` that will be split by the `explode()` function.
+- `$limit`: an optional `int` that specifies how many `strings` will be returned in the resulting `array` as follows:
 
-- If `$delimiter` is an empty string, `explode()` will throw a `ValueError` exception.
-- If `$delimiter` is not found in `$string` and a negative `$length` is used, an empty array is returned.
-- If `$delimiter` is not found in `$string` and `$length` is positive or omitted, an array containing `$string` is returned.
-- If `$delimiter` is found at the start or end of `$string`, empty values for each `$delimiter` will be added to the start or end of the returned `array` respectively.
+  - A positive value will return up to `$limit` `strings` if more than `$limit` `strings` can be produced, splitting on `$delimiter`; the last element will contain the remainder of `$string`.
+  - A `$limit` of `0` is treated as `1`.
+  - A negative `$limit` will omit the last `n` elements from the result.
+  - If `$limit` is omitted, `explode()` will return as many substrings as possible.
 
-### Example
+## Example
 
-The following example uses the `explode()` function to convert a `string` of fruits separated by `", "` to an `array` of the fruits. Then the `print_r()` function prints the information about the  returned `array` to the console:
+The following example uses the `explode()` function to convert a `string` of fruits separated by `", "` to an `array` of fruits. Then the `print_r()` function prints the information about the  returned `array` to the console:
 
 ```php
 <?php

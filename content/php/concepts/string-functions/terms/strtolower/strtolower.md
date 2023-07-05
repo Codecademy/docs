@@ -21,9 +21,9 @@ The **`strtolower()`** function in PHP converts a `string` to lowercase.
 strtolower($string);
 ```
 
-The `strtolower()` function takes one one parameter, `$string` as input and returns a new `string` with all the characters converted to lowercase. The `$string` can be any `string` value.
+The `strtolower()` function takes one parameter, `$string`, as input and returns a new `string` with all the characters converted to lowercase. The `$string` can be any `string` value.
 
-### Example
+## Example
 
 The following example uses the `strtolower()` function to convert a capitalized `string` to a lowercase `string`. Then the `echo` command prints this `string` to the console:
 
