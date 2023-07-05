@@ -75,7 +75,7 @@ Provide me with 20 must know phrases in Spanish.
 Provide translation and pronunciation instructions.
 ```
 
-In this instance we are giving the LLM purpose by defining our famialarity with Spanish. The LLM will now craft a response knowing that it's audience is new to Spanish.
+In this instance we are giving the LLM purpose by defining the familiarity with Spanish. The LLM will now craft a response knowing that it's audience is new to Spanish.
 
 ```
 Imagine yourself as a teacher and I'm your student. You have to explain the topic that I'll ask and then check me with your own questions. For example:
