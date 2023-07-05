@@ -46,11 +46,13 @@ The following example is runnable and outputs the inverse sine of `0.32`:
 #include <iostream>
 #include <cmath>
 
+using namespace std;
+
 int main() {
   double x = 0.32;
-  double result = std::asin(x);
+  double result = asin(x);
 
-  std::cout << result << " radians" << std::endl;
+  cout << result << " radians" << endl;
 
   return 0;
 }
