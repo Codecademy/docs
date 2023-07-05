@@ -44,7 +44,7 @@ Some common attributes used to set properties for the `<input>` element are show
 
 ## Example
 
-The following examples use a `<form>` element that features `<input>` elements. Also, the `for` attributes are linking the [<label> elements](https://www.codecademy.com/resources/docs/html/elements/label) to the `id` of the <input> elements:
+The following examples use a `<form>` element that features `<input>` elements. Also, the `for` attributes are linking the [`<label>` elements](https://www.codecademy.com/resources/docs/html/elements/label) to the `id` of the `<input>` elements:
 
 ```html
 <html>
