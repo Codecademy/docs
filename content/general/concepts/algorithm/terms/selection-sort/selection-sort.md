@@ -29,7 +29,7 @@ A brief explanation of `Selection Sort`:
 
 **Graphical representation of Selection Sort:**
 
-![Selection-Sort](selection-sort.jpg)
+![Selection Sort](SelectionSort.png)
 
 ## Example
 
