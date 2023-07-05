@@ -1,6 +1,6 @@
 ---
-Title: '.setDate()'
-Description: 'Changes the day of the month according to local time.'
+Title: '.setHours()'
+Description: 'Changes the hours for a specified date according to local time.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.setDate()`** method changes the day of the month according to local time.
+The **`.setHours()`** method sets the hours for a specified date according to local time. It also can set minutes, seconds and milliseconds.
 
 ## Syntax
 
@@ -37,3 +37,4 @@ This results in the following output:
 ```shell
 24
 ```
+
