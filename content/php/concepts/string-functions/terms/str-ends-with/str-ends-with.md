@@ -32,21 +32,17 @@ The **`str_ends_with()`** function returns a **`bool`** which is **`true`** if *
 The following example uses the **`str_ends_with()`** function to check if the `"fiddlesticks"` ends with `"sticks"` and then prints to the console:
 
 ```php
-
 <?php
 if (str_ends_with('fiddlesticks', 'sticks')) {
 echo " fiddlesticks end with sticks ";
 }
 ?>
-
 ```
 
 The example will result in the following output:
 
 ```shell
-
 fiddlesticks end with sticks
-
 ```
 
 ## Codebyte Example
