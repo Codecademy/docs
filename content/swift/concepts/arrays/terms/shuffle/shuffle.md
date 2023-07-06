@@ -7,7 +7,7 @@ Subjects:
 Tags:
   - 'Arrays'
   - 'Methods'
-  - 'Randomization'
+  - 'Random'
 CatalogContent:
   - 'learn-swift'
   - 'paths/build-ios-apps-with-swiftui'
