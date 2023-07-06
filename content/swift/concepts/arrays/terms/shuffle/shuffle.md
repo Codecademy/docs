@@ -27,7 +27,7 @@ The `arrayName` is the name of the array to shuffle. The method will shuffle the
 
 ## Example
 
-Consider an array of numbers represented by the variable `numbers` on which The **`.shuffle()`** method can be used to randomly shuffle the elements in the array:
+A basic implementation of the `.shuffle()` method is demonstrated below:
 
 ```swift
 var numbers = [1, 2, 3, 4, 5]
