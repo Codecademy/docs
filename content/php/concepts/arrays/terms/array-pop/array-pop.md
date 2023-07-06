@@ -1,10 +1,9 @@
 ---
 Title: 'array_pop()'
-Description: 'Removes the last element of an array, and returns the new number of element values in the array. If the specified array is empty, null will be returned.'
+Description: 'Removes the last element of an array.'
 Subjects:
   - 'Computer Science'
   - 'Web Design'
-  - 'Web Development'
 Tags:
   - 'Arrays'
   - 'Functions'
@@ -27,7 +26,7 @@ The `array_pop()` function has one required parameter:
 
 ## Example
 
-The following example uses the `array_pop()` function to remove `"Mexico"` element value from the indexed array `$countries`:
+The following example uses the `array_pop()` function to remove `"Mexico"` from the array `$countries`:
 
 ```php
 <?php
