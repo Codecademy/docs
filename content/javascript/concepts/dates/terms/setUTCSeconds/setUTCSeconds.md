@@ -20,7 +20,8 @@ The **`.setUTCSeconds()`** method sets the second value of a `Date` object accor
 myDate.setUTCSeconds(secondsValue)
 myDate.setUTCSeconds(secondsValue, millisecondsValue)
 ```
-The `.setUTCSeconds()` method is called on the `myDate` object with an input argument `secondsValue` that passes the new second value.
+
+The `.setUTCSeconds()` method is called on the `myDate` object with an input argument `secondsValue` that passes the new value for seconds.
 
 Optionally, the method can also set the date's millisecond UTC values. The valid number ranges for the time units are as follows:
 
