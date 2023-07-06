@@ -1,6 +1,6 @@
 ---
 Title: 'Depth-First Search'
-Description: 'A shortest-path and traversing algorithm for unweighted graphs.'
+Description: 'A traversing algorithm for unweighted graphs.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
