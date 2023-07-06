@@ -35,7 +35,6 @@ numbers.shuffle()
 print(numbers)
 ```
 
-
 The output will be something similar to:
 
 ```shell
