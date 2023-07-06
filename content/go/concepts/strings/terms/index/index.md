@@ -24,7 +24,7 @@ Where `str` is the original string and `sub_str` is the substring to find the fi
 
 ## Example
 
-The following example demonstrates the use of the `strings.Index()` function.
+The following example demonstrates the use of the `strings.Index()` function:
 
 ```go
 package main
