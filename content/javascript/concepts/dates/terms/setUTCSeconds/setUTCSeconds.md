@@ -1,5 +1,5 @@
 ---
-Title: '.setUTCSecond()'
+Title: '.setUTCSeconds()'
 Description: 'Sets the second value of a date object using UTC.'
 Subjects:
   - 'Web Development'
