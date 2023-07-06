@@ -1,6 +1,6 @@
 ---
 Title: '.some()'
-Description: 'Run a conditional through an array and returns a boolean if any value fulfills the conditional.'
+Description: 'Runs a conditional through an array and returns a boolean if any value fulfills the conditional.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -24,13 +24,20 @@ array.some(callback);
 
 ## Example
 
-Pass in a callback function as a conditional check.
+Pass in a callback function as a conditional check. This will trigger an iteration process.
+For each iteration, the current number is divided by 2 to determine whether the remainder will equal 0. Once the callback function returns a value, the iteration will move onto the next number in the `numbers` array.
 
 ```js
 const numbers = [2, 4, 5, 7, 8];
 const callback = (element) => element % 2 === 0
 
 console.log(numbers.some(callback))
+```
+
+This example results in the following output:
+
+```shell
+true
 ```
 
 ```js
@@ -40,19 +47,23 @@ const callback = (element) => element % 6 === 0
 console.log(numbers.some(callback))
 ```
 
+This example results in the following output:
+
+```shell
+false
+```
+
 ## Codebyte Example
 
-Below are several examples of running the some method through the `numbers` array:
+Below are several examples of running the `.some()` method through the `numbers` array:
 
 ```codebyte/js
 let numbers=[1, 2, 3, 4, 5, 6];
 
-// Returns true
 let callback = (element) => element % 3 === 0;
 let isDivisibleByThree = numbers.some(callback);
 console.log(isDivisibleByThree);
 
-// Returns false
 let callback = (element) => element % 7 === 0;
 let isDivisibleBySeven = numbers.some(callback);
 console.log(isDivisibleBySeven);
