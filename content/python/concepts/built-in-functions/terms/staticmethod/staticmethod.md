@@ -12,11 +12,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The built-in function **`staticmethod()`** converts a method to a static method. The function to be converted is passed as a parameter and the static conversion of the method is returned. 
+The built-in function **`staticmethod()`** converts a method to a static method. The function to be converted is passed as a parameter and the static conversion of the method is returned.
 
 This function has several applications, one use case is the generation of a new static method from an existing instance method. A static method differs from a class or instance method in that it can't modify the class or instance. These methods serve to impose a tighter scope over a given functionality and are used to signal the design intention and use of the class.
 
-> **Note:** While use of this built-in function was common in older versions of Python, it is considered more Pythonic to use the @staticmethod decorator to define static methods.  
+> **Note:** While use of this built-in function was common in older versions of Python, it is considered more Pythonic to use the @staticmethod decorator to define static methods.
 
 ## Syntax
 
@@ -33,7 +33,7 @@ class Codecademy:
   def print_welcome(name):
     print("Welcome to...", name)
 
-#] Converting to static method
+# Converting to static method
 Codecademy.print_welcome = staticmethod(Codecademy.print_welcome)
 
 # Calling as a static method by the class
