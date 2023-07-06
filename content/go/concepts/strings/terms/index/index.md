@@ -45,19 +45,3 @@ The output will be:
 -1
 ```
 
-## Codebyte Example
-
-The following example is runnable and uses the `strings.Index()` function to determine the first occurrence of substring in the original string.
-
-```codebyte/golang
-package main
-import (
-  "fmt"
-  "strings"
-)
-func main() {
-  str := "codecademy"
-  sub_str := "cade"
-  fmt.Println(strings.Index(str,sub_str))
-}
-```
