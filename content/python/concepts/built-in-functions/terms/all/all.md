@@ -129,3 +129,21 @@ print(all(my_tuple))
 ```
 
 This is `True` because all items in the tuple are `True`.
+
+## Codebyte Example
+
+The following example demonstrates the use of `all()` function.
+
+Checking if all elements in a list satisfy a condition:
+
+```codebyte/python
+numbers = [2, 4, 6, 8, 10]
+all_even = all(num % 2 == 0 for num in numbers)
+print(all_even)
+
+names = ['Alice', 'Bob', 'Charlie']
+all_long_names = all(len(name) > 3 for name in names)
+print(all_long_names)
+```
+
+The `all()` function returns `True` if all elements in an iterable are considered "truthy" (i.e., they evaluate to `True` in a boolean context). Otherwise, it returns `False`.

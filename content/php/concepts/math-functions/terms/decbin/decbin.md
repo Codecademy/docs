@@ -15,7 +15,7 @@ CatalogContent:
 ## Syntax
 
 ```pseudo
-decbin(number);
+decbin(number); 
 ```
 
 The **`decbin()`** function converts a decimal number to a binary number.
