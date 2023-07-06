@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`explode()`** function takes a `string` and splits it on a given delimiter `string`. It returns an `array` of the substrings produced.
+The **`explode()`** function takes a string and splits it on a given delimiter string. It returns an array of the substrings produced.
 
 ## Syntax
 
