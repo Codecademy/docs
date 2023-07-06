@@ -1,1 +1,1 @@
-content/markdown/concepts/tables/tables.md
+content/css/concepts/floats/floats.md
