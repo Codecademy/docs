@@ -22,7 +22,6 @@ The required parameter is the `number` that is used to specify the decimal value
 
 ```pseudo
 decbin(number); 
-
 ```
 
 Where the `number` is the decimal value to be converted to binary.
