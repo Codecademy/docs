@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`strtolower()`** function in PHP converts a `string` to lowercase.
+The **`strtolower()`** function in PHP converts a string to lowercase.
 
 ## Syntax
 

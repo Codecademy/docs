@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`substr()`** function returns a portion of a `string` specified by parameters for offset and length.
+The **`substr()`** function returns a portion of a string specified by parameters for offset and length.
 
 ## Syntax
 
