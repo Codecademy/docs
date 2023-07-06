@@ -25,8 +25,7 @@ myDate.setHours(hoursValue, minutesValue, secondsValue, millisecondsValue)
 
 ## Parameters
 
-**`hoursValue:`** 
-- Required. 0 to 23 representing the hours.
+- `hoursValue:` (Required) Takes values from `0` to `23` representing the hours.
 **`minutesValue:`**
 - Optional. 0 to 59 representing the minutes.
 **`secondsValue:`**
