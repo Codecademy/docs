@@ -1,6 +1,6 @@
 ---
 Title: '.setUTCSeconds()'
-Description: 'Sets the second value of a date object using UTC.'
+Description: 'Sets the second value of a date using UTC.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
