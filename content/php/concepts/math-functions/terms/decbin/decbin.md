@@ -30,7 +30,6 @@ Where the `number` is the decimal value to be converted to binary.
 
 ```php
 echo decbin(333)
-// Output: 101001101
 ```
 
 The result will be the binary number `101001101`.
