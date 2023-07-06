@@ -36,7 +36,7 @@ print(numbers)
 ```
 
 
-The output will be:
+The output will be something similar to:
 
 ```shell
 [4, 1, 2, 5, 3]
