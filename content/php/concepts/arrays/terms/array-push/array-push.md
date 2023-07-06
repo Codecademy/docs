@@ -70,21 +70,5 @@ This example is runnable and uses the `array_push()` function:
 	}
 
 	echo "\n\n";
-
-  $companies = array("Microsoft","Adobe"); 
-  array_push($companies,"Meta","Amazon");
-  print_r($companies);
-
-  echo "\n\n";
-
-  echo $companies;
-
-  echo "\n\n";
-
-  foreach($companies as $key => $val){
-      echo $key ."=>". $val."\n";
-  }
-
-  echo "\n\n";
 ?>
 ```
