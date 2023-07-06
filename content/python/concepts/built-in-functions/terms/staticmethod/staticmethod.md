@@ -1,6 +1,6 @@
 ---
 Title: 'staticmethod()'
-Description: 'The staticmethod() built-in function transforms a method to a static method'
+Description: 'Transforms a method to a static method.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -10,16 +10,17 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/data-science'
 ---
 
-The built-in function staticmethod() converts a method to a static method. The function to be converted is passed as a parameter to the function and the static conversion of the method is returned. This has several uses, one case is when you want to create a new static method from an existing instance method.
+The built-in function **`staticmethod()`** converts a method to a static method. The function to be converted is passed as a parameter and the static conversion of the method is returned. 
 
-Note: While use of this built-in function was common in older versions of python, it is considered more Pythonic to use the @staticmethod decorator to define static methods  
+This function has several applications, one use case is the generation of a new static method from an existing instance method. A static method differs from a class or instance method in that it can't modify the class or instance. These methods serve to impose a tighter scope over a given functionality and are used to signal the design intention and use of the class.
+
+> **Note:** While use of this built-in function was common in older versions of Python, it is considered more Pythonic to use the @staticmethod decorator to define static methods.  
 
 ## Syntax
 
-```py
+```pseudo
 staticmethod(function)
 ```
 
@@ -32,12 +33,12 @@ class Codecademy:
   def print_welcome(name):
     print("Welcome to...", name)
 
-#converting to static method
+#] Converting to static method
 Codecademy.print_welcome = staticmethod(Codecademy.print_welcome)
 
-#calling as a static method by the class
+# Calling as a static method by the class
 Codecademy.print_welcome("Codecademy")
-#calling as a static method by the object
+# Calling as a static method by the object
 Codecademy().print_welcome("Codecademy")
 ```
 
@@ -59,16 +60,16 @@ Codecademy.codecademy_hello()
 
 ## Example 3
 
-Use `staticmethod()` to create a static function from a method in the Codecademy class and call the function on its own:
+Use `staticmethod()` to create a static function from a method in the `Codecademy` class and call the function on its own:
 
 ```py
 class Codecademy:
   def print_welcome(name):
     print("Welcome to...", name)
 
-#converting to static method
+# Converting to static method
 new_welcome = staticmethod(Codecademy.print_welcome)
 
-#calling new_welcome
+# Calling new_welcome
 new_welcome("Codecademy")
 ```
