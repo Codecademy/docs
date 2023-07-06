@@ -2,7 +2,7 @@
 Title: '.shuffle()'
 Description: 'Randomly shuffles the elements of an array.'
 Subjects:
-  - 'Swift'
+  - 'iOS'
   - 'Mobile Development'
 Tags:
   - 'Arrays'
