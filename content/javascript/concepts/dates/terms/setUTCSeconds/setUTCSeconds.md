@@ -28,7 +28,7 @@ Optionally, the method can also set the date's millisecond UTC values. The valid
 - **Seconds** (Required): _0_ to _59_
 - **Milliseconds** (optional): _0_ to _999_
 
-## Examples
+## Example
 
 This example sets the second value of the `eventSeconds` object to `35`.
 
