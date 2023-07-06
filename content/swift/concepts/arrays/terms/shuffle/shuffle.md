@@ -33,7 +33,6 @@ A basic implementation of the `.shuffle()` method is demonstrated below:
 var numbers = [1, 2, 3, 4, 5]
 numbers.shuffle()
 print(numbers)
-
 ```
 
 In this example, the **`.shuffle()`** method is called on the `numbers` array. After shuffling, the elements of the array will be rearranged randomly.
