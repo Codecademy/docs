@@ -44,4 +44,3 @@ The output will be:
 2
 -1
 ```
-
