@@ -1,6 +1,6 @@
 ---
 Title: 'array_merge()'
-Description: 'Merge one or more arrays to form a single array.' 
+Description: 'Merge one or more arrays to form a single array.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
