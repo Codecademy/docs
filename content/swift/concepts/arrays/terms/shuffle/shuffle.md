@@ -35,7 +35,6 @@ numbers.shuffle()
 print(numbers)
 ```
 
-In this example, the **`.shuffle()`** method is called on the `numbers` array. After shuffling, the elements of the array will be rearranged randomly.
 
 The output will be:
 
