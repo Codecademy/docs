@@ -34,7 +34,7 @@ This example sets the second value of the `eventSeconds` object to `35`.
 
 ```javascript
 const eventSeconds = new Date('2023-06-25T00:00:00');
-d.setUTCSeconds(35);
+eventSeconds.setUTCSeconds(35);
 ```
 
 ## Codebyte Example
