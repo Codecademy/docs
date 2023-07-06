@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`array_pop()`** method removes the last element of an array, and returns the new number of element values in the array. If the specified array is empty, null will be returned.
+The **`array_pop()`** method removes the last element of an array, and returns the truncated array.
 
 ## Syntax
 
@@ -20,9 +20,8 @@ The **`array_pop()`** method removes the last element of an array, and returns t
 array_pop($array)
 ```
 
-The `array_pop()` function has one required parameter:
-
-- `$array`: Specifies the input `array`.
+The `array_pop()` function has one required parameter, `$array`, which specifies the input `array`.
+If the specified array is empty, null will be returned.
 
 ## Example
 
