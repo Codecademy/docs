@@ -30,7 +30,7 @@ The three fundamental mathematical frameworks that support the science behind di
 - **SGMs** : Noise-Conditioned Score-Based Generative Models (can generate new samples from a given distribution. They work by learning an estimation score function that can estimate the log density of the target distribution). In english this means buiding of an estimate based on observed data of which we would like to sample.
 
 - **SDEs** : Stochastic Differential Equations (describe changes in random processes concerning time. Widely used in physics and financial markets involving random factors that significantly impact market outcomes).
-## Image Generation
+
 ![image of diffusion process](https://raw.githubusercontent.com/Codecademy/docs/main/media/ai-diffusion-model-example.png)
 
 - Diffusion models start with a base image from what it has been previously trained on and slowly adds more and more gaussian noise over time.   
