@@ -25,7 +25,7 @@ Where `number` is the decimal value to be converted to binary. The result return
 ## Example
 
 ```php
-<?PHP
+<?php
   echo decbin(333);
 ?>
 ```
