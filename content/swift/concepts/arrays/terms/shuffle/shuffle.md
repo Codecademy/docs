@@ -17,7 +17,7 @@ The **`.shuffle()`** method in Swift is used to randomly shuffle the elements of
 
 ## Syntax
 
-The syntax of the **`.shuffle()`** method is as follows:
+The syntax of the `.shuffle()` method is as follows:
 
 ```pseudo
 arrayName.shuffle()
