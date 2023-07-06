@@ -54,7 +54,7 @@ Hello, World
 
 ## Codebyte Example
 
-In the code below several strings are concatenated into a single string, separated by spaces, using the `Join()` function.
+In the code below, several strings are concatenated into a single string, separated by spaces, using the `Join()` function.
 
 ```codebyte/golang
 package main
