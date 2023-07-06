@@ -16,7 +16,7 @@ The **`.setUTCSeconds()`** method sets the second value of a `Date` object accor
 
 ## Syntax
 
-```
+```pseudo
 myDate.setUTCSeconds(secondsValue)
 myDate.setUTCSeconds(secondsValue, millisecondsValue)
 ```
