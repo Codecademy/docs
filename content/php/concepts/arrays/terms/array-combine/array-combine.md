@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `array_combine()` returns an array by using the elements of one "keys" array as keys and the elements of another "values" array as the corresponding values.
+The **`array_combine()`** returns an array by using the elements of one "keys" array as keys and the elements of another "values" array as the corresponding values.
 
 ## Syntax
 
