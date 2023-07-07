@@ -13,14 +13,18 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `date_diff()` function takes two `DateTime` objects and determines the difference in time between the two. It returns
-a `DateInterval` object that can be formatted as needed.
+The `date_diff()` function takes two `DateTime` objects as parameters and determines the difference in time between them.
+An optional boolean parameter can be set to `true` to return the absolute value, ensuring that the result is positive. 
+The function returns a `DateInterval` object that can be formatted as needed.
 
 ## Syntax
 
 ```pseudo
-$timeInterval = date_diff($dateOne, $dateTwo);
-$diffInHours = $timeInterval->format("%H hours difference");
+date_diff(
+    DateTimeInterface $dateOne, 
+    DateTimeInterface $dateTwo 
+    bool $absolute=false
+): DateInterval
 ```
 
 The `$dateOne` and `$dateTwo` parameters are `DateTime` objects as returned by 
@@ -55,10 +59,10 @@ The example below creates two `DateTime` objects, then prints the difference wit
 
 ```codebyte/php
 <?php
-  $dateOfBirth = date_create("1/1/1997 1:30pm");
-  $dateNow = date_create("7/3/2023 2:27pm");
+  $dateOfBirth = date_create("3/27/2001 4:30pm");
+  $dateNow = date_create("7/7/2023 2:27pm");
   $diffSinceBirth = date_diff($dateOfBirth, $dateNow);
-  echo $diffSinceBirth->format("%y years, %m months and %d days \n");
-  echo $diffSinceBirth->format("%a days");
+  echo $diffSinceBirth->format("%y years, %m months, %d days, %h hours, and %i minutes since birth.\n");
+  echo $diffSinceBirth->format("%a days since birth.");
 ?>
 ```
