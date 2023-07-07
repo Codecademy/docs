@@ -1,15 +1,15 @@
 ---
-Title: 'Replace()' 
-Description: 'Replaces occurrences of a specified substring within a given string with another substring.' 
-Subjects: 
+Title: 'Replace()'
+Description: 'Replaces occurrences of a specified substring within a given string with another substring.'
+Subjects:
   - 'Code Foundations'
-  - 'Computer Science
-Tags: 
+  - 'Computer Science'
+Tags:
   - 'Strings'
   - 'Characters'
   - 'Functions'
   - 'Methods'
-CatalogContent: 
+CatalogContent:
   - 'learn-go'
   - 'paths/computer-science'
 ---
