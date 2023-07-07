@@ -18,10 +18,10 @@ The **`.firstIndex()`** method in Swift returns the index of the first element i
 ## Syntax
 
 ```pseudo
-arrayName.firstIndexOf { condition }
+arrayName.firstIndex{ condition }
 ```
 
-The `.firstIndexOf()` method takes a single parameter, which is a closure representing the condition that an element must satisfy. The closure returns a boolean value indicating whether a particular element meets the condition.
+The `.firstIndex()` method takes a single parameter, which is a closure representing the condition that an element must satisfy. The closure returns a boolean value indicating whether a particular element meets the condition.
 
 ## Example
 
