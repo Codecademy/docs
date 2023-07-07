@@ -2,7 +2,7 @@
 Title: 'bindec()'
 Description: 'Returns an integer representing the decimal value of the binary string passed as input.'
 Subjects:
-  - 'Computer Science'
+  - Computer Science'
   - 'Web Development'
 Tags:
   - 'Arithmetic'
