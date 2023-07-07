@@ -1,6 +1,6 @@
 ---
 Title: 'decbin()'
-Description: 'Converts a decimal number to a binary number.'
+Description: 'Converts a decimal number to a string containing a binary number.'
 Subjects:
   - 'Computer Science'
   - 'Web Design'
