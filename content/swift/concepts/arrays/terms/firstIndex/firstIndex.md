@@ -43,7 +43,6 @@ if let index = temperatures.firstIndex(where: { $0 > threshold }) {
 }
 ```
 
-
 The output will be:
 
 ```shell
@@ -54,4 +53,4 @@ In this case, there are no temperatures that exceed 25. So, the `else` message i
 
 The `.firstIndex()` method returns an optional value, so optional binding (if let) is used to safely unwrap the result.
 
-> **"Note: The `.firstIndex()` method is available in Swift 4.2 and later versions."**
+> **Note:** The `.firstIndex()` method is available in Swift 4.2 and later versions.
