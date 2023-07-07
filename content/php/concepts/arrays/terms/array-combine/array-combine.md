@@ -25,6 +25,8 @@ If the two arrays do not have an equal number of elements, `array_combine()` wil
 
 ## Example
 
+In this example, we will create an array with the keys `one`, `two`, `three`, and `four` and the values `1`, `2`, `3`, and `4`, respectively.
+
 ```php
 $keys = array("one", "two", "three", "four");
 $values = array(1, 2, 3, 4);
@@ -47,8 +49,6 @@ Array
 ```
 
 Additionally, if there are multiple keys in the `keys` array, the last value that corresponds to the last occurrence of the key will prevail.
-
-## Example with Duplicate Keys
 
 ```php
 $keys = array("one", "two", "two", "four");
@@ -73,6 +73,8 @@ Array
 In the example above, the last value of the key `two` is `3`, so the value `3` is used in the combined array.
 
 ## Codebyte Example
+
+The following codebyte example creates an array of colors and an array of food. It then combines the two arrays into a new array called `$colorHex` with the colors as keys and the food as values.
 
 ```codebyte/php
 <?php
