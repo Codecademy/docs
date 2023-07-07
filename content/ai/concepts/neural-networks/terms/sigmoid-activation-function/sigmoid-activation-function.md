@@ -1,6 +1,6 @@
 ---
 Title: 'Sigmoid Activation Function'
-Description: 'An sigmoid activation function is a specific type of sigmoid function commonly used in machine learning and various fields of artificial intelligence.'
+Description: 'A sigmoid activation function is a specific type of sigmoid function commonly used in machine learning and various fields of artificial intelligence.'
 Subjects:
   - 'Machine Learning'
   - 'Data Science'
