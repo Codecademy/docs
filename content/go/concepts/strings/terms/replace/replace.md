@@ -1,6 +1,6 @@
 ---
 Title: 'Replace()' 
-Description: 'Replaces all or a number of occurrences of a specified substring within a given string with another substring.' 
+Description: 'Replaces occurrences of a specified substring within a given string with another substring.' 
 Subjects: 
   - 'Code Foundations'
   - 'Computer Science
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`strings.Replace()`** replaces all or a number of occurrences of a specified substring within a given string with another substring. It returns a new string with the replacements made.
+The **`strings.Replace()`** method replaces all, or a number of, occurrences of a specified substring within a given string with another substring. It returns a new string with the replacements made.
 
 ## Syntax
 
@@ -58,7 +58,7 @@ The output will be:
 
 ## Codebyte Example
 
-The provided example is executable and demonstrates the usage of the `strings.Replace()` function. It replaces occurrences of the old string "one" with the new string "1".
+The provided example is executable and demonstrates the usage of the `strings.Replace()` function. It replaces occurrences of the old string `"one"` with the new string `"1"`.
 
 ```codebyte/golang
 package main
