@@ -12,13 +12,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Kadane's algorithm is an efficient way to find the maximum sum of a contiguous subarray within a given array of numbers. It iterates through the array and keeps track of the current maximum sum and the maximum sum found so far. By comparing the current element with the running sum, it decides whether to continue the subarray or start a new one. The algorithm guarantees a time complexity of O(n), making it an optimal solution for this problem.
+Kadane's algorithm is a dynamic programming approach utilized to identify the maximum sum of a subarray within a given array of numbers. The algorithm solves this problem efficiently in a single pass through the array by maintaining two variables: `maxEndingHere` and `maxSoFar`. The algorithm iterates through the array, updating these variables at each step to track the maximum subarray sum ending at the current element and the overall maximum subarray sum found so far. The final value of maxSoFar represents the maximum subarray sum in the given array. This algorithm guarantees a time complexity of O(n), making it an optimal solution for this problem.
 
 ## Explanation
 
-In problems related to `Kadane's algorithm` an array of numbers will be given, and the goal is to find the biggest sum that can be made using a bunch of consecutive numbers. Skipping any numbers or using them out of order is not allowed.
-
-**Here's how it can be done:**
+**Here's how Kadane's algorithm can be applied to a problem:**
 
 - Start with the first number and add it to a running total. Then, move to the next number and decide whether it's better to continue with the current sum or start a new sum from this number. Always aim to keep the largest sum seen so far.
 - For example, consider the array [2, 3, 1, 5, 4]. Begin with 2, and the running sum is 2. Move to 3. Is it better to continue with the current sum of 2 + 3 = 5 or start a new sum of 3? Since 5 is bigger, continue with it.
