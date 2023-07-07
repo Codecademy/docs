@@ -21,26 +21,26 @@ std::cbrt(n)
 
 ## Example
 
-The following example uses the `cbrt()` function to find the cube root of `27`:
+Use `cbrt()` to find the side lengths of a `27` m<sup>3</sup> cube:
 
 ```cpp
 #include <iostream>
 #include <cmath>
 
 int main() {
-  double x = 27;
-  double result;
+  double V = 27;
+  double side;
 
-  result = std::cbrt(x);
+  side = std::cbrt(V);
 
-  std::cout << "The cube root of " << x << " is " << result << "\n";
-  // Output: The cube root of 27 is 3
+  std::cout << "A cube with a volume of " << V << " has a side lentgh of " << side << "\n";
+  // Output: A cube with a volume of 27 has a side lentgh of 3
 }
 ```
 
 ## Codebyte Example
 
-The following example is runnable and returns the cube root of `8` with the `cbrt()` function:
+Use `cbrt()` to find the cube root of `8`:
 
 ```codebyte/cpp
 #include <iostream>
