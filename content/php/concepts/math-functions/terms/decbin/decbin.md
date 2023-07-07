@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`decbin()`** function converts a decimal number to a binary number.
+The **`decbin()`** function converts a decimal number to a string containing a binary number.
 
 ## Syntax
 
