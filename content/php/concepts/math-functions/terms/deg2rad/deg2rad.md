@@ -1,6 +1,6 @@
 ---
 Title: 'deg2rad()'
-Description: 'Converts the number in degrees to the radian equivalent.'
+Description: 'Converts a number in degrees to the radian equivalent.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
