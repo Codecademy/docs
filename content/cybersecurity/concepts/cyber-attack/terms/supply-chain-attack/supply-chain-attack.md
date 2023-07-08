@@ -1,6 +1,6 @@
 ---
 Title: 'Supply Chain Attack'
-Description: 'A supply chain attack targets an organizations software or hardware supply chain, compromising it to gain unauthorized access or control over the organizations systems.'
+Description: 'A supply chain attack targets the software or hardware supply chain of an organization, compromising it to gain unauthorized access or control over the systems of the organization.'
 Subjects:
   - 'Computer Science'
   - 'Cybersecurity'
