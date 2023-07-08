@@ -26,18 +26,14 @@ The result returns a value type of `float`.
 
 ## Example
 
+Using `deg2rad()` to convert degrees to radians:
+
 ```php
 echo deg2rad(90);
 ```
 
-The result will be a float value of `1.5707963267949` as the function converts degree `90` to the radian equivalent.
+This example results in the following output:
 
-## Codebyte Example
-
-Using `deg2rad()` to convert degrees to radians`:
-
-```codebyte/php
-<?php
-  echo deg2rad("360");
-?>
+```shell
+1.5707963267949
 ```
