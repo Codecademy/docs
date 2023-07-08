@@ -1,6 +1,6 @@
 ---
 Title: 'Trim()'
-Description: 'Removes leading and trailing specified characters from a string.'
+Description: 'Removes leading and trailing characters from a string based on the given input.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Trim()`** function removes leading and trailing specified characters from a string. The `strings` library must be imported in order to use this function.
+The **`Trim()`** function removes leading and trailing characters from a string based on the given input. The `strings` library must be imported in order to use this function.
 
 ## Syntax
 
@@ -20,7 +20,11 @@ The **`Trim()`** function removes leading and trailing specified characters from
 trimmed := strings.Trim(str, cutset)
 ```
 
-Where `str` is the input string from which the leading and trailing characters are to be removed, `cutset` is a string containing the characters to be removed, and `trimmed` is the resulting string after trimming.
+Where:
+
+- `str`: The input string from which the leading and trailing characters are to be removed.
+- `cutset`: The string containing the characters to be removed.
+- `trimmed`: The resulting string after trimming.
 
 ## Example
 
@@ -49,7 +53,7 @@ Hello, World!
 
 ## Codebyte Example
 
-The following runnable example shows the usage of the `Trim()` function to remove specific characters from a string:
+The following runnable example uses the `Trim()` function to remove specific characters from a string:
 
 ```codebyte/golang
 package main
