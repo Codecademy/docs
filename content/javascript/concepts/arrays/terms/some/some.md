@@ -40,6 +40,9 @@ This example results in the following output:
 true
 ```
 
+Pass in a callback function as a conditional check. This will trigger an iteration process.
+For each iteration, the current number is divided by 6 to determine whether the remainder will equal 0. Once the callback function returns a value, the iteration will move onto the next number in the `numbers` array.
+
 ```js
 const numbers = [2, 4, 5, 7, 8];
 const callback = (element) => element % 6 === 0
