@@ -26,7 +26,7 @@ Supply chain attacks are particularly harmful due to several reasons:
 
 ## Means of Protection
 
-Organizations can enhance their protection against supply chain attacks by the steps below:
+Organizations can enhance their protection against supply chain attacks via the steps below:
 
 1.Choose trusted vendors and partners: Conduct thorough evaluations of vendors and suppliers to ensure they have strong security practices and a good reputation.
 
