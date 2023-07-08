@@ -24,7 +24,7 @@ The `.setUTCDate()` method receives a day argument representing a number between
 
 ## Example
 
-In this example, we create a Date object in a variable called `myDate`. We then use `.setUTCDate()` to modify the day to 10.
+In this example, a Date object is created in a variable called `myDate`. `.setUTCDate()` is then used to modify the day to 10.
 
 ```js
 var myDate = new Date('Jun 26, 2023 18:10:40');
