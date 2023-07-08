@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/fundamentals-of-cybersecurity'
 ---
 
-**Supply chain attack** is a cyber attack that targets an organization's software or hardware supply chain, aiming to gain unauthorized access or control over the target organization's systems by injecting malicious code or tampering with components within the supply chain.
+A **supply chain attack** is a cyber attack that targets an organization's software or hardware supply chain, aiming to gain unauthorized access or control over the target organization's systems by injecting malicious code or tampering with components within the supply chain.
 
 ## Harmful Reasons
 
