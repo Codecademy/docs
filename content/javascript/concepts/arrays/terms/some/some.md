@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.some()`** method tests whether at least one item in the array passes the test implemented by the provided function. It returns true if any item in the array succeeds the test, otherwise it reuturns false.
+The **`.some()`** method tests whether at least one item in the array passes the test implemented by the provided function. It returns true if any item in the array succeeds the test, otherwise it returns false.
 
 ## Syntax
 
@@ -24,8 +24,7 @@ array.some(callback);
 
 ## Example
 
-Pass in a callback function as a conditional check. This will trigger an iteration process.
-For each iteration, the current number is divided by 2 to determine whether the remainder will equal 0. Once the callback function returns a value, the iteration will move onto the next number in the `numbers` array.
+In the example below the `.some()` function is used to determine if any of the values in the array are even (divisible by 2).
 
 ```js
 const numbers = [2, 4, 5, 7, 8];
@@ -40,34 +39,18 @@ This example results in the following output:
 true
 ```
 
-Pass in a callback function as a conditional check. This will trigger an iteration process.
-For each iteration, the current number is divided by 6 to determine whether the remainder will equal 0. Once the callback function returns a value, the iteration will move onto the next number in the `numbers` array.
-
-```js
-const numbers = [2, 4, 5, 7, 8];
-const callback = (element) => element % 6 === 0
-
-console.log(numbers.some(callback))
-```
-
-This example results in the following output:
-
-```shell
-false
-```
-
 ## Codebyte Example
 
-Below are several examples of running the `.some()` method through the `numbers` array:
+Below are two examples of running the `.some()` function on the `numbers` array:
 
 ```codebyte/js
 let numbers=[1, 2, 3, 4, 5, 6];
 
-let callback = (element) => element % 3 === 0;
-let isDivisibleByThree = numbers.some(callback);
+let test1 = (element) => element % 3 === 0;
+let isDivisibleByThree = numbers.some(test1);
 console.log(isDivisibleByThree);
 
-let callback = (element) => element % 7 === 0;
-let isDivisibleBySeven = numbers.some(callback);
+let test2 = (element) => element % 7 === 0;
+let isDivisibleBySeven = numbers.some(test2);
 console.log(isDivisibleBySeven);
 ```
