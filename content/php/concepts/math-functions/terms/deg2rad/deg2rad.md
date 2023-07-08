@@ -28,7 +28,6 @@ The result returns a value type of `float`.
 
 ```php
 echo deg2rad(90);
-// Output: 1.5707963267949
 ```
 
 The result will be a float value of `1.5707963267949` as the function converts degree `90` to the radian equivalent.
