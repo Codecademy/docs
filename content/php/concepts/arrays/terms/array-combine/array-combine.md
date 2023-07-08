@@ -25,7 +25,7 @@ If the two arrays do not have an equal number of elements, `array_combine()` wil
 
 ## Example
 
-In this example, we will create an array with the keys `one`, `two`, `three`, and `four` and the values `1`, `2`, `3`, and `4`, respectively.
+In this example, an array is created with the keys `one`, `two`, `three`, and `four` and the values `1`, `2`, `3`, and `4`, respectively.
 
 ```php
 $keys = array("one", "two", "three", "four");
