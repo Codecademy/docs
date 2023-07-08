@@ -24,7 +24,7 @@ Supply chain attacks are particularly harmful due to several reasons:
 - Complexity and sophistication: Supply chain attacks require careful planning, technical expertise, and knowledge of the target organization's supply chain relationships. Attackers may exploit vulnerabilities at different stages of the supply chain, including development, distribution, or even physical tampering. The level of sophistication involved makes these attacks more challenging to defend against.
 - Reputational and financial damage: Organizations that fall victim to supply chain attacks can suffer significant reputational damage, loss of customer trust, and financial losses. Recovering from such attacks often involves substantial costs for incident response, remediation, legal actions, and rebuilding trust with customers and partners.
 
-## Protecting Methods
+## Means of Protection
 
 Organizations can enhance their protection against supply chain attacks by the steps below:
 
