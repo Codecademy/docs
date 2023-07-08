@@ -30,6 +30,9 @@ A standard issue when training a typical RNN is the vanishing gradient problem. 
 
 RNNs are generally used to predict data that forms a series; this can be grouped into input-to-output classes. Some examples are:
 - Many inputs to many outputs: Speech Recognition, Language Translation, Language modeling.
+
 - Many inputs to one output: Stock prediction, weather prediction, Sentiment analysis.
+
 - One input to many output: Image captioning, Music Generation.
+
 - One input to one output: Image classification.
