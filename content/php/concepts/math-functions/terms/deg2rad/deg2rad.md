@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`deg2rad()`** function converts the number in degrees to the radian equivalent.
+The **`deg2rad()`** function converts a number in degrees to the radian equivalent.
 
 ## Syntax
 
