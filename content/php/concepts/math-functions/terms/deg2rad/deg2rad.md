@@ -4,7 +4,6 @@ Description: 'Converts the number in degrees to the radian equivalent.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
-  - 'Math Functions'
 Tags:
   - 'Arithmetic'
   - 'Functions'
