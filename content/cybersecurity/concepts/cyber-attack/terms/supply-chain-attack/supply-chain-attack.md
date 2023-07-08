@@ -28,20 +28,12 @@ Supply chain attacks are particularly harmful due to several reasons:
 
 Organizations can enhance their protection against supply chain attacks via the steps below:
 
-1.Choose trusted vendors and partners: Conduct thorough evaluations of vendors and suppliers to ensure they have strong security practices and a good reputation.
-
-2.Secure software and hardware: Implement measures to verify the integrity of components throughout the supply chain, such as using digital signatures or checksums.
-
-3.Monitor and detect: Deploy monitoring systems to identify suspicious activities within the supply chain and leverage threat intelligence to detect potential attacks.
-
-4.Establish security agreements: Establish clear security requirements in contracts with suppliers and vendors, including incident response protocols.
-
-5.Educate employees: Train employees to recognize and report suspicious activities and foster a culture of security awareness.
-
-6.Plan for incidents: Develop an incident response plan specific to supply chain attacks and regularly test and update it.
-
-7.Assess and audit: Conduct regular security assessments and audits to identify vulnerabilities and areas for improvement.
-
-8.Collaborate and share information: Engage in information sharing and industry collaborations to stay informed about emerging threats.
-
-9.Stay compliant: Stay updated with relevant regulations and implement necessary controls to protect data and privacy.
+1. Choose trusted vendors and partners: Conduct thorough evaluations of vendors and suppliers to ensure they have strong security practices and a good reputation.
+2. Secure software and hardware: Implement measures to verify the integrity of components throughout the supply chain, such as using digital signatures or checksums.
+3. Monitor and detect: Deploy monitoring systems to identify suspicious activities within the supply chain and leverage threat intelligence to detect potential attacks.
+4. Establish security agreements: Establish clear security requirements in contracts with suppliers and vendors, including incident response protocols.
+5. Educate employees: Train employees to recognize and report suspicious activities and foster a culture of security awareness.
+6. Plan for incidents: Develop an incident response plan specific to supply chain attacks and regularly test and update it.
+7. Assess and audit: Conduct regular security assessments and audits to identify vulnerabilities and areas for improvement.
+8. Collaborate and share information: Engage in information sharing and industry collaborations to stay informed about emerging threats.
+9. Stay compliant: Stay updated with relevant regulations and implement necessary controls to protect data and privacy.
