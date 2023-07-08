@@ -1,6 +1,6 @@
 ---
 Title: 'array_push()'
-Description: 'Inserts one or more element values to the end of an array, and returns the updated array.'
+Description: 'Adds one or more element values to the end of an array, and returns the updated array.'
 Subjects:
   - 'Computer Science'
   - 'Web Design'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`array_push()`** method inserts one or more element values to the end of an array, and returns the updated array.
+The **`array_push()`** method adds one or more element values to the end of an array, and returns the updated array.
 
 ## Syntax
 
@@ -34,9 +34,9 @@ The following example uses the `array_push()` function to add `"Chervolet"`, and
 
 ```php
 <?php
-$car_brands = array("Mercedes","Ford");
-array_push($car_brands,"Chervolet","Toyota");
-print_r($car_brands);
+  $car_brands = array("Mercedes","Ford");
+  array_push($car_brands,"Chervolet","Toyota");
+  print_r($car_brands);
 ?>
 ```
 
@@ -55,20 +55,20 @@ Array (
 
 This example is runnable and uses the `array_push()` function:
 
-> **Note:** The example uses `count()` to highlight the length of the array before and after the addition of elements.  A `foreach` loop is used to cycle through the keys and values of the array.   
+> **Note:** The example uses `count()` to highlight the length of the array before and after the addition of elements. A `foreach` loop is used to cycle through the keys and values of the array.
 
 ```codebyte/php
 <?php
-	$supermarkets = array("Costco","Walmart");
-	$size = count($supermarkets);
-	echo("Array length before array_push(): " . $size) . "\n\n";
-	$newsize = array_push($supermarkets,"Sam's Club","Target");
-	echo("Array length after array_push(): " . $newsize . "\n\n");
+  $supermarkets = array("Costco","Walmart");
+  $size = count($supermarkets);
+  echo("Array length before array_push(): " . $size) . "\n\n";
+  $newsize = array_push($supermarkets,"Sam's Club","Target");
+  echo("Array length after array_push(): " . $newsize . "\n\n");
 
-	foreach($supermarkets as $val){
-      echo “Supermarket’s name: " . $val . "\n";
-	}
+  foreach($supermarkets as $val){
+    echo “Supermarket’s name: " . $val . "\n";
+  }
 
-	echo "\n\n";
+  echo "\n\n";
 ?>
 ```
