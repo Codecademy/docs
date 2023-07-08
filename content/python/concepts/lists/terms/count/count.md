@@ -52,9 +52,12 @@ length_51 = mylist.count(51)
 print('77 occurred', length_77, 'times in the list.') 
 print('99 occurred', length_99, 'times in the list.') 
 print('51 occurred', length_51, 'time in the list.')
+```
 
-# Output: 
-# 77 occurred 2 times in the list. 
-# 99 occurred 3 times in the list. 
-# 51 occurred 1 time in the list.
+This results in the following output:
+
+```shell
+77 occurred 2 times in the list. 
+99 occurred 3 times in the list. 
+51 occurred 1 time in the list.
 ```
