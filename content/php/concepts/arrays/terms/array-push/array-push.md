@@ -1,6 +1,6 @@
 ---
 Title: 'array_push()'
-Description: 'Inserts one or more element values to the end of an array, and returns the new number of element values in the array.'
+Description: 'Inserts one or more element values to the end of an array, and returns the updated array.'
 Subjects:
   - 'Computer Science'
   - 'Web Design'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`array_push()`** method inserts one or more element values to the end of an array, and returns the new number of element values in the array.
+The **`array_push()`** method inserts one or more element values to the end of an array, and returns the updated array.
 
 ## Syntax
 
@@ -26,7 +26,7 @@ The `array_push()` function has one required parameter and some optional paramet
 - `$array`: Specifies the input `array`.
 - `$value1 ... $valueN`: Specifies the element values to add. This function adds one or more element values at a time which are separated by commas.
 
-The `array_push()` function returns the element count of `$array` with the new element values inserted to the end of the `$array`.
+The `array_push()` function returns an array with the the added elements.
 
 ## Example
 
@@ -55,18 +55,18 @@ Array (
 
 This example is runnable and uses the `array_push()` function:
 
-> **Note:** The first example uses `count()` function to count the length of an array. `foreach` syntaxes in the examples below is used to loop through each keys and values of an array.   
+> **Note:** The example uses `count()` to highlight the length of the array before and after the addition of elements.  A `foreach` loop is used to cycle through the keys and values of the array.   
 
 ```codebyte/php
 <?php
 	$supermarkets = array("Costco","Walmart");
 	$size = count($supermarkets);
-	echo("Array legnth before array_push(): " . $size) . "\n\n";
+	echo("Array length before array_push(): " . $size) . "\n\n";
 	$newsize = array_push($supermarkets,"Sam's Club","Target");
-	echo("Array legnth after array_push(): " . $newsize . "\n\n");
+	echo("Array length after array_push(): " . $newsize . "\n\n");
 
 	foreach($supermarkets as $val){
-      echo “Supermarket’s name: $val. \n";
+      echo “Supermarket’s name: " . $val . "\n";
 	}
 
 	echo "\n\n";
