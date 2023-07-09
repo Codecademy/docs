@@ -59,7 +59,7 @@ import (
 )
 
 func main() {
-  str := " Hii from Codecademy"
+  str := "I love programming with Go!"
   fields:=strings.Fields(str)
   fmt.Println(fields)
 }
