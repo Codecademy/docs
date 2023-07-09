@@ -30,11 +30,11 @@ The function can be invoked with two arguments:
 The following examples highlight the difference in how `.findIndex()` and `.findLastIndex()` iterate through an array:
 
 ```js
-let age = [13, 20, 15, 45, 1, 44, 80];
+let age = [13, 20, 15, 45, 1, 44, 80, 4, 9, 80, 23, 50];
 
 console.log('findIndex() method: ');
 
-let findIndex = age.find((value, index) => {
+let findIndex = age.findIndex((value, index) => {
   console.log('Checking age index: ', index);
   return value === 80;
 });
@@ -54,7 +54,7 @@ Checking age index: 6
 ```js
 // Now .findLastIndex().
 
-age = [13, 20, 15, 45, 1, 44, 80];
+age = [13, 20, 15, 45, 1, 44, 80, 4, 9, 80, 23, 50];
 
 console.log('findLastIndex() method: ');
 
@@ -66,7 +66,9 @@ findIndex = age.findLastIndex((value, index) => {
 
 ```shell
 findLastIndex() method:
-Checking age index: 6
+Checking age index: 11
+Checking age index: 10
+Checking age index: 9
 ```
 
 > **Note:** If an element is known to be at the end of an array, using `.findLastIndex` can shorten the iteration path.
