@@ -34,7 +34,7 @@ The following example shows the implementation of `Date.after()`:
 ```java
 import java.util.Date;
 
-public class AfterDemo {
+public class Main {
    public static void main(String[] args) {
 
       Date firstDate = new Date(2020, 1, 18);
