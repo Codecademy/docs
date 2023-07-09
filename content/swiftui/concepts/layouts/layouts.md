@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-**`Layout`** is a `protocol` in [SwiftUI](https://www.codecademy.com/resources/docs/swiftui) used to create layouts for user interfaces. Layouts specify how to arrange the [views](https://www.codecademy.com/resources/docs/swiftui/views) they contain. It's possible to create custom and conditional layouts. There are also built-in layouts that can be used when creating conditional layouts.
+**`Layout`** is a `protocol` in SwiftUI used to create layouts for user interfaces. Layouts specify how to arrange the [views](https://www.codecademy.com/resources/docs/swiftui/views) they contain. It's possible to create custom and conditional layouts. There are also built-in layouts that can be used when creating conditional layouts.
 
 ## Custom Layouts
 
