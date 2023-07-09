@@ -1,6 +1,6 @@
 ---
 Title: '.after()'
-Description: 'Checks if the first date occurs after the second date.'
+Description: 'Checks if a date occurs after a specified date.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Date.after()`** method checks whether the first date occurs after the second date and returns a boolean value.
+The **`Date.after()`** method checks whether a date occurs after a specified date and returns a boolean value.
 
 ## Syntax
 
@@ -53,7 +53,6 @@ The output will be:
 ```shell
 Is secondDate after firstDate: true
 Is firstDate after secondDate: false
-
 Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "date" is null
 	at java.base/java.util.Date.getMillisOf(Date.java:957)
 	at java.base/java.util.Date.after(Date.java:930)
