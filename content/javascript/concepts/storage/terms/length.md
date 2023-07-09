@@ -8,7 +8,6 @@ length is called on a string through the following syntax and will output the nu
 ```
 const pet = dog;
 console.log(pet.length);
-///returns 3;
 ```
 ## Syntax 
 
