@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Date.after()`** method Checks if the first date occurs after the second date. It returns a boolean value.
+The **`Date.after()`** method checks whether the first date occurs after the second date and returns a boolean value.
 
 ## Syntax
 
