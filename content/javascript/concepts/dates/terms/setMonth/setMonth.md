@@ -32,6 +32,8 @@ The return value of `.setMonth()` is the new timestamp given after changing the 
 
 ## Example
 
+This example shows multiple implementations of the `setMonth()` function. First, the month alone is changed. Then, the month and date are changed. Last, the month and date are changed, but with an end of the month transition, leading to date overflow. 
+
 ```js
 const event = new Date('1/1/2023');
 
