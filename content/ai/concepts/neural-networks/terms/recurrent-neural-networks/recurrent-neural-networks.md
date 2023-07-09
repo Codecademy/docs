@@ -1,6 +1,6 @@
 ---
 Title: 'Recurrent Neural Networks'
-Description: 'Recurrent Neural Network is a type of neural network distinguished by storing and re-using outputs from previous layers as additional inputs in the current layer'
+Description: 'Recurrent Neural Network is a type of neural network distinguished by storing and re-using the output from previous steps as an additional input in the current step'
 Subjects:
   - 'Machine Learning'
   - 'Computer Science'
@@ -14,17 +14,19 @@ CatalogContent:
 
 ## What Is A Recurrent Neural Network (RNN)?
 
-**Recurrent Neural Network** (RNN) is a type of neural network distinguished by storing and re-using outputs from previous layers as additional inputs in the current layer; in other words, the results from earlier layers are persisted through the network through hidden states.
+**Recurrent Neural Network** (RNN) is a type of neural network distinguished by storing and re-using the outputs from previous steps as additional inputs in the current step. RNNs processes sequential data in groups of "timesteps" which represent a slice of the sequence, these timesteps could represent words from a sentence or frames from an audio clip. The network uses the output from previous timesteps which are stored in a "hidden state" or "hidden variable" to compute the output for the current timestep
 
-RNNs apply best in cases where the sequence of data is important to the predicted output. In sequential or time-based data sets, RNNs can persist previous outputs as "memories" or "states", and use that to predict the output in the sequence.
+RNNs are used in cases where the sequence of data is important to the predicted output. In sequential or time-based data sets, RNNs use previous outputs as "memories" or "states", and use that to predict the output in the sequence.
 
 ## How Does an RNN Work?
 
-To conceptually train an RNN, a vector-encoded input is passed from the dataset to the network, and the network computes its output using initially random weights and biases (unlike other neural networks, an RNN keeps the same weight through all its layers).
-When the output is computed, it is fed forward to the next layer, which uses the previous result as well as the current input from the dataset to form its output. This process is continued through the rest of the layers in the network until the final output is returned as a result.
-Using a loss function, we compare the expected and actual results to find the error. The error is backpropagated through time (BPTT) to update the weights and biases and thus train the network until the expected result is produced.
+The training data is split into time-based sequences, they are then vector-encoded and passed into the RNN as inputs. The RNN is initialized with random weights and biases which remain the same through all timesteps. The network iterates over the sequence to compute the output or hidden state for each timestep.
 
-A standard issue when training a typical RNN is the vanishing gradient problem. When attempting to backpropagate, inputs used earlier in the layer have a smaller impact on training as the error becomes smaller when updating the weights. To solve this, networks like Long Short Term Memory (LSTM) and Gated recurrent unit (GRU) can be used, which, although out of the scope of this doc, are worth looking into, as well as another common issue that can come up: the exploding gradient problem.
+The current hidden state is computed by passing the input for the current time-step, the previous hidden state and the weights and biases for the sequence into a layer with an activation function of choice. The hidden state is then returned as an output and passed to the next timestep. The process is repeated through the rest of the timesteps. Depending on the task, the final output can either be returned as a single vector or can be a combination of output vectors returned in each timestep. For the first timestep the previous hidden state can be initialized as a zero vector, its size will depend on the intended output size.
+
+A loss function is used to compare the expected result and actual result returned by the model. Using the loss calculated, the loss gradient for each timestep is computed using backpropagation through time (BPTT) and is used to update the weights in order to reduce the loss. Repeating this process trains the network until the expected result is produced.
+
+A common issue when training an RNN is the vanishing gradient problem. When backpropagating and updating the weights, the error gradient becomes smaller and smaller as it approaches the earlier inputs. As a result, the earlier inputs will have less of an impact on training process. To rectify this, networks like Long Short Term Memory (LSTM) and Gated Recurrent Unit (GRU) are often used. Although out of scope for the purpose of this doc, LSTM and GRU are both worth looking into, as well as another common problem that can come up - the exploding gradient.
 
 ## Relation to AI
 
