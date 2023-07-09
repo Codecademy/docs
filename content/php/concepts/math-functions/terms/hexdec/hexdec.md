@@ -4,12 +4,12 @@ Description: 'Returns the decimal equivalent of a given hexadecimal string.'
 Subjects:
 - 'Computer Science'
 - 'Web Development'
-  Tags:
+Tags:
 - 'Arithmetic'
 - 'Encoding'
 - 'Functions'
 - 'Math'
-  CatalogContent:
+CatalogContent:
 - 'learn-php'
 - 'paths/computer-science'
 ---
