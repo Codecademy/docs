@@ -6,7 +6,7 @@ The .length() function does vary when used on string vs arrays.
 ## Syntax
 length is called on a string through the following syntax and will output the number of characters of the string. 
 
-```
+```shell
 const pet = dog;
 console.log(pet.length);
 ```
