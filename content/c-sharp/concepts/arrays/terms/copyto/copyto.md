@@ -56,12 +56,12 @@ Destination Array:
 0 10 20 30 40 50
 ```
 
-In this example, there is a source array named `sourceArray` with elements [10, 20, 30, 40, 50]. A destination array named `destinationArray` is created with the size 6. Then, the `.CopyTo()` method is used to copy elements from `sourceArray` to `destinationArray`, starting at index 1. As for the output the first index will be **0** and from index **1** the `sourceArray` will get copied into the `destinationArray`.
+In this example, there is a source array named `sourceArray` with elements [10, 20, 30, 40, 50]. A destination array named `destinationArray` is created with the size 6. Then, the `.CopyTo()` method is used to copy elements from `sourceArray` to `destinationArray`, starting at index 1. As for the output, the first index will be **0** and from index **1** the `sourceArray` will get copied into the `destinationArray`.
 
 ## Codebyte Example
 
 ```codebyte/cs
-class Program
+class CopyTo
 {
 static void Main(string[] args)
 {
