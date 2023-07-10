@@ -88,6 +88,6 @@ let ascending = numbers.toSorted(function compareFn(a, b) {
 let descending = numbers.toSorted(function compareFn(a, b) {
   return b-a});
 
-console.log('Numbers Ascending: ' + ascending); // Outputs "Numbers Ascending: -3,1,1,2,3,4,9,200,959,2159.2"
-console.log('Numbers Descending: ' + descending); // Outputs "Numbers Descending: 2159.2,959,200,9,4,3,2,1,1,-3"
+console.log('Numbers Ascending: ' + ascending); 
+console.log('Numbers Descending: ' + descending); 
 ```
