@@ -29,7 +29,9 @@ The result returns a value type of `float`.
 Using `deg2rad()` to convert degrees to radians:
 
 ```php
-echo deg2rad(90);
+<?php
+  echo deg2rad(90);
+?>
 ```
 
 This example results in the following output:
