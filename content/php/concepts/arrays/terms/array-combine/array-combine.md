@@ -74,7 +74,7 @@ In the example above, the last value of the key `two` is `3`, so the value `3` i
 
 ## Codebyte Example
 
-The following codebyte example creates an array of colors and an array of food. It then combines the two arrays into a new array called `$colorHex` with the colors as keys and the food as values.
+The following codebyte example declares a `$colors` and a `$food` array. It then combines these two arrays into a new array called `$colorAndFood`.
 
 ```codebyte/php
 <?php
