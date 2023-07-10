@@ -1,1 +1,1 @@
-content/cpp/concepts/arrays/arrays.md
+content/html/concepts/favicon/favicon.md
