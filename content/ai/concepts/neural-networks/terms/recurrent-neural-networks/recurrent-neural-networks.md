@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/machine-learning-engineer'
 ---
 
-A **Recurrent Neural Network** (RNN) is a type of neural network distinguished by storing and re-using the outputs from previous steps as additional inputs in the current step. RNNs process sequential data in groups of "timesteps" which represent a slice of the sequence.  These timesteps could represent words from a sentence or frames from an audio clip. The network uses the output from previous timesteps which are stored in a "hidden state" or "hidden variable" to compute the output for the current timestep.
+A **Recurrent Neural Network** (RNN) is a type of neural network distinguished by storing and re-using the outputs from previous steps as additional inputs in the current step. RNNs process sequential data in groups of "timesteps" which represent a slice of the sequence. These timesteps could represent words from a sentence or frames from an audio clip. The network uses the output from previous timesteps which are stored in a "hidden state" or "hidden variable" to compute the output for the current timestep.
 
 RNNs are used in cases where the sequence of data is important to the predicted output. In sequential or time-based data sets, RNNs use previous outputs as "memories" or "states", and use that to predict the output in the sequence.
 
