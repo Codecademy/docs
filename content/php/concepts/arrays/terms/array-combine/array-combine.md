@@ -28,12 +28,14 @@ If the two arrays do not have an equal number of elements, `array_combine()` wil
 In this example, an array is created with the keys `one`, `two`, `three`, and `four` and the values `1`, `2`, `3`, and `4`, respectively.
 
 ```php
-$keys = array("one", "two", "three", "four");
-$values = array(1, 2, 3, 4);
+<?php
+  $keys = array("one", "two", "three", "four");
+  $values = array(1, 2, 3, 4);
 
-$combinedArray = array_combine($keys, $values);
+  $combinedArray = array_combine($keys, $values);
 
-print_r($combinedArray);
+  print_r($combinedArray);
+?>
 ```
 
 The output looks like this:
