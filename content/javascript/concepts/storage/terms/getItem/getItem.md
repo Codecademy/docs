@@ -20,35 +20,28 @@ CatalogContent:
 
 The **.getItem()** method takes the key of the data item as an argument and returns the value of the data if it is in the `Storage` object, otherwise it returns `null`.
 
+The `Storage` Object, which can be either a `localStorage` object or a `sessionStorage` object.
+
 ## Syntax
 
 ```javascript
-getItem(keyName)
+localStorage.getItem(keyName)
+```
+or
+```javascript
+sessionStorage.getItem(keyName)
 ```
 
-The `keyName` parameter is a string containing the name of the key you want to retrieve the value of.
+The `keyName` parameter is required and it's a string containing the name of the key you want to retrieve the value of.
 
 > You could also use `Storage.length` to test whether the storage object is empty or not.
 
-## Example
+## Codebyte Example
 
-[Text, code, images, etc. about example 1]
+Get the value of the specified local storage item:
 
-## Codebyte Example (if applicable)
+```codebyte/javascript
+const currentUserName = localStorage.getItem("userName");
+console.log(currentUserName);
 
-We can currently support:
-
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
-
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
-
-```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
 ```
