@@ -2,18 +2,6 @@
 Title: 'hexdec()'
 Description: 'Returns the decimal equivalent of a given hexadecimal string.'
 Subjects:
-<<<<<<< HEAD
-  - 'Computer Science'
-  - 'Web Development'
-Tags:
-  - 'Arithmetic'
-  - 'Encoding'
-  - 'Functions'
-  - 'Math'
-CatalogContent:
-  - 'learn-php'
-  - 'paths/computer-science'
-=======
 - 'Computer Science'
 - 'Web Development'
 Tags:
@@ -24,7 +12,6 @@ Tags:
 CatalogContent:
 - 'learn-php'
 - 'paths/computer-science'
->>>>>>> 32040da7a071f54e125265440c3efe2d23436992
 ---
 
 The **`hexdec()`** function returns the decimal equivalent of a given hexadecimal string. `hexdec()` ignores any non-hexadecimal characters,
