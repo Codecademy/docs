@@ -24,11 +24,11 @@ The `Storage` Object, which can be either a `localStorage` object or a `sessionS
 
 ## Syntax
 
-```javascript
+```pseudo
 localStorage.getItem(keyName)
 ```
 or
-```javascript
+```pseudo
 sessionStorage.getItem(keyName)
 ```
 
