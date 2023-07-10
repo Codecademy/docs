@@ -48,7 +48,7 @@ func main(){
 
 The expected output is as follows:
 
-```bash
+```shell
 18.54 rounded up is 19.
 ```
 
