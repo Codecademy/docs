@@ -51,12 +51,14 @@ Array
 Additionally, if there are multiple keys in the `keys` array, the last value that corresponds to the last occurrence of the key will prevail.
 
 ```php
-$keys = array("one", "two", "two", "four");
-$values = array(1, 2, 3, 4);
+<?php
+  $keys = array("one", "two", "two", "four");
+  $values = array(1, 2, 3, 4);
 
-$combinedArray = array_combine($keys, $values);
+  $combinedArray = array_combine($keys, $values);
 
-print_r($combinedArray);
+  print_r($combinedArray);
+?>
 ```
 
 The output looks like this:
