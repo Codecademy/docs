@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **Ceil()** function returns a given decimal number rounded up to the next highest integer.
+The **`Ceil()`** function returns a given decimal number rounded up to the next highest integer.
 
 ## Syntax
 
@@ -23,7 +23,7 @@ import "math"
 roundedNumber := math.Ceil(floatingNumber)
 ```
 
-The `Cei()` function receives a value of type `float64` and returns a single value of the same type. This returned value is the next highest integer equal to or greater than the argument.
+The `Ceil()` function receives a value of type `float64` and returns a single value of the same type. This returned value is the next highest integer equal to or greater than the argument.
 
 - When passing `Ceil(±Inf)`, the returned value will be the same as the argument.
 - When passing `Ceil(Nan)`, the returned value will be also `Nan`.
@@ -31,14 +31,11 @@ The `Cei()` function receives a value of type `float64` and returns a single val
 
 ## Example
 
-To use the `Ceil()` function, the `math` package needs to be imported.
-Below is a simple example where the result will be the score, rounded up to the next highest integer.
-
 ```go
 package main
 
 import (
-    "math"
+    "math" // Required
     "fmt"
     )
 
@@ -47,6 +44,12 @@ func main(){
     result := math.Ceil(score)
     fmt.Print(score, " rounded up is ", result, ".")
     }
+```
+
+The expected output is as follows:
+
+```bash
+18.54 rounded up is 19.
 ```
 
 ## Codebyte Example
