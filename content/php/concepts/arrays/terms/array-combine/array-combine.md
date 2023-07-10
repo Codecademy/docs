@@ -21,7 +21,10 @@ The **`array_combine()`** method returns a new array of key-value pairs from two
 array_combine(arrayOfKeys, arrayOfValues)
 ```
 
-If the two arrays do not have an equal number of elements, `array_combine()` will throw a `ValueError` as of PHP 8.0.0.
+- `arrayOfKeys`: An array with elements to be used as keys in the combined array.
+- `arrayOfValues`: An array with elements to be used as values in the combined array.
+
+> **Note:** If the two arrays do not have an equal number of elements, `array_combine()` will throw a `ValueError` as of PHP 8.0.0.
 
 ## Example
 
