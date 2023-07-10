@@ -22,19 +22,21 @@ It does this by converting array elements to [strings](https://www.codecademy.co
 
 ## Syntax
 
-#### Functionless
+**Functionless**
 ```pseudo
 array.toSorted();
 ```
 
-#### Arrow function
+**Arrow function**
 'a' is the first element for comparison and 'b' is the second.
+
 ```pseudo
 array.toSorted((a, b) => { /* Code for a compare function. */ });
 ```
 
-#### Compare function
+**Compare function**
 'compareFn' specifies a function that defines the sort order.
+
 ```pseudo
 function compareFn() {
   /* Code for a compare function. */
@@ -43,12 +45,12 @@ function compareFn() {
 array.toSorted(compareFn);
 ```
 
-#### Inline compare function
+**Inline compare function**
 ```pseudo
 array.toSorted(function compareFn(a, b) { /* … */ });
 ``` 
 
-## Examples
+## Example
 
 In the below example, there are two arrays - `numbers`, containing integers & floats (a number with a decimal place), and `sports`, containing strings.
 
@@ -75,7 +77,7 @@ Additionally, `undefined` values were sorted to the end and empty strings (Unico
 
 To sort by numerical values, we require a comparison function.
 
-### Codebyte Example
+## Codebyte Example
 
 The code below takes the `numbers` array and sorts it two ways - ascending then descending. It then saves the new arrays to two variables and logs those. 
 
