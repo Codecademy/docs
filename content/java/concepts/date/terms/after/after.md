@@ -53,8 +53,8 @@ The output will be:
 ```shell
 Is secondDate after firstDate: true
 Is firstDate after secondDate: false
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "date" is null
-	at java.base/java.util.Date.getMillisOf(Date.java:957)
-	at java.base/java.util.Date.after(Date.java:930)
-	at AfterDemo.main(AfterDemo.java:12)
+Exception in thread "main" java.lang.NullPointerException
+        at java.base/java.util.Date.getMillisOf(Date.java:956)
+        at java.base/java.util.Date.after(Date.java:929)
+        at Main.main(Main.java:12)
 ```
