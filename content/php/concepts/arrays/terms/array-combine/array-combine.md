@@ -80,7 +80,7 @@ The following codebyte example creates an array of colors and an array of food. 
 <?php
   $colors = array("red", "green", "blue");
   $food = array("apple", "broccoli", "blueberry");
-  $colorHex = array_combine($colors, $hex);
-  print_r($colorHex);
+  $colorAndFood = array_combine($colors, $food);
+  print_r($colorAndFood);
 ?>
 ```
