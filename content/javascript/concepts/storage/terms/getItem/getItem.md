@@ -18,11 +18,17 @@ CatalogContent:
   - 'paths/back-end-engineer-career-path'
 ---
 
-[A brief definition - make sure first mention of term is in **bold**.]
+The **.getItem()** method takes the key of the data item as an argument and returns the value of the data if it is in the `Storage` object, otherwise it returns `null`.
 
 ## Syntax
 
-[Text, code, images, parameters, etc. about the syntax]
+```pseudo
+getItem(keyName)
+```
+
+The `keyName` parameter is a string containing the name of the key you want to retrieve the value of.
+
+> You could also use `Storage.length` to test whether the storage object is empty or not.
 
 ## Example
 
