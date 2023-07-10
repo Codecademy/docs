@@ -18,12 +18,12 @@ The **`Date.after()`** method checks whether a date occurs after a specified dat
 ## Syntax
 
 ```pseudo
-Date firstDate.after(Date secondDate)
+firstDate.after(secondDate)
 ```
 
 The `Date.after()` takes only one parameter:
 
-- `secondDate`: A Date type object to be compared chronologically with the invoking Date type object.
+- `secondDate`: A `Date` object to be compared chronologically with the first date.
 
 It returns `true` if the `firstDate` is after the `secondDate` and returns `false` if the `firstDate` is before the `secondDate`. However, if the `secondDate` is null, it will raise a [NullPointerException](https://www.codecademy.com/resources/docs/java/errors/nullpointerexception).
 
