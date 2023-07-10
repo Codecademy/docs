@@ -50,7 +50,7 @@ event.setMonth(3, 31);
 console.log(event);
 ```
 
-The code above results in the following output: 
+The code above results in the following output:
 
 ```shell
 2
