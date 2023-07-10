@@ -60,7 +60,11 @@ import (
 
 func main() {
   str := "I love programming with Go!"
-  fields:=strings.Fields(str)
-  fmt.Println(fields)
+  fields := strings.Fields(str)
+  for i, field := range fields {
+    fmt.Println("Index: ", i)
+    fmt.Println("Value: ", field)
+    fmt.Println()
+ }
 }
 ```
