@@ -18,7 +18,7 @@ The **`array_combine()`** returns an array by using the elements of one "keys" a
 ## Syntax
 
 ```pseudo
-array_combine(array $keys, array $values): array
+array_combine(arrayOfKeys, arrayOfValues)
 ```
 
 If the two arrays do not have an equal number of elements, `array_combine()` will throw a `ValueError` as of PHP 8.0.0.
