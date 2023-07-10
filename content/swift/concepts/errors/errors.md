@@ -73,7 +73,7 @@ func start(car: Car) throws {
 
 When a function calls a throwing function, it either must handle the errors using a `do-catch` block or declare itself as a throwing function to continue propagating the errors.
 
-Use the `try` keyword when calling a throwing function. See below a throwing function that tries call other throwing functions.
+Use the `try` keyword when calling a throwing function as shown below: 
 
 ```swift
 func tryError() throws {
