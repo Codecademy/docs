@@ -1,6 +1,6 @@
 ---
 Title: 'array_merge()'
-Description: 'Merge one or more arrays to form a single array.'
+Description: 'Merges one or more arrays to form a single array.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -25,6 +25,8 @@ array_merge(array ...$arrays)
 
 ## Example
 
+The following example merges two arrays into one. The arrays `$existing_usernames` and `$new_usernames` both have the key `"user2"`. The array produced takes the value of `"user2"` from `$new_usernames` since it references the key last.
+
 ```php
 <?php
     $existing_usernames = array("user1" => "Joe", "user2" => "Bill");
@@ -46,6 +48,8 @@ Array
 ```
 
 ## Codebyte Example
+
+In the code snippet below `array_merge()` takes three arrays as arguments and combines them to create a single array. Run the example and note the change in indexes of the resultant array.
 
 ```codebyte/php
 <?php
