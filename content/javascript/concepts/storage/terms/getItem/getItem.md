@@ -22,7 +22,7 @@ The **.getItem()** method takes the key of the data item as an argument and retu
 
 ## Syntax
 
-```pseudo
+```javascript
 getItem(keyName)
 ```
 
