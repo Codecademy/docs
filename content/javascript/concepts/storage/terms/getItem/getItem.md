@@ -42,6 +42,6 @@ Get the value of the specified local storage item:
 
 ```codebyte/javascript
 const currentUserName = localStorage.getItem("userName");
-console.log(currentUserName);
 
+console.log(currentUserName);
 ```
