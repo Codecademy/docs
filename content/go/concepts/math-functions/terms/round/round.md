@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Round()`** function in Go is used to round a given number to the nearest integer. This function is part of the `math` package and can be imported to use in your Go programs.
+The **`Round()`** function in Go is used to round a given number to the nearest integer. This function is part of the `math` package which needs to be imported to use in Go programs.
 
 ## Syntax
 
@@ -22,7 +22,7 @@ result := math.Round(x)
 
 Where:
 
-- `x`: is the number to be rounded
+- `x`: is the number to be rounded.
 - `result`: is the rounded value returned as a float64.
 
 ## Example
