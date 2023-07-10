@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Round()`** function in Go is used to round a given number to the nearest integer. This function is part of the `math` package which needs to be imported to use in Go programs.
+The **`Round()`** function in Go is used to round a given number to the nearest integer. This function is part of the `math` package, and the package must be imported to use the function in a Go program.
 
 ## Syntax
 
