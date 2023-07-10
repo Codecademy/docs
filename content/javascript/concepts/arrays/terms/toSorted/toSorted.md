@@ -1,6 +1,6 @@
 ---
 Title: '.toSorted()'
-Description: 'Returns a new array with all the elements sorted in ascending order.'
+Description: 'Takes an array and returns a new array with all the elements sorted in ascending order.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -18,69 +18,66 @@ CatalogContent:
 
 The **`toSorted()`** method takes an array and returns a new array with the elements sorted in ascending order. It does not mutate the original array. All undefined elements are sorted to the end of the array.
 
-It does this by converting array elements to [strings](https://www.codecademy.com/resources/docs/javascript/strings) and comparing them by [Unicode code point value](https://en.wikipedia.org/wiki/Code_point). For example, in unicode code point value, "banana" comes before "cherry". In a numeric sort, 9 comes before 80, but because numbers are converted to strings, "80" comes before "9" in the Unicode order
-
-
+It does this by converting array elements to [strings](https://www.codecademy.com/resources/docs/javascript/strings) and comparing them by [Unicode code point value](https://en.wikipedia.org/wiki/Code_point). 
 
 ## Syntax
 
 #### Functionless
-```js
+```pseudo
 array.toSorted();
 ```
 
 #### Arrow function
 'a' is the first element for comparison and 'b' is the second.
-```js
-array.toSorted((a, b) => { /* … */ });
+```pseudo
+array.toSorted((a, b) => { /* Code for a compare function. */ });
 ```
 
 #### Compare function
 'compareFn' specifies a function that defines the sort order.
-```js
+```pseudo
 function compareFn() {
-  /* some code */
+  /* Code for a compare function. */
 };
 
 array.toSorted(compareFn);
 ```
 
 #### Inline compare function
-```js
+```pseudo
 array.toSorted(function compareFn(a, b) { /* … */ });
 ``` 
 
-
 ## Examples
 
-In the below example, we have two arrays - `numbers`, containing integers & floats (a number with a decimal place), and `sports`, containing strings.
+In the below example, there are two arrays - `numbers`, containing integers & floats (a number with a decimal place), and `sports`, containing strings.
 
 ```js
+const sports = ["baseball", "basketball", "tennis", "pickleball", undefined, ""]
 const numbers = [-3, 4, 1, 9, 3, 2, 1, 200, 2159.20, 959, undefined, ""];
-const sports = ["baseball", "basketball", "tennis", "pickleball", "rugby", "soccer", "netball", undefined, ""]
 
-let sortedNumbers = numbers.toSorted();
 let sportsSorted = sports.toSorted();
+let numbersSorted = numbers.toSorted();
 
 console.log('Sports: ' + sportsSorted);
-console.log('Numbers: ' + sortedNumbers);
+console.log('Numbers: ' + numbersSorted);
 ```
 Which outputs:
 
 ```shell
-Sports: ,baseball,basketball,netball,pickleball,rugby,soccer,tennis,
+Sports: ,baseball,basketball,pickleball,tennis,
 Numbers: ,-3,1,1,2,200,2159.2,3,4,9,959,
 ```
 
-You can see that `sports` was sorted alphabetically but `numbers` was sorted by unicode value. Remember that `toSorted()` converts elements to strings and compares them using Unicode Code Point value.
+`sports` was sorted alphabetically but `numbers` was sorted by unicode value. Remember that `toSorted()` converts elements to strings and compares them using Unicode Code Point value.
 
-Additionally, 'undefined' values were sorted to the end and empty strings (Unicdoe value of 0) were sorted to the beginning for both arrays.
+Additionally, `undefined` values were sorted to the end and empty strings (Unicode value of 0) were sorted to the beginning for both arrays.
 
 To sort by numerical values, we require a comparison function.
 
 ### Codebyte Example
 
-The code below takes the `numbers` array and sorts it two ways - ascending then descending. It then saves these new arrays to two variables and logs those. 
+The code below takes the `numbers` array and sorts it two ways - ascending then descending. It then saves the new arrays to two variables and logs those. 
 
 ```codebyte/js
 const numbers = [-3, 4, 1, 9, 3, 2, 1, 200, 959, 2159.20];
