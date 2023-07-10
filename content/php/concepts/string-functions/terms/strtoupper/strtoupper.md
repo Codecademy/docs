@@ -21,7 +21,7 @@ The **`strtoupper()`** function converts all the characters in a string to upper
 strtoupper(string_to_convert);
 ```
 
-The `string_to_convert` parameter is the string that will be converted to uppercase. It is a required parameter for this function.
+The `string_to_convert` parameter is the string that will be converted to uppercase.
 
 ## Codebyte
 
