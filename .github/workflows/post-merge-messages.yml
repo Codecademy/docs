@@ -1,4 +1,4 @@
-name: Post-Merge Survey
+name: Post-Merge Messages
 on:
   pull_request_target:
     types: [closed]
