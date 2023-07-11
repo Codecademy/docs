@@ -22,31 +22,30 @@ The sorting is done by converting array elements to [strings](https://www.codeca
 
 ## Syntax
 
-**Functionless**
 ```pseudo
+// Functionless
+
 array.toSorted();
-```
 
-**Arrow function**
-'a' is the first element for comparison and 'b' is the second.
 
-```pseudo
+// Arrow function
+// 'a' is the first element for comparison and 'b' is the second.
+
 array.toSorted((a, b) => { /* Code for a compare function. */ });
-```
 
-**Compare function**
-'compareFn' specifies a function that defines the sort order.
 
-```pseudo
+// Compare function
+// 'compareFn' specifies a function that defines the sort order.
+
 function compareFn() {
   /* Code for a compare function. */
 };
 
 array.toSorted(compareFn);
-```
 
-**Inline compare function**
-```pseudo
+
+//  Inline compare function
+
 array.toSorted(function compareFn(a, b) { /* … */ });
 ``` 
 
@@ -64,6 +63,7 @@ let numbersSorted = numbers.toSorted();
 console.log('Sports: ' + sportsSorted);
 console.log('Numbers: ' + numbersSorted);
 ```
+
 Which outputs:
 
 ```shell
@@ -75,13 +75,9 @@ Numbers: ,-3,1,1,2,200,2159.2,3,4,9,959,
 
 Additionally, `undefined` values were sorted to the end and empty strings (Unicode value of 0) were sorted to the beginning for both arrays.
 
-To sort by numerical values, we require a comparison function.
+To sort by **numerical** values, we require a comparison function. The code below takes the `numbers` array and sorts it two ways - ascending then descending. It then saves the new arrays to two variables and logs those. 
 
-## Codebyte Example
-
-The code below takes the `numbers` array and sorts it two ways - ascending then descending. It then saves the new arrays to two variables and logs those. 
-
-```codebyte/js
+```js
 const numbers = [-3, 4, 1, 9, 3, 2, 1, 200, 959, 2159.20];
 
 let ascending = numbers.toSorted(function compareFn(a, b) {
@@ -92,4 +88,11 @@ let descending = numbers.toSorted(function compareFn(a, b) {
 
 console.log('Numbers Ascending: ' + ascending); 
 console.log('Numbers Descending: ' + descending); 
+```
+
+Which outputs:
+
+```shell
+Numbers Ascending: -3,1,1,2,3,4,9,200,959,2159.2
+Numbers Descending: 2159.2,959,200,9,4,3,2,1,1,-3
 ```
