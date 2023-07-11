@@ -1,23 +1,23 @@
 ---
 Title: '.getItem(key)'
 Description: 'Returns the value of the key on the given data item.'
-Subjects: 
+Subjects:
   - 'Web Development'
   - 'Computer Science'
-Tags: 
+Tags:
   - 'APIs'
   - 'Data'
   - 'Methods'
   - 'Storage'
   - 'Values'
-CatalogContent: 
+CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
 
 The **`.getItem()`** method takes a key as an argument and returns the associated value. If the key is not present in the `Storage` object, it returns `null`.
 
-The `Storage` Object, which can be either a `localStorage` object or a `sessionStorage` object.
+The `Storage` object can be either a `localStorage` object or a `sessionStorage` object.
 
 ## Syntax
 
@@ -33,14 +33,16 @@ The `keyName` parameter is required and it's a string containing the name of the
 
 ## Example
 
-Get the value of the specified local storage item:
+Below is a basic example of implementing the `.getItem()` method to retrieve the value of a local storage item:
 
 ```js
-localStorage.setItem("userName", "Luigi");
+localStorage.setItem('userName', 'Luigi');
 
-console.log(localStorage.getItem("userName"));
+console.log(localStorage.getItem('userName'));
 ```
-Output:
-```pseudo
+
+The code above results in the following output:
+
+```shell
 Luigi
 ```
