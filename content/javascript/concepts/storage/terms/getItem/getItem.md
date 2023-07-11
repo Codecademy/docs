@@ -35,8 +35,12 @@ The `keyName` parameter is required and it's a string containing the name of the
 
 Get the value of the specified local storage item:
 
-```codebyte/javascript
-const currentUserName = localStorage.getItem("userName");
+```js
+localStorage.setItem("userName", "Luigi");
 
-console.log(currentUserName);
+console.log(localStorage.getItem("userName"));
+```
+Output:
+```pseudo
+Luigi
 ```
