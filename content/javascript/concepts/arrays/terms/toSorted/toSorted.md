@@ -18,7 +18,7 @@ CatalogContent:
 
 The **`.toSorted()`** method takes an array and returns a new array with the elements sorted in ascending order. It does not mutate the original array. All undefined elements are sorted to the end of the array.
 
-The sorting is done by converting array elements to [strings](https://www.codecademy.com/resources/docs/javascript/strings) and comparing them by [Unicode](https://www.codecademy.com/resources/docs/general/unicode) code point value. 
+The sorting is done by converting array elements to [strings](https://www.codecademy.com/resources/docs/javascript/strings) and comparing them by [Unicode](https://www.codecademy.com/resources/docs/general/unicode) code point value.
 
 ## Syntax
 
@@ -27,12 +27,10 @@ The sorting is done by converting array elements to [strings](https://www.codeca
 
 array.toSorted();
 
-
 // Arrow function
 // 'a' is the first element for comparison and 'b' is the second.
 
 array.toSorted((a, b) => { /* Code for a compare function. */ });
-
 
 // Compare function
 // 'compareFn' specifies a function that defines the sort order.
@@ -43,19 +41,25 @@ function compareFn() {
 
 array.toSorted(compareFn);
 
-
 //  Inline compare function
 
 array.toSorted(function compareFn(a, b) { /* … */ });
-``` 
+```
 
 ## Example
 
 In the example below, the `.toSorted()` method is applied to the arrays `sports` and `numbers`.
 
 ```js
-const sports = ["baseball", "basketball", "tennis", "pickleball", undefined, ""]
-const numbers = [-3, 4, 1, 9, 3, 2, 1, 200, 2159.20, 959, undefined, ""];
+const sports = [
+  'baseball',
+  'basketball',
+  'tennis',
+  'pickleball',
+  undefined,
+  '',
+];
+const numbers = [-3, 4, 1, 9, 3, 2, 1, 200, 2159.2, 959, undefined, ''];
 
 let sportsSorted = sports.toSorted();
 let numbersSorted = numbers.toSorted();
@@ -71,23 +75,25 @@ Sports: ,baseball,basketball,pickleball,tennis,
 Numbers: ,-3,1,1,2,200,2159.2,3,4,9,959,
 ```
 
-`sports` was sorted alphabetically but `numbers` was sorted by unicode value. Remember that `toSorted()` converts elements to strings and compares them using Unicode Code Point value.
+`sports` was sorted alphabetically but `numbers` was sorted by unicode value. Remember that `toSorted()` converts elements to strings and compares them using Unicode code point value.
 
 Additionally, `undefined` values were sorted to the end and empty strings (Unicode value of 0) were sorted to the beginning for both arrays.
 
-To sort by **numerical** values, we require a comparison function. The code below takes the `numbers` array and sorts it two ways - ascending then descending. It then saves the new arrays to two variables and logs those. 
+To sort by **numerical** values, we require a comparison function. The code below takes the `numbers` array and sorts it two ways - ascending then descending. It then saves the new arrays to two variables and logs those.
 
 ```js
-const numbers = [-3, 4, 1, 9, 3, 2, 1, 200, 959, 2159.20];
+const numbers = [-3, 4, 1, 9, 3, 2, 1, 200, 959, 2159.2];
 
 let ascending = numbers.toSorted(function compareFn(a, b) {
-  return a-b});
+  return a - b;
+});
 
 let descending = numbers.toSorted(function compareFn(a, b) {
-  return b-a});
+  return b - a;
+});
 
-console.log('Numbers Ascending: ' + ascending); 
-console.log('Numbers Descending: ' + descending); 
+console.log('Numbers Ascending: ' + ascending);
+console.log('Numbers Descending: ' + descending);
 ```
 
 Which outputs:
