@@ -52,7 +52,7 @@ array.toSorted(function compareFn(a, b) { /* … */ });
 
 ## Example
 
-In the below example, there are two arrays - `numbers`, containing integers & floats (a number with a decimal place), and `sports`, containing strings.
+In the example below, the `.toSorted()` method is applied to the arrays `sports` and `numbers`.
 
 ```js
 const sports = ["baseball", "basketball", "tennis", "pickleball", undefined, ""]
