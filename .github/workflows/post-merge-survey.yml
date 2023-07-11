@@ -2,6 +2,8 @@ name: Post-Merge Survey
 on:
   pull_request_target:
     types: [closed]
+  issues:
+    types: [closed]
 jobs:
   run:
     if: >-
@@ -18,7 +20,10 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           pullRequestMerged: |
-             👋 @{{ author }}
-             You have contributed to Codecademy Docs, and we would like to know more about you and your experience.
-             Please take a minute to fill out [this four question survey](https://codecademyready.typeform.com/to/O3hzYoBB) to help us better understand Docs contributions and how we can improve the experience for you and our learners.
-             Thank you for your help!
+            👋 @{{ author }}
+            You have contributed to Codecademy Docs, and we would like to know more about you and your experience.
+            Please take a minute to fill out [this four question survey](https://codecademyready.typeform.com/to/O3hzYoBB) to help us better understand Docs contributions and how we can improve the experience for you and our learners.
+            Thank you for your help!
+          issuesClosed: |
+            🌸 Thanks for closing this Issue!
+            Please head over to the [Docs Forum](https://discuss.codecademy.com/c/community/community-docs/2205) if you have any questions about Docs, or reply to the thread on [Possible Content Discussion](https://discuss.codecademy.com/t/find-a-starting-point-possible-content-discussion/745868) to share ideas and collaborate with other contributors, maintainers, or super users to determine good future issues that will help expand Docs!
