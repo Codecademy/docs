@@ -26,6 +26,8 @@ The `destinationArray` parameter is the target array where the elements will be 
 ## Example
 
 ```cs
+using System;
+
 class CopyTo
 {
 static void Main(string[] args)
@@ -63,6 +65,8 @@ In this example, the `.CopyTo()` method is used to copy elements from `sourceArr
 ## Codebyte Example
 
 ```codebyte/cs
+using System;
+
 class CopyTo
 {
 static void Main(string[] args)
