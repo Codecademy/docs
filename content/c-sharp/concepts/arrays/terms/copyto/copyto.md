@@ -88,4 +88,3 @@ static void PrintArray(string[] array)
 }
 ```
 
-In this codebyte example, there is a source array named `sourceArray` with elements ["apple", "banana", "orange", "kiwi", "grape"]. A destination array named `destinationArray` is created with a size of 3. The `.CopyTo()` method is used to copy elements from `sourceArray` to `destinationArray`, starting at index 1.
