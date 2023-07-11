@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.CopyTo()` method in C# provides a functionality to copy elements from one array to another or to a specific location within an array. 
+The `.CopyTo()` method in C# provides the ability to copy elements from one array to another or to a specific location within an array.
 
 It offers a convenient way to duplicate array contents, ensuring that the target array holds the same values in the specified range. By specifying the destination array and the starting index, precise control over the element copying process is achieved, facilitating efficient data manipulation and array operations.
 
@@ -25,7 +25,7 @@ The `destinationArray` parameter is the target array where the elements will be 
 
 ## Example
 
-In this example, there is a source array named `sourceArray` with elements [10, 20, 30, 40, 50]. A destination array named `destinationArray` is created with the size 6. Then, the `.CopyTo()` method is used to copy elements from `sourceArray` to `destinationArray`, starting at index 1. As for the output, the first index will be **0** and from index **1** the `sourceArray` will get copied into the `destinationArray`.
+In this example, there is a source array named `sourceArray` with elements [10, 20, 30, 40, 50]. A destination array named `destinationArray` is created with the size 6. Then, the `.CopyTo()` method is used to copy elements from `sourceArray` to `destinationArray`, starting at index 1.
 
 ```cs
 using System;
@@ -62,11 +62,9 @@ Destination Array:
 0 10 20 30 40 50
 ```
 
-In this example, the `.CopyTo()` method is used to copy elements from `sourceArray` to `destinationArray`, starting at index `1`. 
-
 ## Codebyte Example
 
-This codebyte is runnable and shows the implementation of `CopyTo()` method. 
+This example is runnable and shows another implementation of the `CopyTo()` method.
 
 ```codebyte/cs
 using System;
@@ -96,4 +94,4 @@ static void PrintArray(string[] array)
 }
 ```
 
-**Note:** When running this code, the compiler may throw an `Unhandled Exception`. To resolve this issue, carefully read the exception description in the error message. The **`Example`** code sample provided above can serve as a reference to help fix this error.
+> **Note:** Copying arrays requires compatibility between the source and destination: if the destination array is too small to accommodate the values of the source array an `Unhandled Exception` will be thrown.
