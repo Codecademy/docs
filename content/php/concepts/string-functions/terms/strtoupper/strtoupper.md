@@ -23,12 +23,18 @@ strtoupper(string_to_convert);
 
 The `string_to_convert` parameter is the string that will be converted to uppercase.
 
-## Codebyte
+## Example
 
-The following code is runnable to show how `strtoupper()` alters the string.
+The following code demonstrates the use of `strtoupper()` to alter a string.
 
-```codebyte/php
+```php
 <?php
 echo strtoupper("hello, world!");
 ?>
+```
+
+The code results in the following:
+
+```shell
+HELLO, WORLD!
 ```
