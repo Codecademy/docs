@@ -1,1 +1,1 @@
-content/general/concepts/cache/cache.md
+content/html/concepts/favicon/favicon.md
