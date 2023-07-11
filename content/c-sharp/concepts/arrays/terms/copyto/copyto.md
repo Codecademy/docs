@@ -66,6 +66,8 @@ In this example, the `.CopyTo()` method is used to copy elements from `sourceArr
 
 ## Codebyte Example
 
+This codebyte is runnable and shows the implementation of `CopyTo()` method. 
+
 ```codebyte/cs
 using System;
 
@@ -94,3 +96,4 @@ static void PrintArray(string[] array)
 }
 ```
 
+**Note:** When running this code, the compiler may throw an `Unhandled Exception`. To resolve this issue, carefully read the exception description in the error message. The **`Example`** code sample provided above can serve as a reference to help fix this error.
