@@ -2,22 +2,21 @@
 Title: 'hexdec()'
 Description: 'Returns the decimal equivalent of a given hexadecimal string.'
 Subjects:
-- 'Computer Science'
-- 'Web Development'
+  - 'Computer Science'
+  - 'Web Development'
 Tags:
-- 'Arithmetic'
-- 'Encoding'
-- 'Functions'
-- 'Math'
+  - 'Arithmetic'
+  - 'Encoding'
+  - 'Functions'
+  - 'Math'
 CatalogContent:
-- 'learn-php'
-- 'paths/computer-science'
+  - 'learn-php'
+  - 'paths/computer-science'
 ---
 
-The **`hexdec()`** function returns the decimal equivalent of a given hexadecimal string. `hexdec()` ignores any non-hexadecimal characters,
-computing the result as if they did not exist.
+The **`hexdec()`** function returns the decimal equivalent of a given hexadecimal string. It ignores any non-hexadecimal characters, computing the result as if they did not exist.
 
-`hexdec()` returns a value of type `int` if the converted number fits into the platform's `int` type; otherwise, a `float` is returned.
+The function returns a value of type `int` if the converted number fits into the platform's `int` type; otherwise, a `float` is returned.
 
 ## Syntax
 
@@ -32,8 +31,10 @@ Where `hexString` is the hexadecimal string that is to be converted into a decim
 This example converts the hexadecimal string `"CDECADE"` into its decimal equivalent.
 
 ```php
-$decimal = hexdec("CDECADE");
-echo $decimal;
+<?php
+  $decimal = hexdec("CDECADE");
+  echo $decimal;
+?>
 ```
 
 This example results in the following output:
@@ -44,7 +45,7 @@ This example results in the following output:
 
 ## Codebyte Example
 
-Using `hexdec()` to return the value of both a well-formed hexadecimal string and its malformed equivalent (non-hexadecimal characters ignored)`:
+This example returns the value of both a well-formed hexadecimal string and its malformed equivalent (non-hexadecimal characters ignored):
 
 ```codebyte/php
 <?php
