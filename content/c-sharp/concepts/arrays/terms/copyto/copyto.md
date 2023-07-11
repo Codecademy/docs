@@ -11,7 +11,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.CopyTo()` method in C# provides a functionality to copy elements from one array to another or to a specific location within an array. It offers a convenient way to duplicate array contents, ensuring that the target array holds the same values in the specified range. By specifying the destination array and the starting index, precise control over the element copying process is achieved, facilitating efficient data manipulation and array operations in your code.
+The `.CopyTo()` method in C# provides a functionality to copy elements from one array to another or to a specific location within an array. 
+
+It offers a convenient way to duplicate array contents, ensuring that the target array holds the same values in the specified range. By specifying the destination array and the starting index, precise control over the element copying process is achieved, facilitating efficient data manipulation and array operations.
 
 ## Syntax
 
