@@ -23,17 +23,17 @@ date_add(date_object, time_frame_to_add)
 
 The `date_object` parameter is an existing DateTime object.
 
-The `time_frame_to_add` parameter creates/returns a DateInterval object.
+The `time_frame_to_add` parameter is a DateInterval object.
 
-## Codebyte
+## Codebyte Example
 
-The following is a runnable example. It uses [date_create()]("https://www.codecademy.com/resources/docs/php/date-functions/date-create") to create a new DateTime object.
+The following example uses [date_create()]("https://www.codecademy.com/resources/docs/php/date-functions/date-create") to create a new DateTime object.
 
-`date_add()` is called with the DateTime object as the first parameter. The second parameter is a DateInterval object, created by `date_interval_create_from_date_string()`. This function takes a string that specifies the time frame to add to the initial DateTime object. The string includes a numeric value followed by a unit of time.
+The DateTime object is then used as the first parameter of `date_add()`. The second parameter is a DateInterval object, created by the built-in function `date_interval_create_from_date_string()`. This function accepts a string containing a numeric value followed by a unit of time.
 
 > **Note**: The unit of time can be written in singular or plural form.
 
-The output is then printed to the console using [date_format()]("https://www.codecademy.com/resources/docs/php/date-functions/date-format") to convert the DateInterval object to a string.
+The output is then printed to the console, using [date_format()]("https://www.codecademy.com/resources/docs/php/date-functions/date-format") to format the string.
 
 ```codebyte/php
 <?php
