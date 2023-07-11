@@ -1,6 +1,6 @@
 ---
 Title: '.getItem(key)'
-Description: 'Returns the value of the key of the data item passed as an argument or null if it does not exist, from the storage object'
+Description: 'Returns the value of the key on the given data item.'
 Subjects: 
   - 'Web Development'
   - 'Computer Science'
@@ -8,17 +8,14 @@ Tags:
   - 'APIs'
   - 'Data'
   - 'Methods'
-  - 'Objects'
   - 'Storage'
   - 'Values'
 CatalogContent: 
-  - 'user-authentication-authorization-express/modules/session-authentication-express/cheatsheet'
-  - 'user-authentication-authorization-express'
-  - 'paths/securing-express-applications'
-  - 'paths/back-end-engineer-career-path'
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-The **.getItem()** method takes the key of the data item as an argument and returns the value of the data if it is in the `Storage` object, otherwise it returns `null`.
+The **`.getItem()`** method takes a key as an argument and returns the associated value. If the key is not present in the `Storage` object, it returns `null`.
 
 The `Storage` Object, which can be either a `localStorage` object or a `sessionStorage` object.
 
@@ -26,17 +23,15 @@ The `Storage` Object, which can be either a `localStorage` object or a `sessionS
 
 ```pseudo
 localStorage.getItem(keyName)
-```
-or
-```pseudo
+
 sessionStorage.getItem(keyName)
 ```
 
 The `keyName` parameter is required and it's a string containing the name of the key you want to retrieve the value of.
 
-> You could also use `Storage.length` to test whether the storage object is empty or not.
+> **Note:** The `Storage.length` property can be used to test whether the storage object is empty or not.
 
-## Codebyte Example
+## Example
 
 Get the value of the specified local storage item:
 
