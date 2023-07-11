@@ -18,7 +18,7 @@ It offers a convenient way to duplicate array contents, ensuring that the target
 ## Syntax
 
 ```pseudo
-public void CopyTo(Array destinationArray, int destinationIndex)
+CopyTo(destinationArray, destinationIndex)
 ```
 
 The `destinationArray` parameter is the target array where the elements will be copied to, and the `destinationIndex` parameter represents the starting index in the `destinationArray` where the elements will be copied.
