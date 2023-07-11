@@ -15,7 +15,7 @@ The Javascript date method **`.setMonth()`** changes the month and sometimes day
 
 ## Syntax
 
-```js
+```pseudo
 date.setMonth(monthValue);
 date.setMonth(monthValue, dateValue);
 ```
