@@ -33,3 +33,15 @@ Using `pi()` to return the value of PI:
   echo pi();
 ?>
 ```
+
+## Related Constants
+
+Some other predefined named constants related to π are :
+
+`M_PI_2` : It describes π/2. Its value is 1.570796.
+`M_PI_4` : It describes π/4. Its value is 0.785398.
+`M_1_PI` : It describes 1/π. Its value is 0.318309.
+`M_2_PI` : It describes 2/π. Its value is 0.636619.
+`M_SQRTPI` : It describes sqrt(π). Its value is 1.772453.
+`M_2_SQRTPI` : It describes 2/sqrt(π). Its value is 1.128379.
+
