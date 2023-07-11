@@ -28,9 +28,9 @@ In the example below the `.some()` function is used to determine if any of the v
 
 ```js
 const numbers = [2, 4, 5, 7, 8];
-const callback = (element) => element % 2 === 0
+const callback = (element) => element % 2 === 0;
 
-console.log(numbers.some(callback))
+console.log(numbers.some(callback));
 ```
 
 This example results in the following output:
