@@ -22,7 +22,7 @@ The **`atan2()`** function returns the arc tangent of y/x, in radians.
 atan2(y,x);
 ```
 
-The `atan2()` function has two (2) parameters. It returns the arc tangent of y/x, in radians. Where x and y are the coordinates of a point (x,y). Both specify a positive or negative number.
+The `atan2()` function has two (2) parameters. It returns the arc tangent of *y/x*, in radians. Where `x` and `y` are the coordinates of a point (x, y). Both specify a positive or negative number.
 
 ## Codebyte Example
 
