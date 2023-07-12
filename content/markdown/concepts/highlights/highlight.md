@@ -1,6 +1,6 @@
 ---
 Title: 'highlight'
-Description: 'Highlights are when two equal signs are placed in between a piece(s) of text, resulting a yellow background encompassing said text.'
+Description: 'Highlights are when two pairs of equal signs enclose a piece of text, resulting a yellow background encompassing said text.'
 Subjects:
   - 'Web Development'
   - 'Developer Tools'
