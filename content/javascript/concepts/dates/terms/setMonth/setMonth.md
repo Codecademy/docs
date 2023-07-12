@@ -1,6 +1,6 @@
 ---
 Title: '.setMonth()'
-Description: 'Changes the month and/or day of the month of a date according to local time.'
+Description: 'Changes the month and/or day of the month of a date according to the local time.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The Javascript date method **`.setMonth()`** changes the month and sometimes day of the month according to local time by modifying an instance of a `Date` object in place.
+The JavaScript date method **`.setMonth()`** changes the month and sometimes day of the month according to the local time by modifying an instance of a `Date` object in place.
 
 ## Syntax
 
@@ -20,7 +20,7 @@ date.setMonth(monthValue);
 date.setMonth(monthValue, dateValue);
 ```
 
-- `monthValue`: An integer from `0` to `11`, which represents the month (`0` is for January, `1` for February, etc.).
+- `monthValue`: An integer from `0` to `11`, which represents the month (`0` is for January, `1` for February, and so on).
 - `dateValue` (optional): An integer from `1` to `31`, which represents the day of the month.
 
 If either `monthValue` or `dateValue` is outside the expected range, the other date information in the `Date` object is updated to account for the underflow or overflow. For example, when given 14 as the parameter for a `monthValue`, the year is incremented by 1, and the month is set to 2.
