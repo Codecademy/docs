@@ -56,5 +56,5 @@ The following example checks if all numbers in the array are even:
 const numbers = [2, 4, 6, 8, 10];
 const allEven = numbers.every(number => number % 2 === 0);
 
-console.log(allEven); // Output: true
+console.log(allEven);
 ```
