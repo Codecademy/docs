@@ -23,7 +23,7 @@ array.every(callbackFn)
 array.every(callbackFn, thisArg)
 ```
 
-The **`.every()`** method needs an argument **`callbackFn`**, wich is a **`callback function`** executed on each element in the list. There can be a second argument **`thisArg`**, which is optional and is needed in special cases.
+The `.every()` method needs an argument `callbackFn`, which is a callback function executed on each element in the list. There can be a second argument `thisArg`, which is optional and is needed in special cases.
 
 The **`callbackFn`** function can contain up to three arguments, wich are:
 - **`element`** (the current element, wich is being processed by the actual iteration)
