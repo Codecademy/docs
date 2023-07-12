@@ -7,7 +7,7 @@ Tags:
   - 'Date'
   - 'Methods'
 CatalogContent:
-  - 'intro-to-javascript'
+  - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
 
@@ -22,9 +22,7 @@ myDate.setHours(hoursValue, minutesValue, secondsValue)
 myDate.setHours(hoursValue, minutesValue, secondsValue, millisecondsValue)
 ```
 
-## Parameters
-
-`.setHours()` takes the following parameters: 
+`.setHours()` takes the following parameters:
 
 - `hoursValue:` (Required) takes values from `0` to `23` representing the hours.
 - `minutesValue:` (Optional) takes values from `0` to `59` representing the minutes.
@@ -49,4 +47,3 @@ This results in the following output:
 ```shell
 2023-02-05T15:36:45.000Z
 ```
-
