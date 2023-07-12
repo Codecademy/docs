@@ -69,7 +69,7 @@ The output for the above code is:
 Sorted array: 1 2 3 4 5
 ```
 
-The `selectionSort` method in the code takes an integer `array` as input and performs the selection sort algorithm on it. It initializes a variable `n` with the length of the array. The outer loop iterates through the elements from the first to the second-to-last element of the array, representing the boundary of the unsorted subarray.
+The `selectionSort` function in the code takes an integer `array` as input and initializes a variable `n` with the length of the array. The outer loop iterates through the elements from the first to the second-to-last element of the array, representing the boundary of the unsorted subarray.
 
 Inside the outer loop, an inner loop starts from `i+1` and searches for the minimum element in the unsorted portion of the array. The index of the smallest element found is stored in the `minIndex` variable.
 
