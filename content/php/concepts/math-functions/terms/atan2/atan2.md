@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`atan2()`** function returns the arc tangent of y/x, in radians.
+The **`atan2()`** function returns the arc tangent of *y/x*, in radians.
 
 ## Syntax
 
