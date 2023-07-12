@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.every()`** method iterates over each element in an array and stops when a falsy value is returned by the provided callback function. If a falsy value is found, every() returns **`false`**. Otherwise, if the callback function returns a truthy value for all elements, every() returns **`true`**.
+The **`.every()`** method iterates over each element in an array and stops when a falsy value is returned by the provided callback function. If a falsy value is found, every() returns `false`. Otherwise, if the callback function returns a truthy value for all elements, every() returns `true`.
 
 ## Syntax
 
