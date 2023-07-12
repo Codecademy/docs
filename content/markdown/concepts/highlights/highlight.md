@@ -11,7 +11,7 @@ CatalogContent:
   - 'path/front-end-engineer-career-path'
 ---
 
-In Markdown, **highlight** is where parts of a text appears in a yellow background after being inserted between two equal signs (==).
+In Markdown, **highlight** is where parts of a text appears in a yellow background after being inserted between two pairs of equal signs (`==`).
 **Note:** This feature is not offered in all Markdown processors so consider reading through the instruction guide before completing.
 
 ## Syntax
