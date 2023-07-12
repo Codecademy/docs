@@ -15,7 +15,7 @@ CatalogContent:
 
 ## Explanation
 
-A brief explanation of `Selection Sort`:
+A brief explanation of the selection sort algorithm:
 
 - Selection sort is an in-place comparison sorting algorithm: This means that selection sort does not require additional memory beyond the input array, and elements are compared to determine their relative order.
 
