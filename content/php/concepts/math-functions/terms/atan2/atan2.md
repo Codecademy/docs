@@ -34,4 +34,7 @@ Using `atan2()` to return the arc tangent of (-10,8):
 ?>
 ```
 
-The output is -0.89605538457134
+This results in the following output:
+
+```shell
+ -0.89605538457134
