@@ -28,7 +28,7 @@ The `atan2()` function has two (2) parameters. It returns the arc tangent of *y/
 
 Using `atan2()` to return the arc tangent of (-10,8):
 
-```codebyte/php
+```php
 <?php
   echo atan2(-10,8);
 ?>
