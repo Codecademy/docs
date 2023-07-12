@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`atan2()`** function returns the arc tangent of *y/x*, in radians.
+The **`atan2()`** function returns the arc tangent of _y/x_, in radians.
 
 ## Syntax
 
@@ -22,11 +22,11 @@ The **`atan2()`** function returns the arc tangent of *y/x*, in radians.
 atan2(y,x);
 ```
 
-The `atan2()` function has two (2) parameters. It returns the arc tangent of *y/x*, in radians. Where `x` and `y` are the coordinates of a point (x, y). Both specify a positive or negative number.
+The `atan2()` function has two parameters. It returns the arc tangent of _y/x_, in radians. Where `x` and `y` are the coordinates of a point (x, y). Both specify a positive or negative number.
 
 ## Example
 
-Using `atan2()` to return the arc tangent of (-10,8):
+The following code uses `atan2()` to return the arc tangent of (-10,8):
 
 ```php
 <?php
@@ -38,3 +38,4 @@ This results in the following output:
 
 ```shell
  -0.89605538457134
+```
