@@ -1,6 +1,6 @@
 ---
 Title: 'atan2()'
-Description: 'The atan2() function returns the arc tangent of y/x, in radians.'
+Description: 'Returns the arc tangent of y/x, in radians.'
 Subjects:
   - 'Web Development'
   - 'Code Foundations'
