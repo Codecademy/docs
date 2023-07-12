@@ -22,16 +22,16 @@ myDate.setHours(hoursValue, minutesValue, secondsValue)
 myDate.setHours(hoursValue, minutesValue, secondsValue, millisecondsValue)
 ```
 
-
 ## Parameters
 
-- `hoursValue:` (Required) Takes values from `0` to `23` representing the hours.
-**`minutesValue:`**
-- Optional. 0 to 59 representing the minutes.
-**`secondsValue:`**
-- Optional. 0 to 59 representing the seconds. You must also specify `minutesValue`.
-**`millisecondsValue:`**
-- Optional. 0 to 999 representing the milliseconds. You must also specify `minutesValue` and `secondsValue`.
+`.setHours()` takes the following parameters: 
+
+- `hoursValue:` (Required) takes values from `0` to `23` representing the hours.
+- `minutesValue:` (Optional) takes values from `0` to `59` representing the minutes.
+- `secondsValue:` (Optional) takes values from `0` to `59` representing the seconds. You must also specify `minutesValue`.
+- `millisecondsValue:`(Optional) takes values from `0` to `999` representing the milliseconds. You must also specify `minutesValue` and `secondsValue`.
+
+The `.setHours()` method changes the hours, minutes, seconds and milliseconds for a given date according to local time.
 
 ## Example
 
