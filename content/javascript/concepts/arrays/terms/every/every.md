@@ -25,10 +25,10 @@ array.every(callbackFn, thisArg)
 
 The `.every()` method needs an argument `callbackFn`, which is a callback function executed on each element in the list. There can be a second argument `thisArg`, which is optional and is needed in special cases.
 
-The **`callbackFn`** function can contain up to three arguments, wich are:
-- **`element`** (the current element, wich is being processed by the actual iteration)
-- **`index`** (the position of the current element inside of an array)
-- **`array`** (the current array, processed by the .every() method)
+The `callbackFn` function can contain up to three arguments, which are:
+- `element`: The current element, which is being processed by the actual iteration.
+- `index`: The position of the current element inside of an array.
+- `array`: The current array, processed by the `.every()` method.
 
 
 ## Examples
