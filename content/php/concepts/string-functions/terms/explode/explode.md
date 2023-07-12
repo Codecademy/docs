@@ -41,7 +41,7 @@ The `explode()` function takes three parameters:
 
 ## Example
 
-The following example uses the `explode()` function to convert a `string` of fruits separated by `", "` to an `array` of fruits. Then the `print_r()` function prints the information about the  returned `array` to the console:
+The following example uses the `explode()` function to convert a `string` of fruits separated by `", "` to an `array` of fruits. Then the `print_r()` function prints the information about the returned `array` to the console:
 
 ```php
 <?php
