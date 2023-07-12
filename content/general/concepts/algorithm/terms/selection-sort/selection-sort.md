@@ -1,6 +1,6 @@
 ---
 Title: 'Selection-Sort Algorithm'
-Description: 'Returns a sorted array'
+Description: 'Returns a sorted array.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -27,7 +27,7 @@ A brief explanation of the selection sort algorithm:
 
 - The process continues until the entire array is sorted: Selection sort repeats the selection and swapping steps for the remaining unsorted elements until the entire array becomes sorted. The sorted subarray gradually grows, and the unsorted subarray shrinks until no elements remain in the unsorted portion.
 
-- Selection sort is a sorting algorithm that repeatedly finds the minimum element in the unsorted portion of an array and swaps it with the element at the beginning of the unsorted section. This process continues until the entire array is sorted. The algorithm has a time complexity of O(n^2), where n is the number of elements in the array. It performs n iterations, each involving a comparison of each element in the unsorted section with the current minimum. As a result, the total number of comparisons is roughly (n \* (n-1))/2. While selection sort is inefficient for large input sizes, it can be useful for small arrays or when minimizing the number of swaps is a priority.
+- Selection sort is a sorting algorithm that repeatedly finds the minimum element in the unsorted portion of an array and swaps it with the element at the beginning of the unsorted section. This process continues until the entire array is sorted. The algorithm has a time complexity of _O(n^2)_, where _n_ is the number of elements in the array. It performs _n_ iterations, each involving a comparison of each element in the unsorted section with the current minimum. As a result, the total number of comparisons is roughly _(n \* (n-1))/2_. While selection sort is inefficient for large input sizes, it can be useful for small arrays or when minimizing the number of swaps is a priority.
 
 **Graphical representation of Selection Sort:**
 
