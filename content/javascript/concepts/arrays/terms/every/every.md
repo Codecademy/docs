@@ -30,7 +30,6 @@ The `callbackFn` function can contain up to three arguments, which are:
 - `index`: The position of the current element inside of an array.
 - `array`: The current array, processed by the `.every()` method.
 
-
 ## Examples
 
 Check if all words in the array have more than 3 characters:
