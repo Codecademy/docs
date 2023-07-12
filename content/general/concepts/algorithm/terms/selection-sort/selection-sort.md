@@ -23,7 +23,7 @@ A brief explanation of the selection sort algorithm:
 
 - The algorithm repeatedly selects the minimum (or maximum) element: In each iteration, selection sort identifies the minimum (or maximum) element from the unsorted subarray. The selection process involves scanning the unsorted subarray to find the smallest (or largest) element.
 
-- It swaps the selected element with the first unsorted element: Once the minimum (or maximum) element is identified, selection sort swaps it with the first element of the unsorted subarray. This action effectively expands the sorted subarray by one element and reduces the unsorted subarray's size.
+- It swaps the selected element with the first unsorted element: Once the minimum (or maximum) element is identified, selection sort swaps it with the first element of the unsorted subarray. This action effectively expands the sorted subarray by one element and reduces the unsorted subarray by one.
 
 - The process continues until the entire array is sorted: Selection sort repeats the selection and swapping steps for the remaining unsorted elements until the entire array becomes sorted. The sorted subarray gradually grows, and the unsorted subarray shrinks until no elements remain in the unsorted portion.
 
