@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`array_combine()`** method returns a new array of key-value pairs from two separate arrays. 
+The **`array_combine()`** method returns a new array of key-value pairs from two separate arrays.
 
 ## Syntax
 
