@@ -1,6 +1,6 @@
 ---
 Title: '.every()'
-Description: 'The every() function checks if all elements in the array satisfy the condition specified by the given function. It returns a Boolean value.'
+Description: 'Checks if all elements in an array satisfy the condition specified by the given function.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
