@@ -4,10 +4,8 @@ Description: 'Highlights are when two pairs of equal signs enclose a piece of te
 Subjects:
   - 'Web Development'
   - 'Developer Tools'
-
 Tags:
   - 'Documentation'
-
 CatalogContent:
   - 'learn-html'
   - 'path/front-end-engineer-career-path'
