@@ -1,6 +1,6 @@
 ---
 Title: 'array_fill()'
-Description: 'Fills an array with values and returns a filled array.'
+Description: 'Fills an array with values and returns the filled array.'
 Subjects:
   - 'Computer Science'
   - 'Web Design'
