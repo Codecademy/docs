@@ -18,11 +18,11 @@ The `.isArray()` method returns `true` for arrays, otherwise `false`.
 
 ## Syntax
 
-```js
+```pseudo
 Array.isArray(value);
 ```
 
-Required parameter value is the value to be checked.
+Required parameter `value` is the value to be checked.
 
 ## Example
 

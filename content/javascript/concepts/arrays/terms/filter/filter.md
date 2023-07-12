@@ -16,24 +16,22 @@ The `.filter()` array method creates a new array with all elements that pass the
 
 ## Syntax
 
-```js
+```pseudo
 // Arrow function
 array.filter(element => { ... })
 array.filter((element, index) => { ... })
 array.filter((element, index, array) => { ... })
 ```
 
-### Parameters
+`.filter()` takes the following parameters:
 
 - `element`: The current element being processed in the array.
 - `index` (optional): The index of the current element being processed in the array.
 - `array` (optional): The array _filter_ was called upon.
 
-### Return Value
+The method will return a new array with the elements that pass the test.
 
-A new array with the elements that pass the test.
-
-**Note:** If no elements pass the test, an empty array will be returned.
+> **Note:** If no elements pass the test, an empty array will be returned.
 
 ## Examples
 
@@ -76,7 +74,7 @@ console.log(filteredNames('j', names));
 
 ## Codebyte Example
 
-The example below shows the `filter` array method being used to filter an array of objects, called `techCompany`, using two criteria.
+The example below shows `.filter()` being used to filter an array of objects, called `techCompany`, using two criteria.
 
 ```codebyte/javascript
 let techCompany = [
