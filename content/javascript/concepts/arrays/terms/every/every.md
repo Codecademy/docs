@@ -48,7 +48,7 @@ This example results in the following output:
 true
 ```
 
-Method .every() doesn't read empty slots:
+Verify whether every element in the array is defined :
 
 ```js
 const arr = [5, 9, , 29, 57, 1];
@@ -60,6 +60,8 @@ This example results in the following output:
 ```shell
 true
 ```
+
+> **Note:** `.every()` does not read empty slots.
 
 ## Codebyte Example
 
