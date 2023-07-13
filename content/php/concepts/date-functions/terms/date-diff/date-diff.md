@@ -13,9 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `date_diff()` function takes two `DateTime` objects as parameters and determines the difference in time between them.
-An optional boolean parameter can be set to `true` to return the absolute value, ensuring that the result is positive.
-The function returns a `DateInterval` object that can be formatted as needed.
+The `date_diff()` function takes two `DateTime` objects as parameters and determines the difference in time between them. An optional boolean parameter can be set to `true` to return the absolute value, ensuring that the result is positive. The function returns a `DateInterval` object that can be formatted as needed.
 
 ## Syntax
 
@@ -27,14 +25,10 @@ date_diff(
 ): DateInterval
 ```
 
-The `$dateOne` and `$dateTwo` parameters are `DateTime` objects as returned by
-[date_create()](https://www.codecademy.com/resources/docs/php/date-functions/date-create). Because the returned value
-is a `DateInterval` object, [date_format()](https://www.codecademy.com/resources/docs/php/date-functions/date-format)
-cannot be used to format the result. The `DateInterval::format()` function can be used for formatting using the characters
-below. The formatting characters must be prefixed with a percent sign (%).
+The `$dateOne` and `$dateTwo` parameters are `DateTime` objects as returned by [date_create()](https://www.codecademy.com/resources/docs/php/date-functions/date-create). Because the returned value is a `DateInterval` object, [date_format()](https://www.codecademy.com/resources/docs/php/date-functions/date-format) cannot be used to format the result. The `DateInterval::format()` function can be used for formatting using the characters below. The formatting characters must be prefixed with a percent sign (%).
 
 | Character | Description                                                                    |
-| :-------: |--------------------------------------------------------------------------------|
+|:---------:|--------------------------------------------------------------------------------|
 |    `Y`    | Number of years, at least two digits with leading zero                         |
 |    `y`    | Number of years                                                                |
 |    `M`    | Number of months, at least two digits with leading zero                        |
@@ -51,7 +45,7 @@ below. The formatting characters must be prefixed with a percent sign (%).
 |    `F`    | Number of microseconds, at least six digits with leading zero, always positive |
 |    `f`    | Number of microseconds, always positive                                        |
 |    `R`    | Sign (+, -)                                                                    |
-|    `r`    | Sign, empty when positive                                        |
+|    `r`    | Sign, empty when positive                                                      |
 
 ## Codebyte Example
 
