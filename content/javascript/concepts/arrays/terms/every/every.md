@@ -17,7 +17,7 @@ The **`.every()`** method iterates over each element in an array and stops when 
 
 ## Syntax
 
-```js
+```pseudo
 array.every(callbackFn);
 
 array.every(callbackFn, thisArg);
