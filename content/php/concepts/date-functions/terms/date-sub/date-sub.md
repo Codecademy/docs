@@ -22,14 +22,14 @@ date_sub($object, $interval)
 
 The `date_sub()` function has two required parameters:
 
-- `$object`: This parameter specifies the DateTime object returned by date_create().
-- `$interval`: This parameter specifies the DateInterval object which we want to subtract.
+- `$object`: This parameter specifies the `DateTime` object returned by `date_create()`.
+- `$interval`: This parameter specifies the `DateInterval` object to be subtracted.
 
-The `date_sub()` function returns a DateTime object after subtracting the interval.
+The `date_sub()` function returns a `DateTime` object after subtracting the interval.
 
 ## Example
 
-The following example uses the `date_sub()` function to subtract 30 days from the 3 March, 2023:
+The following example uses the `date_sub()` function to subtract 30 days from the passed date:
 
 ```php
 <?php
