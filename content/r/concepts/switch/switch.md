@@ -1,0 +1,67 @@
+---
+Title: 'switch()'
+Description: 'Selects one of several alternatives based on a given value or condition.'
+Subjects:
+  - 'Conditional Statements'
+  - 'Comparison Operators'
+  - 'Logical Operators'
+Tags:
+  - 'Conditionals'
+  - 'Comparison'
+  - 'Logic'
+CatalogContent:
+  - 'learn-r'
+  - 'paths/computer-science'
+---
+
+The **`switch()`** function provides a convenient way to select one of several alternatives based on a given value or condition. It is often used as an alternative to multiple `if` statements or nested `if-else` statements when you have a limited set of options to choose from.
+
+## Syntax
+
+In the following code:
+
+- `expr` is the expression or value that you want to evaluate.
+- `case1`, `case2`, `case3`, and so on, are the possible cases or alternatives that you want to consider.
+
+The `expr` value is compared with each case value sequentially, and when a match is found, the corresponding expression or value associated with that case is returned.
+
+```pseudo
+switch(expr, case1, case2, case3, ...)
+```
+
+## Example
+
+The following example to illustrate the usage of the `switch()` function:
+
+```r
+day <- 3
+
+weekday <- switch(day, "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
+```
+
+In this example, the `day` variable is set to 3. The `switch()` function then compares the value of day with each case value. Since the third case matches, the corresponding value "Wednesday" is returned and assigned to the variable `weekday`.
+
+The following example includes a default case:
+
+```r
+month <- 15
+
+season <- switch(
+  month,
+  "January"   = "Winter",
+  "February"  = "Winter",
+  "March"     = "Spring",
+  "April"     = "Spring",
+  "May"       = "Spring",
+  "June"      = "Summer",
+  "July"      = "Summer",
+  "August"    = "Summer",
+  "September" = "Autumn",
+  "October"   = "Autumn",
+  "November"  = "Autumn",
+  "December"  = "Winter",
+  "Unknown month"
+)
+```
+
+In this case, if the value of month does not match any of the specified cases, the default case "Unknown month" is returned and assigned to the variable season.
