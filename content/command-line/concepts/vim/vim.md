@@ -30,6 +30,13 @@ This section describes some important features of the Vim editor.
 - Users can create macros of a sequence of commands.
 - Users can save sessions to start where you left off last time.
 
+## Vim Modes
+Vim has three modes:
+
++ `COMMAND MODE` : *Execute commands like undo, redo, find, replace, quit, etc.*
++ `INSERT MODE` : *Type text*
++ `VISUAL MODE` : *H,ghlight, select and edit text*
+
 ## Launching Vim
 
 Vim can be launched directly from the terminal by running the `vim` command. The start screen will look like this:
