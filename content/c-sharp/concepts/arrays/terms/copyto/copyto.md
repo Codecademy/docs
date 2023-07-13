@@ -66,6 +66,8 @@ Destination Array:
 
 This example is runnable and shows another implementation of the `CopyTo()` method.
 
+> **Note:** Copying arrays requires compatibility between the source and destination: if the destination array is too small to accommodate the values of the source array an `Unhandled Exception` will be thrown.
+
 ```codebyte/cs
 using System;
 
@@ -93,5 +95,3 @@ static void PrintArray(string[] array)
 }
 }
 ```
-
-> **Note:** Copying arrays requires compatibility between the source and destination: if the destination array is too small to accommodate the values of the source array an `Unhandled Exception` will be thrown.
