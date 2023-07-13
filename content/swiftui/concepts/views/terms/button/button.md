@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-A **`Button`** is a view that can be interacted with and used to perform some action when pressed. It can be styled with various modififiers provided by the SwiftUI framework.
+A **`Button`** is a view that can be interacted with and used to perform an action when pressed on. It can be customized using various modifiers provided by the SwiftUI framework.
 
 ## Syntax
 
@@ -25,18 +25,18 @@ Button(
 )
 ```
 
-To create a `button`, an `action` and a `label` are required. The `action` parameter expects a closure or a method that it will execute when the button is pressed. The 'label' expects a closure or a view, which can be an image, text, or both.
+To create a button, an action and a label are required. The `.action` property expects a closure or a method that it will execute when the button is pressed. The '.label' expects a closure or a view, which can be an image, text, or both.
 
 ```pseudo
 Button(action: { // Initiates when the button is pressed }) {
   // A Label closure or view
 }
 ```
-The `label` parameter can be excluded from the `Button` initialization, and its details can be provided in a seperate closure following the button call. This allows for more flexibility in customizing the button's appearance.
+When creating a button, the `.label` property can be left out and its details can be provided in a separate closure after the button call. This provides more flexibility for customizing the button's appearance.
 
 ## Example
 
-The following example demonstrates the use of a `Button` in SwiftUI. Pressing the button will randomly change the colors of the screen and the button itself:
+The following example demonstrates the use of a `Button`. Pressing the button will randomly change the colors of the screen and the button itself:
 
 ```swift
 struct ContentView: View {
@@ -83,7 +83,7 @@ struct ContentView: View {
 }
 ```
 
-- Pressing the button triggers the `randomizeColors()` method, which generates random RGB values for the `backgroundColor` and `buttonColor` properties. 
+- Pressing the button triggers the `.randomizeColors()` method, which generates random RGB values for the `.backgroundColor` and `.buttonColor` properties. 
 
 The following will be displayed:
 
