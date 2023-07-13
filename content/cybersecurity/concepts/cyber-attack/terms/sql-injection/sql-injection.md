@@ -33,7 +33,7 @@ Now if a user enters `1' OR '1'='1`, then the command will look like the followi
 SELECT * FROM users WHERE UserID = '1' OR '1' = '1';
 ```
 
-The user injecting the code will be able to access all the UserIDs because `1=1` will always execute as `true`.
+The user injecting the code will be able to access all the `UserID`s because `1=1` will always execute as `true`.
 
 This [vulnerability](https://www.codecademy.com/resources/docs/cybersecurity/vulnerability) can be used to damage a database. The following input, `1'; DELETE FROM Projects WHERE '1'='1` results in the following query:
 
