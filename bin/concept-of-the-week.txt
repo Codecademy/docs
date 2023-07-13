@@ -1,1 +1,1 @@
-content/css/concepts/floats/floats.md
+content/html/concepts/favicon/favicon.md
