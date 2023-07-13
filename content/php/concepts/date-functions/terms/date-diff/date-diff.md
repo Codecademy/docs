@@ -60,7 +60,7 @@ The example below creates two `DateTime` objects, then prints the difference wit
 ```codebyte/php
 <?php
   $dateOfBirth = date_create("3/27/2001 4:30pm");
-  $dateNow = date_create("7/7/2023 2:27pm");
+  $dateNow = date_create("now");
   $diffSinceBirth = date_diff($dateOfBirth, $dateNow);
   echo $diffSinceBirth->format("%y years, %m months, %d days, %h hours, and %i minutes since birth.\n");
   echo $diffSinceBirth->format("%a days since birth.");
