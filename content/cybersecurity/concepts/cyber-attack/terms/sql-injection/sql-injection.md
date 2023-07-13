@@ -21,7 +21,7 @@ To prevent SQL injection, databases should not take user input as a command to b
 
 ## Vulnerable Queries
 
-In this example, there is a form that asks for a `User ID`. This form will run this SQL command to check if the user exists.
+In this example, there is a form that asks for a `User ID`. The form will run this SQL command to check if the user exists.
 
 ```sql
 SELECT * FROM users WHERE UserID = 'input from user';
