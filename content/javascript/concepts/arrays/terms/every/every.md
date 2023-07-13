@@ -28,7 +28,7 @@ The `.every()` method needs an argument `callbackFn`, which is a callback functi
 The `callbackFn` function can contain up to three arguments, which are:
 
 - `element`: The element being processed in the current iteration.
-- `index`: The position of the current element inside of an array.
+- `index`: The position of the current element inside of the array.
 - `array`: The current array, processed by the `.every()` method.
 
 ## Examples
