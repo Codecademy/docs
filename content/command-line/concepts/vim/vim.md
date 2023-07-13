@@ -35,7 +35,7 @@ Vim has three modes:
 
 + `COMMAND MODE` : *Execute commands like undo, redo, find, replace, quit, etc.*
 + `INSERT MODE` : *Type text*
-+ `VISUAL MODE` : *H,ghlight, select and edit text*
++ `VISUAL MODE` : *Highlight, select and edit text*
 
 ## Launching Vim
 
