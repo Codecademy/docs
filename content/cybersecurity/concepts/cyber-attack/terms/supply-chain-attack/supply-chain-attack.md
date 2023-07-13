@@ -6,6 +6,7 @@ Subjects:
   - 'Cybersecurity'
 Tags:
   - 'Cybersecurity'
+  - 'Infrastructure'
 CatalogContent:
   - 'introduction-to-cybersecurity'
   - 'paths/fundamentals-of-cybersecurity'
