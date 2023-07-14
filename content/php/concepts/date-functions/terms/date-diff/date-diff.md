@@ -60,3 +60,10 @@ The example below creates two `DateTime` objects, then prints the difference wit
   echo $diffSinceBirth->format("%a days since birth.");
 ?>
 ```
+
+This code results in different output each time it is executed, but it will be similar to this:
+
+```shell
+22 years, 3 months, 16 days, 22 hours, and 11 minutes since birth.
+8143 days since birth.
+```
