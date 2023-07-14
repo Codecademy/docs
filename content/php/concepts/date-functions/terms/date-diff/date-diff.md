@@ -51,7 +51,7 @@ The `$dateOne` and `$dateTwo` parameters are `DateTime` objects as returned by [
 
 The example below creates two `DateTime` objects, then prints the difference with format strings.
 
-```shell
+```php
 <?php
   $dateOfBirth = date_create("3/27/2001 4:30pm");
   $dateNow = date_create("now");
