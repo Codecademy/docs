@@ -25,7 +25,7 @@ localStorage.removeItem('keyName');
 
 ## Example
 
-The following code demonstrates the application of `removeItem()` on the localeStorage:
+The following code demonstrates the application of `.removeItem()` to modify `localStorage`:
 
 ```js
 localStorage.setItem('username', 'JohnDoe');
