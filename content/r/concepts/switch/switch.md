@@ -43,7 +43,7 @@ In this example, the `day` variable is set to 3. The `switch()` function then co
 The following example includes a default case:
 
 ```r
-month <- 15
+month <- "Janvier"
 
 season <- switch(
   month,
