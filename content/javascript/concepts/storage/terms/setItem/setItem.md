@@ -1,6 +1,6 @@
 ---
 Title: '.setItem()' 
-Description: 'updates the value to the specified storage object key if exists, else adds the key to the specified storage object.' 
+Description: 'Updates the value to the specified storage object key, if it exists, else adds the key to the object.' 
 Subjects: 
   - 'Web Development'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.setItem()`** method updates the `value` to the specified storage object `key` if exists, else adds the `key` to the specified storage object and returns `undefined`.
+The **`.setItem()`** method updates the value to the specified storage object key, if it exists, else adds the key to the specified storage object and returns `undefined`.
 
 ## Syntax
 
@@ -26,10 +26,9 @@ Both `key` and `value` are required parameters.
 - The `key` is the name of the key to create.
 - The `value` is the value to create/update the `key`.
 
-
 ## Example
 
-This is the example, which demonstrates the usage of `.setItem()` method:
+This example demonstrates a basic implementation of the `.setItem()` method:
 
 ```js
 console.log(localStorage.setItem('name', 'mark'));
@@ -39,7 +38,7 @@ console.log("Gender :",localStorage.gender);
 
 The Output will be:
 
-```bash
+```shell
 undefined
 Gender : male
 ```
