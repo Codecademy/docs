@@ -17,7 +17,7 @@ CatalogContent:
 
 ## Syntax
 
-When called, the `removeItem()` method takes a single parameter, which is the key of the item to be removed. It searches for the key in the storage and, if found, removes the associated key-value pair from the storage. If the key does not exist, the method does nothing and the storage remains unchanged.
+When called, the `.removeItem()` method takes a single parameter, `keyName`, which is the key of the item to be removed. The function removes the associated key-value pair from storage, if found. If the key does not exist, the method does nothing and the storage remains unchanged.
 
 ```pseudo
 localStorage.removeItem('keyName');
