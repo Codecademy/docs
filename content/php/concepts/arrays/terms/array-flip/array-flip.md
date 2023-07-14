@@ -57,12 +57,12 @@ This example is runnable and uses the `array_flip()` function:
 ```codebyte/php
 <?php
     $colors = array('red', 'blue', 'green');
-    $color_to_tearch = 'blue';
-    
-    if (isset(array_flip($colors)[$color_to_tearch])) {
-        echo "The color $color_to_tearch exists in the array.";
+    $color_to_search = 'blue';
+
+    if (isset(array_flip($colors)[$color_to_search])) {
+        echo "The color $color_to_search exists in the array.";
     } else {
-        echo "The color $color_to_tearch does not exist in the array.";
+        echo "The color $color_to_search does not exist in the array.";
     }
 ?>
 ```
