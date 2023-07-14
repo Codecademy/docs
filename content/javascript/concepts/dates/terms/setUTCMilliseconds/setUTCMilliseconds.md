@@ -25,10 +25,7 @@ The **`.setUTCMilliseconds()`** method sets the milliseconds value of a `Date` o
 
 ```pseudo
 
-
-
 myDate.setUTCMilliseconds(millisecondsValue);
-
 
 
 ```
@@ -42,17 +39,14 @@ In this code example, we start with the current date and time in UTC. We then us
 ```codebyte/javascript
 
 
-
 const currentDate = new Date();
 
 console.log(currentDate); // Output: Tue Jul 14 2023 14:30:45 GMT+0000 (Coordinated Universal Time)
 
 
-
 currentDate.setUTCMilliseconds(500); // Setting the milliseconds to 500
 
 console.log(currentDate); // Output: Tue Jul 14 2023 14:30:45.500 GMT+0000 (Coordinated Universal Time)
-
 
 
 ```
