@@ -1,14 +1,14 @@
 ---
-Title: '.setItem()' 
-Description: 'Updates the value to the specified storage object key, if it exists, else adds the key to the object.' 
-Subjects: 
+Title: '.setItem()'
+Description: 'Updates the value to the specified storage object key, if it exists, else adds the key to the object.'
+Subjects:
   - 'Web Development'
   - 'Computer Science'
-Tags: 
+Tags:
   - 'Storage'
   - 'Objects'
   - 'Methods'
-CatalogContent: 
+CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
@@ -23,6 +23,7 @@ sessionStorage.setItem(key, value);
 ```
 
 Both `key` and `value` are required parameters.
+
 - The `key` is the name of the key to create.
 - The `value` is the value to create/update the `key`.
 
@@ -33,10 +34,10 @@ This example demonstrates a basic implementation of the `.setItem()` method:
 ```js
 console.log(localStorage.setItem('name', 'mark'));
 localStorage.setItem('gender', 'male');
-console.log("Gender :",localStorage.gender);
+console.log('Gender : ', localStorage.gender);
 ```
 
-The Output will be:
+The output will be:
 
 ```shell
 undefined
