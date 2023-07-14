@@ -47,11 +47,11 @@ The `$dateOne` and `$dateTwo` parameters are `DateTime` objects as returned by [
 |    `R`    | Sign (+, -)                                                                    |
 |    `r`    | Sign, empty when positive                                                      |
 
-## Codebyte Example
+## Example
 
 The example below creates two `DateTime` objects, then prints the difference with format strings.
 
-```codebyte/php
+```shell
 <?php
   $dateOfBirth = date_create("3/27/2001 4:30pm");
   $dateNow = date_create("now");
