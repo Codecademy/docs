@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`switch()`** function provides a convenient way to select one of several alternatives based on a given value or condition. It is often used as an alternative to multiple `if` statements or nested `if-else` statements when you have a limited set of options to choose from.
+The **`switch()`** function provides a convenient way to select one of several alternatives based on a given value or condition. It is often used as an alternative to multiple `if` statements or nested `if-else` statements when there are a limited set of options to choose from.
 
 ## Syntax
 
