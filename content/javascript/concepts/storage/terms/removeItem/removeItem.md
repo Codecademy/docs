@@ -1,5 +1,5 @@
 ---
-Title: 'removeItem()'
+Title: '.removeItem()'
 Description: 'Removes a key-value pair from the local storage based on the specified key.'
 Subjects:
   - 'Web Development'
