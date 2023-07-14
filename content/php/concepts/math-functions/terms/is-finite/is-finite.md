@@ -1,6 +1,6 @@
 ---
 Title: 'is_finite()'
-Description: 'Evaluates whether a float value is a legal finite number or not.'
+Description: 'Evaluates whether a value is a legal finite number or not.'
 Subjects:
   - 'Computer Science'
   - 'Web Design'
@@ -16,12 +16,11 @@ CatalogContent:
 
 The **`is_finite()`** method evaluates whether the value is finite or not and returns a *boolean* value.
 
-The value is `finite` if it falls within the allowed range for a PHP float on a given platform.
 
 ## Syntax
 
 ```pseudo
-$result = is_finite(float $value);
+$result = is_finite(value);
 ```
 
 Returns `1` if `value` is finite, else returns `false/nothing`
