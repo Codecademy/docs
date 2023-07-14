@@ -2,9 +2,8 @@
 Title: 'switch()'
 Description: 'Selects one of several alternatives based on a given value or condition.'
 Subjects:
-  - 'Conditional Statements'
-  - 'Comparison Operators'
-  - 'Logical Operators'
+  - 'Data Science'
+  - 'Code Foundations'
 Tags:
   - 'Conditionals'
   - 'Comparison'
