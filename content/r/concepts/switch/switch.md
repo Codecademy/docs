@@ -20,7 +20,7 @@ The **`switch()`** function provides a convenient way to select one of several a
 In the following code:
 
 - `expr` is the expression or value that you want to evaluate.
-- `case1`, `case2`, `case3`, and so on, are the possible cases or alternatives that you want to consider.
+- `case1`, `case2`, `case3`, and so on, are the possible cases or alternatives to be considered.
 
 The `expr` value is compared with each case value sequentially, and when a match is found, the corresponding expression or value associated with that case is returned.
 
