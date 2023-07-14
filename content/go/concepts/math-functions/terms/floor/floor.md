@@ -1,6 +1,6 @@
 ---
 Title: 'Floor()'
-Description: 'Returns the given decimal number rounded down to the nearest lower value.'
+Description: 'Returns the given decimal number rounded down to the nearest whole number.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -13,20 +13,22 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Floor()`** function returns a given decimal number rounded down to the nearest lower value.
+The **`Floor()`** function returns a given decimal number rounded down to the nearest whole number.
 
 ## Syntax
 
 ```pseudo
-math.Floor(decimalNumber float64) float64
+math.Floor(decimalNumber)
 ```
 
-The `Floor()` function accepts a single parameter of type float64 and rounds it down to the nearest lower value.
-Take notice that the returned value may appear to be an `int`, but it is a `float64` value.
+The `Floor()` function accepts a single parameter of type `float64` and rounds it down to the nearest whole number.
 
-In some exceptional cases, passing any of the following values: `±Inf`, `±0`, and `NaN` as an argument to the `Floor()` function, will result in the returned value being the same as the argument.
+> **Note:** The returned value may appear to be an `int`, but it is a `float64` value.
+> **Note:** Passing any of the following values: `±Inf`, `±0`, and `NaN` as an argument to the `Floor()` function, will result in the returned value being the same as the argument.
 
 ## Example
+
+The following example demonstrates how to use the `Floor()` function to round down numbers and print the result:
 
 ```go
 package main
