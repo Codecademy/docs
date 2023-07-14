@@ -25,7 +25,7 @@ date_diff(
 ): DateInterval
 ```
 
-The `$dateOne` and `$dateTwo` parameters are `DateTime` objects as returned by [date_create()](https://www.codecademy.com/resources/docs/php/date-functions/date-create). Because the returned value is a `DateInterval` object, [date_format()](https://www.codecademy.com/resources/docs/php/date-functions/date-format) cannot be used to format the result. The `DateInterval::format()` function can be used for formatting using the characters below. The formatting characters must be prefixed with a percent sign (`%`).
+The `$dateOne` and `$dateTwo` parameters are `DateTime` objects as returned by [`date_create()`](https://www.codecademy.com/resources/docs/php/date-functions/date-create). Because the returned value is a `DateInterval` object, [`date_format()`](https://www.codecademy.com/resources/docs/php/date-functions/date-format) cannot be used to format the result. The `DateInterval::format()` function can be used for formatting using the characters below. The formatting characters must be prefixed with a percent sign (`%`).
 
 | Character | Description                                                                    |
 | :-------: | ------------------------------------------------------------------------------ |
