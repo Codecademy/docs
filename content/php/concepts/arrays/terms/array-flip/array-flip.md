@@ -24,7 +24,6 @@ The `array_flip()` function has one required parameter:
 
 - `$original_array`: The array to be flipped.
 
-
 ## Example
 
 The following example uses the `array_flip()` function to flip `$original_array` :
@@ -57,13 +56,13 @@ This example is runnable and uses the `array_flip()` function:
 
 ```codebyte/php
 <?php
-    $original_array = array(
-      'apple' => 'fruit',
-      'carrot' => 'vegetable'
-    );
-
-    $flipped_array = array_flip($original_array);
-
-    print_r($flipped_array);
+    $colors = array('red', 'blue', 'green');
+    $color_to_tearch = 'blue';
+    
+    if (isset(array_flip($colors)[$color_to_tearch])) {
+        echo "The color $color_to_tearch exists in the array.";
+    } else {
+        echo "The color $color_to_tearch does not exist in the array.";
+    }
 ?>
 ```
