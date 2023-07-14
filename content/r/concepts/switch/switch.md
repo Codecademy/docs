@@ -63,4 +63,4 @@ season <- switch(
 )
 ```
 
-In this case, if the value of month does not match any of the specified cases, the default case "Unknown month" is returned and assigned to the variable season.
+In this scenario, if the value of month does not match any of the specified cases, the default case `"Unknown month"` is returned and assigned to the variable `season`.
