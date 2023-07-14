@@ -36,7 +36,7 @@ Using `pi()` to return the value of PI:
 
 ## Related Constants
 
-Some other predefined named constants related to π are :
+Some other predefined named constants related to π are:
 
 - `M_PI_2` : It describes π/2. Its value is 1.570796.
 - `M_PI_4` : It describes π/4. Its value is 0.785398.
