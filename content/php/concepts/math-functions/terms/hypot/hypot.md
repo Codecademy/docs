@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`hypot()`** function returns the length of the hypotenuse of a right-angle triangle. Given a right-angle triangle with sides `$length1` and `$length2`, it returns the square root of (`$length1`^2^ + `$length2`^2^).
+The **`hypot()`** function returns the length of the hypotenuse of a right-angle triangle. Given a right-angle triangle with sides `$length1` and `$length2`, it returns the square root of (`$length1`<sup>2</sup> + `$length2`<sup>2</sup>).
 
 The function accepts two `float` inputs and returns a value of type `float`.
 
