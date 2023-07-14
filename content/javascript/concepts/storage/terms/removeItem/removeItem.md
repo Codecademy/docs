@@ -33,7 +33,7 @@ localStorage.setItem('username', 'JohnDoe');
 localStorage.removeItem('username');
 ```
 
-In the example above, a key-value pair (`username`, `JohnDoe`) is added to the localeStorage using `setItem()`, and removed using `removeItem()`.
+In the example above, a key-value pair (`username`, `JohnDoe`) is added to the `localStorage` using `.setItem()`, and removed using `.removeItem()`.
 
 Similarly, you can do the same for the session storage:
 
