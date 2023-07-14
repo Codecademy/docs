@@ -27,7 +27,7 @@ The `array_flip()` function has one required parameter:
 
 ## Example
 
-The following example uses the `array_flip()` function to flip an ``$original_array` and store the resulted array on `$flipped_array`:
+The following example uses the `array_flip()` function to flip `$original_array` :
 
 ```php
 <?php
