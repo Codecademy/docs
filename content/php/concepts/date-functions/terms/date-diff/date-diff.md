@@ -19,8 +19,8 @@ The `date_diff()` function takes two `DateTime` objects as parameters and determ
 
 ```pseudo
 date_diff(
-    DateTimeInterface $dateOne, 
-    DateTimeInterface $dateTwo 
+    DateTimeInterface $dateOne,
+    DateTimeInterface $dateTwo
     bool $absolute=false
 ): DateInterval
 ```
@@ -28,7 +28,7 @@ date_diff(
 The `$dateOne` and `$dateTwo` parameters are `DateTime` objects as returned by [date_create()](https://www.codecademy.com/resources/docs/php/date-functions/date-create). Because the returned value is a `DateInterval` object, [date_format()](https://www.codecademy.com/resources/docs/php/date-functions/date-format) cannot be used to format the result. The `DateInterval::format()` function can be used for formatting using the characters below. The formatting characters must be prefixed with a percent sign (`%`).
 
 | Character | Description                                                                    |
-|:---------:|--------------------------------------------------------------------------------|
+| :-------: | ------------------------------------------------------------------------------ |
 |    `Y`    | Number of years, at least two digits with leading zero                         |
 |    `y`    | Number of years                                                                |
 |    `M`    | Number of months, at least two digits with leading zero                        |
