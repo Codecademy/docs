@@ -17,16 +17,16 @@ The **`switch()`** function provides a convenient way to select one of several a
 
 ## Syntax
 
-In the following code:
-
-- `expr` is the expression or value that you want to evaluate.
-- `case1`, `case2`, `case3`, and so on, are the possible cases or alternatives to be considered.
-
-The `expr` value is compared with each case value sequentially, and when a match is found, the corresponding expression or value associated with that case is returned.
-
 ```pseudo
 switch(expr, case1, case2, case3, ...)
 ```
+
+In this pseudo-code:
+
+- `expr` is the expression or value that needs to be evaluated.
+- `case1`, `case2`, `case3`, and so on, are the possible cases or alternatives to be considered.
+
+The `expr` value is compared with each case value sequentially, and when a match is found, the corresponding expression or value associated with that case is returned.
 
 ## Example
 
@@ -38,7 +38,7 @@ day <- 3
 weekday <- switch(day, "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
 ```
 
-In this example, the `day` variable is set to 3. The `switch()` function then compares the value of day with each case value. Since the third case matches, the corresponding value `"Wednesday"` is returned and assigned to the variable `weekday`.
+In this example, the `day` variable is set to 3. The `switch()` function then compares the value of `day` with each case value. Since the third case matches, the corresponding value `"Wednesday"` is returned and assigned to the variable `weekday`.
 
 The following example includes a default case:
 
@@ -63,4 +63,4 @@ season <- switch(
 )
 ```
 
-In this scenario, if the value of month does not match any of the specified cases, the default case `"Unknown month"` is returned and assigned to the variable `season`.
+In this scenario, if the value of `month` does not match any of the specified cases, the default case `"Unknown month"` is returned and assigned to the variable `season`.
