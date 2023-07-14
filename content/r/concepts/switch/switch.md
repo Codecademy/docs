@@ -30,7 +30,7 @@ switch(expr, case1, case2, case3, ...)
 
 ## Example
 
-The following example to illustrate the usage of the `switch()` function:
+The following example illustrates a basic implementation of the `switch()` method:
 
 ```r
 day <- 3
