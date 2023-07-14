@@ -38,7 +38,7 @@ day <- 3
 weekday <- switch(day, "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
 ```
 
-In this example, the `day` variable is set to 3. The `switch()` function then compares the value of day with each case value. Since the third case matches, the corresponding value "Wednesday" is returned and assigned to the variable `weekday`.
+In this example, the `day` variable is set to 3. The `switch()` function then compares the value of day with each case value. Since the third case matches, the corresponding value `"Wednesday"` is returned and assigned to the variable `weekday`.
 
 The following example includes a default case:
 
