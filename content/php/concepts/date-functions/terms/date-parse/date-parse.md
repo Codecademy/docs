@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `date_parse()` is an inbuilt function in PHP which is used to find the detailed information about a specified date.
+The `date_parse()` is an built-in function in PHP which is used to find the detailed information about a specified date.
 
 ## Syntax
 
@@ -20,7 +20,7 @@ The `date_parse()` is an inbuilt function in PHP which is used to find the detai
 date_parse($date);
 ```
 
-The `$date` parameter is mandatory. The `date_parse()` function returns an associative array of detailed information for a specified date on success and returns FALSE on failure.
+The `$date` parameter is mandatory. The `date_parse()` function returns an associative array of detailed information for a specified date on success and returns `false` on failure.
 
 ## Example
 
