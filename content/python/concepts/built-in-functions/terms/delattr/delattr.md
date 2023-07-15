@@ -51,3 +51,26 @@ print("Employee Age: ", employee1.age)
 # Will cause an AttributeError because attribute is removed
 print("Employee Position: ", employee1.position)
 ```
+## Codebyte Example
+
+In the example below, the `delattr()` function is used to remove an attribute from the class travel:
+
+```codebyte/python
+class travel:
+  first_stop = "Barcelone"
+  second_stop = "Nice"
+  third_stop = "Rome"
+
+my_holidays = travel()
+
+print("My first destinantion for my holiday is ", my_holiday.first_stop)
+print("My second destinantion for my holiday is ", my_holiday.second_stop)
+print("My third destinantion for my holiday is ", my_holiday.third_stop)
+
+delattr(travel, "third_stop")
+print("My first destinantion for my holiday is ", my_holiday.first_stop)
+print("My second destinantion for my holiday is ", my_holiday.second_stop)
+
+# Will cause an AttributeError because attribute is removed
+print("My third destinantion for my holiday is ", my_holiday.third_stop)
+```

@@ -44,5 +44,19 @@ x = 10
 y = 5
 
 print(eval("x + y")) # Output: 15
-print(eval("x + y"), {"x":15, "y":y}) # Output: 20
+print(eval("x + y", {"x":15, "y":y})) # Output: 20
+```
+## Codebyte Example
+
+In the example below, the `eval()` function is used to return a value from a string :
+
+```codebyte/python
+x = 2
+y = 3
+
+print(eval("x * y")) 
+print(eval("x * y", {"x": 3, "y": y}))
+print(eval("min([-10, 20, 45])"))
+#the following example will create a TypeError as the first argument must be a string
+print(eval(x*y))
 ```
