@@ -46,6 +46,7 @@ y = 5
 print(eval("x + y")) # Output: 15
 print(eval("x + y", {"x":15, "y":y})) # Output: 20
 ```
+
 ## Codebyte Example
 
 In the example below, the `eval()` function is used to return a value from a string :
