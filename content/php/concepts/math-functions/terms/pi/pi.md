@@ -38,11 +38,11 @@ Using `pi()` to return the value of π:
 
 Some other predefined named constants related to π are:
 
-| Constant     | Value                          |
-| ------------ | ------------------------------ |
-| `M_PI_2`     | π/2 or 1.570796                |
-| `M_PI_4`     | π/4. Its value is 0.785398     |
-| `M_1_PI`     | 1/π. Its value is 0.318309     |
-| `M_2_PI`     | 2/π. Its value is 0.636619     |
-| `M_SQRTPI`   | sqrt(π). Its value is 1.772453 |
-| `M_2_SQRTPI` | 2/sqrt(π) or 1.128379          |
+| Constant     | Value                 |
+| ------------ | --------------------- |
+| `M_PI_2`     | π/2 or 1.570796       |
+| `M_PI_4`     | π/4 or 0.785398       |
+| `M_1_PI`     | 1/π or 0.318309       |
+| `M_2_PI`     | 2/π or 0.636619       |
+| `M_SQRTPI`   | sqrt(π) or 1.772453   |
+| `M_2_SQRTPI` | 2/sqrt(π) or 1.128379 |
