@@ -20,7 +20,7 @@ The `date_parse()` is an built-in function in PHP which is used to find the deta
 date_parse($date);
 ```
 
-The `$date` parameter is mandatory. The `date_parse()` function returns an associative array of detailed information for a specified date on success and returns FALSE on failure.
+The `$date` parameter is mandatory. The `date_parse()` function returns an associative array of detailed information for a specified date on success and returns `false` on failure.
 
 ## Codebyte Example
 
