@@ -21,9 +21,7 @@ The **`strpos()`** function performs a case-sensitive search for the position of
 ## Syntax
 
 ```pseudo
-
 strpos(string,find,start)
-
 ```
 
 Parameters:
@@ -39,13 +37,9 @@ Parameters:
 ## Example
 
 ```php
-
 <?php
-
 echo  strpos("I love php, I love php too!","php");
-
 ?>
-
 ```
 
 The output of the above code will be `7`, as the string "php" starts at index 7.
