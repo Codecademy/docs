@@ -5,17 +5,14 @@ Description: 'Sets the milliseconds value of a date object based on Coordinated 
 
 Subjects:
   - 'Web Development'
-
   - 'Computer Science'
 
 Tags:
   - 'Date'
-
   - 'Methods'
 
 CatalogContent:
   - 'introduction-to-javascript'
-
   - 'paths/front-end-engineer-career-path'
 ---
 
@@ -24,44 +21,9 @@ The **`.setUTCMilliseconds()`** method sets the milliseconds value of a `Date` o
 ## Syntax
 
 ```pseudo
-
-
-
 myDate.setUTCMilliseconds(millisecondsValue);
-
-
-
-
 ```
 
 The `.setUTCMilliseconds()` method takes a single parameter, representing the numeric value of the `milliseconds`.
-
-## Codebyte Example
-
-In this code example, we start with the current date and time in UTC. We then use `.setUTCMilliseconds()` to modifiy the milliseconds component to `500`, while keeping the other components of the date and time unchanged.
-
-```codebyte/javascript
-
-
-
-const currentDate = new Date();
-
-
-
-console.log(currentDate); // Output: Tue Jul 14 2023 14:30:45 GMT+0000 (Coordinated Universal Time)
-
-
-
-
-currentDate.setUTCMilliseconds(500); // Setting the milliseconds to 500
-
-
-
-console.log(currentDate); // Output: Tue Jul 14 2023 14:30:45.500 GMT+0000 (Coordinated Universal Time)
-
-
-
-
-```
 
 > **Note**: It's important to note that the setUTCMilliseconds() method modifies the Date object in place. It returns the number of milliseconds since January 1, 1970, but it's typically not necessary to use the return value unless you specifically need it for calculations.
