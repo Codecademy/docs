@@ -37,18 +37,13 @@ class Person:
 
 person1 = Person()
 print(person1.position)
+# Output: Professor
 
 delattr(Person, "position")
-
-print("----  UPDATE  ----")
 print(person1.position)
+# Output: AttributeError: 'Person' object has no attribute 'position'
 ```
 
-```shell
-Professor
-----  UPDATE  ----
-AttributeError: 'Person' object has no attribute 'position'
-```
 
 ## Codebyte Example
 
