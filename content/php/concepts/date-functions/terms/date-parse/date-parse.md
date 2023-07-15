@@ -22,13 +22,37 @@ date_parse($date);
 
 The `$date` parameter is mandatory. The `date_parse()` function returns an associative array of detailed information for a specified date on success and returns FALSE on failure.
 
-## Codebyte Example
+## Example
 
 The example below gets an array from the `date_parse()` function, and prints out various elements from it:
 
-```codebyte/php
+```php
 <?php
-  print_r(date_parse("2023-06-27 11:27:40.7"));
+  print_r(date_parse("2023-06-27 11:27:40"));
 ?>
+```
+
+The output will be as follows:
+
+```shell
+Array
+(
+    [year] => 2023
+    [month] => 6
+    [day] => 27
+    [hour] => 11
+    [minute] => 27
+    [second] => 40
+    [fraction] => 0
+    [warning_count] => 0
+    [warnings] => Array
+        (
+        )
+    [error_count] => 0
+    [errors] => Array
+        (
+        )
+    [is_localtime] => 
+)
 ```
 
