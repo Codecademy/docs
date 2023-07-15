@@ -33,9 +33,9 @@ This section describes some important features of the Vim editor.
 ## Vim Modes
 Vim has three modes:
 
-+ `COMMAND MODE` : *Execute commands like undo, redo, find, replace, quit, etc.*
-+ `INSERT MODE` : *Type text*
-+ `VISUAL MODE` : *Highlight, select and edit text*
+- `COMMAND MODE` : Execute commands like undo, redo, find, replace, quit, etc.
+- `INSERT MODE` : Type and edit text.
+- `VISUAL MODE` : Highlight, select and edit text.
 
 ## Launching Vim
 
