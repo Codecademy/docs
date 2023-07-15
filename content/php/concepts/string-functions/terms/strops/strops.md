@@ -1,23 +1,18 @@
 ---
 Title: 'strpos()'
 
-Description: 'Returns the position of the first occurrence of a string inside another string. It is a case-sensitive function'
+Description: 'Performs a case-sensitive search for the first occurrence of a substring in a given string.'
 
 Subjects:
   - 'Computer Science'
-
-  - 'Web Design'
-
   - 'Web Development'
 
 Tags:
   - 'Strings'
-
   - 'Functions'
 
 CatalogContent:
   - 'learn-php'
-
   - 'paths/computer-science'
 ---
 
@@ -54,17 +49,3 @@ echo  strpos("I love php, I love php too!","php");
 ```
 
 The output of the above code will be `7`, as the string "php" starts at index 7.
-
-`strpos()` is case-sensitive. In the example above, the result would not be the same if the second parameter was written as "PHP" instead of "php".
-
-## Codebyte
-
-```codebyte/php
-
-<?php
-
-echo strpos("I love php, I love php too!","php", 10);
-
-?>
-
-```
