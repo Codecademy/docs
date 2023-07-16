@@ -26,7 +26,7 @@ Mathematically, it can be defined as:
 
 If the node input value is less than 0, it returns 0 as output. Else, it returns 1.
 
-### Usage and Limitation
+### Usage and Limitations
 
 As the name suggests, binary step can be used as an activation function in the output layer of a neural network for binary classification problems.
 
