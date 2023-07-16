@@ -46,7 +46,7 @@ def binary_step(x):
     # Activate node
     return 1
 
-# examples
+# Examples
 print(binary_step(-0.2))
 print(binary_step(0.5))
 ```
