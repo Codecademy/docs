@@ -22,7 +22,7 @@ CatalogContent:
 
 Mathematically, it can be defined as:
 
-![Binary Step Activation Function](https://raw.githubusercontent.com/Codecademy/docs/main/media/binary-step-function.png)
+![Binary Step Activation Function](https://raw.githubusercontent.com/Codecademy/docs/main/media/binary-step-function.jpg)
 
 If the node input value is less than 0, it returns 0 as output. Else, it returns 1.
 
@@ -39,7 +39,7 @@ The following is an example of the activation function in Python:
 ```codebyte/python
 def binary_step(x):
   # Apply binary step activation
-  if x <= 0:
+  if x < 0:
     # Deactivate node
     return 0
   else:
