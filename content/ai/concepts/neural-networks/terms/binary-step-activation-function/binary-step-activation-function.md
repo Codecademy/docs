@@ -43,7 +43,7 @@ def binary_step(x):
     # Deactivate node
     return 0
   else:
-    # activate node
+    # Activate node
     return 1
 
 # examples
