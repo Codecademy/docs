@@ -38,7 +38,7 @@ The following is an example of the activation function in Python:
 
 ```codebyte/python
 def binary_step(x):
-  """ Apply binary step activation"""
+  # Apply binary step activation
   if x <= 0:
     # deactivate node
     return 0
