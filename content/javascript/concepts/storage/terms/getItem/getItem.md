@@ -27,7 +27,7 @@ localStorage.getItem(keyName)
 sessionStorage.getItem(keyName)
 ```
 
-The `keyName` parameter is required and it's a string containing the name of the key you want to retrieve the value of.
+The `keyName` parameter is required and it's a string containing the name of the key to retrieve the value of.
 
 > **Note:** The `Storage.length` property can be used to test whether the storage object is empty or not.
 
