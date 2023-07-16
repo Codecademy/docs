@@ -40,7 +40,7 @@ The following is an example of the activation function in Python:
 def binary_step(x):
   # Apply binary step activation
   if x <= 0:
-    # deactivate node
+    # Deactivate node
     return 0
   else:
     # activate node
