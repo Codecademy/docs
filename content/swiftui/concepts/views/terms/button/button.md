@@ -87,7 +87,7 @@ struct ContentView: View {
 
 The following will be displayed:
 
-![swiftui-button-medium](https://github.com/kevveth/docs/assets/68872850/3f6283f5-bef2-452f-a635-a7608e115426 "Gif of a SwiftUI button being pressed. The colors of the screen and button change randomly as a result.")
+![Button](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-button.gif "Gif of a SwiftUI button being pressed. The colors of the screen and button change randomly as a result.")
 
 
 
