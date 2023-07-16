@@ -24,6 +24,9 @@ math.Floor(decimalNumber)
 The `Floor()` function accepts a single parameter of type `float64` and rounds it down to the nearest whole number.
 
 > **Note:** The returned value may appear to be an `int`, but it is a `float64` value.
+
+<!---blank--->
+
 > **Note:** Passing any of the following values: `±Inf`, `±0`, and `NaN` as an argument to the `Floor()` function, will result in the returned value being the same as the argument.
 
 ## Example
