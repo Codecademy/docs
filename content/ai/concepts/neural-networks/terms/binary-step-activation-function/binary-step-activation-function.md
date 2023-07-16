@@ -24,7 +24,7 @@ Mathematically, it can be defined as:
 
 ![Binary Step Activation Function](https://raw.githubusercontent.com/Codecademy/docs/main/media/binary-step-function.png)
 
-If the node input value is less than or equal to 0, it returns 0 as output else 1.
+If the node input value is less than 0, it returns 0 as output. Else, it returns 1.
 
 ### Usage and Limitation
 
