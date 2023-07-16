@@ -31,6 +31,7 @@ This section describes some important features of the Vim editor.
 - Users can save sessions to start where you left off last time.
 
 ## Vim Modes
+
 Vim has three modes:
 
 - `COMMAND MODE` : Execute commands like undo, redo, find, replace, quit, etc.
