@@ -14,15 +14,19 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`hypot()`** function returns the length of the hypotenuse of a 90-degree or 'right-angle' triangle.
+The **`hypot()`** function returns the length of the hypotenuse of a 90-degree or "right-angle" triangle.
 
 ## Syntax
 
 ```pseudo
-$hypotenuse = hypot(length1, length2);
+$hypotenuse = hypot($length1, $length2);
 ```
 
-Given a right-angle triangle with sides `$length1` and `$length2`, the function returns the square root of _length1^2 + length2^2_.
+Given a right-angle triangle with sides `$length1` and `$length2`, the function returns the result of the following formula:
+
+```tex
+hypotenuse = \sqrt{length1^2 + length2^2}
+```
 
 The function accepts two `float` inputs and returns a value of type `float`.
 
