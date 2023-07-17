@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`array_flip()`** method is used to interchange the keys and values of an array. It creates a new array where the original array's values become the keys, and the keys become the values. This function can be useful in situations where you need to quickly lookup values based on their previous keys.
+The **`array_flip()`** method is used to interchange the keys and values of an array. It creates a new array where the original array's values become the keys, and the keys become the values. This function can be useful in situations where it's needed to quickly lookup keys based on their previous values.
 
 ## Syntax
 
