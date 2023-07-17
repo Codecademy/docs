@@ -1,5 +1,5 @@
 ---
-Title: '<ruby-text>'
+Title: '<rt>'
 Description: 'Used to provide pronunciation, translation, or transliteration information for East Asian typography.'
 Subjects:
   - 'Web Development'
