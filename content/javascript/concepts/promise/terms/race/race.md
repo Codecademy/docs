@@ -60,7 +60,7 @@ Promise.race(promises)
 
 ## Codebyte Example
 
-The following example demonstrates that `Promise.race` returns a new promise which either resolves (if the first settled promise was resolved) or rejects (if the first settled promise was rejected).
+The following example demonstrates that **`Promise.race`** returns a new `Promise` object which either resolves (if the first settled promise was resolved) or rejects (if the first settled promise was rejected).
 
 ```codebyte/js
 function createPromise(resolve, delay, param) {

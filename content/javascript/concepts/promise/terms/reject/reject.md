@@ -39,7 +39,7 @@ myPromise.catch((err) => {
 
 ## Codebyte Example
 
-The example below demonstrates rejecting a Promise with a string value.
+The example below demonstrates rejecting a promise with a string value as the given reason.
 
 ```codebyte/js
 const rejectedPromise = Promise.reject('Did not make the cut!');
