@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`<rt>`** semantic HTML element represents the [ruby](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ruby) text component of a ruby annotation, this provides pronunciation, translation, or transliteration information for East Asian typography. The `<rt>` element must be contained within a [`<ruby>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ruby) element at all time.
+The **`<rt>`** semantic HTML element represents the ruby text component of a ruby annotation, this provides pronunciation, translation, or transliteration information for East Asian typography. The `<rt>` element must be contained within a `<ruby>` element at all times.
 
 ## Example
 
