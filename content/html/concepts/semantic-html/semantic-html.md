@@ -43,4 +43,4 @@ Semantic tags, such as `<header>` or `<footer>`, are designated for a specific p
 
 - Readability: Semantic HTML also makes the website’s source code easier to read for other web developers.
 
-- SEO: It improves the website SEO, or Search Engine Optimization, which is the process of increasing the number of people that visit a webpage. With better SEO, search engines are better able to identify the content of a website and weight the most important content appropriately.
+- SEO: It improves the website SEO, or Search Engine Optimization, which is the process of increasing the number of people that visit a webpage. With better SEO, search engines are better able to identify the content of a website and weigh the most important content appropriately.
