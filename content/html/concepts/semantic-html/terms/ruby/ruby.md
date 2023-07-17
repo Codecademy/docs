@@ -12,15 +12,13 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-## `<ruby>`
-
 The **`<ruby>`** tag is a semantic HTML element that represents small annotations usually used for showing pronunciation of Japanese and East Asian characters. You can use `<ruby>` together with `<rt>` /or `<rp>`. The `<ruby>` entails one or more chacters which require an explanation or pronunciation, and an `<rt>` element that provides that information, and an optional `<rp>` element which ascertains what to show to browsers that lack support for annotations.
 
 ## Syntax
 
-```
+```html
 <ruby>
-    <!-- contents go here -->
+  <!-- contents go here -->
 </ruby>
 ```
 
@@ -28,16 +26,14 @@ The **`<ruby>`** tag is a semantic HTML element that represents small annotation
 
 A ruby annotation:
 
-```
-<ruby>
-ゆきひろ <rt> Yukihiro </rt>
-</ruby>
+```html
+<ruby> ゆきひろ <rt> Yukihiro </rt> </ruby>
 ```
 
 ## Example 2
 
 This snippet code shows `<ruby>` being used with `<rt>` and `<rp>` tag:
 
-```
+```html
 <ruby> まつもと <rp>(</rp><rt>Matsumoto</rt><rp>)</rp> </ruby>
 ```
