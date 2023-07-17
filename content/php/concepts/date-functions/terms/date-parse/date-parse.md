@@ -1,6 +1,6 @@
 ---
 Title: 'date_parse()'
-Description: 'Accepts a date as a parameter, parses it and, retruns information about the given date in the form of an array.'
+Description: 'Accepts a date as a parameter, parses it, and returns information about the given date in the form of an array.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -20,7 +20,7 @@ The `date_parse()` is an built-in function in PHP which is used to find the deta
 date_parse($date);
 ```
 
-The `$date` parameter is mandatory. The `date_parse()` function returns an associative array of detailed information for a specified date on success and returns `false` on failure.
+The `$date` parameter is mandatory. The `date_parse()` function returns an associative array of detailed information for a specified date on success, and returns `false` on failure.
 
 ## Example
 
@@ -52,7 +52,6 @@ Array
     [errors] => Array
         (
         )
-    [is_localtime] => 
+    [is_localtime] =>
 )
 ```
-
