@@ -46,7 +46,6 @@ func main() {
     fmt.Printf("Square root of 9 = %f\n", math.Sqrt(9))
     fmt.Printf("Square root of 12.5 = %f\n", math.Sqrt(12.5))
 }
-
 ```
 
 The above code results in the following output:
