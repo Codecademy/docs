@@ -29,7 +29,7 @@ The following example uses the `strtolower()` function to convert a capitalized 
 
 ```php
 <?php
-  echo (strtolower( "I Solemnly Swear That I Am To No Good"));
+  echo (strtolower( "I Solemnly Swear That I Am Up To No Good"));
 ?>
 ```
 
