@@ -36,7 +36,7 @@ The following example uses the `strtolower()` function to convert a capitalized 
 The example will result in the following output:
 
 ```shell
-i solemnly swear that i am to no good
+i solemnly swear that i am up to no good
 ```
 
 ## Codebyte Example
