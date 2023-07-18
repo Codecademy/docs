@@ -23,7 +23,7 @@ str_replace($search, $replace, $base, $count)
 
 - `$search` is the `string` being searched for in `$base`. It can be a `string` or an `array`. Each element will be searched for if it's an `array`.
 - `$replace` is the `string` used for replacing the `$search` term. If `$search` and `$replace` are `arrays`, each `$search` item will be replaced by the corresponding item in `$replace`. If `$replace` items run out, an empty `string` will be used for the remaining values. If `$search` is an `array` and `$replace` is a `string`, then the `$replace` value will be used for all `$search` items.
-- `$base` is the `string(s)` being searched. If it is an `array`, the replacements will be made to every `string` in the `array`, and the function will return an `array` of the modified `strings`.
+- `$base` is the `string`(s) being searched. If it is an `array`, the replacements will be made to every `string` in the `array`, and the function will return an `array` of the modified `strings`.
 - `$count` is an optional `int`. If included, it will be set to the number of replacements performed.
 
 ## Example
