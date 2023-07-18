@@ -32,35 +32,11 @@ The example below demonstrates the use of the `is_infinite()` function to check 
 <?php
   $value = log(0);
   $result = is_infinite($value);
-  echo $result; 
+  echo $result;
 ?>
 ```
+This example results in the following output:
 
-## Codebyte Example
-
-The codebyte below deploys the `is_infinite()` function on the values of `100` and `log(0)` to evaluate whether they are infinite:
-
-```codebyte/php
-<?php
-//Declare the test values
-
-  $test_value1 = 100;
-  $test_value2 = log(0);
-
-//Use the if-else conditional to check whether the test values are infinite or not
-
-  if (is_infinite($test_value1)) {
-    echo "Test value 1 is infinite.";
-  } else {
-    echo "Test value 1 is not infinite.";
-  }
-  echo "\n"; //separate the output for the two test values using a new line
-
-  if (is_infinite($test_value2)) {
-    echo "Test value 2 is infinite.";
-  } else {
-    echo "Test value 2 is not infinite.";
-  }
-?>
-
+```shell
+  True
 ```
