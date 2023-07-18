@@ -1,4 +1,21 @@
+---
+Title: 'Congruences'
+Description: 'Congruences refer to the relationship between two integers a and b when they have the same remainder after division by positive integer m.'
+Subjects:
+  - 'Computer Science'
+  - 'Discrete Math'
+Tags:
+  - 'Arithmetic'
+  - 'Math'
+  - 'Logical'
+  - 'Logic'
+CatalogContent:
+  - 'computer-science'
+  - 'paths/computer-science'
+---
+
 # Congruences
+Congruences refer to the relationship between two integers *a* and *b* when they have the same remainder after division by positive integer *m*.
 ---
 #### a divides b
 If *a* and *b* are integers with a $$\neq$$ 0 then *a* divides *b* if an integer *c*, exists given that *b = ac*.
