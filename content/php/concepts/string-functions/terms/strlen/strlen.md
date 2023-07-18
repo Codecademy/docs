@@ -25,7 +25,7 @@ The `strlen()` method takes one required parameter: `$string`, which can be a li
 
 ## Example
 
-The following example uses the `strlen()` method to determine the length of a sentence. Then the `echo` command prints it to the console:
+The following example uses the `strlen()` method to determine the length of a sentence. Then the [`echo`](https://www.codecademy.com/resources/docs/php/string-functions/echo) command prints it to the console:
 
 ```php
 <?php
