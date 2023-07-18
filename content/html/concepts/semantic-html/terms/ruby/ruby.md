@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`<ruby>`** tag is a semantic HTML element that represents small annotations usually used for showing pronunciation of Japanese and East Asian characters. You can use `<ruby>` together with `<rt>` /or `<rp>`. The `<ruby>` entails one or more chacters which require an explanation or pronunciation, and an `<rt>` element that provides that information, and an optional `<rp>` element which ascertains what to show to browsers that lack support for annotations.
+The **`<ruby>`** tag is a semantic HTML element that represents small annotations usually used for showing the pronunciation of Japanese and East Asian characters. `<ruby>` can be used together with `<rt>` and/or `<rp>`. The `<ruby>` entails one or more characters that require an explanation or pronunciation, an `<rt>` element that provides information, and an optional `<rp>` element which ascertains what to show to browsers that lacks support for annotations.
 
 ## Syntax
 
