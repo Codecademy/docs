@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`is_infinite()`** function evaluates whether the value is infinite or not and returns a *boolean* value.
+The **`is_infinite()`** function evaluates whether the value is infinite or not and returns a boolean value.
 
 
 ## Syntax
