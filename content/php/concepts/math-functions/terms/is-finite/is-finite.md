@@ -31,7 +31,7 @@ The example below demonstrates the use of the `is_finite()` function to check wh
 ```php
 <?php
   $result = is_finite(100);
-  echo $result; //this will output '1', indicating True
+  echo $result; // Output: 1
 ?>
 ```
 
