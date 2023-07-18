@@ -16,7 +16,6 @@ CatalogContent:
 
 The **`is_finite()`** function evaluates whether the value is finite or not and returns a *boolean* value.
 
-
 ## Syntax
 
 ```pseudo
