@@ -53,7 +53,7 @@ The codebyte below uses the `is_finite()` function on the values of `100` and `l
   } else {
     echo "Test value 1 is not finite.";
   }
-  echo "\n"; //separate the output for the two test values using a new line
+  echo "\n"; // Separate the output for the two test values using a new line
 
   if (is_finite($test_value2)) {
     echo "Test value 2 is finite.";
