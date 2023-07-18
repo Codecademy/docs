@@ -37,7 +37,7 @@ The example below demonstrates the use of the `is_finite()` function to check wh
 
 ## Codebyte Example
 
-The codebyte below deploys the `is_finite()` function on the values of `100` and `log(0)` to evaluate whether they are `finite`:
+The codebyte below uses the `is_finite()` function on the values of `100` and `log(0)` to evaluate whether they are finite:
 
 ```codebyte/php
 <?php
