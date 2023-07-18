@@ -22,7 +22,7 @@ The **`is_infinite()`** function evaluates whether the value is infinite or not 
 $result = is_infinite(value);
 ```
 
-Returns `1` if `value` is infinite, else returns `false/nothing`
+Returns `1` if `value` is infinite, else returns `false`.
 
 ## Example
 
