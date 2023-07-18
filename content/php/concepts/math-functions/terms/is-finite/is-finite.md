@@ -22,7 +22,7 @@ The **`is_finite()`** function evaluates whether the value is finite or not and 
 $result = is_finite(value);
 ```
 
-Returns `1` if `value` is finite, else returns `false/nothing`
+Returns `1` (`true`) if the `value` is finite, nothing (`false`) otherwise.
 
 ## Example
 
