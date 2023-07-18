@@ -1,22 +1,26 @@
 ---
-Title: 'SASS (Syntactically Awesome Style Sheets)'
-Description: 'SASS (Syntactically Awesome Style Sheets) is a CSS preprocessor that extends CSS with advanced features, such as variables, nesting, mixins, and more, allowing for more efficient and maintainable stylesheet development.'
+Title: 'SASS'
+Description: 'SASS (Syntactically Awesome Style Sheets) is a preprocessor scripting language that extends CSS.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
 Tags:
-  - 'preprocessor'
-  - 'style'
+  - 'Development'
+  - 'Preprocessor'
+  - 'CSS'
+  - 'Style'
 CatalogContent:
   - 'learn-css' 
+  - 'paths/front-end-engineer-career-path'
 ---
 
-SASS (Syntactically Awesome Style Sheets) is a preprocessor scripting language that extends CSS. It provides additional features and capabilities to make writing CSS more efficient and maintainable. SASS files are compiled into regular CSS before being used by web browsers. 
+**SASS (Syntactically Awesome Style Sheets)** is a preprocessor scripting language that extends CSS. It provides additional features and capabilities to make writing CSS more efficient and maintainable. SASS files are compiled into regular CSS before being used by web browsers. 
 
-Note that SASS has two syntaxes: SCSS (.scss) and indented syntax (.sass). SCSS is the most commonly used and is similar to CSS, allowing you to write code with curly braces and semicolons. The indented syntax is less common and uses indentation and newlines instead of curly braces and semicolons. Both syntaxes are supported, and our examples are available in both formats.
+Note that SASS has two syntaxes: SCSS (.scss) and indented syntax (.sass). SCSS is the most commonly used and is similar to CSS, allowing code to be written with curly braces and semicolons. The indented syntax is less common and uses indentation and newlines instead of curly braces and semicolons. Both syntaxes are supported, and the examples are available in both formats.
 
 #### SASS Example
-```
+
+```scss
 .container
   width: 100%
   margin: 0 auto
@@ -41,11 +45,11 @@ Note that SASS has two syntaxes: SCSS (.scss) and indented syntax (.sass). SCSS 
 }
 ```
 
-## **Key Features**
+## Key Features
 
-### **Variables** 
+### Variables
 
-SASS allows you to define reusable variables, making it easy to store and reuse values throughout your stylesheets.
+SASS allows for the definition of reusable variables, making it easy to store and reuse values in stylesheets.
 
 ```scss
 $primary-color: #007bff;
@@ -62,9 +66,9 @@ $font-size: 16px;
 }
 ```
 
-### **Nesting**
+### Nesting
 
-SASS allows you to nest selectors inside one another, providing a cleaner and more readable structure.
+SASS allows nesting of selectors inside one another, providing a cleaner and more readable structure.
 
 ```scss
 .container {
@@ -85,7 +89,7 @@ SASS allows you to nest selectors inside one another, providing a cleaner and mo
 }
 ```
 
-### **Mixins**
+### Mixins
 
 SASS supports mixins, which are reusable blocks of styles that can be included in different selectors, promoting code reuse.
 
@@ -107,9 +111,9 @@ SASS supports mixins, which are reusable blocks of styles that can be included i
 }
 ```
 
-### **Partials and Import**
+### Partials and Import
 
-SASS allows you to split your stylesheets into smaller modular files called partials. These partials can be imported into other SASS files using the @import rule. By prefixing partial filenames with an underscore (_partial.scss), it indicates that they are not meant to be compiled into a separate CSS file. This modular approach, often referred to as partials, helps organize styles and promote reusability in SASS development.
+SASS allows the splitting of stylesheets into smaller modular files called partials. These partials can be imported into other SASS files using the @import rule. By prefixing partial filenames with an underscore (_partial.scss), it indicates that they are not meant to be compiled into a separate CSS file. This modular approach, often referred to as partials, helps organize styles and promote reusability in SASS development.
 
 ```scss
 // _variables.scss (Partial)
@@ -141,7 +145,7 @@ $font-size: 16px;
 }
 ```
  
-### **Extensions and Inheritance**
+### Extensions and Inheritance
 
 SASS provides the ability to extend and inherit styles, reducing code duplication.
 
@@ -168,9 +172,9 @@ SASS provides the ability to extend and inherit styles, reducing code duplicatio
 }
 ```
 
-### **Operators**
+### Operators
 
-Operators in SASS are symbols that perform mathematical operations on values. They include arithmetic operators (+, -, *, /), comparison operators (==, !=, >, <), and logical operators (and, or, not). They enable dynamic calculations and conditional logic within SASS stylesheets.
+Operators in SASS are symbols that perform mathematical operations on values. They include arithmetic operators ( `+, -, *, / `), comparison operators (`==, !=, >, <`), and logical operators (`and, or, not`). They enable dynamic calculations and conditional logic within SASS stylesheets.
 
 ```scss
 // Define variables
@@ -192,24 +196,24 @@ $font-size: 16px;
 }
 ```
 
-## **Using SASS**
+## Using SASS
 
 To use SASS, you need to compile your SASS files into regular CSS. There are several ways to compile SASS:
 
-- **Command Line:** You can use the command line to run the SASS compiler and generate CSS files.
+- **Command Line:** Use the command line to run the SASS compiler and generate CSS files.
 - **Build Tools and Task Runners:** Various build tools and task runners, like Gulp or Webpack, have SASS compilation plugins that automate the process.
 - **Online Editors:** There are online SASS editors that compile SASS code into CSS directly in the browser.
 
-## **Getting Started**
+## Getting Started
 
 To get started with SASS, follow these steps:
 
-1. Install a SASS compiler on your computer or use an online SASS editor.
+1. Install a SASS compiler or use an online SASS editor.
 2. Create a new SASS file with the `.scss` extension.
-3. Write your SASS code, taking advantage of features like variables, nesting, mixins, and more.
-4. Compile your SASS file into CSS using the chosen method.
-5. Link the compiled CSS file in your HTML document.
+3. Write some SASS code, taking advantage of features like variables, nesting, mixins, and more.
+4. Compile the SASS file into CSS using the chosen method.
+5. Link the compiled CSS file to the HTML document.
 
-That's it! You are now ready to leverage the power of SASS to write more flexible and maintainable stylesheets.
+That's it! Take advantage of the power of SASS to write more flexible and maintainable stylesheets.
 
 Remember to make use of official SASS documentation and online resources to explore more advanced features and techniques.
