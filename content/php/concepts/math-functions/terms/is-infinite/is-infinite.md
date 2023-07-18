@@ -42,7 +42,7 @@ The codebyte below deploys the `is_infinite()` function on the values of `100` a
 
 ```codebyte/php
 <?php
-//Declare the test values
+// Declare the test values
 
   $test_value1 = 100;
   $test_value2 = log(0);
