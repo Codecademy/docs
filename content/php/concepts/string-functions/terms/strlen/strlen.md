@@ -15,6 +15,9 @@ CatalogContent:
 
 The **`strlen()`** method returns the length of a `string`.
 
+> **Note:** This method returns the number of bytes rather than the number of characters.
+
+
 ## Syntax
 
 ```pseudo
