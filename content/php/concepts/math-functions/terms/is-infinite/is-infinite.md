@@ -62,5 +62,4 @@ The codebyte below deploys the `is_infinite()` function on the values of `100` a
     echo "Test value 2 is not infinite.";
   }
 ?>
-
 ```
