@@ -32,7 +32,7 @@ The example below demonstrates the use of the `is_infinite()` function to check 
 <?php
   $value = log(0);
   $result = is_infinite($value);
-  echo $result; //this will output '1', indicating True
+  echo $result; 
 ?>
 ```
 
