@@ -46,7 +46,7 @@ The codebyte below deploys the `is_finite()` function on the values of `100` and
   $test_value1 = 100;
   $test_value2 = log(0);
 
-//Use the if-else conditional to check whether the test values are finite or not
+// Use the if-else conditional to check whether the test values are finite or not
 
   if (is_finite($test_value1)) {
     echo "Test value 1 is finite.";
