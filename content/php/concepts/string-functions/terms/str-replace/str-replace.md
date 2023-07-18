@@ -28,7 +28,7 @@ str_replace($search, $replace, $base, $count)
 
 ## Example
 
-The following example uses the `str_replace()` function to replace the word `"book"` with `"lot"` in the given sentence. Then the `echo` command prints this sentence to the console:
+The following example uses the `str_replace()` function to replace the word `"book"` with `"lot"` in the given sentence. Then the [`echo`](https://www.codecademy.com/resources/docs/php/string-functions/echo) command prints this sentence to the console:
 
 ```php
 <?php
