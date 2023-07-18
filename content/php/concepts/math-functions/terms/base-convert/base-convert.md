@@ -19,16 +19,16 @@ The **`base_convert()`** converts a number from one number base to another.
 ## Syntax
 
 ```pseudo
-base_convert($number, $frombase, $tobase);
+base_convert(string $number, int $frombase, int $tobase): string
 ```
 
 The `base_convert()` function has three required parameters:
 
-- `$number`: This parameter specifies the number that is to be converted.
+- `$number`: This parameter specifies the number that is to be converted as a string.
 - `$frombase`: Specifies the original base of number.
 - `$tobase`: Specifies the base to convert to.
 
-The `base_convert()` function returns a number converted to the specified base.
+The `base_convert()` function returns a string representing the number converted from the original base to the specified base.
 
 ## Example
 
