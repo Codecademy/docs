@@ -21,7 +21,7 @@ The **`strlen()`** method returns the length of a `string`.
 strlen($string);
 ```
 
-The `strlen()` method takes one required parameter: `$string`, which can be a literal sequence of characters surrounded by quotes or a variable that refers to such a sequence. The method returns the length of `$string` in `bytes`, including all characters, special characters and whitespaces. It returns `0` if `$string` is an empty `string`.
+The `strlen()` method takes one required parameter: `$string`, which can be a literal sequence of characters surrounded by quotes or a variable that refers to such a sequence. The method returns the length of `$string` in `bytes`, including all characters, special characters, and whitespaces. It returns `0` if `$string` is an empty `string`.
 
 ## Example
 
