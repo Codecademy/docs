@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`fmod()`** function returns the remainder (Modulo) of x/y. It stands for Floating Modulo and calculates the Modulo of any division which may contain a `float` as both dividend and divisor.
+The **`fmod()`** function returns the remainder (modulo) of *x/y*. The name stands for "floating modulo" and the function calculates the modulo of any division which may contain a `float` as both dividend and divisor.
 
 ## Syntax
 
