@@ -25,7 +25,7 @@ The `str_shuffle()` function takes one required parameter: a `$string` that is a
 
 ## Example
 
-The following example uses the `str_shuffle()` function to shuffle the letters of the word `"secret"`. Then the `echo` command prints the shuffled letters as a `string` to the console:
+The following example uses the `str_shuffle()` function to shuffle the letters of the word `"secret"`. Then the [`echo`](https://www.codecademy.com/resources/docs/php/string-functions/echo) command prints the shuffled letters as a `string` to the console:
 
 ```php
 <?php
