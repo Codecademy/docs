@@ -4,7 +4,6 @@ Description: 'Evaluates whether a value is an infinite number or not.'
 Subjects:
   - 'Computer Science'
   - 'Web Design'
-  - 'Web Development'
 Tags:
   - 'Functions'
   - 'Methods'
