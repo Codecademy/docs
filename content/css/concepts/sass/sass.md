@@ -10,11 +10,11 @@ Tags:
   - 'CSS'
   - 'Style'
 CatalogContent:
-  - 'learn-css' 
+  - 'learn-css'
   - 'paths/front-end-engineer-career-path'
 ---
 
-**SASS (Syntactically Awesome Style Sheets)** is a preprocessor scripting language that extends CSS. It provides additional features and capabilities to make writing CSS more efficient and maintainable. SASS files are compiled into regular CSS before being used by web browsers. 
+**SASS (Syntactically Awesome Style Sheets)** is a preprocessor scripting language that extends CSS. It provides additional features and capabilities to make writing CSS more efficient and maintainable. SASS files are compiled into regular CSS before being used by web browsers.
 
 Note that SASS has two syntaxes: SCSS (.scss) and indented syntax (.sass). SCSS is the most commonly used and is similar to CSS, allowing code to be written with curly braces and semicolons. The indented syntax is less common and uses indentation and newlines instead of curly braces and semicolons. Both syntaxes are supported, and the examples are available in both formats.
 
@@ -31,7 +31,8 @@ Note that SASS has two syntaxes: SCSS (.scss) and indented syntax (.sass). SCSS 
   color: #333
 ```
 
-#### SCSS Example 
+#### SCSS Example
+
 ```scss
 .container {
   width: 100%;
@@ -113,7 +114,7 @@ SASS supports mixins, which are reusable blocks of styles that can be included i
 
 ### Partials and Import
 
-SASS allows the splitting of stylesheets into smaller modular files called partials. These partials can be imported into other SASS files using the @import rule. By prefixing partial filenames with an underscore (_partial.scss), it indicates that they are not meant to be compiled into a separate CSS file. This modular approach, often referred to as partials, helps organize styles and promote reusability in SASS development.
+SASS allows the splitting of stylesheets into smaller modular files called partials. These partials can be imported into other SASS files using the `@import` syntax. By prefixing partial filenames with an underscore (\_partial.scss), it indicates that they are not meant to be compiled into a separate CSS file. This modular approach, often referred to as partials, helps organize styles and promote reusability in SASS development.
 
 ```scss
 // _variables.scss (Partial)
@@ -144,7 +145,7 @@ $font-size: 16px;
   @extend .button;
 }
 ```
- 
+
 ### Extensions and Inheritance
 
 SASS provides the ability to extend and inherit styles, reducing code duplication.
@@ -174,7 +175,7 @@ SASS provides the ability to extend and inherit styles, reducing code duplicatio
 
 ### Operators
 
-Operators in SASS are symbols that perform mathematical operations on values. They include arithmetic operators ( `+, -, *, / `), comparison operators (`==, !=, >, <`), and logical operators (`and, or, not`). They enable dynamic calculations and conditional logic within SASS stylesheets.
+Operators in SASS are symbols that perform mathematical operations on values. They include arithmetic operators ( `+, -, *, /`), comparison operators (`==, !=, >, <`), and logical operators (`and, or, not`). They enable dynamic calculations and conditional logic within SASS stylesheets.
 
 ```scss
 // Define variables
