@@ -15,7 +15,6 @@ CatalogContent:
 
 The **`is_infinite()`** function evaluates whether the value is infinite or not and returns a boolean value.
 
-
 ## Syntax
 
 ```pseudo
@@ -35,8 +34,9 @@ The example below demonstrates the use of the `is_infinite()` function to check 
   echo $result;
 ?>
 ```
+
 This example results in the following output:
 
 ```shell
-  True
+1
 ```
