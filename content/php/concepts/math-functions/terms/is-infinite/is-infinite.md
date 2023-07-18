@@ -54,7 +54,7 @@ The codebyte below deploys the `is_infinite()` function on the values of `100` a
   } else {
     echo "Test value 1 is not infinite.";
   }
-  echo "\n"; //separate the output for the two test values using a new line
+  echo "\n"; // Separate the output for the two test values using a new line
 
   if (is_infinite($test_value2)) {
     echo "Test value 2 is infinite.";
