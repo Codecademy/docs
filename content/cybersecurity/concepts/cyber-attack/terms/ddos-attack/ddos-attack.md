@@ -35,4 +35,4 @@ DDoS attacks can be separated into three categories:
 - Provide training for staff members to recognize the signs of a DDoS attack.
 - Use online outage mitigation and response strategies.
 - Assess ongoing DDoS risks through tests that mimic these attacks.
-- Implement the technological tools that can handle the overflow of high Web traffics. Cloud-based Web servers like [AWS Shield](https://aws.amazon.com/shield/) are often recommended for this task.
+- Implement specialized tools that can handle the overflow of high Web traffic. Cloud-based Web servers like [AWS Shield](https://aws.amazon.com/shield/) are often recommended for this task.
