@@ -17,7 +17,7 @@ A **DDoS**, or Distributed Denial of Service, is a [cyber attack](https://www.co
 
 ## Types of DDOS Attacks
 
-DDoS attacks typically come in three categories:
+DDoS attacks can be separated into three categories:
 
 1. Volumetric(raw attack volume) attacks: Utilizes methods to generate volumes of online traffic to a company's website, causing its' bandwidth to be saturated and the flow of online viewership to be disjointed.
 2. Protocol attacks: Destroys the processing capacity of network infrastructure resources like servers, firewalls, and load balancers. This happens when malicious connection requests target by Layer 3 and 4 protocol connection requests.
