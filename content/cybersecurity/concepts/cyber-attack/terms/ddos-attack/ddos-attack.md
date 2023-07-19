@@ -1,6 +1,6 @@
 ---
 Title: 'DDoS Attack'
-Description: 'A Distributed Denial of Service(DDoS) attack occurs when a person uses sources from multiple online locations to harm a business's online operations.'
+Description: 'A Distributed Denial of Service(DDoS) attack occurs when resources from multiple online locations are leveraged to harm the online operations of an organization.'
 Subjects:
   - 'Cybersecurity'
   - 'Computer Science'
