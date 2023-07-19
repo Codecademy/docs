@@ -21,7 +21,7 @@ DDoS attacks can be separated into three categories:
 
 1. Volumetric(raw attack volume) attacks: Utilizes methods to generate volumes of online traffic to a company's website, causing its' bandwidth to be saturated and destabilizing the flow of online accessibility.
 2. Protocol attacks: Destroys the processing capacity of network infrastructure resources like servers, firewalls, and load balancers. This happens when malicious connection requests target by Layer 3 and 4 protocol connection requests.
-3. Application Attacks: Opens connections and initiating process and transaction requests that consume finite resources like disk space and memory storage. This occurs when weaknesses in the application layer are manipulated
+3. Application Attacks: Opens connections and initiating process and transaction requests that consume finite resources like disk space and memory storage. This occurs when weaknesses in the application layer are manipulated.
 
 ## Signs of a DDOS-infected device
 
