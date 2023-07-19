@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/fundamentals-of-cybersecurity'
 ---
 
-A **DDoS**, or Distributed Denial of Service, is a [cyber attack](https://www.codecademy.com/resources/docs/cybersecurity/cyber-attack) where a company or organization's websites and servers are overwhelmed by traffic as a result of a coordinated effort by a hacker or group. The attack may use a variety of methods to make or amplify requests to a system that can cause disruptions of service and damages due to the inability of the system(s) to handle the flood of malicious or false requests.
+A **DDoS**, or Distributed Denial of Service, is a [cyber attack](https://www.codecademy.com/resources/docs/cybersecurity/cyber-attack) where a company or organization's websites and servers are overwhelmed by traffic as a result of a coordinated effort by a hacker or group. These individuals often to use botnets, devices they hijack without the owners' knowledge, as a weapon of choice. However, hackers may use other methods, such as amplifying requests to a system that can cause disruptions of service and damages due to the inability of the system(s) to handle the flood of malicious or false requests.
 
 ## Types of DDOS Attacks
 
