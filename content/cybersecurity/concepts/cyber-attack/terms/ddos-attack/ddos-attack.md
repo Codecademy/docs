@@ -23,7 +23,7 @@ DDoS attacks typically come in three categories:
 2. Protocol attacks: Destroys the processing capacity of network infrastructure resources like servers, firewalls, and load balancers. This happens when malicious connection requests target by Layer 3 and 4 protocol connection requests.
 3. Application Attacks: Opens connections and initiating process and transaction requests that consume finite resources like disk space and memory storage. This occurs when weaknesses in the application layer are manipulated
 
-## Signs of a DDOS-infected device 
+## Signs of a DDOS-infected device
 
 - Slow access to files.
 - Unable to access a specific website.
@@ -36,4 +36,3 @@ DDoS attacks typically come in three categories:
 - Use online outage mitigation and response strategies.
 - Assess ongoing DDoS risks through tests that mimic these attacks.
 - Implement the technological tools that can handle the overflow of high Web traffics. Cloud-based Web servers like [AWS Shield](https://aws.amazon.com/shield/) are often recommended for this task.
-
