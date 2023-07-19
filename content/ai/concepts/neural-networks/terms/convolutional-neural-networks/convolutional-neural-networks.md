@@ -31,7 +31,7 @@ During convolution, the filter (_g(x)_) is slid over the input data (_f(x)_). At
 Although CNNs are commonly employed in computer vision tasks, there are also some challenges, such as:
 
 - Computational cost: Training CNNs typically requires substantial computational resources, and training with large datasets of high-resolution images can be time-consuming. Training times can also be long, and specialized hardware (e.g., GPUs) is often used to accelerate computations.
-- Need for large datasets: CNNs need large amounts of labeled training data in order to generalize well and learn meaningful features. Insufficient training data can lead to overfitting, which means the model fails to generalize to new, unseen data.
+Need for large datasets: CNNs need large amounts of labeled training data to generalize well and learn meaningful features. Insufficient training data can lead to overfitting, which means the model fails to generalize to new, unseen data.
 - Interpretability: CNNs are sometimes considered “black box models,” which means that their internal workings and decision-making processes are not easily interpretable by humans. The complex architectures and numerous parameters of CNNs make it difficult to interpret why specific predictions or decisions are made. This can raise concerns in domains where interpretability is crucial.
 
 ## Relation to AI
