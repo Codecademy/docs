@@ -28,7 +28,7 @@ DDoS attacks can be separated into three categories:
 - Slow access to files.
 - Unable to access a specific website.
 - No internet access.
-- Continuous appearances of spam emails.
+- Spam emails to contacts.
 
 ## How to Respond to a DDOS Attack
 
