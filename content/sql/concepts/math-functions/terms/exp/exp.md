@@ -15,14 +15,15 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-**`EXP()`** is a mathematical function in SQL that returns the value of **e** raised to the power of a given `number`. Where **e** is the base of natural logarithms, a mathematical constant equal to approximately 2.71828, and `number` is the exponent e is raised to.
+**`EXP()`** is a mathematical function in SQL that returns the value of _e_ raised to the power of a given number. Where _e_ is the base of natural logarithms, a mathematical constant equal to approximately 2.71828.
 
 ## Syntax
 
-```sql
-SELECT EXP(number)
-FROM table_name;
+```pseudo
+EXP(number)
 ```
+
+`number` represents a numeric value that _e_ is raised to.
 
 ## Example
 
@@ -34,7 +35,7 @@ The following table `exp` contains example data:
 | 2  | 1   |
 | 3  | 2   |
 
-The `EXP()` function is used to return the value of e raised to the power of the `num` column:
+The `EXP()` function is used to return the value of _e_ raised to the power of the `num` column:
 
 ```sql
 SELECT id, num, EXP(num) as exp_num
