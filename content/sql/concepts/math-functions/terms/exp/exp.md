@@ -1,6 +1,6 @@
 ---
 Title: 'EXP()'
-Description: 'Returns the value of e raised to the power of given number'
+Description: 'Returns the value of e raised to the power of given number.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
