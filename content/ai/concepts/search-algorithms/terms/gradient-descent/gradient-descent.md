@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/machine-learning-ai-engineering-foundations'
 ---
 
-**Gradient descent** is an optimization search [algorithm](https://www.codecademy.com/resources/docs/general/algorithm) that is widely used in [machine learning](https://www.codecademy.com/resources/docs/ai/machine-learning) to train neural networks and other models. It is a fundamental optimization algorithm that is used in a many fields of [artificial intelligence](https://www.codecademy.com/resources/docs/ai), such as natural language processing, computer vision, and robotics.
+**Gradient descent** is an optimization search [algorithm](https://www.codecademy.com/resources/docs/general/algorithm) that is widely used in [machine learning](https://www.codecademy.com/resources/docs/ai/machine-learning) to train neural networks and other models. It is a fundamental optimization algorithm that is used in many fields of [artificial intelligence](https://www.codecademy.com/resources/docs/ai), such as natural language processing, computer vision, and robotics.
 
 ## How Does Gradient Descent Work?
 
