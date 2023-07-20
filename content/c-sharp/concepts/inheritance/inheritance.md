@@ -192,5 +192,5 @@ private	Available only to the containing class.
 | internal         | Available only to classes in the current project where it is defined.     |
 | protected internal | Available to the current class, child classes that inherit from that class, or classes in the current project where it is defined. |
 | private          | Only available within the class where it is declared.                 |
-| private protected | Only available to the classes in the current project where it is defined and also to the children of those classes withing the same project.   |
+| private protected | Only available to the classes in the current project where it is defined and also to the children of all classes that inherit from the parent class within  the same project.   |
 
