@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-**`EXP()`** is a mathematical function in SQL that returns the value of _e_ raised to the power of a given number. Where _e_ is the base of natural logarithms, a mathematical constant equal to approximately 2.71828.
+**`EXP()`** is a mathematical function in SQL that returns the value of _e_ raised to the power of a given number. Where _e_ is a mathematical constant equal to approximately 2.71828, which is the base used in the determination of natural logarithms.
 
 ## Syntax
 
