@@ -29,11 +29,11 @@ EXP(number)
 
 The following table `exp` contains example data:
 
-| id | num |
-|----|-----|
-| 1  | 0   |
-| 2  | 1   |
-| 3  | 2   |
+| id  | num |
+| --- | --- |
+| 1   | 0   |
+| 2   | 1   |
+| 3   | 2   |
 
 The `EXP()` function is used to return the value of _e_ raised to the power of the `num` column:
 
@@ -42,12 +42,12 @@ SELECT id, num, EXP(num) as exp_num
 FROM exp;
 ```
 
-Output: 
+Output:
 
-| id | num | exp_num |
-|----|-----|---------|
-| 1  | 0   | 1       |
-| 2  | 1   | 2.71828 |
-| 3  | 2   | 7.38906 |
+| id  | num | exp_num |
+| --- | --- | ------- |
+| 1   | 0   | 1       |
+| 2   | 1   | 2.71828 |
+| 3   | 2   | 7.38906 |
 
 > **Note:** The `EXP()` function can be used with many popular SQL databases such as SQLite, MySQL, PostgreSQL, and SQL Server.
