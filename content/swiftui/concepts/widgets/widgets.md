@@ -1,15 +1,15 @@
 ---
 Title: 'Widgets'
 Description: 'Building user interfaces across Apple platforms.'
-Subjects: 
-    - 'iOS Development'
-Tags: 
-    - 'SwiftUI'
-    - 'UI'
-    - 'Mobile Development'
-CatalogContent: 
-    - 'learn-swift'
-    - 'paths/ios-developer'
+Subjects:
+  - 'iOS Development'
+Tags:
+  - 'SwiftUI'
+  - 'UI'
+  - 'Mobile Development'
+CatalogContent:
+  - 'learn-swift'
+  - 'paths/ios-developer'
 ---
 
 **Widgets** in SwiftUI are interactive components that provide users with glanceable information or quick access to app functionality directly from the home screen of their device.
