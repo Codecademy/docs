@@ -64,7 +64,7 @@ public class LandLinePhone : Phone
 
 ```
 
-In this example, we have two child classes, `SmartPhone` and `LandLinePhone`, both inheriting from the base class `Phone`. As a result, they have access to the common properties, Brand and Model, and the call method, Call(), defined in the `Phone` class.
+In this example, we have two child classes, `SmartPhone` and `LandLinePhone`, both inheriting from the base class `Phone`. As a result, they have access to the common properties, Brand and Model, and the call method, `Call()`, defined in the `Phone` class.
 
 The `SmartPhone` class has two additional methods, `BrowseInternet()` and `SendMessage()`, which are specific to smartphones. These methods enable smartphones to browse the internet and send messages. Those functionalities are not present in the parent `Phone` class. 
 
@@ -72,7 +72,7 @@ On the other hand, the `LandLinePhone` class does not have any additional method
 
 
 
-## implementation
+## Implementation
 
 The following example uses an enum to identify whether a given place is a city, country, or planet.
 
@@ -125,7 +125,7 @@ public class Car : Vehicle {
 
 ### Multilevel Inheritance
 
-Multilevel inheritance is when a child class inherits from a parent class which in turn inherits from another parent class. This forms a chain of  of inheritance. A commom example in real life is the grand-parent, parent and grand-children relationship,
+Multilevel inheritance is when a child class inherits from a parent class which in turn inherits from another parent class. This forms a chain of inheritance. A commom example in real life is the grand-parent, parent and grand-children relationship,
 where parent inherits from the grand-parents and the children inherit from both parent and grand-parent
 
 ```cs
@@ -176,20 +176,13 @@ public class Mouse : Animal{
 
 ## Access Modifiers
 
-In C# access modifiers are keywords used to set the accesibility level of a propertie, method or field in a C# program.   
-
-Keyword	Description
-public	Available to all classes.
-protected	Available only to the current class or to derived classes.
-internal	Available only to classes in the current assembly.
-protected internal	Available only to the current class, derived classes, or classes in the current assembly.
-private	Available only to the containing class.
+In C#, access modifiers are used as keywords to determine the accessibility level (visibility) of properties, methods, or fields within a C# program.
 
 | Keyword          | Description                                            |
 |------------------|--------------------------------------------------------|
 | public           | Available anywhere in the program.                              |
 | protected        | Available only to the current class or child classes that inherit from that class.|
-| internal         | Available only to classes in the current project where it is defined.     |
+| internal         | Available only to the classes in the current project where it is defined.     |
 | protected internal | Available to the current class, child classes that inherit from that class, or classes in the current project where it is defined. |
 | private          | Only available within the class where it is declared.                 |
 | private protected | Only available to the classes in the current project where it is defined and also to the children of all classes that inherit from the parent class within  the same project.   |
