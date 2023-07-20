@@ -321,4 +321,4 @@ obj.m()
 # Output: in B
 ```
 
-The order of parent classes decide which class `D` inherits from. To call the parent function of choice, the [super() method](<#super()>) is called inside the child class.
+The order of parent classes decide which class `D` inherits from. To call the parent function of choice, the `super()` method is called inside the child class.
