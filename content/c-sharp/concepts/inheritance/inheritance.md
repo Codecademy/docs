@@ -55,7 +55,7 @@ public class LandLinePhone : Phone
 
 ```
 
-In this example, we have two child classes, `SmartPhone` and `LandLinePhone`, both inheriting from the base class `Phone`. As a result, they have access to the common properties, Brand and Model, and the call method, `Call()`, defined in the `Phone` class.
+In this example, there are two child classes, `SmartPhone` and `LandLinePhone`, both inheriting from the base class `Phone`. As a result, they have access to the common properties, Brand and Model, and the call method, `Call()`, defined in the `Phone` class.
 
 The `SmartPhone` class has two additional methods, `BrowseInternet()` and `SendMessage()`, which are specific to smartphones. These methods enable smartphones to browse the internet and send messages. Those functionalities are not present in the parent `Phone` class. 
 
