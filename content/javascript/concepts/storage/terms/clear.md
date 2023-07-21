@@ -24,7 +24,7 @@ Storage.clear()
 ```
 The method does not accept arguments. It will clear all storage keys and their respective values.
 
-## Example
+## Codebyte Example
 New items are added to `sessionStorage` and `localStorage`. The `.clear()` method then removes all data 
 from each Storage object.
 
