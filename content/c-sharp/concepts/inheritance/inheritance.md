@@ -47,9 +47,6 @@ public class SmartPhone : Phone
     }
   }
 
-```
-
-```cs
 public class LandLinePhone : Phone
 {
     // LandLine phones don't have internet browsing functionality or message functionality
