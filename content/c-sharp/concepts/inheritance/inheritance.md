@@ -20,7 +20,6 @@ In summary, a child class in C# inherits the attributes and functionalities of i
 
 The `:` symbol is used in C# to implement inheritance, showing the child class's derivation from the parent class.
 
-
 ## Syntax
 
 ```cs
