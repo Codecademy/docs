@@ -127,7 +127,6 @@ public class SportCar : Car {
 
 ```
 
-
 ### Hierarchical Inheritance
 
 Hierarchical inheritance is when a single parent class has mutiple children.
