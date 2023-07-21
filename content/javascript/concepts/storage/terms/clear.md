@@ -1,6 +1,6 @@
 ---
 Title: '.clear()'
-Description: '.clear() removes all keys in a Storage object.'
+Description: 'Removes all keys in a Storage object.'
 Subjects:
   - 'Data Visualization'
   - 'Web Development'
@@ -24,11 +24,11 @@ Storage.clear()
 ```
 The method does not accept arguments. It will clear all storage keys and their respective values.
 
-## Codebyte Example
-New items are added to `sessionStorage` and `localStorage`. The `.clear()` method then removes all data 
+## Example
+In this example new items are added to `sessionStorage` and `localStorage` from console. The `.clear()` method then removes all data 
 from each Storage object.
 
-```codebyte/javascript
+```js
 // Add items to session storage.
 sessionStorage.setItem('tab-item1', 'TI-1')
 sessionStorage.setItem('tab-item2', 'TI-2')
@@ -44,8 +44,11 @@ localStorage.clear()
 // Output storage.
 sessionStorage
 localStorage
+```
 
-# Output:
+This example results in the following output:
+
+```shell
 Storage {length: 0}
 Storage {length: 0}
 ```
