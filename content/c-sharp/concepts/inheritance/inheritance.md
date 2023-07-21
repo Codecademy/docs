@@ -88,9 +88,7 @@ public class Program
 
 ```
 
-
 ## Types of Inheritance
-
 
 ### Single Inheritance
 
