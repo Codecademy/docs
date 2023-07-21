@@ -1,6 +1,6 @@
 ---
 Title: 'Arrays'
-Description: 'An array is a variable that can hold more than one value.'
+Description: 'In PHP, an array is an ordered map that can hold more than one value.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-An array is a variable that can hold more than one value. Arrays in PHP are stored as value pairs that in other languages would be called a dictionary or a hashtable. Keys can be strings or integers.
+An array can hold more than one value. In PHP, they're stored as value pairs that in other languages would be called a dictionary or a hashtable. Keys can be strings or integers.
 
 ## Syntax
 
@@ -44,7 +44,7 @@ echo $array4[5];
 ?>
 ```
 
-Additionally, when defining an array, the following key casts will occur:
+When defining an array, the following key casts will occur:
 
 - Strings containing valid `int` types, unless preceded by a `+` sign, will be cast to an `int` type key.
   As in the above example `"5"` is treated as `5`.
