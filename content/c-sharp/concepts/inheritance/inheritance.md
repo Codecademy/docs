@@ -61,6 +61,10 @@ The `SmartPhone` class has two additional methods, `BrowseInternet()` and `SendM
 
 On the other hand, the `LandLinePhone` class does not have any additional methods because landline phones are typically used only for calling, and this functionality is already inherited from the parent class.
 
+## Implementation
+
+The following example implements the classes created earlier in the main method.
+
 ```cs
 public class Program
 {
