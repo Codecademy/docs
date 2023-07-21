@@ -33,9 +33,6 @@ public class Phone
         Console.WriteLine($"Calling {phoneNumber}...");
     }
 }
-```
-
-```cs
 public class SmartPhone : Phone
   {
     public void BrowseInternet()
