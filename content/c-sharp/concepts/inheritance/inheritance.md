@@ -61,12 +61,6 @@ The `SmartPhone` class has two additional methods, `BrowseInternet()` and `SendM
 
 On the other hand, the `LandLinePhone` class does not have any additional methods because landline phones are typically used only for calling, and this functionality is already inherited from the parent class.
 
-
-
-## Implementation
-
-The following example uses an enum to identify whether a given place is a city, country, or planet.
-
 ```cs
 public class Program
 {
