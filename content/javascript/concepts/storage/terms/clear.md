@@ -15,15 +15,37 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-<!-- **.clear()** removes all keys in a Storage object.
+**.clear()** removes all keys in a Storage object.
 
 ## Syntax
-`Storage.clear()`
-The method does not accept arguments. It will clear all storage keys and their respective values.
-## Example
-```js
-
+```pseudo
+Storage.clear()
+// return: undefined
 ```
+The method does not accept arguments. It will clear all storage keys and their respective values.
 
+## Example
+New items are added to `sessionStorage` and `localStorage`. The `.clear()` method then removes all data 
+from each Storage object.
 
-##  --> -->
+```codebyte/javascript
+// Add items to session storage.
+sessionStorage.setItem('tab-item1', 'TI-1')
+sessionStorage.setItem('tab-item2', 'TI-2')
+
+// Add items to local storage.
+localStorage.setItem('domain-item1', 'DI-1')
+localStorage.setItem('domain-item2', 'DI-2')
+
+// Remove all items from both local and session storage.
+sessionStorage.clear()
+localStorage.clear()
+
+// Output storage.
+sessionStorage
+localStorage
+
+# Output:
+Storage {length: 0}
+Storage {length: 0}
+```
