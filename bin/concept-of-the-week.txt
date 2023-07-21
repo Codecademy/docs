@@ -1,1 +1,1 @@
-content/css/concepts/floats/floats.md
+content/css/concepts/display/display.md
