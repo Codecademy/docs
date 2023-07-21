@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Inheritance** in object-oriented programming (OOP) is the concept of creating new classes based on existing classes. In C#, we have parent classes and child classes. 
+**Inheritance** in object-oriented programming (OOP) is the concept of creating new classes based on existing classes. In C#, there are parent classes and child classes. 
 
 Child classes, similar to real-life relationships, can inherit properties, methods, and behaviors from their parent class by default and can also introduce their own unique characteristics.
 
