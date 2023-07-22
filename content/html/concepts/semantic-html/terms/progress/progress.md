@@ -12,7 +12,7 @@ CatalogContent:
   - 'path/front-end--engineer-career-path'
 ---
 
-The **`<progress>`** tag is a semantic HTML element that is used to a display a progress bar, an indicator that represents the progress a person has made in completing tasks such as a level in a game, question in an online exam, or parts of a [form]().
+The **`<progress>`** tag is a semantic HTML element that is used to a display a progress bar, an indicator that represents the progress a person has made in completing tasks such as a level in a game, question in an online exam, or parts of a [form](https://www.codecademy.com/resources/docs/html/forms).
 
 > **Note:** When using the `max` attribute in the `<progress>` element, the value must be greater than `0` and be a valid floating point number(e.g., 5.3). If the value is not specified, the default value is `1`.
 
@@ -38,6 +38,3 @@ The snippet below shows the tag being used to convey a 80% of a PDF file being d
 <label for ="file" > Downloading PDF:</label> 
 <progress id="file" value="80" max="100"> 80%</progress>
 ```
-
-
-[def]: "https://www.codecademy.com/resources/docs/html/forms"
