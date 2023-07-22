@@ -30,16 +30,16 @@ from each Storage object.
 
 ```js
 // Add items to session storage.
-sessionStorage.setItem('tab-item1', 'TI-1')
-sessionStorage.setItem('tab-item2', 'TI-2')
+sessionStorage.setItem('tab-item1', 'TI-1');
+sessionStorage.setItem('tab-item2', 'TI-2');
 
 // Add items to local storage.
-localStorage.setItem('domain-item1', 'DI-1')
-localStorage.setItem('domain-item2', 'DI-2')
+localStorage.setItem('domain-item1', 'DI-1');
+localStorage.setItem('domain-item2', 'DI-2');
 
 // Remove all items from both local and session storage.
-sessionStorage.clear()
-localStorage.clear()
+sessionStorage.clear();
+localStorage.clear();
 
 // Output storage.
 sessionStorage
