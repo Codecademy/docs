@@ -42,13 +42,13 @@ sessionStorage.clear();
 localStorage.clear();
 
 // Output storage.
-sessionStorage
-localStorage
+console.log(sessionStorage.length);
+console.log(localStorage.length);
 ```
 
 This example results in the following output:
 
 ```shell
-Storage {length: 0}
-Storage {length: 0}
+0
+0
 ```
