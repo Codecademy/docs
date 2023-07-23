@@ -22,7 +22,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 
 When forming a prompt, it is important to be precise, yet concise in your instruction. This means being specific, while also trying to do so in the least amount of words. There are several benefits when following this strategy. The motivation for this requires a minimal understanding of how Large Language Models (LLMs) work.
 
-When an LLM is given a body of text it typically breaks this text into individual units or "tokens." It then processes these tokens in order to generate an answer. This computation comes at a cost, and is the reason why companies charge a certain amount of dollars per token. Particularly when these tokens are being sent through some sort of API request. In these situations, having clear language can not only save money, but also directly affect the performance of the LLM.
+When an LLM is given a body of text it typically breaks this text into individual units or "tokens." It then processes these tokens in order to generate an answer. This computation comes at a cost, and is the reason why companies charge a certain amount of dollars per token, particularly when these tokens are being sent through some sort of API request. In these situations, having clear language can not only save money, but also directly affect the performance of the LLM.
 
 One example of using clear language could be the following.
 
