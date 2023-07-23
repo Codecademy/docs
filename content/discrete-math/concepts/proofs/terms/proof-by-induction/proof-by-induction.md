@@ -13,25 +13,24 @@ CatalogContent:
   -  'Computer Science'
 ---
 
-**Proof by Induction** is a method of mathematical proof that establishes a **base case** to develop an **induction hypothesis** that can then be proven by **induction**.
+**`Proof by Induction`** is a method of mathematical proof that establishes a **base case** to develop an **induction hypothesis** that can then be proven by **induction**.
 
-##Base Case
+## Base Case
 
 The *Base Case* verifies the problem or statement through a specific initial value or values.(*n* =0, *n* = 1) 
 
-##Induction Hypothesis
+## Induction Hypothesis
 
 The *Induction Hypothesis* assumes that the statement holds for some *k*, or range of values using *k* as a boundary.
 
-  - **Weak Induction**: Induction typically based on a specifc assumption.(*P*(n) = *P*(k), or *n* = *k*)
+- **Weak Induction**: Induction typically based on a specifc assumption.(*P*(n) = *P*(k), or *n* = *k*)
+- **Strong Induction**: Induction typically involving a range or global case of an assumption.(All integers less than or equal to *k*.)
 
-  - **Strong Induction**: Induction typically involving a range or global case of an assumption.(all integers less than or equal to *k*.)
-
-##Inductive Step
+## Inductive Step
 
 The *Inductive Step* proves the statement holds based on the Inductive Hypothesis.
 
-###Example 
+### Example 
 
 Prove by induction that 2^n > 2n
 
@@ -63,48 +62,48 @@ All mathematical proofs by induction consist of these three parts. Be sure to pr
 Note that any proof by weak induction is also a proof by strong induction, distinction between the two is determined by the need to prove 
 a substantive range of assumptions.
 
-**Proof by Induction's Application to Computer Science**
+## Proof by Induction's Application to Computer Science 
 
 A very strong relationship is present between *Recursion** and Mathematical Induction. *Recursion* solves a problem by specifying a solution to one or more base cases and then
 demonstrating how to derive the solution to one or more base cases and then demonstrating how to derive the soltion to a problem of an arbitrary size from the solutions to
 smaller problems of the same type. Similarly, mathematical induction proves a property about the natural numbers by proving the property about a base case and then proving that
 the property must be true for an arbitrary natural number *n* if it is true for the natural numbers smaller than *n*.
 
-### Example
+## Example
 
-Below is psuedocode of a function to compute a factorial, recursive steps will be done in parallel to show similarity. 
+Below is psuedocode of a function to compute a factorial, recursive steps will be done in parallel to show similarity: 
 
 
-```pseudo
-	factorial(n: integer): integer {
+```cpp
+	factorial(n: integer): integer 
 
-	    if (n == 0) {
+	    if (n == 0) 
 		return 1
-	    }
-	    else {
+	    
+	    else 
 		n = n * factorial(n - 1)
-	    } 
-	}
+	     
+	
 ```
 
 
-###Recursion: 
+### Recursion: 
 
 	Basis: If *n* is equal to 0, then return 1
-```pseudo
+```cpp
 	       factorial(0) = 1
 ```
-##Induction: 
+## Induction: 
 ```tex
 	Base case: n! when n = 0
 	
 	       0! = 1
 ```tex
-##Recursion: 
-```pseudo
+## Recursion: 
+```cpp
 	factorial(n) = n * (n - 1) * (n - 2) * ... * 1 
-```pseudo
-#Induction:
+```
+## Induction:
 
 	Inductive Hypothesis: Assume that this property holds true for n = k. For all k > 0.
 ```tex
@@ -122,6 +121,6 @@ Below is psuedocode of a function to compute a factorial, recursive steps will b
 
 Note: Typically, the problem will be to solve an expression or inequality. 
 
-##Conclusion 
+## Conclusion 
 
 Proof by Induction can be a powerful tool for algorithm verifaction, especially when using recursion.   
