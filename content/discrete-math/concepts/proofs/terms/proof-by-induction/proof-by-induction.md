@@ -84,7 +84,6 @@ Below is psuedocode of a function to compute a factorial, recursive steps will b
 	
 ```
 
-
 ### Recursion: 
 
 	Basis: If *n* is equal to 0, then return 1
