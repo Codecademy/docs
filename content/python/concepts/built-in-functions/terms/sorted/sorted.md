@@ -115,3 +115,30 @@ my_sorted_list = sorted(my_list, key=sorting_func)
 print(my_sorted_list)
 # Output: [4, 3, 2, 1]
 ```
+
+## Example 6
+
+Sorting a list of dictionaries based on a specific key:
+
+Suppose you have a list of dictionaries, and you want to sort them based on a specific key within each dictionary: 
+
+```python
+my_list_of_dicts = [
+    {"name": "Alice", "age": 30},
+    {"name": "Bob", "age": 25},
+    {"name": "Charlie", "age": 35},
+    {"name": "David", "age": 28}
+]
+
+# Sort the list of dictionaries based on the "age" key in ascending order
+sorted_list = sorted(my_list_of_dicts, key=lambda x: x["age"])
+
+print(sorted_list)
+# Output: [{'name': 'Bob', 'age': 25}, {'name': 'David', 'age': 28}, {'name': 'Alice', 'age': 30}, {'name': 'Charlie', 'age': 35}]
+
+# Sort the list of dictionaries based on the "name" key in alphabetical order (case-insensitive)
+sorted_list_by_name = sorted(my_list_of_dicts, key=lambda x: x["name"].lower())
+
+print(sorted_list_by_name)
+# Output: [{'name': 'Alice', 'age': 30}, {'name': 'Bob', 'age': 25}, {'name': 'Charlie', 'age': 35}, {'name': 'David', 'age': 28}]
+```
