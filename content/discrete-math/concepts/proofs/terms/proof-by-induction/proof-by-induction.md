@@ -72,7 +72,6 @@ the property must be true for an arbitrary natural number *n* if it is true for 
 
 Below is psuedocode of a function to compute a factorial, recursive steps will be done in parallel to show similarity: 
 
-
 ```cpp
 	factorial(n: integer): integer 
 
