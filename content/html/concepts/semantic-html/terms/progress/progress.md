@@ -38,11 +38,11 @@ Here's how it looks in a browser:
 
 ## Example 2
 
-The snippet below shows the tag being used to convey a 99% of a PDF file being uploaded.
+The snippet below shows the tag being used to convey a 99% of a MP4 file being uploaded.
 
 ```html
-<label for="music-file">Uploading MP4 file...99% complete:</label>
-<progress id="music-file" value="99" max="100">99%</progress>
+<label for="mp4-file">Uploading MP4 file...99% complete:</label>
+<progress id="mp4-file" value="99" max="100">99%</progress>
 ```
 
 Here's how it looks in a browser:
