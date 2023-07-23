@@ -120,7 +120,7 @@ print(my_sorted_list)
 
 Sorting a list of dictionaries based on a specific key:
 
-Suppose you have a list of dictionaries, and you want to sort them based on a specific key within each dictionary: 
+Given a list of dictionaries, they can be sorted based on a specific key within each dictionary: 
 
 ```python
 my_list_of_dicts = [
