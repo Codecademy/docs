@@ -24,7 +24,7 @@ When forming a prompt, it is important to be precise, yet concise in your instru
 
 When an LLM is given a body of text it typically breaks this text into individual units or "tokens." It then processes these tokens in order to generate an answer. This computation comes at a cost, and is the reason why companies charge a certain amount of dollars per token, particularly when these tokens are being sent through some sort of API request. In these situations, having clear language can not only save money, but also directly affect the performance of the LLM.
 
-One example of using clear language could be the following.
+One example of using unclear language could be the following:
 
 ```
 Explain the concept of for loops in Javascript. Keep your explaination short, and do not be too descriptive.
