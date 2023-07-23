@@ -44,7 +44,7 @@ One area in which tone is important, is writing an email. For example, different
 
 In addition to specifying the tone, you can also specify the format that you wish an LLM to follow. In some situations you may want the LLM to use a bullet list, versus a series of paragraphs.
 
-Finally, by specifying a possible audience, an LLM can even be more precise when generating text. For instance, an LLM will most likely provide additional details when writting an email for a professional audience, versus a less technical audience.
+Finally, by specifying a possible audience, an LLM can even be more precise when generating text. For instance, an LLM will most likely provide additional details when writing an email for a professional audience, versus a less technical audience.
 
 ### Provide Context
 
