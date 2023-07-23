@@ -1,5 +1,5 @@
 ---
-Title: 'progress' 
+Title: '<progress>' 
 Description: 'Used to display a progress bar.' 
 Subjects:
   - 'Web Development'
