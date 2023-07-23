@@ -17,7 +17,9 @@ The **`<progress>`** tag is a semantic HTML element that is used to a display a 
 ## Syntax
 
 ```html
-<progress value="number" max="number"> Percentage complete </progress>
+<progress value="number" max="number"> 
+  <!-- Percentage of completed task goes here -->
+  </progress>
 ```
 
 > **Note:** When using the `max` attribute in the `<progress>` element, the value must be greater than `0` and be a valid floating point number(e.g., 5.3). If the value is not specified, the default value is `1`.
