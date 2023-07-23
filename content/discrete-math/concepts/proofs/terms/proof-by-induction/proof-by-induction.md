@@ -107,6 +107,7 @@ Below is psuedocode of a function to compute a factorial, recursive steps will b
 			      k! = k x (k - 1) x (k - 2) x ... x 1
 ```
 	Inductive Step: Let n = k + 1. 
+	
 ```tex
 			      (k + 1)! = (k + 1) x k x (k - 1) x (k - 2) x ... x 1	
 
