@@ -24,9 +24,9 @@ The **`<progress>`** tag is a semantic HTML element that is used to display a pr
 
 > **Note:** When using the `max` attribute in the `<progress>` element, the value must be greater than `0` and be a valid floating point number (e.g. 5.3). If the value is not specified, the default value is `1`.
 
-## Example 
+## Example
 
-The code snippet below shows the `<progress>` tag is being used to convey an MP4 file being uploaded. 
+The code snippet below shows the `<progress>` tag is being used to convey an MP4 file being uploaded.
 
 ```html
 <form action="/upload" method="POST">
