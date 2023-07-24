@@ -44,7 +44,7 @@ The **`DATE_TRUNC()`** function in PostgreSQL has two required parameters:
   - `millennium`
 - `date` is the date, time, or timestamp to truncate.
 
-By default, the date will be truncated with respect to its current time zone. However, the function has an optional third parameter that can be used to specify a time zone for truncation.
+By default, the date will be truncated with respect to its current time zone.
 
 ### Example 1
 
