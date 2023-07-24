@@ -46,4 +46,4 @@ The snippet below shows the tag being used to convey a 99% of a MP4 file being u
 ```
 
 Here's how it looks in a browser:
-[Progress Bar 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-progress-bar-example-2.png)
+[Progress Bar 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-progress-bar-example-2.jpg)
