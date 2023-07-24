@@ -89,6 +89,8 @@ Multidimensional Array:
 
 The example below shows an array containing three separate arrays. Each array within `$fruitEaten` has three parameters. The first parameter refers to the name of a fruit. The second parameter refers to the total number of portions for that fruit. The third parameter is how many portions of that fruit have been eaten.
 
+The dimensions of a multidimensional array refer to the number of indices needed to select an item. In the example below, two indices are needed: the first to select an array within `$fruitEaten` and the second to select the item within the array.
+
 ```php
 <?php
 $fruitEaten = array(
@@ -105,5 +107,3 @@ The above code will produce the following output:
 ```shell
 10
 ```
-
-The dimensions of a multidimensional array refer to the number of indices needed to select an item. In the example above, two indices are needed: the first to select an array within `$fruitEaten` and the second to select the item within the array.
