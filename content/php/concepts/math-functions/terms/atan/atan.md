@@ -23,14 +23,14 @@ $result = atan($number);
 
 The `atan()` function takes one parameter:
 
-- $number (required): The number for which the arc tangent is to be calculated.
+- `$number` (required): The number for which the arc tangent is to be calculated.
 
 The `atan()` method returns a floating point number which is the arc tangent value of the number passed. The resulting numeric value will be between **-pi/2** and **pi/2** radians.
 
 To convert radians to degrees, use the following:
 
-```
-$degrees = $radians * ( 180.0 / M_PI )
+```pseudo
+$degrees = $radians * ( 180.0 / M_PI );
 ```
 
 ## Example
