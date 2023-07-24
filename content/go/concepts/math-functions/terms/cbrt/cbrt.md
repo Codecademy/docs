@@ -48,7 +48,7 @@ Cube root of 27 = 5.196152
 
 ## Codebyte Example
 
-This is the runnable example which demonstrates the usage of `Cbrt()` function in different cases:
+The following example is runnable and demonstrates the usage of `Cbrt()` in several different cases:
 
 ```codebyte/golang
 package main
