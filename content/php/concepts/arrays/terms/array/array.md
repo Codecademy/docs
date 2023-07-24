@@ -23,9 +23,7 @@ The **`array()`** function creates an array. There are three types of array that
 
 ## Syntax
 
-The `array()` function requires zero or more parameters to create an array. When no parameters are provided, an empty array is created. Indexed, associative, and multidimensional arrays require different parameters to each other.
-
-`array()` accepts different data types and can contain different data types within one array.
+The `array()` function requires zero or more parameters to create an array. When no parameters are provided, an empty array is created.
 
 Indexed Array:
 
@@ -54,6 +52,8 @@ array(
 ## Examples
 
 Indexed Array:
+
+The following example shows an array of animals, all accessible by indices.
 
 ```php
 <?php
@@ -87,7 +87,7 @@ The above code will produce the following output:
 
 Multidimensional Array:
 
-The example below shows an array containing three separate arrays. Each array within `$fruitEaten` has three parameters. The first parameter refers to the name of a fruit. The second parameter refers to the total number of portions available for that fruit. The third parameter is how many portions of that fruit have been eaten.
+The example below shows an array containing three separate arrays. Each array within `$fruitEaten` has three parameters. The first parameter refers to the name of a fruit. The second parameter refers to the total number of portions of that fruit. The third parameter is how many portions of that fruit have been eaten.
 
 ```php
 <?php
@@ -106,4 +106,4 @@ The above code will produce the following output:
 10
 ```
 
-The dimensions of a multidimensional array refer to the number of indices needed to select an item. In the example above, two indices are needed: the first to access the array within `$fruitEaten` and the second to access the item within the array.
+The dimensions of a multidimensional array refer to the number of indices needed to select an item. In the example above, two indices are needed: the first to select an array within `$fruitEaten` and the second to select the item within the array.
