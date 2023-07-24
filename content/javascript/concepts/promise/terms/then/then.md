@@ -44,3 +44,17 @@ myPromise.then(
   }
 );
 ```
+
+## Codebyte Example
+
+The following example shows a block scoped variable declared using the let keyword.
+
+```codebyte/javascript
+let person = new Promise(function(resolve){
+    resolve('I am a gamer');
+});
+person.then(console.log);
+
+```
+
+```
