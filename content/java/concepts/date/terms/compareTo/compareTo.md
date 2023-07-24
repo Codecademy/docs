@@ -28,8 +28,8 @@ The `Date.compareTo()` takes only one parameter:
 It returns
 
 - the value `0` if the argument Date is equal to this Date.
-- a value `less than 0` if this Date is before the Date argument.
-- a value `greater than 0` if this Date is after the Date argument.
+- a value less than `0` if this Date is before the Date argument.
+- a value greater than `0` if this Date is after the Date argument.
 
 The function throws a single exception that is [NullPointerException](https://www.codecademy.com/resources/docs/java/errors/nullpointerexception) if the argumentDate is null.
 
