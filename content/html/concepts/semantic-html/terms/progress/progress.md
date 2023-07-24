@@ -26,14 +26,31 @@ The **`<progress>`** tag is a semantic HTML element that is used to display a pr
 
 ## Example 
 
-The code snippet below shows the `<progress>` tag being used to convey the bar only being 90% finished.
+The code snippet below shows the `<progress>` tag is being used to convey an MP4 file being uploaded. 
 
 ```html
-<label for="download">Downloading...90%</label>
-<progress value="90" max="100">90%</progress>
+<form action="/upload" method="POST">
+  <label for="mp4-file">Upload MP4 file:</label>
+  <input type="file" id="mp4-file" name="mp4-file">
+  <br>
+  <label for="mp4-progress">Upload progress:</label>
+  <progress id="mp4-progress" value="50" max="100">50%</progress>
+  <br>
+  <input type="submit" value="Upload">
+</form>
 ```
 
 Here's how it looks in a browser:
-[Progress Bar](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-progress-bar-example.png)
+[Progress Bar 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-progress-bar-example-1.png)
 
+## Example 2
 
+The snippet below shows the tag being used to convey a 99% of a MP4 file being uploaded.
+
+```html
+<label for="mp4-file">Uploading MP4 file...99% complete:</label>
+<progress id="mp4-file" value="99" max="100">99%</progress>
+```
+
+Here's how it looks in a browser:
+[Progress Bar 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-progress-bar-example-2.png)
