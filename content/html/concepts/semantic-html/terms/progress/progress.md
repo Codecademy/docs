@@ -22,7 +22,7 @@ The **`<progress>`** tag is a semantic HTML element that is used to a display a 
   </progress>
 ```
 
-> **Note:** When using the `max` attribute in the `<progress>` element, the value must be greater than `0` and be a valid floating point number(e.g., 5.3). If the value is not specified, the default value is `1`.
+> **Note:** When using the `max` attribute in the `<progress>` element, the value must be greater than `0` and be a valid floating point number (e.g. 5.3). If the value is not specified, the default value is `1`.
 
 ## Example 1
 
