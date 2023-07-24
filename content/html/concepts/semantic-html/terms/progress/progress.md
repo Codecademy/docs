@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`<progress>`** tag is a semantic HTML element that is used to a display a progress bar, an indicator that represents the progress a person has made in completing tasks such as a level in a game, question in an online exam, or parts of a [form](https://www.codecademy.com/resources/docs/html/forms).
+The **`<progress>`** tag is a semantic HTML element that is used to a display a progress bar, a graphic indicator that represents the status of an event or process such as the level in a game, question in an online exam, or parts of a [form](https://www.codecademy.com/resources/docs/html/forms).
 
 ## Syntax
 
