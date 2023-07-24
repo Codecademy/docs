@@ -87,7 +87,7 @@ The above code will produce the following output:
 
 Multidimensional Array:
 
-The example below shows an array containing three separate arrays. Each array within `$fruitEaten` has three parameters. The first parameter refers to the name of a fruit. The second parameter refers to the total number of portions of that fruit. The third parameter is how many portions of that fruit have been eaten.
+The example below shows an array containing three separate arrays. Each array within `$fruitEaten` has three parameters. The first parameter refers to the name of a fruit. The second parameter refers to the total number of portions for that fruit. The third parameter is how many portions of that fruit have been eaten.
 
 ```php
 <?php
