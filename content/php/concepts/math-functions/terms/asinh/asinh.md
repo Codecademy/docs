@@ -22,7 +22,7 @@ The **`asinh()`** returns a floating point number which is the inverse hyperboli
 asinh(value)
 ```
 
-The `asinh()` function takes only one parameter, `value`. The value of this parameter must be in `radians`.
+The `asinh()` function takes only one parameter, `value`.
 
 ## Example
 
