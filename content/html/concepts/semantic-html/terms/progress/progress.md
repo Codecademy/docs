@@ -34,7 +34,7 @@ The code snippet below shows the `<progress>` tag being used to convey the bar o
 ```
 
 Here's how it looks in a browser:
-[Progress Bar 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-progress-bar-example-1.png)
+[Progress Bar 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-progress-bar-example-1.jpg)
 
 ## Example 2
 
