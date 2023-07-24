@@ -66,3 +66,19 @@ outerPromise
 
 // Output: Success!
 ```
+
+## Codebyte Example
+
+The following example shows a promise settled after the 1st resolve callback and ignores the rest for execution.
+
+```codebyte/javascript
+let work = new Promise(function(resolve,reject){
+    resolve('I have finished');
+    
+    reject(new Error('I have not finished yet'));
+    resolve('I am currently working');
+});
+
+console.log(work);
+
+```
