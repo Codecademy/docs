@@ -66,7 +66,7 @@ SELECT DATE_TRUNC('minute', '2023-07-23 07:08:30');
 
 ### Example 3
 
-Assume we have a table called `fruit_sales` with the following data:
+Assume there is a table called `fruit_sales` with the following data:
 
 | item   | sale_price | sale_date           |
 | ------ | ---------- | ------------------- |
@@ -76,7 +76,7 @@ Assume we have a table called `fruit_sales` with the following data:
 | Banana | 1.00       | 2023-07-23 11:45:51 |
 | Banana | 1.00       | 2023-07-23 11:58:20 |
 
-The **`DATE_TRUNC()`** function can be used to easily summarize how much money the fruit stand is making each hour of a given day:
+The **`DATE_TRUNC()`** function can be used to summarize how much money the fruit stand is making each hour of a given day:
 
 ```sql
 SELECT DATE_TRUNC('hour', sale_date) as fruit_sale_hour_at,
