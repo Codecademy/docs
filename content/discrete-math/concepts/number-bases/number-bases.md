@@ -67,7 +67,8 @@ Digit representation refers to the symbols used to express numbers in a specific
 
 ### Decimal to Other Bases
 
-  - To convert decimal (base-10) to binary, repeatedly divide the decimal number by `2`, keeping track of the remainders. The binary equivalent is obtained by reading the remainders in reverse order. 
+- To convert decimal (base-10) to binary, repeatedly divide the decimal number by `2`, keeping track of the remainders. The binary equivalent is obtained by reading the remainders in reverse order. 
+
   For example, to convert `27` to binary:
     ```
     27 / 2 = 13 remainder 1, 
