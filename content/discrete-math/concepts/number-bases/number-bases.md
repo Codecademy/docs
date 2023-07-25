@@ -46,7 +46,6 @@ Decimal is the most common number system that uses a base of 10. A number in dec
 
 Converting between number bases requires two key concepts: the place value system and the digit representation.
 
-
 In the place value system, each digit's value is determined by its position within the number. Each position represents a value based on the number's base raised to an exponent. Starting from the rightmost digit, the exponent begins at zero and increases by one as we move to the left. For instance, in decimal (base 10), `999` can be represented as `9 * 10^2 + 9 * 10^1 + 9 * 10^0`.
 
 Digit representation refers to the symbols used to express numbers in a specific number system. For example, in hexadecimal, the number `15` is represented as `F`.
