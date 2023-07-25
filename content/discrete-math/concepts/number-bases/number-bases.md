@@ -66,6 +66,7 @@ Digit representation refers to the symbols used to express numbers in a specific
   - To convert octal to hexadecimal, first convert the octal number to binary and then group the binary digits into sets of four and convert each group to its hexadecimal equivalent.
 
 ### Decimal to Other Bases
+
   - To convert decimal (base-10) to binary, repeatedly divide the decimal number by `2`, keeping track of the remainders. The binary equivalent is obtained by reading the remainders in reverse order. 
   For example, to convert `27` to binary:
     ```
