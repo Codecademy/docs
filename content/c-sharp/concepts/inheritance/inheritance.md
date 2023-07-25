@@ -70,23 +70,23 @@ public class Program
 {
     public static void Main()
     {
-        Smartphone smartphone = new Smartphone
+        SmartPhone cellPhone = new SmartPhone
         {
             Brand = "Apple",
             Model = "Iphone 14"
         };
 
-        LandlinePhone landlinePhone  = new LandlinePhone landlinePhone 
+        LandLinePhone housePhone  = new LandLinePhone 
         {
              Brand = "Panasonic",
              Model = "KX-TG3411SX"
         };
 
-        smartphone.Call("4259638547");  // Output: "Calling 4259638547..."
-        smartphone.SendMessage("2589634712", "Hi! I'm a new contributor of codecademy"); // Output: "Sending message to 2589634712: Hi! I'm a new contributor of codecademy"
-        smartphone.BrowseInternet();   // Output: "Browsing the internet..."
+        cellPhone.Call("4259638547");  // Output: "Calling 4259638547..."
+        cellPhone.SendMessage("2589634712", "Hi! I'm a new contributor of codecademy"); // Output: "Sending message to 2589634712: Hi! I'm a new contributor of codecademy"
+        cellPhone.BrowseInternet();   // Output: "Browsing the internet..."
 
-        landlinePhone.Call("4384938752");  // Output: "Calling 4384938752..."
+        housePhone.Call("4384938752");  // Output: "Calling 4384938752..."
     }
 }
 
