@@ -59,11 +59,10 @@ Digit representation refers to the symbols used to express numbers in a specific
   - To convert binary to hexadecimal (base-16), group the binary digits into sets of four (from the right) and convert each group to its hexadecimal equivalent. For example, `0b10011111` in binary is grouped as `1001 1111`, and the hexadecimal equivalent is `0x9F`.
 
 ### Octal to Other Bases
-  - To convert octal (base-8) to decimal, multiply each digit by 8 raised to its respective power and sum them up. For example, `0o67` in octal is `6 * 8^1 + 7 * 8^0 = 55` in decimal.
 
-  - To convert octal to binary, convert each octal digit to its 3-bit binary equivalent. For example, `0o67` in octal is `110 111` in binary.
-
-  - To convert octal to hexadecimal, first convert the octal number to binary and then group the binary digits into sets of four and convert each group to its hexadecimal equivalent.
+- To convert octal (base-8) to decimal, multiply each digit by 8 raised to its respective power and sum them up. For example, `0o67` in octal is `6 * 8^1 + 7 * 8^0 = 55` in decimal.
+- To convert octal to binary, convert each octal digit to its 3-bit binary equivalent. For example, `0o67` in octal is `110 111` in binary.
+- To convert octal to hexadecimal, first convert the octal number to binary and then group the binary digits into sets of four and convert each group to its hexadecimal equivalent.
 
 ### Decimal to Other Bases
 
