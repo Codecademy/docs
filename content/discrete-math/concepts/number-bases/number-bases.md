@@ -27,7 +27,9 @@ A base can be any whole number greater than 1. The four most commonly used numbe
   - Hexadecimal (Base 16)
 
 ### Binary
-Binary is a number system that uses a base of 2. A number in binary can only be represented by `0`'s and `1`'s. In computer languages, the notation for representing binary numbers is leading `0b`. For example, `0b1010` is a binary number.
+
+[Binary](https://www.codecademy.com/resources/docs/general/binary) is a number system that uses a base of 2. A number in binary can only be represented by `0`'s and `1`'s. In computer languages, the notation for representing binary numbers is leading `0b`. For example, `0b1010` is a binary number.
+
 
 [Click Here](https://www.codecademy.com/resources/docs/general/binary) to learn more about the binary number system.
 
