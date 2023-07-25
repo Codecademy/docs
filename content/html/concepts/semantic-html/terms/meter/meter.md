@@ -34,4 +34,4 @@ Below is an example of the `<meter>` tag being used to display disk usage:
 <p>Disk Usage <meter min="100" max="1000" value="80" title="GB"></meter>.</p>
 ```
 
-![Output of the meter tag example]()
+![Output of the meter tag example](https://github.com/droffilc1/docs/blob/6b4653764614e33f5640a7fe0528eb015e758b86/media/meter.png)
