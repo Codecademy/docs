@@ -83,7 +83,7 @@ Date
 Debugging
 Decorators
 Deep Learning
-Denoising 
+Denoising
 Dependency
 Developer Tools
 Development
