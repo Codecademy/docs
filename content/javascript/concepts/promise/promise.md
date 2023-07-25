@@ -81,3 +81,42 @@ promise
 
 // Output: Success: The promise was fulfilled!
 ```
+
+#### Async Await
+
+Starting from ES2017, JavaScript introduced the keywords "async" and "await", which is used to write promises in a cleaner way. This can be used as an alternative to other verbose solutions, such as promise chaining.
+
+Note that "await" is only usable in an asynchronous function, otherwise it will throw a SyntaxError.
+
+
+```js
+function promise() {
+  return new Promise(resolve => {
+    resolve('Successful promise!')
+  })
+}
+
+function promiseTwo {
+  return new Promise(resolve => {
+    resolve('Second successful promise!')
+  })
+}
+
+async function someAsyncAwaitFunction() {
+  try {
+    const promise = await promise()
+    const promiseTwo = await promiseTwo()
+
+    console.log(promise)
+    console.log(promiseTwo)
+  } catch (error) {
+    console.log(`Error from async function: ${error}`)
+  }
+}
+
+/*
+ Output:
+  Successful promise!
+  Second successful promise!
+*/
+```
