@@ -79,9 +79,8 @@ Digit representation refers to the symbols used to express numbers in a specific
     ```
     The binary equivalent is `11011`.
 
-  - To convert decimal to octal, repeatedly divide the decimal number by `8`, keeping track of the remainders. The octal equivalent is obtained by reading the remainders in reverse order.
-
-  - To convert decimal to hexadecimal, repeatedly divide the decimal number by `16`, keeping track of the remainders. The hexadecimal equivalent is obtained by reading the remainders in reverse order, with `10` represented as `A`, `11` as `B`, and so on.
+- To convert decimal to octal, repeatedly divide the decimal number by `8`, keeping track of the remainders. The octal equivalent is obtained by reading the remainders in reverse order.
+- To convert decimal to hexadecimal, repeatedly divide the decimal number by `16`, keeping track of the remainders. The hexadecimal equivalent is obtained by reading the remainders in reverse order, with `10` represented as `A`, `11` as `B`, and so on.
 
 ### Hexadecimal to Other Bases
   - To convert hexadecimal (base-16) to decimal, multiply each digit by 16 raised to its respective power and sum them up. For example, `0x3F` in hexadecimal is `3 * 16^1 + 15 * 16^0 = 63` in decimal.
