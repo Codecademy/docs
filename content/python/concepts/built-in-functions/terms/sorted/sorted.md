@@ -139,5 +139,4 @@ print(sorted_list)
 sorted_list_by_name = sorted(my_list_of_dicts, key=lambda x: x["name"].lower())
 
 print(sorted_list_by_name)
-# Output: [{'name': 'Alice', 'age': 30}, {'name': 'Bob', 'age': 25}, {'name': 'Charlie', 'age': 35}, {'name': 'David', 'age': 28}]
 ```
