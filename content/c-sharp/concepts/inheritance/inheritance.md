@@ -111,7 +111,7 @@ public class Car : Vehicle {
 
 ### Multilevel Inheritance
 
-Multilevel inheritance is when a child class inherits from a parent class which in turn inherits from another parent class. This forms a chain of inheritance. A commom example in real life is the grand-parent, parent and grand-children relationship,
+Multilevel inheritance is when a child class inherits from a parent class which in turn inherits from another parent class. This forms a chain of inheritance. A common example in real life is the grand-parent, parent and grand-children relationship.
 
 ```cs
 public class Vehicle {
