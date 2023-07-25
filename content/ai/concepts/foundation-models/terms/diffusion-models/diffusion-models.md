@@ -17,7 +17,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-**AI Diffusion Models** are generative models, which means they are used to generate data similar to what they were trained on. The models work by destroying training data through the addition of Gaussian noise, and then learning to recover that data.
+**Diffusion Models** are generative models, which means they are used to generate data similar to what they were trained on. The models work by destroying training data through the addition of Gaussian noise, and then learning to recover that data.
 
 ### About Diffusion Models
 
