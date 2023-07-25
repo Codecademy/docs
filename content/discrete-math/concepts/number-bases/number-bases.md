@@ -43,7 +43,9 @@ Decimal is the most common number system that uses a base of 10. A number in dec
 [Hexadecimal](https://www.codecademy.com/resources/docs/general/hexadecimal) is a number system that uses a base of 16. The first ten digits of a hexadecimal number contains digits `0-9` and the remaining six digits contains letters `A-F` (not case sensitive). In computer languages, the notation for representing hexadecimal numbers is leading `0x`. For example, `0xA63F` is a hexadecimal number.
 
 ## Converting between Bases
-Converting between number bases is simpler when you understand two key concepts: the place value system and the digit representation.
+
+Converting between number bases requires two key concepts: the place value system and the digit representation.
+
 
 In the place value system, each digit's value is determined by its position within the number. Each position represents a value based on the number's base raised to an exponent. Starting from the rightmost digit, the exponent begins at zero and increases by one as we move to the left. For instance, in decimal (base 10), `999` can be represented as `9 * 10^2 + 9 * 10^1 + 9 * 10^0`.
 
