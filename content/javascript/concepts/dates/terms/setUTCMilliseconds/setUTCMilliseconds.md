@@ -20,29 +20,32 @@ The **`.setUTCMilliseconds()`** method sets the milliseconds value of a `Date` o
 myDate.setUTCMilliseconds(millisecondsValue);
 ```
 
-The `.setUTCMilliseconds()` method takes a single parameter, representing the numeric value of the `milliseconds`.
+The `.setUTCMilliseconds()` method takes a single parameter, representing the numeric value of the milliseconds.
 
-> **Note**: It's important to note that the `.setUTCMilliseconds()` method modifies the `Date` object in place. It returns the number of milliseconds since January 1, 1970, but it's typically not necessary to use the return value unless you specifically need it for calculations.
+> **Note**: It's important to note that the setUTCMilliseconds() method modifies the Date object in place. It returns the number of milliseconds since January 1, 1970, but it's typically not necessary to use the return value unless it's specifically needed for calculations.
 
 ## Example
 
-In this example, a new `Date` object representing the current date and time is declared. The `.setUTCMilliseconds()` is used to modify the milliseconds part of the date to `500`.
+In this example, we created a `Date` object representing January 1, 2023, at 12:34:56 UTC. We then retrieved the current milliseconds component in UTC and set a new value of 2000 milliseconds. The result is a new Date object with the modified milliseconds while keeping the other components (year, month, day, hour, minute, and second) the same
 
 ```javascript
-// Create a new Date object with the current date and time
-const date = new Date();
+// Create a Date object for a specific date (January 1, 2023, at 12:34:56 UTC)
+const date = new Date(Date.UTC(2023, 0, 1, 12, 34, 56));
 
-console.log('Original Date:', date.toISOString());
+// Get the current milliseconds in UTC
+const currentUTCMilliseconds = date.getUTCMilliseconds();
 
-// Set the milliseconds value to 500
-date.setUTCMilliseconds(500);
+// Set a new value for milliseconds (e.g., 2000 milliseconds)
+const newUTCMilliseconds = 2000;
 
-console.log('Updated Date:', date.toISOString());
-```
+// Create a new Date object with the  date and modified UTC milliseconds
+const newDateWithModifiedMilliseconds = new Date(date);
+newDateWithModifiedMilliseconds.setUTCMilliseconds(newUTCMilliseconds);
 
-This code will result in an output similar to:
-
-```shell
-Original Date: 2023-07-19T16:54:09.353Z
-Updated Date: 2023-07-19T16:54:09.500Z
+console.log('Date:', date.toUTCString());
+console.log('Current UTC Milliseconds:', currentUTCMilliseconds);
+console.log(
+  'Modified Date with UTC Milliseconds:',
+  newDateWithModifiedMilliseconds.toUTCString()
+);
 ```
