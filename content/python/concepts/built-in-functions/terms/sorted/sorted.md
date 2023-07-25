@@ -116,7 +116,7 @@ print(my_sorted_list)
 # Output: [4, 3, 2, 1]
 ```
 
-## Example 6
+## Codebyte Example
 
 Sorting a list of dictionaries based on a specific key:
 
