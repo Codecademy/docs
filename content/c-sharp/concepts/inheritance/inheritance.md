@@ -18,7 +18,7 @@ Child classes, similar to real-life relationships, can inherit properties, metho
 
 In summary, a child class in C# inherits the attributes and functionalities of its parent class, while also having the flexibility to define its specific characteristics. A child class can modify or override the characteristics of its parent class, providing a new implementation for methods already defined in the parent class. This process is known as polymorphism, another fundamental concept in OOP.
 
-The `:` symbol is used in C# to implement inheritance, showing the child class's derivation from the parent class.
+The `:` symbol is used in C# to implement inheritance, within the declaration of the child class the `:` is used to specify the parent or origin class.
 
 ## Syntax
 
