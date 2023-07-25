@@ -134,7 +134,6 @@ my_list_of_dicts = [
 sorted_list = sorted(my_list_of_dicts, key=lambda x: x["age"])
 
 print(sorted_list)
-# Output: [{'name': 'Bob', 'age': 25}, {'name': 'David', 'age': 28}, {'name': 'Alice', 'age': 30}, {'name': 'Charlie', 'age': 35}]
 
 # Sort the list of dictionaries based on the "name" key in alphabetical order (case-insensitive)
 sorted_list_by_name = sorted(my_list_of_dicts, key=lambda x: x["name"].lower())
