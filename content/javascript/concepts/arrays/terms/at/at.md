@@ -1,6 +1,6 @@
 ---
 Title: '.at()'
-Description: 'Return the element at a specified index in an array.'
+Description: 'Returns the element at a specified index in an array.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -12,17 +12,19 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.at()`** method in JavaScript is used to return the element at a specified index in an array. The index can be either positive or negative, and negative indices count from the end of the array.
+The **`.at()`** method in JavaScript is used to return the element at a specified index in an array. The index can be either positive or negative (negative indices count from the end of the array).
 
 ## Syntax
 
-```js
+```pseudo
 array.at(index);
 ```
 
-- `index`:The element at the specified `index` is the one intended to be returned.
+- `index`: The index value of the element to be returned.
 
-## Example 1
+## Example
+
+Retrieving specific element from an array based on their index position.
 
 ```js
 const array = [1, 2, 3, 4, 5];
@@ -35,15 +37,4 @@ This example results in the following output:
 
 ```shell
 1
-```
-
-## Codebyte Example
-
-The following example uses `.at()` method and takes an integer as argument and returns the element on that `index`` :
-
-```codebyte/javascript
-const array = [1, 2, 3, 4, 5];
-const lastElement = array.at(-1);
-
-console.log(lastElement);
 ```
