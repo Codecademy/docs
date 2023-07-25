@@ -164,7 +164,7 @@ In C#, access modifiers are used as keywords to determine the accessibility leve
 
 | Keyword          | Description                                            |
 |------------------|--------------------------------------------------------|
-| public           | Available anywhere in the program.                              |
+| `public`           | Available anywhere in the program.                              |
 | protected        | Available only to the current class or child classes that inherit from that class.|
 | internal         | Available only to the classes in the current project where it is defined.     |
 | protected internal | Available to the current class, child classes that inherit from that class, or classes in the current project where it is defined. |
