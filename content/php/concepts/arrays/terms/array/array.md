@@ -37,7 +37,7 @@ Associative Array:
 array(key1=>value1, key2=>value2, key3=>value3);
 ```
 
-> **Note:** keys must be either a string or an integer, whereas the values can be any data type.
+> **Note:** Keys must be either a string or an integer, whereas the values can be of any data type.
 
 Multidimensional Array:
 
