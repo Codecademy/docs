@@ -26,7 +26,7 @@ community include:
 
 Examples of unacceptable behavior include:
 
-- Plagerism of any kind from other documentation sites
+- Plagiarism of any kind from other documentation sites
 - The use of sexualized language or imagery, and sexual attention or
   advances of any kind
 - Trolling, insulting or derogatory comments, and personal or political attacks
