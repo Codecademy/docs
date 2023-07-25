@@ -52,11 +52,10 @@ In the place value system, each digit's value is determined by its position with
 Digit representation refers to the symbols used to express numbers in a specific number system. For example, in hexadecimal, the number `15` is represented as `F`.
 
 ### Binary to Other Bases
-  - To convert binary (base-2) to decimal (base-10), multiply each digit by 2 raised to its respective power and sum them up. For example, `0b1001` in binary is `1 * 2^3 + 0 * 2^2 + 0 * 2^1 + 1 * 2^0 = 9` in decimal.
 
-  - To convert binary to octal (base-8), group the binary digits into sets of three (from the right) and convert each group to its octal equivalent. For example, `0b001100` in binary is grouped as `001 100`, and the octal equivalent is `0o14`.
-
-  - To convert binary to hexadecimal (base-16), group the binary digits into sets of four (from the right) and convert each group to its hexadecimal equivalent. For example, `0b10011111` in binary is grouped as `1001 1111`, and the hexadecimal equivalent is `0x9F`.
+- To convert binary (base-2) to decimal (base-10), multiply each digit by 2 raised to its respective power and sum them up. For example, `0b1001` in binary is `1 * 2^3 + 0 * 2^2 + 0 * 2^1 + 1 * 2^0 = 9` in decimal.
+- To convert binary to octal (base-8), group the binary digits into sets of three (from the right) and convert each group to its octal equivalent. For example, `0b001100` in binary is grouped as `001 100`, and the octal equivalent is `0o14`.
+- To convert binary to hexadecimal (base-16), group the binary digits into sets of four (from the right) and convert each group to its hexadecimal equivalent. For example, `0b10011111` in binary is grouped as `1001 1111`, and the hexadecimal equivalent is `0x9F`.
 
 ### Octal to Other Bases
 
