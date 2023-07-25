@@ -96,7 +96,7 @@ public class Program
 
 ### Single Inheritance
 
-Single inheritance is when a child class inherits the charactreristics of only one parent class.
+Single inheritance is when a child class inherits the characteristics of only one parent class.
 
 ```cs
 public class Vehicle {
