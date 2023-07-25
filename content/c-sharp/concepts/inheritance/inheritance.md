@@ -12,13 +12,13 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Inheritance** in object-oriented programming (OOP) is the concept of creating new classes based on existing classes. In C#, there are parent classes and child classes. 
+**Inheritance** in object-oriented programming (OOP) is the concept of creating new classes based on existing classes. In C#, there are parent classes and child classes.
 
 Child classes, similar to real-life relationships, can inherit properties, methods, and behaviors from their parent class by default and can also introduce their own unique characteristics.
 
 In summary, a child class in C# inherits the attributes and functionalities of its parent class, while also having the flexibility to define its specific characteristics. A child class can modify or override the characteristics of its parent class, providing a new implementation for methods already defined in the parent class. This process is known as polymorphism, another fundamental concept in OOP.
 
-The `:` symbol is used in C# to implement inheritance, within the declaration of the child class the `:` is used to specify the parent or origin class.
+The `:` symbol is used in C# within the declaration of the child class to specify the parent or origin class.
 
 ## Syntax
 
@@ -40,7 +40,7 @@ public class SmartPhone : Phone
           Console.WriteLine("Browsing the internet...");
     }
 
-      
+
     public void SendMessage(string phoneNumber, string message)
     {
         Console.WriteLine($"Sending message to {phoneNumber}: {message}");
@@ -50,14 +50,13 @@ public class SmartPhone : Phone
 public class LandLinePhone : Phone
 {
     // LandLine phones don't have internet browsing functionality or message functionality
-    
-}
 
+}
 ```
 
 In this example there are two child classes, `SmartPhone` and `LandLinePhone`. Both inherit from the base class or parent class `Phone`. As a result, they have access to the common properties, `Brand` and `Model`, and the call method, `Call()`, defined in the `Phone` class.
 
-The `SmartPhone` class has two additional methods, `BrowseInternet()` and `SendMessage()`, which are specific to smartphones. These methods enable smartphones to browse the internet and send messages. Those functionalities are not present in the parent `Phone` class. 
+The `SmartPhone` class has two additional methods, `BrowseInternet()` and `SendMessage()`, which are specific to smartphones. These methods enable smartphones to browse the internet and send messages. Those functionalities are not present in the parent `Phone` class.
 
 On the other hand, the `LandLinePhone` class does not have any additional methods because landline phones are typically used only for calling, and this functionality is already inherited from the parent class.
 
@@ -76,7 +75,7 @@ public class Program
             Model = "Iphone 14"
         };
 
-        LandLinePhone housePhone  = new LandLinePhone 
+        LandLinePhone housePhone  = new LandLinePhone
         {
              Brand = "Panasonic",
              Model = "KX-TG3411SX"
@@ -89,7 +88,6 @@ public class Program
         housePhone.Call("4384938752");  // Output: "Calling 4384938752..."
     }
 }
-
 ```
 
 ## Types of Inheritance
@@ -122,17 +120,17 @@ public class Car : Vehicle {
   // Vehicle class properties and methods accessible here due to inheritance
   // Car class properties and methods
 }
-public class SportCar : Car {
+public class SportsCar : Car {
   // Vehicle class properties and methods accessible here due to inheritance
   // Car class properties and methods accessible here due to inheritance
-  // SportCar class properties and methods
+  // SportsCar class properties and methods
 }
 
 ```
 
 ### Hierarchical Inheritance
 
-Hierarchical inheritance is when a single parent class has mutiple children.
+Hierarchical inheritance is when a single parent class has multiple children.
 
 ```cs
 public class Animal {
@@ -162,11 +160,11 @@ public class Mouse : Animal{
 
 In C#, access modifiers are used as keywords to determine the accessibility level (visibility) of properties, methods, or fields within a C# program.
 
-| Keyword          | Description                                            |
-|------------------|--------------------------------------------------------|
-| `public`           | Available anywhere in the program.                              |
-| protected        | Available only to the current class or child classes that inherit from that class.|
-| internal         | Available only to the classes in the current project where it is defined.     |
-| protected internal | Available to the current class, child classes that inherit from that class, or classes in the current project where it is defined. |
-| private          | Only available within the class where it is declared.                 |
-| private protected | Only available to the classes in the current project where it is defined and also to the children of all classes that inherit from the parent class within the same project.   |
+| Keyword              | Description                                                                                                                                                                  |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `public`             | Available anywhere in the program.                                                                                                                                           |
+| `protected`          | Available only to the current class or child classes that inherit from that class.                                                                                           |
+| `internal`           | Available only to the classes in the current project where it is defined.                                                                                                    |
+| `protected internal` | Available to the current class, child classes that inherit from that class, or classes in the current project where it is defined.                                           |
+| `private`            | Only available within the class where it is declared.                                                                                                                        |
+| `private protected`  | Only available to the classes in the current project where it is defined and also to the children of all classes that inherit from the parent class within the same project. |
