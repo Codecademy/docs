@@ -73,63 +73,58 @@ The `.gesture()` modifier is used for more advanced and customizable gestures, w
 
 These all have special modifiers, usually `.onEnded()` and `.onChanged()`.They can be used to take action when the gesture is in-flight (for `.onChanged()`) or completed (for `.onEnded()`).
 
-In the example below, a magnification gesture could be attached to a view so that pinching in and out scales the view up and down. This can be done by creating two `@State` properties to store the scale amount, using that inside a `.scaleEffect()` modifier, then setting those values in the gesture:
+In the example below, a magnification gesture could be attached to a view so that pinching in and out scales the view up and down. This can be done by creating two `@State` properties to store the scale amount, using that inside the `.scaleEffect()` modifier, then setting those values in the gesture:
 
 ```swift
-struct ContentView: View {
-    @State private var currentAmount = 0.0
-    @State private var finalAmount = 1.0
+@State private var currentAmount = 0.0
+@State private var finalAmount = 1.0
 
-    var body: some View {
-        Text("Hello, World!")
-            .scaleEffect(finalAmount + currentAmount)
-            .gesture(
-                MagnificationGesture()
-                    .onChanged { amount in
-                        currentAmount = amount - 1
-                    }
-                    .onEnded { amount in
-                        finalAmount += currentAmount
-                        currentAmount = 0
-                    }
-            )
-    }
+var body: some View {
+    Text("Hello, World!")
+        .scaleEffect(finalAmount + currentAmount)
+        .gesture(
+            MagnificationGesture()
+                .onChanged { amount in
+                    currentAmount = amount - 1
+                }
+                .onEnded { amount in
+                    finalAmount += currentAmount
+                    currentAmount = 0
+                }
+        )
 }
 ```
 
 This will display on Xcode:
 
-![This is a gif that shows the effect of using MagnificationGesture in Xcode simulation](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-magnificationgesture-example.gif)
+![This is a gif that shows the effect of using MagnificationGesture in Xcode simulation](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-gesture-magnficationgesture-1.gif)
 
 There is a problem with the code above because the text view didn't return to its normal state, which can result in a bad user experience. To fix this problem, the `currentAmount` property will be assigned to zero in the `.onEnded()` modifier, so the text view will return to its normal size after completing the gesture:
 
 ```swift
-struct Tap: View {
-    @State private var currentAmount = 0.0
+@State private var currentAmount = 0.0
 
-    var body: some View {
-        Text("Hello, World!")
-            .padding()
-            .foregroundColor(.red)
-            .scaleEffect(1 + currentAmount)
-            .gesture(
-                MagnificationGesture()
-                    .onChanged { amount in
-                        currentAmount = amount - 1
+var body: some View {
+    Text("Hello, World!")
+        .padding()
+        .foregroundColor(.red)
+        .scaleEffect(1 + currentAmount)
+        .gesture(
+            MagnificationGesture()
+                .onChanged { amount in
+                    currentAmount = amount - 1
+                }
+                .onEnded { amount in
+                    withAnimation(.spring()) {
+                        currentAmount = 0
                     }
-                    .onEnded { amount in
-                        withAnimation(.spring()) {
-
-                            currentAmount = 0
-                        }
-                    }
-            )
-    }
+                }
+        )
 }
 ```
 
 This will display on Xcode:
 
-![This is a gif that shows the effect of using MagnificationGesture with Spring animation in Xcode simulation](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-magnficationgesture-example-with-animation.gif)
+![MagnificationGesture in Xcode simulation](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-gesture-magnficationgesture-2.gif)
 
 The `withAnimation(.spring()){}` was added to give the text view a spring animation while it returns to its normal size, as it looks in the **.gif** above.
