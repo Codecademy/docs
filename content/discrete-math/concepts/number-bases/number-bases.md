@@ -35,6 +35,7 @@ A base can be any whole number greater than 1. The four most commonly used numbe
 Octal is a number system that uses a base of 8. A number in octal can only be represented by eight digits `0-7`. In computer languages, the notation for representing octal numbers is leading `0o`. For example, `0o0176` is an octal number.
 
 ### Decimal
+
 Decimal is the most common number system that uses a base of 10. A number in decimal contains digits `0-9`. In computer languages, by default there is no notation required to represent decimal numbers. For example, `9801` is a decimal number.
 
 ### Hexadecimal 
