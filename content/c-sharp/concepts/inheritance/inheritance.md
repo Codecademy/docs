@@ -1,6 +1,6 @@
 ---
 Title: 'Inheritance'
-Description: 'Inheritance in object-oriented programming (OOP) is the concept of creating new classes based on existing classes'
+Description: 'Inheritance in object-oriented programming (OOP) is the concept of creating new classes based on existing classes.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
