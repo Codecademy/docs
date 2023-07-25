@@ -18,7 +18,9 @@ CatalogContent:
 **Number Bases** are diverse systems for representing and expressing numbers. Each base defines the number of digits used to represent a value in that specific system.
 
 ## Types of Bases
-A base can be any whole number greater than 0. The four most commonly used number bases in a computer system are:
+
+A base can be any whole number greater than 1. The four most commonly used number bases in a computer system are:
+
   - Binary (Base 2)
   - Octal (Base 8)
   - Decimal (Base 10)
