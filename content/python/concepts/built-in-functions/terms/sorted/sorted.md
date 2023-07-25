@@ -18,7 +18,7 @@ Takes in an iterator object, such as a list, tuple, dictionary, set, or string, 
 
 ## Syntax
 
-```python
+```pseudo
 sorted(iterable, key=None, reverse=False)
 ```
 
@@ -119,8 +119,6 @@ print(my_sorted_list)
 ## Codebyte Example
 
 Sorting a list of dictionaries based on a specific key:
-
-Given a list of dictionaries, they can be sorted based on a specific key within each dictionary: 
 
 ```codebyte/python
 my_list_of_dicts = [
