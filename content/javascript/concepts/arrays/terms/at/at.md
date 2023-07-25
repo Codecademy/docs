@@ -24,7 +24,7 @@ array.at(index);
 
 ## Example
 
-Retrieving specific element from an array based on their index position.
+The example below demonstrates how to use the `.at()` function to extract an element from an array based on an index.
 
 ```js
 const array = [1, 2, 3, 4, 5];
