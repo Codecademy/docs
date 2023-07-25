@@ -39,9 +39,8 @@ Octal is a number system that uses a base of 8. A number in octal can only be re
 Decimal is the most common number system that uses a base of 10. A number in decimal contains digits `0-9`. In computer languages, by default there is no notation required to represent decimal numbers. For example, `9801` is a decimal number.
 
 ### Hexadecimal 
-Hexadecimal is a number system that uses a base of 16. The first ten digits of a hexadecimal number contains digits `0-9` and the remaining six digits contains letters `A-F` (not case sensitive). In computer languages, the notation for representing hexadecimal numbers is leading `0x`. For example, `0xA63F` is a hexadecimal number.
 
-[Click here](https://www.codecademy.com/resources/docs/general/hexadecimal) to learn more about the hexadecimal number system. 
+[Hexadecimal](https://www.codecademy.com/resources/docs/general/hexadecimal) is a number system that uses a base of 16. The first ten digits of a hexadecimal number contains digits `0-9` and the remaining six digits contains letters `A-F` (not case sensitive). In computer languages, the notation for representing hexadecimal numbers is leading `0x`. For example, `0xA63F` is a hexadecimal number.
 
 ## Converting between Bases
 Converting between number bases is simpler when you understand two key concepts: the place value system and the digit representation.
