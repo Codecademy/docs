@@ -10,30 +10,34 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
-  - 'paths/computer-science'
 ---
 
 Searches a list for a particular item and returns the number of matching entries found.
 
 ## Syntax
 
-```py
-list.count(value, start, end)
+```pseudo
+list.count(value)
 ```
 
-The `.count()` method has three parameters:
+The `.count()` method has just one parameter:
 
 - `value`: The string to search for. (Required)
 
-## Example 1
+## Example
 
 To count the number of `'pen'` within the `backpack` list:
 
-```codebyte/python
+```python
 backpack = ['pencil', 'pen', 'notebook', 'textbook', 'pen', 'highlighter', 'pen']
 
 numPen = backpack.count('pen')
 
 print(numPen)
-# Output: 3
+```
+
+This results in the following output:
+
+```shell
+3
 ```
