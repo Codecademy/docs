@@ -14,19 +14,19 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`asinh()`** returns a floating point number which is the inverse hyperbolic sine value of a number passed to it as argument.
+The **`asinh()`** returns a floating point value which is the inverse hyperbolic sine of the given number.
 
 ## Syntax
 
 ```pseudo
-asinh(value)
+asinh($value)
 ```
 
-The `asinh()` function takes only one parameter, `value`.
+The `asinh()` function takes only one parameter, `$value`.
 
 ## Example
 
-The example below uses the `asinh()` function to return a floating point number which is the inverse hyperbolic sine value of a number passed to it as argument.
+The example below demonstrates a basic implementation of `asinh()`.
 
 ```php
 <?php
@@ -34,4 +34,8 @@ The example below uses the `asinh()` function to return a floating point number 
 ?>
 ```
 
-The result will be the float value of `2.6441207610586`.
+The result will be:
+
+```shell
+2.6441207610586
+```
