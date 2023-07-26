@@ -37,7 +37,7 @@ However, an extension cannot add new stored properties or override existing meth
 
 ```swift
 extension SameType: Protocol {
-    // implement the protocol
+    // Implement the protocol
 }
 
 extension SameType: AnotherProtocol {
@@ -57,7 +57,7 @@ Notice the two separate extensions for two different protocols. Code readability
 
 ## Computed Properties
 
-A useful application of extensions is extending the built-in `Integer` type by adding functionality to calculate its square and cube. This can be done by adding two computed properties in the extension as shown below:
+A useful application of extensions is extending the built-in `Int` type by adding functionality to calculate its square and cube. This can be done by adding two computed properties in the extension as shown below:
 
 ```swift
 extension Int {
@@ -66,9 +66,9 @@ extension Int {
 }
 
 print("The square of 2 is \(2.squared).")
-// Prints "The square of 2 is 4.
+// Prints: "The square of 2 is 4.
 print("The cube of 3 is \(3.cubed).")
-// Prints "The cube of 3 is 27.
+// Prints: "The cube of 3 is 27.
 ```
 
 Another common application is extending a type to print itself out in a human-readable format. This can be accomplished by conforming the type to the `CustomStringConvertible` protocol found in the Swift Standard Library:
@@ -81,7 +81,7 @@ struct Person {
 
 let person = Person(name: "Bob", age: 35)
 print(person)
-// Prints Person(name: "Bob", age: 35) -- Not really human-friendly
+// Prints: Person(name: "Bob", age: 35) -- Not really human-friendly
 
 extension Person: CustomStringConvertible {
     var description: String {
@@ -90,12 +90,12 @@ extension Person: CustomStringConvertible {
 }
 
 print(person)
-// Prints "Hi, my name is Bob and I am 35 years old."
+// Prints: "Hi, my name is Bob and I am 35 years old."
 ```
 
 ## Methods
 
-New instance and type methods can be added to existing types via extensions. For example, the built-in `Integer` type can be extended to offer additional functionality such as returning a custom message about itself and performing an operation on itself as shown below:
+New instance and type methods can be added to existing types via extensions. For example, the built-in `Int` type can be extended to offer additional functionality such as returning a custom message about itself and performing an operation on itself as shown below:
 
 ```swift
 extension Int {
@@ -110,9 +110,9 @@ extension Int {
 
 var x = 4
 print(x.sayNumber())
-// Prints "I am number 4."
+// Prints: "I am number 4."
 
 x.squared()
 print(x)
-// Prints 16
+// Prints: 16
 ```
