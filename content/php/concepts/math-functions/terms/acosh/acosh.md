@@ -30,7 +30,11 @@ Where `$number` is the value in radians that the inverse hyperbolic cosine will 
 ?>
 ```
 
-The result will be a float value of `2.9932228461264`.
+This will result in the following output:
+
+```shell
+2.9932228461264
+
 
 
 
