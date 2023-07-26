@@ -35,7 +35,7 @@ Some special return cases:
 
 ## Example
 
-Below is a simple example where we find out the integer and fractional parts of 3.3456.
+Below is a basic implementation of the `Modf()` function.
 
 ```go
 package main
