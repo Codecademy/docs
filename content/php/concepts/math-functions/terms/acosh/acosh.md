@@ -34,9 +34,7 @@ This will result in the following output:
 
 ```shell
 2.9932228461264
-
-
-
+```
 
 ## Codebyte Example
 
@@ -45,6 +43,6 @@ The following code is runnable and demonstrates the use of `acosh()`.
 ```codebyte/php
 <?php
   echo(acosh(-10) . " Radians\n");
-  echo(acosh(5)) . " Radians";
+  echo(acosh(5) . " Radians");
 ?>
 ```
