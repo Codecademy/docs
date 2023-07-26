@@ -33,7 +33,6 @@ Some special return cases:
 - If (±)Inf is passed as an argument, then `Modf` returns (±)Inf and `NAN`.
 - If the argument passed is `NAN`, then Modf returns `NAN` and `NAN`.
 
-
 ## Example
 
 Below is a simple example where we find out the integer and fractional parts of 3.3456.
@@ -42,16 +41,16 @@ Below is a simple example where we find out the integer and fractional parts of 
 package main
 
 import(
-  "fmt" 
+  "fmt"
   "math"
-) 
+)
 
 func main() {
   var x float64 = 3.3456
 
-  var w,z float64 = math.Modf(x)
-	fmt.Print("For ", x," integer part: ", w, " fractional part: ",z)
-} 
+  var w, z float64 = math.Modf(x)
+  fmt.Print("For ", x, " integer part: ", w, " fractional part: ", z)
+}
 ```
 
 The output will be:
