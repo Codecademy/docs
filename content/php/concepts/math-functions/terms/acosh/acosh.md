@@ -40,7 +40,7 @@ This will result in the following output:
 
 ## Codebyte Example
 
-The `acosh()` function returns the inverse hyperbolic cosine of the given number as a float value in radians.
+The following code is runnable and demonstrates the use of `acosh()`.
 
 ```codebyte/php
 <?php
