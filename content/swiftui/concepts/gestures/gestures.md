@@ -13,7 +13,7 @@ CatalogContent:
   - 'path/iOS-path'
 ---
 
-**Gestures** are used to make views respond to various physical touches like taps, swipes, drags, and other standard screen motions. (Modifiers)[https://www.codecademy.com/resources/docs/swiftui/viewmodifier] handle the logic behind gestures like a tap.
+**Gestures** are used to make views respond to various physical touches like taps, swipes, drags, and other standard screen motions. [Modifiers](https://www.codecademy.com/resources/docs/swiftui/viewmodifier) handle the logic behind gestures like a tap.
 
 ## Tap Gestures
 
@@ -42,7 +42,7 @@ Every time the view is tapped, the code block within the `.onTapGesture()` modif
 
 After tapping the text view some `number` of times, the code block will run. For example, if `number` was set to `3`, three taps would cause the code block to be run.
 
-> **Note:** For buttons, create a (`Button`)[https://www.codecademy.com/resources/docs/swiftui/views/button] instance rather than a tap gesture. Buttons automatically provide standard behaviors like accessibility labels and hints.
+> **Note:** For buttons, create a [`Button`](https://www.codecademy.com/resources/docs/swiftui/views/button) instance rather than a tap gesture. Buttons automatically provide standard behaviors like accessibility labels and hints.
 
 ## Long Press Gestures
 
