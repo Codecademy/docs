@@ -1,6 +1,6 @@
 ---
 Title: 'acosh()'
-Description: 'Returns a floating point number of the inverse hyperbolic cosine value of the argument which is passed as a radian.'
+Description: 'Returns the inverse hyperbolic cosine value of the given argument.'
 Subjects:
   - 'Computer Science'
   - 'Math Functions'
