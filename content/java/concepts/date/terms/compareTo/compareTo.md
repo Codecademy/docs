@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Date.compareTo()`** method compares one Date object with another and returns an integer value accordingly.
+The **`Date.compareTo()`** method compares one `Date` object with another and returns an integer value accordingly.
 
 ## Syntax
 
@@ -25,13 +25,13 @@ The `Date.compareTo()` takes only one parameter:
 
 - `argumentDate`: A `Date` object to be compared chronologically with the given date.
 
-It returns
+It returns:
 
-- the value `0` if the argument Date is equal to this Date.
-- a value less than `0` if this Date is before the Date argument.
-- a value greater than `0` if this Date is after the Date argument.
+- The value `0` if the `argumentDate` is equal to `thisDate`.
+- a value less than `0` if `thisDate` is before the `argumentDate`.
+- a value greater than `0` if `thisDate` is after the `argumentDate`.
 
-The function throws a single exception that is [NullPointerException](https://www.codecademy.com/resources/docs/java/errors/nullpointerexception) if the argumentDate is null.
+The function throws a single exception, a [NullPointerException](https://www.codecademy.com/resources/docs/java/errors/nullpointerexception) if `argumentDate` is null.
 
 ## Example
 
