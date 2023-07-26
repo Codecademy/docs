@@ -1,6 +1,6 @@
 ---
 Title: 'Enums'
-Description: 'Enums are special data types that enable a variable to be a set of predefined constants.'
+Description: 'Enums are a special data type that enable a variable to be a set of predefined constants.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
