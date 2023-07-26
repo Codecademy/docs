@@ -1,6 +1,6 @@
 ---
 Title: 'reversed()'
-Description: 'Takes in an iterator object, such as a list or string, and returns a reversed iterator object.'
+Description: 'Takes in an iterable object, such as a list, string, or a tuple and returns a reversed iterator object.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
@@ -9,12 +9,13 @@ Tags:
   - 'Functions'
   - 'Iterators'
   - 'Lists'
+  - 'Tuples'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/analyze-data-with-python'
 ---
 
-Takes in an iterator object, such as a list or string, and returns a reversed iterator object.
+Takes in an iteratable object, such as a list, string, or a tuple and returns a reversed iterator object.
 
 ## Syntax
 
@@ -55,7 +56,7 @@ print(counting) # Output: ['three', 'two', 'one']
 
 ## Example 3
 
-Because strings are also iterator objects, `reversed()` can also be used on strings.
+Because strings are also iteratable objects, `reversed()` can also be used on strings.
 
 ```python
 new = reversed("stressed")
@@ -65,3 +66,18 @@ for letter in new:
 
 # Output: desserts
 ```
+
+## Codebyte Example
+
+Tuples are iterable objects too hence `reversed()` can be used on tuples as well. 
+ 
+```codebyte/python
+# Reversing a tuple using reversed() function
+
+original_tuple = (1, 2, 3, 4, 5)
+reversed_tuple = tuple(reversed(original_tuple))
+
+print("Original Tuple:", original_tuple)
+print("Reversed Tuple:", reversed_tuple)
+```
+
