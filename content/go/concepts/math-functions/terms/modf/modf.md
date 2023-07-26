@@ -80,7 +80,7 @@ func main() {
     integer, fraction = math.Modf(2)
     fmt.Printf("Integer: %f. Fraction: %f\n", integer, fraction)
 
-    // Negative floating point number
+    // A negative floating point number
     integer, fraction = math.Modf(-2.5)
     fmt.Printf("Integer: %f. Fraction: %f\n", integer, fraction)
 
