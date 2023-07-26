@@ -31,7 +31,7 @@ Where:
 Some special return cases:
 
 - If (±)Inf is passed as an argument, then `Modf` returns (±)Inf and `NAN`.
-- If the argument passed is `NAN`, then Modf returns `NAN` and `NAN`.
+- If the argument passed is `NAN`, then the return will also be `NAN`.
 
 ## Example
 
