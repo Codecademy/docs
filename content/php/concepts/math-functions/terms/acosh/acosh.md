@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The built-in math function **`acosh()`** determines the `inverse hyperbolic cosine` of a number, i.e the value whose hyperbolic cosine is the input number. The input number must be in radians, and the output is a floating point number.
+The built-in math function **`acosh()`** determines the inverse hyperbolic cosine of a number, in other words the value whose hyperbolic cosine is the input number. The input number must be in radians, and the output is a floating point number.
 
 ## Syntax
 
