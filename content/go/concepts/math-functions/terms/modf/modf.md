@@ -49,7 +49,7 @@ func main() {
   var x float64 = 3.3456
 
   var w, z float64 = math.Modf(x)
-  fmt.Print("For ", x, " integer part: ", w, " fractional part: ", z)
+  fmt.Print("The value ", x, " is composed of the integer: ", w, " and the fractional part: ", z)
 }
 ```
 
