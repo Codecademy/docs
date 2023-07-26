@@ -20,7 +20,7 @@ The built-in math function **`acosh()`** determines the inverse hyperbolic cosin
 $result = acosh($number);
 ```
 
-Where `number` is the number that the function returns the inverse hyperbolic cosine for.
+Where `$number` is the value in radians that the inverse hyperbolic cosine will be based on.
 
 ## Example
 
