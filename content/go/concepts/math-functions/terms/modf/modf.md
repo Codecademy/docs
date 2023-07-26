@@ -24,7 +24,6 @@ result := Modf(f) (int, frac)
 Where:
 
 - `f`: is the floating-point number for which you want to extract the integer and fractional parts.
-- `float64`: is a type of numer that uses 64 bytes.
 - `int`: is the integer part of the passed parameter.
 - `frac`: is the fractional part of the passed parameter.
 
