@@ -18,7 +18,7 @@ The **`Modf()`** function in Go is used to find the integer and fractional part 
 ## Syntax
 
 ```pseudo
-result := Modf(f float64) (int float64, frac float64)
+result := Modf(f) (int, frac)
 ```
 
 Where:
