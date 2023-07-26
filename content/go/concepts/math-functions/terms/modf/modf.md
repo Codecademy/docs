@@ -76,7 +76,7 @@ func main() {
     integer, fraction := math.Modf(2.5)
     fmt.Printf("Integer: %f. Fraction: %f\n", integer, fraction)
 
-    // Contain only integer part
+    // An integer
     integer, fraction = math.Modf(2)
     fmt.Printf("Integer: %f. Fraction: %f\n", integer, fraction)
 
