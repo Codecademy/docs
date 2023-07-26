@@ -17,7 +17,7 @@ The built-in math function **`acosh()`** determines the inverse hyperbolic cosin
 ## Syntax
 
 ```pseudo
-$result = acosh(number);
+$result = acosh($number);
 ```
 
 Where `number` is the number that the function returns the inverse hyperbolic cosine for.
