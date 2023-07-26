@@ -45,6 +45,6 @@ The following code is runnable and demonstrates the use of `acosh()`.
 ```codebyte/php
 <?php
   echo(acosh(-10) . " Radians\n");
-  echo(acosh(5));
+  echo(acosh(5)) . " Radians";
 ?>
 ```
