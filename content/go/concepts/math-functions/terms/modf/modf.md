@@ -72,7 +72,7 @@ import (
 )
 
 func main() {
-    // Contain both integer and fraction
+    // A value with an integer and fraction
     integer, fraction := math.Modf(2.5)
     fmt.Printf("Integer: %f. Fraction: %f\n", integer, fraction)
 
