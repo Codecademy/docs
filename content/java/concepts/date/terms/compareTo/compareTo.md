@@ -31,7 +31,7 @@ It returns:
 - A value less than `0` if `thisDate` is before `argumentDate`.
 - A value greater than `0` if `thisDate` is after `argumentDate`.
 
-The function throws a single exception, a [NullPointerException](https://www.codecademy.com/resources/docs/java/errors/nullpointerexception) if `argumentDate` is null.
+The function throws a single exception, a [NullPointerException](https://www.codecademy.com/resources/docs/java/errors/nullpointerexception), if `argumentDate` is null.
 
 ## Example
 
