@@ -88,32 +88,30 @@ Starting from ES2017, JavaScript introduced the keywords "async" and "await", wh
 
 Note that "await" is only usable in an asynchronous function, otherwise it will throw a SyntaxError.
 
-
 ```js
 function myPromise() {
-  return new Promise(resolve => {
-      resolve('Successful promise!')
-  })
+  return new Promise((resolve) => {
+    resolve('Successful promise!');
+  });
 }
 
 function mySecondPromise() {
-  return new Promise(resolve => {
-    resolve('Second successful promise!')
-  })
+  return new Promise((resolve) => {
+    resolve('Second successful promise!');
+  });
 }
 
 async function someAsyncAwaitFunction() {
   try {
-    const promise = await myPromise()
-    const promiseTwo = await mySecondPromise()
+    const promise = await myPromise();
+    const promiseTwo = await mySecondPromise();
 
-    console.log(promise)
-    console.log(promiseTwo)
+    console.log(promise);
+    console.log(promiseTwo);
   } catch (error) {
-    console.log(`Error from async function: ${error}`)
+    console.log(`Error from async function: ${error}`);
   }
 }
-
 /*
  Output:
   Successful promise!
