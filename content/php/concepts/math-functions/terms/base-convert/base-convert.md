@@ -26,7 +26,7 @@ The `base_convert()` function has three required parameters:
 
 - `$number`: This parameter specifies the number that is to be converted as a string.
 - `$fromBase`: Specifies the original base of `$number` as an integer.
-- `$tobase`: Specifies the base to convert to as an integer.
+- `$toBase`: Specifies the base to convert to as an integer.
 
 The `base_convert()` function returns a string representing the number converted from the original base to the specified base.
 
