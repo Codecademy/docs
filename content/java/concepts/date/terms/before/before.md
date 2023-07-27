@@ -25,7 +25,7 @@ The `Date.before()` takes only one parameter:
 
 - `secondDate`: A `Date` object to be compared chronologically with the first date.
 
-It returns `true` if the `firstDate` is before the `secondDate` and returns `false` if the `firstDate` is after the `secondDate`. However, if the `thirdDate` is null, it will raise a [NullPointerException](https://www.codecademy.com/resources/docs/java/errors/nullpointerexception). 
+It returns `true` if the `firstDate` is before the `secondDate` and returns `false` if the `firstDate` is after the `secondDate`. However, if a date value is null, it will raise a [NullPointerException](https://www.codecademy.com/resources/docs/java/errors/nullpointerexception). 
 
 ## Example
 
