@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Date.before()`** method checks whether a date occurs before a specified date and returns a boolean value.
+The **`Date.before()`** method checks whether a date occurs before another specified date, and returns a boolean value.
 
 ## Syntax
 
