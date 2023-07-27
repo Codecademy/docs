@@ -1,8 +1,8 @@
 ---
 
-Title: 'Swift Methods'
+Title: 'Methods'
 
-Description: 'Learn about methods in Swift and how they are used to perform actions and provide functionality
+Description: 'Learn about methods in Swift and how they are used to perform actions and provide functionality'
 
 Subjects:
     - 'iOS' 
@@ -21,19 +21,13 @@ CatalogContent:
 
 ---
 
-## Methods
+In Swift, methods are like actions that an object can perform. Imagine a factory-like class as a blueprint for creating objects, and methods are the functions that these objects can execute. 
 
-In Swift, methods are like actions that an object (belonging to a class) can perform. Imagine a class as a blueprint for creating objects, and methods are the functions that these objects can execute. For example, think of a "Car" class that has a method called "startEngine." When creating a "Car" object, use the "startEngine" method to make the car's engine come to life.
+For example, think of a "Car" class that has a method called "startEngine." When creating a "Car" object, use the "startEngine" method to make the car's engine come to life.
 
-## Syntax of Methods
+## Creating Methods
 
-### To define a method in Swift, follow these steps:
-
-1. Use the `func` keyword, which stands for "function."
-2. Name the method.
-3. Add a pair of parentheses `()` after the method name.
-4. If the method takes input (parameters), list them within the parentheses and provide their data types.
-5. Place the method's code within a set of curly braces `{}`.
+First, start by defining the method using the `func` keyword, which stands for "function" and give it a name. Then a pair of parentheses `()` comes after the method name and any parameters can be listed within them. Lastly, place the method's code within a set of curly braces `{}`.
 
 ```swift
 class Car {
@@ -47,7 +41,7 @@ class Car {
 }
 ```
 
-In the code above, there is a class called "Car" with two properties: `brand` and `color`. As well as a method named `startEngine`, which does not take any parameters. When this method is called on a "Car" object, it will print a message about starting the car's engine.
+In the code above, there is a class called `Car` with two properties: `brand` and `color`. As well as a method named `startEngine`, which does not take any parameters. When this method is called on a Car object, it will print a message about starting the car's engine.
 
 ## Creating Objects and Using Methods
 
