@@ -41,7 +41,7 @@ Methods –
 
 ## Example
 
-The following example demonstrates enum class in kotlin:
+The following example demonstrates the use of the enum class in Kotlin:
 
 ```kotlin
 enum class DAYS {
