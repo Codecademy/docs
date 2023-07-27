@@ -14,19 +14,19 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`base_convert()`** converts a number from one number base to another.
+The **`base_convert()`** function converts a number from one base system to another.
 
 ## Syntax
 
 ```pseudo
-base_convert(string $number, int $frombase, int $tobase): string
+base_convert($number, $fromBase, $toBase)
 ```
 
 The `base_convert()` function has three required parameters:
 
 - `$number`: This parameter specifies the number that is to be converted as a string.
-- `$frombase`: Specifies the original base of number.
-- `$tobase`: Specifies the base to convert to.
+- `$fromBase`: Specifies the original base of `$number` as an integer.
+- `$tobase`: Specifies the base to convert to as an integer.
 
 The `base_convert()` function returns a string representing the number converted from the original base to the specified base.
 
