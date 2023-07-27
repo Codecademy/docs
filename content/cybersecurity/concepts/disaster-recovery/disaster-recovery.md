@@ -1,6 +1,6 @@
 ---
 Title: 'Disaster Recovery'
-Description: 'Disaster Recovery'
+Description: 'Disaster Recovery is planning, implementing and following processes to restore IT systems and infrastructures during and after disruptive events.'
 Subjects:
   - 'Computer Science'
   - 'Cybersecurity'
@@ -11,22 +11,29 @@ CatalogContent:
   - 'paths/fundamentals-of-cybersecurity'
 ---
 
-**Disaster Recovery** is a form of
+**Disaster Recovery** is planning, implementing and following processes to restore IT systems and infrastructures during and after disruptive events.
 
-## the need for disaster recovery
+## The Importance Disaster Recovery
 
-some intro
+Certain events can compromise or completely incapacitate IT systems. These disruptive events cannot always be prevented or controlled. They can be categorized as:
 
-- Identity theft,
-- Financial loss,
-- Damage to hardware (e.g. laptop) or software,
-- Damage to personal or business reputation.
+- Natural Disasters (e.g., earthquakes, floods, hurricanes)
+- Human-Caused Disasters (e.g., terrorism, accidents, cyber attacks)
+- Other Incidents (e.g., power outages, equipment failure, infectious disease outbreaks)
 
-## disaster recovery plan
+Disruptive events can have varying levels of severity and cause data loss, operational downtime, financial losses, and reputational damage to organizations and businesses. Therefore businesses must be prepared for disruptive events.
 
-## types of disaster recovery
+## Disaster Recovery Plan
 
-Although phishing emails or messages can be persuasive and take many forms, they often share certain characteristics that can help identify fraudulent content. These characteristics are:
+The Disaster Recovery Plan is a document that organizations create and maintain to minimize the damage of disruptive events. It contains all the necessary actions to recover and restore IT systems in case of a disruptive incident. The plan allows organizations to resume normal operations.
+
+The Disaster Recovery Plan contains the following elements:
+Risk Analysis to identify potential hazards and risks of disruptive events.
+Business Impact Analysis to determine the identified risks' impact on the business.
+Recovery Point Objective - the timeframe of a backup that allows the organization to return to normal operation. It defines the frequency of the backups.
+Recovery Time Objective defines the maximum amount of downtime after a disruptive event.
+
+## The Types of Disaster Recovery
 
 - Back-up:
 - Disaster Recovery as a Service (DRaaS)
@@ -35,4 +42,4 @@ Although phishing emails or messages can be persuasive and take many forms, they
 - Point-in-time copies
 - Instant recovery
 
-## Benefits
+## Best Practices for Disaster Recovery
