@@ -26,11 +26,10 @@ The `.setUTCMilliseconds()` method takes a single parameter, representing the nu
 
 ## Example
 
-In this example, we created a `Date` object representing January 1, 2023, at 12:34:56 UTC. We then retrieved the current milliseconds component in UTC and set a new value of 2000 milliseconds. The result is a new Date object with the modified milliseconds while keeping the other components (year, month, day, hour, minute, and second) the same
+The JavaScript `Date` object has the `setUTCMilliseconds()` method to set the milliseconds component of a date object in UTC. Here's an example that shows how to use the `setUTCMilliseconds()` method to set the milliseconds of a date:
 
 ```javascript
-// Create a Date object for a specific date (January 1, 2023, at 12:34:56 UTC)
-const date = new Date(Date.UTC(2023, 0, 1, 12, 34, 56));
+const date = new Date(Date.UTC(2023, 0, 1, 12, 34, 56, 789));
 
 // Get the current milliseconds in UTC
 const currentUTCMilliseconds = date.getUTCMilliseconds();
@@ -48,4 +47,12 @@ console.log(
   'Modified Date with UTC Milliseconds:',
   newDateWithModifiedMilliseconds.toUTCString()
 );
+```
+
+This example results in the following output:
+
+```
+Date: Sun, 01 Jan 2023 12:34:56 GMT
+Current UTC Milliseconds: 789
+Modified Date with UTC Milliseconds: Sun, 01 Jan 2023 12:34:58 GMT
 ```
