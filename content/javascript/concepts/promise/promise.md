@@ -96,7 +96,7 @@ function promise() {
   })
 }
 
-function promiseTwo {
+function promiseTwo() {
   return new Promise(resolve => {
     resolve('Second successful promise!')
   })
