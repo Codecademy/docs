@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Date.clone()`** method returns a copy or duplicate of a specified Date object.
+The **`Date.clone()`** method returns a copy or duplicate of a specified `Date` object.
 
 ## Syntax
 
@@ -23,11 +23,11 @@ currentDate.clone()
 
 The `Date.clone()` does not take any parameters.
 
-It returns a copy or duplicate of the `currentDate` when the method is called without an argument. However, if an argument is passed on to the method, 
+It returns a copy or duplicate of the `currentDate`, and the returned value is an `Object`, not a `Date`. 
 
 ## Example
 
-The following example shows the implementation of `Date.clone()`:
+The following example shows an implementation of `Date.clone()`:
 
 ```java
 import java.util.Date;
@@ -43,7 +43,7 @@ public class Main {
 }
 ```
 
-The output will be:
+The output will be similar to:
 
 ```shell
 The original date is Wed Jul 26 06:47:06 GMT 2023
