@@ -57,7 +57,7 @@ The output will be:
 Exp(+Inf) returns +Inf, as e^infinity is an infinite number
 Exp(NaN) returns NaN as well (Not a Number)
 
-## Codebyte Example
+## Codebyte Example 
 
 You can run the example below - it demonstrates what happens when you run Exp() with a value of 10.
 
