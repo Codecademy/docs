@@ -1,6 +1,6 @@
 ---
-Title: 'Arrays'
-Description: 'Enums are special data types that enable a variable to be a set of predefined constants.'
+Title: 'Enums'
+Description: 'Enums are a special data type that enable a variable to be a set of predefined constants.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -13,9 +13,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Enums** are special data types that enable a variable to be a set of predefined constants.
+**Enums** are a special data type that enable a variable to be a set of predefined constants.
 
-Kotlin enums are called enum classes and they aren't just mere collections of constants because they have properties, methods etc. Each acts as separate instances of the class and separated by commas.
+Kotlin enums are called enum classes and they aren't just mere collections of constants, they also have properties, methods, etc. Each enum acts as a separate instance of the enum class, and the declaration begins with the keywords `enum class` followed by the class name.
 
 ## Syntax
 
@@ -31,17 +31,17 @@ Enums properties and methods –
 
 Properties –
 
-`ordinal`: This property stores the ordinal value of the constant, which is usually a zero-based index.
-`name`: This property stores the name of the constant.
+- `ordinal`: This property stores the ordinal value of the constant, which is usually a zero-based index.
+- `name`: This property stores the name of the constant.
 
 Methods –
 
-`values`: This method returns a list of all the constants defined within the enum class.
-`valueOf`: This methods returns the enum constant defined in enum, matching the input string. If the constant, is not present in the enum, then an IllegalArgumentException is thrown.
+- `values`: This method returns a list of all the constants defined within the enum class.
+- `valueOf`: This method returns the enum constant that matches the input string passed. If the constant, is not present in the enum, then an `IllegalArgumentException` is thrown.
 
 ## Example
 
-The following example demonstrates enum class in kotlin:
+The following example demonstrates the use of the enum class in Kotlin:
 
 ```kotlin
 enum class DAYS {
