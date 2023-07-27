@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Enums** are special data types that enable a variable to be a set of predefined constants.
+**Enums** are a special data type that enable a variable to be a set of predefined constants.
 
 Kotlin enums are called enum classes and they aren't just mere collections of constants because they have properties, methods etc. Each acts as separate instances of the class and separated by commas.
 
