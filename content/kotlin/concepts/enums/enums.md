@@ -31,8 +31,8 @@ Enums properties and methods –
 
 Properties –
 
-`ordinal`: This property stores the ordinal value of the constant, which is usually a zero-based index.
-`name`: This property stores the name of the constant.
+- `ordinal`: This property stores the ordinal value of the constant, which is usually a zero-based index.
+- `name`: This property stores the name of the constant.
 
 Methods –
 
