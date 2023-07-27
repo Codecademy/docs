@@ -56,9 +56,9 @@ This example is runnable and uses the `range()` function:
 ```codebyte/php
 <?php
 $tebahpla = range('z','a');
-  
+
 // printing elements of array
-foreach ($tebahpla as $a) {  
+foreach ($tebahpla as $a) {
     echo "$a ";
 }
 ?>
