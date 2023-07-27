@@ -36,8 +36,8 @@ Properties –
 
 Methods –
 
-`values`: This method returns a list of all the constants defined within the enum class.
-`valueOf`: This methods returns the enum constant defined in enum, matching the input string. If the constant, is not present in the enum, then an IllegalArgumentException is thrown.
+- `values`: This method returns a list of all the constants defined within the enum class.
+- `valueOf`: This method returns the enum constant that matches the input string passed. If the constant, is not present in the enum, then an `IllegalArgumentException` is thrown.
 
 ## Example
 
