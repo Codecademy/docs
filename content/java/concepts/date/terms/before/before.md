@@ -1,6 +1,6 @@
 ---
 Title: '.before()'
-Description: 'Checks if a date occurs before a specified date.'
+Description: 'Checks if one date occurs before another.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
