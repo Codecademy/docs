@@ -1,24 +1,18 @@
 ---
-
 Title: 'Methods'
-
-Description: 'Learn about methods in Swift and how they are used to perform actions and provide functionality'
-
+Description: 'Methods in Swift are used to perform actions and provide functionality.'
 Subjects:
-    - 'iOS' 
-    - 'Mobile Development'
-    - 'Game Development'
-
+  - 'iOS' 
+  - 'Mobile Development'
+  - 'Game Development'
 Tags:
-    - 'Methods'
-    - 'Functions'
-    - 'Properties'
-    - 'Parameters'
-
+  - 'Methods'
+  - 'Functions'
+  - 'Properties'
+  - 'Parameters'
 CatalogContent:
-- 'Learn Swift'
-- 'Build iOS Apps with SwiftUI'
-
+  - 'learn-swift'
+  - 'paths/build-ios-apps-with-swiftui'
 ---
 
 Methods in Swift allow us to define behaviours for our objects and make them more interactive. They provide a way for objects to perform specific actions and enhance the functionality of our classes. By using methods, we can make our Swift code more organized, reusable, and efficient.
