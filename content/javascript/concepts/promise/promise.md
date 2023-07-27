@@ -90,13 +90,13 @@ Note that "await" is only usable in an asynchronous function, otherwise it will 
 
 
 ```js
-function promise() {
+function myPromise() {
   return new Promise(resolve => {
-    resolve('Successful promise!')
+      resolve('Successful promise!')
   })
 }
 
-function promiseTwo() {
+function mySecondPromise() {
   return new Promise(resolve => {
     resolve('Second successful promise!')
   })
@@ -104,8 +104,8 @@ function promiseTwo() {
 
 async function someAsyncAwaitFunction() {
   try {
-    const promise = await promise()
-    const promiseTwo = await promiseTwo()
+    const promise = await myPromise()
+    const promiseTwo = await mySecondPromise()
 
     console.log(promise)
     console.log(promiseTwo)
