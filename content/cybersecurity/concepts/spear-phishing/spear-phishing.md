@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/fundamentals-of-cybersecurity'
 ---
 
-**Spear phishing** is a type of [social engineering](https://www.codecademy.com/resources/docs/cybersecurity/social-engineering) scam that attempts to trick the recipient into providing confidential information to the attacker. Spear phishing is a more targeted [cyber attack](https://www.codecademy.com/resources/docs/cybersecurity/cyber-attack) than phishing.
+**Spear phishing** is a type of [social engineering](https://www.codecademy.com/resources/docs/cybersecurity/social-engineering) scam that attempts to trick the recipient into providing confidential information to the attacker. Spear phishing is a more targeted [cyber attack](https://www.codecademy.com/resources/docs/cybersecurity/cyber-attack) than [phishing](https://www.codecademy.com/resources/docs/cybersecurity/phishing).
 
 ## Spear Phishing In-Use
 
@@ -20,7 +20,7 @@ The targeted nature of spear phishing makes it difficult to detect. For example,
 
 ## Signs of Spear Phishing
 
-Spear phishing can have significant financial and reputational consequences for an organization, however there are signs to watch out for to stay protected against these threats:
+Spear phishing can have significant financial and reputational consequences for an organization, however, there are signs to watch out for to stay protected against these threats:
 
 - A sense of urgency: Spear phishing subject lines usually provoke an urgent response in the hope that the victim will act impulsively and engage.
 - Poor imaging: Most companies will make sure to provide high-quality logos and images in their emails. A spear phishing email may contain grainy or blurry graphics.
