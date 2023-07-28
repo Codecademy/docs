@@ -21,25 +21,32 @@ Certain events can compromise or completely incapacitate IT systems. These disru
 - Human-Caused Disasters (e.g., terrorism, accidents, cyber attacks)
 - Other Incidents (e.g., power outages, equipment failure, infectious disease outbreaks)
 
-Disruptive events can have varying levels of severity and cause data loss, operational downtime, financial losses, and reputational damage to organizations and businesses. Therefore businesses must be prepared for disruptive events.
+Disruptive events can have varying levels of severity and cause data loss, operational downtime, financial losses, and reputational damage to organizations and businesses. Organizations use Disaster Recovery procedures to reduce the impact of these adverse outcomes.
 
 ## Disaster Recovery Plan
 
-The Disaster Recovery Plan is a document that organizations create and maintain to minimize the damage of disruptive events. It contains all the necessary actions to recover and restore IT systems in case of a disruptive incident. The plan allows organizations to resume normal operations.
+The Disaster Recovery Plan is a document that organizations create and maintain to minimize the damage of disruptive events. It contains a complete analysis of the risks and the necessary actions to recover and restore IT systems in case of disruptive events. The Disaster Recovery Plan ensures that organizations can resume normal operations.
 
 The Disaster Recovery Plan contains the following elements:
-Risk Analysis to identify potential hazards and risks of disruptive events.
-Business Impact Analysis to determine the identified risks' impact on the business.
-Recovery Point Objective - the timeframe of a backup that allows the organization to return to normal operation. It defines the frequency of the backups.
-Recovery Time Objective defines the maximum amount of downtime after a disruptive event.
+
+- Risk Analysis: identifying potential hazards and risks of disruptive events.
+- Business Impact Analysis: it determines the identified risks' impact on the business and what information and data are critical for the organization. The critical information can be either relocated or saved as a backup.
+- Recovery Point Objective: it specifies the backup timeframe that allows the organization to return to normal operation. It defines the frequency of the backups.
+- Recovery Time Objective: it defines the maximum downtime after a disruptive event that is not causing significant damage to the business.
+- Procedure: it contains actions that prevent the loss of critical data and a step-by-step guide on responding to different disruptive events and returning to normal operation.
 
 ## The Types of Disaster Recovery
 
-- Back-up:
-- Disaster Recovery as a Service (DRaaS)
-- Datacenter disaster recovery
-- Virtualization
-- Point-in-time copies
-- Instant recovery
+Depending on the industry, criticality, IT infrastructure, and size of the organizations, different types of Disaster Recovery methods are suitable for them. The types of Disaster Recovery are the following:
+
+- Backup: Storing only critical data on a removable drive or off-site without backing up the IT infrastructure.
+- Network Disaster Recovery: Restoring network connectivity for internal and external communication, data sharing, and application access during a disaster.
+- Cloud Disaster Recovery: Using cloud services to host (automated) disaster recovery processes,  for example, automatic failover of workloads to another cloud platform in case of disruption.
+- Disaster Recovery as a Service (DRaaS): Outsourcing computer processing to a provider's cloud infrastructure to ensure business operations during disasters.
+- Backup as a Service: Outsourcing data backup to a provider, not including IT infrastructure.
+- Datacenter Disaster Recovery: The physical protection of the organization's data center, for example, backup power sources or fire suppression.
+- Virtualization: Backing up infrastructures and data on unaffected off-site virtual machines.
+- Point-in-time Copies: Making copies of the entire database at specific times for restoration.
+- Instant Recovery: Taking snapshots of entire virtual machines for restoration.
 
 ## Best Practices for Disaster Recovery
