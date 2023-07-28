@@ -1,6 +1,6 @@
 ---
  Title: 'array.prototype.with()'
-Description: 'This teaches JavaScript developers how to use the array method .with()'
+Description: 'Returns a new updated array with the given value at the specified index.'
 Subjects:
   - 'Web development'
 Tags:
