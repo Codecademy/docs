@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<meter>` semantic tag represents either a fractional value or a scalar value within a known range. Also known as a gauge. Used to represent a range.
+The `<meter>` semantic tag is used to represent a fractional or a scalar value within a known range. This form of representation is known as a gauge.
 
 > **Note**: The `<meter>` tag should not be used to indicate progress (as in a progress bar).
 
@@ -20,7 +20,7 @@ The `<meter>` semantic tag represents either a fractional value or a scalar valu
 
 The `<meter>` is written as `<meter></meter>` with any contents inserted between the start and end tags:
 
-```pseudo
+```html
 <meter>
     <!-- Meter content goes here. -->
 </meter>
@@ -33,5 +33,6 @@ Below is an example of the `<meter>` tag being used to display disk usage:
 ```html
 <p>Disk Usage <meter min="100" max="1000" value="80" title="GB"></meter>.</p>
 ```
+### Output of The Meter Tag Example
 
-![Output of the meter tag example](https://github.com/droffilc1/docs/blob/6b4653764614e33f5640a7fe0528eb015e758b86/media/meter.png)
+![Output of the meter tag example](https://raw.githubusercontent.com/Codecademy/docs/main/media//meter.png)
