@@ -7,7 +7,7 @@ Tags:
   - 'Arrays'
   - 'Methods'
 CatalogContent:
-  -'course/introduction-to-javascript'
+  - 'introduction-to-javascript'
   -'paths/front-end-engineer-career-path'
 ---
 
