@@ -30,8 +30,11 @@ The example below demonstrates the use of the `is_finite()` function to check wh
 ```php
 <?php
   $result = is_finite(100);
-  echo $result; // Output: 1
+  echo $result; 
 ?>
+```
+```shell
+1
 ```
 
 ## Codebyte Example
@@ -42,7 +45,7 @@ The codebyte below uses the `is_finite()` function on the values of `100` and `l
 <?php
 // Declare the test values
 
-  $test_value1 = 100;
+  $test_value1 = 25/5;
   $test_value2 = log(0);
 
 // Use the if-else conditional to check whether the test values are finite or not
