@@ -43,7 +43,7 @@ In this example array of fruits is sorted in descending order.
 
 ```php
 <?php
-$fruits = array("lemon", "orange", "banana", "apple");
+$fruits = array("Grapes", "Mangos", "Cherries", "Kiwis");
 rsort($fruits);
 foreach ($fruits as $key => $val) {
     echo "$key = $val\n";
@@ -51,23 +51,25 @@ foreach ($fruits as $key => $val) {
 ?>
 ```
 
+The output looks like this:
+
+0 = orange 
+1 = lemon 
+2 = banana 
+3 = apple
 
 
-## Codebyte Example (if applicable)
+## Codebyte Example
 
-We can currently support:
+The following codebyte example sorts in descending order array of `numbers`.
 
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
+```codebyte/php
+<?php
+$numbers=array(5,8,2,45,12);
+rsort($numbers);
 
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
-
-```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
+foreach ($numbers as $key => $val) {
+    echo "$key = $val\n";
+}
+?>
 ```
