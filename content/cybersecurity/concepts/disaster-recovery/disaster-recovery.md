@@ -29,11 +29,11 @@ The Disaster Recovery Plan is a document that organizations create and maintain 
 
 The Disaster Recovery Plan contains the following elements:
 
-- Risk Analysis: identifying potential hazards and risks of disruptive events.
-- Business Impact Analysis: it determines the identified risks' impact on the business and what information and data are critical for the organization. The critical information can be either relocated or saved as a backup.
-- Recovery Point Objective: it specifies the backup timeframe that allows the organization to return to normal operation. It defines the frequency of the backups.
-- Recovery Time Objective: it defines the maximum downtime after a disruptive event that is not causing significant damage to the business.
-- Procedure: it contains actions that prevent the loss of critical data and a step-by-step guide on responding to different disruptive events and returning to normal operation.
+- Risk Analysis: It identifies potential hazards and risks of disruptive events.
+- Business Impact Analysis: It determines the identified risks' impact on the business and the critical data and infrastructures for the organization.
+- Recovery Point Objective: It specifies the backup timeframe that allows the organization to return to normal operation. It defines the frequency of the backups.
+- Recovery Time Objective: It defines the maximum downtime after a disruptive event that is not causing significant damage to the business.
+- Procedure: It contains actions that prevent the loss of critical data and a step-by-step guide on responding to different disruptive events and returning to normal operation.
 
 ## The Types of Disaster Recovery
 
