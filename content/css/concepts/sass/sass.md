@@ -16,7 +16,7 @@ CatalogContent:
 
 **SASS (Syntactically Awesome Style Sheets)** is a preprocessor scripting language that extends CSS. It provides additional features and capabilities to make writing CSS more efficient and maintainable. SASS files are compiled into regular CSS before being used by web browsers.
 
-> **Note:** SASS has two syntaxes: SCSS (.scss) and indented syntax (.sass). SCSS is the most commonly used and is similar to CSS, allowing code to be written with curly braces and semicolons. The indented syntax is less common and uses indentation and newlines instead of curly braces and semicolons. Both syntaxes are supported, and the examples are available in both formats.
+> **Note:** SASS has two syntaxes: SCSS (.scss) and indented syntax (.sass). SCSS (Sassy Cascading Style Sheets) is the most commonly used and is similar to CSS, allowing code to be written with curly braces and semicolons. The indented syntax is less common and uses indentation and newlines instead of curly braces and semicolons. Both syntaxes are supported, and the examples are available in both formats.
 
 ### SASS Example
 
