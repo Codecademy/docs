@@ -4,7 +4,6 @@ Description: 'Evaluates whether a value is a legal finite number or not.'
 Subjects:
   - 'Computer Science'
   - 'Web Design'
-  - 'Web Development'
 Tags:
   - 'Functions'
   - 'Methods'
