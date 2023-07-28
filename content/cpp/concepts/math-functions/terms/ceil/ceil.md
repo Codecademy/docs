@@ -40,9 +40,14 @@ int main() {
 
   std::cout << "Pi rounded up is " << a << "!\n";
   std::cout << "e rounded up is " << b << "!\n";
-  // Output: Pi rounded up is 4!
-  // Output: e rounded up is 3!
 }
+```
+
+This results in the following output:
+
+```shell
+Pi rounded up is 4!
+e rounded up is 3!
 ```
 
 ## Codebyte Example
