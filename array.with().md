@@ -1,5 +1,5 @@
 ---
- Title: 'array.prototype.with()'
+ Title: '.with()'
 Description: 'Returns a new updated array with the given value at the specified index.'
 Subjects:
   - 'Web development'
