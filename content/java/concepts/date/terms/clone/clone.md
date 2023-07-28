@@ -3,7 +3,7 @@ Title: '.clone()'
 Description: 'Clones the specified date.'
 Subjects:
   - 'Code Foundations'
-  - 'Computer Science
+  - 'Computer Science'
 Tags:
   - 'Date'
   - 'Methods'
