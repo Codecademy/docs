@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`is_finite()`** function evaluates whether the value is finite or not and returns a *boolean* value.
+The **`is_finite()`** function evaluates whether the passed value is finite or not and returns a boolean value.
 
 ## Syntax
 
