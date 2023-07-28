@@ -30,16 +30,19 @@ The example below demonstrates the use of the `is_finite()` function to check wh
 ```php
 <?php
   $result = is_finite(100);
-  echo $result; 
+  echo $result;
 ?>
 ```
+
+This will result in the following output:
+
 ```shell
 1
 ```
 
 ## Codebyte Example
 
-The codebyte below uses the `is_finite()` function on the values of `100` and `log(0)` to evaluate whether they are finite:
+The codebyte below uses the `is_finite()` function on a pair of values to evaluate whether they are finite:
 
 ```codebyte/php
 <?php
@@ -48,7 +51,7 @@ The codebyte below uses the `is_finite()` function on the values of `100` and `l
   $test_value1 = 25/5;
   $test_value2 = log(0);
 
-// Use the if-else conditional to check whether the test values are finite or not
+// The if-else conditional checks whether the test values are finite or not
 
   if (is_finite($test_value1)) {
     echo "Test value 1 is finite.";
@@ -63,5 +66,4 @@ The codebyte below uses the `is_finite()` function on the values of `100` and `l
     echo "Test value 2 is not finite.";
   }
 ?>
-
 ```
