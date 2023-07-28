@@ -18,7 +18,7 @@ The **`is_finite()`** function evaluates whether the passed value is finite or n
 ## Syntax
 
 ```pseudo
-$result = is_finite(value);
+$result = is_finite($value);
 ```
 
 Returns `1` (`true`) if the `value` is finite, nothing (`false`) otherwise.
