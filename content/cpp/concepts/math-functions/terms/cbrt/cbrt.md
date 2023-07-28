@@ -34,7 +34,7 @@ int main() {
   side = std::cbrt(V);
 
 
-  std::cout << "A cube with a volume of " << V << " has a side lentgh of " << side << "\n";
+  std::cout << "A cube with a volume of " << V << " has a side length of " << side << "\n";
 
   // Output: A cube with a volume of 27 has a side lentgh of 3
 }
