@@ -18,7 +18,7 @@ CatalogContent:
 Certain events can compromise or completely incapacitate IT systems. These disruptive events cannot always be prevented or controlled. They can be categorized as:
 
 - Natural Disasters (e.g., earthquakes, floods, hurricanes)
-- Human-Caused Disasters (e.g., terrorism, accidents, cyber attacks)
+- Human-Caused Disasters (e.g., terrorism, accidents, [cyber attacks](https://www.codecademy.com/resources/docs/cybersecurity/cyber-attack))
 - Other Incidents (e.g., power outages, equipment failure, infectious disease outbreaks)
 
 Disruptive events can have varying levels of severity and cause data loss, operational downtime, financial losses, and reputational damage to organizations and businesses. Organizations use Disaster Recovery procedures to reduce the impact of these adverse outcomes.
@@ -41,12 +41,10 @@ Depending on the industry, criticality, IT infrastructure, and size of the organ
 
 - Backup: Storing only critical data on a removable drive or off-site without backing up the IT infrastructure.
 - Network Disaster Recovery: Restoring network connectivity for internal and external communication, data sharing, and application access during a disaster.
-- Cloud Disaster Recovery: Using cloud services to host (automated) disaster recovery processes,  for example, automatic failover of workloads to another cloud platform in case of disruption.
+- Cloud Disaster Recovery: Using cloud services to host (automated) Disaster Recovery processes,  for example, automatic failover of workloads to another cloud platform in case of disruption.
 - Disaster Recovery as a Service (DRaaS): Outsourcing computer processing to a provider's cloud infrastructure to ensure business operations during disasters.
 - Backup as a Service: Outsourcing data backup to a provider, not including IT infrastructure.
 - Datacenter Disaster Recovery: The physical protection of the organization's data center, for example, backup power sources or fire suppression.
 - Virtualization: Backing up infrastructures and data on unaffected off-site virtual machines.
 - Point-in-time Copies: Making copies of the entire database at specific times for restoration.
 - Instant Recovery: Taking snapshots of entire virtual machines for restoration.
-
-## Best Practices for Disaster Recovery
