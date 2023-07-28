@@ -72,6 +72,7 @@ Constructors
 Continue
 Control Flow
 CRUD
+CSS
 CSV
 Cybersecurity
 D3
@@ -83,6 +84,7 @@ Date
 Debugging
 Decorators
 Deep Learning
+Denoising
 Dependency
 Developer Tools
 Development
@@ -156,6 +158,7 @@ Id
 IDE
 If
 Images
+Image Generation Model
 Index
 Infrastructure
 Inheritance
@@ -231,6 +234,7 @@ Pointers
 Positioning
 PostgreSQL
 Precedence
+Preprocessor
 Primary Key
 Print
 Probability
@@ -293,6 +297,7 @@ Target
 Technical Interviews
 Templates
 TensorFlow
+Text-To-Image
 Tidyr
 Time
 Title
