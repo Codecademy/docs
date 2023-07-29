@@ -50,7 +50,7 @@ p {
 
 ## Selecting by Attribute
 
-The `class` and `id` attributes are generally assigned for styling different elements on the same page and linking to sections or other pages of the site.
+The `class` and `id` attributes are generally assigned for styling different elements. An `id` cannot start with a number.
 
 ### Syntax
 
