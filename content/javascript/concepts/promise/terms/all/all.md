@@ -74,7 +74,7 @@ Promise.all([fetchUserData(), fetchProductData(), fetchOrderData()])
 ```
 In this example, there are three functions (`fetchUserData()`, `fetchProductData()`, and `fetchOrderData()`) that simulate API calls with a delay using `setTimeout()`. Each function returns a Promise that resolves with the respective data.
 
-We use Promise.all() to execute these promises in parallel and wait for all of them to resolve. The .then() callback receives an array of resolved values in the same order as the input promises. We destructure the array to extract the user data, product data, and order data, and log them to the console.
+`Promise.all()` executes these promises in parallel and waits for all of them to resolve. The `.then()` callback receives an array of resolved values in the same order as the input promises. The example destructures the array to extract the user data, product data, and order data, and log them to the console.
 
 The output would be:
 
