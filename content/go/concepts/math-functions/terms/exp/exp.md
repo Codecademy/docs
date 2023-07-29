@@ -56,7 +56,7 @@ The output will be:
 ## Special cases
 
 - `Exp(+Inf)` returns `+Inf`
-Exp(NaN) returns NaN as well (Not a Number)
+- `Exp(NaN)` returns `NaN` as well (Not a Number)
 
 ## Codebyte Example 
 
