@@ -41,7 +41,7 @@ console.log(favoriteColors);
 This results in the following output:
 
 ```shell
-blue, red, brow, grey
+blue, red, brown, grey
 ```
 
 > **Note:** `.with()` was used to change `'red'` to `'purple'` in the example above. However, `console.log(favoriteColors)` still prints `red`. The reason is that `.with()` does not modify an array, it returns a new array.
@@ -51,7 +51,7 @@ blue, red, brow, grey
 
 let favoriteColors = ['blue', 'red', 'brown', 'grey'];
 
-console.log(favoriteColors.with(1, 'purple');
+console.log(favoriteColors.with(1, 'purple'));
 ```
 
 This results in the following output:
