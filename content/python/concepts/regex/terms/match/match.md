@@ -51,7 +51,7 @@ The output will look like this:
 <_sre.SRE_Match object; span=(0, 3), match="www">
 ```
 
-## Codebyte Example
+## Codebyte Examples
 
 The following example returns `None` because the test pattern is not at the beginning of the string:
 
@@ -59,6 +59,18 @@ The following example returns `None` because the test pattern is not at the begi
 import re
 
 result = re.match(r"codecademy", "www.codeacademy.com")
+
+print(result)
+```
+
+The following example returns a match object (`<re.Match object; span=(0, 12), match='123-456-7890'>`) and not `None` since the phone number (`123-456-7890`) matches the test pattern:
+
+```codebyte/python
+import re
+
+phone_number = "123-456-7890"
+
+result = re.match(r"\d{3}-\d{3}-\d{4}", phone_number)
 
 print(result)
 ```
