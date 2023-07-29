@@ -17,6 +17,7 @@ CatalogContent:
 The **`Exp()`** function returns the value of *e^x* (*e* to the power of *x*), where *x* is the parameter.
 
 ## Syntax
+
 ```pseudo
 import "math"
 
@@ -25,10 +26,10 @@ value := math.Exp(number)
 
 Where `value` is the value of *e* raised to the power of `number`, and where `number` is a variable of type float64. 
 
-- The result of `Exp(5)` is `148.413... or e^5`
-- The result of `Exp(1)` is `2.718.. or e`
-- The result of `Exp(0)` is `1`
-- The result of `Exp(NaN)` is `NaN`
+## Special cases
+
+- `Exp(+Inf)` returns `+Inf`
+- `Exp(NaN)` returns `NaN` as well (Not a Number)
 
 ## Example
 
@@ -53,10 +54,6 @@ The output will be:
 ```shell
 20.1
 ```
-## Special cases
-
-- `Exp(+Inf)` returns `+Inf`
-- `Exp(NaN)` returns `NaN` as well (Not a Number)
 
 ## Codebyte Example 
 
