@@ -1,7 +1,6 @@
 ---
 Title: '.all()'
 Description: 'Takes a group of tasks (Promises) and returns a new Promise.'
-
 When using `.all()`, the tasks start together and wait for all of them to finish. `.all()` gives a Promise that contains the results of all the tasks.
 
 If any of the tasks fail (reject), the .all() Promise immediately fails with the reason of the first failed task.
