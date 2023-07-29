@@ -25,8 +25,8 @@ The `.setUTCSeconds()` method is called on the `myDate` object with an input arg
 
 Optionally, the method can also set the date's millisecond UTC values. The valid number ranges for the time units are as follows:
 
-- **Seconds** (Required): _0_ to _59_
-- **Milliseconds** (optional): _0_ to _999_
+- `Seconds` (Required): _0_ to _59_
+- `Milliseconds` (optional): _0_ to _999_
 
 ## Example
 
