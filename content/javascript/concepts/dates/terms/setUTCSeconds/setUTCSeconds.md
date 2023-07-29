@@ -48,3 +48,10 @@ eventSeconds.setUTCSeconds(35, 465);
 console.log(`Seconds: ${eventSeconds.getUTCSeconds()}`);
 console.log(`Milliseconds: ${eventSeconds.getUTCMilliseconds()}`);
 ```
+
+This example will output:
+
+```shell
+Seconds: 35
+Milliseconds: 465
+```
