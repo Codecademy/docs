@@ -1,7 +1,6 @@
 ---
 Title: '.all()'
 Description: 'Takes a group of tasks (Promises) and returns a new Promise.'
-If any of the tasks fail (reject), the .all() Promise immediately fails with the reason of the first failed task.
 Subjects:
   - 'Web Development'
 Tags:
