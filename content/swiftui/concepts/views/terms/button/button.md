@@ -32,7 +32,8 @@ Button(action: { // Initiates when the button is pressed }) {
   // A Label closure or view
 }
 ```
-When creating a button, the `.label` property can be left out and its details can be provided in a separate closure after the button call. This provides more flexibility for customizing the button's appearance.
+
+When creating a button, the `label` property can be left out and its details can be provided in a separate closure after the button call. This provides more flexibility for customizing the button's appearance.
 
 ## Example
 
