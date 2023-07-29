@@ -14,7 +14,7 @@ CatalogContent:
 
 The `<meter>` semantic tag is used to represent a fractional or a scalar value within a known range. This form of representation is known as a gauge.
 
-> **Note**: The `<meter>` tag should not be used to indicate progress (as in a progress bar).
+> **Note**: The `<meter>` tag should not be used to indicate [progress](https://www.codecademy.com/resources/docs/html/semantic-html/progress).
 
 ## Syntax
 
