@@ -1,6 +1,6 @@
 ---
 Title: 'Exp()'
-Description: 'Returns the value of e^x where x is the parameter.'
+Description: 'Returns the value of e raised to the power of the parameter x.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
