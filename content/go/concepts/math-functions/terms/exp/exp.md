@@ -71,7 +71,7 @@ import (
 )
 
 func main() {
-  number := math.Exp(10)
+  number := math.Exp(0)
   fmt.Printf("%.1f\n", number)
 }
 ```
