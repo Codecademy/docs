@@ -1,6 +1,6 @@
 ---
 Title: '.all()'
-Description: "The .all() method in JavaScript Promises helps us work with multiple tasks at once. It takes a group of tasks (Promises) and returns a new Promise.
+Description: 'Takes a group of tasks (Promises) and returns a new Promise.'
 
 When using `.all()`, the tasks start together and wait for all of them to finish. `.all()` gives a Promise that contains the results of all the tasks.
 
