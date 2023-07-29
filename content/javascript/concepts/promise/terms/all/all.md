@@ -72,7 +72,6 @@ Promise.all([fetchUserData(), fetchProductData(), fetchOrderData()])
   });
 
 ```
-## Explanation
 
 In this example, we have three functions (fetchUserData(), fetchProductData(), and fetchOrderData()) that simulate API calls with a delay using setTimeout(). Each function returns a Promise that resolves with the respective data.
 
