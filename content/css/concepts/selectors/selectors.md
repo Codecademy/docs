@@ -39,7 +39,7 @@ The `element-type` must be a valid HTML element.
 
 ### Example
 
-In the following example all `<p>` elements on the page will be center-aligned with a red text color.
+In the following example all `<p>` elements on the page will be center-aligned with a red text color:
 
 ```css
 p {
