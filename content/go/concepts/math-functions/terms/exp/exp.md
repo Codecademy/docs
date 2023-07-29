@@ -13,7 +13,8 @@ CatalogContent:
   - 'learn-go'
   - 'paths/computer-science'
 ---
-The **Exp()** function returns the value of e^x (e to the power of x) where x is the parameter.
+
+The **`Exp()`** function returns the value of *e^x* (*e* to the power of *x*), where *x* is the parameter.
 
 ## Syntax
 ```pseudo
