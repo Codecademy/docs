@@ -15,7 +15,7 @@ CatalogContent:
 
 **Selectors** are used to style [HTML elements](https://www.codecademy.com/resources/docs/html/elements) according to their type and/or attributes.
 
-All markups can be selected with the `*` selector.
+All markups can be selected with the `*` selector:
 
 ```css
 * {
