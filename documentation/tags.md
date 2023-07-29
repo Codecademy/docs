@@ -72,6 +72,7 @@ Constructors
 Continue
 Control Flow
 CRUD
+CSS
 CSV
 Cybersecurity
 D3
@@ -117,6 +118,7 @@ Events
 Exceptions
 Expo
 Express
+Extensions
 Favicon
 Files
 Filter
@@ -233,6 +235,7 @@ Pointers
 Positioning
 PostgreSQL
 Precedence
+Preprocessor
 Primary Key
 Print
 Probability
