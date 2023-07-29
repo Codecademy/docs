@@ -32,7 +32,7 @@ Where `value` is the value of *e* raised to the power of `number`, and where `nu
 
 ## Example
 
-The following code calculates the value of e^3 (e to the power of 3) and prints the resulting value to the console. 
+The following code calculates the value of *e* to the power of 3, and prints the resulting value to the console. 
 
 ```go
 package main
