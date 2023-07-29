@@ -32,9 +32,16 @@ Optionally, the method can also set the date's millisecond UTC values. The valid
 
 This example sets the second value of the `eventSeconds` object to `35`.
 
-```javascript
+```js
 const eventSeconds = new Date('2023-06-25T00:00:00');
 eventSeconds.setUTCSeconds(35);
+console.log(eventSeconds);
+```
+
+This example will output the following:
+
+```shell
+2023-06-25T00:00:35.000Z
 ```
 
 ## Codebyte Example
@@ -47,11 +54,4 @@ eventSeconds.setUTCSeconds(35, 465);
 
 console.log(`Seconds: ${eventSeconds.getUTCSeconds()}`);
 console.log(`Milliseconds: ${eventSeconds.getUTCMilliseconds()}`);
-```
-
-This example will output:
-
-```shell
-Seconds: 35
-Milliseconds: 465
 ```
