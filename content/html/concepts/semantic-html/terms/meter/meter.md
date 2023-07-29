@@ -26,6 +26,14 @@ The `<meter>` is written as `<meter></meter>` with any contents inserted between
 </meter>
 ```
 
+```html
+<meter min="number" max="number">
+    <!-- Meter content goes here. -->
+</meter>
+```
+
+> **Note**: When using the max and min attributes in the <meter> element, they should define the range so that the value's attribute can appear within it, except if the value is between 0 and 1.
+
 ## Example
 
 Below is an example of the `<meter>` tag being used to display disk usage:
