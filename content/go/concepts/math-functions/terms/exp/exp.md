@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Exp()`** function returns the value of *e^x* (*e* to the power of *x*), where *x* is the parameter.
+The **`Exp()`** function returns the value of _e^x_ (_e_ to the power of _x_), where _x_ is the parameter.
 
 ## Syntax
 
@@ -24,16 +24,16 @@ import "math"
 value := math.Exp(number)
 ```
 
-Where `value` is the value of *e* raised to the power of `number`, and where `number` is a variable of type float64. 
+Where `value` is the value of _e_ raised to the power of `number`, and where `number` is a variable of type float64.
 
-## Special cases
+## Special Cases
 
 - `Exp(+Inf)` returns `+Inf`
 - `Exp(NaN)` returns `NaN` as well (Not a Number)
 
 ## Example
 
-The following code calculates the value of *e* to the power of 3, and prints the resulting value to the console. 
+The following code calculates the value of _e_ to the power of 3, and prints the resulting value to the console.
 
 ```go
 package main
@@ -55,7 +55,7 @@ The output will be:
 20.1
 ```
 
-## Codebyte Example 
+## Codebyte Example
 
 The following code is runnable and demonstrates the use of the `Exp()` function.
 
