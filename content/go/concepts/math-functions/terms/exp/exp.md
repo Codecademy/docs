@@ -60,7 +60,7 @@ The output will be:
 
 ## Codebyte Example 
 
-You can run the example below - it demonstrates what happens when you run Exp() with a value of 10.
+The following code is runnable and demonstrates the use of the `Exp()` function.
 
 ```codebyte/golang
 package main
