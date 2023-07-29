@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The .all() method in JavaScript Promises helps us work with multiple tasks at once. It takes a group of tasks (Promises) and returns a new Promise.
+The **`.all()`** method in JavaScript Promises helps in working with multiple tasks at once. It takes a group of tasks (Promises) and returns a new Promise.
 
 
 When we use .all(), all the tasks start together, and .all() waits for all of them to finish. It gives us a Promise that contains the results of all the tasks.
