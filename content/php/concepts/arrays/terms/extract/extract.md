@@ -33,7 +33,7 @@ The `extract()` function has one required parameter and some optional parameters
     - `EXTR_IF_EXISTS`: Only overwrites existing variables in the current symbol table, otherwise does nothing
     - `EXTR_PREFIX_IF_EXISTS`: Only adds prefix to variables if the same variable exists in the current symbol table
     - `EXTR_REFS`: Extracts variables as references.
-- `prefix`: Optional. If EXTR_PREFIX_SAME, EXTR_PREFIX_ALL, EXTR_PREFIX_INVALID or EXTR_PREFIX_IF_EXISTS are used in the extract_rules parameter, a specified prefix is required.
+- `prefix`: Optional. If `EXTR_PREFIX_SAME`, `EXTR_PREFIX_ALL`, `EXTR_PREFIX_INVALID` or `EXTR_PREFIX_IF_EXISTS` are used in the `flags` parameter, a specified prefix is required.
 
 
 The `extract()` function returns the number of variables extracted on success.
