@@ -22,6 +22,7 @@ CatalogContent:
 ```pseudo
 Storage.clear()
 ```
+
 The method does not accept arguments. It will clear all storage keys and their respective values.
 
 ## Example
