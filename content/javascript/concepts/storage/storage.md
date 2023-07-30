@@ -30,10 +30,10 @@ The differnce between the two Storage objects is as follows:
 The following example shows adding a key/value pair to `localStorage`, retrieving it, and removing it.
 
 ```js
-localStorage.setItem("dataKey","dataValue");
-const data = localStorage.getItem("dataKey");
+localStorage.setItem('dataKey', 'dataValue');
+const data = localStorage.getItem('dataKey');
 console.log(data);
-localStorage.removeItem("dataKey");
+localStorage.removeItem('dataKey');
 ```
 
 The example results in the following output:
