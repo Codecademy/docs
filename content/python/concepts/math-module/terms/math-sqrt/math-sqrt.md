@@ -45,3 +45,14 @@ print(math.sqrt(5.5))
 
 # Output: 2.345207879911715
 ```
+
+## Codebyte Example
+
+'''codebyte/python
+import math
+#The math.sqrt() function can take in any positive int or float and return its square root.
+square_root_int = math.sqrt(25)
+print(square_root_int)
+square_root_float = math.sqrt(49.0)
+pritn(square_root_float)
+'''

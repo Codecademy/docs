@@ -43,3 +43,12 @@ print(math.tan(5.5))
 
 # Output: -0.995584052213885
 ```
+
+
+##  Codebyte Example
+
+'''codebyte/python
+import math
+#math.tan() takes in a radian value and returns a radian value
+tangent = math.tan(1.5)
+'''
