@@ -14,7 +14,7 @@ CatalogContent:
 
 A **`Storage`** object allows the addition, modification and deletion of stored key/value pairs. The keys and values stored are always UTF-16 strings. Integer keys are converted to strings. The session storage for a domain is called from an object named `sessionStorage`. Local storage is stored in an object called `localStorage`.
 
-The differnce between the two Storage objects is as follows:
+The difference between the two Storage objects is as follows:
 
 - `localStorage`: Data is saved for the Document's origin, and persists across browser sessions. The data has no expiration date.
 - `sessionStorage`: Data is saved for the Document's origin, but persists only for the duration of the browser session.
