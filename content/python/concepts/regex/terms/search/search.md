@@ -58,18 +58,7 @@ The output will look like this:
 
 ## Codebyte Example
 
-The following example features a regex that uses the `.search()` method to match a web address:
-
-```codebyte/python
-import re
-
-result = re.search(r"www\S+", "the tutorials at www.codecademy.com")
-# \S matches any character except a space, tab or newline
-
-print(result)
-```
-
-The following code example demonstrates the usage of re.search() with a regular expression to find and match the first email address within a given text.
+The following code example demonstrates the usage of `re.search()` with a regular expression to find and match the first email address within a given text.
 
 ```codebyte/python
 import re
