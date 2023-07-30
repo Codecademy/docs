@@ -1,6 +1,6 @@
 ---
 Title: '<rb>'
-Description: 'Serving as the base component in ruby annotations for East Asian text, this element's use has declined and is now listed as deprecated.'
+Description: 'Representing the base component in ruby annotations for East Asian text, its use has declined and it is now considered deprecated.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
