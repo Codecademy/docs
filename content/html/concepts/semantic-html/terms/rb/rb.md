@@ -33,7 +33,7 @@ This is what it looks like in the browser:
 
 ![Output of the above code with English translations](https://raw.githubusercontent.com/Codecademy/docs/main/media/iliketowritecode.png)
 
-Another approach is to replace the English translations with Pinyin, which represents the Chinese characters using the Roman alphabet for pronunciation guidance. Here's an example: 
+Another approach is to replace the English translations with Pinyin, which represents the Chinese characters using the Roman alphabet for pronunciation guidance. Here's an example:
 
 ```pseudo
 <ruby>
