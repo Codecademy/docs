@@ -51,7 +51,7 @@ The output will look like this:
 <_sre.SRE_Match object; span=(0, 3), match="www">
 ```
 
-## Codebyte Examples
+## Codebyte Example
 
 The following example returns a match object (`<re.Match object; span=(0, 12), match='123-456-7890'>`) and not `None` since the phone number (`123-456-7890`) matches the test pattern:
 
