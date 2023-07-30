@@ -35,7 +35,6 @@ The `extract()` function has one required parameter and some optional parameters
     - `EXTR_REFS`: Extracts variables as references.
 - `prefix`: Optional. If `EXTR_PREFIX_SAME`, `EXTR_PREFIX_ALL`, `EXTR_PREFIX_INVALID` or `EXTR_PREFIX_IF_EXISTS` are used in the `flags` parameter, a specified prefix is required.
 
-
 The `extract()` function returns the number of variables extracted on success.
 
 ## Example
