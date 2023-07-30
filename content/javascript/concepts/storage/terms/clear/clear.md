@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**.clear()** removes all keys in a Storage object.
+**`.clear()`** removes all keys in a `Storage` object.
 
 ## Syntax
 ```pseudo
