@@ -1,6 +1,6 @@
 ---
 Title: 'extract()'
-Description: 'Uses array keys as variable names and values as variable values and for each element creates a variable in the current symbol table'
+Description: 'Uses array keys as variable names and values as variable values and for each element creates a variable in the current symbol table.'
 Subjects:
   - 'Computer Science'
   - 'Web Design'
