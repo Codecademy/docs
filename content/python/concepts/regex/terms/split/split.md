@@ -72,7 +72,9 @@ The following example uses the `.spliit()` method to format a string of text wit
 ```codebyte/python
 import re
 
-sentence = '%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? $start $tea@ching python &today&'
+sentence = '%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing;
+&as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs.
+%Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? $start $tea@ching python &today&'
 
 # Splits the sentence into words while removing the special characters as well
 words = re.split(r'\W+', sentence)
