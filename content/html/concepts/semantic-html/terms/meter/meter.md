@@ -32,14 +32,14 @@ The `<meter>` is written as `<meter></meter>` with any contents inserted between
 </meter>
 ```
 
-> **Note**: When using the max and min attributes in the <meter> element, they should define the range so that the value's attribute can appear within it, except if the value is between 0 and 1.
+> **Note**: The default values for the `min` and `max` attributes are `0` and `1`. These attributes should be updated to create the appropriate range for the given context.
 
 ## Example
 
 Below is an example of the `<meter>` tag being used to display disk usage:
 
 ```html
-<p>Disk Usage <meter min="100" max="1000" value="80" title="GB"></meter>.</p>
+<p>Disk Usage <meter min="100" max="1000" value="700" title="GB"></meter>.</p>
 ```
 ### Output of The Meter Tag Example
 
