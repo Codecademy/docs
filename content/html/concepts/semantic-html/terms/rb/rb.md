@@ -14,7 +14,7 @@ CatalogContent:
 
 The **`<rb>`** element designates the base text for ruby annotations in East Asian languages. It must be within `<ruby>` tags and is often paired with [`<rt>`](https://www.codecademy.com/resources/docs/html/semantic-html/rt) for pronunciation guides and `<rp>` for fallback rendering.
 
-> **Note:** The `<rb>` tag is considered deprecated, meaning it's no longer recommended for use in new projects. Be sure to consult current web standards and best practices when working with ruby annotations.
+> **Note:** The `<rb>` tag is considered deprecated, meaning it's no longer recommended for use in new projects. Instead, characters can be written directly within the `<ruby>` tags.
 
 ## Syntax
 
