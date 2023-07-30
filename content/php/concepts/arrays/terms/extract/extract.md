@@ -62,8 +62,6 @@ $a = Rat; $b = Mule; $c = Ass
 
 This example is runnable and uses the `extract()` function:
 
-> **Note:** The example uses `extract()`.
-
 ```codebyte/php
 <?php
   $size = "small";
