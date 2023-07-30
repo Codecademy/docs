@@ -51,4 +51,5 @@ print(math.tan(5.5))
 import math
 #math.tan() takes in a radian value and returns a radian value
 tangent = math.tan(1.5)
+print(tangent)
 '''
