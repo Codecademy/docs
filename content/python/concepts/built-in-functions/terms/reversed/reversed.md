@@ -69,7 +69,7 @@ for letter in new:
 
 ## Codebyte Example
 
-Tuples are iterable objects too hence `reversed()` can be used on tuples as well. 
+Tuples are iterable objects too, hence `reversed()` can be used on tuples as well. 
  
 ```codebyte/python
 # Reversing a tuple using reversed() function
