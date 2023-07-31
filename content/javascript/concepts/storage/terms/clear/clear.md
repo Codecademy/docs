@@ -27,7 +27,7 @@ The method does not accept arguments. It will clear all storage keys and their r
 
 ## Example
 
-In this example new items are added to `sessionStorage` and `localStorage` from console. The `.clear()` method then removes all data.
+In this example, new items are added to `sessionStorage` and `localStorage` from console. The `.clear()` method then removes all data.
 
 ```js
 // Add items to session storage.
