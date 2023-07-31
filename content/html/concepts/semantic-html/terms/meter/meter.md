@@ -39,7 +39,7 @@ The `<meter>` is written as `<meter></meter>` with any contents inserted between
 Below is an example of the `<meter>` tag being used to display disk usage:
 
 ```html
-<p>Disk Usage <meter min="100" max="1000" value="700" title="GB"></meter>.</p>
+<p>Disk Usage <meter min="100" max="1000" value="700" title="GB"></meter></p>
 ```
 ### Output of The Meter Tag Example
 
