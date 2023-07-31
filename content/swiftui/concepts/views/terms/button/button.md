@@ -28,7 +28,9 @@ Button(
 To create a button, an action and a label are required. The `.action` property expects a closure or a method that it will execute when the button is pressed. The '.label' expects a closure or a view, which can be an image, text, or both.
 
 ```pseudo
-Button(action: { // Initiates when the button is pressed }) {
+Button(action: {
+  // Initiates when the button is pressed
+}) {
   // A Label closure or view
 }
 ```
