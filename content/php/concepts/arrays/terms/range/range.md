@@ -1,6 +1,6 @@
 ---
 Title: 'range()'
-Description: 'Returns an array of elements from low to high.'
+Description: 'Returns an array that contains a series of elements based on the parameters given.'
 Subjects:
   - 'Computer Science'
   - 'Web Design'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`range()`** function generates an array containing a sequence of elements. It allows you to define a starting point, an endpoint, and an optional step value to determine the increment between elements.
+The **`range()`** function generates an array containing a sequence of elements. The function allows for the specification of a starting point, an endpoint, and an optional step value to determine the increment between elements.
 
 ## Syntax
 
@@ -26,7 +26,7 @@ The `range()` function accepts three parameters as described below:
 - `$end`: The endpoint value of the sequence.
 - `$step`(optional): The increment between elements in the sequence. If not specified, the default value is `1`.
 
-The `range()` function returns an array of elements from `$start` to `$end`, inclusive.
+The `range()` function returns an array of elements from `$start` to `$end`, and is inclusive (the `$end` value will be the final element in the array).
 
 > **Note:** If the `$start` parameter is higher than the `$end` parameter, the range array will be from high to low.
 
@@ -57,7 +57,7 @@ This example is runnable and uses the `range()` function:
 <?php
 $tebahpla = range('z','a');
 
-// printing elements of array
+// Printing elements of the array
 foreach ($tebahpla as $a) {
     echo "$a ";
 }
