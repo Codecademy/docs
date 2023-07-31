@@ -40,7 +40,7 @@ int main() {
 This results in the following output:
 
 ```shell
-A cube with a volume of 27 has a side lentgh of 3
+A cube with a volume of 27 has a side length of 3
 ```
 
 ## Codebyte Example

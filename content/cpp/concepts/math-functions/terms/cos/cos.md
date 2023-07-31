@@ -34,8 +34,13 @@ int main() {
   result = std::cos(x);
 
   std::cout << "The cosine of " << x << " radians is " << result << "\n";
-  // Output: The cosine of 3.1416 radians is -1
 }
+```
+
+This results in the following output:
+
+```shell
+The cosine of 3.1416 radians is -1
 ```
 
 ## Codebyte Example
@@ -50,7 +55,7 @@ int main() {
   double x = 25;
   double result;
 
-  //converting degrees to radians
+  // Converting degrees to radians
   rad = x*M_PI/180
   result = std::cos(rad);
 
