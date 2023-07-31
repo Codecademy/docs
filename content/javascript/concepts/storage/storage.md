@@ -19,7 +19,7 @@ The difference between the two `Storage` objects is as follows:
 - `localStorage`: Data is saved for the Document's origin, and persists across browser sessions. The data has no expiration date.
 - `sessionStorage`: Data is saved for the Document's origin, but persists only for the duration of the browser session.
 
-> **Note:** The Storage object is particular to the protocol of the document. The `localStorage` or `sessionStorage` object for `http://codecademy.com` will be a different object than the `localStorage` or `sessionStorage` object returned for `https://codecademy.com`.
+> **Note:** The `Storage` object is particular to the protocol of the document. The `localStorage` or `sessionStorage` object for `http://codecademy.com` will be a different object than the `localStorage` or `sessionStorage` object returned for `https://codecademy.com`.
 
 <!-- blank -->
 
