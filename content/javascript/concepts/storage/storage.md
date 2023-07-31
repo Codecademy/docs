@@ -23,7 +23,7 @@ The difference between the two `Storage` objects is as follows:
 
 <!-- blank -->
 
-> **Note:** The behavior of Storage objects for documents loaded from the local filesystem (i.e. `file:`) is undefined. Many browsers define a separate `Storage` object for each `file:` URL, but it is not best practice to rely on this behavior.
+> **Note:** The behavior of `Storage` objects for documents loaded from the local filesystem (i.e. `file:`) is undefined. Many browsers define a separate `Storage` object for each `file:` URL, but it is not best practice to rely on this behavior.
 
 ## Example
 
