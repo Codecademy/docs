@@ -42,8 +42,8 @@ Depending on the industry, criticality, IT infrastructure, and size of the organ
 - Backup: Storing only critical data on a removable drive or off-site without backing up the IT infrastructure.
 - Network Disaster Recovery: Restoring network connectivity for internal and external communication, data sharing, and application access during a disaster.
 - Cloud Disaster Recovery: Using cloud services to host (automated) Disaster Recovery processes,  for example, automatic failover of workloads to another cloud platform in case of disruption.
-- Disaster Recovery as a Service (DRaaS): Outsourcing computer processing to a provider's cloud infrastructure to ensure business operations during disasters.
-- Backup as a Service: Outsourcing data backup to a provider, not including IT infrastructure.
+- Disaster Recovery as a Service (DRaaS): Outsourcing computer processing to a provider's cloud infrastructure to ensure business operations during disasters. DRaaS providers are, for example, [IBM](https://www.ibm.com/cloud/disaster-recovery), [Microsoft Azure](https://azure.microsoft.com/en-us/products/site-recovery/) and [VMware](https://www.vmware.com/products/site-recovery.html).
+- Backup as a Service (BaaS): Outsourcing data backup to a provider, not including IT infrastructure. BaaS providers are, for example, [Acronis](https://www.acronis.com/), [IDrive](https://www.idrive.com/) and [Carbonite](https://www.carbonite.com/).
 - Datacenter Disaster Recovery: The physical protection of the organization's data center, for example, backup power sources or fire suppression.
 - Virtualization: Backing up infrastructures and data on unaffected off-site virtual machines.
 - Point-in-time Copies: Making copies of the entire database at specific times for restoration.
