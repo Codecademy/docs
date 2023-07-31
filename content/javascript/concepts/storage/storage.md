@@ -1,6 +1,6 @@
 ---
 Title: 'Storage'
-Description: 'A Storage object allows storage of items based on a key name.'
+Description: 'A Storage object allows the storage of items based on a key name.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
