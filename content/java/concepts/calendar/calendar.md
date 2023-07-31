@@ -14,6 +14,12 @@ CatalogContent:
 
 The **`Calendar`** [class](https://www.codecademy.com/learn/learn-java-classes-and-methods) is an abstract class that provides methods for converting between a specific instant in time and a set of calendar fields such as `YEAR`, `MONTH`, `DAY_OF_MONTH`, `HOUR`, and so on. It also provides methods for manipulating the calendar fields, such as getting the date of the next week.
 
+## Syntax
+
+```pseudo
+Calendar calendar = Calendar.getInstance();
+```
+
 ## Example
 
 ```java
