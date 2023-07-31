@@ -23,7 +23,7 @@ currentDate.clone()
 
 The `Date.clone()` method does not take any parameters.
 
-It returns a copy or duplicate of the `currentDate`, and the returned value is an `Object`, not a `Date`. 
+It returns a copy or duplicate of the `currentDate`, and the returned value is an `Object`, not a `Date`.
 
 ## Example
 
@@ -36,7 +36,7 @@ public class Main {
    public static void main(String[] args) {
 
       Date currentDate = new Date();
-	
+
       System.out.println("The original date is " + currentDate);
       System.out.println("The clone of the date is " + currentDate.clone());
    }
