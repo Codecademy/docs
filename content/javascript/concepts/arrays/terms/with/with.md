@@ -16,12 +16,12 @@ The **`.with()`** method modifies the value of an element in an array. Since `.w
 ## Syntax
 ```pseudo
 arrayName.with(index, value);
-``
 
 `.with()` takes the following parameters: 
 
 1. Index: The index of the array element to be altered.
 2. Value: The updated value for the array element.
+
 
 ## Example
 
