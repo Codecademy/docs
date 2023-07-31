@@ -42,4 +42,4 @@ The example results in the following output:
 dataValue
 ```
 
-Below is a list of the Storage object's methods and properties:
+Below is a list of the `Storage` object's methods and properties:
