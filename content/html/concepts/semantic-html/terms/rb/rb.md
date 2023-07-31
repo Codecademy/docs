@@ -7,6 +7,7 @@ Subjects:
 Tags:
   - 'Semantic'
   - 'Tags'
+  - 'Obsolete'
 CatalogContent:
   - 'learn-html'
   - 'paths/front-end-engineer-career-path'
