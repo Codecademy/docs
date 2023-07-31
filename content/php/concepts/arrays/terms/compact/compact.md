@@ -31,7 +31,7 @@ The `compact()` function returns an array with all the variables added to it.
 
 ## Example
 
-The following example uses the `compact()` function takes the variables `$name`, `$age`, and `$city`, and creates an associative array called `$person`.
+The following example demonstrates a basic implementation of `compact()`.
 
 ```php
 <?php
