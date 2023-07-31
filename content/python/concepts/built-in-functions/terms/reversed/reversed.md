@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-Takes in an iteratable object, such as a list, string, or a tuple and returns a reversed iterator object.
+The **`reversed()`** function takes in an iteratable object, such as a list, string, or a tuple and returns a reversed iterator object.
 
 ## Syntax
 
