@@ -12,7 +12,7 @@ CatalogContent:
   - 'learn-git'
 ---
 
-In Git, __`diff`__ displays changes in different elements of your working environment: files, directories, commits and even branches. Simply put, diff shows what changed for one or several elements in a repository.
+In Git, __`diff`__ displays changes in different elements of the working environment: files, directories, commits and even branches. Simply put, diff shows what changed for one or several elements in a repository.
 
 ## Syntax
 
