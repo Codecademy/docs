@@ -21,7 +21,7 @@ The **`Date.clone()`** method returns a copy or duplicate of a specified `Date` 
 currentDate.clone()
 ```
 
-The `Date.clone()` does not take any parameters.
+The `Date.clone()` method does not take any parameters.
 
 It returns a copy or duplicate of the `currentDate`, and the returned value is an `Object`, not a `Date`. 
 
