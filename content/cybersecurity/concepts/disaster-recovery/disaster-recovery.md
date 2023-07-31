@@ -27,7 +27,7 @@ Disruptive events can have varying levels of severity and cause data loss, opera
 
 The Disaster Recovery Plan is a document that organizations create and maintain to minimize the damage of disruptive events. It contains a complete analysis of the risks and the necessary actions to recover and restore IT systems in case of disruptive events. The Disaster Recovery Plan ensures that organizations can resume normal operations.
 
-The Disaster Recovery Plan contains the following elements:
+### Elements of a Disaster Recovery Plan
 
 - Risk Analysis: It identifies potential hazards and risks of disruptive events.
 - Business Impact Analysis: It determines the identified risks' impact on the business and the critical data and infrastructures for the organization.
