@@ -21,13 +21,13 @@ Certain events can compromise or completely incapacitate IT systems. These disru
 - Human-Caused Disasters (e.g., terrorism, accidents, [cyber attacks](https://www.codecademy.com/resources/docs/cybersecurity/cyber-attack))
 - Other Incidents (e.g., power outages, equipment failure, infectious disease outbreaks)
 
-Disruptive events can have varying levels of severity and cause data loss, operational downtime, financial losses, and reputational damage to organizations and businesses. Organizations use Disaster Recovery procedures to reduce the impact of these adverse outcomes.
+Disruptive events can have varying levels of severity and cause data loss, operational downtime, financial losses, and reputational damage to organizations and businesses. According to a study conducted by Inc and Vistage, [60% of businesses, especially those that are small and mid-sized, close within 6 months of a cyber attack](https://www.inc.com/joe-galvin/60-percent-of-small-businesses-fold-within-6-months-of-a-cyber-attack-heres-how-to-protect-yourself.html.). As a result, organizations use Disaster Recovery procedures to reduce the impact of these adverse outcomes.
 
 ## Disaster Recovery Plan
 
 The Disaster Recovery Plan is a document that organizations create and maintain to minimize the damage of disruptive events. It contains a complete analysis of the risks and the necessary actions to recover and restore IT systems in case of disruptive events. The Disaster Recovery Plan ensures that organizations can resume normal operations.
 
-The Disaster Recovery Plan contains the following elements:
+### Elements of a Disaster Recovery Plan
 
 - Risk Analysis: It identifies potential hazards and risks of disruptive events.
 - Business Impact Analysis: It determines the identified risks' impact on the business and the critical data and infrastructures for the organization.
