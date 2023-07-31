@@ -1,1 +1,1 @@
-content/html/concepts/favicon/favicon.md
+content/java/concepts/classes/classes.md
