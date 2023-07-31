@@ -44,7 +44,7 @@ $city = 'New York';
 $person = compact('name', 'age', 'city');
 
 // Output the resulting array
-print_r($person);  
+print_r($person);
 ?>
 ```
 
@@ -68,9 +68,9 @@ This example is runnable and uses the `compact()` function:
 $username = "john";
 $password = "hunter1";
 $age = "27";
-  
+
 $NAME = array("username", "password");
-  
+
 $result = compact($NAME, "age");
 
 print_r($result);
