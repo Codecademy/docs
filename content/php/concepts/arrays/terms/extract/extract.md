@@ -24,7 +24,7 @@ extract($array, flags, prefix)
 The `extract()` function has one required parameter and some optional parameters:
 
 - `$array`: Specifies the input `array`.
-- `flags`: Optional.The extract() function checks for invalid variable names and collisions with existing variable names. This parameter specifies how invalid and colliding names are treated. Below are possible values:
+- `flags`: Optional. The `extract()` function checks for invalid variable names and collisions with existing variable names. This parameter specifies how invalid and colliding names are treated. Below are possible values:
     - `EXTR_OVERWRITE`: Default. On collision, the existing variable is overwritten
     - `EXTR_SKIP`: On collision, the existing variable is not overwritten
     - `EXTR_PREFIX_SAME`: On collision, the variable name will be given a prefix
