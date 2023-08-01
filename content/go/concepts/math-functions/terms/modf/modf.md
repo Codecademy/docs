@@ -86,6 +86,5 @@ func main() {
     // A number of a fractional value
     integer, fraction = math.Modf(0.5)
     fmt.Printf("Integer: %f. Fraction: %f\n", integer, fraction)
-
 }
 ```
