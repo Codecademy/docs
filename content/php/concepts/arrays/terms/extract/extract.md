@@ -63,11 +63,11 @@ This example is runnable and uses the `extract()` function:
 ```codebyte/php
 <?php
   $size = "small";
-$var_array = array("color" => "navy",
+  $var_array = array("color" => "navy",
                    "size"  => "large",
                    "shape" => "oval");
-extract($var_array, EXTR_PREFIX_SAME, "wddx");
+  extract($var_array, EXTR_PREFIX_SAME, "wddx");
 
-echo "$color, $size, $shape, $wddx_size\n";
+  echo "$color, $size, $shape, $wddx_size\n";
 ?>
 ```
