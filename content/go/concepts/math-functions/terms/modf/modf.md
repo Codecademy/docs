@@ -23,7 +23,7 @@ int, frac := Modf(f)
 
 Where:
 
-- `f`: is the floating-point number for which you want to extract the integer and fractional parts.
+- `f`: is the floating-point number to extract the integer and fractional parts from.
 - `int`: is the integer part of the passed parameter.
 - `frac`: is the fractional part of the passed parameter.
 
