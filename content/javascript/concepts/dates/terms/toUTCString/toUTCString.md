@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **.toUTCString()** method is used to convert a given date object’s content into a string according to the Coordinated Universal Time Zone (UTC).
+The **`.toUTCString()`** method is used to convert a given date object’s content into a string according to the Coordinated Universal Time Zone (UTC).
 
 ## Syntax
 
