@@ -34,7 +34,7 @@ f.readline()
 
 ## Codebyte Example
 
-The example below first creates a file called **sample_text.txt** and writes multiple lines of text to the file. It then calls `.readline()` twice to extract the two lines of content.
+The example below first creates a file called `sample_text.txt` and writes multiple lines of text to the file. It then calls `.readline()` twice to extract the two lines of content.
 
 ```codebyte/python
 with open("sample_text.txt", "w") as f:
