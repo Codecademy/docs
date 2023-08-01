@@ -34,7 +34,7 @@ f.close()
 
 ## Codebyte Example
 
-The example below opens a file called **example_file.txt** and then closes it using `.close()`. The `.closed` attribute is used to show whether the file is open or closed.
+The example below opens a file called `example_file.txt` and then closes it using `.close()`. The `.closed` attribute is used to show whether the file is open or closed.
 
 ```codebyte/python
 f = open("example_file.txt", "r+")
