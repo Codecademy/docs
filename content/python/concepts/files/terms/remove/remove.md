@@ -53,7 +53,7 @@ os.remove("path/to/my_file.txt")
 
 ## Codebyte Example
 
-The example below creates a file called **example.txt** and then deletes it using the `.remove()` method. The `.isfile()` method is used to show at which stage the file is found.
+The example below creates a file called `example.txt` and then deletes it using the `.remove()` method. The `.isfile()` method is used to show at which stage the file is found.
 
 ```codebyte/python
 filename = "example.txt"
