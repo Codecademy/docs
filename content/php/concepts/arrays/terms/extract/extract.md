@@ -43,10 +43,10 @@ The following example uses the `extract()` function to extract:
 
 ```php
 <?php
- $a = "Original";
-$my_array = array("a" => "Rat","b" => "Mule", "c" => "Ass");
-extract($my_array);
-echo "\$a = $a; \$b = $b; \$c = $c";
+  $a = "Original";
+  $my_array = array("a" => "Rat","b" => "Mule", "c" => "Ass");
+  extract($my_array);
+  echo "\$a = $a; \$b = $b; \$c = $c";
 ?>
 ```
 
