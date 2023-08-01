@@ -1,6 +1,6 @@
 ---
 Title: 'math.sin()'
-Description: 'Returns the sine of input numeric x, measured in radian value.'
+Description: 'Returns the sine of the numeric input x, measured in radians.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Returns the sine of input numeric x, measured in radian value.
+Returns the sine of the numeric input `x`, measured in radians.
 
 ## Syntax
 
@@ -22,7 +22,7 @@ math.sin(x)
 
 ## Example 1
 
-Use `math.sin()` to return the sine of the integer `5` measured in radian value:
+Use `math.sin()` to return the sine of the integer `5` measured in radians:
 
 ```python
 import math
@@ -34,7 +34,7 @@ print(math.sin(5))
 
 ## Example 2
 
-Use `math.sin()` to return the sine of the float `5.5` measured in radian value:
+Use `math.sin()` to return the sine of the float `5.5` measured in radians:
 
 ```python
 import math
@@ -46,7 +46,7 @@ print(math.sin(5.5))
 
 ## Codebyte Example
 
-Return the sine of different numbers
+The following example is runnable and returns the sine of different values:
 
 ```codebyte/py
 import math
