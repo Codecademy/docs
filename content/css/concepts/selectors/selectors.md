@@ -50,7 +50,7 @@ p {
 
 ## Selecting by Attribute
 
-The `class` selector selects elements that are assigned under a specific attribute, a class, given to an HTML element, can be used multiple times, and begins with a period, `.`. Similarly, the `id` selector selects an HTML element that has an `id` attribute. In contrast, the `id` selector is **only** used once and begins with the hashtag symbol, `#`.
+The `class` selector selects elements that are assigned a class attribute, it can be used across multiple elements, and begins with a period, `.`. Similarly, the `id` selector selects an HTML element that has an `id` attribute. In contrast, the `id` selector can **only** be applied once and begins with the hashtag symbol, `#`.
 
 ### Syntax
 
