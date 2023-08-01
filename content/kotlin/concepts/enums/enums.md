@@ -1,6 +1,6 @@
 ---
 Title: 'Enums'
-Description: 'Enums are a type of class primarily used for representing predefined constants.'
+Description: 'Enums are a special data type that enable a variable to be a set of predefined constants.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
