@@ -45,3 +45,13 @@ print(math.cos(180.5))
 
 # Output: -0.141105086702016
 ```
+
+## Codebyte Example
+
+The following example is runnable and uses the `math.cos()` function:
+
+```codebyte/py
+import math
+
+print(math.cos(90))
+```

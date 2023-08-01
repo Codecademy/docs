@@ -45,3 +45,13 @@ print(math.log(12, 5))
 
 # Output: 1.5439593106327716
 ```
+
+## Codebyte Example
+
+The following example is runnable and uses the `math.log()` function:
+
+```codebyte/py
+import math
+
+print(math.log(10))
+```

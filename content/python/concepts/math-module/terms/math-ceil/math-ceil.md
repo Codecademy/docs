@@ -45,3 +45,13 @@ print(math.ceil(412.959))
 
 # Output: 413
 ```
+
+## Codebyte Example
+
+The following example is runnable and uses the `math.ceil()` function:
+
+```codebyte/py
+import math
+
+print(math.ceil(10))
+```
