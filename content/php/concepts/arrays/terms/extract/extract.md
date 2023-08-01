@@ -39,7 +39,7 @@ The `extract()` function returns the number of variables extracted on success.
 
 ## Example
 
-The following example uses the `extract()` function to extract:
+The following example demonstrates an implementation of the `extract()` function:
 
 ```php
 <?php
