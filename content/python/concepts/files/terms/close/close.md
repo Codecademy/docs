@@ -37,7 +37,9 @@ f.close()
 The example below opens a file called `example_file.txt` and then closes it using `.close()`. The `.closed` attribute is used to show whether the file is open or closed.
 
 ```codebyte/python
-f = open("example_file.txt", "r+")
+filename = "example.txt"
+f = open(filename, "w")
+
 
 print("f is closed" if f.closed else "f is open")
 
