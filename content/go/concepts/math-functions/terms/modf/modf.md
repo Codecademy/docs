@@ -55,7 +55,7 @@ func main() {
 The output will be:
 
 ```shell
-For 3.3456 integer part: 3 fractional part: 0.34560000000000013
+The value 3.3456 is composed of the integer: 3 and the fractional part: 0.34560000000000013
 ```
 
 ## Codebyte Example
