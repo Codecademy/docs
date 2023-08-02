@@ -1,24 +1,80 @@
 ---
-Title: 'The Title' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'A brief description' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
-Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
-  - 'A subject name'
-  - 'A second subject name'
-  - 'An nth subject name'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
-  - 'A tag'
-  - 'A second tag'
-  - 'An nth tag'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
-  - 'learn-example-course'
-  - 'path/example-path'
+Title: 'Navigation'
+Description: 'It is the ability to navigate to diffrent views from the root view in the app.'
+Subjects:
+  - 'iOS'
+  - 'Mobile Development'
+Tags:
+  - 'SwiftUI'
+  - 'SwiftUI ViewModifiers'
+  - 'iOS'
+CatalogContent:
+  - 'learn-iOS-course'
+  - 'path/iOS-path'
 ---
 
-[Introduction - make sure first mention of concept is in **bold**.] (The first 160 characters of this section will appear as the description of the page when it shows up on search engines. It's important!)
+**Navigation** is the ability to navigate to diffrent views from the root view in the app. In SwiftUI, `NavigationStack` is used to enable the root view to present views over it, but in iOS 15 and less `NavigationView` was used in the past but it's deprecated since iOS 16 and introduced `NavigationStack`. 
 
-## Subsection 1
+## NavigationStack
+To be able to navigate to diffrent views from the root view, The view will be warped with `NavigationStack` struct as you see in the example below: 
 
-[Text about subsection 1]
+```Swift
+struct Tap: View {
+    var body: some View {
+      NavigationStack{
+        Text("Hello, World!")
+       }
+    }
+}
+```
+This is the first step to do to be able to navigate to diffrent views, this defines the root view of the stack. Then to define the destion or in other words the view you want to navigate to use `NavigationLink`. This defines view when pressed, it navigate to the destion view that was defined: 
+
+```Swift
+struct Tap: View { 
+var body: some View {
+          NavigationStack{
+            VStack{
+                Text("Hello, World!")
+                  NavigationLink {
+                      Text("Cairo") // desired view destination
+                  } label: {
+                      Text("Go to...")
+                  }
+            }
+
+           }
+        }
+}
+```
+Output:
+
+
+you can customize the label of the `NavigationLink`:
+
+```Swift
+struct Tap: View { 
+   var body: some View {
+          NavigationStack{
+            VStack{
+                Text("Hello, World!")
+                  NavigationLink {
+                      Text("Cairo") // desired view destination
+                  } label: {
+                      Image(systemName: "arrow.right")
+                          .foregroundColor(.red)
+                          .padding(.vertical)
+                      
+                  }
+            }
+
+           }
+        }
+}
+```
+Output:
+
+
+> **Note:** If The app suports iOS 15 or less `NavigationStack` will not be available, so instead of `NavigationStack` use `NavigationView`. In the above examples just replace `NavigationStack` with `NavigationView` and the code will run.
 
 ## Subsection 2
 
