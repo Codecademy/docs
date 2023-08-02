@@ -25,7 +25,7 @@ Parameters:
 
 - `$string`: The string that will be trimmed.
 - `$characters`: Optionally, the stripped characters can be specified using the characters parameter. A range of characters can be specified with `..`. By default, it will strip:
-  - Spaces `" "` \n\r\t\v\x00"  
+  - Spaces `" "`
   - New lines `\n`
   - Carriage returns `\r`
   - Tabs `\t`
