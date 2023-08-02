@@ -60,7 +60,7 @@ func main() {
 The output will be:
 
 ```shell
-23.50 mod 5.20 = 2.70
+The modulus of 23.50 and 5.20 = 2.70
 ```
 
 ## Codebyte Example
