@@ -46,7 +46,7 @@ print(math.sin(5.5))
 
 ## Codebyte Example
 
-Return the sine of different numbers
+The following code is runnable and returns the sine of different values:
 
 ```codebyte/py
 import math
