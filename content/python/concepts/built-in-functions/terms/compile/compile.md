@@ -32,19 +32,22 @@ compile(source, filename, mode)
 - `flags` (optional) and `dont_inherit` (optional): Controls which future statements affect the compilation of the source. Default set to 0.
 - `optimize` (optional): The optimization level of the compiler. Default set to -1.
 
-## Example
+## Example 1
 
-Use `compile()` to take a code block and return a runnable code object.
+Use `compile()` to take a code block containing a function and a statement, to return a runnable code object.
 
 ```py
-x = compile('print(55)\nprint(88)', 'test', 'exec')
+def dog():
+    print("Woof woof wooo!")
+    
+friend = compile('print("Who\'s a good boy?")\ndog()', 'test', 'exec')
 
-exec(x)
+exec(friend)
 ```
 
 This will output:
 
 ```shell
-55
-88
+Who's a good boy?
+Woof woof wooo!
 ```
