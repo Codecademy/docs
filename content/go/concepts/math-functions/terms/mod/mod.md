@@ -1,6 +1,6 @@
 ---
 Title: 'Mod()'
-Description: 'Returns the floating-point remainder of dividing "x" by "y".'
+Description: 'Returns the floating-point remainder of dividing x by y.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
