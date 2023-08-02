@@ -62,7 +62,7 @@ func main() {
   b:= 5.2
 
   modResult := math.Mod(a, b)
-  fmt.Printf("%.2f mod %.2f = %.2f, a,b, modResult")
+  fmt.Printf("The modulus of %.2f and %.2f = %.2f", a, b, modResult)
 }
 ```
 
