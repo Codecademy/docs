@@ -59,6 +59,7 @@ class JavaDateDemo {
 ```
 The output will be the exact day, date, time, timezone and year of the moment the query is submitted.  
 
+
 ```shell
 Present day, date, time, timezone and year: Wed Aug 02 11:06:16 AKDT 2023
 ```
