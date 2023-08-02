@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Exp2()`** function returns the value of base-2 exponential of given number of type `float64`.
+The **`Exp2()`** function returns the value of a base-2 exponential of a given number of type `float64`.
 
 ## Syntax
 
