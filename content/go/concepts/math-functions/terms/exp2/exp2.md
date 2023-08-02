@@ -1,6 +1,6 @@
 ---
 Title: 'Exp2()'
-Description: 'Returns the value of base-2 exponential of given number.'
+Description: 'Returns the value of a base-2 exponential of a given number.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
