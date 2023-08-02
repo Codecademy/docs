@@ -38,3 +38,11 @@ Returning a part of a string between start and end index:
 console.log('Do you love JavaScript or Python?'.substring(3, 6));
 // Output: you
 ```
+
+## Codebyte Example
+
+```codebyte/javascript
+//Return the cat's name
+console.log("The cat's name is Bruno".substring(17))
+
+```
