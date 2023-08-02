@@ -36,7 +36,7 @@ The `Mod()` function takes two arguments of type 'float64'.
 
 4. If *`(±)Inf`* is passed as the second argument, the return value is *`x (first argument)`*.
 
-## Examples
+## Example
 
 The following examples demonstrate how to use the `Mod()` function and print the result:
 
