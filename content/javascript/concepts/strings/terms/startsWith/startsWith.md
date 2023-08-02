@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `.startsWith()` Python string method checks whether a string begins with the specified characters. It will only return a boolean value, either `true` or `false`.
+The `.startsWith()` Javascript string method checks whether a string begins with the specified characters. It will only return a boolean value, either `true` or `false`.
 
 ## Syntax
 
@@ -31,6 +31,12 @@ Checking if a string starts with specified characters:
 console.log('Do you prefer coffee or tea?'.startsWith('Do'));
 // Output: true
 ```
+> Note: The `substring` paramter in `.startsWith` is case sensitive.
+
+```js
+console.log('Do you prefer coffee or tea?'.startsWith('do'));
+// In the original string, "D" is capitalized. But in the substring parameter, 'd' is in lowercase. Output: false
+```
 
 ## Example 2
 
@@ -39,4 +45,16 @@ Checking if a string starts with specified characters with a specified position:
 ```js
 console.log('Do you prefer coffee or tea?'.startsWith('coffee', 14));
 // Output: true
+```
+
+
+## Codebyte example
+
+```codebyte/javascript
+console.log('Does Codecademy begin with a C?'.startsWith('C', 5));
+// Output: True
+
+console.log('Does codecademy begin with a c?'.startsWith('C', 5));
+// Output: False.
+
 ```
