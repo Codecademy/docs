@@ -17,7 +17,7 @@ The **`Mod()`** function returns the floating-point remainder of dividing *x* by
 
 The `Mod()` function operates exclusively with floating-point numbers.
 
-If the numbers involved in the operation are of integer type, the **%** modulus operator should be used instead. The % operator works with integers, while math.Mod operates with floating-point numbers.
+If the numbers involved in the operation are of integer type, the `%` modulus operator should be used instead. The `%` operator works with integers, while `math.Mod()` operates with floating-point numbers.
 
 ## Syntax
 
