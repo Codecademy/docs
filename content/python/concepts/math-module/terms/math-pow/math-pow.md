@@ -48,7 +48,7 @@ print(math.pow(5.5, 3.3))
 
 ## Codebyte Example
 
-Return the value of 4 raised to the power of 3
+The following code is runnable and demonstrates the use of `math.pow()`:
 
 ```codebyte/py
 import math
