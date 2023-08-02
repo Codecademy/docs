@@ -1,47 +1,51 @@
 ---
-Title: 'trim()' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'Strips whitespace (or other characters) from the beginning and end of a string.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
-Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
+Title: 'trim()'
+Description: 'Strips whitespace and/or other characters from the beginning and end of a string.'
+Subjects:
   - 'Computer Science'
   - 'Web Design'
   - 'Web Development'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
+Tags:
   - 'String'
   - 'Functions'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+CatalogContent:
   - 'learn-php'
   - 'path/computer-science'
 ---
 
-The **`trim()`** function returns a string with whitespace stripped from the beginning and end of string.
+The **`trim()`** function returns a string with whitespace stripped from the beginning and end of the string.
 
 ## Syntax
 
 ```pseudo
-trim(string $string, string $characters = " \n\r\t\v\x00"): string
+trim($string, $characters)
 ```
 
 Parameters:
 
 - `$string`: The string that will be trimmed.
-- `$characters`: Optionally, the stripped characters can also be specified using the characters parameter. List all characters to be stripped. A range of characters can be specified with `..`.
+- `$characters`: Optionally, the stripped characters can be specified using the characters parameter. A range of characters can be specified with `..`. By default, it will strip:
+  - Spaces `" "` \n\r\t\v\x00"  
+  - New lines `\n`
+  - Carriage returns `\r`
+  - Tabs `\t`
+  - Vertical tabs `\v`
+  - `NULL` characters `\0`
 
 ## Codebyte Example
 
-This example creates an [array](https://www.codecademy.com/resources/docs/php/arrays) of strings, and displays them before and after applying a [function](https://www.codecademy.com/resources/docs/php/functions) on each element that uses the `trim()` function on them.
+The following runnable example displays an [array](https://www.codecademy.com/resources/docs/php/arrays) of strings before and after applying a [function](https://www.codecademy.com/resources/docs/php/functions) on each element. The function trims each element using the `trim()` function:
 
 ```codebyte/php
 <?php
-function trim_value(&$value)
-{
+  function trim_value(&$value) {
     $value = trim($value);
-}
+  }
 
-$fruit = array('mango','guava ', ' strawberry ');
-var_dump($fruit);
+  $fruit = array('mango','guava ', ' strawberry ');
+  var_dump($fruit);
 
-array_walk($fruit, 'trim_value');
-var_dump($fruit);
-
+  array_walk($fruit, 'trim_value');
+  var_dump($fruit);
 ?>
 ```
