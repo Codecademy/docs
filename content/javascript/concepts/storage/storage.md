@@ -12,12 +12,12 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-A **`Storage`** object allows the addition, modification and deletion of stored key/value pairs. The keys and values stored are always UTF-16 strings. Integer keys are converted to strings. The session storage for a domain is called from an object named `sessionStorage`. Local storage is stored in an object called `localStorage`.
+A **`Storage`** object allows the addition, modification, and deletion of stored key/value pairs. The keys and values stored are always UTF-16 strings. Integer keys are converted to strings. The session storage for a domain is called from an object named `sessionStorage`. Local storage is stored in an object called `localStorage`.
 
-The difference between the two `Storage` objects is as follows:
+The two `Storage` objects are as follows:
 
-- `localStorage`: Data is saved for the Document's origin, and persists across browser sessions. The data has no expiration date.
-- `sessionStorage`: Data is saved for the Document's origin, but persists only for the duration of the browser session.
+1. `localStorage`: Data is saved for the document's origin, and persists across browser sessions. The data has no expiration date.
+2. `sessionStorage`: Data is saved for the document's origin, but persists only for the duration of the browser session.
 
 > **Note:** The `Storage` object is particular to the protocol of the document. The `localStorage` or `sessionStorage` object for `http://codecademy.com` will be a different object than the `localStorage` or `sessionStorage` object returned for `https://codecademy.com`.
 
