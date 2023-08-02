@@ -72,6 +72,7 @@ Constructors
 Continue
 Control Flow
 CRUD
+CSS
 CSV
 Cybersecurity
 D3
@@ -83,6 +84,7 @@ Date
 Debugging
 Decorators
 Deep Learning
+Denoising
 Dependency
 Developer Tools
 Development
@@ -116,8 +118,10 @@ Events
 Exceptions
 Expo
 Express
+Extensions
 Favicon
 Files
+Filter
 Finance
 Firebase
 Flask
@@ -155,6 +159,7 @@ Id
 IDE
 If
 Images
+Image Generation Model
 Index
 Infrastructure
 Inheritance
@@ -184,9 +189,12 @@ Logical
 Logistic Regression
 Loops
 Map
+Machine Learning
 Margin
+Math
 MATLAB
 Matplotlib
+Matrices
 Media Queries
 Memory
 Metadata
@@ -199,6 +207,7 @@ Naive Bayes
 Natural Language Processing
 Netlify
 Networking
+Neural Networks
 NLP
 Node
 NPM
@@ -219,12 +228,14 @@ Padding
 Pandas
 Paragraph
 Parameters
+Perceptrons
 Phaser
 Physics
 Pointers
 Positioning
 PostgreSQL
 Precedence
+Preprocessor
 Primary Key
 Print
 Probability
@@ -253,6 +264,7 @@ Scope
 Script
 Seaborn
 Search
+Search Algorithms
 Selectors
 Semantic
 Servers
@@ -269,10 +281,12 @@ SQL Server
 Stacks
 Static Site
 Statistics
+Storage
 Stringr
 Strings
 Structure
 Style
+Subqueries
 SwiftUI
 SwiftUI Views
 SwiftUI ViewModifiers
@@ -285,6 +299,7 @@ Target
 Technical Interviews
 Templates
 TensorFlow
+Text-To-Image
 Tidyr
 Time
 Title
@@ -320,6 +335,7 @@ VR
 Vue
 Web3
 WebRTC
+Weight & Bias
 While
 Whiteboarding
 WordPress

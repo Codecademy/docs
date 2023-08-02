@@ -37,3 +37,16 @@ if (today.getSeconds() > 50) {
 
 // Output: This match is still ongoing.
 ```
+
+## Codebyte Example
+
+The example below defines a new `Date` object `dateTimeNow`, and then saves the result of the `getSeconds()` method in a new variable `seconds`. Finally, the current date\time, the current seconds, and the seconds remaining in the current minute are logged to the console.
+
+```codebyte/javascript
+let dateTimeNow = new Date();
+let seconds = dateTimeNow.getSeconds();
+
+console.log(`Date\\Time Now: ${dateTimeNow}\n`);
+console.log(`Seconds past the current minute: ${seconds}`);
+console.log(`Seconds remaining in the current minute: ${60 - seconds}`);
+```
