@@ -15,9 +15,9 @@ CatalogContent:
 
 The **`Mod()`** function returns the floating-point remainder of dividing *x* by *y*. The result has the same sign as *x* and a magnitude less than the magnitude of *y*.
 
-The `Mod()` function operates exclusively with floating-point numbers.
+The **`Mod()`** function operates exclusively with floating-point numbers.
 
-If the numbers involved in the operation are of integer type, the `%` modulus operator should be used instead. The `%` operator works with integers, while `math.Mod()` operates with floating-point numbers.
+If the numbers involved in the operation are of integer type, the `%` modulus operator should be used instead. The `%` operator works with integers, while **`math.Mod()`** operates with floating-point numbers.
 
 ## Syntax
 
@@ -25,7 +25,7 @@ If the numbers involved in the operation are of integer type, the `%` modulus op
 math.Mod(x,y)
 ```
 
-The `Mod()` function takes two arguments of type 'float64'.
+The **`Mod()`** function takes two arguments of type 'float64'.
 ### Some special cases:
 
 1. If the argument has a *+Inf* value, the return value will be *0*:
@@ -38,7 +38,7 @@ The `Mod()` function takes two arguments of type 'float64'.
 
 ## Example
 
-The following example demonstrate how to use the `Mod()` function and print the result:
+The following example demonstrate how to use the **`Mod()`** function and print the result:
 
 ```go
 package main
@@ -65,7 +65,7 @@ The modulus of 23.50 and 5.20 = 2.70
 
 ## Codebyte Example
 
-The provided example is executable and demonstrates the usage of the `Mod()` function.
+The provided example is executable and demonstrates the usage of the **`Mod()`** function.
 
 ```codebyte/golang
 package main
