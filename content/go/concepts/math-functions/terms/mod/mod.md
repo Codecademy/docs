@@ -26,11 +26,8 @@ math.Mod(x,y)
 ```
 
 The `Mod()` function takes two arguments of type 'float64'.
-
-<!---blank--->
-
-
 ### Some special cases:
+
 1. If the argument has a **+Inf** value, the return value will be **0**:
  
    If the argument has a value of +Inf (positive infinity), the return value will be 0. This reflects the mathematical truth that dividing any number by positive infinity results in a remainder of 0.
