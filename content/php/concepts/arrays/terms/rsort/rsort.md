@@ -1,6 +1,6 @@
 ---
 Title: 'rsort()'
-Description: 'sort an array in descending order'
+Description: 'Sorts an array in descending order'
 Subjects: 
   - 'Computer Science'
   - 'Web Design'
@@ -21,20 +21,19 @@ The **`rsort()`** sorts an indexed array in descending order.
 rsort(arrayToSort, sortType)
 ```
 
-- `arrayToSort`: An array - required parameter, specifies the array to sort in rsort.
+- `arrayToSort`: An array - required parameter, specifies the array to sort.
 - `sortType`: A sort type - optional flag parameter, specifies how to compare the array elements.
 
 > **Note:** If two members compare as equal, they retain their original order. Prior to PHP 8.0.0, their relative order in the sorted array was undefined.
 
-###### Sorting type flags
+### Sorting type flags
 
-- **SORT_REGULAR** - compare items normally
-- **SORT_NUMERIC** - compare items numerically
-- **SORT_STRING**  - compare items as strings
-- **SORT_LOCALE_STRING** - compare items as strings, based on the current locale option (setlocale())
-- **SORT_NATURAL** - compare items as strings using "natural ordering" like natsort()
-- **SORT_FLAG_CASE** - sort strings case-insensitively with other flag options (SORT_STRING, SORT_NATURAL). 
-
+- `SORT_REGULAR`: Compare items normally.
+- `SORT_NUMERIC`: Compare items numerically.
+- `SORT_STRING`: Compare items as strings.
+- `SORT_LOCALE_STRING`: Compare items as strings, based on the current locale option (`setlocale()`).
+- `SORT_NATURAL`: Compare items as strings using "natural ordering" like `natsort()`.
+- `SORT_FLAG_CASE`: Sort strings case-insensitively with other flag options (`SORT_STRING`, `SORT_NATURAL`).  
 
 ## Example
 
@@ -51,12 +50,12 @@ foreach ($fruits as $key => $val) {
 ```
 
 The output looks like this:
-
+```shell
 0 = Mangos 
 1 = Kiwis 
 2 = Grapes 
 3 = Cherries
-
+```
 
 ## Codebyte Example
 
