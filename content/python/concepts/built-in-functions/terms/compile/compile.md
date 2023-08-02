@@ -51,3 +51,19 @@ This will output:
 Who's a good boy?
 Woof woof wooo!
 ```
+
+## Example 2
+
+Use `compile()` to take a code block containing a single expression and return a runnable code object.
+
+```py
+fact = compile('print("Codecademy Docs is a great learning tool!")', 'test', 'eval')
+
+eval(fact)
+```
+
+This will output:
+
+```shell
+Codecademy Docs is a great learning tool!
+```
