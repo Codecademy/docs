@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Calendar`** [class](https://www.codecademy.com/learn/learn-java-classes-and-methods) is an abstract class that represents dates and time and has methods for converting between a given moment in time and a number of calendar attributes such as `YEAR`, `MONTH`, `DAY_OF_MONTH`, `HOUR`, and so on.
+The **`Calendar`** [class](https://www.codecademy.com/resources/docs/java/classes) is an abstract class that represents dates and time and has methods for converting between a given moment in time and a number of calendar attributes such as `YEAR`, `MONTH`, `DAY_OF_MONTH`, `HOUR`, and so on.
 
 ## Syntax
 
@@ -22,6 +22,8 @@ Calendar calendar = Calendar.getInstance();
 
 ## Example
 
+In the example below, we have created a `Calendar` object using the `getInstance()` method. Then we used the `set()` method to set the year, month, date, hour, minute, and second. Finally, we used the `getTime()` method to get the date. Note that the month is zero-based, so January is 0, February is 1, and so on. Also, we could have used the `set()` overload that takes all the parameters at once.
+
 ```java
 import java.util.Date;
 import java.util.Calendar;
@@ -30,11 +32,18 @@ public class CalendarExample {
     public static void main(String[] args) {
 
         Calendar calendar = Calendar.getInstance();
-        int year = calendar.get(Calendar.YEAR);
-        int month = calendar.get(Calendar.MONTH);
-        int date = calendar.get(Calendar.DATE);
+        calendar.set(Calendar.YEAR, 2023);
+        calendar.set(Calendar.MONTH, 0);
+        calendar.set(Calendar.DATE, 8);
+        calendar.set(Calendar.HOUR_OF_DAY, 0);
+        calendar.set(Calendar.MINUTE, 0);
+        calendar.set(Calendar.SECOND, 0);
 
-        System.out.printf("Today's date is: %d/%d/%d%n", date, month + 1, year);
+        // calendar.set(2023, 0, 8, 0, 0, 0);
+
+        Date date = calendar.getTime();
+
+        System.out.println(date);
     }
 }
 ```
@@ -42,10 +51,8 @@ public class CalendarExample {
 The above code will output:
 
 ```shell
-Today's date is: 1/8/2023
+Sun Jan 08 00:00:00 GMT 2023
 ```
-
-In the above example, we created a `Calendar` object using the `getInstance()` method. Then we used the `get()` method to get the current year, month, date, and day of the month. Note that the month is zero-indexed, so we added one to it to get the correct month.
 
 ## Fields
 
