@@ -16,7 +16,7 @@ The **`.toReversed()`** reverses the elements within the array and returns a new
 
 ## Syntax
 
-The `toReversed()` method does not take any parameters.
+The `.toReversed()` method does not take any parameters.
 
 ```pseudo
 array.toReversed();
