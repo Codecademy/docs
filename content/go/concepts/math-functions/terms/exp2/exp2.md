@@ -23,7 +23,7 @@ import math
 result := math.Exp2(x)
 ```
 
-Where `result` will contain the value of base-2 exponential of `x`, returned as type `float64`.
+Where `result` will contain the value of a base-2 exponential of `x`, returned as a `float64`.
 Special cases:
 
 - The result of `Exp2(+Inf)` is +Inf
