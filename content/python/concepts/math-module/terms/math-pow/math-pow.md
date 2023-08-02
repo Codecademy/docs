@@ -53,5 +53,6 @@ The following code is runnable and demonstrates the use of `math.pow()`:
 ```codebyte/py
 import math
 
-print(math.pow(4, 3))
+print(math.pow(2, 0.0))
+print(math.pow(1.0, 2))
 ```
