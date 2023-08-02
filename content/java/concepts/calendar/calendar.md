@@ -12,13 +12,15 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Calendar`** [class](https://www.codecademy.com/resources/docs/java/classes) is an abstract class that represents dates and time and has methods for converting between a given moment in time and a number of calendar attributes such as `YEAR`, `MONTH`, `DAY_OF_MONTH`, `HOUR`, and so on.
+The **`Calendar`** [class](https://www.codecademy.com/resources/docs/java/classes) is an abstract class that represents dates and time. The class has methods for converting between a given moment in time and a number of calendar attributes such as `YEAR`, `MONTH`, `DAY_OF_MONTH`, `HOUR`, and so on.
 
 ## Syntax
 
 ```pseudo
 Calendar calendar = Calendar.getInstance();
 ```
+
+> **Note:** The `.getInstance()` function creates an object that represents the current date and time.
 
 ## Example
 
