@@ -70,8 +70,8 @@ import (
 )
 
 func main() {
-    fmt.Println(math.Exp2(0))
-	fmt.Println(math.Exp2(math.Inf(1)))
-	fmt.Println(math.Exp2(math.NaN()))
+  fmt.Println(math.Exp2(0))
+  fmt.Println(math.Exp2(math.Inf(1)))
+  fmt.Println(math.Exp2(math.NaN()))
 }
 ```
