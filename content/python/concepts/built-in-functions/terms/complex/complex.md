@@ -22,11 +22,17 @@ Converts a given string into a complex number.
 complex(real, imaginary)
 ```
 
-## Example 1
+## Example 
 
-Use `complex()` to convert the string `"1+7j"` into a complex number:
+Use `complex()` to convert the string `"33+57j"` into a complex number:
 
 ```py
-num = complex("1+7j")
+num = complex("33+57j")
 print(num)
+```
+
+This will output:
+
+```shell
+(33+57j)
 ```
