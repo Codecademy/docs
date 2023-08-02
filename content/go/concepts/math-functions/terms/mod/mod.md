@@ -49,8 +49,8 @@ import(
 )
 
 func main() {
-  a:= 23.5
-  b:= 5.2
+  a:= 23.50
+  b:= 5.20
 
   modResult := math.Mod(a, b)
   fmt.Printf("The modulus of %.2f and %.2f = %.2f", a, b, modResult)
