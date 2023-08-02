@@ -38,7 +38,7 @@ The `Mod()` function takes two arguments of type 'float64'.
 
 ## Example
 
-The following examples demonstrate how to use the `Mod()` function and print the result:
+The following example demonstrate how to use the `Mod()` function and print the result:
 
 ```go
 package main
