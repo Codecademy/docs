@@ -1,0 +1,63 @@
+---
+Title: 'Strings' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
+Description: 'A **string** is a sequence of characters of any length that can include letters, numbers, symbols, and spaces.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
+Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
+  - 'Computer Science'
+Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
+  - 'Strings'
+CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+  - 'learn-lua'
+---
+
+## Syntax
+
+In Lua, a string is a sequence of characters surrounded by a pair of single quotes `''` or double quotes `""`.
+
+```lua
+location = “Central Park” -- “Central Park” is a String
+```
+
+## Concatenation
+
+Multiple variables can be combined together using the concatenation operator `(..)`.
+
+```lua
+time = 10
+location = “Central Park”
+print(“We will arrive at “ .. location .. “ at “.. time)
+```
+
+## Escape Characters
+
+Escape characters are used for clarity and conciseness. Sometimes Lua may interpret a character in a string, which can cause errors. To avoid this, escape characters can be used to clarify that a character should only be part of the string.
+
+The following is a list of some useful escape characters supported by Lua strings:
+
+| Description | Escape Characters|
+| -- | --|  
+|bell | \a |
+|backspace| \b|
+|form feed| \f|
+|new line | \n|
+|carriage return| \r|
+|horizontal tab|\t|
+|vertical tab|\v|
+|backslash|\ \ |
+|quotation mark [double quote]|\ "|
+|apostrophe [single quote]|\ '|
+
+## String Functions
+
+ Lua's String Library contains many different string functions that can be used to manipulate strings. Below are some examples of useful functions.
+
+`string.len()`
+Return the length of the input string.
+
+`string.lower()`
+Return a copy of the input string with all uppercase letters changed to lowercase.  
+
+`string.upper()`
+Return a copy of the input string with all lowercase letters changed to uppercase.
+
+`string.reverse()`
+Return a string that is the input string reversed.
