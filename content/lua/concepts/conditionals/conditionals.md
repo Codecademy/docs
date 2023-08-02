@@ -1,0 +1,103 @@
+---
+Title: 'Conditionals' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
+Description: 'Conditionals take an expression and evaluate it to `true` or `false`. Code blocks run depending on the outcome of the expression.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
+Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
+  - 'Computer Science'
+Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
+  - 'Conditionals'
+  - 'Control FLow'
+  - 'Operators'
+CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+  - 'learn-lua'
+---
+
+**Conditionals** take an expression and evaluate if it’s `true` or `false`. Code blocks run depending on the outcome of the expression. 
+
+The condition can contain logic [operators](https://www.codecademy.com/resources/docs/lua/operators) and [variables](https://www.codecademy.com/resources/docs/lua/variables). The condition can be evaluated as `true` or `false`.
+
+
+![A diagram explaining a control flow based on the validity of different statements.](https://content.codecademy.com/courses/learn-python-control-flow/control-flow.svg)
+## If Statements
+```lua
+if <condition> then
+	<code>
+end
+```
+
+`if..then` statements run a block of code only when the condition is met. If the condition is `false`, the code block inside the `if` statement does not run. All conditional statements need to have an `end` keyword to close off the statement.
+
+The following example demonstrates an `if` statement with a `true` condition
+```lua
+a = 13
+b = 16
+
+if a < b then
+	a = a + 5
+end
+
+print(a)
+
+-- This prints 18 because a WAS less than b, so the code followed through and changed the value of a. 
+```
+
+The following code block demonstrates when the condition is now `false`:
+```lua
+a = 8
+b = 10
+
+if a==b then
+	print(b + a)
+end
+-- Nothing is printed because a is not equal to b so the code statement was not executed.
+```
+
+## Else Statements
+```lua
+if <condition> then
+	<code>
+else
+	<code>
+end
+```
+
+In the event that the first condition is `false`, when there’s a subsequent `else` statement, the `else` statement will execute instead. Think of the `else` as an “if all else fails” plan. The `else` statement **must** go at the end and does not have a condition.
+
+```lua
+isNightTime = false
+
+if < isNightTime > then
+	print("Good night!")
+else
+	print("Good morning!")
+end
+-- This statement prints "Good morning!" because the if condition evaluated to false.
+```
+## ElseIf Statements
+```lua
+if <condition> then
+	<code>
+elseif <condition> then
+	<code>
+else
+	<code>
+end
+```
+
+`elseif` statements are similar to `else` statements but they can be used to create multiple **pathways** instead of an either/or format. You can have multiple `elseif` statements, each with its own condition, but the final statement has to be an `else` statement.
+
+```lua
+player1 = 9
+
+player2 = 12
+
+if player1 >= 20 and player2 >= 20 then
+	print( "Everyone wins!")
+elseif player1 > player2 then 
+	print( "Player 1 wins with " .. player1 .. " points!")
+elseif player1 < player2 then 
+	print( "Player 2 wins with " .. player2 .. " points!")
+else 
+	print ("It’s a tie.")
+end
+-- This prints "Player 2 wins with 12 points" because it’s the first statement that evaluates to true. 
+```
