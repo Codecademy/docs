@@ -30,7 +30,7 @@ struct Tap: View {
 This is the first step to do to be able to navigate to diffrent views, this defines the root view of the stack. Then to define the destion or in other words the view you want to navigate to use `NavigationLink`. This defines view when pressed, it navigate to the destion view that was defined: 
 
 ```Swift
-struct Tap: View { 
+struct Doc: View { 
 var body: some View {
           NavigationStack{
             VStack{
@@ -52,7 +52,7 @@ Output:
 you can customize the label of the `NavigationLink`:
 
 ```Swift
-struct Tap: View { 
+struct Doc: View { 
    var body: some View {
           NavigationStack{
             VStack{
@@ -76,13 +76,30 @@ Output:
 
 > **Note:** If The app suports iOS 15 or less `NavigationStack` will not be available, so instead of `NavigationStack` use `NavigationView`. In the above examples just replace `NavigationStack` with `NavigationView` and the code will run.
 
-## Subsection 2
+## NavigationStack with Lists
+One of the common examples of using `NavigationStack` is with `Lists`, so lets say for Example there is a list of names in the view. The goal we want to achieve is to be able to navigate to another view by pressing the element in the list. This can be achieved by warping the `Lists` in a `NavigationStack` :
 
-[Text about subsection 2]
+```Swift
+struct Doc: View {
+    let Names = ["Omar","Adam","Zack"] // this is the list
+    var body: some View {
+        NavigationStack{
+            List(Names,id:\.self){ name in // List iterates throw the Names array, every iteration the element is stored in name.
+                NavigationLink {
+                    Text(name) // desired view destination
+                } label: {
+                    Text(name)  
+                }
+            }
+            
+        }
+    }
+}
+```
+Output:
+![This is a gif that shows how to use NavigationStack with Lists](https://raw.githubusercontent.com/Codecademy/docs/main/media/NavigationStack-with-List.gif)
 
-## Subsection n
-
-[Text about subsection n]
+Those are just basic examples for `NavigationStack`, there is no limits on how to use it.
 
 ## Codebyte Example (if applicable)
 
