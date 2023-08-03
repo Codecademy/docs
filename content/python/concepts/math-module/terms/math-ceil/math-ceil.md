@@ -20,7 +20,7 @@ Takes in a numeric data type and rounds the value up to the nearest integer.
 math.ceil(n)
 ```
 
-The `math.ceil()` function takes in a value and returns its ceiling, the smallest integer greater than or equal to that value.
+The **`math.ceil()`** function takes in a value and returns its ceiling, the smallest integer greater than or equal to that value.
 
 ## Example 1
 
@@ -48,10 +48,10 @@ print(math.ceil(412.959))
 
 ## Codebyte Example
 
-The following example is runnable and uses the `math.ceil()` function:
+The following example is runnable and uses the `math.ceil()` function to round a number up to the nearest integer:
 
 ```codebyte/py
 import math
 
-print(math.ceil(10))
+print("The ceiling value of -16.7 is: ", math.ceil(-16.7))
 ```
