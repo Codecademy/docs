@@ -25,7 +25,8 @@ If the numbers involved in the operation are of integer type, the `%` modulus op
 math.Mod(x,y)
 ```
 
-The **`Mod()`** function takes two arguments of type 'float64'.
+The `Mod()` function takes two arguments of type 'float64'.
+
 ### Some special cases:
 
 1. If the argument has a *+Inf* value, the return value will be *0*:
