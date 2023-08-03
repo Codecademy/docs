@@ -118,6 +118,7 @@ Events
 Exceptions
 Expo
 Express
+Extensions
 Favicon
 Files
 Filter
@@ -280,6 +281,7 @@ SQL Server
 Stacks
 Static Site
 Statistics
+Storage
 Stringr
 Strings
 Structure
