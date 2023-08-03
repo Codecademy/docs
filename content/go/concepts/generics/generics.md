@@ -30,6 +30,7 @@ func FunctionName[T TypeConstraint](params) ReturnType {
 - `ReturnType`: The type the function returns.
 
 ## Type Constraints
+
 Type constraints enable you to specify requirements for the types used with generics. Common constraints include:
 
 - `comparable`: Types that can be compared using comparison operators (e.g., int, string).
