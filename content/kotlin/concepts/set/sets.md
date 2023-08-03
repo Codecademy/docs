@@ -42,7 +42,7 @@ Kotlin offers two main types of `Sets`:
 
 ### 1. Mutable Set
 
-A Mutable Set is a dynamic collection that allows you to add, remove, or modify its elements after creation. It is implemented using the **`mutableSetOf()`** function.
+A Mutable Set is a dynamic collection that allows you to add, remove, or modify its elements after creation. It is implemented using the `mutableSetOf()` function.
 
 #### Creating an empty MutableSet
 ```pseudo
