@@ -35,7 +35,7 @@ The `Mod()` function takes two arguments of type 'float64'.
 
 3. The return value is *NAN* if the value of the second argument is either *0* or *NAN*.
 
-4. If *(±)Inf* is passed as the second argument, the return value is *x (first argument)*.
+4. If `(±)Inf` is passed as the second argument, the return value is *x (first argument)*.
 
 ## Example
 
@@ -85,28 +85,25 @@ func main() {
     x := math.Inf(1) // Positive infinity
     result := math.Mod(10, x)
     fmt.Println(result)
-    # The output will be: 0
+ 
 
 
-    # Second Exception Example
     a := math.Inf(1) // Positive infinity
     b := math.NaN()  // Not a Number (NaN)
     result_2 := math.Mod(a, b)
     fmt.Println(result_2)
-    # The output will be: NaN
+   
 
-    # Third Exception Example
+   
     c := 10.0
     d := 0.0
     result_3 := math.Mod(c, d)
     fmt.Println(result_3)
-    # The Output will be: NaN
+ 
 
-    # Fourth Exception Example
     f := 5.0
     g := math.Inf(1) // Positive infinity
     result_4 := math.Mod(f, g)
     fmt.Println(result_4)
-    #The Outpu will be: 5
 }
 ```
