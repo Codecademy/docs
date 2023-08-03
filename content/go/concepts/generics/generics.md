@@ -38,6 +38,7 @@ Type constraints enable the specification of requirements for the types used wit
 - `order`: Types that can be compared and ordered (e.g., numeric types, strings).
 
 ## Benefits of Generics
+
 - `Code Reusability`: Generics allow you to create functions and data structures that can work with multiple types, reducing the need for duplicated code.
 - `Type Safety`: Compile-time type checking ensures that your generic code is type-safe and minimizes runtime errors.
 - `Modularity`: Generics promote modular design by enabling the creation of generic components that can be adapted to various contexts.
