@@ -64,7 +64,7 @@ Below is some markup with an outer `wrapper-div`, containing a level 1 `heading`
 
 ## For JavaScript
 
-The `class` attribute can also be used to perform JavaScript operations on HTML elements. Through the Document Object Model ("DOM"), there are various JavaScript methods built for selecting elements via their class.
+The `class` attribute can also be used to perform JavaScript operations on HTML elements. Through the Document Object Model (DOM), there are various JavaScript methods built for selecting elements via their class.
 
 Assuming the markup from the last example is linked to a JavaScript file:
 
