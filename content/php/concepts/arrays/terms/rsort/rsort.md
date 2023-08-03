@@ -50,13 +50,12 @@ foreach ($fruits as $key => $val) {
 ```
 
 The output looks like this:
-```shell
+
 ```shell
 0 = Mangos 
 1 = Kiwis 
 2 = Grapes 
 3 = Cherries
-```
 ```
 
 ## Codebyte Example
