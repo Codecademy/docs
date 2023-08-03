@@ -1,6 +1,6 @@
 ---
 Title: 'Functions' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: '**Functions**' are blocks of code that can be repeated multiple times. They can perform specific tasks when they’re called. To use a function, it must be declared somewhere in the scope where you wish to call it.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
+Description: '__Functions__ are blocks of code that can be repeated multiple times. They can perform specific tasks when they’re called. To use a function, it must be declared somewhere in the scope where you wish to call it.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
 Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
   - 'Computer Science'
 Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
