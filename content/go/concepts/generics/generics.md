@@ -17,7 +17,7 @@ CatalogContent:
 
 ## Syntax and Type Parameters
 
-In Go **`generics`**, are defined using type parameters within function and method declarations. The syntax for declaring a generic function is as follows:
+In Go, generics are defined using type parameters within function and method declarations. The syntax for declaring a generic function is as follows:
 
 ``` go
 func FunctionName[T TypeConstraint](params) ReturnType {
