@@ -106,4 +106,3 @@ String lengths: [5 6 6]
 Square roots: [1 1.4142135623730951 1.7320508075688772 2 2.23606797749979]
 ```
 
-  For comprehensive details and usage examples, refer to the official [Go generics design draft](https://go.googlesource.com/proposal/+/refs/heads/master/design/43651-type-parameters.md).
