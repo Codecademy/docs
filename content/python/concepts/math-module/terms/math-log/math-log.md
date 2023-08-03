@@ -1,6 +1,6 @@
 ---
 Title: 'math.log()'
-Description: 'Returns the natural logarithm of n.'
+Description: 'Returns the natural logarithm of a number or the logarithm of a number to the given base.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Returns the natural logarithm of `n`.
+Returns the natural logarithm of a number or the logarithm of a number to the given base.
 
 ## Syntax
 
@@ -20,11 +20,16 @@ Returns the natural logarithm of `n`.
 math.log(n, base)
 ```
 
-`base` is optional and it's the logarithmic base to use. Default is e.
+The **`math.log()`** function takes the following parameters:
+
+- `n` is a required number or numeric expression to calculate the logarithm.
+- `base` is an optional number to specify the logarithm base. The default value for the base is `e`.
+
+The `math.log()` function returns a `float` value, the natural logarithm of `n` or the logarithm of `n` to `base`. If `n` is `0` or a negative number, it returns a `ValueError`.
 
 ## Example 1
 
-Use `math.log()` to return the natural log of `12` (base e):
+Use `math.log()` to return the natural log of `12` (base `e`):
 
 ```python
 import math
@@ -48,10 +53,11 @@ print(math.log(12, 5))
 
 ## Codebyte Example
 
-The following example is runnable and uses the `math.log()` function:
+The following example is runnable and uses the `math.log()` function to return the natural and base `10` logarithms of a number:
 
 ```codebyte/py
 import math
 
-print(math.log(10))
+print("The natural logarithm of 10 is: ", math.log(10))
+print("The 10-base logarithm of 10 is: ", math.log(10, 10))
 ```
