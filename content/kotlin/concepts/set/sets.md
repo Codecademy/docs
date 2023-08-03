@@ -6,7 +6,7 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Collections'
-  - 'Set'
+  - 'Sets'
   - 'Data Structures'
 CatalogContent:
   - 'learn-kotlin'
