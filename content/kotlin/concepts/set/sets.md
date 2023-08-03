@@ -1,6 +1,6 @@
 ---
 Title: 'Sets'
-Description: 'Set is used within the data structure category to store and manage unique elements.'
+Description: 'A collection to store and manage unique elements.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
