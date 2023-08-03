@@ -38,7 +38,8 @@ Here are examples of some data types that can be used with Set:
 
 ## Types of Sets
 
-Kotlin offers two main types of Sets:
+Kotlin offers two main types of `Sets`:
+
 ### 1. Mutable Set
 A Mutable Set is a dynamic collection that allows you to add, remove, or modify its elements after creation. It is implemented using the **`mutableSetOf()`** function.
 
