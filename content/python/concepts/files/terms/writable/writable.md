@@ -46,3 +46,20 @@ f.writable()
 ```
 
 The `.writable()` method will return `False` here.
+
+## Codebyte Example
+
+In this Codebyte example **writable.txt** is opened in two different ways and use the `.writable()` method to return whether or not the file is writable:
+
+```codebyte/python
+#create empty text file
+f = open ("writable.txt", "w")
+
+print("Is this file writable when openeded in 'write' mode? ", f.writable())
+
+
+#open file in read mode adn check it file is writable
+f = open("writable.txt", "r")
+
+print("Is this file writable when opened in 'read' mode? ", f.writable())
+```
