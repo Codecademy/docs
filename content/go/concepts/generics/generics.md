@@ -97,7 +97,9 @@ func main() {
   # It's a way to do similar things with different types of things.
 }
 ```
-This will be Output:
+
+This example results in the following output:
+
 ``` shell
 Squared integers: [1 4 9 16 25]
 String lengths: [5 6 6]
