@@ -20,25 +20,29 @@ Custom layouts can be used when the built-in layouts and views don't meet the la
 
 ### Defining Custom Layouts
 
-When creating a custom layout, methods called `sizeThatFits()` and `placeSubviews()` are required to conform to the `Layout` `protocol`:
+When creating a custom layout, the methods `.sizeThatFits()` and `.placeSubviews()` are required to conform to the `Layout` `protocol`:
 
 ```pseudo
 struct myLayout: Layout {
-    func sizeThatFits(proposal:subviews:cache:) -> CGSize {
+    func sizeThatFits(
+        // Parameters: proposal, subviews, and cache
+    ) -> CGSize {
         // Custom code to calculate and return the size of the layout container.
     }
 
-    func placeSubviews(in:proposal:subviews:cache:) {
+    func placeSubviews(
+        // Parameters: in, proposal, subviews, and cache
+    ) {
         // Custom code for arranging the subviews.
     }
 }
 ```
 
-It's also possible to add additional behavior for alignment, spacing, etc., by adding optional methods and type properties associated with the `Layout` `protocol`.
+It's also possible to add additional behavior for alignment and spacing by adding optional methods and type properties associated with the `Layout` `protocol`.
 
 ### Using Custom Layouts
 
-Custom layouts can be used in the same way as view containers such as [HStack](https://www.codecademy.com/resources/docs/swiftui/views/hstack), by including views in braces after the layout name:
+Custom layouts can be used in the same way as other view containers such as [HStack](https://www.codecademy.com/resources/docs/swiftui/views/hstack). Include views in braces after the layout name:
 
 ```pseudo
 myLayout {
@@ -86,28 +90,28 @@ struct GalaxyLayout: Layout {
 }
 ```
 
-In the above example, the `sizeThatFits()` method specifies to use all the space available. The `placeSubviews()` method uses some math to place each view along a spiral shape.
+In the above example, the `.sizeThatFits()` method specifies to use all the space available. The `.placeSubviews()` method uses some math to place each view along a spiral shape.
+
+> **Note**: In SwiftUI, containers are limited to 10 subviews.
 
 Below, an instance of `GalaxyLayout` is being used to create a mini galaxy using text and emoji:
 
 ```swift
-struct LayoutView: View {
-    var body: some View {
-        GalaxyLayout {
-            Text(".")
-            Text(".")
-            Text("*")
-            Text("*")
-            Text("✨")
-            Text("✨")
-            Text("✨")
-            Text("✨")
-            Text("✨")
-            Text("🌟")
-        }
-        .foregroundColor(.white)
-        .background(.black)
+var body: some View {
+    GalaxyLayout {
+        Text(".")
+        Text(".")
+        Text("*")
+        Text("*")
+        Text("✨")
+        Text("✨")
+        Text("✨")
+        Text("✨")
+        Text("✨")
+        Text("🌟")
     }
+    .foregroundColor(.white)
+    .background(.black)
 }
 ```
 
@@ -117,17 +121,21 @@ This will display:
 
 ## Conditional Layouts
 
-Conditional layouts can change dynamically, for example, if the space available gets smaller, automatically switch to a more concise layout.
+Conditional layouts can change dynamically. If the space available gets smaller, for example, it's possible to automatically switch to a more concise layout.
 
-The syntax below shows how to create a conditional layout. First, a variable `myLayout` is declared that returns a specific layout, depending on the value of a `Boolean` variable `myVar`. The layouts in the conditional statement need to be wrapped with `AnyLayout()` and can be built-in or custom layouts. Then the following instance of `myLayout` will display its containing views using the relevant layout.
+The syntax below shows how to create a conditional layout:
 
 ```pseudo
-let myLayout = myVar ? AnyLayout(someLayout) : AnyLayout(anotherLayout)
+// Declare a variable that returns a specific layout.
+// If some condition is true, some layout is returned, otherwise another layout is returned.
+let MyLayout = myCondition ? AnyLayout(SomeLayout) : AnyLayout(AnotherLayout)
 
-myLayout {
-    // subviews go here
+MyLayout {
+    // Subviews go here.
 }
 ```
+
+The layouts in the conditional statement need to be wrapped with `AnyLayout()` and can be built-in or custom. Then, the following instance of `MyLayout` will display its containing views using the relevant layout.
 
 Below are some of the built-in layouts that conditional layouts can use:
 
