@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **`Sets`**  are versatile collections designed to store a unique set of elements. They are valuable tools when you need to manage a group of values without duplicates. Unlike Lists, which allow repeated elements and maintain order, Sets prioritize uniqueness and do not guarantee a specific order for their elements.
+**`Sets`**  are versatile collections designed to store a unique selection of elements. They are valuable tools when there is a need to work with a group of values without duplicates. Unlike lists, which allow repeated elements and maintain order, sets prioritize uniqueness and do not guarantee a specific order for their elements.
 
 Set can be used with a wide range of data types and is versatile for storing and managing elements in various scenarios.
 
