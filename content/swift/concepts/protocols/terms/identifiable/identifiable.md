@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-**Identifiable** is a Swift protocol that requires conforming types to have a unique identifier property, which can be used to distinguish instances of the type.
+**`Identifiable`** is a protocol in Swift that enforces types to include a unique identifier property. This identifier helps differentiate individual instances of the type from one another within collections or arrays, making it easier to handle, update, and manage specific instances.
 
 ## Syntax
 
