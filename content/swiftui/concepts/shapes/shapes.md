@@ -16,7 +16,7 @@ The **`Shape`** protocol is used to create and implement built-in, and custom sh
 
 ## Instantiating a Shape
 
-The protocol comes with some shapes included such as capsule, circle, ellipse, rectangle, and rounded rectangle.
+The protocol comes with some shapes included such as capsule, circle, ellipse, and rectangle.
 
 ```swift
 var body: some View {
@@ -25,26 +25,25 @@ var body: some View {
         Circle()
         Ellipse()
         Rectangle()
-        RoundedRectangle()
     }
 }
 ```
 <br>
 
-## Creating a Custom Shape
+## Creating Custom Shapes
 
-Shapes that are not included can be made using path operations, and should conform to the `Shape` protocol.
+Shapes that are not built-in can be defined using path operations and should conform to the `Shape` protocol.
 
 ```swift
 struct someShape: Shape {
     func path(in rect: CGRect) -> Path {
-    // Define the shape using path operations
+      // Define the shape using path operations
     }
 }
 ```
-- The function returns a `Path` that describes the shape contained inside a rectangular frame of reference.
+- The function should return a `Path` object that describes the shape contained inside a rectangular frame of reference.
 
-## Examples
+## Example: Custom Triangle Shape
 Since there is no Triangle shape built-in, a custom one can be made using path operations.
 
 ```swift
@@ -63,10 +62,11 @@ struct Triangle: Shape {
 ```
 
 - By conforming to the `Shape` protocol, a custom shape inherits all the capabilities of a built-in shape.
-
 <br>
 
-To display the custom shape, it can be called in a view just like a built-in shape.
+### Displaying the Custom Shape
+To display the custom shape, it can be called in a view just like any built-in shape.
+
 ```swift
 var body: some View {
     ZStack {
@@ -79,4 +79,4 @@ var body: some View {
     }
 }
 ```
-- The code displays a yellow triangle with a blue background
+![SwiftUI Shapes](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-shapes-triangle.jpeg The code displays a yellow triangle on a blue background)
