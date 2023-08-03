@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/back-end-engineer-career-path'
 ---
 
-**`Generics`** is a powerful feature introduced in Go 1.18 that empowers developers to write versatile and reusable code that operates on different data types. Generics provide a new level of expressiveness and flexibility to the language, allowing you to create functions, methods, and data structures that work seamlessly across a range of types.
+**Generics** are a powerful feature introduced in Go 1.18 that empowers developers to write versatile and reusable code that operates on different data types. Generics provide a new level of expressiveness and flexibility to the language, allowing the creation of functions, methods, and data structures that work seamlessly across a range of types.
 
 ## Syntax and Type Parameters
 
