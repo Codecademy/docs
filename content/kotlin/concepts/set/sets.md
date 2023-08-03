@@ -17,7 +17,7 @@ CatalogContent:
 
 A set can be used with a wide range of data types and can be implemented for storing and managing elements in various scenarios.
 
-The Set data type in Kotlin can be used for essentially any data type, and it can store elements of various types. Set is useful when you want to manage a group of data and prevent duplicate items. For instance, basic data types like Int, String, Double, Boolean, as well as complex data types like custom classes, can be used within a Set.
+In Kotlin, the `Set` data type can store elements of various types. For instance, basic data types like `Int`, `String`, `Double`, `Boolean`, as well as complex data types like custom classes, can be used within a `Set`.
 
 Here are examples of some data types that can be used with Set:
 ```pseudo
