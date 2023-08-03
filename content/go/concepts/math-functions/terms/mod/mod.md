@@ -31,11 +31,11 @@ The `Mod()` function takes two arguments of type 'float64'.
 
 1. If the argument has a `+Inf` value, the return value will be `0`:
 
-2. If the value of *x* is either *(±)Inf* or *NAN*, the return value will be *NAN*.
+2. If the value of `x` is either (±)Inf` or `NAN`, the return value will be `NAN`.
 
-3. The return value is *NAN* if the value of the second argument is either *0* or *NAN*.
+3. The return value is `NAN` if the value of the second argument is either `0` or `NAN`.
 
-4. If `(±)Inf` is passed as the second argument, the return value is *x (first argument)*.
+4. If `(±)Inf` is passed as the second argument, the return value is `x (first argument)`.
 
 ## Example
 
@@ -106,4 +106,12 @@ func main() {
     result_4 := math.Mod(f, g)
     fmt.Println(result_4)
 }
+```
+The Output:
+``` shell
+1.25
+The data type is: float6410
+NaN
+NaN
+5
 ```
