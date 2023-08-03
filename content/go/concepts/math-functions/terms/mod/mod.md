@@ -29,7 +29,7 @@ The `Mod()` function takes two arguments of type 'float64'.
 
 ### Some Special Cases:
 
-1. If the argument has a *+Inf* value, the return value will be *0*:
+1. If the argument has a `+Inf` value, the return value will be `0`:
 
 2. If the value of *x* is either *(±)Inf* or *NAN*, the return value will be *NAN*.
 
