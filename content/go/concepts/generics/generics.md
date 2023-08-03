@@ -1,6 +1,6 @@
 ---
 Title: 'Generics'
-Description: 'Generics is a programming feature that allows you to write versatile and reusable code that operates on different data types.'
+Description: 'Generics are a programming feature that allows the programmer to write versatile and reusable code that operates on different data types.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
