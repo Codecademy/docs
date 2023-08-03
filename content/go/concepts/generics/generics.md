@@ -45,8 +45,9 @@ Type constraints enable the specification of requirements for the types used wit
 - Modularity: Generics promote modular design by enabling the creation of generic components that can be adapted to various contexts.
 
 ## Limitation and Considerations
-- `Generics` are currently limited to functions and methods. They cannot be used with structs or interfaces.
-- `Generics` in Go 1.18 have some differences compared to generics in other programming languages.
+
+- Generics are currently limited to functions and methods. They cannot be used with structs or interfaces.
+- Generics in Go 1.18 have some differences compared to generics in other programming languages.
 -  Proper documentation and clear naming of type parameters are essential for code readability.
 
 ## Example
