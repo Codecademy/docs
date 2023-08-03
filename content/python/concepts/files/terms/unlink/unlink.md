@@ -40,3 +40,24 @@ import os
 # Delete file path
 os.unlink("path/to/my_file.txt")
 ```
+## Codebyte Example
+
+In this example **delete_me.txt** is deleted using the complete file path and the `.unlink()` method:
+
+```codebyte/python
+import os
+
+#Create file
+f = open("/tmp/delete_me.txt", "w")
+f.write("Bye bye!")
+f.close()
+
+#List files in directory
+print("Files in tmp directory are: ", os.listdir("/tmp"))
+
+#Delete entirety of the file path:
+os.unlink ("/tmp/delete_me.txt")
+
+#List files in directory after using .unlink()
+print("Files in tmp directory are: ", os.listdir("/tmp"))
+```
