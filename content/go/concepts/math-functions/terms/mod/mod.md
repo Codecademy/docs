@@ -82,8 +82,6 @@ func main() {
   fmt.Println(mod_number)
   fmt.Print("The data type is: ", reflect.TypeOf(mod_number))
 
-# Exceptions Examples
-  # First Exception Example
     x := math.Inf(1) // Positive infinity
     result := math.Mod(10, x)
     fmt.Println(result)
