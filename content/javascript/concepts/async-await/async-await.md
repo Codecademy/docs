@@ -1,4 +1,20 @@
-# Async/Await
+---
+Title: Understanding Async/Await in JavaScript
+Description: A comprehensive guide to the modern syntax of async/await in JavaScript, explaining its usage, error handling, concurrency, real-world applications, and further reading resources.
+Subjects:
+  - JavaScript
+  - Asynchronous Programming
+  - Web Development
+Tags:
+  - async
+  - await
+  - ECMAScript 2017
+  - promises
+  - non-blocking
+CatalogContent: JavaScript Tutorials
+---
+
+## Async/Await
 
 `async/await` is a modern syntax feature of JavaScript, making it easier to write asynchronous code. It was introduced with ECMAScript 2017 (ES8), and allows developers to write promise-based code as if it were synchronous, while still being non-blocking.
 
