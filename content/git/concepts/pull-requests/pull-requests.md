@@ -16,6 +16,12 @@ Pull requests (PRs) are used to recommend the merging of code from one [branch](
 
 After reviewing, if the changes are approved by the author(s)/collaborators of the repository, they are merged into the base branch (this is usually named the `main` branch). If the changes are not approved, the maintainer(s) may either ask the requester for additional changes or decline the PR altogether.
 
+The reviewing process by the author(s)/collaborators, usually involves these steps:
+
+1. Examining the code submitted in your PR for errors and/or improvements.
+2. Running test to ensure the code works as intended.
+3. Discussing potential modifications.
+
 PRs are featured on popular version control platforms such as [GitHub](https://github.com/) and [GitLab](https://about.gitlab.com/).
 
 ## Create a Pull Request
