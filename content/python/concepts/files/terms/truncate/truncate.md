@@ -36,20 +36,21 @@ f = open("gullivers_travels.txt", "r")
 
 print(f.read())
 ```
+
 ## Codebyte Example
 
-In this example `.truncate()` is used on **my_one_liner.txt** reducing the size by two bytes or two characters:
+In this example `.truncate()` is used on `my_one_liner.txt` reducing the size by two bytes or two characters:
 
 ```codebyte/python
-#Open file and write message text
+# Open file and write message text
 f = open('my_one_liner.txt', "w")
 f.write("This is our awesome text file, it is not even one letter short!")
 
-#Truncate file to 62 bytes
+# Truncate file to 62 bytes
 f.truncate(62)
 f.close()
 
-#Open file and read message after modifying
+# Open file and read message after modifying
 f = open('my_one_liner.txt', "r")
 file_text = f.read()
 print(file_text)
