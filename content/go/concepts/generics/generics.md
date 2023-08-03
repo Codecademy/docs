@@ -52,6 +52,8 @@ Type constraints enable the specification of requirements for the types used wit
 
 ## Example
 
+This code demonstrates a versatile function called `GenericMap` that applies given functions to items in a list of various types.
+
 ```golang
 package main
 
