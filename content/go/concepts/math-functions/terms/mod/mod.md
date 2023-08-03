@@ -27,7 +27,7 @@ math.Mod(x,y)
 
 The `Mod()` function takes two arguments of type 'float64'.
 
-### Some special cases:
+### Some Special Cases:
 
 1. If the argument has a *+Inf* value, the return value will be *0*:
 
