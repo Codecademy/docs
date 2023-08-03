@@ -51,6 +51,7 @@ Type constraints enable the specification of requirements for the types used wit
 -  Proper documentation and clear naming of type parameters are essential for code readability.
 
 ## Example
+
 ```golang
 package main
 
