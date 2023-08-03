@@ -39,9 +39,9 @@ Type constraints enable the specification of requirements for the types used wit
 
 ## Benefits of Generics
 
-- `Code Reusability`: Generics allow you to create functions and data structures that can work with multiple types, reducing the need for duplicated code.
-- `Type Safety`: Compile-time type checking ensures that your generic code is type-safe and minimizes runtime errors.
-- `Modularity`: Generics promote modular design by enabling the creation of generic components that can be adapted to various contexts.
+- Code Reusability: Generics allows the creation of functions and data structures that can work with multiple types, reducing the need for duplicated code.
+- Type Safety: Compile-time type checking ensures that generic code is type-safe and minimizes runtime errors.
+- Modularity: Generics promote modular design by enabling the creation of generic components that can be adapted to various contexts.
 
 ## Limitation and Considerations
 - `Generics` are currently limited to functions and methods. They cannot be used with structs or interfaces.
