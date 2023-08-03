@@ -24,6 +24,7 @@ func FunctionName[T TypeConstraint](params) ReturnType {
     // Function body
 }
 ```
+
 - `T`: Represents the type parameter that can be replaced with actual types when using the function.
 - `TypeConstraint`: An optional type constraint that specifies the characteristics the type parameter must satisfy.
 - `params`: The parameters that the function accepts.
