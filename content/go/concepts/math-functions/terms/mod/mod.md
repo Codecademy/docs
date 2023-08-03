@@ -66,7 +66,7 @@ The modulus of 23.50 and 5.20 = 2.70
 
 ## Codebyte Example
 
-The provided example is executable and demonstrates the usage of the **`Mod()`** function.
+The provided example is executable and demonstrates special cases in the use of the `Mod()` function:
 
 ```codebyte/golang
 package main
