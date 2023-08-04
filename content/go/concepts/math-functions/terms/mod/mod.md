@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Mod()`** function returns the floating-point remainder of dividing *x* by *y*. The result has the same sign as *x* and a magnitude less than the magnitude of *y*.
+The **`Mod()`** function returns the floating-point remainder of dividing _x_ by _y_. The result has the same sign as _x_ and a magnitude less than the magnitude of _y_.
 
 The `Mod()` function operates exclusively with floating-point numbers.
 
@@ -27,14 +27,11 @@ math.Mod(x,y)
 
 The `Mod()` function takes two arguments of type 'float64'.
 
-### Some Special Cases:
+Please be aware of the following special cases:
 
 1. If the argument has a `+Inf` value, the return value will be `0`:
-
 2. If the value of `x` is either `(±)Inf` or `NAN`, the return value will be `NaN`.
-
 3. The return value is `NAN` if the value of the second argument is either `0` or `NAN`.
-
 4. If `(±)Inf` is passed as the second argument, the return value is `x (first argument)`.
 
 ## Example
@@ -85,33 +82,20 @@ func main() {
     x := math.Inf(1) // Positive infinity
     result := math.Mod(10, x)
     fmt.Println(result)
- 
-
 
     a := math.Inf(1) // Positive infinity
     b := math.NaN()  // Not a Number (NaN)
     result_2 := math.Mod(a, b)
     fmt.Println(result_2)
-   
 
-   
     c := 10.0
     d := 0.0
     result_3 := math.Mod(c, d)
     fmt.Println(result_3)
- 
 
     f := 5.0
     g := math.Inf(1) // Positive infinity
     result_4 := math.Mod(f, g)
     fmt.Println(result_4)
 }
-```
-The Output:
-``` shell
-1.25
-The data type is: float6410
-NaN
-NaN
-5
 ```
