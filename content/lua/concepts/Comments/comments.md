@@ -25,7 +25,7 @@ The comment does not affect the function.
 
 ## Multi-line Comments
 
-In Lua, multi-line comments are created using `--[[`to start the comment, and `]]--` to end the comment. The compiler does not read any text in between.
+In Lua, multi-line comments are created using the `--[[` syntax to start the comment, and `]]--` to end the comment. The compiler does not read any text in between.
 
 ```lua
 --[[ this is a multi-line comment.
