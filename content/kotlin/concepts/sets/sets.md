@@ -66,7 +66,7 @@ val emptySet: Set<Int> = setOf()
 val number: Set<Int> = setOf(1, 2, 3, 4, 5)
 ```
 
-#### Parameters of `setOf()`
+Parameters of `setOf()`:
 
 The `setOf()` function, similar to `mutableSetOf()`, takes zero or more initial elements as its parameters.
 It initializes the immutable set with the provided elements. If no elements are provided, an empty immutable set is created.
