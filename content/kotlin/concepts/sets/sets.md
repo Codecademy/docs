@@ -82,7 +82,7 @@ mutableFruits.add("kiwi")          // Adds an element to the mutable set
 mutableFruits.remove("apple")      // Removes an element from the mutable set
 ```
 
-### Checking Element Existence
+Checking for a element's existence:
 
 ```kotlin
 val containsApple = mutableFruits.contains("apple")
