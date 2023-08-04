@@ -16,7 +16,7 @@ Returns the cosine of an angle.
 
 ## Syntax
 
-```py
+```pseudo
 math.cos(n)
 ```
 
