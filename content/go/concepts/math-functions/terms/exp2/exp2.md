@@ -28,8 +28,10 @@ Special cases:
 
 - The result of `Exp2(+Inf)` is +Inf
 - The result of `Exp2(NaN)` is NaN
-  
+
 ## Example
+
+The example below demonstrates the basic use of `Exp2()`:
 
 ```go
 package main
