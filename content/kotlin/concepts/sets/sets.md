@@ -70,7 +70,7 @@ Parameters of `setOf()`:
 The `setOf()` function, similar to `mutableSetOf()`, takes zero or more initial elements as its parameters.
 It initializes the immutable set with the provided elements. If no elements are provided, an empty immutable set is created.
 
-The following code example demonstrates how to create a mutableSetOf in Kotlin, add and remove elements, check for an element's existence, iterate over elements, retrieve the set size, and convert set elements to a list or an array.
+The following code demonstrates how to create sets, add and remove elements, check for element existence, iterate over elements, retrieve the set size, and convert sets to lists and arrays. The iteration process is also correctly executed:
 
 ## Example
 
@@ -78,48 +78,78 @@ The following code example demonstrates how to create a mutableSetOf in Kotlin, 
 import java.util.*
 
 fun main() {
-    val mutableSet = mutableSetOf("apple", "banana", "orange")
+    // Creating a mutable set
+    val mutableFruits = mutableSetOf("apple", "banana", "orange")
 
-    // Adding Elements
-    mutableSet.add("grape")
-    mutableSet.add("apple")
+    // Adding Elements to the Mutable Set
+    mutableFruits.add("grape")
+    mutableFruits.add("apple")
 
-    // Removing Elements
-    mutableSet.remove("banana")
+    // Removing Elements from the Mutable Set
+    mutableFruits.remove("banana")
 
     // Checking Element Existence
-    val containsApple = mutableSet.contains("apple")
-    println("Contains 'apple': $containsApple")
+    val containsApple = mutableFruits.contains("apple")
+    println("Mutable Set Contains 'apple': $containsApple")
 
-    // Iterating Over Elements
-    println("Elements in the set:")
-    for (fruit in mutableSet) {
+    // Iterating Over Elements in the Mutable Set
+    println("Mutable Set Elements:")
+    for (fruit in mutableFruits) {
         println(fruit)
     }
 
     // Set Size
-    val setSize = mutableSet.size
-    println("Size of the set: $setSize")
+    val mutableSize = mutableFruits.size
+    println("Mutable Set Size: $mutableSize")
 
-    // Converting Set to List
-    val setToList = mutableSet.toList()
-    println("Set converted to list: $setToList")
+    // Converting Mutable Set to List
+    val mutableToList = mutableFruits.toList()
+    println("Mutable Set converted to list: $mutableToList")
 
-    // Converting Set to Array
-    val setToArray = mutableSet.toTypedArray()
-    println("Set converted to array: ${setToArray.contentToString()}")
+    // Creating an immutable set
+    val immutableFruits = setOf("apple", "banana", "orange")
+
+    // Checking Element Existence in the Immutable Set
+    val containsOrange = immutableFruits.contains("orange")
+    println("Immutable Set Contains 'orange': $containsOrange")
+
+    // Iterating Over Elements in the Immutable Set
+    println("Immutable Set Elements:")
+    for (fruit in immutableFruits) {
+        println(fruit)
+    }
+
+    // Set Size
+    val immutableSize = immutableFruits.size
+    println("Immutable Set Size: $immutableSize")
+
+    // Converting Immutable Set to List
+    val immutableToList = immutableFruits.toList()
+    println("Immutable Set converted to list: $immutableToList")
+    
+    // Converting Immutable Set to Array
+    val immutableToArray = immutableFruits.toTypedArray()
+    println("Immutable Set converted to array: ${immutableToArray.contentToString()}")
 }
+
 ```
 
 The output for the above code will be:
 
 ```shell
-Contains 'apple': true
-Elements in the set:
+Mutable Set Contains 'apple': true
+Mutable Set Elements:
 apple
-orange
 grape
-Size of the set: 3
-Set converted to list: [apple, orange, grape]
-Set converted to array: [apple, orange, grape]
+orange
+Mutable Set Size: 3
+Mutable Set converted to list: [apple, grape, orange]
+Immutable Set Contains 'orange': true
+Immutable Set Elements:
+apple
+banana
+orange
+Immutable Set Size: 3
+Immutable Set converted to list: [apple, banana, orange]
+Immutable Set converted to array: [apple, banana, orange]
 ```
