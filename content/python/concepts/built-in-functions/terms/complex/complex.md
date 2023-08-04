@@ -24,15 +24,18 @@ complex(real, imaginary)
 
 ## Example 
 
-Use `complex()` to convert the string `"33+57j"` into a complex number:
+Use `complex()` to convert the string `"1+7j"` into a complex number:
 
 ```py
-num = complex("33+57j")
+num = complex("1+7j")
 print(num)
 ```
 
-This will output:
+## Codebyte Example 
 
-```shell
-(33+57j)
+Use `complex()` to convert the string `"1.5"` which is passed as a single parameter, into a complex number:
+
+```codebyte/python
+x = complex("1.5")
+print(x)
 ```
