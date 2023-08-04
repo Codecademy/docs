@@ -10,7 +10,6 @@ Tags:
   - 'Arithmetic'
 CatalogContent:
   - 'learn-python-3'
-  - 'paths/computer-science'
   - 'paths/data-science'
 ---
 
@@ -18,20 +17,28 @@ Converts a given string into a complex number.
 
 ## Syntax
 
-```py
+```pseudo
 complex(real, imaginary)
 ```
 
-## Example 
+## Example
 
 Use `complex()` to convert the string `"1+7j"` into a complex number:
 
-```py
+```python
 num = complex("1+7j")
 print(num)
 ```
 
-## Codebyte Example 
+This will result in the following output:
+
+```shell
+(1+7j)
+```
+
+> **Note:** The passed string cannot contain whitespaces. A string such as, `"1 + 7j"`, will result in an error.
+
+## Codebyte Example
 
 Use `complex()` to convert the string `"1.5"` which is passed as a single parameter, into a complex number:
 

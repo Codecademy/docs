@@ -17,7 +17,7 @@ Returns a runnable code object created from a `string`.
 
 ## Syntax
 
-```py
+```pseudo
 compile(source, filename, mode)
 ```
 
@@ -32,14 +32,14 @@ compile(source, filename, mode)
 - `flags` (optional) and `dont_inherit` (optional): Controls which future statements affect the compilation of the source. Default set to 0.
 - `optimize` (optional): The optimization level of the compiler. Default set to -1.
 
-## Example 
+## Example
 
 Use `compile()` to take a code block containing a function and a statement, to return a runnable code object.
 
 ```py
 def dog():
     print("Woof woof wooo!")
-    
+
 friend = compile('print("Who\'s a good boy?")\ndog()', 'test', 'exec')
 
 exec(friend)
