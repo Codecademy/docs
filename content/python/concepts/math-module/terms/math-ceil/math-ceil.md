@@ -22,7 +22,7 @@ math.ceil(n)
 
 The **`math.ceil()`** function takes in a value and returns its ceiling, the smallest integer greater than or equal to that value.
 
-## Example 1
+## Example 
 
 Use `math.ceil()` to return the ceiling of `134.2`:
 
