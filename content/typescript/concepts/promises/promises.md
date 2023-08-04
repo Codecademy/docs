@@ -1,6 +1,17 @@
-| Title    | Description                                                                                                            | Subjects           | Tags                             | CatalogContent                   |
-|----------|------------------------------------------------------------------------------------------------------------------------|--------------------|----------------------------------|----------------------------------|
-| Promises | In TypeScript, Promises are used to handle asynchronous operations, allowing you to have better control over the flow of code. | Web Development    | Promises, Async/await, learn-typescript | paths/full-stack-engineer-career-path |
+# Promises in TypeScrip
+
+Description:Learn how to handle asynchronous operations in TypeScript using Promises, providing better control over the flow of code.
+Subjects:
+
+  -Web Developmen
+
+Tags:
+
+  -Promise
+  -Async/awai
+  -learn-typescrip
+CatalogContent:
+  -paths/full-stack-engineer-career-pat
 
 ## Creating Promises
 
