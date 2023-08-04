@@ -33,7 +33,7 @@ In Lua, multi-line comments are created using the `--[[` syntax to start the com
 
 ```lua
 --[[ this is a multi-line comment.
- The compiler 
- will not run code 
+ The compiler
+ will not run code
  written in between. ]]--
 ```
