@@ -40,7 +40,7 @@ Type constraints enable the specification of requirements for the types used wit
 
 ## Benefits of Generics
 
-- Code Reusability: Generics allows the creation of functions and data structures that can work with multiple types, reducing the need for duplicated code.
+- Code Reusability: Generics allow the creation of functions and data structures that can work with multiple types, reducing the need for duplicated code.
 - Type Safety: Compile-time type checking ensures that generic code is type-safe and minimizes runtime errors.
 - Modularity: Generics promote modular design by enabling the creation of generic components that can be adapted to various contexts.
 
@@ -48,7 +48,7 @@ Type constraints enable the specification of requirements for the types used wit
 
 - Generics are currently limited to functions and methods. They cannot be used with structs or interfaces.
 - Generics in Go 1.18 have some differences compared to generics in other programming languages.
--  Proper documentation and clear naming of type parameters are essential for code readability.
+- Proper documentation and clear naming of type parameters are essential for code readability.
 
 ## Example
 
@@ -94,8 +94,8 @@ func main() {
 
 
   # Explanation
-  # It can take a list of numbers and give you a new list where each number is replaced by its square.
-  # Or it can take a list of words and give you a new list where each word is replaced by its length.
+  # It can take a list of numbers and give a new list where each number is replaced by its square.
+  # Or it can take a list of words and give a new list where each word is replaced by its length.
   # It's a way to do similar things with different types of things.
 }
 ```
