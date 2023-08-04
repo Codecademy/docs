@@ -15,7 +15,7 @@ CatalogContent:
 
 **`Sets`** are versatile collections designed to store a unique selection of elements. They are valuable tools when there is a need to work with a group of values without duplicates. Unlike lists, which allow repeated elements and maintain order, sets prioritize uniqueness and do not guarantee a specific order for their elements.
 
-A set can be used with a wide range of data types and can be implemented for storing and managing elements in various scenarios. Kotlin's `Set` type is versatile, accommodating diverse data types like `Int`, `String`, `Double`, `Boolean`, and custom classes. Useful for managing data groups, and preventing duplicates.
+A set can be used with a wide range of data types and can be implemented for storing and managing elements in various scenarios. Kotlin's `Set` type is versatile, accommodating diverse data types like `Int`, `String`, `Double`, `Boolean`, and custom classes. A set is useful for managing data groups, and preventing duplicates.
 
 ## Types of Sets
 
