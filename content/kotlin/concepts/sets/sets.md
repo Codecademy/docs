@@ -104,7 +104,7 @@ for (fruit in mutableFruits) {
 }
 ```
 
-### Converting Set to List or Array
+Converting a set to a list or array:
 
 ```kotlin
 val fruitList = mutableFruits.toList()
