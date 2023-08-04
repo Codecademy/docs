@@ -44,7 +44,7 @@ mutableFruits.add("grape")      // Adds an element to the set
 mutableFruits.remove("banana")  // Removes an element from the set
 ```
 
-#### Parameters of `mutableSetOf()`
+Parameters of `mutableSetOf()`:
 
 The `mutableSetOf()` function takes zero or more initial elements as its parameters. A comma-separated list of elements can be used to initialize a mutable set. If no elements are provided, an empty mutable set is created.
 
