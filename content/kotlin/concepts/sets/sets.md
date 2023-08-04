@@ -75,7 +75,7 @@ It initializes the immutable set with the provided elements. If no elements are 
 
 Kotlin sets support a variety of common operations, making them versatile tools for data manipulation:
 
-### Adding and Removing Elements
+Adding and removing elements:
 
 ```kotlin
 mutableFruits.add("kiwi")          // Adds an element to the mutable set
