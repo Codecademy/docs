@@ -52,3 +52,24 @@ def completeOne():
 
 print(completeOne())
 ```
+
+## Codebyte Example
+
+This example is runnable and uses the built-In `input()` function to Make a simple Log-in setup:
+
+```codebyte/python
+users = {'SomeGuy1' : 'CodingIstheBest', 'SomeGuy2' : 'ILovePython', 'SomeGuy3' : 'ILikeContributing'}
+
+while True:
+    username = input("Please Enter Your Username : ")
+    password = input("Please Enter Your password : ")
+
+    if username in users:
+        if users[username] == password:
+            print('Welcome Back, '+ username)
+            break
+        else:
+            print('Password Is Incorrect')
+    else:
+        print('Username Is Incorrect')
+```
