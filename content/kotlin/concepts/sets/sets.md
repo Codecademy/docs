@@ -31,7 +31,7 @@ Creating an empty mutable set:
 val emptySet: MutableSet<Int> = mutableSetOf()
 ```
 
-#### Creating a Mutable Set
+Creating a mutable set:
 
 ```kotlin
 val mutableFruits: MutableSet<String> = mutableSetOf("apple", "banana", "orange")
