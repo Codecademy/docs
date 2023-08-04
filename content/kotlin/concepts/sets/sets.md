@@ -96,7 +96,7 @@ for (fruit in mutableFruits) {
 }
 ```
 
-### Set Size
+Retrieving set size:
 
 ```kotlin
 for (fruit in mutableFruits) {
