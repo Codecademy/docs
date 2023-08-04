@@ -18,9 +18,9 @@ After reviewing, if the changes are approved by the author(s)/collaborators of t
 
 The review process by the contributors, usually involves:
 
-1. Examining the code submitted in the PR for errors and/or optimizations.
-2. Running tests to ensure the code works as intended.
-3. Discussing potential modifications.
+- Examining the code submitted in the PR for errors and/or optimizations.
+- Running tests to ensure the code works as intended.
+- Discussing potential modifications.
 
 PRs are featured on popular version control platforms such as [GitHub](https://github.com/) and [GitLab](https://about.gitlab.com/).
 
