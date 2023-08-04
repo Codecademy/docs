@@ -37,7 +37,7 @@ Creating a mutable set:
 val mutableFruits: MutableSet<String> = mutableSetOf("apple", "banana", "orange")
 ```
 
-#### Modifying a MutableSet
+Modifying a mutable set:
 
 ```kotlin
 mutableFruits.add("grape")      // Adds an element to the set
