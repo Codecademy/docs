@@ -32,7 +32,7 @@ compile(source, filename, mode)
 - `flags` (optional) and `dont_inherit` (optional): Controls which future statements affect the compilation of the source. Default set to 0.
 - `optimize` (optional): The optimization level of the compiler. Default set to -1.
 
-## Example 1
+## Example 
 
 Use `compile()` to take a code block containing a function and a statement, to return a runnable code object.
 
@@ -52,7 +52,7 @@ Who's a good boy?
 Woof woof wooo!
 ```
 
-## Example 2
+## Codebyte Example
 
 Use `compile()` to take a code block containing a single expression and return a runnable code object.
 
