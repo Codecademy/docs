@@ -35,6 +35,8 @@ func Log10(x float64) float64
 
 ## Example
 
+Example demonstrates the output of `Log10()`.
+
 ```go
 package main
 
