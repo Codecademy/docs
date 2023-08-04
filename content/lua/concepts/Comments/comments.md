@@ -11,6 +11,8 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'paths/computer-science'
 ---
 
+A **comment** is text within a program that is not being executed. It can provide additional information to support understanding the code.
+
 ## Single-line Comments
 
 In Lua, two consecutive dashes are used to create single line comments. The compiler does not read any text after `--` on the same line.
