@@ -21,7 +21,7 @@ return sum
 end
 ```
 
-The comment has no effect on the function.
+The comment does not affect the function.
 
 ## Multi-line Comments
 
