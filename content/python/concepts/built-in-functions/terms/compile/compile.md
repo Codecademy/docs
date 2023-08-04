@@ -61,9 +61,3 @@ fact = compile('print("Codecademy Docs is a great learning tool!")', 'test', 'ev
 
 eval(fact)
 ```
-
-This will output:
-
-```shell
-Codecademy Docs is a great learning tool!
-```
