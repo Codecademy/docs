@@ -56,7 +56,7 @@ Woof woof wooo!
 
 Use `compile()` to take a code block containing a single expression and return a runnable code object.
 
-```py
+```codebyte/python
 fact = compile('print("Codecademy Docs is a great learning tool!")', 'test', 'eval')
 
 eval(fact)
