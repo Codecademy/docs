@@ -60,7 +60,7 @@ An immutable set is a static collection whose elements cannot be modified once t
 val emptySet: Set<Int> = setOf()
 ```
 
-#### Creating an Immutable Set
+Creating an immutable set
 
 ```kotlin
 val number: Set<Int> = setOf(1, 2, 3, 4, 5)
