@@ -111,7 +111,7 @@ val fruitList = mutableFruits.toList()
 val fruitArray = mutableFruits.toTypedArray()
 ```
 
-## Examples
+## Example
 
 ```kotlin
 import java.util.*
