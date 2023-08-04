@@ -88,7 +88,7 @@ Checking for a element's existence:
 val containsApple = mutableFruits.contains("apple")
 ```
 
-### Iterating Over Elements
+Iterating over elements:
 
 ```kotlin
 for (fruit in mutableFruits) {
