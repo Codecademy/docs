@@ -54,7 +54,7 @@ The `mutableSetOf()` function takes zero or more initial elements as its paramet
 
 An immutable set is a static collection whose elements cannot be modified once the set is created. It is implemented using the `setOf()` function.
 
-#### Creating an Empty Immutable Set
+Creating an empty immutable set:
 
 ```kotlin
 val emptySet: Set<Int> = setOf()
