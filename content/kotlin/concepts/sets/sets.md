@@ -25,23 +25,23 @@ Kotlin offers two main types of sets, mutable sets and immutable.
 
 A mutable set is a dynamic collection that allows the programmer to add, remove, or modify its elements after creation. It is implemented using the `mutableSetOf()` function.
 
-Creating an empty mutable set:
+The following  code example demonstrates creating an empty mutable set, creating a mutable set with predefined values, performing add and remove operations on the mutable set, and finally, printing the updated set values:
 
 ```kotlin
-val emptySet: MutableSet<Int> = mutableSetOf()
-```
+fun main() {
+    // Creating an empty mutable set
+    val emptySet: MutableSet<Int> = mutableSetOf()
 
-Creating a mutable set:
+    // Creating a mutable set with initial values
+    val mutableFruits: MutableSet<String> = mutableSetOf("apple", "banana", "orange")
 
-```kotlin
-val mutableFruits: MutableSet<String> = mutableSetOf("apple", "banana", "orange")
-```
+    // Modifying a mutable set
+    mutableFruits.add("grape")      // Adds an element to the set
+    mutableFruits.remove("banana")  // Removes an element from the set
 
-Modifying a mutable set:
-
-```kotlin
-mutableFruits.add("grape")      // Adds an element to the set
-mutableFruits.remove("banana")  // Removes an element from the set
+    // Printing the updated mutable set
+    println("Fruit Set: $mutableFruits")
+}
 ```
 
 Parameters of `mutableSetOf()`:
@@ -54,16 +54,15 @@ The `mutableSetOf()` function takes zero or more initial elements as its paramet
 
 An immutable set is a static collection whose elements cannot be modified once the set is created. It is implemented using the `setOf()` function.
 
-Creating an empty immutable set:
-
+The following  code snippet shows how to create an empty immutable set and an immutable set with predefined number values:
 ```kotlin
-val emptySet: Set<Int> = setOf()
-```
+fun main() {
+    // Creating an empty immutable set
+    val emptySet: Set<Int> = setOf()
 
-Creating an immutable set
-
-```kotlin
-val number: Set<Int> = setOf(1, 2, 3, 4, 5)
+    // Creating an immutable set with numbers
+    val numbers: Set<Int> = setOf(1, 2, 3, 4, 5)
+}
 ```
 
 Parameters of `setOf()`:
@@ -71,45 +70,7 @@ Parameters of `setOf()`:
 The `setOf()` function, similar to `mutableSetOf()`, takes zero or more initial elements as its parameters.
 It initializes the immutable set with the provided elements. If no elements are provided, an empty immutable set is created.
 
-## Common Operations on Sets
-
-Kotlin sets support a variety of common operations, making them versatile tools for data manipulation:
-
-Adding and removing elements:
-
-```kotlin
-mutableFruits.add("kiwi")          // Adds an element to the mutable set
-mutableFruits.remove("apple")      // Removes an element from the mutable set
-```
-
-Checking for a element's existence:
-
-```kotlin
-val containsApple = mutableFruits.contains("apple")
-```
-
-Iterating over elements:
-
-```kotlin
-for (fruit in mutableFruits) {
-    println(fruit)
-}
-```
-
-Retrieving set size:
-
-```kotlin
-for (fruit in mutableFruits) {
-    println(fruit)
-}
-```
-
-Converting a set to a list or array:
-
-```kotlin
-val fruitList = mutableFruits.toList()
-val fruitArray = mutableFruits.toTypedArray()
-```
+The following code example demonstrates how to create a mutableSetOf in Kotlin, add and remove elements, check for an element's existence, iterate over elements, retrieve the set size, and convert set elements to a list or an array.
 
 ## Example
 
