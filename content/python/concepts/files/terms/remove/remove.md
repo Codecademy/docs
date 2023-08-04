@@ -39,7 +39,7 @@ Entire folders or directories can be removed using the [`.rmdir()`](https://www.
 
 ## Example
 
-In the example below, the `.remove()` method is used to delete the **my_file.txt** file:
+In the example below, the `.remove()` method is used to delete the `my_file.txt` file:
 
 ```py
 import os

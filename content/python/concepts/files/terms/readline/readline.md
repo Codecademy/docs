@@ -24,7 +24,7 @@ file.readline()
 
 ## Example
 
-Use `.readline()` to read the first line of content from the **gullivers_travels.txt** file:
+Use `.readline()` to read the first line of content from the `gullivers_travels.txt` file:
 
 ```python
 f = open("gullivers_travels.txt", "r", encoding='utf8')

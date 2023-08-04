@@ -24,7 +24,7 @@ file.close()
 
 ## Example
 
-Use `.close()` to close the opened **gullivers_travels.txt** file:
+Use `.close()` to close the opened `gullivers_travels.txt` file:
 
 ```python
 f = open("gullivers_travels.txt", "r", encoding='utf8')
