@@ -1,6 +1,6 @@
 ---
 Title: '.length'
-Description: 'The length property returns the number of items in an array or the number of characters in a string.'
+Description: 'Returns the number of items in an array or the number of characters in a string.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
