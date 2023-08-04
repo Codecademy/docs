@@ -31,7 +31,7 @@ The `math.log()` function returns a `float` value, the natural logarithm of `n` 
 
 Use `math.log()` to return the natural log of `12` (base `e`):
 
-```python
+```py
 import math
 
 print(math.log(12))
@@ -43,7 +43,7 @@ print(math.log(12))
 
 The following example is runnable and uses the `math.log()` function to return the natural and base `10` logarithms of a number:
 
-```codebyte/py
+```codebyte/python
 import math
 
 print("The natural logarithm of 10 is: ", math.log(10))
