@@ -22,11 +22,11 @@ math.cos(n)
 
 The **`math.cos()`** function returns a numeric value between -1 and 1, which represents the cosine of the value `n`.
 
-## Example 1
+## Example
 
 Use `math.cos()` to return the cosine of a `90` degree angle:
 
-```python
+```py
 import math
 
 print(math.cos(90))
@@ -34,23 +34,11 @@ print(math.cos(90))
 # Output: -0.4480736161291702
 ```
 
-## Example 2
-
-Use `math.cos()` to return the cosine of a `180.5` degree angle:
-
-```python
-import math
-
-print(math.cos(180.5))
-
-# Output: -0.141105086702016
-```
-
 ## Codebyte Example
 
 The following example is runnable and uses the `math.cos()` function to return the cosine of a number:
 
-```codebyte/py
+```codebyte/python
 import math
 
 print("The cosine of 0 is: ", math.cos(0))
