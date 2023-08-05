@@ -22,17 +22,12 @@ The **`Log2()`** function in the Go programming language calculates the base-2 l
 func Log2(x float64) float64
 ```
 
-## Parameters
-
 `Log2()` accepts an argument of type `float64` and returns a value of type `float64`.
 
+ Note these special cases:
 
->  Note these special cases:
->- If the input number `x` is negative or zero, the function will return `NaN` (not-a-number).
->- For positive finite values of `x`, the result will be a `finite floating-point number`.
-
-
-
+- If the input number `x` is negative or zero, the function will return `NaN` (not-a-number).
+- For positive finite values of `x`, the result will be a finite floating-point number.
 
 ## Example
 
