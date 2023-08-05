@@ -1,6 +1,6 @@
 ---
 Title: 'Log10()'
-Description: 'Returns the base-10 logarithm of a given number'
+Description: 'Returns the base-10 logarithm of a given number.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
