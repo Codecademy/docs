@@ -43,7 +43,7 @@ Methods –
 - `values`: This method returns a list of all the constants defined within the enum class.
 - `valueOf`: This method returns the enum constant that matches the input string passed. If the constant, is not present in the enum, then an `IllegalArgumentException` is thrown.
 
-## Example
+## Example (on properties and methods)
 
 The following example demonstrates the use of the enum class properties in Kotlin:
 
@@ -89,11 +89,12 @@ UNLEADED
 UNLEADED
 UNLEADED
 ```
+
 The use of when expression -
 
 One of the interesting features of kotlin enums is the complete elimination of the need to use the else clause because of the restriction on the value that a type can take.
 
-## Example
+## Example (for the when expression)
 
 ```kotlin
 enum class TRADED_METALS{
@@ -128,7 +129,7 @@ The symbol of Iron is Fe
 
 Use of constructors to add more properties -
 
-## Example
+## Example (on use of constructors)
 
 ```kotlin
 enum class COLORS(val symbol: String) {
@@ -141,15 +142,16 @@ fun main()
     printIn(COLORS.RED.symbol)
 }
 ```
+
 the output:
 
 ```shell
 war
 ```
 
-Implementing interface - 
+Implementing interface -
 
-## Example
+## Example (on implementing interface)
 
 ```kotlin
 interface IAccountInterestRates {
@@ -190,7 +192,7 @@ Enums as Anonymous Classes –
 
 Enum constants also behaves as anonymous classes by implementing their own functions along with overriding the abstract functions of the class. The most important thing is that each enum constant must be override.
 
-## Example
+## Example (on anonymous classes)
 
 ```kotlin
 enum class Seasons(var weather: String) {
