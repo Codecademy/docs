@@ -79,12 +79,3 @@ func main() {
 	}
 }
 ```
-
-The Output will be:
-```shell
-Log2 Calculations:
-Log2(2.00) = 1.00
-Log2(10.00) = 3.32
-Log2(0.50) = -1.00
-Log2(100.00) = 6.64
-```
