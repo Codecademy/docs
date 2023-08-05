@@ -17,7 +17,7 @@ CatalogContent:
 
 Kotlin enums are called enum classes and they aren't simply collections of constants, as in other languages, they also have properties, methods, etc. Each enum acts as a separate instance of the enum class, and the declaration begins with the keywords `enum class` followed by the class name.
 
-Oftentimes compared with enums corresponding to `java`, kotlin enums do not require that one knows all possible values at compile time and their declaration does not create a class behind the scenes.
+Often compared to enums corresponding to `java`, kotlin enums do not require that one knows all possible values at compile time and their declaration does not create a class behind the scenes.
 
 Beyond custom methods and properties limited to `java` enums, kotlin enums can use anonymous classes and implement interfaces.
 
@@ -190,7 +190,7 @@ Savings bank interest rate is : 1.2
 
 Enums as Anonymous Classes –
 
-Enum constants also behaves as anonymous classes by implementing their own functions along with overriding the abstract functions of the class. The most important thing is that each enum constant must be override.
+Enum constants behave as anonymous classes by implementing their own functions along with overriding the abstract functions of the class. The most important thing is that each enum constant must be overridden by using its own functions along with overriding the abstract functions of the class.
 
 ## Example (on anonymous classes)
 
