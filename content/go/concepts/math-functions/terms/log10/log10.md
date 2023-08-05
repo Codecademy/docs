@@ -80,12 +80,3 @@ func main() {
 	}
 }
 ```
-
-The Output will be:
-```shell
-Log10 Calculations:
-Log10(2.00) = 0.30
-Log10(10.00) = 1.00
-Log10(0.50) = -0.30
-Log10(100.00) = 2.00
-```
