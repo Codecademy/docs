@@ -188,7 +188,7 @@ Savings bank interest rate is : 1.2
 
 Enums as Anonymous Classes –
 
-Enum constants also behaves as anonymous classes by implementing their own functions along with overriding the abstract functions of the class. The most important thing is that each enum constant must be override.
+Enum constants behave as anonymous classes by implementing their own functions along with overriding the abstract functions of the class. The most important thing is that each enum constant must be overridden by using its own functions along with overriding the abstract functions of the class.
 
 ## Example
 
