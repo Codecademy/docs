@@ -31,7 +31,7 @@ enum class <enum_class_name> {
 }
 ```
 
-Enums properties and methods –
+## Enums Properties and Methods 
 
 Properties –
 
