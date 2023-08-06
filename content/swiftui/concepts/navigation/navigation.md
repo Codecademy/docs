@@ -149,7 +149,9 @@ struct Doc: View {
     }
 }
 ```
-Output: 
+
+This code produces the following output: 
+
 ![This gif shows the effect of using NavigationStack with navigationBarBackButtonHidden](https://raw.githubusercontent.com/Codecademy/docs/main/media/NavigationStack-with-navigationBarBackButtonHidden.gif)
 
 The modifiers above are just the basic one, to help in designing the app.
