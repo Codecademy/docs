@@ -83,7 +83,8 @@ This code will output:
 > **Note:** If The app suports iOS 15 or less `NavigationStack` will not be available, so instead of `NavigationStack` use `NavigationView`. In the above examples just replace `NavigationStack` with `NavigationView` and the code will run.
 
 ## NavigationStack with Lists
-One of the common examples of using `NavigationStack` is with `Lists`, so lets say for Example there is a list of names in the view. The goal we want to achieve is to be able to navigate to another view by pressing the element in the list. This can be achieved by warping the `List` in a `NavigationStack` :
+
+One of the common examples of using `NavigationStack` is with `Lists`. For example, there is a list of names in the view. The goal is to be able to navigate to another view by pressing the element in the list. This can be achieved by wrapping the `List` in a `NavigationStack` :
 
 ```Swift
 struct Doc: View {
