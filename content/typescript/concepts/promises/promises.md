@@ -1,6 +1,6 @@
 # Promises in TypeScrip
 
-Description:Learn how to handle asynchronous operations in TypeScript using Promises, providing better control over the flow of code.
+Description: Learn how to handle asynchronous operations in TypeScript using Promises, providing better control over the flow of code.
 Subjects:
 
   -Web Developmen
