@@ -103,8 +103,9 @@ Output:
 
 Those are just basic examples for `NavigationStack`, there is no limits on how to use it.
 
-## NavigationStack modifiers
-There are some basic modifiers to use with `NavigationStack`. The first one is `.navigationTitle`, this is used to be able to declare the title of the view, it looks like this:
+## NavigationStack Modifiers
+
+There are some basic modifiers to use with `NavigationStack`. The first one is `.navigationTitle`. This is used to be able to declare the title of the view. It looks like this:
 
 ```Swift
 struct Doc: View {
