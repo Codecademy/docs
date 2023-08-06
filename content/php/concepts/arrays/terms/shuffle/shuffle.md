@@ -22,7 +22,7 @@ shuffle($array)
 
 The `shuffle()` function has only one parameter:
 
-- `$array`: Specifies the array to randomize Its elements.
+- `$array`: Specifies the array to randomize.
 
 The `shuffle()` function returns an array with randomized elements.
 
