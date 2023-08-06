@@ -33,7 +33,7 @@ enum class <enum_class_name> {
 
 ## Enums Properties and Methods 
 
-Properties –
+Properties:
 
 - `ordinal`: This property stores the ordinal value of the constant, which is usually a zero-based index.
 - `name`: This property stores the name of the constant.
