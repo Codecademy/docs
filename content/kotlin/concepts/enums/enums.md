@@ -142,7 +142,7 @@ fun main()
 }
 ```
 
-the output:
+The example above returns:
 
 ```shell
 war
