@@ -89,7 +89,7 @@ UNLEADED
 UNLEADED
 ```
 
-The use of when expression -
+## Using the `when` Expression
 
 One of the interesting features of kotlin enums is the complete elimination of the need to use the else clause because of the restriction on the value that a type can take.
 
