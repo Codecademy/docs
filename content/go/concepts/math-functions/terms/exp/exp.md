@@ -26,7 +26,7 @@ value := math.Exp(number)
 
 Where `value` is the value of _e_ raised to the power of `number`, and where `number` is a variable of type float64.
 
-## Special Cases
+Special cases:
 
 - `Exp(+Inf)` returns `+Inf`
 - `Exp(NaN)` returns `NaN` as well (Not a Number)
