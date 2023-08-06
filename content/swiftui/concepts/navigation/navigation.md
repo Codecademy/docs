@@ -28,7 +28,8 @@ struct Tap: View {
     }
 }
 ```
-This is the first step to do to be able to navigate to diffrent views, this defines the root view of the stack. Then to define the destion or in other words the view you want to navigate to use `NavigationLink`. This defines view when pressed, it navigate to the destion view that was defined: 
+
+This is the first step to be able to navigate to different views. This defines the root view of the stack. Then to define the destination use `NavigationLink`. When pressed, it navigates to the destination view that was defined: 
 
 ```Swift
 struct Doc: View { 
