@@ -176,7 +176,7 @@ enum class AccountTypes(val minBalance: Int) : IAccountInterestRates {
 }
  
 fun main() {
-    // calling static method in Enum
+    // Calling a static method within the enum
     println("Savings bank interest rate is : ${AccountTypes.SAVINGS_ACCOUNT.getInterestRate()}")
 }
 ```
