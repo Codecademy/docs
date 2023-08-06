@@ -108,7 +108,7 @@ This code will output:
 
 ![This is a gif that shows how to use NavigationStack with Lists](https://raw.githubusercontent.com/Codecademy/docs/main/media/NavigationStack-with-List.gif)
 
-Those are just basic examples for `NavigationStack`, there is no limits on how to use it.
+Those are just basic examples for `NavigationStack`, there are no limits on how to use it.
 
 ## NavigationStack Modifiers
 
