@@ -93,7 +93,7 @@ UNLEADED
 
 One of the interesting features of Kotlin enums is the complete elimination of the need to use the else clause because of the restriction on the value that a type can take.
 
-## Example (for the when expression)
+The following example demonstrates the use of `when` with an enum class:
 
 ```kotlin
 enum class TRADED_METALS{
