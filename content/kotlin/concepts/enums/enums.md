@@ -19,7 +19,7 @@ Kotlin enums are called enum classes and they aren't simply collections of const
 
 Often compared to enums in Java, Kotlin enums do not require that one knows all possible values at compile time, and their declaration does not create a class behind the scenes.
 
-Beyond custom methods and properties limited to `java` enums, kotlin enums can use anonymous classes and implement interfaces.
+Beyond custom methods and properties found in Java enums, Kotlin enums can use anonymous classes and implement interfaces.
 
 ## Syntax
 
