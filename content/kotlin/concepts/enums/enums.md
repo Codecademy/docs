@@ -148,7 +148,7 @@ The example above returns:
 war
 ```
 
-Implementing interface -
+# Implementing an Interface
 
 The following example demonstrates how to implement an interface:
 
