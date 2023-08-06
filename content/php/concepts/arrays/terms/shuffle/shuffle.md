@@ -43,7 +43,7 @@ print_r($numArray);
 
 The example will result in the following output:
 
-> **Note:** The Numbers Might Be arranged differently.
+> **Note:** The numbers might be arranged differently.
 
 ```shell
 Array ( [0] => 2 [1] => 6 [2] => 3 [3] => 4 [4] => 1 [5] => 5 [6] => 7 )
