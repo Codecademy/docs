@@ -120,7 +120,7 @@ fun main(){
 }
 ```
 
-the output:
+This will return the following output:
 
 ```shell
 The symbol of Iron is Fe
