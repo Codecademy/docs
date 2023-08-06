@@ -44,7 +44,7 @@ import (
 )
 
 func main() {
-  result := math.Exp(3)
+  result := math.Exp(math.Inf(1))
   fmt.Printf("%.1f\n", result)
 }
 ```
@@ -52,7 +52,7 @@ func main() {
 The output will be:
 
 ```shell
-20.1
++Inf
 ```
 
 ## Codebyte Example
