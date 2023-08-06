@@ -132,13 +132,13 @@ The symbol of Iron is Fe
 
 ```kotlin
 enum class COLORS(val symbol: String) {
-    RED(symbol: "war"),
-    BLUE(symbol: "peace"),
-    WHITE(ymbol: "neutrality")
+    RED("war"),
+    BLUE("peace"),
+    WHITE("neutrality")
 }
 fun main()
 {
-    printIn(COLORS.RED.symbol)
+    println(COLORS.RED.symbol)
 }
 ```
 
