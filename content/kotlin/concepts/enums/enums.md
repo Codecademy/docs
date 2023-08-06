@@ -191,7 +191,7 @@ Savings bank interest rate is : 1.2
 
 Enum constants behave as anonymous classes by implementing their own functions along with overriding the abstract functions of the class. The most important thing is that each enum constant must be overridden by using its own functions along with overriding the abstract functions of the class.
 
-## Example (on anonymous classes)
+The example below demonstrates how enum constants can be declared through an anonymous class:
 
 ```kotlin
 enum class Seasons(var weather: String) {
