@@ -38,7 +38,7 @@ Properties:
 - `ordinal`: This property stores the ordinal value of the constant, which is usually a zero-based index.
 - `name`: This property stores the name of the constant.
 
-Methods –
+Methods:
 
 - `values`: This method returns a list of all the constants defined within the enum class.
 - `valueOf`: This method returns the enum constant that matches the input string passed. If the constant, is not present in the enum, then an `IllegalArgumentException` is thrown.
