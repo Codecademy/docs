@@ -15,7 +15,6 @@ CatalogContent:
 
 The **`Log2()`** function in the Go programming language calculates the base-2 logarithm of a given number. It returns the logarithm value as a floating-point number.
 
-
 ## Syntax
 
 ```pseudo
