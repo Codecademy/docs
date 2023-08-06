@@ -66,7 +66,7 @@ This prints the following output:
 2 = UNLEADED
 ```
 
-and the use of methods:
+The following code demonstrates the basic use of an enum method:
 
 ```kotlin
 enum class GASOLINE {
