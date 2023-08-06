@@ -48,7 +48,9 @@ var body: some View {
         }
 }
 ```
-Output:
+
+This code will output:
+
 ![This is a gif that shows Navigation in action](https://raw.githubusercontent.com/Codecademy/docs/main/media/NavigationStack.gif)
 
 you can customize the label of the `NavigationLink`:
