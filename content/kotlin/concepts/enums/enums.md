@@ -81,7 +81,7 @@ fun main()
 }
 ```
 
-the output:
+This results in the following output:
 
 ```shell
 UNLEADED
