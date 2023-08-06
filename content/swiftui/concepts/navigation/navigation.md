@@ -124,7 +124,9 @@ struct Doc: View {
     }
 }
 ```
-Output:
+
+This code will output:
+
 ![This picture shows the effect of using NavigationStack with navigationTitle](https://raw.githubusercontent.com/Codecademy/docs/main/media/NavigationStack-with-navigationTitle.png)
 
 Another important modifier is `.navigationBarBackButtonHidden()`. This modifier removes the back button that appears when navigating to another view. This modifier is applied to the desired view:
