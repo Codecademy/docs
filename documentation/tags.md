@@ -281,6 +281,7 @@ SQL Server
 Stacks
 Static Site
 Statistics
+Storage
 Stringr
 Strings
 Structure
