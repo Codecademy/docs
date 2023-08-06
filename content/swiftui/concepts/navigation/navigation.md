@@ -1,6 +1,6 @@
 ---
 Title: 'Navigation'
-Description: 'It is the ability to navigate to diffrent views from the root view in the app.'
+Description: 'Navigation is the ability to navigate to different views from the root view in the app.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
