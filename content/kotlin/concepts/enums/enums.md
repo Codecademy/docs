@@ -150,7 +150,7 @@ war
 
 Implementing interface -
 
-## Example (on implementing interface)
+The following example demonstrates how to implement an interface:
 
 ```kotlin
 interface IAccountInterestRates {
