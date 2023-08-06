@@ -24,7 +24,7 @@ Calendar calendar = Calendar.getInstance();
 
 ## Example
 
-In the example below, we have created a `Calendar` object using the `getInstance()` method. Then we used the `set()` method to set the year, month, date, hour, minute, and second. Finally, we used the `getTime()` method to get the date. Note that the month is zero-based, so January is 0, February is 1, and so on. Also, we could have used the `set()` overload that takes all the parameters at once.
+In the example below, a `Calendar` object is created using the `getInstance()` method. Then the `set()` method is used to set the year, month, date, hour, minute, and second. Finally, the `getTime()` method is used to get the date. Note that the month is zero-based, so January is 0, February is 1, and so on. Also, the `set()` overload could have been used that takes all the parameters at once.
 
 ```java
 import java.util.Date;
