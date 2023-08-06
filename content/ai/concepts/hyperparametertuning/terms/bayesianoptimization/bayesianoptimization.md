@@ -29,5 +29,5 @@ In the above equation, $x$ represents a set of hyperparameters; $f(x)$ is the sc
 
 ## Bayesian Optimization
 
-In Bayesian optimzation, a probabilistic model is used to map hyperparameter configurations to a likelihood of an objective function score through a surrogate function which is represented as $P(f(x)|x).
+In Bayesian optimzation, a probabilistic model is used to map hyperparameter configurations to a likelihood of an objective function score through a surrogate function which is represented as $P(f(x)|x)$.
 
