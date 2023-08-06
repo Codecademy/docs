@@ -181,7 +181,7 @@ fun main() {
 }
 ```
 
-output is:
+The output is:
 
 ```shell
 Savings bank interest rate is : 1.2
