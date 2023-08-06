@@ -126,7 +126,7 @@ This will return the following output:
 The symbol of Iron is Fe
 ```
 
-Use of constructors to add more properties -
+## The Use of Constructors to Add Properties
 
 ## Example (on use of constructors)
 
