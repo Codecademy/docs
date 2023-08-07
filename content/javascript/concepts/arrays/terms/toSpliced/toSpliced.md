@@ -29,7 +29,7 @@ myArray.toSpliced(startIndex, count, elementN)
 
 - `startIndex`: The location of the first element to be altered. Defaults to 0.
 - `count`: The number of elements that should be modified, beginning from `startIndex`. Defaults to 0.
-- `elementN` (optiona): The updated value(s) for the array element(s). To insert multiple values, separate each value with a comma. 
+- `elementN` (optional): The updated value(s) for the array element(s). To insert multiple values, separate each value with a comma. 
 
 ## Examples
 
