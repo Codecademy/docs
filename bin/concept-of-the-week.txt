@@ -1,1 +1,1 @@
-content/java/concepts/classes/classes.md
+content/go/concepts/memory/memory.md
