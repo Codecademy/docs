@@ -40,6 +40,7 @@ struct someShape: Shape {
     }
 }
 ```
+
 - The function should return a `Path` object that describes the shape contained inside a rectangular frame of reference.
 
 ## Example: Custom Triangle Shape
