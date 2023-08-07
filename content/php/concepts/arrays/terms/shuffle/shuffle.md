@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`shuffle()`** function Randomizes the indexes of the elements in a given array.
+The **`shuffle()`** function randomizes the indexes of the elements in a given array.
 
 ## Syntax
 
@@ -38,12 +38,9 @@ $numArray = array(1,2,3,4,5,6,7);
 shuffle($numArray);
 print_r($numArray);
 ?>
-
 ```
 
-The example will result in the following output:
-
-> **Note:** The numbers might be arranged differently.
+The example will result in an output similar to the following:
 
 ```shell
 Array ( [0] => 2 [1] => 6 [2] => 3 [3] => 4 [4] => 1 [5] => 5 [6] => 7 )
@@ -51,14 +48,14 @@ Array ( [0] => 2 [1] => 6 [2] => 3 [3] => 4 [4] => 1 [5] => 5 [6] => 7 )
 
 ## Codebyte Example
 
-This example demonstrates a simple lottery randomizer which uses the `shuffle()` function:
+This example is runnable and demonstrates a simple lottery randomizer which uses the `shuffle()` function:
 
 ```codebyte/php
 <?php
 $lotteryUsers = array('Hendrik','Rhoxane','Yevstakhiy','Ramdas','Mohamed','Gorbachov');
 
 shuffle($lotteryUsers);
-print('The Lottery\'s 1000000$ Jackpot was Won By ... '. $lotteryUsers[3].' !');
+print('The Lottery\'s $1,000,000 jackpot was won by ... '. $lotteryUsers[3].' !');
 
 ?>
 ```
