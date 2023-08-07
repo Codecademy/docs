@@ -28,7 +28,6 @@ var body: some View {
     }
 }
 ```
-<br>
 
 ## Creating Custom Shapes
 
