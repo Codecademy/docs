@@ -49,7 +49,7 @@ In this example `delete_me.txt` is deleted using the complete file path and the 
 import os
 
 # Create file
-f = open("/tmp/delete_me.txt", "w")
+f = open("/home/ccuser/delete_me.txt", "w")
 f.write("Bye bye!")
 f.close()
 
