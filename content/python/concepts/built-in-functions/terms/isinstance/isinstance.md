@@ -49,17 +49,15 @@ Hello World! is a string type.
 
 ## Codebyte Example
 
-This example is runnable and uses the built-In `isinstance()` function:
+This example is runnable and uses the built-in function `isinstance()`:
 
 ```codebyte/python
 bools = ["fAlsE", False , "True" , "False"]
 counter = 0
 for boolean in bools:
     if isinstance(boolean, bool):
-        print("True Boolean Found, It is in Index " + str(counter) + " or For Non-Programmers Spot Number " + str(counter+1))
-        break
+        print("Valid boolean found at index " + str(counter))
     else:
-        print("Fake Boolean Identified")
-        print()
-        counter += 1
+        print("Invalid boolean found at index " + str(counter))
+    counter += 1
 ```
