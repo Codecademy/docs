@@ -65,6 +65,7 @@ struct Triangle: Shape {
 - By conforming to the `Shape` protocol, a custom shape inherits all the capabilities of a built-in shape.
 
 ### Displaying the Custom Shape
+
 To display the custom shape, it can be called in a view just like any built-in shape.
 
 ```swift
