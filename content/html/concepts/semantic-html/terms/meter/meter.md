@@ -22,13 +22,13 @@ The `<meter>` is written as `<meter></meter>` with any contents inserted between
 
 ```html
 <meter>
-    <!-- Meter content goes here. -->
+  <!-- Meter content goes here. -->
 </meter>
 ```
 
 ```html
 <meter min="number" max="number">
-    <!-- Meter content goes here. -->
+  <!-- Meter content goes here. -->
 </meter>
 ```
 
@@ -39,8 +39,9 @@ The `<meter>` is written as `<meter></meter>` with any contents inserted between
 Below is an example of the `<meter>` tag being used to display disk usage:
 
 ```html
-<p>Disk Usage <meter min="100" max="1000" value="700" title="GB"></meter></p>
+<p>Disk Usage <meter min="0" max="100" value="70" title="GB"></meter></p>
 ```
-### Output of The Meter Tag Example
 
-![Output of the meter tag example](https://raw.githubusercontent.com/Codecademy/docs/main/media//meter.png)
+This code results in the following display:
+
+![Output of the meter tag example](https://raw.githubusercontent.com/Codecademy/docs/main/media/meter.png)
