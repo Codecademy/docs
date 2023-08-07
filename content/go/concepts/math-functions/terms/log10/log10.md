@@ -55,7 +55,7 @@ Log10(10.000000) = 1.000000
 
 ## Codebyte Example
 
-The runnable example demonstrates the output of `Log10()`.
+The example below is runnable and demonstrates the results of `Log10()` with several values.
 
 ```codebyte/golang
 package main
