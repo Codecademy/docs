@@ -20,7 +20,7 @@ The **`math.cos()`** function returns the cosine of an angle.
 math.cos(n)
 ```
 
-The **`math.cos()`** function returns a numeric value between -1 and 1, which represents the cosine of the value `n`.
+The `math.cos()` function returns a numeric value between -1 and 1, which represents the cosine of the value `n`.
 
 ## Example
 
