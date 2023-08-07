@@ -29,7 +29,7 @@ myArray.toSpliced(startIndex, count, elementN)
 
 - `startIndex`: The location of the first element to be altered. Defaults to 0.
 - `count`: The number of elements that should be modified, beginning from `startIndex`. Defaults to 0.
-- `elementN` (optiona): The updated value(s) for the array element(s). To insert multiple values, separate each value with a comma. 
+- `elementN` (optiona): The updated value(s) for the array element(s). To insert multiple values, separate each value with a comma.
 
 ## Examples
 
@@ -54,8 +54,14 @@ console.log(colors);
 ```js
 const colors = ['red', 'yellow', 'blue', 'orange', 'green', 'purple'];
 
-// Replacing red, green, and yellow. Start at index 0, and replace three items. 
-const tertiaryColors = colors.toSpliced(0, 3, 'blue-green', 'red-violet', 'yellow-orange');
+// Replacing red, green, and yellow. Start at index 0, and replace three items.
+const tertiaryColors = colors.toSpliced(
+  0,
+  3,
+  'blue-green',
+  'red-violet',
+  'yellow-orange'
+);
 
 console.log(tertiaryColors);
 // Output: 'blue-green', 'red-violet', 'yellow-orange', 'orange', 'green', 'purple'
@@ -69,11 +75,17 @@ console.log(colors);
 ```js
 const colors = ['red', 'yellow', 'blue', 'orange', 'green', 'purple'];
 
-// Inserting new colors. Insert into index 3 and delete 0 elements. 
-const allTheColors = colors.toSpliced(3, 0, 'blue-green', 'red-violet', 'yellow-orange');
+// Inserting new colors. Insert into index 3 and delete 0 elements.
+const allTheColors = colors.toSpliced(
+  3,
+  0,
+  'blue-green',
+  'red-violet',
+  'yellow-orange'
+);
 
 console.log(allTheColors);
-// Output: 'red', 'yellow', 'blue', 'blue-green', 'red-violet', 'yellow-orange', 'orange', 'green', 'purple' 
+// Output: 'red', 'yellow', 'blue', 'blue-green', 'red-violet', 'yellow-orange', 'orange', 'green', 'purple'
 
 console.log(colors);
 // Output: 'red', 'yellow', 'blue', 'orange', 'green', 'purple'
