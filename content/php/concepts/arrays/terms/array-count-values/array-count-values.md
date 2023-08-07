@@ -25,7 +25,7 @@ $result = array_count_values($array)
 
 ## Example
 
-The following example demonstrates the usage of `array_count_values` function to count the occurrences of values from the input array `$inputArray`. When applied, it returns an associative array `$resultArray` containing the unique values as keys and their corresponding occurrence counts as values.
+The following example demonstrates the usage of `array_count_values()` function to count the occurrences of values from the input array `$inputArray`. When applied, it returns an associative array `$resultArray` containing the unique values as keys and their corresponding counts as values.
 
 ```php
 <?php
@@ -51,7 +51,7 @@ Array
 
 ## Codebyte Example
 
-The following codebyte example declares an input string `$inputString`. It then converts the string into an array of characters using `str_split`, resulting in `$characters`. Lastly, the `array_count_values` function is applied to `$characters`, which returns an associative array `$resultArray`.
+The following runnable example declares an input string `$inputString`, and converts the string into an array of characters using `str_split()`. Lastly, the `array_count_values()` function is applied to `$characters`, which returns an associative array `$resultArray`.
 
 ```codebyte/php
 <?php
