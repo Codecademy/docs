@@ -80,4 +80,7 @@ var body: some View {
     }
 }
 ```
+
+This code results in the following output:
+
 ![SwiftUI Shapes](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-shapes-triangle.jpeg The code displays a yellow triangle on a blue background)
