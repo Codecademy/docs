@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Returns the cosine of an angle.
+The **`math.cos()`** function returns the cosine of an angle.
 
 ## Syntax
 
