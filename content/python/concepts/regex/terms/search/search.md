@@ -58,13 +58,22 @@ The output will look like this:
 
 ## Codebyte Example
 
-The following example features a regex that uses the `.search()` method to match a web address:
+The following code example demonstrates the usage of `re.search()` with a regular expression to find and match the first email address within a given text.
 
 ```codebyte/python
 import re
 
-result = re.search(r"www\S+", "the tutorials at www.codecademy.com")
-# \S matches any character except a space, tab or newline
+text = """
+Please contact support@example.com for assistance.
+You can also reach out to john.doe123@email-provider.com.
+For general inquiries, contact us at contact@website.com.
+"""
+
+pattern = r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b"
+# \b adds a word boundary at the end of the pattern, ensuring that the
+# email address is not preceded nor followed by a word character.
+
+result = re.search(pattern, text)
 
 print(result)
 ```
