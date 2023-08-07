@@ -20,7 +20,7 @@ The **`math.log()`** function returns the natural logarithm of a number or the l
 math.log(n, base)
 ```
 
-The **`math.log()`** function takes the following parameters:
+The `math.log()` function takes the following parameters:
 
 - `n` is a required number or numeric expression to calculate the logarithm.
 - `base` is an optional number to specify the logarithm base. The default value for the base is `e`.
