@@ -1,6 +1,6 @@
 ---
 Title: "Shape"
-Description: "Methods for implementing built-in and custom shapes in a SwiftUI view."
+Description: "The Shape protocol is used for implementing built-in and custom shapes in a SwiftUI view."
 Subjects:
   - "Mobile Development"
   - "iOS"
