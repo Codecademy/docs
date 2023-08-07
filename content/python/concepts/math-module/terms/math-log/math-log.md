@@ -29,7 +29,7 @@ The `math.log()` function returns a `float` value, the natural logarithm of `n` 
 
 ## Example
 
-Use `math.log()` to return the natural log of `12` (base `e`):
+Use `math.log()` to return the natural log of `12` (base _e_):
 
 ```py
 import math
