@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Returns the natural logarithm of a number or the logarithm of a number to the given base.
+The **`math.log()`** function returns the natural logarithm of a number or the logarithm of a number to the given base.
 
 ## Syntax
 
