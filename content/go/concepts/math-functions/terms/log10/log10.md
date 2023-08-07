@@ -25,7 +25,7 @@ func Log10(x float64) float64
 
 Note these special cases:
 
-- If the input number `x` is negative or zero, the function will return `NaN` (not-a-number).
+- If the input number `x` is negative or `Nan`, the function will return `NaN` (not-a-number).
 - For positive finite values of `x`, the result will be a finite floating-point number.
 
 ## Example
