@@ -30,7 +30,7 @@ Note these special cases:
 
 ## Example
 
-Example demonstrates the output of `Log10()`.
+The example below demonstrates the basic use of `Log10()`.
 
 ```go
 package main
