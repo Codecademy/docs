@@ -25,8 +25,11 @@ def getURLS(files):
 def getFiles():
   return sys.argv[1].split(" ")
 
-def main():
-  files = getFiles()
+def getMarkdowns(files):
+  return [file for file in files if ".md" in file]
+
+if __name__ == "__main__":
+  files = getMarkdowns(sys.argv[1].split(" "))
   urls = getURLS(files)
   sys.stdout.write(urls)
   sys.stdout.flush()
