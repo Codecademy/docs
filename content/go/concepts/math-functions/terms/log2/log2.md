@@ -26,7 +26,8 @@ func Log2(x float64) float64
  Note these special cases:
 
 - If the input number `x` is negative or `NaN`, the function will return `NaN` (not-a-number).
-- For positive finite values of `x`, the result will be a finite floating-point number.
+- If the input number `x` is zero, the function will return `-Inf`.
+- If the input number `x` is `+Inf`, the function will return `+Inf`.
 
 ## Example
 
