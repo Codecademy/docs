@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-Converts a given string into a complex number.
+The **`complex()`** function converts a given string, or pair of numbers, into a complex number.
 
 ## Syntax
 
