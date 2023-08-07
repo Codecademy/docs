@@ -1,20 +1,20 @@
 ---
-Title: 'atanh()' 
-Description: 'returns the calculated inverse hyperbolic tangent of a float or a numeric value' 
+Title: 'atanh()'
+Description: 'Returns the inverse hyperbolic tangent of a given value'
 Subjects:
   - 'Web Development'
   - 'Code Foundations'
-Tags: 
+Tags:
   - 'Trigonometry'
   - 'Functions'
   - 'Methods'
   - 'Numbers'
-CatalogContent: 
+CatalogContent:
   - 'learn-php'
   - 'paths/computer-science'
 ---
 
-The **`atanh()`** calculates the inverse hyperbolic tangent of a given number between -1 and 1 (excluded) and returns a float.
+The **`atanh()`** calculates the inverse hyperbolic tangent of a given number and returns a float.
 
 ## Syntax
 
@@ -22,10 +22,10 @@ The **`atanh()`** calculates the inverse hyperbolic tangent of a given number be
 atanh($inputValue)
 ```
 
-- The function `atanh()` only takes one parameter, `$inputValue` and returns a floating point number.
-- `$inputValue` needs to be a float or a numerical value between -1 and 1 (excluded).
+- The function `atanh()` only takes one parameter, `$inputValue` and returns a floating point number. The passed value must be a numerical value between -1 and 1 (not inclusive).
 
 ## Example
+
 The example below demonstrates a basic implementation of `atanh()`.
 
 ```php
@@ -40,15 +40,14 @@ The result will be:
 0.54930614433405
 ```
 
+## Codebyte Example
 
-## Codebyte Example (if applicable)
-The example below demonstrates how to use the function with a variable `$inputValue`, store and display the result.
+The example below is runnable and demonstrates how to use the function `atanh()` with a variable, to store and display the result.
 
 ```codebyte/php
 <?php
     $inputValue = 0.7;
     $result = atanh($inputValue);
-    echo $result; // Output: 0.86730052769404
+    echo $result;
 ?>
-
 ```
