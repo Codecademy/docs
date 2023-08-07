@@ -22,6 +22,10 @@ result1 = complex(real, imaginary)
 result2 = complex(string)
 ```
 
+- `real` is the real part of a complex number.
+- `imaginary` is the imaginary part of a complex number.
+- `string` is the string representation of a complex number.
+
 ## Example
 
 Use `complex()` to convert the string `"1+7j"` into a complex number:
