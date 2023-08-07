@@ -65,7 +65,7 @@ import (
 )
 
 func main() {
-	numbers := []float64{2.0, 10.0, 0.5, 100.0}
+	numbers := []float64{2.0, 0.0, 0.5, 100.0}
 	
 	fmt.Println("Log2 Calculations:")
 	for _, x := range numbers {
