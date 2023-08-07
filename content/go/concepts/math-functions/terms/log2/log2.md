@@ -53,7 +53,7 @@ Log2(8.000000) = 3.000000
 
 ## Codebyte Example
 
-The runnable example demonstrates the output of `Log2()`.
+The runnable example below demonstrates `Log2()` on a range of values.
 
 ```codebyte/golang
 package main
