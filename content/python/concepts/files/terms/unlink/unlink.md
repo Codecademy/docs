@@ -32,7 +32,7 @@ Entire folders or directories can be removed using the [`.rmdir()`](https://www.
 
 ## Example
 
-Use `.unlink()` to delete the **my_file.txt** file:
+Use `.unlink()` to delete the `my_file.txt` file:
 
 ```py
 import os
