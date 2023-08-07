@@ -18,7 +18,8 @@ The **`complex()`** function converts a given string, or pair of numbers, into a
 ## Syntax
 
 ```pseudo
-complex(real, imaginary)
+result1 = complex(real, imaginary)
+result2 = complex(string)
 ```
 
 ## Example
