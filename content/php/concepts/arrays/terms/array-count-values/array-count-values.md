@@ -17,8 +17,11 @@ The **`array_count_values()`** is a function that counts the occurrences of valu
 ## Syntax
 
 ```pseudo
-array_count_values($array)
+$result = array_count_values($array)
 ```
+
+- `$array` is the array whose values are being counted.
+- `$result` is the resultant array with counts.
 
 ## Example
 
