@@ -16,6 +16,19 @@ jobs:
       github.event.pull_request.user.login != 'lucwhite'
     runs-on: ubuntu-latest
     steps:
+      - name: Get Changed Files
+        id: changed_files
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+      - name: Generate URLs
+        id: generate_urls
+        run: |
+          echo "urls<<EOF" >> $GITHUB_ENV
+          CHANGED_FILES="$(git diff --name-only -r HEAD^1 HEAD | xargs)"
+          URLS=$(python ./.github/scripts/urls.py "$CHANGED_FILES")
+          echo "$URLS" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
       - uses: wow-actions/auto-comment@v1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -27,3 +40,10 @@ jobs:
           issuesClosed: |
             🌸 Thanks for closing this Issue!
             Please head over to the [Docs Forum](https://discuss.codecademy.com/c/community/community-docs/2205) if you have any questions about Docs, or reply to the thread on [Possible Content Discussion](https://discuss.codecademy.com/t/find-a-starting-point-possible-content-discussion/745868) to share ideas and collaborate with other contributors, maintainers, or super users to determine good future issues that will help expand Docs!
+            
+            🎉 Your contribution(s) can be seen here:
+            
+            ${{ env.urls }}
+            
+            Please note it may take a little while for changes to become visible.
+            If you're appearing as anonymous and want to be credited, see [My contribution is live but I’m not being shown as a contributor, why is this?](https://discuss.codecademy.com/t/my-contribution-is-live-but-im-not-being-shown-as-a-contributor-why-is-this/758036)
