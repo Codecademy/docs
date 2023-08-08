@@ -8,8 +8,9 @@ Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/
   - 'Data Types'
 CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
   - 'learn-lua'
+  - 'paths/computer-science'
 ---
-In Lua, there are many **Data Types**. Commonly used data types are:
+In Lua, there are many **Data Types**. Some commonly used data types are:
 * Number
 * Boolean
 * String
@@ -19,7 +20,7 @@ In Lua, there are many **Data Types**. Commonly used data types are:
 Lua has a built-in `type()` function to retrieve the data type.
 ```lua
 location = 'Maple Road'
-print(type(location)) -- This outputs string
+print(type(location)) -- This outputs "string"
 
 print(type(12/3)) -- This outputs number
 ```
@@ -37,7 +38,7 @@ print('53' + 7)
 
 -- This outputs 60 because it converted “53” to a number for the arithmetic.
 ```
-To manually convert types, we use:
+Types can be manually converted by using:
 
 * `tostring()` function to convert any data type to a string type 
 ```lua
