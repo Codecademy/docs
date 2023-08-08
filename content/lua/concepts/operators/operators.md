@@ -11,10 +11,9 @@ Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/
   - 'Logical'
   - 'Arithmetic'
 CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
-  - 'lua/operators'
+  - 'learn-lua'
+  - 'paths/computer-science'
 ---
-
-# Operators
 
 **Operators** are special characters that can carry out mathematical tasks and resolve logical expressions.
 
@@ -68,7 +67,7 @@ Within the following examples, we will use the variable `n` where **n = 2**.
 
 ## Logical Operators
 
-**Logical Operators** return **boolean** or **nil** evaluations for **conditional statements**. <!-- [**conditional statements**](docs/conditionals) || This HREF should exist when the docs page is made -->
+**Logical Operators** return **boolean** or **nil** evaluations for [**conditional statements**](https://www.codecademy.com/resources/docs/lua/conditionals).
 
 |   **Logical Operator**  |                           **Description**                           |
 | :---------------------: | :-----------------------------------------------------------------: |
