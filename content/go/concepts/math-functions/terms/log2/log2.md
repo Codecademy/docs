@@ -18,16 +18,16 @@ The **`Log2()`** function in the Go programming language calculates the base-2 l
 ## Syntax
 
 ```pseudo
-func Log2(x float64) float64
+result = Log2(x)
 ```
 
 `Log2()` accepts an argument of type `float64` and returns a value of type `float64`.
 
- Note these special cases:
+Note these special cases:
 
-- If the input number `x` is negative or `NaN`, the function will return `NaN` (not-a-number).
-- If the input number `x` is zero, the function will return `-Inf`.
-- If the input number `x` is `+Inf`, the function will return `+Inf`.
+- If `x` is negative or `NaN`, the function will return `NaN` (not-a-number).
+- If `x` is zero, the function will return `-Inf`.
+- If `x` is `+Inf`, the function will return `+Inf`.
 
 ## Example
 
@@ -35,14 +35,14 @@ func Log2(x float64) float64
 package main
 
 import (
-	"fmt"
-	"math"
+  "fmt"
+  "math"
 )
 
 func main() {
-	x := 8.0
-	result := math.Log2(x)
-	fmt.Printf("Log2(%f) = %f\n", x, result)
+  x := 8.0
+  result := math.Log2(x)
+  fmt.Printf("Log2(%f) = %f\n", x, result)
 }
 ```
 
@@ -54,23 +54,24 @@ Log2(8.000000) = 3.000000
 
 ## Codebyte Example
 
-The runnable example below demonstrates `Log2()` on a range of values.
+The example below is runnable and demonstrates `Log2()` on a range of values.
 
 ```codebyte/golang
 package main
 
 import (
-	"fmt"
-	"math"
+  "fmt"
+  "math"
 )
 
 func main() {
-	numbers := []float64{2.0, 0.0, 0.5, 100.0}
-	
-	fmt.Println("Log2 Calculations:")
-	for _, x := range numbers {
-		result := math.Log2(x)
-		fmt.Printf("Log2(%.2f) = %.2f\n", x, result)
-	}
+  numbers := []float64{2.0, 0.0, 0.5, 100.0}
+
+  fmt.Println("Log2 Calculations:")
+
+  for _, x := range numbers {
+    result := math.Log2(x)
+    fmt.Printf("Log2(%.2f) = %.2f\n", x, result)
+  }
 }
 ```
