@@ -9,6 +9,7 @@ Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/
   - 'Operators'
 CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
   - 'learn-lua'
+  - 'paths/computer-science'
 ---
 
 **Conditionals** are used to evaluate statements as `true` or `false`. They can be used to direct the flow of a program by specifying code blocks to run depending on the outcome of the expression. 
