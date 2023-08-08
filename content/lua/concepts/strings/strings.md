@@ -7,7 +7,10 @@ Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/
   - 'Strings'
 CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
   - 'learn-lua'
+  - 'paths/computer-science'
 ---
+
+__Strings__ are a sequence of characters of any length that can include letters, numbers, symbols, and spaces.
 
 ## Syntax
 
@@ -30,6 +33,12 @@ print(“We will arrive at “ .. location .. “ at “.. time)
 ## Escape Characters
 
 Escape characters are used for clarity and conciseness. Sometimes, Lua may interpret a character in a string, which can cause errors. To avoid this, escape characters can be used to clarify that a character should only be part of the string.
+
+```lua
+brokenString = "They said, "Hello!"" -- This will cause "Hello!" to be outside of the string
+
+revisedString = "They said, \"Hello!\"" -- This will keep "Hello!" inside of the string using escape characters
+```
 
 The following is a list of some useful escape characters supported by Lua strings:
 
