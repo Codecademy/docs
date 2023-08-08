@@ -1,6 +1,5 @@
 import sys
 
-# Retrieve Doc Entry URL
 def generateDocsURL(file_path):
   path_parts = file_path.split("/")
   url = ""
@@ -14,7 +13,6 @@ def generateDocsURL(file_path):
   path_parts = "/".join(path_parts)
   return url + path_parts
 
-# Return Docs URLs
 def getURLS(files):
   docs_urls = ""
   for file in files:
@@ -28,8 +26,9 @@ def getFiles():
 def getMarkdowns(files):
   return [file for file in files if ".md" in file]
 
-if __name__ == "__main__":
-  files = getMarkdowns(sys.argv[1].split(" "))
+def main():
+  files = getFiles()
+  files = getMarkdowns(files)
   urls = getURLS(files)
   sys.stdout.write(urls)
   sys.stdout.flush()
