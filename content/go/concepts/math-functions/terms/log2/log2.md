@@ -13,12 +13,12 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Log2()`** function in the Go programming language calculates the base-2 logarithm of a given number. It returns the logarithm value as a floating-point number.
+The **`Log2()`** function in the Go programming language calculates the base-2 logarithm of a given number. It returns the logarithm value as a floating-point number. The `math` package must be imported to use this function.
 
 ## Syntax
 
 ```pseudo
-result = Log2(x)
+result := Log2(x)
 ```
 
 `Log2()` accepts an argument of type `float64` and returns a value of type `float64`.
