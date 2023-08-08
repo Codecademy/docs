@@ -22,7 +22,7 @@ A PHP interpreter makes a website dynamic and customizable, allowing a site to r
 - Shopping for audio equipment with a playlist of test tracks, the ability to tell the stand's app what model a customer wants, and the production of graphs comparing models for a customer.
 - Booking movie theater tickets with a mobile app that has seat plans, notifications, and in-depth movie information.
 
-[Symfony](https://symfony.com/at-a-glance) is a French PHP framework provider that works on PHP-based projects for organizations of all kinds. This includes [the 2016 campaign site](https://symfony.com/blog/an-open-source-web-platform-for-the-new-president-of-france) of French President Emmanuel Macron.
+[Symfony](https://symfony.com/at-a-glance) is a French PHP framework provider that works on PHP-based projects for organizations of all kinds. It includes [the 2016 campaign site](https://symfony.com/blog/an-open-source-web-platform-for-the-new-president-of-france) of French President Emmanuel Macron.
 
 [Laravel](https://laravel.com/) is another PHP framework used for developing web applications. It is known for its elegant syntax, modular structure, and built-in features that make it easier to develop high-quality web applications. Many leading companies use Laravel to develop their web applications including [GitLab](https://about.gitlab.com/) and [Pfizer](https://www.pfizer.com/).
 
