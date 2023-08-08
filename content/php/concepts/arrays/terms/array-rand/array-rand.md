@@ -1,6 +1,6 @@
 ---
-Title: array_rand()
-Description: Used to select one or more random keys from an array.
+Title: 'array_rand()'
+Description: 'Used to select one or more random keys from an array.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
@@ -13,9 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **array_rand()** function returns either:
-- a random key from an array, or
-- an array of random keys from an array.
+The **`array_rand()`** function returns either a random key from an array, or an array of random keys from an array.
 
 ## Syntax
 
@@ -38,7 +36,7 @@ Consider the following array of fruits.
 ?>
 ```
 
-To get a single key from the array, 
+To get a single key from the array:
 
 ```php
 <?php
@@ -53,7 +51,7 @@ The above code might result in the following output:
 2
 ```
 
-To get three random keys from the array,
+To get three random keys from the array:
 
 ```php
 <?php
