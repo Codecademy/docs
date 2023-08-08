@@ -21,7 +21,7 @@ The **`printf()`**, or "print formatted", function can print a string to the con
 printf(string, value1, value2 ... valueN)
 ```
 
-The `printf()` function takes a string with variable placeholders, also known as format specifiers, followed by any number of values to format in the string.
+The `printf()` function takes a string with variable placeholders, also known as format specifiers.
 
 ## Example
 
