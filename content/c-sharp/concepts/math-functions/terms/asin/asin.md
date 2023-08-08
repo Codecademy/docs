@@ -22,7 +22,7 @@ Math.Asin(value);
 
 `value` is the input value of type double, which must be in the range -1 <= `value` <= 1.
 
-Returns an angle measured in radians, of type `double`, whose sine is `value`. If an invalid value is passed to the function, or no value is passed at all, `NaN` is returned.
+This returns an angle measured in radians, of type `double`, whose sine is `value`. If an invalid value is passed to the function, or no value is passed at all, `NaN` is returned.
 
 ## Codebyte Example
 
