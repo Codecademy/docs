@@ -1,1 +1,1 @@
-content/html/concepts/favicon/favicon.md
+content/go/concepts/memory/memory.md
