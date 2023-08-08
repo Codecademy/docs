@@ -10,12 +10,12 @@ Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/
   - 'Libraries'
   - 'Methods'
 CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
-  - 'lua/tables'
+  - 'learn-lua'
 ---
 
 # **Tables**
 
-This library is internal, and will automatically work when referencing the **global** keyword **table**. In Lua, **Tables** refer to **Arrays**. <!-- Arrays HREF -->
+This library is internal, and will automatically work when referencing the **global** keyword **table**. In Lua, **Tables** are known as associative [Arrays](https://www.codecademy.com/resources/docs/lua/arrays) which can be referenced with keys instead of just numbers. Any data type other than nil can be used as a key.
 
 ## **Functions**
 
@@ -25,7 +25,7 @@ Below are the list of Table methods available.
 Clears all Indexes and Values from a table.
 
 ### table.clone(table : **table**) : table
-Returns a shallow copy of the provided table
+Returns a shallow copy of the provided table. A shallow copy refers to an independent clone seperate from its original table.
 
 ### table.concat(table : **Array**, separator : string, i : number?, j : number?) : string
 Returns the provided table as a string with the provided separator between each value. You may provide a starting index `i` and an ending index `j` but these parameters are _optional_.
@@ -40,7 +40,7 @@ Returns the requested needle’s index if found or returns `nil` if the needle d
 Iterates through the provided table using the provided callback function. The provided function will receive two parameters, of which are **Index** and **Value** from the current table iteration.
 
 ### table.freeze(table : **table**) : void
-Freezes the provided table, and makes it **`read-only`**
+Freezes the provided table, and makes it **`read-only`**.
 
 ### table.isfrozen(table : **table**) : boolean
 Returns a **boolean** based on whether the table is in **`read-only`** mode or not.
@@ -64,4 +64,4 @@ Copies the specified indexes of values from the source table into the provided s
 Removes the value of the specified index and clears the index from the Array.
 
 ### table.sort(table : **Array**, compare : **function**) : void
-Compares each Index/Value pair within the provided **Array** using the specified comparison function. You must return **true** or **false** within your comparison function ideally by comparing values with a `>` or `<`**operator.
+Compares each Index/Value pair within the provided **Array** using the specified comparison function. You must return **true** or **false** within your comparison function ideally by comparing values with a `>` or `<` **operator.
