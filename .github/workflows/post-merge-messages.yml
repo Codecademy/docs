@@ -4,6 +4,8 @@ on:
     types: [closed]
   issues:
     types: [closed]
+permissions:
+  pull-requests: 'write'
 jobs:
   run:
     if: >-
