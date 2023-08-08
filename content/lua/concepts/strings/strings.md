@@ -29,7 +29,7 @@ print(“We will arrive at “ .. location .. “ at “.. time)
 
 ## Escape Characters
 
-Escape characters are used for clarity and conciseness. Sometimes Lua may interpret a character in a string, which can cause errors. To avoid this, escape characters can be used to clarify that a character should only be part of the string.
+Escape characters are used for clarity and conciseness. Sometimes, Lua may interpret a character in a string, which can cause errors. To avoid this, escape characters can be used to clarify that a character should only be part of the string.
 
 The following is a list of some useful escape characters supported by Lua strings:
 
