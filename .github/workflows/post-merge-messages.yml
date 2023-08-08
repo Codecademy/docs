@@ -5,7 +5,7 @@ on:
   issues:
     types: [closed]
 permissions:
-  pull-requests: 'write'
+  pull-requests: write
 jobs:
   run:
     if: >-
