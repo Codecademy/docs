@@ -14,7 +14,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 In Lua, a string is a sequence of characters surrounded by a pair of single quotes `''` or double quotes `""`.
 
 ```lua
-location = “Central Park” -- “Central Park” is a String
+location = “Central Park” -- “Central Park” is a string
 ```
 
 ## Concatenation
