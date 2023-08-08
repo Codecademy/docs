@@ -1,6 +1,6 @@
 ---
 Title: 'Identifiable'
-Description: 'Identifiable is a protocol in Swift that requires conforming types to have a unique identifier property'
+Description: 'A protocol in Swift that requires conforming types to have a unique identifier property.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
@@ -16,6 +16,8 @@ CatalogContent:
 
 ## Syntax
 
+An Identifiable protocol is created like regular protocol, followed by the `Identifiable` keyword:
+
 ```pseudo
 protocol protocolName: Identifiable {
   // Protocol body
@@ -24,9 +26,9 @@ protocol protocolName: Identifiable {
 
 ## Example
 
-```swift
-// Here, the Employee struct conforms to the Identifiable protocol by providing a unique id property using the UUID struct. This id can be used to distinguish instances of Employee in a collection or array, allowing for easy updates and deletions of specific employees.
+Here, the Employee struct conforms to the Identifiable protocol by providing a unique `id` property using the `UUID` struct. This id can be used to distinguish instances of Employee in a collection or array, allowing for easy updates and deletions of specific employees.
 
+```swift
 struct Employee: Identifiable {
   let id = UUID()
   let firstName: String
