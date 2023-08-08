@@ -11,26 +11,27 @@ Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/
   - 'Arrays'
   - 'Logical'
 CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
-  - 'lua/iterators'
+  - 'learn-lua'
+  - 'paths/computer-science'
 ---
-
-# **Iterators**
 
 **Iterators** are used to loop through a collection of data. They are also used to repeat processes a preset or infinite amount of times.
 
-## **Iteration Types**
+## Iteration Types
 
-In Lua, there are multiple ways in which we can **iterate** through and/or repeat code with. Some iteration methods are intended for iterating through **Arrays**, while others can be used to
-**repeat** a command until/while a condition is met. Below are some examples of conditional iterations.
+In Lua, there are multiple ways to **iterate** through and/or repeat code. Some iteration methods are intended for iterating through **arrays**, while others can be used to `repeat` a command until/while a condition is met. Below are some examples of conditional iterations.
 
 ```lua
 -- while CONDITION do
 -- # This iteration will repeatedly execute it's provided code until the CONDITION becomes false.
 x = 2
 
-while x == 2 do
-    print("x is still equal to 2!")
+while x > 0 do
+    print("x is still greater than 0!")
+    x -= 1
 end
+
+print("x is no longer greater than 0!");
 
 -- repeat TASK until CONDITON
 -- # This iteration will repeat its provided task until the required CONDITION becomes true
@@ -54,18 +55,18 @@ for Index, Value in pairs(list) do
 end
 ```
 
-We can also loop through a list's contents by using the phrase `for i = n1, n2, n3 do`. This method of iteration will *not* automatically fetch Index and Value pairs, but will instead repeat a task a specified amount of times.
+It's also possible to loop through a list's contents by using the phrase `for i = n1, n2, n3 do`. This method of iteration will *not* automatically fetch Index and Value pairs, but will instead repeat a task a specified amount of times.
 
 ```lua
---- We can repeat the "print" method by using this type of iteration.
+--- Repeat the "print" method by using this type of iteration.
 for i = 1, 3 do
     print(i) -- 1, 2, 3
 end
 
 --[[
 
-  Alternatively, we can also flip this backwards by using
-  an optional third parameter within our iteration.
+  Alternatively, this can be flipped backwards by using
+  an optional third parameter within an iteration.
   
   This third parameter will control how 'i' will increment itself per iteration.
 
