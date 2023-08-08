@@ -1,5 +1,5 @@
 ---
-# This file is used to populate the hub page for the language whose folder it's in. Be sure to create a new version if you create a folder for a new language!
+# This file is used to populate the hub page for the language whose folder it's in. Be sure to create a new version if you create a folder for a new language! Topics are typically generated internally.
 
 Title: 'Name' # Required; this is the name that appears on the hub page for this language. Pay attention to capitalization and punctuation!
 Description: 'A brief description' # Required; ideally under 150 characters and starts with the name of the topic (used in search engine results and content previews)

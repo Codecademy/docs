@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **variable** is a location in computer memory used to store data, usually for use in a program.
+A **variable** is a location in computer memory used to store data, typically for use in a program.
 
 ## Syntax
 
@@ -20,7 +20,7 @@ A **variable** is a location in computer memory used to store data, usually for 
 type name = value;
 ```
 
-When declaring a variable in C, the `type` of variable goes first, followed by the name, and then the value.
+When declaring a variable in C, the `type` of the variable goes first, followed by the name, and then the value.
 
 But if a variable does not yet need a value assigned to it, this can be omitted and assigned later.
 
