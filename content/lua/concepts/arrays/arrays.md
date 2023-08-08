@@ -16,7 +16,6 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 
 **Arrays** are tables of ordered, stored **data**. They can hold any type of data, and can be cleared with `nil` values.
 
-
 ## Syntax
 
 In Lua, Arrays can be created with curly braces `{}`. When storing values, arrays will automatically order values starting from `0` unless specified otherwise. For instance, the following code will store 100 values using an `iteration`.
@@ -31,13 +30,12 @@ end
 
 ```
 
-If we print our array, we see that it now holds 100 values starting from 1. However, if we try printing any value out of this range, we will receive **nil** instead. This is because **nil** refers to data that is not there, which in our case would be true because we have only stored 100 values.
+When the array is printed, it would display 100 values of 0 starting at an index of 1. However, if we try printing any value out of this range, our output will return **nil** instead. This is because **nil** refers to data that is not there, which in our case would be true because our example only stores 100 values.
 
 
 ## Accessing Elements within the Array
 
-When working with **Array’s**, we may want to reference an element within it. To do this, we reference the desired value by its **index**.
-For example, let's say we want to reference a value from the following array:
+To access an array element, we reference the desired value by its **index**. For example, to reference a value from the following array:
 
 ```lua
 a = {
@@ -47,7 +45,7 @@ a = {
 }
 ```
 
-Here, we are provided with an array of elements that range from the indexes 1 - 3. Let's say we want to print “🍌”. To achieve this, we must reference our value through its assigned index, which in our case is 2.
+Here, there is an array of elements that range from the indexes 1 - 3. To print “🍌”, the value must be referenced through its assigned index, which in this case is 2.
 
 ```lua
 a = {
@@ -59,7 +57,7 @@ a = {
 print(a[2]) -- “🍌” [Banana]
 ```
 
-We can do this for every value within our array. This also works with **dictionaries**, but instead we must use the assigned **key** to retrieve a value. A key is essentially an index with the only difference being that a key may be assigned as any **datatype**, while an index can only come in the form of a number.
+This can be done for every value within an array. This also works with **dictionaries**, but instead the assigned **key** must be used to retrieve a value. A key is essentially an index with the only difference being that a key may be assigned as any **datatype**, while an index can only come in the form of a number.
 
 For example:
 
@@ -73,4 +71,4 @@ dictionary = {
 print(dictionary[“🍊”]) -- “Orange”
 ```
   
-It is important to note that Lua will not print the key of the dictionary we are using, but will instead print the value related to the requested key. This behavior also applies to **Arrays**.
+It is important to note that Lua will not print the key of the dictionary being used, but will instead print the value related to the requested key. This behavior also applies to **Arrays**.
