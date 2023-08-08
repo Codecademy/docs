@@ -1,6 +1,6 @@
 ---
 Title: 'Conditionals' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'Conditionals take an expression and evaluate it to `true` or `false`. Code blocks run depending on the outcome of the expression.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
+Description: 'Conditionals are used to evaluate statements as true or false ' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
 Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
   - 'Computer Science'
 Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
@@ -10,14 +10,16 @@ Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/
 CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
   - 'learn-lua'
 ---
-**Conditionals** take an expression and evaluate if it’s `true` or `false`. Code blocks run depending on the outcome of the expression. 
 
-The condition can contain logic [operators](https://www.codecademy.com/resources/docs/lua/operators) and [variables](https://www.codecademy.com/resources/docs/lua/variables). The condition can be evaluated as `true` or `false`.
+**Conditionals** are used to evaluate statements as `true` or `false`. They can be used to direct the flow of a program by specifying code blocks to run depending on the outcome of the expression. 
+
+The statement or condition can contain logic [operators](https://www.codecademy.com/resources/docs/lua/operators) and [variables](https://www.codecademy.com/resources/docs/lua/variables). 
 
 
 ![A diagram explaining a control flow based on the validity of different statements.](https://content.codecademy.com/courses/learn-python-control-flow/control-flow.svg)
 ## If Statements
-```lua
+
+```pseudo
 if <condition> then
 	<code>
 end
@@ -25,7 +27,8 @@ end
 
 `if..then` statements run a block of code only when the condition is met. If the condition is `false`, the code block inside the `if` statement does not run. All conditional statements need to have an `end` keyword to close off the statement.
 
-The following example demonstrates an `if` statement with a `true` condition
+The following example demonstrates an `if` statement with a `true` condition:
+
 ```lua
 a = 13
 b = 16
@@ -36,10 +39,11 @@ end
 
 print(a)
 
--- This prints 18 because a WAS less than b, so the code followed through and changed the value of a. 
+-- This prints 18 because a is less than b, so the code within the if statement was run which updates the value of a. 
 ```
 
 The following code block demonstrates when the condition is now `false`:
+
 ```lua
 a = 8
 b = 10
@@ -51,7 +55,8 @@ end
 ```
 
 ## Else Statements
-```lua
+
+```pseudo
 if <condition> then
 	<code>
 else
@@ -64,7 +69,7 @@ In the event that the first condition is `false`, when there’s a subsequent `e
 ```lua
 isNightTime = false
 
-if < isNightTime > then
+if isNightTime then
 	print("Good night!")
 else
 	print("Good morning!")
@@ -72,7 +77,8 @@ end
 -- This statement prints "Good morning!" because the if condition evaluated to false.
 ```
 ## ElseIf Statements
-```lua
+
+```pseudo
 if <condition> then
 	<code>
 elseif <condition> then
@@ -82,7 +88,7 @@ else
 end
 ```
 
-`elseif` statements are similar to `else` statements but they can be used to create multiple **pathways** instead of an either/or format. You can have multiple `elseif` statements, each with its own condition, but the final statement has to be an `else` statement.
+`elseif` statements are similar to `else` statements but they can be used to create multiple actions instead of an either/or format. You can have multiple `elseif` statements, each with its own condition, but the final statement has to be an `else` statement.
 
 ```lua
 player1 = 9
