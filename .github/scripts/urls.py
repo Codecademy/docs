@@ -1,7 +1,6 @@
 import sys
 
 def generateDocsURL(file_path):
-  print(f'File path: {file_path}')
   path_parts = file_path.split("/")
   url = ""
   if "content" not in path_parts[0]:
@@ -22,7 +21,6 @@ def getURLS(files):
   return docs_urls
 
 def getFiles():
-  print(f'Arguments coming in: {sys.argv[1].split(" ")}')
   return sys.argv[1].split(" ")
 
 def getMarkdowns(files):
