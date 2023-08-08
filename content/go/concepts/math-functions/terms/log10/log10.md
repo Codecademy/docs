@@ -13,21 +13,21 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Log10()`** function in the Go programming language calculates the base-10 logarithm of a given number. It returns the logarithm value as a floating-point number.
+The **`Log10()`** function in the Go programming language calculates the base-10 logarithm of a given number. It returns the logarithm value as a floating-point number. The `math` package must be imported to use this function.
 
 ## Syntax
 
 ```pseudo
-func Log10(x float64) float64
+result := Log10(x)
 ```
 
 `Log10()` accepts an argument of type `float64` and returns a value of type `float64`.
 
 Note these special cases:
 
-- If the input number `x` is negative or `Nan`, the function will return `NaN` (not-a-number).
-- If the input `x` is zero, the result will be `-Inf`.
-- If the input `x` is `+Inf`, the result will be `+Inf`
+- If `x` is negative or `Nan`, the function will return `NaN` (not-a-number).
+- If `x` is zero, the result will be `-Inf`.
+- If `x` is `+Inf`, the result will be `+Inf`.
 
 ## Example
 
@@ -37,14 +37,14 @@ The example below demonstrates the basic use of `Log10()`.
 package main
 
 import (
-	"fmt"
-	"math"
+  "fmt"
+  "math"
 )
 
 func main() {
-	x := 10.0
-	result := math.Log10(x)
-	fmt.Printf("Log10(%f) = %f\n", x, result)
+  x := 10.0
+  result := math.Log10(x)
+  fmt.Printf("Log10(%f) = %f\n", x, result)
 }
 ```
 
@@ -62,17 +62,17 @@ The example below is runnable and demonstrates the results of `Log10()` with sev
 package main
 
 import (
-	"fmt"
-	"math"
+  "fmt"
+  "math"
 )
 
 func main() {
-	numbers := []float64{2.0, 10.0, 0.5, 100.0}
-	
-	fmt.Println("Log10 Calculations:")
-	for _, x := range numbers {
-		result := math.Log10(x)
-		fmt.Printf("Log10(%.2f) = %.2f\n", x, result)
-	}
+  numbers := []float64{2.0, 10.0, 0.5, 100.0}
+
+  fmt.Println("Log10 Calculations:")
+  for _, x := range numbers {
+    result := math.Log10(x)
+    fmt.Printf("Log10(%.2f) = %.2f\n", x, result)
+  }
 }
 ```
