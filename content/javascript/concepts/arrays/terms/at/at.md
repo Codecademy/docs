@@ -33,7 +33,7 @@ const firstElement = array.at(0);
 console.log(firstElement);
 ```
 
-This example results in the following output:
+This example results in the following:
 
 ```shell
 1
