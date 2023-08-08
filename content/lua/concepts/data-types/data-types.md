@@ -17,6 +17,7 @@ In Lua, there are many **Data Types**. Some commonly used data types are:
 * Nil 
 
 ## type()
+
 Lua has a built-in `type()` function to retrieve the data type.
 ```lua
 location = 'Maple Road'
@@ -25,6 +26,7 @@ print(type(location)) -- This outputs "string"
 print(type(12/3)) -- This outputs "number"
 ```
 ## Type Conversion
+
 In Lua, **type coercion** automatically happens when strings and numbers are concatenated together or when a string with a numeric value appears in an arithmetic expression.
 ```lua
 --  The first type coercion is used in a concatenation to change a number to a string.
