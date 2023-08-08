@@ -73,7 +73,7 @@ Array
 
 ## Codebyte Example
 
-In code below, the `array_rand()` function is used to select 3 random keys from the array `$colors`. The corresponding values are then displayed.
+In the code below, the `array_rand()` function is used to select 3 random keys from the array `$colors`. The corresponding values are then displayed.
 
 Note how the displayed values change every time the code is run.
 
