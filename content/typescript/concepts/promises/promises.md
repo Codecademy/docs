@@ -15,7 +15,7 @@ In TypeScript, **promises** handle asynchronous operations, providing better con
 
 ## Creating Promises
 
-To create a new Promise, use the `new` keyword followed by `Promise`. The `Promise` constructor accepts a function which should take two parameters:
+To create a new promise, use the `new` keyword followed by `Promise`. The `Promise` constructor accepts a function which should take two parameters:
 
 - A function to resolve the promise.
 - A function to reject the promise.
