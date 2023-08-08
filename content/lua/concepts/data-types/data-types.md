@@ -22,7 +22,7 @@ Lua has a built-in `type()` function to retrieve the data type.
 location = 'Maple Road'
 print(type(location)) -- This outputs "string"
 
-print(type(12/3)) -- This outputs number
+print(type(12/3)) -- This outputs "number"
 ```
 ## Type Conversion
 In Lua, **type coercion** automatically happens when strings and numbers are concatenated together or when a string with a numeric value appears in an arithmetic expression.
