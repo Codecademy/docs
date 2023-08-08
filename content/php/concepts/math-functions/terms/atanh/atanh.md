@@ -1,6 +1,6 @@
 ---
 Title: 'atanh()'
-Description: 'Returns the inverse hyperbolic tangent of a given value'
+Description: 'Returns the inverse hyperbolic tangent of a given value.'
 Subjects:
   - 'Web Development'
   - 'Code Foundations'
@@ -22,7 +22,7 @@ The **`atanh()`** calculates the inverse hyperbolic tangent of a given number an
 atanh($inputValue)
 ```
 
-- The function `atanh()` only takes one parameter, `$inputValue` and returns a floating point number. The passed value must be a numerical value between -1 and 1 (not inclusive).
+- The function `atanh()` only takes one parameter, `$inputValue`, and returns a floating point number. The passed value must be a numerical value between -1 and 1 (not inclusive).
 
 ## Example
 
@@ -30,7 +30,7 @@ The example below demonstrates a basic implementation of `atanh()`.
 
 ```php
 <?php
-    echo (atanh(0.5));
+  echo (atanh(0.5));
 ?>
 ```
 
@@ -46,8 +46,8 @@ The example below is runnable and demonstrates how to use the function `atanh()`
 
 ```codebyte/php
 <?php
-    $inputValue = 0.7;
-    $result = atanh($inputValue);
-    echo $result;
+  $inputValue = 0.7;
+  $result = atanh($inputValue);
+  echo $result;
 ?>
 ```
