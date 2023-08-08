@@ -52,7 +52,7 @@ The `.writable()` method will return `False` here.
 In this example `writable.txt` is opened in two different ways, and the `.writable()` method is used to return whether or not the file is writable:
 
 ```codebyte/python
-# Create empty text file 
+# Create empty text file
 f = open ("writable.txt", "w")
 
 print("Is this file writable when opened in 'write' mode? ", f.writable())
