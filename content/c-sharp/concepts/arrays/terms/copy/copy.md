@@ -56,7 +56,7 @@ public class Example
 }
 ```
 
-This is what is printed to the console:
+This is printed to the console:
 
 ```shell
 red orange yellow green blue indigo violet
