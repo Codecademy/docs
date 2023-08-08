@@ -67,3 +67,17 @@ if my_string.lower() == "amazing!":
 
 # Output: "Isn't that just AMAZING!""
 ```
+
+## Codebyte Example
+
+Comparing `my_favorite_color` to `user_favorite_color` using `.lower()`:
+
+```codebyte/python
+my_favorite_color = "Blue"
+user_favorite_color = input("What is your favorite color? : ")
+
+if my_favorite_color.lower() == user_favorite_color.lower():
+    print("We both like the color " + my_favorite_color + "!")
+else:
+    print("We like different colors.")
+```
