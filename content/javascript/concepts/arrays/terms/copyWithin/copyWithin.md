@@ -53,16 +53,16 @@ console.log([1, , 3].copyWithin(2, 1, 2));
 The following examples has a few calls to the `.copyWithin()` method, applying combinations of the available parameters:
 
 ```js
-// copy elements starting from the second-to-last index
+// Copy elements starting from the second-to-last index
 console.log([1, 2, 3, 4, 5].copyWithin(-2));
 
-// copy to index 0 all elements index 3 to the end
+// Copy to index 0 all elements index 3 to the end
 console.log([1, 2, 3, 4, 5].copyWithin(0, 3));
 
-// copy to index 0 the element at index 2
+// Copy to index 0 the element at index 2
 console.log([1, 2, 3, 4, 5].copyWithin(0, 2, 3));
 
-// copy to second-to-last index elements starting from index 2 until end of array
+// Copy to second-to-last index elements starting from index 2 until end of array
 console.log([1, 2, 3, 4, 5].copyWithin(-2, -3, -1));
 ```
 
