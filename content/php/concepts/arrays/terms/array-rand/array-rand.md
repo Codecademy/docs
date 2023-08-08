@@ -81,7 +81,7 @@ Note how the displayed values change every time the code is run.
 <?php
   $colors = array("red", "green", "blue", "yellow", "brown");
   $random_keys = array_rand($colors, 3);
-  
+
   echo $colors[$random_keys[0]] . ", ";
   echo $colors[$random_keys[1]] . ", ";
   echo $colors[$random_keys[2]];
