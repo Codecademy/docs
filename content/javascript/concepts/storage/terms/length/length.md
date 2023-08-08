@@ -21,7 +21,7 @@ The **`.length`** property is used on arrays and strings to quickly find out how
 myString.length
 ```
 
-> **Note**: The `.length` property is not a method but a property. It cannot be invoked with parentheses, like `.length()`. Instead, it can only be referenced as `.length`
+> **Note**: The `.length` property is not a method but a property. It cannot be invoked with parentheses, like `.length()`. Instead, it can only be referenced as `.length`.
 
 ## Example
 
