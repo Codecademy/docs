@@ -18,7 +18,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 
 ## Arithmetic Operators
 
-**Arithmetic Operators** can be used to carry out mathematical operations:
+**Arithmetic Operators** can be used to carry out mathematical functions:
 
 ```lua
 -- Addition. Adds two numbers.
