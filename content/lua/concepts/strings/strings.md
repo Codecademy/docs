@@ -11,7 +11,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'paths/computer-science'
 ---
 
-__Strings__ are a sequence of characters of any length that can include letters, numbers, symbols, and spaces.
+**Strings** are a sequence of characters of any length that can include letters, numbers, symbols, and spaces.
 
 ## Syntax
 
