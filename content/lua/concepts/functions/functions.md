@@ -44,7 +44,7 @@ end
 
 ## Calling Functions
 
-Functions can be called by referencing the function’s name followed by parenthesis once functions have been declared. Once called, all the code inside the function will run.
+Functions can be called by referencing the function’s name followed by parentheses, once functions have been declared. Once called, all the code inside the function will run.
 
 ```lua
 function product()  
