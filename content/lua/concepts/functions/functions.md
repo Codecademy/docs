@@ -78,7 +78,7 @@ function sum(number1, number2)
  print(result)
 end
 
-sum() -- Prints: nil
+sum() -- Throws error because you can't sum nil values
 ```
 
 ## Return Keyword
