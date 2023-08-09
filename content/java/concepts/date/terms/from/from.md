@@ -26,7 +26,7 @@ The `Date.from()` method is used in combination with an `Instant` object `inst`.
 
 In Java `from` is not a keyword. The `from` method can be used with the [Date](https://www.codecademy.com/resources/docs/java/date) class to retrieve the current day, date, time, timezone and year.
 
-```
+```java
 Date today = new Date();
 Instant inst = Instant.now();
 System.out.println(today.from(inst));
