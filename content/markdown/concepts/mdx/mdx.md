@@ -22,21 +22,20 @@ There is not specific set standard for adding MDX, so for the sake of this entry
 import React from 'react';
 
 const MyComponent = () => {
-  return <h1>This is a React component</h1>;
+return <h1>This is a React component</h1>;
 };
 
 // This is an MDX file
 const MyMDX = () => {
-  return (
-    <>
-      <h1>This is a heading</h1>
-      <MyComponent />
-    </>
-  );
+return (
+<>
+<h1>This is a heading</h1>
+<MyComponent />
+</>
+);
 };
 
 export default MyMDX;
-
 
 ## Example
 
@@ -44,15 +43,24 @@ In this example, the variable, `cookies`, is used throughout the MDX file to pro
 
 md
 import { cookies } from './path/to/your/file.js';
+
 # {cookies}
+
 ## Introduction
+
 Hello, kids! Today, we're going to learn about **{cookies}**!
+
 ## Why {cookies} are important?
+
 {cookies} are important because they are delicious treats that we can eat! They come in different flavors and shapes.
+
 ## Examples of {cookies}
+
 Here are some examples of {cookies}:
+
 - Chocolate chip cookies are yummy with chunks of chocolate.
 - Oatmeal cookies have a chewy texture and sometimes have raisins or nuts.
 - Sugar cookies are sweet and can be decorated with icing or sprinkles.
 - Peanut butter cookies are nutty and made with peanut butter.
-That's it for now! Hope you enjoyed learning about **{cookies}** and maybe you can have a one as a treat too!
+  That's it for now! Hope you enjoyed learning about **{cookies}** and maybe you can have a one as a treat too!
+```
