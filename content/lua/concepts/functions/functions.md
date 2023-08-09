@@ -10,7 +10,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'paths/computer-science'
 ---
 
-__Functions__ are blocks of code that can be repeated multiple times. They can perform specific tasks when they’re called. To use a function, it must be declared somewhere in the scope where you wish to call it.
+**Functions** are blocks of code that can be repeated multiple times. They can perform specific tasks when they’re called. A function must be declared in the scope it will be utilized.
 
 ## Function Declaration
 
