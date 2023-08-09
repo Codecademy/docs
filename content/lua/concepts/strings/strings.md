@@ -45,29 +45,18 @@ The following is a list of some useful escape characters supported by Lua string
 
 | Description | Escape Characters|
 | -- | --|  
-|bell | \a |
-|backspace| \b|
-|form feed| \f|
-|new line | \n|
-|carriage return| \r|
-|horizontal tab|\t|
-|vertical tab|\v|
-|backslash|\ \ |
-|quotation mark [double quote]|\ "|
-|apostrophe [single quote]|\ '|
+|bell |`\a`|
+|backspace|`\b`|
+|form feed|`\f`|
+|new line |`\n`|
+|carriage return|`\r`|
+|horizontal tab|`\t`|
+|vertical tab|`\v`|
+|backslash|`\\`|
+|quotation mark [double quote]|`\"`|
+|apostrophe [single quote]|`\'`|
 
 ## String Functions
 
  Lua's String Library contains many different string functions that can be used to manipulate strings. Below are some examples of useful functions.
-
-`string.len()`
-Return the length of the input string.
-
-`string.lower()`
-Return a copy of the input string with all uppercase letters changed to lowercase.  
-
-`string.upper()`
-Return a copy of the input string with all lowercase letters changed to uppercase.
-
-`string.reverse()`
-Return a string that is the input string reversed.
+ 
