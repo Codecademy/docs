@@ -1,13 +1,12 @@
 ---
 Title: '.getDisplayName()'
-Description: 'Returns a String containing calendar information based on input parameters'
+Description: 'Returns a String containing calendar field information based on input parameters'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
   - 'Calendar'
   - 'Methods'
-  - 'Maps'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
@@ -23,52 +22,36 @@ public String getDisplayName(int field, int style, Locale locale)
 
 ```
 
-Where `field` is of integer type and refers to the field of the calendar on which the operation is to be performed,  `style` isof integer type and refers to the style that is supposed to be applied to the string representation, and `locale` is of Locale object type and refers to the locale representing the string.
+Where `field` is of integer type and refers to the field of the calendar on which the operation is to be performed,  `style` is of integer type and refers to the style that is supposed to be applied to the string representation, and `locale` is of Locale object type and refers to the locale representing the string.
 
 ## Example
 
-The following example creates an array and then sorts it.
+The following example displays the day of the week.
 
 ```java
-import java.util.*;
-  
-public class Calendar_Demo_Locale {
-    public static void main(String args[])
-    {
-  
-        // Creating Locale objects class
-        Locale first_obj = new Locale("TURKISH", "Turkey");
-  
-        Locale sec_obj = new Locale("ENGLISH", "UK");
-  
-        // Displaying the objects
-        System.out.println("First"
-                           + " object is : " + first_obj);
-        System.out.println("Second"
-                           + " object is : " + sec_obj);
-  
-        // Getting the display names
-        String obj_nm = first_obj.getDisplayName();
-  
-        // Displaying the results
-        System.out.println("Name of the"
-                           + " first object: " + obj_nm);
-  
-        // Getting the display names
-        obj_nm = sec_obj.getDisplayName();
-        System.out.println("Name of the"
-                           + " second object: " + obj_nm);
-    }
+
+import java.util.Calendar;
+import java.util.Locale;
+
+public class Main {
+
+  public static void main(String[] args) {
+
+    Calendar now = Calendar.getInstance();
+    Locale locale = Locale.getDefault();
+
+    String n = now.getDisplayName(Calendar.DAY_OF_WEEK, Calendar.LONG, locale);
+    
+    System.out.printf(n);
+  }
 }
+
 ```
 
 This will output the following:
 
 ```shell
 
-First object is : turkish_TURKEY
-Second object is : english_UK
-Name of the first object: turkish (TURKEY)
-Name of the second object: english (UK)
+<Current day of the week> For eg., Tuesday
 
 ```
