@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`sqrt()`** is a function that calculates the square root of a number. It takes a single paramter in the form of a number and returns the square root of that number.
+The **`sqrt()`** function calculates the square root of a number. It takes a single parameter in the form of a number and returns the square root of that number.
 
 ## Syntax
 
@@ -21,6 +21,8 @@ $result = sqrt($value)
 
 - `$value` is the number whose square root is being calculated.
 - `$result` is the resultant square root value.
+
+> **Note:** If a negative number is passed as an argument, the function will return `NAN`. Therefore, only non negative numbers are passed to avoid unexpected results and maintain accurate calculations.
 
 ## Codebyte Example
 
