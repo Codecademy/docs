@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.get()`** method of Calendar class is used to return the value of the given calendar field in the parameter.
+The **`.get()`** method of the `Calendar` class is used to return the value of the given calendar field.
 
 ## Syntax
 
