@@ -59,7 +59,7 @@ Day of the Month: 9
 
 ## Example 2
 
-This example employs the Calendar class to set a fixed date (July 16, 2022) within a Calendar instance. It retrieves the year, month, and day of the month from the configured instance and displays them in a formatted output on the console.
+This example employs the `Calendar` class to set a fixed date (July 16, 2022) within a `Calendar` instance. It retrieves the year, month, and day of the month from the configured instance and displays them in a formatted output on the console.
 
 ```java
 import java.util.Calendar;
