@@ -52,7 +52,7 @@ print(-(4 * 4)) -- "-16"
 
 Compound assignments can be used to carry out mathematical operations and assign them to variables. To prevent errors, the initial value assigned to the variable should align with the input used to update the variable.
 
-Within the following examples, we will use the variable `n` where **n = 2**.
+Within the following examples, `n = 2`.
 
 | **Compound Operation** |    **Operation**   |     **Shorthand**    | **Expanded Form** |    **Result**   |
 | :--------------------: | :----------------: | :--------------: | :------------: | :-------------: |
