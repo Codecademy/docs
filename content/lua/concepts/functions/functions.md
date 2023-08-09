@@ -26,8 +26,8 @@ The example code provided below contains a function named `difference()` that ta
 
 ```lua
 function difference(value1, value2)
- difference = value1 - value2
- print(difference)
+ result = value1 - value2
+ print(result)
 end 
 ```
 
@@ -37,8 +37,8 @@ When a function is declared, inputs can be provided as parameters. Parameters ar
 
 ```lua
 function sum(number1, number2)  -- number1 and number2 are parameters
- sum = number1 + number2
- print(sum)
+ result = number1 + number2
+ print(result)
 end
 ```
 
@@ -48,8 +48,8 @@ Functions can be called by referencing the function’s name followed by parenth
 
 ```lua
 function product()  
- product = 2 * 5
- print(product)
+ result = 2 * 5
+ print(result)
 end
 
 product() -- This is calling a function
@@ -61,8 +61,8 @@ When a function is called, a comma-separated list of values between parentheses 
 
 ```lua
 function sum(number1, number2)  
- sum = number1 + number2
- print(sum)
+ result = number1 + number2
+ print(result)
 end
 
 sum(30,20)  -- 30 and 20 are arguments
@@ -74,8 +74,8 @@ When a function is called without passing in enough arguments, the remaining par
 
 ```lua
 function sum(number1, number2)  
- sum = number1 + number2
- print(sum)
+ result = number1 + number2
+ print(result)
 end
 
 sum() -- Prints: nil
@@ -87,10 +87,10 @@ The output of the function can be specified using the `return` keyword. This ret
 
 ```lua
 function product(number1, number2)  
- product = number1 * number2
- return product
+ result = number1 * number2
+ return result
 end
 
-result = product(2, 4) 
-print(result) -- Prints: 8
+total = product(2, 4) 
+print(total) -- Prints: 8
 ```
