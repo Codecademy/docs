@@ -70,14 +70,14 @@ if my_string.lower() == "amazing!":
 
 ## Codebyte Example
 
-Comparing `my_favorite_color` to `user_favorite_color` using `.lower()`:
+Comparing `my_favorite_color` to `user_favorite_color` using `.lower()`. Note `my_favorite_color` is capitalized even after the `.lower()` method is used on it.
 
 ```codebyte/python
 my_favorite_color = "Blue"
-user_favorite_color = input("What is your favorite color? : ")
+user_favorite_color = "blue" # enter your favorite color here
 
 if my_favorite_color.lower() == user_favorite_color.lower():
-    print("We both like the color " + my_favorite_color + "!")
+  print("We both like the color " + my_favorite_color + "!")
 else:
-    print("We like different colors.")
+  print("We like different colors.")
 ```
