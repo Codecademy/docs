@@ -28,7 +28,7 @@ The example code provided below contains a function named `difference()` that ta
 function difference(value1, value2)
  result = value1 - value2
  print(result)
-end 
+end
 ```
 
 ## Parameters
@@ -47,7 +47,7 @@ end
 Functions can be called by referencing the function’s name followed by parentheses, once functions have been declared. Once called, all the code inside the function will run.
 
 ```lua
-function product()  
+function product()
  result = 2 * 5
  print(result)
 end
@@ -60,7 +60,7 @@ product() -- This is calling a function
 When a function is called, a comma-separated list of values between parentheses are arguments.
 
 ```lua
-function sum(number1, number2)  
+function sum(number1, number2)
  result = number1 + number2
  print(result)
 end
@@ -73,12 +73,12 @@ sum(30,20)  -- 30 and 20 are arguments
 When a function is called without passing in enough arguments, the remaining parameters will be assigned the value `nil`.
 
 ```lua
-function sum(number1, number2)  
+function sum(number1, number2)
  result = number1 + number2
  print(result)
 end
 
-sum() -- Throws error because you can't sum nil values
+sum() -- Throws an error because nil values can't be summed
 ```
 
 ## Return Keyword
@@ -86,11 +86,11 @@ sum() -- Throws error because you can't sum nil values
 The output of the function can be specified using the `return` keyword. This returns the value to where the function was called and ends the function.
 
 ```lua
-function product(number1, number2)  
+function product(number1, number2)
  result = number1 * number2
  return result
 end
 
-total = product(2, 4) 
+total = product(2, 4)
 print(total) -- Prints: 8
 ```
