@@ -56,7 +56,7 @@ Within the following examples, `n = 2`.
 
 | **Compound Operation** |    **Operation**   |     **Shorthand**    | **Expanded Form** |    **Result**   |
 | :--------------------: | :----------------: | :--------------: | :------------: | :-------------: |
-|           `+=`          |    Addition    |      n += 1      | n = n + 1 |      **3**      |
+|           `+=`          |    Addition    |      `n += 1`      | `n = n + 1` |      `3`      |
 |           `-=`          |   Subtraction  |      n -= 1      | n = n - 1 |      **1**      |
 |           `*=`          | Multiplication |      n \*= 2     | n = n * 2 |      **4**      |
 |           `/=`           |    Division    |      n /= 2      | n = n / 2 |      **1**      |
