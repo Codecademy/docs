@@ -18,7 +18,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 In Lua, a string is a sequence of characters surrounded by a pair of single quotes `''` or double quotes `""`.
 
 ```lua
-location = “Central Park” -- “Central Park” is a string
+location = "Central Park" -- "Central Park" is a string
 ```
 
 ## Concatenation
@@ -27,8 +27,8 @@ Multiple strings can be combined together using the concatenation operator `..`.
 
 ```lua
 time = 10
-location = “Central Park”
-print(“We will arrive at “ .. location .. “ at “.. time)
+location = "Central Park"
+print("We will arrive at " .. location .. " at ".. time)
 ```
 
 ## Escape Characters
@@ -43,20 +43,19 @@ revisedString = "They said, \"Hello!\"" -- This will keep "Hello!" inside of the
 
 The following is a list of some useful escape characters supported by Lua strings:
 
-| Description | Escape Characters|
-| -- | --|  
-|bell |`\a`|
-|backspace|`\b`|
-|form feed|`\f`|
-|new line |`\n`|
-|carriage return|`\r`|
-|horizontal tab|`\t`|
-|vertical tab|`\v`|
-|backslash|`\\`|
-|quotation mark [double quote]|`\"`|
-|apostrophe [single quote]|`\'`|
+| Description                   | Escape Characters |
+| ----------------------------- | ----------------- |
+| bell                          | `\a`              |
+| backspace                     | `\b`              |
+| form feed                     | `\f`              |
+| new line                      | `\n`              |
+| carriage return               | `\r`              |
+| horizontal tab                | `\t`              |
+| vertical tab                  | `\v`              |
+| backslash                     | `\\`              |
+| quotation mark [double quote] | `\"`              |
+| apostrophe [single quote]     | `\'`              |
 
 ## String Functions
 
- Lua's String Library contains many different string functions that can be used to manipulate strings. Below are some examples of useful functions.
- 
+Lua's string library contains many different string functions that can be used to manipulate strings. These functions include the following:
