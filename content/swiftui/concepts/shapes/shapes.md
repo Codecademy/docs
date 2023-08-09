@@ -80,7 +80,6 @@ To display the custom shape, it can be called in a view just like any built-in s
 
 To display the custom shape, it can be called in a view just like any built-in shape.
 
->>>>>>> a7f91915addc7e1fd9a5ae1bcb3a6d8d4db83343
 ```swift
 var body: some View {
     ZStack {
