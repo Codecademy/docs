@@ -90,8 +90,6 @@ var body: some View {
     }
 }
 ```
-<<<<<<< HEAD
-=======
 
 This code results in the following output:
 
