@@ -22,7 +22,7 @@ $result = sqrt($value)
 - `$value` is the number whose square root is being calculated.
 - `$result` is the resultant square root value.
 
-> **Note:** If a negative number is passed as an argument, the function will return `NAN`. Therefore, only non negative numbers are passed to avoid unexpected results and maintain accurate calculations.
+> **Note:** If a negative number is passed as an argument, the function will return `NAN`. Therefore, only non negative numbers should be passed to avoid unexpected results and maintain accurate calculations.
 
 ## Codebyte Example
 
