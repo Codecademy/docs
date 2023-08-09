@@ -51,7 +51,6 @@ Since there is no Triangle shape built-in, a custom one can be made using path o
 ## Example: Custom Triangle Shape
 
 Since there is no triangle shape built-in, a custom one can be made using path operations.
->>>>>>> a7f91915addc7e1fd9a5ae1bcb3a6d8d4db83343
 
 ```swift
 import SwiftUI
