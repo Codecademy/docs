@@ -90,9 +90,4 @@ var body: some View {
 ```
 
 This code results in the following output:
-
-
-This code results in the following output:
-
->>>>>>> a7f91915addc7e1fd9a5ae1bcb3a6d8d4db83343
 ![SwiftUI Shapes](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-shapes-triangle.jpeg The code displays a yellow triangle on a blue background)
