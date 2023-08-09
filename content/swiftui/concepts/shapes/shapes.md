@@ -44,12 +44,6 @@ struct someShape: Shape {
 
 ## Example: Custom Triangle Shape
 
-Since there is no Triangle shape built-in, a custom one can be made using path operations.
-
-- The function should return a `Path` object that describes the shape contained inside a rectangular frame of reference.
-
-## Example: Custom Triangle Shape
-
 Since there is no triangle shape built-in, a custom one can be made using path operations.
 
 ```swift
@@ -70,9 +64,6 @@ struct Triangle: Shape {
 - By conforming to the `Shape` protocol, a custom shape inherits all the capabilities of a built-in shape.
 
 ### Displaying the Custom Shape
-To display the custom shape, it can be called in a view just like any built-in shape.
-
-### Displaying the Custom Shape
 
 To display the custom shape, it can be called in a view just like any built-in shape.
 
@@ -90,4 +81,5 @@ var body: some View {
 ```
 
 This code results in the following output:
+
 ![SwiftUI Shapes](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-shapes-triangle.jpeg The code displays a yellow triangle on a blue background)
