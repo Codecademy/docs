@@ -24,10 +24,26 @@ file.close()
 
 ## Example
 
-Use `.close()` to close the opened **gullivers_travels.txt** file:
+Use `.close()` to close the opened `gullivers_travels.txt` file:
 
 ```python
 f = open("gullivers_travels.txt", "r", encoding='utf8')
 
 f.close()
+```
+
+## Codebyte Example
+
+The example below opens a file called `example_file.txt` and then closes it using `.close()`. The `.closed` attribute is used to show whether the file is open or closed.
+
+```codebyte/python
+filename = "example.txt"
+f = open(filename, "w")
+
+
+print("f is closed" if f.closed else "f is open")
+
+f.close()
+
+print("f is closed" if f.closed else "f is open")
 ```
