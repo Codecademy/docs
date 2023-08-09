@@ -24,7 +24,7 @@ public int get(int field)
 
 ## Example 1
 
-This example demonstrates the utilization of the Calendar class. It acquires the present year, month, and day of the month from a Calendar instance, adjusting the month representation to account for the 0-based index.
+This example demonstrates a basic implementation of the `.get` function. The code acquires the present year, month, and day of the month from a `Calendar` instance, adjusting the month representation to account for the 0-based index.
 
 ```java
 import java.util.Calendar;
