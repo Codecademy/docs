@@ -16,7 +16,7 @@ The **`.get()`** method of the `Calendar` class is used to return the value of t
 
 ## Syntax
 
-The get(int field) is used to retrieve the value of a specific date or time field, indicated by the provided field parameter.
+The `get(int field)` is used to retrieve the value of a specific date or time field, indicated by the provided field argument.
 
 ```pseudo
 public int get(int field)
