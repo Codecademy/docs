@@ -16,11 +16,11 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 
 Functions are declared and called using their names. Function declarations are built using:
 
-1. The `function` keyword
+1. The `function` keyword.
 2. The function’s name in camel case: the first word starts with lowercase, and any following words start with uppercase. For example: iPhone.
-3. An optional list of comma-separated parameters, enclosed by `()`
-4. The code to be run by the function
-5. The `end` keyword in the last line of function
+3. An optional list of comma-separated parameters, enclosed by `()`.
+4. The code to be run by the function.
+5. The `end` keyword in the last line of function.
 
 The example code provided below contains a function named `difference()` that takes two values and prints their difference:
 
