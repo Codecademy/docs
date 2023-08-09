@@ -83,7 +83,7 @@ sum() -- Prints: nil
 
 ## Return Keyword
 
-A function can return using the `return` keyword. This returns the value to where the function was called and ends the function.
+The output of the function can be specified using the `return` keyword. This returns the value to where the function was called and ends the function.
 
 ```lua
 function product(number1, number2)  
