@@ -6,6 +6,8 @@ Subjects:
   - 'Web Design'
 Tags:
   - 'Functions'
+  - 'Math'
+  - 'Arithmetic'
 CatalogContent:
   - 'learn-php'
   - 'paths/computer-science'
@@ -22,13 +24,13 @@ $result = sqrt($value)
 - `$value` is the number whose square root is being calculated.
 - `$result` is the resultant square root value.
 
-> **Note:** If a negative number is passed as an argument, the function will return `NAN`. Therefore, only non negative numbers should be passed to avoid unexpected results and maintain accurate calculations.
+> **Note:** If a negative number is passed as an argument, the function will return `NAN`. Therefore, only nonnegative numbers should be passed to avoid unexpected results and maintain accurate calculations.
 
-## Codebyte Example
+## Example
 
-The following example demonstrates the usage of `sqrt()` function to find out the square root of `$value`.
+The following example demonstrates the usage of `sqrt()` function to find the square root of `$value`.
 
-```codebyte/php
+```php
 <?php
 $value = 25;
 $squareRoot = sqrt($value);
