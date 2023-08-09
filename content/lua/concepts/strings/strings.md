@@ -23,7 +23,7 @@ location = “Central Park” -- “Central Park” is a string
 
 ## Concatenation
 
-Multiple variables can be combined together using the concatenation operator `..`.
+Multiple strings can be combined together using the concatenation operator `..`.
 
 ```lua
 time = 10
