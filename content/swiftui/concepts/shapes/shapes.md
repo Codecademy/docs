@@ -43,8 +43,8 @@ struct someShape: Shape {
 - The function should return a `Path` object that describes the shape contained inside a rectangular frame of reference.
 
 ## Example: Custom Triangle Shape
+
 Since there is no Triangle shape built-in, a custom one can be made using path operations.
-=======
 
 - The function should return a `Path` object that describes the shape contained inside a rectangular frame of reference.
 
