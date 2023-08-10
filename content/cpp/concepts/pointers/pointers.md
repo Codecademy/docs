@@ -75,7 +75,7 @@ std::cout << *ptr << "\n"; // Cricket
 
 ## Pointers as Function Parameters
 
-We can also pass pointers into functions as arguments. This helps us manipulate values from within a function even though the value lives outside that function
+Pointers can also be passed into functions as arguments. This helps to manipulate values from within a function even though the value lives outside that function
 
 ```cpp
 
