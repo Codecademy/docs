@@ -12,7 +12,7 @@ CatalogContent:
   - 'introduction-to-javascript'
 ---
 
-The **`.setUTCDate()`** method changes the day to a Date object.
+The **`.setUTCDate()`** method changes the day of a Date object in Coordinated Universal Time (UTC)..
 
 ## Syntax
 
