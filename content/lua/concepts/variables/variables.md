@@ -11,7 +11,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 
 Variables are used to store data that can be referenced throughout the code.
 
-Lua has two main types of variables: global variables and local variables. For more information on global and local variables, take a look at the documentation on [Scope](https://www.codecademy.com/resources/docs/lua/scope).
+Lua has two main types of variables: global variables, which can be used anywhere in a program, and local variables, which can only be referenced in the block where they're defined.
 
 
 ## Creating and Accessing Variables
