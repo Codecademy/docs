@@ -11,7 +11,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 **Coroutines** allow the execution of multiple tasks at the same time without yielding by using separate threads.
 
 
-## Understanding Coroutines
+## Coroutine States
 
 A coroutine can be in one of three different states: suspended, running, or dead. This is what makes them useful, as they are essentially functions that can be paused and resumed at a later point. You can check the status of a coroutine with the status function, and resume it using the resume function. Once a coroutine is in a dead state, it cannot be resumed again, and will instead return a false and an error message when the status is checked.
 
