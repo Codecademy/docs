@@ -10,7 +10,7 @@ CatalogContent:
   - 'docs/content/javascript/concepts/dates/terms/setUTCFullYear/setUTCFullYear.md'
 ---
 
-# Date.prototype.setUTCFullYear()
+## Date.prototype.setUTCFullYear()
 
 The **`setUTCFullYear()`** method of `Date` instances changes the year for this date according to universal time.
 
