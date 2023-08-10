@@ -17,7 +17,6 @@ Coroutines act as normal threads with the exception of being controlled by the m
 
 
 
-Coroutines are ideal when sent data needs to be matched with received data. For example, if a process needs to be run in an infinite loop thread, you can use `coroutine.yield()` to run the process, and wait for the process to resume the thread when it’s ready.
 
 
 ## Functions In Coroutines
