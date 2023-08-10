@@ -1,6 +1,6 @@
 ---
 Title: '.setUTCDate()'
-Description: 'Changes the day to a Date object in Coordinated Universal Time (UTC).'
+Description: 'Changes the day of a Date object in Coordinated Universal Time (UTC).'
 Subjects:
   - 'Web Development'
 Tags:
