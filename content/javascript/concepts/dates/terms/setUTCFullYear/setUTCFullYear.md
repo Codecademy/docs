@@ -48,7 +48,7 @@ If a parameter specified is outside of the expected range, `setUTCFullYear()` at
 
 ## Examples
 
-Using `setUTCFullYear()`
+Using `setUTCFullYear()`:
 
 ```shell
 const theBigDay = new Date();
