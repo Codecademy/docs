@@ -1,1 +1,1 @@
-content/css/concepts/display/display.md
+content/go/concepts/memory/memory.md
