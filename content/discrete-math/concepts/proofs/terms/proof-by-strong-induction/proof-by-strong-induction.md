@@ -55,11 +55,3 @@ Proof:
 Thus, the statement is true at x = k+1.
 ```
 
-## Codebyte Example
-
-```codebyte/python
-x = 3
-s = 2*(x-1) - (x-2)
-
-print(x == s)
-```
