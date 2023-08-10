@@ -34,7 +34,7 @@ setUTCFullYear(yearValue, monthValue, dateValue)
 - An integer between 1 and 31 representing the day of the month. If you specify dateValue, you must also specify monthValue.
 
 
-### Return value
+## Return value
 
 Changes the *`Date`* object in place, and returns its new *`timestamp`*. If a parameter is `NaN` (or other values that get coerced to `NaN`, such as `undefined`), the date is set to Invalid Date and `NaN` is returned.
 
