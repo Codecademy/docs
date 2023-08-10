@@ -20,7 +20,7 @@ The **`.setUTCDate()`** method changes the day of a Date object in Coordinated U
 myDate.setUTCDate(day)
 ```
 
-The `.setUTCDate()` method receives a day argument representing a number between 1 to 31.
+The `.setUTCDate()` method receives a `day` argument representing a number between 1 to 31.
 
 ## Example
 
