@@ -51,7 +51,7 @@ list = {"🌽", "🥦", "🍄"}
 
 for Index, Value in pairs(list) do
     print(Index) -- 1, 2, 3
-    print(Value) -- "🌽" (corn), "🥦" (brocoli), "🍄" (mushroom)
+    print(Value) -- 🌽, 🥦, 🍄
 end
 ```
 
