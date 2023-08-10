@@ -8,7 +8,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'learn-lua'
 ---
 
-A **coroutine** is a line of execution, with its own stack, its own variables, and its own instruction pointer; but sharing global variables and mostly anything else with other coroutines in a collaborative manner. 
+**Coroutines** allow the execution of multiple tasks at the same time without yielding by using separate threads.
 
 
 ## Understanding Coroutines
