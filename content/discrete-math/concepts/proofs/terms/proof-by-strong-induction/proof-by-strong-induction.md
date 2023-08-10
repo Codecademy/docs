@@ -1,6 +1,6 @@
 ---
 Title: 'Proof by Strong Induction'
-Description: 'an induction technique that proves a statement by providing multiple base cases,  assuming the statement is true for all integers from the largest base case to some even larger integer 'k', and then proving the statement is true for 'k+1' using that assumption.'
+Description: 'An induction technique that proves a statement by providing multiple base cases,  assuming the statement is true for all integers from the largest base case to some even larger integer k, and then proving the statement is true for k+1 using that assumption.'
 Subjects:
   - 'Computer Science'
   - 'Discrete Math'
