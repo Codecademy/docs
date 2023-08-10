@@ -47,11 +47,11 @@ i == 20 -- Stops iteration when 'i' becomes equivalent to 20
 As mentioned, we can also use iterations to loop *through* an Array. To accomplish this, we must use the global keyword **pairs**. **pairs** allows us to loop through an Array in order.
 
 ```lua
-list = {1, 2, 3, 4, 5}
+list = {1, false, 3, "Hello", true}
 
 for Index, Value in pairs(list) do
     print(Index) -- 1, 2, 3, 4, 5
-    print(Value) -- 1, 2, 3, 4, 5
+    print(Value) -- 1, false, 3, "Hello", true
 end
 ```
 
