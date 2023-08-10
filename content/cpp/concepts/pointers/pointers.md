@@ -17,7 +17,7 @@ A **pointer** is a special type of variable that stores the memory address of an
 
 A pointer variable is declared using the indirection operator (`*`). This is a special unary operator that signals the program to store the memory address of another variable.
 
-To get the memory address of a variable we wish to store in our pointer variable, the address operator (`&`) is used. This signals to our program to return the memory address of a variable. Memory addresses are usually prefixed with `0x` this just indicates that the follwing digits are in hexadecimal notation.
+To get the memory address of a variable to store in the pointer variable, the address operator (`&`) is used. This signals the program to return the memory address of a variable. Memory addresses are usually prefixed with `0x` this just indicates that the following digits are in hexadecimal notation.
 
 ```cpp
 std::string game = "Cricket";
