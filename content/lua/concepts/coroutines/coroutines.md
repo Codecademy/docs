@@ -16,7 +16,6 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 Coroutines act as normal threads with the exception of being controlled by the main thread it was created within. A coroutine can enter one of three states: suspended, running, or dead. This is what makes them useful, as they are essentially functions that can be paused and resumed at a later point. The status of a coroutine can be checked with the status function and resumed it using the resume function. Once a coroutine is in a dead state, it cannot be resumed again.
 
 
-## When Should Coroutines Be Used?
 
 Coroutines are ideal when sent data needs to be matched with received data. For example, if a process needs to be run in an infinite loop thread, you can use `coroutine.yield()` to run the process, and wait for the process to resume the thread when it’s ready.
 
