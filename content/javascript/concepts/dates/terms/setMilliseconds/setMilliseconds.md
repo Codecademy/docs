@@ -48,7 +48,7 @@ Modified date: 2023-01-01T00:00:00.421Z
 The example below is runnable and demonstrates how to define `eventDate` with a given date and time. It then modifies the millisecond value of `eventDate` to be 112 milliseconds in the future. Finally, a `console.log` call prints the updated value of `eventDate` to the screen:
 
 ```codebyte/javascript
-const eventDate = new Date('1/1/2023');
+const eventDate = new Date();
 console.log("Original date:", eventDate); 
 eventDate.setMilliseconds(112);
 console.log("Modified date:", eventDate);
