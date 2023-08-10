@@ -46,43 +46,41 @@ print(5 + (-1)) -- "4"
 print(-(4 * 4)) -- "-16"
 ```
 
-
-
 ## Compound Assignments
 
 Compound assignments can be used to carry out mathematical operations and assign them to variables. To prevent errors, the initial value assigned to the variable should align with the input used to update the variable.
 
 Within the following examples, `n = 2`.
 
-| **Compound Operation** |    **Operation**   |     **Shorthand**    | **Expanded Form** |    **Result**   |
+| Compound Operation |    Operation   |     Shorthand    | Expanded Form |    Result   |
 | :--------------------: | :----------------: | :--------------: | :------------: | :-------------: |
 |           `+=`          |    Addition    |      `n += 1`      | `n = n + 1` |      `3`      |
-|           `-=`          |   Subtraction  |      n -= 1      | n = n - 1 |      **1**      |
-|           `*=`          | Multiplication |      n \*= 2     | n = n * 2 |      **4**      |
-|           `/=`           |    Division    |      n /= 2      | n = n / 2 |      **1**      |
-|           `^=`           | Exponentiation |      n ^= 3      | n = n ^ 3 |      **8**      |
-|           `%=`           |     Modulus    |      n %= 2      | n = n % 2 |      **0**      |
-|           `..=`          |  Concatenation | n ..= “ Apples!” | n = n.." Apples!" | **“2 Apples!”** |
+|           `-=`          |   Subtraction  |      n -= 1      | n = n - 1 |      `1`     |
+|           `*=`          | Multiplication |      n \*= 2     | n = n * 2 |      `4`     |
+|           `/=`           |    Division    |      n /= 2      | n = n / 2 |      `1`      |
+|           `^=`           | Exponentiation |      n ^= 3      | n = n ^ 3 |      `8`      |
+|           `%=`           |     Modulus    |      n %= 2      | n = n % 2 |      `0`      |
+|           `..=`          |  Concatenation | n ..= “ Apples!” | n = n.." Apples!" | `“2 Apples!”` |
 
 ## Logical Operators
 
-**Logical Operators** return **boolean** or **nil** evaluations for [**conditional statements**](https://www.codecademy.com/resources/docs/lua/conditionals).
+Logical operators return boolean or `nil` evaluations for [conditional statements](https://www.codecademy.com/resources/docs/lua/conditionals).
 
-|   **Logical Operator**  |                           **Description**                           |
+|   Logical Operator  |                           Description                           |
 | :---------------------: | :-----------------------------------------------------------------: |
-|           `and`           |           Resolves as **true** if both conditions are true          |
-|            `or`           |           Resolves as **true** if either condition is true          |
+|           `and`           |           Resolves as `true` if both conditions are true          |
+|            `or`           |           Resolves as `true` if either condition is true          |
 |           `not`           | Returns the opposite result of the provided conditional expression. |
 
 ## Relational Operators
 
-**Relational Operators** compare two values and resolve as **true** or **false**.
+Relational operators compare two values and resolve as `true` or `false`.
 
-| **Compound Operation** |         **Operation**        |       **Example**      |
+| Compound Operation |         Operation        |       Example      |
 | :--------------------: | :--------------------------: | :--------------------: |
-|           `==`           |         Equal to         |   `10 == 1` **→ false**  |
-|           `~=`           |       Not equal to       |   `10 ~= 1` → **true**   |
-|           `>`           |       Greater than       |    `10 > 1` → **true**   |
-|          `<`          |         Less than        |  `10 < 1` → **false** |
-|           `>=`          | Greater than or equal to |   `10 >= 1` → **true**   |
-|          `<=`         |   Less than or equal to  | `10 <= 1` → **false** |
+|           `==`           |         Equal to         |   `10 == 1` → `false`  |
+|           `~=`           |       Not equal to       |   `10 ~= 1` → `true`   |
+|           `>`           |       Greater than       |    `10 > 1` → `true`   |
+|          `<`          |         Less than        |  `10 < 1` → `false` |
+|           `>=`          | Greater than or equal to |   `10 >= 1` → `true`   |
+|          `<=`         |   Less than or equal to  | `10 <= 1` → `false` |
