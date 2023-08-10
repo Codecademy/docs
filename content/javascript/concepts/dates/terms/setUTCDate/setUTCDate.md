@@ -8,11 +8,11 @@ Tags:
   - 'Methods'
   - 'Time'
 CatalogContent:
-  - 'paths/web-development'
   - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.setUTCDate()`** method changes the day of a Date object in Coordinated Universal Time (UTC)..
+The **`.setUTCDate()`** method changes the day of a `Date` object in Coordinated Universal Time (UTC).
 
 ## Syntax
 
@@ -24,7 +24,7 @@ The `.setUTCDate()` method receives a `day` argument representing a number betwe
 
 ## Example
 
-In this example, a Date object is created in a variable called `myDate`. `.setUTCDate()` is then used to modify the day to 10.
+In this example, `.setUTCDate()` is used to modify the day of `myDate` to 10.
 
 ```js
 var myDate = new Date('Jun 26, 2023 18:10:40');
