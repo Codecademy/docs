@@ -50,7 +50,7 @@ If a parameter specified is outside of the expected range, `setUTCFullYear()` at
 
 Using `setUTCFullYear()`
 
-```
+```shell
 const theBigDay = new Date();
 theBigDay.setUTCFullYear(1997);
 ```
