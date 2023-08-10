@@ -45,7 +45,6 @@ To modify the value of a variable, assign a new value.
 
 a = 10
 
-
 print(a) -- this will print 10
 
 a = 5
