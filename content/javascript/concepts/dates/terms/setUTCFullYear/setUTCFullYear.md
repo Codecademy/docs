@@ -16,7 +16,7 @@ The **`setUTCFullYear()`** method of `Date` instances changes the year for this 
 
 ## Syntax
 
-```
+```pseudo 
 setUTCFullYear(yearValue)
 setUTCFullYear(yearValue, monthValue)
 setUTCFullYear(yearValue, monthValue, dateValue)
