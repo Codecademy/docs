@@ -1,6 +1,6 @@
 ---
 Title: 'setUTCFullYear()'
-Description: 'setUTCFullYear() method of Date instances'
+Description: 'Used to set the year value of a Date object in UTC (Coordinated Universal Time)'
 Subjects:
   - 'Web Development'
 Tags:
