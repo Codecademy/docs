@@ -44,7 +44,7 @@ until
 i == 20 -- Stops iteration when 'i' becomes equivalent to 20
 ```
 
-As mentioned, we can also use iterations to loop *through* an Array. To accomplish this, we must use the global keyword **pairs**. **pairs** allows us to loop through an Array in order.
+As mentioned, iterations can be used to loop *through* an array. For this, the global keyword **pairs** is used loop through an array in order.
 
 ```lua
 list = {1, false, 3, "Hello", true}
