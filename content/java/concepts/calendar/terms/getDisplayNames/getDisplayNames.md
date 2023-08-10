@@ -32,7 +32,7 @@ The function will throw a [`NullPointerException`](https://www.codecademy.com/re
 
 ## Example
 
-In the following example, `.getDisplayNames()` method returns a map containing all the days of the week in short form for the US locale. The days are paired with integer values representing the index of the day in the week (Sunday is 1, Monday is 2, etc.)
+In the following example, `.getDisplayNames()` returns a map containing all the days of the week in short form for the US locale. The days are paired with integer values representing the index of the day in the week (Sunday is 1, Monday is 2, etc.).
 
 ```java
 import java.util.Calendar;
