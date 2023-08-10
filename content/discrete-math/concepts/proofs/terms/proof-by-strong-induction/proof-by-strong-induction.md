@@ -35,6 +35,7 @@ At x = 3, 2(3 - 1) - (3 - 2) = 2(2) - (1) = 4 - 1 = 3 and x = 3. Thus, the state
 ```
 
 Induction Hypothesis:
+
 ```
 Suppose at x = k, 2(k-1) - (k-2) = k
 Then at x = k+1, we need to prove that 2((k+1)-1) - ((k+1)-2) = k+1
