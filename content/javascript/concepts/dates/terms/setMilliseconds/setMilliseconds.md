@@ -20,7 +20,7 @@ The **`.setMilliseconds()`** method sets the milliseconds part of a Date object 
 dateObject.setMilliseconds(n)
 ```
 
-Above code changes millisecond of `dateObject` to n, which is an integer between 1 and 999.
+Above code changes millisecond of `dateObject` to `n`, which is an integer between 1 and 999.
 
 The  return value of `.setMilliseconds()` is the new timestamp after updating milliseconds value of the original Date object in place. The `.setMilliseconds()` method returns the new timestamp value, which represents the number of milliseconds since January 1, 1970 00:00:00 UTC.
 
