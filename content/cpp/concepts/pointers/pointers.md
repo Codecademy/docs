@@ -34,7 +34,7 @@ std::cout << ptr << "\n";    // Output of pointer to game: 0x6dfed4
 
 Dereferencing a pointer means getting the value that a pointer variable is pointing at.
 
-We cannot perform a lot of useful operations using just the memory address that pointers store. Instead, we need a way to get the value stored in the memory address so we can manipulate it directly.
+There aren't many of useful operations that can be performed using just the memory address that pointers store. Instead, there needs to be a way to get the value stored in the memory address so it can be manipulated directly.
 Dereferencing a pointer helps us do this. We dereference a pointer with the indirection operator (`*`) as well.
 When we dereference a pointer, we tell the program to give us the value contained in the specified memory address and then we can perform operations on it.
 
