@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.getDisplayNames()` method of the `Calendar` class returns a map containing all string representations of Calendar field values in the given style and locale and the corresponding field values.
+The `.getDisplayNames()` method of the `Calendar` class returns a map containing the string representations of the field values in the given style and locale.
 
 ## Syntax
 
@@ -28,11 +28,11 @@ Where:
 
 It can return `null` if there are no display names for the given field and style in the given locale.
 
-Throws [NullPointerException](https://www.codecademy.com/resources/docs/java/errors/nullpointerexception) if `locale` is `null`.
+The function will throw a [`NullPointerException`](https://www.codecademy.com/resources/docs/java/errors/nullpointerexception) if `locale` is `null`.
 
 ## Example
 
-The following example, `.getDisplayNames()` method returns a map containing all days of the week in short form for the US locale. The days are paired with integer values representing the index of the day in the week (Sunday is 1, Monday is 2, etc.)
+In the following example, `.getDisplayNames()` method returns a map containing all the days of the week in short form for the US locale. The days are paired with integer values representing the index of the day in the week (Sunday is 1, Monday is 2, etc.)
 
 ```java
 import java.util.Calendar;
