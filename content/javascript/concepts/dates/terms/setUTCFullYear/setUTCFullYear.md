@@ -39,7 +39,7 @@ setUTCFullYear(yearValue, monthValue, dateValue)
 Changes the *`Date`* object in place, and returns its new *`timestamp`*. If a parameter is `NaN` (or other values that get coerced to `NaN`, such as `undefined`), the date is set to Invalid Date and `NaN` is returned.
 
 
-### Description
+## Description
 
 If you do not specify the `monthValue` and `dateValue` parameters, the values returned from the *`getUTCMonth()`* and *`getUTCDate()`* methods are used.
 
