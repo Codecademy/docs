@@ -27,11 +27,11 @@ CatalogContent:
 Statement: `2(x-1) - (x-2) = x for x >= 2`
 
 Base Cases:
+
 ```
 At x = 2 , 2(2 - 1) - (2 - 2) = 2(1) - (0) = 2 + 0 = 2 and x = 2. Thus, the statement is true at x = 2.
 
 At x = 3, 2(3 - 1) - (3 - 2) = 2(2) - (1) = 4 - 1 = 3 and x = 3. Thus, the statement is true at x = 3.
-
 ```
 
 Induction Hypothesis:
