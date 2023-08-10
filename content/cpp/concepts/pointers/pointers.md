@@ -58,7 +58,7 @@ Just like with other data types, pointers can be declared without being assigned
 
 ```
 
-This however is a cause of concern because if we try to dereference and manipulate a pointer that holds no memory address, it could lead to some unexpected behaviour. To prevent this we use `nullptr` which is a special kind of value that prevents our pointers from behaving unexpectedly when they hold no memory address.
+This however is a cause of concern because if the program tries to dereference and manipulate a pointer that holds no memory address, it could lead to some unexpected behavior. To prevent this, `nullptr` is used, which is a special kind of value that prevents pointers from behaving unexpectedly when they hold no memory address.
 
 ```cpp
 
