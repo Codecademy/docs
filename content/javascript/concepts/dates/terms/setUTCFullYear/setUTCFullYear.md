@@ -41,9 +41,9 @@ Changes the *`Date`* object in place, and returns its new *`timestamp`*. If a pa
 
 ## Description
 
-If you do not specify the `monthValue` and `dateValue` parameters, the values returned from the *`getUTCMonth()`* and *`getUTCDate()`* methods are used.
+If the `monthValue` and `dateValue` parameters are not specified, the values returned from the *`getUTCMonth()`* and *`getUTCDate()`* methods are used.
 
-If a parameter you specify is outside of the expected range, `setUTCFullYear()` attempts to update the other parameters and the date information in the *`Date`* object accordingly. For example, if you specify 15 for `monthValue`, the year is incremented by 1 (`yearValue + 1`), and 3 is used for the month.
+If a parameter specified is outside of the expected range, `setUTCFullYear()` attempts to update the other parameters and the date information in the *`Date`* object accordingly. For example, if 15 is specified for `monthValue`, the year is incremented by 1 (`yearValue + 1`), and 3 is used for the month.
 
 
 ## Examples
