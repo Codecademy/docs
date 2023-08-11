@@ -35,5 +35,8 @@ A ruby annotation:
 This snippet code shows `<ruby>` being used with `<rt>` and `<rp>` tag:
 
 ```html
-<ruby> まつもと <rp>(</rp><rt>Matsumoto</rt><rp>)</rp> </ruby>
+<ruby> ゆきひろ まつもと <rp>(</rp><rt>Yukihiro Matsumoto</rt><rp>)</rp> </ruby>
 ```
+
+This code results in the following display:
+![Output of the ruby tag example](https://raw.githubusercontent.com/Codecademy/docs/main/ruby/ruby.png)
