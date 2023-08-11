@@ -37,13 +37,13 @@ public class CalendarExample {
         // Get the year, month, and day of the month
         int year = calendar.get(Calendar.YEAR);
         // Month values are 0-based (0 = January, 11 = December)
-        int month = calendar.get(Calendar.MONTH); 
+        int month = calendar.get(Calendar.MONTH);
         int dayOfMonth = calendar.get(Calendar.DAY_OF_MONTH);
 
         // Display the retrieved values
         System.out.println("Current Year: " + year);
         // Adding 1 to adjust for 0-based months
-        System.out.println("Current Month: " + (month + 1)); 
+        System.out.println("Current Month: " + (month + 1));
         System.out.println("Day of the Month: " + dayOfMonth);
     }
 }
@@ -68,7 +68,7 @@ public class FixedDateCalendarExample {
     public static void main(String[] args) {
         // Create a Calendar instance and set it to a fixed date
         Calendar calendar = Calendar.getInstance();
-        calendar.set(2022, Calendar.JULY, 16); 
+        calendar.set(2022, Calendar.JULY, 16);
 
         // Get the year, month, and day of the month
         int year = calendar.get(Calendar.YEAR);
