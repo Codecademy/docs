@@ -42,7 +42,7 @@ Decimal is the most common number system that uses a base of 10. A number in dec
 
 [Hexadecimal](https://www.codecademy.com/resources/docs/general/hexadecimal) is a number system that uses a base of 16. The first ten digits of a hexadecimal number contains digits `0-9` and the remaining six digits contains letters `A-F` (not case sensitive). In computer languages, the notation for representing hexadecimal numbers is leading `0x`. For example, `0xA63F` is a hexadecimal number.
 
-## Converting between Bases
+## Converting Between Bases
 
 Converting between number bases requires two key concepts: the place value system and the digit representation.
 
@@ -67,13 +67,16 @@ Digit representation refers to the symbols used to express numbers in a specific
 - To convert decimal (base-10) to binary, repeatedly divide the decimal number by `2`, keeping track of the remainders. The binary equivalent is obtained by reading the remainders in reverse order. 
 
   For example, to convert `27` to binary:
-    ```
+
+    ```plaintext
+
     27 / 2 = 13 remainder 1, 
     13 / 2 = 6 remainder 1, 
     6 / 2 = 3 remainder 0, 
     3 / 2 = 1 remainder 1,
     1 / 2 = 0 remainder 1
     ```
+
     The binary equivalent is `11011`.
 
 - To convert decimal to octal, repeatedly divide the decimal number by `8`, keeping track of the remainders. The octal equivalent is obtained by reading the remainders in reverse order.
