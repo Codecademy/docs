@@ -18,7 +18,7 @@ The **`<ruby>`** tag is a semantic HTML element that represents small annotation
 
 ```html
 <ruby>
-  <!-- contents go here -->
+  <!-- Contents go here -->
 </ruby>
 ```
 
