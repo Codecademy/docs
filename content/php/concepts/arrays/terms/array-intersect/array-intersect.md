@@ -42,4 +42,4 @@ The above example will produce the following output:
 Array ([1] => 2 [5] => 7)
 ```
 
-Only the values from `$first_array` that are present in all other arrays are returned. In the example above, `2` and `7` appear in all three arrays so are returned as matches. If no matches are found, the function returns an empty array.
+> **Note:** Only the values from `$first_array` present in all other arrays are returned. In the example above, `2` and `7` appear in all three arrays so they are returned as matches. If no matches are found, the function returns an empty array.
