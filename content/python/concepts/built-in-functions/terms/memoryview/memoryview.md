@@ -36,7 +36,7 @@ Where `obj` is the object to create a `memoryview` of, and `mv` is the `memoryvi
 l = [1, 2, 3, 4, 5, 6]
 memoryview(l)
 ```
-the output will be:
+The output will be:
 ```shell
 output TypeError: memoryview: a bytes-like object is required, not 'list'
 ```
