@@ -54,7 +54,7 @@ console.log(colors);
 ```js
 const colors = ['red', 'yellow', 'blue', 'orange', 'green', 'purple'];
 
-// Replacing red, green, and yellow. Start at index 0, and replace three items.
+// Replacing red, yellow, and blue. Start at index 0, and replace three items.
 const tertiaryColors = colors.toSpliced(
   0,
   3,
