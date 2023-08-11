@@ -22,15 +22,7 @@ The **`<ruby>`** tag is a semantic HTML element that represents small annotation
 </ruby>
 ```
 
-## Example 1
-
-A ruby annotation:
-
-```html
-<ruby> ゆきひろ <rt> Yukihiro </rt> </ruby>
-```
-
-## Example 2
+## Example
 
 This snippet code shows `<ruby>` being used with `<rt>` and `<rp>` tag:
 
@@ -39,4 +31,4 @@ This snippet code shows `<ruby>` being used with `<rt>` and `<rp>` tag:
 ```
 
 This code results in the following display:
-![Output of the ruby tag example](https://raw.githubusercontent.com/Codecademy/docs/main/ruby/ruby.png)
+![Output of the ruby tag example](https://raw.githubusercontent.com/Codecademy/docs/main/ruby/semantic-html-ruby.png)
