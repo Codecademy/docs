@@ -24,7 +24,7 @@ $ git diff
 
 ## Examples
 
-The are various ways in which `git diff` can be used.
+There are various ways in which `git diff` can be used.
 
 ### 1. git diff
 
