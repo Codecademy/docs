@@ -1,6 +1,6 @@
 ---
 Title: 'array_intersect()'
-Description: 'Returns the matching items when comparing two or more arrays.'
+Description: 'Returns the matching values of two or more arrays.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -13,27 +13,25 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`array_intersect()`** function returns the matching values of two or more arrays.
+The **`array_intersect()`** function compares the values in all arrays provided against the first array and returns the matching values.
 
 ## Syntax
 
 ```pseudo
-array_intersect(first_array, second_array)
+array_intersect(first_array, second_array, third_array...)
 ```
 
-The function compares the values of `first_array` and `second_array`. If any values appear in `first_array` that are also present in `second_array`, the function would return an array of those matching values.
-
-Two arrays are required parameters for `array_intersect()`. Any additional array is an optional parameter.
+`array_intersect()` takes two or more arrays and returns any values from `first_array` that are also present in `second_array` and `third_array`, and any other array that is given.
 
 ## Example
 
 ```php
 <?php
-$first_array=array(5, 2, 7, 12, 45, 1);
-$second_array=array(1, 2, 3, 4, 5, 6);
-$third_array=array(7, 2, 4, 6, 4, 65, 100);
+$first_array=array(5, 2, 1, 12, 65, 7);
+$second_array=array(1, 5, 3, 7, 2, 6);
+$third_array=array(7, 6, 4, 2, 7, 65, 100);
 
-$result=array_intersect($first_array, $second_array);
+$result=array_intersect($first_array, $second_array, $third_array);
 print_r($result);
 ?>
 ```
@@ -41,7 +39,7 @@ print_r($result);
 The above example will produce the following output:
 
 ```shell
-Array ([0] => 5 [1] => 2 [5] => 1)
+Array ([1] => 2 [5] => 7)
 ```
 
-Only values of `$first_array` that are present in all other arrays are returned. In the example above, values that match in `$first_array` and `$seond_array`, and `$first_array` and `$third_array` are returned. Any values that match in `$second_array` and `$third_array` are not returned.
+Only the values from `$first_array` that are present in all other arrays are returned. In the example above, `2` and `7` appear in all three arrays so are returned as matches. If no matches are found, the function returns an empty array.
