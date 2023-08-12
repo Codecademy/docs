@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**MDX** is an extension to Markdown that allows developers to include JSX and import components like interactive charts and alerts to Markdown documents that contain long content more engaging.
+**MDX** is an extension to Markdown that allows developers to include JSX and import components like interactive charts and alerts to Markdown documents that contain lengthy content more engaging.
 
 ## Syntax
 
