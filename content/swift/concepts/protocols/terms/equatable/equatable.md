@@ -70,7 +70,7 @@ else {
 }
 ```
 
-Because the `blueCup` and `pinkCup` properties are not equal, this will output the following:
+Because the `blueCup` and `pinkCup` properties are not equal, the following output occurs:
 
 ```shell
 Teacups are not equal.
