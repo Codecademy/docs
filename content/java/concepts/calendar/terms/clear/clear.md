@@ -8,10 +8,10 @@ Tags:
   - 'Calendar'
 CatalogContent:
   - 'learn-java'
-  - 'path/computer-science'
+  - 'paths/computer-science'
 ---
 
-The method **`clear()`** method of the [`Calendar`](https://www.codecademy.com/resources/docs/java/calendar) class is used to reset or clear specific fields of the given instance to their default values. It allows the reset of individual fields, such as `YEAR`, `MONTH`, `DAY_OF_MONTH`, `HOUR`, etc., to their initial state.
+The **`clear()`** method of the [`Calendar`](https://www.codecademy.com/resources/docs/java/calendar) class is used to reset or clear specific fields of the given instance to their default values. It allows the reset of individual fields, such as `YEAR`, `MONTH`, `DAY_OF_MONTH`, `HOUR`, etc., to their initial state.
 
 ## Syntax
 
@@ -20,11 +20,11 @@ void clear()
 void clear(int field)
 ```
 
-> **Note:** Without any parameters, the `clear` method clears all fields of the `Calendar` instance, thereby resetting it to its initial state. The `clear(int field)` method allows a specific field to be cleared by providing the corresponding field constant from the `Calendar` class.
+> **Note:** Without any parameters, the `clear` method clears all fields of the `Calendar` instance, thereby resetting it to its initial state. The `clear(int field)` syntax allows a specific field to be cleared by providing the corresponding field constant from the `Calendar` class.
 
 ## Example
 
-In this example, the `CalendarClearExample` class demonstrates the use of `clear()` and `clear(int field)` methods. The first part clears all fields of the `Calendar` instance, while the second part clears the `YEAR` field, effectively setting it to its default value (which is 1970).
+In this example, the `CalendarClearExample` class demonstrates the use of the `clear()` and `clear(int field)` formats. The first part clears all fields of the `Calendar` instance, while the second part clears the `YEAR` field, effectively setting it to its default value (which is 1970).
 
 ```java
 import java.util.Calendar;
