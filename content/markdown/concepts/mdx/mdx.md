@@ -41,7 +41,7 @@ export default MyMDX;
 
 In this example, the variable, `cookies`, is used throughout the MDX file to provide explanations to children on why they are delicious.
 
-md
+```md
 import { cookies } from './path/to/your/file.js';
 
 # {cookies}
