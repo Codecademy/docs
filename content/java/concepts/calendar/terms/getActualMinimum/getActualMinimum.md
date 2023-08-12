@@ -6,7 +6,7 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Calendar'
-  - 'Time Value'
+  - 'Time'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
