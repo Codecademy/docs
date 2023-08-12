@@ -18,7 +18,7 @@ CatalogContent:
 
 There is not specific set standard for adding MDX, so for the sake of this entry, the information below shows pseudo MDX code:
 
-```mdx
+```pseudo
 import React from 'react';
 
 const MyComponent = () => {
