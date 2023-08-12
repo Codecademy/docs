@@ -1,6 +1,6 @@
 ---
 Title: '.clear()'
-Description: 'A method designed to reset or clear specific fields of the calendar instance.'
+Description: 'A method designed to reset or clear specific fields of a Calendar instance.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -58,7 +58,7 @@ public class CalendarClearExample {
 }
 ```
 
-This code will return an output to the following:
+This code will return an output similar to the following:
 
 ```shell
 Before clearing: Wed Jul 19 17:39:21 UTC 2023
