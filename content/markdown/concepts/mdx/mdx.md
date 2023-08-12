@@ -36,7 +36,6 @@ return (
 };
 
 export default MyMDX;
-```
 ## Example
 
 In this example, the variable, `cookies`, is used throughout the MDX file to provide explanations to children on why they are delicious.
