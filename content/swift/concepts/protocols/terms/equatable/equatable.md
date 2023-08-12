@@ -24,7 +24,7 @@ struct myStruct: Equatable {
 }
 ```
 
-In this case, when checking for equality between two instances of the `myStruct` [structure](https://www.codecademy.com/resources/docs/swift/structures), all properties will be compared.
+When checking for equality between two instances of the `myStruct` [structure](https://www.codecademy.com/resources/docs/swift/structures), all properties will be compared.
 
 ### Syntax using a custom `==` method
 
