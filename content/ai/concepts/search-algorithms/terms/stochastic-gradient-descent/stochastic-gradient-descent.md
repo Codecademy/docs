@@ -22,13 +22,9 @@ Similar to Gradient Descent, Stochastic Gradient Descent also aims to minimize t
 In each iteration of SGD, the following steps are performed:
 
 1. **Shuffle Data**: Training data is randomly shuffled before each epoch to introduce randomness and prevent biases in updates.
-
 2. **Mini-Batch Selection**: A small subset (mini-batch) of data points is randomly selected from the shuffled training dataset.
-
 3. **Compute Gradient**: The gradient of the cost function is computed using the selected mini-batch of data points. The gradient represents the direction of steepest descent, guiding the algorithm towards the minimum.
-
 4. **Update Parameters**: Based on the calculated gradient, the model's parameters are updated. The learning rate determines the step size of these updates and controls the convergence speed of the algorithm.
-
 5. **Repeat**: Steps 2 to 4 are repeated for a specified number of epochs or until a convergence criterion is met.
 
 ## Advantages of Stochastic Gradient Descent
