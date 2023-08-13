@@ -21,7 +21,7 @@ The **`.after()`** method determines whether one date or time occurs chronologic
 result = myCalendar.after(time);
 ```
 
-> **Note:** Please note that the **Calendar** class has been replaced by the **LocalDate**, **LocalTime**, and **LocalDateTime** classes in the Java 8 and later Date and Time API. These classes provide a more modern and user-friendly API for working with dates and times in Java.
+> **Note:** Please note that the `Calendar` class has been replaced by the `LocalDate`, `LocalTime`, and `LocalDateTime` classes in the Java 8 and later Date and Time API. These classes provide a more modern and user-friendly API for working with dates and times in Java.
 
 ## Example
 
