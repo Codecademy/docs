@@ -12,6 +12,7 @@ CatalogContent:
 ---
 
 ## Design Differences
+
 Ruby is written and implemented in the C programming language, and JRuby is written and implemented in Java. Ruby and JRuby use object-oriented programming, dynamic typing, and garbage collection despite being written in different programming languages. As a result, JRuby can understand and interpret all ruby code with a few exceptions. 
 
 ## Interpreter differences
