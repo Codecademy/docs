@@ -17,7 +17,7 @@ In Markdown, **highlights** are where parts of a text appears in a yellow backgr
 
 ## Syntax
 
-```md
+```pseudo
 ==Text==
 ```
 
