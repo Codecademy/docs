@@ -18,7 +18,7 @@ CatalogContent:
 
 There is not specific set standard for adding MDX, so for the sake of this entry, the information below shows pseudo MDX code:
 
-```pseudo
+````pseudo
 import React from 'react';
 
 const MyComponent = () => {
@@ -62,4 +62,4 @@ Here are some examples of {cookies}:
 - Sugar cookies are sweet and can be decorated with icing or sprinkles.
 - Peanut butter cookies are nutty and made with peanut butter.
   That's it for now! Hope you enjoyed learning about **{cookies}** and maybe you can have a one as a treat too!
-```
+````
