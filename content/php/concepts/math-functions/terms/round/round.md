@@ -50,7 +50,7 @@ round(number,precision,mode);
 ```
 
 ## Codebyte Example
-The codebyte example below uses the `round()` function to return the `-60.62`
+The codebyte example shown below uses the `round()` function to return the `-60.62`
 
 ```codebyte/php
 <?php
