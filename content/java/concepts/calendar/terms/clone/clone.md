@@ -24,7 +24,9 @@ result = myCalendar.clone()
 Returns a copy of the `myCalendar` `Calendar` object.
 
 ## Example
+
 This example creates a calendar, displays it, clones it and displays its clone.
+
 ```java
 import java.util.Calendar;
   
