@@ -6,7 +6,7 @@
 ## Tips:
     | To round a number **up** to the nearest integer, look at the ceil() function.
     | To round a number **down** to the nearest integer, look at the floor() function.
-    | Return type of round function is float
+    | Return type of round function is `float`
 
 ##  Syntax
 ```pseudo
