@@ -4,8 +4,8 @@
     The round() function rounds a floating-point number.
     
 ## Tips:
-    | To round a number UP to the nearest integer, look at the ceil() function.
-    | To round a number DOWN to the nearest integer, look at the floor() function.
+    | To round a number **up** to the nearest integer, look at the ceil() function.
+    | To round a number **down** to the nearest integer, look at the floor() function.
     | Return type of round function is float
 
 ##  Syntax
