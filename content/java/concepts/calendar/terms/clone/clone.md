@@ -18,13 +18,13 @@ The **`.clone()`** method of the `Calendar` class is used to return a copy of a 
 ## Syntax
 
 ```pseudo
-calendar.clone()
+result = myCalendar.clone()
 ```
 
-Returns the copy of the calendar object.
+Returns a copy of the `myCalendar` `Calendar` object.
 
 ## Example
-
+This example creates a calendar, displays it, clones it and displays its clone.
 ```java
 import java.util.Calendar;
   
@@ -35,7 +35,7 @@ public class CalendarClassDemo {
         Calendar original_calendar = new GregorianCalendar(1971, 08, 13);
   
         // Print original calendar
-        System.out.println(calndr1.getTime());
+        System.out.println(original_calendar.getTime());
   
         // Cloning the original
         Calendar copy_calendar = (Calendar) original_calendar.clone();
