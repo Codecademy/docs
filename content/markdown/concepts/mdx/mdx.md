@@ -1,4 +1,4 @@
-﻿---
+---
 Title: 'MDX'
 Description: 'MDX is an extension where JSX, a syntax extension where HTML-like code is implemented in a JavaScript file, can be added to Markdown documents.'
 Subjects:
