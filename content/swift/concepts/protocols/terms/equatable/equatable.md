@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-**`Equatable`** is a [protocol](https://www.codecademy.com/resources/docs/swift/protocols) that enables two instances of a type to be compared for equality using the `==` or `!=` operators.
+**`Equatable`** is a protocol that enables two instances of a type to be compared for equality using the `==` or `!=` operators.
 
 ## Syntax
 
