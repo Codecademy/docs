@@ -6,9 +6,8 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Methods'
-  - 'Calendar'
   - 'Time'
-  - 'Datetime'
+  - 'Date'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
