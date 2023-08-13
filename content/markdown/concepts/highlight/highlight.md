@@ -23,7 +23,7 @@ In Markdown, **highlights** are where parts of a text appears in a yellow backgr
 
 ## Example
 
-The range of numbers in the below baking tip is highlighted so that users understand the amount of cookies they will have based on the amount of dough made.
+The range of numbers in the below baking tip is highlighted so that users understand the amount of cookies they will have based on the amount of dough made:
 
 ```md
 Depending on how much cookie dough you eat, you’ll have about ==20-22== cookies from this recipe!
