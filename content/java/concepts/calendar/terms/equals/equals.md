@@ -1,3 +1,17 @@
+---
+Title: '.equals()'
+Description: 'Adds the equals() method term entry for the Java Calendar class.'
+Subjects:
+  - 'Learn Java'
+Tags:
+  - 'Calendar'
+  - 'Methods'
+CatalogContent:
+  - 'learn-java'
+---
+
+
+
 # `equals()` Method in Java Calendar
 
 The `equals()` method in the Java `Calendar` class is used to determine if two calendar objects are equal. It compares the time values of the two calendar instances to check if they represent the same point in time.
