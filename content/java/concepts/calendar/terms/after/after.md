@@ -12,7 +12,8 @@ CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
 ---
-The **`.after`** method determine whether one date or time occurs chronologically after another date or time. It takes two instances of date or time objects as input and returns a boolean value; true if the first instance is later in time than the second instance, and false otherwise. This method is commonly used to compare and order events, appointments, or other time-related data.
+
+The **`.after()`** method determines whether one date or time occurs chronologically after another date or time. It takes two instances of date or time objects as input and returns a boolean value; true if the first instance is later in time than the second instance, and false otherwise. This method is commonly used to compare and order events, appointments, or other time-related data.
 
 ## Syntax
 
