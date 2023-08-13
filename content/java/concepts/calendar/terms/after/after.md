@@ -1,6 +1,6 @@
 ---
 Title: '.after'
-Description: 'Compare whether the current instance of Calendar occurs after the time represented by the specified Object.'
+Description: 'Compares whether the current instance of Calendar occurs after the time represented by the specified Object.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
