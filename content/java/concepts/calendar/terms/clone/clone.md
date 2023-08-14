@@ -28,23 +28,23 @@ Returns a copy of the `myCalendar` `Calendar` object.
 This example creates a calendar, displays it, clones it and displays its clone.
 
 ```java
-import java.util.Calendar;
+import java.util.*;
   
 public class CalendarClassDemo {
-    public static void main(String args[])
-    {
-        // Create a calendar object
-        Calendar original_calendar = new GregorianCalendar(1971, 08, 13);
+  public static void main(String args[])
+  {
+    // Create a calendar object
+    Calendar original_calendar = new GregorianCalendar(1971, 8, 13);
   
-        // Print original calendar
-        System.out.println(original_calendar.getTime());
-  
-        // Cloning the original
-        Calendar copy_calendar = (Calendar) original_calendar.clone();
-  
-        // Print copy calendar
-        System.out.println(copy_calendar.getTime());
-    }
+    // Print original calendar
+    System.out.println(original_calendar.getTime());
+
+    // Cloning the original
+    Calendar copy_calendar = (Calendar) original_calendar.clone();
+
+    // Print copy calendar
+    System.out.println(copy_calendar.getTime());
+  }
 }
 ```
 
