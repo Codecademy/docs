@@ -1,6 +1,6 @@
 ---
 Title: 'Enums'
-Description: 'Enums are a special data type that enable a variable to be a set of predefined constants.'
+Description: 'A type of class with a predefined set of instances.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -13,9 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Enums** are a special data type that enable a variable to be a set of predefined constants.
-
-Kotlin enums are called enum classes and they aren't simply collections of constants, as in other languages, they also have properties, methods, etc. Each enum acts as a separate instance of the enum class, and the declaration begins with the keywords `enum class` followed by the class name.
+Kotlin **enums** are called enum classes and they aren't simply collections of constants, as in other languages, they also have properties, methods, etc. Each enum acts as a separate instance of the enum class, and the declaration begins with the keywords `enum class` followed by the class name.
 
 Often compared to enums in Java, Kotlin enums do not require that one knows all possible values at compile time, and their declaration does not create a class behind the scenes.
 
@@ -33,6 +31,8 @@ enum class <enum_class_name> {
 
 ## Enums Properties and Methods
 
+Enum classes have features also found in standard classes that include the properties and synthetic methods detailed below.
+
 Properties:
 
 - `ordinal`: This property stores the ordinal value of the constant, which is usually a zero-based index.
@@ -46,7 +46,7 @@ Methods:
 The following example demonstrates the use of the enum class properties in Kotlin:
 
 ```kotlin
-enum class GASOLINE {
+enum class Gasoline {
     DIESEL,
     PREMIUM,
     UNLEADED
@@ -54,7 +54,7 @@ enum class GASOLINE {
 fun main()
 {
     // A simple demonstration of properties
-    for (gasoline in GASOLINE.values()) {println("${gasoline.ordinal} = ${gasoline.name}")}}
+    for (gasoline in Gasoline.values()) {println("${gasoline.ordinal} = ${gasoline.name}")}}
 ```
 
 This prints the following output:
@@ -68,7 +68,7 @@ This prints the following output:
 The following code demonstrates the basic use of an enum method:
 
 ```kotlin
-enum class GASOLINE {
+enum class Gasoline {
     DIESEL,
     PREMIUM,
     UNLEADED
@@ -76,7 +76,7 @@ enum class GASOLINE {
 fun main()
 {
     // A simple demonstration of methods
-    for (gasoline in GASOLINE.values()) println("${GASOLINE.valueOf("UNLEADED")}")
+    for (gasoline in Gasoline.values()) println("${Gasoline.valueOf("UNLEADED")}")
 }
 ```
 
@@ -88,14 +88,36 @@ UNLEADED
 UNLEADED
 ```
 
+## The Use of Constructors to Add Properties
+
+These enums can also use constructors to add properties, the following code demonstrates a basic implementation.
+
+```kotlin
+enum class Colors(val symbol: String) {
+    RED("war"),
+    BLUE("peace"),
+    WHITE("neutrality")
+}
+fun main()
+{
+    println(Colors.RED.symbol)
+}
+```
+
+The example above returns:
+
+```shell
+war
+```
+
 ## Using the `when` Expression
 
-One of the interesting features of Kotlin enums is the complete elimination of the need to use the else clause because of the restriction on the value that a type can take.
+One of the interesting features of Kotlin enums is the complete elimination of the need to use the `else` clause because of the restriction on the value that a type can take.
 
 The following example demonstrates the use of `when` with an enum class:
 
 ```kotlin
-enum class TRADED_METALS{
+enum class TradedMetals{
     GOLD,
     SILVER,
     COPPER,
@@ -104,16 +126,16 @@ enum class TRADED_METALS{
     PLATINUM,
     LITHIUM;
 }
-   
+
 fun main(){
-    when(TRADED_METALS.IRON){
-        TRADED_METALS.GOLD -> println("The symbol of Gold is Au")
-        TRADED_METALS.SILVER -> println("The symbol of Silver is Ag")
-        TRADED_METALS.COPPER -> println("The symbol of Copper is Cu")
-        TRADED_METALS.IRON -> println("The symbol of Iron is Fe")
-        TRADED_METALS.TITANIUM -> println("The symbol of Titanium is Ti")
-        TRADED_METALS.PLATINUM -> println("The symbol of Platinum is Pt")
-        TRADED_METALS.LITHIUM -> println("The symbol of Lithium is Li")
+    when(TradedMetals.IRON){
+        TradedMetals.GOLD -> println("The symbol of Gold is Au")
+        TradedMetals.SILVER -> println("The symbol of Silver is Ag")
+        TradedMetals.COPPER -> println("The symbol of Copper is Cu")
+        TradedMetals.IRON -> println("The symbol of Iron is Fe")
+        TradedMetals.TITANIUM -> println("The symbol of Titanium is Ti")
+        TradedMetals.PLATINUM -> println("The symbol of Platinum is Pt")
+        TradedMetals.LITHIUM -> println("The symbol of Lithium is Li")
         // Adding an else clause will generate a warning
     }
 }
@@ -125,37 +147,15 @@ This will return the following output:
 The symbol of Iron is Fe
 ```
 
-## The Use of Constructors to Add Properties
-
-## Example (on use of constructors)
-
-```kotlin
-enum class COLORS(val symbol: String) {
-    RED("war"),
-    BLUE("peace"),
-    WHITE("neutrality")
-}
-fun main()
-{
-    println(COLORS.RED.symbol)
-}
-```
-
-The example above returns:
-
-```shell
-war
-```
-
 ## Implementing an Interface
 
-The following example demonstrates how to implement an interface:
+Another feature of enum classes is the capacity to implement an interface, the following example demonstrates how:
 
 ```kotlin
 interface IAccountInterestRates {
     fun getInterestRate() : Double
 }
- 
+
 enum class AccountTypes(val minBalance: Int) : IAccountInterestRates {
     SAVINGS_ACCOUNT(0) {
         override fun getInterestRate(): Double {
@@ -173,7 +173,7 @@ enum class AccountTypes(val minBalance: Int) : IAccountInterestRates {
         }
     }
 }
- 
+
 fun main() {
     // Calling a static method within the enum
     println("Savings bank interest rate is : ${AccountTypes.SAVINGS_ACCOUNT.getInterestRate()}")
@@ -194,20 +194,20 @@ The example below demonstrates how enum constants can be declared through an ano
 
 ```kotlin
 enum class Seasons(var weather: String) {
-    Summer("hot"){
-        // compile time error if not override the function foo()
-        override fun foo() {              
-            println("Hot days of a year")
+    SUMMER("hot"){
+        // There would be a compile time error if the function is not overridden
+        override fun foo() {
+            println("Hottest days of the year")
         }
     },
-    Winter("cold"){
+    WINTER("cold"){
         override fun foo() {
-            println("Cold days of a year")
+            println("Coldest days of the year")
         }
     },
-    Rainy("moderate"){
+    RAINY("moderate"){
         override fun foo() {
-            println("Rainy days of a year")
+            println("Rainiest days of the year")
         }
     };
     abstract fun foo()
@@ -215,12 +215,12 @@ enum class Seasons(var weather: String) {
 // main function
 fun main(args: Array<String>) {
     // calling foo() function override be Summer constant
-    Seasons.Summer.foo() 
+    Seasons.SUMMER.foo()
 }
 ```
 
 The output is:
 
 ```shell
-Hot days of a year
+Hottest days of the year
 ```
