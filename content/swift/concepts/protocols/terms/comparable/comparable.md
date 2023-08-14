@@ -14,9 +14,6 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 The **`Comparable`** protocol in Swift is used to define a sort order for instances of a type. To add `Comparable` conformance to custom types, define the < and == operators as static methods of those types.
 
 ## Syntax
-
-
-
 ```
 struct StructName: Comparable {
     let var: Int
