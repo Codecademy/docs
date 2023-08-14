@@ -27,6 +27,7 @@ struct StructName: Comparable {
     }
 }
 ```
+To conform a custom type to the **Comparable** protocol conformance to **Comparable** is first declared, then static methods for < and == are defined.
 
 ## Example
 
@@ -46,11 +47,12 @@ struct Building: Comparable {
 let eiffelTower = Building(height: 300)
 let burjKhalifa = Building(height: 828)
 let sydneyTower = Building(height: 300)
+```
+A custom type *Building* was created with a *height* constant, and static methods for < and == were defined. There are three instances of this type: eiffelTower, BurjKhalifa and sydneyTower. The example conforms to the **Comparable** protocol, allowing each of the instances to be compared:
 
+```
 print(eiffelTower < burjKhalifa) // true
 print(eiffelTower > sydneyTower) // false
 print(sydneyTower == burjKhalifa) // false
 print(sydneyTower != eiffelTower) // false
 ```
-
-
