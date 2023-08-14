@@ -32,6 +32,7 @@ The advantages of using JRuby are high performance, real threading, and platform
 JRuby takes longer to start up, tends to be more memory intensive, and may even overwrite memory which could result in additional time spent addressing bugs. JRuby may lose access to the C library compatibility, and some gems may not transition to JRuby because of incompatible native C libraries. 
 
 
-## Some popular Java Ruby implementations:
+## Some popular Java Ruby implementations
+
 [JRuby](https://www.jruby.org/)
 [TruffleRuby](https://www.graalvm.org/ruby/)
