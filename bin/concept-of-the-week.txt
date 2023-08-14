@@ -1,1 +1,1 @@
-content/java/concepts/classes/classes.md
+content/general/concepts/software-testing/software-testing.md
