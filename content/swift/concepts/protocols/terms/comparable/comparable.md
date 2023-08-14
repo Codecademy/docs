@@ -11,8 +11,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **Comparable** protocol in Swift is used to define a sort order for instances of a type.
-> To add Comparable conformance to your custom types, define the < and == operators as static methods of your types.
+The **`Comparable`** protocol in Swift is used to define a sort order for instances of a type. To add `Comparable` conformance to custom types, define the < and == operators as static methods of those types.
 
 ## Syntax
 
