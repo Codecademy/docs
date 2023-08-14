@@ -1,6 +1,6 @@
 ---
 Title: 'Comparable Protocol' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'Protocol in Swift used to define a sort order for instances of a type' # Required; ideally under 150 characters and starts with a present-tense verb (used in search engine results and content previews)
+Description: 'Protocol in Swift used to define a sort order for instances of a type.' # Required; ideally under 150 characters and starts with a present-tense verb (used in search engine results and content previews)
 Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
   - 'Mobile Development'
   - 'Computer Science'
