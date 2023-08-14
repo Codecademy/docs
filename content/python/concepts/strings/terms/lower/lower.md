@@ -17,7 +17,7 @@ Takes a string, and returns a copy of that string in which all letters are lower
 
 ## Syntax
 
-```python
+```pseudo
 string.lower()
 ```
 
@@ -70,14 +70,14 @@ if my_string.lower() == "amazing!":
 
 ## Codebyte Example
 
-Comparing `my_favorite_color` to `user_favorite_color` using `.lower()`. Note `my_favorite_color` is capitalized even after the `.lower()` method is used on it.
+The example below compares `color_entry_a` to `color_entry_b` using `.lower()`. Note `color_entry_a` remains capitalized even after the `.lower()` method is used on it.
 
 ```codebyte/python
-my_favorite_color = "Blue"
-user_favorite_color = "blue" # enter your favorite color here
+color_entry_a = "Blue"
+color_entry_b = "blue"
 
-if my_favorite_color.lower() == user_favorite_color.lower():
-  print("We both like the color " + my_favorite_color + "!")
+if color_entry_a.lower() == color_entry_b.lower():
+  print("We both like the color " + color_entry_a + "!")
 else:
   print("We like different colors.")
 ```
