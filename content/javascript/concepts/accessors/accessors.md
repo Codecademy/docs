@@ -1,15 +1,15 @@
 ---
 Title: 'Accessors'
-Description: 'Provides access to an object's properties by using the dot notation or the bracket notation.'
+Description: "Provides access to an object's properties by using the dot notation or the bracket notation."
 Subjects:
-  - 'Computer Science'
-  - 'Web Development'
-Tags:
-  - 'OOP'
-  - 'Methods'
-CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+ - 'Web Development'
+ - 'Computer Science'
+  Tags:
+ - 'OOP'
+ - 'Methods'
+  CatalogContent:
+ - 'introduction-to-javascript'
+ - 'paths/front-end-engineer-career-path'
 ---
 
 In JavaScript, object properties can be accessed using accessor known as getters. The `get` keyword is used to define a getter method for establishing custom behavior when accessing the values of object properties.
