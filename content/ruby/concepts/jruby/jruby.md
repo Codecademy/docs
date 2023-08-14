@@ -20,6 +20,7 @@ Ruby is written and implemented in the C programming language, and JRuby is writ
 JRuby will interpret ruby code using Java's Virtual Machine (JVM) rather than Ruby's interpreter. All of Ruby's built-in core classes are supported by JRuby and most standard libraries; however, there are a few missing libraries that depend on a C language implementation. 
 
 ### Global Interrupt Lock
+
 While Ruby can create threads and perform serial execution, Ruby has a Global Interrupter Lock, which means Ruby can only execute one code at a time. JRuby does not have this limitation and uses the JVM multi-threaded features to complete tasks faster by running code simultaneously.
 
 ### JRuby Advantages
