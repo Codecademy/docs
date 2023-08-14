@@ -12,13 +12,13 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**MDX** is an extension to Markdown that allows developers to include JSX and import components like interactive charts and alerts to make Markdown documents that contain lengthy content more engaging.
+**MDX** is an extension to [Markdown](https://www.codecademy.com/resources/docs/markdown) that allows developers to include JSX and import components like interactive charts and alerts to make Markdown documents that contain lengthy content more engaging.
 
 ## Syntax
 
 There is not specific set standard for adding MDX, so for the sake of this entry, the information below shows pseudo MDX code:
 
-````pseudo
+```pseudo
 import React from 'react';
 
 const MyComponent = () => {
@@ -36,9 +36,11 @@ return (
 };
 
 export default MyMDX;
+```
+
 ## Example
 
-In this example, the variable, `cookies`, is used throughout the MDX file to provide explanations to children on why they are delicious.
+In the below code snippet, the variable, `cookies`, is used throughout the MDX file to provide explanations to children on why they are delicious.
 
 ```md
 import { cookies } from './path/to/your/file.js';
@@ -62,4 +64,4 @@ Here are some examples of {cookies}:
 - Sugar cookies are sweet and can be decorated with icing or sprinkles.
 - Peanut butter cookies are nutty and made with peanut butter.
   That's it for now! Hope you enjoyed learning about **{cookies}** and maybe you can have a one as a treat too!
-````
+```
