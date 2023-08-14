@@ -1,6 +1,6 @@
 ---
 Title: '.getActualMaximum()'
-Description: 'A Calendar class method that returns the maximum value the specified calendar field could have, based on the time value of the calendar'
+Description: 'Returns the actual maximum value for a specific calendar field, conditional on the time value of the calendar'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -12,7 +12,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.getActualMaximum()`** method of the `Calendar` class retrieves the maximum value the specified calendar field could have, based on the time value of the calendar.
+The **`.getActualMaximum()`** method of the `Calendar` class returns the actual maximum value for a specific calendar field based on the current state of the calendar instance.
+
+This method takes only one argument, `int field`, which is an integer constant representing the calendar field for which the maximum value will be returned. The value is based on factors such as the current day, month or year. For example Calendar.MONTH and Calendar.YEAR.
 
 ## Syntax
 
@@ -20,41 +22,37 @@ The **`.getActualMaximum()`** method of the `Calendar` class retrieves the maxim
 calendar.getActualMaximum(int field)
 ```
 
-## Parameters
-
-`int field`: The calendar field the maximum value is to be retrieved from. For example `Calendar.MONTH` and `calendar.YEAR`
-
 ## Example
 
-In the following example, `.getActualMax()` is used to retrieve the maximum value of both the `Calendar.MONTH` and `Calendar.YEAR` fields.
+In the following example, `.getActualMaximum()` is used to retrieve the maximum value of both the `Calendar.MONTH` and `Calendar.YEAR` fields. This example will return the maximum day in the month of February of the year 2012.
 
 ```java
-import java.util.*;
+import java.util.Calendar;
 
-public class CalendarMaxDemo {
-   public static void main(String[] args) {
+ // CalendarMaxDemo.java
+ public class CalendarMaxDemo {
+  public static void main(String[] args) {
 
-        //Creating a calendar instance 
-      Calendar calendar = Calendar.getInstance();
+  // Create a Calendar instance
+  Calendar calendar = Calendar.getInstance();
 
-        //Retrieving the maximum value  the year field  can have   
-        int year = 
-            calendar.getActualMaximum(Calendar.YEAR);
-            system.out.println("Maximum year is: " + year);
+  // Set the year field to 2012
+  calendar.set(Calendar.YEAR, 2012);
 
-        //Retrieving the maximum value the month field can have 
+  // Set the month field to February
+  calendar.set(Calendar.MONTH, Calendar.FEBRUARY); 
+        
+  // Retrieve the actual maximum day in February of the year 2012
+  int max-day = calendar.getActualMaximum(Calendar.DAY_OF_MONTH);
 
-        int month = 
-            calendar.getActualMaximum(Calendar.MONTH);
-            system.out.println("Maximum MONTH is: " + month); 
-
-   }
+  // Print the result
+  System.out.println("Maximum day of the month: " + max-day);
+  }
 }
 ```
 
-The output of the above code will be:
+The output of the above code will be 29 implying that 2012 was a leap year:
 
 ```shell
-Maximum year is: 292278994
-Maximum MONTH is: 11
+Maximum day of the month: 29
 ```
