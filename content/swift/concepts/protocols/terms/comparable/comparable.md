@@ -22,7 +22,7 @@ struct StructName: Comparable {
     return lhs.var < rhs.var
     }
 
-    static func == (lhs: Building, rhs: Building) -> Bool {
+    static func == (lhs: StructName, rhs: StructName) -> Bool {
     return lhs.var == rhs.var
     }
 }
