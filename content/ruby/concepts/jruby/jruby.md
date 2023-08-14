@@ -21,7 +21,7 @@ JRuby will interpret ruby code using Java's Virtual Machine (JVM) rather than Ru
 
 ### Global Interrupt Lock
 
-While Ruby can create threads and perform serial execution, Ruby has a Global Interrupter Lock, which means Ruby can only execute one code at a time. JRuby does not have this limitation and uses the JVM multi-threaded features to complete tasks faster by running code simultaneously.
+While Ruby can create threads and perform serial execution, Ruby has a Global Interrupter Lock, which means Ruby can only execute one thread at a time. JRuby does not have this limitation and uses the JVM's multi-threaded features to complete tasks faster by running code simultaneously.
 
 ### JRuby Advantages
 The advantages of using JRuby are high performance, real threading, and platform independence. JRuby achieves more requests per second by using the JVM's multi-threading. The JVM has over 20 years of experienced engineers working to solve many performance issues by enhancing concurrency, parallelism, memory garbage collection, and Just-in-Time(JIT) compiler. 
