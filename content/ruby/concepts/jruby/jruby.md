@@ -27,7 +27,7 @@ While Ruby can create threads and perform serial execution, Ruby has a Global In
 
 ### JRuby Advantages
 
-The advantages of using JRuby are high performance, real threading, and platform independence. JRuby achieves more requests per second by using the JVM's multi-threading capability. The JVM has over 20 years of experienced engineers working to solve many performance issues by enhancing concurrency, parallelism, memory garbage collection, and the Just-in-Time(JIT) compiler. 
+The advantages of using JRuby are high performance, real threading, and platform independence. JRuby achieves more requests per second by using the JVM's multi-threading capability. The JVM has over 20 years of experienced engineers working to solve many performance issues by enhancing concurrency, parallelism, memory garbage collection, and the [Just-in-Time (JIT) compiler](https://www.codecademy.com/resources/docs/general/jit-compilation). 
 
 ### JRuby Disadvantages
 
