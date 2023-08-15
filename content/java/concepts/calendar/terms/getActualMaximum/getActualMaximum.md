@@ -14,13 +14,13 @@ CatalogContent:
 
 The **`.getActualMaximum()`** method of the `Calendar` class returns the actual maximum value for a specific calendar field based on the current state of the calendar instance.
 
-This method takes only one argument, `int field`, which is an integer constant representing the calendar field for which the maximum value will be returned. The value is based on factors such as the current day, month or year. For example Calendar.MONTH and Calendar.YEAR.
-
 ## Syntax
 
 ```pseudo
 calendar.getActualMaximum(int field)
 ```
+
+This method takes only one argument, `int field`, which is an integer constant representing the calendar field for which the maximum value will be returned. The value is based on factors such as the given day, month or year (e.g. `Calendar.MONTH`).
 
 ## Example
 
@@ -29,8 +29,8 @@ In the following example, `.getActualMaximum()` is used to retrieve the maximum 
 ```java
 import java.util.Calendar;
 
- // CalendarMaxDemo.java
- public class CalendarMaxDemo {
+ // CalendarMaxExample.java
+ public class CalendarMaxExample {
   public static void main(String[] args) {
 
   // Create a Calendar instance
@@ -40,13 +40,13 @@ import java.util.Calendar;
   calendar.set(Calendar.YEAR, 2012);
 
   // Set the month field to February
-  calendar.set(Calendar.MONTH, Calendar.FEBRUARY); 
-        
+  calendar.set(Calendar.MONTH, Calendar.FEBRUARY);
+
   // Retrieve the actual maximum day in February of the year 2012
-  int max-day = calendar.getActualMaximum(Calendar.DAY_OF_MONTH);
+  int maxDay = calendar.getActualMaximum(Calendar.DAY_OF_MONTH);
 
   // Print the result
-  System.out.println("Maximum day of the month: " + max-day);
+  System.out.println("Maximum day of the month: " + maxDay);
   }
 }
 ```
