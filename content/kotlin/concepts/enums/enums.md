@@ -41,7 +41,7 @@ Properties:
 Methods:
 
 - `values`: This method returns a list of all the constants defined within the enum class.
-- `valueOf`: This method returns the enum constant that matches the input string passed. If the constant, is not present in the enum, then an `IllegalArgumentException` is thrown.
+- `valueOf`: This method returns the enum constant that matches the input string passed. If the constant is not present in the enum, then an `IllegalArgumentException` is thrown.
 
 The following example demonstrates the use of the enum class properties in Kotlin:
 
