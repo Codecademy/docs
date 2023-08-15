@@ -1,6 +1,6 @@
 ---
 Title: 'JRuby'
-Description: 'JRuby is an implementation of Ruby written in Java programming language using the Java Virtual Machine (JVM).'
+Description: 'JRuby is an implementation of Ruby written in Java that leverages the Java Virtual Machine (JVM).'
 Subjects:
   - 'Web Development'
   - 'Web Design'
