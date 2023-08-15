@@ -17,7 +17,7 @@ JRuby is an implementation of Ruby written in Java programming language using th
 
 Ruby is written and implemented in the C programming language, and JRuby is written and implemented in Java. Ruby and JRuby use object-oriented programming, dynamic typing, and garbage collection despite being written in different programming languages. As a result, JRuby can understand and interpret all Ruby code with a few exceptions. 
 
-## Interpreter differences
+## Interpreter Differences
 
 JRuby will interpret ruby code using Java's Virtual Machine (JVM) rather than Ruby's interpreter. All of Ruby's built-in core classes are supported by JRuby and most standard libraries; however, there are a few missing libraries that depend on a C language implementation. 
 
