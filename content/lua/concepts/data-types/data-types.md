@@ -11,8 +11,8 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'paths/computer-science'
 ---
 
-Lua, like Python, is a dynamically typed language, which means the the type does not have to be explicitly declared with the variable. Lua has eight basic **data types**,  some commonly used data types are:
-* Number: Represents double-percision floating point values (there are is no `int` type in Lua). 
+Lua, like Python, is a dynamically typed language, which means the type does not have to be explicitly declared with the variable. Lua has eight basic **data types**,  some commonly used data types are:
+* Number: Represents double-precision floating point values (there is no `int` type in Lua). 
 * Boolean
 * String
 * Nil 
@@ -26,9 +26,11 @@ location = 'Maple Road'
 print(type(location)) -- This outputs "string"
 
 print(type(12/3)) -- This outputs "number"
+```
+
 ## Type Conversion
 
-In Lua, **type coercion** automatically happens when strings and numbers are concatenated together or when a string with a numeric value appears in an arithmetic expression.
+In Lua, **type coercion** automatically happens when strings and numbers are concatenated or when a string with a numeric value appears in an arithmetic expression.
 
 ```lua
 --  The first type coercion is used in a concatenation to change a number to a string.
@@ -42,7 +44,9 @@ print('53' + 7)
 
 -- This outputs 60 because it converted “53” to a number for the arithmetic.
 ```
+
 Types can be manually converted by using the `tostring()` function to convert any data type to a string type:
+
 ```lua
 player1Pts = 55
 
