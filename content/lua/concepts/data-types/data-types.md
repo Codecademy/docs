@@ -1,6 +1,6 @@
 ---
-Title: 'Data Type' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'In Lua, there are many Data Types. Commonly used data types are: Number, Boolean, String, and Nil.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
+Title: 'Data Types' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
+Description: 'Data types govern the range of values and functionality of those objects in a language.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
 Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
  - 'Computer Science'
 Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
@@ -10,8 +10,9 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'learn-lua'
   - 'paths/computer-science'
 ---
-In Lua, there are many **Data Types**. Some commonly used data types are:
-* Number
+
+Lua, like Python, is a dynamically typed language, which means the the type does not have to be explicitly declared with the variable. Lua has eight basic **data types**,  some commonly used data types are:
+* Number: Represents double-percision floating point values (there are is no `int` type in Lua). 
 * Boolean
 * String
 * Nil 
@@ -19,15 +20,16 @@ In Lua, there are many **Data Types**. Some commonly used data types are:
 ## type()
 
 Lua has a built-in `type()` function to retrieve the data type.
+
 ```lua
 location = 'Maple Road'
 print(type(location)) -- This outputs "string"
 
 print(type(12/3)) -- This outputs "number"
-```
 ## Type Conversion
 
 In Lua, **type coercion** automatically happens when strings and numbers are concatenated together or when a string with a numeric value appears in an arithmetic expression.
+
 ```lua
 --  The first type coercion is used in a concatenation to change a number to a string.
 
@@ -40,9 +42,7 @@ print('53' + 7)
 
 -- This outputs 60 because it converted “53” to a number for the arithmetic.
 ```
-Types can be manually converted by using:
-
-* `tostring()` function to convert any data type to a string type 
+Types can be manually converted by using the `tostring()` function to convert any data type to a string type:
 ```lua
 player1Pts = 55
 
@@ -50,7 +50,7 @@ print('Player 1 has ' .. tostring(player1Pts) .. ' points')
 -- This prints “Player 1 has 55 points”
 ```
 
-* `tonumber()` function to convert any data type to a number type
+The `tonumber()` function is used to convert any data type to a number type:
 
 ```lua
 totalGuests = '30'
