@@ -25,7 +25,7 @@ result = myCalendar.after(time);
 
 ## Example
 
-In this example, `calendar1` is set to August 1, 2023, and `calendar2` is set to September 1, 2023. Then, the `after()` method is used to check if `calendar1` is after `calendar2`.
+In this example, `calendar1` is set to August 1, 2023, and `calendar2` is set to September 1, 2023. Then, the `.after()` method is used to compare these two instances.
 
 ```java
 import java.util.Calendar;
