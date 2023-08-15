@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **Mathematical Library** holds Lua built-in functions that relate to math. These math functions include those relating to trigonometry (like `sin` and  `cos`), exponents (`exp` or `^`), logs (`logN`), rounding (`floor`, `ceil`), max, min, and pi.
+The **Mathematical Library** holds Lua built-in functions that relate to math. These math functions include those relating to trigonometry (like `sin` and `cos`), exponents (`exp` or `^`), logs (`logN`), rounding (`floor`, `ceil`), max, min, and pi.
 
 ## Math Functions
 
