@@ -11,7 +11,7 @@ CatalogContent:
   - 'learn-rails'
 ---
 
-JRuby is an implementation of Ruby written in Java programming language using the Java Virtual Machine (JVM).
+JRuby is an implementation of Ruby written in Java that leverages the Java Virtual Machine (JVM), which provides performance and accessibility benefits for deploying Ruby applications.
 
 ## Design Differences
 
