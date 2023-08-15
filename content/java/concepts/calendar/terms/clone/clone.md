@@ -29,13 +29,13 @@ This example creates a calendar, displays it, clones it and displays its clone.
 
 ```java
 import java.util.*;
-  
-public class CalendarClassDemo {
+
+public class CalendarCloneExample {
   public static void main(String args[])
   {
     // Create a calendar object
     Calendar original_calendar = new GregorianCalendar(1971, 8, 13);
-  
+
     // Print original calendar
     System.out.println(original_calendar.getTime());
 
