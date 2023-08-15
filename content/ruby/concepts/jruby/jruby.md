@@ -19,7 +19,7 @@ Ruby is written and implemented in the C programming language, and JRuby is writ
 
 ## Interpreter Differences
 
-JRuby will interpret ruby code using Java's Virtual Machine (JVM) rather than Ruby's interpreter. All of Ruby's built-in core classes are supported by JRuby and most standard libraries; however, there are a few missing libraries that depend on a C language implementation. 
+JRuby will interpret Ruby code using Java's Virtual Machine (JVM) rather than Ruby's interpreter. All of Ruby's built-in core classes are supported by JRuby and most standard libraries; however, there are a few missing libraries that depend on a C language implementation. 
 
 ### Global Interrupt Lock
 
