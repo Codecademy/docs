@@ -2,7 +2,7 @@
 Title: 'Mathematical Library'
 Description: 'Lua's Mathematical Library holds built-in functions relating to math.'
 Subjects:
- - 'Computer Science'
+  - 'Computer Science'
 Tags:
   - 'Arithmetic'
   - 'Functions'
