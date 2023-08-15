@@ -50,3 +50,13 @@ os.rmdir("myfolder")
 # Delete folder in another directory
 os.rmdir("/path/to/myfolder")
 ```
+
+## Codebyte Example
+
+
+
+```codebyte/python
+# import os module
+
+# 
+```
