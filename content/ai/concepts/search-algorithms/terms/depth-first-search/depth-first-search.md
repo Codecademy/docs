@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Depth-first search (DFS)** is a traversing algorithm for unweighted graphs.Like BFS (Breadth First Search), it is a foundational algorithm in [graph](https://www.codecademy.com/resources/docs/general/graph) theory from which many other algorithms begin.
+**Depth-first search (DFS)** is a traversing algorithm for unweighted graphs.Like BFS (Breadth-first search), it is a foundational algorithm in [graph](https://www.codecademy.com/resources/docs/general/graph) theory from which many other algorithms begin.
 
 ## Features
 
