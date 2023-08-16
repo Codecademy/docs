@@ -1,22 +1,22 @@
 ---
 Title: 'Congruences'
 Description: 'Congruences refer to the relationship between two integers a and b when they have the same remainder after
-division by positive integer m.'
+division by positive integer m that is greater than 1.'
 Subjects:
-- 'Computer Science'
-- 'Discrete Math'
+  - 'Computer Science'
+  - 'Discrete Math'
 Tags:
-- 'Arithmetic'
-- 'Math'
-- 'Logical'
-- 'Logic'
+  - 'Arithmetic'
+  - 'Math'
+  - 'Logical'
+  - 'Logic'
 CatalogContent:
-- 'computer-science'
-- 'paths/computer-science'
+  - 'computer-science'
+  - 'paths/computer-science'
 ---
 
-Congruences refer to the relationship between two integers _a_ and _b_ when they have the same remainder after division
-by positive integer _m_.
+**Congruences** refer to the relationship between two integers, _a_ and _b_, that have the same remainder after division
+by positive integer, _m_, that is greater than 1.
 
 ## _a_ divides _b_
 
@@ -24,15 +24,14 @@ If _a_ and _b_ are integers with a $$\neq$$ 0 then _a_ divides _b_ if an integer
 
 Explanation:
 
-- When _a_ divides _b_, it is denoted as a | b.
-- _a_ is termed as factor or divisor of _b_ while _b_ is termed as multiple of a.
-- If a | b then b / a is an integer (_According to a divides b_).
+- When _a_ divides _b_, it is denoted as _a_ | _b_.
+- _a_ is termed as factor or divisor of _b_ while _b_ is termed as multiple of _a_.
+- If _a_ | _b_ then _b_ / _a_ is an integer (According to _a_ divides _b_).
 - If a does not divide b, it is denoted with a $$\nmid$$ b
 
-## a is congruent to b mod n
+## _a_ is congruent to _b_ mod _m_
 
-If _a_ and _b_ are integers and _m_ is a positive integer, then _a_ is congruent
-to _b_ modulo _m_ iff _m|(a − b)_. It is termed as Congruence Relation.
+If _a_ and _b_ are integers and _m_ is a positive integer, then _a_ is congruent to _b_ modulo _m_ iff _m|(a − b)_. It is termed as Congruence Relation.
 
 Explanation:
 
@@ -61,18 +60,22 @@ Here, _m_ is a positive integer. Solution of congruence stands for all the value
 
 A congruence relation is reflexive if for any integers:
 
-> $$a \equiv a \pmod{m}$$ for any integer \(a\) and positive integer \(m\).
+```tex
+a \equiv a \pmod{m} \text{for any integer } a \text{ and positive integer } m.
+```
 
 ## Symmetric Property
 
 A congruence relation is symmetric if for any integers:
 
-> $$\text a \equiv b \pmod{m}, \text{ then } b \equiv a \pmod{m} \text{ for any integers } a, b \text{ and positive
-integer } m.$$
+```tex
+\text{If } a \equiv b \pmod{m}, \text{ then } b \equiv a \pmod{m} \text{ for any integers } a, b \text{ and positive integer } m.
+```
 
 ## Transitive Property
 
 A congruence relation is transitive if for any integers:
 
-> $$\text{ If } a \equiv b \pmod{m} \text{ and } b \equiv c \pmod{m}, \text{ then } a \equiv c \pmod{m} \text{ for any
-integers } a, b, c \text{ and positive integer } m.$$
+```tex
+\text{If } a \equiv b \pmod{m} \text{ and } b \equiv c \pmod{m}, \text{ then } a \equiv c \pmod{m} \text{ for any integers } a, b, c \text{ and positive integer } m.\
+```
