@@ -7,12 +7,14 @@ Subjects:
 Tags:
   - 'OOP'
   - 'Methods'
+  - 'Objects'
+  - 'Classes'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
 
-In JavaScript, object properties can be accessed using accessor known as getters. The `get` keyword is used to define a getter method for establishing custom behavior when accessing the values of object properties.
+In JavaScript, object properties can be accessed using accessor known as getters. The `get` keyword is used to define a getter method for establishing custom behavior when accessing the values of object properties, while the `set` keyword allows you to define a setter method to control the behavior when assigning values to those properties.
 
 ## Syntax
 
