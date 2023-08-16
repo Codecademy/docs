@@ -41,7 +41,7 @@ The implementation below can be broken down into the following steps:
 3. Now, find the neighboring vertexes (of the current node), and if they haven't been visited push them into the stack.
 - Now, repeat steps 3 and 4 until no vertices are left to visit from the vertex on the stack's top.
 - If no vertex is left, go back and pop a vertex from the stack.
-- Repeat steps 2, 3, and 4 until the stack is empty.
+5. Repeat steps 2, 3, and 4 until the stack is empty.
 
 ## Example:
 https://raw.githubusercontent.com/Codecademy/docs/main/media/Depth-First-Search-Example.png
