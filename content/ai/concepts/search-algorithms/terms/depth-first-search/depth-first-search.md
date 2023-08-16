@@ -88,5 +88,5 @@ dfs(graph,start,goal,visited,stack)
 
 ```shell
 The path traversed is:
-A B D E H I C F G J >
+A B D E H I C F G J 
 ```
