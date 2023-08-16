@@ -50,7 +50,7 @@ https://raw.githubusercontent.com/Codecademy/docs/main/media/Depth-First-Search-
 The following is an implementation in Python:
 
 ```python
-#visited keepds record of visited nodes
+# The visited variable keeps a record of the nodes explored
 def dfs(graph,start,goal,stack,visited):
     stack.append(start)
     visited.append(start)
