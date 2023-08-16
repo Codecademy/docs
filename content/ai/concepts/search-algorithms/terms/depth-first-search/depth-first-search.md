@@ -31,7 +31,7 @@ Some of the features and constraints that define the use and functionality of th
 The example below walks through a basic implementation of DFS that will take a starting node, an end node, and a graph as arguments. The algorithm will return the path it navigated between starting and end node provided.
 
 The depth-first search (DFS) algorithm starts with the initial node of graph G and goes deeper until we find the goal node or the node with no children.
-Because of the recursive nature of the traversal process, stack data structure can be used to implement the DFS algorithm.
+Because of the recursive nature of the traversal process, a stack data structure can be used to implement the DFS algorithm.
 
 The implementation below can be broken down into the following steps:
 
