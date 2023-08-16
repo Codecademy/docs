@@ -39,7 +39,7 @@ Output for above code is:
 
 The next example uses the **format()** function to convert an integer to a binary and print its string representation.
 
-```python
+```codebyte/python
 value = 42
 formatted = format(value, 'b')  # Format value as binary
 print(formatted)
