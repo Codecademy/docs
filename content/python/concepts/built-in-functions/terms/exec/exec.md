@@ -1,4 +1,4 @@
---
+---
 Title: 'exec()'
 Description: 'Executes a code object or string containing python code.'
 Subjects:
@@ -38,6 +38,12 @@ code = 'print("Hello, Codecademy!")'
 exec(code)
 ```
 
+This example results in the following output:
+
+```shell
+Hello, Codecademy!
+```
+
 ## Example 2
 
 This example uses `exec()` to execute python code from a file `code.txt`, which contains Python commands:
@@ -60,19 +66,13 @@ with open('code.txt','r') as file:
 exec(code)
 ```
 
-## Example 3
+This example will produce output like the following, but with the current date:
 
-This example uses `exec()` to execute a code object:
-
-```codebyte/python
-code = 'import datetime\nprint("Hello, Codecademy!")\ncurrent_time = datetime.datetime.now()\nprint(current_time)'
-
-code_object = compile(code,'<string>','exec')
-
-exec(code_object)
+```shell
+2023-08-16 14:17:06.092145
 ```
 
-## Example 4
+## Example 3
 
 This example uses `exec()` with `globals` and `locals`:
 
@@ -97,4 +97,16 @@ def f2():
 exec("f1()",{"__builtins__": {}}, {"f1": f1})
 
 exec("f2()",{"__builtins__": {}}, {"f1": f1}) #This will throw an error
+```
+
+## Codebyte Example
+
+This example uses `exec()` to execute a code object:
+
+```codebyte/python
+code = 'import datetime\nprint("Hello, Codecademy!")\ncurrent_time = datetime.datetime.now()\nprint(current_time)'
+
+code_object = compile(code,'<string>','exec')
+
+exec(code_object)
 ```
