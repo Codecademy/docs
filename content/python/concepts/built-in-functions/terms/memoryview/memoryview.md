@@ -17,38 +17,43 @@ The **`memoryview()`** built-in function creates a `memoryview` object that allo
 
 ## Syntax
 
-```python
-obj = bytes([65, 66, 67, 68, 69])
+```pseudo
 mv = memoryview(obj)
-print(mv)
 ```
-This code results in the following output:
-```shell
-output <memory at 0x117003340>
-```
+
 Where `obj` is the object to create a `memoryview` of, and `mv` is the `memoryview` created.
 
 > **Note:** `memoryview()` can only be used on objects that support the buffer protocol and have a readable or writable buffer interface, such as `byte`, `bytearray`, `array.array`, `numpy` arrays, and other objects created using the struct module. `list` and `str` objects don't support the buffer protocol.
 
 ## Example 1
 
+The example below illustrates the creation of memoryview objects, their display, and the outcome when an inappropriate object is passed to the function:
+
 ```python
 l = [1, 2, 3, 4, 5, 6]
 memoryview(l)
 ```
+
 The output will be:
+
 ```shell
 output TypeError: memoryview: a bytes-like object is required, not 'list'
 ```
+
+The following code snippet demonstrates how a `memoryview` object is created from a numpy array:
+
 ```python
 import numpy as np
 arr = np.array([1, 2, 3, 4, 5, 6])
 memoryview(arr)
 ```
+
 This will print the following output:
+
 ```shell
 output <memory at 0x117003700>
 ```
+
 > **Note** that memory address generated will vary for each execution of the code. This discrepancy is related to the creation of a new memoryview object.
 
 ## Example 2
@@ -58,15 +63,26 @@ output <memory at 0x117003700>
 ```python
 arr = bytearray(10)
 mv = memoryview(arr)
-mv[0] = mv[-1] = 65
-print(arr)
-# output bytearray(b'A\x00\x00\x00\x00\x00\x00\x00\x00A')
-
+mv[0] = 65
 print(mv[0])
-#output 65
+```
 
+This will output a modified element: 
+
+```shell
+65
+```
+
+Here is how a slicing operation on a `memoryview` object is performed:
+
+```python
 print(mv[1:4])
-#output <memory at 0x117003880>
+```
+
+Note that a slice of a `memoryview` object is also a `memoryview` object:
+
+```shell
+<memory at 0x117003880>
 ```
 
 ## Summary
