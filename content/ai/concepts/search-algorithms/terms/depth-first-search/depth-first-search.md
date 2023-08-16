@@ -56,7 +56,7 @@ def dfs(graph,start,goal,stack,visited):
     visited.append(start)
     print('The path traversed is:')
     while stack:
-        #pop from stack if visited 
+        # Pop from stack to set current element  
         element=stack.pop()
         print(element,end=" ")
         if(element==goal):
