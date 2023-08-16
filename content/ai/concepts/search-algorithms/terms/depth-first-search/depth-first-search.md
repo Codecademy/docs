@@ -38,7 +38,7 @@ The implementation below can be broken down into the following steps:
 1. First, initiate a stack with the starting vertex for the traversal.
 2. Pop from the stack and set this vertex as the "current" element or node.
 3. Now, find the neighboring vertexes (of the current node), and if they haven't been visited push them into the stack.
-- If no vertex is left, go back and pop a vertex from the stack.
+4. If no unvisited vertexes remain, go back and pop a vertex from the stack.
 5. Repeat steps 2, 3, and 4 until the stack is empty.
 
 ## Example
