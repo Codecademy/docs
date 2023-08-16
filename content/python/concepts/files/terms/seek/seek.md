@@ -24,7 +24,7 @@ file.seek(offset, from what location)
 
 ## Example
 
-Use `.seek()` to change the position of the reference point within the **gullivers_travels.txt** file:
+Use `.seek()` to change the position of the reference point within the `gullivers_travels.txt` file:
 
 ```python
 f = open("gullivers_travels.txt", "r")
