@@ -24,7 +24,6 @@ Some of the features and constraints that define the use and functionality of th
 - It is a relatively simple algorithm that can be built upon for finding cycles within a graph, to conduct a topological sort of vertices, as well as a range of other useful applications.
 - It has a time complexity of **O(|V| + |E|)**, which is the sum of the vertices and edges.
 - It finds a solution, a path between vertices, but it may or may not be optimal one as in BFS.
-- The difference between DFS and BFS is that DFS takes less time than BFS and finds a solution.
 - The disadvantage of DFS is that it may get stuck in infinite loop if depth is infinite.
 
 ## Implementation
