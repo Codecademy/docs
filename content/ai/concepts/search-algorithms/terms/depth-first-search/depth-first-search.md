@@ -19,6 +19,7 @@ CatalogContent:
 
 Some of the features and constraints that define the use and functionality of the DFS algorithm include the following:
 
+
 - DFS traverses a graph by following a given path as far as possible. Once a dead end is reached, the algorithm backtracks to explore the most recent unvisited neighbours.  A stack is used to retrieve the next vertex, to restart a search, when a dead end is found in any given iteration. 
 - It is a relatively simple algorithm that can be built upon for finding cycles within a graph, to conduct a topological sort of vertices, as well as a range of other useful applications.
 - It has a time complexity of **O(|V| + |E|)**, which is the sum of the vertices and edges.
