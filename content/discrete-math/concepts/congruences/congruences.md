@@ -50,6 +50,7 @@ Suppose _a_ is 17 and _b_ is 5. To check if _a_ is congruent to _b_ modulo _m_:
 Solution: $$17 \equiv 5 \pmod{6}$$ because 6 divides $$17 - 5 = 12$$
 
 ## Congruence Properties
+
 Congruence properties pertain to the equivalence relation between integers where two numbers share the same remainder 
 when divided by a fixed positive integer.
 
