@@ -1,17 +1,17 @@
 ---
 Title: '.complete()'
 Description: 'A method to fill in any empty fields of a Calendar instance.'
-Subjects:  
-- 'Computer Science'
+Subjects:
+  - 'Computer Science'
 Tags:
-- 'Methods'
-- 'Calendar'
+  - 'Methods'
+  - 'Calendar'
 CatalogContent:
-- 'learn-java'
-- 'paths/computer-science'
+  - 'learn-java'
+  - 'paths/computer-science'
 ---
 
-The **.complete()** method of the `Calendar` class is used to fill in any empty fields in the `Calendar` instance.
+The **`.complete()`** method of the `Calendar` class is used to fill in any empty fields in the `Calendar` instance.
 
 ## Syntax
 
@@ -56,4 +56,3 @@ This code will return an output similar to the following;
 The current date is: Mon Aug 14 15:39:33 UTC 2023
 The new date is: Tue Jan 01 00:00:00 UTC 2021
 ```
-
