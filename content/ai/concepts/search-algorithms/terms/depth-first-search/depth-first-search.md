@@ -9,7 +9,7 @@ Tags:
   - 'Graph Search'
   - 'Algorithms'
 CatalogContent:
-  - 'learn-python'
+  - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
