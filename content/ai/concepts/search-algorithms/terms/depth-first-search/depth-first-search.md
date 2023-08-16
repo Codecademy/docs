@@ -36,7 +36,8 @@ Because of the recursive nature of the traversal process, a stack data structure
 The implementation below can be broken down into the following steps:
 
 1. First, initiate a stack with the starting vertex for the traversal.
-- Now, choose any vertex as the starting point of traversal, and push that vertex into the stack.
+2. Pop from the stack and set this vertex as the "current" element or node.
+3. Now, find the neighboring vertexes (of the current node), and if they haven't been visited push them into the stack.
 - After that, push a non-visited vertex (adjacent to the vertex on the top of the stack) to the top of the stack.
 - Now, repeat steps 3 and 4 until no vertices are left to visit from the vertex on the stack's top.
 - If no vertex is left, go back and pop a vertex from the stack.
