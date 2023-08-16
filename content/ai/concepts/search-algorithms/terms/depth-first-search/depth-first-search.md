@@ -42,7 +42,8 @@ The implementation below can be broken down into the following steps:
 - If no vertex is left, go back and pop a vertex from the stack.
 5. Repeat steps 2, 3, and 4 until the stack is empty.
 
-## Example:
+## Example
+
 https://raw.githubusercontent.com/Codecademy/docs/main/media/Depth-First-Search-Example.png
 
 ## code:
