@@ -4,7 +4,6 @@ Description: 'A traversing algorithm for unweighted graphs.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-  - 'Artificial Intellignce'
 Tags:
   - 'Graphs'
   - 'Graph Search'
