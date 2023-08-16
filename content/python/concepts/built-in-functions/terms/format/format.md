@@ -35,7 +35,7 @@ Output for above code is:
 3.14
 ```
 
-## Codebyte Example (if applicable)
+## Codebyte Example
 
 The next example uses the **format()** function to convert an integer to a binary and print its string representation.
 
