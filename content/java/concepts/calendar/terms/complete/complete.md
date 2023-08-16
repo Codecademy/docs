@@ -44,7 +44,7 @@ public class CalendarCompleteExample extends GregorianCalendar {
     cal.complete();
 
     // Print the current date
-      System.out.println("New date is : " + cal.getTime());
+    System.out.println("New date is : " + cal.getTime());
 
    }
 }
