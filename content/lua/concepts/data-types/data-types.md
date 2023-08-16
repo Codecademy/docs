@@ -1,21 +1,34 @@
 ---
 Title: 'Data Types' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'Data types govern the range of values and functionality of those objects in a language.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
+Description: 'Data types govern the range of values and functionality of objects in a language.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
 Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
- - 'Computer Science'
+  - 'Computer Science'
 Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
   - 'Booleans'
+  - 'Strings'
+  - 'Numbers'
   - 'Data Types'
 CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
   - 'learn-lua'
   - 'paths/computer-science'
 ---
 
-Lua, like Python, is a dynamically typed language, which means the type does not have to be explicitly declared with the variable. Lua has eight basic **data types**,  some commonly used data types are:
-* Number: Represents double-precision floating point values (there is no `int` type in Lua). 
-* Boolean
-* String
-* Nil 
+Lua, like Python and Ruby, is a dynamically typed language, which means the **data type** does not have to be explicitly declared with the variable.
+
+## Data Classes
+
+Lua has eight basic data types, which include: `boolean`, `function`, `nil`, `number`, `string`, `table`, `thread`, `userdata`. Some of the most commonly used are demonstrated below.
+
+```lua
+-- A boolean
+flag = false
+-- A string, strings can be declared with single or double quotes
+name = "John Doe"
+-- A number, in Lua there is not an integer type
+num = 13
+-- A function
+function foo () return "bar" end
+```
 
 ## type()
 
@@ -59,6 +72,6 @@ The `tonumber()` function is used to convert any data type to a number type:
 ```lua
 totalGuests = '30'
 
-print( tonumber(totalGuests) / 5)
+print(tonumber(totalGuests) / 5)
 -- This prints 6
 ```
