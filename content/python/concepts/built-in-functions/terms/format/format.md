@@ -45,7 +45,3 @@ formatted = format(value, 'b')  # Format value as binary
 print(formatted)
 ```
 
-Output for the above code is:
-```shell
-101010
-```
