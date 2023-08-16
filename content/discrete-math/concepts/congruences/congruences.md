@@ -20,7 +20,7 @@ by positive integer, _m_, that is greater than 1.
 
 ## _a_ divides _b_
 
-If _a_ and _b_ are integers with a $$\neq$$ 0 then _a_ divides _b_ if an integer _c_, exists given that _b = ac_.
+If _a_ and _b_ are integers with a != 0 then _a_ divides _b_ if an integer _c_, exists given that _b = ac_.
 
 Explanation:
 
@@ -31,7 +31,7 @@ Explanation:
 
 ## _a_ is congruent to _b_ mod _m_
 
-If _a_ and _b_ are integers and _m_ is a positive integer, then _a_ is congruent to _b_ modulo _m_ iff _m|(a − b)_. It is termed as Congruence Relation.
+If _a_ and _b_ are integers and _m_ is a positive integer, then _a_ is congruent to _b_ modulo _m_ if _m|(a − b)_. It is termed as Congruence Relation.
 
 Explanation:
 
@@ -49,14 +49,18 @@ Suppose _a_ is 17 and _b_ is 5. To check if _a_ is congruent to _b_ modulo _m_:
 
 Solution: $$17 \equiv 5 \pmod{6}$$ because 6 divides $$17 - 5 = 12$$
 
-## Linear Congruences
+## Congruence Properties
+Congruence properties pertain to the equivalence relation between integers where two numbers share the same remainder 
+when divided by a fixed positive integer.
+
+### Linear Congruences
 
 Linear Congrences is a special form of congruence denoted by $$ax \equiv b \pmod{m}$$, where _x_ denotes an integer
 variable. Similar to previous cases of congruence, _a_ and _b_ are integers and _m_ is modulo.
 
 Here, _m_ is a positive integer. Solution of congruence stands for all the values of integer _x_ which are satisfied.
 
-## Reflexive Property
+### Reflexive Property
 
 A congruence relation is reflexive if for any integers:
 
@@ -64,7 +68,7 @@ A congruence relation is reflexive if for any integers:
 a \equiv a \pmod{m} \text{for any integer } a \text{ and positive integer } m.
 ```
 
-## Symmetric Property
+### Symmetric Property
 
 A congruence relation is symmetric if for any integers:
 
@@ -72,7 +76,7 @@ A congruence relation is symmetric if for any integers:
 \text{If } a \equiv b \pmod{m}, \text{ then } b \equiv a \pmod{m} \text{ for any integers } a, b \text{ and positive integer } m.
 ```
 
-## Transitive Property
+### Transitive Property
 
 A congruence relation is transitive if for any integers:
 
