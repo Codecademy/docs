@@ -37,7 +37,7 @@ memoryview(l)
 The output will be:
 
 ```shell
-output TypeError: memoryview: a bytes-like object is required, not 'list'
+TypeError: memoryview: a bytes-like object is required, not 'list'
 ```
 
 The following code snippet demonstrates how a `memoryview` object is created from a numpy array:
@@ -51,7 +51,7 @@ memoryview(arr)
 This will print the following output:
 
 ```shell
-output <memory at 0x117003700>
+<memory at 0x117003700>
 ```
 
 > **Note** that memory address generated will vary for each execution of the code. This discrepancy is related to the creation of a new memoryview object.
