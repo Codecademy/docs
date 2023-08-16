@@ -41,7 +41,7 @@ The next example uses the **format()** function to convert an integer to a binar
 
 ```codebyte/python
 value = 42
-formatted = format(value, 'b')  # Format value as binary
+formatted = format(value, 'b')  
 print(formatted)
 ```
 
