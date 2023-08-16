@@ -18,7 +18,9 @@ The **format()** function returns a string from an input value, formatted to the
 
 ## Syntax
 
+```pseudo
 format(value, format_specification)
+```
 
 ## Example
 
