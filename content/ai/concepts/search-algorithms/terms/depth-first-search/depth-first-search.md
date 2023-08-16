@@ -35,7 +35,7 @@ Because of the recursive nature of the traversal process, a stack data structure
 
 The implementation below can be broken down into the following steps:
 
-- First, create a stack with the total number of vertices in the graph.
+1. First, initiate a stack with the starting vertex for the traversal.
 - Now, choose any vertex as the starting point of traversal, and push that vertex into the stack.
 - After that, push a non-visited vertex (adjacent to the vertex on the top of the stack) to the top of the stack.
 - Now, repeat steps 3 and 4 until no vertices are left to visit from the vertex on the stack's top.
