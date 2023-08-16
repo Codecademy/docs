@@ -46,7 +46,6 @@ The implementation below can be broken down into the following steps:
 
 https://raw.githubusercontent.com/Codecademy/docs/main/media/Depth-First-Search-Example.png
 
-## code:
 The following is an implementation in Python:
 
 ```python
