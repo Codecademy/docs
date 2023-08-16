@@ -19,7 +19,7 @@ CatalogContent:
 
 Some of the features and constraints that define the use and functionality of the DFS algorithm include the following:
 
-- DFS traverses a graph by following a given path as far as possible. Once a dead end is reached, the algorithm backtracks to explore the most recent unvisited neighbours.  A stack is used to retrieve the next vertex, to restart a search, when a dead end is found in any given iteration. 
+- DFS traverses a graph by following a given path as far as possible. Once a dead end is reached, the algorithm backtracks to explore the most recent unvisited neighbours. A stack is used to retrieve the next vertex, to restart a search, when a dead end is found in any given iteration.
 - It is a relatively simple algorithm that can be built upon for finding cycles within a graph, to conduct a topological sort of vertices, as well as a range of other useful applications.
 - It has a time complexity of **O(|V| + |E|)**, which is the sum of the vertices and edges.
 - It finds a solution, a path between vertices, but it may or may not be optimal one as in BFS.
@@ -53,7 +53,7 @@ def dfs(graph,start,goal,stack,visited):
     visited.append(start)
     print('The path traversed is:')
     while stack:
-        # Pop from stack to set current element  
+        # Pop from stack to set current element
         element=stack.pop()
         print(element,end=" ")
         if(element==goal):
@@ -62,7 +62,7 @@ def dfs(graph,start,goal,stack,visited):
             if neighbor not in visited:
                 stack.append(neighbor)
                 visited.append(neighbor)
-# A dictionary representing the illustrated graph 
+# A dictionary representing the illustrated graph
 graph={
     'A':['C','B'],
     'B':['E','D'],
@@ -85,5 +85,5 @@ dfs(graph,start,goal,visited,stack)
 
 ```shell
 The path traversed is:
-A B D E H I C F G J 
+A B D E H I C F G J
 ```
