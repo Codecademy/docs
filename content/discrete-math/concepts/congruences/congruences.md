@@ -27,7 +27,7 @@ Explanation:
 - When _a_ divides _b_, it is denoted as _a_ | _b_.
 - _a_ is termed as factor or divisor of _b_ while _b_ is termed as multiple of _a_.
 - If _a_ | _b_ then _b_ / _a_ is an integer (According to _a_ divides _b_).
-- If a does not divide b, it is denoted with a $$\nmid$$ b
+- If a does not divide b, it is denoted with a ⋮ b
 
 ## _a_ is congruent to _b_ mod _m_
 
