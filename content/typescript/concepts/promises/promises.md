@@ -45,11 +45,13 @@ Here, `myPromise` is a promise that resolves to a string. If a different type is
 Once a promise is declared, use the `.then()` and `.catch()` methods to handle the success or failure of the asynchronous operation. The `.then()` method is called when the `Promise` is resolved, while the `.catch()` method is called when it is rejected.
 
 ```ts
-myPromise.then((value) => {
-  console.log('Promise resolved with value: ' + value);
-}).catch((error) => {
-  console.error('Promise rejected with error: ' + error);
-});
+myPromise
+  .then((value) => {
+    console.log('Promise resolved with value: ' + value);
+  })
+  .catch((error) => {
+    console.error('Promise rejected with error: ' + error);
+  });
 ```
 
 ## `async`/`await`
