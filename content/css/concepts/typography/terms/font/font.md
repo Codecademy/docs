@@ -72,3 +72,14 @@ h2 {
   font: expanded italic small-caps bolder 20px/30px cursive;
 }
 ```
+
+## Example 3
+
+Setting an `h3` font with all seven properties in one declaration.
+
+```css
+h2 {
+  /* font-stretch | font-style | font-varient | font-weight | font-size | line-height | font-family */
+  font: condensed oblique small-caps bold 10px/30px sans-serif;
+}
+```
