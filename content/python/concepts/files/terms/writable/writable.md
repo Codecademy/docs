@@ -25,7 +25,7 @@ file.writable()
 
 ## Example 1
 
-Use `.writable()` to check if the **gullivers_travels.txt** file is writable:
+Use `.writable()` to check if the `gullivers_travels.txt` file is writable:
 
 ```python
 f = open("gullivers_travels.txt", "a")
@@ -37,7 +37,7 @@ The `.writable()` method will return `True` here.
 
 ## Example 2
 
-Use `.writable()` to check if the **gullivers_travels.txt** file is writable:
+Use `.writable()` to check if the `gullivers_travels.txt` file is writable:
 
 ```python
 f = open("gullivers_travels.txt", "r")
@@ -46,3 +46,20 @@ f.writable()
 ```
 
 The `.writable()` method will return `False` here.
+
+## Codebyte Example
+
+In this example `writable.txt` is opened in two different ways, and the `.writable()` method is used to return whether or not the file is writable:
+
+```codebyte/python
+# Create empty text file
+f = open ("writable.txt", "w")
+
+print("Is this file writable when opened in 'write' mode? ", f.writable())
+
+
+# Open file in read mode and check if file is writable
+f = open("writable.txt", "r")
+
+print("Is this file writable when opened in 'read' mode? ", f.writable())
+```
