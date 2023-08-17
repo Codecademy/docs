@@ -1,6 +1,6 @@
 ---
-Title: 'highlight'
-Description: 'Highlights are when two pairs of equal signs enclose a piece of text, resulting a yellow background encompassing said text.'
+Title: 'Highlights'
+Description: 'Highlights are used to emphasize important words in a piece of text by adding a yellow background to the targeted words.'
 Subjects:
   - 'Web Development'
   - 'Developer Tools'
@@ -8,12 +8,12 @@ Tags:
   - 'Documentation'
 CatalogContent:
   - 'learn-html'
-  - 'path/front-end-engineer-career-path'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-In Markdown, **highlights** are where parts of a text appears in a yellow background after being inserted between two pairs of equal signs (`==`).
+In Markdown, **highlights** are used to emphasize important words. Parts of the text appear in a yellow background after being inserted between two pairs of equal signs (`==`).
 
-> **Note:** This feature is not offered in all Markdown processors so consider reading through the instruction guide before completing.
+> **Note:** This feature is not offered in all markdown processors.
 
 ## Syntax
 
@@ -23,8 +23,12 @@ In Markdown, **highlights** are where parts of a text appears in a yellow backgr
 
 ## Example
 
-The range of numbers in the below baking tip is highlighted so that users understand the amount of cookies they will have based on the amount of dough made:
+Below, the range of numbers in the baking tip is highlighted so that users pay attention to the amount of cookies they will have based on the amount of dough made:
 
 ```md
 Depending on how much cookie dough you eat, you’ll have about ==20-22== cookies from this recipe!
 ```
+
+This will display as:
+
+> Depending on how much cookie dough you eat, you’ll have about <mark>20-22</mark> cookies from this recipe!
