@@ -20,7 +20,7 @@ by positive integer, _m_, that is greater than 1.
 
 ## _a_ divides _b_
 
-If _a_ and _b_ are integers with a != 0 then _a_ divides _b_ if an integer _c_, exists given that _b = ac_.
+If _a_ and _b_ are integers with a ≠ 0 then _a_ divides _b_ if an integer _c_, exists given that _b = ac_.
 
 Explanation:
 
