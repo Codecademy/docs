@@ -13,7 +13,7 @@ CatalogContent:
 
 In Markdown, **highlights** are used to emphasize important words. Parts of the text appear in a yellow background after being inserted between two pairs of equal signs (`==`).
 
-> **Note:** This feature is not offered in all markdown processors.
+> **Note:** This feature is not offered in all markdown processors. Use the HTML [`<mark>`](https://www.codecademy.com/resources/docs/html/semantic-html/mark) tag as an alternate way to highlight text.
 
 ## Syntax
 
