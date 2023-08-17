@@ -21,7 +21,7 @@ Promise.race(iterableObject);
 
 ## Example #1
 
-If the `iterableObject` is empty, then the returned Promise will be in "pending" forever and never resolve.
+If the `iterableObject` is empty, then the returned Promise will be "pending" forever and never resolve.
 
 ```js
 const emptyPromises = [];
@@ -33,7 +33,7 @@ Promise.race(emptyPromises).then((result) => {
 
 ## Example #2
 
-In the spirit of a race, ssing `setTimeout()` within two runners named `runnerA` and `runnerB`:
+In the spirit of a race, using `setTimeout()` within two runners named `runnerA` and `runnerB`:
 
 ```js
 const runnerA = new Promise((resolve, reject) => {
@@ -91,5 +91,4 @@ const resolvedAndRejectedPromiseRace = Promise.race([
 ])
   .then(handleResolveOrReject)
   .catch(handleResolveOrReject);
-
 ```
