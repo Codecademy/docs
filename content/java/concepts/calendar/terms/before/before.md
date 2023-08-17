@@ -1,6 +1,6 @@
 ---
 Title: '.before()'
-Description: 'Calendar method to check if time given by one Calendar instance is before the time given by another Calendar instance.'
+Description: 'Checks if time given by one Calendar instance is before the time given by another Calendar instance.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -21,7 +21,7 @@ myCalendar.before(otherCalendar)
 
 Returns `true` if the time given by `myCalendar` is before the time given by `otherCalendar`, `false` otherwise.
 
-**Note:** The `.before` method returns `false` if the two `Calendar` instances represent the same time.
+> **Note:** The `.before` method returns `false` if the two `Calendar` instances represent the same time.
 
 ## Example
 
