@@ -19,7 +19,7 @@ Returns the first Promise in an `iterableObject` that is either resolved or reje
 Promise.race(iterableObject);
 ```
 
-## Example #1
+## Example 1
 
 If the `iterableObject` is empty, then the returned Promise will be "pending" forever and never resolve.
 
@@ -31,7 +31,7 @@ Promise.race(emptyPromises).then((result) => {
 });
 ```
 
-## Example #2
+## Example 2
 
 In the spirit of a race, using `setTimeout()` within two runners named `runnerA` and `runnerB`:
 
