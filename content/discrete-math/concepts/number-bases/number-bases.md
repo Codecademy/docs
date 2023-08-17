@@ -21,10 +21,10 @@ CatalogContent:
 
 A base can be any whole number greater than 1. The four most commonly used number bases in a computer system are:
 
-  - Binary (Base 2)
-  - Octal (Base 8)
-  - Decimal (Base 10)
-  - Hexadecimal (Base 16)
+- Binary (Base 2)
+- Octal (Base 8)
+- Decimal (Base 10)
+- Hexadecimal (Base 16)
 
 ### Binary
 
@@ -38,7 +38,7 @@ Octal is a number system that uses a base of 8. A number in octal can only be re
 
 Decimal is the most common number system that uses a base of 10. A number in decimal contains digits `0-9`. In computer languages, by default, there is no notation required to represent decimal numbers. For example, `9801` is a decimal number.
 
-### Hexadecimal 
+### Hexadecimal
 
 [Hexadecimal](https://www.codecademy.com/resources/docs/general/hexadecimal) is a number system that uses a base of 16. The first ten digits of a hexadecimal number contain digits `0-9` and the remaining six digits contain letters `A-F` (not case sensitive). A common notation of hexadecimal numbers is prefixing with `0x`. For example, `0xA63F` is a hexadecimal number.
 
@@ -64,14 +64,14 @@ Digit representation refers to the symbols used to express numbers in a specific
 
 ### Decimal to Other Bases
 
-- To convert decimal (base-10) to binary, repeatedly divide the decimal number by `2`, keeping track of each remainder. The binary equivalent is obtained by reading the remainders in reverse order. 
+- To convert decimal (base-10) to binary, repeatedly divide the decimal number by `2`, keeping track of each remainder. The binary equivalent is obtained by reading the remainders in reverse order.
 
 For example, to convert `27` to binary:
 
 ```plaintext
-27 / 2 = 13 remainder 1, 
-13 / 2 = 6 remainder 1, 
-6 / 2 = 3 remainder 0, 
+27 / 2 = 13 remainder 1,
+13 / 2 = 6 remainder 1,
+6 / 2 = 3 remainder 0,
 3 / 2 = 1 remainder 1,
 1 / 2 = 0 remainder 1
 ```
