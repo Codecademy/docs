@@ -49,7 +49,7 @@ The example below opens a file named `demofile.txt` first at the default positio
 #Imports os
 import os
 
-# Creats a text file with Example text
+# Creates a text file with Example text
 with open('demofile.txt', 'w') as f:
     # Adding Example Text
     f.write('This text is an example.')
