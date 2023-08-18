@@ -40,3 +40,30 @@ print(f.readline())
 
 f.close()
 ```
+
+## Codebyte Example
+
+The example below opens a file named `demofile.txt` first at the default position, Then again at the 5th index position.
+
+```codebyte/python
+import os
+
+# Creating a text file
+with open('demofile.txt', 'w') as f:
+    # Adding Example Text
+    f.write('This text is an example.')
+
+f = open('demofile.txt', 'r')
+
+# Print first line of document from default position.
+print(f.readline())
+
+# Changing the reference point
+f.seek(5)
+
+# Print first line from new reference point
+print(f.readline())
+
+# Closing the file
+f.close()
+```
