@@ -36,10 +36,14 @@ print(math.ceil(134.2))
 
 ## Codebyte Example
 
-The following example is runnable and uses the `math.ceil()` function to round a number up to the nearest integer:
+The following example is runnable and uses the `math.ceil()` function to return the ceiling of a number:
 
 ```codebyte/python
 import math
 
-print("The ceiling value of -16.7 is: ", math.ceil(-16.7))
+print(math.ceil(4.2))
+# Output: 5
+
+print(math.ceil(9.7))
+# Output: 10
 ```
