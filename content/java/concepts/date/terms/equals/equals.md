@@ -3,16 +3,18 @@ Title: '.equals()'
 Description: 'A method designed to check if the invoking date object
 contains a date and time that is equal to the one specified by date object'
 Subjects:
+  - 'Code Foundations'
   - 'Computer Science'
 Tags:
-  - 'Methods'
   - 'Calendar'
+  - 'Date'
+  - 'Methods'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
 ---
 
-The method **`.equals()`** is method of `Date` class. It compares the current date object to the specified object based on millisecond difference. It will returns **`true`** if the invoking date object contains a date that is equal to the one specified by date object. Otherwise, it returns **`false`**.
+The **`.equals()`** is method of `Date` class. It compares the current date object to the specified object based on millisecond difference. It will returns **`true`** if the invoking date object contains a date that is equal to the one specified by date object. Otherwise, it returns **`false`**.
 
 ## Syntax
 
