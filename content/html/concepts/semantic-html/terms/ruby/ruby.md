@@ -24,6 +24,8 @@ The `<ruby>` tag entails one or more characters that require an explanation or p
 </ruby>
 ```
 
+`<ruby` wraps around the text that needs annotation.
+
 ## Example
 
 This following example shows `<ruby>` being used with `<rt>` and `<rp>` tag:
