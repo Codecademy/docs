@@ -56,21 +56,21 @@ os.rmdir("/path/to/myfolder")
 In this example the `./project` directory is deleted using the `.rmdir()` method:
 
 ```codebyte/python
-# Importing os module 
+# Imports os module
 import os
 
-# Creating a Empty folder named 'project'
+# Creates a Empty folder named 'project'
 path = './project'
 os.mkdir(path)
 
-# Print working files, the new empty 'project' folder can be seen on the first output.
+# Prints working files, the new empty 'project' folder can be seen on the first output.
 files = [f for f in os.listdir() if os.path.isdir(f)]
 print(files)
 
-# Removing the Empty 'project' folder
+# Removes the Empty 'project' folder
 os.rmdir('project')
 
-# Print working files again, the 'project' folder has been successfully removed as seen by the second output.
+# Prints working files again, the 'project' folder has been successfully removed as seen by the second output.
 files = [f for f in os.listdir() if os.path.isdir(f)]
 print(files)
 ```
