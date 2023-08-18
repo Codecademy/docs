@@ -32,6 +32,6 @@ This following example shows `<ruby>` being used with `<rt>` and `<rp>` tag:
 <ruby> ゆきひろ まつもと <rp>(</rp><rt>Yukihiro Matsumoto</rt><rp>)</rp> </ruby>
 ```
 
-This code results in the following display:
+This will display the following:
 
 ![HTML ruby tag example](https://raw.githubusercontent.com/Codecademy/docs/main/ruby/semantic-html-ruby.png)
