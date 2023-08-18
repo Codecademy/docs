@@ -24,7 +24,7 @@ The **`<ruby>`** tag is a semantic HTML element that represents small annotation
 
 ## Example
 
-This snippet code shows `<ruby>` being used with `<rt>` and `<rp>` tag:
+This following example shows `<ruby>` being used with `<rt>` and `<rp>` tag:
 
 ```html
 <ruby> ゆきひろ まつもと <rp>(</rp><rt>Yukihiro Matsumoto</rt><rp>)</rp> </ruby>
