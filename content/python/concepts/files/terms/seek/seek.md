@@ -43,7 +43,7 @@ f.close()
 
 ## Codebyte Example
 
-The example below opens a file named `demofile.txt` first at the default position, Then again using `.seek()` at the 5th index position.
+The example below opens a file named `demofile.txt` first at the default position, Then again using `.seek()` at the 5th index position:
 
 ```codebyte/python
 #Imports os
@@ -56,7 +56,7 @@ with open('demofile.txt', 'w') as f:
 
 f = open('demofile.txt', 'r')
 
-# Prints first line of document from default position.
+# Prints first line of document from default position
 print(f.readline())
 
 # Changes the reference point
