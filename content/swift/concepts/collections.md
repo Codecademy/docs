@@ -1,6 +1,7 @@
 ---
 Title: 'Collections'
-Description: 'Collections in Swift are data structures that store multiple values of the same type.'
+Description: 'Collections are data structures used to store multiple values in a given variable.'
+
 Subjects:
   - 'iOS'
   - 'Mobile Development'
