@@ -1,4 +1,3 @@
-```shell
 ---
 Title: 'Hypot()'
 Description: 'Returns the square of the sum of two squares'
@@ -13,7 +12,6 @@ CatalogContent:
   - 'learn-go'
   - 'paths/computer-science'
 ---
-```
 
 The **'Hypot()'** function returns the square root of the sum of two squares.
 
@@ -56,19 +54,16 @@ Hypot of -1.5 and -1.5 = 2.121320
 
 ## Codebyte Example (if applicable)
 
-We can currently support:
+The runnable example of the 'Hypot()' function of the cases where '0' or a negative number is at least one of the arguments. 
 
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
+```codebyte/golang
+package main
 
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
-
-```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
+import("fmt"
+       "math")
+       
+func main(){
+      fmt.Printf("Hypot of -6 and 8 = %f\n", math.Sqrt((-6 * -6)+(8 * 8)))
+      fmt.Printf("Hypot of 12 and 0 = %f\n", math.Sqrt((12 * 12)+(0 * 0)))
+}
 ```
