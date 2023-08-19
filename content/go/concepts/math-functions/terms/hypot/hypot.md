@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-
+The **'Hypot()'** function returns the square root of the sum of two squares.
 
 ## Syntax
 
