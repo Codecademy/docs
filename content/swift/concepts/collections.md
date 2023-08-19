@@ -15,7 +15,8 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-**Collections** are data structures that store multiple values of the same, or different types.
+**Collections** are data structures that store multiple values of the same, or different types. Swift provides three main collection types: arrays, sets, and dictionaries.
+
 
 Collections are can be value types or reference types, depending on the implementation.
 
