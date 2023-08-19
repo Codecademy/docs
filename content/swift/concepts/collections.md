@@ -22,7 +22,6 @@ Collections are can be value types or reference types, depending on the implemen
 
 A value type is a type whose instances are copied when they are assigned to a variable or constant, or when they are passed to a function. A reference type is a type whose instances share a single copy of the data, and use references to access it.
 
-Swift provides three primary collection types: arrays, sets, and dictionaries.
 
 ## Syntax
 
