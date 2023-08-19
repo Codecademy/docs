@@ -62,9 +62,8 @@ scores.removeValue(forKey: "Bob") // scores is now ["Alice": 90, "Charlie": 70, 
 ## Creating a collection
 In Swift, you can create a collection using literal syntax or initializer syntax.
 
-For example, an array of employees by the `name` of `"SpongeBob"`, `"Patrick"`, and `"Squidward"` works for “Krusty Krab” and makes a salary of 100, 50, and 200 shrimps a month respectively. Below, the `employees` variable is assigned to the value of `[Employee]`. This creates an array of instances of the class `Employee`.
+For example, in the code below, the array `employees` is declared with names and salaries through the initialization method. The `employees` variable is assigned to the value of `[Employee]`, this creates an array of instances of the class `Employee`.
 
-The names and salaries of the employees are set through the initialization method:
 ```
 var employees: [Employee] = [
     Employee(name: "SpongeBob", salary: 100),
