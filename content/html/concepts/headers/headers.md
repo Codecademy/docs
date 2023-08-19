@@ -6,6 +6,7 @@ Subjects:
   - 'Web Design'
 Tags:
   - 'Headers'
+  - 'Tags'
   - 'Semantic'
 CatalogContent:
   - 'learn-html'
