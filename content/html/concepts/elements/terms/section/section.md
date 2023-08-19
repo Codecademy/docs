@@ -1,6 +1,6 @@
 ---
 Title: '<section>'
-Description: 'HTML section is used to create sections in a web page.'
+Description: 'Creates sections in a web page.'
 Subjects:
   - 'Web Development'
   - 'Web Design'

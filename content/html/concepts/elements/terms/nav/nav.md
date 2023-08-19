@@ -1,6 +1,6 @@
 ---
 Title: '<nav>'
-Description: 'HTML navigation is used to create links that allow users to navigate between different pages or sections of a page.'
+Description: 'Creates links that allow users to navigate between different pages or sections of a page.'
 Subjects:
   - 'Web Development'
   - 'Web Design'

@@ -1,6 +1,6 @@
 ---
 Title: '<header>'
-Description: 'HTML headings are used to organize the content of a web page. They are used to label sections of content and to help users quickly scan and understand the page.'
+Description: 'Defines the header of a document or section'
 Subjects:
   - 'Web Development'
   - 'Web Design'

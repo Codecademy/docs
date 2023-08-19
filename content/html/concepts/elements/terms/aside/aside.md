@@ -1,6 +1,6 @@
 ---
 Title: '<aside>'
-Description: 'Used to define a section of content that is related to the main content of the web page, but is not essential to it.'
+Description: 'Definea a section of content that is related to the main content of the web page, but is not essential to it.'
 Subjects:
   - 'Web Development'
   - 'Web Design'

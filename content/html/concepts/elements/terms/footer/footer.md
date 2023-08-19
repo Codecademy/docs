@@ -1,6 +1,6 @@
 ---
 Title: '<footer>'
-Description: 'HTML footers are used to define a footer of a web page that typically contains information about the author, copyright, contact, and other relevant information.'
+Description: 'Defines a footer of a web page that typically contains information about the author, copyright, contact, and other relevant information.'
 Subjects:
   - 'Web Development'
   - 'Web Design'

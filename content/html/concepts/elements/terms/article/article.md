@@ -1,6 +1,6 @@
 ---
 Title: '<article>'
-Description: 'HTML article is used to define an independent piece of content.'
+Description: 'Defines an independent piece of content.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
