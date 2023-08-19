@@ -21,7 +21,7 @@ myCalendar.before(otherCalendar)
 
 Returns `true` if the time given by `myCalendar` is before the time given by `otherCalendar`, `false` otherwise.
 
-**Note:** The `.before()` method returns `false` if the two `Calendar` instances represent the same time.
+> **Note:** The `.before()` method returns `false` if the two `Calendar` instances represent the same time.
 
 ## Example
 
