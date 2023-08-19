@@ -13,12 +13,26 @@ CatalogContent:
   - 'learn-go'
   - 'paths/computer-science'
 ---
+```
 
 The **'Hypot()'** function returns the square root of the sum of two squares.
 
 ## Syntax
 
-[Text, code, images, parameters, etc. about the syntax]
+```pseudo 
+import math
+
+hypot = math.Sqrt((x * x) + (y * y))
+```
+'Hypot()' accepts two arguments of type 'float64' and returns a value of type 'float64'.
+
+Note:
+- If either argument is negative, the result is positive.
+- If both arguments are negative, the result is positive.
+- If '0' is passed as both arguments, the result is '0'.
+- If either argument is passed as '0', the result is the other argument.
+
+
 
 ## Example
 
