@@ -72,7 +72,8 @@ var employees: [Employee] = [
 ]
 ```
 
-**Note:**:  Arrays are also named types, which are types that are given a name when defined and can be referred to as such (i.e. instances of `[Employee]` have the type `[Employee]`).
+> **Note:**:  Arrays are also named types, which are types that are given a name when defined and can be referred to as such (i.e. instances of `[Employee]` have the type `[Employee]`).
+
 
 ## Accessing Elements and Properties
 To view an array’s elements or properties:
