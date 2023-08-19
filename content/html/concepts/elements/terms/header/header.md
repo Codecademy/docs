@@ -1,11 +1,12 @@
 ---
-Title: 'Headers'
+Title: '<header>'
 Description: 'HTML headings are used to organize the content of a web page. They are used to label sections of content and to help users quickly scan and understand the page.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
 Tags:
   - 'Headers'
+  - 'Elements'
   - 'Tags'
   - 'Semantic'
 CatalogContent:
@@ -13,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<header>` element is a container for introductory content, such as a logo, navigation links, or authorship information. It also supports Global and Event Attributes in HTML.
+The `<header>` element is a container for introductory content, such as a logo, navigation links, or authorship information. It also supports Global and Event Attributes in HTML. It is possible to use multiple `<header>` elements in a single document. However, it cannot be nested within another `<header>` element, a `<footer>` element, or an `<address>` element.
 
 ## Syntax
 
@@ -32,11 +33,5 @@ The `<header>` element is a container for introductory content, such as a logo, 
 </header>
 ```
 
-<header>
-    <h1>Heading</h1>
-    <p>by Codecademy</p>
-</header>
+![Output of the header tag example](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-header-example.png)
 
-## Accessibility with Headers
-
-It is possible to use multiple `<header>` elements in a single document. However, it cannot be nested within another `<header>` element, a `<footer>` element, or an `<address>` element.

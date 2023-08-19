@@ -1,5 +1,5 @@
 ---
-Title: 'Navigation'
+Title: '<nav>'
 Description: 'HTML navigation is used to create links that allow users to navigate between different pages or sections of a page.'
 Subjects:
   - 'Web Development'
@@ -7,8 +7,8 @@ Subjects:
 Tags:
   - 'Navigation'
   - 'Link'
+  - 'Elements'
   - 'Tags'
-  - 'URL'
   - 'Sematic'
 CatalogContent:
   - 'learn-html'
@@ -39,8 +39,4 @@ This code will create a navigation bar with three links: Home, About, and Contac
 </nav>
 ```
 
-<nav>
-  <a href="#">Home</a>
-  <a href="#">About</a>
-  <a href="#">Contact</a>
-</nav>
+![Output of the nav tag example](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-nav-example.png)

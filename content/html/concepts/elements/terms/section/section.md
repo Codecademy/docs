@@ -1,11 +1,12 @@
 ---
-Title: 'Section'
+Title: '<section>'
 Description: 'HTML section is used to create sections in a web page.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
 Tags:
   - 'Section'
+  - 'Elements'
   - 'Tags'
   - 'Sematic'
 CatalogContent:
@@ -32,7 +33,4 @@ The `<section>` tag in HTML is a generic element that defines a section of a doc
 </section>
 ```
 
-<section>
-    <h1>This is a section</h1>
-    <p>This is the content of the section.</p>
-</section>
+![Output of the section tag example](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-section-example.png)

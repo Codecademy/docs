@@ -1,11 +1,12 @@
 ---
-Title: 'Article'
+Title: '<article>'
 Description: 'HTML article is used to define an independent piece of content.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
 Tags:
-  - 'Section'
+  - 'Article'
+  - 'Elements'
   - 'Tags'
   - 'Sematic'
 CatalogContent:
@@ -33,7 +34,4 @@ The `<article>` tag defines an independent, self-contained piece of content. It 
 
 ```
 
-<article>
-    <h1>This is an article</h1>
-    <p>This is the body of the article.</p>
-</article>
+![Output of the article tag example](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-article-example.png)
