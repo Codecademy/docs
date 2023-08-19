@@ -1,6 +1,6 @@
 ---
 Title: '.before()'
-Description: 'Checks if time given by one Calendar instance is before the time given by another Calendar instance.'
+Description: 'Returns a boolean based on the whether one Calendar instance is before the other given instance.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.before()`** method of the `Calendar` class is used to check if the time given by one Calendar instance is before the time given by another Calendar instance.
+The **`.before()`** method of the `Calendar` class is used to check if one `Calendar` instance is before another.
 
 ## Syntax
 
@@ -21,11 +21,11 @@ myCalendar.before(otherCalendar)
 
 Returns `true` if the time given by `myCalendar` is before the time given by `otherCalendar`, `false` otherwise.
 
-> **Note:** The `.before` method returns `false` if the two `Calendar` instances represent the same time.
+**Note:** The `.before()` method returns `false` if the two `Calendar` instances represent the same time.
 
 ## Example
 
-In the example below, two `Calendar` instances are created. The first represents the current date and time, the second represents the current date and time plus two hours. The `.before` method is used to check if the `myCalendar` object is before the `otherCalendar` object. The method is also used to check if the `myCalendar` object is before itself.
+In the example below, two `Calendar` instances are created. The first represents the current date and time, the second represents the current date and time plus two hours. The `.before()` method is used to check if the `myCalendar` object is before the `otherCalendar` object. The method is also used to check if the `myCalendar` object is before itself.
 
 ```java
 import java.util.Calendar;
