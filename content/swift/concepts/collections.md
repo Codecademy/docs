@@ -36,7 +36,8 @@ Values can be added or removed from collections with the following methods:
 * `insert()` adds a new value at a specified index in an array, or inserts a new key-value pair in a dictionary.
 * `remove()` removes a value from an array or a set at a specified index, or removes a key-value pair from a dictionary by its key.
 
-```
+```swift
+
 // Adding values to an array
 fruits.append("grape") // fruits is now ["apple", "banana", "orange", "grape"]
 fruits.insert("pear", at: 1) // fruits is now ["apple", "pear", "banana", "orange", "grape"]
