@@ -13,7 +13,10 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **'Hypot()'** function returns the square root of the sum of two squares.
+The **`Hypot()`** function returns the square root of the sum of two squares. In other words, the method returns the result of the following formula:
+
+```tex
+hypotenuse = \sqrt{(x * x) + (y * y)}
 
 ## Syntax
 
