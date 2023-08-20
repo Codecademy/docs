@@ -1,6 +1,6 @@
 ---
 Title: 'Linear Activation Function'
-Description: 'The linear activation function also known as identity function, where the activation is proportional to the input.'
+Description: 'The linear activation function, also known as the identity function, is where the activation is proportional to the input.'
 Subjects:
   - 'Machine Learning'
   - 'Data Science'
@@ -15,18 +15,15 @@ CatalogContent:
   - 'path/data-science'
 ---
 
-The **linear activation function** is also known as **straight-line function** where the activation is proportional to the input.The function doesn't do anything to the weighted sum of the input, it simply spits out the value it was given.
+The **linear activation function**, also known as the identity function, is where the activation is proportional to the input. The function doesn't do anything to the weighted sum of the input, it simply spits out the value it was given.
 
 Mathematically, it can be defined as:
 
 ![linear Activation Function Equation](https://raw.githubusercontent.com/Codecademy/docs/main/media/linear-equation.png)
 
-The value of variable a can be any constant value
-chosen by the user.
-
 ### Usage and Limitations
 
-The problem with this activation is that it cannot be defined in a specific range. Applying this function in all the nodes makes the activation function work like linear regression.
+The problem with this activation function is that it cannot be defined for a specific range. Applying this function in all the nodes makes the activation function work like linear regression.
 
 All layers of the neural network will collapse into one if a linear activation function is used. No matter the number of layers in the neural network, the last layer will still be a linear function of the first layer. So, essentially, a linear activation function turns the neural network into just one layer.
 
