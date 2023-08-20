@@ -1,6 +1,6 @@
 ---
 Title: 'Hypot()'
-Description: 'Returns the square of the sum of two squares'
+Description: 'Returns the square root of the sum of two squares.'
 Subjects: 
   - 'Code Foundations'
   - 'Computer Science'
