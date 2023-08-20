@@ -55,7 +55,7 @@ Hypot of 3 and 4 = 5.000000
 Hypot of -1.5 and -1.5 = 2.121320
 ```
 
-## Codebyte Example (if applicable)
+## Codebyte Example 
 
 The runnable example of the 'Hypot()' function of the cases where '0' or a negative number is at least one of the arguments. 
 
