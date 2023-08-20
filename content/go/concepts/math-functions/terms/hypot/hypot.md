@@ -25,7 +25,7 @@ import math
 
 result = math.Hypot(x, y)
 ```
-'Hypot()' accepts two arguments of type 'float64' and returns a value of type 'float64'.
+`Hypot()` accepts two arguments (`x` , `y`) of type `float64` and returns a value of type `float64`.
 
 Note:
 - If either argument is negative, the result is positive.
