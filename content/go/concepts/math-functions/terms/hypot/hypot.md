@@ -28,7 +28,7 @@ result = math.Hypot(x, y)
 `Hypot()` accepts two arguments (`x` , `y`) of type `float64` and returns a value of type `float64`.
 
 Note:
-- If either argument is negative, the result is positive.
+- If either argument is negative, or both, the result is positive.
 - If both arguments are negative, the result is positive.
 - If '0' is passed as both arguments, the result is '0'.
 - If either argument is passed as '0', the result is the other argument.
