@@ -20,9 +20,9 @@ hypotenuse = $`\sqrt{(x * x) + (y * y)}`$
 ## Syntax
 
 ```pseudo 
-import math
+  import math
 
-result = math.Hypot(x, y)
+  result = math.Hypot(x, y)
 ```
 
 `Hypot()` accepts two arguments (`x` , `y`) of type `float64` and returns a value of type `float64`.
