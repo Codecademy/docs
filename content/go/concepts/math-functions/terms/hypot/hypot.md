@@ -43,8 +43,8 @@ import("fmt"
       "math")
 
 func main(){
-    fmt.Printf("Hypot of 3 and 4 = %f\n", math.Sqrt((3 * 3)+(4 * 4)))
-    fmt.Printf("Hypot of -1.5 and -1.5 = %f\n", math.Sqrt((-1.5 * -1.5)+(-1.5 * -1.5)))
+    fmt.Printf("Hypot of 3 and 4 = %f\n", math.Hypot(3 , 4))
+    fmt.Printf("Hypot of -1.5 and -1.5 = %f\n", math.Hypot(-1.5,-1.5))
     
 }
 ```
