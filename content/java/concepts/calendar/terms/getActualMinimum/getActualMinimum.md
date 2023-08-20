@@ -1,29 +1,29 @@
 ---
 Title: '.getActualMinimum()'
-Description: 'Returns the minimum value that the specified calendar field could have based on the time value of this calendar'
+Description: 'Returns the minimum value that the specified calendar field could have based on the time value of the calendar.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
   - 'Calendar'
   - 'Time'
+  - 'Date'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
 ---
 
-The `.getActualMinimum()` method returns the minimum possible value that the specified calendar field could have 
+The **`.getActualMinimum()`** method returns the minimum possible value that the specified calendar field can have.
 
 ## Syntax
-```pseudo
-//Instance of a calendar is created
-Calendar cal = Calendar.getInstance();
 
-//This returns the minimum value of the calendar field provided
-min = cal.getActualMinimum(Calendar.YEAR);
-```
+min = cal.getActualMinimum(field);
 
-The method above returns the minimum value for a calendar year
+
+Where `myCalendar` is a `Calendar` object, and `field` is the constant for the field to retrieve the minimum for.
+
+
+The below example uses getActualMinimum() to retrieve the minimum value for a year and the minimum value for a month
 
 ## Example
 
@@ -45,7 +45,6 @@ public class CalendarDemo {
     System.out.println("Minimum month :" + i);
    
     
-
   }
 }
 ```
