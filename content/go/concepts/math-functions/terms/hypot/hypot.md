@@ -31,7 +31,7 @@ Note:
 - If either argument is negative, or both, the result is positive.
 - If either argument is positive infinity (`+Inf`), the result will be positive infinity.
 - If `0` is passed as both arguments, the result is `0`. If one of the arguments is `0` the result is equal to the other argument.
-- If either argument is passed as '0', the result is the other argument.
+- If either argument passed is `NaN`, the result will be `NaN`.
 
 
 ## Example
