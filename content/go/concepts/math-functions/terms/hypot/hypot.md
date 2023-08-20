@@ -23,7 +23,7 @@ hypotenuse = \sqrt{(x * x) + (y * y)}
 ```pseudo 
 import math
 
-hypot = math.Sqrt((x * x) + (y * y))
+result = math.Hypot(x, y)
 ```
 'Hypot()' accepts two arguments of type 'float64' and returns a value of type 'float64'.
 
