@@ -42,12 +42,12 @@ Note:
   import("fmt"
         "math")
 
-  func Hypot(x,y float64) float64 {
+  func Hypot(x, y float64) float64 {
        return math.Sqrt((x * x)+(y * y))
        }
 
 
-func main(){
+  func main(){
     fmt.Printf("Hypotenuse of 3 and 4 = %f\n", Hypot(3 , 4))
     fmt.Printf("Hypotenuse of -1.5 and -1.5 = %f\n", Hypot(-1.5,-1.5))
     
@@ -66,13 +66,17 @@ The above example results in the following output:
 The runnable example of the `Hypot()` function of the cases where `0` or a negative number is at least one of the arguments. 
 
 ```codebyte/golang
-package main
+  package main
 
-import("fmt"
-       "math")
+  import("fmt"
+         "math")
+
+  func Hypot(x, y float64) float64 {
+       return math.Sqrt((x * x)+(y * y))
+        }
        
-func main(){
-      fmt.Printf("Hypot of -6 and 8 = %f\n", math.Sqrt((-6 * -6)+(8 * 8)))
-      fmt.Printf("Hypot of 12 and 0 = %f\n", math.Sqrt((12 * 12)+(0 * 0)))
-}
+  func main(){
+      fmt.Printf("Hypotenuse of -6 and 8 = %f\n", Hypot(-6, 8))
+      fmt.Printf("Hypotenuse of 12 and 0 = %f\n", Hypot((12, 0))
+       }
 ```
