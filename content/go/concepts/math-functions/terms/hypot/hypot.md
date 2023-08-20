@@ -77,6 +77,6 @@ The runnable example of the `Hypot()` function of the cases where `0` or a negat
        
   func main(){
       fmt.Printf("Hypotenuse of -6 and 8 = %f\n", Hypot(-6, 8))
-      fmt.Printf("Hypotenuse of 12 and 0 = %f\n", Hypot((12, 0))
+      fmt.Printf("Hypotenuse of 12 and 0 = %f\n", Hypot(12, 0))
        }
 ```
