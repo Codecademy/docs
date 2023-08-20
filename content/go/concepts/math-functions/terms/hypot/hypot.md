@@ -37,22 +37,27 @@ Note:
 ## Example
 
 ```go
-package main
+  package main
 
-import("fmt"
-      "math")
+  import("fmt"
+        "math")
+
+  func Hypot(x,y float64) float64 {
+       return math.Sqrt((x * x)+(y * y))
+       }
+
 
 func main(){
-    fmt.Printf("Hypot of 3 and 4 = %f\n", math.Hypot(3 , 4))
-    fmt.Printf("Hypot of -1.5 and -1.5 = %f\n", math.Hypot(-1.5,-1.5))
+    fmt.Printf("Hypotenuse of 3 and 4 = %f\n", Hypot(3 , 4))
+    fmt.Printf("Hypotenuse of -1.5 and -1.5 = %f\n", Hypot(-1.5,-1.5))
     
 }
 ```
 The above example results in the following output:
 
 ```shell
-Hypot of 3 and 4 = 5.000000
-Hypot of -1.5 and -1.5 = 2.121320
+  Hypotenuse of 3 and 4 = 5.000000
+  Hypotenuse of -1.5 and -1.5 = 2.121320
 ```
 
 ## Codebyte Example 
