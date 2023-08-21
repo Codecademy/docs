@@ -38,12 +38,10 @@ This example illustrates the working of `.compareTo()` method of `Calendar` clas
       public static void main(String args[])
       {
           // Creating a calendar object
-          Calendar calndr1
-              = Calendar.getInstance();
+          Calendar calndr1 = Calendar.getInstance();
 
           // Creating another calendar object
-          Calendar calndr2
-              = new GregorianCalendar(2018, 12, 2);
+          Calendar calndr2 = new GregorianCalendar(2018, 12, 2);
 
           // Comparing the time
           int val = calndr1.compareTo(calndr2);
