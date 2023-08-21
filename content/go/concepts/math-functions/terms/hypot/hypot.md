@@ -6,7 +6,7 @@ Subjects:
   - 'Computer Science'
 Tags: 
   - 'Math'
-  - 'Arithmatic'
+  - 'Arithmetic'
   - 'Functions'
 CatalogContent: 
   - 'learn-go'
