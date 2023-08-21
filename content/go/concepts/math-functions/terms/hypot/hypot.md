@@ -38,7 +38,7 @@ Note:
 
 ## Example
 
-```go
+  ```go
   package main
 
   import("fmt"
@@ -54,7 +54,7 @@ Note:
     fmt.Printf("Hypotenuse of -1.5 and -1.5 = %f\n", Hypot(-1.5,-1.5))
     
   }
-```
+  ```
 
 The above example results in the following output:
 
