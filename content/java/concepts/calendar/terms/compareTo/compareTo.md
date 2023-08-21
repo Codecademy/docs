@@ -1,17 +1,17 @@
-    ---
-    Title: '.compareTo()'
-    Description: 'Compares an Object of Calendar passed as parameter with this Calendar Object'
-    Subjects:
-    - 'Code Foundations'
-    - 'Computer Science'
-    Tags:
-    - 'Calendar'
-    - 'Date'
-    - 'Methods'
-    CatalogContent:
-    - 'learn-java'
-    - 'paths/computer-science'
-    ---
+---
+Title: '.compareTo()'
+Description: 'Compares a passed Calendar object with an existing Calendar object.'
+Subjects:
+- 'Code Foundations'
+- 'Computer Science'
+Tags:
+- 'Calendar'
+- 'Date'
+- 'Methods'
+CatalogContent:
+- 'learn-java'
+- 'paths/computer-science'
+---
 
     The **`.compareTo()`** method of the `Calendar` class is used to compare the time values or the millisecond offsets of this Calendar object with the passed Calendar object.
 
