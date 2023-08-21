@@ -15,7 +15,7 @@
 
     The **`.compareTo()`** method of the `Calendar` class is used to compare the time values or the millisecond offsets of this Calendar object with the passed Calendar object.
 
-    ## Syntax
+## Syntax
 
 ```pseudo
 result = myCalendar.compareTo()
