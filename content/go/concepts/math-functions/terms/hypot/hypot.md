@@ -66,18 +66,16 @@ Hypotenuse of -1.5 and -1.5 = 2.121320
 
 The runnable example of the `Hypot()` function of the cases where `0` or a negative number is at least one of the arguments. 
 
-```codebyte/golang
+  ```codebyte/golang
   package main
 
   import("fmt"
-         "math")
-
-  func Hypot(x, y float64) float64 {
+         "math")func Hypot(x, y float64) float64 {
        return math.Sqrt((x * x)+(y * y))
         }
-       
+
   func main(){
       fmt.Printf("Hypotenuse of -6 and 8 = %f\n", Hypot(-6, 8))
       fmt.Printf("Hypotenuse of 12 and 0 = %f\n", Hypot(12, 0))
        }
-```
+  ```
