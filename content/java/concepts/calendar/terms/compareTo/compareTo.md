@@ -23,9 +23,9 @@
 
     The method returns an `Integer` value and can return any one of the following:
 
-    The method returns `0` if the passed argument is equal to this `Calendar` object.
-    The method returns `1` if the time of this Calendar object is more than the passed object.
-    The method returns `-1` if the time of this Calendar object is less than the passed object.
+- The method returns `0` if the `otherCalendar` is equal to the `myCalendar` object.
+- The method returns `1` if the time of the `myCalendar` object is more than the `otherCalendar` object.
+- The method returns `-1` if the time of the `myCalendar` object is less than the `otherCalendar` object.
 
     ## Example
 
