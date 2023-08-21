@@ -22,9 +22,9 @@ hypotenuse = \sqrt{(x * x) + (y * y)}
 ## Syntax
 
 ```pseudo
-  import math
+import math
 
-  result = math.Hypot(x, y)
+result := math.Hypot(x, y)
 ```
 
 `Hypot()` accepts two arguments (`x` , `y`) of type `float64` and returns a value of type `float64`.
@@ -44,15 +44,11 @@ package main
 import("fmt"
       "math")
 
-func Hypot(x, y float64) float64 {
-     return math.Sqrt((x * x)+(y * y))
-     }
+func main() {
+  fmt.Printf("Hypotenuse of 3 and 4 = %f\n", math.Hypot(3 , 4))
+  fmt.Printf("Hypotenuse of -1.5 and -1.5 = %f\n", math.Hypot(-1.5,-1.5))
 
-func main(){
-  fmt.Printf("Hypotenuse of 3 and 4 = %f\n", Hypot(3 , 4))
-  fmt.Printf("Hypotenuse of -1.5 and -1.5 = %f\n", Hypot(-1.5,-1.5))
-
-  }
+}
 ```
 
 The above example results in the following output:
@@ -70,12 +66,10 @@ The runnable example of the `Hypot()` function of the cases where `0` or a negat
 package main
 
 import("fmt"
-       "math")func Hypot(x, y float64) float64 {
-     return math.Sqrt((x * x)+(y * y))
-      }
+       "math")
 
-func main(){
-    fmt.Printf("Hypotenuse of -6 and 8 = %f\n", Hypot(-6, 8))
-    fmt.Printf("Hypotenuse of 12 and 0 = %f\n", Hypot(12, 0))
-     }
+func main() {
+    fmt.Printf("Hypotenuse of -6 and 8 = %f\n", math.Hypot(-6, 8))
+    fmt.Printf("Hypotenuse of 12 and 0 = %f\n", math.Hypot(12, 0))
+}
 ```
