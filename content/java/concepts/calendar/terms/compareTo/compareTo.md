@@ -29,7 +29,7 @@ The method returns an `Integer` value and can return any one of the following:
 
 ## Example
 
-This example illustrates the working of `compareTo()` Method of Calendar class:
+This example illustrates the working of `.compareTo()` method of `Calendar` class:
 
 ```java
 import java.util.*;
