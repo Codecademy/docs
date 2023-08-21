@@ -27,9 +27,9 @@ The method returns an `Integer` value and can return any one of the following:
 - The method returns `1` if the time of the `myCalendar` object is more than the `otherCalendar` object.
 - The method returns `-1` if the time of the `myCalendar` object is less than the `otherCalendar` object.
 
-    ## Example
+## Example
 
-    This example illustrate the working of `compareTo()` Method of Calendar class.
+This example illustrates the working of `compareTo()` Method of Calendar class:
 
     ```java
     import java.util.*;
