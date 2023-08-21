@@ -15,7 +15,9 @@ CatalogContent:
 
 The **`Hypot()`** function returns the square root of the sum of two squares. In other words, the method returns the result of the following formula:
 
-hypotenuse = $`\sqrt{(x * x) + (y * y)}`$
+  ```tex
+  hypotenuse = \sqrt{(x * x) + (y * y)}
+  ```
 
 ## Syntax
 
