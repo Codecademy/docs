@@ -17,9 +17,9 @@
 
     ## Syntax
 
-    ```pseudo
-    result = myCalendar.compareTo()
-    ```
+```pseudo
+result = myCalendar.compareTo()
+```
 
     The method returns an `Integer` value and can return any one of the following:
 
