@@ -48,12 +48,11 @@ Note:
        return math.Sqrt((x * x)+(y * y))
        }
 
-
   func main(){
     fmt.Printf("Hypotenuse of 3 and 4 = %f\n", Hypot(3 , 4))
     fmt.Printf("Hypotenuse of -1.5 and -1.5 = %f\n", Hypot(-1.5,-1.5))
     
-  }
+    }
   ```
 
 The above example results in the following output:
