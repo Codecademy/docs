@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`dechex()`** method returns a hexadecimal string representation of an unsigned integer.
+The **`dechex()`** method returns a hexadecimal (base-) string representation of an unsigned integer. Hexadecimals are compact and can be converted easily to binary.
 
 ## Syntax
 
@@ -24,7 +24,7 @@ dechex(number)
 
 - `number`: An integer to be converted to hexadecimal.
 
-> **Recall:** The largest unsigned integer that can be represented in PHP is `PHP_INT_MAX * 2 + 1` which is `4294967295`. This is because PHP uses 32 bits to represent integers, and the first bit is used to represent the sign of the integer.
+> **Note:** The largest unsigned integer that can be represented in PHP is `PHP_INT_MAX * 2 + 1` which is `4294967295`. This is because PHP uses 32 bits to represent integers, and the first bit is used to represent the sign of the integer.
 
 ## Example
 
@@ -32,8 +32,8 @@ In this example, the number `10` is converted to hexadecimal.
 
 ```php
 <?php
-    $hex = dechex(10);
-    echo $hex;
+  $hex = dechex(10);
+  echo $hex;
 ?>
 ```
 
@@ -58,7 +58,7 @@ The output looks like this:
 fffffff6
 ```
 
-In the example above, the hexadecimal representation of `-10` is `fffffff6`. This is because the largest unsigned integer that can be represented in PHP is `4294967295`. When `-10` is converted to an unsigned integer, it becomes `4294967286`. The hexadecimal representation of `4294967286` is `fffffff6`.
+In the example above, the hexadecimal representation of `-10` is `fffffff6`. This is because the largest unsigned integer that can be represented in PHP is `4294967295`. When `-10` is converted to an unsigned integer, it becomes `4294967286`. The hexadecimal representation of `4294967286` is `ffffffff6`.
 
 ## Codebyte Example
 
@@ -66,7 +66,7 @@ The following codebyte example gets the hexadecimal representation of the decima
 
 ```codebyte/php
 <?php
-    $hex = dechex(16);
-    echo $hex;
+  $hex = dechex(16);
+  echo $hex;
 ?>
 ```
