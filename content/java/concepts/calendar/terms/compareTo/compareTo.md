@@ -60,9 +60,9 @@ This example illustrates the working of `compareTo()` Method of Calendar class:
     }
     ```
 
-    Output for the above code will be:
+Output for the above code will be:
 
-    ```shell
-    First comparison result is: 1
-    Second comparison result is: -1
-    ```
+```shell
+First comparison result is: 1
+Second comparison result is: -1
+```
