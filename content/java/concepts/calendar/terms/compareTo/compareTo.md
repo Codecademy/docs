@@ -31,34 +31,34 @@ The method returns an `Integer` value and can return any one of the following:
 
 This example illustrates the working of `compareTo()` Method of Calendar class:
 
-    ```java
-    import java.util.*;
+```java
+import java.util.*;
     
-    public class CalendarClassDemo {
-        public static void main(String args[])
-        {
-            // Creating a calendar object
-            Calendar calndr1
-                = Calendar.getInstance();
-    
-            // Creating another calendar object
-            Calendar calndr2
-                = new GregorianCalendar(2018, 12, 2);
-    
-            // Comparing the time
-            int val = calndr1.compareTo(calndr2);
-    
-            // Displaying the result of comparison
-            System.out.println("First" + " comparison result is: " + val);
-    
-            // Comparing the time
-            val = calndr2.compareTo(calndr1);
-    
-            // Displaying the result of comparison
-            System.out.println("Second"+ " comparison result is: "+ val);
-        }
+public class CalendarClassDemo {
+    public static void main(String args[])
+    {
+        // Creating a calendar object
+        Calendar calndr1
+            = Calendar.getInstance();
+
+        // Creating another calendar object
+        Calendar calndr2
+            = new GregorianCalendar(2018, 12, 2);
+
+        // Comparing the time
+        int val = calndr1.compareTo(calndr2);
+
+        // Displaying the result of comparison
+        System.out.println("First" + " comparison result is: " + val);
+
+        // Comparing the time
+        val = calndr2.compareTo(calndr1);
+
+        // Displaying the result of comparison
+        System.out.println("Second"+ " comparison result is: "+ val);
     }
-    ```
+}
+```
 
 Output for the above code will be:
 
