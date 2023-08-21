@@ -43,7 +43,7 @@ The output looks like this:
 a
 ```
 
-Because **`dechex()`** works with unsigned integers, negative numbers will be converted to their unsigned counterparts.
+Because `dechex()` works with unsigned integers, negative numbers will be converted to their unsigned counterparts.
 
 ```php
 <?php
@@ -59,6 +59,8 @@ fffffff6
 ```
 
 In the example above, the hexadecimal representation of `-10` is `fffffff6`. This is because the largest unsigned integer that can be represented in PHP is `4294967295`. When `-10` is converted to an unsigned integer, it becomes `4294967286`. The hexadecimal representation of `4294967286` is `ffffffff6`.
+
+> **Note:** The result in the code above, of `ffffffff6`, is conditional on using a 32-bit platform.
 
 ## Codebyte Example
 
