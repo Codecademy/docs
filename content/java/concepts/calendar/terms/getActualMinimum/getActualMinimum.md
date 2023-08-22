@@ -17,15 +17,15 @@ The **`.getActualMinimum()`** method returns the minimum possible value that the
 
 ## Syntax
 
+```pseudo
 min = cal.getActualMinimum(field);
-
-
+```
 Where `myCalendar` is a `Calendar` object, and `field` is the constant for the field to retrieve the minimum for.
 
 
-The below example uses getActualMinimum() to retrieve the minimum value for a year and the minimum value for a month
-
 ## Example
+
+The below example uses getActualMinimum() to retrieve the minimum value for a year and the minimum value for a month
 
 ```java
 import java.util.Calendar;
@@ -43,8 +43,6 @@ public class CalendarDemo {
     // return the minimum value that the month field could have
     int i = cal.getActualMinimum(Calendar.MONTH);
     System.out.println("Minimum month :" + i);
-   
-    
   }
 }
 ```
