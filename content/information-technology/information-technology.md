@@ -15,6 +15,6 @@ CatalogContent:
 
 IT encompasses the following roles:
 
-- Hardware Technicans
+- Hardware Technicians
 - Network Engineers
 - Desktop Support Personnel
