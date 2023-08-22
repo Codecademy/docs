@@ -31,4 +31,4 @@ Depending on how much cookie dough you eat, you’ll have about ==20-22== cookie
 
 This will display as:
 
-> Depending on how much cookie dough you eat, you’ll have about <mark>20-22</mark> cookies from this recipe!
+Depending on how much cookie dough you eat, you’ll have about <mark>20-22</mark> cookies from this recipe!
