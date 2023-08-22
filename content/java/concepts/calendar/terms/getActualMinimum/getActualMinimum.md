@@ -22,7 +22,6 @@ min = cal.getActualMinimum(field);
 ```
 Where `myCalendar` is a `Calendar` object, and `field` is the constant for the field to retrieve the minimum for.
 
-
 ## Example
 
 The below example uses getActualMinimum() to retrieve the minimum value for a year and the minimum value for a month
