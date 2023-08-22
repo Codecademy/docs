@@ -1,1 +1,1 @@
-content/css/concepts/display/display.md
+content/open-source/concepts/font-awesome/font-awesome.md
