@@ -25,8 +25,10 @@ The `@font-face` rule allows us to use custom fonts instead of just using "web-s
   src: url(' ') /* Link to font */;
 }
 ```
+There are different types of Font Formats that we use - WOFF,WOFF2(more compressed version of WOFF) EOT ,TTF and SVG.
 
-**Note:** The name of the file in which the font is stored, must end in a supported font format(e.g. **custom_font.woff2**, **custom_font.ttf**).
+**Note:** The name of the file in which the font is stored, must end in a supported font format(e.g. **custom_font.woff**,**custom_font.woff2**, **custom_font.ttf**,**custom_font.svg**,**custom_font.eot**).
+If we need our font to load faster then WOFF is the best(this format is supported in most of the browsers).
 
 ## Example 1
 
@@ -53,3 +55,4 @@ div {
   font-family: superFont;
 }
 ```
+**Note:**  Another think to note while using any font is to check for browser support. If the fomrat that we use is not supported, it will just roll back to default system font. 
