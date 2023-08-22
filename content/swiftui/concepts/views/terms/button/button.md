@@ -14,26 +14,32 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-A **`Button`** is a view that can be interacted with and used to perform an action when pressed on. It can be customized using various modifiers provided by the SwiftUI framework.
+A **`Button`** view is a `struct` that can be interacted with and used to perform an action when pressed on. It can be customized using various modifiers provided by the SwiftUI framework.
 
 ## Syntax
 
+There are many ways to construct a button in SwiftUI:
+
 ```pseudo
+Button("label") {
+    // Some action
+}
+
+// Label details can be provided after action:
+
+Button {
+    // Some action
+} label: {
+    // Some label
+}
+
 Button(
   action: { // Initiates when the button is pressed }, 
   label: { // Displays some image, text, or both on the button }
 )
 ```
 
-To create a button, an action and a label are required. The `.action` property expects a closure or a method that it will execute when the button is pressed. The '.label' expects a closure or a view, which can be an image, text, or both.
-
-```pseudo
-Button(action: {
-  // Initiates when the button is pressed
-}) {
-  // A Label closure or view
-}
-```
+To create a button, an action and a label are required. The `action` expects a closure or a method that it will execute when the button is pressed. The `label` expects a closure or a view, which can be an image, text, or both.
 
 When creating a button, the `label` property can be left out and its details can be provided in a separate closure after the button call. This provides more flexibility for customizing the button's appearance.
 
@@ -86,11 +92,8 @@ struct ContentView: View {
 }
 ```
 
-- Pressing the button triggers the `.randomizeColors()` method, which generates random RGB values for the `.backgroundColor` and `.buttonColor` properties. 
+Pressing the button triggers the `.randomizeColors()` method, which generates random [RGB]([url](https://www.codecademy.com/resources/docs/swiftui/colors)) values for the `.backgroundColor` and `.buttonColor` properties.
 
 The following will be displayed:
 
-![Button](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-button.gif "Gif of a SwiftUI button being pressed. The colors of the screen and button change randomly as a result.")
-
-
-
+![SwiftUI Views Button Gif](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-button.gif)
