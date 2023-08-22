@@ -1,6 +1,6 @@
 ---
 Title: '.getActualMaximum()'
-Description: 'Returns the actual maximum value for a specific calendar field, conditional on the time value of the calendar'
+Description: 'Returns the actual maximum value for a specific calendar field, conditional on the time value of the calendar.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
