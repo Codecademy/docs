@@ -34,7 +34,7 @@ Button {
 }
 
 Button(
-  action: { // Initiates when the button is pressed }, 
+  action: { // Initiates when the button is pressed },
   label: { // Displays some image, text, or both on the button }
 )
 ```
@@ -51,11 +51,11 @@ The following example demonstrates the use of a `Button`. Pressing the button wi
 struct ContentView: View {
     @State var backgroundColor = Color(red: 0.69, green: 0.96, blue: 1.0)
     @State var buttonColor = Color(red: 0.82, green: 0.34, blue: 0.45)
-    
+
     var body: some View {
         ZStack {
             backgroundColor.ignoresSafeArea()
-            
+
             VStack {
                 Button(
                     action: { randomizeColors() }, // Action to randomize the colors when the button is pressed
@@ -76,7 +76,7 @@ struct ContentView: View {
             }
         }
     }
-    
+
     func randomizeColors() -> Void {
         backgroundColor = Color(
             red: Double.random(in: 0...1),
@@ -86,13 +86,13 @@ struct ContentView: View {
         buttonColor = Color(
             red: Double.random(in: 0...1),
             green: Double.random(in: 0...1),
-            blue: Double.random(in: 0...1) 
+            blue: Double.random(in: 0...1)
         )
     }
 }
 ```
 
-Pressing the button triggers the `.randomizeColors()` method, which generates random [RGB]([url](https://www.codecademy.com/resources/docs/swiftui/colors)) values for the `.backgroundColor` and `.buttonColor` properties.
+Pressing the button triggers the `.randomizeColors()` method, which generates random [RGB](<[url](https://www.codecademy.com/resources/docs/swiftui/colors)>) values for the `.backgroundColor` and `.buttonColor` properties.
 
 The following will be displayed:
 
