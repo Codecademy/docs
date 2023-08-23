@@ -1,6 +1,6 @@
 ---
 Title: '.computeFields()'
-Description: 'Converts the current millisecond time value time to calendar field values in fields[].'
+Description: 'Synchronizes the set calendar's object new time with the calendar's field values.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
