@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`exec()`** function executes a code object or string containing python code.
+The **`exec()`** function executes a code object or string containing Python code.
 
 ## Syntax
 
