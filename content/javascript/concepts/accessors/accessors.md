@@ -1,6 +1,6 @@
 ---
 Title: 'Accessors'
-Description: "Provides access to an object's properties by using the dot notation or the bracket notation."
+Description: "Offers access to an object's properties through either dot notation or bracket notation."
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -14,7 +14,9 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-In JavaScript, object properties can be accessed using accessor known as getters. The `get` keyword is used to define a getter method for establishing custom behavior when accessing the values of object properties, while the `set` keyword allows you to define a setter method to control the behavior when assigning values to those properties.
+In JavaScript, object properties can be obtained using **accessors**. Properties are established and retrieved with methods known as "getters" and "setters".
+
+The `get` keyword is used to define a getter method for establishing a custom behavior when accessing the values of object properties, while the `set` keyword is used to create a setter method that determines the behavior when assigning values to those properties.
 
 ## Syntax
 
@@ -35,22 +37,22 @@ The following example defines a `User` class with a constructor and a getter met
 
 ```js
 class User {
-  constructor(name, github) {
+  constructor(name, email) {
     this._name = name;
-    this._github = github;
+    this._email = email;
   }
 
-  get userProfile() {
-    return this._github;
+  get userEmail() {
+    return this._email;
   }
 }
 
-const arvind = new User('arvind', 'https://github.com/Judis07');
-console.log(arvind.userProfile);
+const person = new User('eddy', 'eddythefreedy9876@gmail.com');
+console.log(person.userEmail);
 ```
 
 This example results in the following output:
 
 ```shell
-https://github.com/Judis07
+eddythefreedy9876@gmail.com
 ```
