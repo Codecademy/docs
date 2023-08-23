@@ -52,4 +52,4 @@ p {
 }
 By doing this we can achieve desired result. In this case if the first font-family is not supported it will be switch to the secondary.
 ```
-**Note:** Chinese language is being used as an example. Also, the default appearance of Chinese fonts depends on the type of software your computer uses. Consider consulting their website to learn more.
+**Note:** Chinese language is being used as an example.
