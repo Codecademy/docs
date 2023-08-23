@@ -57,4 +57,4 @@ div {
   font-family: superFont;
 }
 ```
-**Note:**  Another think to note while using any font is to check for browser support. If the fomrat that we use is not supported, it will just roll back to default system font. 
+**Note:**  Another thing to note while using any font is to check for browser support. If the format that we use is not supported, it will just roll back to the default system font. 
