@@ -31,6 +31,7 @@ There are different types of Font Formats that we use - WOFF,WOFF2(more compress
 If we need our font to load faster then WOFF is the best(this format is supported in most of the browsers).
 
 ## Example 1
+The below code snippet uses the `font-family` property and the style `superFont` to give the text a unique look 
 
 Specifying a font called "uniqueFont" then linking the URL to the font folder.
 
