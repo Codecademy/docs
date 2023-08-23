@@ -78,7 +78,7 @@ This example uses `exec()` with `globals` and `locals`:
 ```py
 code = input("Enter your command: ")
 
-#In this example a user could inject malicious code like "import os; os.system('cat /etc/passwd')"
+# In this example a user could inject malicious code like "import os; os.system('cat /etc/passwd')"
 exec(code)
 
 code = input("Enter another command: ")
