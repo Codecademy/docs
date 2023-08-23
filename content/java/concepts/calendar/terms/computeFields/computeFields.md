@@ -34,18 +34,18 @@ public class CalendarComputeFieldExample extends GregorianCalendar {
   // Instantiate a new Calendar object
   CalendarComputeFieldExample cal = new CalendarComputeFieldExample();
 
-  // print the current date
+  // Print the current date
   System.out.println("Current date is: " + cal.getTime());
 
   // clear the calendar
   cal.clear();
 
-  // set a new year and call computeFields()
+  // Set a new year and call computeFields()
   cal.set(GregorianCalendar.YEAR, 2024);
   System.out.println("New date is: " + cal.getTime());
   cal.computeFields();
 
-  // print the current date
+  // Print the current date
   System.out.println("New date is: " + cal.getTime());
   }
 }
