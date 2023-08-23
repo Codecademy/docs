@@ -12,13 +12,13 @@ CatalogContent:
   - 'learn-git'
 ---
 
-In Git, __`diff`__ displays changes in different elements of the working environment: files, directories, commits and even branches. Simply put, diff shows what changed for one or several elements in a repository.
+In Git, **`diff`** displays changes in different elements of the working environment: files, directories, commits, and even branches. In other words, `diff` shows what changed for one or several elements in a repository.
 
 ## Syntax
 
 The syntax for comparing data changes in a repository using `diff` is:
 
-```bash
+```shell
 $ git diff
 ```
 
@@ -32,7 +32,7 @@ Used as it is, the command shows the difference between the working directory an
 
 Suppose the initial version of the file `scene.txt` below has already been [committed](https://www.codecademy.com/resources/docs/git/commit).
 
-```
+```plaintext
 COBBYTO
 In a dream, brain activity will be roughly thirty times higher than usual. The effect is increased by entering a dream within that dream.
 
@@ -42,7 +42,7 @@ How long should each level take?
 
 The file `scene.txt` is modified as follows and the changes are saved in the working directory.
 
-```
+```plaintext
 COBBYTO
 In a dream, brain activity will be roughly thirty times higher than usual. The effect is increased by entering a dream within that dream.
 
@@ -58,7 +58,7 @@ Who would want to live in an illusory world for six years?
 
 Using `git diff` in the terminal will produce the following output:
 
-```bash
+```shell
 $ git diff
 diff --git a/scene.txt b/scene.txt
 index c16c37f..c680bb4 100644
@@ -80,15 +80,15 @@ index c16c37f..c680bb4 100644
 \ No newline at end of file
 ```
 
-With only one file tracked, using  `git diff` is the same as using  `git diff scene.txt`
+With only one file tracked, using `git diff` is the same as using  `git diff scene.txt`
 
 ### 2. git diff --cached
 
-`git diff --cached` displays the changes between the staging area and the last commit (i.e changes between what is [staged](https://www.codecademy.com/resources/docs/git/add) but not yet committed).
+`git diff --cached` displays the changes between the staging area and the last commit (i.e., changes between what is [staged](https://www.codecademy.com/resources/docs/git/add) but not yet committed).
 
 If `git diff --cached` is run in the terminal, no output is produced. This is expected because nothing has been added to the staging area yet. Therefore, there's no status change between the latter and the last commit. This can be verified by running [`git status`](https://www.codecademy.com/resources/docs/git/status).
 
-```bash
+```shell
 $ git status
 On branch master
 Changes not staged for commit:
@@ -100,9 +100,9 @@ Changes not staged for commit:
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
-Adding `scene.txt` to the staging area and running `git diff --cached` in the terminal should yield the following:
+Adding `scene.txt` to the staging area and running `git diff --cached` in the terminal yield the following:
 
-```bash
+```shell
 $ git diff --cached
 diff --git a/scene.txt b/scene.txt
 index c16c37f..c680bb4 100644
@@ -124,4 +124,4 @@ index c16c37f..c680bb4 100644
 \ No newline at end of file
 ```
 
-A quick look at the output shows it is the same as the one from the previous _1. git diff_ section, since the changes saved have been added to the staging area. Conversely, if `git diff` is run in the terminal, no output is produced.
+The output is the same as the output for `git diff` in the previous section because the changes saved have been added to the staging area. Conversely, if `git diff` is run in the terminal, no output is produced.
