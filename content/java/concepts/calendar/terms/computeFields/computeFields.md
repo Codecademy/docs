@@ -24,7 +24,7 @@ calendar.computeFields()
 
 ## Example
 
-The example below demonstrated the `computeFields()` method. `CalendarComputeFieldExample` class was instantiated and its calendar set to the year `2024`, `computeFields()` is then called on it to sync up with the `calendar` field values with a new time that is set for the `calendar` object.
+The example below demonstrates the `computeFields()` method. The `CalendarComputeFieldExample` class is instantiated and the calendar is set to the year `2024`. Finally,  `computeFields()` is called on it to sync up with the `calendar` field values with a new time that is set for the `calendar` object.
 
 ```java
 import java.util.*;
