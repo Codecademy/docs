@@ -1,67 +1,68 @@
 ---
-Title: 'Tables' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'Tables are used to store collections of data.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
-Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
+Title: 'Tables'
+Description: 'Tables are used to store collections of data.'
+Subjects:
   - 'Computer Science'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
+Tags:
   - 'Tables'
   - 'Arrays'
   - 'Libraries'
   - 'Methods'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+CatalogContent:
   - 'learn-lua'
   - 'paths/computer-science'
 ---
 
-# **Tables**
+In Lua, **tables** are associative [Arrays](https://www.codecademy.com/resources/docs/lua/arrays). Values that are stored in a table can be referenced with numbers and keys.
 
-This library is internal, and will automatically work when referencing the **global** keyword **table**. In Lua, **Tables** are known as associative [Arrays](https://www.codecademy.com/resources/docs/lua/arrays) which can be referenced with keys instead of just numbers. Any data type other than nil can be used as a key.
+## Creating Tables
 
-## **Functions**
+Table objects are created using a constructor expression, in this case, a pair of curly braces:
 
-Below are the list of Table methods available.
+```lua
+t = {}
+```
 
-### table.clear(table : **table**) : void
-Clears all Indexes and Values from a table.
+To add values to the table, use square brackets to set the key that's associated with the value:
 
-### table.clone(table : **table**) : table
-Returns a shallow copy of the provided table. A shallow copy refers to an independent clone seperate from its original table.
+```pseudo
+t[mykey] = myvalue
+```
 
-### table.concat(table : **Array**, separator : string, i : number?, j : number?) : string
-Returns the provided table as a string with the provided separator between each value. You may provide a starting index `i` and an ending index `j` but these parameters are _optional_.
+Any data type other than `nil` can be used as a key.
 
-### table.create(amount : number, value : any) : table
-Returns a new table with the provided value repeated the provided amount of times.
+## Accessing Table Values
 
-### table.find(haystack: **table**, needle : any, i : number?) : number
-Returns the requested needle’s index if found or returns `nil` if the needle does not exist within the provided haystack table.
+After creating a table with a key-value pair(s), values can be indexed into through the associated keys using square brackets:
 
-### table.foreach(table : **table**, callback : function) : void
-Iterates through the provided table using the provided callback function. The provided function will receive two parameters, of which are **Index** and **Value** from the current table iteration.
+```lua
+t = {}
+t["a"] = 1 -- New table entry where key="a" and value=1
+print(t["a"]) -- Output: 1
+```
 
-### table.freeze(table : **table**) : void
-Freezes the provided table, and makes it **`read-only`**.
+Values can also be accessed using dot notation:
 
-### table.isfrozen(table : **table**) : boolean
-Returns a **boolean** based on whether the table is in **`read-only`** mode or not.
+```lua
+print(t.a) -- Output: 1
+```
 
-### table.getn(table : **Array**) : number
-Returns the number of elements in the provided table.
+## Methods
 
-### table.insert(table : **Array**, value : any) : void
-Inserts the provided value into the provided table while respecting it’s order by placing the value at the end of the array.
+The table library is built-in and will automatically work when referencing the `global` keyword, `table`. Below is the list of the available `Table` methods:
 
-### table.pack(values… : concat) : table
-Packs the provided values into an **Array**.
-
-### table.unpack(table : **table**) : Tuple
-Unpacks values from the provided table as a tuple.
-
-### table.move(source : **table**, s : number, e : number, p : number, destination : **table**) : table
-Copies the specified indexes of values from the source table into the provided starting index of the destination table.
-
-### table.remove(table : **Array**, index : number) : any
-Removes the value of the specified index and clears the index from the Array.
-
-### table.sort(table : **Array**, compare : **function**) : void
-Compares each Index/Value pair within the provided **Array** using the specified comparison function. You must return **true** or **false** within your comparison function ideally by comparing values with a `>` or `<` **operator.
+- table.clear(mytable): Clears all Indexes and Values from a table.
+- table.clone(mytable): Returns a shallow copy of the provided table. A shallow copy refers to an independent clone separate from its original table.
+- table.concat(mytable, separatorstring, indexi, indexj): Returns the provided table as a string with the provided separator between each value. You may provide a starting index `i` and an ending index `j` but these parameters are _optional_.
+- table.create(amount : number, value : any): Returns a new table with the provided value repeated the provided amount of times.
+- table.find(mytable, myvalue, index): Returns the requested needle’s index if found or returns `nil` if the needle does not exist within the provided haystack table.
+- table.foreach(mytable, callback): Iterates through the provided table using the provided callback function. The provided function will receive two parameters, which are **Index** and **Value** from the current table iteration.
+- table.freeze(mytable): Freezes the provided table, and makes it `read-only`.
+- table.isfrozen(mytable): Returns a **boolean** based on whether the table is in `read-only` mode or not.
+- table.getn(mytable): Returns the number of elements in the provided table.
+- table.insert(mytable, myvalue): Inserts the provided value into the provided table while respecting its order by placing the value at the end of the array.
+- table.pack(values… : concat)e: Packs the provided values into an `Array`.
+- table.unpack(mytable): Unpacks values from the provided table as a tuple.
+- table.move(sourcetable, s : number, e : number, p : number, destinationtable): Copies the specified indexes of values from the source table into the provided starting index of the destination table.
+- table.remove(mytable, myindex): Removes the value of the specified index and clears the index from the Array.
+- table.sort(mytable, comparisonfunction): Compares each Index/Value pair within the provided `Array` using the specified comparison function. The comparison function must return `true` or `false`, ideally, by comparing values with a `>` or `<` **operator.
