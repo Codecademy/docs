@@ -4,7 +4,7 @@ Description: 'An induction technique that proves a statement by providing multip
 Subjects:
   - 'Computer Science'
   - 'Discrete Math'
-Tags: 
+Tags:
   - 'Arithmetic'
   - 'Logic'
   - 'Logical'
@@ -18,9 +18,9 @@ CatalogContent:
 
 ## Steps for Strong Induction
 
-  1. _Base Cases_: Identify multiple smallest possible cases for which the statement is true.
-  2. _Induction Hypothesis_: Suppose that the statement is true for some integer `k`, then the statement must be true for `k+1`.
-  3. _Proof_: Prove that the induction hypothesis is true for `k+1`.
+1. _Base Cases_: Identify multiple smallest possible cases for which the statement is true.
+2. _Induction Hypothesis_: Suppose that the statement is true for some integer `k`, then the statement must be true for `k+1`.
+3. _Proof_: Prove that the induction hypothesis is true for `k+1`.
 
 ## Example
 
@@ -44,14 +44,13 @@ Then at x = k+1, prove that 2((k+1)-1) - ((k+1)-2) = k+1
 Proof:
 
 ```plaintext
-2((k+1)-1) - ((k+1)-2) = 2(k+1-1) - (k+1-2) 
-                       = 2(k-1+1) - (k-2+1) 
-                       = 2(k-1) + 2(1) - (k-2) -(+1) 
+2((k+1)-1) - ((k+1)-2) = 2(k+1-1) - (k+1-2)
+                       = 2(k-1+1) - (k-2+1)
+                       = 2(k-1) + 2(1) - (k-2) -(+1)
                        = 2(k-1) - (k-2) + 2 - 1
-                       = 2(k-1) - (k-2) + 1 
+                       = 2(k-1) - (k-2) + 1
                        = k + 1  [Substituting from x = k, which states that 2(k-1) - (k-2) = k]
 2((k+1)-1) - ((k+1)-2) = k+1
 
 Thus, the statement is true at x = k+1.
 ```
-
