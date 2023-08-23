@@ -48,6 +48,7 @@ Set the `p` tag to `600`:
 
 ```css
 p {
+This code snippet give the text a semi-bold style
   font-weight: 600;
 }
 This code snippet give the text a semi-bold style
