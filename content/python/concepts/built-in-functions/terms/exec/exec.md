@@ -45,7 +45,7 @@ Hello, Codecademy!
 
 ## Example 2
 
-This example uses `exec()` to execute python code from a file `code.txt`, which contains Python commands:
+This example uses `exec()` to execute Python code from a file `code.txt`, which contains Python commands:
 
 ```py
 #code.txt
