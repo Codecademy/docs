@@ -32,6 +32,7 @@ If we need our font to load faster then WOFF is the best(this format is supporte
 
 ## Example 1
 The below code snippet uses the `font-family` property and the style `superFont` to give the text a unique look 
+The below code snippet uses the `font-family` property and the style `superFont` to give the text a unique look 
 
 Specifying a font called "uniqueFont" then linking the URL to the font folder.
 
