@@ -95,7 +95,7 @@ def f2():
 # locals restrict the usage of f1 function with exec:
 exec("f1()",{"__builtins__": {}}, {"f1": f1})
 
-exec("f2()",{"__builtins__": {}}, {"f1": f1}) #This will throw an error
+exec("f2()",{"__builtins__": {}}, {"f1": f1}) # This will throw an error
 ```
 
 ## Codebyte Example
