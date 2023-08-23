@@ -20,7 +20,7 @@ The **`.computeFields()`** method of the `Calendar` class converts the current m
 calendar.computeFields()
 ```
 
-> **Note:** computeFields() method is a non-static method, it is accessible with the `class` object and if we try to access these methods with the `class` name then we will get an error.
+> **Note:** computeFields() method is a non-static method, it is accessible with the `class` object. Trying to access it with the `class` name throws an error.
 
 ## Example
 
