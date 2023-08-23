@@ -83,7 +83,7 @@ exec(code)
 
 code = input("Enter another command: ")
 
-#The globlas dictonary allows only the print function from the buitlins.
+# The globals dictionary allows only the print function from the builtins.
 exec(code,{"__builtins__": {"print": print}},{})
 
 def f1():
