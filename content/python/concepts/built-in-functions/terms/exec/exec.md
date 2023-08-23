@@ -92,7 +92,7 @@ def f1():
 def f2():
     print('Hello, world!')
 
-#locals restrict the usage of f1 function with exec:
+# locals restrict the usage of f1 function with exec:
 exec("f1()",{"__builtins__": {}}, {"f1": f1})
 
 exec("f2()",{"__builtins__": {}}, {"f1": f1}) #This will throw an error
