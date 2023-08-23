@@ -50,5 +50,7 @@ Set the `p` tag to `600`:
 p {
   font-weight: 600;
 }
+This code snippet give the text a semi-bold style
+
 ```
 **Note:** While using font weight, we should be careful. The way it will be rendered can differ from browser to browser, and for certain languages, it is not advised to use font weight. This includes languages with complex scripts such as Chinese, Japanese, etc.

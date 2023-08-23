@@ -51,8 +51,10 @@ Creating a custom font called "superFont" then applying the font to a `div`.
   src: url('super_font.ttf');
 }
 
+The below code snippet uses the `font-family` property and the style `superFont` to give the text a unique look 
+
 div {
   font-family: superFont;
 }
 ```
-**Note:**  Another think to note while using any font is to check for browser support. If the fomrat that we use is not supported, it will just roll back to default system font. 
+**Note:**  Another thing to note while using any font is to check for browser support. If the format that we use is not supported, it will just roll back to the default system font. 
