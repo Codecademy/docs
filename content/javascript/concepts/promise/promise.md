@@ -16,7 +16,7 @@ A JavaScript `Promise` is an object that can be used to get the outcome of an as
 
 Since JavaScript code runs in a non-blocking manner, promises become essential when we have to wait for some asynchronous operation without holding back the execution of the rest of the code. Some common use cases for promises include using data from APIs and downloading images.
 
-### Promise object state
+### Promise Object State
 
 Promises are ideal for performing asynchronous JavaScript operations. This is supported by their use of three states:
 
@@ -86,7 +86,7 @@ promise
 
 Starting from ES2017, JavaScript introduced the keywords `async` and `await`, which are used to write promises in a cleaner way. This can be used as an alternative to other verbose solutions, such as promise chaining.
 
-Note that `await` is only usable in an asynchronous function, otherwise it will throw a SyntaxError.
+> **Note:** `await` is only usable in an asynchronous function, otherwise, it will throw a SyntaxError.
 
 ```js
 function myPromise() {
