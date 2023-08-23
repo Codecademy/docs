@@ -1,6 +1,6 @@
 ---
 Title: 'Notifications'
-Description: 'Learn how to use notifications in SwiftUI for event handling and communication.'
+Description: 'Notifications refer to visual and interactive user interface components that display messages, alers, or updates to the user. '
 Subjects:
   - 'Mobile Development'
   - 'iOS'
@@ -15,11 +15,11 @@ Table of Contents:
 - Custom Notifications
 - Best Practices
 ---
-# SwiftUI Notifications
+SwiftUI Notifications
 
 ## Introduction 
 
-In **[SwiftUI](https://developer.apple.com/documentation/swiftui/)**, **`notifications`** refer to visual and interactive user interface components that display messages, alerts, or updates to the user. 
+In **SwiftUI**, **`notifications`** refer to visual and interactive user interface components that display messages, alerts, or updates to the user. 
 
 They are used to provide information, prompt user interaction, or display important messages within your app's user interface. 
 
@@ -32,7 +32,7 @@ The two concepts are related and they both involve some form of communication or
 
 ## Types of SwiftUI Notifications
 
-## 1. Alerts
+### 1. Alerts
 An alert is a notification that presents a message or a set of options to the user. It's commonly used to display critical information or to prompt the user for a decision.
 
 // Posting an Alert. Example:
@@ -61,14 +61,15 @@ An alert is a notification that presents a message or a set of options to the us
 
 
 
-## 2. Action Sheets
+### 2. Action Sheets
 
 An action sheet is a notification that presents a set of choices to the user. It's often used when you want to give the user multiple options to choose from.
 
 
 // Action Sheets. Example:
 
-```struct ContentView: View {
+```swift
+struct ContentView: View {
     @State private var showActionSheet = false
 
     var body: some View {
@@ -95,12 +96,13 @@ An action sheet is a notification that presents a set of choices to the user. It
 *This code will provide the user with options to select their preferred sorting order.*
 
 
-## 3. Toasts (Message Overlays)
+### 3. Toasts (Message Overlays)
 A toast is a small, temporary notification that appears at the bottom of the screen. It's typically used to display non-intrusive messages or status updates.
 
 // Message Overlay. Example:
 
-```struct ContentView: View {
+```swift
+struct ContentView: View {
     @State private var showToast = false
 
     var body: some View {
@@ -141,15 +143,16 @@ struct ToastView: View {
 
 *This code will show a short confirmation message after the user successfully saves some data.*
 
-## 4. Custom Notifications 
+### 4. Custom Notifications 
 
 We can create our own custom notifications by designing custom views and animations. These can be used to provide unique and engaging user interface elements tailored to your app's style and branding.
 
 Custom notifications allow us to get creative with how we present information or engage users within our SwiftUI app.
 
-The specific implementation and appearance of notifications can be customized based on our app's design and user experience goals. SwiftUI's flexible and declarative approach makes it easy to create engaging and user-friendly notifications that enhance your app's overall experience.
+The specific implementation and appearance of notifications can be customized based on our app's design and user experience goals. SwiftUI's flexible and declarative approach makes it easy to create engaging and user-friendly notifications that enhance our app's overall experience.
 
-```struct ContentView: View {
+```swift
+struct ContentView: View {
     var body: some View {
         VStack {
             Text("Welcome to My App")
@@ -164,27 +167,20 @@ The specific implementation and appearance of notifications can be customized ba
 }
 ```
 
->> The code was left more open-ended to illustrate the concept of creating custom notifications. 
-The focus is on the idea that you can design and implement your own custom views and animations to create unique and visually appealing notifications tailored to your app's style and branding.
+>> The focus is on the idea that we can design and implement our own custom views and animations to create unique and visually appealing notifications tailored to our app's style and branding.
+The code was left more open-ended to illustrate the concept of creating custom notifications. 
 
 
 
 
-## Best Practices
+### Best Practices
 
-+ **Descriptive Names:**
-Use clear and descriptive names for your notifications to convey their purpose effectively. Consider using enums to define notification names for type safety.
++ **Descriptive Names:** Use clear and descriptive names for your notifications to convey their purpose effectively. Consider using enums to define notification names for type safety.
 
-+ **Decoupling:** 
-Utilize notifications to decouple different app components, but avoid using them excessively for closely related components. Also, use more direct communication methods for hierarchical relationships.
++ **Decoupling:** Utilize notifications to decouple different app components, but avoid using them excessively for closely related components. Also, use more direct communication methods for hierarchical relationships.
 
-+ **Observer Removal:**
- Always remove observers when they are no longer needed to prevent memory leaks. Typically, remove observers in the deinit method of the observing class.
++ **Observer Removal:** Always remove observers when they are no longer needed to prevent memory leaks. Typically, remove observers in the deinit method of the observing class.
 
-+ **Avoid Overuse:**
- While powerful, notifications should be used judiciously. Overusing them can lead to code complexity and reduced maintainability. Consider other communication patterns for more appropriate scenarios.
++ **Avoid Overuse:** While powerful, notifications should be used judiciously. Overusing them can lead to code complexity and reduced maintainability. Consider other communication patterns for more appropriate scenarios.
 
-+ **Combine Framework:**
- If using SwiftUI, explore the Combine framework to handle notifications and asynchronous tasks in a more reactive and functional way. Combine provides publishers and subscribers for improved code readability and organization.
-
-
++ **Combine Framework:** If using SwiftUI, explore the Combine framework to handle notifications and asynchronous tasks in a more reactive and functional way. Combine provides publishers and subscribers for improved code readability and organization.
