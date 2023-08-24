@@ -26,7 +26,7 @@ struct myStruct: Equatable {
 
 When checking for equality between two instances of the `myStruct` [structure](https://www.codecademy.com/resources/docs/swift/structures), all properties will be compared.
 
-### Syntax using a custom `==` method
+### Syntax Using a Custom `==` Method
 
 If a customised approach is needed for equality comparison, then a custom `==` method can be included so that the type can conform to `Equatable`:
 
