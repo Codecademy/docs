@@ -45,7 +45,7 @@ The example below demonstrates how the `array_reduce()` method can be used to re
         return $carry;
     }
 
-    var_dump(array_reduce($arrOfNumbers, "highestNumber")); // int(23)
+    printf("The largest value in the array is: %f", array_reduce($arrOfNumbers, "highestNumber")); 
 
 ?>
 ```
