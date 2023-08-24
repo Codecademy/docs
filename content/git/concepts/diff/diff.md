@@ -18,8 +18,8 @@ The **`diff`** command displays changes in different elements of the working env
 
 The syntax for comparing data changes in a repository using `diff` is:
 
-```pseudo
-$ git diff
+```pseudocode
+git diff
 ```
 
 ## Examples
