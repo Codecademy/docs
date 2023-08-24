@@ -38,16 +38,21 @@ The example below demonstrates how the `array_reduce()` method can be used to re
 ```php
 <?php
 
-    $arrOfNumbers = [1, 6, 10, 14, 23];
+  $arrOfNumbers = [1, 6, 10, 14, 23];
 
-    function highestNumber($carry, $item) {
-        if ($item > $carry) return $item;
-        return $carry;
-    }
+  function highestNumber($carry, $item) {
+    if ($item > $carry) return $item;
+    return $carry;
+  }
 
-    printf("The largest value in the array is: %f", array_reduce($arrOfNumbers, "highestNumber")); 
+  printf("The largest value in the array is: %f", array_reduce($arrOfNumbers, "highestNumber")); 
 
 ?>
+```
+
+The output:
+```shell
+  The largest value in the array is: 23
 ```
 
 ## Codebyte Example
@@ -57,14 +62,14 @@ The following code is runnable and demonstrates the use of `array_reduce()`:
 ```codebyte/php
 <?php
 
-    $arrOfNumbers = [1, 4, 2, 10, 3];
+  $arrOfNumbers = [1, 4, 2, 10, 3];
     
-    function evenNumberArr($carry, $item) {
-        if ($item % 2 === 0) $carry[] = $item;
-        return $carry;
-    }
+  function sumOfAll($carry, $item) {
+    $carry += $item;
+    return $carry;
+  }
 
-    var_dump(array_reduce($arrOfNumbers, "evenNumberArr", []));
+  printf("The sum of all numbers in the array is : %f", array_reduce($arrOfNumbers, "sumOfAll", 0));
 
 ?>
 ```
