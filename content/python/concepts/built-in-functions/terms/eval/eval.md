@@ -55,7 +55,7 @@ In the examples below, the `eval()` function is used to return a value from a st
 x = 2
 y = 3
 
-print(eval("x * y")) 
+print(eval("x * y"))
 print(eval("x * y", {"x": 3, "y": y}))
 print(eval("min([-10, 20, 45])"))
 
