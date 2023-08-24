@@ -25,7 +25,7 @@ The first two parameters `$array` and `$callable` are both required, if no argum
 The callback pseudo-code:
 
 ```pseudo
-callback(mixed $carry, mixed $item): mixed
+callback($carry, $item)
 ```
 
 This is the function that will be applied to every element of the array, and it must return a value. Initially `$carry` is the `$initial` argument seen previously, or the first element of the `$array` argument if nothing was given for the `$initial` parameter, where `$item` is simply the first element of the `$array` argument or its second element respectively. After the first iteration `$carry` will be whatever is returned from the function and `$item` will be the next element of the array.
