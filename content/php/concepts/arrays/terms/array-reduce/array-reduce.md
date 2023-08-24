@@ -52,7 +52,7 @@ The example below demonstrates how the `array_reduce()` method can be used to re
 
 ## Codebyte Example
 
-Here is an example for you to try:
+The following code is runnable and demonstrates the use of `array_reduce()`:
 
 ```codebyte/php
 <?php
