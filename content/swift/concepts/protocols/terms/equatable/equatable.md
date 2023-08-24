@@ -50,13 +50,13 @@ Below the `TeaCup` structure, two instances of `TeaCup` are created and compared
 
 ```swift
 struct TeaCup: Equatable {
-    var color: String
-    var volume: Int
-    var unit: Unit
+  var color: String
+  var volume: Int
+  var unit: Unit
 
-    enum Unit {
-        case cups, ml
-    }
+  enum Unit {
+    case cups, ml
+  }
 }
 
 let blueCup = TeaCup(color: "Blue", volume: 237, unit: .ml)
@@ -84,26 +84,26 @@ Following the `TeaCup` structure, two instances of `TeaCup` called `blueCup` and
 
 ```swift
 struct TeaCup: Equatable {
-    var color: String
-    var volume: Int
-    var unit: Unit
+  var color: String
+  var volume: Int
+  var unit: Unit
 
-    enum Unit {
-        case cups, ml
+  enum Unit {
+    case cups, ml
+  }
+
+  static func == (lhs: TeaCup, rhs: TeaCup) -> Bool {
+    return volume_in_ml(lhs) == volume_in_ml(rhs)
+
+    func volume_in_ml(_ teaCup: TeaCup) -> Int {
+      switch teaCup.unit {
+      case .ml:
+        return teaCup.volume
+      case .cups:
+        return teaCup.volume*237
+      }
     }
-
-    static func == (lhs: TeaCup, rhs: TeaCup) -> Bool {
-        return volume_in_ml(lhs) == volume_in_ml(rhs)
-
-        func volume_in_ml(_ teaCup: TeaCup) -> Int {
-            switch teaCup.unit {
-            case .ml:
-                return teaCup.volume
-            case .cups:
-                return teaCup.volume*237
-            }
-        }
-    }
+  }
 }
 
 let blueCup = TeaCup(color: "Blue", volume: 237, unit: .ml)
