@@ -1,6 +1,6 @@
 ---
 Title: 'Arrays'
-Description: 'An array is a variable that can hold more than one value. Arrays in PHP are stored as value pairs that in other languages would be called a dictionary or a hashtable. Keys can be strings or integers. There are several methods of declaring an array in PHP. The array() function can be used, either with key-value pairs, or with values alone. Single brackets, [...] can also be used in place of the array() keyword. If any key value is omitted, the key will be found by incrementing the largest prior integer key. If a key is repeated, the new value will overwrite the prior key. php  "one", "item 2" => "two", "item 3" => "three", ); echo $array1["item 1"], ";", $array1["item 2"], ";", $array1["item 3"];'
+Description: 'In PHP, an array is an ordered map that can hold more than one value.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-An array is a variable that can hold more than one value. Arrays in PHP are stored as value pairs that in other languages would be called a dictionary or a hashtable. Keys can be strings or integers.
+An array can hold more than one value. In PHP, they're stored as value pairs that in other languages would be called a dictionary or a hashtable. Keys can be strings or integers.
 
 ## Syntax
 
@@ -44,7 +44,7 @@ echo $array4[5];
 ?>
 ```
 
-Additionally, when defining an array, the following key casts will occur:
+When defining an array, the following key casts will occur:
 
 - Strings containing valid `int` types, unless preceded by a `+` sign, will be cast to an `int` type key.
   As in the above example `"5"` is treated as `5`.
@@ -53,3 +53,7 @@ Additionally, when defining an array, the following key casts will occur:
 - `bool` types are cast to `int` types. `true` is stored as `1` and `false` stored as `0`.
 - `null` will be cast as the empty string, `""`.
 - Arrays and objects cannot be used as keys and will result in an error: `Illegal offset type`.
+
+## Array Functions
+
+Below is a list of selected array functions:
