@@ -17,11 +17,9 @@ Allows the user to delete attributes from an object.
 
 ## Syntax
 
-```py
+```pseudo
 delattr(object, name)
 ```
-
-## Parameters
 
 - `object`: The object to have an attribute removed.
 - `name`: The attribute to be removed from the object.
@@ -44,24 +42,23 @@ print(person1.position)
 # Output: AttributeError: 'Person' object has no attribute 'position'
 ```
 
-
 ## Codebyte Example
 
-In the example below, the `delattr()` function is used to remove an attribute from the class travel. Uncommenting the last print statement will cause an `AttributeError` because the `third_stop` attribute is removed:
+In the example below, the `delattr()` function is used to remove an attribute from the `Travel` class. Uncommenting the last print statement will cause an `AttributeError` because the `third_stop` attribute is removed:
 
 ```codebyte/python
-class travel:
+class Travel:
   first_stop = "Barcelona"
   second_stop = "Nice"
   third_stop = "Rome"
 
-my_holiday = travel()
+my_holiday = Travel()
 
 print("My first destinantion for my holiday is ", my_holiday.first_stop)
 print("My second destinantion for my holiday is ", my_holiday.second_stop)
 print("My third destinantion for my holiday is ", my_holiday.third_stop)
 
-delattr(travel, "third_stop")
+delattr(Travel, "third_stop")
 print("My first destinantion for my holiday is ", my_holiday.first_stop)
 print("My second destinantion for my holiday is ", my_holiday.second_stop)
 
