@@ -76,7 +76,7 @@ Because the `blueCup` and `pinkCup` properties are not equal, the following outp
 Teacups are not equal.
 ```
 
-## Example using a custom == method
+## Example Using a Custom `==` Method
 
 In the example below, a `TeaCup` structure is declared containing a custom `==` method. This method compares the `volume` of the teacups, converting to `ml` if necessary. The `color` property is ignored.
 
