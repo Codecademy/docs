@@ -20,7 +20,7 @@ In a straightforward case, for a type to conform to `Equatable`, all of its prop
 
 ```pseudo
 struct myStruct: Equatable {
-  // properties that conform to Equatable
+  // Properties that conform to Equatable
 }
 ```
 
