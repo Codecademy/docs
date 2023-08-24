@@ -28,7 +28,7 @@ The callback pseudo-code:
 callback($carry, $item)
 ```
 
-This is the function that will be applied to every element of the array, and it must return a value. Initially `$carry` is the `$initial` argument seen previously, or the first element of the `$array` argument if nothing was given for the `$initial` parameter, where `$item` is simply the first element of the `$array` argument or its second element respectively. After the first iteration `$carry` will be whatever is returned from the function and `$item` will be the next element of the array.
+This is the function that will be applied to every element of the array, and it must return a value. To start, `$carry` is the `$initial` argument, seen previously, or the first element of the `$array` argument if nothing was given for the `$initial` parameter. The `$item` argument is simply the first element of the `$array` argument or its second element respectively. After the first iteration `$carry` will be the result returned from the function and `$item` will be the next element of the array.
 
 After this loop has completed the `array_reduce()` function will return a single value of any type.
 
