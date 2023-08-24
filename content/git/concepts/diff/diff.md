@@ -66,7 +66,7 @@ index c16c37f..c680bb4 100644
 +++ b/scene.txt
 @@ -2,4 +2,10 @@ COBBYTO
  In a dream, brain activity will be roughly thirty times higher than usual. The effect is increased by entering a dream within that dream.
- 
+
  ARIANEA
 -How long?
 \ No newline at end of file
@@ -80,7 +80,7 @@ index c16c37f..c680bb4 100644
 \ No newline at end of file
 ```
 
-With only one file tracked, using `git diff` is the same as using  `git diff scene.txt`
+With only one file tracked, using `git diff` is the same as using `git diff scene.txt`
 
 ### 2. git diff --cached
 
@@ -110,7 +110,7 @@ index c16c37f..c680bb4 100644
 +++ b/scene.txt
 @@ -2,4 +2,10 @@ COBBYTO
  In a dream, brain activity will be roughly thirty times higher than usual. The effect is increased by entering a dream within that dream.
- 
+
  ARIANEA
 -How long?
 \ No newline at end of file
