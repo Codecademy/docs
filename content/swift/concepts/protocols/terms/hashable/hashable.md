@@ -1,6 +1,6 @@
 ---
 Title: 'Hashable'
-Description: 'allows types to be hashed into integer values.'
+Description: 'Allows types to be hashed into integer values.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
