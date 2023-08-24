@@ -1,6 +1,6 @@
 ---
 Title: 'array_unique()'
-Description: 'Used to remove duplicate values from an array.'
+Description: 'Returns an array without duplicate values.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`array_unique()`** function removes duplicate values from an array.
+The **`array_unique()`** function returns a new array with any duplicate values removed.
 
 ## Syntax
 
@@ -28,7 +28,7 @@ Types of sort flags:
 
 - `SORT_REGULAR`: Does not change the types of the items when comparing.
 - `SORT_NUMERIC`: Treats all items as numbers.
-- `SORT_STRING`: Treats all items as strings. (for e.g. "1" and 1 are considered equal)
+- `SORT_STRING`: Treats all items as strings (e.g. "1" and 1 are considered equal).
 - `SORT_LOCALE_STRING`: Compare items as strings, based on the current locale.
 
 > **Note:** When multiple values are considered equal, only the first key will be retained.
@@ -43,7 +43,7 @@ Consider the following `$vegetables` array:
 ?>
 ```
 
-To remove the duplicate values from the array, we can use the `array_unique()` function:
+To remove the duplicate values from the array, the `array_unique()` function can be implemented as below:
 
 ```php
 <?php
