@@ -28,7 +28,7 @@ In this pseudo-code:
 
 The `expr` value is compared with each case value sequentially, and when a match is found, the corresponding expression or value associated with that case is returned.
 
-## Example
+## Examples
 
 The following example illustrates a basic implementation of the `switch()` method:
 
@@ -36,9 +36,11 @@ The following example illustrates a basic implementation of the `switch()` metho
 day <- 3
 
 weekday <- switch(day, "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
+
+print(weekday) # Output: Wednesday
 ```
 
-In this example, the `day` variable is set to 3. The `switch()` function then compares the value of `day` with each case value. Since the third case matches, the corresponding value `"Wednesday"` is returned and assigned to the variable `weekday`.
+In this example, the `day` variable is set to `3`. The `switch()` function then compares the value of `day` with each case value. Since the third case matches, the corresponding value `"Wednesday"` is returned and assigned to the variable `weekday`.
 
 The following example includes a default case:
 
@@ -61,6 +63,8 @@ season <- switch(
   "December"  = "Winter",
   "Unknown month"
 )
+
+print(season) # Output: Unknown month
 ```
 
-In this scenario, if the value of `month` does not match any of the specified cases, the default case `"Unknown month"` is returned and assigned to the variable `season`.
+In this scenario, the value of `month` does not match any of the specified cases, so the default case `"Unknown month"` is returned and assigned to the variable `season`.
