@@ -4,7 +4,6 @@ Description: 'Iterates through an array to produce a single value.'
 Subjects:
   - 'Computer Science'
   - 'Web Design'
-  - 'Web Development'
 Tags:
   - 'Arrays'
   - 'Functions'
