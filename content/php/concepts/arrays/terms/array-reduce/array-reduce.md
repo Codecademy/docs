@@ -34,6 +34,7 @@ After this loop has completed the `array_reduce()` function will return a single
 
 ## Example
 
+The example below demonstrates how the `array_reduce()` method can be used to return the largest value in an array.
 ```php
 <?php
 
