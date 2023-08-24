@@ -32,10 +32,10 @@ If a customised approach is needed for equality comparison, then a custom `==` m
 
 ```pseudo
 struct myStruct: Equatable {
-  // properties
+  // Properties
 
   static func == (lhs: myStruct, rhs: myStruct) -> Bool {
-    // custom logic for equality comparison
+    // Custom logic for equality comparison
   }
 }
 ```
