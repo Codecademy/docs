@@ -124,4 +124,4 @@ index c16c37f..c680bb4 100644
 \ No newline at end of file
 ```
 
-The output is the same as the output for `git diff` in the previous section because the changes saved have been added to the staging area. Conversely, if `git diff` is run in the terminal, no output is produced.
+The output is the same as the output for `git diff` in the previous section because the changes saved have been added to the staging area. Additionally, if `git diff` is run in the terminal, no output is produced.
