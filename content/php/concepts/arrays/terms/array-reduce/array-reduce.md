@@ -17,7 +17,7 @@ The **`array_reduce()`** method iterates through an array to produce a single va
 ## Syntax
 
 ```pseudo
-array_reduce(array $array, callable $callback, mixed $initial = null): mixed
+array_reduce($array, $callback, $initial = null)
 ```
 
 The first two parameters `$array` and `$callable` are both required, if no argument is given for the `$initial` parameter it will default to the first element of the `$array` argument.
