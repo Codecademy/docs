@@ -28,13 +28,16 @@ The callback pseudo-code:
 callback($carry, $item)
 ```
 
-This is the function that will be applied to every element of the array, and it must return a value. To start, `$carry` is the `$initial` argument, seen previously, or the first element of the `$array` argument if nothing was given for the `$initial` parameter. The `$item` argument is simply the first element of the `$array` argument or its second element respectively. After the first iteration `$carry` will be the result returned from the function and `$item` will be the next element of the array.
+This is the function that will be applied to every element of the array, and it must return a value. To start, `$carry` is the `$initial` argument, or the first element of the `$array` argument if nothing was given for the `$initial` parameter.
+
+The `$item` argument is simply the first element of the `$array` argument or its second element respectively. After the first iteration `$carry` will be the result returned from the function and `$item` will be the next element of the array.
 
 After this loop has completed the `array_reduce()` function will return a single value of any type.
 
 ## Example
 
 The example below demonstrates how the `array_reduce()` method can be used to return the largest value in an array.
+
 ```php
 <?php
 
@@ -45,31 +48,31 @@ The example below demonstrates how the `array_reduce()` method can be used to re
     return $carry;
   }
 
-  printf("The largest value in the array is: %f", array_reduce($arrOfNumbers, "highestNumber")); 
-
+  printf("The largest value in the array is: %f", array_reduce($arrOfNumbers, "highestNumber"));
 ?>
 ```
 
-The output:
+The output will be:
+
 ```shell
-  The largest value in the array is: 23
+The largest value in the array is: 23
 ```
 
 ## Codebyte Example
 
-The following code is runnable and demonstrates the use of `array_reduce()`:
+The following code is runnable and demonstrates the use of `array_reduce()` with an optional initial value:
 
 ```codebyte/php
 <?php
 
   $arrOfNumbers = [1, 4, 2, 10, 3];
-    
+
   function sumOfAll($carry, $item) {
     $carry += $item;
     return $carry;
   }
 
-  printf("The sum of all numbers in the array is : %f", array_reduce($arrOfNumbers, "sumOfAll", 0));
+  printf("The sum of all numbers is : %f", array_reduce($arrOfNumbers, "sumOfAll", 10));
 
 ?>
 ```
