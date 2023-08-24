@@ -25,7 +25,7 @@ The protocol requires the implementation of the `hash(into:)` method. This metho
 
 ## Example
 
-Consider a simple use case with a `Book` struct that represents a book's title and author. By conforming to the `Hashable` protocol, instances of `Book` can be used as keys in a dictionary:
+In this example, the Person struct conforms to the Hashable protocol by implementing the `hash(into:)` method. The hash value is calculated by combining the `name` and `age` properties using the `hasher.combine(_:)` method. This allows instances of the Person struct to be stored in a set (`personSet`) and efficiently looked up using their hashed values.
 
 ```swift
 struct Person: Hashable {
