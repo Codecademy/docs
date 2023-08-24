@@ -1,6 +1,6 @@
 ---
 Title: 'Diff'
-Description: 'A display of changes in different elements of a working environment: files, directories, commits, branches, etc.'
+Description: 'The diff command displays changes in different elements of a working environment: files, directories, commits, branches, etc.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
@@ -12,13 +12,13 @@ CatalogContent:
   - 'learn-git'
 ---
 
-In Git, **`diff`** displays changes in different elements of the working environment: files, directories, commits, and even branches. In other words, `diff` shows what changed for one or several elements in a repository.
+The **`diff`** command displays changes in different elements of the working environment: files, directories, commits, and even branches. In other words, `diff` shows what changed for one or several elements in a repository.
 
 ## Syntax
 
 The syntax for comparing data changes in a repository using `diff` is:
 
-```shell
+```pseudo
 $ git diff
 ```
 
