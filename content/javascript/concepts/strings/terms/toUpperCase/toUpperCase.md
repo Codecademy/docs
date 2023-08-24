@@ -25,7 +25,7 @@ string.toUpperCase();
 Converting lowercase letters to uppercase:
 
 ```js
-console.log('hello world'.toLowerCase());
+console.log('hello world'.toUpperCase());
 // Output: HELLO WORLD
 ```
 

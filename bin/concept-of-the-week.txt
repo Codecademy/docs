@@ -1,1 +1,1 @@
-content/java/concepts/classes/classes.md
+content/open-source/concepts/font-awesome/font-awesome.md
