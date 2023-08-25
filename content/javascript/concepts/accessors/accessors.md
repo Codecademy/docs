@@ -1,6 +1,6 @@
 ---
 Title: 'Accessors'
-Description: "Offers access to an object's properties through either dot notation or bracket notation."
+Description: 'Offers access to the properties of an object through either dot notation or bracket notation.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -33,7 +33,7 @@ object[propertyName]
 
 ## Example
 
-The following example defines a `User` class with a constructor and a getter method. It demonstrates how to encapsulate and access the GitHub profile information of a user using accessor methods.
+The following example defines a `User` class with a constructor and a getter method. It demonstrates how to encapsulate and access the email information of a user using accessor methods.
 
 ```js
 class User {
