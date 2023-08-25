@@ -69,24 +69,6 @@ Additionally, the returned values can be indexed by the `id` column:
 
 ```php
 <?php
-  $a = array(
-  array(
-    'id' => 362,
-    'first_name' => 'Jane',
-    'last_name' => 'Doe',
-  ),
-  array(
-    'id' => 921,
-    'first_name' => 'Lois',
-    'last_name' => 'Griffin',
-  ),
-  array(
-    'id' => 475,
-    'first_name' => 'Lola',
-    'last_name' => 'Bunny',
-  )
-);
-
 $first_names = array_column($a, 'first_name', 'id');
 print_r($first_names);
 ?>
@@ -97,9 +79,9 @@ The output looks like this:
 ```shell
 Array
 (
-  [0] => Jane
-  [1] => Lola
-  [2] => Lois
+  [362] => Jane
+  [475] => Lola
+  [921] => Lois
 )
 ```
 
