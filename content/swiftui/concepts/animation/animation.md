@@ -15,7 +15,7 @@ CatalogContent:
 
 **Animation** is the ability to add smooth view changes to your view by changing the state of the view. There is two types of animation in swiftUI: Implicit animation and Explicit animation both of them will be explained in the sections below. it's very important to add animation to the user experience of an app, because it makes the app more interactive with the user and enhance the user experience of the app. And also Animating custom views can be done by conforming the view to the `Animatable` protocol, and telling SwiftUI about the value you want to animate.
 
-## Implicit Animation with .Animation(_:,value:)
+## Implicit Animation with .animation(_:value:)
 
 To be able to add animation to your view, you need first to have three things in your code:
 
@@ -33,44 +33,75 @@ struct ImplicitAnimation: View {
         Button {
             isanimation.toggle()
         } label: {
-            Text( isanimation ? "Hello, World!" : "press me") / 2- Ternary Operator used to change the view based onn the value of the animation.
+            Text( isanimation ? "Hello, World!" : "press me") // 2- Ternary Operator used to change the view based on the value of the isanimation.
                 .foregroundColor(.white)
                 .padding(.all)
-                .background( isanimation ? Color.black : Color.red) // 2- Ternary Operator used to change the view based onn the value of the animation.
-                .animation(.default, value: isanimation) // 3- This is the Implicit animation.
+                .background( isanimation ? Color.black : Color.red) // 2- Ternary Operator used to change the view based onn the value of the isanimation.
+                .animation(.default, value: isanimation) // 3- This is the Implicit animation. this gets activated when the isanimation changes.
         }
 
     }
 }
   ```
+> **Note:** `.animation` is a view modifier, which means that views That have this view applied to will be the only views to be animated.
+
 This is the result of the code above:
 
-![This is a gif that shows the effect of Implicit animation onn the view.](https://raw.githubusercontent.com/Codecademy/docs/main/media/Implicit-Animation-SwiftUI.gif)
+![This is a gif that shows the effect of Implicit animation on the view.](https://raw.githubusercontent.com/Codecademy/docs/main/media/Implicit-Animation-SwiftUI.gif)
 
 This is a very simple animation, where the background and the text of the button changes depending on the value of the `isanimation` variable, when we press the button the `isanimation` changes which active the implicit animation which leads to changing the text and the backgroung of the button in a very smooth way (try to remove animation to see the difference). As the name implies, SwiftUI creates and manages implicit animations whenever specific situations or user interface state changes take place, which means developers doesn't have full control over them and this takes us to the second type of animation Explicit animation where developers have full control over them.
-## Subsection 2
 
-[Text about subsection 2]
+## Explicit Animation using withAnimation(_:_:)
 
-## Subsection n
+To be able to make Explicit animation, we use the same three steps we used in the implicit animation. this example uses Explicit animation to change the position of a button:
 
-[Text about subsection n]
+```Swift
+struct ImplicitAnimation: View {
+    @State var isanimation = false // @State variable that changes to activate the animation.
+    
+    var body: some View {
+        Button {
+            withAnimation(.spring()) {
+                isanimation.toggle() // This is the Implicit animation.
+            }
+        } label: {
+            Text("press me")
+                .foregroundColor(.white)
+                .padding(.all)
+                .background(Color.black)
+        }
+        .offset(x: isanimation ? -20 : 60,y:0) // Ternary Operator used to change the view based onn the value of the animation.
 
-## Codebyte Example (if applicable)
+    }
+}
+  ```
 
-We can currently support:
+> **Note:** `withAnmation` isn't a view modifier like `.animation`, it's a function that needs to be called to preform the change to the state in a smooth way, which means that any view that uses the same state in there view will also be animated.
 
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
+![This is a gif that shows the effect of Explicit animation on the view.](https://raw.githubusercontent.com/Codecademy/docs/main/media/Explicit-Animation-Swiftui.gif)
 
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
+As you see from the output, we used the `withAnimation` to change the poisition of the button with a spring effect to it. what is beautiful about explicit animation is that you can animate diffrent views with the same call of `withAinmation`, but the two diffrent views must use the same state variable to do that, for example, to animate the background color of the label view of the button and the position of the button at the same time a ternary operator will be added to `.background()` modifier. it looks like that:
 
-```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
-```
+```Swift
+struct ImplicitAnimation: View {
+    @State var isanimation = false // @State variable that changes to activate the animation.
+    
+    var body: some View {
+        Button {
+            withAnimation(.spring()) {
+                isanimation.toggle() // This is the Implicit animation.
+            }
+        } label: {
+            Text("press me")
+                .foregroundColor(.white)
+                .padding(.all)
+                .background(isanimation ? Color.blue : Color.black) // Ternary Operator used to change the view based onn the value of the animation.
+        }
+        .offset(x: isanimation ? -20 : 60,y:0) // Ternary Operator used to change the view based onn the value of the animation.
+
+    }
+}
+  ```
+![This is a gif that shows the effect of Explicit animation on two diffrent views using the same state variable.](https://raw.githubusercontent.com/Codecademy/docs/main/media/morethanoneView-with-Explicit-Animation-Swiftui.gif)
+
+The last thing, there is no limit on how `withAnimation` or `.animation` can be used. What is explained above is just the first step towards understanding how to do animation in swiftUI, be creative with it, it's a very powerful tool in swiftUI that enhances the user experience of any app just by adding it to your app.
