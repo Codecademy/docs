@@ -2,9 +2,8 @@
 Title: 'memoryview()'
 Description: 'Creates a memoryview object that allows Python code to access the internal data of an object without making a copy of it.'
 Subjects:
-  - 'Data Types'
+  - 'Developer Tools'
   - 'Computer Science'
-  - 'Built-in Functions'
 Tags:
   - 'Data Types'
   - 'Memory'
@@ -14,6 +13,8 @@ CatalogContent:
 ---
 
 The **`memoryview()`** built-in function creates a `memoryview` object that allows Python code to access the internal data of an object's buffer without making a copy of it.
+The `memoryview` class offers large performance gains when operating on large objects since it doesn’t create a copy when slicing. However using it requires good 
+knowledge of the structure and format of the data in the source object.
 
 ## Syntax
 
@@ -40,7 +41,7 @@ The output will be:
 TypeError: memoryview: a bytes-like object is required, not 'list'
 ```
 
-The following code snippet demonstrates how a `memoryview` object is created from a numpy array:
+The following code snippet demonstrates how a `memoryview` object is created from a NumPy array:
 
 ```python
 import numpy as np
@@ -54,7 +55,7 @@ This will print the following output:
 <memory at 0x117003700>
 ```
 
-> **Note** that memory address generated will vary for each execution of the code. This discrepancy is related to the creation of a new memoryview object.
+> **Note:** The memory address generated will vary for each execution of the code. This discrepancy is related to the creation of a new memoryview object.
 
 ## Example 2
 
@@ -84,7 +85,3 @@ Note that a slice of a `memoryview` object is also a `memoryview` object:
 ```shell
 <memory at 0x117003880>
 ```
-
-## Summary
-
-The 'memoryview' class offers large performance gains when operating on large objects since it doesn’t create a copy when slicing. However using it requires good knowledge of the structure and format of the data in the source object.
