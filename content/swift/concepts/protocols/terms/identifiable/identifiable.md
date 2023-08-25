@@ -16,7 +16,7 @@ CatalogContent:
 
 ## Syntax
 
-An Identifiable protocol is created like regular protocol, followed by the `Identifiable` keyword:
+An `Identifiable` protocol is created like a regular protocol, followed by the `Identifiable` keyword:
 
 ```pseudo
 protocol protocolName: Identifiable {
