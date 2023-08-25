@@ -20,7 +20,7 @@ The **`array_reduce()`** method iterates through an array to produce a single va
 array_reduce($array, $callback, $initial = null)
 ```
 
-The first two parameters `$array` and `$callable` are both required, if no argument is given for the `$initial` parameter it will default to the first element of the `$array` argument.
+The first two parameters `$array` and `$callback` are both required, if no argument is given for the `$initial` parameter it will default to the first element of the `$array` argument.
 
 The callback pseudo-code:
 
