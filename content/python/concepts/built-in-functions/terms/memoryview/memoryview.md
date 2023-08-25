@@ -13,8 +13,7 @@ CatalogContent:
 ---
 
 The **`memoryview()`** built-in function creates a `memoryview` object that allows Python code to access the internal data of an object's buffer without making a copy of it.
-The `memoryview` class offers large performance gains when operating on large objects since it doesn’t create a copy when slicing. However using it requires good 
-knowledge of the structure and format of the data in the source object.
+The `memoryview` class offers large performance gains when operating on large objects since it doesn’t create a copy when slicing. However using it requires good knowledge of the structure and format of the data in the source object.
 
 ## Syntax
 
