@@ -13,6 +13,7 @@ CatalogContent:
 ---
 
 The **`memoryview()`** built-in function creates a `memoryview` object that allows Python code to access the internal data of an object's buffer without making a copy of it.
+
 The `memoryview` class offers large performance gains when operating on large objects since it doesn’t create a copy when slicing. However using it requires good knowledge of the structure and format of the data in the source object.
 
 ## Syntax
@@ -27,7 +28,7 @@ Where `obj` is the object to create a `memoryview` of, and `mv` is the `memoryvi
 
 ## Example 1
 
-The example below illustrates the creation of memoryview objects, their display, and the outcome when an inappropriate object is passed to the function:
+The example below illustrates the creation of `memoryview` objects, their display, and the outcome when an inappropriate object is passed to the function:
 
 ```python
 l = [1, 2, 3, 4, 5, 6]
@@ -54,11 +55,11 @@ This will print the following output:
 <memory at 0x117003700>
 ```
 
-> **Note:** The memory address generated will vary for each execution of the code. This discrepancy is related to the creation of a new memoryview object.
+> **Note:** The memory address generated will vary for each execution of the code. This discrepancy is related to the creation of a new `memoryview` object.
 
 ## Example 2
 
-`memoryview` supports indexing and slicing operations: 
+`memoryview` supports indexing and slicing operations:
 
 ```python
 arr = bytearray(10)
@@ -67,7 +68,7 @@ mv[0] = 65
 print(mv[0])
 ```
 
-This will output a modified element: 
+This will output a modified element:
 
 ```shell
 65
