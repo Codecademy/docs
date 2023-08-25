@@ -27,7 +27,7 @@ array_column(array, column_key, index_key)
 
 ## Example
 
-In this example, the first names from an array are returned.
+In this example, the `first_name` keys are returned using the `array_column()` method.
 
 ```php
 <?php
@@ -65,7 +65,7 @@ Array
 )
 ```
 
-Additionally, the returened values can be indexed by the "id" column:
+Additionally, the returned values can be indexed by the `id` column:
 
 ```php
 <?php
@@ -105,14 +105,14 @@ Array
 
 ## Codebyte Example
 
-The following codebyte example declares a `$colorFabric`. It then returns all fabric types in a new array called `$fabrics`.
+The following codebyte example is runnable and utilizes the `array_column()` method.
 
 ```codebyte/php
 <?php
   $colorFabrics = array(
   array('color' => 'white', 'fabric' => 'cotton'),
   array('color' => 'blue', 'fabric' => 'denim'),
-  array('color' => 'beige', 'fabric' => 'linen'))
+  array('color' => 'beige', 'fabric' => 'linen')
 );
   $fabrics = array_column($colorFabrics, 'fabric');
   print_r($fabrics);
