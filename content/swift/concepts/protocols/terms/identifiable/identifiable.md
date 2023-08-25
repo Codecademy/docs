@@ -26,7 +26,7 @@ protocol protocolName: Identifiable {
 
 ## Example
 
-Here, the Employee struct conforms to the Identifiable protocol by providing a unique `id` property using the `UUID` struct. This id can be used to distinguish instances of Employee in a collection or array, allowing for easy updates and deletions of specific employees.
+Here, the `Employee` struct conforms to the `Identifiable` protocol by providing a unique `id` property using the `UUID` struct. This identifier can be used to distinguish instances of `Employee` in a collection or array, allowing for easy updates and deletions of specific employees.
 
 ```swift
 struct Employee: Identifiable {
