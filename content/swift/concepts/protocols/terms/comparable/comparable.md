@@ -29,7 +29,7 @@ struct StructName: Comparable {
 }
 ```
 
-To conform a custom type to the **Comparable** protocol conformance to **Comparable** is first declared, then static methods for < and == are defined.
+To conform a custom type to the `Comparable` protocol conformance to `Comparable` is first declared, then static methods for `<` and `==` are defined.
 
 ## Example
 
