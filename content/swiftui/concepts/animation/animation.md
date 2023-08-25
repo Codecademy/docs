@@ -1,24 +1,50 @@
 ---
-Title: 'The Title' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'A brief description.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
-Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
-  - 'A subject name'
-  - 'A second subject name'
-  - 'An nth subject name'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
-  - 'A tag'
-  - 'A second tag'
-  - 'An nth tag'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
-  - 'learn-example-course'
-  - 'paths/example-path'
+Title: 'Animation'
+Description: 'In response to state changes, produce seamless visual updates.'
+Subjects:
+  - 'iOS'
+  - 'Mobile Development'
+Tags:
+  - 'SwiftUI'
+  - 'SwiftUI ViewModifiers'
+  - 'iOS'
+CatalogContent:
+  - 'learn-iOS-course'
+  - 'path/iOS-path'
 ---
 
-[Introduction - make sure first mention of concept is in **bold**.] (The first 160 characters of this section will appear as the description of the page when it shows up on search engines. It's important!)
+**Animation** is the ability to add smooth view changes to your view by chabging the state of the view. There is two types of animation in swiftUI: Implicit animation and Explicit animation. it's very important to add animation to the user experience of an app, because it makes the app more interactive with the user and enhance the user experience of the app. Animating custom views can be done by conforming the view to the `Animatable` protocol, and telling SwiftUI about the value you want to animate.
 
-## Subsection 1
+## Implicit Animation with .Animation(_:,value:)
 
-[Text about subsection 1]
+To be able to add animation to your view, you need first to have three things in your code:
+
+- A variable that changes to activate the animation. it must be `@State` variable to be able to reflect the changes to the view. 
+- Then after that we need to use a `Ternary ? operator`.
+- Then added the animation to the view.
+
+  This steps are essential to build animation implicitly or explicitly to your view. In the next example Implicit annimation will be used :
+
+```Swift
+struct ImplicitAnimation: View {
+    @State var isanimation = false // @State variable that changes to activate the animation.
+    
+    var body: some View {
+        Button {
+            isanimation.toggle()
+        } label: {
+            Text( isanimation ? "Hello, World!" : "press me") / Ternary Operator used to change the view based onn the value of the animation.
+                .foregroundColor(.white)
+                .padding(.all)
+                .background( isanimation ? Color.black : Color.red) // Ternary Operator used to change the view based onn the value of the animation.
+                .animation(.default, value: isanimation) // This is the Implicit animation.
+        }
+
+    }
+}
+  ```
+
+![This is a gif that shows the effect of Implicit animation onn the view.](https://raw.githubusercontent.com/Codecademy/docs/main/media/Implicit-Animation-SwiftUI.gif)
 
 ## Subsection 2
 
