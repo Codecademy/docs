@@ -51,7 +51,7 @@ let burjKhalifa = Building(height: 828)
 let sydneyTower = Building(height: 300)
 ```
 
-A custom type `Building` was created with a `height` constant, and static methods for < and == were defined. There are three instances of this type: `eiffelTower`, `BurjKhalifa` and `sydneyTower`. The example conforms to the `Comparable` protocol, allowing each of the instances to be compared:
+A custom type `Building` was created with a `height` constant, and static methods for `<` and `==` were defined. There are three instances of this type: `eiffelTower`, `burjKhalifa` and `sydneyTower`. The example conforms to the `Comparable` protocol, allowing each of the instances to be compared:
 
 ```
 print(eiffelTower < burjKhalifa) // true
