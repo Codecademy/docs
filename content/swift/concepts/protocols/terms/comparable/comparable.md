@@ -14,40 +14,43 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 The **`Comparable`** protocol in Swift is used to define a sort order for instances of a type. To add `Comparable` conformance to custom types, define the `<` and `==` operators as static methods of those types.
 
 ## Syntax
+
 ```
 struct StructName: Comparable {
-    let var: Int
+  let var: Int
 
-    static func < (lhs: StructName, rhs: StructName) -> Bool {
-    return lhs.var < rhs.var
-    }
+  static func < (lhs: StructName, rhs: StructName) -> Bool {
+  return lhs.var < rhs.var
+  }
 
-    static func == (lhs: StructName, rhs: StructName) -> Bool {
-    return lhs.var == rhs.var
-    }
+  static func == (lhs: StructName, rhs: StructName) -> Bool {
+  return lhs.var == rhs.var
+  }
 }
 ```
+
 To conform a custom type to the **Comparable** protocol conformance to **Comparable** is first declared, then static methods for < and == are defined.
 
 ## Example
 
 ```
 struct Building: Comparable {
-    let height: Int
+  let height: Int
   
-    static func < (lhs: Building, rhs: Building) -> Bool {
-    return lhs.height < rhs.height
-    }
+  static func < (lhs: Building, rhs: Building) -> Bool {
+  return lhs.height < rhs.height
+  }
 
-    static func == (lhs: Building, rhs: Building) -> Bool {
-    return lhs.height == rhs.height
-    }
+  static func == (lhs: Building, rhs: Building) -> Bool {
+  return lhs.height == rhs.height
+  }
 }
 
 let eiffelTower = Building(height: 300)
 let burjKhalifa = Building(height: 828)
 let sydneyTower = Building(height: 300)
 ```
+
 A custom type `Building` was created with a `height` constant, and static methods for < and == were defined. There are three instances of this type: `eiffelTower`, `BurjKhalifa` and `sydneyTower`. The example conforms to the `Comparable` protocol, allowing each of the instances to be compared:
 
 ```
