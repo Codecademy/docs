@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-```codebyte/csharp
+```codebyte c/sharp
 
  using System;
 
