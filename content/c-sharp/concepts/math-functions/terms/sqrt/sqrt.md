@@ -75,4 +75,18 @@ public class Example {
     Console.WriteLine("The square root of " + number + " is " + squareRoot);
   }
 }
+
+using System;
+
+ namespace MysquareRoot {
+    public class Example {
+        public static void Main()
+        {
+            double x = -81;
+
+            Console.Write(Math.Sqrt(x));
+        }
+    }
+ }
+
 ```
