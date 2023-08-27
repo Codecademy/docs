@@ -13,7 +13,6 @@ CatalogContent:
 ---
 
 Greek symbols are frequently employed in scientific, mathematical, and technological applications. It can use as HTML Character Entities and by using Unicode values.
-You can simply include Greek symbols into your HTML projects using either way. Simply select the way that is most suitable for your requirements.
 
 ## Example
 
