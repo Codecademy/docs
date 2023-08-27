@@ -23,7 +23,7 @@ You may use the HTML entity: to display the Greek letter "alpha" ().
 &alpha;
 ```
 
-You can use the following format to represent Greek symbols "alpha" in Unicode:
+The following format represents the Greek letter "alpha" in Unicode:
 
 ```
 &#x03B1;
