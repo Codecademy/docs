@@ -17,7 +17,7 @@ You can simply include Greek symbols into your HTML projects using either way. S
 
 ## Example
 
-You may use the HTML entity: to display the Greek letter "alpha" ().
+Using the HTML entity to display the Greek letter "alpha":
 
 ```
 &alpha;
