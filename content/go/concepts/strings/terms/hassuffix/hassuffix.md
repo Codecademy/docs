@@ -68,9 +68,5 @@ func main() {
   for index := 0; index < len(suffixes); index++ {
     fmt.Println(strings.HasSuffix(str, suffixes[index]))
   }
-
-  for index, suffix := range suffixes {
-    fmt.Println(strings.HasSuffix(str, suffix))
-  }
 }
 ```
