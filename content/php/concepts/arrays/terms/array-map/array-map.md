@@ -1,6 +1,6 @@
 ---
 Title: 'array_map()'
-Description: 'Creates a new array by applying a callback function to each element of an existing array'
+Description: 'Creates a new array by applying a callback function to each element of an existing array.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -28,7 +28,7 @@ array_map($function, $array1, $array2, ...)
 
 ## Example
 
-Here is an example of how to use the array_map() function:
+Here is an example of how to use the `array_map()` function:
 
 ```php
 <?php
@@ -52,22 +52,17 @@ The above code results in the following output:
 
 ## Codebyte Example
 
-This runnable code first defines a function called `add_arrays()` which takes two arrays as arguments, and returns an array that contains the sum of the corresponding elements of the two arrays. Next, the code creates two arrays of numbers called `$array1` and `$array2`. The arrays contain the numbers 1, 2, 3, 4, and 5, and 6, 7, 8, 9, and 10, respectively. The final line of code prints the added arrays array. Run the code to see the output.
+The example below defines a function called `addElements()`, which takes two array elements as arguments, and returns the sum. Next, the code declares two arrays of numbers called `$array1` and `$array2` and passes them as arguments to the `array_map()` function. Run the code to see the output.
 
 ```codebyte/php
 <?php
 
-function add_arrays($array1, $array2) {
-  $result = array();
-  for ($i = 0; $i < count($array1); $i++) {
-    $result[] = $array1[$i] + $array2[$i];
-  }
-  return $result;
+function addElements($x, $y) {
+  return  $x + $y;
 }
-
 $array1 = array(1, 2, 3, 4, 5);
 $array2 = array(6, 7, 8, 9, 10);
-$added_arrays = array_map(add_arrays, $array1, $array2);
+$added_arrays = array_map('addElements', $array1, $array2);
 print_r($added_arrays);
 
 ?>
