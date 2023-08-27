@@ -13,9 +13,6 @@ CatalogContent:
 ---
 
 The **`strings.Compare()`** function is a built-in function in Golang that compares two strings lexicographically. It returns an integer value that indicates the relationship between the two strings.
-- If the two strings are equal, the function returns `0`.
-- If the first string is lexicographically less than the second string, the function returns a `negative` value.
-- If the first string is lexicographically greater than the second string, the function returns a `positive` value.
 
 ## Syntax
 
@@ -24,6 +21,9 @@ strings.Compare(str1, str2)
 ```
 
 Where `str1` and `str2` are the two strings that we want to compare.
+- If the two strings are equal, the function returns `0`.
+- If the first string is lexicographically less than the second string, the function returns a `negative` value.
+- If the first string is lexicographically greater than the second string, the function returns a `positive` value.
 
 ## Example
 
