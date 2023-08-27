@@ -36,14 +36,12 @@ The following format represents the Greek letter "alpha" in Unicode:
 | ------ | --------- | ------------ | -------- | --------- | ------- | ----------------------------- |
 | `Α`    | `&#913;`  | `&Alpha;`    | `\0391`  | `&#x391;` | U+00391 | greek capital letter alpha    |
 | `B`    | `&#914;`  | `&Beta;`     | `\0392`  | `&#x392;` | U+00392 | greek capital letter beta     |
-| `Γ`    | `&#913;`  | `&Gamma;`    | `\0393`  | `&#x393;` | U+00393 | greek capital letter gamma    |
-| `Δ`    | `&#913;`  | `&Delta;`    | `\0394`  | `&#x394;` | U+00394 | greek capital letter delta    |
-| `Ε`    | `&#913;`  | `&Espsilon;` | `\0395`  | `&#x395;` | U+00395 | greek capital letter espsilon |
-| `Ζ`    | `&#913;`  | `&Zeta;`     | `\0396`  | `&#x396;` | U+00396 | greek capital letter zeta     |
-| `Η`    | `&#913;`  | `&Eta;`      | `\0397`  | `&#x397;` | U+00397 | greek capital letter eta      |
-| `Θ`    | `&#913;`  | `&theta;`    | `\0398`  | `&#x398;` | U+00398 | greek capital letter theta    |
-
-More can be found in this [HTML Symbols - Unicode symbols, entities and codes reference](https://www.htmlsymbols.xyz/greek-symbols).
+| `Γ`    | `&#915;`  | `&Gamma;`    | `\0393`  | `&#x393;` | U+00393 | greek capital letter gamma    |
+| `Δ`    | `&#916;`  | `&Delta;`    | `\0394`  | `&#x394;` | U+00394 | greek capital letter delta    |
+| `Ε`    | `&#917;`  | `&Espsilon;` | `\0395`  | `&#x395;` | U+00395 | greek capital letter espsilon |
+| `Ζ`    | `&#918;`  | `&Zeta;`     | `\0396`  | `&#x396;` | U+00396 | greek capital letter zeta     |
+| `Η`    | `&#919;`  | `&Eta;`      | `\0397`  | `&#x397;` | U+00397 | greek capital letter eta      |
+| `Θ`    | `&#920;`  | `&theta;`    | `\0398`  | `&#x398;` | U+00398 | greek capital letter theta    |
 
 ## Greek capital letter small
 
