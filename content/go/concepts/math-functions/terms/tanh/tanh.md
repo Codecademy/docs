@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Tanh()`** function returns the hyperbolic tangent of a given number.The `math` library must be imported in order to use this function.
+The **`Tanh()`** function returns the hyperbolic tangent of a given number. The `math` library must be imported in order to use this function.
 
 ## Syntax
 
