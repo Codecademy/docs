@@ -51,29 +51,3 @@ cademy true
 Codecademy false
 Codecademy true
 ```
-
-## Codebyte Example
-
-The following example is runnable and uses the `strings.CutPrefix()` function to remove the given prefix `auto` is if it is present in the strings `autopilot`, `biography` and `auto`. It then provides an empty string as the prefix to remove.
-
-```codebyte/golang
-package main
-
-import (
-  "fmt"
-  "strings"
-)
-
-func main() {
-  strs := []string{"autopilot", "biography", "auto"}
-  prefix := "auto"
-
-  fmt.Println("Removing prefix 'auto' from 'autopilot', 'biography and 'auto'")
-  for index := 0; index < len(strs); index++ {
-    fmt.Println(strings.CutPrefix(strs[index], prefix))
-  }
-
-  fmt.Println("\nThe provided prefix is an empty string '' to be removed from 'Hello'")
-  fmt.Println(strings.CutPrefix("Hello", ""))
-}
-```
