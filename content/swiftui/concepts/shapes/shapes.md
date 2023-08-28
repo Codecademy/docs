@@ -1,33 +1,35 @@
 ---
-Title: "Shape"
-Description: "The Shape protocol is used for implementing built-in and custom shapes in a SwiftUI view."
+Title: 'Shape'
+Description: 'The Shape protocol is used for implementing built-in and custom shapes in a SwiftUI view.'
 Subjects:
-  - "Mobile Development"
-  - "iOS"
+  - 'Mobile Development'
+  - 'iOS'
 Tags:
-  - "SwiftUI"
-  - "SwiftUI Shapes"
+  - 'SwiftUI'
+  - 'SwiftUI Shapes'
 CatalogContent:
-  - "learn-swift"
-  - "paths/build-ios-apps-with-swiftui"
+  - 'learn-swift'
+  - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`Shape`** protocol is used to create and implement built-in, and custom shapes.
+The **`Shape`** `protocol` is used to create and implement built-in, and custom shapes.
+
+It inherits from the protocols: `Sendable`, `Animatable`, and [`View`](https://www.codecademy.com/resources/docs/swiftui/views).
 
 ## Instantiating a Shape
 
-The protocol comes with some shapes included such as capsule, circle, ellipse, and rectangle.
+Some shapes conform to the `Shape` protocol like [circles](https://www.codecademy.com/resources/docs/swiftui/views/circle) and [rectangles](https://www.codecademy.com/resources/docs/swiftui/views/rectangle). To instantiate each of these built-in types, refer to `Self`:
 
 ```swift
-var body: some View {
-    VStack {
-        Capsule()
-        Circle()
-        Ellipse()
-        Rectangle()
-    }
-}
+Circle()
+Rectangle()
 ```
+
+Some other shapes include:
+
+- [Capsule](https://www.codecademy.com/resources/docs/swiftui/views/capsule)
+- [Ellipse](https://www.codecademy.com/resources/docs/swiftui/views/ellipse)
+- [RoundedRectangle](https://www.codecademy.com/resources/docs/swiftui/views/roundedrectangle)
 
 ## Creating Custom Shapes
 
@@ -40,11 +42,12 @@ struct someShape: Shape {
     }
 }
 ```
-- The function should return a `Path` object that describes the shape contained inside a rectangular frame of reference.
+
+The function should return a `Path` object that describes the shape contained inside a rectangular frame of reference.
 
 ## Example: Custom Triangle Shape
 
-Since there is no triangle shape built-in, a custom one can be made using path operations.
+To build a triangle shape, a custom one can be made using path operations.
 
 ```swift
 import SwiftUI
@@ -61,18 +64,18 @@ struct Triangle: Shape {
 }
 ```
 
-- By conforming to the `Shape` protocol, a custom shape inherits all the capabilities of a built-in shape.
+By conforming to the `Shape` protocol, a custom shape inherits all the capabilities of a built-in shape.
 
 ### Displaying the Custom Shape
 
-To display the custom shape, it can be called in a view just like any built-in shape.
+To display the custom shape, it can be called in a layout view just like any built-in shape:
 
 ```swift
 var body: some View {
     ZStack {
         // Sets the color of the background
         Color.blue.ignoresSafeArea()
-            
+
         Triangle()
             .foregroundColor(.yellow)
             .frame(width: 180, height: 180)
@@ -82,4 +85,4 @@ var body: some View {
 
 This code results in the following output:
 
-![SwiftUI Shapes](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-shapes-triangle.jpeg The code displays a yellow triangle on a blue background)
+![SwiftUI Shape Yellow Triangle on a Blue Background](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-shapes-triangle.jpeg)
