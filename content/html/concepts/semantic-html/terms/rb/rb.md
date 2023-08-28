@@ -1,6 +1,6 @@
 ---
 Title: '<rb>'
-Description: 'Representing the base component in ruby annotations for East Asian text, its use has declined and it is now considered deprecated.'
+Description: 'Representing the base component in ruby annotations for East Asian text, its use has declined and is now deprecated.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -13,9 +13,9 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`<rb>`** element designates the base text for ruby annotations in East Asian languages. It must be within `<ruby>` tags and is often paired with [`<rt>`](https://www.codecademy.com/resources/docs/html/semantic-html/rt) for pronunciation guides and `<rp>` for fallback rendering.
+The **`<rb>`** element designates the base text for ruby annotations in East Asian languages. It must be within [`<ruby>`](https://www.codecademy.com/resources/docs/html/semantic-html/ruby) tags and is often paired with [`<rt>`](https://www.codecademy.com/resources/docs/html/semantic-html/rt) for pronunciation guides and `<rp>` for fallback rendering.
 
-> **Note:** The `<rb>` tag is considered deprecated, meaning it's no longer recommended for use in new projects. Instead, characters can be written directly within the `<ruby>` tags.
+> **Note:** The `<rb>` tag is deprecated, meaning it's no longer recommended for use in new projects. Instead, characters can be written directly within the `<ruby>` tags.
 
 ## Syntax
 
@@ -28,7 +28,7 @@ The **`<rb>`** element designates the base text for ruby annotations in East Asi
 
 ## Example
 
-The example below showcases how the `<rb>` tag is used to transliterate the Chinese characters meaning 'I like to write code' inside a `<ruby>` element.
+The example below showcases how the `<rb>` tag is used to transliterate the Chinese characters meaning `'I like to write code'` inside a `<ruby>` element.
 
 ```html
 <ruby>
@@ -39,7 +39,7 @@ The example below showcases how the `<rb>` tag is used to transliterate the Chin
 
 This is what it looks like in the browser:
 
-![Output of the above code with English translations](https://raw.githubusercontent.com/Codecademy/docs/main/media/iliketowritecode.png)
+![Output of the above code with English translations](https://raw.githubusercontent.com/Codecademy/docs/main/media/semantic-html-rb-example-1.png)
 
 Another approach is to replace the English translations with Pinyin, which represents the Chinese characters using the Roman alphabet for pronunciation guidance. Here's an example:
 
@@ -52,4 +52,4 @@ Another approach is to replace the English translations with Pinyin, which repre
 
 Running this code will display the following:
 
-![Output of the above code with Pinyin transliterations](https://raw.githubusercontent.com/Codecademy/docs/main/media/woxihuanxiechengxu.png)
+![Output of the above code with Pinyin transliterations](https://raw.githubusercontent.com/Codecademy/docs/main/media/semantic-html-rb-example-2.png)
