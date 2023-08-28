@@ -27,7 +27,7 @@ Creating accessible apps with SwiftUI is necessary to meet accessibility guideli
 - Can increase customer loyalty
 - Displays innovation and creativity
 - Future-proofing the app by preparing for future advancements
-- Can create marked differentiation and set apart from competitors.
+- Can create marked differentiation and set it apart from competitors.
 
 ## Standard Accessibility Features
 
@@ -113,9 +113,9 @@ SwiftUI provides a range of modifiers to fine-tune the accessibility of your app
 
 ## Accessibility Techniques in SwiftUI
 
-In addition to accessibility modifiers, some general techniques can help designing interfaces that accommodate diverse needs:
+In addition to accessibility modifiers, some general techniques can help design interfaces that accommodate diverse needs:
 
-- Using Focus Management with the `.focused()` modifier lets you control which element initially gets focus, enhancing the user experience for keyboard and screen reader users. The following example creates a text field:
+- Adjusting focus management with the `.focused()` modifier lets you control which element initially gets focus, enhancing the user experience for keyboard and screen reader users. The following example creates a text field:
 
     ```swift
     var body: some View {
@@ -144,17 +144,20 @@ In addition to accessibility modifiers, some general techniques can help designi
 
 ## Best Practices for Accessibility
 
-Along with accessibility modifiers and techniques, the following testing methodologies and proactive approaches to accessibility can help developers create apps that provide a more inclusive and enjoyable user experience:
+Along with accessibility modifiers and techniques, the following best practices can help developers create apps that provide a more accessible and enjoyable user experience:
 
-- Testing with Screen Readers: Regularly test your app with screen readers like VoiceOver to ensure all elements are correctly labelled and convey the intended information.
-Keyboard Navigation: Verify that all interactive elements, like buttons and text fields, are accessible and functional using keyboard navigation alone.
-- Dynamic Type Testing: Test your app with various Dynamic Type settings to ensure that text remains readable and that layouts adjust accordingly.
-- Contrast Testing: Perform contrast testing to ensure that text and graphics have sufficient contrast for low-vision users.
-- Test with Real Content: Test your app with accurate content rather than placeholder text to simulate actual usage scenarios.
-- Focus Order Testing: Verify that the focus order of elements is logical and intuitive when using VoiceOver or keyboard navigation.
-- Accessibility Inspector: Utilize Xcode's Accessibility Inspector to identify any accessibility issues within your app.
-- Beta Testing: Involve users with disabilities in your beta testing phase to gather real-world feedback.
-- User Feedback: Provide a clear channel for users to provide feedback on accessibility issues or suggestions for improvement.
-- Stay Updated: Keep up with the latest accessibility guidelines and best practices as they evolve.
-- Continual Learning: Invest time in understanding various disabilities and the challenges users face. This can help you make more informed design decisions.
-- Collaboration: Engage with accessibility communities and experts to gain insights and learn from their experiences.
+- Comprehensive Testing:
+  - Regularly test your app with screen readers like VoiceOver to ensure proper labelling and conveyed information.
+  - Verify keyboard navigation functionality for all interactive elements.
+  - Test with various Dynamic Type settings to ensure readable text and adaptive layouts.
+  -Perform contrast testing for text and graphics visibility.
+- Real-World Simulations:
+  - Test with real content instead of placeholders to replicate authentic usage scenarios.
+  - Verify logical and intuitive focus order for VoiceOver and keyboard navigation.
+- Tools and Engagement:
+  - Utilize Xcode's [Accessibility Inspector](https://developer.apple.com/videos/play/wwdc2019/257/) to identify issues.
+  - Involve users with disabilities in beta testing for valuable feedback.
+  - Create user-friendly channels for accessibility-related feedback.
+- Continuous Improvement:
+  - Stay updated with evolving accessibility guidelines and best practices.
+  - Learn about different disabilities to make informed design choices.
