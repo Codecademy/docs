@@ -17,7 +17,7 @@ The **`HasPrefix()`** function returns a boolean value indicating whether a give
 ## Syntax
 
 ```pseudo
-strings.HasPrefix(str, prefix string)
+strings.HasPrefix(str, prefix)
 ```
 
 Where `str` is the string where we want to check the prefix and `prefix string` is the prefix to be checked.
