@@ -1,6 +1,6 @@
 ---
 Title: 'CutPrefix()'
-Description: 'Checks if a given prefix exists on the specified string. Returns the provided string without the prefix and true if found or the provided string and false if the string does not have the prefix.'
+Description: 'Returns a given string with the specified prefix removed and a boolean value confirming if the prefix was present.'
 Subjects:
   - 'Computer Science'
 Tags:
