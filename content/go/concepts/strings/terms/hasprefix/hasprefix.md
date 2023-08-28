@@ -1,6 +1,6 @@
 ---
 Title: 'HasPrefix()'
-Description: 'Returns a boolean value indicating whether a given string begins with prefix.'
+Description: 'Returns a boolean value indicating whether a given string begins with a given prefix.'
 Subjects:
   - 'Computer Science'
 Tags:
