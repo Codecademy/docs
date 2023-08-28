@@ -13,7 +13,7 @@ CatalogContent:
 
 <link rel="canonical" href="https://www.codecademy.com/article/what-is-digital-accessibility" />
 
-**Accessibility** refers to designing devices, products, and environments such that individuals with disabilities or sensory impairments can successfully use them..
+**Accessibility** refers to designing devices, products, and environments such that individuals with disabilities or sensory impairments can successfully use them.
 
 ## Accessibility Guidelines
 
