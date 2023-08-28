@@ -36,4 +36,3 @@ struct Employee: Identifiable {
   let isOnVacation: Bool
 }
 ```
-
