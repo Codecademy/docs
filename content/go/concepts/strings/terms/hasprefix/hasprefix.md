@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`HasPrefix()`** function returns a boolean value indicating whether a given string begins with prefix. The method returns `true` if the string begins with prefix, otherwise it returns `false`.
+The **`HasPrefix()`** function returns a boolean value indicating whether a given string begins with a given prefix. The method returns `true` if the string begins with the prefix, otherwise it returns `false`.
 
 ## Syntax
 
