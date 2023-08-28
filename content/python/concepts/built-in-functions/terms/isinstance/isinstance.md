@@ -46,3 +46,18 @@ This example results in the following output:
 Hello World! is a string type.
 123 is not a string.
 ```
+
+## Codebyte Example
+
+This example is runnable and uses the built-in function `isinstance()`:
+
+```codebyte/python
+bools = ["fAlsE", False , "True" , "False"]
+counter = 0
+for boolean in bools:
+    if isinstance(boolean, bool):
+        print("Valid boolean found at index " + str(counter))
+    else:
+        print("Invalid boolean found at index " + str(counter))
+    counter += 1
+```

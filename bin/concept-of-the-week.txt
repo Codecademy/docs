@@ -1,1 +1,1 @@
-content/java/concepts/classes/classes.md
+content/git/concepts/status/status.md
