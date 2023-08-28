@@ -15,7 +15,7 @@ The **`Comparable`** protocol in Swift is used to define a sort order for instan
 
 ## Syntax
 
-```
+```pseudo
 struct StructName: Comparable {
   let var: Int
 
@@ -33,10 +33,10 @@ To conform a custom type to the `Comparable` protocol conformance to `Comparable
 
 ## Example
 
-```
+```swift
 struct Building: Comparable {
   let height: Int
-  
+
   static func < (lhs: Building, rhs: Building) -> Bool {
   return lhs.height < rhs.height
   }
@@ -53,7 +53,7 @@ let sydneyTower = Building(height: 300)
 
 A custom type `Building` was created with a `height` constant, and static methods for `<` and `==` were defined. There are three instances of this type: `eiffelTower`, `burjKhalifa` and `sydneyTower`. The example conforms to the `Comparable` protocol, allowing each of the instances to be compared:
 
-```
+```swift
 print(eiffelTower < burjKhalifa) // true
 print(eiffelTower > sydneyTower) // false
 print(sydneyTower == burjKhalifa) // false
