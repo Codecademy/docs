@@ -34,8 +34,8 @@ import (
 )
 
 func main() {
-  fmt.Println(strings.Contains("codecademy","code"))
-  fmt.Println(strings.Contains("GitHub","Hub"))
+  fmt.Println(strings.HasPrefix("codecademy","code"))
+  fmt.Println(strings.HasPrefix("GitHub","Hub"))
 }
 ```
 
