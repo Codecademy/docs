@@ -61,7 +61,7 @@ Similar to other data types, pointers can be declared without being assigned a v
 This however is a cause of concern because if the program tries to dereference and manipulate a pointer that holds no memory address, it could lead to some unexpected behavior. To prevent this, `nullptr` is used. It is a special kind of value that prevents pointers from behaving unexpectedly when they hold no memory address.
 
 ```cpp
-int *ptr = nullptr; // Assigns the pointer to a null pointer value 
+int *ptr = nullptr; // Assigns the pointer to a null pointer value
 
 std::cout << *ptr << "\n"; // 0
 
@@ -73,7 +73,7 @@ std::cout << *ptr << "\n"; // Cricket
 
 ## Pointers As Function Parameters
 
-Pointers can also be passed into functions as arguments. This helps to manipulate values from within a function even though the value lives outside that function. 
+Pointers can also be passed into functions as arguments. This helps to manipulate values from within a function even though the value lives outside that function.
 
 ```cpp
 void changeGame(std::string *game, std::string new_game) { // defining a pointer as a function parameter
