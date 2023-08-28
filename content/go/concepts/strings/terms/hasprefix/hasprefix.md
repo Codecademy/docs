@@ -48,7 +48,7 @@ false
 
 ## Codebyte Example
 
-The following example is runnable and uses the `strings.HasPrefix()` function to determine if `codecademy` begin with `code`.
+The following example is runnable and uses the `strings.HasPrefix()` function to determine if `codecademy` begins with `code`.
 
 ```codebyte/golang
 package main
