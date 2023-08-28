@@ -20,7 +20,7 @@ A REST [API](https://www.codecademy.com/resources/docs/general/api) is an API th
 
 ## REST Constraints
 
-- Uniform Interface: The API must use standard HTTP methods to represent the operations that can be performed on a resource. Examples of these HTTP methods are GET, POST, PUT, and DELETE.
+- Uniform Interface: The API must use standard HTTP methods to represent the operations that can be performed on a resource (end-point). Examples of these HTTP methods are `GET`, `POST`, `PUT`, and `DELETE`.
 
 - Layered System: The API can be implemented with multiple layers, where each layer performs a different task. For example, the data layer (where data is stored) could be implemented on a different server than the authentication layer (where requests are authenticated).
 
