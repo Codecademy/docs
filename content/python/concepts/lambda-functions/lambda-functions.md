@@ -28,7 +28,7 @@ lambda x: x+1
 **Note**: The example above would return x+1
 
 
-In the function body, conditionals can be applied by adding a *returns something* if *boolean* else *returns some other thing*
+In the function body, conditionals can be applied by typing: lambda *args*: *returns something* if *boolean* else *returns some other thing*
 
 ```py
 lambda x: x/2 if x%2 == 0 else x
