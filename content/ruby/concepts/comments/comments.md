@@ -35,10 +35,10 @@ I can take as many lines as needed.
 
 ## Example
 
-The code below uses single-line comments.
+The example below shows how single-line comments can be used in code.
 
 ```rb
-# This example uses a loop to count only the even values
+# This example uses a loop to sum only the even values
 count = 0
 
 for i in 1..10 do
@@ -48,5 +48,5 @@ for i in 1..10 do
 end
 
 puts count
-# Yields a count of 30
+# Yields a total of 30
 ```
