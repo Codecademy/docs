@@ -20,7 +20,7 @@ The **`HasPrefix()`** function returns a boolean value indicating whether a give
 strings.HasPrefix(str, prefix)
 ```
 
-Where `str` is the string where we want to check the prefix and `prefix string` is the prefix to be checked.
+Where `str` is the string where we want to check the prefix and `prefix` is the prefix to be checked.
 
 ## Example
 
