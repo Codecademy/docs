@@ -73,8 +73,8 @@ The following example shows a promise settled after the 1st resolve callback and
 
 ```codebyte/javascript
 let work = new Promise(function(resolve,reject){
-    resolve('I have finished');
-    
+    resolve('I am done');
+
     reject(new Error('I have not finished yet'));
     resolve('I am currently working');
 });
