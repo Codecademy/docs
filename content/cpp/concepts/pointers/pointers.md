@@ -58,7 +58,7 @@ Similar to other data types, pointers can be declared without being assigned a v
  int *ptr;
 ```
 
-This however is a cause of concern because if the program tries to dereference and manipulate a pointer that holds no memory address, it could lead to some unexpected behavior. To prevent this, `nullptr` is used, which is a special kind of value that prevents pointers from behaving unexpectedly when they hold no memory address.
+This however is a cause of concern because if the program tries to dereference and manipulate a pointer that holds no memory address, it could lead to some unexpected behavior. To prevent this, `nullptr` is used. It is a special kind of value that prevents pointers from behaving unexpectedly when they hold no memory address.
 
 ```cpp
 int *ptr = nullptr; // Assigns the pointer to a null pointer value 
