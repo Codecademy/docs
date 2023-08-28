@@ -83,6 +83,5 @@ void changeGame(std::string *game, std::string new_game) { // defining a pointer
 std::string game = "Cricket";
 changeGame(&game, "Baseball"); // Passing a pointer as a function argument
 
-
 std::cout << game << "\n" // Baseball
 ```
