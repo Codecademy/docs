@@ -40,7 +40,7 @@ By default, SwiftUI provides basic accessibility labels to the most common [view
 - [Image](https://www.codecademy.com/resources/docs/swiftui/views/image),
 - Slider.
 
-These labels describe the purpose and function of the view, making it easier for [screen reader](https://www.codecademy.com/article/how-to-setup-screen-reader) and other assistive technologies to convey meaningful information to users. These labels are generated automatically, requiring no action from developers. For example, creating a button:
+These labels describe the purpose and function of the view, making it easier for [screen reader](https://www.codecademy.com/article/how-to-setup-screen-reader) and other assistive technologies to convey meaningful information to users. SwiftUI generates these labels automatically, requiring no action from developers. For example, creating a button:
 
 ```swift
 var body: some View {
