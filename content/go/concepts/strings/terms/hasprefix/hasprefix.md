@@ -24,7 +24,7 @@ Where `str` is the string where we want to check the prefix and `prefix` is the 
 
 ## Example
 
-The following examples demonstrate the use of the `strings.HasPrefix()` function.
+The following code demonstrate the use of the `strings.HasPrefix()` function.
 
 ```go
 package main
