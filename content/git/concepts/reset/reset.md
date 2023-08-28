@@ -22,7 +22,7 @@ The **`reset`** command is used to change the state of the Git repository or und
 git reset <mode-option> <commit-reference>
 ```
 
-This is run in the [terminal](https://www.codecademy.com/resources/docs/general/terminal). The `<mode-options>` and `<commit-reference>` are discussed in more detail below.
+This is run in the [terminal](https://www.codecademy.com/resources/docs/command-line/terminal). The `<mode-options>` and `<commit-reference>` are discussed in more detail below.
 
 ### Mode Options
 

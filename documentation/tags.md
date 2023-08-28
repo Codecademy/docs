@@ -19,6 +19,7 @@ Arguments
 Arithmetic
 Arrays
 ASP.NET
+Assignment
 Asymptotic Notation
 Async Await
 Attributes
@@ -40,6 +41,7 @@ Bootstrap
 Borders
 Box Model
 Box Plot
+Break
 Browser Compatibility
 Browsers
 Bubble Sort
@@ -51,6 +53,7 @@ Cryptocurrency
 Classes
 Cloud Computing
 Code Editors
+Conditionals
 Collections
 Colors
 Combinators
@@ -66,11 +69,14 @@ Concatenation
 Conceptual
 Const
 Constructors
+Continue
 Control Flow
 CRUD
+CSS
 CSV
 Cybersecurity
 D3
+Data
 Data Structures
 Data Types
 Database
@@ -78,6 +84,7 @@ Date
 Debugging
 Decorators
 Deep Learning
+Denoising
 Dependency
 Developer Tools
 Development
@@ -101,6 +108,8 @@ Else
 Encapsulation
 Encoding
 Enum
+Environment Variables
+Equality
 Error Handling
 Errors
 ES6
@@ -109,8 +118,10 @@ Events
 Exceptions
 Expo
 Express
+Extensions
 Favicon
 Files
+Filter
 Finance
 Firebase
 Flask
@@ -118,6 +129,7 @@ Flexbox
 Flutter
 Fonts
 For
+ForEach
 Foreign Key
 Form
 Formatting
@@ -125,6 +137,7 @@ Frameworks
 Functions
 Functional Programming
 Functors
+Geometry
 Ggplot2
 Git
 GitHub
@@ -146,6 +159,7 @@ Id
 IDE
 If
 Images
+Image Generation Model
 Index
 Infrastructure
 Inheritance
@@ -156,6 +170,7 @@ iOS
 Iterators
 Join
 jQuery
+JRuby
 JSON
 JSK
 K-Nearest Neighbors
@@ -175,9 +190,12 @@ Logical
 Logistic Regression
 Loops
 Map
+Machine Learning
 Margin
+Math
 MATLAB
 Matplotlib
+Matrices
 Media Queries
 Memory
 Metadata
@@ -190,6 +208,7 @@ Naive Bayes
 Natural Language Processing
 Netlify
 Networking
+Neural Networks
 NLP
 Node
 NPM
@@ -210,11 +229,14 @@ Padding
 Pandas
 Paragraph
 Parameters
+Perceptrons
 Phaser
 Physics
 Pointers
 Positioning
 PostgreSQL
+Precedence
+Preprocessor
 Primary Key
 Print
 Probability
@@ -243,6 +265,7 @@ Scope
 Script
 Seaborn
 Search
+Search Algorithms
 Selectors
 Semantic
 Servers
@@ -259,10 +282,12 @@ SQL Server
 Stacks
 Static Site
 Statistics
+Storage
 Stringr
 Strings
 Structure
 Style
+Subqueries
 SwiftUI
 SwiftUI Views
 SwiftUI ViewModifiers
@@ -275,12 +300,14 @@ Target
 Technical Interviews
 Templates
 TensorFlow
+Text-To-Image
 Tidyr
 Time
 Title
 Transitions
 Transpilation
 Trees
+Trigonometry
 Try
 Tuples
 Types
@@ -288,6 +315,7 @@ Type Guard
 Type Narrowing
 Typography
 UI
+Unary
 Union
 Unicode
 Units
@@ -308,6 +336,7 @@ VR
 Vue
 Web3
 WebRTC
+Weight & Bias
 While
 Whiteboarding
 WordPress

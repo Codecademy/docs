@@ -33,7 +33,7 @@ Composite data types can be composed of multiple of the same or different primit
 <!-- prettier-ignore -->
 | Data Type | Description |
 | --- | --- |
-| [Array](https://www.codecademy.com/resources/docs/general/data-types/array) | Collections of values that are usually defined with `[]` brackets and referenced by index starting at 0. |
+| [Array](https://www.codecademy.com/resources/docs/general/data-structures/array) | Collections of values that are usually defined with `[]` brackets and referenced by index starting at 0. |
 | [Object](https://www.codecademy.com/resources/docs/general/data-structures/object) | Groups of related data that are usually organized as property-value pairs. |
 | [Class](https://www.codecademy.com/resources/docs/general/data-structures/class) | Templates for objects that may contain properties or methods. |
 

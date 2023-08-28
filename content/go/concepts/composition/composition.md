@@ -17,7 +17,7 @@ In Go, composition refers to the structuring of data and behavior by combining m
 
 ## Structs
 
-The following example creates a [`struct`](https://www.codecademy.com/resources/docs/go/structs) called `Pizza`:
+The following example creates a [`struct`](https://www.codecademy.com/resources/docs/go/data-types) called `Pizza`:
 
 ```go
 package main

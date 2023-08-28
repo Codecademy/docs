@@ -25,7 +25,7 @@ import java.util.Queue;
 Queue<DataType> q = new QueueClass<DataType>();
 ```
 
-Where `DataType`[https://www.codecademy.com/resources/docs/java/data-types] is the data type to be stored in the queue, and `QueueClass` is some class implementing the `Queue` interface.
+Where [`DataType`](https://www.codecademy.com/resources/docs/java/data-types) is the data type to be stored in the queue, and `QueueClass` is some class implementing the `Queue` interface.
 
 ## Methods
 

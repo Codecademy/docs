@@ -4,7 +4,7 @@ Description: 'HashMaps are unordered collections of key-value paris that are imp
 Subjects:
   - 'Computer Science'
 Tags:
-  - 'HashMap'
+  - 'Hash Maps'
   - 'Data Types'
   - 'Collections'
   - 'Data Structures'
@@ -38,9 +38,9 @@ val mutableMap = mutableMapOf<KeyType, ValueType>()
 val immutableMap = mapOf<KeyType, ValueType>()
 ```
 
-## Example
+## Accessing Items
 
-The following example is a small `HashMap` of countries and their capitals, and their:
+To access an item in a `HashMap`, the indexing operator `[]` is used with the key of the desired value. If the key exists in the hashmap, the indexing operator will return the corresponding value. If the key does not exist in the hashmap, the indexing operator will return null.
 
 ```kotlin
 fun main() {
@@ -51,17 +51,70 @@ fun main() {
   locationsMap.put("Nigeria", "Abuja")
   locationsMap.put("France", "Paris")
 
-  for((country, capital) in locationsMap) {
-    println("$capital, $country")
-  }
+  val capital = locationsMap["USA"]
+  println(capital)
 }
 ```
 
 This will print the following output:
 
 ```shell
+Washington D.C.
+```
+
+You can also use the `.get(key)` method to access the value associated with a specific key. This method returns the value associated with the key if it exists in the hashmap, or null if it does not.
+
+```kotlin
+val capital = locationsMap.get("India")
+println(capital)
+```
+
+This will print the following output:
+
+```shell
+New Delhi
+```
+
+## Adding Items
+
+To add an item to a hashmap, you can use the `.put(key, value)` method. This method adds a new key-value pair to the hashmap. If the key already exists in the hashmap, the value associated with the key is updated.
+
+```kotlin
+locationsMap.put("China", "Beijing")
+```
+
+The indexing operator `[]` can also be used to add a new key-value pair to the hashmap. This method is useful to add a new item to the hashmap and it is not known if the key already exists.
+
+```kotlin
+locationsMap["Germany"] = "Berlin"
+```
+
+The following prints the capital cities of the countries:
+
+```kotlin
+fun main() {
+  val locationsMap = HashMap<String, String>()
+
+  locationsMap.put("USA", "Washington D.C.")
+  locationsMap.put("India", "New Delhi")
+  locationsMap.put("Nigeria", "Abuja")
+  locationsMap.put("France", "Paris")
+  locationsMap.put("China", "Beijing")
+  locationsMap["Germany"] = "Berlin"
+
+  for((country, capital) in locationsMap) {
+    println("$capital, $country")
+  }
+}
+```
+
+The output will be:
+
+```shell
 Washington D.C., USA
+Beijing, China
 Abuja, Nigeria
 Paris, France
+Berlin, Germany
 New Delhi, India
 ```

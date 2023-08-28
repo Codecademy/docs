@@ -74,7 +74,7 @@ fun main() {
 
 The output will be:
 
-```
+```shell
 75
 ```
 
@@ -92,7 +92,7 @@ fun main() {
 
 The expected output is `240`, but since that exceeds the range for a byte, the output will be:
 
-```
+```shell
 -88
 ```
 
@@ -124,7 +124,7 @@ fun main() {
 
 The output of the above code will be:
 
-```
+```shell
 8.5094
 ```
 
@@ -148,7 +148,7 @@ fun main() {
 
 The output will be:
 
-```
+```shell
 The square root of 16.0 is 4.0.
 16.0 raised to the power of 2 is 256.0.
 ```
@@ -171,7 +171,7 @@ fun main() {
 
 The output will be:
 
-```
+```shell
 8.5094
 ```
 
@@ -195,7 +195,7 @@ fun main() {
 
 The output of the above code will be:
 
-```
+```shell
 75
 ```
 
@@ -217,7 +217,7 @@ fun main() {
 
 The output for the above code will be:
 
-```
+```shell
 750000000
 ```
 
@@ -241,7 +241,7 @@ fun main() {
 
 The output for the above code will be:
 
-```
+```shell
 75
 ```
 
@@ -274,7 +274,7 @@ fun main() {
 }
 ```
 
-In this example, the `numbers` variable is an array of integers that contains some numberical values. The type of the array is specified using the `Array<Int>` syntax, which indicates that the array contains elements of the `Int` type.
+In this example, the `numbers` variable is an array of integers that contains some numerical values. The type of the array is specified using the `Array<Int>` syntax, which indicates that the array contains elements of the `Int` type.
 
 ### String
 
@@ -291,7 +291,7 @@ fun main() {
 
 The output for the above code will be:
 
-```
+```shell
 Hello, World!
 ```
 
@@ -310,7 +310,7 @@ fun main() {
 
 The output for the above code will be:
 
-```
+```shell
 Hello, John
 ```
 
@@ -331,7 +331,7 @@ fun main() {
 
 The output for the above code will be:
 
-```
+```shell
 100
 Hello, World!
 ```
@@ -365,3 +365,9 @@ fun doSomething(): Unit {
 ```
 
 In the above example, the `doSomething()` function performs some action and does not return a value. Therefore, its return type is `Unit`.
+
+## Video Walkthrough
+
+Watch this video to learn about various Kotlin data types, including variables, constants, strings, and arrays.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dLvzXnc-6xc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

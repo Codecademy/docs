@@ -19,7 +19,7 @@ There are three types of Docs entries:
 - For non-language topics, the entry can be any discrete subject within the parent topic. (Such as [Linux](https://www.codecademy.com/resources/docs/open-source/linux) under [Open Source](https://www.codecademy.com/resources/docs/open-source))
 - For [General](https://www.codecademy.com/resources/docs/general) concepts, the entry can be any computer/code related subject not broad enough for its own topic entry.
 - Concepts typically have at least a few paragraphs and multiple sections. (see: [Headers/Sections](#headerssections))
-- We provide a [template for a concept entry](https://github.com/Codecademy/docs/blob/main/documentation/entry-template.md).
+- We provide a [template for a concept entry](https://github.com/Codecademy/docs/blob/main/documentation/concept-entry-template.md).
 
 ### Terms
 
@@ -127,6 +127,7 @@ In code blocks:
     - Used with a `## Codebyte Example` header.
     - Typically, only one per entry.
     - Typically, appears at the end of the entry.
+    - Is original code, not a copy of a prior example in Docs or an existing example on another site.
     - Displays example code that is runnable.
     - Use codebyte blocks appropriate to the language (see: [Supported Codebyte Blocks](#supported-codebyte-blocks)).
     - They are usually preceded by a description of what the example does.
@@ -222,7 +223,7 @@ CatalogContent:
 ---
 ```
 
-> **Note:** The template above does not apply to topic entries. See our [topic entry template](https://github.com/Codecademy/docs/blob/main/documentation/topic-info-template.md) for more details.
+> **Note:** The template above does not apply to topic entries. See our [topic entry template](https://github.com/Codecademy/docs/blob/main/documentation/topic-entry-template.md) for more details.
 
 - The metadata starts on the first line of the entry.
 - The metadata begins and ends with three dashes (`---`) on their own line.

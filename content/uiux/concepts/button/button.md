@@ -16,14 +16,14 @@ A **button** is a design element that allows users to take action.
 Buttons play an essential role in digital products because they help users complete various actions, such as confirming a purchase, uploading a file, or closing a pop-up modal.
 
 The design of a button should clearly convey its function, so the user understands what will happen if they select it. A button may feature text, an icon, or both to communicate what it does.
-Additionally, [text](https://www.codecademy.com/resources/docs/uiux/text), [images](https://www.codecademy.com/resources/docs/uiux/images), or other design elements near the button can provide context to clarify its purpose.
+Additionally, [text](https://www.codecademy.com/resources/docs/uiux/text), [images](https://www.codecademy.com/resources/docs/uiux/image), or other design elements near the button can provide context to clarify its purpose.
 
 ### Button Elements
 
 - A **text label** describes the button’s function in words. Typically, the text is a verb ("Continue") or short phrase (such as "Edit Profile" in the image below).
 - An **icon** is a glyph that symbolizes the button’s function. A button can include an icon and text, or an icon by itself. The icon should adhere to commonly accepted uses so it aligns with user expectations. For example, the thumbs-up icon is widely used to indicate approval or "liking" something. In the image below, there is a plus sign (+) in the "New Workspace" button.
 - A **container** is a shape that encompasses the button’s text label, icon, or both.
-  - Containers create visual emphasis, allowing the buttons to stand out from other elements. A container with a solid [fill](https://www.codecademy.com/resources/uiux/fill) (such as the "New Workspace" button below) is typically easier to spot than an outlined container that has a [stroke](https://www.codecademy.com/resources/uiux/stroke) but no fill (such as the "Edit Profile" button below).
+  - Containers create visual emphasis, allowing the buttons to stand out from other elements. A container with a solid [fill](https://www.codecademy.com/resources/docs/uiux/fill) (such as the "New Workspace" button below) is typically easier to spot than an outlined container that has a [stroke](https://www.codecademy.com/resources/docs/uiux/stroke) but no fill (such as the "Edit Profile" button below).
   - Buttons without containers have less visual emphasis. Without a container, a text-only button may look like a link. However, a button helps the user complete an action while a link opens a new page or jumps to a specific area on a page.
 
 ![Three buttons from Codecademy’s website: 1. Button with a container and a solid fill. 2. Button with an outlined container and no fill. 3. Text-only button with no fill.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/docs/Buttons-Containers.png)

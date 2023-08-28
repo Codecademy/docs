@@ -34,7 +34,7 @@ The `methodname` is all lowercase even if there is more than one word in the nam
 
 ## Example
 
-The following example showcases the [`__init__()`](https://www.codecademy.com/resources/docs/python/dunder-methods/__init__) dunder method used for the `Home` class. This particular method will be called each time a new instance of `Home` is created, binding the values of any attributes that were passed:
+The following example showcases the [`__init__()`](https://www.codecademy.com/resources/docs/python/dunder-methods/init) dunder method used for the `Home` class. This particular method will be called each time a new instance of `Home` is created, binding the values of any attributes that were passed:
 
 ```py
 class Home:

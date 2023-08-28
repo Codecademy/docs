@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/fundamentals-of-cybersecurity'
 ---
 
-**Risk management** is a detailed process of identifying factors that could damage or expose data, evaluating those factors, and implementing careful solutions for mitigating, or reducing, risk.
+**Risk management** is a detailed process of identifying factors that could damage or expose data, evaluating those factors, and implementing careful solutions for mitigating, or reducing, [risk](https://www.codecademy.com/resources/docs/cybersecurity/risk).
 
 ## Risk Management In-Use
 
@@ -20,8 +20,8 @@ An organization may need to employ risk management strategies to mitigate and sa
 
 ## Commonly Used Risk Management Frameworks
 
-- NIST CSF: The National Institute of Standards and Technology Cybersecurity Framework (NIST CSF) is a voluntary framework which consists of standards, guidelines and leading practices to manage cybersecurity risk.
-- ISO 27001: The International Organization for Standardization (ISO) publishes the leading international standard focused on information security known as ISO 27001. This is also a voluntary international standard.
+- [NIST CSF](https://www.nist.gov/cyberframework): The National Institute of Standards and Technology Cybersecurity Framework (NIST CSF) is a voluntary framework which consists of standards, guidelines and leading practices to manage cybersecurity risk.
+- [ISO 27001](https://www.iso.org/isoiec-27001-information-security.html): The International Organization for Standardization (ISO) publishes the leading international standard focused on information security known as ISO 27001. This is also a voluntary international standard.
 - SOC 2: Systems and Organization Controls (SOC) 2 is a security framework that details how organizations should protect customer data. Organizations are not legally required to be SOC 2 compliant, however, many companies have outside auditors perform audits to show compliance with all the requirements.
 
 ## Risk Management Strategies

@@ -44,3 +44,9 @@ Unlike many programming languages, JavaScript doesn't require the user to specif
 let movieTitle = '300'; // String
 let audienceNumber = 300; // Number
 ```
+
+## Video Walkthrough
+
+Watch this video for a description on what JavaScript variables are and how to use them to store values.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cRi9Xa4jBws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -54,4 +54,4 @@ plt.legend(handles=[sepal_lw, petal_lw]);
 
 The output is shown below:
 
-![Output of matplotlib.pyplot.legend() function from seaborn example](/media/matplotlib-legend-1.png)
+![Output of matplotlib.pyplot.legend() function from seaborn example](https://raw.githubusercontent.com/Codecademy/docs/main/media/matplotlib-legend-1.png)

@@ -26,7 +26,7 @@ If the magnitude of the result is too large to express, the function returns `HU
 The mathematical formula used in `cosh()` looks like this:
 
 ```tex
-cosh(x) = (e^x + e^-x )/2
+cosh(x) = \frac{e^x + e^{-x}}{2}
 ```
 
 ## Example

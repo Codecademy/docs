@@ -54,4 +54,4 @@ struct ContentView: View {
 
 This will display the following:
 
-![SwiftUI ViewModifier Padding](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-overlay.png)
+![SwiftUI Overlay Modifier Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-viewmodifier-overlay.png)
