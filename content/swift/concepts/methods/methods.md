@@ -1,8 +1,8 @@
 ---
 Title: 'Methods'
 Description: 'Methods in Swift are used to perform actions and provide functionality for instances of a class, struct, or enum.'
-Subjects: 
-  - 'iOS' 
+Subjects:
+  - 'iOS'
   - 'Mobile Development'
   - 'Game Development'
 Tags:
