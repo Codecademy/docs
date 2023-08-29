@@ -40,6 +40,13 @@ public class Program
     Console.WriteLine(y);
     // Output: 0.9640275800758169
   }
+
+  ## Codebyte Example
+
+  The codebyte demonstrates the `Math.tanh()` function which returns -1 if the num is negative and if num 
+  is positive it returns 1.
+
+  ```codebyte/csharp
 }using System;
   public class program
   {

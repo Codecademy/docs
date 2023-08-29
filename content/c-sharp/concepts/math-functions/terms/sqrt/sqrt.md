@@ -76,6 +76,11 @@ public class Example {
   }
 }
 
+## Codebyte Example
+
+The code below demonstrates that  when an argument ('x') is negative the method would return Nan with the use of `Math.sqrt()` function.
+
+```codebyte/csharp
 using System;
 
  namespace MysquareRoot {
