@@ -1,5 +1,5 @@
 ---
-Title: "Greek symbols"
+Title: "Greek Symbols"
 Description: "Greek symbols are frequently employed in scientific, mathematical, and technological applications. They can be used via HTML entities."
 
 Subjects:
@@ -15,7 +15,6 @@ CatalogContent:
 
 Greek symbols are frequently employed in scientific, mathematical, and technological applications. They can be used via HTML entities and by using Unicode values.
 
-
 ## Example
 
 Using the HTML entity to display the Greek letter "alpha":
@@ -30,7 +29,7 @@ The following format represents the Greek letter "alpha" in Unicode:
 &#x03B1;
 ```
 
-## Greek capital letter normal
+## Greek Capital Letter Normal
 
 | Symbol | HTML Code | HTML Entity  | CSS Code | Hex Code  | Unicode | Description                   |
 | ------ | --------- | ------------ | -------- | --------- | ------- | ----------------------------- |
@@ -43,7 +42,7 @@ The following format represents the Greek letter "alpha" in Unicode:
 | `Η`    | `&#919;`  | `&Eta;`      | `\0397`  | `&#x397;` | U+00397 | greek capital letter eta      |
 | `Θ`    | `&#920;`  | `&theta;`    | `\0398`  | `&#x398;` | U+00398 | greek capital letter theta    |
 
-## Greek capital letter small
+## Greek Capital Letter Small
 
 | Symbol | HTML Code | CSS Code | Hex Code   | Unicode | Description                |
 | ------ | --------- | -------- | ---------- | ------- | -------------------------- |
