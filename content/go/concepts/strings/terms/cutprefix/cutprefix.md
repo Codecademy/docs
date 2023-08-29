@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`CutPrefix()`** function in Go is used to return a specified string without a given prefix. The function returns the specified string without the given prefix and boolean value that confirms the presence of the prefix. It returns`true` if the given string has the specified prefix, otherwise it returns the full string and `false`. If the given prefix is an empty string, the function returns the full string and `true`.
+The **`CutPrefix()`** function in Go is used to return a specified string without a given prefix. The function returns the specified string without the given prefix and boolean value that confirms the presence of the prefix. It returns `true` if the given string has the specified prefix, otherwise it returns the full string and `false`. If the given prefix is an empty string, the function returns the full string and `true`.
 
 ## Syntax
 
