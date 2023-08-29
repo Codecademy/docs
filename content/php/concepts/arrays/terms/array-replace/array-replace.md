@@ -28,7 +28,7 @@ array_replace(array $array, array ...$replacements)
 
 ## Example
 
-Consider the following arrays:
+The code below demonstrates the basic use of the `array_replace()` function:
 
 ```php
 <?php
