@@ -54,5 +54,4 @@ let person = new Promise(function(resolve){
     resolve('I am a gamer');
 });
 person.then(console.log);
-
 ```
