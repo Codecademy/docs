@@ -80,5 +80,4 @@ let work = new Promise(function(resolve,reject){
 });
 
 console.log(work);
-
 ```
