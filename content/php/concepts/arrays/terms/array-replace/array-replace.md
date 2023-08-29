@@ -21,7 +21,7 @@ The **`array_replace()`** function in PHP is used to replace the values of an ar
 array_replace(array $array, array ...$replacements)
 ```
 
-- `$array` (array): The original array that will be used as the base.
+- `$array` (array): The original array that will be used as the base. The original array will not be modified, a new array will be returned with the associated replacement values.
 - `$replacements` (array): One or more arrays containing the replacement values.
 
 > **Note:** If multiple arrays contain the same key, the value from the last array in the argument list will overwrite the previous ones.
