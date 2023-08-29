@@ -18,7 +18,7 @@ The **`array_replace()`** function in PHP is used to replace the values of an ar
 ## Syntax
 
 ```pseudo
-array_replace(array $array, array ...$replacements): array
+array_replace(array $array, array ...$replacements)
 ```
 
 - `$array` (array): The original array that will be used as the base.
