@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**`.toSpliced()`** is a method that modifies multiple array elements. It has a start point (the first element to be modified) and an endpoint (the last element to be modified). `.toSpliced()` can make the following changes to an array:
+**`.toSpliced()`** is a method that modifies multiple array elements. It has a starting point (the first element to be modified) and an end point (the last element to be modified). `.toSpliced()` can make the following changes to an array:
 
 - Extract element(s)
 - Replace element(s)
@@ -29,11 +29,11 @@ myArray.toSpliced(startIndex, count, elementN)
 
 - `startIndex`: The location of the first element to be altered. Defaults to 0.
 - `count`: The number of elements that should be modified, beginning from `startIndex`. Defaults to 0.
-- `elementN` (optiona): The updated value(s) for the array element(s). To insert multiple values, separate each value with a comma.
+- `elementN` (optional): The updated value(s) for the array element(s). To insert multiple values, separate each value with a comma.
 
 ## Examples
 
-### Extract Array Elements With `.toSpliced`
+### Extracting Array Elements
 
 ```js
 const colors = ['red', 'yellow', 'blue', 'orange', 'green', 'purple'];
@@ -49,12 +49,12 @@ console.log(colors);
 // Output: 'red', 'yellow', 'blue', 'orange', 'green', 'purple'
 ```
 
-### Replace Array Elements Using `.toSpliced()`
+### Replacing Array Elements
 
 ```js
 const colors = ['red', 'yellow', 'blue', 'orange', 'green', 'purple'];
 
-// Replacing red, green, and yellow. Start at index 0, and replace three items.
+// Replacing red, yellow, and blue. Start at index 0, and replace three items.
 const tertiaryColors = colors.toSpliced(
   0,
   3,
@@ -70,7 +70,7 @@ console.log(colors);
 // Output: 'red', 'yellow', 'blue', 'orange', 'green', 'purple'
 ```
 
-### Insert New Items Into an Array Using `.toSpliced`
+### Inserting New Items Into an Array
 
 ```js
 const colors = ['red', 'yellow', 'blue', 'orange', 'green', 'purple'];
