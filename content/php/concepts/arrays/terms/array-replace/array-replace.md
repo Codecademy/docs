@@ -54,7 +54,7 @@ Array
 
 ## Codebyte Example
 
-In the following PHP code, the `array_replace()` function is demonstrated by replacing values in the `$baseArray` with values from the `$replacementArray`. The resulting array is then printed.
+The following code is runnable and demonstrates other implementation of the `array_replace()` function.
 
 ```codebyte/php
 <?php
