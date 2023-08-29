@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`array_splice()`** method takes an array as it's input value and replaces elements within the array with new elements. The developer can specify within the method the starting index value for the replacement values, and the length of the values to be replaced.
+The **`array_splice()`** method takes an array as its input value and replaces elements within the array with new elements. The developer can specify within the method the starting index value for the replacement values, and the length of the values to be replaced.
 
 ## Syntax
 
@@ -22,17 +22,17 @@ array_splice($input_array, $starting_index, $replacement_length, $replacement_va
 
 The `array_splice()` method has two required parameters and two optional parameters.
 
-**Required Parameters**
-  - `$input_array`: The original array that will recieve the new elements.
-  - `$starting_index`: The index value that specifies where the replacement elements will start within the `$input_array`.
+Required Parameters:
+- `$input_array`: The original array that will receive the new elements.
+- `$starting_index`: The index value that specifies where the replacement elements will start within the `$input_array`.
 
-  > **Note:** Positive and negative index values are valid arguments for the `$starting_index`. A negative number counts from the last index value in the array (i.e. -3 equals third value from last).
+> **Note:** Positive and negative index values are valid arguments for the `$starting_index`. A negative number counts from the last index value in the array (i.e. -3 equals third value from last).
 
-**Optional Parameters**
-  - `$replacement_length`: The length of values to be replaced within the `$input_array`.
-  - `$replacement_values`: An array that contains the new values that will be 'spliced' into the `$input_array`.
+Optional Parameters:
+- `$replacement_length`: The length of values to be replaced within the `$input_array`.
+- `$replacement_values`: An array that contains the new values that will be "spliced" into the `$input_array`.
 
-  > **Note:** If there is only one replacement value a `string` can be used in place of an `array`.
+> **Note:** If there is only one replacement value a `string` can be used in place of an `array`.
 
 ## Example
 
