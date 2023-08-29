@@ -40,7 +40,7 @@ print_r($replacedArray);
 ?>
 ```
 
-**Output:**
+This will return the following output:
 
 ```
 Array
