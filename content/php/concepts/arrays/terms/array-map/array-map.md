@@ -47,7 +47,15 @@ print_r($new_array);
 The above code results in the following output:
 
 ```shell
-[2, 4, 6, 8, 10]
+Array
+(
+    [0] => 2
+    [1] => 4
+    [2] => 6
+    [3] => 8
+    [4] => 10
+)
+
 ```
 
 ## Codebyte Example
