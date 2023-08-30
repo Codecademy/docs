@@ -28,7 +28,7 @@ struct Building {
 }
 ```
 
-> All stored properties of structures must conform to to [Hashable]{https://developer.apple.com/documentation/swift/hashable} Protocol.
+> **Note:** All stored properties of structures must conform to [Hashable]{https://developer.apple.com/documentation/swift/hashable} Protocol.
 
 
 ## Default Property Values
