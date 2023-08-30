@@ -1,7 +1,7 @@
 ---
 Title: '.getTimeInMillis()'
 Description: 'Returns the time in milliseconds.'
-Subjects: 
+Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
@@ -54,7 +54,6 @@ public class CalendarGetTimeInMillisExample {
 }
 ```
 
-The output of the code above is the time passed in milliseconds today from 12:00 AM.
 The output should be similar to:
 
 ```shell
