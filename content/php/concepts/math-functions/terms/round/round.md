@@ -1,6 +1,6 @@
 ---
 Title: 'round()'
-Description: 'Round a number to the nearest whole number or to specified decimal numbers.'
+Description: 'Returns the nearest whole number to the passed value, or the value rounded to the specified decimal precision.'
 Subjects:
   - 'Computer Science'
   - 'Web Design'
