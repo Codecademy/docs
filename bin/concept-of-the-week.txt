@@ -1,1 +1,1 @@
-content/general/concepts/software-testing/software-testing.md
+content/git/concepts/status/status.md
