@@ -19,11 +19,16 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 
 ## Iteration Types
 
-In Lua, there are multiple ways to **iterate** through and/or repeat code. Some iteration methods are intended for iterating through **arrays**, while others can be used to `repeat` a command until/while a condition is met. Below are some examples of conditional iterations.
+In Lua, there are multiple ways to iterate through and/or repeat code. Some iteration methods are intended for iterating through arrays, while others can be used to `repeat` a command until/while a condition is met. Below are some examples of conditional iterations.
+
+### While
+
+A common form of iteration is the "while" loop, in Lua this form of iteration is also implemented with the `while` keyword. However, the body of the loop is framed by the `do` and `end` keywords, as opposed to the curly braces that are used in many other languages.
+
+In addition to the familiar while loop format, there is also the `repeat`-`until` syntax that can be used to serve the same purpose.
 
 ```lua
--- while CONDITION do
--- # This iteration will repeatedly execute it's provided code until the CONDITION becomes false.
+-- This iteration will repeatedly execute it's provided code until the CONDITION becomes false.
 x = 2
 
 while x > 0 do
@@ -33,8 +38,8 @@ end
 
 print("x is no longer greater than 0!");
 
--- repeat TASK until CONDITON
--- # This iteration will repeat its provided task until the required CONDITION becomes true
+-- repeat TASK until CONDITION
+-- This iteration will repeat its provided task until the required CONDITION becomes true
 i = 1
 
 repeat
@@ -44,18 +49,9 @@ until
 i == 20 -- Stops iteration when 'i' becomes equivalent to 20
 ```
 
-As mentioned, iterations can be used to loop *through* an array. For this, the global keyword **pairs** is used loop through an array in order.
+### For
 
-```lua
-list = {"🌽", "🥦", "🍄"}
-
-for Index, Value in pairs(list) do
-    print(Index) -- 1, 2, 3
-    print(Value) -- 🌽, 🥦, 🍄
-end
-```
-
-It's also possible to loop through a list's contents by using the phrase `for i = n1, n2, n3 do`. This method of iteration will *not* automatically fetch Index and Value pairs, but will instead repeat a task a specified amount of times.
+It's also possible to create a loop, such as iterating through a list's contents, by using the phrase `for i = n1, n2, n3 do`. This method of iteration will not automatically fetch _index_ and _value_ pairs, but will instead repeat a task a specified amount of times. The `n` values represent the commonly used _start_, _stop_ and _increment_ values in a typical `for` loop.
 
 ```lua
 --- Repeat the "print" method by using this type of iteration.
@@ -67,12 +63,23 @@ end
 
   Alternatively, this can be flipped backwards by using
   an optional third parameter within an iteration.
-  
+
   This third parameter will control how 'i' will increment itself per iteration.
 
 ]]--
 
 for i = 1, 3, -1 do
     print(i) -- 3, 2, 1
+end
+```
+
+As mentioned, iterations can be used to loop through an array. For this, the global keyword `pairs` is used loop through an array in order.
+
+```lua
+list = {"🌽", "🥦", "🍄"}
+
+for Index, Value in pairs(list) do
+    print(Index) -- 1, 2, 3
+    print(Value) -- 🌽, 🥦, 🍄
 end
 ```
