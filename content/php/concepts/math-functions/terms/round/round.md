@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`round()`** converts an integer or a float to the nearest whole number or to specified decimal numbers.
+The **`round()`** returns an integer or a float to the nearest whole number or to the specified decimal precision.
 
 ## Syntax
 
