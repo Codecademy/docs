@@ -20,7 +20,7 @@ The **`strings.ToLower()`** function is a built-in function in Golang that retur
 strings.ToLower(str)
 ```
 
-Where `str` is the strings that we want to convert into lowercase.
+Where `str` is the string to convert into lowercase.
 
 ## Example
 
