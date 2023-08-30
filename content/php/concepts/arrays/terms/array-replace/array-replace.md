@@ -54,7 +54,7 @@ Array
 
 ## Codebyte Example
 
-The following code is runnable and demonstrates other implementation of the `array_replace()` function.
+The following code is runnable and demonstrates other implementation of the `array_replace()` function:
 
 ```codebyte/php
 <?php
@@ -64,15 +64,4 @@ $replacementArray = [1 => 'yellow', 2 => 'purple'];
 $replacedArray = array_replace($baseArray, $replacementArray);
 print_r($replacedArray);
 ?>
-```
-
-When executed, this code will output:
-
-```
-Array
-(
-    [0] => red
-    [1] => yellow
-    [2] => purple
-)
 ```
