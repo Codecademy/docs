@@ -18,7 +18,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 Coroutines can be created in two different ways, either by defining a function and passing it to `coroutine.create()`, or declaring the relevant logic as an anonymous function within the body of the `coroutine.create()` statement.
 
 ```pseudo
--- Option one
+-- Option 1
 local newFunc = function()
   -- Function body
   end
