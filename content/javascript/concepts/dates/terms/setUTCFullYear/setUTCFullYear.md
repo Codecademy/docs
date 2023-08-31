@@ -1,5 +1,5 @@
 ---
-Title: 'setUTCFullYear()'
+Title: '.setUTCFullYear()'
 Description: 'Used to set the year value of a Date object in UTC (Coordinated Universal Time).'
 Subjects:
   - 'Web Development'
@@ -11,14 +11,14 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`setUTCFullYear()`** method of `Date` instances changes the year for the date according to UTC (Coordinated Universal Time).
+The **`.setUTCFullYear()`** method of `Date` instances changes the year for the date according to UTC (Coordinated Universal Time).
 
 ## Syntax
 
-```pseudo 
-setUTCFullYear(yearValue)
-setUTCFullYear(yearValue, monthValue)
-setUTCFullYear(yearValue, monthValue, dateValue)
+```pseudo
+myDate.setUTCFullYear(yearValue)
+myDate.setUTCFullYear(yearValue, monthValue)
+myDate.setUTCFullYear(yearValue, monthValue, dateValue)
 ```
 
 Parameters:
@@ -29,15 +29,15 @@ Parameters:
 
 The method changes the `Date` object in place, and returns its new timestamp. If a parameter is `NaN` (or other values that get coerced to `NaN`, such as `undefined`), the date is set to `Invalid Date` and `NaN` is returned.
 
-If the `monthValue` and `dateValue` parameters are not specified, the values returned from the `getUTCMonth()` and `getUTCDate()` methods are used.
+If the `monthValue` and `dateValue` parameters are not specified, the values returned from the `.getUTCMonth()` and `.getUTCDate()` methods are used.
 
-> **Note:** If a parameter specified is outside of the expected range, `setUTCFullYear()` attempts to update the other parameters and the date information in the `Date` object accordingly. For example, if 15 is specified for `monthValue`, the year is incremented by 1 (`yearValue + 1`), and 3 is used for the month.
+> **Note:** If a parameter specified is outside of the expected range, `.setUTCFullYear()` attempts to update the other parameters and the date information in the `Date` object accordingly. For example, if 15 is specified for `monthValue`, the year is incremented by 1 (`yearValue + 1`), and 3 is used for the month.
 
 ## Example
 
-Using `setUTCFullYear()`:
+Using `.setUTCFullYear()`:
 
-```shell
+```js
 const theBigDay = new Date('2023-03-01');
 theBigDay.setUTCFullYear(1997);
 console.log(theBigDay);
