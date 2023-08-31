@@ -28,7 +28,7 @@ The induction hypothesis assumes that the statement holds for some _k_, or range
 
 ## Inductive Step
 
-The *Inductive Step* proves the statement holds based on the Inductive Hypothesis.
+The inductive step proves the statement holds based on the inductive hypothesis.
 
 ### Example 
 
