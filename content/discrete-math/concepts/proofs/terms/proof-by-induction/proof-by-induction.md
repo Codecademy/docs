@@ -23,7 +23,7 @@ The base case verifies the problem or statement through a specific initial value
 
 The induction hypothesis assumes that the statement holds for some _k_, or range of values using _k_ as a boundary.
 
-- **Weak Induction**: Induction typically based on a specifc assumption.(*P*(n) = *P*(k), or *n* = *k*)
+- **Weak Induction**: Induction typically based on a specific assumption.(_P_(n) = _P_(k), or _n_ = _k_)
 - **Strong Induction**: Induction typically involving a range or global case of an assumption.(All integers less than or equal to *k*.)
 
 ## Inductive Step
