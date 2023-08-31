@@ -19,7 +19,7 @@ CatalogContent:
 
 ## `NavigationStack`
 
-To be able to navigate to different views from the root view, the view will be warped with `NavigationStack` struct as in the example below: 
+To be able to navigate to different views from the root view, views will be wrapped with a `NavigationStack` `struct` as in the example below: 
 
 ```Swift
 struct Tap: View {
