@@ -112,16 +112,14 @@ Inductive Hypothesis: Assume that this property holds true for n = k. For all k 
   k! = k x (k - 1) x (k - 2) x ... x 1
 ```
 
-	Inductive Step: Let n = k + 1. 
+Inductive Step: Let n = k + 1. 
 	
 ```tex
-			      (k + 1)! = (k + 1) x k x (k - 1) x (k - 2) x ... x 1	
+  (k + 1)! = (k + 1) x k x (k - 1) x (k - 2) x ... x 1	
 
-			      (k + 1)! = (k + 1) x k!  From the *Induction Hyothesis* 
-			      
-			      Thus, the property is true due to the definiton of factorials.
-
+  (k + 1)! = (k + 1) x k!  From the *Induction Hypothesis* 
 ```
+Thus, the property is true due to the definition of factorials.
 
 Note: Typically, the problem will be to solve an expression or inequality. 
 
