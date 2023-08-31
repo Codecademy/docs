@@ -98,10 +98,12 @@ Base case: n! when n = 0
 
 ```tex
   0! = 1
-## Recursion: 
-```cpp
-	factorial(n) = n * (n - 1) * (n - 2) * ... * 1 
+### Recursion: 
+
+```pseudo
+  factorial(n) = n * (n - 1) * (n - 2) * ... * 1 
 ```
+
 ## Induction:
 
 	Inductive Hypothesis: Assume that this property holds true for n = k. For all k > 0.
