@@ -21,7 +21,7 @@ CatalogContent:
 
 To be able to navigate to different views from the root view, views will be wrapped with a `NavigationStack` `struct` as in the example below: 
 
-```Swift
+```swift
 struct Tap: View {
     var body: some View {
       NavigationStack{
