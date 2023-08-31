@@ -125,4 +125,4 @@ Thus, the property is true due to the definition of factorials.
 
 ## Conclusion 
 
-Proof by Induction can be a powerful tool for algorithm verifaction, especially when using recursion.   
+Proof by Induction can be a powerful tool for algorithm verification, especially when using recursion.   
