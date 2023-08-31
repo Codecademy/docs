@@ -24,7 +24,7 @@ The fundamental counting principle states that the total number of outcomes of t
 
 ## Example
 
-Suppose you have 3 shirts (call them A , B , and C ), and 4 pairs of pants (call them w , x , y , and z). Then you have:
+Suppose there are 3 shirts (call them `A`, `B`, and `C`), and 4 pairs of pants (call them `w`, `x`, `y`, and `z`). There will be `3x4=12` possible outfits:
 
 3×4=12
 
