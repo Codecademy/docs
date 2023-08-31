@@ -1,6 +1,6 @@
 ---
 Title: 'Proof by Induction'
-Description: 'A mathematical method to determine the validity of a statement'
+Description: 'A mathematical method to determine the validity of a statement.'
 Subjects: 
   -  'Coputer Science'
   -  'Mathematics'
