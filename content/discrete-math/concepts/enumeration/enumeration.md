@@ -50,7 +50,7 @@ The rule states that if there are `n(A)` ways to do `A` and `n(B)` ways to do `B
 
 The general take, however:
 
-There are n(A) x n(B) x n(C) ways to do A and B and C
+There are `n(A) x n(B) x n(C)` ways to do `A` and `B` and `C`.
 
 ## Sum Rule
 
