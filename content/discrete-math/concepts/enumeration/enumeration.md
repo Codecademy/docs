@@ -54,7 +54,7 @@ There are `n(A) x n(B) x n(C)` ways to do `A` and `B` and `C`.
 
 ## Sum Rule
 
-The rule states that if there are n(A) ways to do A and, distinct from them, n(B) ways to do B, then the number of ways to do A or B is n(A) + n(B)
+The rule states that if there are `n(A)` ways to do `A` and, distinct from them, `n(B)` ways to do `B`, then the number of ways to do `A` or `B` is `n(A) + n(B)`.
 
 And, the general rule:
 
