@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`setUTCFullYear()`** method of `Date` instances changes the year for this date according to universal time.
+The **`setUTCFullYear()`** method of `Date` instances changes the year for the date according to UTC (Coordinated Universal Time).
 
 ## Syntax
 
