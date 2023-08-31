@@ -29,11 +29,9 @@ Parameters:
 
 The method changes the `Date` object in place, and returns its new timestamp. If a parameter is `NaN` (or other values that get coerced to `NaN`, such as `undefined`), the date is set to `Invalid Date` and `NaN` is returned.
 
-## Description
+If the `monthValue` and `dateValue` parameters are not specified, the values returned from the `getUTCMonth()` and `getUTCDate()` methods are used.
 
-If the `monthValue` and `dateValue` parameters are not specified, the values returned from the *`getUTCMonth()`* and *`getUTCDate()`* methods are used.
-
-If a parameter specified is outside of the expected range, `setUTCFullYear()` attempts to update the other parameters and the date information in the *`Date`* object accordingly. For example, if 15 is specified for `monthValue`, the year is incremented by 1 (`yearValue + 1`), and 3 is used for the month.
+> **Note:** If a parameter specified is outside of the expected range, `setUTCFullYear()` attempts to update the other parameters and the date information in the `Date` object accordingly. For example, if 15 is specified for `monthValue`, the year is incremented by 1 (`yearValue + 1`), and 3 is used for the month.
 
 
 ## Examples
