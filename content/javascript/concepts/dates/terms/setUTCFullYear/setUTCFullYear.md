@@ -21,7 +21,7 @@ setUTCFullYear(yearValue, monthValue)
 setUTCFullYear(yearValue, monthValue, dateValue)
 ```
 
-## Parameters
+Parameters:
 
 **`yearValue`**
 - An integer representing the year. For example, 1995.
