@@ -23,14 +23,9 @@ setUTCFullYear(yearValue, monthValue, dateValue)
 
 Parameters:
 
-**`yearValue`**
-- An integer representing the year. For example, 1995.
-
-**`monthValue`** *Optional*
-- An integer representing the month: 0 for January, 1 for February, and so on.
-
-**`dateValue`** *Optional*
-- An integer between 1 and 31 representing the day of the month. If you specify dateValue, you must also specify monthValue.
+- `yearValue`: An integer representing the year. For example, 1995.
+- `monthValue`: (Optional) An integer representing the month: 0 for January, 1 for February, and so on.
+- `dateValue`: (Optional) An integer between 1 and 31 representing the day of the month. If `dateValue` is specified, `monthValue` must also be specified.
 
 
 ## Return value
