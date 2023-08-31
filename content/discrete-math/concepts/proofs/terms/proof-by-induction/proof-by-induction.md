@@ -63,7 +63,7 @@ a substantive range of assumptions.
 
 ## Proof by Induction's Application to Computer Science 
 
-A very strong relationship is present between *Recursion** and Mathematical Induction. *Recursion* solves a problem by specifying a solution to one or more base cases and then
+A very strong relationship is present between recursion and mathematical induction. Recursion solves a problem by specifying a solution to one or more base cases and then
 demonstrating how to derive the solution to one or more base cases and then demonstrating how to derive the soltion to a problem of an arbitrary size from the solutions to
 smaller problems of the same type. Similarly, mathematical induction proves a property about the natural numbers by proving the property about a base case and then proving that
 the property must be true for an arbitrary natural number *n* if it is true for the natural numbers smaller than *n*.
