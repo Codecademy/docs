@@ -170,6 +170,7 @@ iOS
 Iterators
 Join
 jQuery
+JRuby
 JSON
 JSK
 K-Nearest Neighbors
@@ -241,6 +242,7 @@ Print
 Probability
 Promise
 Properties
+Protocols
 Queries
 Queues
 Quicksort
