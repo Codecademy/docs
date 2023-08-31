@@ -26,11 +26,9 @@ The fundamental counting principle states that the total number of outcomes of t
 
 Suppose there are 3 shirts (call them `A`, `B`, and `C`), and 4 pairs of pants (call them `w`, `x`, `y`, and `z`). There will be `3x4=12` possible outfits:
 
-
-
-Aw, Ax, Ay, Az,
+`Aw, Ax, Ay, Az,
 Bw, Bx, By, Bz,
-Cw, Cx, Cy, Cz
+Cw, Cx, Cy, Cz`
 
 ## Principle of Inclusion and Exclusion
 
@@ -40,7 +38,7 @@ In the context of combinations and probability, the necessity of finding a count
 
 The formula:
 
-n(A ꓴ B) = n(A) + n(B) - n(A ꓵ B)
+`n(A ꓴ B) = n(A) + n(B) - n(A ꓵ B)`
 
 The exclusion of the intersection of the sets addresses the problem or question of duplication.
 
