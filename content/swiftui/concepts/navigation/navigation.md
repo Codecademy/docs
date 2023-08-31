@@ -17,7 +17,7 @@ CatalogContent:
 
 > **Note:** In iOS 15 and before, `NavigationView` was used, but it's been deprecated since iOS 16 introduced `NavigationStack` and `NavigationSplitView`.
 
-## NavigationStack
+## `NavigationStack`
 
 To be able to navigate to different views from the root view, the view will be warped with `NavigationStack` struct as in the example below: 
 
