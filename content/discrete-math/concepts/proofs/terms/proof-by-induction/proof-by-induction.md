@@ -17,7 +17,7 @@ CatalogContent:
 
 ## Base Case
 
-The *Base Case* verifies the problem or statement through a specific initial value or values.(*n* =0, *n* = 1) 
+The base case verifies the problem or statement through a specific initial value or values. (_n_ =0, _n_ = 1) 
 
 ## Induction Hypothesis
 
