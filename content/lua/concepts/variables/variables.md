@@ -55,7 +55,7 @@ print(addValue(5)) -- Returns 6
 print(count) -- Returns 2
 ```
 
-In the code above, if the `local count = 1` statement is omitted in the function then `addValue(5)` will use the global value and return 7.
+> **Note:** In the code above, if the `local count = 1` statement is omitted the `addValue()` function will use the global value instead and return 7.
 
 ## Reassigning Variables
 

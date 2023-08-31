@@ -11,11 +11,35 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'paths/computer-science'
 ---
 
-**Coroutines** allow the distribution and execution of multiple tasks within a concurrent process. Coroutines do not provide parallelism, they can not be used to distribute work across multiple cores.
+**Coroutines** allow for the distribution and execution of multiple tasks as a set of concurrent processes. Coroutines do not provide parallelism: they can not be used to distribute work across multiple cores.
+
+## Syntax
+
+Coroutines can be created in two different ways, either by defining a function and passing it to `coroutine.create()`, or declaring the relevant logic as an anonymous function within the body of the `coroutine.create()` statement.
+
+```pseudo
+-- Option one
+local newFunc = function()
+  -- Function body
+  end
+end
+
+local routineA = coroutine.create(newFunc)
+
+-- Option 2
+local routineB = coroutine.create(
+  function() -- Anonymous function declaration
+    -- Function body
+    if -- Condition x
+      coroutine.yield() -- The coroutine is paused until it is called again
+    end
+  end
+)
+```
 
 ## Coroutine States
 
-A coroutine can enter one of three states: suspended, running, or dead. This is what makes them useful, as they are essentially functions that can be paused and resumed at a later point. The status of a coroutine can be checked with the `status()` function and resumed using the `resume()` function. Once a coroutine is in a dead state, it cannot be resumed again.
+A coroutine can enter one of three states: suspended, running, or dead. This is what makes them useful, as they are essentially functions that can be paused and resumed at a later point. The status of a coroutine can be checked with the `status()` function and resumed using the `resume()` function. Once a coroutine has reached a dead state, it cannot be resumed again.
 
 ## Functions in Coroutines
 
