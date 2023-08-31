@@ -104,12 +104,14 @@ Base case: n! when n = 0
   factorial(n) = n * (n - 1) * (n - 2) * ... * 1 
 ```
 
-## Induction:
+### Induction:
 
-	Inductive Hypothesis: Assume that this property holds true for n = k. For all k > 0.
+Inductive Hypothesis: Assume that this property holds true for n = k. For all k > 0.
+
 ```tex
-			      k! = k x (k - 1) x (k - 2) x ... x 1
+  k! = k x (k - 1) x (k - 2) x ... x 1
 ```
+
 	Inductive Step: Let n = k + 1. 
 	
 ```tex
