@@ -48,7 +48,7 @@ The exclusion of the intersection of the sets addresses the problem or question 
 
 ## Product Rule
 
-The rule states that if there are n(A) ways to do A and n(B) ways to do B, then the number of ways to do A nd B is n(A) x n(B). This is true if the number of ways of doing A and B are independent; the number of choices fordoing B is thesame regardless of which choice you made for A.
+The rule states that if there are `n(A)` ways to do `A` and `n(B)` ways to do `B`, then the number of ways to do A and B is `n(A) x n(B)`. This is true if the number of ways of doing `A` and `B` are independent; the number of choices for doing `B` is the same regardless of which choice is made for `A`.
 
 The general take, however:
 
