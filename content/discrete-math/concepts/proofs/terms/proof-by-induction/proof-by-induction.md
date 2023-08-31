@@ -36,8 +36,10 @@ Prove by induction that 2^n > 2n
 
 Base case: 
 
-	When n = 3 we have   2^3 > 2 x 3
-			       8 > 6 **TRUE**
+```pseudo
+  When n = 3 we have   2^3 > 2 x 3
+    8 > 6 TRUE
+```
 
 Induction Hypothesis:
 
