@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`HasSuffix()`** function in Go is used to check if a specified suffix exists on a given string. The function returns true if the given string has the specified suffix, otherwise it returns false.
+The **`HasSuffix()`** function in Go is used to check if a specified suffix exists on a given string. The function returns `true` if the given string has the specified suffix, otherwise it returns `false`.
 
 ## Syntax
 
