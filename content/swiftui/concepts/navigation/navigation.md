@@ -13,7 +13,9 @@ CatalogContent:
   - 'path/iOS-path'
 ---
 
-**Navigation** is the ability to navigate to different views from the root view in the app. In SwiftUI, `NavigationStack` is used to enable the root view to present views over it.  In iOS 15 and before, `NavigationView` was used, but it's been deprecated since iOS 16 introduced `NavigationStack`. 
+**Navigation** is the ability to navigate to different views from an app's root view. In SwiftUI, `NavigationStack` is used to enable the root view to present views over it.
+
+> **Note:** In iOS 15 and before, `NavigationView` was used, but it's been deprecated since iOS 16 introduced `NavigationStack` and `NavigationSplitView`.
 
 ## NavigationStack
 
