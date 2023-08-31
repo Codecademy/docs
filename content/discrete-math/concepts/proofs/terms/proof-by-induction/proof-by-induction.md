@@ -72,16 +72,13 @@ the property must be true for an arbitrary natural number _n_ if it is true for 
 
 Below is psuedocode of a function to compute a factorial, recursive steps will be done in parallel to show similarity: 
 
-```cpp
-	factorial(n: integer): integer 
+```pseudo
+  factorial(n: integer): integer 
 
-	    if (n == 0) 
-		return 1
-	    
-	    else 
-		n = n * factorial(n - 1)
-	     
-	
+    if (n == 0) 
+      return 1
+    else 
+      n = n * factorial(n - 1)
 ```
 
 ### Recursion: 
