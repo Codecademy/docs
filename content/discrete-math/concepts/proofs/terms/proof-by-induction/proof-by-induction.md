@@ -43,9 +43,10 @@ Base case:
 
 Induction Hypothesis:
 
-	Assume the P(k) is correct for some positive integer k.
-
-			     2^k > 2k.
+```pseudo
+  Assume the P(k) is correct for some positive integer k.
+    2^k > 2k.
+```
 
 Induction Step: 
 
