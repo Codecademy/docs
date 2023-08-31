@@ -92,12 +92,12 @@ Below is psuedocode of a function to compute a factorial, recursive steps will b
 ```cpp
 	       factorial(0) = 1
 ```
-## Induction: 
+### Induction: 
+
+Base case: n! when n = 0
+
 ```tex
-	Base case: n! when n = 0
-	
-	       0! = 1
-```tex
+  0! = 1
 ## Recursion: 
 ```cpp
 	factorial(n) = n * (n - 1) * (n - 2) * ... * 1 
