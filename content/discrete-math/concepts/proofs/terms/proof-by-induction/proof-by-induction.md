@@ -13,7 +13,7 @@ CatalogContent:
   -  'Computer Science'
 ---
 
-**`Proof by Induction`** is a method of mathematical proof that establishes a **base case** to develop an **induction hypothesis** that can then be proven by **induction**.
+**Proof by Induction** is a method of mathematical proof that establishes a base case to develop an induction hypothesis that can then be proven by induction.
 
 ## Base Case
 
