@@ -33,12 +33,18 @@ If the `monthValue` and `dateValue` parameters are not specified, the values ret
 
 > **Note:** If a parameter specified is outside of the expected range, `setUTCFullYear()` attempts to update the other parameters and the date information in the `Date` object accordingly. For example, if 15 is specified for `monthValue`, the year is incremented by 1 (`yearValue + 1`), and 3 is used for the month.
 
-
-## Examples
+## Example
 
 Using `setUTCFullYear()`:
 
 ```shell
-const theBigDay = new Date();
+const theBigDay = new Date('2023-03-01');
 theBigDay.setUTCFullYear(1997);
+console.log(theBigDay);
+```
+
+This code will output the following:
+
+```shell
+1997-03-01T00:00:00.000Z
 ```
