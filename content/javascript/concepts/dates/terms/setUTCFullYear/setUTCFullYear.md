@@ -27,11 +27,7 @@ Parameters:
 - `monthValue`: (Optional) An integer representing the month: 0 for January, 1 for February, and so on.
 - `dateValue`: (Optional) An integer between 1 and 31 representing the day of the month. If `dateValue` is specified, `monthValue` must also be specified.
 
-
-## Return value
-
-Changes the *`Date`* object in place, and returns its new *`timestamp`*. If a parameter is `NaN` (or other values that get coerced to `NaN`, such as `undefined`), the date is set to Invalid Date and `NaN` is returned.
-
+The method changes the `Date` object in place, and returns its new timestamp. If a parameter is `NaN` (or other values that get coerced to `NaN`, such as `undefined`), the date is set to `Invalid Date` and `NaN` is returned.
 
 ## Description
 
