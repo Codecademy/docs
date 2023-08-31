@@ -58,4 +58,4 @@ The rule states that if there are `n(A)` ways to do `A` and, distinct from them,
 
 And, the general rule:
 
-There are n(A) + n(B) + n(C) ways to do A or B or C
+There are `n(A) + n(B) + n(C)` ways to do `A` or `B` or `C`.
