@@ -50,15 +50,17 @@ Induction Hypothesis:
 
 Induction Step: 
 
-	Since P(k) is true for all positive integers greater than 2, P(k+1) is true.
+```pseudo
+  Since P(k) is true for all positive integers greater than 2, P(k+1) is true.
 
-		2^(k + 1) is the same as 2 x 2^k, which is clearly greater than 2 x 2k,which is equivalent 
-		to 2(1 + k) or due to the communative property of mulitplaction is equivalent to 2(k + 1), 
-		for all k > 2. Or, 
+    2^(k + 1) is the same as 2 x 2^k, which is clearly greater than 2 x 2k,which is equivalent 
+    to 2(1 + k) or due to the communitive property of multiplication is equivalent to 2(k + 1), 
+    for all k > 2. Or, 
 
-			     2^(k+1) = 2 x 2^k > 2 x 2k = 2(k + 1)  for k>2
+        2^(k+1) = 2 x 2^k > 2 x 2k = 2(k + 1)  for k>2
 		
-		Hence by mathematical induction P(n) is true for all positive integers n > 2.
+    Hence by mathematical induction P(n) is true for all positive integers n > 2.
+```
 		
 All mathematical proofs by induction consist of these three parts. Be sure to prove all necessary base cases, more than one is possible.
 Note that any proof by weak induction is also a proof by strong induction, distinction between the two is determined by the need to prove 
