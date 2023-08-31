@@ -4,10 +4,11 @@ Description: 'Used to set the year value of a Date object in UTC (Coordinated Un
 Subjects:
   - 'Web Development'
 Tags:
-  - 'javascript'
+  - 'Date'
+  - 'Methods'
 CatalogContent:
-  - 'learn-javascript'
-  - 'docs/content/javascript/concepts/dates/terms/setUTCFullYear/setUTCFullYear.md'
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 ## Date.prototype.setUTCFullYear()
