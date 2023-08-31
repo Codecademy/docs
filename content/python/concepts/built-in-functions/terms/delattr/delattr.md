@@ -17,37 +17,50 @@ Allows the user to delete attributes from an object.
 
 ## Syntax
 
-```py
+```pseudo
 delattr(object, name)
 ```
-
-## Parameters
 
 - `object`: The object to have an attribute removed.
 - `name`: The attribute to be removed from the object.
 
-## Example 1
+## Example
 
-Use `delattr()` to remove the `position` attribute from the `Person1` class:
+Use `delattr()` to remove the `position` attribute from the `Person` class:
 
 ```py
-class Person1:
-  name = "Harry"
-  age = "35"
+class Person:
+  name = "John Doe"
   position = "Professor"
 
-employee1 = Person1()
+person1 = Person()
+print(person1.position)
+# Output: Professor
 
-print("Employee Name: ", employee1.name)
-print("Employee Age: ", employee1.age)
-print("Employee Position: ", employee1.position)
+delattr(Person, "position")
+print(person1.position)
+# Output: AttributeError: 'Person' object has no attribute 'position'
+```
 
-delattr(Person1, "position")
+## Codebyte Example
 
-print("----  UPDATE  ----")
-print("Employee Name: ", employee1.name)
-print("Employee Age: ", employee1.age)
+In the example below, the `delattr()` function is used to remove an attribute from the `Travel` class. Uncommenting the last print statement will cause an `AttributeError` because the `third_stop` attribute is removed:
 
-# Will cause an AttributeError because attribute is removed
-print("Employee Position: ", employee1.position)
+```codebyte/python
+class Travel:
+  first_stop = "Barcelona"
+  second_stop = "Nice"
+  third_stop = "Rome"
+
+my_holiday = Travel()
+
+print("My first destinantion for my holiday is ", my_holiday.first_stop)
+print("My second destinantion for my holiday is ", my_holiday.second_stop)
+print("My third destinantion for my holiday is ", my_holiday.third_stop)
+
+delattr(Travel, "third_stop")
+print("My first destinantion for my holiday is ", my_holiday.first_stop)
+print("My second destinantion for my holiday is ", my_holiday.second_stop)
+
+# print("My third destinantion for my holiday is ", my_holiday.third_stop)
 ```
