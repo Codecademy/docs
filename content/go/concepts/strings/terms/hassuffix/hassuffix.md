@@ -19,7 +19,7 @@ The **`HasSuffix()`** function in Go is used to check if a specified suffix exis
 strings.HasSuffix(str, suffix)
 ```
 
-Where `str` is the given string and `suffix` is the suffix to check for.
+Where `str` is the given string and `suffix` is the ending substring to check for. This function is case-sensitive.
 
 ## Example
 
