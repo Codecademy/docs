@@ -1,18 +1,20 @@
 ---
 Title: 'freeze()'
-Description: 'Make table read-only.'
+Description: 'Makes a given table read-only.'
 Subjects:
-  - 'Programming Language'
+  - 'Computer Science'
+  - 'Game Development'
   
 Tags:
   - 'Tables'
   - 'Functions'
 CatalogContent:
   - 'learn-lua'
+  - 'paths/computer-science'
 
 ---
 
-Lua **`freeze()`** function freezes the provided table, and makes it read-only.
+The **`.freeze()`** function in Lua freezes the provided table, and makes it read-only.
 
 ## Syntax
 
@@ -20,13 +22,12 @@ Lua **`freeze()`** function freezes the provided table, and makes it read-only.
 table.freeze(f)
 ```
 
-The `freeze()` function attempts to freeze a specified non-frozen table named `f`. The function will fail if `f` is not a table or is already frozen.The function will
- Return the expected table `f`.
- This function helps to easily identify immutable functions for correctness purpose.
+The `.freeze()` function attempts to freeze a specified non-frozen table named `f`. The function will fail if `f` is not a table or is already frozen.
+This function helps to easily identify immutable functions.
 
 ## Example
 
-To freeze food in your fridge:
+Consider the following table:
 
 ```lua
 local frozen_table = table.freeze({
@@ -37,11 +38,17 @@ local frozen_table = table.freeze({
     "🍉"
 })
 ```
-We intiate a table `frozen_table` , then use the `freeze()` to freeze the table contents.
-Now if you run:
+The variable `frozen_table`  is instantiated with the `freeze()` method to make the contents read-only.
+Now, if an element is added:
 ```lua
-frozen_table[1] = "🍔" -- This will throw an error
+frozen_table[1] = "🍔" 
 ```
-The error is caused because because the `freeze()` method has made the table `read-only` and we cannot modify its contents.
+
+Output:
+```lua
+Error: Failed to modify frozen table
+```
+
+The error is thrown because the `freeze()` method has made the table read-only, so the contents cannot be modified.
 
 
