@@ -40,7 +40,7 @@ Use 2 to 3 sentences to explain the concept of for loops in Javascript to a 5 ye
 
 Another key to writing effective prompts is defining the purpose of the prompt. In other words, effectively defining the goal for the LLM to achieve. This can be done by specifying the tone, format and audience of the prompt.
 
-One area in which tone is important, is writing an email. For example, different tones would be used when writing an email to a sibling, versus one to someone's boss. Therefore, when asking an LLM to write a draft of an email, it is important to make sure it understands what tone is preferred.
+One area in which tone is important, is writing an email. For example, a different tone would be used when writing an email to a sibling, versus one to someone's boss. Therefore, when asking an LLM to write a draft of an email, it is important to make sure it understands what tone is preferred.
 
 In addition to specifying the tone, the format that an LLM will follow can be specified. In some situations it can be specified that the LLM use a bullet list, versus a series of paragraphs.
 
