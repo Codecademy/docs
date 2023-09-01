@@ -14,15 +14,15 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'paths/data-science'
 ---
 
-**Prompt Engineering** is a low-code solution to providing instructions to Artificial Intelligences (AIs). AIs are typically trained with large amounts of data. As a result, when an AI is given a task, it uses all this data to complete the task. Keep in mind, the task probably does not require that much data. This introduces a handful of issues. Such as hallucinations, or possibly using data that is irrelevant to completing the task. Prompt Engineering allows users to clearly define the guard rails in which the AI must follow in completing the task assigned to it.
+**Prompt Engineering** is an efficient solution to assembling instructions that will be provided to Artificial Intelligence Systems (AIS). AIs are typically trained with large amounts of data that is used to answer a prompt. As a result, when an AI is given a task, it uses all this data to complete the task. Keep in mind, the task probably does not require that much data. This introduces a handful of issues. Such as hallucinations, or possibly using data that is irrelevant to completing the task. Prompt Engineering allows users to clearly define the guard rails in which the AI must follow in completing the task assigned to it.
 
 ## General Tips to Writting a Good Prompt
 
 ### Use Clear Language
 
-When forming a prompt, it is important to be precise, yet concise in your instruction. This means being specific, while also trying to do so in the least amount of words. There are several benefits when following this strategy. The motivation for this requires a minimal understanding of how Large Language Models (LLMs) work.
+When forming a prompt, it is important to be precise, yet concise in your instruction. There are several benefits when following this strategy. One of which is that the AI can achieve it's task in an efficient manner without additional intervention. In addition, there is typically a monetary cost associated when interacting with an LLM. Therefore prompting an LLM with the least amount of words can provide immediate benefits in terms of upfront cost. Understanding the cost associated with prompting an AI requires a basic knowledge of LLMs.
 
-When an LLM is given a body of text it typically breaks this text into individual units or "tokens." It then processes these tokens in order to generate an answer. This computation comes at a cost, and is the reason why companies charge a certain amount of dollars per token, particularly when these tokens are being sent through some sort of API request. In these situations, having clear language can not only save money, but also directly affect the performance of the LLM.
+When an LLM is given a body of text it typically breaks this text into individual units or "tokens." These tokens are the base unit of information that is being sent to the LLM. You can think of a word as a token. Additional information about tokens can be found in [OpenAI's help docs](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them). It then processes these tokens in order to generate an answer. This computation comes at a cost, and is the reason why companies charge a certain amount of dollars per token, particularly when these tokens are being sent through some sort of API request. In these situations, having clear language can not only save money, but also directly affect the performance of the LLM.
 
 One example of using unclear language could be the following:
 
@@ -42,7 +42,7 @@ Another key to writing effective prompts is defining the purpose of the prompt. 
 
 One area in which tone is important, is writing an email. For example, a different tone would be used when writing an email to a sibling, versus one to someone's boss. Therefore, when asking an LLM to write a draft of an email, it is important to make sure it understands what tone is preferred.
 
-In addition to specifying the tone, the format that an LLM will follow can be specified. In some situations it can be specified that the LLM use a bullet list, versus a series of paragraphs.
+In addition to specifying the tone, you can also specify the format of the LLM's response. In some situations it can be specified that the LLM use a bullet list, versus a series of paragraphs.
 
 Finally, by specifying a possible audience, an LLM can even be more precise when generating text. For instance, an LLM will most likely provide additional details when writing an email for a professional audience, versus a less technical audience.
 
@@ -78,7 +78,7 @@ Provide translation and pronunciation instructions.
 In this instance, we are giving the LLM purpose by defining the familiarity with Spanish. The LLM will now craft a response knowing that it's audience is new to Spanish.
 
 ```
-Imagine yourself as a teacher and I'm your student. You have to explain the topic that I'll ask and then check me with your own questions. For example:
+Imagine yourself as a teacher and I'm your student. You have to explain the topic that I'll ask and then quiz me with your own questions. For example:
 
 You: Binary addition of two bits is done with two operators - AND and XOR. When adding two bits, the output's most significant bit is set to 1 if both bits are 1, and the least significant bit is set to 1 if either bit, but not both, are 1. For example: 0b1 + 0b1 = 0b10, 0b0 + 0b1 = 0b01. Is everything clear?
 Me: Yes.
@@ -96,6 +96,6 @@ And here are a few commands:
 If you understood everything, write "OK" and nothing else.
 ```
 
-This example is a little more advanced, but shows how an LLM can be a "low-code" solution. This prompt has built in commands in which we can adjust the context of the conversation dynamically.
+This example is a little more advanced, but shows how an LLM can be an efficient solution. This prompt has built in commands in which we can adjust the context of the conversation dynamically.
 
 This prompt also shows how the LLM can be trained to respond with a specific format.
