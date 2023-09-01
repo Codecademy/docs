@@ -18,7 +18,7 @@ The **`Acos()`** function returns the cos inverse value of the argument (in radi
 ## Syntax
 
 ```pseudo
-func Acos (x float64) float64
+result := math.Acos(x) 
 ```
 
 Notes on the Parameter:
