@@ -44,7 +44,7 @@ public class Program
 
 ## Codebyte Example
 
-  This codebyte demonstrates the `Math.tanh()` function :
+This codebyte demonstrates the `Math.tanh()` function :
 
 ```codebyte/csharp
 using System;

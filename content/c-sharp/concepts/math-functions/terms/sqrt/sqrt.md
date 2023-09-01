@@ -76,7 +76,8 @@ public class Example {
   }
 }
 ```
-```
+
+````
 
 ## Codebyte Example
 
@@ -95,4 +96,4 @@ namespace MysquareRoot {
     }
   }
 
-```
+````
