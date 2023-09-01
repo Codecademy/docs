@@ -23,17 +23,19 @@ In Lua, arrays can be created with curly braces `{}`. The convention for indexin
 ```lua
 a = {};  -- A new empty array
 
-for i = -3, 3 do
+for i = 1, 5 do
     a[i] = 0
 end
 
+print(a[5]) -- This will return 0
+print(a[6]) -- This will return nil because the index is out of range
 ```
 
-When the array is printed, it would display 100 values of 0 starting at an index of 1. However, if we try printing any value out of this range, our output will return **nil** instead. This is because **nil** refers to data that is not there, which in our case would be true because our example only stores 100 values.
+The array created by the `for` loop above contains 5 items, all of which are `0`. Any of these values can be accessed by passing an index. However, if a value is passed out of the range of the array (1-5), the code will return `nil`. This is because `nil` refers to missing data.
 
-## Accessing Elements within the Array
+## Accessing Elements
 
-To access an array element, we reference the desired value by its **index**. For example, to reference a value from the following array:
+To access an array element, the desired value is called by its _index_. For example, to reference a value from the following array:
 
 ```lua
 a = {
@@ -55,7 +57,7 @@ a = {
 print(a[2]) -- “🍌” [Banana]
 ```
 
-This can be done for every value within an array. This also works with **dictionaries**, but instead the assigned **key** must be used to retrieve a value. A key is essentially an index with the only difference being that a key may be assigned as any **datatype**, while an index can only come in the form of a number.
+This can be done for every value within an array. This also works with dictionaries, but instead the assigned _key_ must be used to retrieve a value. A _key_ is essentially an _index_ with the only difference being that a _key_ may be assigned as any type, while an _index_ must be a number.
 
 For example:
 
@@ -69,4 +71,32 @@ dictionary = {
 print(dictionary[“🍊”]) -- “Orange”
 ```
 
-It is important to note that Lua will not print the key of the dictionary being used, but will instead print the value related to the requested key. This behavior also applies to **Arrays**.
+It is important to note that Lua will not print the key of the dictionary being used, but will instead print the value related to the requested key. This behavior also applies to arrays.
+
+## Replacing Elements
+
+Values can also be reassigned by calling the relevant index and assigning the new value as demonstrated below.
+
+```lua
+a[2] = “🍊” -- Now the object at index is 2 is orange instead of banana
+```
+
+To remove an element, the index can be reassigned to `nil`.
+
+```lua
+a[2] = 'nil'
+```
+
+## Getting the Length of an Array
+
+Often it is valuable to access the length or size of an array. In Lua, the `#` symbol is prepended to the array to return the length.
+
+> **Note:** This syntax will return the last index, in some cases this may not be equivalent to the size of the array.
+
+```lua
+b = {2, 4, 6, 8}
+
+for i = 1, #b do -- This will cycle through and print each element of the array
+  print(i)
+end
+```
