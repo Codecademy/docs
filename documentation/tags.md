@@ -72,6 +72,7 @@ Constructors
 Continue
 Control Flow
 CRUD
+CSS
 CSV
 Cybersecurity
 D3
@@ -117,6 +118,7 @@ Events
 Exceptions
 Expo
 Express
+Extensions
 Favicon
 Files
 Filter
@@ -168,6 +170,7 @@ iOS
 Iterators
 Join
 jQuery
+JRuby
 JSON
 JSK
 K-Nearest Neighbors
@@ -233,11 +236,13 @@ Pointers
 Positioning
 PostgreSQL
 Precedence
+Preprocessor
 Primary Key
 Print
 Probability
 Promise
 Properties
+Protocols
 Queries
 Queues
 Quicksort
@@ -278,6 +283,7 @@ SQL Server
 Stacks
 Static Site
 Statistics
+Storage
 Stringr
 Strings
 Structure
