@@ -21,17 +21,16 @@ The **`Asinh()`** function returns the hyperbolic sine of an angle.
 result := math.Asinh(angle)
 ```
 
-Where `result` is the cosine value of `angle`, returned as a float, except under the following circumstances:
+The `Asinh()` function takes a type `float64` parameter, `angle`, an angle in radians. It returns the hyperbolic sine value of `angle` as a type of `float64`, except if  the value of `angle` is:
 
-- The result of `Cos(-Inf)` is `NaN`
-- The result of `Cos(+Inf)` is `NaN`
-- The result of `Cos(NaN)` is `NaN`
+- Not defined (`undefined`), then it returns `NaN`
+- Infinity or equivalent (`+Inf` or `-Inf`), then it returns `NaN`
 
-> **Note:** To use this function the `math` library must be imported.
+> **Note:** To use this function the `math` library must be imported first.
 
 ## Example
 
-The following calculates the cosine of `angle` and prints out the result:
+The following example first calculates the hyperbolic sine of `angle` in degrees and then prints out the result to the console:
 
 ```go
 package main
@@ -42,9 +41,9 @@ import (
 )
 
 func main() {
-  angle := math.Pi / 6
-  cosine := math.Cos(angle)
-  fmt.Printf("%.1f\n", cosine)
+  angle := 90
+  hyperbolicSine := math.Asinh(angle * math.Pi / 180) // Convert 90(in degrees) to radians
+  fmt.Printf("%.1f\n", "The hyperbolic sine of", angle, "degrees is", hyperbolicSine)
 }
 ```
 
@@ -56,7 +55,7 @@ The output will be:
 
 ## Codebyte Example
 
-The following example is runnable and shows how the `Cos()` function handles infinite values.
+The following example is runnable and shows how the `Asinh()` function handles infinite values.
 
 ```codebyte/golang
 package main
