@@ -21,7 +21,6 @@ table.freeze(f)
 ```
 
 The `.freeze()` function attempts to freeze a specified non-frozen table named `f`. The function will fail if `f` is not a table or is already frozen.
- This function helps to easily identify immutable functions.
 
 ## Example
 
@@ -37,17 +36,18 @@ local frozen_table = table.freeze({
 })
 ```
 
-The variable `frozen_table`  is instantiated with the `freeze()` method to make the contents read-only.
+The variable `frozen_table` is instantiated with the `.freeze()` method to make the contents read-only.
 
 Now, if an element is added:
+
 ```lua
-frozen_table[1] = "🍔" 
+frozen_table[1] = "🍔"
 ```
 
-Output:
-```lua
+The code will return the following output:
+
+```shell
 Error: Frozen table cannot be modified
 ```
-The error is thrown because the `freeze()` method has made the table read-only, so the contents cannot be modified.
 
-
+The error is thrown because the method has made the table read-only, so the contents cannot be modified.
