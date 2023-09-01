@@ -75,23 +75,22 @@ public class Example {
     Console.WriteLine("The square root of " + number + " is " + squareRoot);
   }
 }
-
+```
 ## Codebyte Example
 
-The code below demonstrates that  when an argument ('x') is negative the method would return Nan with the use of `Math.sqrt()` function.
+The code below demonstrates that  when an argument ('x') is negative  the `.sqrt()` method would return `Nan` :
 
 ```codebyte/csharp
 using System;
 
- namespace MysquareRoot {
-    public class Example {
-        public static void Main()
-        {
-            double x = -81;
-
-            Console.Write(Math.Sqrt(x));
-        }
+namespace MysquareRoot {
+  public class Example {
+    public static void Main()
+      {
+        double x = -81;
+        Console.Write(Math.Sqrt(x));
+      }
     }
- }
+  }
 
 ```
