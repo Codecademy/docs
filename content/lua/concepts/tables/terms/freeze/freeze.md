@@ -41,7 +41,12 @@ The variable `frozen_table`  is instantiated with the `freeze()` method to make 
 
 Now, if an element is added:
 ```lua
-frozen_table[1] = "🍔" -- This will throw an error
+frozen_table[1] = "🍔" 
+```
+
+Output:
+```lua
+Error: Frozen table cannot be modified
 ```
 The error is thrown because the `freeze()` method has made the table read-only, so the contents cannot be modified.
 
