@@ -40,8 +40,9 @@ public class Program
     Console.WriteLine(y);
     // Output: 0.9640275800758169
   }
+```
 
-  ## Codebyte Example
+## Codebyte Example
 
   This codebyte demonstrates the `Math.tanh()` function :
 
