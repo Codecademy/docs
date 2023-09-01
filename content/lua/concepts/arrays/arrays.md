@@ -12,26 +12,24 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'paths/computer-science'
 ---
 
-# Arrays
+**Arrays** are ordered collections for storing data. In Lua, all of the widely used programming containers (arrays, queues, sets, etc) are implemented by a single structure known as a table.
 
-**Arrays** are tables of ordered, stored **data**. They can hold any type of data, and can be cleared with `nil` values.
+Arrays can hold any type of data, can be accessed and modified using the common indexing syntax (`[]`), and can be cleared through the assignment of `nil`.
 
 ## Syntax
 
-In Lua, Arrays can be created with curly braces `{}`. When storing values, arrays will automatically order values starting from `0` unless specified otherwise. For instance, the following code will store 100 values using an `iteration`.
+In Lua, arrays can be created with curly braces `{}`. The convention for indexing across Lua libraries is to begin with `1` in lieu of `0`. By default, arrays designate the first item in an array as index `1`. However, arrays can be created to use any custom set of indices prescribed.
 
 ```lua
+a = {};  -- A new empty array
 
-a = {};
-
-for i = 1, 100 do
+for i = -3, 3 do
     a[i] = 0
 end
 
 ```
 
 When the array is printed, it would display 100 values of 0 starting at an index of 1. However, if we try printing any value out of this range, our output will return **nil** instead. This is because **nil** refers to data that is not there, which in our case would be true because our example only stores 100 values.
-
 
 ## Accessing Elements within the Array
 
@@ -70,5 +68,5 @@ dictionary = {
 
 print(dictionary[“🍊”]) -- “Orange”
 ```
-  
+
 It is important to note that Lua will not print the key of the dictionary being used, but will instead print the value related to the requested key. This behavior also applies to **Arrays**.
