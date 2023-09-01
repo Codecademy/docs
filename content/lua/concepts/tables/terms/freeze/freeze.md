@@ -12,7 +12,7 @@ CatalogContent:
  - 'paths/computer-science'
 ---
 
-Lua **`freeze()`** function freezes the provided table, and makes it read-only.
+The **`.freeze()`** function in Lua freezes the provided table, and makes it read-only.
 
 ## Syntax
 
