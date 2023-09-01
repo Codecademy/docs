@@ -25,7 +25,7 @@ The `.freeze()` function attempts to freeze a specified non-frozen table named `
 
 ## Example
 
-To freeze food in your fridge:
+Consider the following table:
 
 ```lua
 local frozen_table = table.freeze({
