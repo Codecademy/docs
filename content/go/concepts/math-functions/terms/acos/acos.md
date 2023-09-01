@@ -13,23 +13,24 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Acos()`** function returns the cos inverse value of the argument (in radians). The same value is single and of the type float64.
+The **`Acos()`** function returns the arccosine, also known as the inverse cosine, value of the argument (in radians).
 
 ## Syntax
 
 ```pseudo
-result := math.Acos(x) 
+result := math.Acos(x)
 ```
 
-Notes on the Parameter:
+Notes on the parameter:
 
 - `x` is the value whose arccosine value is to be found.
 - The range must be between `-1` and `1`.
-- If the parameter is either less than -1 or greater than 1, it returns `NaN`.
+- If the parameter is either less than `-1` or greater than `1` it returns `NaN`.
+- The value returned will be of type `float64`.
 
 ## Example
 
-The following calculates the arccosine and prints out the result:
+The following code calculates the arccosine and prints out the result:
 
 ```go
 package main
