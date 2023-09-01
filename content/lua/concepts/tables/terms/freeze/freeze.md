@@ -3,13 +3,13 @@ Title: 'freeze()'
 Description: 'Makes a given table read-only.'
 Subjects:
   - 'Computer Science'
-  - 'Game Development' 
+  - 'Game Development'
 Tags:
   - 'Tables'
   - 'Functions'
 CatalogContent:
   - 'learn-lua'
- - 'paths/computer-science'
+  - 'paths/computer-science'
 ---
 
 The **`.freeze()`** function in Lua freezes the provided table, and makes it read-only.
