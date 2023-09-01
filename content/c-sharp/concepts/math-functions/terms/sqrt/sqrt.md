@@ -76,6 +76,7 @@ public class Example {
   }
 }
 ```
+
 ## Codebyte Example
 
 The code below demonstrates that  when an argument ('x') is negative  the `.sqrt()` method would return `Nan` :
