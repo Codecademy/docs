@@ -23,9 +23,9 @@ func Acos (x float64) float64
 
 Notes on the Parameter:
 
-- `x` is the value whose arccosine value is to be found
-- the range must be between `-1` and `1`
-- If the parameter is either less than 0 or greater than 0, it returns `NaN` - as in this equation: `Acos(x) = NaN if x < -1 or x > 1`
+- `x` is the value whose arccosine value is to be found.
+- The range must be between `-1` and `1`.
+- If the parameter is either less than -1 or greater than 1, it returns `NaN`.
 
 ## Example
 
