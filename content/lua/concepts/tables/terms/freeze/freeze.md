@@ -43,6 +43,6 @@ Now, if an element is added:
 ```lua
 frozen_table[1] = "🍔" -- This will throw an error
 ```
-The error is caused because because the `freeze()` method has made the table `read-only` and we cannot modify its contents.
+The error is thrown because the `freeze()` method has made the table read-only, so the contents cannot be modified.
 
 
