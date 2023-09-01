@@ -9,7 +9,7 @@ Tags:
   - 'Functions'
 CatalogContent:
   - 'learn-lua'
-
+ - 'paths/computer-science'
 ---
 
 Lua **`freeze()`** function freezes the provided table, and makes it read-only.
