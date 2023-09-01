@@ -21,7 +21,7 @@ The **`Acos()`** function returns the cos inverse value of the argument (in radi
 func Acos (x float64) float64
 ```
 
-## Notes on the Parameter(s)
+Notes on the Parameter:
 
 - `x` is the value whose arccosine value is to be found
 - the range must be between `-1` and `1`
