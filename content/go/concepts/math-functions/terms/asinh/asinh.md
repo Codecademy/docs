@@ -1,6 +1,6 @@
 ---
 Title: 'Asinh()'
-Description: 'Returns the cosine of the given angle.'
+Description: 'Returns the hyperbolic sine of an angle.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Asinh()`** function returns the cosine of the given angle (in radians). The `math` library must be imported in order to use this function.
+The **`Asinh()`** function returns the hyperbolic sine of an angle.
 
 ## Syntax
 
@@ -26,6 +26,8 @@ Where `result` is the cosine value of `angle`, returned as a float, except under
 - The result of `Cos(-Inf)` is `NaN`
 - The result of `Cos(+Inf)` is `NaN`
 - The result of `Cos(NaN)` is `NaN`
+
+> **Note:** To use this function the `math` library must be imported.
 
 ## Example
 
