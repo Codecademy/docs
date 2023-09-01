@@ -36,8 +36,10 @@ local frozen_table = table.freeze({
     "🍉"
 })
 ```
-We intiate a table `frozen_table` , then use the `freeze()` to freeze the table contents.
-Now if you run:
+
+The variable `frozen_table`  is instantiated with the `freeze()` method to make the contents read-only.
+
+Now, if an element is added:
 ```lua
 frozen_table[1] = "🍔" -- This will throw an error
 ```
