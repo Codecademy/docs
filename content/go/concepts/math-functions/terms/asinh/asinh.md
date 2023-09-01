@@ -1,6 +1,6 @@
 ---
 Title: 'Asinh()'
-Description: 'Returns the hyperbolic sine of an angle.'
+Description: 'Returns the inverse hyperbolic sine of an angle.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Asinh()`** function returns the hyperbolic sine of an angle.
+The **`Asinh()`** function returns the inverse hyperbolic sine of an angle.
 
 ## Syntax
 
@@ -30,7 +30,7 @@ The `Asinh()` function takes a type `float64` parameter, `angle`, an angle in ra
 
 ## Example
 
-The following example first calculates the hyperbolic sine of `angle` in degrees and then prints out the result to the console:
+The following example first calculates the inverse hyperbolic sine of `angle` in degrees and then prints out the result to the console:
 
 ```go
 package main
@@ -41,21 +41,23 @@ import (
 )
 
 func main() {
-  angle := 90
-  hyperbolicSine := math.Asinh(angle * math.Pi / 180) // Convert 90(in degrees) to radians
-  fmt.Printf("%.1f\n", "The hyperbolic sine of", angle, "degrees is", hyperbolicSine)
+  angleInDegree := 30.0
+  angleInRadian := angleInDegree * math.Pi / 180
+  
+  hyperbolicSine := math.Asinh(angleInRadian)
+  fmt.Printf("The inverse hyperbolic sine of %f degrees is %f\n", angleInDegree, hyperbolicSine)
 }
 ```
 
 The output will be:
 
 ```shell
-0.9
+The inverse hyperbolic sine of 30.000000 degrees is 0.502219
 ```
 
 ## Codebyte Example
 
-The following example is runnable and shows how the `Asinh()` function handles infinite values.
+The following example is runnable and demonstrates the usage of the `Asinh()` function with two values: an infinite value and `60.0 degrees`.
 
 ```codebyte/golang
 package main
@@ -66,13 +68,14 @@ import (
 )
 
 func main() {
-  positiveInfinity := math.Inf(1)
-  negativeInfinity := math.Inf(-1)
+  angleInfinity := math.Inf(1)
+  angle := 180.0
+  angleInRadian := angle * math.Pi / 180
 
-  cosPositiveInf := math.Cos(positiveInfinity)
-  cosNegativeInf := math.Cos(negativeInfinity)
+  resultInfinity := math.Asinh(angleInfinity)
+  resultAngle := math.Asinh(angleInRadian)
 
-  fmt.Printf("The cosine of positive infinity: %f\n", cosPositiveInf)
-  fmt.Printf("The cosine of negative infinity: %f\n", cosNegativeInf)
+  fmt.Printf("The inverse hyperbolic sine of positive infinity is: %.1f\n", resultInfinity)
+  fmt.Printf("The inverse hyperbolic sine of %.1f is: %.1f\n", angle, resultAngle)
 }
 ```
