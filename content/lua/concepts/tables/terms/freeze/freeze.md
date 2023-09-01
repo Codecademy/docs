@@ -2,8 +2,8 @@
 Title: 'freeze()'
 Description: 'Make table read-only.'
 Subjects:
-  - 'Programming Language'
-  
+  - 'Computer Science'
+  - 'Game Development' 
 Tags:
   - 'Tables'
   - 'Functions'
