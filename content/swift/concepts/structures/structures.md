@@ -30,7 +30,6 @@ struct Building {
 
 > **Note:** All stored properties of structures must conform to [Hashable]{https://developer.apple.com/documentation/swift/hashable} Protocol.
 
-
 ## Default Property Values
 
 A structure’s properties can have preassigned default values to avoid assigning values during initialization. Optionally, these properties' values can still be assigned a value during initialization.
