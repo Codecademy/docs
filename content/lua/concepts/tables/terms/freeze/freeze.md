@@ -20,7 +20,7 @@ The **`.freeze()`** function in Lua freezes the provided table, and makes it rea
 table.freeze(f)
 ```
 
-The `freeze()` function attempts to freeze a specified non-frozen table named `f`. The function will fail if `f` is not a table or is already frozen.The function will
+The `.freeze()` function attempts to freeze a specified non-frozen table named `f`. The function will fail if `f` is not a table or is already frozen.
  Return the expected table `f`.
  This function helps to easily identify immutable functions for correctness purpose.
 
