@@ -72,6 +72,7 @@ Constructors
 Continue
 Control Flow
 CRUD
+CSS
 CSV
 Cybersecurity
 D3
@@ -83,6 +84,7 @@ Date
 Debugging
 Decorators
 Deep Learning
+Denoising
 Dependency
 Developer Tools
 Development
@@ -116,6 +118,7 @@ Events
 Exceptions
 Expo
 Express
+Extensions
 Favicon
 Files
 Filter
@@ -156,6 +159,7 @@ Id
 IDE
 If
 Images
+Image Generation Model
 Index
 Infrastructure
 Inheritance
@@ -166,6 +170,7 @@ iOS
 Iterators
 Join
 jQuery
+JRuby
 JSON
 JSK
 K-Nearest Neighbors
@@ -231,11 +236,13 @@ Pointers
 Positioning
 PostgreSQL
 Precedence
+Preprocessor
 Primary Key
 Print
 Probability
 Promise
 Properties
+Protocols
 Queries
 Queues
 Quicksort
@@ -276,6 +283,7 @@ SQL Server
 Stacks
 Static Site
 Statistics
+Storage
 Stringr
 Strings
 Structure
@@ -293,6 +301,7 @@ Target
 Technical Interviews
 Templates
 TensorFlow
+Text-To-Image
 Tidyr
 Time
 Title
