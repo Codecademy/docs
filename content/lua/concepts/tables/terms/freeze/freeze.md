@@ -1,6 +1,6 @@
 ---
 Title: 'freeze()'
-Description: 'Make table read-only.'
+Description: 'Makes a given table read-only.'
 Subjects:
   - 'Computer Science'
   - 'Game Development' 
