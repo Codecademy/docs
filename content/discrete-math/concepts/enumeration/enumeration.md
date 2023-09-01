@@ -40,7 +40,7 @@ In the context of combinations and probability, the necessity of finding a count
 
 The formula:
 
-```plaintext
+```tex
 n(A ꓴ B) = n(A) + n(B) - n(A ꓵ B)
 ```
 
