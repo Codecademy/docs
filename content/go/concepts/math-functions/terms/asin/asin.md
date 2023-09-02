@@ -1,6 +1,6 @@
 ---
 Title: 'Asin()'
-Description: 'Returns the inverse sine of a numeric value.'
+Description: 'Returns the inverse sine of a number.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Asin()`** function returns the inverse sine of a numeric value.
+The **`Asin()`** function returns the inverse sine of a number.
 
 ## Syntax
 
@@ -21,9 +21,9 @@ The **`Asin()`** function returns the inverse sine of a numeric value.
 result := math.Asin(number)
 ```
 
-The `Asin()` function takes a type `float64` parameter, `number`, which must be within the range of `-1` and `1` (inclusive).
+The `Asin()` function takes one parameter, `number`, a type of `float64`, which must be within the range of `-1` and `1` (inclusive).
 
-The `Asin()` function returns the inverse sine (also known as arcsine) value of `number` as a `float64`. This returned value represents an angle in radians whose sine equals the `number`. If the value of `number` is:
+The `Asin()` function returns a number, the inverse sine (also known as arcsine) value of `number` as a `float64`. This returned value represents an angle in radians whose sine equals the `number`. If the value of `number` is:
 
 - Zero (`0`), then it returns `0`
 - Less than `-1`, then it returns `NAN` (Not a Number)
