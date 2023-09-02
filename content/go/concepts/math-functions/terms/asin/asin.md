@@ -1,6 +1,6 @@
 ---
-Title: 'Asinh()'
-Description: 'Returns the inverse hyperbolic sine of an angle.'
+Title: 'Asin()'
+Description: 'Returns the inverse sine of a numeric value.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -13,25 +13,27 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Asinh()`** function returns the inverse hyperbolic sine of an angle.
+The **`Asin()`** function returns the inverse sine of a numeric value.
 
 ## Syntax
 
 ```pseudo
-result := math.Asinh(angle)
+result := math.Asin(number)
 ```
 
-The `Asinh()` function takes a type `float64` parameter, `angle`, an angle in radians. It returns the hyperbolic sine value of `angle` as a type of `float64`, except if the value of `angle` is:
+The `Asin()` function takes a type `float64` parameter, `number`, which must be within the range from `-1` and `1` (inclusive).
 
-- Not defined (`undefined`), then it returns `NaN`
-- Positive infinity or equivalent, then it returns `+Inf`
-- Negative infinity or equivalent, then it returns `-Inf`
+The `Asin()` function returns the inverse sine (also known as arcsine) value of `number` as a `float64`. This returned value represents an angle in radians whose sine is equal to the `number`. If the value of `number` is:
+
+- Zero (`0`), then it returns `0`
+- Less than `-1`, then it returns `NAN`
+- Greater than `1`, then it returns `NAN`
 
 > **Note:** The [`math`](https://www.codecademy.com/resources/docs/go/math-functions) library must be imported first to use this function.
 
 ## Example
 
-The following example first calculates the inverse hyperbolic sine of `angle` in degrees and then prints out the result to the console:
+The following example first calculates the inverse sine of `num` and then prints out the result to the console:
 
 ```go
 package main
@@ -42,23 +44,22 @@ import (
 )
 
 func main() {
-  angleInDegree := 30.0
-  angleInRadian := angleInDegree * math.Pi / 180
+  num := 0.9
   
-  hyperbolicSine := math.Asinh(angleInRadian)
-  fmt.Printf("The inverse hyperbolic sine of %f degrees is %f\n", angleInDegree, hyperbolicSine)
+  inverseSine := math.Asin(num)
+  fmt.Printf("The inverse sine of %f is %f\n", num, inverseSine)
 }
 ```
 
 The output will be:
 
 ```shell
-The inverse hyperbolic sine of 30.000000 degrees is 0.502219
+The inverse sine of 0.900000 is 1.119770
 ```
 
 ## Codebyte Example
 
-The following example is runnable and demonstrates the usage of the `Asinh()` function with two values: a negative infinite value and `60.0 degrees`.
+The following example is runnable and demonstrates the usage of the `Asin()` function with two values: `1.1` and `0`.
 
 ```codebyte/golang
 package main
@@ -69,14 +70,13 @@ import (
 )
 
 func main() {
-  angleInfinity := math.Inf(-1)
-  angle := 180.0
-  angleInRadian := angle * math.Pi / 180
+  notInRange := 1.1
+  zero:= 0.0
 
-  resultInfinity := math.Asinh(angleInfinity)
-  resultAngle := math.Asinh(angleInRadian)
+  resultNotInRange := math.Asin(notInRange)
+  resultZero := math.Asin(zero)
 
-  fmt.Printf("The inverse hyperbolic sine of negative infinity is: %.1f\n", resultInfinity)
-  fmt.Printf("The inverse hyperbolic sine of %.1f is: %.1f\n", angle, resultAngle)
+  fmt.Printf("The inverse sine of %.1f is: %.1f\n", notInRange, resultNotInRange)
+  fmt.Printf("The inverse sine of %.1f is: %.1f\n", zero, resultZero)
 }
 ```
