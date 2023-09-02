@@ -17,12 +17,15 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 ## Syntax
 
 ```psuedo
-stringvar = string.lower("HOw Now Brown CoW")
+string.lower( s )
 ```
+Where *s* is a string.
+
+Returns a copy of s with letters that are uppercase in the current locale are converted to lowercase. The string s is unmodified.
+
 # Example
 ```
 stringvar = string.lower("HOw Now Brown CoW?")
 print(stringvar)
-
--- prints "how now brown cow?"
 ```
+prints "how now brown cow?"
