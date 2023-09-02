@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.getTime()`** method of the `Calendar` class returns a `Date` object that represents the time value of the `Calendar` object.
+The **`.getTime()`** method of the `Calendar` class returns a `Date` object that represents the time value of the `Calendar` class's object.
 
 ## Syntax
 
