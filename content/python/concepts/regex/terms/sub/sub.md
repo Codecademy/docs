@@ -66,7 +66,7 @@ import re
 confidential_str = '''The suspect's bank account (#333344444) and pin (#9999) were found in his cell'''
 
 redacted = re.sub(r'\d+', 'REDACTED', confidential_str)
-# \d mathes any numerical character
+# \d matches any numerical character
 
 print(redacted)
 ```
