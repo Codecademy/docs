@@ -36,12 +36,12 @@ public class CalendarGetWeekYearExample{
     // Create a Calendar instance
     Calendar calendar = Calendar.getInstance();
 
-    // Get the current time in weakyear
-    long currentWeekYear = calendar.getWeakYear();
+    // Get the current time in weekyear
+    long currentWeekYear = calendar.getWeekYear();
 
 
     // Prints current time in week year
-    System.out.println("Current Weak Year: " + currentWeekYear);
+    System.out.println("Current Week Year: " + currentWeekYear);
   }
 }
 ```
