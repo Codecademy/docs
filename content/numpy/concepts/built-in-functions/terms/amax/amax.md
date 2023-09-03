@@ -73,7 +73,7 @@ randnums= np.random.randint(1,20, size=(2,8))
 
 print("Your randomised 2-dimensional array of integers is:")
 print(randnums)
-print("The maximum value contained in the the flattened array is:")
+print("The maximum value contained in the flattened array is:")
 print(np.amax(randnums))
 
 print("Returns maxima along first axis (axis=0):")
