@@ -1,7 +1,6 @@
 ---
 Title: 'Congruences'
-Description: 'Congruences refer to the relationship between two integers a and b when they have the same remainder after
-division by positive integer m that is greater than 1.'
+Description: 'Congruences refer to the relationship between two integers a and b when they have the same remainder after division by positive integer m that is greater than 1.'
 Subjects:
   - 'Computer Science'
   - 'Discrete Math'
@@ -15,12 +14,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Congruences** refer to the relationship between two integers, _a_ and _b_, that have the same remainder after division
-by positive integer, _m_, that is greater than 1.
+**Congruences** refer to the relationship between two integers, _a_ and _b_, that have the same remainder after division by a positive integer, _m_ (which is greater than 1).
 
 ## _a_ divides _b_
 
-If _a_ and _b_ are integers with a ≠ 0 then _a_ divides _b_ if an integer _c_, exists given that _b = ac_.
+If _a_ and _b_ are integers where a ≠ 0, then _a_ divides _b_ if an integer _c_ exists given that _b = ac_.
 
 Explanation:
 
@@ -51,13 +49,11 @@ Solution: $$17 \equiv 5 \pmod{6}$$ because 6 divides $$17 - 5 = 12$$
 
 ## Congruence Properties
 
-Congruence properties pertain to the equivalence relation between integers where two numbers share the same remainder 
-when divided by a fixed positive integer.
+Congruence properties pertain to the equivalence relation between integers where two numbers share the same remainder when divided by a fixed positive integer.
 
 ### Linear Congruences
 
-Linear Congrences is a special form of congruence denoted by $$ax \equiv b \pmod{m}$$, where _x_ denotes an integer
-variable. Similar to previous cases of congruence, _a_ and _b_ are integers and _m_ is modulo.
+Linear congruence is a special form of congruence denoted by $$ax \equiv b \pmod{m}$$, where _x_ denotes an integer variable. Similar to previous cases of congruence, _a_ and _b_ are integers and _m_ is modulo.
 
 Here, _m_ is a positive integer. Solution of congruence stands for all the values of integer _x_ which are satisfied.
 
