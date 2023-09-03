@@ -9,7 +9,7 @@ Tags:
   - 'Functions'
 CatalogContent:
   - 'learn-lua'
- - 'paths/computer-science'
+  - 'paths/computer-science'
 ---
 
 **`table.shallow_copy`** creates a new table and clones all key/value pairs.
@@ -40,11 +40,11 @@ print("Cloned Table: ", clone)
 ```
 
 Output:
+
 ```lua
-Original Table: 	table: 0x7f8d1b40c5c0
-Cloned Table: 	    table: 0x7f8d1b40c6a0
+Original Table: table: 0x7f8d1b40c5c0
+Cloned Table: table: 0x7f8d1b40c6a0
 
 ```
+
 In this example, we define a table called `original` with three key/value pairs. We then use `table.shallow_copy` to create a new table called `clone` that is a shallow copy of `original`. Finally, we print both tables to confirm that they are different tables in memory.
-
-
