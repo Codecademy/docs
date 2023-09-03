@@ -25,9 +25,9 @@ If _a_ and _b_ are integers with a ≠ 0 then _a_ divides _b_ if an integer _c_,
 Explanation:
 
 - When _a_ divides _b_, it is denoted as _a_ | _b_.
-- _a_ is termed as factor or divisor of _b_ while _b_ is termed as multiple of _a_.
+- _a_ is termed as a factor or divisor of _b_, while _b_ is termed as multiple of _a_.
 - If _a_ | _b_ then _b_ / _a_ is an integer (According to _a_ divides _b_).
-- If a does not divide b, it is denoted with a ⋮ b
+- If _a_ does not divide _b_, it is denoted with _a_ ⋮ _b_
 
 ## _a_ is congruent to _b_ mod _m_
 
@@ -35,10 +35,10 @@ If _a_ and _b_ are integers and _m_ is a positive integer, then _a_ is congruent
 
 Explanation:
 
-- The notation $$a \equiv b \pmod{m}$$ says that a is congruent to b modulo m.
-- m stands for modulus.
-- Two integers are congruent mod m if and only if they have the same remainder remainder on being divided by m.
-- If a is not congruent to b modulo m then it is denoted by $$a \not\equiv b \pmod{m}$$.
+- The notation $$a \equiv b \pmod{m}$$ says that _a_ is congruent to _b_ modulo _m_.
+- _m_ stands for modulus.
+- Two integers are congruent mod _m_ if and only if they have the same remainder remainder on being divided by _m_.
+- If _a_ is not congruent to _b_ modulo _m_ then it is denoted by $$a \not\equiv b \pmod{m}$$.
 
 ### Example
 
