@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.getWeekYear()`** method of the `Calendar` class returns the time represented by a `Calendar` object in the form of weak year.
+The **`.getWeekYear()`** method of the `Calendar` class returns the time represented by a `Calendar` object in the form of week year.
 
 ## Syntax
 
@@ -49,5 +49,5 @@ public class CalendarGetWeekYearExample{
 The output should be similar to:
 
 ```shell
-Current Weak Year: 2023
+Current Week Year: 2023
 ```
