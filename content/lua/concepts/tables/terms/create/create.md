@@ -20,7 +20,9 @@ The **`.create()`** function generates a new table with a specified value repeat
 table.create(value, amount)
 ```
 
-The `create` function is used to generate a new table with a specified value repeated a certain number of times. This function is helpful when you need to initialize a table with a repetitive pattern of values.
+**value** : This parameter represents the value you want to populate the table with.
+
+**amount** : This parameter specifies how many times you want to repeat the **value** in the table.
 
 ## Example
 
