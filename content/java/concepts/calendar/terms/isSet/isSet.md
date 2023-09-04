@@ -13,16 +13,14 @@ CatalogContent:
 
 The **`.isSet()`** method in `Calendar` class is used to check whether the given calendar field has a value set or not. This method returns `true` if the given calendar field has a value set, `false` otherwise. It returns true when the given parameter has been set by internal field interpretations. `isSet()` method is a non-static method, it is accessible with the class object.
 
-
-
 ## Syntax
 
 ```pseudo
 result = myCalendar.isSet(calendar_field)
 ```
 
-**Parameters:** The method takes one parameter calndr_field that refers to the calendar field which is to be operated upon.
-**Return Value:** The method either returns True if the value of the calendar field is set else it returns False.
+Parameters: The method takes one parameter calndr_field that refers to the `calendar_field` which is to be operated upon.
+Return Value: The method either returns `true` if the value of the calendar field is set, else it returns `false`.
 
 > **Note:** Please note that the `Calendar` class has been replaced by the `LocalDate`, `LocalTime`, and `LocalDateTime` classes in the Java 8 and later Date and Time API. These classes provide a more modern and user-friendly API for working with dates and times in Java.
 
