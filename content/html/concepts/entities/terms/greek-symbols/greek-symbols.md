@@ -1,6 +1,6 @@
 ---
 Title: 'Greek Symbols'
-Description: 'Greek symbols are frequently employed in scientific, mathematical, and technological applications. They can be used via HTML entities.'
+Description: 'Used in scientific, mathematical, and technological applications.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
