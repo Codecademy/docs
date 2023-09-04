@@ -18,7 +18,7 @@ An **interface** in C# is a contract that defines a set of methods, properties, 
 
 ### Syntax
 
-To create an interface in C#, you use the `interface` keyword. The syntax for defining an interface in C# is:
+An interface in C# is created using the `interface` keyword. The syntax for defining an interface in C# is:
 
 ```
 interface MyInterface
