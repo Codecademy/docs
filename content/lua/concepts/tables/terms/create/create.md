@@ -30,10 +30,12 @@ Consider the following table:
 
 ```lua
 local newTable = table.create("Hello", 3)
+console.log(newTable)
 ```
+
 
 After executing this code, the newTable will contain the following elements:
 
 ```shell
-newTable = {"Hello", "Hello", "Hello"}
+{"Hello", "Hello", "Hello"}
 ```
