@@ -14,7 +14,6 @@ CatalogContent:
 
 **Greek symbols** are frequently employed in scientific, mathematical, and technological applications. They can be used via HTML entities and by using Unicode values.
 
-
 ## Example
 
 Using the HTML entity to display the Greek letter "alpha":
