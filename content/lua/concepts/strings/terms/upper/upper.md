@@ -16,7 +16,7 @@ The **`.upper()`** function converts a string to uppercase.
 
 ## Syntax
 
-```lua
+```shell
 string.upper(string)
 ```
 The `.upper()` function will convert all letters of a specified string to uppercase. Numbers and punctuation will remain unaffected.
