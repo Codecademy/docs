@@ -12,7 +12,7 @@ CatalogContent:
  - 'paths/computer-science'
 ---
 
-The **.create()** function in Lua Tables generates a new table with a specified value repeated a given number of times.
+The **`.create()`** function generates a new table with a specified value repeated a given number of times.
 
 ## Syntax
 
