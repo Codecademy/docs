@@ -30,17 +30,17 @@ The following example demonstrates the use of the `strings.ToLower()` function.
 package main
 
 import (
-    "fmt"
-    "strings"
+  "fmt"
+  "strings"
 )
 
 func main() {
-    str := "Hello World!"
+  str := "Hello World!"
 
-    lowerStr := strings.ToLower(str)
+  lowerStr := strings.ToLower(str)
 
-    fmt.Println("The original string is:", str)
-    fmt.Println("The lowercase version of the string is:", lowerStr)
+  fmt.Println("The original string is:", str)
+  fmt.Println("The lowercase version of the string is:", lowerStr)
 }
 ```
 
@@ -59,24 +59,24 @@ The following example is runnable and uses the `strings.ToLower()` function to c
 package main
 
 import (
-	"fmt"
-	"strings"
+  "fmt"
+  "strings"
 )
 
 func main() {
 
-	str1 := "wELcomE tO CodeCademy!"
+  str1 := "wELcomE tO CodeCademy!"
 	str2 := "This iS An EXAmpLE oF StrinG funCTion"
-	str3 := "GOLANG" 
+  str3 := "GOLANG" 
 
-	res1 := strings.ToLower(str1)
-	res2 := strings.ToLower(str2)
-	res3 := strings.ToLower(str3)
+  res1 := strings.ToLower(str1)
+  res2 := strings.ToLower(str2)
+  res3 := strings.ToLower(str3)
 
-	fmt.Println("\nLowercase Strings :")
-	fmt.Println("Result 1: ", res1)
+  fmt.Println("\nLowercase Strings :")
+  fmt.Println("Result 1: ", res1)
 	fmt.Println("Result 2:", res2)
-	fmt.Println("Result 3:", res3)
+  fmt.Println("Result 3:", res3)
 }
 
 ```
