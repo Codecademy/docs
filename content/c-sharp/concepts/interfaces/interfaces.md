@@ -51,7 +51,8 @@ class MyClass : MyInterface
 
 ### Example
 
-The following examples show various comment styles:
+The following example shows implementation of an interface:
+
 
 ```cs
 // Create an interface called IAnimal
