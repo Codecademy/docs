@@ -20,7 +20,7 @@ The **`strings.Compare()`** function is a built-in function in Golang that compa
 strings.Compare(str1, str2)
 ```
 
-Where `str1` and `str2` are the two strings to be compared.
+Where `str1` and `str2` are the two strings to be compared:
 
 - If the two strings are equal, the function returns `0`.
 - If the first string is lexicographically less than the second string, the function returns a `negative` value.
