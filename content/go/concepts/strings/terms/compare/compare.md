@@ -82,5 +82,4 @@ func main() {
   fmt.Println("The result of comparing 'Hello' and 'Hello World' is:", result2)
   fmt.Println("The result of comparing 'World' and 'Hello World' is:", result3)
 }
-
 ```
