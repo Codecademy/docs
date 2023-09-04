@@ -12,7 +12,6 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 ---
 
 The **`.upper()`** function converts a string to uppercase.
-[A brief definition - make sure first mention of term is in **bold**.]
 
 ## Syntax
 
@@ -20,8 +19,6 @@ The **`.upper()`** function converts a string to uppercase.
 string.upper(string)
 ```
 The `.upper()` function will convert all letters of a specified string to uppercase. Numbers and punctuation will remain unaffected.
-
-[Text, code, images, parameters, etc. about the syntax]
 
 ## Example
 
@@ -35,30 +32,10 @@ print(myString)
 print(string.upper(myString))
 print(myString)
 ```
-This code would show the following output:
+This code would display the following output:
 
 ```lua
 Bang!
 BANG!
 Bang!
-```
-[Text, code, images, etc. about example 1]
-
-## Codebyte Example (if applicable)
-
-We can currently support:
-
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
-
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
-
-```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
 ```
