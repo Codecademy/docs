@@ -1,6 +1,6 @@
----
+q---
 Title: 'Animation'
-Description: 'In response to state changes, produce seamless visual updates.'
+Description: 'Animation is the response to state changes by producing seamless visual updates.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
