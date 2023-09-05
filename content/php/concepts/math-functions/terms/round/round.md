@@ -18,7 +18,7 @@ The **`round()`** returns an integer or a float to the nearest whole number or t
 ## Syntax
 
 ```pseudo
-$roundedNumber = round($number);
+$roundedNumber = round($number, $decimals, $roundMode);
 ```
 
 Returns `the nearest whole number`.
