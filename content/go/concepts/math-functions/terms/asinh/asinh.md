@@ -45,19 +45,19 @@ func main() {
   num := 16.1
   
   inverseHyperbolicSine := math.Asinh(num)
-  fmt.Printf("The inverse hyperbolic sine of %f degrees is %f\n", num, inverseHyperbolicSine)
+  fmt.Printf("The inverse hyperbolic sine of %f is %f\n", num, inverseHyperbolicSine)
 }
 ```
 
 The output will be:
 
 ```shell
-The inverse hyperbolic sine of 16.100000 degrees is 3.472930
+The inverse hyperbolic sine of 16.100000 is 3.472930
 ```
 
 ## Codebyte Example
 
-The following example is runnable and demonstrates the usage of the `Asinh()` function with two values: negative infinite and `3.1`.
+The following example is runnable and uses the `Asinh()` function with two values: negative infinite and `3.1`.
 
 ```codebyte/golang
 package main
