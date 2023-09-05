@@ -1,6 +1,6 @@
 ---
 Title: '.reverse()'
-Description: ' rearranges a provided string in reverse order'
+Description: 'Returns a provided string in reverse order.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
