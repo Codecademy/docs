@@ -21,7 +21,7 @@ string.reverse(originalString)
 
 ```
 
-The **`originalString`** is the string to be reversed.
+The `originalString` is the string to be reversed.
 
 ## Example
 
