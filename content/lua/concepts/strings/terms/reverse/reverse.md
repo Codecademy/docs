@@ -25,7 +25,7 @@ The `originalString` is the string to be reversed.
 
 ## Example
 
-Consider the following example:
+The code below demonstrates a basic implementation of the `.reverse()` method:
 
 ```lua
 originalString = "Hello, World!"
