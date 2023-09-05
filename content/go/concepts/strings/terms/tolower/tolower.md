@@ -66,8 +66,8 @@ import (
 func main() {
 
   str1 := "wELcomE tO CodeCademy!"
-	str2 := "This iS An EXAmpLE oF StrinG funCTion"
-  str3 := "GOLANG" 
+  str2 := "This iS An EXAmpLE oF StrinG funCTion"
+  str3 := "GOLANG"
 
   res1 := strings.ToLower(str1)
   res2 := strings.ToLower(str2)
@@ -75,7 +75,7 @@ func main() {
 
   fmt.Println("\nLowercase Strings :")
   fmt.Println("Result 1: ", res1)
-	fmt.Println("Result 2:", res2)
+  fmt.Println("Result 2:", res2)
   fmt.Println("Result 3:", res3)
 }
 
