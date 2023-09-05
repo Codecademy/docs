@@ -1,6 +1,6 @@
 ---
 Title: '.computeFields()'
-Description: 'Synchronizes the set calendar's object new time with the calendar's field values.'
+Description: 'Synchronizes the time of a Calendar object with the set field values.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.computeFields()`** method of the `Calendar` class converts the current millisecond time value `time` to calendar field values in `fields[]`
+The **`.computeFields()`** method of the `Calendar` class converts the current millisecond time value to the relevant field values in the passed `Calendar` object.
 
 ## Syntax
 
@@ -20,11 +20,11 @@ The **`.computeFields()`** method of the `Calendar` class converts the current m
 calendar.computeFields()
 ```
 
-> **Note:** computeFields() method is a non-static method, it is accessible with the `class` object. Trying to access it with the `class` name throws an error.
+> **Note:** `computeFields()` method is a non-static method, it is accessible with the `class` object. Trying to access it with the `class` name throws an error.
 
 ## Example
 
-The example below demonstrates the `computeFields()` method. The `CalendarComputeFieldExample` class is instantiated and the calendar is set to the year `2024`. Finally,  `computeFields()` is called on it to sync up with the `calendar` field values with a new time that is set for the `calendar` object.
+In the example below the `CalendarComputeFieldExample` class is instantiated and the calendar is set to the year `2024`. Then, the `computeFields()` method is called to sync up the `calendar` field values with the new time that has been set for the `calendar` object.
 
 ```java
 import java.util.*;
@@ -37,7 +37,7 @@ public class CalendarComputeFieldExample extends GregorianCalendar {
   // Print the current date
   System.out.println("Current date is: " + cal.getTime());
 
-  // clear the calendar
+  // Clear the calendar
   cal.clear();
 
   // Set a new year and call computeFields()
@@ -51,7 +51,7 @@ public class CalendarComputeFieldExample extends GregorianCalendar {
 }
 ```
 
-Ouput:
+This results in the following output:
 
 ```shell
 Current date is: Fri Aug 18 20:54:51 GMT 2023
