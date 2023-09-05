@@ -1,6 +1,6 @@
 ---
 Title: '.getTime()'
-Description: 'Returns a Date object representing the Calendar object's time value.'
+Description: 'Returns the time value of the given Calendar object.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.getTime()`** method of the `Calendar` class returns a [`Date`](https://www.codecademy.com/resources/docs/java/date) object that represents time value of the `Calendar` class's object.
+The **`.getTime()`** method of the `Calendar` class returns a [`Date`](https://www.codecademy.com/resources/docs/java/date) object that represents the time value of a given `Calendar` object.
 
 ## Syntax
 
@@ -22,7 +22,7 @@ calendar.getTime()
 
 ## Example
 
-In the example below, a `Calendar` object is created and the current date is retrieved using the **`.getTime()`** method.
+In the example below, a `Calendar` object is created and the current date is retrieved using the `.getTime()` method.
 
 ```java
 import java.util.Calendar;
