@@ -160,4 +160,4 @@ Along with accessibility modifiers and techniques, the following best practices 
   - Create user-friendly channels for accessibility-related feedback.
 - Continuous Improvement:
   - Stay updated with evolving accessibility guidelines and best practices.
-  - Learn about different disabilities to make informed design choices.
+  - Learn about different disabilities to make informed design choices. Sites like [W3C](https://www.w3.org/WAI/tips/) are often recommended to learn about this topic. 
