@@ -66,7 +66,7 @@ The codebyte below uses the `round()` function to round off `pi` to `3` decimal 
 ```codebyte/php
 <?php
 
-$originalNumber = 3.1415927;
+$piConstant = pi();
 
 $roundedNumber = round($originalNumber, 3);
 
