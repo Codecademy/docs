@@ -70,7 +70,7 @@ $piConstant = pi();
 
 $roundedNumber = round($piConstant, 3);
 
-echo "Original Number: $originalNumber<br>";
+echo "Original Number: $piConstant\n";
 echo "Rounded Number: $roundedNumber";
 ?>
 ```
