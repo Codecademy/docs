@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-**[Accessibility](https://www.codecademy.com/resources/docs/uiux/accessibility)** in Swift UI refers to the built-in tools and available techniques to create user interfaces for everyone, including individuals with diverse needs.
+**[Accessibility](https://www.codecademy.com/resources/docs/uiux/accessibility)** in Swift UI refers to the built-in tools and available techniques to create user interfaces for individuals with diverse needs.
 
 ## The Importance of Accessibility
 
