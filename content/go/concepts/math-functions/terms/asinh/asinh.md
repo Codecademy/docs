@@ -43,7 +43,7 @@ import (
 
 func main() {
   num := 16.1
-  
+
   inverseHyperbolicSine := math.Asinh(num)
   fmt.Printf("The inverse hyperbolic sine of %f is %f\n", num, inverseHyperbolicSine)
 }
@@ -57,7 +57,7 @@ The inverse hyperbolic sine of 16.100000 is 3.472930
 
 ## Codebyte Example
 
-The following example is runnable and uses the `Asinh()` function with two values: negative infinite and `3.1`.
+The following example is runnable and uses the `Asinh()` function with two values: negative infinity and `3.1`.
 
 ```codebyte/golang
 package main
