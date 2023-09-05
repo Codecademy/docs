@@ -53,7 +53,7 @@ In this simple animation, the background and the text of the button change depen
 
 ## Explicit Animation using withAnimation(_:_:)
 
-To be able to make Explicit animation, we use the same three steps we used in the implicit animation. this example uses Explicit animation to change the position of a button:
+To be able to make Explicit animation, we use the same three steps we used in the implicit animation. This example uses Explicit animation to change the position of a button:
 
 ```Swift
 struct ImplicitAnimation: View {
