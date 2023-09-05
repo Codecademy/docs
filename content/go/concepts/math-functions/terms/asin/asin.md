@@ -59,7 +59,7 @@ The inverse sine of 0.900000 is 1.119770
 
 ## Codebyte Example
 
-The following example is runnable and demonstrates the usage of the `Asin()` function with two values: `1.1` and `0.0`.
+The following example is runnable and uses the `Asin()` function with two values: `1.1` and `0.0`.
 
 ```codebyte/golang
 package main
