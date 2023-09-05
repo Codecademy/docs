@@ -37,5 +37,5 @@ print(newString)
 This will return the following output:
 
 ```shell
-"!dlroW ,olleH"
+!dlroW ,olleH
 ```
