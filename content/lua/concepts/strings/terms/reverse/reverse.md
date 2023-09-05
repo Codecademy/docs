@@ -34,7 +34,7 @@ newString = string.reverse(originalString)
 print(newString)
 ```
 
-Expected output:
+This will return the following output:
 
 ```shell
 "!dlroW ,olleH"
