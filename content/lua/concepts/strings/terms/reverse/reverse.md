@@ -18,7 +18,6 @@ The **`.reverse()`** function takes a valid string and rearranges it in reverse 
 
 ```lua
 string.reverse(originalString)
-
 ```
 
 The `originalString` is the string to be reversed.
