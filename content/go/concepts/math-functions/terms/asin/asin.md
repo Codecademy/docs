@@ -45,7 +45,7 @@ import (
 
 func main() {
   num := 0.9
-  
+
   inverseSine := math.Asin(num)
   fmt.Printf("The inverse sine of %f is %f\n", num, inverseSine)
 }
@@ -79,3 +79,4 @@ func main() {
   fmt.Printf("The inverse sine of %.1f is: %.1f\n", notInRange, resultNotInRange)
   fmt.Printf("The inverse sine of %.1f is: %.1f\n", zero, resultZero)
 }
+```
