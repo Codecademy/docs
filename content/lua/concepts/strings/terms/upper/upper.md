@@ -1,5 +1,5 @@
 ---
-Title: 'upper()' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
+Title: '.upper()' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
 Description: 'Converts all letters in a string to uppercase.' # Required; ideally under 150 characters and starts with a present-tense verb (used in search engine results and content previews)
 Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
   - 'Code Foundations'
@@ -19,6 +19,7 @@ The **`.upper()`** function converts a string to uppercase.
 ```shell
 string.upper(string)
 ```
+
 The `.upper()` function will convert all letters of a specified string to uppercase. Numbers and punctuation will remain unaffected.
 
 ## Example
@@ -35,9 +36,9 @@ print(string.upper(myString))
 print(myString)
 ```
 
-This code would display the following output:
+This code will display the following output:
 
-```lua
+```shell
 Bang!
 BANG!
 Bang!
