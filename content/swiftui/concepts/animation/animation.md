@@ -104,4 +104,4 @@ struct ImplicitAnimation: View {
   ```
 ![This is a gif that shows the effect of Explicit animation on two diffrent views using the same state variable.](https://raw.githubusercontent.com/Codecademy/docs/main/media/morethanoneView-with-Explicit-Animation-Swiftui.gif)
 
-The last thing, there is no limit on how `withAnimation` or `.animation` can be used. What is explained above is just the first step towards understanding how to do animation in swiftUI, be creative with it, it's a very powerful tool in swiftUI that enhances the user experience of any app just by adding it to your app.
+One thing to consider is that no limit on how `withAnimation` or `.animation` can be used. This is a very powerful tool that can be used in many ways. 
