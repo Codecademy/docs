@@ -16,7 +16,7 @@ The **`.sub()`** function is used to extract a substring from a given string. Th
 
 ## Syntax
 
-```lua
+```pseudo
 string.sub(originalString, startIndex, endIndex)
 ```
 
