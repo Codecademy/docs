@@ -1,5 +1,5 @@
 ---
-Title: 'Comparable Protocol' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
+Title: 'Comparable' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
 Description: 'Protocol in Swift used to define a sort order for instances of a type.' # Required; ideally under 150 characters and starts with a present-tense verb (used in search engine results and content previews)
 Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
   - 'Mobile Development'
@@ -29,7 +29,7 @@ struct StructName: Comparable {
 }
 ```
 
-To conform a custom type to the `Comparable` protocol conformance to `Comparable` is first declared, then static methods for `<` and `==` are defined.
+In the implementation of the `Comparable` protocol of the custom type defined below, the `Comparable` keyword is used in the `struct` declaration, then static methods for `<` and `==` are defined.
 
 ## Example
 
@@ -51,7 +51,7 @@ let burjKhalifa = Building(height: 828)
 let sydneyTower = Building(height: 300)
 ```
 
-A custom type `Building` was created with a `height` constant, and static methods for `<` and `==` were defined. There are three instances of this type: `eiffelTower`, `burjKhalifa` and `sydneyTower`. The example conforms to the `Comparable` protocol, allowing each of the instances to be compared:
+In this example the custom type, `Building`, was created with a `height` constant, and static methods for the `<` and `==` comparison operators were defined. There are three instances of this type: `eiffelTower`, `burjKhalifa` and `sydneyTower`. The example conforms to the `Comparable` protocol, allowing each of the instances to be compared:
 
 ```swift
 print(eiffelTower < burjKhalifa) // true
