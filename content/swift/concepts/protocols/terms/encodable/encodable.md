@@ -32,8 +32,6 @@ For the syntax above, all properties will be encoded.
 
 When only specific properties need to be included, or some of the properties don't conform to `Encodable`, then a custom specification for data can be used. The following syntax implements the protocol with a `CodingKeys` [enum](https://www.codecademy.com/resources/docs/swift/enums) and `encode(to:)` [function](https://www.codecademy.com/resources/docs/swift/functions) to specify which properties to encode:
 
-
-
 ```pseudo
 struct myStruct: Encodable {
   // Properties
