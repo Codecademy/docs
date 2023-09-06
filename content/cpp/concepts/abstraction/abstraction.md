@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Abstraction** means displaying only essential information and hiding the details. Data abstraction refers to providing only essential information about the data to the outside world, hiding the background details or implementation.
+**Abstraction** involves displaying only essential information while concealing underlying details. Data abstraction refers to providing only data-related information to the outside world, hiding the implementation details.
 
 Abstraction using Access Specifiers:
 
