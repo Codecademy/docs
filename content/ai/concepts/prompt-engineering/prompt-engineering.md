@@ -18,7 +18,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 
 AI systems are typically trained with large amounts of data that is used to answer a prompt. As a result, when an AI is given a task, it uses all of the training data to complete the task even if the task does not require much data. This introduces a handful of issues such as hallucinations, or possibly using data that is irrelevant to completing the task. Prompt Engineering allows users to clearly define which of the training data the AI should use to complete a task.
 
-## General Tips to Writting a Good Prompt
+## General Tips to Writing a Good Prompt
 
 ### Use Clear Language
 
