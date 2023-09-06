@@ -67,7 +67,7 @@ Keep in mind `x` and `y` are just place holders. When using this prompt, the rel
 
 ## Prompt Examples
 
-Here are some examples that implement some of the concepts mentioned above.
+Here are some examples that implement some of the concepts mentioned above:
 
 ```
 Act as a Spanish language tutor. I am new to learning Spanish.
