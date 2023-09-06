@@ -16,13 +16,13 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 
 **Prompt Engineering** is the technique of crafting instructions that will be provided to an Artificial Intelligence system.
 
-AI systems are typically trained with large amounts of data that is used to answer a prompt. As a result, when an AI is given a task, it uses all of the training data to complete the task even if the task does not require much data. This introduces a handful of issues such as hallucinations, or possibly using data that is irrelevant to completing the task. Prompt Engineering allows users to clearly define which of the training data the AI should use to complete a task.
+Large Language Models (LLMs) are typically trained with large amounts of data that is used to answer a prompt. As a result, when an AI is given a task, it uses all of the training data to complete the task even if the task does not require much data. This introduces a handful of issues such as hallucinations, or possibly using data that is irrelevant to completing the task. Prompt Engineering allows users to clearly define which of the training data the AI should use to complete a task.
 
 ## General Tips to Writing a Good Prompt
 
 ### Use Clear Language
 
-When creating a prompt, it is important to be precise, yet concise in your instruction. There are several benefits when following this strategy, one of which is the AI can achieve it's task in an efficient manner without additional intervention. In addition, there is typically a monetary cost associated when interacting with an LLM. Therefore prompting an LLM with the least amount of words can provide immediate benefits in terms of upfront cost. Understanding the cost associated with prompting an AI requires a basic knowledge of LLMs.
+When creating a prompt, it is important to be precise, yet concise in our instruction. There are several benefits when following this strategy, one of which is the AI can achieve it's task in an efficient manner without additional intervention. In addition, there is typically a monetary cost associated when interacting with an LLM. Therefore prompting an LLM with the least amount of words can provide immediate benefits in terms of upfront cost. Understanding the cost associated with prompting an AI requires a basic knowledge of LLMs.
 
 When an LLM is given a body of text it typically breaks this text into individual units or "tokens," the base unit of information that is being sent to the LLM. You can think of a word as a token. Additional information about tokens can be found in [OpenAI's help docs](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them). It then processes these tokens in order to generate an answer. This computation comes at a cost and is the reason why companies charge a certain amount of dollars per token, particularly when these tokens are being sent through some sort of API request. In these situations, having clear language can not only save money, but also directly affect the performance of the LLM.
 
@@ -40,13 +40,7 @@ Use 2 to 3 sentences to explain the concept of for loops in Javascript to a 5 ye
 
 ### Define Your Purpose
 
-Another key to writing effective prompts is defining the purpose of the prompt. In other words, effectively defining the goal for the LLM to achieve. This can be done by specifying the tone, format, and audience of the prompt.
-
-One area in which tone is important, is writing an email. For example, a different tone would be used when writing an email to a sibling, versus one to someone's boss. Therefore, when asking an LLM to write a draft of an email, it is important to make sure it understands what tone is preferred.
-
-In addition to specifying the tone, you can also specify the format of the LLM's response. In some situations, it can be specified that the LLM use a bullet list, versus a series of paragraphs.
-
-Finally, by specifying a possible audience, an LLM can even be more precise when generating an email. For instance, an LLM will most likely provide additional details when writing an email in a professional tone versus a casual tone.
+Another key to writing effective prompts is defining the purpose of the prompt. In other words, effectively defining the goal for the LLM to achieve. This can be done by specifying the tone, format, and audience of the prompt.One area in which tone is important, is writing an email. For example, a different tone would be used when writing an email to a sibling, versus one to someone's boss. Therefore, when asking an LLM to write a draft of an email, it is important to make sure it understands what tone is preferred.In addition to specifying the tone, we can also specify the format of the LLM's response. In some situations, it can be specified that the LLM use a bullet list, versus a series of paragraphs.Finally, by specifying a possible audience, an LLM can even be more precise when generating an email. For instance, an LLM will most likely provide additional details when writing an email in a professional tone versus a casual tone.
 
 ### Provide Context
 
