@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`array_seach()`** function searches an array for a given value and returns the first matching key for that value.
+The **`array_search()`** function searches an array for a given value and returns the first matching key for that value.
 
 ## Syntax
 
@@ -22,9 +22,9 @@ array_search(value, array, strict)
 ```
 
 - `value`: The value to search for.
-> **Note:** String values are case-sensitive for this function.
 - `array`: The `array` to search in.
 - `strict`: Optional argument that defaults to `false` if not given. When set to `true`, the function will search for identical elements to the value. For example, a strict search for an integer will not match a string version of that integer.
+> **Note:** String values are case-sensitive for this function.
 
 ## Example
 
