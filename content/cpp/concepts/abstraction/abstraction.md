@@ -72,6 +72,6 @@ Advantages of Data Abstraction:
 
 - Modularity: Allows for changes to the internal implementation of the class independently without affecting the user.
 
--Helps to increase the security of an application or program as only important details are provided to the user.
+-Security: Enhances the security of an application or program by only providing essential details to the user and keeping sensitive information hidden.
 
 -It reduces the complexity as well as the redundancy of the code, therefore increasing the readability.
