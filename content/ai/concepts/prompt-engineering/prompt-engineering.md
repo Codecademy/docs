@@ -32,7 +32,7 @@ One example of using unclear language could be the following:
 Explain the concept of for loops in Javascript. Keep your explaination short, and do not be too descriptive.
 ```
 
-In this example, there is too much ambiguity for an LLM. For example, there is no guidance on what "short" means, and "not be too descriptive" could have two meanings. Either, do not use too many words, which we already said, or provide a description that is easy to understand. A better prompt would be the following.
+In this example, there is too much ambiguity for an LLM. For example, there is no guidance on what "short" means, and "not be too descriptive" could have two meanings. To fix this, do not use too many words or provide a description that is easy to understand. A better prompt would be the following:
 
 ```
 Use 2 to 3 sentences to explain the concept of for loops in Javascript to a 5 year old.
