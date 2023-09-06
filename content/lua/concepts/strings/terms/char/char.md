@@ -15,6 +15,7 @@ CatalogContent:
 In Lua, the **`string.char()`** function is used to convert a decimal value to its internal character value.
 
 ## Syntax
+
 ```pseudo
 string.char(I)
 ```
@@ -42,6 +43,7 @@ z
 ```
 
 ## Example 2
+
 The `string.char()` function can take multiple arguments as well:
 
 ```lua
