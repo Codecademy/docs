@@ -77,4 +77,4 @@ Data abstraction has several advantages including:
 
 -Security: Enhances the security of an application or program by only providing essential details to the user and keeping sensitive information hidden.
 
--It reduces the complexity as well as the redundancy of the code, therefore increasing the readability.
+- Readability: Reduces the complexity as well as the redundancy of the code, therefore increasing the readability.
