@@ -1,6 +1,6 @@
 ---
 Title: '.sub()'
-Description: 'Extracts a substring from a given string'
+Description: 'Extracts a substring from a given string.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
