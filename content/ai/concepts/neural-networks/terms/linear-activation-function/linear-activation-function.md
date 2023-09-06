@@ -20,7 +20,7 @@ The linear activation function typically adds the weighted sum with bias and pas
 
 Mathematically, it can be defined as:
 
-![linear Activation Function Equation](https://raw.githubusercontent.com/Codecademy/docs/main/media/linear-equation.png)
+![linear Activation Function Equation](https://raw.githubusercontent.com/Codecademy/docs/main/media/linear-equ.png)
 
 where :
 
