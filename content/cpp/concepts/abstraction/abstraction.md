@@ -14,7 +14,7 @@ CatalogContent:
 
 **Abstraction** involves displaying only essential information while concealing underlying details. Data abstraction refers to providing only data-related information to the outside world, hiding the implementation details.
 
-Abstraction using Access Specifiers:
+## Access Specifiers
 
 Abstraction can be implemented by using access specifiers to control the accessibility of members within a class:
 
