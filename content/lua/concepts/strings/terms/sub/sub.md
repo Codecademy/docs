@@ -20,9 +20,9 @@ The **`.sub()`** function is used to extract a substring from a given string. Th
 string.sub(originalString, startIndex, endIndex)
 ```
 
-`originalString`: The original string to extract the substring.
-`startIndex`: The index at which the substring should start (inclusive).
-`endIndex` (optional): The index at which the substring should end (exclusive). If `endIndex` is not provided, the substring will extend to the end of the original string.
+- `originalString`: The string from which the substring will be extracted.
+- `startIndex`: The index at which the substring should start (inclusive).
+- `endIndex` (optional): The index at which the substring should end (exclusive). If `endIndex` is not provided, the substring will extend to the end of the original string.
 
 ## Example
 
