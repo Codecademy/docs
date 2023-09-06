@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.sub()`** function is used to extract a substring from a given string. The function takes two arguments; the string from which you want to extract a substring and the starting and ending indices of the substring.
+The **`.sub()`** function is used to extract a substring from a given string. The extracted substring is determined by the integers passed to the function, which specify the starting and ending index.
 
 ## Syntax
 
