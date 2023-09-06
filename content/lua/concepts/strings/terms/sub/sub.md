@@ -35,7 +35,6 @@ local subString2 = string.sub(originalString, 8)
 
 print(subString1)
 print(subString2)
-
 ```
 
 This will return the following output:
