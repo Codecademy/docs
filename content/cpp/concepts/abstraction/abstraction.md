@@ -16,7 +16,7 @@ CatalogContent:
 
 Abstraction using Access Specifiers:
 
-We can use access specifiers to enforce restrictions on class members. For example:
+Abstraction can be implemented by using access specifiers to control the accessibility of members within a class:
 
 - Members declared as `public` in a class can be accessed from anywhere in the program.
 
