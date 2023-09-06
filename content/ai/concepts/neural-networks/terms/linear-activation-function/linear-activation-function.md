@@ -12,7 +12,7 @@ Tags:
   - 'Functions'
 CatalogContent:
   - 'machine-learning'
-  - 'path/data-science'****
+  - 'path/data-science'
 ---
 
 The **linear activation function**, also known as the identity function, is one of the most straightforward activation functions, where the output is identical to the input.
