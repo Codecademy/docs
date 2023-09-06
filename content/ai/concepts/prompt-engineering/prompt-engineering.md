@@ -50,7 +50,7 @@ Finally, by specifying a possible audience, an LLM can even be more precise when
 
 ### Provide Context
 
-As mentioned earlier, LLMs are trained using vast amounts of data. It uses this data to effectively predicate and craft responses to a user's prompt. One way to indirectly control what data an LLM uses in its response, is by clearly defining the context of the prompt.
+As mentioned earlier, LLMs are trained using vast amounts of data, which is used to effectively craft responses to a prompt. One way to indirectly control what data an LLM uses in its response, is by clearly defining the context of the prompt. Defining context indicates to the LLM what training data it should use to formulate a response.
 
 A common use case in which context is important is when asking an LLM to debug an error message from code. This itself can be an entire area of study because there can be many types of errors. For example, when encountering a specific error associated with a line of code, a good prompt would be the following.
 
