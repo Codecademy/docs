@@ -14,7 +14,9 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'paths/data-science'
 ---
 
-**Prompt Engineering** is an efficient solution to assembling instructions that will be provided to Artificial Intelligence Systems (AIS). AIs are typically trained with large amounts of data that is used to answer a prompt. As a result, when an AI is given a task, it uses all this data to complete the task. Keep in mind, the task probably does not require that much data. This introduces a handful of issues. Such as hallucinations, or possibly using data that is irrelevant to completing the task. Prompt Engineering allows users to clearly define the guard rails in which the AI must follow in completing the task assigned to it.
+**Prompt Engineering** is the technique of crafting instructions that will be provided to an Artificial Intelligence system.
+
+AI systems are typically trained with large amounts of data that is used to answer a prompt. As a result, when an AI is given a task, it uses all of the training data to complete the task even if the task does not require much data. This introduces a handful of issues such as hallucinations, or possibly using data that is irrelevant to completing the task. Prompt Engineering allows users to clearly define which of the training data the AI should use to complete a task.
 
 ## General Tips to Writting a Good Prompt
 
