@@ -1,6 +1,6 @@
 ---
 Title: 'Abstraction'
-Description: 'Abstraction refers to providing only essential information to the outside world and hiding their background details.'
+Description: 'Abstraction involves displaying only essential information to the outside world while hiding the implementation details.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
