@@ -1,27 +1,30 @@
 ---
-Title: 'string.char() function in Lua programming' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'use of the string.char() function' # Required; ideally under 150 characters and starts with a present-tense verb (used in search engine results and content previews)
-Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
-  - 'char.md'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
-  - 'Lua'
+Title: 'char()'
+Description: 'Convers a decimal value to its character representation.'
+Subjects:
+  - 'Code Foundations'
+Tags:
+  - 'Strings'
+  - 'Functions'
+  - 'Values'
+CatalogContent:
+  - 'learn-lua'
+  - 'paths/computer-science'
 ---
 
-In Lua, to convert a decimal value to its internal character value we make use of the **string.char()** function.
+In Lua, the **`string.char()`** function is used to convert a decimal value to its internal character value.
 
 ## Syntax
-```codebyte/js
+```pseudo
 string.char(I)
 ```
-In the above syntax, the identifier I represents the decimal value which we want to convert into a character.
+In the above syntax, the identifier `I` represents the decimal value which will be converted into a character.
 
-## Example
+## Example 1
 
-1. Let’s consider a very simple example, where you are given different decimal values, and you want to convert them to a character value.
+The following is a very simple example, where different decimal values are converted to a character values.
 
-**Input**
-
-```codebyte/js
+```lua
 s = string.char(97)
 print(s)
 s = string.char(122)
@@ -30,26 +33,25 @@ s = string.char(125)
 print(s)
 ```
 
-**Output**
+This example results in the following output:
 
-```codebyte/js
+```shell
 a
 z
 }
 ```
 
-2. The string.char() function can take multiple arguments as well.
+## Example 2
+The `string.char()` function can take multiple arguments as well:
 
-**Input**
-
-```codebyte/js
+```lua
 i = 97
 s = string.char(i,i+1,i+2,i+3)
 print(s)
 ```
 
-**Output**
+This example results in the following output:
 
-```codebyte/js
+```shell
 abcd
 ```
