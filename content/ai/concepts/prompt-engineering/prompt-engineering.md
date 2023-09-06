@@ -44,7 +44,7 @@ Another key to writing effective prompts is defining the purpose of the prompt. 
 
 One area in which tone is important, is writing an email. For example, a different tone would be used when writing an email to a sibling, versus one to someone's boss. Therefore, when asking an LLM to write a draft of an email, it is important to make sure it understands what tone is preferred.
 
-In addition to specifying the tone, you can also specify the format of the LLM's response. In some situations it can be specified that the LLM use a bullet list, versus a series of paragraphs.
+In addition to specifying the tone, you can also specify the format of the LLM's response. In some situations, it can be specified that the LLM use a bullet list, versus a series of paragraphs.
 
 Finally, by specifying a possible audience, an LLM can even be more precise when generating text. For instance, an LLM will most likely provide additional details when writing an email for a professional audience, versus a less technical audience.
 
