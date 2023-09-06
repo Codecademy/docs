@@ -68,7 +68,7 @@ Advantages of Data Abstraction:
 
 -Helps the user to avoid writing the low-level code.
 
--Avoids code duplication and increases reusability.
+- Reusability: Avoids code duplication and increases reusability.
 
 -Can change the internal implementation of the class independently without affecting the user.
 
