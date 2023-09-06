@@ -64,7 +64,10 @@ a = 10
 b = 20
 ```
 
-Advantages of Data Abstraction:
+## Advantages of Data Abstraction
+
+Data abstraction has several advantages including:
+
 
 - Simplicity: Helps the user to avoid writing the low-level code.
 
