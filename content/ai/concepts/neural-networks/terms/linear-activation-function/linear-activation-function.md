@@ -15,9 +15,8 @@ CatalogContent:
   - 'path/data-science'****
 ---
 
-The **linear activation function**, also known as the identity function, is one of the most straight-forward activation function,where the output of linear activation function is exactly same as input.
-In general , linear activation function simply add weighted sum with bias and pass it as output.
-
+The **linear activation function**, also known as the identity function, is one of the most straightforward activation functions, where the output is identical to the input.
+The linear activation function typically adds the weighted sum with bias and passes it as output.
 
 Mathematically, it can be defined as:
 
@@ -25,15 +24,13 @@ Mathematically, it can be defined as:
 
 where :
 
-![linear Activation Function](https://raw.githubusercontent.com/Codecademy/docs/main/media/linear-equation-express.png)
+![linear Activation Function Expression](https://raw.githubusercontent.com/Codecademy/docs/main/media/linear-expression.png)
 
 ### Usage and Limitations
 
-The problem with this activation function is that it is limited in the context of deep neural network's.
+The problem with this activation function is that it is limited in the context of deep neural networks.
 
-Using linear activation functions would not able to the model to learn complex non-linear relationships between input's and output's.
-
-All layers of the neural network will collapse into one if a linear activation function is used. No matter the number of layers in the neural network, the last layer will still be a linear function of the first layer. So, essentially, a linear activation function turns the neural network into just one layer.
+The model cannot learn complex non-linear relationships between inputs and outputs by using linear activation functions.
 
 ### Codebyte Example
 
