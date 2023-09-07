@@ -1,6 +1,6 @@
 ---
 Title: 'Accessibility'
-Description: 'Accessibility in SwiftUI refers to the built-in tools and available techniques to create user interfaces for everyone, including individuals with diverse needs.'
+Description: 'Accessibility in SwiftUI refers to the built-in tools and available techniques to create inclusive user interfaces.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
@@ -12,22 +12,22 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-**[Accessibility](https://www.codecademy.com/resources/docs/uiux/accessibility)** in Swift UI refers to the built-in tools and available techniques to create user interfaces for individuals with diverse needs.
+**[Accessibility](https://www.codecademy.com/resources/docs/uiux/accessibility)** in SwiftUI refers to the built-in tools and available techniques to create user interfaces for individuals with diverse needs.
 
 ## The Importance of Accessibility
 
-Creating accessible apps with SwiftUI is necessary to meet accessibility guidelines. Furthermore, it also helps create a more [inclusive design](https://www.codecademy.com/resources/docs/uiux/inclusive-design) and user-friendly experience. Standard accessibility features work by default to ensure the app is accessible for everyone, while accessibility modifiers enable developers to further customize the app's accessibility features. Utilizing these tools and following best practices can have the following benefits:
+Creating accessible apps with SwiftUI is necessary to meet accessibility guidelines. Furthermore, it creates [inclusive design](https://www.codecademy.com/resources/docs/uiux/inclusive-design) and user-friendly experiences. Standard accessibility features work by default to ensure that an app is accessible for everyone, while accessibility modifiers enable developers to further customize the app's accessibility features. Utilizing these tools and following best practices can have the following benefits:
 
-- Ensuring the app is accessible for users with specific needs
-- Enhancing usability for all users
-- Expanding the app's potential audience
-- Ensuring regulatory compliance for digital accessibility
-- Improves SEO (Search Engine Optimization) and discoverability of the app
-- Creates a more positive brand image
-- Can increase customer loyalty
-- Displays innovation and creativity
-- Future-proofing the app by preparing for future advancements
+- Ensure the app is accessible for users with specific needs.
+- Enhance usability for all users.
+- Ensure regulatory compliance for digital accessibility.
+- Improve SEO (Search Engine Optimization) and discoverability of the app.
+- Display innovation and creativity.
+- Future-proof the app by preparing for future advancements.
+- Expand the app's potential audience
+- Create a positive brand image.
 - Can create marked differentiation and set it apart from competitors.
+- Can increase customer loyalty.
 
 ## Standard Accessibility Features
 
@@ -45,18 +45,18 @@ These labels describe the purpose and function of the view, making it easier for
 ```swift
 var body: some View {
     Button("Login") {
-    // Login action
+        // Login action
     }
 }
 ```
 
-This will render a button with default styles and the "Login" text, ensuring its visibility to screen readers and adaptive technologies.
+This will render a button with default styles and the `"Login"` text, ensuring its visibility to screen readers and adaptive technologies.
 
 ## Accessibility Modifiers
 
-SwiftUI provides a range of modifiers to fine-tune the accessibility of your app's elements. Here are some of the most crucial ones:
+SwiftUI provides a range of modifiers to fine-tune the accessibility of an app's elements. Here are some of the most crucial ones:
 
-- `accessibilityLabel()` and `accessibilityHint()` modifiers allow you to specify custom labels and hints for elements:
+- `.accessibilityLabel()` and `.accessibilityHint()` modifiers are used to specify custom labels and hints for elements:
 
     ```swift
     var body: some View {
@@ -69,6 +69,8 @@ SwiftUI provides a range of modifiers to fine-tune the accessibility of your app
 - `accessibilityValue()` modifier can define the value associated with the element, such as sliders:
 
     ```swift
+    @State private var sliderValue = 50.0
+    
     var body: some View {
         Slider(value: $sliderValue, in: 0...100)
             .accessibilityValue("\(Int(sliderValue)) percent")
@@ -78,7 +80,7 @@ SwiftUI provides a range of modifiers to fine-tune the accessibility of your app
 
     This will render a slider while providing context to screen readers about the slider's current value.
 
-- `accessibilityTraits()` modifier can indicate the traits of an element:
+- `.accessibilityTraits()` modifier can indicate the traits of an element:
 
     ```swift
     var body: some View {
@@ -147,7 +149,7 @@ In addition to accessibility modifiers, some general techniques can help design 
 Along with accessibility modifiers and techniques, the following best practices can help developers create apps that provide a more accessible and enjoyable user experience:
 
 - Comprehensive Testing:
-  - Regularly test your app with screen readers like VoiceOver to ensure proper labelling and conveyed information.
+  - Regularly test your app with screen readers like VoiceOver to ensure proper labeling and conveyed information.
   - Verify keyboard navigation functionality for all interactive elements.
   - Test with various Dynamic Type settings to ensure readable text and adaptive layouts.
   -Perform contrast testing for text and graphics visibility.
