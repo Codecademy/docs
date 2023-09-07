@@ -46,7 +46,6 @@ local formatted = string.format("Hello, my name is %s, I am %.1fr ft tall and I 
 print(formatted)
 ```
 
-In this example, the string.format() function is used to create a formatted string by replacing `%s`, `%.1f` and `%d` placeholders with the values of name, age and height, respectively. The resulting formatted string is then printed to the console.
 
 This will return the following output:
 
