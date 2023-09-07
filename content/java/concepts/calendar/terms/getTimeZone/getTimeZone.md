@@ -24,6 +24,8 @@ TimeZone time_zone = myCalendar.getTimeZone();
 - `myCalendar` is a `Calendar` class object for which the time zone is being retrieved.. 
 - `time_zone` is a `TimeZone` class object returned from the `.getTimeZone()` method.
 
+## Example
+
 The following code creates a Calendar class object and then assigns the object's current time zone to a TimeZone object. The result is then printed to the screen. 
 
 ```java
