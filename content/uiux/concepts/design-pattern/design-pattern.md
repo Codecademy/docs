@@ -1,6 +1,6 @@
 ---
 Title: 'Design Pattern'
-Description: 'Design patterns are standardized, widely adopted solutions to common design problems..'
+Description: 'Design patterns are standardized, widely adopted solutions to common design problems.'
 Subjects:
   - 'Web Design'
 Tags:
