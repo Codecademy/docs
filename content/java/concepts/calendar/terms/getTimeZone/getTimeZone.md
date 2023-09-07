@@ -1,6 +1,6 @@
 ---
 Title: '.getTimeZone()'
-Description: 'Returns the current time-zone of this Calendar.'
+Description: 'Returns the current time-zone of a given Calendar.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
