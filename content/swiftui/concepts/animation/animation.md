@@ -49,7 +49,7 @@ This is the result of the code above:
 
 ![This is a gif that shows the effect of Implicit animation on the view.](https://raw.githubusercontent.com/Codecademy/docs/main/media/Implicit-Animation-SwiftUI.gif)
 
-In this simple animation where the background and the text of the button changes depending on the value of the `isanimation` variable. When the button is pressed, `isanimation` changes, causing the implicit animation to change the text and background of the button. As the name implies, SwiftUI creates and manages implicit animations whenever specific situations or user interface state changes take place, which means developers don't have full control over the animations. With explicit animation, developers have full control over them.
+In this simple animation, the background and the text of the button change depending on the value of the `isanimation` variable. When the button is pressed, `isanimation` changes, causing the implicit animation to change the text and background of the button. As the name implies, SwiftUI creates and manages implicit animations whenever specific situations or user interface state changes take place, which means developers don't have full control over the animations. With explicit animation, developers have full control over them.
 
 ## Explicit Animation using `withAnimation()`
 
