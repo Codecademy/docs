@@ -12,45 +12,54 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'paths/computer-science'
 ---
 
-**`string.byte()`** function takes a character or a string as an argument and returns an ASCII (decimal) equivalent internal numeric representation.
+The **`string.byte()`** function takes a character or a string as an argument and returns an ASCII (decimal) equivalent internal numeric representation.
 
 ## Syntax
 
-The function can take two arguments, where the `s` parameter is a character or string and `n` is the index of the string passed as an argument. Passing only one argument will set `n` to `1`.
+```pseudo
 string.byte(s, n)
+```
+
+The function can take two arguments, where the `s` parameter is a character or string and `n` is the index of the string passed as an argument. Passing only one argument will set `n` to `1`.
 
 ## Example 1
 
 The example below demonstrates the use of the `.byte()` method.
 
 ```lua
-print(string.byte('a')) 
-print(string.byte('9')) 
-print(string.byte(9))   
-print(string.byte(' ')) 
-print(string.byte(';')) 
+print(string.byte('a'))
+print(string.byte('9'))
+print(string.byte(9))
+print(string.byte(' '))
+print(string.byte(';'))
 ```
 
-```shell block
--- Prints: 97
--- Prints: 57
--- Prints: 57
--- Prints: 32
--- Throws error
+This will return the following output:
+
+```shell
+97
+57
+57
+32
+59
 ```
 
 ## Example 2
 
+This example demonstrates the use of `.byte` with a second argument:
+
 ```lua
-print(string.byte('abca', 4)) 
+print(string.byte('abca', 4))
 print(string.byte(998877, 1))
 print(string.byte(998877, 3))
 print(string.byte(998877, 5))
 ```
 
-```shell block
--- Prints: 97 
--- Prints: 57
--- Prints: 56
--- Prints: 55
+This will return the following results.
+
+```shell
+97
+57
+56
+55
 ```
