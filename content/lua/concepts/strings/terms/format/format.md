@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.format()`** is used to create formatted strings by replacing placeholders in a format string with specified values.
+The **`.format()`** method is used to create formatted strings by replacing placeholders with specified values.
 
 ## Syntax
 
