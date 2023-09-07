@@ -46,7 +46,6 @@ local formatted = string.format("Hello, my name is %s, I am %.1fr ft tall and I 
 print(formatted)
 ```
 
-
 This will return the following output:
 
 ```shell
@@ -56,7 +55,6 @@ Hello, my name is Angel, I am 5.6 ft tall and I am 20 years old.
 ## Example 2
 
 The following example demonstrates the use of `string.format()` with a hexadecimal value.
-
 
 ```lua
 local number = 255
