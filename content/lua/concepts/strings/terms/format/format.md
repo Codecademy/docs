@@ -56,6 +56,9 @@ Hello, my name is Angel, I am 5.6 ft tall and I am 20 years old.
 
 The following example demonstrates the use of `string.format()` with a hexadecimal value.
 
+
+The following example demonstrates the use of `string.format()` with a hexadecimal value.
+
 ```lua
 local number = 255
 
