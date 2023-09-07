@@ -24,6 +24,7 @@ array_search(value, array, strict)
 - `value`: The value to search for.
 - `array`: The `array` to search in.
 - `strict`: Optional argument that defaults to `false` if not given. When set to `true`, the function will search for identical elements to the value. For example, a strict search for an integer will not match a string version of that integer.
+
 > **Note:** String values are case-sensitive for this function.
 
 ## Example
@@ -52,3 +53,4 @@ The following codebyte example can be run and uses the `array_search()` method.
   $a = array("f"=>"florence","p"=>"plus","m"=>"machine");
   echo array_search("machine",$a);
 ?>
+```
