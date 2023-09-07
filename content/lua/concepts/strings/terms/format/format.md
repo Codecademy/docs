@@ -33,7 +33,7 @@ Here are some common placeholders and formatting options:
 `%c`: Placeholder for a character.
 `%%`: Literal % character.
 
-Here are some examples of how to use `string.format()` :
+The following example demonstrates an implementation of `string.format()` :
 
 ## Example 1
 
