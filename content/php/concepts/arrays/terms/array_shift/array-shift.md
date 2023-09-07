@@ -1,6 +1,6 @@
 ---
 Title: 'array_shift()'
-Description: 'Shifts/pops an element off the beginning of array.'
+Description: 'Shifts/pops an element off the beginning of an array.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`array_shift()`** shifts/pops the first value of the array off and returns it, shortening the array by one element and moving everything down. All numerical array keys will be modified to start counting from zero while literal keys won't be affected.
+The **`array_shift()`** shifts/pops the first value of the array off and returns it, shortening the array by one element and shifting each element down. Numerical keys will be reset to start counting from 0, whereas the remaining literal keys will not be affected.
 
 ## Syntax
 
@@ -49,13 +49,13 @@ Array
 
 ## Codebyte Example
 
-In the code snippet below `array_shift()` takes the only existing item in the array at first and then tries to take the first item again from an empty array. Then we print out a string with the values returned.
+In the code snippet below `array_shift()` is used twice. First time it takes the one element with a numerical key, second time with a literal key. After that the `$num_array` is printed out. Notice that a string of a numerical key ("600") is still a numerical key, so it is reset to 0.
 
 ```codebyte/php
 <?php
-    $empty_array = array(1);
-    $one = array_shift($empty_array);
-    $nothing = array_shift($empty_array);
-    print("This is the \"nothing\" value - " . $nothing . ". And the \"one\" value - " . $one . ".");
+    $num_array = [1000 => "one thousand", "one_hun" => "one hundred", "600" => "six hundred", "two_hun" => "two hundred"];
+    $one = array_shift($num_array);
+    $two = array_shift($num_array);
+    print_r($num_array);
 ?>
 ```
