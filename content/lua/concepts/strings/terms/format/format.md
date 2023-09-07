@@ -29,7 +29,7 @@ Here are some common placeholders and formatting options:
 `%d` or `%i`: Placeholder for an integer.
 `%f`: Placeholder for a floating-point number (decimal).
 `%x` or `%X`: Placeholder for a hexadecimal number.
-`%.nf`: Specify the number of decimal places (e.g., %.2f for two decimal places).
+`%.nf`: Designates the number of decimal places (e.g. `%.2f` for two decimal places).
 `%c`: Placeholder for a character.
 `%%`: Literal % character.
 
