@@ -33,11 +33,11 @@ Creating accessible apps with SwiftUI is necessary to meet accessibility guideli
 
 By default, SwiftUI provides basic accessibility labels to the most common [views](https://www.codecademy.com/resources/docs/swiftui/views), such as:
 
-- [Button](https://www.codecademy.com/resources/docs/swiftui/views/button),
-- [Text](https://www.codecademy.com/resources/docs/swiftui/views/text),
-- [Text field](https://www.codecademy.com/resources/docs/swiftui/views/textfield),
-- [List](https://www.codecademy.com/resources/docs/swiftui/views/list),
-- [Image](https://www.codecademy.com/resources/docs/swiftui/views/image),
+- [Button](https://www.codecademy.com/resources/docs/swiftui/views/button)
+- [Text](https://www.codecademy.com/resources/docs/swiftui/views/text)
+- [Text field](https://www.codecademy.com/resources/docs/swiftui/views/textfield)
+- [List](https://www.codecademy.com/resources/docs/swiftui/views/list)
+- [Image](https://www.codecademy.com/resources/docs/swiftui/views/image)
 - Slider.
 
 These labels describe the purpose and function of the view, making it easier for [screen reader](https://www.codecademy.com/article/how-to-setup-screen-reader) and other assistive technologies to convey meaningful information to users. SwiftUI generates these labels automatically, requiring no action from developers. For example, creating a button:
@@ -128,7 +128,7 @@ In addition to accessibility modifiers, some general techniques can help design 
 
     This will render a `TextField`, and when the view appears, the keyboard will automatically be shown, and the cursor will be placed in the `TextField`, ready for user input.
 
-- Using modifiers for Dynamic Type: SwiftUI supports Dynamic Type, which means your app's text can adapt to users' chosen text size:
+- Using modifiers for Dynamic Type: SwiftUI supports Dynamic Type, which means an app's text can adapt to a user's preferred text size:
 
     ```swift
     var body: some View {
@@ -138,9 +138,9 @@ In addition to accessibility modifiers, some general techniques can help design 
     }
     ```
 
-    In this example above, the `Text` element is initially set with the [`.font()`](https://www.codecademy.com/resources/docs/swiftui/viewmodifier/font) modifier with `.body` value, and then the `.scaledFont()` modifier is applied to adjust the font size to `18 points`. This ensures the text remains legible even as the user changes their preferred text size settings.
+    In the example above, the `Text` element is initially set with the [`.font()`](https://www.codecademy.com/resources/docs/swiftui/viewmodifier/font) modifier with `.body` value, and then the `.scaledFont()` modifier is applied to adjust the font size to `18` points. This ensures the text remains legible even as the user changes their preferred text size settings.
 
-- Using semantic Views and Tags: Semantic views and tags like `.button`, `.image`, `.heading`, and `.link` for role-specific styling can aid the visual appearance and interactions of the app while also enhancing screen reader users' navigation experiences.
+- Using semantic views and tags: Semantic views and tags like `.button`, `.image`, `.heading`, and `.link` for role-specific styling can aid the visual appearance and interactions of the app while also enhancing screen reader users' navigation experiences.
 - VoiceOver Integration during development: VoiceOver is a built-in screen reader for iOS and macOS to assist visually impaired users. VoiceOver automatically interacts with the accessibility labels, hints, traits, and other modifiers you apply to your UI elements. You can enable it on your testing device and navigate through the app's interface to identify areas where labels are missing, navigation might be confusing, or interactions aren't intuitive and make real-time adjustments.
 - [Gesture](https://www.codecademy.com/resources/docs/swiftui/gestures) design: Creating intuitive gestures that align with user expectations. Prioritize familiar gestures like single-finger taps and two-finger swipes for navigation. Ensure haptic feedback for gesture confirmation, benefiting users with visual impairments. Test gestures with VoiceOver enabled to guarantee compatibility with screen readers.
 
