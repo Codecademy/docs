@@ -5,9 +5,8 @@ Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
-  - 'Programming Concepts'
-  - 'Advance Programming'
-  - 'Data-Types'
+  - 'Generics'
+  - 'Data Types'
 CatalogContent:
   - 'learn-go'
   - 'paths/back-end-engineer-career-path'

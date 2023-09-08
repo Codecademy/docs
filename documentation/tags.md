@@ -137,6 +137,7 @@ Frameworks
 Functions
 Functional Programming
 Functors
+Generics
 Geometry
 Ggplot2
 Git
