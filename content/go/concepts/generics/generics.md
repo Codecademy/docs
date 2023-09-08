@@ -19,7 +19,7 @@ CatalogContent:
 
 In Go, generics are defined using type parameters within function and method declarations. The syntax for declaring a generic function is as follows:
 
-```go
+```pseudo
 func FunctionName[T TypeConstraint](params) ReturnType {
   // Function body
 }
