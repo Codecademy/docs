@@ -29,9 +29,9 @@ The following example shifts the first element in `$counting_rhyme` and assigns 
 ```php
 <?php
   $counting_rhyme = ["Eeny", "Meeny", "Miny", "Moe"];
-  $removed = array_shift($counting_rhyme); 
-  echo $removed . "\n"; 
-  print_r($counting_rhyme) 
+  $removed = array_shift($counting_rhyme);
+  echo $removed . "\n";
+  print_r($counting_rhyme)
 ?>
 ```
 
@@ -49,7 +49,7 @@ Array
 
 ## Codebyte Example
 
-In the code snippet below `array_shift()` is used twice. The first time it pops the one element with a numerical key, the second time an element with a literal key. After that the `$num_array` is printed out. Notice that the string `"600"` is still a numerical key, so it is reset to `0`.
+In the code snippet below `array_shift()` is used twice. The first time it pops the element with a numerical key, the second time an element with a literal key. After that the `$num_array` is printed out. Notice that the string `"600"` is considered a numerical key, so it is reset to `0`.
 
 ```codebyte/php
 <?php
