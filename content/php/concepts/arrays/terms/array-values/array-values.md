@@ -1,6 +1,6 @@
 ---
 Title: 'array_values()'
-Description: 'All of the values in the array are returned.'
+Description: 'Returns all of the values in a given array.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
