@@ -1,1 +1,1 @@
-content/java/concepts/classes/classes.md
+content/uiux/concepts/ethnography-field-studies/ethnography-field-studies.md

@@ -35,11 +35,11 @@ There are optional arguments that include the following:
 - An index value to end the search (endpos): `40`
 - Flags: `IGNORECASE`, `VERBOSE`, `DOTALL`
 
-> **Note:** `.search()` will only return the the first match (as a match object) within the string; alternatively, the `.findall()` method matches every occurrence (and returns a list of matches).
+> **Note:** `.search()` will only return the first match (as a match object) within the string; alternatively, the `.findall()` method matches every occurrence (and returns a list of matches).
 
 ## Example
 
-All content that appears within parentheses are matched with the `.search()` method in the example below:
+All content that appears within parentheses is matched with the `.search()` method in the example below:
 
 ```py
 import re
@@ -58,13 +58,22 @@ The output will look like this:
 
 ## Codebyte Example
 
-The following example features a regex that uses the `.search()` method to match a web address:
+The following code example demonstrates the usage of `re.search()` with a regular expression to find and match the first email address within a given text.
 
 ```codebyte/python
 import re
 
-result = re.search(r"www\S+", "the tutorials at www.codecademy.com")
-# \S matches any character except a space, tab or newline
+text = """
+Please contact support@example.com for assistance.
+You can also reach out to john.doe123@email-provider.com.
+For general inquiries, contact us at contact@website.com.
+"""
+
+pattern = r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b"
+# \b adds a word boundary at the end of the pattern, ensuring that the
+# email address is not preceded nor followed by a word character.
+
+result = re.search(pattern, text)
 
 print(result)
 ```

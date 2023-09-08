@@ -86,6 +86,7 @@ Decorators
 Deep Learning
 Denoising
 Dependency
+Design
 Developer Tools
 Development
 DFS
@@ -171,6 +172,7 @@ iOS
 Iterators
 Join
 jQuery
+JRuby
 JSON
 JSK
 K-Nearest Neighbors
@@ -242,6 +244,7 @@ Print
 Probability
 Promise
 Properties
+Protocols
 Queries
 Queues
 Quicksort
@@ -282,6 +285,7 @@ SQL Server
 Stacks
 Static Site
 Statistics
+Storage
 Stringr
 Strings
 Structure
