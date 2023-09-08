@@ -19,9 +19,9 @@ CatalogContent:
 
 In Go, generics are defined using type parameters within function and method declarations. The syntax for declaring a generic function is as follows:
 
-``` go
+```go
 func FunctionName[T TypeConstraint](params) ReturnType {
-    // Function body
+  // Function body
 }
 ```
 
@@ -54,57 +54,52 @@ Type constraints enable the specification of requirements for the types used wit
 
 This code demonstrates a versatile function called `GenericMap` that applies given functions to items in a list of various types.
 
-```golang
+```go
 package main
 
 import (
-	"fmt"
+  "fmt"
 )
 
 // GenericMap is a versatile function that applies another function to each item in a list.
 func GenericMap[T any, U any](list []T, f func(T) U) []U {
-	result := make([]U, len(list))
-	for i, item := range list {
-		result[i] = f(item)
-	}
-	return result
+  result := make([]U, len(list))
+  for i, item := range list {
+    result[i] = f(item)
+  }
+  return result
 }
 
 func main() {
-	// Mapping integers to their squares
-	intList := []int{1, 2, 3, 4, 5}
-	squaredList := GenericMap(intList, func(x int) int {
-		return x * x
-	})
-	fmt.Println("Squared integers:", squaredList)
+  // Mapping integers to their squares
+  intList := []int{1, 2, 3, 4, 5}
+  squaredList := GenericMap(intList, func(x int) int {
+    return x * x
+  })
+  fmt.Println("Squared integers:", squaredList)
 
-	// Mapping strings to their lengths
-	stringList := []string{"apple", "banana", "cherry"}
-	lengthList := GenericMap(stringList, func(s string) int {
-		return len(s)
-	})
-	fmt.Println("String lengths:", lengthList)
+  // Mapping strings to their lengths
+  stringList := []string{"apple", "banana", "cherry"}
+  lengthList := GenericMap(stringList, func(s string) int {
+    return len(s)
+  })
+  fmt.Println("String lengths:", lengthList)
 
-	// Mapping floats to their square roots
-	floatList := []float64{1.0, 2.0, 3.0, 4.0, 5.0}
-	sqrtList := GenericMap(floatList, func(x float64) float64 {
-		return math.Sqrt(x)
-	})
-	fmt.Println("Square roots:", sqrtList)
-
-
-  # Explanation
-  # It can take a list of numbers and give a new list where each number is replaced by its square.
-  # Or it can take a list of words and give a new list where each word is replaced by its length.
-  # It's a way to do similar things with different types of things.
+  // Mapping floats to their square roots
+  floatList := []float64{1.0, 2.0, 3.0, 4.0, 5.0}
+  sqrtList := GenericMap(floatList, func(x float64) float64 {
+    return math.Sqrt(x)
+  })
+  fmt.Println("Square roots:", sqrtList)
 }
 ```
 
+`GenericMap` can take a list of numbers or words and give a new list where each number is replaced by its square or length, respectively.
+
 This example results in the following output:
 
-``` shell
+```shell
 Squared integers: [1 4 9 16 25]
 String lengths: [5 6 6]
 Square roots: [1 1.4142135623730951 1.7320508075688772 2 2.23606797749979]
 ```
-
