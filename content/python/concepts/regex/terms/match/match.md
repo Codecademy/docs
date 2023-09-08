@@ -31,7 +31,7 @@ A `<pattern>` can include any of the following:
 
 The `<flags>` are optional and can be set to `IGNORECASE`, `VERBOSE`, or `DOTALL`.
 
-> **Note:** [`.search()`](https://www.codecademy.com/resources/docs/python/regex/search) will only return the the first match (as a match object) within the string; alternatively, the [`.findall()`](https://www.codecademy.com/resources/docs/python/regex/findall) method matches every occurrence (and returns a list of matches).
+> **Note:** [`.search()`](https://www.codecademy.com/resources/docs/python/regex/search) will only return the first match (as a match object) within the string; alternatively, the [`.findall()`](https://www.codecademy.com/resources/docs/python/regex/findall) method matches every occurrence (and returns a list of matches).
 
 ## Example
 
