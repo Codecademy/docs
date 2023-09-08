@@ -12,9 +12,9 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**Typography** is the element of design that encompasses everything about type: how letters are arranged, the fonts designers choose, and how they are styled. Making the right choices about type can help convey emotion and meaning, enhance legibility, create visual hierarchy, and shape brand identity. 
+**Typography** is the element of design that encompasses everything about type: how letters are arranged, the fonts designers choose, and how they are styled. Making the right choices about type can help convey emotion and meaning, enhance legibility, create visual hierarchy, and shape brand identity.
 
-Users often rely on words to make sense of a product, so effective typography is a vital component of an interface. When incorporating typography in digital products, considerations include color, size, style, readability, and spacing.  
+Users often rely on words to make sense of a product, so effective typography is a vital component of an interface. When incorporating typography in digital products, considerations include color, size, style, readability, and spacing.
 
 ![The letters 'Aa' written in 15 different fonts at 100pt size, with different weight and style variations represented.](https://raw.githubusercontent.com/Codecademy/docs/main/media/typography.png)
 
