@@ -34,14 +34,16 @@ for i, v in ipairs(numbers) do
 end
 
 ```
+
 In this example, we have a table of numbers. We use the table.sort() function to sort the table in ascending order.
 The sorted table is then printed, resulting in the following output:
+
 ```shell
 1
 2
 3
 4
 5
-
 ```
+
 The table.sort() function takes the table to be sorted as its first argument. In this case, we pass the numbers table as the first argument. Since we do not provide a second argument (the optional comparison function), the default less-than operation is used to determine the sorting order.
