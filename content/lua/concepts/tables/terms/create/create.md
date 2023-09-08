@@ -29,7 +29,7 @@ Consider the following table:
 
 ```lua
 local newTable = table.create("Hello", 3)
-console.log(newTable)
+print(newTable)
 ```
 
 After executing this code, it will produce the following output:
