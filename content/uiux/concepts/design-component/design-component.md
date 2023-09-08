@@ -1,6 +1,6 @@
 ---
 Title: 'Design Component'
-Description: 'Design components are specific examples of design elements that might exist within a given context.'
+Description: 'Design components are specific examples of design elements such as buttons, menus, and form fields that are often documented within a component library as part of a larger design system.'
 Subjects:
   - 'Web Design'
 Tags:
