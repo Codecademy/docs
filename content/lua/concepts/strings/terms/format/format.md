@@ -42,7 +42,7 @@ local name = "Angel"
 local height = 5.587
 local age = 20
 
-local formatted = string.format("Hello, my name is %s, I am %.1fr ft tall and I am %d years old.", name, height, age)
+local formatted = string.format("Hello, my name is %s, I am %.1f ft tall and I am %d years old.", name, height, age)
 print(formatted)
 ```
 
