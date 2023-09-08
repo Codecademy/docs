@@ -23,16 +23,18 @@ array_reverse(array, preserve_keys)
 
 - `array`: The array to reverse.
 - `preserve_keys`: Optional argument that defaults to `false` if omitted. If set to `true`, the keys of the original, non-reversed array will be preserved.
+<br>
 > **Note:** If the keys used are non-numeric, they will always be preserved, regardless of whether the `preserve_keys` argument is used.
+
 
 ## Example
 
-This example returns the reversed array `$a` using the `array_reverse()` method. In this example, the `preserve_keys` argument is not used.
+This example returns the reversed array `$a` using the `array_reverse()` method.
 
 ```php
 <?php
   $a = array(0=>"andrew",1=>"byrne",2=>"hozier",3=>"unreal");
-  echo $backward = array_reverse($a);
+  print_r(array_reverse($a));
 ?>
 ```
 
@@ -53,7 +55,7 @@ This example uses the `preserve_keys` argument while calling the `array_reverse(
 ```php
 <?php
     $a = array(0=>"andrew",1=>"byrne",2=>"hozier",3=>"unreal");
-    echo $backward = array_reverse($a, true);
+    print_r(array_reverse($a, true));
 ?>
 ```
 
@@ -71,11 +73,15 @@ Array
 
 ## Codebyte Example
 
-The following codebyte example can be run and calls the `array_reverse()` method.
+The following codebyte example can be run and calls the `array_reverse()` method, using the `preserve_keys` argument in the second call. The third call shows that non-numeric keys are preserved automatically, even if the `preserve_keys` argument is not given.
 
 ```codebyte/php
 <?php
-  $a = array(0=>"andrew",1=>"byrne",2=>"hozier",3=>"unreal");
-  echo $backward = array_reverse($a);
+  $a = array(0=>"coffee",1=>"toast",2=>"jam");
+  print_r(array_reverse($a));
+  $p = array(0=>"coffee",1=>"toast",2=>"jam");
+  print_r(array_reverse($a, true));
+  $alph = array("c"=>"coffee","t"=>"toast","j"=>"jam");
+  print_r(array_reverse($a));
 ?>
 ```
