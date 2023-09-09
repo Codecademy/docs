@@ -20,11 +20,11 @@ struct StructName: Comparable {
   let var: Int
 
   static func < (lhs: StructName, rhs: StructName) -> Bool {
-  return lhs.var < rhs.var
+      return lhs.var < rhs.var
   }
 
   static func == (lhs: StructName, rhs: StructName) -> Bool {
-  return lhs.var == rhs.var
+      return lhs.var == rhs.var
   }
 }
 ```
@@ -38,11 +38,11 @@ struct Building: Comparable {
   let height: Int
 
   static func < (lhs: Building, rhs: Building) -> Bool {
-  return lhs.height < rhs.height
+      return lhs.height < rhs.height
   }
 
   static func == (lhs: Building, rhs: Building) -> Bool {
-  return lhs.height == rhs.height
+      return lhs.height == rhs.height
   }
 }
 
