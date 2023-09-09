@@ -31,7 +31,7 @@ Where `CoshX` is the hyperbolic cosine value of `x`, it is of type _float64_. It
 
 ## Example
 
-The following Golang Program calculates the hyperbolic cosine of `x` and prints out the result:
+The following Golang program calculates the hyperbolic cosine of `x` and prints out the result:
 
 ```go
 package main
