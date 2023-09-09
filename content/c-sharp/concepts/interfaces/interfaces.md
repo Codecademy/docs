@@ -5,7 +5,7 @@ Subjects:
   - 'Computer Science'
   - 'Code Foundations'
 Tags:
-  - 'Interfaces'
+  - 'Interface'
   - 'Syntax'
   - 'Abstraction'
   - 'Documentation'
@@ -16,7 +16,7 @@ CatalogContent:
 
 An **interface** in C# is a contract that defines a set of methods, properties, events, and indexers that a class or struct must implement. Interfaces cannot be instantiated directly, but they can be implemented by classes and structs. They are one of several tools for implementing object-oriented design in C#.
 
-### Syntax
+## Syntax
 
 An interface in C# is created using the `interface` keyword. The syntax for defining an interface in C# is:
 
@@ -49,7 +49,7 @@ class MyClass : MyInterface
 }
 ```
 
-### Example
+## Example
 
 The following example shows implementation of an interface:
 
