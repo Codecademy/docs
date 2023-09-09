@@ -1,6 +1,6 @@
 ---
 Title: 'HashMap'
-Description: 'HashMap is used to store items as a key-value pairs. The keys and values can be of either same or different types.'
+Description: 'HashMap is used to store items as key-value pairs. The keys and values can be of either the same or different types.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -138,7 +138,7 @@ An empty `HashMap` will be displayed in the output below:
 {}
 ```
 
-## Traversing a `HashMap`
+## Traversing a `HashMap` using **.keySet()**
 
 A `HashMap` can be traversed with the `for`-`each` [loop](https://www.codecademy.com/resources/docs/java/loops). The `.keySet()` method can be used to obtain only the keys, while the `.values()` method can be used to obtain only values.
 
@@ -180,4 +180,36 @@ Teachers teaching at our Institute:
 Jeanette
 Ben
 Lily
+```
+
+
+##Traversing a `HashMap` using **map.entrySet()**
+
+Alternatively, we could use Map.entry() to return a `set` of key-value pairs. This might be more efficient is some cases, where we might need to access the key and the value.
+```java
+import java.util.HashMap;
+import java.util.entrySet;
+
+public class Main {
+  public static void main(String[] args) {
+    HashMap<String, String> courseTeacher = new HashMap<String, String>();
+
+    courseTeacher.put("History", "Ben");
+    courseTeacher.put("Mathematics", "Jeanette");
+    courseTeacher.put("Physics", "Lily");
+
+
+    for (Map.entry<String, String> entry: courseTeacher.entrySet()) {
+      System.out.printf("Course: %s",entry.getKey());
+      System.out.printf("Teacher: %s \n", entry.getValue());
+    }
+
+  }
+}
+```
+The output will be:
+```shell
+Course: Mathematics Teacher: Jeanette
+Course: History Teacher: Ben
+Course: Physics Teacher: Lily
 ```
