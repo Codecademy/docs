@@ -56,7 +56,7 @@ The output will be:
 
 ## Codebyte Example
 
-The following example shows how the `Cosh()` function handles float64 arguments including _special cases_ arguments.
+The following example shows how the `Cosh()` function handles float64 arguments including special cases.
 
 ```codebyte/golang
 package main
