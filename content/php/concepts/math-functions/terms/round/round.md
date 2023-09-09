@@ -21,12 +21,9 @@ The **`round()`** returns an integer or a float to the nearest whole number or t
 $roundedNumber = round($number, $decimals, $roundMode);
 ```
 
-Returns `the nearest whole number`.
-
-```pseudo
-$roundedNumber = round($number, 2);
-```
-Returns `the number rounded to 2 decimal places`.
+- `$number`: the value to be rounded.
+- `$decimals`: the number of decimals or precision required.
+- `$roundMode`: an argument that accepts four constants to determine the rounding mode that include `PHP_ROUND_HALF_UP`, `PHP_ROUND_HALF_DOWN`, `PHP_ROUND_HALF_EVEN`, `PHP_ROUND_HALF_ODD`.
 
 ## Examples
 
@@ -44,6 +41,7 @@ This will result in the following output:
 ```shell
 100
 ```
+
 The example below demonstrates the use of the `round()` function to convert a float to `2` decimal numbers.
 
 ```php
