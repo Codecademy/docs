@@ -19,7 +19,7 @@ The **`.internalGet()`** method is a protected method used to retrieve the value
 myCalendar.internalGet(int field)
 ```
 
-> **Note:** The `.internalGet` method, which is both protected and marked as final, accepts a field constant from the `Calendar` class (e.g., YEAR) as its argument and returns the corresponding value.
+The `.internalGet()` method accepts a `field` constant from the `Calendar` class (e.g. `YEAR`) as its argument and returns the corresponding value.
 
 ## Example
 
@@ -49,7 +49,7 @@ public class InternalGetExample extends GregorianCalendar{
 }
 ```
 
-This output will vary depending on the current date. It would generally look like the following:
+This output will vary depending on the current date, it will generally look like the following:
 
 ```shell
 Current Year: 2023
