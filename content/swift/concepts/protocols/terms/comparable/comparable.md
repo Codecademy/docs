@@ -17,15 +17,15 @@ The **`Comparable`** protocol in Swift is used to define a sort order for instan
 
 ```pseudo
 struct StructName: Comparable {
-  let var: Int
+    let var: Int
 
-  static func < (lhs: StructName, rhs: StructName) -> Bool {
-      return lhs.var < rhs.var
-  }
+    static func < (lhs: StructName, rhs: StructName) -> Bool {
+        return lhs.var < rhs.var
+    }
 
-  static func == (lhs: StructName, rhs: StructName) -> Bool {
-      return lhs.var == rhs.var
-  }
+    static func == (lhs: StructName, rhs: StructName) -> Bool {
+        return lhs.var == rhs.var
+    }
 }
 ```
 
@@ -35,15 +35,15 @@ In the implementation of the `Comparable` protocol of the custom type defined be
 
 ```swift
 struct Building: Comparable {
-  let height: Int
+    let height: Int
 
-  static func < (lhs: Building, rhs: Building) -> Bool {
-      return lhs.height < rhs.height
-  }
+    static func < (lhs: Building, rhs: Building) -> Bool {
+        return lhs.height < rhs.height
+    }
 
-  static func == (lhs: Building, rhs: Building) -> Bool {
-      return lhs.height == rhs.height
-  }
+    static func == (lhs: Building, rhs: Building) -> Bool {
+        return lhs.height == rhs.height
+    }
 }
 
 let eiffelTower = Building(height: 300)
