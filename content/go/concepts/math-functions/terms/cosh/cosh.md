@@ -23,7 +23,7 @@ import "math"
 CoshX = math.Cosh(x)
 ```
 
-Where `CoshX` is the hyperbolic cosine value of `x`, it is of type _float64_. It always return the hyperbolic consine value except some special cases:
+Where `CoshX` is the hyperbolic cosine value of `x`, it is of type _float64_. It always returns the hyperbolic cosine value except for some special cases:
 
 - CoshX of `Cosh(±0)` is `1`
 - CoshX of `Cosh(±Inf)` is `+Inf`
