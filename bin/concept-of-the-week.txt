@@ -1,1 +1,1 @@
-content/open-source/concepts/font-awesome/font-awesome.md
+content/uiux/concepts/ethnography-field-studies/ethnography-field-studies.md
