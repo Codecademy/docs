@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-An **interface** in C# is a contract that defines a set of methods, properties, events, and indexers that a class or struct must implement. Interfaces cannot be instantiated directly, but they can be implemented by classes and structs. They are used to achieve abstraction and polymorphism in C#.
+An **interface** in C# is a contract that defines a set of methods, properties, events, and indexers that a class or struct must implement. Interfaces cannot be instantiated directly, but they can be implemented by classes and structs. They are one of several tools for implementing object-oriented design in C#.
 
 ### Syntax
 
@@ -53,8 +53,9 @@ class MyClass : MyInterface
 
 The following example shows implementation of an interface:
 
-
 ```cs
+using System;
+
 // Create an interface called IAnimal
 interface IAnimal
 {
