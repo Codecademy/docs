@@ -10,7 +10,7 @@ CatalogContent:
 
 ## Fields That Use Statistics
 
-Statistics is used extensively in fields such as computer science, economics, sociology, physics, and many more. Statistics is also a core component of **machine learning**, which is a subset of artificial intelligence that uses algorithms to perform specific tasks without explicit instructions. Machine learning algorithms require statistical methods to extract significant patterns, relationships, and insights from complex datasets.
+Statistics is used extensively in fields such as computer science, economics, sociology, physics, and many more. It is also a core component of **machine learning**, a subset of artificial intelligence that uses algorithms to perform specific tasks without explicit instructions. Machine learning algorithms require statistical methods to extract significant patterns, relationships, and insights from complex datasets.
 
 ## Working with Data as a Developer
 
