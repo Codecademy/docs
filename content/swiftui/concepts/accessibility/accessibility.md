@@ -111,7 +111,7 @@ SwiftUI provides a range of modifiers to fine-tune the accessibility of an app's
     }
     ```
 
-    This will render a button with yellow [background](https://www.codecademy.com/resources/docs/swiftui/viewmodifier/background) (as the initial state of `isButtonPressed` is `false`) with the "Toggle" text. When the button is pressed, the background color will change to purple. The `accessibilityAction` modifier adds an accessibility action to the button for toggling the color and providing context-specific actions.
+    This will render a button with yellow [background](https://www.codecademy.com/resources/docs/swiftui/viewmodifier/background), as the initial state of `isButtonPressed` is `false`, with the `"Toggle"` text. When the button is pressed, the background color will change to purple. The `accessibilityAction` modifier adds an accessibility action to the button for toggling the color and providing context-specific actions.
 
 ## Accessibility Techniques in SwiftUI
 
