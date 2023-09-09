@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Cosh()`** of the `math` package is an inbuilt function which takes a given value and returns its hyperbolic consine.
+The **`Cosh()`** of the `math` package is an inbuilt function which takes a given value and returns its hyperbolic consine value.
 
 ## Syntax
 
@@ -51,11 +51,12 @@ The output will be:
 
 ```shell
 74.21
+74.21
 ```
 
 ## Codebyte Example
 
-The following example is runnable and shows how the `Cos()` function handles infinite values.
+The following example shows how the `Cosh()` function handles float64 arguments including _special cases_ arguments.
 
 ```codebyte/golang
 package main
@@ -66,13 +67,18 @@ import (
 )
 
 func main() {
-  positiveInfinity := math.Inf(1)
-  negativeInfinity := math.Inf(-1)
+  var x float64
 
-  cosPositiveInf := math.Cos(positiveInfinity)
-  cosNegativeInf := math.Cos(negativeInfinity)
+  x = 5
+  CoshX := math.Cosh(x)
+  fmt.Println("Hyperbolic cosine value of", x, "is", CoshX)
 
-  fmt.Printf("The cosine of positive infinity: %f\n", cosPositiveInf)
-  fmt.Printf("The cosine of negative infinity: %f\n", cosNegativeInf)
+  x = -5
+  CoshX := math.Cosh(x)
+  fmt.Println("Hyperbolic cosine value of", x, "is", CoshX)
+
+  x = math.NaN()
+  CoshX := math.Cosh(x)
+  fmt.Println("Hyperbolic cosine value of", x, "is", CoshX)
 }
 ```
