@@ -24,7 +24,7 @@ This method takes only one argument, `int day`, which is an integer constant rep
 
 ## Example
 
-In the following example, `.setMinimalDaysInFirstWeek()` is used to set the minimal days in required in first week of the year. This example will set the minimal days required in the first week of the year to be 2 days. 
+In the following example, `.setMinimalDaysInFirstWeek()` is used to set the minimal days required in the first week of the year.  
 
 ```java
 import java.util.Calendar;
@@ -32,14 +32,14 @@ import java.util.Calendar;
 public class calendarSetMinimalDaysInFirstWeekExample {
 
     public static void main(String[] args) {
-      // create a calendar instance
+      // Create a calendar instance
       Calendar cal = Calendar.getInstance();
 
-      // set the minimal days required in the first week
+      // Set the minimal days required in the first week
       int day = 2;
       cal.setMinimalDaysInFirstWeek(day);
 
-      // print the minimak number of days required in the first week
+      // Print the minimal number of days required in the first week
       int min = cal.getMinimalDaysInFirstWeek();
       System.out.println("Minimal Days in Week: " + min);
     }
@@ -47,7 +47,7 @@ public class calendarSetMinimalDaysInFirstWeekExample {
 }
 ```
 
-The output of the above code will be set the minimal days required in first week of the year as 2 days:
+The output of the above code will be:
 
 ```shell
 Minimal Days in Week: 2
