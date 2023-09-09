@@ -1,4 +1,5 @@
 ﻿
+
 ---
 Title: 'Attributes'
 Description: 'Attributes can be added to the opening tag of an HTML element to change its default behavior or provide additional data about it.'
@@ -13,6 +14,8 @@ CatalogContent:
   - 'learn-html'
   - 'paths/front-end-engineer-career-path'
 ---
+
+
 
 
 # HTML Attributes 
@@ -33,34 +36,25 @@ Consider an `<img>` element, commonly used to display images. It can have severa
 ```html
 <img src="source_of_image.png" width="500" height="600" />
 ```
-![2D Face Expressions gif](https://media.freewebstock.com/2d-face-expressions-gif.gif)
 
+![GIF showcasing effect of height attribute on an img element](../../../../media/Changing-height-attribute-of-html-element.gif)
 
- 
 
  2. ### `href` Attribute (Hyperlink)
 
 The `href` attribute is used in anchor (`<a>`) tags to specify the URL to which a link leads. Here's an example:
 ```html
-<a href="https://www.example.com">Visit Example.com</a>
+<a href="https://www.example.com" >Visit Example</a>
 ```
-3. ###  `class` Attribute (CSS Styling)
+![Visiting a link via href attribute on <a> ](../../../../media/href-attribute.png)
 
-The `class` attribute is used to apply CSS styles to elements. It allows you to select and style multiple elements with the same class:
-```html
-<p class="special">This text has a special style.</p>
-```
-4. ###  `id` Attribute (Unique Identifier)
-
-The `id` attribute provides a unique identifier for an element. It is helpful for JavaScript and CSS to target specific elements:
-```html
-<div id="header">This is the header section.</div>
-```
-5. ###  `disabled` Attribute (Form Elements)
+3. ###  `disabled` Attribute (Form Elements)
 
 The `disabled` attribute is applied to form elements like buttons and inputs to make them non-interactable:
 ```html
 <button disabled>Submit</button>
 ```
+![Disabling attribute on a <button> element](../../../../media/button-disabled-attribute.png)
+
 ## Conclusion
 These are just a few examples of HTML attributes. HTML provides a wide range of attributes that enhance the functionality and styling of web pages, making it a powerful tool for web development.
