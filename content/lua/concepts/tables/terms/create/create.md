@@ -1,5 +1,5 @@
 ---
-title: 'create()'
+Title: '.create()'
 description: 'Returns a new table with the provided value repeated the provided amount of times.'
 Subjects:
   - 'Computer Science'
