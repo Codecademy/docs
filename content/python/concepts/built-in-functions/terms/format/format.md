@@ -45,4 +45,3 @@ value = 42
 formatted = format(value, 'b')  
 print(formatted)
 ```
-
