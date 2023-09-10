@@ -86,6 +86,7 @@ Decorators
 Deep Learning
 Denoising
 Dependency
+Design
 Developer Tools
 Development
 DFS
@@ -137,6 +138,7 @@ Frameworks
 Functions
 Functional Programming
 Functors
+Generics
 Geometry
 Ggplot2
 Git
@@ -170,6 +172,7 @@ iOS
 Iterators
 Join
 jQuery
+JRuby
 JSON
 JSK
 K-Nearest Neighbors
@@ -241,6 +244,7 @@ Print
 Probability
 Promise
 Properties
+Protocols
 Queries
 Queues
 Quicksort

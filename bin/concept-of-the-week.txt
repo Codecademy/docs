@@ -1,1 +1,1 @@
-content/go/concepts/memory/memory.md
+content/uiux/concepts/ethnography-field-studies/ethnography-field-studies.md
