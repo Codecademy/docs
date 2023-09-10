@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.getWeekYear()`** method of the `Calendar` class returns the time represented by a `Calendar` object in the form of week year.
+The **`.getWeekYear()`** method of the `Calendar` class returns the time represented by a `Calendar` object in the form of the week year.
 
 ## Syntax
 
