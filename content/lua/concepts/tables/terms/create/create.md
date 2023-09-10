@@ -9,7 +9,7 @@ Tags:
   - 'Functions'
 CatalogContent:
   - 'learn-lua'
- - 'paths/computer-science'
+  - 'paths/computer-science'
 ---
 
 The **`.create()`** function generates a new table with a specified value repeated a given number of times.
