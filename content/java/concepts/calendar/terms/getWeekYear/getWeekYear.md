@@ -1,6 +1,6 @@
 ---
 Title: '.getWeekYear()'
-Description: 'Returns the week year'
+Description: 'Returns the week year.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
