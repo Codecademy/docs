@@ -1,5 +1,5 @@
 ---
-Title: 'char()'
+Title: '.char()'
 Description: 'Converts a decimal value to its character representation.'
 Subjects:
   - 'Code Foundations'
