@@ -20,7 +20,11 @@ The **`.isEmpty`** property returns true if an array contains no elements, retur
 arrayName.isEmpty
 ```
 
+Where `arrayName` is the arry being checked for elements.
+
 ## Example
+
+The following example creates and array and checks `.isEmpty()` before and after adding an element:
 
 ```swift
 var favoriteSongs = [String]()
