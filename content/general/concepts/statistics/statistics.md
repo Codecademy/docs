@@ -1,9 +1,16 @@
 ---
 Title: 'Statistics'
 Description: 'Statistics is the science that is concerned with methods for collecting, organizing, analyzing, and interpreting data.'
+Subjects:
+  - 'Data Science'
+  - 'Computer Science'
+Tags:
+  - 'Statistics'
+  - 'Data'
+  - 'NumPy'
 CatalogContent:
-  - 'paths/data-science'
   - 'paths/data-science-foundations'
+  - 'learn/statistics-mean-median-mode-course'
 ---
 
 **Statistics** is the science that is concerned with methods for collecting, organizing, analyzing, and interpreting **data**. Data refers to any collection of facts, such as numbers, words, measurements, or descriptive details. In the realm of statistics, data can be used to find correlations, make predictions, and draw conclusions about a population based on a sample. Visual representations such as charts make data easier to analyze and understand.
