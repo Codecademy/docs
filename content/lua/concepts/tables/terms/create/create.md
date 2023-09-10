@@ -29,7 +29,9 @@ Consider the following table:
 
 ```lua
 local newTable = table.create(3, "Hello")
-print(newTable)
+for i = 1, 3 do
+    print(newTable[i])
+end
 ```
 
 After executing this code, it will produce the following output:
