@@ -28,7 +28,7 @@ table.create(amount, value)
 Consider the following table:
 
 ```lua
-local newTable = table.create("Hello", 3)
+local newTable = table.create(3, "Hello")
 print(newTable)
 ```
 
