@@ -16,7 +16,7 @@ The **`.create()`** function generates a new table with a specified value repeat
 
 ## Syntax
 
-```lua
+```pseudo
 table.create(amount, value)
 ```
 
