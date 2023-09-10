@@ -9,7 +9,8 @@ Tags:
   - 'Strings'
   - 'built-in-funtions'
 CatalogContent:
-  - 'learn-git-&-github'
+- 'learn-python-3'
+- 'paths/computer-science'
 ---
 
 The **format()** function returns a string from an input value, formatted to the specified specifications.
