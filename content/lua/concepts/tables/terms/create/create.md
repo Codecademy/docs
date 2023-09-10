@@ -17,7 +17,7 @@ The **`.create()`** function generates a new table with a specified value repeat
 ## Syntax
 
 ```lua
-table.create(value, amount)
+table.create(amount, value)
 ```
 
 - `value` : This parameter represents the value to populate the table with.
