@@ -17,13 +17,13 @@ The **`.create()`** function generates a new table with a specified value repeat
 ## Syntax
 
 ```pseudo
-table.create(amount, value)
+table.create(size, value)
 ```
 
-- `amount`: A number representing the amount of elements in the table.
+- `size`: A number representing the size of elements in the table.
 - `value`: A string representing the value each element will be.
 
-> **Note:** When `value` is omitted or `nil`, the table will be returned empty but will have preallocated space for the `amount` specified. Preallocation is done on the array portion of the table, making `table.create` counter-productive on dictionaries.
+> **Note:** When `value` is omitted or `nil`, the table will be returned empty but will have preallocated space for the `size` specified. Preallocation is done on the array portion of the table, making `table.create` counter-productive on dictionaries.
 
 ## Example
 
