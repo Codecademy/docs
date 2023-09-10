@@ -210,11 +210,6 @@ public class Main {
 ```
 
 
-
-The output will be:
-
-
-
 ```shell
 Course: Mathematics Teacher: Jeanette
 Course: History Teacher: Ben
