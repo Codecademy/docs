@@ -1,6 +1,6 @@
 ---
 Title: '.format()'
-Description: The format() function in Python is a built-in function that is used to format different types of objects into strings.
+Description: 'Used to format different types of objects into strings.'
 Subjects:
   - 'A subject name'
   - 'A second subject name'
