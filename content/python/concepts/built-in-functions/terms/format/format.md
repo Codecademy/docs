@@ -13,7 +13,7 @@ CatalogContent:
 - 'paths/computer-science'
 ---
 
-The **format()** function returns a string from an input value, formatted to the specified specifications.
+The **format()** function returns a string from an input value, formatted to the provided specifications.
 
 ## Syntax
 
