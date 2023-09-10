@@ -35,5 +35,7 @@ print(newTable)
 After executing this code, it will produce the following output:
 
 ```shell
-{"Hello", "Hello", "Hello"}
+Hello
+Hello
+Hello
 ```
