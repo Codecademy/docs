@@ -1,5 +1,3 @@
-﻿
-
 ---
 Title: 'Attributes'
 Description: 'Attributes can be added to the opening tag of an HTML element to change its default behavior or provide additional data about it.'
@@ -16,7 +14,6 @@ CatalogContent:
 ---
 
 HTML attributes are data that can be added to the opening tag of an HTML element. These attributes modify the default behavior of the element or provide additional information about it. 
-
 Attributes consist of a name and are usually set equal to a value. Values are enclosed in double or single quotation marks. 
 
 ## Syntax 
@@ -27,7 +24,7 @@ The syntax for adding attributes to an HTML element is as follows:
  <tagname attribute="value"></tagname> 
  ```
 
-**Note:** Attribute names are not case-sensitive, but it is good practice to write HTML markup in lowercase.
+> **Note:** Attribute names are not case-sensitive, but it is good practice to write HTML markup in lowercase.
  
 ## Examples 
 
@@ -39,7 +36,7 @@ Using an  `<img>` element, which is commonly used to display images, reveals sev
 <img src="source_of_image.png" width="500" height="600" />
 ```
 
-![GIF showcasing effect of height attribute on an img element](https://raw.githubusercontent.com/Codecademy/docs/main/media/Changing-height-attribute-of-html-element.gif)
+![GIF showcasing effect of height attribute on an img element](https://raw.githubusercontent.com/Codecademy/docs/main/media/changing-height-attribute-of-html-element.gif)
 
 
  ###  `disabled` Attribute 
