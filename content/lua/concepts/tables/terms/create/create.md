@@ -20,7 +20,7 @@ The **`.create()`** function generates a new table with a specified value repeat
 table.create(amount, value)
 ```
 
-- `value` : This parameter represents the value to populate the table with.
+- `amount`: A number representing the amount of elements in the table.
 - `amount` : This parameter specifies how many times to repeat the `value` in the table.
 
 ## Example
