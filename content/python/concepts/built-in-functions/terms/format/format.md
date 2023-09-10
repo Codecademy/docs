@@ -2,9 +2,7 @@
 Title: '.format()'
 Description: 'Used to format different types of objects into strings.'
 Subjects:
-  - 'A subject name'
-  - 'A second subject name'
-  - 'An nth subject name'
+  - 'Computer Science'
 Tags:
   - 'Functions'
   - 'Methods'
