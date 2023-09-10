@@ -1,6 +1,6 @@
 ---
 Title: '.create()'
-description: 'Returns a new table with the provided value repeated the provided amount of times.'
+Description: 'Returns a new table with a specified value repeated a given number of times.'
 Subjects:
   - 'Computer Science'
   - 'Game Development' 
