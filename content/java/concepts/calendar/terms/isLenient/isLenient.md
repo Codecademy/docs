@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.isLenient()`** method of the `Calendar` class returns `True` if the interpretation of this `Calendar` is lenient else `False`.
+The **`.isLenient()`** method of the `Calendar` class returns `True` if the interpretation of this `Calendar` is lenient else it returns `False`.
 
 ## Syntax
 
