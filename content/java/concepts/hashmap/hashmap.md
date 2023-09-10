@@ -138,7 +138,7 @@ An empty `HashMap` will be displayed in the output below:
 {}
 ```
 
-## Traversing a `HashMap` using **.keySet()**
+## Traversing a `HashMap` using `.keySet()`
 
 A `HashMap` can be traversed with the `for`-`each` [loop](https://www.codecademy.com/resources/docs/java/loops). The `.keySet()` method can be used to obtain only the keys, while the `.values()` method can be used to obtain only values.
 
@@ -183,9 +183,10 @@ Lily
 ```
 
 
-##Traversing a `HashMap` using **map.entrySet()**
+## Traversing a `HashMap` using `map.entrySet()`
 
-Alternatively, we could use Map.entry() to return a `set` of key-value pairs. This might be more efficient is some cases, where we might need to access the key and the value.
+Alternatively, Map.entry() can be used to return a `set` of key-value pairs. This might be more efficient in some cases where it's needed to access the key and the value.
+
 ```java
 import java.util.HashMap;
 import java.util.entrySet;
@@ -207,7 +208,13 @@ public class Main {
   }
 }
 ```
+
+
+
 The output will be:
+
+
+
 ```shell
 Course: Mathematics Teacher: Jeanette
 Course: History Teacher: Ben
