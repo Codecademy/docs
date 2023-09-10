@@ -24,7 +24,7 @@ Returns the time represented by this `Calendar` object in week year as a `intege
 
 ## Example
 
-This example code shows the basic use of the getWeekYear() method
+This example code shows the basic use of the `getWeekYear()` method:
 
 ```java
 import java.util.Calendar;
