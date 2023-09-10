@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.isEmpty`** method returns true if an array contains no elements, returns false if the array contains one or more elements.
+The **`.isEmpty`** property returns true if an array contains no elements, returns false if the array contains one or more elements.
 
 ## Syntax
 
