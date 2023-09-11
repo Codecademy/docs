@@ -84,9 +84,9 @@ The `htmlentities()` function returns the converted `$string`. However, if the `
 
 ## Changelog
 
-| Version | Description                                 |
-| ------- | ------------------------------------------- | -------------- | ------------ |
-| 8.1.0   | flags changed from ENT_COMPAT to ENT_QUOTES | ENT_SUBSTITUTE | ENT_HTML401. |
+| Version | Description|
+| ------- | ------|
+| 8.1.0   | flags changed from ENT_COMPAT to ENT_QUOTES \| ENT_SUBSTITUTE \| ENT_HTML401.|
 | 8.0.0   | encoding is nullable now.                   |
 
 <br>
