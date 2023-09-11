@@ -26,26 +26,25 @@ time_zone = myCalendar.getTimeZone();
 
 ## Example
 
-The following code creates demonstrates the use of the `.getTimeZone()` method. 
+The following code demonstrates the use of the `.getTimeZone()` method.
 
 ```java
 import java.util.*;
- 
+
 public class Calendar_Demo {
   public static void main(String args[])
   {
    // Creating a calendar object
    Calendar calndr = Calendar.getInstance();
- 
+
    // Getting the time zone of calendar
    TimeZone time_zone = calndr.getTimeZone();
- 
+
    // Displaying the current time zone
    System.out.println("The current Time zone is: "
                      + time_zone.getDisplayName());
   }
 }
-
 ```
 
 The above code will return an output similar to:
