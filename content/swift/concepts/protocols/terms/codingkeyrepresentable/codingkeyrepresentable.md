@@ -11,9 +11,10 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The `CodingKeyRepresentable` protocol provides the flexibility to covert between a `CodingKey` type between a personalized type. This protocol enables the use of dictionaries that are not a `String` or `Int`(non-standard keys) to be encoded using organized 'keyed' containers instead of 'unkeyed' containers.
+The `CodingKeyRepresentable` protocol provides the flexibility to covert between a `CodingKey` type and a personalized type. This protocol enables the use of dictionaries that are not a `String` or `Int`(non-standard keys) to be encoded using organized 'keyed' containers instead of 'unkeyed' containers.
 
 ## Syntax
+
 ```pseudo
 protocol CodingKeyRepresentable
 ```
@@ -22,14 +23,14 @@ protocol CodingKeyRepresentable
 
 ## Example
 
-In the following example, a special list, known as an enum, named `NewSettings` is declared. This enum has two options: `name` and `instagram`. This list can be used to organize data(e.g. settings for a profile). A dictionary named `newDict` is created, and it uses the special list as keys and strings as values. 
+In the following example, an enum named `NewSettings` is declared, and it contains two options: `name` and `instagram`. This list can be used to organize data (e.g. settings for a profile). Then, a dictionary named `newDict` is created, and it uses `NewSettings` as keys to be associated with new string values.
 
 Then a tool called `JSONEncoder` is used to convert this dictionary into a special format called [JSON](https://www.codecademy.com/resources/docs/general/json). The JSON data is turned into readable text and the output is shown in an object format.
 
- ```
- enum NewSettings: String, Codable, CodingKeyRepresentable {
-    case name
-    case instagram
+```
+enum NewSettings: String, Codable, CodingKeyRepresentable {
+   case name
+   case instagram
 }
 
 
