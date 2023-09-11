@@ -26,7 +26,7 @@ time_zone = myCalendar.getTimeZone();
 
 ## Example
 
-The following code creates a Calendar class object and then assigns the object's current time zone to a TimeZone object. The result is then printed to the screen. 
+The following code creates demonstrates the use of the `.getTimeZone()` method. 
 
 ```java
 import java.util.*;
