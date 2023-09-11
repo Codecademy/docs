@@ -182,7 +182,6 @@ Ben
 Lily
 ```
 
-
 ## Traversing a `HashMap` using `map.entrySet()`
 
 Alternatively, Map.entry() can be used to return a `set` of key-value pairs. This might be more efficient in some cases where it's needed to access the key and the value.
@@ -209,6 +208,7 @@ public class Main {
 }
 ```
 
+This example results in the following output:
 
 ```shell
 Course: Mathematics Teacher: Jeanette
