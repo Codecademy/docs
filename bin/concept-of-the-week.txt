@@ -1,1 +1,1 @@
-content/git/concepts/status/status.md
+content/sql/concepts/wildcards/wildcards.md
