@@ -48,7 +48,7 @@ public class Calendar_Demo {
 
 ```
 
-The above code will output:
+The above code will return an output similar to:
 
 ```shell
 The current Time zone is: Coordinated Universal Time
