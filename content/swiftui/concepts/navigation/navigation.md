@@ -22,7 +22,7 @@ CatalogContent:
 To be able to navigate to different views from the root view, views will be wrapped with a `NavigationStack` `struct` as in the example below: 
 
 ```swift
-struct Tap: View {
+struct MyApp: View {
     var body: some View {
       NavigationStack{
         Text("Hello, World!")
@@ -33,8 +33,8 @@ struct Tap: View {
 
 This defines the root view of the stack. Then to define the destination use `NavigationLink`. When pressed, it navigates to the destination view that was defined: 
 
-```Swift
-struct Doc: View { 
+```swift
+struct MyApp: View { 
 var body: some View {
           NavigationStack{
             VStack{
@@ -57,24 +57,22 @@ This code will output:
 
 The label of the `NavigationLink` can be customized:
 
-```Swift
-struct Doc: View { 
-   var body: some View {
-          NavigationStack{
+```swift
+struct MyApp: View { 
+    var body: some View {
+        NavigationStack{
             VStack{
                 Text("Hello, World!")
-                  NavigationLink {
-                      Text("Cairo") // desired view destination
-                  } label: {
-                      Image(systemName: "arrow.right")
-                          .foregroundColor(.red)
-                          .padding(.vertical)
-                      
-                  }
+                NavigationLink {
+                    Text("Cairo") // desired view destination
+                } label: {
+                    Image(systemName: "arrow.right")
+                        .foregroundColor(.red)
+                        .padding(.vertical)
+                }
             }
-
-           }
         }
+    }
 }
 ```
 
@@ -88,9 +86,10 @@ This code will output:
 
 One of the common examples of using `NavigationStack` is with `Lists`. For example, there is a list of names in the view. The goal is to be able to navigate to another view by pressing the element in the list. This can be achieved by wrapping the `List` in a `NavigationStack` :
 
-```Swift
-struct Doc: View {
+```swift
+struct MyApp: View {
     let Names = ["Omar","Adam","Zack"] // this is the list
+
     var body: some View {
         NavigationStack{
             List(Names,id:\.self){ name in // List iterates throw the Names array, every iteration the element is stored in name.
@@ -116,9 +115,10 @@ Those are just basic examples for `NavigationStack`, there are no limits on how 
 
 There are some basic modifiers to use with `NavigationStack`. The first one is `.navigationTitle`. This is used to be able to declare the title of the view. It looks like this:
 
-```Swift
-struct Doc: View {
+```swift
+struct MyApp: View {
     let Names = ["Omar","Adam","Zack"]
+
     var body: some View {
         NavigationStack{
             List(Names,id:\.self){ name in
@@ -140,9 +140,10 @@ This code will output:
 
 Another important modifier is `.navigationBarBackButtonHidden()`. This modifier removes the back button that appears when navigating to another view. This modifier is applied to the desired view:
 
-```Swift
-struct Doc: View {
+```swift
+struct MyApp: View {
     let Names = ["Omar","Adam","Zack"]
+
     var body: some View {
         NavigationStack{
             List(Names,id:\.self){ name in
