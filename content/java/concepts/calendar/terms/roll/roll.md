@@ -1,13 +1,13 @@
 ---
-Title: '.roll()' 
-Description: 'Used to operate on the given calendar by moving up or down by a single unit.' 
+Title: '.roll()'
+Description: 'Adds or subtracts a single unit of time from a given calendar.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-Tags: 
+Tags:
   - 'Date'
   - 'Methods'
-CatalogContent: 
+CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
 ---
@@ -21,6 +21,7 @@ calendar.roll(calndr_field, bool_flag)
 ```
 
 This method takes two arguments, `calndr_field`, which will be used to select which field of the calendar you will use (`YEAR`, `MONTH`, `DAY`). The second one `bool_flag` will add a single unit of time if `true` or will subtract a single unit of time if `false`.
+
 ## Example
 
 In the following example, `.roll()` is being used to add and subtract one year to the calendar being used.
