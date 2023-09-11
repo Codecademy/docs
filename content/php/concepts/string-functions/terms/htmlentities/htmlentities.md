@@ -28,7 +28,7 @@ The `htmlentities()` function has one required parameter and three optional para
 
   - The available quote styles are:
 
-    | Constant Name | Description                         |
+    | Constant Name | Description|
     | ------------- | ----------------------------------- |
     | ENT_COMPAT    | Default. Encodes only double quotes |
     | ENT_QUOTES    | Encodes double and single quotes    |
@@ -36,22 +36,21 @@ The `htmlentities()` function has one required parameter and three optional para
 
   - Invalid encoding:
 
-    | Constant Name  | Description                                                                                                                                                   |
-    | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-    | ENT_IGNORE     | Ignores invalid encoding instead of having the function return an empty string. Should be avoided, as it may have security                                    |
+    | Constant Name  | Description |                                                                                                                                     |---|---|
+    | ENT_IGNORE| Ignores invalid encoding instead of having the function return an empty string. Should be avoided, as it may have security|                        
     | ENT_SUBSTITUTE | Replaces invalid encoding for a specified character set with a Unicode Replacement Character U+FFFD (UTF-8) or &#FFFD; instead of returning an empty string.s |
-    | ENT_DISALLOWED | Replaces code points that are invalid in the specified doctype with a Unicode Replacement Character U+FFFD (UTF-8) or &#FFFD;                                 |
+    | ENT_DISALLOWED | Replaces code points that are invalid in the specified doctype with a Unicode Replacement Character U+FFFD (UTF-8) or &#FFFD;|                
 
   - Additional flags for specifying the used doctype:
 
-    | Constant Name | Description                       |
+    | Constant Name | Description|
     | ------------- | --------------------------------- |
     | ENT_HTML401   | Default. Handle code as HTML 4.01 |
-    | ENT_HTML5     | Handle code as HTML 5             |
-    | ENT_XML1      | Handle code as XML 1              |
-    | ENT_XHTML     | Handle code as XHTML              |
+    | ENT_HTML5     | Handle code as HTML 5|
+    | ENT_XML1      | Handle code as XML 1|
+    | ENT_XHTML     | Handle code as XHTML|
 
-- `$encoding`: An optional argument defining the encoding used when converting characters. If omitted, `$encoding` defaults to the value of the default_charset configuration option. Although this argument is technically optional, you are highly encouraged to specify the correct value for your code if the default_charset configuration option may be set incorrectly for the given input.
+- `$encoding`: An optional argument defining the encoding used when converting characters. If omitted, `$encoding` defaults to the value of the `default_charset` configuration option. Although this argument is technically optional, you are highly encouraged to specify the correct value for your code if the `default_charset` configuration option may be set incorrectly for the given input.
 
   - The following character sets are supported:
     |Charset|Aliases|Description|
@@ -87,7 +86,7 @@ The `htmlentities()` function returns the converted `$string`. However, if the `
 | Version | Description|
 | ------- | ------|
 | 8.1.0   | flags changed from ENT_COMPAT to ENT_QUOTES \| ENT_SUBSTITUTE \| ENT_HTML401.|
-| 8.0.0   | encoding is nullable now.                   |
+| 8.0.0   | encoding is nullable now.|
 
 <br>
 
