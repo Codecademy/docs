@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.computeFields()`** method of the `Calendar` class converts the current millisecond time value to the relevant field values in the passed `Calendar` object.
+The **`.computeFields()`** method of the `Calendar` class converts the current millisecond time value to the relevant field values in the `Calendar` object.
 
 ## Syntax
 
