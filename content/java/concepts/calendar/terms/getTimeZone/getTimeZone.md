@@ -18,7 +18,7 @@ The **`.getTimeZone()`** method in the `Calendar` class is used to return the cu
 ## Syntax
 
 ```pseudo
-TimeZone time_zone = myCalendar.getTimeZone();
+time_zone = myCalendar.getTimeZone();
 ```
 
 - `myCalendar` is a `Calendar` class object for which the time zone is being retrieved.
