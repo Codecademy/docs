@@ -1,6 +1,6 @@
 ---
 Title: 'Linear Activation Function'
-Description: 'The linear activation function, also known as the identity function, is where the activation is proportional to the input.'
+Description: 'The linear activation function is an activation function where the activation is proportional to the input.'
 Subjects:
   - 'Machine Learning'
   - 'Data Science'
