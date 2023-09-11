@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Atan()`** function returns the arctangent of a value given in radians.
+The **`Atan()`** function returns the arctangent, in radians, of a given value.
 
 ## Syntax
 
