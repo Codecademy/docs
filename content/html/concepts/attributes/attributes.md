@@ -47,5 +47,6 @@ The `disabled` attribute is applied to form elements like buttons and inputs to 
 <button disabled>Submit</button>
 ```
 
+This is the output of the above code snippet: 
 ![Disable attribute on a <button> element](https://raw.githubusercontent.com/Codecademy/docs/main/media/media/button-disabled-attribute.gif)
 
