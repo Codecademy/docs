@@ -20,11 +20,11 @@ The **`.getWeekYear()`** method of the `Calendar` class returns the time represe
 calendar.getWeekYear()
 ```
 
-Returns the time represented by this `Calendar` object in week year as a `integer`.
+Returns the week year represented by this `Calendar` object in as an `integer`.
 
 ## Example
 
-This example code shows the basic use of the `getWeekYear()` method:
+This example code shows the basic use of the `.getWeekYear()` method:
 
 ```java
 import java.util.Calendar;
@@ -38,7 +38,6 @@ public class CalendarGetWeekYearExample{
 
     // Get the current time in weekyear
     long currentWeekYear = calendar.getWeekYear();
-
 
     // Prints current time in week year
     System.out.println("Current Week Year: " + currentWeekYear);
