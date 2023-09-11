@@ -40,13 +40,13 @@ Use 2 to 3 sentences to explain the concept of for loops in Javascript to a 5 ye
 
 ### Define Your Purpose
 
-Another key to writing effective prompts is defining the purpose of the prompt. In other words, effectively defining the goal for the LLM to achieve. This can be done by specifying the tone, format, and audience of the prompt.One area in which tone is important, is writing an email. For example, a different tone would be used when writing an email to a sibling, versus one to someone's boss. Therefore, when asking an LLM to write a draft of an email, it is important to make sure it understands what tone is preferred.In addition to specifying the tone, we can also specify the format of the LLM's response. In some situations, it can be specified that the LLM use a bullet list, versus a series of paragraphs.Finally, by specifying a possible audience, an LLM can even be more precise when generating an email. For instance, an LLM will most likely provide additional details when writing an email in a professional tone versus a casual tone.
+Another key to writing effective prompts is defining the purpose of the prompt. In other words, effectively defining the goal for the LLM to achieve. This can be done by specifying the tone, format, and audience of the prompt.One area in which tone is important, is writing an email. For example, a different tone would be used when writing an email to a sibling, versus one to someone's boss. Therefore, when asking an LLM to write a draft of an email, it is important to make sure it understands what tone is preferred. In addition to specifying the tone, we can also specify the format of the LLM's response. In some situations, it can be specified that the LLM use a bullet list, versus a series of paragraphs.Finally, by specifying a possible audience, an LLM can even be more precise when generating an email. For instance, an LLM will most likely provide additional details when writing an email in a professional tone versus a casual tone.
 
 ### Provide Context
 
 As mentioned earlier, LLMs are trained using vast amounts of data, which is used to effectively craft responses to a prompt. One way to indirectly control what data an LLM uses in its response, is by clearly defining the context of the prompt. Defining context indicates to the LLM what training data it should use to formulate a response.
 
-A common use case in which context is important is when asking an LLM to debug an error message from code. For example, when encountering a specific error associated with a line of code, a good prompt would be the following.
+A common case in which context is important is when asking an LLM to debug an error message when writing code. For example, when encountering a specific error associated with a line of code, a good prompt would be the following.
 
 ```
 I'm encountering an error in my code. Given the error message, and the following block of code, can you help me find a solution?
