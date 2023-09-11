@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.getTimeZone()`** method in Calendar class is used to return the current time-zone of a given Calendar.
+The **`.getTimeZone()`** method in the `Calendar` class is used to return the current time-zone of a given calendar.
 
 ## Syntax
 
