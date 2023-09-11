@@ -24,9 +24,9 @@ To be able to navigate to different views from the root view, views will be wrap
 ```swift
 struct MyApp: View {
     var body: some View {
-      NavigationStack{
-        Text("Hello, World!")
-       }
+        NavigationStack{
+            Text("Hello, World!")
+        }
     }
 }
 ```
@@ -35,19 +35,18 @@ This defines the root view of the stack. Then to define the destination use `Nav
 
 ```swift
 struct MyApp: View { 
-var body: some View {
-          NavigationStack{
-            VStack{
+    var body: some View {
+        NavigationStack {
+            VStack {
                 Text("Hello, World!")
-                  NavigationLink {
-                      Text("Cairo") // desired view destination
-                  } label: {
-                      Text("Go to...")
-                  }
+                NavigationLink {
+                    Text("Cairo") // desired view destination
+                } label: {
+                    Text("Go to...")
+                }
             }
-
-           }
         }
+    }
 }
 ```
 
@@ -88,18 +87,17 @@ One of the common examples of using `NavigationStack` is with `Lists`. For examp
 
 ```swift
 struct MyApp: View {
-    let Names = ["Omar","Adam","Zack"] // this is the list
+    let Names = ["Omar","Adam","Zack"] // List of names
 
     var body: some View {
         NavigationStack{
             List(Names,id:\.self){ name in // List iterates throw the Names array, every iteration the element is stored in name.
                 NavigationLink {
-                    Text(name) // desired view destination
+                    Text(name) // Desired view destination
                 } label: {
                     Text(name)  
                 }
-            }
-            
+            } 
         }
     }
 }
@@ -148,7 +146,7 @@ struct MyApp: View {
         NavigationStack{
             List(Names,id:\.self){ name in
                 NavigationLink {
-                    Text(name) // desired view destination
+                    Text(name)
                      .navigationBarBackButtonHidden()
                 } label: {
                     Text(name)
