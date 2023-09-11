@@ -24,7 +24,7 @@ result := math.Atan(x)
 Notes on the parameter:
 
 - `x` is the value whose arctangent value is to be found.
-- The range must be between between -π/2 to π/2 radians.
+- The `result` will be between between -π/2 to π/2 radians.
 - If the parameter is either less than -π/2 or greater than π/2 it returns NaN.
 - The value returned will be of type `float64`.
 
