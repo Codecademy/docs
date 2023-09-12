@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`html_entity_decode()`** function is the opposite of **[htmlentities()](../htmlentities/htmlentities.md)** function in that it converts HTML entities in the string to their corresponding characters.
+The **`html_entity_decode()`** function is the opposite of [`htmlentities()`](https://www.codecademy.com/resources/docs/php/string-functions/html-entities) function in that it converts HTML entities in the string to their corresponding characters.
 
 ## Syntax
 
