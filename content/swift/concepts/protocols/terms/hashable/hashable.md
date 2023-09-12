@@ -26,7 +26,7 @@ protocol Hashable {
 
 The protocol requires the implementation of the `hash(into:)` method. This method accepts an `inout Hasher` parameter named `myhasher`, which is responsible for combining the hash values of the properties of the type.
 
-## Example
+## Example using Struct
 
 In this example, the Person struct conforms to the Hashable protocol by implementing the `hash(into:)` method. The hash value is calculated by combining the `name` and `age` properties using the `myhasher.combine(_:)` method. This allows instances of the Person struct to be stored in a set (`personSet`) and efficiently looked up using their hashed values.
 
@@ -55,4 +55,30 @@ This example results in the following output:
 
 ```shell
 Is Alice in the set? Yes
+```
+
+## Example using Enum
+
+In this example, we have an enum called `Color` with three cases: `red`, `green`, and `blue`. Since enum cases are unique by definition, they are automatically hashable, and you can use them in data structures like sets or dictionaries without any additional implementation for the `Hashable` protocol
+
+```swift
+enum Color: Hashable {
+    case red
+    case green
+    case blue
+}
+
+let colorSet: Set<Color> = [.red, .green, .blue]
+
+for color in colorSet {
+    print(color)
+}
+```
+
+This example results in the following output:
+
+```shell
+red
+green
+blue
 ```
