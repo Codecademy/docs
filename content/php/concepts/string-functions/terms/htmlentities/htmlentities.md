@@ -102,7 +102,7 @@ The browser output of the code above will be:
 
 ## Codebyte Example
 
-This example is runnable and uses the `htmlentities()` function:
+This example is runnable and uses the `htmlentities()` function with various flags:
 
 ```codebyte/php
 <?php
