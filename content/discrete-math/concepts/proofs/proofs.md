@@ -37,7 +37,7 @@ A proof by mathematical induction consists of two steps. The steps of a mathemat
 
 ### Base Step
 
-In the base step (also known as the base case, initial case, or basis step), the first element in the series is shown to have the relevant property. For example:
+In the base step (also known as the base case, initial case, or basis step), the first element or elements in the series are shown to have the relevant property. For example:
 
 ```plaintext
 When n=1, n is odd.
@@ -59,4 +59,4 @@ The inductive step above shows that no matter the value of n in the series, if n
 
 Why do the base step and the inductive step together demonstrate the truth of a universal generalization? The logic of a mathematical induction can be pictured as a series of dominoes falling. In the base step, the first domino is knocked over. In the inductive step, it is shown that any successive domino will be knocked over by the domino falling behind it. Thus, once the first domino is knocked over, the second will be knocked over, then the third, and so on for *all* the dominoes.
 
-In less metaphorical terms, the base step shows that the first element has the relevant property. It then follows from the inductive step that the second element has that property. Now the inductive step can be applied again on the second element to show that the third element has the property. Since this can be done indefinitely, the entire series is shown to have the relevant property.
+In less metaphorical terms, the base step shows that the first n elements have the relevant property. It then follows from the inductive step that the element at n+1 has that property. Now the inductive step can be applied again on the element at n+1 to show that the element at n+2 has the property. Since this can be done indefinitely, the entire series is shown to have the relevant property.
