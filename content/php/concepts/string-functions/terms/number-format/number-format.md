@@ -20,6 +20,7 @@ The **`number_format()`** function takes a given number and formats it with grou
 ```pseudo
 number_format($number, $decimals, $decimal_point, $separator);
 ```
+
 - `number`: The number to format.
 - `decimals`: Optional argument that sets the number of digits after the decimal point. If not given, the number returned will be a whole number.
 - `decimal_point`: Optional argument that specifies the decimal separator and should be given in string format.
@@ -44,7 +45,6 @@ This is the output for the above example:
 ## Codebyte Example
 
 The following codebyte example can be run and calls the `number_format()` method two times. The second call uses the optional `decimals`, `decimal_point`, and `separator` arguments.
-
 
 ```codebyte/php
 <?php
