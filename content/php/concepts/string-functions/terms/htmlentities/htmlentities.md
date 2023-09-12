@@ -77,15 +77,6 @@ The `htmlentities()` function has one required parameter and three optional para
 
 > **Note:** The `htmlentities()` function returns the converted `$string`. However, if the `$string` parameter contains invalid encoding, it will return an empty `$string`, unless either the `ENT_IGNORE` or `ENT_SUBSTITUTE` flags are set
 
-## Changelog
-
-| Version | Description|
-| ------- | ------|
-| 8.1.0   | flags changed from ENT_COMPAT to ENT_QUOTES \| ENT_SUBSTITUTE \| ENT_HTML401.|
-| 8.0.0   | encoding is nullable now.|
-
-<br>
-
 ## Example
 
 The following example uses the `htmlentities()` function to convert the string `"Welcome!!!"` to HTML entities:
