@@ -1,6 +1,6 @@
 ---
 Title: '.getWeeksInWeekYear()'
-Description: 'Returns the total number of weeks in a week year in the integer form.'
+Description: 'Returns the total number of weeks in a week year.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.getWeeksInWeekYear()`** method of the `Calendar` class returns the integer `number of weeks` in `week year`.
+The **`.getWeeksInWeekYear()`** method of the `Calendar` class returns an integer representing the number of weeks in a _week year_.
 
 ## Syntax
 
@@ -19,7 +19,7 @@ The **`.getWeeksInWeekYear()`** method of the `Calendar` class returns the integ
 calendar.getWeeksInWeekYear()
 ```
 
-> **Note:** The concept of a `week-based year` is important in some calendar systems, especially when dealing with fiscal years or other non-standard year definitions. The number of weeks in a week-based year can vary depending on factors such as the `starting day` of the week and whether the year contains `partial weeks` at the beginning or end.
+> **Note:** The concept of a _week-based year_ is important in some calendar systems, especially when dealing with fiscal years or other non-standard year definitions. The number of weeks in a week-based year can vary depending on factors such as the starting day of the week and whether the year contains partial weeks at the beginning or end.
 
 ## Example 1
 
@@ -36,14 +36,14 @@ public class CalendargetWeeksInWeekYearExample {
     // Displaying the calendar
     System.out.println("Current Calendar: " + cal.getTime());
 
-    System.out.println("Weeks in week year :"  + cal.getWeeksInWeekYear());
+    System.out.println("Weeks in week year: "  + cal.getWeeksInWeekYear());
 
     cal.setWeekDate(1996, 23, 6 );
 
-    System.out.println("Changed Time:"+cal.getTime());
+    System.out.println("Changed Time: "+cal.getTime());
 
     // Get the number of weeks in the week-based year
-    System.out.println("Weeks in week year :"  + cal.getWeeksInWeekYear());
+    System.out.println("Weeks in week year: "  + cal.getWeeksInWeekYear());
   }
 }
 ```
