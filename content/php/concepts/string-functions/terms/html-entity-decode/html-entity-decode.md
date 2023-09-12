@@ -74,11 +74,10 @@ The `html_entity_decode()` function has one required parameter and three optiona
 
     > **Note:** Any other character sets are not recognized. The default encoding will be used instead and a warning will be emitted.
 
-<br>
 
 The `html_entity_decode()` function returns the decoded `$string`.
 
-<br>
+
 
 ## Changelog
 
@@ -87,7 +86,6 @@ The `html_entity_decode()` function returns the decoded `$string`.
 | 8.1.0   | flags changed from ENT_COMPAT to ENT_QUOTES \| ENT_SUBSTITUTE \| ENT_HTML401. |
 | 8.0.0   | encoding is nullable now.                                                     |
 
-<br>
 
 ## Example
 
@@ -112,7 +110,7 @@ The browser output of the code above will be:
 Welcome!!!
 ```
 
-<br>
+
 
 ## Codebyte Example
 
