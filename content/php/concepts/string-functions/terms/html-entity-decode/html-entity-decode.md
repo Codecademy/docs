@@ -18,7 +18,7 @@ The **`html_entity_decode()`** function is the opposite of [`htmlentities()`](ht
 ## Syntax
 
 ```pseudo
-htmlentities(string,flags,encoding)
+html_entity_decode(string,flags,encoding)
 ```
 
 The `html_entity_decode()` function has one required parameter and three optional parameters:
