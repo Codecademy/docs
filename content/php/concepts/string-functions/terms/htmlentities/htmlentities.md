@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`htmlentities()`** function converts characters to HTML entities. To convert HTML entities back to characters, use the **[html_entity_decode()](../html-entity-decode/html-entity-decode.md)** function.
+The **`htmlentities()`** function converts characters to HTML entities. To convert HTML entities back to characters, use the `html_entity_decode()` function.
 
 ## Syntax
 
