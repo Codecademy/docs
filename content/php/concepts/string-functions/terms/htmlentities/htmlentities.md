@@ -18,7 +18,7 @@ The **`htmlentities()`** function converts characters to HTML entities. To conve
 ## Syntax
 
 ```pseudo
-htmlentities(string,flags,encoding,double_encode)
+htmlentities(string, flags, encoding, double_encode)
 ```
 
 The `htmlentities()` function has one required parameter and three optional parameters:
