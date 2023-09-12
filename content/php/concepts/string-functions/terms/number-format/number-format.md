@@ -28,7 +28,7 @@ number_format($number, $decimals, $decimal_point, $separator);
 
 ## Example
 
-The first example uses the `number_format()` function to format a whole number using `","` as a decimal separator and `"x"` as a thousands separator.
+This example uses the `number_format()` function to format a whole number using `","` as a decimal separator and `"x"` as a thousands separator.
 
 ```php
 <?php
