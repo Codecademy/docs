@@ -67,4 +67,4 @@ Note that although the example above uses strong mathematical induction, the sam
 
 Why do the base step and the inductive step together demonstrate the truth of a universal generalization?
 
-The base step shows that the first element in the series has the relevant property. Since all the elements prior to the second element have the property, it then follows by the inductive step that the second element also has the property. Similarly, since all elements prior to the third have the property, the inductive step shows that the third does as well. Since this can be done indefinitely, the entire series is shown to have the relevant property.
+The base step shows that the first n elements in the series have the relevant property. Since all the elements prior to the element at n+1 have the property, it then follows by the inductive step that the element at n+1 also has the property. Similarly, since all elements prior to the element at n+2 have the property, the inductive step shows that the element at n+2 does as well. Since this can be done indefinitely, the entire series is shown to have the relevant property.
