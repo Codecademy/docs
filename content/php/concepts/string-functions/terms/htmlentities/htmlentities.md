@@ -75,11 +75,7 @@ The `htmlentities()` function has one required parameter and three optional para
 
 - `$double_encode`: Optional. Specifies whether to encode existing HTML entities. TRUE - Default. Will convert everything. FALSE - Will not encode existing html entities.
 
-<br>
-
-The `htmlentities()` function returns the converted `$string`. However, if the `$string` parameter contains invalid encoding, it will return an empty `$string`, unless either the `ENT_IGNORE` or `ENT_SUBSTITUTE` flags are set
-
-<br>
+> **Note:** The `htmlentities()` function returns the converted `$string`. However, if the `$string` parameter contains invalid encoding, it will return an empty `$string`, unless either the `ENT_IGNORE` or `ENT_SUBSTITUTE` flags are set
 
 ## Changelog
 
