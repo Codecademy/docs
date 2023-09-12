@@ -13,6 +13,9 @@ CatalogContent:
 
 The **`Hashable`** protocol is a fundamental protocol in Swift that allows types to be hashed into integer values, facilitating their use as keys in hash-based collections like dictionaries and sets.
 
+In swift, the following types conforms to the Hashable protocol by default: 
+**`Int`**, **`UInt`**, **`Float`**, **`Double`**, **`Bool`**, **`String`**, **`Character`**, **`Turples`**, **`Optionals`**, **`Enums`**.
+
 ## Syntax
 
 ```pseudo
