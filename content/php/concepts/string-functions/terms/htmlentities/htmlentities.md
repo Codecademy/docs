@@ -100,8 +100,6 @@ The browser output of the code above will be:
 <b>Welcome!!!</b>
 ```
 
-<br>
-
 ## Codebyte Example
 
 This example is runnable and uses the `htmlentities()` function:
