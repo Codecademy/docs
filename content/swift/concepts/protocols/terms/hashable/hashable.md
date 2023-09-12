@@ -20,24 +20,24 @@ In swift, the following types conforms to the Hashable protocol by default:
 
 ```pseudo
 protocol Hashable {
-    func hash(into hasher: inout Hasher)
+    func hash(into myhasher: inout Hasher)
 }
 ```
 
-The protocol requires the implementation of the `hash(into:)` method. This method accepts an `inout Hasher` parameter, which is responsible for combining the hash values of the properties of the type
+The protocol requires the implementation of the `hash(into:)` method. This method accepts an `inout Hasher` parameter named `myhasher`, which is responsible for combining the hash values of the properties of the type.
 
 ## Example
 
-In this example, the Person struct conforms to the Hashable protocol by implementing the `hash(into:)` method. The hash value is calculated by combining the `name` and `age` properties using the `hasher.combine(_:)` method. This allows instances of the Person struct to be stored in a set (`personSet`) and efficiently looked up using their hashed values.
+In this example, the Person struct conforms to the Hashable protocol by implementing the `hash(into:)` method. The hash value is calculated by combining the `name` and `age` properties using the `myhasher.combine(_:)` method. This allows instances of the Person struct to be stored in a set (`personSet`) and efficiently looked up using their hashed values.
 
 ```swift
 struct Person: Hashable {
     var name: String
     var age: Int
     
-    func hash(into hasher: inout Hasher) {
-        hasher.combine(name)
-        hasher.combine(age)
+    func hash(into myhasher: inout Hasher) {
+        myhasher.combine(name)
+        myhasher.combine(age)
     }
 }
 
