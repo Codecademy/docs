@@ -4,6 +4,7 @@ Description: 'A wireframe is a low-fidelity representation of a digital interfac
 Subjects:
   - 'Web Design'
 Tags:
+  - 'Design'
   - 'UI'
   - 'UX'
 CatalogContent:
