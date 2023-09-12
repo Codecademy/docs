@@ -93,7 +93,7 @@ The following example uses the `html_entity_decode()` function to convert the st
 
 ```php
 <?php
-  $str = "&lt;b&gt;Welcome!!!&lt;/b&gt;"
+  $str = "&lt;b&gt;Welcome!!!&lt;/b&gt;";
   echo htmlentities($str);
 ?>
 ```
