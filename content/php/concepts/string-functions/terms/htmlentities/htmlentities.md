@@ -15,6 +15,18 @@ CatalogContent:
 
 The **`htmlentities()`** function converts characters to HTML entities. To convert HTML entities back to characters, use the `html_entity_decode()` function.
 
+**The predefined characters are**:
+
+|Characters|Convert to|Result|
+|---|---|---|
+|& (ampersand)|becomes|\&amp;|
+|" (double quote)|becomes|\&quot;|
+|' (single quote)|becomes|\&#039;|
+|< (less than)|becomes|\&lt;|
+|> (greater than)|becomes|\&gt;|
+
+ 
+
 ## Syntax
 
 ```pseudo
