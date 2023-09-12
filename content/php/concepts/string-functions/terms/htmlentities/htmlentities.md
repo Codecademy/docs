@@ -79,7 +79,7 @@ The `htmlentities()` function has one required parameter and three optional para
 
 ## Example
 
-The following example uses the `htmlentities()` function to convert the string `"Welcome!!!"` to HTML entities:
+The following example uses the `htmlentities()` function to convert special characters in the string `"<b>Welcome!!!</b>;"` to HTML entities:
 
 ```php
 <?php
