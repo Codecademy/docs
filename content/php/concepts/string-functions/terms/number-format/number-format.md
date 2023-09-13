@@ -20,10 +20,10 @@ The **`number_format()`** function takes a given number and formats it with grou
 number_format($number, $decimals, $decimal_point, $separator);
 ```
 
-- `number`: The number to format.
-- `decimals`: Optional parameter that sets the number of digits after the decimal point. If not given, the number returned will be a whole number.
-- `decimal_point`: Optional parameter that specifies the decimal separator and should be given as a string.
-- `separator`: Optional parameter that specifies the thousands separator and should be given as a string.
+- `$number`: The number to format.
+- `$decimals`: Optional parameter that sets the number of digits after the decimal point. If not given, the number returned will be a whole number.
+- `$decimal_point`: Optional parameter that specifies the decimal separator and should be given as a string.
+- `$separator`: Optional parameter that specifies the thousands separator and should be given as a string.
 
 ## Example
 
@@ -43,7 +43,7 @@ This will result in the following output:
 
 ## Codebyte Example
 
-The following codebyte example can be run and calls the `number_format()` method two times. The second call uses the optional `decimals`, `decimal_point`, and `separator` parameters.
+The following codebyte example can be run and calls the `number_format()` method two times. The second call uses the optional `$decimals`, `$decimal_point`, and `$separator` parameters.
 
 ```codebyte/php
 <?php
