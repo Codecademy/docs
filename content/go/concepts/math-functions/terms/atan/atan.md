@@ -25,7 +25,7 @@ Notes on `.Atan()`:
 
 - `x` is the value whose arctangent value is to be found.
 - The `result` will be between between -π/2 to π/2 radians.
-- If the parameter is `NaN` it returns `NaN`.
+- If the argument is `NaN` it returns `NaN`.
 - The value returned will be of type `float64`.
 
 ## Example
