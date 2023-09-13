@@ -38,7 +38,7 @@ The principle of inclusion and exclusion is an approach that derives the method 
 
 In the context of combinations and probability, the necessity of finding a counting method in order to make sure that an object is not counted twice is wanting.
 
-The formula:
+The formula (ꓴ is "AND", ꓵ is "OR"):
 
 ```tex
 n(A ꓴ B) = n(A) + n(B) - n(A ꓵ B)
