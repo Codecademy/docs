@@ -27,14 +27,14 @@ Example format specifiers:
 
 | Specifier | Meaning                                |
 |:---------:|----------------------------------------|
-| b         | Binary format.                         |
-| d         | Decimal format.                        |
-| e         | Scientific format with lower case "e". |
-| E         | Scientific format with upper case "e". |
-| f         | Fixed-point format.                    |
-| g         | General format.                        |
-| x         | Hex format, lower case.                |
-| X         | Hex format, upper case.                |
+| `b`       | Binary format.                         |
+| `d`       | Decimal format.                        |
+| `e`       | Scientific format with lower case "e". |
+| `E`       | Scientific format with upper case "e". |
+| `f`       | Fixed-point format.                    |
+| `g`       | General format.                        |
+| `x`       | Hex format, lower case.                |
+| `X`       | Hex format, upper case.                |
 
 ## Example
 
@@ -47,6 +47,7 @@ print(formatted)
 ```
 
 Output for above code is:
+
 ```shell
 3.14
 ```
