@@ -38,7 +38,7 @@ Example format specifiers:
 
 ## Example
 
-In the following example, a float is formatted in a variable called "pi," which stores an approximation of the value of pi. The format is done using specifications that denote that the output should be a string that represents the provided float, but only using two decimal places.
+In the following example, a float is formatted in a variable `pi`, which stores an approximation of the value of the constant pi. The format denotes that the output should be a string that represents the provided float, but only using two decimal places.
 
 ```python
 pi = 3.14159
