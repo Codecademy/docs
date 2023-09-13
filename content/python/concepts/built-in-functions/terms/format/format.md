@@ -9,8 +9,8 @@ Tags:
   - 'Strings'
   - 'built-in-funtions'
 CatalogContent:
-- 'learn-python-3'
-- 'paths/computer-science'
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
 The **`format()`** function returns a string from an input value, formatted to the provided specifications.
@@ -26,15 +26,15 @@ Where `value` is the value to format, and `format_specification` is the format s
 Example format specifiers:
 
 | Specifier | Meaning                                |
-|:---------:|----------------------------------------|
-| `b`       | Binary format.                         |
-| `d`       | Decimal format.                        |
-| `e`       | Scientific format with lower case "e". |
-| `E`       | Scientific format with upper case "e". |
-| `f`       | Fixed-point format.                    |
-| `g`       | General format.                        |
-| `x`       | Hex format, lower case.                |
-| `X`       | Hex format, upper case.                |
+| :-------: | -------------------------------------- |
+|    `b`    | Binary format.                         |
+|    `d`    | Decimal format.                        |
+|    `e`    | Scientific format with lower case "e". |
+|    `E`    | Scientific format with upper case "e". |
+|    `f`    | Fixed-point format.                    |
+|    `g`    | General format.                        |
+|    `x`    | Hex format, lower case.                |
+|    `X`    | Hex format, upper case.                |
 
 ## Example
 
@@ -58,6 +58,6 @@ The codebyte example is runnable and uses the `format()` function to convert an 
 
 ```codebyte/python
 value = 42
-formatted = format(value, 'b')  
+formatted = format(value, 'b')
 print(formatted)
 ```
