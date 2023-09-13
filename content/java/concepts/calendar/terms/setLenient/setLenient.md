@@ -12,7 +12,6 @@ CatalogContent:
 ---
 
 The **`.setLenient()`** method of the `Calendar` class is used to set the leniency of the interpretation of date and time. in other words, it is used to specify whether the interpretation of date and time should be strict or not. 
-mm
 
 > **Note:** When a `Calendar` is lenient, it allows date and time values that may not make sense in a real-world context. For example, `February 30th` or a time value of `25:70:90` would be accepted. When a `Calendar` is non-lenient, it enforces stricter rules, and attempting to set invalid date or time values will throw exceptions, such as `IllegalArgumentException`.
 
