@@ -1,0 +1,53 @@
+---
+Title: 'unpack()'
+Description: 'Takes a table and returns the elements of that table as separate values.'
+Subjects:
+  - 'Computer Science'
+  - 'Game Development'
+Tags:
+  - 'Tables'
+  - 'Functions'
+CatalogContent:
+  - 'learn-lua'
+  - 'paths/computer-science'
+---
+
+The **`unpack()`** function takes a table and returns the elements of that table as separate values.
+
+## Syntax
+
+```pseudo
+result1, result2, ..., resultn = unpack(table)
+```
+
+- `table`: The table you want to unpack.
+- `result1`, `result2`, `...`, `resultn`: Variables that will receive the individual elements from the table.
+
+## Example
+
+The following example uses the `unpack()` function to take the table called `fruit` and unpacks its elements into the variables `fruit_option1`, `fruit_option2`, `fruit_option3`. Each variable receives one of the elements from the table from that table as seperate values:
+
+```lua
+  fruit = {'orange','apple','watermelon'}
+  fruit_option1,fruit_option2,fruit_option3 = unpack(fruit)
+  print("Type1:",fruit_option1)
+  print("Type2:",fruit_option2)
+```
+
+The example will result in the following output:
+
+```shell
+Type1:  orange
+Type2:  apple
+```
+
+## Codebyte Example
+
+This example uses the `unpack()` function with table called `sale_tablet`.
+
+```codebyte/lua
+  sale_tablet = {'Ipad_11_pro','Apple','%10'}
+  tablet_model,brand,sale = unpack(sale_tablet)
+  print("-> Sale:",sale)
+  print("-> Model:",table_model)
+```
