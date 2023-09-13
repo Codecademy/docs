@@ -48,7 +48,7 @@ public class DateParsingExample {
 }
 ```
 
-Above code returns the output:
+Above code returns the following output:
 
 ```shell
 Wed Aug 11 00:00:00 IST 168
