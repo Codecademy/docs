@@ -54,7 +54,7 @@ Output for above code is:
 
 ## Codebyte Example
 
-The next example uses the **format()** function to convert an integer to a binary and print its string representation.
+The codebyte example is runnable and uses the `format()` function to convert an integer to a binary and print its string representation.
 
 ```codebyte/python
 value = 42
