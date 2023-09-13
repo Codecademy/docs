@@ -27,13 +27,13 @@ In the context of [Luau](https://www.codecademy.com/resources/docs/luau), the lo
 local table = {"amy", "john", "bob"} 
 ```
 
-The above example is instantiated like an array, but as mentioned above, table data types are capable of storing any form of data other than nil. Here is another example:
+The above example is instantiated like an [array](https://www.codecademy.com/resources/docs/javascript/arrays), but as mentioned above, table data types are capable of storing any form of data other than nil. Here is another example:
 
 ```
 local profile = {"john",  24, "Atlanta",  false}
 ```
 
-Not only can tables be used as arrays, but you can even use them as dictionaries. Here is an example of a table in the form of a dictionary with an array data type included:
+Not only can tables be used as arrays, but you can even use them as [dictionaries](https://www.codecademy.com/resources/docs/python/dictionaries). Here is an example of a table in the form of a dictionary with an array data type included:
 
 ```
 local profile = {
