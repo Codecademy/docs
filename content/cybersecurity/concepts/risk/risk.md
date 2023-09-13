@@ -16,7 +16,7 @@ CatalogContent:
 
 ## Types of Risk
 
-Risk can take several forms. External cyber risks include [cyber attacks](https://www.codecademy.com/resources/docs/cybersecurity/cyber-attack), [phishing](https://www.codecademy.com/resources/docs/cybersecurity/phishing), [ransomware](https://www.codecademy.com/resources/docs/cybersecurity/malware/ransomware), and DDoS attacks. Internal risks can come from malicious insider threats, however, they can also come as a result of employee negligence. Unpatched software, poor training, and misconfiguring databases are all examples of how employees can mistakenly expose information.
+Risk can take several forms. External cyber risks include [cyber attacks](https://www.codecademy.com/resources/docs/cybersecurity/cyber-attack), [phishing](https://www.codecademy.com/resources/docs/cybersecurity/cyber-attack/phishing), [ransomware](https://www.codecademy.com/resources/docs/cybersecurity/malware/ransomware), and DDoS attacks. Internal risks can come from malicious insider threats, however, they can also come as a result of employee negligence. Unpatched software, poor training, and misconfiguring databases are all examples of how employees can mistakenly expose information.
 
 ## Different Frameworks for Assessing Risk
 
