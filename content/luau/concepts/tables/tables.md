@@ -1,6 +1,6 @@
 ---
 Title: 'Tables'
-Description: 'luau is a scripting language particularly for Roblox game development. This document is meant to demonstrate the use case for luau tables.'
+Description: 'In the context of luau and Roblox, tables are data types that can store any types of value.'
 Codecademy Hub Page: 'https://www.codecademy.com/catalog/language/luau'
 CatalogContent:
   - 'paths/computer-science'
@@ -21,7 +21,7 @@ The syntax for an empty table is:
 local table = {}
 ```
 
-In the context of Lua, the local keyword is primarily used to declare local variables. It is not used specifically for instantiating tables. You can use the local keyword to create local variables of various types, including tables, numbers, strings, functions, and more. What creates the table is the curly braces in the syntax ({}). If you wanted to instantiate a table with parameters you can write something like this:
+In the context of [Luau](https://www.codecademy.com/resources/docs/luau), the local keyword is primarily used to declare local variables. It is not used specifically for instantiating tables. You can use the local keyword to create local variables of various types, including tables, numbers, strings, functions, and more. What creates the table is the curly braces in the syntax ({}). If you want to instantiate a table with parameters you can write something like this:
 
 ```
 local table = {"amy", "john", "bob"} 
