@@ -1,1 +1,1 @@
-content/general/concepts/cache/cache.md
+content/sql/concepts/wildcards/wildcards.md

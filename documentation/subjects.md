@@ -10,6 +10,7 @@ Cybersecurity
 Data Science
 Data Visualization
 Developer Tools
+Discrete Math
 Game Development
 Interview Prep
 iOS
@@ -18,4 +19,5 @@ Mobile Development
 Networking
 Web Design
 Web Development
+AI
 ```
