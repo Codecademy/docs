@@ -1,6 +1,6 @@
 ---
 Title: 'Tables'
-Description: 'In the context of luau and Roblox, tables are data types that can store any types of value.'
+Description: 'In the context of luau and Roblox, tables are data structures that are capable of storing values of any type other than nil.'
 Codecademy Hub Page: 'https://www.codecademy.com/catalog/language/luau'
 CatalogContent:
   - 'paths/computer-science'
