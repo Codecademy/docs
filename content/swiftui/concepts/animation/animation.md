@@ -53,10 +53,10 @@ In this simple animation, the background and the text of the button change depen
 
 ## Explicit Animation using `withAnimation()`
 
-To be able to make explicit animation, use the same three steps we used in the implicit animation. This example uses explicit animation to change the position of a button:
+To be able to make explicit animation, use the same three steps used in the implicit animation. This example uses explicit animation to change the position of a button:
 
 ```swift
-struct ImplicitAnimation: View {
+struct ExplicitAnimatio: View {
     @State var isanimation = false // @State variable that changes to activate the animation.
     
     var body: some View {
@@ -82,7 +82,7 @@ struct ImplicitAnimation: View {
 As seen from the output, `withAnimation()` is used to change the position of the button with a spring effect to it. What is beautiful about explicit animation is that different views can be animated with the same call of `withAinmation()`, but the two different views must use the same state variable to do that. For example, to animate the button label view's background color and the position of the button at the same time, a ternary operator will be added to `.background()`. It looks like this:
 
 ```swift
-struct ImplicitAnimation: View {
+struct ExplicitAnimation: View {
     @State var isanimation = false // @State variable that changes to activate the animation.
     
     var body: some View {
