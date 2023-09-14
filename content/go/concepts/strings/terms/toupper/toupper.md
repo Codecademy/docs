@@ -61,7 +61,7 @@ This example results in the following output:
 CODECADEMY
 ```
 
-This can also be acomplshied using the ToTitle() function.
+This can also be accomplished as follows:
 
 ```go
 package main
