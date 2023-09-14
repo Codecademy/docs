@@ -1,5 +1,5 @@
 ---
-Title: 'toupper()'
+Title: 'ToUpper()'
 Description: 'Returns a lowercase string converted to uppercase.'
 Subjects:
   - 'Code Foundations'
