@@ -86,7 +86,7 @@ CODECADEMY
 
 ## Codebyte Example
 
-In the code below, we convert a sentence in both lowercase and uppercase into just uppercase using the `toupper()` function.
+In the code below, a sentence in both lowercase and uppercase is converted into just uppercase using the `ToUpper()` function.
 
 ```codebyte/golang
 package main
