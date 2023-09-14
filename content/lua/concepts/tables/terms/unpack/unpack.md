@@ -43,11 +43,15 @@ Type2:  apple
 
 ## Codebyte Example
 
-This example uses the `unpack()` function with table called `sale_tablet`.
+This example works with function `addShape` to unpack the table `values` in order to show the `X axis` and `Y axis`.
 
 ```codebyte/lua
-  sale_tablet = {'Ipad_11_pro','Apple','%10'}
-  tablet_model,brand,sale = unpack(sale_tablet)
-  print("-> Sale:",sale)
-  print("-> Model:",table_model)
+  function addShape(x1, y1, x2, y2, x3, y3)
+    return string.format("X axis: (%f,%f,%f). Y axis: (%f,%f,%f)",x1,x2,x3,y1,y2,y3)
+   end
+  
+  values = {0.7, 1.5, 0.4, 2.8, 1.2, 3.6}
+  
+  print(addShape(table.unpack(values)))
+-- Output: X axis: (0.700000,0.400000,1.200000). Y axis: (1.500000,2.800000,3.600000)
 ```
