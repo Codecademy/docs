@@ -92,6 +92,7 @@ The `title` attribute can be optionally defined to provide extra, informative de
 ```html
 <!-- This link will help users to predict what will happen if they click on it. -->
 
-<a href="https://www.codecademy.com/resources/docs" title="Go to codecademy documentation">Visit our Tutorial</a>
+<a href="https://www.codecademy.com/resources/docs" title="Go to Codecademy Docs">Learn about code</a>
 ```
 
+![Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/<links-title-attribute>.<gif>)
