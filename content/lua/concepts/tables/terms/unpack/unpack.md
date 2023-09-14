@@ -20,7 +20,7 @@ The **`unpack()`** function takes a table and returns the elements of that table
 result1, result2, ..., resultn = table.unpack(someTable)
 ```
 
-- `table`: The table you want to unpack.
+- `someTable`: The table to be unpacked.
 - `result1`, `result2`, `...`, `resultn`: Variables that will receive the individual elements from the table.
 
 ## Example
