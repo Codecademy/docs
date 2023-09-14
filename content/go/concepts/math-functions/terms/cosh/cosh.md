@@ -81,5 +81,5 @@ func main() {
   x = math.NaN()
   CoshX = math.Cosh(x)
   fmt.Println("Hyperbolic cosine value of", x, "is", CoshX)
-  }
+}
 ```
