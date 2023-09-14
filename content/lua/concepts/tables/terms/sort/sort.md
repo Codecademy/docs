@@ -20,7 +20,7 @@ The **`table.sort()`** function sorts a table in place. It takes two arguments
 table.sort(table, [comp])
 ```
 
-The first argument table is the table to be sorted. The second argument `comp` is an optional comparison function that specifies the sorting order. If comp is not provided, the `default less-than` operation is used.
+The first argument, `table`, is the table to be sorted. The second argument, `comp`, is an optional comparison function that specifies the sorting order. If `comp` is not provided, the default less-than operation is used.
 
 ## Example
 
@@ -35,7 +35,7 @@ end
 
 ```
 
-In this example, we have a table of numbers. We use the table.sort() function to sort the table in ascending order.
+In this example, there are a table of numbers. The table.sort() function is used to sort the table in ascending order.
 The sorted table is then printed, resulting in the following output:
 
 ```shell
@@ -46,4 +46,4 @@ The sorted table is then printed, resulting in the following output:
 5
 ```
 
-The table.sort() function takes the table to be sorted as its first argument. In this case, we pass the numbers table as the first argument. Since we do not provide a second argument (the optional comparison function), the default less-than operation is used to determine the sorting order.
+The `table.sort()` function takes the table to be sorted as its first argument. In this case, the `numbers` table is passed as the first argument. Since no second argument is passed (the optional comparison function), the default less-than operation is used to determine the sorting order.
