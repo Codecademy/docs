@@ -17,7 +17,7 @@ The **`toupper()`** function is used to convert lowercase alphabet to uppercase 
 ## Syntax
 
 ```pseudo
-func ToUpper(str string) string
+result = strings.ToUpper(str) 
 ```
 
 Used to convert a given string to uppercase. 
