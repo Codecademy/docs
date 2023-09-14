@@ -29,7 +29,7 @@ The following example uses the `unpack()` function to take the table called `fru
 
 ```lua
   fruit = {'orange','apple','watermelon'}
-  fruit_option1,fruit_option2,fruit_option3 = unpack(fruit)
+  fruit_option1,fruit_option2,fruit_option3 = table.unpack(fruit)
   print("Type1:",fruit_option1)
   print("Type2:",fruit_option2)
 ```
