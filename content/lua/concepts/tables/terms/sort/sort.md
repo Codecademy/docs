@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`table.sort()`** function sorts a table in place. It takes two arguments
+The **`table.sort()`** function sorts a table in place. It takes two arguments.
 
 ## Syntax
 
