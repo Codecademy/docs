@@ -25,9 +25,9 @@ CoshX = math.Cosh(x)
 
 Where `CoshX` is the hyperbolic cosine value of `x`, it is of type `float64`. It always returns the hyperbolic cosine value except for some special cases:
 
-- CoshX of `Cosh(±0)` is `1`
-- CoshX of `Cosh(±Inf)` is `+Inf`
-- CoshX of `Cosh(NaN)` is `NaN`
+- `Cosh(±0)` is `1`
+- `Cosh(±Inf)` is `+Inf`
+- `Cosh(NaN)` is `NaN`
 
 ## Example
 
