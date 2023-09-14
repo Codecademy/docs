@@ -20,8 +20,7 @@ The **`ToUpper()`** function is used to convert lowercase alphabet to uppercase 
 result = strings.ToUpper(str) 
 ```
 
-Used to convert a given string, `str`, to uppercase. 
-The function accepts the given string as argument and returns the final string converting it to uppercase.
+The function accepts the given string, `str`, as its argument and returns the final string, `result`, converting lowercase characters to uppercase.
 
 > **Note:** This only works with the standardized alphabet characters.
 
