@@ -69,9 +69,9 @@ The `.gesture()` modifier is used for more advanced and customizable gestures wi
 - `LongPressGesture()`
 - `MagnificationGesture()`
 - `RotationGesture()`
-- `TapGesture()`.
+- `TapGesture()`
 
-These all have special modifiers, usually `.onEnded()` and `.onChanged()`.They can be used to take action when the gesture is in-flight (for `.onChanged()`) or completed (for `.onEnded()`).
+These all have special modifiers, usually `.onEnded()` and `.onChanged()`. They can be used to take action when the gesture is in-flight (for `.onChanged()`) or completed (for `.onEnded()`).
 
 In the example below, a magnification gesture is used. Pinching in and out scales the view up and down. This is done by creating two `@State` properties to store the scale amount, passing those variables into the `.scaleEffect()` modifier, then setting those values in the gesture:
 
