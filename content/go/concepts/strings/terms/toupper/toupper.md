@@ -61,29 +61,6 @@ This example results in the following output:
 CODECADEMY
 ```
 
-This can also be accomplished as follows:
-
-```go
-package main
-import (
-   "fmt"
-   "strings"
-)
-
-func main() {
-   var str string = "Codecademy"
-   var res string = strings.ToUpper(str)
-   fmt.Println(res)
-}
-```
-
-This example results in the same output:
-
-```shell
-CODECADEMY
-```
-
-
 ## Codebyte Example
 
 In the code below, a sentence in both lowercase and uppercase is converted into just uppercase using the `ToUpper()` function.
