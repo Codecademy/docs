@@ -105,8 +105,3 @@ func main() {
 
     fmt.Println(res1)
 ```
-This example results in the output:
-
-```shell
-THIS IS A CODECADEMY TUTORIAL
-```
