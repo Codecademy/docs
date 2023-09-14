@@ -1,6 +1,6 @@
 ---
 Title: 'Remainder()'
-Description: 'Returns the remainder of two given values.'
+Description: 'Returns the remainder of the division of two given values.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Remainder()`** function returns the remainder of two given values. The remainder may be a whole number or the IEEE 754 floating-point.
+The **`Remainder()`** function returns the remainder of the division of two given values. The remainder may be a whole number, or a floating-point.
 
 ## Syntax
 
@@ -22,11 +22,9 @@ result := math.Remainder(num1, num2)
 
 `math.Remainder()` returns the whole or IEEE 754 floating-point remainder of num1 divided by num2, except in five special cases:
 
-- math.Remainder(±Inf, num2) returns NaN
-- math.Remainder(NaN, num2) returns NaN
-- math.Remainder(num1, 0) returns NaN
-- math.Remainder(num1, ±Inf) returns num1
-- math.Remainder(num1, NaN) returns NaN
+- If `num1` equals `+-Inf` the function will return `NaN`, if num2 equals `+-Inf` the function returns `num1`
+- If either argument is `NaN` the function will return `NaN`
+- If `num2` equals `0` the function will return `NaN`
 
 ## Example
 
@@ -67,9 +65,9 @@ import (
 func main() {
 
   result1 := math.Remainder(4, 102)
-  result2 := math.Remainder(±Inf, 2)
+  result2 := math.Remainder(math.Inf(1), 2)
 
-  fmt.Printf("Result 1: %.1f\n", result_1)
-  fmt.Printf("Result 2: %.1f\n", result_2)
+  fmt.Printf("Result 1: %.1f\n", result1)
+  fmt.Printf("Result 2: %.1f\n", result2)
 }
 ```
