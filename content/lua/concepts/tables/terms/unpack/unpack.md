@@ -17,7 +17,7 @@ The **`unpack()`** function takes a table and returns the elements of that table
 ## Syntax
 
 ```pseudo
-result1, result2, ..., resultn = unpack(table)
+result1, result2, ..., resultn = table.unpack(someTable)
 ```
 
 - `table`: The table you want to unpack.
