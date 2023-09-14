@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Cosh()`** of the `math` package is an inbuilt function which takes a given value and returns its hyperbolic consine value.
+The **`Cosh()`** of the `math` package is an inbuilt function that takes a given value and returns its hyperbolic cosine value.
 
 ## Syntax
 
