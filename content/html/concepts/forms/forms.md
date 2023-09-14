@@ -49,7 +49,7 @@ The following is an example of an HTML form that features `<input>` elements:
   </body>
 </html>
 ```
-
+![Rendered output of above snippet](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-form-code-output.png)
 ## Video Walkthrough
 
 Watch this video for a step-by-step tutorial on creating HTML forms.
