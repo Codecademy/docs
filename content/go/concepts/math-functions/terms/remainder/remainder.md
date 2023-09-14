@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Remainder()`** function returns the remainder of the division of two given values. The remainder may be a whole number, or a floating-point.
+The **`Remainder()`** function returns the remainder of the division of two given values. The remainder may be a whole or a floating-point number.
 
 ## Syntax
 
@@ -22,7 +22,7 @@ result := math.Remainder(num1, num2)
 
 `math.Remainder()` returns the whole or IEEE 754 floating-point remainder of num1 divided by num2, except in five special cases:
 
-- If `num1` equals `+-Inf` the function will return `NaN`, if num2 equals `+-Inf` the function returns `num1`
+- If `num1` equals `+-Inf` the function will return `NaN`, if `num2` equals `+-Inf` the function returns `num1`
 - If either argument is `NaN` the function will return `NaN`
 - If `num2` equals `0` the function will return `NaN`
 
