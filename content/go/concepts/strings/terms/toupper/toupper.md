@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`toupper()`** function is used to convert lowercase alphabet to uppercase in a given string.
+The **`ToUpper()`** function is used to convert lowercase alphabet to uppercase in a given string.
 
 ## Syntax
 
