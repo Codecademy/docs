@@ -25,7 +25,7 @@ result1, result2, ..., resultn = table.unpack(someTable)
 
 ## Example
 
-The following example uses the `unpack()` function to take the table called `fruit` and unpacks its elements into the variables `fruit_option1`, `fruit_option2`, `fruit_option3`. Each variable receives one of the elements from the table from that table as seperate values:
+The following example uses the `unpack()` function to take the table `fruit` and unpack its elements into the variables `fruit_option1`, `fruit_option2`, `fruit_option3`. Each variable is assigned one of the elements from the table:
 
 ```lua
   fruit = {'orange','apple','watermelon'}
