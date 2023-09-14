@@ -176,7 +176,7 @@ Codebytes can be used with the following languages:
 
 ## Links
 
-- Use Markdown syntax for links: `(text)[url]`.
+- Use Markdown syntax for links: `[text](url)`.
 - Do not link to parent concept or topic entries. The Docs navigation provides those for each entry.
 - Do not link out to external third-party documentation. (Such as Wikipedia.)
 - You are encouraged to link out to other relevant Docs topics, concepts, or terms the first time they appear.
