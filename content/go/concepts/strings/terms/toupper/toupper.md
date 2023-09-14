@@ -72,7 +72,7 @@ import (
 
 func main() {
    var str string = "Codecademy"
-   var res string = ToUpper(str)
+   var res string = strings.ToUpper(str)
    fmt.Println(res)
 }
 ```
