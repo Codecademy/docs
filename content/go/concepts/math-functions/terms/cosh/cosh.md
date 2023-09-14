@@ -73,8 +73,8 @@ func main() {
 	x = 3
 	CoshX = math.Cosh(x)
 	fmt.Println("Hyperbolic cosine value of", x, "is", CoshX)
-
-	x = 6
+	
+	x = -6
 	CoshX = math.Cosh(x)
 	fmt.Println("Hyperbolic cosine value of", x, "is", CoshX)
 
