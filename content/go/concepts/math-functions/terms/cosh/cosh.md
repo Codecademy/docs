@@ -69,17 +69,14 @@ import (
 func main() {
   var x float64
   var CoshX float64
-
-	x = 3
-	CoshX = math.Cosh(x)
-	fmt.Println("Hyperbolic cosine value of", x, "is", CoshX)
-	
-	x = -6
-	CoshX = math.Cosh(x)
-	fmt.Println("Hyperbolic cosine value of", x, "is", CoshX)
-
+  x = 3
+  CoshX = math.Cosh(x)
+  fmt.Println("Hyperbolic cosine value of", x, "is", CoshX)
+  x = -6
+  CoshX = math.Cosh(x)
+  fmt.Println("Hyperbolic cosine value of", x, "is", CoshX)
   x = math.NaN()
   CoshX = math.Cosh(x)
   fmt.Println("Hyperbolic cosine value of", x, "is", CoshX)
-}
+  }
 ```
