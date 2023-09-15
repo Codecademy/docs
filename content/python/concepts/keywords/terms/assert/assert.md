@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`assert`** keyword is confirms the truthiness of a given statement and is often used to facilitate development, document code, and debug.
+The **`assert`** keyword confirms the truthiness of a given statement and is often used to facilitate development, document code, and debug.
 
 ## Syntax
 
