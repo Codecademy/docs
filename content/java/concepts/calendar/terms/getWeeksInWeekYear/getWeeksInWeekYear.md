@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.getWeeksInWeekYear()`** method of the `Calendar` class returns an integer representing the number of weeks in a _week year_.
+The **`.getWeeksInWeekYear()`** method of the `Calendar` class returns an integer representing the number of weeks in a **week year**.
 
 ## Syntax
 
