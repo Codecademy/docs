@@ -37,7 +37,7 @@ Using an [`<img>`](https://www.codecademy.com/resources/docs/html/elements/img) 
 <img src="source_of_image.png" width="500" height="600" />
 ```
 
-![GIF showcasing effect of height attribute on an img element](https://raw.githubusercontent.com/Codecademy/docs/main/media/changing-height-attribute-of-html-element.gif)
+![GIF showcasing effect of height attribute on an img element](https://raw.githubusercontent.com/Codecademy/docs/main/media/Changing-height-attribute-of-html-element.gif)
 
 ### `disabled` Attribute
 
