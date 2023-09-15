@@ -1,6 +1,6 @@
 ---
 Title: 'assert'
-Description: 'The assert keyword confirms the truthiness of a given statement.'
+Description: 'A keyword that confirms the truthiness of a given statement.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A keyword for confirming the truthiness of a given statement that is often used to facilitate development, document code, and debug.
+The **`assert`** keyword is confirms the truthiness of a given statement and is often used to facilitate development, document code, and debug.
 
 ## Syntax
 
@@ -37,7 +37,7 @@ assert fav_color == 'red'
 
 ## Codebyte Example
 
-The following example uses `assert` to evaluate if 'mud' is within the following list `things_that_float`:
+The following example uses `assert` to evaluate if `'mud'` is within the following list `things_that_float`:
 
 ```codebyte/python
 things_that_float = ['bread', 'apples', 'small rocks']
