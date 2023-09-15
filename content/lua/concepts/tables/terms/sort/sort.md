@@ -12,11 +12,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`table.sort()`** function sorts a table in place. It takes two arguments.
+The **`table.sort()`** function sorts a given table in place. 
 
 ## Syntax
 
-```lua
+```pseudo
 table.sort(table, [comp])
 ```
 
@@ -35,8 +35,9 @@ end
 
 ```
 
-In this example, there are a table of numbers. The table.sort() function is used to sort the table in ascending order.
-The sorted table is then printed, resulting in the following output:
+In this example, there is a table named `numbers`. The `table.sort()` function is used to sort the table in ascending order.
+
+The code results in the following output:
 
 ```shell
 1
@@ -46,4 +47,3 @@ The sorted table is then printed, resulting in the following output:
 5
 ```
 
-The `table.sort()` function takes the table to be sorted as its first argument. In this case, the `numbers` table is passed as the first argument. Since no second argument is passed (the optional comparison function), the default less-than operation is used to determine the sorting order.
