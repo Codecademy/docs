@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`table.sort()`** function sorts a given table in place. 
+The **`table.sort()`** function sorts a given table in place.
 
 ## Syntax
 
@@ -46,4 +46,3 @@ The code results in the following output:
 4
 5
 ```
-
