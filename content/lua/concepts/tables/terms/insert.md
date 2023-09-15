@@ -1,64 +1,42 @@
-
 ---
-
-Title: 'Insert'
-
+Title: 'insert()'
 Description: 'Inserts an element to an existing table at a specified index.'
-
 Subjects:
-
-- 'Computer Science'
-
+  - 'Computer Science'
 Tags:
-
-- 'Tables'
-
-- 'Arrays'
-
-- 'Insert'
-
-- 'Methods'
-
+  - 'Tables'
+  - 'Functions'
 CatalogContent:
-
-- 'learn-git-github'
-
+  - 'learn-lua'
+  - 'paths/computer-science'
 ---
 
-  
-
-The `.insert()` method inserts a value in a table.
-
-  
+The **`.insert()`** method inserts a value in a table.
 
 ## Syntax
 
-The value can be inserted at a specific index.  
+The `value` can be inserted at a specific `index`.  
 
-`table.insert(table, index, value)`
+```lua
+table.insert(table, index, value)
+```
 
-  
-
-If no index is provided, value is inserted at the end of the table. It returns the table itself. Stacks, queues, and double queues can be implemented in this way.    
+If `index` is not provided, `value` is inserted at the end of `table`. It returns `table`. Stacks, queues, and double queues can be implemented in this way.    
 
 ## Codebyte Example
 
-  
+Adding `iPhone` at the end of `apple_products` table:
 
-Adding `iPhone` at the end of `apple_products` list:
-
-```
-
+```lua
 apple_products = {"Macbook", "Watch", "iPad"}
-
 table.insert(apple_products, "iPhone")
-
 for key, value in  pairs(apple_products) do
 	print(key, value)
 end
-
 ```
+
 The output would be:
+
 ```
 Macbook
 Watch
