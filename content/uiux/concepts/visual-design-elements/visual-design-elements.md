@@ -22,7 +22,7 @@ CatalogContent:
 
 - **Typography** encompasses which fonts are included and how they are styled. Users often rely on words to make sense of a product, so effective typography is a vital component of an interface.
 
-![Screenshot of the Code Challenges page from Codecademy’s website. Visual design elements on this page are labeled A-G.](media/visual-design-elements.png)
+![Screenshot of the Code Challenges page from Codecademy’s website. Visual design elements on this page are labeled A-G.](https://raw.githubusercontent.com/Codecademy/docs/main/media/visual-design-elements.png)
 
 Visual design elements in the screenshot:
 

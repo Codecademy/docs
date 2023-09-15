@@ -14,4 +14,4 @@ In the prototyping process, key interactions and [user workflows](https://www.co
 
 In addition to leveraging user research, effective prototypes incorporate best practices from [interaction design](https://www.codecademy.com/resources/docs/uiux/interaction-design), such as [usability heuristics](https://www.codecademy.com/resources/docs/uiux/usability-heuristics).
 
-![A screenshot of a mobile app prototype built in the digital design tool, Figma. The prototype shows navigation paths to the login and registration pages from the homepage.](media/prototype.svg)
+![A screenshot of a mobile app prototype built in the digital design tool, Figma. The prototype shows navigation paths to the login and registration pages from the homepage.](https://raw.githubusercontent.com/Codecademy/docs/main/media/prototype.svg)

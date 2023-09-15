@@ -36,7 +36,7 @@ _“How do you feel about the current interface?”_ This phrasing is open-ended
 
 This survey asked, “Which of the following emotions do you feel when at the airport? Please select the options below.”
 
-![Bar Chart that displays the data from the survey question: Which of the following emotions do you feel at the airport?](media/confirmation-bias-chart.png)
+![Bar Chart that displays the data from the survey question: Which of the following emotions do you feel at the airport?](https://raw.githubusercontent.com/Codecademy/docs/main/media/confirmation-bias-chart.png)
 
 The team’s larger goal is to make a product that boosts positive feelings at the airport. Confirmation bias might mean looking at this data and only reporting findings based on the statistic “57.1 of our participants are excited when traveling at the airport.” While this is true, it ignores the other data and emotions, that 42.9% also feel anxious, confused, and frustrated. </details>
 
@@ -64,7 +64,7 @@ The **framing effect** occurs when findings are presented in a way that is disin
 
 Imagine that 20 survey respondents rated their overall approval of a certain product on a Likert scale of 1 to 5.
 
-![Likert Scale Bar Chart that displays the data from the survey question: Approval from 1-5](media/framing-effect.png)
+![Likert Scale Bar Chart that displays the data from the survey question: Approval from 1-5](https://raw.githubusercontent.com/Codecademy/docs/main/media/framing-effect.png)
 
 The researcher reports that the average approval rate is between 2 and 3, meaning that users are slightly dissatisfied. Considering that the mean is 2.45, this is technically correct. But it is a disingenuous finding &mdash; only 25% of the users actually rated the product between a 2 and a 3.
 

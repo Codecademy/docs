@@ -23,16 +23,16 @@ Here are a few common web layouts:
 
 A **grid** layout works well for designs that have a lot of similar elements, such as this course catalogue page. There are many cards, as each represents a course. Placing the cards on a grid keeps them organized and allows users to easily scan them.
 
-![Codecademy web page that uses a grid layout. The cards for the courses are arranged on a grid, making it easy to scan.](media/layout-grid.png)
+![Codecademy web page that uses a grid layout. The cards for the courses are arranged on a grid, making it easy to scan.](https://raw.githubusercontent.com/Codecademy/docs/main/media/layout-grid.png)
 
 ### Split
 
 A **split-screen** layout is a good option for dividing a page into two distinct sections. This page is divided into information (left side) and action (right side).
 
-![Codecademy web page that uses a split-screen layout. The left side uses a dark blue background and includes information about a product. The right side uses a white background and includes text input fields for users to sign up for a product.](media/layout-split-screen.png)
+![Codecademy web page that uses a split-screen layout. The left side uses a dark blue background and includes information about a product. The right side uses a white background and includes text input fields for users to sign up for a product.](https://raw.githubusercontent.com/Codecademy/docs/main/media/layout-split-screen.png)
 
 ### Single-Column
 
 A **single-column** layout can work well for text-heavy pages. The article text is displayed in a wide column that takes up most of the page.
 
-![Codecademy web page that uses a single column layout. The main section on this page displays the text for an article. All text is in this column, making it the focal point of the page. A small column on the left includes navigation links.](media/layout-single-column.png)
+![Codecademy web page that uses a single column layout. The main section on this page displays the text for an article. All text is in this column, making it the focal point of the page. A small column on the left includes navigation links.](https://raw.githubusercontent.com/Codecademy/docs/main/media/layout-single-column.png)
