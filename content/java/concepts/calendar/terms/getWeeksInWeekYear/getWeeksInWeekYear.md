@@ -19,7 +19,7 @@ The **`.getWeeksInWeekYear()`** method of the `Calendar` class returns an intege
 calendar.getWeeksInWeekYear()
 ```
 
-> **Note:** The concept of a _week-based year_ is important in some calendar systems, especially when dealing with fiscal years or other non-standard year definitions. The number of weeks in a week-based year can vary depending on factors such as the starting day of the week and whether the year contains partial weeks at the beginning or end.
+> **Note:** The concept of a **week-based year** is important in some calendar systems, especially when dealing with fiscal years or other non-standard year definitions. The number of weeks in a week-based year can vary depending on factors such as the starting day of the week and whether the year contains partial weeks at the beginning or end.
 
 ## Example 1
 
