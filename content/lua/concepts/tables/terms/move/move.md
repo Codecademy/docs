@@ -1,7 +1,6 @@
 ---
 Title: 'move()'
 Description: 'Copies elements from one table to another.'
-Codecademy Hub Page: 'https://www.codecademy.com/learn/learn-lua'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
