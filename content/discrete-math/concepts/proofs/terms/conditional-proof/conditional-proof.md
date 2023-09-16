@@ -13,6 +13,7 @@ CatalogContent:
   - 'computer-science'
   - 'paths/computer-science'
 ---
+
 **Conditional Proof** is a technique used in mathematical proofs to demonstrate a conditional statement, by assuming the antecedent of the conditional and showing that the consequent follows.
 
 A conditional statment is a statement of the form 'if..., then...'. The antecedent (also called 'the hypothesis') is the condition of the conditional statement: the part following 'if'. The consequent (also called 'the conclusion') is what is claimed to follow from the condition: the part following 'then'.
