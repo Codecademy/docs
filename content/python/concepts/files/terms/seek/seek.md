@@ -40,3 +40,30 @@ print(f.readline())
 
 f.close()
 ```
+
+## Codebyte Example
+
+The example below opens a file named `demofile.txt` first at the default position, Then again using `.seek()` at the 5th index position:
+
+```codebyte/python
+import os
+
+# Creates a text file with Example text
+with open('demofile.txt', 'w') as f:
+    # Adding Example Text
+    f.write('This text is an example.')
+
+f = open('demofile.txt', 'r')
+
+# Prints first line of document from default position
+print(f.readline())
+
+# Changes the reference point
+f.seek(5)
+
+# Prints the first line from new reference point
+print(f.readline())
+
+# Closes the file
+f.close()
+```

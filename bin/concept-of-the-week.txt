@@ -1,1 +1,1 @@
-content/general/concepts/software-testing/software-testing.md
+content/sql/concepts/wildcards/wildcards.md
