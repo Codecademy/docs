@@ -19,7 +19,7 @@ The **`.add()`** method of the `Calendar` class is used to manipulate and modify
 myCalendar.add(field, amount)
 ```
 
-- `field`: An integer constant representing the field to which the amount of time should be added or subtracted. Examples:`Calendar.YEAR`, `Calendar.MONTH`, `Calendar.DAY_OF_MONTH`.
+- `field`: An integer constant representing the field to which the amount of time should be added or subtracted (e.g.,`Calendar.YEAR`, `Calendar.MONTH`, `Calendar.DAY_OF_MONTH`).
 
 - `amount`: An integer value representing the amount of time to add or subtract from the specified field. A positive value adds time, and a negative value subtracts time.
 
@@ -38,7 +38,7 @@ public class Main {
 
     // Add 2 years to the current date
     myCalendar.add(Calendar.YEAR, 2);
-    System.out.println("Modified Date after adding 2 years: " + myCalendar.getTime());	
+    System.out.println("Modified Date after adding 2 years: " + myCalendar.getTime());
 
     // Add 3 months to the current date
     myCalendar.add(Calendar.MONTH, 3);
@@ -51,12 +51,10 @@ public class Main {
 }
 ```
 
-Output for the above code will vary depending on the current date but might look like:
+Output for the above code will vary depending on the current date but will look similar to:
 
 ```shell
 Modified Date after adding 2 years: Tue Sep 16 11:07:52 CEST 2025
 Modified Date after adding 3 months: Tue Dec 16 11:07:52 CET 2025
 Modified Date after subtracting 10 days: Sat Dec 06 11:07:52 CET 2025
 ```
-
-In this example, we first create a `Calendar` instance representing the current date and time. Then, we use the `.add()` method to manipulate this instance by adding 2 years, 3 months, and subtracting 10 days, resulting in a modified date.
