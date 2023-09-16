@@ -21,7 +21,7 @@ Here are a few common web layouts:
 
 ### Grid
 
-A **grid** layout works well for designs that have a lot of similar elements, such as this course catalogue page. There are many cards, as each represents a course. Placing the cards on a grid keeps them organized and allows users to easily scan them.
+A **grid** layout works well for designs that have a lot of similar elements, such as this course catalog page. There are many cards, as each represents a course. Placing the cards on a grid keeps them organized and allows users to easily scan them.
 
 ![Codecademy web page that uses a grid layout. The cards for the courses are arranged on a grid, making it easy to scan.](https://raw.githubusercontent.com/Codecademy/docs/main/media/layout-grid.png)
 
@@ -35,4 +35,4 @@ A **split-screen** layout is a good option for dividing a page into two distinct
 
 A **single-column** layout can work well for text-heavy pages. The article text is displayed in a wide column that takes up most of the page.
 
-![Codecademy web page that uses a single column layout. The main section on this page displays the text for an article. All text is in this column, making it the focal point of the page. A small column on the left includes navigation links.](https://raw.githubusercontent.com/Codecademy/docs/main/media/layout-single-column.png)
+![Codecademy web page that uses a single-column layout. The main section on this page displays the text for an article. All text is in this column, making it the focal point of the page. A small column on the left includes navigation links.](https://raw.githubusercontent.com/Codecademy/docs/main/media/layout-single-column.png)
