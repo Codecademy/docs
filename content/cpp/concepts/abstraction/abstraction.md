@@ -68,13 +68,12 @@ b = 20
 
 Data abstraction has several advantages including:
 
-
 - Simplicity: Helps the user to avoid writing the low-level code.
 
 - Reusability: Avoids code duplication and increases reusability.
 
 - Modularity: Allows for changes to the internal implementation of the class independently without affecting the user.
 
--Security: Enhances the security of an application or program by only providing essential details to the user and keeping sensitive information hidden.
+- Security: Enhances the security of an application or program by only providing essential details to the user and keeping sensitive information hidden.
 
 - Readability: Reduces the complexity as well as the redundancy of the code, therefore increasing the readability.
