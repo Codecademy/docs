@@ -24,18 +24,15 @@ The first argument, `table`, is the table to be sorted. The second argument, `co
 
 ## Example
 
-Consider the following table:
+In this example, there is a table named `numbers`. The `table.sort()` function is used to sort the table in ascending order.
 
 ```lua
 local numbers = {5, 3, 1, 4, 2}
 table.sort(numbers)
-for i, v in ipairs(numbers) do
+for i, v in pairs(numbers) do
     print(v)
 end
-
 ```
-
-In this example, there is a table named `numbers`. The `table.sort()` function is used to sort the table in ascending order.
 
 The code results in the following output:
 
