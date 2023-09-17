@@ -15,10 +15,10 @@ The **`.insert()`** method inserts a value in a table at a specified index.
 
 ## Syntax
 
-The `value` can be inserted at a specific `index`.  
 ```lua
 table.insert(table, index, value)
 ```
+
 The `value` is inserted at `index`. If `index` is not provided, `value` is inserted at the end of `table`. It returns `table`. Stacks, queues, and double queues can be implemented in this way.
 
 ## Example
