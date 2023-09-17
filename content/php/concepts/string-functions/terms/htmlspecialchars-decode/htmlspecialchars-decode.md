@@ -1,12 +1,13 @@
 ---
-Title: 'htmlspecialchars_decode()'
+Title: 'htmlspecialchars_decode'
 Description: 'Converts special HTML entities to characters'
 Subjects:
   - 'Computer Science'
-  - 'Web Design'
+  - 'Web Development'
 Tags:
   - 'Strings'
   - 'Functions'
+  - 'Encoding'
 CatalogContent:
   - 'learn-php'
   - 'paths/computer-science'
@@ -17,7 +18,7 @@ The **`htmlspecialchars_decode()`** function converts special HTML entities back
 ## Syntax
 
 ```pseudo
-htmlspecialchars_decode()($string , $flags)
+htmlspecialchars_decode()($string, $flags)
 ```
 
 The `htmlspecialchars_decode()` function has two parameters:
