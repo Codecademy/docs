@@ -23,8 +23,8 @@ result := math.Tan(angle)
 
 Where `result` is the tangent value of `angle`, returned as a float, except under the following circumstances:
 
-- The result of `Tan(-Inf)` is `NaN`
-- The result of `Tan(+Inf)` is `NaN`
+- The result of `Tan(math.Inf(+1))` is `NaN`
+- The result of `Tan(math.Inf(-1))` is `NaN`
 - The result of `Tan(NaN)` is `NaN`
 
 ## Example
@@ -65,13 +65,8 @@ import (
 )
 
 func main() {
-  positiveInfinity := math.Inf(1)
-  negativeInfinity := math.Inf(-1)
-
-  tanPositiveInf := math.Tan(positiveInfinity)
-  tanNegativeInf := math.Tan(negativeInfinity)
-
-  fmt.Printf("The tangent of positive infinity: %f\n", tanPositiveInf)
-  fmt.Printf("The tangent of negative infinity: %f\n", tanNegativeInf)
+	fmt.Println(math.Tan(math.Inf(+1))) // Outputs: NaN
+	fmt.Println(math.Tan(math.Inf(-1))) // Outputs: NaN
+	fmt.Println(math.Tan(math.NaN()))   // Outputs: NaN
 }
 ```
