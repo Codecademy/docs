@@ -1,6 +1,11 @@
 ---
 Title: 'Research Plan'
 Description: 'A research plan is a deliverable that outlines the goals, methods, and key details of a research study.'
+Subjects:
+  - 'Web Design'
+Tags:
+  - 'UI'
+  - 'UX'
 CatalogContent:
   - 'intro-to-ui-ux'
   - 'paths/front-end-engineer-career-path'

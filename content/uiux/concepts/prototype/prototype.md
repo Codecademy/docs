@@ -1,6 +1,11 @@
 ---
 Title: 'Prototype'
 Description: 'A prototype is an interactive design that maps out interactions and workflows in a digital product.'
+Subjects:
+  - 'Web Design'
+Tags:
+  - 'UI'
+  - 'UX'
 CatalogContent:
   - 'intro-to-ui-ux'
   - 'paths/front-end-engineer-career-path'

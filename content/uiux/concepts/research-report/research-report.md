@@ -1,6 +1,11 @@
 ---
 Title: 'Research Report'
 Description: 'A research report is a deliverable that summarizes insights from a user research study.'
+Subjects:
+  - 'Web Design'
+Tags:
+  - 'UI'
+  - 'UX'
 CatalogContent:
   - 'intro-to-ui-ux'
   - 'paths/front-end-engineer-career-path'

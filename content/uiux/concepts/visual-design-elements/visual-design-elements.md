@@ -1,6 +1,11 @@
 ---
 Title: 'Visual Design Elements'
-Description: 'Visual design elements are the building blocks of visual design. Common elements include line, shape, color, texture, space, form, and typography. '
+Description: 'Visual design elements are the building blocks of visual design. Common elements include line, shape, color, texture, space, form, and typography.'
+Subjects:
+  - 'Web Design'
+Tags:
+  - 'UI'
+  - 'UX'
 CatalogContent:
   - 'intro-to-ui-ux'
   - 'paths/front-end-engineer-career-path'

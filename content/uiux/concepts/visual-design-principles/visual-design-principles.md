@@ -1,6 +1,11 @@
 ---
 Title: 'Visual Design Principles'
 Description: 'Visual design principles are guidelines for creating visual designs that are effective, cohesive, and appealing. Common principles include hierarchy, contrast, balance, scale, dominance, unity, and Gestalt.'
+Subjects:
+  - 'Web Design'
+Tags:
+  - 'UI'
+  - 'UX'
 CatalogContent:
   - 'intro-to-ui-ux'
   - 'paths/front-end-engineer-career-path'

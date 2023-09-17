@@ -1,6 +1,11 @@
 ---
 Title: 'Bias in User Research'
 Description: 'In user research, bias refers to prejudices or tendencies in researchers’ and participants’ ways of thinking that can lead to inaccurate or skewed results.'
+Subjects:
+  - 'Web Design'
+Tags:
+  - 'UI'
+  - 'UX'
 CatalogContent:
   - 'intro-to-ui-ux'
   - 'paths/front-end-engineer-career-path'
