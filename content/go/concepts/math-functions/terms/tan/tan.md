@@ -65,8 +65,8 @@ import (
 )
 
 func main() {
-	fmt.Println(math.Tan(math.Inf(+1))) // Outputs: NaN
-	fmt.Println(math.Tan(math.Inf(-1))) // Outputs: NaN
-	fmt.Println(math.Tan(math.NaN()))   // Outputs: NaN
+	fmt.Println(math.Tan(math.Inf(+1)))
+	fmt.Println(math.Tan(math.Inf(-1)))
+	fmt.Println(math.Tan(math.NaN()))
 }
 ```
