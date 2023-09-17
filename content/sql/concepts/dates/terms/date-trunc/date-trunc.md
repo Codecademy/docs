@@ -1,6 +1,6 @@
 ---
 Title: 'DATE_TRUNC()'
-Description: 'Function to truncate a date, time, or timestamp to a specified interval (e.g. day or week). Available in PostgreSQL.'
+Description: 'Function to truncate a date, time, or timestamp to a specified interval (e.g. day or week). Available in PostgreSQL and SQL Server.'
 Subjects:
   - 'Data Science'
 Tags:
@@ -8,17 +8,18 @@ Tags:
   - 'Date'
   - 'Queries'
   - 'PostgreSQL'
+  - 'SQL Server'
 CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
   - 'paths/design-databases-with-postgresql'
 ---
 
-The **`DATE_TRUNC()`** function in PostgreSQL is used to truncate a date, time, or timestamp to a specified interval, such as the day, week, or month.
+The **`DATE_TRUNC()`** function is used to truncate a date, time, or timestamp to a specified interval, such as the day, week, or month, in PostgreSQL and SQL Server.
+
+The syntax varies slightly by SQL flavor; in PostgreSQL, the function is `DATE_TRUNC()`, while SQL Server uses the `DATETRUNC()` function without an underscore. MySQL does not have a `DATE_TRUNC()` function, but MySQL's `EXTRACT()` function is a commonly used alternative.
 
 The `DATE_TRUNC()` function is particularly useful for time series analysis, where you want to understand how a value changes over time. Practical examples would include analyzing company's quarterly sales or determining the average hourly temperature.
-
-While the `DATE_TRUNC()` syntax is specific to PostgreSQL, SQL Server's `DATETRUNC()` function and MySQL's `EXTRACT()` function offer similar functionality.
 
 ## PostgreSQL Syntax
 
@@ -93,3 +94,20 @@ This returns the `sale_date`, truncated by hour, as `fruit_sale_hour_at`, and th
 | 2022-07-23 11:00:00 | 3.50               |
 
 Based on this analysis, the fruit stand made more money ($3.50) from 11 am to noon than in the previous hour, from 10 am to 11 am ($2.50).
+
+## SQL Server Syntax
+
+```pseudo
+DATETRUNC(interval, date)
+```
+
+The **`DATETRUNC()`** function in SQL Server has the same functionality and required parameters as **`DATE_TRUNC()`** in PostgreSQL, but does not have an underscore in the function name.
+
+### Example 1 - SQL Server Variant
+
+The following example truncates `2023-07-23 07:08:30` by year in SQL Server:
+
+```sql
+SELECT DATETRUNC('year', '2023-07-23 07:08:30');
+/* Output: 2023-01-01 00:00:00 */
+```
