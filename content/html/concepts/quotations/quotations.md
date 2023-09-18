@@ -23,7 +23,7 @@ Short quotations such as a short sentence or fragment should be set off with the
   <q>Imagination is more important than knowledge.</q>
 </p>
 ```
-`![Einstein](https://www.pngall.com/wp-content/uploads/5/Albert-Einstein-PNG-File-Download-Free.png)`
+`![shortquote](/Users/rogerio/Desktop/ShortQ.png)`
 
 
 In this example, the text "Imagination is more important than knowledge" is enclosed in the `<q>` tag to indicate that it's a quotation. The quotation marks around "Imagination is more important than knowledge" are automatically added by the browser.
@@ -47,13 +47,13 @@ For longer quotations the `[<blockquote>](https://www.codecademy.com/resources/d
 </blockquote>
 ```
 
-`![Jobs](https://cdn.vox-cdn.com/thumbor/yIoKynT0Jl-zE7yWwzmW2fy04xc=/0x0:706x644/1400x1400/filters:focal(353x322:354x323)/cdn.vox-cdn.com/uploads/chorus_asset/file/13874040/stevejobs.1419962539.png)`
+`![longquote](/Users/rogerio/Desktop/LongQ.png)`
 
 
 
 
 
-In this example, the text "The best way to predict your future is to create it" is enclosed in the `<blockquote>` tag to indicate that it's a quotation. The `<footer>` tag is used to specify the author of the quote.
+In this example, the text "The greatest glory in living ... secondary.", is enclosed in the `<blockquote>` tag to indicate that it's a quotation. The `<footer>` tag is used to specify the author of the quote.
 
 Both the `<q>` and `<blockquote>` tags provide a semantic markup for quotations, which can be used by screen readers to distinguish quoted text from surrounding content, making it easier for visually impaired users to navigate web content.
 
