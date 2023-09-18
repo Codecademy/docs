@@ -1,5 +1,5 @@
 ---
-Title: 'drag-and-drop' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
+Title: 'Drag and Drop' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
 Description: 'Drag and Drop in SwiftUI allows a user to pick up and drop an object from one view to another.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
 Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
   - 'iOS'
