@@ -50,7 +50,7 @@ The `htmlentities()` function has one required parameter and three optional para
     | ENT_HTML5     | Handle code as HTML 5|
     | ENT_XHTML     | Handle code as XHTML|
 
-- `$encoding`: An optional argument defining the encoding used when converting characters. If omitted, `$encoding` defaults to the value of the `default_charset` configuration option. Although this argument is technically optional, you are highly encouraged to specify the correct value for your code if the `default_charset` configuration option may be set incorrectly for the given input.
+- `$encoding`: An optional argument defining the encoding used when converting characters. If omitted, `$encoding` defaults to the value of the `default_charset` configuration option. Although this argument is technically optional, it is highly encouraged to specify the correct value for the code if the `default_charset` configuration option may be set incorrectly for the given input.
 
   - Character sets that are supported:
     |Charset|Aliases|Description|
