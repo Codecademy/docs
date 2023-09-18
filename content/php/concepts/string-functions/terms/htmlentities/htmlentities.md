@@ -26,46 +26,47 @@ The `htmlentities()` function has one required parameter and three optional para
 
 - `$string`: Required. Specifies the `string` to convert.
 - `$flags`: Optional. Specifies how to handle quotes, invalid encoding and the used document type. Ex: ENT_QUOTES | ENT_SUBSTITUTE | ENT_HTML5.
+- `$encoding`: An optional argument defining the encoding used when converting characters. If omitted, `$encoding` defaults to the value of the `default_charset` configuration option. Although this argument is technically optional, it is highly encouraged to specify the correct value for the code if the `default_charset` configuration option may be set incorrectly for the given input.
+- `$double_encode`: Optional. Specifies whether to encode existing HTML entities. TRUE - Default. Will convert everything. FALSE - Will not encode existing html entities.
+
 
   - The available quote styles are:
 
     | Constant Name | Description|
     | ------------- | ----------------------------------- |
-    | ENT_COMPAT    | Default. Encodes only double quotes from `$string`|
-    | ENT_QUOTES    | Encodes double and single quotes from `$string`   |
-    | ENT_NOQUOTES  | Does not encode any quotes from `$string`|
+    | ENT_COMPAT    | Default. htmlentities() function encodes only double quotes from `$string`|
+    | ENT_QUOTES    | htmlentities() function encodes double and single quotes from `$string`   |
+    | ENT_NOQUOTES  | htmlentities() function does not encode any quotes from `$string`|
 
   - Invalid encoding:
 
     | Constant Name  | Description |
     |---|---|                                                                                                                                    
-    | ENT_IGNORE| Ignores invalid encoding instead of having the function return an empty string. Should be avoided, as it may have security|                        
-    | ENT_SUBSTITUTE | Replaces invalid encoding for a specified character set with a Unicode Replacement Character U+FFFD (UTF-8) or &#FFFD; instead of returning an empty string.s |
-    | ENT_DISALLOWED | Replaces code points that are invalid in the specified doctype with a Unicode Replacement Character U+FFFD (UTF-8) or &#FFFD;|                
+    | ENT_IGNORE| htmlentities() function ignores invalid encoding instead of having the function return an empty string. Should be avoided, as it may have security|                        
+    | ENT_SUBSTITUTE | htmlentities() function replaces invalid encoding for a specified character set with a Unicode Replacement Character U+FFFD (UTF-8) or &#FFFD; instead of returning an empty string.s |
+    | ENT_DISALLOWED | htmlentities() function replaces code points that are invalid in the specified doctype with a Unicode Replacement Character U+FFFD (UTF-8) or &#FFFD;|                
 
   - Additional flags for specifying the used doctype:
 
     | Constant Name | Description|
     | ------------- | --------------------------------- |
-    | ENT_HTML5     | Handle code as HTML 5|
-    | ENT_XHTML     | Handle code as XHTML|
+    | ENT_HTML5     | htmlentities() function handles code as HTML 5|
+    | ENT_XHTML     | htmlentities() function handles code as XHTML|
 
-- `$encoding`: An optional argument defining the encoding used when converting characters. If omitted, `$encoding` defaults to the value of the `default_charset` configuration option. Although this argument is technically optional, it is highly encouraged to specify the correct value for the code if the `default_charset` configuration option may be set incorrectly for the given input.
 
   - Character sets that are supported:
     |Charset|Aliases|Description|
     |---|---|---|
-    |ISO-8859-1|ISO8859-1|Western European, Latin-1.|
-    |ISO-8859-15|ISO8859-15|Western European, Latin-9. Adds the Euro sign, French and Finnish letters missing in Latin-1 (ISO-8859-1).|
-    |UTF-8||ASCII compatible multi-byte 8-bit Unicode.|
-    |cp866|ibm866, 866|DOS-specific Cyrillic charset.|
-    |cp1251|Windows-1251, win-1251, 1251|Windows-specific Cyrillic charset.|
-    |cp1252|Windows-1252, 1252|Windows specific charset for Western European.|
-    |MacRoman||Charset that was used by Mac OS.|
+    |ISO-8859-1|ISO8859-1|htmlentities() function works with Western European, Latin-1 charset.|
+    |ISO-8859-15|ISO8859-15|htmlentities() function works with Western European, Latin-9. Adds the Euro sign, French and Finnish letters missing in Latin-1 (ISO-8859-1) charset.|
+    |UTF-8||htmlentities() function works with ASCII compatible multi-byte 8-bit Unicode charset.|
+    |cp866|ibm866, 866|htmlentities() function works with DOS-specific Cyrillic charset.|
+    |cp1251|Windows-1251, win-1251, 1251|htmlentities() function works with Windows-specific Cyrillic charset.|
+    |cp1252|Windows-1252, 1252|htmlentities() function works with Windows specific charset for Western European chatset.|
+    |MacRoman||htmlentities() function works with charset that was used by Mac OS.|
 
     > **Note:** Any other character sets are not recognized. The default encoding will be used instead and a warning will be emitted.
 
-- `$double_encode`: Optional. Specifies whether to encode existing HTML entities. TRUE - Default. Will convert everything. FALSE - Will not encode existing html entities.
 
 > **Note:** The `htmlentities()` function returns the converted `$string`. However, if the `$string` parameter contains invalid encoding, it will return an empty `$string`, unless either the `ENT_IGNORE` or `ENT_SUBSTITUTE` flags are set
 
