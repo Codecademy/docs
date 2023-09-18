@@ -33,7 +33,7 @@ Below is an example of how an image is commonly inserted into a page using the H
 ```
 
 The above code will render this:
-![figcaption example] (https://raw.githubusercontent.com/Codecademy/docs/main/media/html-image-example.png)
+![image example] (https://raw.githubusercontent.com/Codecademy/docs/main/media/html-image-example.png)
 
 It is recommended to specify the image's [width and height](https://www.codecademy.com/resources/docs/uiux/width-height) using the percent of the current screen size to best support both smaller mobile devices as well as larger workstations. The image below would take up the top half of any screen, regardless of its size:
 
