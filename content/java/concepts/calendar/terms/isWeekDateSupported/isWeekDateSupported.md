@@ -14,9 +14,11 @@ CatalogContent:
 The **`.isWeekDateSupported()()`** method is used to check if the current `Calendar` object supports week dates. The method returns a boolean value, with `true` indicating support for week dates and `false` indicating otherwise. It belongs to the `Calendar` class and is an instance method, making it accessible with the class object. 
 
 ## Syntax
+
 ```pseudo
 result = myCalendar.isWeekDateSupported()
 ```
+
 The method doesn't take any parameters.
 
 The method will return `true` if the `Calendar` object supports week dates and `false` otherwise.
@@ -48,6 +50,7 @@ public class CalendarDemo {
 ```
 
 Since the Gregorian Calendar supports week dates, the code will return:
+
 ```shell
 The calendar supports week dates.
 ```
