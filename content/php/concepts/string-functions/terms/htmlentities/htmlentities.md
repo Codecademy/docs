@@ -22,17 +22,6 @@ The **`htmlentities()`** function converts characters to HTML entities. To conve
 htmlentities(string, flags, encoding, double_encode)
 ```
 
-**The predefined characters are**:
-
-|Characters|Convert to|Result|
-|---|---|---|
-|& (ampersand)|becomes|\&amp;|
-|" (double quote)|becomes|\&quot;|
-|' (single quote)|becomes|\&#039;|
-|< (less than)|becomes|\&lt;|
-|> (greater than)|becomes|\&gt;|
-
-
 The `htmlentities()` function has one required parameter and three optional parameters:
 
 - `$string`: Required. Specifies the `string` to convert.
@@ -79,6 +68,17 @@ The `htmlentities()` function has one required parameter and three optional para
 - `$double_encode`: Optional. Specifies whether to encode existing HTML entities. TRUE - Default. Will convert everything. FALSE - Will not encode existing html entities.
 
 > **Note:** The `htmlentities()` function returns the converted `$string`. However, if the `$string` parameter contains invalid encoding, it will return an empty `$string`, unless either the `ENT_IGNORE` or `ENT_SUBSTITUTE` flags are set
+
+**Entities that will be encoded**:
+
+|Characters|Convert to|Result|
+|---|---|---|
+|& (ampersand)|becomes|\&amp;|
+|" (double quote)|becomes|\&quot;|
+|' (single quote)|becomes|\&#039;|
+|< (less than)|becomes|\&lt;|
+|> (greater than)|becomes|\&gt;|
+
 
 ## Example
 
