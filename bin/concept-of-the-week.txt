@@ -1,1 +1,1 @@
-content/java/concepts/classes/classes.md
+content/css/concepts/typography/typography.md
