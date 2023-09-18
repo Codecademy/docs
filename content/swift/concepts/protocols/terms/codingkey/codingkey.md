@@ -1,3 +1,4 @@
+```shell
 ---
 Title: 'CodingKey'
 Description: 'Enables the mapping of JSON's keys to different Swift's struct / class properties.'
@@ -13,13 +14,14 @@ CatalogContent:
   - 'learn-swift'
   - 'paths/build-ios-apps-with-swiftui'
 ---
+```
 
 **`CodingKey`** is an extension to the Swift model when parsing the JSON data object into a Swift object. It allows us to map JSON's data keys into different 
 property names in the Swift object.
 
 > **Note:** JSON and Swift have different naming conventions (JSON uses *snake_case* for its key identifiers, while Swift uses *camelCase* for its property identifiers)
 ## Syntax
-This protocol will work when a Swift object conforms to either an `Encodable` or `Decodable` protocol.
+This protocol will work when a Swift object conforms to either an `Decodable` or `Encodable` protocol.
 
 ```pseudo
 struct myStruct: Decodable {
@@ -32,9 +34,21 @@ struct myStruct: Decodable {
 }
 ```
 
+```pseudo
+struct myStruct: Encodable {
+  let propertyOne: <DataType>
+  let propertyTwo: <DataType>
+
+  enum CodingKeys: String, CodingKey { case 
+    key_one, key_two
+  }
+}
+```
+
 The above demonstrates the usage of an enumerator 'CodingKeys', its cases of which refer to the JSON's object keys. It also specifies:
 1. the raw value type of the keys (it's a String because all JSON keys are of a String type only),
 2. the `CodingKey` protocol to which the enumerator has to conform in order to map the JSON keys with the Swift object's properties
+
 ## Syntax example using `Decodable`
 
 The example below will decode a JSON object array of famous musicians into a Swift model using the enumerator that conforms to the `CodingKey` protocol, and
@@ -80,6 +94,7 @@ musicians.forEach {
 ```
 
 > **Note:** *Notice how we managed to use the newly-created `yearsActive` property in the Swift model when JSON's key was written as `years_active`.*
+
 
 The output on the console with be a string-interpolated version of each of the `Musicians`' array element thanks to the `.forEach` function.
 > Note that we only used a trailing closure in the invoked functon to simplify the code.
@@ -137,7 +152,6 @@ print(exercisesJSONString)
 ```
 
 The above code snippet follows a similar idea to the one of `decoding` the JSON object into a Swift model, but we do observe some additional functionality implemented for the task to be executed.
-
 
 
 The output in the terminal will produce the following:
