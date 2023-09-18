@@ -88,4 +88,5 @@ The semantic [`<figure>`](https://www.codecademy.com/resources/docs/html/semanti
   <figcaption>The Codecademy logo</figcaption>
 </figure>
 ```
-![figcaption example] (Codeacademydocs-images/media/html-image-figcaption-example.png)
+The figcaption looks like this:
+![figcaption example] (https://raw.githubusercontent.com/Codecademy/docs/main/media/html-image-figcaption-example.png)
