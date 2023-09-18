@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.isWeekDateSupported()()`** method is used to check if the current `Calendar` object supports week dates. The method returns a boolean value, with `true` indicating support for week dates and `false` indicating otherwise. It belongs to the `Calendar` class and is an instance method, making it accessible with the class object. 
+The **`.isWeekDateSupported()()`** method is used to check if the current `Calendar` object supports week dates. The method returns a boolean value, with `true` indicating support for week dates and `false` indicating otherwise. It belongs to the `Calendar` class and is an instance method, making it accessible with the class object.
 
 ## Syntax
 
