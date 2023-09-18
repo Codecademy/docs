@@ -38,8 +38,6 @@ This results in the output:
 101
 ```
 
-In the above example, the first character of the string "equanimity" is "e". In accordance with standard single byte-encodings, this is represented in binary as 110 0101. This binary value is equivalent to the decimal value 101. Therefore the call to the `ord()` returns 101.
-
 ## Codebyte Example
 
 The code below is runnable, change the value of `your_string` to see the associated value of various characters.
