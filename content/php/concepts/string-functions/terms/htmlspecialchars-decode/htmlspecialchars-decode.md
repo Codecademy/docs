@@ -1,5 +1,5 @@
 ---
-Title: 'htmlspecialchars_decode'
+Title: 'htmlspecialchars_decode()'
 Description: 'Converts special HTML entities to characters'
 Subjects:
   - 'Computer Science'
