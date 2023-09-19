@@ -14,9 +14,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Counting Theory** is a part of 'discrete mathematics' that deals with counting the number of possible outcomes of a given event. Being an essential element of 'probability', it tries to answer an abstract question, "How many?"
+**Enumeration** is another word for count. In the context of mathematics, enumerating is a type of counting given a specified event or situation. An enumeration is a complete, ordered listing of all the items in a collection. When speaking in the context of mathematics and computer science, listing all the elements of a set comes into play.
 
-**Enumeration** is a complete, ordered listing of all the items in a collection. When speaking in the context of 'mathematics' and 'computer science', listing all the elements of a set comes into play.
+**Counting Theory** is a part of discrete mathematics that deals with counting the number of possible outcomes of a given event. Being an essential element of probability, it tries to answer an abstract question, "How many?"
 
 ## Fundamental Counting Principle
 
