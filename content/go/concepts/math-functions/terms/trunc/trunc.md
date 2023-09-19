@@ -29,7 +29,7 @@ Where `result` is the integer value of `x`, returned as a `float64` except under
 
 ## Example
 
-The following prints the integer value of `x`:
+The following example implements the `math.Trunc()` method:
 
 ```go
 package main
