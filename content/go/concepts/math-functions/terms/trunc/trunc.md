@@ -20,7 +20,7 @@ The **`Trunc()`** function returns the integer value of a given number. This fun
 result := math.Trunc(x)
 ```
 
-Where `result` is the integer value of `x`, returned as a float64 except under the following circumstances:
+Where `result` is the integer value of `x`, returned as a `float64` except under the following circumstances:
 
 - The result of `Trunc(math.Inf(1))` is `+Inf`
 - The result of `Trunc(math.Inf(-1))` is `-Inf`
