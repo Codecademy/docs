@@ -22,7 +22,7 @@ result := math.Trunc(x)
 
 Where `result` is the integer value of `x`, returned as a `float64` except under the following circumstances:
 
-- The result of `Trunc(math.Inf(1))` is `+Inf`
+- `Trunc(math.Inf(1))` yields `+Inf`
 - The result of `Trunc(math.Inf(-1))` is `-Inf`
 - The result of `Trunc(NaN)` is `NaN`
 - The result of `Trunc(0)` is `0`
