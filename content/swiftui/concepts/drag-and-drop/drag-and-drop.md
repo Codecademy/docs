@@ -45,7 +45,7 @@ struct CDDropDelegate: DropDelegate {
 ## DropProposal
 
 **`DropProposal`** is a `structure` in SwiftUI that helps to control how object and drop operations should be handled when it's dropped into a SwiftUI view. It is used together with the onDrop() modifier to determine what happens when a user drops an object.
-You can customize the DropProposal using the operation property to specify the drop operation (e.g., .move or .copy).
+The `DropProposal` can be customized using the operation property to specify the drop operation (e.g., `.move` or `.copy`).
 
 ```swift
 struct ContentView: View {
