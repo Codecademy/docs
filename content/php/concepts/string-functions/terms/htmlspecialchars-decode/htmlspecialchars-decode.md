@@ -64,8 +64,7 @@ This example is runnable and uses the `htmlspecialchars_decode()` function:
 
 ```codebyte/php
 <?php
-$original = "Codecademy &lt;3 PHP and special characters like &amp;, &quot;, &#039;, &lt; and &gt;.";
-echo "original: " . $original . "\n";
-echo "converted: " . htmlspecialchars_decode($original) . "\n";
+echo "HTML entity &amp; is decoded into: " . htmlspecialchars_decode("&amp;") . "\n";
+echo "While character & is kept as it is: " . htmlspecialchars_decode("&");
 ?>
 ```
