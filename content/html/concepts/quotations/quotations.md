@@ -23,8 +23,8 @@ Short quotations such as a short sentence or fragment should be set off with the
   <q>Imagination is more important than knowledge.</q>
 </p>
 ```
-`[shortquote](https://raw.githubusercontent.com/Codecademy/docs/main/media/short-quote-image.png)`
 
+[shortquote](https://raw.githubusercontent.com/Codecademy/docs/main/media/short-quote-image.png)
 
 In this example, the text "Imagination is more important than knowledge" is enclosed in the `<q>` tag to indicate that it's a quotation. The quotation marks around "Imagination is more important than knowledge" are automatically added by the browser.
 
@@ -47,11 +47,7 @@ For longer quotations the `[<blockquote>](https://www.codecademy.com/resources/d
 </blockquote>
 ```
 
-`[longquote](https://raw.githubusercontent.com/Codecademy/docs/main/media/long-quote-image.png)`
-
-
-
-
+[longquote](https://raw.githubusercontent.com/Codecademy/docs/main/media/long-quote-image.png)
 
 In this example, the text "The greatest glory in living ... secondary.", is enclosed in the `<blockquote>` tag to indicate that it's a quotation. The `<footer>` tag is used to specify the author of the quote.
 
