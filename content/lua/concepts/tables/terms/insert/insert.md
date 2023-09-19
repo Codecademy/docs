@@ -15,17 +15,19 @@ The **`.insert()`** method inserts a value in a table at a specified index.
 
 ## Syntax
 
-```lua
-table.insert(table, index, value)
+```pseudo
+table.insert(someTable, index, value)
 ```
 
-The `value` is inserted at `index`. If `index` is not provided, `value` is inserted at the end of `table`. It returns `table`. Stacks, queues, and double queues can be implemented in this way.
+The `value` is inserted at `index`. If `index` is not provided, `value` is inserted at the end of `someTable`. The function returns modified, original table. 
+
+Stacks, queues, and double queues can be implemented in this way.
 
 ## Example
 
 Adding `iPhone` at the end of `apple_products` table:
 
-```lua
+```shell
 apple_products = {"Macbook", "Watch", "iPad"}
 table.insert(apple_products, "iPhone")
 for key, value in  pairs(apple_products) do
@@ -33,7 +35,7 @@ for key, value in  pairs(apple_products) do
 end
 ```
 
-The output would be:
+The code above results in the following output:
 
 ```
 Macbook
