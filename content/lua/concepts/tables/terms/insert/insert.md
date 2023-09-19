@@ -19,7 +19,7 @@ The **`.insert()`** method inserts a value in a table at a specified index.
 table.insert(someTable, index, value)
 ```
 
-The `value` is inserted at `index`. If `index` is not provided, `value` is inserted at the end of `someTable`. The function returns modified, original table. 
+The `value` is inserted at `index`. If `index` is not provided, `value` is inserted at the end of `someTable`. The function returns the modified, original table.
 
 Stacks, queues, and double queues can be implemented in this way.
 
@@ -27,17 +27,17 @@ Stacks, queues, and double queues can be implemented in this way.
 
 Adding `iPhone` at the end of `apple_products` table:
 
-```shell
+```lua
 apple_products = {"Macbook", "Watch", "iPad"}
 table.insert(apple_products, "iPhone")
 for key, value in  pairs(apple_products) do
-	print(key, value)
+  print(key, value)
 end
 ```
 
 The code above results in the following output:
 
-```
+```shell
 Macbook
 Watch
 iPad
