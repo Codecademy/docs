@@ -12,18 +12,18 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`strings.Map()`** method changes all of the characters of a given string accordant to the changes specified in the mapping function.
+The **`strings.Map()`** method changes all of the characters of a given string according to the changes specified in the given mapping function.
 
 ## Syntax
 
 ```pseudo
-func Map(mapping funct(rune) rune,  s string) string
+Map(mappingFunct(r),  s)
 ```
 
 The `strings.Map()` function takes two parameters:
 
-- `funct(rune) rune`: The new character that the initial character will be replaced with.
-- `string`: The given string in which the characters will be replaced.
+- `mappingFunct(r)`: A function and a character (type rune) that the original character will be replaced with.
+- `s`: The given string in which the characters will be replaced.
 
 > **Note:** If a negative value is returned when a character is mapped, it is dropped from the string without a replacement.
 
@@ -32,32 +32,32 @@ The `strings.Map()` function takes two parameters:
 The following example shows the implementation of `strings.Map()`:
 
 ```go
-package main
+  package main
 
-import(
+import (
   "fmt"
   "strings"
 )
 
 func main() {
-    mapped := func(r rune) rune {
-        if r == 'e' {
-            return '3'
-        }
-        return r
+  mapped := func(r rune) rune {
+    if r == "e" {
+      return '3'
     }
+    return r
+  }
 
-    input := "Halloween"
+  input := "Halloween"
 
-    result := strings.Map(mapped, input)
-    fmt.Println(result)
+  result := strings.Map(mapped, input)
+  fmt.Println(result)
 }
 ```
 
-The output is:
+This example results in the following output:
 
 ```shell
-Hallow33n
+Halow33n
 ```
 
 ## Codebyte Example
@@ -67,22 +67,22 @@ The following example can be run and uses the `strings.Map()` function to replac
 ```codebyte/golang
 package main
 
-import(
+import (
   "fmt"
   "strings"
 )
 
 func main() {
-    mapped := func(r rune) rune {
-        if r == 'a' {
-            return '@'
-        }
-        return r
+  mapped := func(r rune) rune {
+    if r == 'a' {
+      return '@'
     }
+    return r
+  }
 
-    input := "Carry you always"
+  input := "Carry you always"
 
-    result := strings.Map(mapped, input)
-    fmt.Println(result)
+  result := strings.Map(mapped, input)
+  fmt.Println(result)
 }
 ```
