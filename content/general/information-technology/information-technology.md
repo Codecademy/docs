@@ -12,8 +12,16 @@ CatalogContent:
 
 ## Roles
 
-IT encompasses the following roles:
+These are the common roles in the IT industry:
 
 - Hardware Technicians: Installs, repairs, and maintains computer hardware. May also be required to troubleshoot hardware and software issues, as well as provide training and support to users on how to use the devices effectively.
 - Network Engineers: Designs,plans, and implements network infrastructures ranging from local area networks(LANs), wide area networks(WANs), and intranets for businesses and organizations. Also analyzes network traffic and discuss suggestions how to increase it to fulfill the organization/business' needs.
 - Desktop Support Personnel: Typically provides tech support(e.g.,restoring and backing up data to mobile devices) to customers via computer or phone.
+
+## Certifications
+
+Some IT roles require applicants to become certified. Common types of certifications include:
+
+- CompTIA A+: Requires candidates to pass two exams. Focuses on topics such as networking, troubleshooting, working with operating systems, implementing strategies to lessen security vulnerabilities.
+- Cisco Certified Network Associate(CCNA): Focuses on topics such as networking fundamentals, IP services, security fundamentals, automation and programmability. Has no formal prerequisites but recommends candidates to have one or more years of experience in implementing and administering Cisco solutions.
+- CompTIA Security+: Focuses on topics such as cybersecurity terms, dealing with cyber threats, how to manage data safely, etc. Has no formal requirements to take the Security+ exam, but recommends candidates to have two years of experience in IT administration with a security focus.
