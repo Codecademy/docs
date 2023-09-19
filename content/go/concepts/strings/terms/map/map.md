@@ -57,7 +57,7 @@ func main() {
 This example results in the following output:
 
 ```shell
-Halow33n
+Hallow33n
 ```
 
 ## Codebyte Example
