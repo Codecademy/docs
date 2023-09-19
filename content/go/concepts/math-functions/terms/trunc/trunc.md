@@ -23,9 +23,9 @@ result := math.Trunc(x)
 Where `result` is the integer value of `x`, returned as a `float64` except under the following circumstances:
 
 - `Trunc(math.Inf(1))` yields `+Inf`
-- The result of `Trunc(math.Inf(-1))` is `-Inf`
-- The result of `Trunc(NaN)` is `NaN`
-- The result of `Trunc(0)` is `0`
+- `Trunc(math.Inf(-1))` yields `-Inf`
+- `Trunc(NaN)` yields `NaN`
+- `Trunc(0)` yields `0`
 
 ## Example
 
