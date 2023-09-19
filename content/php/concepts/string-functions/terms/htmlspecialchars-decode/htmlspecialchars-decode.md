@@ -37,7 +37,7 @@ The `htmlspecialchars_decode()` function has two parameters:
 |ENT_XHTML|Handles code as XHTML|
 |ENT_HTML5|Handles code as HTML 5|
 
-The `htmlspecialchars_decode()` function returns the converted string with characters like `&, ", ', < and >`.
+The `htmlspecialchars_decode()` function returns the converted string with characters like `&`, `"`, `'`, `<` and `>`.
 
 ## Example
 
