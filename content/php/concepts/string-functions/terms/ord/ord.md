@@ -22,7 +22,7 @@ The integer returned is the decimal equivalent of the binary representation of t
 ord(string)
 ```
 
--`(ord)` has only one parameter, `string`. The first character of the value passed by `string` will be used to return the relevant integer.
+`(ord)` has only one parameter, `string`. The first character of the value passed by `string` will be used to return the relevant integer.
 
 ## Example
 
@@ -44,7 +44,7 @@ The code below is runnable, change the value of `your_string` to see the associa
 
 ```codebyte\php
 <?php
-	$your_string = 'Try changing this string!';
-	echo "The ASCII value of the first character of your string is: ". ord($your_string);
+  $your_string = 'Try changing this string!';
+  echo "The ASCII value of the first character of your string is: ". ord($your_string);
 ?>
 ```
