@@ -12,7 +12,7 @@ CatalogContent:
   - 'introduction-to-information-technology'
 ---
 
-**Information Technology**, also known as IT, is the use of digital technological tools to store and turn data into useful information. Since we live in a technology-driven world, IT plays a major role in our lives whether its fixing a cracked screen on a phone, doing a data transfer from an old computer to another one, or repairing a PC's hardware.
+**Information Technology**, also known as IT, is the use of digital technological tools to store and turn data into useful information. Due to living in a technology-driven world, IT plays a major role in people's lives whether it's fixing a cracked screen on a phone, doing a data transfer from an old computer to another one, or repairing a PC's hardware.
 
 ## Roles
 
