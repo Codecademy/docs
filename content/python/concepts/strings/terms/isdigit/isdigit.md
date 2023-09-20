@@ -12,6 +12,7 @@ CatalogContent:
   - 'learn-python-3'
   - 'paths/analyze-data-with-python'
 ---
+
 The **`.isdigit()`** method under the string class checks if all the elements in the string are digits, applicable elements also include special cases like compatibility superscript digits. The method returns `True` in the above cases and also requires at least one character in the string. Returns `False` otherwise.
 
 ## Syntax
@@ -21,7 +22,9 @@ string.isdigit()
 ```
 
 ## Example
-Use `.isdigit()` to check if a string contains only digits:
+
+The code below uses `.isdigit()` to check if a string contains only digits:
+
 ```py
 my_string1 = "123"
 my_string2 = "123AA"
@@ -29,8 +32,10 @@ my_string2 = "123AA"
 print(my_string1.isdigit())
 print(my_string2.isdigit())
 ```
-## Output
-```shell 
+
+This results in the following output:
+
+```shell
 True
 False
 ```
