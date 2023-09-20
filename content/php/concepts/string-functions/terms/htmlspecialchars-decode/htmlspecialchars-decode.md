@@ -1,6 +1,6 @@
 ---
 Title: 'htmlspecialchars_decode()'
-Description: 'Converts special HTML entities to characters'
+Description: 'Converts special HTML entities to characters.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
