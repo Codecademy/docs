@@ -21,15 +21,15 @@ CatalogContent:
 
 Logical operators mirror the behavior of logical concepts like conjunction, disjunction, and negation. Because Luau is not a strongly-typed language, logical operators in Luau will accept arguments other than `true` and `false`. Note also that Luau treats a value of `nil` as equivalent to `false` in the context of a logical operator.
 
-| Logical Operator |                                          Behavior                                                      |
+| Logical Operator |                                                Behavior                                                |
 | :--------------: | :----------------------------------------------------------------------------------------------------: |
 |      `and`       |   Returns the first argument if the first argument is `false`; otherwise returns the second argument   |
-|      `or`        | Returns the first argument if the first argument is not `false`; otherwise returns the second argument |
-|      `not`       |           Returns `true` if and only if the argument is `false`; otherwise returns `false`             |
+|       `or`       | Returns the first argument if the first argument is not `false`; otherwise returns the second argument |
+|      `not`       |            Returns `true` if and only if the argument is `false`; otherwise returns `false`            |
 
 ### Examples
 
-```pseudo
+```lua
 print(true and false) -- false
 print(false and false) -- false
 print(true and true) -- true
@@ -55,18 +55,18 @@ Mathematical operators include arithmetic and relational (comparative) operators
 
 Relational operators compare two arguments numerically (greater than, equal to, etc.) and return a boolean value of `true` or `false`.
 
-| Relational Operator|                                                       Behavior                                                 |
-| :----------------: | :------------------------------------------------------------------------------------------------------------: |
-|        `==`        |                    Returns `true` if the two arguments are equal; otherwise returns `false`                    |
-|        `~=`        |                  Returns `true` if the two arguments are not equal; otherwise returns `false`                  |
-|         `>`        |       Returns `true` if the first argument is greater than the second argument; otherwise returns `false`      |
-|         `<`        |       Returns `true` if the first argument is less than the the second argument; otherwise returns `false`     |
-|        `>=`        | Returns `true` if the first argument is greater than or equal to the second argument; otherwise returns `false`|
-|        `<=`        |   Returns `true` if the first argument is less than or equal to the second argument; otherwise returns `false` |
+| Relational Operator |                                                    Behavior                                                     |
+| :-----------------: | :-------------------------------------------------------------------------------------------------------------: |
+|        `==`         |                    Returns `true` if the two arguments are equal; otherwise returns `false`                     |
+|        `~=`         |                  Returns `true` if the two arguments are not equal; otherwise returns `false`                   |
+|         `>`         |       Returns `true` if the first argument is greater than the second argument; otherwise returns `false`       |
+|         `<`         |      Returns `true` if the first argument is less than the the second argument; otherwise returns `false`       |
+|        `>=`         | Returns `true` if the first argument is greater than or equal to the second argument; otherwise returns `false` |
+|        `<=`         |  Returns `true` if the first argument is less than or equal to the second argument; otherwise returns `false`   |
 
 #### Examples
 
-```pseudo
+```lua
 print(5 == 5) -- true
 print("arts" = "sciences") -- false
 print(0 ~= 9) -- true
@@ -83,18 +83,18 @@ print(3 <= 0) -- false
 
 Arithmetic operators perform the basic operations of arithmetic (addition, subtraction, etc.) on the supplied arguments.
 
-| Arithmetic Operator |                                    Behavior                                 |
+| Arithmetic Operator |                                  Behavior                                   |
 | :-----------------: | :-------------------------------------------------------------------------: |
-|         `+`         |                       Returns the sum of two arguments                      |
+|         `+`         |                      Returns the sum of two arguments                       |
 |         `-`         | Returns the value of the second argument subtracted from the first argument |
-|         `*`         |                     Returns the product of two arguments                    |
-|         `/`         |    Returns the value of the first argument divided by the second argument   |
+|         `*`         |                    Returns the product of two arguments                     |
+|         `/`         |   Returns the value of the first argument divided by the second argument    |
 |         `^`         | Returns the value of the first argument to the power of the second argument |
-|         `%`         |  Returns the remainder of the first argument divided by the second argument |
+|         `%`         | Returns the remainder of the first argument divided by the second argument  |
 
 ### Examples
 
-```pseudo
+```lua
 print(3 + 4) -- 7
 print(2.3 - 7.8) -- -5.5
 print(0 * 4.2) -- 0.0
@@ -107,14 +107,14 @@ print(8 % 2) -- 0
 
 There are a couple of operators that do not fit into the categories above.
 
-| Operator |                     Behavior                    |
+| Operator |                    Behavior                     |
 | :------: | :---------------------------------------------: |
 |   `..`   | Returns a concatenation of two string arguments |
-|    `#`   |    Returns the number of elements in a table    |
+|   `#`    |    Returns the number of elements in a table    |
 
 ### Examples
 
-```Pseudo
+```lua
 print("Finally " .. "together") -- "Finally together"
 print(#{"#", "goes", "crazy"}) -- 3
 ```
@@ -123,19 +123,19 @@ print(#{"#", "goes", "crazy"}) -- 3
 
 Several operators can be combined with `=` to form a compound operator that updates the value of a variable by performing an operation on it.
 
-| Compound Operator |                                  Behavior                          |
+| Compound Operator |                              Behavior                              |
 | :---------------: | :----------------------------------------------------------------: |
-|        `+=`       |                   Adds argument to initial variable value          |
-|        `-=`       |                    Subtracts argument from initial value           |
-|        `*=`       |                     Multiplies argument by initial value           |
-|        `/=`       |                       Divides initial value by argument            |
-|        `%=`       | Variable updated to remainder of initial value divided by argument |
-|        `^=`       |    Variable updated to intial value to the power of the argument   |
-|       `..=`       |                   Concatenates initial value with argument         |
+|       `+=`        |              Adds argument to initial variable value               |
+|       `-=`        |               Subtracts argument from initial value                |
+|       `*=`        |                Multiplies argument by initial value                |
+|       `/=`        |                 Divides initial value by argument                  |
+|       `%=`        | Variable updated to remainder of initial value divided by argument |
+|       `^=`        |   Variable updated to intial value to the power of the argument    |
+|       `..=`       |              Concatenates initial value with argument              |
 
 ### Examples
 
-```pseudo
+```lua
 initial_value = 8
 print(initial_value += 10) -- 18
 print(initial_value -= 4) -- 4
