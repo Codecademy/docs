@@ -28,7 +28,7 @@ The `htmlspecialchars_decode()` function has two parameters:
 
 |Constant|Description|
 |---|---|
-|ENT_COMPAT|Converts double-quotes and leaves single-quotes alone|
+|`ENT_COMPAT`|Converts double-quotes and leaves single-quotes alone|
 |ENT_QUOTES|Converts both double and single quotes|
 |ENT_NOQUOTES|Leaves both double and single quotes unconverted|
 |ENT_SUBSTITUTE|Replaces invalid code unit sequences with a Unicode Replacement Character U+FFFD (UTF-8) or &#xFFFD; (otherwise) instead of returning an empty string|
