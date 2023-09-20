@@ -1,6 +1,6 @@
 ---
 Title: '.isalnum()'
-Description: ''Returns True if all the characters in a given string are alphanumeric.'
+Description: 'Returns True if all the characters in a given string are alphanumeric.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
@@ -20,21 +20,28 @@ The **`.isalnum()`** string method takes in a string and returns `True` if all t
 ```pseudo
 string.isalnum()
 ```
-The method does not have any parameters.
+
+This method does not have any parameters.
+
 ## Example
 
 The examples below use `.isalnum()` to check if all the characters are alphanumeric:
 
-```shell
+```py
 my_string_1 = "string2023"
 
 print(my_string_1.isalnum())
-# Output: True
 
 my_string_2 = "@lpha"
 
 print(my_string_2.isalnum())
-# Output: False
+```
+
+The code above will result in the following output:
+
+```shell
+True
+False
 ```
 
 ## Codebyte Example
