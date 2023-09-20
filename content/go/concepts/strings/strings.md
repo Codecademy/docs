@@ -92,3 +92,22 @@ func main() {
   fmt.Println(string_name) // This prints the string.
 }
 ```
+
+## String Functions
+
+The `strings` package contains many different string functions used to manipulate strings. The `strings` package must be imported before using these functions, as in the example below:
+
+```go
+package main
+import (
+  "fmt"
+  "strings"
+)
+func main() {
+  name := "Codecademy"
+  find := "d"
+  fmt.Println(find, "is in", name, "at index", strings.Index(name,find))
+}
+```
+
+Below is a selection of string functions from the `strings` package.

@@ -16,17 +16,17 @@ Takes in a numeric data type and rounds the value up to the nearest integer.
 
 ## Syntax
 
-```py
+```pseudo
 math.ceil(n)
 ```
 
-The `math.ceil()` function takes in a value and returns its ceiling, the smallest integer greater than or equal to that value.
+The **`math.ceil()`** function takes in a value and returns its ceiling, the smallest integer greater than or equal to that value.
 
-## Example 1
+## Example
 
 Use `math.ceil()` to return the ceiling of `134.2`:
 
-```python
+```py
 import math
 
 print(math.ceil(134.2))
@@ -34,14 +34,16 @@ print(math.ceil(134.2))
 # Output: 135
 ```
 
-## Example 2
+## Codebyte Example
 
-Use `math.ceil()` to return the ceiling of `412.959`:
+The following example is runnable and uses the `math.ceil()` function to return the ceiling of a number:
 
-```python
+```codebyte/python
 import math
 
-print(math.ceil(412.959))
+print(math.ceil(4.2))
+# Output: 5
 
-# Output: 413
+print(math.ceil(9.7))
+# Output: 10
 ```

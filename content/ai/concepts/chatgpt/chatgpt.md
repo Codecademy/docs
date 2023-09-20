@@ -22,11 +22,11 @@ CatalogContent:
 
 ## How ChatGPT Works
 
-**ChatGPT** is part of a new group of LLM models that are now made available by a technology called **transformers**. Other notable and similar LLM models include **BERT** used by Google to understand user searches; **DALL-E**, which can generate images; and **GPT-Neo**, a promising open-source LLM.
+**ChatGPT** is part of a new group of LLMs that are now made available by a technology called **transformers**. Other notable and similar LLMs include **BERT** used by Google to understand user searches; **DALL-E**, which can generate images; and **GPT-Neo**, a promising open-source LLM.
 
 ChatGPT is the packaging of a set of trained LLMs into a chatbot and developer friendly interface. This has created a system where there is low barrier to entry and almost everyone can start using the LLM.
 
-### What is the relation to Internet Search?
+### What is the Relation to Internet Search?
 
 **ChatGPT** is trained by using vast quantities of data from the internet. However, LLMs are different from internet search engines in the following ways:
 
@@ -56,7 +56,7 @@ While RNNs are very useful for language translation, they do not scale well with
 
 ### Breakthrough with Transformers
 
-The breakthrough that allowed BERT and ChatGPT-based models is called **transformers**, introduced in a paper from 2019 entitled _“Attention is all you need”_. It was presented as a way to build machine translation but to have much faster parallel execution. It also introduced a new concept called _Self Attention_ to further make sense of long language sequences. It creates connections between different parts of the sequence.
+The breakthrough that allowed BERT and ChatGPT-based models is called **transformers**, introduced in a paper from 2017 entitled _“Attention is all you need”_. It was presented as a way to build machine translation but to have much faster parallel execution. It also introduced a new concept called _Self Attention_ to further make sense of long language sequences. It creates connections between different parts of the sequence.
 
 So how does it all work? In the transformer-based model, each word is transformed into a token. As tokens are read as part of an input sentence the model starts predicting what the output should be - similar in concept to sentence completion.
 
@@ -98,6 +98,6 @@ ChatGPT was intended to be a demonstration product. Companies around the world a
 
 Costs to train a LLM can be in the millions of dollars - so training frequently may hit commercial challenges. After training, each _inference_ or transaction costs some amount of money and computing power.
 
-### New areas of Tech
+### New Areas of Tech
 
-ChatGPT **Prompt Engineering**, **Embeddings**, and **Fine tuning** are necessary in using the new LLM technology. While there are predictings that some types of coding may change, new programming approaches are being created.
+ChatGPT **Prompt Engineering**, **Embeddings**, and **Fine tuning** are necessary in using new LLM technology. There are predictions that some types of coding may change as these technologies continue to develop, however, work in the assessment and refinement of new programming approaches is just beginning.

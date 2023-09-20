@@ -1,1 +1,1 @@
-content/python/concepts/conditionals/conditionals.md
+content/css/concepts/typography/typography.md
