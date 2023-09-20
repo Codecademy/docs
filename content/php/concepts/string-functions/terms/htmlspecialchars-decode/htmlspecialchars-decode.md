@@ -41,7 +41,7 @@ The `htmlspecialchars_decode()` function returns the converted string with chara
 
 ## Example
 
-The following example uses the `htmlspecialchars_decode()` function to convert the string `"Codecademy &lt;3 PHP and special characters like &amp;, &quot;, &#039;, &lt; and &gt;."` to `"Codecademy <3 PHP and special characters like &, ", ', < and >"` and prints the string before and after the conversion to console.
+The following example uses the `htmlspecialchars_decode()` function to convert a string that contains multiple HTML entities.
 
 ```php
 <?php
