@@ -19,7 +19,7 @@ The **`LastIndex()`** function returns the index value of the last occurrence of
 strings.LastIndex(str, substr)
 ```
 
-Where `str` is the original string and `substr` is the substring to find the last occurrence in the original string.
+Where `str` is the original string and `substr` is the substring to find in the original string.
 
 ## Example
 
@@ -46,7 +46,7 @@ The output will be:
 
 ## Codebyte Example
 
-The provided example is executable and demonstrates the usage of the `LastIndex()` function.
+The provided example is executable and implements the `strings.LastIndex()` function.
 
 ```codebyte/golang
 package main
