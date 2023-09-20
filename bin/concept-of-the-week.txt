@@ -1,1 +1,1 @@
-content/git/concepts/status/status.md
+content/css/concepts/typography/typography.md

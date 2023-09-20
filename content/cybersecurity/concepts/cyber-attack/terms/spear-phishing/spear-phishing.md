@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/fundamentals-of-cybersecurity'
 ---
 
-**Spear phishing** is a type of [social engineering](https://www.codecademy.com/resources/docs/cybersecurity/social-engineering) scam that attempts to trick the recipient into providing confidential information to the attacker. Spear phishing is a more targeted [cyber attack](https://www.codecademy.com/resources/docs/cybersecurity/cyber-attack) than [phishing](https://www.codecademy.com/resources/docs/cybersecurity/phishing).
+**Spear phishing** is a type of [social engineering](https://www.codecademy.com/resources/docs/cybersecurity/social-engineering) scam that attempts to trick the recipient into providing confidential information to the attacker. Spear phishing is a more targeted [cyber attack](https://www.codecademy.com/resources/docs/cybersecurity/cyber-attack) than [phishing](https://www.codecademy.com/resources/docs/cybersecurity/cyber-attack/phishing).
 
 ## Spear Phishing In-Use
 
