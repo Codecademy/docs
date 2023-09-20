@@ -42,11 +42,11 @@ print(my_string_2.isalnum())
 Use `.isalnum()` to check if a `string` contains only alphanumeric letters or not:
 
 ```codebyte/python
-string_1 = "AlphaNeumeric001"
+string_1 = "AlphaNumeric001"
 print(string_1.isalnum())
 ```
 
 ```codebyte/python
-string_2 = "N*n@lphanemeric"
+string_2 = "N*n@lphaneumeric"
 print(string_2.isalnum())
 ```
