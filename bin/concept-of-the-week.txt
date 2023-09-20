@@ -1,1 +1,1 @@
-content/open-source/concepts/font-awesome/font-awesome.md
+content/css/concepts/typography/typography.md
