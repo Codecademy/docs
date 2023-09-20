@@ -12,7 +12,7 @@ CatalogContent:
 
 ## Roles
 
-These are the common roles in the IT industry:
+These are some common roles in the IT industry:
 
 - Hardware Technicians: Installs, repairs, and maintains [computer hardware](https://www.codecademy.com/resources/docs/general/computer-hardware). May also be required to troubleshoot hardware and software issues, as well as provide training and support to users on how to use the devices effectively.
 - Network Engineers: Designs,plans, and implements network infrastructures ranging from local area networks(LANs), wide area networks(WANs), and intranets for businesses and organizations. Also analyzes network traffic and discuss suggestions how to increase it to fulfill the organization/business' needs.
