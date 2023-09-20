@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`htmlspecialchars_decode()`** function converts special HTML entities back to characters. The converted entities include `&amp;`, `&quot;`, `&#039;`, `&lt;` and `&gt;`
+The **`htmlspecialchars_decode()`** function converts special HTML entities back to characters. The converted entities include `&amp;`, `&quot;`, `&#039;`, `&lt;` and `&gt;`.
 
 ## Syntax
 
