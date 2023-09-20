@@ -1,12 +1,16 @@
 ---
 Title: 'Information Technology'
 Description: 'Information Technology is the use of digital technological tools to store and turn data into useful information'
-Codecademy Hub Page: 'https://www.codecademy.com/catalog/subject/cybersecurity'
+Subjects: 
+  - 'A subject name'
+  - 'A second subject name'
+Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
+  - 'A tag'
+  - 'A second tag'
+  - 'An nth tag'
 CatalogContent:
   - 'introduction-to-information-technology'
 ---
-
-<link rel="cannonical" href="https://www.codecademy.com/courses/introduction-to-it/articles/it-overview"/>
 
 **Information Technology**, also known as IT, is the use of digital technological tools to store and turn data into useful information. Since we live in a technology-driven world, IT plays a major role in our lives whether its fixing a cracked screen on a phone, doing a data transfer from an old computer to another one, or repairing a PC's hardware.
 
