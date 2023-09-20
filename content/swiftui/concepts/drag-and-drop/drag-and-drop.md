@@ -1,9 +1,5 @@
 ---
-<<<<<<< HEAD
-Title: 'drag-and-drop' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-=======
 Title: 'Drag and Drop' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
->>>>>>> 030f211bd98cc79b8ade95580e631d438ee3c81f
 Description: 'Drag and Drop in SwiftUI allows a user to pick up and drop an object from one view to another.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
 Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
   - 'iOS'
@@ -19,11 +15,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 
 **Drag and Drop** in SwiftUI is the concept of moving and dropping an object (e.g. a UI element or UIView) around the screen. This feature allows users to easily rearrange, reorder, or transfer objects between different parts of the app's interface by dragging them, enhancing the overall user experience.
 
-<<<<<<< HEAD
-**`DropDelegate`** is a `protocol` in SwiftUI that lets you work with a drag and drop operations in a flexible way. To enable a view to accept drops, use the onDrop() method and specify a drop delegate.
-=======
 **`DropDelegate`** is a `protocol` in SwiftUI that lets you work with a drag and drop operations in a flexible way. To enable a view to accept drops, use the `onDrop()` method and specify a drop delegate.
->>>>>>> 030f211bd98cc79b8ade95580e631d438ee3c81f
 This code defines a drop delegate that handles different events related to dropping objects onto a view. The events are:
 
 ```pseudo
@@ -49,18 +41,10 @@ struct CDDropDelegate: DropDelegate {
   }
 }
 ```
-<<<<<<< HEAD
 ## DropProposal
 
-**`DropProposal`** is a `structure` in SwiftUI that helps to control how object and drop operations should be handled when it's dropped into a SwiftUI view. It is used together with the onDrop() modifier to determine what happens when a user drops an object.
-You can customize the DropProposal using the operation property to specify the drop operation (e.g., .move or .copy).
-=======
-
-## DropProposal
-
-**`DropProposal`** is a `structure` in SwiftUI that helps to control how object and drop operations should be handled when it's dropped into a SwiftUI view. It is used together with the `onDrop()` modifier to determine what happens when a user drops an object.
+**`DropProposal`** is a `structure` in SwiftUI that helps to control how object and drop operations should be handled when it's dropped into a SwiftUI view. It is used together with the `onDrop(` modifier to determine what happens when a user drops an object.
 The `DropProposal` can be customized using the operation property to specify the drop operation (e.g., `.move` or `.copy`).
->>>>>>> 030f211bd98cc79b8ade95580e631d438ee3c81f
 
 ```swift
 struct ContentView: View {
@@ -109,9 +93,11 @@ struct ContentView: View {
 
 ## DropInfo
 
-**`DropInfo`** is a `structure` that gives information about a drop action. It is commonly used when handling drops with the onDrop() modifier. DropInfo gives details about the drop location, the types of data being dropped, and other important information.
+**`DropInfo`** is a `structure` that gives information about a drop action. It is commonly used when handling drops with the `onDrop()` modifier. `DropInfo` gives details about the drop location, the types of data being dropped, and other important information.
 
 ## Drag and Drop in SwiftUI example
+
+Here is the example of a simple LazyVGrid with 4 items. We have a `onDrag()` view modifier for each item which allows us to handle the dragging. And `onDrop()` view modifier allows us to move and reorder elements, with the result being stored in a State variable named `draggedItem`.
 
 ```swift
 struct ContentView: View {
@@ -123,7 +109,7 @@ struct ContentView: View {
             LazyVGrid(columns: [GridItem(.adaptive(minimum: 160), spacing: 15)], spacing: 15) {
                 ForEach(items, id: \.self) { item in
                     Text(item)
-                        .background(Color.red)
+                        .background(Color.green)
                         .font(.headline)
                         .foregroundColor(.white)
                         .shadow(color: .black, radius: 3)
@@ -167,5 +153,4 @@ struct MyDropDelegate : DropDelegate {
 }
 ```
 
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
 
