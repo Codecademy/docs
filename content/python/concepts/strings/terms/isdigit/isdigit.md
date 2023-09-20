@@ -1,6 +1,7 @@
 ---
 Title: '.isdigit()'
-Description: 'Takes in a string and returns True if all characters in the string are digits and there is at least one character, False otherwise. Digits include decimal characters and digits that need special handling, such as the compatibility superscript digits. This covers digits which cannot be used to form numbers in base 10, like the Kharosthi numbers.'
+Description: 'This method under string class that checks if all the elements in the string are digits, decimals also including special cases like compatibility superscript digits.Returns True in the above cases and also requires atleast one character in the string. Returns False otherwise.'
+
 Subjects:
   - 'Data Science'
   - 'Computer Science'
@@ -8,12 +9,13 @@ Tags:
   - 'Strings'
   - 'Methods'
   - 'Functions'
+
 CatalogContent:
   - 'learn-python-3'
   - 'paths/analyze-data-with-python'
 ---
 
-The `.isdigit` string method takes in a string and returns `True` if all characters in the string are digits and there is at least one character, `False` otherwise. Digits include decimal characters and digits that need special handling, such as the compatibility superscript digits. This covers digits which cannot be used to form numbers in base 10, like the Kharosthi numbers.
+The `.isdigit()` method under string class that checks if all the elements in the string are digits, decimals also including special cases like compatibility superscript digits.Returns True in the above cases and also requires atleast one character in the string. Returns False otherwise.
 
 ## Syntax
 
@@ -27,10 +29,10 @@ string.isdigit()
 my_string1 = "123"
 my_string2 = "123AA"
 
-print(my_string1.islower())
+print(my_string1.isdigit())
 # Output: True
 
-print(my_string2.islower())
+print(my_string2.isdigit())
 # Output: False
 ```
 
