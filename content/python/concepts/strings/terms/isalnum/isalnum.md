@@ -1,6 +1,6 @@
 ---
 Title: '.isalnum()'
-Description: 'Takes a string and returns True if all the  characters are alphanumeric (A-Z, a-z, 0-9). Otherwise it returns False if the string contains any non-alphanumeric characters (@#$%-*)
+Description: ''Returns True if all the characters in a given string are alphanumeric.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
@@ -13,19 +13,19 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-The `.isalnum()` string method takes in a string and returns `True` if all the  characters are alphanumeric (A-Z, a-z, 0-9). Otherwise it returns `False` if the string contains any [non-alphanumeric](https://buildvirtual.net/a-guide-to-non-alphanumeric-characters/) characters (@#$%-*).
+The **`.isalnum()`** string method takes in a string and returns `True` if all the characters are alphanumeric (`A-Z`, `a-z`, `0-9`). Otherwise it returns `False` if the string contains any non-alphanumeric characters (e.g. `@ # $ % - *`).
 
 ## Syntax
 
-```py
+```pseudo
 string.isalnum()
 ```
-
+The method does not have any parameters.
 ## Example
 
-Use `.isalnum()` to check if all the  characters are alphanumeric:
+The examples below use `.isalnum()` to check if all the characters are alphanumeric:
 
-```py
+```shell
 my_string_1 = "string2023"
 
 print(my_string_1.isalnum())
@@ -39,14 +39,9 @@ print(my_string_2.isalnum())
 
 ## Codebyte Example
 
-Use `.isalnum()` to check if a `string` contains only alphanumeric letters or not:
+The code below is runnable and uses the `isalnum()` method:
 
 ```codebyte/python
-string_1 = "AlphaNumeric001"
-print(string_1.isalnum())
-```
-
-```codebyte/python
-string_2 = "N*n@lphaneumeric"
-print(string_2.isalnum())
+string = "AlphaNumeric001"
+print(string.isalnum())
 ```
