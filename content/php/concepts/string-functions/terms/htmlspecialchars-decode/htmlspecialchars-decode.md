@@ -18,7 +18,7 @@ The **`htmlspecialchars_decode()`** function converts special HTML entities back
 ## Syntax
 
 ```pseudo
-htmlspecialchars_decode()($string, $flags)
+htmlspecialchars_decode($string, $flags)
 ```
 
 The `htmlspecialchars_decode()` function has two parameters:
