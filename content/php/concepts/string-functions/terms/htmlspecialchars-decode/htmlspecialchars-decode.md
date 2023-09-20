@@ -47,7 +47,7 @@ The following example uses the `htmlspecialchars_decode()` function to convert a
 <?php
 $original = "Codecademy &lt;3 PHP and special characters like &amp;, &quot;, &#039;, &lt; and &gt;.";
 echo "original: " . $original . "\n";
-echo "converted: " . htmlspecialchars_decode($original) . "\n";
+echo "converted: " . htmlspecialchars_decode($original, ENT_QUOTES) . "\n";
 ?>
 ```
 
