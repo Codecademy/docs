@@ -26,16 +26,16 @@ The `htmlspecialchars_decode()` function has two parameters:
 - `$string` (required): Specifies the string with the HTML entities to convert (decode).
 - `$flags` (optional): A bitmask of one or more of the following flags, which specify how to handle quotes and which document type to use.
 
-|Constant|Description|
-|---|---|
-|`ENT_COMPAT`|Converts double-quotes and leaves single-quotes alone|
-|`ENT_QUOTES`|Converts both double and single quotes|
-|`ENT_NOQUOTES`|Leaves both double and single quotes unconverted|
-|`ENT_SUBSTITUTE`|Replaces invalid code unit sequences with a Unicode Replacement Character U+FFFD (UTF-8) or &#xFFFD; (otherwise) instead of returning an empty string|
-|`ENT_HTML401`|Handles code as HTML 4.01|
-|`ENT_XML1`|Handles code as XML 1|
-|`ENT_XHTML`|Handles code as XHTML|
-|`ENT_HTML5`|Handles code as HTML 5|
+| Constant         | Description                                                                                                                                           |
+| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `ENT_COMPAT`     | Converts double-quotes and leaves single-quotes alone                                                                                                 |
+| `ENT_QUOTES`     | Converts both double and single quotes                                                                                                                |
+| `ENT_NOQUOTES`   | Leaves both double and single quotes unconverted                                                                                                      |
+| `ENT_SUBSTITUTE` | Replaces invalid code unit sequences with a Unicode Replacement Character U+FFFD (UTF-8) or &#xFFFD; (otherwise) instead of returning an empty string |
+| `ENT_HTML401`    | Handles code as HTML 4.01                                                                                                                             |
+| `ENT_XML1`       | Handles code as XML 1                                                                                                                                 |
+| `ENT_XHTML`      | Handles code as XHTML                                                                                                                                 |
+| `ENT_HTML5`      | Handles code as HTML 5                                                                                                                                |
 
 The `htmlspecialchars_decode()` function returns the converted string with characters like `&`, `"`, `'`, `<` and `>`.
 
