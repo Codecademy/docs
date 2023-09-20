@@ -19,7 +19,7 @@ The **`.isprintable()`** is a string method which returns a boolean value True i
 
 ```pseudo
 str = "Hello World"
-str.isprintable()
+print(str.isprintable())
 ```
 
 This method is called on the String `str`, whose charachters are all printable and thus returning True.
