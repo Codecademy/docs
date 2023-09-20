@@ -1,6 +1,6 @@
 ---
-Title: .capitalize()
-Description: 'Takes in a string, and returns a copy of the string in Capital Case.'
+Title: '.capitalize()'
+Description: 'Takes in a string, and returns a copy of the string in capital case.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
@@ -13,38 +13,36 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-Takes in a string, and returns a copy of the string in Capital Case.
+The **`.capitalize()`** method takes in a string, and returns a copy of the string with the first character in upper case, and the remaining characters in lower case.
 
 ## Syntax
 
-```py
+```pseudo
 "string".capitalize()
 ```
 
-## Example 1
+- This method does not have any parameters.
+- It does not modify the original string, it returns a copy of the string with the applicable case changes.
 
-Use `.capitalize()` to set a string value to Capital Case:
+## Example
 
-```codebyte/python
+The following example applies `.capitalize()` to a string in which all the characters are uppercase:
+
+```py
 print("WELCOME TO CODECADEMY DOCS!".capitalize())
 ```
 
-## Example 2
+This will result in:
 
-Use `.capitalize()` to set a string value to Capital Case:
-
-```codebyte/python
-text = "welcome to codecademy's docs!"
-print(text.capitalize())
+```shell
+Welcome to codecademy docs!
 ```
 
-## Example 3
+## Codebyte Example
 
-Use `.capitalize()` to set a string value to Capital Case:
+The following example is runnable and uses the `.capitalize()` method:
 
 ```codebyte/python
-text = "welcome To Codecademy's Docs!"
-
-x = text.capitalize()
-print(x)
+text = "welcome to new york city"
+print(text.capitalize())
 ```
