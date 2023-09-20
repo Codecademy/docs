@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-The `.isdigit()` method under string class that checks if all the elements in the string are digits, decimals also including special cases like compatibility superscript digits.Returns True in the above cases and also requires atleast one character in the string. Returns False otherwise.
+The `.isdigit()` method under string class that checks if all the elements in the string are digits, decimals also including special cases like compatibility superscript digits.Returns `True` in the above cases and also requires atleast one character in the string. Returns `False` otherwise.
 
 ## Syntax
 
