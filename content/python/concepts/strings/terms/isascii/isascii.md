@@ -27,7 +27,6 @@ The `.isascii()` method in Python does not take any arguments.
 
 The **`.isascii()`** method is called on each of these strings to determine whether they consist solely of ASCII characters. This method returns `True` if all characters in the string are ASCII characters and `False` if there are any non-ASCII characters present.
 
-
 ```py
 check_str_A = "This is an ASCII string"
 check_str_B = "This contains non ASCII characters こんにちは"
@@ -41,4 +40,4 @@ The output will look like this:
 ```shell
 A: True
 B: False
-```                                                                                 
+```
