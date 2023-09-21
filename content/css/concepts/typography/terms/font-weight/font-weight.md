@@ -53,4 +53,4 @@ p {
 }
 ```
 
-> **Note:** While using font weight, we should be careful. The way it will be rendered can differ from browser to browser, and for certain languages, it is not advised to use font weight. This includes languages with complex scripts such as Chinese, Japanese, etc.
+> **Note:** The way font weight renders can differ from browser to browser. For certain languages, it is not advised to use font weight. This includes languages with complex scripts such as Chinese and Japanese.
