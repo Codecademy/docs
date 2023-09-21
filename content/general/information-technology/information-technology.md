@@ -6,8 +6,6 @@ Subjects:
   - 'Networking'
 Tags:
   - 'information technology'
-  - 'A second tag'
-  - 'An nth tag'
 CatalogContent:
   - 'introduction-to-information-technology'
   - 'paths/fundamentals-of-cybersecurity'
