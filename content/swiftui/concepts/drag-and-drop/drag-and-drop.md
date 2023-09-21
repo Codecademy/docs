@@ -97,7 +97,7 @@ struct ContentView: View {
 
 ## Drag and Drop in SwiftUI example
 
-Here is the example of a simple LazyVGrid with 4 items. We have a `onDrag()` view modifier for each item which allows us to handle the dragging. And `onDrop()` view modifier allows us to move and reorder elements, with the result being stored in a State variable named `draggedItem`.
+Here is the example of a simple LazyVGrid with 4 items. We have a `.onDrag()` view modifier for each item which allows us to handle the dragging. And `.onDrop()` view modifier allows us to move and reorder elements, with the result being stored in a State variable named `draggedItem`.
 
 ```swift
 struct ContentView: View {
