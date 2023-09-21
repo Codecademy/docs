@@ -82,4 +82,6 @@ console.log(innerDiv.textContent);
 
 The code above selects the first element of a given class, and prints its content to the console.
 
-![Javascript console output showing the contents of the header text object](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-classes-example-2.jpg)
+```shell
+'PIZZA MAN'
+```
