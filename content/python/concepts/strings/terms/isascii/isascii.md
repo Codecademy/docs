@@ -11,10 +11,9 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/data-science'
 ---
 
-The `.isascii()` string method checks whether all characters in a string are ASCII characters. It returns `True` if all characters in the string are within the ASCII character set, and `False` otherwise.
+The **`.isascii()`** string method checks whether all characters in a string are ASCII characters. It returns `True` if all characters in the string are within the ASCII character set, and `False` otherwise.
 
 ## Syntax
 
@@ -22,12 +21,14 @@ The `.isascii()` string method checks whether all characters in a string are ASC
 string.isascii()
 ```
 
-The `.isascii()` method in Python does not take any arguments. It is a string method that is applied directly to a string, and it checks whether all characters in that string are ASCII characters.
+The `.isascii()` method in Python does not take any arguments.
 
 ## Example
 
-```py
+The **`.isascii()`** method is called on each of these strings to determine whether they consist solely of ASCII characters. This method returns `True` if all characters in the string are ASCII characters and `False` if there are any non-ASCII characters present.
 
+
+```py
 check_str_A = "This is an ASCII string"
 check_str_B = "This contains non ASCII characters こんにちは"
 
@@ -40,14 +41,4 @@ The output will look like this:
 ```shell
 A: True
 B: False
-```
-In the above example, for `check_str_A` , the output is `True` because the `.isascii()` function checks if all the characters in the string are ASCII characters. In the case of `check_str_B`, the characters `こんにちは` are non-ASCII characters, so it returns `False`.                                                                                   
-
-## Codebyte Example
-
-Use `.isascii()` to check if if all the characters in a string `my_string` are ASCII characters:
-
-```codebyte/python
-my_string = "Learn to code from Codecademy!\n"
-print(my_string.isascii())
-```
+```                                                                                 
