@@ -34,9 +34,9 @@ Therefore, there is a distinction between the format of the codec used to encode
 | MP4              | AV1         | AAC         | Useed for streaming the absolute smallest files at a given quality. Better compression with better quality, but less compatible. |
 
 ## Server support Video
-We need to add configuration in web server due to enabling video show in browser. What we should add in server configuration is the video MIME type. 
+Need to add configuration in web server due to enabling video show in browser. What need to add in server configuration is the video MIME type. 
 
-If the web server is Apache and want to serve the OGG video, you can add video file type extensions to "video/ogg" MIME type. Edit the "mime.types" file in "/etc/apache" or use the "AddType" configuration directive in httpd.conf
+If the web server is Apache and want to serve the OGG video, by adding video file type extensions to "video/ogg" MIME type. Edit the "mime.types" file in "/etc/apache" or use the "AddType" configuration directive in httpd.conf
 
 ```
 AddType video/ogg .ogm
@@ -44,7 +44,7 @@ AddType video/ogg .ogv
 AddType video/ogg .ogg
 ```
 
-If your website need serve video as WebM, you can add extension in web server Apache "vide/webm" to the "mime.types" in "/ect/apache" or add via the "AddType" configuration directive in httpd.conf
+If the website need serve video as WebM, it can be done by adding extension in web server Apache "vide/webm" to the "mime.types" in "/ect/apache" or add via the "AddType" configuration directive in httpd.conf
 
 ```
 AddType video/webm .webm
