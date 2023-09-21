@@ -52,7 +52,7 @@ We now perform some algebraic manipulation on the expression 3k^2 + k:
 		 = 12n^2 + 14n + 4		[add like terms]
 		 = 2(6n^2 + 7n + 2)		[factor out 2]
 
-When n is an integer, 6n^2 + 7n + 2 is also an integer. Therefore 2(6n^2 + 7n + 2) is equal to 2 times some integer. As 2 times any integer is odd, it follows that 2(6n^2 + 7n + 2) is odd. Therefore 3k^2 + k is odd.
+When n is an integer, 6n^2 + 7n + 2 is also an integer. Therefore 2(6n^2 + 7n + 2) is equal to 2 times some integer. As 2 times any integer is even, it follows that 2(6n^2 + 7n + 2) is even. Therefore 3k^2 + k is even.
 
 Next, consider case (2), in which k is even.
 
@@ -64,7 +64,7 @@ We now perform some algebraic manipulation on the expression 3k^2 + k:
 		 = 12n^2 + 2			[simplify 3(2n)^2]
 		 = 2(6n^2 + 1)			[factor out 2]
 
-When n is an integer, 6n^2 + 1 is also an integer. Therefore 2(6n^2 + 1) is equal to 2 times some integer. As 2 times any integer is odd, it follows that 2(6n^2 + 1) is odd. Therefore 3k^2 + k is odd.
+When n is an integer, 6n^2 + 1 is also an integer. Therefore 2(6n^2 + 1) is equal to 2 times some integer. As 2 times any integer is even, it follows that 2(6n^2 + 1) is even. Therefore 3k^2 + k is even.
 
 We've therefore proven that in either case, whether k is odd or even, 3k^2 + k is even. It follows that for any integer k, the product 3k^2 + k is even.
 ```
