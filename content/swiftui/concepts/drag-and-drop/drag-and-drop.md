@@ -15,7 +15,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 
 **Drag and Drop** in SwiftUI is the concept of moving and dropping an object (e.g. a UI element or UIView) around the screen. This feature allows users to easily rearrange, reorder, or transfer objects between different parts of the app's interface by dragging them, enhancing the overall user experience.
 
-**`DropDelegate`** is a `protocol` in SwiftUI that lets you work with a drag and drop operations in a flexible way. To enable a view to accept drops, use the `onDrop()` method and specify a drop delegate.
+**`DropDelegate`** is a `protocol` in SwiftUI that lets the developer work with a drag and drop operations in a flexible way. To enable a view to accept drops, use the `.onDrop()` method and specify a drop delegate.
 This code defines a drop delegate that handles different events related to dropping objects onto a view. The events are:
 
 ```pseudo
