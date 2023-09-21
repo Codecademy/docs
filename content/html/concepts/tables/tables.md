@@ -47,6 +47,8 @@ The table row element, denoted as `<tr>`, is used to display data within a row (
   </tr>
 </table>
 ```
+![source="https://www.w3schools.com/html/html_tables.asp"](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-tables-tr.png)
+
 
 ### Table Header
 
@@ -103,4 +105,4 @@ The table data element, denoted as `<td>`, is used to display individual data wi
 
 Watch this video for a step-by-step walkthrough on how to create an HTML table.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VjiD2EyJHIQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[![Watch the video](https://i.ytimg.com/vi_webp/VjiD2EyJHIQ/maxresdefault.webp)](https://www.youtube.com/embed/VjiD2EyJHIQ)
