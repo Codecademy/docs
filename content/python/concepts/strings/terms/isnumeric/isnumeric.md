@@ -1,11 +1,10 @@
 ---
-Title: '.isnumeric()' 
-Description: 'Verifies all the characters within the string variable are numeric. '
+Title: '.isnumeric()'
+Description: 'Verifies that all the characters within the string variable are numeric.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
 Tags:
-  - 'Strings'
   - 'Methods'
   - 'Functions'
 CatalogContent:
@@ -13,24 +12,21 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**`.isnumeric()`** is used to verify the string variable consists of numerical characters only. Which means no space, comma, dash, or any other characters. This function returns boolean values, **True** or **False**.
+**`.isnumeric()`** is used to verify the string variable consists of numerical characters only. Which means the string cannot contain a space, comma, dash, or any other characters that are not numerical.
 
 ## Syntax
 
 There are two ways of using this function:
 
-First
 ```pseudo
 str.isnumeric(str_variable)
-```
-Second
-```pseudo
+
 str_variable.isnumeric()
 ```
 
-## Example 1
+## Example
 
-This example shows how `.isnumeric()` function is used and returns **True** value.
+The following examples implement `.isnumeric()` and will returns `True`.
 
 ```python
 print(str.isnumeric("2"))
@@ -52,42 +48,18 @@ print(one_half.isnumeric())
 print(year.isnumeric())
 ```
 
-## Example 2
-
-This example shows how `.isnumeric()` function is used and returns **False** value.
-
-```python
-print(str.isnumeric("september"))
-print(str.isnumeric("sep2023"))
-print(str.isnumeric("sep 2023"))
-```
-
-or
-
-```python
-# Define the string variables
-month = "september"
-monthyear = "sep20203"
-month_year = "sep 2023"
-
-# Show the results
-print(month.isnumeric())
-print(monthyear.isnumeric())
-print(month_year.isnumeric())
-```
-
 ## Codebyte Example
 
-This example shows that `.isnumeric()` function returns **False** value whenever there is character other than numeric within the string variable.
+This example is runnable and demonstrates instances where `.isnumeric()` function returns `False`.
 
 ```codebyte/python
-# Using space on string variable
+# A string that includes a space
 print(str.isnumeric("20 21"))
 
-# Using comma on string variable
+# A string that includes a comma
 print(str.isnumeric("20,21"))
 
-# Using dash on string variable
+# A string that includes a dash
 print(str.isnumeric("-21"))
 
 ```
