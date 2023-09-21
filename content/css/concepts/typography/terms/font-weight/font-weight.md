@@ -48,8 +48,9 @@ Set the `p` tag to `600`:
 
 ```css
 p {
-This code snippet give the text a semi-bold style
+  /* This code snippet give the text a semi-bold style */
   font-weight: 600;
 }
 ```
-**Note:** While using font weight, we should be careful. The way it will be rendered can differ from browser to browser, and for certain languages, it is not advised to use font weight. This includes languages with complex scripts such as Chinese, Japanese, etc.
+
+> **Note:** While using font weight, we should be careful. The way it will be rendered can differ from browser to browser, and for certain languages, it is not advised to use font weight. This includes languages with complex scripts such as Chinese, Japanese, etc.
