@@ -33,6 +33,24 @@ Therefore, there is a distinction between the format of the codec used to encode
 | MP4              | H.264       | AAC         | Compatible with most every browser and used if support is of the utmost concern.                                                 |
 | MP4              | AV1         | AAC         | Useed for streaming the absolute smallest files at a given quality. Better compression with better quality, but less compatible. |
 
+
+## Server support Video
+Actually, if MIME type for video is not set correctly on the server, the video may not show or show a gray box containing an X (if javascript is enabled).
+
+If you use Apache Web Server to serve Ogg Theora videos, you can fix this problem by adding the video file type extensions to "video/ogg" MIME type. The most common video file type extensions are ".ogm", ".ogv", or ".ogg". To do this, edit the "mime.types" file in "/etc/apache" or use the "AddType" configuration directive in httpd.conf.
+
+```
+AddType video/ogg .ogm
+AddType video/ogg .ogv
+AddType video/ogg .ogg
+```
+
+If you serve your videos as WebM, you can fix this problem for the Apache Web Server by adding the extension used by your video files (".webm" is the most common one) to the MIME type "video/webm" via the "mime.types" file in "/etc/apache" or via the "AddType" configuration directive in httpd.conf.
+
+```
+AddType video/webm .webm
+```
+
 ## Inserting a Video
 
 A video is inserted onto a page through opening and closing [`<video>`](https://www.codecademy.com/resources/docs/html/elements/video) tags. Self-closing `<source>` tags are nested inside the `<video>` tags:
