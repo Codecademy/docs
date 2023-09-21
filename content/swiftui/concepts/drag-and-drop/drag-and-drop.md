@@ -93,7 +93,7 @@ struct ContentView: View {
 
 ## DropInfo
 
-**`DropInfo`** is a `structure` that gives information about a drop action. It is commonly used when handling drops with the `onDrop()` modifier. `DropInfo` gives details about the drop location, the types of data being dropped, and other important information.
+**`DropInfo`** is a structure that gives information about a drop action. It is commonly used when handling drops with the `.onDrop()` modifier. `DropInfo` gives details about the drop location, the types of data being dropped, and other important information.
 
 ## Drag and Drop in SwiftUI example
 
