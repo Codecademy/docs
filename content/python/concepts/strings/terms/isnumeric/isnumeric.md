@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**`.isnumeric()`** is used to verify the string variable consists of numerical characters only. Which means the string cannot contain a space, comma, dash, or any other characters that are not numerical.
+**`.isnumeric()`** is used to verify that the string variable consists of numerical characters only. Which means the string cannot contain a space, comma, dash, or any other characters that are not numerical.
 
 ## Syntax
 
@@ -26,7 +26,7 @@ str_variable.isnumeric()
 
 ## Example
 
-The following examples implement `.isnumeric()` and will returns `True`.
+The following examples implement `.isnumeric()` and will return `True`.
 
 ```python
 print(str.isnumeric("2"))
@@ -50,7 +50,7 @@ print(year.isnumeric())
 
 ## Codebyte Example
 
-This example is runnable and demonstrates instances where `.isnumeric()` function returns `False`.
+This example is runnable and demonstrates instances where the `.isnumeric()` function returns `False`.
 
 ```codebyte/python
 # A string that includes a space
@@ -61,5 +61,4 @@ print(str.isnumeric("20,21"))
 
 # A string that includes a dash
 print(str.isnumeric("-21"))
-
 ```
