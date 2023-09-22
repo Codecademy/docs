@@ -1,6 +1,6 @@
 ---
 Title: 'CodingKey'
-Description: 'Enables the mapping of keys from JSON to a given Swift struct or class property.'
+Description: 'Enables the mapping of the JSON object keys to the given Swift model properties.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
