@@ -15,19 +15,20 @@ CatalogContent:
 ---
 
 
-**`CodingKey`** is an extension to the Swift model when parsing the JSON data object into a Swift object. It allows us to map JSON's data keys into different 
-property names in the Swift object.
+**`CodingKey`** is an extension to the Swift model when parsing the JSON data object into a Swift object. It allows for mapping JSON keys into different 
+property names of a Swift object.
 
-> **Note:** JSON and Swift have different naming conventions (JSON uses *snake_case* for its key identifiers, while Swift uses *camelCase* for its property identifiers)
+> **Note:** JSON and Swift have different naming conventions (JSON uses *snake_case* for its key identifiers, while Swift uses *camelCase* for its property identifiers).
 
 ## Syntax
 
-This protocol will work when a Swift object conforms to the `Codable` protocol.
+This protocol will work when a defined Swift object conforms to the `Codable`, `Decodabe` and `Encodable` protocols. The former protocol is responsible for both *encoding* the Swift object data into JSON format, and *decoding* the JSON object into the Swift model, implementing both `Encodable` and `Decodable` protocols at the same time.
+
 
 ```pseudo
 struct myStruct: Codable {
-  let propertyOne: <DataType>
-  let propertyTwo: <DataType>
+  let propertyOne: DataType
+  let propertyTwo: DataType
 
   enum CodingKeys: String, CodingKey { case 
     keyOne = "key_one", 
@@ -36,116 +37,87 @@ struct myStruct: Codable {
 }
 ```
 
-The code above demonstrates the usage of an enumerator `CodingKeys`, its cases of which refer to the keys of a given JSON object. It also specifies:
+The simple pseudo-code above demonstrates the usage of an enumerator `CodingKeys`, its cases of which refer to the keys of a given JSON object. It also specifies:
 1. The raw value type of the keys (it's a `String` because all JSON keys are of a `String` type only).
 2. The `CodingKey` protocol to which the enumerator has to conform in order to map the JSON keys with the properties of the Swift object.
 
-## Syntax example using `Decodable`
+## Syntax example with the `Codable` protocol
 
-The example below will decode a JSON object array of famous musicians into a Swift model using the enumerator that conforms to the `CodingKey` protocol, and
-list each musician's names and active years using a `.forEach` function
-
-```swift
-import Foundation
-
-let musiciansJSON = """
-[
-    {
-        "name": "Michael Jackson",
-        "years_active": "1971-2009"
-    },
-    {
-        "name": "Madonna",
-        "years_active": "1983-present" 
-    },
-    {
-        "name": "Prince",
-        "years_active": "1978-2016"
-    } 
-]
-"""
-
-struct Musicians: Decodable {
-    enum CodingKeys: String, CodingKey { case
-        name,
-        yearsActive = "years_active"
-    }
-
-    let name: String
-    let yearsActive: String
-}
-
-let musiciansData = Data(musiciansJSON.utf8)
-let decoder = JSONDecoder()
-let musicians = try! decoder.decode([Musicians].self, from: musiciansData)
-
-musicians.forEach {
-    print("\($0.name) was famous during \($0.yearsActive)")
-}
-```
-
-> **Note:** *Notice how we managed to use the newly-created `yearsActive` property in the Swift model when JSON's key was written as `years_active`.*
-
-
-The output on the console with be a string-interpolated version of each of the `Musicians`' array element thanks to the `.forEach` function.
-> Note that we only used a trailing closure in the invoked functon to simplify the code.
-
-```shell
-    Michael Jackson was famous during 1971-2009
-    Madonna was famous during 1983-present
-    Prince was famous during 1978-2016
-```
-
-## Syntax example using `Encodable`
-
-Following the workflow of [encoding](https://www.codecademy.com/resources/docs/swift/protocols/encodable) the Swift model into a JSON data structure, let's create an
-example of displaying the **Exercises** struct parsed into JSON.
+Below is an example of a Swift struct called `Exercises`. As it conforms to the `Codable` protocol, the model implements both encoding and decoding methods thanks to the `CodingKeys` enumerator that conforms to the `CodingKey` protocol and the relevant initializers defined.
 
 ```swift
 import Foundation
 
-struct Exercises: Encodable {
-    let name: String
-    let repsNeeded: Int
-    let durationMin: Int
-    let durationSec: Int
+struct Exercises: Codable {
+  let name: String
+  let repsNeeded: Int
+  var durationMin: Int
+  var durationSec: Int
     
-    // we create the CodingKeys enum to define our JSON keys
-    enum CodingKeys: String, CodingKey { case
-        name,
-        repsNeeded = "reps_needed",
-        durationTime = "duration_time"
-    }
+  // The CodingKeys enum below defines JSON keys.
+  enum CodingKeys: String, CodingKey {
+    case name
+    case repsNeeded = "reps_needed"
+    case durationTime = "duration_time"
+  }
     
-    // this computed property will calculate the two Exercises' properties and store the result into our "duration_time" JSON key later
-    var durationInSeconds: Int {
-        return (durationMin * 60) + durationSec
-    }
+  // The computed property will calculate the two Exercises' properties and store the result into the "duration_time" JSON key later.
+  var durationInSeconds: Int {
+    return (durationMin * 60) + durationSec
+  }
     
-    // this method is essential for the encoding to happen
-    func encode(to encoder: Encoder) throws {
-        var container = encoder.container(keyedBy: CodingKeys.self)
-        try container.encode(name, forKey: .name)
-        try container.encode(repsNeeded, forKey: .repsNeeded)
-        try container.encode(durationInSeconds, forKey: .durationTime)
-    }
+  // This method is essential for the encoding to happen.
+  func encode(to encoder: Encoder) throws {
+    var container = encoder.container(keyedBy: CodingKeys.self)
+    try container.encode(name, forKey: .name)
+    try container.encode(repsNeeded, forKey: .repsNeeded)
+    try container.encode(durationInSeconds, forKey: .durationTime)
+  }
+    
+  // This initializer enables the creation and, later on, storing of the given struct's instance.
+  init(name: String, repsNeeded: Int, durationMin: Int, durationSec: Int) {
+    self.name = name
+    self.repsNeeded = repsNeeded
+    self.durationMin = durationMin
+    self.durationSec = durationSec
+  }
+    
+  // The initializer below enables the decoding functionality (all stored properties should be initialized).
+  init(from decoder: Decoder) throws {
+    let container = try decoder.container(keyedBy: CodingKeys.self)
+    name = try container.decode(String.self, forKey: .name)
+    repsNeeded = try container.decode(Int.self, forKey: .repsNeeded)
+    durationSec = try container.decode(Int.self, forKey: .durationTime)
+      
+    // As durationMin and durationSec are declared as variables, their values will remain different upon the decoding or encoding process.
+    durationMin = durationSec / 60
+    durationSec = durationSec % 60
+  }
 }
 
-// we instantiate the struct and encode the instance into JSON data
-let exercise = Exercises(name: "Push-ups", repsNeeded: 30, durationMin: 1, durationSec: 30)
+// The struct instance is created and then encoded into JSON data
+let exercise = Exercises(name: "Squats", repsNeeded: 30, durationMin: 1, durationSec: 15)
 let encoder = JSONEncoder()
 let exercisesJSON = try encoder.encode(exercise)
 
-/* the JSON data we have just instantiated will be parsed into the String type 
-(the 'exerciseJSONString' is force-unwrapped because we know the data in there is valid) */
+/* The JSON data that is instantiated will be parsed into the String type.
+The defined 'exerciseJSONString' constant is force-unwrapped because in this example, its value indeed exists and is valid) */
 let exercisesJSONString = String(data: exercisesJSON, encoding: .utf8)!
 print(exercisesJSONString)
+
+/* JSON decoder is defined and then implemented on the JSON object string.
+The 'decodedExercise' constant stores the force-unwrapped optional value as the data is valid */
+let decoder = JSONDecoder()
+let decodedExercise = try! decoder.decode(Exercises.self, from: exercisesJSON)
+print(decodedExercise)
 ```
 
-The above code snippet follows a similar idea to the one of `decoding` the JSON object into a Swift model, but we do observe some additional functionality implemented for the task to be executed.
+The above code snippet implements both the encoding and decoding logic thanks to the `Codable` protocol, and the `CodingKeys` enumerator ensures that the JSON keys are mapped correctly to the Swift model's properties.
 
 
-The output in the terminal will produce the following:
+The output in the terminal should produce the following:
+
 ```shell
-    {"name":"Push-ups","reps_needed":30,"duration_time":90}
+  {"duration_time":75,"name":"Squats","reps_needed":30}
+  Exercises(name: "Squats", repsNeeded: 30, durationMin: 1, durationSec: 15)
 ```
