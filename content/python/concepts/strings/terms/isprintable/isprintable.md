@@ -21,7 +21,6 @@ The **`.isprintable()`** is a string method which returns a boolean value `True`
 str.isprintable()
 ```
 
-
 This method is called on the String `str` and returns `True` if all characters in `str` are printable.
 
 ## Example
