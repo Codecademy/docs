@@ -34,6 +34,8 @@ my_string = "Codecademy"
 print(my_string.isidentifier());
 ```
 
+This example results in the following output:
+
 ```shell
 True
 ```
