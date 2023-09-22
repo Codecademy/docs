@@ -46,7 +46,7 @@ struct myStruct: Encodable {
 
 The code above demonstrates the usage of an enumerator `CodingKeys`, its cases of which refer to the JSON's object keys. It also specifies:
 1. The raw value type of the keys (it's a `String` because all JSON keys are of a `String` type only).
-2. the `CodingKey` protocol to which the enumerator has to conform in order to map the JSON keys with the Swift object's properties
+2. The `CodingKey` protocol to which the enumerator has to conform in order to map the JSON keys with the Swift object's properties.
 
 ## Syntax example using `Decodable`
 
