@@ -1,6 +1,6 @@
 ---
 Title: 'assert'
-Description: 'A keyword that confirms the truthiness of a given statement.'
+Description: 'Confirms the truthiness of a given statement.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
