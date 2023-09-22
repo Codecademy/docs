@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-The **`.isprintable()`** is a string method that returns a boolean value `True` if all characters in the string are printable or if it's empty and `False` if any character in the string is nonprintable.
+**`.isprintable()`** is a string method that returns a boolean value `True` if all characters in the string are printable or if it's empty, and `False` if any character in the string is non-printable.
 
 ## Syntax
 
