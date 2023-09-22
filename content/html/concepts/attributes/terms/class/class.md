@@ -65,7 +65,7 @@ Below is some markup with the classes `header-1` and `P1` and `P2`. Elements wit
 </html>
 ```
 
-The above code will output in the browser somewhat like this:
+The code above will result in an output in a browser similar to:
 
 ![Browser window with different text blocks formatted according to their class attribute](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-classes-example-1.jpg)
 
