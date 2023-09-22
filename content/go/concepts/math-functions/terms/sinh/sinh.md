@@ -13,14 +13,15 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Sinh()`** function returns the hyperbolic sine of a number. The `math` library must be imported in order to use this function.
+The **`Sinh()`** function returns the hyperbolic sine of a number.
 
 ## Syntax
 
 ```pseudo
 result := math.Sinh(value)
 ```
-Where `result` is the hyperbolic sine value of `value`, returned as a float.
+
+Where `result` is the hyperbolic sine value of `value`, returned as a `float`.
 
 ## Example
 
@@ -64,5 +65,4 @@ func main() {
   hyperbolicSine := math.Sinh(value)
   fmt.Printf("The hyperbolic sine of %.1f is: %.2f\n", value, hyperbolicSine)
 }
-
 ```
