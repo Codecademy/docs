@@ -61,7 +61,7 @@ import (
 )
 
 func main() {
-  value := 1.0
+  value := math.Inf(1)
   hyperbolicSine := math.Sinh(value)
   fmt.Printf("The hyperbolic sine of %.1f is: %.2f\n", value, hyperbolicSine)
 }
