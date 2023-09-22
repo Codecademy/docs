@@ -5,7 +5,7 @@ Subjects:
   - 'Information Technology'
   - 'Networking'
 Tags:
-  - 'information technology'
+  - 'Information Technology'
 CatalogContent:
   - 'introduction-to-information-technology'
   - 'paths/fundamentals-of-cybersecurity'
