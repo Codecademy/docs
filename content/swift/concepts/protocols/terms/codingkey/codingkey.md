@@ -22,33 +22,23 @@ property names in the Swift object.
 
 ## Syntax
 
-This protocol will work when a Swift object conforms to either an `Decodable` or `Encodable` protocol.
+This protocol will work when a Swift object conforms to the `Codable` protocol.
 
 ```pseudo
-struct myStruct: Decodable {
-  enum CodingKeys: String, CodingKey { case 
-    key_one, key_two
-  }
-
-  let propertyOne: <DataType>
-  let propertyTwo: <DataType>
-}
-```
-
-```pseudo
-struct myStruct: Encodable {
+struct myStruct: Codable {
   let propertyOne: <DataType>
   let propertyTwo: <DataType>
 
   enum CodingKeys: String, CodingKey { case 
-    key_one, key_two
+    keyOne = "key_one", 
+    keyTwo = "key_two"
   }
 }
 ```
 
-The above demonstrates the usage of an enumerator 'CodingKeys', its cases of which refer to the JSON's object keys. It also specifies:
-1. the raw value type of the keys (it's a String because all JSON keys are of a String type only),
-2. the `CodingKey` protocol to which the enumerator has to conform in order to map the JSON keys with the Swift object's properties
+The code above demonstrates the usage of an enumerator `CodingKeys`, its cases of which refer to the keys of a given JSON object. It also specifies:
+1. The raw value type of the keys (it's a `String` because all JSON keys are of a `String` type only).
+2. The `CodingKey` protocol to which the enumerator has to conform in order to map the JSON keys with the properties of the Swift object.
 
 ## Syntax example using `Decodable`
 
