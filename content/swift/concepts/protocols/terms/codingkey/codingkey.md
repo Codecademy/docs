@@ -16,13 +16,13 @@ CatalogContent:
 
 
 **`CodingKey`** is an extension to the Swift model when parsing the JSON data object into a Swift object. It allows for mapping JSON keys into different 
-property names of a Swift object.
+properties of a Swift object.
 
 > **Note:** JSON and Swift have different naming conventions (JSON uses *snake_case* for its key identifiers, while Swift uses *camelCase* for its property identifiers).
 
 ## Syntax
 
-This protocol will work when a defined Swift object conforms to the `Codable`, `Decodabe` and `Encodable` protocols. The former protocol is responsible for both *encoding* the Swift object data into JSON format, and *decoding* the JSON object into the Swift model, implementing both `Encodable` and `Decodable` protocols at the same time.
+This protocol will work when a defined Swift object conforms to the `Codable`, `Decodable` and `Encodable` protocols. The former protocol is responsible for both *encoding* the Swift object data into JSON format, and *decoding* the JSON object into the Swift model, implementing both `Encodable` and `Decodable` protocols at the same time.
 
 
 ```pseudo
