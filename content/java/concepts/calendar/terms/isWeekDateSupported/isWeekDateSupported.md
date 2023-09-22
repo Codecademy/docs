@@ -19,10 +19,6 @@ The **`.isWeekDateSupported()`** method is used to check if the current `Calenda
 result = myCalendar.isWeekDateSupported()
 ```
 
-The method doesn't take any parameters.
-
-The method will return `true` if the `Calendar` object supports week dates and `false` otherwise.
-
 > **Note:** The `Calendar` class has been replaced by the `LocalDate`, `LocalTime`, and `LocalDateTime` classes in the Java 8 and later Date-Time API. These classes provide a more modern and user-friendly API for working with dates and times in Java.
 
 ## Example
