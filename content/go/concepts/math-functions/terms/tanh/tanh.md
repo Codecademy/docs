@@ -22,12 +22,12 @@ import "math"
 result := math.Tanh(number)
 ```
 
-`Tanh()` accepts an argument, `number`,  of type `float64` and returns a value of type `float64`.
+`Tanh()` accepts an argument, `number`, of type `float64` and returns a value of type `float64`.
 
 Special cases:
 
-- The result of `Tanh(math.Inf(-1))` is `-1`. `math.Inf(-1)` represents negative infinity, which is  `-Inf`.
-- The result of `Tanh(math.Inf(+1))` is `+1`. `math.Inf(+1)` represents positive infinity, which is  `+Inf`.
+- The result of `Tanh(math.Inf(-1))` is `-1`. `math.Inf(-1)` represents negative infinity, which is `-Inf`.
+- The result of `Tanh(math.Inf(+1))` is `+1`. `math.Inf(+1)` represents positive infinity, which is `+Inf`.
 - The result of `Tanh(0)` is `0`.
 - The result of `Tanh(NaN)` is `NaN`.
 
@@ -55,7 +55,7 @@ The output will be:
 0.46
 ```
 
-## Codebyte 
+## Codebyte
 
 The following example is runnable and shows the `Tanh()` function handling the value `1`.
 
