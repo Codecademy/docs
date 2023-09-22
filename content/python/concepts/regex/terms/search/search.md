@@ -35,11 +35,11 @@ There are optional arguments that include the following:
 - An index value to end the search (endpos): `40`
 - Flags: `IGNORECASE`, `VERBOSE`, `DOTALL`
 
-> **Note:** `.search()` will only return the the first match (as a match object) within the string; alternatively, the `.findall()` method matches every occurrence (and returns a list of matches).
+> **Note:** `.search()` will only return the first match (as a match object) within the string; alternatively, the `.findall()` method matches every occurrence (and returns a list of matches).
 
 ## Example
 
-All content that appears within parentheses are matched with the `.search()` method in the example below:
+All content that appears within parentheses is matched with the `.search()` method in the example below:
 
 ```py
 import re
