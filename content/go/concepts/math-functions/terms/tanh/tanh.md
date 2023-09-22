@@ -27,17 +27,14 @@ result := math.Tanh(number)
 
 Special cases:
 
-- The result of `Tanh(math.Inf(-1))` is `-1`
-- The result of `Tanh(math.Inf(+1))` is `+1`
-- The result of `Tanh(0)` is `0`
-- The result of `Tanh(NaN)` is `NaN`
-
-`math.Inf(+1)` represents positive infinity, which is  `+Inf`.
-`math.Inf(-1)` represents negative infinity, which is  `-Inf`.
+- The result of `Tanh(math.Inf(-1))` is `-1`. `math.Inf(-1)` represents negative infinity, which is  `-Inf`.
+- The result of `Tanh(math.Inf(+1))` is `+1`. `math.Inf(+1)` represents positive infinity, which is  `+Inf`.
+- The result of `Tanh(0)` is `0`.
+- The result of `Tanh(NaN)` is `NaN`.
 
 ## Example
 
-The following calculates the hyperbolic tangent of 0.5 and prints out the result:
+The following calculates the hyperbolic tangent of `0.5` and prints out the result:
 
 ```go
 package main
@@ -61,7 +58,7 @@ The output will be:
 
 ## Codebyte 
 
-The following example is runnable and shows the Tanh() function handling the value 1.
+The following example is runnable and shows the `Tanh()` function handling the value `1`.
 
 ```codebyte/golang
 package main
