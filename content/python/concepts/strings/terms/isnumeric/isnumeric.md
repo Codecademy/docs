@@ -26,7 +26,7 @@ str_variable.isnumeric()
 
 ## Example
 
-The following examples implement `.isnumeric()` and will return `True`.
+The following examples implement `.isnumeric()` and will return `True`:
 
 ```python
 print(str.isnumeric("2"))
@@ -50,7 +50,7 @@ print(year.isnumeric())
 
 ## Codebyte Example
 
-This example is runnable and demonstrates instances where the `.isnumeric()` function returns `False`.
+This example is runnable and demonstrates instances where non-numeric values are passed into the `.isnumeric()` function:
 
 ```codebyte/python
 # A string that includes a space
