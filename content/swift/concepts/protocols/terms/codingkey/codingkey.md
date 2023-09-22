@@ -1,4 +1,3 @@
-```shell
 ---
 Title: 'CodingKey'
 Description: 'Enables the mapping of JSON's keys to different Swift's struct / class properties.'
