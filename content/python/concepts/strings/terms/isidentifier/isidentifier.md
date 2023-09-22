@@ -24,7 +24,7 @@ string.isidentifier()
 - Python `identifiers` must start with a `letter (a-z, A-Z)` or an `underscore (_)` followed by letters, digits (0-9), or underscores.
 - They cannot be a Python keyword like `if`, `else`, `while`, etc.
 
-## Example1
+## Example
 
 Use `.isidentifier()` to check if a string is a valid Python identifier:
 
@@ -32,7 +32,10 @@ Use `.isidentifier()` to check if a string is a valid Python identifier:
 my_string = "Codecademy"
 
 print(my_string.isidentifier());
-# Output: True
+```
+
+```shell
+True
 ```
 
 ## Codebyte Example
