@@ -43,7 +43,7 @@ The output of the above code will be:
 
 ```shell
 True
-False 
+False
 True
 False
 ```
