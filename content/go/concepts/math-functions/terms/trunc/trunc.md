@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Trunc()`** function returns the integer value of a given number. This function is part of the `math` package, and the package must be imported to use the function in a Go program.
+The **`Trunc()`** function returns the integer value of a given number by cutting off the decimals. For example, `10.4` and `10.6` would both be truncated to `10`.
 
 ## Syntax
 
@@ -20,12 +20,12 @@ The **`Trunc()`** function returns the integer value of a given number. This fun
 result := math.Trunc(x)
 ```
 
-Where `result` is the integer value of `x`, returned as a `float64` except under the following circumstances:
+Where `result` is the integer value of `x` returned as a `float64`, except under the following circumstances:
 
-- `Trunc(math.Inf(1))` yields `+Inf`
-- `Trunc(math.Inf(-1))` yields `-Inf`
-- `Trunc(NaN)` yields `NaN`
-- `Trunc(0)` yields `0`
+- `Trunc(math.Inf(1))` yields `+Inf`.
+- `Trunc(math.Inf(-1))` yields `-Inf`.
+- `Trunc(NaN)` yields `NaN`.
+- `Trunc(0)` yields `0`.
 
 ## Example
 
