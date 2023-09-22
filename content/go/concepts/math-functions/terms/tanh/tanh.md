@@ -6,8 +6,7 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Numbers'
-  - 'Hyperbolic Functions'
-  - 'Mathematics'
+  - 'Math'
 CatalogContent:
   - 'learn-go'
   - 'paths/computer-science'
