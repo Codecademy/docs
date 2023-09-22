@@ -1,7 +1,6 @@
-```shell
 ---
 Title: 'CodingKey'
-Description: 'Enables the mapping of JSON's keys to different Swift's struct / class properties.'
+Description: 'Enables the mapping of keys from JSON to a given Swift struct or class property.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
@@ -14,13 +13,15 @@ CatalogContent:
   - 'learn-swift'
   - 'paths/build-ios-apps-with-swiftui'
 ---
-```
+
 
 **`CodingKey`** is an extension to the Swift model when parsing the JSON data object into a Swift object. It allows us to map JSON's data keys into different 
 property names in the Swift object.
 
 > **Note:** JSON and Swift have different naming conventions (JSON uses *snake_case* for its key identifiers, while Swift uses *camelCase* for its property identifiers)
+
 ## Syntax
+
 This protocol will work when a Swift object conforms to either an `Decodable` or `Encodable` protocol.
 
 ```pseudo
