@@ -17,7 +17,7 @@ The **`.isidentifier()`** string method takes in a string and returns `True` if 
 
 ## Syntax
 
-```py
+```pseudo
 string.isidentifier()
 ```
 
