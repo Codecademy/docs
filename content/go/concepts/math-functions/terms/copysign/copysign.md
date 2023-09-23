@@ -1,6 +1,6 @@
 ---
 Title: 'Copysign()'
-Description: 'Returns a value with the magnitude of a parameter and a sign of another parameter'
+Description: 'Returns a value with the magnitude and sign of the given arguments.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
