@@ -19,6 +19,7 @@ Arguments
 Arithmetic
 Arrays
 ASP.NET
+Assert
 Assignment
 Asymptotic Notation
 Async Await
