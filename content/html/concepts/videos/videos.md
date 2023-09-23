@@ -44,7 +44,7 @@ AddType video/ogg .ogv
 AddType video/ogg .ogg
 ```
 
-If the website need serve video as WebM, it can be done by adding extension in web server Apache "vide/webm" to the "mime.types" in "/ect/apache" or add via the "AddType" configuration directive in httpd.conf
+If the website need serve video as WebM, it can be done by adding "video/webm" to the "mime.types" in "/ect/apache" or add via the "AddType" configuration directive in httpd.conf
 
 ```
 AddType video/webm .webm
