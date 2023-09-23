@@ -42,7 +42,7 @@ True
 
 ## Codebyte Example
 
-Use `.isidentifier()` to check if `my_string` is a valid Python identifier:
+The following code is runnable and uses `.isidentifier()` to check if `my_string` is a valid Python identifier:
 
 ```codebyte/python
 my_string = "123Codecademy"
