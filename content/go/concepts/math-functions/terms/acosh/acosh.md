@@ -42,21 +42,22 @@ import (
 )
 
 func main() {
-  fmt.Println(math.Acos(-1))
-  fmt.Println(math.Acos(1.23))
+  num := 16.0
+  
+  inverseHyperbolicCosine := math.Acosh(num)
+  fmt.Printf("The inverse hyperbolic cosine of %f is %f\n", num, inverseHyperbolicCosine)
 }
 ```
 
 The output will be:
 
 ```shell
-3.141592653589793
-NaN
+The inverse hyperbolic cosine of 16.000000 is 3.464758
 ```
 
 ## Codebyte Example
 
-The following example is runnable and uses the `Acosh()` function with two values: negative infinity and `3.1`.
+The following example is runnable and uses the `Acosh()` function with two values: positive infinity and `0.5`.
 
 ```codebyte/golang
 package main
@@ -67,13 +68,13 @@ import (
 )
 
 func main() {
-  numberInfinity := math.Inf(-1)
-  number := 3.1
+  numberInfinity := math.Inf(1)
+  number := 0.5
 
-  resultInfinity := math.Asinh(numberInfinity)
-  resultNumber := math.Asinh(number)
+  resultInfinity := math.Acosh(numberInfinity)
+  resultNumber := math.Acosh(number)
 
-  fmt.Printf("The inverse hyperbolic sine of %.1f is: %.1f\n", numberInfinity,  resultInfinity)
-  fmt.Printf("The inverse hyperbolic sine of %.1f is: %.1f\n", number, resultNumber)
+  fmt.Printf("The inverse hyperbolic cosine of %.1f is: %.1f\n", numberInfinity,  resultInfinity)
+  fmt.Printf("The inverse hyperbolic cosine of %.1f is: %.1f\n", number, resultNumber)
 }
 ```
