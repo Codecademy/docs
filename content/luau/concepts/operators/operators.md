@@ -1,6 +1,6 @@
 ---
 Title: 'Operators'
-Description: 'Operators are built-in functions that perform broadly logical or mathematical computations.'
+Description: 'Operators perform broadly logical or mathematical computations on supplied arguments.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -15,7 +15,7 @@ CatalogContent:
   - 'introduction-to-game-development'
 ---
 
-**Operators** are built-in functions that perform broadly logical or mathematical computations. An operator takes in one or more arguments, performs some computations based on those arguments, and returns a value.
+**Operators** perform broadly logical or mathematical computations. An operator takes in one or more arguments, performs some computations based on those arguments, and returns a value.
 
 ## Logical Operators
 
