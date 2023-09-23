@@ -12,7 +12,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`money_format()`** function takes a given number and formats it to a currency string. `money_format()` is often used in conjunction with the `set_locale()` function, so `money_format()` will default to the currency format of the geographical location specified in `set_locale()`.
+The **`money_format()`** function takes a given number and formats it to a currency string. `money_format()` is often used in conjunction with `set_locale()`, and if additional formatting specifications are not given, `money_format()` will default to the currency format of the location specified in `set_locale()`.
+
+> **Note:** `money_format()` was deprecated in PHP 7.4.0, and removed in PHP 8.0.0.
 
 ## Syntax
 
@@ -43,9 +45,9 @@ money_format($string, $number);
 
 - `#n` (optional): Specifies the maximum amount of digits that can be on the left side of the decimal point. The typical usage is to keep the formatting aligned in the return columns. If the digits to the left of the decimal point is less than `n`, fill characters are used.
 
-This specification is not used if the digits to the left of the decimal point is greater than `n`. If the `^` flag is not used and there are grouping separators, they will be put before the filling characters. However, grouping separators do not apply to fill characters, even if the fill characters are a digit.
+This specification is not used if the digits to the left of the decimal point are greater than `n`. If the `^` flag is not used and there are grouping separators, they will be put before the filling characters. However, grouping separators will not be used with fill characters, even if the fill character is a digit.
 
-To keep alignment, currency, positive, or negative symbols that appear on either side (beginning or end) of the formatted output will be padded to ensure that all formats are of equivalent lengths.
+Currency symbols and positive or negative symbols that appear at the beginning or end of the formatted output will be padded with spaces to ensure that all formats are of equivalent lengths.
 
 #### Right Precision
 
@@ -59,7 +61,7 @@ To keep alignment, currency, positive, or negative symbols that appear on either
 
 ## Example
 
-This example uses the `money_format()` function to format a number to the international format for the United States locale.
+This example uses the `money_format()` function in conjunction with `set_locale()` to format a number to the international format for the United States.
 
 ```php
 <?php
