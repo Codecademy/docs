@@ -26,7 +26,7 @@ string.isidentifier()
 
 ## Example
 
-Use `.isidentifier()` to check if a string is a valid Python identifier:
+In the code below `.isidentifier()` to check if a string is a valid Python identifier:
 
 ```py
 my_string = "Codecademy"
