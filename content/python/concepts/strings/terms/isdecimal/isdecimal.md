@@ -1,6 +1,6 @@
 ---
 Title: '.isdecimal()'
-Description: 'A method that checks whether a string consists of only decimal characters.'
+Description: 'Checks whether a string consists of only decimal characters.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
