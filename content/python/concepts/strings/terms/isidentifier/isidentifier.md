@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-The `.isidentifier()` string method takes in a string and returns `True` if the string is a valid Python identifier, else returns `False`.
+The **`.isidentifier()`** string method takes in a string and returns `True` if the string is a valid Python identifier, else returns `False`.
 
 ## Syntax
 
