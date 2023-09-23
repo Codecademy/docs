@@ -13,8 +13,7 @@ CatalogContent:
 
 The **`Hashable`** protocol is a fundamental protocol in Swift that allows types to be hashed into integer values, facilitating their use as keys in hash-based collections like dictionaries and sets.
 
-In swift, the following types conforms to the Hashable protocol by default: 
-**`Int`**, **`UInt`**, **`Float`**, **`Double`**, **`Bool`**, **`String`**, **`Character`**, **`Turples`**, **`Optionals`**, **`Enums`**.
+In Swift, the following [types](https://www.codecademy.com/resources/docs/swift/data-types) conforms to the `Hashable` protocol by default: `Int`, `UInt`, `Float`, `Double`, `Bool`, `String`, `Character`, `Turples`, `Optionals`, `Enums`.
 
 ## Syntax
 
@@ -28,7 +27,7 @@ The protocol requires the implementation of the `hash(into:)` method. This metho
 
 ## Example using Struct
 
-In this example, the Person struct conforms to the Hashable protocol by implementing the `hash(into:)` method. The hash value is calculated by combining the `name` and `age` properties using the `myhasher.combine(_:)` method. This allows instances of the Person struct to be stored in a set (`personSet`) and efficiently looked up using their hashed values.
+In this example, the `Person` struct conforms to the `Hashable` protocol by implementing the `hash(into:)` method. The hash value is calculated by combining the `name` and `age` properties using the `myhasher.combine(_:)` method. This allows instances of the `Person` struct to be stored in a set (`personSet`) and efficiently looked up with their hashed values.
 
 ```swift
 struct Person: Hashable {
@@ -57,9 +56,9 @@ This example results in the following output:
 Is Alice in the set? Yes
 ```
 
-## Example using Enum
+## Example using `enum`
 
-In this example, we have an enum called `Color` with three cases: `red`, `green`, and `blue`. Since enum cases are unique by definition, they are automatically hashable, and you can use them in data structures like sets or dictionaries without any additional implementation for the `Hashable` protocol
+In this example, we have an enum called `Color` with three cases: `red`, `green`, and `blue`. Since enum cases are unique by definition, they are automatically hashable, and they can be used in data structures like sets or dictionaries without any additional implementation for the `Hashable` protocol.
 
 ```swift
 enum Color: Hashable {
