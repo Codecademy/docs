@@ -50,7 +50,7 @@ The output will be:
 
 ## Codebyte Example
 
-The following example shows how the `Copysign()` function handles float64 arguments.
+The following example shows how the `Copysign()` function handles various arguments.
 
 ```codebyte/golang
 package main
