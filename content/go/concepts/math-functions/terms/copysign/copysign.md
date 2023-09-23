@@ -23,7 +23,7 @@ import "math"
 CpSgnXY = math.Copysign(x, y)
 ```
 
-Where `CpSgnXY` is the value of the magnitude of `x` and the sign of `y`, it is of type `float64`.
+Where `CpSgnXY` is the value, of type `float64`, composed of the magnitude of `x` and the sign of `y`.
 
 ## Example
 
