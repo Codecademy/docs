@@ -27,7 +27,7 @@ Where `CpSgnXY` is the value, of type `float64`, composed of the magnitude of `x
 
 ## Example
 
-The following Golang program calculates the magnitude of `x` and the sign of `y` and prints out the result:
+The following code demonstrates the basic implementations of `.Copysign()`:
 
 ```go
 package main
