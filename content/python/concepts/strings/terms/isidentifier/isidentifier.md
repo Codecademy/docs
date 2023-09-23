@@ -21,7 +21,7 @@ The **`.isidentifier()`** string method takes in a string and returns `True` if 
 string.isidentifier()
 ```
 
-- Python `identifiers` must start with a `letter (a-z, A-Z)` or an `underscore (_)` followed by letters, digits (0-9), or underscores.
+- Python `identifiers` must start with a letter (`a-z, A-Z`) or an underscore (`_`) followed by letters, digits (`0-9`), or underscores.
 - They cannot be a Python keyword like `if`, `else`, `while`, etc.
 
 ## Example
