@@ -7,6 +7,7 @@ Subjects:
 Tags:
   - 'Strings'
   - 'Functions'
+  - 'Obsolete'
 CatalogContent:
   - 'learn-php'
   - 'paths/computer-science'
