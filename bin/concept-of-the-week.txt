@@ -1,1 +1,1 @@
-content/sql/concepts/wildcards/wildcards.md
+content/css/concepts/typography/typography.md
