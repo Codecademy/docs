@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Copysign()`** of the `math` package is an inbuilt function that takes two parameters and returns a value containing magnitude of the first parameter and a sign of the second parameter.
+The **`Copysign()`** of the `math` package is an inbuilt function that returns a value based on the magnitude of the first argument and the sign of the second argument.
 
 ## Syntax
 
