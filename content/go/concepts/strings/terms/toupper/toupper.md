@@ -32,7 +32,7 @@ In the example below, `"Codecademy"` is converted to all uppercase.
 package main
 import (
    "fmt"
-   "unicode"
+   "strings"
 )
 
 func main() {
