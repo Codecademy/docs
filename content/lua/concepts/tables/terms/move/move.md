@@ -20,13 +20,10 @@ The **`.move()`** function copies the specified indices' values from the source 
 table.move(a1, f, e, t, a2)
 ```
 
-`.move()` function expects five arguments where `a1` is the source table and `a2` is the destination table.
-
-`f` means _from_ (First index within `a1`).
-
-`e` means _end_ (Last index within `a1`).
-
-`t` means _to_ (First index within `a2`).
+- `.move()` function expects five arguments where `a1` is the source table and `a2` is the destination table.
+- `f` means _from_ (First index within `a1`).
+- `e` means _end_ (Last index within `a1`).
+- `t` means _to_ (First index within `a2`).
 
 ## Example
 
