@@ -2,7 +2,7 @@
 Title: 'Proof by Induction'
 Description: 'A mathematical method to determine the validity of a statement.'
 Subjects: 
-  -  'Coputer Science'
+  -  'Computer Science'
   -  'Mathematics'
 Tags: 
   -  'Algorithms'
