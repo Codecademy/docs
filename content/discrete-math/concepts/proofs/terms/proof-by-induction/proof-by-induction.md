@@ -65,7 +65,6 @@ Induction Step:
 All mathematical proofs by induction consist of these three parts. Be sure to prove all necessary base cases, more than one is possible.
 
 > **Note:** Any proof by weak induction is also a proof by strong induction, the distinction between the two is determined by the need to prove a substantive range of assumptions.
-a substantive range of assumptions.
 
 ## Proof by Induction's Application to Computer Science 
 
