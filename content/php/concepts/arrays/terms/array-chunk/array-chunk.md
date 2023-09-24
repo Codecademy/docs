@@ -94,7 +94,7 @@ Array
 
 This example is runnable and uses the `array_chunk()` function:
 
-> **Note:** The example used a `foreach` loop to cycle through the elements with each chunk. `implode()` is used to join the names of students in each chunk to create a readable format for output.
+> **Note:** The example uses a `foreach` loop to cycle through the elements with each chunk. `implode()` is used to join the names of students in each chunk to create a readable format for output.
 
 ```codebyte/php
 <?php
