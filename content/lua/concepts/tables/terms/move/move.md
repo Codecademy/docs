@@ -32,19 +32,19 @@ Consider the following tables:
 ```lua
 local Table1 = {"🍎", "🍌", "🍇", "🍓", "🍉" }
 
-local Table2 = {}
+local Table2 = {"🍎", "🍌"}
 
-table.move(Table1, 1, #Table1, #Table2 + 1, Table2)
+table.move(Table1, 1, #Table1, 3, Table2)
 
-print(table.concat(Table2))
+print(table.unpack(Table2))
 ```
 
-In this example, the elements in `Table1` have been copied to `Table2` using the `.move()` function. Starting from index 1 in `Table1` until the end and then copying them in sequence to `Table2` starting from index 1.
+In this example, the elements in `Table1` have been copied to `Table2` using the `.move()` function. Starting from index 1 in `Table1` until the end and then copying them in sequence to `Table2` starting from index 3.
 
 The above code will result in:
 
 ```lua
-🍎🍌🍇🍓🍉
+🍎🍌🍎🍌🍇🍓🍉
 ```
 
-> **Note:** In Lua, indices start from 1; thus, the fourth argument is `#Table2 + 1` where `#Table2` is the length of the table. Therefore, `0 + 1` is the starting index of `Table2`.
+> **Note:** In Lua, indices start from 1; thus, the next available index in `Table2` is index 3.
