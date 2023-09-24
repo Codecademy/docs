@@ -35,18 +35,6 @@ import (
    "unicode"
 )
 
-func ToUpper(s string) string {
-   a := []rune(s)
-   for i, c := range a {
-      if unicode.IsLower(c) {
-         a[i] = unicode.ToUpper(c)
-      }
-   }
-   return string(a)
-}
-
-
-
 func main() {
    var input string = "Codecademy"
    var output string = ToUpper(input)
