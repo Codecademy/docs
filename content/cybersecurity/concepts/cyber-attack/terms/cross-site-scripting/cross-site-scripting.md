@@ -20,7 +20,7 @@ There are 3 common types of cross-site scripting attacks:
 
 1. Stored/Persistent XSS: The attacker attempts to inject malicious scripts into a web server or database. These scripts are then delivered to victims when they access specific pages on the website.
 2. Reflected/Non-Persistent XSS: The attacker attempts to have the user click on a malicious link, masqueraded as a legitimate link, from the website's error message, search result, or phishing email.
-3. Document Object Model (DOM) Based XSS: With DOM-based XSS, the attacker attempts to exploit the victim's web browser by attacking the DOM, usually through the URL. This attack is also known as client-side XSS.
+3. Document Object Model (DOM) Based XSS: Involves manipulating the Document Object Model (DOM) of a web page to execute malicious scripts in the victim's browser. This can occur through various user interactions and events, not limited to the URL alone. This attack is also known as client-side XSS.
 
 ## Risks
 
