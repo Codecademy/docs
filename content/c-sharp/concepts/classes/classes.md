@@ -1,6 +1,6 @@
 ---
 Title: 'Classes'
-Description: 'Classes are a certain something.'
+Description: 'A class represents a custom data type.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
