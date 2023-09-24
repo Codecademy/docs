@@ -21,7 +21,7 @@ The **`Acosh()`** function returns the inverse hyperbolic cosine of a number.
 result := math.Acosh(number)
 ```
 
-The `Acosh()` function takes one parameter, `number`, a type of `float64`. It returns a value as a `float64`. This value represents the inverse hyperbolic cosine, also known as arccosh, of `number`. It's important to note that the returned value is in radians. If the value of `number` is:
+The `Acosh()` function takes one parameter, `number`, a type of `float64`. It returns a value as a `float64`. This value represents the inverse hyperbolic cosine, or arccosh, of `number`. It's important to note that the returned value is in radians. If the value of `number` is:
 
 - Not defined (`undefined`), then it returns `NaN` (Not a Number)
 - Less than `1`, including negative infinity (`-Inf`) or equivalent, then it returns `NaN`
