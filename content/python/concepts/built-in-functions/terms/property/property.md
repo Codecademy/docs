@@ -65,7 +65,6 @@ print(dog.name)
 # Delete the name attribute
 del dog.name
 
-# Accessing the radius after deletion will raise an AttributeError
 
 ```
 
