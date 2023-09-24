@@ -79,35 +79,35 @@ Mars
 
 In this example the `property()` function is used to access the `radius` attribute of the `Circle` class.
 
-```codebyte/py
-class Circle:
-    def __init__(self, radius):
-        self._radius = radius
+```codebyte/python
+class Flower:
+    def __init__(self, color):
+        self._color = color
 
-    def get_radius(self):
-        return self._radius
+    def get_color(self):
+        return self._color
 
-    def set_radius(self, radius):
-        self._radius = radius
+    def set_color(self, color):
+        self._color = color
 
-    def del_radius(self):
-        del self._radius
+    def del_color(self):
+        del self._color
 
-    radius = property(get_radius, set_radius, del_radius)
+    color = property(get_color, set_color, del_color)
 
-# Create an instance of Circle
-circle = Circle(5)
+# Create an instance of Flower
+flower = Flower("Blue")
 
-# Access the radius attribute using the property
-print(circle.radius)
+# Access the color attribute using the property
+print(flower.color)
 
-# Set a new value for the radius attribute
-circle.radius = 7
+# Set a new value for the color attribute
+flower.color = "Red"
 
-# Access the updated radius attribute
-print(circle.radius)
+# Access the updated color attribute
+print(flower.color)
 
 # Delete the radius attribute
-del circle.radius
+del flower.color
 
 ```
