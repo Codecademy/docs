@@ -23,7 +23,7 @@ The `array_chunk()` function has two required parameters and one optional parame
 
 - `$array`: Specifies the input `array`.
 - `$length`: Specifies that amount of elements in a chunk.
-- `$preserve_keys`: When set to **true** keys will be preserved. The default is **false** which will reindex each chunk.
+- `$preserve_keys`: When set to `true` keys will be preserved. The default is `false` which will reindex each chunk.
 
 The `array_chunk()` function returns a multidimensional array, with each dimension containing `$length` elements.
 
