@@ -22,7 +22,7 @@ result = strings.ToUpper(str)
 
 The function accepts the given string, `str`, as its argument and returns the final string, `result`, converting lowercase characters to uppercase.
 
-> **Note:** This only works with the standardized alphabet characters.
+> **Note:** This function only works with the standard characters of the alphabet.
 
 ## Example
 
