@@ -19,7 +19,7 @@ The **`array_chunk()`** method splits an array into chunks and returns a multidi
 array_chunk(array $array, int $length, bool $preserve_keys = false)
 ```
 
-The `array_chunk()` function has two required parameter and one optional parameter.
+The `array_chunk()` function has two required parameters and one optional parameter.
 
 - `$array`: Specifies the input `array`.
 - `$length`: Specifies that amount of elements in a chunk.
