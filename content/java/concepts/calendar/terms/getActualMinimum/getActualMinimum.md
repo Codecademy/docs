@@ -49,6 +49,6 @@ public class CalendarDemo {
 The output from the snippet above would look like this:
 
 ```shell
-Minimum year :1
-Minimum month :0
+Minimum year: 1
+Minimum month: 0
 ```
