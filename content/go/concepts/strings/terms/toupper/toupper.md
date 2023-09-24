@@ -37,7 +37,7 @@ import (
 
 func main() {
    var input string = "Codecademy"
-   var output string = ToUpper(input)
+   var output string = strings.ToUpper(input)
    fmt.Println(output)
 }
 ```
