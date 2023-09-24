@@ -14,7 +14,9 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`<font>`** element was used to set the font characteristics of a text. It is now deprecated. Some [CSS](https://www.codecademy.com/resources/docs/css) properties like the [`font`](https://www.codecademy.com/resources/docs/css/typography/font) property should be used instead.
+The **`<font>`** element was used to set the font characteristics of a text.
+
+> **Note** This is now deprecated. [CSS](https://www.codecademy.com/resources/docs/css) properties like the [`font`](https://www.codecademy.com/resources/docs/css/typography/font) property should be used instead.
 
 ## Syntax
 
