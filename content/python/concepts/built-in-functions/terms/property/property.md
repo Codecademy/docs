@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`property()`** function is a built-in Python function used to create properties by defining getter, setter and deleter for class attributes. It returns the object of property class that can be used as decorator or assigned to a class attribute.
+The **`property()`** function is a built-in Python function used to define methods that get, set, and delete class attributes. It can be used as a [decorator](https://www.codecademy.com/resources/docs/python/decorators) or assigned to a class attribute.
 
 ## Syntax
 
