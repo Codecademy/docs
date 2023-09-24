@@ -39,7 +39,7 @@ public class CalendarDemo {
     int a = cal.getActualMinimum(Calendar.YEAR);
     System.out.println("Minimum year :" + a);
 
-    // return the minimum value that the month field could have
+    // Return the minimum value that the month field could have
     int i = cal.getActualMinimum(Calendar.MONTH);
     System.out.println("Minimum month :" + i);
   }
