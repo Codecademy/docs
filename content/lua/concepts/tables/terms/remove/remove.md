@@ -1,6 +1,6 @@
 ---
-Title: 'freeze()'
-Description: 'Makes a given table read-only.'
+Title: 'Remove()'
+Description: 'Removes a value from an array.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.remove()`** function in Lua removes the value of the specified index and clears the index from the Array (reducing the length of the table by 1).
+The **`.remove()`** function in Lua that removes the value of the specified index and clears the index from the Array (reducing the length of the table by 1).
 
 ## Syntax
 
@@ -28,27 +28,21 @@ This function returns the value that we remove from the table. The `pos` paramet
 Consider the following table:
 
 ```lua
-local frozen_table = table.freeze({
+local fruit = {
     "🍎",
     "🍌",
     "🍇",
     "🍓",
     "🍉"
-})
+}
+
+local removedFruit = table.remove(fruit, 2);
 ```
 
-The variable `frozen_table` is instantiated with the `.freeze()` method to make the contents read-only.
+The `fruit` array will now have one less item ( removed at the 2 position ) and the variable `removedFruit` will now contain "🍌".
 
-Now, if an element is added:
+Now, `removedFruit` contains the removed item:
 
 ```lua
-frozen_table[1] = "🍔"
+print(removedFruit) -- prints "🍌"
 ```
-
-The code will return the following output:
-
-```shell
-Error: Frozen table cannot be modified
-```
-
-The error is thrown because the method has made the table read-only, so the contents cannot be modified.
