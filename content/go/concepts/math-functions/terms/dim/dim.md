@@ -1,5 +1,4 @@
 ---
-
 Title: 'Dim()'
 
 Description: 'Calculate the Maximum of the Difference between Two Arguments'
