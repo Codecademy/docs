@@ -24,7 +24,7 @@ Where `myCalendar` is a `Calendar` object, and `field` is the constant for the f
 
 ## Example
 
-The below example uses getActualMinimum() to retrieve the minimum value for a year and the minimum value for a month
+The below example uses `.getActualMinimum()` to retrieve the minimum value for a year and the minimum value for a month.
 
 ```java
 import java.util.Calendar;
