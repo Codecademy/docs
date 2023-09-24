@@ -86,25 +86,29 @@ Below is psuedocode of a function to compute a factorial, recursive steps will b
       n = n * factorial(n - 1)
 ```
 
-### Recursion: 
+Recursion: 
 
-	Basis: If *n* is equal to 0, then return 1
-```cpp
-	       factorial(0) = 1
+Basis: If *n* is equal to 0, then return 1
+
+```pseudo
+       factorial(0) = 1
 ```
-### Induction: 
+
+Induction: 
 
 Base case: n! when n = 0
 
 ```tex
   0! = 1
-### Recursion: 
+```
+
+Recursion: 
 
 ```pseudo
   factorial(n) = n * (n - 1) * (n - 2) * ... * 1 
 ```
 
-### Induction:
+Induction:
 
 Inductive Hypothesis: Assume that this property holds true for n = k. For all k > 0.
 
@@ -122,6 +126,4 @@ Inductive Step: Let n = k + 1.
 
 Thus, the property is true due to the definition of factorials.
 
-> **Note**: Typically, the problem will be to solve an expression or inequality. 
-
-
+> **Note**: Typically, the problem will be to solve an expression or inequality.
