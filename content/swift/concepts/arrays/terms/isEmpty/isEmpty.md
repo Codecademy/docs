@@ -20,7 +20,7 @@ The **`.isEmpty`** property returns `true` if an array contains no elements, and
 arrayName.isEmpty
 ```
 
-Where `arrayName` is the arry being checked for elements.
+Where `arrayName` is the array being checked for elements.
 
 ## Example
 
