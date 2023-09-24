@@ -41,7 +41,7 @@ public class CalendarDemo {
 
     // Return the minimum value that the month field could have
     int i = cal.getActualMinimum(Calendar.MONTH);
-    System.out.println("Minimum month :" + i);
+    System.out.println("Minimum month: " + i);
   }
 }
 ```
