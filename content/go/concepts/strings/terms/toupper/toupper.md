@@ -26,7 +26,7 @@ The function accepts the given string, `str`, as its argument and returns the fi
 
 ## Example
 
-In the example below, the whole string "Codecademy" is converted to uppercase.
+In the example below, `"Codecademy"` is converted to all uppercase.
 
 ```go
 package main
