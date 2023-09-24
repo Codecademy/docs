@@ -24,7 +24,7 @@ Where `arrayName` is the array being checked for elements.
 
 ## Example
 
-The following example creates and array and checks `.isEmpty()` before and after adding an element:
+The following example creates and array and evaluates the contents of the array with `.isEmpty` before and after adding an element:
 
 ```swift
 var favoriteSongs = [String]()
