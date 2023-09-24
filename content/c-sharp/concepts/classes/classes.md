@@ -13,7 +13,7 @@ CatalogContent:
   - 'learn-asp-net'
 ---
 
-A **class** represents a custom data type. In C#, the class defines the kinds of information and methods included in a custom type. Generally, a class deeclaration contains the keyword of the class. It is then followed by an identifier(name) of the class. 
+A **class** represents a custom data type. In C#, the class defines the kinds of properties and methods included in a custom type. Generally, a class declaration contains the keyword `class` followed by an identifier (name) of the class. 
 
 ## Syntax
 
