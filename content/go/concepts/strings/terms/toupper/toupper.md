@@ -1,6 +1,6 @@
 ---
 Title: 'ToUpper()'
-Description: 'Returns a lowercase string converted to uppercase.'
+Description: 'Returns a string in all uppercase.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
