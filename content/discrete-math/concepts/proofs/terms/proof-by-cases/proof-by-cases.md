@@ -16,7 +16,7 @@ CatalogContent:
 
 **Proof by Cases** is a technique used in mathematical proofs to demonstrate a statement by showing that it is true in each of a set of cases. These cases must be mutually exhaustive, meaning that they cover all possibilities, so that at least one of them must be true. By showing that the statement holds no matter which case is true, it is guaranteed that the statement is true.
 
-Proof by Cases is also sometimes known as _exhaustive proof_, which refers to the fact that the statement is proven in a set of mutually exhaustive cases.
+Proof by Cases is also sometimes known as **exhaustive proof**, which refers to the fact that the statement is proven in a set of mutually exhaustive cases.
 
 ## Steps for Proof by Cases
 
