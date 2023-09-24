@@ -20,7 +20,7 @@ The **`.getActualMinimum()`** method returns the minimum possible value that the
 ```pseudo
 min = cal.getActualMinimum(field);
 ```
-Where `myCalendar` is a `Calendar` object, and `field` is the constant for the field to retrieve the minimum for.
+Where `myCalendar` is a `Calendar` object, and `field` is the constant for which the minimum will be returned.
 
 ## Example
 
