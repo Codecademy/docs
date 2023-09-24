@@ -119,6 +119,7 @@ Inductive Step: Let n = k + 1.
 
   (k + 1)! = (k + 1) x k!  From the *Induction Hypothesis* 
 ```
+
 Thus, the property is true due to the definition of factorials.
 
 > **Note**: Typically, the problem will be to solve an expression or inequality. 
