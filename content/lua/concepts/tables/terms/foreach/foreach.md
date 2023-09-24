@@ -1,4 +1,14 @@
-
+---
+Title: 'foreach() Function'
+Description: 'The foreach() function is a programming construct that iterates through the elements of a provided table or collection, using a specified callback function to perform operations on each element'
+Subjects:
+  - 'Web Development'
+Tags:
+  - 'Javascript'
+CatalogContent:
+  - 'introduction-to-javascript'
+- 'paths/front-end-engineer-career-path'
+---
 
 ## foreach() Function
 
