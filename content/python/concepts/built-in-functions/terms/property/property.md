@@ -1,6 +1,6 @@
 ---
 Title: 'property()'
-Description: 'Declares property to access class attributes.'
+Description: 'Declares a range of functions to manipulate class attributes.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
