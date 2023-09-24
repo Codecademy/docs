@@ -28,7 +28,7 @@ The `property()` function requires four parameters:
 - `fdel`: function to delete the value of the attribute.
 - `doc`: string that creates `docstring` for the attribute.
 
-> **Note:** In case no arguments are given then the function returns a base property attribute without any getter, setter or deleter.
+> **Note:** If no arguments are given then the function returns a base property attribute without any getter, setter or deleter.
 
 ## Example
 
