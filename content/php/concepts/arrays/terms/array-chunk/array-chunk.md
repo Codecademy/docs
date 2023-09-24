@@ -88,7 +88,7 @@ Array
 )
 ```
 
-> **Note:** The last chunk may contain less than **length** elements. Due to $preserve_keys being set to **true** the indexes in the chunks do not reindex.
+> **Note:** The last chunk may contain less than `$length` elements. Due to `$preserve_keys` being set to `true` the indexes in the chunks do not reindex.
 
 ## Codebyte Example
 
