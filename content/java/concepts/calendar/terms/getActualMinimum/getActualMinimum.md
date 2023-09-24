@@ -35,7 +35,7 @@ public class CalendarDemo {
     // Create a calendar
     Calendar cal = Calendar.getInstance();
 
-    // return the minimum value that the year field could have
+    // Return the minimum value that the year field could have
     int a = cal.getActualMinimum(Calendar.YEAR);
     System.out.println("Minimum year: " + a);
 
