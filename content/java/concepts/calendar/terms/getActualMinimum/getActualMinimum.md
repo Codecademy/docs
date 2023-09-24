@@ -1,6 +1,6 @@
 ---
 Title: '.getActualMinimum()'
-Description: 'Returns the minimum value that the specified calendar field could have based on the time value of the calendar.'
+Description: 'Returns the minimum value allowed for a given calendar field.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.getActualMinimum()`** method returns the minimum possible value that the specified calendar field can have.
+The **`.getActualMinimum()`** method returns the minimum value allowed for a given calendar field.
 
 ## Syntax
 
