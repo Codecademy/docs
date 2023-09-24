@@ -23,10 +23,10 @@ property(fget, fset, fdel, doc)
 
 The `property()` function requires four parameters:
 
-- `fget`: function to get the value of the `attribute`.
-- `fset`: function to set the value of the `attribute`.
-- `fdel`: function to delete the value of the `attribute`.
-- `doc`: string that creates `docstring` for the `attribute`.
+- `fget`: function to get the value of the attribute.
+- `fset`: function to set the value of the attribute.
+- `fdel`: function to delete the value of the attribute.
+- `doc`: string that creates `docstring` for the attribute.
 
 > **Note:** In case no arguments are given then the function returns a base property attribute without any getter, setter or deleter.
 
