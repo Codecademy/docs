@@ -24,7 +24,7 @@ There are 3 common types of cross-site scripting attacks:
 
 ## Risks
 
-XSS is particularly harmful because the victim is the user, not the web browser. This attack exploits the trust that exists between the user's web browser and the web server. The malicious code is injected into the web page that's delivered from the web server to the user.
+XSS is particularly harmful because its primary target is the user, not the web browser. This attack exploits the trust that exists between the user's web browser and the web server. The malicious code is injected into the web page that's delivered from the web server to the user.
 
 With successful XSS attacks, the attacker can:
 
