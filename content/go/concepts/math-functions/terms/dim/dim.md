@@ -17,7 +17,7 @@ The **`Dim()`** function takes two floating-point numbers (x and y), calculates 
 **## Syntax**
 
 ```pseudo
-func Dim(x, y float64) float64
+difference := math.Dim(x, y)
 ```
 The `Dim()` function returns a single value of type `float64`. This value represents the difference between the two arguments (x-y) and 0. If the difference is greater than 0, it is returned; else, 0 is returned.
 
