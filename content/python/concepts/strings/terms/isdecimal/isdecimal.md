@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The method `isdecimal()` takes a string parameter and returns `True` if and only if the following two conditions are met:
+The method **`.isdecimal()`** takes a string parameter and returns `True` if and only if the following two conditions are met:
 
 1. The string is not empty (has at least one character).
 2. All of the characters in the string are decimal characters.
