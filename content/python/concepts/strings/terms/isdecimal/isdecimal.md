@@ -55,7 +55,7 @@ False
 True
 ```
 
-Note that the fourth call to `isdecimal()` returns `True` because "u0033" is the unicode encoding of the decimal character "3".
+Note that the fourth call to `.isdecimal()` returns `True` because `"\u0033"` is the unicode encoding of the decimal character `"3"`.
 
 ## Codebyte Example
 
