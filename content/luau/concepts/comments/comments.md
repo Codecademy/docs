@@ -30,7 +30,6 @@ print(p.x, p.y)
 
 In Luau, multi-line or block comments are created using double hyphens and double brackets `--[[ ]]`. The compiler does not read any text in between. Multi-line comments commonly used at the top of files to describe their purpose or before functions to describe their intent.
 
-
 ```lua
 --[[ This is a multi-line comment.
  It will be ignored by the compiler
