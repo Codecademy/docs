@@ -19,7 +19,8 @@ The **`Dim()`** function takes two floating-point numbers (x and y), calculates 
 ```pseudo
 difference := math.Dim(x, y)
 ```
-The `Dim()` function returns a single value of type `float64`. This value represents the difference between the two arguments (x-y) and 0. If the difference is greater than 0, it is returned; else, 0 is returned.
+
+The `Dim()` function returns a single value of type `float64`. This value represents the difference between the two arguments (`x`-`y`) and 0. If the difference is greater than 0, it is returned; else, 0 is returned.
 
 Note these special cases:
 - If you pass `NaN` in this function `Dim(a, NaN)` or `Dim(NaN, b)`, then this function will return NaN.
