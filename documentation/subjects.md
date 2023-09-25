@@ -19,4 +19,5 @@ Mobile Development
 Networking
 Web Design
 Web Development
+AI
 ```
