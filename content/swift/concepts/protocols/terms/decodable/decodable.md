@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-`Decodable` is a type in Swift that can convert itself into a structure that conforms to the **`Decodable protocol`**. The `Decodable protocol` is used to easily decode JSON or similar data formats like XML. The required initializer is `init(from: Decoder)` which creates a new instance by decoding from the given decoder. The `Decodable protocol` is often used with the `JSONDecoder` class. `Decodable` should be used if you only need to read data. 
+`Decodable` is a type in Swift that can convert itself into a structure that conforms to the **`Decodable`** protocol. The `Decodable` protocol is used to easily decode JSON or similar data formats like XML. The required initializer is `init(from: Decoder)` which creates a new instance by decoding from the given decoder. The `Decodable` protocol is often used with the `JSONDecoder` class. `Decodable` should be used when there's only a need to read data. 
 
 ## Syntax
 Create a structure to represent the data to decode, followed by `Decodable` using the standard syntax of a Swift protocol.   
