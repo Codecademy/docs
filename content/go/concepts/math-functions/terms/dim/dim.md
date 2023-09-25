@@ -54,8 +54,10 @@ The above code results in the following output:
 The  positive  difference  between 7 and 4 = 3
 ```
 
-**## Codebyte Example**
+## Codebyte Example
+
 The example below is runnable and demonstrates `dim()` function.
+
 ```codebyte/golang
 
 package main
