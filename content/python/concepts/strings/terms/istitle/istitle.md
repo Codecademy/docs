@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-The `.istitle()` string method returns `True` if the string is in title case and `False` otherwise. Title case means that the first letter of each word is capitalized, and all other letters in the word are lowercase.
+The `.istitle()` string method returns `True` if the string is in title case and `False` otherwise. Title case means that the first letter of each word is capitalized, and all other letters in the word are in lowercase.
 
 ## Syntax
 
