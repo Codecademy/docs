@@ -25,10 +25,10 @@ CatalogContent:
 
 Visual design elements in the screenshot:
 
-**A.** The _typography_ in this section uses the same font in different sizes and weights.<br>  
-**B.** The _texture_ made up of tiny dots adds visual interest and helps divide the top of the page from the bottom.<br>
-**C.** The bright purple _color_ directs our attention to the call-to-action buttons.<br>
-**D.** This rectangle is made up of thin _lines._<br>
-**E.** This box has _form_, which means it appears to be three-dimensional.<br>
-**F.** The white rectangles are _shapes_ that serve as containers for the code challenges.<br>
-**G.** The _space_ between the rectangles is consistent, creating symmetry.<br>
+- **A.** The _typography_ in this section uses the same font in different sizes and weights.  
+- **B.** The _texture_ made up of tiny dots adds visual interest and helps divide the top of the page from the bottom.
+- **C.** The bright purple _color_ directs our attention to the call-to-action buttons.
+- **D.** This rectangle is made up of thin _lines._
+- **E.** This box has _form_, which means it appears to be three-dimensional.
+- **F.** The white rectangles are _shapes_ that serve as containers for the code challenges.
+- **G.** The _space_ between the rectangles is consistent, creating symmetry.
