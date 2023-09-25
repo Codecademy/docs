@@ -1,21 +1,20 @@
 ---
 Title: 'Encodeable'
-Description: 
- - 'A type that can convert itself into an external representation.'
- - 'handles data encoding tasks'
+Description: 'Enables object data to be encoded for use with Application Programming Interfaces.'
+ 
 Subjects:
-  - 'iOS 8.0+ | iPadOS 8.0+ | macOS 10.10+ | Mac Catalyst 13.0+ | tvOS 9.0+ | watchOS 2.0+ | visionOS 1.0 + Beta'
+  - 'iOS'
+  - 'MobileDevelopment'
 Tags:
   - 'Protocols'
   - 'APIs'
-  - 'encoding'
 CatalogContent:
   - 'learn-swift'
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-**`Encodable`** is a protocol that enables a type's data to be encoded and decoded. 
-
+**`Encodable`** is a protocol that enables a type's data to be encoded and for use with Application Programming Interfaces ([APIs](https://www.codecademy.com/resources/docs/general/api)). 
+**Note:** If data also needs to be decoded, it's convenient to use the `Codable` protocol because it includes both the `Encodable` and `Decodable` protocols.
 > **Note:** A type that can encode itself to an external representation. The protocol is related to the following protocols
 - Codeable
 - Decodeable
@@ -34,61 +33,7 @@ struct myStruct: Encodable {
 }
 ```
 
-## Conforming Types:
-- **Array** - _if Element conforms to the protocol_
-- **Bool**
-- **Closed Range** - _when Bound conformst to Compareable and Encodeable_
-- **CollectionDifference** - _when ChangeElement conforms to Decodable and Encodable._
-- **collectionDifference.Change** - _when ChangeElement conforms to Decodable and Encodable._
-- **ContigousArray** - _when Element conforms to Encodeable_
-- **ContinousClock.InstantDictionary** - _when Key conforms to Encodable, Key conforms to Hashable, and Value conforms to Encodable._
-- **Double**
-- **Duration**
-- **Duration.TimeFormatStyle**
-- **Duration.TimeFormatStyle.Attributed**
-- **Duration.TimeFormatStyle.Pattern**
-- **Duration.UnitsFormatStyle**
-- **Duration.UnitsFormatStyle.Attributed**
-- **Duration.UnitsFormatStyle.FractionalPartDisplayStrategy**
-- **Duration.UnitsFormatStyle.Unit**
-- **Duration.UnitsFormatStyle.UnitWidth**
-- **Duration.UnitsFormatStyle.ZeroValueUnitsDisplayStrategy**
-- **Float**
-- **Float16**
-- **Int**
-- **Int16**
-- **Int32**
-- **Int64**
-- **Int8**
-- **LocalTestingActorID**
-- **Never**
-- **ObservationRegistrar**
-- **Optional** - _when Wrapped conforms to Encodable._
-- **PartialRangeFrom** - _when Bound conforms to Comparable and Encodable._
-- **PartialRangeThrough** - _when Bound conforms to Comparable and Encodable._
-- **PartialRangeUpTo** - _when Bound conforms to Comparable and Encodable._
-- **Range** - _when Bound conforms to Comparable and Encodable._
-- **SIMD16** 
-- **SIMD2**
-- **SIMD3**
-- **SIMD32**
-- **SIMD4**
-- **SIMD64**
-- **SIMD8**
-- **SIMDMask**
-- **Set** - _when Element conforms to Encodable and Hashable._
-- **String**
-- **String.Comparator**
-- **String.LocalizationValue**
-- **String.LocalizationValue.Placeholder**
-- **String.StandardComparator**
-- **SuspendingClock.Instant**
-- **TaskPriority**
-- **UInt**
-- **UInt16**
-- **UInt32**
-- **UInt64**
-- **UInt8**
+#
 
 
 For the syntax above, all properties will be encoded.
