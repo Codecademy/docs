@@ -36,6 +36,7 @@ print(str3.isalpha())
 ```
 
 The above example will show the following output:
+
 ```shell
 True
 False
