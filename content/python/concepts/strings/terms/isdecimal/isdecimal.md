@@ -19,7 +19,7 @@ The method **`.isdecimal()`** takes a string parameter and returns `True` if and
 
 Otherwise, `.isdecimal()` returns `False`.
 
-A decimal character is a character that represents an integer from 0 to 9.
+A decimal character is a character that represents an integer from `0` to `9`.
 
 ## Syntax
 
