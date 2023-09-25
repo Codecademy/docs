@@ -1,15 +1,15 @@
 ---
-Title: '.center()'  
-Description: 'Returns a new string with added specified padding. It's default is whitespace.'  
-Subjects:  
+Title: '.center()'
+Description: 'Returns a new string with added specified padding. It's default is whitespace.'
+Subjects:
   - 'Data Science'  
   - 'Computer Science'  
-Tags:  
+Tags:
   - 'Methods'  
-Catalog Content:  
-  - 'learn-python-3'  
-  - 'paths/computer-science'  
----  
+CatalogContent:
+  - 'learn-python-3' 
+  - 'paths/computer-science' 
+--- 
 
 The **`.center()`** string method returns a new string that has been amended with added padding. The default padding is whitespace, but any character may be used, including numbers or symbols.
 
