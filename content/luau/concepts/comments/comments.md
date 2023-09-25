@@ -39,7 +39,8 @@ In Luau, multi-line or block comments are created using double hyphens and doubl
     print(name)
 end
 ```
-Multiple brackets can be nested inside of multi-line comment by using equal sign inside of the beginning and ending bracket `--[=[   ]=]`.
+
+Multiple brackets can be nested inside of multi-line comment by using equal sign inside of the beginning and ending brackets, `--[=[   ]=]`.
 
 ```lua
 local String = 'Secret!'
