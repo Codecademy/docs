@@ -11,7 +11,8 @@ CatalogContent:
   - 'learn-go'
   - 'paths/computer-science'
 ---
-The ****dim()**** function takes these two floating-point numbers (x and y), calculates their difference (difference := x - y), and then finds the maximum between this difference and 0 using the math.Max() function. The result is a single floating-point number that represents the maximum of the difference between x and y or 0.
+
+The **`Dim()`** function takes two floating-point numbers (x and y), calculates their difference (difference := x - y), and then finds the maximum between this difference and 0 using the `math.Max()` function. The result is a single floating-point number that represents the maximum of the difference between x and y or 0.
 
 **## Syntax**
 
