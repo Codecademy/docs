@@ -1,26 +1,43 @@
 ---
 Title: 'Dim()'
+Description: 'Calculates the maximum of the difference between two arguments.'
 Description: 'Calculate the Maximum of the Difference between Two Arguments'
 Subjects:
+  - 'Code Foundation'
+  - 'Computer Science'
 - 'Code Foundation'
 - 'Computer Science'
 Tags:
+  - 'Math'
+  - 'Functions'
 - 'Math'
 - 'Functions'
 CatalogContent:
+  - 'learn-go'
+  - 'paths/computer-science'
 - 'learn-go'
 - 'paths/computer-science'
 ---
+
+The **`Dim()`** function takes two floating-point numbers (x and y), calculates their difference (difference := x - y), and then finds the maximum between this difference and 0 using the `math.Max()` function. The result is a single floating-point number that represents the maximum of the difference between x and y or 0.
 The **`Dim()`** function takes two floating-point numbers (x and y), calculates their difference (difference := x - y), and then finds the maximum between this difference and 0 using the `math.Max()` function. The result is a single floating-point number that represents the maximum of the difference between x and y or 0.
 
 ## Syntax
+## Syntax
 
 ```pseudo
+difference := math.Dim(x, y)
 difference := math.Dim(x, y)
 ```
 The `Dim()` function returns a single value of type `float64`. This value represents the difference between the two arguments (`x`-`y`) and 0. If the difference is greater than 0, it is returned; else, 0 is returned.
 
 Note these special cases:
+- Passing `NaN` in this function will return `NaN`.
+- Passing `Inf` in this function will return `NaN`.
+- Passing `-Inf` in this function will return `NaN`.
+
+## Example
+
 - Passing `NaN` in this function will return `NaN`.
 - Passing `Inf` in this function will return `NaN`.
 - Passing `-Inf` in this function will return `NaN`.
@@ -46,6 +63,7 @@ fmt.Printf("The positive difference between %.1f and %.1f is %.1f\n", a, b, diff
 
 }
 ```
+
 The above code results in the following output:
 
 ```shell
@@ -54,6 +72,7 @@ The  positive  difference  between 7 and 4 = 3
 
 ## Codebyte Example
 The example below is runnable and demonstrates `dim()` function.
+
 ```codebyte/golang
 
 package main
