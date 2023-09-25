@@ -1,15 +1,15 @@
 ---
-Title: '.center()'
-Description: 'Returns a new string with added specified padding. It's default is whitespace.'
-Subjects:
-  - 'Data Science'
-  - 'Computer Science'
-Tags:
-  - 'Methods'
-CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
----
+Title: '.center()'  
+Description: 'Returns a new string with added specified padding. It's default is whitespace.'  
+Subjects:  
+  - 'Data Science'  
+  - 'Computer Science'  
+Tags:  
+  - 'Methods'  
+Catalog Content:  
+  - 'learn-python-3'  
+  - 'paths/computer-science'  
+---  
 
 The **`.center()`** string method returns a new string that has been amended with added padding. The default padding is whitespace, but any character may be used, including numbers or symbols.
 
@@ -21,7 +21,6 @@ string.center(length, 'character')
 
 The `length` parameter is required and must be an integar. This will be the length of new string.
 The `.center()` method accepts an optional `'character'` parameter. If no `character` is specified the default is whitespace.
- 
 
 ## Example
 
