@@ -47,8 +47,4 @@ let json = """ {
 let decoder = JSONDecoder()
 let user = try decoder.decode(User.self, from: json)
 print(user.name) // Prints "Charlotte Lucas"
-
 ```
-
-
-
