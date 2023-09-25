@@ -47,9 +47,8 @@ fmt.Printf("The positive difference between %.1f and %.1f is %.1f\n", a, b, diff
 
 }
 ```
-The above code results in the following output:
 
-  
+The above code results in the following output:
 
 ```shell
 The  positive  difference  between 7 and 4 = 3
