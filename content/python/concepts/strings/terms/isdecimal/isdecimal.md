@@ -17,7 +17,7 @@ The method **`.isdecimal()`** takes a string parameter and returns `True` if and
 1. The string is not empty (has at least one character).
 2. All of the characters in the string are decimal characters.
 
-Otherwise, `isdecimal()` returns `False`.
+Otherwise, `.isdecimal()` returns `False`.
 
 A decimal character is a character that represents an integer from 0 to 9.
 
