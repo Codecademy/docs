@@ -23,9 +23,9 @@ difference := math.Dim(x, y)
 The `Dim()` function returns a single value of type `float64`. This value represents the difference between the two arguments (`x`-`y`) and 0. If the difference is greater than 0, it is returned; else, 0 is returned.
 
 Note these special cases:
-- If you pass `NaN` in this function `Dim(a, NaN)` or `Dim(NaN, b)`, then this function will return NaN.
-- if you pass `inf` in the function `Dim(+inf,inf)` the function will return NaN.
-- If you pass `-Inf` in this function `Dim(-Inf, -Inf)`, then this function will return NaN.
+- Passing `NaN` in this function will return `NaN`.
+- Passing `Inf` in this function will return `NaN`.
+- Passing `-Inf` in this function will return `NaN`.
 
   
 
