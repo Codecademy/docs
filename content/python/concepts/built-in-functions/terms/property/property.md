@@ -64,8 +64,6 @@ print(dog.name)
 
 # Delete the name attribute
 del dog.name
-
-
 ```
 
 The code results in the following output:
@@ -109,5 +107,4 @@ print(flower.color)
 
 # Delete the radius attribute
 del flower.color
-
 ```
