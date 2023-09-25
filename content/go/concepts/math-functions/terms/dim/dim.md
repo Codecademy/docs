@@ -27,9 +27,8 @@ Note these special cases:
 - Passing `Inf` in this function will return `NaN`.
 - Passing `-Inf` in this function will return `NaN`.
 
-  
+## Example
 
-**## Example**
 ```go
 package main
 import (
