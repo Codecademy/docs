@@ -23,7 +23,7 @@ A decimal character is a character that represents an integer from `0` to `9`.
 
 ## Syntax
 
-`isdecimal()` can be called in two ways:
+`.isdecimal()` can be called in two ways:
 
 ```pseudo
 string_variable.isdecimal()
