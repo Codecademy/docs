@@ -46,6 +46,6 @@ Let pm be an arbitrary prime factor of P. By definition, P = p1 * p2 ... * pn + 
 
 Since p1, p2, ..., pn contains all primes, pm equals some value in p1, p2, ..., pn. As pm equals some prime in p1, p2, ..., pn, it follows that ((p1 * p2 ... * pn + 1) / pm) is equal to some integer value plus 1/pm. Therefore ((p1 * p2 ... * pn + 1) / pm) is not equal to an integer value. Therefore pm is not a factor of P, since it does not divide P evenly.
 
-We therefore have a contradiction: pm both is and is not a factor of P.
+Therefore there is a contradiction: pm both is and is not a factor of P.
 
 ```
