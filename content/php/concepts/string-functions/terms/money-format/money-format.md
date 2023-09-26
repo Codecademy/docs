@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`money_format()`** function takes a given number and formats it to a currency string. `money_format()` is often used in conjunction with `set_locale()`, and if additional formatting specifications are not given, `money_format()` will default to the currency format of the location specified in `set_locale()`.
+The **`money_format()`** function takes a given number and formats it to a currency string. `money_format()` is often used in conjunction with `setlocale()`, and if additional formatting specifications are not given, `money_format()` will default to the currency format of the location specified in `setlocale()`.
 
 > **Note:** `money_format()` was deprecated in PHP 7.4.0, and removed in PHP 8.0.0.
 
@@ -34,7 +34,7 @@ money_format($string, $number);
 
 - `=f`: The character to use for padding. If left empty, the default padding is a space.
 - `^`: Disables grouping characters. Defined by the current locale, if it is used.
-- `+` or `(`: How to format positive and negative numbers. If `(` is specified, the negative numbers will be enclosed by parenthesis. If `+` is specified, there will be no sign in front of the positive numbers and a `-` in front of the negative numbers. If current locale is used in conjunction with `+`, the current locale's version of `+` and `-` will be used. The default is `+`.
+- `+` or `(`: How to format positive and negative numbers. If `(` is specified, the negative numbers will be enclosed by parenthesis. If `+` is specified the current locale's version of `+` and `-` will be implemented (this is the default).
 - `!`: Omit the currency symbol of the output string.
 - `-`: Left-justify (padding on the right) all of the fields. The default is right-justified (padding to the left).
 
@@ -62,12 +62,12 @@ Currency symbols and positive or negative symbols that appear at the beginning o
 
 ## Example
 
-This example uses the `money_format()` function in conjunction with `set_locale()` to format a number to the international format for the United States.
+This example uses the `money_format()` function in conjunction with `setlocale()` to format a number to the international format for the United States.
 
 ```php
 <?php
   $value = 7269.30
-  set_locale(LC_MONETARY, 'en_US');
+  setlocale(LC_MONETARY, 'en_US');
   echo money_format('US International Format is: %i', $value);
 ?>
 ```
@@ -76,17 +76,4 @@ This will result in the following output:
 
 ```shell
 US International format is: USD 7,269.30
-```
-
-## Codebyte Example
-
-The following codebyte example can be run and calls the `money_format()` method two times. The second call uses the optional `(` flag for negative numbers, right precision `.p` to two digits, left precision to five digits `#n`, and `=f` to use `&` as the fill character.
-
-```codebyte/php
-<?php
-  $value = 5463.55
-  set_locale(LC_MONETARY, 'en_US');
-  echo money_format('%i', $value);
-  echo money_format('%=&(#5.2n', $value);
-?>
 ```
