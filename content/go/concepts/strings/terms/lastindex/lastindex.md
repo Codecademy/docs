@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`LastIndex()`** function returns the index value of the last occurrence of a substring in the original string, otherwise it returns `-1` if the substring is not present in the original string.
+The **`LastIndex()`** function returns the index value of the last occurrence of a substring in the original string. Otherwise, it returns `-1` if the substring is not present in the original string.
 
 ## Syntax
 
@@ -27,13 +27,14 @@ The following example demonstrates the use of the `strings.LastIndex()` function
 
 ```go
 package main
+
 import (
   "fmt"
   "strings"
 )
+
 func main() {
-  fmt.Println(strings.LastIndex("flibbertigibbet ","bbe"))
-  fmt.Println(strings.LastIndex("Codecademy","Academy"))
+  fmt.Println(strings.LastIndex("flibbertigibbet ", "bbe"))
 }
 ```
 
@@ -41,7 +42,6 @@ The output will be:
 
 ```shell
 11
--1
 ```
 
 ## Codebyte Example
