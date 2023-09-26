@@ -1,6 +1,6 @@
 ---
 Title: '.format_map()'
-Description: 'Returns a dictionary key’s value.'
+Description: 'Returns the values from a given dictionary.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
