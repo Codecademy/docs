@@ -9,7 +9,7 @@ Tags:
   - 'Strings'  
 CatalogContent:
   - 'learn-python-3' 
-  - 'paths/computer-science' 
+  - 'paths/computer-science'
 --- 
 
 The **`.center()`** string method returns a new string that has been amended with padding. The padding is allocated evenly to both sides of the string, depending on the overall length specified. The default padding is whitespace, but any character may be used, including numbers or symbols.
