@@ -7,7 +7,7 @@ Subjects:
 Tags:
   - 'Methods'
   - 'Strings'
-  - Characters'
+  - 'Characters'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
