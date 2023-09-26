@@ -1,1 +1,1 @@
-content/css/concepts/typography/typography.md
+content/markdown/concepts/emojis/emojis.md
