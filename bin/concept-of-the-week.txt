@@ -1,1 +1,1 @@
-content/go/concepts/memory/memory.md
+content/markdown/concepts/emojis/emojis.md

@@ -25,7 +25,7 @@ file.writable()
 
 ## Example 1
 
-Use `.writable()` to check if the **gullivers_travels.txt** file is writable:
+Use `.writable()` to check if the `gullivers_travels.txt` file is writable:
 
 ```python
 f = open("gullivers_travels.txt", "a")
@@ -37,7 +37,7 @@ The `.writable()` method will return `True` here.
 
 ## Example 2
 
-Use `.writable()` to check if the **gullivers_travels.txt** file is writable:
+Use `.writable()` to check if the `gullivers_travels.txt` file is writable:
 
 ```python
 f = open("gullivers_travels.txt", "r")

@@ -24,7 +24,7 @@ file.truncate(n)
 
 ## Example
 
-Use `.truncate()` to change the size of the **gullivers_travels.txt** file from 603,908 bytes to 100:
+Use `.truncate()` to change the size of the `gullivers_travels.txt` file from 603,908 bytes to 100:
 
 ```python
 f = open("gullivers_travels.txt", "a")

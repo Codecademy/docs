@@ -45,7 +45,7 @@ There are three types of Docs entries:
 - Entries _must_ be completely original work. Copying from other websites (in whole or in part) is plagiarism and is unacceptable in Docs.
 - Entries are all written using Markdown.
 - Do not use HTML in place of Markdown formatting.
-- Bold the first occurrence of the concept or term in the body of the entry.
+- Bold the first occurrence of the concept or term (the subject) in the body of the entry. Any additional new concepts/terms introduced in the text are to be in bold as well. If there is already an existing doc entry for the concept/term, link the term instead of using bold.
 - Bold should not be used for emphasis.
 - Use italics for emphasis when necessary.
 - Do not use italics for new terms.
@@ -176,7 +176,7 @@ Codebytes can be used with the following languages:
 
 ## Links
 
-- Use Markdown syntax for links: `(text)[url]`.
+- Use Markdown syntax for links: `[text](url)`.
 - Do not link to parent concept or topic entries. The Docs navigation provides those for each entry.
 - Do not link out to external third-party documentation. (Such as Wikipedia.)
 - You are encouraged to link out to other relevant Docs topics, concepts, or terms the first time they appear.
