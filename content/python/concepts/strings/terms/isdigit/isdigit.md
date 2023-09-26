@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-The **`.isdigit()`** method under the string class checks if all the elements in the string are digits, applicable elements also include special cases like compatibility superscript digits. The method returns `True` in the above cases and also requires at least one character in the string. Returns `False` otherwise.
+The **`.isdigit()`** method under the string class checks if all the elements in the string are digits; applicable elements also include special cases like compatibility superscript digits. The method returns `True` in the mentioned cases and must not be an empty string, otherwise, it returns `False`.
 
 ## Syntax
 
