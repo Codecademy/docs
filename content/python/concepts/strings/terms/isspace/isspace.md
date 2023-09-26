@@ -14,9 +14,9 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `.isspace()` string method takes in a string and returns `True` if all the characters in a string are whitespaces, otherwise False.
+The **`.isspace()`** string method takes in a string and returns `True` if all the characters in a string are whitespaces, otherwise `False`.
 
-**`Whitespace characters include:`**
+Whitespace characters include:
 
 - Space (' ')
 - Horizontal tab ('\t')
