@@ -43,7 +43,7 @@ import (
 
 func main() {
   num := 16.0
-  
+
   inverseHyperbolicCosine := math.Acosh(num)
   fmt.Printf("The inverse hyperbolic cosine of %f is %f\n", num, inverseHyperbolicCosine)
 }
