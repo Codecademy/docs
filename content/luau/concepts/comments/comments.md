@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **comment**  is text that the Luau parser ignores at runtime. They are useful for documenting code, leaving reminders for future modifications, or temporarily disabling code without removing it.
+A **comment** is text that the Luau parser ignores at runtime. They are useful for documenting code, leaving reminders for future modifications, or temporarily disabling code without removing it.
 
 ## Single-line Comments
 
