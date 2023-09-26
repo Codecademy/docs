@@ -30,7 +30,6 @@ end
 
 Note that, as seen above, `end` must be used to close out a conditional in Luau.
 
-### Examples of basic conditionals
 
 ```pseudo
 if true then			--code block ran
