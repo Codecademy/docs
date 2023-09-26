@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.isalpha()`** string method checks if all of the characters in a string are letters of the alphabet (`a-z`). The letters can be lowercase or uppercase. If the string contains only alphabet letters it returns `True`, otherwise it returns `False`. Whitespace, numbers, and symbols are not considered to be part of the alphabet.
+The **`.isalpha()`** string method checks if all of the characters in a string are letters of the alphabet (`a-z`). The letters can be lowercase or uppercase. If the string only contains letters of the alphabet it returns `True`, otherwise it returns `False`. Whitespace, numbers, and symbols are not considered to be part of the alphabet.
 
 ## Syntax
 
