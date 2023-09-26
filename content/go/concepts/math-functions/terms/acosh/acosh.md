@@ -57,7 +57,7 @@ The inverse hyperbolic cosine of 16.000000 is 3.464758
 
 ## Codebyte Example
 
-The following example is runnable and uses the `Acosh()` function with two values: positive infinity and `0.5`.
+The following example is runnable and uses the `Acosh()` function with two values: positive infinity and `0.5`:
 
 ```codebyte/golang
 package main
