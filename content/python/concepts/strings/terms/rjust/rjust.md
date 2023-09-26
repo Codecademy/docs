@@ -31,6 +31,8 @@ parameter_string.rjust(length, padding_character)
 
 ## Example
 
+The following are example calls to `.rjust()` using different parameters:
+
 ```python
 print("perdurantism".rjust(17))
 print("endurantism".rjust(22, "-"))
