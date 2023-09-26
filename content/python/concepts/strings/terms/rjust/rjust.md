@@ -1,6 +1,6 @@
 ---
 Title: '.rjust()'
-Description: 'Adds padding to the left of the parameter string.'
+Description: 'Adds padding to the left of the given string.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
