@@ -11,25 +11,24 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/analyze-data-with-python'
-  - 'paths/data-science'
 ---
 
-The `.format_map()` string method takes a single parameter which is the input dictionary and returns key's values.
+The **`.format_map()`** string method takes a single parameter which is the input dictionary and returns the key's values.
 
 ## Syntax
 
-```py
+```pseudo
 string.format_map(d)
 ```
 
-`d` is a variable in which the input dictionary is stored.
+`d` is the dictionary to be addressed.
 
 ## Example
 
-The example below uses `.format_map()` takes in a variable `a` which stores a dictionary and returns the value of the key `x` and `y`:
+The example below uses `.format_map()` to return the values stored in `x` and `y`:
 
 ```py
-# input stored in variable a.
+# Input stored in variable a.
 a = {'x':'Mike', 'y':'Perry'}
 
 # Use of format_map() function
@@ -43,7 +42,7 @@ That DJ is Mike Perry
 ```
 
 ## Codebyte Example
-
+The following code is runnable and demonstrates the use of `.format_map()`:
 ```codebyte/python
 profession = { 'name':['Susan', 'Kane'],'profession':['Teacher', 'Nurse']}
 
