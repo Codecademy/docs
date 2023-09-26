@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The method **`.rjust()`** adds padding of a specified length to the left of a parameter string. The user can specify a character to use as the padding. The number of padding characters added is equal to the length specified in the method call minus the length of the parameter string.
+The method **`.rjust()`** adds padding of a specified length to the left of a given string. The user can specify a character to use as the padding. The number of padding characters added is equal to the length specified in the method call minus the length of the string provided.
 
 ## Syntax
 
