@@ -1,6 +1,6 @@
 ---
 Title: 'Comments' 
-Description: 'Comments in Luau are used to add explanatory or descriptive notes within the code. They are ignored by the interpreter and do not affect the execution of the program.'
+Description: 'Comments are used to add explanatory or descriptive notes within a script or program.'
 Subjects: 
   - 'Computer Science'
   - 'Game Development'
