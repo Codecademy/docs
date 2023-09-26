@@ -1,6 +1,6 @@
 ---
 Title: '.istitle()'
-Description: 'Check if a string is in title case.'
+Description: 'Checks if a given string is in title case.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
@@ -13,33 +13,17 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-The `.istitle()` string method returns `True` if the string is in title case and `False` otherwise. Title case means that the first letter of each word is capitalized, and all other letters in the word are in lowercase.
+The **`.istitle()`** string method returns `True` if the string is in title case and `False` otherwise. Title case means that the first letter of each word is capitalized, and all other letters in the word are in lowercase.
 
 ## Syntax
 
-```py
+```pseudo
 string.istitle()
 ```
 
-## Example 1
+## Example
 
-Using `.istitle()` to check if a string is in title case:
-
-```py
-my_string = "Codecademy Docs"
-
-print(my_string.istitle())
-```
-
-Output:
-
-```shell
-True
-```
-
-## Example 2
-
-Using `.istitle()` to check if different capitalizations of the same string are in title case:
+The code below uses `.istitle()` to check if different capitalizations of the same string are in title case:
 
 ```py
 str1 = "codecademy docs"
@@ -64,7 +48,7 @@ False
 
 ## Codebyte Example
 
-Use `.istitle()` to check if a string is in title case:
+The following code is runnable and uses `.istitle()` to check if a string is in title case:
 
 ```codebyte/python
 my_string = "I love Codecademy Docs!"
