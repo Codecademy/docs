@@ -1,6 +1,6 @@
 ---
 Title: 'pack()'
-Description: 'Returns a table as a result from multiple values passed into a function.'
+Description: 'Returns a table as a result from multiple values passed to it.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -12,9 +12,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`pack()`** function takes multiple argument values that passed into this function, then returns a new table.
+The **`pack()`** function takes multiple argument values, then returns a new table.
 
-**`Notice:`** The `"n"` field is added when we pass multiple arguments to the `pack()` function with a structure like {n = "number of elements in table"}. This field can also be called as `table_name.n`. For example, the `cars.n` will output the number of elements in the `cars` table.
+> **Note:** The `n` field is added when passing arguments to the `pack()` function where `n` = number of elements in the table. This field can called as `table_name.n`. For example, `cars.n` will return the number of elements in the `cars` table.
 
 ## Syntax
 
@@ -22,7 +22,7 @@ The **`pack()`** function takes multiple argument values that passed into this f
 table.pack(value1, value2, ..., valuen)
 ```
 
-- `value1`, `value2`, `...`, `valuen`: Each argument value will become each element in the new table.
+- `value1`, `value2`, `...`, `valuen`: Each argument value will become an element in the new table.
 
 ## Example
 
@@ -35,7 +35,7 @@ print("Fruit number 2:",fruit[1])
 print("Total number of fruit: ",fruit.n)
 ```
 
-The example will result in the following output:
+The example will result in output like the following:
 
 ```shell
 Table:  table: 0x55b6ebb24400
