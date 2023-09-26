@@ -25,9 +25,11 @@ Whitespace characters include:
 
 ## Syntax
 
-```py
+```pseudo
 string.isspace()
 ```
+
+`space` refers to whitespaces.
 
 ## Example
 
