@@ -19,7 +19,7 @@ A **comment** is text that the Luau parser ignores at runtime. They are useful f
 In Luau, single-line comments are created witha double hyphen `--`. Single-line comments extend to the end of the line.
 
 ```lua
-type Point = { x: number, y :number }
+type Point = { x: number, y: number }
 -- This is a single-line comment.
 -- It will not affect the execution of the program.
 local p: Point = { x = 3, y = 4 }
