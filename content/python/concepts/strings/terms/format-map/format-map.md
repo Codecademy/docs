@@ -42,7 +42,9 @@ That DJ is Mike Perry
 ```
 
 ## Codebyte Example
+
 The following code is runnable and demonstrates the use of `.format_map()`:
+
 ```codebyte/python
 profession = { 'name':['Susan', 'Kane'],'profession':['Teacher', 'Nurse']}
 
