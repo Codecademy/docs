@@ -1,17 +1,18 @@
 ---
 Title: '.center()'
-Description: 'Returns a new string with added specified padding. It's default is whitespace.'
+Description: 'Returns a new string with the specified padding.'
 Subjects:
   - 'Data Science'  
   - 'Computer Science'  
 Tags:
-  - 'Methods'  
+  - 'Methods'
+  - 'Strings'  
 CatalogContent:
   - 'learn-python-3' 
   - 'paths/computer-science' 
 --- 
 
-The **`.center()`** string method returns a new string that has been amended with added padding. The default padding is whitespace, but any character may be used, including numbers or symbols.
+The **`.center()`** string method returns a new string that has been amended with padding. The padding is allocated evenly to both sides of the string, depending on the overall length specified. The default padding is whitespace, but any character may be used, including numbers or symbols.
 
 ## Syntax
 
@@ -19,7 +20,7 @@ The **`.center()`** string method returns a new string that has been amended wit
 string.center(length, 'character')
 ```
 
-The `length` parameter is required and must be an integar. This will be the length of new string.
+The `length` parameter is required and must be an integer. This will be the length of new string.
 The `.center()` method accepts an optional `'character'` parameter. If no `character` is specified the default is whitespace.
 
 ## Example
@@ -28,14 +29,14 @@ In the following example the `.center()` method is used to create a string that 
 
 ```python
 str = "Hello"
-new_str = str.center(10, '+')
+new_str = str.center(11, '+')
 print(new_str)
 ```
 
 The above example will show the following output:
 
 ```shell
-++Hello+++
++++Hello+++
 ```
 
 ## Codebyte Example
