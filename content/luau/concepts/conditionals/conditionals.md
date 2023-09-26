@@ -18,7 +18,7 @@ A **conditional** determines whether or not certain blocks of code will run. A c
 
 Conditionals are used to control the flow of the execution of code within a program.
 
-## Basic Conditionals
+## `if` Statement
 
 A basic conditional in Luau is given as follows:
 
