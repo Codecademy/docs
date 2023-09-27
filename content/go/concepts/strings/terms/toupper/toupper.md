@@ -17,7 +17,7 @@ The **`ToUpper()`** function is used to convert lowercase characters to uppercas
 ## Syntax
 
 ```pseudo
-result = strings.ToUpper(str) 
+result = strings.ToUpper(str)
 ```
 
 The function accepts the given string, `str`, as its argument and returns the final string, `result`, converting lowercase characters to uppercase.
@@ -54,15 +54,15 @@ In the code below, a sentence in both lowercase and uppercase is converted into 
 
 ```codebyte/golang
 package main
-  
+
 import (
     "fmt"
     "strings"
 )
-  
+
 // Main method
 func main() {
-  
+
     str1 := "This is a Codecademy Tutorial"
 
     res1 := strings.ToUpper(str1)
