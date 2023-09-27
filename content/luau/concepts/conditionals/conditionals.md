@@ -1,6 +1,6 @@
 ---
 Title: 'Conditionals'
-Description: 'Conditionals execute a code block depending on whether an expression is true.'
+Description: 'Conditionals evaluate expressions to determine what code to run.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -14,13 +14,13 @@ CatalogContent:
   - 'introduction-to-game-development'
 ---
 
-A **conditional** determines whether or not certain blocks of code will run. A conditional checks the value of an expression, called the **condition**. If the condition is equal to `false`, then the code block within the conditional will be skipped. Otherwise, the code block will be run.
+A **conditional** determines whether or not certain blocks of code will run. A conditional checks the value of an expression, called the **condition**. If the condition is `false`, then the code block within the conditional will be skipped. Otherwise, the code block will be run.
 
 Conditionals are used to control the flow of the execution of code within a program.
 
-## `if` Statement
+## `if` Conditionals
 
-A basic conditional in Luau is given as follows:
+A basic `if` conditional in Luau is given as follows:
 
 ```psuedo
 if <condition> then
@@ -28,8 +28,7 @@ if <condition> then
 end
 ```
 
-Note that, as seen above, `end` must be used to close out a conditional in Luau.
-
+### Examples of basic `if` conditionals
 
 ```pseudo
 if true then			--code block ran
@@ -45,9 +44,9 @@ if "chicken" then		--code block ran
 end
 ```
 
-## else and elseif
+## `else` and `elseif`
 
-To augment the basic conditional, `elseif` can be used to check additional conditions if the first condition is false. Also, `else` can be used to run a code block if all previous conditions were false.
+To augment the basic `if` conditional, `elseif` can be used to check additional conditions if the first condition is `false`. Also, the `else` keyword can be used as a catchall to run a code block if all previous conditions were `false`.
 
 ```pseudo
 if <condition 1> then
@@ -59,9 +58,11 @@ else
 end
 ```
 
-In the code above, condition 1 is checked first. Condition 2 will be checked only if condition 1 is false. If both condition 1 and condition 2 are false, then code block 3 will be executed.
+In the code above, `condition 1` is checked first. `condition 2` is checked only if `condition 1` is `false`. If the first two conditions are both `false`, then `code block 3` will be executed.
 
-### else and elseif examples
+### `else` and `elseif` examples
+
+The following examples illustrate conditionals that use `else` and `elseif`.
 
 ```pseudo
 if "tony" == "paulie" then		--madone!
