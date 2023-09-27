@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.Clear()` method is used to clear the contents of an array, returning each element to its default value.
+The **`.Clear()`** method is used to clear the contents of an array, returning each element to its default value.
 
 ## Syntax
 
@@ -42,5 +42,40 @@ public class Example
 
     System.Console.WriteLine(myArray[2]); // Output: 0
   }
+}
+```
+
+## Codebyte Example
+
+This example creates an integer array `numbers` with some initial values. It then calls `.Clear()`, to clear the elements of the array.
+The `PrintArray()` method is used to print the array before and after clearing it.
+
+```codebyte/csharp
+using System;
+
+public class ClearExample
+{
+    public static void Main()
+    {
+        int[] numbers = { 1, 2, 3, 4, 5 };
+
+        Console.WriteLine("Original Array:");
+        PrintArray(numbers);
+
+        // Clear the array
+        Array.Clear(numbers, 0, numbers.Length);
+
+        Console.WriteLine("Cleared Array:");
+        PrintArray(numbers);
+    }
+
+    static void PrintArray(int[] array)
+    {
+        foreach (int element in array)
+        {
+            Console.Write(element + " ");
+        }
+        Console.WriteLine();
+    }
 }
 ```

@@ -81,7 +81,7 @@ console.log(number);
 
 ## Comparison Operators
 
-These operators compare values and return a [boolean](https://www.codecademy.com/resources/docs/general/boolean) value of `true` or `false`.
+These operators compare values and return a [boolean](https://www.codecademy.com/resources/docs/general/data-types/boolean) value of `true` or `false`.
 
 - `==`: Returns `true` or `false` based on whether the value of two operands are equal.
 - `===`: Returns `true` or `false` based on whether the value and type of two operands are equal.

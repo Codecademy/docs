@@ -49,7 +49,7 @@ These are some common keywords used to specify the type of cursor to display:
 
 ## Example
 
-In the example below, a `pointer` hand will appear whenever the cursor hovers over the [paragraph](https://www.codecademy.com/resources/docs/html/paragraphs):
+In the example below, a `pointer` hand will appear whenever the cursor hovers over the [paragraph](https://www.codecademy.com/resources/docs/html/elements/p):
 
 ```html
 <p style="cursor: pointer;">The cursor is pointing at this paragraph!</p>

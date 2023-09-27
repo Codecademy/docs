@@ -29,7 +29,7 @@ The following example showcases the `.join()` method:
 ```codebyte/python
 import os.path
 
-cc_courses_slug = "https://www.codecademy.com/courses/"
+cc_courses_slug = "https://www.codecademy.com/catalog"
 
 python_3_lessons_slug = "learn-python-3/lessons/"
 

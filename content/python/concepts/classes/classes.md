@@ -54,7 +54,7 @@ Objects can be created or instantiated from classes. These objects are known as 
 my_home = Home()
 ```
 
-Here, the instance name is `my_home`, which derives from the `Home` class. Calling this line implicitly calls the `Home` class's [`__init__()`](https://www.codecademy.com/resources/docs/python/dunder-methods/__init__) method.
+Here, the instance name is `my_home`, which derives from the `Home` class. Calling this line implicitly calls the `Home` class's [`__init__()`](https://www.codecademy.com/resources/docs/python/dunder-methods/init) method.
 
 ### Attributes
 

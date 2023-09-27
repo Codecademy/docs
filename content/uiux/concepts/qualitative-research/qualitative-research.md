@@ -26,4 +26,4 @@ Qualitative [attitudinal](https://www.codecademy.com/resources/docs/uiux/attitud
 - [Adobe XD: The “Why” Behind Qualitative User Research](https://xd.adobe.com/ideas/process/user-research/why-behind-qualitative-user-research/)
 - [Nielsen Norman Group: How to Analyze Qualitative Data from UX Research: Thematic Analysis](https://www.nngroup.com/articles/thematic-analysis/)
 - [CareerFoundry: A Beginner’s Guide to Qualitative UX Research](https://careerfoundry.com/en/blog/ux-design/qualitative-ux-research/)
-- [UserZoom: UX research methods - a comprehensive guide](https://www.userzoom.com/ux-library/ux-research-methods-a-comprehensive-guide/)
+- [UserZoom: UX research methods - a comprehensive guide](https://www.userzoom.com/ux-research/methods/)

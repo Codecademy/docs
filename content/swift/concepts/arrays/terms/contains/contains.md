@@ -29,4 +29,4 @@ print(topBabyNames.contains("Olivia"))
 // Output: true
 ```
 
-> **Note:** [Big-O](https://www.codecademy.com/resources/docs/general/big-o-notation) of this method is O(n).
+> **Note:** [Big-O](https://www.codecademy.com/resources/docs/general/big-o-notation) of this method is **O(n)**.

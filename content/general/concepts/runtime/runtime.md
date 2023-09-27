@@ -17,6 +17,6 @@ CatalogContent:
 
 Runtime errors are common types of errors in software development. A runtime error is any error a program has while it is running.
 
-## Runtime Enviornment
+## Runtime Environment
 
 The runtime environment is the infrastructure required to implement features in the language itself. This can include functions for optimization, memory management, debugging, and input/output. Runtimes make software development easier for engineers by making these functions more accessible.

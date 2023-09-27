@@ -37,4 +37,4 @@ Text is wrapped in opening and closing `<em>` tags. By default, `<em>` is an inl
 </html>
 ```
 
-![Output of the example above for em tag](https://raw.githubusercontent.com/Codecademy/docs/docs/media/em-tag-example.png)
+![Output of the example above for em tag](https://raw.githubusercontent.com/Codecademy/docs/main/media/em-tag-example.png)

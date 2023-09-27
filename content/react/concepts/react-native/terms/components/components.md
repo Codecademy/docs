@@ -18,7 +18,7 @@ CatalogContent:
 
 Represented as small, rectangular, and oftentimes nestable elements, views can display text, media, and respond to user input. React Native invokes views in their native environment with JavaScript.
 
-![React Native to Native UI Representation](https://github.com/Codecademy/docs/tree/main/media/react_native_UI_Views.png)
+![React Native to Native UI Representation](https://raw.githubusercontent.com/Codecademy/docs/main/media/react_native_UI_Views.png)
 
 ## Native Components
 
@@ -31,7 +31,7 @@ React Native offers a set of essential, ready-to-use native components called co
 | Core Component | Description                                                                                                                                                                                                                                                                                                   |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `<View>`       | A common container component that supports layout with flexbox, styles, touch handling, accessibility controls, and can contain other components inside such as other views. It is analogous to a non-scrolling [`<div>`](https://www.codecademy.com/resources/docs/html/elements/div) HTML element.          |
-| `<Text>`       | Displays text and supports styles and touch events. It is analogous to a [paragraph element](https://www.codecademy.com/resources/docs/html/paragraphs).                                                                                                                                                      |
+| `<Text>`       | Displays text and supports styles and touch events. It is analogous to a [paragraph element](https://www.codecademy.com/resources/docs/html/elements/p).                                                                                                                                                      |
 | `<Image>`      | Displays different types of images, including from network, static, local disks, and from ‘data:’ [URI](https://www.codecademy.com/resources/docs/general/uri) scheme. It is analogous to an [image element](https://www.codecademy.com/resources/docs/html/images).                                          |
 | `<TextInput>`  | Allows the input of text by the user and provides several configuration capabilities such as auto-correction, auto-capitalization, placeholder text, etc. It is analogous to an [`<input>`](https://www.codecademy.com/resources/docs/html/elements/input) element with its `type` attribute set to `"text"`. |
 | `<ScrollView>` | A container that can nest multiple components and views that can scroll vertically or horizontally. It is analogous to a scrolling `div` element.                                                                                                                                                             |
@@ -40,7 +40,7 @@ React Native offers a set of essential, ready-to-use native components called co
 
 Components can also be custom-built; there’s a big ecosystem of these community-built components that can be accessed on the [Native Directory](https://reactnative.directory/).
 
-![React and React Native Components](https://github.com/Codecademy/docs/tree/main/media/react_react_native_components.png)
+![React and React Native Components](https://raw.githubusercontent.com/Codecademy/docs/main/media/react_react_native_components.png)
 
 ### Examples
 

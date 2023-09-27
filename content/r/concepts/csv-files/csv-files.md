@@ -47,7 +47,7 @@ Suppose there is a `students.csv` file with the following data in it:
 | Frank      | Williams  | 3     | N86532 |
 | Robert     | Ye        | 10    | N67541 |
 
-The data can be retrieved using the `read.csv()` function and then [printed](https://www.codecademy.com/resources/docs/r/built-in-functions/terms/print):
+The data can be retrieved using the `read.csv()` function and then [printed](https://www.codecademy.com/resources/docs/r/built-in-functions/print):
 
 ```r
 # Reading csv files

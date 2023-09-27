@@ -1,6 +1,6 @@
 ---
 Title: 'top'
-Description: 'Specifies the distance of an element from the top of its current location if the element has position: relative declared or from the top of its nearest ancestor when the ancestor has position: relative and the element has position: absolute declared.'
+Description: 'Specifies the distance of an element from the top of the specified position.'
 Subjects:
   - 'Web Development'
   - 'Web Design'

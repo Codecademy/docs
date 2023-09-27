@@ -57,3 +57,19 @@ This example produces the following output:
 1   B   13.0
 2   C   12.0
 ```
+
+## Codebyte Example
+
+Use the Codebytes editor below to produce a new Series with the `.sum()` method.
+
+```codebyte/py
+import pandas as pd
+
+df = pd.DataFrame({'Key' : ['A', 'A', 'A', 'B', 'B', 'C'],
+                   'Value' : [15., 23., 17., 5., 8., 12.]})
+print(df, end='\n\n')
+
+group = df.groupby(['Key'], as_index=False)
+
+print(group.sum())
+```

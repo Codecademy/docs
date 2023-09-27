@@ -1,6 +1,6 @@
 ---
 Title: 'bottom'
-Description: 'Specifies the distance of an element from the bottom of its current location if the element itself has position: relative declared or from the bottom of its nearest ancestor when the ancestor has position: relative and the element has position: absolute declared.'
+Description: 'Specifies the distance of an element from the bottom of the specified position.'
 Subjects:
   - 'Web Development'
   - 'Web Design'

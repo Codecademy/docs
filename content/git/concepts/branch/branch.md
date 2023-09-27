@@ -1,6 +1,6 @@
 ---
 Title: 'Branch'
-Description: 'A branch represents a way to provide an isolated copy of the current code which can be modified without affecting the original code.'
+Description: 'A branch is an independent version of the main codebase.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
@@ -12,7 +12,9 @@ CatalogContent:
   - 'learn-git'
 ---
 
-In Git, a branch represents a way to provide an isolated copy of the current code. The code in the branch can be modified without affecting the original code and, when it is ready, the changes can be moved back into the original code. Branches also make it much easier to undo changes.
+In Git, a branch is an independent version of the main codebase. They're used for modifying or adding new code to a project without affecting the main codebase, usually named the `main` branch.
+
+Branches are a core component of software development with Git. When a new branch is created, a copy of the source branch is made. All code changes (additions or deletions) in the new branch are isolated from the source branch or main codebase. When the changes in the new branch are ready, they can be merged back into the main codebase. Branches also make it easier to test code or undo changes because they can be deleted without affecting the main codebase or any other branches.
 
 <!-- IMAGE: Standard Git branching with main branch, splitting into two, merging at the end. -->
 

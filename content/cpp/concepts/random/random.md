@@ -1,6 +1,6 @@
 ---
 Title: 'Random'
-Description: 'C++ has a std::rand() function from cstdlib library that generates a random number. For example, if we add #include , we can use the std::rand() function: cpp std::cout << std::rand() << "\n"; std::cout << std::rand() << "\n"; std::cout << std::rand() << "\n"; '
+Description: 'C++ contains a function from the cstdlib library called rand that generates a random number.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'

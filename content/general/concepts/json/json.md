@@ -42,11 +42,11 @@ More can be learned about JSON by visiting [json.org](https://www.json.org/).
 
 Data is stored in an object, depicted by a pair of curly braces `{ }`, and name-value pairs are separated by a colon `:`. The pairs themselves are separated by a comma `,`. The following are [data types](https://www.codecademy.com/resources/docs/general/data-types) that can be used:
 
-- [Array](https://www.codecademy.com/resources/docs/general/array): An ordered, comma delimited, list of zero or more elements of one of JSON's data types, enclosed in square brackets.
-- [Boolean](https://www.codecademy.com/resources/docs/general/boolean): Either `true` or `false`.
-- [Number](https://www.codecademy.com/resources/docs/general/number): A signed decimal number. JSON makes no distinction between integer and floating point.
-- [Object](https://www.codecademy.com/resources/docs/general/object): A collection of name-value pairs inside curly brackets.
-- [String](https://www.codecademy.com/resources/docs/general/string): A sequence of zero or more Unicode characters enclosed in double quotes.
+- [Array](https://www.codecademy.com/resources/docs/general/data-structures/array): An ordered, comma delimited, list of zero or more elements of one of JSON's data types, enclosed in square brackets.
+- [Boolean](https://www.codecademy.com/resources/docs/general/data-types/boolean): Either `true` or `false`.
+- [Number](https://www.codecademy.com/resources/docs/general/data-types/number): A signed decimal number. JSON makes no distinction between integer and floating point.
+- [Object](https://www.codecademy.com/resources/docs/general/data-structures/object): A collection of name-value pairs inside curly brackets.
+- [String](https://www.codecademy.com/resources/docs/general/data-types/string): A sequence of zero or more Unicode characters enclosed in double quotes.
 - `null`: An empty value represented by the word `null`.
 
 [Whitespace](https://www.codecademy.com/resources/docs/general/whitespace) (e.g., spaces, tabs, line feeds, and carriage returns) is ignored between names, values, and punctuation. The following four characters are all considered whitespace: space, tab, line feed, and carriage return.

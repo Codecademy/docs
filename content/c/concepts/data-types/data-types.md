@@ -74,7 +74,7 @@ Spaces aren't allowed between digits and the values larger than 999 don't use co
 
 ```c
 int hundreds = 12,000; // This is wrong
-int hundreds2 = 12000 // This is correct
+int hundreds2 = 12000; // This is correct
 ```
 
 ### Float and Double
@@ -93,7 +93,7 @@ float counterFactor = 15.87E4;
 
 ### Char
 
-Chars use single quotations marks `'` to represent single characters such as letters, [numbers](https://www.codecademy.com/resources/docs/general/number), [whitespace](https://www.codecademy.com/resources/docs/general/whitespace), special characters, and symbols. Each char only occupies one byte in memory. In C, sequences of chars are called [strings](https://www.codecademy.com/resources/docs/c/strings).
+Chars use single quotations marks `'` to represent single characters such as letters, [numbers](https://www.codecademy.com/resources/docs/general/data-types/number), [whitespace](https://www.codecademy.com/resources/docs/general/whitespace), special characters, and symbols. Each char only occupies one byte in memory. In C, sequences of chars are called [strings](https://www.codecademy.com/resources/docs/c/strings).
 
 ```c
 char a = 'a';

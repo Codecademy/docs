@@ -35,11 +35,11 @@ The `.rmdir()` method works in the following ways:
 - A `"folder_name"` that will be successfully deleted if the folder exists in the current directory.
 - A `"folder_path"` can also be passed if it exists outside of the current directory.
 
-Files can be removed using the [`.remove()`](https://www.codecademy.com/resources/docs/python/file-methods/remove) method.
+Files can be removed using the [`.remove()`](https://www.codecademy.com/resources/docs/python/files/remove) method.
 
 ## Example
 
-Use `.rmdir()` to delete the **myfolder** folder:
+Use `.rmdir()` to delete the `myfolder` folder:
 
 ```py
 import os
@@ -49,4 +49,27 @@ os.rmdir("myfolder")
 
 # Delete folder in another directory
 os.rmdir("/path/to/myfolder")
+```
+
+## Codebyte Example
+
+In this example the `./project` directory is deleted using the `.rmdir()` method:
+
+```codebyte/python
+import os
+
+# Creates a Empty folder named 'project'
+path = './project'
+os.mkdir(path)
+
+# Prints working files, the new empty 'project' folder can be seen on the first output.
+files = [f for f in os.listdir() if os.path.isdir(f)]
+print(files)
+
+# Removes the Empty 'project' folder
+os.rmdir('project')
+
+# Prints working files again, the 'project' folder has been successfully removed as seen by the second output.
+files = [f for f in os.listdir() if os.path.isdir(f)]
+print(files)
 ```

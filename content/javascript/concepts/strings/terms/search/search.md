@@ -20,9 +20,9 @@ Takes a regular expression argument and returns either the character position of
 string.search(regularExpression);
 ```
 
-## Examples
+## Example
 
-Find the index of the substring match for our regular expression:
+Find the starting index of the substring match for our [regular expression](https://www.codecademy.com/resources/docs/javascript/regexp):
 
 ```js
 const programmingLanguage = 'JavaScript';
@@ -31,11 +31,16 @@ console.log(programmingLanguage.search(/java/i));
 // Output: 0
 ```
 
-Return a `-1` if no match is found:
+## Codebyte Example
 
-```js
-const programmingLanguage = 'JavaScript';
+The following is runnable, and demonstrates the use of the `.search()' method:
 
-console.log(programmingLanguage.search(/java/));
-// Output: -1
+```codebyte/javascript
+// Search successful
+const sunnyWeather = 'Today is a sunny day.';
+console.log(sunnyWeather.search(/Day/i));
+
+// Search failure
+const rainyWeather = 'Today is rainy day.';
+console.log(rainyWeather.search(/Day/));
 ```

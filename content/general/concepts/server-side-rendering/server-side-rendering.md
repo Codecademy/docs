@@ -27,4 +27,4 @@ When a request is made in client-side rendering (opposite of server-side renderi
 
 When the user clicks on a link for some content, the whole website is rendered again on the server. And if the number of concurrent users increases, the load on the servers increases. At scale, this can be troubling and expensive for SSR.
 
-SSR applications can also be more complex to build. For example, setting up SSR with React can be a little intimidating. This has been made easier in the recent years with the [Next.js](https://www.codecademy.com/resources/docs/general/what-is-next-js) framework.
+SSR applications can also be more complex to build. For example, setting up SSR with React can be a little intimidating. This has been made easier in the recent years with the [Next.js](https://www.codecademy.com/resources/docs/open-source/next-js) framework.

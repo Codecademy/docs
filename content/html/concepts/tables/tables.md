@@ -14,6 +14,10 @@ CatalogContent:
 
 In HTML, a table is an element that allows for the representation of data in two dimensions; these dimensions are columns and rows.
 
+## Uses of HTML Tables
+
+Generally, tables are used to display tabular data in particular. In the past, tables were sometimes used to display data that was not tabular in nature due to constraints present within browser environments. In modern development, the use of tables to position elements not semantically related to a table is an anti-pattern and should be avoided.
+
 ## Example
 
 |      Name      |    Location    |    Category     | Founded |        CEO        |               Info                |
@@ -24,7 +28,7 @@ In HTML, a table is an element that allows for the representation of data in two
 |     Aviato     | Silicon Valley |     Travel      |  2006   |  Erlich Bachman   |   Software Aggregation Program    |
 |    See Food    | Silicon Valley |     Mobile      |  2016   |     Jian-Yang     |        The Shazam of Food         |
 
-## Structure
+## HTML Table Structure
 
 Tables are composed of multiple smaller types of elements that have special meaning within the structure of the table. The elements that are used in the construction of a typical table are as follows:
 
@@ -95,6 +99,8 @@ The table data element, denoted as `<td>`, is used to display individual data wi
 |  Cell 1   |  Cell 2   |  Cell 3   |
 |  Cell 4   |  Cell 5   |  Cell 6   |
 
-## Uses
+## Video Walkthrough
 
-Generally, tables are used to display tabular data in particular. In the past, tables were sometimes used to display data that was not tabular in nature due to constraints present within browser environments. In modern development, the use of tables to position elements not semantically related to a table is an anti-pattern and should be avoided.
+Watch this video for a step-by-step walkthrough on how to create an HTML table.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VjiD2EyJHIQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

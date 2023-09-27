@@ -33,18 +33,18 @@ The following code shows the generation of an iterator from a list using the `it
 
 ```codebyte/py
 # Defining list cake, which is iterable
-cake = ["piece1", "peice2", "peice3"]
+cake = ["piece1", "piece2", "piece3"]
 
 # Converting list into an iterator using iter() function
 cake_ready_to_distribute = iter(cake)
 
-# Iterating through iterator, returns peice1
+# Iterating through iterator, returns piece1
 print(next(cake_ready_to_distribute))
 
-# Iterating through iterator, returns peice2
+# Iterating through iterator, returns piece2
 print(next(cake_ready_to_distribute))
 
-# Iterating through iterator, returns peice3
+# Iterating through iterator, returns piece3
 print(next(cake_ready_to_distribute))
 
 # Iterating through iterator, returns StopIteration exception
@@ -79,7 +79,7 @@ cake = ["piece1", "piece2", "piece3"]
 cake_ready_to_distribute = iter(cake)
 
 # Initiate a infinite loop which stops when the iterator is exhausted
-while True :
+while True:
   try:
     # Printing the next piece
     print(next(cake_ready_to_distribute))
@@ -104,7 +104,7 @@ class cake:
   def __next__(self):
     if self.piece < self.maxPieces:
       self.piece += 1
-      return "piece"+str(self.piece)
+      return "piece" + str(self.piece)
     else:
       raise StopIteration
 

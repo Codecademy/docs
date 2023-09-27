@@ -39,7 +39,7 @@ The `element-type` must be a valid HTML element.
 
 ### Example
 
-In the following example, all `<p>` elements on the page will be center-aligned, with a red text color:
+In the following example, all of the `<p>` elements on the page will be centered with a red text color:
 
 ```css
 p {
@@ -50,7 +50,7 @@ p {
 
 ## Selecting by Attribute
 
-Most commonly, the `class` and `id` attributes are assigned to elements for styling purposes. An `id` cannot start with a number.
+The `class` selector selects elements that are assigned a class attribute, it can be used across multiple elements, and begins with a period, `.`. Similarly, the `id` selector selects an HTML element that has an `id` attribute. In contrast, the `id` selector can **only** be applied once and begins with the hashtag symbol, `#`.
 
 ### Syntax
 
@@ -101,3 +101,9 @@ p.center {
   color: red;
 }
 ```
+
+## Video Walkthrough
+
+Watch this video on how to compare the various selectors in CSS.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Xv6KmV2Zp4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

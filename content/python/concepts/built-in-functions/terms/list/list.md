@@ -54,7 +54,7 @@ The following examples shows three different cases of using the `list()` functio
 
 ```codebyte/python
 animals_tuple = ("cat", "dog", "hamster")
-print("Tuple example with list(): {list(animals_tuple)}")
+print(f"Tuple example with list(): {list(animals_tuple)}")
 
 print("------------------------------------")
 

@@ -28,7 +28,7 @@ While buttons are often associated with [form](https://www.codecademy.com/resour
 
 Opening and closing `<button>` tags wrap around a block of content. By default, it appears inline, like a [`<span>`](https://www.codecademy.com/resources/docs/html/elements/span) element, and is styled to appear consistent with buttons on the device it is viewed on.
 
-It is possible for the content to be plain text or other HTML [elements](https://www.codecademy.com/resources/docs/html/elements). This can include [lists](https://www.codecademy.com/resources/docs/html/lists), [paragraphs](https://www.codecademy.com/resources/docs/html/paragraphs), or even [images](https://www.codecademy.com/resources/docs/html/images).
+It is possible for the content to be plain text or other HTML [elements](https://www.codecademy.com/resources/docs/html/elements). This can include [lists](https://www.codecademy.com/resources/docs/html/lists), [paragraphs](https://www.codecademy.com/resources/docs/html/elements/p), or even [images](https://www.codecademy.com/resources/docs/html/images).
 
 ### Attributes
 
@@ -59,4 +59,4 @@ Suppose there is a form that needs both a submit and reset button, and that the 
 </html>
 ```
 
-![Output of the button tag example](https://raw.githubusercontent.com/Codecademy/main/media/html-button-example.png)
+![Output of the button tag example](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-button-example.png)

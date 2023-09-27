@@ -19,18 +19,20 @@ CatalogContent:
 
 Here are some common runtimes:
 
-![Graph of the different kinds of Big-O notation](https://raw.githubusercontent.com/Codecademy/docs/main/media/big-o-graph.png)
+![Graph of the different kinds of Big-O notation](https://raw.githubusercontent.com/Codecademy/docs/main/media/big-o-graph-extended.png)
 
-|  Runtime   |                Name                | Description                                                                    | Use Case(s)                                                                                                                                                                 |
-| :--------: | :--------------------------------: | ------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| $O(n^{2})$ | Polynomial/quadratic time (in red) | The time needed is the input size, `n`, multiplied by itself.                  | [Bubble sort](https://www.codecademy.com/learn/sorting-algorithms-java/modules/bubble-sort-java/cheatsheet) has quadratic time complexity.                                  |
-|   $O(n)$   |       Linear time (in blue)        | The time needed is proportional to the input size `n`.                         | Traversing an [array](https://www.codecademy.com/resources/docs/general/array) of `n`-size.                                                                                 |
-| $O(ln(n))$ |    Logarithmic time (in green)     | The time is a logarithmic function `ln()` of the input size `n`.               | Analyzing the [binary search algorithm](https://www.codecademy.com/learn/fscp-22-search-graph-search-algorithms/modules/wdcp-22-binary-search-and-search-trees/cheatsheet). |
-|   $O(1)$   |     Constant time (in purple)      | If the time needed by the algorithm is the same, regardless of the input size. | Accessing an element in an array.                                                                                                                                           |
+|  Runtime   |                 Name                  | Description                                                       | Use Case(s)                                                                                                                                                                 |
+| :--------: | :-----------------------------------: | ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|   _O(1)_   |        Constant time (in blue)        | The time needed is the same, regardless of the input size.        | Accessing an element in an array.                                                                                                                                           |
+| _O(ln(n))_ |       Logarithmic time (in red)       | The time is a logarithmic function `ln()` of the input size `n`.  | Analyzing the [binary search algorithm](https://www.codecademy.com/learn/fscp-22-search-graph-search-algorithms/modules/wdcp-22-binary-search-and-search-trees/cheatsheet). |
+|   _O(n)_   |        Linear time (in green)         | The time needed is proportional to the input size `n`.            | Traversing an [array](https://www.codecademy.com/resources/docs/general/data-structures/array) of `n`-size.                                                                 |
+|  _O(n^2)_  | Polynomial/quadratic time (in purple) | The time needed is the input size, `n`, multiplied by itself.     | [Bubble sort](https://www.codecademy.com/learn/sorting-algorithms-java/modules/bubble-sort-java/cheatsheet) has quadratic time complexity.                                  |
+|  _O(2^n)_  |     Exponential time (in orange)      | The time needed doubles for every new element added to the input. | The Fibonacci Series.                                                                                                                                                       |
+|  _O(n!)_   |       Factorial time (in cyan)        | The time needed is equivalent to the factorial of the input size. | The Traveling Salesman problem.                                                                                                                                             |
 
 ## Simplifying Big-O Expressions
 
-When determining an expression that characterizes the time or space complexity of an algorithm, an expression may contain multiple terms ( e.g., $O(n) + O(ln(n))$ ). In this situation, it is best practice to drop all of the lower order terms so the big-O notation would simplify into just O(n).
+When determining an expression that characterizes the time or space complexity of an algorithm, an expression may contain multiple terms ( e.g., _O(n) + O(ln(n))_ ). In the context of Big-O, the focus is on the relative change as the input gets large. And as the input gets larger (approaches infinity), the higher-order terms take precedence over the lower-order terms, which is why the Big-O notation would simplify to just _O(n)_.
 
 ## Python Big-O Practice
 
@@ -43,7 +45,7 @@ def foo(list1, list2):
     for item2 in list2:
       print(f"Inner loop: {item2}")
 
-foo(["Hello", "World"], ["Code", "Ninjas"])
+foo(["Hello", "World"], ["Spam", "Eggs"])
 ```
 
-For each item of `list1` in the outer loop, each item in `list2` is traversed in an inner loop. The Big-O notation for the `foo()` function would be $O(n^{2})$.
+The inner loop is equivalent to _O(n)_, and the outer loop will execute the inner loop _n_ times. Therefore, the Big-O notation for the `foo()` function would be _n \* O(n) = O(n^2)_.
