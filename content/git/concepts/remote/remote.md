@@ -1,6 +1,6 @@
 ---
 Title: 'Remote'
-Description: 'Remotes allow keep tabs on the remote repositories (the repos on GitHub).'
+Description: 'Repositories that are not local.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'learn-the-command-line'
 ---
 
-Git **remotes** keep tabs on the remote repositories (the repos on GitHub). The `origin` remote refers to the default remote repo while the `upstream` remote refers to the remote repo that is being tracked for changes and contributions.
+Git **remotes** are copies of repositories that are not stored locally. Working with a remote often involves two copies or references: the forked repository and the base or home repository. By convention these are named the `origin` remote which refers to the default, forked repo. And the `upstream` remote, which refers to the remote repo that is being tracked for changes and contributions.
 
 ## Syntax
 
