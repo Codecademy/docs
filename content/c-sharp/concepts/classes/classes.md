@@ -5,7 +5,7 @@ Subjects:
   - 'Computer Science'
   - 'Code Foundations'
 Tags:
-  - 'Classes' 
+  - 'Classes'
 CatalogContent:
   - 'learn-c-sharp'
   - 'learn-c-sharp-introduction'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'learn-asp-net'
 ---
 
-A **class** represents a custom data type. In C#, the class defines the kinds of properties and methods included in a custom type. Generally, a class declaration contains the keyword `class` followed by an identifier (name) of the class. 
+A **class** represents a custom data type. In C#, the class defines the kinds of properties and methods included in a custom type. Generally, a class declaration contains the keyword `class` followed by an identifier (name) of the class.
 
 ## Syntax
 
@@ -57,7 +57,7 @@ public static void Main(String[] args)
 
 ## Codebyte Example
 
-In the above example, a public class is declared as 'Book'. The class and its attributes are first declared. Within the class, it contains a book's name, author, and release date. Within `Main()`, two Book objects are declared: GreatGatsby and HungerGames. Each object then has it's appropriate detail declared within the parameters. 
+In the above example, a public class is declared as 'Book'. The class and its attributes are first declared. Within the class, it contains a book's name, author, and release date. Within `Main()`, two Book objects are declared: GreatGatsby and HungerGames. Each object then has it's appropriate detail declared within the parameters.
 
 ```codebyte/csharp
 
@@ -111,7 +111,3 @@ public static void Main(String[] args)
 
 }
 ```
-
-
-
-
