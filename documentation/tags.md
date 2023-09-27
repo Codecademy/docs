@@ -47,6 +47,7 @@ Browser Compatibility
 Browsers
 Bubble Sort
 Buttons
+Calendar
 Catch
 Characters
 Chatbots
