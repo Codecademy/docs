@@ -13,9 +13,9 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-**`Encodable`** is a protocol that enables a type's data to be encoded and for use with Application Programming Interfaces ([APIs](https://www.codecademy.com/resources/docs/general/api)).
-**Note:** If data also needs to be decoded, it's convenient to use the `Codable` protocol because it includes both the `Encodable` and `Decodable` protocols.
-> **Note:** A type that can encode itself to an external representation. The protocol is related to the following protocols
+**`Encodable`** is a protocol that enables a type's data to be encoded and for use with Application Programming Interfaces ([APIs](https://www.codecademy.com/resources/docs/general/api)). If data also needs to be decoded, it's convenient to use the `Codable` protocol because it includes both the `Encodable` and `Decodable` protocols.
+
+The protocol is related to the following protocols:
 
 - Codeable
 - Decodeable
