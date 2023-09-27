@@ -14,10 +14,8 @@ CatalogContent:
 
 Git **remotes** are copies of repositories that are not stored locally. Working with a remote often involves two copies or references:
 
-1. The forked repository
-2. The base or home repository
-
-By convention these are named the `origin` remote which refers to the default, forked repo. And the `upstream` remote, which refers to the remote repo that is being tracked for changes and contributions.
+1. The forked repository (repo): By convention, these are named the `origin` remote which refers to the default repo.
+2. The base or home repo: The `upstream` remote refers to the remote repo that is being tracked for changes and contributions.
 
 ## Syntax
 
