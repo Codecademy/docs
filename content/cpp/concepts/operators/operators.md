@@ -74,3 +74,5 @@ if (!tired) {
   // Code runs if tired is false
 }
 ```
+
+Below are some other operators that are used in C++:
