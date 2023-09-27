@@ -1,5 +1,5 @@
 ---
-Title: 'Remote'
+Title: 'Remotes'
 Description: 'Repositories that are not local.'
 Subjects:
   - 'Bash/Shell'
@@ -12,7 +12,12 @@ CatalogContent:
   - 'learn-the-command-line'
 ---
 
-Git **remotes** are copies of repositories that are not stored locally. Working with a remote often involves two copies or references: the forked repository and the base or home repository. By convention these are named the `origin` remote which refers to the default, forked repo. And the `upstream` remote, which refers to the remote repo that is being tracked for changes and contributions.
+Git **remotes** are copies of repositories that are not stored locally. Working with a remote often involves two copies or references:
+
+1. The forked repository
+2. The base or home repository
+
+By convention these are named the `origin` remote which refers to the default, forked repo. And the `upstream` remote, which refers to the remote repo that is being tracked for changes and contributions.
 
 ## Syntax
 
@@ -38,7 +43,7 @@ git remote add upstream https://github.com/Codecademy/docs.git
 
 > **Note:** If the repository is cloned onto the computer, the remote defaults to `origin`. Additional set up would only be needed for the `upstream` remote.
 
-Run the `git remote -v` command to check the list of remotes:
+Run the `git remote -v` (`v` flag is for verbose) command to check the list of remotes:
 
 ```shell
 git remote -v
