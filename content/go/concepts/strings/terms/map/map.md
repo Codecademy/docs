@@ -17,7 +17,7 @@ The **`strings.Map()`** method changes all of the characters of a given string a
 ## Syntax
 
 ```pseudo
-Map(mappingFunct(r),  s)
+strings.Map(mappingFunct(r), s)
 ```
 
 The `strings.Map()` function takes two parameters:
