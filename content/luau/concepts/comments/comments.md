@@ -1,14 +1,14 @@
 ---
-Title: 'Comments' 
+Title: 'Comments'
 Description: 'Comments are used to add explanatory or descriptive notes within a script or program.'
-Subjects: 
+Subjects:
   - 'Computer Science'
   - 'Game Development'
-Tags: 
+Tags:
   - 'Comments'
   - 'Documentation'
-CatalogContent: 
-  - 'learn-luau'
+CatalogContent:
+  - 'learn-lua'
   - 'paths/computer-science'
 ---
 
@@ -45,7 +45,7 @@ Multiple brackets can be nested inside of multi-line comment by using equal sign
 ```lua
 local String = 'Secret!'
 if String == 'Secret!' then
-    print('What is your secret?') 
+    print('What is your secret?')
 --[=[ This is how  [[[ multiple brackets ]]]
 are nested inside of a block comment. ]=]
 end
