@@ -22,6 +22,8 @@ The `isfrozen()` function returns a boolean value, `true` if the table is in rea
 
 ## Example
 
+In this example, a table called `myTable` is created. Then, the `isfrozen()` function is used to check if it's in read-only mode.
+
 ```lua
 -- Create a table
 local myTable = {1, 2, 3}
@@ -37,4 +39,8 @@ else
 end
 ```
 
-In this example, a table called `myTable` is created. Then, the `isfrozen()` function is used to check if it's in read-only mode.
+The code above will result in the following output:
+
+```shell
+The table is not frozen (read/write).
+```
