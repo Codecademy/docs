@@ -20,6 +20,7 @@ The **`.getActualMinimum()`** method returns the minimum value allowed for a giv
 ```pseudo
 min = cal.getActualMinimum(field);
 ```
+
 Where `myCalendar` is a `Calendar` object, and `field` is the constant for which the minimum will be returned.
 
 ## Example
