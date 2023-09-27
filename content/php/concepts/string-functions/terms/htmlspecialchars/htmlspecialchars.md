@@ -90,6 +90,6 @@ Codecademy  offers courses in various programing languages like Java, PHP, C++ &
 ```codebyte/php
 <?php
     $statement ="Codecademy  offers courses in various programing languages like Java, PHP, C++ amp; many others.";
-    
+    echo htmlspecialchars($statement, ENT_COMPAT);
 ?>
 ```
