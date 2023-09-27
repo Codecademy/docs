@@ -79,7 +79,7 @@ The following example uses `htmlspecialchars()` to convert the special character
 <?php
     $statement ="Codecademy  offers courses in various programing languages like Java, PHP, C++ & many others.";
     echo htmlspecialchars($statement, ENT_COMPAT);
->
+?>
 ```
 This results in the following output:
 ```shell
@@ -91,5 +91,5 @@ Codecademy  offers courses in various programing languages like Java, PHP, C++ &
 <?php
     $statement ="Codecademy  offers courses in various programing languages like Java, PHP, C++ amp; many others.";
     
->
+?>
 ```
