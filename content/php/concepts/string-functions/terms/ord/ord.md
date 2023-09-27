@@ -42,7 +42,7 @@ This results in the output:
 
 The code below is runnable, change the value of `your_string` to see the associated value of various characters.
 
-```codebyte\php
+```codebyte/php
 <?php
   $your_string = 'Try changing this string!';
   echo "The ASCII value of the first character of your string is: ". ord($your_string);
