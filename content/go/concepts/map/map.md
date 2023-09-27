@@ -141,6 +141,24 @@ This will output:
 85.2
 ```
 
+### Iterating All Key/Value Pairs in a Map
+
+The following code will iterate and print all the key/value pairs of the map.
+
+```go
+  // Iterate all key/value pairs of the gradebook map
+  for key, value := range gradebook {
+    fmt.Printf("(%s, %.1f)\n", key, value)
+  }
+```
+
+This will output:
+
+```shell
+(John, 85.2)
+(Ana, 95.6)
+```
+
 ### Storing a Map Value in a Variable
 
 The following code will access the value in a map corresponding to the key of "Ana". It will store the result in a variable called `anaScore` and print it.
