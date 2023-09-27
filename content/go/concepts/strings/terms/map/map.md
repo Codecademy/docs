@@ -22,7 +22,7 @@ Map(mappingFunct(r),  s)
 
 The `strings.Map()` function takes two parameters:
 
-- `mappingFunct(r)`: A function and a character (type rune) that the original character will be replaced with.
+- `mappingFunct(r)`: A function and a character (type [rune](https://www.codecademy.com/resources/docs/go/data-types)) that the original character will be replaced with.
 - `s`: The given string in which the characters will be replaced.
 
 > **Note:** If a negative value is returned when a character is mapped, it is dropped from the string without a replacement.
@@ -32,7 +32,7 @@ The `strings.Map()` function takes two parameters:
 The following example shows the implementation of `strings.Map()`:
 
 ```go
-  package main
+package main
 
 import (
   "fmt"
@@ -41,7 +41,7 @@ import (
 
 func main() {
   mapped := func(r rune) rune {
-    if r == "e" {
+    if r == 'e' {
       return '3'
     }
     return r
