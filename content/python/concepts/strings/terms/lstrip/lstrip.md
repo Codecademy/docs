@@ -44,28 +44,15 @@ print(filePath.lstrip('cd ./'))
 
 [Text, code, images, etc. about example 1]
 
-## Codebyte Example (if applicable)
-
-We can currently support:
-
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
-
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
-
+## Codebyte Example
 ```codebyte/python
 #runnable code block for lstrip()
 exampleString = '     User, Welcome to docs!'
-exampleString.lstrip()
+exampleString = exampleString.lstrip()
 
 print(exampleString)
 
-exampleString.lstrip('User,')
+exampleString = exampleString.lstrip('User,')
 print(exampleString)
 
 ```
