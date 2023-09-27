@@ -75,4 +75,6 @@ if (!tired) {
 }
 ```
 
+> **Note:** Operator overloading is possible in C++. This means that operators can be used with custom types. For example, the `+` operator can be used to add two custom defined classes together. See [overloading](https://www.codecademy.com/resources/docs/cpp/overloading).
+
 Below are some other operators that are used in C++:
