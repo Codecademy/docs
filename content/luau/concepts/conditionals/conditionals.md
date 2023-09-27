@@ -64,7 +64,7 @@ In the code above, `condition 1` is checked first. `condition 2` is checked only
 
 The following examples illustrate conditionals that use `else` and `elseif`.
 
-```pseudo
+```lua
 if "tony" == "paulie" then		--madone!
   print("ooh!")
 elseif "silvio" == "junior" then
