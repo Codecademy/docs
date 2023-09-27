@@ -51,7 +51,7 @@ exdurantism
 
 The code below is runnable, change the value of `your_string`, `your_length`, and `your_character` to test the `.rjust()` method.
 
-```codebyte\python
+```codebyte/python
 your_string = "Try changing this string!"
 your_length = 0
 your_character = " "
