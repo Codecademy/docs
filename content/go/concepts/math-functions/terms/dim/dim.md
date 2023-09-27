@@ -1,6 +1,6 @@
 ---
 Title: 'Dim()'
-Description: 'Calculate the Maximum of the Difference between Two Arguments'
+Description: 'Calculates the maximum of the difference between two arguments.'
 Subjects:
   - 'Code Foundation'
   - 'Computer Science'
@@ -27,7 +27,8 @@ Note these special cases:
 - Passing `-Inf` in this function will return `NaN`.
 
 ## Example
-In this Go code example, we have a simple program that calculates and prints the positive difference between two numbers, 7.0 and 4.0, using the `math.Dim` function from the `math` package.
+
+In this Go code example, we have a simple program that calculates and prints the positive difference between two numbers, 7.0 and 4.0, using the `Dim()` function from the `math` package.
 
 ```go
 package main
@@ -55,7 +56,7 @@ The  positive  difference  between 7 and 4 = 3
 ```
 
 ## Codebyte Example
-The example below is runnable and demonstrates `dim()` function.
+The example below is runnable and demonstrates the `dim()` function.
 
 ```codebyte/golang
 
