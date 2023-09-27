@@ -30,7 +30,7 @@ end
 
 ### Examples of basic `if` conditionals
 
-```pseudo
+```lua
 if true then			--code block ran
   print("code block ran")
 end
