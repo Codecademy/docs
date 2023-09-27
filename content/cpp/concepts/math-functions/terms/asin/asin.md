@@ -37,3 +37,23 @@ int main() {
   // Output: 1.5708 radians
 }
 ```
+
+## Codebyte Example
+
+The following example is runnable and outputs the inverse sine of `0.32`:
+
+```codebyte/cpp
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+  double x = 0.32;
+  double result = asin(x);
+
+  cout << result << " radians" << endl;
+
+  return 0;
+}
+```
