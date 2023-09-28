@@ -56,7 +56,8 @@ The  positive  difference  between 7 and 4 = 3
 ```
 
 ## Codebyte Example
-The example below is runnable and demonstrates the `dim()` function.
+
+The example below is runnable and demonstrates the `Dim()` function.
 
 ```codebyte/golang
 
