@@ -55,7 +55,7 @@ public static void Main(String[] args)
 
 ## Codebyte Example
 
-In the above example, a public class is declared as 'Book'. The class and its attributes are first declared. Within the class, it contains a book's name, author, and release date. Within `Main()`, two Book objects are declared: GreatGatsby and HungerGames. Each object then has it's appropriate detail declared within the parameters.
+In the example below, a public class is declared as 'Book'. The class and its attributes are first declared. Within the class, it contains a book's name, author, and release date. Within `Main()`, two Book objects are declared: GreatGatsby and HungerGames. Each object then has it's appropriate detail declared within the parameters.
 
 ```codebyte/csharp
 using System;
