@@ -29,7 +29,7 @@ Whitespace characters include:
 string.isspace()
 ```
 
-`space` refers to whitespaces.
+`space` is the string being checked for whitespace.
 
 ## Example
 
