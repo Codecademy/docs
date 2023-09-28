@@ -1,6 +1,6 @@
 ---
 Title: 'Map()'
-Description: 'Returns a copy of the provided string with its characters converted according to the mapping function.'
+Description: 'Returns a copy of a provided string with its characters modified according to a given mapping function.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -12,17 +12,17 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`strings.Map()`** method changes all of the characters of a given string according to the changes specified in the given mapping function.
+The **`strings.Map()`** method changes the characters of a provided string according to a given mapping function. It returns a modified copy of the original string.
 
 ## Syntax
 
 ```pseudo
-strings.Map(mappingFunct(r), s)
+strings.Map(mappingFunc(r), s)
 ```
 
 The `strings.Map()` function takes two parameters:
 
-- `mappingFunct(r)`: A function and a character (type [rune](https://www.codecademy.com/resources/docs/go/data-types)) that the original character will be replaced with.
+- `mappingFunc(r)`: A function and a character (type [rune](https://www.codecademy.com/resources/docs/go/data-types)) that the original character will be replaced with.
 - `s`: The given string in which the characters will be replaced.
 
 > **Note:** If a negative value is returned when a character is mapped, it is dropped from the string without a replacement.
