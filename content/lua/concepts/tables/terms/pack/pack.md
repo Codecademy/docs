@@ -31,14 +31,14 @@ The following example uses the `pack()` function to take multiple argument value
 ```lua
 fruit = table.pack('Watermelon','Bananas','Apple','Oranges')
 print("Table: ",fruit)
-print("Fruit number 2:",fruit[1])
+print("Fruit number 2:",fruit[2])
 print("Total number of fruit: ",fruit.n)
 ```
 
-The example will result in output like the following:
+The example will result in an output similar to the following:
 
 ```shell
 Table:  table: 0x55b6ebb24400
-Fruit number 2: Watermelon
+Fruit number 2: Bananas
 Total number of fruit:  4
 ```
