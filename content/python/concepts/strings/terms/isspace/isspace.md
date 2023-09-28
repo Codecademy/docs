@@ -11,10 +11,9 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/analyze-data-with-python'
-  - 'paths/data-science'
 ---
 
-The **`.isspace()`** string method takes in a string and returns `True` if all the characters in a string are whitespaces, otherwise `False`.
+The **`.isspace()`** string method takes in a string and returns `True` if the entire string is composed of whitespace characters, otherwise `False`.
 
 Whitespace characters include:
 
@@ -26,14 +25,14 @@ Whitespace characters include:
 ## Syntax
 
 ```pseudo
-string.isspace()
+some_str.isspace()
 ```
 
-`space` is the string being checked for whitespace.
+`some_str` is the string being checked for whitespace.
 
 ## Example
 
-The example below uses `.isspace()` to check if all characters in the string `txt` are whitespace characters:
+The example below uses `.isspace()` to evaluate the string `txt`:
 
 ```py
 txt = "   Welcome   "
@@ -49,7 +48,7 @@ False
 
 ## Codebyte Example
 
-The following example returns `True` because all the characters in the string `my_string` are whitespace characters:
+The following example is runnable and checks if `my_string` consists entirely of whitespace characters:
 
 ```codebyte/python
 my_string = "\v\n "
