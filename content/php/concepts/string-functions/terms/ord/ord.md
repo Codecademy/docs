@@ -19,16 +19,18 @@ The integer returned is the decimal equivalent of the binary representation of t
 ## Syntax
 
 ```pseudo
-ord(string)
+ord($my_string)
 ```
 
-`(ord)` has only one parameter, `string`. The first character of the value passed by `string` will be used to return the relevant integer.
+`(ord)` has only one parameter, `$my_string`. The first character of the value passed by `string` will be used to return the relevant integer.
 
 ## Example
 
+The example below passes the character `"e"` into the `ord()` function:
+
 ```php
 <?php
-echo ord("equanimity");
+  echo ord("e");
 ?>
 ```
 
@@ -40,11 +42,15 @@ This results in the output:
 
 ## Codebyte Example
 
-The code below is runnable, change the value of `your_string` to see the associated value of various characters.
+The code below is runnable, change the value of `$your_string` to see the associated value of various characters.
 
 ```codebyte/php
 <?php
   $your_string = 'Try changing this string!';
-  echo "The ASCII value of the first character of your string is: ". ord($your_string);
+
+  // Loop through $your_string
+  for ($i = 0; $i < strlen($your_string); $i++) {
+    echo "The ASCII value of ". $your_string[$i]. " is: ".ord($your_string[$i]) . "\n";
+  }
 ?>
 ```
