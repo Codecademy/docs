@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`hashCode()`** method in Java is a part of the **`Calendar`** class, which is used for date and time manipulation in Java. This method returns a hash code value for the calendar instance based on its current state. Hash codes are commonly used in data structures like hash tables to quickly identify and access objects.
+The **`.hashCode()`** method in Java is a part of the **`Calendar`** class, which is used for date and time manipulation in Java. This method returns a hash code value for the calendar instance based on its current state. Hash codes are commonly used in data structures like hash tables to quickly identify and access objects.
 
 ## Syntax
 
@@ -25,21 +25,22 @@ result = myCalendar.hashCode()
 
 ## Example 1
 
-In this example, a `Calendar` object is created using the **`.getInstance()`** method, and then the `.hashCode()` method is used to calculate its hash code and print it.
+In this example, the `.hashCode()` method is used to calculate a `Calendar` object's hash code and prints it:
 
 ```java
 import java.util.Calendar;
 
 public class CalendarHashCodeExample {
     public static void main(String[] args) {
+        // Calendar object is created using the .getInstance() method.
         Calendar calendar = Calendar.getInstance();
         int hashCode = calendar.hashCode();
         System.out.println("Hash code of the calendar object: " + hashCode);
     }
 }
-
 ```
-This code will return an output similar to the following:
+
+This code will output (the hash code may differ):
 
 ```shell
 Hash code of the calendar object: 12345678
@@ -47,9 +48,9 @@ Hash code of the calendar object: 12345678
 
 ## Example 2
 
-In this example, a **`HashMap`** is created to store `Calendar` objects, and the `.hashCode()` method of each `Calendar` object is used as the key in the map.
+In the example below, a **`HashMap`** is created to store `Calendar` objects, and the `.hashCode()` method of each `Calendar` object is used as keys in the map.
 
-Then, the objects from the map are retrieved using their hash codes and checked if they are equal to the original objects using the **`equals()`** method. Since the hash code is used as the key, the original `Calendar` objects can be successfully retrieved from the map and confirmed that they are equal.
+Then, the objects from the map are retrieved using their hash codes and checked if they are equal to the original objects using the **`.equals()`** method. Since the hash codes are used as keys, the original `Calendar` objects can be successfully retrieved from the map and confirmed that they are equal.
 
 ```java
 import java.util.Calendar;
@@ -57,32 +58,32 @@ import java.util.HashMap;
 
 public class CalendarHashMapExample {
     public static void main(String[] args) {
-        // Create a HashMap to store Calendar objects and their descriptions
+        // Create a HashMap to store Calendar objects and their descriptions:
         HashMap<Integer, Calendar> calendarMap = new HashMap<>();
 
-        // Create two Calendar objects
+        // Create two Calendar objects:
         Calendar calendar1 = Calendar.getInstance();
         Calendar calendar2 = Calendar.getInstance();
 
-        // Store the Calendar objects in the HashMap with unique hash codes as keys
+        // Store the Calendar objects in the HashMap with unique hash codes as keys:
         calendarMap.put(calendar1.hashCode(), calendar1);
         calendarMap.put(calendar2.hashCode(), calendar2);
 
-        // Retrieve the Calendar objects from the HashMap
+        // Retrieve the Calendar objects from the HashMap:
         Calendar retrievedCalendar1 = calendarMap.get(calendar1.hashCode());
         Calendar retrievedCalendar2 = calendarMap.get(calendar2.hashCode());
 
-        // Check if the retrieved objects are equal to the original objects
+        // Check if the retrieved objects are equal to the original objects:
         boolean areEqual1 = calendar1.equals(retrievedCalendar1);
         boolean areEqual2 = calendar2.equals(retrievedCalendar2);
 
-        // Print the results
+        // Print the results:
         System.out.println("Original calendar1 and retrieved calendar1 are equal: " + areEqual1);
         System.out.println("Original calendar2 and retrieved calendar2 are equal: " + areEqual2);
     }
 }
-
 ```
+
 This code will return an output similar to the following:
 
 ```shell
