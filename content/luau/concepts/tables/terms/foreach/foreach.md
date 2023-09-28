@@ -4,8 +4,8 @@ Description: 'Iterates through the elements of a provided table or collection, u
 Subjects:
   - 'Computer Science'
 Tags:
-	  - 'Tables'
-	  - 'Arrays'
+  - 'Tables'
+  - 'Arrays'
 CatalogContent:
   - 'learn-lua'
   - 'paths/computer-science'
@@ -14,10 +14,13 @@ CatalogContent:
 
 The `foreach()` function is a programming construct that iterates through the elements of a provided table or collection, using a specified callback function to perform operations on each element. During each iteration, the callback function is invoked and passed two parameters: the index (or key) and the value associated with the current element in the table.
 
-### Syntax  
-```
+### Syntax 
+ 
+```pseudo
 foreach(table, callback)
 ```
+ "table" refers to a data structure, such as an array or list, that contains elements to iterate over.
+ "Callback" is a function provided as an argument to the loop, which gets executed for each element in the "table," typically to perform a specific action or operation on each item.
 ### Example
 
 In this example is a table containing the names of fruits, and it will use `.foreach()` to print each fruit name along with its index in the table.
@@ -38,11 +41,11 @@ table.foreach(fruits, printFruit)
 
 This example results in the following output:
 	
-	```shell
-	Fruit at index 1: apple
-	Fruit at index 2: banana
-	Fruit at index 3: cherry
-	Fruit at index 4: date
-	Fruit at index 5: elderberry
-	```
+```shell
+Fruit at index 1: apple
+Fruit at index 2: banana
+Fruit at index 3: cherry
+Fruit at index 4: date
+Fruit at index 5: elderberry
+```
 
