@@ -14,7 +14,6 @@ CatalogContent:
 
 The **`pack()`** function takes multiple argument values, then returns a new table.
 
-> **Note:** The `n` field is added when passing arguments to the `pack()` function where `n` = number of elements in the table. This field can called as `table_name.n`. For example, `cars.n` will return the number of elements in the `cars` table.
 
 ## Syntax
 
@@ -23,6 +22,10 @@ table.pack(value1, value2, ..., valuen)
 ```
 
 - `value1`, `value2`, `...`, `valuen`: Each argument value will become an element in the new table.
+
+
+> **Note:** The `n` field is added when passing arguments to the `pack()` function where `n` = number of elements in the table. This field can called as `table_name.n`. For example, `cars.n` will return the number of elements in the `cars` table. Remember that Lua table elements will begin with index 1, not 0.
+
 
 ## Example
 
