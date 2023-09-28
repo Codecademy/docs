@@ -1,7 +1,6 @@
 ---
 Title: 'Encodable'
 Description: 'Enables object data to be encoded for use with Application Programming Interfaces.'
- 
 Subjects:
   - 'iOS'
   - 'Mobile Development'
