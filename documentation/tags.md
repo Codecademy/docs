@@ -19,6 +19,7 @@ Arguments
 Arithmetic
 Arrays
 ASP.NET
+Assert
 Assignment
 Asymptotic Notation
 Async Await
@@ -46,6 +47,7 @@ Browser Compatibility
 Browsers
 Bubble Sort
 Buttons
+Calendar
 Catch
 Characters
 Chatbots
@@ -86,6 +88,7 @@ Decorators
 Deep Learning
 Denoising
 Dependency
+Design
 Developer Tools
 Development
 DFS
@@ -137,6 +140,7 @@ Frameworks
 Functions
 Functional Programming
 Functors
+Generics
 Geometry
 Ggplot2
 Git

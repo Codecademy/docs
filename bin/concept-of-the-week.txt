@@ -1,1 +1,1 @@
-content/uiux/concepts/ethnography-field-studies/ethnography-field-studies.md
+content/markdown/concepts/emojis/emojis.md
