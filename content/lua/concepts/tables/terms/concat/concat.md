@@ -12,13 +12,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-# `concat()` Function
-
-## Introduction
-The `concat()` function is used to join the values of a table into a single string, separated by a specified separator. This function is particularly useful when you need to convert a table into a formatted string representation. It allows you to customize the separator between values and optionally specify a range of indices to concatenate. 
+The **`concat()`** function is used to join the values of a table into a single string, separated by a specified separator. This function is particularly useful when you need to convert a table into a formatted string representation. It allows you to customize the separator between values and optionally specify a range of indices to concatenate.
 
 ## Syntax
-```lua
+
+```pseudo
 concat(table, separator, [i], [j])
 ```
 
@@ -38,4 +36,4 @@ The code will return the following output:
 banana 🍌, cherry 🍒
 ```
 
-In this example, we have a table `fruits` containing four elements. We use `table.concat()` to join the elements from index 2 to 3 (inclusive) with a comma and space as the separator. The resulting string is then printed, which contains "banana 🍌" and "cherry 🍒" separated by a comma and space.
+In this example, the table `fruits` contains four elements. `table.concat()` is used to join the elements from index 2 to 3 (inclusive) with a comma and space as the separator. The resulting string is then printed.
