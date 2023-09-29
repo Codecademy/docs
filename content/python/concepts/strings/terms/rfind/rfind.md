@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-**`.rfind()`** searches a given string for a substring starting from index `0`, or alternatively, from the *ith* index to *jth* index (where *i < j*). The method returns the starting index of the last occurrence of the substring.
+**`.rfind()`** searches a given string for a substring starting from index `0`, or alternatively, from the _ith_ index to _jth_ index (where _i < j_). The method returns the starting index of the last occurrence of the substring.
 
 ## Syntax
 
@@ -21,7 +21,7 @@ CatalogContent:
 mystr.rfind(value, start, end)
 ```
 
-This method is called on a string `mystr` and returns the last index where the substring `value` is found at by searching the original string `mystr` from the `start` index to the `end` index, and if the substring is not found it returns `-1`.
+This method is called on a string `mystr` and returns the last index where the substring `value` is found by searching the original string `mystr` from the `start` index to the `end` index, and if the substring is not found it returns `-1`.
 
 ## Example
 
