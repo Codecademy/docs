@@ -79,7 +79,7 @@ struct ExplicitAnimatio: View {
 
 ![This is a gif that shows the effect of Explicit animation on the view.](https://raw.githubusercontent.com/Codecademy/docs/main/media/Explicit-Animation-Swiftui.gif)
 
-As seen from the output, `withAnimation()` is used to change the position of the button with a spring effect to it. What is beautiful about explicit animation is that different views can be animated with the same call of `withAinmation()`, but the two different views must use the same state variable to do that. For example, to animate the button label view's background color and the position of the button at the same time, a ternary operator will be added to `.background()`. It looks like this:
+As shown in the output, `withAnimation()` is used to change the position of the button with a spring effect to it.  One notable advantage of explicit animation is the ability for different views to be animated with a single call to `withAnimation()`. However, the two different views must use the same state variable to do so. For example, to animate the button label view's background color and the position of the button at the same time, a ternary operator will be added to `.background()`. This is shown in the following code:
 
 ```swift
 struct ExplicitAnimation: View {
