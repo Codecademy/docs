@@ -56,7 +56,7 @@ In this simple animation, the background and the text of the button change depen
 To be able to make explicit animation, use the same three steps used in the implicit animation. This example uses explicit animation to change the position of a button:
 
 ```swift
-struct ExplicitAnimatio: View {
+struct ExplicitAnimation: View {
     @State var isanimation = false // @State variable that changes to activate the animation.
     
     var body: some View {
