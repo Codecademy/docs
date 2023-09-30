@@ -21,7 +21,7 @@ table.remove(tableName,pos)
 ```
 
 The `.remove()` function attempts to remove the element at the `pos` position from the table. This causes other elements to shift down to close the space, if necessary.
-This function returns the value that we remove from the table. The `pos` parameter has a default value of `n`, which is the length of the table. This causes the last element of the table to be removed if the `pos` parameter is not provided.
+This function returns the value that was removed from the table. The `pos` parameter has a default value of `n`, which is the length of the table. This causes the last element of the table to be removed if the `pos` parameter is not provided.
 
 ## Example
 
