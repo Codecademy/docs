@@ -70,7 +70,7 @@ struct ExplicitAnimatio: View {
                 .padding(.all)
                 .background(Color.black)
         }
-        .offset(x: isanimation ? -20 : 60,y:0) // Ternary Operator used to change the view based onn the value of the animation.
+        .offset(x: isanimation ? -20 : 60,y:0) // Ternary Operator used to change the view based on the value of the animation.
     }
 }
 ```
