@@ -1,43 +1,57 @@
 ---
 Title: '.rindex()'
-Description: 'A brief description.' # Required; ideally under 150 characters and starts with a present-tense verb (used in search engine results and content previews)
+Description: 'Locates the highest index of the substring within a string variable.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
-  - 'A tag'
-  - 'A second tag'
-  - 'An nth tag'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+Tags:
+  - 'Methods'
+  - 'Functions'
+  - 'Strings'
+CatalogContent:
   - 'learn-example-course'
   - 'paths/example-path'
 ---
 
-[A brief definition - make sure first mention of term is in **bold**.]
+**`.rindex()`** is used to locate the highest index of the substring within a string variable. ValueError will raise when the substring cannot be found.
 
 ## Syntax
 
-[Text, code, images, parameters, etc. about the syntax]
+The syntax of this function can be shown below :
+
+```pseudo
+str_variable.rindex('substring')
+
+str_variable.rindex('substring', index_start, index_end)
+```
 
 ## Example
 
-[Text, code, images, etc. about example 1]
+The following examples implement `.rindex()` and will return the index location of substring :
 
-## Codebyte Example (if applicable)
+```python
+# Define the string variable
+str_cow = "moo moo"
 
-We can currently support:
+# Show the results
+print(str_cow.rindex('m'))  # return 4
 
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
+print(str_cow.rindex('o'))  # return 6
+```
 
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
+The index of substring m is found on indices 0 and 4. Therefore, index 4 will be returned.
 
-```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
+## Codebyte Example
+
+This example is runnable and demonstrate instance where `.rindex()` will locate the substring between the certain indices :
+
+```codebyte/python
+# Define the string variable
+str_cow = "moo moo"
+
+# Show the result
+print(str_cow.rindex('o', 0, 3))
+
+# Raise the ValueError substring m not found
+print(str_cow.rindex('m', 1, 3))
 ```
