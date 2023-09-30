@@ -89,6 +89,7 @@ This results in the following output:
 ```shell
 Codecademy  offers courses in various programing languages like Java, PHP, C++ &amp; many others.
 ```
+
 ## Codebyte Example
 
 ```codebyte/php
