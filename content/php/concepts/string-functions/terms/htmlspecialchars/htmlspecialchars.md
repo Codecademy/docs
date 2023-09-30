@@ -74,7 +74,9 @@ The supported character sets are listed in the table below:
 > **Note**: If `$string` contains an invalid code, the function will return an empty string unless `$flag` is set to `ENT_IGNORE` or `ENT_SUBSTITUTE`.
 
 ## Example
+
 The following example uses `htmlspecialchars()` to convert the special character `&` in a string  to an HTML entity `&amp;`.
+
 ```php
 <?php
     $statement ="Codecademy  offers courses in various programing languages like Java, PHP, C++ & many others.";
