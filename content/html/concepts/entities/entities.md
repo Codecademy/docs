@@ -69,6 +69,7 @@ There is an entity `&Tab;` (or `&#9;`) which nominally produces a tab character.
 </pre>
 ```
 Output:
+
 ![Output for the tab entity code block above](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-entities-tab.png)
 
 Alternatively, four `&nbsp;` entities can be used.
