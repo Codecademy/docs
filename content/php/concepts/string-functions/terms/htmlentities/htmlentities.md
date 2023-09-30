@@ -24,10 +24,10 @@ htmlentities(string, flags, encoding, double_encode)
 
 The `htmlentities()` function has one required parameter and three optional parameters:
 
-- `$string`: Required. Specifies the `string` to convert.
-- `$flags`: Optional. Specifies how to handle quotes, invalid encoding and the used document type. Ex: ENT_QUOTES | ENT_SUBSTITUTE | ENT_HTML5.
-- `$encoding`: An optional argument defining the encoding used when converting characters. If omitted, `$encoding` defaults to the value of the `default_charset` configuration option. Although this argument is technically optional, it is highly encouraged to specify the correct value for the code if the `default_charset` configuration option may be set incorrectly for the given input.
-- `$double_encode`: Optional. Specifies whether to encode existing HTML entities. TRUE - Default. Will convert everything. FALSE - Will not encode existing html entities.
+- `$string`: Required parameter that specifies the `string` to convert.
+- `$flags`: Optional parameter that specifies how to handle quotes, invalid encoding, and the used document type. Ex: ENT_QUOTES | ENT_SUBSTITUTE | ENT_HTML5.
+- `$encoding`: Optional argument defining the encoding used when converting characters. If omitted, `$encoding` defaults to the value of the `default_charset` configuration option. It is highly encouraged to specify the correct value for the code if the `default_charset` configuration option is set incorrectly for the given input.
+- `$double_encode`: Optional parameter that specifies whether to encode existing HTML entities. Defaults to `TRUE` and will convert all entities in the string. If set to `FALSE`, the function will not encode existing html entities.
 
 
   - The available quote styles are:
