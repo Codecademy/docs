@@ -71,7 +71,7 @@ The supported character sets are listed in the table below:
 
 - `$double_encode`:  An optional boolean value that specifies whether to encode existing html or not. 
 
-**Note**: If `$string` contains an invalid code, the function will return an empty string unless `$flag` is set to `ENT_IGNORE` or `ENT_SUBSTITUTE`.
+> **Note**: If `$string` contains an invalid code, the function will return an empty string unless `$flag` is set to `ENT_IGNORE` or `ENT_SUBSTITUTE`.
 
 ## Example
 The following example uses `htmlspecialchars()` to convert the special character `&` in a string  to an HTML entity `&amp;`.
