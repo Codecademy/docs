@@ -70,7 +70,7 @@ There is an entity `&Tab;` (or `&#9;`) which nominally produces a tab character.
 ```
 Output:
 
-![Output for the tab entity code block above](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-entities-tab.png)
+![Output for the tab entity code block above](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-entity-tab.png)
 
 Alternatively, four `&nbsp;` entities can be used.
 
