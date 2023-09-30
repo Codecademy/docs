@@ -62,12 +62,14 @@ More can be found in this [extensive HTML 5 entity reference](https://dev.w3.org
 There is an entity `&Tab;` (or `&#9;`) which nominally produces a tab character. However, it will not behave as expected because HTML collapses whitespace where it appears in text with the exception of the non-breaking space entity, `&nbsp;`. So to render a tab in HTML text, it needs to be wrapped within a `<pre>` tag to preserve the whitespace.
 
 ```html
-<p>The tab entity &Tab; in this sentence is collapsed</p>
+<p>The tab entity &Tab; in this sentence is collapsed.</p>
 
 <pre>
-  <p>The Tab entity &Tab; in this sentence is preserved</p>
+  <p>The tab entity &Tab; in this sentence is preserved.</p>
 </pre>
 ```
+Output:
+![Output for the tab entity code block above](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-entities-tab.png)
 
 Alternatively, four `&nbsp;` entities can be used.
 
