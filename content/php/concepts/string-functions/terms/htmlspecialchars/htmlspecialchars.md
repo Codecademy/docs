@@ -83,7 +83,9 @@ The following example uses `htmlspecialchars()` to convert the special character
     echo htmlspecialchars($statement, ENT_COMPAT);
 ?>
 ```
+
 This results in the following output:
+
 ```shell
 Codecademy  offers courses in various programing languages like Java, PHP, C++ &amp; many others.
 ```
