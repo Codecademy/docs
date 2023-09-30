@@ -23,7 +23,7 @@ To be able to add animation to a view, three things are required:
 
 1. A variable that changes to activate the animation. 
 2. Flow control to manage the animation.
-3. The actual animation; use of the `.animation()` modifier on the desired view to be animated.
+3. The actual animation; use of the [.animation()](https://www.codecademy.com/resources/docs/swiftui/viewmodifier/animation) modifier on the desired view to be animated.
 
 These components are essential to build animation implicitly or explicitly on a view. In the next example, implicit animation will be used:
 
