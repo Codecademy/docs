@@ -1,14 +1,14 @@
 ---
-Title: 'Drag and Drop' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'Drag and Drop in SwiftUI allows a user to pick up and drop an object from one view to another.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
-Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
+Title: 'Drag and Drop'
+Description: 'Drag and Drop in SwiftUI allows a user to pick up and drop an object from one view to another.'
+Subjects:
   - 'iOS'
   - 'Mobile Development'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
+Tags:
   - 'API'
   - 'Methods'
   - 'iOS'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+CatalogContent:
   - 'learn-ios-course'
   - 'paths/ios-developer'
 ---
@@ -20,30 +20,32 @@ This code defines a drop delegate that handles different events related to dropp
 
 ```pseudo
 struct CDDropDelegate: DropDelegate {
-
     func dropEntered(info: DropInfo) {
-    // Triggered when an object enters the view.
-  } 
+        // Triggered when an object enters the view.
+    }
+ 
     func dropExited(info: DropInfo) {
-    // Triggered when an object exits the view.
-  }
+        // Triggered when an object exits the view.
+    }
 
     func dropUpdated(info: DropInfo) -> DropProposal? {
-    // Triggered when an object moves within the view. 
-  }
+        // Triggered when an object moves within the view. 
+    }
   
     func validateDrop(info: DropInfo) -> Bool {
-    // Determines whether to accept or reject the drop.
-  }
+        // Determines whether to accept or reject the drop.
+    }
 
     func performDrop(info: DropInfo) -> Bool {
-    // Handles the drop when the user drops an object onto the view.
-  }
+        // Handles the drop when the user drops an object onto the view.
+    }
 }
 ```
+
 ## DropProposal
 
 **`DropProposal`** is a structure in SwiftUI that helps to control how object and drop operations should be handled when it's dropped into a SwiftUI view. It is used together with the `.onDrop()` modifier to determine what happens when a user drops an object.
+
 The `DropProposal` can be customized using the operation property to specify the drop operation (e.g., `.move` or `.copy`).
 
 ```swift
@@ -80,7 +82,6 @@ struct ContentView: View {
                                 return dropProposal
                             }
                         }
-                        
                         return nil
                 })
                 .frame(width: 200, height: 100)
@@ -88,7 +89,6 @@ struct ContentView: View {
         }
     }
 }
-
 ```
 
 ## DropInfo
@@ -126,9 +126,7 @@ struct ContentView: View {
     }
 }
 
-
 struct MyDropDelegate : DropDelegate {
-
     let item : String
     @Binding var items : [String]
     @Binding var draggedItem : String?
@@ -152,5 +150,3 @@ struct MyDropDelegate : DropDelegate {
     }
 }
 ```
-
-
