@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.remove()`** function in Lua that removes the value of the specified index and clears the index from the Array (reducing the length of the table by 1).
+The **`.remove()`** function in Lua removes the value of the specified index and clears the index from the table (reducing the length of the table by 1).
 
 ## Syntax
 
