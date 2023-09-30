@@ -34,11 +34,11 @@ The `htmlspecialchars()` takes four parameters.
 - `$string` : A required parameter that specifies the string to be converted.
 - `$flag` : An optional string value that specifies how to handle quotes.
 
-The available frags are listed in the table below:
+The available flags are listed in the table below:
 
 | Constant       | Description                                                                                                          |
 |----------------|----------------------------------------------------------------------------------------------------------------------|
-|`ENT_COMPAT`    | The default frag. it encodes only doublet quotes                                                                     |
+|`ENT_COMPAT`    | The default frag. it encodes only double quotes                                                                     |
 |`ENT_QUOTES`    | Encodes both double and single quotes                                                                                |
 |`ENT_NOQUOTES`  | Does not encode double nor single quotes                                                                             |
 |`ENT_IGNORE`    | Discards invalid encoding instead of the function returning an empty string                                          |
@@ -92,9 +92,11 @@ Codecademy  offers courses in various programing languages like Java, PHP, C++ &
 
 ## Codebyte Example
 
+The following example is runnable and uses the `htmlspecialchars()` function and the `ENT_QUOTES` flag:
+
 ```codebyte/php
 <?php
-    $statement ="Codecademy  offers courses in various programing languages like Java, PHP, C++ amp; many others.";
-    echo htmlspecialchars($statement, ENT_COMPAT);
+$statement ="'I PHP's Laravel & Livewire for web development', Said John";
+echo htmlspecialchars($statement,ENT_QUOTES);
 ?>
 ```
