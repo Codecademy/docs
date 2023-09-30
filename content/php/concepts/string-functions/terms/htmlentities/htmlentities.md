@@ -27,6 +27,20 @@ The `htmlentities()` function has one required parameter and three optional para
 - `$string`: Required parameter that specifies the `string` to convert.
 - `$flags`: Optional parameter that specifies how to handle quotes, invalid encoding, and the used document type. Ex: ENT_QUOTES | ENT_SUBSTITUTE | ENT_HTML5.
 - `$encoding`: Optional argument defining the encoding used when converting characters. If omitted, `$encoding` defaults to the value of the `default_charset` configuration option. It is highly encouraged to specify the correct value for the code if the `default_charset` configuration option is set incorrectly for the given input.
+  
+  - Character sets that are supported:
+    |Charset|Aliases|Description|
+    |---|---|---|
+    |ISO-8859-1|ISO8859-1|htmlentities() function works with Western European, Latin-1 charset.|
+    |ISO-8859-15|ISO8859-15|htmlentities() function works with Western European, Latin-9. Adds the Euro sign, French and Finnish letters missing in Latin-1 (ISO-8859-1) charset.|
+    |UTF-8||htmlentities() function works with ASCII compatible multi-byte 8-bit Unicode charset.|
+    |cp866|ibm866, 866|htmlentities() function works with DOS-specific Cyrillic charset.|
+    |cp1251|Windows-1251, win-1251, 1251|htmlentities() function works with Windows-specific Cyrillic charset.|
+    |cp1252|Windows-1252, 1252|htmlentities() function works with Windows specific charset for Western European chatset.|
+    |MacRoman||htmlentities() function works with charset that was used by Mac OS.|
+
+    > **Note:** Any other character sets are not recognized. The default encoding will be used instead and a warning will be emitted.
+    
 - `$double_encode`: Optional parameter that specifies whether to encode existing HTML entities. Defaults to `TRUE` and will convert all entities in the string. If set to `FALSE`, the function will not encode existing html entities.
 
 
@@ -54,18 +68,7 @@ The `htmlentities()` function has one required parameter and three optional para
     | ENT_XHTML     | htmlentities() function handles code as XHTML|
 
 
-  - Character sets that are supported:
-    |Charset|Aliases|Description|
-    |---|---|---|
-    |ISO-8859-1|ISO8859-1|htmlentities() function works with Western European, Latin-1 charset.|
-    |ISO-8859-15|ISO8859-15|htmlentities() function works with Western European, Latin-9. Adds the Euro sign, French and Finnish letters missing in Latin-1 (ISO-8859-1) charset.|
-    |UTF-8||htmlentities() function works with ASCII compatible multi-byte 8-bit Unicode charset.|
-    |cp866|ibm866, 866|htmlentities() function works with DOS-specific Cyrillic charset.|
-    |cp1251|Windows-1251, win-1251, 1251|htmlentities() function works with Windows-specific Cyrillic charset.|
-    |cp1252|Windows-1252, 1252|htmlentities() function works with Windows specific charset for Western European chatset.|
-    |MacRoman||htmlentities() function works with charset that was used by Mac OS.|
-
-    > **Note:** Any other character sets are not recognized. The default encoding will be used instead and a warning will be emitted.
+  
 
 
 > **Note:** The `htmlentities()` function returns the converted `$string`. However, if the `$string` parameter contains invalid encoding, it will return an empty `$string`, unless either the `ENT_IGNORE` or `ENT_SUBSTITUTE` flags are set
@@ -78,7 +81,7 @@ The `htmlentities()` function has one required parameter and three optional para
 |" (double quote)|becomes|\&quot;|
 |' (single quote)|becomes|\&#039;|
 |< (less than)|becomes|\&lt;|
-|> (greater than)|becomes|\&gt;|
+|> (greater than)|becomes|\&gt;|.
 
 
 ## Example
@@ -87,7 +90,7 @@ The following example uses the `htmlentities()` function to convert special char
 
 ```php
 <?php
-  $str = "<b>Welcome!!!</b>"
+  $str = "<b>Welcome!!!</b>";
   echo htmlentities($str);
 ?>
 ```
