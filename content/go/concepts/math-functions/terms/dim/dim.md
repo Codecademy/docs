@@ -1,6 +1,6 @@
 ---
 Title: 'Dim()'
-Description: 'Calculates the maximum of the difference between two arguments.'
+Description: 'Returns the maximum of the difference between two arguments.'
 Subjects:
   - 'Code Foundation'
   - 'Computer Science'
@@ -12,19 +12,19 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Dim()`** function takes two floating-point numbers (x and y), calculates their difference (difference := x - y), and then finds the maximum between this difference and 0 using the `math.Max()` function. The result is a single floating-point number that represents the maximum of the difference between x and y or 0.
+The **`Dim()`** function takes two floating-point numbers (`x` and `y`), calculates the difference (*x - y*), and then returns either this value, or `0` (if the difference is negative). The result is a single floating-point number that represents the maximum difference between `x` and `y`.
 
 ## Syntax
 
 ```pseudo
 difference := math.Dim(x, y)
 ```
-The `Dim()` function returns a single value of type `float64`. This value represents the difference between the two arguments (`x`-`y`) and 0. If the difference is greater than 0, it is returned; else, 0 is returned.
+
+The `Dim()` function returns a single value of type `float64`. If the difference (*x-y*) is greater than `0`, it is returned; else, `0` is returned.
 
 Note these special cases:
 - Passing `NaN` in this function will return `NaN`.
-- Passing `Inf` in this function will return `NaN`.
-- Passing `-Inf` in this function will return `NaN`.
+- Passing positive or negative `Inf` in this function will return `NaN`.
 
 ## Example
 
@@ -69,8 +69,8 @@ import (
 )
 
 func main() {
-x := math.Dim(5,2)
-fmt.Println(x)
+y := math.Dim(5, math.NaN())
+  fmt.Println(y)
 }
 
 ```
