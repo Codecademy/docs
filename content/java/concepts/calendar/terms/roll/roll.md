@@ -54,7 +54,7 @@ public class roll_method {
 
 ```
 
-The output of the above code will be:
+The output of the above code will be similar to the following:
 
 ```shell
 The Current Year is: 2023
