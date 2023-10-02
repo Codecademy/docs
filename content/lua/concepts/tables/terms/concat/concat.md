@@ -20,12 +20,12 @@ The **`concat()`** function is used to join the values of a table into a single 
 concat(table, separator, [i], [j])
 ```
 
-## Parameters
+`concat()` has the following paramteres:
 
-'table': The table containing values to concatenate.
-'separator': The character or string used to separate the concatenated values.
-'[i]' (optional): The starting index in the table for concatenation.
-'[j]' (optional): The ending index in the table for concatenation.
+`table`: The table containing values to concatenate.
+`separator`: The character or string used to separate the concatenated values.
+`[i]` (optional): The starting index in the table for concatenation.
+`[j]` (optional): The ending index in the table for concatenation.
 
 ## Example
 
