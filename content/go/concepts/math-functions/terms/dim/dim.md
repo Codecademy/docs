@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Dim()`** function takes two floating-point numbers (`x` and `y`), calculates the difference (*x - y*), and then returns either this value, or `0` (if the difference is negative). The result is a single floating-point number that represents the maximum difference between `x` and `y`.
+The **`Dim()`** function takes two floating-point numbers (`x` and `y`), calculates the difference (_x - y_), and then returns either this value, or `0` (if the difference is negative). The result is a single floating-point number that represents the maximum difference between `x` and `y`.
 
 ## Syntax
 
@@ -20,9 +20,10 @@ The **`Dim()`** function takes two floating-point numbers (`x` and `y`), calcula
 difference := math.Dim(x, y)
 ```
 
-The `Dim()` function returns a single value of type `float64`. If the difference (*x-y*) is greater than `0`, it is returned; else, `0` is returned.
+The `Dim()` function returns a single value of type `float64`. If the difference (_x-y_) is greater than `0`, it is returned; else, `0` is returned.
 
 Note these special cases:
+
 - Passing `NaN` in this function will return `NaN`.
 - Passing positive or negative `Inf` in this function will return `NaN`.
 
@@ -45,7 +46,6 @@ b := 4.0
 // Calculate the positive difference between a and b using math.Dim()
 difference := math.Dim(a, b)
 fmt.Printf("The positive difference between %.1f and %.1f is %.1f\n", a, b, difference)
-
 }
 ```
 
@@ -69,8 +69,8 @@ import (
 )
 
 func main() {
-y := math.Dim(5, math.NaN())
-  fmt.Println(y)
+val := math.Dim(5, math.NaN())
+  fmt.Println(val)
 }
 
 ```
