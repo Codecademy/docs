@@ -20,6 +20,8 @@ The **`concat()`** function is used to join the values of a table into a single 
 concat(table, separator, [i], [j])
 ```
 
+## Parameters
+
 `concat()` has the following paramteres:
 
 `table`: The table containing values to concatenate.
