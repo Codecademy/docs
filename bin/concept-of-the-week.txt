@@ -1,1 +1,1 @@
-content/css/concepts/typography/typography.md
+content/cybersecurity/concepts/disaster-recovery/disaster-recovery.md
