@@ -48,7 +48,7 @@ string.translate(table)
 	>	123def
 	```
 
-- Delete characters using a manual translation table
+- The following example shows how to delete characters using a manual translation table
 
   ```codebyte/python
   # translation table - a dictionary
