@@ -1,16 +1,16 @@
 ---
-Title: 'Exp' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'Exp is method used to calculate the exponential value of a number.' # Required; ideally under 150 characters and starts with a present-tense verb (used in search engine results and content previews)
-Subjects: 
+Title: 'Exp'
+Description: 'Exp is method used to calculate the exponential value of a number.'
+Subjects:
   - 'Computer Science'
   - 'Lua'
   - 'Game Development'
-Tags: 
+Tags:
   - 'Arithmetic'
   - 'Functions'
   - 'Math'
   - 'Numbers'
-CatalogContent: 
+CatalogContent:
   - 'learn-lua'
   - 'paths/computer-science'
 ---
@@ -39,6 +39,6 @@ math.exp(1) -- 2.718281828459
 math.exp(8) -- 2980.9579870417
 
 -- as math.log() returns the inverse of math.exp()
-math.log(2980.9579870417) -- 8 
+math.log(2980.9579870417) -- 8
 
 ```
