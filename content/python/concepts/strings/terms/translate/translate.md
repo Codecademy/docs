@@ -43,10 +43,12 @@ string.translate(table)
   print("Translated string:", translated_string)
   ```
   
-  **Return value**
-	```shell
-	>	123def
-	```
+This example outputs the following:
+
+```shell
+Original string: abcdef
+Translated string: 123def
+```
 
 - The following example shows how to delete characters using a manual translation table
 
