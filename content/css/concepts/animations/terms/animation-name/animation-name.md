@@ -55,8 +55,6 @@ div {
 }
 ```
 
-![animation-iteration-count-example-1](./animation-iteration-count-1.gif)
-
 ## Example 2
 
 Give the `animation-name` a second comma-separated value `slideleft`:
@@ -91,5 +89,3 @@ div {
   }
 }
 ```
-
-![animation-iteration-count-example-2](./animation-iteration-count-2.gif)
