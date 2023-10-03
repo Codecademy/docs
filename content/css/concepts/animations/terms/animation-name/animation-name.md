@@ -55,6 +55,8 @@ div {
 }
 ```
 
+![Example 1](example-animation-1.gif)
+
 ## Example 2
 
 Give the `animation-name` a second comma-separated value `slideleft`:
@@ -89,3 +91,5 @@ div {
   }
 }
 ```
+
+![Example 2](example-animation-2.gif)
