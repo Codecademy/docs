@@ -54,7 +54,7 @@ div {
 }
 ```
 
-![animation-iteration-count-example-2](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-animation-iteration-count-fade.gif)
+![animation-iteration-count-example-1](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-animation-iteration-count-fade.gif)
 
 ## Example 2
 
