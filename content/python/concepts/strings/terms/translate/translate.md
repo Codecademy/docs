@@ -24,8 +24,6 @@ The syntax of the `translate()` method is:
 string.translate(table)
 ```
 
-### Parameters
-
 - `table`: a translation table that lists the pairings of two characters; often previously created by the `maketrans()` method.
 
 ### Return value
