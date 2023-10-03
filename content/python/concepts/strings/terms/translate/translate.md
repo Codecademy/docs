@@ -29,7 +29,7 @@ string.translate(table)
 
 ## Examples
 
-The following example shows custom character mapping using a translation table and `.translate()`:
+- The following example shows custom character mapping using a translation table and `.translate()`:
 
   ```codebyte/python
   original_string = "abcdef"
@@ -41,8 +41,12 @@ The following example shows custom character mapping using a translation table a
   translated_string = original_string.translate(translation_table)
 
   print("Translated string:", translated_string)
-  # Return value: '123def'
   ```
+  
+  **Return value**
+	```shell
+	>	123def
+	```
 
 - Delete characters using a manual translation table
 
@@ -56,5 +60,8 @@ The following example shows custom character mapping using a translation table a
 
   # translates string
   print("Translated string:", string.translate(translation))
-  # Returns: idef
   ```
+  **Return value**
+	```shell
+	>	idef
+	```
