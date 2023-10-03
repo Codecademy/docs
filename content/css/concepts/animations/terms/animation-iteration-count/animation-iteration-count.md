@@ -54,7 +54,7 @@ div {
 }
 ```
 
-![animation-iteration-count-example-1](./animation-iteration-count-1.gif)
+![animation-iteration-count-example-2](../../../../../../media/css-animation-iteration-count-fade.gif)
 
 ## Example 2
 
@@ -93,4 +93,4 @@ div {
 }
 ```
 
-![animation-iteration-count-example-2](./animation-iteration-count-2.gif)
+![animation-iteration-count-example-2](../../../../../../media/css-animation-iteration-count-fade-slide.gif)
