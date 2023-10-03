@@ -19,8 +19,10 @@ The `foreach()` function is a programming construct that iterates through the el
 ```pseudo
 foreach(table, callback)
 ```
- - `table` refers to a data structure, such as an array or list, that contains elements to iterate over.
+
+- `table` refers to a data structure, such as an array or list, that contains elements to iterate over.
 - `callback` is a function provided as an argument to the loop, which gets executed for each element in `table`, typically to perform a specific action or operation on each item.
+
 ### Example
 
 In this example is a table containing the names of fruits, and it will use `.foreach()` to print each fruit name along with its index in the table.
