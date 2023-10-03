@@ -1,7 +1,7 @@
 ---
 Title: 'Decodable'
 Description: 'A Swift protocol that enables the conversion of data.'
-Subjects: 
+Subjects:
   - 'iOS'
   - 'Mobile Development'
 Tags:
@@ -17,7 +17,7 @@ The **`Decodable`** protocol is used to easily decode JSON or similar data forma
 
 ## Syntax
 
-Create a structure to represent the data to decode, followed by `Decodable` using the standard syntax of a Swift protocol.   
+Create a structure to represent the data to decode, followed by `Decodable` using the standard syntax of a Swift protocol.
 
 ```pseudo
 struct DataName: Decodable {
@@ -44,10 +44,16 @@ struct User: Decodable {
    "location": "England"
  }
  """
- 
+
  let userData = Data(userJson.utf8)
 
  let decoder = JSONDecoder()
  let user = try decoder.decode(User.self, from: userData)
  print(user.name)
+```
+
+This will result in the following output:
+
+```shell
+Charlotte Lucas
 ```
