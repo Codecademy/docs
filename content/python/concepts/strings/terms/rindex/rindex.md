@@ -13,11 +13,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**`.rindex()`** is used to locate the highest index of the substring within a string variable. `ValueError` will be raised when the substring cannot be found.
+**`.rindex()`** is used to locate the highest index of the substring within a string variable. A `ValueError` will be raised when the substring cannot be found.
 
 ## Syntax
 
-The syntax of the function takes the followig formats:
+The syntax of the function takes the following formats:
 
 ```pseudo
 str_variable.rindex('substring')
@@ -25,7 +25,7 @@ str_variable.rindex('substring')
 str_variable.rindex('substring', index_start, index_end)
 ```
 
-Where substring is a substring value that its highest index wants to be located. index_start and index_end are optional values when we have a specific index range.
+The method has one required parameter, `substring`, which is the substring value to be located. `index_start` and `index_end` are optional values that can be leveraged when a specific index range is required for the search.
 
 ## Example
 
@@ -50,7 +50,7 @@ This will result in the following output:
 
 ## Codebyte Example
 
-This example is runnable and demonstrate an instance where `.rindex()` will locate the substring between the given indices:
+This example is runnable and demonstrates an instance where `.rindex()` will locate the substring between the given indices:
 
 ```codebyte/python
 # Define the string variable
