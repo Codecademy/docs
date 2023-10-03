@@ -1,1 +1,1 @@
-content/markdown/concepts/emojis/emojis.md
+content/cybersecurity/concepts/disaster-recovery/disaster-recovery.md
