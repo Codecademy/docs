@@ -55,7 +55,7 @@ div {
 }
 ```
 
-![Example 1](example-animation-1.gif)
+![Example 1](../../../../../../media/css-animation-name-disappear.gif)
 
 ## Example 2
 
@@ -92,4 +92,4 @@ div {
 }
 ```
 
-![Example 2](example-animation-2.gif)
+![Example 1](../../../../../../media/css-animation-name-fade-slide.gif)
