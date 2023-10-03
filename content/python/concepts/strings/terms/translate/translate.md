@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `translate()` method takes a translation table as an argument, which can be created using the static method `maketrans()`. The translation table maps the ordinal of a character to its corresponding replacement or deletion.
+The **`.translate()`** method takes a translation table as an argument, which can be created using the static method `maketrans()`. The translation table maps the ordinal of a character to its corresponding replacement or deletion.
 
 ## Syntax
 
