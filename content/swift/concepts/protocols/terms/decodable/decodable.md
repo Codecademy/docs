@@ -30,20 +30,24 @@ struct DataName: Decodable {
 In the example below, a structure called User is created and the `Decodable` protocol is used with `JSONDecoder` to convert stored JSON into a data object.
 
 ```swift
+import Foundation
 struct User: Decodable {
-  var name: String
-  var age: Int
-  var location: String
-}
+   var name: String
+   var age: Int
+   var location: String
+ }
 
-let json = """ {
-  "name": "Charlotte Lucas"
-  "age": 27
-  "location": "England"
-}
-""".data(using: .utf8)!
+ let userJson = """
+ {
+   "name": "Charlotte Lucas",
+   "age": 27,
+   "location": "England"
+ }
+ """
+ 
+ let userData = Data(userJson.utf8)
 
-let decoder = JSONDecoder()
-let user = try decoder.decode(User.self, from: json)
-print(user.name) // Prints "Charlotte Lucas"
+ let decoder = JSONDecoder()
+ let user = try decoder.decode(User.self, from: userData)
+ print(user.name)
 ```
