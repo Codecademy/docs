@@ -92,4 +92,4 @@ div {
 }
 ```
 
-![Example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-animation-name-fade-slide.gif)
+![Example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-animation-name-fade-slide.gif)
