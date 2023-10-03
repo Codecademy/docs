@@ -63,7 +63,9 @@ Translated string: 123def
   # translates string
   print("Translated string:", string.translate(translation))
   ```
-  **Return value**
-	```shell
-	>	idef
-	```
+This example results in the following output:
+
+```shell
+Original string: abcdef
+Translated string: idef
+```
