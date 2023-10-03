@@ -29,7 +29,7 @@ string.translate(table)
 
 ## Examples
 
-- Custom character mapping using a translation table and `translate()`
+The following example shows custom character mapping using a translation table and `.translate()`:
 
   ```codebyte/python
   original_string = "abcdef"
