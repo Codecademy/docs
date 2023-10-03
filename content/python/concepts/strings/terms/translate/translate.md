@@ -25,9 +25,6 @@ string.translate(table)
 ```
 
 - `table`: a translation table that lists the pairings of two characters; often previously created by the `maketrans()` method.
-
-### Return value
-
 - Returns a copy of the string in which each character has been mapped through the given translation table replacing or removing specified characters.
 
 ## Examples
