@@ -4,7 +4,6 @@ Description: 'A Swift protocol that enables the conversion of data.'
 Subjects: 
   - 'iOS'
   - 'Mobile Development'
-  - 'Computer Science'
 Tags:
   - 'Swift'
   - 'iOS'
