@@ -1,6 +1,6 @@
 ---
 Title: 'Tables'
-Description: 'Data structures that are capable of storing values of any type other than nil.'
+Description: 'Tables are data structures that are capable of storing values of any type other than nil.'
 Subjects:
   - 'Developer Tools'
   - 'Game Development'
