@@ -152,3 +152,34 @@ void print(int a) {
   std::cout << a;
 }
 ```
+
+## Overloading
+
+The ability to create <strong>multiple functions</strong> with the <strong>same name</strong> but <strong>different parameters</strong> is called function overloading in C++. It provides a way to <strong>reuse the same function</strong> name in different contexts by accepting different data types and numbers of arguments.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+void add(int a,int b){
+  cout<<"Output,when add function is called with integer parameters: "<<a+b <<"\n";
+}
+
+void add(string a, string b){
+  cout <<"Output,when add function is called with string parameters: " <<a+b <<"\n";
+}
+
+int main() {
+  int a=10,b=10;
+  string s = "Hello",t="World!";
+  add(a,b);
+  add(s,t);
+}
+
+```
+This will Output:
+```
+When add function is called with integer parameters: 20
+When add function is called with string parameters: HelloWorld!
+```
+[Read More about Overloading](https://www.codecademy.com/resources/docs/cpp/overloading)
