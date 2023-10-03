@@ -1,6 +1,6 @@
 ---
 Title: '.translate()'
-Description: Replace / Translate characters in a string based on a mapping table.
+Description: 'Replaces characters in a string based on a mapping table.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
