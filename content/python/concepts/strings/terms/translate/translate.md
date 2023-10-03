@@ -31,17 +31,17 @@ string.translate(table)
 
 - The following example shows custom character mapping using a translation table and `.translate()`:
 
-  ```codebyte/python
-  original_string = "abcdef"
-  print("Original string:", original_string)
+```py
+original_string = "abcdef"
+print("Original string:", original_string)
 
-  translation_table = str.maketrans('abc', '123')
+translation_table = str.maketrans('abc', '123')
 
-  # translates original_string by mapping 'a' to '1', 'b' to '2', and 'c' to '3'
-  translated_string = original_string.translate(translation_table)
+# translates original_string by mapping 'a' to '1', 'b' to '2', and 'c' to '3'
+translated_string = original_string.translate(translation_table)
 
-  print("Translated string:", translated_string)
-  ```
+print("Translated string:", translated_string)
+```
   
 This example outputs the following:
 
