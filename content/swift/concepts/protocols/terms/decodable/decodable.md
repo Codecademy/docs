@@ -27,7 +27,7 @@ struct DataName: Decodable {
 
 ## Example
 
-In the example below, a structure called User is created and the `Decodable` protocol is used with `JSONDecoder` to convert stored JSON into a data object.
+In the example below, a `User` struct is defined and the `Decodable` protocol is used with `JSONDecoder` to convert stored JSON into a data object.
 
 ```swift
 import Foundation
