@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Atan()`** function takes a float64 argument representing the angle whose inverse hyperbolic tangent value you want to find. It returns this inverse hyperbolic tangent as a float64 value that can range from negative infinity to positive infinity.
+The **`Atanh()`** function takes a float64 argument representing the angle whose inverse hyperbolic tangent value you want to find. It returns this inverse hyperbolic tangent as a float64 value that can range from negative infinity to positive infinity.
 
 # Example
 
