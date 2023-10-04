@@ -29,7 +29,6 @@ The `.split()` method takes the following optional parameters:
 - A `delimiter` that is either a [regular expression](https://www.codecademy.com/resources/docs/python/regex) or a string that is composed of one or more characters.
 - The value `maxsplit` specifies the total number of splits that can occur, and the remainder of the string is returned as the final element of the list. The default value is `-1`, which means an unlimited number of splits.
 
-If the `maxsplit` parameter is not specified, or has a value of `-1`, the default value is `-1`. This means there is no maximum limit to the number of splits, and all possible splits are made.
 
 If no parameters are passed to the `.split()` method, a list is returned with the `string` as the sole element.
 
