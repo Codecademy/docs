@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Atan2()`** function returns the arctangent value of the x/y value.
+The **`Atan2()`** function returns the arctangent value of the *y/x* value.
 
 ## Syntax
 
