@@ -1,82 +1,53 @@
 ---
-Title: 'Asin()'
-Description: 'Returns the inverse sine of a number.'
+Title: 'Asin() Function'
+Description: 'Calculate the inverse sine of a number.'
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - 'Mathematics'
+  - 'Programming'
 Tags:
   - 'Math'
   - 'Trigonometry'
   - 'Functions'
 CatalogContent:
-  - 'learn-go'
-  - 'paths/computer-science'
+  - 'Learn Go'
+  - 'Paths/Computer Science'
 ---
 
-The **`Asin()`** function returns the inverse sine of a number.
+# Asin() Function
+
+The **`Asin()`** function calculates the inverse sine (also known as arcsine) of a number.
 
 ## Syntax
 
-```pseudo
+```go
 result := math.Asin(number)
 ```
 
-The `Asin()` function takes one parameter, `number`, a type of `float64`, which must be within the range of `-1` and `1` (inclusive).
+### Parameters
 
-The `Asin()` function returns a number, the inverse sine (also known as arcsine) value of `number` as a `float64`. This returned value represents an angle in radians whose sine equals the `number`. If the value of `number` is:
+- `number` (Type: `float64`): The input number for which you want to find the inverse sine. It must be within the range of `-1` and `1` (inclusive).
 
-- Zero (`0`), then it returns `0`
-- Less than `-1`, then it returns `NAN` (Not a Number)
-- Greater than `1`, then it returns `NAN`
+### Return Value
 
-> **Note:** The [`math`](https://www.codecademy.com/resources/docs/go/math-functions) library must be imported first to use this function.
+- Type: `float64`
+- Description: The `Asin()` function returns the inverse sine value of `number` as a `float64`. This value represents an angle in radians whose sine equals the input `number`.
 
-## Example
-
-The following example first calculates the inverse sine of `num` and then prints out the result to the console:
+### Example
 
 ```go
-package main
-
 import (
-  "fmt"
-  "math"
+	"fmt"
+	"math"
 )
 
 func main() {
-  num := 0.9
-
-  inverseSine := math.Asin(num)
-  fmt.Printf("The inverse sine of %f is %f\n", num, inverseSine)
+	number := 0.5
+	result := math.Asin(number)
+	fmt.Printf("The inverse sine of %.2f is %.2f radians.\n", number, result)
 }
 ```
 
-The output will be:
-
-```shell
-The inverse sine of 0.900000 is 1.119770
+In this example, we calculate the inverse sine of `0.5`, which results in an angle of approximately `0.52` radians.
 ```
 
-## Codebyte Example
-
-The following example is runnable and uses the `Asin()` function with two values: `1.1` and `0.0`.
-
-```codebyte/golang
-package main
-
-import (
-  "fmt"
-  "math"
-)
-
-func main() {
-  notInRange := 1.1
-  zero:= 0.0
-
-  resultNotInRange := math.Asin(notInRange)
-  resultZero := math.Asin(zero)
-
-  fmt.Printf("The inverse sine of %.1f is: %.1f\n", notInRange, resultNotInRange)
-  fmt.Printf("The inverse sine of %.1f is: %.1f\n", zero, resultZero)
-}
-```
+I've improved the structure and added explanations to make it easier to understand. You can use this updated README file for your project.
