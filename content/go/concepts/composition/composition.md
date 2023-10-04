@@ -133,6 +133,110 @@ Margherita pizza is a medium pizza with toppings of: [tomatoes mozzarella basil]
 Pizzeria del Corso has a rating of 4 and serves the following pizzas: [{Margherita medium [tomatoes mozzarella basil] true}]
 ```
 
+## Inheritance through Composition
+
+A `struct` can 'inherit' the fields and methods of an embedded `struct` through composition rather than traditional [inheritance](https://www.codecademy.com/resources/docs/general/programming-paradigms/inheritance).
+
+Consider the following addition to the Pizza Restaurant example:
+
+```go
+type Address struct {
+  Street  string
+  City    string
+  Country string
+}
+
+func (a Address) printAddress() string {
+  return a.Street + ", " + a.City
+}
+
+type Restaurant struct {
+  Name      string
+  Rating    int
+  PizzaMenu []Pizza
+  Address
+}
+
+func restaurantInfo(r Restaurant) string {
+  return r.Name + ", located at " + r.printAddress() + ", " + r.Country + " has a rating of " + fmt.Sprint(r.Rating) + " and serves the following pizzas: " + fmt.Sprint(r.PizzaMenu)
+}
+```
+
+An `Address` `struct` is created, and a `printAddress()` method takes an `Address` as its receiver. The anonymous field `Address` is added to `Restaurant` which allows access to the `Address` fields and methods.
+
+The `restaurantInfo()` function can now access the `printAddress()` method with `r.printAddress()` and the `Country` field with `r.Country`.
+
+The following example adds the `Address` `struct` and method:
+
+```go
+package main
+
+import "fmt"
+
+type Pizza struct {
+  Name        string
+  Size        string
+  Toppings    []string
+  IsDelicious bool
+}
+
+func pizzaStyle(p Pizza) string {
+  return p.Name + " pizza is a " + p.Size + " pizza with toppings of: " + fmt.Sprint(p.Toppings)
+}
+
+type Address struct {
+  Street  string
+  City    string
+  Country string
+}
+
+func (a Address) printAddress() string {
+  return a.Street + ", " + a.City
+}
+
+type Restaurant struct {
+  Name      string
+  Rating    int
+  PizzaMenu []Pizza
+  Address
+}
+
+func restaurantInfo(r Restaurant) string {
+  return r.Name + ", located at " + r.printAddress() + ", " + r.Country + " has a rating of " + fmt.Sprint(r.Rating) + " and serves the following pizzas: " + fmt.Sprint(r.PizzaMenu)
+}
+
+func main() {
+  myPizza := Pizza{
+    Name:        "Margherita",
+    Size:        "medium",
+    Toppings:    []string{"tomatoes", "mozzarella", "basil"},
+    IsDelicious: true,
+  }
+
+  myAddress := Address{
+    Street: "1st Avenue",
+    City:   "New York",
+  }
+
+  myRestaurant := Restaurant{
+    Name:      "Pizzeria del Corso",
+    Rating:    4,
+    PizzaMenu: []Pizza{myPizza},
+    Address:   myAddress,
+  }
+
+  fmt.Println(pizzaStyle(myPizza))
+  fmt.Println(restaurantInfo(myRestaurant))
+}
+```
+
+This example results in the following output:
+
+```shell
+Margherita pizza is a medium pizza with toppings of: [tomatoes mozzarella basil]
+Pizzeria del Corso, located at 1st Avenue, New York has a rating of 4 and serves the following pizzas: [{Margherita medium [tomatoes mozzarella basil] true}]
+```
+
 ## Benefits Of Using Composition
 
 Composition is a very strong technique for making complex structures and objects as a developer. Problems are broken down into smaller parts, and then managed in a structured way.
