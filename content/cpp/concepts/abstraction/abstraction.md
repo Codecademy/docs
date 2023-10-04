@@ -15,7 +15,7 @@ CatalogContent:
 
 **Abstraction** involves displaying only essential information while concealing underlying details.
 
-Data abstraction refers to providing only data-related information to the user, hiding additional information that the user does not need at a given time.
+Data abstraction refers to providing only data-related information to the user, hiding additional information that is not needed.
 
 ## Access Specifiers
 
@@ -26,7 +26,6 @@ Abstraction can be implemented by using access specifiers to control the accessi
 
 ```cpp
 // C++ Program to demonstrate abstraction
-
 #include <iostream>
 using namespace std;
 
