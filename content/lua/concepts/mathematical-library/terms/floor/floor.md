@@ -27,14 +27,48 @@ As `.floor()` is a method that is a part of the standard Lua Math library, to us
 math.floor(mycoolvalue) -- returns the closest integer value that is less than or equal to mycoolvalue
 ```
 
-## Example
+## Example 1
+
+To find the closest integer less than or equal to 1.234,
 
 ```lua
-
-math.floor(1.234) -- returns 1
-math.floor(2.999) -- returns 2 as the integer value must be LESS THAN or EQUAL to the given value
-
--- as this function returns the closest integer that is less than or equal to the given value
-math.floor(-3.356) -- returns -4 as -4 is less than -3
-
+print(math.floor(1.234))
 ```
+
+This results in the following output:
+
+```shell
+1
+```
+
+## Example 2
+
+It is important to remember that `math.floor()` does not perform rounding. So the following example:
+
+```lua
+print(math.floor(2.999))
+```
+
+results in the following output:
+
+```shell
+2
+```
+
+This returns 2 as the output because the integer value must be LESS THAN or EQUAL to the given value.
+
+## Example 3
+
+When working with negative numbers, it is important to remember that `math.floor()` returns the closes integer _less than or equal_ to a given value
+
+```lua
+print(math.floor(-4.56))
+```
+
+This results in the following output:
+
+```shell
+-5
+```
+
+This is because -5 is less than -4.
