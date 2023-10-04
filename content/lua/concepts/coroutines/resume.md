@@ -16,7 +16,7 @@ The **.resume()** function in Lua resumes a coroutine after it has been stopped.
 
 The `.resume()` function resumes a coroutine named `routine`.
 
-```lua
+```pseudo
 coroutine.resume(routine)
 ```
 
@@ -24,7 +24,7 @@ coroutine.resume(routine)
 
 Consider the following code:
 
-```pseudo
+```lua
 local routineX = coroutine.create(
     function ()
         for i = 1, 5, 1 do
