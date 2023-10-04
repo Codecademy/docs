@@ -19,22 +19,23 @@ An **iterator** repeatedly executes a code block a number of times. This number 
 
 Common types of iterators in Luau are described below.
 
-## `while` loops
+## `while` Loops
 
 A `while` loop executes a code block repeatedly until a specific condition is evaluated as `false`.
 
-### `while` loop examples and syntax
+### `while` Loop Examples and Syntax
 
 ```lua
 remaining_loops = 5
 
 while remaining_loops > 0 do
-	print("There are " .. remaining_loops .. "loops remaining.")
-	remaining_loops -= 1
+  print("There are " .. remaining_loops .. " loops remaining.")
+  remaining_loops -= 1
 end
 
 print("Enough with the loops!")
 ```
+
 In the example above, the code block between `while` and `end` will be executed repeatedly until `remaining_loops > 0` is `false`. This results in the following output:
 
 ```shell
@@ -50,24 +51,24 @@ By using a condition that will never evaluate as `false`, `while` loops can run 
 
 ```lua
 while true do
-	-- put code here that will run indefinitely
+  -- Add code here that will run indefinitely
 
-	task.wait(0.1)
-	--A delay is needed when using an indefinite loop to prevent crashes.
+  task.wait(0.1)
+  --A delay is needed when using an indefinite loop to prevent crashes.
 end
 ```
 
 Indefinite loops are useful for programs that are intended to run until a user chooses to end them.
 
-## `repeat` loops
+## `repeat` Loops
 
 A `repeat` loop is similar to a while loop. The key difference is that a repeat loop evaluates its condition after the first run of its code block.
 
-### `repeat` loop example and syntax
+### `repeat` Loop Example and Syntax
 
 ```lua
 repeat
-	print("This will always run at least once.")
+  print("This will always run at least once.")
 until false
 ```
 
@@ -77,29 +78,29 @@ This results in the output:
 This will always run at least once.
 ```
 
-## `for` loops
+## `for` Loops
 
 A `for` loop iterates through a series of elements and executes a code block at each one of those elements. This series could be a series of numbers, elements in a table, or characters in a string.
 
-### Numeric for loops
+### Numeric `for` Loops
 
-A numeric for loop iterates through a series of numbers. A numeric for loop includes a start value, end value, and an optional increment value.
+A numeric `for` loop iterates through a series of numbers. A numeric `for` loop includes a start value, end value, and an optional increment value.
 
 ```pseudo
 for i = start_value, end_value, increment_value do
-	--put code here
+  --Add code to be repeated here
 end
 ```
 
 `start_value` initializes the value of `i`. `increment_value` increments the value of `i` after each run of the loop. If `increment_value` is positive, the loop will end once `i` is greater than or equal to `end_value`. If `increment_value` is negative, the will end when `i` is less than or equal to `end_value`.
 
-#### Numeric `for` loop examples
+#### Numeric `for` Loop Examples
 
 Excluding the optional increment value parameter results in a default increment value of `1`:
 
 ```lua
 for i = 1, 3 do
-	print(i)
+  print(i)
 end
 ```
 
@@ -115,7 +116,7 @@ An example using a negative increment value:
 
 ```lua
 for i = 10, 1, -2 do
-	print(i)
+  print(i)
 end
 ```
 
@@ -129,7 +130,7 @@ Output:
 2
 ```
 
-### Generic `for` loops
+### Generic `for` Loops
 
 A generic `for` loop iterates through the indices of a table or the characters in a string.
 
@@ -145,7 +146,7 @@ mixed_table[5] = "biff"
 mixed_table["a"] = 7
 
 for i,v in pairs(mixed_table) do
-	print("The value at index " .. i .. " is " .. v)
+  print("The value at index " .. i .. " is " .. v)
 end
 ```
 
@@ -158,7 +159,7 @@ The value at index 5 is biff
 The value at index a is 7
 ```
 
-Note that the order in which the elements of the table are looped through is not guaranteed when using `pairs()`.
+> **Note:** The order in which the elements of the table are looped through is not guaranteed when using `pairs()`.
 
 #### `ipairs()`
 
@@ -171,7 +172,7 @@ The `ipairs()` function can also be used to iterate through a table, but it has 
 
 Due to these differences, `ipairs()` is best used for iterating through arrays.
 
-Compare the behavior of `ipairs()` when used on an identical table as in the previous example:
+Compare the behavior of `ipairs()` when used on the same table as above:
 
 ```lua
 mixed_table = {}
@@ -181,7 +182,7 @@ mixed_table[5] = "biff"
 mixed_table["a"] = 7
 
 for i,v in ipairs(mixed_table) do
-	print("The value at index " .. i .. " is " .. v)
+  print("The value at index " .. i .. " is " .. v)
 end
 ```
 
@@ -198,7 +199,7 @@ The `string.gmatch()` function can be used to iterate through characters in a st
 
 ```lua
 for char in string.gmatch("sarsaparilla", ".") do
-	print(char)
+  print(char)
 end
 ```
 
@@ -227,11 +228,11 @@ The keyword `break` can be used in any type of loop to instantly force a loop to
 
 ```lua
 for i = 1, 10 do
-	if(i == 6) then
-		break
-	end
+  if(i == 6) then
+    break
+  end
 	
-	print(i)
+  print(i)
 end
 ```
 
