@@ -17,7 +17,7 @@ The **`.translate()`** method takes a translation table as an argument and maps 
 
 ## Syntax
 
-The syntax of the `translate()` method is:
+The syntax of the `.translate()` method is:
 
 ```pseudo
 a_string.translate(table)
