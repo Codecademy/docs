@@ -27,16 +27,46 @@ As `.exp()` is a method that is a part of the standard Lua Math library, to use 
 math.exp(mycoolvalue) -- returns the result of e raised to the power of mycoolvalue
 ```
 
-## Example
+## Example 1
+
+To find the exponential value of 0,
 
 ```lua
--- This function returns e raised to the power of a given value
+print(math.exp(0))
+```
 
-math.exp(0) -- This returns 1, as e raised to the power 0 equals 1
-math.exp(1) -- 2.718281828459
-math.exp(8) -- 2980.9579870417
+This results in the following output:
 
--- as math.log() returns the inverse of math.exp()
-math.log(2980.9579870417) -- 8
+```shell
+1.0
+```
 
+This is because e raised to the power 0 (e^0) equals 1.
+
+## Example 2
+
+Similarly, to find the exponential value of 8,
+
+```lua
+print(math.exp(8))
+```
+
+This results in the following output:
+
+```shell
+2980.9579870417
+```
+
+This equals the value of e raised to the power 8 (e^8).
+
+As `math.log()` is the inverse of `math.exp()`,
+
+```lua
+print(math.log(2980.9579870417))
+```
+
+results in the following output:
+
+```shell
+8.0
 ```
