@@ -252,7 +252,7 @@ This example results in the following output:
 
 ```shell
 Margherita pizza is a medium pizza with toppings of: [tomatoes mozzarella basil]
-Pizzeria del Corso, located at 1st Avenue, New York has a rating of 4 and serves the following pizzas: [{Margherita medium [tomatoes mozzarella basil] true}]
+Pizzeria del Corso, located at 1st Avenue, New York, USA has a rating of 4 and serves the following pizzas: [{Margherita medium [tomatoes mozzarella basil] true}]
 ```
 
 ## Benefits Of Using Composition
