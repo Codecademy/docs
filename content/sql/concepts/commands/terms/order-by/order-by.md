@@ -25,8 +25,9 @@ SELECT column_name
 FROM table_name
 ORDER BY column_name ASC | DESC;
 ```
-It's also possible to `ORDER BY` **multiple columns**: 
-> _by seperating with a comma_
+
+It's also possible to `ORDER BY` multiple columns by separating them with a comma.
+
 ```
 SELECT column_name_1
 FROM table_name
