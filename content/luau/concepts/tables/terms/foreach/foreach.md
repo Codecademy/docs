@@ -1,6 +1,7 @@
 ---
 Title: 'foreach()'
-Description: 'Iterates through the elements of a provided table or collection, using a specified callback function to perform operations on each element'
+Description: 'Iterates through the elements of a provided table or collection, using a specified callback function to perform operations on each element.'
+
 Subjects:
   - 'Computer Science'
 Tags:
@@ -11,9 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-
-The `foreach()` function is a programming construct that iterates through the elements of a provided table or collection, using a specified callback function to perform operations on each element. During each iteration, the callback function is invoked and passed two parameters: the index (or key) and the value associated with the current element in the table.
-
+The **`foreach()`** function is a programming construct that iterates through the elements of a provided table or collection, using a specified callback function to perform operations on each element. During each iteration, the callback function is invoked and passed two parameters: the index (or key) and the value associated with the current element in the table.
 ### Syntax 
  
 ```pseudo
@@ -25,7 +24,7 @@ foreach(table, callback)
 
 ### Example
 
-In this example is a table containing the names of fruits, and it will use `.foreach()` to print each fruit name along with its index in the table.
+In this example a table containing the names of fruits is declared, and the `.foreach()` function is used to print each fruit name along with its index in the table.
 
 ```lua
 -- Define a table of fruits
@@ -38,7 +37,6 @@ end
 
 -- Use the `foreach()` function to iterate through the table
 table.foreach(fruits, printFruit)
-
 ```
 
 This example results in the following output:
