@@ -137,6 +137,24 @@ Pizzeria del Corso has a rating of 4 and serves the following pizzas: [{Margheri
 
 A `struct` can 'inherit' the fields and methods of an embedded `struct` through composition rather than traditional [inheritance](https://www.codecademy.com/resources/docs/general/programming-paradigms/inheritance).
 
+```pseudo
+type Embedded struct {
+  field string
+}
+
+func (a Embedded) printField() string {
+  return a.field
+}
+
+type MainStruct struct {
+  Embedded
+}
+
+func PrintEmbedded(m MainStruct) string {
+  return m.printField()
+}
+```
+
 Consider the following addition to the Pizza Restaurant example:
 
 ```go
