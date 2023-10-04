@@ -3,6 +3,7 @@ Title: 'Rust'
 Description: 'Rust is a programming language first released in 2015. With its focus on type safety, concurrency, and performance, it is a safe and practical language to write low level code while avoiding some of the drawbacks and security vulnerabilities associated with other languages like C and C++.'
 CatalogContent:
   - 'paths/computer-science'
+  - 'learn/rust-for-programmers'
 ---
 
 **Rust** is a programming language first released in 2015. With its focus on type safety, concurrency, and performance, it is a safe and practical language to write low-level code while avoiding some of the drawbacks and security vulnerabilities associated with other languages like [C](https://www.codecademy.com/resources/docs/c) and [C++](https://www.codecademy.com/resources/docs/cpp).
