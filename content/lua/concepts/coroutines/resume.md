@@ -24,7 +24,7 @@ coroutine.resume(routine)
 
 Consider the following code:
 
-```lua
+```pseudo
 local routineX = coroutine.create(
     function ()
         for i = 1, 5, 1 do
@@ -57,7 +57,7 @@ print("Coroutine resumed!")
 Two coroutines are created. `routineX` prints `"Run coroutineX!"` twice before stopping. `routineY` prints `"Run coroutineY!` three times and ends. `routineX` then resumes and continues to print out the text three more times before ending.
 
 
-The code will return the following output:
+This example results in the following output:
 
 ```shell
 Run coroutineX!
