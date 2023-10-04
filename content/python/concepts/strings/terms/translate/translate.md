@@ -11,7 +11,6 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/analyze-data-with-python'
-  - 'paths/computer-science'
 ---
 
 The **`.translate()`** method takes a translation table as an argument, which can be created using the static method `maketrans()`. The translation table maps the ordinal of a character to its corresponding replacement or deletion.
