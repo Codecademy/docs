@@ -27,7 +27,7 @@ Notes on `Atan2()`:
 - The `result` will be between between -π/2 to π/2 radians.
 - The value returned will be of type `float64`.
 
-## Special Cases
+### Special Cases
 
 `NAN`:
 - *Atan2(y, NaN) = NaN*
