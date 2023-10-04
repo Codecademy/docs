@@ -6,7 +6,8 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Abstraction'
-  - 'Advantages'
+  - 'Objects'
+  - 'OOP'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
