@@ -54,7 +54,7 @@ Translated string: 123def
 The following example shows how to delete characters using a manual translation table:
 
 ```codebyte/python
-# translation table - a dictionary
+# Translation table - a dictionary
 # If a character is mapped to None, the character is deleted from the return string
 translation = {97: None, 98: None, 99: 105}
 
