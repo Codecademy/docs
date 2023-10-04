@@ -25,11 +25,7 @@ string.rstrip([characters])
 
 ## Example
 
-In the following example, the `rstrip()` method is called twice.
-
-The first call does not specify characters to remove, so whitespace is removed.
-
-The second call specifies the characters to remove from the end of the string.
+In the following example, the `.rstrip()` method is called twice. The first call does not specify characters to remove, so whitespace is removed. And the second call specifies the characters `"se"` to be removed from the end of the string.
 
 ```py
 example_a = "happiness    "
@@ -50,6 +46,8 @@ Example B: Tenn
 ```
 
 ## Codebyte Example
+
+In the following example, the `.rstrip()` method is called twice. The first call does not specify characters to remove, so whitespace is removed. The second call specifies the characters `"sca"` to be removed from the end of the string.
 
 ```codebyte/python
 first_string = "  unreal   unearth   "
