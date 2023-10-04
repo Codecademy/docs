@@ -61,6 +61,6 @@ translation = {97: None, 98: None, 99: 105}
 string = "abcdef"
 print("Original string:", string)
 
-# translates string
+# Translates string
 print("Translated string:", string.translate(translation))
 ```
