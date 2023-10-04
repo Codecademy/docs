@@ -27,6 +27,7 @@ result := math.Asin(number)
 
 - `number` (Type: `float64`): The input number for which you want to find the inverse sine. It must be within the range of `-1` and `1` (inclusive).
 
+
 ### Return Value
 
 - Type: `float64`
