@@ -28,9 +28,8 @@ str.rsplit(separator, maxsplit)
 - `separator (optional)`: This is the delimiter based on which the string will be split. If not specified, any whitespace (spaces, tabs, and newlines) will be used as the separator.
 - `maxsplit (optional)`: This parameter specifies the maximum number of splits. It determines the maximum number of elements in the returned list. If not specified or set to -1, there is no limit on the number of splits.
 
-## Example
-
 ## Example 1
+
 In this example, the `.rsplit()` method is applied to the string `sentence` without specifying a separator. It splits the string from the right based on whitespace, resulting in a list of words.
 ```py
 sentence = "This is a sample sentence."
@@ -47,6 +46,7 @@ This results in the following output:
 ```
 
 ## Example 2
+
 In this example, the `.rsplit()` method is employed to split the `full_name` string from the right, with a `maxsplit` parameter set to 1. This effectively separates the last name from the rest of the full name.
 ```py
 full_name = "John Doe Smith"
