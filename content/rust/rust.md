@@ -1,12 +1,11 @@
 ---
 Title: 'Rust'
 Description: 'Rust is a programming language first released in 2015. With its focus on type safety, concurrency, and performance, it is a safe and practical language to write low level code while avoiding some of the drawbacks and security vulnerabilities associated with other languages like C and C++.'
-Codecademy Hub Page: 'https://www.codecademy.com/catalog/language/rust'
 CatalogContent:
   - 'paths/computer-science'
 ---
 
-Rust is a programming language first released in 2015. With its focus on type safety, concurrency, and performance, it is a safe and practical language to write low-level code while avoiding some of the drawbacks and security vulnerabilities associated with other languages like [C](https://www.codecademy.com/resources/docs/c) and [C++](https://www.codecademy.com/resources/docs/cpp).
+**Rust** is a programming language first released in 2015. With its focus on type safety, concurrency, and performance, it is a safe and practical language to write low-level code while avoiding some of the drawbacks and security vulnerabilities associated with other languages like [C](https://www.codecademy.com/resources/docs/c) and [C++](https://www.codecademy.com/resources/docs/cpp).
 
 Rust is very useful in situations requiring system-level programming, such as operating systems, web servers, game engines, and more.
 
