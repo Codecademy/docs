@@ -36,7 +36,6 @@ ORDER BY column_name_1 ASC | DESC, column_name_2 ASC | DESC;
 
 This assumes `column_name_1` and `column_name_2` exist in `table_name`.
 
-
 `ORDER BY` can be set in two ways:
 
 - `ASC` is a keyword used to sort the results in ascending order (default).
