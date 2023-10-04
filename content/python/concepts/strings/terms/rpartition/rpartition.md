@@ -1,6 +1,6 @@
 ---
 Title: '.rpartition()' 
-Description: 'It is a string method that is used to split a string into three parts based on a specified separator.'
+Description: 'Used to split a string into three parts based on a specified separator.'
 Subjects: 
   - 'Data Science'
   - 'Web Development'
@@ -24,15 +24,10 @@ The **`rpartition()`** method is a string method that is used to split a string 
 str.rpartition(separator)
 ```
 
-The `.rpartition()` method takes the following optional parameters:
-
-- `str`: This is the string on which you want to apply the `rpartition()` method.
-
+- `str`: This is the string on which you want to apply the `.rpartition()` method.
 - `separator`: This is the delimiter that determines where to split the string.
 
-## Example
-
-- Example 1:
+## Example 1
   
 ```py
 text = "apple,orange,banana"
@@ -49,9 +44,9 @@ This results in the following output:
 ('apple,orange', ',', 'banana')
 ```
 
-In this example, the `rpartition()` method splits the string text based on the last occurrence of the comma (','). The result is a tuple containing three parts: the part before the comma, the comma itself, and the part after the comma.
+In this example, the `.rpartition()` method splits the string text based on the last occurrence of the comma (','). The result is a tuple containing three parts: the part before the comma, the comma itself, and the part after the comma.
 
-- Example 2 : If `separator` is not found
+## Example 2
   
 When a non-empty `seperator` is provided or `seperator` is not found, `rpartition()` looks for the last character in the string and splits it into three parts: everything before the last character, the last character itself, and everything after the last character.
 
