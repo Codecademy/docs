@@ -20,7 +20,7 @@ The **`.translate()`** method takes a translation table as an argument and maps 
 The syntax of the `translate()` method is:
 
 ```pseudo
-string.translate(table)
+a_string.translate(table)
 ```
 
 - `table`: a translation table that lists the pairings of two characters; often previously created by the `maketrans()` method.
