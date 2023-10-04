@@ -29,10 +29,9 @@ Notes on `Atan2()`:
 
 ## Special Cases
 
-`NAN:`
-
-- Atan2(y, NaN) = NaN
-- Atan2(NaN, x) = NaN
+`NAN`:
+- *Atan2(y, NaN) = NaN*
+- *Atan2(NaN, x) = NaN*
 
 `(+-)0:`
 
