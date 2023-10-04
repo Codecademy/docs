@@ -48,12 +48,12 @@ In this example, the `.rpartition()` method splits the string text based on the 
 
 ## Example 2
   
-When a non-empty `seperator` is provided or `seperator` is not found, `rpartition()` looks for the last character in the string and splits it into three parts: everything before the last character, the last character itself, and everything after the last character.
+When specified `seperator` is not found, `rpartition()` returns tuple containing: 1) an empty string, 2) an empty string, and 3) the given string.
 
 ```py
 text = "example"
 
-result = text.rpartition('')
+result = text.rpartition('word')
 
 print(result)
 ```
@@ -64,7 +64,7 @@ This results in the following output:
 ('exampl', 'e', '')
 ```
 
-## Codebyte Example (if applicable)
+## Codebyte Example
 
 The code below is runnable and uses `.rpartition()` to split `url` : 
 
