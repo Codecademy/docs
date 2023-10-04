@@ -32,7 +32,7 @@ Some metacharacters are concerned with the frequency of certain character patter
 | :-----------: | --------------------------------------------------------------- | ----------------------------------------------------------------------- |
 |      `?`      | Matches zero or one of the preceding character.                 | `r'neighbo?ur'` matches "neighbor" and "neighbo**u**r."                 |
 |      `*`      | Matches zero or more of the preceding character.                | `r're*d'` matches "r**e**d" and "r**ee**d."                             |
-|      `+`      | Matches one of more of the preceding character.                 | `r'tw+o'` matches "t**w**o" but not "to."                               |
+|      `+`      | Matches one or more of the preceding character.                 | `r'tw+o'` matches "t**w**o" but not "to."                               |
 |     `\|`      | Matches either the pattern before or after the `\|`.            | `r'true\|false'` matches "**true**" or "**false**."                     |
 |     `{x}`     | Matches if the preceding character occurred `x` times in a row. | `r're{2}d'` matches "r**ee**d" (2 "e"s) but not "r**e**d" (only 1 "e"). |
 

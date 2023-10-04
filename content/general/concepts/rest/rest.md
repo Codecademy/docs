@@ -14,18 +14,15 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**REST** is an architectural style for [API](https://www.codecademy.com/resources/docs/general/api) design that is defined by six constraints. These constraints were first documented in Roy Fielding's dissertation ["Architectural Styles and the Design of Network-based Architectures"](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm). The acronym REST stands for REpresentational State Transfer, which is foundational to this design architecture, the sharing of resources, or rather representations of those resources, across systems.
+**REST** is an architectural style for [API](https://www.codecademy.com/resources/docs/general/api) design that is defined by six constraints. These constraints, or design principles, were first documented in Roy Fielding's dissertation ["Architectural Styles and the Design of Network-based Architectures"](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm). The acronym REST stands for REpresentational State Transfer.
+
+A REST [API](https://www.codecademy.com/resources/docs/general/api) is an API that follows the constraints of REST architectural style. REST APIs are the most commonly used APIs today.
 
 ## REST Constraints
 
-- Uniform Interface: A constraint that governs the implementation of these interfaces, requiring the use of standard methods and identified resources.
-
-- Layered System: This constraint requires that intermediary systems exist so that the API consumer is never interacting directly with the server.
-
-- Cacheable: Requires that information regarding if a representation can be saved, and for how long, so that this cached version can be used for equivalent requests in the future.
-
-- Client-Server Model: A separation of concerns model that prescribes an interface that is uniform and that does not share details of the implementation, otherwise known as [abstraction](https://www.codecademy.com/resources/docs/general/programming-paradigms/abstraction) and [encapsulation](https://www.codecademy.com/resources/docs/general/programming-paradigms/encapsulation) in OOP.
-
-- Statelessness: All information required to form a response must be available within the request (meaning that there is never any context information regarding the client saved between sessions).
-
-- Code-On-Demand: This is an optional requirement that simply determines that code, such as JavaScript, within the document can be executed.
+1. Uniform Interface: The API must use standard HTTP methods to represent the operations that can be performed on a resource (endpoint). Examples of these HTTP methods are `GET`, `POST`, `PUT`, and `DELETE`.
+2. Layered System: The API can be implemented with multiple layers, where each layer performs a different task. For example, the data layer (where information is stored) could be implemented on a different server than the authentication layer (where requests are verified).
+3. Cacheable: Clients must be able to [cache](https://www.codecademy.com/resources/docs/general/cache) responses, and the server must be able to tell clients how long it should keep a response stored in its cache.
+4. Client-Server Model: The client and server must be separate. They must communicate using HTTP requests and responses.
+5. Statelessness: The server must not store information related to the client's state or session. The client is responsible for storing and handling this information.
+6. Code-On-Demand (optional): In certain cases, the API can send executable code to be run on-demand by the client. JavaScript is a popular language for code-on-demand, but other languages can be used. This is an optional requirement that determines if code within the document can be executed.

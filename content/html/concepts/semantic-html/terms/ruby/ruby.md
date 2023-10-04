@@ -24,7 +24,7 @@ The `<ruby>` tag entails one or more characters that require an explanation or p
 </ruby>
 ```
 
-`<ruby` wraps around the text that needs annotation.
+`<ruby>` wraps around the text that needs annotation.
 
 ## Example
 
@@ -36,4 +36,4 @@ This following example shows `<ruby>` being used with `<rt>` and `<rp>` tag:
 
 This will display the following:
 
-![HTML ruby tag example](https://raw.githubusercontent.com/Codecademy/docs/main/ruby/semantic-html-ruby.png)
+![HTML ruby tag example](https://raw.githubusercontent.com/Codecademy/docs/main/media/semantic-html-ruby.png)
