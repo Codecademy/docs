@@ -27,9 +27,9 @@ string.translate(table)
 - `table`: a translation table that lists the pairings of two characters; often previously created by the `maketrans()` method.
 - Returns a copy of the string in which each character has been mapped through the given translation table replacing or removing specified characters.
 
-## Examples
+## Example
 
-- The following example shows custom character mapping using a translation table and `.translate()`:
+The following example shows custom character mapping using a translation table and `.translate()`:
 
 ```py
 original_string = "abcdef"
@@ -50,16 +50,18 @@ Original string: abcdef
 Translated string: 123def
 ```
 
-- The following example shows how to delete characters using a manual translation table
+## Codebyte Example
 
-  ```codebyte/python
-  # translation table - a dictionary
-  # If a character is mapped to None, the character is deleted from the return string
-  translation = {97: None, 98: None, 99: 105}
+The following example shows how to delete characters using a manual translation table:
 
-  string = "abcdef"
-  print("Original string:", string)
+```codebyte/python
+# translation table - a dictionary
+# If a character is mapped to None, the character is deleted from the return string
+translation = {97: None, 98: None, 99: 105}
 
-  # translates string
-  print("Translated string:", string.translate(translation))
-  ```
+string = "abcdef"
+print("Original string:", string)
+
+# translates string
+print("Translated string:", string.translate(translation))
+```
