@@ -1,6 +1,6 @@
 ---
 Title: '.splitlines()' 
-Description: 'A built-in string method which is used to split a multi-line string into a list of lines.'
+Description: 'Used to split a multi-line string into a list of lines.'
 Subjects: 
   - 'Data Science'
   - 'Web Development'
@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-A built-in string method in Python that is used to split a multi-line string into a list of lines. It recognizes different newline characters such as `\n`, `\r`, or `\r\n` and splits the string at those points. The method returns a list of strings, each corresponding to a line in the original multi-line string.
+**`.splitlines()`** is a built-in string method in Python that is used to split a multi-line string into a list of lines. It recognizes different newline characters such as `\n`, `\r`, or `\r\n` and splits the string at those points. The method returns a list of strings, each corresponding to a line in the original multi-line string.
 
 ## Syntax
 
@@ -24,15 +24,12 @@ A built-in string method in Python that is used to split a multi-line string int
 string.splitlines(keepends=False)
 ```
 
-The `.splitlines()` method takes the following optional parameters:
-
-- `string`: This is the string on which you want to apply the `splitlines()` method.
-
+- `string`: This is the string on which to apply the `.splitlines()` method.
 - `keepends` (optional): This is a boolean parameter. If `True`, the line break characters are included in the resulting lines. If `False` (the default), the line break characters are excluded.
 
 ## Example
 
-In this example, splitlines(keepends=True) is used to include the line break characters in the resulting lines.
+In this example, `.splitlines(keepends=True)` is used to include the line break characters in the resulting lines.
 
 ```py
 multi_line_string = "This is line 1.\nThis is line 2.\nThis is line 3."
@@ -51,7 +48,7 @@ This is line 2.
 This is line 3.
 ```
 
-In next example, a custom multi-line string with various line break characters (\n, \r\n, and \r) is used, and splitlines() is applied to split it into a list of lines.
+In next example, a custom multi-line string with various line break characters (\n, \r\n, and \r) is used, and `.splitlines()` is applied to split it into a list of lines.
 
 ```py
 custom_multi_line_string = "Line A\nLine B\r\nLine C\rLine D"
@@ -71,7 +68,7 @@ Line C
 Line D
 ```
 
-## Codebyte Example (if applicable)
+## Codebyte Example
 
 The code below is runnable and uses `.splitlines()` to split `multi_line_string`:
 
