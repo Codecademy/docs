@@ -17,7 +17,7 @@ The **`.rstrip()`** method removes trailing characters from a string. If no char
 ## Syntax
 
 ```pseudo
-string.rstrip([characters])
+string.rstrip(characters)
 ```
 
 - `string` (required): The string to remove trailing characters from.
@@ -47,7 +47,7 @@ Example B: Tenn
 
 ## Codebyte Example
 
-In the following example, the `.rstrip()` method is called twice. The first call does not specify characters to remove, so whitespace is removed. The second call specifies the characters `"sca"` to be removed from the end of the string.
+The following example is runnable and uses the `.rstrip()` method twice. The first call does not specify characters to remove, so whitespace is removed. The second call specifies the characters `"sca"` to be removed from the end of the string.
 
 ```codebyte/python
 first_string = "  unreal   unearth   "
@@ -57,5 +57,4 @@ print(first_result)
 second_string = "Francesca"
 second_result = second_string.rstrip("sca")
 print(second_result)
-``
 ```
