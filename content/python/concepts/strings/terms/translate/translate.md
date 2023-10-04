@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-The **`.translate()`** method takes a translation table as an argument, which can be created using the static method `maketrans()`. The translation table maps the ordinal of a character to its corresponding replacement or deletion.
+The **`.translate()`** method takes a translation table as an argument and maps the ordinal of a character to its corresponding replacement or deletion. A translation table can be created using the static method `maketrans()`. 
 
 ## Syntax
 
