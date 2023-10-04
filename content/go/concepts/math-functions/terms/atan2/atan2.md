@@ -34,34 +34,29 @@ Notes on `Atan2()`:
 - *Atan2(NaN, x) = NaN*
 
 `(+-)0:`
-
-- Atan2(+0, x>=0) = +0
-- Atan2(-0, x>=0) = -0
-- Atan2(y, +Inf) = +0
+- *Atan2(+0, x>=0) = +0*
+- *Atan2(-0, x>=0) = -0*
+- *Atan2(y, +Inf) = +0*
 
 `(+-)π:`
-
-- Atan2(+0, x<=-0) = +π
-- Atan2(-0, x<=-0) = -π
-- Atan2(y>0, -Inf) = +π
-- Atan2(y<0, -Inf) = -π
+- *Atan2(+0, x<=-0) = +π*
+- *Atan2(-0, x<=-0) = -π*
+- *Atan2(y>0, -Inf) = +π*
+- *Atan2(y<0, -Inf) = -π*
 
 `(+-)π/2:`
-
-- Atan2(y>0, 0) = +π/2
-- Atan2(y<0, 0) = -π/2
-- Atan2(+Inf, x) = +π/2
-- Atan2(-Inf, x) = -π/2
+- *Atan2(y>0, 0) = +π/2*
+- *Atan2(y<0, 0) = -π/2*
+- *Atan2(+Inf, x) = +π/2*
+- *Atan2(-Inf, x) = -π/2*
 
 `(+-)π/4:`
-
-- Atan2(+Inf, +Inf) = +π/4
-- Atan2(-Inf, +Inf) = -π/4
+- *Atan2(+Inf, +Inf) = +π/4*
+- *Atan2(-Inf, +Inf) = -π/4*
 
 `(+-)3π/4:`
-
-- Atan2(+Inf, -Inf) = 3π/4
-- Atan2(-Inf, -Inf) = -3π/4
+- *Atan2(+Inf, -Inf) = 3π/4*
+- *Atan2(-Inf, -Inf) = -3π/4*
 
 ## Example
 
