@@ -34,7 +34,7 @@ print_r(array_values($vehicle));
 ?>
 ```
 
-This show the values "BMW", "gold" and "X5" that are printed to the console.a
+This show the values "BMW", "gold" and "X5" that are printed to the console.
 
 ```shell
 Array
