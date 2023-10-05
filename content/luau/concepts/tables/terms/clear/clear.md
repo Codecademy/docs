@@ -27,11 +27,11 @@ The `clear()` function makes the specified table `t` empty, meaning the table do
 Consider the following table:
 
 ```lua
-local list{"🍎","🍓","🍉"}
+local fruitTable{"🍎","🍓","🍉"}
 
-table.clear(list)
+table.clear(fruitTable)
 
-print("Elements:" #list)
+print("Elements:" #fruitTable)
 ```
 
 The code will return the following output:
@@ -40,4 +40,4 @@ The code will return the following output:
 Elements: 0
 ```
 
-First a table `list` is initiated. Then the `clear()` function is used to remove all elements of the table. At this point, printing the number of elements will simply return `0` as there are no elements in the table.
+First a table `fruitTable` is initiated. Then the `clear()` function is used to remove all elements of the table. At this point, printing the number of elements will simply return `0` as there are no elements in the table.
