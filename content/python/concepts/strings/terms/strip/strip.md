@@ -1,6 +1,6 @@
 ---
 Title: '.strip()'
-Description: 'Eliminates spaces at the beginning and end of a string, and specified characters when passed as a parameter.'
+Description: 'Eliminates spaces at the beginning and end of a string, and specified characters when passed as an argument.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
