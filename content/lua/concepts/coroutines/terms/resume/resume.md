@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **.resume()** function in Lua resumes a coroutine after it has been paused.
+The **`.resume()`** function in Lua resumes a coroutine after it has been paused.
 
 ## Syntax
 
