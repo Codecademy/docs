@@ -17,10 +17,10 @@ CatalogContent:
 git 
 ## Moving transferable items can be used in iOS 16+
 
-SwiftUI `Transferable` protocol simplifies the process of adding drag and drop experience to an app. To achieve this with minimal code using the `draggable()` and `dropDestination()` modifiers.
+SwiftUI `Transferable` protocol simplifies the process of adding drag and drop experience to an app. To achieve this with minimal code using the `.draggable()` and `.dropDestination()` modifiers.
 
 **Dragging**
-To enable dragging functionality we have to attach `draggable()` view modifier to the view and pass the object. The object has to conform to the `Transferable` protocol.
+To enable dragging functionality we have to attach `.draggable()` view modifier to the view and pass the object. The object has to conform to the `Transferable` protocol.
 For example, this code displays four Apple products and allows the user to drag any of them into the box positioned below:
 
 ```swift
@@ -49,7 +49,7 @@ struct ContentView: View {
 ```
 
 **Dropping**
-In order to handle the drop we have to use `dropDestination()`. It has two parameter values: `items` is an array containing all the dragged items. However, when only one item is being dragged, this array will contain just one element. `location` indicates the position of the dragged item within the drop view.
+In order to handle the drop we have to use `.dropDestination()`. It has two parameter values: `items` is an array containing all the dragged items. However, when only one item is being dragged, this array will contain just one element. `location` indicates the position of the dragged item within the drop view.
 
 ```swift
 struct ContentView: View {
@@ -91,7 +91,7 @@ struct ContentView: View {
 
 ## Moving items using item providers 
 
-**`DropDelegate`** is a `protocol` in SwiftUI that lets you work with a drag and drop operations in a flexible way. To enable a view to accept drops, use the `onDrop()` method and specify a drop delegate.
+**`DropDelegate`** is a `protocol` in SwiftUI that lets the developer work with a drag and drop operations in a flexible way. To enable a view to accept drops, use the `onDrop()` method and specify a drop delegate.
 This code defines a drop delegate that handles different events related to dropping objects onto a view. The events are:
 
 ```pseudo
@@ -120,7 +120,7 @@ struct CDDropDelegate: DropDelegate {
 
 **DropProposal**
 
-**`DropProposal`** is a `structure` in SwiftUI that helps to control how object and drop operations should be handled when it's dropped into a SwiftUI view. It is used together with the `onDrop()` modifier to determine what happens when a user drops an object.
+**`DropProposal`** is a `structure` in SwiftUI that helps to control how object and drop operations should be handled when it's dropped into a SwiftUI view. It is used together with the `.onDrop()` modifier to determine what happens when a user drops an object.
 The `DropProposal` can be customized using the operation property to specify the drop operation (e.g., `.move` or `.copy`).
 
 ```swift
