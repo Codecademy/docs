@@ -52,6 +52,10 @@ div {
 }
 ```
 
+This code produces the following output:
+
+![animation-fill-mode forwards](/media/css-animation-fill-mode-forwards.gif)
+
 ## Example 2
 
 The `backwards` mode is used to persist the initial keyframe values computed outside of the animation's execution time:
@@ -75,3 +79,7 @@ div {
   }
 }
 ```
+
+This code produces the following output:
+
+![animation-fill-mode backwards](/media/css-animation-fill-mode-backwards.gif)
