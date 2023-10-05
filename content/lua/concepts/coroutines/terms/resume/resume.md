@@ -1,8 +1,9 @@
 ---
-Title: 'resume()'
+Title: '.resume()'
 Description: 'Resumes a coroutine.'
 Subjects:
   - 'Computer Science'
+  - 'Game Development'
 Tags:
   - 'Functions'
 CatalogContent:
@@ -10,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **.resume()** function in Lua resumes a coroutine after it has been paused.
+The **`.resume()`** function in Lua resumes a coroutine after it has been paused.
 
 ## Syntax
 
@@ -54,7 +55,7 @@ coroutine.resume(routineX)
 print("Coroutine resumed!")
 ```
 
-Two coroutines are created. `routineX` prints `"Run coroutineX!"` twice before stopping. `routineY` prints `"Run coroutineY!` three times and ends. `routineX` then resumes and continues to print out the text three more times before ending.
+Two coroutines are created. `routineX` prints `"Run coroutineX!"` twice before stopping. `routineY` prints `"Run coroutineY!"` three times and ends. `routineX` then resumes and continues to print out the text three more times before ending.
 
 
 This example results in the following output:
@@ -73,4 +74,4 @@ Run coroutineX!
 Coroutine resumed!
 ```
 
-A real world example of using `.resume()` is when copying and pasting a large folder into another folder or moving a large folder into another folder on the computer. The coroutine runs to move items to another folder, pauses to update the visual loading bar, and then resumes the coroutine of moving items over. And that repeats over and over again until moving all the items over is completed.
+A real world example of using `.resume()` is when copying and pasting a large folder into another folder or moving a large folder into another folder on the computer. The coroutine runs to move items to another folder, pauses to update the visual loading bar, and then resumes the coroutine of moving items over. And that cycle repeats over and over again until the entire transfer is complete.
