@@ -74,4 +74,4 @@ Run coroutineX!
 Coroutine resumed!
 ```
 
-A real world example of using `.resume()` is when copying and pasting a large folder into another folder or moving a large folder into another folder on the computer. The coroutine runs to move items to another folder, pauses to update the visual loading bar, and then resumes the coroutine of moving items over. And that repeats over and over again until moving all the items over is completed.
+A real world example of using `.resume()` is when copying and pasting a large folder into another folder or moving a large folder into another folder on the computer. The coroutine runs to move items to another folder, pauses to update the visual loading bar, and then resumes the coroutine of moving items over. And that cycle repeats over and over again until the entire transfer is complete.
