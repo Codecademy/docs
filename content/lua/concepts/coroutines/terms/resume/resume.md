@@ -1,5 +1,5 @@
 ---
-Title: 'resume()'
+Title: '.resume()'
 Description: 'Resumes a coroutine.'
 Subjects:
   - 'Computer Science'
