@@ -16,7 +16,7 @@ CatalogContent:
 
 ## Participation and Rewards
 
-Developers can participate by making a specific number of pull requests (typically four) to any public GitHub repository by the last day in October.
+Developers can participate by making four pull requests and having them accepted to any public GitHub repository between October 1st and 31st.
 
 Participants who successfully complete the required number of pull requests receive a reward.
 
