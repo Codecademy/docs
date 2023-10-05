@@ -28,7 +28,7 @@ coroutine.close(coroutine_thread)
 
 ## Example
 
-In this example, we use the `.close()` function to terminate a running coroutine.
+This example uses the `.close()` function to terminate a running coroutine.
 
 ```lua
 local function myCoroutine()
