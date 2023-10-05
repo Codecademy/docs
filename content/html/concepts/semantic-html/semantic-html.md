@@ -47,7 +47,7 @@ Semantic tags, such as `<header>` or `<footer>`, are designated for a specific p
 
 ## Ensuring Uniformity: Browser Compatibility and Visual Consistency
 
-Ensuring consistent appearance and behavior of your web content across various browsers and devices is crucial. This section explores two essential techniques,  **CSS Reset** and **Normalize Stylesheets**, which contribute to browser compatibility and visual consistency.
+Ensuring consistent appearance and behavior of your web content across various browsers and devices is crucial. This section explores two essential techniques, **CSS Reset** and **Normalize Stylesheets**, which contribute to browser compatibility and visual consistency.
 
 ### CSS Reset: Starting with a Clean Slate
 
@@ -56,47 +56,47 @@ A CSS reset is a technique used to establish a uniform starting point for custom
 ```css
 /* CSS Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Custom Styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
 }
 
 nav ul {
-    list-style-type: none;
-    display: flex;
-    background-color: #444;
-    padding: 0.5rem;
+  list-style-type: none;
+  display: flex;
+  background-color: #444;
+  padding: 0.5rem;
 }
 
 main {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 section {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 1rem;
-    margin-bottom: 1rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 0.5rem;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 0.5rem;
 }
 ```
 
@@ -109,45 +109,46 @@ Normalize stylesheets take a different approach. Instead of completely resetting
 ```css
 /* Custom Styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0; /* Add margin to body for spacing */
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0; /* Add margin to body for spacing */
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
 }
 
 nav ul {
-    list-style-type: none;
-    display: flex;
-    background-color: #444;
-    padding: 0.5rem;
-    margin: 0; /* Add margin to remove default margin */
+  list-style-type: none;
+  display: flex;
+  background-color: #444;
+  padding: 0.5rem;
+  margin: 0; /* Add margin to remove default margin */
 }
 
 main {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 section {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 1rem;
-    margin-bottom: 1rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 0.5rem;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 0.5rem;
 }
 ```
-![ormalize Stylesheets](https://raw.githubusercontent.com/Codecademy/docs/main/media/<normalize-stylesheets>.<png>)
+
+![normalize Stylesheets](https://raw.githubusercontent.com/Codecademy/docs/main/media/<normalize-stylesheets>.<png>)
 
 ## Testing and Validating for Browser Compatibility
 
@@ -167,7 +168,7 @@ Semantic HTML, in essence, is the practice of using HTML tags that convey the me
 
 ### Use Semantics for Meaning: Choose Wisely
 
-Semantic HTML tags should be employed to convey the meaning and purpose of the content they wrap. It's crucial to choose tags that best represent the content's function and significance. For instance, it is not appropriate to use the `<main>` element for non-essential or repetitive content. Ensure that the `<main>` tag encapsulates the primary content of the page. 
+Semantic HTML tags should be employed to convey the meaning and purpose of the content they wrap. It's crucial to choose tags that best represent the content's function and significance. For instance, it is not appropriate to use the `<main>` element for non-essential or repetitive content. Ensure that the `<main>` tag encapsulates the primary content of the page.
 
 ```html
 <body>
@@ -184,7 +185,8 @@ Semantic HTML tags should be employed to convey the meaning and purpose of the c
   </footer>
 </body>
 ```
-In this snippet, the `<main>` element wraps the primary content of the page, including the main heading and introductory text. Another common mistake is using `<article>` and `<section>` tags interchangeably. While it might not break your HTML, it's advisable to consider their intended semantic purposes for a clear and meaningful representation of your content. 
+
+In this snippet, the `<main>` element wraps the primary content of the page, including the main heading and introductory text. Another common mistake is using `<article>` and `<section>` tags interchangeably. While it might not break your HTML, it's advisable to consider their intended semantic purposes for a clear and meaningful representation of your content.
 
 ```html
 <section>
