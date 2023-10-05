@@ -3,7 +3,6 @@ Title: 'exp()'
 Description: 'Used to calculate the exponential value of a number.'
 Subjects:
   - 'Computer Science'
-  - 'Lua'
   - 'Game Development'
 Tags:
   - 'Arithmetic'
