@@ -3,6 +3,7 @@ Title: 'resume()'
 Description: 'Resumes a coroutine.'
 Subjects:
   - 'Computer Science'
+  - 'Game Development'
 Tags:
   - 'Functions'
 CatalogContent:
