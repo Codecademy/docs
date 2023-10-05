@@ -58,7 +58,6 @@ Output:
 Octopuses have three hearts and blue blood.
 ```
 
-Since the unwanted characters were at the beginning and at the end of the sentence, when passing the specified characters as a parameter in `.strip()`, the output was clean.
 
 ## Codebyte Example
 
