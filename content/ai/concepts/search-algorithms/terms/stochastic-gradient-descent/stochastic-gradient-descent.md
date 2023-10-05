@@ -19,6 +19,14 @@ CatalogContent:
 
 Similar to Gradient Descent, Stochastic Gradient Descent also aims to minimize the cost function of a model. However, instead of updating the model parameters after evaluating the entire dataset, SGD updates the parameters after each individual data point. This approach makes SGD computationally more efficient, as it avoids the need to process the entire dataset in each iteration.
 
+```pseudo
+Shuffle Training Data
+for each epoch:
+    for each mini-batch b:
+        Compute Gradient using b
+        Update Parameters using the Gradient and Learning Rate
+```
+
 In each iteration of SGD, the following steps are performed:
 
 1. **Shuffle Data**: Training data is randomly shuffled before each epoch to introduce randomness and prevent biases in updates.
@@ -26,6 +34,10 @@ In each iteration of SGD, the following steps are performed:
 3. **Compute Gradient**: The gradient of the cost function is computed using the selected mini-batch of data points. The gradient represents the direction of steepest descent, guiding the algorithm towards the minimum.
 4. **Update Parameters**: Based on the calculated gradient, the model's parameters are updated. The learning rate determines the step size of these updates and controls the convergence speed of the algorithm.
 5. **Repeat**: Steps 2 to 4 are repeated for a specified number of epochs or until a convergence criterion is met.
+
+## Uses in Machine Learning
+
+SGD is widely used in machine learning, especially for large-scale tasks like training deep neural networks. Its efficiency in processing large datasets, coupled with the ability to escape local minima, makes it a popular choice in modern machine learning frameworks. Moreover, SGD's adaptability allows it to be used in online learning settings where new data continuously arrives.
 
 ## Advantages of Stochastic Gradient Descent
 
@@ -38,23 +50,3 @@ In each iteration of SGD, the following steps are performed:
 - High Variance: The randomness introduced by mini-batch selection may lead to higher variance in parameter updates, resulting in noisy convergence.
 - Learning Rate Tuning: Choosing an appropriate learning rate is crucial, as a large learning rate may cause divergence, while a small one may slow down convergence.
 - Approximate Minima: SGD may not converge to the global minimum due to its stochastic updates.
-
-## Uses in Machine Learning
-
-SGD is widely used in machine learning, especially for large-scale tasks like training deep neural networks. Its efficiency in processing large datasets, coupled with the ability to escape local minima, makes it a popular choice in modern machine learning frameworks. Moreover, SGD's adaptability allows it to be used in online learning settings where new data continuously arrives.
-
-## Pseudocode for Stochastic Gradient Descent
-
-```pseudo
-Shuffle Training Data
-for each epoch:
-    for each mini-batch b:
-        Compute Gradient using b
-        Update Parameters using the Gradient and Learning Rate
-```
-
-## Example
-
-Consider a deep learning model trained on a dataset of one million images. Using SGD with a learning rate of 0.01 and mini-batch size of 100, we can efficiently optimize the model's parameters for image classification tasks.
-
-> Note: The example above is illustrative and may not include specific hyperparameter tuning or convergence checks required in real-world scenarios.
