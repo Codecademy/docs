@@ -41,8 +41,6 @@ Output:
 221B, Baker Street
 ```
 
-In the first print statement, the string includes leading and trailing spaces.
-In the second print statement, `.strip()` removes these spaces, resulting in a clean output.
 
 ## Example 2
 
