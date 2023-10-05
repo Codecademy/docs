@@ -55,7 +55,7 @@ coroutine.resume(routineX)
 print("Coroutine resumed!")
 ```
 
-Two coroutines are created. `routineX` prints `"Run coroutineX!"` twice before stopping. `routineY` prints `"Run coroutineY!` three times and ends. `routineX` then resumes and continues to print out the text three more times before ending.
+Two coroutines are created. `routineX` prints `"Run coroutineX!"` twice before stopping. `routineY` prints `"Run coroutineY!"` three times and ends. `routineX` then resumes and continues to print out the text three more times before ending.
 
 
 This example results in the following output:
