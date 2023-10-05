@@ -81,15 +81,6 @@ nav ul {
     padding: 0.5rem;
 }
 
-nav li {
-    margin-right: 1rem;
-}
-
-nav a {
-    text-decoration: none;
-    color: #fff;
-}
-
 main {
     padding: 2rem;
 }
@@ -136,15 +127,6 @@ nav ul {
     background-color: #444;
     padding: 0.5rem;
     margin: 0; /* Add margin to remove default margin */
-}
-
-nav li {
-    margin-right: 1rem;
-}
-
-nav a {
-    text-decoration: none;
-    color: #fff;
 }
 
 main {
