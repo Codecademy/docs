@@ -61,7 +61,7 @@ Octopuses have three hearts and blue blood.
 
 ## Codebyte Example
 
-Print the code below to prank the person who added this new entry to a shopping list, so no one would know how many bottles of soda to buy, and see the `.strip()` method in action!
+The following code is runnable and uses the `.strip()` method.
 
 ```codebyte/python
 buy_soda = "15 Sodas for Bday!"
