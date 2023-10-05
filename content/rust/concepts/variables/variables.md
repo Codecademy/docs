@@ -1,20 +1,18 @@
 ---
-Title: 'Rust'
-Description: 'A brief description.'
+Title: 'Variable'
+Description: 'A variable is a location in computer memory used to store data.'
 Subjects:
-  - 'A subject name'
-  - 'A second subject name'
-  - 'An nth subject name'
+  - 'Computer Science'
+  - 'Game Development'
+  - 'Code Foundations'
 Tags:
-  - 'A tag'
-  - 'A second tag'
-  - 'An nth tag'
+  - 'Variables'
 CatalogContent:
-  - 'learn-example-course'
-  - 'paths/example-path'
+  - 'learn-rust'
+  - 'paths/computer-science'
 ---
 
-[Introduction - make sure first mention of concept is in **bold**.] (The first 160 characters of this section will appear as the description of the page when it shows up on search engines. It's important!)
+**variable** is a location in computer memory used to store data, usually for use in a program.
 
 ## Subsection 1
 
