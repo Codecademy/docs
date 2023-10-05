@@ -162,11 +162,11 @@ The ability to create multiple functions with the same name but different parame
 using namespace std;
 
 void add(int a,int b){
-  cout << "Output,when add function is called with integer parameters: " << a+b << "\n";
+    cout << "Output, when add function is called with integer parameters: " << a+b << "\n";
 }
 
 void add(string a, string b){
-  cout << "Output,when add function is called with string parameters: " << a+b << "\n";
+   cout << "Output, when add function is called with string parameters: " << a+b << "\n";
 }
 
 int main() {
@@ -175,12 +175,11 @@ int main() {
   add(a,b);
   add(s,t);
 }
-
 ```
 
-This will Output:
+This will output:
 
-```
+```shell
 When add function is called with integer parameters: 20
 When add function is called with string parameters: HelloWorld!
 ```
