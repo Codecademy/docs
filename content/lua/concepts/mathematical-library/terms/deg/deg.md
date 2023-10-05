@@ -27,8 +27,11 @@ math.deg(x)
 Here x is the angle in randians, that has to be converted to degrees.
 
 ## Example
+
 Consider the following code:
+
 ```lua
+
 local radians =  math.pi  /  3  -- i.e (π/3)
 
 --math.pi is used to get the value of PI.
@@ -40,7 +43,9 @@ print("The angle in degrees :",degrees)
 ```
 
 The code will return the following output:
+
 ```shell
+
 The  angle  in  degrees  :  60.0
 
 ```
