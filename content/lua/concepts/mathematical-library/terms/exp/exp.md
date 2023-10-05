@@ -21,7 +21,7 @@ As a side-note, the **`math.log()`** function in the math library returns the in
 
 ## Syntax
 
-As `.exp()` is a method that is a part of the standard Lua Math library, to use this function it must be called as `math.exp()`
+As `.exp()` is a method that is a part of the standard Lua `math` library, to use this function it must be called as `math.exp()`
 
 ```pseudo
 math.exp(mycoolvalue) -- returns the result of e raised to the power of mycoolvalue
