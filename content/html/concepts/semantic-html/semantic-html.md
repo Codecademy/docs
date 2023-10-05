@@ -33,7 +33,7 @@ Semantic tags, such as `<header>` or `<footer>`, are designated for a specific p
 ```html
 <!-- Semantic HTML -->
 <footer>
-  <p>This is a footer</p>
+  <p>This is a footer.</p>
 </footer>
 ```
 
