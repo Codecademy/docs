@@ -14,15 +14,19 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-**Collections** are data structures that store multiple values of the same, or different types. Swift provides three main collection types: arrays, sets, and dictionaries.
+**Collections** are [data structures](https://www.codecademy.com/resources/docs/general/data-structures) that store multiple values of the same, or different, [type(s)](https://www.codecademy.com/resources/docs/swift/data-types).
 
-Collections are can be value types or reference types, depending on the implementation.
+Swift provides these collection types:
 
-A value type is a type whose instances are copied when they are assigned to a variable or constant, or when they are passed to a function. A reference type is a type whose instances share a single copy of the data, and use references to access it.
+- [arrays](https://www.codecademy.com/resources/docs/swift/arrays)
+- [sets](https://www.codecademy.com/resources/docs/swift/sets)
+- [dictionaries](https://www.codecademy.com/resources/docs/swift/dictionaries)
+
+Collections are value types, whose instances are copied when they are assigned to a variable or constant, or when they are passed to a function.
 
 ## Syntax
 
-In Swift, collections are defined using different syntaxes, depending on the type of collection.
+In Swift, collections are defined using different syntaxes, depending on the type of collection:
 
 ```swift
 var fruits = ["apple", "banana", "orange"] // An array
@@ -32,55 +36,35 @@ var colors = Set("red", "green", "blue") // A set
 var scores = ["Alice": 90, "Bob": 80, "Charlie": 70] // A dictionary
 ```
 
-- _Arrays_ are ordered collections of values. They are defined using square brackets `[]`, with the values separated by commas.
-- _Sets_ are unordered collections of unique values. They are defined using the Set keyword, followed by a pair of parentheses`()`, with the values separated by commas.
-- _Dictionaries_ are unordered collections of key-value pairs. They are defined using square brackets `[]`, with the keys and values separated by colons `:`, and pairs separated by commas.
-
-### `append()`,`insert()` and `remove()`
-
-Values can be added or removed from collections with the following methods:
-
-- `append()` adds a new value to the end of an array or a set.
-- `insert()` adds a new value at a specified index in an array, or inserts a new key-value pair in a dictionary.
-- `remove()` removes a value from an array or a set at a specified index, or removes a key-value pair from a dictionary by its key.
-
-```swift
-// Adding values to an array
-fruits.append("grape") // Fruits is now ["apple", "banana", "orange", "grape"]
-fruits.insert("pear", at: 1) // Fruits is now ["apple", "pear", "banana", "orange", "grape"]
-
-// Removing values from an array
-fruits.remove(at: 3) // Fruits is now ["apple", "pear", "banana", "grape"]
-fruits.removeLast() // Fruits is now ["apple", "pear", "banana"]
-
-// Adding values to a set
-colors.append("yellow") // Colors is now {"red", "green", "blue", "yellow"}
-
-// Removing values from a set
-colors.remove("green") // Colors is now {"red", "blue", "yellow"}
-
-// Adding key-value pairs to a dictionary
-scores["David"] = 85 // Scores is now ["Alice": 90, "Bob": 80, "Charlie": 70, "David": 85]
-
-// Removing key-value pairs from a dictionary
-scores.removeValue(forKey: "Bob") // Scores is now ["Alice": 90, "Charlie": 70, "David": 85]
-```
-
 ## Creating a Collection
 
 In Swift, a collection can be declared using either the literal syntax or the initializer syntax.
 
-For example, in the code below, the array `employees` is declared with names and salaries through the initialization method. The `employees` variable is assigned to the value of `[Employee]`, this creates an array of instances of the class `Employee`.
+For example, in the code below, the array `employees` is declared with names and salaries through the initialization method. The `employees` variable is assigned to the value type of `[Employee]` which creates an array of instances of the class `Employee`.
 
 ```swift
 var employees: [Employee] = [
-    Employee(name: "SpongeBob", salary: 100),
-    Employee(name: "Patrick", salary: 50),
-    Employee(name: "Squidward", salary: 200)
+  Employee(name: "SpongeBob", salary: 100),
+  Employee(name: "Patrick", salary: 50),
+  Employee(name: "Squidward", salary: 200)
 ]
 ```
 
 > **Note:**: Arrays are also named types, which are types that are given a name when defined and can be referred to as such (i.e. instances of `[Employee]` have the type `[Employee]`).
+
+### Altering Collections
+
+Values within collections can be altered:
+
+- New values can be appended to ordered collections (arrays and sets):
+  - Array: [.append()](https://www.codecademy.com/resources/docs/swift/arrays/append) method
+- New values can be inserted at a specified index (arrays and sets) or key (dictionary):
+  - Array: [.insert()](https://www.codecademy.com/resources/docs/swift/arrays/insert) method
+  - Set: [.insert()](https://www.codecademy.com/resources/docs/swift/sets/insert) method
+- Values can be removed from a collection at a specified index (arrays or sets) or at a specified key (dictionary):
+  - Array: [.remove()](https://www.codecademy.com/resources/docs/swift/arrays/remove) method
+  - Set: [.remove()](https://www.codecademy.com/resources/docs/swift/sets/remove) method
+  - Dictionary: [.removeValue()](https://www.codecademy.com/resources/docs/swift/dictionaries/removevalue) method
 
 ## Accessing Elements and Properties
 
