@@ -17,11 +17,13 @@ The **`.strip()`** method removes any whitespace at the beginning and end of a s
 
 ## Syntax
 
+The .strip() method is called on a string using the following syntax:
+
 ```pseudo
 string.strip(characters) 
 ```
 
-Parameters are optional for this method.
+- `characters` (optional): Specified character/characters to be removed from the beginning and end of the string.
 
 ## Example 1
 
