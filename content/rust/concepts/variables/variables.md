@@ -3,8 +3,6 @@ Title: 'Variable'
 Description: 'A variable is a location in computer memory used to store data.'
 Subjects:
   - 'Computer Science'
-  - 'Game Development'
-  - 'Code Foundations'
 Tags:
   - 'Variables'
 CatalogContent:
