@@ -21,7 +21,7 @@ In Lua, the **`math.floor()`** function is a standard function that is part of t
 
 ## Syntax
 
-As `.floor()` is a method that is a part of the standard Lua Math library, to use this function it must be called as `math.floor()`
+As `.floor()` is a method that is a part of the standard Lua `math` library, to use this function it must be called as `math.floor()`
 
 ```pseudo
 math.floor(mycoolvalue) -- returns the closest integer value that is less than or equal to mycoolvalue
@@ -55,7 +55,7 @@ results in the following output:
 2
 ```
 
-This returns 2 as the output because the integer value must be LESS THAN or EQUAL to the given value.
+This returns 2 as the output because the integer value must be less than or equal to the given value.
 
 ## Example 3
 
