@@ -24,7 +24,7 @@ string.zfill(arg(int))
 ```
 
 ## Codebyte Example
-The following example shows how `.zfill()` returns a a copy of that string with leading zeros. 
+The following example shows how `.zfill()` returns a copy of that string with leading zeros. 
 
 ```py
 first_string = "Codecademy"
