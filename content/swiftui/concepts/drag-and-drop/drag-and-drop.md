@@ -4,16 +4,92 @@ Description: 'Drag and Drop in SwiftUI allows a user to pick up and drop an obje
 Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
   - 'iOS'
   - 'Mobile Development'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
+Tags: 
   - 'API'
   - 'Methods'
   - 'iOS'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+CatalogContent: 
   - 'learn-ios-course'
   - 'paths/ios-developer'
 ---
 
 **Drag and Drop** in SwiftUI is the concept of moving and dropping an object (e.g. a UI element or UIView) around the screen. This feature allows users to easily rearrange, reorder, or transfer objects between different parts of the app's interface by dragging them, enhancing the overall user experience.
+
+## Moving transferable items can be used in iOS 16+
+
+SwiftUI `Transferable` protocol simplifies the process of adding drag and drop experience to an app. To achieve this with minimal code using the `draggable()` and `dropDestination()` modifiers.
+
+**Dragging**
+To enable dragging functionality we have to attach `draggable()` view modifier to the view and pass the object. The object has to conform to the `Transferable` protocol.
+For example, this code displays four Apple products and allows the user to drag any of them into the box positioned below:
+
+```swift
+struct ContentView: View {
+    @State private var appleProducts: [String] = ["iphone", "macbook.and.iphone", "ipad", "applewatch.watchface"]
+    @State private var dropImage = Image(systemName: "square.and.arrow.down")
+
+    var body: some View {
+        VStack {
+            HStack {
+                ForEach(appleProducts, id: \.self) { product in
+                    Image(systemName: product)
+                        .frame(minWidth: 50, minHeight: 50)
+                        .background(.white)
+                        .foregroundStyle(.black)
+                        .cornerRadius(10)
+                        .draggable(product)
+                }
+            }
+            .frame(minWidth: 250, minHeight: 70)
+            .cornerRadius(10)
+            .background(.yellow)
+        }
+    }
+}
+```
+
+**Dropping**
+In order to handle the drop we have to use `dropDestination()`. It has two parameter values: `items` is an array containing all the dragged items. However, when only one item is being dragged, this array will contain just one element. `location` indicates the position of the dragged item within the drop view.
+
+```swift
+struct ContentView: View {
+    @State private var appleProducts: [String] = ["iphone", "macbook.and.iphone", "ipad", "applewatch.watchface"]
+    @State private var dropImage = Image(systemName: "square.and.arrow.down")
+
+    var body: some View {
+        VStack {
+            HStack {
+                ForEach(appleProducts, id: \.self) { product in
+                    Image(systemName: product)
+                        .frame(minWidth: 50, minHeight: 50)
+                        .background(.white)
+                        .foregroundStyle(.black)
+                        .cornerRadius(10)
+                        .draggable(product)
+                }
+            }
+            .frame(minWidth: 250, minHeight: 70)
+            .cornerRadius(10)
+            .background(.yellow)
+            
+            Text("Drop items here:")
+            
+            dropImage
+                .frame(width: 200, height: 150)
+                .background(.blue)
+                .foregroundStyle(.white)
+                .cornerRadius(10)
+                .dropDestination(for: Image.self) { items, location in
+                    dropImage = items.first ?? Image(systemName: "square.and.arrow.down")
+                    print(location)
+                    return true
+                }
+        }
+    }
+}
+```
+
+## Moving items using item providers 
 
 **`DropDelegate`** is a `protocol` in SwiftUI that lets you work with a drag and drop operations in a flexible way. To enable a view to accept drops, use the `onDrop()` method and specify a drop delegate.
 This code defines a drop delegate that handles different events related to dropping objects onto a view. The events are:
@@ -41,9 +117,10 @@ struct CDDropDelegate: DropDelegate {
   }
 }
 ```
-## DropProposal
 
-**`DropProposal`** is a `structure` in SwiftUI that helps to control how object and drop operations should be handled when it's dropped into a SwiftUI view. It is used together with the `onDrop(` modifier to determine what happens when a user drops an object.
+**DropProposal**
+
+**`DropProposal`** is a `structure` in SwiftUI that helps to control how object and drop operations should be handled when it's dropped into a SwiftUI view. It is used together with the `onDrop()` modifier to determine what happens when a user drops an object.
 The `DropProposal` can be customized using the operation property to specify the drop operation (e.g., `.move` or `.copy`).
 
 ```swift
@@ -91,11 +168,11 @@ struct ContentView: View {
 
 ```
 
-## DropInfo
+**DropInfo**
 
 **`DropInfo`** is a `structure` that gives information about a drop action. It is commonly used when handling drops with the `onDrop()` modifier. `DropInfo` gives details about the drop location, the types of data being dropped, and other important information.
 
-## Drag and Drop in SwiftUI example
+**Drag and Drop in SwiftUI using `onDrag()` and `onDrop()` example**
 
 Here is the example of a simple LazyVGrid with 4 items. We have a `onDrag()` view modifier for each item which allows us to handle the dragging. And `onDrop()` view modifier allows us to move and reorder elements, with the result being stored in a State variable named `draggedItem`.
 
@@ -152,5 +229,3 @@ struct MyDropDelegate : DropDelegate {
     }
 }
 ```
-
-
