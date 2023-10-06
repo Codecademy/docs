@@ -234,6 +234,7 @@ func main() {
   myAddress := Address{
     Street: "1st Avenue",
     City:   "New York",
+    Country: "USA",
   }
 
   myRestaurant := Restaurant{
