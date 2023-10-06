@@ -22,7 +22,7 @@ $result = math.cos(angle);
 ```
 
 `result`: The variable to store the output of the cosine operation.
-`angle`: The angle in radians for which you want to calculate the cosine.
+`angle`: The angle in radians.
 
 ## Example
 
