@@ -1,5 +1,5 @@
 ---
-Title: '.ceil()'
+Title: 'ceil()'
 Description: 'Returns the smallest integer greater than or equal to x.'
 Subjects:
   - 'Computer Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.ceil()`** function in Lua's math library rounds up a given number to the smallest integer that is greater than or equal to the passed value. The given number can be a positive or negative number.
+The **`ceil()`** function in Lua's math library rounds up a given number to the smallest integer that is greater than or equal to the passed value. The given number can be a positive or negative number.
 
 ## Syntax
 
@@ -20,7 +20,7 @@ The **`.ceil()`** function in Lua's math library rounds up a given number to the
 math.ceil(x)
 ```
 
-- `x`: The number to be rounded.
+- `x`: The number to be rounded up.
 
 ## Example
 
