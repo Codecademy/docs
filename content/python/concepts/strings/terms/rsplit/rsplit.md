@@ -4,7 +4,6 @@ Description: 'Splits a string into a list of substrings from the right end of th
 Subjects: 
   - 'Data Science'
   - 'Web Development'
-  - 'Computer Science'
 Tags: 
   - 'Strings'
   - 'Methods'
@@ -24,9 +23,9 @@ The **`.rsplit()`** method in Python is a string method that splits a string int
 str.rsplit(separator, maxsplit)
 ```
 
-- `str`: This is the string that you want to split.
+- `str`: The string to be split.
 - `separator (optional)`: This is the delimiter based on which the string will be split. If not specified, any whitespace (spaces, tabs, and newlines) will be used as the separator.
-- `maxsplit (optional)`: This parameter specifies the maximum number of splits. It determines the maximum number of elements in the returned list. If not specified or set to -1, there is no limit on the number of splits.
+- `maxsplit (optional)`: This parameter specifies the maximum number of splits. It determines the maximum number of elements in the returned list. If not specified or set to `-1`, there is no limit on the number of splits.
 
 ## Example 1
 
@@ -47,7 +46,7 @@ This results in the following output:
 
 ## Example 2
 
-In this example, the `.rsplit()` method is employed to split the `full_name` string from the right, with a `maxsplit` parameter set to 1. This effectively separates the last name from the rest of the full name.
+In this example, the `.rsplit()` method is employed to split the `full_name` string from the right, with a `maxsplit` parameter set to `1`. This effectively separates the last name from the rest of the full name.
 ```py
 full_name = "John Doe Smith"
 
