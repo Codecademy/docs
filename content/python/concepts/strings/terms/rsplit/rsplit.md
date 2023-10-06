@@ -1,10 +1,10 @@
 ---
-Title: '.rsplit()' 
+Title: '.rsplit()'
 Description: 'Splits a string into a list of substrings from the right end of the string based on a specified delimiter.'
-Subjects: 
+Subjects:
   - 'Data Science'
   - 'Web Development'
-Tags: 
+Tags:
   - 'Strings'
   - 'Methods'
   - 'Formatting'
@@ -30,6 +30,7 @@ str.rsplit(separator, maxsplit)
 ## Example 1
 
 In this example, the `.rsplit()` method is applied to the string `sentence` without specifying a separator. It splits the string from the right based on whitespace, resulting in a list of words.
+
 ```py
 sentence = "This is a sample sentence."
 
@@ -47,6 +48,7 @@ This results in the following output:
 ## Example 2
 
 In this example, the `.rsplit()` method is employed to split the `full_name` string from the right, with a `maxsplit` parameter set to `1`. This effectively separates the last name from the rest of the full name.
+
 ```py
 full_name = "John Doe Smith"
 
