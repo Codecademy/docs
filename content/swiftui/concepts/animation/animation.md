@@ -75,7 +75,7 @@ struct ExplicitAnimation: View {
 }
 ```
 
-> **Note:** `withAnimation()` isn't a view modifier like `.animation()`. It's a function that needs to be called to perform the change to the state in a smooth way, which means that any view that uses the same state in its view will also be animated.
+> **Note:** `withAnimation()` isn't a view modifier like `.animation()`. It's a function that needs to be called to perform the change to the state smoothly. This means that any view that uses the same state in its view will also be animated.
 
 ![Gif showing the effect of explicit animation on the view.](https://raw.githubusercontent.com/Codecademy/docs/main/media/Explicit-Animation-Swiftui.gif)
 
