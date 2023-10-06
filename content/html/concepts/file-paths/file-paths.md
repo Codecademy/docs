@@ -50,6 +50,32 @@ Relative file paths begin with `./` followed by a path to the local file. `./` t
 </a>
 ```
 
+## Root-Relative File Paths
+
+Root-relative paths are similar to absolute paths, but they start from the root of the website (domain) regardless of the current directory
+
+- "/images/logo.png" (references an image file from the root of the website)
+- "/css/styles.css"  (reference stylesheets and scripts from the root as well)
+- "/js/script.js"    (reference stylesheets and scripts from the root as well)
+
+Path-Relative file paths begin with `./` This forward slash signals to the web browser that the path should be resolved starting from the root directory of the website.
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Root-relative Paths Example</title>
+</head>
+<body>
+    <img src="/images/logo.png" alt="Company Logo">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/script.js"></script>
+</body>
+</html>
+
+```
+
+
 ## Link to a Specific Part of the Page
 
 The anchor element `<a>` can create hyperlinks to different parts of the same HTML document using the `href` attribute to point to the desired location with `#` followed by the `id` of the element to link to.
