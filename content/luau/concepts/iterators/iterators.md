@@ -231,7 +231,7 @@ for i = 1, 10 do
   if(i == 6) then
     break
   end
-	
+
   print(i)
 end
 ```
