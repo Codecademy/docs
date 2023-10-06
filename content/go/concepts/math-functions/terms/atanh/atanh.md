@@ -39,7 +39,8 @@ func main() {
 } 
 ```
 
-The output will be
+The output will be:
+
 ```shell
 0.5493061443340548
 NaN
