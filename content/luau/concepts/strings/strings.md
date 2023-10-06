@@ -1,6 +1,6 @@
 ---
 Title: 'Strings'
-Description: 'Strings are a primitive data type, that can be sequence of characters surrounded by single quotes or double quotes.'
+Description: 'Strings are a primitive data type that can be a sequence of characters surrounded by single or double quotes.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -22,11 +22,11 @@ local anotherString = '123' -- Using single quotes
 local emptyString = '' -- '' or "" can be used
 ```
 
-The 'string' variable contains a string that was defined with double quotes. The 'anotherString' variable contains a string that was defined with single quotes. The 'emptyString' variable contains no characters, and it is called as an empty string.
+The 'string' variable contains a string defined with double quotes. The 'anotherString' variable contains a string defined with single quotes. The 'emptyString' variable contains no characters and is called an empty string.
 
 ## Concatenation
 
-Multiple strings can be concatenated or joined together using  `..` operator. The following example shows how 'firstName' and 'lastName' variables are concatenated into one sentence:
+Multiple strings can be concatenated or joined using the `..` operator. The following example shows how the 'firstName' and 'lastName' variables are concatenated into one sentence:
 
 ```pseudo
 local firstName = 'Aragorn'
@@ -36,7 +36,7 @@ print('I am ' .. firstName .. ' ' .. lastName .. '.') -- Output: "I am Aragorn s
 
 ## Escape Sequences
 
-Luau supports escape sequences within strings to represent special characters. Some common escape sequences are:
+Luau supports escape sequences that are essential in strings to represent special characters or formatting that cannot be directly typed. For example, escape sequences allow you to include characters like double quotes or single quotes within a string without causing syntax errors. These sequences begin with a backslash `\` followed by a character. The table below shows some common escape sequences:
 
 | Escape Sequence | Description     |
 | --------------- | ----------------|
