@@ -1,5 +1,5 @@
 ---
-Title: '.close()'
+Title: 'close()'
 Description: 'Allows the user to gracefully terminate a coroutine, freeing up associated resources in the process.'
 Subjects:
   - 'Computer Science'
@@ -13,8 +13,8 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.close()` function in Lua's coroutine module is employed to gracefully terminate a coroutine and release its associated resources.
-It yields a boolean value, signifying `true` if the coroutine has been successfully closed; otherwise, it returns `false`.
+The **`close()`** function in Lua's coroutine module is employed to gracefully terminate a coroutine and release its associated resources.
+It yields a boolean value, `true`, if the coroutine has been successfully closed, otherwise it returns `false`.
 
 ## Syntax
 
@@ -24,11 +24,11 @@ coroutine.close(coroutine_thread)
 
 - The `close()` function is used to explicitly release resources associated with a coroutine, making it safe to close coroutines that have finished their execution.
 - Attempting to close a running coroutine or a coroutine that has already been closed will result in an error.
-- Always check the return values of `coroutine.close()` to handle potential errors gracefully.
+- Always check the return values of `coroutine.close()` to handle potential errors appropriately.
 
 ## Example
 
-This example uses the `.close()` function to terminate a running coroutine.
+This example uses the `close()` function to terminate a running coroutine.
 
 ```lua
 local function myCoroutine()
@@ -52,7 +52,7 @@ Closing coroutine:   true   nil
 
 ## Codebyte Example
 
-In the codebyte example below we create a coroutine using `coroutine.create()`, start it with `coroutine.resume()`, and then close it with `coroutine.close()`.
+This example is runnable and creates a coroutine using `coroutine.create()`, starts it with `coroutine.resume()`, and then closes it with `coroutine.close()`.
 
 ```codebyte/lua
 local function manageCoroutine()
