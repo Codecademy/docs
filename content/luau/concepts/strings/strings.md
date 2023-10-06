@@ -31,24 +31,30 @@ Multiple strings can be concatenated or joined together using  `..` operator. Th
 ```pseudo
 local firstName = 'Aragorn'
 local lastName = 'son of Arathorn'
-print('I am ' .. firstName .. lastName .. '.') -- Output: "I am Aragorn son of Arathorn."
+print('I am ' .. firstName .. ' ' .. lastName .. '.') -- Output: "I am Aragorn son of Arathorn."
 ```
 
 ## Escape Sequences
 
 Luau supports escape sequences within strings to represent special characters. Some common escape sequences are:
 
-- `\"` to represent a double quote
-- `\'` to represent a single quote
-- `\n` to represent a newline
-- `\\` to represent a backslash
-- `\b` to represent a backspace
-- `\t` to represent a tab.
+| Escape Sequence | Description     |
+| --------------- | ----------------|
+|`\"`             | Double quote    |
+|`\'`             | Single quote    |
+|`\n`             | New line        |
+|`\\`             | Backslash       |
+|`\b`             | Backspace       |
+|`\t`             | Tab             |
+|`\v`             | Vertical tab    |
+|`\a`             | Bell (alert)    |
+|`\f`             | Form feed       |
+|`\r`             | Carriage return |
 
 The following example shows the usage of the '\n' characters to represent newlines in a string:
 
 ```pseudo
-local secretMessage = "One ring to rule them all,\none ring to find them,\nOne ring to bring them all\nand in the darkness bind them."
+local secretMessage = 'One ring to rule them all,\none ring to find them,\nOne ring to bring them all\nand in the darkness bind them.'
 
 print(secretMessage)
 -- Output:
@@ -58,21 +64,25 @@ print(secretMessage)
 -- and in the darkness bind them.
 ```
 
-The following is a list of some useful escape characters supported by Lua strings:
+## String Length
 
-| Description                   | Escape Characters |
-| ----------------------------- | ----------------- |
-| bell                          | `\a`              |
-| backspace                     | `\b`              |
-| form feed                     | `\f`              |
-| new line                      | `\n`              |
-| carriage return               | `\r`              |
-| horizontal tab                | `\t`              |
-| vertical tab                  | `\v`              |
-| backslash                     | `\\`              |
-| quotation mark [double quote] | `\"`              |
-| apostrophe [single quote]     | `\'`              |
+A shorthand for defining the length of a string, the number of characters, inclusive spaces, the `#` operator can be used:
+
+```pseudo
+local text = 'One Does Not Simply Walk into Mordor.'
+local length = #text
+print(length) -- Output: 37
+```
+
+In addition to the shorthand notation using the `#` operator, you can also calculate the length of a string using the `string.len()` function.
 
 ## String Functions
 
-Lua's string library contains many different string functions that can be used to manipulate strings. These functions include the following:
+Luau provides various built-in string functions to manipulate and work with strings. The example below shows how the `.upper()` string function is used on a string to change the characters of a string into uppercase:
+
+```pseudo
+local name = 'bilbo baggins'
+print(name.upper()) -- Output: BILBO BAGGINS
+```
+
+Below is a list of the most common built-in string functions.
