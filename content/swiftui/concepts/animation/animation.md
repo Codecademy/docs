@@ -13,7 +13,7 @@ CatalogContent:
   - 'path/iOS-path'
 ---
 
-**Animation** is the ability to add smooth view changes to a view by changing the state of the view. There are two types of animation in SwiftUI: implicit and explicit animation. 
+**Animation** is the ability to add smooth view changes to a view by changing the state of the view. There are two types of animation in SwiftUI: implicit and explicit animation.
 
 It's a very powerful tool in SwiftUI that enhances the user experience of an app by making it more interactive. Custom views can be animated by conforming to the `Animatable` protocol, which tells SwiftUI about the value to animate.
 
@@ -21,7 +21,7 @@ It's a very powerful tool in SwiftUI that enhances the user experience of an app
 
 To be able to add animation to a view, three things are required:
 
-1. A variable that changes to activate the animation. 
+1. A variable that changes to activate the animation.
 2. Flow control to manage the animation.
 3. The actual animation; use of the [.animation()](https://www.codecademy.com/resources/docs/swiftui/viewmodifier/animation) modifier on the desired view to be animated.
 
@@ -30,7 +30,7 @@ These components are essential to build animation implicitly or explicitly on a 
 ```swift
 struct ImplicitAnimation: View {
     @State var isanimation = false // @State variable that changes to activate the animation.
-    
+
     var body: some View {
         Button {
             isanimation.toggle()
@@ -58,7 +58,7 @@ To be able to make explicit animation, use the same three steps used in the impl
 ```swift
 struct ExplicitAnimation: View {
     @State var isanimation = false // @State variable that changes to activate the animation.
-    
+
     var body: some View {
         Button {
             withAnimation(.spring()) {
@@ -79,12 +79,12 @@ struct ExplicitAnimation: View {
 
 ![Gif showing the effect of explicit animation on the view.](https://raw.githubusercontent.com/Codecademy/docs/main/media/Explicit-Animation-Swiftui.gif)
 
-As shown in the output, `withAnimation()` is used to change the position of the button with a spring effect to it.  One notable advantage of explicit animation is the ability for different views to be animated with a single call to `withAnimation()`. However, the two different views must use the same state variable to do so. For example, to animate the button label view's background color and the position of the button at the same time, a ternary operator will be added to `.background()`. This is shown in the following code:
+As shown in the output, `withAnimation()` is used to change the position of the button with a spring effect to it. One notable advantage of explicit animation is the ability for different views to be animated with a single call to `withAnimation()`. However, the two different views must use the same state variable to do so. For example, to animate the button label view's background color and the position of the button at the same time, a ternary operator will be added to `.background()`. This is shown in the following code:
 
 ```swift
 struct ExplicitAnimation: View {
     @State var isanimation = false // @State variable that changes to activate the animation.
-    
+
     var body: some View {
         Button {
             withAnimation(.spring()) {
