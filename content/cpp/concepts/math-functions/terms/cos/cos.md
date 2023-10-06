@@ -19,7 +19,7 @@ The **`cos()`** returns the cosine of an argument given in radians.
 std::cos(n)
 ```
 
-## Example 1
+## Example
 
 Use `cos()` to return the cosine of `3.1416` radians:
 
@@ -34,6 +34,31 @@ int main() {
   result = std::cos(x);
 
   std::cout << "The cosine of " << x << " radians is " << result << "\n";
-  // Output: The cosine of 3.1416 radians is -1
+}
+```
+
+This results in the following output:
+
+```shell
+The cosine of 3.1416 radians is -1
+```
+
+## Codebyte Example
+
+Use `cos()` to return the cosine of `25` degrees:
+
+```codebyte/cpp
+#include <iostream>
+#include <cmath>
+
+int main() {
+  double x = 25;
+  double result;
+
+  // Converting degrees to radians
+  rad = x*M_PI/180
+  result = std::cos(rad);
+
+  std::cout << "The cosine of " << x << " degrees is " << result << "\n";
 }
 ```
