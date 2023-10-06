@@ -19,6 +19,8 @@ There are two ways to format text with HTML. One way is to use [HTML tags](https
 
 ## HTML Tags
 
+> **Note**: While legacy usage of the `<b>`,`<i>`, and `<u>` elements were to explicitly format text in a HTML document, that use has been deprecated. These tags now indicate characteristics of the text without specifying a definitive format for how it is rendered. If a specific format is required, CSS should be used.
+
 The following HTML elements can affect the formatting of text:
 
 - [`<b>`](https://www.codecademy.com/resources/docs/html/elements/b): Represents text that the reader's attention should be directed to, without further significance. Usually displayed with boldface.
@@ -27,8 +29,6 @@ The following HTML elements can affect the formatting of text:
 - [`<i>`](https://www.codecademy.com/resources/docs/html/elements/i): Represents text set off as an idiomatic expression, technical term, taxonomical designation and so on. Usually displayed with italics.
 - [`<strong>`](https://www.codecademy.com/resources/docs/html/elements/strong): Represents text that is urgent or important. Usually displayed with boldface.
 - [`<u>`](https://www.codecademy.com/resources/docs/html/elements/u): Represents text to be displayed with a non-textual annotation. Usually displayed using a solid underline.
-
-While legacy usage of the `<b>`,`<i>`, and `<u>` elements were to explicitly format text in a HTML document, that use has been deprecated. These tags now indicate characteristics of the text without specifying a definitive format for how it is rendered. If a specific format is required, CSS should be used.
 
 ## Style HTML Using CSS
 

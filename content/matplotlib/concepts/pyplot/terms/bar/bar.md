@@ -13,12 +13,12 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **`.bar()`** function returns a chart/graph that represents categorical data with vertical bars with heights proportional to the values that they represent. Bars can be plotted as stacked or grouped.
+The **`.bar()`** function returns a chart/graph that represents categorical data using vertical bars with heights proportional to the values that they represent. Bars can be plotted as stacked or grouped.
 
 ## Syntax
 
 ```pseudo
-plt.bar(x, height, width, bottom, align)
+plt.bar(x, height, width, bottom, align, kwargs)
 ```
 
 The parameters to the function are:
@@ -28,10 +28,11 @@ The parameters to the function are:
 - `width`: Float or array-like values designating the widths of the bars (the default is 0.8).
 - `bottom`: Float or array-like values to designate the y coordinates of the bars (default: 0).
 - `align`: Keyword (‘center’ or ‘edge’) designating the bar alignment (default: ‘center’).
+- `kwargs`: Keywords (properties of Matplotlib rectangle) can be passed to further customize elements of the plot (e.g. fill, color, hatch).
 
 ## Example
 
-Goal: Return the value of "X", "Y" und "Z" in a graph representation. The `x` represnts the x-axis while the `y` represnts the y-axis. In the X-axis, we define the "X", "Y" and "Z" parameters that we want to represent. In the y-axis, we define the value of each parameter. The last piece of code specifies the bar color and displays the graph.
+Goal: Return the value of "X", "Y" and "Z" in a graph representation. In this example, the `x` and `y` arrays will be allocated to the `x` and `height` arguments respectively. The last argument specifies the color of the bars.
 
 ```py
 import matplotlib.pyplot as plt
@@ -43,3 +44,7 @@ y = np.array([10, 25, 15])
 plt.bar(x, y, color = "green")
 plt.show()
 ```
+
+Output:
+
+![Output of matplotlib.pyplot.bar() method example](https://raw.githubusercontent.com/Codecademy/docs/main/media/matplotlib-barplot-example.png)

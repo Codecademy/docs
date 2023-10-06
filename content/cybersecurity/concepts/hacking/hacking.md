@@ -24,7 +24,7 @@ Hackers can be split into three distinct types: black hats, grey hats, and white
 
 ### Black Hat Hackers
 
-These are the hackers that are notoriously regarded as "the bad guys" that infiltrate systems either for personal gain or to impress other hackers. Generally, a black hat hacker use malware, viruses, and ransomware attacks to do the following:
+These are the hackers that are notoriously regarded as "the bad guys" that infiltrate systems either for personal gain or to impress other hackers. Generally, a black hat hacker uses [malware](https://www.codecademy.com/resources/docs/cybersecurity/malware), [viruses](https://www.codecademy.com/resources/docs/cybersecurity/malware/virus), and [ransomware](https://www.codecademy.com/resources/docs/cybersecurity/malware/ransomware) attacks to do the following:
 
 - Steal credit card and/or bank account information.
 - Leak sensitive information to the public.
@@ -37,7 +37,7 @@ These are the hackers that are notoriously regarded as "the bad guys" that infil
 
 Grey hat hackers also commit malicious digital acts, but on a relatively smaller scale. They will still usually hack a system for personal gain or respect. The sort of actions a grey hat hacker may take include:
 
-- Attacking and identifying vulnerabilities within a system.
+- Attacking and identifying [vulnerabilities](https://www.codecademy.com/resources/docs/cybersecurity/vulnerability) within a system.
 - Reaching out to offer their help (for a fee) without explaining the underlying issue(s).
 
 This puts system maintainers in a tough position as to whether it would be wise to accept the hacker's assistance with little to no information.
@@ -52,7 +52,7 @@ Generally, white hat hacking involves:
 
 - Testing the strength of firewalls meant to detect malicious activity.
 - Finding vulnerabilities in the codebase of web applications.
-- Discovering weaknesses in [databases](https://www.codecademy.com/resources/docs/general/database) that could leave a company susceptible to [SQL injections](https://www.codecademy.com/resources/docs/sql/sql-injections), which target database codes and structures.
+- Discovering weaknesses in [databases](https://www.codecademy.com/resources/docs/general/database) that could leave a company susceptible to [SQL injections](https://www.codecademy.com/resources/docs/cybersecurity/cyber-attack/sql-injection), which target database codes and structures.
 - Checking if an organization is resilient against [cyber attacks](https://www.codecademy.com/resources/docs/cybersecurity/cyber-attack) such as distributed denial of service (DDoS) attacks.
 - Seeing how well a company can recover after a ransomware attack.
 - Testing backup systems for vulnerabilities.

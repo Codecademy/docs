@@ -65,3 +65,22 @@ NaN
 NaN
 1.5707963267949
 ```
+
+## Codebyte Example
+
+The example below uses `Math.Acos()` to calculate the arc cosine of `x`. The result is stored in the `result` variable.
+
+```codebyte/csharp
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        double x = -1.0;
+        double result = Math.Acos(x);
+
+        Console.WriteLine($"The arc cosine of {x} is {result} radians.");
+    }
+}
+```

@@ -93,7 +93,7 @@ public int sum(int number1, int number2) {
 - Return type: `int`
 - Name: `sum`
 - Parameters: `int number1, int number2`
-- Pody: `return number1 + number2;`
+- Body: `return number1 + number2;`
 
 ### Visibility Modifiers
 

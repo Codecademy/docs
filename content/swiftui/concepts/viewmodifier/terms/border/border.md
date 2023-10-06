@@ -29,6 +29,8 @@ It can accept the following parameters:
 - `content`: A required value that sets the color and style of the border which needs to conform to the `ShapeStyle` protocol, like a [`Color`](https://www.codecademy.com/resources/docs/swiftui/views/color) or `HierarchicalShapeStyle`.
 - `width`: This optional value determines the width of the border and defaults to 1.
 
+> **Note**: The `.border()` modifier had a `cornerRadius` parameter which has since been deprecated. If rounding the corners of the border is needed, the [`.overlay()`](https://www.codecademy.com/resources/docs/swiftui/viewmodifier/overlay) modifier and a [`RoundedRectangle()`](https://www.codecademy.com/resources/docs/swiftui/views/roundedrectangle) with a `cornerRadius` value can be used instead.
+
 ## Example
 
 ```swift
@@ -46,5 +48,3 @@ In the example, a blue border is specified with a width of 4 points. However, th
 This will display:
 
 ![SwiftUI ViewModifier Border](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-viewmodifier-border.png)
-
-> **Note**: Keep in mind that the `.border()` modifier had a `cornerRadius` parameter which has since been deprecated. If rounding the corners of the border is needed, the [`.overlay()`](https://www.codecademy.com/resources/docs/swiftui/viewmodifier/overlay) modifier and a [`RoundedRectangle()`](https://www.codecademy.com/resources/docs/swiftui/views/roundedrectangle) with a `cornerRadius` value can be used instead.

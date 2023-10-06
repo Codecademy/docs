@@ -54,3 +54,21 @@ console.log(monthsSince1970);
 // Output: 627
 // Note: your output may vary
 ```
+
+## Codebyte Example
+
+In this example, the function measures the time taken to execute a task. The code records the start time using `Date.now()` before the task and again after the task is complete.
+
+```codebyte/javascript
+const startTime = Date.now();
+
+// Simulate a time-consuming task
+for (let i = 0; i < 3000000000; i++) {
+  // Perform some calculations
+}
+
+const endTime = Date.now();
+const executionTime = endTime - startTime;
+
+console.log(`Execution time: ${executionTime} milliseconds`);
+```

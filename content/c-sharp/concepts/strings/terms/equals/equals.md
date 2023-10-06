@@ -50,3 +50,22 @@ This example results in the following output:
 ```shell
 True
 ```
+
+## Codebyte Example
+
+In this executable example, the string variables can be modified. The output will be the result of the `.Equals()` method:
+
+```codebyte/csharp
+using System;
+
+class EqualsMethod {
+
+    public static void Main(string[] args)
+    {
+        string string1 = "Codecademy";
+        string string2 = "codecademy!";
+
+        Console.WriteLine(string1.Equals(string2));
+    }
+}
+```

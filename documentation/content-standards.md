@@ -36,7 +36,8 @@ All Codecademy Docs entries are Markdown files and should consist of three parts
 
 - The `file name`, with the `.md` extension.
 - The metadata about the content, written in YAML, which appears at the top of the entry.
-- The content, written in Markdown, with the first use of a topic, concept, or entry in **bold**.
+- The content, written in Markdown, with the first use of new terminology in **bold**.
+  - If an entry for the terminology exists, opt for a hyperlink.
   - Include examples with code snippets when necessary.
   - Templates for these entries can be found in the [repo documentation](https://github.com/Codecademy/docs/tree/main/documentation).
 
@@ -62,7 +63,7 @@ All code blocks should be delineated by triple backticks (```). Languages can be
 
 Codecademy has a new feature called [Codebytes](https://www.codecademy.com/codebyte-editor) that will allow learners to click a button to run code blocks themselves! The output to the console will appear next to the code block.
 
-Codebytes is a great tool to incorporate into some entries (for instance, if you want learners to to think about what a code block will output before they see it in action, or if you want to show a learner how a function that incorporates randomization produces different output each time).
+Codebytes is a great tool to incorporate into some entries (for instance, if you want learners to think about what a code block will output before they see it in action, or if you want to show a learner how a function that incorporates randomization produces different output each time).
 
 The syntax is simple: You just add `codebyte/` between the ` ``` ` and the language name in the first line of a normal code block.
 
@@ -82,9 +83,9 @@ For a list of supported languages, see ["Supported Codebyte Blocks" in the Docs 
 
 ### Metadata
 
-Each entry must begin with a metadata section. For guides to writing an entry's metadata, see the ["Metadata" in the Docs Style Guide](https://github.com/Codecademy/docs/blob/main/documentation/style-guide.md#metadata) and the templates for [concept entries](https://github.com/Codecademy/docs/blob/main/documentation/entry-template.md) and [term entries](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md).
+Each entry must begin with a metadata section. For guides to writing an entry's metadata, see the ["Metadata" in the Docs Style Guide](https://github.com/Codecademy/docs/blob/main/documentation/style-guide.md#metadata) and the templates for [concept entries](https://github.com/Codecademy/docs/blob/main/documentation/concept-entry-template.md) and [term entries](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md).
 
-> **Note:** Topic entries follow a different metadata template than concepts and terms. See our [topic entry template](https://github.com/Codecademy/docs/blob/main/documentation/topic-info-template.md) for more details.
+> **Note:** Topic entries follow a different metadata template than concepts and terms. See our [topic entry template](https://github.com/Codecademy/docs/blob/main/documentation/topic-entry-template.md) for more details.
 
 ### General Writing Tips
 
@@ -112,6 +113,6 @@ You may use images or GIFs in your entries. They are often helpful in illustrati
 
 Review the [Docs Style Guide](https://github.com/Codecademy/docs/blob/main/documentation/style-guide.md) for an in-depth explanation of what's expected out of a Docs entry.
 
-Check out the [concept entry template](https://github.com/Codecademy/docs/blob/main/documentation/entry-template.md) and [term entry template](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md) in this folder. And take a look at [GitHub Issues](https://github.com/Codecademy/docs/issues) to see where help is needed!
+Check out the [concept entry template](https://github.com/Codecademy/docs/blob/main/documentation/concept-entry-template.md) and [term entry template](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md) in this folder. And take a look at [GitHub Issues](https://github.com/Codecademy/docs/issues) to see where help is needed!
 
 For a refresher on how to make a Pull Request, head back to the [Contribution Guide](https://github.com/Codecademy/docs/blob/main/.github/CONTRIBUTING.md). 🎒

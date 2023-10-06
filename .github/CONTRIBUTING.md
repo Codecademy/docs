@@ -1,16 +1,18 @@
-# Codecademy Docs: Contribution Guide 👩🏻‍💻👨🏾‍💻👩🏼‍💻
+# Docs: Contribution Guide 👩🏻‍💻👨🏾‍💻👩🏼‍💻
 
-Welcome to the [Codecademy Docs](https://www.codecademy.com/resources/docs) GitHub repo!
+> **[Contribute to Docs](https://www.codecademy.com/pages/contribute-docs)!** Please see our updated **[Contribution Guide](https://www.codecademy.com/resources/docs/contribution-guide)** that provides a step-by-step video and text guide on how you can make an impact through Docs. 🌠
+
+Welcome to the [Docs](https://www.codecademy.com/resources/docs) GitHub repo!
 
 We are an inclusive and passionate team of technologists and life-long learners around the world building free programming resources for a better tomorrow. For newcomers, contributing to an open-source project for the first time can be intimidating and overwhelming. Perhaps you’re a code newbie or maybe you’ve been tinkering for years but haven’t found that special project yet.
 
-Good news, you are in the right place! Codecademy Docs is the perfect open-contribution project for you to get started. Every part of [Codecademy Docs](https://www.codecademy.com/resources/docs) content (entries, documentation, and translations) is written by amazing creative folks like yourself.
+Good news, you are in the right place! Docs is the perfect open-contribution project for you to get started. Every part of [Docs](https://www.codecademy.com/resources/docs) content (entries, documentation, and translations) is written by amazing creative folks like yourself.
 
 Thanks for your interest; we'd love to have you contribute. 💖
 
 ## How do I contribute?
 
-There are many ways to contribute to Codecademy Docs:
+There are many ways to contribute to Docs:
 
 - Submit a Pull Request to edit an existing entry.
 - Submit a Pull Request to create a new entry.
@@ -18,7 +20,7 @@ There are many ways to contribute to Codecademy Docs:
 - Give feedback in the [Typeform Survey](https://codecademyready.typeform.com/to/hzVIWDgz).
 - Join the [#CodecademyDocs](https://twitter.com/search?q=%23CodecademyDocs&src=typed_query&f=live) discussion on Twitter.
 
-If you're new to Codecademy Docs and contributing for the first time, it is recommended that you visit the [Issues](https://github.com/Codecademy/docs/issues) section and ask to be assigned to an [open issue](https://github.com/Codecademy/docs/blob/main/.github/CONTRIBUTING.md#how-do-i-claim-an-issue) that interests you. Otherwise, feel free to submit a [PR](https://www.codecademy.com/resources/docs/git/pull-requests) by creating a new [branch](https://www.codecademy.com/resources/docs/git/branch) in your fork to create a new entry or edit an existing one.
+If you're new to Docs and contributing for the first time, it is recommended that you visit the [Issues](https://github.com/Codecademy/docs/issues) section and ask to be assigned to an [open issue](https://github.com/Codecademy/docs/blob/main/.github/CONTRIBUTING.md#how-do-i-claim-an-issue) that interests you. Otherwise, feel free to submit a [PR](https://www.codecademy.com/resources/docs/git/pull-requests) by creating a new [branch](https://www.codecademy.com/resources/docs/git/branch) in your fork to create a new entry or edit an existing one.
 
 ## How do I claim an Issue?
 
@@ -32,11 +34,11 @@ Becoming an assignee to an issue follows this workflow:
 
 Contributing follows this workflow:
 
-1. Fork [this project repository](https://github.com/codecademy/docs).
-2. Clone the forked repository to your computer.
+1. Fork [this project repository](https://github.com/codecademy/docs): ![A red stencil outlining the "Fork" link for the Codecademy Docs repo](https://raw.githubusercontent.com/Codecademy/docs/main/media/indicate_fork_link.png)
+2. Clone the forked repository to your computer. One option is using the HTTPS URL: `git clone https://github.com/github_username/docs.git`
 3. Create and switch into a new branch.
 4. Edit or create an entry and commit the changes.
-5. Make a PR to merge your fork with this repo.
+5. Make a PR to merge your fork with this repo: ![Red arrow on the Codecademy Docs repo pointing at a pop-up link for creating a new pull request](https://raw.githubusercontent.com/Codecademy/docs/main/media/create_pull_request_link.png)
 
 If you haven't gone through this workflow before, you can check out [this GitHub tutorial](https://github.com/firstcontributions/first-contributions#readme) (highly recommend) or [this YouTube video](https://www.youtube.com/watch?v=rgbCcBNZcdQ) to learn about how to make a PR from a fork using Git.
 
@@ -58,7 +60,7 @@ There are a few tools you'll need to install in order to run our test suites loc
 
 With everything installed, in the repository root (whatever directory contains the `package.json` file) you can run
 
-**Note**: If you use `npm` instead of `yarn`, it is fine to do so with the commands described below.
+> **Note**: If you use `npm` instead of `yarn`, it is fine to do so with the commands described below.
 
 - `yarn format:verify` and `yarn lint:md` to validate markdown file contents
 - `yarn test` to validate `content/` directory structure
@@ -90,15 +92,15 @@ Please read through the following in the [/documentation](https://github.com/Cod
 
 The following are templates for creating your new entries:
 
-| Template                                                                                                 | GitHub Example                                                                                                                                                                                                                      | Docs Example                                                            |
-| -------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| [Entry Template](https://github.com/Codecademy/docs/blob/main/documentation/entry-template.md)           | [lists.md](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/lists.md) ([Raw](https://raw.githubusercontent.com/Codecademy/docs/main/content/python/concepts/lists/lists.md))                              | [Lists](https://www.codecademy.com/resources/docs/python/lists)         |
-| [Term Entry Template](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md) | [append.md](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/terms/append/append.md) ([Raw](https://raw.githubusercontent.com/Codecademy/docs/main/content/python/concepts/lists/terms/append/append.md)) | [Append](https://www.codecademy.com/resources/docs/python/lists/append) |
-| [Topic Info Template](https://github.com/Codecademy/docs/blob/main/documentation/topic-info-template.md) | [sql.md](https://github.com/Codecademy/docs/blob/main/content/sql/sql.md) ([Raw](https://raw.githubusercontent.com/Codecademy/docs/main/content/sql/sql.md))                                                                        | [SQL](https://www.codecademy.com/resources/docs/sql)                    |
+| Template                                                                                                       | GitHub Example                                                                                                                                                                                                                      | Docs Example                                                            |
+| -------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| [Concept Entry Template](https://github.com/Codecademy/docs/blob/main/documentation/concept-entry-template.md) | [lists.md](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/lists.md) ([Raw](https://raw.githubusercontent.com/Codecademy/docs/main/content/python/concepts/lists/lists.md))                              | [Lists](https://www.codecademy.com/resources/docs/python/lists)         |
+| [Term Entry Template](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md)       | [append.md](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/terms/append/append.md) ([Raw](https://raw.githubusercontent.com/Codecademy/docs/main/content/python/concepts/lists/terms/append/append.md)) | [Append](https://www.codecademy.com/resources/docs/python/lists/append) |
+| [Topic Entry Template](https://github.com/Codecademy/docs/blob/main/documentation/topic-entry-template.md)     | [sql.md](https://github.com/Codecademy/docs/blob/main/content/sql/sql.md) ([Raw](https://raw.githubusercontent.com/Codecademy/docs/main/content/sql/sql.md))                                                                        | [SQL](https://www.codecademy.com/resources/docs/sql)                    |
 
 ### Codecademy Username
 
-As a Codecademy Docs contributor, you have the opportunity to have your Codecademy username displayed on the side of the entry!
+As a Docs contributor, you have the opportunity to have your Codecademy username displayed on the side of the entry!
 
 If you wish to have your Codecademy profile listed in the entry, before making the PR, make sure that your Codecademy user profile and your GitHub are linked, and that your Codecademy profile is set to public. You can stay anonymous by not linking them.
 
@@ -115,7 +117,7 @@ To link your Codecademy user profile to GitHub:
 - Before making a PR, make sure you pushed your changes from a branch other than `main`.
 - Name the new branch after the changes being pushed to the PR.
 - Keep your PRs byte-sized. No more than 3 new entries per PR!
-- All contributors must sign the [Contributor License Agreement (CLA)](<[url](https://cla-assistant.io/Codecademy/docs)>).
+- All contributors must sign the [Contributor License Agreement (CLA)](<[url](https://cla-assistant.io/Codecademy/docs)>) when contributing for the first time.
 - All required [status checks](https://docs.github.com/en/github/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks) are expected to pass in each PR.
 - PRs will be marked as **invalid** if there is no consistent activity within a **2-week period** on the contributor's part and content does not meet or pass standard formatting, quality, and plagiarism checks.
 - We require at least two round of reviews from the [content team members](https://github.com/codecademy/docs#-content-team). Make sure to make the changes after each round.
@@ -136,7 +138,7 @@ We will not accept entries that were exclusively generated through an AI tool. W
 
 - AI-generated content is often confidently incorrect, leading to the spread of inaccurate or misleading information.
 - We provide authorship credit for submissions, and to submit AI-generated work under one's own name would be a violation of our plagiarism policy.
-- Codecademy Docs is an educational space for people to learn how to write effective technical documentation. Using generative AI, at this point, negatively impacts that desired learning goal.
+- Docs is an educational space for people to learn how to write effective technical documentation. Using generative AI, at this point, negatively impacts that desired learning goal.
 
 ## How do we update a PR branch?
 
@@ -157,7 +159,7 @@ git push
 
 ## Additional Resources
 
-- [How to Contribute to Codecademy Docs](https://dev.to/codecademy/how-to-contribute-to-codecademy-docs-1a77) article
+- [How to Contribute to Docs](https://dev.to/codecademy/how-to-contribute-to-codecademy-docs-1a77) article
 
 Remember, if you ever have any questions at all, we're always here to help in the [Codecademy Forums](https://discuss.codecademy.com/c/community/community-docs/2205) and [Codecademy Discord](https://discord.com/invite/codecademy).
 
