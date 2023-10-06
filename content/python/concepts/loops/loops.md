@@ -81,6 +81,30 @@ for group in groups:
     print(name)
 ```
 
+## Do While Loop
+
+A `do while` loop is a control structure that executes a block of code at least once, and then repeatedly executes it as long as a specified condition is met.
+
+The key difference between a `do while` loop and a `while` loop is that in a `do while` loop, the condition is checked after the code block is executed, ensuring that the code block is executed at least once.
+
+```pseudo
+do {
+  // Code inside
+} while (condition);
+```
+
+```py
+num = 1
+
+while True:
+  print(num)
+  num += 1
+  if num > 5:
+    break
+
+print("Loop finished.")
+```
+
 ## Break Keyword
 
 In a loop, the `break` keyword escapes the loop, regardless of the iteration number. Once break executes, the program will continue to execute after the loop.
