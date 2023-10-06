@@ -22,8 +22,6 @@ $result = math.cos(angle);
 ```
 
 `result`: The variable to store the output of the cosine operation.
-`math`: The standard Lua math library.
-`cos()`: The cosine function.
 `angle`: The angle in radians for which you want to calculate the cosine.
 
 ## Example
