@@ -27,14 +27,14 @@ array_values(array)
 
 The example shown below creates an array called `$vehicle` with three key-value pairs. It then uses the `array_values()` function to extract the array's values.
 
-```
+```php
 <?php
 $vehicle = array("car" => "BMW", "color" => "gold", "model" => "X5");
 print_r(array_values($vehicle));
 ?>
 ```
 
-This show the values "BMW", "gold" and "X5" that are printed to the console.
+This results in the following output printed to the console.
 
 ```shell
 Array
