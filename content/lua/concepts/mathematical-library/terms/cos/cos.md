@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`cos()`** function evaluates the cosine of an angle in radians.
+The **`cos()`** function returns the cosine of an angle given in radians.
 
 ## Syntax
 
