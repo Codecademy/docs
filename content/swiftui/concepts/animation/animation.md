@@ -101,4 +101,4 @@ struct ExplicitAnimation: View {
 }
 ```
 
-![This is a gif that shows the effect of Explicit animation on two diffrent views using the same state variable.](https://raw.githubusercontent.com/Codecademy/docs/main/media/morethanoneView-with-Explicit-Animation-Swiftui.gif)
+![Gif showing the effect of explicit animation on two different views using the same state variable.](https://raw.githubusercontent.com/Codecademy/docs/main/media/morethanoneView-with-Explicit-Animation-Swiftui.gif)
