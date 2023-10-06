@@ -1,10 +1,10 @@
 ---
-Title: '.splitlines()' 
+Title: '.splitlines()'
 Description: 'Used to split a multi-line string into a list of lines.'
-Subjects: 
+Subjects:
   - 'Data Science'
   - 'Web Development'
-Tags: 
+Tags:
   - 'Strings'
   - 'Methods'
   - 'Formatting'
