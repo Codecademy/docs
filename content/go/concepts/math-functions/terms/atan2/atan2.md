@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Atan2()`** function returns the arctangent value of the *y/x* value.
+The **`Atan2()`** function returns the arctangent value of the _y/x_ value.
 
 ## Syntax
 
@@ -30,33 +30,39 @@ Notes on `Atan2()`:
 ### Special Cases
 
 `NAN`:
-- *Atan2(y, NaN) = NaN*
-- *Atan2(NaN, x) = NaN*
+
+- _Atan2(y, NaN) = NaN_
+- _Atan2(NaN, x) = NaN_
 
 `(+-)0:`
-- *Atan2(+0, x>=0) = +0*
-- *Atan2(-0, x>=0) = -0*
-- *Atan2(y, +Inf) = +0*
+
+- _Atan2(+0, x>=0) = +0_
+- _Atan2(-0, x>=0) = -0_
+- _Atan2(y, +Inf) = +0_
 
 `(+-)π:`
-- *Atan2(+0, x<=-0) = +π*
-- *Atan2(-0, x<=-0) = -π*
-- *Atan2(y>0, -Inf) = +π*
-- *Atan2(y<0, -Inf) = -π*
+
+- _Atan2(+0, x<=-0) = +π_
+- _Atan2(-0, x<=-0) = -π_
+- _Atan2(y>0, -Inf) = +π_
+- _Atan2(y<0, -Inf) = -π_
 
 `(+-)π/2:`
-- *Atan2(y>0, 0) = +π/2*
-- *Atan2(y<0, 0) = -π/2*
-- *Atan2(+Inf, x) = +π/2*
-- *Atan2(-Inf, x) = -π/2*
+
+- _Atan2(y>0, 0) = +π/2_
+- _Atan2(y<0, 0) = -π/2_
+- _Atan2(+Inf, x) = +π/2_
+- _Atan2(-Inf, x) = -π/2_
 
 `(+-)π/4:`
-- *Atan2(+Inf, +Inf) = +π/4*
-- *Atan2(-Inf, +Inf) = -π/4*
+
+- _Atan2(+Inf, +Inf) = +π/4_
+- _Atan2(-Inf, +Inf) = -π/4_
 
 `(+-)3π/4:`
-- *Atan2(+Inf, -Inf) = 3π/4*
-- *Atan2(-Inf, -Inf) = -3π/4*
+
+- _Atan2(+Inf, -Inf) = 3π/4_
+- _Atan2(-Inf, -Inf) = -3π/4_
 
 ## Example
 
