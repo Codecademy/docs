@@ -1,6 +1,6 @@
 ---
-Title: 'OStrings'
-Description: 'Strings are a sequence of characters of any length that can include letters, numbers, symbols, and spaces.'
+Title: 'Strings'
+Description: 'Strings are a primitive data type, that can be sequence of characters surrounded by single quotes or double quotes.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -12,34 +12,50 @@ CatalogContent:
   - 'introduction-to-game-development'
 ---
 
-**Strings** are a sequence of characters of any length that can include letters, numbers, symbols, and spaces.
+**Strings** are a primitive data type that can be any sequence of characters, including letters, numbers, symbols, and spaces, surrounded by single `'` or double quotes `"`. Strings are used to represent and manipulate text or sequences of characters.
 
 ## Syntax
 
-In Lua, a string is a sequence of characters surrounded by a pair of single quotes `''` or double quotes `""`.
-
 ```pseudo
-location = "Central Park" -- "Central Park" is a string
+local string = "Any text can be here" -- Using double quotes
+local anotherString = '123' -- Using single quotes
+local emptyString = '' -- '' or "" can be used
 ```
+
+The 'string' variable contains a string that was defined with double quotes. The 'anotherString' variable contains a string that was defined with single quotes. The 'emptyString' variable contains no characters, and it is called as an empty string.
 
 ## Concatenation
 
-Multiple strings can be combined together using the concatenation operator `..`.
+Multiple strings can be concatenated or joined together using  `..` operator. The following example shows how 'firstName' and 'lastName' variables are concatenated into one sentence:
 
-```lua
-time = 10
-location = "Central Park"
-print("We will arrive at " .. location .. " at ".. time)
+```pseudo
+local firstName = 'Aragorn'
+local lastName = 'son of Arathorn'
+print('I am ' .. firstName .. lastName .. '.') -- Output: "I am Aragorn son of Arathorn."
 ```
 
-## Escape Characters
+## Escape Sequences
 
-Escape characters are used for clarity and conciseness. Sometimes, Lua may interpret a character in a string, which can cause errors. To avoid this, escape characters can be used to clarify that a character should be read as a string.
+Luau supports escape sequences within strings to represent special characters. Some common escape sequences are:
 
-```lua
-brokenString = "They said, "Hello!"" -- This will cause "Hello!" to be outside of the string
+- `\"` to represent a double quote
+- `\'` to represent a single quote
+- `\n` to represent a newline
+- `\\` to represent a backslash
+- `\b` to represent a backspace
+- `\t` to represent a tab.
 
-revisedString = "They said, \"Hello!\"" -- This will keep "Hello!" inside of the string using escape characters
+The following example shows the usage of the '\n' characters to represent newlines in a string:
+
+```pseudo
+local secretMessage = "One ring to rule them all,\none ring to find them,\nOne ring to bring them all\nand in the darkness bind them."
+
+print(secretMessage)
+-- Output:
+-- One ring to rule them all,
+-- one ring to find them,
+-- One ring to bring them all
+-- and in the darkness bind them.
 ```
 
 The following is a list of some useful escape characters supported by Lua strings:
