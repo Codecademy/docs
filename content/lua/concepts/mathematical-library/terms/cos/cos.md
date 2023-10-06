@@ -1,6 +1,6 @@
 ---
 Title: 'cos()'
-Description: 'Evaluates the cosine of an angle represented in radians.'
+Description: 'Returns the cosine of an angle represented in radians.'
 Subjects:
   - 'Computer Science'  
 Tags:
