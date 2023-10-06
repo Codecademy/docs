@@ -32,9 +32,9 @@ Now that we've defined our Person struct, we can create individual instances of 
 
 ```rust
     let alice = Person {
-        name: String::from("Alice"),
+        name: String::from("Bomber"),
         age: 30,
-        address: String::from("123 Main St"),
+        address: String::from("123 Main Street"),
     };
 ```
 
