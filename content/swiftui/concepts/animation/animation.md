@@ -38,7 +38,7 @@ struct ImplicitAnimation: View {
             Text( isanimation ? "Hello, World!" : "press me") // Ternary used to change the view based on the value of the isanimation.
                 .foregroundColor(.white)
                 .padding(.all)
-                .background( isanimation ? Color.black : Color.red) // Ternary operator used to change the view based onn the value of the isanimation.
+                .background( isanimation ? Color.black : Color.red) // Ternary operator used to change the view based on the value of the isanimation.
                 .animation(.default, value: isanimation) // This is the implicit animation. This gets activated when isanimation changes in value.
         }
     }
