@@ -26,7 +26,7 @@ coroutine.close(coroutine_thread)
 - Attempting to close a running coroutine or a coroutine that has already been closed will result in an error.
 - Always check the return values of `coroutine.close()` to handle potential errors appropriately.
 
-## Example
+## Example 1
 
 This example uses the `close()` function to terminate a running coroutine.
 
@@ -50,11 +50,11 @@ Coroutine is running
 Closing coroutine:   true   nil
 ```
 
-## Codebyte Example
+## Example 2
 
-This example is runnable and creates a coroutine using `coroutine.create()`, starts it with `coroutine.resume()`, and then closes it with `coroutine.close()`.
+This example creates a coroutine using `coroutine.create()`, starts it with `coroutine.resume()`, and then closes it with `coroutine.close()`.
 
-```codebyte/lua
+```lua
 local function manageCoroutine()
     local co = coroutine.create(function ()
         print("Coroutine is running")
@@ -74,4 +74,11 @@ local function manageCoroutine()
 end
 
 manageCoroutine()
+```
+
+This will output:
+
+```shell
+Coroutine is running
+Coroutine closed successfully
 ```
