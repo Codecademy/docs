@@ -58,23 +58,14 @@ Root-relative paths are similar to absolute paths, but they start from the root 
 - "/css/styles.css"  (reference stylesheets and scripts from the root as well)
 - "/js/script.js"    (reference stylesheets and scripts from the root as well)
 
-Path-Relative file paths begin with `./` This forward slash signals to the web browser that the path should be resolved starting from the root directory of the website.
+Path-Relative file paths begin with `/` This forward slash signals to the web browser that the path should be resolved starting from the root directory of the website.
 
 ```html
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Root-relative Paths Example</title>
-</head>
-<body>
-    <img src="/images/logo.png" alt="Company Logo">
-    <link rel="stylesheet" href="/css/styles.css">
-    <script src="/js/script.js"></script>
-</body>
-</html>
-
+<a href="/images/logo.png">
+  The URL for this anchor element is a  Root-relative file path.
+</a>
+    
 ```
-
 
 ## Link to a Specific Part of the Page
 
