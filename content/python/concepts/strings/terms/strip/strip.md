@@ -13,7 +13,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.strip()`** method removes any whitespace at the beginning and end of a string. It’s also possible to specify which characters will be removed; otherwise, all whitespaces will be removed.
+The **`.strip()`** method removes any whitespace at the beginning and end of a string. Optionally, a string of characters can be passed in as an argument to remove those characters instead. Otherwise, all whitespaces will be removed.
+
+> **Note**: The .strip() method removes specified characters only when they appear as the outermost leading and trailing characters in the string.
 
 ## Syntax
 
