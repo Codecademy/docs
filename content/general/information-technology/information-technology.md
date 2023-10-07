@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/fundamentals-of-cybersecurity'
 ---
 
-**Information Technology**, also known as IT, is the use of digital technological tools to store and turn data into useful information. Due to living in a technology-driven world, IT plays a major role in people's lives whether it's fixing a cracked screen on a phone, doing a data transfer from an old computer to another one, or repairing a PC's hardware.
+**Information Technology**, also known as IT, is the use of digital tools and technologies to store, process, obtain, transmit, and manage useful information. IT encompasses a spectrum of tasks, including designing, implementing, and maintaining systems, networks, databases, and applications. Due to living in a technology-driven world, IT plays a major role in people's lives whether it's fixing a cracked screen on a phone, doing a data transfer from an old computer to another one, or repairing a PC's hardware.
 
 ## Roles
 
