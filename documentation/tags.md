@@ -5,6 +5,7 @@ Tags in Docs are used for recommending related entries and for the home page sea
 Feel free to add suggestions for new tags to the list as part of your PR! Be sure to insert them alphabetically.
 
 ```
+Abstraction
 Accessibility
 AI
 Algorithms
@@ -47,6 +48,7 @@ Browser Compatibility
 Browsers
 Bubble Sort
 Buttons
+Calendar
 Catch
 Characters
 Chatbots
