@@ -26,16 +26,16 @@ The `array_push()` function has one required parameter and some optional paramet
 - `$array`: Specifies the input `array`.
 - `$value1 ... $valueN`: Specifies the element values to add. This function adds one or more element values at a time which are separated by commas.
 
-The `array_push()` function returns an array with the the added elements.
+The `array_push()` function returns an array with the added elements.
 
 ## Example
 
-The following example uses the `array_push()` function to add `"Chervolet"`, and `"Toyota"` element values to the end of the indexed array `$car_brands`:
+The following example uses the `array_push()` function to add `"Chevrolet"`, and `"Toyota"` element values to the end of the indexed array `$car_brands`:
 
 ```php
 <?php
   $car_brands = array("Mercedes","Ford");
-  array_push($car_brands,"Chervolet","Toyota");
+  array_push($car_brands,"Chevrolet","Toyota");
   print_r($car_brands);
 ?>
 ```
@@ -46,7 +46,7 @@ The example will result in the following output:
 Array (
 [0] => Mercedes
 [1] => Ford
-[2] => Chervolet
+[2] => Chevrolet
 [3] => Toyota
 )
 ```

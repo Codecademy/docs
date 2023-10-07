@@ -24,7 +24,7 @@ Everything in PowerShell is an **object**. An object is a combination of variabl
 - Properties: Variables that describe the object (characteristics).
 - Methods: Functions that define how to use the object (actions).
 
-Each object is an instance of a blueprint called a type, or [class](https://www.codecademy.com/resources/docs/general/class).
+Each object is an instance of a blueprint called a type, or [class](https://www.codecademy.com/resources/docs/general/programming-paradigms/object-oriented-programming).
 
 ## Getting Properties and Methods of an Object
 
