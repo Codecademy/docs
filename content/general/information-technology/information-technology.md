@@ -1,6 +1,6 @@
 ---
 Title: 'Information Technology'
-Description: 'Information Technology is the use of digital technological tools to store and turn data into useful information'
+Description: 'Information Technology is the use of digital tools and technologies to store, process, obtain, transmit, and manage useful information.'
 Subjects:
   - 'Information Technology'
   - 'Networking'
