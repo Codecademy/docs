@@ -1,0 +1,47 @@
+---
+Title: '.status()'
+Description: 'Returns the status of the provided coroutine.'
+Subjects:
+  - 'Computer Science'
+  - 'Game Development'
+Tags:
+  - 'Functions'
+  - 'Async Await'
+CatalogContent:
+  - 'learn-lua'
+  - 'paths/computer-science'
+---
+
+The method `.status()` takes a coroutine as a parameter and returns the status of that coroutine. This status can be one of three states: `suspended`, `running`, or `dead`.
+
+When a coroutine is created, it has a status of `suspended`. Once a coroutine is ran or resumed, it has a status of `running` until it is either re-suspended using `coroutine.yield()`, or it completes. If a coroutine completes its execution and terminates, it receives a permanent status of `dead`.
+
+## Syntax
+
+The syntax for calling `.status()` is given below:
+
+```pseudo
+coroutine.status(parameterCoroutine)
+```
+
+Where `parameterCoroutine` names the coroutine to be checked.
+
+## Example
+
+The example below demonstrates the life-cycle of a coroutine from `suspended` to `running` to `dead`:
+
+```lua
+--Create a new coroutine using the function lifecycle()
+
+lifecycle = function(parameterCoroutine)
+  print(coroutine.status(parameterCoroutine))
+end
+
+exampleCoroutine = coroutine.create(lifecycle)
+
+print(coroutine.status(exampleCoroutine)) --Prints 'suspended', since we have not yet run exampleCoroutine.
+
+coroutine.resume(exampleCoroutine, exampleCoroutine) --Runs exampleCoroutine and passes it as a parameter to lifecycle(). This prints 'running', since .status() is called on exampleCoroutine while it is executing.
+
+print(coroutine.status(exampleCoroutine)) --Prints 'dead', since exampleCoroutine has terminated.
+```
