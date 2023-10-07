@@ -5,6 +5,7 @@ Tags in Docs are used for recommending related entries and for the home page sea
 Feel free to add suggestions for new tags to the list as part of your PR! Be sure to insert them alphabetically.
 
 ```
+Abstraction
 Accessibility
 AI
 Algorithms
@@ -19,6 +20,7 @@ Arguments
 Arithmetic
 Arrays
 ASP.NET
+Assert
 Assignment
 Asymptotic Notation
 Async Await
@@ -46,6 +48,7 @@ Browser Compatibility
 Browsers
 Bubble Sort
 Buttons
+Calendar
 Catch
 Characters
 Chatbots
@@ -138,6 +141,7 @@ Frameworks
 Functions
 Functional Programming
 Functors
+Generics
 Geometry
 Ggplot2
 Git
