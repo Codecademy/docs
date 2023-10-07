@@ -61,7 +61,7 @@ Note that the fourth call to `.isdecimal()` returns `True` because `"\u0033"` is
 
 The code below is runnable, change the value of `your_string` to test the `.isdecimal()` method.
 
-```codebyte\python
+```codebyte/python
 your_string = "Try changing this string!"
 print(your_string.isdecimal())
 ```
