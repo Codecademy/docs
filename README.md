@@ -8,11 +8,11 @@
 
 ## What is Docs?
 
-[Docs](https://www.codecademy.com/resources/docs) is a free, easily accessible reference for coding terms and concepts, available to developers all over the world. If you forget what JavaScript hoisting is, we want you to be able to look up "JS hoisting" on any search engine, click a Doc entry, and have an answer in seconds.
+[Docs](https://www.codecademy.com/resources/docs) is a free, easily accessible reference for coding terms and concepts available to developers all over the world. If you forget what JavaScript hoisting is we want you to be able to look up "JS hoisting" on any search engine, click a Doc entry, and have an answer in seconds.
 
 ## What stage of development are we in right now?
 
-Docs is live with over 1000 high-quality entries. Now that the MVP is out, our goal is to transition some ownership of Docs content to the Codecademy community, since maintaining a resource of this type at-scale is only possible if it's open-contribution. That means we need your help, whether it's contributing, reviewing, or evangelizing!
+Docs is live with over 1000 high-quality entries. Now that the MVP is out our goal is to transition some ownership of Docs content to the Codecademy community, since maintaining a resource of this type at-scale is only possible if it's open-contribution. That means we need your help, whether it's contributing, reviewing, or evangelizing!
 
 ### 📝 Content Team
 
@@ -40,13 +40,13 @@ There are many ways to contribute to Docs:
 - Submit a Pull Request to edit an existing entry.
 - Submit a Pull Request to create a new entry.
 - Submit a typo/bug in [GitHub Issues](https://github.com/Codecademy/docs/issues).
-- Reply to the thread on [Possible Content Discussion](https://discuss.codecademy.com/t/find-a-starting-point-possible-content-discussion/745868) to share ideas and collaborate with other contributors, maintainers, or super users to determine good future issues.
+- Reply to the thread on [Possible Content Discussion](https://discuss.codecademy.com/t/find-a-starting-point-possible-content-discussion/745868) to share ideas and collaborate with other contributors, maintainers or super users to determine good future issues.
 - Share your thoughts in this [Docs feedback form](https://codecademyready.typeform.com/to/hzVIWDgz) to tell us how we can improve Docs!
 
-Whether you are a code newbie or a seasoned hacker, there's something for you!
+Whether you are a code newbie or a seasoned hacker there's something for you!
 
-Please read through the [Contribution Guide](https://www.codecademy.com/resources/docs/contribution-guide) ✨. There you'll find a write-up of our content standards and style guide, as well as templates for creating your entries.
+Please read through the [Contribution Guide](https://www.codecademy.com/resources/docs/contribution-guide) ✨. There you'll find a write-up of our content standards and style guide as well as templates for creating your entries.
 
 ## Additional Notes
 
-Remember, if you ever have any questions at all, we're always here to help in the [Codecademy Forums](https://discuss.codecademy.com/c/community/community-docs/2205) and [Codecademy Discord](https://discord.com/invite/codecademy).
+Remember, if you ever have any questions at all we're always here to help in the [Codecademy Forums](https://discuss.codecademy.com/c/community/community-docs/2205) and [Codecademy Discord](https://discord.com/invite/codecademy).
