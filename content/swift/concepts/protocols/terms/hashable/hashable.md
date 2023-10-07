@@ -23,26 +23,27 @@ protocol Hashable {
 }
 ```
 
-The protocol requires the implementation of the `hash(into:)` method. This method accepts an `inout Hasher` parameter named `myhasher`, which is responsible for combining the hash values of the properties of the type.
+Conforming to the protocol automatically generates the `hash()` method. This method accepts an `inout Hasher` parameter (`myhasher`), which is responsible for combining the hash values of the properties of the type.
 
-## Example using a `struct`
+## Example Using a `struct`
 
-In this example, the `Person` struct conforms to the `Hashable` protocol by implementing the `hash(into:)` method. The hash value is calculated by combining the `name` and `age` properties using the `myhasher.combine(_:)` method. This allows instances of the `Person` struct to be stored in a set (`personSet`) and efficiently looked up with their hashed values.
+In this example, the `Person` `struct` conforms to the `Hashable` protocol by implementing `hash()`. The hash value is calculated by combining the `name` and `age` properties using the `myhasher.combine()` method. This allows instances of the `Person` `struct` to be stored in a set (`personSet`) and efficiently looked up with their hashed values.
 
 ```swift
 struct Person: Hashable {
+    var id: Int
     var name: String
     var age: Int
 
     func hash(into myhasher: inout Hasher) {
-        myhasher.combine(name)
-        myhasher.combine(age)
+        // Using id to uniquely identify each person.
+        myhasher.combine(id)
     }
 }
 
 var personSet: Set<Person> = []
-let person1 = Person(name: "Alice", age: 30)
-let person2 = Person(name: "Bob", age: 25)
+let person1 = Person(id: 1, name: "Alice", age: 30)
+let person2 = Person(id: 2, name: "Bob", age: 25)
 
 personSet.insert(person1)
 personSet.insert(person2)
@@ -56,9 +57,9 @@ This example results in the following output:
 Is Alice in the set? Yes
 ```
 
-## Example using an `enum`
+## Example Using an `enum`
 
-In this example, we have an enum called `Color` with three cases: `red`, `green`, and `blue`. Since enum cases are unique by definition, they are automatically hashable, and they can be used in data structures like sets or dictionaries without any additional implementation for the `Hashable` protocol.
+In this example, an `enum` named `Color` contains three cases: `red`, `green`, and `blue`. Since `enum` cases are unique by definition, they are automatically hashable, and can be used in data structures like sets or dictionaries without any additional implementation of the `Hashable` protocol.
 
 ```swift
 enum Color: Hashable {
