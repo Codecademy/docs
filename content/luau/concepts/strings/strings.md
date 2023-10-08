@@ -22,7 +22,7 @@ local anotherString = "123" -- Using double quotes
 local emptyString = '' -- Empty string
 ```
 
-To declare a string in Luau, enclose any sequence of characters, including letters, numbers, symbols, and spaces, within either single quotes (`'`) or double quotes (`"`). An empty string can be declared using two consecutive quotes ('' or "").
+To declare a string in Luau, enclose any sequence of characters, including letters, numbers, symbols, and spaces, within either single quotes (`'`) or double quotes (`"`). An empty string can be declared using two consecutive quotes (`''` or `""`).
 
 ## Concatenation
 
