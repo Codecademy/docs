@@ -12,7 +12,7 @@ CatalogContent:
   - 'introduction-to-game-development'
 ---
 
-**Strings** are a primitive data type that consists of text or character sequences surrounded by single or double quotes. Strings are used to represent and manipulate text or character sets.
+**Strings** are a primitive data type that consist of one or more characters surrounded by single or double quotes. Strings are used to represent and manipulate text or character sets.
 
 ## Syntax
 
