@@ -86,9 +86,7 @@ Luau provides various built-in string functions to manipulate and work with stri
 
 ```lua
 local name = 'bilbo baggins'
-local capitalized = name.upper()
-
-print(capitalized)
+print(string.upper(name))
 -- Output: BILBO BAGGINS
 ```
 
