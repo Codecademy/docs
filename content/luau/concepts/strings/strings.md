@@ -38,7 +38,7 @@ print('I am ' .. firstName .. ', ' .. lastName .. '.')
 
 ## Escape Sequences
 
-Luau supports escape sequences essential in strings to represent special characters or formatting that cannot be directly typed. For example, escape sequences allow you to include characters like double quotes or single quotes within a string without causing syntax errors. These sequences begin with a backslash (`\`) followed by another character. The table below shows some common escape sequences:
+Luau supports escape sequences essential in strings to represent special characters or formatting that cannot be directly typed. For example, escape sequences permit the use of characters like double quotes or single quotes within a string without causing syntax errors. These sequences begin with a backslash (`\`) followed by another character. The table below shows some common escape sequences:
 
 | Escape Sequence | Description     |
 | --------------- | ----------------|
