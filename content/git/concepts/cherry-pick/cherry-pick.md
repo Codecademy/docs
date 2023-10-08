@@ -1,13 +1,13 @@
 ---
-Title: 'cherry-pick' 
-Description: 'The cherry-pick command. This command is used to select and put individual commits from one branch to another.'
+Title: 'cherry-pick'
+Description: 'The cherry pick command is used to select and put individual commits from one branch to another.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
-Tags: 
+Tags:
   - 'Git'
   - 'GitHub'
-CatalogContent: 
+CatalogContent:
   - 'learn-the-command-line'
   - 'learn-git'
 ---
