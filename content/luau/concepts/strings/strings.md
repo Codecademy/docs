@@ -1,6 +1,6 @@
 ---
 Title: 'Strings'
-Description: 'Strings are a primitive data type that consists of text or character sequences surrounded by single or double quotes.'
+Description: 'Strings are a primitive data type that consist of one or more characters surrounded by quotes.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
