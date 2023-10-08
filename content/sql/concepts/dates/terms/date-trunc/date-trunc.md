@@ -17,9 +17,9 @@ CatalogContent:
 
 The **`DATE_TRUNC()`** function is used to truncate a date, time, or timestamp to a specified interval, such as the day, week, or month, in PostgreSQL and SQL Server.
 
-The syntax varies slightly by SQL flavor; in PostgreSQL, the function is `DATE_TRUNC()`, while SQL Server uses the `DATETRUNC()` function without an underscore. MySQL does not have a `DATE_TRUNC()` function, but MySQL's `EXTRACT()` function is a commonly used alternative.
+The `DATE_TRUNC()` function is particularly useful for time series analysis to understand how a value changes over time. Practical examples would include analyzing company's quarterly sales or determining the average hourly temperature.
 
-The `DATE_TRUNC()` function is particularly useful for time series analysis, where you want to understand how a value changes over time. Practical examples would include analyzing company's quarterly sales or determining the average hourly temperature.
+> **Note:** The syntax varies slightly by SQL flavor; in PostgreSQL, the function is `DATE_TRUNC()`, while SQL Server uses the `DATETRUNC()` function without an underscore. MySQL does not have a `DATE_TRUNC()` function, but MySQL's `EXTRACT()` function is a commonly used alternative.
 
 ## PostgreSQL Syntax
 
@@ -103,7 +103,7 @@ DATETRUNC(interval, date)
 
 The **`DATETRUNC()`** function in SQL Server has the same functionality and required parameters as **`DATE_TRUNC()`** in PostgreSQL, but does not have an underscore in the function name.
 
-### Example 1 - SQL Server Variant
+### Example - SQL Server Variant
 
 The following example truncates `2023-07-23 07:08:30` by year in SQL Server:
 
