@@ -72,3 +72,7 @@ local profile = {
 -- Printing the username in the table
 print(profile.username)
 ```
+
+## Table Functions
+
+The following functions are used to work with tables:
