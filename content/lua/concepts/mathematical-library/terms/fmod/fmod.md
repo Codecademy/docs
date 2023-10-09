@@ -1,5 +1,5 @@
 ---
-Title: '.fmod()'
+Title: 'fmod()'
 Description: 'Returns the remainder of the quotient of two parameters.'
 Subjects:
   - 'Computer Science'
