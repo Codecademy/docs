@@ -30,5 +30,10 @@ Replace all the occurrences of "scream" with "laugh":
 const sentence = `I scream, you scream, we all scream for ice cream.`;
 
 console.log(sentence.replaceAll('scream', 'laugh'));
-// Output: I laugh, you laugh, we all laugh for ice cream.
+```
+
+This example results in the following output:
+
+```shell
+"I laugh, you laugh, we all laugh for ice cream."
 ```
