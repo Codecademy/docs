@@ -191,37 +191,7 @@ package main
 
 import "fmt"
 
-type Pizza struct {
-  Name        string
-  Size        string
-  Toppings    []string
-  IsDelicious bool
-}
-
-func pizzaStyle(p Pizza) string {
-  return p.Name + " pizza is a " + p.Size + " pizza with toppings of: " + fmt.Sprint(p.Toppings)
-}
-
-type Address struct {
-  Street  string
-  City    string
-  Country string
-}
-
-func (a Address) printAddress() string {
-  return a.Street + ", " + a.City
-}
-
-type Restaurant struct {
-  Name      string
-  Rating    int
-  PizzaMenu []Pizza
-  Address
-}
-
-func restaurantInfo(r Restaurant) string {
-  return r.Name + ", located at " + r.printAddress() + ", " + r.Country + " has a rating of " + fmt.Sprint(r.Rating) + " and serves the following pizzas: " + fmt.Sprint(r.PizzaMenu)
-}
+// ... Above Struct and Method declarations
 
 func main() {
   myPizza := Pizza{
