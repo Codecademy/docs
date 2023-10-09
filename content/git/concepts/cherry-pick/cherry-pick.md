@@ -19,7 +19,7 @@ The **cherry-pick** command entails picking individual [commits](https://www.cod
 ```pseudo
 git cherry-pick <commit>
 ```
-<commit> is the hash and that it can be found using [git log](https://www.codecademy.com/resources/docs/git/log)
+<commit> is the hash and can be found using [git log](https://www.codecademy.com/resources/docs/git/log)
 Below are a couple of optional flags that can be used with the `cherry-pick` command:
 
 - `edit`: allows edits to the commit message prior to committing.
