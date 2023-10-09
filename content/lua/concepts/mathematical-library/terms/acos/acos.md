@@ -1,5 +1,5 @@
 ---
-Title: '.acos()'
+Title: 'acos()'
 Description: 'Returns the arc cosine of the argument in radians.'
 Subjects:
   - 'Computer Science'
@@ -13,17 +13,22 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The Lua.math method which returns the **arc cosine** of the argument, in radians.
+The **`acos()`** method of the Lua math library returns the arc cosine of the argument, in radians.
 
 ## Syntax
+
 ```pseudo
 math.acos(x)
 ```
+Where -1 <= x <= 1
 
 ## Example
+
+When run, the code below will print the arc cosine of x in radians to the console.
 ```lua
-math.acos(0.5)
+print(math.acos(0.5))
 ```
 
-A full list of math functions can be found on the [Lua documentation page](https://www.lua.org/manual/5.1/manual.html#5.6).
-
+```shell
+1.0471975511966
+```
