@@ -21,7 +21,7 @@ When a coroutine is created, it has a status of `suspended` by default. Once a c
 The syntax for calling `status()` is given below:
 
 ```pseudo
-coroutine.status(parameterCoroutine)
+coroutine.status(xCoroutine)
 ```
 
 Where `parameterCoroutine` names the coroutine to be checked.
