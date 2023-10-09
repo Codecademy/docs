@@ -1,6 +1,6 @@
 ---
 Title: 'lstrip'
-Description: 'Removes leading characters from a string'
+Description: 'Removes leading characters from a string.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
@@ -9,19 +9,22 @@ Tags:
   - 'Methods'
   - 'Functions'
 CatalogContent:
-  - 'https://www.codecademy.com/learn/learn-python-3'
-  - 'https://www.codecademy.com/learn/paths/computer-science'
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
-The **`.lstrip()`** method removes the leading characters from a string
+The **`.lstrip()`** method removes the leading characters from a string.
 
 ## Syntax
+
 ```pseudo
 string.lstrip(chars)
 ```
-The `.lstrip()` method defaultly removes the whitespace at the beginning of a string. The optional `chars` parameter is a string that allows you to specify leading characters to be removed.
 
-## Example
+The `.lstrip()` method removes the whitespace at the beginning of a string. The optional `chars` parameter is a string for designating specific leading characters to be removed.
+
+## Examples
+
 Unless `chars` is specified, `.lstrip()` removes the leading whitespace:
 ```python
 hi = '     Hi there'
@@ -43,10 +46,12 @@ example = example.lstrip('hiHI, ')
 print(example)
 #Output: Welcome to Docs
 ```
->**Note:** Remember since `.lstrip()` is a method, it returns a new string and does not modify the original string
+
+>**Note:** Remember since `.lstrip()` is a method, it returns a new string and does not modify the original string.
 
 
 ## Codebyte Example
+
 ```codebyte/python
 #runnable code block for lstrip()
 exampleString = '     User, Welcome to docs!'
