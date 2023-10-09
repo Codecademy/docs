@@ -20,16 +20,16 @@ The **`chr()`** function in PHP is used to convert an ASCII value into a single-
 chr($ascii_value)
 ```
 
-It accepts an ASCII value as a parameter and returns a string representing a character from the specified ASCII value.
+It accepts an ASCII value as the argument and returns a string representing the associated character.
 
 The ASCII value can be specified in decimal, octal, or hex values.
 
-- Octal values are defined by a leading 0.
-- Hex values are defined by a leading 0x.
+- Octal values are defined by a leading `0`.
+- Hex values are defined by a leading `0x`.
 
 ## Example
 
-The example below demonstrate the `chr()` function when different ASCII are passed but their equivalent character is same:
+The example below demonstrate the `chr()` function when different ASCII values are passed but their equivalent character is same:
 
 ```php
 <?php
