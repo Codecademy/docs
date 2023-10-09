@@ -23,7 +23,7 @@ The syntax of `fmod()` is as follows:
 math.fmod(num1, num2)
 ```
 
-Where `num1` names the number to be divided by `num2`.
+Where `num1` is the value to be divided by `num2`.
 
 ## Examples
 
