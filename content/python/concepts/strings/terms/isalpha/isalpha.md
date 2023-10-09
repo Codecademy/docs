@@ -18,16 +18,32 @@ The **`.isalpha()`** string method checks if all of the characters in a string a
 ## Syntax
 
 ```pseudo
-string.isalpha()
+my_string.isalpha()
 ```
 
 The `.isalpha()` method doesn't have any parameters.
 
 ## Example
 
-In the following example the `.isalpha()` method is used to check several strings:
+The following example uses `.isalpha()` to check `str`:
 
 ```python
+str = "Coding123"
+
+print(str.isalpha())
+```
+
+This example will output:
+
+```shell
+False
+```
+
+## Codebyte Example
+
+The following code is runnable and uses `.isalpha()` to check several strings:
+
+```codebyte/python
 str1 = "ABC"
 str2 = "Python is fun!"
 str3 = "zyx"
@@ -35,22 +51,4 @@ str3 = "zyx"
 print(str1.isalpha())
 print(str2.isalpha())
 print(str3.isalpha())
-```
-
-The above example will show the following output:
-
-```shell
-True
-False
-True
-```
-
-## Codebyte Example
-
-The following code is runnable and uses `.isalpha()` to check `str`:
-
-```codebyte/python
-str = "Coding123"
-
-print(str.isalpha())
 ```
