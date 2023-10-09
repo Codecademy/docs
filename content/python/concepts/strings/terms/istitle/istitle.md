@@ -23,7 +23,7 @@ my_string.istitle()
 
 ## Example
 
-The following code is runnable and uses `.istitle()` to check if a string is in title case:
+The code below uses `.istitle()` to check if a string is in title case:
 
 ```py
 my_string = "I love Codecademy Docs!"
@@ -39,7 +39,7 @@ False
 
 ## Codebyte Example
 
-The code below uses `.istitle()` to check if different capitalizations of the same string are in title case:
+The following code is runnable and uses `.istitle()` to check if different capitalizations of the same string are in title case:
 
 ```codebyte/python
 str1 = "codecademy docs"
