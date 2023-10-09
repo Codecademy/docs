@@ -155,7 +155,7 @@ func PrintEmbedded(m MainStruct) string {
 }
 ```
 
-Consider the following addition to the Pizza Restaurant example:
+Consider the following addition to the pizza example:
 
 ```go
 type Address struct {
