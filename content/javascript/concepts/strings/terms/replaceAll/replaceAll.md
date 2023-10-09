@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Returns a new string by replacing all the matches of searchValue by replacementValue.
+Returns a new string by replacing all the matches in a string of a given search value with a given replacement value.
 
 ## Syntax
 
