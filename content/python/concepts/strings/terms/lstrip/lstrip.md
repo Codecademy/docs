@@ -25,30 +25,29 @@ The `.lstrip()` method removes the whitespace at the beginning of a string. The 
 
 ## Examples
 
-Unless `chars` is specified, `.lstrip()` removes the leading whitespace:
+Unless `chars` is specified, `.lstrip()` removes the leading whitespace. If `chars` is specified `.lstrip()` will remove any leading characters in chars from the string. `chars` can be in any order.
+
 ```python
 hi = '     Hi there'
 print(hi.lstrip()) 
-#Output: Hi there
-```
 
-If `chars` is specified `.lstrip()` will remove any leading characters in chars from the string:
-```python
 filePath = 'cd ./user/home'
 print(filePath.lstrip('cd ./'))
-#Output: user/home
-```
 
-`chars` can be in any order:
-```python
 example = 'Hi, Welcome to Docs'
 example = example.lstrip('hiHI, ')
 print(example)
-#Output: Welcome to Docs
+```
+
+This code will result in the following output:
+
+```shell
+Hi there
+user/home
+Welcome to Docs
 ```
 
 >**Note:** Remember since `.lstrip()` is a method, it returns a new string and does not modify the original string.
-
 
 ## Codebyte Example
 
