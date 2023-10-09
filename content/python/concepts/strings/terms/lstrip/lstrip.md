@@ -45,7 +45,6 @@ print(example)
 ```
 >**Note:** Remember since `.lstrip()` is a method, it returns a new string and does not modify the original string
 
-[Text, code, images, etc. about example 1]
 
 ## Codebyte Example
 ```codebyte/python
