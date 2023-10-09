@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The method **`.status()`** takes a coroutine as a parameter and returns the status of that coroutine. This status can be one of three states: `suspended`, `running`, or `dead`.
+The **`status()`** method takes a coroutine as an argument and returns the status of that coroutine. This status can be one of three states: `suspended`, `running`, or `dead`.
 
 When a coroutine is created, it has a status of `suspended`. Once a coroutine is ran or resumed, it has a status of `running` until it is either re-suspended using `coroutine.yield()`, or it completes. If a coroutine completes its execution and terminates, it receives a permanent status of `dead`.
 
