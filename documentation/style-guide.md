@@ -188,7 +188,7 @@ Codebytes can be used with the following languages:
 ## File Hosting
 
 - If you'd like to host files such as images or GIFs, please upload them to the [/media folder](https://github.com/Codecademy/docs/tree/main/media).
-- Images' `src` attribute should be linked to the URL: "https://raw.githubusercontent.com/Codecademy/docs/main/media/" followed by the image name.
+- Images should be linked to the URL: "https://raw.githubusercontent.com/Codecademy/docs/main/media/" followed by the image name.
 - File names should use dashes (`-`) to separate words rather than spaces or underscores.
 - File names should be in lowercase.
 - Images should be used for diagrams, UI illustrations, and showing output to the user.
