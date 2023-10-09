@@ -27,7 +27,7 @@ The `.isalpha()` method doesn't have any parameters.
 
 The following example uses `.isalpha()` to check `str`:
 
-```python
+```py
 str = "Coding123"
 
 print(str.isalpha())
