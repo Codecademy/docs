@@ -38,7 +38,10 @@ print(filePath.lstrip('cd ./'))
 
 `chars` can be in any order:
 ```python
-
+example = 'Hi, Welcome to Docs'
+example = example.lstrip('hiHI, ')
+print(example)
+#Output: Welcome to Docs
 ```
 >**Note:** Remember since `.lstrip()` is a method, it returns a new string and does not modify the original string
 
