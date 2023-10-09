@@ -24,7 +24,7 @@ The syntax for calling `status()` is given below:
 coroutine.status(xCoroutine)
 ```
 
-Where `parameterCoroutine` names the coroutine to be checked.
+Where `xCoroutine` names the coroutine to be checked.
 
 ## Example
 
