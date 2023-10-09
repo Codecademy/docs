@@ -18,7 +18,7 @@ When a coroutine is created, it has a status of `suspended` by default. Once a c
 
 ## Syntax
 
-The syntax for calling `.status()` is given below:
+The syntax for calling `status()` is given below:
 
 ```pseudo
 coroutine.status(parameterCoroutine)
