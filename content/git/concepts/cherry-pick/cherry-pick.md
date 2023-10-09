@@ -23,7 +23,7 @@ git cherry-pick <commit>
 Below are a couple of optional flags that can be used with the `cherry-pick` command:
 
 - `edit`: allows edits to the commit message prior to committing.
-- `signoff`: add a 'signoff' signature line to the end of the cherry-pick commit message.
+- `signoff`: add a 'signoff' signature line to the end of the `cherry-pick` commit message.
 
 ## Example
 
