@@ -180,7 +180,7 @@ func restaurantInfo(r Restaurant) string {
 }
 ```
 
-An `Address` `struct` is created, and a `printAddress()` method takes an `Address` as its receiver. The anonymous field `Address` is added to `Restaurant` which allows access to the `Address` fields and methods.
+An `Address` struct is created, and a `printAddress()` method takes an `Address` as its receiver. The anonymous field `Address` is added to `Restaurant` which allows access to the `Address` fields and methods.
 
 The `restaurantInfo()` function can now access the `printAddress()` method with `r.printAddress()` and the `Country` field with `r.Country`.
 
