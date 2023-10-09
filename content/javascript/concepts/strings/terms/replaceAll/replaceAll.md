@@ -24,7 +24,7 @@ The `searchValue` can be either a [string](https://www.codecademy.com/resources/
 
 ## Example
 
-Replace all the word `'scream'` with `'laugh'`:
+Replace all the occurrences of "scream" with "laugh":
 
 ```js
 const sentence = `I scream, you scream, we all scream for ice cream.`;
