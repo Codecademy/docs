@@ -45,3 +45,11 @@ coroutine.resume(exampleCoroutine, exampleCoroutine) --Runs exampleCoroutine and
 
 print(coroutine.status(exampleCoroutine)) --Prints 'dead', since exampleCoroutine has terminated.
 ```
+
+This results in the output:
+
+```shell
+suspended
+running
+dead
+```
