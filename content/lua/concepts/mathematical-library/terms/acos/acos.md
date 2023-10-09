@@ -1,5 +1,5 @@
 ---
-Title: 'acos'
+Title: '.acos()'
 Description: 'Returns the arc cosine of the argument in radians.'
 Subjects:
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Returns the **arc cosine** of the argument in radians.
+The Lua.math method which returns the **arc cosine** of the argument, in radians.
 
 ## Syntax
 ```pseudo
