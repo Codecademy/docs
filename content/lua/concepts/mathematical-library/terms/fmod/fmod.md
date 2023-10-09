@@ -1,6 +1,6 @@
 ---
 Title: 'fmod()'
-Description: 'Returns the remainder of the quotient of two parameters.'
+Description: 'Returns the remainder of the quotient of two arguments.'
 Subjects:
   - 'Computer Science'
 Tags:
