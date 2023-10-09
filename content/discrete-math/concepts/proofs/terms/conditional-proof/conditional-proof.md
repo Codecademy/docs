@@ -16,14 +16,14 @@ CatalogContent:
 
 **Conditional Proof** is a technique used in mathematical proofs to demonstrate a conditional statement, by assuming the antecedent of the conditional and showing that the consequent follows.
 
-A conditional statment is a statement of the form 'if..., then...'. The antecedent (also called 'the hypothesis') is the condition of the conditional statement: the part following 'if'. The consequent (also called 'the conclusion') is what is claimed to follow from the condition: the part following 'then'.
+A conditional statment is a statement of the form 'if..., then...'. The antecedent or premise (also called the hypothesis) is the condition of the conditional statement: the part following 'if'. The consequent (also called the conclusion) is what is claimed to follow from the condition: the part following 'then'.
 
 By assuming the antecedent and then proving that the consequent follows, given that assumption, the entire conditional is shown to be true.
 
 ## Steps for Conditional Proof
 
-1. _Supposition for Conditional Proof_: Assume that the antecedent is true.
-2. _Prove the consequent_: Prove that the consequent is true.
+1. Supposition for Conditional Proof: Assume that the antecedent is true.
+2. Prove the consequent: Prove that the consequent is true.
 
 ## Example
 
@@ -38,7 +38,7 @@ Assume, for conditional proof, that for some integer n, where n ≥ 0, x / 4 = n
 ### Prove the Consequent
 
 ```plaintext
-First, we perform some basic algebraic manipulation on the assumption:
+First, perform some basic algebraic manipulation on the assumption:
 
 x / 4 = n		[by assumption above]
 x = 4n			[multiplying both sides by 4]
