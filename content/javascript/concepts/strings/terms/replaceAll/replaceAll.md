@@ -1,6 +1,6 @@
 ---
 Title: '.replaceAll()'
-Description: 'Returns a new string by replacing all the matches of searchValue by replacementValue'
+Description: 'Returns a new string by replacing all the matches of a given search value with a given replacement value.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
