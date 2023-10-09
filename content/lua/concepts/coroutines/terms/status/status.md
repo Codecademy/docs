@@ -1,5 +1,5 @@
 ---
-Title: '.status()'
+Title: 'status()'
 Description: 'Returns the status of the provided coroutine.'
 Subjects:
   - 'Computer Science'
