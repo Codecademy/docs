@@ -27,7 +27,7 @@ Where `num1` is the value to be divided by `num2`.
 
 ## Examples
 
-The following examples illustrate the behavior of `.fmod()`:
+The following examples illustrate the behavior of `fmod()`:
 
 ```lua
 print(math.fmod(6, 4))
