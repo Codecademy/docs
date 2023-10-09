@@ -17,7 +17,7 @@ The method **`fmod()`** takes two numbers and returns the remainder of the first
 
 ## Syntax
 
-The syntax of `.fmod()` is as follows:
+The syntax of `fmod()` is as follows:
 
 ```pseudo
 math.fmod(num1, num2)
