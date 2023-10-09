@@ -20,7 +20,7 @@ The **cherry-pick** command entails picking individual [commits](https://www.cod
 git cherry-pick <commit>
 ```
 
-There are a few other options that can be used with this command:
+Below are a couple of optional flags that can be used with the `cherry-pick` command:
 
 - `edit`: allows edits to the commit message prior to committing.
 - `signoff`: add a 'signoff' signature line to the end of the cherry-pick commit message.
