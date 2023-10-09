@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The method **`.fmod()`** takes two numbers as parameters and returns the remainder of the first number divided by the second number.
+The method **`fmod()`** takes two numbers and returns the remainder of the first number divided by the second number.
 
 ## Syntax
 
