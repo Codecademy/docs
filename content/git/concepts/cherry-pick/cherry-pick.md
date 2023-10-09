@@ -14,6 +14,17 @@ CatalogContent:
 
 The **cherry-pick** command entails picking individual [commits](https://www.codecademy.com/resources/docs/git/commit) from one [branch](https://www.codecademy.com/resources/docs/git/branch) to another.
 
+## Syntax
+
+```pseudo
+git cherry-pick <commit>
+```
+
+There are a few other options that can be used with this command:
+
+- `edit`: allows edits to the commit message prior to committing.
+- `signoff`: add a 'signoff' signature line to the end of the cherry-pick commit message.
+
 ## Example
 
 Below is a short example of how to use `git cherry-pick`. The developer copied and pasted the commit sha `2f410g1` on GitHub from a branch called `pets:main`to the branch `adding-content-about-dogs` after typing `cherry-pick`.
@@ -66,7 +77,7 @@ git diff HEAD
 git commit -m "Added content about poodles"
 ```
 
-Here's how the commit history would look after the `cherry-pick`:
+The following is the commit history after the `cherry-pick`:
 
 ```pseudo
 commit 23289
@@ -76,4 +87,4 @@ Date:   Fri Oct 8 16:29:04 2023 -0700
 Added content about poodles
 ```
 
-As shown above, there is only one commit in spite of cherry-picking it from SHA 2f410g1 due to the use of `--no-commit`.
+As shown above, there is only one commit in spite of cherry-picking it from SHA `2f410g1` due to the use of `--no-commit`.
