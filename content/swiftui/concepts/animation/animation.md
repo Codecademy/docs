@@ -47,7 +47,7 @@ struct ImplicitAnimation: View {
 
 This is the result of the code above:
 
-![Gif showing the effect of implicit animation on the view.](https://raw.githubusercontent.com/Codecademy/docs/main/media/Implicit-Animation-SwiftUI.gif)
+![Gif showing the effect of implicit animation on the view.](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-animation-implicit.gif)
 
 In this simple animation, the background and the text of the button change depending on the value of the `isanimation` variable. When the button is pressed, `isanimation` changes, causing the implicit animation to change the text and background of the button. As the name implies, SwiftUI creates and manages implicit animations whenever specific situations or user interface state changes take place, which means developers don't have full control over the animations. With explicit animation, developers have full control over them.
 
@@ -77,7 +77,7 @@ struct ExplicitAnimation: View {
 
 > **Note:** `withAnimation()` isn't a view modifier like `.animation()`. It's a function that needs to be called to perform the change to the state smoothly. This means that any view that uses the same state in its view will also be animated.
 
-![Gif showing the effect of explicit animation on the view.](https://raw.githubusercontent.com/Codecademy/docs/main/media/Explicit-Animation-Swiftui.gif)
+![Gif showing the effect of explicit animation on the view.](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-animation-explicit-1.gif)
 
 As shown in the output, `withAnimation()` is used to change the position of the button with a spring effect to it. One notable advantage of explicit animation is the ability for different views to be animated with a single call to `withAnimation()`. However, the two different views must use the same state variable to do so. For example, to animate the button label view's background color and the position of the button at the same time, a ternary operator will be added to `.background()`. This is shown in the following code:
 
@@ -101,4 +101,4 @@ struct ExplicitAnimation: View {
 }
 ```
 
-![Gif showing the effect of explicit animation on two different views using the same state variable.](https://raw.githubusercontent.com/Codecademy/docs/main/media/morethanoneView-with-Explicit-Animation-Swiftui.gif)
+![Gif showing the effect of explicit animation on two different views using the same state variable.](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-animation-explicit-2.gif)
