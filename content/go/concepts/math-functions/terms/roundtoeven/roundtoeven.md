@@ -30,7 +30,7 @@ Note these special cases:
 
 ## Example
 
-In this Go code example, we have a simple program that rounds a float value to the nearest even integer, using the `RoundToEven()` function from the `math` package.
+This Go code example demonstrates a basic implementation of the `RoundToEven()` function.
 
 ```go
 package main
@@ -45,14 +45,14 @@ x := 3.5
 
 // Round x to the nearest even integer
 rounded := math.RoundToEven(x)
-fmt.Printf("Rounded %v to the nearest even integer: %v\n", x, rounded)
+fmt.Printf("%v rounded to the nearest even integer yields: %v\n", x, rounded)
 }
 ```
 
 The above code results in the following output:
 
 ```shell
-Rounded 3.5 to the nearest even integer: 4
+3.5 rounded to the nearest even integer yields: 4
 ```
 
 ## Codebyte Example
@@ -60,7 +60,6 @@ Rounded 3.5 to the nearest even integer: 4
 The example below is runnable and demonstrates the `RoundToEven()` function.
 
 ```codebyte/golang
-
 package main
 
 import (
@@ -72,5 +71,4 @@ func main() {
   val := math.RoundToEven(5.5)
   fmt.Println(val)
 }
-
 ```
