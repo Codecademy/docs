@@ -14,7 +14,7 @@ CatalogContent:
 
 The **`status()`** method takes a coroutine as an argument and returns the status of that coroutine. This status can be one of three states: `suspended`, `running`, or `dead`.
 
-When a coroutine is created, it has a status of `suspended`. Once a coroutine is ran or resumed, it has a status of `running` until it is either re-suspended using `coroutine.yield()`, or it completes. If a coroutine completes its execution and terminates, it receives a permanent status of `dead`.
+When a coroutine is created, it has a status of `suspended` by default. Once a coroutine has been called or resumed, it has a status of `running`.  The coroutine will run until it is suspended, using `coroutine.yield()`, or it completes. If a coroutine completes its execution and terminates, it receives a permanent status of `dead`.
 
 ## Syntax
 
