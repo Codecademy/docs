@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The Kotlin `math` packages many static methods that provide common mathematical calculations for working with numbers. These methods can be accessed by importing the package at the top of the fil:
+The Kotlin `math` package contains many static methods that provide common mathematical calculations for working with numbers. These methods can be accessed by importing the package at the top of the file:
 
 ```kotlin
 import kotlin.math.*
