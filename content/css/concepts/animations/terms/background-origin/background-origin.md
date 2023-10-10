@@ -31,23 +31,10 @@ where `<value>` can be one of the following keywords:
 ## Example 1
 
 ```css
-div {
-  width: 200px;
-  height: 100px;
-  padding: 20px;
-  background-image: url('example.jpg');
+.element {
+  background-image: url('background-image.jpg');
   background-repeat: no-repeat;
-}
-
-.content-box {
+  background-size: cover;
   background-origin: content-box;
-}
-
-.padding-box {
-  background-origin: padding-box;
-}
-
-.border-box {
-  background-origin: border-box;
 }
 ```
