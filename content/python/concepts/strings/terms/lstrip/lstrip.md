@@ -1,5 +1,5 @@
 ---
-Title: '.lstrip'
+Title: '.lstrip()'
 Description: 'Removes leading characters from a string.'
 Subjects:
   - 'Computer Science'
