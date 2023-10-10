@@ -20,14 +20,18 @@ The **`acos()`** method of the Lua math library returns the arc cosine of the ar
 ```pseudo
 math.acos(x)
 ```
-Where -1 <= x <= 1
+
+Where _-1 <= x <= 1_.
 
 ## Example
 
-When run, the code below will print the arc cosine of x in radians to the console.
+The code below will print the arc cosine of `0.5` to the console.
+
 ```lua
 print(math.acos(0.5))
 ```
+
+The output will be:
 
 ```shell
 1.0471975511966
