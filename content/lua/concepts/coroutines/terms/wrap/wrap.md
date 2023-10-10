@@ -26,6 +26,8 @@ coroutine.wrap(function)
 
 ## Example
 
+This example utilizes the wrap() function to execute a wrapped coroutine, printing a specific message.
+
 ```lua
 function myCoroutine()
   print("Hello from coroutine wrap!")
