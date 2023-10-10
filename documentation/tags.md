@@ -195,6 +195,7 @@ Logic
 Logical
 Logistic Regression
 Loops
+Lua
 Map
 Machine Learning
 Margin
