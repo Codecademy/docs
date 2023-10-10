@@ -12,26 +12,22 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Arrays** are ordered collections for storing data. Luau, a lightweight and efficient scripting language, implements arrays using a single structure known as a table.
+**Arrays** are a type of container for storing data in ordered collections. Luau, a lightweight and efficient scripting language, implements arrays using a single structure known as a table.are a type of container for storing data in ordered collections. Luau, a lightweight and efficient scripting language, implements arrays using a single structure known as a table.
 
-Arrays can hold any type of data, can be accessed and modified using the common indexing syntax (`[]`), and can be cleared through the assignment of `nil`.
+Arrays are versatile data structures capable of storing various data types, allowing for access and modification using the conventional indexing syntax `[]`. To clear an array, you can set its elements to `nil`.
 
 ## Syntax
 
-In Luau, arrays can be created with curly braces `{}`. The convention for indexing across Luau libraries is to begin with `1` in lieu of `0`. By default, arrays designate the first item in an array as index `1`. However, arrays can be created to use any custom set of indices prescribed.
+Luau allows for the creation of arrays using curly braces `{}`. Unlike some programming languages that start array indexing from 0, in Luau, it is conventional to begin with index `1`. By default, the first element in an array is designated as index `1`. However, Luau provides the flexibility to create arrays with custom indices as needed.
 
 ```lua
-a = {};  -- A new empty array
+a = {5};  -- An array with single elemnent
 
-for i = 1, 5 do
-    a[i] = 0
-end
-
-print(a[5]) -- This will return 0
-print(a[6]) -- This will return nil because the index is out of range
+print(a[1]) -- This will return 5
+print(a[2]) -- This will return nil because the index is out of range
 ```
 
-The array created by the `for` loop above contains 5 items, all of which are `0`. Any of these values can be accessed by passing an index. However, if a value is passed out of the range of the array (1-5), the code will return `nil`. This is because `nil` refers to missing data.
+The array created above contains one element only with the value `5`, it can be accessed by passing an index 1. However, if a value is passed out of the range of the array , the code will return `nil`. This is because `nil` refers to missing data.
 
 ## Accessing Elements
 
@@ -39,23 +35,13 @@ To access an array element, the desired value is called by its _index_. For exam
 
 ```lua
 a = {
-    [1] = “🎁”, -- "Gift"
-    [2] = “🍌”, -- "Banana"
-    [3] = “🍎” -- "Apple"
+    [1] = “a”,
+    [2] = “b”,
+    [3] = “c”
 }
 ```
 
-In this array, elements are indexed from 1 to 3. To print "🍌", you need to reference it by its assigned index, which is 2.
-
-```lua
-a = {
-    [1] = “🎁”, -- "Gift"
-    [2] = “🍌”, -- "Banana"
-    [3] = “🍎” -- "Apple"
-}
-
-print(a[2]) -- “🍌” [Banana]
-```
+In this array, elements are indexed from 1 to 3. To print `b`, you need to reference it by its assigned index, which is 2.
 
 This indexing method works for all elements in an array. This also works with dictionaries, but instead the assigned _key_ must be used to retrieve a value. A _key_ is essentially an _index_ with the only difference being that a _key_ may be assigned as any type, while an _index_ must be a number.
 
@@ -63,12 +49,12 @@ For example:
 
 ```lua
 dictionary = {
-    [“🍎”] = “Apple”,
-    [“🍌”] = “Banana”,
-    [“🍊”] = “Orange”
+    [“A”] = “Apple”,
+    [“B”] = “Banana”,
+    [“C”] = “Cat”
 }
 
-print(dictionary[“🍊”]) -- “Orange”
+print(dictionary[“C”]) -- “Cat”
 ```
 
 It's important to note that in Lua (and Luau), when you access a dictionary or array using an index or key, Luau returns the associated value, not the index or key itself.
@@ -78,7 +64,7 @@ It's important to note that in Lua (and Luau), when you access a dictionary or a
 You can reassign values in Luau arrays by specifying the index and providing a new value, as shown below:
 
 ```lua
-a[2] = “🍊” -- Now the object at index is 2 is orange instead of banana
+a[2] = “c” -- Now the object at index is 2 is c instead of b
 ```
 
 To remove an element, you can simply reassign the index to `nil`.
@@ -94,10 +80,12 @@ Frequently, you'll want to determine the length or size of an array. In Luau, yo
 > **Note:** This syntax returns the last index of the array, which may not always be equivalent to the actual size of the array.
 
 ```lua
-b = {2, 4, 6, 8}
+names = {"Alice", "Bob", "Charlie", "David"} -- Let's consider an array of names
 
-for i = 1, #b do -- This will cycle through and print each element of the array
-  print(i)
+local size = #names -- We can use the '#' symbol to determine the size of the 'names' array
+
+for i = 1, size do
+  print(names[i]) -- Access and print each element of the array
 end
 ```
 
