@@ -1,6 +1,6 @@
 ---
 Title: 'Proof by Strong Induction'
-Description: 'Uses mathematical induction that proves all previous elements in a series have the same property.'
+Description: 'Proves a universal generalization using the hypothesis that all previous elements in a series have the same property.'
 Subjects:
   - 'Computer Science'
   - 'Discrete Math'
@@ -16,7 +16,7 @@ CatalogContent:
 
 **Proof by strong induction** is a mathematical technique for proving universal generalizations. It differs from ordinary mathematical induction (also known as weak mathematical induction) with respect to the inductive step.
 
-In a weak mathematical induction, the inductive step involves showing that if some element _n_ has a property, then the successor element _n + 1_ must also have that property. In a strong mathematical induction, the inductive step involves using recursion to show that if all elements up to and including _n_ have some property, then _n + 1_ has that property as well.
+In a weak mathematical induction, the inductive step involves showing that if some element _n_ has a property, then the successor element _n + 1_ must also have that property. In a strong mathematical induction, the inductive step involves showing that if all elements up to and including _n_ have some property, then _n + 1_ has that property as well.
 
 ## Steps for Strong Induction
 
@@ -33,7 +33,7 @@ For all x such that x ≥ 2, 2(x-1) - (x-2) = x.
 
 Base Step:
 
-The first element is where _x = 2_. Show that _2(x - 1) - (x - 2) = x_, where _x = 2_:
+The first element is where _x = 2_. Therefore, it must be shown that _2(x - 1) - (x - 2) = x_, where _x = 2_:
 
 ```plaintext
 2(2 - 1) - (2 - 2) = 2(1) - (0) = 2 - 0 = 2
@@ -44,7 +44,7 @@ Inductive Step:
 
 In the inductive step, it must be shown that if, for any value _x_ between _2_ and _k_ (inclusive), _2(x - 1) - (x - 2) = x_, then at _x = k + 1, 2(x - 1) - (x - 2) = x_.
 
-Prove this conditional by assuming the antecendent (this assumption is called the inductive hypothesis) and show the consequent:
+This conditional will be proven by assuming the antecendent (this assumption is called the inductive hypothesis) and showing the consequent:
 
 ```plaintext
 Inductive Hypothesis: Suppose that for all x such that 2 ≤ x ≤ k, 2(x - 1) - (x - 2) = x.
