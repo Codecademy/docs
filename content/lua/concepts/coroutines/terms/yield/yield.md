@@ -1,9 +1,9 @@
 ---
 Title: 'yield()'
-Description: 'Suspends the coroutine and returns to the caller'
+Description: 'Suspends the coroutine and returns to the caller.'
 Subjects:
   - 'Computer Science'
-  - 'Lua Programming'
+  - 'Game Development'
 Tags:
   - 'Methods'
   - 'Coroutines'
@@ -27,7 +27,7 @@ coroutine.yield(...)
 
 ## Example
 
-The `yield()` function allows the coroutine to pause its execution and later resume from the same point.
+The example below demonstrates how the `yield()` function allows the coroutine to pause its execution and restart from the same point.
 
 ```lua
 function myCoroutine()
@@ -40,6 +40,8 @@ co = coroutine.create(myCoroutine)
 coroutine.resume(co)
 coroutine.resume(co)
 ```
+
+This will result in the following output:
 
 ```shell
 Hello, Codecademy!
