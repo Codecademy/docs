@@ -24,15 +24,15 @@ html_entity_decode(string,flags,encoding)
 The `html_entity_decode()` function has one required parameter and three optional parameters:
 
 - `$string`: Required. Specifies the `string` to convert.
-- `$flags`: Optional. Specifies how to handle quotes, invalid encoding and the used document type. Ex: ENT_QUOTES | ENT_SUBSTITUTE | ENT_HTML5.
-- `$encoding`: An optional argument defining the encoding used when converting characters. If omitted, `$encoding` defaults to the value of the default_charset configuration option. Although this argument is technically optional, you are highly encouraged to specify the correct value for your code if the `default_charset` configuration option may be set incorrectly for the given input.
+- `$flags`: Optional. Specifies how to handle quotes, invalid encoding and the document type (e.g., `ENT_QUOTES` | `ENT_SUBSTITUTE` | `ENT_HTML5`).
+- `$encoding`: An optional argument defining the encoding used when converting characters. If omitted, `$encoding` defaults to the value of the `default_charset` configuration option. Although this argument is technically optional, it is a best practice to specify the correct value if the `default_charset` configuration option may not apply for the given input.
 
 
   - The available quote styles are:
 
     | Constant Name | Description|
     | ------------- | ----------------------------------- |
-    | ENT_COMPAT    | Default. html_entity_decode() function encodes only double quotes from `$string`|
+    | `ENT_COMPAT`    | (Default) Encodes only double quotes from `$string`|
     | ENT_QUOTES    | html_entity_decode() function encodes double and single quotes from `$string`   |
     | ENT_NOQUOTES  | html_entity_decode() function does not encode any quotes from `$string`|
 
@@ -65,7 +65,7 @@ The `html_entity_decode()` function has one required parameter and three optiona
     |MacRoman||html_entity_decode() function works with charset that was used by Mac OS.|
 
  
-    > **Note:** Any other character sets are not recognized. The default encoding will be used instead and a warning will be emitted.
+ > **Note:** Any other character sets are not recognized. The default encoding will be used instead and a warning will be emitted.
 
 
 The `html_entity_decode()` function returns the decoded `$string`.
@@ -74,7 +74,7 @@ The `html_entity_decode()` function returns the decoded `$string`.
 
 |Characters|Convert to|Result|
 |---|---|---|
-|\&amp;|becomes|& (ampersand)|
+|`\&amp;`|becomes|`&` (ampersand)|
 |\&quot;|becomes|" (double quote)|
 |\&#039;|becomes|' (single quote)|
 |\&lt;|becomes|< (less than)|
@@ -84,7 +84,7 @@ The `html_entity_decode()` function returns the decoded `$string`.
 
 ## Example
 
-The following example uses the `html_entity_decode()` function to convert the string `"&lt;b&gt;Welcome!!!&lt;/b&gt;"` to characters:
+The following example uses the `html_entity_decode()` function to convert the string `$str`:
 
 ```php
 <?php
