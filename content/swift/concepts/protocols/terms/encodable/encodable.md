@@ -16,11 +16,11 @@ CatalogContent:
 
 The protocol is related to the following protocols:
 
-- Codeable
-- Decodeable
-- CodingKey
-- CodingKeyRepresentable
-- CodingUserInfoKey
+- Codeable: 
+- [Decodeable](https://www.codecademy.com/resources/docs/swift/protocols/decodable):
+- CodingKey:
+- CodingKeyRepresentable:
+- [CodingUserInfoKey](https://www.codecademy.com/resources/docs/swift/protocols/codingkeyrepresentable):
 
 ## Syntax
 
