@@ -1,6 +1,6 @@
 ---
 Title: 'Functions'
-Description: 'Functions are the block of reusable code that can perform similar related actions.'
+Description: 'Functions are blocks of reusable code that can be used to repeat processes throughout a script or program.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
