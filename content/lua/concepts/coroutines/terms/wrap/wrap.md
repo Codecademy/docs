@@ -23,3 +23,20 @@ coroutine.wrap(function)
 
 - The `wrap()` is a function in Lua that creates a coroutine and returns a function that, when called, resumes the coroutine. 
 - It is similar to `coroutine.create()`, but instead of returning the coroutine itself, it returns a function that can be called multiple times to resume the coroutine.
+
+## Example
+
+```lua
+function myCoroutine()
+  print("Hello from coroutine wrap!")
+end
+
+local wrappedCoroutine = coroutine.wrap(myCoroutine)
+wrappedCoroutine()
+```
+
+This will output:
+
+```shell
+Hello from coroutine wrap!
+```
