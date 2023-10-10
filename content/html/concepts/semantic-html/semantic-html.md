@@ -69,7 +69,7 @@ Testing and validating for browser compatibility is essential in web development
 </section>
 ```
 
-- Proper Nesting: Structure with intent. Proper nesting is a fundamental aspect of semantic HTML. It involves structuring content logically by nesting tags in a way that reflects the hierarchical relationship between different elements. For instance, one common mistake is directly placing the `<aside>` element within the main content. This is not appropriate as `<aside>` is intended to aside from the main content. Following is a correct example of nesting semantic HTML tags:
+- Proper Nesting: Structure with intent. Proper nesting is a fundamental aspect of semantic HTML. It's crucial to structure content logically by nesting tags to reflect hierarchical relationships between elements. For instance, avoid the common mistake of placing the `<aside>` element directly within the main content; `<aside>` is intended to be positioned to the side, separate from the primary content.
 
 ```html
 <main>
@@ -84,4 +84,4 @@ Testing and validating for browser compatibility is essential in web development
 
 ## Drawbacks of Using Semantic HTML: Navigating Challenges
 
-Uhile using semantic HTML is recommended for accessible and structured content, it comes with challenges. These challenges include increased complexity, especially for those unfamiliar with semantic HTML, potential limited browser support requiring extra CSS or JavaScript for compatibility, a learning curve for new developers, the difficulty of transitioning from non-semantic to semantic HTML on existing websites, the need for proper knowledge and testing to ensure accessibility, and ongoing maintenance efforts for consistency. Additionally, for very simple web pages or prototypes, using minimal HTML may be more efficient due to potential file size concerns in performance-sensitive applications.
+Using semantic HTML tags is generally recommended for creating accessible and well-structured web content, but there are potential challenges to consider, such as increased complexity, limited browser support, a learning curve for new developers, and the need for ongoing maintenance. Additionally, for very simple web pages or prototypes, using minimal HTML may be more efficient due to potential file size concerns in performance-sensitive applications.
