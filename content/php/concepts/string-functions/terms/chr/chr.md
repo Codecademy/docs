@@ -29,7 +29,7 @@ The ASCII value can be specified in decimal, octal, or hex values.
 
 ## Example
 
-The example below demonstrate the `chr()` function when different ASCII values are passed but their equivalent character is same:
+The example below demonstrate the `chr()` function when different ASCII values are passed but their equivalent character is the same:
 
 ```php
 <?php
@@ -49,7 +49,7 @@ echo "The equivalent character for ASCII 0x62 in hex is $char_hexadecimal\n";
 ?>
 ```
 
-This results in the output:
+This results in the following output:
 
 ```shell
 The equivalent character for ASCII 98 in decimal is b
