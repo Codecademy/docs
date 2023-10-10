@@ -135,7 +135,7 @@ Pizzeria del Corso has a rating of 4 and serves the following pizzas: [{Margheri
 
 ## Inheritance through Composition
 
-A struct can 'inherit' the fields and methods of an embedded struct through composition rather than traditional [inheritance](https://www.codecademy.com/resources/docs/general/programming-paradigms/inheritance).
+A struct can 'inherit' the fields and methods of an embedded struct through composition rather than traditional [inheritance](https://www.codecademy.com/resources/docs/general/programming-paradigms/inheritance). This type of inheritance is achieved with the following syntax:
 
 ```pseudo
 type Embedded struct {
@@ -184,7 +184,7 @@ An `Address` struct is created, and a `printAddress()` method takes an `Address`
 
 The `restaurantInfo()` function can now access the `printAddress()` method with `r.printAddress()` and the `Country` field with `r.Country`.
 
-The following example adds the `Address` `struct` and method:
+The following example adds the `Address` struct and method:
 
 ```go
 package main
