@@ -1,0 +1,25 @@
+---
+Title: 'wrap()'
+Description: 'Returns a function that can resume a coroutine, acting like a thread but returning a function.'
+Subjects:
+  - 'Computer Science'
+  - 'Lua Programming'
+Tags:
+  - 'Methods'
+  - 'Coroutines'
+  - 'Functions'
+CatalogContent:
+  - 'learn-lua'
+  - 'paths/computer-science'
+---
+
+The **`wrap()`** function makes a coroutine and gives back a function. When you call that function, it resumes the coroutine.
+
+## Syntax
+
+```pseudo
+coroutine.wrap(function)
+```
+
+- The `wrap()` is a function in Lua that creates a coroutine and returns a function that, when called, resumes the coroutine. 
+- It is similar to `coroutine.create()`, but instead of returning the coroutine itself, it returns a function that can be called multiple times to resume the coroutine.
