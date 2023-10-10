@@ -21,4 +21,4 @@ In HTML, **tags** are commonly defined as a set of characters constituting a for
 <self-closing-element-tag />
 ```
 
-A single tag is made of an opening angle bracket `<`, followed by the `element-name`, followed by the closing angle bracket. While most elements are made of opening and closing tags but some are self-closing. Furthermore, some self-closing elements like [`<br>`](https://www.codecademy.com/resources/docs/html/elements/br) can have a slash at the end like so: `<br />`.
+A single tag is made of an opening angle bracket `<`, followed by the `element-name`, followed by the closing angle bracket. While most elements are made of opening and closing tags some are self-closing. Furthermore, some self-closing elements like [`<br>`](https://www.codecademy.com/resources/docs/html/elements/br) can have a slash at the end like so: `<br />`. The other self-closing tags include: `<area>`, `<base>`, `<col>`, `<embed>`, `<hr>`, `<img>`, `<input>`, `<keygen>`, `<link>`, `<meta>`, `<param>`, `<source>`, `<track>`, and `<wbr>`.
