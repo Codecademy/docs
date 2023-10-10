@@ -1,5 +1,5 @@
 ---
-Title: 'lstrip'
+Title: '.lstrip'
 Description: 'Removes leading characters from a string.'
 Subjects:
   - 'Computer Science'
@@ -29,7 +29,7 @@ Unless `chars` is specified, `.lstrip()` removes the leading whitespace. If `cha
 
 ```python
 hi = '     Hi there'
-print(hi.lstrip()) 
+print(hi.lstrip())
 
 filePath = 'cd ./user/home'
 print(filePath.lstrip('cd ./'))
@@ -47,12 +47,13 @@ user/home
 Welcome to Docs
 ```
 
->**Note:** Remember since `.lstrip()` is a method, it returns a new string and does not modify the original string.
+> **Note:** `.lstrip()` returns a new string and does not modify the original string.
 
 ## Codebyte Example
 
+The following code is runnable and uses the `.lstrip()` method.
+
 ```codebyte/python
-#runnable code block for lstrip()
 exampleString = '     User, Welcome to docs!'
 exampleString = exampleString.lstrip()
 
@@ -60,5 +61,4 @@ print(exampleString)
 
 exampleString = exampleString.lstrip('User,')
 print(exampleString)
-
 ```
