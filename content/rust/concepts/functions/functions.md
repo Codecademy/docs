@@ -3,7 +3,6 @@ Title: 'Functions'
 Description: 'Functions are blocks of reusable code that can be used to repeat processes throughout a script or program.'
 Subjects:
   - 'Computer Science'
-  - 'Data Science'
   - 'Game Development'
 Tags:
   - 'Functions'
