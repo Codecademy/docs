@@ -36,18 +36,48 @@ URL paths in HTML can be absolute paths, like a full URL, for example:
 
 ## Relative File Paths
 
-Relative file path are paths that links to a local file in the same folder or on the same server, for example:
+Relative file path are paths that links to a local file in the same folder or on the same server.
 
-- **./about.html**
-- **./style.css**
-- **./images/logo.png**
+Consider a folder:
 
-Relative file paths begin with `./` followed by a path to the local file. `./` tells the browser to look for the file path from the current folder.
+```
+my-project
+├── index.html
+├── about.html
+├── image
+|   └── logo.png
+└── post-1
+    └── post-1.html
+```
+
+Accessing files from `index.html` for example:
 
 ```html
 <a href="./about.html">
   The URL for this anchor element is a relative file path.
 </a>
+
+<img
+    src="./image/logo.png"
+    alt="The URL for this img element is a relative file path."
+/>
+```
+
+Relative file paths begin with `./` followed by a path to the local file. `./` tells the browser to look for the file path from the current folder.
+
+It's also possible to access files in upper level, using `../` which tells the browser to look for the file path from one level up.
+
+The code clip below is from `post-1.html`:
+
+```html
+<a href="../about.html">
+  The URL for this anchor element is a relative file path.
+</a>
+
+<img
+    src="../image/logo.png"
+    alt="The URL for this img element is a relative file path."
+/>
 ```
 
 ## Link to a Specific Part of the Page
