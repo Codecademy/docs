@@ -63,7 +63,7 @@ class City {
 
 ## Overloading
 
-The method of creating operators that work differently with custom data types is called operator [overloading](https://www.codecademy.com/resources/docs/cpp/overloading) in C++. This enables the user to use these operators with objects of their own classes.
+Redefining operators to work differently with custom data types is called operator [overloading](https://www.codecademy.com/resources/docs/cpp/overloading) in C++. This enables the user to use these operators with objects of their own classes.
 
 ```cpp
 #include <iostream>
