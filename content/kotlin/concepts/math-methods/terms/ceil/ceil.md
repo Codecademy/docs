@@ -13,7 +13,7 @@ CatalogContent:
 ---
 
 **Syntax:** 
-  ```kotlin
+```pseudo
   kotlin.math.ceil(x: Double)
 ```
 
