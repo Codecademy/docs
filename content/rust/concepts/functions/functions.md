@@ -7,8 +7,8 @@ Subjects:
 Tags:
   - 'Functions'
 CatalogContent:
-  - 'Computer Science'
   - 'rust-for-programmers'
+  - 'paths/computer-science'
 ---
 
 **Rust functions** are declared using the `fn` keyword. Its arguments are type annotated, just like variables, and, if the function returns a value, the return type must be specified after an arrow `->`.
