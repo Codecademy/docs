@@ -12,17 +12,22 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Syntax:** 
+## Syntax: 
 ```pseudo
   kotlin.math.ceil(x: Double)
 ```
 
-**Example:** 
+## Example: 
 ```kotlin
-val x = 3.14
-val y = 3.99
+val myDouble: Double = 7.5
+val myFloat: Float = 6.3f
+val myInt: Int = 4
 
-println(ceil(x)) // Output: 4.0
-println(ceil(y)) // Output: 4.0
+val resultDouble: Double = kotlin.math.ceil(myDouble)
+val resultFloat: Double = kotlin.math.ceil(myFloat.toDouble())
+val resultInt: Double = kotlin.math.ceil(myInt.toDouble())
 
+println(resultDouble) // Outputs: 8.0
+println(resultFloat)  // Outputs: 7.0
+println(resultInt)    // Outputs: 4.0
 ```
