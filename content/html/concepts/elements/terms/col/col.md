@@ -37,9 +37,9 @@ This this example we use `<col>` within a `<colgroup>` to specify the width for 
   <!-- Define a <colgroup> to group <col> elements for column styling -->
   <colgroup>
     <!-- Set the width of the first column to 100 pixels -->
-    <col style="width: 100px;">
+    <col style="width: 100px;" />
     <!-- Set the background color of the second column to lightblue -->
-    <col style="background-color: lightblue;">
+    <col style="background-color: lightblue;" />
   </colgroup>
   <!-- Create a table header row -->
   <tr>
