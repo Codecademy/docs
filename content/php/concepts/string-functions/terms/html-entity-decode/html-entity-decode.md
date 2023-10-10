@@ -27,7 +27,6 @@ The `html_entity_decode()` function has one required parameter and three optiona
 - `$flags`: Optional. Specifies how to handle quotes, invalid encoding and the document type (e.g., `ENT_QUOTES` | `ENT_SUBSTITUTE` | `ENT_HTML5`).
 - `$encoding`: An optional argument defining the encoding used when converting characters. If omitted, `$encoding` defaults to the value of the `default_charset` configuration option. Although this argument is technically optional, it is a best practice to specify the correct value if the `default_charset` configuration option may not apply for the given input.
 
-
   - The available quote styles are:
 
     | Constant Name | Description|
@@ -44,14 +43,12 @@ The `html_entity_decode()` function has one required parameter and three optiona
     | ENT_SUBSTITUTE | html_entity_decode() function replaces invalid encoding for a specified character set with a Unicode Replacement Character U+FFFD (UTF-8) or &#FFFD; instead of returning an empty string.s |
     | ENT_DISALLOWED | html_entity_decode() function replaces code points that are invalid in the specified doctype with a Unicode Replacement Character U+FFFD (UTF-8) or &#FFFD;|
 
-                
  - Additional flags for specifying the used doctype:
 
     | Constant Name | Description|
     | ------------- | --------------------------------- |
     | ENT_HTML5     | html_entity_decode() function handles code as HTML 5|
     | ENT_XHTML     | html_entity_decode() function handles code as XHTML|
-
 
   - Character sets that are supported:
     |Charset|Aliases|Description|
@@ -64,9 +61,7 @@ The `html_entity_decode()` function has one required parameter and three optiona
     |cp1252|Windows-1252, 1252|html_entity_decode() function works with Windows specific charset for Western European chatset.|
     |MacRoman||html_entity_decode() function works with charset that was used by Mac OS.|
 
- 
  > **Note:** Any other character sets are not recognized. The default encoding will be used instead and a warning will be emitted.
-
 
 The `html_entity_decode()` function returns the decoded `$string`.
 
@@ -79,8 +74,6 @@ The `html_entity_decode()` function returns the decoded `$string`.
 |\&#039;|becomes|' (single quote)|
 |\&lt;|becomes|< (less than)|
 |\&gt;|becomes|> (greater than)|
-
-
 
 ## Example
 
@@ -104,8 +97,6 @@ The browser output of the code above will be:
 ```shell
 Welcome!!!
 ```
-
-
 
 ## Codebyte Example
 
