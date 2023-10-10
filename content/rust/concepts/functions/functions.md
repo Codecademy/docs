@@ -12,7 +12,7 @@ CatalogContent:
 ---
 
 **Rust functions** are declared using the `fn` keyword. Its arguments are type annotated, just like variables, and, if the function returns a value, the return type must be specified after an arrow `->`.
-Rust code uses _snake_case_ as the conventional style for function and variable names, in which all letters are lowercase and underscores separate words.
+Rust code uses the _snake_case_  convention for function and variable names, in which all letters are lowercase and underscores separate words.
 
 Here’s a program that contains an example function definition
 
