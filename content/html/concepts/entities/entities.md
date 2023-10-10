@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Entities are character sequences placed in the text of an HTML document to print out reserved characters which may otherwise be interpreted as HTML code by a browser, or other special characters that would be difficult to generate with a typical keyboard. In fact, using reference numbers, an entity can represent any Unicode character. When parsing the HTML, a browser replaces the entity's character sequence with the character it represents.
+**Entities** are character sequences placed in the text of an HTML document to print out reserved characters which may otherwise be interpreted as HTML code by a browser, or other special characters that would be difficult to generate with a typical keyboard. In fact, using reference numbers, an entity can represent any Unicode character. When parsing the HTML, a browser replaces the entity's character sequence with the character it represents.
 
 ## Syntax
 
@@ -68,6 +68,7 @@ There is an entity `&Tab;` (or `&#9;`) which nominally produces a tab character.
   <p>The tab entity &Tab; in this sentence is preserved.</p>
 </pre>
 ```
+
 Output:
 
 ![Output for the tab entity code block above](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-entity-tab.png)
