@@ -32,8 +32,10 @@ The following code calculates the arctangent and prints out the result:
 ```go
 package main
 
-import "fmt"
-import "math"
+import (
+  "fmt"
+  "math"
+  )
 
 func main() {
 	
