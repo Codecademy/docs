@@ -40,6 +40,9 @@ body {
   background-blend-mode: normal;
 }
 ```
+The following image demonstrates the code block above:
+
+![background-blend-mode example 1](https://github.com/antriksh-9/docs/blob/background-blend-mode/media/background-blend-mode-example1.png)
 
 ## Example 2
 
@@ -52,6 +55,9 @@ body {
   background-blend-mode: lighten;
 }
 ```
+The following image demonstrates the code block above:
+
+![background-blend-mode example 2](https://github.com/antriksh-9/docs/blob/background-blend-mode/media/background-blend-mode-example2.png)
 
 ## Example 3
 
@@ -64,3 +70,8 @@ body {
   background-blend-mode: darken;
 }
 ```
+The following image demonstrates the code block above:
+
+![background-blend-mode example 3](https://github.com/antriksh-9/docs/blob/background-blend-mode/media/background-blend-mode-example3.png)
+
+
