@@ -132,7 +132,7 @@ fn main() {
 
 There is no function calls, macros, or even let statements in the function `number`, just the number 5 itself, And that’s a perfectly valid function in Rust.
 
-Now, look at another example-
+Now, look at another example:
 
 ```rust
 fn main() {
