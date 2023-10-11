@@ -37,6 +37,8 @@ Semantic tags, such as `<header>` or `<footer>`, are designated for a specific p
 </footer>
 ```
 
+![Semantic Tags](https://raw.githubusercontent.com/Codecademy/docs/main/media/<semantic-tags>.<png>)
+
 ## Why Use Semantic HTML?
 
 - Accessibility: Semantic HTML makes webpages accessible for mobile devices and for people with disabilities as well. This is because screen readers and browsers are better able to interpret the content of the site.
@@ -68,6 +70,8 @@ Use Semantics for Meaning: Choose semantic HTML Tags wisely: It is important to 
   </article>
 </section>
 ```
+
+![Semantic Tag Visualization for Technology News](https://raw.githubusercontent.com/Codecademy/docs/main/media/<use-semantics-for-meaning>.<png>)
 
 Proper Nesting: Structure with intent. Proper nesting is a fundamental aspect of semantic HTML. So, it is crucial to structure content logically to reflect hierarchical relationships between semantic elements. For instance, avoid the common mistake of placing the `<aside>` element directly within the main content; `<aside>` is intended to be positioned to the side, separate from the primary content.
 
