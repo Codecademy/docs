@@ -39,6 +39,4 @@ The example provides a schedule table for the Poetry Workshop. In this table, th
 </colgroup>
 ```
 
-The rendered output would look like this:
-
 ![Rendered col tag](https://raw.githubusercontent.com/Codecademy/docs/main/media/rendered-col-tag.png)
