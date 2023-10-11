@@ -88,7 +88,7 @@ Note that, `mut` keyword is used to bind value to a variable name which specifie
 ### Pass by reference
 
 When parameters are passed by reference, unlike value parameters, a new storage location is not created for these parameters. The reference parameters represent same memory location as the actual parameters. Parameter values can be passed by reference by prefixing the variable name with an `&`.
-In the example given below, we have a variable `number`, which is initially `5`. A _reference_ to the variable `number` is passed to the `make_zero()` function. The function now operates on the original variable. After the function is called it returns back to main method, the value of the original variable will be zero.
+In the example given below, there is variable `number`, which is initially `5`. A _reference_ to the variable `number` is passed to the `make_zero()` function. The function now operates on the original variable. After the function is called it returns back to main method, the value of the original variable will be zero.
 
 ```rust
 fn main(){
