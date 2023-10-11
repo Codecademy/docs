@@ -150,6 +150,7 @@ Code blocks can reference a language to support syntax highlighting. The followi
 - Java: ` ```java `
 - JavaScript: ` ```js `
 - Lua: ` ```lua `
+- Luau: ` ```lua `
 - Markdown: ` ```md `
 - PHP: ` ```php `
 - Plaintext: ` ```plaintext `
@@ -157,6 +158,7 @@ Code blocks can reference a language to support syntax highlighting. The followi
 - Python: ` ```py `
 - R: ` ```r `
 - Ruby: ` ```rb `
+- Rust: ` ```java `
 - Sass: ` ```scss `
 - Scheme: ` ```scheme `
 - Shell/Program Output: ` ```shell `
@@ -174,6 +176,7 @@ Codebytes can be used with the following languages:
 - PHP: ` ```codebyte/php `
 - Python: ` ```codebyte/python `
 - Ruby: ` ```codebyte/ruby `
+- Scheme: ` ```codebyte/scheme `
 
 ## Links
 
