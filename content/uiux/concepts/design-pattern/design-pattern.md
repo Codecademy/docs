@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**Design patterns** are standardized, widely adopted solutions to common design problems. Design patterns tend to be more flexible than **[design components](https://www.codecademy.com/resources/docs/uiux/design-component)**, and can include specific modules, flows, or behaviors.
+**Design patterns** are standardized, widely adopted solutions to common design problems. Design patterns tend to be more flexible than [design components](https://www.codecademy.com/resources/docs/uiux/design-component), and can include specific modules, flows, or behaviors.
 
 For example, if a design includes a **progress indicator**, it's not necessary to reinvent the wheel. Instead, designers are likely to select from common patterns and adjust them to their context.
 
