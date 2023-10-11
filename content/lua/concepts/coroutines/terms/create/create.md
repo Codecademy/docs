@@ -15,8 +15,6 @@ CatalogContent:
 
 ## Syntax
 
-This function can be written by using this syntax:
-
 ```pseudo
 co = coroutine.create(newFunc)
 ```
