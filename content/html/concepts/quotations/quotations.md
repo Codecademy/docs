@@ -15,7 +15,7 @@ In HTML, a quotation is a portion of text that is attributed to a specific perso
 
 ## Short Quotations
 
-Short quotations such as a short sentence or fragment should be set off with the [`<q>` tag](https://www.codecademy.com/resources/docs/html/elements/q). Here's an example of how to use the `<q>` tag:
+Short quotations such as a short sentence or fragment should be set off with the [`<q>`](https://www.codecademy.com/resources/docs/html/elements/q) tag. Here's an example of how to use the `<q>` tag:
 
 ```html
 <p>
@@ -30,7 +30,7 @@ In this example, the text "Imagination is more important than knowledge" is encl
 
 ## Long Quotations
 
-For longer quotations the `[<blockquote>](https://www.codecademy.com/resources/docs/html/elements/blockquote)` tag is used in lieu of `<q>`. Here's an example of how to use the `<blockquote>` tag:
+For longer quotations the [`<blockquote>`](https://www.codecademy.com/resources/docs/html/elements/blockquote) tag is used in lieu of `<q>`. Here's an example of how to use the `<blockquote>` tag:
 
 ```html
 <blockquote>
