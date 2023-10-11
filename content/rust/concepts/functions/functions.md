@@ -42,7 +42,7 @@ Note that, `another_function` can also be declared before as well as after the f
 
 ## Functions as Parameters
 
-We can define functions to have parameters, which are special variables that are part of a function’s signature. When a function has parameters, you can provide it with concrete values for those parameters.
+Functions can have parameters, which are special variables that are part of a function’s signature. When a function has parameters, it can be called with concrete values for those parameters.
 Here, the declaration of `another_function` has one parameter named `x`. The type of `x` is specified as `i32`. In function signatures, you must declare the type of each parameter.
 
 ```rust
