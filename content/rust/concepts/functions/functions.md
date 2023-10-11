@@ -38,7 +38,7 @@ Rust uses the _snake_case_ convention for function and variable names, in which 
  }
 ```
 
-Note that, we can define function `another_function` before as well as after the function `main`. Rust doesn't care about where you define the function but they can be somewhere in the scope.
+Note that, `another_function` can also be declared before as well as after the function `main`. Rust doesn't care about where it is defined, it just must be somewhere in the scope.
 
 ## Functions as Parameters
 
