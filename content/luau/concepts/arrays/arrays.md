@@ -12,13 +12,13 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Arrays** are a type of container for storing data in ordered collections. Luau, a lightweight and efficient scripting language, implements arrays using a single structure known as a table.are a type of container for storing data in ordered collections. Luau, a lightweight and efficient scripting language, implements arrays using a single structure known as a table.
+**Arrays** are a type of container for storing data in ordered collections. Luau, a lightweight and efficient scripting language, implements arrays using a single structure known as a table.
 
-Arrays are versatile data structures capable of storing various data types, allowing for access and modification using the conventional indexing syntax `[]`. To clear an array, you can set its elements to `nil`.
+Arrays are versatile data structures capable of storing various data types, and values can be retrieved or modified using the conventional indexing syntax `[]`. To clear an array, the elements are set to `nil`.
 
 ## Syntax
 
-Luau allows for the creation of arrays using curly braces `{}`. Unlike some programming languages that start array indexing from 0, in Luau, it is conventional to begin with index `1`. By default, the first element in an array is designated as index `1`. However, Luau provides the flexibility to create arrays with custom indices as needed.
+Luau allows for the creation of arrays using curly braces `{}`. Unlike some programming languages that start array indexing from `0`, in Luau, the convention is to begin with index `1`. By default, the first element in an array is designated as index `1`. However, Luau provides the flexibility to create arrays with custom indices as needed.
 
 ```lua
 a = {5};  -- An array with single elemnent
@@ -27,7 +27,7 @@ print(a[1]) -- This will return 5
 print(a[2]) -- This will return nil because the index is out of range
 ```
 
-The array created above contains one element only with the value `5`, it can be accessed by passing an index 1. However, if a value is passed out of the range of the array , the code will return `nil`. This is because `nil` refers to missing data.
+The array created above contains one element only with the value `5`, it can be accessed by passing the index value `1`. However, if a value is passed out of the range of the array , the code will return `nil`. This is because `nil` refers to missing data.
 
 ## Accessing Elements
 
