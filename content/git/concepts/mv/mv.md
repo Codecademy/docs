@@ -12,9 +12,9 @@ CatalogContent:
   - 'learn-the-command-line'
 ---
 
-# Git `mv` Command
-
 The `git mv` command is used to move or rename files **within** a Git repository. It's a more convenient way to move or rename files compared to manually deleting and adding files. This command also helps in tracking the history of file movements and renames.
+
+## Git command
 
 ## Syntax
 
