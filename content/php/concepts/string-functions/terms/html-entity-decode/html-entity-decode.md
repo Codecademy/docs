@@ -39,27 +39,27 @@ The `html_entity_decode()` function has one required parameter and three optiona
 
     | Constant Name  | Description |
     |---|---|                                                                                                                                    
-    | ENT_IGNORE| html_entity_decode() function ignores invalid encoding instead of having the function return an empty string. Should be avoided, as it may have security|                        
-    | ENT_SUBSTITUTE | html_entity_decode() function replaces invalid encoding for a specified character set with a Unicode Replacement Character U+FFFD (UTF-8) or &#FFFD; instead of returning an empty string.s |
-    | ENT_DISALLOWED | html_entity_decode() function replaces code points that are invalid in the specified doctype with a Unicode Replacement Character U+FFFD (UTF-8) or &#FFFD;|
+    | ENT_IGNORE| Ignores invalid encoding instead of having the function return an empty string. Should be avoided, as it may have security|                        
+    | ENT_SUBSTITUTE | Replaces invalid encoding for a specified character set with a Unicode Replacement Character U+FFFD (UTF-8) or &#FFFD; instead of returning an empty string.s |
+    | ENT_DISALLOWED | Replaces code points that are invalid in the specified doctype with a Unicode Replacement Character U+FFFD (UTF-8) or &#FFFD;|
 
  - Additional flags for specifying the used doctype:
 
     | Constant Name | Description|
     | ------------- | --------------------------------- |
-    | ENT_HTML5     | html_entity_decode() function handles code as HTML 5|
-    | ENT_XHTML     | html_entity_decode() function handles code as XHTML|
+    | ENT_HTML5     | Handles code as HTML 5|
+    | ENT_XHTML     | Handles code as XHTML|
 
   - Character sets that are supported:
     |Charset|Aliases|Description|
     |---|---|---|
-    |ISO-8859-1|ISO8859-1|html_entity_decode() function works with Western European, Latin-1 charset.|
-    |ISO-8859-15|ISO8859-15|html_entity_decode() function works with Western European, Latin-9. Adds the Euro sign, French and Finnish letters missing in Latin-1 (ISO-8859-1) charset.|
-    |UTF-8||html_entity_decode() function works with ASCII compatible multi-byte 8-bit Unicode charset.|
-    |cp866|ibm866, 866|html_entity_decode() function works with DOS-specific Cyrillic charset.|
-    |cp1251|Windows-1251, win-1251, 1251|html_entity_decode() function works with Windows-specific Cyrillic charset.|
-    |cp1252|Windows-1252, 1252|html_entity_decode() function works with Windows specific charset for Western European chatset.|
-    |MacRoman||html_entity_decode() function works with charset that was used by Mac OS.|
+    |ISO-8859-1|ISO8859-1| Works with Western European, Latin-1 charset.|
+    |ISO-8859-15|ISO8859-15| Works with Western European, Latin-9. Adds the Euro sign, French and Finnish letters missing in Latin-1 (ISO-8859-1) charset.|
+    |UTF-8|| Works with ASCII compatible multi-byte 8-bit Unicode charset.|
+    |cp866|ibm866, 866| Works with DOS-specific Cyrillic charset.|
+    |cp1251|Windows-1251, win-1251, 1251| Works with Windows-specific Cyrillic charset.|
+    |cp1252|Windows-1252, 1252| Works with Windows specific charset for Western European chatset.|
+    |MacRoman|| Works with charset that was used by Mac OS.|
 
  > **Note:** Any other character sets are not recognized. The default encoding will be used instead and a warning will be emitted.
 
