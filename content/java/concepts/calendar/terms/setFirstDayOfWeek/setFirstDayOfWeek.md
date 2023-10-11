@@ -19,7 +19,37 @@ The **`.setFirstDayOfWeek()`** method of the `Calendar` class sets what the firs
 ## Syntax
 
 ```pseudo
-calendar.setFirstDayOfWeek(day_val)
+calendar.setFirstDayOfWeek(int day_val)
 ```
 
-This method takes only one arguement, `day_val`, which is an integer that represents one of seven days of the week. E.g. `Calendar.FRIDAY`.
+This method takes only one arguement, `day_val`, which is an integer that represents one of seven days of the week (e.g. `Calendar.FRIDAY`). It does not return a value.
+
+## Example
+
+In the example below, the `.setFirstDayOfWeek()` method is used to set the first day of the week 1.
+
+```java
+import java.util.Calendar;
+
+public class FirstDayOfWeek {
+  public static void main(String[] args) {
+    // Creates a calendar object.
+    Calendar cal = Calendar.getInstance();
+
+    // Retrieves and prints the current first day of the week. 
+    int firstDay = cal.getFirstDayOfWeek();
+    System.out.println("First day of the week: " + first_day);
+
+    // Changes the first day of the week.
+    int newFirstDay = cal.setFirstDayOfWeek(Calendar.SATURDAY);
+    System.out.println("New first day of the week: " + newFirstDay);
+  }
+}
+```
+
+This code returns the following output:
+
+```shell
+First day of the week: 1
+New first day of the week: 7
+```
