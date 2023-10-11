@@ -115,7 +115,8 @@ Note that, `*` operator is used to access value stored in the memory location th
 ## Functions with Return Values
 
 Functions can return values to the code that calls them. Its arguments are type annotated, just like variables, and, if the function returns a value, the return type must be specified after an arrow `->`. In Rust, the return value of the function is determined by the value of the final expression in the block of the body of a function.
-Here's an example defining funtion with return values,
+
+Here's an example defining function with return values:
 
 ```rust
 fn number() -> i32 {
