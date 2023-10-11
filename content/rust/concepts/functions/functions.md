@@ -103,7 +103,7 @@ fn make_zero(mut param_num:&mut i32) {
 }
 ```
 
-The output will be-
+The output will be:
 
 ```pseudo
 param_num value is:0
