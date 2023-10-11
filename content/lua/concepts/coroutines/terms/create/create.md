@@ -1,6 +1,6 @@
 ---
-Title: '.create()'
-Description: '.create() is used to create a new coroutine with a function as an argument that will run within the new coroutine.'
+Title: 'create()'
+Description: 'Returns a new coroutine with a function as an argument that will run within the new coroutine.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -11,17 +11,17 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**.create()** is used to create a new coroutine with a function as an argument that will run within the new coroutine. This function returns a type thread value. When a new coroutine is created, the status is 'suspended'. Use `.resume()` to run. It will turn to 'dead' once it is finished.
+**`create()`** is used to create a new coroutine with a function as an argument that will run within the new coroutine. This function returns a type thread value. When a new coroutine is created, the status is 'suspended'. The `.resume()` method is used to run or initiate the coroutine. When the execution has completed the coroutine is designated 'dead'.
 
 ## Syntax
 
 This function can be written by using this syntax:
 
 ```pseudo
-coroutine.create(newFunc)
+co = coroutine.create(newFunc)
 ```
 
-Where newFunc is used as an argument to run within the new coroutine.
+Where `newFunc` is used as an argument to run within the new coroutine.
 
 ## Example
 
@@ -37,7 +37,7 @@ end)
 print(coroutine.status(co_great))
 
 -- Run a new coroutine
-print(coroutine.status(co_great, "Alice"))
+print(coroutine.resume(co_great, "Alice"))
 
 -- Check again after it got run
 print(coroutine.status(co_great))
@@ -47,8 +47,7 @@ The output will look like this below:
 
 ```shell
 suspended
-
 Hi, Alice
-
+true
 dead
 ```
