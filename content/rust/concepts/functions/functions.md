@@ -61,7 +61,7 @@ Parameters can be passed to function using following techniques:
 
 When a method is invoked, a new storage location is created for each value parameter. The values of the actual parameters are copied into them. Hence, the changes made to the parameter inside the invoked method have no effect on the argument.
 
-Here's an example declares a variable `number`, which is initially `5`. The variable is passed as a parameter (by value) to the `make_zero()` function, which changes the value to zero. After the function called it returns back to main method and the value will be same.
+Here's an example declares a variable `number`, which is initially `5`. The variable is passed as a parameter (by value) to the `make_zero()` function, which changes the value to zero. After the function is called, control returns back to the main method and the value will be the same.
 
 ```rust
 fn main(){
