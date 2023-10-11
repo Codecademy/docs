@@ -55,7 +55,7 @@ fn another_function(x: i32) {
 }
 ```
 
-Parameters can be passed to function using following techniques-
+Parameters can be passed to function using following techniques:
 
 ### Pass by Value
 
