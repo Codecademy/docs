@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-**`word-spacing`** sets space between words.
+The **`word-spacing`** attribute is used to set the size of spaces between words.
 
 ## Syntax
 
@@ -50,4 +50,4 @@ This will display:
 
 ![Word Spacing Style on a Paragraph](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-typography-word-spacing.png)
 
-> **Note:** For word spacing, using `em` values are recommended because the spacing can be set based on the size of the font.
+> **Note:** For word spacing, using `em` values are recommended because the spacing can be set to match the size of the font.
