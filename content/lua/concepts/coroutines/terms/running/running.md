@@ -22,3 +22,38 @@ coroutine.running()
 
 - `running()` function in Lua which returns the coroutine running the function. If the function is not running inside a coroutine, it returns nil.
 - The `coroutine` table in Lua contains all its coroutine functions, including `create`, which creates new coroutines, and `yield`, which allows a running coroutine to suspend its execution so that it can be resumed later.
+
+## Example
+
+The example uses `coroutine.running()` to print coroutine IDs, both from the main thread and within a coroutine.
+
+```lua
+function printCurrentCoroutineID()
+  local currentCoroutine = coroutine.running()
+  if currentCoroutine then
+    print("Current coroutine ID:", currentCoroutine)
+  else
+    print("Not running inside a coroutine")
+  end
+end
+
+print("Printing from the main thread")
+printCurrentCoroutineID()
+
+-- Create a coroutine and print from it
+local myCoroutine = coroutine.create(function()
+  print("Printing from the coroutine")
+  printCurrentCoroutineID()
+end)
+
+coroutine.resume(myCoroutine)
+```
+
+The output will look like this below:
+
+```shell
+Printing from the main thread
+Current coroutine ID:	thread: 0x...
+Printing from the coroutine
+Current coroutine ID:	thread: 0x...
+```
