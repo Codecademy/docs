@@ -16,7 +16,7 @@ CatalogContent:
 
 Designers should prioritize pages and content based on who the target audience is, how they expect to use the product, and how they will move through the interface. By defining the structure of the content, as well as how it’s prioritized, organized, and navigated, designers can increase the usability of the interface.
 
-Effective IA allows users to complete tasks with the least effort required. **[Site maps](https://www.codecademy.com/resources/docs/uiux/site-map)** are a visual representation of IA and give context to how content is tiered. Although IA isn’t visually presented to users, content should be grouped and structured in a way that makes logical sense to maximize usability.
+Effective IA allows users to complete tasks with the least effort required. [Site maps](https://www.codecademy.com/resources/docs/uiux/site-map) are a visual representation of IA and give context to how content is tiered. Although IA isn’t visually presented to users, content should be grouped and structured in a way that makes logical sense to maximize usability.
 
 ![An example of a site map with illustrations of construction workers and equipment building out the map.](https://raw.githubusercontent.com/Codecademy/docs/main/media/information-architecture.webp)
 
