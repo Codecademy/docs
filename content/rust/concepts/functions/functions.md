@@ -1,6 +1,6 @@
 ---
 Title: 'Functions'
-Description: 'blocks of reusable code that can be used to repeat processes throughout a script or program.'
+Description: 'Blocks of reusable code that can be used to repeat processes throughout a script or program.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -11,14 +11,15 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
+Functions are blocks of reusable code that can be used to repeat processes throughout a script or program.
+
 ## Syntax
 
-Rust functions are declared using the `fn` keyword. Every Rust program has at least one function: the _main_ function, which is the entry point of many programs.
+Functions in Rust are declared using the `fn` keyword. Every Rust program has at least one function: the _main_ function, which is the entry point of many programs.
 
 ```rust
  fn main(){
     println("hello, world!");
-
  }
 ```
 
@@ -38,11 +39,12 @@ Rust uses the _snake_case_ convention for function and variable names, in which 
  }
 ```
 
-Note that, `another_function` can also be declared before as well as after the function `main`. Rust doesn't care about where it is defined, it just must be somewhere in the scope.
+Note that, `another_function` can also be declared before or after the function `main`. Rust doesn't care about where it is defined, it just needs to be somewhere in the scope.
 
 ## Functions as Parameters
 
 Functions can have parameters, which are special variables that are part of a function’s signature. When a function has parameters, it can be called with concrete values for those parameters.
+
 Here, the declaration of `another_function` has one parameter named `x`. The type of `x` is specified as `i32`. In function signatures the type of each parameter must be declared.
 
 ```rust
@@ -76,7 +78,7 @@ fn make_zero(mut param_num: i32) {
 }
 ```
 
-The output will be -
+The output will be:
 
 ```pseudo
 param_num value is :0
@@ -88,6 +90,7 @@ Note that, `mut` keyword is used to bind value to a variable name which specifie
 ### Pass by reference
 
 When parameters are passed by reference, unlike value parameters, a new storage location is not created for these parameters. The reference parameters represent same memory location as the actual parameters. Parameter values can be passed by reference by prefixing the variable name with an `&`.
+
 In the example given below, there is variable `number`, which is initially `5`. A _reference_ to the variable `number` is passed to the `make_zero()` function. The function now operates on the original variable. After the function is called it returns back to main method, the value of the original variable will be zero.
 
 ```rust
@@ -130,7 +133,7 @@ fn main() {
 }
 ```
 
-There is no function calls, macros, or even let statements in the function `number`, just the number 5 itself, And that’s a perfectly valid function in Rust.
+There are no function calls, macros, or even let statements in the function `number`, just the number `5` itself, And that’s a perfectly valid function in Rust.
 
 Now, look at another example:
 
