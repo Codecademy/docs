@@ -22,40 +22,39 @@ In the Rust programming language, variables are associated with specific data ty
 
 ## Declaring a Variable
 
-In rust, variable declaration follows a specific syntax pattern. Here's a basic example:
+In Rust, variable declaration follows a specific syntax pattern. Here's a basic example:
 
 ```pseudo
 let number: i32 = 42;
 ```
 
-In the above example a variable is declered named `number` with an initial value of `42` and it specify its data type as `i32` (a 32-bit signed integer).
+In the above example,a variable is declared named `number` with an initial value of `42` and it specifies its data type as `i32` (a 32-bit signed integer).
 
 ## Codebyte Example
 
-```codebyte/rs
-# Example runnable code block.
+This codebyte example demonstrates variable declaration and mutability in Rust.First,declare an immutable variable `x` with an initial value of `5` and a mutable variable `y` with an initial value of `10`. Then print the values of `x` and `y` to the console, then update the value of `y` and print it to the console.
+
 fn main() {
-    // Declare an immutable variable named 'x' with an initial value of 5.
-    let x = 5;
 
-    // Declare a mutable variable named 'y' with an initial value of 10.
-    let mut y = 10;
+// Declare an immutable variable named 'x' with an initial value of 5.
+let x = 5;
 
-    // Print the values of 'x' and 'y' to the console.
-    println!("Value of 'x': {}", x);
-    println!("Value of 'y': {}", y);
+// Declare a mutable variable named 'y' with an initial value of 10.
+let mut y = 10;
 
-    // Change the value of 'y'.
-    y = 20;
+// Print the values of 'x' and 'y' to the console.
+println!("Value of 'x': {}", x);
+println!("Value of 'y': {}", y);
 
-    // Print the updated value of 'y' to the console.
-    println!("Updated value of 'y': {}", y);
+// Change the value of 'y'.
+y = 20;
 
-    // You can also declare variables without initializing them, but you must specify their type.
-    // let z: f64; // Declare an uninitialized f64 variable 'z'.
-
-    // Attempting to use 'z' before initializing it will result in a compilation error.
-    // println!("Value of 'z': {}", z);
+// Print the updated value of 'y' to the console.
+println!("Updated value of 'y': {}", y);
 }
 
+```shell
+Value of 'x': 5
+Value of 'y': 10
+Updated value of 'y': 20
 ```
