@@ -29,29 +29,14 @@ HTML tables are defined by their rows, not by columns. The result of this is tha
 
 ## Example
 
-This this example we use `<col>` within a `<colgroup>` to specify the width for the first column and set a background color for the second column.
+The example provides a schedule table for the Poetry Workshop. In this table, the `<col>` element is utilized to set the background color of the columns. This illustrative instance also demonstrates that when a style is applied to a row, it takes precedence over any style applied to a column. The `span` attribute is set to 2 because the style applied to the first column is overridden by the row's style.
 
 ```html
-<!-- Create a table with a border -->
-<table border="1">
-  <!-- Define a <colgroup> to group <col> elements for column styling -->
-  <colgroup>
-    <!-- Set the width of the first column to 100 pixels -->
-    <col style="width: 100px;" />
-    <!-- Set the background color of the second column to lightblue -->
-    <col style="background-color: lightblue;" />
-  </colgroup>
-  <!-- Create a table header row -->
-  <tr>
-    <th>Column 1</th>
-    <th>Column 2</th>
-  </tr>
-  <!-- Create a data row -->
-  <tr>
-    <td>Data 1</td>
-    <td>Data 2</td>
-  </tr>
-</table>
+<colgroup>
+  <col span="2" style="background-color:#EBC7B9;" />
+  <col style="background-color:#EBD0B9" />
+  <col style="background-color:#EBDEB9" />
+</colgroup>
 ```
 
 The rendered output would look like this:
