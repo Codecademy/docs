@@ -32,8 +32,8 @@ The `html_entity_decode()` function has one required parameter and three optiona
     | Constant Name | Description|
     | ------------- | ----------------------------------- |
     | `ENT_COMPAT`    | (Default) Encodes only double quotes from `$string`|
-    | ENT_QUOTES    | html_entity_decode() function encodes double and single quotes from `$string`   |
-    | ENT_NOQUOTES  | html_entity_decode() function does not encode any quotes from `$string`|
+    | ENT_QUOTES    | Encodes double and single quotes from `$string`   |
+    | ENT_NOQUOTES  | Does not encode any quotes from `$string`|
 
   - Invalid encoding:
 
