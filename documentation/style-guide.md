@@ -158,7 +158,7 @@ Code blocks can reference a language to support syntax highlighting. The followi
 - Python: ` ```py `
 - R: ` ```r `
 - Ruby: ` ```rb `
-- Rust: ` ```java `
+- Rust: ` ```rust `
 - Sass: ` ```scss `
 - Scheme: ` ```scheme `
 - Shell/Program Output: ` ```shell `
