@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Lua's **`math.max()`** function is a standrard function which is a part of the `math` library, and it is also the number-one solution for determining the maximum value from a list of numerical inputs, regardless of the number of values in this list. Whether you're working on a simple arithmetic operation or even a complex mathematical algorithm or data analysis, of course  **`math.max()`** will be a versatile and a fundamental helper function for you.
+Lua's **`math.max()`** function is a standard function that is a part of the `math` library, and it is also the number-one solution for determining the maximum value from a list of numerical inputs, regardless of the number of values in this list. Whether you're working on a simple arithmetic operation or even a complex mathematical algorithm or data analysis, **`math.max()`** will be a versatile and fundamental helper function for you.
 
 **`math.max()`** is a valuable asset in any program that requires identifying a peak value.
 
@@ -22,7 +22,7 @@ Lua's **`math.max()`** function is a standrard function which is a part of the `
 
 ## Syntax
 
-Since `max()` is a method from Lua's library `math`, therefore it is called as `math.max()`
+Since `max()` is a method from Lua's library `math`, therefore it is called `math.max()`
 
 ```pseudo
 math.max(value1, value2, value3, .....) -- Returns the maximum value among the input numerical values.
@@ -30,7 +30,7 @@ math.max(value1, value2, value3, .....) -- Returns the maximum value among the i
 
 ## Example 1
 
-To find the highest value among three variables.
+To find the highest value among three variables:
 
 ```lua
 a = 22
