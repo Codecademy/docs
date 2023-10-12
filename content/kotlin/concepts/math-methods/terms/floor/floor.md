@@ -19,7 +19,8 @@ The result returns a value type of `float`.
 ## Syntax
 
 ```pseudo
-Math.floor(x:Double)
+import kotlin.math.*
+floor(x)
 ```
 
 Where `x` is the number to be rounded down to the nearest integer.
