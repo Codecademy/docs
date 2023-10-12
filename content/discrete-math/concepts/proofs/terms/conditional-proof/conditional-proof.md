@@ -40,8 +40,8 @@ Assume, for conditional proof, that for some integer n, where n ≥ 0, x / 4 = n
 ```plaintext
 First, perform some basic algebraic manipulation on the assumption:
 
-x / 4 = n 	      [by assumption above]
-x = 4n  		      [multiplying both sides by 4]
+x / 4 = n         [by assumption above]
+x = 4n            [multiplying both sides by 4]
 x / 2 = 4n / 2    [dividing both sides by 2]
 x / 2 = 2n        [simplifying right-hand side]
 
