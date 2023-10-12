@@ -33,13 +33,4 @@ println(Math.floor(3.4))
 
 The result will be a float value of `3` as the function rounds `3.4` down to `3`.
 
-## Codebyte Example
-
-Using `floor()` to return the value of 5 after rounding down`:
-
-```codebyte/kotlin
-<?kotlin
-  println(Math.floor(5.6));
-?>
-```
 
