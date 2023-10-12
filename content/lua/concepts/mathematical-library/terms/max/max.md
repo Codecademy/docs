@@ -14,15 +14,13 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Lua's **`math.max()`** function is a standard function that is a part of the `math` library, and it is also the number-one solution for determining the maximum value from a list of numerical inputs, regardless of the number of values in this list. Whether you're working on a simple arithmetic operation or even a complex mathematical algorithm or data analysis, **`math.max()`** will be a versatile and fundamental helper function for you.
+Lua's **`math.max()`** function is a standard function that is a part of the `math` library, and it is the best solution for determining the maximum value from a list of numerical inputs, regardless of the number of values in this list. Whether the task is just simple arithmetic or a complex mathematical algorithm, `math.max()` is a versatile and fundamental helper function for a variety of cases.
 
-**`math.max()`** is a valuable asset in any program that requires identifying a peak value.
-
-> **Note:** `math.max()` is the opposite functionality of the `math.min()` which is responisble for returning the minimum value among a set of numerical values.
+> **Note:** `math.min()` is the opposing function, which will return the minimum value among a set of numerical values.
 
 ## Syntax
 
-Since `max()` is a method from Lua's library `math`, therefore it is called `math.max()`
+Since `max()` is a method from Lua's library `math`,  it is called as `math.max()`.
 
 ```pseudo
 math.max(value1, value2, value3, .....) -- Returns the maximum value among the input numerical values.
@@ -47,7 +45,7 @@ This results in the following output:
 
 ## Example 2
 
-Even by comparing two equal values it still returns one of them:
+In a comparison of two equal values the function will still return a single number:
 
 ```lua
 a = 10
