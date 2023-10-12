@@ -46,8 +46,7 @@ Set background positioning to the edge of the content box:
 
 The resulting output of the code block above is
 
-![Background origin set to padding-box](./media/background-origin-content.png "background-origin: padding-box")
-
+![Background origin set to padding-box](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-origin-content.png 'background-origin: padding-box')
 
 ## Example 2
 
@@ -64,8 +63,7 @@ Set background positioning to the inside edge of the border, respecting its' pad
 
 The resulting output of the code block above is
 
-![Background origin set to padding-box](./media/background-origin-padding.png "background-origin: padding-box")
-
+![Background origin set to padding-box](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-origin-padding.png 'background-origin: padding-box')
 
 ## Example 3
 
@@ -82,5 +80,4 @@ Set background positioning to the edge of the border:
 
 The resulting output of the code block above is
 
-![Background origin set to padding-box](./media/background-origin-border.png "background-origin: padding-box")
-
+![Background origin set to padding-box](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-origin-border.png 'background-origin: padding-box')
