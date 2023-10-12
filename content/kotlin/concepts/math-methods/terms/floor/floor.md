@@ -23,7 +23,7 @@ import kotlin.math.*
 floor(x)
 ```
 
-Where `x` is the number to be rounded down to the nearest integer.
+Where `x` is the number of type double to be rounded down to the nearest integer.
 
 ## Example
 
