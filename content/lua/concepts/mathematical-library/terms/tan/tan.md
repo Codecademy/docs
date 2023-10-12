@@ -24,31 +24,20 @@ In Lua, the **`math.tan()`** function is a standard mathematical function that i
 math.tan(myangle)
 ```
 
-## Example 1
+## Example
 
-To find the tangent of a `45` degree angle, first convert it into radians. Then pass the value to the `math.tan()` function, as shown in the following example:
+To find the tangent of an angle in degrees, first convert it into radians, and then pass the value to the `math.tan()` function, or simply pass in the radian value:
 
 ```lua
 local angle = 45 * ( math.pi / 180 )
 print(math.tan(angle))
+
+print(math.tan(math.pi / 6))
 ```
 
 This results in the following output:
 
 ```shell
 1.0
-```
-
-## Example 2
-
-To find the tangent of an angle in radians, simply pass in the radian value as the input. This is shown in the following example:
-
-```lua
-print(math.tan(math.pi / 6))
-```
-
-This will yield the following output:
-
-```shell
 0.57735026918963
 ```
