@@ -34,7 +34,7 @@ For any integer k, the product 3k^2 + k is even.
 ### Mutual exhaustion
 
 ```pseudo
-Any integer is either odd or even. We therefore consider two cases: (1) k is odd; and (2) k is even.
+Any integer is either odd or even. So, there are two cases to consider: (1) k is odd; and (2) k is even.
 ```
 
 ### Prove each case
@@ -44,7 +44,7 @@ First, consider case (1), in which k is odd.
 
 If k is odd, then k = 2n + 1, for some integer n.
 
-We now perform some algebraic manipulation on the expression 3k^2 + k:
+Now, perform some algebraic manipulation on the expression 3k^2 + k:
 
 	3k^2 + k = 3(2n+1)^2 + 2n + 1		[substitute 2n + 1 for k]
 		 = 3(4n^2 + 4n + 1) + 2n + 1	[square (2n+1)]
@@ -58,7 +58,7 @@ Next, consider case (2), in which k is even.
 
 If k is even, then k = 2n, for some integer n.
 
-We now perform some algebraic manipulation on the expression 3k^2 + k:
+Now, perform some algebraic manipulation on the expression 3k^2 + k:
 
 	3k^2 + k = 3(2n)^2 + 2			[substitute 2n for k]
 		 = 12n^2 + 2			[simplify 3(2n)^2]
@@ -66,5 +66,5 @@ We now perform some algebraic manipulation on the expression 3k^2 + k:
 
 When n is an integer, 6n^2 + 1 is also an integer. Therefore 2(6n^2 + 1) is equal to 2 times some integer. As 2 times any integer is even, it follows that 2(6n^2 + 1) is even. Therefore 3k^2 + k is even.
 
-We've therefore proven that in either case, whether k is odd or even, 3k^2 + k is even. It follows that for any integer k, the product 3k^2 + k is even.
+Therefore, in either case, whether k is odd or even, 3k^2 + k is even. It follows that for any integer k, the product 3k^2 + k is even.
 ```
