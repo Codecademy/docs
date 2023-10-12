@@ -28,7 +28,7 @@ public class Main {
   public static void main(String[] args) {
 
     double circle_radius = 5;
-    double circle_area = Math.PI * (circle_radius * circle_radius)
+    double circle_area = Math.PI * (circle_radius * circle_radius);
     System.out.println(circle_area);
     }
 }
