@@ -11,7 +11,7 @@ CatalogContent:
   - 'learn-python-3'
   - 'paths/machine-learning-ai-engineering-foundations'
 ---
-**Greedy best-first search** is similar to **Greedy breadth-first search** on a weighted graph, in that both algorithms traverse the nodes of a graph by evaluating the potential of only the nodes directly adjacent to the current node. However, instead of evaluating adjacent nodes based solely on edge weights, **Greedy best-first search** evaluates which of the current nodes neighbours is the most promising based on a heuristic evaluation function which evaluates neighbouring nodes using relevent and available information including but not exclusive to, edge weights, previous recorded steps, number of adjacent nodes, problem domain specific constraints and variables, etc. 
+**Greedy best-first search** is similar to **Greedy depth-first search** on a weighted graph, in that both algorithms traverse the nodes of a graph by evaluating the potential of the nodes adjacent to the current node. However, instead of evaluating adjacent nodes based solely on edge weights, **Greedy best-first search** evaluates which of the current nodes neighbours is the most promising based on a heuristic evaluation function which evaluates neighbouring nodes using relevent and available information including but not exclusive to, edge weights, previous recorded steps, number of adjacent nodes, problem domain specific constraints and variables, etc. 
 
 Not every implementation of **Greedy best-first search** employs the same heuristic evaluation function, nor should they, as the flexibility of defining a heuristic encourages the application of graph data structures and algorithms to novel problem areas.
 
