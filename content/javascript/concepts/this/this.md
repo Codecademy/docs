@@ -112,7 +112,7 @@ console.log(getValue());
 // Output: undefined
 ```
 
-There is a `.bind()` method that can be used to alter this behavor. `.bind()` can be used when creating a function to specify the object that `this` will refer to.
+There is a `.bind()` method that can be used to alter this behavior. `.bind()` can be used when creating a function to specify the object that `this` will refer to.
 
 ```js
 const obj = {
