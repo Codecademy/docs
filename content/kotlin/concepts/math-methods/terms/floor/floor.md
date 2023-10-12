@@ -1,6 +1,6 @@
 ---
 Title: 'floor()'
-Description: 'The `floor()` method in Kotlin is used to round a floating-point to a nearest lowest integer value'
+Description: 'Returns the nearest integer that is lower than or equal to the value passed.'
 Subjects:
   - 'Computer Science'
 Tags:
