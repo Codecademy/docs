@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`atan()`** function in Lua's math library evaluates the arctangent (inverse tangent) of a given number. The arctangent is the angle in radians (this is the answer returned) whose tangent is equal to the given value.
+The **`atan()`** function in Lua's math library evaluates the arctangent (inverse tangent) of a given number. The arctangent is the angle in radians (the answer returned) whose tangent is equal to the given value.
 
 ## Syntax
 
@@ -30,11 +30,12 @@ In this example, `math.atan()` calculates the arctangent of 1.
 local x = 1
 local answer = math.atan(x)
 
-print("The Arctangent of", x, "is", answer)
+local output = string.format("The arctangent of %.2f is approximately %.4f", x, answer)
+print(output)
 ```
 
-This will result in the following output below. The answer is approximately 0.785 radians or 45 degrees.
+This will result in the following output below.
 
 ```shell
-The Arctangent of 1	is 0.78539816339745
+The arctangent of 1.00 is approximately 0.7854
 ```
