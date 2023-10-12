@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`floor()`** function returns a rounded number down to the nearest integer.
+The **`floor()`** function takes a value and returns the nearest integer that is lower than or equal to the value given.
 
 The result returns a value type of `float`.
 
