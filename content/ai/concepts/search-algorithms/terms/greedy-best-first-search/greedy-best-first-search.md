@@ -11,8 +11,9 @@ CatalogContent:
   - 'learn-python-3'
   - 'paths/machine-learning-ai-engineering-foundations'
 ---
+**Greedy best-first search** is similar to **Greedy breadth-first search** on a weighted graph, in that both algorithms traverse the nodes of a graph by evaluating the potential of only the nodes directly adjacent to the current node. However, instead of evaluating adjacent nodes based solely on edge weights, **Greedy best-first search** evaluates which of the current nodes neighbours is the most promising based on a heuristic evaluation function which evaluates neighbouring nodes using relevent and available information including but not exclusive to, edge weights, previous recorded steps, number of adjacent nodes, problem domain specific constraints and variables, etc. 
 
-**Greedy best-first search** is an informed search algorithm where the evaluation function is strictly equal to the heuristic function, disregarding the edge weights in a weighted graph. To get from a start node to a target node, the lowest value resulting from some heuristic function, **h(x)**, is considered as the successive node to traverse to. The goal is to choose the quickest and shortest path to the target node.
+Not every implementation of **Greedy best-first search** employs the same heuristic evaluation function, nor should they, as the flexibility of defining a heuristic encourages the application of graph data structures and algorithms to novel problem areas.
 
 ## Evaluation Function
 
@@ -22,13 +23,13 @@ The evaluation function, **f(x)**, for the greedy best-first search algorithm is
 f(x) = h(x)
 ```
 
-Here, the evaluation function is equal to the heuristic function. Since this search disregards edge weights, finding the lowest-cost path is not guaranteed.
+Here, the evaluation function is equal to the heuristic function. Since this function does not neccesarily depend on edge weights, finding the lowest-cost path is not guaranteed.
 
 ### Heuristic Function
 
-A heuristic function, **h(x)**, evaluates the successive node based on how close it is to the target node. In other words, it chooses the immediate low-cost option. As this is the case, however, it does not necessarily find the shortest path to the goal.
+A heuristic function, **h(x)**, evaluates the adjacent nodes based on a predefined function and set of variables. However, this heuristic does not necessarily find the shortest path to the goal, as with other greedy search algorithms.
 
-Suppose a bot is trying to move from point A to point B. In greedy best-first search, the bot will choose to move to the position that brings it closest to the goal, disregarding if another position ultimately yields a shorter distance. In the case that there is an obstruction, it will evaluate the previous nodes with the shortest distance to the goal, and continuously choose the node that is closest to the goal.
+Suppose a bot is trying to move from point A to point B employing greedy best-first search and the heuristic of the distance between the current node and the target as its evaluation funciton. The bot will choose to move to the position that brings it closest to the goal, disregarding if another position ultimately yields a shorter distance. In the case that there is an obstruction, it will evaluate the previous nodes with the shortest distance to the goal, and continuously choose the node that is closest to the goal.
 
 ## The Algorithm
 
