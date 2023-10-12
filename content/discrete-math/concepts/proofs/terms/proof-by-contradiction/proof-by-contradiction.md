@@ -10,8 +10,7 @@ Tags:
   - 'Logical'
   - 'Math'
 CatalogContent:
-  - 'computer-science'
-  - 'paths/computer-science'
+  - 'discrete-math'
 ---
 
 **Proof by Contradiction** is a technique used in mathematical proofs to demonstrate a statement by assuming that it is false and then showing that a contradiction follows on that assumption. By proving that a contradiction would occur if a statement were false, the truth of that statement is thereby demonstrated.
@@ -20,14 +19,14 @@ Proof by Contradiction is also sometimes known as **indirect proof** or **reduct
 
 ## Steps for Proof by Contradiction
 
-1. _Supposition for reductio_: Assume that the statement is false.
+1. _Suppose the negation_: Assume that the statement is false.
 2. _Prove a contradiction_: Prove that a contradiction follows, given the assumption.
 
 ## Example
 
 A famous version of the proof that there are infinitely many primes uses Proof by Contradiction.
 
-### Supposition for reductio
+### Suppose the negation
 
 ```plaintext
 Assume, for proof by contradiction, that there are only finitely many primes.
