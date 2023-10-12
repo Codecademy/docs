@@ -28,7 +28,8 @@ Where `x` is the number of type double to be rounded down to the nearest integer
 ## Example
 
 ```kotlin
-println(Math.floor(3.4))
+import kotlin.math.*
+println(floor(3.4))
 // Output: 3
 ```
 
