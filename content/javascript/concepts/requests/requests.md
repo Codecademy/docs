@@ -72,7 +72,7 @@ xhr.onload = function () {
 };
 
 xhr.onerror = function () {
-  alert(`Network Error Occured`);
+  alert(`Network Error Occurred`);
 };
 
 xhr.onprogress = function (event) {
