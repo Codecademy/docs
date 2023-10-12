@@ -37,7 +37,7 @@ Semantic tags, such as `<header>` or `<footer>`, are designated for a specific p
 </footer>
 ```
 
-![Semantic Tags](https://raw.githubusercontent.com/Codecademy/docs/main/media/<semantic-tags>.<png>)
+![Semantic Tags](https://raw.githubusercontent.com/Codecademy/docs/main/media/semantic-tags.png)
 
 ## Why Use Semantic HTML?
 
@@ -53,7 +53,7 @@ Testing and validating for browser compatibility is essential in web development
 
 ## Semantic HTML Best Practices
 
-Use Semantics for Meaning: Choose semantic HTML Tags wisely: It is important to choose tags that accurately convey the content's meaning and purpose. Avoid common mistakes like using `<article>` and `<section>` tags interchangeably. In the following example, using `<article>` for each subsection correctly represents self-contained content (news articles), while `<section>` encapsulates the broader category 'Technology News,' aligning with their intended semantic purposes.
+Use Semantics for Meaning: Choose semantic HTML Tags wisely. It is important to choose tags that accurately convey the content's meaning and purpose. Avoid common mistakes like using `<article>` and `<section>` tags interchangeably. In the following example, using `<article>` for each subsection correctly represents self-contained content (news articles), while `<section>` encapsulates the broader category 'Technology News,' aligning with their intended semantic purposes.
 
 ```html
 <section>
@@ -71,9 +71,9 @@ Use Semantics for Meaning: Choose semantic HTML Tags wisely: It is important to 
 </section>
 ```
 
-![Semantic Tag Visualization for Technology News](https://raw.githubusercontent.com/Codecademy/docs/main/media/<use-semantics-for-meaning>.<png>)
+![Semantic Tag Visualization for Technology News](https://raw.githubusercontent.com/Codecademy/docs/main/media/use-semantics-for-meaning.png)
 
-Proper Nesting: Structure with intent. Proper nesting is a fundamental aspect of semantic HTML. So, it is crucial to structure content logically to reflect hierarchical relationships between semantic elements. For instance, avoid the common mistake of placing the `<aside>` element directly within the main content; `<aside>` is intended to be positioned to the side, separate from the primary content.
+Proper Nesting: Proper nesting is a fundamental aspect of semantic HTML. So, it is crucial to structure content logically to reflect hierarchical relationships between semantic elements. For instance, avoid the common mistake of placing the `<aside>` element directly within the main content; `<aside>` is intended to be positioned to the side, separate from the primary content.
 
 ```html
 <main>
