@@ -27,7 +27,7 @@ The absolute value of `n` will be its distance from zero regardless of its direc
 
 ## Example
 
-In the example belwo, the absolute values of two variables, `positive` and `negative`, are returned with the `abs()` function:
+In the example below, the absolute values of two variables, `positive` and `negative`, are returned with the `abs()` function:
 
 ```py
 positive = 10
