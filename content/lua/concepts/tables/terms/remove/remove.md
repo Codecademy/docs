@@ -19,12 +19,11 @@ The **`.remove()`** function in Lua removes the value of the specified index and
 ```lua
 table.remove(tableName,pos)
 ```
+`.remove()` returns the value that was removed from the `tableName`. The `pos` parameter has a default value of `n`, which is the length of the table. This causes the last element of the table to be removed if the `pos` parameter is not provided.
 
 ## Example
 
 In the following example `.remove()` function attempts to remove the element at the `pos` position from the table. This causes other elements to shift down to close the space, if necessary.
-
-This function returns the value that was removed from the table. The `pos` parameter has a default value of `n`, which is the length of the table. This causes the last element of the table to be removed if the `pos` parameter is not provided.
 
 ```lua
 local fruit = {
@@ -39,7 +38,7 @@ local removedFruit = table.remove(fruit, 2);
 
 print(removedFruit)
 
-pprint(table.concat(fruit,", "))
+print(table.concat(fruit,", "))
 ```
 
 This example results in the following output:
