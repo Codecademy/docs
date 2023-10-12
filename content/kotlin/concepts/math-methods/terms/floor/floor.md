@@ -27,12 +27,17 @@ Where `x` is the number of type double to be rounded down to the nearest integer
 
 ## Example
 
+The following example demonstrates a basic implementation of the `floor()` method.
+
 ```kotlin
 import kotlin.math.*
 println(floor(3.4))
-// Output: 3
+```
+
+This will output:
+
+```shell
+3.0
 ```
 
 The result will be a float value of `3` as the function rounds `3.4` down to `3`.
-
-
