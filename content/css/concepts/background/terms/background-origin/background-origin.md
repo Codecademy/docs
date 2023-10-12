@@ -43,6 +43,7 @@ Set background positioning to the edge of the content box:
   background-origin: content-box;
 }
 ```
+
 The resulting output of the code block above is
 
 ![Background origin set to padding-box](./media/background-origin-content.png "background-origin: padding-box")
@@ -60,6 +61,7 @@ Set background positioning to the inside edge of the border, respecting its' pad
   background-origin: padding-box;
 }
 ```
+
 The resulting output of the code block above is
 
 ![Background origin set to padding-box](./media/background-origin-padding.png "background-origin: padding-box")
@@ -77,6 +79,7 @@ Set background positioning to the edge of the border:
   background-origin: border-box;
 }
 ```
+
 The resulting output of the code block above is
 
 ![Background origin set to padding-box](./media/background-origin-border.png "background-origin: padding-box")
