@@ -12,8 +12,7 @@ CatalogContent:
   - 'paths/machine-learning-ai-engineering-foundations'
 ---
 
-**Greedy best-first search** is an informed search algorithm where the evaluation function is strictly equal to the heuristic function, disregarding the edge weights in a weighted graph. To get from a start node to a target node, the lowest value resulting from some heuristic function, **h(x)**, is considered as the successive node to traverse to. The goal is to choose the quickest and shortest path to the target node.
-
+**Greedy best-first search**  is an informed search algorithm where the evaluation function is strictly equal to the heuristic function, disregarding the edge weights in a weighted graph(because we care about the heuristic value). In ordre to search for a goal node expand the node that is closest to the goal as determined by the heuristic function.Assume that is likely to lead a solution quickly.The solution from Greedy Best First Search may not be optimal since a shorter path may exist.In this algorithm search cost is minimum since solution found without expanding a node that is not on the solution path.This algorithm is minimal but not complete since it can lead to a dead end.It's called "Greedy" since at each step it tries to get as close to the goal as it can.
 ## Evaluation Function
 
 The evaluation function, **f(x)**, for the greedy best-first search algorithm is the following:
