@@ -1,6 +1,6 @@
 ---
 Title: 'tan()'
-Description: 'Used to calculate the tangent of an angle.'
+Description: 'Calculates the tangent of an angle.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -14,21 +14,19 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Lua, the **`math.tan()`** function is a standard mathematical function that is part of the Lua `math` library. The `math.tan()` function is used to calculate the tangent of a given angle.
+In Lua, the **`math.tan()`** function is a standard mathematical function that is part of the Lua `math` library. It is used to calculate the tangent of a given angle.
 
-> **Note:** `math.tan()` expects the input angle value to be in _radians_. If you have an angle value in degrees, you can convert it into radians using the the **math.pi** constant in Lua and the following formula: `radians = degrees * (math.pi / 180)`
+> **Note:** `math.tan()` expects the input angle value to be in radians. If an angle's value is in degrees, it can be converted into radians using the **math.pi** constant in Lua and the following formula: `radians = degrees * (math.pi / 180)`
 
 ## Syntax
 
-As `tan()` is a method that is a part of the standard Lua `math` library, it must be called as `math.tan()`.
-
 ```pseudo
-math.tan(mycoolangle) -- Returns the tangent value for the given angle
+math.tan(myangle)
 ```
 
 ## Example 1
 
-To find the tangent of a 45 degree angle, first convert it into radians. Then pass the value to the `math.tan()` function, as shown in the following example:
+To find the tangent of a `45` degree angle, first convert it into radians. Then pass the value to the `math.tan()` function, as shown in the following example:
 
 ```lua
 local angle = 45 * ( math.pi / 180 )
