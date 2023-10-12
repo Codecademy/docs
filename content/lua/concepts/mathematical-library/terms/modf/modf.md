@@ -22,7 +22,6 @@ The **`math.modf()`** function is a part of the Lua `math` library and is used t
 
 As `modf()` is a method that is a part of the standard Lua `math` library, it must be called as `math.modf()`.
 
-
 ```pseudo
 integerPart, fractionalPart = math.modf(number) -- Returns the intergal and fractional part
 ```
@@ -39,6 +38,7 @@ print("Fractional part: " .. fractionalPart) -- Output: Fractional part: 0.3
 ```
 
 ## Example 2
+
 When `math.modf()` is used with a number that is already an integer:
 
 ```bash
@@ -50,6 +50,7 @@ print("Fractional part: " .. fractionalPart) -- Output: Fractional part: 0.0
 ```
 
 ## Example 3
+
 For negative numbers, `math.modf()` returns the closest integer less than or equal to the given value:
 
 ```lua
