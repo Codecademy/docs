@@ -24,7 +24,7 @@ The syntax of `ult()` is as follows:
 math.ult(int1, int2)
 ```
 
-Where `int1` and `int2` are integer arguments.
+Where `int1` and `int2` are the integer arguments to be compared.
 
 ## Examples
 
