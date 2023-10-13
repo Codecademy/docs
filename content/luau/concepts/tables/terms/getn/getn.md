@@ -14,6 +14,8 @@ CatalogContent:
 
 The **`.getn()`** function in Luau returns the number of elements in a table by iterating over the table and counting the elements, while ignoring any nil elements. This function is a handy tool for various table-related tasks, including checking the table's length, allocating memory for a table, and determining if a table is empty.
 
+> **Note:** This function has been deprecated. Applying the `.getn()` function will result in an error. Use `#t` instead.
+
 ## Syntax
 
 ```lua
