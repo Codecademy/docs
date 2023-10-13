@@ -112,7 +112,7 @@ To link your Codecademy user profile to GitHub:
 4. Select the Github icon under "Or log in using:"
 5. Proceed through the OAuth process.
 
-## Any necessary tips for a Pull Request (PR)?
+## Any requirements for a Pull Request (PR)?
 
 - Before making a PR, make sure you pushed your changes from a branch other than `main`.
 - Name the new branch after the changes being pushed to the PR.
