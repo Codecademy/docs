@@ -16,7 +16,7 @@ The **`git mv`** command is used to move or rename files _within_ a Git reposito
 
 ## Syntax
 
-```bash
+```pseudo
 git mv <old-file-path> <new-file-path>
 ```
 
@@ -26,7 +26,7 @@ git mv <old-file-path> <new-file-path>
 
 To move a file from one location to another, use the `git mv` command like this:
 
-```pseudo
+```bash
 git mv source_filepath destination_filepath
 ```
 
