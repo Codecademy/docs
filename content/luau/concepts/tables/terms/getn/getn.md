@@ -87,4 +87,3 @@ This code will print the following output:
 The table is empty.
 ```
 
-**Note:** This function has been deprecated. It is recommended that new projects use `#t` instead.
