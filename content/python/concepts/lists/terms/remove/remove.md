@@ -36,7 +36,7 @@ print(inventory)
 
 ## Codebyte Example
 
-To remove the first occurance of `'eggs'`:
+To remove the first occurrence of `'eggs'`:
 
 ```codebyte/python
 grocery_list = ['blueberries', 'mochi', 'eggs', 'chocolate']
