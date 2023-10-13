@@ -20,7 +20,7 @@ The **`.getn()`** function in Luau returns the number of elements in a table by 
 table.getn(t)
 ```
 
-The `table.getn()` function takes only one argument (`t`), which is the table whose length you want to get. It returns the number of elements in the table, as an integer.
+The `table.getn()` function takes only one argument, `t`, the table to retrieve the length of. It returns the number of elements in the table, as an integer.
 
 ## Example 1
 
