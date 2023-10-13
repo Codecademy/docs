@@ -1,6 +1,6 @@
 ---
 Title: 'ult()'
-Description: 'Compares the absolute value of two integers and returns boolean true if the first is less than the second.'
+Description: 'Compares the absolute value of two integers and returns true if the first is less than the second.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
