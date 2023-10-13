@@ -49,7 +49,7 @@ Semantic tags, such as `<header>` or `<footer>`, are designated for a specific p
 
 ## Testing and Validating for Browser Compatibility
 
-Testing and validating for browser compatibility is essential in web development to ensure a consistent user experience. Stick to well-supported modern semantic HTML tags, checking their compatibility using resources like [Can I use](https://caniuse.com/). Additionally, employ validation tools like the [W3C Markup Validation Service](https://validator.w3.org/) to maintain code quality, identify errors, and ensure compliance with web standards, enhancing compatibility across various browsers and devices. 
+Testing and validating for browser compatibility is essential in web development to ensure a consistent user experience. Stick to well-supported modern semantic HTML tags, checking their compatibility using resources like [Can I use](https://caniuse.com/). Additionally, employ validation tools like the [W3C Markup Validation Service](https://validator.w3.org/) to maintain code quality, identify errors, and ensure compliance with web standards, enhancing compatibility across various browsers and devices.
 
 ## Semantic HTML Best Practices
 
