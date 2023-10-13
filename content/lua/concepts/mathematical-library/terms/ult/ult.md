@@ -20,7 +20,7 @@ The **`ult()`** method takes two integers as arguments and compares their absolu
 
 The syntax of `ult()` is as follows:
 
-```lua
+```pseudo
 math.ult(int1, int2)
 ```
 
