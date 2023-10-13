@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**`running()`** returns a reference to the current coroutine and a boolean for whether execution is currently in the main coroutine.
+**`running()`** returns a reference to the current coroutine and a boolean that indicates if the execution is currently in the main coroutine.
 
 ## Syntax
 
@@ -20,12 +20,12 @@ CatalogContent:
 coroutine.running()
 ```
 
-- `running()` function in Lua which returns the coroutine running the function. If the function is not running inside a coroutine, it returns nil.
-- The `coroutine` table in Lua contains all its coroutine functions, including `create`, which creates new coroutines, and `yield`, which allows a running coroutine to suspend its execution so that it can be resumed later.
+- `running()` function in Lua which returns the coroutine running the function. If the function is not running inside a coroutine, it returns `nil`.
+- There are several coroutine functions used to manage these objects, including `create()`, which creates new coroutines, and `yield()`, which allows a running coroutine to suspend its execution so that it can be resumed later.
 
 ## Example
 
-The example uses `coroutine.running()` to print coroutine IDs, both from the main thread and within a coroutine.
+This example uses `coroutine.running()` to print coroutine IDs, both from the main thread and within a coroutine.
 
 ```lua
 function printCurrentCoroutineID()
@@ -49,11 +49,11 @@ end)
 coroutine.resume(myCoroutine)
 ```
 
-The output will look like this below:
+The output will be similar to:
 
 ```shell
 Printing from the main thread
-Current coroutine ID: thread: 0x...
+Current coroutine ID: thread: 0x55eed07642a8
 Printing from the coroutine
-Current coroutine ID: thread: 0x...
+Current coroutine ID: thread: 0x55eed076bbf8
 ```
