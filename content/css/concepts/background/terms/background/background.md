@@ -48,7 +48,7 @@ body {
 
 This will display:
 
-![CSS Background Example 1](../../../../../../media/css-background-example-1.png)
+![CSS Background Example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-background-example-1.png)
 
 ## Example 2
 
@@ -62,4 +62,4 @@ body {
 
 This will display:
 
-![CSS Background Example 2](../../../../../../media/css-background-example-2.png)
+![CSS Background Example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-background-example-2.png)
