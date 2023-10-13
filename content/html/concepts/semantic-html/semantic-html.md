@@ -49,11 +49,11 @@ Semantic tags, such as `<header>` or `<footer>`, are designated for a specific p
 
 ## Testing and Validating for Browser Compatibility
 
-Testing and validating for browser compatibility is essential in web development to ensure a consistent user experience. Stick to well-supported modern semantic HTML tags, checking their compatibility using resources like [Can I use](https://caniuse.com/). Additionally, employ validation tools like the [W3C Markup Validation Service](https://validator.w3.org/) to maintain code quality, identify errors, and ensure compliance with web standards, enhancing compatibility across various browsers and devices.
+Testing and validating for browser compatibility is essential in web development to ensure a consistent user experience. It is best practice to employ well-supported modern semantic HTML tags, and confirming their compatibility using resources like [Can I use](https://caniuse.com/). Additionally, employ validation tools like the [W3C Markup Validation Service](https://validator.w3.org/) are valuable for maintaining code quality, identifying errors, and ensuring compliance with web standards. These practices can aid in supporting compatibility across various browsers and devices.
 
 ## Semantic HTML Best Practices
 
-Use Semantics for Meaning: Choose semantic HTML Tags wisely. It is important to choose tags that accurately convey the content's meaning and purpose. Avoid common mistakes like using `<article>` and `<section>` tags interchangeably. In the following example, using `<article>` for each subsection correctly represents self-contained content (news articles), while `<section>` encapsulates the broader category 'Technology News,' aligning with their intended semantic purposes.
+It is important to choose tags that accurately convey the content's meaning and purpose. Avoid common mistakes like using `<article>` and `<section>` tags interchangeably. In the following example, using `<article>` for each subsection correctly represents self-contained content (news articles), while `<section>` encapsulates the broader category 'Technology News,' aligning with their intended semantic purposes.
 
 ```html
 <section>
@@ -73,7 +73,7 @@ Use Semantics for Meaning: Choose semantic HTML Tags wisely. It is important to 
 
 ![Semantic Tag Visualization for Technology News](https://raw.githubusercontent.com/Codecademy/docs/main/media/use-semantics-for-meaning.png)
 
-Proper Nesting: Proper nesting is a fundamental aspect of semantic HTML. So, it is crucial to structure content logically to reflect hierarchical relationships between semantic elements. For instance, avoid the common mistake of placing the `<aside>` element directly within the main content; `<aside>` is intended to be positioned to the side, separate from the primary content.
+Proper nesting is a fundamental aspect of semantic HTML. So, it is crucial to structure content logically to reflect hierarchical relationships between semantic elements. For instance, avoid the common mistake of placing the `<aside>` element directly within the main content. The `<aside>` tag is intended for content that is to be positioned to the side, or flanking, separate from the primary content.
 
 ```html
 <main>
