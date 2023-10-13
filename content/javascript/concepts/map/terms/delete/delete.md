@@ -44,26 +44,26 @@ In the code below, a new inventory `Map` of consumable construction supplies cat
 
 - Bob will log that he used a roll of tape by updating its value using the [`.set()` method](https://www.codecademy.com/resources/docs/javascript/map/set).
 - Bob noticed he used the last roll so he will remove it from the map using the `.delete()` method. He feels confident it worked correctly due to `true` being displayed in the console output.
-- Manny notices that there are no Tape Rolls left, but he doesn't know Bob already called the `.delete()` method. He attempts to delete it and notices the console outputs `false`.
+- Manny attempts to delete the Tape Roll, unaware that Bob already deleted it, resulting in a false console output.
 
 ```codebyte/js
 const inventory = new Map([
   ['Nail', '1,000'],
-  ['Tape Roll', '1'],
+  ['Tape Roll', '1'],  // Initial inventory: 1 Tape Roll
   ['Brick', '5,000']
 ]);
 
-console.log('Inventory map size: ', inventory.size);
+console.log('Inventory map size: ', inventory.size);  // Initial size: 3
 
 console.log('Bob uses a tape roll.');
-inventory.set('Tape Roll', '0');
-console.log('We ran out of tape ', inventory.get('Tape Roll'));
+inventory.set('Tape Roll', '0');  // Tape Roll updated to 0
+console.log('We ran out of tape ', inventory.get('Tape Roll'));  // Tape Roll count: 0
 
 console.log('Deleting tape from the map...');
-console.log(inventory.delete('Tape Roll'));
-console.log('Updated inventory map size: ', inventory.size);
+console.log(inventory.delete('Tape Roll'));  // Output: true
+console.log('Updated inventory map size: ', inventory.size);  // Updated size: 2
 
 console.log('Deleting tape again from the map...');
-console.log(inventory.delete('Tape Roll'));
-console.log('Updated inventory map size: ', inventory.size);
+console.log(inventory.delete('Tape Roll'));  // Output: false
+console.log('Updated inventory map size: ', inventory.size);  // Size remains 2, deletion unsuccessful
 ```
