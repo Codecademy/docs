@@ -12,17 +12,24 @@ CatalogContent:
   - 'paths/machine-learning-ai-engineering-foundations'
 ---
 
-**A\* Search** is an informed [best-first search algorithm](https://www.codecademy.com/resources/docs/ai/search-algorithms/best-first-search) that efficiently determines the lowest cost path between any two nodes in a directed weighted graph with non-negative edge weights. This algorithm is a variant of Dijkstra's algorithm. A slight difference arises from the fact that an evaluation function is used to determine which node to explore next.
+**A\* Search** is an informed [best-first search algorithm](https://www.codecademy.com/resources/docs/ai/search-algorithms/best-first-search) It evaluates the nodes by combining **g(n)** the exact cost to reach the node n from the starting point, and **h(n)** the (heuristic) approximate cost to get the 'n' to the goal.
+
+**f(n)** = **h(n)** + **g(n)**
+**g(n)** = The exact cost to reach node n from the starting node.
+**h(n)** = The heuristic cost of the cheapest path from node n to the goal.
+**f(n)** = Estimated cost of the cheapest solution from the starting point to the goal state through the goal state.
+
+Provided that heuristic function should satisfy certain conditions A* search is both complete and optimal given that **h(n)** should be admissible heuristic means that it should never overestimate the cost to reach the goal and **h(n)** must be consistent, i.e., it satisfies the triangle inequality.
 
 ## Evaluation Function
 
-The evaluation function, **f(x)**, for the A\* search algorithm is the following:
+The evaluation function, **f(n)**, for the A\* search algorithm is the following:
 
 ```pseudo
-f(x) = g(x) + h(x)
+f(n) = g(n) + h(n)
 ```
 
-Where **g(x)** represents the cost to get to node **x** and **h(x)** represents the estimated cost to arrive at the goal node from node **x**.
+Where **g(n)** represents the cost to get to node **n** and **h(n)** represents the estimated cost to arrive at the goal node from node **n**.
 
 For the algorithm to generate the correct result, the evaluation function must be **admissible**, meaning that it never overestimates the cost to arrive at the goal node.
 
