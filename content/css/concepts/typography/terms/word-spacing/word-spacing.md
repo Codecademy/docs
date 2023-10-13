@@ -32,9 +32,8 @@ Given the following HTML `p` tag:
 
 ```html
 <p>
-  Docs is a community-driven collection of code
-  documentation for popular programming languages
-  and frameworks. Interested in helping build it? 
+  Docs is a community-driven collection of code documentation for popular
+  programming languages and frameworks. Interested in helping build it?
 </p>
 ```
 
