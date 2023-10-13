@@ -1,6 +1,6 @@
 ---
 Title: 'modf()'
-Description: 'Used to extract the integral and fractional parts of a given number'
+Description: 'Used to extract the integral and fractional parts of a given number.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -14,9 +14,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`math.modf()`** function is a part of the Lua `math` library and is used to split a given number into **its integral and fractional parts**. It rounds the number down to the nearest integer and returns both the integer part and the fractional part as separate values.
+The **`math.modf()`** function is a part of the Lua `math` library and is used to split a given number into _its integral and fractional parts_. It rounds the number down to the nearest integer and returns both the integer part and the fractional part as separate values.
 
-> **Note:** `math.modf()`rounds the number down and always returns a value equal to or less than the given number. If you need to round numbers in either direction, consider using `math.round()`.
+> **Note:** `math.modf()` rounds the number down and always returns a value equal to or less than the given number.
 
 ## Syntax
 
@@ -33,8 +33,15 @@ To find the integral and fractional parts of a number:
 ```lua
 local num = 5.3
 local integerPart, fractionalPart = math.modf(num)
-print("Integer part: " .. integerPart)       -- Output: Integer part: 5
-print("Fractional part: " .. fractionalPart) -- Output: Fractional part: 0.3
+print("Integer part: " .. integerPart)
+print("Fractional part: " .. fractionalPart)
+```
+
+This results in the following output:
+
+```shell
+Integer part: 5
+Fractional part: 0.3
 ```
 
 ## Example 2
@@ -44,9 +51,15 @@ When `math.modf()` is used with a number that is already an integer:
 ```bash
 local num = 8
 local integerPart, fractionalPart = math.modf(num)
-print("Integer part: " .. integerPart)       -- Output: Integer part: 8
-print("Fractional part: " .. fractionalPart) -- Output: Fractional part: 0.0
+print("Integer part: " .. integerPart)
+print("Fractional part: " .. fractionalPart)
+```
 
+This results in the following output:
+
+```shell
+Output: Integer part: 8
+Output: Fractional part: 0.0
 ```
 
 ## Example 3
@@ -56,6 +69,13 @@ For negative numbers, `math.modf()` returns the closest integer less than or equ
 ```lua
 local num = -3.3
 local integerPart, fractionalPart = math.modf(num)
-print("Integer part: " .. integerPart)       -- Output: Integer part: -3
-print("Fractional part: " .. fractionalPart) -- Output: Fractional part: -0.3
+print("Integer part: " .. integerPart)
+print("Fractional part: " .. fractionalPart)
+```
+
+This results in the following output:
+
+```shell
+Integer part: -3
+Fractional part: -0.3
 ```
