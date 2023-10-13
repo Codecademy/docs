@@ -45,8 +45,6 @@ Imagine an LSTM network like a smart worker managing a conveyor belt assembly li
 
 ## Limitations of LSTMs
 
-Although CNNs are commonly employed in computer vision tasks, there are also some challenges, such as:
-
 - Computational Complexity: LSTMs can be computationally intensive, especially for large and complex networks, which can impact training times.
 - Interpretability: Understanding the inner workings of LSTMs and interpreting their decisions can be challenging due to their complex architecture.
 - Data Requirements: LSTMs require a substantial amount of data to effectively learn and generalize patterns, especially for tasks with high complexity.
