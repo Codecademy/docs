@@ -38,5 +38,8 @@ This example shows how use the .atan2() method to calculate the angle between th
 }
 ```
 
-In this example, the .atan2() method calculates the angle, and the result will be printed as:
-`The angle between the positive x-axis and the point (3.0, 4.0) is 0.93 radians.`
+In this example, the .atan2() method calculates the angle, and the result will output:
+
+```shell
+The angle between the positive x-axis and the point (3.0, 4.0) is 0.93 radians.
+```
