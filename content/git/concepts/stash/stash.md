@@ -1,6 +1,6 @@
 ---
 Title: 'Stash'
-Description: 'Git stash is used to save changes locally so the developer can switch branches while developing or to get a clean version of the branch they are currently working on.'
+Description: 'A command for saving changes locally so a developer can switch branches in the midst of changes or to get a clean version of the branch they are currently working on.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'learn-git'
 ---
 
-Stash is used when a developer would like to save changes locally to their machine rather than committing them. This is often used when a developer would like to switch branches in the middle of coding but the code they are working on is not yet ready to be committed.
+The **`stash`** command is used when a developer would like to save changes locally to their machine rather than committing them. This is often used when a developer would like to switch branches in the middle of an effort but the code they are working on is not yet ready to be committed.
 
 ## Example
 
@@ -39,10 +39,10 @@ On branch main
 nothing to commit, working tree clean
 ```
 
-To re-apply the changes that were stashed, the developer has two options:
+To reapply the changes that were stashed, the developer has two options:
 
-- `git stash pop` is used in the first example and takes the changes from the stash to re-apply them.
-- `git stash apply` is used in the second example and re-applies the changes while also keeping them in the stash.
+- `git stash pop` is used in the first example and takes the changes from the stash to reapply them.
+- `git stash apply` is used in the second example and reapplies the changes while also keeping them in the stash.
 
 ```shell
 $ git stash pop
@@ -67,7 +67,7 @@ Changes not staged for commit:
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
-There are eight additional options for ‘git stash`:
+There are eight additional options for `git stash`:
 
 - `-u`: This is used to stash untracked files, which git does not automatically stash. Untracked files are new files in the branch that have not been staged, and ignored files.
 - `list`: View a list of all stashes saved locally.
