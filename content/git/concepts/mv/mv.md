@@ -26,7 +26,7 @@ git mv <old-file-path> <new-file-path>
 
 To move a file from one location to another, use the `git mv` command like this:
 
-```bash
+```pseudo
 git mv source_filepath destination_filepath
 ```
 
@@ -36,7 +36,7 @@ This will move the `file.txt` from the `source` directory to the `destination` d
 
 To rename a file, simply use the `git mv` command with the old and new file names:
 
-```bash
+```pseudo
 git mv old-name.txt new-name.txt
 ```
 
