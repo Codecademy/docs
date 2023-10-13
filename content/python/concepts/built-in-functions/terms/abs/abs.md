@@ -21,9 +21,9 @@ The **`abs()`** function returns the absolute value of a numeric argument.
 abs(n)
 ```
 
-The return value will be the absolute value of the `n` parameter, which is of type `int` or `float`.
+Return value is the absolute value of the `n` parameter, which is of type `int` or `float`.
 
-The absolute value of `n` will be its distance from zero regardless of its direction (i.e., whether it is positive or negative). Since the absolute value is never negative, a positive value will remain unchanged and a negative value will have its negative sign removed
+The absolute value of `n` will be its distance from zero regardless of its direction (i.e., whether it is positive or negative). Since the absolute value is never negative, a positive value will remain unchanged and a negative value will have its negative sign removed.
 
 ## Example
 
