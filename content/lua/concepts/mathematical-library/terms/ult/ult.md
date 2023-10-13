@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The method **`ult()`** takes two integers as arguments and compares their absolute values. The method will return the boolean value `true` if and only if the first value is less than the second value. Otherwise, it will return `false`.
+The **`ult()`** method takes two integers as arguments and compares their absolute values. The method will return `true` if and only if the first value is less than the second value. Otherwise, it will return `false`.
 
 ## Syntax
 
