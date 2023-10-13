@@ -1,6 +1,6 @@
 ---
 Title: 'Move'
-Description: 'Moving or renaming files within a Git repository is done with mv command.'
+Description: 'A command for moving or renaming files within a Git repository.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
@@ -12,9 +12,7 @@ CatalogContent:
   - 'learn-the-command-line'
 ---
 
-The `git mv` command is used to move or rename files **within** a Git repository. It's a more convenient way to move or rename files compared to manually deleting and adding files. This command also helps in tracking the history of file movements and renames.
-
-## Git command
+The **`git mv`** command is used to move or rename files _within_ a Git repository. It's a more convenient way to move or rename files compared to manually deleting and adding files. This command also helps in tracking the history of file movements and naming alterations.
 
 ## Syntax
 
@@ -22,14 +20,14 @@ The `git mv` command is used to move or rename files **within** a Git repository
 git mv <old-file-path> <new-file-path>
 ```
 
-## Example Usage
+## Use Cases
 
 ### 1. Moving a File
 
 To move a file from one location to another, use the `git mv` command like this:
 
-```bash
-git mv source/file.txt destination/
+```pseudo
+git mv source_filepath destination_filepath
 ```
 
 This will move the `file.txt` from the `source` directory to the `destination` directory.
@@ -41,8 +39,6 @@ To rename a file, simply use the `git mv` command with the old and new file name
 ```bash
 git mv old-name.txt new-name.txt
 ```
-
-### Details
 
 This renames `old-name.txt` to `new-name.txt`.
 
