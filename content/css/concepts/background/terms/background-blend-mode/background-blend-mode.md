@@ -42,7 +42,7 @@ body {
 ```
 The following image demonstrates the code block above:
 
-![background-blend-mode example 1](https://github.com/antriksh-9/docs/blob/background-blend-mode/media/background-blend-mode-example1.png)
+![background-blend-mode example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-blend-mode-example1.png)
 
 ## Example 2
 
@@ -57,7 +57,7 @@ body {
 ```
 The following image demonstrates the code block above:
 
-![background-blend-mode example 2](https://github.com/antriksh-9/docs/blob/background-blend-mode/media/background-blend-mode-example2.png)
+![background-blend-mode example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-blend-mode-example2.png)
 
 ## Example 3
 
@@ -72,6 +72,6 @@ body {
 ```
 The following image demonstrates the code block above:
 
-![background-blend-mode example 3](https://github.com/antriksh-9/docs/blob/background-blend-mode/media/background-blend-mode-example3.png)
+![background-blend-mode example 3](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-blend-mode-example2.png)
 
 
