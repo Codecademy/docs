@@ -15,7 +15,7 @@ CatalogContent:
 
 The `.draggable()` view modifier in SwiftUI gives a view the ability to be dragged around the user interface. It works in conjunction with the `.dropDestination()` modifier which provides a destination to drop draggable views. The data type or view you wish to drag-and-drop must conform to the Transferable protocol.
 
-> **Note**: The data to be dragged and subsequently dropped must conform to the Transferable protocol. This ensures the data being dragged can be recognized and processed by other views or external applications. For information on protocols, see [Protocols](https://raw.githubusercontent.com/Codecademy/docs/swift/protocols).
+> **Note**: The data to be dragged and subsequently dropped must conform to the Transferable protocol. This ensures the data being dragged can be recognized and processed by other views or external applications. For information on protocols, see [Protocols](https://www.codecademy.com/resources/docs/swift/protocols).
 
 ## Syntax
 
@@ -49,7 +49,7 @@ struct ContentView: View {
 }
 ```
 
-> **Note**: The `Square` view is a custom view that takes two parameters: `text` and `color`. The `text` parameter binds to the `myPayload` state variable, while the `color` parameter determines the background color of the view. For information on custom views, see [Views](https://raw.githubusercontent.com/Codecademy/docs/swiftui/views).
+> **Note**: The `Square` view is a custom view that takes two parameters: `text` and `color`. The `text` parameter binds to the `myPayload` state variable, while the `color` parameter determines the background color of the view. For information on custom views, see [Views](https://www.codecademy.com/resources/docs/swiftui/views).
 
 In the example, the custom Square view has a `.draggable()` modifier. When dragged, it carries the `String` assigned to `myPayload` and displays a `"Dragging..."` message within a purple, rounded rectangle until it is dropped.
 
@@ -57,4 +57,4 @@ This will display:
 
 ![SwiftUI ViewModifier Draggable](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-viewmodifier-draggable.gif)
 
-> **Note**: `.draggable()` is the first of two parts in the drag-and-drop operation. While it can be used independently, as shown here, it is usually paired with the `.dropDestination()` modifier. For information on setting up a drop destination, see [.dropDestination()](https://raw.githubusercontent.com/Codecademy/docs/content/swiftui/concepts/viewmodifier/terms/dropdestination).
+> **Note**: `.draggable()` is the first of two parts in the drag-and-drop operation. While it can be used independently, as shown here, it is usually paired with the `.dropDestination()` modifier. For information on setting up a drop destination, see [.dropDestination()](https://www.codecademy.com/resources/docs/swiftui/viewmodifier/dropdestination).
