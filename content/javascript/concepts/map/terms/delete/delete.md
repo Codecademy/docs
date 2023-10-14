@@ -40,24 +40,22 @@ The first `.delete()` statement returns `true` because `fruits` contain an entry
 
 ## Codebyte Example
 
-In the code below, a new inventory `Map` of consumable construction supplies catalogs the current quantities on hand. In this example:
-
-- Bob will log that he used a roll of tape by updating its value using the [`.set()` method](https://www.codecademy.com/resources/docs/javascript/map/set).
-- Bob noticed he used the last roll so he will remove it from the map using the `.delete()` method. He feels confident it worked correctly due to `true` being displayed in the console output.
-- Manny attempts to delete the Tape Roll, unaware that Bob already deleted it, resulting in a false console output.
+In the code below, a new `Map` of consumable construction supplies catalogs the current quantities on hand:
 
 ```codebyte/js
 const inventory = new Map([
   ['Nail', '1,000'],
-  ['Tape Roll', '1'],  // Initial inventory: 1 Tape Roll
+  // Initial inventory: 1 Tape Roll
+  ['Tape Roll', '1'],
   ['Brick', '5,000']
 ]);
 
-console.log('Inventory map size: ', inventory.size);  // Initial size: 3
+// Initial size: 3
+console.log('Inventory map size: ', inventory.size);
 
-console.log('Bob uses a tape roll.');
-inventory.set('Tape Roll', '0');  // Tape Roll updated to 0
-console.log('We ran out of tape ', inventory.get('Tape Roll'));  // Tape Roll count: 0
+// Tape Roll updated to 0:
+inventory.set('Tape Roll', '0');
+console.log('We ran out of tape ', inventory.get('Tape Roll'));
 
 console.log('Deleting tape from the map...');
 console.log(inventory.delete('Tape Roll'));  // Output: true
