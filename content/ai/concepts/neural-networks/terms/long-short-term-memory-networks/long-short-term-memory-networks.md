@@ -12,26 +12,22 @@ CatalogContent:
   - 'paths/machine-learning-engineer'
 ---
 
-**What is LSTM?**
+## What is LSTM
 
-LSTM networks are a type of recurrent neural network (RNN) that processes sequential data using specialized gating mechanisms. The LSTM computations at each time step \(t\) can be expressed as follows:
+**LSTM** networks are a type of recurrent neural network (RNN) that processes sequential data using specialized gating mechanisms. The LSTM computations at each time step \(t\) can be expressed as follows:
 
-1. **Forget Gate:**
-   Determines what information from the cell state should be discarded or kept.
-2. **Input Gate:**
-   Updates the cell state with new information.
-3. **Cell State:**
-   Maintains the long-term memory of the network.
-4. **Output Gate:**
-   Produces the output based on the cell state.
+1. **Forget Gate:**Determines what information from the cell state should be discarded or kept.
+2. **Input Gate:**Updates the cell state with new information.
+3. **Cell State:**Maintains the long-term memory of the network.
+4. **Output Gate:**Produces the output based on the cell state.
 
 ## Key Features of LSTM Networks
+
 - **Long-Term Dependencies**: LSTMs are capable of learning long-term dependencies in data. Traditional RNNs struggle with this due to the vanishing gradient problem, where gradients diminish exponentially as they are backpropagated through time. LSTMs use a gating mechanism to mitigate this problem.
 - **Gating Mechanisms**: LSTMs have three main components: the input gate, the forget gate, and the output gate. These gates regulate the flow of information into and out of the cell state, allowing LSTMs to selectively remember or forget information.
 - **Cell State**: LSTMs have a cell state that runs through the entire sequence, acting as a memory of the network. The cell state can carry information across long distances, making LSTMs effective for learning long-term patterns.
 - **Flexibility**: LSTMs can be adapted for various types of data, including sequences of different lengths and dimensions. They are widely used in natural language processing, speech recognition, and time-series analysis.
 - **Backpropagation Through Time (BPTT)**: LSTMs, like other RNNs, use BPTT for training. BPTT is an extension of backpropagation that is used to update the network’s weights by taking into account the sequential nature of the data.
-
 
 ## How Does a LSTM Work?
 
