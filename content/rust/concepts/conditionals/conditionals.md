@@ -84,9 +84,9 @@ if condition {
 }
 ```
 
-Example of `else` statement:
-
 ### Example
+
+Example of `else` statement:
 
 ```rust
 let number = 15;
