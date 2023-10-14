@@ -1,0 +1,49 @@
+---
+Title: '.acos()'
+Description: 'Calculates the arccosine or reverse cosine of a value, returning the angle in radians.'
+Subjects:
+  - 'Code Foundation'
+  - 'Computer Science'
+Tags:
+  - 'Math'
+  - 'Functions'
+CatalogContent:
+  - 'learn-kotlin'
+  - 'paths/computer-science'
+---
+
+The **`.acos()`** method in Kotlin's `Math` class is used to calculate the
+arccosine of a given value, returning the corresponding angle in radians.
+
+## Syntax
+
+```pseudo
+val angle = Math.acos(value)
+```
+
+`value`: The value for which you want to calculate the arccosine. It should be
+in the range [-1, 1].
+
+The `.acos()` method returns a value of type `double` representing the angle in
+radians. The result is in the range [0, π].
+
+## Example
+
+This example shows how to use the `.acos()` method to calculate the arccosine of
+a value:
+
+```kotlin
+import kotlin.math.*
+
+fun main() {
+    val value = 0.5
+    val angle = Math.acos(value)
+    println("The arccosine of $value is $angle radians.")
+}
+```
+
+The output of this code will be:
+
+```shell
+1.0471975511965979 radians
+```
