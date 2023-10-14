@@ -38,7 +38,7 @@ git rebase --interactive <base>
 1. Make sure the working directory is clean: Commit or stash any changes in the current branch to ensure there are no uncommitted modifications.
 2. Checkout the branch to rebase: Use `git checkout <branch-name>` to switch to the branch to rebase.
 3. Fetch the latest changes: Run `git fetch` to capture the latest changes from the remote repository.
-4. Start the rebase: Start a rebase in either the regular or interactive modes
+4. Start the rebase: Start a rebase in either the regular or interactive modes.
 5. Resolve conflicts (if any): Git will pause the rebase if there are conflicts. Use git status to identify the files with conflicts and resolve them manually. After resolving conflicts, use `git add <file>` and `git rebase --continue` to continue the rebase.
 6. Complete the rebase: After resolving conflicts (if any), the rebase will continue automatically or when `git rebase --continue` is used.
 7. Push the rebased branch: When working on a shared branch, it's essential to push the rebased branch with `git push` to update the remote branch.
