@@ -39,12 +39,12 @@ Set background positioning to the edge of the content box:
 .main {
   border: 5px dashed #4d4d4d;
   padding: 1rem;
-  background: url(./media/background-origin.jpg) no-repeat;
+  background: url(images/background-origin.jpg) no-repeat;
   background-origin: content-box;
 }
 ```
 
-The resulting output of the code block above is
+The resulting output of the code block above is:
 
 ![Background origin set to padding-box](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-origin-content.png 'background-origin: padding-box')
 
@@ -56,12 +56,12 @@ Set background positioning to the inside edge of the border, respecting its' pad
 .main {
   border: 5px dashed #4d4d4d;
   padding: 1rem;
-  background: url(./media/background-origin.jpg) no-repeat;
+  background: url(images/background-origin.jpg) no-repeat;
   background-origin: padding-box;
 }
 ```
 
-The resulting output of the code block above is
+The resulting output of the code block above is:
 
 ![Background origin set to padding-box](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-origin-padding.png 'background-origin: padding-box')
 
@@ -73,11 +73,11 @@ Set background positioning to the edge of the border:
 .main {
   border: 5px dashed #4d4d4d;
   padding: 1rem;
-  background: url(./media/background-origin.jpg) no-repeat;
+  background: url(images/background-origin.jpg) no-repeat;
   background-origin: border-box;
 }
 ```
 
-The resulting output of the code block above is
+The resulting output of the code block above is:
 
 ![Background origin set to padding-box](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-origin-border.png 'background-origin: padding-box')
