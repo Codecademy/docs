@@ -25,7 +25,7 @@ val angle = Math.acos(value)
 in the range [-1, 1].
 
 The `.acos()` method returns a value of type `double` representing the angle in
-radians. The result is in the range [0, π].
+radians. The result is in the range [0, PI].
 
 ## Example
 
@@ -45,5 +45,5 @@ fun main() {
 The output of this code will be:
 
 ```shell
-1.0471975511965979 radians
+1.0471975511965979 rad
 ```
