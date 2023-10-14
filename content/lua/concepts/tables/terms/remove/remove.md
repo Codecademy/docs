@@ -19,7 +19,7 @@ The **`remove()`** function in Lua removes the value of the specified index and 
 ```pseudo
 table.remove(tableName,pos)
 ```
-`.remove()` returns the value that was removed from the `tableName`. The `pos` parameter has a default value of `n`, which is the length of the table. This causes the last element of the table to be removed if the `pos` parameter is not provided.
+`remove()` returns the value that was removed from the `tableName`. The `pos` parameter has a default value of `n`, which is the length of the table. This causes the last element of the table to be removed if the `pos` parameter is not provided.
 
 ## Example
 
