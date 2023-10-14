@@ -37,8 +37,3 @@ In the example below, the [`<p>`](https://www.codecademy.com/resources/docs/html
   Here's some text that is being styled using the style attribute.
 </p>
 ```
-## Output
-
-The example above results in the following output:
-
-![Style Attribute Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/media/style-attribute-example.PNG)
