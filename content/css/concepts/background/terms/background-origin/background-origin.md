@@ -50,7 +50,7 @@ The resulting output of the code block above is:
 
 ## Example 2
 
-Set background positioning to the inside edge of the border, respecting its' padding:
+Set background positioning to the inside edge of the border, respecting its padding:
 
 ```css
 .main {
