@@ -12,8 +12,6 @@ CatalogContent:
   - 'paths/machine-learning-engineer'
 ---
 
-## What is LSTM
-
 **LSTM** networks are a type of recurrent neural network (RNN) that processes sequential data using specialized gating mechanisms. The LSTM computations at each time step \(t\) can be expressed as follows:
 
 1. **Forget Gate:**Determines what information from the cell state should be discarded or kept.
