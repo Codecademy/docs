@@ -23,8 +23,10 @@ Lua's **`math.max()`** function is a standard function that is a part of the `ma
 Since `max()` is a method from Lua's library `math`,  it is called as `math.max()`.
 
 ```pseudo
-math.max(value1, value2, value3, .....) -- Returns the maximum value among the input numerical values.
+math.max(value1, value2, value3, .....)
 ```
+
+`math.max()` returns the maximum value among the input numerical values.
 
 ## Example 1
 
