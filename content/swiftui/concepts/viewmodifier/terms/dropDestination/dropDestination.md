@@ -62,13 +62,13 @@ Square(text: $droppedPayload, color: .blue)
 
 > **Note**: The `Square` view is a custom view that takes two parameters: `text` and `color`. The `text` parameter binds to the `droppedPayload` state variable, while the `color` parameter determines the background color of the view. For information on custom views, see [Views](https://www.codecademy.com/resources/docs/swiftui/views).
 
-> **Note**: By default, if the draggable items and drop destination reside in the same container, the item is removed from the original container and placed into the receiving one. Conversely, if the draggable items and drop destination are in different containers, the item is copied to the receiving container, and persists in both. These behaviors can be modified within the action closure.
-
 In the example, the custom `Square` view has a `.dropDestination()` modifier. Let's break down the arguments passed to this method:
 
 - `for:` is set to `String.self` since the draggable and droppable data, `myPayload`, is of type String.
 - `action:` defines variables to store received data `receivedPayload` and its drop location `locationDrop`, also determines custom actions, such as displaying dropped data on the view.
   `isTargeted:` utilizes the boolean `isDropTargeted` which, when `true`, applies the `.brightness()` and `.scaleEffect()` modifiers to the view.
+
+> **Note**: By default, if the draggable items and drop destination reside in the same container, the item is removed from the original container and placed into the receiving one. Conversely, if the draggable items and drop destination are in different containers, the item is copied to the receiving container, and persists in both. These behaviors can be modified within the action closure.
 
 This will display:
 
