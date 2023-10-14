@@ -1,6 +1,6 @@
 ---
 Title: 'remove()'
-Description: 'Removes a value from an array.'
+Description: 'Removes a value from a table.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
