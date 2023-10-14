@@ -55,6 +55,10 @@ div {
 }
 ```
 
+The following gif runs as a loop to demonstrate the code block above:
+
+![CSS Animation Example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-animation-example-1.gif 'CSS Animation Example 1')
+
 ## Example 2
 
 Set `party` animation to last for two seconds, delay one second, loop five times and run in reverse:
@@ -85,3 +89,7 @@ div {
   }
 }
 ```
+
+The following gif runs as a loop to demonstrate the code block above:
+
+![CSS Animation Example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-animation-example-2.gif 'CSS Animation Example 2')
