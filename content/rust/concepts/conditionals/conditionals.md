@@ -12,7 +12,7 @@ CatalogContent:
   - 'learn/rust-for-programmers'
 ---
 
-**Conditional** statements in Rust allow the control of flow in program based on certain conditions. Rust provides support for Conditional statements that include `if`, `else if` and `else` statements. Unlike the rest of the programming languages, the condition is not surrounded by paranthesis.
+**Conditional** statements in Rust allow the control of flow in program based on certain conditions. Rust provides support for Conditional statements that include `if`, `else if` and `else` statements. Unlike many programming languages, the condition is not surrounded by parenthesis.
 
 ## If Statement
 
@@ -52,9 +52,9 @@ if condition {
 }
 ```
 
-Example of `else if` statement:
-
 ### Example
+
+Example of `else if` statement:
 
 ```rust
 let number = 25;
@@ -98,7 +98,7 @@ else if number > 20 {
   println!("The number is greater than 20.");
 }
 else {
-  println!("This line will be executed.");
+  println!("The number is 20 or less.");
 }
 // In this example, since all the conditions are false, the code of block inside the else statement will be executed.
 ```
