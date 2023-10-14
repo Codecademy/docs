@@ -30,10 +30,11 @@ let number: i32 = 42;
 
 In the above example,a variable is declared named `number` with an initial value of `42` and it specifies its data type as `i32` (a 32-bit signed integer).
 
-## Codebyte Example
+## Example
 
-This codebyte example demonstrates variable declaration and mutability in Rust.First,declare an immutable variable `x` with an initial value of `5` and a mutable variable `y` with an initial value of `10`. Then print the values of `x` and `y` to the console, then update the value of `y` and print it to the console.
+This example demonstrates variable declaration and mutability in Rust. First, it declares an immutable variable `x` with an initial value of `5` and a mutable variable `y` with an initial value of `10`. Then it prints the values of `x` and `y` to the console. Then it updates the value of `y` and prints it to the console.
 
+```rust
 fn main() {
 
 // Declare an immutable variable named 'x' with an initial value of 5.
@@ -52,9 +53,14 @@ y = 20;
 // Print the updated value of 'y' to the console.
 println!("Updated value of 'y': {}", y);
 }
+```
+
+This example results in the following output:
 
 ```shell
+
 Value of 'x': 5
 Value of 'y': 10
 Updated value of 'y': 20
+
 ```
