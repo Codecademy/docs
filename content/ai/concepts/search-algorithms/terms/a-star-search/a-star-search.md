@@ -14,10 +14,10 @@ CatalogContent:
 
 **A\* Search** is an informed [best-first search algorithm](https://www.codecademy.com/resources/docs/ai/search-algorithms/best-first-search) It evaluates the nodes by combining **g(n)** the exact cost to reach the node n from the starting point, and **h(n)** the (heuristic) approximate cost to get from 'n' to the goal.
 
-**f(n)** = **h(n)** + **g(n)**
-**g(n)** = The exact cost to reach node n from the starting node.
-**h(n)** = The heuristic cost of the cheapest path from node n to the goal.
-**f(n)** = Estimated cost of the cheapest solution from the starting point to the goal through n.
+- **f(n)** = **h(n)** + **g(n)**
+- **g(n)** = The exact cost to reach node n from the starting node.
+- **h(n)** = The heuristic cost of the cheapest path from node n to the goal.
+- **f(n)** = Estimated cost of the cheapest solution from the starting point to the goal through n.
 
 A* search is both complete and optimal given that **h(n)** should be **admissible**, meaning that it should never overestimate the cost to reach the goal, and **h(n)** must be **consistent**, i.e., it satisfies the triangle inequality.
 
