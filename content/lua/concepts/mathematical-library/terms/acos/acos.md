@@ -1,6 +1,6 @@
 ---
 Title: 'acos()'
-Description: 'Returns the arc cosine of the argument in radians.'
+Description: 'Returns the arc cosine of the argument, in radians.'
 Subjects:
   - 'Computer Science'
 Tags:
