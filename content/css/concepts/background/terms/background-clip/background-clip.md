@@ -73,3 +73,7 @@ body {
   color: transparent;
 }
 ```
+
+## Illustration of Background-Clip
+
+![Rendered background-clip tag](https://raw.githubusercontent.com/Codecademy/docs/main/media/rendered-background-clip.png)
