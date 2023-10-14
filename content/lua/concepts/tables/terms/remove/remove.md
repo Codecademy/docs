@@ -23,7 +23,7 @@ table.remove(tableName,pos)
 
 ## Example
 
-In the following example `.remove()` function attempts to remove the element at the `pos` position from the table. This causes other elements to shift down to close the space, if necessary.
+In the following example `remove()` is used to remove the element at the `pos` position from the table. This causes other elements to shift down.
 
 ```lua
 local fruit = {
