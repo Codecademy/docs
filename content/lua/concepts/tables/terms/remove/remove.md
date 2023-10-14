@@ -1,5 +1,5 @@
 ---
-Title: 'Remove()'
+Title: 'remove()'
 Description: 'Removes a value from an array.'
 Subjects:
   - 'Computer Science'
