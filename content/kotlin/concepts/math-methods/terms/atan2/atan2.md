@@ -1,5 +1,5 @@
 ---
-Title: '.atan2()'
+Title: 'atan2()'
 Description: 'Calculates the angle between the positive x-axis and a point (x, y) in radians.'
 Subjects:
   - 'Code Foundation'
