@@ -20,7 +20,7 @@ Lua's **`math.max()`** function is a standard function that is a part of the `ma
 
 ## Syntax
 
-Since `max()` is a method from Lua's library `math`,  it is called as `math.max()`.
+Since `max()` is a method from Lua's library `math`, it is called as `math.max()`.
 
 ```pseudo
 math.max(value1, value2, value3, .....)
