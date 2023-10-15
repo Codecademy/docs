@@ -17,7 +17,8 @@ The **`.acos()`** method in Kotlin's `math` class is used to calculate the arcco
 ## Syntax
 
 ```pseudo
-val angle = Math.acos(value)
+import kotlin.math.*
+val angle = acos(value)
 ```
 
 `value`: The value for which you want to calculate the arccosine. It should be
