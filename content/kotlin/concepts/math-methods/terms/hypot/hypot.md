@@ -20,8 +20,8 @@ The **`.hypot()`** method in Kotlin's `math` class is used to calculate the hypo
 hypot(x,y)
 ```
 
-- x: One of the two numbers whose hypotenuse is to be calculated.
-- y: Another number whose hypotenuse is to be calculated.
+- `x`: One of the two numbers whose hypotenuse is to be calculated.
+- `y`: The other number whose hypotenuse is to be calculated.
 
 The `.hypot()` method returns a value of type `double`. The following are the special cases:
 
@@ -44,23 +44,4 @@ The output of this code will be:
 
 ```shell
 5.0
-```
-
-## Codebyte Example
-
-The following example is runnable and uses the `.hypot()` function to return the hypotenuse two numbers and the distance between two points:
-
-```codebyte/kotlin
-import kotlin.math.*
-
-fun main(){
-    val x1=3.0
-    val x2=6.0
-    val y1=4.0
-    val y2=10.0
-    val hypot=hypot(x1,y1)
-    val dist=hypot(x2-x1,y2-y1)
-    println("The hypotenuse of $x1 and $y1 is $hypot")
-    println("The distance between ($x1,$y1) and ($x2,$y2) is $dist")
-}
 ```
