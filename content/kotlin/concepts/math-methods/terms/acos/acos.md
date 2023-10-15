@@ -27,8 +27,7 @@ The `.acos()` method returns a value of type `double` representing the angle in 
 
 ## Example
 
-This example shows how to use the `.acos()` method to calculate the arccosine of
-a value:
+This example shows how to use the `acos()` method to calculate the arccosine of a value:
 
 ```kotlin
 import kotlin.math.*
