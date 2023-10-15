@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.atan2()`** method in Kotlin's `Math` class is used to calculate the angle (in radians) between the positive x-axis and a point specified by its Cartesian coordinates (x, y).
+The **`atan2()`** method in Kotlin's `math` class is used to calculate the angle (in radians) between the positive x-axis and a point specified by its Cartesian coordinates (x, y).
 
 ## Syntax
 
