@@ -22,7 +22,7 @@ ln(n)
 
 - n: The number of type `double` for which the logarithm is to be calculated.
 
-The `.ln()` method returns a value of type `double`, the logarithm of `n` to `e`. The following are the special cases:
+The `.ln()` method returns a value of type `double`, the logarithm of `n` to _e_. The following are the special cases:
 
 - `ln(NaN)` is `NaN`
 - `ln(n)` is `NaN` if `n < 0.0`
@@ -45,19 +45,4 @@ The output of this code will be:
 
 ```shell
 1.791759469228055
-```
-
-## Codebyte Example
-
-The following example is runnable and uses the `.ln()` function to return the natural logarithm of numbers from `1` to `10`:
-
-```codebyte/kotlin
-import kotlin.math.*
-
-fun main(){
-    for(i in 1..10){
-        val ln = ln(i.toDouble())
-        println("The log base 10 of $i is $ln.")
-    }
-}
 ```
