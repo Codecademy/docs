@@ -23,6 +23,7 @@ This is particularly useful in applications such as simulations or games, where 
 ```pseudo
 math.randomseed(seed)
 ```
+
 This `randomseed()` method of the Lua `math` libraray, takes an argument `seed` which can be any integer value.
 
 ## Example 1
