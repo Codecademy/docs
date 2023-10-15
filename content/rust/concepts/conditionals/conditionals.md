@@ -8,11 +8,11 @@ Tags:
   - 'Conditionals'
   - 'Control Flow'
 CatalogContent:
+  - 'rust-for-programmers'
   - 'paths/computer-science'
-  - 'learn/rust-for-programmers'
 ---
 
-**Conditional** statements in Rust allow the control of flow in program based on certain conditions. Rust provides support for Conditional statements that include `if`, `else if` and `else` statements. Unlike many programming languages, the condition is not surrounded by parenthesis.
+**Conditional** statements in Rust allow the control of flow in program based on certain conditions. Rust provides support for conditional statements that include `if`, `else if` and `else` statements. Unlike many programming languages, the condition is not enclosed by parentheses.
 
 ## If Statement
 
@@ -54,7 +54,7 @@ if condition {
 
 ### Example
 
-Example of `else if` statement:
+Example of an `else if` statement:
 
 ```rust
 let number = 25;
@@ -86,7 +86,7 @@ if condition {
 
 ### Example
 
-Example of `else` statement:
+Example of an `else` statement:
 
 ```rust
 let number = 15;
