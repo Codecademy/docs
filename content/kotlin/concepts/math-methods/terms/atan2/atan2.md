@@ -21,8 +21,8 @@ import kotlin.math.*
 val angle = atan2(y, x)
 ```
 
-- x: The x-coordinate of the point.
-- y: The y-coordinate of the point.
+- `x`: The x-coordinate of the point.
+- `y`: The y-coordinate of the point.
 
 The .atan2() method returns a value of type Double representing the angle in radians. The result is in the range [-π, π].
 
