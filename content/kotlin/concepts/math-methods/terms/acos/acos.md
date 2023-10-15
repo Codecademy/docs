@@ -12,8 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.acos()`** method in Kotlin's `Math` class is used to calculate the
-arccosine of a given value, returning the corresponding angle in radians.
+The **`.acos()`** method in Kotlin's `math` class is used to calculate the arccosine of a given value, returning the corresponding angle in radians.
 
 ## Syntax
 
