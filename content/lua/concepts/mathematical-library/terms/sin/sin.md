@@ -1,6 +1,6 @@
 ---
 Title: 'sin()'
-Description: 'Returns the sine of an angle in radians.'
+Description: 'Returns the sine of an angle given in radians.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`sin()`** function in Lua's math library calculates the sine of a given angle in radians. The result is the ratio of the length the side opposite the given angle to the length of the hypotenuse in a right-angled triangle.
+The **`sin()`** function in Lua's math library calculates the sine of an angle given in radians. The result is the ratio of the length the side opposite the given angle to the length of the hypotenuse in a right-angled triangle.
 
 ## Syntax
 
