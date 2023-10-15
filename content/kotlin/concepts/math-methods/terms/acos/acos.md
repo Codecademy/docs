@@ -21,8 +21,7 @@ import kotlin.math.*
 val angle = acos(value)
 ```
 
-`value`: The value for which you want to calculate the arccosine. It should be
-in the range [-1, 1].
+`value`: The given value to be used in the arccosine calculation. The value should be in the range `-1` to `1`.
 
 The `.acos()` method returns a value of type `double` representing the angle in
 radians. The result is in the range [0, PI].
