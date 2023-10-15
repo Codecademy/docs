@@ -28,32 +28,32 @@ string.find(fullString, searchString, init, pattern)
 or 
 
 ```lua
-StartIndex, EndIndex = string.find(fullString, searchString, Init, Pattern)
+startindex, endindex = string.find(fullstring, searchstring, init, pattern)
 ```
 
-- `fullString`: is the string we are searching through.
-- `searchString`: is the sub-string to search for.
-- `init` (optional): is the index where the search starts. **Default index is 1.**
-- `pattern ` (optional): is a Boolean flag indicating wheter to search using pattern matching[^1}. when set to false, pattern matching can be used, where as when set to true, pattern matching is ignored, and exact matches are searched for. **Default is `false`.**
+- `fullString` : is the string we are searching through.
+- `searchString` : is the sub-string to search for.
+- `init` (optional) : is the index where the search starts. **Default index is 1.**
+- `pattern ` (optional) : is a Boolean flag indicating wheter to search using pattern matching[^1]. when set to false, pattern matching can be used, where as when set to true, pattern matching is ignored, and exact matches are searched for. **Default is false**.
 
 ## Example 1
 
 use `.find()` without multiple assignments:
 
 ```lua
-s = 'hello world'
-search1 = string.find(s, "hello")
-search2 = string.find(s, "world")
-search3 = string.find(s, "universe")
+sentence = 'hello world'
+search1 = string.find(sentence, "hello")
+search2 = string.find(sentence, "world")
+search3 = string.find(sentence, "universe")
 
 print(search1)    -- Output: 1
 print(search2)    -- Output: 7
 print(search3)    -- Output: nil
 ```
 
-- `hello` is found at starting index 1 in the `s` string.
-- `world` is found at starting index 7 in the `s` string.
-- `universe` is not found in `s` string, therefore the output is nil
+- `hello` is found at starting index 1 in the `sentence` string.
+- `world` is found at starting index 7 in the `sentence` string.
+- `universe` is not found in `sentence` string, therefore the output is nil
 
 ## Example 2
 
@@ -74,8 +74,8 @@ print(z)     -- Output: 11
 print(y, z)  -- Output: 7  11
 ```
 
-- `hello` starts at index 1, and ends at index 5 in the `sentence` string. Due to multiple assignments, `a` saves the first assignment, and `b` saves the second assignment.
-- `world` starts at index 7, and ends at index 11 in the `sentence` string. Due to multiple assignments, `y` saves the first assignment, and `z` saves the second assignment.
+- `hello` starts at index 1, and ends at index 5 in the `sentence` string. Due to multiple assignments, `a` saves the value `1`, and `b` saves the second value `5`.
+- `world` starts at index 7, and ends at index 11 in the `sentence` string. Due to multiple assignments, `y` saves the first value `7`, and `z` saves the second value `11`.
 
 ## Example 3
 use `.find()` with `init` (Initial position) parameter.
@@ -93,8 +93,8 @@ print(b)        -- Output: 10
 print(a, b)     -- Output: 8  10
 ```
 
-- `l` has multple instances within the `sentence` string. Due to the init parameter, the search starts at index 5, therefore the first instance of `l` from index 5 will be at starting index 10. 
-- `orl` has multple instances within the `sentence` string. Due to the init parameter, the search starts at index 5, therefore the first instance of `orl` from index 5 will be at starting index 8, and ends at index 10.
+- `l` has multple instances within the `sentence` string. Due to the init parameter, the search starts at index 5, therefore the first instance of `l` from index 5 will be at starting index `10`. 
+- `orl` has multple instances within the `sentence` string. Due to the init parameter, the search starts at index 5, therefore the first instance of `orl` from index 5 will be at starting index `8`, and ends at index `10`.
 
 ## Example 4
 use `.find()` with `pattern ` (pattern matching) parameter
