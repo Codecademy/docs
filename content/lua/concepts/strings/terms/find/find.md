@@ -34,7 +34,7 @@ StartIndex, EndIndex = string.find(fullString, searchString, Init, Pattern)
 - `fullString`: is the string we are searching through.
 - `searchString`: is the sub-string to search for.
 - `init` (optional): is the index where the search starts. **Default index is 1.**
-- `pattern ` (optional): is a Boolean flag indicating wheter to search using pattern matching. when set to false, pattern matching can be used, where as when set to true, pattern matching is ignored, and exact matches are searched for. **Default is `false`.**
+- `pattern ` (optional): is a Boolean flag indicating wheter to search using pattern matching[^1}. when set to false, pattern matching can be used, where as when set to true, pattern matching is ignored, and exact matches are searched for. **Default is `false`.**
 
 ## Example 1
 
