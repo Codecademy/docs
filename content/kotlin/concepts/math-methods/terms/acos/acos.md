@@ -1,6 +1,6 @@
 ---
 Title: '.acos()'
-Description: 'Calculates the arccosine or reverse cosine of a value, returning the angle in radians.'
+Description: 'Calculates the arccosine, or inverse cosine of a value, returning the angle in radians.'
 Subjects:
   - 'Code Foundation'
   - 'Computer Science'
