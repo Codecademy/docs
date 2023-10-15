@@ -17,7 +17,8 @@ The **`atan2()`** method in Kotlin's `math` class is used to calculate the angle
 ## Syntax
 
 ```pseudo
-val angle = Math.atan2(y, x)
+import kotlin.math.*
+val angle = atan2(y, x)
 ```
 
 - x: The x-coordinate of the point.
