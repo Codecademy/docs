@@ -30,7 +30,8 @@ The `atan2()` method returns a value of type double representing the angle in ra
 
 This example shows how use the `atan2()` method to calculate the angle between the positive x-axis and a point with coordinates (3.0, 4.0):
 
-```
+```kotlin
+import kotlin.math.*
 fun main() {
     val x = 3.0
     val y = 4.0
