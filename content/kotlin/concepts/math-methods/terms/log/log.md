@@ -1,6 +1,6 @@
 ---
 Title: 'log()'
-Description: 'Calculates the logarithm of a number with respect to base.'
+Description: 'Calculates the logarithm of a number with respect to a base value.'
 Subjects:
   - 'Code Foundation'
   - 'Computer Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.log()`** method in Kotlin's `math` class is used to calculate the logarithm of a number with respect to base.
+The **`.log()`** method in Kotlin's `math` class is used to calculate the logarithm of a number with respect to a base value.
 
 ## Syntax
 
@@ -47,19 +47,4 @@ The output of this code will be:
 
 ```shell
 3.5849625007211565
-```
-
-## Codebyte Example
-
-The following example is runnable and uses the `.log()` function to return the base `10` logarithm of numbers from `1` to `10`:
-
-```codebyte/kotlin
-import kotlin.math.*
-
-fun main(){
-    for(i in 1..10){
-        val log = log(i.toDouble(),10.0)
-        println("The log base 10 of $i is $log.")
-    }
-}
 ```
