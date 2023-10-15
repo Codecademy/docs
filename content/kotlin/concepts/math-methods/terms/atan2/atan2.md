@@ -36,7 +36,7 @@ fun main() {
     val x = 3.0
     val y = 4.0
 
-    val angle = Math.atan2(y, x)
+    val angle = atan2(y, x)
     println("The angle between the positive x-axis and the point ($x, $y) is $angle radians.")
 }
 ```
