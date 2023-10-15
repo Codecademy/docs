@@ -20,12 +20,11 @@ The **`.atan()`** method in Kotlin's `math` class is used to calculate the arc t
 atan(x)
 ```
 
-- x: One of the two numbers whose hypotenuse is to be calculated.
+- `x`: The number for which the arc tangent is to be calculated.
 
 The `.atan()` method returns a value of type `double` or `float` depending also on the type of the input respectively. There is a special case of:
 
-- atan(NaN) is NaN
-
+- `atan(NaN)` is NaN
 
 ## Example
 
