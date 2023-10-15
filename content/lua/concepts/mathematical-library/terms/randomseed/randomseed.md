@@ -27,6 +27,7 @@ math.randomseed(seed)
 ```
 
 ## Example 1
+
 ### Seed with a Fixed Value
 
 ```lua
