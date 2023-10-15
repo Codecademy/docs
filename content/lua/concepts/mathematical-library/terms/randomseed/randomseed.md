@@ -44,6 +44,7 @@ Random Number:	0.93081217803957
 In this example, by seeding the random number generator with the value `42`, it ensures that the subsequent calls to `math.random()` will always yield the same result.
 
 ## Example 2
+
 ### Creating Reproducible Random Sequences
 
 ```lua
