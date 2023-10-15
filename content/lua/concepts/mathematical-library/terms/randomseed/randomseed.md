@@ -53,8 +53,10 @@ for i = 1, 5 do
     print("Random Number ", i, ": ", math.random(1, 10))  -- Generate and print 5 random numbers
 end
 ```
-Output:
-```
+
+This example results in the following output:
+
+```shell
 Random Number 1 :  3
 Random Number 2	:  7
 Random Number 3	:  1
@@ -62,8 +64,10 @@ Random Number 4	:  4
 Random Number 5	:  9
 ```
 In this example, by using the same `seed` value `1234`, it will generate the same sequence of 5 random numbers every time.
+```
 
 ## Example 3
+
 ### Using System Time as a Seed
 
 ```lua
@@ -71,10 +75,14 @@ print("System Time:", os.time())
 math.randomseed(os.time())  -- Seed with the current system time
 print("Random Number:", math.random(1, 100))
 ```
-Output:
+
+This example results in the following output:
+
 ```
 System Time:	1697258566
 Random Number:	53
 ```
+
 In this example, by using `os.time()`, a different `seed` value is taken each time the Lua script is executed, leading to more unpredictable random sequences. This is a common technique to make random sequences less predictable.
-> **Note:** Using this technique for cryptographic purposes is not advisable, as the time value from the `os.time` is hardly a secret.
+
+> **Note:** Using this technique for cryptographic purposes is not advisable, as the time value from the `os.time()` is hardly a secret.
