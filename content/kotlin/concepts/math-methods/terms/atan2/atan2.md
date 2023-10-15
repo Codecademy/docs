@@ -33,11 +33,11 @@ This example shows how use the `atan2()` method to calculate the angle between t
 ```kotlin
 import kotlin.math.*
 fun main() {
-    val x = 3.0
-    val y = 4.0
+  val x = 3.0
+  val y = 4.0
 
-    val angle = atan2(y, x)
-    println("The angle between the positive x-axis and the point ($x, $y) is $angle radians.")
+  val angle = atan2(y, x)
+  println("The angle between the positive x-axis and the point ($x, $y) is $angle radians.")
 }
 ```
 
