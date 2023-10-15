@@ -41,7 +41,7 @@ fun main() {
 }
 ```
 
-In this example, the .atan2() method calculates the angle, and the result will output:
+The code above will result in the following output:
 
 ```shell
 The angle between the positive x-axis and the point (3.0, 4.0) is 0.9272952180016122 radians.
