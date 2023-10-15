@@ -34,7 +34,7 @@ import kotlin.math.*
 
 fun main() {
     val value = 0.5
-    val angle = Math.acos(value)
+    val angle = acos(value)
     println("The arccosine of $value is $angle radians.")
 }
 ```
