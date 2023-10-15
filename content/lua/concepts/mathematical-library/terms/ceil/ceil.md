@@ -1,6 +1,6 @@
 ---
 Title: 'ceil()'
-Description: 'Returns the smallest integer greater than or equal to x.'
+Description: 'Returns the smallest integer greater than or equal to a given value.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
