@@ -30,7 +30,7 @@ Set background to the edge of the content box:
 ```css
 body {
   background: #000000;
-  border: 3px dashed blue;
+  border: 5px dashed grey;
   padding: 20px;
   background-clip: content-box;
 }
@@ -43,7 +43,7 @@ Set background to the inside edge of the border:
 ```css
 body {
   background: #000000;
-  border: 3px dashed blue;
+  border: 5px dashed grey;
   padding: 20px;
   background-clip: padding-box;
 }
@@ -56,7 +56,7 @@ Set background to the edge of the border:
 ```css
 body {
   background: #000000;
-  border: 3px dashed blue;
+  border: 5px dashed grey;
   padding: 20px;
   background-clip: border-box;
 }
@@ -69,6 +69,8 @@ Set background within the foreground text:
 ```css
 body {
   background: #000000;
+  border: 5px dashed grey;
+  padding: 20px;
   background-clip: text;
   color: transparent;
 }
