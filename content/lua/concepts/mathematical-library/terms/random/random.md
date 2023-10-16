@@ -1,6 +1,6 @@
 ---
 Title: 'random()'
-Description: 'The function generates pseudo-random numbers.'
+Description: 'Generates pseudo-random numbers based on a specified range.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
