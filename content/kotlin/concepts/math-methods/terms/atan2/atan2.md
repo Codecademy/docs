@@ -24,7 +24,7 @@ val angle = atan2(y, x)
 - `x`: The x-coordinate of the point.
 - `y`: The y-coordinate of the point.
 
-The `atan2()` method returns a value of type double representing the angle in radians. The result will be in the range of *-π* to *π*.
+The `atan2()` method returns a value of type double representing the angle in radians. The result will be in the range of _-π_ to _π_.
 
 ## Example
 
