@@ -81,7 +81,7 @@ This will return the following output:
 0.74830981146053
 ```
 
-> **Note**: Keep in mind that `math.randomseed()` will always generate a controled random sequence.
+> **Note**: Keep in mind that `math.randomseed()` will always generate a reproducible random sequence.
 
 ## Codebyte Example
 
