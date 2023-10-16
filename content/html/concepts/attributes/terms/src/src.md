@@ -34,11 +34,15 @@ The **`src`** attribute is used to specify the location of a digital source, whi
 
 ## Example 1: Image
 
-The snippet below shows a logo being inserted into an HTML file:
+The following code snippet below shows how the `img` element uses the `src` attribute to display an image called `logo.png`:
 
 ```html
 <img src="logo.png" alt="Codecademy logo" />
 ```
+
+This will display the following image:
+
+![HTML src attribute](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-attribute-src-img.png)
 
 > **Note:** When using online images or images from the folders in an IDE workspace, always add `alt` text at the end of the `<img>` element just in case the browser has trouble finding them.
 
