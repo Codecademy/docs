@@ -1,18 +1,23 @@
 ---
 Title: 'animation-timing-function'
-Description: 'Defines an acceleration curve for each keyframe in a single animation. '
+Description: 'Specifies the speed curve of an animation.'
 Subjects:
-  - 'Web Development'
   - 'Web Design'
+  - 'Web Development'
 Tags:
+  - 'CSS'
+  - 'Images'
   - 'Animation'
+  - 'Div'
+  - 'Effects'
+  - 'Values'
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - 'learn-github'
+  - 'paths/git-and-github'
 ---
 
-Defines an acceleration curve for each keyframe in a single animation.
+**animation-timing-function** specifies the speed curve of an animation.
+**speed curve** defines the time an animation uses to change from one set of css styles to another.
 
 ## Syntax
 
@@ -22,40 +27,91 @@ animation-timing-function: <value>;
 
 where `<value>` can be one of the following keywords:
 
-- `step-start`: The easing curve for an animation that starts quickly and decelerates.
-- `step-end`: The easing curve for an animation that starts slowly and decelerates.
-- `linear`: The easing curve for an animation that starts and ends at the same speed.
-- `ease`: The easing curve for an animation that starts and ends at the same speed.
-- `ease-in`: The easing curve for an animation that starts slowly and accelerates.
-- `ease-out`: The easing curve for an animation that starts slowly and decelerates.
-- `ease-in-out`: The easing curve for an animation that starts and ends at the same speed.
-- `cubic-bezier()`: The easing curve for an animation that starts and ends at the same speed.
+- `linear`: The animation speed is the same from start to end.
+- `ease`: The animation starts slow, then accelerate and finishes slow.
+- `ease-in`: The animation starts slow then the speed increase.
+- `ease-out`: The animation starts fast and ends slow.
+- `ease-in-out`: The animation starts slow, then accelerate and finishes slow. 
+- `step-start`: The animations starts fast and ends slow.
+- `step-end`: The animation starts slow and then the speed increase.
+- `cubic-bezier()`: The animation values can be changed, therefore the speed adjusted as desired.
 
-**Note:** Applied property by property from keyframe to keyframe.
 
 ## Example 1
 
-Apply `ease-in-out` to the `animation-timing-function` property of the `div` element:
+Apply `linear` to the `animation-timing-function` property of the `div` element:
 
 ```css
 div {
-  height: 200px;
-  width: 200px;
-  background-color: blue;
-  animation-name: slideright;
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  animation-name: slide;
   animation-duration: 4s;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: linear;
 }
 
-@keyframes slideright {
+@keyframes slide {
   0% {
     margin-left: 0%;
   }
+  25% {
+    margin-left: 25%;
+  }
   50% {
     margin-left: 50%;
+  }
+  75% {
+    margin-left: 75%;
   }
   100% {
     margin-left: 100%;
   }
 }
 ```
+
+## Example 2
+
+Apply `linear` to the `animation-timing-function` using `png` as a source:
+
+```html
+<div>
+  <img src="docs/media/css-animation-function-1.png">
+</div>
+```
+
+```css
+div {
+  animation-name: slide;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes slide {
+  0% {
+    margin-left: 0%;
+  }
+  25% {
+    margin-left: 25% !important;
+  }
+  50% {
+    margin-left: 50% !important;
+  }
+  75% {
+    margin-left: 75% !important;
+  }
+  100% {
+    margin-left: 100%;
+  }
+}
+```
+**Note** 
+ -`animation-name` specifies the name of the keyframe that is being bind to the selector.
+ -`animation-duration` specifies the time an animation takes to complete.
+ -`animation-iteration-count` specifies how many times an animation should be played.
+ -`animation-direction` specifies the direction an animation should be played in.
+ -`animation-timing-function` specifies the speed curve of an animation.
+ -`!important` prevents image to stop at interaction points
+
