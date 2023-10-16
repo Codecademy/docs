@@ -29,7 +29,9 @@ val resultDouble: Double = ceil(myDouble)
 val resultFloat: Double = ceil(myFloat.toDouble())
 val resultInt: Double = ceil(myInt.toDouble())
 
-println(resultDouble) // Outputs: 8.0
-println(resultFloat)  // Outputs: 7.0
-println(resultInt)    // Outputs: 4.0
+fun main() {
+  println(resultDouble) // Outputs: 8.0
+  println(resultFloat)  // Outputs: 7.0
+  println(resultInt)    // Outputs: 4.0
+}
 ```
