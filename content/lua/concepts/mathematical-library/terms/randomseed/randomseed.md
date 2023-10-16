@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Lua, the **`math.randomseed()`** function is a standard function that is part of the Lua `math` library. The `math.randomseed()` function initialises the random number generator with a specific seed value. When the random number generator is initialized with a seed value, it ensures that the sequence of random numbers generated is predictable and reproducible. 
+In Lua, the **`math.randomseed()`** function is a standard function that is part of the Lua `math` library. The `math.randomseed()` function initializes the random number generator with a specific seed value. When the random number generator is initialized with a seed value, it ensures that the sequence of random numbers generated is predictable and reproducible.
 
 This is particularly useful in applications such as simulations or games, where a specific random sequence can be recreated for debugging or sharing results.
 
@@ -24,7 +24,7 @@ This is particularly useful in applications such as simulations or games, where 
 math.randomseed(seed)
 ```
 
-This `randomseed()` method of the Lua `math` libraray, takes an argument `seed` which can be any integer value.
+This `randomseed()` method of the Lua `math` library, takes an argument `seed` which can be any integer value.
 
 ## Example 1
 
@@ -40,7 +40,7 @@ print("Random Number: ", math.random())  -- This will always produce the same ra
 This example results in the following output:
 
 ```shell
-Random Number:	0.93081217803957
+Random Number: 0.93081217803957
 ```
 
 ## Example 2
@@ -59,11 +59,11 @@ end
 This example results in the following output:
 
 ```shell
-Random Number 1 :  3
-Random Number 2	:  7
-Random Number 3	:  1
-Random Number 4	:  4
-Random Number 5	:  9
+Random Number 1 : 3
+Random Number 2 : 7
+Random Number 3 : 1
+Random Number 4 : 4
+Random Number 5 : 9
 ```
 
 ## Example 3
@@ -78,11 +78,11 @@ math.randomseed(os.time())  -- Seed with the current system time
 print("Random Number:", math.random(1, 100))
 ```
 
-This example results in the following output:
+This code will result in an output similar to the following:
 
-```
-System Time:	1697258566
-Random Number:	53
+```shell
+System Time: 1697258566
+Random Number: 53
 ```
 
 > **Note:** Using this technique for cryptographic purposes is not advisable, as the time value from the `os.time()` is hardly a secret.
