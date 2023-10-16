@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Lua, the math.random() function is used to generate pseudo-random numbers. It can be used with or without an argument and in conjunction with the `math.randomseed()` function to control the sequence of random numbers.
+In Lua, the `math.random()` function is used to generate pseudo-random numbers. It can be used with or without an argument and in conjunction with the `math.randomseed()` function to control the sequence of random numbers.
 
 The ability to generate random numbers, especially when combined with seeds for reproducibility, has a wide range of applications in computer science, simulations, gaming, statistics, cryptography and more.
 
