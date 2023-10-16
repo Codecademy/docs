@@ -113,3 +113,51 @@ Captions can be added as a child of the `<video>` element using the `<track>` ta
   <a href="spooky_ghost_h264.mp4">here</a> to download it instead.
 </video>
 ```
+
+## Embedding Youtube videos
+
+Alternatively, you can embed YouTube videos within your website.  
+To do this, you will need to copy the video ID at the end of a YouTube video link.  
+For example, with a link such as https://www.youtube.com/watch?v=DyK242LM6Vs you would copy `DyK242LM6Vs`.  
+
+There are various reasons for embedding a YouTube video into your website including:
+- Automatic linking to YouTube site for community feedback.
+- Better user experience.
+- Easier formatting and video settings.
+- Keeping development files tidier.
+
+Doing so is fairly easy and only requires a minor change to the HTML example above:
+
+```html
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/DyK242LM6Vs">
+</iframe>
+```
+There are also numerous settings to add for how the video behaves such as:
+
+Auotplay is achieved by adding `?autoplay=1` to the link.
+```html
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/DyK242LM6Vs?autoplay=1">
+</iframe>
+```
+
+Mute is achieved by adding `?mute=1` to the link.
+```html
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/DyK242LM6Vs?mute=1">
+</iframe>
+```
+
+Loop is achieved by adding `?loop=1` to the link.
+```html
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/DyK242LM6Vs?loop=1">
+</iframe>
+```
+You can also use multiple behaviours by putting `&` between the functions.
+```html
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/DyK242LM6Vs?autoplay=1&mute=1&loop=1">
+</iframe>
+```
