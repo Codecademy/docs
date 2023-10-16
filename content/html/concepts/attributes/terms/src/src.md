@@ -42,13 +42,13 @@ The following code snippet below shows how the `img` element uses the `src` attr
 
 This will display the following image:
 
-![HTML src attribute](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-attribute-src-img.png)
+![HTML src attribute img](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-attribute-src-img.png)
 
 > **Note:** When using online images or images from the folders in an IDE workspace, always add `alt` text at the end of the `<img>` element just in case the browser has trouble finding them.
 
 ## Example 2: Video
 
-The snippet below shows a [video](https://www.codecademy.com/resources/docs/html/videos) being inserted into an HTML file:
+The example below shows how a [video](https://www.codecademy.com/resources/docs/html/videos) element uses the `src` attribute to display a video from YouTube:
 
 ```html
 <video
@@ -59,3 +59,9 @@ The snippet below shows a [video](https://www.codecademy.com/resources/docs/html
   type="youtube"
 ></video>
 ```
+
+This would display the video as the following gif shows:
+
+![HTML src attribute video](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-attribute-src-video.gif)
+
+> **Note:** different for different browsers.
