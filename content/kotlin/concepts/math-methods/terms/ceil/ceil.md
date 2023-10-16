@@ -18,7 +18,8 @@ CatalogContent:
   kotlin.math.ceil(x: Double)
 ```
 
-## Example: 
+## Example:
+
 ```kotlin
 val myDouble: Double = 7.5
 val myFloat: Float = 6.3f
