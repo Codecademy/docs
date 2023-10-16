@@ -39,7 +39,7 @@ The following example shows the usage of `math.random()` _without_ a parameter:
 print(math.random())
 ```
 
-The output will similar to the following:
+The output will be similar to the following:
 
 ```shell
 0.78322180675329
@@ -73,7 +73,7 @@ print(math.random())
 print(math.random())
 ```
 
-This will return the following output:
+This will result in an output similar to the following:
 
 ```shell
 0.77898184896709
@@ -82,17 +82,4 @@ This will return the following output:
 ```
 
 > **Note**: Keep in mind that `math.randomseed()` will always generate a reproducible random sequence.
-
-## Codebyte Example
-
-The following code is runnable and uses the `.random()` method to print if a number between 1 and 1000 is even or odd.
-
-```codebyte/lua
-local evenOrOdd = math.random(1, 1000)
-
-if evenOrOdd % 2 == 0 then
-    print(evenOrOdd .. " is Even!")
-else
-    print(evenOrOdd .. " is Odd!")
-end
-```
+> 
