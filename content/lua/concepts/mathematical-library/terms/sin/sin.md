@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`sin()`** function in Lua's math library calculates the sine of an angle given in radians. The result is the ratio of the length the side opposite the given angle to the length of the hypotenuse in a right-angled triangle.
+The **`sin()`** function in Lua's math library calculates the sine of an angle given in radians. The result is the ratio of two sides of a right-angled triangle: the length of the side opposite the given angle to the length of the hypotenuse.
 
 ## Syntax
 
@@ -24,7 +24,7 @@ math.sin(angle)
 
 ## Example
 
-In this example, `math.sin()` calculates the sine of a 90 degree angle (π/2 radians).
+In this example, `math.sin()` calculates the sine of a 90 degree angle (_π/2_ radians).
 
 ```lua
 local angle = math.pi / 2
