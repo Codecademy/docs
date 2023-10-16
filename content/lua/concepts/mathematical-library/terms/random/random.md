@@ -22,7 +22,7 @@ The ability to generate random numbers, especially when combined with seeds for 
 
 ## Syntax
 
-The `.random()` method can be called with or a without a number using the following syntax:
+The `random()` method can be called with or a without a number using the following syntax:
 
 ```pseudo
 math.random(x) -- Returns a random number between 1 and x.
