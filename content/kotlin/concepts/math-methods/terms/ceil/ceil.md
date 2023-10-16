@@ -1,6 +1,6 @@
 ---
-Title: '.ceil()'
-Description: 'The `.ceil()` method in Kotlin is used to round a floating-point number up to the nearest integer.'
+Title: 'ceil()'
+Description: 'Rounds a floating-point number up to the nearest integer.'
 Subjects:
   - 'Computer Science'
   - 'Mobile Development'
