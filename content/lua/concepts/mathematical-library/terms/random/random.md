@@ -73,7 +73,7 @@ print(math.random())
 print(math.random())
 ```
 
-Possible outputs:
+This will return the following output:
 
 ```shell
 0.77898184896709
