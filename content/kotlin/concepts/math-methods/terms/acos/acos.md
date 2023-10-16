@@ -42,5 +42,5 @@ fun main() {
 The output of this code will be:
 
 ```shell
- "The arccosine of 0.5 is 1.0471975511965979 radians.
+The arccosine of 0.5 is 1.0471975511965979 radians.
 ```
