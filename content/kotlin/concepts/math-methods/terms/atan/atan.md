@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.atan()`** method in Kotlin's `math` class is used to calculate the arc tangent of a value. It returns the value of the angle in the range from -PI/2 to PI/2 radians.
+The **`atan()`** method in Kotlin's `math` class is used to calculate the arc tangent of a value. It returns the value of the angle in the range from *-PI/2* to *PI/2* radians.
 
 ## Syntax
 
@@ -22,19 +22,18 @@ atan(x)
 
 - `x`: The number for which the arc tangent is to be calculated.
 
-The `.atan()` method returns a value of type `double` or `float` depending also on the type of the input respectively. There is a special case of:
+The `atan()` method returns a value of type `double` or `float` depending also on the type of the input respectively. If the argument passed is `NaN`, the method will return `NaN`.
 
-- `atan(NaN)` is NaN
 
 ## Example
 
-This example shows how to use the `.atan()` method to calculate the arc tangent of `90.0`:
+This example shows how to use the `atan()` method to calculate the arc tangent of `90.0`:
 
 ```kotlin
 import kotlin.math.*
 
 fun main(){
-    println(arctan(90.0))
+    println(atan(90.0))
 }
 ```
 
