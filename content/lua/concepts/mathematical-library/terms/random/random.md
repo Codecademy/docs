@@ -29,7 +29,7 @@ math.random(x) -- Returns a random number between 1 and x.
 math.random(x, y) -- Returns a random number between x and y.
 ```
 
-- Parameters are optional for this method. If a number is not specified, a random number between 0 and 1 will be generated.
+- Parameters are optional for this method. If a number is not specified, a random number between `0` and `1` will be generated.
 
 ## Example 1
 
