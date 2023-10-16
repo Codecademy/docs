@@ -5,7 +5,7 @@ Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
-  - 'Integers'
+  - 'Double'
   - 'Float'
   - 'Methods'
   - 'Functions'
@@ -22,9 +22,9 @@ The **`asinh()`** function returns the inverse hyperbolic sine of a number.
 asinh(x)
 ```
 
-The function accepts one mandatory parameter `x`. It can be any value i.e. `negative`, `positive`, or `zero`. The parameter can be of `int` , `double`, `float` or `long` datatype. 
+The function accepts one mandatory parameter `x`. It can be any value i.e. `negative`, `positive`, or `zero`. The parameter can be of  `double`, `float` or `long` datatype. 
 
-The function returns the inverse hyperbolic sine of the argument. The return value can be of `int`, `double`, `float` or `long` datatype.
+The function returns the inverse hyperbolic sine of the argument. The return value can be of `double`, `float` or `long` datatype.
 
 ## Example
 
