@@ -35,3 +35,6 @@ fun main() {
   println(resultInt)    // Outputs: 4.0
 }
 ```
+
+
+**Note:** This function accepts any number that can be converted to a Double type as a parameter.
