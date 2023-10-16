@@ -27,6 +27,7 @@ math.tointeger(mycoolvalue)
 ```
 
 `math.tointeger()` returns an integer, if `mycoolvalue` is convertible to an integer. Otherwise returns nil.
+
 ## Example 1
 
 If the given value is an integer, `math.tointeger()` returns the given value, as in the following example:
