@@ -1,6 +1,6 @@
 ---
 Title: 'asinh()'
-Description: 'Returns the inverse hyperbolic sine of a numeric argument'
+Description: 'Returns the inverse hyperbolic sine of a numeric argument.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -28,8 +28,7 @@ The function returns the inverse hyperbolic sine of the argument. The return val
 
 ## Example
 
-
-In this example below we are trying to find the value of inverse hyperbolic sine of 1.0
+The example below is finding the value of the inverse hyperbolic sine of 1.0
 
 The `asinh()` function calculates the inverse hyperbolic sine of 1.0, which is 0.881373587019543 and `println(result)`, prints the value of the result variable to the console.
 
