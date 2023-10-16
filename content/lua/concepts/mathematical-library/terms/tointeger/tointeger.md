@@ -23,9 +23,10 @@ In Lua, the **`math.tointeger()`** function is a standard function that is part 
 As `tointeger()` is a method that is a part of the standard Lua `math` library, it must be called as `math.tointeger()`.
 
 ```pseudo
-math.tointeger(mycoolvalue) -- Returns an integer, if mycoolvalue is convertible to an integer. Otherwise returns nil.
+math.tointeger(mycoolvalue)
 ```
 
+`math.tointeger()` returns an integer, if `mycoolvalue` is convertible to an integer. Otherwise returns nil.
 ## Example 1
 
 If the given value is an integer, `math.tointeger()` returns the given value, as in the following example:
