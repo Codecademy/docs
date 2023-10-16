@@ -54,7 +54,7 @@ print(math.random(7))
 print(math.random(10, 15))
 ```
 
-Possible outputs:
+This will result in an output similar to the following:
 
 ```shell
 5
