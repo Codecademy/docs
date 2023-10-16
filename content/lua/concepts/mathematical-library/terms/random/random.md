@@ -39,7 +39,7 @@ The following example shows the usage of `math.random()` _without_ a parameter:
 print(math.random())
 ```
 
-Possible output:
+The output will similar to the following:
 
 ```shell
 0.78322180675329
