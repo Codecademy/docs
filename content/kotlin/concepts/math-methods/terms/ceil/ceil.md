@@ -12,7 +12,8 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-## Syntax: 
+## Syntax
+
 ```pseudo
   kotlin.math.ceil(x: Double)
 ```
