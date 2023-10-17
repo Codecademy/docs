@@ -16,7 +16,7 @@ The **`math.cbrt()`** method returns the cube root of the given argument.
 ## Syntax
 
 ```pseudo
-Math.cbrt(n)
+cbrt(n)
 ```
 
 ## Example
