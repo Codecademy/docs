@@ -20,7 +20,8 @@ cbrt(n)
 ```
 
 ## Example
-The following example uses `Math.cbrt()` to return the cube roots of `-6.5`, `2`, and `-340.8`:
+
+The following example uses `cbrt()` to return the cube roots of `-6.5`, `2`, and `-340.8`:
 
 ```kotlin
 // version 1.1.2
