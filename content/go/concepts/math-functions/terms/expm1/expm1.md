@@ -27,7 +27,7 @@ import math
 value := math.Expm1(x)
 ```
 
-Where `value` will contain the result of the calculation, and `x`, returned as a `float64`.
+Where `value` will contain the result of the calculation using the passed argument, `x`, returned as a `float64`.
 Special cases:
 
 - `Expm1(+Inf)` yields `+Inf`
