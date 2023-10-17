@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `Expm1()` function returns the value of e^x - 1, where `e` is the base of the natural logarithm and `x` is the parameter.
+The **`Expm1()`** function returns the value of *e^x - 1*, where `e` is the base of the natural logarithm and `x` is the parameter.
 
 
 ## Syntax
@@ -27,9 +27,9 @@ value := math.Expm1(x)
 Where `result` will contain the value of e^x - 1, and  `x`, returned as a `float64`.
 Special cases:
 
-- The result of `Expm1(+Inf)` is +Inf
-- The result of `Expm1(-Inf)` is -1
-- The result of `Expm1(NaN)` is NaN
+- `Expm1(+Inf)` yields `+Inf`
+- `Expm1(-Inf)` yields `-1`
+- `Expm1(NaN)` yields `NaN`
 
 ## Example
 
@@ -68,8 +68,9 @@ import (
 )
 
 func main() {
-  x := 2.0
-  result := math.Expm1(x)
-  fmt.Printf("%.1f\n", result)
+    value_1 := math.Expm1(7.3) 
+    value_2 := math.Expm1(-3) 
+    res := value_1 + value_2 
+    fmt.Printf("%.1f + %.1f = %.1f",value_1, value_2, res) 
 }
 ```
