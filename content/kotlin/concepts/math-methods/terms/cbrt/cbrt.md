@@ -10,7 +10,8 @@ CatalogContent:
   - 'learn-kotlin'
   - 'paths/computer-science'
 ---
-The **`Math.cbrt()`** method returns the cube root of the argument.
+
+The **`math.cbrt()`** method returns the cube root of the given argument.
 
 ## Syntax
 
