@@ -18,7 +18,8 @@ The **`math.cbrt()`** method returns the cube root of the given argument.
 ```pseudo
 cbrt(n)
 ```
-"n" refers to the argument passed to the ```cbrt()``` method.
+
+- `n` refers to the number passed to the method of type `Double` or `Float`.
 
 ## Example
 
