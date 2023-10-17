@@ -1,6 +1,6 @@
 ---
 Title: 'src'
-Description: 'An HTML attribute used to specify the location of a digital resource.'
+Description: 'Specifies the location of a digital source.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`src`** attribute is used to specify the location of a digital source, which is typically a URL. It is required for HTML elements like [`<img>`](https://www.codecademy.com/resources/docs/html/elements/img) so that they can appear on a website or application.
+The **`src`** attribute specifies the location of a digital source, which is typically a URL  or a [file path](https://www.codecademy.com/resources/docs/html/file-paths). It is required for HTML elements like [`<img>`](https://www.codecademy.com/resources/docs/html/elements/img) so that they can appear on a website or application.
 
 ## Syntax
 
@@ -27,9 +27,9 @@ The **`src`** attribute is used to specify the location of a digital source, whi
 | ---------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
 | [`<audio>`](https://www.codecademy.com/resources/docs/html/elements/audio)   | Embeds sound files on websites and applications.                                  |
 | [`<img>`](https://www.codecademy.com/resources/docs/html/images)             | Embeds online photos, logos, and other pictures into an HTML file.                |
-| [`<input>`](https://www.codecademy.com/resources/docs/html/elements/input)   | Creates interactive textboxes for online forms.                                   |
+| [`<input>`](https://www.codecademy.com/resources/docs/html/elements/input)   | Creates interactive text boxes for online forms.                                   |
 | [`<script>`](https://www.codecademy.com/resources/docs/html/elements/script) | Embeds JavaScript and other executive code or data into an HTML file.             |
-| `<track>`                                                                    | Specifies the subtitles and closed captions for `<audio>` and `<video>` elements. |
+| [`<track>`](https://www.codecademy.com/resources/docs/html/elements/track)                                                                    | Specifies the subtitles and closed captions for `<audio>` and `<video>` elements. |
 | [`<video>`](https://www.codecademy.com/resources/docs/html/elements/video)   | Embeds movie clips or other video sources into an HTML file.                      |
 
 ## Example 1: Image
