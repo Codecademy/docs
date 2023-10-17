@@ -22,15 +22,13 @@ The **`asinh()`** function returns the inverse hyperbolic sine of a number.
 asinh(x)
 ```
 
-The function accepts one mandatory parameter `x`. It can be any value i.e. `negative`, `positive`, or `zero`. The parameter can be of  `double`, `float` or `long` datatype. 
+The function accepts one mandatory parameter `x`. It can be any value i.e., `negative`, `positive`, or `zero`. The argument can be of `double`, `float` or `long` datatype.
 
-The function returns the inverse hyperbolic sine of the argument. The return value can be of `double`, `float` or `long` datatype.
+The function returns the inverse hyperbolic sine of the argument. The return value will be of the same type as the argument.
 
 ## Example
 
-The example below is finding the value of the inverse hyperbolic sine of 1.0
-
-The `asinh()` function calculates the inverse hyperbolic sine of 1.0, which is 0.881373587019543 and `println(result)`, prints the value of the result variable to the console.
+The example below demonstrates how to use the method to return the value of the inverse hyperbolic sine of `1.0`.
 
 ```kotlin
 import kotlin.math.asinh
