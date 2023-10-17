@@ -20,9 +20,9 @@ The **`ln()`** method in Kotlin's `math` class is used to calculate the natural 
 ln(n)
 ```
 
-- `n`: The number of type `double` for which the logarithm is to be calculated.
+- `n`: The number of type `Double` for which the logarithm is to be calculated.
 
-The `ln()` method returns a value of type `double`, the logarithm of `n` to _e_. The following values represent special cases:
+The `ln()` method returns a value of type `Double`, the logarithm of `n` to _e_. The following values represent special cases:
 
 - `ln(NaN)` is `NaN`
 - `ln(n)` is `NaN` if `n < 0.0`
