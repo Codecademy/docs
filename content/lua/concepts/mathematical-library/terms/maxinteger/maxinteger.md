@@ -23,7 +23,7 @@ In Lua, the **`math.maxinteger`** constant is a standard constant that is part o
 As `maxinteger` is a part of the standard Lua `math` library, it must be called as `math.maxinteger`.
 
 ```pseudo
-math.maxinteger is a predefined constant that represents the maximum value that can be stored as an integer in Lua.
+math.maxinteger
 ```
 
 ## Example 1
