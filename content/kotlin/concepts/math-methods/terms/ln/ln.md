@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.log()`** method in Kotlin's `math` class is used to calculate the natural logarithm of a number.
+The **`ln()`** method in Kotlin's `math` class is used to calculate the natural logarithm of a number.
 
 ## Syntax
 
@@ -20,9 +20,9 @@ The **`.log()`** method in Kotlin's `math` class is used to calculate the natura
 ln(n)
 ```
 
-- n: The number of type `double` for which the logarithm is to be calculated.
+- `n`: The number of type `double` for which the logarithm is to be calculated.
 
-The `.ln()` method returns a value of type `double`, the logarithm of `n` to _e_. The following are the special cases:
+The `ln()` method returns a value of type `double`, the logarithm of `n` to _e_. The following values represent special cases:
 
 - `ln(NaN)` is `NaN`
 - `ln(n)` is `NaN` if `n < 0.0`
@@ -31,7 +31,7 @@ The `.ln()` method returns a value of type `double`, the logarithm of `n` to _e_
 
 ## Example
 
-This example shows how to use the `.ln()` method to calculate the natural logarithm of `6`:
+This example shows how to use the `ln()` method to calculate the natural logarithm of `6`:
 
 ```kotlin
 import kotlin.math.*
