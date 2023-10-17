@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.log()`** method in Kotlin's `math` class is used to calculate the logarithm of a number with respect to a base value.
+The **`log()`** method in Kotlin's `math` class is used to calculate the logarithm of a number with respect to a base value.
 
 ## Syntax
 
@@ -20,10 +20,10 @@ The **`.log()`** method in Kotlin's `math` class is used to calculate the logari
 log(n, base)
 ```
 
-- n: The number of type `double` for which the logarithm is to be calculated.
-- base: The number of type `double` that specifies the logarithm base.
+- `n`: The number of type `double` for which the logarithm is to be calculated.
+- `base`: The number of type `double` that specifies the logarithm base.
 
-The `.log()` method returns a value of type `double`, the logarithm of `n` to `base`. The following are the special cases:
+The `.log()` method returns a value of type `double`, the logarithm of `n` to `base`. The following values reprent special cases:
 
 - `log(n, base)` is `NaN` if either `n` or `base` are `NaN`.
 - `log(n, base)` is `NaN` when `n < 0` or `base <= 0` or `base == 1.0`.
@@ -33,7 +33,7 @@ The `.log()` method returns a value of type `double`, the logarithm of `n` to `b
 
 ## Example
 
-This example shows how to use the `.log()` method to calculate the logarithm of `12` with base `2`:
+This example shows how to use the `log()` method to calculate the logarithm of `12` with base `2`:
 
 ```kotlin
 import kotlin.math.*
