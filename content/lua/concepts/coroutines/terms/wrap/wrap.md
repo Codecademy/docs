@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`wrap()`** function makes a coroutine and gives back a function. When you call that function, it resumes the coroutine.
+The **`wrap()`** function makes a coroutine and gives back a function. When that function is called, it resumes the coroutine.
 
 ## Syntax
 
