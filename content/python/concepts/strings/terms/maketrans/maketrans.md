@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-he **`maketrans()`** method is used for creating a translation table that can be used to perform character replacements or translations in strings. This method is particularly useful when there is a need to replace specific characters or substrings with other characters, or to remove certain characters from a string.
+The **`maketrans()`** method is used for creating a translation table that can be used to perform character replacements or translations in strings. This method is particularly useful when there is a need to replace specific characters or substrings with other characters, or to remove certain characters from a string.
 
 ## Syntax
 
@@ -57,5 +57,4 @@ print('Transition table: ', trans_table)
 newstr = str.translate(trans_table)
 print('Original: ', str)
 print('Translation: ', newstr)
-
 ```
