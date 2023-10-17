@@ -34,7 +34,7 @@ The **`src`** attribute is used to specify the location of a digital source, whi
 
 ## Example 1: Image
 
-The following code snippet below shows how the `img` element uses the `src` attribute to display an image called `logo.png`:
+The following code snippet below shows how the `<img>` element uses the `src` attribute to display an image called `logo.png`:
 
 ```html
 <img src="logo.png" alt="Codecademy logo" />
@@ -42,26 +42,23 @@ The following code snippet below shows how the `img` element uses the `src` attr
 
 This will display the following image:
 
-![HTML src attribute img](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-attribute-src-img.png)
+![HTML src attribute image](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-attribute-src-img.png)
 
 > **Note:** When using online images or images from the folders in an IDE workspace, always add `alt` text at the end of the `<img>` element just in case the browser has trouble finding them.
 
 ## Example 2: Video
 
-The example below shows how a [video](https://www.codecademy.com/resources/docs/html/videos) element uses the `src` attribute to display a video from YouTube:
+The example below shows how a [video](https://www.codecademy.com/resources/docs/html/videos) element uses the `src` attribute in an embedded `<source>` element to display a video called `codey.mp4`:
 
 ```html
-<video
-  source
-  controls
-  width="200"
-  src="https://youtu.be/0QHaxrUkSE"
-  type="youtube"
-></video>
+<video controls autoplay muted width="560" height="315">
+  <source src="codey.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 ```
 
-This would display the video as the following gif shows:
+The gif below shows how the video would be displayed:
 
-![HTML src attribute video](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-attribute-src-video.gif)
+![HTML src attribute gif](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-attribute-src-video.gif)
 
-> **Note:** different for different browsers.
+> **Note:** This example demonstrates how to display a video from a local source. To display a video from an external source, such as YouTube, use the [`<iframe>`](https://www.codecademy.com/resources/docs/html/elements/iframe) element to embed videos from these platforms.
