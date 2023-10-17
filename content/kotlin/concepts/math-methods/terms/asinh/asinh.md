@@ -22,7 +22,7 @@ The **`asinh()`** function returns the inverse hyperbolic sine of a number.
 asinh(x)
 ```
 
-The function accepts one mandatory parameter `x`. It can be any value i.e., `negative`, `positive`, or `zero`. The argument can be of `double`, `float` or `long` datatype.
+The function accepts one mandatory parameter `x`. It can be any value i.e., `negative`, `positive`, or `zero`. The argument can be of `Double`, `Float` or `Long` datatype.
 
 The function returns the inverse hyperbolic sine of the argument. The return value will be of the same type as the argument.
 
