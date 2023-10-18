@@ -1,43 +1,49 @@
 ---
-Title: '.max()'
-Description: 'Returns the larger of two numbers.'
+Title: 'max()'
+Description: 'Determines the greater value between two Number values.'
 Subjects:
+  - 'Code Foundation'
   - 'Computer Science'
 Tags:
-  - 'Math Functions'
+  - 'Math'
+  - 'Functions'
 CatalogContent:
   - 'learn-kotlin'
   - 'paths/computer-science'
 ---
 
-The **`max()`** function takes two numbers as arguments and returns the larger of the two numbers.
+The **`max()`** function in Kotlin's `math` class is used to determine the greater value between two numbers of the same `Number` type.
 
 ## Syntax
 
 ```pseudo
-max(a: Number, b: Number): Number
+max(a, b)
 ```
 
-To use this function, you must import the `kotlin.math.max` package.
+- `a`: The number of type `Number` to be compared
+- `b`: Another number, of the same type as `a`
+
+The `max()` function returns the greater value between `a` and `b`. If either value is `NaN`, the function returns `NaN`.
+
+> **Note**: To compare more than two numbers, use `maxOf()`.
+
 
 ## Example
 
-The following example demonstrates how the `.max()` method is used
+This example uses `max()` to determine the greater value of two numbers:
 
 ```kotlin
 import kotlin.math.max
 fun main() {
-    val firstNumber = 5
-    val secondNumber = 10
-    val largerNumber = max(firstNumber, secondNumber)
-    println("The higher number between $firstNumber and $secondNumber is: $largerNumber")
+    val maxValue = max(3.4, 3.5)
+    println(maxValue)
 }
 ```
 
-This will print the following output:
+The `max()` method compares `3.4` and `3.5` and returns the greater number. 
 
-```
-The higher number between 5 and 10 is: 10
-```
+The output of this code will be:
 
-> **Note**: To find the maximum value among multiple numbers, use the `.maxOf()` function.
+```shell
+3.5
+```
