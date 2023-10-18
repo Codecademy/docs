@@ -12,7 +12,7 @@ CatalogContent:
 
 A **variable** is a fundamental concept in computer programming. It represents a location in computer memory used to store data temporarily. Whenever there's a need to store a piece of data for use in a program, a variable is used. This practice ensures code reusability, as variables can replace the same value in multiple locations within the same code.
 
-## Data types in rust
+## Data types in Rust
 
 In the Rust programming language, variables are associated with specific data types. These data types determine:
 
@@ -29,6 +29,14 @@ let number: i32 = 42;
 ```
 
 The declaration above uses the name `number`, with an initial value of `42`, and a data type of `i32` (a 32-bit signed integer).
+
+## Declaring a Mutable Variable
+
+The `mut` keyword is short for `mutable` and is used in combination with `let` to create mutable variables. Mutable variables allow their values to be changed after the initial assignment.
+
+```pseudo
+let mut number: f64 = 3.14159;
+```
 
 ## Example
 
