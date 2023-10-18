@@ -1,5 +1,5 @@
 ---
-Title: 'Variable'
+Title: 'Variables'
 Description: 'A variable is a location in computer memory used to store data.'
 Subjects:
   - 'Computer Science'
@@ -28,7 +28,7 @@ In Rust, variable declaration follows a specific syntax pattern. Here's a basic 
 let number: i32 = 42;
 ```
 
-In the above example,a variable is declared named `number` with an initial value of `42` and it specifies its data type as `i32` (a 32-bit signed integer).
+The declaration above uses the name `number`, with an initial value of `42`, and a data type of `i32` (a 32-bit signed integer).
 
 ## Example
 
