@@ -27,9 +27,9 @@ The **`src`** attribute specifies the location of a digital source, which is typ
 | ---------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
 | [`<audio>`](https://www.codecademy.com/resources/docs/html/elements/audio)   | Embeds sound files on websites and applications.                                  |
 | [`<img>`](https://www.codecademy.com/resources/docs/html/images)             | Embeds online photos, logos, and other pictures into an HTML file.                |
-| [`<input>`](https://www.codecademy.com/resources/docs/html/elements/input)   | Creates interactive text boxes for online forms.                                   |
+| [`<input>`](https://www.codecademy.com/resources/docs/html/elements/input)   | Creates interactive text boxes for online forms.                                  |
 | [`<script>`](https://www.codecademy.com/resources/docs/html/elements/script) | Embeds JavaScript and other executive code or data into an HTML file.             |
-| [`<track>`](https://www.codecademy.com/resources/docs/html/elements/track)                                                                    | Specifies the subtitles and closed captions for `<audio>` and `<video>` elements. |
+| [`<track>`](https://www.codecademy.com/resources/docs/html/elements/track)   | Specifies the subtitles and closed captions for `<audio>` and `<video>` elements. |
 | [`<video>`](https://www.codecademy.com/resources/docs/html/elements/video)   | Embeds movie clips or other video sources into an HTML file.                      |
 
 ## Example 1: Image
@@ -52,7 +52,7 @@ The example below shows how a [video](https://www.codecademy.com/resources/docs/
 
 ```html
 <video controls autoplay muted width="560" height="315">
-  <source src="codey.mp4" type="video/mp4">
+  <source src="codey.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 ```
