@@ -32,7 +32,7 @@ The declaration above uses the name `number`, with an initial value of `42`, and
 
 ## Example
 
-This example demonstrates variable declaration and mutability in Rust. First, it declares an immutable variable `x` with an initial value of `5` and a mutable variable `y` with an initial value of `10`. Then it prints the values of `x` and `y` to the console. Then it updates the value of `y` and prints it to the console.
+This example demonstrates variable declaration and mutability in Rust. First, it declares an immutable variable `x` with an initial value of `5` and a mutable variable `y` with an initial value of `10`.
 
 ```rust
 fn main() {
@@ -58,9 +58,7 @@ println!("Updated value of 'y': {}", y);
 This example results in the following output:
 
 ```shell
-
 Value of 'x': 5
 Value of 'y': 10
 Updated value of 'y': 20
-
 ```
