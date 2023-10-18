@@ -39,6 +39,7 @@ Set the right border of the `h1` element to be green, 3 pixels thick, and dotted
 
 ```css
 h1 {
+  width: fit-content;
   border-right: green 3px dotted;
 }
 ```
@@ -49,6 +50,7 @@ Set the right border of the `h1` element to be 4 pixels thick, dashed, and blue:
 
 ```css
 h1 {
+  width: fit-content;
   border-right: 4px dashed #0000FF;
 }
 ```
@@ -60,6 +62,7 @@ not specified, it will default to `medium`.
 
 ```css
 h1 {
+  width: fit-content;
   border-right: rgb(0, 0, 0) solid;
 }
 ```
