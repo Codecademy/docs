@@ -1,52 +1,55 @@
 ---
-Title: '.round()'
-Description: 'Rounds a floating-point number to its nearest integer.'
+Title: 'round()'
+Description: 'Rounds a floating-point number to the nearest integer.'
 Subjects:
+  - Code Foundation'
   - 'Computer Science'
 Tags:
-  - 'Math Functions'
+  - 'Math'
+  - 'Functions'
 CatalogContent:
   - 'learn-kotlin'
   - 'paths/computer-science'
 ---
 
-The **`round()`** function takes a floating-point number as an argument and returns the nearest integer value. If the number is equidistant between two integers, it will round to the integer that is even.
+The `round()` function in Kotlin's math package rounds a floating-point number to its nearest integer. If the number is equidistant between two integers, it rounds to the integer that is even.
 
 ## Syntax
 
 ```pseudo
-round(a: Double): Long
+round(a)
 ```
 
-To use this function, you must import the `kotlin.math.round` package.
+- `a`: the number (either `Double` or `Float`) to be rounded
+
+The `round()` function returns the rounded number.
 
 ## Example
 
-The following example demonstrates how the `.round()` method is used:
+This example uses the `round()` function to determine the rounded value of each number in a list:
 
 ```kotlin
 import kotlin.math.round
+
 fun main() {
-    val numbers = listOf(5.4, 5.5, 5.6, 6.4, 6.5, 6.6)
-    for (number in numbers) {
-        val roundedNumber = round(number)
-        println("$number rounded is: $roundedNumber")
-    }
+  val numbers = listOf(5.4, 5.5, 5.6, 6.4, 6.5, 6.6)
+  for (number in numbers) {
+    val roundedNumber = round(number)
+    println("$number rounded is: $roundedNumber")
+  }
 }
 ```
 
-This will print the following output:
+The numbers `5.5` and `6.5` are equidistant between neighboring integers. Since 6 is even, the `round()` function returns `6.0` for both `5.5` and `6.5`.
+
+The output of this code will be:
 
 ```
-5.4 rounded is: 5
-5.5 rounded is: 6 // equidistant between 5 and 6
-5.6 rounded is: 6
+5.4 rounded is: 5.0
+5.5 rounded is: 6.0 // 5.5 is equidistant between 5 and 6
+5.6 rounded is: 6.0
 
-6.4 rounded is: 6
-6.5 rounded is: 6 // equidistant between 6 and 7
-6.6 rounded is: 7
+6.4 rounded is: 6.0
+6.5 rounded is: 6.0 // 6.5 is equidistant between 6 and 7
+6.6 rounded is: 7.0
 ```
-
-In this example, the number `5.5` is equidistant between 5 and 6. Since 6 is even, the `.round()` method returns 6. The same is true for `6.5`. Since 6 is even, the `.round()` method returns 6.
-
-> **Note**: The `round()` function returns a Long value. If you want to obtain a rounded Double value, you can use the `roundToLong()` function on a Double and then convert it back to Double, or use `roundToInt()` to obtain an Int value.
