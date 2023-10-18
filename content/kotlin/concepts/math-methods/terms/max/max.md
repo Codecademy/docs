@@ -40,7 +40,7 @@ fun main() {
 }
 ```
 
-The `max()` method compares `3.4` and `3.5` and returns the greater number. 
+The `max()` function compares `3.4` and `3.5` and returns the greater number. 
 
 The output of this code will be:
 
