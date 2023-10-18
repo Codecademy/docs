@@ -34,15 +34,15 @@ This example uses `max()` to determine the greater value of two numbers:
 ```kotlin
 import kotlin.math.max
 fun main() {
-  val maxValue = max(3.4, 3.5)
+  val maxValue = max(-6.4, -6.5)
   println(maxValue)
 }
 ```
 
-The `max()` function compares `3.4` and `3.5` and returns the greater number.
+The `max()` function compares `-6.4` and `-6.5` and returns the greater number.
 
 The output of this code will be:
 
 ```shell
-3.5
+-6.4
 ```
