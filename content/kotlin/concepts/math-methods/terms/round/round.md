@@ -40,7 +40,7 @@ fun main() {
 }
 ```
 
-The numbers `5.5` and `6.5` are equidistant between neighboring integers. Since 6 is even, the `round()` function returns `6.0` for both `5.5` and `6.5`.
+> **Note:** The numbers `5.5` and `6.5` are equidistant between neighboring integers. Since 6 is even, the `round()` function returns `6.0` for both `5.5` and `6.5`.
 
 The output of this code will be:
 
