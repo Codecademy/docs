@@ -18,4 +18,11 @@ The Java `Math` class provides several static methods that allows us to work on 
 Math.method();
 ```
 
+## Math Constants
+
+|  Name   |       value       |                                        Definition                                         |
+| :-----: | :---------------: | :---------------------------------------------------------------------------------------: |
+| Math.PI | 3.141592653589793 |                This constant represents the mathematical constant π (pi).                 |
+| Math.E  | 2.718281828459045 | This constant represents the base of the natural logarithm, also known as Euler's number. |
+
 Here are the `Math` methods in alphabetical order:
