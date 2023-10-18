@@ -27,7 +27,6 @@ The `max()` function returns the greater value between `a` and `b`. If either va
 
 > **Note**: To compare more than two numbers, use `maxOf()`.
 
-
 ## Example
 
 This example uses `max()` to determine the greater value of two numbers:
@@ -35,12 +34,12 @@ This example uses `max()` to determine the greater value of two numbers:
 ```kotlin
 import kotlin.math.max
 fun main() {
-    val maxValue = max(3.4, 3.5)
-    println(maxValue)
+  val maxValue = max(3.4, 3.5)
+  println(maxValue)
 }
 ```
 
-The `max()` function compares `3.4` and `3.5` and returns the greater number. 
+The `max()` function compares `3.4` and `3.5` and returns the greater number.
 
 The output of this code will be:
 
