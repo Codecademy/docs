@@ -59,6 +59,6 @@ The example below shows how a [video](https://www.codecademy.com/resources/docs/
 
 The gif below shows how the video would be displayed:
 
-![HTML src attribute gif](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-attribute-src-video.gif)
+![HTML src attribute gif](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-src-attribute-video.gif)
 
 > **Note:** This example demonstrates how to display a video from a local source. To display a video from an external source, such as YouTube, use the [`<iframe>`](https://www.codecademy.com/resources/docs/html/elements/iframe) element to embed videos from these platforms.
