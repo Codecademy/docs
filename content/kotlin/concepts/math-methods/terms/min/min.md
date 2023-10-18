@@ -1,43 +1,49 @@
 ---
-Title: '.max()'
-Description: 'Returns the smaller of two numbers.'
+Title: 'min()'
+Description: 'Determines the smaller of two Number values.'
 Subjects:
+  - 'Code Foundation'
   - 'Computer Science'
 Tags:
-  - 'Math Functions'
+  - 'Math'
+  - 'Functions'
 CatalogContent:
   - 'learn-kotlin'
   - 'paths/computer-science'
 ---
 
-The **`min()`** function takes two numbers as arguments and returns the smaller of the two numbers.
+The **`min()`** function in Kotlin's `math` class is used to determine the smaller value between two numbers of the same `Number` type.
 
 ## Syntax
 
 ```pseudo
-min(a: Number, b: Number): Number
+min(a, b)
 ```
 
-To use this function, you must import the `kotlin.math.min` package.
+- `a`: The number of type `Number` to be compared.
+- `b`: Another number, of the same type as `a`.
+
+The `min()` function returns the smaller value between `a` and `b`. If either value is `NaN`, the function returns `NaN`.
+
+> **Note**: To compare more than two numbers, use `minOf()`.
 
 ## Example
 
-The following example demonstrates how the `.min()` method is used
+This example demonstrates how to use the `min()` function to determine the smaller value of two numbers:
 
 ```kotlin
 import kotlin.math.min
+
 fun main() {
-    val firstNumber = 5
-    val secondNumber = 10
-    val smallerNumber = min(firstNumber, secondNumber)
-    println("The smaller number between $firstNumber and $secondNumber is: $smallerNumber")
+  val minValue = min(3.4, 3.5)
+  println(minValue)
 }
 ```
 
-This will print the following output:
+The `min()` function compares `3.4` and `3.5` and returns the smaller number.
+
+The output of this code will be:
 
 ```
-The smaller number between 5 and 10 is: 5
+3.4
 ```
-
-> **Note**: To find the minimum value among multiple numbers, use the `.minOf()` function.
