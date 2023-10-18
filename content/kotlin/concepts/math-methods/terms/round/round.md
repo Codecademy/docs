@@ -46,10 +46,9 @@ The output of this code will be:
 
 ```
 5.4 rounded is: 5.0
-5.5 rounded is: 6.0 // 5.5 is equidistant between 5 and 6
+5.5 rounded is: 6.0
 5.6 rounded is: 6.0
-
 6.4 rounded is: 6.0
-6.5 rounded is: 6.0 // 6.5 is equidistant between 6 and 7
+6.5 rounded is: 6.0
 6.6 rounded is: 7.0
 ```
