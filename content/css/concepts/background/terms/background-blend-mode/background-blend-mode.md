@@ -40,6 +40,7 @@ body {
   background-blend-mode: normal;
 }
 ```
+
 The following image demonstrates the code block above:
 
 ![background-blend-mode example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-blend-mode-example1.png)
@@ -55,6 +56,7 @@ body {
   background-blend-mode: lighten;
 }
 ```
+
 The following image demonstrates the code block above:
 
 ![background-blend-mode example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-blend-mode-example2.png)
@@ -70,8 +72,7 @@ body {
   background-blend-mode: darken;
 }
 ```
+
 The following image demonstrates the code block above:
 
 ![background-blend-mode example 3](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-blend-mode-example2.png)
-
-
