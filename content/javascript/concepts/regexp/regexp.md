@@ -72,7 +72,7 @@ In the following `re` is a `RegExp` object.
 
 ### `RegExp` Flags
 
-When specified, these flags change the default match behavor of the `RegExp` object.
+When specified, these flags change the default match behavior of the `RegExp` object.
 
 | Flag | Description                                                              |
 | ---- | ------------------------------------------------------------------------ |
