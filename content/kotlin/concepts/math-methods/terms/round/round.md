@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `round()` function in Kotlin's math package rounds a floating-point number to its nearest integer. If the number is equidistant between two integers, it rounds to the integer that is even.
+The **`round()`** function in Kotlin's `math` package rounds a given number to the nearest integer. If the number is equidistant between two integers, it rounds to the integer that is even.
 
 ## Syntax
 
