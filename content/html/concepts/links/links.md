@@ -85,3 +85,14 @@ The two primary attributes are:
   </body>
 </html>
 ```
+### Links attribute
+
+The `title` attribute can be optionally defined to provide extra, informative details about a linked website. This feature aids in enhancing or elaborating on the intended function of a link, which the recipient should be aware of before clicking on it.
+
+```html
+<!-- This link will help users to predict what will happen if they click on it. -->
+
+<a href="https://www.codecademy.com/resources/docs" title="Go to Codecademy Docs">Learn about code</a>
+```
+
+![Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/<links-title-attribute>.<gif>)
