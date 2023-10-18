@@ -1,6 +1,6 @@
 ---
 Title: 'round()'
-Description: 'Rounds a floating-point number to the nearest integer.'
+Description: 'Rounds a given number to the nearest integer.'
 Subjects:
   - 'Code Foundation'
   - 'Computer Science'
