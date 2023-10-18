@@ -44,6 +44,8 @@ h1 {
 }
 ```
 
+![Example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-border-right-example-1.PNG "Example 1")
+
 ## Example 2
 
 Set the right border of the `h1` element to be 4 pixels thick, dashed, and blue:
@@ -54,6 +56,8 @@ h1 {
   border-right: 4px dashed #0000FF;
 }
 ```
+
+![Example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-border-right-example-2.PNG "Example 2")
 
 ## Example 3
 
@@ -66,3 +70,5 @@ h1 {
   border-right: rgb(0, 0, 0) solid;
 }
 ```
+
+![Example 3](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-border-right-example-3.PNG "Example 3")
