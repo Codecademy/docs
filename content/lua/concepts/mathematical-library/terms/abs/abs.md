@@ -1,6 +1,6 @@
 ---
 Title: 'abs()'
-Description: 'Converts given number to absolute value'
+Description: 'Returns the absolute value of a given number.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
