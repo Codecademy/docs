@@ -1,6 +1,6 @@
 ---
-Title: '.atanh()'
-Desciption: 'Computes the inverse hyperbolic tangent of the value x'
+Title: 'atanh()'
+Desciption: 'Computes the inverse hyperbolic arc tangent of a value'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
@@ -18,8 +18,7 @@ The **`.atanh()`** method computes the hyperbolic tangent of the value `x`.<br>T
 ## Syntax:
 
 ```pseudo
-  import kotlin.math.*
-  Math.atanh(x)
+  atanh(x)
 ```
 
 ## Example:
