@@ -20,7 +20,7 @@ The **`abs()`** function in Lua's math library returns the absolute value of a g
 math.abs(number)
 ```
 
-- `number`: The number.
+- `number`: The number to be addressed.
 
 ## Example
 
