@@ -23,11 +23,11 @@ val squareRoot = Math.sqrt(number)
 
 - `number`: The number for which you want to calculate the square root. It should be a non-negative value (zero or a positive number).
 
-The Math.sqrt() method returns a value of type Double representing the square root of the input number. The result is a non-negative value or NaN if the input is negative.
+The `Math.sqrt()` method returns a value of type `Double` representing the square root of the input number. The result is a non-negative value or NaN if the input is negative.
 
 ## Example
 
-This example shows how to use the Math.sqrt() method to calculate the square root of a number:
+This example shows how to use the `Math.sqrt()` method to calculate the square root of a number:
 
 ```kotlin
 fun main() {
