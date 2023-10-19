@@ -44,7 +44,7 @@ fun main() {
 
 The output of this code will be:
 
-```
+```shell
 5.4 rounded is: 5.0
 5.5 rounded is: 6.0
 5.6 rounded is: 6.0
