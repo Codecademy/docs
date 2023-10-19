@@ -21,7 +21,7 @@ The **`hex()`** function converts an integer number to a hexadecimal string with
 hex(integer)
 ```
 
-The value `integer` is the value the `hex()` function will convert to a hexidecimal string.
+The value `integer` is the value the `hex()` function will convert to a hexadecimal string.
 
 ## Codebyte Example
 
