@@ -44,7 +44,7 @@ h1 {
 }
 ```
 
-![Example 1](https://raw.githubusercontent.com/Codecademy/docs/media/css-border-right-example-1.PNG "Example 1")
+![Example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-border-right-example-1.PNG "Example 1")
 
 ## Example 2
 
@@ -57,7 +57,7 @@ h1 {
 }
 ```
 
-![Example 2](https://raw.githubusercontent.com/Codecademy/docs/media/css-border-right-example-2.PNG "Example 2")
+![Example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-border-right-example-2.PNG "Example 2")
 
 ## Example 3
 
@@ -71,4 +71,4 @@ h1 {
 }
 ```
 
-![Example 3](https://raw.githubusercontent.com/Codecademy/docs/media/css-border-right-example-3.PNG "Example 3")
+![Example 3](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-border-right-example-3.PNG "Example 3")
