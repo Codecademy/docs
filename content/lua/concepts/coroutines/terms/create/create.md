@@ -5,7 +5,7 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Functions'
-  - 'Lua'
+  - 'Methods'
 CatalogContent:
   - 'learn-lua'
   - 'paths/computer-science'
@@ -37,7 +37,7 @@ print(coroutine.status(co_great))
 -- Run a new coroutine
 print(coroutine.resume(co_great, "Alice"))
 
--- Check again after it got run
+-- Check again after it was run
 print(coroutine.status(co_great))
 ```
 
