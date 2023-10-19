@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`abs()`** function in Lua's math library converts a number  to its absolute value.
+The **`abs()`** function in Lua's math library returns the absolute value of a given number.
 
 ## Syntax
 
