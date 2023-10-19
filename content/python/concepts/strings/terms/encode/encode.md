@@ -26,12 +26,12 @@ string.encode(encoding='encoding', errors='errors')
   - `strict`: A `UnicodeDecodeError` will be raised on failure. If no error handling is specified, this is the default.
   - `ignore`: Ignore characters that cannot be encoded.
   - `replace`: Replace the characters that cannot be encoded with a question mark. -`xmlcharrefreplace`: If there is a character that cannot be encoded, an XML character reference will be inserted in its place.
-  - `backslashreplace`: If there is a character that cannot be encoded, a \uNNNN will be inserted in its place.
-  - `namereplace`: If there is a character that cannot be encoded, a \N{...} will be inserted in its place.
+  - `backslashreplace`: If there is a character that cannot be encoded, the `\uNNNN` characters will be inserted in its place.
+  - `namereplace`: If there is a character that cannot be encoded, the `\N{...}` characters will be inserted in its place.
 
 ## Example
 
-In the following example, the `.encode()` method is called twice. The first call does not specify the optional parameters, so the string is encoded in UTF-8 and will throw a `UnicodeDecodeError` if there is failure. The second call specifies that the string will be encoded using `ASCII` and that errors will be handled using `xmlcharrefreplace`.
+In the following example, the `.encode()` method is called twice. The first call does not specify the optional parameters, so the string is encoded in UTF-8 and will throw a `UnicodeDecodeError` if there is failure. The second call specifies that the string will be encoded using `ascii` and that errors will be handled using `xmlcharrefreplace`.
 
 ```py
 example_a = 'Lèarning Pythön!'
@@ -63,5 +63,5 @@ default_example = example_a.encode()
 utf_16_example = example_b.encode(encoding='utf-16', errors='ignore')
 
 print("Default example:", default_example)
-print("ASCII example:", ascii_example)
+print("UTF-16 example:", utf_16_example)
 ```
