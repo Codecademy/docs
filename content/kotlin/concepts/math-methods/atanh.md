@@ -13,14 +13,21 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**`atanh()`** computes the hyperbolic tangent of the value `x`.<br>The returned value is `y` such that `tanh(y) == x`.
+The **`.atanh()`** method computes the hyperbolic tangent of the value `x`.<br>The returned value is `y` such that `.tanh(y) == x`.
 
 ## Syntax:
 
 ```pseudo
-  kotlin.math.atanh(x: Double): Double
+  import kotlin.math.*
+  Math.atanh(x)
 ```
 
 ## Example:
 ```kotlin
+  import kotlin.math.*
+  fun main() {
+    val x = 0.76159416
+    Math.atanh(x)
+//returns 1.00000001
+}
 ```
