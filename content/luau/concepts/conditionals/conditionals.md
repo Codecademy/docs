@@ -31,15 +31,15 @@ end
 ### Examples of basic `if` conditionals
 
 ```lua
-if true then			--code block ran
+if true then  --code block ran
   print("code block ran")
 end
 
-if false then			--no output
+if false then  --no output
   print("code block ran")
 end
 
-if "chicken" then		--code block ran
+if "chicken" then  --code block ran
   print("code block ran")
 end
 ```
@@ -65,7 +65,7 @@ In the code above, `condition 1` is checked first. `condition 2` is checked only
 The following examples illustrate conditionals that use `else` and `elseif`.
 
 ```lua
-if "tony" == "paulie" then		--madone!
+if "tony" == "paulie" then  --madone!
   print("ooh!")
 elseif "silvio" == "junior" then
   print("dooh!")
@@ -73,7 +73,7 @@ else
   print("madone!")
 end
 
-if 3 >= 4 then				--dooh!
+if 3 >= 4 then  --dooh!
   print("ooh!")
 elseif 23 then
   print("dooh!")
@@ -81,7 +81,7 @@ else
   print("madone!")
 end
 
-if "AJ" == "AJ" and 3 < 10 then		--ooh!
+if "AJ" == "AJ" and 3 < 10 then  --ooh!
   print("ooh!")
 else
   print("dooh!")
