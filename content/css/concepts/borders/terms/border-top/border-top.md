@@ -50,7 +50,7 @@ Set the top border of the `h1` element to be 4 pixels thick, dashed, and blue:
 
 ```css
 h1 {
-  border-top: 4px dashed blue;
+  border-top: 4px solid blue;
 }
 ```
 This will display:
