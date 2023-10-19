@@ -1,6 +1,6 @@
 ---
 Title: 'Expm1()'
-Description: 'Returns the value of e raised to the power of the parameter x minus 1.'
+Description: 'Returns the value of e raised to the power of the given parameter minus 1.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Expm1()`** function calculates `e` (the base of the natural logarithm) raised to the given argument minus one. The formula is written as follows:
+The **`Expm1()`** function calculates _e_ (the base of the natural logarithm) raised to the given argument minus one. The formula is written as follows:
 
 ```tex
 Expm1(x) = e^{x} - 1
