@@ -26,6 +26,16 @@ FROM table_name
 ORDER BY column_name ASC | DESC;
 ```
 
+It's also possible to `ORDER BY` multiple columns by separating them with a comma.
+
+```
+SELECT column_name_1
+FROM table_name
+ORDER BY column_name_1 ASC | DESC, column_name_2 ASC | DESC;
+```
+
+This assumes `column_name_1` and `column_name_2` exist in `table_name`.
+
 `ORDER BY` can be set in two ways:
 
 - `ASC` is a keyword used to sort the results in ascending order (default).
