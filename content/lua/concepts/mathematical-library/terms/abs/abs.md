@@ -24,7 +24,7 @@ math.abs(number)
 
 ## Example
 
-In this example, `math.abs()` converts -5 to 5.
+This example demonstrates a basic implementation of `math.abs()`.
 
 ```lua
 local x = -5
