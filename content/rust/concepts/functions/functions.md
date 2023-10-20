@@ -25,7 +25,7 @@ Functions in Rust are declared using the `fn` keyword. Every Rust program has at
 
 ## Naming Functions
 
-Rust uses the _snake_case_ convention for function and variable names, in which all letters are lowercase and underscores separate words. Here’s a program that contains an example function definition:
+Rust uses the **snake_case** convention for function and variable names, in which all letters are lowercase and underscores separate words. Here’s a program that contains an example function definition:
 
 ```rust
  fn main(){
