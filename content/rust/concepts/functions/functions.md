@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Functions are blocks of reusable code that can be used to repeat processes throughout a script or program.
+**Functions** are blocks of reusable code that can be used to repeat processes throughout a script or program.
 
 ## Syntax
 
