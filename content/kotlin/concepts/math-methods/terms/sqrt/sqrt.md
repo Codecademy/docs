@@ -27,7 +27,7 @@ The method returns a number, of the same type given, representing the square roo
 
 ## Example
 
-This example shows how to use the `Math.sqrt()` method to calculate the square root of a number:
+This example shows how to use the `sqrt()` method to calculate the square root of a number:
 
 ```kotlin
 fun main() {
