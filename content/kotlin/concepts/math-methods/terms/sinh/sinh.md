@@ -1,5 +1,5 @@
 ---
-Title: 'Math.sinh()'
+Title: 'sinh()'
 Description: 'Calculates the hyperbolic sine of a given number.'
 Subjects:
   - 'Mathematics'
