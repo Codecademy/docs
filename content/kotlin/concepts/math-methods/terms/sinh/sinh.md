@@ -2,8 +2,7 @@
 Title: 'sinh()'
 Description: 'Calculates the hyperbolic sine of a given number.'
 Subjects:
-  - 'Mathematics'
-  - 'Programming'
+  - 'Code Foundations'
   - 'Computer Science'
 Tags:
   - 'Math'
