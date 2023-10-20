@@ -85,7 +85,7 @@ param_num value is:0
 The value of number is:5
 ```
 
-Note that, `mut` keyword is used to bind value to a variable name which specified the value can be modified inside the function.
+> **Note:** The `mut` keyword is used to bind value to a variable name which specifies the value can be modified inside the function.
 
 ### Pass by Reference
 
