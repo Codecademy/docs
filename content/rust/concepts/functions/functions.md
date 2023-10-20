@@ -15,7 +15,7 @@ CatalogContent:
 
 ## Syntax
 
-Functions in Rust are declared using the `fn` keyword. Every Rust program has at least one function: the _main_ function, which is the entry point of many programs.
+Functions in Rust are declared using the `fn` keyword. Every Rust program has at least one function: the `main` function, which is the entry point of many programs.
 
 ```rust
  fn main(){
