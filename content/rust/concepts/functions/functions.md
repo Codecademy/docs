@@ -81,7 +81,7 @@ fn make_zero(mut param_num: i32) {
 The output will be:
 
 ```pseudo
-param_num value is :0
+param_num value is:0
 The value of number is:5
 ```
 
