@@ -33,7 +33,7 @@ import kotlin.math.sinh
 fun main() {
     val number = 2.0
 
-    val hyperbolicSine = Math.sinh(number)
+    val hyperbolicSine = sinh(number)
     println("The hyperbolic sine of $number is $hyperbolicSine.")
 }
 ```
