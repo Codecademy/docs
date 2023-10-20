@@ -113,7 +113,7 @@ param_num value is:0
 The value of number is:0
 ```
 
-Note that the `*` operator is used to access value stored in the memory location that variable `param_num` points to. This is also known as _dereferencing_.
+> **Note:** The `*` operator is used to access value stored in the memory location that variable `param_num` points to. This is also known as **dereferencing**.
 
 ## Functions with Return Values
 
