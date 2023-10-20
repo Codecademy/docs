@@ -102,7 +102,7 @@ fn main(){
 
 fn make_zero(mut param_num:&mut i32) {
    *param_num = 0;
-   println!("param_num value is :{}",param_num);
+   println!("param_num value is:{}",param_num);
 }
 ```
 
