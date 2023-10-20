@@ -30,6 +30,7 @@ The method returns a number, of the same type given, representing the square roo
 This example shows how to use the `sqrt()` method to calculate the square root of a number:
 
 ```kotlin
+import kotlin.math.sqrt
 fun main() {
     val number = 25.0
 
