@@ -41,7 +41,7 @@ Rust uses the **snake_case** convention for function and variable names, in whic
 
 Note that, `another_function` can be declared before or after the function `main`. Rust doesn't care about where it is defined, it just needs to be somewhere in the scope.
 
-## Functions as Parameters
+## Function Parameters
 
 Functions can have parameters, which are special variables that are part of a function’s signature. When a function has parameters, it can be called with concrete values for those parameters.
 
