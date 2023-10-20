@@ -87,7 +87,7 @@ The value of number is:5
 
 Note that, `mut` keyword is used to bind value to a variable name which specified the value can be modified inside the function.
 
-### Pass by reference
+### Pass by Reference
 
 When parameters are passed by reference, unlike value parameters, a new storage location is not created for these parameters. The reference parameters represent same memory location as the actual parameters. Parameter values can be passed by reference by prefixing the variable name with an `&`.
 
