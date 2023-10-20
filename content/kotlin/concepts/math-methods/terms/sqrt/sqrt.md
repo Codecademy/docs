@@ -17,7 +17,8 @@ The **`math.sqrt()`** method in Kotlin's `math` class is used to calculate the s
 ## Syntax
 
 ```pseudo
-val squareRoot = Math.sqrt(number)
+import kotlin.math.sqrt
+val squareRoot = sqrt(number)
 ```
 
 - `number`: The number for which you want to calculate the square root. It should be a non-negative value (zero or a positive number).
