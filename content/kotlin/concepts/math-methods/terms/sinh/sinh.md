@@ -17,7 +17,8 @@ The **`math.sinh()`** method in Kotlin's `math` class is used to calculate the h
 ## Syntax
 
 ```pseudo
-val hyperbolicSine = Math.sinh(number)
+import kotlin.math.sinh
+val hyperbolicSine = sinh(number)
 ```
 
 - `number`: The number for which you want to calculate the hyperbolic sine.
