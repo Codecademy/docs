@@ -51,13 +51,6 @@ The `border-width` property may be specified using one, two, three, or four valu
 - When three values are specified, the first width applies to the top, the second to the left and right, the third to the bottom.
 - When four values are specified, the widths apply to the top, right, bottom, and left in that order (clockwise).
 
-### values
-`<line-width>`
-
-Defines the width of the border, either as an explicit nonnegative `<length>` or a keyword. If it's a keyword, it must be one of the following values:
-- `thin`
-- `medium`
-- `thick`
 
 ## Example 1
 
