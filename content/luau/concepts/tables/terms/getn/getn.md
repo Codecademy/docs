@@ -53,9 +53,9 @@ print(count)
 ## Example 3
 
 ```lua
-local  table = {1, 2, 3, 4, 5} 
+local  table = {1, 2, 3, 4, 5}
 local count = table.getn(table)
-for i = 1, count do 
+for i = 1, count do
 print(table[i])
 end
 ```
@@ -86,4 +86,3 @@ This code will print the following output:
 ```shell
 The table is empty.
 ```
-
