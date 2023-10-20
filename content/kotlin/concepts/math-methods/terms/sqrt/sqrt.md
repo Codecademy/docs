@@ -34,7 +34,7 @@ import kotlin.math.sqrt
 fun main() {
     val number = 25.0
 
-    val squareRoot = Math.sqrt(number)
+    val squareRoot = sqrt(number)
     println("The square root of $number is $squareRoot.")
 }
 ```
