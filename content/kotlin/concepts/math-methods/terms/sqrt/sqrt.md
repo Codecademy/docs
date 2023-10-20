@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.sqrt()`** method in Kotlin's `Math` class is used to calculate the square root of a given number.
+The **`math.sqrt()`** method in Kotlin's `math` class is used to calculate the square root of a given number.
 
 ## Syntax
 
