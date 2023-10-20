@@ -21,9 +21,10 @@ The **`Atanh()`** function takes a float64 argument representing the angle whose
 result := math.Atanh(x)
 ```
 
-Where `x` represents the angle whose inverse hyperbolic tangent value is to be returned.
+Where `x` represents the angle whose inverse hyperbolic tangent value is to be returned, and `result` is the inverse hyperbolic tangent of `x`. Some special exceptions include:
 
-And where the result is the inverse hyperbolic tangent of `x`.
+* `atanh(-1)` equals `-Inf`
+* `atanh(1)` equals `+Inf`
 
 # Example
 
