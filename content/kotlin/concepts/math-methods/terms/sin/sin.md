@@ -1,5 +1,5 @@
 ---
-Title: 'Math.sin()'
+Title: 'sin()'
 Description: 'Calculates the sine of an angle in radians.'
 Subjects:
   - 'Mathematics'
