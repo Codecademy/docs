@@ -1,5 +1,5 @@
 ---
-Title: 'Math.sqrt()'
+Title: 'sqrt()'
 Description: 'Calculates the square root of a given number.'
 Subjects:
   - 'Mathematics'
