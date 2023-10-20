@@ -39,6 +39,10 @@ h1 {
   border-bottom: green 3px dotted;
 }
 ```
+The following image demonstrates the code block above:
+
+![border-bottom example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/border-bottom-example1.png)
+
 
 ## Example 2
 
@@ -49,3 +53,7 @@ h1 {
   border-bottom: 4px dashed blue;
 }
 ```
+
+The following image demonstrates the code block above:
+
+![border-bottom example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/border-bottom-example2.png)
