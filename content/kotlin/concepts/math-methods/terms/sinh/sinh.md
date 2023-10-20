@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.sinh()`** method in Kotlin's `Math` class is used to calculate the hyperbolic sine of a given number.
+The **`math.sinh()`** method in Kotlin's `math` class is used to calculate the hyperbolic sine of a given number.
 
 ## Syntax
 
