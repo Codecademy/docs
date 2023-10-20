@@ -26,7 +26,7 @@ val hyperbolicSine = sinh(number)
 
 ## Example
 
-This example shows how to use the `Math.sinh()` method to calculate the hyperbolic sine of a number:
+This example shows how to use the `sinh()` method to calculate the hyperbolic sine of a number:
 
 ```kotlin
 fun main() {
