@@ -278,7 +278,7 @@ We initialize two integer variables, `num1` and `num2`, with values 10 and 5, re
 
 We then apply these lambda expressions to the numbers, which means we're using them to perform the respective operations on `num1` and `num2`. For example, `add.apply(num1, num2)` calculates the addition of `num1` and `num2`.
 
-Finally, we print the results of each operation to the console, such as "Addition: 15", "Subtraction: 5", "Multiplication: 50", and "Division: 2". This program demonstrates how lambda expressions can simplify and make code more expressive for performing basic mathematical operations.
+Finally, we print the results of each operation to the console, such as "Addition: 15", "Subtraction: 5" , "Multiplication: 50", and "Division: 2". This program demonstrates how lambda expressions can simplify and make code more expressive for performing basic mathematical operations.
 
 
 
