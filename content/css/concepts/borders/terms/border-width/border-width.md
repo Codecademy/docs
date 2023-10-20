@@ -80,7 +80,7 @@ h1 {
 ```
 The following image demonstrates the code block above:
 
-![CSS border-top Example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-borders-border-width-example1.png)
+![CSS border-top Example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-borders-border-width-example2.png)
 
 ## Example 3
 
@@ -95,7 +95,7 @@ h1 {
 ```
 The following image demonstrates the code block above:
 
-![CSS border-top Example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-borders-border-width-example1.png)
+![CSS border-top Example 3](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-borders-border-width-example3.png)
 
 ## Example 4
 
@@ -110,4 +110,4 @@ h1 {
 ```
 The following image demonstrates the code block above:
 
-![CSS border-top Example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-borders-border-width-example1.png)
+![CSS border-top Example 4](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-borders-border-width-example4.png)
