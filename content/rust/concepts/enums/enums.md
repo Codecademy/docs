@@ -43,6 +43,34 @@ text
 
 ## Example
 
-```rust
+The following example...
 
+```rust
+fn main() {
+
+  // define enum
+  enum Avengers {
+    IronMan,
+    Thor,
+    Hulk,
+  }
+
+  //access enum variants
+  let iron_man = Avengers::IronMan;
+  let thor = Avengers::Thor;
+  let hulk = Avengers::Hulk;
+
+  // print enum values
+  println!("{:?}", iron_man);
+  println!("{:?}", thor);
+  println!("{:?}", hulk);
+}
+```
+
+Output
+
+```shell
+IronMan
+Thor
+Hulk
 ```
