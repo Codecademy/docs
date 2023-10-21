@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Developers can prevent direct modification of a **member variable** by creating a **private variable** and a **mutator** method (also known as a **setter**). This method determines the behavior when assigning a value to those variables.
+A **mutator** method (also known as a _setter_) can be used to prevent direct modification of a _member variable_ by creating a _private variable_ . This method determines the behavior when assigning a value to those variables.
 
 In Javascript, private member variables are prefixed using the `#` symbol, while mutators are created with the `set` keyword.
 
@@ -32,7 +32,7 @@ const someAnimal = new Animal();
 
 The value of the private variable can now be updated by assigning a new value.
 
-> **Note:** The value of the private variable can not be retrieved without an [accessor](https://www.codecademy.com/resources/docs/javascript/accessors) (also known as a *getter*).
+> **Note:** The value of the private variable can not be retrieved without an [accessor](https://www.codecademy.com/resources/docs/javascript/accessors) (also known as a _getter_).
 
 ```js
 class Animal {
