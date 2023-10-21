@@ -1,6 +1,6 @@
 ---
 Title: 'Mutators'
-Description: 'Mutators change the value of private variables using the `set` keyword.'
+Description: 'Mutators change the value of private variables.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
