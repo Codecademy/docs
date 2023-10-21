@@ -32,7 +32,7 @@ const someAnimal = new Animal();
 
 The value of the private variable can now be updated by assigning a new value.
 
-> **Note:** the value of the private variable can not be retrieved without an [accessor](https://www.codecademy.com/resources/docs/javascript/accessors) (also known as a **getter**).
+> **Note:** The value of the private variable can not be retrieved without an [accessor](https://www.codecademy.com/resources/docs/javascript/accessors) (also known as a *getter*).
 
 ```js
 class Animal {
