@@ -1,6 +1,6 @@
 ---
 Title: '.index()'
-Description: 'Finds the first occurence of a particular value within the list.'
+Description: 'Finds the first occurrence of a particular value within the list.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Finds the first occurence of a particular value within the list.
+Finds the first occurrence of a particular value within the list.
 
 ## Syntax
 
