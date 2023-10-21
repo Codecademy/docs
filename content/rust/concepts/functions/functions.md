@@ -149,6 +149,6 @@ fn add_one(x: i32) -> i32 {
 }
 ```
 
-The output the above code will print `The value of x is: 6`. However, if a _semicolon_ at is placed at the end of the line containing `x + 1`, it will switch from an _expression_ to a _statement_, and will result in an error!
+The output the above code will print `The value of x is: 6`. However, if a semicolon is placed at the end of the line containing `x + 1`, it will switch from an expression to a statement, and will result in an error!
 
 > **Note:** Expressions do not include ending semicolons. Adding a semicolon to the end of an expression turns it into a statement, and it will not return a value.
