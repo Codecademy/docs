@@ -22,7 +22,7 @@ exp(number)
 
 - `number`: The number for which you want to calculate the Euler's number e raised to the power. It should be of type `Double` or `Float`.
 
-The method returns a number, of the same type given. 
+The method returns a number, of the same type given.
 
 ## Example
 
