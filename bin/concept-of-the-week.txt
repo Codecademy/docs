@@ -1,1 +1,1 @@
-content/markdown/concepts/emojis/emojis.md
+content/ruby/concepts/lambda/lambda.md
