@@ -15,7 +15,7 @@ CatalogContent:
 
 The **`Atanh()`** function takes a float64 argument representing the angle whose inverse hyperbolic tangent value is to be returned. It returns this inverse hyperbolic tangent as a float64 value that can range from negative infinity to positive infinity.
 
-# Syntax
+## Syntax
 
 ```pseudo
 result := math.Atanh(x)
@@ -23,10 +23,10 @@ result := math.Atanh(x)
 
 Where `x` represents the angle whose inverse hyperbolic tangent value is to be returned, and `result` is the inverse hyperbolic tangent of `x`. Some special exceptions include:
 
-* `atanh(-1)` equals `-Inf`
-* `atanh(1)` equals `+Inf`
+- `Atanh(-1)` equals `-Inf`
+- `Atanh(1)` equals `+Inf`
 
-# Example
+## Example
 
 The following code calculates the arctangent and prints out the result:
 
@@ -39,11 +39,11 @@ import (
   )
 
 func main() {
-	
-	fmt.Println(math.Atanh(0.5))
-    fmt.Println(math.Atanh(math.NaN()))
 
-} 
+  fmt.Println(math.Atanh(0.5))
+  fmt.Println(math.Atanh(math.NaN()))
+
+}
 ```
 
 The output will be:
