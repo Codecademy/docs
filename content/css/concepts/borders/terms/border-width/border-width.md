@@ -51,7 +51,6 @@ The `border-width` property may be specified using one, two, three, or four valu
 - When three values are specified, the first width applies to the top, the second to the left and right, the third to the bottom.
 - When four values are specified, the widths apply to the top, right, bottom, and left in that order (clockwise).
 
-
 ## Example 1
 
 Set all borders of the `h1` element to `medium` width:
@@ -63,6 +62,7 @@ h1 {
   border-width: medium;
 }
 ```
+
 The following image demonstrates the code block above:
 
 ![CSS border-top Example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-borders-border-width-example1.png)
@@ -78,6 +78,7 @@ h1 {
   border-width: 4px 2px;
 }
 ```
+
 The following image demonstrates the code block above:
 
 ![CSS border-top Example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-borders-border-width-example2.png)
@@ -93,6 +94,7 @@ h1 {
   border-width: 10px medium thick;
 }
 ```
+
 The following image demonstrates the code block above:
 
 ![CSS border-top Example 3](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-borders-border-width-example3.png)
@@ -108,6 +110,7 @@ h1 {
   border-width: 10px thin 20px thick;
 }
 ```
+
 The following image demonstrates the code block above:
 
 ![CSS border-top Example 4](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-borders-border-width-example4.png)
