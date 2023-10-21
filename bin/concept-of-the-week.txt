@@ -1,1 +1,1 @@
-content/css/concepts/typography/typography.md
+content/ruby/concepts/lambda/lambda.md
