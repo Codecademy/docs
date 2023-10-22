@@ -66,7 +66,7 @@ The relatively high performance of neural networks in human-like tasks such as s
 
 Based on the evaluation results, the model's user might fine-tune the model's hyperparameters or adjust the model architecture to improve its performance. There are several methods to fine-tune models.
   - Hyperparameter Tuning: Hyperparameters are configuration settings for a machine learning model that are not learned during training but are set before training begins. These settings can significantly impact a model's performance.
-  - Model Architecture Adjustments: There are several methods to accurately adjust the Architecture of ML algorithms. There are techniques such as Feature Engineering, Model Selection, and Ensemble Methods .
+  - Model Architecture Adjustments: There are several methods to accurately adjust the architecture of ML algorithms. There are techniques such as Feature Engineering, Model Selection, and Ensemble Methods .
 
 ## Evaluation
 
