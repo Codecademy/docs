@@ -15,7 +15,7 @@ CatalogContent:
 
 The **`truncate()`** method rounds a `Double` or `Float` argument to the next whole value towards zero. If the value is positive, it will be rounded *down* towards zero. If the value is negative, it will be rounded *up* towards zero.
 
-> **Note:** `truncate()` does not return an integer value, rather it returns a double or float that equals an integer value.
+> **Note:** `truncate()` does not return an integer value, rather it returns a `Double` or `Float` that equals an integer value.
 
 ## Syntax
 
