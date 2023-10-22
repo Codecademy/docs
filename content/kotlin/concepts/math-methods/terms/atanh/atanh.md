@@ -1,6 +1,6 @@
 ---
 Title: 'atanh()'
-Description: 'Calculates the inverse hyperbolic tangent of a value'
+Description: 'Calculates the inverse hyperbolic tangent of a value.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -17,19 +17,25 @@ CatalogContent:
 
 The **`atanh()`** method in Kotlin's `math` class returns the inverse hyperbolic tangent of any number between `-1.0` and `1.0` in radians.
 
-## Syntax:
+## Syntax
 
 ```pseudo
 import kotlin.math.*
-val y = Math.atanh(x)
+val y = math.atanh(x)
 ```
 
-- `x`: A number between `-1.0` and `1.0`, of datatype `Double` or `Float`.
+- `x`: A number between `-1.0` and `1.0`, of type `Double` or `Float`.
 
-## Example:
+### Special Cases
 
-The `math.atanh(x)` method returns the value `y` such that `tanh(y) == x`
+  - tanh(NaN) = NaN
+  - tanh(x) = NaN if x > 1 || x < -1
+  - tanh(1.0) = +Inf
+  - tanh(-1.0) = -Inf
 
+## Example
+
+The following code is a basic implementation of `math.atanh(x)`.
 ```kotlin
 import kotlin.math.*
 fun main() {
@@ -37,7 +43,7 @@ fun main() {
   val y = atanh(x)
 
   // Print results
-  println('$y')
+  println('y')
 }
 ```
 
@@ -49,10 +55,5 @@ It will output:
 
 The returned value is `y` such that `tanh(y) == x`.
 
-### Special Cases:
-```psuedo
-  tanh(NaN) = NaN
-  tanh(x) = NaN if x > 1 || x < -1
-  tanh(1.0) = +Inf
-  tanh(-1.0) = -Inf
-```
+
+
