@@ -3,16 +3,17 @@ Title: 'exp()'
 Description: 'Returns e raised to the power of a given number.'
 Subjects:
   - 'Code Foundations'
-  - 'Computer Science' 
+  - 'Computer Science'
 Tags:
   - 'Math'
-  - 'Functions' 
+  - 'Functions'
 CatalogContent:
   - 'learn-kotlin'
   - 'paths/computer-science'
 ---
 
-The **`exp()`** method in Kotlin's `math` class is used to calculate Euler's number *e* raised to the power of a given number.
+The **`exp()`** method in Kotlin's `math` class is used to calculate Euler's number _e_ raised to the power of a given number.
+
 ## Syntax
 
 ```pseudo
