@@ -62,7 +62,6 @@ Deep Learning is the subset of machine learning that focuses on artificial neura
 
 The relatively high performance of neural networks in human-like tasks such as speech and object recognition distinguish deep learning from other machine learning algorithms.
 
-
 ## Fine-Tuning
 
 Based on the evaluation results, you might fine-tune the model's hyperparameters or adjust the model architecture to improve its performance.There are several methods to fine-tune models.
