@@ -26,4 +26,5 @@ Cybersecurity work involves the following programming languages:
 - [C](https://www.codecademy.com/resources/docs/c) and [C++] are low-level and can directly access RAM and system processes.
 - [SQL](https://www.codecademy.com/resources/docs/sql) and its features in database security.
 - [PHP](https://www.codecademy.com/resources/docs/php) protects against DDoS (distributed denial of service) attacks.
-- [Shell Scripting (Bash, PowerShell)](https://www.codecademy.com/catalog/language/bash) automating tasks, managing configurations, and analyzing system data in their respective operating systems
+- [Bash](https://www.codecademy.com/resources/docs/command-line/bash) automating tasks, managing configurations, and analyzing system data in their respective operating systems
+- [PowerShell](https://www.codecademy.com/resources/docs/powershell) automating tasks and analyzing system data
