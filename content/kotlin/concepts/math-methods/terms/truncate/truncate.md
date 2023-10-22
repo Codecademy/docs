@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`truncate()`** method takes a double or float argument and rounds the value to equal the closest integer towards zero. If the value is positive, it will be rounded *down* towards zero. If the value is negative, it will be rounded *up* towards zero.
+The **`truncate()`** method rounds a `Double` or `Float` argument to the next whole value towards zero. If the value is positive, it will be rounded *down* towards zero. If the value is negative, it will be rounded *up* towards zero.
 
 > **Note:** `truncate()` does not return an integer value, rather it returns a double or float that equals an integer value.
 
