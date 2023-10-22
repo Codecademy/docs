@@ -26,7 +26,7 @@ import kotlin.math.*
 val twoNumericValues = max(x, y)
 ```
 
-- Where x and y represents two numeric values of the same type.
+- Where `x` and `y` represent two numeric values of the same type.
 
 ## Example 1
 
