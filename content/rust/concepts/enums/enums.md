@@ -61,11 +61,11 @@ fn main() {
 
 ## Example
 
-The following example first creates an enum called `Avengers` containing variants with no associated data. Then it creates variables for each variant in the `Avengers` enum. Finally, the `println!()` function prints each variable to the console:
+The following example first creates an enum called `Avengers` containing variants with no associated data. Then, it creates variables for each variant in the `Avengers` enum. Finally, the `println!()` function prints each variable to the console:
 
 ```rust
 fn main() {
-// Define an enum
+// Define Avengers enum
 enum Avengers {
   IronMan,
   Thor,
