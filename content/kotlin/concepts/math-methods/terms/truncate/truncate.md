@@ -23,7 +23,7 @@ The **`truncate()`** method rounds a `Double` or `Float` argument to the next wh
 truncate(arg)
 ```
 
-Where `arg` is a double or float number to be rounded.
+Where `arg` is a `Double` or `Float` number to be rounded.
 
 ## Example
 
