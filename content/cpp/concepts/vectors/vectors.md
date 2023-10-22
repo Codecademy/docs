@@ -89,7 +89,6 @@ Initially, the capacity is likely to be small, but as elements are added using `
     std::cout << "Capacity after adding elements: " << myVector.capacity() << std::endl;
 ```
 
-
 ### `.at()`
 
 The `.at()` function provides a safer way of accessing elements in a vector. It performs bounds checking on the vector and will throw an [error](https://www.codecademy.com/resources/docs/cpp/errors) if there is an attempt to access an element that is out of bounds:
