@@ -15,7 +15,7 @@ CatalogContent:
 
 **Enums**, short for enumerations, are a custom data type that enables the selection of a value from a predefined list of related options. Enums are useful for modelling concepts categorized into distinct cases or states. They can help to enhance code readability and handle different scenarios in a structured way.
 
-> Note: Enums differ from structs because they don't store data associated with each variant. They are a way to define a type with distinct values, whereas structs are used to create custom data structures that can store various fields.
+> **Note:** Enums differ from structs because they don't store data associated with each variant. They are a way to define a type with distinct values, whereas structs are used to create custom data structures that can store various fields.
 
 ## Syntax
 
