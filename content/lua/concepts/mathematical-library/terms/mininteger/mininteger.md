@@ -39,7 +39,9 @@ This results in something like the following output:
 ```shell
 -9223372036854775808
 ```
+
 It can be used when assigning a variable to a very small value:
+
 ```lua
 local max = math.mininteger
 
