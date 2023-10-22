@@ -68,7 +68,6 @@ Based on the evaluation results, the model's user might fine-tune the model's hy
   - Hyperparameter Tuning: Hyperparameters are configuration settings for a machine learning model that are not learned during training but are set before training begins. These settings can significantly impact a model's performance.
   - Model Architecture Adjustments: There are several methods to accurately adjust the Architecture of ML algorithms. There are techniques such as Feature Engineering, Model Selection, and Ensemble Methods .
 
-
 ## Evaluation
 
 There are several methods to accurately evaluate the performance of ML algorithms. Methods vary based on which algorithm is being evaluated, and for which purpose. For classifiers such as Logistic Regression, confusion matrices inform analysts of the number of true and false positives as well as negatives to calculate values such as recall, precision, and F1 scores.
