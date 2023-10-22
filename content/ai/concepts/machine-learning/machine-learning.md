@@ -62,6 +62,14 @@ Deep Learning is the subset of machine learning that focuses on artificial neura
 
 The relatively high performance of neural networks in human-like tasks such as speech and object recognition distinguish deep learning from other machine learning algorithms.
 
+
+## Fine-Tuning
+
+Based on the evaluation results, you might fine-tune the model's hyperparameters or adjust the model architecture to improve its performance.There are several methods to fine-tune models.
+  - Hyperparameter Tuning:Hyperparameters are configuration settings for a machine learning model that are not learned during training but are set before training begins. These settings can significantly impact a model's performance.
+  - Model Architecture Adjustments:There are several methods to accurately adjust the Architecture of ML algorithms.There are some technique such as Feature Engineering,Model Selection,Ensemble Methods .
+
+
 ## Evaluation
 
 There are several methods to accurately evaluate the performance of ML algorithms. Methods vary based on which algorithm is being evaluated, and for which purpose. For classifiers such as Logistic Regression, confusion matrices inform analysts of the number of true and false positives as well as negatives to calculate values such as recall, precision, and F1 scores.
