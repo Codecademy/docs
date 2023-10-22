@@ -1,6 +1,6 @@
 ---
 Title: 'truncate()'
-Description: 'Rounds a double or float argument towards zero.'
+Description: 'Rounds a number to the next whole value towards zero.'
 Subjects:
   - 'Computer Science'
 Tags:
