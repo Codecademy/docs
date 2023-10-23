@@ -21,7 +21,7 @@ import kotlin.math.sqrt
 val squareRoot = sqrt(number)
 ```
 
-- `number`: The number for which you want to calculate the square root. It should be a non-negative value (zero or a positive number) of type `Double` or `Float`.
+- `number`: The number for which the square root is to be calculated. It should be a non-negative value (zero or a positive number) of type `Double` or `Float`.
 
 The method returns a number, of the same type given, representing the square root. The result is a non-negative value or `NaN` if the input is negative.
 
