@@ -9,7 +9,7 @@ Tags:
   - 'Functions'
 ContentCatalog:
   - 'learn-kotlin'
-  - 'path/computer-science'
+  - 'paths/computer-science'
 ---
 
 The **`cosh()`** method in Kotlin's `math` class computes the hyperbolic cosine of a angle given in radians.
