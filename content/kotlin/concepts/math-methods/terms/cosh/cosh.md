@@ -13,7 +13,7 @@ ContentCatalog:
   - 'path/computer-science'
 ---
 
-The **`cosh()`** method in Kotlin's `math` class computes the hyperbolic cosine of a angle in radians.
+The **`cosh()`** method in Kotlin's `math` class computes the hyperbolic cosine of a angle given in radians.
 
 ## Syntax
 
@@ -24,7 +24,8 @@ val y = math.cosh(x)
 
 `x`: An angle of type `Double` or `Float`.
 
-### Special cases
+Special cases:
+
   - `cosh(NaN)` is `NaN`
   - `cosh(+Inf|-Inf)` is `+Inf`
 
@@ -43,7 +44,7 @@ fun main(){
 }
 ```
 
-It will output:
+This example will output:
 
 ```shell
 1.1402383210764286
