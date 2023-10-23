@@ -1,6 +1,6 @@
-## Extension Function 
+## Extension Functions 
 
-- These functions provide ease to add more functionality to the existing classes, without inheriting them. This is called an Extension Function. 
+- Kotlin provides the opportunity to add more functionality to existing classes, by leveraging available methods without having to inherit the class. These declarations that use existing methods in new or custom classes are called extension functions. 
 
 - Below example demonstrates the use of this concept : 
 
@@ -20,6 +20,6 @@ fun main() {
     println("The square of $number is $square")
 }
 
+Output : The square of 5 is 25
 ```
 
-- Output : The square of 5 is 25
