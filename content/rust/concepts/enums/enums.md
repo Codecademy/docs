@@ -4,13 +4,12 @@ Description: 'Enums are a custom data type that enables the selection of a value
 Subjects:
   - 'Computer Science'
   - 'Data Science'
-  - 'Game Development'
 Tags:
   - 'Enums'
   - 'Data Types'
 CatalogContent:
+  - 'rust-for-programmers'
   - 'paths/computer-science'
-  - 'learn/rust-for-programmers'
 ---
 
 **Enums**, short for enumerations, are a custom data type that enables the selection of a value from a predefined list of related options. Enums are useful for modelling concepts categorized into distinct cases or states. They can help to enhance code readability and handle different scenarios in a structured way.
@@ -66,6 +65,7 @@ The following example first creates an enum called `Avengers` containing variant
 ```rust
 fn main() {
 // Define Avengers enum
+ #[derive(Debug)]
 enum Avengers {
   IronMan,
   Thor,
