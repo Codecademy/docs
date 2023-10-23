@@ -25,7 +25,8 @@ string.encode(encoding='encoding', errors='errors')
 - `errors` (optional): How to handle errors if the string cannot be encoded. There are six error responses:
   - `strict`: A `UnicodeDecodeError` will be raised on failure. If no error handling is specified, this is the default.
   - `ignore`: Ignore characters that cannot be encoded.
-  - `replace`: Replace the characters that cannot be encoded with a question mark. -`xmlcharrefreplace`: If there is a character that cannot be encoded, an XML character reference will be inserted in its place.
+  - `replace`: Replace the characters that cannot be encoded with a question mark.
+  - `xmlcharrefreplace`: If there is a character that cannot be encoded, an XML character reference will be inserted in its place.
   - `backslashreplace`: If there is a character that cannot be encoded, the `\uNNNN` characters will be inserted in its place.
   - `namereplace`: If there is a character that cannot be encoded, the `\N{...}` characters will be inserted in its place.
 
