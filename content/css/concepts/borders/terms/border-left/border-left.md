@@ -44,7 +44,7 @@ h1 {
 }
 ```
 
-![Example 1](https://github.com/SanchitMahajan236/Codeacademy_docs/assets/116559051/2fe25faa-9e11-4095-a0e7-cb71ce6a7a39)
+![Example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-border-left-example1.png)
 
 ## Example 2
 
@@ -57,7 +57,7 @@ h1 {
 }
 ```
 
-![Example 2](https://github.com/SanchitMahajan236/Codeacademy_docs/assets/116559051/fcd95df2-78c2-4f57-9ca1-7b42334110cb)
+![Example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-border-left-example2.png)
 
 ## Example 3
 
@@ -71,4 +71,4 @@ h1 {
 }
 ```
 
-![Example 3](https://github.com/SanchitMahajan236/Codeacademy_docs/assets/116559051/9f4a99e3-9ecc-45f0-bb64-153c3fa9a611)
+![Example 3](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-border-left-example3.png)
