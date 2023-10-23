@@ -26,7 +26,7 @@ val y = math.atanh(x)
 
 - `x`: A number between `-1.0` and `1.0`, of type `Double` or `Float`.
 
-### Special Cases
+Special Cases:
 
   - tanh(NaN) = NaN
   - tanh(x) = NaN if x > 1 || x < -1
@@ -36,6 +36,7 @@ val y = math.atanh(x)
 ## Example
 
 The following code is a basic implementation of `math.atanh(x)`.
+
 ```kotlin
 import kotlin.math.*
 fun main() {
