@@ -1,6 +1,6 @@
 ---
 Title: 'cosh()'
-Description: 'Computes the hyperbolic cosine of a value.'
+Description: 'Computes the hyperbolic cosine of an angle.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
