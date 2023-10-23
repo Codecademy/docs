@@ -1,6 +1,6 @@
 ---
 Title: 'mininteger'
-Description: 'Returns the least possible integer value.'
+Description: 'Returns the smallest possible integer value.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**`math.mininteger`** is a constant that is part of Lua's `math` library. The `math.mininteger` constant is a constant representing the least value that can be possibly held by an integer.
+**`math.mininteger`** is a constant that is part of Lua's `math` library. The `math.mininteger` constant is a constant representing the smallest value that can be possibly held by an integer.
 
 > **Note:** The `math.mininteger` constant has the opposing functionality to the `math.maxinteger` constant which returns the highest value that can be held by an integer.
 
@@ -28,7 +28,7 @@ math.mininteger
 
 ## Example
 
-To find the least possible integer value in Lua:
+To find the smallest possible integer value in Lua:
 
 ```lua
 print(math.mininteger)
