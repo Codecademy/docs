@@ -53,6 +53,7 @@ h1 {
   border-top: 4px solid blue;
 }
 ```
+
 This will display:
 
 ![CSS border-top Example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/border-top-example-2.png)
