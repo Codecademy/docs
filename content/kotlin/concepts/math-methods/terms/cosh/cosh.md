@@ -7,7 +7,7 @@ Subjects:
 Tags:
   - 'Methods'
   - 'Functions'
-ContentCatalog:
+CatalogContent:
   - 'learn-kotlin'
   - 'paths/computer-science'
 ---
