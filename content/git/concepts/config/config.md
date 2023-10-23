@@ -1,3 +1,29 @@
+---
+Title: 'Git Config' 
+Description: 'Learn how to configure Git settings for smooth collaboration.' 
+Subjects: 
+  - 'Bash/Shell'
+  - 'Developer Tools'
+Tags: 
+  - 'Git'
+  - 'Version Control'
+CatalogContent:
+  - 'learn-git'
+  - 'learn-the-command-line'
+---
+
+# Git Config
+
+**Git configuration** is a fundamental aspect of using Git, allowing users to customize various settings and preferences on both a global and repository-specific level. Configuration settings manage various aspects of the profile and operation of Git, including identity details, preferred text editors, merge strategies, and more. Git stores these settings in configuration files, making it essential for efficient and smooth collaboration with Git.
+
+## Viewing Git Configurations
+
+To view Git configuration, utilize the `git config` command. To see global configuration settings, use:
+
+```shell
+git config --global --list
+
+
 # Git Config
 
 **Git configuration** is a fundamental aspect of using Git, allowing users to customize various settings and preferences on both a global and repository-specific level. Configuration settings manage various aspects of the profile and operation of Git, including identity details, preferred text editors, merge strategies, and more. Git stores these settings in configuration files, making it essential for efficient and smooth collaboration with Git.
