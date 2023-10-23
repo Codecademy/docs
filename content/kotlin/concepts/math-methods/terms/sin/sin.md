@@ -19,7 +19,7 @@ The **`math.sin()`** method in Kotlin's `math` class is used to calculate the si
 
 ```pseudo
 import kotlin.math.sin
-val sineValue = math.sin(angle)
+val sineValue = sin(angle)
 ```
 
 - `angle`: The angle in radians for which you want to calculate the sine.
@@ -31,16 +31,16 @@ The `math.sin()` method returns a value of type `Double` representing the sine o
 This example shows how to use the `math.sin()` method to calculate the sine of an angle:
 
 ```kotlin
-import kotlin.math.sin
+import kotlin.math.*
 fun main() {
-    val angle = math.PI / 6.0  // 30 degrees in radians
+    val angle = PI / 6.0  // 30 degrees in radians
 
-    val sineValue = math.sin(angle)
+    val sineValue = sin(angle)
     println("The sine of $angle radians is $sineValue.")
 }
 ```
 
-In this example, the `math.sin()` method calculates the sine, and the result will be printed as:
+This results in the following output:
 
 ```shell
 The sine of 0.5235987755982989 radians is 0.49999999999999994.
