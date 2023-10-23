@@ -4,10 +4,7 @@ Description: 'Calculates the inverse hyperbolic tangent of a value.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-  - 'Mathmatics'
 Tags:
-  - 'Double'
-  - 'Float'
   - 'Methods'
   - 'Functions'
 CatalogContent:
@@ -21,17 +18,17 @@ The **`atanh()`** method in Kotlin's `math` class returns the inverse hyperbolic
 
 ```pseudo
 import kotlin.math.*
-val y = math.atanh(x)
+val y = atanh(x)
 ```
 
 - `x`: A number between `-1.0` and `1.0`, of type `Double` or `Float`.
 
 Special Cases:
 
-  - tanh(NaN) = NaN
-  - tanh(x) = NaN if x > 1 || x < -1
-  - tanh(1.0) = +Inf
-  - tanh(-1.0) = -Inf
+- `atanh(NaN)` = `NaN`
+- `atanh(x)` = `NaN` if x > 1 || x < -1
+- `atanh(1.0)` = `+Inf`
+- `atanh(-1.0)` = `-Inf`
 
 ## Example
 
@@ -55,6 +52,3 @@ It will output:
 ```
 
 The returned value is `y` such that `tanh(y) == x`.
-
-
-
