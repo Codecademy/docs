@@ -12,7 +12,6 @@ Tags:
 CatalogContent:
   - 'learn-css'
   - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
 ---
 
 The **`hsl()`** function defines the hue, saturation, and luminance of an [element's](https://www.codecademy.com/resources/docs/html/elements) color value.
@@ -36,7 +35,6 @@ h1 {
 ```
 
 Sets the font color of the `h1` element to `yellow`:
-
 
 ![hsl() Example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-colors-hsl-example-1.png)
 
