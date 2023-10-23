@@ -23,7 +23,6 @@ val hyperbolicSine = sinh(number)
 
 - `number`: The number, of type `Double` or `Float`, to be used in the calculation of the hyperbolic sine.
 
-
 ## Example
 
 This example shows how to use the `sinh()` method to calculate the hyperbolic sine of a number:
