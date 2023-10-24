@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **.filterNot** method will filter elemnts from a Kotlin sequences based on whether or not the same element is present in the given predicate.
+The **.filterNot()** method will filter elemnts from a Kotlin sequences based on whether or not the same element is present in the given predicate.
 
 ## Syntax
 
