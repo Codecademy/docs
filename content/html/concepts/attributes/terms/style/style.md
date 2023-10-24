@@ -19,6 +19,9 @@ The **`style`** attribute specifies how an element will render in a web browser,
 When the `style` attribute is used inline, it overrides any styles set globally.
 
 > **Note:** The styling of a page or elements on the page can also be embedded in the `<head>` element using the [`<style>`](https://www.codecademy.com/resources/docs/html/elements/style) tag. However, most developers refrain from using the inline `style` attribute and set the style of the elements through an external [CSS](https://www.codecademy.com/resources/docs/css) style sheet. This helps to keep the code clean and is more easily maintained.
+
+<!-- empty line -->
+
 > The method for using an external CSS style sheet can be seen at [`<link>`](https://www.codecademy.com/resources/docs/html/elements/link).
 
 ## Syntax
