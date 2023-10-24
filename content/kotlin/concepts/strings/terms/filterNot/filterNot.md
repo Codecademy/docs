@@ -29,13 +29,15 @@ String.filterNot(predicate)
 The example demonstrates the use of `.filterNot()` to remove any pairs in the map with a value less than `2`, and then to filter out any pairs with the key `c`.
 
 ```kotlin
-val originalMap = mapOf("a" to 1, "b" to 2, "c" to 3)
+fun main {
+  val originalMap = mapOf("a" to 1, "b" to 2, "c" to 3)
 
-val filteredMap = originalMap.filterNot { it.value < 2 }
-println(filteredMap)
+  val filteredMap = originalMap.filterNot { it.value < 2 }
+  println(filteredMap)
 
-val filteredMap2 = originalMap.filterNot { it.key == "c" }
-println(filteredMap2)
+  val filteredMap2 = originalMap.filterNot { it.key == "c" }
+  println(filteredMap2) 
+  }
 ```
 
 The output of this code will be:
