@@ -179,6 +179,7 @@ jQuery
 JRuby
 JSON
 JSK
+Justice
 K-Nearest Neighbors
 Kotlin
 Kubernetes
