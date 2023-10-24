@@ -2,7 +2,7 @@
 Title: 'cos()'
 Description: 'Returns the cosine of an angle represented in radians.'
 Subjects:
-  - 'Computer Science'  
+  - 'Computer Science'
 Tags:
   - 'Functions'
   - 'Math'
@@ -39,22 +39,4 @@ This example will result in the following output:
 
 ```shell
 0.70710678118655
-```
-
-## Codebyte Example
-
-The codebyte below uses the `cos()` function to find the cosine of five angles in an array using a for loop. 
-
-```codebyte/lua
--- Calculate the cosine of five angles
-
-local angles = {0, math.pi / 6, math.pi / 4, math.pi / 3, math.pi / 2}
-
-for i, angle in ipairs(angles) do
-
-    local cosineValue = math.cos(angle)
-    print("Cosine of angle " .. angle .. " radians is: " .. cosineValue)
-
-end
-
 ```
