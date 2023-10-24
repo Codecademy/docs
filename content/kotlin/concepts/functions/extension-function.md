@@ -1,6 +1,6 @@
 ## Extension Functions 
 
-- Kotlin provides the opportunity to add more functionality to existing classes, by leveraging available methods without having to inherit the class. These declarations that use existing methods in new or custom classes are called extension functions. 
+Kotlin provides the opportunity to add more functionality to existing classes, by leveraging available methods without having to inherit the class. These declarations that use existing methods in new or custom classes are called extension functions. 
 
 - Below example demonstrates the use of this concept : 
 
