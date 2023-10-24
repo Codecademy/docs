@@ -91,6 +91,24 @@ what():  vector::_M_range_check: __n (which is 100) >= this->size() (which is 3)
 Aborted (core dumped)
 ```
 
+### `.front()`
+
+The `.front()` returns a reference to the first element of the vector:
+
+```cpp
+// The first element of a vector
+std::cout << arr.front();
+```
+
+### `.back()`
+
+The `.back()` returns a reference to the last element of the vector:
+
+```cpp
+// The last element of a vector
+std::cout << arr.back();
+```
+
 ## Adding Elements
 
 There are two different ways to insert elements into the vector.
