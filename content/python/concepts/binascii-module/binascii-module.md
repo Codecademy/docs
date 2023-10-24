@@ -1,6 +1,6 @@
 ---
 Title: 'Binascii Module'
-Description: 'The Python `binascii` module is a built-in module that provides essential functions for working with binary data and performing binary-to-text encoding and decoding. It is a valuable resource when dealing with binary data in various contexts, such as network protocols and file handling.'
+Description: 'The binascii module is a built-in module that provides essential functions for working with binary data and performing binary-to-text encoding and decoding.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
