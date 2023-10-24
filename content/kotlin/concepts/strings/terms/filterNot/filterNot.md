@@ -26,7 +26,7 @@ String.filterNot(predicate)
 `predicate`: The collection of elements to be filtered out.
 
 ## Example
-the example demonstrates the use of `.filterNot()` to remove any pairs in the map with a value less than `2`, and then used to filter out any pairs with the key `c`.
+The example demonstrates the use of `.filterNot()` to remove any pairs in the map with a value less than `2`, and then used to filter out any pairs with the key `c`.
 
 ```kotlin
 val originalMap = mapOf("a" to 1, "b" to 2, "c" to 3)
