@@ -20,18 +20,18 @@ The **`concat()`** function is used to join the values of a table into a single 
 concat(table, separator, [i], [j])
 ```
 
-## Parameters
+### Parameters
 
-`concat()` has the following paramteres:
+`concat()` has the following parameters:
 
-`table`: The table containing values to concatenate.
-`separator`: The character or string used to separate the concatenated values.
-`[i]` (optional): The starting index in the table for concatenation.
-`[j]` (optional): The ending index in the table for concatenation.
+- `table`: The table containing values to concatenate.
+- `separator`: The character or string used to separate the concatenated values.
+- `[i]` (optional): The starting index in the table for concatenation.
+- `[j]` (optional): The ending index in the table for concatenation.
 
 ## Example
 
-Consider the following table:
+In this example, the `fruits` table contains four elements. `table.concat()` is used to join the elements from index 2 to 3 (inclusive) with a comma and space as the separator. The resulting string is then printed.
 
 ```lua
 local fruits = {"apple 🍎", "banana 🍌", "cherry 🍒", "watermelon 🍉"}
@@ -44,5 +44,3 @@ The code will return the following output:
 ```shell
 banana 🍌, cherry 🍒
 ```
-
-In this example, the table `fruits` contains four elements. `table.concat()` is used to join the elements from index 2 to 3 (inclusive) with a comma and space as the separator. The resulting string is then printed.
