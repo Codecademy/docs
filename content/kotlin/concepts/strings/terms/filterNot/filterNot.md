@@ -18,7 +18,7 @@ The **.filterNot** method will filter elemnts from a Kotlin sequences based on w
 
 ## Syntax
 
-```kotlin
+```pseudo
 inline fun String.filterNot(
     predicate: (Char) -> Boolean
 ): String
@@ -43,5 +43,6 @@ val filteredMap2 = originalMap.filterNot { it.key == 'c'
 }
 println(filteredMap2) // {a=1, b=2}
 ```
+
 In the above example .filterNot() is first used to filter out any pairs in the map with a value less than 2, leaving {b=2, c=3}, then used to filter out any pairs with the key 'c', leaving 
 {a=1, b=2}.
