@@ -1,5 +1,5 @@
 ---
-Title: '.max()'
+Title: 'max()'
 Description: 'Finds the greater of two given values.'
 Subjects:
   - 'Code Foundation'
@@ -7,30 +7,29 @@ Subjects:
 Tags:
   - 'Math'
   - 'Functions'
-  - 'Max'
   - 'Kotlin'
 CatalogContent:
   - 'learn-kotlin'
   - 'paths/computer-science'
 ---
 
-In Kotlin, the `.max()` function is used to return the greater of two given values provided as parameters. It can be used with numeric types such as `Double`, `Float`, `Int`, `Long`, `UInt`, and `ULong`. Both values must be of the same type.
+In Kotlin, the `max()` function is used to return the greater of two given values provided as arguments. It can be used with numeric types such as `Double`, `Float`, `Int`, `Long`, `UInt`, and `ULong`. Both values must be of the same type.
 
-> **Note**: The `.max()` function is different from the `.maxOf()` function that can take one or more than two arguments. If `.max()` is used with more or less than two arguments the program will raise an error.
+> **Note**: The `max()` function is different from the `maxOf()` function that can take one or more than two arguments. If `max()` is used with more or less than two arguments the program will raise an error.
 
 ## Syntax
 
 ```pseudo
 import kotlin.math.*
 
-val twoNumericValues = max(x, y)
+val greatestVal = max(x, y)
 ```
 
 - Where `x` and `y` represent two numeric values of the same type.
 
-## Example 1
+## Example
 
-The following example shows the usage of `.max()` comparing two `Long` values:
+The following example shows the usage of `max()` comparing two `Long` values:
 
 ```kotlin
 import kotlin.math.*
