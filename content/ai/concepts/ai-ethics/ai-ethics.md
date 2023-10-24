@@ -39,7 +39,7 @@ Algorithmic bias occurs when the outputs of an AI algorithm are unfairly biased 
 
 ### Interpretability and Explainable AI (XAI)
 
-AI systems are often described as "black-boxes" since it is often difficult to explain difficult to explain why an AI system produces a given output. XAI is a field with the goal of developing techniques to explain the processes and outputs of AI systems.
+AI systems are often described as "black-boxes" since it is often difficult to explain why an AI system produces a given output. XAI is a field with the goal of developing techniques to explain the processes and outputs of AI systems.
 
 - Do people have a right to an explanation for decisions based on AI systems? In which situations might they have this right?
 - How can AI systems be made more transparent and interpretable?
