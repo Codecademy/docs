@@ -32,10 +32,10 @@ The example demonstrates the use of `.filterNot()` to remove any pairs in the ma
 fun main() {
   val originalMap = mapOf("a" to 1, "b" to 2, "c" to 3)
 
-  val filteredMap = originalMap.filterNot { it.value < 2 }
+  val filteredMap = originalMap.filterNot(it.value < 2)
   println(filteredMap)
 
-  val filteredMap2 = originalMap.filterNot { it.key == "c" }
+  val filteredMap2 = originalMap.filterNot(it.key == "c")
   println(filteredMap2)
 }
 ```
