@@ -19,7 +19,7 @@ In C#, a **class** serves as a blueprint or template for creating objects. It pl
 
 ## Syntax for Declaring Classes
 
-To declare a class in C#, you use the `class` keyword, followed by the class name. Class names should follow C# naming conventions (typically using PascalCase). The class definition is enclosed within curly braces {}.
+To declare a class in C#, use the `class` keyword, followed by the class name. Class names should follow C# naming conventions (typically using PascalCase). The class definition is enclosed within curly braces {}.
 
 ```cs
 public class MyClass {
@@ -45,7 +45,7 @@ C# provides access modifiers to control the visibility and accessibility of clas
 
 ## Example
 
-Here is a simple C# example featuring a class with properties and methods. By employing various access modifiers in C#, this example illustrates the use of public methods, such as `GetBalance`, to access private properties like the 'current balance'. Meanwhile, it showcases that private methods like `PerformAudit` are inaccessible from external code.
+Here is a simple C# example featuring a class with properties and methods. By employing various access modifiers in C#, this example illustrates the use of public methods, such as `GetBalance`, to access private properties like the `current balance`. Meanwhile, it showcases that private methods like `PerformAudit` are inaccessible from external code.
 
 ```cs
 using System;
@@ -97,6 +97,8 @@ Static classes are defined using the `static` keyword and exclusively contain st
 Partial classes in C# enable class definitions to be split across multiple files. Each part of the class is defined in a separate file and combined at compile time to create a single class. This is valuable for scenarios where a class becomes too large or complex, or when multiple developers need to work on different aspects of the class simultaneously.
 
 ![Partial Classes](https://raw.githubusercontent.com/Codecademy/docs/main/media/c-sharp-partial-class.png)
+
+In the image above, the `Calculator` class is depicted as a partial class structure, allowing independent development of class components. In the code below, the application's entry point, the `Main` method, creates an instance of the Calculator class and utilizes its methods for addition and subtraction operations.
 
 ```cs
 using System;
