@@ -42,6 +42,10 @@ Set background horizontal size to `500px`:
 }
 ```
 
+The CSS code above will produce the following result:
+
+ ![A blue fish image following the above css specifications](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-background-size1.png)
+ 
 ## Example 2
 
 Set background horizontal size and vertical size with a % value:
@@ -54,6 +58,10 @@ Set background horizontal size and vertical size with a % value:
   background-size: 50% 25%;
 }
 ```
+
+The CSS code above will produce the following result:
+
+ ![A blue fish image following the above css specifications](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-background-size2.png)
 
 ## Example 3
 
@@ -68,6 +76,10 @@ Set the background size to fill the whole element while maintaining aspect ratio
 }
 ```
 
+The CSS code above will produce the following result:
+
+ ![A blue fish image following the above css specifications](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-background-size3.png)
+ 
 ## Example 4
 
 Set the background size to keep aspect ratio and avoid any clipping:
@@ -80,3 +92,7 @@ Set the background size to keep aspect ratio and avoid any clipping:
   background-size: contain;
 }
 ```
+
+The CSS code above will produce the following result:
+
+ ![A blue fish image following the above css specifications](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-background-size4.png)
