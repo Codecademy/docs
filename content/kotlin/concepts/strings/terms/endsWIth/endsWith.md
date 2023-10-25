@@ -13,16 +13,15 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.endsWith()`** method will compare the end of the sequence with the given suffix, returning a boolean value representing wether they are the same or not.
+The **`.endsWith()`** method compares the end of the sequence with the given suffix and returns a boolean value indicating wether they are the same or not.
 
 ## Syntax
 
 ```pseudo
-String.endsWith(suffix)
+String.endsWith(suffix: String, ignoreCase: Boolean = False): Boolean
 ```
 
 `String`: The sequence which the suffix is to be compared with.
-
 `suffix`: a sequence of length `n`, to be compared with the last `n` elements of `String`.
 
 ## Example
