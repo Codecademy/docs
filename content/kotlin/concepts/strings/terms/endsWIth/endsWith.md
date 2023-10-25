@@ -35,10 +35,10 @@ fun main {
   val sfx1 = "@gmail.com"
   val sfx2 = "@hotmail.com"
 
-  val endsWithSfx1 = str.endsWith { sfx1 }
+  val endsWithSfx1 = str.endsWith (sfx1)
   println(endsWithSfx1)
 
-  val endsWithSfx2 = str.endsWith { sfx2, true }
+  val endsWithSfx2 = str.endsWith(sfx2, true)
   println(endsWithSfx2)
   }
 ```
