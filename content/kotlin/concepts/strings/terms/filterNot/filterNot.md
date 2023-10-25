@@ -13,12 +13,12 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **'`.filterNot()`** method will filter elements from a Kotlin sequence based on whether or not the same element is present in the given predicate.
+The **`.filterNot()`** method will filter elements from a Kotlin sequence based on whether or not the same element is present in the given predicate.
 
 ## Syntax
 
 ```pseudo
-String.filterNot(predicate)
+String.filterNot(predicate: String): String
 ```
 
 `String`: The collection of elements to be filtered.
@@ -26,6 +26,7 @@ String.filterNot(predicate)
 `predicate`: The collection of elements to be filtered out.
 
 ## Example
+
 The example demonstrates the use of `.filterNot()` to remove any pairs in the map with a value less than `2`, and then to filter out any pairs with the key `c`.
 
 ```kotlin
