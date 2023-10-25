@@ -43,6 +43,6 @@ fun main() {
 The output of this code will be:
 
 ```shell
-'              codecademydocs'
-'------------------codecademydocs'
+'codecademydocs'
+'----codecademydocs'
 ```
