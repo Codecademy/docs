@@ -37,7 +37,7 @@ fun main() {
 
   val str3 = str.padStart(18, "-")
   println(str3)
-  }
+}
 ```
 
 The output of this code will be:
