@@ -39,12 +39,12 @@ import java.util.Locale;
 
 public class CalendarLocaleExample {
     public static void main(String[] args) {
-       
+
         Locale[] availableLocales = Locale.getAvailableLocales();
 
         System.out.println("Available Locales:");
 
-        // Output: 
+        // Output:
         for (Locale locale : availableLocales) {
             System.out.println(locale.getDisplayName());
         }
