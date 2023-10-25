@@ -31,7 +31,6 @@ The `removePrefix()` method returns a new `string` with the specified prefix rem
 This example shows how to use the `removePrefix()` method to remove a prefix from a Kotlin string:
 
 ```kotlin
-
 fun main() {
     val originalString = "HelloWorld"
     val prefix = "Hello"
