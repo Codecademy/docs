@@ -21,15 +21,15 @@ The **`.filterNot()`** method will filter elements from a Kotlin sequence based 
 String.filterNot(predicate)
 ```
 
-`String`: The collection of elements to be filtered.
-`predicate`: The collection of elements to be filtered out.
+-`String`: The collection of elements to be filtered.
+-`predicate`: The collection of elements to be filtered out.
 
 ## Example
 
 The example demonstrates the use of `.filterNot()` to remove any pairs in the map with a value less than `2`, and then to filter out any pairs with the key `c`.
 
 ```kotlin
-fun main {
+fun main() {
   val originalMap = mapOf("a" to 1, "b" to 2, "c" to 3)
 
   val filteredMap = originalMap.filterNot { it.value < 2 }
