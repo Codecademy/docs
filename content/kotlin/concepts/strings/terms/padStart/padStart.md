@@ -13,19 +13,19 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.padStart()`** method will pad the start of the sequence with the desired fill character to the specified length, returning the new character seuqence.
+The **`.padStart()`** method will pad the start of the sequence with the desired fill character to the specified length, returning the new character sequence. **`.padStart()`** is also used for left padding.
 
 ## Syntax
 
 ```pseudo
-String.padStart(length, padChar)
+String.padStart(length: Int, padChar: String): String
 ```
 
 `length`: The amount of padding to be added, in number of characters.
-
 `padChar`: Character to be used as padding, defaults to ' '.
 
 ## Examples
+
 The example demonstrates the use of `.padStart()` to pad a string.
 
 ```kotlin
