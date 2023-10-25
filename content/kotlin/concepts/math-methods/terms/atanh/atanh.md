@@ -41,7 +41,7 @@ fun main() {
   val y = atanh(x)
 
   // Print results
-  println('y')
+  println(y)
 }
 ```
 
