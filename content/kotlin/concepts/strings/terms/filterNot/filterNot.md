@@ -1,13 +1,13 @@
 ---
 Title: '.filterNot()'
-Description: 'Returns all elements of the original sequence not present in the predicate.' 
-Subjects: 
+Description: 'Returns all elements of the original sequence not present in the predicate.'
+Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-Tags: 
+Tags:
   - 'Filter'
   - 'Collections'
-  - 'Kotlin'
+  - 'Strings'
 CatalogContent:
   - 'learn-kotlin'
   - 'paths/computer-science'
@@ -18,11 +18,10 @@ The **`.filterNot()`** method will filter elements from a Kotlin sequence based 
 ## Syntax
 
 ```pseudo
-String.filterNot(predicate: String): String
+String.filterNot(predicate)
 ```
 
 `String`: The collection of elements to be filtered.
-
 `predicate`: The collection of elements to be filtered out.
 
 ## Example
@@ -37,8 +36,8 @@ fun main {
   println(filteredMap)
 
   val filteredMap2 = originalMap.filterNot { it.key == "c" }
-  println(filteredMap2) 
-  }
+  println(filteredMap2)
+}
 ```
 
 The output of this code will be:
