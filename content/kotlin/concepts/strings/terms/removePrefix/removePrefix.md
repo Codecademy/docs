@@ -25,7 +25,7 @@ val modifiedString = originalString.removePrefix(prefix)
 `originalString`: The original string from which you want to remove the prefix.
 `prefix`: The prefix you want to remove from the original string.
 
-The `removePrefix()` method returns a new string with the specified prefix removed if it exists. If the original string does not start with the specified prefix, the method returns the original string unchanged.
+The `removePrefix()` method returns a new `string` with the specified prefix removed if it exists. If the original string does not start with the specified prefix, the method returns the original string unchanged.
 
 ## Example
 
@@ -41,7 +41,6 @@ fun main() {
     val modifiedString = originalString.removePrefix(prefix)
     println("Modified String: $modifiedString")
 }
-
 ```
 
 In this example, the `removePrefix()` method is used to remove the "Hello" prefix from the original string. The result will be printed as:
