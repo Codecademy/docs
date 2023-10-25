@@ -1,6 +1,6 @@
 ---
 Title: 'Rebase'
-Description: 'Rebasing involves the action of integrating or shifting a series of commits onto a fresh base commit. In simple terms, git rebase is used to merge changes from one branch into another.'
+Description: 'Rebasing integrates or shifts a series of commits onto a fresh base commit.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
