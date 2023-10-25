@@ -40,7 +40,7 @@ fun main() {
 
   val endsWithSfx2 = str.endsWith(sfx2, true)
   println(endsWithSfx2)
-  }
+}
 ```
 
 The output of this code will be:
