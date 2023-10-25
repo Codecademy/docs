@@ -214,4 +214,5 @@ Setting a `div` element to behave like a flex box.
   display: flex;
 }
 ```
+
 ![css-display-flex-example](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-display-flex-example.jpg)
