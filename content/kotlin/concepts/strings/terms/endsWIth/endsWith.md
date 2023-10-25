@@ -23,20 +23,22 @@ String.endsWith(suffix: String, ignoreCase: Boolean = False): Boolean
 
 `String`: The sequence which the suffix is to be compared with.
 `suffix`: a sequence of length `n`, to be compared with the last `n` elements of `String`.
+`ignoreCase`: boolean value dictating whether function is to be case insensitive. Defaults to false.
 
 ## Example
+
 The example demonstrates the use of `.endsWith()` to compare the end of a sequence, first to the string "@gmail.com", then to the string "@hotmail.com".
 
 ```kotlin
 fun main {
-  val str = "JohnAppleseed@hotmail.com"
+  val str = "JohnAppleseed@Hotmail.com"
   val sfx1 = "@gmail.com"
   val sfx2 = "@hotmail.com"
 
   val endsWithSfx1 = str.endsWith { sfx1 }
   println(endsWithSfx1)
 
-  val endsWithSfx2 = str.endsWith { sfx2 }
+  val endsWithSfx2 = str.endsWith { sfx2, true }
   println(endsWithSfx2)
   }
 ```
