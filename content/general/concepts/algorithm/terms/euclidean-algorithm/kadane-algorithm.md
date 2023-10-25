@@ -18,12 +18,13 @@ Kadane's algorithm is a dynamic programming approach utilized to identify the ma
 
 **Here's how Kadane's algorithm can be applied to a problem:**
 
-- Start with the first number and add it to a running total. Then, move to the next number and decide whether it's better to continue with the current sum or start a new sum from this number. Always aim to keep the largest sum seen so far.
-- For example, consider the array [2, 3, 1, 5, 4]. Begin with 2, and the running sum is 2. Move to 3. Is it better to continue with the current sum of 2 + 3 = 5 or start a new sum of 3? Since 5 is bigger, continue with it.
-- Next, add 1 to the running sum, making it 6. Now comes the choice: Should the current sum of 6 be continued or start a new sum of 1? Since 6 is bigger, continue.
-- Now, add 5 to the running sum, resulting in 11. Once again, compare 11 with the current sum and observe that 11 is still bigger. Finally, add 4, which gives a running sum of 15.
-- Therefore, the biggest sum that can be made with consecutive numbers in this array is 15!
-- In the same way, if in an array any negative integer is given, compare the last sum and consider the highest-sum subarray as the output.
+- Start with the first number and add it to a running total. Then, move to the next number and determine whether to continue with the current sum or start a new sum from this number. Always aim to maintain the largest sum seen so far.
+- For example, consider the array {-2, -1, -3, 4, -1, 2, 1, -5, 4}. Initialize two integer variables: one named `maxEndingHere` and the other called `maxSoFar`. These variables serve to track the maximum subarray sum ending at the current position and the overall maximum subarray sum.
+- The loop commence with the first element, which is -2. So, both `maxEndingHere` and `maxSoFar` start at -2.
+- As the loop proceed to the next element, which is -1, compare it to the sum of the current element and the previous value of `maxEndingHere`. Update `maxEndingHere` to **-1** because it's greater than the sum of **-2** and **-1**. Also, compare `maxSoFar` with the updated value of `maxEndingHere`. Since **-2** is less than **-1**, update `maxSoFar` to **-1**.
+- This process continues as we advance through the array, modifying `maxEndingHere` and `maxSoFar` at each step.
+- At the conclusion of the loop, the variable `maxSoFar` contains the maximum subarray sum.
+- Return the value of `maxSoFar`, which represents the maximum subarray sum.
 
 ## Example
 
@@ -31,39 +32,21 @@ The following implementation of `Kadane's algorithm` is done in [java](https://w
 
 ```java
 public class KadaneAlgorithm {
-    public static int findMaxSubarraySum(int[] nums) {
-        int maxSoFar = nums[0];
-        int maxEndingHere = nums[0];
-        int start = 0;
-        int end = 0;
+    public static int maxSubarraySum(int[] arr) {
+        int maxEndingHere = arr[0];
+        int maxSoFar = arr[0];
 
-        for (int i = 1; i < nums.length; i++) {
-            if (nums[i] > maxEndingHere + nums[i]) {
-                maxEndingHere = nums[i];
-                start = i;
-            } else {
-                maxEndingHere = maxEndingHere + nums[i];
-            }
-            if (maxEndingHere > maxSoFar) {
-                maxSoFar = maxEndingHere;
-                end = i;
-            }
+        for (int i = 1; i < arr.length; i++) {
+            maxEndingHere = Math.max(arr[i], maxEndingHere + arr[i]);
+            maxSoFar = Math.max(maxSoFar, maxEndingHere);
         }
 
-        System.out.print("Maximum subarray: [");
-        for (int i = start; i <= end; i++) {
-            System.out.print(nums[i]);
-            if (i != end) {
-                System.out.print(", ");
-            }
-        }
-        System.out.println("]");
         return maxSoFar;
     }
 
     public static void main(String[] args) {
-        int[] nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
-        int maxSum = findMaxSubarraySum(nums);
+        int[] nums = {-2, -1, -3, 4, -1, 2, 1, -5, 4};
+        int maxSum = maxSubarraySum(nums);
         System.out.println("Maximum subarray sum: " + maxSum);
     }
 }
@@ -72,8 +55,53 @@ public class KadaneAlgorithm {
 The output for the above code is:
 
 ```shell
-Maximum subarray: [4, -1, 2, 1]
 Maximum subarray sum: 6
 ```
 
-Two additional variables: `start` and `end` are added in the above code. These variables keep track of the starting and ending indices of the maximum subarray. So in the end the subarray itself can be printed which have the max sum.
+## Codebyte Example 
+
+```codebyte/java
+public class KadaneAlgorithm {
+    public static int maxSubarraySum(int[] arr) {
+        int maxEndingHere = arr[0];
+        int maxSoFar = arr[0];
+        int start = 0; 
+        int end = 0;   
+        int tempStart = 0; 
+
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] > maxEndingHere + arr[i]) {
+                maxEndingHere = arr[i];
+                tempStart = i;
+            } else {
+                maxEndingHere = maxEndingHere + arr[i];
+            }
+
+            if (maxEndingHere > maxSoFar) {
+                maxSoFar = maxEndingHere;
+                start = tempStart;
+                end = i;
+            }
+        }
+
+        System.out.print("Maximum subarray: [");
+        for (int i = start; i <= end; i++) {
+            System.out.print(arr[i]);
+            if (i != end) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println("]");
+
+        return maxSoFar;
+    }
+
+    public static void main(String[] args) {
+        int[] nums = {-2, -1, -3, 4, -1, 2, 1, -5, 4};
+        int maxSum = maxSubarraySum(nums);
+        System.out.println("Maximum subarray sum: " + maxSum);
+    }
+}
+"
+
+Three additional variables: `start`, `end` and `tempStart` are added in the above code. These variables keep track of the starting, ending indices, temporary start of the current subarray. So, in the end the subarray itself can be printed which have the max sum with the max sum.
