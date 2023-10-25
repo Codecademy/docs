@@ -27,6 +27,7 @@ String.endsWith(suffix: String, ignoreCase: Boolean = False): Boolean
 
 ## Example
 
+
 The example demonstrates the use of `.endsWith()` to compare the end of a sequence, first to the string "@gmail.com", then to the string "@hotmail.com".
 
 ```kotlin
