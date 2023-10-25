@@ -33,7 +33,7 @@ fun main() {
     val originalString = "HelloWorld.jpg"
     val suffix = ".jpg"
 
-    val modifiedString = originalString.removeSuffix(suffix)
+    val modifiedString = originalString.removeSuffix(suffixtoremove)
     println("Modified String: $modifiedString")
 }
 ```
