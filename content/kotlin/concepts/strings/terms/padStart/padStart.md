@@ -24,7 +24,7 @@ String.padStart(length: Int, padChar: String): String
 `length`: The amount of padding to be added, in number of characters.
 `padChar`: Character to be used as padding, defaults to ' '.
 
-## Examples
+## Example
 
 The example demonstrates the use of `.padStart()` to pad a string.
 
