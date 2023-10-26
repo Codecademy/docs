@@ -32,7 +32,7 @@ PRs are featured on popular version control platforms such as [GitHub](https://g
 2. Clone the forked repository to your local machine.
 3. Create a new branch, then switch to it.
 4. `add`, `commit`, and `push` the changes to your forked repository.
-5. From the web page of **YOUR** forked repository, click on the "Pull request" tab.
+5. From the web page of **YOUR** forked repository, click on the "Pull requests" tab.
 
 ### Method 2: Collaborators (Ideal for Small Teams)
 If you are a collaborator of a repository (meaning the repository owner has added you as a collaborator), you can:
