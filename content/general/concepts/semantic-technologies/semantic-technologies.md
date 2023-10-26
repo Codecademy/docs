@@ -3,7 +3,6 @@ Title: 'Semantic Technologies'
 Description: 'A class of technologies used for data management with a focus on the underlying meaning of the data.'
 Subjects:
   - 'Data Science'
-  - 'Web Development'
 Tags:
   - 'Data'
   - 'Database'
