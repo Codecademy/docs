@@ -18,7 +18,7 @@ The **`removeSuffix()`** method in Kotlin is used to remove a specified suffix f
 ## Syntax
 
 ```pseudo
-val modifiedString = originalString.removeSuffix(suffixToRemove)
+fun String.removeSuffix(suffix: CharSequence): String
 ```
 
 `originalString`: The original string from which the suffix will be removed.
