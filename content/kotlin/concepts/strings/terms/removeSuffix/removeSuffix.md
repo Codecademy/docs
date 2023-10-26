@@ -22,7 +22,7 @@ fun String.removeSuffix(suffix: CharSequence): String
 ```
 
 - `String`: The original string from which the suffix will be removed.
-`suffixToRemove`: The suffix that will be removed from the original string.
+- `suffix`: The suffix that will be removed from the original string.
 
 ## Example
 
