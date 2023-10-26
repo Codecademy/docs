@@ -2,15 +2,15 @@
 Title: '.center()'
 Description: 'Returns a new string with the specified padding.'
 Subjects:
-  - 'Data Science'  
-  - 'Computer Science'  
+  - 'Data Science'
+  - 'Computer Science'
 Tags:
   - 'Methods'
-  - 'Strings'  
+  - 'Strings'
 CatalogContent:
-  - 'learn-python-3' 
+  - 'learn-python-3'
   - 'paths/computer-science'
---- 
+---
 
 The **`.center()`** string method returns a new string that has been amended with padding. The padding is allocated evenly to both sides of the string, depending on the overall length specified. The default padding is whitespace, but any character may be used, including numbers or symbols.
 
