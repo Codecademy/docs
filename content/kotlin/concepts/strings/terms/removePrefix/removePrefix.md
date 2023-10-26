@@ -2,8 +2,8 @@
 Title: 'removePrefix()'
 Description: 'Removes a specified prefix from a string, if present.'
 Subjects:
-  - 'Programming'
-  - 'Software Development'
+  - 'Computer Science'
+  - 'Code Foundations'
 Tags:
   - 'Strings'
   - 'Methods'
