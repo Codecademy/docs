@@ -43,17 +43,3 @@ In this example, `removeSuffix()` method is used to remove the ".jpg" suffix fro
 ```shell
 Modified String: HelloWorld
 ```
-
-## Codebyte Example
-
-This code is interactive and can be run.
-
-```codebyte/kotlin
-fun main() {
-    val originalString = "HelloWorld.jpg"
-    val suffix = ".jpg"
-
-    val modifiedString = originalString.removeSuffix(suffix)
-    println("Modified String: $modifiedString")
-}
-```
