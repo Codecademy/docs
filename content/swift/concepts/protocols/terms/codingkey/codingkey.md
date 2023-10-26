@@ -1,6 +1,6 @@
 ---
 Title: 'CodingKey'
-Description: 'Enables the mapping of the JSON object keys to the given Swift model properties.'
+Description: 'Enables the mapping of JSON object keys to the given Swift model properties.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-**`CodingKey`** is an extension to the Swift model when parsing the JSON data object into a Swift object. It allows for mapping JSON keys into different
+**`CodingKey`** is an extension to the Swift model when parsing a JSON data object into a Swift object. It allows for mapping JSON keys into different
 properties of a Swift object.
 
 > **Note:** JSON and Swift have different naming conventions (JSON uses _snake_case_ for its key identifiers, while Swift uses _camelCase_ for its property identifiers).
