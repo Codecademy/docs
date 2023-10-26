@@ -2,15 +2,15 @@
 Title: 'removeRange()'
 Description: 'Removes a range of characters from a Kotlin string.'
 Subjects:
-  - 'Programming'
-  - 'Software Development'
+  - 'Computer Science'
+  - 'Code Foundations'
 Tags:
   - 'Strings'
   - 'Methods'
   - 'Data Structures'
 CatalogContent:
   - 'learn-kotlin'
-  - 'paths/software-development'
+  - 'paths/computer-science'
 ---
 
 The **`removeRange()`** method in Kotlin is used to remove a specified range of characters from a string.The removeRange() method returns a new `string` with the specified range of characters removed.
@@ -45,20 +45,4 @@ In this example, `removeRange()` method is used to remove characters between ind
 
 ```shell
 Modified String: Hello!
-```
-
-## Codebyte Example
-
-This code is interactive and can be run.
-
-```codebyte/kotlin
-fun main() {
-    val originalString = "Hello, World!"
-    val startIndex = 5
-    val endIndex = 12
-
-    val modifiedString = originalString.removeRange(startIndex, endIndex)
-    println("Modified String: $modifiedString")
-}
-
 ```
