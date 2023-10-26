@@ -32,4 +32,4 @@ A cybersecurity framework provides a common set of standards for organizations t
 
 This calculation states that a single vulnerability multiplied by the potential threat can give an estimate of the risk involved. In order for an organization to begin the process of risk mitigation, vulnerabilities and threats need to be understood.
 
-Other variables, not mentioned in this calculation, like the possibility of a threat occuring and its potential impacts are also a factor in determining risk.
+Other variables, not mentioned in this calculation, like the possibility of a threat occurring and its potential impacts are also a factor in determining risk.
