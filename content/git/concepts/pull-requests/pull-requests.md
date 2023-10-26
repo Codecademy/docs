@@ -40,16 +40,28 @@ If you are a collaborator of a repository (meaning the repository owner has adde
 1. Clone the repository.
 2. Create a new branch, then switch to it.
 3. Make your changes, `commit`, and then `push` the branch to the repository.
-4. From the web page of the repository, click on "Pull Request" tab.
+4. From the web page of the repository, click on "Pull Requests" tab.
 
 ### Method 3: Within an Organization/Company
-If you are part of an organization/company, depending on your permissions, you may have the privilege to push branches directly and create PRs.
+If you are part of an organization/company, depending on your permissions, you may have the privilege to push branches directly and create PRs (Pull Requests).
 
 1. Clone the repository.
 2. Create and switch to a new branch.
 3. Make your changes, `commit`, and then `push` the branch to the repository.
-4. From the web page of the repository, click on "Pull Request".
+4. From the web page of the repository, click on "Pull Requests".
 
 > [!IMPORTANT]
 > Regardless of the method you choose, be sure to follow the contribution guidelines and
 > standards specific to the project you are working on.
+
+No matter which method you use, access to Pull Requests (PRs) remains the same: you need to visit the relevant repository based on your project.
+
+
+Navigate to the repository of the relevant project and go to 'Pull requests'.
+![navbar Git Hub](https://i.imgur.com/hPBcRoX.png)
+
+Once on the page, you'll see a blue button labeled 'New pull request'; click on it.
+![New pull request interface](https://i.imgur.com/9P8Dcpm.png)
+
+Finally, you just need to configure your Pull Request (PR), specifying the destination repository and branch, as well as the source branch and repository.
+![New pull request setting](https://i.imgur.com/ALyLGDt.png)
