@@ -42,3 +42,5 @@ Making an `img` element move down a _left_ floated `h1` element.
   clear: left;
 }
 ```
+
+![css-display-clear-example](https://github.com/DanWSDev/docs/blob/patch-4/media/css-display-clear-example.png)
