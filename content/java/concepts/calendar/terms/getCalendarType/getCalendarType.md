@@ -1,14 +1,14 @@
 ---
-Title: 'getCalendarType()' 
-Description: 'Retrieves the type or format of the calendar represented by the Calendar object, returns a string representing the calendar type' 
-Subjects: 
+Title: 'getCalendarType()'
+Description: 'Retrieves the type or format of the calendar represented by the Calendar object, returns a string representing the calendar type'
+Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-Tags: 
+Tags:
   - 'Methods'
   - 'Classes'
   - 'Attributes'
-CatalogContent: 
+CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
 ---
@@ -22,8 +22,6 @@ public String getCalendarType()
 ```
 
 ## Example
-
-No parameter is passed to this method.
 
 ```java
 import java.util.Calendar;
@@ -41,6 +39,7 @@ public class MyClass {
   }
 }
 ```
+
 This example returns the calendar type or class name of that calendar type:
 
 ```shell
