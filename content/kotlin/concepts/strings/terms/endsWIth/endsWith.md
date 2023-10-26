@@ -21,9 +21,9 @@ The **`.endsWith()`** method compares the end of the sequence with the given suf
 String.endsWith(suffix: String, ignoreCase: Boolean = False): Boolean
 ```
 
--`String`: The sequence which the suffix is to be compared with.
--`suffix`: a sequence of length `n`, to be compared with the last `n` elements of `String`.
--`ignoreCase`: boolean value dictating whether function is to be case insensitive. Defaults to false.
+- `String`: The sequence which the suffix is to be compared with.
+- `suffix`: a sequence of length `n`, to be compared with the last `n` elements of `String`.
+- `ignoreCase`: boolean value dictating whether function is to be case insensitive. Defaults to false.
 
 ## Example
 
