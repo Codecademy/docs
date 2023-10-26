@@ -18,4 +18,4 @@ The **context of use** describes the environment and conditions under which a pr
 
 ![A Venn diagram of the intersection of three circles: Context, User, and System, with User Experience (UX) at the center.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/what-are-ui-ux-design/ux-venn-diagram.svg)
 
-Contextual research methods, such as field studies and diary studies, can provide a deeper understanding of how a design is used in context and ensure that research has high ecological validity or an accurate understanding of how users behave naturally (source: [Nielsen Norman Group](https://www.nngroup.com/articles/context-methods-field-diary-studies/)).
+Contextual research methods, such as [field studies](https://www.codecademy.com/resources/docs/uiux/ethnography-field-studies) and [diary studies](https://www.codecademy.com/resources/docs/uiux/diary-study), can provide a deeper understanding of how a design is used in context and ensure that research has high ecological validity or an accurate understanding of how users behave naturally (source: [Nielsen Norman Group](https://www.nngroup.com/articles/context-methods-field-diary-studies/)).
