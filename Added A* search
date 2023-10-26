@@ -1,0 +1,134 @@
+A* search is a popular pathfinding algorithm used to find the shortest path from a start point to a goal point on a graph or grid while taking into account the cost to reach the goal and a heuristic estimate of the remaining cost. Here's the algorithm description and a simple C++ implementation.
+
+Algorithm:
+
+Create two lists: an open list and a closed list.
+Initialize the open list with the starting node and a cost of 0.
+Initialize the closed list as empty.
+While the open list is not empty:
+a. Select the node with the lowest total cost (current cost + heuristic) from the open list.
+b. Move it to the closed list.
+c. If the current node is the goal, the path has been found.
+d. Otherwise, for each neighbor of the current node:
+i. If it's in the closed list or is an obstacle, skip it.
+ii. If it's not in the open list, add it with the current node as the parent and compute the cost.
+iii. If it's in the open list, update its cost if the new path is better.
+If the open list is empty and the goal has not been reached, there is no path.
+C++ Implementation:
+
+Here's a simple C++ implementation of the A* algorithm. You may need to adapt it to your specific use case.
+
+#include <iostream>
+#include <vector>
+#include <set>
+#include <map>
+#include <queue>
+
+struct Node {
+    int x, y;
+    int cost, heuristic;
+    Node* parent;
+
+    Node(int x, int y, int cost, int heuristic, Node* parent)
+        : x(x), y(y), cost(cost), heuristic(heuristic), parent(parent) {}
+
+    // Define a comparison function for the priority queue.
+    bool operator<(const Node& other) const {
+        return (cost + heuristic) > (other.cost + other.heuristic);
+    }
+};
+
+bool isValid(int x, int y, int numRows, int numCols) {
+    // Check if the coordinates are within the grid boundaries.
+    return (x >= 0 && y >= 0 && x < numRows && y < numCols);
+}
+
+std::vector<std::vector<int>> aStarSearch(std::vector<std::vector<int>>& grid, int startX, int startY, int goalX, int goalY) {
+    int numRows = grid.size();
+    int numCols = grid[0].size();
+
+    std::vector<std::vector<int>> path(numRows, std::vector<int>(numCols, 0));
+
+    // Define the possible movements: up, down, left, right.
+    int dx[] = {1, -1, 0, 0};
+    int dy[] = {0, 0, 1, -1};
+
+    std::priority_queue<Node> openSet;
+    std::set<std::pair<int, int>> closedSet;
+    std::map<std::pair<int, int>, Node> cameFrom;
+
+    // Add the start node to the open set.
+    openSet.emplace(startX, startY, 0, 0, nullptr);
+
+    while (!openSet.empty()) {
+        Node current = openSet.top();
+        openSet.pop();
+
+        if (current.x == goalX && current.y == goalY) {
+            // Reconstruct the path from goal to start.
+            Node* node = &current;
+            while (node != nullptr) {
+                path[node->x][node->y] = 1;
+                node = node->parent;
+            }
+            return path;
+        }
+
+        closedSet.insert({current.x, current.y});
+
+        for (int i = 0; i < 4; ++i) {
+            int newX = current.x + dx[i];
+            int newY = current.y + dy[i];
+
+            if (!isValid(newX, newY, numRows, numCols) || closedSet.count({newX, newY}) > 0 || grid[newX][newY] == 1) {
+                continue;
+            }
+
+            int newCost = current.cost + 1; // Assuming each step has a cost of 1.
+            int heuristic = std::abs(newX - goalX) + std::abs(newY - goalY);
+
+            // Check if this is a better path.
+            if (cameFrom.find({newX, newY}) == cameFrom.end() || newCost < cameFrom[{newX, newY}].cost) {
+                cameFrom[{newX, newY}] = Node(newX, newY, newCost, heuristic, &current);
+                openSet.emplace(newX, newY, newCost, heuristic, &cameFrom[{newX, newY}]);
+            }
+        }
+    }
+
+    return path; // No path found.
+}
+
+int main() {
+    // Define your grid with obstacles and dimensions.
+    std::vector<std::vector<int>> grid = {
+        {0, 0, 0, 0, 1},
+        {0, 1, 1, 0, 0},
+        {0, 0, 0, 1, 0},
+        {0, 1, 0, 0, 0},
+        {0, 0, 0, 0, 0}
+    };
+
+    int numRows = grid.size();
+    int numCols = grid[0].size();
+
+    int startX, startY, goalX, goalY;
+    
+    // Input the start and goal positions from the user.
+    std::cout << "Enter start position (x y): ";
+    std::cin >> startX >> startY;
+    
+    std::cout << "Enter goal position (x y): ";
+    std::cin >> goalX >> goalY;
+
+    std::vector<std::vector<int>> path = aStarSearch(grid, startX, startY, goalX, goalY);
+
+    // Print the path.
+    for (const auto& row : path) {
+        for (int cell : row) {
+            std::cout << cell << " ";
+        }
+        std::cout << std::endl;
+    }
+
+    return 0;
+}
