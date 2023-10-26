@@ -39,7 +39,7 @@ local result = table.concat(fruits, ", ", 2, 3)
 print(result)
 ```
 
-The code will return the following output:
+The output is the following:
 
 ```shell
 banana 🍌, cherry 🍒
