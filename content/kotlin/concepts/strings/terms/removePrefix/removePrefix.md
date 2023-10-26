@@ -44,17 +44,3 @@ The result will be printed as:
 ```shell
 Modified String: World
 ```
-
-## Codebyte Example
-
-This code is interactive and can be run.
-
-```codebyte/kotlin
-fun main() {
-    val originalString = "HelloWorld"
-    val prefix = "Hello"
-
-    val modifiedString = originalString.removePrefix(prefix)
-    println("Modified String: $modifiedString")
-}
-```
