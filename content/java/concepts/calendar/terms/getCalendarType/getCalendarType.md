@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **get CalendarType** method is a function available in the Calendar class in Java. It is used to retrieve the type or format of the calendar represented by the Calendar object. This method returns a string representing the calendar type, such as "gregory", "japanese", "buddhist", etc. This method does not accept any argument as a parameter.
+The **getCalendarType()** method is available in the Calendar class in Java. It is used to retrieve the type or format of the calendar represented by the Calendar object. This method returns a string representing the calendar type, such as "gregory", "japanese", "buddhist", etc. This method does not accept any argument as a parameter.
 
 ## Syntax
 
@@ -42,6 +42,6 @@ public class MyClass {
 
 This example returns the calendar type or class name of that calendar type:
 
-```java
+```shell
 Type of Calendar is: gregory
 ```
