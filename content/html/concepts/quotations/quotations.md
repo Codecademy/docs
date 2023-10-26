@@ -15,7 +15,7 @@ In HTML, a quotation is a portion of text that is attributed to a specific perso
 
 ## Short Quotations
 
-Short quotations such as a short sentence or fragment should be set off with the [`<q>` tag](https://www.codecademy.com/resources/docs/html/elements/q). Here's an example of how to use the `<q>` tag:
+Short quotations such as a short sentence or fragment should be set off with the [`<q>`](https://www.codecademy.com/resources/docs/html/elements/q) tag. Here's an example of how to use the `<q>` tag:
 
 ```html
 <p>
@@ -24,11 +24,13 @@ Short quotations such as a short sentence or fragment should be set off with the
 </p>
 ```
 
+![Short quote](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-quotations-1.png)
+
 In this example, the text "Imagination is more important than knowledge" is enclosed in the `<q>` tag to indicate that it's a quotation. The quotation marks around "Imagination is more important than knowledge" are automatically added by the browser.
 
 ## Long Quotations
 
-For longer quotations the `[<blockquote>](https://www.codecademy.com/resources/docs/html/elements/blockquote)` tag is used in lieu of `<q>`. Here's an example of how to use the `<blockquote>` tag:
+For longer quotations the [`<blockquote>`](https://www.codecademy.com/resources/docs/html/elements/blockquote) tag is used in lieu of `<q>`. Here's an example of how to use the `<blockquote>` tag:
 
 ```html
 <blockquote>
@@ -45,7 +47,9 @@ For longer quotations the `[<blockquote>](https://www.codecademy.com/resources/d
 </blockquote>
 ```
 
-In this example, the text "The best way to predict your future is to create it" is enclosed in the `<blockquote>` tag to indicate that it's a quotation. The `<footer>` tag is used to specify the author of the quote.
+![Long quote](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-quotations-2.png)
+
+In this example, the text "The greatest glory in living ... secondary.", is enclosed in the `<blockquote>` tag to indicate that it's a quotation. The `<footer>` tag is used to specify the author of the quote.
 
 Both the `<q>` and `<blockquote>` tags provide a semantic markup for quotations, which can be used by screen readers to distinguish quoted text from surrounding content, making it easier for visually impaired users to navigate web content.
 

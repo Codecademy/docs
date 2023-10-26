@@ -12,6 +12,7 @@ Data Visualization
 Developer Tools
 Discrete Math
 Game Development
+Information Technology
 Interview Prep
 iOS
 Machine Learning
@@ -19,4 +20,5 @@ Mobile Development
 Networking
 Web Design
 Web Development
+AI
 ```
