@@ -1,1 +1,1 @@
-content/cybersecurity/concepts/disaster-recovery/disaster-recovery.md
+content/general/concepts/modulo/modulo.md
