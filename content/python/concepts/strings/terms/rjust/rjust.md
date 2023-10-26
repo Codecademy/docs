@@ -22,12 +22,12 @@ parameter_string.rjust(length, padding_character)
 
 ### Required Parameters
 
- - `parameter_string`: The string to be modified with padding.
- - `length`: An integer used to determine how many characters of padding will be added. The number of padding characters will be equal to `length` minus the length of `string_parameter`.
+- `parameter_string`: The string to be modified with padding.
+- `length`: An integer used to determine how many characters of padding will be added. The number of padding characters will be equal to `length` minus the length of `string_parameter`.
 
 ### Optional Parameters
 
- - `padding_character`: The character used as the padding. Must be a single character. Default value is a space (`" "`).
+- `padding_character`: The character used as the padding. Must be a single character. Default value is a space (`" "`).
 
 ## Example
 
