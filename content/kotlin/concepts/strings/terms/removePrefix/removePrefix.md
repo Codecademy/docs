@@ -10,7 +10,7 @@ Tags:
   - 'Data Structures'
 CatalogContent:
   - 'learn-kotlin'
-  - 'paths/software-development'
+  - 'paths/computer-science'
 ---
 
 The **`removePrefix()`** method in Kotlin is used to remove a specified prefix from a string if it is present. The `removePrefix()` method returns a new `string` with the specified prefix removed if it exists. If the original string does not start with the specified prefix, the method returns the original string unchanged.
