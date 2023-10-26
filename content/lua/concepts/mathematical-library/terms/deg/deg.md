@@ -33,8 +33,8 @@ math.deg(x)
 The following example shows the usage of `math.deg()` by converting an angle of a right triangle from radians to degrees:
 
 ```lua
--- Given angle in radians (for example, pi/4 radians)
-local angleInRadians = math.pi / 4
+-- Given angle in radians (for example, pi/3 radians)
+local angleInRadians = math.pi / 3
 
 -- Convert radians to degrees using math.deg()
 local angleInDegrees = math.deg(angleInRadians)
@@ -46,5 +46,5 @@ print("Angle of the right triangle in degrees: " .. angleInDegrees)
 The above example results in the following output:
 
 ```shell
-Angle of the right triangle in degrees: 45.0
+Angle of the right triangle in degrees: 60.0
 ```
