@@ -10,9 +10,9 @@ Tags:
   - 'Graphs'
   - 'Metadata'
   - 'Semantic'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
-  - 'learn-example-course'
-  - 'paths/example-path'
+CatalogContent:
+  - 'paths/data-science-foundations'
+  - 'paths/data-science-nlp'
 ---
 
 **Semantic technologies** are a class of technologies used for data management. Compared to other data management technologies, semantic technologies have a particular focus on making the underlying meaning of the data more transparent to both human and machine users of that data.
