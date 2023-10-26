@@ -24,13 +24,13 @@ It is said that in order to combine numbers correctly, it's best to look for the
 
 Some notes on `"AND"`:
 
-- corresponds to the Cartesian product of sets
-- If you choose one element of the set A AND you choose one element of the set B, then this is equivalent to choosing one element of the `Cartesian product of A and B`
+- Corresponds to the Cartesian product of sets.
+- If one element of the set A `AND` one element of the set B is chosen, then this is equivalent to choosing one element of the `Cartesian product of A and B`.
 
-Some notes on `"OR"`:
+Some notes on `OR`:
 
-- corresponds to the union of sets
-- If you choose one element of the set A OR you choose one element of the set B, then this is equivalent to choosing one element of the `union of A and B`
+- Corresponds to the union of sets.
+- If an element of the set A `OR` one element of the set B is chosen, then this is equivalent to choosing one element of the union of A and B.
 
 It is very useful to describe a choice sequence for constructing the set of objects of interest by paying close attention to the words `"AND"` and `"B"`.
 
