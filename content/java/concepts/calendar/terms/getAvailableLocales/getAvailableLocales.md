@@ -44,7 +44,6 @@ public class CalendarLocaleExample {
 
         System.out.println("Available Locales:");
 
-        // Output:
         for (Locale locale : availableLocales) {
             System.out.println(locale.getDisplayName());
         }
