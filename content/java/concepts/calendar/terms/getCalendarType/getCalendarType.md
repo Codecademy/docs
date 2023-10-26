@@ -43,6 +43,6 @@ public class MyClass {
 ```
 This example returns the calendar type or class name of that calendar type:
 
-```java
+```shell
 Type of Calendar is: gregory
 ```
