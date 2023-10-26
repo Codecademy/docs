@@ -3,6 +3,7 @@ Title: 'cos()'
 Description: 'Returns the cosine of an angle represented in radians.'
 Subjects:
   - 'Computer Science'
+  - 'Game Development'
 Tags:
   - 'Functions'
   - 'Math'
