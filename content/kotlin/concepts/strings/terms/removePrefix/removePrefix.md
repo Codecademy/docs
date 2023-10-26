@@ -13,17 +13,16 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`removePrefix()`** method in Kotlin is used to remove a specified prefix from a string if it is present. The `removePrefix()` method returns a new `string` with the specified prefix removed if it exists. If the original string does not start with the specified prefix, the method returns the original string unchanged.
+The **`removePrefix()`** method in Kotlin is used to remove a specified prefix from a string if it is present. The `removePrefix()` method returns a new string with the specified prefix removed if it exists. If the original string does not start with the specified prefix, the method returns the original string unchanged.
 
 ## Syntax
 
 ```pseudo
-val modifiedString = originalString.removePrefix(prefixToRemove)
+val modifiedString = originalString.removePrefix(prefix)
 ```
 
-`originalString`: The original string from which the prefix will be removed.
-`prefix`: The prefix which will be removed from the original string.
-
+- `originalString`: The original string from which the prefix will be removed.
+- `prefix`: The prefix which will be removed from the original string.
 
 ## Example
 
