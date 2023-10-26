@@ -1,5 +1,5 @@
 ---
-Title: 'regionMatches()'
+Title: '.regionMatches()'
 Description: 'Checks if a specified region within a Kotlin String matches the content of another string.'
 Subjects:
   - 'Code Foundations'
@@ -13,11 +13,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**regionMatches()** for char sequence checks if a specified region within a Kotlin char sequence matches the content of another char sequence.
+**.regionMatches()** for char sequence checks if a specified region within a Kotlin char sequence matches the content of another char sequence. It also checks if a specified region within a Kotlin String matches the content of another string.
 
-**regionMatches()** for string checks if a specified region within a Kotlin String matches the content of another string.
-
-## Syntax
+## Syntax (Char Sequence)
 
 ```pseudo
 // regionMatches() method for CharSequence
@@ -32,12 +30,7 @@ fun CharSequence.regionMatches(
 
 Returns true if the specified region in this char sequence is equal to the specified region in another char sequence.
 
-Parameters
-
-- thisOffset - the start offset in this char sequence of the substring to compare.
-- other - the string against a substring of which the comparison is performed.
-- otherOffset - the start offset in the other char sequence of the substring to compare.
-- length - the length of the substring to compare.
+## Syntax (String)
 
 ```pseudo
 // regionMatches() method for String
@@ -52,16 +45,9 @@ fun String.regionMatches(
 
 Returns true if the specified region in this string is equal to the specified region in another string.
 
-Parameters
+## Example (Char Sequence)
 
-- thisOffset - the start offset in this string of the substring to compare.
-- other - the string against a substring of which the comparison is performed.
-- otherOffset - the start offset in the other string of the substring to compare.
-- length - the length of the substring to compare.
-
-## Example
-
-The following example uses the `regionMatches()`for char sequence to check if a specified region within a Kotlin char sequence matches the content of another char sequence. The result is then printed:
+The following example uses the `.regionMatches()` for char sequence. The result is then printed:
 
 ```kotlin
 fun main() {
@@ -72,7 +58,7 @@ fun main() {
         thisOffset = 7,
         other = charSeq2,
         otherOffset = 0,
-        length = 5,
+        length = 4,
         ignoreCase = true
     )
 
@@ -90,7 +76,9 @@ This prints the following output:
 The specified region in charSeq1 matches the content of charSeq2.
 ```
 
-The following example uses the `regionMatches()`for string to check if a specified region within a Kotlin string matches the content of another string. The result is then printed:
+## Example (String)
+
+The following example uses the `.regionMatches()` for string. The result is then printed:
 
 ```kotlin
 fun main() {
