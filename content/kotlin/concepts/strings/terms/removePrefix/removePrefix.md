@@ -39,7 +39,7 @@ fun main() {
 }
 ```
 
-In this example, the `removePrefix()` method is used to remove the "Hello" prefix from the original string. The result will be printed as:
+The result will be printed as:
 
 ```shell
 Modified String: World
