@@ -50,3 +50,43 @@ Please read through the [Contribution Guide](https://www.codecademy.com/resource
 ## Additional Notes
 
 Remember, if you ever have any questions at all, we're always here to help in the [Codecademy Forums](https://discuss.codecademy.com/c/community/community-docs/2205) and [Codecademy Discord](https://discord.com/invite/codecademy).
+
+
+# Contribution guidelines 
+
+Welcome to [Codecademy/docs]! We're thrilled that you'd like to contribute. Your help is essential for making it better.
+
+## Getting Started
+
+Before you start contributing, please make sure you have read and understood our [Code of Conduct].
+
+### Fork the Repository
+
+First, fork the [repository](https://github.com/Codecademy/docs) to your own GitHub account. This will create a copy of the project under your account.
+
+
+### Clone the Repository
+```
+git clone https://github.com/Codecademy/docs
+```
+### Navigate to the project directory 📁
+```
+cd docs
+```
+Create a new branch for your feature or bug fix:
+```
+ git checkout -b feature-branch
+ ```
+
+Make your changes and commit them:
+```
+git add .
+git commit -m "Description of your changes"
+```
+Push your changes to your fork:
+```
+git push origin feature-branch
+```
+Finally Click on Create Pull request to contribute on this repository.
+
+
