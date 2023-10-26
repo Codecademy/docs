@@ -1,6 +1,6 @@
 ---
 Title: '.zfill()' 
-Description: 'Takes an int and returns a copy of the string with a number of zeros preppended as a suffix , i.e "no. of zeros" + string.'
+Description: 'Takes an int and returns a copy of the string with a number of zeros preppended as a prefix , i.e "no. of zeros" + string.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
@@ -16,14 +16,16 @@ CatalogContent:
 The **`.zfill()`**  method pads a string with zeros on the left to maintain a specific length. It takes an integer argument, and the number of zeros added is determined by the difference between the specified length and the length of the original string.
 
 > **Note:** The `.zfill()` method does not change the string it is used on.
-If no argument is passed into the method. A type error is thrown
 
 ## Syntax
+
 ```pseudo
-string.zfill(arg(int))
+result = string.zfill(arg(int))
 ```
 
-## Codebyte Example
+It creates a new string with leading zeros based on the specified integer argument, represented by `arg`. The modified string is stored in the variable `result`.
+
+## Example 1
 The following example shows how `.zfill()` returns a copy of that string with leading zeros. 
 
 ```py
@@ -57,26 +59,8 @@ Codecademy
 
 ```
 
-## Example
-The following example shows the error thrown when `.zfill()` is used without an arguement passed in
-
-```py
-string = "Codecademy"
-
-string.zfill()
-```
-
-This would output:
-
-```shell
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-TypeError: zfill() takes exactly 1 argument (0 given)
-```
-
-The above error simply means the `.zfill` method is missing the integer paramater
-
 ## Codebyte Example
+
 The following example shows how `.zfill()` method helps ensure a specific length for a string, adding zeros to the beginning if the string is shorter than the desired length.
 
 ```codebyte/python
