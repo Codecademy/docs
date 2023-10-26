@@ -26,15 +26,30 @@ PRs are featured on popular version control platforms such as [GitHub](https://g
 
 ## Create a Pull Request
 
-The prerequisites for creating a PR and contributing to a project are:
+### Method 1: Fork (Ideal for Open Source Projects)
 
 1. Fork the project.
-2. Clone the forked repository to local machine.
-3. Create, and switch into, a new branch.
-4. Add, commit, and push the changes back to the repository.
+2. Clone the forked repository to your local machine.
+3. Create a new branch, then switch to it.
+4. `add`, `commit`, and `push` the changes to your forked repository.
+5. From the web page of **YOUR** forked repository, click on the "Pull request" tab.
 
-With the newly added changes pushed, open the web page of the repository. There should be a button that says "Create Pull Request" placed somewhere, similar to the image below.
+### Method 2: Collaborators (Ideal for Small Teams)
+If you are a collaborator of a repository (meaning the repository owner has added you as a collaborator), you can:
 
-![Repo page with Pull Request detect button](https://i.imgur.com/TsKCnyr.png)
+1. Clone the repository.
+2. Create a new branch, then switch to it.
+3. Make your changes, `commit`, and then `push` the branch to the repository.
+4. From the web page of the repository, click on "Pull Request" tab.
 
-Click that button and follow the steps to create the PR.
+### Method 3: Within an Organization/Company
+If you are part of an organization/company, depending on your permissions, you may have the privilege to push branches directly and create PRs.
+
+1. Clone the repository.
+2. Create and switch to a new branch.
+3. Make your changes, `commit`, and then `push` the branch to the repository.
+4. From the web page of the repository, click on "Pull Request".
+
+> [!IMPORTANT]
+> Regardless of the method you choose, be sure to follow the contribution guidelines and
+> standards specific to the project you are working on.
