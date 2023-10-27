@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-**`Slider`** is a [structure](https://www.codecademy.com/resources/docs/swift/structures) that creates an interface with a sliding controller, enabling users to choose a value from within a range of values.
+**`Slider`** is a [structure](https://www.codecademy.com/resources/docs/swift/structures) that creates an interface with a sliding controller, enabling users to choose from a range of values.
 
 A `Slider` instance can be customised so that the value changes by a specific step amount within its range. It's also possible to add minimum and maximum labels and track when the slider is being edited.
 
