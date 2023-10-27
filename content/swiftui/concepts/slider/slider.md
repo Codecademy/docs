@@ -1,6 +1,6 @@
 ---
 Title: 'Slider'
-Description: 'Slider is a structure that creates an interface with a sliding controller, enabling users to choose a value from within a range of values.'
+Description: 'A structure that creates an interface with a sliding controller, enabling users to choose from a range of values.'
 Subjects:
   - 'Mobile Development'
   - 'iOS'
