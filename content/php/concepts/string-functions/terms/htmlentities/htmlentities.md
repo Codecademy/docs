@@ -25,32 +25,32 @@ The `htmlentities()` function has one required parameter and three optional para
 
 - `$string`: Required parameter that specifies the `string` to convert.
 - `$flags`: Optional parameter that specifies how to handle quotes, invalid encoding, and the used document type. Ex: `ENT_QUOTES` | `ENT_SUBSTITUTE` | `ENT_HTML5`.
-  
-   - The available quote styles are:
 
-    | Constant Name | Description|
-    | ------------- | ----------------------------------- |
-    | `ENT_COMPAT`    | Default. htmlentities() function encodes only double quotes from `$string`|
-    | `ENT_QUOTES`    | htmlentities() function encodes double and single quotes from `$string`   |
-    | `ENT_NOQUOTES`  | htmlentities() function does not encode any quotes from `$string`|
+  - The available quote styles are:
+
+  | Constant Name  | Description                                                                |
+  | -------------- | -------------------------------------------------------------------------- |
+  | `ENT_COMPAT`   | Default. htmlentities() function encodes only double quotes from `$string` |
+  | `ENT_QUOTES`   | htmlentities() function encodes double and single quotes from `$string`    |
+  | `ENT_NOQUOTES` | htmlentities() function does not encode any quotes from `$string`          |
 
   - Invalid encoding:
 
-    | Constant Name  | Description |
-    |---|---|                                                                                                                                    
-    | `ENT_IGNORE`| htmlentities() function ignores invalid encoding instead of having the function return an empty string. Should be avoided, as it may have security|                        
+    | Constant Name    | Description                                                                                                                                                                           |
+    | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+    | `ENT_IGNORE`     | htmlentities() function ignores invalid encoding instead of having the function return an empty string. Should be avoided, as it may have security                                    |
     | `ENT_SUBSTITUTE` | htmlentities() function replaces invalid encoding for a specified character set with a Unicode Replacement Character U+FFFD (UTF-8) or &#FFFD; instead of returning an empty string.s |
-    | `ENT_DISALLOWED` | htmlentities() function replaces code points that are invalid in the specified doctype with a Unicode Replacement Character U+FFFD (UTF-8) or &#FFFD;|                
+    | `ENT_DISALLOWED` | htmlentities() function replaces code points that are invalid in the specified doctype with a Unicode Replacement Character U+FFFD (UTF-8) or &#FFFD;                                 |
 
   - Additional flags for specifying the used doctype:
 
-    | Constant Name | Description|
-    | ------------- | --------------------------------- |
-    | `ENT_HTML5`     | htmlentities() function handles code as HTML 5|
-    | `ENT_XHTML`     | htmlentities() function handles code as XHTML|
-    
+    | Constant Name | Description                                    |
+    | ------------- | ---------------------------------------------- |
+    | `ENT_HTML5`   | htmlentities() function handles code as HTML 5 |
+    | `ENT_XHTML`   | htmlentities() function handles code as XHTML  |
+
 - `$encoding`: Optional argument defining the encoding used when converting characters. If omitted, `$encoding` defaults to the value of the `default_charset` configuration option. It is highly encouraged to specify the correct value for the code if the `default_charset` configuration option is set incorrectly for the given input.
-  
+
   - Character sets that are supported:
     |Charset|Aliases|Description|
     |---|---|---|
@@ -63,20 +63,20 @@ The `htmlentities()` function has one required parameter and three optional para
     |MacRoman||htmlentities() function works with charset that was used by Mac OS.|
 
     > **Note:** Any other character sets are not recognized. The default encoding will be used instead and a warning will be emitted.
-    
+
 - `$double_encode`: Optional parameter that specifies whether to encode existing HTML entities. Defaults to `TRUE` and will convert all entities in the string. If set to `FALSE`, the function will not encode existing html entities.
 
 > **Note:** The `htmlentities()` function returns the converted `$string`. However, if the `$string` parameter contains invalid encoding, it will return an empty `$string`, unless either the `ENT_IGNORE` or `ENT_SUBSTITUTE` flags are set
 
 **Entities that will be encoded**:
 
-|Characters|Convert to|Result|
-|---|---|---|
-|& (ampersand)|becomes|\&amp;|
-|" (double quote)|becomes|\&quot;|
-|' (single quote)|becomes|\&#039;|
-|< (less than)|becomes|\&lt;|
-|> (greater than)|becomes|\&gt;|.
+| Characters       | Convert to | Result  |
+| ---------------- | ---------- | ------- | --- |
+| & (ampersand)    | becomes    | \&amp;  |
+| " (double quote) | becomes    | \&quot; |
+| ' (single quote) | becomes    | \&#039; |
+| < (less than)    | becomes    | \&lt;   |
+| > (greater than) | becomes    | \&gt;   | .   |
 
 ## Example
 
