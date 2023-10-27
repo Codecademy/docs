@@ -61,7 +61,7 @@ It's important to note that in Lua (and Luau), when accessing a dictionary or ar
 
 ## Replacing Elements
 
-You can reassign values in Luau arrays by specifying the index and providing a new value, as shown below:
+Values can be reassigned in Luau arrays by specifying the index and providing a new value, as shown below:
 
 ```lua
 a[2] = “c” -- Now the object at index is 2 is c instead of b
