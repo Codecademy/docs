@@ -35,9 +35,9 @@ To access an array element, the desired value is called by its _index_. For exam
 
 ```lua
 a = {
-    [1] = “a”,
-    [2] = “b”,
-    [3] = “c”
+    [1] = "a",
+    [2] = "b",
+    [3] = "c"
 }
 ```
 
