@@ -33,13 +33,10 @@ math.deg(x)
 The following example shows the usage of `math.deg()` by converting an angle of a right triangle from radians to degrees:
 
 ```lua
--- Given angle in radians (for example, pi/4 radians)
 local angleInRadians = math.pi / 4
 
--- Convert radians to degrees using math.deg()
 local angleInDegrees = math.deg(angleInRadians)
 
--- Output the result
 print("Angle of the right triangle in degrees: " .. angleInDegrees)
 ```
 
