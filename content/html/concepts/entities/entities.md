@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Entities are character sequences placed in the text of an HTML document to print out reserved characters which may otherwise be interpreted as HTML code by a browser, or other special characters that would be difficult to generate with a typical keyboard. In fact, using reference numbers, an entity can represent any Unicode character. When parsing the HTML, a browser replaces the entity's character sequence with the character it represents.
+**Entities** are character sequences placed in the text of an HTML document to print out reserved characters which may otherwise be interpreted as HTML code by a browser, or other special characters that would be difficult to generate with a typical keyboard. In fact, using reference numbers, an entity can represent any Unicode character. When parsing the HTML, a browser replaces the entity's character sequence with the character it represents.
 
 ## Syntax
 
@@ -62,12 +62,16 @@ More can be found in this [extensive HTML 5 entity reference](https://dev.w3.org
 There is an entity `&Tab;` (or `&#9;`) which nominally produces a tab character. However, it will not behave as expected because HTML collapses whitespace where it appears in text with the exception of the non-breaking space entity, `&nbsp;`. So to render a tab in HTML text, it needs to be wrapped within a `<pre>` tag to preserve the whitespace.
 
 ```html
-<p>The tab entity &Tab; in this sentence is collapsed</p>
+<p>The tab entity &Tab; in this sentence is collapsed.</p>
 
 <pre>
-  <p>The Tab entity &Tab; in this sentence is preserved</p>
+  <p>The tab entity &Tab; in this sentence is preserved.</p>
 </pre>
 ```
+
+Output:
+
+![Output for the tab entity code block above](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-entity-tab.png)
 
 Alternatively, four `&nbsp;` entities can be used.
 
