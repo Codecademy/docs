@@ -26,7 +26,7 @@ Math.abs(n)
 
 The method takes the numeric expression n as its argument and returns the absolute value, ensuring that the result is always a non-negative value.
 
-### Example 
+## Example 
 
 ```kotlin
 import kotlin.math.abs
