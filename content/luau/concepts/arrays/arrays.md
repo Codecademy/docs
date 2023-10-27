@@ -67,7 +67,7 @@ Values can be reassigned in Luau arrays by specifying the index and providing a 
 a[2] = "c" -- Now the object at index is 2 is c instead of b
 ```
 
-To remove an element, you can simply reassign the index to `nil`.
+To remove an element, simply reassign the index to `nil`.
 
 ```lua
 a[2] = 'nil'
