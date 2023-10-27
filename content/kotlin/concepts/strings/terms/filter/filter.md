@@ -15,7 +15,7 @@ CatalogContent:
 
 ## Syntax
 
-The **filter()** function is used to filter elements from a collection based on a given _predicate_. It returns a new collection containing only elements which statifies a specified condition.
+The **`filter()`** function is used to filter elements from a collection based on a given `predicate`. It returns a new collection containing only elements which satisfies a specified condition.
 
 ```pseudo
 str.filter(predicate: (char) -> Boolean)
