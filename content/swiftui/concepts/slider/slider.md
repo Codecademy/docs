@@ -93,7 +93,7 @@ struct SliderView: View {
 }
 ```
 
-A `circleWidth` variable is declared and bound to a `Slider` instance inside a [`VStack`](https://www.codecademy.com/resources/docs/swiftui/views/vstack). The slider has a range between 0 and 300, and a step increment of 10. The `onEditingChanged` callback updates the boolean `isEditing` variable to `true` when the slider is in use and to `false` when not in use.
+A `circleWidth` variable is declared and bound to a `Slider` instance inside a [`VStack`](https://www.codecademy.com/resources/docs/swiftui/views/vstack). The slider has a range between `0` and `300`, and a step increment of `10`. The `onEditingChanged` callback updates the boolean `isEditing` variable to `true` when the slider is in use and to `false` when not in use.
 
 The slider line has a mint color by applying the `.tint(.mint)` [view modifier](https://www.codecademy.com/resources/docs/swiftui/viewmodifier).
 
