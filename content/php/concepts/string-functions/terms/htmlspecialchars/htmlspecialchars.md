@@ -41,7 +41,7 @@ The available flags are listed in the table below:
 |`ENT_QUOTES`    | Encodes both double and single quotes                                                                                |
 |`ENT_NOQUOTES`  | Does not encode double nor single quotes                                                                             |
 |`ENT_IGNORE`    | Discards invalid encoding instead of the function returning an empty string                                          |
-|`ENT_SUBSTITUTE`| Replaces invalid encoding with a unicode character  U+FFFD (UTF-8) or &#xFFFD; instead of returning an empty string  |
+|`ENT_SUBSTITUTE`| Replaces invalid encoding with a unicode character `U+FFFD` (UTF-8) or `&#xFFFD;` instead of returning an empty string  |
 |`ENT_DISALLOWED`| Replaces invalid code for the specified doctype with a Unicode Replacement Character U+FFFD (UTF-8) or &#FFFD;       |
 |`ENT_HTML401`   | Handles code as HTML 4.01                                                                                            |
 |`ENT_HTML5`     | Handles code as HTML 5                                                                                               |
