@@ -57,7 +57,7 @@ dictionary = {
 print(dictionary["C"]) -- "Cat"
 ```
 
-It's important to note that in Lua (and Luau), when you access a dictionary or array using an index or key, Luau returns the associated value, not the index or key itself.
+It's important to note that in Lua (and Luau), when accessing a dictionary or array using an index or key, Luau returns the associated value, not the index or key itself.
 
 ## Replacing Elements
 
