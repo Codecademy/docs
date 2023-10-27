@@ -41,17 +41,17 @@ print('I am ' .. firstName .. ', ' .. lastName .. '.')
 Luau supports escape sequences essential in strings to represent special characters or formatting that cannot be directly typed. For example, escape sequences permit the use of characters like double quotes or single quotes within a string without causing syntax errors. These sequences begin with a backslash (`\`) followed by another character. The table below shows some common escape sequences:
 
 | Escape Sequence | Description     |
-| --------------- | ----------------|
-|`\"`             | Double quote    |
-|`\'`             | Single quote    |
-|`\n`             | Newline        |
-|`\\`             | Backslash       |
-|`\b`             | Backspace       |
-|`\t`             | Tab             |
-|`\v`             | Vertical tab    |
-|`\a`             | Bell (alert)    |
-|`\f`             | Form feed       |
-|`\r`             | Carriage return |
+| --------------- | --------------- |
+| `\"`            | Double quote    |
+| `\'`            | Single quote    |
+| `\n`            | Newline         |
+| `\\`            | Backslash       |
+| `\b`            | Backspace       |
+| `\t`            | Tab             |
+| `\v`            | Vertical tab    |
+| `\a`            | Bell (alert)    |
+| `\f`            | Form feed       |
+| `\r`            | Carriage return |
 
 The following example shows the usage of the newline escape characters (`\n`) to represent newlines in a string:
 
