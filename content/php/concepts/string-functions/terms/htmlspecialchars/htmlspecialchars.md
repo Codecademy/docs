@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`htmlspecialchars()`** function takes a string of special characters and converts the string to HTML entities. The special characters have special significance in HTML and need to be represented by HTML entities to preserve their meaning. The special characters and their converted HTML entities are listed in the table below:
+The **`htmlspecialchars()`** function takes a string of special characters and converts the string to HTML entities. These special characters have a specific value in HTML and need to be represented by HTML entities to preserve their meaning. The special characters and their converted HTML entities are listed in the table below:
 
 | Character | Converted HTML entity |
 |-----------|-----------------------|
