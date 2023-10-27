@@ -24,9 +24,7 @@ str.filter(predicate: (char) -> Boolean)
 
 Given a string `str` above, `filter()` method can filter the characters from the string using a predicate which is passed as an argument.
 
-### Predicate
-
-Predicates are lambda functions that takes an element of the collection as an argument and returns a `Boolean` value. The filter() function will include the elements for which the predicate returns `true` in the resulting collection.
+- `Predicates` are lambda functions that takes an element of the collection as an argument and returns a `Boolean` value. The **`filter()`** function will include the elements for which the predicate returns `true` in the resulting collection.
 
 ## Example
 
