@@ -12,14 +12,16 @@ CatalogContent:
   - 'learn-kotlin'
   - 'paths/computer-science'
 ---
+
 The **`filter()`** function is used to filter elements from a collection based on a given `predicate`. It returns a new collection containing only elements which satisfies a specified condition.
-## Syntax 
+
+## Syntax
 
 ```pseudo
 str.filter(predicate: (char) -> Boolean)
 ```
 
-Given a string `str` above, `filter()` method can filter the characters from the string using a predicate which is passed as an argument.
+When working with the string `str` above, the `filter()` method only allows the selective characters based on the specified predicate which is passed as an argument.
 
 - `Predicates` are lambda functions that takes an element of the collection as an argument and returns a `Boolean` value. The **`filter()`** function will include the elements for which the predicate returns `true` in the resulting collection.
 
