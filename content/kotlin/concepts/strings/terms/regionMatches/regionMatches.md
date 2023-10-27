@@ -54,10 +54,10 @@ Returns true if the specified region in this string is equal to the specified re
 
 Parameters:
 
-- thisOffset - the starting position in this string for the substring to be compared.
-- other - the string to which a substring is compared.
-- otherOffset - the starting position in the other string for the substring to be compared.
-- length - the length of the substring to be compared.
+- `thisOffset`: The starting position in this string for the substring to be compared.
+- `other`: The string to which a substring is compared.
+- `otherOffset`: The starting position in the other string for the substring to be compared.
+- `length`: The length of the substring to be compared.
 
 ## Example (Char Sequence)
 
