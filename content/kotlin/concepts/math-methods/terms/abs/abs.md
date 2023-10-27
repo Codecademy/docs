@@ -53,4 +53,4 @@ Absolute value of y: 2
 Absolute value of z: 340.8
 ```
 
-The **`.abs()`** method is notably useful when ensuring that a value is treated as positive, irrespective of its original sign.
+> **Note**: The `.abs()` method is notably useful when ensuring that a value is treated as positive, irrespective of its original sign.
