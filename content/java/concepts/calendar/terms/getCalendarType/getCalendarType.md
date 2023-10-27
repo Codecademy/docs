@@ -24,6 +24,8 @@ someCalendar.getCalendarType()
 - `someCalendar`: The given calendar to be addressed.
 ## Example
 
+The following code demonstrates how to use the `.getCalendarType()` method to obtain and display the type of calendar used by the Calendar instance, which represents the default calendar for the current locale in Java.
+
 ```java
 import java.util.Calendar;
 
