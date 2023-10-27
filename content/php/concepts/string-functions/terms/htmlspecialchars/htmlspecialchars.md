@@ -1,6 +1,6 @@
 ---
 Title: 'htmlspecialchars()'
-Description: 'Ruturns a converted string of HTML entities.'
+Description: 'Returns a converted string of HTML entities.'
 Subjects:
   - 'Web Design'
   - 'Web Development'
@@ -25,13 +25,15 @@ The **`htmlspecialchars()`** function takes a string of special characters and c
 ## Syntax
 
 ```pseudo
-htmlspecialchars(string $string, int $flag, $string $encoding =null, bool $double_encode = true)
+htmlspecialchars(string $string, int $flag, $string $encoding = null, bool $double_encode = true)
 ```
 
 The `htmlspecialchars()` takes four parameters.
 
 - `$string` : A required parameter that specifies the string to be converted.
 - `$flag` : An optional string value that specifies how to handle quotes.
+- `$encoding`: An optional string value that specifies the character-set to use when converting characters.
+- `$double_encode`:  An optional boolean value that specifies whether to encode existing html or not. 
 
 The available flags are listed in the table below:
 
@@ -47,8 +49,6 @@ The available flags are listed in the table below:
 |`ENT_HTML5`     | Handles code as HTML 5                                                                                               |
 |`ENT_XML1`      | Handles code as XML 1                                                                                                |
 |`ENT_XHTML1`    | Handles code as XHTML                                                                                                |
-
-- `$encoding`: An optional string value that specifies the character-set to use when converting characters. 
 
 The supported character sets are listed in the table below:
 
@@ -68,7 +68,6 @@ The supported character sets are listed in the table below:
 |`EUC-JP`     | Japanese                                                                                |
 |`MacRoman`   | Character-set that was used by Mac OS                                                   |
 
-- `$double_encode`:  An optional boolean value that specifies whether to encode existing html or not. 
 
 > **Note**: If `$string` contains an invalid code, the function will return an empty string unless `$flag` is set to `ENT_IGNORE` or `ENT_SUBSTITUTE`.
 
