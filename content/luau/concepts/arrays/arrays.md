@@ -105,7 +105,7 @@ table.remove(a, 3) -- Removes the element at index 3 from array 'a'
 
 ## Multi-Dimensional Arrays
 
-Luau supports multi-dimensional arrays, which are arrays of arrays. You can create them like this:
+Luau supports multi-dimensional arrays, which are arrays of arrays. They can be created like this:
 
 ```lua
 matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}
