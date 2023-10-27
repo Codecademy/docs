@@ -30,17 +30,16 @@ Math.abs(n)
 import kotlin.math.abs
 
 fun main() {
-    val x = -6.5
-    val y = 2
-    val z = -340.8
+  val x = -6.5
+  val y = 2
+  val z = -340.8
 
-    val absoluteX = abs(x)
-    val absoluteY = abs(y)
-    val absoluteZ = abs(z)
-
-    println("Absolute value of x: $absoluteX")
-    println("Absolute value of y: $absoluteY")
-    println("Absolute value of z: $absoluteZ")
+  val absoluteX = abs(x)
+  val absoluteY = abs(y)
+  val absoluteZ = abs(z)
+  println("Absolute value of x: $absoluteX")
+  println("Absolute value of y: $absoluteY")
+  println("Absolute value of z: $absoluteZ")
 }
 ```
 
