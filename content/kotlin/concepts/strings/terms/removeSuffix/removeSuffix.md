@@ -26,7 +26,7 @@ String.removeSuffix(suffix)
 
 ## Example
 
-This example shows how to use the `removeSuffix()` method to remove a suffix from a Kotlin string:
+This example shows how to use the `.removeSuffix()` method to remove a suffix from a Kotlin string:
 
 ```kotlin
 fun main() {
