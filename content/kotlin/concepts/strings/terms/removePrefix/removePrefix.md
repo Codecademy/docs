@@ -30,11 +30,11 @@ This example shows how to use the `removePrefix()` method to remove a prefix fro
 
 ```kotlin
 fun main() {
-    val originalString = "HelloWorld"
-    val prefix = "Hello"
+  val originalString = "HelloWorld"
+  val prefix = "Hello"
 
-    val modifiedString = originalString.removePrefix(prefix)
-    println("Modified String: $modifiedString")
+  val modifiedString = originalString.removePrefix(prefix)
+  println("Modified String: $modifiedString")
 }
 ```
 
