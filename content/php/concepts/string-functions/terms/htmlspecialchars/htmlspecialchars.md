@@ -78,7 +78,7 @@ The following example uses `htmlspecialchars()` to convert the special character
 
 ```php
 <?php
-    $statement ="Codecademy  offers courses in various programing languages like Java, PHP, C++ & many others.";
+    $statement ="Codecademy offers courses in various programming languages like Java, PHP, C++ & many others.";
     echo htmlspecialchars($statement, ENT_COMPAT);
 ?>
 ```
