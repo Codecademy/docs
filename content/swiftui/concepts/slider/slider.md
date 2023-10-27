@@ -101,7 +101,7 @@ Below the `Slider` is a [`ZStack`](https://www.codecademy.com/resources/docs/swi
 
 Layered above the gray `Circle` is another `Circle` that has its width determined by `circleWidth`, it is purple while the user is editing the slider and mint otherwise.
 
-Below the `ZStack` is a [text view](https://www.codecademy.com/resources/docs/swiftui/views/text) that shows the value of `circleWidth` as an integer and updates when the slider value changes.
+Below the `ZStack` is a [text view](https://www.codecademy.com/resources/docs/swiftui/views/text) that shows the value of `circleWidth` in real-time as the slider value changes.
 
 This code will display:
 
