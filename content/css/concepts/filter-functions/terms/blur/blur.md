@@ -34,4 +34,4 @@ Give the image a blur radius of 4px:
 }
 ```
 
-![css-filterfunctions-blur-example](https://github.com/DanWSDev/docs/blob/patch-3/media/css-filterfunctions-blur-example.png)
+![css-filterfunctions-blur-example](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-filterfunctions-blur-example.png)
