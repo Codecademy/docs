@@ -97,7 +97,7 @@ Elements can be added to the end of an array using the `table.insert()` function
 table.insert(a, 6) -- Adds the value 6 to the end of array 'a'
 ```
 
-To remove an element from an array, you can use the `table.remove()` function:
+To remove an element from an array, use the `table.remove()` function:
 
 ```lua
 table.remove(a, 3) -- Removes the element at index 3 from array 'a'
