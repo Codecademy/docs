@@ -30,11 +30,11 @@ This example shows how to use the `.removeSuffix()` method to remove a suffix fr
 
 ```kotlin
 fun main() {
-    val originalString = "HelloWorld.jpg"
-    val suffix = ".jpg"
+  val originalString = "HelloWorld.jpg"
+  val suffix = ".jpg"
 
-    val modifiedString = originalString.removeSuffix(suffix)
-    println("Modified String: $modifiedString")
+  val modifiedString = originalString.removeSuffix(suffix)
+  println("Modified String: $modifiedString")
 }
 ```
 
