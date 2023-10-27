@@ -24,7 +24,7 @@ The **math.sqrt()** function returns the result of the square root operation on 
 math.sqrt(num_var)
 ```
 
-Where the `num_var` is positive number.
+Where the `num_var` is a positive number.
 
 ## Example 1
 
