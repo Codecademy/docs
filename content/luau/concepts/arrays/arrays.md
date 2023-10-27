@@ -49,12 +49,12 @@ For example:
 
 ```lua
 dictionary = {
-    [“A”] = “Apple”,
-    [“B”] = “Banana”,
-    [“C”] = “Cat”
+    ["A"] = "Apple",
+    ["B"] = "Banana",
+    ["C"] = "Cat"
 }
 
-print(dictionary[“C”]) -- “Cat”
+print(dictionary["C"]) -- "Cat"
 ```
 
 It's important to note that in Lua (and Luau), when you access a dictionary or array using an index or key, Luau returns the associated value, not the index or key itself.
