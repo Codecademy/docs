@@ -43,7 +43,7 @@ fun main() {
 }
 ```
 
-In this example, the **`abs`** function is imported from the `kotlin.math` library and employed to calculate the absolute values of different numeric expressions. The results are subsequently printed to the console. 
+In this example, the `abs` function is imported from the `kotlin.math` library and employed to calculate the absolute values of different numeric expressions. The results are subsequently printed to the console. 
 
 The output of this code will be:
 
