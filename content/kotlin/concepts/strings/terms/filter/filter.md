@@ -19,7 +19,6 @@ The **`filter()`** function is used to filter elements from a collection based o
 
 ```pseudo
 str.filter(predicate: (char) -> Boolean)
-
 ```
 
 Given a string `str` above, `filter()` method can filter the characters from the string using a predicate which is passed as an argument.
