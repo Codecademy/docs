@@ -23,7 +23,7 @@ String.padStart(length, padChar)
 
 -`String`: The string to be modified.
 -`length`: An integer that represents the total length of the string returned (with padding).
--`padChar`: The character to be used (enclosed by `''`) as padding, defaults to whitespace..
+-`padChar`: The character to be used (enclosed by `''`) as padding, defaults to whitespace.
 
 ## Example
 
