@@ -15,7 +15,7 @@ CatalogContent:
 
 A **fork** is making a duplicate of an existing repository. This "fork" becomes a separate undertaking that the user is in charge of. Collaboration, experimentation, and contributions to open-source code are made possible by forking. It enables developers worldwide to collaborate, make changes, and contribute to projects while retaining the integrity of the source code. It is a secure approach to modify and test code without changing the original.
 
-*NOTE:* The fork command is provided by a separate command-line tool than Git.
+> **Note:** The fork command is provided by a separate command-line tool than Git.
 
 ## Steps to Fork a Repository
 
