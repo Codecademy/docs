@@ -6,6 +6,7 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Strings'
+  - 'Methods'
   - 'Comparison'
 CatalogContent:
   - 'learn-kotlin'
