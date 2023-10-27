@@ -2,7 +2,6 @@
 Title: 'htmlspecialchars()'
 Description: 'Ruturns a converted string of HTML entities.'
 Subjects:
-  - 'Computer Science'
   - 'Web Design'
   - 'Web Development'
 Tags:
