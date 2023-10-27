@@ -40,6 +40,6 @@ fun main(args: Array<String>) {
 
 Output of the above code will be:
 
-```pseudo
+```shell
 Filtered String : HelloWorld
 ```
