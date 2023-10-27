@@ -27,7 +27,7 @@ In the following example, an enum named `NewSettings` is declared, and it contai
 
 Then a tool called `JSONEncoder` is used to convert this dictionary into a special format called [JSON](https://www.codecademy.com/resources/docs/general/json). The JSON data is turned into readable text and the output is shown in an object format.
 
-```
+```swift
 enum NewSettings: String, Codable, CodingKeyRepresentable {
    case name
    case instagram
@@ -41,6 +41,6 @@ print(String(decoding: newData, as: UTF8.self))
 
 This code returns the following output:
 
-```
+```shell
 Output: {"instagram":"@CelticsfanJay","name":"Jay”}
 ```
