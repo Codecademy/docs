@@ -1,5 +1,5 @@
 ---
-Title: '.abs()'
+Title: 'abs()'
 Description: 'Returns the absolute value of the argument.'
 Subjects:
   - 'Computer Science'
@@ -12,19 +12,19 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-## Description
-
-The **`.abs()`** method in Kotlin's Math library is used to calculate the absolute value of a numeric expression. The absolute value is the non-negative value of a number, effectively removing its negative sign, if present.
+The **`abs()`** method in Kotlin's `math` library is used to calculate the absolute value of a numeric expression. The absolute value is the non-negative value of a number, effectively removing its negative sign, if present.
 
 ## Syntax
 
 ```pseudo
-Math.abs(n)
+math.abs(n)
 ```
 
-`n`: A numeric expression (e.g., `Int`, `Long`, `Double`, `Float`, etc.) for which you want to calculate the absolute value. The method takes the numeric expression n as its argument and returns the absolute value, ensuring that the result is always a non-negative value.
+`n`: A numeric expression (e.g., `Int`, `Long`, `Double`, `Float`). The method takes the numeric expression `n` as its argument and returns the absolute value, ensuring that the result is always a non-negative value.
 
-## Example 
+## Example
+
+In this example, the `abs()` function is imported from the `kotlin.math` library and employed to calculate the absolute values of different numeric expressions. The results are subsequently printed to the console.
 
 ```kotlin
 import kotlin.math.abs
@@ -43,8 +43,6 @@ fun main() {
 }
 ```
 
-In this example, the `abs` function is imported from the `kotlin.math` library and employed to calculate the absolute values of different numeric expressions. The results are subsequently printed to the console. 
-
 The output of this code will be:
 
 ```shell
@@ -53,4 +51,4 @@ Absolute value of y: 2
 Absolute value of z: 340.8
 ```
 
-> **Note**: The `.abs()` method is notably useful when ensuring that a value is treated as positive, irrespective of its original sign.
+> **Note**: The `abs()` method is useful when ensuring that a value is treated as positive, irrespective of its original sign.
