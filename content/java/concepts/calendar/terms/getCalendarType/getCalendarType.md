@@ -30,13 +30,13 @@ import java.util.Calendar;
 public class MyClass {
   public static void main(String[] args) {
     // Create a Calendar instance representing the default calendar for the current locale
-        Calendar calendar = Calendar.getInstance();
+       Calendar calendar = Calendar.getInstance();
 
         // Get the calendar type and store it in a variable
-        String calendarType = calendar.getCalendarType();
+           String calendarType = calendar.getCalendarType();
 
         // Display the calendar type
-        System.out.println("Type of Calendar is: " + calendarType);
+           System.out.println("Type of Calendar is: " + calendarType);
   }
 }
 ```
