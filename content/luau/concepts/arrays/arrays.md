@@ -75,7 +75,7 @@ a[2] = 'nil'
 
 ## Getting the Length of an Array
 
-Frequently, you'll want to determine the length or size of an array. In Luau, you can use the `#` symbol before an array to retrieve its length.
+Frequently, it's necessary to determine the length or size of an array. In Luau, use the `#` symbol before an array to retrieve its length.
 
 > **Note:** This syntax returns the last index of the array, which may not always be equivalent to the actual size of the array.
 
