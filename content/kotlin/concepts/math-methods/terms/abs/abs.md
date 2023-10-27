@@ -3,6 +3,7 @@ Title: '.abs()'
 Description: 'Returns the absolute value of the argument.'
 Subjects:
   - 'Computer Science'
+  - 'Code Foundations'
 Tags:
   - 'Methods'
   - 'Arithmetic'
