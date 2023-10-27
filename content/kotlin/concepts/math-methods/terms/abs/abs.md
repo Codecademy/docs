@@ -21,9 +21,7 @@ The `.abs()` method in Kotlin's Math library is used to calculate the absolute v
 Math.abs(n)
 ```
 
-`n`: A numeric expression (e.g., `Int`, `Long`, `Double`, `Float`, etc.) for which you want to calculate the absolute value.
-
-The method takes the numeric expression n as its argument and returns the absolute value, ensuring that the result is always a non-negative value.
+`n`: A numeric expression (e.g., `Int`, `Long`, `Double`, `Float`, etc.) for which you want to calculate the absolute value. The method takes the numeric expression n as its argument and returns the absolute value, ensuring that the result is always a non-negative value.
 
 ## Example 
 
