@@ -111,7 +111,7 @@ Luau supports multi-dimensional arrays, which are arrays of arrays. They can be 
 matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}
 ```
 
-Accessing elements in a multi-dimensional array requires using nested square brackets:
+Accessing elements in a multi-dimensional array requires using multiple sets of square brackets:
 
 ```lua
 value = matrix[2][3] -- Accesses the element at row 2, column 3 of the matrix
