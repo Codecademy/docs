@@ -46,7 +46,7 @@ fun main() {
 }
 ```
 
-In this example, we import the abs function from the `kotlin.math` library and use it to calculate the absolute values of various numeric expressions. The results are then printed to the console.
+In this example, the **`abs`** function is imported from the `kotlin.math` library and employed to calculate the absolute values of different numeric expressions. The results are subsequently printed to the console. 
 
 The output of this code will be:
 ```shell
