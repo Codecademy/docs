@@ -12,8 +12,9 @@ Tags:
   - 'Effects'
   - 'Values'
 CatalogContent:
-  - 'learn-github'
-  - 'paths/git-and-github'
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
 
 **animation-timing-function** specifies the speed curve of an animation.
@@ -45,73 +46,60 @@ Apply `linear` to the `animation-timing-function` property of the `div` element:
 div {
   height: 100px;
   width: 100px;
-  background-color: yellow;
-  animation-name: slide;
-  animation-duration: 4s;
-  animation-timing-function: linear;
-}
-
-@keyframes slide {
-  0% {
-    margin-left: 0%;
-  }
-  25% {
-    margin-left: 25%;
-  }
-  50% {
-    margin-left: 50%;
-  }
-  75% {
-    margin-left: 75%;
-  }
-  100% {
-    margin-left: 100%;
-  }
-}
-```
-
-## Example 2
-
-Apply `linear` to the `animation-timing-function` using `png` as a source:
-
-```html
-<div>
-  <img src="docs/media/css-animation-function-1.png">
-</div>
-```
-
-```css
-div {
-  animation-name: slide;
+  background-color: black;
+  animation-name: example1;
   animation-duration: 4s;
   animation-iteration-count: 2;
   animation-direction: alternate;
   animation-timing-function: linear;
 }
 
-@keyframes slide {
+@keyframes example1 {
   0% {
-    margin-left: 0%;
-  }
-  25% {
-    margin-left: 25% !important;
+    background-color: black;
   }
   50% {
-    margin-left: 50% !important;
-  }
-  75% {
-    margin-left: 75% !important;
+    background-color: grey;
   }
   100% {
-    margin-left: 100%;
+    background-color: white;
   }
 }
 ```
+**Note**
+![css-animation-example-1](docs/media/css-animation-example-1.gif)
+
+## Example 2
+
+Apply `linear` to the `animation-timing-function` property of the `div` element::
+
+
+```css
+div {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  animation-name: example2;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes example2 {
+  0% {background-color: pink;}
+  10% {backround-color: purple;}
+  20% {background-color: yellow;}
+  30% {background-color: orange;}
+  40% {background-color: brown;}
+  50% {background-color: red;}
+  60% {background-color: green;}
+  70% {background-color: blue;}
+  80% {background-color: grey;}
+  90% {background-color: black;}
+  100% {background-color: white;}
+}
+```
 **Note** 
- -`animation-name` specifies the name of the keyframe that is being bind to the selector.
- -`animation-duration` specifies the time an animation takes to complete.
- -`animation-iteration-count` specifies how many times an animation should be played.
- -`animation-direction` specifies the direction an animation should be played in.
- -`animation-timing-function` specifies the speed curve of an animation.
- -`!important` prevents image to stop at interaction points
+![css-animation-example-2](docs/media/css-animation-example-2.gif)
 
