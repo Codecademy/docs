@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`removeRange()`** method in Kotlin is used to remove a specified range of characters from a string.The removeRange() method returns a new `string` with the specified range of characters removed.
+The **`removeRange()`** method in Kotlin is used to remove a specified range of characters from a string. It returns a new string with the specified range of characters removed.
 
 ## Syntax
 
