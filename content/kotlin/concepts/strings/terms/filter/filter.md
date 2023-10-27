@@ -1,6 +1,6 @@
 ---
 Title: 'filter()'
-Description: 'filter elements from collection based on a given predicate.'
+Description: 'Filters elements from collection based on a given predicate.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
