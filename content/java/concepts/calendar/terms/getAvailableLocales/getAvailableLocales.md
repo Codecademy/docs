@@ -14,44 +14,42 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Java, the `.getAvailableLocales()` method of `Calendar` class offers an array of locales, representing specific geographical or cultural regions. These locales are crucial for localising date and time representations, localising that such information aligns with the conventions and language preferences of various regions and cultures. This functionality acts as a cornerstone for developing applications that serve a broad audience with different language and culture preferences.
+In Java, the **`.getAvailableLocales()`** method of `Calendar` class offers an array of locales, representing specific geographical or cultural regions. These locales are crucial for localising date and time representations, ensuring that such information aligns with the conventions and language preferences of various regions and cultures. This functionality acts as a cornerstone for developing applications that serve a broad audience with different language and culture preferences.
 
 ## Syntax
 
-The syntax for the **`.getAvailableLocales()`** method is as follows:
+The syntax for the `.getAvailableLocales()` method is as follows:
 
 ```pseudo
-public static synchronized Locale[] getAvailableLocales()
+theLocale.getAvailableLocales()
 ```
 
-- `public`: This method is accessible from outside the class.
-- `static`: This method can be called on the Calendar class itself without creating an instance.
-- `synchronized`: The method is thread-safe, making it suitable for concurrent access.
-- `Locale[]`: The method returns an array of `Locale` objects, representing available locales.
+- `theLocale`: The given region to be addressed.
+- The method returns an array of `Locale` objects, representing available locales.
 
 ## Example
 
-The following example demonstrates the practical application of the **`.getAvailableLocales()`** method. It starts with importing the necessary packages and then proceeds to retrieve the available locales. Finally, it displays the names of these locales.
+The following example demonstrates the practical application of the `.getAvailableLocales()` method. It starts with importing the necessary packages and then proceeds to retrieve the available locales. Finally, it displays the names of these locales.
 
 ```java
 import java.util.Calendar;
 import java.util.Locale;
 
 public class CalendarLocaleExample {
-    public static void main(String[] args) {
+  public static void main(String[] args) {
 
-        Locale[] availableLocales = Locale.getAvailableLocales();
+    Locale[] availableLocales = Locale.getAvailableLocales();
 
-        System.out.println("Available Locales:");
+    System.out.println("Available Locales:");
 
-        for (Locale locale : availableLocales) {
-            System.out.println(locale.getDisplayName());
-        }
+    for (Locale locale : availableLocales) {
+      System.out.println(locale.getDisplayName());
     }
+  }
 }
 ```
 
-The code above returns the following output:
+The code above returns an output similar to the following:
 
 ```shell
 Available Locales:
