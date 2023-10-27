@@ -41,7 +41,7 @@ a = {
 }
 ```
 
-In this array, elements are indexed from 1 to 3. To print `b`, you need to reference it by its assigned index, which is 2.
+In this array, elements are indexed from 1 to 3. To print `b`, reference it by its assigned index, which is 2.
 
 This indexing method works for all elements in an array. This also works with dictionaries, but instead the assigned _key_ must be used to retrieve a value. A _key_ is essentially an _index_ with the only difference being that a _key_ may be assigned as any type, while an _index_ must be a number.
 
