@@ -19,16 +19,18 @@ A **fork** is making a duplicate of an existing repository. This "fork" becomes 
 
 + Step 1
 
-First, the user has to login to his or her GitHub account.
+First the user login to his/her GitHub account using the command
+
+```shell
+gh auth login
+```
 
 + Step 2
 
-Navigate to the Github repository.
+After successful login, the user can fork the repository using the command
 
-+ Step 3
+```shell
+gh repo fork <repository_url>
+```
 
-Click the "Fork" button in the top right corner.
-
-![Repo page with Fork button](https://raw.githubusercontent.com/Codecademy/docs/main/media/fork.png)
-
-This will create a new copy of the original "Codecademy/docs" repository.
+This will create a new copy of the original repository.
