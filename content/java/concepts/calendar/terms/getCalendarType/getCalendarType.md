@@ -1,6 +1,6 @@
 ---
 Title: '.getCalendarType()'
-Description: 'Retrieves the type or format of the calendar represented by the Calendar object, returns a string representing the calendar type'
+Description: 'Retrieves the type or format of the calendar represented by the Calendar object, returns a string representing the calendar type.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
