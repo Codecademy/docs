@@ -44,7 +44,7 @@ Slider(
 )
 ```
 
-Below is more information on the optional parameters:
+The optional parameters include:
 
 - `in` specifies the range of values and defaults to `0...1` if omitted.
 - `step` specifies a step amount for the value to increment by.
