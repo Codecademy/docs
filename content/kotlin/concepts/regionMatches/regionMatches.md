@@ -33,11 +33,8 @@ Returns true if the specified region in this char sequence is equal to the speci
 Parameters:
 
 - thisOffset: This is the starting position within the current character sequence for the substring being compared.
-
 - other: This represents the string against which a substring comparison is carried out.
-
 - otherOffset: This indicates the starting position within the other character sequence for the substring being compared.
-
 - length: This specifies the length of the substring under comparison.
 
 ## Syntax (String)
