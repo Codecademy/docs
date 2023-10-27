@@ -99,7 +99,7 @@ The slider line color is specified by applying the `.tint(.mint)` [view modifier
 
 Below the `Slider` is a [`ZStack`](https://www.codecademy.com/resources/docs/swiftui/views/zstack) containing a 300 point wide `Circle` filled with a slightly opaque gray [color](https://www.codecademy.com/resources/docs/swiftui/colors).
 
-Layered above the gray `Circle` is another `Circle` that has its width determined by `circleWidth` and is purple while the user is editing the slider and mint otherwise.
+Layered above the gray `Circle` is another `Circle` that has its width determined by `circleWidth`, it is purple while the user is editing the slider and mint otherwise.
 
 Below the `ZStack` is a [text view](https://www.codecademy.com/resources/docs/swiftui/views/text) that shows the value of `circleWidth` as an integer and updates when the slider value changes.
 
