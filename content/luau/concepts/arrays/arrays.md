@@ -91,7 +91,7 @@ end
 
 ## Adding and Removing Elements
 
-You can add elements to the end of an array using the `table.insert()` function:
+Elements can be added to the end of an array using the `table.insert()` function:
 
 ```lua
 table.insert(a, 6) -- Adds the value 6 to the end of array 'a'
