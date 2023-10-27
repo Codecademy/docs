@@ -1,5 +1,5 @@
 ---
-Title: 'filter()'
+Title: '.filter()'
 Description: 'Filters elements from collection based on a given predicate.'
 Subjects:
   - 'Computer Science'
