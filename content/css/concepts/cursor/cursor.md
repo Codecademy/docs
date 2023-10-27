@@ -54,3 +54,5 @@ In the example below, a `pointer` hand will appear whenever the cursor hovers ov
 ```html
 <p style="cursor: pointer;">The cursor is pointing at this paragraph!</p>
 ```
+
+![cursor-example](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-cursor-example.gif)
