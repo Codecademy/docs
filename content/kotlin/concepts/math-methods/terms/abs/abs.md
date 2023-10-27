@@ -17,7 +17,6 @@ The `.abs()` method in Kotlin's Math library is used to calculate the absolute v
 
 ### Syntax
 
-
 ```pseudo
 Math.abs(n)
 ```
