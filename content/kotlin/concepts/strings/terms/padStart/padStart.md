@@ -1,10 +1,10 @@
 ---
 Title: '.padStart()'
-Description: 'Pads the start of a string of the specified character.' 
-Subjects: 
+Description: 'Pads the start of a string with the specified character.'
+Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-Tags: 
+Tags:
   - 'String'
   - 'Padding'
   - 'Kotlin'
@@ -21,9 +21,7 @@ The **`.padStart()`** method pads the beginning of a string with the specified f
 String.padStart(length, padChar)
 ```
 
--`String`: The string to be modified.
--`length`: An integer that represents the total length of the string returned (with padding).
--`padChar`: The character to be used (enclosed by `''`) as padding, defaults to whitespace.
+-`String`: The string to be modified. -`length`: An integer that represents the total length of the string returned (with padding). -`padChar`: The character to be used (enclosed by `''`) as padding, defaults to whitespace.
 
 ## Example
 
