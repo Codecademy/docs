@@ -13,6 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 The **`filter()`** function is used to filter elements from a collection based on a given `predicate`. It returns a new collection containing only elements which satisfies a specified condition.
+## Syntax 
 
 ```pseudo
 str.filter(predicate: (char) -> Boolean)
