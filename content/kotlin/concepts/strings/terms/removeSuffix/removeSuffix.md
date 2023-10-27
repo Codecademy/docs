@@ -1,5 +1,5 @@
 ---
-Title: 'removeSuffix()'
+Title: '.removeSuffix()'
 Description: 'Removes a specified suffix from a Kotlin string, if present.'
 Subjects:
   - 'Computer Science'
