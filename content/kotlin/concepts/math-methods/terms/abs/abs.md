@@ -15,7 +15,7 @@ CatalogContent:
 
 The `.abs()` method in Kotlin's Math library is used to calculate the absolute value of a numeric expression. The absolute value is the non-negative value of a number, effectively removing its negative sign, if present.
 
-### Syntax
+## Syntax
 
 ```pseudo
 Math.abs(n)
