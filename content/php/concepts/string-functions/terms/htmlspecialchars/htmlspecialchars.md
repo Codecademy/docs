@@ -74,7 +74,7 @@ The supported character sets are listed in the table below:
 
 ## Example
 
-The following example uses `htmlspecialchars()` to convert the special character `&` in a string  to an HTML entity `&amp;`.
+The following example uses `htmlspecialchars()` to convert the special character `&` in a string to an HTML entity `&amp;`.
 
 ```php
 <?php
