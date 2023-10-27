@@ -215,5 +215,5 @@ Setting a `div` element to behave like a flex box.
 }
 ```
 
-By applying flex to the container this will result in a two paragraph elements that are aligned horizontally as shown below:
+Applying flex to the container will result in two paragraph elements that are aligned horizontally as shown below:
 ![CSS display flex example](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-display-flex-example.png)
