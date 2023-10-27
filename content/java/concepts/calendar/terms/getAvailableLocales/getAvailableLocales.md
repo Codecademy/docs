@@ -49,7 +49,7 @@ public class CalendarLocaleExample {
 }
 ```
 
-The code above returns an output similar to the following:
+The code above will return an output similar to the following:
 
 ```shell
 Available Locales:
