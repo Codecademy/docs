@@ -17,7 +17,7 @@ The **`.getCalendarType()`** method is available in the `Calendar` class in Java
 
 ## Syntax
 
-```java
+```pseudo
 someCalendar.getCalendarType()
 ```
 
