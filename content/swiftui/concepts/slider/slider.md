@@ -14,7 +14,7 @@ CatalogContent:
 
 **`Slider`** is a [structure](https://www.codecademy.com/resources/docs/swift/structures) that creates an interface with a sliding controller, enabling users to choose from a range of values.
 
-A `Slider` instance can be customised so that the value changes by a specific step amount within its range. It's also possible to add minimum and maximum labels and track when the slider is being edited.
+A `Slider` instance can be customized so that the value changes by a specific step amount within its range. It's also possible to add minimum and maximum labels and track when the slider is being edited.
 
 ## Syntax
 
@@ -55,7 +55,7 @@ The optional parameters include:
 
 ## Example
 
-The following example code will display a gray [circle](https://www.codecademy.com/resources/docs/swiftui/views/circle) that can be overlayed with a mint colored circle using the slider above it:
+The following example code will display a gray [circle](https://www.codecademy.com/resources/docs/swiftui/views/circle) that can be overlayed with a mint-colored circle using the slider above it:
 
 ```swift
 import SwiftUI
@@ -97,9 +97,9 @@ A `circleWidth` variable is declared and bound to a `Slider` instance inside a [
 
 The slider line color is specified by applying the `.tint(.mint)` [view modifier](https://www.codecademy.com/resources/docs/swiftui/viewmodifier).
 
-Below the `Slider` is a [`ZStack`](https://www.codecademy.com/resources/docs/swiftui/views/zstack) containing a 300 point wide `Circle` filled with a slightly opaque gray [color](https://www.codecademy.com/resources/docs/swiftui/colors).
+Below the `Slider` is a [`ZStack`](https://www.codecademy.com/resources/docs/swiftui/views/zstack) containing a 300-point wide `Circle` filled with a slightly opaque gray [color](https://www.codecademy.com/resources/docs/swiftui/colors).
 
-Layered above the gray `Circle` is another `Circle` that has its width determined by `circleWidth`, it is purple while the user is editing the slider and mint otherwise.
+Layered above the gray `Circle` is another `Circle` that has its width determined by `circleWidth`, it is purple while the user is editing the slider, and mint otherwise.
 
 Below the `ZStack` is a [text view](https://www.codecademy.com/resources/docs/swiftui/views/text) that shows the value of `circleWidth` in real-time as the slider value changes.
 
