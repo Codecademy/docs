@@ -38,7 +38,7 @@ fun main() {
 }
 ```
 
-In this example, `removeSuffix()` method is used to remove the ".jpg" suffix from the original string. The result will be printed as:
+The result will be printed as:
 
 ```shell
 Modified String: HelloWorld
