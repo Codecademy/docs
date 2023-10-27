@@ -3,7 +3,7 @@ Title: 'filter()'
 Description: 'Filters elements from collection based on a given predicate.'
 Subjects:
   - 'Computer Science'
-  - 'Web Development'
+  - 'Code Foundations'
 Tags:
   - 'Collections'
   - 'Filter'
