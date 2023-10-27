@@ -32,29 +32,22 @@ PRs are featured on popular version control platforms such as [GitHub](https://g
 2. Clone the forked repository to your local machine.
 3. Create a new branch, then switch to it.
 4. `add`, `commit`, and `push` the changes to your forked repository.
-5. From the web page of **YOUR** forked repository, click on the "Pull requests" tab.
+5. From the web page of your forked repository, click on the "Pull requests" tab.
 
 ### Method 2: Collaborators (Ideal for Small Teams)
 If you are a collaborator of a repository (meaning the repository owner has added you as a collaborator), you can:
 
-1. Clone the repository.
+1. Clone the repository to your machine.
 2. Create a new branch, then switch to it.
 3. Make your changes, `commit`, and then `push` the branch to the repository.
-4. From the web page of the repository, click on "Pull Requests" tab.
+4. From the web page of the repository, click on the "Pull Requests" tab.
 
 ### Method 3: Within an Organization/Company
-If you are part of an organization/company, depending on your permissions, you may have the privilege to push branches directly and create PRs (Pull Requests).
+If you are part of an organization/company, depending on your permissions, you may have the privilege to push branches directly and create PRs (Pull Requests). You can follow the same steps as Method 2 to create a PR.
 
-1. Clone the repository.
-2. Create and switch to a new branch.
-3. Make your changes, `commit`, and then `push` the branch to the repository.
-4. From the web page of the repository, click on "Pull Requests".
+> **Note:** Regardless of the method you choose, be sure to follow the contribution guidelines and standards specific to the project you are working on.
 
-> [!IMPORTANT]
-> Regardless of the method you choose, be sure to follow the contribution guidelines and
-> standards specific to the project you are working on.
-
-No matter which method you use, access to Pull Requests (PRs) remains the same: you need to visit the relevant repository based on your project.
+No matter which method you use, you need to visit the relevant repository to access the PRs (Pull Requests).
 
 
 Navigate to the repository of the relevant project and go to 'Pull requests'.
