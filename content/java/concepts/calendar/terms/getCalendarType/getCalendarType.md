@@ -41,7 +41,7 @@ public class MyClass {
 }
 ```
 
-This example returns the calendar type or class name of that calendar type:
+This example returns the following output:
 
 ```shell
 Type of Calendar is: gregory
