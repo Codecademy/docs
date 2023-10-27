@@ -64,7 +64,7 @@ It's important to note that in Lua (and Luau), when accessing a dictionary or ar
 Values can be reassigned in Luau arrays by specifying the index and providing a new value, as shown below:
 
 ```lua
-a[2] = “c” -- Now the object at index is 2 is c instead of b
+a[2] = "c" -- Now the object at index is 2 is c instead of b
 ```
 
 To remove an element, you can simply reassign the index to `nil`.
