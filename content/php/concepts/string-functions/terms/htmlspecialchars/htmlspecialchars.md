@@ -37,7 +37,7 @@ The available flags are listed in the table below:
 
 | Constant       | Description                                                                                                          |
 |----------------|----------------------------------------------------------------------------------------------------------------------|
-|`ENT_COMPAT`    | The default frag. it encodes only double quotes                                                                     |
+|`ENT_COMPAT`    | The default flag, it encodes only double quotes                                                                     |
 |`ENT_QUOTES`    | Encodes both double and single quotes                                                                                |
 |`ENT_NOQUOTES`  | Does not encode double nor single quotes                                                                             |
 |`ENT_IGNORE`    | Discards invalid encoding instead of the function returning an empty string                                          |
