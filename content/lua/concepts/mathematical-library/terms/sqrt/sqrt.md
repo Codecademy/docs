@@ -32,7 +32,7 @@ The function returns the square root of `25`.
 
 ```lua
 num_var = 25
-math.sqrt(num_var)
+print(math.sqrt(num_var))
 ```
 
 The code returns the following output:
@@ -47,7 +47,7 @@ The code below demonstrates the method with a negative value.
 
 ```lua
 num_var = -25
-math.sqrt(num_var)
+print(math.sqrt(num_var))
 ```
 
 The results will look like this:
