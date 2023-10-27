@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`removeSuffix()`** method in Kotlin is used to remove a specified suffix from a string if it is present.The `removeSuffix()` method returns a new `string` with the specified suffix removed if it exists. If the original string does not end with the specified suffix, the method returns the original string unchanged.
+The **`.removeSuffix()`** method in Kotlin is used to remove a specified suffix from a string if it is present. The `.removeSuffix()` method returns a new string with the specified suffix removed if it exists. If the original string does not end with the specified suffix, the method returns the original string unchanged.
 
 ## Syntax
 
