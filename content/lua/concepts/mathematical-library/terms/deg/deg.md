@@ -1,5 +1,5 @@
 ---
-Title: ‘deg()’
+Title: ‘.deg()’
 Description: ‘Converts angles from radians to degrees.'
 Subjects:
   - 'Computer Science'
