@@ -198,7 +198,7 @@ public class Main {
     courseTeacher.put("Physics", "Lily");
 
 
-    for (Map.entry<String, String> entry: courseTeacher.entrySet()) {
+    for (Map.Entry<String, String> entry: courseTeacher.entrySet()) {
       System.out.printf("Course: %s",entry.getKey());
       System.out.printf("Teacher: %s \n", entry.getValue());
     }
