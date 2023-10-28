@@ -21,8 +21,7 @@ The **`.filterNot()`** method will filter elements from a Kotlin sequence based 
 String.filterNot(predicate)
 ```
 
--`String`: The collection of elements to be filtered.
--`predicate`: The collection of elements to be filtered out.
+-`String`: The collection of elements to be filtered. -`predicate`: The collection of elements to be filtered out.
 
 ## Example
 
