@@ -188,7 +188,6 @@ Alternatively, `Map.Entry()` can be used to return a `set` of key-value pairs. T
 
 ```java
 import java.util.HashMap;
-import java.util.entrySet;
 
 public class Main {
   public static void main(String[] args) {
