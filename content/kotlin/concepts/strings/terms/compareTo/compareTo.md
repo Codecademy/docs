@@ -1,5 +1,5 @@
 ---
-Title: 'compareTo()'
+Title: '.compareTo()'
 Description: 'Compares two strings lexicographically.'
 Subjects:
   - 'Computer Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`compareTo()`** method in Kotlin is used to compare two strings lexicographically, meaning it compares the strings character by character based on their Unicode values. It helps determine the relative order of two strings in a dictionary or alphabetically. This method is commonly employed for sorting strings or performing string comparisons.
+The **`.compareTo()`** method in Kotlin is used to compare two strings lexicographically, meaning it compares the strings character by character based on their Unicode values. It helps determine the relative order of two strings in a dictionary or alphabetically. This method is commonly employed for sorting strings or performing string comparisons.
 
 ## Syntax
 
@@ -23,11 +23,11 @@ stringOne.compareTo(stringTwo)
 - `stringOne`: The first string to be compared.
 - `stringTwo`: The second string to be compared.
 
-If `stringOne` is comes before `stringTwo` lexicographically, `compareTo` returns a negative value. If they are equal, it returns `0`. If `stringOne` comes after `stringTwo` lexicographically, `compareTo` returns a positive value.
+If `stringOne` comes before `stringTwo` lexicographically, `.compareTo()` returns a negative value. If they are equal, it returns `0`. If `stringOne` comes after `stringTwo` lexicographically, `.compareTo()` returns a positive value.
 
 ## Example
 
-This example shows how to use the `compareTo()` method to two strings:
+This example shows how to use the `.compareTo()` method to two strings:
 
 ```kotlin
 fun main() {
@@ -46,7 +46,7 @@ fun main() {
 }
 ```
 
-The result of the example is:
+The result of this example is:
 
 ```shell
 apple comes before banana
