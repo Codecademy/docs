@@ -1,6 +1,6 @@
 ---
 Title: '.filter()'
-Description: 'Filters elements from collection based on a given predicate.'
+Description: 'Filters elements from a collection based on a given predicate.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
@@ -13,21 +13,21 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`filter()`** function is used to filter elements from a collection based on a given `predicate`. It returns a new collection containing only elements which satisfies a specified condition.
+The **`filter()`** function is used to filter elements from a collection based on a given `predicate`. It returns a new collection containing only elements that meet the given condition.
 
 ## Syntax
 
 ```pseudo
-str.filter(predicate: (char) -> Boolean)
+str.filter(predicate)
 ```
 
-When working with the string `str` above, the `filter()` method only allows the selective characters based on the specified predicate which is passed as an argument.
+The `filter()` method only allows the selective characters based on the specified `predicate` which is passed as an argument.
 
-- `Predicates` are lambda functions that takes an element of the collection as an argument and returns a `Boolean` value. The **`filter()`** function will include the elements for which the predicate returns `true` in the resulting collection.
+- The `predicate` is a lambda function that takes an element of the collection as an argument and returns a `Boolean` value. The `filter()` method will return a collection composed of all the elements that evaluated to `true`.
 
 ## Example
 
-In this example, the goal is to filter only letters from the string `str` by using the `string.filter()` method.
+This example extracts all the alphabetic characters from `str` with the `string.filter()` method.
 
 ```kotlin
 fun main(args: Array<String>) {
@@ -37,7 +37,7 @@ fun main(args: Array<String>) {
 }
 ```
 
-Output of the above code will be:
+The above code will output:
 
 ```shell
 Filtered String : HelloWorld
