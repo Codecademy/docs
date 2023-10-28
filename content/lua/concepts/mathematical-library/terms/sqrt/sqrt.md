@@ -16,6 +16,8 @@ CatalogContent:
 
 The **math.sqrt()** function returns the result of the square root operation on a numeric variable. It takes a positive number as an argument value to be passed into the function.
 
+> **Note:** Results are dependent on the compiler. There may be a small variation or results may not be as precise as expected.
+
 ## Syntax
 
 `sqrt()` function is implemented with the following syntax:
