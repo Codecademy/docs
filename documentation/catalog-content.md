@@ -197,6 +197,13 @@ Feel free to add suggestions for new slugs to the lists as part of your PR! Be s
 - 'paths/full-stack-engineer-career-path'
 ```
 
+### Rust
+
+```
+- 'rust-for-programmers'
+- 'paths/computer-science'
+```
+
 ### SQL
 
 ```
