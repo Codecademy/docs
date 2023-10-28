@@ -31,22 +31,22 @@ This example shows how to use the `.compareTo()` method to two strings:
 
 ```kotlin
 fun main() {
-    val stringOne = "apple"
-    val stringTwo = "banana"
+  val stringOne = "apple"
+  val stringTwo = "banana"
 
-    val result = stringOne.compareTo(stringTwo) //returns -1
+  val result = stringOne.compareTo(stringTwo)
 
-    if (result < 0) {
-        println("$stringOne comes before $stringTwo")
-    } else if (result == 0) {
-        println("$stringOne and $stringTwo are the same")
-    } else {
-        println("$stringOne comes after $stringTwo")
-    }
+  if (result < 0) {
+      println("$stringOne comes before $stringTwo")
+  } else if (result == 0) {
+      println("$stringOne and $stringTwo are the same")
+  } else {
+      println("$stringOne comes after $stringTwo")
+  }
 }
 ```
 
-The result of this example is:
+The code will return the following output:
 
 ```shell
 apple comes before banana
