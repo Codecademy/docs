@@ -1,1 +1,1 @@
-content/markdown/concepts/emojis/emojis.md
+content/general/concepts/modulo/modulo.md
