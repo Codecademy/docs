@@ -1,5 +1,5 @@
 ---
-Title: 'removeRange()'
+Title: '.removeRange()'
 Description: 'Removes a range of characters from a Kotlin string.'
 Subjects:
   - 'Computer Science'
