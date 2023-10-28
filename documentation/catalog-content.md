@@ -1,6 +1,6 @@
 # Catalog Content
 
-The [metadata](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md#standards-metadata) which go at the top of the file, should include **two** slugs. Preferably:
+The [metadata](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md#standards-metadata), located at the top of the file, should include **two** slugs. Preferably:
 
 - A free course
 - A Pro course/Path
@@ -195,6 +195,13 @@ Feel free to add suggestions for new slugs to the lists as part of your PR! Be s
 - 'learn-rails'
 - 'learn-ruby'
 - 'paths/full-stack-engineer-career-path'
+```
+
+### Rust
+
+```
+- 'rust-for-programmers'
+- 'paths/computer-science'
 ```
 
 ### SQL

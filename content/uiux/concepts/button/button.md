@@ -42,7 +42,7 @@ Designers typically categorize buttons as primary, secondary, or tertiary action
 
 ## Resources
 
-- [Human Interface Guidelines: Buttons] (https://developer.apple.com/design/human-interface-guidelines/ios/controls/buttons/)
-- [Material Design Guidelines: Buttons] (https://material.io/components/buttons#behavior
-- [“Getting to Know Buttons and Links” by Sera Tejima on Medium] (https://medium.com/@seratajima/getting-to-know-buttons-links-20bc22f2100e)
-- [“UI Cheat Sheet: Buttons” by Tess Gadd on Medium] (https://uxdesign.cc/ui-cheat-sheets-buttons-7329ed9d6112)
+- [Human Interface Guidelines: Buttons](https://developer.apple.com/design/human-interface-guidelines/ios/controls/buttons/)
+- [Material Design Guidelines: Buttons](https://material.io/components/buttons#behavior)
+- [“Getting to Know Buttons and Links” by Sera Tejima on Medium](https://medium.com/@seratajima/getting-to-know-buttons-links-20bc22f2100e)
+- [“UI Cheat Sheet: Buttons” by Tess Gadd on Medium](https://uxdesign.cc/ui-cheat-sheets-buttons-7329ed9d6112)
