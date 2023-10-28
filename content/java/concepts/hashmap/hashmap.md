@@ -184,7 +184,7 @@ Lily
 
 ## Traversing a `HashMap` using `.entrySet()`
 
-Alternatively, Map.entry() can be used to return a `set` of key-value pairs. This might be more efficient in some cases where it's needed to access the key and the value.
+Alternatively, `Map.Entry()` can be used to return a `set` of key-value pairs. This might be more efficient in some cases where it's needed to access the key and the value.
 
 ```java
 import java.util.HashMap;
