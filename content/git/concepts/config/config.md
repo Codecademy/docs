@@ -1,6 +1,6 @@
 ---
-Title: 'Git Config'
-Description: 'Learn how to configure Git settings for smooth collaboration.'
+Title: 'Config'
+Description: 'Git configuration is a fundamental aspect of using Git, allowing users to customize various settings and preferences on both a global and repository-specific level.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
@@ -31,11 +31,11 @@ git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 ```
 
-Repository-specific configurations can also be set without the `--global flag`.
+Repository-specific configurations can also be set without the `--global` flag.
 
 ## Removing Git Configurations
 
-To remove a specific configuration setting, use the `--unset` flag with the `git config` command. For example, to remove the user email from your global configuration:a
+To remove a specific configuration setting, use the `--unset` flag with the `git config` command. For example, to remove the user email from the global configuration:
 
 ```shell
 git config --global --unset user.email
