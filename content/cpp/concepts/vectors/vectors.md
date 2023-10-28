@@ -93,11 +93,11 @@ Aborted (core dumped)
 
 ### `.front()`
 
-The `.front()` returns a reference to the first element of the vector:
+Alternatives to the `.at()` method include dedicated methods for retrieving the first or the last element of a vector. The `.front()` returns a reference to the first element of the vector:
 
 ```cpp
 // The first element of a vector
-std::cout << arr.front();
+std::cout << order.front();
 ```
 
 ### `.back()`
@@ -106,7 +106,7 @@ The `.back()` returns a reference to the last element of the vector:
 
 ```cpp
 // The last element of a vector
-std::cout << arr.back();
+std::cout << order.back();
 ```
 
 ## Adding Elements
