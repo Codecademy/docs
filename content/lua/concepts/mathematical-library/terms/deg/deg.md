@@ -1,6 +1,6 @@
 ---
 Title: 'deg()'
-Description: ‘Converts angles from radians to degrees.'
+Description: 'Converts angles from radians to degrees.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
