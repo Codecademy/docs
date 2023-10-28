@@ -2,7 +2,7 @@
 
 Kotlin provides the opportunity to add more functionality to existing classes, by leveraging available methods without having to inherit the class. These declarations that use existing methods in new or custom classes are called extension functions. 
 
-- Below example demonstrates the use of this concept : 
+### Syntax
 
 ```
 
@@ -23,7 +23,7 @@ fun main() {
 Output : The square of 5 is 25
 ```
 
-### Use of extension functions in a real-world project
+### Example
 
 - When we fetch a data class from JSON, we can make a DTO (Data access object) class which a data class. It will consist of an extension
   function that will convert that large data into specific data that we need to display on our app.
@@ -77,4 +77,3 @@ operator fun invoke(): Flow<Resource<List<Meal>>> = flow {
     }
   ```
 
-- You can see its usage, in this project of [Meal App](https://github.com/utkarsh006/MealItems)
