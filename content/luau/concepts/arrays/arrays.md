@@ -27,7 +27,7 @@ print(a[1]) -- This will return 5
 print(a[2]) -- This will return nil because the index is out of range
 ```
 
-The array created above contains one element only with the value `5`, it can be accessed by passing the index value `1`. However, if a value is passed out of the range of the array , the code will return `nil`. This is because `nil` refers to missing data.
+The array created above contains one element only with the value `5`, it can be accessed by passing the index value `1`. However, if a value is passed out of the range of the array, the code will return `nil`. This is because `nil` refers to missing data.
 
 ## Accessing Elements
 
