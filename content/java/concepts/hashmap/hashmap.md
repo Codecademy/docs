@@ -1,6 +1,6 @@
 ---
 Title: 'HashMap'
-Description: 'HashMap is used to store items as key-value pairs. The keys and values can be of either the same or different types.'
+Description: 'Stores items as key-value pairs, the keys and values can be of either the same or different types.'
 Subjects:
   - 'Computer Science'
 Tags:
