@@ -75,19 +75,16 @@ std::cout << order.size();
 Initially, the capacity is likely to be small, but as elements are added using `.push_back()`, the capacity will grow to accommodate the added elements. The exact growth behavior may vary depending on the C++ implementation, but it's typically designed to minimize reallocations and copying.
 
 ```cpp
-
-    std::vector<int> myVector;
-    
     // Check the initial capacity
-    std::cout << "Initial capacity: " << myVector.capacity() << std::endl;
+    std::cout << "Initial capacity: " << order.capacity() << std::endl;
 
     // Add elements to the vector
     for (int i = 0; i < 10; ++i) {
-        myVector.push_back(i);
+        order.push_back(i);
     }
 
     // Check the capacity after adding elements
-    std::cout << "Capacity after adding elements: " << myVector.capacity() << std::endl;
+    std::cout << "Capacity after adding elements: " << order.capacity() << std::endl;
 ```
 
 ### `.at()`
