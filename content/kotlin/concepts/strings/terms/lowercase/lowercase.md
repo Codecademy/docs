@@ -5,7 +5,7 @@ Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
-  - 'Lowercase'
+ 
   - 'Strings'
 CatalogContent:
   - 'learn-kotlin'
