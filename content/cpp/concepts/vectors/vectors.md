@@ -109,7 +109,7 @@ what():  vector::_M_range_check: __n (which is 100) >= this->size() (which is 3)
 Aborted (core dumped)
 ```
 
-Alternatives to the `.at()` method include dedicated methods for retrieving the first or the last element of a vector. 
+Alternatives to the `.at()` method include dedicated methods for retrieving the first or the last element of a vector.
 
 ### `.front()`
 
