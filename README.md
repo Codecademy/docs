@@ -52,6 +52,7 @@ Please read through the [Contributing Guide](https://github.com/Codecademy/docs/
 Remember, if you ever have any questions at all, we're always here to help in the [Codecademy Forums](https://discuss.codecademy.com/c/community/community-docs/2205) and [Codecademy Discord](https://discord.com/invite/codecademy).
 
 ## Our Contributors
+
 <a href="https://github.com/Codecademy/docs/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Codecademy/docs" />
 </a>
