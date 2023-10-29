@@ -46,4 +46,3 @@ The output will be:
 ```shell
 0.5235987755982989
 ```
-
