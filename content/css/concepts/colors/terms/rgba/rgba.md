@@ -51,3 +51,5 @@ h2 {
   color: rgba(0, 0, 0, 25%);
 }
 ```
+
+![Examples 1 and 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-colors-rgba-example.png)
