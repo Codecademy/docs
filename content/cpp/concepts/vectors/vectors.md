@@ -70,21 +70,20 @@ std::cout << order.size();
 
 ### `.capacity()`
 
-`.capacity()` is used to retrieve the current capacity of a `std::vector`. The capacity of a vector represents the number of elements it can hold without needing to allocate additional memory. The vector may have more capacity than its current size to reduce the need for frequent reallocations and copying when elements are added. 
+`.capacity()` is used to retrieve the current capacity of a `std::vector`. The capacity of a vector represents the number of elements it can hold without needing to allocate additional memory. The vector may have more capacity than its current size to reduce the need for frequent reallocations and copying when elements are added.
 
 Initially, the capacity is likely to be small, but as elements are added using `.push_back()`, the capacity will grow to accommodate the added elements. The exact growth behavior may vary depending on the C++ implementation, but it's typically designed to minimize reallocations and copying.
 
 ```cpp
-    // Check the initial capacity
-    std::cout << "Initial capacity: " << order.capacity() << std::endl;
+// Check the initial capacity
+std::cout << "Initial capacity: " << order.capacity() << std::endl;
 
-    // Add elements to the vector
-    for (int i = 0; i < 10; ++i) {
-        order.push_back(i);
-    }
-
-    // Check the capacity after adding elements
-    std::cout << "Capacity after adding elements: " << order.capacity() << std::endl;
+// Add elements to the vector
+for (int i = 0; i < 10; ++i) {
+    order.push_back(i);
+}
+// Check the capacity after adding elements
+std::cout<< "Capacity after adding elements: "<< order.capacity()<< std::endl;
 ```
 
 ### `.at()`
