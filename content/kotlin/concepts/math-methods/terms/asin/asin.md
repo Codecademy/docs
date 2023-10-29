@@ -1,15 +1,15 @@
 ---
-title: 'asin()'
-description: 'Returns the arcsine of a numeric argument.'
-subjects:
+Title: 'asin()'
+Description: 'Returns the arcsine of a numeric argument.'
+Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-tags:
-  - 'Double'
-  - 'Float'
+Tags:
+  - 'Android'
+  - 'Math'
   - 'Methods'
   - 'Functions'
-catalogContent:
+CatalogContent:
   - 'learn-kotlin'
   - 'paths/computer-science'
 ---
@@ -22,13 +22,13 @@ The **`asin()`** function returns the arcsine of a number.
 asin(x)
 ```
 
-The function accepts one mandatory parameter `x`. It should be a numeric value in the range between `-1` and `1` (inclusive). The argument can be of `Double`, `Float`, or `Long` datatype.
+The function accepts one mandatory parameter `x`. It should be a numeric value in the range between `-1` and `1` (inclusive). The argument can be of `Double`, and `Float` datatype.
 
-The function returns the arcsine of the argument, which represents an angle in radians. The return value will be of the same type as the argument.
+It returns the arcsine of the argument, which represents an angle in radians. The return value will be of the same type as the argument.
 
 ## Example
 
-The example below demonstrates how to use the method to return the arcsine of `0.5`.
+The example below demonstrates how to use asin() method to return the arcsine of `0.5`.
 
 ```kotlin
 import kotlin.math.asin
