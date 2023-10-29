@@ -150,7 +150,7 @@ std::cout << "The last element is: " << v[n - 1];
 
 ### `.emplace_back()`
 
-This method also pushes elements to the back of a vector, but instead of creating a temporary object it directly creates object in the vector itself:
+This method also pushes elements to the back of a vector, but instead of creating a temporary object it directly creates an object in the vector itself.
 
 ```cpp
 std::vector<int> v = {1,2,3,4};
