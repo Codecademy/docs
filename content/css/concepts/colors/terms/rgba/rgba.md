@@ -52,4 +52,6 @@ h2 {
 }
 ```
 
-![Examples 1 and 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-colors-rgba-example.png)
+The `h1` and `h2` elements will render similar to:
+
+![CSS color examples](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-colors-rgba-example.png)
