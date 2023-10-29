@@ -35,26 +35,26 @@ PRs are featured on popular version control platforms such as [GitHub](https://g
 5. From the web page of your forked repository, click on the "Pull requests" tab.
 
 ### Method 2: Collaborators (Ideal for Small Teams)
-If you are a collaborator of a repository (meaning the repository owner has added you as a collaborator), you can:
 
+If you are a collaborator of a repository (meaning the repository owner has added you as a collaborator), you can:
 1. Clone the repository to your machine.
 2. Create a new branch, then switch to it.
 3. Make your changes, `commit`, and then `push` the branch to the repository.
 4. From the web page of the repository, click on the "Pull Requests" tab.
 
 ### Method 3: Within an Organization/Company
+
 If you are part of an organization/company, depending on your permissions, you may have the privilege to push branches directly and create PRs (Pull Requests). You can follow the same steps as Method 2 to create a PR.
 
 > **Note:** Regardless of the method you choose, be sure to follow the contribution guidelines and standards specific to the project you are working on.
 
 No matter which method you use, you need to visit the relevant repository to access the PRs (Pull Requests).
 
-
 Navigate to the repository of the relevant project and go to 'Pull requests'.
-![navbar Git Hub](https://i.imgur.com/hPBcRoX.png)
+![navbar Git Hub](https://raw.githubusercontent.com/Codecademy/docs/main/media/dongle-pullrequest-repositorie.png)
 
 Once on the page, you'll see a blue button labeled 'New pull request'; click on it.
-![New pull request interface](https://i.imgur.com/9P8Dcpm.png)
+![New pull request interface](https://raw.githubusercontent.com/Codecademy/docs/main/media/new-pullrequest-button.png)
 
 Finally, you just need to configure your Pull Request (PR), specifying the destination repository and branch, as well as the source branch and repository.
-![New pull request setting](https://i.imgur.com/ALyLGDt.png)
+![New pull request setting](https://raw.githubusercontent.com/Codecademy/docs/main/media/pullrequest-settings.png)
