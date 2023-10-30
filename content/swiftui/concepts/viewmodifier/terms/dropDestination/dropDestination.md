@@ -74,4 +74,4 @@ This will display:
 
 ![SwiftUI ViewModifier DropDestination](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-viewmodifier-dropDestination.gif)
 
-> **Note**: `.dropDestination()` is the second of two parts in the drag-and-drop operation. For information on setting up a draggable view, see [.draggable()](https://www.codecademy.com/resources/docs/swiftui/viewmodifier/draggable).
+> **Note**: `.dropDestination()` is the second of two parts in the drag-and-drop operation. For information on part one see [.draggable()](https://www.codecademy.com/resources/docs/swiftui/viewmodifier/draggable).
