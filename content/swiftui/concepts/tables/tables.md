@@ -94,6 +94,7 @@ To improve table interactivity, enabling users to select one or more rows can be
     Table(people, selection: $selection, sortOrder: $sortOrder) {...}
  }
 ```
+
 ## Customizing a Table style
 
 One of the easiest methods to change a table's appearance is by using the `.tableStyle(_:)` modifier. This modifier requires one argument, a TableStyle, which defines the style to use for the table. For instance, SwiftUI provides several table styles, such as `InsetTableStyle` and, on macOS, `BorderedTableStyle`. The default style is `AutomaticTableStyle`, which is available on all platforms that support `Table`.
