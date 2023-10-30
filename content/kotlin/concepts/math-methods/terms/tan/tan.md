@@ -28,7 +28,7 @@ The function returns a `Double` value, which is the tangent of the angle.
 
 ## Example
 
-The example below demonstrates how to use the tan() function in Kotlin to calculate the tangent of the angle `45` degrees in radians.
+The example below demonstrates how to use the tan() function in Kotlin calculates the tangent of the angle `45` degrees in radians.
 
 ```kotlin
 import kotlin.math.*
