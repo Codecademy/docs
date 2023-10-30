@@ -84,4 +84,4 @@ Error handling is part of the default GraphQL response structure. Here's how it 
 
 ## Who Is Using GraphQL?
 
-GraphQL is used by small and large businesses. Some bigger companies include Airbnb, Lyft, [GitHub](https://www.codecademy.com/resources/docs/general/github), Twitter, Paypal, and Shopify. More information can be found [here](https://graphql.org/users/).
+GraphQL is used by small and large businesses. Some bigger companies include Airbnb, Lyft, [GitHub](https://www.codecademy.com/resources/docs/general/github), X, Paypal, and Shopify. More information can be found [here](https://graphql.org/users/).

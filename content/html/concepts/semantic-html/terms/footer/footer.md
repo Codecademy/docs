@@ -66,7 +66,7 @@ At the end of the article we wish to show author information, as well as social 
         <nav>
           <a>Share on Instagram</a>
           <a>Share on Tumblr</a>
-          <a>Share on Twitter</a>
+          <a>Share on X</a>
         </nav>
       </footer>
     </article>

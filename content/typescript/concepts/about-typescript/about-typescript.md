@@ -19,7 +19,7 @@ CatalogContent:
 
 ## History
 
-TypeScript was released in October 2012 by Microsoft after two years of development. [Anders Hejlsberg](https://twitter.com/ahejlsberg), the original designer of C#, was the lead designer for the language.
+TypeScript was released in October 2012 by Microsoft after two years of development. [Anders Hejlsberg](https://x.com/ahejlsberg), the original designer of C#, was the lead designer for the language.
 
 ## Installation
 
