@@ -50,7 +50,6 @@ The Lua script below provides a deeper example of `math.asin()`. It calculates a
 local arrow_speed = 10 -- speed of the arrow in meters per second
 local target_distance = 15 -- distance to the target in meters
 
--- Calculating launch angle using simplified formula
 local launch_angle_radians = math.asin(target_distance / (arrow_speed * 2))
 local launch_angle_degrees = launch_angle_radians * (180 / math.pi)
 
