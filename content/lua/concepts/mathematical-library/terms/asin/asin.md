@@ -1,5 +1,5 @@
 ---
-Title: 'asin()'
+Title: '.asin()'
 Description: 'Returns the inverse sine in radians of a given value.'
 Subjects:
   - 'Computer Science'
