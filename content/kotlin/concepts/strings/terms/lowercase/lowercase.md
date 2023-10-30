@@ -20,8 +20,6 @@ The `lowercase()` method in Kotlin is used to convert the characters of a string
 fun String.lowercase(locale: Locale = Locale.getDefault()): String
 ```
 
-### Parameters
-
 - `locale` (optional): A `Locale` object representing the language and region-specific rules for case conversion. The default value is `Locale.getDefault()`.
 
 ## Examples
