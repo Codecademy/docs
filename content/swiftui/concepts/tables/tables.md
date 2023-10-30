@@ -107,7 +107,7 @@ Table(people, selection: $selection, sortOrder: $sortOrder) {
 
 ## Setting a fixed width for the table column
 
-You can set a specific width for a table column:
+Defining a precise width for a table column can be accomplished as follows:
 
 ```swift
 TableColumn("Name", value: \.name)
