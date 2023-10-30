@@ -62,7 +62,7 @@ Square(text: $droppedPayload, color: .blue)
 
 > **Note**: The `Square` view is a custom view that takes two parameters: `text` and `color`. The `text` parameter binds to the `droppedPayload` state variable, while the `color` parameter determines the background color of the view. For more information see [views](https://www.codecademy.com/resources/docs/swiftui/views).
 
-In the example, the custom `Square` view has a `.dropDestination()` modifier. Let's break down the arguments passed to this method:
+In the example, the custom `Square` view has a `.dropDestination()` modifier. The following arguments are passed to this method:
 
 - `for:` is set to `String.self` since the draggable and droppable data, `myPayload`, is of type String.
 - `action:` defines variables to store received data `receivedPayload` and its drop location `locationDrop`, also determines custom actions, such as displaying dropped data on the view.
