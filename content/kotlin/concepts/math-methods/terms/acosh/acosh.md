@@ -1,6 +1,6 @@
 ---
 Title: 'acosh()'
-Description: 'Returns the hyperbolic arccosine of a numeric argument.'
+Description: 'Returns the inverse hyperbolic cosine of a numeric argument.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
