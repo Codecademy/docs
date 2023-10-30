@@ -1,7 +1,7 @@
 ---
 Title: 'Fork'
 Description: 'A duplicate of a repository that resides within the independent directories of a contributor.'
-Subjects: 
+Subjects:
   - 'Code Foundations'
   - 'Developer Tools'
 Tags:
@@ -19,7 +19,7 @@ A **fork** is a duplicate of an existing repository. This "fork" is an independe
 
 ## Steps to Fork a Repository
 
-+ Step 1
+- Step 1
 
 First the user login to his/her GitHub account using the command:
 
@@ -27,7 +27,7 @@ First the user login to his/her GitHub account using the command:
 gh auth login
 ```
 
-+ Step 2
+- Step 2
 
 After successful login, the user can fork the repository using the command:
 
@@ -35,6 +35,6 @@ After successful login, the user can fork the repository using the command:
 gh repo fork <repository_url>
 ```
 
-[Users can get `repository_url` by going to the Github repository that they want to fork and copying the URL.]
-
 This will create a new copy of the original repository.
+
+> **Note:** Users can get `repository_url` by going to the Github repository that they want to fork and copying the URL.
