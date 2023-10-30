@@ -1,6 +1,6 @@
 ---
 Title: '.find()'
-Description: 'The **`.find()`** function is used to search for a substring within a string, and returns the start and end indices of the first occurrence of the substring.'
+Description: 'The **`.find()`** function is used to search for a substring within a string and returns the start and end indices of the first occurrence of the substring.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.find()`** function is used to search for a substring within a string, and returns the start and end indices of the first occurrence of the substring.
+The **`.find()`** function is used to search for a substring within a string and returns the start and end indices of the first occurrence of the substring.
 
 If the substring is not found, the function returns `nil`.
 
@@ -24,19 +24,20 @@ If the substring is not found, the function returns `nil`.
 
 These are 2 different syntaxes for the .find() function:
 
+### 1.
 ```pseudo
 string.find(fullString, searchString, init, pattern)
 ```
 
-This requires assining the function to a variable, to return the function.
+This requires assigning the function to a variable, to return the function.
 
 or
-
+### 2.
 ```pseudo
 startindex, endindex = string.find(fullstring, searchstring, init, pattern)
 ```
 
-This uses multiple assignment to save the results to a individual variables.
+This uses multiple assignment to save the results to an individual variables.
 
 - `fullString`: Is the string we are searching through.
 - `searchString`: Is the sub-string to search for.
