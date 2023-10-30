@@ -1,10 +1,9 @@
 ---
 Title: 'Classes'
-Description: 'A class serves as a blueprint or template for creating objects.'
+Description: 'A blueprint or template for creating objects.'
 Subjects:
   - 'Computer Science'
 Tags:
-  - 'Classes'
   - 'Objects'
   - 'Data Types'
   - 'Properties'
@@ -12,14 +11,14 @@ Tags:
   - 'OOP'
 CatalogContent:
   - 'learn-c-sharp'
-  - 'paths/full-stack-engineer-career-path'
+  - 'paths/computer-science'
 ---
 
-In C#, a **class** serves as a blueprint or template for creating objects. It plays a fundamental role in defining the structure, behavior, and attributes of these objects. A class can be thought of as a user-defined data type that encapsulates both data (attributes) and the methods (functions) that operate on that data.
+In C#, a **class** serves as a blueprint or template for creating objects. It plays a fundamental role in defining the structure, behavior, and attributes of these objects. A class can be thought of as a user-defined data type that encapsulates both data (attributes) and the actions (methods) that are applied to that data.
 
 ## Syntax for Declaring Classes
 
-To declare a class in C#, use the `class` keyword, followed by the class name. Class names should follow C# naming conventions (typically using PascalCase). The class definition is enclosed within curly braces {}.
+To declare a class in C#, use the `class` keyword, followed by the class name. Class names should follow C# naming conventions (typically using PascalCase). The class definition is enclosed within curly braces `{}`.
 
 ```cs
 public class MyClass {
@@ -45,7 +44,7 @@ C# provides access modifiers to control the visibility and accessibility of clas
 
 ## Example
 
-Here is a simple C# example featuring a class with properties and methods. By employing various access modifiers in C#, this example illustrates the use of public methods, such as `GetBalance`, to access private properties like the `current balance`. Meanwhile, it showcases that private methods like `PerformAudit` are inaccessible from external code.
+Here is a simple example featuring a class with properties and methods. By employing various access modifiers in C#, this example illustrates the use of public methods, such as `GetBalance`, to access private properties like the `current balance`. Meanwhile, it showcases that private methods like `PerformAudit()` are inaccessible from external code.
 
 ```cs
 using System;
@@ -98,7 +97,7 @@ Partial classes in C# enable class definitions to be split across multiple files
 
 ![Partial Classes](https://raw.githubusercontent.com/Codecademy/docs/main/media/c-sharp-partial-class.png)
 
-In the image above, the `Calculator` class is depicted as a partial class structure, allowing independent development of class components. In the code below, the application's entry point, the `Main` method, creates an instance of the Calculator class and utilizes its methods for addition and subtraction operations.
+In the image above, the `Calculator` class is depicted as a partial class structure, allowing independent development of class components. In the code below, the application's entry point, the `Main` method, creates an instance of the `Calculator` class and utilizes its methods for addition and subtraction operations.
 
 ```cs
 using System;
