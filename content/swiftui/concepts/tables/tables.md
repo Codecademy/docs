@@ -101,7 +101,6 @@ One of the easiest methods to change a table's appearance is by using the `.tabl
 
 ```swift
 Table(people, selection: $selection, sortOrder: $sortOrder) {
-    // Table columns
 } 
 .tableStyle(InsertTableStyle())
 ```
