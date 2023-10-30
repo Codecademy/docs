@@ -5,7 +5,6 @@ Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
- 
   - 'Strings'
 CatalogContent:
   - 'learn-kotlin'
