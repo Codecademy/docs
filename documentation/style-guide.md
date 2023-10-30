@@ -149,7 +149,7 @@ Code blocks can reference a language to support syntax highlighting. The followi
 - HTML: ` ```html `
 - Java: ` ```java `
 - JavaScript: ` ```js `
-- Kotlin: ` ```kotlin`
+- Kotlin: ` ```kotlin `
 - Lua: ` ```lua `
 - Luau: ` ```lua `
 - Markdown: ` ```md `
