@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `lowercase()` method in Kotlin is used to convert the characters of a string to lowercase. 
+The `.lowercase()` method in Kotlin is used to convert the characters of a string to lowercase. 
 
 ## Syntax
 
@@ -23,25 +23,31 @@ fun String.lowercase(locale: Locale = Locale.getDefault()): String
 - `locale` (optional): A `Locale` object representing the language and region-specific rules for case conversion. The default value is `Locale.getDefault()`.
 
 ## Examples
+
 Let's dive into some examples to see how the `.lowercase()` method can be used:
 
-
-```
-println("Iced frappé!".lowercase()) // iced frappé!
+```kotlin
+fun main() {
+    println("Iced frappé!".lowercase())
+}
 ```
 
 The output of this code will be:
 
 ```shell
-hello, world!
+iced frappé!
 ```
 
 Let's take a look at an example where we specify the locale:
 
-```pseudo
-println("KOTLIN".lowercase()) 
-val turkishLocale = Locale.forLanguageTag("tr")
-println("KOTLIN".lowercase(turkishLocale))
+```kotlin
+import java.util.Locale
+
+fun main() {
+    println("KOTLIN".lowercase()) 
+    val turkishLocale = Locale.forLanguageTag("tr")
+    println("KOTLIN".lowercase(turkishLocale)) 
+}
 ```
 
 The output of this code will be:
