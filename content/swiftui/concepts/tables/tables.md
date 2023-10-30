@@ -85,8 +85,7 @@ struct ContentView: View {
 
 ## Adding selection to a table
 
- To enhance the interactivity of tables we can enable users to choose one or more rows. To achieve this pass the `Table` a binding to an optional identifier of the item. To create a table that allows for multiple selections, you can establish a binding to a Set of IDs. 
- Here's an example of how to use multi-select functionality into the previous example:
+To improve table interactivity, enabling users to select one or more rows can be achieved. To do this, binding to an optional identifier of the item should be provided to the `Table`. For creating a table that permits multiple selections, a binding to a Set of IDs can be established. Here's an example of how to incorporate multi-select functionality into the previous example:
 
 ```swift
  // @State private var selection: Singer.ID? allows one row selection
