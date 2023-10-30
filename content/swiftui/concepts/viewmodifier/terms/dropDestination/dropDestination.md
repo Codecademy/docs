@@ -15,7 +15,7 @@ CatalogContent:
 
 The **`.dropDestination()`** view modifier in SwiftUI is applied to a view that will receive a dropped item. It works in conjunction with the `.draggable()` view modifier which gives a view the ability to be dragged.
 
-> **Note**: The data to be dragged and subsequently dropped must conform to the Transferable protocol. This ensures the data being dragged can be recognized and processed by other views or external applications. For information on protocols, see [Protocols](https://www.codecademy.com/resources/docs/swift/protocols).
+> **Note**: The data to be dragged and subsequently dropped must conform to the `Transferable` protocol. This ensures the data being dragged can be recognized and processed by other views or external applications. For more information see [protocols](https://www.codecademy.com/resources/docs/swift/protocols).
 
 ## Syntax
 
