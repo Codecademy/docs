@@ -33,11 +33,9 @@ The example below demonstrates how to use `acosh()` to calculate the hyperbolic 
 ```kotlin
 import kotlin.math.acosh
 fun main() {
-    // Calculate the hyperbolic arccosine of 2.0
     val x = 2.0
     val result = acosh(x)
 
-    // Print the result
     println(result)
 }
 ```
