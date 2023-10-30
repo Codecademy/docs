@@ -34,7 +34,7 @@ This method takes three required parameters:
 - `action:` A closure invoked when a draggable item is dropped on this view. It adds the dropped items to a designated array and stores the drop location (CGPoint) in a specified variable. Custom actions are defined within this closure. It returns true if the drop is successful and false otherwise.
 - `isTargeted:` A closure that is triggered when a draggable item hovers over this view, updating a boolean value to true when a draggable item is hovering over this view, and false when it is not.
 
-> **Note**: Both `action` and `isTargeted` are escaping closures. This means they are executed after the function they are passed to returns. For a drag-and-drop operation to work appropriately, we need to wait for the `.dropDestination()` method to return the value of the data dropped on the view before we can execute the `action` and `isTargeted` closures. For information on closures, see [Closures](https://www.codecademy.com/resources/docs/swift/closures).
+> **Note**: Both `action` and `isTargeted` are escaping closures. This means that they are executed after the function (they are passed to)  returns. For a drag-and-drop operation to work appropriately, the `.dropDestination()` method must return the value of the data dropped on the view before the `action` and `isTargeted` closures can be executed. For more information see [closures](https://www.codecademy.com/resources/docs/swift/closures).
 
 ## Example
 
