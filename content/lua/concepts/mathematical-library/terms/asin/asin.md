@@ -26,7 +26,7 @@ The `math.asin()` function must be called with an argument using the following s
 math.asin(x)
 ```
 
-- Where `x` is a number between - 1 and 1. If no argument is passed, the program will raise an error.
+- Where `x` is a number between - 1 and 1, representing a sine value for finding the corresponding angle in radians. If no argument is passed, the program will raise an error.
 
 ## Example 1
 
