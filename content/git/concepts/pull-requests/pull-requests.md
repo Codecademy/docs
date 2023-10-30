@@ -37,6 +37,7 @@ PRs are featured on popular version control platforms such as [GitHub](https://g
 ### Method 2: Collaborators (Ideal for Small Teams)
 
 If you are a collaborator of a repository (meaning the repository owner has added you as a collaborator), you can:
+
 1. Clone the repository to your machine.
 2. Create a new branch, then switch to it.
 3. Make your changes, `commit`, and then `push` the branch to the repository.
