@@ -53,6 +53,7 @@ struct Singer: Identifiable {
 ## Adding sorting to a table
 
 To enable sorting of `Table` columns, an array of `KeyPathComparator` objects should be created with default sorting inside. Additionally, a binding to an array of sort comparators needs to be provided to track changes in the sorting order. The table itself does not perform data sorting itself. To activate sorting, monitoring changes can be achieved using the `.onChange(of:perform:)` modifier and then sorting the data within the closure.
+
 Here's an example of how to add sorting to the previous code:
 
 ```swift
