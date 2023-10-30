@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`acosh()`** function returns the hyperbolic arccosine of a number.
+The **`acosh()`** function is used to calculate the inverse hyperbolic cosine(arccosh) of a given number.
 
 ## Syntax
 
