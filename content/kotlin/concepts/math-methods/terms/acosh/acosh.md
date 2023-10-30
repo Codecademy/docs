@@ -24,7 +24,7 @@ fun acosh(x: Double): Double
 
 The function accepts one mandatory parameter `x`, which should be a numeric value greater than or equal to `1`. The argument can be of `Double` and `Float` datatype. 
 
-> **Note**: It returns the hyperbolic arccosine of the argument, which represents a real number.
+It returns the hyperbolic arccosine of the argument, which represents a real number.
 
 ## Example
 
