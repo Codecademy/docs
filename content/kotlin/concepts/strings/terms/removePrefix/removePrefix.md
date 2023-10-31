@@ -33,7 +33,7 @@ fun main() {
   val originalString = "HelloWorld.jpg"
   val prefix = "Hello"
   val modifiedString = originalString.removePrefix(prefix)
-  
+
   println("Modified String: $modifiedString")
 }
 ```
