@@ -4,7 +4,7 @@ Description: 'Returns the string representation (display name) of the calendar f
 Subjects: 
   - 'Code Foundations'
   - 'Computer Science'
- Tags: 
+Tags: 
   - 'Date'
   - 'Methods'
   - 'Calendar'
@@ -24,11 +24,11 @@ calendarInstance.getDisplayName(calendarField, calendarStyle, locale)
 
 - `calendarInstance`: An instance of a calendar.
 
-- `calendarField`: The first parameter field, specifies the calendar field for which the display name is returned. Possible values for the field parameter include: `Calendar.MONTH`, `Calendar.DAY_OF_WEEK`, `Calendar.YEAR`.
+- `calendarField`: The first parameter field, specifies the calendar field for which the display name is returned. Possible values for the field parameter include: `Calendar.MONTH`, `Calendar.DAY_OF_WEEK`, and `Calendar.YEAR`.
 
-- `calendarStyle`: The second parameter, style, specifies the style in which the display name should be presented. Possible values for the style parameter include: `Calendar.SHORT` and `Calendar.LONG`. Both values can either return a short or long form of the display name.
+- `calendarStyle`: The second parameter, style, specifies the style in which the display name should be presented. Possible values for the style parameter include: `Calendar.SHORT` and `Calendar.LONG`. They can return a short and long form of the display name, respectively.
 
-- `locale`: The third parameter, locale, specifies the locale in which to display the name. Possible values for the field parameter include: `Locale.US`, `Locale.FRANCE`, `Locale.GERMANY`.
+- `locale`: The third parameter, locale, specifies the locale in which to display the name. Possible values for the field parameter include: `Locale.US`, `Locale.FRANCE`, `Locale.GERMANY`, etc.
 
 ## Example
 
@@ -56,7 +56,7 @@ This code will print the name of the current month in the default locale.
 The output for the code above:
 
 ```shell
-"January"
+oct
 ```
 
 ----
@@ -85,5 +85,5 @@ Here is another example of how to use the getDisplayName() method with three par
 Output for the code above:
 
 ```shell
-"Janvier"
+octobre
 ```
