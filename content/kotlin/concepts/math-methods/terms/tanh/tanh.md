@@ -20,7 +20,7 @@ The **`.tanh()`** method in Kotlin's `math` class computes the hyperbolic tangen
 tanh(x)
 ```
 
--`x`: Takes the argument value .
+-`x`: This parameter takes a value of an angle in `Double` or `Float` type.
 
 ## Example
 
