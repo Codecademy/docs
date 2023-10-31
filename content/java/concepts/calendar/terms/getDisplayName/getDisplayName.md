@@ -1,46 +1,34 @@
 ---
 Title: '.getDisplayName()' 
-Description: 'Returns the string representation (display name) of the calender field value in the given style and locale. If no string representation is applicable, null is returned.' 
+Description: 'Returns the string representation (display name) of the calendar field value in the given style and locale. If no string representation is applicable, null is returned.' 
 Subjects: 
   - 'Code Foundations'
   - 'Computer Science'
- 
-Tags: 
+ Tags: 
   - 'Date'
   - 'Methods'
-  - 'Calender'
+  - 'Calendar'
 CatalogContent: 
   - 'learn-java'
   - 'paths/computer-science'
 ---
 
 
-The **.getDisplayName()** method of the `Calender` class returns the string representation (display name) of the calender field value in the given style and locale. If no string representation is applicable, null is returned.
+The **`.getDisplayName()`** method of the `Calendar` class returns the string representation (display name) of the calendar field value in the given style and locale. If no string representation is applicable, null is returned.
 
 ## Syntax
 
 ```pseudo
-public String getDisplayName(int field, int style, Locale locale)
+calendarInstance.getDisplayName(calendarField, calendarStyle, locale)
 ```
 
-```pseudo
-// Create a Calendar object.
-Calendar calendar = Calendar.getInstance();
+- `calendarInstance`: An instance of a calendar.
 
-// Get the display name for the month in the current locale.
-String monthName = calendar.getDisplayName(Calendar.MONTH, Calendar.SHORT, Locale.getDefault());
+- `calendarField`: The first parameter field, specifies the calendar field for which the display name is returned. Possible values for the field parameter include: `Calendar.MONTH`, `Calendar.DAY_OF_WEEK`, `Calendar.YEAR`.
 
-// Print the month name.
-System.out.println(monthName);
-```
+- `calendarStyle`: The second parameter, style, specifies the style in which the display name should be presented. Possible values for the style parameter include: `Calendar.SHORT` and `Calendar.LONG`. Both values can either return a short or long form of the display name.
 
-## Parameters
-
-- `field`: The first parameter field, specifies the calender field for which the display name is returned. Possible values for the field parameter include: `Calender.MONTH`, `Calender.DAY_OF_WEEK`, `Calender.YEAR`.
-
-- `style`: The second parameter, style, specifies the style of the display name. Possible values for the style parameter include: `Calender.SHORT` and `Calender.LONG`. Both values can either return a short or long form of the display name.
-
-- `locale`: The third parameter, locale, specifies the locale for which the display name is returned. Possible values for the field parameter include: `Locale.ENGLISH`, `Locale.FRENCH`, `Locale.GERMAN`.
+- `locale`: The third parameter, locale, specifies the locale in which to display the name. Possible values for the field parameter include: `Locale.US`, `Locale.FRANCE`, `Locale.GERMANY`.
 
 ## Example
 
@@ -63,7 +51,15 @@ public class GetDisplayName {
 }
 ```
 
-This code will print the name of the current month in the default locale. For example, if the default locale is English, the code will print "January".
+This code will print the name of the current month in the default locale.
+
+The output for the code above:
+
+```shell
+"January"
+```
+
+----
 
 ```java
 import java.util.Calendar;
@@ -84,4 +80,10 @@ public class GetDisplayName {
 }
 ```
 
-Here is another example of how to use the getDisplayName() method with three parameters. The code will print the name of the current month in the French locale. For example, if the current locale is French, the code will print "janvier".
+Here is another example of how to use the getDisplayName() method with three parameters. The code will print the name of the current month in the French locale.
+
+Output for the code above:
+
+```shell
+"Janvier"
+```
