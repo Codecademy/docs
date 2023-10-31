@@ -24,7 +24,8 @@ If the substring is not found, the function returns `nil`.
 
 These are 2 different syntaxes for the .find() function:
 
-### 1.
+### 1
+
 ```pseudo
 string.find(fullString, searchString, init, pattern)
 ```
@@ -32,7 +33,9 @@ string.find(fullString, searchString, init, pattern)
 This requires assigning the function to a variable, to return the function.
 
 or
-### 2.
+
+### 2
+
 ```pseudo
 startindex, endindex = string.find(fullstring, searchstring, init, pattern)
 ```
@@ -147,13 +150,13 @@ Use `.find()` with `pattern` (pattern matching) parameter:
 -- With pattern matching
 sentence = "hello world"
 a, b = string.find(sentence, "l+", 1, false)
-print(a)  -- Output: 3
-print(b)  -- Output: 4
+print(a)
+print(b)
 
 -- Without pattern matching
 y, x = string.find("hello world", "l+", 1, true)
-print(y)  -- Output: nil
-print(z)  -- Output: nil
+print(y)
+print(z)
 ```
 
 The above example uses the pattern matching parameter to determine if pattern matching characters can be used as search terms.
