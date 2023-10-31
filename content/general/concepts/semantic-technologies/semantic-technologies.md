@@ -30,11 +30,11 @@ A **taxonomy** consists of hierarchies of concepts. For example, the concept `po
 
 An **ontology** is an enriched taxonomy. Ontologies include all the elements in taxonomies and add the following:
 
-- *Additional relations over concepts*: Ontologies can include relations other than subclass and superclass. For example, to represent the information that cars have tires as parts, one can define a relation `partOf` as holding between the concepts `tire` and `car`. Notice that this is not a hierarchy relation: it does not say that all tires are cars or that all cars are tires.
-- *Properties of concepts*: Ontologies can include properties that apply to concepts. For example, to represent the information that cars have weights, one can define the property `weight` as applying to the concept `car`.
-- *Additional information about properties and relations*
-  - *The domain and range of properties and relations*: Ontologies can include specifications of what types of entities a property or relation applies to (domain) and what values it can take (range). For example, one could specify that the domain of a relation `authorOf` is `person`, and the range is `document`.
-  - *Formal structures of properties and relations*: Ontologies can include axioms specifying the formal structures of properties and relations. For example, one could include an axiom that *partOf* is transitive, to convey the information that if `A` is `partOf` `B`, and `B` is `partOf` `C`, then `A` is `partOf` `C`.
+- _Additional relations over concepts_: Ontologies can include relations other than subclass and superclass. For example, to represent the information that cars have tires as parts, one can define a relation `partOf` as holding between the concepts `tire` and `car`. Notice that this is not a hierarchy relation: it does not say that all tires are cars or that all cars are tires.
+- _Properties of concepts_: Ontologies can include properties that apply to concepts. For example, to represent the information that cars have weights, one can define the property `weight` as applying to the concept `car`.
+- _Additional information about properties and relations_
+  - _The domain and range of properties and relations_: Ontologies can include specifications of what types of entities a property or relation applies to (domain) and what values it can take (range). For example, one could specify that the domain of a relation `authorOf` is `person`, and the range is `document`.
+  - _Formal structures of properties and relations_: Ontologies can include axioms specifying the formal structures of properties and relations. For example, one could include an axiom that _partOf_ is transitive, to convey the information that if `A` is `partOf` `B`, and `B` is `partOf` `C`, then `A` is `partOf` `C`.
 
 ### Knowledge Graphs
 
