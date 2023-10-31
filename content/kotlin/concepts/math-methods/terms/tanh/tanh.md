@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.tanh()`** method in Kotlin's `math` class computes the hyperbolic tangent of an angle given in radians.
+The **`.tanh()`** method in Kotlin's `math` class computes the hyperbolic tangent of an angle given in radians. The method takes the angle as its one and only parameter.
 
 ## Syntax
 
@@ -20,7 +20,7 @@ The **`.tanh()`** method in Kotlin's `math` class computes the hyperbolic tangen
 tanh(x)
 ```
 
-The function accepts one mandatory parameter `x`. The argument can be of `Double` or `Float` datatype and it returns a value of the same type.
+-`x`: Takes the argument value .
 
 ## Example
 
