@@ -17,8 +17,7 @@ The **`.tanh()`** method in Kotlin's `math` class computes the hyperbolic tangen
 ## Syntax
 
 ```pseudo
-import kotlin.math.*
-val y = tanh(x)
+tanh(x)
 ```
 
 The function accepts one mandatory parameter `x`. The argument can be of `Double` or `Float` datatype and it returns a value of the same type.
