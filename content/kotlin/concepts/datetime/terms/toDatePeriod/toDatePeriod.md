@@ -5,9 +5,9 @@ Subjects:
   - 'Computer Science'
   - 'Code Foundations'
 Tags:
- - 'DatePeriod'
- - 'DateTimePeriod'
- - 'ISO-8601'
+ - 'Methods'
+ - 'Data Structures'
+ - 'Time'
 CatalogContent:
   - 'learn-kotlin'
   - 'paths/computer-science'
