@@ -13,6 +13,7 @@ CatalogContent:
 ---
 
 **Drag and Drop** in SwiftUI is the concept of moving and dropping an object (e.g. a UI element or UIView) around the screen. This feature allows users to easily rearrange, reorder, or transfer objects between different parts of the app's interface by dragging them, enhancing the overall user experience.
+
 ## Move Transferable Items
 
 SwiftUI `Transferable` protocol simplifies the process of adding drag and drop experience to an app. To achieve this with minimal code using the `.draggable()` and `.dropDestination()` modifiers.
