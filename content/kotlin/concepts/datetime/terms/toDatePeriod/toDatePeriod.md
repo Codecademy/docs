@@ -2,8 +2,8 @@
 Title: 'toDatePeriod()'
 Description: 'Parses the ISO-8601 duration representation as a DatePeriod.'
 Subjects:
-  - 'Date and Time'
   - 'Computer Science'
+  - 'Code Foundations'
 Tags:
  - 'DatePeriod'
  - 'DateTimePeriod'
