@@ -28,7 +28,7 @@ fun String.toDatePeriod(): DatePeriod
 
 ## Example
 
-The following code creates a DatePeriod object representing one day:
+The following code creates a `DatePeriod` object representing one day:
 
 ```kotlin
 val oneDayPeriod = "P1D".toDatePeriod()
