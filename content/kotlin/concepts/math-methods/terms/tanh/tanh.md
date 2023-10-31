@@ -1,5 +1,5 @@
 ---
-Title: 'tanh()'
+Title: '.tanh()'
 Description: 'Computes the hyperbolic tangent of an angle.'
 Subjects:
   - 'Code Foundations'
