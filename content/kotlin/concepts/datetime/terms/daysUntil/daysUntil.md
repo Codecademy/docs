@@ -30,7 +30,7 @@ The example demonstrates the use of `.daysUntil()` to calculate the number of da
 fun main() {
   Instant t1 = Instant.now()
 
-  Instant t2 = t1.plus(amountToAdd = 125, Unit = HOURS)
+  Instant t2 = t1.plus(125, HOURS)
 
   Instant t3 = t2.daysUntil(t1)
   println(t3)
