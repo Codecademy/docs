@@ -5,7 +5,6 @@ Subjects:
   - 'iOS'
   - 'Mobile Development'
 Tags: 
-  - 'API'
   - 'Methods'
   - 'iOS'
 CatalogContent: 
