@@ -1,6 +1,6 @@
 ---
 Title: '.removePrefix()'
-Description: 'Removes a specified prefix from a string, if present.'
+Description: 'Removes a specified prefix from a Kotlin string, if present.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
