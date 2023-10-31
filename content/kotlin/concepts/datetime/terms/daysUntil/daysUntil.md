@@ -20,7 +20,7 @@ The **`.daysUntil()`** method calculates the number of whole days between two in
 fun Instant.daysUntil(other: Instant, timeZone: TimeZone): Int
 ```
 
--`Instant`: A moment in time.
+- `Instant`: A moment in time.
 - `TimeZone`: This parameter is of type `TimeZone`. It indicates that the calculation should consider the time zone when determining the number of days between the two `Instant` objects.
 
 ## Example
