@@ -20,7 +20,7 @@ Below is a very brief overview of many major ethical issues arising from the gro
 
 ## Major Ethical Issues in AI
 
-### Algorithmic Bias 
+### Algorithmic Bias
 
 Algorithmic bias occurs when the outputs of an AI algorithm are unfairly biased against a certain group of people.
 
