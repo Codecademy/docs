@@ -33,7 +33,7 @@ Therefore, there is a distinction between the format of the codec used to encode
 | MP4              | H.264       | AAC         | Compatible with most every browser and used if support is of the utmost concern.                                                 |
 | MP4              | AV1         | AAC         | Useed for streaming the absolute smallest files at a given quality. Better compression with better quality, but less compatible. |
 
-## Server support Video
+## Server Support Video
 
 It is necessary to add configuration in the web server to enable video to show in a browser. What is needed is to add the video MIME type to the server configuration.
 
