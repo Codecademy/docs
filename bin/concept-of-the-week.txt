@@ -1,1 +1,1 @@
-content/javascript/concepts/hoisting/hoisting.md
+content/uiux/concepts/five-elements-of-ux-design/five-elements-of-ux-design.md
