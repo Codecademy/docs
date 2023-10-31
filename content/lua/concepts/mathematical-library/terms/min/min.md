@@ -1,5 +1,5 @@
 ---
-Title: ‘min()'
+Title: 'min()'
 Description: 'Returns the smallest value from a series of given numbers.'
 Subjects:
   - 'Computer Science'
