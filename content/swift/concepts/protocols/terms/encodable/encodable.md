@@ -16,11 +16,11 @@ CatalogContent:
 
 The protocol is related to the following protocols:
 
-- Codeable: includes both Decodeable and Encodeable
-- [Decodeable](https://www.codecademy.com/resources/docs/swift/protocols/decodable):
-- CodingKey:is a type that can be used as a key for encoding and decoding where the key in the JSON does not match the property of the struct/object
-- CodingKeyRepresentable:a type that you can losslessly convert between a custom type and a CodingKey type
-- [CodingUserInfoKey](https://www.codecademy.com/resources/docs/swift/protocols/codingkeyrepresentable):
+- `Codeable` includes both `Decodeable` and `Encodeable`
+- [`Decodeable`](https://www.codecademy.com/resources/docs/swift/protocols/decodable)
+- `CodingKey`
+- `CodingKeyRepresentable`
+- [CodingUserInfoKey](https://www.codecademy.com/resources/docs/swift/protocols/codingkeyrepresentable)
 
 ## Syntax
 
