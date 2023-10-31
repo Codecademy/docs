@@ -48,7 +48,7 @@ struct ContentView: View {
 }
 ```
 
-**Dropping**
+### Dropping
 In order to handle the drop we have to use `.dropDestination()`. It has two parameter values: `items` is an array containing all the dragged items. However, when only one item is being dragged, this array will contain just one element. `location` indicates the position of the dragged item within the drop view.
 
 ```swift
