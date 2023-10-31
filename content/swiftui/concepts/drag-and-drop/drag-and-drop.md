@@ -92,7 +92,7 @@ struct ContentView: View {
 }
 ```
 
-## Moving items using item providers 
+## Moving Items Using Item Providers 
 
 **`DropDelegate`** is a `protocol` in SwiftUI that lets the developer work with a drag and drop operations in a flexible way. To enable a view to accept drops, use the `onDrop()` method and specify a drop delegate.
 This code defines a drop delegate that handles different events related to dropping objects onto a view. The events are:
