@@ -35,13 +35,23 @@ We are currently building a team of community volunteers and educators to mainta
 
 ## How do I contribute?
 
-There are many ways to contribute to Docs:
+Of course! Here's an improved version of the ways to contribute to Docs with the provided links and additional details:
 
-- Submit a Pull Request to edit an existing entry.
-- Submit a Pull Request to create a new entry.
-- Submit a typo/bug in [GitHub Issues](https://github.com/Codecademy/docs/issues).
-- Reply to the thread on [Possible Content Discussion](https://discuss.codecademy.com/t/find-a-starting-point-possible-content-discussion/745868) to share ideas and collaborate with other contributors, maintainers, or super users to determine good future issues.
-- Share your thoughts in this [Docs feedback form](https://codecademyready.typeform.com/to/hzVIWDgz) to tell us how we can improve Docs!
+📝 **Ways to Contribute to Docs:**
+
+1. **Edit Existing Entry**:
+   🛠️ Submit a Pull Request to edit an existing entry.
+2. **Create a New Entry**:
+   ➕ Submit a Pull Request to create a new entry.
+3. **Report a Typo or Bug**:
+   🐞 Submit a typo/bug in [GitHub Issues](https://github.com/Codecademy/docs/issues).
+4. **Join the Discussion**:
+   🗣️ Reply to the thread on [Possible Content Discussion](https://discuss.codecademy.com/t/find-a-starting-point-possible-content-discussion/745868) to share ideas and collaborate with other contributors, maintainers, or super users to determine good future issues.
+5. **Provide Feedback**:
+   📢 Share your thoughts in this [Docs feedback form](https://codecademyready.typeform.com/to/hzVIWDgz) to tell us how we can improve Docs!
+👨‍💻 Whether you are a code newbie or a seasoned hacker, there's something for you!
+
+📖 Don't forget to read through the [Contributing Guide](link-to-guide), where you'll find a write-up of our content standards and style guide, as well as templates for creating your entries. 😊
 
 Whether you are a code newbie or a seasoned hacker, there's something for you!
 
