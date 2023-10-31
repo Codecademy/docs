@@ -1,5 +1,5 @@
 <!--
-👋 Hi, thanks for sending a PR to Codecademy Docs! 💖
+👋 Hi, thanks for submitting a PR to Codecademy Docs! 💖
 Please fill out all fields below to ensure your PR is reviewed quickly.
 
 **IMPORTANT**
