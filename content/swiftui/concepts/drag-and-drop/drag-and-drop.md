@@ -176,7 +176,7 @@ struct ContentView: View {
 
 **`DropInfo`** is a `structure` that gives information about a drop action. It is commonly used when handling drops with the `onDrop()` modifier. `DropInfo` gives details about the drop location, the types of data being dropped, and other important information.
 
-**Drag and Drop in SwiftUI using `onDrag()` and `onDrop()` example**
+## Example Using `.onDrag()` and `.onDrop()`
 
 Here is the example of a simple LazyVGrid with 4 items. The `.onDrag()` view modifier is called on each item which handles the dragging. And the `.onDrop()` view modifier allows us to move and reorder elements, with the result being stored in a state variable named `draggedItem`.
 
