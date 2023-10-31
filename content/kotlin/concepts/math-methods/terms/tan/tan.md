@@ -1,6 +1,6 @@
 ---
 Title: 'tan()'
-Description: 'Returns the tangent of the angle.'
+Description: 'Returns the tangent of an angle.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
