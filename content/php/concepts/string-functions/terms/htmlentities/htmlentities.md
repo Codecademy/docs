@@ -71,12 +71,12 @@ The `htmlentities()` function has one required parameter and three optional para
 **Entities that will be encoded**:
 
 | Characters       | Convert to | Result  |
-| ---------------- | ---------- | ------- | --- |
+| ---------------- | ---------- | ------- |
 | & (ampersand)    | becomes    | \&amp;  |
 | " (double quote) | becomes    | \&quot; |
 | ' (single quote) | becomes    | \&#039; |
 | < (less than)    | becomes    | \&lt;   |
-| > (greater than) | becomes    | \&gt;   | .   |
+| > (greater than) | becomes    | \&gt;   |
 
 ## Example
 
