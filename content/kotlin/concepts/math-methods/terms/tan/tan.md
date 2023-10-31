@@ -22,9 +22,8 @@ The **`tan()`** function is used to calculate the tangent of an angle. The tange
 tan(x)
 ```
 
-The function accepts one mandatory parameter `x`. They all take an angle in radians as `Double` or `Float` as a parameter.
-
-The function returns a `Double` value, which is the tangent of the angle.
+- The function accepts one mandatory parameter `x`. They all take an angle in radians as `Double` or `Float` as a parameter.
+- The function returns a `Double` value, which is the tangent of the angle.
 
 ## Example
 
