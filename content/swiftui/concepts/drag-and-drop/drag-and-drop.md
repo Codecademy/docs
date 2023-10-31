@@ -1,13 +1,13 @@
 ---
 Title: 'Drag and Drop'
-Description: 'Drag and Drop in SwiftUI allows a user to pick up and drop an object from one view to another.' 
-Subjects: 
+Description: 'Drag and Drop in SwiftUI allows a user to pick up and drop an object from one view to another.'
+Subjects:
   - 'iOS'
   - 'Mobile Development'
-Tags: 
+Tags:
   - 'Methods'
   - 'iOS'
-CatalogContent: 
+CatalogContent:
   - 'learn-ios-course'
   - 'paths/ios-developer'
 ---
@@ -49,6 +49,7 @@ struct ContentView: View {
 ```
 
 ### Dropping
+
 In order to handle the drop, use `.dropDestination()`. It has two parameter values:
 
 - `items` is an array containing all the dragged items. However, when only one item is being dragged, this array will contain just one element.
@@ -74,9 +75,9 @@ struct ContentView: View {
             .frame(minWidth: 250, minHeight: 70)
             .cornerRadius(10)
             .background(.yellow)
-            
+
             Text("Drop items here:")
-            
+
             dropImage
                 .frame(width: 200, height: 150)
                 .background(.blue)
@@ -92,7 +93,7 @@ struct ContentView: View {
 }
 ```
 
-## Moving Items Using Item Providers 
+## Moving Items Using Item Providers
 
 **`DropDelegate`** is a `protocol` in SwiftUI that lets the developer work with a drag and drop operations in a flexible way. To enable a view to accept drops, use the `onDrop()` method and specify a drop delegate.
 This code defines a drop delegate that handles different events related to dropping objects onto a view. The events are:
@@ -102,15 +103,15 @@ struct CDDropDelegate: DropDelegate {
 
     func dropEntered(info: DropInfo) {
     // Triggered when an object enters the view.
-  } 
+  }
     func dropExited(info: DropInfo) {
     // Triggered when an object exits the view.
   }
 
     func dropUpdated(info: DropInfo) -> DropProposal? {
-    // Triggered when an object moves within the view. 
+    // Triggered when an object moves within the view.
   }
-  
+
     func validateDrop(info: DropInfo) -> Bool {
     // Determines whether to accept or reject the drop.
   }
@@ -130,22 +131,22 @@ struct CDDropDelegate: DropDelegate {
 ```swift
 struct ContentView: View {
     @State private var text: String = ""
-    
+
     var body: some View {
         VStack {
             Text("DropProposal Example Codecademy")
                 .font(.largeTitle)
                 .padding()
-            
+
             Text("Drop Text Here:")
-            
+
             Text(text)
                 .padding()
                 .background(Color.yellow)
                 .onDrop(of: [UTType.text], isTargeted: $text?, perform: { providers, isTargeted in
                         // Create a custom DropProposal
                         let dropProposal = DropProposal(operation: .copy)
-                        
+
                         // Check if the drop is targeted to this view
                         if isTargeted {
                             // Handle the drop operation based on the custom DropProposal
@@ -161,7 +162,7 @@ struct ContentView: View {
                                 return dropProposal
                             }
                         }
-                        
+
                         return nil
                 })
                 .frame(width: 200, height: 100)
@@ -184,7 +185,7 @@ Here is the example of a simple LazyVGrid with 4 items. The `.onDrag()` view mod
 struct ContentView: View {
     @State private var items = ["Apple", "Banana", "Lemon", "Orange"]
     @State private var draggedItem: String?
-    
+
     var body: some View {
         VStack {
             LazyVGrid(columns: [GridItem(.adaptive(minimum: 160), spacing: 15)], spacing: 15) {
