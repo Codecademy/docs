@@ -18,10 +18,10 @@ The **`.removePrefix()`** method in Kotlin is used to remove a specified prefix 
 ## Syntax
 
 ```pseudo
-val modifiedString = originalString.removePrefix(prefixToRemove)
+String.removePrefix(prefix)
 ```
 
-- `originalString`: The original string from which the prefix will be removed.
+- `String`: The original string from which the prefix will be removed.
 - `prefix`: The prefix which will be removed from the original string.
 
 ## Example
