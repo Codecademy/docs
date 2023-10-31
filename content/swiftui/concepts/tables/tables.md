@@ -50,7 +50,7 @@ struct Singer: Identifiable {
 }
 ```
 
-## Adding sorting to a table
+### Adding sorting to a table
 
 To enable sorting of `Table` columns, an array of `KeyPathComparator` objects should be created with default sorting inside. Additionally, a binding to an array of sort comparators needs to be provided to track changes in the sorting order. The table itself does not perform data sorting itself. To activate sorting, monitoring changes can be achieved using the `.onChange(of:perform:)` modifier and then sorting the data within the closure.
 
@@ -83,7 +83,7 @@ struct ContentView: View {
 }
 ```
 
-## Adding selection to a table
+### Adding selection to a table
 
 To improve table interactivity, enabling users to select one or more rows can be achieved. To do this, binding to an optional identifier of the item should be provided to the `Table`. For creating a table that permits multiple selections, a binding to a Set of IDs can be established. Here's an example of how to incorporate multi-select functionality into the previous example:
 
@@ -95,7 +95,7 @@ To improve table interactivity, enabling users to select one or more rows can be
  }
 ```
 
-## Customizing a Table style
+### Customizing a Table style
 
 One of the easiest methods to change a table's appearance is by using the `.tableStyle(_:)` modifier. This modifier requires one argument, a TableStyle, which defines the style to use for the table. For instance, SwiftUI provides several table styles, such as `InsetTableStyle` and, on macOS, `BorderedTableStyle`. The default style is `AutomaticTableStyle`, which is available on all platforms that support `Table`.
 
@@ -105,7 +105,7 @@ Table(people, selection: $selection, sortOrder: $sortOrder) {
 .tableStyle(InsertTableStyle())
 ```
 
-## Setting a fixed width for the table column
+### Setting a fixed width for the table column
 
 Defining a precise width for a table column can be accomplished as follows:
 
