@@ -1,6 +1,6 @@
 ---
 Title: '.prependIndent()'
-Description: 'Prepends indent to every line of the original string.'
+Description: 'Adds indentation to a string.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
