@@ -34,10 +34,10 @@ The example below demonstrates how to use the `tan()` function in Kotlin to calc
 ```kotlin
 import kotlin.math.*
 fun main() {
-    val angleInRadians = Math.toRadians(45.0)
-    val tangent = tan(angleInRadians)
+  val angleInRadians = Math.toRadians(45.0)
+  val tangent = tan(angleInRadians)
 
-    println(tangent) // 1.0
+  println(tangent)
 }
 ```
 
