@@ -18,7 +18,7 @@ The **`restore`** command is a versatile tool that enables developers to restore
 
 The syntax of the `git restore` command is as follows:
 
-```shell
+```pseudo
 git restore <options> -- <file>
 ```
 
