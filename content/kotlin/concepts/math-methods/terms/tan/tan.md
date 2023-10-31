@@ -29,7 +29,6 @@ tan(x)
 
 The example below demonstrates how to use the `tan()` function in Kotlin to calculate the tangent of the angle `45` degrees in radians.
 
-
 ```kotlin
 import kotlin.math.*
 fun main() {
