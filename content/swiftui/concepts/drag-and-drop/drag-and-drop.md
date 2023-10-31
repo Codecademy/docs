@@ -21,7 +21,7 @@ SwiftUI `Transferable` protocol simplifies the process of adding drag and drop e
 ### Dragging
 
 Enable dragging functionality by attaching the `.draggable()` view modifier to the view and passing in the object. The object has to conform to the `Transferable` protocol.
-For example, this code displays four Apple products and allows the user to drag any of them into the box positioned below:
+For example, this code displays four strings representing Apple products, and allows the user to drag any of them into the box positioned below:
 
 ```swift
 struct ContentView: View {
