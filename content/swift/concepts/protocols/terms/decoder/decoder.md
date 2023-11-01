@@ -1,6 +1,6 @@
 ---
 Title: 'Decoder'
-Description: 'A Swift protocol that converts external data into Swift types .'
+Description: 'A Swift protocol that converts external data into Swift types.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
@@ -32,7 +32,7 @@ let itemInstance = try decoder.decode(SomeStruct.self, from: itemData)
 - The `Decodable` protocol signifies that `SomeStruct` can be decoded from an external format.
 - If needed, the `init(from:)` initializer is used to provide custom decoding logic.
 - The `JSONDecoder` class decodes JSON data into a Swift type that conforms to the `Decodable` protocol.
-- JSON data gets transformed into a Swift type via the `decode(_:from:)` method.
+- JSON data gets transformed into the `SomeStruct` Swift type via the `decode(_:from:)` method.
 
 ## Example
 
@@ -62,7 +62,7 @@ let bookInstance = try decoder.decode(Book.self, from: bookData)
 print(bookInstance)
 ```
 
-In this example, a `Book` struct conforms to the `Decodable` protocol. The `Book` struct has three properties, `title`, `author`, and `publicationYear`, that match the keys in the JSON data. The `init(from:)` initializer is not implemented because the property labels match the JSON data keys. The JSON data is then decoded into a `Book` instance using the `decode(_:from:)` method of the `JSONDecoder` class.
+In this example, a `Book` struct has three properties, `title`, `author`, and `publicationYear`, that match the keys in the JSON data. The `init(from:)` initializer is not implemented because the property labels match the JSON data keys. The JSON data is then decoded into a `Book` instance using the `decode(_:from:)` method of the `JSONDecoder` class.
 
 This will output the following:
 
