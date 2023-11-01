@@ -1,6 +1,6 @@
 ---
 Title: 'DayOfWeek'
-Description: 'The DayOfWeek method will return the '
+Description: 'Useful tool for working with weekdays in the Kotlin code, making it easier to perform various operations and checks related to days of the week.'
 Subjects:
   - 'Computer Science'
 Tags:
