@@ -13,7 +13,6 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-
 The **`.getDisplayName()`** method of the `Calendar` class returns the string representation (display name) of the calendar field value in the given style and locale. If no string representation is applicable, null is returned.
 
 ## Syntax
@@ -23,12 +22,9 @@ calendarInstance.getDisplayName(calendarField, calendarStyle, locale)
 ```
 
 - `calendarInstance`: An instance of a calendar.
-
 - `calendarField`: The first parameter field, specifies the calendar field for which the display name is returned. Possible values for the field parameter include: `Calendar.MONTH`, `Calendar.DAY_OF_WEEK`, and `Calendar.YEAR`.
-
-- `calendarStyle`: The second parameter, style, specifies the style in which the display name should be presented. Possible values for the style parameter include: `Calendar.SHORT` and `Calendar.LONG`. They can return a short and long form of the display name, respectively.
-
-- `locale`: The third parameter, locale, specifies the locale in which to display the name. Possible values for the field parameter include: `Locale.US`, `Locale.FRANCE`, `Locale.GERMANY`, etc.
+- `calendarStyle`: The second parameter, style, specifies the style in which the display name should be presented. Possible values for the style parameter include: `Calendar.SHORT`, and `Calendar.LONG`. They can return a short and long form of the display name, respectively.
+- `locale`: The third parameter, locale, specifies the locale to display the name. Possible values for the field parameter include: `Locale.US`, `Locale.FRANCE`, `Locale.GERMANY`, etc.
 
 ## Example
 
@@ -51,9 +47,7 @@ public class GetDisplayName {
 }
 ```
 
-This code will print the name of the current month in the default locale.
-
-The output for the code above:
+This code will print the name of the current month in the default locale. The output for the code above:
 
 ```shell
 Oct
@@ -80,9 +74,7 @@ public class GetDisplayName {
 }
 ```
 
-Here is another example of how to use the getDisplayName() method with three parameters. The code will print the name of the current month in the French locale.
-
-Output for the code above:
+Here is another example of how to use the getDisplayName() method with three parameters. The code will print the name of the current month in the French locale. Output for the code above:
 
 ```shell
 octobre
