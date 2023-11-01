@@ -79,3 +79,35 @@ The anchor element `<a>` can create hyperlinks to different parts of the same HT
 
 <a href="#id-of-element-to-link-to">Take me to a different part of the page</a>
 ```
+
+## Link to Specific stylesheets and JavaScript
+
+The following is boiler plate code for HTML. Inside the `<head>` anchor there is
+a link `<link rel="stylesheet" href="style.css">` that establishes a relationship
+with an external source. The attribute `rel="stylesheet"` indicates that the linked
+resource is a stylesheet. The attribute `href="style.css"` indicates that the style sheets
+is called `style.css` and should be a file located in the same directory as the
+HTML file.
+Similarly javascript files can be linked as well. Having a file named `index.js`
+can be linked to the HTML page by adding the following line to the bottom of the body
+`<script src="index.js></script>`.
+
+```html
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+	  <script src="index.js"></script>
+  </body>
+</html>
+
+```
+
