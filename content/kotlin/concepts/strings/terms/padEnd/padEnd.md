@@ -7,6 +7,7 @@ Subjects:
 Tags:
   - 'Strings'
   - 'Methods'
+  - 'Kotlin'
 CatalogContent:
   - 'learn-kotlin'
   - 'paths/computer-science'
@@ -39,7 +40,6 @@ fun main() {
   val padWithCharacter = "Hello".padEnd(8, '!')
   println("'$padWithCharacter'")
 
-// string is returned when its length is greater than the specified string
   val noPad = "Hello".padEnd(3)
   println("'$noPad'")
 }
