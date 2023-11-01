@@ -50,5 +50,4 @@ The output of this code will be:
 ```shell
 3000
 ("2008-09-29T12:00:00Z", "2008-09-29T12:00:00Z")
-
 ```
