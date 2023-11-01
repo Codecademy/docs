@@ -56,7 +56,7 @@ This code will print the name of the current month in the default locale.
 The output for the code above:
 
 ```shell
-oct
+Oct
 ```
 
 ----
