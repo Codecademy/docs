@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.padEnd()`** method in Kotlin is used to pad a string to specific length by adding a specific character, sequence of characters or space at the end of the original string. It returns a string of length equal to the specified length, appended as many times as necessary with the specified character to reach the specified length.
+The **`.padEnd()`** method in Kotlin is used to pad a string to a specific length by adding a specific character, sequence of characters, or space at the end of the original `string`. It returns a string of length equal to the specified length, appended as many times as necessary with the specified character to reach the specified length.
 
 ## Syntax
 
@@ -30,7 +30,7 @@ fun String.padEnd(
 
 ## Example
 
-This example shows how to use the `.padEnd()` method to append characters to different strings:
+This example shows how to use the `.padEnd()` method to append characters to different `strings`:
 
 ```kotlin
 fun main() {
