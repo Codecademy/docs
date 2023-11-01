@@ -44,19 +44,46 @@ struct ContentView: View {
   @State private var droppedPayload: String = "No text dropped yet"
   @State private var myPayload: String = "I belong in a blue box."
 
-Square(text: $droppedPayload, color: .blue)
-  .dropDestination(for: String.self) { receivedPayload, locationDrop in
-    if !receivedPayload.isEmpty {
-      droppedPayload = receivedPayload[0]
-      myPayload = " "
-      return true
+ var body: some View {
+   HStack(spacing: 50) {
+     Square(text: $myPayload, color: .pink)
+     .draggable(myPayload, preview: {
+       Text("Dragging...")
+       .padding()
+       .background(Color.purple)
+       .cornerRadius(25)
+     })
+   }
+  
+  Square(text: $droppedPayload, color: .blue)
+    .dropDestination(for: String.self) { receivedPayload, locationDrop in
+      if !receivedPayload.isEmpty {
+        droppedPayload = receivedPayload[0]
+        myPayload = " "
+        return true
+      }
+      return false
+      } isTargeted: {
+        isDropTargeted = $0
     }
-    return false
-    } isTargeted: {
-      isDropTargeted = $0
+    .brightness(isDropTargeted ? -0.2 : 0)
+    .scaleEffect(isDropTargeted ? 1.25 : 1)
   }
-  .brightness(isDropTargeted ? -0.2 : 0)
-  .scaleEffect(isDropTargeted ? 1.25 : 1)
+
+  struct Square: View {
+    @Binding var text: String
+    var color: Color
+    var body: some View {
+      ZStack {
+        color
+        Text(text)
+          .padding()
+          .bold()
+      }
+      .frame(width: 150, height: 150)
+      .cornerRadius(25)
+    }
+  }
 }
 ```
 
