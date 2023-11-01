@@ -41,7 +41,8 @@ fun main() {
   println(p1)
 
   val t3 = t2.minus(p1)
-  println((t3, t1))
+  println(t3)
+  println(t1)
 }
 ```
 
@@ -49,5 +50,6 @@ The output of this code will be:
 
 ```shell
 3000
-("2008-09-29T12:00:00Z", "2008-09-29T12:00:00Z")
+"2008-09-29T12:00:00Z"
+"2008-09-29T12:00:00Z"
 ```
