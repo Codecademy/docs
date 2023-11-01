@@ -29,9 +29,9 @@ The example demonstrates the use of `.daysUntil()` to calculate the number of da
 
 ```kotlin
 fun main() {
-  val t1 = Instant.now()
+  val t1 = Instant.parse("2008-09-29T12:00:00Z")
 
-  val t2 = t1 + DateTimeUnit.HOURS * 125
+  val t2 = t1.plus(125, DateTimeUnit.HOURS)
 
   val t3 = t2.daysUntil(t1)
   println(t3)
