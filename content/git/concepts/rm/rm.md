@@ -1,8 +1,8 @@
 ---
-Title: 'rm'
-Description: 'The git rm command is used to remove files or directories from a Git repository. When you delete a file using `git rm', Git records the removal, making it easier to track changes in your project's history.
+Title: 'Remove'
+Description: 'A command for removing files or directories from a Git repository.'
 Subjects:
-  - 'Bash/Shell'
+  - 'Shell/Shell'
   - 'Developer Tools'
 Tags:
   - 'Git'
@@ -14,13 +14,13 @@ CatalogContent:
 
 ## Deleting files
 
-To remove a file from Git, you have to remove it from your tracked files (from the staging area) and then commit. The git rm command accomplishes this task. It also removes the file from your working directory so that it's no longer an untracked file.
+To remove a file from Git, it has to be removed from tracked files (from the staging area) and then committed. The `git rm` command accomplishes this task. It also removes the file from the working directory so that it's no longer an untracked file.
 
 ### Deleting a file from the Working Directory
 
-If you delete a files from you working directory, it will appear int he "Changes not staged for commit" section of the `git status` output.
+If a file is deleted from the working directory, it will appear in the "Changes not staged for commit" section of the `git status` output.
 
-```bash
+```shell
 rm PROJECTS.md
 git status
 ```
@@ -29,7 +29,7 @@ git status
 
 Running `git rm` stages the removal of the file, preparing it for the next commit.
 
-```bash
+```shell
 git rm PROJECTS.md
 git status
 ```
@@ -38,13 +38,13 @@ git status
 
 The `git rm` commands supports several options, including:
 
-- -f, --force: used to forcefully remove a file. Use with caution as it permanently deletes the file from the working directory.
+- `-f`, `--force`: Used to forcefully remove a file. Use with caution as it permanently deletes the file from the working directory.
 
-- --cached: used to remove a file from the Git repository but retain it in your working directory. It effectively stops tracking the file, but the file itself remains in your local filesystem.
+- `--cached`: Used to remove a file from the Git repository but retain it in your working directory. It effectively stops tracking the file, but the file itself remains in your local filesystem.
 
-- -r: used to remove a directory and its contents recursively.
+- `-r`: Used to remove a directory and its contents recursively.
 
-- --dry-run: Check what would be removed without actually removing anything.
+- `--dry-run`: Check what would be removed without actually removing anything.
 
 ### Examples
 
@@ -52,7 +52,7 @@ The `git rm` commands supports several options, including:
 
 To remove a file name `example.txt` from the repository.
 
-```bash
+```shell
 git rm example.txt
 ```
 
@@ -60,7 +60,7 @@ git rm example.txt
 
 To remove a directory named `myfolder` and all its contents.
 
-```bash
+```shell
 git rm -r myfolder
 ```
 
@@ -68,6 +68,6 @@ git rm -r myfolder
 
 To stop tracking a file `important.doc` but keep it in your working directory.
 
-```bash
+```shell
 git rm --cached important.doc
 ```
