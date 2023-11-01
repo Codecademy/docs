@@ -1,5 +1,5 @@
 ---
-Title: 'toDatePeriod()'
+Title: '.toDatePeriod()'
 Description: 'Parses the ISO-8601 duration representation as a DatePeriod.'
 Subjects:
   - 'Computer Science'
