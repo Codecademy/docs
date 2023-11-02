@@ -16,7 +16,6 @@ CatalogContent:
 
 Lua's **`math.asin()`** function calculates the inverse sine, also known as arcsine, of a given value. In other words, it finds the angle in radians whose sine equals the given value. The function takes a number within the range of `-1` to `1` as input, representing a sine value, and returns the corresponding angle in radians. This is particularly useful in various applications, such as physics simulations and game development, where understanding angles and trajectories is essential for tasks like character movement and object positioning.
 
-> **Note**: Understanding the inner workings of `math.asin()` is essential for anyone in the programming field. While specific tasks can often be achieved using libraries and frameworks, a solid grasp of this function's functionality is fundamental. This knowledge not only helps in solving immediate problems but also empowers programmers to create new applications and innovate within their respective domains.
 
 ## Syntax
 
