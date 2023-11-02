@@ -26,7 +26,7 @@ function functionName(parameter1, parameter2, ...)
 end
 ```
 
-In the code above, you declare a function using `function functionName(parameter1, parameter2, ...)`, where the parameters are input variables. The `function body` contains the code to execute, and the `return <return value>` statement outputs a result. The function ends with `end`, encapsulating its operations.
+In the code above, you declare a function using `function` keyword, `functionName` is the name of the function `(parameter1, parameter2, ...)` are input variables. The `function body` contains the code to execute, and the `return <return value>` statement outputs a result. The function ends with `end`, encapsulating its operations.
 
 ### Function Declaration Example
 
