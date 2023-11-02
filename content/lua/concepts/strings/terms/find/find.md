@@ -108,14 +108,14 @@ The output will be:
 ```lua
 sentence1 = 'hello world'
 search = string.find(sentence1, "l", 5)
-print(search)  
+print(search)
 
 sentence2 = 'world world'
 a, b = string.find(sentence2, "orl", 5)
-print(a)  
+print(a)
 print(b)
 
-print(a, b)  
+print(a, b)
 ```
 
 The above example uses the initial position parameter to indicate where the search shout start.
