@@ -1,6 +1,6 @@
 ---
 Title: '.periodUntil()'
-Description: 'returns an object representing the difference between two dates in terms of years, months and days.'
+Description: 'Returns an object representing the difference between two dates in terms of years, months, and days.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
