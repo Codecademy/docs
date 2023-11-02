@@ -61,7 +61,7 @@ fun main() {
 }
 ```
 
-The output will be:
+The output will be similar to the following:
 
 ```shell
 Start date: 2023-11-02T22:50:34.000Z
