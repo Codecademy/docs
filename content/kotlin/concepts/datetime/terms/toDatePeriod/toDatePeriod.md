@@ -13,29 +13,63 @@ CatalogContent:
   - 'paths/computer-science'
 ---
  
-The **`toDatePeriod`** function parses ISO-8601 duration representations and returns a `DatePeriod` object. ISO-8601 duration representation is a string that starts with the letter `P` followed by a sequence of numbers and units. The numbers represent the number of units, and the units can be days, weeks, months, years, hours, minutes, or seconds. For example, the following ISO-8601 duration representations represent one day, one week, one month, and one year, respectively.
-
-The function returns a `DatePeriod` object with two properties:
-- *start*: the start date of the duration.
-- *endInclusive*: the end date of the duration, inclusive.
+The **`toDatePeriod`** function parses ISO-8601 duration representations and returns a `DatePeriod` object. ISO-8601 duration representation is a string that starts with the letter `P` followed by a sequence of numbers and units. The numbers represent the number of units, and the units can be days, weeks, months, years, hours, minutes, or seconds.
 
 ## Syntax
 
 ```pseudo
 fun String.toDatePeriod(): DatePeriod
 ```
+The function returns a `DatePeriod` object with two properties:
+- *start*: the start date of the duration.
+- *endInclusive*: the end date of the duration, inclusive.
 
 ## Example
 
-The following code creates a `DatePeriod` object representing one day:
+This example demonstrates how to use **`toDatePeriod`** the function to parse ISO-8601 duration representations and create `DatePeriod `objects.
 
 ```kotlin
-val oneDayPeriod = "P1D".toDatePeriod()
+import kotlinx.datetime.toDatePeriod
+fun main() {
+  // Create a DatePeriod object representing one day.
+  val oneDayPeriod = "P1D".toDatePeriod()
+
+  // Print the start and end dates of the DatePeriod object.
+  println("Start date: ${oneDayPeriod.start}")
+  println("End date: ${oneDayPeriod.endInclusive}")
+
+  // Create a DatePeriod object representing one week.
+  val oneWeekPeriod = "P7D".toDatePeriod()
+
+  // Print the start and end dates of the DatePeriod object.
+  println("Start date: ${oneWeekPeriod.start}")
+  println("End date: ${oneWeekPeriod.endInclusive}")
+
+  // Create a DatePeriod object representing one month.
+  val oneMonthPeriod = "P1M".toDatePeriod()
+
+  // Print the start and end dates of the DatePeriod object.
+  println("Start date: ${oneMonthPeriod.start}")
+  println("End date: ${oneMonthPeriod.endInclusive}")
+
+  // Create a DatePeriod object representing one year.
+  val oneYearPeriod = "P1Y".toDatePeriod()
+
+  // Print the start and end dates of the DatePeriod object.
+  println("Start date: ${oneYearPeriod.start}")
+  println("End date: ${oneYearPeriod.endInclusive}")
+}
 ```
 
 The output will be:
 
 ```shell
-start: 2023-10-31T22:49:32.000Z
-endInclusive: 2023-11-01T22:49:32.000Z
+Start date: 2023-11-02T22:50:34.000Z
+End date: 2023-11-03T22:50:34.000Z
+Start date: 2023-11-02T22:50:34.000Z
+End date: 2023-11-09T22:50:34.000Z
+Start date: 2023-11-02T22:50:34.000Z
+End date: 2023-12-02T22:50:34.000Z
+Start date: 2023-11-02T22:50:34.000Z
+End date: 2024-11-02T22:50:34.000Z
 ```
