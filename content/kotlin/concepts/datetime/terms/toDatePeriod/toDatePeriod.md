@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
  
-The **`toDatePeriod`** function parses ISO-8601 duration representations and returns a `DatePeriod` object. ISO-8601 duration representation is a string that starts with the letter `P` followed by a sequence of numbers and units. The numbers represent the number of units, and the units can be days, weeks, months, years, hours, minutes, or seconds.
+The **`toDatePeriod()`** function parses ISO-8601 duration representations and returns a `DatePeriod` object. ISO-8601 duration representation is a string that starts with the letter `P` followed by a sequence of numbers and units. The numbers represent the number of units, and the units can be days, weeks, months, years, hours, minutes, or seconds.
 
 ## Syntax
 
