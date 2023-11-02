@@ -22,7 +22,6 @@ The **`.find()`** function is used to search for a substring within a string and
 
 These are 2 different syntaxes for the `.find()` function:
 
-
 ```pseudo
 string.find(fullString, searchString, init, pattern)
 ```
@@ -39,6 +38,8 @@ This uses multiple assignment to save the results to an individual variables.
 - `searchString`: Is the sub-string to search for.
 - `init` (optional): Is the initial index where the search starts. *Default index is 1*.
 - `pattern` (optional): Is a Boolean flag indicating whether to search using **pattern matching**[^1]. When set to false, pattern matching can be used, where as when set to true, pattern matching is ignored, and exact matches are searched for. *Default is false*.
+
+> **Note:** The special pattern matching characters allow for lua to use specified characters in `searchString` to make a pattern matching search. This allows for complex search patterns, which can enhance the flexibility of your searches. Pattern matching is similar to the concept [Regular Expressions](https://www.codecademy.com/resources/docs/general/regular-expressions), although Lua's pattern matching is not the same as regular expression, as it is more limited, and uses a different syntax.
 
 ## Example
 
