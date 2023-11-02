@@ -58,28 +58,28 @@ Here's an example of how to add sorting to the previous code:
 
 ```swift
 struct ContentView: View {
-    @State private var people = [
-        Singer(name: "Taylor", lastName: "Swift", ranking: 95),
-        Singer(name: "Olivia", lastName: "Rodrigo", ranking: 80),
-        Singer(name: "Billie", lastName: "Eilish", ranking: 70),
-        Singer(name: "Katy", lastName: "Perry", ranking: 75)
-    ]
-    
-    @State private var sortOrder = [KeyPathComparator(\Singer.name)]
-    
-    var body: some View {
-        Table(people, sortOrder: $sortOrder) {
-            TableColumn("Name", value: \.name)
-            TableColumn("Last Name", value: \.lastName)
-            TableColumn("Ranking") {
-                people in
-                Text(String(people.ranking))
-            }
-        }
-        .onChange(of: sortOrder) { newOrder in
-            people.sort(using: newOrder)
-        }
-    }
+  @State private var people = [
+      Singer(name: "Taylor", lastName: "Swift", ranking: 95),
+      Singer(name: "Olivia", lastName: "Rodrigo", ranking: 80),
+      Singer(name: "Billie", lastName: "Eilish", ranking: 70),
+      Singer(name: "Katy", lastName: "Perry", ranking: 75)
+  ]
+  
+  @State private var sortOrder = [KeyPathComparator(\Singer.name)]
+  
+  var body: some View {
+      Table(people, sortOrder: $sortOrder) {
+          TableColumn("Name", value: \.name)
+          TableColumn("Last Name", value: \.lastName)
+          TableColumn("Ranking") {
+              people in
+              Text(String(people.ranking))
+          }
+      }
+      .onChange(of: sortOrder) { newOrder in
+          people.sort(using: newOrder)
+      }
+  }
 }
 ```
 
