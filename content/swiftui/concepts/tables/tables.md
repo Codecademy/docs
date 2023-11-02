@@ -90,9 +90,9 @@ To improve table interactivity, enabling users to select one or more rows can be
 ```swift
  @State private var selection = Set<Singer.ID>()
 
- var body: some View {
-    Table(people, selection: $selection, sortOrder: $sortOrder) {...}
- }
+var body: some View {
+  Table(people, selection: $selection, sortOrder: $sortOrder) {...}
+}
 ```
 
 ### Customizing a Table style
