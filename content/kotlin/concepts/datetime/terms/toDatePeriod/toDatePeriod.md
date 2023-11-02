@@ -28,7 +28,7 @@ The function returns a `DatePeriod` object with two properties:
 
 ## Example
 
-This example demonstrates how to use **`toDatePeriod`** the function to parse ISO-8601 duration representations and create `DatePeriod `objects.
+This example demonstrates how to use **`toDatePeriod`** the function to parse ISO-8601 duration representations and create `DatePeriod` objects.
 
 ```kotlin
 import kotlinx.datetime.toDatePeriod
