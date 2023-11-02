@@ -39,5 +39,5 @@ fun main() {
 The above code will return the following output:
 
 ```shell
-   'This is an indented string.'  
+   'This is an indented string.'
 ```
