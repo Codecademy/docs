@@ -1,13 +1,12 @@
 ---
 Title: '.padEnd()'
-Description: 'Pads a String using Characters'
+Description: 'Pads a string using specified characters'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
 Tags:
   - 'Strings'
   - 'Methods'
-  - 'Kotlin'
 CatalogContent:
   - 'learn-kotlin'
   - 'paths/computer-science'
@@ -18,13 +17,10 @@ The **`.padEnd()`** method in Kotlin is used to pad a string to a specific lengt
 ## Syntax
 
 ```pseudo
-fun String.padEnd(
-    length: Int,
-    padChar: Char = ' '
-): String
-
+String.padEnd(length, padChar): String
 ```
 
+- `String`: The string to be padded.
 - `length`: The desired length of the resulting string after padding.
 - `padChar`: The character that will be added to the end of the string if the original string length is less than the desired length. Space is used by default.
 
