@@ -1,6 +1,6 @@
 ---
 Title: '.minus()'
-Description: 'General method for performing subtraction operation on Instants.'
+Description: 'General method for performing subtraction operation on an Instant.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
