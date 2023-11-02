@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.prependIndent()`** method in Kotlin is used to add indentation to a `string`. It is useful for formatting text, especially when we need to align or indent lines within a `string`.
+The **`.prependIndent()`** method in Kotlin is used to add indentation to a `string`. It is useful for formatting text, especially when it's needed to align or indent lines within a `string`.
 
 ## Syntax
 
@@ -20,8 +20,8 @@ The **`.prependIndent()`** method in Kotlin is used to add indentation to a `str
 fun String.prependIndent(indent: String = " "): String
 ```
 
-- `String`: The string we are adding indentation to.
-- `indent: String`: The indentation we want to add to the string.
+- `String`: The string to add indentation to.
+- `indent: String`: The indentation to add to the string.
 
 ## Example
 
