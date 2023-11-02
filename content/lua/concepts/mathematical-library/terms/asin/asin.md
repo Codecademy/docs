@@ -40,27 +40,3 @@ Output:
 ```shell
 1.5707963267949
 ```
-
-## Example 2
-
-The Lua script below provides a deeper example of `math.asin()`. It calculates and prints the launch angle in degrees required to hit a target 15 meters away using an arrow traveling at a speed of 10 meters per second, demonstrating the use of the `math.asin()` function in trigonometric calculations for projectile motion.
-
-```lua
-local arrow_speed = 10 -- speed of the arrow in meters per second
-local target_distance = 15 -- distance to the target in meters
-
-local launch_angle_radians = math.asin(target_distance / (arrow_speed * 2))
-local launch_angle_degrees = launch_angle_radians * (180 / math.pi)
-
-print("To hit the target at " .. target_distance .. " meters with an arrow speed of " .. arrow_speed .. " m/s,")
-print("launch the arrow at an angle of " .. launch_angle_degrees .. " degrees.")
-```
-
-This will result in the following output:
-
-```shell
-To hit the target at 15 meters with an arrow speed of 10 m/s,
-launch the arrow at an angle of 48.590377890729 degrees.
-```
-
-- The `math.asin()` function is crucial in the above example and demonstrates its relevance in trigonometric calculations for real-world scenarios. It helps determine the launch angle of the arrow required to hit the target at the specified distance based on the given arrow speed. By using `math.asin()`, the code calculates the angle without directly manipulating trigonometric functions, providing a simpler and more intuitive way to find the solution for this particular problem.
