@@ -5,14 +5,14 @@ Subjects:
   - 'Computer Science'
   - 'Code Foundations'
 Tags:
- - 'Methods'
- - 'Data Structures'
- - 'Time'
+  - 'Methods'
+  - 'Data Structures'
+  - 'Time'
 CatalogContent:
   - 'learn-kotlin'
   - 'paths/computer-science'
 ---
- 
+
 The **`toDatePeriod()`** function parses ISO-8601 duration representations and returns a `DatePeriod` object. ISO-8601 duration representation is a string that starts with the letter `P` followed by a sequence of numbers and units. The numbers represent the number of units, and the units can be days, weeks, months, years, hours, minutes, or seconds.
 
 ## Syntax
@@ -20,9 +20,11 @@ The **`toDatePeriod()`** function parses ISO-8601 duration representations and r
 ```pseudo
 fun String.toDatePeriod(): DatePeriod
 ```
+
 The function returns a `DatePeriod` object with two properties:
-- *start*: the start date of the duration.
-- *endInclusive*: the end date of the duration, inclusive.
+
+- _start_: the start date of the duration.
+- _endInclusive_: the end date of the duration, inclusive.
 
 ## Example
 
