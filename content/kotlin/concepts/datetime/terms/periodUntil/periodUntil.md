@@ -20,7 +20,7 @@ The **`.periodUntil()`** function is used to calculate the difference between tw
 expect fun LocalDate.periodUntil(other: LocalDate): DatePeriod
 ```
 
-`DatePeriod`gives the difference between two instants, decomposed into date and time components where all time components are equals to zero.
+`DatePeriod` gives the difference between two instants, decomposed into date and time components where all time components are equal to zero.
 
 ## Example
 
