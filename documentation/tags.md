@@ -84,7 +84,6 @@ Data Structures
 Data Types
 Database
 Date
-Datetime
 Debugging
 Decorators
 Deep Learning
@@ -171,7 +170,6 @@ Information Technology
 Infrastructure
 Inheritance
 Input
-Instant
 Integers
 Interface
 iOS

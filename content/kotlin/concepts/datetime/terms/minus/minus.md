@@ -6,8 +6,6 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Kotlin'
-  - 'Instant'
-  - 'Datetime'
 CatalogContent:
   - 'learn-kotlin'
   - 'paths/computer-science'
