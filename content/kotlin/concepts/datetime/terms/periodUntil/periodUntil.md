@@ -33,7 +33,7 @@ repositories {
 }
 ```
 
-To use the library in a single-platform project, a dependency must be added to the dependencies block.
+To use the library in a single-platform project, a dependency must be added to the dependencies block:
 
 ```pseudo
 dependencies {
