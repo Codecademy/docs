@@ -23,7 +23,7 @@ expect fun LocalDate.periodUntil(other: LocalDate): DatePeriod
 - `DatePeriod` gives the difference between two instants, decomposed into date and time components where all time components are equal to zero.
 - `LocalDate` represents a specific civil date without a reference to a particular time zone.
 
-> **Note:** This method is fall under `kotlinx-datetime` library which is published to `Maven central`. Maven central repository should be added to the file first.
+> **Note:** This method is part of `kotlinx-datetime` library which is published to Maven central. Maven central repository should be added to the file first.
 
 Maven central repository must be added to the `build.gradle.kts` file first if it is not already there,
 
