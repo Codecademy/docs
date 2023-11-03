@@ -1,6 +1,6 @@
 ---
 Title: '.padEnd()'
-Description: 'Pads a string using specified characters'
+Description: 'Pads a string using specified characters.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
