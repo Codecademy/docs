@@ -24,6 +24,8 @@ fun DayOfWeek(isoDayNumber: Int): DayOfWeek
 
 ## Example
 
+Here is an example of how to call the `DayOfWeek` method from main. 
+
 '''kolin
 import java.time.DayOfWeek
 
