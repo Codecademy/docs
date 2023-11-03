@@ -25,7 +25,7 @@ expect fun LocalDate.periodUntil(other: LocalDate): DatePeriod
 
 > **Note:** This method is part of `kotlinx-datetime` library which is published to Maven central. Maven central repository should be added to the file first.
 
-Maven central repository must be added to the `build.gradle.kts` file first if it is not already there,
+Maven central repository must be added to the `build.gradle.kts` file first if it is not already there;
 
 ```pseudo
 repositories {
