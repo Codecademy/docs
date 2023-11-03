@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.periodUntil()`** function is used to calculate the difference between two `LocalDate` or `Instant` instances. This returns an `object` representing the difference between the two dates in terms of years, months, and days.
+The **`.periodUntil()`** function is used to calculate the difference between two `LocalDate` or `Instant` instances. This returns an object representing the difference between the two dates in terms of years, months, and days.
 
 ## Syntax
 
