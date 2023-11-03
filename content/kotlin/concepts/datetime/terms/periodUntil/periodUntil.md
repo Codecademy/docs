@@ -59,6 +59,8 @@ fun main() {
 
 `startDate` and `endDate` given above are the `LocalDate` instances representing the start-date and the end-date.
 
+The result of the above code is as follows:
+
 ```shell
 difference: 1 day
 ```
