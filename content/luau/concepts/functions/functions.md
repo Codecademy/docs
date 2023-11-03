@@ -26,7 +26,7 @@ function functionName(parameter1, parameter2, ...)
 end
 ```
 
-In the code above, you declare a function using `function` keyword, `functionName` is the name of the function `(parameter1, parameter2, ...)` are input variables. The `function body` contains the code to execute, and the `return <return value>` statement outputs a result. The function ends with `end`, encapsulating its operations.
+In the code above, you declare a function using the `function` keyword, `functionName` is the name of the function `(parameter1, parameter2, ...)` are input variables. The `function body` contains the code to execute, and the `return <return value>` statement returns the result. The function ends with the `end` keyword, encapsulating its operations.
 
 ### Function Declaration Example
 
@@ -52,6 +52,8 @@ end
 print(addNumbers(5, 7))  -- Output: 12
 ```
 
+In the above function, `addNumbers` is the function's name, `num1` and `num2` are its parameters. The function adds these parameters and returns their sum using the `return` keyword. When called with 5 and 7, it returns 12, displayed by the print statement.
+
 ## Functions in Use
 
 Functions can be used for various purposes, from performing calculations to manipulating strings and more.
@@ -65,3 +67,21 @@ end
 
 local area = calculateArea(10, 5)
 print("The area is:", area)  -- Output: The area is: 50
+```
+
+### Example: Returning Multiple Values
+
+Luau functions can return multiple values. This feature can be particularly useful when you want to return more than one result from a function.
+
+```lua
+function calculateDimensions(area, perimeter)
+  local length = perimeter / 4
+  local width = area / length
+  return length, width  -- Returns both length and width
+end
+
+local length, width = calculateDimensions(50, 30)
+print("Length:", length, "Width:", width)  -- Output: Length: 7.5 Width: 6.6666666666667
+```
+
+In the example above, `calculateDimensions` takes an `area` and a `perimeter` as arguments and calculates the `length` and `width` of a square or rectangle. It then returns both values. The caller then receives these multiple return values and can use them as needed.
