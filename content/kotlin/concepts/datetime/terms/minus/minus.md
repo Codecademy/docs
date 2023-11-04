@@ -25,7 +25,7 @@ fun Instant.minus(duration: Duration): Instant
 
 ## Example
 
-The example demonstrates the use of `.minus()` to subtract a `DateTimePeriod` and an `Instant` from an `Instant`.
+The example demonstrates the use of `.minus()` to subtract a `Duration` and an `Instant` from an `Instant`.
 
 ```kotlin
 import java.time.Instant
