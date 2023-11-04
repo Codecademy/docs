@@ -11,19 +11,17 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.minus()`** method subtracts an `Instant` or `DateTimePeriod` from an `Instant`, returning an `Instant` if passed a `DateTimePeriod` and vice versa.
+The **`.minus()`** method subtracts an `Instant` or `Duration` from an `Instant`, returning an `Instant` if passed a `Duration` and vice versa.
 
 ## Syntax
 
 ```pseudo
-fun Instant.minus(other: Instant, unit: DateTimeUnit, timeZone: TimeZone): DateTimePeriod
-fun Instant.minus(other: DateTimePeriod, unit: DateTimeUnit, timeZone: TimeZone): Instant
+fun Instant.minus(other: Instant): Duration
+fun Instant.minus(duration: Duration): Instant
 ```
 
 - `Instant`: A moment in time.
-- `DateTimeUnit`: A unit of time.
-- `DateTimePeriod`: The difference in time between two `Instants`.
-- `TimeZone`: This parameter is of type `TimeZone`. It indicates that the calculation should consider the time zone when determining the number of days between the two `Instant` objects.
+- `Duration`: A duration of time.
 
 ## Example
 
@@ -32,10 +30,6 @@ The example demonstrates the use of `.minus()` to subtract a `DateTimePeriod` an
 ```kotlin
 import java.time.Instant
 import java.time.Duration
-fun Instant.daysUntil(other: Instant): Long {
-    val duration = Duration.between(this, other)
-    return duration.toDays()
-}
 fun main() {
   val t1 = Instant.parse("2008-09-29T12:00:00Z")
   val t2 = t1.plus(Duration.ofDays(125))
