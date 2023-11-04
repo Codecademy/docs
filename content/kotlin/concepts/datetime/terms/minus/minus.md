@@ -35,7 +35,6 @@ fun main() {
     val t2 = t1.plus(Duration.ofDays(125))
     val p1 = t2.minus(t1)
     println(p1.toHours())
-
     val t3 = t2.minus(p1)
     println(t3)
     println(t1)
