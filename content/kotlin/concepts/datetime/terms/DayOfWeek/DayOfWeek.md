@@ -3,6 +3,7 @@ Title: '.DayOfWeek'
 Description: 'Useful tool for working with weekdays in the Kotlin code, making it easier to perform various operations and checks related to days of the week.'
 Subjects:
   - 'Computer Science'
+  - 'Code Foundations'
 Tags:
   - 'Date'
   - 'Method'
@@ -24,7 +25,7 @@ fun DayOfWeek(isoDayNumber: Int): DayOfWeek
 
 ## Example
 
-Here is an example of how to call the `DayOfWeek` method from main. 
+Here is an example of how to call the `DayOfWeek` method from main: 
 
 '''kolin
 import java.time.DayOfWeek
