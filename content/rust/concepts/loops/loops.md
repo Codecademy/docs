@@ -12,7 +12,7 @@ CatalogContent:
 
 A `loop` is a control structure that allows you to execute a block of code repeatedly. Loops are used to perform tasks that need to be done multiple times, such as iterating through a list of items, performing calculations, or waiting for a specific condition to be met.There typically three main types `for`, `while` and `loop`.
 
-## for loops 
+## for loops
 
 The for loop is used to iterate over collections or ranges. It automatically iterates through elements and executes a block of code for each item in the collection or range.
 It's commonly used for iterating over arrays, vectors, and other iterable data structures.
@@ -58,26 +58,40 @@ fn main() {
 }
 ```
 
-## Example 
+## Example
+
+This example demonstrates a while loop that iterates from 5 to 10 as the counter variable starts from 5.The second example shows a for loop that iterates over an array thats containes numbers  1 to 5 .
 
 ```rust
 fn main() {
-    let mut counter = 1;
-    
-    while counter <= 5 {
+    let mut counter = 5;
+    while counter <= 10 {
         println!("This is iteration number: {}", counter);
         counter += 1;
     }
-}
-```
 
-```rust
-fn main() {
     let numbers = [1, 2, 3, 4, 5];
-    
+
     for number in numbers.iter() {
+
         println!("Number: {}", number);
+
     }
 }
 ```
 
+This example results in the following output:
+
+```shell
+This is iteration number: 5
+This is iteration number: 6
+This is iteration number: 7
+This is iteration number: 8
+This is iteration number: 9
+This is iteration number: 10
+Number: 1
+Number: 2
+Number: 3
+Number: 4
+Number: 5
+```
