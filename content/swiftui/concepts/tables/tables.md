@@ -105,7 +105,7 @@ Table(people, selection: $selection, sortOrder: $sortOrder) {
 .tableStyle(InsertTableStyle())
 ```
 
-### Setting a fixed width for the table column
+### Setting a Fixed Width for a Table Column
 
 Defining a precise width for a table column can be accomplished as follows:
 
