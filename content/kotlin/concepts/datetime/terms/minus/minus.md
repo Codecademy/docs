@@ -30,6 +30,7 @@ The example demonstrates the use of `.minus()` to subtract a `DateTimePeriod` an
 ```kotlin
 import java.time.Instant
 import java.time.Duration
+
 fun main() {
   val t1 = Instant.parse("2008-09-29T12:00:00Z")
   val t2 = t1.plus(Duration.ofDays(125))
