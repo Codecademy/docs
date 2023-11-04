@@ -15,6 +15,18 @@ CatalogContent:
 
 A **`Table`** in SwiftUI is a container that enables the creation and presentation of data collections in a tabular format: values organized into columns and rows. It is a valuable tool for displaying datasets that have a structured, grid-like layout. When the number of rows exceeds the available vertical space, the `Table` component will automatically enable vertical scrolling to ensure all data is accessible. Moreover, on macOS, horizontal scrolling becomes available when the number of columns exceeds the width of the view.
 
+## Syntax
+To a create a table that computes its row based on a collection of identifiable data: 
+
+```pseudo
+var body: some View {
+    Table(data: // provide a collection of identifiable data) {
+        TableColumn(Text, value: KeyPath<Identifiable, String>)
+        TableColumn(Text, value: KeyPath<Identifiable, String>)
+        }
+}
+```
+
 ## Example
 
 `Table` is an excellent choice for presenting data in a concise, organized manner. In the example below, to create a straightforward three-column table from an array of `Singer`, the data model needs to conform to `Identifiable`.
@@ -49,6 +61,9 @@ struct Singer: Identifiable {
     var fullName: String { name + " " + lastName}
 }
 ```
+
+![SwiftUI Tables](media/swiftui-tables.png)
+
 
 ### Adding Sorting to a Table
 
