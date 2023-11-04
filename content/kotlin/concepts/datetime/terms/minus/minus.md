@@ -30,13 +30,18 @@ fun Instant.minus(other: DateTimePeriod, unit: DateTimeUnit, timeZone: TimeZone)
 The example demonstrates the use of `.minus()` to subtract a `DateTimePeriod` and an `Instant` from an `Instant`.
 
 ```kotlin
+import java.time.Instant
+import java.time.Duration
+
+fun Instant.daysUntil(other: Instant): Long {
+    val duration = Duration.between(this, other)
+    return duration.toDays()
+}
 fun main() {
   val t1 = Instant.parse("2008-09-29T12:00:00Z")
-
-  val t2 = t1.plus(125, DateTimeUnit.DAYS)
-
-  val p1 = t2.minus(t1, unit = DateTimeUnit.HOURS)
-  println(p1)
+  val t2 = t1.plus(Duration.ofDays(125))
+  val p1 = t2.minus(t1)
+  println(p1.toHours())
 
   val t3 = t2.minus(p1)
   println(t3)
