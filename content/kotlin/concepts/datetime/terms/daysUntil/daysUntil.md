@@ -33,7 +33,7 @@ import java.time.Duration
 fun Instant.daysUntil(other: Instant): Long {
 // Calculate the duration between 'this' Instant and 'other' Instant
     val duration = Duration.between(this, other)
-    
+
 // Convert the duration to days and return the result
     return duration.toDays()
 }
