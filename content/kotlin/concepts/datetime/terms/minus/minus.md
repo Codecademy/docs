@@ -33,10 +33,9 @@ import java.time.Duration
 fun main() {
     val t1 = Instant.parse("2008-09-29T12:00:00Z")
     val t2 = t1.plus(Duration.ofDays(125))
-    val p1 = t2.minus(t1)
+    val d1 = t2.minus(t1)
     println(p1.toHours())
-    val p2 = Duration.between(t1, t2)
-    val t3 = t2.minus(p2)
+    val t3 = t2.minus(d1)
     println(t3)
     println(t1)
 }
