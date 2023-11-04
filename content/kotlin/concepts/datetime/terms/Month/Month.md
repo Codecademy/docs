@@ -27,6 +27,8 @@ val month: Int = date.Month()
 
 ## Example
 
+In this example, `LocalDate.now()` is used to get the current date. The `.monthValue` property (which serves a similar purpose to a `.Month()` method) of the `LocalDate` object is then called to retrieve the month from the current date. The month is then printed to the console. 
+
 ```kotlin
 import java.time.LocalDate
 
@@ -37,7 +39,10 @@ fun main() {
     println("The current month is: $month")
 }
 ```
+Assuming the current date is November 1, 2023, the output will be:
 
-In this example, `LocalDate.now()` is used to get the current date. The `.monthValue` property (which serves a similar purpose to a `.Month()` method) of the `LocalDate` object is then called to retrieve the month from the current date. The month is then printed to the console. Assuming the current date is November 1, 2023, the output will be `11`.
+```kotlin
+The current month is: 11.
+```
 
 > **Note**: Kotlin's standard library doesn't directly provide a `.Month()` method. Instead, the standard way to get the month from a date in Kotlin is by using Java's `java.time.LocalDate` and its monthValue` property as shown in the example. Adjustments might be needed based on the specific libraries and versions in use.
