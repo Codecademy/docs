@@ -26,7 +26,9 @@ calendarInstance.getDisplayName(calendarField, calendarStyle, locale)
 - `calendarStyle`: The second parameter, style, specifies the style in which the display name should be presented. Possible values for the style parameter include: `Calendar.SHORT`, and `Calendar.LONG`. They can return a short and long form of the display name, respectively.
 - `locale`: The third parameter, locale, specifies the locale to display the name. Possible values for the field parameter include: `Locale.US`, `Locale.FRANCE`, `Locale.GERMANY`, etc.
 
-## Example
+## Examples
+
+This code will print the name of the current month in the default locale.
 
 ```java
 import java.util.Calendar;
@@ -45,15 +47,13 @@ public class GetDisplayName {
     System.out.println(monthName);
   }
 }
-```
-
-This code will print the name of the current month in the default locale. The output for the code above:
+ The output for the code above:
 
 ```shell
 Oct
 ```
 
-----
+Here is another example of how to use the getDisplayName() method with three parameters. The code will print the name of the current month in the French locale.
 
 ```java
 import java.util.Calendar;
@@ -74,7 +74,7 @@ public class GetDisplayName {
 }
 ```
 
-Here is another example of how to use the getDisplayName() method with three parameters. The code will print the name of the current month in the French locale. Output for the code above:
+Output for the code above:
 
 ```shell
 octobre
