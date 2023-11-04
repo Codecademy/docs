@@ -12,7 +12,7 @@ CatalogContent:
 
 A `loop` is a control structure that allows you to execute a block of code repeatedly. Loops are used to perform tasks that need to be done multiple times, such as iterating through a list of items, performing calculations, or waiting for a specific condition to be met.There typically three main types `for`, `while` and `loop`.
 
-## for loop 
+## for loops 
 
 The for loop is used to iterate over collections or ranges. It automatically iterates through elements and executes a block of code for each item in the collection or range.
 It's commonly used for iterating over arrays, vectors, and other iterable data structures.
@@ -25,7 +25,7 @@ for num in numbers.iter() {
 }
 ```
 
-## while loop
+## while loops
 
 The while loop repeatedly executes a block of code as long as a specified condition remains true.
 It checks the condition before entering the loop, and if the condition is initially false, the loop won't run.
@@ -39,7 +39,7 @@ while counter < 5 {
 }
 ```
 
-## loop loop
+## loop loops
 
 The loop keyword creates an infinite loop that continues executing the code block indefinitely until it's explicitly interrupted using the break statement.
 It's useful when you need to perform a task until a certain condition is met within the loop.
@@ -81,7 +81,3 @@ fn main() {
 }
 ```
 
-```shell
-
-
-```
