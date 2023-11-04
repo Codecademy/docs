@@ -43,6 +43,8 @@ implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.4.1")
 
 ## Example
 
+In the example given below `startDate` and `endDate` are the `LocalDate` instances representing the start-date and the end-date.
+
 ```kotlin
 import java.time.LocalDate
 import kotlinx.datetime.periodUntil
@@ -56,8 +58,6 @@ fun main() {
   println("difference: $period.days day")
 }
 ```
-
-`startDate` and `endDate` given above are the `LocalDate` instances representing the start-date and the end-date.
 
 The result of the above code is as follows:
 
