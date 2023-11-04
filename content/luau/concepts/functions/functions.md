@@ -84,4 +84,4 @@ local length, width = calculateDimensions(50, 30)
 print("Length:", length, "Width:", width)  -- Output: Length: 7.5 Width: 6.6666666666667
 ```
 
-In the example above, `calculateDimensions` takes an `area` and a `perimeter` as arguments and calculates the `length` and `width` of a square or rectangle. It then returns both values. The caller then receives these multiple return values and can use them as needed.
+In the example above, `calculateDimensions` takes an `area` and a `perimeter` as arguments and calculates the `length` and `width` of a square. It then returns both values. The caller then receives these multiple return values and can use them as needed.
