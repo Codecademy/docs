@@ -13,11 +13,11 @@ CatalogContent:
   - 'advanced-luau-programming'
 ---
 
-**Functions** are one of the fundamental building blocks in programming. They allow you to encapsulate code that performs a specific task into a reusable block. This helps in managing and organizing your code, especially in complex game development projects.
+**Functions** are one of the fundamental building blocks in programming. They allow the encapsulation of code that performs a specific task into a reusable block. This helps in managing and organizing code, especially in complex game development projects.
 
 ## Declaring Functions in Luau
 
-In Luau, you declare a function using the following syntax:
+In Luau, a function is declared using the following syntax:
 
 ```pseudo
 function functionName(parameter1, parameter2, ...)
@@ -26,9 +26,11 @@ function functionName(parameter1, parameter2, ...)
 end
 ```
 
-In the code above, you declare a function using the `function` keyword, `functionName` is the name of the function `(parameter1, parameter2, ...)` are input variables. The `function body` contains the code to execute, and the `return <return value>` statement returns the result. The function ends with the `end` keyword, encapsulating its operations.
+In the code above, a function is declared using the `function` keyword, `functionName` is the name of the function `(parameter1, parameter2, ...)` are input variables. The `function body` contains the code to execute, and the `return <return value>` statement returns the result. The function ends with the `end` keyword, encapsulating its operations.
 
 ### Function Declaration Example
+
+The code block below is an example of a simple Lua function. This function, named `greet`, takes one parameter `name` and returns a greeting string that incorporates the provided name. The last line demonstrates how to call the function and print the greeting to the console.
 
 ```lua
 function greet(name)
@@ -41,8 +43,6 @@ print(greet("Alex"))  -- Output: Hello, Alex
 ## Parameters and Return Statement
 
 Parameters are variables that act as placeholders for the values passed to the function. The `return` statement is used to specify the output of the function.
-
-### Using Parameters and Return Statement
 
 ```lua
 function addNumbers(num1, num2)
@@ -60,18 +60,26 @@ Functions can be used for various purposes, from performing calculations to mani
 
 ### Example: Calculating Area
 
+The code block below demonstrates a Lua function that calculates the area of a rectangle. The function `calculateArea` accepts two parameters, `length` and `width`, and returns their product, representing the area. The function is then called with specific values, and the result is stored in the variable `area`, which is subsequently printed to the console with a descriptive message.
+
 ```lua
 function calculateArea(length, width)
   return length * width
 end
 
 local area = calculateArea(10, 5)
-print("The area is:", area)  -- Output: The area is: 50
+print("The area is:", area)
+```
+
+This example results in the following output:
+
+```shell
+The area is: 50
 ```
 
 ### Example: Returning Multiple Values
 
-Luau functions can return multiple values. This feature can be particularly useful when you want to return more than one result from a function.
+Luau functions can return multiple values. This feature can be useful when it's necessary to return more than one result from a function.
 
 ```lua
 function calculateDimensions(area, perimeter)
@@ -81,7 +89,13 @@ function calculateDimensions(area, perimeter)
 end
 
 local length, width = calculateDimensions(50, 30)
-print("Length:", length, "Width:", width)  -- Output: Length: 7.5 Width: 6.6666666666667
+print("Length:", length, "Width:", width)
+```
+
+This example results in the following output:
+
+```shell
+Length: 7.5 Width: 6.6666666666667
 ```
 
 In the example above, `calculateDimensions` takes an `area` and a `perimeter` as arguments and calculates the `length` and `width` of a square. It then returns both values. The caller then receives these multiple return values and can use them as needed.
