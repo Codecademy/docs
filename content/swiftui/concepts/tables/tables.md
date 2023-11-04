@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/ios-developer'
 ---
 
-**`Table`** in SwiftUI is a container that enables the creation and presentation of data collections in a tabular format, organized into columns and rows. It is a valuable tool for displaying datasets that have a structured, grid-like layout. When the number of rows exceeds the available vertical space, the `Table` component will automatically enable vertical scrolling to ensure all data is accessible. Moreover, on macOS, horizontal scrolling becomes available when the number of columns exceeds the width of the view.
+A **`Table`** in SwiftUI is a container that enables the creation and presentation of data collections in a tabular format: values organized into columns and rows. It is a valuable tool for displaying datasets that have a structured, grid-like layout. When the number of rows exceeds the available vertical space, the `Table` component will automatically enable vertical scrolling to ensure all data is accessible. Moreover, on macOS, horizontal scrolling becomes available when the number of columns exceeds the width of the view.
 
 ## Example
 
