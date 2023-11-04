@@ -99,18 +99,8 @@ Captions can be added as a child of the `<video>` element using the `<track>` ta
 <video controls poster="big_bunny.jpg">
   <source type="video/mp4" src="big_bunny_av1.mp4" />
   <source type="video/mp4" src="big_bunny_h264.mp4" />
-  <track
-    kind="caption"
-    label="English"
-    srclang="en"
-    src="big_bunny-en.vtt"
-  />
-  <track
-    kind="caption"
-    label="Español"
-    srclang="es"
-    src="big_bunny-es.vtt"
-  />
+  <track kind="caption" label="English" srclang="en" src="big_bunny-en.vtt" />
+  <track kind="caption" label="Español" srclang="es" src="big_bunny-es.vtt" />
 
   Sorry, your browser doesn't support this video. Click
   <a href="big_bunny_h264.mp4">here</a> to download it instead.
