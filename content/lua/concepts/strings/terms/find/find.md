@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.find()`** function is used to search for a substring within a string and returns the start and end indices of the first occurrence of the substring. If the substring is not found, the function returns `nil`.
+The **`.find()`** function is used to search for a substring within a `string` and returns the start and end indices of the first occurrence of the substring. If the substring is not found, the function returns `nil`.
 
 ## Syntax
 
@@ -32,18 +32,20 @@ This requires assigning the function to a variable, to return the function.
 startindex, endindex = string.find(fullstring, searchstring, init, pattern)
 ```
 
-This uses multiple assignment to save the results to an individual variables.
+This uses multiple assignments to save the results to individual variables.
 
-- `fullString`: Is the string we are searching through.
-- `searchString`: Is the sub-string to search for.
-- `init` (optional): Is the initial index where the search starts. *Default index is 1*.
-- `pattern` (optional): Is a Boolean flag indicating whether to search using **pattern matching**[^1]. When set to false, pattern matching can be used, where as when set to true, pattern matching is ignored, and exact matches are searched for. *Default is false*.
+- `fullString`: This is the string we are searching through.
+- `searchString`: This is the sub-string to search for.
+- `init` (optional): This is the initial index where the search starts. *Default index is 1*.
+- `pattern` (optional): This is a Boolean flag indicating whether to search using **pattern matching**[^1]. When set to false, pattern matching can be used, whereas when set to true, pattern matching is ignored, and exact matches are searched for. *Default is false*.
 
-> **Note:** The special pattern matching characters allow for lua to use specified characters in `searchString` to make a pattern matching search. This allows for complex search patterns, which can enhance the flexibility of your searches. Pattern matching is similar to the concept [Regular Expressions](https://www.codecademy.com/resources/docs/general/regular-expressions), although Lua's pattern matching is not the same as regular expression, as it is more limited, and uses a different syntax.
+> **Note:** The special pattern-matching characters allow for lua to use specified characters in `searchString` to make a pattern-matching search. This allows for complex search patterns, which can enhance the flexibility of your searches. Pattern matching is similar to the concept [Regular Expressions](https://www.codecademy.com/resources/docs/general/regular-expressions), although Lua's pattern matching is not the same as a regular expression, as it is more limited, and uses a different syntax.
 
 ## Example
 
 ### Using `.find()` without multiple assignments
+
+The below example assigns the function to a unique variable, in order for the results to be returned/printed to the console.
 
 ```lua
 sentence = 'hello world'
@@ -55,8 +57,6 @@ print(search1)
 print(search2)
 print(search3)
 ```
-
-The above example assigns the function to a unique variable, in order for the results to be returned/printed to the console.
 
 The output will be:
 
@@ -72,6 +72,8 @@ nil
 
 ### Using `.find()` with multiple assignments
 
+The below example uses multiple assignments to save the results to individual variables, enabling the results to be returned or printed to the console.
+
 ```lua
 sentence = "hello world"
 a, b = string.find(sentence, "hello")
@@ -86,8 +88,6 @@ print(z)
 
 print(y, z)
 ```
-
-The example above uses multiple assignments to save the results to individual variables, enabling the results to be returned or printed to the console.
 
 The output will be:
 
@@ -105,6 +105,8 @@ The output will be:
 
 ### Using `.find()` with `init` (Initial position) parameter
 
+The below example uses the initial position parameter to indicate where the search should start.
+
 ```lua
 sentence1 = 'hello world'
 search = string.find(sentence1, "l", 5)
@@ -118,8 +120,6 @@ print(b)
 print(a, b)
 ```
 
-The above example uses the initial position parameter to indicate where the search shout start.
-
 The output will be:
 
 ```shell
@@ -132,9 +132,9 @@ The output will be:
 - `l` has multiple instances within the `sentence` string. Due to the init parameter, the search starts at index 5, therefore the first instance of `l` from index 5 will be at starting index `10`.
 - `orl` has multiple instances within the `sentence` string. Due to the init parameter, the search starts at index 5, therefore the first instance of `orl` from index 5 will be at starting index `8`, and ends at index `10`.
 
-## Example 4
+### Using `.find()` with `pattern` (pattern matching) parameter
 
-Use `.find()` with `pattern` (pattern matching) parameter:
+The below example uses the pattern-matching parameter to determine if pattern-matching characters can be used as search terms.
 
 ```lua
 -- With pattern matching
@@ -149,8 +149,6 @@ print(y)
 print(z)
 ```
 
-The above example uses the pattern matching parameter to determine if pattern matching characters can be used as search terms.
-
 The output will be:
 
 ```shell
@@ -163,4 +161,4 @@ nil
 - In the first example, `l+` uses `+` to match one or more repetitions of the previous character `l`. Due to the `false` boolean value, pattern matching is being used, which results in the outputs of `a` and `b` resulting in 3 and 4 respectively.
 - In the second example, `l+` is being treated as a literal string, which doesn't exist in the string `hello world`. Due to the `true` boolean value, pattern matching is disabled, which results in the outputs of `nil` in both `y` and `z`, as the string `l+` does not exist in the string `hello world`.
 
-[^1]: The special pattern matching characters allow for lua to use specified characters in `searchString` to make a pattern matching search. This allows for complex search patterns, which can enhance the flexibility of your searches. Pattern matching is similar to the concept [Regular Expressions](https://www.codecademy.com/resources/docs/general/regular-expressions), although Lua's pattern matching is not the same as regular expression, as it is more limited, and uses a different syntax.
+> **Note:** [^1]: The special pattern-matching characters allow for lua to use specified characters in `searchString` to make a pattern-matching search. This allows for complex search patterns, which can enhance the flexibility of your searches. Pattern matching is similar to the concept [Regular Expressions](https://www.codecademy.com/resources/docs/general/regular-expressions), although Lua's pattern matching is not the same as a regular expression, as it is more limited, and uses a different syntax.
