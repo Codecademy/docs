@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Defines the color value by providing three comma separated values. The first value represents the red value, the second represents the green value, and the third represents the blue value.
+The `rgb()` function in CSS defines a color by specifying its components using three comma-separated values. The first value represents the red component, the second value represents the green component, and the third value represents the blue component. These values can be provided as either numeric values ranging from 0 to 255 or as percentage values ranging from 0% to 100%. By adjusting the values for each component, you can create a wide range of colors, allowing for precise control over the appearance of elements in your web design.
 
 ## Syntax
 
@@ -38,10 +38,10 @@ h1 {
 
 ## Example 2
 
-Set the font color of the `h1` element to be black:
+Set the font color of the `p` element to be black:
 
 ```css
-h1 {
+p {
   color: rgb(0, 0, 0);
 }
 ```
@@ -55,3 +55,12 @@ h1 {
   color: rgb(230, 230, 250);
 }
 ```
+
+### Example 4: Customize a button's background color
+
+Set the background color of the `button` element to be a shade of green:
+
+```css
+button {
+  background-color: rgb(0, 128, 0);
+}
