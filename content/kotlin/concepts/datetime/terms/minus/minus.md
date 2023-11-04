@@ -30,15 +30,15 @@ The example demonstrates the use of `.minus()` to subtract a `Duration` and an `
 ```kotlin
 import java.time.Instant
 import java.time.Duration
-
 fun main() {
-  val t1 = Instant.parse("2008-09-29T12:00:00Z")
-  val t2 = t1.plus(Duration.ofDays(125))
-  val p1 = t2.minus(t1)
-  println(p1.toHours())
-  val t3 = t2.minus(p1)
-  println(t3)
-  println(t1)
+    val t1 = Instant.parse("2008-09-29T12:00:00Z")
+    val t2 = t1.plus(Duration.ofDays(125))
+    val p1 = t2.minus(t1)
+    println(p1.toHours())
+
+    val t3 = t2.minus(p1)
+    println(t3)
+    println(t1)
 }
 ```
 
