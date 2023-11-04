@@ -28,13 +28,20 @@ fun Instant.daysUntil(other: Instant, timeZone: TimeZone): Int
 The example demonstrates the use of `.daysUntil()` to calculate the number of days between two `Instants`.
 
 ```kotlin
+import java.time.Instant
+import java.time.Duration
+fun Instant.daysUntil(other: Instant): Long {
+// Calculate the duration between 'this' Instant and 'other' Instant
+    val duration = Duration.between(this, other)
+    
+// Convert the duration to days and return the result 
+    return duration.toDays()
+}
 fun main() {
-  val t1 = Instant.parse("2008-09-29T12:00:00Z")
-
-  val t2 = t1.plus(125, DateTimeUnit.HOURS)
-
-  val t3 = t2.daysUntil(t1)
-  println(t3)
+    val t1 = Instant.parse("2008-09-29T12:00:00Z")
+    val t2 = t1.plus(Duration.ofHours(125))
+    val t3 = t2.daysUntil(t1)
+    println(t3)
 }
 ```
 
