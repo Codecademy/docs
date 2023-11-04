@@ -36,8 +36,8 @@ This uses multiple assignments to save the results to individual variables.
 
 - `fullString`: This is the string being searched through.
 - `searchString`: This is the sub-string to search for.
-- `init` (optional): This is the initial index where the search starts. *Default index is 1*.
-- `pattern` (optional): This is a Boolean flag indicating whether to search using **pattern matching**[^1]. When set to false, pattern matching can be used, whereas when set to true, pattern matching is ignored, and exact matches are searched for. *Default is false*.
+- `init` (optional): This is the initial index where the search starts. _Default index is 1_.
+- `pattern` (optional): This is a Boolean flag indicating whether to search using **pattern matching**[^1]. When set to false, pattern matching can be used, whereas when set to true, pattern matching is ignored, and exact matches are searched for. _Default is false_.
 
 > **Note:** The special pattern-matching characters allow for lua to use specified characters in `searchString` to make a pattern-matching search. This allows for complex search patterns, which can enhance the flexibility of your searches. Pattern matching is similar to the concept [Regular Expressions](https://www.codecademy.com/resources/docs/general/regular-expressions), although Lua's pattern matching is not the same as a regular expression, as it is more limited, and uses a different syntax.
 
