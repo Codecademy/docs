@@ -15,6 +15,6 @@ CatalogContent:
 
 ## Example
 
-_“Would you agree that you are satisfied with the current interface?”_ This question implies that the user is satisfied with the interface and could lead to acquiescence bias. 
+_“Would you agree that you are satisfied with the current interface?”_ This question implies that the user is satisfied with the interface and could lead to acquiescence bias.
 
 _“How do you feel about the current interface?”_ This phrasing is open-ended, so it does not lead participants to agree with a particular sentiment.
