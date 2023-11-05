@@ -34,7 +34,8 @@ fun main() {
     val t1 = Instant.parse("2008-09-29T12:00:00Z")
     val t2 = t1.plus(Duration.ofDays(125))
     val d1 = t2.minus(t1)
-    println(p1.toHours())
+    println(d1.toHours())
+
     val t3 = t2.minus(d1)
     println(t3)
     println(t1)
