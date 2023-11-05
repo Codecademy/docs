@@ -14,11 +14,10 @@ A `loop` is a control structure that allows you to execute a block of code repe
 
 ## for loops
 
-The for loop is used to iterate over collections or ranges. It automatically iterates through elements and executes a block of code for each item in the collection or range.
-It's commonly used for iterating over arrays, vectors, and other iterable data structures.
+The `for` loop is used to iterate over collections or ranges.It automatically iterates through elements and executes a block of code for each item in the collection or range.It's commonly used for iterating over arrays, vectors, and other iterable data structures.
 
-```pseudo
-let numbers = [1, 2, 3, 4, 5];
+```rust
+let numbers = ["A", 2,20, 4, 5];
 for num in numbers.iter() {
     // Code to be executed for each element in the array
     println!("Number: {}", num);
@@ -27,11 +26,9 @@ for num in numbers.iter() {
 
 ## while loops
 
-The while loop repeatedly executes a block of code as long as a specified condition remains true.
-It checks the condition before entering the loop, and if the condition is initially false, the loop won't run.
-while loops are useful when you don't know in advance how many iterations are needed.
+The while loop repeatedly executes a block of code as long as a specified condition remains true.It checks the condition before entering the loop, and if the condition is initially false, the loop won't run.While loops are useful when you don't know in advance how many iterations are needed.
 
-```pseudo
+```rust
 let mut counter = 0;
 while counter < 5 {
     // Code to be executed while the condition is true
@@ -41,10 +38,9 @@ while counter < 5 {
 
 ## loop loops
 
-The loop keyword creates an infinite loop that continues executing the code block indefinitely until it's explicitly interrupted using the break statement.
-It's useful when you need to perform a task until a certain condition is met within the loop.
+The loop keyword creates an infinite loop that continues executing the code block indefinitely until it's explicitly interrupted using the break statement.It's useful when you need to perform a task until a certain condition is met within the loop.
 
-```pseudo
+```rust
 fn main() {
     loop {
         println!("Enter 'exit' to quit: ");
@@ -60,7 +56,7 @@ fn main() {
 
 ## Example
 
-This example demonstrates a while loop that iterates from 5 to 10 as the counter variable starts from 5.The second example shows a for loop that iterates over an array thats containes numbers  1 to 5 .
+This example demonstrates a while loop that iterates from 5 to 10 as the counter variable starts from 5.The second example shows a for loop that iterates over an array that containe numbers 1 to 5 .
 
 ```rust
 fn main() {
