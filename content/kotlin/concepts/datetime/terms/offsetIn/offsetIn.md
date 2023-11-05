@@ -41,7 +41,7 @@ fun main() {
 
 The code given above provides the offset for the current time in `Asia/Kolkata` time zone.
 
-**Note:** the string `Asia/Kolkata` above is a zoneId (returns the time zone identified by the provided zoneId). These Id's are usually in the form of `area/city`.
+> **Note:** The string `Asia/Kolkata` above is a zoneId (returns the time zone identified by the provided zoneId). These IDs are usually in the form of `area/city`.
 
 Output:
 
