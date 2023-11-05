@@ -77,3 +77,5 @@ The following example contains four HTML elements: `<html>`, `<body>`, `<h1>`, a
   </body>
 </html>
 ```
+
+![Screenshot of rendered HTML elements](https://i.imgur.com/c5Wj0GB.png)
