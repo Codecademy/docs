@@ -112,7 +112,7 @@ var body: some View {
 
 ### Customizing a Table Style
 
-One of the easiest methods to change a table's appearance is by using the `.tableStyle(_:)` modifier. This modifier requires just one argument, a predefined table style. SwiftUI provides several options, such as `InsetTableStyle` and, on macOS, `BorderedTableStyle`. The default style is `AutomaticTableStyle`, which is available on all platforms that support `Table`.
+One of the easiest methods to change a table's appearance is by using the `.tableStyle(_:)` modifier. This modifier requires one argument, a TableStyle, which defines the style to use for the table. For instance, SwiftUI provides several table styles, such as `InsetTableStyle` and, on macOS, `BorderedTableStyle`. The default style is `AutomaticTableStyle`, which is available on all platforms that support `Table`.
 
 ```swift
 Table(people, selection: $selection, sortOrder: $sortOrder) {
