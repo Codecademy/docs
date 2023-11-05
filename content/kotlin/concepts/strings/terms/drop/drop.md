@@ -1,6 +1,6 @@
 ---
 Title: '.drop()'
-Description: 'Returns a list containing all elements excluding 0th to nth elements.'
+Description: 'Returns a string where the characters have been removed from the start to the nth index given.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
@@ -13,31 +13,28 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.drop()`** method removes all elements from the original or 0th index element to the nth index element.
+The **`.drop()`** method removes characters from the start (0th index) of a given string to the nth index element.
 
 ## Syntax
 
 ```pseudo
-String.drop(nth-element)
+String.drop(nth-index)
 ```
 
-- `String`: The sequence of chars to be removed from and replaced.
-- `nth-element`: The index of the fartherest element to be removed from the front.
+- `String`: The string to be modified. The method will return a new string with the specified values missing.
+- `nth-index`: The method will remove characters up to this value.
 
 ## Example
 
-The example demonstrates the use of `.drop()` to remove elements from the beginning of the string.
+The example demonstrates the use of `.drop()` to remove characters from the beginning of the string.
 
 ```kotlin
 fun main() {
   val str = "This is new"
   val str2 = "I'm a string"
 
-  str.drop(8) // drops 'This is '
-  str2.drop(6) // drops 'I'm a '
-
-  println(str)
-  println(str2)
+  println(str.drop(8))   // Drops 'This is '
+  println(str2.drop(6)) // Drops 'I'm a '
 }
 ```
 
