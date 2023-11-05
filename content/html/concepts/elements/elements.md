@@ -78,4 +78,4 @@ The following example contains four HTML elements: `<html>`, `<body>`, `<h1>`, a
 </html>
 ```
 
-![Screenshot of rendered HTML elements](https://i.imgur.com/c5Wj0GB.png)
+![Screenshot of rendered HTML elements](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-elements-example.png)
