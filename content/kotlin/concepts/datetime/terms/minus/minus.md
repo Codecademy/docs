@@ -32,7 +32,7 @@ import java.time.Instant
 import java.time.Duration
 fun main() {
     val t1 = Instant.parse("2008-09-29T12:00:00Z")
-    val t2 = t1.plus(Duration.ofDays(125))
+    val t2 = t1.plus(Duration.ofHours(3000))
     val d1 = t2.minus(t1)
     println(d1.toHours())
 
