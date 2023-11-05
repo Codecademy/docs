@@ -41,7 +41,7 @@ fun main() {
 ```
 Assuming the current date is November 1, 2023, the output will be:
 
-```kotlin
+```shell
 The current month is: 11.
 ```
 
