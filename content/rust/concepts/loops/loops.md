@@ -3,6 +3,7 @@ Title: 'Loops'
 Description: 'A loop is a control structure that allows you to repeatedly execute a block of code.'
 Subjects:
   - 'Computer Science'
+  - 'Code Foundations'
 Tags:
   - 'Loops'
 CatalogContent:
@@ -10,11 +11,13 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A `loop` is a control structure that allows you to execute a block of code repeatedly. Loops are used to perform tasks that need to be done multiple times, such as iterating through a list of items, performing calculations, or waiting for a specific condition to be met.There typically three main types `for`, `while` and `loop`.
+A **`loop`** is a control structure that enables the repetitive execution of a block of code. `Loops` are employed for tasks that require multiple iterations, such as iterating through a list of items, performing calculations, or waiting for a specific condition to be met. There are typically three main types: `for`, `while`, and `loop`.
 
-## for loops
+## Syntax
 
-The `for` loop is used to iterate over collections or ranges.It automatically iterates through elements and executes a block of code for each item in the collection or range.It's commonly used for iterating over arrays, vectors, and other iterable data structures.
+### For loop
+
+The `for loop` is used to iterate over collections or ranges. It automatically iterates through elements and executes a code block for each item in the pool or scope. It's commonly used for iterating over `arrays`, `vectors` and other iterable data structures.
 
 ```rust
 let numbers = ["A", 2,20, 4, 5];
@@ -24,7 +27,7 @@ for num in numbers.iter() {
 }
 ```
 
-## while loops
+### While loops
 
 The `while` loop repeatedly executes a block of code as long as a specified condition remains true.It checks the condition before entering the loop, and if the condition is initially false, the loop won't run.While loops are useful when you don't know in advance how many iterations are needed.
 
@@ -36,7 +39,7 @@ while counter < 5 {
 }
 ```
 
-## loop loops
+### Loop
 
 The `loop` keyword creates an infinite loop that continues executing the code block indefinitely until it's explicitly interrupted using the break statement.It's useful when you need to perform a task until a certain condition is met within the loop.
 
