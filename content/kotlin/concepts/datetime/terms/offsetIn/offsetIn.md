@@ -35,7 +35,7 @@ fun main() {
 
   val offset = currentTime.offsetIn(timeZone)
 
-  println("Offset from UTC in Kolkata is $offset minutes.")
+  println("Offset from UTC in Kolkata is $offset.")
 }
 ```
 
@@ -46,5 +46,5 @@ The code given above provides the offset for the current time in `Asia/Kolkata` 
 Output:
 
 ```shell
-Offset from UTC in Kolkata is +05:30 minutes.
+Offset from UTC in Kolkata is +05:30.
 ```
