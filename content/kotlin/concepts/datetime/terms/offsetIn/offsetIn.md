@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **offsetIn()** function is used to obtain the time zone offset at a specific point in time. It provides the difference between the local time and UTC for a given moment.
+The **`.offsetIn()`** function is used to obtain the time zone offset at a specific point in time. It provides the difference between the local time and UTC for a given moment.
 
 ## Syntax
 
