@@ -19,7 +19,6 @@ The terminal interacts with a program often referred to as the *shell*, which is
 ## Examples of terminals
 
 Terminals come with different features and interfaces based on the system:
-
 - **macOS** has a native app called "Terminal" and also supports iTerm2, a popular alternative.
 - **Windows** users typically work with:
   - Command Prompt (CMD), a legacy terminal based on MS-DOS that is available as a shell.
