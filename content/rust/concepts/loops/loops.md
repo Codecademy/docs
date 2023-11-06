@@ -29,7 +29,7 @@ for num in numbers.iter() {
 
 ### While loops
 
-The `while` loop repeatedly executes a block of code as long as a specified condition remains true.It checks the condition before entering the loop, and if the condition is initially false, the loop won't run.While loops are useful when you don't know in advance how many iterations are needed.
+The `while` loop repeatedly executes a block of code as long as a specified condition remains true.It checks the condition before entering the loop, and if the condition is initially false, the loop won't run.While loops are useful when number of iterations is not known in advance.
 
 ```rust
 let mut counter = 0;
@@ -41,7 +41,7 @@ while counter < 5 {
 
 ### Loop
 
-The `loop` keyword creates an infinite loop that continues executing the code block indefinitely until it's explicitly interrupted using the break statement.It's useful when you need to perform a task until a certain condition is met within the loop.
+The `loop` keyword creates an infinite loop that continues executing the code block indefinitely until it's explicitly interrupted using the break statement.It's useful when a task must be perfomed until a certain condition is met within the loop.
 
 ```rust
 fn main() {
