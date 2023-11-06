@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Selection is the assignment and manipulation of elements in the construction of a chart. In D3 there are a range of methods that are used to add and filter elements in order to allocate specific data and apply modifications. The most widely used among these are the `.select()`, `.selectAll()` and `.append()` methods.
+**Selection** is the assignment and manipulation of elements in the construction of a chart. In D3 there are a range of methods that are used to add and filter elements in order to allocate specific data and apply modifications. The most widely used among these are the `.select()`, `.selectAll()` and `.append()` methods.
 
 The following sections are a brief introduction to the role and implementation of selections in D3. Entries that cover these methods in more depth are linked at the bottom.
 
@@ -34,7 +34,7 @@ The pseudo code above represents a pattern commonly found in D3 for binding data
 
 A scatterplot is one of the simplest charts, it is a representation of data in 2-D space where each element is located based on an associated x-y coordinate value. Generally, each element is marked with a point, circle, or some other shape.
 
-For this example, the data will be consist of 50 points generated with the aid of the JavaScript `Math.random()` method. The set is constructed as follows.
+For this example, the data will consist of 50 points generated with the aid of the JavaScript `Math.random()` method. The set is constructed as follows:
 
 ```js
 Points = {

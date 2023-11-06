@@ -13,11 +13,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The anatomy or structure of a D3 chart is built through the use of a range of methods to manipulate data and aesthetic parameters applied to an SVG object. A chart can be seen as meta-function, within it are objects and methods that generate the various components of a chart (e.g., paths, axes, labels, etc.) and at the end of it the result, or return, is an SVG that is the sum of all these intermediate operations.
+The **anatomy** or structure of a D3 chart is built through the use of a range of methods to manipulate data and aesthetic parameters applied to an SVG object. A chart can be seen as a meta-function, within it are objects and methods that generate the various components of a chart (e.g., paths, axes, labels, etc.) and at the end of it the result, or return, is an SVG that is the sum of all these intermediate operations.
 
 ## Syntax
 
-In broad strokes, a chart definition will often take the following form.
+In broad strokes, a chart definition will often take the following form:
 
 ```pseudo
 chart = {
