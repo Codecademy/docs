@@ -59,7 +59,7 @@ fn main() {
 
 ## Example
 
-This example demonstrates a `while` loop that iterates from `5` to `10` as the counter variable starts from `5`.The second example shows a `for` loop that iterates over an array that containe numbers `1` to `5` .
+This example demonstrates a `while loop` that iterates from `5` to `10` as the counter variable starts from `5`. The second example shows a `for` loop that iterates over an `array` that contains numbers `1` to `5`.
 
 ```rust
 fn main() {
