@@ -29,6 +29,7 @@ fun Instant.offsetIn(timeZone: TimeZone): UtcOffset
 ```kotlin
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.Clock
+import kotlinx.datetime.offsetIn
 
 fun main() {
   val currentTime = Clock.System.now()
