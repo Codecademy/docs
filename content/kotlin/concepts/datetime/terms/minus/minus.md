@@ -5,7 +5,8 @@ Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
-  - 'Kotlin'
+  - 'Date'
+  - 'Methods'
 CatalogContent:
   - 'learn-kotlin'
   - 'paths/computer-science'
