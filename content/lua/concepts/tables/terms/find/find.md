@@ -1,6 +1,6 @@
 ---
 Title: 'Find()'
-Description: 'Search for the first occurrences of a specified value with a table.'
+Description: 'Searches for the first occurrence of a specified value within a table.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
