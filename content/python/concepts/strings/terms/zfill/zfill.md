@@ -25,8 +25,9 @@ result = string.zfill(arg(int))
 
 It creates a new string with leading zeros based on the specified integer argument, represented by `arg`. The modified string is stored in the variable `result`.
 
-## Example 1
-The following example shows how `.zfill()` returns a copy of that string with leading zeros. 
+## Example
+
+The following example shows how `.zfill()` returns a copy of the string with leading zeros. 
 
 ```py
 first_string = "Codecademy"
