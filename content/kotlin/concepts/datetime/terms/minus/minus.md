@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.minus()`** method subtracts a `Duration` or quantity of `TmeporalUnits` from an `Instant`, returning the resulting `Instant`.
+The **`.minus()`** method subtracts a `Duration` or quantity of `TemporalUnits` from an `Instant`, returning the resulting `Instant`.
 
 ## Syntax
 
