@@ -28,8 +28,7 @@ input angle.
 
 ## Example
 
-The example below demonstrates how to use `math.cos()` method to calculate the cosine of 
-an angle.
+The example below demonstrates how to use `math.cos()` method to calculate the cosine of an angle:
 
 ```kotlin
 import kotlin.math.*
