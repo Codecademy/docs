@@ -1,5 +1,5 @@
 ---
-Title: 'col'
+Title: '<col>'
 Description: 'Creates properties for table columns, including styling and attributes, often used within a <colgroup> to apply them to multiple columns simultaneously.'
 Subjects:
   - 'Web Development'
