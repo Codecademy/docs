@@ -30,6 +30,11 @@ Among the HTML elements are the 6 heading elements. They are labeled 1-6, with 1
 <h5>Heading 5</h5>
 <h6>Heading 6</h6>
 
+## Changing Heading size
+
+HTML Headings have default sizes but these can be changed using the CSS style attribute. Using the font-size property you can customize how big or small headings will appear on the webpage. This is useful if the
+default size is too big/ small for where it is positioned on the page. 
+
 ## Accessibility with Headings
 
 Each heading has semantic meaning for the overall structure of a page. Headings have affects on how well a page performs with SEO and how devices like screen readers can access them. Here are a few best practices for using heading elements in an accessible and SEO-friendly way:
