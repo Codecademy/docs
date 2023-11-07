@@ -29,7 +29,7 @@ where a required `<value>` can be one of the following:
 
 ## Example 1
 
-Give the image a brightness of `125%`:
+Give the image a brightness of `100%`:
 
 ```css
 .banner-image {
