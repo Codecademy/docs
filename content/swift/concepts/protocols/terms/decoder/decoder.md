@@ -5,67 +5,64 @@ Subjects:
   - 'iOS'
   - 'Mobile Development'
 Tags:
-  - 'Swift'
-  - 'iOS'
+  - 'Classes'
   - 'Protocols'
 CatalogContent:
   - 'learn-swift'
+  - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`Decoder`** protocol in Swift translates data from external formats such as JSON or XML into native Swift types. All data intended for decoding should conform to the `Decodable` protocol. Although it's feasible to craft custom decoders, Swift's native classes, like `JSONDecoder` and `PropertyListDecoder`, accommodate the majority of scenarios, rendering custom decoders uncommon.
+The **`Decoder`** protocol in Swift translates data from external formats such as JSON or XML into native Swift types. All data intended for decoding should conform to the `Decodable` protocol. While creating custom decoders is possible, existing classes like `JSONDecoder` and `PropertyListDecoder` cover a wide range of use cases, making the need for custom decoders relatively rare.
 
 ## Syntax
 
 ```pseudo
 struct SomeStruct: Decodable {
-  // properties that are Decodable
-
+  // Define properties that match the data structure
   init(from decoder: Decoder) throws {
     // Custom decoding logic, if needed
   }
 }
-
 let decoder = JSONDecoder()
-let itemInstance = try decoder.decode(SomeStruct.self, from: itemData)
+let someData: Data
+let someInstance = try decoder.decode(SomeStruct.self, from: someData)
 ```
 
-- The `Decodable` protocol signifies that `SomeStruct` can be decoded from an external format.
-- If needed, the `init(from:)` initializer is used to provide custom decoding logic.
-- The `JSONDecoder` class decodes JSON data into a Swift type that conforms to the `Decodable` protocol.
-- JSON data gets transformed into the `SomeStruct` Swift type via the `decode(_:from:)` method.
+- `SomeStruct` conforms to the `Decodable` protocol indicating it can decode an external data source.
+- The `init(from:)` initializer is optional and provides a way to implement custom decoding logic.
+- Instantiate a decoder class, such as `JSONDecoder`, to convert the encoded data into the desired Swift type.
+- `someData` is a `Data` object containing the data to decode.
+- The `decode(_:from:)` method transforms the data into an instance of `SomeStruct`.
 
 ## Example
 
-In the following example, a JSON representation of a book is translated into a `Book` instance which conforms to the `Decodable` protocol.
+In the following example, a JSON object is decoded into a `Book` struct.
 
-```swift
+```pseudo
 import Foundation
-
 struct Book: Decodable {
    let title: String
    let author: String
    let publicationYear: Int
 }
-
 // JSON data for a book
-let bookData = """
+let bookJson = """
 {
    "title": "Journey to the Center of the Earth",
    "author": "Jules Verne",
    "publicationYear": 1864
 }
-""".data(using: .utf8)!
-
-// Decode the JSON data into a Book instance
-let decoder = JSONDecoder()
-let bookInstance = try decoder.decode(Book.self, from: bookData)
-print(bookInstance)
+"""
+let bookData = Data(bookJson.utf8)
+let jsonDecoder = JSONDecoder()
+let book = try jsonDecoder.decode(Book.self, from: bookData)
+print("\(book.title) by \(book.author)")
 ```
 
-In this example, a `Book` struct has three properties, `title`, `author`, and `publicationYear`, that match the keys in the JSON data. The `init(from:)` initializer is not implemented because the property labels match the JSON data keys. The JSON data is then decoded into a `Book` instance using the `decode(_:from:)` method of the `JSONDecoder` class.
+In this example, a `Book` struct confroms to `Decodable` and has three properties, `title`, `author`, and `publicationYear`, that match the keys in the JSON data. The `init(from:)` initializer is not implemented because the property labels match the JSON data keys. The JSON data is then decoded into a `Book` instance using the `decode(_:from:)` method of the `JSONDecoder` class.
 
 This will output the following:
 
 ```shell
-Book(title: "Journey to the Center of the Earth", author: "Jules Verne", publicationYear: 1864)
+Journey to the Center of the Earth by Jules Verne
 ```
