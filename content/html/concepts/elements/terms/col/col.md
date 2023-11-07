@@ -29,7 +29,7 @@ HTML tables are defined by their rows, not by columns. The result of this is tha
 
 ## Example
 
-The example provides a schedule table for the Poetry Workshop. In this table, the `<col>` element is utilized to set the background color of the columns. This illustrative instance also demonstrates that when a style is applied to a row, it takes precedence over any style applied to a column. The `span` attribute is set to 2 because the style applied to the first column is overridden by the row's style.
+This example provides a schedule table for a Poetry Workshop. In this table, the `<col>` element is utilized to set the background color of the columns. This illustrative instance also demonstrates that when a style is applied to a row, it takes precedence over any style applied to a column. The `span` attribute is set to 2 because the style applied to the first column is overridden by the row's style.
 
 ```html
 <colgroup>
