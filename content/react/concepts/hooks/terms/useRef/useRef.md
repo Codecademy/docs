@@ -11,15 +11,15 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`useRef()`** hook in React is used to create mutable references to elements or values within functional [components](https://www.codecademy.com/resources/docs/react/components). It allows you to access and interact with DOM elements directly and persist data across renders without causing re-renders.
+The **`useRef()`** hook in React is used to create mutable references to elements or values within functional [components](https://www.codecademy.com/resources/docs/react/components). It enables direct access and interaction with DOM elements, allowing the persistence of data across renders without triggering re-renders.
 
 ## Syntax
 
-In the `useState()` hook, the `initialValue` is an optional parameter that you can provide when creating a new ref object.
+In the `useRef()` hook, the `initialValue` is an optional parameter that you can provide when creating a new ref object.
 
-`initialValue` allows you to initialize the `.current` property of the ref object with an initial value.
+`initialValue` allows you to initialization of the `.current` property of the ref object with an initial value.
 
-Here is how you can use this hook :
+This hook can be utilized as follows :
 
 ```pseudo
 import React, { useRef } from 'react';
@@ -29,7 +29,7 @@ const myRef = useRef(initialValue);
 
 When `useRef()` is called, it returns a ref object, and this ref object has a `.current` property.
 
-If no `initialValue` is provided, `myRef.current` will be undefined by default.
+If no `initialValue` is provided, `myRef.current` will be null by default.
 
 ## Example 1
 
