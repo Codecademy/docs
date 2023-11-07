@@ -46,3 +46,5 @@ The `<applet>` element included zero or more [`<param>`](https://www.codecademy.
   This browser doesn't support Java applets.
 </applet>
 ```
+
+![Applet example image](https://raw.githubusercontent.com/bertholo/docs/e9ff2096650758ef2040cfa36c76834d56c2a328/media/applet-life-cycle.png)
