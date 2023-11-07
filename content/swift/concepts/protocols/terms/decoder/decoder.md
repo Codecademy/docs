@@ -60,7 +60,7 @@ let book = try jsonDecoder.decode(Book.self, from: bookData)
 print("\(book.title) by \(book.author)")
 ```
 
-In this example, a `Book` struct confroms to `Decodable` and has three properties, `title`, `author`, and `publicationYear`, that match the keys in the JSON data. The `init(from:)` initializer is not implemented because the property labels match the JSON data keys. The JSON data is then decoded into a `Book` instance using the `decode(_:from:)` method of the `JSONDecoder` class.
+In this example, a `Book` struct has three properties, `title`, `author`, and `publicationYear`, that match the keys in the JSON data. The `init(from:)` initializer is not implemented because the property labels match the JSON data keys. The JSON data is then decoded into a `Book` instance using the `decode(_:from:)` method of the `JSONDecoder` class.
 
 This will output the following:
 
