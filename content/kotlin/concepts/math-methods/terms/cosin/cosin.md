@@ -22,9 +22,7 @@ val cosineValue = cos(angle)
 ```
 
 - `angle`: The angle in radians for which you want to calculate the `cosine`.
-
-The `math.cos()` method returns a value of type Double representing the cosine of the 
-input angle.
+- The `math.cos()` method returns a value of type Double representing the cosine of the input angle.
 
 ## Example
 
