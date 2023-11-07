@@ -8,7 +8,8 @@ Tags:
   - 'Classes'
   - 'Protocols'
 CatalogContent:
-  - 'learn-swift'
+- 'learn-swift'
+- 'paths/build-ios-apps-with-swiftui'
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
