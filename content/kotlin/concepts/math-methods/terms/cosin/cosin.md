@@ -13,8 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`math.cos()`** method in Kotlin's `math` class is used to calculate the cosine of an angle 
-in radians.
+The **`math.cos()`** method in Kotlin's `math` class is used to calculate the cosine of an angle in radians.
 
 ## Syntax
 
