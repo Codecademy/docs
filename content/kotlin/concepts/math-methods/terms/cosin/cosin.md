@@ -18,7 +18,6 @@ The **`math.cos()`** method in Kotlin's `math` class is used to calculate the co
 ## Syntax
 
 ```pseudo
-import kotlin.math.cos
 val cosineValue = cos(angle)
 ```
 
