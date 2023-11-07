@@ -38,4 +38,3 @@ Give the image a brightness of `125%`:
 ```
 
 ![css-filterfunctions-brightness-example](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-filterfunctions-brightness-example.png)
-
