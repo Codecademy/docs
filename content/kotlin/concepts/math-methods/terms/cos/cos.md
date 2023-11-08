@@ -1,5 +1,5 @@
 ---
-Title: 'cosin()'
+Title: 'cos()'
 Description: 'Calculates the cosine of an angle in radians.'
 Subjects:
   - 'Mathematics'
@@ -21,7 +21,7 @@ The **`math.cos()`** method in Kotlin's `math` class is used to calculate the co
 val cosineValue = cos(angle)
 ```
 
-- `angle`: The angle in radians for which you want to calculate the `cosine`.
+- `angle`: The angle in radians for which to calculate the `cosine`.
 - The `math.cos()` method returns a value of type `Double` representing the cosine of the input angle.
 
 ## Example
