@@ -34,7 +34,6 @@ This method has two optional parameters:
 ```swift
 struct ContentView: View {
   @State private var myPayload: String = "I belong in a blue box."
-  
   var body: some View {
     HStack(spacing: 50) {
       Square(text: $myPayload, color: .pink)
