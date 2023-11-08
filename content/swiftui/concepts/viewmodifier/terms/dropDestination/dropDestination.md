@@ -43,7 +43,6 @@ struct ContentView: View {
   @State private var isDropTargeted = false
   @State private var droppedPayload: String = "No text dropped yet"
   @State private var myPayload: String = "I belong in a blue box."
-
  var body: some View {
    HStack(spacing: 50) {
      Square(text: $myPayload, color: .pink)
@@ -54,7 +53,6 @@ struct ContentView: View {
        .cornerRadius(25)
      })
    }
-  
   Square(text: $droppedPayload, color: .blue)
     .dropDestination(for: String.self) { receivedPayload, locationDrop in
       if !receivedPayload.isEmpty {
@@ -69,7 +67,6 @@ struct ContentView: View {
     .brightness(isDropTargeted ? -0.2 : 0)
     .scaleEffect(isDropTargeted ? 1.25 : 1)
   }
-
   struct Square: View {
     @Binding var text: String
     var color: Color
