@@ -38,7 +38,7 @@ let someInstance = try decoder.decode(SomeStruct.self, from: someData)
 
 In the following example, a JSON object is decoded into a `Book` struct.
 
-```pseudo
+```swift
 import Foundation
 struct Book: Decodable {
    let title: String
