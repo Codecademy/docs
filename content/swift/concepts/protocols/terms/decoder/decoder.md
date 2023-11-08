@@ -8,8 +8,8 @@ Tags:
   - 'Classes'
   - 'Protocols'
 CatalogContent:
-- 'learn-swift'
-- 'paths/build-ios-apps-with-swiftui'
+  - 'learn-swift'
+  - 'paths/build-ios-apps-with-swiftui'
 ---
 
 The **`Decoder`** protocol in Swift translates data from external formats such as JSON or XML into native Swift types. All data intended for decoding should conform to the `Decodable` protocol. While creating custom decoders is possible, existing classes like `JSONDecoder` and `PropertyListDecoder` cover a wide range of use cases, making the need for custom decoders relatively rare.
