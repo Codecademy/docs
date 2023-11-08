@@ -33,7 +33,7 @@ If no `initialValue` is provided, `myRef.current` will be null by default.
 
 ## Example 1
 
-In this example, the useRef hook is used to store the previous value of the count state, allowing you to display the current and previous count values without triggering re-renders.
+In this example, the `useRef()` hook is used to store the previous value of the count state, allowing you to display the current and previous count values without triggering re-renders.
 
 ```jsx
 import React, { useState, useRef, useEffect } from 'react';
@@ -55,3 +55,9 @@ function PreviousValue() {
   );
 }
 ```
+
+In the code example, useRef is used to create the `prevCountRef` reference to store and access the previous value of the count state variable.
+
+To store the previous count value in a state variable (using `useState()`), each time the `Increment` button is clicked and the count changes, it would trigger a re-render. Because changing state variables causes components to re-render.
+
+There is no need to re-render the component just to track the previous value; we only need to update the value without causing a re-render. So we use `useRef()` hook
