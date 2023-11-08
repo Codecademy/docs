@@ -19,7 +19,7 @@ A **`loop`** is a control structure that enables the repetitive execution of a b
 
 The `for loop` is used to iterate over collections or ranges. It automatically iterates through elements and executes a code block for each item in the pool or scope. It's commonly used for iterating over `arrays`, `vectors`, and other iterable data structures.
 
-```rust
+```pseudo
 let numbers = ["A", 2,20, 4, 5];
 for num in numbers.iter() {
     // Code to be executed for each element in the array
@@ -31,7 +31,7 @@ for num in numbers.iter() {
 
 The `while` loop repeatedly executes a block of code as long as a specified condition remains true. It checks the condition before entering the loop, and if the condition is initially false, the loop won't run. While loops are useful when the number of iterations is not known in advance.
 
-```rust
+```pseudo
 let mut counter = 0;
 while counter < 5 {
     // Code to be executed while the condition is true
@@ -43,7 +43,7 @@ while counter < 5 {
 
 The `loop` keyword creates an infinite loop that continues executing the code block indefinitely until it's explicitly interrupted using the break statement. It's useful when a task must be performed until a certain condition is met within the loop.
 
-```rust
+```pseudo
 fn main() {
     loop {
         println!("Enter 'exit' to quit: ");
@@ -72,9 +72,7 @@ fn main() {
     let numbers = [1, 2, 3, 4, 5];
 
     for number in numbers.iter() {
-
         println!("Number: {}", number);
-
     }
 }
 ```
