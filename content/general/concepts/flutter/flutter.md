@@ -1,6 +1,12 @@
 ---
 Title: 'Flutter'
 Description: 'Flutter is an open-source framework by Google that allows developers to create an application using only a single codebase and have it run on mobile, desktop, and the web.'
+Subjects:
+  - 'Mobile Development'
+  - 'Web Development'
+Tags:
+  - 'Flutter'
+  - 'OOP'
 CatalogContent:
   - 'intro-to-flutter'
 ---
