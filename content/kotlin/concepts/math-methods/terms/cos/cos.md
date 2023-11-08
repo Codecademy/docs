@@ -43,4 +43,3 @@ This results in the following output:
 ```shell
 The cosine of 1.0471975511965979 radians is 0.5000000000000001.
 ```
-
