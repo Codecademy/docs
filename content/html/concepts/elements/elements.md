@@ -77,3 +77,7 @@ The following example contains four HTML elements: `<html>`, `<body>`, `<h1>`, a
   </body>
 </html>
 ```
+
+The image below shows these HTML elements as they appear in the browser:
+
+![Screenshot of rendered HTML elements](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-elements-example.png)
