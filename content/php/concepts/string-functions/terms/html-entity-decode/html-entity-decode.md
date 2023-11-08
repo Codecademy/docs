@@ -1,23 +1,43 @@
 ---
 Title: 'PHP html_entity_decode() Function'
-Description: 'The html_entity_decode() function converts HTML entities to characters.'
+Description: 'Converts HTML entities to characters.'
 Subjects: 
-- 'PHP'
+- 'Web Design'
+- 'Web Development'
 Tags:
 - 'Functions'
 - 'Characters'
 CatalogContent:
 - 'php/concepts/string-functions/terms/html-entity-decode'
-SyntaxSection:
+
+## About this function
+
+html_entity_decode() is the opposite of htmlentities() in that it converts HTML entities in the string to their corresponding characters.
+
+## SyntaxSection
 ```pseudo
-- 'html_entity_decode(str, flags, character-set)'
-Example:
+html_entity_decode(str, flags, character-set)
+
+##Example:
 ```php
-- '<?php
-$str = '&lt;a href=&quot;https://www.w3schools.com&quot;&gt;w3schools.com&lt;/a&gt;';
-echo html_entity_decode($str);
-?>'
-CodebyteExample:
+<?php
+$orig = "dog";
+$a = htmlentities($orig);
+$b = html_entity_decode($a);
+echo $a;
+echo "\n";
+echo $b;
+?>
+
+## Codebyte Example (if applicable)
+
+We can currently support:
+- PHP
+
 ```codebyte/php
-- '<a href="https://www.w3schools.com">w3schools.com</a>'
+# Example runnable code block.
+<?php
+$str = "Albert Einstein said: &#039;E=MC&sup2;&#039;";
+echo html_entity_decode($str, ENT_QUOTES); // Converts double and single quotes
+?>
 ---
