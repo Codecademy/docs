@@ -1,36 +1,34 @@
 ---
-Title: 'encodeToString()'
-
+Title: '.encodeToString()'
 Description: 'Serializes data to a string representation using the Kotlin Serialization library.'
-
 Subjects:
-  -'Kotlin'
-  -'Serialization'
-
+  -'Code Foundations'
+  -'Computer Science'
 Tags:
-  -'Kotlin Serialization'
-  -'Serialization Library'
-  -'JSON Serialization'
-
+  -'Kotlin'
+  -'Libraries'
+  -'JSON'
 Catalog Content: 
   - 'learn-kotlin'
   - 'paths/computer-science'
 ---
 
-The **'encodeToString()'** function is provided by the Kotlin Serialization library. It is used for serializing data to a string representation (commonly in JSON format).
+The **`encodeToString()`** function is provided by the Kotlin Serialization library. It is used for serializing data to a string representation (commonly in JSON format).
 
 ## Syntax
 
-```kotlin
+```shell
 fun <T> encodeToString(serializer: SerializationStrategy<T>, value: T): String
 ```
 
-serializer: An instance of SerializationStrategy that defines how the data should be serialized.
-value: The object or data to be serialized to a string.
+- **serializer:** An instance of SerializationStrategy that defines how the data should be serialized.
+- **value:** The object or data to be serialized to a string.
 
 ## Example
 
-```kotlin
+Here is an example of how to use **`encodeToString()`** to serialize data into a JSON string:
+
+```shell
 // Import the necessary libraries
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.encodeToString
