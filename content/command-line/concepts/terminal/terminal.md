@@ -24,7 +24,7 @@ Terminals come with different features and interfaces based on the system:
   - Command Prompt (CMD), a legacy terminal based on MS-DOS that is available as a shell.
   - PowerShell, which is available as a standalone terminal or as a shell that offers advanced scripting capabilities.
   - Windows Terminal, the modern, multi-tabbed application supporting Command Prompt, PowerShell, and WSL (Windows Subsystem for Linux) shells.
-    - WSL, also called Windows Subsystem for Linux, is an emulation layer that allows you to use Unix-based shells such as BASH or ZSH. It can be run within other terminal emulators or as a standalone program. You can read more about WSL [here](https://learn.microsoft.com/en-us/windows/wsl/about)
+    - WSL, also called Windows Subsystem for Linux, is an emulation layer that allows the use of Unix-based shells such as BASH or ZSH. It can be run within other terminal emulators or as a standalone program. Read more about WSL [here](https://learn.microsoft.com/en-us/windows/wsl/about).
 - **Linux** distributions usually provide multiple options which include:
   - GNOME Terminal, default on GNOME desktops.
   - Konsole, default on KDE/Plasma desktops.
