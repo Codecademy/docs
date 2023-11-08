@@ -12,13 +12,14 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **terminal** is a tool for interacting with a computer using text-based commands. In the past, terminals were hardware-based systems that printed out typed commands to a dedicated hardware, such as a screen or paper spool. Today, terminals have been widely replaced by **Terminal Emulators**, which are GUI apps that can come with additional functionality, such as tabbing interfaces and splitting views. The words are used interchangeably in today's development environments. Terminals can serve various functions, like running scripts or automating tasks with shell scripts. 
+A **terminal** is a tool for interacting with a computer using text-based commands. In the past, terminals were hardware-based systems that printed out typed commands to a dedicated hardware, such as a screen or paper spool. Today, terminals have been widely replaced by **Terminal Emulators**, which are GUI apps that can come with additional functionality, such as tabbing interfaces and splitting views. The words are used interchangeably in today's development environments. Terminals can serve various functions, like running scripts or automating tasks with shell scripts.
 
-The terminal interacts with a program often referred to as the *shell*, which is the command-line interface that exposes human input from the terminal to the operating system. Unlike the terminal, the shell is what actually processes the commands, whereas the terminal is just the text-based interface to interact with the shell. Some shells come as standalone terminals as well, such as Powershell or Command Prompt, however, some, such as the Unix BASH (Bourne Again SHell) require a separate terminal program.
+The terminal interacts with a program often referred to as the _shell_, which is the command-line interface that exposes human input from the terminal to the operating system. Unlike the terminal, the shell is what actually processes the commands, whereas the terminal is just the text-based interface to interact with the shell. Some shells come as standalone terminals as well, such as Powershell or Command Prompt, however, some, such as the Unix BASH (Bourne Again SHell) require a separate terminal program.
 
 ## Examples of terminals
 
 Terminals come with different features and interfaces based on the system:
+
 - **macOS** has a native app called "Terminal" and also supports iTerm2, a popular alternative.
 - **Windows** users typically work with:
   - Command Prompt (CMD), a legacy terminal based on MS-DOS that is available as a shell.
