@@ -9,16 +9,20 @@ Tags:
 - 'Characters'
 CatalogContent:
 - 'php/concepts/string-functions/terms/html-entity-decode'
+---
 
-## About this function
 
-html_entity_decode() is the opposite of htmlentities() in that it converts HTML entities in the string to their corresponding characters.
+**'html_entity_decode()'** is the opposite of **'htmlentities()'** in that it converts HTML entities in the string to their corresponding characters.
 
-## SyntaxSection
+## Syntax
 ```pseudo
 html_entity_decode(str, flags, character-set)
+```
+- 'string - Required. Specifies the string to decode'
+- 'flags - Optional. Specifies how to handle quotes and which document type to use.'
+- c'haracter-set - Optional. A string that specifies which character-set to use.'
 
-##Example:
+## Example
 ```php
 <?php
 $orig = "dog";
@@ -28,11 +32,9 @@ echo $a;
 echo "\n";
 echo $b;
 ?>
+```
 
-## Codebyte Example (if applicable)
-
-We can currently support:
-- PHP
+## Codebyte Example
 
 ```codebyte/php
 # Example runnable code block.
@@ -40,4 +42,4 @@ We can currently support:
 $str = "Albert Einstein said: &#039;E=MC&sup2;&#039;";
 echo html_entity_decode($str, ENT_QUOTES); // Converts double and single quotes
 ?>
----
+```
