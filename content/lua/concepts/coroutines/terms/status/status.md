@@ -1,6 +1,6 @@
 ---
 Title: 'status()'
-Description: 'Returns the status of the provided coroutine.'
+Description: 'Returns a string indicating the status of the provided coroutine.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -12,9 +12,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`status()`** method takes a coroutine as an argument and returns the status of that coroutine. This status can be one of three states: `suspended`, `running`, or `dead`.
+The **`status()`** method takes a coroutine as an argument and returns a string indicating the status of that coroutine. This status can be one of three states: `suspended`, `running`, or `dead`.
 
-When a coroutine is created, it has a status of `suspended` by default. Once a coroutine has been called or resumed, it has a status of `running`.  The coroutine will run until it is suspended, using `coroutine.yield()`, or it completes. If a coroutine completes its execution and terminates, it receives a permanent status of `dead`.
+When a coroutine is created, it has a status of `suspended` by default. Once a coroutine has been called or resumed, it has a status of `running`. The coroutine will run until it is suspended, using `coroutine.yield()`, or it completes. If a coroutine completes its execution and terminates, it receives a permanent status of `dead`.
 
 ## Syntax
 
