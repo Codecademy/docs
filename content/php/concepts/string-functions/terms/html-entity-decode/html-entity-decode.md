@@ -1,5 +1,5 @@
 ---
-Title: 'PHP html_entity_decode() Function'
+Title: '.html_entity_decode()'
 Description: 'Converts HTML entities to characters.'
 Subjects: 
 - 'Web Design'
@@ -18,11 +18,12 @@ CatalogContent:
 ```pseudo
 html_entity_decode(str, flags, character-set)
 ```
-- 'string - Required. Specifies the string to decode'
-- 'flags - Optional. Specifies how to handle quotes and which document type to use.'
-- c'haracter-set - Optional. A string that specifies which character-set to use.'
+- '**string:** - Required. Specifies the string to decode'
+- '**flags:** - Optional. Specifies how to handle quotes and which document type to use.'
+- **character-set:** These are optional that specify which character-set to use.
 
 ## Example
+Code takes value for $orig. Assign to $a value of $orig using htmlentities(). Decodes it using html_entity_decode() and assigning it to $b. Show values for Both, $a qnd $b.
 ```php
 <?php
 $orig = "dog";
@@ -33,6 +34,7 @@ echo "\n";
 echo $b;
 ?>
 ```
+output
 
 ## Codebyte Example
 
