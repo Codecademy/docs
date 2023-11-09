@@ -32,7 +32,7 @@ Among the HTML elements are the 6 heading elements. They are labeled 1-6, with 1
 
 ## Changing Heading size
 
-HTML Headings have default sizes but these can be changed using the CSS style attribute. Using the font-size property you can customize how big or small headings will appear on the webpage. This is useful if the default size does not fill the available space correctly. 
+HTML Headings have default sizes but these can be changed using the CSS [style attribute](https://www.codecademy.com/resources/docs/html/attributes/style). Using the [font-size](https://www.codecademy.com/resources/docs/css/typography/font-size) property can customize how big or small headings will appear on the webpage. This is useful if the default size does not fill the available space correctly. 
 
 ![Changing Heading size example](https://github.com/OhWilko/docs/blob/html-headings-edit/media/html-heading-resize-example.gif)
 
