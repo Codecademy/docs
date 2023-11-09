@@ -8,22 +8,25 @@ Tags:
 - 'Functions'
 - 'Characters'
 CatalogContent:
-- 'php/concepts/string-functions/terms/html-entity-decode'
+- 'learn-php'
+- 'paths/computer-science'
 ---
-
 
 **'html_entity_decode()'** is the opposite of **'htmlentities()'** in that it converts HTML entities in the string to their corresponding characters.
 
 ## Syntax
+
 ```pseudo
 html_entity_decode(str, flags, character-set)
 ```
-- '**string:** - Required. Specifies the string to decode'
-- '**flags:** - Optional. Specifies how to handle quotes and which document type to use.'
-- **character-set:** These are optional that specify which character-set to use.
+- **string:** - Specifies the string to decode
+- **flags:** - Specifies how to handle quotes and which document type to use.
+- **character-set:** These are optional strings that specify which character-set to use.
 
 ## Example
-Code takes value for $orig. Assign to $a value of $orig using htmlentities(). Decodes it using html_entity_decode() and assigning it to $b. Show values for Both, $a qnd $b.
+
+The below example takes value for `$orig`. Assign to `$a` value of `$orig` using `htmlentities()`. Decodes it using `html_entity_decode()` and assigning it to `$b`. Show values for Both, `$a` and `$b`:
+
 ```php
 <?php
 $orig = "dog";
@@ -34,12 +37,16 @@ echo "\n";
 echo $b;
 ?>
 ```
-output
+The above code give the following output:
+
+```shell
+dog
+dog
+```
 
 ## Codebyte Example
 
 ```codebyte/php
-# Example runnable code block.
 <?php
 $str = "Albert Einstein said: &#039;E=MC&sup2;&#039;";
 echo html_entity_decode($str, ENT_QUOTES); // Converts double and single quotes
