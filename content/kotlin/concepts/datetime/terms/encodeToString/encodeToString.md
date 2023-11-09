@@ -29,24 +29,20 @@ fun <T> encodeToString(serializer: SerializationStrategy<T>, value: T): String
 Here is an example of how to use **`encodeToString()`** to serialize data into a JSON string:
 
 ```kotlin
-// Import the necessary libraries
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 
-// Define a Kotlin data class
 @Serializable
 data class Person(val name: String, val age: Int)
 
 fun main() {
-    // Create an instance of the data class
-    val person = Person("Johnny", 30)
+  val person = Person("Johnny", 30)
 
-    // Serialize the data class to a JSON string using encodeToString()
-    val jsonString = Json.encodeToString(person)
+  // Serialize the data class to a JSON string using encodeToString()
+  val jsonString = Json.encodeToString(person)
 
-    // Print the JSON string
-    println(jsonString)
+  println(jsonString)
 }
 ```
 
