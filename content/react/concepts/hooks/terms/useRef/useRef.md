@@ -60,4 +60,4 @@ In the code example, useRef is used to create the `prevCountRef` reference to st
 
 To store the previous count value in a state variable (using `useState()`), each time the `Increment` button is clicked and the count changes, it would trigger a re-render. Because changing state variables causes components to re-render.
 
-There is no need to re-render the component just to track the previous value; we only need to update the value without causing a re-render. So we use `useRef()` hook
+There is no need to re-render the component just to track the previous value; it's only necessary to update the value without causing a re-render. So the `useRef()` hook is used.
