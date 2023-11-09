@@ -37,7 +37,8 @@ echo "\n";
 echo $b;
 ?>
 ```
-The above code give the following output:
+
+The above example generates the following output:
 
 ```shell
 dog
