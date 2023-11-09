@@ -1,5 +1,5 @@
 ---
-Title: '.html_entity_decode()'
+Title: 'html_entity_decode()'
 Description: 'Converts HTML entities to characters.'
 Subjects: 
 - 'Web Design'
@@ -38,10 +38,12 @@ output
 
 ## Codebyte Example
 
+Converts double and single quotes
+
 ```codebyte/php
 # Example runnable code block.
 <?php
 $str = "Albert Einstein said: &#039;E=MC&sup2;&#039;";
-echo html_entity_decode($str, ENT_QUOTES); // Converts double and single quotes
+echo html_entity_decode($str, ENT_QUOTES); 
 ?>
 ```
