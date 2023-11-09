@@ -1,6 +1,6 @@
 ---
 Title: 'Data Types'
-Description: 'A brief description.'
+Description: 'Luau Data Types represents the type of assigned value to the variable.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -34,17 +34,17 @@ Including with those, Luau has `enum` to represent fixed list of items.
 
 ## Type Annotation
 
-In Luau, we do not need to explicitly define the data type everytime we sign value into a variable or a function. In some cases we just need to define the value type in order to the program can run as expected.
+In `Luau`, the data type does not need to be explicitly defined every time the value is assigned to a variable or a function. In some cases, the value must be strictly defined so the program can run as expected.
 
-We can use `:` after the name of variable we about to create.
+The colon symbol `:` is use after the name of variable that about to create.
 
-Variable:
+**Variable:**
 
 ```luau
 local numerator: number = 18
 ```
 
-Function:
+**Function:**
 
 ```luau
 function divide(numerator: number, denominator: number): number
@@ -54,13 +54,13 @@ end
 
 ## Type Checking
 
-Luau provides type checking for users to have direct feedback when there is any errors related to the data types. There are three modes, which are:
+`Luau` provides type checking for users to have direct feedback when there is any error related to the data types. There are three modes, which can be used:
 
 - `--!nocheck` when no check needed.
 - `--!nonstrict` is used by default, it will check the data type but will not directly point it out.
 - `--!strict` should be used when we need the direct feedback of type checking. It shows the error and which line that need to be changed.
 
-Mode should be placed on top of a couple lines before the program script.
+`Mode` should be placed on top of a couple of lines before the program script.
 
 ```luau
 --!strict
@@ -75,9 +75,9 @@ It need to use `luau-analyze` command.
 luau-analyze starts.luau
 ```
 
-The command will return nothing cause the num variable is having `number` as its value.
+The command will return nothing cause the num variable has `number` as its value.
 
-Otherwise, it will shows like be below if num is changed to `"8"`.
+Otherwise, it will show like below when the num variable is changed to `"8"`:
 
 ```script
 TypeError: Type 'string' could not be converted into 'number'
