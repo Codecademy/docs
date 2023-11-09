@@ -17,7 +17,7 @@ The **`encodeToString()`** function is provided by the Kotlin Serialization libr
 
 ## Syntax
 
-```shell
+```kotlin
 fun <T> encodeToString(serializer: SerializationStrategy<T>, value: T): String
 ```
 
@@ -28,7 +28,7 @@ fun <T> encodeToString(serializer: SerializationStrategy<T>, value: T): String
 
 Here is an example of how to use **`encodeToString()`** to serialize data into a JSON string:
 
-```shell
+```kotlin
 // Import the necessary libraries
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.encodeToString
@@ -47,5 +47,14 @@ fun main() {
 
     // Print the JSON string
     println(jsonString)
+}
+```
+
+This will print the following output:
+
+```shell
+{
+  "name": "Johnny",
+  "age": 30
 }
 ```
