@@ -1,6 +1,6 @@
 ---
-Title: 'useState()'
-Description: 'Create mutable references to elements or values, allowing access to them without causing re-renders.'
+Title: 'ueeRef()'
+Description: 'Creates mutable references to elements or values, allowing access to them without causing re-renders.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -15,9 +15,9 @@ The **`useRef()`** hook in React is used to create mutable references to element
 
 ## Syntax
 
-In the `useRef()` hook, the `initialValue` is an optional parameter that you can provide when creating a new ref object.
+In the `useRef()` hook, the `initialValue` is an optional parameter that can be provided when creating a new ref object.
 
-`initialValue` allows you to initialization of the `.current` property of the ref object with an initial value.
+`initialValue` allows the initialization of the `.current` property of the ref object with an initial value.
 
 This hook can be utilized as follows :
 
@@ -33,7 +33,7 @@ If no `initialValue` is provided, `myRef.current` will be null by default.
 
 ## Example 1
 
-In this example, the `useRef()` hook is used to store the previous value of the count state, allowing you to display the current and previous count values without triggering re-renders.
+In this example, the `useRef()` hook is used to store the previous value of the count state, allowing the display of the current and previous count values without triggering re-renders.
 
 ```jsx
 import React, { useState, useRef, useEffect } from 'react';
