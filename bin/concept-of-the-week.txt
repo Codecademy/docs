@@ -1,1 +1,1 @@
-content/sql/concepts/wildcards/wildcards.md
+content/markdown/concepts/images/images.md

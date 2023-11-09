@@ -40,6 +40,10 @@ h1 {
 }
 ```
 
+The following image demonstrates the code block above:
+
+![border-bottom example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/border-bottom-example1.png)
+
 ## Example 2
 
 Set the bottom border of the `h1` element to be 4 pixels thick, dashed, and blue:
@@ -49,3 +53,7 @@ h1 {
   border-bottom: 4px dashed blue;
 }
 ```
+
+The following image demonstrates the code block above:
+
+![border-bottom example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/border-bottom-example2.png)
