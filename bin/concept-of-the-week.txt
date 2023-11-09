@@ -1,1 +1,1 @@
-content/javascript/concepts/hoisting/hoisting.md
+content/markdown/concepts/images/images.md
