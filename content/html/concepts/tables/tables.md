@@ -20,13 +20,8 @@ Generally, tables are used to display tabular data in particular. In the past, t
 
 ## Example
 
-|      Name      |    Location    |    Category     | Founded |        CEO        |               Info                |
-| :------------: | :------------: | :-------------: | :-----: | :---------------: | :-------------------------------: |
-|   Pied Piper   | Silicon Valley | Cloud Computing |  2014   | Richard Hendricks | A Middle-Out Compression Solution |
-|     Hooli      | Silicon Valley |   Enterprise    |  1997   |   Gavin Bensen    |       Hooli is About People       |
-| Raviga Capital | Silicon Valley | Venture Capital |  2012   |   Peter Gregory   |       Share Only in Success       |
-|     Aviato     | Silicon Valley |     Travel      |  2006   |  Erlich Bachman   |   Software Aggregation Program    |
-|    See Food    | Silicon Valley |     Mobile      |  2016   |     Jian-Yang     |        The Shazam of Food         |
+![image](https://github.com/Moddinu/docs/assets/5288834/1a865d50-a767-4736-8cc4-ff4d68e57615)
+
 
 ## HTML Table Structure
 
@@ -95,11 +90,7 @@ The table data element, denoted as `<td>`, is used to display individual data wi
   </tr>
 </table>
 ```
-
-| Heading 1 | Heading 2 | Heading 3 |
-| :-------: | :-------: | :-------: |
-|  Cell 1   |  Cell 2   |  Cell 3   |
-|  Cell 4   |  Cell 5   |  Cell 6   |
+![image](https://github.com/Moddinu/docs/assets/5288834/2b15a2d2-d047-4426-a3bb-f04cfb137278)
 
 ## Video Walkthrough
 
