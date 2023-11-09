@@ -25,7 +25,7 @@ html_entity_decode(str, flags, character-set)
 
 ## Example
 
-The below example takes value for `$orig`. Assign to `$a` value of `$orig` using `htmlentities()`. Decodes it using `html_entity_decode()` and assigning it to `$b`. Show values for Both, `$a` and `$b`:
+The below example takes value for `$orig` and assigns it to `$a` using `htmlentities()`. Then it decodes it using `html_entity_decode()` and assigns it to `$b`. It then shows values for both `$a` and `$b`:
 
 ```php
 <?php
