@@ -33,7 +33,7 @@ Give the image a brightness of `100%`:
 
 ```css
 .banner-image {
-  filter: brightness(125%);
+  filter: brightness(100%);
 }
 ```
 
