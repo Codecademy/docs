@@ -32,7 +32,7 @@ This example uses the `decoct()` function to convert a decimal to its octal valu
 ?>
 ```
 
-This is the output:
+The above example will result in the following output:
 
 ```shell
 36
