@@ -5,8 +5,8 @@ Subjects:
   - 'Data Visualization'
   - 'Data Science'
 Tags:
-  - 'D3'
-  - 'functions'
+  - 'Methods'
+  - 'Data'
 CatalogContent:
   - 'learn-d3'
   - 'paths/computer-science'
