@@ -2,8 +2,8 @@
 Title: '.domain()'
 Description: 'denotes minimum and maximum values of the input data'
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - 'Data Visualization'
+  - 'Data Science'
 Tags:
   - 'D3'
   - 'functions'
