@@ -11,7 +11,6 @@ Tags:
 CatalogContent:
   - 'learn-css'
   - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
 ---
 
 Defines the brightness or darkness of an element.
@@ -27,7 +26,9 @@ where a required `<value>` can be one of the following:
 - Number value: `0`, `1.4`
 - Percentage value: `100%`, `50%`
 
-## Example 1
+## Example
+
+The example below applies the brightness filter to the Codecademy banner icon image.
 
 ```css
 .banner-image {
@@ -37,4 +38,4 @@ where a required `<value>` can be one of the following:
 
 ![CSS brightness filter example](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-filterfunctions-brightness-example.png)
 
-Here, the image to the left is the original image and the one to the right is the same image with `brightness(150%)`.
+Here, the original image is on the left and the image on the right has the filter set at `brightness(150%)`.
