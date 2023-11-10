@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.domain()`** method is associated with scale functions in `D3.js`. This method is used to specify the input domain of a scale, which defines the range of values that the scale should map from. In other words, it sets the minimum and maximum values that the scale will accept as input.
+The **`.domain()`** method in D3 is used to specify the input domain of a scale, which defines the range of values that the scale will accept. A scale operates as a function that takes in one set of values and translates those values to a given range. 
 
 ## Syntax
 
