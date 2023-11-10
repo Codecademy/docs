@@ -33,7 +33,7 @@ fn main() {
 }
 ```
 
-**The example will result in the following output:**
+The example will result in the following output:
 
 ```shell
 Slice: [2, 3, 4]
@@ -45,6 +45,8 @@ Slices in Rust provide a convenient way to omit start and end indexes, allowing 
 
 ### Excluding the Start Index of a Slice
 
+This example illustrates how to create a slice from the start of the array to index 3 (excluding the element at index 3).
+
 ```rust
 fn main() {
     let my_arr = [1, 2, 3, 4, 5];
@@ -53,15 +55,15 @@ fn main() {
 }
 ```
 
-**The example will result in the following output:**
+The example will result in the following output:
 
 ```shell
 Slice without start index: [1, 2, 3]
 ```
 
-This example illustrates how to create a slice from the start of the array to index 3 (excluding the element at index 3).
-
 ### Excluding the End Index of a Slice
+
+This Example demonstrates how to create a slice from index 2 to the end of the array.
 
 ```rust
 fn main() {
@@ -71,13 +73,11 @@ fn main() {
 }
 ```
 
-**The example will result in the following output:**
+The example will result in the following output:
 
 ```shell
 Slice without end index: [3, 4, 5]
 ```
-
-This Example demonstrates how to create a slice from index 2 to the end of the array.
 
 ### Excluding both Start and End Index of a Slice
 
@@ -91,7 +91,7 @@ fn main() {
 }
 ```
 
-**The example will result in the following output:**
+The example will result in the following output:
 
 ```shell
 Complete slice: [1, 2, 3, 4, 5]
@@ -119,7 +119,7 @@ fn main() {
 }
 ```
 
-**The example will result in the following output:**
+The example will result in the following output:
 
 ```shell
 Modified Slice: [2, 10, 4]
