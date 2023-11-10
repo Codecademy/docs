@@ -20,28 +20,26 @@ The **anatomy** or structure of a D3 chart is built through the use of a range o
 In broad strokes, a chart definition will often take the following form:
 
 ```pseudo
-chart = {
-  const marginTop = val;          // The top of the definition is generally
-  const marginRight = val;        // used to set values such as margins,
-  ...                             // chart dimensions, and scales
+const marginTop = val;          // The top of the definition is generally
+const marginRight = val;        // used to set values such as margins,
+...                             // chart dimensions, and scales
 
-  const svg = d3.create("svg")    // An svg container is declared and attributes
-    .attr("viewbox", [0,0, w, h]) // are added to specify the base parameters
+const svg = d3.create("svg")    // An svg container is declared and attributes
+  .attr("viewbox", [0,0, w, h]) // are added to specify the base parameters
+  ...
+
+svg.append("g")                 // Additional sections are chained to add data
+  .selectAll("element")         // as well as more peripheral elements
+  .data(source)                 // that may include text and interactivity
+  .join("element")
+    .attr("x", d => d / 2)
     ...
 
-  svg.append("g")                 // Additional sections are chained to add data
-    .selectAll("element")         // as well as more peripheral elements
-    .data(source)                 // that may include text and interactivity
-    .join("element")
-      .attr("x", d => d / 2)
-      ...
-
-  return svg.node()               // Output of the final chart object
-}
+container.append(svg.node())     // Append the final chart object
 ```
 
-Inside the curly braces (`{}`) a definition will typically begin with declarations for all of the base parameters, which includes the margins and dimensions of the chart. Next, an svg "container" is declared and assigned the arguments declared in the previous section.
+Traditionally, a chart definition will be set within a `<script>` tag in an HTML document. By convention the first declarations describe all of the base parameters, which includes the margins and dimensions of the chart. Next, an svg "container" is declared and assigned the arguments defined in the previous section.
 
 Each block that follows are functions that serve to create some aspect of the chart by operating on data and applying properties specified through attributes (`.attr()`).
 
-At the end of the definition a `return` call delivers the graphic result of the processing completed.
+At the end of the definition an `.append()` call adds the graphic result of the processing to a `<div>`, which is often named "container".

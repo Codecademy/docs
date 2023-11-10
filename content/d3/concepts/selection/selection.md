@@ -37,26 +37,23 @@ A scatterplot is one of the simplest charts, it is a representation of data in 2
 For this example, the data will consist of 50 points generated with the aid of the JavaScript `Math.random()` method. The set is constructed as follows:
 
 ```js
-Points = {
-  let dataset = [];
-  let totalPoints = 50;
-  let rangeX = Math.random() * 500;
-  let rangeY = Math.random() * 500;
+let dataset = [];
+let totalPoints = 50;
+let rangeX = Math.random() * 500;
+let rangeY = Math.random() * 500;
 
-  for (let i = 0; i < totalPoints; i++) {
-    let newX = Math.floor(Math.random() * rangeX);
-    let newY = Math.floor(Math.random() * rangeY);
+for (let i = 0; i < totalPoints; i++) {
+  let newX = Math.floor(Math.random() * rangeX);
+  let newY = Math.floor(Math.random() * rangeY);
   dataset.push([newX, newY]);
-  }
-  return dataset
 }
 ```
 
-The dataset `Points` is incorporated into the D3 chart definition using the pattern highlighted above:
+The dataset constructed above is incorporated into the D3 chart definition using the pattern highlighted above:
 
 ```js
 svg.selectAll("circle")          // The circles that will represent each pt are declared
-   .data(Points)                 // Points dataset is called
+   .data(dataset)                 // Calling the dataset
    .join("circle") .             // The circle that will match with each data pt is
      .attr("cx", d => x(d[0]))   // added and defined
      .attr("cy", d => y(d[1]))
@@ -75,49 +72,53 @@ In this selection the `.selectAll()` method is chained to the `svg` container, a
 The entire chart definition is described by the following code:
 
 ```js
-chart = {
-  const marginTop = 20;
-  const marginRight = 20;
-  const marginBottom = 30;
-  const marginLeft = 40;
-  const width = 900;
-  const height = 400;
-  const svg = d3.create("svg")
-      .attr("viewBox", [0, 0, width, height])
-      .attr("width", width)
-      .attr("height", height)
-      .attr("style", "max-width: 100%; height: auto;");
+const marginTop = 20;
+const marginRight = 20;
+const marginBottom = 30;
+const marginLeft = 40;
+const width = 900;
+const height = 400;
+const svg = d3
+  .create('svg')
+  .attr('viewBox', [0, 0, width, height])
+  .attr('width', width)
+  .attr('height', height)
+  .attr('style', 'max-width: 100%; height: auto;');
 
-  const x = d3.scaleLinear()
-      .domain([0, 500])
-      .range([marginLeft, width - marginRight]);
+const x = d3
+  .scaleLinear()
+  .domain([0, 500])
+  .range([marginLeft, width - marginRight]);
 
-  const y = d3.scaleLinear()
-      .domain([0, 500])
-      .range([height - marginBottom, marginTop]);
+const y = d3
+  .scaleLinear()
+  .domain([0, 500])
+  .range([height - marginBottom, marginTop]);
 
- svg.selectAll("circle")
-    .data(Points) //d3.range(18)
-    .join("circle")
-      .attr("cx", d => x(d[0]))
-      .attr("cy", d => y(d[1]))
-      .attr("r", d => Math.random(1,10) * 30)
-      .attr("fill", "#f5b042")
-      .attr("opacity", .5);
+svg
+  .selectAll('circle')
+  .data(dataset)
+  .join('circle')
+  .attr('cx', (d) => x(d[0]))
+  .attr('cy', (d) => y(d[1]))
+  .attr('r', (d) => Math.random(1, 10) * 30)
+  .attr('fill', '#f5b042')
+  .attr('opacity', 0.5);
 
-  svg.append("g")
-      .attr("transform", `translate(0,${height - marginBottom})`)
-      .call(d3.axisBottom(x));
+svg
+  .append('g')
+  .attr('transform', `translate(0,${height - marginBottom})`)
+  .call(d3.axisBottom(x));
 
-  svg.append("g")
-      .attr("transform", `translate(${marginLeft},0)`)
-      .call(d3.axisLeft(y));
+svg
+  .append('g')
+  .attr('transform', `translate(${marginLeft},0)`)
+  .call(d3.axisLeft(y));
 
-  return svg.node();
-}
+container.append(svg.node());
 ```
 
-> **Note:** The code above can be used within an Observable notebook as is to generate a chart similar to the one seen below. Typically, a single-line of code, a function, or other defined entity is allocated per cell. For example, the dataset and chart definition above can be copied and pasted into adjacent cells.
+> **Note:** For details on how to implement a D3 chart see the [Observable](https://www.codecademy.com/resources/docs/d3/observable).
 
 The resulting chart will look similar to:
-[d3-scatterplot-img](<(https://raw.githubusercontent.com/Codecademy/docs/main/media/d3-scatterplot-example.png)>)
+![d3 scatterplot image](https://raw.githubusercontent.com/Codecademy/docs/main/media/d3-scatterplot-example.png)
