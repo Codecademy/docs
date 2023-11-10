@@ -17,8 +17,9 @@ The **`.domain()`** method in D3 is used to specify the input domain of a scale,
 ## Syntax
 
 ```pseudo
-d3.scaleLinear().domain([minValue, maxValue]).range([minOutput, maxOutput]);
-
+d3.scaleType()
+    .domain([minValue, maxValue])
+    .range([minOutput, maxOutput]);
 ```
 
 - `scaleLinear`: Construct a continuous linear scale where input data (domain) maps to specified output range.
