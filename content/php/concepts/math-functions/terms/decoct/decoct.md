@@ -44,7 +44,7 @@ The following Codebyte example can be run and calls the `decoct()` method two ti
 
 ```codebyte/php
 <?php
-  echo decoct("4294967295");
+  echo decoct("4294967295"), "\n";
   echo decoct("1587");
 ?>
 ```
