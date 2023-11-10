@@ -8,7 +8,7 @@ Tags:
   - 'Methods'
   - 'Data'
 CatalogContent:
-  - 'learn-d3'
+  - 'introduction-to-javascript'
   - 'paths/computer-science'
 ---
 
