@@ -1,6 +1,6 @@
 ---
 Title: '.domain()'
-Description: 'denotes minimum and maximum values of the input data'
+Description: 'Used to specify the minimum and maximum values of the input data.'
 Subjects:
   - 'Data Visualization'
   - 'Data Science'
