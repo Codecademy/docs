@@ -22,7 +22,7 @@ d3.scaleType()
     .range([minOutput, maxOutput]);
 ```
 
-- `scaleLinear`: Construct a continuous linear scale where input data (domain) maps to specified output range.
+- `.scaleType()`: The selected scale method (e.g., `.scaleLinear()` a continuous linear scale).
 - `range`: Output range that are mapped from input values.
 
 ## Example
