@@ -29,14 +29,12 @@ where a required `<value>` can be one of the following:
 
 ## Example 1
 
-Give the image a brightness of `100%`:
-
 ```css
 .banner-image {
-  filter: brightness(100%);
+  filter: brightness(150%);
 }
 ```
 
 ![CSS brightness filter example](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-filterfunctions-brightness-example.png)
 
-Here, the image to the left is the original image and the one to the right is the same image with `brightness(100%)`.
+Here, the image to the left is the original image and the one to the right is the same image with `brightness(150%)`.
