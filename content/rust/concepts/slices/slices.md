@@ -20,7 +20,6 @@ The syntax for a slice in Rust is represented as `&[T]`, where `T` is the elemen
 ```pseudo
  let my_slice = &data_structure[start_index..end_index];
 ```
-
 Where `data_structure` refers to the chosen data structure, `start_index` denotes the starting point, and `end_index` represents one past the last element of the slice. This syntax is applicable to diverse data structures, enabling the creation of slices from different collections.
 
 ## Example
