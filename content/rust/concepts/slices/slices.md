@@ -108,6 +108,8 @@ let slice = &mut data_structure[start_index..end_index];
 
 ### Example
 
+The following example demonstrates how to modify an element in a mutable slice. In this case, the second element of the slice is changed from 3 to 10.
+
 ```rust
 fn main() {
     let mut my_vec = vec![1, 2, 3, 4, 5];
