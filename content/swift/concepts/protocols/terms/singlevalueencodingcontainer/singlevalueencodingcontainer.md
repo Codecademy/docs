@@ -1,6 +1,6 @@
 ---
 Title: 'SingleValueEncodingContainer'
-Description: 'A container that supports the storage and direct encoding of a single non-keyed value.'
+Description: 'Supports the storage and direct encoding of a single non-keyed value.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
