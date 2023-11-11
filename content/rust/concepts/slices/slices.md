@@ -124,6 +124,5 @@ The example will result in the following output:
 Modified Slice: [2, 10, 4]
 ```
 
-This example demonstrates how to modify an element in a mutable slice. In this case, the second element of the slice is changed from 3 to 10.
 
 > **Note**: Slices are often used in Rust for tasks like substring extraction, working with subarrays, and allowing multiple parts of a data structure to be manipulated separately without copying the entire data. They offer a flexible and memory-efficient way to handle data subsets.
