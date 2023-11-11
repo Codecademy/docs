@@ -37,8 +37,10 @@ echo "\n";
 echo $b;
 ?>
 ```
+## Output
 
 The above example generates the following output:
+
 
 ```shell
 dog
