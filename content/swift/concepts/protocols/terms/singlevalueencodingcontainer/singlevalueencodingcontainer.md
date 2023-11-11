@@ -48,7 +48,7 @@ struct SingleInteger: Encodable {
 let intValue = SingleInteger(value: 42)
 let encoder = JSONEncoder()
 let jsonData = try? encoder.encode(intValue)
-let jsonString = String(data: jsonData, encoding: .utf8)!
+let jsonString = String(data: jsonData!, encoding: .utf8)!
 print(jsonString)
 ```
 
