@@ -126,5 +126,4 @@ The example will result in the following output:
 Modified Slice: [2, 10, 4]
 ```
 
-
 > **Note**: Slices are often used in Rust for tasks like substring extraction, working with subarrays, and allowing multiple parts of a data structure to be manipulated separately without copying the entire data. They offer a flexible and memory-efficient way to handle data subsets.
