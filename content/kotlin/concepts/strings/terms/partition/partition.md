@@ -23,11 +23,12 @@ A predicate takes an argument and returns a boolean `true` or `false`. If `true`
 xString.partition(xPredicate)
 ```
 
-Where `xString` supplies the string to be partitioned by the predicate `xPredicate`.
+- **`xString`**: Supplies the string to be partitioned.
+- **`xPredicate`**: Supplies the predicate that partitions the value of `xString`.
 
 ## Example
 
-The following example uses the character method `.isUpperCase()` to partition a string into uppercase letter characters and other characters:
+The following example uses the character method `.isUpperCase()` as the predicate within `.partition()` to partition a string into uppercase letter characters and other characters:
 
 ```kotlin
 fun main () {
@@ -36,7 +37,7 @@ fun main () {
 }
 ```
 
-This outputs:
+The above example results in the following output:
 
 ```shell
 (AC, bd12/)
