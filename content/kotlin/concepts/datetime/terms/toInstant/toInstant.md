@@ -12,9 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-
 **toInstant** converts a string representing an instant in ISO-8601 format including date and time components and the time zone offset to an Instant value.
-
 
 ## Syntax
 
