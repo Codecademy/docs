@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**Confirmation bias** is the tendency for researchers to interpret data in a way that supports their opinions and beliefs. Researchers know the study’s goal, so they might make connections that aren’t explicit in the data set based on their opinions, beliefs, or expectations on how that goal should be met.
+**Confirmation bias** is the tendency for researchers to interpret data in a way that supports their opinions and beliefs. Researchers know the study’s goal, so they might make connections that aren’t explicit in the data set based on their opinions, beliefs, or expectations.
 
 ## Example
 
