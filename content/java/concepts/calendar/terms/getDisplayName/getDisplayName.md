@@ -1,14 +1,14 @@
 ---
-Title: '.getDisplayName()' 
-Description: 'Returns the string representation (display name) of the calendar field value in the given style and locale. If no string representation is applicable, null is returned.' 
-Subjects: 
+Title: '.getDisplayName()'
+Description: 'Returns the string representation (display name) of the calendar field value in the given style and locale. If no string representation is applicable, null is returned.'
+Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-Tags: 
+Tags:
   - 'Date'
   - 'Methods'
   - 'Calendar'
-CatalogContent: 
+CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
 ---
@@ -49,7 +49,7 @@ public class GetDisplayName {
 }
 ```
 
- The output for the code above:
+The output for the code above:
 
 ```shell
 Oct
