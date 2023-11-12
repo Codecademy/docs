@@ -243,7 +243,7 @@ console.log(str.replace(re, 'x'));
 
 re = /[olu]{2}/gi;
 console.log(str.replace(re, 'x'));
-// Output: Bixy bxght a bushel of bxe baxons.
+// Output: Bixy bxght a bushel of bxe baxxns.
 
 re = /l\w*/gi;
 console.log(str.replace(re, 'x'));
