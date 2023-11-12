@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**Response bias** is the tendency to consciously or subconsciously provide inaccurate information due to the nature of self-reporting. If the research study relies on self-reported data, it's important to keep in mind the limitations that come with it. For reasons that don't pertain to the design, the user response may be inaccurate or misleading. A user may misremember information, leave out details that would be important, or change their responses to portray a certain self-image.
+**Response bias** is the participant's tendency to consciously or subconsciously provide inaccurate information. This is observed when a research study relies on self-reported data, so it's important to keep in mind the limitations that come with it. For reasons that don't pertain to the design, the user response may be inaccurate or misleading. A user may misremember information, leave out details that would be important, or change their responses to portray a certain self-image.
 
 ## Example
 
