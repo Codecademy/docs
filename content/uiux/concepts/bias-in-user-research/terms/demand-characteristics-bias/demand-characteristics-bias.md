@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**Demand characteristics bias** is a change in how a user answers questions due to the knowledge that they are part of a research study. If the user knows, or thinks they know, the objective of a study, this could influence their responses and behaviors.
+**Demand characteristics bias** changes how a user answers questions due to knowledge about the research study. If the user knows, or thinks they know, the study's objective, it could influence their responses and behaviors.
 
 ## Example
 
