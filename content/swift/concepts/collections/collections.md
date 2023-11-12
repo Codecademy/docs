@@ -12,16 +12,16 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-**Collections** are fundamental data structures in Swift for organizing, managing, and manipulating multiple elements. Collections' structured and efficient nature makes them essential tools for both user interface development and general programming tasks. The most common types of collections in Swift include:
+**Collections** are fundamental data structures in Swift for organizing, managing, and manipulating multiple elements. Collections' structured and efficient nature makes them essential tools for user interface development and general programming tasks. The most common types of collections in Swift include:
 
-- [Arrays](https://www.codecademy.com/resources/docs/swift/arrays),
-- [Dictionaries](https://www.codecademy.com/resources/docs/swift/dictionaries),
-- [Sets](https://www.codecademy.com/resources/docs/swift/sets),
+- [Arrays](https://www.codecademy.com/resources/docs/swift/arrays)
+- [Dictionaries](https://www.codecademy.com/resources/docs/swift/dictionaries)
+- [Sets](https://www.codecademy.com/resources/docs/swift/sets)
 - [Tuples](https://www.codecademy.com/resources/docs/swift/tuples)
 
 ## Syntax
 
-Collections are created by declaring variables with specifying the its type and elements in it:
+Collections are created by declaring variables and specifying the type and elements:
 
 ```pseudo
 var collectionName: CollectionType = collectionElements
@@ -29,7 +29,7 @@ var collectionName: CollectionType = collectionElements
 
 - `var` is a keyword used to declare a [variable](https://www.codecademy.com/resources/docs/swift/variables) in Swift.
 - `collectionName` is the name of the collection.
-- `collectionType` specifies the  type the collection and the [data type](https://www.codecademy.com/resources/docs/swift/data-types) of the elements in it. For instance, an array of integers can store a list of numbers, a dictionary of strings and integers can hold names with corresponding ages, or a set of unique URL values can keep track of visited websites. The choice of data type depends on the specific nature of the data to store and manage. Here are some common used `collectionType`s:
+- `collectionType` specifies the type of the collection and the [data type](https://www.codecademy.com/resources/docs/swift/data-types) of the elements in it. For instance, an array of integers can store a list of numbers, a dictionary of strings and integers can hold names with corresponding ages, or a set of unique URL values can keep track of visited websites. The choice of data type depends on the specific nature of the data to store and manage. Here are some commonly used `collectionType`s:
 
   | `collectionType` | Result                                                       |
   |------------------|--------------------------------------------------------------|
@@ -48,26 +48,26 @@ Swift provides a wide range of collections for different applications. The compl
 |-----------------|-------------|-------------------------------------------------------|
 | Array           | Fundamental | Ordered collection of elements of the same data type. |
 | Dictionary      | Fundamental | Unordered collection of key-value pairs.              |
-| Linked List     | Fundamental | Linear data structure consisting of a sequence of nodes, each of which contains a value and a pointer to the next node in the list. |
-| Queue           | Fundamental | First-in-first-out data structure that allows the addition and removal of the elements in a specific order. |
+| Linked List     | Fundamental | Linear data structure consists of a sequence of nodes, each containing a value and a pointer to the next node in the list. |
+| Queue           | Fundamental | First-in-first-out data structure that allows adding and removing the elements in a specific order.  |
 | Range           | Specialized | Contiguous sequence of elements in a collection.      |
 | Set             | Fundamental | Unordered collection of unique elements.              |
-| Stack           | Fundamental | Last-in-first-out data structure that allows developers to add and remove elements in the reverse order of which they were added. |
+| Stack           | Fundamental | Last-in-first-out data structure allows developers to add and remove elements in the reverse order in which they were added. |
 | Slice           | Specialized | Mutable sequence of elements in a collection.         |
 | Tree            | Fundamental | Hierarchical data structure consisting of a root node and a collection of child nodes. |
-| Tuple           | Fundamental | Fixed-size collection of elements of possibly different data types. |
-| Lazy Collection | Specialized | Collection that is not evaluated until it is needed.  |
-| Collection View | Specialized | Specialized view that is used to display collections in user interfaces. |
+| Tuple           | Fundamental | Fixed-size collections that can hold elements of different data types. |
+| Lazy Collection | Specialized | Collection that is not evaluated until needed.  |
+| Collection View | Specialized | Specialized view that displays collections in user interfaces. |
 
 ## Working with Collections in Swift
 
-Depending on the type of the collection, different operations are available in Swift to use collections. The most common used operations on collections are:
+Depending on the type of the collection, different operations are available in Swift to use collections. The most commonly used operations on collections are:
 
 - Accessing elements of a collection
 - Modifying elements of a collection
-- Iterating over a collection.
+- Iterating over the elements of a collection
 
-As the type of collection varies a lot, the possible operations also differs and not all operation are possible for every collection. The table below shows the possible actions for the most commonly used collections:
+While some collections share common features, they possess distinct characteristics, resulting in a wide range of available operations that can vary significantly. The table below shows the possible actions for the most commonly used collections:
 
 | Collection                              | Array | Dictionary | Set | Tuple |
 |-----------------------------------------|-------|------------|-----|-------|
@@ -85,19 +85,19 @@ As the type of collection varies a lot, the possible operations also differs and
 
 ## Performance of Collections
 
-The performance of collections in Swift depends on a number of factors, including the type of collection, the size of the collection, and the operations that are being performed on the collection, the way of implementation and if the compiler optimizations are enabled. The table below shows the difference in performance of the most common used collections:
+The performance or efficiency of collections in Swift depends on several factors, including the type of collection, the collection size, the operations being performed on the collection, the way of implementation and the compiler optimizations that are enabled. Higher performance implies that certain operations are faster and consume fewer resources, making them suitable for specific use cases. Lower performance indicates that some operations may be slower or resource-intensive in comparison. The table below shows the difference in performance of the most commonly used collections:
 
 | Collection | Higher Performance | Lower Performance |
 |------------|--------------------|-------------------|
 | Array      | Random access: arrays store their elements in contiguous memory, which makes it easy to access any element in the array in constant time. |  Inserting and deleting elements: this can require shifting the elements of the array in memory. |
-| Dictionary |  Searching for elements: they use a hash table to store their key-value pairs. | Random access: it can take some time to find the key-value pair for a given key. |
-| Set        | Checking for membership and finding intersections, difference and unions of sets: they  store unique elements in an unordered way. | Random access: elements are not stored in a contiguous memory location, so to access a specific element in a set, the entire set must be searched. |
+| Dictionary |  Searching for elements: they store their key-value pairs using a hash table. | Random access: finding the key-value pair for a given key can take some time. |
+| Set        | Check for membership and find intersections, differences, and unions of sets: they store unique elements unordered. | Random access: elements are not stored in a contiguous memory location, so the entire set must be searched to access a specific element in a set. |
 
 ## Benefits of Using Collections
 
 Collections are fundamental data structures in Swift that provide various benefits, such as:
 
-- Organization and Management: Collections provide a structured way to organize and manage multiple data items, making them easier to access, iterate over, and manipulate.
+- Organization and Management: Collections provide a structured way to organize and manage multiple data items, making them easier to access, iterate, and manipulate.
 - Efficient Data Handling: Collections are optimized for efficient data handling, making them suitable for storing and managing large amounts of data.
 - Declarative Syntax: Swift's declarative syntax simplifies the creation and management of collections. This declarative approach reduces boilerplate code and improves code readability.
 - Algorithm Support: Swift provides a rich collection of algorithms for manipulating collections, such as searching, sorting, and filtering.
@@ -107,7 +107,7 @@ Collections are fundamental data structures in Swift that provide various benefi
 
 ## Example
 
-The following example initializes the `colors` array with four color names. Then, it showcases how to access elements by index. Afterwards, it adds a new element to the `colors` array using the `append` method. Then, the example demonstrates removing an element from the array with the `remove` method. Finally, the example demonstrates how to iterate through the `colors` array using a `for-in` loop and prints each color individually.
+The following example initializes the `colors` array with four color names. Then, it showcases how to access elements by index. Afterwards, using the `append` method adds a new element to the `colors` array. Then, the example demonstrates removing an element from the array with the `remove` method. Finally, the example shows how to iterate through the `colors` array using a `for-in` loop and prints each color individually.
 
 ```swift
 // Define an array of strings
