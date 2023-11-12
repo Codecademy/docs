@@ -49,7 +49,7 @@ dog
 
 ## Codebyte Example
 
-Converts double and single quotes
+This example converts double and single quotes:
 
 ```codebyte/php
 <?php
