@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.log()`** function in Lua's math library calculates the natural logarithm of a given number. The natural logarithm is to the base `e`, where `e` is Euler's number, an irrational constant approximately equal to `2.71828`.
+The **`.log()`** function in Lua's math library calculates the natural logarithmic value of a given number. The natural logarithm is to the base `e`, where `e` is Euler's number, an irrational constant approximately equal to `2.71828`.
 
 ## Syntax
 
