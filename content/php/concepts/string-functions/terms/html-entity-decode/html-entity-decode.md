@@ -1,15 +1,15 @@
 ---
 Title: 'html_entity_decode()'
 Description: 'Converts HTML entities to characters.'
-Subjects: 
-- 'Web Design'
-- 'Web Development'
+Subjects:
+  - 'Web Design'
+  - 'Web Development'
 Tags:
-- 'Functions'
-- 'Characters'
+  - 'Functions'
+  - 'Characters'
 CatalogContent:
-- 'learn-php'
-- 'paths/computer-science'
+  - 'learn-php'
+  - 'paths/computer-science'
 ---
 
 **'html_entity_decode()'** is the opposite of [**'htmlentities()'**](https://www.codecademy.com/resources/docs/php/string-functions/htmlentities) in that it converts HTML entities in the string to their corresponding characters.
@@ -19,6 +19,7 @@ CatalogContent:
 ```pseudo
 html_entity_decode(str, flags, character-set)
 ```
+
 - **string:** - Specifies the string to decode
 - **flags:** - Specifies how to handle quotes and which document type to use.
 - **character-set:** These are optional strings that specify which character-set to use.
@@ -37,10 +38,10 @@ echo "\n";
 echo $b;
 ?>
 ```
+
 ## Output
 
 The above example generates the following output:
-
 
 ```shell
 dog
@@ -54,6 +55,6 @@ This example converts double and single quotes:
 ```codebyte/php
 <?php
 $str = "Albert Einstein said: &#039;E=MC&sup2;&#039;";
-echo html_entity_decode($str, ENT_QUOTES); 
+echo html_entity_decode($str, ENT_QUOTES);
 ?>
 ```
