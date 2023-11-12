@@ -1,5 +1,5 @@
 ---
-Title: 'Interview Bias'
+Title: 'Interviewer Bias'
 Description: 'Bias due to the way a participant percieves the interviewer.'
 Subjects:
   - 'Web Design'
@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**Interview bias** refers to bias due to a participant's perception of the interviewer. This may be due to a user's own biased perception of an interviewer's ethnicity, age, gender, or physical appearance &mdash; or even details like body language or facial expressions. Interview bias can be difficult to avoid, so it is just important to keep in mind when evaluating the data.
+**Interviewer bias** refers to bias due to a participant's perception of the interviewer. This may be due to a user's own biased perception of an interviewer's ethnicity, age, gender, or physical appearance &mdash; or even details like body language or facial expressions. Interview bias can be difficult to avoid, so it is just important to keep in mind when evaluating the data.
 
 ## Example
 
