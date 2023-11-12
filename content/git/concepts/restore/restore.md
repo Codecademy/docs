@@ -21,6 +21,7 @@ The syntax of the `git restore` command is as follows:
 ```pseudo
 git restore <options> -- <file>
 ```
+
 There are nine additional options for `git restore`:
 
 - `-s <tree> --source=<tree>`: This option allows you to restore the working tree files with the content from the given tree.
