@@ -26,7 +26,7 @@ println(string.dropLast())
 
 ## Example
 
-The example below creates a string, `string`, then uses the `.dropLast()` method to return astring with the last character and a string the last five characters removed.
+The example below creates a string, `string`, then uses the `.dropLast()` method to return a string with the last five characters removed.
 
 ```kotlin
 import java.util.Locale
