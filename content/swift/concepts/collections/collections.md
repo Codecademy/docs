@@ -1,6 +1,6 @@
 ---
 Title: 'Collections'
-Description: 'Collections represent data structures to organize, manage, and present elements in a structured and adaptable way.'
+Description: 'Collections are data structures for organizing, managing, and manipulating multiple elements.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
@@ -12,80 +12,86 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-**Collections** in Swift represent data structures used to organize, manage, and present multiple elements in a structured and adaptable manner within the app's user interface. Swift provides various collection views for efficiently displaying and managing collections of data. These include:
+**Collections** are fundamental data structures in Swift for organizing, managing, and manipulating multiple elements. Collections' structured and efficient nature makes them essential tools for both user interface development and general programming tasks. The most common types of collections in Swift include:
 
 - [Arrays](https://www.codecademy.com/resources/docs/swift/arrays),
 - [Dictionaries](https://www.codecademy.com/resources/docs/swift/dictionaries),
-- List,
 - [Sets](https://www.codecademy.com/resources/docs/swift/sets),
-- [Tupils](https://www.codecademy.com/resources/docs/swift/tuples)
+- [Tuples](https://www.codecademy.com/resources/docs/swift/tuples)
 
 ## Syntax
 
-Collections are created by declaring variables with specific types:
+Collections are created by declaring variables with specifying the its type and elements in it:
 
 ```pseudo
-@State var myCollection: DataType = InitialData
+var collectionName: CollectionType = collectionElements
 ```
 
-- `@State` is an optional property wrapper to create a state variable. State variables are used to store and manage the state of a Swift view, ensuring that it can be updated and reflected in the user interface. If a collection doesn't need to change during the view's lifecycle, it can be declared as a constant within the view.
-- `var` is a keyword used to declare a variable.
-- `myCollection` is the name of the variable.
-- `DataType` specifies the data type of the variable, which can be any valid datatype, including strings, arrays, numbers, and even more complex data structures or custom data types. This table contains the data types in SiftUI:
+- `var` is a keyword used to declare a [variable](https://www.codecademy.com/resources/docs/swift/variables) in Swift.
+- `collectionName` is the name of the collection.
+- `collectionType` specifies the  type the collection and the [data type](https://www.codecademy.com/resources/docs/swift/data-types) of the elements in it. For instance, an array of integers can store a list of numbers, a dictionary of strings and integers can hold names with corresponding ages, or a set of unique URL values can keep track of visited websites. The choice of data type depends on the specific nature of the data to store and manage. Here are some common used `collectionType`s:
 
-  | Data Types in Swift | Description                                          |
-  |-----------------------|------------------------------------------------------|
-  | `Int`                 | An integer number.                                   |
-  | `String`              | A sequence of characters.                            |
-  | `Double`              | A double-precision floating-point number.            |
-  | `Float`               | A single-precision floating-point number.            |
-  | `Bool`                | A boolean value, which can be either true or false.  |
-  | `Date`                | A specific point in time.                            |
-  | `URL`                 | A reference to a resource on the internet.           |
-  | `Enumerated`          | A pair of an index and a value.                      |
-  | `Optional`            | A value that may or may not exist.                   |
-  | `Any`                 | Any Swift type, allowing for dynamic type resolution.|
-  | `Never`               | A value that never occurs.                           |
+  | `collectionType` | Result                                                       |
+  |------------------|--------------------------------------------------------------|
+  | `[Int]`          | An array of integers.                                        |
+  | `Set<String>`    | A set of strings.                                            |
+  | `[String: Int]`  | A dictionary where keys are strings and values are integers. |
+  | `(Int, String)`  | A tuple that stores an integer and a string.                 |
 
-    These data types can be used in various ways to create different types of collections. For instance, an array of integers can store a list of numbers, a dictionary of strings and integers can hold names with corresponding ages, or a set of unique URL values can keep track of visited websites. The choice of data type depends on the specific nature of the data to store and manage. Here are the most common used `DataTypes`:
+- `collectionElements` is an initializer that specifies the elements in the collection.
 
-  | `DataType`         | Result                                                          |
-  |--------------------|-----------------------------------------------------------------|
-  | `[Int]`            | Represents an array of integers.                                |
-  | `[String]`         | Represents an array of strings.                                 |
-  | `[Double]`         | Represents an array of double-precision floating-point numbers. |
-  | `[String: Int]`    | Represents a dictionary where keys are strings and values are integers. |
-  | `[String: String]` | Represents a dictionary where both keys and values are strings. |
+## Types of Collections
 
-- `InitialData` is the initial value of the defined collection.
+Swift provides a wide range of collections for different applications. The complete list of the types of collections are listed in the table below:
 
-## Accessing Elements in Collections
+| Name            | Type        | Definition |
+|-----------------|-------------|-------------------------------------------------------|
+| Array           | Fundamental | Ordered collection of elements of the same data type. |
+| Dictionary      | Fundamental | Unordered collection of key-value pairs.              |
+| Linked List     | Fundamental | Linear data structure consisting of a sequence of nodes, each of which contains a value and a pointer to the next node in the list. |
+| Queue           | Fundamental | First-in-first-out data structure that allows the addition and removal of the elements in a specific order. |
+| Range           | Specialized | Contiguous sequence of elements in a collection.      |
+| Set             | Fundamental | Unordered collection of unique elements.              |
+| Stack           | Fundamental | Last-in-first-out data structure that allows developers to add and remove elements in the reverse order of which they were added. |
+| Slice           | Specialized | Mutable sequence of elements in a collection.         |
+| Tree            | Fundamental | Hierarchical data structure consisting of a root node and a collection of child nodes. |
+| Tuple           | Fundamental | Fixed-size collection of elements of possibly different data types. |
+| Lazy Collection | Specialized | Collection that is not evaluated until it is needed.  |
+| Collection View | Specialized | Specialized view that is used to display collections in user interfaces. |
 
-## Accessing Slices of Collections
+## Working with Collections in Swift
 
-## Arrays
+Depending on the type of the collection, different operations are available in Swift to use collections. The most common used operations on collections are:
 
-```swift
+- Accessing elements of a collection
+- Modifying elements of a collection
+- Iterating over a collection.
 
-```
+As the type of collection varies a lot, the possible operations also differs and not all operation are possible for every collection. The table below shows the possible actions for the most commonly used collections:
 
-## Sets
+| Collection                              | Array | Dictionary | Set | Tuple |
+|-----------------------------------------|-------|------------|-----|-------|
+| Access element / key-value pair         | `[]` subscript operator | `[]` subscript getter | - | `.` operator |
+| Add element / value for key             | `append()` method | `[]` subscript setter | `insert()` method | - |
+| Modify element                          | `[]` subscript operator | `[]` subscript setter | - | `.` operator |
+| Remove element / key-value pair         | `remove(at:)` method | `removeValue(forKey:)` method | `remove()` method | - |
+| Iterate over elements / key-value pairs | `for`-`in` loop | `for`-`in` loop | `for`-`in` loop | - |
+| Search for elements                     | `contains()` method | - | - | - |
+| Sort elements                           | `sorted()` method | - | - | - |
+| Filter elements                         | `filter()` method | - | - | - |
+| Check for membership / key              | - | `contains()` method | `contains()` method | - |
+| Find intersection                       | - | - | `intersection()` method | - |
+| Find union                              | - | - | `union()` method | - |
 
-```swift
+## Performance of Collections
 
-```
+The performance of collections in Swift depends on a number of factors, including the type of collection, the size of the collection, and the operations that are being performed on the collection, the way of implementation and if the compiler optimizations are enabled. The table below shows the difference in performance of the most common used collections:
 
-## Dictionary
-
-```swift
-
-```
-
-## Tupils
-
-```swift
-
-```
+| Collection | Higher Performance | Lower Performance |
+|------------|--------------------|-------------------|
+| Array      | Random access: arrays store their elements in contiguous memory, which makes it easy to access any element in the array in constant time. |  Inserting and deleting elements: this can require shifting the elements of the array in memory. |
+| Dictionary |  Searching for elements: they use a hash table to store their key-value pairs. | Random access: it can take some time to find the key-value pair for a given key. |
+| Set        | Checking for membership and finding intersections, difference and unions of sets: they  store unique elements in an unordered way. | Random access: elements are not stored in a contiguous memory location, so to access a specific element in a set, the entire set must be searched. |
 
 ## Benefits of Using Collections
 
