@@ -1,6 +1,6 @@
 ---
 Title: 'Framing Effect'
-Description: 'Occurs when findings are presented in a way that is disingenuous.'
+Description: 'Occurs when select the more positivly worded option.'
 Subjects:
   - 'Web Design'
 Tags:
@@ -11,14 +11,8 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **framing effect** occurs when findings are presented in a way that is disingenuous. Examples of the framing effect could be excluding certain data points, using statistical measures that are skewed, or strategically phrasing an insight to imply a certain idea or opinion. Researchers should present the data in a way that accurately represents respondents’ statements.
+The **framing effect** occurs when question are presented in a way that some options are presented as positive and others are presented as negative. The respondent will tend to select the options that are presented "framed" in a positive light.
 
 ## Example
 
-Imagine that 20 survey respondents rated their overall approval of a certain product on a Likert scale of 1 to 5.
-
-![Likert Scale Bar Chart that displays the data from the survey question: Approval from 1-5](https://raw.githubusercontent.com/Codecademy/docs/main/media/framing-effect.png)
-
-The researcher reports that the average approval rate is between 2 and 3, meaning that users are slightly dissatisfied. Considering that the mean is 2.45, this is technically correct. But it is a disingenuous finding &mdash; only 25% of the users actually rated the product between a 2 and a 3.
-
-It would be more accurate to report that the majority of users are either extremely dissatisfied or extremely satisfied with the product. By reporting the finding that the approval rate is between 2 and 3, the team might miss the root of the issue that causes disparities in the satisfaction of certain groups of users.
+For example, in testing purchasing habits a retailer may find that an item being sold at "half off the original price of $125" might do better than the same item listed just at fifty dollars, even though the "discounted" item ends up costing more. "Half price" tends to be viewed as better than "full price" despite the actual price.
