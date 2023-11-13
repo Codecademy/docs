@@ -64,5 +64,4 @@ The expected output should be similar to the following:
 Total Duration in DateTimePeriod: DateTimePeriod(days = 5, hours = 4)
 ```
 
-## Exception Throws
-**IllegalArgumentException** - if the total number of months in hours, minutes, seconds and nanoseconds overflows a Long.
+>**Note:** `Exception Throws (IllegalArgumentException)-` if the total number of months in hours, minutes, seconds, and nanoseconds overflows a Long.
