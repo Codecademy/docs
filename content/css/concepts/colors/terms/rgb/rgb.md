@@ -36,7 +36,7 @@ h1 {
 }
 ```
 
-![rgb-example-1](https://github.com/troytomasch/docs/blob/main/media/css-rgb-example-1.png)
+![rgb-example-1](https://github.com/troytomasch/docs/blob/css-rgb-images/media/css-rgb-example1.png)
 
 ## Example 2
 
@@ -48,7 +48,7 @@ h1 {
 }
 ```
 
-![rgb-example-2](https://github.com/troytomasch/docs/blob/main/media/css-rgb-example-2.png)
+![rgb-example-2](https://github.com/troytomasch/docs/blob/css-rgb-images/media/css-rgb-example2.png)
 
 ## Example 3
 
@@ -60,4 +60,4 @@ h1 {
 }
 ```
 
-![rgb-example-3](https://github.com/troytomasch/docs/blob/main/media/css-rgb-example-3.png)
+![rgb-example-3](https://github.com/troytomasch/docs/blob/css-rgb-images/media/css-rgb-example3.png)
