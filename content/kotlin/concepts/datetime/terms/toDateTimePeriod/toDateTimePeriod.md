@@ -57,7 +57,9 @@ fun main() {
     println("Total Duration in DateTimePeriod: $dateTimePeriod")
 }
 ```
+
 The expected output should be similar to the following:
+
 ```mathematica
 Total Duration in DateTimePeriod: DateTimePeriod(days = 5, hours = 4)
 ```
