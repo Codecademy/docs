@@ -41,10 +41,10 @@ public enum Direction {
 }
 ```
 
-- `Direction.NORTH` will have a value of 0.
-- `Direction.SOUTH` will have a value of 1.
-- `Direction.EAST` will have a value of 2.
-- `Direction.WEST` will have a value of 3.
+- `Direction.NORTH` will have a value of NORTH.
+- `Direction.SOUTH` will have a value of SOUTH.
+- `Direction.EAST` will have a value of EAST.
+- `Direction.WEST` will have a value of WEST.
 
 ## Example
 
@@ -55,13 +55,13 @@ public enum Day {
 }
 ```
 
-- `Day.SUN` will have a value of 0.
-- `Day.MON` will have a value of 1.
-- `Day.TUE` will have a value of 2.
-- `Day.WED` will have a value of 3.
-- `Day.THU` will have a value of 4.
-- `Day.FRI` will have a value of 5.
-- `Day.SAT` will have a value of 6.
+- `Day.SUN` will have a value of SUN.
+- `Day.MON` will have a value of MON.
+- `Day.TUE` will have a value of TUE.
+- `Day.WED` will have a value of WED.
+- `Day.THU` will have a value of THU.
+- `Day.FRI` will have a value of FRI.
+- `Day.SAT` will have a value of SAT.
 
 To access one of the values:
 

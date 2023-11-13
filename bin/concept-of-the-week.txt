@@ -1,1 +1,1 @@
-content/javascript/concepts/hoisting/hoisting.md
+content/cpp/concepts/classes/classes.md
