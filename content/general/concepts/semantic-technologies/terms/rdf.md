@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science-nlp'
 ---
 
-**RDF** is a language for representing information. All data within the suite of semantic technologies is represented in RDF.
+**Resource Description Framework (RDF)** is a language for representing information. All data within the suite of semantic technologies is represented in RDF.
 
 ## RDF Triples
 
@@ -71,12 +71,12 @@ BASE <http://books.com/books#>
 PREFIX doc: <http://document-ontology.org/ontology#>
 
 <pachinko>
-	doc:authoredBy <https://www.minjinlee.com/about> ;
-	doc:soldCopies 1276201.
+  doc:authoredBy <https://www.minjinlee.com/about> ;
+  doc:soldCopies 1276201.
 
 <mosquito-coast>
-	doc:authoredBy <https://www.paultheroux.com/bio> ;
-	doc:soldCopies 2661988.
+  doc:authoredBy <https://www.paultheroux.com/bio> ;
+  doc:soldCopies 2661988.
 ```
 
 The above example defines prefixes for IRIs that are used multiple times, a shorthand notation useful for improving readability and writing RDF more efficiently. Statements are also grouped under a common subject for the same reasons.
