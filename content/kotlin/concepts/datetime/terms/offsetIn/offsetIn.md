@@ -20,9 +20,9 @@ The **`.offsetIn()`** function is used to obtain the time zone offset at a speci
 fun Instant.offsetIn(timeZone: TimeZone): UtcOffset
 ```
 
-- `**Instant**`: a moment in time.
-- `**UtcOffset**`: An offset from UTC (Coordinated Universal Time).
-- `**TimeZone**`: provides a conversion between `Instant` and `LocalDateTime` values using a collection of rules.
+- **Instant:** A moment in time.
+- **UtcOffset:** An offset from UTC (Coordinated Universal Time).
+- **TimeZone:** provides a conversion between `Instant` and `LocalDateTime` values using a collection of rules.
 
 ## Example
 
