@@ -114,25 +114,32 @@ The following example initializes the `colors` array with four color names. Then
 var colors: [String] = ["Yellow", "Purple", "Orange", "Green"]
 
 // Access and print elements
-print(colors[0])  // Output: Yellow
-print(colors[2])  // Output: Orange
+print(colors[0])
+print(colors[2])
 
 // Add an element
 colors.append("Red")
-print(colors)  // Output: ["Yellow", "Purple", "Orange", "Green", "Red"]
+print(colors)
 
 // Remove an element
 colors.remove(at: 1)
-print(colors)  // Output: ["Yellow", "Orange", "Green", "Red"]
+print(colors)
 
 // Iterate through the array
 for color in colors {
     print(color)
 }
+```
 
-// Output:
-// Yellow
-// Orange
-// Green
-// Red
+The example will result in the following output:
+
+```shell
+Yellow
+Orange
+["Yellow", "Purple", "Orange", "Green", "Red"]
+["Yellow", "Orange", "Green", "Red"]
+Yellow
+Orange
+Green
+Red
 ```
