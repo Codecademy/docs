@@ -2,12 +2,13 @@
 Title: '.encodeToString()'
 Description: 'Serializes data to a string representation using the Kotlin Serialization library.'
 Subjects:
-  -'Code Foundations'
-  -'Computer Science'
+  - 'Code Foundations'
+  - 'Computer Science'
 Tags:
-  -'Kotlin'
-  -'Libraries'
-  -'JSON'
+  - 'Kotlin'
+  - 'Libraries'
+  - 'JSON'
+  - 'Strings'
 Catalog Content: 
   - 'learn-kotlin'
   - 'paths/computer-science'
