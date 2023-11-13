@@ -90,7 +90,7 @@ The performance or efficiency of collections in Swift depends on several factors
 | Collection | Higher Performance | Lower Performance |
 |------------|--------------------|-------------------|
 | Array      | Random access: Arrays store their elements in contiguous memory, which makes it easy to access any element in the array in constant time. |  Inserting and deleting elements: this can require shifting the elements of the array in memory. |
-| Dictionary |  Searching for elements: they store their key-value pairs using a hash table. | Random access: finding the key-value pair for a given key can take some time. |
+| Dictionary |  Searching for elements: They store their key-value pairs using a hash table. | Random access: finding the key-value pair for a given key can take some time. |
 | Set        | Check for membership and find intersections, differences, and unions of sets: they store unique elements unordered. | Random access: elements are not stored in a contiguous memory location, so the entire set must be searched to access a specific element in a set. |
 
 ## Benefits of Using Collections
