@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.offsetIn()`** function is used to obtain the time zone offset at a specific point in time. It provides the difference between the local time and UTC for a given moment.
+The **`.offsetIn()`** function is used to obtain the time zone offset at a specific point in time. It provides the difference between the **local time** and **UTC** for a given moment.
 
 ## Syntax
 
@@ -20,9 +20,9 @@ The **`.offsetIn()`** function is used to obtain the time zone offset at a speci
 fun Instant.offsetIn(timeZone: TimeZone): UtcOffset
 ```
 
-- `Instant`: a moment in time.
-- `utcOffset`: An offset from UTC (Coordinated Universal Time).
-- `TimeZone`: provides a conversion between `Instant` and `LocalDateTime` values using a collection of rules.
+- `**Instant**`: a moment in time.
+- `**UtcOffset**`: An offset from UTC (Coordinated Universal Time).
+- `**TimeZone**`: provides a conversion between `Instant` and `LocalDateTime` values using a collection of rules.
 
 ## Example
 
@@ -41,11 +41,11 @@ fun main() {
 }
 ```
 
-The code given above provides the offset for the current time in `Asia/Kolkata` time zone.
+The code given above provides the offset for the current time in the `Asia/Kolkata` time zone.
 
 > **Note:** The string `Asia/Kolkata` above is a zoneId (returns the time zone identified by the provided zoneId). These IDs are usually in the form of `area/city`.
 
-Output:
+The above example will result in the following output:
 
 ```shell
 Offset from UTC in Kolkata is +05:30.
