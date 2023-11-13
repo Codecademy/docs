@@ -12,24 +12,23 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The Kotlin method, **`.dropLast()`** returns a string with the last `n` characters removed.
+The Kotlin method, **`.dropLast()`** removes the last character of a string or the last `n` number of charcters from a string. This method does not modify the original list, it creates and returns a new list.
 
 ## Syntax
 
 ```pseudo
-println(string.dropLast())
+string.dropLast()
 ```
 
 ### Special Cases
 
-`IllegalArguementException` error thrown if `n` is a negative number.
+`IllegalArguementException` error thrown if `n` is a negative number. A negative number of characters can not be removed.
 
 ## Example
 
 The example below creates a string, `string`, then uses the `.dropLast()` method to return a string with the last five characters removed.
 
 ```kotlin
-import java.util.Locale
 import kotlin.test.*
 fun main(args: Array<Strings> {
 value string = "<<<Example String>>>"
