@@ -14,30 +14,18 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**toInstant** converts a string representing an instant in ISO-8601 format, which includes both date and time components along with the time zone offset, into an Instant value.
-
-.toInstant() is a simple way to convert a date and time string into a format that can be easily used by Kotlin programs.
-The conversion results in obtaining an Instant value, which is a standardized representation of time that is independent of time zones. Essentially, it helps transform a textual representation of a moment in time into a format that can be more easily manipulated and compared programmatically.
-
+**`.toInstant()`** is a simple way to convert a date and time string into a format that can be easily used by Kotlin programs. The conversion results in obtaining an Instant value, which is a standardized representation of time that is independent of time zones. Essentially, it helps transform a textual representation of a moment in time into a format that can be more easily manipulated and compared programmatically.
 
 ## Syntax
 
 ```pseudo
 fun String.toInstant(): Instant
 ```
-* fun: This keyword is used to declare a function in Kotlin.
 * String: This is the type of the receiver object for the function.
 * toInstant(): This is the name of the function.
 * Instant: This is the return type of the function.
 
-## Examples
-
-```kotlin
-val iso8601String = "2023-11-13T11:04:44+00:00"
-val instant = iso8601String.toInstant()
-```
-
----
+## Example
 
 ```kotlin
 val iso8601String = "2023-11-13T11:04:44+00:00"
@@ -54,5 +42,3 @@ Output:
 ```shell
 2023-11-13T11:04:44Z
 ```
-
----
