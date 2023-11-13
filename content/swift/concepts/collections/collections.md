@@ -107,7 +107,7 @@ Collections are fundamental data structures in Swift that provide various benefi
 
 ## Example
 
-The following example initializes the `colors` array with four color names. Then, it showcases how to access elements by index. Afterwards, using the `append` method adds a new element to the `colors` array. Then, the example demonstrates removing an element from the array with the `remove` method. Finally, the example shows how to iterate through the `colors` array using a `for-in` loop and prints each color individually.
+The following example initializes the `colors` array with four color names. Then, it showcases how to access elements by index. Afterward, the `append` method adds a new element to the `colors` array. Then, the example demonstrates removing an element from the array with the `remove` method. Finally, the example shows how to iterate through the `colors` array using a `for-in` loop and prints each color individually.
 
 ```swift
 // Define an array of strings
@@ -131,7 +131,7 @@ for color in colors {
 }
 ```
 
-The example will result in the following output:
+The above example will result in the following output:
 
 ```shell
 Yellow
