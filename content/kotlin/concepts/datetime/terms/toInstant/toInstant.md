@@ -51,7 +51,7 @@ println(instant)
 
 Output:
 
-```kotlin
+```shell
 2023-11-13T11:04:44Z
 ```
 
