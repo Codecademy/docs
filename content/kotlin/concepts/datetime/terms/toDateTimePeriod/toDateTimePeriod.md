@@ -29,7 +29,7 @@ The **`.toDateTimePeriod()`** method in Kotlin is a versatile function that tran
 duration.toDateTimePeriod(): DateTimePeriod
 ```
 
-+ **duration**: This is a Duration object representing a length of time.
+- **duration:** This is a Duration object representing a length of time.
 
 The method returns a DateTimePeriod object, which is a normalized representation of the input duration in terms of larger time units (years, months, days, etc.).
 
