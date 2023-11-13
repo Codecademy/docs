@@ -29,7 +29,7 @@ var collectionName: CollectionType = collectionElements
 
 - `var` is a keyword used to declare a [variable](https://www.codecademy.com/resources/docs/swift/variables) in Swift.
 - `collectionName` is the name of the collection.
-- `collectionType` specifies the type of the collection and the [data type](https://www.codecademy.com/resources/docs/swift/data-types) of the elements in it. For instance, an array of integers can store a list of numbers, a dictionary of strings and integers can hold names with corresponding ages, or a set of unique URL values can keep track of visited websites. The choice of data type depends on the specific nature of the data to store and manage. Here are some commonly used `collectionType`s:
+- `collectionType` specifies the type of the collection and the [data type](https://www.codecademy.com/resources/docs/swift/data-types) of the elements in it. For instance, an array of integers can store a list of numbers, a dictionary of strings and integers can hold names with corresponding ages, or a set of unique URL values can keep track of visited websites. The choice of data type depends on the specific nature of the data to store and manage. Here are some commonly used collection types:
 
   | `collectionType` | Result                                                       |
   |------------------|--------------------------------------------------------------|
