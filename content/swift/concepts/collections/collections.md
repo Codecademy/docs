@@ -97,13 +97,13 @@ The performance or efficiency of collections in Swift depends on several factors
 
 Collections are fundamental data structures in Swift that provide various benefits, such as:
 
-- Organization and Management: Collections provide a structured way to organize and manage multiple data items, making them easier to access, iterate, and manipulate.
-- Efficient Data Handling: Collections are optimized for efficient data handling, making them suitable for storing and managing large amounts of data.
-- Declarative Syntax: Swift's declarative syntax simplifies the creation and management of collections. This declarative approach reduces boilerplate code and improves code readability.
-- Algorithm Support: Swift provides a rich collection of algorithms for manipulating collections, such as searching, sorting, and filtering.
-- Memory Management: Collections are automatically managed by Swift's memory management system, ensuring efficient usage and preventing memory leaks.
-- Type Safety: Swift's type system ensures that collections can only store elements of the same type. This prevents errors caused by incompatible data types and enhances code reliability.
-- Interoperability: Collections can be easily converted to other data structures, such as arrays or dictionaries, and vice versa. This creates a seamless work with data in different formats and allows integration with existing codebases.
+- **Organization and Management:** Collections provide a structured way to organize and manage multiple data items, making them easier to access, iterate, and manipulate.
+- **Efficient Data Handling:** Collections are optimized for efficient data handling, making them suitable for storing and managing large amounts of data.
+- **Declarative Syntax:** Swift's declarative syntax simplifies the creation and management of collections. This declarative approach reduces boilerplate code and improves code readability.
+- **Algorithm Support:** Swift provides a rich collection of algorithms for manipulating collections, such as searching, sorting, and filtering.
+- **Memory Management:** Collections are automatically managed by Swift's memory management system, ensuring efficient usage and preventing memory leaks.
+- **Type Safety:** Swift's type system ensures that collections can only store elements of the same type. This prevents errors caused by incompatible data types and enhances code reliability.
+- **Interoperability:** Collections can be easily converted to other data structures, such as arrays or dictionaries, and vice versa. This creates a seamless work with data in different formats and allows integration with existing codebases.
 
 ## Example
 
