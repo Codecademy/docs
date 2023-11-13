@@ -24,7 +24,7 @@ CatalogContent:
 Collections are created by declaring variables and specifying the type and elements:
 
 ```pseudo
-var collectionName: CollectionType = collectionElements
+var collectionName: collectionType = collectionElements
 ```
 
 - `var` is a keyword used to declare a [variable](https://www.codecademy.com/resources/docs/swift/variables) in Swift.
