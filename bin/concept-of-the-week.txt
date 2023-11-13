@@ -1,1 +1,1 @@
-content/ruby/concepts/lambda/lambda.md
+content/cpp/concepts/classes/classes.md
