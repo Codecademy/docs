@@ -1,14 +1,14 @@
 ---
 Title: '.toDateTimePeriod()'
-Description: 'Interprets an ISO-8601 formatted duration string, converting it into a DateTimePeriod object. In cases where the string's time components are either missing or amount to zero, the function yields a DatePeriod instead.'
+Description: 'Interprets an ISO-8601 formatted duration string, converting it into a DateTimePeriod object.'
 Subjects:
   - 'Computer Science'
-  - 'Software Engineering'
-  - 'Other comparable degrees'
+  - 'Data Science'
 Tags:
-  - 'Functions'
+  - 'Methods'
   - 'Data Structures'
-  - 'DatePeriod'
+  - 'Date'
+  - 'Time'
 CatalogContent:
   - 'learn-kotlin'
   - 'paths/computer-science'
@@ -54,7 +54,7 @@ fun main() {
 The expected output should be similar to the following:
 
 ```mathematica
-Total Duration in DateTimePeriod: DateTimePeriod(days = 5, hours = 4)
+Total Duration in DateTimePeriod: DateTimePeriod(days = 4, hours = 18)
 ```
 
 >**Note:** `Exception Throws (IllegalArgumentException)-` if the total number of months in hours, minutes, seconds, and nanoseconds overflows a Long.
