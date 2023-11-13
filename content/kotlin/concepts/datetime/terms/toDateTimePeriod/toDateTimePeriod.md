@@ -9,13 +9,6 @@ Tags:
   - 'Functions'
   - 'Data Structures'
   - 'DatePeriod'
-  - 'Years'
-  - 'Months'
-  - 'Days'
-  - 'Hours'
-  - 'Minutes'
-  - 'Seconds'
-  - 'Nanoseconds'
 CatalogContent:
   - 'learn-kotlin'
   - 'paths/computer-science'
