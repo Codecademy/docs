@@ -31,7 +31,7 @@ The example below creates a string, `string`, then uses the `.dropLast()` method
 ```kotlin
 import kotlin.test.*
 fun main(args: Array<Strings> {
-value string = "<<<Example String>>>"
+val string = "Example String"
 println(string.dropLast())
 println(string.dropLast(5))
 }
