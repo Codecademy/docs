@@ -15,7 +15,7 @@ CatalogContent:
 
 **`.partition()`** takes a string parameter and returns two new strings. The first new string contains those characters that satisfy a supplied predicate, and the second new string contains those that do not satisfy that predicate.
 
-A predicate takes an argument and returns a boolean `true` or `false`. If `true` is returned, the argument is said to *satisfy* the predicate. Otherwise, the argument does not satisfy the predicate.
+A predicate takes an argument and returns a boolean `true` or `false`. If `true` is returned, the argument is said to _satisfy_ the predicate. Otherwise, the argument does not satisfy the predicate.
 
 ## Syntax
 
