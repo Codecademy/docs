@@ -29,7 +29,6 @@ In this example, `math.log()` calculates the natural logarithmic value of `20`:
 ```lua
 local num = 20
 local result = math.log(num)
-
 local output = string.format("The natural Logarithm of %.0f: %.4f", num, result)
 print(output)
 ```
