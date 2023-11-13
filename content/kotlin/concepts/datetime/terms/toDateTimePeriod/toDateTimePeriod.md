@@ -41,14 +41,14 @@ import kotlinx.datetime.DateTimePeriod
 
 fun main() {
     // Durations for different activities in hours
-    val designingDuration = Duration.hours(31)  // 31 hours spent on designing
-    val codingDuration = Duration.hours(57)     // 57 hours spent on coding
-    val testingDuration = Duration.hours(14)    // 14 hours spent on testing
+    val designingDuration = Duration.hours(31)  
+    val codingDuration = Duration.hours(57) 
+    val testingDuration = Duration.hours(14)    
 
     // Summing up all durations
     val totalDuration = designingDuration + codingDuration + testingDuration
 
-    // Optionally, adding some extra time for breaks (let's say 12 hours)
+    // Optionally, adding some extra time for breaks 
     val totalWithDurationBreaks = totalDuration + Duration.hours(12)
 
     // Converting the total duration with breaks to a DateTimePeriod
