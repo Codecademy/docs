@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Observable** is a platform and notebook, similar to [Jupyter](https://www.codecademy.com/resources/docs/general/data-science/jupyter-notebook), for conducting data analysis and creating visualizations. Observable the [platform](https://observablehq.com) is an online repository that provides a number of tools for conducting and sharing studies. The notebook is a cell-based IDE for working with data in JavaScript. In addition to D3 there is also the Observable [Plot](https://observablehq.com/plot/?utm_source=d3js-org&utm_medium=nav&utm_campaign=try-observable) library, which was designed specifically for generating charts quickly during exploratory analysis.
+**Observable** is a platform and notebook, similar to [Jupyter](https://www.codecademy.com/resources/docs/general/data-science/jupyter-notebook), for conducting data analysis, and creating visualizations. Observable the [platform](https://observablehq.com) is an online repository that provides a number of tools for conducting and sharing studies. The notebook is a cell-based IDE for working with data in JavaScript. In addition to D3 there is also the Observable [Plot](https://observablehq.com/plot/?utm_source=d3js-org&utm_medium=nav&utm_campaign=try-observable) library, which was designed specifically for generating charts quickly during exploratory analysis.
 
 ## Traditional D3 vs Observable D3
 
@@ -38,24 +38,24 @@ totalX = Math.sqrt(100) // A basic top-level variable declaration
 Often a chart definition itself will be confined to one cell and will use a syntax similar to that of a JavaScript function, as seen below:
 
 ```pseudo
-chart = {                           // In a notebook the chart definition is enclosed in
-    const marginTop = val;          // curly braces and assigned to a variable
-    const marginRight = val;
+chart = {                         // In a notebook the chart definition is enclosed in
+  const marginTop = val;          // curly braces and assigned to a variable
+  const marginRight = val;
+  ...
+
+  const svg = d3.create("svg")
+    .attr("viewbox", [0,0, w, h])
     ...
 
-    const svg = d3.create("svg")
-        .attr("viewbox", [0,0, w, h])
-        ...
+  svg.append("g")
+    .selectAll("element")
+    .data(source)
+    .join("element")
+      .attr("x", d => d / 2)
+      ...
 
-    svg.append("g")
-        .selectAll("element")
-        .data(source)
-        .join("element")
-            .attr("x", d => d / 2)
-            ...
-
-    return svg.node()               // The traditional syntax would append
-}                                   // the svg to a div but here it's a return value
+  return svg.node()               // The traditional syntax would append
+}                                 // the svg to a div but here it's a return value
 ```
 
 For most information on Observable notebooks see their [documentation](https://observablehq.com/collection/@observablehq/intro-to-observable) for details.

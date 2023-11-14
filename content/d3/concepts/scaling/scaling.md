@@ -20,12 +20,12 @@ CatalogContent:
 A D3 scale generally takes the following form:
 
 ```pseudo
-svg.scaleType()     // A selection method is called on an object
-   .domain(input1, input2)           // additional methods are chained to the declaration
-   .range(output1, output2)
+svg.scaleType()            // A scale function is called
+  .domain(input1, input2)  // Parameters for the domain and
+  .range(output1, output2) // the range are passed
 ```
 
-D3 has scaling functions that include `.scaleLinear()`, `.scaleLog()`, `.scaleOrdinal()` and a many others to address common scaling conversions. A scale definition will begin with one of these functions paired with the `.domain()` and `.range()` methods to set the parameters that will govern the data used and the final range those values will take.
+D3 has scaling functions that include `.scaleLinear()`, `.scaleLog()`, `.scaleOrdinal()`, and many others to address common scaling conversions. A scale definition will begin with one of these functions paired with the `.domain()` and `.range()` methods to set the parameters that will govern the data used and the final range those values will take.
 
 ## D3 Scale Methods
 
