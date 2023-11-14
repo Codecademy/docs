@@ -1,6 +1,6 @@
 ---
 Title: 'Box Sizing'
-Description: 'The box-sizing property allows us to include the padding and boarder in the calculation of an elements height and width. This is a slightly more advanced so no need to use it if you are just getting started to code. css box-sizing: ;  The box-sizing property has two values. - border-box: Any assigned padding or border is included in the calculation of an elements height or width. If an elements width is set to 100px and padding is set to 30px, the padding will be included in the elements set width resulting in the total width still being 100px. - content-box: Default CSS behavior, the assigned height or width of an element plus any padding will be the total height or weight. If an elements width is set to 100px and padding is set to 50px, the total width for the element will be 150px.'
+Description: 'The box-sizing property determines whether to use the border and padding of an element to calculate its total width.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `box-sizing` property allows us to include the padding and boarder in the calculation of an element's height and width. This is a slightly more advanced so no need to use it if you are just getting started to code.
+The `box-sizing` property allows us to include the padding and boarder in the calculation of an element's height and width.
 
 ## Syntax
 
