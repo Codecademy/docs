@@ -111,8 +111,6 @@ In Rust, the mutability of slices permits the alteration of elements contained w
 let slice = &mut data_structure[start_index..end_index];
 ```
 
-The following example demonstrates how to modify an element in a mutable slice. In this case, the second element of the slice is changed from `3` to `10`:
-
 ## Example
 
 The following example demonstrates how to modify an element in a mutable slice. In this case, the second element of the slice is changed from `3` to `10`:
@@ -133,4 +131,4 @@ The above example will result in the following output:
 Modified Slice: [2, 10, 4]
 ```
 
-> **Note**: Slices are often used in Rust for tasks like substring extraction, working with subarrays, and allowing multiple parts of a data structure to be manipulated separately without copying the entire data. They offer a flexible and memory-efficient way to handle data subsets.
+> **Note:** Slices are often used in Rust for tasks like substring extraction, working with subarrays, and allowing multiple parts of a data structure to be manipulated separately without copying the entire data. They offer a flexible and memory-efficient way to handle data subsets.
