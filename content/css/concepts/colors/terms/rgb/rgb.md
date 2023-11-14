@@ -36,7 +36,7 @@ h1 {
 }
 ```
 
-![rgb-example-1](https://github.com/troytomasch/docs/blob/css-rgb-images/media/css-rgb-example1.png)
+![RGB White Font Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-rgb-example1.png)
 
 ## Example 2
 
@@ -48,7 +48,7 @@ h1 {
 }
 ```
 
-![rgb-example-2](https://github.com/troytomasch/docs/blob/css-rgb-images/media/css-rgb-example2.png)
+![RGB Black Font Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-rgb-example2.png)
 
 ## Example 3
 
@@ -56,8 +56,8 @@ Set the font color of the `h1` element to be a lavender color:
 
 ```css
 h1 {
-  color: rgb(230, 230, 250);
+  color: rgb(124, 124, 242);
 }
 ```
 
-![rgb-example-3](https://github.com/troytomasch/docs/blob/css-rgb-images/media/css-rgb-example3.png)
+![RGB Lavender Font Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-rgb-example3.png)
