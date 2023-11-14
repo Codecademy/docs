@@ -13,11 +13,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Observable** is a platform and notebook, similar to [Jupyter](https://www.codecademy.com/resources/docs/general/data-science/jupyter-notebook), for conducting data analysis, and creating visualizations. Observable the [platform](https://observablehq.com) is an online repository that provides a number of tools for conducting and sharing studies. The notebook is a cell-based IDE for working with data in JavaScript. In addition to D3 there is also the Observable [Plot](https://observablehq.com/plot/?utm_source=d3js-org&utm_medium=nav&utm_campaign=try-observable) library, which was designed specifically for generating charts quickly during exploratory analysis.
+**Observable** is a platform and notebook, similar to [Jupyter](https://www.codecademy.com/resources/docs/general/data-science/jupyter-notebook), for conducting data analysis, and creating visualizations. Observable the [platform](https://observablehq.com) is an online repository that provides tools for conducting and sharing studies. The notebook is a cell-based IDE for working with data in JavaScript. In addition to D3 there is also the Observable [Plot](https://observablehq.com/plot/?utm_source=d3js-org&utm_medium=nav&utm_campaign=try-observable) library, which was designed specifically for generating charts quickly during exploratory analysis.
 
 ## Traditional D3 vs Observable D3
 
-D3 visualizations were originally developed to be defined within a `<script>` tag inside an HTML doc. Now, there are a number of alternative environments for creating D3 charts, and an Observable notebook is one of the most accessible ways to get started with D3. However, there are some differences in implementation to consider. The following sections highlight a few of the elements that must be addressed when creating or transferring a chart to an Observable notebook.
+D3 visualizations were originally developed to be defined within a `<script>` tag inside an HTML doc. Now, there are several alternative environments for creating D3 charts, and an Observable notebook is one of the most accessible ways to get started with D3. However, there are some differences in implementation to consider. The following sections highlight a few of the elements that must be addressed when creating or transferring a chart to an Observable notebook.
 
 ### Notebook Cells
 
@@ -25,13 +25,13 @@ An Observable notebook consists of a number of cells that can support a variety 
 
 ### Data Access
 
-Notebooks provide a number of ways to bring in data, which allows for a lot of flexibility, but some alternatives may require more setup. Perhaps the easiest option is having a local excel or CSV which can be added straightforwardly via drag-and-drop. However, there's also the ability to connect directly to a database, to import data from another notebook and many other options.
+Notebooks provide a variety of ways to bring in data, allowing for flexibility and customization, but some alternatives may require more setup. Perhaps the easiest option is having a local Excel or CSV which can be added straightforwardly via drag-and-drop. However, there's also the ability to pull directly from a database, to import data from another notebook, and many other options.
 
 ### Observable JS
 
 One of the principal differences between D3 in an HTML file and Observable is the syntax. Observable notebooks use a JavaScript variant specific to this environment. For example, top-level variables in a notebook are not prefixed by keywords such as `const` or `let`. And all top-level variables are also immutable by default.
 
-```psuedo
+```pseudo
 totalX = Math.sqrt(100) // A basic top-level variable declaration
 ```
 
