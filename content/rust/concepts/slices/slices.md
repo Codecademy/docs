@@ -115,7 +115,7 @@ The following example demonstrates how to modify an element in a mutable slice. 
 
 ### Example
 
-The following example demonstrates how to modify an element in a mutable slice. In this case, the second element of the slice is changed from 3 to 10.
+The following example demonstrates how to modify an element in a mutable slice. In this case, the second element of the slice is changed from `3` to `10`:
 
 ```rust
 fn main() {
