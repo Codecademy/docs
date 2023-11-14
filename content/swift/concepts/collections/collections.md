@@ -1,6 +1,6 @@
 ---
 Title: 'Collections'
-Description: 'Collections are data structures for organizing, managing, and manipulating multiple elements.'
+Description: 'Data structures for organizing, managing, and manipulating multiple elements.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
