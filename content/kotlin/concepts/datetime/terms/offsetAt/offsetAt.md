@@ -49,5 +49,4 @@ The above example will result in the following output:
 
 ```shell
 At 2023-11-07T12:00:00Z, the offset from UTC in Asia/Kolkata is +05:30.
-
 ```
