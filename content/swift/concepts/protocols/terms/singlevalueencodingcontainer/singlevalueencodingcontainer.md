@@ -34,7 +34,7 @@ struct SomeValue: Encodable {
 
 ## Example
 
-In the following example, an int `value` is encoded using `SingleValueEncodingContainer`.
+In the following example, an `int` value is encoded using `SingleValueEncodingContainer`:
 
 ```swift
 import Foundation
