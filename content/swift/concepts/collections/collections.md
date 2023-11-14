@@ -85,7 +85,7 @@ While some collections share common features, they also possess distinct charact
 
 ## Performance of Collections
 
-The performance or efficiency of collections in Swift depends on several factors, including the type of collection, the collection size, the operations being performed on the collection, the way of implementation, and the compiler optimizations that are enabled. Higher performance implies that certain operations are faster and consume fewer resources, making them suitable for specific use cases. Lower performance indicates that some operations may be slower or resource-intensive in comparison. The table below shows the difference in performance of the most commonly used collections:
+The performance or efficiency of collections in Swift depends on several factors, including the type of collection, the collection size, the operations being performed on the collection, the implementation, and the compiler optimizations that are enabled. Higher performance implies that certain operations are faster and consume fewer resources, making them suitable for specific use cases. Lower performance indicates that some operations may be slower or resource-intensive in comparison. The table below separates the three most commonly used collections in terms of these basic definitions:
 
 | Collection | Higher Performance | Lower Performance |
 |------------|--------------------|-------------------|
