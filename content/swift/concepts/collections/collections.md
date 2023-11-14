@@ -67,7 +67,7 @@ Each collection has certain capabilities and limitations that often inform how t
 - Modifying elements of a collection
 - Iterating over the elements of a collection
 
-While some collections share common features, they possess distinct characteristics, resulting in a wide range of available operations that can vary significantly. The table below shows the possible actions for the most commonly used collections:
+While some collections share common features, they also possess distinct characteristics, resulting in a broad range of available operations that can vary significantly. The table below catalogs some of these operations for the most widely used collections:
 
 | Collection                              | Array | Dictionary | Set | Tuple |
 |-----------------------------------------|-------|------------|-----|-------|
