@@ -9,4 +9,4 @@ CatalogContent:
 
 [**Markdown**](https://daringfireball.net/projects/markdown/) is a lightweight markup language for creating formatted text using a plain-text editor. It was created by John Gruber and [Aaron Swartz](https://www.codecademy.com/resources/docs/general/historical-technical-figures/aaron-swartz) in 2004 as a language that is appealing to human readers in its source code form.
 
-With Markdown, the display of the document is programed by the user; formatting words as bold or italic, adding images and links, and creating lists and tables are just a few of the functionalities.
+With Markdown, the display of the document is programmed by the user; formatting words as bold or italic, adding images and links, and creating lists and tables are just a few of the functionalities.
