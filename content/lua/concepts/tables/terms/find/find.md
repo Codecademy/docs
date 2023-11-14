@@ -17,7 +17,7 @@ The **find()** is a built in function that searches for a specific value in an a
 ## Syntax
 
 ```lua
-local myTable = {10, 20, 30, 40, 50}
+local myTable = {value1, value2,value3,value4, value5}
 
 function table.find(myTable, value)
     -- Iterate through the elements of the table
@@ -31,13 +31,33 @@ function table.find(myTable, value)
     -- Return nil if the value is not found
     return nil
 end
+```
+
+## Example
+
+```lua
+-- Create a sample table
+local myTable = {10, 20, 30, 40, 50}
+
+function table.find(myTable,value)
+    -- Iterate through the elements of the table
+    for i, v in ipairs(myTable) do
+        -- Check if the current element matches the requested value
+        if v == value then
+            -- Return the index if found
+            return i
+        end
+    end
+    -- Return nil if the value is not found
+    return nil
+end
+
 print("Enter a number:")
 -- Use io.read() to get user input
-local a = tonumber(io.read())
+local input = tonumber(io.read())
 
 -- Check if the entered number is in the table
-local index = table.find(myTable, a)
-
+local index = table.find(myTable, input)
 if index then
     print("Number found at index:", index)
 else
@@ -45,28 +65,9 @@ else
 end
 ```
 
-## Example
+This example results in the following output:
 
-```lua
-// Create a sample table
-local myTable = {10, 20, 30, 40, 50}
-
--- Use the find function to search for the value 30
-local index = table.find(myTable, 30)
-
--- Check if the value is found and print the result
-if index then
-    print("Value found at index:", index)
-else
-    print("Value not found")
-end
-```
-
-## Codebyte Example
-
-```lua
-
-# Example runnable code block.
-console.log('Hello, World!');
-
+```shell
+Enter a number: 30
+Number found at index: 3
 ```
