@@ -21,7 +21,7 @@ fun TimeZone.offsetAt(instant: Instant): UtcOffset
 ```
 
 - `Instant`: A moment in time.
-- `utcOffset`: An offset from UTC (Coordinated Universal Time).
+- `UtcOffset`: An offset from UTC (Coordinated Universal Time).
 - `TimeZone`: Provides a conversion between `Instant` and `LocalDateTime` values using a collection of rules.
 
 ## Example
