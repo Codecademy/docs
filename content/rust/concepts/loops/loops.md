@@ -1,25 +1,25 @@
 ---
 Title: 'Loops'
-Description: 'A loop is a control structure that allows you to repeatedly execute a block of code.'
+Description: 'A loop is a control structure that allows a block of code to be executed repeatedly.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
 Tags:
   - 'Loops'
 CatalogContent:
-  - 'Learn-rust'
+  - 'rust-for-programmers'
   - 'paths/computer-science'
 ---
 
-A **`loop`** is a control structure that enables the repetitive execution of a block of code. `Loops` are employed for tasks that require multiple iterations, such as iterating through a list of items, performing calculations, or waiting for a specific condition to be met. There are typically three main types: `for`, `while`, and `loop`.
+A **loop** is a control structure that enables the repetitive execution of a block of code. Loops are employed for tasks that require multiple iterations, such as iterating through a list of items, performing calculations, or waiting for a specific condition to be met. In Rust there are three main types: `for`, `while` and the infinite `loop`.
 
 ## Syntax
 
 ### For loop
 
-The `for loop` is used to iterate over collections or ranges. It automatically iterates through elements and executes a code block for each item in the pool or scope. It's commonly used for iterating over `arrays`, `vectors` and other iterable data structures.
+The `for` loop is used to iterate over collections or ranges. It automatically iterates through elements and executes a code block for each item in the pool or scope. It's commonly used for iterating over arrays, vectors, and other iterable data structures.
 
-```rust
+```pseudo
 let numbers = ["A", 2,20, 4, 5];
 for num in numbers.iter() {
     // Code to be executed for each element in the array
@@ -27,11 +27,11 @@ for num in numbers.iter() {
 }
 ```
 
-### While loops
+### While Loop
 
-The `while` loop repeatedly executes a block of code as long as a specified condition remains true.It checks the condition before entering the loop, and if the condition is initially false, the loop won't run.While loops are useful when number of iterations is not known in advance.
+The `while` loop repeatedly executes a block of code as long as a specified condition remains true. It checks the condition before entering the loop, and if the condition is initially false, the loop won't run. While loops are useful when the number of iterations is not known in advance.
 
-```rust
+```pseudo
 let mut counter = 0;
 while counter < 5 {
     // Code to be executed while the condition is true
@@ -39,11 +39,11 @@ while counter < 5 {
 }
 ```
 
-### Loop
+### Infinite Loop
 
-The `loop` keyword creates an infinite loop that continues executing the code block indefinitely until it's explicitly interrupted using the break statement.It's useful when a task must be perfomed until a certain condition is met within the loop.
+The `loop` keyword creates an infinite loop that continues executing the code block indefinitely until it's explicitly interrupted with a `break` statement. It's useful when a task must be performed until a certain condition is met within the loop.
 
-```rust
+```pseudo
 fn main() {
     loop {
         println!("Enter 'exit' to quit: ");
@@ -57,9 +57,9 @@ fn main() {
 }
 ```
 
-## Example
+## Examples
 
-This example demonstrates a `while` loop that iterates from `5` to `10` as the counter variable starts from `5`.The second example shows a `for` loop that iterates over an array that containe numbers `1` to `5` .
+The first example demonstrates a `while loop` that iterates through each integer from `5` to `10`. The second example uses a `for` loop to iterate over an array that contains the integers in the range `1` to `5`.
 
 ```rust
 fn main() {
@@ -72,9 +72,7 @@ fn main() {
     let numbers = [1, 2, 3, 4, 5];
 
     for number in numbers.iter() {
-
         println!("Number: {}", number);
-
     }
 }
 ```
