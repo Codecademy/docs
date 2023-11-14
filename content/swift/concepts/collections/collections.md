@@ -61,7 +61,7 @@ Swift provides a wide range of collections for different applications. The compl
 
 ## Working with Collections in Swift
 
-Depending on the type of the collection, different operations are available in Swift to use collections. The most commonly used operations on collections are:
+Each collection has certain capabilities and limitations that often inform how they are used and in which applications. The most common operations on collections are:
 
 - Accessing elements of a collection
 - Modifying elements of a collection
