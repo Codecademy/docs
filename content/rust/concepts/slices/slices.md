@@ -21,11 +21,11 @@ The syntax for a slice in Rust is represented as `&[T]`, where `T` is the elemen
  let my_slice = &data_structure[start_index..end_index];
 ```
 
-- Where `data_structure` refers to the chosen data structure.
-- `start_index` denotes the starting point.
-- `end_index` represents one past the last element of the slice.
+- **data_structure:** Refers to the chosen data structure.
+- **start_index:** Denotes the starting point.
+- **end_index:** Represents one past the last element of the slice.
 
-This syntax is applicable to diverse data structures, enabling the creation of slices from different collections.
+> **Note:** This syntax is applicable to diverse data structures, enabling the creation of slices from different collections.
 
 ## Example
 
@@ -105,7 +105,7 @@ Complete slice: [1, 2, 3, 4, 5]
 
 In Rust, the mutability of slices permits the alteration of elements contained within the slice. When a slice is designated as mutable, it enables the modification of values within the slice. The creation of a mutable slice involves the usage of the `&mut` keyword.
 
-### Syntax
+## Syntax
 
 ```pesudo
 let slice = &mut data_structure[start_index..end_index];
@@ -113,7 +113,7 @@ let slice = &mut data_structure[start_index..end_index];
 
 The following example demonstrates how to modify an element in a mutable slice. In this case, the second element of the slice is changed from `3` to `10`:
 
-### Example
+## Example
 
 The following example demonstrates how to modify an element in a mutable slice. In this case, the second element of the slice is changed from `3` to `10`:
 
