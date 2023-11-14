@@ -1,6 +1,6 @@
 ---
 Title: 'Decoder'
-Description: 'A Swift protocol that converts external data into Swift types.'
+Description: 'Converts external data into Swift types.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
