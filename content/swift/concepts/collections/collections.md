@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-**Collections** are fundamental data structures in Swift for organizing, managing, and manipulating multiple elements. The collection's structured and efficient nature makes them essential tools for user interface development and general programming tasks. The most common types of collections in Swift include:
+**Collections** are fundamental data structures in Swift for organizing, managing, and manipulating multiple elements. A collection's structure and efficient operations make them essential tools for user interface development and general programming tasks. The most common types of collections in Swift include:
 
 - [Arrays](https://www.codecademy.com/resources/docs/swift/arrays)
 - [Dictionaries](https://www.codecademy.com/resources/docs/swift/dictionaries)
