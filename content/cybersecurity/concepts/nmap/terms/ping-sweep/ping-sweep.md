@@ -18,7 +18,7 @@ A **ping sweep** is a network scanning technique to identify active devices on a
 
 ## Syntax
 
-Below, all of the IP addresses that are currently online will be indentified without sending any packets to the hosts.
+Below, all of the IP addresses that are currently online will be identified without sending any packets to the hosts.
 
 ```pseudo
 nmap -sn subnetIP/mask
