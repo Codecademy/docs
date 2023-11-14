@@ -28,13 +28,27 @@ fun String.toInstant(): Instant
 ## Example
 
 ```kotlin
-val iso8601String = "2023-11-13T11:04:44+00:00"
+import java.time.Instant
+import java.time.LocalDateTime
+import java.time.OffsetDateTime
+import java.time.format.DateTimeFormatter
+import java.time.format.DateTimeParseException
 
-// Convert the ISO-8601 string to an Instant value.
-val instant = iso8601String.toInstant()
+fun main() {
+    val iso8601String = "2023-11-13T11:04:44+00:00"
 
-// Print the Instant value.
-println(instant)
+    // Define the formatter for the ISO-8601 date-time format
+    val formatter = DateTimeFormatter.ISO_OFFSET_DATE_TIME
+
+    // Parse the ISO-8601 string into a LocalDateTime object
+    val localDateTime = LocalDateTime.parse(iso8601String, formatter)
+
+    // Convert the LocalDateTime to Instant
+    val instant = localDateTime.toInstant(OffsetDateTime.now().offset)
+
+    // Print the Instant value
+    println(instant)
+}
 ```
 
 Output:
