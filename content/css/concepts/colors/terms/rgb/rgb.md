@@ -1,6 +1,6 @@
 ---
 Title: 'rgb()'
-Description: 'Defines the color by providing the red value, the green value, and the blue value.'
+Description: 'Defines a color by providing values for red, green, and blue.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -10,10 +10,9 @@ Tags:
 CatalogContent:
   - 'learn-css'
   - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
 ---
 
-Defines the color value by providing three comma separated values. The first value represents the red value, the second represents the green value, and the third represents the blue value.
+Defines a color by providing three comma separated values for red, green, and blue.
 
 ## Syntax
 
