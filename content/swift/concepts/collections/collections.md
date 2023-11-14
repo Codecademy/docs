@@ -32,7 +32,7 @@ var collectionName: collectionType = collectionElements
 - `collectionType` specifies the type of the collection and the [data type](https://www.codecademy.com/resources/docs/swift/data-types) of the elements in it. For instance, an array of integers can store a list of numbers, a dictionary of strings and integers can hold names with corresponding ages, or a set of unique URL values can keep track of visited websites. The choice of data type depends on the specific nature of the data to store and manage. Here are some commonly used collection types:
 
   | `collectionType` | Result                                                       |
-  |------------------|--------------------------------------------------------------|
+  | ---------------- | ------------------------------------------------------------ |
   | `[Int]`          | An array of integers.                                        |
   | `Set<String>`    | A set of strings.                                            |
   | `[String: Int]`  | A dictionary where keys are strings and values are integers. |
@@ -44,20 +44,20 @@ var collectionName: collectionType = collectionElements
 
 Swift provides a wide range of collections for different applications. The complete list of the types of collections are listed in the table below:
 
-| Name            | Type        | Definition |
-|-----------------|-------------|-------------------------------------------------------|
-| Array           | Fundamental | Ordered collection of elements of the same data type. |
-| Dictionary      | Fundamental | Unordered collection of key-value pairs.              |
-| Linked List     | Fundamental | Linear data structure consists of a sequence of nodes, each containing a value and a pointer to the next node in the list. |
-| Queue           | Fundamental | First-in-first-out data structure that allows adding and removing the elements in a specific order.  |
-| Range           | Specialized | Contiguous sequence of elements in a collection.      |
-| Set             | Fundamental | Unordered collection of unique elements.              |
+| Name            | Type        | Definition                                                                                                                   |
+| --------------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| Array           | Fundamental | Ordered collection of elements of the same data type.                                                                        |
+| Dictionary      | Fundamental | Unordered collection of key-value pairs.                                                                                     |
+| Linked List     | Fundamental | Linear data structure consists of a sequence of nodes, each containing a value and a pointer to the next node in the list.   |
+| Queue           | Fundamental | First-in-first-out data structure that allows adding and removing the elements in a specific order.                          |
+| Range           | Specialized | Contiguous sequence of elements in a collection.                                                                             |
+| Set             | Fundamental | Unordered collection of unique elements.                                                                                     |
 | Stack           | Fundamental | Last-in-first-out data structure allows developers to add and remove elements in the reverse order in which they were added. |
-| Slice           | Specialized | Mutable sequence of elements in a collection.         |
-| Tree            | Fundamental | Hierarchical data structure consisting of a root node and a collection of child nodes. |
-| Tuple           | Fundamental | Fixed-size collections that can hold elements of different data types. |
-| Lazy Collection | Specialized | Collection that is not evaluated until needed.  |
-| Collection View | Specialized | Specialized view that displays collections in user interfaces. |
+| Slice           | Specialized | Mutable sequence of elements in a collection.                                                                                |
+| Tree            | Fundamental | Hierarchical data structure consisting of a root node and a collection of child nodes.                                       |
+| Tuple           | Fundamental | Fixed-size collections that can hold elements of different data types.                                                       |
+| Lazy Collection | Specialized | Collection that is not evaluated until needed.                                                                               |
+| Collection View | Specialized | Specialized view that displays collections in user interfaces.                                                               |
 
 ## Working with Collections in Swift
 
@@ -69,29 +69,29 @@ Each collection has certain capabilities and limitations that often inform how t
 
 While some collections share common features, they also possess distinct characteristics, resulting in a broad range of available operations that can vary significantly. The table below catalogs some of these operations for the most widely used collections:
 
-| Collection                              | Array | Dictionary | Set | Tuple |
-|-----------------------------------------|-------|------------|-----|-------|
-| Access element / key-value pair         | `[]` subscript operator | `[]` subscript getter | - | `.` operator |
-| Add element / value for key             | `append()` method | `[]` subscript setter | `insert()` method | - |
-| Modify element                          | `[]` subscript operator | `[]` subscript setter | - | `.` operator |
-| Remove element / key-value pair         | `remove(at:)` method | `removeValue(forKey:)` method | `remove()` method | - |
-| Iterate over elements / key-value pairs | `for`-`in` loop | `for`-`in` loop | `for`-`in` loop | - |
-| Search for elements                     | `contains()` method | - | - | - |
-| Sort elements                           | `sorted()` method | - | - | - |
-| Filter elements                         | `filter()` method | - | - | - |
-| Check for membership / key              | - | `contains()` method | `contains()` method | - |
-| Find intersection                       | - | - | `intersection()` method | - |
-| Find union                              | - | - | `union()` method | - |
+| Collection                              | Array                   | Dictionary                    | Set                     | Tuple        |
+| --------------------------------------- | ----------------------- | ----------------------------- | ----------------------- | ------------ |
+| Access element / key-value pair         | `[]` subscript operator | `[]` subscript getter         | -                       | `.` operator |
+| Add element / value for key             | `append()` method       | `[]` subscript setter         | `insert()` method       | -            |
+| Modify element                          | `[]` subscript operator | `[]` subscript setter         | -                       | `.` operator |
+| Remove element / key-value pair         | `remove(at:)` method    | `removeValue(forKey:)` method | `remove()` method       | -            |
+| Iterate over elements / key-value pairs | `for`-`in` loop         | `for`-`in` loop               | `for`-`in` loop         | -            |
+| Search for elements                     | `contains()` method     | -                             | -                       | -            |
+| Sort elements                           | `sorted()` method       | -                             | -                       | -            |
+| Filter elements                         | `filter()` method       | -                             | -                       | -            |
+| Check for membership / key              | -                       | `contains()` method           | `contains()` method     | -            |
+| Find intersection                       | -                       | -                             | `intersection()` method | -            |
+| Find union                              | -                       | -                             | `union()` method        | -            |
 
 ## Performance of Collections
 
 The performance or efficiency of collections in Swift depends on several factors, including the type of collection, the collection size, the operations being performed on the collection, the implementation, and the compiler optimizations that are enabled. Higher performance implies that certain operations are faster and consume fewer resources, making them suitable for specific use cases. Lower performance indicates that some operations may be slower or resource-intensive in comparison. The table below separates the three most commonly used collections in terms of these basic definitions:
 
-| Collection | Higher Performance | Lower Performance |
-|------------|--------------------|-------------------|
-| Array      | Random access: Arrays store their elements in contiguous memory, which makes it easy to access any element in the array in constant time. |  Inserting and deleting elements: this can require shifting the elements of the array in memory. |
-| Dictionary |  Searching for elements: They store their key-value pairs using a hash table. | Random access: finding the key-value pair for a given key can take some time. |
-| Set        | Checking for membership and finding intersections, differences, and unions of sets: they store unique elements unordered. | Random access: elements are not stored in a contiguous memory location, so the entire set must be searched to access a specific element in a set. |
+| Collection | Higher Performance                                                                                                                        | Lower Performance                                                                                                                                 |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Array      | Random access: Arrays store their elements in contiguous memory, which makes it easy to access any element in the array in constant time. | Inserting and deleting elements: this can require shifting the elements of the array in memory.                                                   |
+| Dictionary | Searching for elements: They store their key-value pairs using a hash table.                                                              | Random access: finding the key-value pair for a given key can take some time.                                                                     |
+| Set        | Checking for membership and finding intersections, differences, and unions of sets: they store unique elements unordered.                 | Random access: elements are not stored in a contiguous memory location, so the entire set must be searched to access a specific element in a set. |
 
 ## Benefits of Using Collections
 
@@ -107,7 +107,7 @@ Collections are fundamental data structures in Swift that provide various benefi
 
 ## Example
 
-The following example initializes the `colors` array with four color names. Then, it showcases how to access elements by index. Afterward, the `append` method adds a new element to the `colors` array. Then, the example demonstrates removing an element from the array with the `remove` method. Finally, the example shows how to iterate through the `colors` array using a `for-in` loop and prints each color individually.
+The following example initializes the `colors` array with four color names. This array is then modified with the addition of an element, and the removal of another. Finally, a `for-in` loop is used to iterate through the array and print each color individually.
 
 ```swift
 // Define an array of strings
