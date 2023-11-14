@@ -45,7 +45,7 @@ fun main() {
 
 > **Note:** The string `2023-11-07T12:00:00Z` specifies date and time of November 7, 2023, at 12:00:00 UTC. The `T` separates the date and time components, and `Z` indicates that the time is in UTC.
 
-Output:
+The above example will result in the following output:
 
 ```shell
 At 2023-11-07T12:00:00Z, the offset from UTC in Asia/Kolkata is +05:30.
