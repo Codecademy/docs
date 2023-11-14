@@ -67,7 +67,7 @@ Slice without start index: [1, 2, 3]
 
 ### Excluding the End Index of a Slice
 
-This Example demonstrates how to create a slice from index `2` to the end of the array:
+This example demonstrates how to create a slice from index `2` to the end of the array:
 
 ```rust
 fn main() {
@@ -83,7 +83,7 @@ The above example will result in the following output:
 Slice without end index: [3, 4, 5]
 ```
 
-### Excluding both Start and End Index of a Slice
+### Excluding both the Start and End Index of a Slice
 
 This example displays the complete slice of the array, including all elements:
 
