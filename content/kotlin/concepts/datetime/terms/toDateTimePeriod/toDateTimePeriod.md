@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.toDateTimePeriod()`** method in Kotlin is a versatile function that transforms a Duration object into a DateTimePeriod representation. This conversion is useful when dealing with durations in Kotlin's date and time API, especially when the durations need to be expressed in terms of years, months, days, hours, minutes, seconds, and nanoseconds. The method normalizes the duration into a human-readable format for easier interpretation and manipulation.
+The **`.toDateTimePeriod()`** method in Kotlin is a versatile function that transforms a Duration object into a [DateTimePeriod](https://kotlinlang.org/api/kotlinx-datetime/kotlinx-datetime/kotlinx.datetime/-date-time-period/#:~:text=The%20date%20components%20are%3A%20years,periodUntil).) representation. This conversion is particularly useful when working with durations in Kotlin's date and time API, especially when expressing durations in terms of years, months, days, hours, minutes, seconds, and nanoseconds. The method normalizes the duration into a human-readable format for easier interpretation and manipulation.
 
 ## Syntax
 
