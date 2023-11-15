@@ -17,7 +17,7 @@ The Kotlin method, **`.dropLast()`** removes the last character of a string or t
 ## Syntax
 
 ```pseudo
-string.dropLast()
+string.dropLast(2)
 ```
 
 ### Special Cases
@@ -30,11 +30,12 @@ The example below creates a string, `string`, then uses the `.dropLast()` method
 
 ```kotlin
 import kotlin.test.*
-fun main(args: Array<Strings> {
+fun main(args: Array<String>) {
 val string = "Example String"
-println(string.dropLast())
+println(string.dropLast(1))
 println(string.dropLast(5))
 }
+
 ```
 
 The output will look like the following:
