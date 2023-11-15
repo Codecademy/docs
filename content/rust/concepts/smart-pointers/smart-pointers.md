@@ -101,7 +101,7 @@ The count after creating the third_tree is 3
 The count after third_tree goes out of scope is 2
 ```
 
-## ### RefCell&lt;T&gt; (Ref&lt;T&gt; and RefMut&lt;T&gt;)
+### RefCell&lt;T&gt; (Ref&lt;T&gt; and RefMut&lt;T&gt;)
 
 ```rust
 use std::cell::RefCell;
