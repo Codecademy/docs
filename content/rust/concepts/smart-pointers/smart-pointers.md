@@ -1,6 +1,6 @@
 ---
 Title: 'Smart Pointers'
-Description: 'Smart Pointers are abstract data types that store memory addresses of variables and have additional metadata and capabilities, such as automatic memory management and bounds checking.'
+Description: 'Smart Pointers are abstract data types that simulate pointers while providing additional features.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -19,15 +19,17 @@ CatalogContent:
 
 ### Box&lt;T&gt;
 
-The `Box<T>` smart pointer is used to store data on the heap rather than the stack. All that remains on the stack will be the pointer to the heap data.
+The `Box<T>` smart pointer is used to store data on the heap rather than the stack. All that remains on the stack is the pointer to the heap data.
 
 ```pseudo
 let boxed_value: Box<i32> = Box::new(42);
 ```
 
+- `boxed_value` in the example above is a variable of type `Box<i32>`. The result is a heap-allocated box that contains an Integer with the value of 42;
+
 ### Rc&lt;T&gt;
 
-The `Rc<T>` stands for Reference Counted smart pointer type. This pointer keeps a record of the number of references you have for each variable in your code. When the reference count reaches zero, they are no longer in use, and the smart pointer cleans them up.
+The `Rc<T>` stands for Reference Counted smart pointer type. This pointer keeps track of the number of references to each variable in your code. When the reference count reaches zero, indicating that they are no longer in use, and the smart pointer cleans them up.
 
 ```pseudo
 use std::rc::Rc;
@@ -35,15 +37,19 @@ use std::rc::Rc;
 let shared_value: Rc<i32> = Rc::new(42);
 ```
 
+- `shared_value` in the example above is a variable of type `Rc<i32>`. The result is a heap-allocated reference-counted smart pointer that contains an Integer with the value of 42;
+
 ### RefCell&lt;T&gt; (Ref&lt;T&gt; and RefMut&lt;T&gt;)
 
-The `RefCell<T>` is a smart pointer type that executes the borrowing rules at runtime rather than at compile time. RefCell<T> uses a design pattern called "interior mutability", which allows the data to be mutated with immutable references.
+The `RefCell<T>` is a smart pointer type that enforces borrowing rules at runtime instead of compile time. `RefCell<T>` employs a design pattern called "interior mutability," enabling the mutation of data with immutable references.
 
 ```pseudo
 use std::cell::RefCell;
 
 let mutable_data = RefCell::new(42);
 ```
+
+- `mutable_data` in the example above is a variable of type `RefCell<i32>`. The result is an instance of the `RefCell<T>` smart pointer, which provides interior mutability.
 
 ## Examples
 
@@ -57,7 +63,7 @@ fn main() {
 }
 ```
 
-This example results in the following output:
+The above example will result in the following output:
 
 ```shell
 Heap Data = 10
@@ -92,7 +98,7 @@ fn main() {
 }
 ```
 
-This example results in the following output:
+The above example will result in the following output:
 
 ```shell
 The count after creating the first_tree is 1
@@ -118,7 +124,7 @@ fn main() {
 }
 ```
 
-This example results in the following output:
+The above example will result in the following output:
 
 ```shell
 Updated data value: 50
