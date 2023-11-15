@@ -1,6 +1,6 @@
 ---
 Title: 'Smart Pointers'
-Description: 'Smart Pointers are abstract data types that store memory addresses of variables, but also have additional metadata and capabilities such as automatic memory management or bounds checking.'
+Description: 'Smart Pointers are abstract data types that store memory addresses of variables and have additional metadata and capabilities, such as automatic memory management and bounds checking.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Smart Pointers** are abstract data types that store memory addresses of variables, but also have additional metadata and capabilities such as automatic memory management or bounds checking. The most common smart pointers in Rust include `Box<T>`, `Rc<T>`, `Ref<T>` and `RefMut<T>`, which are accessed through `RefCell<T>`.
+**Smart Pointers** are abstract data types that store memory addresses of variables and have additional metadata and capabilities, such as automatic memory management and bounds checking. The most common smart pointers in Rust include `Box<T>`, `Rc<T>`, as well as `Ref<T>` and `RefMut<T>`, which are accessed through `RefCell<T>`.
 
 ## Syntax
 
