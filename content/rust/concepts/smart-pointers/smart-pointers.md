@@ -15,17 +15,39 @@ CatalogContent:
 
 **Smart Pointers** are abstract data types that store memory addresses of variables, but also have additional metadata and capabilities such as automatic memory management or bounds checking. The most common smart pointers in Rust include `Box<T>`, `Rc<T>`, `Ref<T>` and `RefMut<T>`, which are accessed through `RefCell<T>`.
 
+## Syntax
+
 ### Box&lt;T&gt;
 
 The `Box<T>` smart pointer is used to store data on the heap rather than the stack. All that remains on the stack will be the pointer to the heap data.
-
-## Syntax
 
 ```pseudo
 let boxed_value: Box<i32> = Box::new(42);
 ```
 
-## Example
+### Rc&lt;T&gt;
+
+The `Rc<T>` stands for Reference Counted smart pointer type. This pointer keeps a record of the number of references you have for each variable in your code. When the reference count reaches zero, they are no longer in use, and the smart pointer cleans them up.
+
+```pseudo
+use std::rc::Rc;
+
+let shared_value: Rc<i32> = Rc::new(42);
+```
+
+### RefCell&lt;T&gt; (Ref&lt;T&gt; and RefMut&lt;T&gt;)
+
+The `RefCell<T>` is a smart pointer type that executes the borrowing rules at runtime rather than at compile time. RefCell<T> uses a design pattern called "interior mutability", which allows the data to be mutated with immutable references.
+
+```pseudo
+use std::cell::RefCell;
+
+let mutable_data = RefCell::new(42);
+```
+
+## Examples
+
+### Box&lt;T&gt;
 
 ```rust
 fn main() {
@@ -42,18 +64,6 @@ Heap Data = 10
 ```
 
 ### Rc&lt;T&gt;
-
-The `Rc<T>` stands for Reference Counted smart pointer type. This pointer keeps a record of the number of references you have for each variable in your code. When the reference count reaches zero, they are no longer in use, and the smart pointer cleans them up.
-
-## Syntax
-
-```pseudo
-use std::rc::Rc;
-
-let shared_value: Rc<i32> = Rc::new(42);
-```
-
-## Example
 
 ```rust
 use std::rc::Rc;
@@ -91,19 +101,7 @@ The count after creating the third_tree is 3
 The count after third_tree goes out of scope is 2
 ```
 
-### RefCell&lt;T&gt; (Ref&lt;T&gt; and RefMut&lt;T&gt;)
-
-The `RefCell<T>` is a smart pointer type that executes the borrowing rules at runtime rather than at compile time. RefCell<T> uses a design pattern called "interior mutability", which allows the data to be mutated with immutable references.
-
-## Syntax
-
-```pseudo
-use std::cell::RefCell;
-
-let mutable_data = RefCell::new(42);
-```
-
-## Example
+## ### RefCell&lt;T&gt; (Ref&lt;T&gt; and RefMut&lt;T&gt;)
 
 ```rust
 use std::cell::RefCell;
