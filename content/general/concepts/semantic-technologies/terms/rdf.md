@@ -17,7 +17,9 @@ CatalogContent:
 
 ## RDF Triples
 
-RDF represents data in the format of **triples** -- ordered sets of three elements. The elements in an RDF triple stand for a subject, a predicate, and an object. An RDF triple can therefore be represented as follows:
+RDF represents data in the format of **triples** -- ordered sets of three elements. These elements signify a subject, a predicate, and an object.
+
+An RDF triple can therefore be represented as follows:
 
 ```pseudo
 subject, predicate, object
@@ -27,7 +29,7 @@ subject, predicate, object
 - *`predicate`*: A feature or property that applies to `subject`.
 - *`object`*: The value of the feature or property represented by `predicate`.
 
-To illustrate, take the sentence 'The novel *Pachinko* was written by Min Jin Lee'. The sentence conveys something about *Pachinko*: that it has a feature of having an author, and that this author is Min Jin Lee. This information can be represented by the following triple:
+As an illustration, consider the sentence 'The novel *Pachinko* was written by Min Jin Lee'. This sentence conveys some information about *Pachinko*, specifically: that it has the characteristic of having an author, and that this author is Min Jin Lee. This information can be represented using the following triple:
 
 ```pseudo
 Pachinko, hasAuthor, Min Jin Lee
@@ -56,7 +58,7 @@ Valid RDF must be a written in a concrete RDF syntax, also known as an **RDF ser
 
 **Turtle** is a compact RDF syntax intended to make RDF simple for humans to read and write.
 
-The most basic way to write RDF statements in Turtle is to enclose IRIs in angle brackets and end each statement with a period, like so:
+The most basic way to write RDF statements in Turtle is to enclose IRIs in angle brackets and end each statement with a period, as shown below:
 
 ```pseudo
 <http://books.com/books#pachinko> <http://document-ontology.org/ontology#hasAuthor> <https://www.minjinlee.com/about> .
@@ -64,7 +66,7 @@ The most basic way to write RDF statements in Turtle is to enclose IRIs in angle
 
 The above example represents the triple about *Pachinko* using IRIs that correspond to the subject (*Pachinko*), predicate (hasAuthor), and object (Min Jin Lee).
 
-However, Turtle allows for simpler formatting of statements by using IRI prefixes and grouping predicates and objects under a common subject, like so:
+However, Turtle allows for simpler formatting of statements by using IRI prefixes and grouping predicates and objects under a common subject, as shown below:
 
 ```pseudo
 BASE <http://books.com/books#>
