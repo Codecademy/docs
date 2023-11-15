@@ -17,7 +17,7 @@ CatalogContent:
 
 ## Syntax
 
-### Box&ltT%gt
+### Box&lt;T&gt;
 
 The `Box<T>` smart pointer is used to store data on the heap rather than the stack. All that remains on the stack will be the pointer to the heap data.
 
