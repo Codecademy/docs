@@ -12,7 +12,7 @@ CatalogContent:
   - 'learn-kotlin'
 ---
 
-**decodeFromHexString** is a method in Kotlin designed for efficiently decoding hex-encoded strings. Hexadecimal encoding is a common practice for representing binary data in a human-readable format. This method simplifies the process of converting hex-encoded strings back into their original binary form. This method is a counterpart to encodeToHexString.
+**`.decodeFromHexString()`** is a method in Kotlin designed to decode hex-encoded strings. Hexadecimal encoding is used for representing binary data in a human-readable format. This method simplifies the conversion of hex-encoded strings back into their original binary form. This method is a counterpart to encodeToHexString.
 
 
 ## Syntax
