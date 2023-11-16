@@ -48,10 +48,11 @@ Setting a `div` elements `box-sizing` to `content-box`.
 
 Examples 1 and 2 can be illustrated as follows:
 
+![Illustrates examples 1, and 2 with `box-sizing` set to `border-box`, and `content-box`](https://raw.githubusercontent.com/Codecademy/docs/main/media/box-sizing-example.png 'Box-Sizing Example')
+
 This output image has two `div` containers with a width of 300px, a border of 1px, and a padding of 20px. Inside each container is a `div` with a width of 100%.
 
 The first container `div` is set to `border-box`. Its total width including the black border, tan padding and blue `div` is 300px.
 
 The second container `div` is set to `content-box`. The width of the blue content `div` is 300px. The total width of the container `div` with padding and border and content `div` is 342px.
 
-![Box Sizing Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/box-sizing-example.png 'Box-Sizing Example')
