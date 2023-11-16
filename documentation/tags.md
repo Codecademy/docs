@@ -180,6 +180,7 @@ JRuby
 JSON
 JSK
 K-Nearest Neighbors
+Knowledge Graphs
 Kotlin
 Kubernetes
 Laravel
@@ -222,6 +223,7 @@ Numbers
 NumPy
 Objects
 Obsolete
+Ontologies
 OOP
 Open Source
 Operating Systems
