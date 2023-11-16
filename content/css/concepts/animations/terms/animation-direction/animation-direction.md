@@ -84,3 +84,6 @@ div {
   }
 }
 ```
+![Example 1 animation](https://raw.githubusercontent.com/Codecademy/docs/main/media/animation-direction-example1.gif)
+
+![Example 2 animation](https://raw.githubusercontent.com/Codecademy/docs/main/media/animation-direction-example2.gif)
