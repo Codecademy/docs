@@ -1,5 +1,5 @@
 ---
-Title: 'rdf'
+Title: 'RDF'
 Description: 'A language for representing semantic data.'
 Subjects:
   - 'Data Science'
