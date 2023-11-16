@@ -53,7 +53,7 @@ fun main() {
 
 The expected output should be similar to the following:
 
-```mathematica
+```shell
 Total Duration in DateTimePeriod: DateTimePeriod(days = 4, hours = 18)
 ```
 
