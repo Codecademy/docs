@@ -12,7 +12,7 @@ CatalogContent:
   - 'learn-kotlin'
 ---
 
-**decodeFromHexString** is a method in Kotlin designed for efficiently decoding hex-encoded strings. Hexadecimal encoding is a common practice for representing binary data in a human-readable format. This method simplifies the process of converting hex-encoded strings back into their original binary form. This method is a counterpart to encodeToHexString.
+**`.decodeFromHexString()`** is a method in Kotlin designed to decode hex-encoded strings. Hexadecimal encoding is used for representing binary data in a human-readable format. This method simplifies the conversion of hex-encoded strings back into their original binary form. This method is a counterpart to encodeToHexString.
 
 
 ## Syntax
@@ -20,10 +20,12 @@ CatalogContent:
 ```pseudo
 fun decodeFromHexString(hexString: String): ByteArray
 ```
+- `hexString` (Type: String): This is the input parameter for the function. It is the hexadecimal-encoded string that the function will decode.
+- `ByteArray`: This is the return of the function. The decodeFromHexString function returns an array of bytes (ByteArray).
 
 ## Example
 
-The example given below decodes encoded string **48656C6C6F2C20436F646541636164656D7921** and prints the decoded value - **Hello, CodeAcademy!**
+The example given below decodes encoded string `48656C6C6F2C20436F646541636164656D7921` and prints the decoded value.
 
 ```kotlin
 fun main() {
@@ -33,4 +35,8 @@ fun main() {
     println(String(decodedBytes)) // Output: Hello, CodeAcademy!
 }
 ```
+Running this function will produce a result
 
+```shell 
+Hello, CodeAcademy!
+```
