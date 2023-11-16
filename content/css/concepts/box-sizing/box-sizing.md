@@ -46,7 +46,7 @@ Setting a `div` elements `box-sizing` to `content-box`.
 }
 ```
 
-## Example 3
+Examples 1 and 2 can be illustrated as follows:
 
 The following image has two `div` containers with a width of 300px, border of 1px and padding of 20px. Inside each container there is a `div` with a width of 100%.
 
