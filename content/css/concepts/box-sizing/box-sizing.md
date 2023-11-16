@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `box-sizing` property allows us to include the padding and boarder in the calculation of an element's height and width. 
+The `box-sizing` property allows us to include the padding and boarder in the calculation of an element's height and width.
 
 ## Syntax
 
