@@ -50,6 +50,10 @@ div {
 }
 ```
 
+The following gif runs as a loop to demonstrate the code block above:
+
+![Animation duration example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/Animation-Duration-example-1.gif 'Animation duration example 1')
+
 ## Example 2
 
 Provide a second duration value to determine the duration of an additional animation:
@@ -85,3 +89,7 @@ div {
   }
 }
 ```
+
+The following gif runs as a loop to demonstrate the code block above:
+
+![Animation duration example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/Animation-Duration-example-2.gif 'Animation duration example 2')
