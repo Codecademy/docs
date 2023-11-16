@@ -50,6 +50,12 @@ Each of these terms is explained below:
 - *Literal*: A value representing a number, string, boolean, date/time, or other simple values.
 - *Blank node*: Blank nodes do not specify anything in particular. They allow for statements that say that something stands in a given relationship without identifying what that thing is. In practice, blank nodes are commonly avoided.
 
+The following is an example of a triple using IRIs for the subject and predicate, and a literal (integer value) for the object:
+
+```pseudo
+https://www.goodreads.com/en/book/show/130520, http://document-ontology.org/ontology#soldCopies, 2661988
+```
+
 ## RDF Serializations
 
 Valid RDF must be a written in a concrete RDF syntax, also known as an **RDF serialization**. Two important RDF serializations are briefly described below.
