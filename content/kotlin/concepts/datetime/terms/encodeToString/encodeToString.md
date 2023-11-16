@@ -18,12 +18,12 @@ The **`encodeToString()`** function is provided by the Kotlin Serialization libr
 
 ## Syntax
 
-```kotlin
+```pseudo
 fun <T> encodeToString(serializer: SerializationStrategy<T>, value: T): String
 ```
 
-- **serializer:** An instance of SerializationStrategy that defines how the data should be serialized.
-- **value:** The object or data to be serialized to a string.
+- `serializer:` An instance of SerializationStrategy that defines how the data should be serialized.
+- `value:` The object or data to be serialized to a string.
 
 ## Example
 
