@@ -1,6 +1,6 @@
 ---
 Title: 'Box Sizing'
-Description: 'Shorthand property that sets different properties for an elements border in a single declaration.'
+Description: 'Shorthand property that sets different ways to compute width and height for an element in a single declaration.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
