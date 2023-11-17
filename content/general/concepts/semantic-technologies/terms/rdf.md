@@ -25,11 +25,11 @@ An RDF triple can therefore be represented as follows:
 subject, predicate, object
 ```
 
-- *`subject`*: The element which the triple says something about.
-- *`predicate`*: A feature or property that applies to `subject`.
-- *`object`*: The value of the feature or property represented by `predicate`.
+- _`subject`_: The element which the triple says something about.
+- _`predicate`_: A feature or property that applies to `subject`.
+- _`object`_: The value of the feature or property represented by `predicate`.
 
-As an illustration, consider the sentence 'The novel *Pachinko* was written by Min Jin Lee'. This sentence conveys some information about *Pachinko*, specifically: that it has the characteristic of having an author, and that this author is Min Jin Lee. This information can be represented using the following triple:
+As an illustration, consider the sentence 'The novel _Pachinko_ was written by Min Jin Lee'. This sentence conveys some information about _Pachinko_, specifically: that it has the characteristic of having an author, and that this author is Min Jin Lee. This information can be represented using the following triple:
 
 ```pseudo
 Pachinko, hasAuthor, Min Jin Lee
@@ -45,10 +45,10 @@ In contrast to the above examples, the elements in a valid RDF triple cannot jus
 
 Each of these terms is explained below:
 
-- *IRI*: A generalization of [URI](https://www.codecademy.com/resources/docs/general/uri), IRIs identify and link to resources on private and public networks.
-- *Quoted triple*: An RDF triple used within a different RDF triple. Quoted triples allow statements to be made within RDF about other RDF statements.
-- *Literal*: A value representing a number, string, boolean, date/time, or other simple values.
-- *Blank node*: Blank nodes do not specify anything in particular. They allow for statements that say that something stands in a given relationship without identifying what that thing is. In practice, blank nodes are commonly avoided.
+- _IRI_: A generalization of [URI](https://www.codecademy.com/resources/docs/general/uri), IRIs identify and link to resources on private and public networks.
+- _Quoted triple_: An RDF triple used within a different RDF triple. Quoted triples allow statements to be made within RDF about other RDF statements.
+- _Literal_: A value representing a number, string, boolean, date/time, or other simple values.
+- _Blank node_: Blank nodes do not specify anything in particular. They allow for statements that say that something stands in a given relationship without identifying what that thing is. In practice, blank nodes are commonly avoided.
 
 The following is an example of a triple using IRIs for the subject and predicate, and a literal (integer value) for the object:
 
@@ -70,7 +70,7 @@ The most basic way to write RDF statements in Turtle is to enclose IRIs in angle
 <http://books.com/books#pachinko> <http://document-ontology.org/ontology#hasAuthor> <https://www.minjinlee.com/about> .
 ```
 
-The above example represents the triple about *Pachinko* using IRIs that correspond to the subject (*Pachinko*), predicate (hasAuthor), and object (Min Jin Lee).
+The above example represents the triple about _Pachinko_ using IRIs that correspond to the subject (_Pachinko_), predicate (hasAuthor), and object (Min Jin Lee).
 
 However, Turtle allows for simpler formatting of statements by using IRI prefixes and grouping predicates and objects under a common subject, as shown below:
 
