@@ -25,17 +25,24 @@ fun decodeFromHexString(hexString: String): ByteArray
 
 ## Example
 
-The example given below decodes encoded string `48656C6C6F2C20436F646541636164656D7921` and prints the decoded value.
+The example below decodes the encoded string `48656C6C6F2C20436F646541636164656D7921` and prints the decoded value.
 
 ```kotlin
+import kotlinx.serialization.decodeFromHexString
+import kotlinx.serialization.encodeToHexString
+import kotlinx.serialization.Serializable
+
+@Serializable
+data class HexString(val message: String)
+
 fun main() {
-    val hexString = "48656C6C6F2C20436F646541636164656D7921" // Hex-encoded string
-    val decodedBytes = decodeFromHexString(hexString)
-    
-    println(String(decodedBytes)) // Output: Hello, CodeAcademy!
+    val hexString = HexString("48656C6C6F2C20436F646541636164656D7921") // Hex-encoded string
+    val decodedData = decodeFromHexString(hexString)
+
+    println(decodedData.message) // Output: Hello, CodeAcademy!
 }
 ```
-Running this function will produce a result
+Running this example produces the following result:
 
 ```shell 
 Hello, CodeAcademy!
