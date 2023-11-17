@@ -84,6 +84,6 @@ div {
   }
 }
 ```
-![Example 1 animation](https://raw.githubusercontent.com/Codecademy/docs/main/media/animation-direction-example1.gif)
+![Animation of example 1 animation direction, reverse](https://raw.githubusercontent.com/Codecademy/docs/main/media/animation-direction-example1.gif)
 
-![Example 2 animation](https://raw.githubusercontent.com/Codecademy/docs/main/media/animation-direction-example2.gif)
+![Animation of example 2 animation direction, alternate and altrernate-reverse](https://raw.githubusercontent.com/Codecademy/docs/main/media/animation-direction-example2.gif)
