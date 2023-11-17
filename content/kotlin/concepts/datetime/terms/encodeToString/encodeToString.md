@@ -9,7 +9,7 @@ Tags:
   - 'Libraries'
   - 'JSON'
   - 'Strings'
-Catalog Content: 
+Catalog Content:
   - 'learn-kotlin'
   - 'paths/computer-science'
 ---
