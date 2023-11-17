@@ -5,7 +5,7 @@ Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
-  - 'Kotlin'
+  - 'Date'
   - 'Instant'
 CatalogContent:
   - 'learn-kotlin'
