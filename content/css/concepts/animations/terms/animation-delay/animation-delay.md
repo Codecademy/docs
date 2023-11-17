@@ -88,6 +88,6 @@ div {
 }
 ```
 
-![Examples 1 animations(https://raw.githubusercontent.com/Codecademy/docs/main/media/animation-delay-example1.gif)
+![Example 1 animation(https://raw.githubusercontent.com/Codecademy/docs/main/media/animation-delay-example1.gif)
 
-![Examples 2 animations(https://raw.githubusercontent.com/Codecademy/docs/main/media/animation-delay-example2.gif)
+![Example 2 animation(https://raw.githubusercontent.com/Codecademy/docs/main/media/animation-delay-example2.gif)
