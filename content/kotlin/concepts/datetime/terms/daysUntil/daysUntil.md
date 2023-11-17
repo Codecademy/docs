@@ -32,11 +32,11 @@ The example demonstrates the use of `.daysUntil()` to calculate the number of da
 import kotlinx.datetime.*
 
 fun main() {
-    val t1 = Instant.parse("2024-01-01T12:00:00Z")
-    val t2 = Instant.parse("2023-11-01T12:00:00Z")
+    val start = Instant.parse("2024-01-01T12:00:00Z")
+    val end = Instant.parse("2023-11-01T12:00:00Z")
     val defaultTZ = TimeZone.currentSystemDefault()
-    val t3 = t2.daysUntil(t1, defaultTZ)
-    println(t3)
+    val timeDelta = end.daysUntil(start, defaultTZ)
+    println(timeDelta)
 }
 ```
 
