@@ -24,7 +24,7 @@ duration.toDateTimePeriod(): DateTimePeriod
 
 - **duration:** This is a Duration object representing a length of time.
 
-> **Note:** The method returns a DateTimePeriod object, which is a normalized representation of the input duration in terms of larger time units (years, months, days, etc.).
+> **Note:** The method returns a DateTimePeriod object, a normalized representation of the input duration in terms of larger time units (years, months, days, etc.).
 
 ## Example
 
