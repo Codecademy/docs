@@ -6,7 +6,6 @@ Subjects:
   - 'Web Development'
   - 'Data Science'
 Tags:
-  - 'Kotlin'
   - 'Encoding'
 CatalogContent: 
   - 'learn-kotlin'
