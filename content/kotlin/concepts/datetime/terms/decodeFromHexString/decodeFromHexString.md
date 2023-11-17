@@ -21,7 +21,7 @@ fun decodeFromHexString(hexString: String): ByteArray
 ```
 
 - `hexString` (Type: String): This is the input parameter for the function. It is the hexadecimal-encoded string that the function will decode.
-- `ByteArray`: This is the return of the function. The decodeFromHexString function returns an array of bytes (ByteArray).
+- `ByteArray`: This is the return of the function. The `decodeFromHexString()` function returns an array of bytes (ByteArray).
 
 ## Example
 
