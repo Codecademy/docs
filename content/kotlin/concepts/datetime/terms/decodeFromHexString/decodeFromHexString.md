@@ -1,5 +1,5 @@
 ---
-Title: '.decodeFromHexString()'
+Title: 'decodeFromHexString()'
 Description: 'Exploring the decodeFromHexString method in Kotlin, a tool to handle hex-encoded strings.' 
 Subjects: 
   - 'Mobile Development'
