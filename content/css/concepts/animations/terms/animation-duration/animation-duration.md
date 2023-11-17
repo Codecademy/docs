@@ -52,7 +52,7 @@ div {
 
 The following gif runs as a loop to demonstrate the code block above:
 
-![Animation showing blue background transitioniing to white over 2 seconds](https://raw.githubusercontent.com/Codecademy/docs/main/media/animation-duration-example-1.gif 'Animation duration example 1')
+![Animation showing blue background transitioniing to white over 2 seconds](https://raw.githubusercontent.com/Codecademy/docs/main/media/Animation-Duration-example-1.gif 'Animation duration example 1')
 
 ## Example 2
 
@@ -92,4 +92,4 @@ div {
 
 The following gif runs as a loop to demonstrate the code block above:
 
-![Animation showing blue background transitioniing to white and back to blue over 4 seconds, and moving from right to left over 5000ms](https://raw.githubusercontent.com/Codecademy/docs/main/media/animation-duration-example-2.gif 'animation duration example 2')
+![Animation showing blue background transitioniing to white and back to blue over 4 seconds, and moving from right to left over 5000ms](https://raw.githubusercontent.com/Codecademy/docs/main/media/Animation-Duration-example-2.gif 'animation duration example 2')
