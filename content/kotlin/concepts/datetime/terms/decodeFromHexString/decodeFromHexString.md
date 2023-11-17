@@ -1,13 +1,13 @@
 ---
 Title: 'decodeFromHexString()'
-Description: 'Decodes hex-encoded strings.' 
-Subjects: 
+Description: 'Decodes hex-encoded strings.'
+Subjects:
   - 'Mobile Development'
   - 'Web Development'
   - 'Data Science'
 Tags:
   - 'Encoding'
-CatalogContent: 
+CatalogContent:
   - 'learn-kotlin'
 ---
 
@@ -41,8 +41,9 @@ fun main() {
     println(decodedData.message) // Output: Hello, CodeAcademy!
 }
 ```
+
 Running this example produces the following result:
 
-```shell 
+```shell
 Hello, CodeAcademy!
 ```
