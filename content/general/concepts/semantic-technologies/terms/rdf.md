@@ -5,7 +5,7 @@ Subjects:
   - 'Data Science'
 Tags:
   - 'Data'
-  - 'Semantic
+  - 'Semantic'
   - 'Metadata'
   - 'Tuples'
 CatalogContent:
@@ -17,7 +17,7 @@ CatalogContent:
 
 ## RDF Triples
 
-RDF represents data in the format of **triples** -- ordered sets of three elements. These elements signify a subject, a predicate, and an object.
+RDF represents data in the format of **triples** &mdash; ordered sets of three elements. These elements signify a subject, a predicate, and an object.
 
 An RDF triple can therefore be represented as follows:
 
