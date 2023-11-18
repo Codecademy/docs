@@ -28,30 +28,11 @@ The `.todayIn()` method will use an instant value from `Clock` and a time `TimeZ
 
 ```
 fun main() {
-  val todaysDate: LocalDate = Clock.System.todayIn(TimeZone.currentSystemDefault())
+    // Clock.System and TimeZone.currentSystemDefault() queries the operating system time and time zone, respectively.
+    val myVar = Clock.System.todayIn(timeZone = TimeZone.currentSystemDefault())
 
-  print(todaysDate)
-  // Output: YYYY-MM-DD (local time)
+    println(myVar)
+    // Output: YYYY-MM-DD
 
 }
 ```
-<!-- 
-## Codebyte Example (if applicable)
-
-We can currently support:
-
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
-
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
-
-```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
-```
--->
