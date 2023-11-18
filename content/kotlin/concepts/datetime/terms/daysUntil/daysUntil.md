@@ -5,7 +5,7 @@ Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
-  - 'Kotlin'
+  - 'Date'
   - 'Instant'
 CatalogContent:
   - 'learn-kotlin'
@@ -17,36 +17,31 @@ The **`.daysUntil()`** method calculates the number of whole days between two in
 ## Syntax
 
 ```pseudo
-fun Instant.daysUntil(other: Instant, timeZone: TimeZone): Int
+firstInstant.daysUntil(secondInstant, TimeZone)
 ```
 
-- `Instant`: A moment in time.
-- `TimeZone`: This parameter is of type `TimeZone`. It indicates that the calculation should consider the time zone when determining the number of days between the two `Instant` objects.
+- `firstInstant`: The first reference time.
+- `secondInstant`: The second time.
+- `TimeZone`: The timezone that the calculation should consider zone when determining the number of days between the two `Instant` objects.
 
 ## Example
 
 The example demonstrates the use of `.daysUntil()` to calculate the number of days between two `Instants`.
 
 ```kotlin
-import java.time.Instant
-import java.time.Duration
-fun Instant.daysUntil(other: Instant): Long {
-// Calculate the duration between 'this' Instant and 'other' Instant
-    val duration = Duration.between(this, other)
+import kotlinx.datetime.*
 
-// Convert the duration to days and return the result
-    return duration.toDays()
-}
 fun main() {
-    val t1 = Instant.parse("2008-09-29T12:00:00Z")
-    val t2 = t1.plus(Duration.ofHours(125))
-    val t3 = t2.daysUntil(t1)
-    println(t3)
+    val start = Instant.parse("2024-01-01T12:00:00Z")
+    val end = Instant.parse("2023-11-01T12:00:00Z")
+    val defaultTZ = TimeZone.currentSystemDefault()
+    val timeDelta = end.daysUntil(start, defaultTZ)
+    println(timeDelta)
 }
 ```
 
 The output of this code will be:
 
 ```shell
--5
+60
 ```
