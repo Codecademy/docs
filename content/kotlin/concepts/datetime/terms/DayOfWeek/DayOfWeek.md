@@ -1,6 +1,6 @@
 ---
 Title: 'DayOfWeek'
-Description: 'Useful tool for working with weekdays in the Kotlin code, making it easier to perform various operations and checks related to days of the week.'
+Description: 'Returns the name of the weekday based on the integer given, Monday is set as 1.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
@@ -17,18 +17,18 @@ The **`DayOfWeek`** method is used to return the `DayOfWeek` instance for the we
 ## Syntax
 
 ```pseudo
-fun DayOfWeek(isoDayNumber: Int): DayOfWeek
+DayOfWeek(isoDayNumber)
 ```
 
-- The `integer` value input into the method must correspond to one of the seven days in the `DayOfWeek` enumeration class. The numbering follows the ISO-8601 weekday number, where `Monday` is `1` and `Sunday` is `7`.
-- The enumeration class entries have two properties: `Name`, which is represented by a `string`, and the `Ordinal`, which is represented as an `integer`.
+- `isoDayNumber`: An integer value that must correspond to one of the seven days in the `DayOfWeek` enumeration class. The numbering follows the ISO-8601 weekday number, where `Monday` is `1` and `Sunday` is `7`.
+- The enumeration class entries have two properties: `Name`, which is represented by a `string`, and the `Ordinal`, which is represented as an integer.
 
 ## Example
 
-Here is an example of how to call the `DayOfWeek` method from main:
+Here is an example of how to call the `DayOfWeek` method:
 
-```kolin
-import java.time.DayOfWeek
+```kotlin
+import kotlinx.datetime.*
 
 fun main() {
     val day = DayOfWeek.of(3)
