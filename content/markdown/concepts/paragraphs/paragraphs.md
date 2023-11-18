@@ -30,7 +30,7 @@ Lo. Lee. Ta.
 
 ## Line Breaks
 
-Line breaks in pargraphs can be created with double newlines or using a `\` symbol.
+Line breaks in paragraphs can be created with double newlines or using a `\` symbol.
 
 ```md
 Success seems to be connected with action. Successful people keep moving.
