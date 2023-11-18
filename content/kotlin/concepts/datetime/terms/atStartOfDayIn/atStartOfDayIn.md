@@ -28,17 +28,16 @@ fun LocalDate.atStartOfDayIn(TimeZone): Instant
 
 ## Example
 
-The following example demonstrates how to use **`.atStartOfDayIn`**.
+The following example demonstrates how to use `.atStartOfDayIn`.
 
 ```kotlin
-import kotlinx.datetime.LocalDate
-import kotlinx.datetime.TimeZone
+import kotlinx.datetime.*
 
 fun main() {
-    val localDate = LocalDate(2023, 11, 9)
-    val timeZone = TimeZone.UTC
-    val startOfDayDateTime = localDate.atStartOfDayIn(timeZone)
-    println("Start of the day November 9th, 2023 in UTC is: $startOfDayDateTime")
+    val todaysDate = LocalDate(2023, 11, 18)
+    val myTimeZone = TimeZone.UTC
+    val startOfToday = todaysDate.atStartOfDayIn(myTimeZone)
+    println("Start of the day November 18th, 2023 in UTC is: $startOfToday")
 }
 
 ```
@@ -46,5 +45,5 @@ fun main() {
 The output of the example above is:
 
 ```shell
-Start of the day November 9th, 2023 in UTC is: 2023-11-09T00:00Z
+Start of the day November 18th, 2023 in UTC is: 2023-11-18T00:00Z
 ```
