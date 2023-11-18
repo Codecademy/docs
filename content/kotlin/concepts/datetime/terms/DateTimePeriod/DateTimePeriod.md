@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.DateTimePeriod`** function helps to make a new `DateTimePeriod` object that tells you how much time has passed between two dates (even up to nanoseconds). If nothing is passed into the function, it returns a `DatePeriod` object by default. You can use this function to set how many years, months, days, hours, minutes, seconds, and even nanoseconds are between two dates.
+The **`.DateTimePeriod()`** function creates a DateTimePeriod object indicating the time difference between two dates, including nanoseconds. When no arguments are passed, it defaults to a DatePeriod object. This function allows the definition of the duration in years, months, days, hours, minutes, seconds, and nanoseconds between the specified dates.
 
 ## Syntax
 
@@ -29,13 +29,13 @@ fun DateTimePeriod(
 ): DateTimePeriod
 ```
 
-The function takes in up to seven parameters, and it is recommended to always explicitly name the arguments when constructing the function, like `DateTimePeriod(years = 1, months = 12)`. If all the time components are set to zero, the function will return a `DatePeriod` object.
+The function accepts a maximum of seven parameters, and it is advisable to explicitly name the arguments during function construction, such as DateTimePeriod(years = 1, months = 12). When all time components are set to zero, the function yields a DatePeriod object.
 
-> **Note:** The function will throw an `IllegalArgumentException` if any of the inputs overflows a Long.
+> **Note:** An IllegalArgumentException will be thrown by the function in case any of the inputs surpasses the capacity of a Long.
 
 ## Example
 
-The following example shows how to use the **`.DateTimePeriod`** function to add two weeks to a given date.
+The following example shows how to use the **`.DateTimePeriod()`** function to add two weeks to a given date.
 
 ```kotlin
 import kotlinx.datetime.* // import all classes from datime package
