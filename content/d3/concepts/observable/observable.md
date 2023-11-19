@@ -9,7 +9,7 @@ Tags:
   - 'Libraries'
   - 'IDE'
 CatalogContent:
-  - 'introduction-to-javascript'
+  - 'interactive-data-visualization-with-generative-ai'
   - 'paths/computer-science'
 ---
 
@@ -25,7 +25,7 @@ An Observable notebook consists of a number of cells that can support a variety 
 
 ### Data Access
 
-Notebooks provide a variety of ways to bring in data, allowing for flexibility and customization, but some alternatives may require more setup. Perhaps the easiest option is having a local Excel or CSV which can be added straightforwardly via drag-and-drop. However, there's also the ability to pull directly from a database, to import data from another notebook, and many other options.
+Notebooks provide a variety of ways to bring in data, allowing for flexibility and customization, but some alternatives may require more setup. Perhaps the easiest option is having a local Excel or CSV file which can be added straightforwardly via drag-and-drop. However, there's also the ability to pull directly from a database, to import data from another notebook, and many other options.
 
 ### Observable JS
 
