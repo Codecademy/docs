@@ -54,7 +54,7 @@ for n in 1...4 {
 }
 ```
 
-This will output:
+The above example will result in the following output:
 
 ```shell
 🌲
