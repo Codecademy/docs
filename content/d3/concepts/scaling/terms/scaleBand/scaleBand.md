@@ -30,6 +30,7 @@ d3.scaleBand()
 - `outerPadding`: Optional. Specifies the padding before the first band and after the last band, as a fraction of the band width (default is 0.).
 
 ## Example
+
 The example code below defines an array of emojis, creates a band scale, and logs the x-axis positions of each emoji.
 
 ```js
@@ -57,5 +58,3 @@ The result of the above code is as follows:
     Position of 🍊: 120
     Position of 🍓: 160
 ```
-
-Adjust the padding and the range width for different visual effects. Have fun exploring the world of emoji scales! 🌈😊
