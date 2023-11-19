@@ -12,13 +12,13 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-**Ranges** are used to create an interval of values. There are two kinds of range [structures](https://www.codecademy.com/resources/docs/swift/structures), `Range` and `ClosedRange`.
+**Ranges** are used to create an interval of values. There are two kinds of range [structures](https://www.codecademy.com/resources/docs/swift/structures), `Range` for creating half-open ranges and `ClosedRange` for creating closed ranges.
 
 ## Creating Ranges
 
-`Range` instances are declared using the `..<` half-open range operator. They include values from a lower bound up to, but **excluding** an upper bound.
+### Half-open Ranges
 
-`ClosedRange` instances are declared using the `...` closed range operator. They contain values from a lower bound up to and **including** an upper bound.
+`Range` instances are declared using the `..<` half-open range operator. They include values from a lower bound up to, but **excluding** an upper bound.
 
 The syntax below shows how to create a half-open range with `lower` as the lower bound value and `upper` as the upper bound value:
 
@@ -26,7 +26,11 @@ The syntax below shows how to create a half-open range with `lower` as the lower
 let newRange = lower..<upper
 ```
 
-A closed range can be created similarly:
+### Closed Ranges
+
+`ClosedRange` instances are declared using the `...` closed range operator. They contain values from a lower bound up to and **including** an upper bound.
+
+The syntax below shows how to create a closed range with `lower` as the lower bound value and `upper` as the upper bound value:
 
 ```pseudo
 let newClosedRange = lower...upper
@@ -42,7 +46,7 @@ Some useful applications of ranges are:
 
 ### For-in Loop Example
 
-The example below uses **for-in loops** with a `Range` and then a `closedRange` to print some emoji trees:
+The example below uses **for-in loops** with a half-open range and then a closed range to print some emoji trees:
 
 ```swift
 for n in 1..<4 {
@@ -68,7 +72,7 @@ The above example will result in the following output:
 
 ### Switch Example
 
-The example below uses a switch statement and a range to determine which emoji to print depending on the value of `treeHeight`:
+The example below uses a switch statement and a closed range to determine which emoji to print depending on the value of `treeHeight`:
 
 ```swift
 let treeHeight = 2
@@ -89,7 +93,7 @@ The above example will result in the following output:
 
 ### Array Example
 
-The example below prints out a section of the `tree` array using a range to select the element indexes:
+The example below prints out a section of the `tree` array using a closed range to select the element indexes:
 
 ```swift
 let trees = ["Pine", "Oak", "Ash", "Willow", "Olive"]
