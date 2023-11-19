@@ -31,7 +31,7 @@ fun DateTimePeriod(
 
 The function accepts a maximum of seven parameters, and it is advisable to explicitly name the arguments during function construction, such as DateTimePeriod(years = 1, months = 12). When all time components are set to zero, the function yields a DatePeriod object.
 
-> **Note:** An IllegalArgumentException will be thrown by the function in case any of the inputs surpasses the capacity of a Long.
+> **Note:** An `IllegalArgumentException` will be thrown by the function in case any of the inputs surpasses the capacity of a Long.
 
 ## Example
 
