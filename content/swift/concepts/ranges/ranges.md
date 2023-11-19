@@ -97,7 +97,7 @@ let trees = ["Pine", "Oak", "Ash", "Willow", "Olive"]
 print(trees[2...4])
 ```
 
-This will output:
+The above example will result in the following output:
 
 ```shell
 ["Ash", "Willow", "Olive"]
