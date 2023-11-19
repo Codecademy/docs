@@ -37,9 +37,7 @@ let newClosedRange = lower...upper
 Some useful applications of ranges are:
 
 - For iteration with for-in [loops](https://www.codecademy.com/resources/docs/swift/loops).
-
 - In [switch](https://www.codecademy.com/resources/docs/swift/switch) statements to find out if a value lies within an interval.
-
 - Selecting a section of an [array](https://www.codecademy.com/resources/docs/swift/arrays).
 
 ### For-in Loop Example
