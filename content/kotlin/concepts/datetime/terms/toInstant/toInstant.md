@@ -28,25 +28,13 @@ fun String.toInstant(): Instant
 ## Example
 
 ```kotlin
-import java.time.Instant
-import java.time.LocalDateTime
-import java.time.OffsetDateTime
-import java.time.format.DateTimeFormatter
-import java.time.format.DateTimeParseException
+import kotlinx.datetime.toInstant
 
 fun main() {
     val iso8601String = "2023-11-13T11:04:44+00:00"
 
-    // Define the formatter for the ISO-8601 date-time format
-    val formatter = DateTimeFormatter.ISO_OFFSET_DATE_TIME
+    val instant = iso8601String.toInstant()
 
-    // Parse the ISO-8601 string into a LocalDateTime object
-    val localDateTime = LocalDateTime.parse(iso8601String, formatter)
-
-    // Convert the LocalDateTime to Instant
-    val instant = localDateTime.toInstant(OffsetDateTime.now().offset)
-
-    // Print the Instant value
     println(instant)
 }
 ```
