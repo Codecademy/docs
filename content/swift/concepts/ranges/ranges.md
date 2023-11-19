@@ -14,19 +14,19 @@ CatalogContent:
 
 **Ranges** are used to create an interval of values. There are two kinds of range [structures](https://www.codecademy.com/resources/docs/swift/structures), `Range` and `ClosedRange`.
 
-`Range` instances are declared using the `..<` operator. They include values from a lower bound up to, but **excluding** an upper bound.
-
-`ClosedRange` instances are declared using the `...` operator. They contain values from a lower bound up to and **including** an upper bound.
-
 ## Creating Ranges
 
-The syntax below shows how to create a `Range` with `lower` as the lower bound value and `upper` as the upper bound value:
+`Range` instances are declared using the `..<` half-open range operator. They include values from a lower bound up to, but **excluding** an upper bound.
+
+`ClosedRange` instances are declared using the `...` closed range operator. They contain values from a lower bound up to and **including** an upper bound.
+
+The syntax below shows how to create a half-open range with `lower` as the lower bound value and `upper` as the upper bound value:
 
 ```pseudo
 let newRange = lower..<upper
 ```
 
-A `ClosedRange` can be created similarly:
+A closed range can be created similarly:
 
 ```pseudo
 let newClosedRange = lower...upper
