@@ -40,8 +40,6 @@ fun main() {
     println("Start of the day November 18th, 2023 in UTC is: $startOfToday")
 }
 
-```
-
 The output of the example above is:
 
 ```shell
