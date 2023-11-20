@@ -48,7 +48,7 @@ Each of these terms is explained below:
 - _IRI_: A generalization of [URI](https://www.codecademy.com/resources/docs/general/uri), IRIs identify and link to resources on private and public networks.
 - _Quoted triple_: An RDF triple used within a different RDF triple. Quoted triples allow statements to be made within RDF about other RDF statements.
 - _Literal_: A value representing a number, string, boolean, date/time, or other simple values.
-- _Blank node_: Blank nodes do not specify anything in particular. They allow for statements that say that something stands in a given relationship without identifying what that thing is.
+- _Blank node_: Do not specify a particular entity. Blank nodes allow stating that something stands in a given relationship without identifying what that thing is.
 
 The following is an example of a triple using IRIs for the subject and predicate, and a literal (integer value) for the object:
 
