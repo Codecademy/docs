@@ -21,9 +21,6 @@ CatalogContent:
 ```pseudo
 fun String.toInstant(): Instant
 ```
-* String: This is the type of the receiver object for the function.
-* toInstant(): This is the name of the function.
-* Instant: This is the return type of the function.
 
 ## Example
 
