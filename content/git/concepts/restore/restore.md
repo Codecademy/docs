@@ -12,7 +12,7 @@ CatalogContent:
   - 'learn-git'
 ---
 
-The **`restore`** command enables developers to restore files to a specific state. This functionality allows you to undo any changes made to files in both your working directory and staging area. This command is especially valuable when you need to revert alterations, whether they have been staged for a commit or not.
+The **`restore`** command enables developers to restore files to a specific state. This functionality restoring to undo any changes made to files in both the working directory and staging area. This command is particularly valuable when reverting alterations, whether staged for a commit or not.
 
 ## Syntax
 
@@ -22,17 +22,17 @@ The syntax of the `git restore` command is as follows:
 git restore <options> -- <file>
 ```
 
-There are nine additional options for `git restore`:
+Nine additional options are available for `git restore`:
 
-- `-s <tree> --source=<tree>`: This option allows you to restore the working tree files with the content from the given tree.
-- `-p --patch`: This option allows you to interactively select hunks in the difference between the restore source and the restore location.
-- `-W --worktree -S --staged`: These options specify the restore location. If neither option is specified, by default the working tree is restored.
-- `-q --quiet`: This option suppresses feedback messages and implies `--no-progress`.
-- `--progress --no-progress`: These options control progress status reporting.
-- `--ours --theirs`: These options are used when restoring files in the working tree from the index, to use stage #2 (ours) or #3 (theirs) for unmerged paths.
-- `-m --merge`: This option recreates the conflicted merge in the unmerged paths when restoring files on the working tree from the index.
-- `--conflict=<style>`: This option changes the way conflicting hunks are presented, overriding the `merge.conflictStyle` configuration variable.
-- `--ignore-unmerged`: This option allows you to restore files on the working tree from the index without aborting if there are unmerged entries.
+- `-s <tree> --source=<tree>`: Allows restoring the working tree files with the content from the specified tree.
+- `-p --patch`: Enables interactive selection of hunks in the difference between the restore source and the restore location.
+- `-W --worktree -S --staged`: Specifies the restore location. If neither option is specified, by default the working tree is restored by default.
+- `-q --quiet`: Suppresses feedback messages and implies `--no-progress`.
+- `--progress --no-progress`: Control progress status reporting.
+- `--ours --theirs`: Used when restoring files in the working tree from the index, to use stage #2 (ours) or #3 (theirs) for unmerged paths.
+- `-m --merge`: Recreates the conflicted merge in the unmerged paths when restoring files to the working tree from the index.
+- `--conflict=<style>`: Modifies the presentation of conflicting hunks, overriding the `merge.conflictStyle` configuration variable.
+- `--ignore-unmerged`: Allows restoring files to the working tree from the index without aborting due to unmerged entries.
 
 ## Example
 
