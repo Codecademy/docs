@@ -33,8 +33,6 @@ text = 'Hello Contributors'
 left_aligned_text = text.ljust(20, '!')
 print(left_aligned_text)
 
-```
-
 This code will result in the following output:
 
 ```shell
