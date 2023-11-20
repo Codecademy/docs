@@ -14,47 +14,38 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.toDateTimePeriod()`** method in Kotlin is a versatile function that transforms a Duration object into a [DateTimePeriod](https://kotlinlang.org/api/kotlinx-datetime/kotlinx-datetime/kotlinx.datetime/-date-time-period/#:~:text=The%20date%20components%20are%3A%20years,periodUntil).) representation. This conversion is particularly useful when working with durations in Kotlin's date and time API, especially when expressing durations in terms of years, months, days, hours, minutes, seconds, and nanoseconds. The method normalizes the duration into a human-readable format for easier interpretation and manipulation.
+The **`.toDateTimePeriod()`** method in Kotlin is a versatile function that transforms an ISO-8601 formatted string into a `DateTimePeriod` object. This conversion is particularly useful when working with durations, especially when expressing durations in terms of years, months, days, hours, minutes, seconds, and nanoseconds.
 
 ## Syntax
 
 ```pseudo
-duration.toDateTimePeriod(): DateTimePeriod
+isoString.toDateTimePeriod()
 ```
 
-- `duration`: This is a Duration object representing a length of time.
+- `isoString`: A string representing a length of time utilizing the ISO-8601 format (e.g., 1 day = `P1D`, 1 hour = `PT1H`).
 
-> **Note:** The method returns a DateTimePeriod object, a normalized representation of the input duration in terms of larger time units (years, months, days, etc.).
+> **Note:** This method can also operate on `Duration` objects that are part of the `kotlin.time` library, but this is still experimental and many of the original methods have been deprecated.
 
 ## Example
 
 ```kotlin
-import kotlin.time.Duration
-import kotlinx.datetime.DateTimePeriod
+import kotlinx.datetime.*
 
 fun main() {
-    // Durations for different activities in hours
-    val designingDuration = Duration.hours(31)  
-    val codingDuration = Duration.hours(57) 
-    val testingDuration = Duration.hours(14)    
+  val newPeriod = "P3DT12H".toDateTimePeriod()
+  val theDays = newPeriod.days
+  val theHours = newPeriod.hours
 
-    // Summing up all durations
-    val totalDuration = designingDuration + codingDuration + testingDuration
-
-    // Optionally, adding some extra time for breaks 
-    val totalWithDurationBreaks = totalDuration + Duration.hours(12)
-
-    // Converting the total duration with breaks to a DateTimePeriod
-    val dateTimePeriod = totalWithDurationBreaks.toDateTimePeriod()
-
-    println("Total Duration in DateTimePeriod: $dateTimePeriod")
+  println("Total days in the period: $theDays")
+  println("Total hours in the period: $theHours")
 }
 ```
 
-The expected output should be similar to the following:
+The code above will output the following:
 
 ```shell
-Total Duration in DateTimePeriod: DateTimePeriod(days = 4, hours = 18)
+Total days in the period: 3
+Total hours in the period: 12
 ```
 
->**Note:** `Exception Throws (IllegalArgumentException)-` if the total number of months in hours, minutes, seconds, and nanoseconds overflows a Long.
+> **Note:** An `IllegalArgumentException` is raised if the total number of months in hours, minutes, seconds, and nanoseconds overflows a Long or if the string cannot be parsed.
