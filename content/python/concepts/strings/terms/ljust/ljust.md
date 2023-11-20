@@ -57,5 +57,4 @@ example_length = 0
 example_character = " "
 exampleString = exampleString.ljust(example_length, example_character)
 print(exampleString)
-
 ```
