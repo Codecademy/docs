@@ -43,6 +43,7 @@ Making an `img` element float to the left of its container.
   float: left;
 }
 ```
+
 This results in the following output:
 
 ![An img element floating to the left of its container](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-display-float-example.png)
