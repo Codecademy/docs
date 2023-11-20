@@ -19,7 +19,7 @@ The **`.tint()`** modifier sets the tint color displayed in a [view](https://www
 
 ```pseudo
 Button("This is a button")
-    .tint(color)
+  .tint(color)
 ```
 
 The `.tint()` applies the `color` to the `Button` which conforms to the `View` protocol.
@@ -28,10 +28,10 @@ The `.tint()` applies the `color` to the `Button` which conforms to the `View` p
 
 ```swift
 struct ContentView: View {
-    var body: some View {
-        Button("This is a button")
-            .tint(.blue)
-    }
+  var body: some View {
+      Button("This is a button")
+          .tint(.blue)
+  }
 }
 ```
 
