@@ -18,7 +18,7 @@ The **`.ljust()`** method left-aligns a string with a specified fill character
 ## Syntax
 
 ```pseudo
-string.ljust(length,fillchar)
+string.ljust(length, fillchar)
 ```
 
 The `.ljust()` method is used to left align the string with the width specified. If the specified width is more than the length of the string, then the remaining part of the string is filled with `fillchar`
