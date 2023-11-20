@@ -29,9 +29,7 @@ import kotlinx.datetime.toInstant
 
 fun main() {
     val iso8601String = "2023-11-13T11:04:44+00:00"
-
     val instant = iso8601String.toInstant()
-
     println(instant)
 }
 ```
