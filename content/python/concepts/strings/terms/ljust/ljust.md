@@ -21,8 +21,8 @@ The **`.ljust()`** method left-aligns a string with a specified fill character
 string.ljust(length, fillchar)
 ```
 
-- `length`:
-- `fillchar`:
+- `length`: The length of the returned string
+- `fillchar`: A character to fill the missing space (to the right of the string). Default is " " (space).
 
 ## Examples
 
