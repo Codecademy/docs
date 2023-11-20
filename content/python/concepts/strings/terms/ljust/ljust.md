@@ -20,10 +20,11 @@ The method **`.ljust()`** adds padding of a specified length to the right of a g
 ```pseudo
 string.ljust(length, fillchar)
 ```
+
 ### Required Parameters
 
 - `string`: The string to be modified with padding.
-- `length`: An integer used to determine how many characters of padding will be added. The number of padding characters will be equal to `length` minus the length of `string_parameter`.
+- `length`: An integer used to determine how many characters of padding will be added. The number of padding characters will be equal to `length` minus the length of `string`.
 
 ### Optional Parameters
 
@@ -37,6 +38,7 @@ The default `fillchar` is a blank space. The original string is retrieved if the
 text = 'Hello Contributors'
 left_aligned_text = text.ljust(20, '!')
 print(left_aligned_text)
+```
 
 This code will result in the following output:
 
