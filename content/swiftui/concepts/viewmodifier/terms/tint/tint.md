@@ -40,3 +40,5 @@ In the above example, the `.tint()` modifier with the `.blue` parameter is calle
 This will display the following:
 
 ![SwiftUI Button with blue tint color](https://raw.githubusercontent.com/Codecademy/docs/main/media/SwiftUI-tint-display.png)
+
+> **Note**: When a tint is applied to a view hierarchy, it only affects the text inside controls, like buttons and links, not plain Text views.
