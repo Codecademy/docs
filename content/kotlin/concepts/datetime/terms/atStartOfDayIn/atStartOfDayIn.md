@@ -39,6 +39,7 @@ fun main() {
     val startOfToday = todaysDate.atStartOfDayIn(myTimeZone)
     println("Start of the day November 18th, 2023 in UTC is: $startOfToday")
 }
+```
 
 The output of the example above is:
 
