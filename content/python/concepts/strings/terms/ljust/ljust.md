@@ -13,15 +13,20 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.ljust()`** method left-aligns a string with a specified fill character
+The method **`.ljust()`** adds padding of a specified length to the right of a given string. The user can specify a character to use as the padding. The number of padding characters added is equal to the length specified in the method call minus the length of the string provided.
 
 ## Syntax
 
 ```pseudo
 string.ljust(length, fillchar)
 ```
+### Required Parameters
 
-- `length`: The length of the returned string
+- `string`: The string to be modified with padding.
+- `length`: An integer used to determine how many characters of padding will be added. The number of padding characters will be equal to `length` minus the length of `string_parameter`.
+
+### Optional Parameters
+
 - `fillchar`: A character to fill the missing space (to the right of the string). Default is " " (space).
 
 ## Examples
@@ -44,11 +49,13 @@ Hello Contributors!!
 
 ## Codebyte Example
 
-The following code is runnable and uses the `.ljust()` method.
+The code below is runnable, change the value of `exampleString`, `your_length`, and `your_character` to test the `.rjust()` method.
 
 ```codebyte/python
 exampleString = 'User, Welcome to docs'
-exampleString = exampleString.ljust(22, '!')
+example_length = 0
+example_character = " "
+exampleString = exampleString.ljust(example_length, example_character)
 print(exampleString)
 
 ```
