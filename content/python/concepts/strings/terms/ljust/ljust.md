@@ -49,7 +49,7 @@ Hello Contributors!!
 
 ## Codebyte Example
 
-The code below is runnable, change the value of `exampleString`, `your_length`, and `your_character` to test the `.rjust()` method.
+The code below is runnable, change the value of `exampleString`, `example_length`, and `example_character` to test the `.rjust()` method.
 
 ```codebyte/python
 exampleString = 'User, Welcome to docs'
