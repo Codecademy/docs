@@ -26,7 +26,7 @@ string.ljust(length, fillchar)
 
 ## Examples
 
-The default fillchar is a blank space. The original string is retrieved if the width is less than or equal to the given string length.
+The default `fillchar` is a blank space. The original string is retrieved if the length is less than or equal to the given string's length.
 
 ```python
 text = 'Hello Contributors'
