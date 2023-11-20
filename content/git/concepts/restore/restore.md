@@ -36,7 +36,7 @@ Nine additional options are available for `git restore`:
 
 ## Example
 
-In the above example, the initial [`git status`](https://www.codecademy.com/resources/docs/git/status) command shows that there are changes in the `index.html` file that have not been staged for a commit. It suggests using [`git add`](https://www.codecademy.com/resources/docs/git/add) to stage these changes. However, the user decides to use `git restore index.html` to discard the changes in the working directory and revert the file to its last committed state. After running this command and checking [`git status`](https://www.codecademy.com/resources/docs/git/status) again, the working directory is now clean, indicating that there are no pending changes, and there's nothing left to commit.
+In this example, the initial [`git status`](https://www.codecademy.com/resources/docs/git/status) command shows that there are changes in the `index.html` file that have not been staged for a commit. It suggests using [`git add`](https://www.codecademy.com/resources/docs/git/add) to stage these changes. However, the user decides to use `git restore index.html` to discard the changes in the working directory and revert the file to its last committed state. After running this command and checking [`git status`](https://www.codecademy.com/resources/docs/git/status) again, the working directory is now clean, indicating that there are no pending changes, and there's nothing left to commit.
 
 ```shell
 $ git status
