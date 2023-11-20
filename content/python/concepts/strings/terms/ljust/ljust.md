@@ -37,7 +37,7 @@ print(left_aligned_text)
 This code will result in the following output:
 
 ```shell
-Hello Contributors
+Hello Contributors!!
 
 ```
 
