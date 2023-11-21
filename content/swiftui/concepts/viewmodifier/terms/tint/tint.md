@@ -22,7 +22,7 @@ Button("This is a button")
   .tint(color)
 ```
 
-The `.tint()` applies the `color` to the `Button` which conforms to the `View` protocol.
+The `.tint()` applies the `color` to the `Button` which conforms it to the `View` protocol.
 
 ## Example
 
