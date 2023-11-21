@@ -58,7 +58,7 @@ https://www.goodreads.com/en/book/show/130520, http://document-ontology.org/onto
 
 ## RDF Serializations
 
-Valid RDF must be a written in a concrete RDF syntax, also known as an **RDF serialization**. Two important RDF serializations are briefly described below.
+Valid RDF must be written in a concrete RDF syntax, also known as an **RDF serialization**. Two important RDF serializations are briefly described below.
 
 ### Turtle
 
