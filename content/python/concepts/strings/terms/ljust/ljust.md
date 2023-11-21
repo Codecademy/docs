@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The method **`.ljust()`** adds padding of a specified length to the right of a given string. The user can specify a character to use as the padding. The number of padding characters added is equal to the length specified in the method call minus the length of the string provided.
+The method **`.ljust()`** left aligns a string for the given length of characters. If the length of the string is less than the parameter given, then padding is added to the right of a given string. The user can specify a character to use as the padding. The number of padding characters added is the length of the string provided subtracted from the length specified in the method call.
 
 ## Syntax
 
