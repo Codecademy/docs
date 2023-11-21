@@ -26,16 +26,16 @@ average are the same as getting values below the average.
 
 ![2D Gaussian function](<../../../../../../media/2D Gaussian function.png>)
 
-## Advantages and Disadvantages of the Gaussian Activation Function
+### Advantages of the Gaussian Activation Function
 
-**Advantages**: 
-- Smooth and Continuous. The Gaussian activation function is smooth and continuous everywhere, making it fully differentiable with a consistent gradient. This property simplifies the process for optimization algorithms to find the best solution.
-- Non-Linear Properties. It introduces non-linearity to the neural network, enabling the network to capture complex relationships between inputs and outputs.
+- `Smooth and Continuous`: The Gaussian activation function is smooth and continuous everywhere, making it fully differentiable with a consistent gradient. This property simplifies the process for optimization algorithms to find the best solution.
+- `Non-Linear Properties`: It introduces non-linearity to the neural network, enabling the network to capture complex relationships between inputs and outputs.
 
-**Disadvantages**: 
-- Risk of Overfitting. A more complex network can lead to overfitting, where the model overly specializes in the training data and fails to generalize to new, unseen data.
-- Increased Network Complexity. Implementing the Gaussian function can add complexity to the neural network, often requiring more computational power and time for training.
-- Potential for Local Minima Traps. The Gaussian function may increase the likelihood of the network getting trapped in local minima during the optimization process. This can hinder the achievement of the most optimal solutions.
+### Disadvantages of the Gaussian Activation Function
+
+- `Risk of Overfitting`: A more complex network can lead to overfitting, where the model overly specializes in the training data and fails to generalize to new, unseen data.
+- `Increased Network Complexity`: Implementing the Gaussian function can add complexity to the neural network, often requiring more computational power and time for training.
+- `Potential for Local Minima Traps`: The Gaussian function may increase the likelihood of the network getting trapped in local minima during the optimization process. This can hinder the achievement of the most optimal solutions.
 
 ## Practical Uses for Gaussian Activation Functions
 
