@@ -9,12 +9,12 @@ Tags:
   - 'Libraries'
   - 'JSON'
   - 'Strings'
-Catalog Content: 
+CatalogContent: 
   - 'learn-kotlin'
   - 'paths/computer-science'
 ---
 
-The **`decodeFromString()`** function is provided by the Kotlin Serialization library. It is used for deserializing data from a string representation (typically in JSON format) into a Kotlin object.
+The **`.decodeFromString()`** function is provided by the Kotlin Serialization library which is used for deserializing data from a string representation (JSON format) into a Kotlin object.
 
 ## Syntax
 
@@ -27,12 +27,10 @@ fun <T> decodeFromString(deserializer: DeserializationStrategy<T>, string: Strin
 
 ## Example
 
-Here is an example of how to use **`decodeFromString()`** to deserialize data from a JSON string into a Kotlin object:
+Here is an example of how to use `.decodeFromString()` to deserialize data from a JSON string into a Kotlin object:
 
 ```kotlin
-import kotlinx.serialization.Serializable
-import kotlinx.serialization.decodeFromString
-import kotlinx.serialization.json.Json
+import kotlinx.serialization.*
 
 @Serializable
 data class Person(val name: String, val age: Int)
