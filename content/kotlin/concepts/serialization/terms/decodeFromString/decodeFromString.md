@@ -31,6 +31,7 @@ Here is an example of how to use `.decodeFromString()` to deserialize data from 
 
 ```kotlin
 import kotlinx.serialization.*
+import kotlinx.serialization.json.Json
 
 @Serializable
 data class Person(val name: String, val age: Int)
@@ -42,10 +43,8 @@ fun main() {
     "age": 30
   }
   """
-
   // Deserialize the JSON string into a Person object using decodeFromString()
   val person = Json.decodeFromString<Person>(jsonString)
-
   println(person)
 }
 ```
