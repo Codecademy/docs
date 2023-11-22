@@ -52,15 +52,17 @@ for (let i = 0; i < totalPoints; i++) {
 The dataset constructed above is incorporated into the D3 chart definition using the pattern highlighted above:
 
 ```js
-svg.selectAll("circle")          // The circles that will represent each pt are declared
-   .data(dataset)                 // Calling the dataset
-   .join("circle") .             // The circle that will match with each data pt is
-     .attr("cx", d => x(d[0]))   // added and defined
+svg.selectAll("circle")          // Declaring the circles that will represent each pt
+   .data(dataset)                // Calling the dataset
+   .join("circle") .             // The circle that will match with each data pt
+     .attr("cx", d => x(d[0]))   // is added and defined
      .attr("cy", d => y(d[1]))
      .attr("r", d => Math.random(1,10) * 30)
      .attr("fill", "#f5b042")
      .attr("opacity", .5);
 ```
+
+> **Note:** Select statements can serve two functions: the declaration of a new container, as well an assignment to an existing object (e.g., referencing an entity by calling it's ID or Class).
 
 In this selection the `.selectAll()` method is chained to the `svg` container, and the argument `"circle"` is given. Then:
 
@@ -118,7 +120,7 @@ svg
 container.append(svg.node());
 ```
 
-> **Note:** For details on how to implement a D3 chart see the [Observable](https://www.codecademy.com/resources/docs/d3/observable).
+> **Note:** For details on how to implement a D3 chart see [Observable](https://www.codecademy.com/resources/docs/d3/observable).
 
 The resulting chart will look similar to:
 ![d3 scatterplot image](https://raw.githubusercontent.com/Codecademy/docs/main/media/d3-scatterplot-example.png)
