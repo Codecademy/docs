@@ -19,24 +19,24 @@ CatalogContent:
 
 ## Basic Data Types
 
-Luau supports eight builtin data types from Lua, which are:
+Luau supports eight built-in data types from Lua, which are:
 
-- `nil` represent the absence of value or different type value from others.
-- `boolean` hold the values of true and false.
-- `number` has numbers as value.
-- `string` which has string inside single or double quotes as value.
-- `function` hold function as its value.
-- `userdata` is used when Luau need to have value in array format.
-- `thread` has thread as its value.
-- `table` represent table.
+- **nil:** Represent the absence of value or different type value from others.
+- **boolean:** Hold the values true and false.
+- **number:** Contains numerical values.
+- **string:** Hold strings inside single or double quotes as value.
+- **function:** Hold functions as its value.
+- **userdata:** Used when Luau needs to have a value in array format.
+- **thread:** Contain threads as its value.
+- **table:** Represent a table.
 
-Including with those, Luau has `enum` to represent fixed list of items.
+In addition to these, Luau has `enum` to represent fixed list of items.
 
 ## Type Annotation
 
-In `Luau`, the data type does not need to be explicitly defined every time the value is assigned to a variable or a function. In some cases, the value must be strictly defined so the program can run as expected.
+In `Luau`, the data type does not need to be explicitly defined every time a value is assigned to a variable or a function. However, in some cases, the value must be strictly defined for the program to run as expected.
 
-The colon symbol `:` is use after the name of variable that about to create.
+The colon symbol `:` is used after the name of variable that is about to be created.
 
 **Variable:**
 
@@ -54,11 +54,11 @@ end
 
 ## Type Checking
 
-`Luau` provides type checking for users to have direct feedback when there is any error related to the data types. There are three modes, which can be used:
+`Luau` provides type checking to offer users direct feedback in case of any error related to the data types. There are three available modes:
 
-- `--!nocheck` when no check needed.
-- `--!nonstrict` is used by default, it will check the data type but will not directly point it out.
-- `--!strict` should be used when we need the direct feedback of type checking. It shows the error and which line that need to be changed.
+- **--!nocheck** When no check is needed.
+- **--!nonstrict** This is used by default, it will check the data type but will not directly point it out.
+- **--!strict** This should be used when direct feedback on type checking is needed. It shows the error and the line that needs to be changed.
 
 `Mode` should be placed on top of a couple of lines before the program script.
 
@@ -69,15 +69,15 @@ local num: number
 num = 8
 ```
 
-It need to use `luau-analyze` command.
+It needs to use the `luau-analyze` command.
 
 ```script
 luau-analyze starts.luau
 ```
 
-The command will return nothing cause the num variable has `number` as its value.
+The command above will return nothing because the `num` variable has `number` as its value.
 
-Otherwise, it will show like below when the num variable is changed to `"8"`:
+Otherwise, it will show as below when the `num` variable is changed to `"8"`:
 
 ```script
 TypeError: Type 'string' could not be converted into 'number'
