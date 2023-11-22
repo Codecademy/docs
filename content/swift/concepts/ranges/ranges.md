@@ -46,7 +46,7 @@ Some useful applications of ranges are:
 
 ### For-in Loop Example
 
-The example below uses **for-in loops** with a half-open range and then a closed range to print some emoji trees:
+The example below uses for-in loops with a half-open range and then a closed range to print some emoji trees:
 
 ```swift
 for n in 1..<4 {
