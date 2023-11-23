@@ -38,3 +38,7 @@ Give the image a contrast of `200%`:
   filter: contrast(200%);
 }
 ```
+
+![Comparison of an image with increased contrast with the original image](/media/css-filterfunctions-contrast-example.png)
+
+Here, the original image is on the left and the image on the right has the filter set at `contrast(200%)`

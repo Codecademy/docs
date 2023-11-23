@@ -48,7 +48,7 @@ Each of these terms is explained below:
 - _IRI_: A generalization of [URI](https://www.codecademy.com/resources/docs/general/uri), IRIs identify and link to resources on private and public networks.
 - _Quoted triple_: An RDF triple used within a different RDF triple. Quoted triples allow statements to be made within RDF about other RDF statements.
 - _Literal_: A value representing a number, string, boolean, date/time, or other simple values.
-- _Blank node_: Blank nodes do not specify anything in particular. They allow for statements that say that something stands in a given relationship without identifying what that thing is. In practice, blank nodes are commonly avoided.
+- _Blank node_: Do not specify a particular entity. Blank nodes allow stating that something stands in a given relationship without identifying what that thing is.
 
 The following is an example of a triple using IRIs for the subject and predicate, and a literal (integer value) for the object:
 
@@ -58,7 +58,7 @@ https://www.goodreads.com/en/book/show/130520, http://document-ontology.org/onto
 
 ## RDF Serializations
 
-Valid RDF must be a written in a concrete RDF syntax, also known as an **RDF serialization**. Two important RDF serializations are briefly described below.
+Valid RDF must be written in a concrete RDF syntax, also known as an **RDF serialization**. Two important RDF serializations are briefly described below.
 
 ### Turtle
 
@@ -67,7 +67,7 @@ Valid RDF must be a written in a concrete RDF syntax, also known as an **RDF ser
 The most basic way to write RDF statements in Turtle is to enclose IRIs in angle brackets and end each statement with a period, as shown below:
 
 ```pseudo
-<http://books.com/books#pachinko> <http://document-ontology.org/ontology#hasAuthor> <https://www.minjinlee.com/about> .
+<http://books.com/books#pachinko> <http://document-ontology.org/ontology#hasAuthor> <https://www.minjinlee.com/about>.
 ```
 
 The above example represents the triple about _Pachinko_ using IRIs that correspond to the subject (_Pachinko_), predicate (hasAuthor), and object (Min Jin Lee).
@@ -75,8 +75,8 @@ The above example represents the triple about _Pachinko_ using IRIs that corresp
 However, Turtle allows for simpler formatting of statements by using IRI prefixes and grouping predicates and objects under a common subject, as shown below:
 
 ```pseudo
-BASE <http://books.com/books#>
-PREFIX doc: <http://document-ontology.org/ontology#>
+@base <http://books.com/books#>.
+@prefix doc: <http://document-ontology.org/ontology#>.
 
 <pachinko>
   doc:authoredBy <https://www.minjinlee.com/about> ;
