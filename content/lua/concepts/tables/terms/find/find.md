@@ -12,14 +12,14 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **find()** is a built in function that searches for a specific value in an a table and returns its index if found or `nil` if the value is not present in the table.
+The **find()** function is used to search for a specific value in a table and returns its index if found.It returns `nil` if the value is not present in the table.
 
 ## Syntax
 
 ```lua
 local myTable = {value1, value2,value3,value4, value5}
 
-function table.find(myTable, value)
+function tableFind(myTable, value)
     -- Iterate through the elements of the table
     for i, v in ipairs(myTable) do
         -- Check if the current element matches the requested value
@@ -39,7 +39,7 @@ end
 -- Create a sample table
 local myTable = {10, 20, 30, 40, 50}
 
-function table.find(myTable,value)
+function tableFind(myTable,value)
     -- Iterate through the elements of the table
     for i, v in ipairs(myTable) do
         -- Check if the current element matches the requested value
@@ -57,7 +57,7 @@ print("Enter a number:")
 local input = tonumber(io.read())
 
 -- Check if the entered number is in the table
-local index = table.find(myTable, input)
+local index = tableFind(myTable, input)
 if index then
     print("Number found at index:", index)
 else
