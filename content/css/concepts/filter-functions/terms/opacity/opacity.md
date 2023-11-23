@@ -39,4 +39,4 @@ Set the opacity of our element to `50%`:
 }
 ```
 
-![css-filterfunction-opacity-example2](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-filterfunction-opacity-example.png)
+![css-filterfunction-opacity-example](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-filterfunction-opacity-example.png)
