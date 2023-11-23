@@ -297,7 +297,7 @@ int main() {
   while (1) {
     printf("Enter data: ");
     scanf("%d", &data);
-
+~
     if (data == -1) {
       break;
     }
