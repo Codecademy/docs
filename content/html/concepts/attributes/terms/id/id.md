@@ -45,7 +45,7 @@ In the example below, the `<p>` (paragraph) element is given a unique identifier
 </p>
 ```
 
-![A screenshot shows an example of a unique id attribute.](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-attribute-id-example-img1.png)
+![Screenshot that shows an example of a unique id attribute.](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-attribute-id-example-img1.png)
 
 ## Navigation Using Bookmarks
 
