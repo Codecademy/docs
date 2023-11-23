@@ -45,7 +45,7 @@ In the example below, the `<p>` (paragraph) element is given a unique identifier
 </p>
 ```
 
-![html-attribute-id-example-img1.png](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-attribute-id-example-img1.png)
+![A screenshot shows an example of a unique id attribute.](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-attribute-id-example-img1.png)
 
 ## Navigation Using Bookmarks
 
@@ -73,7 +73,7 @@ A link can also target a location on another page:
 
 Clicking on the link in the examples above will direct the browser screen to the location where `id` is `"my-city"` (either on the same page or on another page).
 
-![html-attribute-id-example2-gif](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-attribute-id-example2-gif.gif)
+![Shows how navigating a section on the same page and another page uses a unique id attribute.](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-attribute-id-example2-gif.gif)
 
 ## Styling With `id`
 
@@ -91,7 +91,7 @@ Styling via `id` in a stylesheet:
 
 The HTML element with `id` is selected in CSS for styling using `#` followed by the `id` value. This applies to internal or external ruleset styling methods. The example above applies a color to the designated element, for an overview of all styling methods, please see [CSS Anatomy](https://www.codecademy.com/resources/docs/css/anatomy).
 
-![html-attribute-id-exampl3.png](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-attribute-id-exampl3.png)
+![CSS styling using id selector.](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-attribute-id-exampl3.png)
 
 ## Using `id` With JavaScript
 
@@ -109,4 +109,4 @@ function changeColor(newColor) {
 
 In the example above, the element is selected using the `getElementById()` method. The color of that element is then changed by assigning a new value, that is passed in as an argument of the function, to the `style.color` property.
 
-![html-attribute-id-example4.png](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-attribute-id-example4.png)
+![The javascript uses the id attribute to style the html element.](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-attribute-id-example4.png)
