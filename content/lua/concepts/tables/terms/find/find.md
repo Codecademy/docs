@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **find()** function is used to search for a specific value in a table and returns its index if found.It returns `nil` if the value is not present in the table.
+The **find()** function is used to search for a specific value in a table and returns its index if found.The function returns `nil` if the value is not present in the table.
 
 ## Syntax
 
