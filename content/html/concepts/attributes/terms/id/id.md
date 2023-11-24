@@ -73,7 +73,7 @@ A link can also target a location on another page:
 
 Clicking on the link in the examples above will direct the browser screen to the location where `id` is `"my-city"` (either on the same page or on another page).
 
-![Shows how navigating a section on the same page and another page uses a unique id attribute.](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-attribute-id-example2-gif.gif)
+![Use of a unique id attribute for navigation on the same and other pages in the website](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-attribute-id-example2-gif.gif)
 
 ## Styling With `id`
 
