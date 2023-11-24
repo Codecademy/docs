@@ -20,7 +20,7 @@ The **`<col>`** element in HTML is used to define properties for table columns, 
 <col attributes>
 ```
 
-HTML tables are defined by their rows, not by columns. The result of this is that any style applied to a row will override any style applied to column. Only a handful of CSS properties can be controlled via the `<col>` element, such as:
+HTML tables are defined by their rows, not by columns. The result of this is that any style applied to a row will override any style applied to the column. `attributes` are a handful of CSS properties that can be controlled via the `<col>` element, such as:
 
 - border
 - background
