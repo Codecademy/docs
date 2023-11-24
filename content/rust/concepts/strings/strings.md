@@ -66,7 +66,7 @@ Rust `String` objects offer methods like `.len()`, `.is_empty()`, `.replace()`, 
 
 > **Note**: While many methods are common to both `String` and `&str`, methods that modify the string are exclusive to `String` due to its mutable nature.
 
-## Codebyte Example
+## Example
 
 The following example demonstrates creating, modifying, and accessing properties of a `String`:
 
