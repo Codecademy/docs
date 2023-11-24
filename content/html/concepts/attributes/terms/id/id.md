@@ -91,7 +91,7 @@ Styling via `id` in a stylesheet:
 
 The HTML element with `id` is selected in CSS for styling using `#` followed by the `id` value. This applies to internal or external ruleset styling methods. The example above applies a color to the designated element, for an overview of all styling methods, please see [CSS Anatomy](https://www.codecademy.com/resources/docs/css/anatomy).
 
-![CSS styling using id selector.](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-attribute-id-exampl3.png)
+![CSS styling using id selector](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-attribute-id-exampl3.png)
 
 ## Using `id` With JavaScript
 
