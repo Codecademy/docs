@@ -109,4 +109,4 @@ function changeColor(newColor) {
 
 In the example above, the element is selected using the `getElementById()` method. The color of that element is then changed by assigning a new value, that is passed in as an argument of the function, to the `style.color` property.
 
-![The javascript uses the id attribute to style the html element.](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-attribute-id-example4.png)
+![Use of id attributes to style HTML elements in JavaScript](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-attribute-id-example4.png)
