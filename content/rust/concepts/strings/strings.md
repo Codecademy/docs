@@ -1,5 +1,5 @@
 ---
-Title: 'strings'
+Title: 'Strings'
 Description: 'A collection of characters used to represent text.'
 Subjects:
   - 'Computer Science'
