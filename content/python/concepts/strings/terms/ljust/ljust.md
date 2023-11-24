@@ -28,7 +28,7 @@ string.ljust(length, fillchar)
 
 ### Optional Parameters
 
-- `fillchar`: A character to fill the missing space (to the right of the string). Default is " " (space).
+- `fillchar`: A character to fill the missing space (to the right of the string). The default value is " " (space).
 
 ## Examples
 
