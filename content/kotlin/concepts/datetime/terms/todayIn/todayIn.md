@@ -15,7 +15,7 @@ CatalogContent:
 
 The **`.todayIn()`** method returns a date when called on an Instant value of `Clock` while passing a `TimeZone` argument.
 
-## Syntaxx
+## Syntax
 
 ```pseudo
 Clock.System.todayIn(timeZone: TimeZone.currentSystemDefault())
