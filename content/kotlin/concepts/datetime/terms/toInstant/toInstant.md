@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**`.toInstant()`** is a simple way to convert a date and time string into a format that can be easily used by Kotlin programs. The conversion results in obtaining an Instant value, which is a standardized representation of time that is independent of time zones. Essentially, it helps transform a textual representation of a moment in time into a format that can be more easily manipulated and compared programmatically.
+The **`.toInstant()`** method is a simple way to convert a date-time string into a Kotlin readable format. The conversion results in obtaining an Instant value, which is a standardized representation of time independent of time zones. Essentially, it helps transform a textual representation of a moment in time into a format that can be more easily manipulated and compared programmatically.
 
 ## Syntax
 
@@ -34,7 +34,7 @@ fun main() {
 }
 ```
 
-Output:
+The above code gives the following output:
 
 ```shell
 2023-11-13T11:04:44Z
