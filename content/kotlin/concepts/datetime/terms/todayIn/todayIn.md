@@ -33,7 +33,6 @@ import kotlinx.datetime.*
 
 fun main() {
   val myLocalDate = Clock.System.todayIn(timeZone = TimeZone.currentSystemDefault())
-
   println(myLocalDate)
 }
 ```
