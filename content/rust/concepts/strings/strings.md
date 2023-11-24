@@ -24,7 +24,7 @@ In Rust, **strings** are a fundamental data type, consisting of characters such 
 
 ### `String` Type
 
-A String can be created using:
+A string can be created using:
 
 - `String::new()` for an empty, mutable string.
 - `String::from("literal")` for initializing with a known value.
