@@ -46,7 +46,7 @@ This code will result in the following output:
 Hello Contributors!!
 ```
 
-> **Note:** `.ljust()` returns a new string and does not modify the original string. Only one specific character can be mentioned to fill the remaining part of the string with fillchar.
+> **Note:** `.ljust()` returns a new string and does not modify the original string. Only one specific character can be mentioned to fill the remaining part of the string with the parameter `fillchar`.
 
 ## Codebyte Example
 
