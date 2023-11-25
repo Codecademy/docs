@@ -1,7 +1,4 @@
 ---
-Title: 'Tables' 
-Description: 'A container that displays data in rows organized into one or more columns and optionally allows the selection of one or more items.'
-Subjects: 
   - 'iOS'
   - 'Mobile Development'
 Tags:
@@ -16,7 +13,6 @@ CatalogContent:
 A **`Table`** in SwiftUI is a container that enables the creation and presentation of data collections in a tabular format: values organized into columns and rows. It is a valuable tool for displaying datasets that have a structured, grid-like layout. When the number of rows exceeds the available vertical space, the `Table` component will automatically enable vertical scrolling to ensure all data is accessible. Moreover, on macOS, horizontal scrolling becomes available when the number of columns exceeds the width of the view.
 
 ## Syntax
-To a create a table that computes its row based on a collection of identifiable data: 
 
 ```pseudo
 var body: some View {
@@ -39,7 +35,7 @@ struct ContentView: View {
         Singer(name: "Billie", lastName: "Eilish", ranking: 70),
         Singer(name: "Katy", lastName: "Perry", ranking: 75)
     ]
-    
+
     var body: some View {
         Table(people) {
             TableColumn("Name", value: \.name)
@@ -57,12 +53,10 @@ struct Singer: Identifiable {
     let lastName: String
     let ranking: Int
     let id = UUID()
-    
+
     var fullName: String { name + " " + lastName}
 }
 ```
-
-![SwiftUI Tables](media/swiftui-tables.png)
 
 
 ### Adding Sorting to a Table
@@ -81,7 +75,8 @@ struct ContentView: View {
   ]
   
   @State private var sortOrder = [KeyPathComparator(\Singer.name)]
-  
+
+
   var body: some View {
       Table(people, sortOrder: $sortOrder) {
           TableColumn("Name", value: \.name)

@@ -1,10 +1,9 @@
 ---
 Title: 'Machine Learning'
-Description: 'Machine learning (ML) is a discipline of computer science that relates to using data and algorithms to develop computer programs that improve their performance at tasks without being explicitly programmed to do so. Machine Learning is considered a branch of Artificial Intelligence as some machine learning algorithms are designed to imitate the way that humans learn and interact with their environment.'
+Description: 'Machine learning (ML) is a discipline of computer science that relates to using data and algorithms to develop computer programs that improve their performance at tasks without being explicitly programmed to do so.'
 Subjects:
   - 'Machine Learning'
   - 'Data Science'
-  - 'Computer Science'
 Tags:
   - 'AI'
   - 'Deep Learning'
@@ -62,12 +61,12 @@ Deep Learning is the subset of machine learning that focuses on artificial neura
 
 The relatively high performance of neural networks in human-like tasks such as speech and object recognition distinguishes deep learning from other machine learning algorithms.
 
-## Fine-Tuning
+## Model Development
 
-Based on the evaluation results, the model's user might fine-tune the model's hyperparameters or adjust the model architecture to improve its performance. There are several methods to fine-tune models.
+Based on the evaluation results, the model's user might modify the model's hyperparameters or adjust the model architecture to improve its performance. There are several methods to further refine models that may include strategies such as:
 
 - Hyperparameter Tuning: Hyperparameters are configuration settings for a machine learning model that are not learned during training but are set before training begins. These settings can significantly impact a model's performance.
-- Model Architecture Adjustments: There are several methods to accurately adjust the architecture of ML algorithms. There are techniques such as Feature Engineering, Model Selection, and Ensemble Methods.
+- Model Architecture Adjustments: There are several methods to accurately adjust the architecture of ML algorithms. There are techniques such as feature engineering, model selection, and ensemble methods.
 
 ## Evaluation
 
