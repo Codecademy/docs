@@ -105,13 +105,13 @@ Complete slice: [1, 2, 3, 4, 5]
 
 In Rust, when a slice is designated as mutable, the alteration of the elements within the slice is allowed. The creation of a mutable slice is done by using the `&mut` keyword.
 
-## Syntax
+## Mutable Slice Syntax
 
 ```pesudo
 let slice = &mut data_structure[start_index..end_index];
 ```
 
-## Example
+## Mutable Slice Example
 
 The following example demonstrates how to modify an element in a mutable slice. In this case, the second element of the slice is changed from `3` to `10`:
 
