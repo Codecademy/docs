@@ -42,6 +42,7 @@ h1 {
   border-style: dotted;
 }
 ```
+![css-border-color-example1](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-border-color-example1.png)
 
 ## Example 2
 
@@ -52,3 +53,4 @@ h1 {
   border-color: coral beige;
 }
 ```
+![css-border-color-example2](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-border-color-example2.png)
