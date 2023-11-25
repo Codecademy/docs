@@ -72,7 +72,7 @@ The above example will result in the following output:
 
 ### Switch Example
 
-The example below uses a `switch` statement and a closed range to determine which emoji to print depending on the value of `treeHeight`:
+The example below uses a switch statement and a closed range to determine which emoji to print depending on the value of `treeHeight`:
 
 ```swift
 let treeHeight = 2
