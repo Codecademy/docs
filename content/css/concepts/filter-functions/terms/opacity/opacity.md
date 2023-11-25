@@ -38,3 +38,7 @@ Set the opacity of our element to `50%`:
   filter: opacity(50%);
 }
 ```
+
+![css-filterfunction-opacity-50%](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-filterfunction-opacity-50%.png)
+
+The first image on the left is the original, and the image on the right has the filter set at `opacity(50%)`.
