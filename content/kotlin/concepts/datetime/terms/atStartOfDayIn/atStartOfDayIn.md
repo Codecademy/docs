@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.atStartOfDayIn()`** function is used to obtain the start of the day `LocalDateTime` in a specific time zone. It returns an `Instant` (an instantaneous point in time. It is like a super-accurate clock in Kotlin which helps us pinpoint the exact moment when something happens in our code) that corresponds to the start of a date in a particular time zone.
+The **`.atStartOfDayIn()`** function obtains the start of the day `LocalDateTime` in a specific time zone. It returns an `Instant` (an instantaneous point in time. This serves as a highly accurate clock in Kotlin, aiding in pinpointing the exact moment when actions occur in code) corresponding to the start of a date in a particular time zone.
 
 ## Syntax
 
@@ -22,13 +22,13 @@ The **`.atStartOfDayIn()`** function is used to obtain the start of the day `Loc
 fun LocalDate.atStartOfDayIn(TimeZone): Instant
 ```
 
-- `LocalDate`: represents a date without reference to a particular time zone.
-- `TimeZone`: represents a time zone in which date and time calculations are performed.
-- `Instant`: a moment in time.
+- `LocalDate`: This represents a date without any reference to a specific time zone.
+- `TimeZone`: This represents a time zone in which date and time calculations are performed.
+- `Instant`: This is a moment in time. It's a point on the time scale that captures the exact time something happens without regard to time zones or local calendars.
 
 ## Example
 
-The following example demonstrates how to use `.atStartOfDayIn`.
+The following example demonstrates how to use `.atStartOfDayIn`:
 
 ```kotlin
 import kotlinx.datetime.*
@@ -41,7 +41,7 @@ fun main() {
 }
 ```
 
-The output of the example above is:
+The above example will result in the following output:
 
 ```shell
 Start of the day November 18th, 2023 in UTC is: 2023-11-18T00:00Z
