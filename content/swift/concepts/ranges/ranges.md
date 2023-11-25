@@ -40,13 +40,13 @@ let newClosedRange = lower...upper
 
 Some useful applications of ranges are:
 
-- For iteration with for-in [loops](https://www.codecademy.com/resources/docs/swift/loops).
+- For iteration with `for-in` [loops](https://www.codecademy.com/resources/docs/swift/loops).
 - In [switch](https://www.codecademy.com/resources/docs/swift/switch) statements to find out if a value lies within an interval.
 - Selecting a section of an [array](https://www.codecademy.com/resources/docs/swift/arrays).
 
 ### For-in Loop Example
 
-The example below uses for-in loops with a half-open range and then a closed range to print some emoji trees:
+The example below uses `for-in` loops with a half-open range and then a closed range to print some emoji trees:
 
 ```swift
 for n in 1..<4 {
@@ -72,7 +72,7 @@ The above example will result in the following output:
 
 ### Switch Example
 
-The example below uses a switch statement and a closed range to determine which emoji to print depending on the value of `treeHeight`:
+The example below uses a `switch` statement and a closed range to determine which emoji to print depending on the value of `treeHeight`:
 
 ```swift
 let treeHeight = 2
