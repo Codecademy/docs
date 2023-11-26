@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Styling** methods are used to assign values that determine the rendered form and content of chart components, such as the text displayed, or the color and opacity of a given symbol. These methods belong to the `d3-selection` class, but are addressed separately here based on their specialized role within the chart-making process.
+**Styling** methods assign values that determine the rendered form and content of chart components, such as the text displayed, or the color and opacity of a given symbol. These methods belong to the `d3-selection` class but are addressed separately based on their specialized role in the chart-making process.
 
 ## Modifying Elements
 
@@ -29,6 +29,6 @@ const path = svg.append("g")
   ...
 ```
 
-In this excerpt a `path` is declared and followed by a series of chained `.attr()` calls that set the various properties that will be applied to the `path` such as the color (`"steelblue"`), and the width of the path (`1.5`).
+In this excerpt, a `path` is declared and followed by a series of chained `.attr()` calls that set the various properties that will be applied to the `path` such as the color (`"steelblue"`), and the width of the path (`1.5`).
 
 ## D3 Style Methods
