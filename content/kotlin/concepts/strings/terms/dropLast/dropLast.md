@@ -31,7 +31,6 @@ fun String.dropLast(n: Int): String
 The example below creates a string, `string`, then uses the `.dropLast()` method to return a string with the last five characters removed.
 
 ```kotlin
-
 fun main() {
   val string = "Example String"
   println(string.dropLast(1))
