@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Functions are one of the fundamental building blocks in JavaScript. A function is a reusable set of statements to perform a task or calculate a value. Functions can be passed one or more values and can return a value at the end of their execution. In order to use a function, you must define it somewhere in the scope where you wish to call it.
+Functions are one of the fundamental building blocks in JavaScript. A function is a reusable set of statements to perform a task or calculate a value. Functions can be passed one or more values and can return a value at the end of their execution. In order to use a function, it must be defined somewhere in the scope in which it will be utilized.
 
 ## Function Declaration
 
@@ -44,12 +44,21 @@ function sum(num1, num2) {
 
 // Calling the function
 sum(2, 4);
+// Output 6
 ```
 
-The output would be:
+> **Note:** If multiple arguments, or a variable number of arguments, are required a function can use a [rest parameter](https://www.codecademy.com/resources/docs/javascript/rest-parameters) to pass an array of values.
 
-```output
-6
+## Optional Arguments
+
+In JavaScript functions will run whether or not they have the intended number of arguments. If more than the number required are submitted, the function will use the required number and ignore the rest. If fewer arguments are provided than required, the other values will be set to `undefined`.
+
+```js
+sum(2, 4, 8);
+// Output 6
+
+sum(2);
+// Output NaN
 ```
 
 ## Return Keyword
