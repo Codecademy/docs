@@ -1,6 +1,6 @@
 ---
 Title: 'Rest Parameters'
-Description: 'A specialized type of parameter that can be used to an array of terms.'
+Description: 'A specialized type of parameter that can be used to pass an array of terms.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
