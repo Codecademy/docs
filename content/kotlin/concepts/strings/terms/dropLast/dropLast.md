@@ -20,7 +20,7 @@ The Kotlin method, **`.dropLast()`** removes the last character of a string or t
 fun String.dropLast(n: Int): String
 ```
 
-The parameter `n` is the number of characters to be removed from the string.
+- The parameter `n` is the number of characters to be removed from the string.
 
 ### Special Cases
 
