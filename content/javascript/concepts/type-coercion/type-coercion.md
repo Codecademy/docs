@@ -20,7 +20,7 @@ JavaScript is a relatively permissive language, and in many situations, such as 
 
 ## Mixed Type Expressions
 
-Expressions of mixed types are evaluated by changing one of the elements to match the other. For example, in the code below the string `6` is changed to a `number` type and will yield `true` and the product `36`. However, the use of values that have been evaluated in such an expression may lead to unintended results when this behavior is not expected. It is a best practice to use the the alternative, strict comparison operators to avoid errors from this form of evaluation.
+Expressions of mixed types are evaluated by changing one of the elements to match the other. For example, in the code below the string `6` is changed to a `number` type and will yield `true` and the product `36`. However, the use of values that have been evaluated in such an expression may lead to unintended results when this behavior is not expected. It is a best practice to use the alternative, strict comparison operators to avoid errors from this form of evaluation.
 
 ```js
 6 == '6'; // Yields true
