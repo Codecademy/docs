@@ -40,7 +40,7 @@ console.log(scale(50));
 console.log(scale(100));
 ```
 
-Output:
+The above example will give the following output:
 
 ```shell
 0
