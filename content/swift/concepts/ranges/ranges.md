@@ -7,6 +7,7 @@ Subjects:
 Tags:
   - 'Range'
   - 'Data Structures'
+  - 'Loops'
 CatalogContent:
   - 'learn-swift'
   - 'paths/build-ios-apps-with-swiftui'
