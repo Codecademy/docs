@@ -225,6 +225,7 @@ NumPy
 Objects
 Obsolete
 OOP
+Opacity
 Open Source
 Operating Systems
 Operators

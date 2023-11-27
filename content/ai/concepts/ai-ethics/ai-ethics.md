@@ -10,7 +10,7 @@ Tags:
   - 'Neural Networks'
   - 'Justice'
 CatalogContent:
-  - 'learn-explainable-ai-xai'
+  - 'paths/machine-learning-ai-engineering-foundations'
   - 'intro-to-ai-strategy'
 ---
 
