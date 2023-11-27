@@ -38,7 +38,6 @@ function sumVals(...vals) {
 }
 
 let nums = [2, 4, 6, 8, 10];
-
 console.log(sumVals(...nums));
 ```
 
