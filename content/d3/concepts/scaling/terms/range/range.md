@@ -23,9 +23,9 @@ d3.scaleType()
   .range([minOutput, maxOutput]);
 ```
 
-- `.scaleType()`: The selected scale method (e.g., `.scaleLinear()`- a continuous linear scale).
-- `.domain()`: Requires the `minValue` and `maxValue` arguments to set the accepted range.
-- `.range()`: The second step in defining a scale, the arguments `minOutput` and `maxOutput` are used to specify the set of values returned by the scale.
+- **.scaleType():** The selected scale method (e.g., `.scaleLinear()`- a continuous linear scale).
+- ••.domain():** Requires the `minValue` and `maxValue` arguments to set the accepted range.
+- **.range():** The second step in defining a scale, the arguments `minOutput` and `maxOutput` are used to specify the set of values returned by the scale.
 
 ## Example
 
