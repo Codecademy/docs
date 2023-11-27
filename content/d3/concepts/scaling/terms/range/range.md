@@ -10,7 +10,6 @@ Tags:
   - 'Graphs'
 CatalogContent:
   - 'learn-d3'
-'
   - 'paths/computer-science'
 ---
 
