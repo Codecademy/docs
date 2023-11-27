@@ -30,13 +30,13 @@ Luau supports eight built-in data types from Lua, which are:
 - **thread:** Contain threads as its value.
 - **table:** Represent a table.
 
-In addition to these, Luau has `enum` to represent fixed list of items.
+In addition to these, Luau has `enum` to represent a fixed list of items.
 
 ## Type Annotation
 
 In `Luau`, the data type does not need to be explicitly defined every time a value is assigned to a variable or a function. However, in some cases, the value must be strictly defined for the program to run as expected.
 
-The colon symbol `:` is used after the name of variable that is about to be created.
+The colon symbol `:` is used after the name of the variable that is about to be created.
 
 **Variable:**
 
@@ -56,9 +56,9 @@ end
 
 `Luau` provides type checking to offer users direct feedback in case of any error related to the data types. There are three available modes:
 
-- **--!nocheck** When no check is needed.
-- **--!nonstrict** This is used by default, it will check the data type but will not directly point it out.
-- **--!strict** This should be used when direct feedback on type checking is needed. It shows the error and the line that needs to be changed.
+- **--!nocheck:** When no check is needed.
+- **--!nonstrict:** This is used by default, it will check the data type but will not directly point it out.
+- **--!strict:** This should be used when direct feedback on type checking is needed. It shows the error and the line that needs to be changed.
 
 `Mode` should be placed on top of a couple of lines before the program script.
 
