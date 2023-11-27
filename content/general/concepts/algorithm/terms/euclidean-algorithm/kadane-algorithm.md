@@ -12,7 +12,12 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**`Kadane's algorithm`** is a dynamic programming approach utilized to identify the maximum sum of a subarray within a given array of numbers. The algorithm solves this problem efficiently in a single pass through the array by maintaining two variables: `maxEndingHere` and `maxSoFar`. The algorithm iterates through the array, updating these variables at each step to track the maximum subarray sum ending at the current element and the overall maximum subarray sum found so far. The final value of maxSoFar represents the maximum subarray sum in the given `array`. This algorithm guarantees a time complexity of `O(n)`, making it an optimal solution for this problem.
+**`Kadane's algorithm`** is a dynamic programming approach to efficiently finding the maximum sum of a subarray in a given array of numbers. The algorithm works as follows:
+1. Initialize a current sum (variable called `maxEndingHere`) equal to the value of the element at the first position in the array (`arr[0]`).
+2. Iterate through the array. At every position, set `maxEndingHere` to the maximum of the following two values: `maxEndingHere + arr[i]` or `arr[i]`, where `i` is the current position in the array.
+3. Keep track of the greatest `maxEndingHere` encountered (ex: in a variable called `maxSoFar`).
+4. Return `maxSoFar`.
+This algorithm guarantees a time complexity of `O(n)`, making it an optimal solution for this problem.
 
 ## Explanation
 
