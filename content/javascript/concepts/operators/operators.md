@@ -151,7 +151,7 @@ console.log(isPenguin);
 
 ## Unary Operator
 
-A unary operator, such as the not operator (`!`), is an operator that is applied to one term or variable. Arithmetic operators are also known as binary operators, because they operate on two terms. There are also unary operators in JavaScript that are names rather than symbols, such as the `typeof` operator.
+A unary operator, such as the not operator (`!`), is an operator that is applied to one term or variable. Arithmetic operators are also known as binary operators because they operate on two terms. There are also unary operators in JavaScript that are names rather than symbols, such as the `typeof` operator.
 
 ```js
 console.log(typeof 'foo'); // Yields string
