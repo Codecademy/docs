@@ -51,6 +51,8 @@ div {
 }
 ```
 
+![Animation of example 1 with animation direction as reverse](https://raw.githubusercontent.com/Codecademy/docs/main/media/animation-direction-example1.gif)
+
 ## Example 2
 
 Set the first direction to `alternate` and the second direction to `alternate-reverse`:
@@ -84,6 +86,5 @@ div {
   }
 }
 ```
-![Animation of example 1 animation direction, reverse](https://raw.githubusercontent.com/Codecademy/docs/main/media/animation-direction-example1.gif)
 
-![Animation of example 2 animation direction, alternate and altrernate-reverse](https://raw.githubusercontent.com/Codecademy/docs/main/media/animation-direction-example2.gif)
+![Animation of example 2 with animation direction as alternate and altrernate-reverse](https://raw.githubusercontent.com/Codecademy/docs/main/media/animation-direction-example2.gif)
