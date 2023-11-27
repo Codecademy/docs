@@ -40,11 +40,11 @@ The limitations on rationally engaging with AI decision-making are another poten
 
 ## Explainable AI (XAI)
 
-The goal of **Explainable AI (XAI)** is to develop techniques for explaining the processes and outputs of AI systems, thereby addressing the challenges above. Some of the techniques currently used in XAI are explained in the *Learn Explainable AI (XAI)* course linked below this article.
+The goal of **Explainable AI (XAI)** is to develop techniques for explaining the processes and outputs of AI systems, thereby addressing the challenges above. Some of the techniques currently used in XAI are explained in the _Learn Explainable AI (XAI)_ course linked below this article.
 
 ## Further Reading on AI Opacity
 
-- Fleisher, W. (2022). Understanding, Idealization, and Explainable AI. *Episteme 19* (4): 534-560. DOI: 10.1017/epi.2022.39.
-- Gunning, D. et al (2019). XAI — Explainable artificial intelligence. *Science Robotics 4* (37): 1-2. DOI: 10.1126/scirobotics.aay7120.
-- Ross, Amber (2022). AI and the expert; a blueprint for the ethical use of opaque AI. *AI & Society*. DOI: 10.1007/s00146-022-01564-2.
-- Uwe, Peters (2023). Explainable AI lacks regulative reasons: why AI and human decision-making are not equally opaque. *AI and Ethics 3*: 963-974. DOI: 10.1007/s43681-022-00217-w.
+- Fleisher, W. (2022). Understanding, Idealization, and Explainable AI. _Episteme 19_ (4): 534-560. DOI: 10.1017/epi.2022.39.
+- Gunning, D. et al (2019). XAI — Explainable artificial intelligence. _Science Robotics 4_ (37): 1-2. DOI: 10.1126/scirobotics.aay7120.
+- Ross, Amber (2022). AI and the expert; a blueprint for the ethical use of opaque AI. _AI & Society_. DOI: 10.1007/s00146-022-01564-2.
+- Uwe, Peters (2023). Explainable AI lacks regulative reasons: why AI and human decision-making are not equally opaque. _AI and Ethics 3_: 963-974. DOI: 10.1007/s43681-022-00217-w.
