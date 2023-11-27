@@ -11,7 +11,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Rust, **strings** are a fundamental data type, consisting of characters such as letters, spaces, numbers, or symbols. There are two main string types:
+In Rust, **strings** are a fundamental data type, consisting of characters such as letters, spaces, numbers, or symbols. There are two main string types, `String` and `&str`.
+
+## Differences between `String` and `&str`
 
 |            | `String`                       | `&str`                                 |
 | ---------- | ------------------------------ | -------------------------------------- |
@@ -24,19 +26,33 @@ In Rust, **strings** are a fundamental data type, consisting of characters such 
 
 ### `String` Type
 
-A string can be created using:
+A `String` can be created three different ways:
 
-- `String::new()` for an empty, mutable string.
-- `String::from("literal")` for initializing with a known value.
-- `"literal".to_string()` for converting a string slice to a `String`.
+```
+let mut string = String::new();               // Creates an empty, mutable string
+string = String::from("literal");             // Creates a string from a known value
+let string_literal = "literal".to_string();   // Converts a &str slice to a String
+```
 
 ### `&str` Type
 
-A `&str` string can be created by:
+A `&str` string slice is typically created by assigning a literal directly.
 
-- Assigning a literal directly: `let message: &str = "Hello, world!";`
-- Slicing a String: `let slice = &message_string[0..5];` for a specific byte range.
-- Borrowing from a String: `let slice: &str = &message_string;` for the entire string.
+```
+let message: &str = "Hello, world!";
+```
+
+## Slicing and Borrowing Strings
+
+Slicing creates a `&str` slice of a part of the string, while borrowing allows a `String` object to be used as a `&str` without creating a new string.
+
+```
+let message = String::from("Hello, world!");
+let slice = &message[0..5];      // Slices a part of the string
+let borrowed: &str = &message;   // Borrows the entire string
+```
+
+To create a `&str` slice, the slice notation `[0..5]` is used on `message`. This selects a range from the start index 0 to, but not including, index 5. As a result, `slice` contains the substring `"Hello"`. The `borrowed` variable uses borrows the entire `String` object by using `&message` is borrowed as a `&str` slice without creating a new `String` object. This technique is memory-efficient and a common practice in Rust for handling strings.
 
 > **Note**: Be mindful of UTF-8 encoding when slicing to ensure valid character boundaries to avoid runtime errors.
 
@@ -59,10 +75,13 @@ In this example, an empty string is created using the `String::new()` method and
 
 Rust `String` objects offer methods like `.len()`, `.is_empty()`, `.replace()`, and `.to_uppercase()`:
 
-- `.len()`: Returns the byte length of the string.
-- `.is_empty()`: Checks if the string is empty.
-- `.replace("find", "replace")`: Replaces parts of the string.
-- `.to_uppercase()`: Converts the string to uppercase.
+```
+let length = greeting.len();                  // Returns the byte length of the string
+let is_empty = greeting.is_empty();           // Checks if the string is empty
+greeting = greeting.replace("Hello", "Hi");   // Replaces parts of the string
+let uppercased = greeting.to_uppercase();     // Converts the string to uppercase
+println!("Length: {}, Empty: {}, Greeting: {},  Uppercased: {}", length, is_empty, greeting, uppercased);
+```
 
 > **Note**: While many methods are common to both `String` and `&str`, methods that modify the string are exclusive to `String` due to its mutable nature.
 
