@@ -75,4 +75,4 @@ body {
 
 The following image demonstrates the code block above:
 
-![background-blend-mode example 3](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-blend-mode-example2.png)
+![background-blend-mode example 3](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-blend-mode-example3.png)
