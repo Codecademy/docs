@@ -9,7 +9,8 @@ Tags:
   - 'Data'
   - 'Graphs'
 CatalogContent:
-  - 'introduction-to-javascript'
+  - 'learn-d3'
+'
   - 'paths/computer-science'
 ---
 
