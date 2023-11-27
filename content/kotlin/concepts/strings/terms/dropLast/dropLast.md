@@ -36,6 +36,7 @@ fun main() {
   println(string.dropLast(1))
   println(string.dropLast(5))
 }
+```
 
 The output will look like the following:
 
