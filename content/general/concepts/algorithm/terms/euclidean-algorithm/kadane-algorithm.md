@@ -24,8 +24,8 @@ This algorithm guarantees a time complexity of `O(n)`, making it an optimal solu
 **Here's how Kadane's algorithm can be applied to a problem:**
 
 - Consider the array {-2, -1, -3, 4, -1, 2, 1, -5, 4}. Initialize two integer variables: one named `maxEndingHere` and the other called `maxSoFar`. These variables serve to track the maximum subarray sum ending at the current position and the overall maximum subarray sum.
-- The loop commences with the first element, which is -2. So, both `maxEndingHere` and `maxSoFar` start at -2.
-- As the loop proceeds to the next element, which is -1, compare it to the sum of the current element and the previous value of `maxEndingHere`. Update `maxEndingHere` to **-1** because it's greater than the sum of **-2** and **-1**. Also, compare `maxSoFar` with the updated value of `maxEndingHere`. Since **-2** is less than **-1**, update `maxSoFar` to **-1**.
+- The loop commences with the first element, which is -2. Therefore, both `maxEndingHere` and `maxSoFar` are initially -2.
+- Proceed to the next element, -1, and compare it to the sum of itself and the previous value of `maxEndingHere`.  Since -1 is greater than the sum of -2 and -1, set`maxEndingHere` to  -1. Also, compare `maxSoFar` with the updated value of `maxEndingHere`. Since -2 is less than -1 set `maxSoFar` to  -1.
 - This process continues as we advance through the array, modifying `maxEndingHere` and `maxSoFar` at each step.
 - At the conclusion of the loop, the variable `maxSoFar` contains the maximum subarray sum.
 - Return the value of `maxSoFar`, which represents the maximum subarray sum.
