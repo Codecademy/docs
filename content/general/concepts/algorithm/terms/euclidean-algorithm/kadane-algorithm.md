@@ -19,19 +19,16 @@ CatalogContent:
 4. Return `maxSoFar`.
 This algorithm guarantees a time complexity of `O(n)`, making it an optimal solution for this problem.
 
-## Explanation
+## Example
 
 **Here's how Kadane's algorithm can be applied to a problem:**
 
-- Start with the first number and add it to a running total. Then, move to the next number and determine whether to continue with the current sum or start a new sum from this number. Always aim to maintain the largest sum seen so far.
-- For example, consider the array {-2, -1, -3, 4, -1, 2, 1, -5, 4}. Initialize two integer variables: one named `maxEndingHere` and the other called `maxSoFar`. These variables serve to track the maximum subarray sum ending at the current position and the overall maximum subarray sum.
-- The loop commence with the first element, which is -2. So, both `maxEndingHere` and `maxSoFar` start at -2.
-- As the loop proceed to the next element, which is -1, compare it to the sum of the current element and the previous value of `maxEndingHere`. Update `maxEndingHere` to **-1** because it's greater than the sum of **-2** and **-1**. Also, compare `maxSoFar` with the updated value of `maxEndingHere`. Since **-2** is less than **-1**, update `maxSoFar` to **-1**.
+- Consider the array {-2, -1, -3, 4, -1, 2, 1, -5, 4}. Initialize two integer variables: one named `maxEndingHere` and the other called `maxSoFar`. These variables serve to track the maximum subarray sum ending at the current position and the overall maximum subarray sum.
+- The loop commences with the first element, which is -2. So, both `maxEndingHere` and `maxSoFar` start at -2.
+- As the loop proceeds to the next element, which is -1, compare it to the sum of the current element and the previous value of `maxEndingHere`. Update `maxEndingHere` to **-1** because it's greater than the sum of **-2** and **-1**. Also, compare `maxSoFar` with the updated value of `maxEndingHere`. Since **-2** is less than **-1**, update `maxSoFar` to **-1**.
 - This process continues as we advance through the array, modifying `maxEndingHere` and `maxSoFar` at each step.
 - At the conclusion of the loop, the variable `maxSoFar` contains the maximum subarray sum.
 - Return the value of `maxSoFar`, which represents the maximum subarray sum.
-
-## Example
 
 The following implementation of `Kadane's algorithm` is done in [java](https://www.codecademy.com/learn/learn-java):
 
@@ -109,4 +106,4 @@ public class KadaneAlgorithm {
 }
 "
 
-Three additional variables: `start`, `end` and `tempStart` are added in the above code. These variables keep track of the starting, ending indices, temporary start of the current subarray. So, in the end the subarray itself can be printed which have the max sum with the max sum.
+Three additional variables: `start`, `end`, and `tempStart` are added in the above code. These variables keep track of the starting, and ending indices, the temporary start of the current subarray. So, in the end, the subarray itself can be printed which has the max sum with the max sum.
