@@ -20,8 +20,8 @@ The **`.range()`** method is used to define the output range of a scale. The ran
 
 ```pseudo
 d3.scaleType()
-    .domain([minValue, maxValue])
-    .range([minOutput, maxOutput]);
+  .domain([minValue, maxValue])
+  .range([minOutput, maxOutput]);
 ```
 
 - `.scaleType()`: The selected scale method (e.g., `.scaleLinear()`- a continuous linear scale).
