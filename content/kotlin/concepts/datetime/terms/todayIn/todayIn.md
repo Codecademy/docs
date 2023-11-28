@@ -13,18 +13,20 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.todayIn()`** method returns a date when called on an Instant value of `Clock` while passing a `TimeZone` argument.
+The **`.todayIn()`** method returns a date when called on a `Clock` while passing a `TimeZone` argument.
 
 ## Syntax
 
 ```pseudo
-Clock.System.todayIn(timeZone: TimeZone.currentSystemDefault())
+myClock.todayIn(myTimeZone)
 ```
 
-- `Clock.System`: records a moment in time, also known as an Instant (e.g., 2023-11-21, 00:00:00 UTC+0). Two possible ways to get an Instant are by using `Clock.now` or `Clock.System`.
-- `TimeZone.currentSystemDefault()`: pulls and records an instance of the current system time zone (e.g., America/Los_Angeles).
+- `myClock`: A Clock providing a source for Instants (e.g., 2023-11-21, 00:00:00 UTC+0). `Clock.System` is the clock that refers to the current platform for the current time.
+- `myTimeZone`: An instance of the `TimeZone` class (e.g., America/Los_Angeles).
 
 ## Example
+
+The example below demonstrates a basic implementation of `.todayIn` that returns the current date.
 
 ```kotlin
 // Import all classes from kotlinx.datetime package.
@@ -36,7 +38,7 @@ fun main() {
 }
 ```
 
-This example results in the following output:
+This example results in an output similar to the following:
 
 ```shell
 2023-11-21
