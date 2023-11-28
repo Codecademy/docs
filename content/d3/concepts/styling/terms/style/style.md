@@ -7,6 +7,7 @@ Subjects:
 Tags:
   - 'D3'
   - 'Style'
+  - 'Graphs'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/computer-science'
