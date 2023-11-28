@@ -1,6 +1,6 @@
 ---
 Title: '.todayIn()'
-Description: 'Passing a specific time zone as an argument and calling this method on an Instant value of Clock will return a date.'
+Description: 'Returns a date for the given Clock value and time zone passed.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
@@ -28,7 +28,7 @@ Clock.System.todayIn(timeZone: TimeZone.currentSystemDefault())
 
 ```kotlin
 // Import all classes from kotlinx.datetime package.
-import kotlinx.datetime.* 
+import kotlinx.datetime.*
 
 fun main() {
   val myLocalDate = Clock.System.todayIn(timeZone = TimeZone.currentSystemDefault())
