@@ -51,7 +51,7 @@ div {
 }
 ```
 
-![Animation of example 1 with animation direction as reverse](https://raw.githubusercontent.com/Codecademy/docs/main/media/animation-direction-example1.gif)
+![Animation with reverse direction-animation](https://raw.githubusercontent.com/Codecademy/docs/main/media/animation-direction-example1.gif)
 
 ## Example 2
 
@@ -87,4 +87,4 @@ div {
 }
 ```
 
-![Animation of example 2 with animation direction as alternate and altrernate-reverse](https://raw.githubusercontent.com/Codecademy/docs/main/media/animation-direction-example2.gif)
+![Animation with animation-direction as alternate and altrernate-reverse](https://raw.githubusercontent.com/Codecademy/docs/main/media/animation-direction-example2.gif)
