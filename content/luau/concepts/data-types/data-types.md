@@ -1,6 +1,6 @@
 ---
 Title: 'Data Types'
-Description: 'Luau Data Types represents the variable's assigned value type.'
+Description: "Luau Data Types represents the variable's assigned value type."
 Subjects:
   - 'Computer Science'
   - 'Game Development'
