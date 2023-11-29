@@ -36,21 +36,21 @@ The following implementation of `Kadane's algorithm` is done in [java](https://w
 ```java
 public class KadaneAlgorithm {
   public static int maxSubarraySum(int[] arr) {
-      int maxEndingHere = arr[0];
-      int maxSoFar = arr[0];
+    int maxEndingHere = arr[0];
+    int maxSoFar = arr[0];
 
-      for (int i = 1; i < arr.length; i++) {
-          maxEndingHere = Math.max(arr[i], maxEndingHere + arr[i]);
-          maxSoFar = Math.max(maxSoFar, maxEndingHere);
-      }
+    for (int i = 1; i < arr.length; i++) {
+        maxEndingHere = Math.max(arr[i], maxEndingHere + arr[i]);
+        maxSoFar = Math.max(maxSoFar, maxEndingHere);
+    }
 
-      return maxSoFar;
+    return maxSoFar;
   }
 
   public static void main(String[] args) {
-      int[] nums = {-2, -1, -3, 4, -1, 2, 1, -5, 4};
-      int maxSum = maxSubarraySum(nums);
-      System.out.println("Maximum subarray sum: " + maxSum);
+    int[] nums = {-2, -1, -3, 4, -1, 2, 1, -5, 4};
+    int maxSum = maxSubarraySum(nums);
+    System.out.println("Maximum subarray sum: " + maxSum);
   }
 }
 ```
@@ -66,43 +66,43 @@ Maximum subarray sum: 6
 ```codebyte/java
 public class KadaneAlgorithm {
   public static int maxSubarraySum(int[] arr) {
-      int maxEndingHere = arr[0];
-      int maxSoFar = arr[0];
-      int start = 0; 
-      int end = 0;   
-      int tempStart = 0; 
+    int maxEndingHere = arr[0];
+    int maxSoFar = arr[0];
+    int start = 0; 
+    int end = 0;   
+    int tempStart = 0; 
 
-      for (int i = 1; i < arr.length; i++) {
-          if (arr[i] > maxEndingHere + arr[i]) {
-              maxEndingHere = arr[i];
-              tempStart = i;
-          } else {
-              maxEndingHere = maxEndingHere + arr[i];
-          }
+    for (int i = 1; i < arr.length; i++) {
+        if (arr[i] > maxEndingHere + arr[i]) {
+            maxEndingHere = arr[i];
+            tempStart = i;
+        } else {
+            maxEndingHere = maxEndingHere + arr[i];
+        }
 
-          if (maxEndingHere > maxSoFar) {
-              maxSoFar = maxEndingHere;
-              start = tempStart;
-              end = i;
-          }
-      }
+        if (maxEndingHere > maxSoFar) {
+            maxSoFar = maxEndingHere;
+            start = tempStart;
+            end = i;
+        }
+    }
 
-      System.out.print("Maximum subarray: [");
-      for (int i = start; i <= end; i++) {
-          System.out.print(arr[i]);
-          if (i != end) {
-              System.out.print(", ");
-          }
-      }
-      System.out.println("]");
+    System.out.print("Maximum subarray: [");
+    for (int i = start; i <= end; i++) {
+        System.out.print(arr[i]);
+        if (i != end) {
+            System.out.print(", ");
+        }
+    }
+    System.out.println("]");
 
-      return maxSoFar;
+    return maxSoFar;
   }
 
   public static void main(String[] args) {
-      int[] nums = {-2, -1, -3, 4, -1, 2, 1, -5, 4};
-      int maxSum = maxSubarraySum(nums);
-      System.out.println("Maximum subarray sum: " + maxSum);
+    int[] nums = {-2, -1, -3, 4, -1, 2, 1, -5, 4};
+    int maxSum = maxSubarraySum(nums);
+    System.out.println("Maximum subarray sum: " + maxSum);
   }
 }
 "
