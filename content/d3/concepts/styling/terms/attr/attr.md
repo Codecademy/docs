@@ -20,12 +20,23 @@ The **`.attr()`** method is used to set or get attributes of selected elements. 
 selection.attr("attributeName", "attributeValue");
 ```
 
-The `.attr()` function takes two parameters, first is the name of attribute and second is the corresponding value or a callback function.
+The `.attr()` function takes two parameters,
+
+- `attributeName`: Name of the attribute
+- `attributeValue`: Value of the attribute or a callback function.
 
 ## Example
+
+In the example given below, the value `5` is set to the attribute `radius` which turns the radius of `circle` to 5 units.
 
 ```js
 d3.select('circle').attr('radius', 5);
 ```
 
-In the example given above, the value `5` is set to the attribute `radius`
+The example given below demonstrates the arguement as a callback function. It is used to dynamically compute attribute value based on the data given. Here function is used to calculate parameter of circle. The callback function is passed the current data and returns the attribute value.
+
+```js
+d3.select('circle').attr('parameter', function (d) {
+  return 2 * 3.14 * d.radius;
+});
+```
