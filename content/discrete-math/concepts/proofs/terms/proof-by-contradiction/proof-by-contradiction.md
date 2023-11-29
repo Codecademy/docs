@@ -32,7 +32,7 @@ A famous version of the proof that there are infinitely many primes uses Proof b
 Assume, for proof by contradiction, that there are only finitely many primes.
 ```
 
-### Prove a contradiction
+### Prove a Contradiction
 
 ```plaintext
 By assumption, there is some finite number of primes, n. Label the series of primes p1, p2, ..., pn.
