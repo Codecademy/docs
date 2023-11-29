@@ -53,4 +53,3 @@ h1 {
 ```
 
 ![Shows h1 element with transparent background over an aquamarine background](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-background-color-example-2.png)
-
