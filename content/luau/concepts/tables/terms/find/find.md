@@ -8,19 +8,25 @@ Tags:
   - 'Tables'
   - 'Functions'
 CatalogContent:
-  - 'learn-lua'
+  - 'learn-luau'
   - 'paths/computer-science'
 ---
 
-The **find()** function is used to search for a specific value in a table and returns its index if found.The function returns `nil` if the value is not present in the table.
+The **find()** function is used to search for a specific value in a table and returns its index if found. The function returns `nil` if the value is not present in the table.
 
 ## Syntax
 
-```lua
+```pseudo
 table.find(myTable,value)
 ```
 
+- `myTable`: A table containing values where the specified value being searched is present.
+
+- `value`: This represents paramter of the value being sought-after element in the table.
+
 ## Example
+
+In this example, a table containing strings of letters is declared, and the `table.find()` function is utilized to discover the index of a sought-after value within the table.if not found, it will return nil instead.
 
 ```lua
 -- Create a sample table
