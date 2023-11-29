@@ -1,6 +1,6 @@
 ---
 Title: 'Proof by Contradiction'
-Description: 'Proving a statement by assuming that it is false and showing a contradiction follows.'
+Description: 'Proving a statement by assuming that it is false and showing a contradiction follows on that assumption.'
 Subjects:
   - 'Computer Science'
   - 'Discrete Math'
