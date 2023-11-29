@@ -5,7 +5,7 @@ Subjects:
   - 'Web Development'
   - 'Computer Science'
 Tags:
-  - 'Functions'
+  - 'Methods'
   - 'Parameters'
   - 'Arguments'
 CatalogContent:
