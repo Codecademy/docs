@@ -21,8 +21,9 @@ The **`.text()`** method in D3 is used to set text content for any selected elem
     d3.selection("element")                 
     .text("Your text content goes here");                                                
 ```
-* A selection method is called on an element
-* A text method is called and the text content is passed to it as an argument
+
+- A selection method is called on an element.
+- A text method is called and the text content is passed to it as an argument.
 
 ## Example
 
