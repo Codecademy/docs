@@ -11,7 +11,7 @@ Tags:
   - 'Strings'
   - 'Functions'
 CatalogContent:
-  - 'learn-luau'
+  - 'learn-lua'
   - 'paths/computer-science'
 ---
 
