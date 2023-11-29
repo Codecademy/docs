@@ -24,7 +24,7 @@ Proof by contradiction is also sometimes known as **indirect proof** or **reduct
 
 ## Example
 
-A famous version of the proof that there are infinitely many primes uses Proof by Contradiction.
+The following example uses proof by contradiction to prove there are infinitely many primes.
 
 ### Suppose the Negation
 
