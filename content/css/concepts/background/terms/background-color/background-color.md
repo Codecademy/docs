@@ -40,7 +40,7 @@ h1 {
 }
 ```
 
-![Image showing h1 element with green background over an aquamarine background](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-background-color-example-1.png)
+![Shows h1 element with green background over an aquamarine background](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-background-color-example-1.png)
 
 ## Example 2
 
@@ -52,5 +52,5 @@ h1 {
 }
 ```
 
-![Image showing h1 element with transparent background over an aquamarine background](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-background-color-example-2.png)
+![Shows h1 element with transparent background over an aquamarine background](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-background-color-example-2.png)
 
