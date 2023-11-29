@@ -40,6 +40,3 @@ The above example will give the following output:
 ```shell
 Big Header
 ```
-
-
-
