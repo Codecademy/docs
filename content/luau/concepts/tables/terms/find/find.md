@@ -21,12 +21,11 @@ table.find(myTable,value)
 ```
 
 - `myTable`: A table containing values where the specified value being searched is present.
-
-- `value`: This represents paramter of the value being sought-after element in the table.
+- `value`: This represents paramter of the value being sought after in the table.
 
 ## Example
 
-In this example, a table containing strings of letters is declared, and the `table.find()` function is utilized to discover the index of a sought-after value within the table.if not found, it will return nil instead.
+In this example, a table containing strings of letters is declared, and the `table.find()` function is utilized to discover the index of a sought after value within the table. If not found, it will return nil instead.
 
 ```lua
 -- Create a sample table
