@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.decodeFromString()`** function is provided by the Kotlin Serialization library which is used for deserializing data from a string representation (JSON format) into a Kotlin object.
+The **`.decodeFromString()`** function is provided by the Kotlin Serialization library, used for deserializing data from a string representation (in JSON format) into a Kotlin object.
 
 ## Syntax
 
@@ -49,7 +49,7 @@ fun main() {
 }
 ```
 
-This will print the following output:
+The above example will result in the following output:
 
 ```shell
 Person(name=Johnny, age=30)
