@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The Kotlin method, **`.dropLast()`** removes the last character of a string or the last `n` number, a positive integer, of characters from a string. This method does not modify the original list, it creates and returns a new list.
+The Kotlin method, **`.dropLast()`** removes one or `n` number of characters from the end of the string. Here, `n` is a positive integer given as a parameter to the method. This method does not modify the original list, it creates and returns a new list.
 
 ## Syntax
 
@@ -22,9 +22,7 @@ fun String.dropLast(n: Int): String
 
 - The parameter `n` is the number of characters to be removed from the string.
 
-### Special Cases
-
-`IllegalArguementException` error thrown if `n` is a negative number. A negative number of characters can not be removed.
+>**Note:** `IllegalArguementException` error thrown if `n` is a negative number. A negative number of characters can not be removed.
 
 ## Example
 
