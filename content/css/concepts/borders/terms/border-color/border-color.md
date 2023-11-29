@@ -33,7 +33,7 @@ where `<color>` can be one of the following:
 
 ## Example 1
 
-Set border of the `h1` element to be green, 3 pixels thick, and dotted:
+Set the border of the `h1` element to be green, 3 pixels thick, and dotted:
 
 ```css
 h1 {
