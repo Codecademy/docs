@@ -51,7 +51,7 @@ div {
 }
 ```
 
-![Animation with reverse direction-animation](https://raw.githubusercontent.com/Codecademy/docs/main/media/animation-direction-example1.gif)
+![Animation with reverse animation-direction](https://raw.githubusercontent.com/Codecademy/docs/main/media/animation-direction-example1.gif)
 
 ## Example 2
 
