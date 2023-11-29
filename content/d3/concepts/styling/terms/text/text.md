@@ -34,7 +34,7 @@ let outPut = d3.select('h2').text();
 console.log(outPut); 
 ```
 
-The above example will give the following output::
+The above example will give the following output:
 
 ```shell
 Big Header
