@@ -47,4 +47,5 @@ Since p1, p2, ..., pn contains all primes, pm equals some value in p1, p2, ..., 
 
 Therefore there is a contradiction: pm both is and is not a factor of P.
 
+Since assuming there are finitely many primes leads to a logical contradiction, there must be infinitely many primes.
 ```
