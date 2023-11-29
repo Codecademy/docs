@@ -25,11 +25,11 @@ The `Box<T>` smart pointer is used to store data on the heap rather than the sta
 let boxed_value: Box<i32> = Box::new(42);
 ```
 
-- `boxed_value` in the example above is a variable of type `Box<i32>`. The result is a heap-allocated box that contains an Integer with the value of 42;
+- **boxed_value**: It is a variable of type `Box<i32>`. The result is a heap-allocated box that contains an Integer with the value of 42;
 
-### Rc&lt;T&gt;
+### Reference Counted Smart Pointer Type;
 
-The `Rc<T>` stands for Reference Counted smart pointer type. This pointer keeps track of the number of references to each variable in your code. When the reference count reaches zero, indicating that they are no longer in use, and the smart pointer cleans them up.
+The `Rc<T>` stands for Reference Counted smart pointer type. This pointer keeps track of the number of references to each variable in the code. When the reference count reaches zero, indicating they are no longer in use, the smart pointer cleans them up.
 
 ```pseudo
 use std::rc::Rc;
@@ -37,7 +37,7 @@ use std::rc::Rc;
 let shared_value: Rc<i32> = Rc::new(42);
 ```
 
-- `shared_value` in the example above is a variable of type `Rc<i32>`. The result is a heap-allocated reference-counted smart pointer that contains an Integer with the value of 42;
+- **shared_value** It is a variable of type `Rc<i32>`. The result is a heap-allocated reference-counted smart pointer that contains an Integer with the value of 42;
 
 ### RefCell&lt;T&gt; (Ref&lt;T&gt; and RefMut&lt;T&gt;)
 
@@ -49,7 +49,7 @@ use std::cell::RefCell;
 let mutable_data = RefCell::new(42);
 ```
 
-- `mutable_data` in the example above is a variable of type `RefCell<i32>`. The result is an instance of the `RefCell<T>` smart pointer, which provides interior mutability.
+- **mutable_data** It is a variable of type `RefCell<i32>`. The result is an instance of the `RefCell<T>` smart pointer, which provides interior mutability.
 
 ## Examples
 
@@ -84,17 +84,17 @@ use Tree::{Node, Leaf};
 
 fn main() {
     let first_tree = Rc::new(Node(10, Rc::new(Node(20, Rc::new(Leaf)))));
-    println!("The count after creating first_tree is {}", Rc::strong_count(&first_tree)); // Output would be 1
+    println!("The count after creating first_tree is {}", Rc::strong_count(&first_tree));
 
     let second_tree = Node(8, Rc::clone(&first_tree));
-    println!("The count after creating second_tree is {}", Rc::strong_count(&first_tree)); // Output would be 2
+    println!("The count after creating second_tree is {}", Rc::strong_count(&first_tree));
 
     {
         let third_tree = Node(9, Rc::clone(&first_tree));
-        println!("The count after creating third_tree is {}", Rc::strong_count(&first_tree)); // Output would be 3
+        println!("The count after creating third_tree is {}", Rc::strong_count(&first_tree));
     }
 
-    println!("The count after third_tree goes out of scope is {}", Rc::strong_count(&first_tree)); // Since third_tree was declared out of scope, the output would be 2
+    println!("The count after third_tree goes out of scope is {}", Rc::strong_count(&first_tree));
 }
 ```
 
