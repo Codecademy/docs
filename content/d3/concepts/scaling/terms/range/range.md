@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.range()`** method is used to define the output range of a scale. The range represents the output values produced by the scale when mapped from the `domain`. The syntax for the `.range()` method depends on the type of scale used.
+The **`.range()`** method is used to define the output range of a scale. The range represents the output values produced by the scale when mapped from the [domain](https://www.codecademy.com/resources/docs/d3/scaling/domain). The syntax for the `.range()` method depends on the type of scale used.
 
 ## Syntax
 
@@ -25,7 +25,7 @@ d3.scaleType()
 
 - `.scaleType()`: The selected scale method (e.g., `.scaleLinear()`- a continuous linear scale).
 - `.domain()`: Requires the `minValue` and `maxValue` arguments to set the accepted range.
-- `.range()`: The second step in defining a scale, the arguments `minOutput` and `maxOutput` are used to specify the set of values returned by the scale.
+- `.range()`: The second step in defining a scale, the arguments `minOutput` and `maxOutput` are used to specify the output range of the scale.
 
 ## Example
 
@@ -39,7 +39,7 @@ console.log(scale(50));
 console.log(scale(100));
 ```
 
-The above example will give the following output:
+The output of the above example will be:
 
 ```shell
 0
