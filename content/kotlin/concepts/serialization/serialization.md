@@ -1,0 +1,34 @@
+---
+Title: 'Serialization'
+Description: 'The proceess of converting data into a format that can be deserialized.'
+Subject:
+ - 'Mobile Developement'
+ - 'Web Developement'
+ - 'Data Science'
+Tags:
+ - 'Kotlin'
+ContentCatalog:
+ - 'learn-kotlin'
+---
+
+**Serialization** is the process of converting a complex object to a format that can be transferred over a network, used by an application, stored in a database or file.
+
+## Kotlin Serialization
+
+Kotlin uses data serialization tools made availible in separate componenets, `kotlinx.serialization`, and consits of the `org.jetbrains.kotlin.plugin.serialization` Gradle plugin, runtime libraries, `kotlinx-serialization-compiler-plugin` and `kotlinx-serialization-compiler-plugin-embeddable` are the compiler plugins.
+
+## Libraries
+
+Kotlin serialization libraries belong to the `org.jetbrains.kotlinx:` group and begin with `kotlinx-serialization-` with suffixes that reflect the serialization format, such as: `json`.
+
+## Formats
+
+Included libraries in `kotlinx.serialization` for various serialization formats:
+
+ - CBOR: `kotlin-serialization-cbor`
+ - HOCON: `kotlin-serialization-hocon`
+ - Properties: `kotlin-serialization-properties`
+ - Protocol buffers: `kotlin-serialization-protobuf`
+ - JSON: `kotlin-serialization-json`
+
+All libraies besides JSON serialization are experimental, for detailed information about serialization formats refer to the [Kotlin Serialization Documents](https://github.com/Kotlin/kotlinx.serialization/blob/master/formats/README.md)
