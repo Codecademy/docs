@@ -15,7 +15,7 @@ CatalogContent:
 
 **Proof by Contradiction** is a technique used in mathematical proofs to demonstrate a statement by assuming that it is false and then showing that a contradiction follows on that assumption. By proving that a contradiction would occur if a statement were false, the truth of that statement is thereby demonstrated.
 
-Proof by Contradiction is also sometimes known as **indirect proof** or **reductio ad absurdum**, meaning to reduce to an absurdity.
+Proof by contradiction is also sometimes known as **indirect proof** or **reductio ad absurdum**, meaning to reduce to an absurdity.
 
 ## Steps for Proof by Contradiction
 
