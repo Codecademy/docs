@@ -7,6 +7,7 @@ Subjects:
 Tags:
   - 'Methods'
   - 'Data'
+  - 'Graphs'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/computer-science'
