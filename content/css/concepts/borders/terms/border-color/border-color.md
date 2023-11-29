@@ -33,7 +33,7 @@ where `<color>` can be one of the following:
 
 ## Example 1
 
-Set border of the `h1` element to be green, 3 pixels thick, and dotted:
+Set the border of the `h1` element to be green, 3 pixels thick, and dotted:
 
 ```css
 h1 {
@@ -42,6 +42,8 @@ h1 {
   border-style: dotted;
 }
 ```
+
+![h1 element with a green dotted 3px border](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-border-color-example1.png)
 
 ## Example 2
 
@@ -52,3 +54,5 @@ h1 {
   border-color: coral beige;
 }
 ```
+
+![h1 element with coral top and bottom borders, and beige left and right borders](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-border-color-example2.png)
