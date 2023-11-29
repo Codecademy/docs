@@ -43,7 +43,7 @@ function sum(num1, num2) {
 }
 
 // Calling the function
-sum(2, 4);
+console.log(sum(2, 4));
 // Output 6
 ```
 
@@ -54,11 +54,26 @@ sum(2, 4);
 In JavaScript functions will run whether or not they have the intended number of arguments. If more than the number required are submitted, the function will use the required number and ignore the rest. If fewer arguments are provided than required, the other values will be set to `undefined`.
 
 ```js
-sum(2, 4, 8);
+console.log(sum(2, 4, 8));
 // Output 6
 
-sum(2);
+console.log(sum(2));
 // Output NaN
+```
+
+## Default Values
+
+Functions can also be defined with default values for one, or all of the parameters. If no arguments are passed the default values are used, if arguments are included they will override the default values.
+
+```js
+// Defining the function with default values
+function sum(num1 = 6, num2 = 1) {
+  return num1 + num2;
+}
+
+// Calling the function
+console.log(sum(8));
+// Output 9
 ```
 
 ## Return Keyword

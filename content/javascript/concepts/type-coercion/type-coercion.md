@@ -23,8 +23,16 @@ JavaScript is a relatively permissive language, and in many situations, such as 
 Expressions of mixed types are evaluated by changing one of the elements to match the other. For example, in the code below the string `6` is changed to a `number` type and will yield `true` and the product `36`. However, the use of values that have been evaluated in such an expression may lead to unintended results when this behavior is not expected. It is a best practice to use the alternative, strict comparison operators to avoid errors from this form of evaluation.
 
 ```js
-6 == '6'; // Yields true
-6 * '6'; // Yields 36
+console.log(6 == '6');
+console.log(6 * '6');
 
-6 === '6'; // Yields false
+console.log(6 === '6');
+```
+
+The code above will output:
+
+```shell
+true
+36
+false
 ```

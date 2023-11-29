@@ -26,7 +26,7 @@ The function should follow the same declaration syntax with the addition of the 
 
 ## Example
 
-The following code demonstrates a basic implementation of a rest parameter.
+The following code demonstrates a basic implementation of a rest parameter:
 
 ```js
 function sumVals(...vals) {
@@ -42,7 +42,7 @@ let nums = [2, 4, 6, 8, 10];
 console.log(sumVals(...nums));
 ```
 
-This will return:
+The above example will return the following result:
 
 ```shell
 30
