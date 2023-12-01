@@ -9,6 +9,10 @@ Tags:
   - 'Link'
   - 'Tags'
   - 'URL'
+  - ‘Media’
+  - ‘Images’
+  - ‘Video’
+  - ‘Audio’
 CatalogContent:
   - 'learn-html'
   - 'paths/front-end-engineer-career-path'
@@ -84,4 +88,37 @@ The two primary attributes are:
     <!-- markup here -->
   </body>
 </html>
+```
+
+## Add Media
+
+Specific elements are used to embed media onto a webpage. 
+
+### Add Image 
+[`<img />`]: This self-closing tag inserts an image.  Use source and alt attributes to specify source and alternative text display.
+
+```html
+<!-- Add image -->
+
+<img src=“logo.jpg” />
+```
+
+### Add Video
+[`<video>`]: This tag embeds a video.  Common attributes of video are controls and autoplay.
+
+```html
+<!-- Add video -->
+
+<video>
+  <source src=“movie.mp4” type=“mp4”>
+</video>
+```
+
+### Add Audio
+[`<audio>`]: This tag adds an audio file.  The autoplay attribute is used to automatically begin the audio file when it page loads.  The loop attribute is used to continuously loop the audio file.
+
+```html
+<!--Add audio -->
+<audio>
+</audio>
 ```
