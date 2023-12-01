@@ -20,8 +20,8 @@ In a weak mathematical induction, the inductive step involves showing that if so
 
 ## Steps for Strong Induction
 
-1. Base Step: Prove that the first element or elements in the series have some property.
-2. Inductive Step: Prove that if _n_ and all elements prior to n have the relevant property, then _n + 1_ has that property.
+1. `Base Step`: Prove that the first element or elements in the series have some property.
+2. `Inductive Step`: Prove that if _n_ and all elements before n have the relevant property, then _n + 1_ has that property.
 
 ## Example
 
