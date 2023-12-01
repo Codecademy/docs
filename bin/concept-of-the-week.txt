@@ -1,1 +1,1 @@
-content/sql/concepts/wildcards/wildcards.md
+content/javascript/concepts/sets/sets.md
