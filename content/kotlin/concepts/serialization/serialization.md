@@ -15,7 +15,7 @@ ContentCatalog:
 
 ## Kotlin Serialization
 
-Kotlin uses data serialization tools made availible in separate componenets, `kotlinx.serialization`, and consits of the `org.jetbrains.kotlin.plugin.serialization` Gradle plugin, runtime libraries, `kotlinx-serialization-compiler-plugin` and `kotlinx-serialization-compiler-plugin-embeddable` are the compiler plugins.
+In Kotlin, serialiazation tools are made availible in `kotlinx.serialization`. It consists of a few components, the `org.jetbrains.kotlin.plugin.serialization` Gradle plugin, runtime libraries and compiler plugins.
 
 ## Libraries
 
