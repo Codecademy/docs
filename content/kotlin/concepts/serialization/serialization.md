@@ -1,13 +1,13 @@
 ---
 Title: 'Serialization'
-Description: 'The proceess of converting data into a format that can be deserialized.'
-Subject:
+Description: 'The process of converting data into a format that can be stored or transmitted.'
+Subjects:
  - 'Mobile Developement'
  - 'Web Developement'
  - 'Data Science'
 Tags:
  - 'Kotlin'
-ContentCatalog:
+CatalogContent:
  - 'learn-kotlin'
 ---
 
@@ -19,7 +19,7 @@ In Kotlin, serialiazation tools are made availible in `kotlinx.serialization`. I
 
 ## Libraries
 
-Kotlin serialization libraries belong to the `org.jetbrains.kotlinx:` group and begin with `kotlinx-serialization-` with suffixes that reflect the serialization format, such as: `json`.
+Kotlin serialization libraries belong to the `org.jetbrains.kotlinx:` group and begin with `kotlinx-serialization-` with suffixes that reflect the serialization format, such as `json`.
 
 ## Formats
 
