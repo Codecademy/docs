@@ -62,5 +62,4 @@ div {
 }
 ```
 
-**Note**
 ![css-animation-timing-function-example](docs/media/css-animation-timing-function.gif)
