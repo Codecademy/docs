@@ -17,10 +17,10 @@ Specifies how intermediate values are calculated throughout the duration of an a
 ## Syntax
 
 ```css
-animation-timing-function: <value>;
+animation-timing-function: value;
 ```
 
-where `<value>` can be one of the following keywords:
+where `value` can be one of the following keywords:
 
 - `step-start`: Easing curve for an animation that starts quickly and decelerates.
 - `step-end`: Easing curve for an animation that starts slowly and decelerates.
