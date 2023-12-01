@@ -1,12 +1,12 @@
 ---
 Title: 'Objects'
-Description: 'A JavaScript object can be created or defined with an object literal: js const person = { firstName: Elizabeth, lastName: Harmon, age: 22, eyeColor: Hazel,'
+Description: 'A type for organizing a set of custom properties and behaviors.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
 Tags:
   - 'Dictionary'
-  - 'Objects'
+  - 'Methods'
   - 'Classes'
   - 'OOP'
 CatalogContent:
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-A JavaScript object can be created or defined with an object literal:
+A JavaScript **object** is a type that can assume the properties and behaviors required for a given programming need. An object can be created or defined with an object literal:
 
 ```js
 const person = {
@@ -134,7 +134,8 @@ Person {
 */
 ```
 
-An additional step can be made to optimize this procedure through the use of a _constructor_.
+An additional step can be made to optimize this procedure through the use of a [constructor](https://www.codecademy.com/resources/docs/javascript/constructor).
+
 A constructor function initializes a set of variables at the creation of a class. Thanks to constructors, object properties can be defined when a new instance is made. This makes code precise and concise.
 
 ```js
