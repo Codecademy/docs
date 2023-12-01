@@ -35,7 +35,7 @@ where `value` can be one of the following keywords:
 
 ## Example 1
 
-Applying `ease-in-out` to the `animation-timing-function` property of a div element:
+Applying `ease-in-out` to the `animation-timing-function` property of a `div` element:
 
 ```css
 div {
