@@ -39,11 +39,13 @@ Applying `ease-in-out` to the `animation-timing-function` property of a div elem
 
 ```css
 div {
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
   background-color: blue;
   animation-name: slideright;
   animation-duration: 4s;
+  animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
 
@@ -59,3 +61,6 @@ div {
   }
 }
 ```
+
+**Note**
+![css-animation-timing-function-example](docs/media/css-animation-timing-function.gif)
