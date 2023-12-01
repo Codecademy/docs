@@ -95,30 +95,31 @@ The two primary attributes are:
 Specific elements are used to embed media onto a webpage. 
 
 ### Add Image 
-[`<img />`]: This self-closing tag inserts an image.  Use source and alt attributes to specify source and alternative text display.
+[`<img />`]: This self-closing tag inserts an image.  Use `src` and `alt` attributes to specify source and alternative text display.  `Width` and `height` attributes are used to specify image size.
 
 ```html
 <!-- Add image -->
 
-<img src=“logo.jpg” />
+<img src=“codecademy.jpg” alt="Codecademy_Logo" width="300" height="200" />
 ```
 
 ### Add Video
-[`<video>`]: This tag embeds a video.  Common attributes of video are controls and autoplay.
+[`<video>`]: This tag embeds a video, and requires a closing tag. Use the [`<source>`] element to point to the video file and the type of file. Add the `controls` attribute to include video controls such as play, pause and volume. `Width` and `height` attributes are used to specify video size.  The `autoplay` attribute is used to automatically begin the video file when the page loads.
 
 ```html
 <!-- Add video -->
 
-<video>
-  <source src=“movie.mp4” type=“mp4”>
+<video width="300" height="200" controls autoplay>
+  <source src=“codecademy_movie.mp4” type=“mp4”>
 </video>
 ```
 
 ### Add Audio
-[`<audio>`]: This tag adds an audio file.  The autoplay attribute is used to automatically begin the audio file when it page loads.  The loop attribute is used to continuously loop the audio file.
+[`<audio>`]: This tag adds an audio file.  Similiar to the [`<video>`] tag, the `controls` attribute adds audio controls such as play, pause and volume. The `autoplay` attribute is used to automatically begin the audio file when the page loads.  The `loop` attribute is used to continuously loop the audio file.
 
 ```html
 <!--Add audio -->
-<audio>
+<audio controls autoplay> 
+  <source src="school_bells.mp3" type="audio/mpeg">
 </audio>
 ```
