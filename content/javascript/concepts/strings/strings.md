@@ -5,7 +5,7 @@ Subjects:
   - 'Web Development'
   - 'Computer Science'
 Tags:
-  - 'Strings'
+  - 'Characters'
   - 'Methods'
   - 'Data Types'
 CatalogContent:
