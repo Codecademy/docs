@@ -1,3 +1,18 @@
+---
+Title : '.enter()'
+Description: 'Adding, deleting, and rearranging elements as needed to correspond with the data previously linked through selection.data() method'
+Subjects: 
+- 'Data Visualization'
+- 'Computer Science'
+Tags: 
+- 'D3'
+- 'Data'
+CatalogContent:
+- 'learn-d3'
+- 'paths/data-science'
+- 'paths/computer-science'
+
+---
 # .Enter()
 
 In D3.js, the **.enter()** selection method refers to a subset of the selection that represents placeholders for elements to be added to the document. This selection is commonly used in conjunction with **.data()** binding method when there are more data elements than corresponding DOM elements.
@@ -31,7 +46,7 @@ d3.select("<parent element>").selectAll("<child element>")
 
 This example illustrates a basic flow using D3.js to bind an array of data to DOM elements
 
-```
+```codebyte/javascript
 const data = [10, 20, 30, 40, 50]
 
 const divSelection = d3.select('body')
