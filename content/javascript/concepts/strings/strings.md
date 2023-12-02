@@ -46,7 +46,7 @@ let age = 7;
 
 ## Escaping Characters
 
-On occasion in may be necessary to include characters in a string that may have reserved meanings or to apply additional formatting. Characters, such as quotes, can be included by prepending a `\`. And there are a number of predefined escape sequences such as `\n` or `\t` to add the formatting such as line break or tab respectively.
+On occasion it may be necessary to include characters in a string that may have reserved meanings or to apply additional formatting. Characters, such as quotes, can be included by prepending a `\`. There are a number of predefined escape sequences such as `\n` or `\t` to add the formatting such as line break or tab respectively.
 
 ```js
 // Line break
