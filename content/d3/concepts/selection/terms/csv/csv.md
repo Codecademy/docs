@@ -50,9 +50,9 @@ This example results in the following output:
 
 ```shell
 [
-    {"Name": "Alex", "Sex": "M", "Age": 41, "Height (in)": 74, "Weight (lbs)": 170},
-    {"Name": "Elly", "Sex": "F", "Age": 30 , "Height (in)": 66, "Weight (lbs)": 124},
-    {"Name": "Fran", "Sex": "F", "Age": 33, "Height (in)": 66, "Weight (lbs)": 115},
-    {"Name": "Hank", "Sex": "M", "Age": 30, "Height (in)": 71, "Weight (lbs)": 158}
+    {"Name": "Alex", "Sex": "M", "Age": "41", "Height (in)": "74", "Weight (lbs)": "170"},
+    {"Name": "Elly", "Sex": "F", "Age": "30" , "Height (in)": "66", "Weight (lbs)": "124"},
+    {"Name": "Fran", "Sex": "F", "Age": "33", "Height (in)": "66", "Weight (lbs)": "115"},
+    {"Name": "Hank", "Sex": "M", "Age": "30", "Height (in)": "71", "Weight (lbs)": "158"}
 ]
 ```
