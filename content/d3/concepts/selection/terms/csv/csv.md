@@ -21,7 +21,7 @@ The **`.csv()`** method in D3 is used to load a .csv file or data and returns th
 d3.csv(url[[, accessor], callback])
 ```
 
-- `url`: contains the csv data.
+- `url`: contains the CSV data.
 - `accessor`: an optional conversion function to change the representation.
 - `callback`: an optional callback function that executes once the data is loaded.
 
