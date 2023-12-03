@@ -21,9 +21,16 @@ The **`.csv()`** function in D3 is used to load and parse CSV (`Comma-Separated-
 d3.csv(url[[, accessor], callback])
 ```
 
+<<<<<<< HEAD
 - `url`: the URL of the CSV file or a string containing the CSV data.
 - `accessor`: an optional conversion function to change the representation. It allows for custom data transformation and returns processed data for each row.
 - `callback`: an optional callback function that executes once the data is loaded and parsed.
+=======
+- `url`: contains the CSV data.
+- `accessor`: an optional conversion function to change the representation.
+- `callback`: an optional callback function that executes once the data is loaded.
+>>>>>>> 6780a0186acdc345afa5770500019881f0971a2f
+
 
 ## Example
 
