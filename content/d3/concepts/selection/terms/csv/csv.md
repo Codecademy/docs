@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.csv()`** method in D3 is used to load a .csv file or data and returns the data as an array of objects. A .csv file contains data in the form of `comma-separated-values`, which can be parsed by .csv() to be accessible for D3.
+The **`.csv()`** function in D3 is used to load and parse CSV (`Comma-Separated-Values`) files or data asynchronously. It returns the data as an array of objects. The function is commonly used in data visualization.
 
 ## Syntax
 
@@ -21,38 +21,59 @@ The **`.csv()`** method in D3 is used to load a .csv file or data and returns th
 d3.csv(url[[, accessor], callback])
 ```
 
-- `url`: contains the csv data.
-- `accessor`: an optional conversion function to change the representation.
-- `callback`: an optional callback function that executes once the data is loaded.
+- `url`: the URL of the CSV file or a string containing the CSV data.
+- `accessor`: an optional conversion function to change the representation. It allows for custom data transformation and returns processed data for each row.
+- `callback`: an optional callback function that executes once the data is loaded and parsed.
 
 
 ## Example
 
-Consider the data in workers.csv:
+In the following example `.csv()` is used to load and parse CSV data. In this case the accessor is the anonymous `function(d)`. It uses two callback functions: `.then(function(data) {})` and `.catch(function(error) {})`.
+
+Consider the comma-separated data in example.csv:
 
 ```
-Name,   Sex,    Age,    Height (in),    Weight (lbs)
-Alex,   M,      41,     74,             170
-Elly,   F,      30,     66,             124
-Fran,   F,      33,     66,             115
-Hank,   M,      30,     71,             158
+Name,Age,City
+Alice,25,New York
+Bob,30,San Francisco
+Charlie,28,Los Angeles
+Darwin,34,Miami
 ```
 
-To access and print the data in workers.csv, the following code is executed:
+To load, parse, and print the data in example.csv, the following code is executed:
 
 ```js
-d3.csv("workers.csv", function(d) {
-    console.log(d);
-});
+d3.csv("example.csv", function(d) {
+  // 'd' is an object representing a row in the CSV
+  return {
+    name: d.Name,
+    age: +d.Age,  // Convert age to a number
+    city: d.City
+  };
+})
+  .then(function(data) {
+    // 'data' is an array of processed objects
+    console.log(data);
+    // Perform further actions, such as data visualization
+  })
+  .catch(function(error) {
+    // Handle any errors that occurred during loading or parsing
+    console.error(error);
+  });
 ```
 
-This example results in the following output:
+- The accessor function applies to each row of CSV data, transforming it into an object with the properties `name`, `age`, and `city`.
+- The callback function `.then(function(data) {})` handles the processed data whereas `.catch(function(error) {})` handles potential errors during the loading process.
 
-```shell
+
+The example results in the following output:
+
+```js
 [
-    {"Name": "Alex", "Sex": "M", "Age": "41", "Height (in)": "74", "Weight (lbs)": "170"},
-    {"Name": "Elly", "Sex": "F", "Age": "30" , "Height (in)": "66", "Weight (lbs)": "124"},
-    {"Name": "Fran", "Sex": "F", "Age": "33", "Height (in)": "66", "Weight (lbs)": "115"},
-    {"Name": "Hank", "Sex": "M", "Age": "30", "Height (in)": "71", "Weight (lbs)": "158"}
+  { name: 'Alice', age: 25, city: 'New York' },
+  { name: 'Bob', age: 30, city: 'San Francisco' },
+  { name: 'Charlie', age: 28, city: 'Los Angeles' },
+  { name: 'Darwin', age: 34, city: 'Miami' }
 ]
 ```
+This is the processed data after applying the accessor function and the first callback function (assuming no errors).
