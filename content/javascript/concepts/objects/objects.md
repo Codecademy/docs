@@ -1,6 +1,6 @@
 ---
 Title: 'Objects'
-Description: 'A type for organizing a set of custom properties and behaviors.'
+Description: 'A data type for organizing a set of custom properties and behaviors.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-A JavaScript **object** is a type that can assume the properties and behaviors required for a given programming need. An object can be created or defined with an object literal:
+A JavaScript **object** is a non-primitive data type that can assume the properties and behaviors required for a given programming need. An object can be created or defined with an object literal:
 
 ```js
 const person = {
@@ -104,7 +104,7 @@ Classes are essentially boilerplate object templates. If a car was an object, th
 
 A class can be constructed with the following notation. The person object example will be used.
 
-**Note:** Anonymous functions can't be used in classes.
+> **Note:** Anonymous functions can't be used in classes.
 
 ```js
 class Person {
@@ -150,7 +150,7 @@ class Person {
 }
 ```
 
-To summarize what's been done, when making a new instance, the constructor assigns the new object the two new properties 'firstName' and 'lastName' whose values are inputted at the time of creating the instance.
+To summarize what's been done, when making a new instance, the constructor assigns the new object the two new properties `firstName` and `lastName` whose values are inputted at the time of creating the instance.
 
 ```js
 const person = new Person('Elizabeth', 'Harmon');
