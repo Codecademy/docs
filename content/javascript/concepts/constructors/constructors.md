@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/create-a-back-end-app-with-javascript'
 ---
 
-A **constructor** is a function that does initialization of an object when the object is created.
+A **constructor** is a function that executes the initialization of an object when the object is created.
 Arguments are passed to the constructor function when you use the `new` keyword. There are two types of constructors,
 one defined as a `function`, and one defined with the `constructor` method in a `class`.
 
