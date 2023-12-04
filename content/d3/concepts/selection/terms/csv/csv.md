@@ -53,7 +53,6 @@ d3.csv("example.csv", function(d) {
   .then(function(data) {
     // 'data' is an array of processed objects
     console.log(data);
-    // Perform further actions, such as data visualization
   })
   .catch(function(error) {
     // Handle any errors that occurred during loading or parsing
@@ -67,7 +66,7 @@ d3.csv("example.csv", function(d) {
 
 The example results in the following output:
 
-```js
+```shell
 [
   { name: 'Alice', age: 25, city: 'New York' },
   { name: 'Bob', age: 30, city: 'San Francisco' },
@@ -75,4 +74,4 @@ The example results in the following output:
   { name: 'Darwin', age: 34, city: 'Miami' }
 ]
 ```
-This is the processed data after applying the accessor function and the first callback function (assuming no errors).
+This is the processed data after applying the accessor function and the first callback function.
