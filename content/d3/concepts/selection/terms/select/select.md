@@ -26,6 +26,7 @@ The above code block shows the syntax for the `.select()` method. Here, the firs
 ## Example 
 
 Following is the output of the above code:
+
 <img width="217" alt="select()" src="https://github.com/alimalim77/docs/assets/52186295/105f7011-208a-448d-910f-063507879e36">
 
 The HTML code below for the SVG element goes below that is used later in script.
