@@ -41,4 +41,4 @@ Invert an image `75%`:
 
 The following output demonstrates the invert filter on a background image. The image on the left has no filter, while the image on the right has a filter `invert(75%)` applied.
 
-![CSS invert filter example](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-filter-invert-example.png)
+![Compares the original image to the same image with an invert filter applied](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-filter-invert-example.png)
