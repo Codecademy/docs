@@ -61,6 +61,7 @@ div {
   }
 }
 ```
+
 The ease-in-out timing function adds a gradual acceleration and deceleration effect to make the motion appear more natural.
 
-![ease-in-out animation gif](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-animation-timing-function.gif)
+![Image illustration for example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-animation-timing-function.gif)
