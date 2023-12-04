@@ -25,29 +25,19 @@ The above code block shows the syntax for the `.select()` method. Here, the firs
 
 ## Example 
 
+Following is the output of the above code:
+
+
+The HTML code below for the SVG element goes below that is used later in script.
+
+```html
+<svg width="300" height="150"></svg>
+```
+
+
 Below code represents a dataset containing the values to be plotted wherein the first SVG element is selected using the select method. It further shows how to plot the circle fetched from the dataset.
 
 ```js
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>D3.js Circle Visualization</title>
-  <script src="https://d3js.org/d3.v5.min.js"></script>
-  <style>
-    circle {
-      stroke: #333;
-      stroke-width: 2;
-    }
-  </style>
-</head>
-<body>
-
-  <svg width="300" height="150"></svg>
-
-  <script>
     const dataset = [
       [50, 80],
       [120, 30],
@@ -74,13 +64,4 @@ Below code represents a dataset containing the values to be plotted wherein the 
 
     // Example of removing circles for data points that no longer exist
     circles.exit().remove();
-  </script>
-
-</body>
-</html>
-```
-
-
-
-
-## Example 
+    ```
