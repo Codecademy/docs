@@ -13,8 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Select** retrieves the first element that matches a given selector by specifying the selector string. It is used to interact with the HTML or
-XML elements in webpage. It is passed a selector string as an argument to select to specify the type or attribute of the element that needs to be selected. It follows the CSS selector syntax.
+The **`.select()`** method retrieves the first element that matches the given selector. A selector string is the singular parameter passed to the method. The method interacts with HTML or XML elements in a webpage to return the selected element. It follows the CSS selector syntax.
 
 ## Syntax 
 
@@ -22,7 +21,7 @@ XML elements in webpage. It is passed a selector string as an argument to select
 const circles = d3.select('svg') // Selects all the SVG elements
 ```
 
-The pseudo code above represents a pattern commonly found in D3 to select the first element from the passed selector ( i.e. svg ). The element that mathces the passed string is returned to circles variable stored as a constant.
+The above code block shows the syntax for the `.select()` method. Here, the first element that matches the passed string, `svg` , is returned to the `circles` variable and stored as a constant.
 
 ## Example 
 
