@@ -16,7 +16,7 @@ The **'.data()'** method is used to bind data to DOM (document object model) ele
 
 ## Syntax
 
-'''psuedo
+```psuedo
 selection.data(data[, key]);
 - selection: The selection of DOM elements to which data will be bound.
 - data: The array of data to be bound to the elements.
@@ -26,7 +26,7 @@ selection.data(data[, key]);
 
 Consider an HTML file with a list of data:
 
-'''js
+```js
     // Sample data
     const data = [10, 20, 30, 40, 50];
 
