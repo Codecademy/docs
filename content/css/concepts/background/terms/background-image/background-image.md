@@ -46,29 +46,43 @@ Set a linear gradient background on the `.hero` class element, transitioning fro
 
 ```css
 .hero {
+  width: 400px;
+  height: 300px;
   background-image: linear-gradient(yellow, purple);
 }
 ```
 
+[Image illustration for example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-image-example-1.png)
+
 ## Example 2
 
-Set two background images on the .hero class element with a fallback background color of blue. The fish.png image will be positioned on top of the ocean.png image:
+Set two background images on the `.hero` class element with a fallback background color of blue. The `fish.png` image will be positioned on top of the `ocean.png` image:
 
 ```css
 .hero {
+  width: 400px;
+  height: 300px;
   background-color: blue;
   background-image: url('fish.png'), url('ocean.png');
+  background-size: cover;
 }
 ```
+
+[Image illustration for example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-image-example-2.png)
 
 ## Example 3
 
-Repeat `squirrel.gif` on top of `trees.png`:
+Set two background images on the `.hero` class element with a fallback background color of `green`. Repeat `squirrel.gif` on top of `trees.png` sizing down `squirrel.gif`:
 
 ```css
 .hero {
+  width: 400px;
+  height: 300px;
   background-color: green;
-  background-image: url('squirrel.gif'), url('trees.png');
+  background-image:  url('squirrel.gif'), url('tree.png');
   background-repeat: repeat, no-repeat;
+  background-size: 20%, cover;
 }
 ```
+
+[Image illustration for example 3](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-image-example-3.gif)
