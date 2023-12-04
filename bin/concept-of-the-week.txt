@@ -1,1 +1,1 @@
-content/git/concepts/status/status.md
+content/uiux/concepts/usability-heuristics/usability-heuristics.md

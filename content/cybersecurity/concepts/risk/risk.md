@@ -16,7 +16,7 @@ CatalogContent:
 
 ## Types of Risk
 
-Risk can take several forms. External cyber risks include [cyber attacks](https://www.codecademy.com/resources/docs/cybersecurity/cyber-attack), [phishing](https://www.codecademy.com/resources/docs/cybersecurity/phishing), [ransomware](https://www.codecademy.com/resources/docs/cybersecurity/malware/ransomware), and DDoS attacks. Internal risks can come from malicious insider threats, however, they can also come as a result of employee negligence. Unpatched software, poor training, and misconfiguring databases are all examples of how employees can mistakenly expose information.
+Risk can take several forms. External cyber risks include [cyber attacks](https://www.codecademy.com/resources/docs/cybersecurity/cyber-attack), [phishing](https://www.codecademy.com/resources/docs/cybersecurity/cyber-attack/phishing), [ransomware](https://www.codecademy.com/resources/docs/cybersecurity/malware/ransomware), and DDoS attacks. Internal risks can come from malicious insider threats, however, they can also come as a result of employee negligence. Unpatched software, poor training, and misconfiguring databases are all examples of how employees can mistakenly expose information.
 
 ## Different Frameworks for Assessing Risk
 
@@ -32,4 +32,4 @@ A cybersecurity framework provides a common set of standards for organizations t
 
 This calculation states that a single vulnerability multiplied by the potential threat can give an estimate of the risk involved. In order for an organization to begin the process of risk mitigation, vulnerabilities and threats need to be understood.
 
-Other variables, not mentioned in this calculation, like the possibility of a threat occuring and its potential impacts are also a factor in determining risk.
+Other variables, not mentioned in this calculation, like the possibility of a threat occurring and its potential impacts are also a factor in determining risk.

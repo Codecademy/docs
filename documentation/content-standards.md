@@ -36,7 +36,8 @@ All Codecademy Docs entries are Markdown files and should consist of three parts
 
 - The `file name`, with the `.md` extension.
 - The metadata about the content, written in YAML, which appears at the top of the entry.
-- The content, written in Markdown, with the first use of a topic, concept, or entry in **bold**.
+- The content, written in Markdown, with the first use of new terminology in **bold**.
+  - If an entry for the terminology exists, opt for a hyperlink.
   - Include examples with code snippets when necessary.
   - Templates for these entries can be found in the [repo documentation](https://github.com/Codecademy/docs/tree/main/documentation).
 
@@ -60,9 +61,9 @@ All code blocks should be delineated by triple backticks (```). Languages can be
 
 ### Codebytes: Runnable Code Blocks
 
-Codecademy has a new feature called [Codebytes](https://www.codecademy.com/codebyte-editor) that will allow learners to click a button to run code blocks themselves! The output to the console will appear next to the code block.
+Codecademy has a feature called [Codebytes](https://www.codecademy.com/codebyte-editor) that will allow learners to click a button to run code blocks themselves! The output to the console will appear next to the code block.
 
-Codebytes is a great tool to incorporate into some entries (for instance, if you want learners to to think about what a code block will output before they see it in action, or if you want to show a learner how a function that incorporates randomization produces different output each time).
+Codebytes is a great tool to incorporate into some entries (for instance, if you want learners to think about what a code block will output before they see it in action, or if you want to show a learner how a function that incorporates randomization produces different output each time).
 
 The syntax is simple: You just add `codebyte/` between the ` ``` ` and the language name in the first line of a normal code block.
 
