@@ -27,7 +27,7 @@ d3.csv(url[[, accessor], callback])
 
 ## Example
 
-In the following example `.csv()` is used to load and parse CSV data. In this case the accessor is the anonymous `function(d)`. It uses two callback functions: `.then(function(data) {})` and `.catch(function(error) {})`.
+In the following example `.csv()` is used to load and parse CSV data. In this case, the accessor is the anonymous `function(d)`. It uses two callback functions: `.then(function(data) {})` and `.catch(function(error) {})`.
 
 Consider the comma-separated data in example.csv:
 
