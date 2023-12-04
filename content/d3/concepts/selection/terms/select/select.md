@@ -1,5 +1,5 @@
 ---
-Title: 'Select'
+Title: '.select()'
 Description: 'Retrieves the first element that matches a given selector by specifying the selector string.'
 Subjects:
   - 'Data Science'
