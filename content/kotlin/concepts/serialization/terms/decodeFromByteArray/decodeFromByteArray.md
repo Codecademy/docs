@@ -1,6 +1,6 @@
 ---
 Title: '.decodeFromByteArray()'
-Description: 'Decodes data from a byte array into an object.'
+Description: 'Decodes data from a byte array into an object'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.decodeFromByteArray()`** method is a part of the **kotlinx.serialization** library and is used to deserialize/decode (convert) byte array into a Kotlin object. Commonly used when data in byte array format is transmitted and needs to be reverted back into a Kotlin object. 
+The **`.decodeFromByteArray()`** method is a part of the **kotlinx.serialization** library and is used to deserialize/decode (convert) byte array into a Kotlin object. Commonly used when data in byte array format is transmitted and needs to be reverted into a Kotlin object. 
 
 ## Syntax
 
