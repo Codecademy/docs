@@ -26,9 +26,6 @@ svg: A string passed to the select() method that gets the returned elements stor
 
 ## Example 
 
-Following is the output of the above code:
-
-
 The HTML code below for the SVG element goes below that is used later in script.
 
 ```html
@@ -63,4 +60,8 @@ Below code represents a dataset containing the values to be plotted wherein the 
 
     // Example of removing circles for data points that no longer exist
     circles.exit().remove();
-    ```
+  ```
+
+## Output
+
+![d3-select-example](https://github.com/alimalim77/docs/blob/select-content-entry/media/d3-select-example.png)
