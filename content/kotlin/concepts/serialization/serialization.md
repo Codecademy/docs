@@ -9,6 +9,7 @@ Tags:
  - 'Kotlin'
 CatalogContent:
  - 'learn-kotlin'
+ - 'paths/computer science'
 ---
 
 **Serialization** is the process of converting a complex object to a format that can be transferred over a network, used by an application, stored in a database or file.
