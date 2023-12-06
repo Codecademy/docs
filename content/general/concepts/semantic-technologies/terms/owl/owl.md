@@ -31,7 +31,7 @@ The following OWL terms are used to declare new classes, individuals, and proper
 |  `owl:ObjectProperty`  |  `:ex rdf:type owl:ObjectProperty`  |  `:ex` is an OWL object property  |
 | `owl:DatatypeProperty` | `:ex rdf:type owl:DatatypeProperty` | `:ex` is an OWL datatype property |
 
-In OWL, an **object property** is a predicate which takes an instance of a class as both its subject and object. For example, an object property `hasAuthor` can be defined as holding between instances of the class `books` and the class `authors`.
+An **object property** is a predicate which takes an instance of a class as both its subject and object. For example, an object property `hasAuthor` can be defined as holding between instances of the class `books` and the class `authors`.
 
 A **datatype property** is a predicate which takes an instance of a class as its subject, and a literal (such as a string or number) as its object. For example, a datatype property `soldCopies` can be defined as holding between instances of the class `books` and integer numbers.
 
