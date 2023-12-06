@@ -72,7 +72,7 @@ Set two background images on the `.hero` class element with a fallback backgroun
 
 ## Example 3
 
-Set two background images on the `.hero` class element with a fallback background color of `green`. Repeat `squirrel.gif` on top of `tree.png` sizing down `squirrel.gif` to `20%` and `tree.png` to `cover`:
+Set two background images on the `.hero` class element with a fallback background color of `green`. It repeats `squirrel.gif` on top of `tree.png` sizing down `squirrel.gif` to `20%` and `tree.png` to `cover`:
 
 ```css
 .hero {
