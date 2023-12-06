@@ -22,41 +22,47 @@ Some important and commonly used OWL terms are described in the tables below.
 
 ### Declarations
 
-The following OWL terms are used to declare new classes, individuals, and other entities.
+The following OWL terms are used to declare new classes, individuals, and properties.
 
-In OWL, an **object property** is a predicate which takes an instance of a class as both its subject and object. For example, an object property `hasAuthor` can be defined as holding between instances of the class `books` and the class `authors`.
-
-A **datatype property** is a predicate which takes an instance of a class as its subject, and a literal (such as a string or number) as its object. For example, a datatype property `soldCopies` can be defined as holding between instances of the class `books` and integer numbers.
-
-|        OWL Term        |            Example Syntax           |          Example Meaning          |
+|        OWL Term        |            Usage Syntax             |                  Meaning          |
 | :--------------------: | :---------------------------------: | :-------------------------------: |
 |       `owl:Class`      |       `:ex rdf:type owl:Class`      |       `:ex` is an OWL class       |
 |  `owl:NamedIndividual` |  `:ex rdf:type owl:NamedIndividual` |  `:ex` is an OWL named individual |
 |  `owl:ObjectProperty`  |  `:ex rdf:type owl:ObjectProperty`  |  `:ex` is an OWL object property  |
 | `owl:DatatypeProperty` | `:ex rdf:type owl:DatatypeProperty` | `:ex` is an OWL datatype property |
 
+In OWL, an **object property** is a predicate which takes an instance of a class as both its subject and object. For example, an object property `hasAuthor` can be defined as holding between instances of the class `books` and the class `authors`.
+
+A **datatype property** is a predicate which takes an instance of a class as its subject, and a literal (such as a string or number) as its object. For example, a datatype property `soldCopies` can be defined as holding between instances of the class `books` and integer numbers.
+
+A **named individual** is a particular member of a class.
+
 ### Relations Between Classes
 
-|       OWL Term       |             Example Syntax            |                         Example Meaning                         |
-| :------------------: | :-----------------------------------: | :-------------------------------------------------------------: |
-| `owl:intersectionOf` | `:ex1 owl:intersectionOf (:ex2 :ex3)` |  `:ex1` contains all and only members of both `:ex2` and `:ex3` |
-|    `owl:unionOf`     |     `:ex1 owl:unionOf (:ex2 :ex3)`    | `:ex1` contains all and only members of either `:ex2` or `:ex3` |
-|  `owl:complementOf`  |      `:ex1 owl:complementOf :ex2`     |        `:ex1` contains all and only non-members of `:ex2`       |
-|  `owl:disjointWith`  |      `:ex1 owl:disjointWith :ex2`     |         `:ex1` contains no members in common with `:ex2`        |
+The following OWL terms are used to describe relationships between OWL classes.
 
-### Property Vocabulary
+|       OWL Term       |             Usage Syntax                                                                            |                                 Meaning                                                                  |
+| :------------------: | :--------------------------------------------------------------------------------------------------:| :-------------------------------------------------------------------------------------------------------:|
+| `owl:intersectionOf` | `:ex1 owl:intersectionOf (:ex2 :ex3)`                                                               |  `:ex1` contains all and only members of both `:ex2` and `:ex3`                                          |
+|    `owl:unionOf`     |     `:ex1 owl:unionOf (:ex2 :ex3)`                                                                  | `:ex1` contains all and only members of either `:ex2` or `:ex3`                                          |
+|  `owl:complementOf`  |      `:ex1 owl:complementOf :ex2`                                                                   |        `:ex1` contains all and only non-members of `:ex2`                                                |
+|  `owl:disjointWith`  |      `:ex1 owl:disjointWith :ex2`                                                                   |         `:ex1` contains no members in common with `:ex2`                                                 |
+| `owl:AllValuesFrom`  |    `:ex1 rdf:type owl:Restriction`<br>`:ex1 owl:onProperty :ex2`<br>`:ex1 owl:AllValuesFrom :ex3`   | `:ex1` contains all and only members that are related by property `:ex2` only to members of `:ex3`       |
+| `owl:SomeValuesFrom` |  `:ex1 rdf:type owl:Restriction`<br>`:ex1 owl:onProperty :ex2`<br>`:ex1 owl:SomeValuesFrom :ex3`    | `:ex1` contains all and only members that are related by property `:ex2` to at least one member of `:ex3`|
 
-|          OWL Term          |              Example Syntax               |                                          Example Meaning                                          |
+### Object Property Vocabulary
+
+The following OWL terms are used to describe the behavior of OWL object properties.
+
+|          OWL Term          |              Usage Syntax                 |                                           Meaning                                                 |
 | :------------------------: | :---------------------------------------: | :-----------------------------------------------------------------------------------------------: |
-|  `owl:ReflexiveProperty`   |   `:ex rdf:type owl:ReflexiveProperty`    |                             Everything is related to itself by `:ex`                              |
-| `owl:IrreflexiveProperty`  |  `:ex rdf:type owl:IrreflexiveProperty`   |                               Nothing is related to itself by `:ex`                               |
+|  `owl:ReflexiveProperty`   |   `:ex rdf:type owl:ReflexiveProperty`    |                             Every individual is related to itself by `:ex`                        |
+| `owl:IrreflexiveProperty`  |  `:ex rdf:type owl:IrreflexiveProperty`   |                             No individual is related to itself by `:ex`                           |
 |  `owl:SymmetricProperty`   |   `:ex rdf:type owl:SymmetricProperty`    |                   If A is related to B by `:ex`, then B is related to A by `:ex`                  |
 |  `owl:AsymmetricProperty`  |   `:ex rdf:type owl:AsymmetricProperty`   |                 If A is related to B by `:ex`, then B is not related to A by `:ex`                |
 |  `owl:TransitiveProperty`  |   `:ex rdf:type owl:TransitiveProperty`   |   If A is related to B by `:ex`, and B is related to C by `:ex`, then A is related to C by `:ex`  |
 |  `owl:propertyChainAxiom`  | `:ex1 owl:propertyChainAxiom (:ex2 :ex3)` | If A is related to B by `:ex2`, and B is related to C by `:ex3`, then A is related to C by `:ex1` |
 | `owl:propertyDisjointWith` |    `:ex1 owl:propertyDisjointWith :ex2`   |                If A is related to B by `:ex1`, then A is not related to B by `:ex2`               |
-|     `owl:allValuesFrom`    |       `:ex1 owl:allValuesFrom :ex2`       |                    If A is related to B by `:ex1`, then B is a member of `:ex2`                   |
-|     `owl:someValuesFrom`   |       `:ex1 owl:someValuesFrom :ex2`      |                 There is an A related to a B by `:ex1` and B is a member of `:ex2`                |
 
 ## OWL Profiles
 
