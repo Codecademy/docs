@@ -38,7 +38,7 @@ Multiple background images are supported. The first `value` specified will be st
 background-image: value, value;
 ```
 
-**Note:** The `background-color` property should always be set, which acts as a fallback color when the set background-image is unavailable.
+**Note:** The `background-color` property should always be set, which acts as a fallback color when the set `background-image` is unavailable.
 
 ## Example 1
 
