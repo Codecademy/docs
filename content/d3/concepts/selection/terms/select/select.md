@@ -22,6 +22,7 @@ const circles = d3.select('svg') // Selects all the SVG elements
 ```
 
 circles: A variable that stores the return value of .select() method.
+
 svg: A string passed to the select() method that gets the returned elements stored in `circles` variable.
 
 ## Example 
