@@ -22,8 +22,8 @@ d3.selection("element")
   .text("Your text content goes here");                                                
 ```
 
-- `selection("element")`: This selects an element on a web page. The "element" refers to a specific part of the webpage, like a heading or a paragraph.
-- `.text()`: The `.text()` function is used to change the text content inside that chosen element and the text content is passed to it as an argument.
+- `selection("element")`: This selects an element on a web page. The `element` refers to a specific part of the webpage, like a heading or a paragraph.
+- `.text()`: It is used to change the text content of that chosen element and the text content is passed to it as an argument.
 
 ## Example
 
