@@ -21,19 +21,16 @@ The **`.select()`** method retrieves the first element that matches the given se
 const circles = d3.select('svg') // Selects all the SVG elements
 ```
 
-The above code block shows the syntax for the `.select()` method. Here, the first element that matches the passed string, `svg` , is returned to the `circles` variable and stored as a constant.
+circles: A variable that stores the return value of .select() method.
+svg: A string passed to the select() method that gets the returned elements stored in `circles` variable.
 
 ## Example 
-
-Following is the output of the above code:
-
 
 The HTML code below for the SVG element goes below that is used later in script.
 
 ```html
 <svg width="300" height="150"></svg>
 ```
-
 
 Below code represents a dataset containing the values to be plotted wherein the first SVG element is selected using the select method. It further shows how to plot the circle fetched from the dataset.
 
@@ -56,12 +53,14 @@ Below code represents a dataset containing the values to be plotted wherein the 
       .attr('cy', d => d[1]) // Set the y-coordinate based on the data
       .attr('r', 10) // Set the radius for all circles
 
-    // Additional attributes or styles can be added here
-
     // Example of updating existing circles based on the updated dataset
     circles
       .attr('fill', 'blue'); // Update the fill color of all circles
 
     // Example of removing circles for data points that no longer exist
     circles.exit().remove();
-    ```
+```
+
+## Output
+
+![d3-select-example](https://github.com/alimalim77/docs/blob/select-content-entry/media/d3-select-example.png)
