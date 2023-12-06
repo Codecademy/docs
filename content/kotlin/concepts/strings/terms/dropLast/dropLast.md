@@ -22,7 +22,7 @@ fun String.dropLast(n: Int): String
 
 - The parameter `n` is the number of characters to be removed from the string.
 
->**Note:** `IllegalArguementException` error thrown if `n` is a negative number. A negative number of characters can not be removed.
+> **Note:** `IllegalArguementException` error thrown if `n` is a negative number. A negative number of characters can not be removed.
 
 ## Example
 
