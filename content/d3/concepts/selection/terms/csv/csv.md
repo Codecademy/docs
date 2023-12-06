@@ -74,4 +74,5 @@ The example results in the following output:
   { name: 'Darwin', age: 34, city: 'Miami' }
 ]
 ```
+
 This is the processed data after applying the accessor function and the first callback function.
