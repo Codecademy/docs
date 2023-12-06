@@ -26,6 +26,9 @@ svg: A string passed to the select() method that gets the returned elements stor
 
 ## Example 
 
+Following is the output of the above code:
+
+
 The HTML code below for the SVG element goes below that is used later in script.
 
 ```html
@@ -46,21 +49,18 @@ Below code represents a dataset containing the values to be plotted wherein the 
       .selectAll('circle') // Select all existing circle elements
       .data(dataset); // Bind the dataset to the selection
 
-    // Joining data to elements and entering new elements
     circles.enter()
       .append('circle') // Append a circle for each data point that doesn't have a corresponding circle
       .attr('cx', d => d[0]) // Set the x-coordinate based on the data
       .attr('cy', d => d[1]) // Set the y-coordinate based on the data
       .attr('r', 10) // Set the radius for all circles
 
+    // Additional attributes or styles can be added here
+
     // Example of updating existing circles based on the updated dataset
     circles
-      .attr('fill', 'blue'); // Update the fill color of all circles
+      .attr('fill', 'blue'); 
 
     // Example of removing circles for data points that no longer exist
     circles.exit().remove();
-```
-
-## Output
-
-![d3-select-example](https://github.com/alimalim77/docs/blob/select-content-entry/media/d3-select-example.png)
+    ```
