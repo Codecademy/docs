@@ -2,21 +2,22 @@
 Title: 'Crazy Eights'
 Description: 'Design sprint tool to quickly generate ideas for a solution or inspiration to a new idea.'
 Subjects: 
-    - 'UI/UX'
+    - 'Game Development'
+    - 'iOS'
+    - 'Mobile Development'
+    - 'Web Design'
 Tags: 
     - 'UI'
     - 'UX'
-    - 'Design Sprint'
-    - 'Design Thinking
-    - 'Sketches'
+    - 'Design'
 CatalogContent:
-    - 'course/intro-to-ui-ux'
-    - 'course/learn-design-thinking-ideation'
+    - 'intro-to-ui-ux'
+    - 'learn-design-thinking-ideation'
 ---
 
 **Crazy Eights** is a quick design sprint activity to generate a wide range of ideas for a solution. Team members are pushed to come up with sketches of eight unique ideas within eight minutes to discuss and use the idea or inspiration to generate an innovative solution.
 
-! [Paper with 8 squares, with two sketches of ideas for the solution.] (/media/uiux-crazy-eights-sample.png)
+! [Paper with 8 squares, with two sketches of ideas for the solution.] (media/uiux-crazy-eights-sample.png)
 
 During the process, it’s important to keep in mind that there are no bad ideas. The key here is the term *Crazy*, meaning it is crucial to let your creative thoughts and imagination take over and generate a wide array of solutions even if it may be beyond the project’s scope. More often than not, the final solution takes inspiration from the more crazy ones. So, don’t be afraid to go crazy with the sketches!
 
