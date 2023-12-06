@@ -1,7 +1,7 @@
 ---
 Title: '.dropLast()'
 Description: 'Returns a string with the last n characters removed.'
-Subject:
+Subjects:
   - 'Computer Science'
 Tags:
   - 'Methods'
