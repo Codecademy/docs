@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.text()`** method in D3 is used to set text content for any selected element in a document, this method can also be used to get the value of any selected element. This method can take a single value as an argument or a callback function for a complex text content manipulation of a selected element
+The **`.text()`** method in D3 is used to set text content for any selected element in a document, it can also be used to get the value of any selected element. This method can take a single value as an argument or a callback function for a complex text content manipulation of a selected element
 
 ## Syntax
 
