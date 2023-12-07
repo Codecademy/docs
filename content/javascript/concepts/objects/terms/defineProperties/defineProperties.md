@@ -1,6 +1,6 @@
 ---
-Title: '.defineProperies()'
-Description: 'Defines new or modify existing properties directly on an object'
+Title: '.defineProperties()'
+Description: 'Defines new or modifies existing properties directly on an object'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.defineProperties()`** method is used to define new or modify existing properties directly on an object or to add multiple properties to an object at once. This method is often used for property descriptors and fine-grained control over object properties.
+The **`.defineProperties()`** method defines new or modifies existing properties directly on an object or adds multiple properties to an object at once. This method is often used for property descriptors and fine-grained control over object properties.
 
 ## Syntax
 
@@ -22,19 +22,16 @@ The **`.defineProperties()`** method is used to define new or modify existing pr
 Object.defineProperties(object, descriptors)
 ```
 
-- `object`: The object on which to define or modify it's properties.
-- `descriptors`: An object where each key represents a property name, and the corresponding value is the property descriptor.
+- `object`: The object to define or modify its properties.
+- `descriptors`: An object where each key represents a property name, and the corresponding value is the property descriptor. They have four optional keys:
+  - `value`: Specifies the value of the property.
+  - `writable`: A Boolean indicating whether the value of the property can be changed.
+  - `get`: A function that serves as a getter for the property, called when the property is accessed.
+  - `set`: A function that serves as a setter for the property, called when the property is assigned a new value.
 
-[optional keys of descriptors]
+## Example
 
-- `value`: Specifies the value of the property.
-- `writable`: A Boolean indicating whether the value of the property can be changed.
-- `get`: A function that serves as a getter for the property, called when the property is accessed.
-- `set`: A function that serves as a setter for the property, called when the property is assigned a new value.
-
-## Example 1
-
-In this example `Object.defineProperties` is used to define two properties (`property1` and `property2`) on the `myObject` object. Each property has a descriptor object specifying attributes like `value` and `writable`.
+In this example, `Object.defineProperties` defines two properties (`property1` and `property2`) on the `myObject` object. Each property has a descriptor object specifying attributes like `value` and `writable`.
 
 ```js
 const myObject = {};
@@ -67,16 +64,15 @@ This will return the following output:
 ```shell
 42
 Hello
-
 100
 Hello
 ```
 
-## Example 2
+## Codebyte Example
 
-In this example, `computedProperty` is not a direct property with a fixed value. Instead, it is dynamically computed based on the private variable `_value`, and the `get` and `set` functions control its behavior.
+In this example, `computedProperty` is not a direct property with a fixed value. Instead, it is dynamically computed based on the private variable `_value`, and the `get` and `set` functions control its behavior. Try running the code block below to understand better how the `.defineProperties()` method works.
 
-```js
+```codebyte/javascript
 const myObject = {
   _value: 0,
 };
@@ -95,17 +91,9 @@ Object.defineProperties(myObject, {
 console.log(myObject.computedProperty);
 
 // Updating value of computedProperty
-
 myObject.computedProperty = 10;
 
 console.log(myObject.computedProperty); 
-
 ```
 
-```shell
-0
-
-10
-```
-
-> **Note:** This method is particularly useful when you want to customize the behavior of object properties or ensure certain constraints on them.
+> **Note:** This method is used when customizing the behavior of object properties or ensuring certain constraints on them.
