@@ -45,6 +45,7 @@ circles.transition()
 The example will result in the following output:
 
 
+![delay-3sec](https://github.com/thomasvlachos/docs/assets/32740965/23bc0cde-44d0-44be-9d17-635d7a9e632d)
 
 
 
