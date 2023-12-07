@@ -43,13 +43,9 @@ circles.transition()
     .attr('r', 30); // Change the radius attribute during the transition
 ```
 The example will result in the following output:
-```shell
 
 
-![delay-3sec](https://github.com/thomasvlachos/docs/assets/32740965/23bc0cde-44d0-44be-9d17-635d7a9e632d)
-
-
-```
+![delay-3sec](https://github.com/thomasvlachos/docs/assets/32740965/b2e96749-638d-4903-8d95-3687c5236b36)
 
 
 
