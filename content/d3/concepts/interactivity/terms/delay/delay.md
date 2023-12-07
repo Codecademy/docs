@@ -45,5 +45,9 @@ circles.transition()
 </script>
 
 ```
+![delay-3sec](https://github.com/thomasvlachos/docs/assets/32740965/cd39538d-985f-41af-a4a1-634d0fc13557)
+
+
+
 
 
