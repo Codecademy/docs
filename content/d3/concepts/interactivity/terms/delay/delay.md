@@ -1,6 +1,6 @@
 ---
 Title: '.delay()'
-Description: 'Creates a temporal pause, introducing a waiting period before executing subsequent actions.' 
+Description: 'It introduces a waiting period before executing subsequent actions.' 
 Subjects: 
   - 'Data Visualization'
   - 'Web Development'
@@ -9,7 +9,7 @@ Tags:
   - 'Transitions'
   - 'D3'
 CatalogContent: 
-  - 'introduction-to-javascript'
+  - 'learn-d3'
   - 'paths/data-science'
 ---
 
@@ -26,27 +26,27 @@ The `.delay()` method is used in the context of transitions and sets the delay b
 
 ## Example
 
-In the following example the circles start with different radius and then transition to radius of 20 after 1-second delay.
+In the following example, the circles start with different radii and then transition to a radius of 30 after a short delay.
 
 ```js
-<script>
 let circles = d3.select('svg').selectAll('circle')
-    .data([10, 20, 30]) // Example data for circle radius
+    .data([5, 15, 25]) // Example data for circle radius
     .enter().append('circle')
     .attr('cx', (d, i) => i * 50 + 30)
     .attr('cy', 100)
     .attr('r', d => d)
-    .attr('fill', 'blue');
+    .attr('fill', 'black');
 
 // Transition to change the radius with a delay
 circles.transition()
-    .delay(1000) // Introduce a delay of 1000 milliseconds (1 second)
-    .attr('r', 20); // Change the radius attribute during the transition
-</script>
-
+    .delay(3000) // Introduce a delay of 3000 milliseconds (3 seconds)
+    .attr('r', 30); // Change the radius attribute during the transition
 ```
-![delay-3sec](https://github.com/thomasvlachos/docs/assets/32740965/cd39538d-985f-41af-a4a1-634d0fc13557)
+The example will result in the following output:
 
+```shell
+![delay-3sec](https://github.com/thomasvlachos/docs/assets/32740965/cd39538d-985f-41af-a4a1-634d0fc13557)
+```
 
 
 
