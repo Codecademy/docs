@@ -50,6 +50,7 @@ int main(){
 ```
 
 ## Example
+
 The following C code showcases the creation and traversal of a linked list, which is comprised of a series of nodes with integer values of 10, 20 and 30. The nodes are connected continuously from head to tail displaying the elements of the linked list.
 
 ```c
