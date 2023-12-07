@@ -39,7 +39,7 @@ These operators are used to perform arithmetic on numeric values:
 - `++`: Returns the value incremented by 1.
 - `--`: Returns the value decremented by 1.
 
-### Example
+The operators can be implemented as seen below:
 
 ```js
 let sum = 5 + 5;
@@ -63,8 +63,6 @@ An assignment operator assigns a value to its left operand based on the value of
 - `/=`: Divides and assigns a new value to a variable.
 - `%=`: Assigns the returned remainder (modulo) as a new value to a variable.
 - `**=`: Assigns the left operand raised to the power of the right operand.
-
-### Example
 
 The following example showcases how these operators are a combination of using an assignment and arithmetic operator in one statement:
 
@@ -94,8 +92,6 @@ These operators compare values and return a [boolean](https://www.codecademy.com
 
 > **Note:** The `==` and `===` comparison operators are not to be confused with the single equality sign `=` operator that is used for assignment.
 
-### Example
-
 The following example showcases some of these comparison operators:
 
 ```js
@@ -115,6 +111,8 @@ console.log(tenString !== numberTen);
 // Output: true
 ```
 
+> **Note:** The first comparison in the code above yields `true` even though the variables are of different types. This is because JavaScript uses [type coercion](https://www.codecademy.com/resources/docs/javascript/type-coercion) by default to evaluate expressions, which may lead to unexpected results. Use the `===` and `!==` operators to perform strict type evaluations.
+
 ## Logical Operators
 
 These operators combine multiple boolean expressions or values to provide a single boolean output:
@@ -122,8 +120,6 @@ These operators combine multiple boolean expressions or values to provide a sing
 - `&&` (AND): Returns `true` if all operands evaluate to `true`.
 - `||` (OR): Returns `true` if one or more operands evaluate to `true`.
 - `!` (NOT): Returns the logical opposite of an operand's boolean value (i.e., `!(true)` returns `false` and `!(false)` returns `true`).
-
-### Example
 
 The following example showcases the usage of logical operators:
 
@@ -151,6 +147,14 @@ const isPenguin = !isDuck;
 
 console.log(isPenguin);
 // Output: false
+```
+
+## Unary Operator
+
+A unary operator, such as the not operator (`!`), is an operator that is applied to one term or variable. Arithmetic operators are also known as binary operators because they operate on two terms. There are also unary operators in JavaScript that are names rather than symbols, such as the `typeof` operator.
+
+```js
+console.log(typeof 'foo'); // Yields string
 ```
 
 ## Conditional Operator
