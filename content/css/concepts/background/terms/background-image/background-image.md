@@ -38,7 +38,7 @@ Multiple background images are supported. The first `value` specified will be st
 background-image: value, value;
 ```
 
-**Note:** The `background-color` property should always be set, which acts as a fallback color when the set `background-image` is unavailable.
+> **Note:** The `background-color` property should always be set, which acts as a fallback color when the set `background-image` is unavailable.
 
 ## Example 1
 
@@ -85,4 +85,4 @@ Set two background images on the `.hero` class element with a fallback backgroun
 }
 ```
 
-![Background gif with squirrel gif over tree image](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-image-example-3.gif)
+![Background with squirrel gif repeated over tree image](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-image-example-3.gif)
