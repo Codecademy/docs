@@ -27,7 +27,7 @@ The `.attr()` function takes two parameters:
 
 ## Example
 
-In the example given below, the value `5` is set to the attribute `radius` which turns the radius of `circle` to 5 units.
+In the example given below, the value `5` is set to the attribute `radius` which turns the radius of `circle` to 5 units:
 
 ```js
 d3.select('circle').attr('radius', 5);
