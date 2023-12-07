@@ -243,6 +243,7 @@ int main() {
 ```
 
 ### Circular doubly linked lists
+
 A `circular doubly linked list` is a data structure that consists of a collection of nodes, where each node contains a data element and two pointers: one that points to the next node in the list and another that points to the previous node in the list.
 
 ```c
