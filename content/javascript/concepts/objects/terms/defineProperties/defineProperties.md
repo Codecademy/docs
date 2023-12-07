@@ -28,7 +28,6 @@ Object.defineProperties(object, descriptors)
 ## Example
 
 In this example `Object.defineProperties` is used to define two properties (`property1` and `property2`) on the `myObject` object. Each property has a descriptor object specifying attributes like `value` and `writable`.
-The `value` attribute is the value of the property and the `writable` attribute determines whether the property can be modified.
 
 ```js
 const myObject = {};
