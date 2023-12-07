@@ -7,7 +7,6 @@ Subjects:
 Tags: 
   - 'Animation'
   - 'Transitions'
-  - 'React Native'
   - 'D3'
 CatalogContent: 
   - 'introduction-to-javascript'
@@ -30,18 +29,6 @@ The `.delay()` method is used in the context of transitions and sets the delay b
 In the following example the circles start with different radius and then transition to radius of 20 after 1-second delay.
 
 ```js
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.jsdelivr.net/npm/d3@5"></script>
-  <title>D3.js .delay() Example</title>
-</head>
-<body>
-
-<svg width="200" height="200"></svg>
-
 <script>
 let circles = d3.select('svg').selectAll('circle')
     .data([10, 20, 30]) // Example data for circle radius
@@ -57,7 +44,6 @@ circles.transition()
     .attr('r', 20); // Change the radius attribute during the transition
 </script>
 
-</body>
-</html>
 ```
+
 
