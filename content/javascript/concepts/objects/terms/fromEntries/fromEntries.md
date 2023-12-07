@@ -27,9 +27,9 @@ Creating an object from an array of key-value pairs.
 
 ```js
 const array = [
-  ["0", 'Los Angeles'],
-  ["1", 'Toronto'],
-  ["2", 'Paris']
+  ['0', 'Los Angeles'],
+  ['1', 'Toronto'],
+  ['2', 'Paris'],
 ];
 
 const newObject = Object.fromEntries(array);
@@ -49,10 +49,10 @@ The following example demonstrates the object returned from `fromEntries()`.
 
 ```codebyte/js
 const tvCharacters = new Map([
-    ["Jerry Seinfeld", "Comedian"],
-    ["Tim Taylor", "Television Host/Handyman"],
-    ["Will Smith", "Student"],
-    ["Dana Scully", "FBI Agent"]
+  ["Jerry Seinfeld", "Comedian"],
+  ["Tim Taylor", "Television Host/Handyman"],
+  ["Will Smith", "Student"],
+  ["Dana Scully", "FBI Agent"]
 ]);
 
 const tvCharacterObject = Object.fromEntries(tvCharacters);
