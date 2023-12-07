@@ -25,7 +25,6 @@ Object.freeze(obj)
 
 `obj`: It is the object which has to be frozen.
 
-
 ## Examples
 
 The following codes demonstrate a basic implementation of the `Object.freeze()` method:
