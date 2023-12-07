@@ -138,6 +138,7 @@ void main() {
 ```
 
 ### Doubly linked lists
+
 A `doubly linked list` consists of two pointers that store the address of the next successive `node` and the `address` of the previous node.
 
 ```c
