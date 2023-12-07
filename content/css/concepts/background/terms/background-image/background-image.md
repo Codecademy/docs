@@ -79,7 +79,7 @@ Set two background images on the `.hero` class element with a fallback backgroun
   width: 400px;
   height: 300px;
   background-color: green;
-  background-image:  url('squirrel.gif'), url('tree.png');
+  background-image: url('squirrel.gif'), url('tree.png');
   background-repeat: repeat, no-repeat;
   background-size: 20%, cover;
 }
