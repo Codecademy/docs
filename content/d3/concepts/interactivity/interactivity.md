@@ -5,14 +5,14 @@ Subjects
   - 'Code Foundations'
   - 'Data Visualization'
 Tags:
-  - 'D3.js'
-  - 'Interactive Charts'
+  - 'D3'
+  - 'Data'
 CatalogContent:
-  - 'learn-d3'
+  - 'interactive-data-visualization-with-generative-ai'
   - 'paths/data-visualization'
 ---
 
-D3.js is a versatile JavaScript library renowned for its prowess in creating dynamic and interactive data visualizations. This guide provides an introduction to key concepts and features that enhance interactivity in D3.js visualizations.
+D3.js, or Data-Driven Documents, is a powerful JavaScript library for creating dynamic and interactive data visualizations in web browsers. It facilitates the binding of data to DOM elements, enabling seamless updates and transitions. With its declarative approach to manipulating the Document Object Model (DOM), D3.js empowers developers to create engaging and responsive visualizations, making it a go-to tool for building data-driven applications on the web.
 
 ## Adding Tooltips for Enhanced Information
 
