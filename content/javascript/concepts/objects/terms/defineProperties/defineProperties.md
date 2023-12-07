@@ -25,6 +25,8 @@ Object.defineProperties(object, descriptors)
 - `object`: The object on which to define or modify it's properties.
 - `descriptors`: An object where each key represents a property name, and the corresponding value is the property descriptor.
 
+[optional keys of descriptors]
+
 ## Example
 
 In this example `Object.defineProperties` is used to define two properties (`property1` and `property2`) on the `myObject` object. Each property has a descriptor object specifying attributes like `value` and `writable`.
