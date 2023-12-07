@@ -192,6 +192,7 @@ int main() {
 ```
 
 ### Circular linked lists
+
 A `circular linked` list is a list in which the nodes are connected in a sequence, where the last node always points to the head (first) node of the `linked list`.
 
 ```c
