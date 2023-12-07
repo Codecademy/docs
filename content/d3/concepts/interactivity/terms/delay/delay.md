@@ -60,8 +60,8 @@ circles.transition()
 </body>
 </html>
 ```
+![delay-3sec](https://github.com/thomasvlachos/docs/assets/32740965/cd39538d-985f-41af-a4a1-634d0fc13557)
 
-https://github.com/thomasvlachos/docs/assets/32740965/f2c9b4d1-c2da-48dd-a2c1-05988af65c92
 
 
 
