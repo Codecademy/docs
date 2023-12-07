@@ -12,15 +12,15 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Shortly, it means converting an octal number to a decimal number. In PHP, **octdec()** function is a built-in function that calculates the decimal equivalent of an octal number. 
+The **octdec()** function is a built-in function that calculates the decimal equivalent of an octal number. It accepts the octal number as the only argument.
 
 ## Syntax
 
 ```pseudo
-octdec($value);
+octdec(value);
 ```
 
-It accepts a single parameter as an argument, which has to be a string representing the octal number to convert to a decimal number. It will be ignored if you try to pass an invalid character as an argument.
+`value`: It's an octal number, given as a parameter to the function, in the string format. If an invalid character is passed, it is ignored.
 
 ## Example
 
@@ -37,13 +37,13 @@ This example will gives the following output:
 
 ```shell
 53
-1043
+24
 ```
 
 
 ## Codebyte Example
 
-Run your code and try converting decimal numbers from octal numbers.
+Run the code below to get a better idea of how the `octdec()` function works:
 
 ```codebyte/php
 <?php
