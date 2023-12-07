@@ -52,7 +52,7 @@ Set a linear gradient background on the `.hero` class element, transitioning fro
 }
 ```
 
-![Image illustration for example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-image-example-1.png)
+![Linear Gradient background from yellow to purple](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-image-example-1.png)
 
 ## Example 2
 
@@ -68,7 +68,7 @@ Set two background images on the `.hero` class element with a fallback backgroun
 }
 ```
 
-![Image illustration for example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-image-example-2.png)
+![Background image with fish image over ocean image](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-image-example-2.png)
 
 ## Example 3
 
@@ -85,4 +85,4 @@ Set two background images on the `.hero` class element with a fallback backgroun
 }
 ```
 
-![Image illustration for example 3](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-image-example-3.gif)
+![Background gif with squirrel gif over tree image](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-image-example-3.gif)
