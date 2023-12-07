@@ -1,6 +1,6 @@
 ---
 Title: '.fromEntries()'
-Description: 'Returns a new object that with properties from a given iterable.'
+Description: 'Returns a new object with properties from a given iterable.'
 Subjects:
   - 'Web Development'
 Tags:
