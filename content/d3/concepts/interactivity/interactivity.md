@@ -16,63 +16,72 @@ D3.js, or Data-Driven Documents, is a powerful JavaScript library for creating d
 
 ## Adding Tooltips for Enhanced Information
 
-Tooltips are a crucial element in interactive visualizations, providing additional context when users hover over data points. The following code demonstrates how to integrate tooltips into your D3.js visualization.
-
-```js
-// Sample code for adding tooltips
-var tooltip = d3
-  .select("body")
-  .append("div")
-  .style("position", "absolute")
-  .style("visibility", "hidden");
-
-// Add tooltip on data point hover
-d3.selectAll(".data-point")
-  .on("mouseover", function (d) {
-    tooltip.text(d.value)
-      .style("visibility", "visible");
-  })
-  .on("mouseout", function () {
-    tooltip.style("visibility", "hidden");
-  });
-```
-
-## Creating Interactive Legends for Data Filtering
-
-Legends can significantly enhance user interaction by allowing them to filter and focus on specific elements within a visualization. The code snippet below showcases how to implement an interactive legend for data filtering.
-
-```js
-// Sample code for creating an interactive legend
-var legend = d3.select(".legend")
-  .selectAll("div")
-  .data(categories)
-  .enter().append("div")
-  .on("click", function (category) {
-    // Toggle visibility of data based on legend selection
-    d3.selectAll(".data-point")
-      .style("opacity", function (d) {
-        return d.category === category ? 1 : 0.2;
-      });
-  })
-  .text(function (category) { return category; });
+Tooltips are a crucial element in interactive visualizations, providing additional context when users hover over data points. The following code demonstrates how to integrate tooltips into your D3.js visualization. This is a very basic example, it creates a square block. If you hover over the square block, you will see a tooltip under the block saying "this is a square!"
 
 ```
 
-## Adding Zoom and Pan Functionality
+<!DOCTYPE html>
+<html>
+<head>
+    <title>D3.js Interactive Square</title>
+    <style>
+        /* Styling for the square */
+        .square {
+            fill: red;
+        }
+        /* Styling for the tooltip */
+        .tooltip {
+            position: absolute;
+            padding: 10px;
+            background-color: black;
+            color: white;
+            opacity: 0;
+            margin-top: -100px;
+        }
+    </style>
+</head>
+<body>
+    <!-- SVG container -->
+    <svg width="200" height="200">
+        <!-- Square element -->
+        <rect class="square" width="100" height="100"></rect>
+    </svg>
 
-Zooming and panning capabilities are invaluable when dealing with large datasets or intricate visualizations. The code snippet demonstrates how to enable zoom and pan functionality in your D3.js visualization.
+    <!-- Tooltip element -->
+    <div class="tooltip">This is a square</div>
 
-```js
-// Sample code for enabling zoom and pan
-var zoom = d3.zoom()
-  .scaleExtent([1, 10])
-  .on("zoom", function () {
-    // Update visualization elements on zoom
-    svg.attr("transform", d3.event.transform);
-  });
+    <!-- D3.js library -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script>
+        // Select the square element
+        const square = d3.select("rect.square");
 
-svg.call(zoom);
+        // Event listener for mouseover event
+        square.on("mouseover", () => {
+            // Show the tooltip
+            d3.select(".tooltip")
+                .style("opacity", 1)
+                .style("left", d3.event.pageX + "px")
+                .style("top", d3.event.pageY + "px");
+        });
+
+        // Event listener for mouseout event
+        square.on("mouseout", () => {
+            // Hide the tooltip
+            d3.select(".tooltip").style("opacity", 0);
+        });
+    </script>
+</body>
+</html>
+
 ```
+Copy & paste the code in any code editor & prview on the web. The output should look similar to below:
+Normal Block:
+
+Tooltip appears when hovered over:
+
+
+
 
 ## Functions and Future Considerations
 
