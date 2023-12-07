@@ -33,7 +33,7 @@ In the example given below, the value `5` is set to the attribute `radius` which
 d3.select('circle').attr('radius', 5);
 ```
 
-The following example shows how to use the argument as a callback function. Based on the provided data, it is used to compute attribute values dynamically. Here, the circle's parameter is calculated using the function. 
+The following example shows how to use the argument as a callback function. Based on the provided data, it is used to compute attribute values dynamically. Here, the circle's parameter is calculated using the function:
 
 ```js
 d3.select('circle').attr('parameter', function (d) {
