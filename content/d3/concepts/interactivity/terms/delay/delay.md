@@ -44,9 +44,9 @@ circles.transition()
 ```
 The example will result in the following output:
 
-```shell
-[delay-3sec](https://github.com/thomasvlachos/docs/assets/32740965/cd39538d-985f-41af-a4a1-634d0fc13557)
-```
+
+![delay-3sec](https://github.com/thomasvlachos/docs/assets/32740965/cd39538d-985f-41af-a4a1-634d0fc13557)
+
 
 
 
