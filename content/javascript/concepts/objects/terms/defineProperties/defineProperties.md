@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `Object.defineProperties()` is used to define new or modify existing properties directly on an object or to add multiple properties to an object at once. This method is often used for property descriptors and fine-grained control over object properties.
+The **`.defineProperties()`** method is used to define new or modify existing properties directly on an object or to add multiple properties to an object at once. This method is often used for property descriptors and fine-grained control over object properties.
 
 ## Syntax
 
