@@ -20,7 +20,7 @@ The **`.attr()`** method is used to set or get attributes of selected elements. 
 selection.attr("attributeName", "attributeValue");
 ```
 
-The `.attr()` function takes two parameters,
+The `.attr()` function takes two parameters:
 
 - `attributeName`: Name of the attribute
 - `attributeValue`: Value of the attribute or a callback function.
