@@ -74,9 +74,11 @@ Hello
 
 ## Example 2
 
+In this example, `computedProperty` is not a direct property with a fixed value. Instead, it is dynamically computed based on the private variable `_value`, and the `get` and `set` functions control its behavior.
+
 ```js
 const myObject = {
-  _value: 0, // Convention to denote a private variable
+  _value: 0,
 };
 
 Object.defineProperties(myObject, {
@@ -92,7 +94,7 @@ Object.defineProperties(myObject, {
 
 console.log(myObject.computedProperty);
 
-// Update value
+// Updating value of computedProperty
 
 myObject.computedProperty = 10;
 
