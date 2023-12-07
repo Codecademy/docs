@@ -75,10 +75,15 @@ Tooltips are a crucial element in interactive visualizations, providing addition
 </html>
 
 ```
-Copy & paste the code in any code editor & prview on the web. The output should look similar to below:
+Copy & paste the code in any code editor & prview on the web. 
+
+## Output
 Normal Block:
+![idle](https://github.com/ShatilKhan/docs/assets/52494840/2d63ce76-438b-4182-9507-ea0f7a0e27f2)
+
 
 Tooltip appears when hovered over:
+![hover tooltip](https://github.com/ShatilKhan/docs/assets/52494840/9351a31c-d45a-4e52-8d9a-11d5e6474084)
 
 
 
