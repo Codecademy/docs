@@ -1,6 +1,6 @@
 ---
 Title: '.decodeFromString()'
-Description: 'Deserializes a string representation into data using the Kotlin Serialization library.'
+Description: 'Deserializes a string representation into data using the Kotlin Serialization library'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
