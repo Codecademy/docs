@@ -10,7 +10,7 @@ Tags:
   - 'D3'
 CatalogContent: 
   - 'learn-d3'
-  - 'paths/data-science'
+  - 'paths/computer-science'
 ---
 
 The **`.delay()`** method is used within transitions to introduce a time delay before the execution of the specified actions.
