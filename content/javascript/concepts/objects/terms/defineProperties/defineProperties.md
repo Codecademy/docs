@@ -27,7 +27,12 @@ Object.defineProperties(object, descriptors)
 
 [optional keys of descriptors]
 
-## Example
+- `value`: Specifies the value of the property.
+- `writable`: A Boolean indicating whether the value of the property can be changed.
+- `get`: A function that serves as a getter for the property, called when the property is accessed.
+- `set`: A function that serves as a setter for the property, called when the property is assigned a new value.
+
+## Example 1
 
 In this example `Object.defineProperties` is used to define two properties (`property1` and `property2`) on the `myObject` object. Each property has a descriptor object specifying attributes like `value` and `writable`.
 
@@ -65,6 +70,40 @@ Hello
 
 100
 Hello
+```
+
+## Example 2
+
+```js
+const myObject = {
+  _value: 0, // Convention to denote a private variable
+};
+
+Object.defineProperties(myObject, {
+  computedProperty: {
+    get: function () {
+      return this._value * 2;
+    },
+    set: function (newValue) {
+      this._value = newValue / 2;
+    },
+  },
+});
+
+console.log(myObject.computedProperty);
+
+// Update value
+
+myObject.computedProperty = 10;
+
+console.log(myObject.computedProperty); 
+
+```
+
+```shell
+0
+
+10
 ```
 
 > **Note:** This method is particularly useful when you want to customize the behavior of object properties or ensure certain constraints on them.
