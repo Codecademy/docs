@@ -27,11 +27,10 @@ When using the **.data()** method, D3.js compares the data with the existing DOM
 
 **Exit Selection:** This selection represents the elements in the DOM that do not have corresponding data elements. It is useful for removing these extra elements that are no longer needed.
 
-Here the focus is on Enter selection Method
+Here's the syntax for the Enter selection Method
 
-## Example
 
-```
+```codebyte/javascript
 d3.select("<parent element>").selectAll("<child element>")
       .data(numbers)
       .enter()
@@ -42,12 +41,12 @@ d3.select("<parent element>").selectAll("<child element>")
 
 
 
-## Codebyte Example ##
+## Example 
 
 This example illustrates a basic flow using D3.js to bind an array of data to DOM elements
 
 ```codebyte/javascript
-const data = [10, 20, 30, 40, 50]
+const data = ['🎄', '🎅', '❄️', '❤️', '🎁']
 
 const divSelection = d3.select('body')
     .selectAll('div')
@@ -59,11 +58,13 @@ const enterSelection = divSelection.enter()
 
 # Output: 
 
-<div>10</div>
-<div>20</div>
-<div>30</div>
-<div>40</div>
-<div>50</div>    
+<div>🎄</div>
+<div>🎅</div>
+<div>❄️</div>
+<div>❤️</div>
+<div>🎁</div>    
+
+
 
 ```
-
+![Output](https://raw.githubusercontent.com/Codecademy/docs/main/media/d3-enter.png)
