@@ -27,14 +27,18 @@ d3.scaleOrdinal([[domain, ]range]);
 An array of date strings [1450, 1879, 1903, 1939] is connected to an array of word strings ["Printing press", "Electric light", "Airplane", "Computer"] by creating year scale using scaleOrdinal which maps the years to the inventions. 
 
 ```js
-const year = d3.scaleOrdinal([1450, 1879, 1903, 1939], ["Printing press", "Electric light", "Airplane", "Computer"]);
+const inventors = ['Charles Babbage', 'Steve Jobs', 'Thomas Edison', 'Alexxander Graham']
+
+const ordinalScale = d3.scaleOrdinal()
+  .domain(inventions)
+  .range(['The computer', 'iPhone', 'Lightbulb', 'Telephone'])
 ```
 
 ```shell 
-year(1450) // "Printing press"
-year(1879) // "Electric light"
-year(1903) // "Airplane"
-year(1939) // "Computer"
+ordinalScale('Charles Babbage'); // returns 'The computer';
+ordinalScale('Steve Jobs'); // returns 'iPhone';
+ordinalScale('Thomas Edison'); // returns 'Lightbulb';
+ordinalScale('Alexander Graham'); // returns 'Telephone';
 ```
 
 
