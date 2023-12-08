@@ -28,7 +28,7 @@ The following can be the `value` of the `float` property:
 - `left`: The element floats on the left side of its container.
 - `none`: This is the default value of the `float` property. It ensures the element will not float left or right.
 
-## Example 1
+## Example
 
 This example makes an `img` element float to the left of its container.
 
