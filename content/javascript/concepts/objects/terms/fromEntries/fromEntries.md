@@ -19,7 +19,7 @@ The **`.fromEntries()`** method returns a new object with properties from a give
 Object.fromEntries(iterableObject);
 ```
 
-The `iterableObject` is usually an array or Map.
+The `iterableObject` is usually an Array or a Map.
 
 ## Example
 
