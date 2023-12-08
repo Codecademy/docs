@@ -20,11 +20,11 @@ The **`octdec()`** function is a built-in function that calculates the decimal e
 octdec(value);
 ```
 
-`value`: It's an octal number given as a parameter to the function in string format. If an invalid character is passed, it is ignored.
+- `value`: It's an octal number given as a parameter to the function in string format. If an invalid character is passed, it is ignored.
 
 ## Example
 
-The example below uses the `octdec()` function to convert an octal to its decimal value.
+The example below uses the `octdec()` function to convert an octal number to its decimal value.
 
 ```php
 <?php
