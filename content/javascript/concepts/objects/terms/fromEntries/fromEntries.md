@@ -45,7 +45,7 @@ The output would be:
 
 ## Codebyte Example
 
-The following example demonstrates the object returned from `fromEntries()`.
+Following is a runnable example that demonstrates the `.fromEntries()` method.
 
 ```codebyte/js
 const tvCharacters = new Map([
