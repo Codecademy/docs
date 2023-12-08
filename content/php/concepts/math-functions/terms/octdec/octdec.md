@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **octdec()** function is a built-in function that calculates the decimal equivalent of an octal number. It accepts the octal number as the only argument.
+The **`octdec()`** function is a built-in function that calculates the decimal equivalent of an octal number. It accepts the octal number as the only argument.
 
 ## Syntax
 
@@ -20,7 +20,7 @@ The **octdec()** function is a built-in function that calculates the decimal equ
 octdec(value);
 ```
 
-`value`: It's an octal number, given as a parameter to the function, in the string format. If an invalid character is passed, it is ignored.
+`value`: It's an octal number given as a parameter to the function in string format. If an invalid character is passed, it is ignored.
 
 ## Example
 
@@ -33,7 +33,7 @@ The example below uses the `octdec()` function to convert an octal to its decima
 ?>
 ```
 
-This example will gives the following output:
+This example will give the following output:
 
 ```shell
 53
