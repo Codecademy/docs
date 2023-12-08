@@ -30,7 +30,7 @@ An array of date strings [1450, 1879, 1903, 1939] is connected to an array of wo
 const inventors = ['Charles Babbage', 'Steve Jobs', 'Thomas Edison', 'Alexxander Graham']
 
 const ordinalScale = d3.scaleOrdinal()
-  .domain(inventions)
+  .domain(inventors)
   .range(['The computer', 'iPhone', 'Lightbulb', 'Telephone'])
 ```
 
