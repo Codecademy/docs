@@ -21,17 +21,17 @@ The **`.csv()`** function in D3 is used to load and parse CSV (`Comma-Separated-
 d3.csv(url[[, accessor], callback])
 ```
 
-- `url`: the URL of the CSV file or a string containing the CSV data.
-- `accessor`: an optional conversion function to change the representation. It allows for custom data transformation and returns processed data for each row.
-- `callback`: an optional callback function that executes once the data is loaded and parsed.
+- `url`: The URL of the CSV file or a string containing the CSV data.
+- `accessor`: An optional conversion function to change the representation. It allows for custom data transformation and returns processed data for each row.
+- `callback`: An optional callback function that executes once the data is loaded and parsed.
 
 ## Example
 
-In the following example `.csv()` is used to load and parse CSV data. In this case, the accessor is the anonymous `function(d)`. It uses two callback functions: `.then(function(data) {})` and `.catch(function(error) {})`.
+In the following example `.csv()` is used to load and parse CSV data. In this case, the accessor is the anonymous `function(d)`. It uses two callback functions: `.then(function(data) {})` and `.catch(function(error) {})`:
 
 Consider the comma-separated data in example.csv:
 
-```
+```shell
 Name,Age,City
 Alice,25,New York
 Bob,30,San Francisco
@@ -39,11 +39,11 @@ Charlie,28,Los Angeles
 Darwin,34,Miami
 ```
 
-To load, parse, and print the data in example.csv, the following code is executed:
+To load, parse, and print the data in `example.csv`, the following code is executed:
 
 ```js
 d3.csv("example.csv", function(d) {
-  // 'd' is an object representing a row in the CSV
+// 'd' is an object representing a row in the CSV
   return {
     name: d.Name,
     age: +d.Age,  // Convert age to a number
@@ -57,12 +57,11 @@ d3.csv("example.csv", function(d) {
   .catch(function(error) {
     // Handle any errors that occurred during loading or parsing
     console.error(error);
-  });
+});
 ```
 
 - The accessor function applies to each row of CSV data, transforming it into an object with the properties `name`, `age`, and `city`.
 - The callback function `.then(function(data) {})` handles the processed data whereas `.catch(function(error) {})` handles potential errors during the loading process.
-
 
 The example results in the following output:
 
