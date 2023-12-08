@@ -47,7 +47,7 @@ The output would be:
 
 Following is a runnable example that demonstrates the `.fromEntries()` method.
 
-```codebyte/js
+```codebyte/javascript
 const tvCharacters = new Map([
   ["Jerry Seinfeld", "Comedian"],
   ["Tim Taylor", "Television Host/Handyman"],
