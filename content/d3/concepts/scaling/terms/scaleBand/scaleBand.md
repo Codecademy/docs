@@ -5,8 +5,7 @@ Subjects:
   - 'Code Foundations'
   - 'Data Visualization'
 Tags:
-  - 'D3.js'
-  - 'Scale'
+  - 'D3'
 CatalogContent:
   - 'learn-d3'
   - 'paths/data-visualization'
