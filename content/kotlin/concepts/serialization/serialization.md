@@ -30,4 +30,3 @@ Included libraries in `kotlinx.serialization` for various serialization formats:
  - Protocol buffers: `kotlin-serialization-protobuf`
  - JSON: `kotlin-serialization-json`
 
-All libraies besides JSON serialization are experimental, for detailed information about serialization formats refer to the [Kotlin Serialization Documents](https://github.com/Kotlin/kotlinx.serialization/blob/master/formats/README.md)
