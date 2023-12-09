@@ -21,6 +21,7 @@ The **`.delay()`** method is used in the context of transitions and sets the del
 selection.transition()
     .delay(delayValue)
 ```
+
 - `delayValue` is the time delay in milliseconds.
 
 ## Example
@@ -43,5 +44,4 @@ circles.transition()
 ```
 The example will result in the following output:
 
-
-![delay-3-sec](https://raw.githubusercontent.com/Codecademy/docs/main/media/delay-3-sec)
+![delay-3-sec](https://github.com/thomasvlachos/docs/blob/topic-content-term/media/delay-3-sec.gif)
