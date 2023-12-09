@@ -44,4 +44,4 @@ circles.transition()
 ```
 The example will result in the following output:
 
-![delay-3-sec](https://github.com/thomasvlachos/docs/blob/topic-content-term/media/delay-3-sec.gif)
+![delay-3-sec](https://raw.githubusercontent.com/Codecademy/docs/main/media/delay-3-sec.gif)
