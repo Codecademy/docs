@@ -2,18 +2,18 @@
 Title: '.duration()'
 Description: 'Specifies the duration for transitions in D3 visualizations.'
 Subjects:
-  - ‘Data Science'
-  - ‘Data Visualization’ 
+  - 'Data Science'
+  - 'Data Visualization'
 Tags:
   - 'Methods'
   - 'Animation'
   - 'D3'
 CatalogContent:
-  - 'learn-d3’
-  - 'paths/data-science’
+  - 'learn-d3'
+  - 'paths/data-science'
 ---
 
-The **`.duration()`** method is used to set the duration for transitions. This is crucial for creating animated visualizations, allowing developers to control how long an animation takes to move from a starting to an ending state. It accepts a single argument representing the time in milliseconds for the transition.
+The **`.duration()`** method sets the duration for transitions. This is crucial for creating animated visualizations, allowing developers to control how long an animation takes to move from a starting to an ending state. It accepts a single argument representing the time in milliseconds for the transition.
 
 ## Syntax
 
@@ -21,7 +21,7 @@ The **`.duration()`** method is used to set the duration for transitions. This i
 transition().duration(milliseconds)
 ```
 
-This method requires a transition selection object and `milliseconds` as an argument. If `milliseconds` is not provided, D3 defaults to using a 250ms duration for the transition.
+This method requires a transition selection object and `miliseconds` as an argument. If `milliseconds` is not provided, D3 defaults to using a 250ms duration for the transition.
 
 ## Example
 
@@ -65,7 +65,7 @@ Below is an example of how to use the `.duration()` method to set the duration o
 </script>
 ```
 
-In this example, the selection identified by 'myCircle’ will smoothly transition its color from `tomato` to `steelblue`. Once the transition is complete, a console message will confirm its completion.
+In this example, the selection identified by `myCircle` will smoothly transition its color from `tomato` to `steelblue`. Once the transition is complete, a console message will confirm its completion.
 
 The following gif shows the transition effect on the SVG circle when the button is clicked:
 
