@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.delay()`** method is used within transitions to introduce a time delay before the execution of the specified actions.
+The **`.delay()`** method is used in the context of transitions and sets the delay before the transition starts.
 
 ## Syntax
 
@@ -21,7 +21,6 @@ The **`.delay()`** method is used within transitions to introduce a time delay b
 selection.transition()
     .delay(delayValue)
 ```
-The `.delay()` method is used in the context of transitions and sets the delay before the transition starts.
 - `delayValue` is the time delay in milliseconds.
 
 ## Example
@@ -45,7 +44,4 @@ circles.transition()
 The example will result in the following output:
 
 
-![delay-3sec](https://github.com/thomasvlachos/docs/assets/32740965/b2e96749-638d-4903-8d95-3687c5236b36)
-
-
-
+![delay-3-sec](https://raw.githubusercontent.com/Codecademy/docs/main/media/delay-3-sec)
