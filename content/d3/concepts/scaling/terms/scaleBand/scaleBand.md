@@ -25,8 +25,8 @@ d3.scaleBand()
 
 - `inputDomain`: An array representing the input domain (categories or discrete values).
 - `outputRange`: An array representing the output range (typically the width of the visualization).
-- `innerPadding`: Optional. Specifies the padding between bands, as a fraction of the band width (default is 0.).
-- `outerPadding`: Optional. Specifies the padding before the first band and after the last band, as a fraction of the band width (default is 0.).
+- `innerPadding`: Specifies the padding between bands, as a fraction of the bandwidth (default is 0.).
+- `outerPadding`: Specifies the padding before the first band and after the last band, as a fraction of the bandwidth (default is 0.).
 
 ## Example
 
