@@ -18,8 +18,6 @@ CatalogContent:
 
 In Kotlin, serialiazation tools are made availible in `kotlinx.serialization`. It consists of a few components, the `org.jetbrains.kotlin.plugin.serialization` Gradle plugin, runtime libraries and compiler plugins.
 
-## Libraries
-
 Kotlin serialization libraries belong to the `org.jetbrains.kotlinx:` group and begin with `kotlinx-serialization-` with suffixes that reflect the serialization format, such as `json`.
 
 ## Formats
