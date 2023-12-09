@@ -1,6 +1,6 @@
 ---
 Title: '.delay()'
-Description: 'It introduces a waiting period before executing subsequent actions.' 
+Description: 'Sets a waiting period before executing subsequent actions.' 
 Subjects: 
   - 'Data Visualization'
   - 'Web Development'
