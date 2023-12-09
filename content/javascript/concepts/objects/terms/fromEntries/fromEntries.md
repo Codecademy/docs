@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The **`.fromEntries()`** method returns a new object with properties from a given list of key-value pairs. A single element in the iterable object can be an array with two elements. The first element in this array will be the `key` and the second element will be the `value` for a single property in the returned object.
+The **`.fromEntries()`** method returns a new object with properties from a given list. A single element in a list can be an array with two elements. The first element in this array will be the `key` and the second element will be the `value` for a single property in the returned object.
 
 ## Syntax
 
