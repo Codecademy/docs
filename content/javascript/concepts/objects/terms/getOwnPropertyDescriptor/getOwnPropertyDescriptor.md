@@ -12,7 +12,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `Object.getOwnPropertyDescriptor()` method is a built-in object that enables access to full information on a property and  returns a property descriptor of the given property if it exists on the object, otherwise `undefined`.
+The **`Object.getOwnPropertyDescriptor()`** method is a built-in object that enables access to full information about a property and returns a property descriptor of the given property if it exists on the object, otherwise it returns `undefined`.
 
 ## Syntax
 
