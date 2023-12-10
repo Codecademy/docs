@@ -1,6 +1,6 @@
 ---
 Title: '.freeze()'
-Description: 'This method is used to freeze an object. It returns the object that was passed to the function.'
+Description: 'This method is used to freeze an object and it returns the object that was passed to the function.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -36,8 +36,7 @@ In this example, the object `obj2` has been assigned property from object `obj1`
 // creating an object constructor and assigning values to it 
 const obj1 = { property1: 'initial_data' }; 
 
-// creating a second object which will freeze 
-// the properties of the first object 
+// creating a second object that will freeze the properties of the first object
 const obj2 = Object.freeze(obj1); 
 
 // Updating the properties of the frozen object 
@@ -48,7 +47,7 @@ console.log(obj2.property1);
 The above code snippet will return the following output:
 
 ```shell
-"initial_data"
+initial_data
 ```
 ### Example 2
 
