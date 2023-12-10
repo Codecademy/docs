@@ -22,7 +22,7 @@ selection.transition()
     .delay(delayValue)
 ```
 
-- `delayValue` is the time delay in milliseconds.
+- `delayValue` - It is the time delay in milliseconds.
 
 ## Example
 
