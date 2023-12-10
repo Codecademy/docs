@@ -22,9 +22,9 @@ In a type-safe language like Swift, values are generally stored in [variables](h
 
 | Type        |     Example      | Description           |
 | ----------- | :--------------: | --------------------- |
-| `Int`       |   `5`, `-638`    | Integer whole number  |
+| `Int`       |   `10`, `-638`    | Integer whole number  |
 | `Float`     | `3.14`, `-8.323` | Floating point number |
-| `Double`    |  `6.2831853071`  | Floating point number |
+| `Double`    |  `7.2831853071`  | Floating point number |
 | `String`    |  `Hello world!`  | Text                  |
 | `Character` |     `c`, `$`     | Single character      |
 | `Bool`      | `true`, `false`  | Logical values        |
