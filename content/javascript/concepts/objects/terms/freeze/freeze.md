@@ -74,7 +74,6 @@ console.log(obj);
   
 The above code snippet will return the following output:
 
-
 ```shell
 Object { prop: function () {}, name: "adam" }
 Object { name: "billy" }
