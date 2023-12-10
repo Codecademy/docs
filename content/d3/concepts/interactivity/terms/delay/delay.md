@@ -42,6 +42,7 @@ circles.transition()
     .delay(3000) // Introduce a delay of 3000 milliseconds (3 seconds)
     .attr('r', 30); // Change the radius attribute during the transition
 ```
+
 The example will result in the following output:
 
 ![delay-3-sec](https://raw.githubusercontent.com/Codecademy/docs/main/media/delay-3-sec.gif)
