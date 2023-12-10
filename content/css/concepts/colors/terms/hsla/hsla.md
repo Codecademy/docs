@@ -40,6 +40,10 @@ h1 {
 }
 ```
 
+The following image demonstrates the above `hsla()` color on an h1 element over a background image:
+
+![Demonstrates an h1 heading with 50% opacity over a patterned background image](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-color-hsla-example-1.png)
+
 ## Example 2
 
 Set the font color of the `h2` element:
@@ -49,3 +53,7 @@ h1 {
   color: hsla(211, 60%, 10%, 0.8);
 }
 ```
+
+The following image demonstrates the above `hsla()` color on an h1 element over a background image:
+
+![Demonstrates an h1 heading with 80% opacity over a patterned background image](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-color-hsla-example-2.png)
