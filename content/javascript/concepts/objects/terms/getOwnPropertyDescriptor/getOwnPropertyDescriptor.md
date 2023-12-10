@@ -1,6 +1,6 @@
 ---
 Title: 'Object.getOwnPropertyDescriptor()' 
-Description: 'This is an object that enables access to full information on a property.' 
+Description: 'Enables access to full information of a property.' 
 Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
   - 'Web Development'
   - 'Computer Science'  
