@@ -22,18 +22,17 @@ const circles = d3.select(selector) // Selects the elements
 ```
 
 - `circles`: A variable that stores the return value of the .select() method.
-
 -`'svg'`: A string passed to the `.select()` method that returns that element. In this case, the svg element.
 
 ## Example 
 
-The HTML code below for the SVG element goes below that is used later in script.
+The HTML code below for the SVG element is selected through the script.
 
 ```html
 <svg width="300" height="150"></svg>
 ```
 
-Below code represents a dataset containing the values to be plotted wherein the first SVG element is selected using the select method. It further shows how to plot the circle fetched from the dataset.
+The code below represents a dataset containing the values to be plotted wherein the first SVG element is selected using the select method. It further shows how to plot the circle on the position fetched from the dataset.
 
 ```js
     const dataset = [
@@ -53,8 +52,6 @@ Below code represents a dataset containing the values to be plotted wherein the 
       .attr('cy', d => d[1]) // Set the y-coordinate based on the data
       .attr('r', 10) // Set the radius for all circles
 
-    // Additional attributes or styles can be added here
-
     // Example of updating existing circles based on the updated dataset
     circles
       .attr('fill', 'blue'); 
@@ -63,6 +60,6 @@ Below code represents a dataset containing the values to be plotted wherein the 
     circles.exit().remove();
   ```
 
-## Output
+This example gives the following output:
 
 ![d3-select-example](https://github.com/alimalim77/docs/blob/select-content-entry/media/d3-select-example.png)
