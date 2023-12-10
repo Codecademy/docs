@@ -28,7 +28,7 @@ Object.freeze(obj)
 
 The following codes demonstrate a basic implementation of the `Object.freeze()` method:
 
-### Example 1:
+### Example 1
 
 In this example, the object `obj2` has been assigned property from object `obj1`, and the properties of `obj1` are frozen therefore new properties and values are prevented from being added to `obj2`.
 
