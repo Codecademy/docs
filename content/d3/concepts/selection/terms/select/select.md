@@ -18,12 +18,12 @@ The **`.select()`** method retrieves the first element that matches the given se
 ## Syntax 
 
 ```pseudo
-const circles = d3.select('svg') // Selects all the SVG elements
+const circles = d3.select(selector) // Selects the elements
 ```
 
-circles: A variable that stores the return value of .select() method.
+- `circles`: A variable that stores the return value of the .select() method.
 
-svg: A string passed to the select() method that gets the returned elements stored in `circles` variable.
+-`'svg'`: A string passed to the `.select()` method that returns that element. In this case, the svg element.
 
 ## Example 
 
