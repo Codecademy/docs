@@ -18,7 +18,6 @@ The **`Object.freeze()`** method is used to freeze an object. Freezing an object
 
 ## Syntax
 
-
 ```pseudo
 Object.freeze(obj)
 ```
