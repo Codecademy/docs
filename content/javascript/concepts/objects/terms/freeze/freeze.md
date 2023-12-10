@@ -30,7 +30,7 @@ The following codes demonstrate a basic implementation of the `Object.freeze()` 
 
 ### Example 1
 
-In this example, the object `obj2` has been assigned property from object `obj1`, and the properties of `obj1` are frozen therefore new properties and values are prevented from being added to `obj2`.
+In this example, the object `obj2` has been assigned property from object `obj1`, and the properties of `obj1` are frozen therefore new properties and values are prevented from being added to `obj2`:
 
 ```js
 // creating an object constructor and assigning values to it 
@@ -50,7 +50,7 @@ The above code snippet will return the following output:
 ```shell
 "initial_data"
 ```
-### Example 2:
+### Example 2
 
 In this example, the object `obj` has been assigned `prop: function` which has been later deleted since the object `obj` wasn’t frozen. After that, a new object `o` has been assigned the frozen values of `obj` which prevented it from further updations:
 
