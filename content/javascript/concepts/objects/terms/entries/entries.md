@@ -1,6 +1,6 @@
 ---
 Title: '.entries()'
-Description: 'Returns ..'
+Description: 'Returns an array containing arrays of an object\'s key-value pairs.'
 Subjects:
   - 'Web Development'
   - 'Code Foundations'
