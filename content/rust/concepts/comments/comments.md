@@ -1,6 +1,6 @@
 ---
 Title: 'Comments'
-Description: 'A comment is a line, or a few lines, of text that adds an extra explanation to the code to ease readability of the code for people.'
+Description: 'A comment is a line, or a few lines, of text that adds an extra explanation to the code to ease readability of the code.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **comment** is a line, or few lines, of text that adds extra explanation to the code to ease readability of the code for people. Any comment will be ignored and not executed by the compiler. In Rust programming, there are two types of comments:
+A **comment** is a line, or few lines, of text that adds extra explanation to the code to ease readability of the code. Any comment will be ignored and not executed by the compiler. In Rust programming, there are two types of comments:
 - Line comments
 - Block comments
 
