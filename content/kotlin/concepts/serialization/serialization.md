@@ -18,9 +18,9 @@ CatalogContent:
 
 In Kotlin, serialiazation tools are made availible in `kotlinx.serialization`. It consists of a few components, the `org.jetbrains.kotlin.plugin.serialization` Gradle plugin, runtime libraries and compiler plugins.
 
-Kotlin serialization libraries belong to the `org.jetbrains.kotlinx:` group and begin with `kotlinx-serialization-` with suffixes that reflect the serialization format, such as `json`.
+## Libraries
 
-## Formats
+Kotlin serialization libraries belong to the `org.jetbrains.kotlinx:` group and begin with `kotlinx-serialization-` with suffixes that reflect the serialization format, such as `json`.
 
 Included libraries in `kotlinx.serialization` for various serialization formats:
 
@@ -30,3 +30,59 @@ Included libraries in `kotlinx.serialization` for various serialization formats:
  - Protocol buffers: `kotlin-serialization-protobuf`
  - JSON: `kotlin-serialization-json`
 
+ ## Implementation
+
+ ```psuedo
+ 
+ @Serializable
+ class Project(val name: String, val language: String)
+
+ ```
+
+An object is first serialized to its primitive values, then encoded to the desired output format. In Kotlin classes must be explicitly marked `@Serializable`. Below is an example of JSON encoding using `json.encodeToString`.
+
+```kotlin
+
+import kotlinx.serialization.*
+import kotlinx.serialization.json.*
+
+@Serializable
+class Project(val name: String, val language: String)
+
+fun main() {
+    val data = Project("kotlinx.serialization", "Kotlin")
+    println(Json.encodeToString(data))
+}
+
+```
+
+The output will be:
+
+```shell
+{"name":"kotlinx.serialization","language":"Kotlin"}
+```
+
+To decode, `json.decodeFromString` is used:
+
+```kotlin
+import kotlinx.serialization.*
+import kotlinx.serialization.json.*
+
+@Serializable
+data class Project(val name: String, val language: String)
+
+fun main() {
+    val data = Json.decodeFromString<Project>("""
+        {"name":"kotlinx.serialization","language":"Kotlin"}
+    """)
+    println(data)
+}
+```
+
+
+The output will be:
+```shell
+Project(name=kotlinx.serialization, language=Kotlin)
+```
+
+All libraies ,besides JSON serialization, are experimental, for detailed information about serialization formats refer to the [Kotlin Serialization Documents](https://github.com/Kotlin/kotlinx.serialization/blob/master/formats/README.md) and the [Kotlin Serialization Guide](https://github.com/Kotlin/kotlinx.serialization/blob/master/docs/basic-serialization.md#basics)
