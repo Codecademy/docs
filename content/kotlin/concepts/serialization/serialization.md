@@ -12,11 +12,11 @@ CatalogContent:
  - 'paths/computer science'
 ---
 
-**Serialization** is the process of converting a complex object to a format that can be transferred over a network, used by an application, stored in a database or file.
+**Serialization** is the process of converting a complex object to a format that can be transferred over a network, used by an application, or stored in a database or file.
 
 ## Kotlin Serialization
 
-In Kotlin, serialiazation tools are made availible in `kotlinx.serialization`. It consists of a few components, the `org.jetbrains.kotlin.plugin.serialization` Gradle plugin, runtime libraries and compiler plugins.
+In Kotlin, serialization tools are made available in `kotlinx.serialization`. It consists of a few components, the `org.jetbrains.kotlin.plugin.serialization` Gradle plugin, runtime libraries, and compiler plugins.
 
 ## Libraries
 
