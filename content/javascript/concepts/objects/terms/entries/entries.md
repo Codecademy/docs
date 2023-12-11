@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The **`.entries()`** method returns an [array](https://www.codecademy.com/resources/docs/javascript/arrays) containing arrays of an [object](https://www.codecademy.com/resources/docs/javascript/objects)'s `key-value` pairs in the following format: `[ [key, value], [key, value], ... ]`
+The **`.entries()`** method returns an [array](https://www.codecademy.com/resources/docs/javascript/arrays) containing arrays of an [object](https://www.codecademy.com/resources/docs/javascript/objects)'s `key-value` pairs in the following format: `[ [key, value], [key, value], ... ]`.
 
 ## Syntax
 
