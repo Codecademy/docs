@@ -1,6 +1,6 @@
 ---
 Title: '.monthsUntil()'
-Description: 'Returns the number of months between two instants.'
+Description: 'Returns the number of months between two dates.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
