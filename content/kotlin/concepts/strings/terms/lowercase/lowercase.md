@@ -30,7 +30,6 @@ This example shows how to use the `.lowercase()` method on a string:
 fun main() {
     val originalString = "Hello, World!"
     val newString = originalString.lowercase()
-
     println("Original: $originalString")
     println("Lowercase: $newString")
 }
