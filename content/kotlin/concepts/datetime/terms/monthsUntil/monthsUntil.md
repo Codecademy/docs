@@ -27,21 +27,21 @@ firstInstant.monthsUntil(secondInstant, TimeZone)
 
 ## Example
 
-The example demonstrates the use of `.monthsUntil()` to calculate the number of months between two `Instants`.
+The example demonstrates the use of `.monthsUntil()` to calculate the number of months between two `Instants`:
 
 ```kotlin
 import kotlinx.datetime.*
 
 fun main() {
-    val beginMonth = Instant.parse("2023-12-01T12:00:00Z")
-    val endMonth = Instant.parse("2024-12-01T12:00:00Z")
-    val defaultTZ = TimeZone.currentSystemDefault()
-    val monthsUntil = beginMonth.monthsUntil(endMonth, defaultTZ)
-    println(monthsUntil)
+  val beginMonth = Instant.parse("2023-12-01T12:00:00Z")
+  val endMonth = Instant.parse("2024-12-01T12:00:00Z")
+  val defaultTZ = TimeZone.currentSystemDefault()
+  val monthsUntil = beginMonth.monthsUntil(endMonth, defaultTZ)
+  println(monthsUntil)
 }
 ```
 
-The output of this code will be:
+The output for the above code will be as follows:
 
 ```shell
 12
