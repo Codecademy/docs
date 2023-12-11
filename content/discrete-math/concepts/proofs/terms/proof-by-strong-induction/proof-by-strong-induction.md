@@ -20,8 +20,8 @@ In a weak mathematical induction, the inductive step involves showing that if so
 
 ## Steps for Strong Induction
 
-1. *Base Step*: Prove that the first element or elements in the series have some property.
-2. *Inductive Step*: Prove that if _n_ and all elements before n have the relevant property, then _n + 1_ has that property.
+1. _Base Step_: Prove that the first element or elements in the series have some property.
+2. _Inductive Step_: Prove that if _n_ and all elements before n have the relevant property, then _n + 1_ has that property.
 
 ## Example
 
@@ -51,14 +51,14 @@ Inductive Hypothesis: Suppose that for all x such that 2 ≤ x ≤ k, 2(x - 1) -
 To be proven: 2((k + 1) - 1) - ((k + 1) - 2) = k + 1.
 
 First, we will rearrange the left-hand of the expression above:
-	2((k + 1) - 1) - ((k + 1) - 2) = 2(k + 1 - 1) - (k + 1 - 2)	[removing extra parentheses]
-				       = 2(k - 1 + 1) - (k - 2 + 1)	[rearranging within parentheses]
-				       = 2(k - 1) + 2 - (k - 2 + 1)	[factoring 2 into the left parenthesis]
-				       = 2(k - 1) + 2 - (k - 2) - 1	[rearranging the right parenthesis]
-				       = 2(k - 1) - (k - 2) + 1		[adding numerical terms]
+ 2((k + 1) - 1) - ((k + 1) - 2) = 2(k + 1 - 1) - (k + 1 - 2)[removing extra parentheses]
+           = 2(k - 1 + 1) - (k - 2 + 1) [rearranging within parentheses]
+           = 2(k - 1) + 2 - (k - 2 + 1) [factoring 2 into the left parenthesis]
+           = 2(k - 1) + 2 - (k - 2) - 1 [rearranging the right parenthesis]
+           = 2(k - 1) - (k - 2) + 1  [adding numerical terms]
 
 Now, by the Inductive Hypothesis, 2(k - 1) - (k - 2) = k. We therefore substitute 'k' for '2(k-1) - (k-2)' in the rearranged expression above:
-	2((k + 1) - 1) - ((k + 1) - 2) = k + 1				[substition from Inductive Hypothesis]
+ 2((k + 1) - 1) - ((k + 1) - 2) = k + 1    [substition from Inductive Hypothesis]
 
 Having shown that 2((k + 1) - 1) - ((k + 1) - 2) = k + 1, this completes the inductive step and the proof.
 ```
