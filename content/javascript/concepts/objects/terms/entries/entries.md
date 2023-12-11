@@ -39,7 +39,7 @@ for (const [key, value] of Object.entries(drink)) {
 }
 ```
 
-This will return the following output:
+This above example will return the following output:
 
 ```shell
 NAME Chai Latte
