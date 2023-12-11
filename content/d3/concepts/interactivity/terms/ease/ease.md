@@ -63,3 +63,5 @@ Here's a simple HTML structure with D3.js code to create the transition animatio
 ```
 
 In this example, the `.ease(d3.easeLinear)` specifies that the transition should use a linear easing function. It provides a constant speed to the motion of the circle throughout the transition, resulting in a straight-line movement from the initial position to the final position.
+
+![d3.easeLinear animation](https://raw.githubusercontent.com/Codecademy/docs/main/media/d3-ease-example.gif)
