@@ -42,22 +42,22 @@ Darwin,34,Miami
 To load, parse, and print the data in `example.csv`, the following code is executed:
 
 ```js
-d3.csv("example.csv", function(d) {
-// 'd' is an object representing a row in the CSV
+d3.csv('example.csv', function (d) {
+  // 'd' is an object representing a row in the CSV
   return {
     name: d.Name,
-    age: +d.Age,  // Convert age to a number
-    city: d.City
+    age: +d.Age, // Convert age to a number
+    city: d.City,
   };
 })
-  .then(function(data) {
+  .then(function (data) {
     // 'data' is an array of processed objects
     console.log(data);
   })
-  .catch(function(error) {
+  .catch(function (error) {
     // Handle any errors that occurred during loading or parsing
     console.error(error);
-});
+  });
 ```
 
 - The accessor function applies to each row of CSV data, transforming it into an object with the properties `name`, `age`, and `city`.
