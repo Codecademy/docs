@@ -49,6 +49,7 @@ The above code snippet will return the following output:
 ```shell
 initial_data
 ```
+
 ### Example 2
 
 In this example, the object `obj` has been assigned `prop: function` which has been later deleted since the object `obj` wasn’t frozen. After that, a new object `o` has been assigned the frozen values of `obj` which prevented it from further updations:
@@ -78,4 +79,3 @@ The above code snippet will return the following output:
 { name: 'billy' }
 { name: 'billy' }
 ```
-
