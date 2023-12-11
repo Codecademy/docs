@@ -1,6 +1,6 @@
 ---
 Title: 'animation-timing-function'
-Description: 'Defines an acceleration curve for each keyframe in a single animation. '
+Description: 'Shapes the animation speed curve.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -12,38 +12,40 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Defines an acceleration curve for each keyframe in a single animation.
+Specifies how intermediate values are calculated throughout the duration of an animation, determining the pacing of the animation. This CSS property influences the speed curve of the animation, controlling its acceleration and deceleration.
 
 ## Syntax
 
 ```css
-animation-timing-function: <value>;
+animation-timing-function: value;
 ```
 
-where `<value>` can be one of the following keywords:
+where `value` can be one of the following keywords:
 
-- `step-start`: The easing curve for an animation that starts quickly and decelerates.
-- `step-end`: The easing curve for an animation that starts slowly and decelerates.
-- `linear`: The easing curve for an animation that starts and ends at the same speed.
-- `ease`: The easing curve for an animation that starts and ends at the same speed.
-- `ease-in`: The easing curve for an animation that starts slowly and accelerates.
-- `ease-out`: The easing curve for an animation that starts slowly and decelerates.
-- `ease-in-out`: The easing curve for an animation that starts and ends at the same speed.
-- `cubic-bezier()`: The easing curve for an animation that starts and ends at the same speed.
+- `step-start`: Easing curve for an animation that starts quickly and decelerates.
+- `step-end`: Easing curve for an animation that starts slowly and decelerates.
+- `linear`: Easing curve for an animation that maintains a constant speed.
+- `ease`: Easing curve for an animation that starts and ends smoothly.
+- `ease-in`: Easing curve for an animation that starts slowly and accelerates.
+- `ease-out`: Easing curve for an animation that starts quickly and decelerates.
+- `ease-in-out`: Easing curve for an animation that starts and ends smoothly.
+- `cubic-bezier()`: Easing curve defined using cubic Bezier functions.
 
 **Note:** Applied property by property from keyframe to keyframe.
 
 ## Example 1
 
-Apply `ease-in-out` to the `animation-timing-function` property of the `div` element:
+Applying `ease-in-out` to the `animation-timing-function` property of a `div` element:
 
 ```css
 div {
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
   background-color: blue;
   animation-name: slideright;
   animation-duration: 4s;
+  animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
 
@@ -59,3 +61,7 @@ div {
   }
 }
 ```
+
+The ease-in-out timing function adds a gradual acceleration and deceleration effect to make the motion appear more natural.
+
+![Image illustration for example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-animation-timing-function.gif)

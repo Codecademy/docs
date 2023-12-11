@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The **`.entries()`** method returns an [array](https://www.codecademy.com/resources/docs/javascript/arrays) containing arrays of an [object](https://www.codecademy.com/resources/docs/javascript/objects)'s `key-value` pairs in the following format: `[ [key, value], [key, value], ... ]`
+The **`.entries()`** method returns an [array](https://www.codecademy.com/resources/docs/javascript/arrays) containing arrays of an [object](https://www.codecademy.com/resources/docs/javascript/objects)'s `key-value` pairs in the following format: `[ [key, value], [key, value], ... ]`.
 
 ## Syntax
 
@@ -39,7 +39,7 @@ for (const [key, value] of Object.entries(drink)) {
 }
 ```
 
-This will return the following output:
+This above example will return the following output:
 
 ```shell
 NAME Chai Latte
