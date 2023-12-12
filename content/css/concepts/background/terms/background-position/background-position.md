@@ -41,6 +41,8 @@ Set background image position to the top right corner of `.hero` class element:
 }
 ```
 
+![Background image on top right of the browser](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-position-example-1.png)
+
 ## Example 2
 
 Use percentages to place background image in the middle of the element:
@@ -52,6 +54,8 @@ Use percentages to place background image in the middle of the element:
   background-position: 50% 50%;
 }
 ```
+
+![Background image in the middle](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-position-example-2.png)
 
 ## Example 3
 
@@ -65,6 +69,8 @@ Use pixels to place background image `100px` down the y-axis and `100px` along t
 }
 ```
 
+![Background image 100px down and 100px right](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-position-example-3.png)
+
 ## Example 4
 
 Position multiple images:
@@ -76,3 +82,5 @@ Position multiple images:
   background-position: top left, bottom right;
 }
 ```
+
+![Two background images in different positions](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-position-example-4.png)
