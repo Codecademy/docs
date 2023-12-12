@@ -9,14 +9,13 @@ Tags:
   - 'Colors'
   - 'CSS'
   - 'Design'
-
 CatalogContent:
   - 'learn-css'
   - 'paths/front-end-engineer-career-path'
   - 'paths/full-stack-engineer-career-path'
 ---
 
-To set **color** property values for an element. <color> sets the color of the textual and decorative parts of an element and text.
+To set **color** property values for an element. `<color>` sets the color of the textual and decorative parts of an element and text.
 
 
 ## Syntax
