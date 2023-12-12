@@ -10,13 +10,11 @@ Tags:
   - 'Events'
   - 'DOM'
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/computer-science'
+  - 'learn-d3'
+  - 'paths/data-science'
 ---
 
-In D3.js, the **d3.selection.on()** function is used to add a specific event handler to an element.
-
-An event can be any Document Object Model (DOM) event type such as `click`, `zoom`, `mouseenter`, `mouseleave`, `mouseover`, `mouseout` and `mousemove`.
+In **D3.js**, the **d3.selection.on()** function is used to add a specific event handler to an element. An event can be any Document Object Model (DOM) event type such as `click`, `zoom`, `mouseenter`, `mouseleave`, `mouseover`, `mouseout` and `mousemove`.
 
 ## Syntax
 
@@ -24,7 +22,8 @@ An event can be any Document Object Model (DOM) event type such as `click`, `zoo
 selection.on(event type, callback function)
 ```
 
-The **event type** is a *string* that specifies the DOM event type used, and the [callback function](https://www.codecademy.com/resources/docs/javascript/callbacks) is the *function* that is called when the event is triggered.
+- `event type`: The **event type** is a *string* that specifies the DOM event type used.
+- `callback function`: The [callback function](https://www.codecademy.com/resources/docs/javascript/callbacks) is the *function* that is called when the event is triggered.
 
 ## Example
 
@@ -37,3 +36,6 @@ d3.selectAll("square")
       .style("fill", "yellow");
   })
 ```
+
+Output:
+![Code output](https://raw.githubusercontent.com/Codecademy/docs/main/media/d3-yellow-square.png)
