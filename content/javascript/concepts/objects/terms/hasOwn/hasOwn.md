@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The **`.hasOwn()`** method is used to check if the object has the specified property or not. It returns true if the property exists else false. This method was introduced as a replacement for the `Object.hasOwnProperty()` method. It is different from `in` operator as it does not check for inherited properties.
+The **`.hasOwn()`** method verifies if a specific property exists in an object, returning true if present, otherwise false. Unlike the `in` operator, it solely inspects direct object properties and doesn't consider inherited ones. This method serves as a replacement for `Object.hasOwnProperty()`.
 
 ## Syntax
 
