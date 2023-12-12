@@ -1,6 +1,6 @@
 ---
 Title: '.hasOwn()'
-Description: 'Returns true if the specified property is directly owned by the object. If the property is inherited or doesn't exist, the method returns false'
+Description: 'Returns'
 Subjects:
   - 'Web Development'
   - 'Code Foundations'
