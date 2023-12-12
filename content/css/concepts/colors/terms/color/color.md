@@ -34,7 +34,7 @@ The `<value>` of the color property can be any of the following:
 
 ## Examples
 
-The `h1` tag is set to be orange in color and the `p` tag is set as pink in color: <!--The background color, black/#000000/rgb(0,0,0), is only set for context-->
+The `h1` tag is set to be orange in color and the `p` tag is set as pink in color. The background color, black/#000000/rgb(0,0,0), is only set for context:
 
 ```css
 body {
