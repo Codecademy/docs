@@ -1,14 +1,14 @@
 ---
 Title: '.delay()'
-Description: 'Sets a waiting period before executing subsequent actions.' 
-Subjects: 
+Description: 'Sets a waiting period before executing subsequent actions.'
+Subjects:
   - 'Data Visualization'
   - 'Web Development'
-Tags: 
+Tags:
   - 'Animation'
   - 'Transitions'
   - 'D3'
-CatalogContent: 
+CatalogContent:
   - 'learn-d3'
   - 'paths/computer-science'
 ---
@@ -29,16 +29,20 @@ selection.transition()
 In the following example, the circles start with different radii and then transition to a radius of 30 after a short delay.
 
 ```js
-let circles = d3.select('svg').selectAll('circle')
+let circles = d3
+  .select('svg')
+  .selectAll('circle')
   .data([5, 15, 25]) // Example data for circle radius
-  .enter().append('circle')
+  .enter()
+  .append('circle')
   .attr('cx', (d, i) => i * 50 + 30)
   .attr('cy', 100)
-  .attr('r', d => d)
+  .attr('r', (d) => d)
   .attr('fill', 'black');
 
 // Transition to change the radius with a delay
-circles.transition()
+circles
+  .transition()
   .delay(3000) // Introduce a delay of 3000 milliseconds (3 seconds)
   .attr('r', 30); // Change the radius attribute during the transition
 ```
