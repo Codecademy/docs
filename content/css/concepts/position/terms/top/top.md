@@ -43,6 +43,10 @@ Set the position of `.box` element `40px` from the top of the nearest relative p
 }
 ```
 
+![CSS Top Attribute Absolute](images/abs_pos_40px.png)
+
+The blue box is positioned `40px` down from the top of the nearest ancestor with `position: relative` declared, which is the green box.
+
 ## Example 2
 
 Set the position of `.box` element `100px` from the elements top edge.
@@ -56,3 +60,7 @@ Set the position of `.box` element `100px` from the elements top edge.
   top: 100px;
 }
 ```
+
+![CSS Top Attribute Relative](images/rel_pos_100px.png)
+
+The blue box is positioned `100px` down from its original position, represented by the red line.
