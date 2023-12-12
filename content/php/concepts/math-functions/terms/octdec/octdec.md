@@ -2,7 +2,7 @@
 Title: 'octdec()'
 Description: 'Converts octal numbers to decimal numbers.'
 Subjects:
-  - 'Web Development' 
+  - 'Web Development'
   - 'Computer Science'
 Tags:
   - 'Math'
@@ -39,7 +39,6 @@ This example will give the following output:
 53
 24
 ```
-
 
 ## Codebyte Example
 
