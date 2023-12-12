@@ -32,6 +32,7 @@ Object.hasOwn(obj, prop)
 ```js
 let details = {
   name: 'Jack',
+  age: 20,
   course: 'Javascript Foundation',
 };
 
