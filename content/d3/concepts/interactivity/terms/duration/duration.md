@@ -13,15 +13,15 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.duration()`** method sets the duration for transitions. This method is crucial for creating animated visualizations as it allows developers to control how long an animation takes to move from a starting to an ending state. It accepts a single argument representing the time in milliseconds for the transition.
+The **`.duration()`** method sets the time for which a transition lasts. This method is crucial for creating animated visualizations as it allows developers to control the length of an animation. It accepts a single argument representing the duration in milliseconds for the transition.
 
 ## Syntax
 
 ```pseudo
-transition().duration(milliseconds)
+transition().duration(t)
 ```
 
-This method requires a transition selection object and `miliseconds` as an argument. If `milliseconds` is not provided, D3 defaults to using a 250ms duration for the transition.
+- `t`: It is the duration of the animation and the only argument taken by the `.duration()` method. If not specified, the default duration value is set to 250ms for the transition.
 
 ## Example
 
