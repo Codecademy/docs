@@ -12,18 +12,21 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`Object.getOwnPropertyDescriptor()`** method is a built-in object that enables access to full information about a property and returns a property descriptor of the given property if it exists on the object, otherwise it returns `undefined`.
+The **`Object.getOwnPropertyDescriptor()`** method is a built-in object that enables access to full information about a property and returns a property descriptor of the given property if it exists on the object, otherwise, it returns `undefined`. It only works on its properties directly defined by the object itself, meaning it does not have access to inherited properties from the object's prototype chain.
 
 ## Syntax
 
 Here's the basic syntax of `Object.getOwnPropertyDescriptor()`:
-```JavaScript
+```pseudo
 Object.getOwnPropertyDescriptor(obj, prop)
 ```
 - `obj`: The object where to look for the property.
 - `prop`: The name or Symbol of the property whose description is to be retrieved.
 
 ## Example
+
+The example below shows how `Object.getOwnPropertyDescriptor()` works:
+
 ```JavaScript
 const person = {
   name: "Jane",
