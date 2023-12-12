@@ -21,7 +21,10 @@ the **`.style()`** method is used to set or get the inline style properties of s
 selection.style("property", "value");
 ```
 
-`.style()` funtion takes two arguements, first is the style name and second is the value to set to it.
+`.style()` funtion takes two arguements,
+
+- `property`: name of the property or style name.
+- `value`: value of property to set to it.
 
 ## Example
 
