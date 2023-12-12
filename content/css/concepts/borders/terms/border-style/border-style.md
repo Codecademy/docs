@@ -46,6 +46,10 @@ h1 {
 }
 ```
 
+The following image demonstrates the code block above:
+
+![h1 element with 3px dotted green border](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-border-style-example-1.png)
+
 ## Example 2
 
 Set the top and bottom borders dashed and the left and right borders solid:
@@ -55,3 +59,7 @@ h1 {
   border-style: dashed solid;
 }
 ```
+
+The following image demonstrates the code block above:
+
+![h1 element with dashed solid border](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-border-style-example-2.png)
