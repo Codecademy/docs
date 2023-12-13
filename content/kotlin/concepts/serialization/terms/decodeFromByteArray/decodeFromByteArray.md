@@ -1,20 +1,18 @@
 ---
 Title: '.decodeFromByteArray()'
-Description: 'Decodes data from a byte array into an object'
+Description: 'Decodes data from a byte array into an object.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
 Tags:
   - 'Method'
   - 'Data Structures'
-  - 'Time'
-  - 'Date'
 CatalogContent:
   - 'learn-kotlin'
   - 'paths/computer-science'
 ---
 
-The **`.decodeFromByteArray()`** method is a part of the **kotlinx.serialization** library and is used to deserialize/decode (convert) byte array into a Kotlin object. Commonly used when data in byte array format is transmitted and needs to be reverted into a Kotlin object. 
+The **`.decodeFromByteArray()`** method is a part of the **kotlinx.serialization** library and is used to deserialize/decode (convert) a byte array into a Kotlin object. Commonly used when data in a byte array format is transmitted and needs to be reverted into a Kotlin object. 
 
 ## Syntax
 
@@ -23,8 +21,8 @@ fun <T> BinaryFormat.decodeFromByteArray(ByteArray)
 ```
 
 - `<T>`: The type of the object to be deserialized
-- `BinaryFormat`: An interface in `kotlinx.serialization` library that provides methods for serializing and deserializing Kotlin objects in binary formats
-- `ByteArray`: The byte array containing the binary representation of the serialized object
+- `BinaryFormat`: An interface in `kotlinx.serialization` library that provides methods for serializing and deserializing Kotlin objects in binary formats. An example of `BinaryFormat` is `ProtoBuf`, it serializes and deserializes Kotlin objects.
+- `ByteArray`: The byte array containing the binary representation of the serialized object.
 
 ## Example
 
