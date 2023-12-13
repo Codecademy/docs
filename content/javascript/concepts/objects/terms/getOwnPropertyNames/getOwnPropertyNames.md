@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The **`Object.getOwnPropertyNames()`** method returns all properties that are present in a given object `obj` except for those symbol-based non-enumerable properties.
+The **`obj.getOwnPropertyNames()`** method returns all properties that are present in a given object `obj` except for those symbol-based non-enumerable properties.
 
 ## Syntax
 
@@ -26,7 +26,7 @@ Object.getOwnPropertyNames(obj)
 
 ### Example 1
 
-In this example, **`Object.getOwnPropertyNames()`** returns an array containing the property names of the `person` object.
+In this example, **`Object.getOwnPropertyNames()`** returns an array containing the property names of the `person` object:
 
 ```js
 const person = {
@@ -47,7 +47,7 @@ The above example will return the following output:
 
 ### Example 2
 
-In this example, the `obj` object has both enumerable and non-enumerable properties. **`Object.getOwnPropertyNames()`** includes both types of properties in the resulting array.
+In this example, the `obj` object has both enumerable and non-enumerable properties. **`Object.getOwnPropertyNames()`** includes both types of properties in the resulting array:
 
 ```js
 const obj = Object.create({}, {
