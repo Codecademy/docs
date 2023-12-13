@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/web-development'
 ---
 
-The **`.ease()`** method is specific to the D3.js library, which is primarily used for data visualization on the web. It allows you to control the timing and pacing of transitions in animations.
+The **`.ease()`** method is specific to the D3.js library, this is primarily used to add an easing effect to a transition. It allows to control the timing and pacing of transitions in animations.
 
 ## Syntax
 
