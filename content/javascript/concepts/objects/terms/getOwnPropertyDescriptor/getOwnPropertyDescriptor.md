@@ -37,7 +37,6 @@ const person = {
 const descriptor = Object.getOwnPropertyDescriptor(person, 'name');
 console.log(descriptor)
 
-// 
 ```
 
 This example results in the following output:
