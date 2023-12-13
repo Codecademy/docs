@@ -23,7 +23,7 @@ Object.getOwnPropertyDescriptor(obj, prop)
 ```
 
 - `obj`: The object where to look for the property.
-- `prop`: The name or Symbol of the property whose description is to be retrieved.
+- `prop`: The name or symbol of the property whose description is to be retrieved.
 
 ## Example
 
