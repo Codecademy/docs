@@ -32,17 +32,15 @@ Included libraries in `kotlinx.serialization` for various serialization formats:
 
  ## Implementation
 
- ```psuedo
- 
+
+ ```pseudo
  @Serializable
  class Project(val name: String, val language: String)
-
  ```
 
-An object is first serialized to its primitive values, then encoded to the desired output format. In Kotlin classes must be explicitly marked `@Serializable`. Below is an example of JSON encoding using `json.encodeToString`.
+An object is first serialized to its primitive values and then encoded to the desired output format. In Kotlin classes must be explicitly marked `@Serializable`. Below is an example of JSON encoding using `json.encodeToString`.
 
 ```kotlin
-
 import kotlinx.serialization.*
 import kotlinx.serialization.json.*
 
@@ -53,7 +51,6 @@ fun main() {
     val data = Project("kotlinx.serialization", "Kotlin")
     println(Json.encodeToString(data))
 }
-
 ```
 
 The output will be:
@@ -79,10 +76,10 @@ fun main() {
 }
 ```
 
-
 The output will be:
+
 ```shell
 Project(name=kotlinx.serialization, language=Kotlin)
 ```
 
-All libraies ,besides JSON serialization, are experimental, for detailed information about serialization formats refer to the [Kotlin Serialization Documents](https://github.com/Kotlin/kotlinx.serialization/blob/master/formats/README.md) and the [Kotlin Serialization Guide](https://github.com/Kotlin/kotlinx.serialization/blob/master/docs/basic-serialization.md#basics)
+All libraries ,besides JSON serialization, are experimental, for detailed information about serialization formats refer to the [Kotlin Serialization Documents](https://github.com/Kotlin/kotlinx.serialization/blob/master/formats/README.md) and the [Kotlin Serialization Guide](https://github.com/Kotlin/kotlinx.serialization/blob/master/docs/basic-serialization.md#basics)
