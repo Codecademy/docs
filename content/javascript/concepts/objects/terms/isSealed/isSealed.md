@@ -23,7 +23,7 @@ Object.isSealed(object_name)
 
 - `object_name`: The name of the object to be checked.
 
-## Example
+## Example 1
 
 The following code will determine if the `fruits` object is sealed or not by using `Object.seal()` and `Object.isSealed()` methods:
 
