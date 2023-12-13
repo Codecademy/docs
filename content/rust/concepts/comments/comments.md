@@ -13,6 +13,7 @@ CatalogContent:
 ---
 
 A **comment** is a line, or few lines, of text that adds extra explanation to the code to ease readability of the code. Any comment will be ignored and not executed by the compiler. In Rust programming, there are two types of comments:
+
 - Line comments
 - Block comments
 
@@ -31,7 +32,7 @@ fn main() {
 
 ## Block comments
 
-Block comments add various lines of comments. The `/*` syntax starts the block of comments, while the `*/` syntax ends the block. 
+Block comments add various lines of comments. The `/*` syntax starts the block of comments, while the `*/` syntax ends the block.
 
 ```rust
 fn main() {
