@@ -17,7 +17,7 @@ CatalogContent:
 
 The method **`.toJSON()`** takes a Date object and returns a string representation of that Date in the [JavaScript date time string format](https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date-time-string-format). This format is as follows:
 
-```
+```shell
 YYYY-MM-DDTHH:mm:ss.sssZ
 ```
 
