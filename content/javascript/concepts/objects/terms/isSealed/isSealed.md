@@ -1,6 +1,6 @@
 ---
 Title: 'Object.isSealed()'
-Description: 'Returns an object that contains the contents of the objects passed.'
+Description: 'Returns true if an object is sealed, and false if that object is not sealed.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
