@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/create-a-back-end-app-with-javascript'
 ---
 
-The **`Object.getPrototypeOf()`** method is a static method that returns the protoype (the value of the internal [[Prototype]] property) of the specified object.
+The **`Object.getPrototypeOf()`** method is a static method that returns the prototype (the value of the internal [[Prototype]] property) of the specified object.
 
 ## Syntax
 
@@ -25,7 +25,7 @@ Object.getPrototypeOf(object_name)
 
 ## Example 1
 
-In the following code, `Object.getPrototypeOf(object_name)` will return the prototype value of `prototype1`, `obj1`, and `fruits`:
+In the following code, `Object.getPrototypeOf()` will return the prototype value of `prototype1`, `obj1`, and `fruits`:
 
 ```js
 const prototype1 = {};
@@ -48,7 +48,7 @@ This will return the following output:
 {}
 ```
 
-> **Note:** In the example: `Object.getPrototypeOf("hello")`; `"hello"` is coerced to an `Object`, therefore this method returns String.prototype or {}.
+> **Note:** In the example: `Object.getPrototypeOf("hello")`; `"hello"` is coerced to an `Object`, therefore this method returns `String.prototype` or {}.
 
 ## Example 2
 
