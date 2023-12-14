@@ -55,7 +55,7 @@ false
 let details = {
   name: 'Jack',
 };
-name.age = 25;
+details.age = 25;
 console.log(Object.hasOwn(details, 'age'));
 console.log(Object.hasOwn(details, 'toString'));
 ```
