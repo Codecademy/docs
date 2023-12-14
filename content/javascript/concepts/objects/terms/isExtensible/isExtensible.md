@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The **`.isExtensible()`** static method returns `true` if the given object can have properties added to it and `false` if the object cannot have properties added to it.
+The **`.isExtensible()`** is a static method that returns `true` if the given object can have properties added to it and `false` if the object cannot have properties added to it.
 
 ## Syntax
 
