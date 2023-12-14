@@ -48,7 +48,14 @@ emojis.forEach(function (emoji) {
 });
 ```
 
-The result of the above code is as follows:
+Keep in mind you must include this `script` in your `html` file in order the example to work:
+
+```js
+<script src="https://d3js.org/d3.v7.min.js"></script>
+```
+
+Finally if you open you're html file in browser & go to console in inspect tool you should see the below output.
+Console Output:
 
 ```shell
     Position of 🍎: 0
