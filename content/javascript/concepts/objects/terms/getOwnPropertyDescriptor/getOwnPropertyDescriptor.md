@@ -1,5 +1,5 @@
 ---
-Title: 'Object.getOwnPropertyDescriptor()' 
+Title: '.getOwnPropertyDescriptor()' 
 Description: 'Enables access to full information of a property.' 
 Subjects: 
   - 'Web Development'
