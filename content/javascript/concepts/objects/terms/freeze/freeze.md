@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/create-a-back-end-app-with-javascript'
 ---
 
-The **`Object.freeze()`** method is used to freeze an object. Freezing an object does not allow new properties to be added to the object and prevents removing or altering the existing properties. `Object.freeze()` preserves the enumerability, configurability, writability, and prototype of the object. It returns the passed object and does not create a frozen copy.
+The **`Object.freeze()`** method is used to freeze an object. Freezing an object does not allow new properties to be added to the object and prevents removing or altering the existing properties. It preserves the enumerability, configurability, writability, and prototype of the object. It returns the passed object and does not create a frozen copy.
 
 ## Syntax
 
