@@ -13,9 +13,9 @@ CatalogContent:
   - 'paths/create-a-back-end-app-with-javascript'
 ---
 
-The **`Object.getOwnPropertySymbols()`** method is a static method that returns an array of all symbol property found directly upon a given object. If the object has no own symbol properties initially, **`Object.getOwnPropertySymbols()`** returns an empty array.
+The **`.getOwnPropertySymbols()`** method is a static method that returns an array of all symbol properties found directly upon a given object. If the object initially has no symbol properties, `.getOwnPropertySymbols()` returns an empty array.
 
-> **Note:** **`Object.getOwnPropertySymbols()`** method itself does not contain the symbol properties of an object and only the string properties.
+> **Note:** `Object.getOwnPropertySymbols()` method itself does not contain the symbol properties of an object and only the string properties.
 
 ## Syntax
 
@@ -24,6 +24,8 @@ Object.getOwnPropertySymbols(object_name)
 ```
 
 - `object_name`: The name of an object whose symbol properties are to be returned.
+
+## Examples
 
 ## Example 1
 
@@ -39,7 +41,7 @@ var Electrical_Devices = {
 console.log(Object.getOwnPropertySymbols(Electrical_Devices));
 ```
 
-This will return the following output:
+The above example will return the following output:
 
 ```shell
 [ Symbol(😊), Symbol(4554tu) ]
@@ -65,7 +67,7 @@ console.log(objectSymbols[0]);
 console.log(Electrical_Devices);
 ```
 
-This will return the following output:
+The above example will return the following output:
 
 ```shell
 2
