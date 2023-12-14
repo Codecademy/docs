@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`Object.getOwnPropertyDescriptor()`** method is a built-in object that enables access to full information about a property and returns a property descriptor of the given property if it exists on the object, otherwise, it returns `undefined`. It only works on its properties directly defined by the object itself, meaning it does not have access to inherited properties from the object's prototype chain.
+The **`.getOwnPropertyDescriptor()`** method is a built-in object that enables access to full information about a property and returns a property descriptor of the given property if it exists on the object, otherwise, it returns **undefined**. It only works on its properties directly defined by the object itself, meaning it does not have access to inherited properties from the object's prototype chain.
 
 ## Syntax
 
