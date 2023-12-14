@@ -4,6 +4,7 @@ Description: 'Returns a boolean value depending on whether a given object can ha
 Subjects:
   - 'Web Development'
   - 'Code Foundations'
+
 Tags:
   - 'Methods'
   - 'Objects'
