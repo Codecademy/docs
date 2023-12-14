@@ -29,7 +29,7 @@ d3.scaleLinear()
 
 ## Example
 
-In the example given below the `scale` will map values within the specified domain to the corresponding range given. The `scale` is set to have a domain from `0` to `100` and range from `0` to `500`. When the values are mapped from the domain passed to the scale, the range produces the output accordingly.
+In the example given below the `scale` will map values within the specified domain to the corresponding range given. The `scale` is set to have a domain from `0` to `100` and range from `0` to `500`. When the values are mapped from the domain passed to the scale, the range produces the output accordingly:
 
 ```js
 const scale = d3.scaleLinear().domain([0, 100]).range([0, 500]);
