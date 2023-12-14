@@ -47,7 +47,7 @@ In the code above, `doubleResult` accepts three arguments `num1`, `num2`, and `c
 
 In the log statements, the `doubleResult()` function is invoked with numbers as first and second arguments. The function `add` or `multiply` is passed as the third argument.
 
-In the above example `douleResult` is called a **higher order function** while `add` and `multiply` are called **callback functions**.
+In the above example `doubleResult` is called a **higher order function** while `add` and `multiply` are called **callback functions**.
 
 ## Codebyte Example
 

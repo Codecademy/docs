@@ -38,3 +38,7 @@ Give the image a grayscale of `20%`:
   filter: grayscale(20%);
 }
 ```
+
+![Comparison between a original image and the image with the grayscale filter](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-filterfunction-grayscale-20%.png)
+
+The first image on the left is the original, and the image on the right has the `grayscale` filter set at `(20%)`.
