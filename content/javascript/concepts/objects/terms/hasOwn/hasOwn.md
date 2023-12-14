@@ -1,7 +1,6 @@
 ---
 Title: '.hasOwn()'
-Description: |
-  'Returns true if the specified property is directly owned by the object. If the property is inherited or doesn't exist, the method returns false'
+Description: 'Returns a boolean value based on whether the specified property is directly owned by the object or not.'
 Subjects:
   - 'Web Development'
   - 'Code Foundations'
@@ -25,20 +24,22 @@ Object.hasOwn(obj, prop)
 - `Obj`: The Javascript object instance to test.
 - `prop`: It is the property on which the check is to be applied.
 
-## Example
-
-### Direct properties
+## Example 1
 
 ```js
 let details = {
   name: 'Jack',
-  age: 20,
   course: 'Javascript Foundation',
 };
 
-console.log(Object.hasOwn(details, 'name'));
-console.log(Object.hasOwn(details, 'course'));
-console.log(Object.hasOwn(details, 'phone number'));
+// Check if 'details' object has its own property named 'name'
+console.log(Object.hasOwn(details, 'name')); //Output: true
+
+// Check if 'details' object has its own property named 'course'
+console.log(Object.hasOwn(details, 'course')); //Output: true
+
+// Check if 'details' object has its own property named 'phone number'
+console.log(Object.hasOwn(details, 'phone number')); //Output: false
 ```
 
 This above example will return the following output:
@@ -49,15 +50,19 @@ true
 false
 ```
 
-### Direct vs Inherited properties
+## Example 2
 
 ```js
 let details = {
   name: 'Jack',
 };
 details.age = 25;
-console.log(Object.hasOwn(details, 'age'));
-console.log(Object.hasOwn(details, 'toString'));
+
+// Check if 'details' object has its own property named 'age'
+console.log(Object.hasOwn(details, 'age'));  //Output: true
+
+// Check if 'details' object has its own property named 'toString'
+console.log(Object.hasOwn(details, 'toString')); //Output: false
 ```
 
 This above example will return the following output
