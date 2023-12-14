@@ -3,6 +3,7 @@ Title: '.isExtensible()'
 Description: 'Returns a boolean value depending on whether a given object can have properties added to it.'
 Subjects:
   - 'Web Development'
+  - 'Code Foundations'
 Tags:
   - 'Methods'
   - 'Objects'
