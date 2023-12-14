@@ -15,13 +15,12 @@ The **`.scaleBand()`** function in D3.js is designed to create a band scale for 
 
 ## Syntax
 
-```javascript
+```pseudo
 d3.scaleBand()
   .domain(inputDomain)
   .range(outputRange)
   .padding(innerPadding)
   .paddingOuter(outerPadding);
-```
 
 - `inputDomain`: An array representing the input domain (categories or discrete values).
 - `outputRange`: An array representing the output range (typically the width of the visualization).
