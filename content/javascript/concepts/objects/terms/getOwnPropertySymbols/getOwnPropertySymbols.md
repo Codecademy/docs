@@ -29,53 +29,59 @@ Object.getOwnPropertySymbols(object_name)
 
 ## Example 1
 
-In the following code, `Object.getOwnPropertySymbols(object_name)` will return an array of all symbol properties that have been found:
+In the following code, `[Symbol('😊')]` and `[Symbol('^O^')]` will create symbol properties for the `Electronic_Devices` object. The `localSymbol` and `globalSymbol` values specify that these symbols are created with the Symbol functions as `Symbol()` and `Symbol.for()` directly within the scope of the `Electronic_Devices` object without any global registration. They are not implying that those symbols are truly global in the sense of being accessible everywhere. `Object.getOwnPropertySymbols(object_name)` will return an array of all symbol properties that have been found:
 
 ```js
-var Electrical_Devices = {
+var Electronic_Devices = {
   group1: ['Fridge', 'Microwave', 'Rice Cooker', 'Washing Machine'],
   //add symbol
   [Symbol('😊')]: 'localSymbol',
-  [Symbol('4554tu')]: 'globalSymbol',
+  [Symbol('^O^')]: 'globalSymbol',
 };
-console.log(Object.getOwnPropertySymbols(Electrical_Devices));
+console.log(Object.getOwnPropertySymbols(Electronic_Devices));
 ```
+
+**`Note`**:  
 
 The above example will return the following output:
 
 ```shell
-[ Symbol(😊), Symbol(4554tu) ]
+[ Symbol(😊), Symbol(^O^) ]
 ```
 
 ## Example 2
 
+In the following code, `Symbol()` and `Symbol.for()` will add symbol properties to the `Electronic_Devices` object. Next, the program will output the `Electronic_Devices` object into the console. Then, the `objectSymbols` variable that is assigned to `Object.getOwnPropertySymbols(object_name)` will be used to return the length of an array of all symbol properties that have been found, the array itself, and the first element in the array:
+
 ```js
-var Electrical_Devices = {
+var Electronic_Devices = {
   group1: ['Fridge', 'Microwave', 'Rice Cooker', 'Washing Machine'],
 };
 var symbol_1 = Symbol('😊');
-var symbol_2 = Symbol.for('b');
+var symbol_2 = Symbol.for('^O^');
 
-Electrical_Devices[symbol_1] = 'localSymbol';
-Electrical_Devices[symbol_2] = 'globalSymbol';
+Electronic_Devices[symbol_1] = 'localSymbol';
+Electronic_Devices[symbol_2] = 'globalSymbol';
 
-var objectSymbols = Object.getOwnPropertySymbols(Electrical_Devices);
+var objectSymbols = Object.getOwnPropertySymbols(Electronic_Devices);
 
-console.log(objectSymbols.length);
+console.log(Electronic_Devices+'\n');
+console.log(objectSymbols.length+'\n');
 console.log(objectSymbols);
 console.log(objectSymbols[0]);
-console.log(Electrical_Devices);
 ```
 
 The above example will return the following output:
 
 ```shell
-2
-[Symbol(😊), Symbol(b)]
-Symbol(😊)
 {
   group1: ['Fridge', 'Microwave', 'Rice Cooker', 'Washing Machine'],
   [Symbol(😊)]: 'localSymbol',
-  [Symbol(b)]: 'globalSymbol'
+  [Symbol(^O^)]: 'globalSymbol'
 }
+
+2
+
+[Symbol(😊), Symbol(^O^)]
+Symbol(😊)
 ```
