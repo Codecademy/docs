@@ -33,14 +33,14 @@ The following codes demonstrate a basic implementation of the `Object.freeze()` 
 In this example, the object `obj2` has been assigned property from object `obj1`, and the properties of `obj1` are frozen therefore new properties and values are prevented from being added to `obj2`:
 
 ```js
-// creating an object constructor and assigning values to it 
-const obj1 = { property1: 'initial_data' }; 
+// creating an object constructor and assigning values to it
+const obj1 = { property1: 'initial_data' };
 
 // creating a second object that will freeze the properties of the first object
-const obj2 = Object.freeze(obj1); 
+const obj2 = Object.freeze(obj1);
 
-// Updating the properties of the frozen object 
-obj2.property1 = 'new_data';  
+// Updating the properties of the frozen object
+obj2.property1 = 'new_data';
 console.log(obj2.property1);
 ```
 
@@ -55,23 +55,23 @@ initial_data
 In this example, the object `obj` has been assigned `prop: function` which has been later deleted since the object `obj` wasn’t frozen. After that, a new object `o` has been assigned the frozen values of `obj` which prevented it from further updations:
 
 ```js
-// creating an object constructor and assigning values to it 
-let obj = { prop: function () { }, name: 'adam' }; 
-console.log(obj); 
+// creating an object constructor and assigning values to it
+let obj = { prop: function () {}, name: 'adam' };
+console.log(obj);
 
-// Updating the properties of the object 
-obj.name = 'billy'; 
-delete obj.prop; 
-console.log(obj); 
+// Updating the properties of the object
+obj.name = 'billy';
+delete obj.prop;
+console.log(obj);
 
-// Freezing the object using object.freeze() method 
-let o = Object.freeze(obj); 
+// Freezing the object using object.freeze() method
+let o = Object.freeze(obj);
 
-// Updating the properties of the frozen object 
-obj.name = 'chris'; 
+// Updating the properties of the frozen object
+obj.name = 'chris';
 console.log(obj);
 ```
-  
+
 The above code snippet will return the following output:
 
 ```shell
