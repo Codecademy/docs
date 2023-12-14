@@ -50,7 +50,7 @@ false
 
 ## Codebyte Example
 
-Following is a runnable example that demonstrates the `Object.isExtensible()` static method.
+Following is a runnable example that demonstrates the `Object.isExtensible()` static method:
 
 ```codebyte/javascript
 const lotrCharacters = {
