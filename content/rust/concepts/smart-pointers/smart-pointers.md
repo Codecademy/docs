@@ -53,6 +53,8 @@ let mutable_data = RefCell::new(42);
 
 ### Illustrating Dynamic Memory Allocation with Box&lt;T&gt;
 
+This code snippet demonstrates the concept of heap allocation in Rust. It creates an integer (stack_data) on the stack with the value 10. Then, it uses the Box::new function to allocate memory on the heap and move the stack_data onto the heap. 
+
 ```rust
 fn main() {
   let stack_data = 10;
@@ -68,6 +70,8 @@ Heap Data = 10
 ```
 
 ### Shared Ownership with Rc&lt;T&gt; in Rust
+
+This code snippet demonstrates the use of reference counting (Rc) to manage shared ownership of a tree-like structure. It creates a simple binary tree (Tree enum) with nodes and leaves. The Rc::new function is used to create reference-counted pointers to share ownership of parts of the tree. The Rc::strong_count function is used to count the number of strong references to the first_tree.
 
 ```rust
 use std::rc::Rc;
@@ -106,6 +110,8 @@ The count after third_tree goes out of scope is 2
 ```
 
 ### Exploring Dynamic Borrowing in Rust: RefCell&lt;T&gt; (Ref&lt;T&gt; and RefMut&lt;T&gt;)
+
+This code snippet showcases the use of RefCell for interior mutability. It creates a mutable cell (RefCell) containing an integer with an initial value of 42. The RefCell::borrow_mut method is used to obtain a mutable borrow of the data, allowing the value to be updated. Finally, it borrows the data immutably to print its updated value.
 
 ```rust
 use std::cell::RefCell;
