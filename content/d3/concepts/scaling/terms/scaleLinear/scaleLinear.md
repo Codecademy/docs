@@ -10,7 +10,7 @@ Tags:
   - 'Graphs'
 CatalogContent:
   - 'learn-d3'
-  - 'paths/computer-science'
+  - 'paths/data-science'
 ---
 
 The **`.scaleLinear()`** method is used to construct a new linear scale by specifying its domain and range. This scale is particularly useful for linearly mapping input values with a specified [domain](https://www.codecademy.com/resources/docs/d3/scaling/domain) to corresponding output values in a defined [range](https://www.codecademy.com/resources/docs/d3/scaling/range). The syntax for the `.scaleLinear()` involves specifying the input domain and the corresponding output range.
