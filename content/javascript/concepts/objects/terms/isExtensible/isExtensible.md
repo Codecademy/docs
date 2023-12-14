@@ -25,7 +25,7 @@ Objects are extensible by default. An object can be made non-extensible by using
 
 ## Example
 
-Checking if an object is extensible.
+Checking if an object is extensible using the `.isExtensible()` method:
 
 ```js
 const characters = {
