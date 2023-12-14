@@ -18,8 +18,8 @@ The **`.text()`** method in D3 is used to set text content for any selected elem
 ## Syntax
 
 ```pseudo
-d3.selection("element")                 
-  .text("Your text content goes here");                                                
+d3.selection("element")
+  .text("Your text content goes here");
 ```
 
 - `selection("element")`: This selects an element on a web page. The `element` refers to a specific part of the webpage, like a heading or a paragraph.
@@ -30,9 +30,9 @@ d3.selection("element")
 In the example given below the `.select('h1')` method will select the `h1` html tag element in the document and `.text('Big Header')` will change the content of the `h1` to `Big Header`. This manipulation is done in the DOM and can be very useful in data visualization and updating element content when working on a dynamic application. The `.text()` method can also be used to retrieve the content of a selected element as seen in the example below:
 
 ```js
-d3.select('h2').text('Big Header'); 
+d3.select('h2').text('Big Header');
 let outPut = d3.select('h2').text();
-console.log(outPut); 
+console.log(outPut);
 ```
 
 The above example will give the following output:
