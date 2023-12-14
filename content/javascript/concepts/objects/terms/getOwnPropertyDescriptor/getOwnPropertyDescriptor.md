@@ -44,4 +44,4 @@ This example results in the following output:
 { value: 'Jane', writable: true, enumerable: true, configurable: true }
 ```
 
-> **Note:** Object.getOwnPropertyDescriptor() method only works for an individual property of an object
+> **Note:** `Object.getOwnPropertyDescriptor()` method only works for an individual property of an object.
