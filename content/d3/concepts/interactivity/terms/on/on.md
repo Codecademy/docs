@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-In **D3.js**, the **d3.selection.on()** function is used to add a specific event handler to an element. An event can be any Document Object Model (DOM) event type such as `click`, `zoom`, `mouseenter`, `mouseleave`, `mouseover`, `mouseout` and `mousemove`.
+In **D3.js**, the **d3.selection.on()** function is used to add a specific event handler to an element. An event can be any Document Object Model (DOM) event type such as `click`, `zoom`, `mouseenter`, `mouseleave`, `mouseover`, `mouseout`, and `mousemove`.
 
 ## Syntax
 
