@@ -54,7 +54,7 @@ const meleeDay = new Date('2001-11-21');
 console.log(meleeDay.toJSON());
 ```
 
-This outputs:
+The above example will give the following output:
 
 ```shell
 2001-11-21T00:00:00.000Z
