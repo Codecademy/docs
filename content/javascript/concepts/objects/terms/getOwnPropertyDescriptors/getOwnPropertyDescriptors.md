@@ -30,7 +30,7 @@ The following codes demonstrate a basic implementation of the `Object.getOwnProp
 
 ### Example 1
 
-In this example, Object.getOwnPropertyDescriptors() returns an object where each key is a property name, and the corresponding value is the property descriptor for that property.
+In this example, `Object.getOwnPropertyDescriptors()` returns an object where each key is a property name, and the corresponding value is the property descriptor for that property.
 
 ```js
 const obj = {
