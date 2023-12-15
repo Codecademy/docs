@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/create-a-back-end-app-with-javascript'
 ---
 
-The **`Object.getOwnPropertyDescriptors()`** method returns all own property descriptors of a given object. It is useful for extracting property descriptors, including configurable, enumerable, value, and writable properties, from an object.manipulation.
+The **`Object.getOwnPropertyDescriptors()`** method returns all own property descriptors of a given object. It is useful for extracting property descriptors, including configurable, enumerable, value, and writable properties, allowing manipulation of these property attributes from an object.
 
 ## Syntax
 
