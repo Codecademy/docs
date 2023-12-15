@@ -22,7 +22,7 @@ The **`Object.getOwnPropertyDescriptors()`** method returns all own property des
 Object.getOwnPropertyDescriptors(obj)
 ```
 
-`obj` is the given obeject.
+- `obj`: It is the given object.
 
 ## Examples
 
