@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The **`.getOwnPropertyNames()`** method returns all properties that are present in a given object `obj` except for those symbol-based non-enumerable properties.
+The **`.getOwnPropertyNames()`** method returns all properties that are present in a given object except for those symbol-based non-enumerable properties.
 
 ## Syntax
 
