@@ -45,7 +45,7 @@ public class Example {
     // Printing last 5 characters of blurb
     System.out.println(blurb.substring(blurb.length() - 5));
     // Printing first 4 characters of blurb
-    System.out.println(blurb.substring(0, 5));
+    System.out.println(blurb.substring(0, 4));
   }
 }
 ```

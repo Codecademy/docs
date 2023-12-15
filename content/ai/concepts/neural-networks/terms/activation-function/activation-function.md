@@ -23,7 +23,7 @@ There are a number of different types of activation functions that can be used:
 
 - **Linear**: The node returns what was provided as input, also known as the "identity" function.
 - **Binary Step**: The node either provides an output or not, depending on some threshold applied to the input.
-- **Sigmoid**: Takes the input and returns a value between 0 and 1. The more positive (larger) the input, the closer the value is to 1. The more negative (smaller) the input, the closer the value is to 0.
+- **[Sigmoid](https://www.codecademy.com/resources/docs/ai/neural-networks/sigmoid-activation-function)**: Takes the input and returns a value between 0 and 1. The more positive (larger) the input, the closer the value is to 1. The more negative (smaller) the input, the closer the value is to 0.
 - **Tanh**: Like the sigmoid function but produces values between -1 and 1.
 - **Gaussian**: Takes the input and distributes it in a bell curve with values between 0 and 1.
 - **ReLU (Rectified Linear Unit)**: Represents the positive part of the input, returning 0 for values less than 0, and behaving like a linear function for positive values.

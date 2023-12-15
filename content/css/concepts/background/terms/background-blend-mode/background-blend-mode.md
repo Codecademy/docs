@@ -41,6 +41,10 @@ body {
 }
 ```
 
+The following image demonstrates the code block above:
+
+![background-blend-mode example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-blend-mode-example1.png)
+
 ## Example 2
 
 At each pixel, show whichever is lighter between the background image and the background color:
@@ -53,6 +57,10 @@ body {
 }
 ```
 
+The following image demonstrates the code block above:
+
+![background-blend-mode example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-blend-mode-example2.png)
+
 ## Example 3
 
 At each pixel, show whichever is darker between the background image and the background color:
@@ -64,3 +72,7 @@ body {
   background-blend-mode: darken;
 }
 ```
+
+The following image demonstrates the code block above:
+
+![background-blend-mode example 3](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-blend-mode-example3.png)

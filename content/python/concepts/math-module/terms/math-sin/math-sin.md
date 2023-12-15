@@ -43,3 +43,17 @@ print(math.sin(5.5))
 
 # Output: -0.7055403255703919
 ```
+
+## Codebyte Example
+
+The following code is runnable and returns the sine of different values:
+
+```codebyte/py
+import math
+
+print (math.sin(0.00))
+print (math.sin(-13.23))
+print (math.sin(13.23))
+print (math.sin(10))
+print (math.sin(math.pi/2))
+```

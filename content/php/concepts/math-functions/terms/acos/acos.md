@@ -42,6 +42,6 @@ The `acos()` function returns the arc cosine of the given number as a float valu
 
 ```codebyte/php
 <?php
-  echo(acos(-0.4) . "<br>");
+  echo(acos(-0.4) . " Radians");
 ?>
 ```

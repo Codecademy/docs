@@ -1,1 +1,1 @@
-content/java/concepts/math-methods/math-methods.md
+content/general/concepts/http/http.md

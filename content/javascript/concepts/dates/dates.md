@@ -49,7 +49,7 @@ With regard to ISO dates:
 
 - It is the only format that is strictly enforced while the others may vary in functionality depending on the browser.
 - "YYYY-MM-DD" or "YYYY/MM/DD" is the preferred format.
-- In the output, the `T` separates the the date from the time while the `Z` represents the UTC timezone.
+- In the output, the `T` separates the date from the time while the `Z` represents the UTC timezone.
 - Existing dates can be converted to ISO with the [`.toISOString()`](https://www.codecademy.com/resources/docs/javascript/dates/toISOString) method.
 
 With regard to short dates:

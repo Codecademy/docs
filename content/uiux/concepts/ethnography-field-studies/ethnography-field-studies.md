@@ -6,6 +6,7 @@ Subjects:
 Tags:
   - 'UI'
   - 'UX'
+  - 'Design'
 CatalogContent:
   - 'intro-to-ui-ux'
   - 'paths/front-end-engineer-career-path'
@@ -34,5 +35,5 @@ Researchers should also consider the ethics of whether to disclose their identit
 
 - [User Interviews: Ethnography](https://www.userinterviews.com/ux-research-field-guide-chapter/ethnography)
 - [UX Planet: Ethnography and User Research](https://uxplanet.org/ethnography-and-user-research-a59820d8f595)
-- [UserZoom: What is an ethnographic study?](https://www.userzoom.com/ux-library/what-is-an-ethnographic-study/)
+- [UserZoom: What is an ethnographic study?](https://www.usertesting.com/blog/enthographic-study)
 - [Nielsen Norman Group: Field Studies](https://www.nngroup.com/articles/field-studies/)

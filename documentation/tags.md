@@ -5,6 +5,7 @@ Tags in Docs are used for recommending related entries and for the home page sea
 Feel free to add suggestions for new tags to the list as part of your PR! Be sure to insert them alphabetically.
 
 ```
+Abstraction
 Accessibility
 AI
 Algorithms
@@ -19,6 +20,7 @@ Arguments
 Arithmetic
 Arrays
 ASP.NET
+Assert
 Assignment
 Asymptotic Notation
 Async Await
@@ -46,6 +48,7 @@ Browser Compatibility
 Browsers
 Bubble Sort
 Buttons
+Calendar
 Catch
 Characters
 Chatbots
@@ -72,6 +75,7 @@ Constructors
 Continue
 Control Flow
 CRUD
+CSS
 CSV
 Cybersecurity
 D3
@@ -83,7 +87,9 @@ Date
 Debugging
 Decorators
 Deep Learning
+Denoising
 Dependency
+Design
 Developer Tools
 Development
 DFS
@@ -116,6 +122,7 @@ Events
 Exceptions
 Expo
 Express
+Extensions
 Favicon
 Files
 Filter
@@ -134,6 +141,7 @@ Frameworks
 Functions
 Functional Programming
 Functors
+Generics
 Geometry
 Ggplot2
 Git
@@ -156,18 +164,23 @@ Id
 IDE
 If
 Images
+Image Generation Model
 Index
+Information Technology
 Infrastructure
 Inheritance
 Input
+Instant
 Integers
 Interface
 iOS
 Iterators
 Join
 jQuery
+JRuby
 JSON
 JSK
+Justice
 K-Nearest Neighbors
 Kotlin
 Kubernetes
@@ -212,6 +225,7 @@ NumPy
 Objects
 Obsolete
 OOP
+Opacity
 Open Source
 Operating Systems
 Operators
@@ -231,11 +245,13 @@ Pointers
 Positioning
 PostgreSQL
 Precedence
+Preprocessor
 Primary Key
 Print
 Probability
 Promise
 Properties
+Protocols
 Queries
 Queues
 Quicksort
@@ -276,6 +292,7 @@ SQL Server
 Stacks
 Static Site
 Statistics
+Storage
 Stringr
 Strings
 Structure
@@ -293,6 +310,7 @@ Target
 Technical Interviews
 Templates
 TensorFlow
+Text-To-Image
 Tidyr
 Time
 Title

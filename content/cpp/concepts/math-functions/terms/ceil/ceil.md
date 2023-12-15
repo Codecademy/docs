@@ -23,9 +23,38 @@ Argument must be a `double`/`float`/`long double`, and the return value will be 
 
 ## Example
 
-Use `ceil()` function to round up the double `12.3456`:
+Use `ceil()` to round up some math constants:
 
 ```cpp
+#include <iostream>
+#include <cmath>
+
+int main() {
+  double pi = M_PI;
+  double e = M_E
+  double a;
+  double b;
+
+  a = std::ceil(pi);
+  b = std::ceil(e);
+
+  std::cout << "Pi rounded up is " << a << "!\n";
+  std::cout << "e rounded up is " << b << "!\n";
+}
+```
+
+This results in the following output:
+
+```shell
+Pi rounded up is 4!
+e rounded up is 3!
+```
+
+## Codebyte Example
+
+Use `ceil()` function to round up the double `12.3456`:
+
+```codebyte/cpp
 #include <iostream>
 #include <cmath>
 
@@ -36,6 +65,5 @@ int main() {
   result = std::ceil(n);
 
   std::cout << "The result is " << result << "!\n";
-  // Output: The result is 13!
 }
 ```

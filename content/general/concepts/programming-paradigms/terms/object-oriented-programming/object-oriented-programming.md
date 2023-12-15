@@ -1,6 +1,6 @@
 ---
 Title: 'Object-Oriented Programming'
-Description: 'Object-oriented programming (OOP) is a software development paradigm which encourages scultping desired entities with properties and methods in named classes to create applications.'
+Description: 'Object-oriented programming (OOP) is a software development paradigm which encourages sculpting desired entities with properties and methods in named classes to create applications.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
