@@ -23,7 +23,7 @@ Object.getOwnPropertyDescriptors(obj)
 ```
 
 - `obj`: It is the given object.
-- 
+
 The following codes demonstrate a basic implementation of the `Object.getOwnPropertyDescriptors()` method:
 
 ## Example 1
