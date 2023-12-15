@@ -1,5 +1,5 @@
 ---
-Title: 'Kadane's Algorithm'
+Title: "Kadane's Algorithm"
 Description: 'Returns the maximum sum of a subarray within an array of numbers'
 Subjects:
   - 'Computer Science'
