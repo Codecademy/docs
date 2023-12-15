@@ -1,5 +1,5 @@
 ---
-Title: 'selectAll()'
+Title: '.selectAll()'
 Description: 'A brief definition and examples of using selectAll()'
 Subjects: 
   - 'Data Visualization'
@@ -24,7 +24,7 @@ d3.selectAll(item)
 
 ## Examples
 
-This code selects all paragraph elements within the document.
+The following code selects all paragraph elements within the document using the `.selectAll()` method.
 
 ```js
 const p = d3.selectAll("p")
