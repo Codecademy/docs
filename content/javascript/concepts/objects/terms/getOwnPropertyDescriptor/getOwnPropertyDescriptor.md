@@ -1,13 +1,13 @@
 ---
-Title: '.getOwnPropertyDescriptor()' 
-Description: 'Enables access to full information of a property.' 
-Subjects: 
+Title: '.getOwnPropertyDescriptor()'
+Description: 'Enables access to full information of a property.'
+Subjects:
   - 'Web Development'
-  - 'Computer Science'  
-Tags: 
+  - 'Computer Science'
+Tags:
   - 'Objects'
-  - 'Methods'  
-CatalogContent: 
+  - 'Methods'
+CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
