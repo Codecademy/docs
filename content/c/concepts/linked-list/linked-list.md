@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **`Linked List`** is a data structure that contains a collection of `nodes` that together with the help of pointers, display a sequence. There are a number of list types, we will cover four of the most common with examples in the [C language](https://www.codecademy.com/resources/docs/c).
+A **`Linked List`** is a data structure that contains a collection of `nodes` that together with the help of pointers, display a sequence. There are several list types, we will cover four of the most common with examples in the [C language](https://www.codecademy.com/resources/docs/c).
 
 ## Syntax
 
@@ -50,7 +50,7 @@ int main(){
 
 ## Example
 
-The following C code showcases the creation and traversal of a linked list, which is comprised of a series of nodes with integer values of 10, 20 and 30. The nodes are connected continuously from head to tail displaying the elements of the linked list.
+The following C code showcases the creation and traversal of a linked list, which is comprised of a series of nodes with integer values of 10, 20, and 30. The nodes are connected continuously from head to tail displaying the elements of the linked list.
 
 ```c
 #include <stdio.h>
@@ -82,10 +82,10 @@ int main()
   middle->next = last;
   last->next   = NULL;
 
-  //temp is a reference for head pointer.
+  //temp is a reference for the head pointer.
   struct node *temp = head;
 
-  //till the node becomes null, printing each nodes data
+  //till the node becomes null, printing each node's data
   while(temp != NULL)
   {
       printf("%d->",temp->data);
@@ -97,9 +97,9 @@ int main()
 }
 ```
 
-### Singly linked lists
+### Singly-linked lists
 
-A `singly linked` list is a collection of data called `nodes`, where each `node` is divided into two parts to store `data` and `address` at some random addresses. The pointer next, points to the address of the next `node` in a list.
+A `singly linked` list is a collection of data called `nodes`, where each `node` is divided into two parts to store `data` and `address` at some random addresses. The pointer next points to the address of the next `node` in a list.
 
 ```c
 #include <stdio.h>
