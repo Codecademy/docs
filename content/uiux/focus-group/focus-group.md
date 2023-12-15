@@ -32,15 +32,15 @@ The **UI/UX Focus Group** is a powerful method in the realm of Human-Computer In
 
 A typical UI/UX focus group involves:
 
-1. **Selection of Participants:** Carefully select a diverse group of participants representing the target user demographic.
+- **Selection of Participants:** Carefully select a diverse group of participants representing the target user demographic.
   
-2. **Preparation of Materials:** Prepare prototypes, wireframes, or design concepts for participants to evaluate.
+- **Preparation of Materials:** Prepare prototypes, wireframes, or design concepts for participants to evaluate.
 
-3. **Facilitation:** A skilled facilitator guides the discussion, encouraging participants to express their thoughts, opinions, and concerns.
+- **Facilitation:** A skilled facilitator guides the discussion, encouraging participants to express their thoughts, opinions, and concerns.
 
-4. **Observation:** Designers and stakeholders observe the session, taking notes on participant reactions and comments.
+- **Observation:** Designers and stakeholders observe the session, taking notes on participant reactions and comments.
 
-5. **Post-Session Analysis:** Analyze the collected data to derive actionable insights for design improvements.
+- **Post-Session Analysis:** Analyze the collected data to derive actionable insights for design improvements.
 
 ## Best Practices
 
