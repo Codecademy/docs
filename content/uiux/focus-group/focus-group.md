@@ -8,7 +8,7 @@ Subjects:
 Tags:
   - 'Methods'
   - 'UI'
-  - 'Design Thinking'
+  - 'UX'
 CatalogContent:
   - 'learn-ux-design'
   - 'paths/human-computer-interaction'
