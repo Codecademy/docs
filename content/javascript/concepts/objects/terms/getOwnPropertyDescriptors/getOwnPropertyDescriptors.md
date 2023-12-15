@@ -1,5 +1,5 @@
 ---
-Title: 'Object.getOwnPropertyDescriptors()'
+Title: '.getOwnPropertyDescriptors()'
 Description: 'Returns all own property descriptors of a given object.'
 Subjects:
   - 'Web Development'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/create-a-back-end-app-with-javascript'
 ---
 
-The **`Object.getOwnPropertyDescriptors()`** method returns all own property descriptors of a given object. It is useful for extracting property descriptors, including configurable, enumerable, value, and writable properties, allowing manipulation of these property attributes from an object.
+The **`.getOwnPropertyDescriptors()`** method returns all own property descriptors of a given object. It is useful for extracting property descriptors, including configurable, enumerable, value, and writable properties, allowing manipulation of these property attributes from an object.
 
 ## Syntax
 
@@ -24,11 +24,11 @@ Object.getOwnPropertyDescriptors(obj)
 
 - `obj`: It is the given object.
 
-The following codes demonstrate a basic implementation of the `Object.getOwnPropertyDescriptors()` method:
+## Examples
 
-## Example 1
+### Example 1
 
-In this example, `Object.getOwnPropertyDescriptors()` returns an object where each key is a property name, and the corresponding value is the property descriptor for that property.
+In this example, `Object.getOwnPropertyDescriptors()` returns an object where each key is a property name, and the corresponding value is the property descriptor for that property:
 
 ```js
 const obj = {
@@ -49,9 +49,9 @@ The above code snippet will return the following output:
 }
 ```
 
-## Example 2
+### Example 2
 
-In this example, `clonedObject` is a new object with the same property descriptors as `originalObject`. `getOwnPropertyDescriptors` ensures that the cloned object has the same property attributes, including configurability and enumerability.
+In this example, `clonedObject` is a new object with the same property descriptors as `originalObject`. `getOwnPropertyDescriptors` ensures that the cloned object has the same property attributes, including reconfigurability and enumerability.
 
 ```js
 const originalObject = {
