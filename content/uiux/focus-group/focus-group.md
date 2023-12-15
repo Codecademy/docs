@@ -30,7 +30,7 @@ The **UI/UX Focus Group** is a powerful method in the realm of Human-Computer In
 
 ## Structure
 
-A typical UI/UX focus group involves:
+A typical **UI/UX focus group** involves:
 
 - **Selection of Participants:** Carefully select a diverse group of participants representing the target user demographic.
   
