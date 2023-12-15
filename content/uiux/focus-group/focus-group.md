@@ -2,9 +2,7 @@
 Title: 'UI/UX Focus Group'
 Description: 'A comprehensive guide to conducting and leveraging UI/UX focus groups for user-centered design.'
 Subjects:
-  - 'Human-Computer Interaction'
-  - 'User Experience Design'
-  - 'User Interface Design'
+  - 'Web Design'
 Tags:
   - 'Methods'
   - 'UI'
