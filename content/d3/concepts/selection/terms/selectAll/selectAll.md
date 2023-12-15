@@ -7,8 +7,6 @@ Subjects:
 Tags:
   - 'D3'
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
   - 'learn-d3' 
   - 'paths/data-science'
 ---
