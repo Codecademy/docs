@@ -1,5 +1,5 @@
 ---
-Title: '.getOwnPropertyDescriptors'
+Title: 'Object.getOwnPropertyDescriptors()'
 Description: 'returns all own property descriptors of a given object'
 Subjects:
   - 'Web Development'
