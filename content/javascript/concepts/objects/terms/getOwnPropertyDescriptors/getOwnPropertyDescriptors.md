@@ -23,12 +23,10 @@ Object.getOwnPropertyDescriptors(obj)
 ```
 
 - `obj`: It is the given object.
-
-## Examples
-
+- 
 The following codes demonstrate a basic implementation of the `Object.getOwnPropertyDescriptors()` method:
 
-### Example 1
+## Example 1
 
 In this example, `Object.getOwnPropertyDescriptors()` returns an object where each key is a property name, and the corresponding value is the property descriptor for that property.
 
@@ -51,7 +49,7 @@ The above code snippet will return the following output:
 }
 ```
 
-### Example 2
+## Example 2
 
 In this example, `clonedObject` is a new object with the same property descriptors as `originalObject`. `getOwnPropertyDescriptors` ensures that the cloned object has the same property attributes, including configurability and enumerability.
 
