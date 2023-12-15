@@ -19,9 +19,13 @@ The **UI/UX Focus Group** is a powerful method in the realm of Human-Computer In
 ## Purpose
 
 - **Understand User Perspectives:** Gain a deeper understanding of how users interact with a product or service.
+
 - **Collect Feedback:** Obtain direct feedback on design elements, usability, and overall user experience.
+
 - **Identify Pain Points:** Identify pain points and challenges users may face during interaction.
+
 - **Generate Ideas:** Stimulate creative thinking and generate new design ideas.
+
 - **Validate Design Decisions:** Validate design decisions through user opinions and preferences.
 
 ## Structure
