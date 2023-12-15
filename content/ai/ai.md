@@ -33,4 +33,4 @@ Following this period, the field of AI experienced lulls and bursts of progress 
 
 ## Ethics
 
-The ethical implications of artificial intelligence have been explored in philosophy, industry, and culture. Current leaders in AI research with ethics in mind often follow charters that promote inclusion and safety for humanity.
+As AI continues to develop and impact more areas of society, it is important for users and especially developers of AI to consider the ethical ramifications of AI growth. AI ethics is discussed in further detail in the pages below.
