@@ -7,7 +7,7 @@ Subjects:
   - 'User Interface Design'
 Tags:
   - 'Methods'
-  - 'User Research'
+  - 'UI'
   - 'Design Thinking'
 CatalogContent:
   - 'learn-ux-design'
