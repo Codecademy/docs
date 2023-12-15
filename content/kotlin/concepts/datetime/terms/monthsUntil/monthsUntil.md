@@ -12,7 +12,6 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-
 The **`.monthsUntil()`** method calculates the number of whole months between two instants and returns the result as an `Int`. If the number of months is too large to fit within the bounds of the `Int` datatype, the method will return `Int.MAX_VALUE` if the result is positive or `Int.MIN_VALUE` if the result is negative.
 
 ## Syntax
