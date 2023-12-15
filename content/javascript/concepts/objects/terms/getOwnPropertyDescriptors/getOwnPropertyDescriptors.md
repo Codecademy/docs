@@ -39,7 +39,6 @@ const obj = {
 };
 
 const propertyDescriptors = Object.getOwnPropertyDescriptors(obj);
-
 console.log(propertyDescriptors);
 ```
 
