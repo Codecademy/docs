@@ -39,7 +39,7 @@ Object.freeze(avgAnnualTemps);
 console.log(Object.isFrozen(avgAnnualTemps));
 ```
 
-The output would be:
+The above example will give the following output:
 
 ```shell
 false
