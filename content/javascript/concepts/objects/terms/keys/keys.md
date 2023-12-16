@@ -36,7 +36,8 @@ const myObject = {
 const keysArray = Object.keys(myObject);
 console.log(keysArray);
 ```
-### Output:
+
+The above example will give the following output:
 
 ```pseudo
   ['name', 'age', 'city']
