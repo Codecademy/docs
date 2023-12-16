@@ -13,7 +13,8 @@ CatalogContent:
   - 'paths/create-a-back-end-app-with-javascript'
 ---
 
-The **`Object.isSealed()`** method is used to determine if an object is sealed. An object is sealed if it is not extensible and if all its properties are non-configurable and therefore not removable (but not necessarily non-writable).
+The **`Object.isSealed()`** method is used to check if an object is sealed. An object is sealed when it is non-extensible, and all of its properties are non-configurable.
+
 
 ## Syntax
 
