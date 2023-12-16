@@ -1,6 +1,6 @@
 ---
 Title: ‘Rust Threads’
-Description: ‘Threads allow parts of a program to run concurrently.’
+Description: ‘Threads allow parts of a program to run concurrently’
 Subjects:
   - 'Computer Science'
 Tags:
@@ -21,21 +21,21 @@ use std::thread;
 use std::time::Duration;
 
 fn main() {
-    thread::spawn(|| {
-        for i in 1..10 {
-            println!("Spawned thread {}", i);
-            thread::sleep(Duration::from_millis(3));
-        }
-    });
+  thread::spawn(|| {
+    for i in 1..10 {
+        println!("Spawned thread {}", i);
+        thread::sleep(Duration::from_millis(3));
+      }
+  });
 
-    for i in 1..4 {
-        println!("Main thread {}", i);
-        thread::sleep(Duration::from_millis(1));
-    }
+  for i in 1..4 {
+    println!("Main thread {}", i);
+    thread::sleep(Duration::from_millis(1));
+  }
 }
 ```
 
-The output is as follows:
+The above example will give the following output:
 
 ```shell
 Main thread 1
@@ -100,20 +100,18 @@ Notice that the spawned threads reach 9 this time, even though the main thread h
 
 ## Using `move` Closures with Threads
 
-Passing in the `move` keyword into the `thread::spawn()` function enables the safe transfer of ownership of a variable from one thread to another.
-
-Consider the following example without using the `move` keyword:
+Passing in the `move` keyword into the `thread::spawn()` function enables the safe transfer of ownership of a variable from one thread to another. Consider the following example without using the `move` keyword:
 
 ```rust
 use std::thread;
 
 fn main() {
-    let greeting = String::from("hello");
-    let handle = thread::spawn(|| {
-        println!("{}", greeting);
-    });
+  let greeting = String::from("hello");
+  let handle = thread::spawn(|| {
+    println!("{}", greeting);
+  });
 
-    handle.join().unwrap();
+  handle.join().unwrap();
 }
 ```
 
@@ -130,24 +128,22 @@ error[E0373]: closure may outlive the current function, but it borrows `greeting
   |
 ```
 
-Rust will attempt to borrow `greeting` into the spawned thread, but it cannot guarantee how long the spawned thread will run for. Rust’s borrowing rules do not allow a thread to outlive the data it is borrowing potentially.
-
-To solve this issue, pass in the `move` keyword as shown in the example below:
+Rust will attempt to borrow `greeting` into the spawned thread, but it cannot guarantee how long the spawned thread will run for. Rust’s borrowing rules do not allow a thread to outlive the data it is borrowing potentially. To solve this issue, pass in the `move` keyword as shown in the example below:
 
 ```rust
 use std::thread;
 
 fn main() {
-    let greeting = String::from("hello");
-    let handle = thread::spawn(move || {
-        println!("{}", greeting);
-    });
+  let greeting = String::from("hello");
+  let handle = thread::spawn(move || {
+    println!("{}", greeting);
+  });
 
-    handle.join().unwrap();
+  handle.join().unwrap();
 }
 ```
 
-The output is as follows:
+The above example will give the following output:
 
 ```shell
 hello
