@@ -1,6 +1,6 @@
 ---
 Title: '.scaleLinear()'
-Description: 'Used to create a linear scale.'
+Description: 'Used to create a linear scale between a domain and a range.'
 Subjects:
   - 'Data Visualization'
   - 'Data Science'
