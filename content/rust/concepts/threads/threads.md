@@ -23,9 +23,9 @@ use std::time::Duration;
 fn main() {
   thread::spawn(|| {
     for i in 1..10 {
-        println!("Spawned thread {}", i);
-        thread::sleep(Duration::from_millis(3));
-      }
+      println!("Spawned thread {}", i);
+      thread::sleep(Duration::from_millis(3));
+    }
   });
 
   for i in 1..4 {
@@ -63,19 +63,19 @@ use std::thread;
 use std::time::Duration;
 
 fn main() {
-    let join_handle = thread::spawn(|| {
-        for i in 1..10 {
-            println!("Spawned thread {}", i);
-            thread::sleep(Duration::from_millis(3));
-        }
-    });
-
-    for i in 1..4 {
-        println!("Main thread {}", i);
-        thread::sleep(Duration::from_millis(1));
+  let join_handle = thread::spawn(|| {
+    for i in 1..10 {
+      println!("Spawned thread {}", i);
+      thread::sleep(Duration::from_millis(3));
     }
+});
 
-    join_handle.join().unwrap();
+  for i in 1..4 {
+    println!("Main thread {}", i);
+    thread::sleep(Duration::from_millis(1));
+  }
+
+  join_handle.join().unwrap();
 }
 ```
 
