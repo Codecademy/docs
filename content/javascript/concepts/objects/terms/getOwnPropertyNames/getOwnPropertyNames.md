@@ -20,6 +20,7 @@ The **`.getOwnPropertyNames()`** method returns all properties that are present 
 ```pseudo
 Object.getOwnPropertyNames(obj)
 ```
+
 - `obj`: This parameter holds the object whose enumerable and non-enumerable properties are to be returned.
 
 ## Examples
@@ -32,7 +33,7 @@ In this example, **`Object.getOwnPropertyNames()`** returns an array containing 
 const person = {
   firstName: 'Jane',
   lastName: 'Doe',
-  age: 40
+  age: 40,
 };
 
 const propertyNames = Object.getOwnPropertyNames(person);
@@ -50,16 +51,19 @@ The above example will return the following output:
 In this example, the `obj` object has both enumerable and non-enumerable properties. **`Object.getOwnPropertyNames()`** includes both types of properties in the resulting array:
 
 ```js
-const obj = Object.create({}, {
-  nonEnumerableProp: {
-    value: 'I am non-enumerable',
-    enumerable: false
-  },
-  enumerableProp: {
-    value: 'I am enumerable',
-    enumerable: true
+const obj = Object.create(
+  {},
+  {
+    nonEnumerableProp: {
+      value: 'I am non-enumerable',
+      enumerable: false,
+    },
+    enumerableProp: {
+      value: 'I am enumerable',
+      enumerable: true,
+    },
   }
-});
+);
 
 const propertyNames = Object.getOwnPropertyNames(obj);
 console.log(propertyNames);
