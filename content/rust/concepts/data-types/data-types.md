@@ -4,7 +4,6 @@ Description: 'A brief description.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-  - 'An nth subject name'
 Tags:
   - 'Conditionals'
   - 'Control Flow'
