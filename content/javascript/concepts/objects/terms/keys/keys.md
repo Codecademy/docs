@@ -1,5 +1,5 @@
 ---
-Title: 'Object.keys()'
+Title: '.keys()'
 Description: 'Extracts keys from an object and returns them as an array'
 Subjects:
   - 'Web Development'
