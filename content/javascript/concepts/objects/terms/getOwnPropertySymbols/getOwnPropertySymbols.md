@@ -1,5 +1,5 @@
 ---
-Title: 'Object.getOwnPropertySymbols()'
+Title: '.getOwnPropertySymbols()'
 Description: 'Returns an array of all symbol property found directly upon a given object.'
 Subjects:
   - 'Web Development'
@@ -15,7 +15,7 @@ CatalogContent:
 
 The **`.getOwnPropertySymbols()`** method is a static method that returns an array of all symbol properties found directly upon a given object. If the object initially has no symbol properties, `.getOwnPropertySymbols()` returns an empty array.
 
-> **Note:** `Object.getOwnPropertySymbols()` method itself does not contain the symbol properties of an object and only the string properties.
+> **Note:** `.getOwnPropertySymbols()` method itself does not contain the symbol properties of an object and only the string properties.
 
 ## Syntax
 
@@ -40,8 +40,6 @@ var Electronic_Devices = {
 };
 console.log(Object.getOwnPropertySymbols(Electronic_Devices));
 ```
-
-**`Note`**:  
 
 The above example will return the following output:
 
