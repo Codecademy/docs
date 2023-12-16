@@ -24,8 +24,6 @@ The basic syntax is:
 Object.keys(obj)
 ```
 
-- `obj` - An object.
-
 ## Example
 
 Here's a simple example:
