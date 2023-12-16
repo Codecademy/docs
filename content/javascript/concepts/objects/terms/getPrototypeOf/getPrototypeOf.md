@@ -1,6 +1,6 @@
 ---
-Title: 'Object.getPrototypeOf()'
-Description: 'Returns the prototype value of the specified object.'
+Title: '.getPrototypeOf()'
+Description: 'Returns the prototype value of the specified object'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/create-a-back-end-app-with-javascript'
 ---
 
-The **`Object.getPrototypeOf()`** method is a static method that returns the prototype (the value of the internal [[Prototype]] property) of the specified object.
+The **`.getPrototypeOf()`** method is a static method that returns the prototype (the value of the internal [[Prototype]] property) of the specified object.
 
 ## Syntax
 
