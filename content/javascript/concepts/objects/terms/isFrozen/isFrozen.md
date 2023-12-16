@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The **`.isFrozen()`** static method returns `true` if the given object is _frozen_, and `false` if it is not.
+The **`.isFrozen()`** static method returns `true` if the given object is frozen, and `false` if it is not.
 
 ## Syntax
 
