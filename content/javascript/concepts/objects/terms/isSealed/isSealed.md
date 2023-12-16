@@ -38,7 +38,7 @@ Object.seal(fruits);
 console.log(Object.isSealed(fruits));
 ```
 
-This will return the following output:
+The above code will return the following output:
 
 ```shell
 false
@@ -69,7 +69,7 @@ Object.defineProperties(fruits, {
 console.log(Object.isSealed(fruits));
 ```
 
-This will return the following output:
+The above code will return the following output:
 
 ```shell
 false
