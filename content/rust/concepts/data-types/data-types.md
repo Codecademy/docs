@@ -17,6 +17,8 @@ CatalogContent:
 
 ## Primitive types || scala types
 
+Scala types represent a single value.
+
 - Integer
 - Floating-Point
 - Boolean
@@ -24,12 +26,57 @@ CatalogContent:
 
 ## Compound Types
 
+compund types represent multiple values and can group them together.
+
 - tuples
 - arrays
 
-## Codebyte Example (if applicable)
+## Examples
 
-```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
+The first example shows the primitive data types and the second example shows the compound data types respectively.
+
+```rust
+fn main() {
+    // Integer Type
+    let integer_num: i32 = 42;
+
+    // Floating-Point Type
+    let float_num: f64 = 3.14;
+
+    // Boolean Type
+    let is_rust_cool: bool = true;
+
+    // Character Type
+    let unicode_char: char = 'A';
+
+    // Printing the values
+    println!("Integer: {}", integer_num);
+    println!("Floating-Point: {}", float_num);
+    println!("Boolean: {}", is_rust_cool);
+    println!("Character: {}", unicode_char);
+}
+
+```
+
+```rust
+fn main() {
+    // Tuple
+    let person: (&str, usize, bool) = ("Alice", 30, true);
+
+    // Accessing tuple elements
+    let name = person.0;
+    let age = person.1;
+    let is_adult = person.2;
+
+    // Array
+    let numbers: [i32; 5] = [1, 2, 3, 4, 5];
+
+    // Accessing array elements
+    let first_number = numbers[0];
+    let second_number = numbers[1];
+
+    // Printing tuple and array elements
+    println!("Person: {} is {} years old. Adult: {}", name, age, is_adult);
+    println!("Array: [{}, {}]", first_number, second_number);
+}
 ```
