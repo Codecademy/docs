@@ -48,7 +48,7 @@ This will return the following output:
 {}
 ```
 
-> **Note:** In the example: `Object.getPrototypeOf("hello")`; `"hello"` is coerced to an `Object`, therefore this method returns `String.prototype` or {}. In ES5, if the 'obj' parameter isn't an object, it will result in a TypeError exception being thrown. However, in ES2015, the parameter will undergo coercion to become an Object. 
+> **Note:** In the example: `Object.getPrototypeOf("hello")`; `"hello"` is coerced to an `Object`, therefore this method returns `String.prototype` or {}. In ES5, if the 'obj' parameter isn't an object, it will result in a TypeError exception being thrown. However, in ES2015, the parameter will undergo coercion to become an Object.
 
 ## Example 2
 
