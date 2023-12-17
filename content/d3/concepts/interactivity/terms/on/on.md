@@ -22,8 +22,8 @@ In **D3.js**, the **d3.selection.on()** function is used to add a specific event
 selection.on(event type, callback function)
 ```
 
-- `event type`: The **event type** is a *string* that specifies the DOM event type used.
-- `callback function`: The [callback function](https://www.codecademy.com/resources/docs/javascript/callbacks) is the *function* that is called when the event is triggered.
+- `event type`: The event type is a string that specifies the DOM event type used.
+- `callback function`: The [callback function](https://www.codecademy.com/resources/docs/javascript/callbacks) is the function that is called when the event is triggered.
 
 ## Example
 
