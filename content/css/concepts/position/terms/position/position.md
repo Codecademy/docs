@@ -88,3 +88,7 @@ Position the `.box` element `40px` from the bottom of the `.ancestor` element.
   bottom: 40px;
 }
 ```
+
+This is what the above example looks like:
+
+![CSS Position Example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-position-example2.png)
