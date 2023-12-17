@@ -1,6 +1,6 @@
 ---
 Title: 'Data-Types'
-Description: 'A brief description.'
+Description: 'Data types are a classification that specifies which type of value a variable can hold and which operations can be performed on that variable.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
