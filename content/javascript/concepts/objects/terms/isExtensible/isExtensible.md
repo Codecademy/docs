@@ -42,7 +42,7 @@ Object.preventExtensions(characters);
 console.log(Object.isExtensible(characters));
 ```
 
-The output would be:
+The output for the above will be:
 
 ```shell
 true
