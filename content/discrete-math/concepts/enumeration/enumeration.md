@@ -18,6 +18,22 @@ CatalogContent:
 
 **Counting Theory** is a part of discrete mathematics that deals with counting the number of possible outcomes of a given event. Being an essential element of probability, it tries to answer an abstract question, "How many?"
 
+## Preliminaries: On Choices
+
+It is said that in order to combine numbers correctly, it's best to look for the words `AND` and `OR` in the description of the sequence of choices available.
+
+Some notes on `"AND"`:
+
+- Corresponds to the Cartesian product of sets.
+- If one element of the set A `AND` one element of the set B is chosen, then this is equivalent to choosing one element of the `Cartesian product of A and B`.
+
+Some notes on `OR`:
+
+- Corresponds to the union of sets.
+- If an element of the set A `OR` one element of the set B is chosen, then this is equivalent to choosing one element of the union of A and B.
+
+It is very useful to describe a choice sequence for constructing the set of objects of interest by paying close attention to the words `"AND"` and `"B"`.
+
 ## Fundamental Counting Principle
 
 The fundamental counting principle states that the total number of outcomes of two or more independent events is the product of the number of outcomes of each individual event.
@@ -32,7 +48,7 @@ Bw, Bx, By, Bz,
 Cw, Cx, Cy, Cz
 ```
 
-## Principle of Inclusion and Exclusion
+## Principle of Inclusion and Exclusion (The Subtraction Rule)
 
 The principle of inclusion and exclusion is an approach that derives the method of finding the number of elements in the union of two (2) finite sets.
 
@@ -61,3 +77,7 @@ The rule states that if there are `n(A)` ways to do `A` and, distinct from them,
 And, the general rule:
 
 There are `n(A) + n(B) + n(C)` ways to do `A` or `B` or `C`.
+
+## The Division Rule
+
+There are `n/d` ways to do a task if it can be done using a procedure that can be carried out in `n` ways, where there are `d` corresponding outcomes per group.

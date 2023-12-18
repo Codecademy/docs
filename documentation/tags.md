@@ -170,6 +170,7 @@ Information Technology
 Infrastructure
 Inheritance
 Input
+Instant
 Integers
 Interface
 iOS
@@ -179,6 +180,7 @@ jQuery
 JRuby
 JSON
 JSK
+Justice
 K-Nearest Neighbors
 Kotlin
 Kubernetes
@@ -223,6 +225,7 @@ NumPy
 Objects
 Obsolete
 OOP
+Opacity
 Open Source
 Operating Systems
 Operators

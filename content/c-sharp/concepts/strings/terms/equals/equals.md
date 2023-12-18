@@ -28,7 +28,7 @@ This method returns a boolean value of `true` or `false`.
 
 ## Example
 
-The following example demonstrates the `.Equals()` method. Two paramters are passed to the method and the return value is printed with the `Console.WriteLine()` method.
+The following example demonstrates the `.Equals()` method. Two parameters are passed to the method and the return value is printed with the `Console.WriteLine()` method.
 
 ```cs
 using System;

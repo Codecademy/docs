@@ -7,7 +7,7 @@ Tags:
   - 'Functions'
   - 'Methods'
   - 'Strings'
-  - 'built-in-funtions'
+  - 'built-in-functions'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'

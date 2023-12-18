@@ -55,3 +55,7 @@ Hello, World!
 The value of dynamicValue is 4
 The sum of a and b is 9
 ```
+
+## String Methods
+
+The following methods are convenient tools for handling a range of string related operations.
