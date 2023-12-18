@@ -26,7 +26,7 @@ Object.isExtensible(newObject);
 
 ## Example
 
-Checking if an object is extensible using the `.isExtensible()` method:
+The following code will check if an object is extensible or not using the `.isExtensible()` method:
 
 ```js
 const characters = {
