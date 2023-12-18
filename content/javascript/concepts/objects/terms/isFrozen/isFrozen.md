@@ -19,7 +19,7 @@ The **`.isFrozen()`** static method returns `true` when the given object is froz
 Object.isFrozen(newObject);
 ```
 
-`newObj` is the object to be checked for its frozen state.
+- `newObj`: It is the object to be checked for its frozen state.
 
 ## Example
 
