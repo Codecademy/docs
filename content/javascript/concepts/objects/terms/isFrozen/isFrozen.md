@@ -34,7 +34,6 @@ const avgAnnualTemps = {
 
 console.log(Object.isFrozen(avgAnnualTemps));
 Object.freeze(avgAnnualTemps);
-
 console.log(Object.isFrozen(avgAnnualTemps));
 ```
 
