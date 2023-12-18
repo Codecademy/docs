@@ -1,5 +1,5 @@
 ---
-Title: 'Object.isSealed()'
+Title: '.isSealed()'
 Description: 'Returns true if an object is sealed, and false if that object is not sealed.'
 Subjects:
   - 'Web Development'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/create-a-back-end-app-with-javascript'
 ---
 
-The **`Object.isSealed()`** method is used to check if an object is sealed. An object is sealed when it is non-extensible, and all of its properties are non-configurable.
+The **`.isSealed()`** method is used to check if an object is sealed. An object is sealed when it is non-extensible, and all of its properties are non-configurable.
 
 
 ## Syntax
@@ -24,7 +24,9 @@ Object.isSealed(object_name)
 
 - `object_name`: The name of the object to be checked.
 
-## Example 1
+## Examples 
+
+### Example 1
 
 The following code will determine if the `fruits` object is sealed or not by using `Object.seal()` and `Object.isSealed()` methods:
 
@@ -45,7 +47,7 @@ false
 true
 ```
 
-## Example 2
+### Example 2
 
 The following code will determine if the `fruits` object is sealed or not by using `Object.preventExtensions()` and `Object.defineProperties()` methods:
 
