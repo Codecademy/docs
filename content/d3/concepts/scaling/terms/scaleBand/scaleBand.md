@@ -33,7 +33,7 @@ d3.scaleBand()
 The example code below defines an array of emojis, creates a band scale, and logs the x-axis positions of each emoji.
 
 ```js
-// Fun emoji categories
+    // Fun emoji categories
     var emojis = ['🍎', '🍌', '🍇', '🍊', '🍓'];
 
     // Create a band scale
@@ -44,7 +44,7 @@ The example code below defines an array of emojis, creates a band scale, and log
 
     // Log the positions of emojis
     emojis.forEach(function (emoji) {
-      console.log(`Position of ${emoji}: ${Math.round(xScale(emoji))}`);
+      console.log(`Position of ${emoji}: ${xScale(emoji)}`);
     });
 ```
 
