@@ -1,7 +1,7 @@
 ---
 Title: 'Interactivity'
 Description: 'D3 interactivity enriches visualizations with dynamic user engagement and interactive features.'
-Subjects
+Subjects:
   - 'Code Foundations'
   - 'Data Visualization'
 Tags:
@@ -18,42 +18,9 @@ D3.js, or Data-Driven Documents, is a powerful JavaScript library for creating d
 
 Tooltips are a crucial element in interactive visualizations, providing additional context when users hover over data points. The following code demonstrates how to integrate tooltips into your D3.js visualization. This is a very basic example, it creates a square block. If you hover over the square block, you will see a tooltip under the block saying "this is a square!"
 
-```
+```js
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>D3.js Interactive Square</title>
-    <style>
-        /* Styling for the square */
-        .square {
-            fill: red;
-        }
-        /* Styling for the tooltip */
-        .tooltip {
-            position: absolute;
-            padding: 10px;
-            background-color: black;
-            color: white;
-            opacity: 0;
-            margin-top: -100px;
-        }
-    </style>
-</head>
-<body>
-    <!-- SVG container -->
-    <svg width="200" height="200">
-        <!-- Square element -->
-        <rect class="square" width="100" height="100"></rect>
-    </svg>
-
-    <!-- Tooltip element -->
-    <div class="tooltip">This is a square</div>
-
-    <!-- D3.js library -->
-    <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script>
-        // Select the square element
+ // Select the square element
         const square = d3.select("rect.square");
 
         // Event listener for mouseover event
@@ -70,20 +37,20 @@ Tooltips are a crucial element in interactive visualizations, providing addition
             // Hide the tooltip
             d3.select(".tooltip").style("opacity", 0);
         });
-    </script>
-</body>
-</html>
-
 ```
-Copy & paste the code in any code editor & prview on the web. 
+Make sure you have your html file setup using this script before running.
 
 ## Output
-Normal Block:
-![idle](https://github.com/ShatilKhan/docs/assets/52494840/2d63ce76-438b-4182-9507-ea0f7a0e27f2)
+Block when mouse pointer is not hovering:
+
+![Screenshot 2023-12-19 014458](https://github.com/ShatilKhan/docs/assets/52494840/6f444ebe-bc6b-4526-b365-412735c854a5)
+
 
 
 Tooltip appears when hovered over:
-![hover tooltip](https://github.com/ShatilKhan/docs/assets/52494840/9351a31c-d45a-4e52-8d9a-11d5e6474084)
+
+![Screenshot 2023-12-19 014419](https://github.com/ShatilKhan/docs/assets/52494840/8c69038e-c4d2-498c-9dfa-f58839e21cfb)
+
 
 
 
