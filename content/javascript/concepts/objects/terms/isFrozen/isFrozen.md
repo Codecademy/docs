@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The **`.isFrozen()`** static method returns `true` when the given object is frozen, and `false` if it is not.
+The **`.isFrozen()`** static method returns `true` when the given object is _frozen_, and `false` if it is not. An object is considered frozen when you cannot add new properties to it, cannot change the existing properties and cannot delete the existing properies. For example, you can freeze an with the`Object.freeze()` static method.
 
 ## Syntax
 
