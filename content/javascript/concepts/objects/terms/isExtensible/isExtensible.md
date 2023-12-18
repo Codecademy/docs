@@ -20,6 +20,8 @@ The **`.isExtensible()`** is a static method that returns `true` if the given ob
 Object.isExtensible(newObject);
 ```
 
+- `newObject`: It is the object to be checked whether it is extensible.
+
 Objects are extensible by default. An object can be made non-extensible by using `Object.freeze()`, `Object.preventExtensions`, ot `Object.seal()`. A non-extensible object can still have its properties modified.
 
 ## Example
