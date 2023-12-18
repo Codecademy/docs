@@ -21,6 +21,7 @@ d3.scaleBand()
   .range(outputRange)
   .padding(innerPadding)
   .paddingOuter(outerPadding);
+```
 
 - `inputDomain`: An array representing the input domain (categories or discrete values).
 - `outputRange`: An array representing the output range (typically the width of the visualization).
@@ -33,24 +34,23 @@ The example code below defines an array of emojis, creates a band scale, and log
 
 ```js
 // Fun emoji categories
-var emojis = ['🍎', '🍌', '🍇', '🍊', '🍓'];
+    var emojis = ['🍎', '🍌', '🍇', '🍊', '🍓'];
 
-// Create a band scale
-var xScale = d3
-  .scaleBand()
-  .domain(emojis)
-  .range([0, 200]) // Width of the visualization
-  .padding(0.2); // Padding between emojis
+    // Create a band scale
+    var xScale = d3
+      .scaleBand()
+      .domain(emojis)
+      .range([0, 200]) // Width of the visualization
 
-// Log the positions of emojis
-emojis.forEach(function (emoji) {
-  console.log(`Position of ${emoji}: ${xScale(emoji)}`);
-});
+    // Log the positions of emojis
+    emojis.forEach(function (emoji) {
+      console.log(`Position of ${emoji}: ${Math.round(xScale(emoji))}`);
+    });
 ```
 
 Keep in mind you must include this `script` in your `html` file in order the example to work:
 
-Finally if you open you're html file in browser & go to console in inspect tool you should see the below output.
+Finally if you open you're html file in browser & go to console in inspect tool you should see a similar output like below.
 Console Output:
 
 ```shell
