@@ -1,1 +1,1 @@
-content/uiux/concepts/usability-heuristics/usability-heuristics.md
+content/uiux/concepts/design-software/design-software.md
