@@ -19,7 +19,6 @@ D3.js, or Data-Driven Documents, is a powerful JavaScript library for creating d
 Tooltips are a crucial element in interactive visualizations, providing additional context when users hover over data points. The following code demonstrates how to integrate tooltips into your D3.js visualization. This is a very basic example, it creates a square block. If you hover over the square block, you will see a tooltip under the block saying "this is a square!"
 
 ```js
-
  // Select the square element
         const square = d3.select("rect.square");
 
@@ -38,9 +37,11 @@ Tooltips are a crucial element in interactive visualizations, providing addition
             d3.select(".tooltip").style("opacity", 0);
         });
 ```
+
 Make sure you have your html file setup using this script before running.
 
 ## Output
+
 Block when mouse pointer is not hovering:
 ![Screenshot 2023-12-19 014458](https://github.com/ShatilKhan/docs/assets/52494840/6f444ebe-bc6b-4526-b365-412735c854a5)
 
