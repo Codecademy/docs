@@ -15,7 +15,6 @@ CatalogContent:
 
 The **`.isSealed()`** method is used to check if an object is sealed. An object is sealed when it is non-extensible, and all of its properties are non-configurable.
 
-
 ## Syntax
 
 ```pseudo
@@ -24,7 +23,7 @@ Object.isSealed(object_name)
 
 - `object_name`: The name of the object to be checked.
 
-## Examples 
+## Examples
 
 ### Example 1
 
