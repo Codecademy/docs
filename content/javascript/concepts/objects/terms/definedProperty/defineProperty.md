@@ -14,7 +14,7 @@ CatalogContent:
 ---
 
 
-The .defineProperty() method defines a property on an object, either creating a new property or modifying an existing one. The method returns the modified object with the specified property.
+The `.defineProperty()` method defines a property on an object, either creating a new property or modifying an existing one. The method returns the modified object with the specified property.
 
 ## Syntax
 
