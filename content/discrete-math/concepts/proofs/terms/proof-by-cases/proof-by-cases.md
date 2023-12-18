@@ -46,11 +46,11 @@ If k is odd, then k = 2n + 1, for some integer n.
 
 Now, perform some algebraic manipulation on the expression 3k^2 + k:
 
-	3k^2 + k = 3(2n+1)^2 + 2n + 1		[substitute 2n + 1 for k]
-		 = 3(4n^2 + 4n + 1) + 2n + 1	[square (2n+1)]
-		 = 12n^2 + 12n + 3 + 2n + 1	[multiply 3 into (4n^2 + 4n + 1)]
-		 = 12n^2 + 14n + 4		[add like terms]
-		 = 2(6n^2 + 7n + 2)		[factor out 2]
+3k^2 + k = 3(2n+1)^2 + 2n + 1  [substitute 2n + 1 for k]
+  = 3(4n^2 + 4n + 1) + 2n + 1 [square (2n+1)]
+  = 12n^2 + 12n + 3 + 2n + 1 [multiply 3 into (4n^2 + 4n + 1)]
+  = 12n^2 + 14n + 4  [add like terms]
+  = 2(6n^2 + 7n + 2)  [factor out 2]
 
 When n is an integer, 6n^2 + 7n + 2 is also an integer. Therefore 2(6n^2 + 7n + 2) is equal to 2 times some integer. As 2 times any integer is even, it follows that 2(6n^2 + 7n + 2) is even. Therefore 3k^2 + k is even.
 
@@ -60,9 +60,9 @@ If k is even, then k = 2n, for some integer n.
 
 Now, perform some algebraic manipulation on the expression 3k^2 + k:
 
-	3k^2 + k = 3(2n)^2 + 2			[substitute 2n for k]
-		 = 12n^2 + 2			[simplify 3(2n)^2]
-		 = 2(6n^2 + 1)			[factor out 2]
+ 3k^2 + k = 3(2n)^2 + 2   [substitute 2n for k]
+   = 12n^2 + 2   [simplify 3(2n)^2]
+   = 2(6n^2 + 1)   [factor out 2]
 
 When n is an integer, 6n^2 + 1 is also an integer. Therefore 2(6n^2 + 1) is equal to 2 times some integer. As 2 times any integer is even, it follows that 2(6n^2 + 1) is even. Therefore 3k^2 + k is even.
 
