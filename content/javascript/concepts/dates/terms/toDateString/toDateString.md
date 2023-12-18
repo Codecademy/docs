@@ -29,6 +29,7 @@ const date = new Date("December 5, 2023 8:53")
 let  dateString= date.toDateString();
 console.log(dateString)
 ```
+
 The above example will give the following output:
 
 ```shell
