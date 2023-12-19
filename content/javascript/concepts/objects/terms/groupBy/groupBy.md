@@ -41,13 +41,13 @@ const subsByYear = Object.groupBy(subs, user => {
 The output of the above code will be:
 
 ```shell
-{ 2020: [
-{ userName: 'Akim', yearSub: 2020 },
-{ userName: 'Lola', yearSub: 2020 },
-],
-  2022 : [
-{ userName: 'Lisa', yearSub: 2022 },
-]}
+{
+  '2020': [
+    { userName: 'Akim', yearSub: 2020 },
+    { userName: 'Lola', yearSub: 2020 }
+  ],
+  '2022': [ { userName: 'Lisa', yearSub: 2022 } ]
+}
 ```
 
 ## 
