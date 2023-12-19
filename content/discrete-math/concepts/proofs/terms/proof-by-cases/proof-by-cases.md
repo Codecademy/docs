@@ -31,13 +31,13 @@ The statement below will be demonstrated by a Proof by Cases.
 For any integer k, the product 3k^2 + k is even.
 ```
 
-### Mutual exhaustion
+### Mutual Exhaustion
 
 ```pseudo
-Any integer is either odd or even. So, there are two cases to consider: (1) k is odd; and (2) k is even.
+Any integer is either odd or even. So, there are two cases to consider: (1) k is odd, and (2) k is even.
 ```
 
-### Prove each case
+### Prove Each Case
 
 ```pseudo
 First, consider case (1), in which k is odd.
