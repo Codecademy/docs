@@ -23,7 +23,7 @@ Object.isFrozen(newObject);
 
 ## Example
 
-Checking if an object is frozen.
+The following example checks if an object is frozen.
 
 ```js
 const avgAnnualTemps = {
