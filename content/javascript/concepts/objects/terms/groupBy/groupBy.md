@@ -1,6 +1,6 @@
 ---
 Title: '.groupBy()'
-Description: 'Groups objects by a key.'
+Description: 'Used to group objects based on a key extracted from each object using a provided callback function.'
 Subjects:
   - 'Web Development'
 Tags:
