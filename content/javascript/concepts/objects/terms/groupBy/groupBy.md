@@ -24,7 +24,7 @@ Object.groupBy(items, callfunc);
 
 ## Example
 
-In this example, we want to group users by their subscription year.
+In the following example, the code groups users by their subscription year.
 
 ```js
 const subs = [
