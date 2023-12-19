@@ -197,8 +197,8 @@ Codebytes can be used with the following languages:
 - File names should be in lowercase.
 - Images should be used for diagrams, UI illustrations, and showing output to the user.
 - Images should not be used to illustrate code. [Code blocks](#code) should be used instead.
-- Use descriptive "Alt text" with images to describe the image, diagram or animation.
-  - The "Alt text" is in square brackets, before the URL in an image tag: `![Text that describes the image, diagram or animation](https://path.to/image)`
+- Use descriptive "Alt text" with images to describe the image, diagram, or animation.
+  - The "Alt text" should be in square brackets, before the URL in an image tag: `![Text that describes the image, diagram, or animation](https://path.to/image)`
 
 > **Note:** Image links will not work until a PR is merged.
 
