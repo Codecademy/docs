@@ -1,6 +1,6 @@
 ---
 Title: '.is()'
-Description: 'This method is used to verify that two values are identical'
+Description: 'This method is used to verify that two values are identical.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**`.is()`** method is used to verify that two values are identical. This method returns a boolean value. `true` indicates that the values are identical, and `false` indicates otherwise.
+The **`.is()`** method is used to verify that two values are identical. This method returns a boolean value. `true` indicates that the values are identical, and `false` indicates otherwise.
 
 ## Syntax
 
@@ -24,7 +24,7 @@ The syntax of this method can be shown as below:
 Object.is(val1, val2)
 ```
 
-It takes two parameters. `val1` and `val2` that represents the first and second values.
+It takes two parameters. `val1` and `val2` that represent the first and second values.
 
 ## Example
 
