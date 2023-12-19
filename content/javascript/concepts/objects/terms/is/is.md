@@ -1,10 +1,10 @@
 ---
 Title: '.is()'
-Description: 'This method is used to verify that two values are identical.'
+Description: 'This method is used to verify that two values are identical'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
-  - 'Web Applications'
+  - 'Code Foundations'
 Tags:
   - 'Methods'
   - 'Functions'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**`Object.is()`** is used to verify that two values are identical. This method returns a boolean value. `true` indicates that the values are identical, and `false` indicates otherwise.
+**`.is()`** method is used to verify that two values are identical. This method returns a boolean value. `true` indicates that the values are identical, and `false` indicates otherwise.
 
 ## Syntax
 
@@ -28,7 +28,7 @@ It takes two parameters. `val1` and `val2` that represents the first and second 
 
 ## Example
 
-The `Object.is()` method has a special case for -0. Although -0 is identified as `number`, it is not the same with +0 or 0. While 0 and +0 are treated as the same.
+The `Object.is()` method has a special case for `-0`. Although `-0` is identified as a `number`, it is not the same as `+0` or `0`. While `0` and `+0` are treated as the same.
 
 ```js
 let num_zero = 0,
@@ -40,7 +40,7 @@ console.log(Object.is(num_zmin, num_zero));
 console.log(Object.is(num_zero, num_zplus));
 ```
 
-The outputs will return as follows:
+The example above will return the following output:
 
 ```shell
 false
