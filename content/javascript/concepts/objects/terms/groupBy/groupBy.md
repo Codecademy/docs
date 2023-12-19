@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The **`.groupBy()`** method groups items according to the value returned by a [callback function](https://codecademy.com/ressources/docs/javascript/callbacks). The value of the `.groupBy()` method is a null-prototype object: it doesn't inherit any object methods.
+The **`.groupBy()`** method groups items according to the value returned by a [callback function](https://codecademy.com/ressources/docs/javascript/callbacks). The return value of the `.groupBy()` method is a null-prototype object that doesn't inherit any object methods.
 
 ## Syntax
 
