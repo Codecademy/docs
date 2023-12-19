@@ -50,4 +50,3 @@ The output of the above code will be:
 }
 ```
 
-## 
