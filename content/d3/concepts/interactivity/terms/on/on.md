@@ -30,11 +30,9 @@ selection.on(event type, callback function)
 In the following code snippet, hovering over a square makes it turn yellow:
 
 ```js
-d3.selectAll("square")
-  .on("mouseover", function() {
-    d3.select(this)
-      .style("fill", "yellow");
-  })
+d3.selectAll('square').on('mouseover', function () {
+  d3.select(this).style('fill', 'yellow');
+});
 ```
 
 Output:
