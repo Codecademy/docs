@@ -28,6 +28,17 @@ selection.transition()
 - `duration`: The time duration of the transition in milliseconds.
 - `easingFunction`: It is the easing function.
 
+Some of the commonly used built-in easing functions include:
+
+- `d3.easeLinear`: Linear easing (constant speed).
+- `d3.easeCubic`: Cubic easing, which accelerates and decelerates smoothly.
+- `d3.easeSin`: Sinusoidal easing.
+- `d3.easeQuad`: Quadratic easing.
+- `d3.easeBounce`: Bouncing easing.
+- `d3.easeElastic`: Elastic easing with customizable amplitude and period.
+- `d3.easeCircle`: Circular easing, creating a circular motion.
+- `d3.easeBack`: Back easing with customizable overshoot.
+
 ## Example
 
 Consider an HTML document with an SVG element containing a circle with the specified ID `myCircle`.
