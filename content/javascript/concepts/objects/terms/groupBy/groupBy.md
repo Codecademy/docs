@@ -38,7 +38,7 @@ const subsByYear = Object.groupBy(subs, user => {
     });
 ```
 
-The output would be:
+The output of the above code will be:
 
 ```shell
 { 2020: [
