@@ -19,8 +19,8 @@ The **`.groupBy()`** method groups items according to the value returned by a [c
 Object.groupBy(items, callfunc);
 ```
 
-The `items` are usually an array. They will be grouped according to the result of the `callfunc`.
-The `callfunc` is a callback function. This function has to return a string or a symbol.
+- `items`: It is an array. They will be grouped according to the result of the `callfunc`.
+- `callfunc`: It is a callback function. This function returns a string or a symbol.
 
 ## Example
 
