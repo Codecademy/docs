@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **`Linked List`** is a data structure that contains a collection of `nodes` that together with the help of pointers, display a sequence. There are several list types, we will cover four of the most common with examples in the [C language](https://www.codecademy.com/resources/docs/c).
+A **`Linked List`** is a data structure that contains a collection of `nodes` that together with the help of pointers, display a sequence. There are several list types, four of the most common are discussed below.
 
 ## Syntax
 
