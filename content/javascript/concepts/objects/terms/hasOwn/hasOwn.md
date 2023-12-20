@@ -26,6 +26,8 @@ Object.hasOwn(obj, prop)
 
 ## Example 1
 
+The following code will check whether the given object has specific properties.
+
 ```js
 let details = {
   name: 'Jack',
@@ -51,6 +53,8 @@ false
 ```
 
 ## Example 2
+
+The following example illustrates the differentiation between direct properties and properties inherited through the prototype chain in JavaScript.
 
 ```js
 let details = {
