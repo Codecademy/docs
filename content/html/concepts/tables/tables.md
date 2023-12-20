@@ -20,7 +20,7 @@ Generally, tables are used to display tabular data in particular. In the past, t
 
 ## Example
 
-![Image example of an html table](https://raw.githubusercontent.com/Codecademy/docs/main/media/table-example-1.png)
+![Example of an html table](https://raw.githubusercontent.com/Codecademy/docs/main/media/table-example-1.png)
 
 ## HTML Table Structure
 
@@ -88,7 +88,7 @@ The table data element, denoted as `<td>`, is used to display individual data wi
 </table>
 ```
 
-![image for table data](https://raw.githubusercontent.com/Codecademy/docs/main/media/table-example-2.png)
+![Output image for the table data](https://raw.githubusercontent.com/Codecademy/docs/main/media/table-example-2.png)
 
 ## Video Walkthrough
 
