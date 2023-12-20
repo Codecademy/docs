@@ -6,7 +6,7 @@ Subjects:
 Tags:
   - 'Threads'
 CatalogContent:
-  - ‘learn-rust’
+  - ‘rust-for-programmers’
   - 'paths/computer-science'
 ---
 
