@@ -37,7 +37,6 @@ const characters = {
 
 console.log(Object.isExtensible(characters));
 Object.preventExtensions(characters);
-
 console.log(Object.isExtensible(characters));
 ```
 
