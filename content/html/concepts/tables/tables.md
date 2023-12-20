@@ -20,7 +20,7 @@ Generally, tables are used to display tabular data in particular. In the past, t
 
 ## Example
 
-![table example image](https://raw.githubusercontent.com/Codecademy/docs/main/media/table-example-1.png)
+![Image example of an html table](https://raw.githubusercontent.com/Codecademy/docs/main/media/table-example-1.png)
 
 ## HTML Table Structure
 
