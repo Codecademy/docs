@@ -64,7 +64,7 @@ public class Main {
         Arrays.sort(names);
 
         // Printing the sorted array
-        System.out.println("Sorted Array: " + Arrays.toString(names));
+        System.out.println("Sorted Array by Length: " + Arrays.toString(names));
     }
 }
 ```
