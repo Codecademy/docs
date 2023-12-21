@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.atDate()`** method in Kotlin is used to combine a `LocalTime` instance with a `LocalDate` instance, resulting in a `LocalDateTime` instance.
+The **`.atDate()`** method in Kotlin is a powerful tool that combines a date and time into a `LocalDateTime` object. This method is particularly useful when you need to create a complete timestamp by merging separate `LocalDate` and `LocalTime` instances.
 
 ## Syntax
 
