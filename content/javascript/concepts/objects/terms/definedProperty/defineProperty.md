@@ -26,7 +26,6 @@ Object.defineProperty(obj, prop, descriptor)
 - `prop`: The name or Symbol of the property to be defined or modified.
 - `descriptor`: An object that contains the property's configuration, such as value or getter/setter functions.
 
-
 The syntax above is used to define or modify a property on the object `obj`. The method returns the updated object containing the specified property.
 
 ## Example
