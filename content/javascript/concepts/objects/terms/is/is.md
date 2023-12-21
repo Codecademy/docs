@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.is()`** method is used to verify that two values are identical. This method returns a boolean value. `true` indicates that the values are identical, and `false` indicates otherwise.
+The **`.is()`** is a static method in JavaScript used to verify that two values are identical. This method returns a boolean value. It returns `true` if both values have the same type and value, and `false` otherwise.
 
 ## Syntax
 
