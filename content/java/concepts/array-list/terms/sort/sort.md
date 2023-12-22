@@ -51,7 +51,7 @@ Sorted Array: [1, 2, 3, 5, 8]
 
 > **Note:** For an array of objects, you can use a custom comparator or ensure that the objects in the array implement the `Comparable` interface. Here's an example with strings.
 
-## Example 2
+### Example 2
 
 In this Example, strings implement the `Comparable` interface, so they can be sorted directly using Arrays.sort().
 
@@ -79,7 +79,7 @@ Sorted Array: [Alice, Bob, Charlie, David]
 
 > **Note:** For a custom sorting order, the `Comparator` interface can be used. Here's an example sorting strings by their length.
 
-## Example 3
+### Example 3
 
 In this example, `Comparator.comparing(String::length)` is used to sort the array of strings based on their length.
 
