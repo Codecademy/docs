@@ -1,6 +1,6 @@
 ---
 Title: '.sort()'
-Description: 'Used to sort arrays of primitive types and objects'
+Description: 'Used to sort arrays of primitive types and objects.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
