@@ -43,7 +43,7 @@ public class Main {
 }
 ```
 
-The output should look like this:
+The above example will give the following output:
 
 ```shell
 Sorted Array: [1, 2, 3, 5, 8]
