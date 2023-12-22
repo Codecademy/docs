@@ -26,7 +26,7 @@ Arrays.sort(array);
 
 ### Example 1
 
-In this case, strings implement the `Comparable` interface, so they can be sorted directly using `Arrays.sort()`:
+In this example, the `Arrays.sort(numbers)` method is used to sort the array of integers in ascending order. The result is then printed using `Arrays.toString()`.
 
 ```java
 import java.util.Arrays;
@@ -49,9 +49,37 @@ The above example will give the following output:
 Sorted Array: [1, 2, 3, 5, 8]
 ```
 
-> **Note:** To custom sorting order, you can use the `Comparator` interface. Here's an example sorting strings by their length:
+> **Note:** For an array of objects, you can use a custom comparator or ensure that the objects in the array implement the `Comparable` interface. Here's an example with strings.
 
 ## Example 2
+
+In this Example, strings implement the `Comparable` interface, so they can be sorted directly using Arrays.sort().
+
+```java
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) {
+        String[] names = {"Alice", "Bob", "Charlie", "David"};
+
+        // Sorting the array of strings in ascending order
+        Arrays.sort(names);
+
+        // Printing the sorted array
+        System.out.println("Sorted Array: " + Arrays.toString(names));
+    }
+}
+```
+
+The above example will give the following output:
+
+```shell
+Sorted Array: [Alice, Bob, Charlie, David]
+```
+
+> **Note:** For a custom sorting order, the `Comparator` interface can be used. Here's an example sorting strings by their length.
+
+## Example 3
 
 In this example, `Comparator.comparing(String::length)` is used to sort the array of strings based on their length.
 
@@ -66,12 +94,11 @@ public class Main {
         // Sorting the array of strings by length
         Arrays.sort(names, Comparator.comparing(String::length));
 
+        // Printing the sorted array
         System.out.println("Sorted Array by Length: " + Arrays.toString(names));
     }
 }
 ```
-
-The above example will give the following output:
 
 ```shell
 Sorted Array by Length: [Bob, Alice, David, Charlie]
