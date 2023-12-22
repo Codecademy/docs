@@ -49,7 +49,7 @@ The above example will give the following output:
 Sorted Array: [1, 2, 3, 5, 8]
 ```
 
-> **Note:** If you need a custom sorting order, you can use the Comparator interface. Here's an example sorting strings by their length:
+> **Note:** To custom sorting order, you can use the Comparator interface. Here's an example sorting strings by their length:
 
 ## Example 2
 
