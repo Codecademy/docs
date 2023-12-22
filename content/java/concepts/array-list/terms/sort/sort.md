@@ -26,7 +26,7 @@ Arrays.sort(array);
 
 ### Example 1
 
-In this case, strings implement the `Comparable` interface, so they can be sorted directly using `Arrays.sort()`.
+In this case, strings implement the `Comparable` interface, so they can be sorted directly using `Arrays.sort()`:
 
 ```java
 import java.util.Arrays;
