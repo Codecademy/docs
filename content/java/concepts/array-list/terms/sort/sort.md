@@ -94,7 +94,6 @@ public class Main {
         // Sorting the array of strings by length
         Arrays.sort(names, Comparator.comparing(String::length));
 
-        // Printing the sorted array
         System.out.println("Sorted Array by Length: " + Arrays.toString(names));
     }
 }
