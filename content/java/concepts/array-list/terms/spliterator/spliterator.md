@@ -16,9 +16,9 @@ CatalogContent:
 In Java, a `Spliterator` is an interface introduced in Java 8 as part of the Stream API. It provides a way to traverse elements of a source in parallel.
 The `ArrayList` class in Java also implements the `Spliterator` interface, allowing to create spliterators for ArrayLists. It is a better way to traverse over element because it provides more control over elements.
 
-- It uses `tryAdvance()` method to iterate elements individually in multiple threads to support parallel processing,
-- `forEachRemaining()` method to iterate elements sequentially in a single thread,
-- `trySplit()` method to divide itself into Sub-Spliterators to support parallel processing.
+- `tryAdvance()`: This method is used to iterate elements separately in several threads to enable parallel processing.
+- `forEachRemaining()`: This method is used to iterate elements consecutively in a single thread.
+- `trySplit()`: This method is used to split itself into Sub-Spliterators to facilitate parallel processing.
 
 ## Syntax
 
@@ -57,7 +57,7 @@ public class ArrayListSpliteratorExample {
 }
 ```
 
-The output of the above code snippet will look like this:
+The output of the mentioned code will be as follows:
 
 ```shell
 Java
@@ -106,7 +106,7 @@ public class ArrayListSpliteratorExample {
 }
 ```
 
-The output of the above code snippet will look like this:
+The output of the mentioned code will be as follows:
 
 ```shell
 First Half
