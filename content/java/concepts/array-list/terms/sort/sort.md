@@ -16,6 +16,8 @@ The **`.sort()`** method is used to sort arrays of primitive types and objects. 
 
 ## Syntax
 
+Here's a basic syntax of how to use the `.sort()` method:
+
 ```pseudo
 Arrays.sort(array);
 ```
