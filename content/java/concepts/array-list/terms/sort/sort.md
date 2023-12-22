@@ -53,19 +53,21 @@ Sorted Array: [1, 2, 3, 5, 8]
 
 ## Example 2
 
+In this example, `Comparator.comparing(String::length)` is used to sort the array of strings based on their length.
 
 ```java
 import java.util.Arrays;
+import java.util.Comparator;
 
 public class Main {
-  public static void main(String[] args) {
-    String[] names = {"Alice", "Bob", "Charlie", "David"};
+    public static void main(String[] args) {
+        String[] names = {"Alice", "Bob", "Charlie", "David"};
 
-    // Sorting the array of strings in ascending order
-    Arrays.sort(names);
-    
-    System.out.println("Sorted Array by Length: " + Arrays.toString(names));
-  }
+        // Sorting the array of strings by length
+        Arrays.sort(names, Comparator.comparing(String::length));
+
+        System.out.println("Sorted Array by Length: " + Arrays.toString(names));
+    }
 }
 ```
 
