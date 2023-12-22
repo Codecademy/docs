@@ -63,8 +63,8 @@ Electronic_Devices[symbol_2] = 'globalSymbol';
 
 var objectSymbols = Object.getOwnPropertySymbols(Electronic_Devices);
 
-console.log(Electronic_Devices+'\n');
-console.log(objectSymbols.length+'\n');
+console.log(Electronic_Devices + '\n');
+console.log(objectSymbols.length + '\n');
 console.log(objectSymbols);
 console.log(objectSymbols[0]);
 ```
