@@ -22,9 +22,9 @@ Here's a basic syntax of how to use the `.sort()` method:
 Arrays.sort(array);
 ```
 
-Here's a basic example of using Arrays.sort() with an array of integers:
+## Examples
 
-## Example 1
+### Example 1
 
 In this case, strings implement the `Comparable` interface, so they can be sorted directly using `Arrays.sort()`.
 
