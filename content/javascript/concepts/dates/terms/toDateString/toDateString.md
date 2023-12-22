@@ -1,7 +1,7 @@
 ---
 Title: '.toDateString()'
-Description: 'Returns a string representing the date portion of a Date instance' 
-Subjects: 
+Description: 'Returns a string representing the date portion of a Date instance'
+Subjects:
   - 'Web Development'
   - 'Computer Science'
 Tags:
@@ -25,9 +25,9 @@ dateObject.toDateString()
 In this example, a new instance of the `Date` object is created and stored in the variable, `date`. The `.toDateString()` method is then called on `date`, and the string returned is stored in `dateString` and printed out on the console:
 
 ```js
-const date = new Date("December 5, 2023 8:53")
-let  dateString= date.toDateString();
-console.log(dateString)
+const date = new Date('December 5, 2023 8:53');
+let dateString = date.toDateString();
+console.log(dateString);
 ```
 
 The above example will give the following output:
