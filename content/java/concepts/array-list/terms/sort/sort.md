@@ -58,15 +58,14 @@ Sorted Array: [1, 2, 3, 5, 8]
 import java.util.Arrays;
 
 public class Main {
-    public static void main(String[] args) {
-        String[] names = {"Alice", "Bob", "Charlie", "David"};
+  public static void main(String[] args) {
+    String[] names = {"Alice", "Bob", "Charlie", "David"};
 
-        // Sorting the array of strings in ascending order
-        Arrays.sort(names);
-
-        // Printing the sorted array
-        System.out.println("Sorted Array by Length: " + Arrays.toString(names));
-    }
+    // Sorting the array of strings in ascending order
+    Arrays.sort(names);
+    
+    System.out.println("Sorted Array by Length: " + Arrays.toString(names));
+  }
 }
 ```
 
