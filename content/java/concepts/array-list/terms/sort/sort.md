@@ -32,15 +32,14 @@ In this case, strings implement the `Comparable` interface, so they can be sorte
 import java.util.Arrays;
 
 public class Main {
-    public static void main(String[] args) {
-        int[] numbers = {5, 2, 8, 1, 3};
+  public static void main(String[] args) {
+    int[] numbers = {5, 2, 8, 1, 3};
 
-        // Sorting the array in ascending order
-        Arrays.sort(numbers);
-
-        // Printing the sorted array
-        System.out.println("Sorted Array: " + Arrays.toString(numbers));
-    }
+    // Sorting the array in ascending order
+    Arrays.sort(numbers);
+    
+    System.out.println("Sorted Array: " + Arrays.toString(numbers));
+  }
 }
 ```
 
