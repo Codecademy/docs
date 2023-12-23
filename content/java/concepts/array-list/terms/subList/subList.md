@@ -1,6 +1,6 @@
 ---
 Title: '.subList()'
-Description: 'Learn about the .subList() method in Java ArrayList, allowing you to obtain a portion of the list based on specified indices.'
+Description: 'Returns a view of a portion of the list based on the specified start and end indices.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
