@@ -26,7 +26,7 @@ dataType[] varName = {elemOne, elemTwo, elemThree, elemN};
 Alternatively, an array can be defined with the `new` keyword, the `arrayLength` integer defined, and each of the elements defined afterward:
 
 ```pseudo
-dataType[] varName = dataType[arrayLength];
+dataType[] varName = new dataType[arrayLength];
 
 varName[0] = valueOne;
 varName[1] = valueTwo;

@@ -6,6 +6,7 @@ Subjects:
 Tags:
   - 'UI'
   - 'UX'
+  - 'Design'
 CatalogContent:
   - 'intro-to-ui-ux'
   - 'paths/front-end-engineer-career-path'
@@ -28,4 +29,4 @@ The four phases of the double diamond process are as follows:
 3. **Develop (divergent execution)**: Generate a range of ideas for possible solutions through brainstorms, workshops, low fidelity prototypes, and other ideation methods. Test different ideas with users or within the company to see what resonates.
 4. **Deliver (convergent execution)**: Home in on, develop, and deliver the solution. Continue evaluating and testing the developed design to ensure it meets user needs.
 
-This methodology was [formalized by the British Design Council](https://www.designcouncil.org.uk/our-work/skills-learning/resources/11-lessons-managing-design-global-brands) in 2005 through an in-depth study of 11 global brands, including LEGO, Microsoft, Sony, and Starbucks.
+This methodology was formalized by the British Design Council in 2005 through an in-depth study of 11 global brands, including LEGO, Microsoft, Sony, and Starbucks.

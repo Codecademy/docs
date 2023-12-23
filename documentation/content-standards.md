@@ -61,7 +61,7 @@ All code blocks should be delineated by triple backticks (```). Languages can be
 
 ### Codebytes: Runnable Code Blocks
 
-Codecademy has a new feature called [Codebytes](https://www.codecademy.com/codebyte-editor) that will allow learners to click a button to run code blocks themselves! The output to the console will appear next to the code block.
+Codecademy has a feature called [Codebytes](https://www.codecademy.com/codebyte-editor) that will allow learners to click a button to run code blocks themselves! The output to the console will appear next to the code block.
 
 Codebytes is a great tool to incorporate into some entries (for instance, if you want learners to think about what a code block will output before they see it in action, or if you want to show a learner how a function that incorporates randomization produces different output each time).
 

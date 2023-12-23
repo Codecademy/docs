@@ -64,7 +64,7 @@ Destination Array:
 
 ## Codebyte Example
 
-This example is runnable and shows another implementation of the `CopyTo()` method. The codebyte down below will throw a `Unhandled Exception` error which can be solved by refering to the above entry.
+This example is runnable and shows another implementation of the `CopyTo()` method. The codebyte down below will throw a `Unhandled Exception` error which can be solved by referring to the above entry.
 
 > **Note:** Copying arrays requires compatibility between the source and destination: if the destination array is too small to accommodate the values of the source array an `Unhandled Exception` will be thrown.
 

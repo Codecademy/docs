@@ -71,7 +71,7 @@ This code will output:
 
 ![This is a gif that shows Navigation with a custom label in action](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-navigation-2.gif)
 
-> **Note:** If The app suports iOS 15 or less `NavigationStack` will not be available, so instead of `NavigationStack` use `NavigationView`. In the above examples just replace `NavigationStack` with `NavigationView` and the code will run.
+> **Note:** If The app supports iOS 15 or less `NavigationStack` will not be available, so instead of `NavigationStack` use `NavigationView`. In the above examples just replace `NavigationStack` with `NavigationView` and the code will run.
 
 ## `NavigationStack` with Lists
 

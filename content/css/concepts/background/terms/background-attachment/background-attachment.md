@@ -44,6 +44,10 @@ body {
 }
 ```
 
+The following gif runs as a loop to demonstrate the code block above:
+
+![CSS Background Attachment Example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-background-attachment-example-1.gif)
+
 ## Example 2
 
 Set background to scroll with the page:
@@ -57,3 +61,7 @@ body {
   background-attachment: scroll;
 }
 ```
+
+The following gif runs as a loop to demonstrate the code block above:
+
+![CSS Background Attachment Example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-background-attachment-example-2.gif)
