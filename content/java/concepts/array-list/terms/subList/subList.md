@@ -12,7 +12,6 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-
 In Java, `.subList()` method is a powerful feature of the List interface that allows one to obtain a portion of the list based on specified indices. This method provides a convenient way to create a sublist containing elements from the original List.
 
 ## Syntax
@@ -21,7 +20,9 @@ In Java, `.subList()` method is a powerful feature of the List interface that al
 List<E> subList (int fromIndex, int toIndex)
 ```
 
-The `.subList()` method is invoked on an ArrayList object and taks two parameters: `fromIndex` (inclusive) and `toIndex` (exclusive). It returns a view of the portion of the original list between the specified indices.
+`fromIndex`: The starting index of the sublist.
+
+`toIndex`: The ending index of the sublist.
 
 ## Example
 
@@ -52,5 +53,11 @@ public class SubListExample {
   }
 }
 ```
+```shell
+Original List: [Item A, Item B, Item C, Item D, Item E]
+
+SubList(inclusive index 1, exclusive index 4): [Item B, Item C, Item D]
+```
+
 
 In this example the original [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list) is created with five elements. The `.subList(1, 4)` call creates a sublist containing elements form index 1 (inclusive) to index 4 (exclusive). The result is then printed to the console.
