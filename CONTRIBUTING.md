@@ -29,6 +29,7 @@ Becoming an assignee to an issue follows this workflow:
 1. Comment on a thread for an open issue that you're interested in being assigned to (e.g., [Issue #1026](https://github.com/Codecademy/docs/issues/1026)).
 2. Await 2-3 days for a maintainer's response to be assigned an issue. If assigned, start working on a PR. If not yet assigned, continue steps 1 and 2 until assigned an issue.
 3. If a PR has not been opened in 2 weeks for the issue, the issue may be reassigned to another contributor. Maintainers will do their best to notify contributors by tagging their GitHub handle along the issue thread every 5-7 days.
+4. Please note that you aren't allowed to claim more than 3 open issues (issues without a PR) at a time.
 
 ## How do I submit a Pull Request (PR)?
 
@@ -116,7 +117,7 @@ To link your Codecademy user profile to GitHub:
 
 - Before making a PR, make sure you pushed your changes from a branch other than `main`.
 - Name the new branch after the changes being pushed to the PR.
-- Keep your PRs byte-sized. No more than 3 new entries per PR! And no more than 3 PRs open at a time!
+- Keep your PRs byte-sized. No more than 3 new entries per PR! And do not have more than 3 PRs open in a two week period!
 - All contributors must sign the [Contributor License Agreement (CLA)](<[url](https://cla-assistant.io/Codecademy/docs)>) when contributing for the first time.
 - All required [status checks](https://docs.github.com/en/github/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks) are expected to pass in each PR.
 - PRs will be marked as **invalid** if there is no consistent activity within a **2-week period** on the contributor's part and content does not meet or pass standard formatting, quality, and plagiarism checks.

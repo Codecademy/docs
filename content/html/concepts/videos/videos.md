@@ -49,30 +49,33 @@ A video is inserted onto a page through opening and closing [`<video>`](https://
 ### Example
 
 ```html
-<video controls autoplay loop poster="spooky_ghost.jpg">
-  <source type="video/mp4" src="spooky_ghost.mp4" />
+<video controls autoplay loop poster="big_bunny.jpg">
+  <source type="video/mp4" src="big_bunny.mp4" />
 
   Sorry, your browser doesn't support this video. Click
-  <a href="spooky_ghost.mp4">here</a> to download it instead.
+  <a href="big_bunny.mp4">here</a> to download it instead.
 </video>
 ```
+
+The above code will render this:
+![image example](https://raw.githubusercontent.com/Codecademy/docs/main/html-add-media-videos.png)
 
 This example:
 
 - Includes `controls`, `autoplay`, and `loop` attributes.
-- Provides a thumbnail for the video with `poster="spooky_ghost.jpg"`.
-- Declares the source file for the video, `spooky_ghost.mp4`, and its MIME (Multipurpose Internet Mail Extensions) or media type, `video/mp4`.
+- Provides a thumbnail for the video with `poster="big_bunny.jpg"`.
+- Declares the source file for the video, `big_bunny.mp4`, and its MIME (Multipurpose Internet Mail Extensions) or media type, `video/mp4`.
 - Provides a fallback text that allows the user to download the video instead.
 
 To modify the original example to support the `AV1` video codec and fallback to the `H.264` video codec:
 
 ```html
-<video controls autoplay loop poster="spooky_ghost.jpg">
-  <source type="video/mp4" src="spooky_ghost_av1.mp4" />
-  <source type="video/mp4" src="spooky_ghost_h264.mp4" />
+<video controls autoplay loop poster="big_bunny.jpg">
+  <source type="video/mp4" src="big_bunny_av1.mp4" />
+  <source type="video/mp4" src="big_bunny_h264.mp4" />
 
   Sorry, your browser doesn't support this video. Click
-  <a href="spooky_ghost_h264.mp4">here</a> to download it instead.
+  <a href="big_bunny_h264.mp4">here</a> to download it instead.
 </video>
 ```
 
@@ -93,23 +96,13 @@ Captions can be added as a child of the `<video>` element using the `<track>` ta
 - `src` is the actual location of the caption track. Text tracks such as subtitles and captions use the `WebVTT` format as indicated by the `.vtt` extension.
 
 ```html
-<video controls poster="spooky_ghost.jpg">
-  <source type="video/mp4" src="spooky_ghost_av1.mp4" />
-  <source type="video/mp4" src="spooky_ghost_h264.mp4" />
-  <track
-    kind="caption"
-    label="English"
-    srclang="en"
-    src="spooky_ghost-en.vtt"
-  />
-  <track
-    kind="caption"
-    label="Español"
-    srclang="es"
-    src="spooky_ghost-es.vtt"
-  />
+<video controls poster="big_bunny.jpg">
+  <source type="video/mp4" src="big_bunny_av1.mp4" />
+  <source type="video/mp4" src="big_bunny_h264.mp4" />
+  <track kind="caption" label="English" srclang="en" src="big_bunny-en.vtt" />
+  <track kind="caption" label="Español" srclang="es" src="big_bunny-es.vtt" />
 
   Sorry, your browser doesn't support this video. Click
-  <a href="spooky_ghost_h264.mp4">here</a> to download it instead.
+  <a href="big_bunny_h264.mp4">here</a> to download it instead.
 </video>
 ```

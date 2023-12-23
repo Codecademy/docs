@@ -1,1 +1,1 @@
-content/general/concepts/modulo/modulo.md
+content/uiux/concepts/design-software/design-software.md
