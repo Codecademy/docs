@@ -1,6 +1,6 @@
 ---
 Title: 'Gaussian Activation Function'
-Description: 'The Gaussian activation function takes the input and transforms it into a curve that looks like a bell, where the resulting values are between 0 and 1.'
+Description: 'The Gaussian activation function takes the input and transforms it into a Gaussian or Normal Distribution curve, with the output values varying depending on the specific implementation and parameters.'
 Subjects:
   - 'Machine Learning'
   - 'Data Science'
@@ -11,16 +11,15 @@ Tags:
   - 'Neural Networks'
   - 'Functions'
 CatalogContent:
-  - 'machine-learning'
-  - 'paths/data-science'
+  - 'paths/machine-learning-ai-engineering-foundations'
+'intro-to-ai-strategy'
 ---
 
-A **gaussian activation function** is a mathematical function also known as the normal distribution or bell curve function. It is a fundamental concept in statistics and probability theory often used in AI and neural networks as a probability distribution function to model the output of a neuron. 
+A **Gaussian activation function** is a mathematical function known as the normal distribution or bell curve function. It is a fundamental concept in statistics and probability theory often used in AI and neural networks as a probability distribution function to model the output of a neuron. 
 
 ## Gaussian Function
 
-Characterized by its bell-shaped graph, where most data points are near the middle (average), and the likelihood of getting values decreases as you move away from the average. This curve is symmetric, meaning that the probabilities of getting values above the
-average are the same as getting values below the average.
+Characterized by its bell-shaped graph, where most data points are near the middle (average), and the likelihood of getting values decreases as you move away from the average. This curve is symmetric, meaning that the probabilities of getting values above the average are the same as getting values below the average.
 
 ![1D Gaussian function](<../../../../../../media/1D Gaussian Function.png>)
 
@@ -28,14 +27,14 @@ average are the same as getting values below the average.
 
 ## Advantages and Disadvantages of the Gaussian Activation Function
 
-**Advantages**: 
-- Smooth and Continuous. The Gaussian activation function is smooth and continuous everywhere, making it fully differentiable with a consistent gradient. This property simplifies the process for optimization algorithms to find the best solution.
-- Non-Linear Properties. It introduces non-linearity to the neural network, enabling the network to capture complex relationships between inputs and outputs.
+### Advantages: 
+- Smooth and Continuous: The Gaussian activation function is smooth and continuous everywhere, making it fully differentiable with a consistent gradient. This property simplifies the process for optimization algorithms to find the best solution.
+- Non-Linear Properties: It introduces non-linearity to the neural network, enabling the network to capture complex relationships between inputs and outputs.
 
-**Disadvantages**: 
-- Risk of Overfitting. A more complex network can lead to overfitting, where the model overly specializes in the training data and fails to generalize to new, unseen data.
-- Increased Network Complexity. Implementing the Gaussian function can add complexity to the neural network, often requiring more computational power and time for training.
-- Potential for Local Minima Traps. The Gaussian function may increase the likelihood of the network getting trapped in local minima during the optimization process. This can hinder the achievement of the most optimal solutions.
+### Disadvantages: 
+- Risk of Overfitting: A more complex network can lead to overfitting, where the model overly specializes in the training data and fails to generalize to new, unseen data.
+- Increased Network Complexity: Implementing the Gaussian function can add complexity to the neural network, often requiring more computational power and time for training.
+- Potential for Local Minima Traps: The Gaussian function may increase the likelihood of the network getting trapped in local minima during the optimization process. This can hinder the achievement of the most optimal solutions.
 
 ## Practical Uses for Gaussian Activation Functions
 
