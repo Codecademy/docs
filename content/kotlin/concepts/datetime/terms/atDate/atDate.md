@@ -32,7 +32,6 @@ This example demonstrates combining a time and a date:
 import java.time.LocalDate
 import java.time.LocalTime
 import java.time.LocalDateTime
-
 fun main() {
   val date = LocalDate.of(2023, 12, 25)
   val time = LocalTime.of(15, 30)
