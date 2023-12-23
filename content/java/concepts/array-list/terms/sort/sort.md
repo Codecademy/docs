@@ -59,15 +59,15 @@ In this Example, strings implement the `Comparable` interface, so they can be so
 import java.util.Arrays;
 
 public class Main {
-    public static void main(String[] args) {
-        String[] names = {"Alice", "Bob", "Charlie", "David"};
+  public static void main(String[] args) {
+    String[] names = {"Alice", "Bob", "Charlie", "David"};
 
-        // Sorting the array of strings in ascending order
-        Arrays.sort(names);
+    // Sorting the array of strings in ascending order
+    Arrays.sort(names);
 
-        // Printing the sorted array
-        System.out.println("Sorted Array: " + Arrays.toString(names));
-    }
+    // Printing the sorted array
+    System.out.println("Sorted Array: " + Arrays.toString(names));
+  }
 }
 ```
 
@@ -88,14 +88,14 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 public class Main {
-    public static void main(String[] args) {
-        String[] names = {"Alice", "Bob", "Charlie", "David"};
+  public static void main(String[] args) {
+    String[] names = {"Alice", "Bob", "Charlie", "David"};
 
-        // Sorting the array of strings by length
-        Arrays.sort(names, Comparator.comparing(String::length));
+    // Sorting the array of strings by length
+    Arrays.sort(names, Comparator.comparing(String::length));
 
-        System.out.println("Sorted Array by Length: " + Arrays.toString(names));
-    }
+    System.out.println("Sorted Array by Length: " + Arrays.toString(names));
+  }
 }
 ```
 
