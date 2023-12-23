@@ -13,7 +13,7 @@ CatalogContent:
 ---
 
 
-In Java, `.subList()` method is a powerful feature of the [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list) class that allows you to obtain a portion of the list based on specified indices. This method provides a convenient way to create a sublist containing elements from the original `ArrayList`.
+In Java, `.subList()` method is a powerful feature of the List interface that allows one to obtain a portion of the list based on specified indices. This method provides a convenient way to create a sublist containing elements from the original List.
 
 ## Syntax
 
