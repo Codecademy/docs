@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.atDate()`** method in Kotlin is a powerful tool that combines a date and time into a `LocalDateTime` object. This method is particularly useful when you need to create a complete timestamp by merging separate `LocalDate` and `LocalTime` instances.
+The **`.atDate()`** method in Kotlin is a function that combines date and time into a `LocalDateTime` object. This method is beneficial when creating a complete timestamp by merging separate `LocalDate` and `LocalTime` instances.
 
 ## Syntax
 
@@ -34,17 +34,15 @@ import java.time.LocalTime
 import java.time.LocalDateTime
 
 fun main() {
-    val date = LocalDate.of(2023, 12, 25)
-    val time = LocalTime.of(15, 30)
-    val dateTime = time.atDate(date)
-
-    println(dateTime)
+  val date = LocalDate.of(2023, 12, 25)
+  val time = LocalTime.of(15, 30)
+  val dateTime = time.atDate(date)
+  println(dateTime)
 }
 ```
 
-The output will be:
+The above example will give the following output:
 
 ```shell
 2023-12-25T15:30
 ```
-
