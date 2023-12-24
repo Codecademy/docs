@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/ios-developer'
 ---
 
-**Notifications** in SwiftUI are presented with two options types to keep users informed and engaged: Local notifications and Remote(push) notifications. Local notifications differ from remote (push) notifications in that they don't depend on a server to deliver messages to users' devices. While remote (push) notifications use Apple's Push Notification Service (APNS) for message delivery, local notifications are self-contained within the app. 
+**Notifications** in SwiftUI are presented with two options types to keep users informed and engaged: Local notifications and Remote(push) notifications. Local notifications differ from remote (push) notifications in that they don't depend on a server to deliver messages to users' devices. While remote (push) notifications use Apple's Push Notification Service (APNS) for message delivery, local notifications are self-contained within the app.
 UserNotifications framework helps to schedule and manage notifications in both cases whether they are local or remote (push) notifications.
 
 ## Local Notifications
@@ -81,7 +81,6 @@ Content and interaction: Remote notifications can include media like images and 
 
 Implementation in SwiftUI: Implementing push notifications in a SwiftUI app involves configuring the app to receive remote notifications, handling the registration process with APNS, and then dealing with the incoming notification data appropriately.
 
-
 Here is the code example handling Remote (push) notifications in SwiftUI:
 
 ### Request notification permission
@@ -120,16 +119,16 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 
 ```
 
-Second step is to link AppDelegate with SwiftUI app. To integrate the app delegate into the SwiftUI app lifecycle, the `UIApplicationDelegateAdaptor` property wrapper is used. Incorporate your delegate into your app's structure as shown in the following code to ensure that the application's launch code is executed. 
+Second step is to link AppDelegate with SwiftUI app. To integrate the app delegate into the SwiftUI app lifecycle, the `UIApplicationDelegateAdaptor` property wrapper is used. Incorporate your delegate into your app's structure as shown in the following code to ensure that the application's launch code is executed.
 
 ```swift
 import SwiftUI
 
 @main
 struct RemotePushAppApp: App {
-    
+
     @UIApplicationDelegateAdaptor private var appDelegate: AppDelegate
-    
+
     var body: some Scene {
         WindowGroup {
             ContentView()
