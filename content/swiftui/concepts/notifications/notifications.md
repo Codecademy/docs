@@ -136,6 +136,6 @@ struct RemotePushAppApp: App {
 }
 ```
 
-![SwiftUI Remote Push Notifications](../../../../media/swiftui-remote-push-notification.png)
+![SwiftUI Remote Push Notifications](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-remote-push-notification.png)
 
 Push notifications offer a variety of functionalities. For instance, you can implement a Push Notification extension to manage elements like images, videos, or sounds, enhancing the interactivity of your notifications. Additionally, it's possible to activate push notifications in response to the user's location. Remote notifications serve as a powerful tool for marketing and communication, capable of boosting app engagement and driving revenue.
