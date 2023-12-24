@@ -37,10 +37,7 @@ The example code below defines an array of emojis, creates a band scale, and log
 var emojis = ['🍎', '🍌', '🍇', '🍊', '🍓'];
 
 // Create a band scale
-var xScale = d3
-  .scaleBand()
-  .domain(emojis)
-  .range([0, 200]) // Width of the visualization
+var xScale = d3.scaleBand().domain(emojis).range([0, 200]); // Width of the visualization
 
 // Log the positions of emojis
 emojis.forEach(function (emoji) {
@@ -48,7 +45,7 @@ emojis.forEach(function (emoji) {
 });
 ```
 
->> **Note:** Remember to include this script in the html file for the example to function properly.
+> > **Note:** Remember to include this script in the html file for the example to function properly.
 
 Finally, when the HTML file is opened in a browser and the console is accessed within the inspect tool, an output similar to the following should be observed:
 
