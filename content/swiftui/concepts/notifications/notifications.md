@@ -67,6 +67,8 @@ func scheduleTimeBasedNotification() {
 
 ```
 
+![SwiftUI Local Notifications](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-local-notifications.png)
+
 ## Remote (Push) Notifications
 
 Definition: Remote notifications, also known as push notifications, are sent from a server directly to the user's device. Push notifications are effective because they can be received even when the app is not in use, and they offer the ability to be extensively personalized and tailored for each individual user. They are commonly used for real-time updates like news alerts, social media updates, or other timely information.
