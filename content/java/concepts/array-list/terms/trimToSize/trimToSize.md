@@ -5,8 +5,8 @@ Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
-  - 'Arrays'
   - 'Data Types'
+  - 'Methods'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
@@ -24,7 +24,7 @@ list.trimToSize();
 
 ## Example
 
-The following example creates an `ArrayList`, uses [`.add()`](https://www.codecademy.com/resources/docs/java/array-list/add) to append elements to it, and then trims its capacity to match its size using `.trimToSize()`:
+The following example creates an `ArrayList`, uses [`.add()`](https://www.codecademy.com/resources/docs/java/array-list/add) method to append elements to it, and then trims its capacity to match its size using `.trimToSize()`:
 
 ```java
 import java.util.ArrayList;
@@ -42,7 +42,6 @@ public class Main {
     // Trim the capacity to match the size
     list.trimToSize();
 
-    // Display the trimmed capacity and size
     System.out.println("Trimmed Capacity: " + list.size());
   }
 }
