@@ -30,28 +30,27 @@ d3.scaleBand()
 
 ## Example
 
-The example code below defines an array of emojis, creates a band scale, and logs the x-axis positions of each emoji.
+The example code below defines an array of emojis, creates a band scale, and logs the x-axis positions of each emoji:
 
 ```js
-    // Fun emoji categories
-    var emojis = ['🍎', '🍌', '🍇', '🍊', '🍓'];
+// Fun emoji categories
+var emojis = ['🍎', '🍌', '🍇', '🍊', '🍓'];
 
-    // Create a band scale
-    var xScale = d3
-      .scaleBand()
-      .domain(emojis)
-      .range([0, 200]) // Width of the visualization
+// Create a band scale
+var xScale = d3
+  .scaleBand()
+  .domain(emojis)
+  .range([0, 200]) // Width of the visualization
 
-    // Log the positions of emojis
-    emojis.forEach(function (emoji) {
-      console.log(`Position of ${emoji}: ${xScale(emoji)}`);
-    });
+// Log the positions of emojis
+emojis.forEach(function (emoji) {
+  console.log(`Position of ${emoji}: ${xScale(emoji)}`);
+});
 ```
 
-Keep in mind you must include this `script` in your `html` file in order the example to work:
+>> **Note:** Remember to include this script in the html file for the example to function properly.
 
-Finally if you open you're html file in browser & go to console in inspect tool you should see a similar output like below.
-Console Output:
+Finally, when the HTML file is opened in a browser and the console is accessed within the inspect tool, an output similar to the following should be observed:
 
 ```shell
     Position of 🍎: 0
