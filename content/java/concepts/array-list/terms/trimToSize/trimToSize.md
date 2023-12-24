@@ -7,7 +7,6 @@ Subjects:
 Tags:
   - 'Data Types'
   - 'Methods'
-  - 'Methods'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
