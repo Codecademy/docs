@@ -22,7 +22,7 @@ git mergetool
 
 ## Example
 
-Below is an example on how to use `git mergetool`. The developer runs the command and the merge conflict appears.
+Below is an example on how to use `git mergetool`. The developer runs the command and the merge conflict appears:
 
 ```git
 git mergetool
