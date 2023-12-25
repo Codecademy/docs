@@ -1,5 +1,5 @@
 ---
-Title: 'UI/UX Focus Group'
+Title: 'Focus Group'
 Description: 'A comprehensive guide to conducting and leveraging UI/UX focus groups for user-centered design.'
 Subjects:
   - 'Web Design'
