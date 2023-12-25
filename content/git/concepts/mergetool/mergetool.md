@@ -48,6 +48,6 @@ git commit -m "docs: update information about tutorials"
 
 Here are a list of other tools that are used to solve merge conflicts:
 
-- [Kaleidoscope](https://kaleidoscope.app/): This is often used by developers to resolve merge conflicts due to its use of different highlighted colors and powerful features ranging from a Convert to Merge command, text filters that remove unimportant data, and a debugger.
-- [Visual Studio Code](https://code.visualstudio.com/docs/sourcecontrol/overview#_3way-merge-editor): This Integrated Development Environment (IDE) has a built-in 3-way merge editor, which displays the incoming changes to file and provides a button that enables the the changes to be accepted into the file. This allows developers to easily edit files and resolve conflicts.
-- [Sublime Merge](https://www.sublimemerge.com/): Tool comes in a paid and free version. It is deemed to have a great user interface and intuitively easy to use.
+- [**Kaleidoscope**](https://kaleidoscope.app/): Developers often use this to resolve merge conflicts due to its use of different highlighted colors and powerful features ranging from a Convert to Merge command, text filters that remove unimportant data, and a debugger.
+- [**Visual Studio Code**](https://code.visualstudio.com/docs/sourcecontrol/overview#_3way-merge-editor): This Integrated Development Environment (IDE) has a built-in 3-way merge editor, which displays the incoming changes to the file and provides a button that enables the changes to be accepted into the file. This allows developers to edit files and resolve conflicts easily.
+- [**Sublime Merge**](https://www.sublimemerge.com/): Tool comes in a paid and free version. It is deemed to have a great user interface and is intuitively easy to use.
