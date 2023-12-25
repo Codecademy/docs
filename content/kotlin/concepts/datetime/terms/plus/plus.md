@@ -1,6 +1,6 @@
 ---
 Title: '.plus()'
-Description: 'Adds a datetime object with a specified datetime period'
+Description: 'Adds a datetime object with a specified datetime period.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
@@ -13,11 +13,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.plus()`** function adjusts a datetime object by adding a specified period of time to it, such as days, hours or minutes. It can be applied to instances of datetime classes provided by the Kotlin datetime package, such as `Instant`, `LocalDate`, `DateTimePeriod` and `DatePeriod`.
+The **`.plus()`** function adjusts a DateTime object by adding a specified period of time to it, such as days, hours, or minutes. It can be applied to instances of datetime classes provided by the Kotlin datetime package, such as `Instant`, `LocalDate`, `DateTimePeriod`, and `DatePeriod`.
 
 ## Syntax
 
-The syntax of the `.plus()` function depends on the type of datetime class and the arguments. The following are examples of possible syntaxes.
+The syntax of the `.plus()` function depends on the type of datetime class and the arguments. The following are examples of possible syntaxes:
 
 ```pseudo
 // for an Instant object
@@ -43,16 +43,13 @@ The function returns a new <DateTimeType> instance with the given period added t
 
 ## Example
 
-The following example shows how to use the `.plus()` function to add a day to a given date.
+The following example shows how to use the `.plus()` function to add a day to a given date:
 
 ```kotlin
-import kotlinx.datetime.* // import all classes from datime package
+import kotlinx.datetime.*
 
 fun main() {
-  //Create an Instant for 2023-01-01 12:00 UTC zone from an ISO 8601 String
   val randomDate = "2023-01-01T12:00:00.00+00:00".toInstant()
-
-  // Create a new DateTimePeriod for 1 day
   val oneDay = DateTimePeriod(days = 1)
 
   // add one day to the current date
@@ -62,7 +59,7 @@ fun main() {
 }
 ```
 
-The output is as follows:
+The above example will give the following output:
 
 ```shell
 2023-01-02T12:00:00Z
