@@ -20,9 +20,8 @@ In Java, `.subList()` method is a powerful feature of the List interface that al
 List<E> subList (int fromIndex, int toIndex)
 ```
 
-`fromIndex`: The starting index of the sublist.
-
-`toIndex`: The ending index of the sublist.
+- `fromIndex`: The starting index of the sublist.
+- `toIndex`: The ending index of the sublist.
 
 ## Example
 
