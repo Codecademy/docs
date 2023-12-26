@@ -42,3 +42,13 @@ setTimeout(function() {
   myElement.classed("highlight", false);
 }, 2000);
 ```
+
+This example results in the following output:
+
+```shell
+var myElement = d3.select("#myElement");
+myElement.classed("highlight", true);
+setTimeout(function() {
+  myElement.classed("highlight", false);
+}, 2000);
+```
