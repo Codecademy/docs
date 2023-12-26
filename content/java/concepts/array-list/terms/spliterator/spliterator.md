@@ -14,6 +14,7 @@ CatalogContent:
 ---
 
 In [Java](https://www.codecademy.com/resources/docs/java), a **`Spliterator`** is an [interface](https://www.codecademy.com/resources/docs/java/interfaces) introduced in Java 8 as part of the Stream API(Application Programming Interface). It provides a way to perform parallel traversal over the elements of a source, such as an [array](https://www.codecademy.com/resources/docs/java/arrays), a generator function, etc.
+
 The `ArrayList` [class](https://www.codecademy.com/resources/docs/java/classes) in Java also implements the **`Spliterator`** interface using the **`.spliterator()`** [method](https://www.codecademy.com/resources/docs/java/methods). This method returns a `Spliterator` over the elements in `ArrayList`. It is considered a better way to iterate over elements as it gives more control over them.
 
 The `.spliterator()` method can be combined with a number of other methods:
@@ -99,8 +100,6 @@ public class ArrayListSpliteratorExample {
 
     // Iterating elements using the .forEachRemaining() method
     spliterator.forEachRemaining(System.out::println);
-
-    System.out.println("\n");
 
     System.out.println("Second Half:");
 
