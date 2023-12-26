@@ -5,8 +5,9 @@ Subjects:
 - 'Web Development'
 - 'Computer Science'
 Tags: 
-- 'stylization'
-- 'appearance control'
+- 'D3'
+- 'CSS'
+- 'Style'
 CatalogContent:
 - 'Learn Git&GitHub'
 - 'Contributing to the Codecademy Docs Repository'
