@@ -52,11 +52,13 @@ public class SubListExample {
   }
 }
 ```
+
+This is the output of the above code:
+
 ```shell
 Original List: [Item A, Item B, Item C, Item D, Item E]
 
 SubList(inclusive index 1, exclusive index 4): [Item B, Item C, Item D]
 ```
-
 
 In this example the original [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list) is created with five elements. The `.subList(1, 4)` call creates a sublist containing elements form index 1 (inclusive) to index 4 (exclusive). The result is then printed to the console.
