@@ -32,7 +32,11 @@ ContentCatalog:
  
 ## Example
 
-In the example below there are many elements of the web page that are sure to cause frustration for any user. A user might find it difficult to differentiate between what is an item for sale and what is an advertisement. There are also many accessibility issues and following [Accessibility Best Practices](https://www.w3.org/WAI/tips/designing/Accessibility) will aid in solving many common issues.
+Some common examples of user pain points are:
+ - The number of steps it takes to complete a task on a website or application
+ - Connfusing navigation
+ - Loading times
 
-![Example of a crowded website layout](https://raw.githubusercontent.com/Codecademy/docs/main/media/user-pain-points-example.png)
+[Accessibility Best Practices](https://www.w3.org/WAI/tips/designing/Accessibility)
+
 
