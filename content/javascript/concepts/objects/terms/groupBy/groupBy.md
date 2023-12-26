@@ -32,12 +32,13 @@ const subs = [
   { userName: 'Lisa', yearSub: 2022 },
   { userName: 'Akim', yearSub: 2020 },
   { userName: 'Lola', yearSub: 2020 },
-  ];
+];
 
-const subsByYear = Object.groupBy(subs, user => {
+const subsByYear = Object.groupBy(subs, (user) => {
   return user.yearSub;
-  });
+});
 ```
+
 > **Note:** To run this code, it is necessary to add a library like [Lodash](https://lodash.com/docs/4.17.15#groupBy).
 
 The output of the above code will be:
