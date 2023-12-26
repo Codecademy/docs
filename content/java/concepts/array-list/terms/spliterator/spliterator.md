@@ -34,6 +34,8 @@ Here, `T` represents the type of elements in the `list` [collection](https://www
 
 Let's take a look at some examples to understand the `.spliterator()` method.
 
+Let's take a look at some examples to understand the `.spliterator()` method.
+
 ### Example 1
 
 In this example, the `.spliterator()` method is called on the `ArrayList` instance named `arrayList` to obtain a `Spliterator` for its elements:
