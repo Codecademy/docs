@@ -9,8 +9,10 @@ Tags:
 - 'CSS'
 - 'Style'
 CatalogContent:
-- 'Learn Git&GitHub'
-- 'Contributing to the Codecademy Docs Repository'
+- 'learn-css'
+- 'learn-d3'
+- 'paths/data-science'
+- 'paths/front-end-engineer-career-path'
 ---
 
 The **'.classed()'** method in D3.js is used to manipulate the classes associated with selected DOM elements.
