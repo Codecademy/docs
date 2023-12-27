@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.decodeFromByteArray()`** method is a part of the **kotlinx.serialization** library and is used to deserialize/decode (convert) a byte array into a Kotlin object. Commonly used when data in a byte array format is transmitted and needs to be reverted into a Kotlin object. 
+The **`.decodeFromByteArray()`** method is a part of the **kotlinx.serialization** library and is used to deserialize/decode (convert) a byte array into a Kotlin object. Commonly used when data in a byte array format is transmitted and needs to be reverted into a Kotlin object.
 
 ## Syntax
 
