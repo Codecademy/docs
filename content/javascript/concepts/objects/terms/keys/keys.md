@@ -14,7 +14,7 @@ CatalogContent:
 
 The `.keys()` static method extracts keys from an object and returns them as an array. It only returns the keys for the object's property and only for enumerable properties.
 
->**Note:** The order of the keys in the resulting array is not guaranteed to be the same as the order in which they were defined in the object.
+> **Note:** The order of the keys in the resulting array is not guaranteed to be the same as the order in which they were defined in the object.
 
 ## Syntax
 
