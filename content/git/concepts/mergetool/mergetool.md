@@ -35,7 +35,7 @@ If you need help, check out our templates.
 >>>>>>> UPDATING-THE-DOCS
 ```
 
-- `<<<<<<< HEAD`: where the developer's changes appear.  
+- `<<<<<<< HEAD`: where the developer's changes appear.
 - `====`: Divides the developer's changes from the changes in the other branch, followed by `>>>>>>> UPDATING-THE-STYLE-GUIDE`
 
 To complete this command, the developer removes the conflict markers `<<<<<<<`, `=======`, `>>>>>>>`, and pushes the changes to the `updating-the-style-guide` branch with the following commit message:
