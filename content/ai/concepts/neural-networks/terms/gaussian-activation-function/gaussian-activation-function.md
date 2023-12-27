@@ -12,7 +12,7 @@ Tags:
   - 'Functions'
 CatalogContent:
   - 'paths/machine-learning-ai-engineering-foundations'
-'intro-to-ai-strategy'
+  - 'intro-to-ai-strategy'
 ---
 
 A **Gaussian activation function** is a mathematical function known as the normal distribution or bell curve function. It is a fundamental concept in statistics and probability theory often used in AI and neural networks as a probability distribution function to model the output of a neuron. 
