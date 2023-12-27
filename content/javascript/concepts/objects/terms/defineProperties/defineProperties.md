@@ -1,6 +1,6 @@
 ---
 Title: '.defineProperties()'
-Description: 'Defines new or modifies existing properties directly on an object'
+Description: 'Defines new or modifies existing properties directly on an object.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -31,7 +31,7 @@ Object.defineProperties(object, descriptors)
 
 ## Example
 
-In this example, `Object.defineProperties` defines two properties (`property1` and `property2`) on the `myObject` object. Each property has a descriptor object specifying attributes like `value` and `writable`.
+In this example, `Object.defineProperties` defines two properties (`property1` and `property2`) on the `myObject` object. Each property has a descriptor object specifying attributes like `value` and `writable`:
 
 ```js
 const myObject = {};
@@ -70,7 +70,7 @@ Hello
 
 ## Codebyte Example
 
-In this example, `computedProperty` is not a direct property with a fixed value. Instead, it is dynamically computed based on the private variable `_value`, and the `get` and `set` functions control its behavior. Try running the code block below to understand better how the `.defineProperties()` method works.
+In this example, `computedProperty` is not a direct property with a fixed value. Instead, it is dynamically computed based on the private variable `_value`, and the `get` and `set` functions control its behavior. Try running the code block below to understand better how the `.defineProperties()` method works:
 
 ```codebyte/javascript
 const myObject = {
