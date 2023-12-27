@@ -27,7 +27,7 @@ where `<value>` can be one of the following:
 - Percentage value: `5%`
 - Keyword value: `auto`, `inherit`
 
-**Note:** If none of the ancestors have `position: relative` declared, the absolute positioned element will traverse the DOM until it reaches the `body` tag, at which point it will position itself at the top of the page regardless of its location in the source HTML.
+**Note:** If none of the ancestors have `position: relative` declared, the absolute positioned element will traverse the DOM until it reaches the `<body>` tag, at which point it will position itself at the top of the page regardless of its location in the source HTML.
 
 ## Example 1
 
