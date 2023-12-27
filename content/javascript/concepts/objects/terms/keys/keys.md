@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `.keys()` static method extracts keys from an object and returns them as an array. `.keys()` only returns the keys for the object's property and only for enumerable properties.
+The `.keys()` static method extracts keys from an object and returns them as an array. It only returns the keys for the object's property and only for enumerable properties.
 
 >**Note:** The order of the keys in the resulting array is not guaranteed to be the same as the order in which they were defined in the object.
 
