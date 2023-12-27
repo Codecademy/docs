@@ -25,12 +25,12 @@ Characterized by its bell-shaped graph, where most data points are near the midd
 
 ## Advantages and Disadvantages of the Gaussian Activation Function
 
-### Advantages:
+### Advantages
 
 - Smooth and Continuous: The Gaussian activation function is smooth and continuous everywhere, making it fully differentiable with a consistent gradient. This property simplifies the process for optimization algorithms to find the best solution.
 - Non-Linear Properties: It introduces non-linearity to the neural network, enabling the network to capture complex relationships between inputs and outputs.
 
-### Disadvantages:
+### Disadvantages
 
 - Risk of Overfitting: A more complex network can lead to overfitting, where the model overly specializes in the training data and fails to generalize to new, unseen data.
 - Increased Network Complexity: Implementing the Gaussian function can add complexity to the neural network, often requiring more computational power and time for training.
