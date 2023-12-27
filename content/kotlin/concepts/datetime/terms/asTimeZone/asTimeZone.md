@@ -30,9 +30,11 @@ In the following example a `TimeZone` object, `timeZone` with the ID `America/ L
 import kotlinx.datetime*
 import kotlinx.serializer*
 
-val timeZone = TimeZone.getTimeZone("America/Los_Angeles")
-val asString = timeZone.asTimeZone()
-print(asString)
+fun main() {
+  val timeZone = TimeZone.getTimeZone("America/Los_Angeles")
+  val asString = timeZone.asTimeZone()
+  print(asString)
+}
 ```
 
 The output will be
