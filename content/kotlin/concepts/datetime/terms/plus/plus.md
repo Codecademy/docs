@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.plus()`** function adjusts a DateTime object by adding a specified period of time to it, such as days, hours, or minutes. It can be applied to instances of datetime classes provided by the Kotlin datetime package, such as `Instant`, `LocalDate`, `DateTimePeriod`, and `DatePeriod`.
+The **`.plus()`** function adjusts a DateTime object by adding a specified period of time to it, such as days, hours, or minutes. It can be applied to instances of `datetime` classes provided by the Kotlin `datetime` package, such as `Instant`, `LocalDate`, `DateTimePeriod`, and `DatePeriod`.
 
 ## Syntax
 
@@ -37,7 +37,7 @@ fun DateTimePeriod.plus(DateTimePeriod): DateTimePeriod
 fun DatePeriod.plus(DatePeriod): DatePeriod
 ```
 
-The function returns a new <DateTimeType> instance with the given period added to the original datetime object. Refer [here](https://www.codecademy.com/resources/docs/kotlin/datetime/DateTimePeriod) for more information on `DateTimePeriod`.
+The function returns a new <DateTimeType> instance with the given period added to the original `datetime` object. Refer [here](https://www.codecademy.com/resources/docs/kotlin/datetime/DateTimePeriod) for more information on `DateTimePeriod`.
 
 > **Note:** An `DateTimeArithmeticException` will be thrown if the result exceeds the boundaries of the value type or the unit.
 
