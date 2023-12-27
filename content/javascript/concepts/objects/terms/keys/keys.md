@@ -3,11 +3,11 @@ Title: '.keys()'
 Description: 'Extracts keys from an object and returns them as an array'
 Subjects:
   - 'Web Development'
-  - 'Computer Science'  
+  - 'Computer Science'
 Tags:
   - 'Objects'
-  - 'Methods'  
-CatalogContent: 
+  - 'Methods'
+CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
@@ -34,7 +34,7 @@ Here's a simple example that extracts keys from an object and returns them as an
 const myObject = {
   name: 'John',
   age: 25,
-  city: 'London'
+  city: 'London',
 };
 const keysArray = Object.keys(myObject);
 console.log(keysArray);
