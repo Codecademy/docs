@@ -24,7 +24,7 @@ The basic syntax is:
 Object.keys(obj)
 ```
 
-`obj`: An object
+- `obj`: An object from which the keys are extracted.
 
 ## Example
 
