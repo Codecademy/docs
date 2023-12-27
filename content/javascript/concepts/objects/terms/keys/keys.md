@@ -27,6 +27,7 @@ Object.keys(obj)
 ## Example
 
 Here's a simple example that extracts keys from an object and returns them as an array:
+
 ```js
 const myObject = {
   name: 'John',
