@@ -12,11 +12,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.trimToSize()`** method of the `ArrayList` class adjusts the capacity of the list to be the same as its size.
+The **`.trimToSize()`** method of the [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list) class adjusts the capacity of the list to be the same as its size.
 
 ## Syntax
 
-The `.trimToSize()` method does not require any parameters. It adjusts the capacity of the `ArrayList` to be the same as its size:
+The `.trimToSize()` method does not require any parameters. It adjusts the capacity of the [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list) to be the same as its size:
 
 ```pseudo
 list.trimToSize();
@@ -24,7 +24,7 @@ list.trimToSize();
 
 ## Example
 
-The following example creates an `ArrayList`, uses [`.add()`](https://www.codecademy.com/resources/docs/java/array-list/add) method to append elements to it, and then trims its capacity to match its size using `.trimToSize()`:
+The following example creates an [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list), uses [`.add()`](https://www.codecademy.com/resources/docs/java/array-list/add) method to append elements to it, and then trims its capacity to match its size using `.trimToSize()`:
 
 ```java
 import java.util.ArrayList;
