@@ -4,7 +4,7 @@ Description: 'The mergetool command is used to activate a tool used to solve mer
 Subjects: 
   - 'Bash/Shell'
   - 'Developer Tools'
- Tags: 
+Tags: 
   - 'Git'
   - 'GitHub'
 CatalogContent: 
