@@ -1,13 +1,13 @@
 ---
-Title: 'mergetool' 
-Description: 'The mergetool command is used to activate a tool used to solve merge conflicts that occur in a branch.' 
-Subjects: 
+Title: 'mergetool'
+Description: 'The mergetool command is used to activate a tool used to solve merge conflicts that occur in a branch.'
+Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
-Tags: 
+Tags:
   - 'Git'
   - 'GitHub'
-CatalogContent: 
+CatalogContent:
   - 'learn-the-command-line'
   - 'learn-git'
 ---
