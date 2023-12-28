@@ -1,5 +1,5 @@
 ---
-Title: 'CSS Colors - color'
+Title: 'color'
 Description: 'To set color property values for an element.'
 Subjects:
   - 'Web Development'
@@ -31,7 +31,7 @@ The `<value>` of the color property can be any of the following:
 - Hexadecimal colors (e.g., `#ff0000`)
 
 
-## Examples
+## Example
 
 The `h1` tag is set to be orange in color and the `p` tag is set as pink in color. The background color, black/#000000/rgb(0,0,0), is only set for context:
 
