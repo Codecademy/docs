@@ -75,4 +75,4 @@ p {
 
 Three examples were given in the example block above, each of them would yield or translate to the same output:
 
-![image from codecademy workspace](/media/colors-image-from-workspace.png)
+![Image shows how the color property responds to different elements](https://raw.githubusercontent.com/Codecademy/docs/main/media/colors-image-output.png)
