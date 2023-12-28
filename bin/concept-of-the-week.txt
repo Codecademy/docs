@@ -1,1 +1,1 @@
-content/uiux/concepts/usability-heuristics/usability-heuristics.md
+content/sql/concepts/aggregate-functions/aggregate-functions.md

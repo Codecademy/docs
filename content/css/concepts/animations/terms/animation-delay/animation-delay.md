@@ -87,3 +87,11 @@ div {
   }
 }
 ```
+
+In example 1 the animation is delayed for two seconds then slides right for two seconds before the background color changes from blue to white.
+
+![Example 1, delay animation for 2 seconds](https://raw.githubusercontent.com/Codecademy/docs/main/media/animation-delay-example1.gif)
+
+In example 2 there are two animations, the first is delayed two seconds. Half way through the animation the background color changes to white and back to blue at the end. The second is delayed 6000ms then slides to the right for 5000ms.
+
+![Example 2, after the first animation delay the second animation for 6000 milliseconds](https://raw.githubusercontent.com/Codecademy/docs/main/media/animation-delay-example2.gif)
