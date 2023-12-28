@@ -56,3 +56,4 @@ of the newly appended paragraph.
 
 The output of the mentioned code is as follows:
 
+![d3 Selection .append()](https://raw.githubusercontent.com/Codecademy/docs/main/media/d3-selection-append.png)
