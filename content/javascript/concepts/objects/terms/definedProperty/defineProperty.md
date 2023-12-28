@@ -13,7 +13,6 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-
 The **`.defineProperty()`** method defines a property on an object, either creating a new property or modifying an existing one. The method returns the modified object with the specified property.
 
 ## Syntax
@@ -42,7 +41,7 @@ Object.defineProperty(person, 'name', {
   configurable: true,
 });
 
-console.log("Name:", person.name); 
+console.log('Name:', person.name);
 ```
 
 This above example will return the following output:
