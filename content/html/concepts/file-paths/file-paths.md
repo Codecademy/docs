@@ -4,7 +4,7 @@ Description: 'A file path describes the location of a file in a web sites folder
 Subjects:
   - 'Web Development'
   - 'Web Design'
-Tags:
+Tags:s
   - 'File Paths'
   - 'Files'
   - 'URL'
@@ -21,7 +21,6 @@ A **file path** describes the location of a file in a web site's folder structur
 - MP3 files
 - Style sheets
 - JavaScript code
-
 ## Absolute File Paths
 
 URL paths in HTML can be absolute paths, like a full URL, for example:
@@ -33,6 +32,10 @@ URL paths in HTML can be absolute paths, like a full URL, for example:
   The URL for this anchor element is an absolute file path.
 </a>
 ```
+
+Here is a helpful image to illustrate what a absolute filepath is.
+
+![Image not Found!](image-resources/abs-filepath.jpeg)
 
 ## Relative File Paths
 
@@ -50,6 +53,10 @@ Relative file paths begin with `./` followed by a path to the local file. `./` t
 </a>
 ```
 
+Here is a helpful image to illustrate a relative filepath is.
+
+![Image not Found!](image-resources/rel-filepath.jpeg)
+
 ## Root-Relative File Paths
 
 Root-relative paths are similar to absolute paths, but they start from the root of the website (domain) regardless of the current directory:
@@ -66,6 +73,14 @@ Path-relative file paths begin with a `/`. This forward slash signals to the web
 </a>
 ```
 
+Here is a helpful image to illustrate a root-relative filepath is.
+
+![Image not Found!](image-resources/root-relative-path.png)
+
+and here is what it looks like in a tree format where the node at the top is the 'root' node denoted by the **'/'** and the rest are the subdirectories in that root directory. 
+
+![Image not Found!](image-resources/root-relative-path-tree.jpeg)
+
 ## Link to a Specific Part of the Page
 
 The anchor element `<a>` can create hyperlinks to different parts of the same HTML document using the `href` attribute to point to the desired location with `#` followed by the `id` of the element to link to.
@@ -79,3 +94,7 @@ The anchor element `<a>` can create hyperlinks to different parts of the same HT
 
 <a href="#id-of-element-to-link-to">Take me to a different part of the page</a>
 ```
+
+Here is an example image that may be useful for implementation of the anchor element for the purpose going to a different part of the page.
+
+![Image not Found!](image-resources/anchor-specific-page.jpeg)
