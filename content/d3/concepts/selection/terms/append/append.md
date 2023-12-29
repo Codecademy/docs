@@ -51,8 +51,8 @@ Here's a simple `HTML` code that demonstrates the use of `.append()`:
 </html>
 ```
 
-In this example, D3.js selects the `<body>` element and appends a new `<p>` (paragraph) element to it. The `.text()` method is then used to set the text content 
-of the newly appended paragraph.
+In this example, D3.js selects the `<body>` element and appends a new `<p>` (paragraph) element to it. The `.text()` method is then used to set the text content of the newly appended paragraph.
+
 
 The output of the mentioned code is as follows:
 
