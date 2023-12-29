@@ -33,6 +33,12 @@ In the example given below, the value `5` is set to the attribute `radius` which
 d3.select('circle').attr('radius', 5);
 ```
 
+Output of the above example will be:
+
+```shell
+![example 1](https://raw.githubusercontent.com/vrun1208/docs/d3-styling-attr/media/d3-styling-attr-example.jpg)
+```
+
 The following example shows how to use the argument as a callback function. Based on the provided data, it is used to compute attribute values dynamically. Here, the circle's parameter is calculated using the function:
 
 ```js
