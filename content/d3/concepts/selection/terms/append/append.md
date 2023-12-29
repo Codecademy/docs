@@ -14,14 +14,14 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`selection.append()`** function is used to append a new element to the `HTML` tag name as given in the parameters to the end of the element. If the type that is given is a function then it must be evaluated for each element that is in the selection.
+The **`.append()`** function is used to append a new element to the `HTML` tag name as given in the parameters to the end of the element. If the type that is given is a function then it must be evaluated for each element that is in the selection.
 
 ## Syntax
 
 ```pseudo
-selection.append(name);
+selection.append(type);
 ```
-- `name`: This parameter takes a string that defines the type of the element.
+- `type`: This parameter takes a string that defines the type of the element.
 
 ## Example
 
