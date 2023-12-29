@@ -54,7 +54,6 @@ fun main() {
 
   // add one day to the current date
   val finalDate = randomDate.plus(oneDay, TimeZone.UTC)
-
   println(finalDate)
 }
 ```
