@@ -37,7 +37,7 @@ fun DateTimePeriod.plus(DateTimePeriod): DateTimePeriod
 fun DatePeriod.plus(DatePeriod): DatePeriod
 ```
 
-The function returns a new <DateTimeType> instance with the given period added to the original `datetime` object. Refer [here](https://www.codecademy.com/resources/docs/kotlin/datetime/DateTimePeriod) for more information on `DateTimePeriod`.
+The function returns a new `<DateTimeType>` instance with the given period added to the original `datetime` object. Refer [here](https://www.codecademy.com/resources/docs/kotlin/datetime/DateTimePeriod) for more information on `DateTimePeriod`.
 
 > **Note:** An `DateTimeArithmeticException` will be thrown if the result exceeds the boundaries of the value type or the unit.
 
