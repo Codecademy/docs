@@ -39,12 +39,12 @@ const myObject = {};
 Object.defineProperties(myObject, {
   property1: {
     value: 42,
-    writable: true
+    writable: true,
   },
   property2: {
     value: 'Hello',
-    writable: false
-  }
+    writable: false,
+  },
 });
 
 console.log(myObject.property1);
@@ -52,10 +52,10 @@ console.log(myObject.property2);
 
 // Trying to modify the object
 
-myObject.property1 = 100;  // Works because property1 is writable
-myObject.property2 = 'World';  // Doesn't work because property2 is not writable
+myObject.property1 = 100; // Works because property1 is writable
+myObject.property2 = 'World'; // Doesn't work because property2 is not writable
 
-console.log(myObject.property1);  
+console.log(myObject.property1);
 console.log(myObject.property2);
 ```
 
@@ -93,7 +93,7 @@ console.log(myObject.computedProperty);
 // Updating value of computedProperty
 myObject.computedProperty = 10;
 
-console.log(myObject.computedProperty); 
+console.log(myObject.computedProperty);
 ```
 
 > **Note:** This method is used when customizing the behavior of object properties or ensuring certain constraints on them.
