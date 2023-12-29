@@ -57,7 +57,6 @@ This is the output of the above code:
 
 ```shell
 Original List: [Item A, Item B, Item C, Item D, Item E]
-
 SubList(inclusive index 1, exclusive index 4): [Item B, Item C, Item D]
 ```
 
