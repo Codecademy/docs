@@ -80,3 +80,4 @@ In this example:
 
 The output of the mentioned code is as follows:
 
+![d3.transition animation](https://raw.githubusercontent.com/Codecademy/docs/main/media/d3-transition.gif)
