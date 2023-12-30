@@ -1,6 +1,6 @@
 ---
 Title: '.toArray()'
-Description: 'Converts a collection or iterable object into an array.'
+Description: 'Converts an ArrayList into an array.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
