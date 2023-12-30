@@ -98,7 +98,7 @@ Numbers Array: [1, 2, 3]
 
 ## Example 2
 
-In this example, a List named `colorsList` contains strings. `toArray()` method converts the list (which is also an iterable) to an array of objects. The resulting array, `colorsArray`, is then printed.
+In this example, the `.toArray()` method is used to convert an `ArrayList` named `colorsList` containing strings to an array of objects. Once converted, the resulting array named `colorsArray` is printed to the console:
 
 ```java
 import java.util.ArrayList;
