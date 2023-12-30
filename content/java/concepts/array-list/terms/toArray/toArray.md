@@ -108,7 +108,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        List<String> colorsList = new ArrayList<>();
+        ArrayList<String> colorsList = new ArrayList<>();
         colorsList.add("Red");
         colorsList.add("Green");
         colorsList.add("Blue");
