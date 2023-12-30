@@ -38,8 +38,7 @@ Object[] toArray();
 
 ## Example 1
 
-In the example below, a `List` named `fruitsList` containing strings. `toArray(T[] array)` method is used to convert the list to an array of strings.
-The resulting array, `fruitsArray`, is then printed.
+In the example below, the `.toArray()` method is used to convert an `ArrayList` named `fruitsList` containing [strings](https://www.codecademy.com/resources/docs/java/strings) to an array of strings. Once converted, the resulting array named `fruitsArray` is printed to the console:
 
 ```java
 import java.util.ArrayList;
