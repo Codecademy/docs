@@ -99,6 +99,8 @@ public class Main {
 }
 ```
 
+The above example will give the following output:
+
 ```shell
 Sorted Array by Length: [Bob, Alice, David, Charlie]
 ```
