@@ -17,22 +17,19 @@ The **`.toArray()`** method of the `ArrayList` [class](https://www.codecademy.co
 
 ## Syntax
 
-1. For collections (e.g., List)
+The following syntax is used when an `ArrayList` is converted into an array that returns another array:
 
 ```pseudo
-T[] toArray(T[] array);
+Object[] toArray()
 ```
 
-2. For iterable objects (e.g., Set)
+The following syntax is used when an `ArrayList` of type `T` is converted into an array that returns another array of type `T`:
 
 ```pseudo
-Object[] toArray();
+<T> T[] toArray(T[] array)
 ```
 
-- `T`: The type of elements in the collection.
-- `array`: The resulting array after conversion.
-
-
+Here, `array` is the resulting array after conversion.
 
 ## Example
 
