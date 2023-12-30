@@ -14,8 +14,7 @@ CatalogContent:
   - 'paths/web-development'
 ---
 
-In D3.js, the **`.transition()`** method is used to create a smooth transition between different states of a selection. Transitions provide a way to animate changes in the DOM elements over time.
-It allows to smoothly update the appearance of elements making visualizations more interactive and engaging.
+In D3.js, the **`.transition()`** method is used to create a smooth transition between different states of a selection. Transitions provide a way to animate changes in the DOM elements over time. It allows to smoothly update the appearance of elements making visualizations more interactive and engaging.
 
 ## Syntax
 
