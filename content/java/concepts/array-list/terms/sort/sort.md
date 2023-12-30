@@ -26,7 +26,7 @@ Arrays.sort(array);
 
 ### Example 1
 
-In this example, the `Arrays.sort(numbers)` method is used to sort the array of integers in ascending order. The result is then printed using `Arrays.toString()`.
+In this example, the `Arrays.sort(numbers)` method is used to sort the array of integers in ascending order. The result is then printed using `Arrays.toString()`:
 
 ```java
 import java.util.Arrays;
