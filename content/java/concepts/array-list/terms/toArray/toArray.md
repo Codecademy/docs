@@ -114,7 +114,7 @@ public class Main {
         colorsList.add("Green");
         colorsList.add("Blue");
 
-        // Converting Iterable to an array of Objects
+        // Converting the ArrayList to an array of objects
         Object[] colorsArray = colorsList.toArray();
 
         System.out.println("Colors Array: " + Arrays.toString(colorsArray));
