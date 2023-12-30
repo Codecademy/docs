@@ -81,7 +81,7 @@ Sorted Array: [Alice, Bob, Charlie, David]
 
 ### Example 3
 
-In this example, `Comparator.comparing(String::length)` is used to sort the array of strings based on their length.
+In this example, `Comparator.comparing(String::length)` is used to sort the array of strings based on their length:
 
 ```java
 import java.util.Arrays;
