@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.toArray()`** method is a common method in Java that is used to convert a collection or other iterable objects (such as a `List`) to an array. It returns an array containing all the elements in the collection in the correct order. The type of the returned array is determined by the runtime type of the specified array.
+The **`.toArray()`** method of the `ArrayList` [class](https://www.codecademy.com/resources/docs/java/classes) is a common method in [Java](https://www.codecademy.com/resources/docs/java) that converts an `ArrayList` into an [array](https://www.codecademy.com/resources/docs/java/arrays) and returns the newly created array. The returned array contains all the elements in the `ArrayList` in the correct order. The runtime type of the array is determined by the runtime type of the specified array.
 
 ## Syntax
 
