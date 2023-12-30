@@ -7,6 +7,7 @@ Subjects:
 Tags:
   - 'Arrays'
   - 'Data Types'
+  - 'Elements'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
