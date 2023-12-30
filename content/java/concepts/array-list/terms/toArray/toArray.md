@@ -31,8 +31,6 @@ The following syntax is used when an `ArrayList` of type `T` is converted into a
 
 Here, `array` is the resulting array after conversion.
 
-## Example
-
 ## Example 1
 
 In the example below, the `.toArray()` method is used to convert an `ArrayList` named `fruitsList` containing [strings](https://www.codecademy.com/resources/docs/java/strings) to an array of strings. Once converted, the resulting array named `fruitsArray` is printed to the console:
