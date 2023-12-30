@@ -47,7 +47,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        List<String> fruitsList = new ArrayList<>();
+        ArrayList<String> fruitsList = new ArrayList<>();
         fruitsList.add("Apple");
         fruitsList.add("Banana");
         fruitsList.add("Orange");
