@@ -37,7 +37,6 @@ In the example below, the `.toArray()` method is used to convert an `ArrayList` 
 
 ```java
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Arrays;
 
 public class Main {
@@ -59,36 +58,6 @@ The output should look like this:
 
 ```shell
 Fruits Array: [Apple, Banana, Orange]
-```
-
-### Example 2
-
-In this example, a Set named `numbersSet` contains integers. `toArray(T[] array)` method converts the set to an array of integers. The resulting array, `numbersArray`, is then printed.
-
-```java
-import java.util.HashSet;
-import java.util.Set;
-import java.util.Arrays;
-
-public class Main {
-    public static void main(String[] args) {
-        Set<Integer> numbersSet = new HashSet<>();
-        numbersSet.add(1);
-        numbersSet.add(2);
-        numbersSet.add(3);
-
-        // Converting Set to an array of Integers
-        Integer[] numbersArray = numbersSet.toArray(new Integer[0]);
-
-        System.out.println("Numbers Array: " + Arrays.toString(numbersArray));
-    }
-}
-```
-
-The output should look like this:
-
-```shell
-Numbers Array: [1, 2, 3]
 ```
 
 ## Example 2
