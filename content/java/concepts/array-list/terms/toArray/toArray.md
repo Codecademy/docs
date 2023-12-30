@@ -35,7 +35,7 @@ Object[] toArray();
 
 ## Example
 
-### Example 1
+## Example 1
 
 In the example below, a `List` named `fruitsList` containing strings. `toArray(T[] array)` method is used to convert the list to an array of strings.
 The resulting array, `fruitsArray`, is then printed.
