@@ -67,7 +67,6 @@ In this example, the `.toArray()` method is used to convert an `ArrayList` named
 ```java
 import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.List;
 import java.util.Arrays;
 
 public class Main {
