@@ -53,7 +53,7 @@ Sorted Array: [1, 2, 3, 5, 8]
 
 ### Example 2
 
-In this Example, strings implement the `Comparable` interface, so they can be sorted directly using Arrays.sort().
+In this example, strings implement the `Comparable` interface, so they can be sorted directly using `Arrays.sort()`:
 
 ```java
 import java.util.Arrays;
