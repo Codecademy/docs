@@ -1,1 +1,1 @@
-content/uiux/concepts/usability-heuristics/usability-heuristics.md
+content/ruby/concepts/functions/functions.md
