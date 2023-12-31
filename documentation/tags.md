@@ -180,6 +180,7 @@ jQuery
 JRuby
 JSON
 JSK
+Justice
 K-Nearest Neighbors
 Kotlin
 Kubernetes
@@ -224,6 +225,7 @@ NumPy
 Objects
 Obsolete
 OOP
+Opacity
 Open Source
 Operating Systems
 Operators
@@ -309,6 +311,7 @@ Technical Interviews
 Templates
 TensorFlow
 Text-To-Image
+Threads
 Tidyr
 Time
 Title
