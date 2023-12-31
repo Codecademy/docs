@@ -1,6 +1,6 @@
 ---
 Title: '.create()'
-Description: 'Creates a new object using a prexsiting object as a prototype.'
+Description: 'Creates a new object using a preexisting object as a prototype.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
@@ -21,11 +21,11 @@ The **`.create()`** method creates an object constructed from the prototype supp
 Object.create(objectName)
 ```
 
-- `objectName`: The name of the object being protoyped from.
+- `objectName`: The name of the object being prototyped from.
 
 ## Example
 
-The example demonstrates the use of `.create()` to create a new object based off the object called person.
+The example demonstrates the use of `.create()` to create a new object based on the object called a person:
 
 ```javascript
 const person {
