@@ -28,6 +28,8 @@ A floating-point represents numbers with decimal points.The built-in floating-po
 
 ### Boolean
 
+A boolean is a data type representing one of two values: `true` or `false`. Booleans have a size of one byte and they are specified using the `bool` keyword with explicit type annotation.
+
 ### Character
 
 ## Compound Types
