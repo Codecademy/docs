@@ -20,11 +20,11 @@ Scala types represent a single value.
 
 ### Integer
 
-An integer in rust is a number without a fractional component.The singend integer starts with an i followed by the bit number and unsigned integer part starts with u followed by the bit number.The built in integer types in rust include 8bit, 16bit, 32bit,64bit and 128bit.
+An integer in rust is a number without a fractional component.The sigend integer starts with an i followed by the bit number and unsigned integer part starts with u followed by the bit number.The built in integer types in rust include 8bit, 16bit, 32bit,64bit and 128bit.
 
 ### Floating-Point
 
-A floating-point data type represents numbers with decimal point. the built-in floating-point types are f32 and f64 wich are 32 bits and 64 bits in size respectively.the defult size is f64 aand all floating points are signed.
+A floating-point represents numbers with decimal points.The built-in floating-point types are f32 and f64 which are 32 bits and 64 bits in size respectively.The defult size is f64 and all floating points are signed.
 
 ### Boolean
 
