@@ -20,7 +20,7 @@ Scala types represent a single value.
 
 ### Integer
 
-An integer in rust is a number without a fractional component.The sigend integer starts with an i followed by the bit number and unsigned integer part starts with u followed by the bit number.The built in integer types in rust include 8bit, 16bit, 32bit,64bit and 128bit.
+An integer in rust is a number without a fractional component.The sigend integer starts with an `i` followed by the bit number and unsigned integer part starts with `u` followed by the bit number.The built in integer types in rust include 8bit, 16bit, 32bit, 64bit and 128bit.
 
 ### Floating-Point
 
