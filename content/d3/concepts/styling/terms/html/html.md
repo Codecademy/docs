@@ -1,6 +1,6 @@
 ---
 Title: '.html()'
-Description: 'This method is used to set or get the inner HTML of the selected elements'
+Description: 'This method is used to set or get the inner HTML of the selected elements.'
 Subjects:
   - 'Data Visualization'
   - 'Data Science'
@@ -20,7 +20,7 @@ The **`.html()`** method in D3 is used to either set or retrieve the inner HTML 
 d3.selection.html(val)
 ```
 
-- `val`: It can take on the form of a string, function, null value or left empty.
+- `val`: It can take on the form of a string, function, null value, or left empty.
 
 ## Example
 
@@ -30,7 +30,7 @@ Suppose that you have the following HTML code:
 <div class="test">Test line</div>
 ```
 
-In the example given below, `.select(".test)` method will select the HTML element with classname `test` and the `html.(<b>Updated test line</b>)` will change the element's inner HTML from `Test line` to `<b>Updated test line</b>`. Calling the `.html()` function again without any arguments will return the inner HTML of the first (non-null) element in the selection.
+In the example given below, `.select(".test)` method will select the HTML element with classname `test` and the `html.(<b>Updated test line</b>)` will change the element's inner HTML from `Test line` to `<b>Updated test line</b>`. Calling the `.html()` function again without any arguments will return the inner HTML of the first (non-null) element in the selection:
 
 ```js
 d3.select('.test').html(<b>Updated test line</b>);
