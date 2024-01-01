@@ -32,6 +32,8 @@ A boolean is a data type representing one of two values: `true` or `false`. Bool
 
 ### Character
 
+In Rust, char values are declared using single quotes `''`.It represents a single character unicode character. Its speecified using the `char` keyword.Each Character is 4 bytes in size and can represent a wide range of characters, including ASCII characters, symbols, and various international characters.
+
 ## Compound Types
 
 Compund types represent multiple values and can group them together.
