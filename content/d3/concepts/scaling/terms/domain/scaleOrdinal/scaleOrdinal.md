@@ -13,14 +13,12 @@ CatalogContent:
 
 ## Syntax
 
-It has two input parameters: domain and range:
-
 scaleOrdinal(domain, range)
 
-- The domain specifies the scale's maximum and minimum values.
-- Range. Values in the range corresponds to values in the domain.
+It has two input parameters: domain and range:
 
-d3.scaleOrdinal([[domain, ]range]);
+- `domain`: This specifies the scale's maximum and minimum values.
+- `range`: Values in the range correspond to values in the domain.
 
 ## Example
 
