@@ -6,6 +6,8 @@ Subjects:
   - 'Web design'
 Tags: 
   - 'D3'
+  - 'Methods'
+  - 'Objects'
 CatalogContent:
 --- 
 
