@@ -9,6 +9,8 @@ Tags:
   - 'Methods'
   - 'Objects'
 CatalogContent:
+  - 'learn-d3'
+  - 'paths/data-science'
 --- 
 
 **scaleOrdinal()** function is used to generate and return an ordinal scale with the supplied domain and range. The array is set to be an empty array, if neither the range nor the domain are specified.
