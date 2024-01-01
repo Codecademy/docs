@@ -15,32 +15,31 @@ CatalogContent:
 
 **Smart Pointers** are abstract data types that store memory addresses of variables and have additional metadata and capabilities, such as automatic memory management and bounds checking. The most common smart pointers in Rust include `Box<T>`, `Rc<T>`, as well as `Ref<T>` and `RefMut<T>`, which are accessed through `RefCell<T>`.
 
-## Smart Pointer Syntax in Rust
+## Syntax
 
-### Ownership and Heap Allocation with Box&lt;T&gt;
+### Ownership and Heap Allocation with Box&lt T&gt
 
-The `Box<T>` smart pointer is used to store data on the heap rather than the stack. All that remains on the stack is the pointer to the heap data.
+The `Box<T>` smart pointer is used to store data on the heap rather than the stack. All that remains on the stack is the pointer to the heap data:
 
 ```pseudo
 let boxed_value: Box<i32> = Box::new(42);
 ```
 
-- **boxed_value**: It is a variable of type `Box<i32>`. The result is a heap-allocated box that contains an Integer with the value of 42;
+- **boxed_value**: It is a variable of type `Box<i32>`. The result is a heap-allocated box that contains an Integer with the value of 42.
 
 ### Reference Counted Smart Pointer Type
 
-The `Rc<T>` stands for Reference Counted smart pointer type. This pointer keeps track of the number of references to each variable in the code. When the reference count reaches zero, indicating they are no longer in use, the smart pointer cleans them up.
+The `Rc<T>` stands for Reference Counted smart pointer type. This pointer keeps track of the number of references to each variable in the code. When the reference count reaches zero, indicating they are no longer in use, the smart pointer cleans them up:
 
 ```pseudo
-
 let shared_value: Rc<i32> = Rc::new(42);
 ```
 
-- **shared_value** It is a variable of type `Rc<i32>`. The result is a heap-allocated reference-counted smart pointer that contains an Integer with the value of 42;
+- **shared_value** It is a variable of type `Rc<i32>`. The result is a heap-allocated reference-counted smart pointer that contains an Integer with the value of 42.
 
 ###  Dynamic Borrow Checking with RefCell&lt;T&gt; and its Borrowed References (Ref&lt;T&gt; and RefMut&lt;T&gt;)
 
-The `RefCell<T>` is a smart pointer type that enforces borrowing rules at runtime instead of compile time. `RefCell<T>` employs a design pattern called "interior mutability," enabling the mutation of data with immutable references.
+The `RefCell<T>` is a smart pointer type that enforces borrowing rules at runtime instead of compile time. `RefCell<T>` employs a design pattern called "interior mutability," enabling the mutation of data with immutable references:
 
 ```pseudo
 
@@ -51,9 +50,9 @@ let mutable_data = RefCell::new(42);
 
 ## Examples
 
-### Illustrating Dynamic Memory Allocation with Box&lt;T&gt;
+### Illustrating Dynamic Memory Allocation with Box&lt T&gt
 
-This code snippet demonstrates the concept of heap allocation in Rust. It creates an integer (stack_data) on the stack with the value 10. Then, it uses the Box::new function to allocate memory on the heap and move the stack_data onto the heap. 
+This code snippet demonstrates the concept of heap allocation in Rust. It creates an integer (stack_data) on the stack with the value 10. Then, it uses the `Box::new` function to allocate memory on the heap and move the stack_data onto the heap: 
 
 ```rust
 fn main() {
@@ -71,7 +70,7 @@ Heap Data = 10
 
 ### Shared Ownership with Rc&lt;T&gt; in Rust
 
-This code snippet demonstrates the use of reference counting (Rc) to manage shared ownership of a tree-like structure. It creates a simple binary tree (Tree enum) with nodes and leaves. The Rc::new function is used to create reference-counted pointers to share ownership of parts of the tree. The Rc::strong_count function is used to count the number of strong references to the first_tree.
+This code snippet demonstrates the use of reference counting (Rc) to manage shared ownership of a tree-like structure. It creates a simple binary tree (Tree enum) with nodes and leaves. The Rc::new function is used to create reference-counted pointers to share ownership of parts of the tree. The `Rc::strong_count` function is used to count the number of strong references to the `first_tree`:
 
 ```rust
 use std::rc::Rc;
@@ -109,9 +108,9 @@ The count after creating the third_tree is 3
 The count after third_tree goes out of scope is 2
 ```
 
-### Exploring Dynamic Borrowing in Rust: RefCell&lt;T&gt; (Ref&lt;T&gt; and RefMut&lt;T&gt;)
+### Exploring Dynamic Borrowing in Rust: RefCell&lt T&gt 
 
-This code snippet showcases the use of RefCell for interior mutability. It creates a mutable cell (RefCell) containing an integer with an initial value of 42. The RefCell::borrow_mut method is used to obtain a mutable borrow of the data, allowing the value to be updated. Finally, it borrows the data immutably to print its updated value.
+This code snippet showcases the use of RefCell for interior mutability. It creates a mutable cell (RefCell) containing an integer with an initial value of 42. The `RefCell::borrow_mut` method is used to obtain a mutable borrow of the data, allowing the value to be updated. Finally, it borrows the data immutably to print its updated value:
 
 ```rust
 use std::cell::RefCell;
