@@ -41,8 +41,8 @@ Assume for conditional proof that for some n, 2^n > 2n. Now we will prove that 2
 
 First, we perform some algebraic manipulation on the expression '2^n+1':
 
-	2^(n+1) = 2^n * 2^1	[Product Rule for exponents]
-	      = 2^n * 2		[Simplify 2^1]
+ 2^(n+1) = 2^n * 2^1 [Product Rule for exponents]
+       = 2^n * 2  [Simplify 2^1]
 
 So what needs to be proved is that 2^n * 2 > 2(n+1). Factoring out 2 from both sides, we need to show that 2^n > n+1.
 
