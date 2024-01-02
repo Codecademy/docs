@@ -43,20 +43,24 @@ I laugh, you laugh, we all laugh for ice cream.
 The first codebyte example of using `.replaceAll()` method is runnable, and it doesn't use [regular expressions (RegExp)](https://www.codecademy.com/resources/docs/javascript/regexp):
 
 ```codebyte/javascript
-"AbCD_AbCD".replaceAll("b","B");
-// 'ABCD_ABCD'
+string = "AbCD_AbCD";
+modifiedString = string.replaceAll("b", "B");
+console.log(modifiedString);
 ```
 
 The second codebyte example of using `.replaceAll()` method is runnable, and it uses [regular expressions (RegExp)](https://www.codecademy.com/resources/docs/javascript/regexp). Be careful that when using a regular expression search value, it must be global:
 
 ```codebyte/javascript
-"AbCD_AbCD".replaceAll(/b/g,"B");
-// 'ABCD_ABCD'
+string = "AbCD_AbCD";
+modifiedString = string.replaceAll(/b/g,"B");
+console.log(modifiedString);
 ```
 
-This won't work:
+This won't work because the regular expression search value is not global:
 
 ```codebyte/javascript
-"AbCD_AbCD".replaceAll(/b/,"B");
+string = "AbCD_AbCD";
+modifiedString = string.replaceAll(/b/,"B");
+console.log(modifiedString);
 // TypeError: replaceAll must be called with a global RegExp
 ```
