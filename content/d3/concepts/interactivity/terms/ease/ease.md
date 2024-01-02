@@ -46,29 +46,29 @@ Consider an HTML document with an SVG element containing a circle with the speci
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://d3js.org/d3.v5.min.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <svg width="400" height="300">
-        <circle id="myCircle" cx="30" cy="40" r="40" fill="blue"></circle>
+      <circle id="myCircle" cx="30" cy="40" r="40" fill="blue"></circle>
     </svg>
 
     <script>
-        // D3.js code
-        var circle = d3.select("#myCircle");
+      // D3.js code
+      var circle = d3.select('#myCircle');
 
-        // Apply a transition with a duration of 2000 milliseconds and linear easing
-        circle.transition()
-            .duration(2000)
-            .ease(d3.easeLinear)
-            .attr("cx", 200)
-            .attr("cy", 40);
+      // Apply a transition with a duration of 2000 milliseconds and linear easing
+      circle
+        .transition()
+        .duration(2000)
+        .ease(d3.easeLinear)
+        .attr('cx', 200)
+        .attr('cy', 40);
     </script>
-
-</body>
+  </body>
 </html>
 ```
 
