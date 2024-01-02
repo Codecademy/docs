@@ -20,7 +20,7 @@ Scala types represent a single value.
 
 ### Integer
 
-An integer in Rust is a number without a fractional component. The signed integer starts with an `i` followed by the bit number and the unsigned integer starts with `u` followed by the bit number. The built-in integer types in Rust include 8bit, 16bit, 32bit, 64bit, and 128bit.
+An integer in Rust is a number without a fractional component. The signed integer starts with an `i` followed by the bit number and the unsigned integer starts with `u` followed by the bit number. The built-in integer types in Rust include 8bit, 16bit, 32bit, 64bit, and 128bit:
 
 ```rust
 fn main() {
@@ -31,7 +31,7 @@ fn main() {
 
 ### Floating-Point
 
-A floating-point represents numbers with decimal points. The built-in floating-point types are `f32` and `f64` which are 32 bits and 64 bits in size respectively. The default size is `f64` and all floating points are signed.
+A floating-point represents numbers with decimal points. The built-in floating-point types are `f32` and `f64` which are 32 bits and 64 bits in size respectively. The default size is `f64` and all floating points are signed:
 
 ```rust
 fn main() {
@@ -42,7 +42,7 @@ fn main() {
 
 ### Boolean
 
-A boolean is a data type representing one of two values: `true` or `false`. Booleans have a size of one byte and they are specified using the `bool` keyword with explicit type annotation.
+A boolean is a data type representing one of two values: `true` or `false`. Booleans have a size of one byte and they are specified using the `bool` keyword with explicit type annotation:
 
 ```rust
 fn main() {
@@ -53,7 +53,7 @@ fn main() {
 
 ### Character
 
-In Rust, char values are declared using single quotes `''`.It represents a single-character Unicode character. It's specified using the `char` keyword. Each Character is 4 bytes in size and can represent a wide range of characters, including ASCII characters, symbols, and various international characters.
+In Rust, char values are declared using single quotes `''`.It represents a single-character Unicode character. It's specified using the `char` keyword. Each Character is 4 bytes in size and can represent a wide range of characters, including ASCII characters, symbols, and various international characters:
 
 ```rust
 fn main() {
@@ -74,7 +74,7 @@ Compound types represent multiple values and can be grouped.
 
 ## Tuples
 
-A tuple is a collection of values of different types. Tuples are constructed using parentheses `()` and each has a value with type signature. Tuples are used by functions to return multiple values as tuples can hold any number of values.
+A tuple is a collection of values of different types. Tuples are constructed using parentheses `()` and each has a value with type signature. Tuples are used by functions to return multiple values as tuples can hold any number of values:
 
 ```rust
 fn main() {
@@ -90,7 +90,7 @@ fn main() {
 
 ## Arrays
 
-An array is a collection of values with the same type and fixed length. The values are written as a comma-separated list inside a square bracket. Arrays are useful when data needs to be allocated on a stack rather than heap memory.
+An array is a collection of values with the same type and fixed length. The values are written as a comma-separated list inside a square bracket. Arrays are useful when data needs to be allocated on a stack rather than heap memory:
 
 ```rust
 fn main() {
