@@ -41,3 +41,16 @@ console.log(message)
 
 console.log(message.toLowerCase());
 ```
+
+## Example 3
+
+The `.toLowerCase()` method will convert upper case alphabet characters to lower case in a string with other character types such as digits and special characters.
+
+```codebyte/js
+const string = 'What a COMPLEX string !1@2#3'
+
+const newString = string.toLowerCase()
+console.log(newString)
+// Output: what a complex string !1@2#3
+```
+
