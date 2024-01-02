@@ -24,7 +24,7 @@ An integer in rust is a number without a fractional component.The sigend integer
 
 ### Floating-Point
 
-A floating-point represents numbers with decimal points.The built-in floating-point types are f32 and f64 which are 32 bits and 64 bits in size respectively.The defult size is f64 and all floating points are signed.
+A floating-point represents numbers with decimal points.The built-in floating-point types are `f32` and `f64` which are 32 bits and 64 bits in size respectively.The defult size is `f64` and all floating points are signed.
 
 ### Boolean
 
@@ -36,10 +36,11 @@ In Rust, char values are declared using single quotes `''`.It represents a singl
 
 ## Compound Types
 
-Compund types represent multiple values and can group them together.
+Compound types represent multiple values and can group them together.
 
-- tuples
-- arrays
+## tuples
+
+## arrays
 
 ## Examples
 
