@@ -135,3 +135,58 @@ console.log(nestedArray[1][0][2]);
 console.log(nestedArray[0][1][1]);
 // Output: 4
 ```
+
+## Array Methods
+
+Introduce some commonly used array methods in JavaScript, such as push, pop, shift, unshift, slice, splice, concat, and indexOf. Provide examples of how each method works and when to use them.
+
+```js
+// Example: Using array methods
+const numbers = [1, 2, 3, 4, 5];
+
+// Adding elements to the end of the array
+numbers.push(6);
+console.log(numbers); // Output: [1, 2, 3, 4, 5, 6]
+
+// Removing the last element from the array
+numbers.pop();
+console.log(numbers); // Output: [1, 2, 3, 4, 5]
+
+// Adding elements to the beginning of the array
+numbers.unshift(0);
+console.log(numbers); // Output: [0, 1, 2, 3, 4, 5]
+
+// Removing the first element from the array
+numbers.shift();
+console.log(numbers); // Output: [1, 2, 3, 4, 5]
+
+// Slicing the array to create a new array
+const slicedArray = numbers.slice(1, 4);
+console.log(slicedArray); // Output: [2, 3, 4]
+```
+
+## Array Iteration
+
+Introduce array iteration methods like forEach, map, filter, and reduce. Provide examples to demonstrate how these methods can be used for various tasks.
+
+```js
+// Example: Using array iteration methods
+const numbers = [1, 2, 3, 4, 5];
+
+// Iterating over each element using forEach
+numbers.forEach((num) => {
+  console.log(num * 2);
+});
+
+// Creating a new array with map
+const doubledNumbers = numbers.map((num) => num * 2);
+console.log(doubledNumbers); // Output: [2, 4, 6, 8, 10]
+
+// Filtering elements based on a condition
+const evenNumbers = numbers.filter((num) => num % 2 === 0);
+console.log(evenNumbers); // Output: [2, 4]
+
+// Reducing the array to a single value
+const sum = numbers.reduce((acc, num) => acc + num, 0);
+console.log(sum); // Output: 15
+```
