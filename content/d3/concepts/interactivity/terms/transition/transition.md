@@ -52,24 +52,25 @@ Consider an HTML document with an SVG element containing a circle with the speci
 
     <script>
       // D3.js code
-      let circle = d3.select("#circle");
+      let circle = d3.select('#circle');
       // Apply a transition with a duration of 2000 milliseconds
       circle
         .transition() // initiate the transition
         .delay(200) // delay before the transition starts (optional)
         .duration(2000) // duration of the transition in milliseconds
         .ease(d3.easeBounce) // easing function (optional)
-        .attr("cx", 300) // change the 'cx' attribute to 300
-        .attr("fill", "red") // change the fill color to red
-        .on("end", function () {
-          console.log("Transition ended!"); // callback when the transition ends (optional)
+        .attr('cx', 300) // change the 'cx' attribute to 300
+        .attr('fill', 'red') // change the fill color to red
+        .on('end', function () {
+          console.log('Transition ended!'); // callback when the transition ends (optional)
         });
     </script>
   </body>
 </html>
 ```
 
-In this example: 
+In this example:
+
 - The transition is initiated with `.transition()`.
 - There's a delay of 200 milliseconds before the transition starts.
 - The transition lasts for 2000 milliseconds.
