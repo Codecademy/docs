@@ -62,5 +62,4 @@ This won't work because the regular expression search value is not global:
 string = "AbCD_AbCD";
 modifiedString = string.replaceAll(/b/,"B");
 console.log(modifiedString);
-// TypeError: replaceAll must be called with a global RegExp
 ```
