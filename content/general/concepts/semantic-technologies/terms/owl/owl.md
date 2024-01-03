@@ -52,7 +52,7 @@ The following OWL terms are used to describe relationships between OWL classes:
 
 ### Object Property Vocabulary
 
-The following OWL terms are used to describe the behavior of OWL object properties.
+The following OWL terms are used to describe the behavior of OWL object properties:
 
 |          OWL Term          |              Usage Syntax                 |                                           Meaning                                                 |
 | :------------------------: | :---------------------------------------: | :-----------------------------------------------------------------------------------------------: |
