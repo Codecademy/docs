@@ -66,7 +66,7 @@ The following OWL terms are used to describe the behavior of OWL object properti
 
 ## OWL Profiles
 
-There are three **profiles** or **fragments** of OWL that can be used in place of the complete OWL vocabulary. These profiles avoid some OWL vocabulary in order to increase the efficiency of query and automated reasoning tools used on OWL ontologies.
+There are three _profiles_ or _fragments_ of OWL that can be used in place of the complete OWL vocabulary. These profiles avoid some OWL vocabulary in order to increase the efficiency of query and automated reasoning tools used on OWL ontologies.
 
 OWL profiles are briefly described below:
 
