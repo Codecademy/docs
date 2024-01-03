@@ -78,7 +78,7 @@ OWL profiles are briefly described below:
 
 OWL vocabulary is stored at the following IRI:
 
-`http://www.w3.org/2002/07/owl#`
+> http://www.w3.org/2002/07/owl#
 
 The prefix `owl` is conventionally used as shorthand for this IRI in OWL ontologies, and is used this way in the tables above.
 
