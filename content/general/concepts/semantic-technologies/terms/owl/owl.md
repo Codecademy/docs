@@ -22,7 +22,7 @@ Some important and commonly used OWL terms are described in the tables below.
 
 ### Declarations
 
-The following OWL terms are used to declare new classes, individuals, and properties.
+The following OWL terms are used to declare new classes, individuals, and properties:
 
 |        OWL Term        |            Usage Syntax             |                  Meaning          |
 | :--------------------: | :---------------------------------: | :-------------------------------: |
