@@ -31,11 +31,11 @@ The following OWL terms are used to declare new classes, individuals, and proper
 |  `owl:ObjectProperty`  |  `:ex rdf:type owl:ObjectProperty`  |  `:ex` is an OWL object property  |
 | `owl:DatatypeProperty` | `:ex rdf:type owl:DatatypeProperty` | `:ex` is an OWL datatype property |
 
-An **object property** is a predicate which takes an instance of a class as both its subject and object. For example, an object property `hasAuthor` can be defined as holding between instances of the class `books` and the class `authors`.
+An _object property_ is a predicate which takes an instance of a class as both its subject and object. For example, an object property `hasAuthor` can be defined as holding between instances of the classes `books` and `authors`.
 
-A **datatype property** is a predicate which takes an instance of a class as its subject, and a literal (such as a string or number) as its object. For example, a datatype property `soldCopies` can be defined as holding between instances of the class `books` and integer numbers.
+A _datatype property_ is a predicate which takes an instance of a class as its subject and a literal (such as a string or number) as its object. For example, a datatype property `soldCopies` can be defined as holding between an instance of the class `books` and an integer number.
 
-A **named individual** is a particular member of a class.
+A _named individual_ is a particular member of a class.
 
 ### Relations Between Classes
 
