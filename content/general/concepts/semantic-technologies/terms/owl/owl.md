@@ -76,7 +76,7 @@ OWL profiles are briefly described below:
 
 ## OWL Namespace
 
-OWL vocabulary is stored at the following IRI:
+OWL vocabulary is stored at the following _IRI_ (International Resource Identifier):
 
 > http://www.w3.org/2002/07/owl#
 
