@@ -39,7 +39,7 @@ A **named individual** is a particular member of a class.
 
 ### Relations Between Classes
 
-The following OWL terms are used to describe relationships between OWL classes.
+The following OWL terms are used to describe relationships between OWL classes:
 
 |       OWL Term       |             Usage Syntax                                                                            |                                 Meaning                                                                  |
 | :------------------: | :--------------------------------------------------------------------------------------------------:| :-------------------------------------------------------------------------------------------------------:|
