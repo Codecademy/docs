@@ -42,7 +42,7 @@ console.log(message)
 console.log(message.toLowerCase());
 ```
 
-## Example 3
+## Codebyte Example
 
 The `.toLowerCase()` method will convert upper case alphabet characters to lower case in a string with other character types such as digits and special characters.
 
