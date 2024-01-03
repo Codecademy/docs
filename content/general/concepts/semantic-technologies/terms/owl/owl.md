@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/data-science-nlp'
 ---
 
-**Web Ontology Language (OWL)** is a language used to create ontologies and knowledge graphs. OWL provides vocabulary to describe the classes, properties, and relations that constitute these semantic data models.
+**Web Ontology Language (OWL)** is a language which provides vocabulary for creating **ontologies** and **knowledge graphs**. OWL is used to describe the classes, properties, and relations that constitute these semantic data models.
 
 OWL ontologies and knowledge graphs are written in [RDF](https://www.codecademy.com/resources/docs/general/semantic-technologies/rdf) and consist of RDF statements.
 
