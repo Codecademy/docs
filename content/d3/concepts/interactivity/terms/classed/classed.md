@@ -22,7 +22,7 @@ selection.classed(name, value);
 ```
 
 - `name`- The name of the CSS class to be added or removed.
-- `value`- A boolean value that determines whether to add (`true`) or remove (**false**) the class.
+- `value`- A boolean value that determines whether to add (**true**) or remove (**false**) the class.
 
 ## Example
 
