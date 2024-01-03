@@ -1,6 +1,6 @@
 ---
 Title: '.lowercase()'
-Description: 'Compares two strings lexicographically.'
+Description: 'It used to convert a string to lowercase.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
@@ -17,7 +17,7 @@ The **`.lowercase()`** method in Kotlin is changes all characters in a string to
 ## Syntax
 
 ```pseudo
-String.lowercase(): String
+String.lowercase()
 ```
 
 - `String`: The string to be converted to lowercase.
@@ -28,16 +28,16 @@ This example shows how to use the `.lowercase()` method on a string:
 
 ```kotlin
 fun main() {
-    val originalString = "Hello, World!"
-    val newString = originalString.lowercase()
-    println("Original: $originalString")
-    println("Lowercase: $newString")
+  val originalString = "Hello, World!"
+  val newString = originalString.lowercase()
+  println("Original String: $originalString")
+  println("Lowercased String: $newString")
 }
 ```
 
-The code will return the following output:
+The above code will return the following output:
 
 ```shell
-Original: Hello, World!
-Lowercase: hello, world!
+Original String: Hello, World!
+Lowercased String: hello, world!
 ```
