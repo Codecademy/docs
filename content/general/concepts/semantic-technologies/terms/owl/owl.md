@@ -80,6 +80,6 @@ OWL vocabulary is stored at the following _IRI_ (International Resource Identifi
 
 > http://www.w3.org/2002/07/owl#
 
-The prefix `owl` is conventionally used as shorthand for this IRI in OWL ontologies, and is used this way in the tables above.
+The prefix `owl` is conventionally used as shorthand for this IRI in OWL ontologies and is used this way in the tables above.
 
 > **Note:** OWL profiles share the same IRI with full OWL. It is up to the ontology designer to avoid using non-compliant vocabulary when creating an ontology with an OWL profile.
