@@ -21,6 +21,7 @@ The **`.append()`** function is used to append a new element to the `HTML` tag n
 ```pseudo
 selection.append(type);
 ```
+
 - `type`: This parameter takes a string that defines the type of the element.
 
 ## Example
@@ -30,28 +31,25 @@ Here's a simple `HTML` code that demonstrates the use of `.append()`:
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://d3js.org/d3.v5.min.js"></script>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+  </head>
+  <body>
+    <script>
+      let bodySelection = d3.select('body');
 
-<script>
-
-  let bodySelection = d3.select('body');
-
-  // Append a new paragraph to the body
-  bodySelection.append('p')
-    .text('This is a new paragraph added using D3.js');
-</script>
-
-</body>
+      // Append a new paragraph to the body
+      bodySelection
+        .append('p')
+        .text('This is a new paragraph added using D3.js');
+    </script>
+  </body>
 </html>
 ```
 
 In this example, D3.js selects the `<body>` element and appends a new `<p>` (paragraph) element to it. The `.text()` method is then used to set the text content of the newly appended paragraph.
-
 
 The output of the mentioned code is as follows:
 
