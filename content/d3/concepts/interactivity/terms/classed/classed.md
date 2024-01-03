@@ -26,7 +26,7 @@ selection.classed(name, value);
 
 ## Example
 
-In this example, the `.classed()` method is used to dynamically add and remove the class `highligh` from the selected element, showcasing its utility in creating interactive and dynamic visualizations.
+In this example, the `.classed()` method is used to dynamically add and remove the class `highlight` from the selected element, showcasing its utility in creating interactive and dynamic visualizations:
 
 ```js
 // Select an element with the id "myElement"
