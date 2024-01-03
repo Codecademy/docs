@@ -38,8 +38,7 @@ Here's a simple `HTML` code that demonstrates the use of `.append()`:
 <body>
 
 <script>
-    // D3.js code
-  // Select the body element
+
   let bodySelection = d3.select('body');
 
   // Append a new paragraph to the body
