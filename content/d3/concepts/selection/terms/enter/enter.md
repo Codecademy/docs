@@ -1,6 +1,6 @@
 ---
 Title : '.enter()'
-Description: 'Adding, deleting, and rearranging elements as needed to correspond with the data previously linked through selection.data() method'
+Description: 'Adds missing elements as necessary to correspond with the linked data.'
 Subjects: 
 - 'Data Visualization'
 - 'Computer Science'
@@ -13,11 +13,13 @@ CatalogContent:
 - 'paths/computer-science'
 ---
 
-In D3.js, the **.enter()** selection method refers to a subset of the selection that represents placeholders for elements to be added to the document. This selection is commonly used in conjunction with **.data()** binding method when there are more data elements than corresponding DOM elements.
+The **`.enter()`** selection method refers to a subset of the selection that represents placeholders for elements to be added to the document. This selection is commonly used in conjunction with `.data()` binding method when there are more data elements than corresponding DOM elements.
 
 ## Syntax
 
-**Enter Selection:** This selection contains placeholders for new elements that need to be added to the DOM to match the available data. These placeholders represent elements that are missing from the document.
+- `selection`: It contains placeholders for new elements that need to be added to the DOM to match the available data.
+
+>**Note**: The `.enter()` method doesn't take any arguments.
 
 Here's the syntax for the Enter selection Method
 
