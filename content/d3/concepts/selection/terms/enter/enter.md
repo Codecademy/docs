@@ -17,15 +17,14 @@ The **`.enter()`** selection method refers to a subset of the selection that rep
 
 ## Syntax
 
+```pseudo
+d3.selection.enter()
+```
+
 - `selection`: It contains placeholders for new elements that need to be added to the DOM to match the available data.
 
 >**Note**: The `.enter()` method doesn't take any arguments.
 
-Here's the syntax for the Enter selection Method
-
-```pseudo
-d3.selection.enter()
-```
 ## Example 
 
 The following example illustrates the use of the `.enter()` method. Here, it returns an enter selection as the number of `data` elements is more than the `div` elements selected.
