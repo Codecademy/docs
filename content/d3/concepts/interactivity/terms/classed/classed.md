@@ -1,6 +1,6 @@
 ---
 Title: '.classed()'
-Description: 'Allows you to dynamically add or remove CSS classes based on certain conditions or data values.'
+Description: 'Enables dynamic addition or removal of CSS classes depending on specific conditions or data values.'
 Subjects: 
 - 'Web Development'
 - 'Computer Science'
