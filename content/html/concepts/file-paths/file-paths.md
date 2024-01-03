@@ -35,7 +35,7 @@ URL paths in HTML can be absolute paths, like a full URL, for example:
 
 Here is a helpful image to illustrate what a absolute filepath is.
 
-![This image was used to demonstrate the absolute path of a URL](image-resources/abs-filepath.png)
+![This image was used to demonstrate the absolute path of a URL](https://raw.githubusercontent.com/Codecademy/docs/main/media/abs-filepath.png)
 
 ## Relative File Paths
 
@@ -55,7 +55,7 @@ Relative file paths begin with `./` followed by a path to the local file. `./` t
 
 Here is a helpful image to illustrate what a relative filepath is.
 
-![This image is used to try to explain that relative path with a tree example and explanation ](image-resources/rel-filepath.png)
+![This image is used to try to explain that relative path with a tree example and explanation ](https://raw.githubusercontent.com/Codecademy/docs/main/media/rel-filepath.png)
 
 ## Root-Relative File Paths
 
@@ -75,11 +75,11 @@ Path-relative file paths begin with a `/`. This forward slash signals to the web
 
 Here is a helpful image to illustrate what a root-relative filepath is.
 
-![This image is here to show what the root folder looks like](image-resources/root-relative-path.png)
+![This image is here to show what the root folder looks like](https://raw.githubusercontent.com/Codecademy/docs/main/media/root-relative-path.png)
 
 and here is what it looks like in a tree format where the node at the top is the 'root' node denoted by the `/ ` and the  rest are the subdirectories in that root directory. 
 
-![This image is here to visualize what a root directory looks like with all of its subdirectories](image-resources/root-relative-path-tree.png)
+![This image is here to visualize what a root directory looks like with all of its subdirectories](https://raw.githubusercontent.com/Codecademy/docs/main/media/root-relative-path-tree.png)
 
 ## Link to a Specific Part of the Page
 
@@ -97,4 +97,4 @@ The anchor element `<a>` can create hyperlinks to different parts of the same HT
 
 Here is an example image that may be useful for implementation of the anchor element for the purpose going to a different part of the page.
 
-![This image was to show how to use the anchor element to go to a specific part of a page](image-resources/anchor-specific-page.png)
+![This image was to show how to use the anchor element to go to a specific part of a page](https://raw.githubusercontent.com/Codecademy/docs/main/media/anchor-specific-page.png)
