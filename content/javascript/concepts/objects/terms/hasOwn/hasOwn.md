@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The **`.hasOwn()`** method verifies if a specific property exists in an object, returning true if present, otherwise false. Unlike the `in` operator, it solely inspects direct object properties and doesn't consider inherited ones. This method serves as a replacement for `Object.hasOwnProperty()`.
+The **`.hasOwn()`** method verifies if a specific property exists in an object, returning `true` if present, otherwise `false`. Unlike the `in` operator, it solely inspects direct object properties and doesn't consider inherited ones. This method serves as a replacement for `Object.hasOwnProperty()`.
 
 ## Syntax
 
@@ -35,13 +35,13 @@ let details = {
 };
 
 // Check if 'details' object has its own property named 'name'
-console.log(Object.hasOwn(details, 'name')); //Output: true
+console.log(Object.hasOwn(details, 'name')); 
 
 // Check if 'details' object has its own property named 'course'
-console.log(Object.hasOwn(details, 'course')); //Output: true
+console.log(Object.hasOwn(details, 'course')); 
 
 // Check if 'details' object has its own property named 'phone number'
-console.log(Object.hasOwn(details, 'phone number')); //Output: false
+console.log(Object.hasOwn(details, 'phone number')); 
 ```
 
 This above example will return the following output:
@@ -63,13 +63,13 @@ let details = {
 details.age = 25;
 
 // Check if 'details' object has its own property named 'age'
-console.log(Object.hasOwn(details, 'age'));  //Output: true
+console.log(Object.hasOwn(details, 'age')); 
 
 // Check if 'details' object has its own property named 'toString'
-console.log(Object.hasOwn(details, 'toString')); //Output: false
+console.log(Object.hasOwn(details, 'toString'));
 ```
 
-This above example will return the following output
+This above example will return the following output:
 
 ```shell
 true
