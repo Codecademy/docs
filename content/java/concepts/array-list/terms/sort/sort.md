@@ -19,8 +19,10 @@ The **`.sort()`** method is used to sort arrays of primitive types and objects. 
 Here's a basic syntax of how to use the `.sort()` method:
 
 ```pseudo
-Arrays.sort(array);
+Arrays.sort(array, comparator);
 ```
+
+The optional `comparator` argument is an object that implements the `Comparator` interface, defining the comparison logic for elements in the array.
 
 ## Examples
 
