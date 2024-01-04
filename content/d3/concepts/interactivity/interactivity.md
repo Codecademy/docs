@@ -43,10 +43,10 @@ Make sure you have your html file setup using this script before running.
 ## Output
 
 Block when mouse pointer is not hovering:
-![Screenshot 2023-12-19 014458](https://github.com/ShatilKhan/docs/assets/52494840/6f444ebe-bc6b-4526-b365-412735c854a5)
+![No tooltip if image is not hovered](https://github.com/ShatilKhan/docs/blob/d3Int/media/d3-non-hover.png)
 
 Tooltip appears when hovered over:
-![Screenshot 2023-12-19 014419](https://github.com/ShatilKhan/docs/assets/52494840/8c69038e-c4d2-498c-9dfa-f58839e21cfb)
+![Tooltip appears on hover](https://github.com/ShatilKhan/docs/blob/d3Int/media/d3-tooltip-hover.png)
 
 ## Functions and Future Considerations
 
