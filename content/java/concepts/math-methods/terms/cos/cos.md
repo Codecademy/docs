@@ -3,6 +3,7 @@ Title: '.cos()'
 Description: 'Returns the trigonometric cosine of the specified angle.'
 Subjects:
   - 'Computer Science'
+  - 'Code Foundations'
 Tags:
   - 'Arithmetic'
   - 'Functions'
@@ -21,17 +22,16 @@ The **`Math.cos()`** method returns the trigonometric cosine of an angle argumen
 Math.cos(angle)
 ```
 
-The `angle` parameter is expressed in radians.
-
 - The result is in the range [-1, 1].
-- If the `angle` is `NaN` or infinity, `NaN` is returned.
+- If the `angle` is **NaN** or **Infinity**, **NaN** is returned.
+
+> **Note:** The `angle` parameter is expressed in radians.
 
 ## Example
 
 The following example demonstrates the application of `.cos()` method:
 
 ```java
-// Check.java
 public class Check {
   public static void main(String args[]) {
     // convert degrees to radians
@@ -43,7 +43,7 @@ public class Check {
 }
 ```
 
-This results in the following output:
+The above example results in the following output:
 
 ```shell
 Cosine of 60 degrees is 0.5
