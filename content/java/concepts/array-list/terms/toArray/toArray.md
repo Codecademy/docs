@@ -77,7 +77,6 @@ public class Main {
 
         // Converting the ArrayList to an array of objects
         Object[] colorsArray = colorsList.toArray();
-
         System.out.println("Colors Array: " + Arrays.toString(colorsArray));
     }
 }
