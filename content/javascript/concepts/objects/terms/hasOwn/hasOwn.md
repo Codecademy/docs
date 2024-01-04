@@ -35,13 +35,13 @@ let details = {
 };
 
 // Check if 'details' object has its own property named 'name'
-console.log(Object.hasOwn(details, 'name')); 
+console.log(Object.hasOwn(details, 'name'));
 
 // Check if 'details' object has its own property named 'course'
-console.log(Object.hasOwn(details, 'course')); 
+console.log(Object.hasOwn(details, 'course'));
 
 // Check if 'details' object has its own property named 'phone number'
-console.log(Object.hasOwn(details, 'phone number')); 
+console.log(Object.hasOwn(details, 'phone number'));
 ```
 
 This above example will return the following output:
@@ -63,7 +63,7 @@ let details = {
 details.age = 25;
 
 // Check if 'details' object has its own property named 'age'
-console.log(Object.hasOwn(details, 'age')); 
+console.log(Object.hasOwn(details, 'age'));
 
 // Check if 'details' object has its own property named 'toString'
 console.log(Object.hasOwn(details, 'toString'));
