@@ -48,7 +48,6 @@ public class Main {
 
         // Converting the ArrayList to an array of strings
         String[] fruitsArray = fruitsList.toArray(new String[0]);
-
         System.out.println("Fruits Array: " + Arrays.toString(fruitsArray));
     }
 }
