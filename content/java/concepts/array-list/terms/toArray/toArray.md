@@ -83,7 +83,7 @@ public class Main {
 }
 ```
 
-The output should look like this:
+The output should result in the following output:
 
 ```shell
 Colors Array: [Red, Green, Blue]
