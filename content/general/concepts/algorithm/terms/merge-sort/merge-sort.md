@@ -135,6 +135,8 @@ public static void merge(int[] data, int[] left, int[] right){
 - Therefore, the overall time complexity is **O(n log n)**, resulting from multiplying the time complexity of each level (n) by the number of levels (log n).
 
 #### **Benefit of Merge Sort:**
-- The time complexity of merge sort is independent of the data's input size (best-case, average-case, and worst-case scenarios have the same time complexity) and therefore makes it an efficient sorting algorithm. 
+- **Predictable Efficiency**: Merge sort maintains a time complexity of O(n log n) regardless of the initial arrangement of elements in the input array. This means it performs equally well in best-case, average-case, and worst-case scenarios.
+- **Reliable for Diverse Inputs**: This consistent performance makes merge sort a dependable choice for sorting various input sizes and datasets without unexpected slowdowns due to data arrangement.
+- **Efficiency for Large Datasets**: Its O(n log n) time complexity places it among the most efficient sorting algorithms, especially for large datasets, outperforming algorithms like bubble sort and insertion sort that exhibit worse-case complexities of O(n^2).
 
 
