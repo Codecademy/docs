@@ -3,6 +3,7 @@
 Title: 'Merge Sort Algorithm' 
 
 Description: 'Returns a sorted array using divide and conquer.' 
+
 Subjects: 
   - 'Computer Science'
   - 'Interview Prep'
