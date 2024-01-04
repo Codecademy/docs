@@ -74,11 +74,11 @@ public static void mergeSort(int[] data){
 
 ```java
 public static void merge(int[] data, int[] left, int[] right){
-    //indexes of arrays left,right, and data
+    //indexes of arrays left, right, and data
     int l,r,k;
     l = r = k = 0;
     while(l < left.length && r < right.length && k < data.length){
-        //find min between left & right element and insert it
+        //find minimum between left & right element and insert it in data
         if(left[l] < right[r]){
             data[k] = left[l];
             l++;
@@ -112,7 +112,7 @@ public static void merge(int[] data, int[] left, int[] right){
 **Breakdown:**
 
 1. **Divide:**
-   - The `mergeSort` function recursively divides the array into halves until each subarray has only one element.
+   - The `mergeSort` function recursively divides the array into halves until each subarray has one element.
    - This splitting process has a time complexity of **O(log n)** due to the repeated halving.
 
 2. **Conquer:**
