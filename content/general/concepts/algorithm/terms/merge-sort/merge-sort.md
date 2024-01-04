@@ -18,6 +18,8 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 
 ## Explanation
 
+### MergeSort Method
+
 **1. Divide:**
 
 - **Base Case:** If the input array `data` has only one element, it's already sorted, so return.
@@ -29,25 +31,8 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 
 **3. Combine:**
 
-- **Merge:** Call the `merge` function to merge the two sorted halves, `left` and `right`, back into the original array `data` in a sorted manner.
+- **Merge:** Call the `merge` function to merge the two sorted halves(@ first, length of 1), `left` and `right`, back into the original array `data` in a sorted manner.
 
-**The `merge` function:**
-
-1. **Initialize:** Set indices `l`, `r`, and `k` to 0 to track positions in `left`, `right`, and `data`, respectively.
-2. **Compare and Merge:**
-   - While both `left` and `right` have elements remaining:
-     - Compare the elements at `left[l]` and `right[r]`.
-     - Copy the smaller element into `data[k]` and increment the corresponding index (`l` or `r`).
-     - Increment `k` to move to the next position in `data`.
-3. **Copy Remaining Elements:**
-   - If any elements remain in `left`, copy them directly into the remaining positions in `data`.
-   - Similarly, if any elements remain in `right`, copy them into the remaining positions in `data`.
-
-
-
-### **Graphical representation of Merge Sort:**
-
-![Merge Sort](https://raw.githubusercontent.com/Codecademy/docs/main/media/merge.png)
 
 ## Implementation Pt.1 
 
@@ -72,3 +57,84 @@ public static void mergeSort(int[] data){
 }
 
 ```
+## 
+
+### Merge Method
+
+1. **Initialize:** Set indices `l`, `r`, and `k` to 0 to track positions in `left`, `right`, and `data`, respectively.
+2. **Compare and Merge:**
+   - While both `left` and `right` have elements remaining:
+     - Compare the elements at `left[l]` and `right[r]`.
+     - Copy the smaller element into `data[k]` and increment the corresponding index (`l` or `r`).
+     - Increment `k` to move to the next position in `data`.
+3. **Copy Remaining Elements:**
+   - If any elements remain in `left`, copy them directly into the remaining positions in `data`.
+   - Similarly, if any elements remain in `right`, copy them into the remaining positions in `data`.
+
+## Implementation Pt.2
+
+```java
+public static void merge(int[] data, int[] left, int[] right){
+    //indexes of arrays left,right, and data
+    int l,r,k;
+    l = r = k = 0;
+    while(l < left.length && r < right.length && k < data.length){
+        //find min between left & right element and insert it
+        if(left[l] < right[r]){
+            data[k] = left[l];
+            l++;
+        }
+        else{
+            data[k] = right[r];
+            r++;
+        }
+        //increment index of data after insertion
+        k++;
+    }
+    //if elements still remain in arrays left or right, insert them into data
+    while(l < left.length){
+        data[k] = left[l];
+        l++;
+        k++;
+    }
+    while(r < right.length){
+        data[k] = right[r];
+        r++;
+        k++;
+    }
+}
+
+```
+
+## Time Complexity Breakdown
+
+**Overall Time Complexity: O(n log n)**
+
+**Breakdown:**
+
+1. **Divide:**
+   - The `mergeSort` function recursively divides the array into halves until each subarray has only one element.
+   - This splitting process has a time complexity of **O(log n)** due to the repeated halving.
+
+2. **Conquer:**
+   - The base case (array of size 1) requires no sorting, so its complexity is **O(1)**.
+
+3. **Combine:**
+   - The `merge` function merges two sorted subarrays into a single sorted array.
+   - It iterates through both subarrays once, comparing elements and copying them to the final array.
+   - This merging process takes **O(n)** time, where n is the total number of elements being merged.
+
+**Overall Time Complexity:**
+
+- The recursive calls to `mergeSort` create a log n-level tree of calls.
+  - The number of levels in this tree is directly related to how many times you can divide the array by 2 before reaching single-element subarrays. This is equivalent to the logarithm of the array's size (log n). For example, an array of 8 elements would have 3 levels (log2 (8) = 3). _Reference the picture below for a visual understanding._
+
+![Merge Sort](https://raw.githubusercontent.com/Codecademy/docs/main/media/merge.png)
+
+- At each level, the merging step takes O(n) time.
+- Therefore, the overall time complexity is **O(n log n)**, resulting from multiplying the time complexity of each level (n) by the number of levels (log n).
+
+#### **Benefit of Merge Sort:**
+- The time complexity of merge sort is independent of the data's input size (best-case, average-case, and worst-case scenarios have the same time complexity) and therefore makes it an efficient sorting algorithm. 
+
+
