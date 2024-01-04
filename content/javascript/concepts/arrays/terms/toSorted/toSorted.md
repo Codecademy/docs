@@ -102,3 +102,13 @@ Which outputs:
 Numbers Ascending: -3,1,1,2,3,4,9,200,959,2159.2
 Numbers Descending: 2159.2,959,200,9,4,3,2,1,1,-3
 ```
+
+## Codebyte Example
+
+```codebyte/javascript
+const cars = ['toyota', 'ferrari', 'volkswagen', 'lamborghini', 'bugatti'];
+
+let sortedCars = cars.toSorted();
+console.log('Pre-sorted: ' + cars);
+console.log('Sorted: ' + sortedCars);
+```
