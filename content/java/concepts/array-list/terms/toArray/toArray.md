@@ -53,7 +53,7 @@ public class Main {
 }
 ```
 
-The output should look like this:
+The output should result in the following output:
 
 ```shell
 Fruits Array: [Apple, Banana, Orange]
