@@ -64,3 +64,5 @@ Here's a simple `HTML` code that demonstrates the use of `.join()`:
 In this example, if there are fewer `p` elements than data points, new `p` elements are created (enter selection). If there are an equal number, existing elements are updated (update selection). If there are more elements than data points, excess elements are removed (exit selection).
 
 The output of the mentioned code is as follows:
+
+![d3 Selection .join()](https://raw.githubusercontent.com/Codecademy/docs/main/media/d3-selection-join.png)
