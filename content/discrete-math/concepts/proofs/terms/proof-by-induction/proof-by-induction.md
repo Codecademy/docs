@@ -1,129 +1,64 @@
 ---
 Title: 'Proof by Induction'
-Description: 'A mathematical method to determine the validity of a statement.'
+Description: 'Proves a universal generalization using the hypothesis that the previous element in a series has some property.'
 Subjects:
   - 'Computer Science'
   - 'Mathematics'
 Tags:
   - 'Algorithms'
-  - 'Methods'
-  - 'Data Structures'
+  - 'Math'
+  - 'Logic'
 CatalogContent:
-  - 'Discrete Mathematics'
-  - 'Computer Science'
+  - 'discrete-math'
 ---
 
-**Proof by Induction** is a method of mathematical proof that establishes a base case to develop an induction hypothesis that can then be proven by induction.
+**Proof by induction** is a technique used in discrete mathematics to prove universal generalizations. A universal generalization is a claim which says that every element in some series has some property. For example, the following is a universal generalization:
 
-## Base Case
-
-The base case verifies the problem or statement through a specific initial value or values. (_n_ = 0, _n_ = 1)
-
-## Induction Hypothesis
-
-The induction hypothesis assumes that the statement holds for some _k_, or range of values using _k_ as a boundary.
-
-- **Weak Induction**: Induction typically based on a specific assumption.(_P_(n) = _P_(k), or _n_ = _k_)
-- **Strong Induction**: Induction typically involving a range or global case of an assumption. (All integers less than or equal to _k_.)
-
-## Inductive Step
-
-The inductive step proves the statement holds based on the inductive hypothesis.
-
-### Example
-
-Prove by induction that 2^n > 2n
-
-Base case:
-
-```pseudo
-  When n = 3 then 2^3 > 2 x 3
-    8 > 6 TRUE
+```plaintext
+For any integer n ≥ 3, 2^n > 2n.
 ```
 
-Induction Hypothesis:
+The above statement says that every element `n` in the series of integers beginning with `3` has the property that `2^n > 2n`.
 
-```pseudo
-  Assume the P(k) is correct for some positive integer k.
-    2^k > 2k.
+A proof by mathematical induction consists of two steps. The steps of a mathematical induction will be illustrated below by proving the example universal generalization just given.
+
+### 1. Base Step
+
+In the base step (also known as the base case, initial case, or basis step), the first element or elements in the series are shown to have the relevant property. For example:
+
+```plaintext
+2^3 = 8. 2*3 = 6. 8 > 6. Therefore when n = 3, 2^n > 2n.
 ```
 
-Induction Step:
+The first element in the series of integers beginning with `3` is `3`. Above, this element is shown to have the relevant property.
 
-```pseudo
-  Since P(k) is true for all positive integers greater than 2, P(k+1) is true.
+### 2. Inductive Step
 
-    2^(k + 1) is the same as 2 x 2^k, which is clearly greater than 2 x 2k,which is equivalent
-    to 2(1 + k) or due to the communitive property of multiplication is equivalent to 2(k + 1),
-    for all k > 2. Or,
+In the inductive step (also known as the step case), it is shown that if the previous element has the relevant property, then the succeeding element has the relevant property. Generally, this is done by assuming that the previous element has the property (this assumption is known as the inductive hypothesis), and then showing that the next element must also have the property. This proof technique is known as conditional proof. Continuing the example proof:
 
-        2^(k+1) = 2 x 2^k > 2 x 2k = 2(k + 1)  for k>2
+```plaintext
+Assume for conditional proof that for some n, 2^n > 2n. Now we will prove that 2^(n+1) > 2(n+1).
 
-    Hence by mathematical induction P(n) is true for all positive integers n > 2.
+First, we perform some algebraic manipulation on the expression '2^n+1':
+
+ 2^(n+1) = 2^n * 2^1 [Product Rule for exponents]
+       = 2^n * 2  [Simplify 2^1]
+
+So what needs to be proved is that 2^n * 2 > 2(n+1). Factoring out 2 from both sides, we need to show that 2^n > n+1.
+
+By the inductive hypothesis, 2^n > 2n. Now, 2n > n+1 (for any n ≥ 1). By the transitivity of '>' 2^n > n+1. This completes the inductive step.
 ```
 
-All mathematical proofs by induction consist of these three parts. Be sure to prove all necessary base cases, more than one is possible.
+The inductive step above shows that no matter the value of `n` in the series, if `2^n > 2n`, then `2^(n+1) > 2(n+1)`.
 
-> **Note:** Any proof by weak induction is also a proof by strong induction, the distinction between the two is determined by the need to prove a substantive range of assumptions.
+### The Logic of Mathematical Induction
 
-## Proof by Induction's Application to Computer Science
+Why do the base step and the inductive step together demonstrate the truth of a universal generalization? The logic of a mathematical induction can be pictured as a series of dominoes falling. In the base step, the first domino is knocked over. In the inductive step, it is shown that any successive domino will be knocked over by the domino falling behind it. Thus, once the first domino is knocked over, the second will be knocked over, then the third, and so on for all the dominoes.
 
-A very strong relationship is present between recursion and mathematical induction. Recursion solves a problem by specifying a solution to one or more base cases and then
-demonstrating how to derive the solution to one or more base cases and then demonstrating how to derive the soltion to a problem of an arbitrary size from the solutions to
-smaller problems of the same type. Similarly, mathematical induction proves a property about the natural numbers by proving the property about a base case and then proving that
-the property must be true for an arbitrary natural number _n_ if it is true for the natural numbers smaller than _n_.
+In less metaphorical terms, the base step shows that the first `n` elements have the relevant property. It then follows from the inductive step that the element at `n + 1` has that property. Now the inductive step can be applied again on the element at `n + 1` to show that the element at `n + 2` has the property. Since this can be done indefinitely, the entire series is shown to have the relevant property.
 
-## Example
+## Proof by Induction and Recursion
 
-Below is psuedocode of a function to compute a factorial, recursive steps will be done in parallel to show similarity:
+There is a close relationship between recursion and mathematical induction. A recursive function is defined by one or more base cases plus a recursive call, in which larger values of the function can be derived from smaller values.
 
-```pseudo
-  factorial(n: integer): integer
-
-    if (n == 0)
-      return 1
-    else
-      n = n * factorial(n - 1)
-```
-
-Recursion:
-
-Basis: If _n_ is equal to 0, then return 1
-
-```pseudo
-       factorial(0) = 1
-```
-
-Induction:
-
-Base case: n! when n = 0
-
-```tex
-  0! = 1
-```
-
-Recursion:
-
-```pseudo
-  factorial(n) = n * (n - 1) * (n - 2) * ... * 1
-```
-
-Induction:
-
-Inductive Hypothesis: Assume that this property holds true for n = k. For all k > 0.
-
-```tex
-  k! = k x (k - 1) x (k - 2) x ... x 1
-```
-
-Inductive Step: Let n = k + 1.
-
-```tex
-  (k + 1)! = (k + 1) x k x (k - 1) x (k - 2) x ... x 1
-
-  (k + 1)! = (k + 1) x k!  From the *Induction Hypothesis*
-```
-
-Thus, the property is true due to the definition of factorials.
-
-> **Note**: Typically, the problem will be to solve an expression or inequality.
+Similarly, mathematical induction involves one or more base cases plus an inductive step in which the properties of later values in a series can be established from earlier values.
