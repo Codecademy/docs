@@ -26,11 +26,11 @@ d3.selection.html(val)
 
 Suppose that you have the following HTML code:
 
-```HTML
+```html
 <div class="test">Test line</div>
 ```
 
-In the example given below, `.select(".test)` method will select the HTML element with classname `test` and the `html.(<b>Updated test line</b>)` will change the element's inner HTML from `Test line` to `<b>Updated test line</b>`. Calling the `.html()` function again without any arguments will return the inner HTML of the first (non-null) element in the selection:
+In the example given below, `.select('.test')` method will select the HTML element with classname `test` and the `html.(<b>Updated test line</b>)` will change the element's inner HTML from `Test line` to `<b>Updated test line</b>`. Calling the `.html()` function again without any arguments will return the inner HTML of the first (non-null) element in the selection:
 
 ```js
 d3.select('.test').html(<b>Updated test line</b>);
