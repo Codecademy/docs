@@ -25,7 +25,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 
 **2. Conquer:**
 
-- **Recursive Calls:** Recursively call `mergeSort` on each half, `left` and `right`, to sort them independently.
+- **Recursive Calls:** Recursively call `mergeSort` on each half, `(left)` and `(right)`, to create subarrays so they are sorted independently.
 
 **3. Combine:**
 
