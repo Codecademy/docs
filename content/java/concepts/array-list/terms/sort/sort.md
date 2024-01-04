@@ -77,7 +77,7 @@ The above example will give the following output:
 Sorted Array: [Alice, Bob, Charlie, David]
 ```
 
-> **Note:** For a custom sorting order, the `Comparator` interface can be used. Here's an example sorting strings by their length.
+> **Note:** For a custom sorting order, the `Comparator` interface can be used. Here's an example of sorting strings by their length.
 
 ### Example 3
 
