@@ -1,16 +1,16 @@
 ---
 Title: '.classed()'
 Description: 'Enables dynamic addition or removal of CSS classes depending on specific conditions or data values.'
-Subjects: 
-- 'Web Development'
-- 'Computer Science'
-Tags: 
-- 'D3'
-- 'CSS'
-- 'Style'
+Subjects:
+  - 'Web Development'
+  - 'Computer Science'
+Tags:
+  - 'D3'
+  - 'CSS'
+  - 'Style'
 CatalogContent:
-- 'learn-d3'
-- 'paths/data-science'
+  - 'learn-d3'
+  - 'paths/data-science'
 ---
 
 The **`.classed()`** method in D3.js is used to manipulate the classes associated with selected DOM elements.
@@ -30,14 +30,14 @@ In this example, the `.classed()` method is used to dynamically add and remove t
 
 ```js
 // Select an element with the id "myElement"
-var myElement = d3.select("#myElement");
+var myElement = d3.select('#myElement');
 
 // Add a class called "highlight" to the selected element
-myElement.classed("highlight", true);
+myElement.classed('highlight', true);
 
 // Remove the class "highlight" after a delay
-setTimeout(function() {
-  myElement.classed("highlight", false);
+setTimeout(function () {
+  myElement.classed('highlight', false);
 }, 2000);
 ```
 
