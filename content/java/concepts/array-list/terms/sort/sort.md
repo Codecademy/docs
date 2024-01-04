@@ -37,7 +37,6 @@ public class Main {
 
     // Sorting the array in ascending order
     Arrays.sort(numbers);
-    
     System.out.println("Sorted Array: " + Arrays.toString(numbers));
   }
 }
