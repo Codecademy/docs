@@ -20,15 +20,15 @@ The **`.join()`** method in D3.js efficiently binds data, appends new elements f
 
 ```pseudo
 selection.join(
-  enterFunction,
-  updateFunction,
-  exitFunction
+  enter,
+  update,
+  exit
 );
 ```
 
-- `enterFunction`:  Function specifying how to create new elements for entering data.
-- `updateFunction`: Function specifying how to update properties of existing elements based on data.
-- `exitFunction`: Function specifying how to handle elements that no longer have corresponding data.
+- `enter`:  Function specifying how to create new elements for entering data.
+- `update`: Function specifying how to update properties of existing elements based on data.
+- `exit`: Function specifying how to handle elements that no longer have corresponding data.
 
 ## Example
 
@@ -61,7 +61,7 @@ Here's a simple `HTML` code that demonstrates the use of `.join()`:
 </html>
 ```
 
-In this example, if there are fewer `p` elements than data points, new `p` elements are created (enter selection). If there are an equal number, existing elements are updated (update selection). If there are more elements than data points, excess elements are removed (exit selection).
+In this example, if there are fewer `p` elements than data points, new `p` elements are created (`enter` selection). If there is an equal number, existing elements are updated (`update` selection). If there are more elements than data points, excess elements are removed (`exit` selection).
 
 The output of the mentioned code is as follows:
 
