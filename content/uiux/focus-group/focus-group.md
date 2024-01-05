@@ -1,4 +1,4 @@
----
+*---
 Title: 'Focus Group'
 Description: 'A qualitative attitudinal research method used to anticipate user needs and wants through direct interaction with possible users.'
 Subjects:
@@ -35,7 +35,7 @@ A typical **UI/UX focus group** involves:
 - **Collect Feedback:** Obtain direct feedback on design elements, usability, and overall user experience.
 
 - **Identify Pain Points:** Identify pain points and challenges users may face during interaction.
-
+*
 - **Generate Ideas:** Stimulate creative thinking and generate new design ideas.
 
 - **Validate Design Decisions:** Validate design decisions through user opinions and preferences.
@@ -52,16 +52,22 @@ A typical **UI/UX focus group** involves:
 
 - **Incorporate User Stories:** Use real-life scenarios or user stories to contextualize discussions.
 
-## Example Session
+## Structured Example of Focus Group Interaction
 
-Consider a UI/UX focus group for a mobile banking app redesign:
+Imagine a structured focus group interaction for a mobile banking app redesign:
 
-1. **Introduction:** Brief participants on the purpose of the session and introduce the app redesign.
+1. **Participant Selection:** Prior to the session, participants are selected based on their use of mobile banking apps.
 
-2. **Task Scenarios:** Participants are given scenarios (e.g., transferring money, checking account balance) to perform using the redesigned app.
+2. **Preparation of Materials:** The redesigned app is prepared as the material for the session.
 
-3. **Feedback Gathering:** Participants provide feedback on the app's usability, visual appeal, and overall experience.
+3. **Introduction (Facilitation):** The facilitator starts the session by briefing participants on the purpose of the session and introducing the redesigned app.
 
-4. **Group Discussion:** Facilitate a discussion on common themes, preferences, and pain points identified during the tasks.
+4. **Task Scenarios (Facilitation):** The facilitator guides participants through scenarios (e.g., transferring money, checking account balance) using the redesigned app.
 
-5. **Closing Remarks:** Thank participants, provide incentives if applicable, and communicate next steps in the design process.
+5. **Feedback Gathering (Observation):** Participants provide feedback on the app's usability, visual appeal, and overall experience. The facilitator, designers, and stakeholders observe the participants' reactions and comments.
+
+6. **Group Discussion (Facilitation):** The facilitator leads a discussion on common themes, preferences, and pain points identified during the tasks.
+
+7. **Closing Remarks (Facilitation):** The facilitator concludes the session by thanking participants, providing incentives if applicable, and communicating the next steps in the design process.
+
+8. **Post-Session Analysis:** After the session, the team analyzes the feedback and discussions to derive actionable insights for improving the app design.
