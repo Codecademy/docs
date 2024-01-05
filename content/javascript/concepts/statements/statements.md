@@ -101,6 +101,7 @@ if (x > 5) {
 }
 ```
 ## codebyte Example
+
 This example shows the output of an if statement
 
 ```codebyte/javascript
@@ -174,6 +175,7 @@ for (let i = 0; i < 5; i++) {
 }
 ```
 ## codebyte example
+
 This works similar to `while`  loop. Conventionally `let`  keyword is used to declare a variable named `i`  in `for`  loops
 
 ```codebyte/javascript
