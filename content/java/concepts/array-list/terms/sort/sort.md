@@ -50,7 +50,7 @@ The above example will give the following output:
 Sorted Array: [1, 2, 3, 5, 8]
 ```
 
-> **Note:** For an array of objects, a custom comparator can be used or the objects in the array should implement the `Comparable` interface. Here's an example with strings.
+> **Note:** For an array of objects, a custom comparator can be used or the objects in the array should implement the `Comparable` interface.
 
 ### Example 2
 
