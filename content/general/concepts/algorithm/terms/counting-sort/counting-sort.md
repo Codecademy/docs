@@ -116,7 +116,8 @@ Array After Sort:  [1, 1, 2, 2, 2, 2, 3, 4, 4, 4]
 ```
 
 ## Time Complexity
-- The first and third loops run in **O(k)** time, where k is the `max`
-- The second and last loops run in **O(n)** time
-- Therefore the total running time is O(n+k)
-- If k = O(n), then the **total time will be O(n)**
+
+- The first and third loops run in _O(k)_ time, where _k_ is `max`.
+- The second and last loops run in _O(n)_ time.
+- Therefore, the total running time is _O(n+k)_.
+- If _k_ = _O(n)_, then the total time is _O(n)_.
