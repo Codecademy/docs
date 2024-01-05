@@ -1,6 +1,6 @@
 ---
 Title: 'Focus Group'
-Description: 'A comprehensive guide to conducting and leveraging UI/UX focus groups for user-centered design.'
+Description: 'A qualitative attitudinal research method used to anticipate user needs and wants through direct interaction with possible users.'
 Subjects:
   - 'Web Design'
 Tags:
