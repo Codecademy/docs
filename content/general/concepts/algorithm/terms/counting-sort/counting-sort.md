@@ -61,6 +61,9 @@ CatalogContent:
 The following example written in [Java](https://www.codecademy.com/resources/docs/java) shows an implementation of counting sort:
 
 ```java
+import java.util.Random;
+import java.util.Arrays;
+
 public class CountingSorting {
     public static void main(String[] args) {
         Random rand = new Random();
