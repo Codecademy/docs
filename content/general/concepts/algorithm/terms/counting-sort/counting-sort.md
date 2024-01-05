@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Counting sort** is an out-of-place, non-comparison sorting algorithm. It sorts arrays of small, non-negative integers by analyzing elements' frequency distribution and placing them in their final sorted positions.
+**Counting sort** is an out-of-place, non-comparison sorting [algorithm](https://www.codecademy.com/resources/docs/general/algorithm) that sorts a list with duplicate values efficiently. It is a helpful algorithm for sorting [arrays](https://www.codecademy.com/resources/docs/java/arrays) of small, non-negative integers, where it analyzes elements' frequency distribution and places them in their final sorted positions.
 
 ## Explanation
 
