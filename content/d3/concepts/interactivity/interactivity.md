@@ -51,4 +51,3 @@ Tooltip appears when hovered over:
 ## Functions and Future Considerations
 
 D3.js provides a plethora of functions and methods for creating interactive and engaging visualizations. As you delve deeper into D3.js interactivity, consider exploring functions like `.transition()` for smooth animations, incorporating user interactions with `.on()` events, and experimenting with force-directed layouts for dynamic network visualizations.
-
