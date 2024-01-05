@@ -99,6 +99,19 @@ console.log(x);
 if (x > 5) {
   console.log('x is greater than 5');
 }
+```
+### codebyte Example
+This example shows the output of an if statement
+
+```codebyte/javascript
+var x = 7
+if (x > 5) {
+  console.log('x is greater than 5');
+  // outputs x is greater than 5
+}
+```
+
+```js
 
 // Switch statement
 switch (x) {
@@ -112,6 +125,25 @@ switch (x) {
     console.log('x is neither 1 nor 2');
 }
 ```
+This example shows outputs of switch statment
+
+```codebyte/javascript
+// change value of x 
+var x = 1; 
+
+switch (x) {
+  case 1:
+    console.log('x is 1');
+    break;
+  case 2:
+    console.log('x is 2');
+    break;
+  default:
+    console.log('x is neither 1 nor 2');
+}
+```
+Change the values of x to different numbers and click on run button to see their outputs.
+
 
 ## Loop Statements
 
