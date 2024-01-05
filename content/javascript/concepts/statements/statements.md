@@ -155,12 +155,33 @@ while (x < 5) {
   console.log(x);
   x++;
 }
+```
+## codebyte example
 
+```codebyte/javascript
+// While loop
+var x = 0;
+while (x < 7) {
+  console.log(x);
+  x++;
+}
+```
+
+```js
 // For loop
 for (let i = 0; i < 5; i++) {
   console.log(i);
 }
 ```
+## codebyte example
+This works similar to `while`  loop. Conventionally `let`  keyword is used to declare a variable named `i`  in `for`  loops
+
+```codebyte/javascript
+for (let i = 0; i < 7; i++) {
+  console.log(i);
+}
+```
+
 
 ## Jump Statements
 
