@@ -31,6 +31,26 @@ In this example, `x`, `y`, `X`, and `z`, are declared with the `var` keyword.
 
 > **Note:** JavaScript identifiers are case-sensitive. Notice that `x` is not the same as `X`.
 
+
+## codebyte Example
+
+This example shows the output values of the declared variables
+
+```codebyte/javascript
+var x = 5;
+console.log(x)
+// outputs 5
+var y = 6;
+console.log(y)
+// outputs 6
+var x = 4;
+console.log(x)
+// outputs 4
+var z = x + y;
+console.log(z)
+// outputs 10, x is reassigned 4
+```
+
 ## Expression Statements
 
 Expression statements, such as function calls or assignments, evaluate an expression and generate a value in JavaScript. They can be assigned to a variable or used as part of a larger expression and are then discarded.
