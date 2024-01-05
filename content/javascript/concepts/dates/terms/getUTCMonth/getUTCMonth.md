@@ -25,7 +25,8 @@ Example above assigns the month portion of the current `Date` to the variable `m
 
 ## Example
 
-```js
+```codebyte/js
+
 const date1 = new Date('December 31, 1975, 23:15:30 GMT+11:00');
 const date2 = new Date('December 31, 1975, 23:15:30 GMT-11:00');
 
@@ -42,7 +43,8 @@ This results in the following output:
 ```
 
 ## Example with a specific date and formatting
-```js
+
+```codebyte/js
 
 const specificDate = new Date('2023-06-15T18:45:00Z');
 const specificMonth = specificDate.getUTCMonth();
@@ -58,7 +60,8 @@ Month for June 15, 2023: 5
 
 
 ## Example with an array of dates
-```js
+
+```codebyte/js
 
 const datesArray = [
   new Date('2022-01-15T12:30:00Z'),
@@ -80,7 +83,9 @@ Month: 7
 ```
 
 ## Example using getUTCMonth() in a function
-```js
+
+```codebyte/js
+
 function displayMonthInfo(date) {
   const month = date.getUTCMonth();
   const monthName = new Intl.DateTimeFormat('en-US', { month: 'long' }).format(date);
