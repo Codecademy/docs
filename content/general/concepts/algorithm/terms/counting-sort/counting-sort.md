@@ -57,7 +57,9 @@ CatalogContent:
 
 
 ## Implemented Example
-The following example written in Java shows an implementation of Counting Sort:
+
+The following example written in [Java](https://www.codecademy.com/resources/docs/java) shows an implementation of counting sort:
+
 ```java
 public class CountingSorting {
     public static void main(String[] args) {
