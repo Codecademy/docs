@@ -14,18 +14,6 @@ CatalogContent:
 
 The **Focus Group** is a powerful method used in Human-Computer Interaction (HCI) and User Experience (UX) design for User Research. It serves as a means to gather insights from users before and after the development of the product. As focus groups are a self-reported method of user research, they only help gauge users' perspectives of their wants, needs, and actions. So, they are an inaccurate representation of users' actions and thoughts. Focus groups follow the following pattern:
 
-## Purpose
-
-- **Understand User Perspectives:** Gain a deeper understanding of how users interact with a product or service.
-
-- **Collect Feedback:** Obtain direct feedback on design elements, usability, and overall user experience.
-
-- **Identify Pain Points:** Identify pain points and challenges users may face during interaction.
-
-- **Generate Ideas:** Stimulate creative thinking and generate new design ideas.
-
-- **Validate Design Decisions:** Validate design decisions through user opinions and preferences.
-
 ## Structure
 
 A typical **UI/UX focus group** involves:
@@ -39,6 +27,18 @@ A typical **UI/UX focus group** involves:
 - **Observation:** Designers and stakeholders observe the session, taking notes on participant reactions and comments.
 
 - **Post-Session Analysis:** Analyze the collected data to derive actionable insights for design improvements.
+
+## Purpose
+
+- **Understand User Perspectives:** Gain a deeper understanding of how users interact with a product or service.
+
+- **Collect Feedback:** Obtain direct feedback on design elements, usability, and overall user experience.
+
+- **Identify Pain Points:** Identify pain points and challenges users may face during interaction.
+
+- **Generate Ideas:** Stimulate creative thinking and generate new design ideas.
+
+- **Validate Design Decisions:** Validate design decisions through user opinions and preferences.
 
 ## Best Practices
 
@@ -65,7 +65,3 @@ Consider a UI/UX focus group for a mobile banking app redesign:
 4. **Group Discussion:** Facilitate a discussion on common themes, preferences, and pain points identified during the tasks.
 
 5. **Closing Remarks:** Thank participants, provide incentives if applicable, and communicate next steps in the design process.
-
-## Conclusion
-
-UI/UX focus groups play a crucial role in creating user-centered designs. By understanding user perspectives and incorporating direct feedback, designers can refine and optimize products to meet the needs and expectations of their target audience.
