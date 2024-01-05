@@ -37,6 +37,19 @@ console.log(19 & 7); // Output: 3
 // 00011 =  3
 ```
 
+## Codebyte Example
+
+The following example illustrates the use of Bitwise `&` operator:
+
+```codebyte/javascript
+console.log(-5 & 12); // Output: 8
+
+// 11111111111111111111111111111011 = -5
+// 00000000000000000000000000001100 = 12
+// 00000000000000000000000000001000 = 8
+```
+
+
 ### OR
 
 ```javascript
@@ -47,6 +60,18 @@ console.log(19 | 7); // Output: 23
 // 10111 = 23
 ```
 
+## Codebyte Example
+
+The following example illustrates the use of Bitwise `|` operator:
+
+```codebyte/javascript
+console.log(13 | 10); // Output: 15
+
+// 1101 = 13
+// 1010 = 10
+// 1111 = 15
+```
+
 ### XOR
 
 ```javascript
@@ -55,6 +80,18 @@ console.log(19 ^ 7); // Output: 20
 // 10011 = 19
 // 00111 =  7
 // 10100 = 20
+```
+
+## Codebyte Example
+
+The following example illustrates the use of Bitwise `^` operator:
+
+```codebyte/javascript
+console.log(4 ^ -11); // Output: -15
+
+// 00000000000000000000000000000100 = 4
+// 11111111111111111111111111110101 = -11
+// 11111111111111111111111111110001 = -15
 ```
 
 ### NOT
@@ -70,6 +107,17 @@ console.log(~19); // Output: -20
 // 11111111111111111111111111101100 = -20
 ```
 
+## Codebyte Example
+
+The following example illustrates the use of Bitwise `~` operator:
+
+```codebyte/javascript
+console.log(~-10); // Output: 9
+
+// 11111111111111111111111111110110 = -10
+// 00000000000000000000000000001001 = 9
+```
+
 ### Zero fill left shift
 
 ```javascript
@@ -77,6 +125,16 @@ console.log(19 << 3); // Output: 152
 
 // 00000000000000000000000000010011 =  19
 // 00000000000000000000000010011000 = 152
+```
+## Codebyte Example
+
+The following example illustrates the use of Bitwise `<<` operator:
+
+```codebyte/javascript
+console.log(34 << 2); // Output: 136
+
+// 00000000000000000000000000100010 = 34
+// 00000000000000000000000010001000 = 136
 ```
 
 ### Signed right shift
@@ -94,6 +152,23 @@ console.log(-20 >> 3); // Output: -3
 // 11111111111111111111111111101100 = -20
 // 11111111111111111111111111111101 =  -3
 ```
+## Codebyte Examples
+
+The following example illustrates the use of Bitwise `>>` operator:
+
+```codebyte/javascript
+console.log(-15 >> 4); // Output: -1
+
+// 11111111111111111111111111110001 = -15
+// 11111111111111111111111111111111 = -1
+```
+
+```codebyte/javascript
+console.log(50 >> 4); // Output: 3
+
+// 00000000000000000000000000110010 = 50
+// 00000000000000000000000000000011 = 3
+```
 
 ### Zero fill right shift
 
@@ -109,4 +184,21 @@ console.log(-20 >>> 3); // Output: 536870909
 
 // 11111111111111111111111111101100 = -20
 // 00011111111111111111111111111101 = 536870909
+```
+## Codebyte Examples
+
+The following example illustrates the use of Bitwise `>>>` operator:
+
+```codebyte/javascript
+console.log(-8 >>> 6); // Output: 67108863
+
+// 11111111111111111111111111111000 = -8
+// 00000011111111111111111111111111 = 67108863
+```
+
+```codebyte/javascript
+console.log(96 >>> 6); // Output: 1
+
+// 00000000000000000000000001100000 = 96
+// 00000000000000000000000000000001 = 1
 ```
