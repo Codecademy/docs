@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **UI/UX Focus Group** is a powerful method in the realm of Human-Computer Interaction (HCI) and User Experience (UX) design. It serves as a means to gather valuable insights from potential users, allowing designers and developers to create more user-centric and intuitive products.
+The **Focus Group** is a powerful method used in Human-Computer Interaction (HCI) and User Experience (UX) design for User Research. It serves as a means to gather insights from users before and after the development of the product. As focus groups are a self-reported method of user research, they only help gauge users' perspectives of their wants, needs, and actions. So, they are an inaccurate representation of users' actions and thoughts. Focus groups follow the following pattern:
 
 ## Purpose
 
