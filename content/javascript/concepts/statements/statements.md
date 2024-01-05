@@ -195,9 +195,38 @@ for (let i = 0; i < 5; i++) {
   }
   console.log(i);
 }
+```
+## codebyte Example
 
+This code breaks or exits the loop when  `i` equals 3 and returns the value of `i`
+
+```codebyte/javascript
+// Break statement
+for (let i = 0; i < 5; i++) {
+  if (i === 3) {
+    break;
+  }
+  console.log(i);
+}
+
+```
+
+```js
 // Return statement
 function add(x, y) {
   return x + y;
 }
 ```
+## codebyte Example
+
+This code example returns the value of the add function 
+
+```codebyte/javascript
+function add(x, y) {
+  return x + y;
+}
+// call the add function with values of 2 and 4 for the arguements x and y and print the result to the console
+console.log(add(2, 4))
+
+```
+
