@@ -9,7 +9,7 @@ Tags:
   - 'UX'
 CatalogContent:
   - 'learn-ux-design'
-  - 'paths/human-computer-interaction'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 The **UI/UX Focus Group** is a powerful method in the realm of Human-Computer Interaction (HCI) and User Experience (UX) design. It serves as a means to gather valuable insights from potential users, allowing designers and developers to create more user-centric and intuitive products.
