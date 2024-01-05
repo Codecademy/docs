@@ -1,6 +1,6 @@
 ---
 Title: '.html()'
-Description: 'This method is used to set or get the inner HTML of the selected elements.'
+Description: 'Used to set or get the inner HTML of the selected elements.'
 Subjects:
   - 'Data Visualization'
   - 'Data Science'
