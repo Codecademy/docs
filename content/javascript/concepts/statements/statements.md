@@ -59,6 +59,14 @@ Expression statements, such as function calls or assignments, evaluate an expres
 // Function call
 console.log('Hello World');
 ```
+## codebyte Example
+
+This example shows a `console.log()`  function call
+
+```codebyte/javascript
+console.log('Hello, World!');
+// outputs Hello, World!
+```
 
 The second statement below re-assigns the value 5 to the variable `x`, while the third statement logs the value of `x` to the console:
 
@@ -67,6 +75,20 @@ var x = 5;
 x = 6;
 console.log(x);
 ```
+
+## codebyte Example
+
+This example shows re-assignment of value to variable `x`
+
+```codebyte/javascript
+var x = 5;
+console.log(x)
+//outputs 5
+x = 6;
+console.log(x);
+// outputs 6
+```
+
 
 ## Conditional Statements
 
