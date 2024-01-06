@@ -17,9 +17,7 @@ CatalogContent:
 
 To set **`color`** property values for an element. `color` sets the color of an element's textual and decorative parts and text.
 
-
 ## Syntax
-
 
 ```css
 color: value;
@@ -47,7 +45,6 @@ p {
 }
 ```
 
-
 ```css
 body {
   background-color: #000000;
@@ -59,7 +56,6 @@ p {
   color: #ffc0cb;
 }
 ```
-
 
 ```css
 body {
