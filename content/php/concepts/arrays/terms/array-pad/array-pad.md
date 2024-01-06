@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`array_pad()`** method is used to pad an array to a specified length with a value. If the specified length is positve, the array is padded to the right with the value until the array's size equals to the specified length. Conversely, if the specified length is negative, the array is padded to the left with the value until the array's size equals to the absolute value of specified length. The array will not be padded if the size of the array is more than the absolute value of specified length.
+The **`array_pad()`** method pads an array to a specified length with a value. If the specified length is positive, the array is padded to the right with the value until the array's size equals to the specified length. Conversely, if the specified length is negative, the array is padded to the left with the value until the array's size equals the absolute value of the specified length. The array will not be padded if the size of the array is more than the absolute value of the specified length.
 
 ## Syntax
 
@@ -23,9 +23,9 @@ array_pad($array, $length, $value)
 
 - `$array`: Specifies the input `array`.
 - `$length`: The new size of `array`.
-- `$value`: The value to be padded to `array` if its size is less than absolute value of `$length`.
+- `$value`: The value to be padded to `array` if its size is less than the absolute value of `$length`.
 
-The `array_pad()` function returns the padded array according to the specified length with the intended value.
+> > **Note:** The `array_pad()` function returns the padded array according to the specified length with the intended value.
 
 ## Example
 
@@ -43,7 +43,7 @@ The following example uses the `array_pad()` function to pad the array `$numbers
 ?>
 ```
 
-The example will result in the following output:
+The example above will result in the following output:
 
 ```shell
 Array
