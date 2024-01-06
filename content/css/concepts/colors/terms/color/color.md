@@ -15,25 +15,25 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-To set **color** property values for an element. `<color>` sets the color of the textual and decorative parts of an element and text.
+To set **`color`** property values for an element. `color` sets the color of an element's textual and decorative parts and text.
 
 
 ## Syntax
 
 ```css
-color: <value>;
+color: value;
 ```
 
-The `<value>` of the color property can be any of the following:
+The `value` of the color property can be any of the following:
 
 - Name of the color (e.g., `aqua`, `khaki`, `red`)
-- RGB (red, green and blue) colors (e.g., `rgb(249, 2, 171)`)
+- RGB (red, green, and blue) colors (e.g., `rgb(249, 2, 171)`)
 - Hexadecimal colors (e.g., `#ff0000`)
 
 
 ## Example
 
-The `h1` tag is set to be orange in color and the `p` tag is set as pink in color. The background color, black/#000000/rgb(0,0,0), is only set for context:
+The `h1` tag is set to be orange in color, and the `p` tag is set as pink in color. The background color, black/#000000/rgb(0,0,0), is only set for context:
 
 ```css
 body {
@@ -75,4 +75,4 @@ p {
 
 Three examples were given in the example block above, each of them would yield or translate to the same output:
 
-![Image shows how the color property responds to different elements](https://raw.githubusercontent.com/Codecademy/docs/main/media/colors-image-output.png)
+![Shows how the color property responds to different elements](https://raw.githubusercontent.com/Codecademy/docs/main/media/colors-image-output.png)
