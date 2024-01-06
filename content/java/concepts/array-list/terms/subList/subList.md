@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Java, `.subList()` method is a powerful feature of the List interface that allows one to obtain a portion of the list based on specified indices. This method provides a convenient way to create a sublist containing elements from the original List.
+In Java, the `.subList()` method is a powerful feature of the List interface that obtains a portion of the list based on specified indices. This method provides a convenient way to create a sublist containing elements from the original list.
 
 ## Syntax
 
