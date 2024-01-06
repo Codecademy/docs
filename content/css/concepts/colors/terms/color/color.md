@@ -20,6 +20,7 @@ To set **`color`** property values for an element. `color` sets the color of an 
 
 ## Syntax
 
+
 ```css
 color: value;
 ```
@@ -29,7 +30,6 @@ The `value` of the color property can be any of the following:
 - Name of the color (e.g., `aqua`, `khaki`, `red`)
 - RGB (red, green, and blue) colors (e.g., `rgb(249, 2, 171)`)
 - Hexadecimal colors (e.g., `#ff0000`)
-
 
 ## Example
 
@@ -47,6 +47,7 @@ p {
 }
 ```
 
+
 ```css
 body {
   background-color: #000000;
@@ -59,6 +60,7 @@ p {
 }
 ```
 
+
 ```css
 body {
   background-color: rgb(0,0,0);
@@ -70,8 +72,6 @@ p {
   color: rgb(255,192,203);
 }
 ```
-
-## Output
 
 Three examples were given in the example block above, each of them would yield or translate to the same output:
 
