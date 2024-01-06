@@ -34,9 +34,9 @@ import kotlinx.serialization.protobuf.ProtoBuf
 data class Course(val name: String, val description: String)
 
 fun main() {
-    val course = Course("Introduction to Programming.", "An introductory course to programming using Kotlin.")
+    val course = Course("Learn Kotlin", "The expressive, open-source programming language developed by JetBrains.")
     val courseToByteArray = ProtoBuf.encodeToByteArray(course)
-
+    
     println("My course in byte array: $courseToByteArray")
 }
 ```
