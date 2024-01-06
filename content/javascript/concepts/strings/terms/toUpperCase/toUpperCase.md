@@ -41,3 +41,14 @@ console.log(state)
 
 console.log(state.toUpperCase());
 ```
+## Example 3
+
+Combining `.toUpperCase()` with other string methods:
+
+```js
+let greeting = "Hi, how are you today?"
+let shoutGreeting = greeting.toUpperCase().concat("!!")
+
+console.log(shoutGreeting);
+// Output: HI, HOW ARE YOU TODAY?!!
+```
