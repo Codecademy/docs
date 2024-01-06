@@ -25,7 +25,7 @@ List<E> subList (int fromIndex, int toIndex)
 
 ## Example
 
-Below is an example demonstrating the usage of the `.subList()` method: 
+Below is an example demonstrating the usage of the `.subList()` method:
 
 ```java
 import java.util.ArrayList;
