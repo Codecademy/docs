@@ -46,7 +46,7 @@ array.toSorted(compareFn);
 array.toSorted(function compareFn(a, b) { /* … */ });
 ```
 
-## Example
+## Example 1
 
 In the example below, the `.toSorted()` method is applied to the arrays `sports` and `numbers`.
 
@@ -103,12 +103,36 @@ Numbers Ascending: -3,1,1,2,3,4,9,200,959,2159.2
 Numbers Descending: 2159.2,959,200,9,4,3,2,1,1,-3
 ```
 
-## Codebyte Example
+## Example 2
 
-```codebyte/javascript
-const cars = ['toyota', 'ferrari', 'volkswagen', 'lamborghini', 'bugatti'];
+The following example demonstrates the use of an arrow function in the `toSorted()` method:
 
-let sortedCars = cars.toSorted();
-console.log('Pre-sorted: ' + cars);
-console.log('Sorted: ' + sortedCars);
+```js
+// Array of book objects
+const books = [
+  { title: 'The Hobbit', author: 'J.R.R. Tolkien' },
+  { title: '1984', author: 'George Orwell' },
+  { title: 'Pride and Prejudice', author: 'Jane Austen' },
+  { title: 'To Kill a Mockingbird', author: 'Harper Lee' },
+];
+
+// Using an arrow function to sort books by their title
+let sortedBooks = books.toSorted((a, b) =>
+  a.title < b.title ? -1 : a.title > b.title ? 1 : 0
+);
+
+console.log('Sorted Books by Title:');
+sortedBooks.forEach((book) => console.log(book.title + ' by ' + book.author));
 ```
+
+The example above will result in the following output:
+
+```shell
+Sorted Books by Title:
+1984 by George Orwell
+Pride and Prejudice by Jane Austen
+The Hobbit by J.R.R. Tolkien
+To Kill a Mockingbird by Harper Lee
+```
+
+> **Note:** The `toSorted()` method only works with **Node.js Version 20 or above**. Please ensure that your compiler supports that or else it will result in an error.
