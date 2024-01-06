@@ -25,7 +25,7 @@ array_pad($array, $length, $value)
 - `$length`: The new size of `array`.
 - `$value`: The value to be padded to `array` if its size is less than the absolute value of `$length`.
 
-> > **Note:** The `array_pad()` function returns the padded array according to the specified length with the intended value.
+>> **Note:** The `array_pad()` function returns the padded array according to the specified length with the intended value.
 
 ## Example
 
@@ -95,7 +95,7 @@ This example is runnable and uses the `array_pad()` function in various scenario
   print_r($paddedFruitsZero);
   echo "\n";
 
-  // Using associative array
+  // Using an associative array
   $assocArray = array("a"=>"apple", "b"=>"banana");
   $assocPad = array_pad($assocArray, 4, $padValue);
   print_r($assocPad);
