@@ -25,7 +25,7 @@ array_pad($array, $length, $value)
 - `$length`: The new size of `array`.
 - `$value`: The value to be padded to `array` if its size is less than the absolute value of `$length`.
 
->> **Note:** The `array_pad()` function returns the padded array according to the specified length with the intended value.
+> **Note:** The `array_pad()` function returns the padded array according to the specified length with the intended value.
 
 ## Example
 
