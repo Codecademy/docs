@@ -59,13 +59,13 @@ p {
 
 ```css
 body {
-  background-color: rgb(0,0,0);
+  background-color: rgb(0, 0, 0);
 }
 h1 {
-  color: rgb(255,165,0);
+  color: rgb(255, 165, 0);
 }
 p {
-  color: rgb(255,192,203);
+  color: rgb(255, 192, 203);
 }
 ```
 
