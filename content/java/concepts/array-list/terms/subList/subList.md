@@ -21,7 +21,7 @@ List<E> subList (int fromIndex, int toIndex)
 ```
 
 - `fromIndex`: The starting index of the sublist.
-- `toIndex`: The ending index of the sublist.
+- `toIndex`: The ending index of the sublist. The element at this index is excluded from the sublist.
 
 ## Example
 
