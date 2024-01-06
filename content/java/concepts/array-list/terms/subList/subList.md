@@ -48,7 +48,7 @@ public class SubListExample {
 
     // Display the original and sublist
     System.out.println("Original List: " + exampleList);
-    System.out.println("SubList (inclusive index 1, eclusive index 4): " + subList);
+    System.out.println("SubList (inclusive index 1, exclusive index 4): " + subList);
   }
 }
 ```
