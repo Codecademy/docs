@@ -21,12 +21,12 @@ CatalogContent:
 1. Find the maximum value:
 
 - Iterate through the input array `data` to find the largest element `max`.
-  - This determines the range of values we need to count.
+  - This determines the range of values needed to be counted.
 
 2. Create the count array:
 
 - Initialize a new array `count` with a `max + 1` size to hold each value's frequency. 
-    - The size is `max + 1` so that we can include the `max` element.
+    - The size is `max + 1` so that the `max` element is accounted for.
 - Set all elements in `count` to _0_ initially.
 
 3. Count the occurrences:
@@ -39,7 +39,7 @@ CatalogContent:
 
 - Initialize a new array `start` of the same size as `count`.
 - Set `start[0]` to _0_.
-- Based on the frequency distribution found in `count`, we can find the starting indexes and store them in the `start` array (`start[j] = start[j-1] + count[j-1]` for `j=1` to `max`).
+- Based on the frequency distribution found in `count`, the starting indexes can be determined and stored in the `start` array (`start[j] = start[j-1] + count[j-1]` for `j=1` to `max`).
 
 5. Place elements in sorted order:
 
