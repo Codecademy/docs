@@ -54,7 +54,7 @@ CatalogContent:
 - The `result` array now contains the elements of the original `data` array in sorted order.
 - Return the `result` array.
 
-## Implemented Example
+## Implementation
 
 The following example written in [Java](https://www.codecademy.com/resources/docs/java) shows an implementation of counting sort:
 
