@@ -27,36 +27,25 @@ The `.atTime()` method can be called on a `LocalDate` object with different para
 
 ## Example
 
-In this example, we first create a LocalDate object representing December 17, 2023. Then, we use the **.atTime()** method to combine it with different time components. The resulting **LocalDateTime** objects (dateTime1 and dateTime2) represent the combined date and time.
+In this example, we first create a `LocalDate` object representing December 17, 2023. Then, we use the `.atTime()` method to combine it with different time components. The resulting `LocalDateTime` objects (dateTime1 and dateTime2) represent the combined date and time.
 
 ```kotlin
-
-import kotlinx.datetime.LocalDate
-import kotlinx.datetime.LocalTime
-import kotlinx.datetime.LocalDateTime
-
+import kotlinx.datetime.*
 
 fun main() {
-    val date = LocalDate.of(2023, 12, 17)
-    val time = LocalTime.of(15, 30)
+    val date = LocalDate(2023, 12, 17)
+    val time = LocalTime(15, 30)
 
     // Combining date and time using atTime()
     val dateTime1: LocalDateTime = date.atTime(12, 0, 0)
     val dateTime2: LocalDateTime = date.atTime(time)
-    
-    println("DateTime 1: $dateTime1") // DateTime 1: 2023-12-17T12:00
+            
+    println("DateTime 1: $dateTime1") // DateTime 1: 2023-12-17T15:30
     println("DateTime 2: $dateTime2") // DateTime 2: 2023-12-17T15:30
 }
 ```
 
-```
-Output:
+```shell
 DateTime 1: 2023-12-17T12:00
 DateTime 2: 2023-12-17T15:30
 ```
-
-
-
-
-
-
