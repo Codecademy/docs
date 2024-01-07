@@ -33,7 +33,7 @@ CatalogContent:
 
 
 ### Implementation Pt.1 
-
+The following example written in [Java](https://www.codecademy.com/learn/learn-java) shows an implementation of the first part of the Merge Sort Algorithm — spliting the main array into subarrays. 
 ```java
 public static void mergeSort(int[] data){
     if(data.length == 1){
@@ -70,6 +70,8 @@ public static void mergeSort(int[] data){
    - Similarly, if any elements remain in `right`, copy them into the remaining positions in `data`.
 
 ## Implementation Pt.2
+
+The following example written in [Java](https://www.codecademy.com/learn/learn-java) shows an implementation of the second part of Merge Sort — sorting the subarrays and merging them back into the original array.
 
 ```java
 public static void merge(int[] data, int[] left, int[] right){
