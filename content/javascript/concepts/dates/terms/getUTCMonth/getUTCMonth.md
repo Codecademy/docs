@@ -42,7 +42,9 @@ This results in the following output:
 0
 ```
 
+
 ## Example with a specific date and formatting
+This function help you to get the month for the specific date provided.
 
 ```codebyte/js
 
@@ -60,6 +62,8 @@ Month for June 15, 2023: 5
 
 
 ## Example with an array of dates
+This example shows how to apply getUTCMonth() function inside loop.
+You can get months on iterating the array of date data.
 
 ```codebyte/js
 
@@ -83,6 +87,8 @@ Month: 7
 ```
 
 ## Example using getUTCMonth() in a function
+This example helps to understand how to get month number and month name from a date provided.
+Try running the code and analyse the output.
 
 ```codebyte/js
 
