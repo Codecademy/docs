@@ -22,8 +22,8 @@ CatalogContent:
 ## MergeSort Method
 
 **Divide:**
-  - Base Case: If the input array `data` has only one element, it's already sorted, so return.
-  - Split: Divide the array into two halves, `left` and `right`, of approximately equal size.
+  - `Base Case`: If the input array `data` has only one element, it's already sorted, so return.
+  - `Split`: Divide the array into two halves, `left` and `right`, of approximately equal size.
 
 Conquer:
   
