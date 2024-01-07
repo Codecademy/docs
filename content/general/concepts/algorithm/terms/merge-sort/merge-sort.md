@@ -25,13 +25,13 @@ CatalogContent:
   - `Base Case`: If the input array `data` has only one element, it's already sorted, so return.
   - `Split`: Divide the array into two halves, `left` and `right`, of approximately equal size.
 
-Conquer:
+**Conquer**:
   
-  - [Recursive](https://www.codecademy.com/learn/java-algorithms/modules/recursion-apcs/cheatsheet) Calls: Repeatedly call `mergeSort` on each half, `(left)` and `(right)`, to create subarrays so they are sorted independently.
+  - [`Recursive Calls`](https://www.codecademy.com/learn/java-algorithms/modules/recursion-apcs/cheatsheet): Repeatedly call `mergeSort` on each half, `(left)` and `(right)`, to create subarrays so they are sorted independently.
 
-Combine:
+**Combine**:
   
-  - Merge: Call the `merge` function to merge the two sorted halves (each initially of length 1) `left` and `right`, and combine them back into the original array `data` in a sorted manner.
+  - `Merge`: Call the `merge` function to merge the two sorted halves (each initially of length 1) `left` and `right`, and combine them back into the original array `data` in a sorted manner.
 
 
 ### Implementation Pt.1 
