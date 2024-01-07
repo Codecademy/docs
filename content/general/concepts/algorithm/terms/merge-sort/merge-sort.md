@@ -57,7 +57,6 @@ public static void mergeSort(int[] data){
 }
 
 ```
-## 
 
 ### Merge Method
 
