@@ -26,7 +26,7 @@ fun T> BinaryFormat.encodeToByteArray(value: T): ByteArray
 
 ## Example
 
-The code below gives an example on how to use `.encodeToByteArray`:
+The below code demonstrates the use of `.encodeToByteArray()`:
 
 ```kotlin
 import kotlinx.serialization.*
