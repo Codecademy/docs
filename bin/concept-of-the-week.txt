@@ -1,1 +1,1 @@
-content/ruby/concepts/functions/functions.md
+content/javascript/concepts/iterators/iterators.md
