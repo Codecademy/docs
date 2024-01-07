@@ -55,3 +55,23 @@ class DivideByZero {
   }
 }
 ```
+
+When a programmer needs to handle more than one type of error, there are two common ways to do so, as follows:
+
+```java
+// Handle different errors separately
+try {
+
+} catch (Exception1 e) {
+
+} catch (Exception2 e) {
+
+}
+
+// Handle different erros in the same way
+try {
+  
+} catch (Exception1 | Exception2 e) {
+
+}
+```
