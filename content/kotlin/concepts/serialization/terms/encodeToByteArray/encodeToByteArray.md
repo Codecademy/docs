@@ -1,12 +1,13 @@
 ---
 Title: '.encodeToByteArray()'
-Description: 'Serializes and converts the given data to byte array'
+Description: 'Serializes and converts the given data to a byte array'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
 Tags:
-  - 'Method'
+  - 'Methods'
   - 'Data Structures'
+  - 'Kotlin'
 CatalogContent:
   - 'learn-kotlin'
   - 'paths/computer-science'
