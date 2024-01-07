@@ -43,7 +43,7 @@ fun main() {
 }
 ```
 
-The output of the code above is:
+The output of the above code is:
 
 ```shell
 My course in byte array: [B@21588809
