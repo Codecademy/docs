@@ -106,7 +106,7 @@ public static void merge(int[] data, int[] left, int[] right){
 
 ```
 
-## Time Complexity Breakdown
+### Time Complexity Breakdown
 
 Overall Time Complexity: _O(n log n)_
 
