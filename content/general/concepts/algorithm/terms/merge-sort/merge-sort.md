@@ -112,14 +112,14 @@ Overall Time Complexity: _O(n log n)_
 
 ### Breakdown:
 
-1. Divide:
+1. **Divide**:
    - The `mergeSort` function recursively divides the array into halves until each subarray has only one element.
    - This splitting process has a time complexity of _O(log n)_ due to the repeated halving.
 
-2. Conquer:
+2. **Conquer**:
    - The base case (array of size 1) requires no sorting, so its complexity is _O(1)._
 
-3. Combine:
+3. **Combine**:
    - The `merge` function merges two sorted subarrays into a single sorted array.
    - It iterates through both subarrays once, comparing elements and copying them to the final array.
    - This merging process takes _O(n)_ time, where n is the total number of elements being merged.
