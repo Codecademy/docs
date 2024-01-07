@@ -70,7 +70,7 @@ try {
 
 // Handle different errors in the same way
 try {
-  
+
 } catch (Exception1 | Exception2 e) {
 
 }
