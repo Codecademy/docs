@@ -13,7 +13,8 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.encodeToByteArray()`** function is provided by the **kotlinx.serialization** library. The function serializes and encodes the given value and returns an array of bytes. The `.encodeToByteArray()` function is the inverse of `.decodeFromByteArray()`.
+The **`.encodeToByteArray()`** method is provided by the [`kotlinx.serialization`](https://www.codecademy.com/resources/docs/kotlin/serialization) library and is used to serialize and convert the given data to a byte [array](https://www.codecademy.com/resources/docs/kotlin/arrays). This method is the inverse of the [`.decodeFromByteArray()`](https://www.codecademy.com/resources/docs/kotlin/serialization/decodeFromByteArray) method.
+
 ## Syntax
 
 ```pseudo
