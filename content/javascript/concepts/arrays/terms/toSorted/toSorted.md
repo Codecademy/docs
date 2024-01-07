@@ -105,7 +105,7 @@ Numbers Descending: 2159.2,959,200,9,4,3,2,1,1,-3
 
 ## Example 2
 
-The following example demonstrates the use of an arrow function in the `toSorted()` method:
+The following example demonstrates the use of an arrow function in the `.toSorted()` method:
 
 ```js
 // Array of book objects
