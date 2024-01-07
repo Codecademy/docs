@@ -42,6 +42,7 @@ Set the position of `.box` element `40px` from the bottom of the nearest relativ
   bottom: 40px;
 }
 ```
+![The blue box is positioned 40px from the bottom edge of its containing element](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-absolute-bottom.png)
 
 ## Example 2
 
@@ -56,3 +57,4 @@ Set the position of `.box` element `40px` from the elements bottom edge.
   bottom: 40px;
 }
 ```
+![The blue box is positioned 40px above its default position within the containing element](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-relative-bottom.png)
