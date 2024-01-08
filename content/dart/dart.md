@@ -11,6 +11,5 @@ Dart is an open-source, general-purpose programming language introduced in 2011.
 
 ## Uses of Dart
 
-- `Web Development`: Dart is used to create web applications through frameworks like Flutter, AngularDart, and others. Flutter, in particular, has gained significant popularity for building web applications using Dart.
-- `Mobile Development`: Flutter, a UI toolkit powered by Dart, is extensively used for building mobile applications for iOS and Android platforms. It provides a single codebase for both platforms, reducing development time and effort.
+- `Cross-platform development`: Dart is used to create cross-platform applications through frameworks like Flutter, AngularDart, and others. Flutter, in particular, has gained significant popularity for building web applications using Dart.
 - `Server-Side Development`: Dart can be used to develop server-side applications. The Dart ecosystem includes frameworks like Aqueduct and Shelf, which aid in building backend services.
