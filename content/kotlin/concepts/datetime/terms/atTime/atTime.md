@@ -21,13 +21,6 @@ The **`.atTime()`** method in Kotlin is used to combine a date and a time, resul
 fun LocalDate.atTime(hour: Int, minute: Int, second: Int): LocalDateTime
 fun LocalDate.atTime(time: LocalTime): LocalDateTime
 fun LocalDate.atTime(time: LocalTime, second: Int): LocalDateTime
-```
-
-The `.atTime()` method can be called on a `LocalDate` object with different parameter combinations. You can specify the hour, minute, and second individually, or provide a `LocalTime` object
-
-## Example
-
-In this example, we first create a `LocalDate` object representing December 17, 2023. Then, we use the `.atTime()` method to combine it with different time components. The resulting `LocalDateTime` objects (dateTime1 and dateTime2) represent the combined date and time.
 
 ```kotlin
 import kotlinx.datetime.*
