@@ -47,7 +47,7 @@ This will result in the following output:
 
 ## Codebyte Example
 
-The example below returns the day of the week according to the universal time, where 0 represents Sunday. The value returned will be an integer between 0 and 6. 
+The example below returns the day of the week according to the universal time, where 0 represents Sunday. The value returned will be an integer between 0 and 6:
 
 ```codebyte/javascript
 const date = new Date('January 06, 2024 23:15:30 GMT+11:00');
