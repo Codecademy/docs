@@ -37,7 +37,7 @@ console.log(19 & 7); // Output: 3
 // 00011 =  3
 ```
 
-## Codebyte Example
+### Codebyte Example
 
 Execute the following to illustrate the use of Bitwise `&` operator:
 
