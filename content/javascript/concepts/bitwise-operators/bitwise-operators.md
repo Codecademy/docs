@@ -46,7 +46,6 @@ console.log(-5 & 12);
 ```
 
 
-### OR
 
 ```javascript
 console.log(19 | 7); // Output: 23
