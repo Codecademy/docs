@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.cos()`** method returns the trigonometric cosine of an angle argument, given in radians.
+The **`.cos()`** method returns the trigonometric cosine of the given angle. The result is in the range [-1, 1].
 
 ## Syntax
 
@@ -22,10 +22,9 @@ The **`Math.cos()`** method returns the trigonometric cosine of an angle argumen
 Math.cos(angle)
 ```
 
-- The result is in the range [-1, 1].
-- If the `angle` is **NaN** or **Infinity**, **NaN** is returned.
+- `angle`: This is the only parameter the `.cos()` method takes and is expressed in radians. 
 
-> **Note:** The `angle` parameter is expressed in radians.
+> **Note:**  If the `angle` is **NaN** or **Infinity**, **NaN** is returned.
 
 ## Example
 
