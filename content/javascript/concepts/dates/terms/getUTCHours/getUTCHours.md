@@ -38,7 +38,7 @@ Returns the following to the console:
 
 ## Codebyte Example
 
-In the following example, variables `estDate` and `pstDate` are defined to store a new `Date` object in Eastern Time and Pacific Time respectively. The method `.getUTCHours()` is then used to print the hours of the dates according to universal time. You can just run this example in the Codebyte below to test the results:
+In the following example, variables `estDate` and `pstDate` are defined to store a new `Date` object in Eastern Time and Pacific Time respectively. The method `.getUTCHours()` is then used to print the hours of the dates according to universal time. You can run this example in the Codebyte below to test the results:
 
 ```codebyte/javascript
 const estDate = new Date('January 2, 2023, 4:00 GMT -500');
