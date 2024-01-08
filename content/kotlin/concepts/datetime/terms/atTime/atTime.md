@@ -45,6 +45,8 @@ fun main() {
 }
 ```
 
+The output of the above code is as follows:
+
 ```shell
 DateTime 1: 2023-12-17T12:00
 DateTime 2: 2023-12-17T15:30
