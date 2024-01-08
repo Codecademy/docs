@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`array_pad()`** method pads an array to a specified length with a value. If the specified length is positive, the array is padded to the right with the value until the array's size equals to the specified length. Conversely, if the specified length is negative, the array is padded to the left with the value until the array's size equals the absolute value of the specified length. The array will not be padded if the size of the array is more than the absolute value of the specified length.
+The **`array_pad()`** method pads an array to a specified length with a value. If the specified length is positive, the array is padded to the right with the value until the array's size equals the specified length. Conversely, if the specified length is negative, the array is padded to the left with the value until the array's size equals the absolute value of the specified length. The array will not be padded if the size of the array is more than the absolute value of the specified length.
 
 ## Syntax
 
