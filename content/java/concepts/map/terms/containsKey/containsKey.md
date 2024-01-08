@@ -16,7 +16,7 @@ The `.containsKey()` method is declared in the [`Map`](https://www.codecademy.co
 
 ## Syntax
 
-The `.containsKey()` method can be called on a `HashMap` instance and it requires one parameter, the key that needs to be checked.
+The `.containsKey()` method can be called on a `HashMap` instance and it requires one parameter, the key that needs to be checked:
 
 ```pseudo
 hashMap.containsKey(key);
