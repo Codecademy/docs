@@ -21,8 +21,8 @@ The **`.encodeToByteArray()`** method is provided by the [`kotlinx.serialization
 fun <T> BinaryFormat.encodeToByteArray(value: T): ByteArray
 ```
 
-- `<T>`: The type of data to be converted
-- `value`: The data to be converted
+- `<T>`: The type of data to be converted.
+- `value`: The data to be converted.
 - `BinaryFormat`: An [interface](https://www.codecademy.com/resources/docs/kotlin/interfaces) that allows conversions to and from `ByteArray` via the `.encodeToByteArray()` and `.decodeFromByteArray()` methods. An example of `BinaryFormat` is `ProtoBuf`.
 
 ## Example
