@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.containsKey()` method is declared in the [`Map`](https://www.codecademy.com/resources/docs/java/map) interface and is implemented in the [`HashMap`](https://www.codecademy.com/resources/docs/java/hashmap) class. It is used to determine if a `Map` object contains a specific key. The function returns a boolean value: `true` if the key exists, and `false` if not.
+The `.containsKey()` method is declared in the [`Map`](https://www.codecademy.com/resources/docs/java/map) interface and is implemented in the [`HashMap`](https://www.codecademy.com/resources/docs/java/hashmap) class. It is used to determine if a `Map` object contains a specific key. The function returns a boolean value `true` if the key exists, and `false` if not.
 
 ## Syntax
 
