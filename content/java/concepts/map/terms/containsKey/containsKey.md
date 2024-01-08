@@ -50,7 +50,7 @@ public class Groceries {
 }
 ```
 
-The output should look like this:
+The above example will give the following output:
 
 ```shell
 Basket contains Apples: true
