@@ -1,6 +1,6 @@
 ---
 Title: '.containsKey()'
-Description: 'Checks if a map contains a specified key'
+Description: 'Checks if a map contains a specified key.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
