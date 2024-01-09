@@ -11,12 +11,12 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **.putIfAbsent()** method in Java adds a key-value pair to a map if the key isn't already there. If the `key` exists, it returns its associated `value`, showing no new addition. If the `key` is not present, it adds the pair to the map and returns `null`.
+The **`.putIfAbsent()`** method in Java adds a key-value pair to a map if the key isn't already there. If the `key` exists, it returns its associated `value`, showing no new addition. If the `key` is not present, it adds the pair to the map and returns `null`.
 
 ## Syntax
 
 ```pseudo 
-Hashmap.putIfAbsent(key, value)
+map.putIfAbsent(key, value)
 ```
 
 - `key`: It is the `key` to be inserted into the map.
