@@ -51,4 +51,4 @@ const currentDate = new Date();
 console.log(`The current UTC date is: ${currentDate.getUTCDate()}`);
 ```
 
-This code logs the current day of the month based on UTC to the console.
+> **Note:** The above code logs the current day of the month based on UTC to the console.
