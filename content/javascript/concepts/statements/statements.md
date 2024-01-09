@@ -127,7 +127,7 @@ switch (x) {
     console.log('x is neither 1 nor 2');
 }
 ```
-This example shows outputs of switch statment:
+This example shows outputs of switch statement:
 
 ```codebyte/javascript
 // change value of x 
