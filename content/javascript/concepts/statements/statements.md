@@ -39,16 +39,17 @@ This example shows the output values of the declared variables:
 ```codebyte/javascript
 var x = 5;
 console.log(x)
-// outputs 5
+
 var y = 6;
 console.log(y)
-// outputs 6
+
 var x = 4;
 console.log(x)
-// outputs 4
+
+
 var z = x + y;
 console.log(z)
-// outputs 10, x is reassigned 4
+
 ```
 
 ## Expression Statements
