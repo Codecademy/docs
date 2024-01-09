@@ -62,7 +62,7 @@ console.log('Hello World');
 ```
 ## Codebyte Example
 
-This example shows a `console.log()`  function call:
+This example shows a `console.log()` function call:
 
 ```codebyte/javascript
 console.log('Hello, World!');
@@ -177,7 +177,7 @@ for (let i = 0; i < 5; i++) {
 ```
 ## Codebyte example
 
-This works similar to `while`  loop. Conventionally `let`  keyword is used to declare a variable named `i`  in `for`  loops:
+This works similarly to the `while`  loop. Conventionally `let`  keyword is used to declare a variable named `i`  in `for`  loops:
 
 ```codebyte/javascript
 for (let i = 0; i < 7; i++) {
