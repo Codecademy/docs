@@ -83,10 +83,8 @@ This example shows re-assignment of value to variable `x`:
 ```codebyte/js
 var x = 5;
 console.log(x)
-//outputs 5
 x = 6;
 console.log(x);
-// outputs 6
 ```
 
 
