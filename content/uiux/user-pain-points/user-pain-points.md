@@ -1,13 +1,10 @@
 ---
 Title: 'User Pain Points'
-Description: 'Refers to issues a user incounters when using a program or website.'
-Subject:
- - 'Developer Tools'
+Description: 'Refers to issues users encounter when using a website or an application, or with real-world tasks.'
+Subjects:
  - 'Web Design'
- - 'Web Development'
 Tags:
- - 'Best Practices'
- - 'Developement'
+ - 'Design'
  - 'UI'
  - 'UX'
 ContentCatalog:
@@ -15,7 +12,9 @@ ContentCatalog:
 - 'paths/front-end-engineer-career-path'
 ---
 
-**User pain points** are areas of difficulty or frustration a user encounters when using a website or program that make the experience undesirable. User pain points can be minor inconveinences to major issues preventing users from accessing the product or service entirely. Identifying and resolving these issues is a crucial part of web development and should be considered throughout any project. Pain points are commonly described in three levels with four types at each level
+**User Pain Points** are areas of difficulty or frustration for a user when using a product that makes the experience undesirable. These can be minor inconveniences or issues preventing users from accessing the product or service entirely.  User Pain Points can also be difficulties users face with their daily tasks. Such problems are identified at the beginning of the product development process, to build user-centric solutions. They can be identified through User Research within the User Experience (UX) design process.
+
+User Pain Points within existing applications are commonly described in three levels with four types at each level given below.
 
 ## Pain Point Levels
 
