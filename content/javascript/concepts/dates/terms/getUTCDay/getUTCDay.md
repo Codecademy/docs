@@ -53,5 +53,4 @@ The example below returns the day of the week according to the universal time, w
 const date = new Date('January 06, 2024 23:15:30 GMT+11:00');
 
 console.log(date.getUTCDay());
-// Expected output: 6
 ```
