@@ -15,7 +15,7 @@ The **`.putIfAbsent()`** method in Java adds a key-value pair to a map if the ke
 
 ## Syntax
 
-```pseudo 
+```pseudo
 map.putIfAbsent(key, value)
 ```
 
@@ -45,10 +45,10 @@ public class Main {
         System.out.println("Value for key 4: " + value1);
 
         String value2 = map.putIfAbsent(2, "grape");
-        System.out.println("Value for key 2: " + value2); 
+        System.out.println("Value for key 2: " + value2);
 
         String value3 = map.putIfAbsent(3, "pear");
-        System.out.println("Value for key 3: " + value3); 
+        System.out.println("Value for key 3: " + value3);
 
         System.out.println("Updated Map: " + map);
     }
