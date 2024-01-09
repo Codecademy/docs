@@ -36,7 +36,7 @@ In this example, `x`, `y`, `X`, and `z`, are declared with the `var` keyword.
 
 This example shows the output values of the declared variables:
 
-```codebyte/javascript
+```codebyte/js
 var x = 5;
 console.log(x)
 
@@ -64,7 +64,7 @@ console.log('Hello World');
 
 This example shows a `console.log()` function call:
 
-```codebyte/javascript
+```codebyte/js
 console.log('Hello, World!');
 // outputs Hello, World!
 ```
@@ -81,7 +81,7 @@ console.log(x);
 
 This example shows re-assignment of value to variable `x`:
 
-```codebyte/javascript
+```codebyte/js
 var x = 5;
 console.log(x)
 //outputs 5
@@ -105,7 +105,7 @@ if (x > 5) {
 
 This example shows the output of an if statement:
 
-```codebyte/javascript
+```codebyte/js
 var x = 7
 if (x > 5) {
   console.log('x is greater than 5');
@@ -129,7 +129,7 @@ switch (x) {
 ```
 This example shows outputs of switch statement:
 
-```codebyte/javascript
+```codebyte/js
 // change value of x 
 var x = 1; 
 
@@ -160,7 +160,7 @@ while (x < 5) {
 ```
 ## Codebyte example
 
-```codebyte/javascript
+```codebyte/js
 // While loop
 var x = 0;
 while (x < 7) {
@@ -179,7 +179,7 @@ for (let i = 0; i < 5; i++) {
 
 This works similarly to the `while`  loop. Conventionally `let`  keyword is used to declare a variable named `i`  in `for`  loops:
 
-```codebyte/javascript
+```codebyte/js
 for (let i = 0; i < 7; i++) {
   console.log(i);
 }
@@ -203,7 +203,7 @@ for (let i = 0; i < 5; i++) {
 
 This code breaks or exits the loop when  `i` equals 3 and returns the value of `i`:
 
-```codebyte/javascript
+```codebyte/js
 // Break statement
 for (let i = 0; i < 5; i++) {
   if (i === 3) {
@@ -224,7 +224,7 @@ function add(x, y) {
 
 This code example returns the value of the add function: 
 
-```codebyte/javascript
+```codebyte/js
 function add(x, y) {
   return x + y;
 }
