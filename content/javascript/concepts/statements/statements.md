@@ -224,7 +224,6 @@ This code example returns the value of the add function:
 function add(x, y) {
   return x + y;
 }
-// call the add function with values of 2 and 4 for the arguements x and y and print the result to the console
 console.log(add(2, 4))
 
 ```
