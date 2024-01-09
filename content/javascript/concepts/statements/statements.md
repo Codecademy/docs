@@ -34,7 +34,7 @@ In this example, `x`, `y`, `X`, and `z`, are declared with the `var` keyword.
 
 ## Codebyte Example
 
-This example shows the output values of the declared variables
+This example shows the output values of the declared variables:
 
 ```codebyte/javascript
 var x = 5;
@@ -61,7 +61,7 @@ console.log('Hello World');
 ```
 ## Codebyte Example
 
-This example shows a `console.log()`  function call
+This example shows a `console.log()`  function call:
 
 ```codebyte/javascript
 console.log('Hello, World!');
@@ -78,7 +78,7 @@ console.log(x);
 
 ## Codebyte Example
 
-This example shows re-assignment of value to variable `x`
+This example shows re-assignment of value to variable `x`:
 
 ```codebyte/javascript
 var x = 5;
@@ -102,7 +102,7 @@ if (x > 5) {
 ```
 ## Codebyte Example
 
-This example shows the output of an if statement
+This example shows the output of an if statement:
 
 ```codebyte/javascript
 var x = 7
@@ -126,7 +126,7 @@ switch (x) {
     console.log('x is neither 1 nor 2');
 }
 ```
-This example shows outputs of switch statment
+This example shows outputs of switch statment:
 
 ```codebyte/javascript
 // change value of x 
@@ -176,7 +176,7 @@ for (let i = 0; i < 5; i++) {
 ```
 ## Codebyte example
 
-This works similar to `while`  loop. Conventionally `let`  keyword is used to declare a variable named `i`  in `for`  loops
+This works similar to `while`  loop. Conventionally `let`  keyword is used to declare a variable named `i`  in `for`  loops:
 
 ```codebyte/javascript
 for (let i = 0; i < 7; i++) {
@@ -200,7 +200,7 @@ for (let i = 0; i < 5; i++) {
 ```
 ## Codebyte Example
 
-This code breaks or exits the loop when  `i` equals 3 and returns the value of `i`
+This code breaks or exits the loop when  `i` equals 3 and returns the value of `i`:
 
 ```codebyte/javascript
 // Break statement
@@ -221,7 +221,7 @@ function add(x, y) {
 ```
 ## Codebyte Example
 
-This code example returns the value of the add function 
+This code example returns the value of the add function: 
 
 ```codebyte/javascript
 function add(x, y) {
