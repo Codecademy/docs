@@ -52,4 +52,3 @@ const string = 'What a COMPLEX string !1@2#3'
 const newString = string.toLowerCase()
 console.log(newString)
 ```
-
