@@ -32,7 +32,7 @@ In this example, `x`, `y`, `X`, and `z`, are declared with the `var` keyword.
 > **Note:** JavaScript identifiers are case-sensitive. Notice that `x` is not the same as `X`.
 
 
-## codebyte Example
+## Codebyte Example
 
 This example shows the output values of the declared variables
 
@@ -59,7 +59,7 @@ Expression statements, such as function calls or assignments, evaluate an expres
 // Function call
 console.log('Hello World');
 ```
-## codebyte Example
+## Codebyte Example
 
 This example shows a `console.log()`  function call
 
@@ -76,7 +76,7 @@ x = 6;
 console.log(x);
 ```
 
-## codebyte Example
+## Codebyte Example
 
 This example shows re-assignment of value to variable `x`
 
@@ -100,7 +100,7 @@ if (x > 5) {
   console.log('x is greater than 5');
 }
 ```
-## codebyte Example
+## Codebyte Example
 
 This example shows the output of an if statement
 
@@ -157,7 +157,7 @@ while (x < 5) {
   x++;
 }
 ```
-## codebyte example
+## Codebyte example
 
 ```codebyte/javascript
 // While loop
@@ -174,7 +174,7 @@ for (let i = 0; i < 5; i++) {
   console.log(i);
 }
 ```
-## codebyte example
+## Codebyte example
 
 This works similar to `while`  loop. Conventionally `let`  keyword is used to declare a variable named `i`  in `for`  loops
 
@@ -198,7 +198,7 @@ for (let i = 0; i < 5; i++) {
   console.log(i);
 }
 ```
-## codebyte Example
+## Codebyte Example
 
 This code breaks or exits the loop when  `i` equals 3 and returns the value of `i`
 
@@ -219,7 +219,7 @@ function add(x, y) {
   return x + y;
 }
 ```
-## codebyte Example
+## Codebyte Example
 
 This code example returns the value of the add function 
 
