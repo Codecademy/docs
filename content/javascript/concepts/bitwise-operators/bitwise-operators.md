@@ -55,7 +55,7 @@ console.log(19 | 7); // Output: 23
 // 10111 = 23
 ```
 
-## Codebyte Example
+### Codebyte Example
 
 Execute the following to illustrate the use of Bitwise `|` operator:
 
@@ -73,7 +73,7 @@ console.log(19 ^ 7); // Output: 20
 // 10100 = 20
 ```
 
-## Codebyte Example
+### Codebyte Example
 
 Execute the following to illustrate the use of Bitwise `^` operator:
 
@@ -94,7 +94,7 @@ console.log(~19); // Output: -20
 // 11111111111111111111111111101100 = -20
 ```
 
-## Codebyte Example
+### Codebyte Example
 
 Execute the following to illustrate the use of Bitwise `~` operator:
 
@@ -110,7 +110,7 @@ console.log(19 << 3); // Output: 152
 // 00000000000000000000000000010011 =  19
 // 00000000000000000000000010011000 = 152
 ```
-## Codebyte Example
+### Codebyte Example
 
 Execute the following to illustrate the use of Bitwise `<<` operator:
 
@@ -133,7 +133,7 @@ console.log(-20 >> 3); // Output: -3
 // 11111111111111111111111111101100 = -20
 // 11111111111111111111111111111101 =  -3
 ```
-## Codebyte Examples
+### Codebyte Examples
 
 Execute the following to illustrate the use of Bitwise `>>` operator:
 
@@ -160,7 +160,7 @@ console.log(-20 >>> 3); // Output: 536870909
 // 11111111111111111111111111101100 = -20
 // 00011111111111111111111111111101 = 536870909
 ```
-## Codebyte Examples
+### Codebyte Examples
 
 Execute the following to illustrate the use of Bitwise `>>>` operator:
 
