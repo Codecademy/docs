@@ -55,6 +55,15 @@ console.log(19 | 7); // Output: 23
 // 10111 = 23
 ```
 
+### OR
+
+```javascript
+console.log(19 | 7); // Output: 23
+
+// 10011 = 19
+// 00111 =  7
+// 10111 = 23
+```
 ### Codebyte Example
 
 Execute the following to illustrate the use of Bitwise `|` operator:
