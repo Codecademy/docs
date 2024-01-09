@@ -106,7 +106,6 @@ This example shows the output of an if statement:
 var x = 7
 if (x > 5) {
   console.log('x is greater than 5');
-  // outputs x is greater than 5
 }
 ```
 
