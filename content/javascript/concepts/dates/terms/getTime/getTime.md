@@ -35,3 +35,14 @@ This will yield:
 ```shell
 1672531200000
 ```
+
+## Codebyte Example
+
+Below is a runnable codebyte which defines `today` as today's date and then converts it into Unix time by using the `.getTime()` method. A `console.log` then prints the value:
+
+```codebyte/javascript
+const today = new Date();
+const timeSinceEpoch = today.getTime();
+
+console.log(`Milliseconds since Jan 1, 1970: ${timeSinceEpoch}`);
+```
