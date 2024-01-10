@@ -4,7 +4,7 @@ Description: 'Notifications in SwiftUI send notifications to the device either f
 Subjects:
   - 'iOS'
   - 'Mobile Development'
-Tags: 
+Tags:
   - 'iOS'
   - 'SwiftUI'
 CatalogContent:
