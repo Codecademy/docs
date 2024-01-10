@@ -35,8 +35,6 @@ Returns the following to the console:
 ```shell
 2
 ```
-<<<<<<< HEAD
-=======
 
 ## Codebyte Example
 
@@ -49,4 +47,3 @@ const pstDate = new Date('January 2, 2023, 23:00 GMT -800');
 console.log(estDate.getUTCHours());
 console.log(pstDate.getUTCHours());
 ```
->>>>>>> c8d2c4ba (Review Changes for Issue-4159)
