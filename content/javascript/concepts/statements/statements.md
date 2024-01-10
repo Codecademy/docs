@@ -172,7 +172,7 @@ for (let i = 0; i < 5; i++) {
 ```
 ## Codebyte example
 
-This works similarly to the `while`  loop. Conventionally `let`  keyword is used to declare a variable named `i`  in `for`  loops:
+This works similarly to the `while`  loop. Conventionally `let` keyword is used to declare a variable named `i`  in `for`  loops:
 
 ```codebyte/js
 for (let i = 0; i < 7; i++) {
