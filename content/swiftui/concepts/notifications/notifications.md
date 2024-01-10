@@ -1,6 +1,6 @@
 ---
 Title: 'Notifications'
-Description: 'Notifications in SwiftUI send notifications to the user's device either from a server or create them directly within an app.' 
+Description: "Notifications in SwiftUI send notifications to the user's device either from a server or create them directly within an app."
 Subjects:
   - 'iOS'
   - 'Mobile Development'
