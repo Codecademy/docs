@@ -49,7 +49,6 @@ console.log(x)
 
 var z = x + y;
 console.log(z)
-
 ```
 
 ## Expression Statements
