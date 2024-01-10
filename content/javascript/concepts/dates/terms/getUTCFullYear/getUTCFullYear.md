@@ -42,3 +42,13 @@ This example results in the following output:
 ```shell
 2023
 ```
+
+## Codebyte Example
+
+The example below is a runnable code example that defines `jsOfficialRelease` as a new Date object with the official release date of Javascript. Then, a console log using `.getUTCFullYear()` displays the release year.
+
+```codebyte/javascript
+const jsOfficialRelease = new Date(818035200000)
+
+console.log(jsOfficialRelease.getUTCFullYear())
+```
