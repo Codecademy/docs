@@ -32,11 +32,11 @@ In this example, `x`, `y`, `X`, and `z`, are declared with the `var` keyword.
 > **Note:** JavaScript identifiers are case-sensitive. Notice that `x` is not the same as `X`.
 
 
-## Codebyte Example
+## codebyte Example
 
 This example shows the output values of the declared variables:
 
-```codebyte/js
+```codebyte/javascript
 var x = 5;
 console.log(x)
 
@@ -59,11 +59,11 @@ Expression statements, such as function calls or assignments, evaluate an expres
 // Function call
 console.log('Hello World');
 ```
-## Codebyte Example
+## codebyte Example
 
 This example shows a `console.log()` function call:
 
-```codebyte/js
+```codebyte/javascript
 console.log('Hello, World!');
 ```
 
@@ -75,11 +75,11 @@ x = 6;
 console.log(x);
 ```
 
-## Codebyte Example
+## codebyte Example
 
 This example shows the re-assignment of value to variable `x`:
 
-```codebyte/js
+```codebyte/javascript
 var x = 5;
 console.log(x)
 x = 6;
@@ -97,11 +97,11 @@ if (x > 5) {
   console.log('x is greater than 5');
 }
 ```
-## Codebyte Example
+## codebyte Example
 
 This example shows the output of an if statement:
 
-```codebyte/js
+```codebyte/javascript
 var x = 7
 if (x > 5) {
   console.log('x is greater than 5');
@@ -124,7 +124,7 @@ switch (x) {
 ```
 This example shows outputs of switch statement:
 
-```codebyte/js
+```codebyte/javascript
 // change value of x 
 var x = 1; 
 
@@ -153,9 +153,9 @@ while (x < 5) {
   x++;
 }
 ```
-## Codebyte example
+## codebyte example
 
-```codebyte/js
+```codebyte/javascript
 // While loop
 var x = 0;
 while (x < 7) {
@@ -170,11 +170,11 @@ for (let i = 0; i < 5; i++) {
   console.log(i);
 }
 ```
-## Codebyte example
+## codebyte example
 
 This works similarly to the `while`  loop. Conventionally `let` keyword is used to declare a variable named `i`  in `for`  loops:
 
-```codebyte/js
+```codebyte/javascript
 for (let i = 0; i < 7; i++) {
   console.log(i);
 }
@@ -194,11 +194,11 @@ for (let i = 0; i < 5; i++) {
   console.log(i);
 }
 ```
-## Codebyte Example
+## codebyte Example
 
 This code breaks or exits the loop when  `i` equals 3 and returns the value of `i`:
 
-```codebyte/js
+```codebyte/javascript
 // Break statement
 for (let i = 0; i < 5; i++) {
   if (i === 3) {
@@ -206,7 +206,6 @@ for (let i = 0; i < 5; i++) {
   }
   console.log(i);
 }
-
 ```
 
 ```js
@@ -215,15 +214,14 @@ function add(x, y) {
   return x + y;
 }
 ```
-## Codebyte Example
+## codebyte Example
 
 This code example returns the value of the add function: 
 
-```codebyte/js
+```codebyte/javascript
 function add(x, y) {
   return x + y;
 }
 console.log(add(2, 4))
-
 ```
 
