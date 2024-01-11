@@ -43,3 +43,17 @@ Time String: 12:45:00 GMT+0530 (India Standard Time)
 ```
 
 > **Note:** The `.toTimeString()` method returns the time according to the local timezone. The output may vary according to the timezone.
+
+## Codebyte Example 
+
+The following code example of `.toTimeString()` method is runnable, try and execute it:
+
+```codebyte/js
+// Edit the Date object for the current date and time
+const currentDate = new Date();
+
+const timeString = currentDate.toTimeString();
+
+console.log('Current Date:', currentDate.toDateString());
+console.log('Time String:', timeString);
+```
