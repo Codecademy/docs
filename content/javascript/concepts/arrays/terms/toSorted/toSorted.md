@@ -46,7 +46,7 @@ array.toSorted(compareFn);
 array.toSorted(function compareFn(a, b) { /* … */ });
 ```
 
-## Example 1
+## Example
 
 In the example below, the `.toSorted()` method is applied to the arrays `sports` and `numbers`.
 
@@ -102,8 +102,6 @@ Which outputs:
 Numbers Ascending: -3,1,1,2,3,4,9,200,959,2159.2
 Numbers Descending: 2159.2,959,200,9,4,3,2,1,1,-3
 ```
-
-## Example 2
 
 The following example demonstrates the use of an arrow function in the `.toSorted()` method:
 
