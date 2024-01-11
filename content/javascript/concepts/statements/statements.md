@@ -79,7 +79,7 @@ console.log(x);
 
 ## Codebyte Example
 
-This example shows re-assignment of value to variable `x`:
+This example shows the re-assignment of value to variable `x`:
 
 ```codebyte/js
 var x = 5;
@@ -144,7 +144,7 @@ switch (x) {
     console.log('x is neither 1 nor 2');
 }
 ```
-Change the values of x to different numbers and click on run button to see their outputs.
+Change the values of x to different numbers and click on the run button to see their outputs.
 
 
 ## Loop Statements
