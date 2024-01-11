@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-[Introduction - make sure first mention of concept is in **bold**.] (The first 160 characters of this section will appear as the description of the page when it shows up on search engines. It's important!)
+In Rust, **collections** are fundamental data structures offered by the standard library, enabling the storage and manipulation of multiple values. These dynamic structures differ from fixed-size `arrays` and `tuples` by allowing a variable number of elements. The key advantage lies in their ability to dynamically allocate memory on the heap, which mean that the amount of data does not need to be known at compile time and can shrink and grow during runtime.The most common used collection data types include `vector` `string` and `hash map`.The rest include `VecDeque`,`LinkedList`, `HashMap`,`BTreeMap`,`set` and `BinaryHeap`.
 
 ## Subsection 1
 
