@@ -19,7 +19,7 @@ CatalogContent:
 d3.selectAll(selector)
 ```
 
-- selector: a string version of an element, a saved node, or an array of nodes
+- `selector`: Its a string version of an element, a saved node, or an array of nodes.
 
 ## Example
 
