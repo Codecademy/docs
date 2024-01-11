@@ -45,7 +45,7 @@ This example results in the following output:
 
 ## Codebyte Example
 
-The example below is a runnable code example that defines `jsOfficialRelease` as a new Date object with the official release date of Javascript. Then, a console log using `.getUTCFullYear()` displays the release year.
+The example below is a runnable code example that defines `jsOfficialRelease` as a new Date object with the official release date of Javascript. Then, a console log using the `.getUTCFullYear()` method displays the release year.
 
 ```codebyte/javascript
 const jsOfficialRelease = new Date(818035200000)
