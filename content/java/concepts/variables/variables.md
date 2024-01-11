@@ -36,35 +36,39 @@ The equal sign `=` is used to assign a value to a variable. After the initial as
 
 ## Types of Variables
  
- To declare a variable in Java, any of these three types can be used, each serving a different purpose:
+ In Java, there are three types of variables that can be used and each of them serves a different purpose. These types are discussed below one-by-one.
+
 
 ### 1. Local Variables
 
-Local variables are declared within a method or a block of code and are only accessible within that scope.
+Local variables are the ones that are declared within a [method](https://www.codecademy.com/resources/docs/java/methods) or a block of code and are only accessible within that scope:
+
 
 ```java
 void exampleMethod() {
-    int localVar = 5;
-    // localVar can only be used within this method
+  int localVar = 5;
+    // localVar is only available within .exampleMethod()
 }
 ```
+
 ### 2. Instance Variables
 
-Instance variables are declared within a class but outside any method. Each instance of the class has its own copy of the variable.
+Instance variables are the ones that are declared within a [class](https://www.codecademy.com/resources/docs/java/classes) rather than a method. Each instance of the class includes a unique version of the variable:
 
 ```java
 public class MyClass {
-    int instanceVar = 10;
+  int instanceVar = 10;
     // Each instance of MyClass has its own instanceVar
 }
 ```
+
 ### 3. Static Variables
 
 Static variables belong to the class rather than instances of the class. They are shared among all instances of the class.
 
 ```java
 public class SharedClass {
-    static int staticVar = 100;
+  static int staticVar = 100;
     // All instances of SharedClass share the same staticVar
 }
 ```
