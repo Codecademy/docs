@@ -49,7 +49,6 @@ console.log(x)
 
 var z = x + y;
 console.log(z)
-
 ```
 
 ## Expression Statements
@@ -66,7 +65,6 @@ This example shows a `console.log()` function call:
 
 ```codebyte/js
 console.log('Hello, World!');
-// outputs Hello, World!
 ```
 
 The second statement below re-assigns the value 5 to the variable `x`, while the third statement logs the value of `x` to the console:
@@ -84,10 +82,8 @@ This example shows the re-assignment of value to variable `x`:
 ```codebyte/js
 var x = 5;
 console.log(x)
-//outputs 5
 x = 6;
 console.log(x);
-// outputs 6
 ```
 
 
@@ -109,7 +105,6 @@ This example shows the output of an if statement:
 var x = 7
 if (x > 5) {
   console.log('x is greater than 5');
-  // outputs x is greater than 5
 }
 ```
 
@@ -177,7 +172,7 @@ for (let i = 0; i < 5; i++) {
 ```
 ## Codebyte example
 
-This works similarly to the `while`  loop. Conventionally `let`  keyword is used to declare a variable named `i`  in `for`  loops:
+This works similarly to the `while`  loop. Conventionally `let` keyword is used to declare a variable named `i`  in `for`  loops:
 
 ```codebyte/js
 for (let i = 0; i < 7; i++) {
@@ -228,7 +223,6 @@ This code example returns the value of the add function:
 function add(x, y) {
   return x + y;
 }
-// call the add function with values of 2 and 4 for the arguements x and y and print the result to the console
 console.log(add(2, 4))
 
 ```
