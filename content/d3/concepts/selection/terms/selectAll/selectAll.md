@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-`selectAll()`is a function within the d3 library that selects all elements matching the provided parameter. selectAll() will match against all elements that meet the parameter, as opposed to `select()`, which only matches the first element.
+The **`.selectAll()`** is a function within the d3 library that selects all elements matching the provided parameter. selectAll() will match against all elements that meet the parameter, as opposed to `.select()`, which only matches the first element.
 
 ## Syntax
 
