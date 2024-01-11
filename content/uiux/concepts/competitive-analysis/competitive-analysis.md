@@ -11,9 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-# Competitive Analysis in UX/UI Design: An Overview
-
-In the realm of UX/UI design, a Competitive Analysis is a crucial process for evaluating and benchmarking your digital product against competitors. By examining the user experience, [visual design](https://www.codecademy.com/resources/docs/uiux/visual-design), interaction elements, content strategy, and technological implementations of rival platforms, you gain valuable insights to inform and enhance your own design decisions.
+In the field of UX/UI design, a **Competitive Analysis** is a crucial process for evaluating and benchmarking your digital product against competitors. By examining the user experience, [visual design](https://www.codecademy.com/resources/docs/uiux/visual-design), interaction elements, content strategy, and technological implementations of rival platforms, you gain valuable insights to inform and enhance your own design decisions.
 
 ## Why it Matters
 
