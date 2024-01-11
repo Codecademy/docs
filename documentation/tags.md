@@ -73,6 +73,7 @@ Conceptual
 Const
 Constructors
 Continue
+Counting Sort
 Control Flow
 CRUD
 CSS
@@ -175,6 +176,7 @@ Integers
 Interface
 iOS
 Iterators
+Java
 Join
 jQuery
 JRuby
@@ -284,6 +286,7 @@ Sets
 Slices
 Socket.IO
 Sort
+Sorting Algorithms
 Span
 Specificity
 Spread
