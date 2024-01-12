@@ -38,7 +38,7 @@ This will yield:
 
 ## Codebyte Example
 
-Below is a runnable codebyte which defines `today` as today's date and then converts it into Unix time by using the `.getTime()` method. A `console.log` then prints the value:
+Below is a runnable codebyte which defines `today` as today's date and then converts it into milliseconds by using the `.getTime()` method. A `console.log()` then prints the value:
 
 ```codebyte/javascript
 const today = new Date();
