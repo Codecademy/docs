@@ -51,7 +51,7 @@ void exampleMethod() {
 
 ### 2. Instance Variables
 
-Instance variables are the ones that are declared within a [class](https://www.codecademy.com/resources/docs/java/classes) rather than a method. Each instance of the class includes a unique version of the variable:
+Instance variables are the ones that are declared within a [class](https://www.codecademy.com/resources/docs/java/classes) but outside the scope of a method. Each instance of the class includes a unique version of the variable:
 
 ```java
 public class MyClass {
