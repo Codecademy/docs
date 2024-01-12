@@ -184,6 +184,7 @@ JSON
 JSK
 Justice
 K-Nearest Neighbors
+Knowledge Graphs
 Kotlin
 Kubernetes
 Laravel
@@ -226,6 +227,7 @@ Numbers
 NumPy
 Objects
 Obsolete
+Ontologies
 OOP
 Opacity
 Open Source
