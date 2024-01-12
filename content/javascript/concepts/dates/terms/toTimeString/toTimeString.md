@@ -22,7 +22,7 @@ DateObject.toTimeString()
 
 ## Example
 
-The following code creates a `Date` object called `newDate` and calls the `.toTimeString()` method to obtain the time portion from the `newDate` object.
+The following code creates a `Date` object called `newDate` and calls the `.toTimeString()` method to obtain the time portion from the `newDate` object:
 
 ```js
 // A Date object with a random date
