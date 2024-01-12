@@ -36,27 +36,38 @@ JavaScript uses seven primitive data types that are listed in the table below:
 
 > **Note:** The `null` type cannot be tested with `typeof` like all the other primitive types because it will return `"object"`. This must be tested with the type equality operator (i.e., `=== null`).
 
-## Number and BigInt
+## Number  
 
 ```js
 let num = 7;
-let bigNum = 9999999999999999n;
 ```
 
-`BigInt` is necessary for large whole numbers because they are unreliable with the `Number` type:
+## BigInt  
+
+Any integer greater than 2<sup>53</sup>-1 and less than -(2<sup>53</sup>-1) cannot be represented by the `Number` type. Instead, they are represented by another datatype `BigInt`.      
 
 ```js
 console.log(9999999999999999);
-console.log(9999999999999999n);
 ```
-
-This will output the following:
-
+Output for the above line of code:  
 ```shell
 10000000000000000
-9999999999999999n
 ```
+To create a `BigInt`, append `n` at the end of the integer or by use the `BigInt()` function.  
 
+```js
+let bigNum = 9999999999999999n;
+let b = BigInt(1234567890123456789012345);
+```  
+The Javascript `typeof` for `BigInt` is "bigint".  
+```js
+let x = BigInt(1234567890123456789012345);
+console.log(typeof(x));
+```
+The above code snippet gives the following output:
+```shell
+bigint
+```
 ## String
 
 Strings in JavaScript can be defined with either `' '` or `" "`.
