@@ -66,7 +66,7 @@ Number('123'); // 123
 Number(true); // 1
 Number(false); // 0
 Number(null); // 0
-Number(underfined); // NaN
+Number(undefined); // NaN
 Number("Harry"); // NaN 
 ```
 
