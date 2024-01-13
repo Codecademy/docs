@@ -22,7 +22,7 @@ The vectore array can be created in two ways using a macro `vec![]` or `Vec::new
 
 let mut vec1: Vec<i32> = Vec::new() // Creates an empty vector of integers
 
-let vec2 = vec![1, 2, 3]; // Creates a vector with initial values
+let vec2 = vec![5, 2, 3]; // Creates a vector with initial values
 
 ```
 
