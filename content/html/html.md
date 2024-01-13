@@ -26,8 +26,3 @@ HTML is organized into a family tree structure. HTML elements can have parents, 
     </div>
   </body>
 </html>
-```
-
-The `<!DOCTYPE>` declaration tells the browser that a given file is a markup `.html` file and that a set of web standards must be applied to it. It is the first line of code that goes at the top of every HTML or XHTML file.
-
-> **Note:** `<!DOCTYPE>` is not an [element](https://www.codecademy.com/resources/docs/html/elements) or a [tag](https://www.codecademy.com/resources/docs/html/tags).
