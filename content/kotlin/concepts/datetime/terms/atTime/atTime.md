@@ -9,8 +9,8 @@ Tags:
   - 'Time'
   - 'Kotlin'
 CatalogContent:
- - 'learn-kotlin'
- - 'paths/computer-science'
+  - 'learn-kotlin'
+  - 'paths/computer-science'
 ---
 
 The **`.atTime()`** method in Kotlin is used to combine a date and a time, resulting in a `LocalDateTime` object. This is particularly useful when it's needed to represent both date and time components together.
@@ -27,7 +27,7 @@ The `.atTime()` method can be called on a `LocalDate` object with different para
 
 ## Example
 
-In this example,  a `LocalDate` object representing December 17, 2023 is created. Then, the `.atTime()` method is used to combine it with different time components. The resulting `LocalDateTime` objects (dateTime1 and dateTime2) represent the combined date and time.
+In this example, a `LocalDate` object representing December 17, 2023 is created. Then, the `.atTime()` method is used to combine it with different time components. The resulting `LocalDateTime` objects (dateTime1 and dateTime2) represent the combined date and time.
 
 ```kotlin
 import kotlinx.datetime.*
@@ -39,7 +39,7 @@ fun main() {
     // Combining date and time using atTime()
     val dateTime1: LocalDateTime = date.atTime(12, 0, 0)
     val dateTime2: LocalDateTime = date.atTime(time)
-            
+
     println("DateTime 1: $dateTime1") // DateTime 1: 2023-12-17T15:30
     println("DateTime 2: $dateTime2") // DateTime 2: 2023-12-17T15:30
 }
