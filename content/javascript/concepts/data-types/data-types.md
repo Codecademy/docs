@@ -38,21 +38,42 @@ JavaScript uses seven primitive data types that are listed in the table below:
 
 ## Number  
 
+In JavaScript, numbers are always stored as double-precision floating point numbers. In this format, each number uses 64 bits to represent 3 parts, 
+- 52 bits for the number (bits 0 to 51)
+- 11 bits for the exponent (bits 52 to 62)
+- 1 bit for the sign (bit 63)
+
 ```js
-let num = 7;
+let x = 7;
+let y = 123e5;
+```
+The integer precision for the `Number` type is `15 digits`.
+```js
+let x = 999999999999999;
+let y = 9999999999999999;
+console.log(x);
+console.log(y);
+```
+The above lines give the following output,
+```shell
+999999999999999
+10000000000000000
+```
+
+The `Number()` method converts a string or other value to the number type. If the value can't be converted, it returns `NaN`.
+```js
+Number('123'); // 123
+Number(true); // 1
+Number(false); // 0
+Number(null); // 0
+Number(underfined); // NaN
+Number("Harry"); // NaN 
 ```
 
 ## BigInt  
 
 Any integer greater than 2<sup>53</sup>-1 and less than -(2<sup>53</sup>-1) cannot be represented by the `Number` type. Instead, they are represented by another datatype `BigInt`.      
 
-```js
-console.log(9999999999999999);
-```
-Output for the above line of code:  
-```shell
-10000000000000000
-```
 To create a `BigInt`, append `n` at the end of the integer or by use the `BigInt()` function.  
 
 ```js
@@ -68,6 +89,7 @@ The above code snippet gives the following output:
 ```shell
 bigint
 ```
+
 ## String
 
 Strings in JavaScript can be defined with either `' '` or `" "`.
