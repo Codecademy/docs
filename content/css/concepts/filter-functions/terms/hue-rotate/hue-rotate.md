@@ -35,3 +35,7 @@ Rotate the hue of the image by 45 degrees:
   filter: hue-rotate(45deg);
 }
 ```
+
+The following images demonstrate the hue-rotate filter on a background image. The image on the left has no filter, while the image on the right has the filter `hue-rotate` set to `45deg`.
+
+![Compares image without any filter to one with the hue-rotate filter of the value 45deg](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-filter-hue-rotate-example.png)
