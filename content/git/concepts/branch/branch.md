@@ -68,8 +68,8 @@ Performing a force delete tells Git the user understands that all changes on tha
 
 The syntax for moving between branches in Git is this:
 
-```shell
-git checkout branch-name
+```pseudo
+git checkout <branch-name>
 ```
 
 This will change the active branch to the one named `branch-name`. Any editing done at this point will be to the copy of the code within `branch-name` rather than the previous branch.
