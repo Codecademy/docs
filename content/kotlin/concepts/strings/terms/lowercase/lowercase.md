@@ -1,6 +1,6 @@
 ---
 Title: '.lowercase()'
-Description: 'It used to convert a string to lowercase.'
+Description: 'Converts a string to lowercase.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.lowercase()`** method in Kotlin is changes all characters in a string to lowercase. It does not modify the original string, rather it returns a new transformed string. This is useful when case-sensitive operations are performed.
+The **`.lowercase()`** method in Kotlin changes all characters in a string to lowercase. It does not modify the original string, rather it returns a new transformed string. This is useful when case-sensitive operations are performed.
 
 ## Syntax
 
@@ -24,7 +24,7 @@ String.lowercase()
 
 ## Example
 
-This example shows how to use the `.lowercase()` method on a string:
+The following example shows how to use the `.lowercase()` method on a string:
 
 ```kotlin
 fun main() {
