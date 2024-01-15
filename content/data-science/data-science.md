@@ -13,7 +13,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 
 ## Applications
 
-Since the beginning of the 21st century, data science has been used in generally every field of industry to extract insights from data that may be leveraged in business decision-making and product development. These applications are largely related to fields of study rooted in data science, including:
+Since the beginning of the 21st century, data science has been used in almost every field of industry to extract insights from data that may be leveraged in business decision-making and product development. These applications are largely related to fields of study rooted in data science, including:
 
 - Data Management
   - Data Security
