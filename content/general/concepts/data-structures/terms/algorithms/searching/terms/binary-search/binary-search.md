@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Binary search** is an algorithm for searching an element within a sorted collection of items, primarily implemented with [arrays](https://www.codecademy.com/resources/docs/general/data-structures/array) or lists. The binary search algorithm follows a divide-and-conquer approach to determine whether the target element matches the collection's middle element. If there is a match, it provides the index of the middle element; otherwise, it proceeds to either side of the array, depending on the current comparison result.
+**Binary Search** is an algorithm for searching an element within a sorted collection of items, primarily implemented with [arrays](https://www.codecademy.com/resources/docs/general/data-structures/array) or lists. The binary search algorithm follows a divide-and-conquer approach to determine whether the target element matches the collection's middle element. If there is a match, it provides the index of the middle element; otherwise, it proceeds to either side of the array, depending on the current comparison result.
 
 > **Note**: The collection must be sorted for the implementation of the binary search algorithm.
 
