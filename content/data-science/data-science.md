@@ -11,7 +11,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 
 **Data Science** is a multidisciplinary field of study that includes activities like data management, data collection, data analysis, and data visualization. It incorporates skills from a broad range of disciplines that include computer science, statistics, mathematics, and visual design.
 
-## Application
+## Applications
 
 Since the beginning of the 21st century, data science has been used in generally every field of industry to extract insights from data that may be leveraged in business decision-making and product development. These applications are largely related to fields of study rooted in data science, including:
 
