@@ -5,10 +5,8 @@ Title: 'Data Science' # Required; this is the name that appears on the hub page 
 Description: 'Data Science is a multidisciplinary field that includes activities like data management, data collection, data analysis, and data visualization.' # Required; ideally under 150 characters and starts with the name of the topic (used in search engine results and content previews)
 Codecademy Hub Page: 'https://www.codecademy.com/catalog/subject/data-science' # If codecademy.com doesn't have a hub page for this language, that's okay too. You can omit this field.
 CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+  - 'learn-data-science'
   - 'paths/data-science-foundations'
-  - 'paths/data-analyst'
-  - 'paths/data-science-nlp'
-  - 'paths/data-science-inf'
 ---
 
 **Data Science** is a multidisciplinary field of study that includes activities like data management, data collection, data analysis, and data visualization. It incorporates skills from a broad range of disciplines that include computer science, statistics, mathematics, and visual design.
