@@ -17,13 +17,20 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 
 Since the beginning of the 21st century, data science has been used in generally every field of industry to extract insights from data that may be leveraged in business decision-making and product development. These applications are largely related to fields of study rooted in data science, including:
 
-- Data Visualization
-- Data Engineering
 - Data Management
-- [Machine Learning](https://www.codecademy.com/resources/docs/ai/machine-learning) & Deep Learning
+  - Data Security
+  - Data Validation
+    - Data Cleaning
+  - Data Modelling
+  - Data Integration
+- Data Use
+  - Data Visualization
+  - Data Analytics
+    - [Data Mining](https://wwww.codecademy.com/resources/docs/data-science/data-mining)
+    - Business Intelligence and Strategy
 - [Artificial Intelligence](https://www.codecademy.com/resources/docs/ai)
+  - [Machine Learning](https://www.codecademy.com/resources/docs/ai/machine-learning)
 - [Cloud and Distributed Computing](https://www.codecademy.com/resources/docs/cloud-computing)
-- Business Intelligence and Strategy
 
 ## Languages and Tools
 
@@ -39,7 +46,7 @@ Since the beginning of the 21st century, data science has been used in generally
 - Tableau
 - [RDF](https://www.codecademy.com/resources/docs/general/semantic-technologies/rdf)
 - [SQL](https://www.codecademy.com/resources/docs/sql)
-- [Jupyter Notebooks](https://www.codecademy.com/resources/docs/general/data-science/jupyter-notebook)
+- [Jupyter Notebooks](https://www.codecademy.com/resources/docs/data-science/jupyter-notebook)
 - MATLAB
 - [XML](https://www.codecademy.com/resources/docs/general/xml)
 
