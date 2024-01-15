@@ -50,7 +50,7 @@ Since the beginning of the 21st century, data science has been used in almost ev
 
 ## History
 
-Many statisticians have argued that data science is not a new field, but rather another name for statistics. Considering this perspective, the history of data science would date as far back as 5th century B.C., demonstrated by the Athenians who estimated the height of ladders needed to scale the walls of Platea by counting the bricks of the wall vertically in several areas, then multiplying the most frequent count by the height of a brick.
+Many statisticians have argued that data science is not a new field, but rather another name for statistics. Considering this perspective, the history of data science would date as far back as the 5th century B.C., demonstrated by the Athenians who estimated the height of ladders needed to scale the walls of Platea by counting the bricks of the wall vertically in several areas, then multiplying the most frequent count by the height of a brick.
 
 In 1662, John Graunt produced *Natural and Political Observations Made Upon the Bills of Mortality* in which he estimated the population of London by using annual funeral records, familial death rates, and average family size.
 
