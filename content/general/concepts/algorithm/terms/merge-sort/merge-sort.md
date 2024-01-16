@@ -69,7 +69,7 @@ public static void mergeSort(int[] data){
    - If any elements remain in `left`, copy them directly into the remaining positions in `data`.
    - Similarly, if any elements remain in `right`, copy them into the remaining positions in `data`.
 
-## Implementation Pt.2
+### Implementation Pt.2
 
 The following example written in [Java](https://www.codecademy.com/learn/learn-java) shows an implementation of the second part of Merge Sort — sorting the subarrays and merging them back into the original array.
 
