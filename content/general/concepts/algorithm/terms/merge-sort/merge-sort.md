@@ -58,14 +58,14 @@ public static void mergeSort(int[] data){
 
 ### Merge Method
 
-1. Initialize: 
+1. **Initialize**: 
    - Set indices `l`, `r`, and `k` to 0 to track the positions in `left`, `right`, and `data`.
-2. Compare and Merge:
+2. **Compare and Merge**:
    - While both `left` and `right` have elements remaining:
      - Compare the elements at `left[l]` and `right[r]`.
      - Copy the smaller element into `data[k]` and increment the corresponding index (`l` or `r`).
      - Increment `k` to move to the next position in `data`.
-3. Copy Remaining Elements:
+3. **Copy Remaining Elements**:
    - If any elements remain in `left`, copy them directly into the remaining positions in `data`.
    - Similarly, if any elements remain in `right`, copy them into the remaining positions in `data`.
 
