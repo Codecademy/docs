@@ -20,11 +20,12 @@ CatalogContent:
 ## MergeSort Method
 
 **Divide:**
+
   - `Base Case`: If the input array `data` has only one element, it's already sorted, so return.
   - `Split`: Divide the array into two halves, `left` and `right`, of approximately equal size.
 
 **Conquer**:
-  
+ 
   - [`Recursive Calls`](https://www.codecademy.com/learn/java-algorithms/modules/recursion-apcs/cheatsheet): Repeatedly call `mergeSort` on each half, `(left)` and `(right)`, to create subarrays so they are sorted independently.
 
 **Combine**:
@@ -33,7 +34,9 @@ CatalogContent:
 
 
 ### Implementation Pt.1 
-The following example written in [Java](https://www.codecademy.com/learn/learn-java) shows an implementation of the first part of the Merge Sort Algorithm — spliting the main array into subarrays. 
+
+The following example written in [Java](https://www.codecademy.com/learn/learn-java) shows an implementation of the first part of the Merge Sort Algorithm — spliting the main array into subarrays: 
+
 ```java
 public static void mergeSort(int[] data){
     if(data.length == 1){
@@ -53,7 +56,6 @@ public static void mergeSort(int[] data){
     //once array is @ length 1, the left & right array will be merged
     merge(data, left, right);
 }
-
 ```
 
 ### Merge Method
@@ -71,11 +73,11 @@ public static void mergeSort(int[] data){
 
 ### Implementation Pt.2
 
-The following example written in [Java](https://www.codecademy.com/learn/learn-java) shows an implementation of the second part of Merge Sort — sorting the subarrays and merging them back into the original array.
+The following example written in [Java](https://www.codecademy.com/learn/learn-java) shows an implementation of the second part of Merge Sort — sorting the subarrays and merging them back into the original array:
 
 ```java
 public static void merge(int[] data, int[] left, int[] right){
-    //indexes of arrays left,right, and data
+    //indexes of arrays left, right, and data
     int l,r,k;
     l = r = k = 0;
     while(l < left.length && r < right.length && k < data.length){
@@ -91,7 +93,7 @@ public static void merge(int[] data, int[] left, int[] right){
         //increment index of data after insertion
         k++;
     }
-    //if elements still remain in arrays left or right, insert them into data
+    //if elements still remain in arrays left or right, insert them into the data
     while(l < left.length){
         data[k] = left[l];
         l++;
@@ -122,19 +124,20 @@ Overall Time Complexity: _O(n log n)_
 3. **Combine**:
    - The `merge` function merges two sorted subarrays into a single sorted array.
    - It iterates through both subarrays once, comparing elements and copying them to the final array.
-   - This merging process takes _O(n)_ time, where n is the total number of elements being merged.
+   - This merging process takes _O(n)_ time, where n is the total number of merged elements.
 
 **Overall Time Complexity:**
 
 - The recursive calls to `mergeSort` create a [log n-level tree](https://www.geeksforgeeks.org/how-to-solve-time-complexity-recurrence-relations-using-recursion-tree-method/) calls. 
-  - The number of levels in this tree is directly related to how many times you can divide the array by 2 before reaching single-element subarrays. This is equivalent to the logarithm of the array's size (log n). For example, an array of 8 elements would have 3 levels (log2 (8) = 3). _Reference the picture below for a visual understanding._
+  - The number of levels in this tree directly relates to how many times you can divide the array by 2 before reaching single-element subarrays. This is equivalent to the logarithm of the array's size (log n). For example, an array of 8 elements would have 3 levels (log2 (8) = 3). _Reference the picture below for a visual understanding._
 
 ![Merge Sort](https://raw.githubusercontent.com/Codecademy/docs/main/media/merge.png)
 
 - At each level, the merging step takes O(n) time.
 - Therefore, the overall time complexity is **O(n log n)**, resulting from multiplying the time complexity of each level (n) by the number of levels (log n).
 
-#### Benefits of Merge Sort:
+## Benefits of Merge Sort:
+
 - `Predictable Efficiency`: Merge sort maintains a time complexity of O(n log n) regardless of the initial arrangement of elements in the input array. This means it performs equally well in best-case, average-case, and worst-case scenarios.
 - `Reliable for Diverse Inputs`: This consistent performance makes merge sort a dependable choice for sorting various input sizes and datasets without unexpected slowdowns due to data arrangement.
 - `Efficiency for Large Datasets`: Its O(n log n) time complexity places it among the most efficient sorting algorithms, especially for large datasets, outperforming algorithms like bubble sort and [selection sort](https://www.codecademy.com/resources/docs/general/algorithm/selection-sort) that exhibit worse-case complexities of O(n^2).
