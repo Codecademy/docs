@@ -69,21 +69,28 @@ Number(null); // 0
 Number(undefined); // NaN
 Number("Harry"); // NaN 
 ```
+Numbers are primitives, but they can be defined as objects using the keyword `new`.
+```js
+let x = 123;
+let y = new Number(123);
 
+console.log(typeof x); // "number"
+console.log(typeof y); // "object"
+```
 ## BigInt  
 
 Any integer greater than 2<sup>53</sup>-1 and less than -(2<sup>53</sup>-1) cannot be represented by the `Number` type. Instead, they are represented by another datatype `BigInt`.      
 
 To create a `BigInt`, append `n` at the end of the integer or by use the `BigInt()` function.  
-
 ```js
 let bigNum = 9999999999999999n;
 let b = BigInt(1234567890123456789012345);
-```  
+```
+
 The Javascript `typeof` for `BigInt` is "bigint".  
 ```js
 let x = BigInt(1234567890123456789012345);
-console.log(typeof(x));
+console.log(typeof x);
 ```
 The above code snippet gives the following output:
 ```shell
@@ -92,13 +99,88 @@ bigint
 
 ## String
 
-Strings in JavaScript can be defined with either `' '` or `" "`.
+Strings in JavaScript are a sequence of characters enclosed in single `' '` or double `" "` quotes.
 
 ```js
 let greeting = 'Hi buddy';
-let message = 'You are doing great! Keep studying!';
+let message = "You are doing great! Keep studying!";
 ```
 
+To find the length of the string, the built-in `length` property is used.
+```js
+let text = "abracadabra";
+console.log(text.length); // 11
+```
+
+### Template Literals
+Template literals, often informally called _template strings_, are characters delimited within backticks ` `` `. They allow for _multi-line strings_, _string interpolation_ with embedded expressions, and special constructs called _tagged templates_.
+
+#### Multi-Line Strings
+Any newline characters inserted within the backticks are part of the template literal, unlike single or double quoted strings, allowing for multi-line strings.
+```js
+let text = `All the world's a stage
+and all the men and women
+merely players`;
+
+console.log(text);
+```
+The output for the above snippet,
+```shell
+All the world's a stage
+and all the men and women
+merely players
+```
+#### String Interpolation
+In order to combine outputs from expressions with strings, the addition operator `+` is used to concatenate them. 
+```js
+let age_min = 20;
+let age_max = 50;
+console.log("Candidates of age between " + age_min + " and " + age_max + " can appear for the test.");
+// Candidates of age between 20 and 50 can appear for the test. 
+```
+This is very tedious, especially when there are multiple expressions. Using template literals, the concatenation operator 
+can be avoided, and placeholders of the form `${expression}` are used for the expressions, which makes the code more readable.
+
+```js
+let age_min = 20;
+let age_max = 50;
+console.log(`Candidates of age between ${age_min} and ${age_max} can appear for the test.`);
+// Candidates of age between 20 and 50 can appear for the test.  
+```
+
+#### Tagged Templates
+Tags are functions that allow parsing of template literals. The first argument of a tag function contains an array of string values.
+The rest arguments are related to the expressions. 
+
+```js
+let name = 'Harry';
+let age = 20;
+
+function ageTag(strings, nameExp, ageExp) {
+  const str0 = strings[0]; // "He is "
+  const str1 = strings[1]; // "and he is a"
+  const str2 = strings[2]; // "."
+
+  const ageStr = ageExp < 25 ? "teenager" : "adult";
+
+  return `${str0}${nameExp}${str1}${ageStr}${str2}`;
+}
+
+const output = ageTag`He is ${name} and he is a ${age}.`;
+
+console.log(output);
+// He is Harry and he is a teenager.
+```
+
+Strings can also be defined as objects using the `new` keyword.
+
+```js
+let name = "Jhon";
+let name2 = new String("Jhon");
+
+console.log(typeof name); // "string"
+console.log(typeof name2); // "object"
+```
 ## Boolean
 
 Boolean is for truthy or falsy values:
