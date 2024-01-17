@@ -1,6 +1,6 @@
 ---
 Title: '.toTimeString()'
-Description: 'Returns the time portion of the given Date Object.'
+Description: 'Returns the time portion of the given Date object.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.toTimeString()`** method returns a string representing the time portion of the given `Date` Object in the local Timezone.
+The **`.toTimeString()`** [method](https://www.codecademy.com/resources/docs/javascript/methods) returns a [string](https://www.codecademy.com/resources/docs/javascript/strings) representing the time portion of the given `Date` [object](https://www.codecademy.com/resources/docs/javascript/objects) in the local timezone.
 
 ## Syntax
 
@@ -28,7 +28,7 @@ The following code creates a `Date` object called `newDate` and calls the `.toTi
 // A Date object with a random date
 const newDate = new Date('March 8, 1990 12:45:00');
 
-// Get the time string from the date object
+// Get the time string from the Date object
 const timeString = newDate.toTimeString();
 
 console.log('New Date:', newDate.toDateString());
@@ -46,7 +46,7 @@ Time String: 12:45:00 GMT+0530 (India Standard Time)
 
 ## Codebyte Example
 
-The following code example of `.toTimeString()` method is runnable, try and execute it:
+Following is a runnable codebyte example of `.toTimeString()` method:
 
 ```codebyte/js
 // Edit the Date object for the current date and time
