@@ -28,14 +28,5 @@ User Pain Points within existing applications are commonly described in three le
 - `Product`: relates to the performance, quality, and usability issues while using a product
 - `Process`: relates to the steps required to complete a task
 - `Support`: relates to how organizations respond to user questions
- 
-## Example
-
-Some common examples of user pain points are:
- - The number of steps it takes to complete a task on a website or application
- - Connfusing navigation
- - Loading times
-
-[Accessibility Best Practices](https://www.w3.org/WAI/tips/designing/Accessibility)
 
 
