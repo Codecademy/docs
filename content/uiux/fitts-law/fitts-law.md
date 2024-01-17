@@ -23,7 +23,7 @@ Fitts determined larger targets with minimal spacing allow for greater usability
 
 The gif below depicts a basic demonstration of Fitts' Law. The varying size and placement of targets illustrate the differing levels of user accuracy in acquiring each target as well as the speed of acquiring each target. As targets are enlarged and distance reduced, accuracy/speed icrease.
 
-![Fitts' Law demonstration](https://raw.githubusercontent.com/Codecademy/docs/main/media/fitts-law.gif)
+![Fitts' Law demonstration](https://raw.githubusercontent.com/Codecademy/docs/main/media/fitts-test.gif)
 
 ## Resources
 
