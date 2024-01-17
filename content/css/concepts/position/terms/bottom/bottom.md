@@ -61,4 +61,4 @@ Set the position of `.box` element `40px` from the elements bottom edge.
 ```
 ![Shows use CSS bottom attribute with element position set to relative](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-bottom-position-relative.png)
 
-The blue box `position: relative` is positioned 40px above its default position, represented by the dashed box within the containing element `position: relative`.
+The blue box `position: relative` is positioned 40px above its default position, within the containing element `position: relative`.
