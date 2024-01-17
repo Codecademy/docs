@@ -1,6 +1,6 @@
 ---
 Title: 'Binary Search Algorithm'
-Description: 'A searching algorithm to search an element in a sorted collection by dividing the collection in two halves.'
+Description: 'An efficient searching algorithm'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
@@ -53,7 +53,7 @@ In the example below, a sorted array has elements such as `[1, 3, 4, 6, 8, 9, 11
 
 ![Sorted Array](https://raw.githubusercontent.com/Codecademy/docs/main/media/binary-search-1.png)
 
-In the first iteration, `start` is at 0, `end` is at 6 and `mid` becomes 3 after calculating. The algorithm compares `mid` to the target value. Since the target value (9) is greater than the middle element (6), the algorithm proceeds the search to the right half by updating the `start` index to `mid + 1`, which is 4. Now, the algorithm will focus on finding the target value in the array's right portion(index 4 to 6).
+In the first iteration, `start` is at 0, `end` is at 6, and `mid` becomes 3 after calculating. The algorithm compares `mid` to the target value. Since the target value (9) is greater than the middle element (6), the algorithm proceeds the search to the right half by updating the `start` index to `mid + 1`, which is 4. Now, the algorithm will focus on finding the target value in the array's right portion(index 4 to 6).
 
 ![First Iteration of Binary Search](https://raw.githubusercontent.com/Codecademy/docs/main/media/binary-search-2.png)
 
@@ -63,7 +63,7 @@ However, the search is not instantly completed; instead, the algorithm changes t
 
 ![Second Iteration of Binary Search](https://raw.githubusercontent.com/Codecademy/docs/main/media/binary-search-3.png)
 
-In the last iteration, the binary search algorithm has narrowed down the search to a single element. The middle index `mid`, `start`, and `end`, are now pointing directly at the target value (9).
+In the last iteration, the binary search algorithm has narrowed down the search to a single element. The middle index `mid`, `start`, and `end`, are now pointing directly to the target value (9).
 
 The algorithm recognizes the match, and the search concludes that the target value is found at index 5 and the binary search is successful.
 
