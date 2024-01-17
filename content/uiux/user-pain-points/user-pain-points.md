@@ -7,7 +7,7 @@ Tags:
   - 'Design'
   - 'UI'
   - 'UX'
-ContentCatalog:
+CatalogContent:
   - 'intro-to-ui-ux'
   - 'paths/front-end-engineer-career-path'
 ---
