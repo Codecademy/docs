@@ -14,9 +14,6 @@ CatalogContent:
 ---
 
 **Merge sort** is a divide-and-conquer sorting [algorithm](https://www.codecademy.com/resources/docs/general/algorithm) that breaks down an [array](https://www.codecademy.com/resources/docs/java/arrays) into smaller arrays, sorts them, and then combines the subarrays back together to return a sorted array. 
-
-
-
 ## MergeSort Method
 
 **Divide:**
