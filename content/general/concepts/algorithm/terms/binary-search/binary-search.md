@@ -39,7 +39,7 @@ The steps for the binary search algorithm are as follows:
 - Worst Case: `O(log n)`
 - Best Case: `O(1)`
 
-The binary search algorithm has logarithmic time complexity because it divides the array repeatedly until the target element is discovered or the search space is empty. 
+The binary search algorithm has logarithmic time complexity because it divides the array repeatedly until the target element is discovered or the search space is empty.
 
 In the worst-case scenario, the target element does not exist in the collection. In such cases, the algorithm keeps dividing the collection until it has exhausted the search space.
 
