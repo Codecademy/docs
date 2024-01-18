@@ -124,7 +124,7 @@ Overall Time Complexity: _O(n log n)_
 **Overall Time Complexity:**
 
 - The recursive calls to `mergeSort` create a log n-level tree. 
-  - The number of levels in this tree directly relates to how many times you can divide the array by 2 before reaching single-element subarrays. This is equivalent to the logarithm of the array's size (log n). For example, an array of 8 elements would have 3 levels (log2 (8) = 3). _Reference the picture below for a visual understanding._
+  - The number of levels in this tree directly relates to how many times the array can be divided by 2 before reaching single-element subarrays. This is equivalent to the logarithm of the array's size (log n). For example, an array of 8 elements would have 3 levels (log2 (8) = 3). _Reference the picture below for a visual understanding._
 
 ![Merge Sort](https://raw.githubusercontent.com/Codecademy/docs/main/media/merge.png)
 
