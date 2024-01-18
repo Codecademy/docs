@@ -22,9 +22,9 @@ The **`.cos()`** method returns the trigonometric cosine of the given angle. The
 Math.cos(angle)
 ```
 
-- `angle`: This is the only parameter the `.cos()` method takes and is expressed in radians. 
+- `angle`: This is the only parameter the `.cos()` method takes and is expressed in radians.
 
-> **Note:**  If the `angle` is **NaN** or **Infinity**, **NaN** is returned.
+> **Note:** If the `angle` is **NaN** or **Infinity**, **NaN** is returned.
 
 ## Example
 
