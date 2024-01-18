@@ -19,7 +19,6 @@ The **Focus Group** is a powerful method used in Human-Computer Interaction (HCI
 A typical focus group involves:
 
 - **Selection of Participants:** Carefully select a diverse group of participants representing the target user demographic.
-  
 - **Preparation of Materials:** Prepare prototypes, wireframes, or design concepts for participants to evaluate.
 
 - **Facilitation:** A skilled facilitator guides the discussion, encouraging participants to express their thoughts, opinions, and concerns.
@@ -37,7 +36,9 @@ The purpose of focus groups is given below:
 - **Collect Feedback:** Obtain direct feedback on design elements, usability, and overall user experience.
 
 - **Identify Pain Points:** Identify pain points and challenges users may face during interaction.
+
 *
+
 - **Generate Ideas:** Stimulate creative thinking and generate new design ideas.
 
 - **Validate Design Decisions:** Validate design decisions through user opinions and preferences.
@@ -45,7 +46,6 @@ The purpose of focus groups is given below:
 The best practices to follow while conducting focus groups are:
 
 - **Diversity Matters:** Ensure participants represent diverse demographics, including age, gender, and technological proficiency.
-  
 - **Clear Objectives:** Define clear objectives for the focus group to guide discussions effectively.
 
 - **Neutral Facilitation:** The facilitator should remain neutral, encouraging open and honest feedback.
