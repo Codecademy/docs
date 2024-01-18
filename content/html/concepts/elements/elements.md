@@ -51,7 +51,7 @@ Adding a closing slash (`/`) at the end of the void element's opening tag is all
 - `<area>`
 - `<base>`
 - [`<br>`](https://www.codecademy.com/resources/docs/html/elements/br)
-- `<col>`
+- [`<col>`](https://www.codecademy.com/resources/docs/html/elements/col)
 - [`<embed>`](https://www.codecademy.com/resources/docs/html/elements/embed)
 - [`<hr>`](https://www.codecademy.com/resources/docs/html/elements/hr)
 - [`<img>`](https://www.codecademy.com/resources/docs/html/elements/img)

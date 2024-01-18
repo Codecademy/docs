@@ -95,6 +95,13 @@ Feel free to add suggestions for new slugs to the lists as part of your PR! Be s
 - 'paths/front-end-engineer-career-path'
 ```
 
+### JavaScript:D3
+
+```
+- 'learn-d3'
+- 'paths/data-science'
+```
+
 ### Kotlin
 
 ```
