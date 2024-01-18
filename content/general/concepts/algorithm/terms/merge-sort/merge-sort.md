@@ -1,7 +1,7 @@
 ---
-Title: 'Merge Sort Algorithm' 
-Description: 'Returns a sorted array using divide and conquer.' 
-Subjects: 
+Title: 'Merge Sort Algorithm'
+Description: 'Returns a sorted array using divide and conquer.'
+Subjects:
   - 'Computer Science'
   - 'Interview Prep'
   - 'Code Foundations'
@@ -13,26 +13,26 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Merge sort** is a divide-and-conquer sorting [algorithm](https://www.codecademy.com/resources/docs/general/algorithm) that breaks down an [array](https://www.codecademy.com/resources/docs/java/arrays) into smaller arrays, sorts them, and then combines the subarrays back together to return a sorted array. 
+**Merge sort** is a divide-and-conquer sorting [algorithm](https://www.codecademy.com/resources/docs/general/algorithm) that breaks down an [array](https://www.codecademy.com/resources/docs/java/arrays) into smaller arrays, sorts them, and then combines the subarrays back together to return a sorted array.
 
 ## MergeSort Method
 
 **Divide:**
 
-  - `Base Case`: If the input array `data` has only one element, it's already sorted, so return.
-  - `Split`: Divide the array into two halves, `left` and `right`, of approximately equal size.
+- `Base Case`: If the input array `data` has only one element, it's already sorted, so return.
+- `Split`: Divide the array into two halves, `left` and `right`, of approximately equal size.
 
 **Conquer**:
- 
-  - [`Recursive Calls`](https://www.codecademy.com/learn/java-algorithms/modules/recursion-apcs/cheatsheet): Repeatedly call `mergeSort` on each half, `(left)` and `(right)`, to create subarrays so they are sorted independently.
+
+- [`Recursive Calls`](https://www.codecademy.com/learn/java-algorithms/modules/recursion-apcs/cheatsheet): Repeatedly call `mergeSort` on each half, `(left)` and `(right)`, to create subarrays so they are sorted independently.
 
 **Combine**:
-  
-  - `Merge`: Call the `merge` function to merge the two sorted halves (each initially of length 1) `left` and `right`, and combine them back into the original array `data` in a sorted manner.
 
-### Implementation Pt.1 
+- `Merge`: Call the `merge` function to merge the two sorted halves (each initially of length 1) `left` and `right`, and combine them back into the original array `data` in a sorted manner.
 
-The following example written in [Java](https://www.codecademy.com/learn/learn-java) shows an implementation of the first part of the Merge Sort Algorithm — spliting the main array into subarrays: 
+### Implementation Pt.1
+
+The following example written in [Java](https://www.codecademy.com/learn/learn-java) shows an implementation of the first part of the Merge Sort Algorithm — spliting the main array into subarrays:
 
 ```java
 public static void mergeSort(int[] data){
@@ -57,7 +57,7 @@ public static void mergeSort(int[] data){
 
 ### Merge Method
 
-1. **Initialize**: 
+1. **Initialize**:
    - Set indices `l`, `r`, and `k` to 0 to track the positions in `left`, `right`, and `data`.
 2. **Compare and Merge**:
    - While both `left` and `right` have elements remaining:
@@ -112,10 +112,12 @@ Overall Time Complexity: _O(n log n)_
 ### Breakdown:
 
 1. **Divide**:
+
    - The `mergeSort` function recursively divides the array into halves until each subarray has only one element.
    - This splitting process has a time complexity of _O(log n)_ due to the repeated halving.
 
 2. **Conquer**:
+
    - The base case (array of size 1) requires no sorting, so its complexity is _O(1)._
 
 3. **Combine**:
@@ -125,7 +127,7 @@ Overall Time Complexity: _O(n log n)_
 
 **Overall Time Complexity:**
 
-- The recursive calls to `mergeSort` create a log n-level tree. 
+- The recursive calls to `mergeSort` create a log n-level tree.
   - The number of levels in this tree directly relates to how many times the array can be divided by 2 before reaching single-element subarrays. This is equivalent to the logarithm of the array's size (log n). For example, an array of 8 elements would have 3 levels (log2 (8) = 3). _Reference the picture below for a visual understanding._
 
 ![Merge Sort](https://raw.githubusercontent.com/Codecademy/docs/main/media/merge.png)
