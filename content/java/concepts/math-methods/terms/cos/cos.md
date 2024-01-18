@@ -1,4 +1,4 @@
----
+w---
 Title: '.cos()'
 Description: 'Returns the trigonometric cosine of the specified angle.'
 Subjects:
