@@ -14,6 +14,7 @@ CatalogContent:
 ---
 
 **Merge sort** is a divide-and-conquer sorting [algorithm](https://www.codecademy.com/resources/docs/general/algorithm) that breaks down an [array](https://www.codecademy.com/resources/docs/java/arrays) into smaller arrays, sorts them, and then combines the subarrays back together to return a sorted array. 
+
 ## MergeSort Method
 
 **Divide:**
@@ -28,6 +29,7 @@ CatalogContent:
 **Combine**:
   
   - `Merge`: Call the `merge` function to merge the two sorted halves (each initially of length 1) `left` and `right`, and combine them back into the original array `data` in a sorted manner.
+
 ### Implementation Pt.1 
 
 The following example written in [Java](https://www.codecademy.com/learn/learn-java) shows an implementation of the first part of the Merge Sort Algorithm — spliting the main array into subarrays: 
