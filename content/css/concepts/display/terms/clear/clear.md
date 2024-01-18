@@ -14,15 +14,15 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Species whether an element coming after a floated element should be moved down or not.
+Specifies whether an element coming after a floated element should be moved down or not.
 
 ## Syntax
 
 ```css
-clear: <value>;
+clear: value;
 ```
 
-The following values can be be appplied:
+The `value` for the `clear` attribute can be:
 
 - `none`: The element is not moved down to clear past floating elements (the default).
 - `left`: The element is moved down to clear past _left_ floated elements.
