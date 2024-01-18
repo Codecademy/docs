@@ -1,5 +1,5 @@
 ---
-Title: 'Graph Structures'
+Title: 'Graphs'
 Description: 'Graphs are a way of modeling systems based on a node and edge structure for representing the relationships between items.'
 Subjects:
   - 'Code Foundations'
