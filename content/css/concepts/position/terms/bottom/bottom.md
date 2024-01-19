@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Specifies the distance of an element from the bottom of its current location if the element itself has `position: relative` declared or from the bottom of its nearest ancestor when the ancestor has `position: relative` and the element has `position: absolute` declared.
+Specifies the distance of an element from the bottom of its current location if the element itself has `position: relative` declared or from the bottom of its nearest ancestor when the ancestor has `position: relative` and the element has `position: absolute` declared. If the element has `position: fixed` declared the distance is from viewport (the browser window) and the element is taken out of the normal document flow. 
 
 ## Syntax
 
@@ -42,7 +42,7 @@ Set the position of `.box` element `40px` from the bottom of the nearest relativ
   bottom: 40px;
 }
 ```
-![Shows use CSS bottom attribute with element position set to absolute](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-bottom-position-absolute.png)
+![Shows the use of CSS bottom attribute with element position set to absolut](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-bottom-position-absolute.png)
 
 The blue box `position: absolute` is positioned 40px from the bottom edge of its containing element `position: relative`
 
@@ -59,6 +59,6 @@ Set the position of `.box` element `40px` from the elements bottom edge.
   bottom: 40px;
 }
 ```
-![Shows use CSS bottom attribute with element position set to relative](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-bottom-position-relative.png)
+![Shows the use of CSS bottom attribute with element position set to relative](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-bottom-position-relative.png)
 
 The blue box `position: relative` is positioned 40px above its default position, within the containing element `position: relative`.
