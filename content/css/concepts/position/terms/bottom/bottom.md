@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Specifies the distance of an element from the bottom of its current location if the element itself has `position: relative` declared or from the bottom of its nearest ancestor when the ancestor has `position: relative` and the element has `position: absolute` declared.
+Specifies the distance of an element from the bottom of its current location if the element itself has `position: relative` declared or from the bottom of its nearest ancestor when the ancestor has `position: relative` and the element has `position: absolute` declared. `position: fixed` positioned an element relative to the viewport. It takes the element out of the normal flow and remains fixed, not affected by scrolling.
 
 ## Syntax
 
@@ -42,6 +42,10 @@ Set the position of `.box` element `40px` from the bottom of the nearest relativ
   bottom: 40px;
 }
 ```
+![Shows the use of CSS bottom attribute with element position set to absolute](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-absolute-bottom.png)
+
+The blue box `position: absolute` is positioned 40px from the bottom edge of its containing element `position: relative`.
+
 
 ## Example 2
 
@@ -56,3 +60,22 @@ Set the position of `.box` element `40px` from the elements bottom edge.
   bottom: 40px;
 }
 ```
+![Shows the use of CSS bottom attribute with element position set to relative](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-relative-bottom.png)
+
+The blue box `position: relative` is positioned 40px above its default position, represented by the dashed box within the containing element `position: relative`.
+
+## Example 3
+
+Set the position of `.box` element `40px` from the bottom edge of the viewport. 
+
+```css
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  position: fixed;
+  bottom: 40px;
+}
+```
+
+The blue box `position: fixed` is taken out of the normal document flow and its position with bottom property sets its distance 40px above the bottom edge of the viewport. It doesn't move when the page is scrolled.
