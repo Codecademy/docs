@@ -1,6 +1,6 @@
 ---
 Title: '.toLocaleTimeString()'
-Description: 'Returns a modified string from a given Date object, usually for events. It is translated to a specific language format according to an event locale and other options.'
+Description: 'Returns a modified string from a given Date object, usually for events. 
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -12,18 +12,18 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `.toLocaleTimeString()` date method returns a modified string of a given [`Date` object](https://www.codecademy.com/resources/docs/javascript/dates), usually for events. It is translated to a specific language according to an event's `locale` and other `options`.
+The **.toLocaleTimeString()** date method returns a modified string of a given [`Date` object](https://www.codecademy.com/resources/docs/javascript/dates), usually for events. It is translated to a specific language according to an event's `locale` and other options.
 
 ## Syntax
 
-```js
+```pseudo
 const myEventDate = new Date('December 31, 2021 15:00:00');
 
 const locale = 'en-US';
 
 const options = {
 	hour: 'numeric',
-              minute: 'numeric'
+	minute: 'numeric'
     	second: 'numeric',
 };
 
@@ -32,15 +32,17 @@ myEventDate.toLocaleTimeString(locale, options);
 
 ## Example Without Parameters
 
-When used without any parameters, `.toLocaleTimeString()` returns a string with the `hour`, `minute`, and `second` options defaulted to `numeric`. How they're arranged and formatted depends on the default `locale` in which the method was used.
+When used without any parameters, 'toLocaleTimeString()' returns a string with the `hour`, `minute`, and `second` options defaulted to `numeric`. How they're arranged and formatted depends on the default `locale` in which the method was used.
 
 In the example below, `.toLocaleTimeString()` is being used in the `en-US` locale (more specifically, in the `America/Los_Angeles` timezone).
 
 ```js
-const date = new Date(2021, 12, 31 2021 15:00:00);
+const date = new Date(2021, 11, 31, 15, 0, 0);
 
 console.log(date.toLocaleTimeString());
-// Output: 15:00:00
+
+```shell
+ 3:00:00 PM
 ```
 
 ## Format Based on Language/Region
@@ -48,37 +50,38 @@ console.log(date.toLocaleTimeString());
 Dates with a specific language format can be returned by passing a country or region's short-code (string) as the `locale` parameter, as shown in the example below:
 
 ```js
-const date = new Date(2021, 11, 31 15:00:00);
+const date = new Date(2021, 11, 31 15,0,0);
 
 // US English - hour:min:seconds
 console.log(date.toLocaleTimeString('en-US'));
 
-// Korean - desplying PM in Korean language followed by time
+// Korean - displying PM in Korean language followed by time
 console.log(date.toLocaleTimeString('ko-KR'));
 ```
 
-The output will be:
+The output of the following code is as follows:
 
 ```shell
 03:00:00 PM
-오후 3:00:00```
+오후 3:00:00
+```
 
 ## Format with Options
 
-The `options` parameter can be used to provide limit  formatting to the returned time string:
+The `options` parameter can be used to provide limit formatting to the returned time string:
 
 ```js
-const birthtime = new Date(2022, 3, 11 15:00);
+const birthtime = new Date(2022, 3, 11 15,0);
 
-options = {
+const options = {
 	hour: 'numeric',
-              minute: 'numeric'
+        minute: 'numeric'
 };
 
 console.log(birthtime.toLocaleTimeString('en-US', options));
 ```
 
-The output will be:
+The output of the following code is as follows:
 
 ```shell
 03:00 PM
@@ -94,8 +97,8 @@ const currentTime = new Date(Date.now());
 const region = 'de-DE';
 const options = {
  	 hour: 'numeric',
-              minute: 'numeric'
-    	second: 'numeric',
+	 minute: 'numeric'
+    	 second: 'numeric',
 };
 
 console.log(currentTime.toLocaleTimeString(region, options));
