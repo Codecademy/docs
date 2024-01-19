@@ -15,9 +15,16 @@ If you would like to receive credit for your contribution to an entry, make sure
 Of course, you can opt not to do this and be listed as an "Anonymous contributor", instead. :)
 -->
 
-### Description
+# Description
 
 <!-- Please write a summary of the change, such as which topic(s) and file(s) that you have edited or created. Please also include relevant motivation and context: -->
+
+## Issue Solved
+
+<!--
+Please use the following format(s) to link the issue numbers that your contribution addresses: Fixes #issue number(e.g., #123)
+Relates to #issue number(e.g., #123)
+-->
 
 ### Type of Change
 
