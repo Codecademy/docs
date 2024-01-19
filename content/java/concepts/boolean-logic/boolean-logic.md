@@ -24,22 +24,22 @@ One of the primitive [data types](https://www.codecademy.com/resources/docs/java
 
 The boolean logical operators available in Java are described in the following table:
 
-| Operator Symbol | Syntax | Behavior | Equivalent Logical Concept |
-|-|-|-|-|
-| `&&` | `(boolean A) && (boolean B)` | Returns `true` if both arguments equal `true`; otherwise returns `false` | AND / Conjunction |
-| `\|\|` | `(boolean A) \|\| (boolean B)` | Returns `true` if at least one argument equals `true`; otherwise returns `false` | OR / Inclusive disjunction |
-| `!` | `!(boolean A)` | Returns `true` if the argument equals `false`; otherwise returns `false` | NOT / Negation |
-| `^` | `(boolean A) ^ (boolean B)` | Returns `true` if exactly one argument equals `true`; otherwise returns `false` | XOR / Exclusive disjunction |
+| Operator Symbol | Syntax                         | Behavior                                                                         | Equivalent Logical Concept  |
+| --------------- | ------------------------------ | -------------------------------------------------------------------------------- | --------------------------- |
+| `&&`            | `(boolean A) && (boolean B)`   | Returns `true` if both arguments equal `true`; otherwise returns `false`         | AND / Conjunction           |
+| `\|\|`          | `(boolean A) \|\| (boolean B)` | Returns `true` if at least one argument equals `true`; otherwise returns `false` | OR / Inclusive disjunction  |
+| `!`             | `!(boolean A)`                 | Returns `true` if the argument equals `false`; otherwise returns `false`         | NOT / Negation              |
+| `^`             | `(boolean A) ^ (boolean B)`    | Returns `true` if exactly one argument equals `true`; otherwise returns `false`  | XOR / Exclusive disjunction |
 
 ## Boolean Logical Methods
 
 The boolean logical methods available in Java are described in the following table:
 
-| Method Syntax | Behavior | Equivalent Logical Concept |
-|-|-|-|
-| `logicalAnd(boolean A, boolean B)` | Returns the result of `(A && B)` | AND / Conjunction |
-| `logicalOr(boolean A, boolean B)` | Returns the result of `(A \|\| B)` | OR / Inclusive disjunction |
-| `logicalXor(boolean A, boolean B)` | Returns the result of `(A ^ B)` | XOR / Exculsive disjunction |
+| Method Syntax                      | Behavior                           | Equivalent Logical Concept  |
+| ---------------------------------- | ---------------------------------- | --------------------------- |
+| `logicalAnd(boolean A, boolean B)` | Returns the result of `(A && B)`   | AND / Conjunction           |
+| `logicalOr(boolean A, boolean B)`  | Returns the result of `(A \|\| B)` | OR / Inclusive disjunction  |
+| `logicalXor(boolean A, boolean B)` | Returns the result of `(A ^ B)`    | XOR / Exculsive disjunction |
 
 ### Use in Conditionals
 
