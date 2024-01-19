@@ -17,7 +17,7 @@ CatalogContent:
 
 One of the primitive [data types](https://www.codecademy.com/resources/docs/java/data-types) in Java is the `boolean`. A boolean object takes a value of `true` or `false`.
 
-**Boolean logic** describes the ways in which boolean values can be combined and manipulated. Java implements boolean logic through a set of [operators](https://www.codecademy.com/resources/docs/java/operators) and [methods](https://www.codecademy.com/resources/docs/java/methods). These are described below.
+**Boolean logic** describes how boolean values can be combined and manipulated. Java implements boolean logic through a set of [operators](https://www.codecademy.com/resources/docs/java/operators) and [methods](https://www.codecademy.com/resources/docs/java/methods).
 
 ## Boolean Logical Operators
 
