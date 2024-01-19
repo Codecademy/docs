@@ -226,14 +226,42 @@ if([] == false) console.log("[] == false"); // this is also executed
 
 ## Null and Undefined
 
-Null and Undefined are both for the absence of a value, but they have different meanings.
+Null and Undefined both represent the absence of a value, but they have different meanings. 
+
+### Undefined
+When a variable is declared but not initialized, or when a function does not return a value, the variable or the function’s result is undefined.
+
+Accessing an object property or array element that does not exist also results in undefined.
 
 ```js
-// Undefined means there should be some values, but it is undefined now
-let finishCourseTime = undefined;
+let value;
+console.log(value); // Output: undefined
 
-// Null means there is no value here
-let finishStudyingDate = null;
+function help() {
+  // no return statement, so the function outputs undefined
+}
+console.log(help()); // Output: undefined
+ 
+let obj = {};
+console.log(obj.property); // Output: undefined
+```
+
+### Null
+To represent the deliberate absence of a value, the variable is assigned null.
+
+It is used to explicitly indicate that a variable or object property should have no value or no reference to any object.
+
+```js
+let value = null; // variable set to null
+console.log(value); // Output: null
+
+function help() {
+  return null;
+}
+console.log(help()); // Output: null
+
+let obj = { property: null }; // property set to null
+console.log(obj.property); // Output: null
 ```
 
 ## Object
