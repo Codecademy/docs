@@ -23,12 +23,12 @@ One of the primitive [data types](https://www.codecademy.com/resources/docs/java
 
 The boolean logical operators available in Java are described in the following table:
 
-| Operator Symbol | Example Syntax | Behavior | Equivalent Logical Concept |
+| Operator Symbol | Syntax | Behavior | Equivalent Logical Concept |
 |-|-|-|-|
-| `&&` | `(true) && (false)` | Returns `true` if both arguments equal `true`; otherwise returns `false` | AND / Conjunction |
-| `\|\|` | `(true) \|\| (false)` | Returns `true` if at least one argument equals `true`; otherwise returns `false` | OR / Inclusive disjunction |
-| `!` | `!(true)` | Returns `true` if the argument equals `false`; otherwise returns `false` | NOT / Negation |
-| `^` | `(true) ^ (false)` | Returns `true` if exactly one argument equals `true`; otherwise returns `false` | XOR / Exclusive disjunction |
+| `&&` | `(boolean A) && (boolean B)` | Returns `true` if both arguments equal `true`; otherwise returns `false` | AND / Conjunction |
+| `\|\|` | `(boolean A) \|\| (boolean B)` | Returns `true` if at least one argument equals `true`; otherwise returns `false` | OR / Inclusive disjunction |
+| `!` | `!(boolean A)` | Returns `true` if the argument equals `false`; otherwise returns `false` | NOT / Negation |
+| `^` | `(boolean A) ^ (boolean B)` | Returns `true` if exactly one argument equals `true`; otherwise returns `false` | XOR / Exclusive disjunction |
 
 ## Boolean Logical Methods
 
@@ -44,11 +44,11 @@ The boolean logical methods available in Java are described in the following tab
 
 Boolean logic is commonly used within conditionals to control the flow of a program.
 
-### Codebyte Example
+### Example
 
-The following example illustrates the use of boolean logical operators within conditionals. Try changing the operators or the values of the boolean objects to see boolean logic in action.
+The following example illustrates the use of boolean logical operators within conditionals.
 
-```codebyte/java
+```java
 // File: GateTest.java
 public class GateTest{
   public static void main(String args[]) {
@@ -63,4 +63,10 @@ public class GateTest{
     }
   }
 }
+```
+
+This outputs:
+
+```shell
+Gate open! Identify and close immediately.
 ```
