@@ -3,11 +3,11 @@ title: "Operators in Rust"
 description: "Learn about the various operators in Rust and how they facilitate different operations."
 ---
 
-Rust, being a powerful and expressive programming language, provides a variety of operators to perform different operations on data types.Understanding how these operators work is essential for writing efficient and concise Rust code.
+Rust provides a variety of operators to perform different operations on data types.Understanding how these operators work is important for writing efficient Rust code.
 
-### Arithmetic Operators
+1. Arithmetic Operators
 
-Arithmetic operators are used for basic mathematical operations like addition, subtraction, multiplication, division, and remainder. Here's a quick overview:
+Arithmetic operators are used for basic mathematical operations like addition, subtraction, multiplication, division, and remainder. 
 
 ```rust
 fn main() {
@@ -35,11 +35,10 @@ fn main() {
     println!("Remainder: {}", remainder);
 }
 
-Comparison Operators
-Comparison operators are used to compare values and return a boolean result. They are essential for making decisions in your code. Here are some examples:
+2. Comparison Operators
+Comparison operators are used to compare values and return a boolean result. They are essential for making decisions in your code. Example:
 
 rust
-Copy code
 fn main() {
     let x = 5;
     let y = 8;
@@ -63,11 +62,10 @@ fn main() {
     println!("Less than or equal to: {}", x <= y);
 }
 
-Logical Operators
-Logical operators are used to perform logical operations on boolean values. They are crucial for creating conditional statements. Here's a glimpse:
+3. Logical Operators
+The operators include: > , < , >= , <= , === , !== . Logical operators are operators that combine multiple boolean expressions or values and provide a single boolean output. They are there to create conditional statements. Example:
 
 rust
-Copy code
 fn main() {
     let is_sunny = true;
     let is_warm = false;
@@ -82,11 +80,10 @@ fn main() {
     println!("NOT: {}", !is_sunny);
 }
 
-Bitwise Operators
-Bitwise operators manipulate individual bits of integers. They are particularly useful in low-level programming. Here's an example:
+4. Bitwise Operators
+ A bitwise operation operates on a bit string, a bit array or a binary numeral at the level of its individual bits. They are particularly useful in low-level programming. Example:
 
 rust
-Copy code
 fn main() {
     let a = 0b1100;
     let b = 0b1010;
@@ -104,11 +101,10 @@ fn main() {
     println!("NOT: {:b}", !a);
 }
 
-Assignment Operators
-Assignment operators combine arithmetic and bitwise operations with assignment. They are a concise way of performing operations and updating variables. Here's a demonstration:
+5. Assignment Operators
+Assignment operators are used to assign values to variables. They are a way of performing operations and updating variables. Example:
 
 rust
-Copy code
 fn main() {
     let mut num = 10;
 
