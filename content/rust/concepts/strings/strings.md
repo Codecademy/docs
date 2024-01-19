@@ -1,12 +1,12 @@
 ---
-Title: "Strings"
+Title: 'Strings'
 Description: "This entry covers creating, manipulating and referencing strings (encodings of UTF-8 sequences) in Rust."
 Subjects:
-  - "Computer Science"
-  - "Code Foundations"
+  - 'Computer Science'
+  - 'Code Foundations'
 CatalogContent:
-  - "concepts/slices/sliced.md"
-  - "paths/computer-science"
+  - 'learn-rust'
+  - 'paths/computer-science'
 ---
 **`Strings`** in Rust diverge a little bit from conventional programming languages. The approach to string manipulation in Rust is influenced by its systems-focused design. This concept entry will provide insights into creating and manipulating strings in Rust, offering practical examples to illustrate key aspects. 
   
@@ -31,16 +31,10 @@ In Rust, there are two main types related to strings, each serving a specific pu
      let string_literal: &str = "Hello, Rust!";
      ```
 
-> [!NOTE]
-> These string types cover various scenarios, from dynamic and mutable strings `String` to static and immutable string slices `&str`. The type of string should be chosen depending on specific requirements and characteristics of the data being manipulated.
+> **Note:** These string types cover various scenarios, from dynamic and mutable strings `String` to static and immutable string slices `&str`. The type of string should be chosen depending on specific requirements and characteristics of the data being manipulated.
 
-  ***
-    
-## Syntax with Examples
 
-There are three categories to understand the syntax of Rust strings: *creating, manipulating, and referencing* strings.
-
-### Creating Strings
+## Creating Strings
 
 1. **Using `String::new()`**:
 
@@ -58,7 +52,7 @@ There are three categories to understand the syntax of Rust strings: *creating, 
 
    `String::from` allocates memory on the heap and initializes a new string with the specified string literal.
 
-### String Manipulation
+## String Manipulation
   
 1. **Concatenation**
   
@@ -117,7 +111,7 @@ There are three categories to understand the syntax of Rust strings: *creating, 
 
 
 
-### Referencing Strings
+## Referencing Strings
 
 To reference parts of a string without ownership `&str` can be used as follows:
 
