@@ -1,6 +1,6 @@
 ---
 Title: "Strings"
-Description: "This concise guide covers Rust's distinctive treatment of strings, exploring types like `String` and `&str`, syntax details, and string manipulation using operators (`+`, `+=`, `format!`)."
+Description: "This entry covers creating, manipulating and referencing strings (encodings of UTF-8 sequences) in Rust."
 Subjects:
   - "Computer Science"
   - "Code Foundations"
@@ -8,14 +8,11 @@ CatalogContent:
   - "concepts/slices/sliced.md"
   - "paths/computer-science"
 ---
-
-
-## Strings
-**Strings** in Rust diverge a little bit from conventional programming languages. The approach to string manipulation in Rust is influenced by its systems-focused design. This concept entry will provide insights into creating and manipulating strings in Rust, offering practical examples to illustrate key aspects. 
+**`Strings`** in Rust diverge a little bit from conventional programming languages. The approach to string manipulation in Rust is influenced by its systems-focused design. This concept entry will provide insights into creating and manipulating strings in Rust, offering practical examples to illustrate key aspects. 
   
-Tackling data structures of variable size, such as strings, can get a bit tricky, and Rust has its own spin on it. In Rust, a string is essentially a sequence of Unicode characters encoded in UTF-8. As an example - the string "Codecademy Rust concept," where each character is a valid Unicode entity – "C," "o," "d," "e," "c," and so on.**
+Tackling data structures of variable size, such as strings, can get a bit tricky, and Rust has its  spin on it. In Rust, a string is essentially a sequence of Unicode characters encoded in UTF-8. As an example - the string "Codecademy Rust concept," where each character is a valid Unicode entity – "C," "o," "d," "e," "c," and so on.
   
-### String types
+## String types
   
 In Rust, there are two main types related to strings, each serving a specific purpose.
 1. **`String`**
@@ -102,8 +99,9 @@ There are three categories to understand the syntax of Rust strings: *creating, 
        let hello_world = format!("{}{}", hello, world);  // Creates a new string without ownership issues
        ```
 
-  > [!IMPORTANT]
-  > When working with strings in Rust, it's crucial to be mindful of ownership and borrowing semantics, especially when using operators like `+`. The operator `+` is used to create a new string while  and `+=` is used to modify an existing string in place. To concatenate strings with interpolation the `format!` macro provides a flexible and ownership-friendly way.
+   > **Note:** When working with strings in Rust, it's crucial to be mindful of ownership and borrowing semantics, especially when using operators like `+`. The operator `+` is 
+   used to create a new string while  and `+=` is used to modify an existing string in place. To concatenate strings with interpolation the `format!` macro provides a flexible 
+   and ownership-friendly way.
   
 
 2. **Slicing & Appending with `push_str` and `push`**:
