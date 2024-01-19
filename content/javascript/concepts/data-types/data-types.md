@@ -183,11 +183,45 @@ console.log(typeof name2); // "object"
 ```
 ## Boolean
 
-Boolean is for truthy or falsy values:
+Boolean represents a truth value, either `true` or `false`.
 
 ```js
 let lateToWork = true;
 let isTheEarthFlat = false;
+```
+
+Booleans can also be defined as objects, using the `new` keyword.
+
+Any object, including a boolean object with a value `false`, evaluates to `true` when passed into a conditional statement.
+For instance, the condition in the following `if` statement evaluates to true.
+
+```js
+let x = new Boolean(false); // x--> Boolean object
+
+if(x) console.log(true); // this statement is executed
+else console.log(false);
+```
+But, this does not apply to boolean primitives.
+
+```js
+let x = false; // x--> primitive
+
+if(x) console.log(true);
+else console.log(false); // this statement is executed
+```
+To convert a non-boolean value into a boolean, the `Boolean` function or double not `!!` is used.
+
+```js
+let value = Boolean('Harry'); // returns true
+let value2 = !!'Harry'; // returns true
+```
+Those values which are returned as false are `falsy`, whereas other values are `truthy`.
+
+Truthy values can be loosely equal to `false` and vice-versa.
+
+```js
+if([]) console.log("[] is truthy"); // statement is executed
+if([] == false) console.log("[] == false"); // this is also executed
 ```
 
 ## Null and Undefined
