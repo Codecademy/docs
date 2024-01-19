@@ -30,10 +30,6 @@ JavaScript uses seven primitive data types that are listed in the table below:
 | `undefined` | None                                                                            | This data type is denoted by the keyword `undefined`. It also represents the absence of a value though it has a different use than `null`. |
 | `symbol`    | `Symbol`                                                                        | A newer feature to the language, symbols are unique identifiers, useful in more complex coding. No need to worry about these for now.      |
 
-## Objects
-
-[Objects](https://www.codecademy.com/resources/docs/javascript/objects) are a little more complex since they are collections of related data.
-
 > **Note:** The `null` type cannot be tested with `typeof` like all the other primitive types because it will return `"object"`. This must be tested with the type equality operator (i.e., `=== null`).
 
 ## Number  
@@ -60,7 +56,7 @@ The above lines give the following output,
 10000000000000000
 ```
 
-The `Number()` method converts a string or other value to the number type. If the value can't be converted, it returns `NaN`.
+The `Number()` method converts a string or other value to the `Number` type. If the value can't be converted, it returns `NaN`.
 ```js
 Number('123'); // 123
 Number(true); // 1
@@ -99,7 +95,7 @@ bigint
 
 ## String
 
-Strings in JavaScript are a sequence of characters enclosed in single `' '` or double `" "` quotes.
+Strings in JavaScript are a sequence of characters enclosed in single `''` or double `""` quotes.
 
 ```js
 let greeting = 'Hi buddy';
@@ -264,9 +260,11 @@ let obj = { property: null }; // property set to null
 console.log(obj.property); // Output: null
 ```
 
-## Object
+## Objects
 
-Objects can have fields with different values and types inside:
+[Objects](https://www.codecademy.com/resources/docs/javascript/objects) are non-primitive data types in JavaScript, which have properties and methods pertinent to the given program. In JavaScript, `objects` are the only mutable data types. 
+
+Objects can have properties with different values and types inside:
 
 ```js
 const user = {
