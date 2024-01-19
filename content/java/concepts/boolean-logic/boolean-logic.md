@@ -3,6 +3,7 @@ Title: 'Boolean Logic'
 Description: 'A set of operators and methods in Java for manipulating booleans.'
 Subjects:
   - 'Computer Science'
+  - 'Code Foundations'
 Tags:
   - 'Booleans'
   - 'Logic'
