@@ -40,11 +40,11 @@ The boolean logical methods available in Java are described in the following tab
 | `logicalOr(boolean A, boolean B)` | Returns the result of `(A \|\| B)` | OR / Inclusive disjunction |
 | `logicalXor(boolean A, boolean B)` | Returns the result of `(A ^ B)` | XOR / Exculsive disjunction |
 
-## Use in Conditionals
+### Use in Conditionals
 
 Boolean logic is commonly used within conditionals to control the flow of a program.
 
-### Example
+## Example
 
 The following example illustrates the use of boolean logical operators within conditionals.
 
@@ -65,7 +65,7 @@ public class GateTest{
 }
 ```
 
-This outputs:
+The above example gives following output:
 
 ```shell
 Gate open! Identify and close immediately.
