@@ -17,4 +17,4 @@ A journey map is a visualization of the process that a person goes through in or
 
 ## How Journey map is used in UX**
  The Journey Map, helps teams understand and visualize the end-to-end experience of a user as they interact with a product or service. They provide a comprehensive view of the user's interactions, emotions, and touchpoints throughout their journey. These maps are a versatile tool in UX design that aids in understanding, visualizing, and improving the overall user experience by providing a holistic view of the user's journey.
-![Journey map](../../../media/journey_map#2.jpg)
+![Journey map](../../../media/journey_map-2.jpg)
