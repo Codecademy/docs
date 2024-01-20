@@ -44,7 +44,7 @@ Set the position of `.box` element `40px` from the bottom of the nearest relativ
 ```
 ![Shows the use of CSS bottom attribute with element position set to absolute](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-absolute-bottom.png)
 
-The blue box `position: absolute` is positioned 40px from the bottom edge of its containing element `position: relative`.
+The blue box `position: absolute` is positioned `40px` from the bottom edge of its containing element `position: relative`.
 
 
 ## Example 2
