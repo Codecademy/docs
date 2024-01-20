@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Specifies the distance of an element from the bottom of its current location if the element itself has `position: relative` declared or from the bottom of its nearest ancestor when the ancestor has `position: relative` and the element has `position: absolute` declared. `position: fixed` positioned an element relative to the viewport. It takes the element out of the normal flow and remains fixed, not affected by scrolling.
+Specifies the distance of an element from the bottom of its current location if the element itself has `position: relative` declared or from the bottom of its nearest ancestor when the ancestor has `position: relative` and the element has `position: absolute` declared. `position: fixed` positions an element relative to the viewport. It takes the element out of the normal flow and remains fixed, not affected by scrolling.
 
 ## Syntax
 
