@@ -78,4 +78,4 @@ Set the position of `.box` element `40px` from the bottom edge of the viewport.
 }
 ```
 
-The blue box `position: fixed` is taken out of the normal document flow and its position with bottom property sets its distance 40px above the bottom edge of the viewport. It doesn't move when the page is scrolled.
+The blue box `position: fixed` is taken out of the normal document flow and its position with the bottom property sets its distance `40px` above the bottom edge of the viewport. It doesn't move when the page is scrolled.
