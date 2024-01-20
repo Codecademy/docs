@@ -39,12 +39,12 @@ In JavaScript, numbers are always stored as double-precision floating point numb
 - 11 bits for the exponent (bits 52 to 62)
 - 1 bit for the sign (bit 63)
 
-```js
+```codebyte/javascript
 let x = 7;
 let y = 123e5;
 ```
 The integer precision for the `Number` type is `15 digits`.
-```js
+```codebyte/javascript
 let x = 999999999999999;
 let y = 9999999999999999;
 console.log(x);
@@ -57,7 +57,7 @@ The above lines give the following output,
 ```
 
 The `Number()` method converts a string or other value to the `Number` type. If the value can't be converted, it returns `NaN`.
-```js
+```codebyte/javascript
 Number('123'); // 123
 Number(true); // 1
 Number(false); // 0
@@ -66,7 +66,7 @@ Number(undefined); // NaN
 Number("Harry"); // NaN 
 ```
 Numbers are primitives, but they can be defined as objects using the keyword `new`.
-```js
+```codebyte/javascript
 let x = 123;
 let y = new Number(123);
 
@@ -78,13 +78,13 @@ console.log(typeof y); // "object"
 Any integer greater than 2<sup>53</sup>-1 and less than -(2<sup>53</sup>-1) cannot be represented by the `Number` type. Instead, they are represented by another datatype `BigInt`.      
 
 To create a `BigInt`, append `n` at the end of the integer or by use the `BigInt()` function.  
-```js
+```codebyte/javascript
 let bigNum = 9999999999999999n;
 let b = BigInt(1234567890123456789012345);
 ```
 
 The Javascript `typeof` for `BigInt` is "bigint".  
-```js
+```codebyte/javascript
 let x = BigInt(1234567890123456789012345);
 console.log(typeof x);
 ```
@@ -97,13 +97,13 @@ bigint
 
 Strings in JavaScript are a sequence of characters enclosed in single `''` or double `""` quotes.
 
-```js
+```codebyte/javascript
 let greeting = 'Hi buddy';
 let message = "You are doing great! Keep studying!";
 ```
 
 To find the length of the string, the built-in `length` property is used.
-```js
+```codebyte/javascript
 let text = "abracadabra";
 console.log(text.length); // 11
 ```
@@ -113,7 +113,7 @@ Template literals, often informally called _template strings_, are characters de
 
 #### Multi-Line Strings
 Any newline characters inserted within the backticks are part of the template literal, unlike single or double quoted strings, allowing for multi-line strings.
-```js
+```codebyte/javascript
 let text = `All the world's a stage
 and all the men and women
 merely players`;
@@ -128,7 +128,7 @@ merely players
 ```
 #### String Interpolation
 In order to combine outputs from expressions with strings, the addition operator `+` is used to concatenate them. 
-```js
+```codebyte/javascript
 let age_min = 20;
 let age_max = 50;
 console.log("Candidates of age between " + age_min + " and " + age_max + " can appear for the test.");
@@ -137,7 +137,7 @@ console.log("Candidates of age between " + age_min + " and " + age_max + " can a
 This is very tedious, especially when there are multiple expressions. Using template literals, the concatenation operator 
 can be avoided, and placeholders of the form `${expression}` are used for the expressions, which makes the code more readable.
 
-```js
+```codebyte/javascript
 let age_min = 20;
 let age_max = 50;
 console.log(`Candidates of age between ${age_min} and ${age_max} can appear for the test.`);
@@ -148,7 +148,7 @@ console.log(`Candidates of age between ${age_min} and ${age_max} can appear for 
 Tags are functions that allow parsing of template literals. The first argument of a tag function contains an array of string values.
 The rest arguments are related to the expressions. 
 
-```js
+```codebyte/javascript
 let name = 'Harry';
 let age = 20;
 
@@ -170,7 +170,7 @@ console.log(output);
 
 Strings can also be defined as objects using the `new` keyword.
 
-```js
+```codebyte/javascript
 let name = "Jhon";
 let name2 = new String("Jhon");
 
@@ -181,7 +181,7 @@ console.log(typeof name2); // "object"
 
 Boolean represents a truth value, either `true` or `false`.
 
-```js
+```codebyte/javascript
 let lateToWork = true;
 let isTheEarthFlat = false;
 ```
@@ -191,7 +191,7 @@ Booleans can also be defined as objects, using the `new` keyword.
 Any object, including a boolean object with a value `false`, evaluates to `true` when passed into a conditional statement.
 For instance, the condition in the following `if` statement evaluates to true.
 
-```js
+```codebyte/javascript
 let x = new Boolean(false); // x--> Boolean object
 
 if(x) console.log(true); // this statement is executed
@@ -199,7 +199,7 @@ else console.log(false);
 ```
 But, this does not apply to boolean primitives.
 
-```js
+```codebyte/javascript
 let x = false; // x--> primitive
 
 if(x) console.log(true);
@@ -207,7 +207,7 @@ else console.log(false); // this statement is executed
 ```
 To convert a non-boolean value into a boolean, the `Boolean` function or double not `!!` is used.
 
-```js
+```codebyte/javascript
 let value = Boolean('Harry'); // returns true
 let value2 = !!'Harry'; // returns true
 ```
@@ -215,7 +215,7 @@ Those values which are returned as false are `falsy`, whereas other values are `
 
 Truthy values can be loosely equal to `false` and vice-versa.
 
-```js
+```codebyte/javascript
 if([]) console.log("[] is truthy"); // statement is executed
 if([] == false) console.log("[] == false"); // this is also executed
 ```
@@ -229,7 +229,7 @@ When a variable is declared but not initialized, or when a function does not ret
 
 Accessing an object property or array element that does not exist also results in undefined.
 
-```js
+```codebyte/javascript
 let value;
 console.log(value); // Output: undefined
 
@@ -247,7 +247,7 @@ To represent the deliberate absence of a value, the variable is assigned null.
 
 It is used to explicitly indicate that a variable or object property should have no value or no reference to any object.
 
-```js
+```codebyte/javascript
 let value = null; // variable set to null
 console.log(value); // Output: null
 
@@ -266,7 +266,7 @@ console.log(obj.property); // Output: null
 
 Objects can have properties with different values and types inside:
 
-```js
+```codebyte/javascript
 const user = {
   name: 'Jane',
   age: 20,
