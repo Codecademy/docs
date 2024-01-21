@@ -27,6 +27,5 @@ The gif below depicts a basic demonstration of Fitts' Law. The varying size and 
 
 ## Resources
 
-[Nielsen Norman Group](https://www.nngroup.com/articles/fitts-law/)
-
-[Interactive Visualization of Fitts' Law](http://simonwallner.at/ext/fitts/)
+- [Nielsen Norman Group](https://www.nngroup.com/articles/fitts-law/)
+- [Interactive Visualization of Fitts' Law](http://simonwallner.at/ext/fitts/)
