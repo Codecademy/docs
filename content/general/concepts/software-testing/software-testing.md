@@ -17,6 +17,12 @@ CatalogContent:
 
 **Software testing** is the process of verifying and evaluating the functionality of a software application or product. It reduces and eliminates bugs, and mitigates the long-term costs for a company in terms of any fixes and updates that would be needed.
 
+It is most common to initiate during the [design phase](https://www.codecademy.com/resources/docs/general/software-development-life-cyclee) and can even occur after the product is deployed into production. Different [testing methodologies](https://www.codecademy.com/resources/docs/general/software-development-life-cycle) are available to suit different project objectives.
+
+The most popular objectives of software testing are:
+- Checking whether the actual software matches the expected requirements and ensuring the software is bug-free.
+- Identify errors, faults, or missing requirements in contrast to actual requirements.
+
 ## Testing Types
 
 There are several kinds of software testing with varying degrees of specificity, including the following:
