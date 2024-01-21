@@ -21,9 +21,11 @@ Fitts determined that larger targets with minimal spacing allow for better usabi
 
 ## Example
 
-The gif below depicts a basic demonstration of Fitts' Law. The varying size and placement of targets illustrate the differing levels of user accuracy in acquiring each target as well as the speed of acquiring each target. As targets are enlarged and distance reduced, accuracy/speed icrease.
+The gif below depicts a basic demonstration of Fitts' Law. The varying size and placement of targets illustrate the differing levels of user accuracy in acquiring each target as well as the speed of acquiring each target.
 
 ![Fitts' Law demonstration](https://raw.githubusercontent.com/Codecademy/docs/main/media/fitts-law.gif)
+
+Notice how smaller targets with large spacing decreased the accuracy and speed of acquiring each target, while larger targets with minimal spacing increased accuracy and speed. Despite the highest accuracy and speed shown on the largest and overlapping target set, this would not be considered good design practice, as the targets are cluttered and could lead to poor usability. The goal is to find the optimal size and spacing so that targets are presented clearly, and are easily distinguishable from one another.
 
 ## Resources
 
