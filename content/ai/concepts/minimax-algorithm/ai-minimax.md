@@ -1,5 +1,5 @@
 ---
-Title: 'Minimax algorithm in AI'
+Title: 'Minimax algorithm'
 Description: 'Minimax algortihm is a recursive algorithm used in decision making and game theory.'
 Subjects:
   - 'AI'
@@ -14,17 +14,16 @@ CatalogContent:
 ---
 
 The **minimax algorithm** is a fundamental concept in artificial intelligence used for decision making in games and other scenarios.
-It is widely used in two player games where players alternate turns, such as tic-tac-toe, chess, backgammon, etc. 
-In these games, each player wants to make the best or most optimal move to maximize their chances of winning, while also trying to minimize their opponent's chances. Therefore, the name of the algorithm is a combination of two words: minimize and maximize.
-The minimax algorithm helps the computer or AI decide its next move by considering all possible moves it can make and all possible responses from the opponent. It does this by simulating the game's future moves and outcomes.
+It is widely used in two-player games where players alternate turns, such as tic-tac-toe, chess, backgammon, etc. 
+In these games, each player wants to make the best or most optimal move to maximize their chances of winning, while also trying to minimize their opponent's chances. Therefore, the algorithm's name is a combination of two words: minimize and maximize. The minimax algorithm helps the computer or AI decide its next move by considering all possible moves it can make and all possible responses from the opponent. It does this by simulating the game's future moves and outcomes.
 
 ## Implementation 
 
-The minimax algorithm utilizes a depth-first search approach to thoroughly explore the entire game tree. The minimax algorithm proceeds all the way down to the terminal node of the tree, then backtrack the tree as the recursion. [`Depth-First Search`](https://www.codecademy.com/resources/docs/ai/search-algorithms/depth-first-search)
+The minimax algorithm utilizes a depth-first search approach to thoroughly explore the entire game tree. The minimax algorithm proceeds down to the terminal node of the tree and then backtracks the tree as the [recursion] (https://www.codecademy.com/resources/docs/python/recursion). [`Depth-First Search`](https://www.codecademy.com/resources/docs/ai/search-algorithms/depth-first-search)
 
 ![Depth-First Search example](https://raw.githubusercontent.com/Codecademy/docs/main/media/Depth-First-Search-Example.png)
 
-In the minimax algorithm, we have two players: the one who wants to score as high as possible the maximizer and the one who wants to score as low as possible the minimizer. Both players try to outsmart each other, with the minimizer aiming to make the maximizer's score as low as they can while trying to improve their own score. It's like a game of strategy where one player tries to win big, and the other tries to keep the losses small.
+In the minimax algorithm, there are two players involved: the one who wants to score as high as possible the maximizer and the one who wants to score as low as possible the minimizer. Both players try to outsmart each other, with the minimizer aiming to make the maximizer's score as low as they can while trying to improve their own score. It's like a game of strategy where one player tries to win big, and the other tries to keep the losses small.
 
 Here's how it works when AI plays with a human, as in tic-tac-toe game:
 
@@ -36,6 +35,7 @@ Here's how it works when AI plays with a human, as in tic-tac-toe game:
 In summary, the minimax algorithm helps the AI make optimal decisions by considering the best and worst possible outcomes for each move, assuming both players play perfectly. Additionally, the main issue with the minimax algorithm is that it can take a long time to make decisions in complex games like chess or Go. These games have many possible moves, which creates a lot of branches in the decision tree. To address this problem, alpha-beta pruning can be used to speed up the algorithm.
 
 ## Example
+
 Below is a simple Python example of the minimax algorithm applied to a basic tic-tac-toe game. This code demonstrates how the AI can make optimal moves. It prints the current board, asks for your move, and then makes the AI's move until the game is over.
 
 ```python
