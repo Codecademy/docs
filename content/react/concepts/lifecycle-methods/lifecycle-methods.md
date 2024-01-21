@@ -15,7 +15,7 @@ CatalogContent:
 In React, **lifecycle methods** are unique event listeners that listen for changes during certain points during a [component](https://www.codecademy.com/resources/docs/react/components)'s lifecycle. A component's lifecycle usually runs in this order:
 
 1. Rendering/mounting a component to the DOM for the first time.
-2. Updatilng an existing component.
+2. Updating an existing component.
 3. Catching any errors associated with a component render-gone-wrong.
 4. Unmounting a component and removing it from the DOM.
 
