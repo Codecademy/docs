@@ -108,7 +108,26 @@ fn main() {
 
 ## BinaryHeap
 
-A binary heap is a data structure provided by the standard library in the std::collections module.
+A binary heap is a data structure provided by the standard library in the std::collections module.Useful for scenarios where you need quick access to the maximum element.Elements are ordered such that the parent is always greater than or equal to its children.
+
+```rust
+use std::collections::BinaryHeap;
+
+fn main() {
+    // Create a max binary heap
+    let mut max_heap = BinaryHeap::from(vec![4, 2, 8, 5]);
+
+    // Insert elements into the heap
+    max_heap.push(10);
+    max_heap.push(1);
+
+    // Pop and print elements (max to min)
+    while let Some(max_element) = max_heap.pop() {
+        println!("{}", max_element);
+    }
+}
+
+```
 
 ## Codebyte Example (if applicable)
 
