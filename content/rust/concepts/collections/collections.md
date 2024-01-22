@@ -52,7 +52,17 @@ let mut s = String::new(); // Creating a new, empty String
 
 ## HashMap
 
-The `HashMap<K, V>` stores a mapping of keys of type K to values of type V using a hashing function. This function is responsible for determining how it places these keys and values into memory. Hash maps are useful when you want to look up data not by using an index, as you can with vectors, but by using a key that can be of any type. Most programming languages support this data structure and have different names such as hash, map, object, hash table, dictionary etc.
+The `HashMap<K, V>` stores a mapping of keys of type K to values of type V using a hashing function. This function is responsible for determining how it places these keys and values into memory. Hash maps are useful when you want to look up data not by using an index, as you can with vectors, but by using a key that can be of any type. Most programming languages support this data structure and have different names such as hash, map, object, hash table, dictionary etc.This data type can be created in the following way:
+
+```rust
+    use std::collections::HashMap;
+
+    let mut scores = HashMap::new();
+
+    scores.insert(String::from("Blue"), 10);
+    scores.insert(String::from("Yellow"), 50);
+
+```
 
 ## VecDeque
 
