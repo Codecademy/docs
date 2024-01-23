@@ -14,16 +14,17 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 
 ## Syntax
 
-
+```pseudo
+Set <String> treeset = new TreeSet<>();
+```
 
 ## Example
 
 Tree set may be helpful for a string set beacause if someone add some String twice, program will show it only once.
+The following example demonstrates using `TreeSet<>()` with Strings:
 
-## Codebyte Example (if applicable)
-
-```codebyte/java
-# Example runnable code block.
+```java
+// Example.java
 import java.util.*;
 public class MyClass {
   public static void main(String[] args) {
@@ -36,9 +37,11 @@ public class MyClass {
     System.out.println(treeset);
   }
 }
-
-Output: [Diablo III, Doom, The Witcher]
-
+```
 
 
+This results in the following output:
+
+```shell
+[Diablo III, Doom, The Witcher]
 ```
