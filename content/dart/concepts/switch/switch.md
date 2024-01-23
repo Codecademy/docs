@@ -2,14 +2,14 @@
 Title: 'Switch Statements'
 Description: 'Assesses a value expression based on a sequence of cases.'
 Subjects: 
-  - 'Code foundation'
+  - 'Code Foundations'
   - 'Computer Science'
 Tags:
   - 'Methods'
   - 'Switch'
   - 'Functions'
 CatalogContent:
-- 'learn-dart'
+  - 'learn-dart'
   - 'paths/computer-science'
 ---
 
@@ -20,12 +20,12 @@ The **Switch statement** is a control flow structure that allows a program to ex
 ```pseudo 
 switch (expression) {
   case value1:
-    // code block executed if expression matches value1
+    // code block executed if the expression matches value1
     break;
   case value2:
-    // code block executed if expression matches value2
+    // code block executed if the expression matches value2
     break;
-  // additional cases as needed
+  //Additional cases as needed
   default:
     // code block executed if no case matches the expression
 }
@@ -60,4 +60,4 @@ void main() {
 }
 ```
 
-If the value is `banana`, `apple`, or `orange`, the corresponding case is executed. If none of the cases match, the default block is executed, printing an error message.
+The corresponding case is executed if the value is `banana`, `apple`, or `orange`. If none of the cases match, the default block is executed, printing an error message.
