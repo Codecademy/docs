@@ -9,6 +9,7 @@ Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/
   - 'Switch'
   - 'Functions'
 CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+- 'learn-dart'
   - 'paths/computer-science'
 ---
 
