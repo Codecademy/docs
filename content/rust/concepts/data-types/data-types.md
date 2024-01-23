@@ -91,7 +91,7 @@ let unicode_char: char = 'A';
 
 Compound types represent multiple values and can be grouped.
 
-## Tuples
+### Tuples
 
 A tuple is a collection of values of different types. Tuples are constructed using parentheses `()` and each has a value with type signature. Tuples are used by functions to return multiple values as tuples can hold any number of values:
 
@@ -107,7 +107,7 @@ fn main() {
     }
 ```
 
-## Arrays
+### Arrays
 
 An array is a collection of values with the same type and fixed length. The values are written as a comma-separated list inside a square bracket. Arrays are useful when data needs to be allocated on a stack rather than heap memory:
 
