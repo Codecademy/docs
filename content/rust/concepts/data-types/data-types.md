@@ -44,6 +44,23 @@ fn main() {
 
 A boolean is a data type representing one of two values: `true` or `false`. Booleans have a size of one byte and they are specified using the `bool` keyword with explicit type annotation:
 
+```rust
+
+fn main() {
+    // Declare a boolean variable with explicit type annotation
+    let is_rust_cool: bool = true;
+
+    // Use the boolean value in a conditional statement
+    if is_rust_cool {
+        println!("Rust is cool!");
+    } else {
+        println!("Rust is not cool?");
+    }
+
+}
+
+```
+
 ### Character
 
 In Rust, char values are declared using single quotes `''`.It represents a single-character Unicode character. It's specified using the `char` keyword. Each Character is 4 bytes in size and can represent a wide range of characters, including ASCII characters, symbols, and various international characters:
