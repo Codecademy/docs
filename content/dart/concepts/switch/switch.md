@@ -12,7 +12,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'paths/computer-science'
 ---
 
-The **switch** statement is a control flow structure that allows a program to execute different code blocks based on the value of an expression
+The **switch** statement is a control flow structure that allows a program to execute different code blocks based on the value of an expression.
 
 ## Syntax
 
