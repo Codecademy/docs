@@ -1,7 +1,7 @@
 ---
 Title: 'Switch Statements'
 Description: 'Assesses a value expression based on a sequence of cases.'
-Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
+Subjects: 
   - 'Code foundation'
   - 'Computer Science'
 Tags:
