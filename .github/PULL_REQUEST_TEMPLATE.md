@@ -22,8 +22,8 @@ Of course, you can opt not to do this and be listed as an "Anonymous contributor
 ### Issue Solved
 
 <!--
-Please use the following format(s) to link the issue numbers that your contribution addresses: Fixes #issue number(e.g., #123)
-Relates to #issue number(e.g., #123)
+Please use the following format(s) to link the issue numbers that your contribution addresses: 
+Closes #issue-number (where `issue-number` corresponds to the PRs' respective issue)
 -->
 
 ### Type of Change
