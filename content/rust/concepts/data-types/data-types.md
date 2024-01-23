@@ -14,7 +14,7 @@ CatalogContent:
 
 **Data types** define the nature of data a variable can store. Rust employs static typing, ensuring that variable types are known at compile time, aiding in detecting potential errors before runtime. These data types are broadly categorized into two groups: primitive types and compound types.
 
-## Primitive types || scala types
+## Primitive and Scala types
 
 Scala types represent a single value.
 
