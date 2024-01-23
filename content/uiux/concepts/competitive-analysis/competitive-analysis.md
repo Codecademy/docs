@@ -11,11 +11,11 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-In the field of UX/UI design, **Competitive Analysis** is a crucial process for evaluating and benchmarking a digital product against competitors. By examining the user experience, [visual design](https://www.codecademy.com/resources/docs/uiux/visual-design), interaction elements, content strategy, and technological implementations of rival platforms, valuable insights are gained to inform and enhance design decisions.
+In UI/UX design, **Competitive Analysis** is a crucial process for evaluating and benchmarking a digital product against competitors. By examining the user experience, [visual design](https://www.codecademy.com/resources/docs/uiux/visual-design), interaction elements, content strategy, and technological implementations of rival platforms, valuable insights are gained to inform and enhance design decisions.
 
 ## Why it Matters
 
-Understanding the competitive landscape helps to align with industry standards, identify user expectations, and foster innovation. This strategic analysis ensures that the digital interface not only meets but exceeds user expectations.
+Understanding the competitive landscape helps to align with industry standards, identify user expectations, and foster innovation. This strategic analysis ensures that the digital interface meets user needs.
 
 ## Steps to Perform a Competitive Analysis
 
@@ -31,7 +31,7 @@ Understanding the competitive landscape helps to align with industry standards, 
 
 ## Applying Insights to Design
 
-Integrate successful elements from competitors' interfaces while addressing their shortcomings to create a unique and improved user experience for the audience.
+Successful elements from competitors' interfaces can be integrated into the product while addressing their shortcomings to create a unique and improved user experience for the audience.
 
 ## Additional Resources
 
