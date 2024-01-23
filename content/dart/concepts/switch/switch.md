@@ -8,7 +8,7 @@ Tags:
   - 'Methods'
   - 'Switch'
   - 'Functions'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+CatalogContent:
 - 'learn-dart'
   - 'paths/computer-science'
 ---
