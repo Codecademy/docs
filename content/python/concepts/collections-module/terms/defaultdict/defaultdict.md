@@ -1,5 +1,5 @@
 ---
-Title: 'collections.defaultdict'
+Title: 'Defaultdict'
 Description: 'Returns a dictionary-like object.'
 Subjects:
   - 'Computer Science'
@@ -25,7 +25,7 @@ defaultdict(default_factory)
 
 ## Example
 
-The following example demonstrates the defaultdict data type:
+The following example demonstrates the `defaultdict` data type:
 
 ```py
 from collections import defaultdict
@@ -53,7 +53,7 @@ Not Declared
 
 ## Codebyte Example
 
-Here is a codebyte example for the defaultdict data type:
+Here is a codebyte example for the `defaultdict` data type:
 
 ```codebyte/python
 from collections import defaultdict
