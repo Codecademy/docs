@@ -28,7 +28,7 @@ let vec2 = vec![5, 2, 3]; // Creates a vector with initial values
 
 ## VecDeque
 
-VecDeque is a double-ended queue implemented as a growable, contiguous vector. It is part of the standard library and is defined in the std::collections module. A VecDeque allows efficient insertion and removal of elements at both ends of the deque.
+VecDeque is a double-ended queue implemented as a growable, contiguous vector. It is part of the standard library and is defined in the std::collections module. A VecDeque allows efficient insertion and removal of elements at both ends of the deque.VecDeque can be created in the following way:
 
 ```rust
 
@@ -54,7 +54,7 @@ fn main() {
 
 ## LinkedList
 
-LinkedList, provide dynamic memory allocation and efficient insertions and removals at both ends of the list.The pop_front method removes an element from the front, while pop_back removes an element from the back if you need to remove from the end.
+`LinkedList`, provide dynamic memory allocation and efficient insertions and removals at both ends of the list.The pop_front method removes an element from the front, while pop_back removes an element from the back if needed.LinkedList can be created in the following way:
 
 ```rust
 
@@ -123,7 +123,7 @@ The `HashMap<K, V>` stores a mapping of keys of type K to values of type V using
 
 ## BTreeMap
 
-The `BTreeMap` is another data structure provided by the Rust standard library. It is a type of map that maintains its keys in sorted order. The name "BTreeMap" is derived from the underlying data structure it uses, which is a B-tree.The "B" in B-tree stands for "balanced," indicating that the tree structure is kept balanced to ensure efficient operations.It provides a key-value mapping similar to HashMap, but with the added benefit of keys being sorted.
+The `BTreeMap` is another data structure provided by the Rust standard library. It is a type of map that maintains its keys in sorted order. The name "BTreeMap" is derived from the underlying data structure it uses, which is a B-tree.The "B" in B-tree stands for "balanced," indicating that the tree structure is kept balanced to ensure efficient operations.It provides a key-value mapping similar to HashMap, but with the added benefit of keys being sorted.The data type can be created in the following way:
 
 ```rust
 
@@ -138,7 +138,7 @@ println!("Value for key 'two': {:?}", btree_map.get("two")); // Access and print
 
 ## Set
 
-In Rust, the standard library provides a HashSet collection, which is an implementation of a set. A set is a collection of unique elements, and the HashSet ensures that each element appears only once.BTreeSet is another collection provided by the standard library. It is a set implemented using a B-tree, just like BTreeMap is a map implemented using a B-tree. The BTreeSet maintains a sorted set of unique elements. Here's an example of creating and using a HashSet AND BTreeSet:
+In Rust, the standard library provides a `HashSet` collection, which is an implementation of a set. A set is a collection of unique elements, and the HashSet ensures that each element appears only once.`BTreeSet` is another collection provided by the standard library. It is a set implemented using a B-tree, just like BTreeMap is a map implemented using a B-tree. The `BTreeSet` maintains a sorted set of unique elements. Here's an example of creating and using a `HashSet` and `BTreeSet`:
 
 ```rust
 use std::collections::{HashSet, BTreeSet};
@@ -161,7 +161,7 @@ fn main() {
 
 ## BinaryHeap
 
-A binary heap is a data structure provided by the standard library in the std::collections module.Useful for scenarios where you need quick access to the maximum element.Elements are ordered such that the parent is always greater than or equal to its children.
+A `binaryHeap` is a data structure provided by the standard library in the std::collections module.Its useful for scenarios where you need quick access to the maximum element.Elements are ordered such that the parent is always greater than or equal to its children.The data type can be created in the following way:
 
 ```rust
 use std::collections::BinaryHeap;
