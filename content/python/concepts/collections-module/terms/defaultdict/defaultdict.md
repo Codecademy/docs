@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Python, **defaultdict** is a [data type](https://www.codecademy.com/resources/docs/python/data-types) that belongs to the [`collections`](https://www.codecademy.com/resources/docs/python/collections-module) [module](https://www.codecademy.com/resources/docs/python/modules). It is a [`dict`](https://www.codecademy.com/resources/docs/python/dictionaries) subclass that is used to return a dictionary-like object.
+In Python, **defaultdict** is a data type that belongs to the [`collections`](https://www.codecademy.com/resources/docs/python/collections-module) module. It is a [`dictionary`](https://www.codecademy.com/resources/docs/python/dictionaries) subclass that is used to return a dictionary-like object.
 
 ## Syntax
 
