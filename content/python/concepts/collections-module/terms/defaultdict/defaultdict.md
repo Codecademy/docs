@@ -18,7 +18,7 @@ In Python, **defaultdict** is a data type that belongs to the [`collections`](ht
 ## Syntax
 
 ```pseudo
-defaultdict(default_factory)
+collections.defaultdict(default_factory)
 ```
 
 - `default_factory`: It is a [function](https://www.codecademy.com/resources/docs/python/functions) that returns the default value for the dictionary specified.
