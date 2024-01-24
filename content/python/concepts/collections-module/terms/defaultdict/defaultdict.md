@@ -1,5 +1,5 @@
 ---
-Title: 'Defaultdict'
+Title: 'defaultdict'
 Description: 'Returns a dictionary-like object.'
 Subjects:
   - 'Computer Science'
