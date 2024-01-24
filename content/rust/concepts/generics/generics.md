@@ -13,7 +13,7 @@ CatalogContent:
 
 **Generics** in Rust allows developers to write flexible, reusable code that can work with many data types. Generics can be used to create functions, data structures, and methods that operate over a variety of types while still providing compile-time type safety.
 
-## Defining a Generic Function
+## Generic Function
 
 A generic function can be defined by specifying a type parameter inside angle brackets `<>`. This type parameter can then be used as a stand-in for any type. By convention, most rust developers use `T`, which is short for `Type`. The following example demonstrates how to define a generic function:
 
@@ -45,7 +45,7 @@ The above example will output the following:
 
 ## Using a Generic Data Structure
 
-Similarly, you can define `struct` or `enum` with generics. The following example showcases defining a `struct` with generics.
+Similarly, `struct` or `enum` can be defined with generics. The following example showcases defining a `struct` with generics.
 
 ```rust
 struct Coordinates<T> {
@@ -70,7 +70,7 @@ float_coord: (5.01, 4.1)
 
 > **Note:** For the above example, ensure that `x` and `y` are of the same type, else there will be a mismatched types error.
 
-You can also define `struct` or `enum` with multiple generic type parameters. The following example showcases how to do so.
+`struct` or `enum` can also be defined with multiple generic type parameters. The following example showcases how to do so.
 
 ```rust
 struct Coordinates<T, U> {
