@@ -53,7 +53,7 @@ Not Declared
 
 ## Codebyte Example
 
-Here is a codebyte example for the `defaultdict` data type:
+Run the following codeblock and explore more about the `defaultdict` data type:
 
 ```codebyte/python
 from collections import defaultdict
