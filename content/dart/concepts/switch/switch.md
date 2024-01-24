@@ -1,7 +1,7 @@
 ---
 Title: 'Switch Statements'
 Description: 'Assesses a value expression based on a sequence of cases.'
-Subjects: 
+Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
@@ -17,7 +17,7 @@ The **Switch statement** is a control flow structure that allows a program to ex
 
 ## Syntax
 
-```pseudo 
+```pseudo
 switch (expression) {
   case value1:
     // code block executed if the expression matches value1
