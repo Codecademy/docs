@@ -59,3 +59,21 @@ const fruits = new Map();
 fruits.set('Apples', 5)
       .set('Oranges', 8);
 ```
+
+## Example 
+
+Example demonstrating the usage of `.set()` method
+
+```js
+const myMap = new Map();
+
+myMap.set('key1', 'value1');
+myMap.set('key2', 'value2');
+myMap.set('key3', 'value3');
+
+console.log(myMap.get('key2'));
+```
+The output will be 
+
+Output: value2
+
