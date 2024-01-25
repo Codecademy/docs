@@ -46,7 +46,7 @@ String myString = 123;
 
 ## Numbers
 
-Numbers are used to hold numeric values. They can be classified as `int`,`num` and `double`.
+Numbers are used to hold numeric values. They can be classified as `int`, `num`, and `double`:
 
 ```
 int wholeNumber = 42;
@@ -76,7 +76,7 @@ print(stringNumber);     // Incompatible types
 
 ## Strings
 
-Strings``string`` are used to represent a sequence of characters, and they are embedded in either single'...' or double-quotes "...". 
+Strings `string ` are used to represent a sequence of characters, and they are embedded in either single "..." or double-quotes "...":
 
 ```
 String greeting = "Double quotes work!";
@@ -87,18 +87,10 @@ print(anotherString);  // Output: Single quotes work too!
 
 ```
 
-Below is an example with incorrect declarations of values to ``string`` data type variables.
-
-```
-String missingQuotes = Hello, Dart!; // Missing quotes around the string
-
-print(missingQuotes); // Outcome: Error, missing quotes
-
-```
 
 ## Booleans
 
-Booleans ``bool`` represents values true and false. 
+Booleans `bool` represents values true or false:
 
 ```
 bool isDartFun = true;
@@ -111,7 +103,7 @@ print(isPythonFun); // Output: false
 
 ## Symbols
 
-Symbol ``Symbol`` object represents an operator or identifier. Objects are particularly valuable for APIs that identify elements by name. This is crucial for APIs because while minification can alter identifier names, it does not impact the underlying identifier symbols.
+Symbol `Symbol` object represents an operator or identifier. Objects are particularly valuable for APIs that identify elements by name. This is crucial for APIs because while minification can alter identifier names, it does not impact the underlying identifier symbols:
 
 ```
 Symbol goodSymbol = Symbol('myIdentifier');
@@ -120,20 +112,10 @@ print(goodSymbol);  // Output: Symbol("myIdentifier")
 
 ```
 
-Below is an example of incorrect declarations of values to ``Symbol`` data type variables.
-
-```
-
-String identifierName = 'myIdentifier';
-Symbol badSymbol = Symbol(identifierName);
-
-print(badSymbol);  // Outcome: Error, minification can impact identifier symbols
-
-```
 
 ## Lists
 
-List ``List`` is used to represent a collection of ordered group of objects, working simillar to `arrays` in other programming languages.
+List `List` represents a collection of an ordered group of objects, working similar to `arrays` in other programming languages:
 
 ```
 
@@ -143,19 +125,10 @@ print(numbersList);  // Output: [1, 2, 3, 4, 5]
 
 ```
 
-Below is an example of incorrect declarations of values to ``List`` data type variables.
-
-```
-
-List<String> invalidList = [1, 2, 3];  // Incorrect: Mismatched types in the list
-
-print(invalidList);  // Outcome: Error, incompatible types in the list
-
-```
 
 ## Maps
 
-Map ``Map`` object consists in a key and value pair and they can be any data type.
+Map `Map` object consists of a key and value pair and they can be any data type:
 
 ```
 
@@ -170,23 +143,10 @@ print(studentScores['Bob']);    // Output: 87
 
 ```
 
-Below is of example with incorrect or not so recommended declarations of values to `Map` data type variable.
-
-```
-Map<int, String> invalidMap = {
-    'John': 'Doe'};  // Mismatched key-value types
-
-Map<dynamic, dynamic> dynamicMap = {
-    'name': 'Alice', 42: 'age'};  // Works, but not recommended for type safety 
-
-print(invalidMap['John']);  // Outcome: Error, incompatible key type
-print(dynamicMap[42]);  // Output: age (not recommended)
-
-```
 
 ## Nulls
 
-Nulls `Null`is a type that represents the absence of a value in a variable. This type can only have one possible value, which is null. Dart uses a sound null safety system, meaning that variables are non-nullable by default, and they have to be explicitly declared as nullable if they need to be able to hold a null value.
+Nulls `Null` is a type that represents the absence of a value in a variable. This type can only have one possible value, which is null. Dart uses a sound null safety system, meaning that variables are non-nullable by default, and they have to be explicitly declared as nullable if they need to be able to hold a null value:
 
 ```
 
@@ -200,7 +160,7 @@ print(nullableString);  // Output: null
 
 ## Runes
 
-Runes ``Runes`` expose the Unicode code points of a string. Unicode is a character encoding standard that aims to encompass all characters used by humans for writing.
+Runes `Runes` exposes the Unicode code points of a string. Unicode is a character encoding standard that aims to encompass all characters used by humans for writing:
 
 ```
 
@@ -213,18 +173,6 @@ for (var codePoint in greeting.runes) {
 
 ```
 
-Below is an example of incorrect declarations of values to `Runes` data type variable.
-
-```
-
-String invalidString = 'Invalid 😞'; // String with emoji
-
-// Attempting to iterate over Unicode code points without using Runes
-for (var character in invalidString.runes) {
-  print('Character: $character');
-}
-
-```
 
 ## What is Dynamic?
 
