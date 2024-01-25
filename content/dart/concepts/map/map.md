@@ -1,8 +1,8 @@
 ---
 Title: 'Map'
-Description: 'The Map object is a simple key/value pair. Keys and values in a map may be of any type. A Map is a dynamic collection. In other words, Maps can grow and shrink at runtime.'
+Description: 'The Map object is a simple key/value pair.'
 Subjects:
-  - 'Map term in Dart'
+  - 'Computer Science'
 Tags:
   - 'Map'
   - 'Dart'
@@ -13,26 +13,26 @@ CatalogContent:
 
 ## Syntax
 
-The syntax to declare a map is -
+The syntax to declare a `map` is -
 
-'''
+```pseudo
 var identifier = new Map()
-'''
+```
 
 ## Example
 
-Here is an example -
+Here is an example on how to use `map` in Dart:
 
-'''dart
+```dart
 void main() { 
    var details = {'Cat':'jeff','Color':'brown'}; 
    print(details); 
 }
-'''
+```
 
-...producing the following output -
+The above code gives the following output:
 
 
-'''
+```shell
 {Cat: jeff, Color: brown}
-'''
+```
