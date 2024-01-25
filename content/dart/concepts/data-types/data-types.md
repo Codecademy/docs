@@ -228,7 +228,7 @@ for (var character in invalidString.runes) {
 
 ## What is Dynamic?
 
-Dynamic typing is checked dynamically at runtime rather than statically at compile-time. It introduces flexibility but at the same time sacrifices some of the benefits of static typing
+Dynamic typing is checked dynamically at runtime rather than statically at compile-time. It introduces flexibility but at the same time sacrifices some of the benefits of static typing:
 
 ```
 
