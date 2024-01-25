@@ -118,6 +118,38 @@ for i in big_number_list:
   print(i)
 ```
 
+## Else Clause
+
+An `else` clause can also be followed by a `for` or `while` loop. It is typically used together with the `break` keyword.
+
+If preceded by a `for` loop, the `else` clause is executed after the last iteration, as long as the loop was not terminated by a `break` keyword.
+
+```py
+number_list = [2, 7, 9, 4, 3, 15, 8, 6]
+
+for n in number_list:
+  if n > 10:
+    print("Number greater than 10 found!")
+    break
+else:
+  print("Did not find a number greater than 10..") # This is not executed
+```
+
+If preceded by a `while` loop, the `else` clause is executed after the loop’s condition becomes false, as long as the loop was not terminated by a `break` keyword.
+
+```py
+hunger = 10
+
+while hunger > 0:
+  print("Time to eat!")
+  hunger = hunger - 1
+  if hunger == 2:
+    print("I'll stop, but I'm still a little hungry..")
+    break
+else:
+  print("Not hungry anymore!") # This is not executed
+```
+
 ## Video Walkthrough
 
 In this video, you will learn how to use the for and while loops in a Python script.
