@@ -1,6 +1,6 @@
 ---
 Title: 'Data Types'
-Description: 'In Dart, data types are stored in variables, just like in other languages like C, Python or Java.'
+Description: 'Data types categorize the various types of values that a program can store and manipulate.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
