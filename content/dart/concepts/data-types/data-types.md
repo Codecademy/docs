@@ -59,20 +59,6 @@ print(inheritedNumber);      // Output: 7
 
 ```
 
-Below is an example with incorrect declarations of values to ``int``, ``num``, and ``double`` data type variables.
-
-```
-int invalidInt = "42"; // Assigning a string to an int
-double missingType = 3; // Assigning an int to a double
-bool booleanNumber = 3.14; // Assigning a double to a bool
-String stringNumber = 123; // Assigning an int to a string
-
-print(invalidInt);       // Incompatible types
-print(missingType);      // Missing type annotation
-print(booleanNumber);    // Incompatible types
-print(stringNumber);     // Incompatible types
-
-```
 
 ## Strings
 
