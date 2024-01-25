@@ -238,7 +238,7 @@ print(flexibleVariable);  // Output: 42
 
 ```
 
-Below are some more examples.
+Below are some more examples:
 
 ```
 
