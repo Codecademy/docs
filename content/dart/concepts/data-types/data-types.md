@@ -9,7 +9,7 @@ Tags:
   - 'Dart'
   - 'Arithmetic'
 CatalogContent:
-  - 'learn-c'
+  - 'learn-dart'
   - 'paths/computer-science'
 ---
 
