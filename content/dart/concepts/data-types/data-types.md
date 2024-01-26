@@ -16,9 +16,7 @@ In Dart, **data types** are stored in variables, just like in other languages li
 
 ## What is Static Typing?
 
-Static typing refers to the property of the programming language where variables are bound to their types at compile-time. What does this mean? It means that the type of a variable is known and checked by the compiler before the code is executed, allowing for early detection of type-related errors.
-
-In the example below all variables (myInteger, myDouble, myBoolean, and myString) are declared with an explicit data type (int, double, bool, and String, respectively).
+Static typing refers to the property of the programming language where variables are bound to their types at compile-time. What does this mean? It means that the type of a variable is known and checked by the compiler before the code is executed, allowing for early detection of type-related errors. In the example below all variables (myInteger, myDouble, myBoolean, and myString) are declared with an explicit data type (int, double, bool, and String, respectively):
 
 ```dart
 int myInteger = 42;
@@ -27,7 +25,7 @@ bool myBoolean = true;
 String myString = "Hello, Codecademy!";
 ```
 
-Below are a couple of examples of incorrect declarations of values to variables.
+Below are a couple of examples of incorrect declarations of values to variables:
 
 ```dart
 // Non-integer value to an int variable
