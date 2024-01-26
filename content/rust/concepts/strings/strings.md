@@ -1,6 +1,6 @@
 ---
 Title: 'Strings'
-Description: "This entry covers creating, manipulating and referencing strings (encodings of UTF-8 sequences) in Rust."
+Description: 'This entry covers creating, manipulating and referencing strings (encodings of UTF-8 sequences) in Rust.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
@@ -8,6 +8,7 @@ CatalogContent:
   - 'learn-rust'
   - 'paths/computer-science'
 ---
+
 **`Strings`** in Rust diverge a little bit from conventional programming languages. The approach to string manipulation in Rust is influenced by its systems-focused design. This concept entry will provide insights into creating and manipulating strings in Rust, offering practical examples to illustrate key aspects.
 
 Tackling data structures of variable size, such as strings, can get a bit tricky, and Rust has its  spin on it. In Rust, a string is essentially a sequence of Unicode characters encoded in UTF-8. As an example - the string "Codecademy Rust concept," where each character is a valid Unicode entity – "C," "o," "d," "e," "c," and so on.
@@ -34,7 +35,7 @@ In Rust, there are two main types related to strings, each serving a specific pu
      let string_literal: &str = "Hello, Rust!";
      ```
 
-> **Note:** These string types cover various scenarios, from dynamic and mutable strings `String` to static and immutable string slices `&str`. The type of string should be chosen depending on specific requirements and characteristics of the data being manipulated.
+> **Note:** These string types cover various scenarios, from dynamic and mutable strings `String` to static and immutable string slices `&str`. The type of string should be chosen depending on the specific requirements and the characteristics of the data being manipulated.
 
 ## Creating Strings
 
@@ -70,7 +71,7 @@ In Rust, there are two main types related to strings, each serving a specific pu
      ```rust
      let hello = String::from("Hello, ");
      let world = String::from("World!");
-     let hello_world = hello + &world;  // here akes ownership of 'hello'
+     let hello_world = hello + &world;  // here takes ownership of 'hello'
      ```
 
    > **`+=` Operator:**
@@ -99,7 +100,7 @@ In Rust, there are two main types related to strings, each serving a specific pu
        ```
 
    > **Note:** When working with strings in Rust, it's crucial to be mindful of ownership and borrowing semantics, especially when using operators like `+`. The operator `+` is
-   used to create a new string while  and `+=` is used to modify an existing string in place. To concatenate strings with interpolation the `format!` macro provides a flexible
+   used to create a new string while  `+=` is used to modify an existing string in place. To concatenate strings with interpolation the `format!` macro provides a flexible
    and ownership-friendly way.
   
 2. **Slicing & Appending with `push_str` and `push`**:
@@ -111,7 +112,7 @@ In Rust, there are two main types related to strings, each serving a specific pu
      let part_of_message = &message[0..5];
      ```
 
-      In the example above, `push_str` is utilized to append a string slice to the existing string `message`, `push` is used to add the character `!` to the end of the concatenated string.
+      In the example above, `push_str` is utilized to append a string slice to the existing string `message`, and `push` is used to add the character `!` to the end of the concatenated string.
 
 ## Referencing Strings
 
