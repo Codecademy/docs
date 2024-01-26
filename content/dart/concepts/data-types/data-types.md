@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Dart, **data types** are stored in variables, just like in other languages like [C](https://www.codecademy.com/resources/docs/c/variables), [Python](https://www.codecademy.com/resources/docs/python/variables) or [Java](https://www.codecademy.com/resources/docs/java/variables). And since [Dart](https://www.codecademy.com/resources/docs/dart) is a type-safe language, to guarantee that a variable's value always matches the variable's static type, it combines runtime and static type checking. Meaning that trying to store a string in an integer variable would not work.
+In Dart, **data types** are stored in variables, just like in other languages like [`C`](https://www.codecademy.com/resources/docs/c/variables), [`Python`](https://www.codecademy.com/resources/docs/python/variables) or [`Java`](https://www.codecademy.com/resources/docs/java/variables), and since [`Dart`](https://www.codecademy.com/resources/docs/dart) is a type-safe language, to guarantee that a variable's value always matches the variable's static type, it combines runtime and static type checking. Meaning that trying to store a string in an integer variable would not work.
 
 ## What is Static Typing?
 
