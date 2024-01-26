@@ -41,7 +41,6 @@ bool myBoolean = "false";
 
 // Mismatch between declared type and assigned value
 String myString = 123;
-
 ```
 
 ## Numbers
@@ -56,13 +55,11 @@ num inheritedNumber = 7; // num can hold both int and double values
 print(wholeNumber);          // Output: 42
 print(floatingPointNumber);  // Output: 3.14
 print(inheritedNumber);      // Output: 7
-
 ```
-
 
 ## Strings
 
-Strings `string ` are used to represent a sequence of characters, and they are embedded in either single "..." or double-quotes "...":
+Strings `string` are used to represent a sequence of characters, and they are embedded in either single "..." or double-quotes "...":
 
 ```dart
 String greeting = "Double quotes work!";
@@ -70,9 +67,7 @@ String anotherString = 'Single quotes work too!';
 
 print(greeting);  // Output: Double quotes work!
 print(anotherString);  // Output: Single quotes work too!
-
 ```
-
 
 ## Booleans
 
@@ -84,7 +79,6 @@ bool isPythonFun = false;
 
 print(isDartFun); // Output: true
 print(isPythonFun); // Output: false
-
 ```
 
 ## Symbols
@@ -95,9 +89,7 @@ Symbol `Symbol` object represents an operator or identifier. Objects are particu
 Symbol goodSymbol = Symbol('myIdentifier');
 
 print(goodSymbol);  // Output: Symbol("myIdentifier")
-
 ```
-
 
 ## Lists
 
@@ -107,16 +99,13 @@ List `List` represents a collection of an ordered group of objects, working simi
 List<int> numbersList = [1, 2, 3, 4, 5];
 
 print(numbersList);  // Output: [1, 2, 3, 4, 5]
-
 ```
-
 
 ## Maps
 
 Map `Map` object consists of a key and value pair and they can be any data type:
 
 ```dart
-
 Map<String, int> studentScores = {
   'Alice': 95,
   'Bob': 87,
@@ -125,9 +114,7 @@ Map<String, int> studentScores = {
 
 print(studentScores['Alice']);  // Output: 95
 print(studentScores['Bob']);    // Output: 87
-
 ```
-
 
 ## Nulls
 
@@ -139,7 +126,6 @@ String? nullableString;  // Nullable string
 
 print(nullableInt);  // Output: null
 print(nullableString);  // Output: null
-
 ```
 
 ## Runes
@@ -147,16 +133,13 @@ print(nullableString);  // Output: null
 Runes `Runes` exposes the Unicode code points of a string. Unicode is a character encoding standard that aims to encompass all characters used by humans for writing:
 
 ```dart
-
 String greeting = 'Hello 👋'; // String with emoji
 
 // Using Runes to iterate over the Unicode code points
 for (var codePoint in greeting.runes) {
   print('Code Point: $codePoint, Character: ${String.fromCharCode(codePoint)}');
 }
-
 ```
-
 
 ## What is Dynamic?
 
@@ -166,13 +149,11 @@ Dynamic typing is checked dynamically at runtime rather than statically at compi
 dynamic flexibleVariable = 42;
 
 print(flexibleVariable);  // Output: 42
-
 ```
 
 Below are some more examples:
 
 ```dart
-
 int staticVariable = 42; // Non-dynamic, statically checked variable
 dynamic dynamicVariable = "Hello";
 
@@ -181,6 +162,4 @@ int resultStatic = staticVariable + 10; // Correct: Static type checking
 
 print(resultDynamic);  // Outcome: Error
 print(resultStatic);   // Output: 52
-
-
 ```
