@@ -3,6 +3,7 @@ Title: 'Map'
 Description: 'The Map object is a simple key/value pair.'
 Subjects:
   - 'Computer Science'
+  - 'Code Foundations'
 Tags:
   - 'Map'
   - 'Dart'
@@ -10,7 +11,8 @@ CatalogContent:
   - 'learn-dart'
   - 'paths/computer-science'
 ---
-The Map object is a key/value pair. The values and keys in a map may be of any type. A Map is a dynamic collection meaning it can grow and shrink at runtime.
+
+The Map object is a key/value pair. The values and keys in a map may be of any type. A Map is a dynamic collection that can grow and shrink at runtime.
 
 ## Syntax
 
@@ -22,7 +24,7 @@ var identifier = new Map()
 
 ## Example
 
-Here is an example on how to use `map` in Dart:
+Here is an example of how to use `map` in Dart:
 
 ```dart
 void main() { 
@@ -32,7 +34,6 @@ void main() {
 ```
 
 The above code gives the following output:
-
 
 ```shell
 {Cat: jeff, Color: brown}
