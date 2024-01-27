@@ -31,7 +31,7 @@ Text wrapped in a linked anchor tag becomes a hyperlink to another page:
 ```
 In the example, the text "Contribute to Docs" on the upper-right corner of this page is a hyperlink to another page.
 
-![Text Link](/Users/mutsumi/Desktop/CODE/add_media_branch/media/text-link.png)
+![Text Link](./main/media/text-link.png)
 
 ### Internal Links
 
