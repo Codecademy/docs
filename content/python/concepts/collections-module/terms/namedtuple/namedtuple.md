@@ -26,8 +26,7 @@ Field names can alternatively be a string of several elements separated by a com
 
 ## Additional Methods
 
-There are 3 specific `namedtuple` methods in addition to the standard methods inherited from tuples.
-All methods begin with an underscore to avoid conflicts with field names.
+There are 3 specific `namedtuple` methods in addition to the standard methods inherited from tuples. All methods begin with an underscore to avoid conflicts with field names.
 
 -`._make(iterable)`: (Class method) Creates a new instance based on an existing sequence or iterable.
 
