@@ -53,7 +53,7 @@ fn main() {
 
 ## LinkedList
 
-`LinkedList`, provide dynamic memory allocation and efficient insertions and removals at both ends of the list.The pop_front method removes an element from the front, while pop_back removes an element from the back if needed.LinkedList can be created in the following way:
+`LinkedList`, provides dynamic memory allocation and efficient insertions and removals at both ends of the list. The `pop_front` method removes an element from the front, while `pop_back` removes an element from the back if needed.LinkedList can be created in the following way:
 
 ```rust
 
