@@ -36,6 +36,29 @@ There are 3 specific `namedtuple` methods in addition to the standard methods in
 
 There are 2 specific attributes `._fields` and `_field_defaults` that will allow you respectively to list field names and to return a [`dict`](https://www.codecademy.com/resources/docs/python/dictionaries) with field names related to their default values.
 
+## Example
+
+This define a `namedtuple` codecademyStudent with two fields (username and courses) to create two student instances. Two sentences will then be displayed about each student and their attributes.
+
+```py
+from collections import namedtuple
+
+codecademyStudent = namedtuple('codecademyStudent', ['username', 'courses'])
+
+student1 = codecademyStudent(username='Foo', courses=['Python', 'Computer Science'])
+student2 = codecademyStudent(username='Bar', courses=['Javascript', 'Web Development'])
+
+print("Student 1:", "Username:", student1.username, "| Courses involvement:", student1.courses)
+print("Student 2:", "Username:", student2.username, "| Courses involvement:", student2.courses)
+```
+
+This example results in the following output:
+
+```shell
+Student 1: Username: Foo | Courses involvement: ['Python', 'Computer Science']
+Student 2: Username: Bar | Courses involvement: ['Javascript', 'Web Development']
+```
+
 ## Codebyte Example
 
 The following example creates a `namedtuple` instance from an iterable, then changes one of its assigned values, and returns a [`dict`](https://www.codecademy.com/resources/docs/python/dictionaries) with the default preset values.
