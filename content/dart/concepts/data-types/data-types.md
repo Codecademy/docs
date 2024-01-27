@@ -101,7 +101,7 @@ print(numbersList);  // Output: [1, 2, 3, 4, 5]
 
 ## Maps
 
-Map `Map` object consists of a key and value pair and they can be any data type:
+Map `Map` object consists of a key-value pair and it can be any data type:
 
 ```dart
 Map<String, int> studentScores = {
