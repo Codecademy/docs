@@ -57,7 +57,7 @@ print(inheritedNumber);      // Output: 7
 
 ## Strings
 
-Strings `string` are used to represent a sequence of characters, and they are embedded in either single "..." or double-quotes "...":
+Strings `string` are used to represent a sequence of characters, and they are embedded in either single ('...') or double-quotes ("..."):
 
 ```dart
 String greeting = "Double quotes work!";
