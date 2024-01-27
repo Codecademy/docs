@@ -27,7 +27,7 @@ let vec2 = vec![5, 2, 3]; // Creates a vector with initial values
 
 ## VecDeque
 
-`VecDeque` is a double-ended queue implemented as a growable, contiguous vector. It is part of the standard library and is defined in the `std::collections` module. A `VecDeque` allows efficient insertion and removal of elements at both ends of the `deque.VecDeque` can be created in the following way:
+`VecDeque` is a double-ended queue implemented as a growable, contiguous vector. It is part of the standard library and is defined in the `std::collections` module. A `VecDeque` allows efficient insertion and removal of elements at both ends of the `deque`.`VecDeque` can be created in the following way:
 
 ```rust
 
