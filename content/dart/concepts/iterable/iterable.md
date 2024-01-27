@@ -1,10 +1,10 @@
 ---
-Title: 'Iterable' 
+Title: 'Iterable'
 
-Description: '**Iterable** is an object which can be looped over or iterated over with the help of a for loop. Objects like lists, tuples, sets, dictionaries, strings, etc. are called iterables. In short and simpler terms, iterable is anything that you can loop over.' 
-Subjects: 
-  - Data Science 
-Tags: 
+Description: '**Iterable** is an object which can be looped over or iterated over with the help of a for loop. Objects like lists, tuples, sets, dictionaries, strings, etc. are called iterables. In short and simpler terms, iterable is anything that you can loop over.'
+Subjects:
+  - Data Science
+Tags:
   - 'Data'
   - 'Objects'
   - 'Loops'
@@ -21,8 +21,6 @@ Each time you access the iterator getter, the iterable object returns a new iter
 
 If an object is iterable, you can use the for-in statement to iterate over its elements.
 
-
-
 ## Syntax
 
 [Text, code, images, parameters, etc. about the syntax]
@@ -32,10 +30,10 @@ If an object is iterable, you can use the for-in statement to iterate over its e
 Since List and Set are iterable, you can use the for-in statement to iterate over their elements. For example:
 
 void main() {
-  Iterable<int> iterable = [1, 2, 3, 4, 5];
-  for (var n in iterable) {
-    print(n);
-  }
+Iterable<int> iterable = [1, 2, 3, 4, 5];
+for (var n in iterable) {
+print(n);
+}
 }
 Code language: Dart (dart)
 
@@ -44,17 +42,17 @@ In this example, we assign a list to an iterable and use the for-in loop to disp
 The first and last properties return the first and last elements respectively. For example:
 
 void main() {
-  Iterable<int> iterable = [1, 2, 3, 4, 5];
-  print(iterable.first);
-  print(iterable.last);
+Iterable<int> iterable = [1, 2, 3, 4, 5];
+print(iterable.first);
+print(iterable.last);
 }
 Code language: Dart (dart)
 
 Unlike a list, you cannot access an element via an iterable object using the square brackets []. Instead, you use the elementAt() method:
 
 void main() {
-  Iterable<int> iterable = [1, 2, 3, 4, 5];
-  print(iterable.elementAt(1));
+Iterable<int> iterable = [1, 2, 3, 4, 5];
+print(iterable.elementAt(1));
 }
 Code language: Dart (dart)
 
