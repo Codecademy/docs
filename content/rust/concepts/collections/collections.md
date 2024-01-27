@@ -15,8 +15,7 @@ In Rust, **collections** are fundamental data structures offered by the standard
 
 ## Vectore
 
-The `Vec<T>` in rust is a dynamic array that allow to store values of the same type in single data structure that puts all values in a contigous memory block.Its useful when you have a list of items such as text in a file or prices of items in a shopping cart.
-The vectore array can be created in two ways using a macro `vec![]` or `Vec::new()` constructor:
+The `Vec<T>` in Rust is a dynamic array that allows storing values of the same type in a single data structure that puts all values in a contiguous memory block. It's useful when you have a list of items such as text in a file or prices of items in a shopping cart. The vector array can be created in two ways using a macro `vec![]` or `Vec::new()` constructor:
 
 ```rust
 
