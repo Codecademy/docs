@@ -1,0 +1,127 @@
+---
+Title: 'Classes'
+Description: 'A class is a blueprint for creating objects'
+Subjects:
+  - 'Computer Science'
+Tags:
+  - 'Classes'
+  - 'Constructors'
+  - 'Data Types'
+  - 'Inheritance'
+  = 'Methods'
+  - 'Objects'
+  - 'OOP'
+CatalogContent:
+  - 'learn/intro-to-flutter'
+  - 'paths/computer-science'
+--- 
+
+In Dart, **classes** are blueprints for creating objects. Classes are an integral part of [object-oriented programming](https://www.codecademy.com/resources/docs/general/programming-paradigms/object-oriented-programming) (OOP). They define the methods, properties, and behavior of objects. A Phone class for example, may have properties like color and brand as well as methods like call or text. 
+
+## Syntax
+
+```java
+class ClassName {
+  // class body
+  // properties
+  // methods
+}
+```
+
+ - The `class` keyword is used to create a class.
+ - The class body encompasses the properties and methods of a class.
+ - The name of the class "`ClassName`" comes after the keyword followed by braces. >**Note:** Class names must start with a capital letter.
+
+## Class Instances
+
+In Dart, an object is an instance of class. An object is comprised of methods and properties. Objects are instantiated in the main method and can only be created after creating a class. 
+
+A new object can be created by using the following syntax below:
+
+## Syntax
+
+```java
+ClassName objectName = ClassName();
+```
+
+## Example
+
+```java
+  class House {
+// properties
+  String? color;
+  int? numberOfRooms;
+  
+
+// method
+  void houseInfo() {
+     print("House color: $color.");
+    print("Number of rooms: $numberOfRooms.");
+  }
+}
+
+  void main() {
+        // object 
+        House house = House();
+        house.color = "White";
+        house.numberOfRooms = 5;
+        house.houseInfo();
+```
+
+ - the `House` class has two properties `color` and `numberOfRooms`.
+ - the class also has a method called `houseInfo` which will print out the values of the two properties.
+ - the `house` object in the main method is an instance of the `House` class.
+ 
+
+## Abstract Classes
+
+In Dart, a class can be declared an abstract class by using the `abstract` keyword. If a class is declared abstract, new objects cannot be instantiated from that class. An abstract class' purpose is to allow other classes to inherit from it.
+
+In the syntax below, the `abstract` keyword is declared before the class keyword and class name.  
+
+## Syntax
+
+```java
+abstract class ClassName {
+  //Body of abstract class
+  ...
+}
+```
+## Abstract Methods
+In Dart, an abstract method is defined as a method that is declared without implementation. Instead of a method body, an abstract method is declared using a semicolon (;).
+A non-abstract subclass that inherits from an abstract class must implement and overide all of its abstract methods.
+
+## Example
+
+```java
+abstract class Pet {
+  // Abstract method
+  void feed();
+}
+
+class Dog extends Pet {
+  @override
+  void feed() {
+    print('Feeding dog...');
+  }
+}
+
+class Cat extends Pet {
+  @override
+  void feed() {
+    print('Feeding cat...');
+  }
+}
+
+void main() {
+ 
+  Dog dog = Dog();
+  dog.feed();
+
+  Cat cat = Cat();
+  cat.feed();
+}
+```
+
+ - In the example, the abstract class `Pet` has an abstract method called `feed()`. 
+ - The non-abstract subclasses `Dog` and `Cat` inherit the abstract method and overrides it to print a message.
