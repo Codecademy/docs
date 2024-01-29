@@ -1,21 +1,19 @@
 ---
-Title: 'operators.md #4242'
+Title: 'Operators'
 
 Description: 'Operators in Dart are special symbols or phrases used to perform operations on variables and values.'
 
 Subjects: 'These operators are categorized into several types based on their functionality'
-- 'arithmetic'
-- 'equality and relational'
-- 'type test'
-- 'logical' 
-- 'bitwise'
-- 'assignment operators'
+- 'Code Foundations'
+- 'Developer Tools'
+- 'Web Developement'
 
 Tags: 
-- 'DartLang'
-- 'DartOperators'
+- 'Dart'
+- 'Syntax'
+- 'Operators'
 - 'Programming'
-- 'Coding"
+- 'Data Structure'
 
 CatalogContent: 
 - 'Arithmetic Operators'
@@ -24,12 +22,14 @@ CatalogContent:
 - 'Logical Operators'
 - 'Bitwise Operators'
 - 'Assigment Operators'
+- 'learn-dart'
+- 'paths/computer-science'
 
 ---
 
-# Operators in Dart
-
-## Overview
+- # Operators in Dart
+-
+- ## Overview
 
 Operators in Dart are special symbols or phrases used to perform operations on variables and values. Dart, like many other programming languages, includes a variety of operators to manipulate data in different ways. These operators are categorized into several types based on their functionality: arithmetic, equality and relational, type test, logical, bitwise, and assignment operators.
 
@@ -42,49 +42,40 @@ operand1 operator operand2
 
 ## Types of Operators
 
-### Arithmetic Operators
-- `+` (Addition)
-- `-` (Subtraction)
-- `*` (Multiplication)
-- `/` (Division)
-- `%` (Modulus)
-- `~/` (Truncating Division)
+| Category                             | Operator | Description                                |
+|--------------------------------------|----------|--------------------------------------------|
+| **Arithmetic Operators**             | `+`      | Addition                                   |
+|                                      | `-`      | Subtraction                                |
+|                                      | `*`      | Multiplication                             |
+|                                      | `/`      | Division                                   |
+|                                      | `%`      | Modulus                                    |
+|                                      | `~/`     | Truncating Division                        |
+| **Equality and Relational Operators**| `==`     | Equal                                      |
+|                                      | `!=`     | Not Equal                                  |
+|                                      | `>`      | Greater Than                               |
+|                                      | `<`      | Less Than                                  |
+|                                      | `>=`     | Greater Than or Equal To                   |
+|                                      | `<=`     | Less Than or Equal To                      |
+| **Type Test Operators**              | `is`     | True if the object has the specified type  |
+|                                      | `is!`    | True if the object does not have the specified type |
+| **Logical Operators**                | `&&`     | Logical AND                                |
+|                                      | `||`     | Logical OR                                 |
+|                                      | `!`      | Logical NOT                                |
+| **Bitwise Operators**                | `&`      | Bitwise AND                                |
+|                                      | `|`      | Bitwise OR                                 |
+|                                      | `^`      | Bitwise XOR                                |
+|                                      | `~`      | Bitwise NOT                                |
+|                                      | `<<`     | Left shift                                 |
+|                                      | `>>`     | Right shift                                |
+| **Assignment Operators**             | `=`      | Simple Assignment                          |
+|                                      | `+=`     | Add and Assign                             |
+|                                      | `-=`     | Subtract and Assign                        |
+|                                      | `*=`     | Multiply and Assign                        |
+|                                      | `/=`     | Divide and Assign                          |
+|                                      | `%=`     | Modulus and Assign                         |
+|                                      | `~/=`    | Truncating Divide and Assign               |
 
-### Equality and Relational Operators
-- `==` (Equal)
-- `!=` (Not Equal)
-- `>` (Greater Than)
-- `<` (Less Than)
-- `>=` (Greater Than or Equal To)
-- `<=` (Less Than or Equal To)
-
-### Type Test Operators
-- `is` (True if the object has the specified type)
-- `is!` (True if the object does not have the specified type)
-
-### Logical Operators
-- `&&` (Logical AND)
-- `||` (Logical OR)
-- `!` (Logical NOT)
-
-### Bitwise Operators
-- `&` (Bitwise AND)
-- `|` (Bitwise OR)
-- `^` (Bitwise XOR)
-- `~` (Bitwise NOT)
-- `<<` (Left shift)
-- `>>` (Right shift)
-
-### Assignment Operators
-- `=` (Simple Assignment)
-- `+=` (Add and Assign)
-- `-=` (Subtract and Assign)
-- `*=` (Multiply and Assign)
-- `/=` (Divide and Assign)
-- `%=` (Modulus and Assign)
-- `~/=` (Truncating Divide and Assign)
-
-## Example: Using Dart Operators
+## Example:
 
 Here is a simple Dart program that demonstrates the use of various operators:
 
@@ -126,3 +117,4 @@ void main() {
   e += 2;   // e = e + 2
   print('e: $e');  // Output: 7
 }
+ ```shell
