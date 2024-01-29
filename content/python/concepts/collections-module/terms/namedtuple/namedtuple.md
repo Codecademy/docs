@@ -37,7 +37,7 @@ There are 2 specific attributes `._fields` and `_field_defaults` that will allow
 
 ## Example
 
-This define a `namedtuple` codecademyStudent with two fields (username and courses) to create two student instances. Two sentences will then be displayed about each student and their attributes.
+In the following example, a `namedtuple` `codecademyStudent` with two fields (`username` and `courses`) to create two student instances. Two sentences will then be displayed about each student and their attributes.
 
 ```py
 from collections import namedtuple
