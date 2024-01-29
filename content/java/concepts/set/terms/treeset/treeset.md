@@ -1,6 +1,6 @@
 ---
-Title: 'Java-TreeSet'
-Description: 'TreeSet is one of the implementations of the SortedSet interface in Java. This type of set uses a Tree for storage. The ordering of the elements is maintained by a set using their natural ordering whether or not an explicit comparator is provided. ex. Set set = new TreeSet<>()'
+Title: 'TreeSet'
+Description: 'Refers to a collection that stores objects in a tree structure.'
 Subjects:
   - 'Computer science'
 Tags:
