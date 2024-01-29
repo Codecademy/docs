@@ -31,28 +31,42 @@ where `<value>` can be one of the following:
 
 ## Example 1
 
-Set the position of `.box` element `40px` off the right edge of the nearest relative position ancestor or from the document if none exist.
-
-```css
-.box {
-  height: 100px;
-  width: 100px;
-  background-color: blue;
-  position: absolute;
-  top: 40px;
-}
-```
-
-## Example 2
-
 Set the position of `.box` element `40px` from the elements right edge.
 
 ```css
 .box {
-  height: 100px;
-  width: 100px;
-  background-color: blue;
-  position: relative;
-  top: 40px;
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  right: 40px;
 }
 ```
+![Shows use CSS right(40px) attribute with element position set to absolute](https://github.com/Codecademy/docs/assets/156298118/ee234bd0-1e98-430f-82a9-8aef78874275)
+
+## Example 2
+
+Set the position of `.box` element `100px` from the elements right edge.
+
+```css
+.box {
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  right: 100px;
+}
+```
+![Shows use CSS right(100px) attribute with element position set to absolute](https://github.com/Codecademy/docs/assets/156298118/3ef150d5-d602-4fee-a3ac-76aa8e27cc07)
+
+## Example 3
+
+Set the position of `.box` element `100px` from the elements right edge and set the position from static to relative.
+
+```css
+.box {
+  height: 500px;
+  width: 500px;
+  position: relative;
+  right: 100px;
+}
+```
+![Shows use CSS right(100px) attribute with element position set to absolute](https://github.com/Codecademy/docs/assets/156298118/a64a875d-9cdd-47e9-b7d1-055d25b3b4d8) ![Shows use CSS right(100px) attribute with element position set to relative](https://github.com/Codecademy/docs/assets/156298118/4cb1e6ff-dbfc-453e-b8e1-a90cc2c6ba78)
