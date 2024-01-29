@@ -43,7 +43,7 @@ Make sure you have your html file setup using this script before running.
 ## Output
 
 Block when mouse pointer is not hovering:
-![No tooltip if image is not hovered](https://raw.githubusercontent.com/Codecademy/docs/main/media/d3-non-over.png)
+![No tooltip if image is not hovered](https://raw.githubusercontent.com/Codecademy/docs/main/media/d3-non-hover.png)
 
 Tooltip appears when hovered over:
 ![Tooltip appears on hover](https://raw.githubusercontent.com/Codecademy/docs/main/media/d3-tooltip-hover.png)
