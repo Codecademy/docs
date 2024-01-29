@@ -20,8 +20,7 @@ Set <String> treeset = new TreeSet<>();
 
 ## Example
 
-Tree set may be helpful for a string set beacause if someone add some String twice, program will show it only once.
-The following example demonstrates using `TreeSet<>()` with Strings:
+In the following example, TreeSet is used to store string objects. It can be observed that the TreeSet iterates through the objects in an ascending order. It also doesn't allow duplicate objects.
 
 ```java
 // Example.java
