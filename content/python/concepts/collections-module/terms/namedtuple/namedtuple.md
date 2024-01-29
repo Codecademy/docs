@@ -20,8 +20,6 @@ A **namedtuple** is a data type in the `collections` module. It is a [`tuple`](h
 namedtuple(typename, field_names)
 ```
 
-The following values can be applied to the field_names argument :
-
 - `typename`:  The name of the new tuple subclass.
 - `field_names`: It represents the names of the fields in the named tuple.
 
