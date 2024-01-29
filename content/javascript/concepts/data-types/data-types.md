@@ -32,27 +32,6 @@ JavaScript uses seven primitive data types that are listed in the table below:
 
 > **Note:** The `null` type cannot be tested with `typeof` like all the other primitive types because it will return `"object"`. This must be tested with the type equality operator (i.e., `=== null`).
 
-## Number and BigInt
-
-```js
-let num = 7;
-let bigNum = 9999999999999999n;
-```
-
-`BigInt` is necessary for large whole numbers because they are unreliable with the `Number` type:
-
-```js
-console.log(9999999999999999);
-console.log(9999999999999999n);
-```
-
-This will output the following:
-
-```shell
-10000000000000000
-9999999999999999n
-```
-
 ## Number  
 
 In JavaScript, numbers are always stored as double-precision floating point numbers. In this format, each number uses 64 bits to represent 3 parts, 
@@ -64,7 +43,6 @@ In JavaScript, numbers are always stored as double-precision floating point numb
 let x = 7;
 let y = 123e5;
 ```
-
 The integer precision for the `Number` type is `15 digits`.
 ```codebyte/javascript
 let x = 999999999999999;
@@ -72,7 +50,6 @@ let y = 9999999999999999;
 console.log(x);
 console.log(y);
 ```
-
 The above lines give the following output,
 ```shell
 999999999999999
@@ -88,7 +65,6 @@ Number(null); // 0
 Number(undefined); // NaN
 Number("Harry"); // NaN 
 ```
-
 Numbers are primitives, but they can be defined as objects using the keyword `new`.
 ```codebyte/javascript
 let x = 123;
@@ -97,7 +73,6 @@ let y = new Number(123);
 console.log(typeof x); // "number"
 console.log(typeof y); // "object"
 ```
-
 ## BigInt  
 
 Any integer greater than 2<sup>53</sup>-1 and less than -(2<sup>53</sup>-1) cannot be represented by the `Number` type. Instead, they are represented by another datatype `BigInt`.      
@@ -113,19 +88,9 @@ The Javascript `typeof` for `BigInt` is "bigint".
 let x = BigInt(1234567890123456789012345);
 console.log(typeof x);
 ```
-
 The above code snippet gives the following output:
 ```shell
 bigint
-```
-
-## String
-
-Strings in JavaScript can be defined with either `' '` or `" "`.
-
-```js
-let greeting = 'Hi buddy';
-let message = 'You are doing great! Keep studying!';
 ```
 
 ## String
@@ -155,14 +120,12 @@ merely players`;
 
 console.log(text);
 ```
-
 The output for the above snippet,
 ```shell
 All the world's a stage
 and all the men and women
 merely players
 ```
-
 #### String Interpolation
 In order to combine outputs from expressions with strings, the addition operator `+` is used to concatenate them. 
 ```codebyte/javascript
@@ -171,7 +134,6 @@ let age_max = 50;
 console.log("Candidates of age between " + age_min + " and " + age_max + " can appear for the test.");
 // Candidates of age between 20 and 50 can appear for the test. 
 ```
-
 This is very tedious, especially when there are multiple expressions. Using template literals, the concatenation operator 
 can be avoided, and placeholders of the form `${expression}` are used for the expressions, which makes the code more readable.
 
@@ -215,16 +177,6 @@ let name2 = new String("Jhon");
 console.log(typeof name); // "string"
 console.log(typeof name2); // "object"
 ```
-
-## Boolean
-
-Boolean is for truthy or falsy values:
-
-```js
-let lateToWork = true;
-let isTheEarthFlat = false;
-```
-
 ## Boolean
 
 Boolean represents a truth value, either `true` or `false`.
@@ -245,7 +197,6 @@ let x = new Boolean(false); // x--> Boolean object
 if(x) console.log(true); // this statement is executed
 else console.log(false);
 ```
-
 But, this does not apply to boolean primitives.
 
 ```codebyte/javascript
@@ -254,14 +205,12 @@ let x = false; // x--> primitive
 if(x) console.log(true);
 else console.log(false); // this statement is executed
 ```
-
 To convert a non-boolean value into a boolean, the `Boolean` function or double not `!!` is used.
 
 ```codebyte/javascript
 let value = Boolean('Harry'); // returns true
 let value2 = !!'Harry'; // returns true
 ```
-
 Those values which are returned as false are `falsy`, whereas other values are `truthy`.
 
 Truthy values can be loosely equal to `false` and vice-versa.
@@ -269,18 +218,6 @@ Truthy values can be loosely equal to `false` and vice-versa.
 ```codebyte/javascript
 if([]) console.log("[] is truthy"); // statement is executed
 if([] == false) console.log("[] == false"); // this is also executed
-```
-
-## Null and Undefined
-
-Null and Undefined are both for the absence of a value, but they have different meanings.
-
-```js
-// Undefined means there should be some values, but it is undefined now
-let finishCourseTime = undefined;
-
-// Null means there is no value here
-let finishStudyingDate = null;
 ```
 
 ## Null and Undefined
@@ -321,18 +258,6 @@ console.log(help()); // Output: null
 
 let obj = { property: null }; // property set to null
 console.log(obj.property); // Output: null
-```
-
-## Object
-
-Objects can have fields with different values and types inside:
-
-```js
-const user = {
-  name: 'Jane',
-  age: 20,
-  isActive: true,
-};
 ```
 
 ## Objects
