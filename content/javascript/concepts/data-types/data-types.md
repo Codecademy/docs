@@ -36,7 +36,8 @@ JavaScript uses seven primitive data types that are listed in the table below:
 
 > **Note:** The `null` type cannot be tested with `typeof` like all the other primitive types because it will return `"object"`. This must be tested with the type equality operator (i.e., `=== null`).
 
-## Number and BigInt
+## Number and BigInt  
+In JavaScript, numbers are always stored as double-precision floating point numbers.
 
 ```js
 let num = 7;
@@ -55,8 +56,17 @@ This will output the following:
 ```shell
 10000000000000000
 9999999999999999n
-```
+```  
 
+The integer precision for the `Number` type is `15 digits`. You can see for yourself. 
+
+```codebyte/javascript
+let x = 999999999999999;
+let y = 9999999999999999;
+console.log(x);
+console.log(y);
+```
+  
 ## String
 
 Strings in JavaScript can be defined with either `' '` or `" "`.
@@ -66,6 +76,13 @@ let greeting = 'Hi buddy';
 let message = 'You are doing great! Keep studying!';
 ```
 
+To find the length of the string, the built-in `length` property is used.
+
+```codebyte/javascript
+let text = "abracadabra";
+console.log(text.length);
+```
+
 ## Boolean
 
 Boolean is for truthy or falsy values:
@@ -73,6 +90,13 @@ Boolean is for truthy or falsy values:
 ```js
 let lateToWork = true;
 let isTheEarthFlat = false;
+```
+
+To convert a non-boolean value into a boolean, the `Boolean` function or double not `!!` is used.
+
+```codebyte/javascript
+let value = Boolean('Harry'); 
+console.log(value); // returns true
 ```
 
 ## Null and Undefined
@@ -87,6 +111,24 @@ let finishCourseTime = undefined;
 let finishStudyingDate = null;
 ```
 
+A function also outputs `undefined` when no value is returned. 
+
+```codebyte/javascript
+function help() {
+  // no return statement
+}
+console.log(help()); 
+```
+
+The same function outputs `null` when null is returned. 
+
+```codebyte/javascript
+function help() {
+  return null;
+}
+console.log(help()); 
+```
+
 ## Object
 
 Objects can have fields with different values and types inside:
@@ -97,4 +139,16 @@ const user = {
   age: 20,
   isActive: true,
 };
+```
+
+Alternately, an empty `object` can be initialised and then the properties added to the object.
+
+```codebyte/javascript
+const person = {};
+person.firstName = "John";
+person.lastName = "Doe";
+person.age = 50;
+person.eyeColor = "blue";
+
+console.log(person);
 ```
