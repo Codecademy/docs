@@ -1,1 +1,1 @@
-content/cybersecurity/concepts/social-engineering/social-engineering.md
+content/c-sharp/concepts/inheritance/inheritance.md
