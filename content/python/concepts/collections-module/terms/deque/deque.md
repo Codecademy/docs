@@ -67,7 +67,7 @@ Output:
 deque(['wood', 'metal', 'plastic'])
 ```
 
-**Instantiate using a list and a maximum length and print the `deque`.  This will also print the `maxlen` value.**
+**Instantiate using a list and a maximum length, and print the `deque` and its `maxlen` value.**
 
 ```python
 friends = ['Dave', 'Mary', 'Luis', 'Zachary']
