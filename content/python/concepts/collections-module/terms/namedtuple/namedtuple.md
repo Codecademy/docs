@@ -22,9 +22,8 @@ namedtuple(typename, field_names)
 
 The following values can be applied to the field_names argument :
 
-- `['a', 'b', 'c']`: A list of strings
-- `'a, b, c'`: A string with elements separated by a comma
-- `'a b c'`: A string with elements separated by a space
+- `typename`:  The name of the new tuple subclass.
+- `field_names`: It represents the names of the fields in the named tuple.
 
 ## Additional Methods
 
