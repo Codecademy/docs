@@ -1,12 +1,12 @@
 ---
-Title: 'Java-TreeSet' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'TreeSet is one of the implementations of the SortedSet interface in Java. This type of set uses a Tree for storage. The ordering of the elements is maintained by a set using their natural ordering whether or not an explicit comparator is provided. ex. Set set = new TreeSet<>()' # Required; ideally under 150 characters and starts with a present-tense verb (used in search engine results and content previews)
-Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
+Title: 'Java-TreeSet'
+Description: 'TreeSet is one of the implementations of the SortedSet interface in Java. This type of set uses a Tree for storage. The ordering of the elements is maintained by a set using their natural ordering whether or not an explicit comparator is provided. ex. Set set = new TreeSet<>()'
+Subjects:
   - 'Computer science'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
+Tags:
   - 'Sets'
   - 'Strings'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+CatalogContent:
   - 'learn-java'
 ---
 
