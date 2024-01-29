@@ -20,9 +20,11 @@ A **namedtuple** is a data type in the `collections` module. It is a [`tuple`](h
 namedtuple(typename, field_names)
 ```
 
-The field names are made by a list of strings such as ['a', 'b', 'c'].
+The following values can be applied to the field_names argument :
 
-Field names can alternatively be a string of several elements separated by a comma or a space.
+- `['a', 'b', 'c']`: A list of strings
+- `'a, b, c'`: A string with elements separated by a comma
+- `'a b c'`: A string with elements separated by a space
 
 ## Additional Methods
 
