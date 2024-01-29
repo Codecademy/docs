@@ -10,7 +10,7 @@ CatalogContent:
   - 'learn-java'
 ---
 
-**Tree set** is a sorted collection. It stores unique elements and sorts them in ascending order. 
+**Tree set** is a sorted collection that stores objects in a tree structure. It stores unique elements and sorts them in ascending order. 
 
 ## Syntax
 
