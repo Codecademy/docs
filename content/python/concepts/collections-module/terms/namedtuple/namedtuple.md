@@ -51,7 +51,7 @@ print("Student 1:", "Username:", student1.username, "| Courses involvement:", st
 print("Student 2:", "Username:", student2.username, "| Courses involvement:", student2.courses)
 ```
 
-This example results in the following output:
+The above example results in the following output:
 
 ```shell
 Student 1: Username: Foo | Courses involvement: ['Python', 'Computer Science']
