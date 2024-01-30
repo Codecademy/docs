@@ -9,7 +9,7 @@ Tags:
 - 'Syntax'
 - 'Operators'
 - 'Programming'
-- 'Data Structure'
+- 'Dart Operators'
 CatalogContent: 
 - 'learn-dart'
 - 'paths/computer-science'
