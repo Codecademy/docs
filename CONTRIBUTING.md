@@ -4,7 +4,7 @@
 
 Welcome to the [Docs](https://www.codecademy.com/resources/docs) GitHub repo!
 
-We are an inclusive and passionate team of technologists and life-long learners around the world building free programming resources for a better tomorrow. For newcomers, contributing to an open-source project for the first time can be intimidating and overwhelming. Perhaps you’re a code newbie or maybe you’ve been tinkering for years but haven’t found that special project yet.
+We are an inclusive and passionate team of technologists and life-long learners around the world, building free programming resources for a better tomorrow. For newcomers, contributing to an open-source project for the first time can be intimidating and overwhelming. Perhaps you’re a code newbie, or maybe you’ve been tinkering for years but haven’t found that special project yet.
 
 Good news, you are in the right place! Docs is the perfect open-contribution project for you to get started. Every part of [Docs](https://www.codecademy.com/resources/docs) content (entries, documentation, and translations) is written by amazing creative folks like yourself.
 
@@ -59,14 +59,14 @@ There are a few tools you'll need to install in order to run our test suites loc
 - [node 16.0.0 (or newer)](https://nodejs.org/en/download/): the tests will likely run on earlier versions of node, but if you'd like your changes to be formatted automatically when you commit then you will need to be on node 16 or greater
 - [nvm](https://github.com/nvm-sh/nvm#installing-and-updating): while not required, we recommend using nvm to manage multiple versions of node on the same machine
 
-With everything installed, in the repository root (whatever directory contains the `package.json` file) you can run
+With everything installed, in the repository root (whatever directory contains the `package.json` file), you can run:
 
 > **Note**: If you use `npm` instead of `yarn`, it is fine to do so with the commands described below.
 
 - `yarn format:verify` and `yarn lint:md` to validate markdown file contents
 - `yarn test` to validate `content/` directory structure
 
-## I submitted a PR but tests are failing, how do I fix them?
+## I submitted a PR, but tests are failing. How do I fix them?
 
 Here are some common issues and resolutions:
 
@@ -143,7 +143,7 @@ We will not accept entries that were exclusively generated through an AI tool. W
 
 ## How do we update a PR branch?
 
-To keep your PR branch up to date navigate to the branch on your fork. Then press `Fetch upstream` and `Fetch and merge`.
+To keep your PR branch up to date, navigate to the branch on your fork. Then press `Fetch upstream` and `Fetch and merge`.
 
 ![Image of where the `Fetch upstream` button](https://raw.githubusercontent.com/Codecademy/docs/main/media/branch-up-to-date-1.png)
 

@@ -73,12 +73,14 @@ Conceptual
 Const
 Constructors
 Continue
+Counting Sort
 Control Flow
 CRUD
 CSS
 CSV
 Cybersecurity
 D3
+Dart
 Data
 Data Structures
 Data Types
@@ -175,12 +177,15 @@ Integers
 Interface
 iOS
 Iterators
+Java
 Join
 jQuery
 JRuby
 JSON
 JSK
+Justice
 K-Nearest Neighbors
+Knowledge Graphs
 Kotlin
 Kubernetes
 Laravel
@@ -223,7 +228,9 @@ Numbers
 NumPy
 Objects
 Obsolete
+Ontologies
 OOP
+Opacity
 Open Source
 Operating Systems
 Operators
@@ -282,6 +289,7 @@ Sets
 Slices
 Socket.IO
 Sort
+Sorting Algorithms
 Span
 Specificity
 Spread
@@ -309,6 +317,7 @@ Technical Interviews
 Templates
 TensorFlow
 Text-To-Image
+Threads
 Tidyr
 Time
 Title

@@ -1,1 +1,1 @@
-content/uiux/concepts/surveys/surveys.md
+content/c-sharp/concepts/inheritance/inheritance.md

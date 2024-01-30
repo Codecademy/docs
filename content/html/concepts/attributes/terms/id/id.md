@@ -45,6 +45,8 @@ In the example below, the `<p>` (paragraph) element is given a unique identifier
 </p>
 ```
 
+![Use of unique id attribute with inline CSS](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-attribute-id-example-img1.png)
+
 ## Navigation Using Bookmarks
 
 Bookmarks allow users to navigate on a webpage using links leading to another location on a page (i.e., to another element) with a specific `id`.
@@ -71,6 +73,8 @@ A link can also target a location on another page:
 
 Clicking on the link in the examples above will direct the browser screen to the location where `id` is `"my-city"` (either on the same page or on another page).
 
+![Use of a unique id attribute for navigation on the same and other pages in the website](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-attribute-id-example2-gif.gif)
+
 ## Styling With `id`
 
 Similarly to the `class` attribute, `id` is typically used to assign styles to the element it identifies. However, only one specific element can be targeted with `id` (compared to the `class` attribute which can be used to target multiple elements at once).
@@ -87,6 +91,8 @@ Styling via `id` in a stylesheet:
 
 The HTML element with `id` is selected in CSS for styling using `#` followed by the `id` value. This applies to internal or external ruleset styling methods. The example above applies a color to the designated element, for an overview of all styling methods, please see [CSS Anatomy](https://www.codecademy.com/resources/docs/css/anatomy).
 
+![CSS styling using id selector](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-attribute-id-exampl3.png)
+
 ## Using `id` With JavaScript
 
 The `id` attribute is also used to manipulate the element through DOM (Document Object Model) with [JavaScript](https://www.codecademy.com/resources/docs/javascript).
@@ -102,3 +108,5 @@ function changeColor(newColor) {
 ```
 
 In the example above, the element is selected using the `getElementById()` method. The color of that element is then changed by assigning a new value, that is passed in as an argument of the function, to the `style.color` property.
+
+![Use of id attributes to style HTML elements in JavaScript](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-attribute-id-example4.png)

@@ -13,15 +13,15 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Places one or more images in the background of the element.
+Specifies the placement of one or more images in the background of an element.
 
 ## Syntax
 
 ```css
-background-image: <image> | none;
+background-image: value | none;
 ```
 
-Where `<image>` can be one of the following:
+Where `value` can be one of the following:
 
 - URL function value:
   - `('cat.gif')`
@@ -32,43 +32,57 @@ Where `<image>` can be one of the following:
   - `radial-gradient(circle at top, #40BFA5, #BB40BF)`
   - `repeating-radial-gradient(#1D4D19, #191A4D 10px)`
 
-Multiple background images are supported. The first value specified will be stacked on top.
+Multiple background images are supported. The first `value` specified will be stacked on top.
 
 ```css
-background-image: <image>, <image>;
+background-image: value, value;
 ```
 
-**Note:** The `background-color` property should always be set in case the image is unavailable.
+> **Note:** The `background-color` property should always be set, which acts as a fallback color when the set `background-image` is unavailable.
 
 ## Example 1
 
-Set background image on the `.hero` class element as a linear gradient starting with `yellow` at the top and `purple` at the bottom:
+Set a linear gradient background on the `.hero` class element, transitioning from yellow at the top to purple at the bottom:
 
 ```css
 .hero {
+  width: 400px;
+  height: 300px;
   background-image: linear-gradient(yellow, purple);
 }
 ```
 
+![Linear Gradient background from yellow to purple](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-image-example-1.png)
+
 ## Example 2
 
-Set two background images with a fallback background color of `blue`. The `fish.png` should be sitting on top of the `ocean.png`:
+Set two background images on the `.hero` class element with a fallback background color of blue. The `fish.png` image will be positioned on top of the `ocean.png` image:
 
 ```css
 .hero {
+  width: 400px;
+  height: 300px;
   background-color: blue;
   background-image: url('fish.png'), url('ocean.png');
+  background-size: cover;
 }
 ```
+
+![Background image with fish image over ocean image](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-image-example-2.png)
 
 ## Example 3
 
-Repeat `squirrel.gif` on top of `trees.png`:
+Set two background images on the `.hero` class element with a fallback background color of `green`. It repeats `squirrel.gif` on top of `tree.png` sizing down `squirrel.gif` to `20%` and `tree.png` to `cover`:
 
 ```css
 .hero {
+  width: 400px;
+  height: 300px;
   background-color: green;
-  background-image: url('squirrel.gif'), url('trees.png');
+  background-image: url('squirrel.gif'), url('tree.png');
   background-repeat: repeat, no-repeat;
+  background-size: 20%, cover;
 }
 ```
+
+![Background with squirrel gif repeated over tree image](https://raw.githubusercontent.com/Codecademy/docs/main/media/background-image-example-3.gif)
