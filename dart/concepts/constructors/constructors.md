@@ -135,8 +135,7 @@ void main() {
 
 ## Super parameters and the initializer list
 
-In order to better deal with constructor parameters and superclasses, Dart offers two main tools: super parameters and the initializer list.
-Super parameters will forward parameters to the declared superclass constructor. They help avoid having to manually pass each parameter in the super invocation of a constructor.
+To better deal with constructor parameters and superclasses, Dart offers two main tools: superparameters and the initializer list. Superparameters will forward parameters to the declared superclass constructor. They help avoid having to manually pass each parameter in the super invocation of a constructor:
 
 ```dart
 class Pixel {
