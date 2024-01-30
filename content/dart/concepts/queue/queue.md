@@ -68,7 +68,7 @@ void main()
 
 The above code will result in the following output:
 
-```
+```shell
 {}
 {This, Is, A, Queue}
 ```
