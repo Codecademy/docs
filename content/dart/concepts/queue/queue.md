@@ -56,10 +56,10 @@ void main()
   print(example_queue);
    
   // Adding elements in a Queue
-  geek.add("This");
-  geek.add("Is");
-  geek.add("A");
-  geek.add("Queue");
+  example_queue .add("This");
+  example_queue .add("Is");
+  example_queue .add("A");
+  example_queue .add("Queue");
    
   // Printing the new updated queue
   print(example_queue);
