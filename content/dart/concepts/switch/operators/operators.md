@@ -1,35 +1,19 @@
 ---
 Title: 'Operators'
-
 Description: 'Operators in Dart are special symbols or phrases used to perform operations on variables and values.'
-
 Subjects: 'These operators are categorized into several types based on their functionality'
 - 'Code Foundations'
 - 'Developer Tools'
-- 'Web Developement'
-
 Tags: 
 - 'Dart'
 - 'Syntax'
 - 'Operators'
 - 'Programming'
 - 'Data Structure'
-
 CatalogContent: 
-- 'Arithmetic Operators'
-- 'Equality and Rational Operators'
-- 'Type Test Operators'
-- 'Logical Operators'
-- 'Bitwise Operators'
-- 'Assigment Operators'
 - 'learn-dart'
 - 'paths/computer-science'
-
 ---
-
-- # Operators in Dart
--
-- ## Overview
 
 Operators in Dart are special symbols or phrases used to perform operations on variables and values. Dart, like many other programming languages, includes a variety of operators to manipulate data in different ways. These operators are categorized into several types based on their functionality: arithmetic, equality and relational, type test, logical, bitwise, and assignment operators.
 
@@ -39,6 +23,7 @@ Operators in Dart follow typical programming syntax and are used in conjunction 
 
 ```dart
 operand1 operator operand2
+```
 
 ## Types of Operators
 
@@ -117,4 +102,8 @@ void main() {
   e += 2;   // e = e + 2
   print('e: $e');  // Output: 7
 }
- ```shell
+```
+
+```shell
+
+```
