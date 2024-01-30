@@ -56,7 +56,6 @@ Cryptocurrency
 Classes
 Cloud Computing
 Code Editors
-Coding
 Conditionals
 Collections
 Colors
@@ -87,7 +86,6 @@ Data Structures
 Data Types
 Database
 Date
-Dart Lang
 Dart Operators
 Debugging
 Decorators
