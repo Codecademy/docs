@@ -17,12 +17,12 @@ A **constructor** is a special method that initializes an instance of a class. T
 
 In Dart, there are six constructor types:
 
-- Default constructors
-- Generative constructors
-- Named constructors
-- Redirecting constructors
-- Constant constructors
-- Factory constructors
+- `Default constructors`
+- `Generative constructors`
+- `Named constructors`
+- `Redirecting constructors`
+- `Constant constructors`
+- `Factory constructors`
 
 ## Default constructors
 
