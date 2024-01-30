@@ -24,7 +24,7 @@ Queue queue_name = new Queue();
 You can also create a queue from an existing list:
 
 ```
-var variable_name = new Queue.from(list_name);
+var queue_name = new Queue.from(list_name);
 ```
 It must be noted that to use a queue in a dart program you have to import "dart:collection" module. If you don’t do so then you will see the following error:
 
