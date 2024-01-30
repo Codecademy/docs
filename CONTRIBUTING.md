@@ -108,15 +108,15 @@ If you wish to have your Codecademy profile listed in the entry, before making t
 To link your Codecademy user profile to GitHub:
 
 1. Log out of Codecademy.
-2. Make sure that the email address associated with your Codecademy account is the [primary email associated with your Github account](https://github.com/settings/emails).
+2. Make sure that the email address associated with your Codecademy account is the [primary email associated with your GitHub account](https://github.com/settings/emails).
 3. Go to the [Codecademy login page](https://www.codecademy.com/login).
-4. Select the Github icon under "Or log in using:"
+4. Select the GitHub icon under "Or log in using:"
 5. Proceed through the OAuth process.
 
 ## Any requirements for a Pull Request (PR)?
 
 - Before making a PR, make sure you pushed your changes from a branch other than `main`.
-- Name the new branch after the changes being pushed to the PR.
+- Name the new branch after the changes are pushed to the PR.
 - Keep your PRs byte-sized. No more than 3 new entries per PR! And do not have more than 3 PRs open in a two week period!
 - All contributors must sign the [Contributor License Agreement (CLA)](<[url](https://cla-assistant.io/Codecademy/docs)>) when contributing for the first time.
 - All required [status checks](https://docs.github.com/en/github/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks) are expected to pass in each PR.
