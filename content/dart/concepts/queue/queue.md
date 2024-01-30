@@ -65,7 +65,8 @@ void main()
   print(example_queue);
 }
 ```
-Output:
+
+The above code will result in the following output:
 
 ```
 {}
