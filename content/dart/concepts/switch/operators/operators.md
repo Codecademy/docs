@@ -1,7 +1,7 @@
 ---
 Title: 'Operators'
 Description: 'Operators in Dart are special symbols or phrases used to perform operations on variables and values.'
-Subjects: 'These operators are categorized into several types based on their functionality'
+Subjects:
 - 'Code Foundations'
 - 'Developer Tools'
 Tags: 
