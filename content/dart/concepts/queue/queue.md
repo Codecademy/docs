@@ -19,7 +19,7 @@ A **Queue** is a collection that can be manipulated at both ends. A Queue insert
 Creating a queue:
 
 ```
-Queue variable_name = new Queue();
+Queue queue_name = new Queue();
 ```
 You can also create a queue from an existing list:
 
