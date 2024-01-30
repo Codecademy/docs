@@ -69,41 +69,60 @@ void main() {
   // Arithmetic Operators
   int a = 10;
   int b = 5;
-  print('a + b = ${a + b}');  // Output: 15
-  print('a - b = ${a - b}');  // Output: 5
-  print('a * b = ${a * b}');  // Output: 50
-  print('a / b = ${a / b}');  // Output: 2.0
-  print('a % b = ${a % b}');  // Output: 0
-  print('a ~/ b = ${a ~/ b}'); // Output: 2
+  print('a + b = ${a + b}');  
+  print('a - b = ${a - b}');  
+  print('a * b = ${a * b}');  
+  print('a / b = ${a / b}');  
+  print('a % b = ${a % b}');  
+  print('a ~/ b = ${a ~/ b}'); 
 
   // Equality and Relational Operators
-  print('a == b: ${a == b}');   // Output: false
-  print('a != b: ${a != b}');   // Output: true
-  print('a > b: ${a > b}');     // Output: true
-  print('a < b: ${a < b}');     // Output: false
-  print('a >= b: ${a >= b}');   // Output: true
-  print('a <= b: ${a <= b}');   // Output: false
+  print('a == b: ${a == b}');   
+  print('a != b: ${a != b}');   
+  print('a > b: ${a > b}');     
+  print('a < b: ${a < b}');     
+  print('a >= b: ${a >= b}');   
+  print('a <= b: ${a <= b}');   
 
   // Logical Operators
   bool x = true;
   bool y = false;
-  print('x && y: ${x && y}');  // Output: false
-  print('x || y: ${x || y}');  // Output: true
-  print('!x: ${!x}');         // Output: false
+  print('x && y: ${x && y}');  
+  print('x || y: ${x || y}');  
+  print('!x: ${!x}');         
 
   // Bitwise Operators
-  int c = 3; // 011 in binary
-  int d = 5; // 101 in binary
-  print('c & d: ${c & d}');   // Output: 1 (001 in binary)
-  print('c | d: ${c | d}');   // Output: 7 (111 in binary)
+  int c = 3; 
+  int d = 5; 
+  print('c & d: ${c & d}');   
+  print('c | d: ${c | d}');   
 
   // Assignment Operators
   int e = 5;
-  e += 2;   // e = e + 2
-  print('e: $e');  // Output: 7
+  e += 2;  
+  print('e: $e');  
 }
 ```
 
-```shell
+The above code will give the following output: 
 
+```shell
+a + b = 15
+a - b = 5
+a * b = 50
+a / b = 2
+a % b = 0
+a ~/ b = 2
+a == b: false
+a != b: true
+a > b: true
+a < b: false
+a >= b: true
+a <= b: false
+x && y: false
+x || y: true
+!x: false
+c & d: 1
+c | d: 7
+e: 7
 ```
