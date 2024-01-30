@@ -60,7 +60,7 @@ fruits.set('Apples', 5)
       .set('Oranges', 8);
 ```
 
-## Example 
+## Codebyte Example
 
 Example demonstrating the usage of `.set()` method
 
