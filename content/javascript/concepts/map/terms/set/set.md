@@ -64,7 +64,7 @@ fruits.set('Apples', 5)
 
 Run the example below to understand better the usage of the `.set()` method:
 
-```jcodebyte/javascript
+```codebyte/javascript
 const myMap = new Map();
 
 myMap.set('key1', 'value1');
