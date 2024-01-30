@@ -28,8 +28,12 @@ Use `math.sin()` to return the sine of the integer `5` measured in radian value:
 import math
 
 print(math.sin(5))
+```
 
-# Output: -0.9589242746631385
+The above code give the following output:
+
+```shell
+-0.9589242746631385
 ```
 
 ## Example 2
@@ -40,13 +44,17 @@ Use `math.sin()` to return the sine of the float `5.5` measured in radian value:
 import math
 
 print(math.sin(5.5))
+```
 
-# Output: -0.7055403255703919
+The above code give the following output:
+
+```shell
+-0.7055403255703919
 ```
 
 ## Codebyte Example
 
-The following code is runnable and returns the sine of different values:
+Run the following example that uses the `math.sin()` function to understand its working:
 
 ```codebyte/py
 import math

@@ -28,25 +28,31 @@ Use `math.tan()` to return the tangent of the integer `5` measured in radians:
 import math
 
 print(math.tan(5))
-
-# Output: -3.380515006246586
 ```
 
-## Example 2
+The above code give the following output:
+
+```shell
+-3.380515006246586
+```
 
 Use `math.tan()` to return the tangent of the float `5.5` measured in radians:
 
 ```python
 import math
 
-print(math.tan(5.5))
+print(math.tan(5.5)) 
+```
 
-# Output: -0.995584052213885
+The above code give the following output:
+
+```shell
+-0.995584052213885
 ```
 
 ## Codebyte Example
 
-The following code is runnable and demonstrates the use of `math.tan()`:
+Run the following example that uses the `math.tan()` function to understand its working:
 
 ```codebyte/python
 import math

@@ -30,11 +30,13 @@ Use `math.pow()` to return `5` to the power of `3`:
 import math
 
 print(math.pow(5, 3))
-
-# Output: 125.0
 ```
 
-## Example 2
+The above code give the following output:
+
+```shell
+125.0
+```
 
 Use `math.pow()` to return `5.5` to the power of `3.3`:
 
@@ -42,13 +44,17 @@ Use `math.pow()` to return `5.5` to the power of `3.3`:
 import math
 
 print(math.pow(5.5, 3.3))
+```
 
-# Output: 277.457759723262
+The above code give the following output:
+
+```shell
+277.457759723262
 ```
 
 ## Codebyte Example
 
-The following code is runnable and demonstrates the use of `math.pow()`:
+Run the following example that uses the `math.pow()` function to understand its working:
 
 ```codebyte/py
 import math

@@ -22,19 +22,21 @@ math.exp(x)
 
 _e_ is approximately 2.718282.
 
-## Example 1
+## Example
 
 Use `math.exp()` to return _e_ raised to the power of `5`:
 
 ```python
 import math
 
-print(math.exp(5))
-
-# Output: 148.4131591025766
+print(math.exp(5)) 
 ```
 
-## Example 2
+The above code give the following output:
+
+```shell
+148.4131591025766
+```
 
 Use `math.exp()` to return _e_ raised to the power of `3`:
 
@@ -42,11 +44,17 @@ Use `math.exp()` to return _e_ raised to the power of `3`:
 import math
 
 print(math.exp(3))
+```
 
-# Output: 20.085536923187668
+The above code give the following output:
+
+```shell
+20.085536923187668
 ```
 
 ## Codebyte Example
+
+Run the following example that uses the `math.exp()` function to understand its working:
 
 ```codebyte/py
 import math

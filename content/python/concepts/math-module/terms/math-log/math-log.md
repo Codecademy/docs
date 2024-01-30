@@ -35,13 +35,17 @@ Use `math.log()` to return the natural log of `12` (base _e_):
 import math
 
 print(math.log(12))
+```
 
-# Output: 2.4849066497880004
+The above code give the following output:
+
+```shell
+2.4849066497880004
 ```
 
 ## Codebyte Example
 
-The following example is runnable and uses the `math.log()` function to return the natural and base `10` logarithms of a number:
+Run the following example that uses the `math.log()` function to understand its working:
 
 ```codebyte/python
 import math
