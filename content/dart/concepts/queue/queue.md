@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **Queue** is a collection that can be manipulated at both ends. A Queue inserts data from one end and deletes data from another end, it is considered a "first in first out" collection.
+A **Queue** is a type of collection that supports operations at both ends. Data is added to one end and removed from the other, following a "first in, first out" (FIFO) principle.
 
 ## Syntax
 
@@ -57,10 +57,10 @@ void main()
   print(example_queue);
    
   // Adding elements in a Queue
-  example_queue .add("This");
-  example_queue .add("Is");
-  example_queue .add("A");
-  example_queue .add("Queue");
+  example_queue.add("This");
+  example_queue.add("Is");
+  example_queue.add("A");
+  example_queue.add("Queue");
    
   // Printing the new updated queue
   print(example_queue);
