@@ -80,7 +80,7 @@ console.log(x);
 
 This example shows the re-assignment of value to variable `x`:
 
-```codebyte/javascript
+```codebyte/js
 var x = 5;
 console.log(x)
 x = 6;
