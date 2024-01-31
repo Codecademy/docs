@@ -14,7 +14,8 @@ CatalogContent:
 
 **Hick's law**, or the **Hick–Hyman law**, named after British and American psychologists William Edmund Hick and Ray Hyman, describes the time it takes for a person to make a decision based on the number of available choices introduced.
 
-Hick’s Law states that increasing the number of choices will increase the decision time logarithmically and is written as follows: RT = a + b log<sub>2</sub>(n)
+Hick’s Law states that increasing the number of choices will increase the decision time logarithmically and is represented as follows: 
+RT = a + b log<sub>2</sub>(n)
 
 ![Describe image](https://raw.githubusercontent.com/Codecademy/docs/main/media/hickslaw-formula.png)
 
