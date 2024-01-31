@@ -80,6 +80,7 @@ CSS
 CSV
 Cybersecurity
 D3
+Dart
 Data
 Data Structures
 Data Types
@@ -184,6 +185,7 @@ JSON
 JSK
 Justice
 K-Nearest Neighbors
+Knowledge Graphs
 Kotlin
 Kubernetes
 Laravel
@@ -226,6 +228,7 @@ Numbers
 NumPy
 Objects
 Obsolete
+Ontologies
 OOP
 Opacity
 Open Source
