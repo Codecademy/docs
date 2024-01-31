@@ -76,7 +76,7 @@ x = 6;
 console.log(x);
 ```
 
-## codebyte Example
+## Codebyte Example
 
 This example shows the re-assignment of value to variable `x`:
 
