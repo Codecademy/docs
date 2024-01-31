@@ -97,7 +97,8 @@ if (x > 5) {
   console.log('x is greater than 5');
 }
 ```
-## codebyte Example
+
+## Codebyte Example
 
 This example shows the output of an if statement:
 
