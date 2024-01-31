@@ -32,7 +32,7 @@ In this example, `x`, `y`, `X`, and `z`, are declared with the `var` keyword.
 > **Note:** JavaScript identifiers are case-sensitive. Notice that `x` is not the same as `X`.
 
 
-## codebyte Example
+## Codebyte Example
 
 This example shows the output values of the declared variables:
 
