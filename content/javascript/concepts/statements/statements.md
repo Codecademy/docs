@@ -93,15 +93,19 @@ console.log(x);
 
 ```js
 // If statement
+var x = 10;
 if (x > 5) {
   console.log('x is greater than 5');
 }
 ```
 
+Following is the output of the above code:
+
+```shell
+x is greater than 5
+```
 
 ### Codebyte Example
-
-This example shows the output of an if statement:
 
 ```codebyte/js
 var x = 7
