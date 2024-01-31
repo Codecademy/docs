@@ -48,7 +48,7 @@ modifiedString = string.replaceAll("b", "B");
 console.log(modifiedString);
 ```
 
-The second codebyte example of using `.replaceAll()` method is runnable, and it uses [regular expressions (RegExp)](https://www.codecademy.com/resources/docs/javascript/regexp). Be careful that when using a regular expression search value, it must be global:
+The second codebyte example replaces all occurrences of the letter "b" (case-sensitive) globally (all instances) with the uppercase letter "B" in the string, and it uses [regular expressions (RegExp)](https://www.codecademy.com/resources/docs/javascript/regexp). Be careful that when using a regular expression search value, it must be global:
 
 ```codebyte/javascript
 string = "AbCD_AbCD";
