@@ -36,7 +36,7 @@ In this example, `x`, `y`, `X`, and `z`, are declared with the `var` keyword.
 
 This example shows the output values of the declared variables:
 
-```codebyte/javascript
+```codebyte/js
 var x = 5;
 console.log(x)
 
