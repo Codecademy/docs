@@ -110,3 +110,55 @@ console.log(-20 >>> 3); // Output: 536870909
 // 11111111111111111111111111101100 = -20
 // 00011111111111111111111111111101 = 536870909
 ```
+
+## Codebyte Examples
+
+Execute the following to illustrate the use of Bitwise `&` operator:
+
+```codebyte/javascript
+console.log(-5 & 12);
+```
+
+Execute the following to illustrate the use of Bitwise `|` operator:
+
+```codebyte/javascript
+console.log(13 | 10);
+```
+
+Execute the following to illustrate the use of Bitwise `^` operator:
+
+```codebyte/javascript
+console.log(4 ^ -11);
+```
+
+Execute the following to illustrate the use of Bitwise `~` operator:
+
+```codebyte/javascript
+console.log(~-10);
+```
+
+Execute the following to illustrate the use of Bitwise `<<` operator:
+
+```codebyte/javascript
+console.log(34 << 2);
+```
+
+Execute the following to illustrate the use of Bitwise `>>` operator:
+
+```codebyte/javascript
+console.log(-15 >> 4);
+```
+
+```codebyte/javascript
+console.log(50 >> 4);
+```
+
+Execute the following to illustrate the use of Bitwise `>>>` operator:
+
+```codebyte/javascript
+console.log(-8 >>> 6);
+```
+
+```codebyte/javascript
+console.log(96 >>> 6);
+```
