@@ -32,7 +32,7 @@ In this example, `x`, `y`, `X`, and `z`, are declared with the `var` keyword.
 > **Note:** JavaScript identifiers are case-sensitive. Notice that `x` is not the same as `X`.
 
 
-## Codebyte Example
+### Codebyte Example
 
 This example shows the output values of the declared variables:
 
@@ -60,7 +60,7 @@ Expression statements, such as function calls or assignments, evaluate an expres
 console.log('Hello World');
 ```
 
-## Codebyte Example
+### Codebyte Example
 
 This example shows a `console.log()` function call:
 
@@ -76,7 +76,7 @@ x = 6;
 console.log(x);
 ```
 
-## Codebyte Example
+### Codebyte Example
 
 This example shows the re-assignment of value to variable `x`:
 
@@ -99,7 +99,7 @@ if (x > 5) {
 ```
 
 
-## Codebyte Example
+### Codebyte Example
 
 This example shows the output of an if statement:
 
@@ -111,8 +111,8 @@ if (x > 5) {
 ```
 
 ```js
-
 // Switch statement
+var x = 2; 
 switch (x) {
   case 1:
     console.log('x is 1');
@@ -127,23 +127,41 @@ switch (x) {
 
 This example shows the outputs of the switch statement:
 
-```codebyte/js
-// change value of x 
-var x = 1; 
+```shell
+x is 2
+```
 
-switch (x) {
+### Codebyte example
+
+Try the following runnable example:
+
+```codebyte/js
+// Change value of number 
+let number = 3;
+let numberType;
+
+switch (number) {
   case 1:
-    console.log('x is 1');
+    numberType = 'One';
     break;
   case 2:
-    console.log('x is 2');
+    numberType = 'Two';
+    break;
+  case 3:
+    numberType = 'Three';
+    break;
+  case 4:
+    numberType = 'Four';
+    break;
+  case 5:
+    numberType = 'Five';
     break;
   default:
-    console.log('x is neither 1 nor 2');
+    numberType = 'Unknown Number';
 }
-```
-Change the values of x to different numbers and click on the run button to see their outputs.
 
+console.log(`The number ${number} is ${numberType}.`);
+```
 
 ## Loop Statements
 
@@ -157,9 +175,9 @@ while (x < 5) {
 }
 ```
 
-## Codebyte example
+### Codebyte example
 
-```codebyte/javascript
+```codebyte/js
 // While loop
 var x = 0;
 while (x < 7) {
@@ -175,16 +193,15 @@ for (let i = 0; i < 5; i++) {
 }
 ```
 
-## Codebyte example
+### Codebyte example
 
-This works similarly to the `while`  loop. Conventionally `let` keyword is used to declare a variable named `i`  in `for`  loops:
+This works similarly to the `while` loop. Conventionally `let` keyword is used to declare a variable named `i`  in `for` loops:
 
-```codebyte/javascript
+```codebyte/js
 for (let i = 0; i < 7; i++) {
   console.log(i);
 }
 ```
-
 
 ## Jump Statements
 
@@ -200,11 +217,11 @@ for (let i = 0; i < 5; i++) {
 }
 ```
 
-## Codebyte Example
+### Codebyte Example
 
 This code breaks or exits the loop when  `i` equals 3 and returns the value of `i`:
 
-```codebyte/javascript
+```codebyte/js
 // Break statement
 for (let i = 0; i < 5; i++) {
   if (i === 3) {
@@ -221,7 +238,7 @@ function add(x, y) {
 }
 ```
 
-## Codebyte Example
+### Codebyte Example
 
 This code example returns the value of the add function: 
 
