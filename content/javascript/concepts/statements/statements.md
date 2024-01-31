@@ -126,7 +126,7 @@ switch (x) {
 ```
 This example shows outputs of switch statement:
 
-```codebyte/javascript
+```codebyte/js
 // change value of x 
 var x = 1; 
 
