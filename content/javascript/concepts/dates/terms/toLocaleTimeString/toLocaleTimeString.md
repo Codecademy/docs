@@ -38,8 +38,8 @@ In the example below, `.toLocaleTimeString()` is being used in the `en-US` local
 
 ```js
 const date = new Date(2021, 11, 31, 15, 0, 0);
-
 console.log(date.toLocaleTimeString());
+```
 
 ```shell
  3:00:00 PM
