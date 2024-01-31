@@ -40,7 +40,7 @@ I laugh, you laugh, we all laugh for ice cream.
 
 ## Codebyte Example
 
-The first codebyte example of using `.replaceAll()` method is runnable, and it doesn't use [regular expressions (RegExp)](https://www.codecademy.com/resources/docs/javascript/regexp):
+The first codebyte example uses `.replaceAll()` method to replace all occurrences of the lowercase letter "b" with the uppercase letter "B" in the string. It doesn't use [regular expressions (RegExp)](https://www.codecademy.com/resources/docs/javascript/regexp):
 
 ```codebyte/javascript
 string = "AbCD_AbCD";
