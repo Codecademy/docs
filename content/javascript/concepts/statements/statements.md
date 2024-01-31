@@ -87,7 +87,6 @@ x = 6;
 console.log(x);
 ```
 
-
 ## Conditional Statements
 
 [Conditional](https://www.codecademy.com/resources/docs/javascript/conditionals) statements, such as `if` statements or `switch` statements, control program flow based on a condition:
