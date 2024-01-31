@@ -173,7 +173,8 @@ for (let i = 0; i < 5; i++) {
   console.log(i);
 }
 ```
-## codebyte example
+
+## Codebyte example
 
 This works similarly to the `while`  loop. Conventionally `let` keyword is used to declare a variable named `i`  in `for`  loops:
 
