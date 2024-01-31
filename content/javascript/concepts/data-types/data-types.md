@@ -97,7 +97,7 @@ To convert a non-boolean value into a boolean, the `Boolean` function or double 
 
 ```codebyte/javascript
 let value = Boolean('Harry'); 
-console.log(value); // returns true
+console.log(value);
 ```
 
 ## Null and Undefined
