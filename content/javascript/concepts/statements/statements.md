@@ -59,6 +59,7 @@ Expression statements, such as function calls or assignments, evaluate an expres
 // Function call
 console.log('Hello World');
 ```
+
 ## Codebyte Example
 
 This example shows a `console.log()` function call:
