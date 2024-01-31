@@ -26,5 +26,17 @@ d3.selectAll(selector)
 The following code selects all paragraph elements within the document using the `.selectAll()` method.
 
 ```js
-const p = d3.selectAll("p")
+    // Select all elements with class 'example'
+    const selectedElements = d3.selectAll('.example');
+
+    // Modify the style of the selected elements
+    selectedElements
+      .style('color', 'blue')
+      .style('font-size', '18px');
+
+    // Add text to the selected elements
+    selectedElements.text((d, i) => `Modified Element ${i + 1}`);
+
+    // Log success message to console
+    console.log('D3.js code executed successfully.');
 ```
