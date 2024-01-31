@@ -219,7 +219,8 @@ function add(x, y) {
   return x + y;
 }
 ```
-## codebyte Example
+
+## Codebyte Example
 
 This code example returns the value of the add function: 
 
