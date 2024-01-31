@@ -220,7 +220,7 @@ function add(x, y) {
 
 ### Codebyte Example
 
-This code example demonstrates the `break` and `return` statements: 
+The following code example demonstrates the `break` and `return` statements: 
 
 ```codebyte/js
 function add(x, y) {
