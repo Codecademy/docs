@@ -37,6 +37,7 @@ JavaScript uses seven primitive data types that are listed in the table below:
 > **Note:** The `null` type cannot be tested with `typeof` like all the other primitive types because it will return `"object"`. This must be tested with the type equality operator (i.e., `=== null`).
 
 ## Number and BigInt  
+
 In JavaScript, numbers are always stored as double-precision floating point numbers.
 
 ```js
