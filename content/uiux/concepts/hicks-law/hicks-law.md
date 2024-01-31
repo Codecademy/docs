@@ -17,7 +17,7 @@ CatalogContent:
 Hick’s Law states that increasing the number of choices will increase the decision time logarithmically and is represented as follows: 
 RT = a + b log<sub>2</sub>(n)
 
-![Describe image](https://raw.githubusercontent.com/Codecademy/docs/main/media/hickslaw-formula.png)
+![A graph representing Hick's law's logarithmic curve.](https://raw.githubusercontent.com/Codecademy/docs/main/media/hickslaw-formula.png)
 
 ## Implications of Hick's Law:
 
@@ -33,5 +33,5 @@ When designing web interfaces, it is crucial to consider Hick’s Law and incorp
 
 ## Example :
 
-![Describe image](https://raw.githubusercontent.com/Codecademy/docs/main/media/hickslaw-examples.png)
+![An illustration representing 5 examples of optimal UX design based on Hick's Law's principles.](https://raw.githubusercontent.com/Codecademy/docs/main/media/hickslaw-examples.png)
 
