@@ -198,7 +198,8 @@ for (let i = 0; i < 5; i++) {
   console.log(i);
 }
 ```
-## codebyte Example
+
+## Codebyte Example
 
 This code breaks or exits the loop when  `i` equals 3 and returns the value of `i`:
 
