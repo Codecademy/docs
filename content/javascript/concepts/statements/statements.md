@@ -155,7 +155,8 @@ while (x < 5) {
   x++;
 }
 ```
-## codebyte example
+
+## Codebyte example
 
 ```codebyte/javascript
 // While loop
