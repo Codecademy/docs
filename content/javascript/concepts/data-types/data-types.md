@@ -59,7 +59,7 @@ This will output the following:
 9999999999999999n
 ```  
 
-The integer precision for the `Number` type is `15 digits`. You can see for yourself. 
+The integer precision for the `Number` type is `15 digits`. The following example is runnable: 
 
 ```codebyte/javascript
 let x = 999999999999999;
