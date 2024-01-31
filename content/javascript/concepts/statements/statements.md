@@ -108,6 +108,7 @@ x is greater than 5
 ### Codebyte Example
 
 ```codebyte/js
+// If statement
 var x = 7
 if (x > 5) {
   console.log('x is greater than 5');
