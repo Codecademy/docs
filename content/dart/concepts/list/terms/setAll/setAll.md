@@ -1,14 +1,14 @@
 ---
-Title: 'setAll' 
-Description: 'Documentation for the .setAll() method in Dart, explaining its syntax, usage, and providing an example.' 
-Subjects: 
+Title: 'setAll'
+Description: 'Documentation for the .setAll() method in Dart, explaining its syntax, usage, and providing an example.'
+Subjects:
   - 'Computer Science'
   - 'Web Development'
-Tags: 
+Tags:
   - 'Methods'
   - 'Dart'
   - 'Lists'
-CatalogContent: 
+CatalogContent:
   - 'learn-dart'
   - 'introduction-to-dart'
 ---
