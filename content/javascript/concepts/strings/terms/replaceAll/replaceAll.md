@@ -56,7 +56,7 @@ modifiedString = string.replaceAll(/b/g,"B");
 console.log(modifiedString);
 ```
 
-This won't work because the regular expression search value is not global:
+The following code won't work because the regular expression search value is not global:
 
 ```codebyte/javascript
 string = "AbCD_AbCD";
