@@ -225,7 +225,7 @@ function add(x, y) {
 
 This code example returns the value of the add function: 
 
-```codebyte/javascript
+```codebyte/js
 function add(x, y) {
   return x + y;
 }
