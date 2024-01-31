@@ -59,14 +59,6 @@ Expression statements, such as function calls or assignments, evaluate an expres
 console.log('Hello World');
 ```
 
-### Codebyte Example
-
-The following example shows a `console.log()` function call:
-
-```codebyte/javascript
-console.log('Hello, World!');
-```
-
 The second statement below re-assigns the value 5 to the variable `x`, while the third statement logs the value of `x` to the console:
 
 ```js
@@ -75,11 +67,19 @@ x = 6;
 console.log(x);
 ```
 
+The output of the above statement is as follows:
+
+```shell
+6
+```
+
 ### Codebyte Example
 
-This example shows the re-assignment of value to variable `x`:
+This example shows the re-assignment of value to variable `x` and demonstrates the `console.log()` function call:
 
 ```codebyte/js
+console.log('Hello, World!');
+
 var x = 5;
 console.log(x)
 x = 6;
@@ -102,16 +102,6 @@ Following is the output of the above code:
 
 ```shell
 x is greater than 5
-```
-
-### Codebyte Example
-
-```codebyte/js
-// If statement
-var x = 7
-if (x > 5) {
-  console.log('x is greater than 5');
-}
 ```
 
 ```js
