@@ -101,7 +101,7 @@ if (x > 5) {
 
 This example shows the output of an if statement:
 
-```codebyte/javascript
+```codebyte/js
 var x = 7
 if (x > 5) {
   console.log('x is greater than 5');
