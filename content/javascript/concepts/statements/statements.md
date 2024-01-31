@@ -31,7 +31,6 @@ In this example, `x`, `y`, `X`, and `z`, are declared with the `var` keyword.
 
 > **Note:** JavaScript identifiers are case-sensitive. Notice that `x` is not the same as `X`.
 
-
 ### Codebyte Example
 
 This example shows the output values of the declared variables:
@@ -117,7 +116,7 @@ if (x > 5) {
 
 ```js
 // Switch statement
-var x = 2; 
+var x = 2;
 switch (x) {
   case 1:
     console.log('x is 1');
@@ -141,7 +140,7 @@ x is 2
 Try the following runnable example:
 
 ```codebyte/js
-// Change value of number 
+// Change value of number
 let number = 3;
 let numberType;
 
@@ -188,7 +187,7 @@ for (let i = 0; i < 5; i++) {
 
 ### Codebyte example
 
-The `for` loop works similarly to the `while` loop. Conventionally `let` keyword is used to declare a variable named `i`  in `for` loops:
+The `for` loop works similarly to the `while` loop. Conventionally `let` keyword is used to declare a variable named `i` in `for` loops:
 
 ```codebyte/js
 // While loop
@@ -225,7 +224,7 @@ function add(x, y) {
 
 ### Codebyte Example
 
-The following code example demonstrates the `break` and `return` statements:  
+The following code example demonstrates the `break` and `return` statements:
 
 ```codebyte/js
 function add(x, y) {
@@ -243,4 +242,3 @@ for (let i = 0; i < 5; i++) {
 
 console.log("Loop and function execution complete.");
 ```
-
