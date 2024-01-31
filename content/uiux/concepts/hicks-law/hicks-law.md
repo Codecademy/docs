@@ -18,7 +18,7 @@ Hick’s Law states that increasing the number of choices will increase the deci
 
 ![Describe image](https://raw.githubusercontent.com/Codecademy/docs/main/media/hickslaw-formula.png)
 
-## Implications in UX design:
+## Implications of Hick's Law:
 
 It has been shown that increasing the number of choices available to an individual does not improve efficiency; but instead leads to a reduction in the individual's ability to make a decision and a lower level of user satisfaction.
 
