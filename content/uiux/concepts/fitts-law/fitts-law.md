@@ -17,7 +17,7 @@ CatalogContent:
 
 **Fitts' Law**, initially developed by Paul Fitts, is a term related to UI and UX Design describing how movement time to a target (link, button, etc.), with a pointer (mouse, finger, etc.), is a function of the distance to the target as well as the size of the target. Where poor functionality was once attributed solely to human error, Fitts first recognized this was also due to poor design.
 
-Fitts determined that larger targets with minimal spacing allow for better usability in design. However, caution should be exercised when limiting spacing, as clutter can lead to poor functionality. When designing a UI, it is crucial to recognize the user's workflow on a given page and strategically place targets based on the predicted pointer placement. The larger a target, the better it is for usability and also reduces user errors. Clustering commonly used items and menus should be considered for optimal UX.
+Fitts determined that larger targets with minimal spacing allow for better usability in design. However, caution should be exercised when limiting spacing, as clutter can lead to poor functionality. When designing a UI, it is crucial to recognize the user's workflow on a page and strategically place targets based on the predicted pointer placement. The larger the target, the better it is for usability, reducing user errors. Clustering commonly used items and menus should be considered for optimal UX.
 
 ## Example
 
