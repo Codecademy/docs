@@ -1,6 +1,6 @@
 ---
 Title: 'Fitts Law'
-Description: 'Add term entry for Fitts Law to UI and UX Design glossary'
+Description: 'Fitts law: movement time to a target is a function of the distance to and size of the target'
 Subjects:
   - 'Developer Tools'
   - 'Mobile Development'
