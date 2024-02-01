@@ -59,6 +59,8 @@ There are two types of lists in Dart, fixed-length and growable. A fixed-length 
 List fixedLengthList = List(3);
 ```
 
+>**Note:** If more than the specified number of items will result in an error.
+
 When creating a fixed length list, it starts off empty and needs items added to it. Adding too many items will result in an error. Fixed length lists are useful when you know in advance the number of items you need and want to enforce that size constraint. 
 
 ```dart
