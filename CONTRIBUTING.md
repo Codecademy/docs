@@ -4,7 +4,7 @@
 
 Welcome to the [Docs](https://www.codecademy.com/resources/docs) GitHub repo!
 
-We are an inclusive and passionate team of technologists and life-long learners around the world, building free programming resources for a better tomorrow. For newcomers, contributing to an open-source project for the first time can be intimidating and overwhelming. Perhaps you’re a code newbie or maybe you’ve been tinkering for years but haven’t found that special project yet.
+We are an inclusive and passionate team of technologists and life-long learners around the world, building free programming resources for a better tomorrow. For newcomers, contributing to an open-source project for the first time can be intimidating and overwhelming. Perhaps you’re a code newbie, or maybe you’ve been tinkering for years but haven’t found that special project yet.
 
 Good news, you are in the right place! Docs is the perfect open-contribution project for you to get started. Every part of [Docs](https://www.codecademy.com/resources/docs) content (entries, documentation, and translations) is written by amazing creative folks like yourself.
 
@@ -66,7 +66,7 @@ With everything installed, in the repository root (whatever directory contains t
 - `yarn format:verify` and `yarn lint:md` to validate markdown file contents
 - `yarn test` to validate `content/` directory structure
 
-## I submitted a PR but tests are failing, how do I fix them?
+## I submitted a PR, but tests are failing. How do I fix them?
 
 Here are some common issues and resolutions:
 
@@ -108,15 +108,15 @@ If you wish to have your Codecademy profile listed in the entry, before making t
 To link your Codecademy user profile to GitHub:
 
 1. Log out of Codecademy.
-2. Make sure that the email address associated with your Codecademy account is the [primary email associated with your Github account](https://github.com/settings/emails).
+2. Make sure that the email address associated with your Codecademy account is the [primary email associated with your GitHub account](https://github.com/settings/emails).
 3. Go to the [Codecademy login page](https://www.codecademy.com/login).
-4. Select the Github icon under "Or log in using:"
+4. Select the GitHub icon under "Or log in using:"
 5. Proceed through the OAuth process.
 
 ## Any requirements for a Pull Request (PR)?
 
 - Before making a PR, make sure you pushed your changes from a branch other than `main`.
-- Name the new branch after the changes being pushed to the PR.
+- Name the new branch after the changes are pushed to the PR.
 - Keep your PRs byte-sized. No more than 3 new entries per PR! And do not have more than 3 PRs open in a two week period!
 - All contributors must sign the [Contributor License Agreement (CLA)](<[url](https://cla-assistant.io/Codecademy/docs)>) when contributing for the first time.
 - All required [status checks](https://docs.github.com/en/github/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks) are expected to pass in each PR.
@@ -143,7 +143,7 @@ We will not accept entries that were exclusively generated through an AI tool. W
 
 ## How do we update a PR branch?
 
-To keep your PR branch up to date navigate to the branch on your fork. Then press `Fetch upstream` and `Fetch and merge`.
+To keep your PR branch up to date, navigate to the branch on your fork. Then press `Fetch upstream` and `Fetch and merge`.
 
 ![Image of where the `Fetch upstream` button](https://raw.githubusercontent.com/Codecademy/docs/main/media/branch-up-to-date-1.png)
 
