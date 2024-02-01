@@ -21,7 +21,7 @@ A **list** provides a way to organise and store a collection of items. Simply, l
 
 ## Syntax
 
-In Dart, you are able to create a list utilising the `List` class, which also uses square brackets (`[]`) and commas (`,`). The square brackets are used to define the data, whilst commas are used to separate the individual items.
+In Dart, there are two ways to create a list, there is the more prominently used method of `var` and the lesser used `List` class, both use square brackets (`[]`) and commas (`,`). The square brackets are used to define the data, whilst commas are used to separate the individual items.
 
 ```dart
 // Create a list of strings
@@ -61,7 +61,7 @@ List fixedLengthList = List(3);
 
 >**Note:** If more than the specified number of items will result in an error.
 
-When creating a fixed length list, it starts off empty and needs items added to it. Adding too many items will result in an error. Fixed length lists are useful when you know in advance the number of items you need and want to enforce that size constraint. 
+When creating a fixed-length list, it starts off empty and needs items added to it. Adding too many items will result in an error. Fixed-length lists are useful when a known limit on list items is required ahead of time. This enforces the list to stay at the specified limit.
 
 ```dart
 // Example of a growable list
@@ -70,7 +70,7 @@ List growableList = ['Lion', 'Tiger', 'Leopard'];
 
 ## List Methods
 
-Lists are very versatile sets of data and Dart provides ways to manage the data we hold in the lists called methods. These methods include things like adding new data and removing data.
+Lists are very versatile sets of data and Dart provides ways to manage the data held within the lists called methods. These methods include things like adding new data and removing data.
 
 ### Adding Data
 
@@ -86,7 +86,7 @@ ages.add(42); // Adds 42 to the end of the list
 ages.addAll(42, 37, 62); // Adds 42, 37 and 62 to the end of the list
 ```
 
-It is also possible to add items at specific points within a list. This can be done by calling the list and specifying where you would like to add that item.
+It is also possible to add items at specific points within a list. This can be done by calling the list and specifying where the item should be added.
 
 ```dart
 // Adding an item to a specific position within a list
@@ -106,7 +106,7 @@ fixedLengthList[2] = 3; // Sets the 3rd item in the list as 3
 
 ### Removing Data
 
-We can remove items of data from lists utilising the following methods:
+Removing items of data from lists utilises the following methods:
 - `(listname).remove(item);` - This removes the first occurance of the specified item
 - `(listname).removeAt(1);` - This removes the item at the specified index
 - `(listname).removeLast();` - This removes the last item in the list
