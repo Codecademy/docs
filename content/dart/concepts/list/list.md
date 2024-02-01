@@ -52,7 +52,7 @@ List mixedList = [1, 'two', 3, true];
 
 ## Different List Types
 
-There are two types of lists in Dart; fixed length or growable. A fixed length list has a specified size which cannot be changed after initialistation, whereas a growable list can have data added or removed.
+There are two types of lists in Dart, fixed-length and growable. A fixed-length list has a specified size that cannot be changed after initialization. When creating a fixed-length list, it starts empty and needs items to be added to it. It is useful when the number of items in a list is known in advance. The following code block demonstrates the initialization of a fixed-length list:
 
 ```dart
 // Example of a fixed length list
