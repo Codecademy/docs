@@ -14,7 +14,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'paths/example-path'
 ---
 
-# **join**
+## **join**
 &nbsp;  
 &nbsp;  
 
