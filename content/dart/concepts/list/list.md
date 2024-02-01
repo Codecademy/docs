@@ -68,8 +68,6 @@ When creating a fixed length list, it starts off empty and needs items added to 
 List growableList = ['Lion', 'Tiger', 'Leopard'];
 ```
 
-When creating a growable list, we are able to start with a set of data. We can then add additional data or remove data without causing an error. Growable lists provide flexibility and grow or shrink dynamically based on requirements.
-
 ## List Methods
 
 Lists are very versatile sets of data and Dart provides ways to manage the data we hold in the lists called methods. These methods include things like adding new data and removing data.
