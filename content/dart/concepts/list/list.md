@@ -23,6 +23,24 @@ A **list** provides a way to organise and store a collection of items. Simply, l
 
 In Dart, there are two ways to create a list, there is the more prominently used method of `var` and the lesser used `List` class, both use square brackets (`[]`) and commas (`,`). The square brackets are used to define the data, whilst commas are used to separate the individual items.
 
+First, an example of utilising `var` to create a list:
+
+```dart
+// Create a list of strings
+var favouriteFruits = ['Apple', 'Banana', 'Orange'];
+
+// Create a list of integers
+var oddNumbers = [1, 3, 5, 7, 9];
+
+// Create a list of lists (nested list)
+var nestedList = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+];
+```
+
+Then, an example of utilising `List` to create a list:
 ```dart
 // Create a list of strings
 List favouriteFruits = ['Apple', 'Banana', 'Orange'];
@@ -38,7 +56,9 @@ List nestedList = [
 ];
 ```
 
-In the above example, there are three separate lists:
+>**Note:** As `var` is the predomintently used method to create lists in Dart, the rest of the examples will use this moving forward.
+
+In the above examples, there are three separate lists:
 - A list of strings
 - A list of integers
 - A nested list
@@ -47,7 +67,7 @@ Each list includes the same data type. However, it is possible to create lists u
 
 ```dart
 // Create a list with mixed data types
-List mixedList = [1, 'two', 3, true];
+var mixedList = [1, 'two', 3, true];
 ```
 
 ## Different List Types
@@ -56,7 +76,7 @@ There are two types of lists in Dart, fixed-length and growable. A fixed-length 
 
 ```dart
 // Example of a fixed length list
-List fixedLengthList = List(3);
+var fixedLengthList = List(3);
 ```
 
 >**Note:** If more than the specified number of items will result in an error.
@@ -65,7 +85,7 @@ When creating a fixed-length list, it starts off empty and needs items added to 
 
 ```dart
 // Example of a growable list
-List growableList = ['Lion', 'Tiger', 'Leopard'];
+var growableList = ['Lion', 'Tiger', 'Leopard'];
 ```
 
 ## List Methods
@@ -80,7 +100,7 @@ Adding items of data to lists utilising the following methods:
 
 ```dart
 // Adding items to a list
-List ages = [21, 23, 34, 19, 45];
+var ages = [21, 23, 34, 19, 45];
 
 ages.add(42); // Adds 42 to the end of the list
 ages.addAll(42, 37, 62); // Adds 42, 37 and 62 to the end of the list
@@ -90,14 +110,14 @@ It is also possible to add items at specific points within a list. This can be d
 
 ```dart
 // Adding an item to a specific position within a list
-List ages = [21, 23, 34, 19, 45];
+var ages = [21, 23, 34, 19, 45];
 
 ages[0] = 87; // Adds 87 to the first position of the list
 ```
 This comes in handy with fixed length lists:
 
 ```dart
-List fixedLengthList = List(3);
+var fixedLengthList = List(3);
 
 fixedLengthList[0] = 1; // Sets the 1st item in the list as 1
 fixedLengthList[1] = 2; // Sets the 2nd item in the list as 2
@@ -112,7 +132,7 @@ Removing items of data from lists utilises the following methods:
 - `(listname).removeLast();` - This removes the last item in the list
 
 ```dart
-List favouriteColors = ['red', 'red', 'orange', 'yellow', 'green'];
+var favouriteColors = ['red', 'red', 'orange', 'yellow', 'green'];
 
 favouriteColors.remove(red); // Removes the first 'red' in the list
 favouriteColors.removeAt(1); // Removes the second item in the list
@@ -124,12 +144,12 @@ To display data held within a list the `print` method is used. This can be used 
 
 ```dart
 // Displaying a whole list
-List flowers = ['Rose', 'Lily', 'Sunflower', 'Tulip', 'Daisy'];
+var flowers = ['Rose', 'Lily', 'Sunflower', 'Tulip', 'Daisy'];
 
 print(flowers); // Displays ['Rose', 'Lily', 'Sunflower', 'Tulip', 'Daisy'] in the console.
 
 // Displaying a specific item from a list
-List musicalInstruments = ['Piano', 'Guitar', 'Violin', 'Trumpet'];
+var musicalInstruments = ['Piano', 'Guitar', 'Violin', 'Trumpet'];
 
 print(musicalInstruments[2]); // Displays Violin in the console
 ```
