@@ -20,7 +20,7 @@ Definition - **Dart** is a language created to develop server-side applications.
 - The hash(#) symbol, followed by the name is used to define Symbol in Dart.
 
 - Symbol obj = new Symbol("name")  
-Here, the valid identifier such as function, valid class, public member name, or library name can be used in place of name value.
+Here the valid identifier such as function, valid class, public member name, or library name can be used in place of name value.
  
 -  '=>' The arrow syntax is a way to define a function that executes the expression to its right and returns its value.
 
