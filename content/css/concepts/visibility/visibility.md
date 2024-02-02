@@ -31,7 +31,7 @@ The visibility property has three values.
 
 ## Example 1
 
-Hiding an element with an `id` of `hide`.
+Hiding an element with a `class` of `hide`.
 
 ```css
 .hide {
