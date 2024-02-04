@@ -2,7 +2,7 @@ import frontmatter, { FrontMatterResult } from 'front-matter';
 import fs from 'fs';
 import glob from 'glob';
 import path from 'path';
-
+# import path from github
 /*
  * the content/ directory is organized like so:
  *
