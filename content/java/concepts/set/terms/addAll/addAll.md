@@ -1,6 +1,6 @@
 ---
 Title: '.addAll()'
-Description: 'Adds all of the elements in the specified collection to this set if they're not already present.'
+Description: 'Adds all of the elements in the specified collection to this set if they are not already present.'
 Subjects:
   - 'Computer Science'
 Tags:
