@@ -1,6 +1,6 @@
 ---
 Title: 'Clear Method (List)'
-Description: 'Removes all objects from this list; the length of the list becomes zero.'
+Description: 'Removes all objects from the list; the length of the list becomes zero.'
 Subjects:
   - 'Computer Science'
   - 'Mobile Development'
