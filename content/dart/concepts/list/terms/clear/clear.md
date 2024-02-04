@@ -1,5 +1,5 @@
 ---
-Title: 'Clear Method (List)'
+Title: 'clear()'
 Description: 'Removes all objects from the list; the length of the list becomes zero.'
 Subjects:
   - 'Computer Science'
@@ -15,21 +15,15 @@ CatalogContent:
 
 The **`clear()`** method in Dart is used to remove all elements from a List, leaving an empty list in its place. This method is handy when you need to reset or clear the contents of a List, making it ready for new data.
 
-## Implementation
-
-```pseudo
-void clear();
-```
-
-## Parameters
-
-This method does not take any parameters.
-
-## Return Type
-
 This method does not return any value.
 
-## Usage and Examples
+## Syntax
+
+```pseudo
+listName.clear();
+```
+
+## Example
 
 The `clear()` method only works on a growable list and throws an `Unsupported operation Error`, and retains all objects in the list, if the list is a fixed-length list.
 
@@ -58,13 +52,13 @@ The Output is:
 3
 []
 0
-[1, 1, 1]
+[3, 3, 3]
 Uncaught Error: Unsupported operation: clear
 ```
 
 > **Notes:**
 >
->* The clear() method modifies the original list and does not create a new list.
->* After calling clear(), the list will have a length of 0.
->* If the list is already empty, calling clear() has no effect.
->* If the list is a fixed list, calling clear() will throw an error.
+>* The `clear()` method modifies the original list and does not create a new list.
+>* After calling `clear()`, the list will have a length of 0.
+>* If the list is already empty, calling `clear()` has no effect.
+>* If the list is a fixed list, calling `clear()` will throw an error.
