@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **String** is a sequence of characters \(such as letters, numbers, and symbols) that is used to represent text. It is a data type designed specifically for handling textual data. **Strings** are enclosed in single \(') or double \(") quotes.
+A **String** is a sequence of characters \(such as letters, numbers, and symbols) that is used to represent text. It is a data type designed specifically for handling textual data. Strings are enclosed in single \(') or double \(") quotes.
 
 Single-line strings are represented using single or double quotes.
 Triple quotes are used to represent multi-line strings.
