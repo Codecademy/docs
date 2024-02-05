@@ -30,12 +30,11 @@ void main() {
 }
 ```
 
-```
-void main() {
-  String variable_name = "This is a Dart string with double quotes.";
-  print(variable_name);
-}
-```
+The output is:
+
+```shell
+This is a Dart string with single quote.
+This is a Dart string with double quotes.
 
 ```
 void main() {
