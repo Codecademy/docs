@@ -35,17 +35,27 @@ The output is:
 ```shell
 This is a Dart string with single quote.
 This is a Dart string with double quotes.
+```
 
 ```dart
 void main() {
   String multiLineString = '''
     This is a multi-line
-    string in Dart using single quotes.
+    string in Dart using single quote.
     It allows you to write
     text across multiple lines.
   ''';
   print(multiLineString);
 }
+```
+
+The output is:
+
+```shell
+This is a multi-line
+string in Dart using single quote.
+It allows you to write
+text across multiple lines.
 ```
 
 ```dart
@@ -58,6 +68,15 @@ void main() {
   """;
   print(multiLineString);
 }
+```
+
+The output is:
+
+```shell
+This is a multi-line
+string in Dart using double quotes.
+It allows you to write
+text across multiple lines.
 ```
 
 - `void`: Indicates that the `main` function does not return any value. In Dart, a function's return type can be specified, and `void` means the function does not return anything.
@@ -78,6 +97,11 @@ void main() {
 }
 ```
 
+The output is:
+
+```shell
+Hello, my name is Alice and I am 30 years old.
+```
 
 It\'s important to escape single quotes in a string.
 
