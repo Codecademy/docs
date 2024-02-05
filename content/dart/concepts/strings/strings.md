@@ -78,19 +78,6 @@ void main() {
 }
 ```
 
-In the following example, triple single quotations are used for displaying the multiple-lined **string** statement:
-
-```
-void main() {
-  String multiLineString = '''
-    This is a multi-line
-    string in Dart.
-    It allows you to write
-    text across multiple lines.
-  ''';
-  print(multiLineString);
-}
-```
 
 It\'s important to escape single quotes in a string.
 
