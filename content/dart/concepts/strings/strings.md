@@ -36,7 +36,7 @@ The output is:
 This is a Dart string with single quote.
 This is a Dart string with double quotes.
 
-```
+```dart
 void main() {
   String multiLineString = '''
     This is a multi-line
