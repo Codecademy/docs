@@ -48,7 +48,7 @@ void main() {
 }
 ```
 
-```
+```dart
 void main() {
   String multiLineString = """
     This is a multi-line
