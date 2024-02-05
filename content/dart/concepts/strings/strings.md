@@ -23,7 +23,8 @@ Triple quotes are used to represent multi-line strings.
 
 ```dart
 void main() {
-  String variable_name = 'This is a Dart string with single quotes.';
+  String singleQuoteString = 'This is a Dart string with single quote.';
+  String doubleQuoteString = "This is a Dart string with double quotes."
   print(variable_name);
 }
 ```
