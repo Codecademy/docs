@@ -1,6 +1,6 @@
 ---
 Title: 'Visibility'
-Description: 'The visibility property shows or hides an element. If the element is hidden, it will still take up space within the page. css visibility: ;  The visibility property has three values. - visible: Shows the element. - hidden: Hides the element.'
+Description: 'The visibility property in CSS determines whether an element is visible or hidden within the page.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
