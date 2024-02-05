@@ -69,7 +69,7 @@ void main() {
 
 In the following example, the `string` statement is used to determine and print a message based on the value of the `String` variable `name` and `int` variable `age`:
 
-```
+```dart
 void main() {
   String name = "Alice";
   int age = 30;
