@@ -1,6 +1,6 @@
 ---
-Title: 'setAll'
-Description: 'Documentation for the .setAll() method in Dart, explaining its syntax, usage, and providing an example.'
+Title: '.setAll()'
+Description: 'Overwrites a specific range of elements within a list with new values.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
@@ -10,7 +10,7 @@ Tags:
   - 'Lists'
 CatalogContent:
   - 'learn-dart'
-  - 'introduction-to-dart'
+  - 'paths/computer-science'
 ---
 
 In Dart, the **`.setAll()`** method is a fundamental data structure that is used to overwrite a specific range of elements within a list with new values. It is particularly useful for updating specific sections of a list without changing its overall structure or size, ensuring efficient and precise modification of list data.
