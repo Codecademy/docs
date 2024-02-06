@@ -4,8 +4,6 @@ Description: 'Fitts' law states that the time taken to move to a target is deter
 Subjects:
   - 'Developer Tools'
   - 'Mobile Development'
-  - 'Web Design'
-  - 'Web Development'
 Tags:
   - 'Design'
   - 'UI'
