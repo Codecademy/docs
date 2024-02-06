@@ -13,9 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`clear()`** method in Dart is used to remove all elements from a List, leaving an empty list in its place. This method is handy when you need to reset or clear the contents of a List, making it ready for new data.
-
-This method does not return any value.
+The **`clear()`** method in Dart is used to remove all elements from a List, leaving an empty list in its place. This method is handy when you need to reset or clear the contents of a List, making it ready for new data. This method does not return any value.
 
 ## Syntax
 
