@@ -24,11 +24,11 @@ list.setAll(index, iterable)
 - `index`: An integer representing the starting index from where the elements should be replaced.
 - `iterable`: A collection of new elements that will replace the original elements from the starting index.
 
-## Example Usage of `.setAll()`
+## Example
 
-The following example demonstrates the use of the `.setAll()` method:
+In the following example, the `.setAll()` method is used to replace the elements at index 1 and 2 (`Banana` and `Cherry`) in the `fruits` list with `Grape` and `Kiwi` respectively:
 
-```
+```dart
 void main() {
   List<String> fruits = ['Apple', 'Banana', 'Cherry', 'Date'];
   print('Original List: $fruits');
@@ -37,10 +37,13 @@ void main() {
   fruits.setAll(1, ['Grape', 'Kiwi']);
   print('Updated List: $fruits');
 }
+```
 
-// Output:
-// Original List: [Apple, Banana, Cherry, Date]
-// Updated List: [Apple, Grape, Kiwi, Date]
+Here is the output for the above example:
+
+```shell
+Original List: [Apple, Banana, Cherry, Date]
+Updated List: [Apple, Grape, Kiwi, Date]
 ```
 
 In this example, `fruits.setAll(1, ['Grape', 'Kiwi'])` is used to replace the elements at index 1 and 2 ('Banana' and 'Cherry') with 'Grape' and 'Kiwi', respectively. This illustrates how `.setAll()` can effectively modify specific parts of a list.
