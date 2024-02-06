@@ -15,16 +15,14 @@ CatalogContent:
 
 In Dart, the **`.setAll()`** method is a fundamental data structure that is used to overwrite a specific range of elements within a list with new values. It is particularly useful for updating specific sections of a list without changing its overall structure or size, ensuring efficient and precise modification of list data.
 
-## Syntax of `.setAll()`
+## Syntax
 
-The general syntax of the `.setAll()` method is as follows:
-
+```pseudo
 list.setAll(index, iterable)
+```
 
 - `index`: An integer representing the starting index from where the elements should be replaced.
 - `iterable`: A collection of new elements that will replace the original elements from the starting index.
-
-This method replaces the elements of the list starting from the specified `index` with the elements of the provided `iterable`. The replacement continues until all elements in the `iterable` are used or the list ends.
 
 ## Example Usage of `.setAll()`
 
