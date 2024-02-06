@@ -45,7 +45,7 @@ void main() {
 }
 ```
 
-The Output of the above code is:
+The output of the above code is:
 
 ```shell
 [1, 1, 1]
