@@ -45,5 +45,3 @@ Here is the output for the above example:
 Original List: [Apple, Banana, Cherry, Date]
 Updated List: [Apple, Grape, Kiwi, Date]
 ```
-
-In this example, `fruits.setAll(1, ['Grape', 'Kiwi'])` is used to replace the elements at index 1 and 2 ('Banana' and 'Cherry') with 'Grape' and 'Kiwi', respectively. This illustrates how `.setAll()` can effectively modify specific parts of a list.
