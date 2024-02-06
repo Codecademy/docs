@@ -1,7 +1,6 @@
 ---
 Title: 'Fitts Law'
-Description: '
-Fitts' law states that the time taken to move to a target is determined by both the distance to the target and the size of the target.'
+Description: 'Fitts' law states that the time taken to move to a target is determined by both the distance to the target and the size of the target.'
 Subjects:
   - 'Developer Tools'
   - 'Mobile Development'
