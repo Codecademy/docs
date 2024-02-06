@@ -39,4 +39,4 @@ void main() {
   print(containsBanana);  // Output: true
 }
 ```
-In this example, the `.contains()` method is used to check if the string 'banana' is present in the fruits list. The method returns true since 'banana' is indeed included within the list.
+In this example, the `.contains()` method is used to check if the string 'banana' is present in the fruits list. The method returns true since 'banana' is indeed included within the list...
