@@ -1,6 +1,6 @@
 ---
 Title: 'List'
-Description: 'A list provides a way to organise and store a collection of items.'
+Description: 'A list provides a way to organize and store a collection of items.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -16,14 +16,14 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **list** provides a way to organise and store a collection of items. Simply, lists act as containers which are able to hold different pieces of data, such as strings, integers, boolean values or even other lists. Lists are a great way to organise related data in an easy to manipulate format.
-<!-- I think will be worth linking to other docs pages like 'strings' when they have been completed / submitted. -->
+A **list** provides a way to organize and store a collection of items. Simply, lists act as containers that can hold different pieces of data, such as strings, integers, boolean values, or even other lists. Lists are a great way to organize related data in an easy-to-manipulate format.
+<!-- I think will be worth linking to other docs pages like 'strings' when they have been completed/submitted. -->
 
 ## Syntax
 
 In Dart, there are two ways to create a list, there is the more prominently used method of `var` and the lesser used `List` class, both use square brackets (`[]`) and commas (`,`). The square brackets are used to define the data, whilst commas are used to separate the individual items.
 
-First, an example of utilising `var` to create a list:
+First, an example of utilizing `var` to create a list:
 
 ```dart
 // Create a list of strings
@@ -40,7 +40,7 @@ var nestedList = [
 ];
 ```
 
-Then, an example of utilising `List` to create a list:
+Then, an example of utilizing `List` to create a list:
 ```dart
 // Create a list of strings
 List favouriteFruits = ['Apple', 'Banana', 'Orange'];
@@ -56,14 +56,14 @@ List nestedList = [
 ];
 ```
 
->**Note:** As `var` is the predomintently used method to create lists in Dart, the rest of the examples will use this moving forward.
+>**Note:** As `var` is the predominantly used method to create lists in Dart, the rest of the examples will use this moving forward.
 
 In the above examples, there are three separate lists:
 - A list of strings
 - A list of integers
 - A nested list
 
-Each list includes the same data type. However, it is possible to create lists using a mix of data types.
+Each list includes the same data type. However, creating lists using a mix of data types is possible.
 
 ```dart
 // Create a list with mixed data types
@@ -79,9 +79,9 @@ There are two types of lists in Dart, fixed-length and growable. A fixed-length 
 var fixedLengthList = List(3);
 ```
 
->**Note:** If more than the specified number of items will result in an error.
+>**Note:** If more than the specified number of items are added, it will result in an error.
 
-When creating a fixed-length list, it starts off empty and needs items added to it. Adding too many items will result in an error. Fixed-length lists are useful when a known limit on list items is required ahead of time. This enforces the list to stay at the specified limit.
+When creating a fixed-length list, it starts empty and needs items added to it. Fixed-length lists are useful when a known limit on list items is required ahead of time. This enforces the list to stay at the specified limit.
 
 ```dart
 // Example of a growable list
@@ -94,7 +94,7 @@ Lists are very versatile sets of data and Dart provides ways to manage the data 
 
 ### Adding Data
 
-Adding items of data to lists utilising the following methods:
+Adding items of data to lists utilizing the following methods:
 - `(listname).add(item);` - This adds an item to the end of the list
 - `(listname).addAll(items);` - This adds multiple items to the end of the list
 
@@ -126,7 +126,7 @@ fixedLengthList[2] = 3; // Sets the 3rd item in the list as 3
 
 ### Removing Data
 
-Removing items of data from lists utilises the following methods:
+Removing items of data from lists utilizes the following methods:
 - `(listname).remove(item);` - This removes the first occurance of the specified item
 - `(listname).removeAt(1);` - This removes the item at the specified index
 - `(listname).removeLast();` - This removes the last item in the list
@@ -140,7 +140,7 @@ favouriteColors.removeLast(); // Removes the last item from the list
 ```
 
 ## Displaying List Data
-To display data held within a list the `print` method is used. This can be used to dislay the whole list, or specific items within the list.
+To display data held within a list the `print` method is used. This can be used to display the whole list, or specific items within the list.
 
 ```dart
 // Displaying a whole list
