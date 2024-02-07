@@ -19,8 +19,8 @@ The **insertAll()** method in Dart is a built-in list operation that allows for 
 
 ## Syntax
 
-![insertAll-dart-syntax](https://raw.githubusercontent.com/Codecademy/docs/main/media/<insertAll-dart-syntax>.<png>)
+![insertAll-dart-syntax](https://raw.githubusercontent.com/Codecademy/docs/main/media/insertAll-dart-syntax.png)
 
 ## Example
 
-![insertAll-dart-example](https://raw.githubusercontent.com/Codecademy/docs/main/media/<insertAll-dart-example>.<png>)
+![insertAll-dart-example](https://raw.githubusercontent.com/Codecademy/docs/main/media/insertAll-dart-example.png)
