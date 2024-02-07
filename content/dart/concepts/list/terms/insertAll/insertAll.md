@@ -19,8 +19,19 @@ The **insertAll()** method in Dart is a built-in list operation that allows for 
 
 ## Syntax
 
-![insertAll-dart-syntax](https://raw.githubusercontent.com/Codecademy/docs/main/media/insertAll-dart-syntax.png)
+```dart
+void insertAll(int index, Iterable<E> iterable)
+```
 
 ## Example
 
-![insertAll-dart-example](https://raw.githubusercontent.com/Codecademy/docs/main/media/insertAll-dart-example.png)
+```dart
+void main() {
+  List<int> numbers = [1, 2, 3, 4, 5];
+
+  // Inserting elements [6, 7, 8] starting from index 2
+  numbers.insertAll(2, [6, 7, 8]);
+
+  print(numbers); // Output: [1, 2, 6, 7, 8, 3, 4, 5]
+}
+```
