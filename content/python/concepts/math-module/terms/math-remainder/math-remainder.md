@@ -2,22 +2,19 @@
 Title: 'math.remainder()'
 Description: 'return the remainder of the division x/y.'
 Subjects: 
-  - 'Web Dev'
-  - 'App Dev'
+  - 'Developer Tools'
+  - 'Web Development'
+  - 'Discrete Math'
 Tags:
   - 'Math Methods'
   - 'Arithmetic'
   - 'Numbers'
 CatalogContent:
-  - 'learn-python'
-  - 'web development'
-  - 'app development' 
-  - 'path/ IT careers'
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
-The **`math.remainder()`** method is the remainder of the division **x/y**. It will return a **Float** value, representing the remainder.
-
-The remainder is the difference between *x* and the closest **Integer** multiple of *y*.
+The **`math.remainder()`** method is the remainder of the division `x/y`. It will return a float value, representing the remainder. The remainder is the difference between `x` and the closest integer multiple of `y`.
 
 ## Syntax
 
@@ -25,15 +22,15 @@ The remainder is the difference between *x* and the closest **Integer** multiple
 math.remainder(x,y)
 ```
 
-The **`math.remainder()`**  accepts two parameters :
-  - *x* : This is required and needs to be a numeric value. Is the number you want to divide
-  - *y* : This is required and needs to be a numeric value. Is the number you want to divide to.
+  - `x`: It is the number to be divided.
+  - `y`: It is the number by which `x` is divided.
 
-The Parameter *y* has to be a non-zero number or we will get a **`ValueError`**
+>**Note:** <br>
+>The Parameter `y` has to be a non-zero number or will return a **`ValueError`**
 
 ## Example 1
 
-In this example we will return the remainder between two **Integer** values.
+This example will return the remainder between two **Integer** values.
 
 ```python
 # Import math Library
@@ -43,15 +40,17 @@ import math
 print(math.remainder(10, 2))
 print(math.remainder(34, 3))
 ```
+
+The `output` for the above line of code will be:
+
 ```shell
-# Output 
-# 0.0
-# 1.0
+0.0
+1.0
 ```
 
 ## Example 2
 
-In this example we will return the remainder between two **Float** values.
+This example will return the remainder between two **Float** values.
 
 ```python
 # Import math Library
@@ -60,15 +59,17 @@ import math
 print(math.remainder(25.5, 5.7))
 print(math.remainder(58.9, 5.5))
 ```
+
+the `output` for the above line of code will be:
+
 ```shell
-# Output
-# 2.6999999999999993
-#-1.6000000000000014
+2.6999999999999993
+-1.6000000000000014
 ```
 
 ## Example 3
 
-We can use multiple `Methods` to convert the result to an **Integer** value.
+The use of multiple `Methods` can then convert the result to an **Integer** value.
 
 ```python
 # Import math Library
@@ -77,10 +78,12 @@ import math
 print(math.floor(math.remainder(25.5, 5.7)))
 print(math.ceil(math.remainder(25.5, 5.7)))
 ```
+
+The `output` for the above line of code will be:
+
 ```shell 
-# Output
-# Now will be 2
-# Now will be 3
+2
+3
 ```
 
 ## Codebyte Example
