@@ -47,7 +47,7 @@ operand1 operator operand2
 |                                      | `\|\|`     | Logical OR                                 |
 |                                      | `!`      | Logical NOT                                |
 | **Bitwise Operators**                | `&`      | Bitwise AND                                |
-|                                      | `|`      | Bitwise OR                                 |
+|                                      | `\|`      | Bitwise OR                                 |
 |                                      | `^`      | Bitwise XOR                                |
 |                                      | `~`      | Bitwise NOT                                |
 |                                      | `<<`     | Left shift                                 |
