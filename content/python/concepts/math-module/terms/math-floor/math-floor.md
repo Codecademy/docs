@@ -31,9 +31,12 @@ import math
 
 print(math.floor(134.2))
 
-# Output: 134
 ```
 
+The above code give the following output:
+
+```shell
+134
 ## Codebyte Example
 
 The following example is runnable and uses the `math.floor()` function to return the floor of a number:
@@ -42,8 +45,6 @@ The following example is runnable and uses the `math.floor()` function to return
 import math
 
 print(math.floor(4.2))
-# Output: 4
 
 print(math.floor(9.7))
-# Output: 9
 ```
