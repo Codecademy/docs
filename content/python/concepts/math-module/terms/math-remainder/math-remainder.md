@@ -96,15 +96,3 @@ print(math.remainder(22.5,5.6))
 
 print(math.floor(math.remainder(25.5,5.7)))
 ```
-
-
-
-
-
-
-
-
-
-
-
-  
