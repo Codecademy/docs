@@ -41,6 +41,7 @@ Error: Method not found: 'Queue'.
                                     ^^^^^
 Error: Compilation failed.
 ```
+
 ## Example
 
 In the following example, a queue is created and elements are inserted in the queue using the **.add()** method.
