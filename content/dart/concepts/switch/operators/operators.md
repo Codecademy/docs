@@ -44,7 +44,7 @@ operand1 operator operand2
 | **Type Test Operators**              | `is`     | True if the object has the specified type  |
 |                                      | `is!`    | True if the object does not have the specified type |
 | **Logical Operators**                | `&&`     | Logical AND                                |
-|                                      | `||`     | Logical OR                                 |
+|                                      | `\|\|`     | Logical OR                                 |
 |                                      | `!`      | Logical NOT                                |
 | **Bitwise Operators**                | `&`      | Bitwise AND                                |
 |                                      | `|`      | Bitwise OR                                 |
