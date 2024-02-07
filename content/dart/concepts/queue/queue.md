@@ -4,7 +4,7 @@ Description: 'A collection that can be manipulated at both ends.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
+Tags:
   - 'Classes'
   - 'Queues'
 CatalogContent:
@@ -22,12 +22,13 @@ Creating a queue:
 Queue queue_name = new Queue();
 ```
 
-You can also create a queue from an existing list:
+**Note:** You can also create a queue from an existing list:
 
 ```
 var queue_name = new Queue.from(list_name);
 ```
-It must be noted that to use a queue in a dart program you have to import "dart:collection" module. If you don’t do so then you will see the following error:
+
+**Note:** To use a queue in a dart program you have to import "dart:collection" module. If you don’t do so then you will see the following error:
 
 ```pseudo
 Error compiling to JavaScript:
