@@ -1,1 +1,1 @@
-content/c-sharp/concepts/inheritance/inheritance.md
+content/swift/concepts/structures/structures.md
