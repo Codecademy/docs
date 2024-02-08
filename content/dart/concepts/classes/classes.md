@@ -30,7 +30,7 @@ class ClassName {
 
  - The `class` keyword is used to create a class.
  - The class body encompasses the properties and methods of a class.
- - The name of the class "`ClassName`" comes after the keyword followed by braces. >**Note:** Class names must start with a capital letter.
+ - The name of the class "`ClassName`" comes after the keyword followed by braces. **Note:** Class names must start with a capital letter.
 
 ## Class Instances
 
@@ -53,9 +53,9 @@ class House {
   int? numberOfRooms;
 
 // method
-  void houseInfo() {
-    print("House color: $color.");
-    print("Number of rooms: $numberOfRooms.");
+void houseInfo() {
+  print("House color: $color.");
+  print("Number of rooms: $numberOfRooms.");
   }
 }
 
