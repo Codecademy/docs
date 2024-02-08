@@ -20,7 +20,7 @@ In Dart, **classes** are blueprints for creating objects. Classes are an integra
 
 ## Syntax
 
-```java
+```dart
 class ClassName {
   // class body
   // properties
@@ -40,38 +40,44 @@ A new object can be created by using the following syntax below:
 
 ## Syntax
 
-```java
+```dart
 ClassName objectName = ClassName();
 ```
 
 ## Example
 
-```java
-  class House {
+```dart
+class House {
 // properties
   String? color;
   int? numberOfRooms;
-  
 
 // method
   void houseInfo() {
-     print("House color: $color.");
+    print("House color: $color.");
     print("Number of rooms: $numberOfRooms.");
   }
 }
 
-  void main() {
-        // object 
-        House house = House();
-        house.color = "White";
-        house.numberOfRooms = 5;
-        house.houseInfo();
+void main() {
+  // object
+  House house = House();
+  house.color = "White";
+  house.numberOfRooms = 5;
+  house.houseInfo();
+}
+```
+
+The output of above example:
+
+```Shell
+House color: White.
+Number of rooms: 5.
 ```
 
  - the `House` class has two properties `color` and `numberOfRooms`.
  - the class also has a method called `houseInfo` which will print out the values of the two properties.
  - the `house` object in the main method is an instance of the `House` class.
- 
 
 ## Abstract Classes
 
@@ -81,19 +87,20 @@ In the syntax below, the `abstract` keyword is declared before the class keyword
 
 ## Syntax
 
-```java
+```dart
 abstract class ClassName {
   //Body of abstract class
   ...
 }
 ```
+
 ## Abstract Methods
 In Dart, an abstract method is defined as a method that is declared without implementation. Instead of a method body, an abstract method is declared using a semicolon (;).
 A non-abstract subclass that inherits from an abstract class must implement and overide all of its abstract methods.
 
 ## Example
 
-```java
+```dart
 abstract class Pet {
   // Abstract method
   void feed();
@@ -123,5 +130,13 @@ void main() {
 }
 ```
 
+The output of above example:
+
+```Shell
+Feeding dog...
+Feeding cat...
+```
+
  - In the example, the abstract class `Pet` has an abstract method called `feed()`. 
  - The non-abstract subclasses `Dog` and `Cat` inherit the abstract method and overrides it to print a message.
+   
