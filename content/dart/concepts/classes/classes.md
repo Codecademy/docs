@@ -8,7 +8,7 @@ Tags:
   - 'Constructors'
   - 'Data Types'
   - 'Inheritance'
-  = 'Methods'
+  - 'Methods'
   - 'Objects'
   - 'OOP'
 CatalogContent:
