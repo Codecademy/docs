@@ -23,7 +23,6 @@ list-name.join('separator')
 
  - `separator`: It separate elements in a list using any characters wrapped with single/double quotes. White spaces can be used but aren't obligatory.
 
-
 ## Example 1
 
 The following code snippet demonstrates the `.join` method:
