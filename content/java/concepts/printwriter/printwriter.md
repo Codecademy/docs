@@ -5,7 +5,7 @@ Subjects:
 Tags: 
   - 'PrintWriter'
   - 'File Handling'
-  - 'Java Basics'
+  - 'Java'
 CatalogContent: 
   - 'learn-java'
   - 'paths/computer-science'
