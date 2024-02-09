@@ -24,7 +24,7 @@ Queue queue_name = new Queue();
 
 You can also create a queue from an existing list:
 
-```
+```pseudo
 var queue_name = new Queue.from(list_name);
 ```
 
