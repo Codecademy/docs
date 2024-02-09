@@ -23,7 +23,6 @@ There are numerous code editors available, such as:
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Sublime Text](https://www.sublimetext.com/)
-- [Atom](https://atom.io/)
 - [Notepad++](https://notepad-plus-plus.org/)
 
 Which code editor program to use is really up to the individual developer's preferences.
