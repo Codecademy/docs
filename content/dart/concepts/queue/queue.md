@@ -18,7 +18,7 @@ A **Queue** is a type of collection that supports operations at both ends. Data 
 
 Creating a queue:
 
-```
+```pseudo
 Queue queue_name = new Queue();
 ```
 
