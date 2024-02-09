@@ -27,7 +27,6 @@ list-name.join('separator')
 
 The following code snippet demonstrates the `.join` method:
 
-
 ```dart
 void main() {
 
