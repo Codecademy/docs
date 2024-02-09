@@ -176,7 +176,6 @@ Integers
 Interface
 iOS
 Iterators
-Java Basics
 Join
 jQuery
 JRuby
@@ -250,7 +249,6 @@ Precedence
 Preprocessor
 Primary Key
 Print
-PrintWriter
 Probability
 Promise
 Properties
