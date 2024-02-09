@@ -21,7 +21,9 @@ The **`.join()`** method concatenates (combines) list elements as a string inclu
 ```pseudo
 list-name.join('separator')
 ```
- - `separator`: The parameter which separates elements in a list by using any characters wrapped with single/double quotes. White spaces can be used but aren't obligatory.
+
+ - `separator`: It separate elements in a list using any characters wrapped with single/double quotes. White spaces can be used but aren't obligatory.
+
 
 ## Example 1
 
