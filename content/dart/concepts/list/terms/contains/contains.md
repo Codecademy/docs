@@ -1,42 +1,46 @@
 ---
 Title: '.contains()' 
-
-Description: 'determines whether a specified element is present in a list.'
-
+Description: 'Determines whether a specified element is present in a list.'
 Subjects: 
   - 'Code Foundations'
   - 'Computer Science'
-  - 'Developer Tools'
-
 Tags: 
   - 'Dart'
   - 'Development'
-  - 'Lists'
-  
+  - 'Lists'  
 CatalogContent: 
   - 'learn-dart'
   - 'paths/computer-science'
 ---
 
-The ***`List.contains()`*** method determines whether a specified element is present in a list. It returns a boolean value: true if the element is found in the list, and false otherwise.
+The **`.contains()`** method determines whether a specified element is present in a list. It returns a Boolean value of `true` if the element is found in the list and `false` if it happens otherwise.
 
 ## Syntax
+
 ```preudo
-bool contains(Object element)
+list.contains(element)
 ```
-* `element`: The element to search for within the list.
-* `bool`: A boolean value indicating whether the specified `element` is present (true) or not present (false) in the list.
+
+* `list`: The name of the list that needs to be searched.
+* `element`: The element that needs to be searched.
 
 ## Example
 
-```
+In this example, the `.contains()` method is used to check if the string `banana` is present in the `fruits` list: 
+
+```dart
 void main() {
   List<String> fruits = ['apple', 'banana', 'orange'];
 
-  // Check if the list contains 'banana'
+  // The .contains() method searches for the element 'banana' in the 'fruits' list
   bool containsBanana = fruits.contains('banana');
 
-  print(containsBanana);  // Output: true
+  print(containsBanana);  
 }
 ```
-In this example, the `.contains()` method is used to check if the string 'banana' is present in the fruits list. The method returns true since 'banana' is indeed included within the list...
+
+Here is the output for the above code:
+
+```shell
+true
+```
