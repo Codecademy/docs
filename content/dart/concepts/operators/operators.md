@@ -60,7 +60,7 @@ operand1 operator operand2
 |                                       | `%=`     | Modulus and Assign                                  |
 |                                       | `~/=`    | Truncating Divide and Assign                        |
 
-## Example:
+## Example
 
 Here is a simple Dart program that demonstrates the use of various operators:
 
