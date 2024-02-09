@@ -22,7 +22,7 @@ Creating a queue:
 Queue queue_name = new Queue();
 ```
 
-**Note:** You can also create a queue from an existing list:
+You can also create a queue from an existing list:
 
 ```
 var queue_name = new Queue.from(list_name);
