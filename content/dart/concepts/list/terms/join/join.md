@@ -25,7 +25,8 @@ list-name.join('separator')
 
 ## Example 1
 
-The next snippet depicts an occurrence of erased separators entirely:
+The following code snippet demonstrates the `.join` method:
+
 
 ```dart
 void main() {
