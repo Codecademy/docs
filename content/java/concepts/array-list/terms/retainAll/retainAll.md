@@ -61,6 +61,7 @@ The above example gives the following output:
 List 1 after retainAll : [banana]
 List 2 after retainAll : [banana, grape, mango]
 ```
-On applying, retainAll() to List 1, List 1 contains only "banana" because it is common in both List 1 and List 2, while List 2 remains unchanged.
+
+On applying, `.retainAll()` to `list1`, `list2` contains only "banana" because it is common in both `list1` and `list2`, while the second list remains unchanged.
 
 
