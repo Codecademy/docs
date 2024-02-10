@@ -29,6 +29,7 @@ effectively removing any elements from B that are not present in c.
 
 
 ## Example
+
 The below example demonstrates the use of retainAll().
 ```java
 // File: RetainAllExample.java
