@@ -55,7 +55,7 @@ public class RetainAllExample{
 }
 ```
 
-The above example gives following output:
+The above example gives the following output:
 
 ```shell
 List 1 after retainAll : [banana]
