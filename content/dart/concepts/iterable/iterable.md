@@ -13,13 +13,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-An **iterable** is a collection of elements that can be accessed sequentially. Dart uses the Iterable<E> abstract class to represent iterable objects.
+An **iterable** is a group of elements which can be retrieved sequentially. Dart makes use of the `Iterable<E>` abstract class for representing iterable objects. The elements inside these objects can be traversed using the `for-in` loop.
 
-An iterable object has an iterator getter that returns an iterator object. The iterable object uses the iterator to step through its elements.
-
-Each time you access the iterator getter, the iterable object returns a new iterator. For this reason, you can create more than one iterator from the same iterable object.
-
-If an object is iterable, you can use the for-in statement to iterate over its elements.
+An iterable object consists of an iterator getter, which returns an iterator object. The returned iterator is then used by the iterable object for element traversal. Each time the iterator getter is accessed, a new iterator is returned by the iterable object. This means that more than one iterator can be returned by the same iterable object.
 
 ## Example
 
