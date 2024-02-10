@@ -21,10 +21,6 @@ Each time you access the iterator getter, the iterable object returns a new iter
 
 If an object is iterable, you can use the for-in statement to iterate over its elements.
 
-## Syntax
-
-[Text, code, images, parameters, etc. about the syntax]
-
 ## Example
 
 In the following example, an iterable object is iterated over using the `for-in` loop and its elements are printed to the terminal:
