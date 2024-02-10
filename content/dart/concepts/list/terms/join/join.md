@@ -14,7 +14,6 @@ CatalogContent:
 ---
 
 The **`.join()`** method concatenates (combines) list elements as a string including various separators between them dependent on a user's need.
- 
 
 ## Syntax
 
