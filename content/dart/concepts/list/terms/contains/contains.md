@@ -17,12 +17,12 @@ The **`.contains()`** method determines whether a specified element is present i
 
 ## Syntax
 
-```preudo
+```pseudo
 list.contains(element)
 ```
 
-* `list`: The name of the list that needs to be searched.
-* `element`: The element that needs to be searched.
+- `list`: The name of the list that needs to be searched.
+- `element`: The element that needs to be searched.
 
 ## Example
 
