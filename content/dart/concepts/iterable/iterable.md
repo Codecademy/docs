@@ -27,7 +27,7 @@ If an object is iterable, you can use the for-in statement to iterate over its e
 
 ## Example
 
-Since List and Set are iterable, you can use the for-in statement to iterate over their elements. For example:
+In the following example, an iterable object is iterated over using the `for-in` loop and its elements are printed to the terminal:
 
 void main() {
 Iterable<int> iterable = [1, 2, 3, 4, 5];
