@@ -1,16 +1,16 @@
 ---
 Title: 'Iterable'
-
-Description: '**Iterable** is an object which can be looped over or iterated over with the help of a for loop. Objects like lists, tuples, sets, dictionaries, strings, etc. are called iterables. In short and simpler terms, iterable is anything that you can loop over.'
+Description: 'An iterable is a group of elements which can be retrieved sequentially.'
 Subjects:
-  - Data Science
+  - 'Data Science'
 Tags:
+  - 'Dart'
   - 'Data'
   - 'Objects'
   - 'Loops'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
-  - 'learn-example-course'
-  - 'paths/example-path'
+CatalogContent:
+  - 'learn-dart'
+  - 'paths/computer-science'
 ---
 
 An **iterable** is a collection of elements that can be accessed sequentially. Dart uses the Iterable<E> abstract class to represent iterable objects.
