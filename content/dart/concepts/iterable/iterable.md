@@ -21,13 +21,14 @@ An iterable object consists of an iterator getter, which returns an iterator obj
 
 In the following example, an iterable object is iterated over using the `for-in` loop and its elements are printed to the terminal:
 
+```dart
 void main() {
-Iterable<int> iterable = [1, 2, 3, 4, 5];
-for (var n in iterable) {
-print(n);
+  Iterable<int> iter = [12, 23, 34, 45, 56];
+  for (var num in iter) {
+    print(num);
+  }
 }
-}
-Code language: Dart (dart)
+```
 
 Here is the output for the above code:
 
