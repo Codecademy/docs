@@ -21,11 +21,11 @@ The **`.join()`** method concatenates (combines) list elements as a string inclu
 ```pseudo
 list-name.join('separator')
 ```
- - `separator`: The parameter which separates elements in a list by using any characters wrapped with single/double quotes. White spaces can be used but aren't obligatory.
+ - `separator`: It separates elements in a list using any characters wrapped with single/double quotes. White spaces can be used but aren't obligatory.
 
 ## Example 1
 
-The next snippet depicts an occurrence of erased separators entirely:
+The following code snippet demonstrates the `.join()` method using a separator without white spaces:
 
 ```dart
 void main() {
