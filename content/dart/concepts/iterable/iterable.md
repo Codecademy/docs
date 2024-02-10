@@ -33,30 +33,12 @@ print(n);
 }
 Code language: Dart (dart)
 
-In this example, we assign a list to an iterable and use the for-in loop to display the elements.
+Here is the output for the above code:
 
-The first and last properties return the first and last elements respectively. For example:
-
-void main() {
-Iterable<int> iterable = [1, 2, 3, 4, 5];
-print(iterable.first);
-print(iterable.last);
-}
-Code language: Dart (dart)
-
-Unlike a list, you cannot access an element via an iterable object using the square brackets []. Instead, you use the elementAt() method:
-
-void main() {
-Iterable<int> iterable = [1, 2, 3, 4, 5];
-print(iterable.elementAt(1));
-}
-Code language: Dart (dart)
-
-Output:
-
-2
-
-## Summary
-
-    An iterable is a collection of elements that can be accessed sequentially.
-    Dart uses the Iterable<E> abstract class to represent iterable objects.
+```shell
+12
+23
+34
+45
+56
+```
