@@ -36,5 +36,5 @@ Some examples of Licences include the following:
 
 
 
-A full list of OSI licences can be on their [website](https://opensource.org/licenses/).
+A full list of OSI licences can be found on their [website](https://opensource.org/licenses/).
 
