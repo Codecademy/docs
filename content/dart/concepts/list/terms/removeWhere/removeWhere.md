@@ -18,7 +18,7 @@ The **.removeWhere()** method removes elements from a list, based on a given con
 void removeWhere(bool Function(E element) test)
 ```
 
-The '.removeWhere()' method takes in a bool function as an argument, where the function defines the condition. Values in the list are removed if the condition evaluates to 'true'.
+The '.removeWhere()' method takes in a `bool` function as an argument, where the function defines the condition. Values in the list are removed if the condition evaluates to 'true'.
 ## Example
 
 ```dart
