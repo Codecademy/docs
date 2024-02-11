@@ -26,7 +26,7 @@ list.setAll(index, iterable)
 
 ## Example
 
-In the following example, the `.setAll()` method is used to replace the elements at index 1 and 2 (`Banana` and `Cherry`) in the `fruits` list with `Grape` and `Kiwi` respectively:
+In the following example, the `.setAll()` method is used to replace the elements at index 1 and 2 (`Banana` and `Cherry`) in the `fruits` list with `Grape` and `Kiwi` respectively.
 
 ```dart
 void main() {
