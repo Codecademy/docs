@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/code-foundations'
 ---
 
-**Open Source Licences** are licences regulated by the *Open Source Initiative (OSI)*. These documents are building blocks of the open-source software movement, allowing for the free exchange of ideas and collaborative development. They allow the software to be freely used, modified, and shared while also ensuring the original authors' credit is maintained.
+**Open Source Licences** are licences regulated by the *Open Source Initiative (OSI)*. These documents are the building blocks of the open-source software movement, allowing for the free exchange of ideas and collaborative development. They allow the software to be freely used, modified, and shared while also ensuring the original authors' credit is maintained.
 
 ## Examples
 
