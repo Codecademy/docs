@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Dart, the **`.setAll()`** method is a fundamental data structure that is used to overwrite a specific range of elements within a list with new values. It is particularly useful for updating specific sections of a list without changing its overall structure or size, ensuring efficient and precise modification of list data.
+In Dart, the **`.setAll()`** method is a fundamental method that is used to overwrite a specific range of elements within a list with new values. It is particularly useful for updating specific sections of a list without changing its overall structure or size, ensuring efficient and precise modification of list data.
 
 ## Syntax
 
