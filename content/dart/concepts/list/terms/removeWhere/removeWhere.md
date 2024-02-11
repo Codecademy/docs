@@ -10,7 +10,7 @@ Tags:
 CatalogContent:
   - 'learn-dart'
   - 'paths/computer-science'
-
+---
 The **.removeWhere()** method removes elements from a list, based on a given condition that is provided as an argument. 
 
 ## Syntax
