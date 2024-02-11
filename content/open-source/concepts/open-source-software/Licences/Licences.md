@@ -21,7 +21,7 @@ Some examples of Licences include the following:
 
 |                                            Name                                               |           APDX ID            |
 | :-------------------------------------------------------------------------------------------: | :--------------------------: |
-| [Apache Licence, Ver. 2.0](https://opensource.org/license/apache-2-0/)                        |         Apache-2.0           |
+| [Apache Licence, Version 2.0](https://opensource.org/license/apache-2-0/)                        |         Apache-2.0           |
 | [Common Development and Distribution License 1.0](https://opensource.org/license/cddl-1-0/)   |         CDDL-1.0             |
 | [Eclipse Public License version 2.0](https://opensource.org/license/epl-2-0/)                 |         EPL-2.0              |
 | [GNU General Public License version 2](https://opensource.org/license/gpl-2-0/)               |         GPL-2.0              |
