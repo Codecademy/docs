@@ -45,6 +45,7 @@ class Home:
     self.rooms = rooms
     self.stories = stories
 ```
+Self always refers to the object, not the class. An object is an instance of the class.
 
 ### Class Instances
 
