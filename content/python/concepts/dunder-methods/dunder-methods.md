@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Double-underscore**, or **"dunder", methods** use a special syntax to perform [class](https://www.codecademy.com/resources/docs/python/classes)-specific operations in Python, including the following:
+**Double-underscore**, or **"dunder", or **"magic"**  methods** use a special syntax to perform [class](https://www.codecademy.com/resources/docs/python/classes)-specific operations in Python, including the following:
 
 - Performing arithmetic operations on numeric-type attributes.
 - Initializing a new class instance and binding any necessary attributes.
