@@ -38,6 +38,7 @@ The above code give the following output:
 ```shell
 134
 ```
+
 ## Codebyte Example
 
 The following example is runnable and uses the `math.floor()` function to return the floor of a number:
