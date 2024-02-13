@@ -19,7 +19,7 @@ The **.toLocaleString()** date method returns a string of a given [`Date` object
 ```js
 date.toLocaleString(locale, options)
 ```
-The parameters `locale` and `options` can be used. `Locale` is represented by a language subtag and a region subtag (i.e. `en-US`). `Options` is an object defining the format for `weekday`, `year`, `month`, `day`, `dayPeriod`, `hour`, `minute`, `second` and `fractionalSecondDigits`. If undefined, the default setting is "numeric".
+The parameters `locale` and `options` can be used. `Locale` is represented by a language subtag and a region subtag (i.e. `en-US`). `Options` is an object defining the format for `weekday`, `year`, `month`, `day`, `dayPeriod`, `hour`, `minute`, `second`, and `fractionalSecondDigits`. If undefined, the default setting is "numeric".
 
 ## Example
 
@@ -28,10 +28,8 @@ const date = new Date(Date.UTC(1963, 10, 22, 17, 30, 0));
 
 // Using Locales
 console.log(date.toLocaleString("en-US"));
-// "11/22/1963, 12:30:00 PM"
 
 console.log(date.toLocaleString("ko-KR"));
-// 1963. 12. 22. 오전 12:30:00
 
 // Using Options
 const options = {
@@ -42,11 +40,9 @@ const options = {
 };
 
 console.log(date.toLocaleString(options))
-// 11/22/1963, 12:30:00 PM
 ```
 
 ## Codebyte Example
-
 In the following example, the variables `locale` and `options` can be modified to print the `Date` in a custom format:
 
 ```codebyte/javascript
