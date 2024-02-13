@@ -36,7 +36,7 @@ JavaScript uses seven primitive data types that are listed in the table below:
 
 > **Note:** The `null` type cannot be tested with `typeof` like all the other primitive types because it will return `"object"`. This must be tested with the type equality operator (i.e., `=== null`).
 
-## Number and BigInt  
+## Number and BigInt
 
 In JavaScript, numbers are always stored as double-precision floating point numbers.
 
@@ -57,9 +57,9 @@ This will output the following:
 ```shell
 10000000000000000
 9999999999999999n
-```  
+```
 
-The integer precision for the `Number` type is `15 digits`. The following example is runnable: 
+The integer precision for the `Number` type is `15 digits`. The following example is runnable:
 
 ```codebyte/javascript
 let x = 999999999999999;
@@ -67,7 +67,7 @@ let y = 9999999999999999;
 console.log(x);
 console.log(y);
 ```
-  
+
 ## String
 
 Strings in JavaScript can be defined with either `' '` or `" "`.
@@ -96,7 +96,7 @@ let isTheEarthFlat = false;
 To convert a non-boolean value into a boolean, the `Boolean` function or double not `!!` is used. Run the following code block to see how `Boolean()` works:
 
 ```codebyte/javascript
-let value = Boolean('Harry'); 
+let value = Boolean('Harry');
 console.log(value);
 ```
 
@@ -112,22 +112,22 @@ let finishCourseTime = undefined;
 let finishStudyingDate = null;
 ```
 
-A function also outputs `undefined` when no value is returned. 
+A function also outputs `undefined` when no value is returned.
 
 ```codebyte/javascript
 function help() {
   // no return statement
 }
-console.log(help()); 
+console.log(help());
 ```
 
-The same function outputs `null` when null is returned. 
+The same function outputs `null` when null is returned.
 
 ```codebyte/javascript
 function help() {
   return null;
 }
-console.log(help()); 
+console.log(help());
 ```
 
 ## Object
