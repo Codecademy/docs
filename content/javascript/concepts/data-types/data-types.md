@@ -142,7 +142,7 @@ const user = {
 };
 ```
 
-Alternately, an empty `object` can be initialized and the the properties added to the object. Run the code below to see it in action:
+Alternatively, an empty `object` can be initialized and the the properties added to the object. Run the code below to see it in action:
 
 ```codebyte/javascript
 const person = {};
