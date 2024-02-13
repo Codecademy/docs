@@ -77,7 +77,7 @@ let greeting = 'Hi buddy';
 let message = 'You are doing great! Keep studying!';
 ```
 
-To find the length of the string, the built-in `length` property is used.
+To find the length of the string, the built-in `length` property is used. Run the following example to get a better idea:
 
 ```codebyte/javascript
 let text = "abracadabra";
@@ -93,7 +93,7 @@ let lateToWork = true;
 let isTheEarthFlat = false;
 ```
 
-To convert a non-boolean value into a boolean, the `Boolean` function or double not `!!` is used.
+To convert a non-boolean value into a boolean, the `Boolean` function or double not `!!` is used. Run the following code block to see how `Boolean()` works:
 
 ```codebyte/javascript
 let value = Boolean('Harry'); 
@@ -142,7 +142,7 @@ const user = {
 };
 ```
 
-Alternately, an empty `object` can be initialised and then the properties added to the object.
+Alternately, an empty `object` can be initialized and the the properties added to the object. Run the code below to see it in action:
 
 ```codebyte/javascript
 const person = {};
