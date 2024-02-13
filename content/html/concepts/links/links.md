@@ -25,26 +25,26 @@ The [`<a>`](https://www.codecademy.com/resources/docs/html/elements/a) anchor ta
 Text wrapped in a linked anchor tag becomes a hyperlink to another page:
 
 ```html
-<!-- Creating a text link -->
+<!-- Creating a hyperlink to another page-->
 
 <a href="https://www.codecademy.com/pages/contribute-docs">Contribute to Docs</a>
 ```
-In the example, the text "Contribute to Docs" on the upper-right corner of this page is a hyperlink to another page.
+In this example, the text "Contribute to Docs" on the upper-right corner of this page is a hyperlink to another page.  Upon double-clicking, the hyperlink will take you to the page indicated.
 
-![Text Link](./main/media/text-link.png)
+![Text Link](https://www.loom.com/share/2f821af4d3a442b58c2db73a20a78862?sid=3f624d82-425a-4afc-bc8d-7f97ad055c63)
 
 ### Internal Links
 
 Anchor tags can be used to link to certain parts of a page with a matching `id` attribute:
 
 ```html
-<!-- Creating a text link -->
+<!-- Creating an internal link -->
 
 <a href="#open positions">Open Positions</a>
 ```
-In the example, the anchor tag is both an image and an internal link that points further down the same page:
+In this example, the anchor tag called "Open Positions" is both an image (in this case, a button) and an internal link that points further down the same page where open positions are listed:
 
-![Internal Link](./main/media/open-positions.png)
+![Internal Link](https://www.loom.com/share/5677ad0849774f37946bcb6fd222ff4a)
 
 ### Image Links
 
@@ -53,10 +53,12 @@ Anything that is inside the anchor tag will be treated as a link. In this case, 
 ```html
 <!-- Creating an image link -->
 
-<a href="http://www.codecademy.com"> <img src="logo.jpg" />Click this image </a>
+<a href="http://www.codecademy.com"> <img src="logo.jpg" />Codecademy Logo</a>
 ```
 
-![Image Link](./main/media/logo.png)
+In this example, the anchor tag is an image of the Codecademy logo. Upon double clickign the image, the suer will be taken to the Codecademy home page:
+
+![Image Link](https://www.loom.com/share/9b3c6a9dd7fc458ca9ab439934e75f83?sid=bb8011b6-436a-4121-baa7-d198b6461a9f)
 
 ### Email and Phone Links
 
