@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.addAll()` method is declared in the [`Set`](https://www.codecademy.com/resources/docs/java/set) interface and is implemented in the [`HashSet`](https://www.codecademy.com/resources/docs/java/hashset) class. It is used to add all of the elements in the specified [`collection`](https://www.codecademy.com/resources/docs/java/collection) to this set if they're not already present. The function returns a boolean value `true` if the elements are added successfully, and `false` if not.
+The `.addAll()` method is declared in the `Set` interface and is implemented in the [`HashSet`](https://www.codecademy.com/resources/docs/java/hashset) class. It is used to add all of the elements in the specified [`collection`](https://www.codecademy.com/resources/docs/java/collection) to this set if they're not already present. The function returns a boolean value `true` if the elements are added successfully, and `false` if not.
 
 ## Syntax
 
