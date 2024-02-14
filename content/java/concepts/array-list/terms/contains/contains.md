@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.contains()` method is used for checking if the specified element is present in `ArrayList` or not. It will return true if the element is present; otherwise, it will return false.
+The **`.contains()`** method is used for checking if the specified element is present in `ArrayList` or not. It will return true if the element is present; otherwise, it will return false.
 
 ## Syntax
 
