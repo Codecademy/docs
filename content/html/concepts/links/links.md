@@ -29,9 +29,9 @@ Text wrapped in a linked anchor tag becomes a hyperlink to another page:
 
 <a href="https://www.codecademy.com/pages/contribute-docs">Contribute to Docs</a>
 ```
-In this example, the text "Contribute to Docs" on the upper-right corner of this page is a hyperlink to another page.  Upon double-clicking, the hyperlink will take you to the page indicated.
+In this example, the text "Contribute to Docs" on the upper-left corner of this page is a hyperlink to another page.  Upon double-clicking, the hyperlink will take you to the page indicated.
 
-![Text Link](https://www.loom.com/share/2f821af4d3a442b58c2db73a20a78862?sid=3f624d82-425a-4afc-bc8d-7f97ad055c63)
+![Text Link](https://raw.githubusercontent.com/Codecademy/docs/main/media/text-link.gif)
 
 ### Internal Links
 
@@ -44,7 +44,7 @@ Anchor tags can be used to link to certain parts of a page with a matching `id` 
 ```
 In this example, the anchor tag called "Open Positions" is both an image (in this case, a button) and an internal link that points further down the same page where open positions are listed:
 
-![Internal Link](https://www.loom.com/share/5677ad0849774f37946bcb6fd222ff4a)
+![Internal Link](https://raw.githubusercontent.com/Codecademy/docs/main/media/open-positions.gif)
 
 ### Image Links
 
@@ -58,7 +58,7 @@ Anything that is inside the anchor tag will be treated as a link. In this case, 
 
 In this example, the anchor tag is an image of the Codecademy logo. Upon double clickign the image, the suer will be taken to the Codecademy home page:
 
-![Image Link](https://www.loom.com/share/9b3c6a9dd7fc458ca9ab439934e75f83?sid=bb8011b6-436a-4121-baa7-d198b6461a9f)
+![Image Link](https://raw.githubusercontent.com/Codecademy/docs/main/media/logo.gif)
 
 ### Email and Phone Links
 
