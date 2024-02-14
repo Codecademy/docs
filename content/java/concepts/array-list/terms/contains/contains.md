@@ -24,7 +24,7 @@ arrayListInstance.contains(o);
 
 ## Example
 
-In the example below, an empty `ArrayList` instance `fruitList` is created and can hold `String`-type elements. Next, a few fruit names are added with the [`.add()`](https://www.codecademy.com/resources/docs/java/array-list/add) method. Lastly, the presence of two fruit names is checked in the `ArrayList` with the `.contains()` method:
+In the example below, an empty `ArrayList` instance `fruitList` is created and can hold `String` type elements. Next, a few fruit names are added with the [`.add()`](https://www.codecademy.com/resources/docs/java/array-list/add) method. Lastly, the presence of two fruit names is checked in the `ArrayList` with the `.contains()` method:
 
 ```java
 import java.util.ArrayList;
