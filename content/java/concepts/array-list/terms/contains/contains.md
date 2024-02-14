@@ -49,7 +49,7 @@ public class Fruits {
 }
 ```
 
-The output should look like this:
+The output of the above will look like this:
 
 ```shell
 Fruit list contains oranges: false
