@@ -1,14 +1,14 @@
 ---
-Title: '.contains()' 
+Title: '.contains()'
 Description: 'Determines whether a specified element is present in a list.'
-Subjects: 
+Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-Tags: 
+Tags:
   - 'Dart'
   - 'Development'
-  - 'Lists'  
-CatalogContent: 
+  - 'Lists'
+CatalogContent:
   - 'learn-dart'
   - 'paths/computer-science'
 ---
@@ -26,7 +26,7 @@ list.contains(element)
 
 ## Example
 
-In this example, the `.contains()` method is used to check if the string `banana` is present in the `fruits` list: 
+In this example, the `.contains()` method is used to check if the string `banana` is present in the `fruits` list:
 
 ```dart
 void main() {
@@ -35,7 +35,7 @@ void main() {
   // The .contains() method searches for the element 'banana' in the 'fruits' list
   bool containsBanana = fruits.contains('banana');
 
-  print(containsBanana);  
+  print(containsBanana);
 }
 ```
 
