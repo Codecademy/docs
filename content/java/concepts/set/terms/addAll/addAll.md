@@ -67,4 +67,4 @@ The above example will give the following output:
 Combined Shopping List: [Bread, Grapes, Bananas, Apples, Milk]
 ```
 
-In the above example both set contains `Bananas`, however the `combinedShoppingList` set contain it only once.
+In the above example, both sets contain `Bananas`, however, the `combinedShoppingList` set contains it only once.
