@@ -1,6 +1,6 @@
 ---
 Title: '.contains()'
-Description: 'To check if an element is present in the list or not.'
+Description: 'Checks if an element is present in the ArrayList or not.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
