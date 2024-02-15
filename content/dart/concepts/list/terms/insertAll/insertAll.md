@@ -18,9 +18,12 @@ The **`.insertAll()`** method in Dart is a built-in **List** operation that allo
 
 ## Syntax
 
-```dart
+```pseudo
 void insertAll(int index, Iterable<E> iterable)
 ```
+
+- `index`: The index where the elements need to be inserted.
+- `iterable`: The elements that need to be inserted.
 
 ## Example
 
