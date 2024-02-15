@@ -27,7 +27,7 @@ List.remove(value)
 
 ## Example
 
-In the following example, the `.remove()` method is used to delete the first occurrence of value `1` from `list` variable:
+In the following example, the `.remove()` method is used to delete the first occurrence of value 1 from the `list` variable:
 
 ```dart
 void main() {
