@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Dart, the **`.getRange()`** method is used to get a specific section of elements from a list. This method is useful for picking out a series of elements by their positions without changing the original list. It gives back an `Iterable` that covers from the starting index to, but not including, the ending index. This makes it perfect for tasks where you need just a part of the list's elements.
+In Dart, the **`.getRange()`** method is used to get a specific section of elements from a list. It is useful for picking out a series of elements by their positions without changing the original list. It gives back an `Iterable` that covers from the starting index to, but not including, the ending index. This makes it perfect for tasks where you need just a part of the list's elements.
 
 ## Syntax
 
