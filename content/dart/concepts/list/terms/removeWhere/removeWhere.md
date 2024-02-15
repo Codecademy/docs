@@ -10,15 +10,15 @@ Tags:
 CatalogContent:
   - 'learn-dart'
   - 'paths/computer-science'
-
-The **.removeWhere()** method removes elements from a list, based on a given condition that is provided as an argument. 
+---
+The **.removeWhere()** method removes elements from a list, based on a given condition that is provided as an argument.
 
 ## Syntax
 ```pseudo
 void removeWhere(bool Function(E element) test)
 ```
 
-The '.removeWhere()' method takes in a bool function as an argument, where the function defines the condition. Values in the list are removed if the condition evaluates to 'true'.
+The '.removeWhere()' method takes in a `bool` function as an argument, where the function defines the condition. Values in the list are removed if the condition evaluates to 'true'.
 ## Example
 
 ```dart
@@ -30,4 +30,4 @@ numbers.removeWhere((int number) => number % 2 ==0);
 
 print(numbers); // Output: [2,4,6,8,10]
 }
-```
+
