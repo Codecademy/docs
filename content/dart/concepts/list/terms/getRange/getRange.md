@@ -22,7 +22,7 @@ list.getRange(start, end)
 ```
 
 - `start`: An integer representing the starting index of the range to be retrieved.
-- `end`: An integer indicating the end index of the range, exclusive.
+- `end`: An integer indicating the end index of the range (exclusive).
 
 ## Example
 
