@@ -5,6 +5,7 @@ Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
+  - 'Dart'
   - 'Classes'
   - 'Queues'
 CatalogContent:
@@ -12,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **Queue** is a type of collection that supports operations at both ends. Data is added to one end and removed from the other, following a "first in, first out" (FIFO) principle.
+A **queue** is a type of collection that supports operations at both ends. Data is added to one end and removed from the other, following a "first in, first out" (FIFO) principle.
 
 ## Syntax
 
@@ -22,13 +23,13 @@ Creating a queue:
 Queue queue_name = new Queue();
 ```
 
-You can also create a queue from an existing list:
+We can also create a queue from an existing list:
 
 ```pseudo
 var queue_name = new Queue.from(list_name);
 ```
 
-> **Note:** To use a queue in a dart program you have to import `dart:collection` module. If you don’t do so then you will see the following error:
+> **Note:** To use a queue in a Dart program, we have to import the `dart:collection` module. If we don’t do so, then we will see the following error:
 
 ```pseudo
 Error compiling to JavaScript:
@@ -45,26 +46,26 @@ Error: Compilation failed.
 
 ## Example
 
-In the following example, a queue is created and elements are inserted in the queue using the `.add()` method.
+In the following example, a queue is created and elements are inserted in the queue using the `.add()` method:
 
 ```dart
 import 'dart:collection';
  
 void main()
 {
-  // Creating a Queue
+  // Creating a queue
   Queue<String> example_queue = new Queue<String>(); 
    
-  // Printing default value of queue
+  // Printing the default value of example_queue
   print(example_queue);
    
-  // Adding elements in a Queue
+  // Adding elements to example_queue
   example_queue.add("This");
   example_queue.add("Is");
   example_queue.add("A");
   example_queue.add("Queue");
    
-  // Printing the new updated queue
+  // Printing the updated example_queue
   print(example_queue);
 }
 ```
