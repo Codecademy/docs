@@ -8,6 +8,7 @@ Tags:
   - 'Loops'
   - 'While'
   - 'For'
+  - 'ForEach'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
@@ -41,5 +42,20 @@ This example prints 0 to 9 on the screen:
 ```cpp
 for (int i = 0; i < 10; i++) {
   std::cout << i << "\n";
+}
+```
+
+## For-Each Loop
+
+A `for-each` loop iterates over every element in a container (array, vector, etc.). 
+
+The example below prints 1 to 5 on the screen:
+
+> **Note:** The variable is a copy of the object in the vector. To act on the object in the vector, declare the variable by reference (&num).
+
+```cpp
+vector<int> container = {1, 2, 3, 4, 5};
+for (int num : container) {
+  std::cout << num << "\n";
 }
 ```
