@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.remove()`** is a method to remove the first occurrence of an item from the list and return bool `true` if the item is present and is successfully removed, otherwise return bool `false` if the item is not present.
+The **`.remove()`** method is used to remove the first occurrence of an item from the list and return bool `true` if the item is present and is successfully removed, otherwise, return bool `false` if the item is not present.
 
 > **Note:** The list must be a growable list.
 
