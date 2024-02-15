@@ -43,7 +43,6 @@ Algorithm: BubbleSort(Array)
                 set swapped to true
         if not swapped
             break // Array is sorted
-
 ```
 
 This pseudocode outlines the logic of the Bubble Sort algorithm without being tied to any specific programming language, making it suitable for a general algorithms document. Be sure to replace the existing Java code in your markdown document with this pseudocode snippet.
