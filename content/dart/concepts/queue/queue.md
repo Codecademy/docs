@@ -50,21 +50,21 @@ In the following example, a queue is created and elements are inserted in the qu
 
 ```dart
 import 'dart:collection';
- 
+
 void main()
 {
   // Creating a queue
-  Queue<String> example_queue = new Queue<String>(); 
-   
+  Queue<String> example_queue = new Queue<String>();
+
   // Printing the default value of example_queue
   print(example_queue);
-   
+
   // Adding elements to example_queue
   example_queue.add("This");
   example_queue.add("Is");
   example_queue.add("A");
   example_queue.add("Queue");
-   
+
   // Printing the updated example_queue
   print(example_queue);
 }
