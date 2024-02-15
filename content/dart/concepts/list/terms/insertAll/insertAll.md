@@ -27,13 +27,19 @@ void insertAll(int index, Iterable<E> iterable)
 
 ## Example
 
+The following example demonstrates the use of the `.insertAll()` method:
+
 ```dart
 void main() {
-  List<int> numbers = [1, 2, 3, 4, 5];
-
-  // Inserting elements [6, 7, 8] starting from index 2
-  numbers.insertAll(2, [6, 7, 8]);
-
-  print(numbers); // Output: [1, 2, 6, 7, 8, 3, 4, 5]
+  List<int> nums = [12, 23, 34, 45, 56];
+  // Inserting elements [67, 78, 89] starting from index '2'
+  nums.insertAll(2, [67, 78, 89]);
+  print(nums);
 }
+```
+
+Here is the output for the above example:
+
+```shell
+[12, 23, 67, 78, 89, 34, 45, 56]
 ```
