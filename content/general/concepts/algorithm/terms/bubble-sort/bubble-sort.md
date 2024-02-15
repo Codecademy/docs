@@ -69,10 +69,6 @@ This pseudocode outlines the logic of the Bubble Sort algorithm without being ti
 
 The following animation visually demonstrates the Bubble Sort Algorithm in action:
 
-![Bubble Sort Example](https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif)  
-_Image Source: Wikimedia Commons_  
-_License: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.html)_  
-_Author: Swfung8_  
-_No changes were made to the image._
+![Bubble Sort Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/bubble-sort.png)  
 
 In this example, the numbers in the array are visually represented. With each pass through the array, the largest number in the unsorted part bubbles up to its correct position at the end of the array. This process repeats, with the range of unsorted elements shrinking each time, until the entire array is sorted.
