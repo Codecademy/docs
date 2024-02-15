@@ -18,11 +18,13 @@ The **.any()** method checks if at least one item in the List satisfies the give
 
 ## Syntax
 
-`bool any(bool test(E element));`
+```pseudo
+bool any(bool test(E element));
+```
 
 ## Example
-In this example, the `.any()` method is used to check if any of the items in the `List` is greater or equal to `7`.
-```
+In this example, the `.any()` method is used to check if any of the items in the `List` is greater than `7`.
+```dart
 void main(){
   // Creating list
   List numbers = [9, 5, 8, 17, 11, 15, 23];
@@ -33,4 +35,9 @@ void main(){
     print('At least one number > 7 in the list');
   }
 }
+```
+
+Output
+```pseudo
+At least one number > 7 in the list
 ```
