@@ -34,7 +34,7 @@ PRs are featured on popular version control platforms such as [GitHub](https://g
 4. `add`, `commit`, and `push` the changes to your forked repository.
 5. From the web page of your forked repository, click on the "Pull requests" tab.
 
-> **Note**: Forking a repository is needed when the user lacks write access to the original repository or when the user wants to make changes without affecting the original repository.
+> **Note**: Forking a repository is needed when the user lacks write access to the original repository or wants to make changes without affecting the original repository.
 
 ### Method 2: Collaborators (Ideal for Small Teams)
 
