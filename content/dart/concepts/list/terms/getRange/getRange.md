@@ -1,6 +1,6 @@
 ---
 Title: '.getRange()'
-Description: 'Retrieves a range of elements from a list, returning an iterable that spans the specified start and end indices.'
+Description: 'Retrieves a range of elements from a list.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
