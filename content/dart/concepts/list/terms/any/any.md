@@ -23,21 +23,21 @@ bool any(bool test(E element));
 ```
 
 ## Example
-In this example, the `.any()` method is used to check if any of the items in the `List` is greater than `7`.
+In this example, the `.any()` method is used to check if any of the items in the `List` is greater than `10`.
 ```dart
 void main(){
   // Creating list
-  List numbers = [9, 5, 8, 17, 11, 15, 23];
+  List numbers = [4, 7, 12, 20, 30];
   // Using any()
-  // verify if at least one item in the list is greater than 7
-  if (numbers.any((item) => item > 7)) {
+  // verify if at least one item in the list is greater than 10
+  if (numbers.any((item) => item > 10)) {
     // Print result
-    print('At least one number > 7 in the list');
+    print('At least one number > 10 in the list');
   }
 }
 ```
 
 Output
 ```pseudo
-At least one number > 7 in the list
+At least one number > 10 in the list
 ```
