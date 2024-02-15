@@ -26,7 +26,7 @@ list.getRange(start, end)
 
 ## Example
 
-In the following example, the `.getRange()` method is used to obtain elements at index 1 through 3 (`Banana`, `Cherry`, `Date`) from the `fruits` list. Note that the result is an iterable, which represents the specified range of elements.
+In the following example, the `.getRange()` method is used to obtain elements at index 1 through 3 from the `fruits` list. Note that the result is an iterable, which represents the specified range of elements.
 
 ```dart
 void main() {
