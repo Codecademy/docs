@@ -1,0 +1,16 @@
+{
+  "extends": "@codecademy/tsconfig",
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": ".",
+    "isolatedModules": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "noEmit": true,
+    "noImplicitReturns": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true
+  },
+  "exclude": ["node_modules"],
+  "include": ["**/*.ts"]
+}
