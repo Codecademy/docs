@@ -43,6 +43,7 @@ void main() {
 ```
 
 The above code will produce the following output:
+
 ```shell
 Original list : [2, 1, 3, 5, 1, 7]
 Return value of remove function : true
