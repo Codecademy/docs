@@ -21,7 +21,7 @@ In Dart, the **`.length()`** property is a utility for determining the number of
 Map-variable.length
 ```
 
-- `Map-variable`: Represents a variable that holds a Map object.
+- `Map-variable`: It represents a variable that holds a Map object.
 
 ## Example 1
 
