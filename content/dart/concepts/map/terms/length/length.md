@@ -57,6 +57,7 @@ void main() {
   print(fruits.length);
 }
 ```
+
 Here is the output for the example above:
 
 ```shell
