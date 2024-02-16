@@ -16,7 +16,7 @@ The **`.contains()`** method is declared in the `List` interface and implemented
 
 ## Syntax
 
-The `.contain()` method can be called on an `ArrayList` instance, and it requires one parameter, the object whose presence we need to check in `ArrayList`. More formally, it returns `true` if and only if the specified `ArrayList` contains at least one element `e` such that `(obj==null? e==null: obj.equals(e))`. Here `obj` is the object passed to the list, and `e` is an element of the list.
+The `.contains()` method can be called on an `ArrayList` instance, and it requires one parameter, the object whose presence we need to check in `ArrayList`. More formally, it returns `true` if and only if the specified `ArrayList` contains at least one element `e` such that `(obj==null? e==null: obj.equals(e))`. Here `obj` is the object passed to the list, and `e` is an element of the list.
 
 ```pseudo
 arrayListInstance.contains(obj);
