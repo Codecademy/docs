@@ -22,7 +22,7 @@ The `.contain()` method can be called on an `ArrayList` instance, and it require
 arrayListInstance.contains(obj);
 ```
 
-`obj`: Element whose presence in the ArrayList is to be tested
+- `obj`: Element whose presence in the `ArrayList` is to be checked.
 
 ## Example
 
