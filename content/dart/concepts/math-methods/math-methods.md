@@ -20,19 +20,6 @@ Dart has a core library `dart:math` which provides common **math methods** cover
 import 'dart:math';
 ```
 
-## Random
-
-Generate random values using the `Random` class. Values can be numerical or Boolean.
-
-```dart
-var randomNumber = Random().nextInt(100);
-print(randomNumber); // Prints number between 0 - 99
-
-var randomBoolean = Random().nextBool();
-print(randomBoolean); // Prints true or false
-```
-
-
 ## Constants
 
 Use mathematical constants, such as *pi* and *e*. 
@@ -47,10 +34,13 @@ print(e); // Prints 2.718281828459045
 
 Perform trigonometric calculations and return the larger or smaller of two numbers using `max()` and `min()` methods.  
 
-```dart
-var result = cos(pi); // Calculates cosine of pi radians
-print(result); // Prints -1
-
-var highestNumber = max(30, 45);
-print(highestNumber); // Prints 45
-```
+| Function    | Description |
+| -------- | ------- |
+| `max(a, b)`  | Returns the larger of two numbers    |
+| `min(a, b)` | Returns the smaller of two numbers    |
+| `pow(a, b)`    | Returns `a` to the power of `b`    |
+| `log(a)`    | Returns the natural logarithm of `a`  |
+| `sqrt(a)`    | Returns the square root of `a`       |
+| `sin(a)`    | Returns sine value of `a` radians     |
+| `cos(a)`    | Returns cosine value of `a` radians   |
+| `tan(a)`    | Returns tangent value of `a` radians  |
