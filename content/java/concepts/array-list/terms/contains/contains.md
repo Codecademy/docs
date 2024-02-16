@@ -12,15 +12,17 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.contains()`** method is used for checking if the specified element is present in `ArrayList` or not. It will return true if the element is present; otherwise, it will return false.
+The **`.contains()`** method is declared in the `List` interface and implemented in the `ArrayList` class. It is used to check if the element is present in the specified `ArrayList` or not. The function returns a boolean value of `true` if the element is present and `false` if not.
 
 ## Syntax
 
-To check if an element is present in `ArrayList`, it is passed as an argument in the `.contains()` method of `ArrayList`. The return value is of the boolean type. True if the element is present; otherwise, false if it is not present. More formally, it returns true if and only if this `ArrayList` contains at least one element `e` such that `(o==null? e==null: o.equals(e))`. Here `o` is the object passed to the list, and `e` is an element of the list.
+The `.contain()` method can be called on an `ArrayList` instance, and it requires one parameter, the object whose presence we need to check in `ArrayList`. More formally, it returns `true` if and only if the specified `ArrayList` contains at least one element `e` such that `(obj==null? e==null: obj.equals(e))`. Here `obj` is the object passed to the list, and `e` is an element of the list.
 
 ```pseudo
-arrayListInstance.contains(o);
+arrayListInstance.contains(obj);
 ```
+
+`obj`: Element whose presence in the ArrayList is to be tested
 
 ## Example
 
