@@ -20,6 +20,9 @@ The `.removeRange()` method is used for removing all elements inside a specified
 
 ```pseudo
 arrayListInstance.removeRange(int fromIndex, int toIndex);
+
+**Note:**`fromIndex` and `toIndex` are both inclusive in the elements removed from the `ArrayList`.
+
 ```
 
 ## Example
@@ -57,6 +60,6 @@ public class Tasks extends ArrayList<String> {
 The output would look like this:
 
 ```shell
-[Grab lunch, Check mail, Pick up Sammy, Project review, Java terms research]
-List with elements removed: [Java terms research]
+Original list: [Grab lunch, Check mail, Pick up Sammy, Project review, Java terms research]
+List with elements removed: [Project review, Java terms research]
 ```
