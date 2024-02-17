@@ -24,7 +24,7 @@ The FileWriter object is crucial in providing the link between your Java program
 
 ## Writing to a File
 
-Once instantiated, the PrintWriter object provides convenient methods (print, println, etc.) to write data to the associated file. Once you've written all the necessary data, it's crucial to close the PrintWriter to ensure that any buffered data is flushed to the output stream and that system resources are released.
+Once instantiated, the `PrintWriter` object provides convenient methods (print, println, etc.) to write data to the associated file. Once you've written all the necessary data, it's crucial to close the `PrintWriter` to ensure that any buffered data is flushed to the output stream and that system resources are released.
 
 ## Example
 
