@@ -1,5 +1,5 @@
 ---
-Title: 'indexWhere()'
+Title: '.indexWhere()'
 Description: 'The indexWhere() method is used to find the index of an element in a list.' 
 Subjects:
   - 'Code Foundations'
@@ -7,37 +7,36 @@ Subjects:
 Tags:
   - 'dart'
   - 'list'
+  - 'methods'
 CatalogContent:
   - 'learn-dart'
   - 'paths/computer-science'
 ---
 
-The method **`indexWhere()`** returns the list’s first index that matches the given condition.
+In Dart, the **`.indexWhere()`** method is for find the index of the first element in a list that fulfill a given condition.
 
 ## Syntax
 
 ```pseudo
-int indexWhere (bool test(E element), [ int start = 0 ]);
+int indexWhere(bool Function(S) demo)
 ```
-
-It searches the list from the beginning of the index to the end. The index of the item is returned the first time an item is encountered, ensuring that the condition is true. Otherwise, it returns -1.
+  - `int` is the return type of the method.
+  - `indexWhere` name of the method.
+  - `bool Function(S) demo` it's a function that takes an element of type S as input and returns a boolean value.
+  - `S` is a generic type parameter and it represents the type of elements contained in the list. For example if you have a `List<String>`, `T` would be replaced with String.
+  - `bool` specifies the return type. In this example it indicates that the function should return a boolean value. Function will return true if the condition is satisfied, false if the function is not fulfilled.
 
 ## Example
 
-The following code shows how to use the method `indexWhere()` in dart:
+In this example we are using arrow function syntax for one-liner conditions:
 
 ```
-void main(){
-  // Creating list
-  List<String> book = ['Flutter Cookbook', 'Dart NoteBook', 'educative.io']; 
-  // returns index where the list 'book' endsWith 'k'
-  final int foundIndex = book.indexWhere((book) => book.endsWith('k'));
-  // Display result 
-  if (foundIndex != -1) {
-    print('Index: $foundIndex');
-  }
+void main() {
+  List<int> numbers = [10, 20, 30, 40, 50];
+
+  int index = numbers.indexWhere((element) {
+    return element % 2 == 0;
+  });
+  print('Index of the first even number: $index'); // Output: Index of the first even number: 1
 }
 ```
-  - Line 3: We create a list named book.
-  - Line 5: We use the method indexWhere() and pass the function endsWith() to check the list item that ends  with k. It returns the index where the list ‘book’ ends with ‘k’ which is then stored in variable foundIndex.
-  - Lines 7 & 8: We print the index that satisfies the condition.
