@@ -23,20 +23,28 @@ int indexWhere(bool Function(S) demo)
   - `int` is the return type of the method.
   - `indexWhere` name of the method.
   - `bool Function(S) demo` it's a function that takes an element of type S as input and returns a boolean value.
-  - `S` is a generic type parameter and it represents the type of elements contained in the list. For example if you have a `List<String>`, `T` would be replaced with String.
+  - `S` is a generic type parameter and it represents the type of elements contained in the list. For example if you have a `List<String>`, `S` would be replaced with String.
   - `bool` specifies the return type. In this example it indicates that the function should return a boolean value. Function will return true if the condition is satisfied, false if the function is not fulfilled.
 
 ## Example
 
-In this example we are using arrow function syntax for one-liner conditions:
+In this example we will find index of the first negative number in a list of integers:
 
-```
+```cs
 void main() {
-  List<int> numbers = [10, 20, 30, 40, 50];
+  List<int> numbers = [8, 5, 2, -3, 6];
 
-  int index = numbers.indexWhere((element) {
-    return element % 2 == 0;
-  });
-  print('Index of the first even number: $index'); // Output: Index of the first even number: 1
+  int index = numbers.indexWhere((number) => number < 0);
+  if (index != -1) {
+    print('Index of the first negative number: $index');
+  } else {
+    print('No negative numbers found.');
+  }
 }
+```
+
+The code returns the fallowing output:
+
+```shell
+"Index of the first negative number: 3"
 ```
