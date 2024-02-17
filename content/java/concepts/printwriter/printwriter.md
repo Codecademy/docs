@@ -16,7 +16,7 @@ In Java, **`PrintWriter`** is a class that simplifies writing text to a file. It
 
 ## Instantiating PrintWriter in Java
 
-To instantiate a `PrintWriter` object, you can pass a FileWriter object to its constructor. This establishes a connection to the file, allowing you to write data to it. Instantiating a PrintWriter object in Java involves creating an instance of the class to facilitate writing formatted text to a specified destination, such as a file, console, or network socket. To create a PrintWriter, you typically pass either a FileWriter, an OutputStreamWriter, or another writer object as an argument to its constructor. This establishes a connection to the output destination, enabling subsequent writing operations.
+To instantiate a `PrintWriter` object, you can pass a `FileWriter` object to its constructor. This establishes a connection to the file, allowing you to write data to it. Instantiating a `PrintWriter` object in Java involves creating an instance of the class to facilitate writing formatted text to a specified destination, such as a file, console, or network socket. To create a `PrintWriter`, you typically pass either a `FileWriter`, an `OutputStreamWriter`, or another writer object as an argument to its constructor. This establishes a connection to the output destination, enabling subsequent writing operations.
 
 ## Using a FileWriter Object
 
