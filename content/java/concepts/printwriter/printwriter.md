@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Java, `PrintWriter` is a class that simplifies writing text to a file. It is often used in conjunction with a `FileWriter` for efficient file writing.
+In Java, **`PrintWriter`** is a class that simplifies writing text to a file. It is often used in conjunction with a `FileWriter` for efficient file writing.
 
 ## Instantiating PrintWriter in Java
 
