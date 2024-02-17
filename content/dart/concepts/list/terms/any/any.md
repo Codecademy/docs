@@ -21,6 +21,7 @@ The **.any()** method checks if any element meets the specified condition, retur
 ```pseudo
 iterable.any((element) => condition);
 ```
+
 `iterable`: A collection of items (e.g., list, set) to examine, which must support iteration.
 
 `(element) => condition`: A function passed to the `.any()` method, that evaluates each iterable item against a condition, returning `true` upon finding the first match or `false` if no match is found after reviewing all items.
