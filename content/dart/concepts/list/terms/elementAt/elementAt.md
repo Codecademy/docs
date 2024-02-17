@@ -31,7 +31,6 @@ Here is an example that demonstrates the use of the `.elementAt()` method:
 ```dart
 void main() {
   List nums = ['11', '22', '33', '44', '55'];
-
   // Using the .elementAt() method to access the element at nums[2]
   var num = nums.elementAt(2);
   print('The element at nums[2] is: ${num}');
