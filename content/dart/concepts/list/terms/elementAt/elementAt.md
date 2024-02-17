@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Dart, the `.elementAt()` method is used to access the element at a specific index in a list. The index needs to be a non-negative integer that's smaller than the length of the list.
+In Dart, the **`.elementAt()`** method is used to access the element at a specific index in a list. The index needs to be a non-negative integer that's smaller than the length of the list.
 
 ## Syntax
 
