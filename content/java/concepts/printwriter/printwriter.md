@@ -1,6 +1,6 @@
 ---
 Title: 'PrintWriter' 
-Description: 'PrintWriter is a class used for writing formatted text to output streams, providing convenient methods for writing data to files or other destinations.' 
+Description: 'PrintWriter is a class used for writing formatted text to output streams, providing convenient methods for writing data to various destinations, including files, network sockets, or other writer objects.' 
 Subjects: 
   - 'Computer Science'
 Tags: 
