@@ -20,7 +20,7 @@ To instantiate a `PrintWriter` object, you can pass a `FileWriter` object to its
 
 ## Using a FileWriter Object
 
-The FileWriter object is crucial in providing the link between your Java program and the file you want to write to. It initializes the connection to the file and can be passed to the PrintWriter constructor. The FileWriter object provides a convenient way to write character-based data to a file. It initializes the connection between your Java program and the file you want to write to. When you instantiate a FileWriter, you specify the path of the file you want to write to, and optionally, whether you want to append to an existing file or overwrite its contents. Once created, the FileWriter object serves as the link between your program and the file, allowing you to write data to it.
+The `FileWriter` object is crucial in providing the link between your Java program and the file you want to write to. It initializes the connection to the file and can be passed to the `PrintWriter` constructor. The `FileWriter` object provides a convenient way to write character-based data to a file. It initializes the connection between your Java program and the file you want to write to. When you instantiate a `FileWriter`, you specify the path of the file you want to write to, and optionally, whether you want to append to an existing file or overwrite its contents. Once created, the `FileWriter` object serves as the link between your program and the file, allowing you to write data to it.
 
 ## Writing to a File
 
