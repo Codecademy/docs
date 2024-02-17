@@ -34,7 +34,6 @@ void main() {
 
   // Using the .elementAt() method to access the element at nums[2]
   var num = nums.elementAt(2);
-
   print('The element at nums[2] is: ${num}');
 }
 ```
