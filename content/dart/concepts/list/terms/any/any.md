@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **.any()** method checks if any element meets the specified condition, returning `true` if so.
+The **.any()** method checks if any element meets the specified condition, returning `true` if so and `false` otherwise.
 
 ## Syntax
 
@@ -22,18 +22,16 @@ The **.any()** method checks if any element meets the specified condition, retur
 iterable.any((element) => condition);
 ```
 
-`iterable`: A collection of items (e.g., list, set) to examine, which must support iteration.
-
-`(element) => condition`: A function passed to the `.any()` method, that evaluates each iterable item against a condition, returning `true` upon finding the first match or `false` if no match is found after reviewing all items.
+- `iterable`: A collection of items (e.g., list, set).
+- `(element) => condition`: A function passed to the `.any()` method, that evaluates each iterable item against a condition, returning `true` upon finding the first match or `false` if no match is found after reviewing all items.
 
 ## Example
 
-In this example, the `.any()` methods verifies if one of the items in the List contains the word `Codecademy`.
+In this example, the `.any()` method verifies if one of the items in the List contains the word `Codecademy`.
 
 ```dart
 void main() {
   List items = ['Paris', 'Dublin', 'Tokyo', 'Milan', 'Codecademy'];
-  // using any()
   // verify if any of the items in the list contains codecademy
   if (items.any((item) => item.contains('Codecademy'))) {
     // print result; if true
@@ -45,7 +43,8 @@ void main() {
 }
 ```
 
-Output
+The output of the above is as follows:
+
 ```shell
 At least one item contains "Codecademy"
 ```
