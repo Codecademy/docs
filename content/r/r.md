@@ -11,7 +11,7 @@ CatalogContent:
 
 R supports both procedural and object-oriented programming. Additionally, custom functions and extensions provide expanded functionality. A variety of packages for R are available through the R community. They are widely used by statisticians and data scientists for tasks such as statistics, data analysis, and data visualization.
 
-One of the most prominent IDEs for R programming is RStudio, which can be downloaded [here](https://www.rstudio.com/products/rstudio/download/).
+One of the most prominent IDEs for R programming is RStudio, which can be downloaded [here](https://www.rstudio.com/products/rstudio/download/). One can also write codes with R in Jupyter Notebook that preferably installed with Anaconda Navigator.
 
 ## Installation
 
