@@ -37,7 +37,7 @@ import math
 print(math.log(12))
 ```
 
-The above code give the following output:
+The above code gives the following output:
 
 ```shell
 2.4849066497880004

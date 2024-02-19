@@ -32,7 +32,7 @@ import math
 print(math.pow(5, 3))
 ```
 
-The above code give the following output:
+The above code gives the following output:
 
 ```shell
 125.0
@@ -46,7 +46,7 @@ import math
 print(math.pow(5.5, 3.3))
 ```
 
-The above code give the following output:
+The above code gives the following output:
 
 ```shell
 277.457759723262

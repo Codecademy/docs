@@ -30,7 +30,7 @@ import math
 print(math.tan(5))
 ```
 
-The above code give the following output:
+The above code gives the following output:
 
 ```shell
 -3.380515006246586
@@ -44,7 +44,7 @@ import math
 print(math.tan(5.5)) 
 ```
 
-The above code give the following output:
+The above code gives the following output:
 
 ```shell
 -0.995584052213885

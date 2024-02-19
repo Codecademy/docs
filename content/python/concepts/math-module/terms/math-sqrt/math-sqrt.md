@@ -32,7 +32,7 @@ import math
 print(math.sqrt(5))
 ```
 
-The above code give the following output:
+The above code gives the following output:
 
 ```shell
 2.23606797749979
@@ -46,7 +46,7 @@ import math
 print(math.sqrt(5.5))
 ```
 
-The above code give the following output:
+The above code gives the following output:
 
 ```shell
 2.345207879911715

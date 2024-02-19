@@ -32,7 +32,7 @@ import math
 print(math.cos(90))
 ```
 
-The above code give the following output:
+The above code gives the following output:
 
 ```shell
 -0.4480736161291702

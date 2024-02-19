@@ -32,7 +32,7 @@ import math
 print(math.exp(5)) 
 ```
 
-The above code give the following output:
+The above code gives the following output:
 
 ```shell
 148.4131591025766
@@ -46,7 +46,7 @@ import math
 print(math.exp(3))
 ```
 
-The above code give the following output:
+The above code gives the following output:
 
 ```shell
 20.085536923187668

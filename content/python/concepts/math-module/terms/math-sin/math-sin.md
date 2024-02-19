@@ -30,7 +30,7 @@ import math
 print(math.sin(5))
 ```
 
-The above code give the following output:
+The above code gives the following output:
 
 ```shell
 -0.9589242746631385
@@ -46,7 +46,7 @@ import math
 print(math.sin(5.5))
 ```
 
-The above code give the following output:
+The above code gives the following output:
 
 ```shell
 -0.7055403255703919

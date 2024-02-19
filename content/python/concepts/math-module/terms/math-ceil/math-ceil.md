@@ -32,7 +32,7 @@ import math
 print(math.ceil(134.2))
 ```
 
-The above code give the following output:
+The above code gives the following output:
 
 ```shell
 135
