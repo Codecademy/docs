@@ -23,11 +23,11 @@ list_name.indexOf(element);
 ```
 
 - `list_name`: The name of the list where the element is searched.
-- `element`: The value of which index we are looking for in the list.
+- `element`: The value whose index is searched for in the list.
 
-  ## Example
+## Example
 
-  Here is an example of `indexOf()` for a list:
+Here is an example of the `.indexOf()` method:
   
 ```dart
 void main() {
@@ -39,8 +39,8 @@ void main() {
 }
 ```
 
-  The output for the above example is as follows:
+The output for the above example is as follows:
 
-  ```shell
-  2
-  ```
+```shell
+2
+```
