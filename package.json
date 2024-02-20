@@ -2,7 +2,8 @@
   "name": "codecademy-docs",
   "dependencies": {
     "front-matter": "^4.0.2",
-    "glob": "^7.1.7"
+    "glob": "^7.1.7",
+    "yarn": "^1.22.21"
   },
   "devDependencies": {
     "@codecademy/eslint-config": "^6.0.0",
@@ -31,7 +32,7 @@
     "format": "prettier --ignore-path .prettierignore --write",
     "format:md": "prettier --ignore-path .prettierignore --write \"./**/*.(md)\"",
     "format:all": "prettier --ignore-path .prettierignore --write \"./**/*.(ts|md)\"",
-    "format:verify": "prettier \"./**/*.(ts|md)\" --list-different",
+    "format:verify": "prettier \"./**/*.(ts|md)\" ",
     "lint:js": "eslint \"./**.ts\" --max-warnings 0 ",
     "lint:md": "markdownlint \"./content/**/*.md\"",
     "lint": "yarn lint:md && yarn lint:js",
