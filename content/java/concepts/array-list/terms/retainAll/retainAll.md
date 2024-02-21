@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/introduction-to-android-with-java'
 ---
 
-**retainAll()** method of [**ArrayList**]([url](https://www.codecademy.com/resources/docs/java/array-list)) retains only the elements in the ArrayList that are common to another specified collection. It removes all elements from the ArrayList that are not present in the specified collection.
+The **`.retainAll()`** method of [`ArrayList`]([url](https://www.codecademy.com/resources/docs/java/array-list)) retains only the elements in the `ArrayList` that are common to another specified collection. It removes all elements from the `ArrayList` that are not present in the specified collection.
 
 ## Syntax
 
