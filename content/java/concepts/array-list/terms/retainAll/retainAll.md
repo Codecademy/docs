@@ -16,7 +16,7 @@ The **`.retainAll()`** method of [`ArrayList`]([url](https://www.codecademy.com/
 
 ## Syntax
 
-```
+```pseudo
 B.retainAll(Collection c);
 ```
 
