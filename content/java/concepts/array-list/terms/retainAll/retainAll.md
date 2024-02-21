@@ -26,8 +26,8 @@ B.retainAll(Collection c);
 **Return Value**: Returns `true` if there is a change in the current ArrayList; otherwise, it returns `false`.
 
 **Exceptions**:
-1. **ClassCastException**: If the class of an element of this ArrayList is incompatible with the Passed collection. This is optional.
-2. **NullPointerException**: If the list contains a null element and the passed collection does not permit null elements, or if the specified collection is null. This is also optional.
+- `ClassCastException`: If the class of an element of this `ArrayList` is incompatible with the Passed collection.
+- `NullPointerException`: If the list contains a null element and the passed collection does not permit null elements, or if the specified collection is null.
 
 
 ## Example
