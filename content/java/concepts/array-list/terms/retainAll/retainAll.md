@@ -1,6 +1,6 @@
 ---
 Title: '.retainAll()'
-Description: 'Retains only the elements that are contained in another collection' 
+Description: 'Retains only the elements that are contained in the specified collection.' 
 Subjects: 
   - Computer Science
   - Code Foundations
