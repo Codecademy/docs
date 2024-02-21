@@ -20,9 +20,8 @@ CatalogContent:
 B.retainAll(Collection c);
 ```
 
-`B` - The ArrayList whose elements will be retained.
-
-`c` - The collection whose elements will be retained in the ArrayList B.
+- `B`: The ArrayList whose elements will be retained.
+- `c`: The collection whose elements will be retained in the ArrayList B.
 
 **Return Value**: Returns `true` if there is a change in the current ArrayList; otherwise, it returns `false`.
 
