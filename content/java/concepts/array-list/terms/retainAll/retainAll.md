@@ -1,5 +1,5 @@
 ---
-Title: 'retainAll()'
+Title: '.retainAll()'
 Description: 'Retains only the elements that are contained in another collection' 
 Subjects: 
   - Computer Science
