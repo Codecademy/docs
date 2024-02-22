@@ -1,6 +1,6 @@
 ---
 Title: '.indexOf()'
-Description: 'Returns the first occurrence of the indicated element in a list.'
+Description: 'Returns the first occurrence of the given element in a list.'
 Subjects: 
  - 'Computer Science'
  - 'Web Development'
