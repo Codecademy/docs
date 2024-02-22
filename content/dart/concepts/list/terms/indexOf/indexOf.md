@@ -1,17 +1,17 @@
 ---
 Title: '.indexOf()'
 Description: 'Returns the first occurrence of the given element in a list.'
-Subjects: 
- - 'Computer Science'
- - 'Web Development'
+Subjects:
+  - 'Computer Science'
+  - 'Web Development'
 Tags:
- - 'Dart'
- - 'Methods'
- - 'Lists'
- - 'Index'
+  - 'Dart'
+  - 'Methods'
+  - 'Lists'
+  - 'Index'
 CatalogContent:
- - 'learn-dart'
- - 'paths/computer-science'
+  - 'learn-dart'
+  - 'paths/computer-science'
 ---
 
 In Dart, the **`.indexOf()`** method returns the first occurrence of the given element in a list. If the element is not found, the method will return `-1`.
@@ -28,7 +28,7 @@ list_name.indexOf(element);
 ## Example
 
 Here is an example of the `.indexOf()` method:
-  
+
 ```dart
 void main() {
   List<String> colors = ['blue', 'yellow', 'red', 'green', 'orange', 'pink'];
