@@ -5,6 +5,7 @@ Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
+  - 'Java'
   - 'Arrays'
   - 'Data Types'
 CatalogContent:
@@ -12,21 +13,22 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.contains()`** method is declared in the `List` interface and implemented in the `ArrayList` class. It is used to check if the element is present in the specified `ArrayList` or not. The function returns a boolean value of `true` if the element is present and `false` if not.
+The **`.contains()`** [method](https://www.codecademy.com/resources/docs/java/methods) is declared in the `List` [interface](https://www.codecademy.com/resources/docs/java/interfaces) and implemented in the [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list) [class](https://www.codecademy.com/resources/docs/java/classes). It is used to check if the element is present in the specified `ArrayList` or not. The function returns a boolean value of `true` if the element is present and `false` if not.
 
 ## Syntax
 
-The `.contains()` method can be called on an `ArrayList` instance, and it requires one parameter, the object whose presence we need to check in `ArrayList`. More formally, it returns `true` if and only if the specified `ArrayList` contains at least one element `e` such that `(obj==null? e==null: obj.equals(e))`. Here `obj` is the object passed to the list, and `e` is an element of the list.
+The `.contains()` method can be called on an `ArrayList` instance and requires a single parameter:
 
 ```pseudo
 arrayListInstance.contains(obj);
 ```
 
-- `obj`: Element whose presence in the `ArrayList` is to be checked.
+- `arrayListInstance`: The `ArrayList` on which the `.contains()` method is called.
+- `obj`: The element whose presence in the `ArrayList` is to be checked.
 
 ## Example
 
-In the example below, an empty `ArrayList` instance `fruitList` is created and can hold `String` type elements. Next, a few fruit names are added with the [`.add()`](https://www.codecademy.com/resources/docs/java/array-list/add) method. Lastly, the presence of two fruit names is checked in the `ArrayList` with the `.contains()` method:
+In the example below, an empty `ArrayList` instance `fruitList` is created, which can hold [`String`](https://www.codecademy.com/resources/docs/java/strings) type elements. Next, a few fruit names are added with the [`.add()`](https://www.codecademy.com/resources/docs/java/array-list/add) method. Lastly, the presence of two fruit names is checked in the `ArrayList` with the `.contains()` method:
 
 ```java
 import java.util.ArrayList;
@@ -41,7 +43,7 @@ public class Fruits {
     fruitList.add("Watermelons");
     fruitList.add("Grapes");
 
-    // Check if Oranges and Bananas are present in the fruit list or not.
+    // Checking if 'Oranges' and 'Bananas' are present in 'fruitList'
     boolean areOrangesPresent = fruitList.contains("Oranges");
     boolean areBananasPresent = fruitList.contains("Bananas");
 
@@ -51,7 +53,7 @@ public class Fruits {
 }
 ```
 
-The output of the above will look like this:
+The output of the above example will look like this:
 
 ```shell
 Fruit list contains oranges: false
