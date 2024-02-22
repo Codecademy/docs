@@ -14,7 +14,7 @@ CatalogContent:
  - 'paths/computer-science'
 ---
 
-In Dart, the **`.indexOf()`** method returns the first occurrence of the indicated element in a list. If the element is not found, the method will return `-1`.
+In Dart, the **`.indexOf()`** method returns the first occurrence of the given element in a list. If the element is not found, the method will return `-1`.
 
 ## Syntax
 
