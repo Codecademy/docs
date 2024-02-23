@@ -27,9 +27,9 @@ var identifier = new Map()
 Here is an example of how to use `map` in Dart:
 
 ```dart
-void main() { 
-   var details = {'Cat':'jeff','Color':'brown'}; 
-   print(details); 
+void main() {
+   var details = {'Cat':'jeff','Color':'brown'};
+   print(details);
 }
 ```
 
