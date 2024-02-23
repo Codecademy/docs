@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The Map object is a key/value pair. The values and keys in a map may be of any type. A Map is a dynamic collection that can grow and shrink at runtime.
+The **Map** object is a key/value pair. The values and keys in a map may be of any type. A Map is a dynamic collection that can grow and shrink at runtime.
 
 ## Syntax
 
