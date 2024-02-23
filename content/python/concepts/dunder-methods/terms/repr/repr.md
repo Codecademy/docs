@@ -24,7 +24,7 @@ The **`__repr__()`** dunder method returns the string representation of the obje
 
 ```pseudo
 class ClassName:
-  __repr__(self):
+  def __repr__(self):
 ```
 
 The `__repr__()` method accepts no parameters. `self` is an implicit reference to the instance of `ClassName`.
