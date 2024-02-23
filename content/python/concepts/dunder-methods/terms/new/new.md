@@ -22,7 +22,7 @@ The **`__new__()`** static method creates a new instance of a class `cls` and ta
 
 ```pseudo
 class ClassName:
-  __new__(cls, *args, **kwargs):
+  def __new__(cls, *args, **kwargs):
     obj = super().__new__(cls)
     return obj
 ```
