@@ -73,17 +73,20 @@ Conceptual
 Const
 Constructors
 Continue
+Counting Sort
 Control Flow
 CRUD
 CSS
 CSV
 Cybersecurity
 D3
+Dart
 Data
 Data Structures
 Data Types
 Database
 Date
+Dart Operators
 Debugging
 Decorators
 Deep Learning
@@ -175,6 +178,7 @@ Integers
 Interface
 iOS
 Iterators
+Java
 Join
 jQuery
 JRuby
@@ -182,6 +186,7 @@ JSON
 JSK
 Justice
 K-Nearest Neighbors
+Knowledge Graphs
 Kotlin
 Kubernetes
 Laravel
@@ -224,6 +229,7 @@ Numbers
 NumPy
 Objects
 Obsolete
+Ontologies
 OOP
 Opacity
 Open Source
@@ -250,6 +256,7 @@ Primary Key
 Print
 Probability
 Promise
+Programming
 Properties
 Protocols
 Queries
@@ -284,6 +291,7 @@ Sets
 Slices
 Socket.IO
 Sort
+Sorting Algorithms
 Span
 Specificity
 Spread
