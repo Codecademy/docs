@@ -115,7 +115,8 @@ var ages = [21, 23, 34, 19, 45];
 
 ages[0] = 87; // Adds 87 to the first position of the list
 ```
-This comes in handy with fixed length lists:
+
+This comes in handy with fixed-length lists:
 
 ```dart
 var fixedLengthList = List(3);
