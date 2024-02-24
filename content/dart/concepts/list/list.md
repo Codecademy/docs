@@ -41,6 +41,7 @@ var nestedList = [
 ```
 
 Then, an example of utilizing `List` to create a list:
+
 ```dart
 // Create a list of strings
 List favouriteFruits = ['Apple', 'Banana', 'Orange'];
