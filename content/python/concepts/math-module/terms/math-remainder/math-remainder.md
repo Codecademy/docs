@@ -79,7 +79,7 @@ print(math.floor(math.remainder(25.5, 5.7)))
 print(math.ceil(math.remainder(25.5, 5.7)))
 ```
 
-The `output` for the above line of code will be:
+The output for the above line of code will be:
 
 ```shell 
 2
