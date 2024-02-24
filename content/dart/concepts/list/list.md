@@ -23,7 +23,7 @@ A **list** provides a way to organize and store a collection of items. Simply, l
 
 In Dart, there are two ways to create a list, there is the more prominently used method of `var` and the lesser used `List` class, both use square brackets (`[]`) and commas (`,`). The square brackets are used to define the data, whilst commas are used to separate the individual items.
 
-First, an example of utilizing `var` to create a list:
+First, here's an example of utilizing `var` to create a list:
 
 ```dart
 // Create a list of strings
