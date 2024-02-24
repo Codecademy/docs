@@ -17,7 +17,6 @@ CatalogContent:
 ---
 
 A **list** provides a way to organize and store a collection of items. Simply, lists act as containers that can hold different pieces of data, such as strings, integers, boolean values, or even other lists. Lists are a great way to organize related data in an easy-to-manipulate format.
-<!-- I think will be worth linking to other docs pages like 'strings' when they have been completed/submitted. -->
 
 ## Creating a List
 
@@ -57,9 +56,10 @@ List nestedList = [
 ];
 ```
 
->**Note:** As `var` is the predominantly used method to create lists in Dart, the rest of the examples will use this moving forward.
+> **Note:** As `var` is the predominantly used method to create lists in Dart, the rest of the examples will use this moving forward.
 
-In the above examples, there are three separate lists:
+In the above example, there are three separate lists:
+
 - A list of strings
 - A list of integers
 - A nested list
@@ -96,6 +96,7 @@ Lists are very versatile sets of data and Dart provides ways to manage the data 
 ### Adding Data
 
 Adding items of data to lists utilizing the following methods:
+
 - `(listname).add(item);` - This adds an item to the end of the list
 - `(listname).addAll(items);` - This adds multiple items to the end of the list
 
@@ -129,6 +130,7 @@ fixedLengthList[2] = 3; // Sets the 3rd item in the list as 3
 ### Removing Data
 
 Removing items of data from lists utilizes the following methods:
+
 - `(listname).remove(item);` - This removes the first occurance of the specified item
 - `(listname).removeAt(1);` - This removes the item at the specified index
 - `(listname).removeLast();` - This removes the last item in the list
@@ -146,13 +148,19 @@ favouriteColors.removeLast(); // Removes the last item from the list
 To display data held within a list the `print` method is used. This can be used to display the whole list, or specific items within the list.
 
 ```dart
-// Displaying a whole list
-var flowers = ['Rose', 'Lily', 'Sunflower', 'Tulip', 'Daisy'];
+/void main() {
+  var flowers = ['Rose', 'Lily', 'Sunflower', 'Tulip', 'Daisy'];
+  print(flowers);
 
-print(flowers); // Displays ['Rose', 'Lily', 'Sunflower', 'Tulip', 'Daisy'] in the console.
+  // Displaying a specific item from a list
+  var musicalInstruments = ['Piano', 'Guitar', 'Violin', 'Trumpet'];
+  print(musicalInstruments[2]);
+}
+```
 
-// Displaying a specific item from a list
-var musicalInstruments = ['Piano', 'Guitar', 'Violin', 'Trumpet'];
+The output of the above code is as follows:
 
-print(musicalInstruments[2]); // Displays Violin in the console
+```shell
+[Rose, Lily, Sunflower, Tulip, Daisy]
+Violin
 ```
