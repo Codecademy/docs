@@ -25,8 +25,7 @@ math.remainder(x,y)
   - `x`: It is the number to be divided.
   - `y`: It is the number by which `x` is divided by.
 
->**Note:** <br>
->The Parameter `y` has to be a non-zero number or will return a **`ValueError`**
+>**Note:** The Parameter `y` has to be a non-zero number or will return a `ValueError`.
 
 ## Example 1
 
@@ -41,7 +40,7 @@ print(math.remainder(10, 2))
 print(math.remainder(34, 3))
 ```
 
-The `output` for the above line of code will be:
+The output for the above code will be:
 
 ```shell
 0.0
@@ -60,7 +59,11 @@ print(math.remainder(25.5, 5.7))
 print(math.remainder(58.9, 5.5))
 ```
 
+<<<<<<< HEAD
 The `output` for the above line of code will be:
+=======
+the output for the above code will be:
+>>>>>>> 322d5378f8a6d6da03967034f483d2732b4e9e3c
 
 ```shell
 2.6999999999999993
@@ -79,7 +82,7 @@ print(math.floor(math.remainder(25.5, 5.7)))
 print(math.ceil(math.remainder(25.5, 5.7)))
 ```
 
-The `output` for the above line of code will be:
+The output for the above code will be:
 
 ```shell 
 2
