@@ -45,5 +45,4 @@ Map view of the list: {0: Steve, 1: Tonny, 2: Jack, 3: Jamie}
 
 With this approach, the list undergoes converstion into a map.
 
-> **Note**
-> The resulting map remains immutable.
+> **Note:** The resulting map remains immutable.
