@@ -20,10 +20,9 @@ The `.removeRange()` method is used for removing all elements inside a specified
 
 ```pseudo
 arrayListInstance.removeRange(int fromIndex, int toIndex);
+```
 
 **Note:**`fromIndex` and `toIndex` are both inclusive in the elements removed from the `ArrayList`.
-
-```
 
 ## Example
 
