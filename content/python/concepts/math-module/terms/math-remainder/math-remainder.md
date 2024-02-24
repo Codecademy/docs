@@ -25,8 +25,7 @@ math.remainder(x,y)
   - `x`: It is the number to be divided.
   - `y`: It is the number by which `x` is divided.
 
->**Note:** <br>
->The Parameter `y` has to be a non-zero number or will return a **`ValueError`**
+>**Note:** The Parameter `y` has to be a non-zero number or will return a `ValueError`.
 
 ## Example 1
 
