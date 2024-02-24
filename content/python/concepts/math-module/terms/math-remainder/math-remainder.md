@@ -59,7 +59,7 @@ print(math.remainder(25.5, 5.7))
 print(math.remainder(58.9, 5.5))
 ```
 
-the `output` for the above line of code will be:
+the output for the above code will be:
 
 ```shell
 2.6999999999999993
