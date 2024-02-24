@@ -19,7 +19,7 @@ CatalogContent:
 A **list** provides a way to organize and store a collection of items. Simply, lists act as containers that can hold different pieces of data, such as strings, integers, boolean values, or even other lists. Lists are a great way to organize related data in an easy-to-manipulate format.
 <!-- I think will be worth linking to other docs pages like 'strings' when they have been completed/submitted. -->
 
-## Syntax
+## Creating a List
 
 In Dart, there are two ways to create a list, there is the more prominently used method of `var` and the lesser used `List` class, both use square brackets (`[]`) and commas (`,`). The square brackets are used to define the data, whilst commas are used to separate the individual items.
 
