@@ -41,7 +41,7 @@ print(math.remainder(10, 2))
 print(math.remainder(34, 3))
 ```
 
-The `output` for the above line of code will be:
+The output for the above code will be:
 
 ```shell
 0.0
