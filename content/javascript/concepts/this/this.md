@@ -158,7 +158,7 @@ There are two methods of the `Function` type named `.call()` and `.apply()` whic
 
 ```js
 function showProp(prefix) {
-  console.log(prefix + this.someProperty;
+  console.log(prefix + this.someProperty);
 }
 
 let obj1 = {
