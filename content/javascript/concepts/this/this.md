@@ -207,7 +207,7 @@ function Obj() {
   someFunction().someProperty = 25;
 }
 
-var o1 = new Obj();
+let obj = new Obj();
 
 console.log(obj.someProperty);
 // Output = 25;
