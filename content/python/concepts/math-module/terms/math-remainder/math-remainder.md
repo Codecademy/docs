@@ -1,6 +1,6 @@
 ---
 Title: 'math.remainder()'
-Description: 'return the remainder of the division x/y.'
+Description: 'Returns the remainder of the division x/y.'
 Subjects: 
   - 'Developer Tools'
   - 'Web Development'
@@ -23,14 +23,14 @@ math.remainder(x,y)
 ```
 
   - `x`: It is the number to be divided.
-  - `y`: It is the number by which `x` is divided.
+  - `y`: It is the number by which `x` is divided by.
 
 >**Note:** <br>
 >The Parameter `y` has to be a non-zero number or will return a **`ValueError`**
 
 ## Example 1
 
-This example will return the remainder between two **Integer** values.
+This example will return the remainder between two Integer values.
 
 ```python
 # Import math Library
@@ -50,7 +50,7 @@ The `output` for the above line of code will be:
 
 ## Example 2
 
-This example will return the remainder between two **Float** values.
+This example will return the remainder between two Float values.
 
 ```python
 # Import math Library
@@ -60,7 +60,7 @@ print(math.remainder(25.5, 5.7))
 print(math.remainder(58.9, 5.5))
 ```
 
-the `output` for the above line of code will be:
+The `output` for the above line of code will be:
 
 ```shell
 2.6999999999999993
@@ -69,7 +69,7 @@ the `output` for the above line of code will be:
 
 ## Example 3
 
-The use of multiple `Methods` can then convert the result to an **Integer** value.
+The use of multiple `Methods` can then convert the result to an Integer value.
 
 ```python
 # Import math Library
