@@ -142,6 +142,7 @@ favouriteColors.removeLast(); // Removes the last item from the list
 ```
 
 ## Displaying List Data
+
 To display data held within a list the `print` method is used. This can be used to display the whole list, or specific items within the list.
 
 ```dart
