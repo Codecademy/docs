@@ -1,1 +1,1 @@
-content/cybersecurity/concepts/social-engineering/social-engineering.md
+content/cpp/concepts/arrays/arrays.md
