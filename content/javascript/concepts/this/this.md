@@ -162,25 +162,25 @@ function showProp(prefix) {
 }
 
 let obj1 = {
-  someProperty:23
+  someProperty: 23,
 };
 
 let obj2 = {
-  someProperty:37
+  someProperty: 37,
 };
 
-showProp.call(obj1,"The property is");
+showProp.call(obj1, 'The property is');
 // Output: The property is 23
 
-showProp.call(obj2,"The property is");
+showProp.call(obj2, 'The property is');
 // Output: The property is 37
 
 // The .apply() method takes an array as its second argument
 
-showProp.apply(obj1,["The property is"]);
+showProp.apply(obj1, ['The property is']);
 // Output: The property is 23
 
-showProp.apply(obj2,["The property is"]);
+showProp.apply(obj2, ['The property is']);
 // Output: The property is 37
 ```
 
