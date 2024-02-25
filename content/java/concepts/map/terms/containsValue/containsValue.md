@@ -7,13 +7,12 @@ Tags:
   - 'map'
   - 'hashmap'
   - 'java'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+CatalogContent: 
   - 'learn-java'
   - 'paths/computer-science'
 ---
-The map method **containsValue()** is used to determine whether a map contains a given value. It returns a boolean value. The boolean value will return true if the map has one or more keys that map to the given value. If the map does not contain the given value, it will return false.
 
-This function is helpful when you don't need to traverse the whole hashmap and only to know that the given value does or does not exist in a map. 
+The map method **containsValue()** is used to determine whether a map contains a given value. It returns a boolean value. The boolean value will return true if the map has one or more keys that map to the given value. If the map does not contain the given value, it will return false.
 
 ## Syntax
 
