@@ -59,3 +59,13 @@ for (int num : container) {
   std::cout << num << "\n";
 }
 ```
+
+The above code block gives the following output:
+
+```shell
+1
+2
+3
+4
+5
+```
