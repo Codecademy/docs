@@ -49,7 +49,7 @@ for (int i = 0; i < 10; i++) {
 
 A `for-each` loop iterates over every element in a container (array, vector, etc.). 
 
-The example below prints 1 to 5 on the screen:
+The example below uses `for-each` loop to print 1 to 5 from a vector `container`:
 
 > **Note:** The variable is a copy of the object in the vector. To act on the object in the vector, declare the variable by reference (&num).
 
