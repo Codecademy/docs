@@ -1,1 +1,1 @@
-content/php/concepts/functions/functions.md
+content/cpp/concepts/arrays/arrays.md
