@@ -1,7 +1,7 @@
 ---
 Title: 'math.remainder()'
 Description: 'Returns the remainder of x divided by y'
-Subjects: 
+Subjects:
   - 'Developer Tools'
   - 'Web Development'
   - 'Discrete Math'
@@ -22,10 +22,10 @@ The **`math.remainder()`** method is the remainder of x divided by y. It will re
 math.remainder(x,y)
 ```
 
-  - `x`: It is the number to be divided.
-  - `y`: It is the number by which `x` is divided by.
+- `x`: It is the number to be divided.
+- `y`: It is the number by which `x` is divided by.
 
->**Note:** The Parameter `y` has to be a non-zero number or will return a `ValueError`.
+> **Note:** The Parameter `y` has to be a non-zero number or will return a `ValueError`.
 
 ## Example
 
@@ -76,7 +76,7 @@ print(math.ceil(math.remainder(25.5, 5.7)))
 
 The output for the above code will be:
 
-```shell 
+```shell
 2
 3
 ```
