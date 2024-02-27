@@ -3,7 +3,6 @@ Title: 'Journey Maps in UX'
 Description: 'The visualization of the process that a person goes through in order to accomplish a goal with the intent of improving the overall user experience by providing a holistic view of the user's journey. '
 Subjects: 
 - 'Web Design'
-- 'Web Development'
 Tags:
 - 'UI'
 - 'UX'
