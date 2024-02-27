@@ -23,7 +23,7 @@ import math
 sqrt = math.Sqrt(x)
 ```
 
-`Sqrt()` excepts an argument of type `float64` and returns a value of type `float64`.
+`Sqrt()` accepts an argument of type `float64` and returns a value of type `float64`.
 
 Note these special cases:
 

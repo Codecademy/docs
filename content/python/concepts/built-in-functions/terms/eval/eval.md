@@ -35,7 +35,7 @@ The `eval()` function uses the following parameters:
 >
 > **Note:** `eval()` does not support keyword arguments and it doesn't work on compound statements or assignment operations. It only works with expressions that can be evaluated to be equal to some value.
 
-## Examples
+## Example
 
 The following example uses `eval()` to evaluate an expression using variables in the current global scope, then evaluates the same expression with its own global scope:
 
@@ -44,5 +44,21 @@ x = 10
 y = 5
 
 print(eval("x + y")) # Output: 15
-print(eval("x + y"), {"x":15, "y":y}) # Output: 20
+print(eval("x + y", {"x":15, "y":y})) # Output: 20
+```
+
+## Codebyte Example
+
+In the examples below, the `eval()` function is used to return a value from a string:
+
+```codebyte/python
+x = 2
+y = 3
+
+print(eval("x * y"))
+print(eval("x * y", {"x": 3, "y": y}))
+print(eval("min([-10, 20, 45])"))
+
+# The following example will create a TypeError as the first argument must be a string
+# print(eval(x*y))
 ```

@@ -18,15 +18,38 @@ Shorthand property that sets the width for the overall border of an element or f
 ## Syntax
 
 ```css
-border-width: <value>;
+/* Keyword values */
+border-width: thin;
+border-width: medium;
+border-width: thick;
+
+/* <length> values */
+border-width: 4px;
+border-width: 1.2rem;
+
+/* top and bottom | left and right */
+border-width: 2px 1.5em;
+
+/* top | left and right | bottom */
+border-width: 1px 2em 1.5cm;
+
+/* top | right | bottom | left */
+border-width: 1px 2em 0 4rem;
+
+/* Global values */
+border-width: inherit;
+border-width: initial;
+border-width: revert;
+border-width: revert-layer;
+border-width: unset;
 ```
 
-where `<value>` can be the following:
+The `border-width` property may be specified using one, two, three, or four values.
 
-- Width keyword: `medium`, `thin`, `thick`
-- Length: `5px`
-
-**Note:** Providing one value will effect the width of all four borders. Providing two values will result in the first value setting the width of top and bottom borders and the second value setting the width of left and right. Three values will result in the first value applied to the top, the second value to the left and right, and the third value applied to the bottom. Four values will apply to top, right, bottom and left.
+- When one value is specified, it applies the same width to all four sides.
+- When two values are specified, the first width applies to the top and bottom, the second to the left and right.
+- When three values are specified, the first width applies to the top, the second to the left and right, the third to the bottom.
+- When four values are specified, the widths apply to the top, right, bottom, and left in that order (clockwise).
 
 ## Example 1
 
@@ -40,6 +63,10 @@ h1 {
 }
 ```
 
+The following image demonstrates the code block above:
+
+![CSS border-top Example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-borders-border-width-example1.png)
+
 ## Example 2
 
 Set the width of the border top and bottom to be `4px` and left and right to `2px`:
@@ -51,6 +78,10 @@ h1 {
   border-width: 4px 2px;
 }
 ```
+
+The following image demonstrates the code block above:
+
+![CSS border-top Example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-borders-border-width-example2.png)
 
 ## Example 3
 
@@ -64,6 +95,10 @@ h1 {
 }
 ```
 
+The following image demonstrates the code block above:
+
+![CSS border-top Example 3](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-borders-border-width-example3.png)
+
 ## Example 4
 
 Set the width of the border top to `10px`, right to `thin`, left to `20px` and bottom to `thick`:
@@ -75,3 +110,7 @@ h1 {
   border-width: 10px thin 20px thick;
 }
 ```
+
+The following image demonstrates the code block above:
+
+![CSS border-top Example 4](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-borders-border-width-example4.png)

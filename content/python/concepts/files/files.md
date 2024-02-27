@@ -41,7 +41,7 @@ print(first_two_bytes, next_three_bytes, the_rest, sep="\n")
 file.close()
 ```
 
-In the first part of the code example, a plain text file named **myfile.txt** was created and opened in the `"w"` "write"-mode. Then a piece of text was written to the file and closed afterward.
+In the first part of the code example, a plain text file named `myfile.txt` was created and opened in the `"w"` "write"-mode. Then a piece of text was written to the file and closed afterward.
 
 In the next part, a few calls to the `.read()` method are assigned to some [variables](https://www.codecademy.com/resources/docs/python/variables) and then each one is [printed](https://www.codecademy.com/resources/docs/python/built-in-functions/print) on a new line:
 

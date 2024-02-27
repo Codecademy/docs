@@ -39,7 +39,7 @@ Entire folders or directories can be removed using the [`.rmdir()`](https://www.
 
 ## Example
 
-In the example below, the `.remove()` method is used to delete the **my_file.txt** file:
+In the example below, the `.remove()` method is used to delete the `my_file.txt` file:
 
 ```py
 import os
@@ -49,4 +49,20 @@ os.remove("my_file.txt")
 
 # Delete file in another directory
 os.remove("path/to/my_file.txt")
+```
+
+## Codebyte Example
+
+The example below creates a file called `example.txt` and then deletes it using the `.remove()` method. The `.isfile()` method is used to show at which stage the file is found.
+
+```codebyte/python
+filename = "example.txt"
+f = open(filename, "w")
+f.close()
+
+print("File found." if os.path.isfile(filename) else "File not found.")
+
+os.remove(filename)
+
+print("File found." if os.path.isfile(filename) else "File not found.")
 ```

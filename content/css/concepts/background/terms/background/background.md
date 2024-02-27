@@ -46,6 +46,10 @@ body {
 }
 ```
 
+This will display:
+
+![CSS Background Example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-background-example-1.png)
+
 ## Example 2
 
 Specifies the background-color, the background-image property to set the image to the background, background-repeat to specify the image to not be repeated, background-attachment to specify the image to be fixed and background-position to specify the image to be in center:
@@ -55,3 +59,7 @@ body {
   background: blue url('whale.png') no-repeat fixed center;
 }
 ```
+
+This will display:
+
+![CSS Background Example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-background-example-2.png)

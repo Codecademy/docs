@@ -17,7 +17,7 @@ Returns a runnable code object created from a `string`.
 
 ## Syntax
 
-```py
+```pseudo
 compile(source, filename, mode)
 ```
 
@@ -34,17 +34,30 @@ compile(source, filename, mode)
 
 ## Example
 
-Use `compile()` to take a code block and return a runnable code object.
+Use `compile()` to take a code block containing a function and a statement, to return a runnable code object.
 
 ```py
-x = compile('print(55)\nprint(88)', 'test', 'exec')
+def dog():
+    print("Woof woof wooo!")
 
-exec(x)
+friend = compile('print("Who\'s a good boy?")\ndog()', 'test', 'exec')
+
+exec(friend)
 ```
 
 This will output:
 
 ```shell
-55
-88
+Who's a good boy?
+Woof woof wooo!
+```
+
+## Codebyte Example
+
+Use `compile()` to take a code block containing a single expression and return a runnable code object.
+
+```codebyte/python
+fact = compile('print("Codecademy Docs is a great learning tool!")', 'test', 'eval')
+
+eval(fact)
 ```

@@ -1,6 +1,6 @@
 ---
 Title: 'str_shuffle()'
-Description: 'Randomly shuffles a string.'
+Description: 'Randomly shuffles the characters of a string.'
 Subjects:
   - 'Computer Science'
   - 'Web Design'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`str_shuffle()`** function randomly shuffles a string. It generates a different order of characters each time it is called.
+The **`str_shuffle()`** function randomly shuffles the characters of a `string`. It generates a different order of characters each time it is called.
 
 ## Syntax
 
@@ -21,11 +21,27 @@ The **`str_shuffle()`** function randomly shuffles a string. It generates a diff
 str_shuffle($string)
 ```
 
-- `$string` is the string to be shuffled.
+The `str_shuffle()` function takes one required parameter: a `$string` that is a `string` to be shuffled. It returns a `string` with the shuffled characters.
+
+## Example
+
+The following example uses the `str_shuffle()` function to shuffle the letters of the word `"secret"`. Then the [`echo`](https://www.codecademy.com/resources/docs/php/string-functions/echo) command prints the shuffled letters as a `string` to the console:
+
+```php
+<?php
+  echo str_shuffle("secret");
+?>
+```
+
+The example can result in the following output (it can be any combination of the given letters):
+
+```shell
+tesecr
+```
 
 ## Codebyte Example
 
-This example demonstrates the use of `str_shuffle()` on a string.
+This example uses the `str_shuffle()` function with a `string`.
 
 ```codebyte/php
 <?php
@@ -35,4 +51,4 @@ This example demonstrates the use of `str_shuffle()` on a string.
 ```
 
 > **Note:** The output will vary each time this program is executed, as the `str_shuffle()` function shuffles the string randomly.
-> The function should not be used for cryptography, because it does not generate cryptographically secure random numbers.
+> The function should not be used for cryptography because it does not generate cryptographically secure random numbers.

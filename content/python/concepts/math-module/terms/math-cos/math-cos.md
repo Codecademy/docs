@@ -1,6 +1,6 @@
 ---
 Title: 'math.cos()'
-Description: 'Returns the cosine of the angle.'
+Description: 'Returns the cosine of an angle.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -12,21 +12,21 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Returns the cosine of the angle.
+The **`math.cos()`** function returns the cosine of an angle.
 
 ## Syntax
 
-```py
+```pseudo
 math.cos(n)
 ```
 
 The `math.cos()` function returns a numeric value between -1 and 1, which represents the cosine of the value `n`.
 
-## Example 1
+## Example
 
 Use `math.cos()` to return the cosine of a `90` degree angle:
 
-```python
+```py
 import math
 
 print(math.cos(90))
@@ -34,14 +34,12 @@ print(math.cos(90))
 # Output: -0.4480736161291702
 ```
 
-## Example 2
+## Codebyte Example
 
-Use `math.cos()` to return the cosine of a `180.5` degree angle:
+The following example is runnable and uses the `math.cos()` function to return the cosine of a number:
 
-```python
+```codebyte/python
 import math
 
-print(math.cos(180.5))
-
-# Output: -0.141105086702016
+print("The cosine of 0 is: ", math.cos(0))
 ```

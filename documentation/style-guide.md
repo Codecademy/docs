@@ -1,6 +1,6 @@
 # Docs Style Guide
 
-Welcome to Codecademy Docs! This document is a general guide about entry standards. Following this guide will reduce the number of potential edits that will need to be made to your PR.
+Welcome to Codecademy Docs! This document is a general guide to entry standards. Following this guide will reduce the number of potential edits that will need to be made to your PR.
 
 ## Types of Entries
 
@@ -9,7 +9,7 @@ There are three types of Docs entries:
 ### Topics
 
 - Written by the maintainers as needed.
-- Cover a broad category such as a programming languages like [Java](https://www.codecademy.com/resources/docs/java) and [C++](https://www.codecademy.com/resources/docs/cpp), or extensive subjects like [Open Source](https://www.codecademy.com/resources/docs/open-source) and [Cybersecurity](https://www.codecademy.com/resources/docs/cybersecurity).
+- Cover a broad category such as a programming languages like [Java](https://www.codecademy.com/resources/docs/java) and [C++](https://www.codecademy.com/resources/docs/cpp) or extensive subjects like [Open Source](https://www.codecademy.com/resources/docs/open-source) and [Cybersecurity](https://www.codecademy.com/resources/docs/cybersecurity).
 - Vary in structure from a few paragraphs to an entry with multiple sections.
 
 ### Concepts
@@ -17,7 +17,7 @@ There are three types of Docs entries:
 - Provided as a list under each [topic](#topics).
 - Cover a small piece of the parent topic such as a [class](https://www.codecademy.com/resources/docs/general/data-structures/class), library, control structure, or language element.
 - For non-language topics, the entry can be any discrete subject within the parent topic. (Such as [Linux](https://www.codecademy.com/resources/docs/open-source/linux) under [Open Source](https://www.codecademy.com/resources/docs/open-source))
-- For [General](https://www.codecademy.com/resources/docs/general) concepts, the entry can be any computer/code related subject not broad enough for its own topic entry.
+- For [General](https://www.codecademy.com/resources/docs/general) concepts, the entry can be any computer/code-related subject not broad enough for its own topic entry.
 - Concepts typically have at least a few paragraphs and multiple sections. (see: [Headers/Sections](#headerssections))
 - We provide a [template for a concept entry](https://github.com/Codecademy/docs/blob/main/documentation/concept-entry-template.md).
 
@@ -42,22 +42,22 @@ There are three types of Docs entries:
 
 ## Writing Entries
 
-- Entries _must_ be completely original work. Copying from other websites (in whole or in part) is plagiarism and is unacceptable in Docs.
+- Entries _must_ be completely original work. Copying from other websites (in whole or part) is plagiarism and unacceptable in Docs.
 - Entries are all written using Markdown.
 - Do not use HTML in place of Markdown formatting.
-- Bold the first occurrence of the concept or term in the body of the entry.
+- Bold the first occurrence of the concept or term (the subject) in the body of the entry. Any additional new concepts/terms introduced in the text must also be in bold. If there is already an existing doc entry for the concept/term, link the term instead of using bold.
 - Bold should not be used for emphasis.
 - Use italics for emphasis when necessary.
 - Do not use italics for new terms.
 - Always expand and explain abbreviations when using them for the first time.
-- When referring to properties and methods, include the leading dot, and for methods include trailing parenthesis: `.property`, `.method()`.
-- When referring to elements as they would appear in code (properties, methods, functions, commands, expressions, etc.) use Markdown’s inline-code syntax i.e. backticks: (\`...\`). (see: [Code](#code))
+- When referring to properties and methods, include the leading dot; for methods, include trailing parenthesis: `.property`, `.method()`.
+- When referring to elements as they appear in code (properties, methods, functions, commands, expressions, etc.), use Markdown's inline-code syntax, i.e. backticks: (\`...\`). (see: [Code](#code))
 - With bulleted lists:
   - A line break should precede and follow the list.
   - There should be no line breaks between items in the list.
-  - Full sentences should be punctuated appropriately, with leading capitals and ending punctuation.
-- Avoid using first and second person pronouns, i.e. "I", "we", and "you".
-- Avoid words or phrases that assume the reader’s knowledge such as "easy", "obviously", "simply", "of course", and so on.
+  - Full sentences should be punctuated with leading capitals and ending punctuation.
+- Avoid using first and second-person pronouns, i.e. "I", "we", and "you".
+- Avoid words or phrases that assume the reader's knowledge, such as "easy", "obviously", "simply", "of course", and so on.
 - Always use an [Oxford comma](https://www.grammarly.com/blog/what-is-the-oxford-comma-and-why-do-people-care-so-much-about-it/).
 - Limit the entry to the concept or term being illustrated. i.e., if you find yourself writing about a method or property in a concept entry, it would be better to give it its own term entry.
 - Use a "note" to inform the reader of points of potential confusion or to warn of potential pitfalls.
@@ -71,21 +71,21 @@ There are three types of Docs entries:
 ## Headers/Sections
 
 - Do not use any `h1` headers (in Markdown preceded by `#`).
-- Do not include a title header, that is automatically provided by the metadata.
+- Do not include a title header. It is automatically provided by the metadata.
 - Do not include a header before the introductory paragraph(s).
 - Main headers should be `h2` (`##`).
 - Sub headers should be `h3` (`###`).
 - Headers should be written in Title Case.
 - Headers should not include ending punctuation.
 - Headers should not exceed 5 words.
-- Line breaks should precede and follow each header/sub header.
+- Line breaks should precede and follow each header/subheader.
 
 Concept and term entries for a language function, method, command or other language structure will typically have two or three sections with the corresponding headers:
 
-- `## Syntax` for the section introducing the syntax of the term.
-- `## Example` for the section with a code block showing the term in use.
+- `## Syntax` for the section introducing the term's syntax.
+- `## Example` for the section with a code block showing the term used.
 - `## Codebyte Example` for those languages that support codebytes, the section with a runnable codebyte example.
-- There can be more headers and sub headers in cases where the complexity of the subject warrants it.
+- There can be more headers and subheaders in cases where the complexity of the subject warrants it.
 
 ## Code
 
@@ -126,7 +126,7 @@ In code blocks:
   - "Codebyte Example" blocks.
     - Used with a `## Codebyte Example` header.
     - Typically, only one per entry.
-    - Typically, appears at the end of the entry.
+    - Typically, it appears at the end of the entry.
     - Is original code, not a copy of a prior example in Docs or an existing example on another site.
     - Displays example code that is runnable.
     - Use codebyte blocks appropriate to the language (see: [Supported Codebyte Blocks](#supported-codebyte-blocks)).
@@ -149,6 +149,9 @@ Code blocks can reference a language to support syntax highlighting. The followi
 - HTML: ` ```html `
 - Java: ` ```java `
 - JavaScript: ` ```js `
+- Kotlin: ` ```kotlin `
+- Lua: ` ```lua `
+- Luau: ` ```lua `
 - Markdown: ` ```md `
 - PHP: ` ```php `
 - Plaintext: ` ```plaintext `
@@ -156,6 +159,7 @@ Code blocks can reference a language to support syntax highlighting. The followi
 - Python: ` ```py `
 - R: ` ```r `
 - Ruby: ` ```rb `
+- Rust: ` ```rust `
 - Sass: ` ```scss `
 - Scheme: ` ```scheme `
 - Shell/Program Output: ` ```shell `
@@ -173,25 +177,28 @@ Codebytes can be used with the following languages:
 - PHP: ` ```codebyte/php `
 - Python: ` ```codebyte/python `
 - Ruby: ` ```codebyte/ruby `
+- Scheme: ` ```codebyte/scheme `
 
 ## Links
 
-- Use Markdown syntax for links: `(text)[url]`.
+- Use Markdown syntax for links: `[text](url)`.
 - Do not link to parent concept or topic entries. The Docs navigation provides those for each entry.
-- Do not link out to external third-party documentation. (Such as Wikipedia.)
+- Do not link to external third-party documentation. (Such as Wikipedia.)
 - You are encouraged to link out to other relevant Docs topics, concepts, or terms the first time they appear.
-- In some cases, it may be appropriate to link out to external standards documents or entities. (Example: [XML 1.0 Specification](http://www.w3.org/TR/REC-xml), [World Wide Web Consortium](https://www.w3.org/standards/), [Red Hat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux))
-- When linking items outside the document, use the full path. When linking to items inside the document (i.e. Headers) use a relative path.
+- In some cases, linking out to external standards documents or entities may be appropriate. (Example: [XML 1.0 Specification](http://www.w3.org/TR/REC-xml), [World Wide Web Consortium](https://www.w3.org/standards/), [Red Hat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux))
+- When linking items outside the document, use the full path. Use a relative path when linking to items inside the document (i.e., Headers).
 - If there are parentheses in the link, replace them with `%28` and `%29`.
 
 ## File Hosting
 
-- If you'd like to host files such as images, or GIFs, please upload it to the [/media folder](https://github.com/Codecademy/docs/tree/main/media).
-- Images should be linked to using the following url: "https://raw.githubusercontent.com/Codecademy/docs/main/media/" followed by the image name.
+- If you'd like to host files such as images or GIFs, please upload them to the [/media folder](https://github.com/Codecademy/docs/tree/main/media).
+- Images should be linked to the URL: "https://raw.githubusercontent.com/Codecademy/docs/main/media/" followed by the image name.
 - File names should use dashes (`-`) to separate words rather than spaces or underscores.
-- File names should be in lower case.
+- File names should be in lowercase.
 - Images should be used for diagrams, UI illustrations, and showing output to the user.
 - Images should not be used to illustrate code. [Code blocks](#code) should be used instead.
+- Use descriptive "Alt text" with images to describe the image, diagram, or animation.
+  - The "Alt text" should be in square brackets, before the URL in an image tag: `![Text that describes the image, diagram, or animation](https://path.to/image)`
 
 > **Note:** Image links will not work until a PR is merged.
 
@@ -227,9 +234,9 @@ CatalogContent:
 
 - The metadata starts on the first line of the entry.
 - The metadata begins and ends with three dashes (`---`) on their own line.
-- There should be a line-break after the last line of the metadata.
+- There should be a line break after the last line of the metadata.
 - There should not be extra line breaks within the metadata.
-- The data for `Title:` and `Description:` appear as single-quoted strings on the same line.
+- The `Title` and `Description:` data appear as single-quoted strings on the same line.
 - Do not use apostrophes or quotes in `Title:` or `Description:`.
 - Do not use boldface or italics in `Title:` or `Description:`.
 - `Description:` should be short, typically one sentence.
@@ -243,11 +250,11 @@ CatalogContent:
   - Items come from [this list](https://github.com/Codecademy/docs/blob/main/documentation/subjects.md).
   - Should have one to two items. Always at least one.
 - For `Tags:`
-  - Items are key words that are relevant to the entry.
+  - Items are keywords that are relevant to the entry.
   - Items come from [this list](https://github.com/Codecademy/docs/blob/main/documentation/tags.md).
   - Should have three to four items.
   - If you wish to use a new tag, add it in the appropriate place (alphabetical order) in the [tags.md](https://github.com/Codecademy/docs/blob/main/documentation/tags.md) file as part of your PR.
 - For `CatalogContent:`
-  - Items are slugs of Codecademy courses and path landing pages that relate to the entry.
+  - Items are slugs of Codecademy courses and path landing pages related to the entry.
   - For items, use [this document](https://github.com/Codecademy/docs/blob/main/documentation/catalog-content.md) as a guide.
   - Should have two items.
