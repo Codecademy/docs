@@ -20,8 +20,8 @@ The **`.putifabsent()`** method in Dart is used to insert a key-value pair into 
 V putIfAbsent(K key, V ifAbsent())
 ```
 
-- `Key`: The key to check for or add in the map.
-- `ifabsent`: A function that returns the value to be associated with the key if it is not already present in the map.
+- `key`: The key to check for or add to the map.
+- `ifAbsent`: A function that returns the value associated with the key if it is not already in the map.
 
 ## Example
 
