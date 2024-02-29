@@ -20,7 +20,7 @@ Takes in a numeric data type and rounds the value down to the nearest integer.
 math.floor(n)
 ```
 
-The **`math.floor()`** function takes in a value and returns its floor, the smallest integer greater than or equal to that value.
+The `math.floor()` function takes in a value and returns its floor, the smallest integer greater than or equal to that value.
 
 ## Example
 
