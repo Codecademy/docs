@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Takes in a numeric data type and rounds the value down to the nearest integer.
+The **`math.floor()`** function takes in a numeric data type and rounds the value down to the nearest integer.
 
 ## Syntax
 
