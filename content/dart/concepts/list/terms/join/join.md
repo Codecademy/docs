@@ -22,7 +22,7 @@ list-name.join('separator')
 ```
  - `separator`: It separates elements in a list using any characters wrapped with single/double quotes. White spaces can be used but aren't obligatory.
 
-## Example 1
+## Example
 
 The following code snippet demonstrates the `.join()` method using a separator without white spaces:
 
@@ -42,8 +42,6 @@ The output of the above code is:
 You are awesome!
 ```
 
-## Example 2
-
 In the following example, the asterisk is used as a delimiter between elements.
 
 ```dart
@@ -62,8 +60,6 @@ The output of the above code is:
 JavaScript * Python * HTML * CSS
 ```
 
-## Example 3
-
 In the following example, the separator used between each element is `or` meaning each task in the list will be separated by the word `or`.
 
 ```dart
@@ -81,8 +77,6 @@ The output of the above code is:
 ```shell
 planting flowers or vacuuming or laundry or ironing or preparing meals
 ```
-
-## Example 4
 
 The following snippet contains a list which has a predefined text to make it slightly more complex:
 
