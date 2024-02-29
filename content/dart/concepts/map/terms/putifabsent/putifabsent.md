@@ -1,6 +1,6 @@
 ---
 Title: '.putIfAbsent()'
-Description: '.putifabsent() is used to insert a key-value pair into a map if the key is not already present. '
+Description: 'Inserts a key-value pair into a map if the key is not already present.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
