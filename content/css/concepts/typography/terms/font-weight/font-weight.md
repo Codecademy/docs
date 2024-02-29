@@ -19,7 +19,6 @@ To set the text to be thicker or thinner.
 
 ```css
 font-weight: font-weight-value;
-
 ```
 
 The `font-style-value` can be the following:
