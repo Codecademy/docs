@@ -41,5 +41,5 @@ void main() {
 Here is the output for the above code:
 
 ```
-{'key1': 1, 'key2': 2, 'key3': 3}
+{key1: 1, key2: 2, key3: 3}
 ```
