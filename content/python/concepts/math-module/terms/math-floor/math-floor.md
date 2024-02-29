@@ -30,7 +30,6 @@ Use `math.floor()` to return the floor of `134.2`:
 import math
 
 print(math.floor(134.2))
-
 ```
 
 The above code give the following output:
