@@ -134,7 +134,7 @@ Person {
 */
 ```
 
-An additional step can be made to optimize this procedure through the use of a [constructor](https://www.codecademy.com/resources/docs/javascript/constructor).
+An additional step can be made to optimize this procedure through the use of a [constructors](https://www.codecademy.com/resources/docs/javascript/constructors).
 
 A constructor function initializes a set of variables at the creation of a class. Thanks to constructors, object properties can be defined when a new instance is made. This makes code precise and concise.
 
