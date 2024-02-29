@@ -13,23 +13,24 @@ A **variable** is a location in computer memory used to store reference, usually
 
 ## Syntax
 
+When declaring a variable in Dart, the type of variable goes first, followed by the name, and then the value:
+
 ```pseudo
 type name = 'value';
 ```
-
-When declaring a variable in Dart, the type of variable goes first, followed by the name, and then the value. The default type 'var' is inferred to be string. If an object isn't restricted to a single type, specify the Object type (or dynamic if necessary).
+The default type 'var' is inferred to be string. If an object isn't restricted to a single type, specify the Object type (or dynamic if necessary):
 
 ```pseudo
 Object name = 'value';
 ```
 
-The Dart Language enforces sound null safety (https://dart.dev/language/variables#null-safety), allowes to set default values (https://dart.dev/language/variables#default-value), constants (https://dart.dev/language/variables#final-and-const) and to declare the late variables(https://dart.dev/language/variables#late-variables). 
+The Dart Language enforces sound null safety, allowes to set default values, constants and to declare the late variables (for more details see https://dart.dev/language/variables#default-value). 
 
 ## Example
 
 To display a constant name "Alex" one should write:
 
-```c
+```dart
 void main() { 
    const name = 'Alex'; 
    print(name); 
