@@ -55,6 +55,10 @@ div {
 }
 ```
 
+The following gif runs as a loop to demonstrate the code block above:
+
+![Keyframes example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-keyframes-example-1.gif 'Keyframes example 1')
+
 ## Example 2
 
 Run the keyframes rule `fadeoutfadein` for a duration of two seconds:
@@ -89,3 +93,7 @@ div {
   }
 }
 ```
+
+The following gif runs as a loop to demonstrate the code block above:
+
+![Keyframes example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-keyframes-example-2.gif 'Keyframes example 2')

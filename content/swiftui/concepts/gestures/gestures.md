@@ -69,9 +69,9 @@ The `.gesture()` modifier is used for more advanced and customizable gestures wi
 - `LongPressGesture()`
 - `MagnificationGesture()`
 - `RotationGesture()`
-- `TapGesture()`.
+- `TapGesture()`
 
-These all have special modifiers, usually `.onEnded()` and `.onChanged()`.They can be used to take action when the gesture is in-flight (for `.onChanged()`) or completed (for `.onEnded()`).
+These all have special modifiers, usually `.onEnded()` and `.onChanged()`. They can be used to take action when the gesture is in-flight (for `.onChanged()`) or completed (for `.onEnded()`).
 
 In the example below, a magnification gesture is used. Pinching in and out scales the view up and down. This is done by creating two `@State` properties to store the scale amount, passing those variables into the `.scaleEffect()` modifier, then setting those values in the gesture:
 
@@ -97,7 +97,7 @@ var body: some View {
 
 This will display on Xcode:
 
-![This is a gif that shows the effect of using MagnificationGesture in Xcode simulation](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-gesture-magnficationgesture-1.gif)
+![This is a gif that shows the effect of using MagnificationGesture in Xcode simulation](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-gesture-magnificationgesture-1.gif)
 
 There is a problem with the code above because the text view does not return to its normal state, which can result in a bad user experience. To fix this problem, the `currentAmount` property will be assigned to zero in the `.onEnded()` modifier, so the text view will return to its normal size after completing the gesture:
 
@@ -125,4 +125,4 @@ var body: some View {
 
 In addition, `.spring()` was added to give the text view a spring animation while it returns to its normal size. This will display on Xcode:
 
-![MagnificationGesture in Xcode simulation](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-gesture-magnficationgesture-2.gif)
+![MagnificationGesture in Xcode simulation](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-gesture-magnificationgesture-2.gif)

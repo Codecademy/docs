@@ -1,5 +1,5 @@
 ---
-Title: 'char()'
+Title: '.char()'
 Description: 'Converts a decimal value to its character representation.'
 Subjects:
   - 'Code Foundations'
@@ -27,20 +27,29 @@ In the above syntax, the identifier `I` represents the decimal value which will 
 The following example uses the `string.char()` function to convert different decimal values to their associated character values:
 
 ```lua
-s = string.char(97)
-print(s)
-s = string.char(122)
-print(s)
-s = string.char(125)
-print(s)
+x = 10
+i = 0
+while i <= x do
+  s = string.char(97 + i)
+  print(s)
+  i = i + 1
+end
 ```
 
 This example results in the following output:
 
 ```shell
 a
-z
-}
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
 ```
 
 ## Example 2

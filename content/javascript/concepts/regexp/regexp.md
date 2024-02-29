@@ -72,7 +72,7 @@ In the following `re` is a `RegExp` object.
 
 ### `RegExp` Flags
 
-When specified, these flags change the default match behavor of the `RegExp` object.
+When specified, these flags change the default match behavior of the `RegExp` object.
 
 | Flag | Description                                                              |
 | ---- | ------------------------------------------------------------------------ |
@@ -243,7 +243,7 @@ console.log(str.replace(re, 'x'));
 
 re = /[olu]{2}/gi;
 console.log(str.replace(re, 'x'));
-// Output: Bixy bxght a bushel of bxe baxons.
+// Output: Bixy bxght a bushel of bxe baxxns.
 
 re = /l\w*/gi;
 console.log(str.replace(re, 'x'));

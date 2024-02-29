@@ -51,3 +51,7 @@ h2 {
   color: rgba(0, 0, 0, 25%);
 }
 ```
+
+The `h1` and `h2` elements will render similar to:
+
+![CSS color examples](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-colors-rgba-example.png)

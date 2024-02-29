@@ -35,3 +35,5 @@ h1 {
   opacity: 0.5;
 }
 ```
+
+![Image of text at full and half opacity](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-opacity-example.png)

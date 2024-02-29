@@ -18,11 +18,11 @@ Python (language-specific):
 - [Conditionals](https://www.codecademy.com/resources/docs/python/conditionals)
 - [Dictionaries](https://www.codecademy.com/resources/docs/python/dictionaries)
 
-Some of these entries, such as the Python's [Lists](https://www.codecademy.com/resources/docs/python/lists) entry, will have a terms table at the bottom with more nested term entries.
+Some of these entries, such as Python's [Lists](https://www.codecademy.com/resources/docs/python/lists) entry, will have a terms table at the bottom with more nested term entries.
 
 ## 2. Term Entry
 
-Term entries are like sub-entries that covers a concept's functions, methods, properties, etc. They are featured in a table of links located at the bottom of its relevant concept entry.
+Term entries are like sub-entries that cover a concept's functions, methods, properties, etc. They are featured in a table of links located at the bottom of its relevant concept entry.
 
 The Python's [Lists](https://www.codecademy.com/resources/docs/python/lists) entry, for example, features a table of term entries including:
 
@@ -36,7 +36,8 @@ All Codecademy Docs entries are Markdown files and should consist of three parts
 
 - The `file name`, with the `.md` extension.
 - The metadata about the content, written in YAML, which appears at the top of the entry.
-- The content, written in Markdown, with the first use of a topic, concept, or entry in **bold**.
+- The content, written in Markdown, with the first use of new terminology in **bold**.
+  - If an entry for the terminology exists, opt for a hyperlink.
   - Include examples with code snippets when necessary.
   - Templates for these entries can be found in the [repo documentation](https://github.com/Codecademy/docs/tree/main/documentation).
 
@@ -54,15 +55,15 @@ All entry file names use the `.md` format and follow the standards listed under 
 
 ### Code Blocks
 
-Code examples are an excellent teaching tool. Many term entries will contain a code example as a standard field. Encyclopedia entries are more flexible, but if your encyclopedia entry doesn't contain any code blocks, take a moment to ask yourself if one would help! For details on how to format code blocks see ["Code" in the Docs Style Guide](https://github.com/Codecademy/docs/blob/main/documentation/style-guide.md#code).
+Code examples are an excellent teaching tool. Many term entries will contain a code example as a standard field. Encyclopedia entries are more flexible, but if your encyclopedia entry doesn't contain any code blocks, take a moment to ask yourself if one would help! For details on how to format code blocks, see ["Code" in the Docs Style Guide](https://github.com/Codecademy/docs/blob/main/documentation/style-guide.md#code).
 
 All code blocks should be delineated by triple backticks (```). Languages can be specified for syntax highlighting. For a list of supported languages, see ["Supported Code Blocks" in the Docs Style Guide](https://github.com/Codecademy/docs/blob/main/documentation/style-guide.md#supported-code-blocks)
 
 ### Codebytes: Runnable Code Blocks
 
-Codecademy has a new feature called [Codebytes](https://www.codecademy.com/codebyte-editor) that will allow learners to click a button to run code blocks themselves! The output to the console will appear next to the code block.
+Codecademy has a feature called [Codebytes](https://www.codecademy.com/codebyte-editor) that will allow learners to click a button to run code blocks themselves! The output to the console will appear next to the code block.
 
-Codebytes is a great tool to incorporate into some entries (for instance, if you want learners to think about what a code block will output before they see it in action, or if you want to show a learner how a function that incorporates randomization produces different output each time).
+Codebytes is a great tool to incorporate into some entries (for instance, if you want learners to think about what a code block will output before they see it in action or if you want to show a learner how a function that incorporates randomization produces different output each time).
 
 The syntax is simple: You just add `codebyte/` between the ` ``` ` and the language name in the first line of a normal code block.
 
@@ -78,7 +79,7 @@ console.log('Hello, World!');
 
 For a list of supported languages, see ["Supported Codebyte Blocks" in the Docs Style Guide](https://github.com/Codecademy/docs/blob/main/documentation/style-guide.md#supported-codebyte-blocks)
 
-> **Note:** Codebytes sometimes requires the code block to include some boilerplate code. To check what boilerplate is required for your language, select the language from the dropdown [in this demo page](https://www.codecademy.com/codebyte-editor). There you'll find a "Hello World!" program set up as an example!
+> **Note:** Codebytes sometimes require the code block to include some boilerplate code. To check what boilerplate is required for your language, select the language from the dropdown [in this demo page](https://www.codecademy.com/codebyte-editor). There you'll find a "Hello World!" program set up as an example!
 
 ### Metadata
 
@@ -106,7 +107,7 @@ Each entry must begin with a metadata section. For guides to writing an entry's 
 
 ### File Hosting
 
-You may use images or GIFs in your entries. They are often helpful in illustrating content, especially output to the end user. To attach an image to your entry, use the guidelines specified under ["File Hosting" in the Docs Style Guide](https://github.com/Codecademy/docs/blob/main/documentation/style-guide.md#file-hosting).
+You may use images or GIFs in your entries. They are often helpful in illustrating content, especially output, to the end user. To attach an image to your entry, use the guidelines specified under ["File Hosting" in the Docs Style Guide](https://github.com/Codecademy/docs/blob/main/documentation/style-guide.md#file-hosting).
 
 ### I've read all the content standards. Now what?
 

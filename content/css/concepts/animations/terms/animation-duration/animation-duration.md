@@ -50,6 +50,10 @@ div {
 }
 ```
 
+The following gif runs as a loop to demonstrate the code block above:
+
+![Animation showing blue background transitioniing to white over 2 seconds](https://raw.githubusercontent.com/Codecademy/docs/main/media/Animation-Duration-example-1.gif)
+
 ## Example 2
 
 Provide a second duration value to determine the duration of an additional animation:
@@ -85,3 +89,7 @@ div {
   }
 }
 ```
+
+The following gif runs as a loop to demonstrate the code block above:
+
+![Animation showing blue background transitioniing to white and back to blue over 4 seconds, and moving from right to left over 5000ms](https://raw.githubusercontent.com/Codecademy/docs/main/media/Animation-Duration-example-2.gif)
