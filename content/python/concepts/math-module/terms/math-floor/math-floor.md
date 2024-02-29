@@ -24,7 +24,7 @@ The **`math.floor()`** function takes in a value and returns its floor, the smal
 
 ## Example
 
-Use `math.floor()` to return the floor of `134.2`:
+Here's an example of `math.floor()` to return the floor of `134.2`:
 
 ```py
 import math
