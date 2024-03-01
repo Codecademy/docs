@@ -16,10 +16,6 @@ CatalogContent:
 
 Changing the **font-style** selection will determine if the font is vertical or has a degree of slant. The most commonly used varient of font-style is `italic`.
 
-![font-styles in html.](https://github.com/SarahCarlock/codecademyDocs/assets/112113100/4dce07d9-bd71-447c-94c6-d8468d66e150)
-
-![font-styles visual examples.](https://github.com/SarahCarlock/codecademyDocs/assets/112113100/fcb3817f-86ac-47f5-a44e-386da8ad439a) 
-
 ## Syntax
 
 ```css
@@ -36,7 +32,7 @@ The `font-style-value` can be the following:
 
 ## Examples
 
-### `normal`: text will be in it's basic design. This is the default style in Cascading Style Sheets (CSS).
+`normal`: text will be in it's basic design. This is the default style in Cascading Style Sheets (CSS).
 
 ```css
 p {
@@ -44,7 +40,7 @@ p {
 }
 ```
 
-### `italic`: _text will be tilted, some characters will be replaced with a specialized tilted character (e.g. "a" to "ɑ" in the font Calibri)._
+`italic`: _text will be tilted, some characters will be replaced with a specialized tilted character (e.g. "a" to "ɑ" in the font Calibri)._
 
 ```css
 p {
@@ -52,7 +48,7 @@ p {
 }
 ```
 
-### `oblique`: gives text a minor slant to the font without changing any characters. It is less supported and may not always be available.
+`oblique`: gives text a minor slant to the font without changing any characters. It is less supported and may not always be available.
 
 ```css
 p {
@@ -60,7 +56,7 @@ p {
 }
 ```
 
-### `inherit`: text will take on the style used by the parent element.
+`inherit`: text will take on the style used by the parent element.
 
 ```css
 p {
@@ -68,10 +64,12 @@ p {
 }
 ```
 
-### `initial`: sets the text font-style to it's default style, similar to `normal`.
+`initial`: sets the text font-style to it's default style, similar to `normal`.
 
 ```css
 p {
   font-style: initial;
 }
 ```
+
+![font-styles visual examples.](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-styles-example.png) 
