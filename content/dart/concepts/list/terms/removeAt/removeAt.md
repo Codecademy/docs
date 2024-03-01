@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.removeAt()`** method in Dart removes an object at a specified index from a list. The remaining elements in the list are shifted to fill the gap. The index should be between 0 and the number of elements in the list.
+The **`.removeAt()`** method in Dart removes an object at a specified index from a list. The remaining elements in the list are shifted to fill the gap.
 
 ## Syntax
 
