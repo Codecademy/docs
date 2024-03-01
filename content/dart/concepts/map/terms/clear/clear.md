@@ -1,6 +1,6 @@
 ---
 Title: '.clear()'
-Description: 'Removes all entries from the map.'
+Description: 'Removes all elements from the map.'
 Subjects:
   - 'Computer Science'
   - 'Mobile Development'
@@ -24,7 +24,7 @@ map.clear()
 
 ## Example
 
-The **`.clear()`** method is used to remove all key-value pairs from the scores map. After calling the clear() method, the map becomes empty. Even if a map does not have any key-value pairs, calling the method on it will not cause any error.
+The `.clear()` method is used to remove all key-value pairs from the scores map. After calling the `.clear()` method, the map becomes empty. Even if a map does not have any key-value pairs, calling the method on it will not cause any error.
 
 ```dart
 void main()
