@@ -24,7 +24,7 @@ E removeAt(int index)
 
 - `index`: The index of the object to be removed.
 
-The index must be in the range 0 ≤ index < length.
+**Note:** The index must be in the range, 0 ≤ index < length of list.
 
 ## Example
 
