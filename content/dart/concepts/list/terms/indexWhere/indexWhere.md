@@ -42,7 +42,7 @@ void main() {
 ```
 
 The above example returns the following output:
+
 ```shell
 Index of the first negative integer: 3
 ```
-
