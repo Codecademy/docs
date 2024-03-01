@@ -1,6 +1,6 @@
 ---
 Title: '.addAll()'
-Description: 'Adds multiple objects from a list.'
+Description: 'Adds multiple elements from a list.'
 Subjects:
   - 'Computer Science'
   - 'Mobile Development'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.addAll()`** method in Dart which allows you to append multiple elements from one list to another list. This method is useful when you want to combine the contents of multiple lists into a single list. This method does not create a new list rather modifies the original list.
+The **`.addAll()`** method in Dart allows you to append multiple elements from one list to another. This method is useful when you want to combine the contents of multiple lists into a single list. This method does not create a new list but rather modifies the original list. 
 
 ## Syntax
 
@@ -22,14 +22,19 @@ The **`.addAll()`** method in Dart which allows you to append multiple elements 
 list1.addAll(list2);
 ```
 
+- `list1`: The list in which another list is to be added.
+- `list2`: The list to be added to list1.
+
 ## Example
 
-The `.addAll()` method only works on a growable list. If the list is a fixed-length list, then it throws an `Unsupported operation` error and retains all objects in the list.
+This code demonstrates the usage of the `addAll()` method in Dart. It appends different lists to existing lists. The first example appends a list `[4, 5, 6]` to an existing list `nums`. The second example combines the lists `otherNumbers` and `extraNumbers` and appends them to the `numbers` list. The third example appends a list `additionalElements` to a fixed length list `nonGrowableList`.
+
+**Note** - The `.addAll()` method only works on a growable list. If the list is a fixed-length list, it throws an `Unsupported operation` error and retains all objects.
 
 ```dart
 void main() {
     final nums = <int>[1, 2, 3];
-    //Appends the list at the end of nums list.
+    //Appends the list at the end of the nums list.
     nums.addAll([4, 5, 6]);
     print(nums);
 
