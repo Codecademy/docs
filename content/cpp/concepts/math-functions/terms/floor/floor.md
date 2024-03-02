@@ -16,31 +16,31 @@ CatalogContent:
 
 ---
 
-The **'floor()'** function returns the integer value, less than or equal to the given value.
+The **`floor()`** function returns the integer value, less than or equal to the given value.
 
 
 ## Syntax
 
-The cmath library is required at the top of the file.
+The `cmath` library is required at the top of the file.
 
 ```psuedo
 std::floor(n);
 ```
-Argument must be a double / float / long double, the return value will be the same type.
+Argument must be a `double` / `float` / `long double`, the return value will be the same type.
 
 ## Syntax II
 
 The cmath library is required at the top of the file.
-Utilising it with 'using namespace std' declaration, this allows the use of 'floor()' without the 'std::' prefix.
+Utilising it with 'using namespace std' declaration, this allows the use of `floor()` without the `std::` prefix.
 
 ```psuedo
 floor(n);
 ```
-Argument must be a double / float / long double, the return value will be the same type.
+Argument must be a `double` / `float` / `long double`, the return value will be the same type.
 
 ## Example
 
-The following example demonstrates how to use the 'std::floor()' function:
+The following example demonstrates how to use the `std::floor()` function:
 
 ```cpp
 #include <iostream>
@@ -61,7 +61,7 @@ The example will result in the following output:
 The result is 103
 ```
 
-The following example demonstrates how to use the 'floor()' function:
+The following example demonstrates how to use the `floor()` function:
 
 ```cpp
 #include <iostream>
@@ -85,9 +85,9 @@ The result is 103
 
 ## Codebyte Example
 
-Use floor() to round down double '59.7954':
+Use `floor()` to round down double `59.7954`:
 
-Optional: You can add 'using namespace std' declaration to avoid using the 'std::' prefix.
+Optional: You can add 'using namespace std' declaration to avoid using the `std::` prefix.
 
 ```codebyte/cpp
 #include <iostream>
