@@ -24,7 +24,7 @@ The **'floor()'** function returns the integer value, less than or equal to the 
 The cmath library is required at the top of the file.
 
 ```psuedo
-std::cout << std::floor(n);
+std::floor(n);
 ```
 Argument must be a double / float / long double, the return value will be the same type.
 
@@ -34,7 +34,7 @@ The cmath library is required at the top of the file.
 Utilising it with 'using namespace std' declaration, this allows the use of 'floor()' without the 'std::' prefix.
 
 ```psuedo
-cout << floor(n);
+floor(n);
 ```
 Argument must be a double / float / long double, the return value will be the same type.
 
@@ -85,7 +85,7 @@ The result is 103
 
 ## Codebyte Example
 
-Use std::floor() to round down double '59.7954':
+Use floor() to round down double '59.7954':
 
 Optional: You can add 'using namespace std' declaration to avoid using the 'std::' prefix.
 
