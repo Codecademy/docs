@@ -14,7 +14,8 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.addAll()`** method in Dart allows you to append multiple elements from one list to another. This method is useful when you want to combine the contents of multiple lists into a single list. This method does not create a new list but rather modifies the original list.
+The **`.addAll()`** method in Dart allows appending multiple elements from one list to another. This method is useful to combine the contents of multiple lists into a single list. This method does not create a new list but rather modifies the original list.
+
 
 ## Syntax
 
