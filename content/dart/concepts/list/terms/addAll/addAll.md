@@ -30,7 +30,8 @@ list1.addAll(list2);
 
 This code demonstrates the usage of the `addAll()` method in Dart. It appends different lists to existing lists. The first example appends a list `[4, 5, 6]` to an existing list `nums`. The second example combines the lists `otherNumbers` and `extraNumbers` and appends them to the `numbers` list. The third example appends a list `additionalElements` to a fixed length list `nonGrowableList`.
 
-**Note** - The `.addAll()` method only works on a growable list. If the list is a fixed-length list, it throws an `Unsupported operation` error and retains all objects.
+> **Note** - The `.addAll()` method only works on a growable list. If the list is a fixed-length list, it throws an `Unsupported operation` error and retains all objects.
+
 
 ```dart
 void main() {
