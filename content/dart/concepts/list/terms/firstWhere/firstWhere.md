@@ -16,7 +16,7 @@ CatalogContent:
 - 'paths/computer-science'
 ---
 
-The **`.firstWhere()`** method in Dart is a built-in **List** method that allows you to find the first element in a list that satisfies a given condition. It takes a function as an argument that returns a boolean value, indicating whether the current element satisfies the condition. If the condition is satisfied, that element is returned, if not, a default value is returned.
+The **`.firstWhere()`** method in Dart is a built-in **List** method that allows you to find the first element in a list that satisfies a given condition. If the condition is satisfied, that element is returned, if not, a default value is returned.
 
 ## Syntax
 
@@ -33,15 +33,15 @@ The following example demonstrates the use of the `.firstWhere()` method:
 
 ```dart
 void main() {
-var numbers = [5, 6, 7, 8, 9];
+var numbers = [51, 62, 73, 84, 95];
 var firstEven = numbers.firstWhere((element) => element % 2 ==0);
 print(firstEven);
 }
 ```
 
-In this example, **`.firstWhere()`** is used to identify the first even number in the `numbers` list. We pass in a function that checks whether the current element is even by using the modulo (`%`) operator.
+In this example, **`.firstWhere()`** is used to identify the first even number in the `numbers` list.
 
-Here is the output for the above example:
+The output for the above example is as follows:
 
 ```shell
 6
@@ -51,15 +51,15 @@ If the condition is not satisfied, we can provide a default value to be returned
 
 ```dart
 void main() {
-var numbers = [1, 2, 3, 4, 5];
+var numbers = [14, 25, 36, 47, 58];
 var greaterThanFive = numbers.firstWhere((element) => element > 5, orElse: () => -1);
 print(greaterThanFive);
 }
 ```
 
-In this example, **`.firstWhere()`** is used to identify the first number that is greater than the number 5 in the `numbers` list. Since there are no numbers greater than 5 in the list, we provide a default value of -1 to be returned instead.
+In this example, **`.firstWhere()`** is used to identify the first number that is greater than the number 5 in the `numbers` list.
 
-Here is the output for the above example:
+Following is the output for the above code:
 
 ```shell
 -1
