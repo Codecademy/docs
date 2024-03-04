@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.values()` method returns all of its values of a Python dictionary in a view object that will refect any changes to the dictionary values. It takes no arguments.
+The `.values()` method returns all of its values of a Python dictionary in a view object that will reflect any changes to the dictionary values. It takes no arguments.
 
 ## Syntax
 

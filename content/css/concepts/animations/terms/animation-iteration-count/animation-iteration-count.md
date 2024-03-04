@@ -54,6 +54,8 @@ div {
 }
 ```
 
+![animation-iteration-count-example-1](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-animation-iteration-count-fade.gif)
+
 ## Example 2
 
 Run animation `fadeoutfadein` two times and `slideleft` one time:
@@ -90,3 +92,5 @@ div {
   }
 }
 ```
+
+![animation-iteration-count-example-2](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-animation-iteration-count-fade-slide.gif)

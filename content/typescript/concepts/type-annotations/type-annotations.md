@@ -66,6 +66,6 @@ TypeScript type annotations don't get compiled down to the output JavaScript, as
 
 ```ts
 let date;
-genre = new Date('2021-10-31');
-genre = 10.31;
+date = new Date('2021-10-31');
+date = 10.31;
 ```

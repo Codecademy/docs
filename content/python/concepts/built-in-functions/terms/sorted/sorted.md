@@ -18,7 +18,7 @@ Takes in an iterator object, such as a list, tuple, dictionary, set, or string, 
 
 ## Syntax
 
-```python
+```pseudo
 sorted(iterable, key=None, reverse=False)
 ```
 
@@ -114,4 +114,27 @@ my_sorted_list = sorted(my_list, key=sorting_func)
 
 print(my_sorted_list)
 # Output: [4, 3, 2, 1]
+```
+
+## Codebyte Example
+
+Sorting a list of dictionaries based on a specific key:
+
+```codebyte/python
+my_list_of_dicts = [
+    {"name": "Alice", "age": 30},
+    {"name": "Bob", "age": 25},
+    {"name": "Charlie", "age": 35},
+    {"name": "David", "age": 28}
+]
+
+# Sort the list of dictionaries based on the "age" key in ascending order
+sorted_list = sorted(my_list_of_dicts, key=lambda x: x["age"])
+
+print(sorted_list)
+
+# Sort the list of dictionaries based on the "name" key in alphabetical order (case-insensitive)
+sorted_list_by_name = sorted(my_list_of_dicts, key=lambda x: x["name"].lower())
+
+print(sorted_list_by_name)
 ```

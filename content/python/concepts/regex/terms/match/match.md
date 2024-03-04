@@ -15,7 +15,7 @@ CatalogContent:
   - 'text-preprocessing'
 ---
 
-The `.match()` method returns a matching character pattern at the beginning of a given string.
+The **`.match()`** method returns a matching character pattern at the beginning of a given string.
 
 ## Syntax
 
@@ -31,7 +31,7 @@ A `<pattern>` can include any of the following:
 
 The `<flags>` are optional and can be set to `IGNORECASE`, `VERBOSE`, or `DOTALL`.
 
-**Note:** [`.search()`](https://www.codecademy.com/resources/docs/python/regex/search) will only return the the first match (as a match object) within the string; alternatively, the [`.findall()`](https://www.codecademy.com/resources/docs/python/regex/findall) method matches every occurrence (and returns a list of matches).
+> **Note:** [`.search()`](https://www.codecademy.com/resources/docs/python/regex/search) will only return the first match (as a match object) within the string; alternatively, the [`.findall()`](https://www.codecademy.com/resources/docs/python/regex/findall) method matches every occurrence (and returns a list of matches).
 
 ## Example
 
@@ -53,12 +53,14 @@ The output will look like this:
 
 ## Codebyte Example
 
-The following example returns `None` because the test pattern is not at the beginning of the string:
+The following example returns a match object (`<re.Match object; span=(0, 12), match='123-456-7890'>`) and not `None` since the phone number (`123-456-7890`) matches the test pattern:
 
-```py
+```codebyte/python
 import re
 
-result = re.match(r"codecademy", "www.codeacademy.com")
+phone_number = "123-456-7890"
+
+result = re.match(r"\d{3}-\d{3}-\d{4}", phone_number)
 
 print(result)
 ```

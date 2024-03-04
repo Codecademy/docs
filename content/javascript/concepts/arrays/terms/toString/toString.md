@@ -33,3 +33,14 @@ console.log(numbers.toString());
 console.log(numbers);
 // Output: [1, 2, 3]
 ```
+
+### Codebyte Example
+
+The code below converts the array `fruits` to a string:
+
+```codebyte/js
+
+let fruits = ['Apple','Blueberries','Banana','Lemon','Mango','Orange','Grapes','Pineapple'];
+let fruitsString = fruits.toString();
+console.log(fruitsString);
+```

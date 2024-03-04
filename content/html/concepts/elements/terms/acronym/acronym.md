@@ -15,7 +15,9 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`<acronym>`** element was used to highlight acronyms before it was deprecated. The [`<abbr>`](https://www.codecademy.com/resources/docs/html/elements/abbr) tag is used instead. When the tag is used, the acronym will be signified with a dotted underline for the word or phrase.
+The **`<acronym>`** element was used to highlight acronyms.
+
+> **Note**: This is deprecated. The [`<abbr>`](https://www.codecademy.com/resources/docs/html/elements/abbr) tag is used instead. When the tag is used, the acronym will be signified with a dotted underline for the word or phrase.
 
 ## Syntax
 

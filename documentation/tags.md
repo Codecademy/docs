@@ -5,6 +5,7 @@ Tags in Docs are used for recommending related entries and for the home page sea
 Feel free to add suggestions for new tags to the list as part of your PR! Be sure to insert them alphabetically.
 
 ```
+Abstraction
 Accessibility
 AI
 Algorithms
@@ -19,6 +20,7 @@ Arguments
 Arithmetic
 Arrays
 ASP.NET
+Assert
 Assignment
 Asymptotic Notation
 Async Await
@@ -46,6 +48,7 @@ Browser Compatibility
 Browsers
 Bubble Sort
 Buttons
+Calendar
 Catch
 Characters
 Chatbots
@@ -70,20 +73,26 @@ Conceptual
 Const
 Constructors
 Continue
+Counting Sort
 Control Flow
 CRUD
+CSS
 CSV
 Cybersecurity
 D3
+Dart
 Data
 Data Structures
 Data Types
 Database
 Date
+Dart Operators
 Debugging
 Decorators
 Deep Learning
+Denoising
 Dependency
+Design
 Developer Tools
 Development
 DFS
@@ -116,8 +125,10 @@ Events
 Exceptions
 Expo
 Express
+Extensions
 Favicon
 Files
+Filter
 Finance
 Firebase
 Flask
@@ -133,6 +144,7 @@ Frameworks
 Functions
 Functional Programming
 Functors
+Generics
 Geometry
 Ggplot2
 Git
@@ -155,19 +167,26 @@ Id
 IDE
 If
 Images
+Image Generation Model
 Index
+Information Technology
 Infrastructure
 Inheritance
 Input
+Instant
 Integers
 Interface
 iOS
 Iterators
+Java
 Join
 jQuery
+JRuby
 JSON
 JSK
+Justice
 K-Nearest Neighbors
+Knowledge Graphs
 Kotlin
 Kubernetes
 Laravel
@@ -184,9 +203,12 @@ Logical
 Logistic Regression
 Loops
 Map
+Machine Learning
 Margin
+Math
 MATLAB
 Matplotlib
+Matrices
 Media Queries
 Memory
 Metadata
@@ -199,6 +221,7 @@ Naive Bayes
 Natural Language Processing
 Netlify
 Networking
+Neural Networks
 NLP
 Node
 NPM
@@ -206,7 +229,9 @@ Numbers
 NumPy
 Objects
 Obsolete
+Ontologies
 OOP
+Opacity
 Open Source
 Operating Systems
 Operators
@@ -219,17 +244,21 @@ Padding
 Pandas
 Paragraph
 Parameters
+Perceptrons
 Phaser
 Physics
 Pointers
 Positioning
 PostgreSQL
 Precedence
+Preprocessor
 Primary Key
 Print
 Probability
 Promise
+Programming
 Properties
+Protocols
 Queries
 Queues
 Quicksort
@@ -253,6 +282,7 @@ Scope
 Script
 Seaborn
 Search
+Search Algorithms
 Selectors
 Semantic
 Servers
@@ -261,6 +291,7 @@ Sets
 Slices
 Socket.IO
 Sort
+Sorting Algorithms
 Span
 Specificity
 Spread
@@ -269,10 +300,12 @@ SQL Server
 Stacks
 Static Site
 Statistics
+Storage
 Stringr
 Strings
 Structure
 Style
+Subqueries
 SwiftUI
 SwiftUI Views
 SwiftUI ViewModifiers
@@ -285,6 +318,8 @@ Target
 Technical Interviews
 Templates
 TensorFlow
+Text-To-Image
+Threads
 Tidyr
 Time
 Title
@@ -320,6 +355,7 @@ VR
 Vue
 Web3
 WebRTC
+Weight & Bias
 While
 Whiteboarding
 WordPress

@@ -63,6 +63,9 @@ Cannot convert value "age" to type "System.Int32". Error: "Input string was not 
 Multiple variables can be created with one statement using either the same value for all variables or multiple values.
 
 ```shell
-$i = $j = $k = 0 # Same value
-$number, $color, $bool = 25, "red", $false # Multiple values
+# Same value
+$i = $j = $k = 0
+
+# Multiple values
+$number, $color, $bool = 25, "red", $false
 ```

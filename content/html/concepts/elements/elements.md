@@ -51,7 +51,7 @@ Adding a closing slash (`/`) at the end of the void element's opening tag is all
 - `<area>`
 - `<base>`
 - [`<br>`](https://www.codecademy.com/resources/docs/html/elements/br)
-- `<col>`
+- [`<col>`](https://www.codecademy.com/resources/docs/html/elements/col)
 - [`<embed>`](https://www.codecademy.com/resources/docs/html/elements/embed)
 - [`<hr>`](https://www.codecademy.com/resources/docs/html/elements/hr)
 - [`<img>`](https://www.codecademy.com/resources/docs/html/elements/img)
@@ -59,7 +59,7 @@ Adding a closing slash (`/`) at the end of the void element's opening tag is all
 - [`<link>`](https://www.codecademy.com/resources/docs/html/elements/link)
 - [`<meta>`](https://www.codecademy.com/resources/docs/html/elements/meta)
 - [`<source>`](https://www.codecademy.com/resources/docs/html/elements/source)
-- `<track>`
+- [`<track>`](https://www.codecademy.com/resources/docs/html/elements/track)
 - `<wbr>`
 
 ## Nested Elements
@@ -77,3 +77,7 @@ The following example contains four HTML elements: `<html>`, `<body>`, `<h1>`, a
   </body>
 </html>
 ```
+
+The image below shows these HTML elements as they appear in the browser:
+
+![Screenshot of rendered HTML elements](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-elements-example.png)

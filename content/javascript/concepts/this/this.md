@@ -18,6 +18,7 @@ In JavaScript, the **`this`** keyword can have several meanings depending on the
 ## `this` Called Within a Global Context
 
 Used within a global context, `this` will return the global object. Either the `window` object in a web browser, or the `global` object on Node.js.
+
 Assigning a property to `this` will assign it to the global object.
 
 ```js
@@ -95,7 +96,8 @@ console.log(obj.someFunc());
 // Output: 23
 ```
 
-However, if you execute the function outside the object it will behave as function invocation above.
+However, if the function is executed outside the object, it will behave as function invocation above.
+
 In the example below, `this` references the global object, without a `someValue` property.
 
 ```js
@@ -112,7 +114,7 @@ console.log(getValue());
 // Output: undefined
 ```
 
-There is a `.bind()` method that can be used to alter this behavor. `.bind()` can be used when creating a function to specify the object that `this` will refer to.
+There is a `.bind()` method that can be used to alter this behavior. `.bind()` can be used when creating a function to specify the object that `this` will refer to.
 
 ```js
 const obj = {
@@ -131,8 +133,9 @@ console.log(getValue());
 
 ### Constructor Invocation
 
-When you use the new keyword to create an instance of a function object, you use the function as a constructor.
-In this case `this` will refer to the new object being created.
+When the `new` keyword is used to create an instance of a function object, the function is used as a constructor.
+
+In this case, `this` will refer to the new object being created.
 
 #### Example
 
@@ -184,6 +187,7 @@ showProp.apply(obj2,["The property is"]);
 ### Arrow Functions
 
 The [arrow function](https://www.codecademy.com/resources/docs/javascript/arrow-functions) doesn't have its own context for `this`.
+
 The `this` value within an arrow function is inherited from the containing function.
 
 #### Examples

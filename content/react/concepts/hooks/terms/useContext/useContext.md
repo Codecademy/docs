@@ -28,7 +28,7 @@ Context is passed to other components by wrapping them in a context provider com
 ```pseudo
 <MyContext.Provider value={theme}>
   {/*
-    Child compoments that subscribe to the context
+    Child components that subscribe to the context
     through the context provider.
   */}
 </MyContext.Provider>

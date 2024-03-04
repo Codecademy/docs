@@ -24,7 +24,7 @@ Everything in PowerShell is an **object**. An object is a combination of variabl
 - Properties: Variables that describe the object (characteristics).
 - Methods: Functions that define how to use the object (actions).
 
-Each object is an instance of a blueprint called a type, or [class](https://www.codecademy.com/resources/docs/general/class).
+Each object is an instance of a blueprint called a type, or [class](https://www.codecademy.com/resources/docs/general/programming-paradigms/object-oriented-programming).
 
 ## Getting Properties and Methods of an Object
 
@@ -68,7 +68,8 @@ True
 The `MemberType` parameter of the `Get-Member` cmdlet can be modified to show only the methods of an object.
 
 ```shell
-$my_string | Get-Member -MemberType Method # Shows all methods of the String object
+# Shows all methods of the String object
+$my_string | Get-Member -MemberType Method
 ```
 
 ## Creating a Custom Object
@@ -122,8 +123,12 @@ $dog | Add-Member -MemberType ScriptMethod -Name "speak" -Value $speak
 An alternative method to creating a custom object is by utilizing a hashtable. A hashtable defines multiple key-value pairs which can be used to easily add properties to a custom object.
 
 ```shell
-$dog = [PSCustomObject]@{ # Creates a custom object called dog
-    Name = "Rufus" # Adds a Name property with "Rufus" as its value
-    Age = 10       # Adds an Age property with 10 as its value
+# Creates a custom object called dog
+$dog = [PSCustomObject]@{
+    # Adds a Name property with "Rufus" as its value
+    Name = "Rufus"
+
+    # Adds an Age property with 10 as its value
+    Age = 10
 }
 ```

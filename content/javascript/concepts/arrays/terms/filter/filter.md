@@ -16,24 +16,22 @@ The `.filter()` array method creates a new array with all elements that pass the
 
 ## Syntax
 
-```js
+```pseudo
 // Arrow function
 array.filter(element => { ... })
 array.filter((element, index) => { ... })
 array.filter((element, index, array) => { ... })
 ```
 
-### Parameters
+`.filter()` takes the following parameters:
 
 - `element`: The current element being processed in the array.
 - `index` (optional): The index of the current element being processed in the array.
 - `array` (optional): The array _filter_ was called upon.
 
-### Return Value
+The method will return a new array with the elements that pass the test.
 
-A new array with the elements that pass the test.
-
-**Note:** If no elements pass the test, an empty array will be returned.
+> **Note:** If no elements pass the test, an empty array will be returned.
 
 ## Examples
 
@@ -74,44 +72,22 @@ console.log(filteredNames('j', names));
 // Output: ["Jim", "James"]
 ```
 
-Filtering an array of objects:
+## Codebyte Example
 
-```js
-const kickballPlayers = [
-  { name: 'Jim', team: 'Red' },
-  { name: 'Bob', team: 'Red' },
-  { name: 'Sarah', team: 'Blue' },
-  { name: 'Alex', team: 'Red' },
-  { name: 'James', team: 'Blue' },
-  { name: 'Sam', team: 'Blue' },
-  { name: 'Peter', team: 'Red' },
-  { name: 'Michael', team: 'Red' },
-  { name: 'Kenny', team: 'Blue' },
-  { name: 'Matt', team: 'Blue' },
+The example below shows `.filter()` being used to filter an array of objects, called `techCompany`, using two criteria.
+
+```codebyte/javascript
+let techCompany = [
+  {name: 'John Doe', tenure: 8, position: 'Developer'},
+  {name: 'Elisabeth Hills', tenure: 2, position: 'Developer'},
+  {name: 'Izabella Zboncak', tenure: 4, position: 'Finance'},
+  {name: 'Jane Smith', tenure: 11, position: 'Developer'},
+  {name: 'Mo DuBuque', tenure: 3, position: 'HR'},
+  {name: 'Markus Pagac', tenure: 9, position: 'CEO'},
+  {name: 'Jack Jakubowski', tenure: 7, position: 'Developer'}
 ];
 
-const redTeam = kickballPlayers.filter((player) => player.team === 'Red');
+let employees = techCompany.filter(company => company.tenure >= 5 && company.position == 'Developer');
 
-console.log(redTeam);
-```
-
-The output would be:
-
-```shell
-[{
-  name: "Jim",
-  team: "Red"
-}, {
-  name: "Bob",
-  team: "Red"
-}, {
-  name: "Alex",
-  team: "Red"
-}, {
-  name: "Peter",
-  team: "Red"
-}, {
-  name: "Michael",
-  team: "Red"
-}]
+console.log(employees)
 ```

@@ -31,8 +31,8 @@ A Python list can be copied using the `=` assignment operator:
 list1 = [1, 2, 3, 4]
 list2 = list1
 
-print(list1) # Ouptut: [1, 2, 3, 4]
-print(list2) # Ouptut: [1, 2, 3, 4]
+print(list1) # Output: [1, 2, 3, 4]
+print(list2) # Output: [1, 2, 3, 4]
 ```
 
 However, if you modify `list2`, `list1` is also modified. This is because `list2` is actually pointing to the `list1` object.

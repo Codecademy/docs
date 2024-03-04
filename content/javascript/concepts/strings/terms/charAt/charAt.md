@@ -16,11 +16,11 @@ Returns a single character at the specified index of a string.
 
 ## Syntax
 
-```js
+```pseudo
 string.charAt(index);
 ```
 
-`index` is a required parameter representing the index of the character you want to return.
+`index` is a required parameter representing the index of the character to be returned.
 
 ## Examples
 
@@ -44,4 +44,18 @@ const lastLetter = greeting.charAt(greeting.length - 1);
 
 console.log(lastLetter);
 // Output: d
+```
+
+## Codebyte Example
+
+The following is runnable, and demonstrates the use of the `.charAt()` method:
+
+```codebyte/javascript
+const myString = 'I love JavaScript! ';
+
+// Using integer value
+console.log(myString.charAt(2));
+
+// Using decimal value that gets rounded down from 3.5 to 3
+console.log(myString.charAt(3.5));
 ```

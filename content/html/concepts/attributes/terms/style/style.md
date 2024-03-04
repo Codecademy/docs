@@ -18,7 +18,7 @@ The **`style`** attribute specifies how an element will render in a web browser,
 
 When the `style` attribute is used inline, it overrides any styles set globally.
 
-> **Note:** The styling of a page or elements on the page can also be embedded in the `<head>` element using the [`<style>`](https://www.codecademy.com/resources/docs/html/elements/style) tag. However, most developers refrain from using the inline `style` attribute and set the style of the elements through an external [CSS](https://www.codecademy.com/resources/docs/css) style sheet. This helps to keep the code clean and is more easily maintained.
+> **Note:** The styling of a page or elements on the page can also be embedded in the `<head>` element using the [`<style>`](https://www.codecademy.com/resources/docs/html/elements/style) tag. However, it is more common to style elements through an external [CSS](https://www.codecademy.com/resources/docs/css) style sheet, which helps keep the code clean and more easily maintained. The syntax for using an external style sheet can be seen in the [`<link>`](https://www.codecademy.com/resources/docs/html/elements/link) entry.
 
 ## Syntax
 
@@ -33,7 +33,11 @@ Like all global attributes, the `style` attribute supports all HTML tags and can
 In the example below, the [`<p>`](https://www.codecademy.com/resources/docs/html/elements/p) element is given a `style` attribute to specify its color, text alignment, and font size:
 
 ```html
-<p style="color:green; font-size:12px; text-align:center;">
+<p style="color:green; font-size:20px; text-align:center;">
   Here's some text that is being styled using the style attribute.
 </p>
 ```
+
+The example above results in the following output:
+
+![Style Attribute Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/media/style-atttribute-example.png)

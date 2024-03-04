@@ -1,1 +1,1 @@
-content/python/concepts/operators/operators.md
+content/general/concepts/geolocation/geolocation.md

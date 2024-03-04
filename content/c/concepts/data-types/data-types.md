@@ -74,7 +74,7 @@ Spaces aren't allowed between digits and the values larger than 999 don't use co
 
 ```c
 int hundreds = 12,000; // This is wrong
-int hundreds2 = 12000 // This is correct
+int hundreds2 = 12000; // This is correct
 ```
 
 ### Float and Double

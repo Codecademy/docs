@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Returns the square root of numeric input x.
+Returns the square root of numeric input _x_.
 
 ## Syntax
 
@@ -20,7 +20,7 @@ Returns the square root of numeric input x.
 math.sqrt(x)
 ```
 
-If input x is a negative value, `.sqrt()` will return a `ValueError: math domain error`.
+If input `x` is a negative value, `.sqrt()` will return a `ValueError: math domain error`.
 
 ## Example 1
 
@@ -44,4 +44,16 @@ import math
 print(math.sqrt(5.5))
 
 # Output: 2.345207879911715
+```
+
+## Codebyte Example
+
+The `math.sqrt()` function can take in any positive int or float and return its square root.
+
+```codebyte/python
+import math
+square_root_int = math.sqrt(25)
+print(square_root_int)
+square_root_float = math.sqrt(49.0)
+print(square_root_float)
 ```

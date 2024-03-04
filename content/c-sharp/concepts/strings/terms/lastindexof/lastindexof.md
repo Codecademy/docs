@@ -87,17 +87,17 @@ public class HelloWorld
 
         // String.LastIndexOf(string, startIndex)
         result = baseString.LastIndexOf(compareStr, startIndex);
-        Console.WriteLine("Search using starting postion: {0}", result.ToString());
+        Console.WriteLine("Search using starting position: {0}", result.ToString());
 
         // String.LastIndexOf(string, startIndex, length)
         result = baseString.LastIndexOf(compareStr, startIndex, searchLength);
-        Console.WriteLine("Search using starting postion & searching length: {0}", result.ToString());
+        Console.WriteLine("Search using starting position & searching length: {0}", result.ToString());
 
         // String.LastIndexOf(string, startIndex, length, stringComparison)
         compareStr = "C";
         StringComparison strCmp = StringComparison.InvariantCultureIgnoreCase;
         result = baseString.LastIndexOf(compareStr, startIndex, strCmp);
-        Console.WriteLine("Search using starting postion & string comparision: {0}", result.ToString());
+        Console.WriteLine("Search using starting position & string comparison: {0}", result.ToString());
     }
 }
 ```
@@ -106,9 +106,9 @@ This is what is printed to the console:
 
 ```shell
 Simple search: 19
-Search using starting postion: 9
-Search using starting postion & searching length: -1
-Search using starting postion & string comparision: 15
+Search using starting position: 9
+Search using starting position & searching length: -1
+Search using starting position & string comparison: 15
 ```
 
 ## Codebyte Example
@@ -128,7 +128,7 @@ public class HelloWorld
         StringComparison strCmp = StringComparison.InvariantCultureIgnoreCase;
 
         int result = baseString.LastIndexOf(compareStr, startIndex, strCmp);
-        Console.WriteLine("Search using starting postion & string comparision: {0}", result.ToString());
+        Console.WriteLine("Search using starting position & string comparision: {0}", result.ToString());
     }
 }
 ```

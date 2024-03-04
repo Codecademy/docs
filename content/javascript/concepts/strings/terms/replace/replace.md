@@ -22,7 +22,7 @@ string.replace(searchValue, replacementValue);
 
 If the `searchValue` is a string then only the first instance of the value will be replaced. To replace all instances, use the global (g) modifier on a regular expression.
 
-## Examples
+## Example
 
 Replace `'cats'` with `'rats'`:
 
@@ -35,13 +35,15 @@ console.log(replaceCatsWithRats);
 // Output: It's raining rats and dogs!
 ```
 
-Find and replace multiple matches:
+## Codebyte Example
 
-```js
-const kidsBook = 'Brown bear, brown bear, what do you see?';
+The following is runnable and demonstrates the `.replace()` method using [regular expressions (RegExp)](https://www.codecademy.com/resources/docs/javascript/regexp):
 
-const birdsNotBears = kidsBook.replace(/bear/g, 'bird');
+```codebyte/javascript
+const exampleStr = 'apples are round, and apples are juicy.';
 
-console.log(birdsNotBears);
-// Output: Brown bird, brown bird, what do you see?
+const regexp = /apples/g
+
+// Replacing multiple values
+console.log(exampleStr.replace(regexp, 'oranges'));
 ```

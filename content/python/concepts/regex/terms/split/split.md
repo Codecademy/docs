@@ -13,11 +13,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.split()` method of the `re` module divides a string into substrings at each occurrence of the specified character(s). This method is a good alternative to the default [`.split()` string method](https://www.codecademy.com/resources/docs/python/strings/split) for instances that require matching multiple characters.
+The **`.split()`** method of the `re` module divides a string into substrings at each occurrence of the specified character(s). This method is a good alternative to the default [`.split()` string method](https://www.codecademy.com/resources/docs/python/strings/split) for instances that require matching multiple characters.
 
 ## Syntax
 
-```py
+```pseudo
 re.split(<pattern>, string, <maxsplit>, <flags>)
 ```
 
@@ -34,13 +34,36 @@ The other arguments include:
 
 ## Example
 
-The following example splits the text at each parenthesis:
+The following example illustrates a basic implementation of the `.split()` method:
 
 ```py
 import re
 
-race_info = '''The top three race finishers were: Jane Smith (2:14), Sarah Long (2:18) and Suzy Reynolds (2:20).'''
+text = '**Note:** This method only takes positive arguments'
 
-re.split(r"\(|\)", race_info)
-# A backslash indicates that the parentheses are part of the pattern
+print(re.split(r"\*\*|:", text))
+# The backslashes indicate that the asterisks are part of the pattern
+```
+
+The code will yield:
+
+```shell
+['', 'Note', '', ' This method only takes positive arguments']
+```
+
+## Codebyte Example
+
+The following example is runnable and uses the `.split()` method to reformat a list of colors:
+
+```codebyte/python
+import re
+
+org_colors = ['rgb(245, 84, 66)','rgb(66, 245, 84)','rgb(65, 135, 245)']
+new_colors = []
+
+for color in org_colors:
+    val = re.split(r"\(|\)", color)[1]
+    new_colors.append(f'rgba({val}, 0.5)') # RGBA colors with an alpha of .5
+
+print(new_colors)
 ```

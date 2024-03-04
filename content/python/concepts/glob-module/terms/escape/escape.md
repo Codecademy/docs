@@ -24,7 +24,7 @@ Any special characters in the `sequence` will be placed in brackets. This includ
 
 ## Codebyte Example
 
-The following example showcases the `.escape()` method and highights each special character:
+The following example showcases the `.escape()` method and highlights each special character:
 
 ```codebyte/python
 import glob

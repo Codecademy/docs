@@ -15,7 +15,7 @@ CatalogContent:
 
 ## Penetration Testing vs. Assessments
 
-A pen test is different from a vulnerability assessment in that pen testers are actively trying to exploit vulnerabilities, simulating a [cyber attack](https://www.codecademy.com/resources/docs/cybersecurity/cyber-attack). The process may involve setting the goals and scope for the attack, conducting initial research, using a variety of methods to break into a system, seeing what access and damage is possible, and reporting on the work.
+A pen test is different from a vulnerability assessment in that pen testers are actively trying to exploit [vulnerabilities](https://www.codecademy.com/resources/docs/cybersecurity/vulnerability), simulating a [cyber attack](https://www.codecademy.com/resources/docs/cybersecurity/cyber-attack). The process may involve setting the goals and scope for the attack, conducting initial research, using a variety of methods to break into a system, seeing what access and damage is possible, and reporting on the work.
 
 Ultimately, the goal is for clients to have a detailed understanding of where they are vulnerable and to help them to become as secure as possible.
 
