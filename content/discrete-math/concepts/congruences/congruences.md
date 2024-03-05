@@ -78,5 +78,5 @@ A congruence relation is symmetric if for any integers:
 A congruence relation is transitive if for any integers:
 
 ```tex
-\text{If } a \equiv b \pmod{m} \text{ and } b \equiv c \pmod{m}, \text{ then } a \equiv c \pmod{m} \text{ for any integers } a, b, c \text{ and positive integer } m.\
+\text{If } a \equiv b \pmod{m} \text{ and } b \equiv c \pmod{m}, \text{ then } a \equiv c \pmod{m} \text{ for any integers } a, b, c \text{ and positive integer } m.
 ```
