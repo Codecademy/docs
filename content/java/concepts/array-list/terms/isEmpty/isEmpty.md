@@ -18,11 +18,11 @@ The **`.isEmpty()`** function checks if a given `ArrayList` is empty. It returns
 
 ## Syntax
 
-The **`.isEmpty()`** function can be called on an `ArrayList` and requires no parameters.
-
 ```pseudo
 myArrayList.isEmpty();
 ```
+
+- `myArrayList`: The name of the `ArrayList` on which the `.isEmpty()` function is called.
 
 ## Example
 
@@ -32,22 +32,19 @@ The following example demonstrates how to call the `.isEmpty()` function on an `
 import java.util.ArrayList;
 
 public class Fruits {
-    public static void main(String[] args) {
+  public static void main(String[] args) {
+    // Creating a new ArrayList
+    ArrayList<String> fruits = new ArrayList<String>();
 
-        // create a new ArrayList
-        ArrayList<String> fruits = new ArrayList<String>();
+    // Using the .isEmpty() function
+    System.out.println("Is fruits empty: " + fruits.isEmpty());
 
-        // check if the current fruits ArrayList is empty
-        System.out.println("Is fruits empty: " + fruits.isEmpty());
+    fruits.add("kiwi");
+    fruits.add("pineapple");
+    fruits.add("mango");
 
-        fruits.add("kiwi");
-        fruits.add("pineapple");
-        fruits.add("mango");
-
-        // check again if fruits ArrayList is empty
-        System.out.println("Is fruits empty: " + fruits.isEmpty());
-    }
-
+    System.out.println("Is fruits empty: " + fruits.isEmpty());
+  }
 }
 ```
 
@@ -58,4 +55,4 @@ Is fruits empty: true
 Is fruits empty: false
 ```
 
-In the above example, the `.isEmpty()` function returns `true` since `fruits` was initially empty. After the three fruits are added, calling the `.isEmpty()` function again will return `false`.
+Above, the `.isEmpty()` function returns `true` in the first case because `fruits` was initially empty. Then, in the second case, it returns `false` as it is called after the three fruits are added to `fruits`.
