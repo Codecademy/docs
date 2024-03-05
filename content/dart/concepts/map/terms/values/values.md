@@ -11,6 +11,15 @@ Tags:
 ---
 ## the definition of map **.values()** 
 ###### The values of a **map** class are iterated when being called by the property **.values()**. **value** is found within the **map** class. When called, matching values are returned in the form of a list. The length of the matching values may or may not be as long as the amount of key/value pairs in the searched map. The values of the data being iterated are compared in  ==  ; therefore it's not **strict-equals** comparison.
+
+## Syntax
+```
+Iterable<V> get values;
+```
+Where **V** stands for the **map** class used to get is values using the **.values()** property
+
+###### 
+
 ## Code example
 ###### e.g. 1: 
 ```
