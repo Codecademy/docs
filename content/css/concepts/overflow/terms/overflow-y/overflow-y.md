@@ -50,10 +50,14 @@ Provide a scrollbar and clip any content that overflows.
 
 ## Example 3
 
-Provide a scrollbar only if overflow contents exists.
+Provide a scrollbar only if overflow contents exist.
 
 ```css
 .view-box {
   overflow-y: auto;
 }
 ```
+
+The following image demonstrates each of the `overflow-y` properties above:
+
+![Three examples of a div with a fixed height, each with a different overflow-y property](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-overflow-y.png)
