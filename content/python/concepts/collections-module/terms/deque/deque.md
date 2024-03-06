@@ -22,6 +22,7 @@ The **`deque()`** function creates a new `deque` object.
 my_deque = deque(iterable, maxlen)
 ```
 
+
 `maxlen` is optional and is used to limit the size of the `deque`.
 
 ## Example
