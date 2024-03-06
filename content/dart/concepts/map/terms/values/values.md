@@ -16,11 +16,10 @@ Tags:
 ```
 Iterable<V> get values;
 ```
-<<<<<<< HEAD
-=======
+
+
 Where **V** stands for the **map** class used to get is values using the **.values()** property
 
->>>>>>> 5d97ab60ed4b110846ad802f2caf003692503ffe
 ###### 
 
 ## Code example
