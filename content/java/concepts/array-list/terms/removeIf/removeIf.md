@@ -25,9 +25,9 @@ arrayListInstance.removeIf(Predicate<T> filter);
 - `Predicate<T>`: A functional [interface](https://www.codecademy.com/resources/docs/java/interfaces) representing a condition that takes a single argument of type `T`.
 - `filter`: The condition that needs to be checked.
 
-## Example:
+## Example
 
-The following example code removes all the **even** elements an `ArrayList` called `nums` by calling `.removeIf()` on `nums` and using the lambda expression `n -> (n % 2 == 0)` as `filter`, where the input parameter `n` represents each element in the ArrayList `nums`.
+In the following example, the `.removeIf()` method removes all the even elements from an `ArrayList` called `nums`:
 
 ```java
 // Import the ArrayList class from the java.util package
