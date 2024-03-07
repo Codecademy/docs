@@ -32,7 +32,6 @@ void main() {
   numbers.removeWhere((int number) => number % 2 ==0);
   print(numbers);
 }
-
 ```
 
 The above code will return the following output:
