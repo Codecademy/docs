@@ -44,10 +44,9 @@ public class Main {
     System.out.println(nums);
   } 
 }
-
 ```
 
-This will print the elements that are not even:
+Here is the output for the above example:
 
 ```shell
 [15]
