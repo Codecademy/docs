@@ -18,7 +18,7 @@ The **`.removeIf()`** [method](https://www.codecademy.com/resources/docs/java/me
 ## Syntax
 
 ```pseudo
-arrayListInstance.removeIf(Predicate<? super E> filter);
+arrayListInstance.removeIf(Predicate<T> filter);
 ```
 
 This method takes a predicate of type `Predicate<? super E>` as an input. This data type represents a predicate (boolean-valued function) of one argument. 
