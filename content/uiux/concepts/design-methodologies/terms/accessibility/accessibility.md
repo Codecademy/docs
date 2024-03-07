@@ -25,7 +25,7 @@ The Web Content Accessibility Guidelines (WCAG) break down accessibility into [f
 - **Understandable**: Make text readable and understandable, make content appear in predictable ways, and help users avoid and correct mistakes.
 - **Robust**: Maximize compatibility with current and future user tools.
 
-[Inclusive design](https://www.codecademy.com/resources/docs/uiux/inclusive-design) focuses on designing for users of all demographics and abilities, while accessibility is specifically focused on designing for people with disabilities. Any product that doesn't consider accessibility and equity may (whether intentionally or not) exclude a portion of the population who would otherwise find it useful.
+[Inclusive design](https://www.codecademy.com/resources/docs/uiux/design-methodologies/inclusive-design) focuses on designing for users of all demographics and abilities, while accessibility is specifically focused on designing for people with disabilities. Any product that doesn't consider accessibility and equity may (whether intentionally or not) exclude a portion of the population who would otherwise find it useful.
 
 ## Resources
 
