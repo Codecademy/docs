@@ -13,9 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.removeIf()`** method removes all the elements of the `ArrayList` that satisfy a given predicate. Any error or runtime exception thrown during the iteration or by the predicate is relayed to the caller.
-
-This method returns True if any elements of the `ArrayList` are removed.
+The **`.removeIf()`** [method](https://www.codecademy.com/resources/docs/java/methods) removes all the elements of an [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list) that satisfy a given predicate. Any [error](https://www.codecademy.com/resources/docs/java/errors) or runtime exception thrown during the [iteration](https://www.codecademy.com/resources/docs/java/iterator) or by the predicate is relayed to the caller. If any element is removed, this method returns `true`. Otherwise, it returns `false`.
 
 ## Syntax
 
