@@ -37,7 +37,7 @@ print(numbers);
 }
 ```
 
-The above code will produce the following output:
+The above code will return the following output:
 
 ```shell
 
