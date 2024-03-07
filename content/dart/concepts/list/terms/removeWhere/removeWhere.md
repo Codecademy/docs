@@ -27,14 +27,12 @@ void removeWhere(bool Function(E element) test)
 This example demonstrates using `.removeWhere()` to remove even numbers from a list, resulting in a list of odd numbers.
 
 ```dart
-void main(){
-
-List<int> numbers = [1,2,3,4,5,6,7,8,9,10];
-
-numbers.removeWhere((int number) => number % 2 ==0);
-
-print(numbers);
+void main() {
+  List<int> numbers = [1,2,3,4,5,6,7,8,9,10];
+  numbers.removeWhere((int number) => number % 2 ==0);
+  print(numbers);
 }
+
 ```
 
 The above code will return the following output:
