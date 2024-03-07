@@ -21,9 +21,9 @@ The **`.removeIf()`** [method](https://www.codecademy.com/resources/docs/java/me
 arrayListInstance.removeIf(Predicate<T> filter);
 ```
 
-This method takes a predicate of type `Predicate<? super E>` as an input. This data type represents a predicate (boolean-valued function) of one argument. 
-
-`Predicate<T>` is a functional interface representing an operation that accepts a single input argument and does not return any value. As a functional interface, it can be used as the assignment target for a lambda expression or method reference. For this reason, a lambda expression or method reference is often seen to represent the action to be performed inside the `.removeIf()` method.
+- `arrayListInstance`: The name of the `ArrayList` to be checked.
+- `Predicate<T>`: A functional [interface](https://www.codecademy.com/resources/docs/java/interfaces) representing a condition that takes a single argument of type `T`.
+- `filter`: The condition that needs to be checked.
 
 ## Example:
 
