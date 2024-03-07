@@ -1,10 +1,11 @@
 ---
 Title: '.removeIf()'
-Description: 'Removes all the elements of the ArrayList that satisfy a given predicate.'
+Description: 'Removes all the elements of an ArrayList that satisfy a given predicate.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
+  - 'Java'
   - 'Arrays'
   - 'Elements'
 CatalogContent:
