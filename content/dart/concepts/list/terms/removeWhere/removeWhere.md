@@ -20,7 +20,7 @@ The **`.removeWhere()`** method removes elements from a list, based on a given c
 void removeWhere(bool Function(E element) test)
 ```
 
-- `test`: This function defines the condition for removal. Values in the list are removed if they satisfy this condition, meaning if the `test` function evaluates to `true` for those values
+- `test`: This function defines the condition for removal. Values in the list are removed if they satisfy this condition, meaning if the `test` function evaluates to `true` for those values.
 
 ## Example
 
