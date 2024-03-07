@@ -40,8 +40,6 @@ print(numbers);
 The above code will return the following output:
 
 ```shell
-
 [1, 3, 5, 7, 9]
-
 ```
 
