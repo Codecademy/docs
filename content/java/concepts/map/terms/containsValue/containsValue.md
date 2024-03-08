@@ -28,17 +28,15 @@ map.containsValue(value);
 import java.util.HashMap;
 
 public class FlowerInventory{
-  
   public static void main(String[] args) {
 
-    //Create a hashmap for flowers where the string represents the name of the flower and the integer represents the quantity of the flower
-    Map<String, Integer> inventory = new HashMap<String, Integer>();
+    HashMap<String, Integer> inventory = new HashMap<String, Integer>();
     inventory.put("Roses", 10);
     inventory.put("Lillies", 5);
     inventory.put("Tulips", 1);
 
-    System.out.println("Flowers that have a quantity of 10 is present? " + inventory.containsValue(10)); //Output: Flowers that have a quantity of 10 is present? true
-    System.out.println("Flowers that have a quantity of 3 is present?" + inventory.containsValue(0)); // Output: Flowers that have a quantity of 3 is present? false
+    System.out.println("Flowers that have a quantity of 10 is present? - " + inventory.containsValue(10));
+    System.out.println("Flowers that have a quantity of 3 is present? - " + inventory.containsValue(0));
   }
 }
 ```
