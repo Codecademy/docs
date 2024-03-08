@@ -23,8 +23,6 @@ B.retainAll(Collection c);
 - `B`: The ArrayList whose elements will be retained.
 - `c`: The collection whose elements will be retained in the ArrayList B.
 
-**Return Value**: Returns `true` if there is a change in the current ArrayList; otherwise, it returns `false`.
-
 >**Note:** Following are the exceptions when using `.retainAll()` method:
 - `ClassCastException`: If the class of an element of this `ArrayList` is incompatible with the Passed collection.
 - `NullPointerException`: If the list contains a null element and the passed collection does not permit null elements, or if the specified collection is null.
