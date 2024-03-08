@@ -1,10 +1,10 @@
 ---
 Title: '.retainAll()'
-Description: 'Retains only the elements that are contained in the specified collection.' 
-Subjects: 
+Description: 'Retains only the elements that are contained in the specified collection.'
+Subjects:
   - Computer Science
   - Code Foundations
-Tags: 
+Tags:
   - 'Collections'
   - 'Java'
 CatalogContent:
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/introduction-to-android-with-java'
 ---
 
-The **`.retainAll()`** method of [`ArrayList`]([url](https://www.codecademy.com/resources/docs/java/array-list)) retains only the elements in the `ArrayList` that are common to another specified collection. It removes all elements from the `ArrayList` that are not present in the specified collection.
+The **`.retainAll()`** method of [`ArrayList`](<[url](https://www.codecademy.com/resources/docs/java/array-list)>) retains only the elements in the `ArrayList` that are common to another specified collection. It removes all elements from the `ArrayList` that are not present in the specified collection.
 
 ## Syntax
 
@@ -24,9 +24,9 @@ B.retainAll(Collection c);
 - `c`: The collection whose elements will be retained in the ArrayList B.
 
 > **Note:** Following are the exceptions when using `.retainAll()` method:
+>
 > - `ClassCastException`: If the class of an element of this `ArrayList` is incompatible with the Passed collection.
 > - `NullPointerException`: If the list contains a null element and the passed collection does not permit null elements, or if the specified collection is null.
-
 
 ## Example
 
