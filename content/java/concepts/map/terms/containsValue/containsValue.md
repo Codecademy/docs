@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The map method **containsValue()** is used to determine whether a map contains a given value. It returns a boolean value. The boolean value will return true if the map has one or more keys that map to the given value. If the map does not contain the given value, it will return false.
+The **`.containsValue()`** method determines whether a map contains the given value. The method returns the boolean value `true` if the map has one or more keys that map to the given value and `false` if the map does not contain the given value.
 
 ## Syntax
 
