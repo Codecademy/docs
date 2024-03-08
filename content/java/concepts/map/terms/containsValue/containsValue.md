@@ -1,6 +1,6 @@
 ---
-Title: 'containsValue()' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'A map method used to check if a given value is present' # Required; ideally under 150 characters and starts with a present-tense verb (used in search engine results and content previews)
+Title: '.containsValue()'
+Description: 'A map method used to check if a given value is present'
 Subjects: 
   - 'Computer Science'
 Tags: 
