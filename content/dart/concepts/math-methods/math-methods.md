@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Dart has a core library `dart:math` which provides common **math methods** covering random number generation, trigonometry and use of mathematical constants such as *e* and *pi*. 
+Dart has a core library `dart:math` which provides common **math methods** covering random number generation, trigonometry, and use of mathematical constants such as `e` and `pi`. 
 
 > **Note:** To use the following methods, import the `dart:math` library.
 
@@ -22,12 +22,23 @@ import 'dart:math';
 
 ## Constants
 
-Use mathematical constants, such as *pi* and *e*. 
+Use mathematical constants, such as `pi` and `e`. 
 
 ```dart
-print(pi); // Prints 3.1415926535897932
+import 'dart:math';
 
-print(e); // Prints 2.718281828459045
+void main() {
+  print(pi);
+
+  print(e);
+}
+```
+
+The above code gives the following output:
+
+shell```
+3.141592653589793
+2.718281828459045
 ```
 
 ## Methods
