@@ -24,6 +24,8 @@ map.containsValue(value);
 
 ## Example
 
+The example below creates a hashmap for flowers, where the string represents its name and the integer represents the quantity. Then the integer is used with `.contiansValue()` as given below:
+
 ```java
 import java.util.HashMap;
 
