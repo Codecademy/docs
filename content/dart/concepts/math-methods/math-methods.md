@@ -36,7 +36,7 @@ void main() {
 
 The above code gives the following output:
 
-shell```
+```shell
 3.141592653589793
 2.718281828459045
 ```
