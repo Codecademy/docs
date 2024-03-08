@@ -15,21 +15,15 @@ Tags:
 
 ## Syntax
 ```
-Iterable<V> get values;
+variable <V> get values;
+//Where V stands for the map class used to get is values using the .values() property
 ```
-
-Where **V** stands for the **map** class used to get is values using the **.values()** property
 
 ###### 
 
 ## Code example
-###### e.g. 1: 
 ```
-Iterable <V> **get** values;
-```
-###### e.g 2:
-```
-###### var fruits = {'apple': 1, 'banana': 2, 'orange': 3}; print (fruits.values); _//(1,2,3)_
+ var vegetables = {'carrot': 1, 'potato': 2, 'rhubarb': 3}; print (vegetables.values); //(1,2,3)
 ```
 ## No codebyte examples currently available
 
