@@ -50,7 +50,7 @@ Provide a scrollbar and clip any content that overflows.
 
 ## Example 3
 
-Provide a scrollbar only if overflow contents exist.
+Provide a scrollbar only if overflow content exists.
 
 ```css
 .view-box {
