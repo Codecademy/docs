@@ -1,6 +1,6 @@
 ---
 Title: '.remove()'
-Description: 'Removes the first occurence of a specified value from the list.'
+Description: 'Removes the first occurrence of a specified value from the map.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
