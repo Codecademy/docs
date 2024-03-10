@@ -56,7 +56,7 @@ p {
 }
 ```
 
-`inherit`: text will take on the style used by the parent element.
+`inherit`: The text will take on the style used by the parent element.
 
 ```css
 p {
