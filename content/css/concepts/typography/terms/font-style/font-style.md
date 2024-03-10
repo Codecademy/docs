@@ -72,4 +72,4 @@ p {
 }
 ```
 
-![Different variants of the font-style attribute](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-styles-example.png) 
+![Different variants of the font-style attribute](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-styles-example.png)
