@@ -32,7 +32,7 @@ The `font-style-value` can be the following:
 
 ## Example
 
-`normal`: text will be in it's basic design. This is the default style in Cascading Style Sheets (CSS).
+`normal`: The text will be in it's basic design. This is the default style in Cascading Style Sheets (CSS).
 
 ```css
 p {
