@@ -60,4 +60,4 @@ Any Content that overflows will not be visible and no scrollbar will appear.
 
 The following image demonstrates the three `overflow` properties described above:
 
-![Three div elements with overflow properties of visible, scroll and hidden](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-overflow.png)
+![Three div elements with overflow properties of visible, scroll, and hidden](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-overflow.png)
