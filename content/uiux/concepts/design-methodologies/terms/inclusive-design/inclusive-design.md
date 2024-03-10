@@ -16,7 +16,7 @@ CatalogContent:
 
 One tenet of inclusive design, as outlined by [Microsoft](https://www.microsoft.com/design/inclusive/), is "solve for one, extend to many", or the idea that inclusive design practices benefit people universally.
 
-Inclusive design focuses on designing for users of all demographics and abilities, while [accessibility](https://www.codecademy.com/resources/docs/uiux/accessibility) is specifically focused on designing for people with disabilities. Inclusive design may focus on a range of specialized solutions, while "universal design" focuses on creating one experience that can include as many people as possible.
+Inclusive design focuses on designing for users of all demographics and abilities, while [accessibility](https://www.codecademy.com/resources/docs/uiux/design-methodologies/accessibility) is specifically focused on designing for people with disabilities. Inclusive design may focus on a range of specialized solutions, while "universal design" focuses on creating one experience that can include as many people as possible.
 
 Any product that doesn't consider accessibility and equity may (whether intentionally or not) exclude a portion of the population who would otherwise find it useful.
 
