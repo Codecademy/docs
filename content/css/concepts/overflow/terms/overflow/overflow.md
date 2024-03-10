@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Defines how a block level element should handle content that goes beyond its boundaries. This is shorthand for [`overflow-x`](https://www.codecademy.com/resources/docs/css/overflow/overflow-x) and [`overflow-y`](https://www.codecademy.com/resources/docs/css/overflow/overflow-y).
+Defines how a block-level element should handle content that goes beyond its boundaries. This is shorthand for [`overflow-x`](https://www.codecademy.com/resources/docs/css/overflow/overflow-x) and [`overflow-y`](https://www.codecademy.com/resources/docs/css/overflow/overflow-y).
 
 ## Syntax
 
