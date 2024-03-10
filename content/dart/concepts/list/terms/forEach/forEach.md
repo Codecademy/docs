@@ -5,7 +5,7 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Dart'
-  - 'Method'
+  - 'Methods'
 CatalogContent:
   - 'learn-dart'
   - 'paths/computer-science'
