@@ -48,7 +48,7 @@ p {
 }
 ```
 
-`oblique`: gives text a minor slant to the font without changing any characters. It is less supported and may not always be available.
+`oblique`: It gives text a minor slant to the font without changing any characters. It is less supported and may not always be available.
 
 ```css
 p {
