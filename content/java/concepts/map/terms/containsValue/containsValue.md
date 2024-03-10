@@ -1,6 +1,6 @@
 ---
 Title: '.containsValue()'
-Description: 'A map method used to check if a given value is present'
+Description: 'A method used to check if a given value is present in a map.'
 Subjects: 
   - 'Computer Science'
 Tags: 
@@ -41,4 +41,11 @@ public class FlowerInventory{
     System.out.println("Flowers that have a quantity of 3 is present? - " + inventory.containsValue(0));
   }
 }
+```
+
+The above code returns the following output:
+
+```shell
+Flowers that have a quantity of 10 is present? - true
+Flowers that have a quantity of 3 is present? - false
 ```
