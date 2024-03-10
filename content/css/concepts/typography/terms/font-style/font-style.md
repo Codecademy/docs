@@ -64,7 +64,7 @@ p {
 }
 ```
 
-`initial`: set the text `font-style` to its default style, similar to `normal`.
+`initial`: Sets the text `font-style` to its default style, similar to `normal`.
 
 ```css
 p {
