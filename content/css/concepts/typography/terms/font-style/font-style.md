@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Changing the **font-style** selection will determine if the font is vertical or has a degree of slant. The most commonly used varient of font-style is `italic`.
+Changing the **`font-style`** selection will determine if the font is vertical or has a degree of slant. The most commonly used variant of `font-style` is `italic`.
 
 ## Syntax
 
@@ -30,7 +30,7 @@ The `font-style-value` can be the following:
 - `inherit`
 - `initial`
 
-## Examples
+## Example
 
 `normal`: text will be in it's basic design. This is the default style in Cascading Style Sheets (CSS).
 
@@ -40,7 +40,7 @@ p {
 }
 ```
 
-`italic`: _text will be tilted, some characters will be replaced with a specialized tilted character (e.g. "a" to "ɑ" in the font Calibri)._
+`italic`: text will be tilted, and some characters will be replaced with a specialized tilted character (e.g. "a" to "ɑ" in the font Calibri).
 
 ```css
 p {
@@ -64,7 +64,7 @@ p {
 }
 ```
 
-`initial`: sets the text font-style to it's default style, similar to `normal`.
+`initial`: set the text `font-style` to its default style, similar to `normal`.
 
 ```css
 p {
@@ -72,4 +72,4 @@ p {
 }
 ```
 
-![font-styles visual examples.](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-styles-example.png) 
+![Different variants of the font-style attribute](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-styles-example.png) 
