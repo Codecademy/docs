@@ -40,7 +40,7 @@ p {
 }
 ```
 
-`italic`: text will be tilted, and some characters will be replaced with a specialized tilted character (e.g. "a" to "ɑ" in the font `Calibri`).
+`italic`: Text will be tilted, and some characters will be replaced with a specialized tilted character (e.g. "a" to "ɑ" in the font `Calibri`).
 
 ```css
 p {
