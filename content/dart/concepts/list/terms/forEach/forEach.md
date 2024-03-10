@@ -1,6 +1,6 @@
 ---
-Title: 'Dart List .forEach()'
-Description: 'The **`forEach()`** method  serves as a mechanism for iterating through elements within iterable collections.'
+Title: '.forEach()'
+Description: 'Iterates through elements within iterable collections and executes a specified function for each element of the collection.'
 Subjects:
   - 'Computer Science'
 Tags:
