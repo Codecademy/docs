@@ -1,5 +1,5 @@
 ---
-Title: '.join()' 
+Title: '.join()'
 Description: 'Concatenates list elements as a string.'
 Subjects:
   - 'Code Foundations'
@@ -20,7 +20,8 @@ The **`.join()`** method concatenates (combines) list elements as a string inclu
 ```pseudo
 list-name.join('separator')
 ```
- - `separator`: It separates elements in a list using any characters wrapped with single/double quotes. White spaces can be used but aren't obligatory.
+
+- `separator`: It separates elements in a list using any characters wrapped with single/double quotes. White spaces can be used but aren't obligatory.
 
 ## Example
 
@@ -33,7 +34,7 @@ void main() {
 
   String my_message = my_letters.join(""); // No separation whatsoever.
   print(my_message);
-} 
+}
 ```
 
 The output of the above code is:
@@ -51,7 +52,7 @@ void main() {
 
   String familiar_with = languages.join(" * "); // Adds an asterisk.
   print(familiar_with);
-} 
+}
 ```
 
 The output of the above code is:
@@ -68,7 +69,7 @@ void main() {
   List<String> chores = ["planting flowers", "vacuuming", "laundry", "ironing", "preparing meals"];
 
   String planOfDut = chores.join(" or "); // Adds 'or' as a conjunction.
-  print(planOfDut); 
+  print(planOfDut);
 }
 ```
 
