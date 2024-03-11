@@ -22,7 +22,7 @@ The **`floor()`** function returns the integer value, less than or equal to the 
 
 The `cmath` library is required at the top of the file.
 
-```psuedo
+```pseudo
 std::floor(n);
 ```
 Argument must be a `double` / `float` / `long double`, the return value will be the same type.
