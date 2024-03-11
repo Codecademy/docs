@@ -52,6 +52,7 @@ int main() {}
   std::cout << "The result is " << result << std::endl;
 }
 ```
+
 The example will result in the following output:
 
 ```shell
