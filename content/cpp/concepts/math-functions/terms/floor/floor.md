@@ -85,7 +85,7 @@ The result is 103
 
 Use `floor()` to round down double `59.7954`:
 
-Optional: You can add 'using namespace std' declaration to avoid using the `std::` prefix.
+Optional: You can add a 'using namespace std' declaration to avoid using the `std::` prefix.
 
 ```codebyte/cpp
 #include <iostream>
