@@ -1,6 +1,6 @@
 ---
 Title: '.containsKey'
-Description: 'Checks if a specific key exists in the Map object.'
+Description: 'Checks if a particular key is present in a Map object.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
@@ -35,7 +35,6 @@ void main() {
     'GSW': 'Golden State Warriors',
     'LAL': 'Los Angeles Lakers'
   };
-
   print(nbaTeams.containsKey('BOS'));
   print(nbaTeams.containsKey('OKC'));
 }
@@ -59,13 +58,12 @@ void main() {
     2: 'Benedict',
     3: 'Charlie'
   };
-
   print(runnerPositions.containsKey(1));
   print(runnerPositions.containsKey(4));
 }
 ```
 
-The output for the above example is as follows:
+The above example gives the following output:
 
 ```shell
 true
