@@ -1,1 +1,1 @@
-content/java/concepts/set/set.md
+content/general/concepts/bot/bot.md
