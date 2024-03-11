@@ -43,7 +43,7 @@ The following example demonstrates how to use the `std::floor()` function:
 #include <iostream>
 #include <cmath>
 
-int main() {}
+int main() {
   double n = 103.523;
   double result;
 
