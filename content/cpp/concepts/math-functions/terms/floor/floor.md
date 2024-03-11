@@ -25,6 +25,7 @@ The `cmath` library is required at the top of the file.
 ```pseudo
 std::floor(n);
 ```
+
 Argument must be a `double` / `float` / `long double`, the return value will be the same type.
 
 ## Syntax II
