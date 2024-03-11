@@ -9,7 +9,7 @@ Tags:
   - 'Data Types'
 ---
 
-A **variable** is a location in computer memory used to store reference, usually for use in a program.
+A **`variable`** is a location in computer memory used to store references, usually for use in a program. Variables serve as symbolic names (identifiers) for values in the computer's memory. Variables allow programmers to manipulate and process data dynamically within their programs.
 
 ## Syntax
 
@@ -24,7 +24,7 @@ The default type 'var' is inferred to be string. If an object isn't restricted t
 Object name = 'value';
 ```
 
-The Dart Language enforces sound null safety, allowes to set default values, constants and to declare the late variables (for more details see https://dart.dev/language/variables#default-value). 
+The Dart Language enforces sound null safety, allowes to set default values, constants and to declare the late variables. 
 
 ## Example
 
@@ -37,8 +37,7 @@ void main() {
 }
 
 ```
-
-The output would be:
+The output for above code will be:
 
 ```shell
 Alex
