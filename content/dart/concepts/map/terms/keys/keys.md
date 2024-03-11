@@ -17,8 +17,11 @@ In Dart, the **`.keys`** property returns an iterable collection that contains a
 
 ## Syntax
 
-When working with a Dart Map, you can access all its keys by using the `.keys` property which returns an iterable collection.
+```pseudo
+myMap.keys
+```
 
+- `myMap`: The name of the map that needs to be searched.
 
 ## Example
 void main() {
