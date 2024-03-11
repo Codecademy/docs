@@ -25,18 +25,19 @@ The default type 'var' is inferred to be a `string`. If an object isn't restrict
 Object name = 'value';
 ```
 
-The Dart Language enforces sound null safety, allowes to set default values, constants and to declare the late variables. 
+The Dart Language enforces sound null safety, allowes to set default values, constants and to declare the late variables.
 
 ## Example
 
 To display a constant name "Alex" one should write:
 
 ```dart
-void main() { 
-   const name = 'Alex'; 
-   print(name); 
+void main() {
+   const name = 'Alex';
+   print(name);
 }
 ```
+
 The output for above code will be:
 
 ```shell
