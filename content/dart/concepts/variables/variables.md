@@ -18,7 +18,8 @@ When declaring a variable in Dart, the type of variable goes first, followed by 
 ```pseudo
 type name = 'value';
 ```
-The default type 'var' is inferred to be string. If an object isn't restricted to a single type, specify the Object type (or dynamic if necessary):
+
+The default type 'var' is inferred to be a `string`. If an object isn't restricted to a single type, specify the Object type (or dynamic if necessary):
 
 ```pseudo
 Object name = 'value';
@@ -35,7 +36,6 @@ void main() {
    const name = 'Alex'; 
    print(name); 
 }
-
 ```
 The output for above code will be:
 
