@@ -18,7 +18,6 @@ CatalogContent:
 
 The **`floor()`** function returns the integer value, less than or equal to the given value.
 
-
 ## Syntax
 
 The `cmath` library is required at the top of the file.
