@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **.keys** method in Dart Map is both simple and powerful allowing you to easily access all the keys present in the map.
+In Dart, the **`.keys`** property returns an iterable collection that contains all the keys present in a map.
 
 ## Syntax
 
