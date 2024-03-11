@@ -1,16 +1,14 @@
 ---
-Title: 'Dart Maps .keys()' 
-Description: 'Explore how to access all keys in a Dart Map with the .keys method, a straightforward way to iterate over keys or check their existence.' 
-Subjects: 
+Title: '.keys'
+Description: 'Returns an iterable collection that contains all the keys present in a map.'
+Subjects:
   - 'Computer Science'
-  - 'Data Structures'
-  
-Tags: 
+  - 'Code Foundations'
+Tags:
   - 'Dart'
-  - 'Maps'
   - 'Data Structures'
-  - 'Keys'
-CatalogContent: 
+  - 'Properties'
+CatalogContent:
   - 'learn-dart'
   - 'paths/computer-science'
 ---
