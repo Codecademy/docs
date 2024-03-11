@@ -17,10 +17,10 @@ The **`.removeWhere()`** method removes elements from a list, based on a given c
 ## Syntax
 
 ```pseudo
-void removeWhere(bool Function(E element) test)
+void removeWhere(bool Function(E element))
 ```
 
-- `test`: This function defines the condition for removal. Values in the list are removed if they satisfy this condition, meaning if the `test` function evaluates to `true` for those values.
+- `Function (element E)`: It defines the condition for removal. If the function evaluates to`true` for a value in the list, then the value is removed from the list.
 
 ## Example
 
