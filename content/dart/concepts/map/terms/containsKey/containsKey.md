@@ -1,32 +1,32 @@
 ---
-Title: '.containsKey'
+Title: '.containsKey()'
 Description: 'Checks if a particular key is present in a Map object.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
 Tags:
   - 'Dart'
-  - 'Properties'
+  - 'Methods'
   - 'Map'
 CatalogContent:
   - 'learn-dart'
   - 'paths/computer-science'
 ---
 
-In Dart, the **`.containsKey()`** method is an efficient and quick way to check if a `Map` object contains a specific key.
+In Dart, the **`.containsKey()`** method is an efficient and quick way to check if a particular key is present in a `Map` object.
 
 ## Syntax
 
 ```pseudo
-Map-variable.containsKey(key)
+mapVariable.containsKey(key)
 ```
 
-- `Map-variable`: Represents a variable that is a `Map` object.
-- `key`: Represents the key to be checked within the `Map`.
+- `mapVariable`: The name of the `Map` object to be checked.
+- `key`: The key to be checked within the `Map` object.
 
-## Example 1
+## Examples
 
-In the following example, the `.containsKey()` method is used to check if the keys are present in the `Map` object.
+In the following example, the `.containsKey()` method is used to check if the specified keys are present in the `Map` object:
 
 ```dart
 void main() {
@@ -47,9 +47,7 @@ true
 false
 ```
 
-## Example 2
-
-The `.containsKey()` method can also work with keys of different data types:
+The `.containsKey()` method can also work with keys of different [data types](https://www.codecademy.com/resources/docs/dart/data-types):
 
 ```dart
 void main() {
