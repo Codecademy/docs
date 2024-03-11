@@ -30,13 +30,10 @@ Argument must be a `double` / `float` / `long double`, the return value will be 
 
 ## Syntax II
 
-The cmath library is required at the top of the file.
-Utilising it with 'using namespace std' declaration, this allows the use of `floor()` without the `std::` prefix.
+The `cmath` library is required at the top of the file. Utilizing it with the 'using namespace std' declaration, allows the use of `floor()` without the `std::` prefix.
 
 ```psuedo
 floor(n);
-```
-Argument must be a `double` / `float` / `long double`, the return value will be the same type.
 
 ## Example
 
