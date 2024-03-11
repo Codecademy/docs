@@ -26,15 +26,10 @@ However, if your original array contains objects or arrays, the shallow copy wil
 
 ```js
 array.slice(start, end);
-
-array.slice(start);
-
-array.slice();
 ```
 
-The syntax `array.slice(start, end)` allows specification of the segment of the array to be copied, dictated by `start` and `end` indices:
-
-- `start` (optional): The index at which to begin copying. If omitted, the copy starts from the array's first element.
+- `array`: The name of the array to be sliced.
+- `start` (optional): The index at which the method will begin copying. If omitted, the process of copying elements starts from the array's first element.
 - `end` (optional): The index before which the method will stop copying. The element located at this index is not copied to the new array.
 
 ## Examples
