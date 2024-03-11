@@ -24,6 +24,10 @@ myMap.keys
 - `myMap`: The name of the map that needs to be searched.
 
 ## Example
+
+The following example displays the usage of the `.keys` property:
+
+```dart
 void main() {
   Map<String, String> adventurers = {
     '001': 'Alice the Archer',
@@ -35,3 +39,12 @@ void main() {
     print(id);
   }
 }
+```
+
+The above example produces the following output:
+
+```shell
+001
+002
+003
+```
