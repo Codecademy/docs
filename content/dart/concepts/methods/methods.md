@@ -3,18 +3,17 @@ Title: 'Methods'
 Description: 'A reuseable set of code instructions that is defined in a class and invoked by name.'
 Subjects:
   - 'Computer Science'
-  - 'Dart'
 Tags: 
   - 'Functions'
   - 'Arithmetic'
+  - 'Methods'
 CatelogContent:
   - 'learn-dart'
   - 'paths/computer-science'
 ---
 
 A **method** is a set of instructions encased in a single block of code within a class. It is defined under 
-a declaration header, built to access and modify data in an class object, and can serve as reusable code 
-for efficiency in running and writing complex programs in Dart.
+a declaration header, built to access and modify data in an class object, and can serve as reusable code for efficiency in running and writing complex programs in Dart.
 
 ## Syntax
 
@@ -28,6 +27,7 @@ Syntax of a method:
 
 }
 ```
+
 Syntax of a method defined in a class:
 
 ```pseudo
@@ -42,7 +42,64 @@ class ClassName {
 }
 ```
 
+**Instance Method**
+
+An **instance** method is a function that runs only when it is invoked with a class instance object:
+
+```pseudo
+class ClassName {
+
+    <return_type> instanceMethod(<parameters>) {
+        // Code is inserted here within { } brackets
+    }
+
+}
+
+void main() {
+    ClassName classObject = new ClassName();
+
+    // Invoking an instance method
+    classObject.instanceMethod(<arguments>);
+}
+```
+
+**Static Method**
+
+It is possible to invoke a class method without instantiating an object firsthand, which is known
+as a **static** method. This type of method is invoked with its class name instead of a class object:
+
+```pseudo
+class ClassName {
+
+    static <return_type> staticMethod(<parameters>) {
+         // Code is inserted here within { } brackets
+    }
+
+}
+
+void main() {
+    // Invoking a static method
+    ClassName.staticMethod(<arguments>);
+}
+```
+
+**Short-Hand Method**
+
+A method, whether it is an instance or a static type, can be written in a **short-hand** expression.
+It uses a shorthand arrow `=>` instead of `{ }` brackets to define the functionality all on a single instruction line:
+
+```pseudo
+class ClassName {
+
+    <return_type> shortHandMethod(<parameters>) => // code is inserted here all on a single line after the arrow
+
+}
+```
+
+
 ## Example
+
+A method named `.helloWorld()` that prints the statement `"Hello World"` is defined in a `Hello` class:
 
 ```dart
 class Hello {
@@ -53,86 +110,39 @@ class Hello {
 
 }
 ```
-## Instance Methods
 
-An **instance** method is a function that runs only when it is invoked with a class instance object.
+**Instance Method**
 
-### Syntax
-
-```pseudo
-class ClassName {
-    
-    <return_type> instanceMethod() {
-        // Code is inserted here within { } brackets
-    }
-
-}
-```
-
-### Invoking an Instance Method
-
-```dart
-void main() {
-    ClassName classObject = new ClassName();
-    classObject.instanceMethod();
-}
-```
-
-### Example
-
-A class called `Hello` contains a method named `.helloWorld()` that prints `"Hello World!"`:
+The `.helloWorld()` instance method runs only when it is invoked with an instantiated `Hello` object:
 
 ```dart
 void Main() {
 
     Hello hi = new Hello();    // A Hello object must be instantiated first
-    hi.helloWorld();           // and then a Hello instance method can be invoked
+    hi.helloWorld();           // and then it can invoke a Hello instance method 
 
 }
 
 class Hello {
-    
+
     // Instance method is declared and written within the Hello class
     void helloWorld() {
         print("Hello World!");
     }
 
-} 
+}
 ```
+
 Output:
 
 ```shell
 Hello World!
 ```
-A `Hello` object that is instantiated has access to the `.helloWorld()` method as defined in the `Hello` 
-class and can invoke it.
 
-## Static Methods
+A `Hello` object has access to the `.helloWorld()` method in the `Hello` class and can invoke it anytime 
+after the object's instantiation.
 
-It is possible to invoke a class method without instantiating an object firsthand, which is known
-as a **static** method. This type of method is invoked with its class name instead of a class object. 
-
-### Syntax
-
-```pseudo
-class ClassName {
-    
-    static <return_type> staticMethod() {
-         // Code is inserted here within { } brackets
-    }
-
-}
-```
-
-### Invoking a Static Method
-
-```dart
-void main() {
-    ClassName.staticMethod();
-}
-```
-
-### Example
+**Static Method**
 
 A static method called `.addition()` is called by invoking it with the `Math` class it was defined in:
 
@@ -151,14 +161,48 @@ class Math {
 
 }
 ```
+
 Output:
 
 ```shell
 12
 ```
-This type of method requires a `static` keyword at the beginning of its declaration header for the 
-program to indicate that it is a static method, otherwise it will cause a compliation error. 
 
+This type of method requires a `static` keyword at the beginning of its declaration header for the
+program to indicate that it is a static method, otherwise it will cause a compliation error.
+
+**Short-Hand Method**
+
+A short-hand instance method called `.divide()` and a short-hand static method called `.multiply()` are both defined and invoked:
+
+```dart
+void main() {
+    Math mathematicsObject = new Math();
+    mathematicsObject.divide(20, 5);        // Invoking a short-hand instance method
+
+    Math.multiply(12, 3);                   // Invoking a short-hand static method
+}
+
+class Math {
+
+    // A short-hand method can be either a instance or static type
+    // and is defined all on a single line of code
+
+    void divide(int number1, int number2) => print(number1 / number2);
+
+    static void multiply(int number1, int number2) => print(number1 * number2);
+
+}
+```
+
+Output:
+
+```shell
+4
+36
+```
+
+ 
 ## Return Value
 
 A method can return or not return a value when it reaches the end of its execution. A `return` statement 
@@ -241,6 +285,7 @@ void Main() {
 
 }
 ```
+
 Output:
 
 ```shell
@@ -249,6 +294,7 @@ Output:
 String
 false
 ```
+
 A method can also be explicitly stated to not return a value at all by using the `void` return type:
 
 ```dart
@@ -259,6 +305,29 @@ void methodName() {
 
 }
 ```
+
+In the case of a short-hand method, a `return` keyword is not used in it's expression and will thus return the specified result by default:
+
+```dart
+class Triangle {
+
+    // No 'return' keyword is used in a short-hand method's expression
+    static double area(int base_length, int height) => base_length * height * 0.5;
+
+}
+
+void Main() {
+    double areaOfTriangle = Triangle.area(10, 5);
+    print(areaOfTriangle);
+} 
+```
+
+Output:
+
+```shell
+25
+```
+
 
 ## Parameters
 
@@ -365,7 +434,7 @@ required to be passed correspondingly to this type of parameter in a method call
 
 ### Positioned Optional Parameters
 
-An optional parameter can be set as a positioned optional parameter. The parameter is
+An optional parameter can be set as a **positioned optional** parameter. The parameter is
 wrapped in a pair of `[ ]` brackets with the parameter's data type name embedded with a `?` at its end:
 
 ```pseudo
@@ -427,7 +496,7 @@ Hello. My name is George
 
 ### Named Optional Parameters
 
-Optional parameters can also be set to named optional parameters, by wrapping the parameter
+Optional parameters can also be set to **named optional** parameters, by wrapping the parameter
 in `{ }` brackets and appending the `?` symbol to the parameter's data type name:
 
 ```pseudo
@@ -508,15 +577,3 @@ static void measure(int length, {int width = 1, int height = 1}) {
 
 }
 ```
-
-## Short-Hand Method
-
-It is possible to write a method as a short-hand expression with a shorthand arrow `=>`:
-
-```dart
-// A shorthand arrow (=>) is used instead of { } brackets to define this method
-divide(int number1, int number2) => number1 / number2;
-```
-
-A `return` keyword is not used in this single-line expression of a method, and will thus return
-the specified result by default.
