@@ -32,8 +32,8 @@ In the following example, the `.removeIf()` method removes all the even elements
 ```java
 import java.util.ArrayList;
 
-public class Main { 
-  public static void main(String[] args) { 
+public class Main {
+  public static void main(String[] args) {
     ArrayList<Integer> nums = new ArrayList<Integer>();
     nums.add(10);
     nums.add(15);
@@ -41,7 +41,7 @@ public class Main {
     nums.add(30);
     nums.removeIf(n -> (n % 2 == 0));
     System.out.println(nums);
-  } 
+  }
 }
 ```
 
