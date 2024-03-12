@@ -1,6 +1,6 @@
 ---
 Title: '.keys'
-Description: 'Returns an iterable collection that contains all the keys present in a map.'
+Description: 'Returns an iterable collection containing all the keys in a map.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Dart, the **`.keys`** property returns an iterable collection that contains all the keys present in a map.
+In Dart, the **`.keys`** property returns an iterable collection containing all the keys in a map.
 
 ## Syntax
 
@@ -21,7 +21,7 @@ In Dart, the **`.keys`** property returns an iterable collection that contains a
 myMap.keys
 ```
 
-- `myMap`: The name of the map that needs to be searched.
+- `myMap`: The map name that needs to be searched.
 
 ## Example
 
