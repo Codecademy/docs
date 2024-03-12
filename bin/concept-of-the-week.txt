@@ -1,1 +1,1 @@
-content/cpp/concepts/arrays/arrays.md
+content/general/concepts/bot/bot.md
