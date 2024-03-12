@@ -30,7 +30,6 @@ arrayListInstance.removeIf(Predicate<T> filter);
 In the following example, the `.removeIf()` method removes all the even elements from an `ArrayList` called `nums`:
 
 ```java
-// Importing the ArrayList class from the java.util package
 import java.util.ArrayList;
 
 public class Main { 
