@@ -1,20 +1,19 @@
 ---
 Title: '.clear()'
-Description: 'Removes all elements from the map.'
+Description: 'Removes all the elements from a map.'
 Subjects:
   - 'Computer Science'
   - 'Mobile Development'
-  - 'Code Foundations'
 Tags:
   - 'Dart'
-  - 'Arithmetic'
   - 'Map'
+  - 'Elements'
 CatalogContent:
   - 'learn-dart'
   - 'paths/computer-science'
 ---
 
-The **`.clear()`** method in Dart allows you to remove all key-value pairs from the map effectively making it empty. This method is useful when you want to reset or clear the contents of a map.
+The **`.clear()`** method in Dart is used to remove all the key-value pairs from a map, effectively making it empty. This method is useful when there is a need to remove all the elements from a map. Even if a map doesn't have any key-value pairs, the method will not throw any error.
 
 ## Syntax
 
@@ -22,34 +21,37 @@ The **`.clear()`** method in Dart allows you to remove all key-value pairs from 
 map.clear()
 ```
 
+- `map`: The name of the map on which the `.clear()` method is called.
+
 ## Example
 
-The `.clear()` method is used to remove all key-value pairs from the scores map. After calling the `.clear()` method, the map becomes empty. Even if a map does not have any key-value pairs, calling the method on it will not cause any error.
+In the following example, the `.clear()` method is used to remove all the key-value pairs from the `scores` map:
 
 ```dart
-void main()
-{
-    Map<String, int> scores = {'John': 100, 'Alice': 85, 'Bob': 92};
-    //Clearing the scores map
-    scores.clear();
-    print(scores);
-    
-    Map<String, String> emptyMap = {};
-    //Clearing an empty map does not give any error
-    emptyMap.clear();
-    print(emptyMap);
-    
-    Map<String, dynamic> user = {'name': 'John Doe', 'age': 30, 'email': 'john@example.com'};
-    user.clear();
-    //Clearing a map and inserting different values
-    user['name'] = 'Alice';
-    user['age'] = 28;
-    user['email'] = 'alice@example.com';
-    print(user);
+void main() {
+  Map<String, int> scores = {'John': 100, 'Alice': 85, 'Bob': 92};
+
+  //Clearing the 'scores' map
+  scores.clear();
+  print(scores);
+
+  Map<String, String> emptyMap = {};
+
+  emptyMap.clear();
+  print(emptyMap);
+
+  Map<String, dynamic> user = {'name': 'John Doe', 'age': 30, 'email': 'john@example.com'};
+  user.clear();
+
+  //Clearing a map and inserting different values
+  user['name'] = 'Alice';
+  user['age'] = 28;
+  user['email'] = 'alice@example.com';
+  print(user);
 }
 ```
 
-The output of the above code is:
+The output for the above code is:
 
 ```shell
 {}
