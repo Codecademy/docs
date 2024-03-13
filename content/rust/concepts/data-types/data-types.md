@@ -14,13 +14,13 @@ CatalogContent:
 
 **Data types** define the nature of data a variable can store. Rust employs static typing, ensuring that variable types are known at compile time, aiding in detecting potential errors before runtime. These data types are broadly categorized into two groups: primitive types and compound types.
 
-## Primitive and Scala types
+## Primitive and Scalar types
 
-Scala types represent a single value.
+Scalar types represent a single value.
 
 ### Integer
 
-An integer in Rust is a number without a fractional component. The signed integer starts with an `i` followed by the bit number and the unsigned integer starts with `u` followed by the bit number. The built-in integer types in Rust include 8bit, 16bit, 32bit, 64bit, and 128bit:
+An integer in Rust is a number without a fractional component. The signed integer starts with an `i` followed by the bit number and the unsigned integer starts with `u` followed by the bit number. The built-in integer types in Rust include `8bit`, `16bit`, `32bit`, `64bit`, and `128bit`:
 
 ```rust
 fn main() {
@@ -31,7 +31,7 @@ fn main() {
 
 ### Floating-Point
 
-A floating-point represents numbers with decimal points. The built-in floating-point types are `f32` and `f64` which are 32 bits and 64 bits in size respectively. The default size is `f64` and all floating points are signed:
+A floating point represents numbers with decimal points. The built-in floating-point types are `f32` and `f64` which are 32 bits and 64 bits in size respectively. The default size is `f64` and all floating points are signed:
 
 ```rust
 fn main() {
@@ -49,14 +49,12 @@ A boolean is a data type representing one of two values: `true` or `false`. Bool
 fn main() {
     // Declare a boolean variable with explicit type annotation
     let is_rust_cool: bool = true;
-
     // Use the boolean value in a conditional statement
     if is_rust_cool {
         println!("Rust is cool!");
     } else {
         println!("Rust is not cool?");
     }
-
 }
 
 ```
@@ -77,14 +75,20 @@ fn main() {
     let is_rust_cool: bool = true;
 
     // Character Type
-let unicode_char: char = 'A';
+    let unicode_char: char = 'A';
 
-    // Printing the values
+}
+```
+
+This char example results in the following output:
+
+```shell
+
     println!("Integer: {}", integer_num);
     println!("Floating-Point: {}", float_num);
     println!("Boolean: {}", is_rust_cool);
     println!("Character: {}", unicode_char);
-}
+
 ```
 
 ## Compound Types
@@ -93,7 +97,7 @@ Compound types represent multiple values and can be grouped.
 
 ### Tuples
 
-A tuple is a collection of values of different types. Tuples are constructed using parentheses `()` and each has a value with type signature. Tuples are used by functions to return multiple values as tuples can hold any number of values:
+A tuple is a collection of values of different types. Tuples are constructed using parentheses `()` and each has a value with the type signature. Tuples are used by functions to return multiple values as tuples can hold any number of values:
 
 ```rust
 fn main() {
@@ -113,8 +117,6 @@ An array is a collection of values with the same type and fixed length. The valu
 
 ```rust
 fn main() {
-
-
     // Array
     let numbers: [i32; 5] = [11, 82, 12, 88, 90];
 
@@ -122,8 +124,15 @@ fn main() {
     let first_number = numbers[0];
     let second_number = numbers[1];
 
-    // Printing tuple and array elements
+
+}
+```
+
+This arrays example results in the following output:
+
+```shell
+
     println!("Person: {} is {} years old. Adult: {}", name, age, is_adult);
     println!("Array: [{}, {}]", first_number, second_number);
-}
+
 ```
