@@ -4,6 +4,7 @@ Description: 'Checks if a particular key is present in a Map object.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
+  - 'Mobile Development'
 Tags:
   - 'Dart'
   - 'Methods'
