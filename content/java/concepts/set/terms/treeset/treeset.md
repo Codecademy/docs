@@ -38,7 +38,6 @@ public class MyClass {
 }
 ```
 
-
 This results in the following output:
 
 ```shell
