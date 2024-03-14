@@ -1,18 +1,19 @@
 ---
 Title: '.containsValue()'
-Description: 'A method used to check if a given value is present in a map.'
-Subjects: 
+Description: 'Checks if a given value is present in a map.'
+Subjects:
   - 'Computer Science'
-Tags: 
-  - 'map'
-  - 'hashmap'
-  - 'java'
-CatalogContent: 
+  - 'Code Foundations'
+Tags:
+  - 'Map'
+  - 'Hash Maps'
+  - 'Java'
+CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
 ---
 
-The **`.containsValue()`** method determines whether a map contains the given value. The method returns the boolean value `true` if the map has one or more keys that map to the given value and `false` if the map does not contain the given value.
+The **`.containsValue()`** [method](https://www.codecademy.com/resources/docs/java/methods) determines whether a map contains a given value. This method returns `true` if the map has one or more keys that match with the given value and `false` if the map does not contain the given value.
 
 ## Syntax
 
@@ -20,19 +21,20 @@ The **`.containsValue()`** method determines whether a map contains the given va
 map.containsValue(value);
 ```
 
-- value: This can be any type of Object
+- `map`: The name of the map to be checked.
+- `value`: The value to be searched.
 
 ## Example
 
-The example below creates a hashmap for flowers, where the string represents its name and the integer represents the quantity. Then the integer is used with `.contiansValue()` as given below:
+The below example demonstrates the use of the `.containsValue()` method:
 
 ```java
 import java.util.HashMap;
 
-public class FlowerInventory{
+public class FlowerInventory {
   public static void main(String[] args) {
-
     HashMap<String, Integer> inventory = new HashMap<String, Integer>();
+
     inventory.put("Roses", 10);
     inventory.put("Lillies", 5);
     inventory.put("Tulips", 1);
