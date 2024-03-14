@@ -38,7 +38,7 @@ public class MyClass {
 }
 ```
 
-This results in the following output:
+The above code results in the following output:
 
 ```shell
 [Diablo III, Doom, The Witcher]
