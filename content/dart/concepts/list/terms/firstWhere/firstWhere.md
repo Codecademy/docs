@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.firstWhere()`** method in Dart is a built-in `List` method that returns the first element in a list that satisfies a given condition. If no element satisfies the condition, it returns a predefined default value.
+The **`.firstWhere()`** method in Dart is a built-in [`List`](https://www.codecademy.com/resources/docs/dart/list) method that returns the first element in a list that satisfies a given condition. If no element satisfies the condition, it returns a predefined default value.
 
 ## Syntax
 
@@ -26,6 +26,8 @@ E firstWhere(bool test(E element), { E orElse() });
 - `.orElse()`: If no element satisfies the condition, this method is invoked and the default value defined using it is returned.
 
 ## Examples
+
+### Example 1
 
 In this example, the `.firstWhere()` method is used to identify the first even number in the `numbers` list:
 
@@ -45,7 +47,9 @@ The output for the above example is as follows:
 
 In case the condition is not satisfied, the `.orElse()` method can be used to provide a default return value instead.
 
-In this example, the `.firstWhere()` method is used to identify the first number that is greater than 62 in the `numbers` list:
+### Example 2
+
+In this example, the `.firstWhere()` method is used to identify the first number that is greater than 5 in the `numbers` list, provided along with a `.orElse()` method:
 
 ```dart
 void main() {
