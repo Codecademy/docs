@@ -1,1 +1,1 @@
-content/general/concepts/geolocation/geolocation.md
+content/general/concepts/bot/bot.md
