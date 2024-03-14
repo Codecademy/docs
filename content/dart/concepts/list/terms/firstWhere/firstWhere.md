@@ -25,9 +25,7 @@ E firstWhere(bool test(E element), { E orElse() });
 - `test(E element)`: A function that takes an element as a parameter and checks if it satisfies a given condition.
 - `.orElse()`: If no element satisfies the condition, this method is invoked and the default value defined using it is returned.
 
-## Examples
-
-### Example 1
+## Example 1
 
 In this example, the `.firstWhere()` method is used to identify the first even number in the `numbers` list:
 
@@ -47,7 +45,7 @@ The output for the above example is as follows:
 
 In case the condition is not satisfied, the `.orElse()` method can be used to provide a default return value instead.
 
-### Example 2
+## Example 2
 
 In this example, the `.firstWhere()` method is used to identify the first number that is greater than 5 in the `numbers` list, provided along with a `.orElse()` method:
 
