@@ -41,5 +41,6 @@ void main() {
 Here is the output for the above code:
 
 ```shell
+1
 {key1: 1, key2: 2, key3: 3}
 ```
