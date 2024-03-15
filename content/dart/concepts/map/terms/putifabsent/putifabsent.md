@@ -25,7 +25,7 @@ V putIfAbsent(K key, V ifAbsent())
 
 ## Example
 
-In this example, the key 'key3' is not present in the map, so the ifAbsent function () => 3 is invoked to provide the value 3. The key 'key1' and 'key2' are present so the ifAbsent function is not invoked and the existing values are returned.
+In this example, the key `key3` is not present in the map, so the `ifAbsent()` function `() => 3` is invoked to provide the value 3. The keys `key1` and `key2` are present so the `ifAbsent()` function is not invoked and the existing values are returned.
 
 ```dart
 void main() {
