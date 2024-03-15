@@ -5,6 +5,7 @@ Subjects:
   - 'Computer Science'
   - 'Web Development'
 Tags:
+  - 'Dart'
   - 'Lists'
   - 'Methods'
 CatalogContent:
