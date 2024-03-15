@@ -38,8 +38,8 @@ We are currently building a team of community volunteers and educators to mainta
 There are many ways to contribute to Docs:
 
 1. Get assigned to an Issue of your interest.
-    - Ask to be assigned to one of the [available Issues](https://github.com/Codecademy/docs/issues?q=is%3Aissue+is%3Aopen+-label%3Aclaimed).
-    - Submit a typo/bug in [GitHub Issues](https://github.com/Codecademy/docs/issues).
+   - Ask to be assigned to one of the [available Issues](https://github.com/Codecademy/docs/issues?q=is%3Aissue+is%3Aopen+-label%3Aclaimed).
+   - Submit a typo/bug in [GitHub Issues](https://github.com/Codecademy/docs/issues).
 2. Submit a Pull Request for your assigned Issue.
 3. Reply to the thread on [Possible Content Discussion](https://discuss.codecademy.com/t/find-a-starting-point-possible-content-discussion/745868) to share ideas and collaborate with other contributors, maintainers, or super users to determine good future issues.
 4. Share your thoughts in this [Docs feedback form](https://codecademyready.typeform.com/to/hzVIWDgz) to tell us how we can improve Docs!
