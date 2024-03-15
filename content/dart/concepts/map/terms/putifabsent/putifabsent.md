@@ -33,7 +33,7 @@ void main() {
   // 'key3' is not present, so the value 3 will be provided by the ifAbsent function
   map.putIfAbsent('key3', () => 3); // {'key1': 1, 'key2': 2, 'key3': 3}
   // 'key1' is present, so the ifAbsent function is not invoked
-  map.putIfAbsent('key1', () => 5); // Notice the output stays the same {'key1': 1, 'key2': 2, 'key3': 3}
+  print(map.putIfAbsent('key1', () => 5)); // Notice the output is the existing value associated with key1
   print(map); // output {'key1': 1, 'key2': 2, 'key3': 3}
 }
 ```
