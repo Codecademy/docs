@@ -29,7 +29,7 @@ Use `math.exp()` to return _e_ raised to the power of `5`:
 ```python
 import math
 
-print(math.exp(5)) 
+print(math.exp(5))
 ```
 
 The above code gives the following output:

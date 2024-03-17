@@ -41,7 +41,7 @@ Use `math.tan()` to return the tangent of the float `5.5` measured in radians:
 ```python
 import math
 
-print(math.tan(5.5)) 
+print(math.tan(5.5))
 ```
 
 The above code gives the following output:
