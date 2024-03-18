@@ -77,7 +77,7 @@ class Person {
 
   public:
     // Defines the method
-    string set_name(string newName) {
+    void set_name(string newName) {
       name = newName;
     }
 
