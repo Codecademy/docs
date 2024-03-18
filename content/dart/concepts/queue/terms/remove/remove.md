@@ -45,7 +45,7 @@ void main() {
 }
 ```
 
-The above code will result in the following output:
+The above code results in the following output:
 
 ```shell
 Original Queue: {1, 2, 3, 4, 5}
