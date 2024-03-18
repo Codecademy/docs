@@ -1,7 +1,6 @@
 ---
 Title: '.length'
 Description: 'Returns the number of elements in a Dart queue'
-
 Subjects: 
   - 'Computer Science'
   - 'Code Foundations'
