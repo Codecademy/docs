@@ -1,5 +1,5 @@
 ---
-Title: 'remove'
+Title: '.remove()'
 Description: 'Removes the first occurrence of an element from a queue.'
 Subjects:
   - 'Code Foundations'
