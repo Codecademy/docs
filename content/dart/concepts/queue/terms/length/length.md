@@ -24,7 +24,8 @@ Queue queue_name = queue_name.length;
 In Dart, the **.length** unveils the amounts of elements in a queue.
 
 ## Example
-This Dart code creates a queue named example_queue, adds five integer elements to it, and then prints out its length using print.
+
+This Dart code creates a queue named `example_queue`, adds five integer elements, and then prints out its length using the print statement:
 
 import 'dart:convert';
 import 'dart:collection';
