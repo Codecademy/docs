@@ -25,7 +25,7 @@ void remove(Object? value)
 
 ## Example
 
-Consider the following example demonstrating the usage of the `.remove()` method:
+In the following example, the element `3` is removed from the queue using the `.remove()` method:
 
 ```dart
 import 'dart:collection';
