@@ -24,7 +24,7 @@ bool contains(Object element)
 ```
 - `element`: The element is the object that needs to be checked in the queue.
 
-## Exaple-1:
+## Example-1:
 
 ```dart
 var queue = Queue();
@@ -33,7 +33,7 @@ print(queue.contains(3)); // Output will be true
 ```
 This method returns `true` if the element is found in the queue, otherwise it returns `false`.
 
-## Exaple-2:
+## Example-2:
 
 ```dart
 var names = Queue<String>();
