@@ -31,7 +31,7 @@ In the following example, the element `3` is removed from the queue using the `.
 import 'dart:collection';
 
 void main() {
-  // Creating a Queue
+  // Creating a queue
   Queue<int> queue = Queue.from([1, 2, 3, 4, 5]);
 
   // Outputting the original queue
