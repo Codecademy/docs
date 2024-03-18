@@ -48,8 +48,6 @@ void main() {
 The above code will result in the following output:
 
 ```shell
-Original Queue: Queue[1, 2, 3, 4, 5]
-Modified Queue after removing 3: Queue[1, 2, 4, 5]
+Original Queue: {1, 2, 3, 4, 5}
+Modified Queue: {1, 2, 4, 5}
 ```
-
-In this example, the element *3* is removed from the queue using the `.remove()` method.
