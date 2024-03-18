@@ -17,12 +17,11 @@ The **`.remove()`** method in Dart is used to remove the first occurrence of a s
 
 ## Syntax
 
-```dart
+```pseudo
 void remove(Object? value)
 ```
 
-In this case, *value* is the element to be removed from the queue.
-
+- `value`: The element to be removed from the queue.
 
 ## Example
 
