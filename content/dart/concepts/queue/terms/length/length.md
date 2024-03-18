@@ -9,7 +9,6 @@ Tags:
   - 'Dart'
   - 'Classes'
   - 'Queues'
-
 CatalogContent: 
   - 'learn-dart'
   - 'paths/computer-science'
