@@ -130,6 +130,5 @@ fn main() {
 This arrays example results in the following output:
 
 ```shell
-    println!("Person: {} is {} years old. Adult: {}", name, age, is_adult);
-    println!("Array: [{}, {}]", first_number, second_number);
+Array: [11, 82]
 ```
