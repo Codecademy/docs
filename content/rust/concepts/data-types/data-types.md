@@ -45,7 +45,6 @@ fn main() {
 A boolean is a data type representing one of two values: `true` or `false`. Booleans have a size of one byte and they are specified using the `bool` keyword with explicit type annotation:
 
 ```rust
-
 fn main() {
     // Declare a boolean variable with explicit type annotation
     let is_rust_cool: bool = true;
@@ -56,7 +55,6 @@ fn main() {
         println!("Rust is not cool?");
     }
 }
-
 ```
 
 ### Character
@@ -76,19 +74,20 @@ fn main() {
 
     // Character Type
     let unicode_char: char = 'A';
-
-}
-```
-
-This char example results in the following output:
-
-```shell
-
     println!("Integer: {}", integer_num);
     println!("Floating-Point: {}", float_num);
     println!("Boolean: {}", is_rust_cool);
     println!("Character: {}", unicode_char);
+}
+```
 
+The output of the above code is as follows:
+
+```shell
+Integer: 42
+Floating-Point: 3.14
+Boolean: true
+Character: A
 ```
 
 ## Compound Types
@@ -119,20 +118,18 @@ An array is a collection of values with the same type and fixed length. The valu
 fn main() {
     // Array
     let numbers: [i32; 5] = [11, 82, 12, 88, 90];
-
     // Accessing array elements
     let first_number = numbers[0];
     let second_number = numbers[1];
 
-
+    // Printing array elements
+    println!("Array: [{}, {}]", first_number, second_number);
 }
 ```
 
 This arrays example results in the following output:
 
 ```shell
-
     println!("Person: {} is {} years old. Adult: {}", name, age, is_adult);
     println!("Array: [{}, {}]", first_number, second_number);
-
 ```
