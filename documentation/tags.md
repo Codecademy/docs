@@ -80,11 +80,13 @@ CSS
 CSV
 Cybersecurity
 D3
+Dart
 Data
 Data Structures
 Data Types
 Database
 Date
+Dart Operators
 Debugging
 Decorators
 Deep Learning
@@ -254,6 +256,7 @@ Primary Key
 Print
 Probability
 Promise
+Programming
 Properties
 Protocols
 Queries

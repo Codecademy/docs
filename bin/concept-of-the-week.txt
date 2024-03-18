@@ -1,1 +1,1 @@
-content/c-sharp/concepts/switch/switch.md
+content/python/concepts/scope/scope.md
