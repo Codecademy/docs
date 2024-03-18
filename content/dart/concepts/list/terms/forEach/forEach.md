@@ -21,31 +21,30 @@ collection.forEach((element) {
 });
 ```
 
-* `collection`: The iterable (list, map or set) that you want to iterate over.
-* `(element)`: A variable representing the current element on each iteration.
-* `{}` following the attribute, goes the anonymous function that will execute on each iteration.
+- `collection`: The list, map or set to iterate over.
+- `element`: A variable representing the current element on each iteration.
+- `{}` function to execute on each iteration.
 
 ## Example
 
-Let's say we have a list of numbers and we want to print each number multiplied by 2 using the `forEach` method.
+A list of numbers is declared. Each number is multiplied by 2 and printed utilizing the forEach method.
 
-```
+```dart
 void main() {
   List<int> numbers = [1, 2, 3, 4, 5];
 
-  // Using forEach to print each number multiplied by 2
   numbers.forEach((number) {
     print(number * 2);
   });
 }
 ```
 
-* We declare a list of integers named `numbers`.
-* The `forEach` method is applied to `numbers`, with an anonymous function that takes each `number` from the list and prints its value multiplied by 2.
+- Declare a list of integers named `numbers`.
+- The `forEach` method is applied to `numbers`, with an anonymous function that takes each `number` from the list and prints its value multiplied by 2.
 
 The above code gives the following output:
 
-```
+```shell
 2
 4
 6
