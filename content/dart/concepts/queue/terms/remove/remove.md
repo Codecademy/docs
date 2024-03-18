@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **.remove()** method in Dart Queue is used to remove the first occurrence of a specified element from the queue, if it exists.
+The **`.remove()`** method in Dart is used to remove the first occurrence of a specified element from a queue, if it exists.
 
 ## Syntax
 
