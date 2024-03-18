@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The Dart queue method **.length** returns the number of elements in a Dart queue.
+The Dart queue method **`.length`** returns the number of elements in a Dart queue.
 
 ## Syntax
 
