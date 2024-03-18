@@ -1,1 +1,1 @@
-content/general/concepts/http/http.md
+content/python/concepts/scope/scope.md
