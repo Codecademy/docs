@@ -41,9 +41,8 @@ void main() {
   queue.remove(3);
 
   // Outputting the modified queue
-  print('Modified Queue after removing 3: $queue');
+  print('Modified Queue: $queue');
 }
-
 ```
 
 The above code will result in the following output:
