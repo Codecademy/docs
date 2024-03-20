@@ -16,3 +16,9 @@ The default values of numpy.median() have the following implications:
 + By default, keepdims will not be passed.
 #### Returned Values:
 The numpy.median() function returns the median of the array (it will return a scalar value if the axis is None) or an array with median values along the specified axis.
+
+### Steps used to calculate the Median
+Given some dataset with N>0 number of elements as Input:
+1. Arrange elements in an ascending order.
+2. If N is an odd number, then median will be calculated as Median = middle term
+4. If N is an even number, then median will be calculated as Median = Average of the terms in the middle
