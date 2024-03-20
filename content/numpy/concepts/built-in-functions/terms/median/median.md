@@ -1,7 +1,21 @@
-The numpy.median() statistical function computes the middle element of a sorted array (dataset).
+Title: '.median()'
+Description: 'Returns the median value (a scalar or an array) of a sorted dataset'
+Subjects:
+  - 'Computer Science'
+Tags:
+  - 'Methods'
+  - 'Arithmetic'
+CatalogContent:
+  - 'learn-Python'
+  - 'paths/median'
+
+
+The numpy.median() statistical function computes the middle value of a sorted array (dataset).
 
 ### Syntax of numpy.median() function
+import numpy as np
 numpy.median(array, axis = None, out = None, overwrite_input = False, keepdims = <no value>)
+
 The array argument is required and represents the elements to find the median. All other arguments are optional. 
 
 #### The meaning of the numpy.median() method arguments:
