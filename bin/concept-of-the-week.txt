@@ -1,1 +1,1 @@
-content/php/concepts/functions/functions.md
+content/python/concepts/scope/scope.md
