@@ -14,3 +14,5 @@ The array argument is required and represents the elements to find the median. A
 The default values of numpy.median() have the following implications:
 + axis = None - the median of the entire array is taken.
 + By default, keepdims will not be passed.
+#### Returned Values:
+The numpy.median() function returns the median of the array (it will return a scalar value if the axis is None) or an array with median values along the specified axis.
