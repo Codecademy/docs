@@ -22,3 +22,30 @@ Given some dataset with N>0 number of elements as Input:
 1. Arrange elements in an ascending order.
 2. If N is an odd number, then median will be calculated as Median = middle term
 4. If N is an even number, then median will be calculated as Median = Average of the terms in the middle
+
+### Example: (working with a 3-dimensional array)
+
+import numpy as np 
+array = [[1, 17, 19, 33, 49], [14, 6, 87, 8, 19], [34, 2, 54, 4, 7]] 
+
+###### alculating median along the axis = None (horrizontal 1-d array)
+print("\nThe median of array when axis = None : ")
+print(np.median(array)) 
+
+###### alculating median along the axis = 0 (vertical direstion across 5 rows)
+print("\nThe median of array when axis = 0 : ")
+print(np.median(array, axis = 0)) 
+
+###### calculating median along the axis = 1 (horizontal direction across 3 columns)
+print("\nThe median of array when axis = 1 : ")
+print(np.median(array, axis = 1)) 
+
+##### Output
+The median of array when axis = None : 
+17.0
+
+The median of array when axis = 0 :
+[14. 6. 54. 8. 19.]
+
+The median of array when axis = 1 :
+[19. 14. 7.]
