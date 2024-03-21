@@ -13,7 +13,9 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **.inv()** function works with *"square" matrices* and returns an inverted version of those. 
+The **.inv()** function works with *"square" matrices* and returns an inverted version of those.
+
+Some use cases in statistical analysis are in : Linear Regression, Multivariate Analysis, Bayesian Statistics and many more..
 
 ## Syntax
 
@@ -54,7 +56,22 @@ print("\n\nTwo matrices: " )
 print(np.linalg.inv(array2)) 
 
 ```
+Output:
 
+```shell
+
+One matrix: 
+[[-2.   1. ]
+ [ 1.5 -0.5]]
+
+
+Two matrices: 
+[[[-2.    1.  ]
+  [ 1.5  -0.5 ]]
+
+ [[-1.25  0.75]
+  [ 0.75 -0.25]]]
+```
 
 ## Codebyte Example 
 
