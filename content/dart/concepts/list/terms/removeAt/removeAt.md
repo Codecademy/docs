@@ -31,16 +31,10 @@ E removeAt(int index)
 
 ```dart
 void main() {
-  // Original list
   List<int> numbers = [1, 2, 3, 4, 5];
-
-  // Print the original list
   print("Original list: $numbers");
 
-  // Remove the element at position 2 using removeAt()
   int removedValue = numbers.removeAt(2);
-
-  // Print the removed value and the updated list
   print("Removed element: $removedValue");
   print("Updated list: $numbers");
 }
