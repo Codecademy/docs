@@ -4,6 +4,7 @@ Description: 'Removes the object at a specified index from the list'
 Subjects:
   - 'Mobile Development'
   - 'Web Development'
+  - 'Code Foundations'
 Tags:
   - 'Arrays'
   - 'Collections'
