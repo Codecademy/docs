@@ -42,8 +42,8 @@ Raises:
 ```py
 import numpy as np
  
-array =  np.array([[1., 2.], [3., 4.]]) #array in a shape of one matrix
-array2 = np.array([[[1., 2.], [3., 4.]], [[1, 3], [3, 5]]]) #array in a shape of two matrices
+array =  np.array([[2., 3.], [1., 4.]]) #array in a shape of one matrix
+array2 = np.array([[[2., 3.], [1., 4.]], [[6., 4.], [10., 10.]]]) #array in a shape of two matrices
 
 #These matrices are non-singular. Which means the determinant is bigger then zero.
 
@@ -53,7 +53,7 @@ print(np.linalg.inv(array))
 
 
 print("\n\nTwo matrices: " )
-print(np.linalg.inv(array2)) 
+print( np.linalg.inv(array2)) 
 
 ```
 Output:
@@ -61,16 +61,16 @@ Output:
 ```shell
 
 One matrix: 
-[[-2.   1. ]
- [ 1.5 -0.5]]
+[[ 0.8 -0.6]
+ [-0.2  0.4]]
 
 
 Two matrices: 
-[[[-2.    1.  ]
-  [ 1.5  -0.5 ]]
+[[[ 0.8 -0.6]
+  [-0.2  0.4]]
 
- [[-1.25  0.75]
-  [ 0.75 -0.25]]]
+ [[ 0.5 -0.2]
+  [-0.5  0.3]]]
 ```
 
 ## Codebyte Example 
