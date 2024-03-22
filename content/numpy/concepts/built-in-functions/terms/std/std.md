@@ -93,7 +93,7 @@ The following shows examples using `.std()` with differing parameters.
 import numpy as np 
     
 # 1D array  
-arr = [20, 2, 7, 1, 34] 
+arr = [23, 54, 19, 45, 34] 
   
 print("arr : ", arr)  
 print("std of arr : ", np.std(arr)) 
@@ -109,14 +109,14 @@ print("std of arr : ", np.std(arr, dtype = np.float64))
 **Output:**
 
 ```shell
-arr :  [20, 2, 7, 1, 34]
-std of arr :  12.576167937809991
+arr :  [23, 54, 19, 45, 34]
+std of arr :  13.130118049735882
 
 More precision with float32
-std of arr :  12.576168
+std of arr :  13.130117
 
 More accuracy with float64
-std of arr :  12.576167937809991
+std of arr :  13.130118049735882
 ```
 
 **Example 2:**
@@ -126,10 +126,10 @@ import numpy as np
     
   
 # 2D array  
-arr = [[2, 2, 2, 2, 2],   
-       [15, 6, 27, 8, 2],  
-       [23, 2, 54, 1, 2, ],  
-       [11, 44, 34, 7, 2]]  
+arr = [[8, 8, 8, 8, 8],   
+       [15, 10, 32, 9, 8],  
+       [27, 6, 63, 4, 8, ],  
+       [23, 54, 41, 9, 8]]  
   
     
 # std of the flattened array  
@@ -145,9 +145,9 @@ print("\nstd of arr, axis = 1 : ", np.std(arr, axis = 1))
 **Output:**
 
 ```shell
-std of arr, axis = None :  15.3668474320532
+std of arr, axis = None :  16.62310139534738
 
-std of arr, axis = 0 :  [ 7.56224173 17.68473918 18.59267329  3.04138127  0.        ]
+std of arr, axis = 0 :  [ 7.32717544 19.96872555 19.71040334  2.06155281  0.        ]
 
-std of arr, axis = 1 :  [ 0.          8.7772433  20.53874388 16.40243884]
+std of arr, axis = 1 :  [ 0.          8.93084542 22.27644496 18.03330253]
 ```
