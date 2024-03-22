@@ -14,15 +14,15 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.std()`** function returns the standard deviation of the array elements. The standard deviation is computed for the flattened array by default, otherwise over the specified axis.
+The **`.std()`** function returns the standard deviation of the array elements. The standard deviation is calculated for the flattened array by default, otherwise over the specified axis.
 
-A standard deviation is a measure of spread of a distribution of data, an array or list, along an axis.
+A standard deviation is a measure of spread of a distribution of data, an array, along an axis.
 
 The formula for the calculation of **std** is:
 
-```tex
-standard deviation = \sqrt{mean(abs(a - a.mean())^2)}
-```
+    ```tex
+    standard deviation = \sqrt{mean(abs(a - a.mean())^2)}
+    ```
 
 ## Syntax
 
@@ -36,23 +36,23 @@ numpy.std(a, axis, dtype, out, ddof, keepdims, where)
 
 - `axis`: The axis that the std will be calculated. The default will consider the array to be flattened, works on any axis.
 
-If *axis = 0*, this will calculate the std along the vertical axis.
+    - If *axis = 0*, this will calculate the std along the vertical axis.
 
-If *axis = 1*, this will calculate the std along the horizontal axis.
+    - If *axis = 1*, this will calculate the std along the horizontal axis.
 
-If this is a *tuple of ints*, this will calculate the std along multiple axis.
+    - If this is a *tuple of ints*, this will calculate the std along multiple axis.
 
-- `dtype`: This is the type of data the std will calculate.
+- `dtype`: This is the type of data the std will calculate:
  
-Interger arrays will have the default type of float64.
+    - Interger arrays will have the default type of float64.
 
-Float arrays will be the same as the array type.
+    - Float arrays will be the same as the array type.
 
 - `out`: This dictates the array in which the results will be outputted to. The array must be of the same type as the original array.
 
 - `ddof`: Means **Delta Degrees of Freedom**. The divisor used in calculations is *N - ddof*, where N represents the number of elements.
 
-The default for this parameter = 0
+    - The default for this parameter = 0
 
 - `keepdims`: If *True* the reduced axes are kept in the result as dimensions of size one. This ensures the result will translate correctly against the input array.
 
