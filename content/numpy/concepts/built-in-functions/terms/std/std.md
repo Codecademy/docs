@@ -1,0 +1,153 @@
+---
+Title: '.std()'
+Description: 'Calculates the standard deviation of given data along a specified axis'
+Subjects:
+  - 'Computer Science'
+  - 'Data Science'
+Tags:
+  - 'Data Structures'
+  - 'Arrays'
+  - 'Functions'
+  - 'NumPy'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/data-science'
+---
+
+The **`.std()`** function returns the standard deviation of the array elements. The standard deviation is computed for the flattened array by default, otherwise over the specified axis.
+
+A standard deviation is a measure of spread of a distribution of data, an array or list, along an axis.
+
+The formula for the calculation of **std** is:
+
+```tex
+standard deviation = \sqrt{mean(abs(a - a.mean())^2)}
+```
+
+## Syntax
+
+```pseudo
+numpy.std(a, axis, dtype, out, ddof, keepdims, where)
+```
+
+## Parameters:
+
+- `a` : The array of elements with which to calculate the std
+
+- `axis`: The axis that the std will be calculated. The default will consider the array to be flattened, works on any axis.
+
+If axis = 0, this will calculate the std along the vertical axis.
+
+If axis = 1, this will calculate the std along the horizontal axis.
+
+If this is a tuple of ints, this will calculate the std along multiple axis.
+
+- `dtype`: This is the type of data the std will calculate.
+ 
+Interger arrays will have the default type of float64.
+
+Float arrays will be the same as the array type.
+
+- `out`: This dictates the array in which the results will be outputted to. The array must be of the same type as the original array.
+
+- `ddof`: Means Delta Degrees of Freedom. The divisor used in calculations is *N - ddof*, where N represents the number of elements.
+
+The default for this parameter = 0
+
+- `keepdims`: If *True* the reduced axes are kept in the result as dimensions of size one. This ensures the result will translate correctly against the input array.
+
+If the value is default, `keepdims` will not be passed. Any non-default value will pass thorugh the sub-classes of ndarray. 
+
+An execption will be raised if the sub-classes method doesn't implement `keepdims`.
+
+- `where`: Elements to include in the standard deviation.
+
+**Returns:** 
+- `standard_deviation` : If `out` = None, return a new array containing the standard deviation, otherwise return a reference to the output array.
+
+## Note
+
+The average squared deviation is calculated as **x.sum() / N**, where **N = len(x)**. If `ddof` is specified, the divisor **N - ddof** is used instead. 
+
+- **ddof=1** provides an unbiased estimate of the variance of the infinite population. 
+
+- **ddof=0** provides a maximum estimate of the variance for normally distributed variables. 
+
+However, even with **ddof = 1** it will not be a completely unbiased estimate of the standard deviation due to std being the square root of the estimated variance of the array.
+
+## Note 
+
+For complex numbers, `std` takes the absolute value before squaring, so that the result is always real and non-negative.
+
+For float arrays the std is calculated with equal precision to the input. Hence, the result can be inaccurate in particular for float32. To improve this, use the `dtype` parameter and specify a higher-accuracy accumulator.
+
+## Examples
+
+The following shows examples using `.std()` with differing parameters.
+
+
+**Example 1:**
+
+```py
+
+import numpy as np 
+    
+# 1D array  
+arr = [20, 2, 7, 1, 34] 
+  
+print("arr : ", arr)  
+print("std of arr : ", np.std(arr)) 
+  
+print ("\nMore precision with float32") 
+print("std of arr : ", np.std(arr, dtype = np.float32)) 
+  
+print ("\nMore accuracy with float64") 
+print("std of arr : ", np.std(arr, dtype = np.float64)) 
+
+```
+
+**Output:**
+
+```shell
+arr :  [20, 2, 7, 1, 34]
+std of arr :  12.576167937809991
+
+More precision with float32
+std of arr :  12.576168
+
+More accuracy with float64
+std of arr :  12.576167937809991
+```
+
+**Example 2:**
+
+```py
+import numpy as np 
+    
+  
+# 2D array  
+arr = [[2, 2, 2, 2, 2],   
+       [15, 6, 27, 8, 2],  
+       [23, 2, 54, 1, 2, ],  
+       [11, 44, 34, 7, 2]]  
+  
+    
+# std of the flattened array  
+print("\nstd of arr, axis = None : ", np.std(arr))  
+    
+# std along the axis = 0  
+print("\nstd of arr, axis = 0 : ", np.std(arr, axis = 0))  
+   
+# std along the axis = 1  
+print("\nstd of arr, axis = 1 : ", np.std(arr, axis = 1)) 
+```
+
+**Output:**
+
+```shell
+std of arr, axis = None :  15.3668474320532
+
+std of arr, axis = 0 :  [ 7.56224173 17.68473918 18.59267329  3.04138127  0.        ]
+
+std of arr, axis = 1 :  [ 0.          8.7772433  20.53874388 16.40243884]
+```
