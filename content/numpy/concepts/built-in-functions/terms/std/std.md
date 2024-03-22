@@ -32,17 +32,17 @@ numpy.std(a, axis, dtype, out, ddof, keepdims, where)
 
 ## Parameters:
 
-- `a` : The array of elements with which to calculate the std
+- `a` : The array of elements with which to calculate the std.
 
 - `axis`: The axis that the std will be calculated. The default will consider the array to be flattened, works on any axis.
 
-    - If *axis = 0*, this will calculate the std along the vertical axis.
+    - **axis = 0**: Calculates the std along the vertical axis.
 
-    - If *axis = 1*, this will calculate the std along the horizontal axis.
+    - **axis = 1**: Calculates the std along the horizontal axis.
 
-    - If this is a *tuple of ints*, this will calculate the std along multiple axis.
+    - **tuple of ints**: Calculates the std along multiple axes.
 
-- `dtype`: This is the type of data the std will calculate:
+- `dtype`: This is the type of data the std will calculate.
  
     - Interger arrays will have the default type of float64.
 
@@ -63,7 +63,7 @@ An execption will be raised if the sub-classes method doesn't implement `keepdim
 - `where`: Elements to include in the standard deviation.
 
 **Returns:** 
-- `standard_deviation` : If `out` = None, return a new array containing the standard deviation, otherwise return a reference to the output array.
+- `standard_deviation` : If `out` = None, return a new array containing the standard deviation, otherwise return result to the output array.
 
 ## Note
 
@@ -79,7 +79,7 @@ However, even with **ddof = 1** it will not be a completely unbiased estimate of
 
 For complex numbers, `std` takes the absolute value before squaring, so that the result is always real and non-negative.
 
-For float arrays the std is calculated with equal precision to the input. Hence, the result can be inaccurate in particular for float32. To improve this, use the `dtype` parameter and specify a higher-accuracy accumulator.
+For float arrays the std is calculated with equal precision to the input. Hence, the result can be inaccurate. In particular for float32. To improve this, use the `dtype` parameter and specify a higher-accuracy accumulator.
 
 ## Examples
 
