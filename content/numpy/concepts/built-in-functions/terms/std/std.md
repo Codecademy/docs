@@ -36,11 +36,11 @@ numpy.std(a, axis, dtype, out, ddof, keepdims, where)
 
 - `axis`: The axis that the std will be calculated. The default will consider the array to be flattened, works on any axis.
 
-If axis = 0, this will calculate the std along the vertical axis.
+If *axis = 0*, this will calculate the std along the vertical axis.
 
-If axis = 1, this will calculate the std along the horizontal axis.
+If *axis = 1*, this will calculate the std along the horizontal axis.
 
-If this is a tuple of ints, this will calculate the std along multiple axis.
+If this is a *tuple of ints*, this will calculate the std along multiple axis.
 
 - `dtype`: This is the type of data the std will calculate.
  
@@ -50,7 +50,7 @@ Float arrays will be the same as the array type.
 
 - `out`: This dictates the array in which the results will be outputted to. The array must be of the same type as the original array.
 
-- `ddof`: Means Delta Degrees of Freedom. The divisor used in calculations is *N - ddof*, where N represents the number of elements.
+- `ddof`: Means **Delta Degrees of Freedom**. The divisor used in calculations is *N - ddof*, where N represents the number of elements.
 
 The default for this parameter = 0
 
