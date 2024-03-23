@@ -63,7 +63,9 @@ Two matrices:
   [-0.5  0.3]]]
 ```
 
-## Codebyte Example 
+## Codebyte Example
+
+Here is a codebyte example for the `.inv()` function:
 
 ```codebyte/py
 import numpy as np
