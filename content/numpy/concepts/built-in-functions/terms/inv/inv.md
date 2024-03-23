@@ -13,9 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.inv()`** function inverts a given matrix and returns the inverted matrix. If the inversion fails or the given matrix is not a square matrix, then it raises an `LinAlgError`.
-
-Some of its use cases in the field of statistical analysis include:
+The **`.inv()`** function inverts a given matrix and returns the inverted matrix. If the inversion fails or the given matrix is not a square matrix, then it raises an `LinAlgError`. Some of its use cases in the field of statistical analysis include:
 
 - Linear Regression
 - Multivariate Analysis
