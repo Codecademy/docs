@@ -36,21 +36,19 @@ The following example demonstrates the usage of the `.inv()` function:
 ```py
 import numpy as np
  
-array =  np.array([[2., 3.], [1., 4.]]) #array in a shape of one matrix
-array2 = np.array([[[2., 3.], [1., 4.]], [[6., 4.], [10., 10.]]]) #array in a shape of two matrices
+array =  np.array([[2., 3.], [1., 4.]])
+array2 = np.array([[[2., 3.], [1., 4.]], [[6., 4.], [10., 10.]]])
 
-#These matrices are non-singular. Which means the determinant is bigger then zero.
+# The determinant is bigger then zero since the above matrices are non-singular
 
-print("\nOne matrix: ")
-print(np.linalg.inv(array)) 
+print("One matrix: ")
+print(np.linalg.inv(array))
 
-
-
-print("\n\nTwo matrices: " )
-print( np.linalg.inv(array2)) 
-
+print("\nTwo matrices: ")
+print(np.linalg.inv(array2))
 ```
-Output:
+
+The output for the above code is as follows:
 
 ```shell
 
