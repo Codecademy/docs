@@ -51,11 +51,9 @@ print(np.linalg.inv(array2))
 The output for the above code is as follows:
 
 ```shell
-
 One matrix: 
 [[ 0.8 -0.6]
  [-0.2  0.4]]
-
 
 Two matrices: 
 [[[ 0.8 -0.6]
