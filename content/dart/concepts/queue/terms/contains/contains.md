@@ -36,9 +36,13 @@ This method returns `true` if the element is found in the queue, otherwise it re
 ## Example-2:
 
 ```dart
-var names = Queue<String>();
-names.addAll(['Alice', 'Bob', 'Charlie', 'David']);
-print(names.contains('Bob')); // Output will be true
+import 'dart:collection';
+
+void main() {
+  var names = Queue<String>();
+  names.addAll(['Alice', 'Bob', 'Charlie', 'David']);
+  print(names.contains('Bob')); 
+}
 ```
 In this example, we first add a collection of names to the queue and then use the '.contains()' method to check if the name 'Bob' is present in the queue. The method will return `true` in this case because 'Bob' is indeed present in the queue.
 
