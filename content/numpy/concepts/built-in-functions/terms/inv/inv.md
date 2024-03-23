@@ -1,5 +1,5 @@
 ---
-Title: .inv()
+Title: '.inv()'
 Description: 'Inverts a given matrix'
 Subjects: 
   - 'Computer Science'
