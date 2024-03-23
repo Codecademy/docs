@@ -13,27 +13,32 @@ CatalogContent:
  -'paths/computer-science'
 ---
 
-The Dart **.contains()** method in the 'Queue' class is used to check if a specified element is present in the queue. 
+The **`.contains()`** method in Dart checks if a specified element is present in the given queue. 
 
-## Sintax:
+## Syntax
 
-The syntax for this method is as follows:
 
 ```pseudo
 bool contains(Object element)
 ```
-- `element`: The element is the object that needs to be checked in the queue.
 
-## Example-1:
+- `element`: It is the object that needs to be checked in the queue.
+
+## Example 1
 
 ```dart
-var queue = Queue();
-queue.addAll([1, 2, 3, 4, 5]);
-print(queue.contains(3)); // Output will be true
+import 'dart:collection';
+
+void main() {
+  var queue = Queue();
+  queue.addAll([1, 2, 3, 4, 5]);
+  print(queue.contains(3)); 
+}
 ```
+
 This method returns `true` if the element is found in the queue, otherwise it returns `false`.
 
-## Example-2:
+## Example 2
 
 ```dart
 import 'dart:collection';
