@@ -1,6 +1,7 @@
 ---
 Title: 'Quick Sort'
-Description: 'Sorts an array through partitioning.'
+Description: 'Partitions an array using a divide and conquer approach for sorting.'
+
 Subjects:
   - 'Computer Science'
   - 'Interview Prep'
@@ -76,9 +77,10 @@ public static void swap(int[] data, int a, int b){
 ## Time Complexity
 
 - **Divide and Conquer:** Quick sort divides the array into smaller subarrays and recursively sorts them.
-- **Pivot Selection:** The choice of pivot affects performance. The last element is often used, but other strategies exist.
-- **Average-Case Time Complexity:** O(n log n) - the pivot selected is the middle element every time.
-- **Worst-Case Time Complexity:** O(n^2) - This worst case scenario occurs when the pivot element is either the smallest or largest element in the array, resulting in partitioning until only one element in one of the sub-arrays. 
+- **Pivot Selection:** The choice of pivot affects performance. The last element is often used, but other strategies exist that could improve runtime.
+- **Average-Case Time Complexity:** O(n log n) -This occurs when the pivot element roughly divides the array into two equal halves. Randomized selection of the pivot helps achieve this on average, as it's less likely to consistently pick the smallest or largest element.
+- **Worst-Case Time Complexity:** O(n^2) - This worst case scenario occurs when the pivot element is either the smallest or largest element in the array, resulting in partitioning until only one element in one of the sub-arrays.
+  - While merge sort has a worst time complexity of O(n log n), quick sort has the advantage of being an in-place sorting algorithm. This means it sorts the data within the same array, avoiding the need for extra space during the sorting process.
 
 
 
