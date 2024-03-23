@@ -27,19 +27,7 @@ Some of its use cases in the field of statistical analysis include:
 numpy.linalg.inv(a)
 ```
 
-Parameters:
-
-- `a` parameter is a matrix ( or more matrices ) to be inverted.
-
-Returns:
-
-- The function returns an inverted matrix.
-
-Raises:
-
-- If not *square matrix* or the matrix is *singular*, raises an `LinAlgError`.
-
-
+- `a`: The matrix to be inverted.
 
 ## Example
 
