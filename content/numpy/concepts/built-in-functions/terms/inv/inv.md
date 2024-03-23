@@ -31,6 +31,8 @@ numpy.linalg.inv(a)
 
 ## Example
 
+The following example demonstrates the usage of the `.inv()` function:
+
 ```py
 import numpy as np
  
