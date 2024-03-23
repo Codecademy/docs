@@ -71,9 +71,10 @@ Here is a codebyte example for the `.inv()` function:
 import numpy as np
 
 array =  np.array([[2., 4.], [1., 2.]]) 
-# matrix which is singular - Determinant equals to zero.
+
+# The determinant is zero since the above matrix is singular
 
 print(np.linalg.inv(array))
 ```
 
-NOTE: The function raises an error if the given matrices are singular. Beacuse there is no inversion of those matrices.
+> **Note:** The [function](https://www.codecademy.com/resources/docs/numpy/built-in-functions) raises an `LinAlgError` as a singular matrix can't be inverted.
