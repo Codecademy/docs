@@ -1,6 +1,6 @@
 ---
 Title: '.inv()'
-Description: 'Inverts a given matrix'
+Description: 'Inverts a given matrix and returns the inverted matrix.'
 Subjects: 
   - 'Computer Science'
   - 'Data Science'
