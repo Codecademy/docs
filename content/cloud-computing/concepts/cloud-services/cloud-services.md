@@ -78,3 +78,7 @@ The disadvantages include:
 
 - Limited services compared to AWS and Azure.
 - Limited support for enterprise users.
+
+## Cloud Computing in a nutshell
+
+Cloud computing essentially represents the movement of renting out the hardware equipement (aka "bare metal") that is needed for running and powering software applications. Instead of companies spending a fortune setting up a solution on-premise, they now can spend a fortune with big tech cloud providers such as AWS, or Google, or Microsoft to do it for them. 
