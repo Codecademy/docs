@@ -161,3 +161,15 @@ int resultStatic = staticVariable + 10; // Correct: Static type checking
 print(resultDynamic);  // Outcome: Error
 print(resultStatic);   // Output: 52
 ```
+
+## Comparison of Data Types in different Languages
+This is a table of Data Types to compare different Types in different languages with Dart.
+| Data Type  | Dart | Kotlin | Java | Swift |
+|:-:|:-:|:-:|:-:|:-:|
+| Integers | ```int``` | ```Int``` | ```int, byte, short, long``` |  ```Int, Int8, Int16, Int32, Int64``` |
+|  Floating-Point |  ```double, float``` |  ```Double, Float``` |  ```double, float``` | ```Double, Float```  |
+| Boolean | ```bool``` |  ```Boolean``` | ```boolean```  | ```Bool```  |
+| Character  |  ```String``` |  ```String``` |  ```String```  |  ```String``` |
+| Arrays  |  ```List<T>``` (generic) |  ```Array<T>``` (generic) |  ```T[]``` (specific types) |  ```Array<T>``` (generic) |
+| Maps  | ```Map<K, V>``` (generic)  |  ```Map<K, V>``` (generic) |  ```HashMap<Key, Value>``` | ```Dictionary<Key, Value>``` (generic)  |
+| Null Safety  | Implicit nulls, ```?``` for optional |  Nullable by default, ```!``` for non null |  Primitive types not nullable, objects can be null  | Implicit nulls, ```!``` for forced unwrapping |
