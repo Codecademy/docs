@@ -31,7 +31,7 @@ console.log('hello world'.toUpperCase());
 
 ## Example 2
 
-Don't forget that `.toUpperCase()` doesn't actually change the original string.
+Don't forget that `.toUpperCase()` doesn't change the original string:
 
 ```codebyte/js
 var state = "ny"
@@ -40,4 +40,15 @@ state.toUpperCase()
 console.log(state)
 
 console.log(state.toUpperCase());
+```
+
+## Example 3
+
+Combining `.toUpperCase()` with other string methods:
+
+```js
+let greeting = "Hi, how are you today?"
+let shoutGreeting = greeting.toUpperCase().concat("!!")
+
+console.log(shoutGreeting);
 ```
