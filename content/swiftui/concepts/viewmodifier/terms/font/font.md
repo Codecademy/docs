@@ -27,10 +27,14 @@ Here are some standard fonts:
 
 - `.largeTitle` applies a large title style.
 - `.title` applies a title style.
+  -`.title2` a smaller title font style.
+  -`.title3` the smallest title font style.
 - `.headline` applies a headline style.
 - `.body` applies a body text style.
 - `.caption` applies a caption style.
 - `.footnote` applies a footnote style.
+
+The weight of a font can be edited using the [`.fontWeight()`](https://www.codecademy.com/resources/docs/swiftui/viewmodifier/fontWeight) modifier
 
 ## Example
 
