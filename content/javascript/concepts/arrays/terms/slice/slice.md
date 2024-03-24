@@ -60,7 +60,7 @@ console.log(outOutOffice);
 
 ### Negative Arguments
 
-A negative index can be used, indicating an offset from the end of the sequence. For example:
+A negative index can be used, indicating an offset from the end of the sequence. This causes the array elements to behave as though they are one-indexed, meaning the final element of the array has an index of -1. For example:
 
 ```js
 array.slice(-3, -1);
