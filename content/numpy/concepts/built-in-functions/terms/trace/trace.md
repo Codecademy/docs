@@ -1,0 +1,144 @@
+---
+Title: '.trace()'
+Description: 'Returns the sum of the diagonal elements of a matrix.'
+Subjects:
+  - 'Data Science'
+  - 'Machine Learning'
+Tags:
+  - 'Arrays'
+  - 'Machine Learning'
+  - 'Math'
+  - 'NumPy'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/data-science'
+---
+
+The **numpy.trace()** function returns the sum of the diagonal elements of a matrix. In statistical analysis, the trace of a matrix can be used in various ways, particularly in multivariate statistics and linear algebra.
+
+## Syntax
+
+```py
+numpy.trace(matrix, offset=0, dtype=None, out=None)
+```
+
+The `.trace()` method takes the following arguments:
+
+- `matrix` - the input matrix whose trace needs to be calculated;
+- `offset` (optional) - offset of the diagonal from the main diagonal. The default is 0, which means the main diagonal. A positive value for `offset` moves the diagonal to the right, while a negative value moves it to the left;
+- `dtype` (optional) - determines the data type of the returned trace. If not provided, the data type is inferred from the input matrix;
+- `out`: (optional) - if provided, specifies the output array where the result will be stored instead of creating a new array to store the result.
+
+## Example 1
+
+In this example, a matrix is created and the trace of the matrix is calculated.
+
+```py
+import numpy as np
+
+# Create a 3D matrix.
+matrix = np.array([[1, 2, 3],
+                    [4, 5, 6],
+                    [7, 8, 9]])
+
+# Calculate the trace of the matrix and return an integer value.
+trace_result = np.trace(matrix, dtype=int)
+
+print("Trace Result: ", trace_result)
+```
+
+This example results in the following output:
+
+```shell
+Trace Result: 15
+```
+
+In the above example, the trace of the matrix is the sum of the elements on the main diagonal of matrix (i.e., 1 + 5 + 9 = 15).
+
+## Example 2
+
+This example demonstrates the use of `offset` argument in `.trace()`.
+
+```py
+import numpy as np
+
+# Create a 3D matrix.
+matrix = np.array([[1, 2, 3],
+                    [4, 5, 6],
+                    [7, 8, 9]])
+
+# Calculate the trace of the matrix with offset 1: diagonaling one position to the right.
+trace_result1 = np.trace(matrix, offset=1)
+print("With offset=1: ", trace_result1)
+
+# Calculate the trace of the matrix with offset -1: diagonal one position to the left.
+trace_result2 = np.trace(matrix, offset=-1)
+print("With offset=-1: ", trace_result2)
+```
+
+This example results in the following output:
+
+```shell
+With offset=1: 8
+With offset=-1: 12
+```
+
+- When the offset is set to a *positive* integer, the function will compute the the sum of the diagonal one position to the right.
+- When the offset is set to a *negative* integer, the function will compute the the sum of the diagonal one position to the left.
+
+## Example 3
+
+This example shows the use of `out` argument in `.trace()`.
+
+```py
+import numpy as np
+
+# Create a 3D matrix.
+matrix = np.array([[1, 2, 3],
+                   [4, 5, 6],
+                   [7, 8, 9]])
+
+# Create an empty array to store the result.
+result_array = np.zeros(1, dtype=int)
+
+# Calculate the trace of the matrix with the out argument.
+np.trace(matrix, out=result_array)
+
+print("Matrix:")
+print(matrix)
+print("Trace Result: ", result_array[0])
+```
+
+This example results in the following output:
+
+```shell
+Matrix:
+[[1 2 3]
+ [4 5 6]
+ [7 8 9]]
+Trace Result: 15
+```
+
+An empty array `result_array` of size 1 and integer data type is created to store the result. Finally, the original `matrix` and the calculated trace value (15) are printed.
+
+## Codebyte Example
+
+```codebyte/python
+import numpy as np
+
+# Create a 3D matrix.
+matrix = np.array([[1, 2, 3],
+                   [4, 5, 6],
+                   [7, 8, 9]])
+
+# Define an output array to store the result.
+result_array = np.zeros(1, dtype=int)
+
+# Calculate the trace with offset, specifying output data type, and providing output array.
+np.trace(matrix, offset=1, dtype=float, out=result_array)
+
+# Print the result.
+print("Matrix:")
+print(matrix)
+print("Trace with offset 1:", result_array[0])
+```
