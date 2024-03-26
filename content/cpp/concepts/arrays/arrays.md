@@ -62,7 +62,7 @@ Arrays in C++ have a fixed size, meaning elements can not be added or removed on
 
 ## Uninitialized Elements
 
-It is unwise to attempt to access empty, or uninitialized array elements not be accessed during runtime. For example:
+Array elements that are not assigned a value when the array is created are known as uninitialized, and should not be accessed during runtime. For example:
 
 ```cpp
 int arr[5] = {0, 1, 2}
