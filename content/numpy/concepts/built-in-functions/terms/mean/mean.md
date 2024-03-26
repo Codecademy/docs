@@ -32,7 +32,7 @@ numpy.mean(a, axis=None, dtype=None, out=None, keepdims=<no value>, *, where=<no
 
 - `a`: Array containing numbers whose mean is desired. If a is not an array, a conversion is attempted. The `a` argument is required. All other arguments are optional.
 - `axis`: Axis or axes along which the means are computed. The default is to compute the mean of the flattened array. If this is a tuple of ints, a mean is performed over multiple axes, instead of a single axis or all the axes as before.
-- `dtype`: Type to use in computing the mean. For integer inputs, the default is [float64](https://numpy.org/doc/stable/reference/arrays.scalars.html#numpy.float64); for floating point inputs, it is the same as the input `dtype`. 
+- `dtype`: Type to use in computing the mean. For integer inputs, the default is [float64](https://numpy.org/doc/stable/reference/arrays.scalars.html#numpy.float64); for floating point inputs, it is the same as the input `dtype`.
 - `out`: Alternate output array in which to place the result. The default is **None**; if provided, it must have the same shape as the expected output, but the type will be cast if necessary.
 - `keepdims`: If this is set to **True**, the axes which are reduced are left in the result as dimensions with size one. With this option, the result will broadcast correctly against the input array.
 - `where`: Elements to include in the mean.

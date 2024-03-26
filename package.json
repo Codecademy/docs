@@ -39,5 +39,8 @@
     "prepare": "husky install"
   },
   "license": "UNLICENSED",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "description": "<!-- markdownlint-disable MD041 MD002 -->\r <div align=\"center\">\r   <h1>📕 Docs</h1>\r   <strong>Documentation for popular programming languages and frameworks.</strong><br>\r   <strong>Built by the community. Maintained by Codecademy.</strong>\r </div>\r <br>",
+  "main": ".prettierrc.js",
+  "author": ""
 }
