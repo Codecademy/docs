@@ -123,6 +123,7 @@ Trace Result: 15
 An empty array `result_array` of size 1 and integer data type is created to store the result. Finally, the original `matrix` and the calculated trace value (15) are printed.
 
 ## Codebyte Example
+
 This codebyte example shows the use of `offset`, `dtype`, and `out` arguments in `.trace()`:
 
 ```codebyte/python
