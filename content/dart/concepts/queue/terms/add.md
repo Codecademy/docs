@@ -8,7 +8,7 @@ Tags:
   - 'Dart Operators'
   - 'Queues'
 CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
-  - 'learn-dash'
+  - 'learn-dart'
   - 'paths/dart'
 ---
 
