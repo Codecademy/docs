@@ -58,7 +58,7 @@ In the above example, the trace of the matrix is the sum of the elements on the 
 
 ## Example 2
 
-This example demonstrates the use of `offset` argument in `.trace()`.
+This example demonstrates the use of `offset` argument in `.trace()`:
 
 ```py
 import numpy as np
