@@ -32,7 +32,7 @@ The `.trace()` method takes the following arguments:
 
 ## Example 1
 
-In this example, a matrix is created and the trace of the matrix is calculated.
+In this example, a matrix is created and the trace of the matrix is calculated:
 
 ```py
 import numpy as np
