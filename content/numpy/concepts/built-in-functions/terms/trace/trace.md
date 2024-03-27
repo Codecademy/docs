@@ -1,5 +1,5 @@
 ---
-Title: 'numpy.trace()'
+Title: '.trace()'
 Description: 'Returns the sum of the diagonal elements of a matrix.'
 Subjects:
   - 'Data Science'
