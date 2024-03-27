@@ -89,7 +89,7 @@ With offset=-1: 12
 
 ## Example 3
 
-This example shows the use of `out` argument in `.trace()`.
+This example shows the use of `out` argument in `.trace()`:
 
 ```py
 import numpy as np
