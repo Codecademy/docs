@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **numpy.trace()** function returns the sum of the diagonal elements of a matrix. In statistical analysis, the trace of a matrix can be used in various ways, particularly in multivariate statistics and linear algebra.
+The **`.trace()`** function returns the sum of the diagonal elements of a matrix. In statistical analysis, the trace of a matrix can be used in various ways, particularly in multivariate statistics and linear algebra.
 
 ## Syntax
 
