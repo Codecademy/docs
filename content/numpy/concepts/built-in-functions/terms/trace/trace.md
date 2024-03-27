@@ -25,10 +25,10 @@ numpy.trace(matrix, offset=0, dtype=None, out=None)
 
 The `.trace()` method takes the following arguments:
 
-- `matrix` - the input matrix whose trace needs to be calculated;
-- `offset` (optional) - offset of the diagonal from the main diagonal. The default is 0, which means the main diagonal. A positive value for `offset` moves the diagonal to the right, while a negative value moves it to the left;
-- `dtype` (optional) - determines the data type of the returned trace. If not provided, the data type is inferred from the input matrix;
-- `out`: (optional) - if provided, specifies the output array where the result will be stored instead of creating a new array to store the result.
+- `matrix`: The input matrix whose trace needs to be calculated.
+- `offset` (optional): Offset of the diagonal from the main diagonal. The default is 0, which means the main diagonal. A positive value for `offset` moves the diagonal to the right, while a negative value moves it to the left.
+- `dtype` (optional): Determines the data type of the returned trace. If not provided, the data type is inferred from the input matrix.
+- `out`: (optional): If provided, specify the output array where the result will be stored instead of creating a new array to store the result.
 
 ## Example 1
 
