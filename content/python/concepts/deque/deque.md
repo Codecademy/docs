@@ -14,33 +14,30 @@ CatalogContent:
 
 The deque, short for "double-ended queue," is a data structure in Python that allows for the addition and removal of elements from both ends with high efficiency. It is part of the collections module and is an alternative to the list when frequent insertions and deletions are required at both ends. Deques are particularly useful when you need a queue that allows for fast appends and pops from both sides, or when you need a stack that also supports the same operations.
 
-## Syntax
+# Syntax
 
-from collections import deque
-
-# Initialize a deque with optional iterable and maxlen
+## Initialize a deque with optional iterable and maxlen
 d = deque(iterable=[], maxlen=None)
 
-# Add elements to the right end
+## Add elements to the right end
 d.append(item)
 
-# Add elements to the left end
+## Add elements to the left end
 d.appendleft(item)
 
-# Remove and return the rightmost item
+## Remove and return the rightmost item
 item = d.pop()
 
-# Remove and return the leftmost item
+## Remove and return the leftmost item
 item = d.popleft()
 
-# Rotate the deque n steps to the right
+## Rotate the deque n steps to the right
 d.rotate(n)
 
-In this syntax, deque() creates a new deque object, which can be initialized with an optional iterable and a maximum length. The append() and appendleft() methods add items to the right and left ends, respectively. The pop() and popleft() methods remove items from the corresponding ends. The rotate() method moves elements from one end to the other, effectively rotating the deque.
+In this syntax, deque() creates a new deque object, which can be initialized with an optional iterable and a maximum length. The append() and appendleft() methods add items to the right and left ends, respectively. 
+The pop() and popleft() methods remove items from the corresponding ends. The rotate() method moves elements from one end to the other, effectively rotating the deque.
 
 ## Using deque
-
-from collections import deque
 
 class BrowserHistory:
     def __init__(self):
