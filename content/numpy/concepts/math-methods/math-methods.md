@@ -11,11 +11,12 @@
  numpy. <math_method>
 
 ## Example
-![image](https://github.com/gitsoft145/docs/assets/78934620/8b525a96-0203-4592-b52a-6fc59782487e)
+![image](https://github.com/gitsoft145/docs/assets/78934620/7f0cf44a-f91d-4ef2-95e5-7cb065387980)
 
 
 ## Output
-![image](https://github.com/gitsoft145/docs/assets/78934620/8dab3e27-42bd-476b-877d-1e560a45356e)
+![image](https://github.com/gitsoft145/docs/assets/78934620/cb0b3d5b-7c91-45a5-b301-3d56cce64bb0)
+
 
 
 ## Basic Categories of Math Methods
