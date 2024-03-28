@@ -58,14 +58,14 @@ std::cout << vowels[0];
 
 In the case above, an array of `chars` was initialized with all the vowels, and then the first element in the array at index `0` was printed out. Then the element at index `0` was modified by being assigned a new value of `'r'`, which was then printed out.
 
-Arrays in C++ have a fixed size, meaning elements can not be added or removed once the array has been created. Only existing elements may be modified without changing the total size or shape of the structure.
+Arrays in C++ have a fixed size, meaning elements cannot be added or removed once the array has been created. Only existing elements may be modified without changing the total size or shape of the structure.
 
 ## Uninitialized Elements
 
-Array elements that are not assigned a value when the array is created are known as uninitialized, and should not be accessed during runtime. For example:
+Array elements that are not assigned a value when the array is created are known as uninitialized and should not be accessed during runtime. For example:
 
 ```cpp
-int arr[5] = {0, 1, 2}
+int arr[5] = {0, 1, 2};
 ```
 
 This code will initialise an array of five integers, but the elements at index values 3 and 4 are therefore empty and should not be accessed during a program's runtime.
