@@ -38,7 +38,8 @@ In this syntax, deque() creates a new deque object, which can be initialized wit
 The pop() and popleft() methods remove items from the corresponding ends. The rotate() method moves elements from one end to the other, effectively rotating the deque.
 
 ## Using deque
----
+
+---py
 class BrowserHistory:
     def __init__(self):
         self.history = deque()
@@ -66,6 +67,7 @@ class BrowserHistory:
         else:
             print("No more forward history.")
 ---
+
 ## Example usage:
 browser = BrowserHistory()
 browser.visit("home.html")
