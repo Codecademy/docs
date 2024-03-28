@@ -39,7 +39,7 @@ The pop() and popleft() methods remove items from the corresponding ends. The ro
 
 ## Using deque
 
----py
+```py
 class BrowserHistory:
     def __init__(self):
         self.history = deque()
@@ -66,7 +66,7 @@ class BrowserHistory:
             print(f"Forward to: {self.history[-1]}")
         else:
             print("No more forward history.")
----
+```
 
 ## Example usage:
 browser = BrowserHistory()
