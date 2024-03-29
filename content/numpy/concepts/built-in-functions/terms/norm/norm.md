@@ -3,19 +3,14 @@ Title: 'Matrix Norm'
 Description: 'The Matrix Norm entry explains a mathematical measure used to quantify matrix size and its role in statistical analysis.'
 Subjects:
 - 'Computer Science'
-- 'Statistical Analysis'
 - 'Data Science'
-- 'Numerical Algorithms'
-Tags:
-- 'Statistical Analysis'
+Tags
 - 'NumPy'
-- 'Matrix Operations'
 - 'Machine Learning'
 CatalogContent:
 - 'learn-python-3'
-- 'paths/data scientist
-- 'AI'
-- 'paths/computer science'
+- 'paths/data-science'
+- 'paths/computer-science'
 ---
  
 
