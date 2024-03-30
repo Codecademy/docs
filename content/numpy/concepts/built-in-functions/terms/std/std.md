@@ -17,12 +17,6 @@ The **`.std()`** function returns the standard deviation of the array elements. 
 
 A standard deviation is a statistical measure indicating the spread of a distribution of data, represented by an array, along a specified axis.
 
-The formula for the calculation of **std** is:
-
-    ```tex
-    standard deviation = \sqrt{mean(abs(a - a.mean())^2)}
-    ```
-
 ## Syntax
 
 ```pseudo
