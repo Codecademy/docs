@@ -116,7 +116,6 @@ arr = [[8, 8, 8, 8, 8],
        [15, 10, 32, 9, 8],  
        [27, 6, 63, 4, 8, ],  
        [23, 54, 41, 9, 8]]  
-  
     
 # std of the flattened array  
 print("\nstd of arr, axis = None : ", np.std(arr))  
