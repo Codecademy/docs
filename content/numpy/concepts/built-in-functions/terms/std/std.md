@@ -91,7 +91,7 @@ std of arr :  13.130118049735882
 
 ## Codebyte Example
 
-```py
+```codebyte/python
 import numpy as np 
     
 arr = [[8, 8, 8, 8, 8],   
