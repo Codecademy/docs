@@ -108,13 +108,3 @@ print("\nStandard deviation of arr, when axis = 0 : ", np.std(arr, axis = 0))
 # along the axis = 1  
 print("\nStandard deviation of arr, when axis = 1 : ", np.std(arr, axis = 1)) 
 ```
-
-**Output:**
-
-```shell
-std of arr, axis = None :  16.62310139534738
-
-std of arr, axis = 0 :  [ 7.32717544 19.96872555 19.71040334  2.06155281  0.        ]
-
-std of arr, axis = 1 :  [ 0.          8.93084542 22.27644496 18.03330253]
-```
