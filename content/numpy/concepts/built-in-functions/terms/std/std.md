@@ -89,7 +89,7 @@ More accuracy with float64
 std of arr :  13.130118049735882
 ```
 
-**Example 2:**
+## Codebyte Example
 
 ```py
 import numpy as np 
