@@ -51,22 +51,6 @@ numpy.std(a, axis, dtype, out, ddof, keepdims, where)
 
 > **Note** For complex numbers, `std` takes the absolute value before squaring for a real, nonnegative result.
 
-## Note
-
-The average squared deviation is calculated as **x.sum() / N**, where **N = len(x)**. If `ddof` is specified, the divisor **N - ddof** is used instead. 
-
-- **ddof=1** provides an unbiased estimate of the variance of the infinite population. 
-
-- **ddof=0** provides a maximum estimate of the variance for normally distributed variables. 
-
-However, even with **ddof = 1** it will not be a completely unbiased estimate of the standard deviation due to std being the square root of the estimated variance of the array.
-
-## Note 
-
-For complex numbers, `std` takes the absolute value before squaring, so that the result is always real and non-negative.
-
-For float arrays the std is calculated with equal precision to the input. Hence, the result can be inaccurate. In particular for float32. To improve this, use the `dtype` parameter and specify a higher-accuracy accumulator.
-
 ## Examples
 
 The following shows examples using `.std()` with differing parameters.
