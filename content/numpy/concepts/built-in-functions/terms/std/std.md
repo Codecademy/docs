@@ -23,40 +23,33 @@ A standard deviation is a statistical measure indicating the spread of a distrib
 numpy.std(a, axis, dtype, out, ddof, keepdims, where)
 ```
 
-## Parameters:
+- `a`: Array of elements used to find the standard deviation.
 
-- `a` : The array of elements with which to calculate the std.
+### Optional Parameters:
 
-- `axis`: The axis that the std will be calculated. The default will consider the array to be flattened, works on any axis.
+- `axis`: Specifies the axis along which the standard deviation will be computed. By default, the array is flattened before computation.
 
-    - **axis = 0**: Calculates the std along the vertical axis.
+  - **axis = 0**: Calculates the standard deviation along the vertical axis.
 
-    - **axis = 1**: Calculates the std along the horizontal axis.
+  - **axis = 1**: Calculates the standard deviation along the horizontal axis.
 
-    - **tuple of ints**: Calculates the std along multiple axes.
+  - **tuple of ints**: Calculates the standard deviation along multiple specified axes.
 
-- `dtype`: This is the type of data the std will calculate.
- 
-    - Interger arrays will have the default type of float64.
+- `dtype`: Type used in computing the standard deviation, if specified. By default, for arrays of integer type, it is float64, while for arrays of float types, it matches the array type.
 
-    - Float arrays will be the same as the array type.
+  > **Note** For floating-point inputs, the standard deviation is calculated with the same precision as the input data. This may cause inaccuracies, especially with `np.float32` data type.
 
-- `out`: This dictates the array in which the results will be outputted to. The array must be of the same type as the original array.
+- `out`: Specifies an alternative output array to contain the result. This array must have the same shape as the expected output.
 
-- `ddof`: Means **Delta Degrees of Freedom**. The divisor used in calculations is *N - ddof*, where N represents the number of elements.
+- `ddof`: It stands for _Delta Degrees of Freedom_. It helps adjust the calculation of standard deviation for samples.
 
-    - The default for this parameter = 0
+- `keepdims`: It accepts a boolean value and is used to determine whether to retain the dimensions of the input array in the output. By default, it is set to `False`.
 
-- `keepdims`: If *True* the reduced axes are kept in the result as dimensions of size one. This ensures the result will translate correctly against the input array.
+- `where`: It accepts boolean arrays or conditions where `True` values indicate the indices, or elements within the array for which the standard deviation should be calculated.
 
-If the value is default, `keepdims` will not be passed. Any non-default value will pass thorugh the sub-classes of ndarray. 
+**Returns:** If `out` is `None`, it returns a new array containing the standard deviation. Otherwise, it assigns the result to the specified output array and returns its reference.
 
-An execption will be raised if the sub-classes method doesn't implement `keepdims`.
-
-- `where`: Elements to include in the standard deviation.
-
-**Returns:** 
-- `standard_deviation` : If `out` = None, return a new array containing the standard deviation, otherwise return result to the output array.
+> **Note** For complex numbers, `std` takes the absolute value before squaring for a real, nonnegative result.
 
 ## Note
 
