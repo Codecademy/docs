@@ -51,42 +51,36 @@ numpy.std(a, axis, dtype, out, ddof, keepdims, where)
 
 > **Note** For complex numbers, `std` takes the absolute value before squaring for a real, nonnegative result.
 
-## Examples
+## Example
 
-The following shows examples using `.std()` with differing parameters.
+The following examples demonstrate the use of `.std()` with different parameters.
 
-
-**Example 1:**
+**Example**
 
 ```py
-
 import numpy as np 
     
-# 1D array  
-arr = [23, 54, 19, 45, 34] 
-  
-print("arr : ", arr)  
-print("std of arr : ", np.std(arr)) 
-  
-print ("\nMore precision with float32") 
-print("std of arr : ", np.std(arr, dtype = np.float32)) 
-  
-print ("\nMore accuracy with float64") 
-print("std of arr : ", np.std(arr, dtype = np.float64)) 
+arr = np.array([23, 54, 19, 45, 34])
 
+print("arr : ", arr)
+
+print("\nStandard deviation of arr : ", np.std(arr))
+
+print("\nStandard deviation of arr (float32) : ", np.std(arr, dtype=np.float32))
+
+print("\nStandard deviation of arr (float64) : ", np.std(arr, dtype=np.float64))
 ```
 
 **Output:**
 
 ```shell
 arr :  [23, 54, 19, 45, 34]
-std of arr :  13.130118049735882
 
-More precision with float32
-std of arr :  13.130117
+Standard deviation of arr : 13.130118049735882
 
-More accuracy with float64
-std of arr :  13.130118049735882
+Standard deviation of arr (float32) : 13.130117
+
+Standard deviation of arr (float64) : 13.130118049735882
 ```
 
 ## Codebyte Example
