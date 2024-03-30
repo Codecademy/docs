@@ -99,14 +99,14 @@ arr = [[8, 8, 8, 8, 8],
        [27, 6, 63, 4, 8, ],  
        [23, 54, 41, 9, 8]]  
     
-# std of the flattened array  
-print("\nstd of arr, axis = None : ", np.std(arr))  
+# flattened array  
+print("\nStandard deviation of arr, when axis = None : ", np.std(arr))  
     
-# std along the axis = 0  
-print("\nstd of arr, axis = 0 : ", np.std(arr, axis = 0))  
+# along the axis = 0  
+print("\nStandard deviation of arr, when axis = 0 : ", np.std(arr, axis = 0))  
    
-# std along the axis = 1  
-print("\nstd of arr, axis = 1 : ", np.std(arr, axis = 1)) 
+# along the axis = 1  
+print("\nStandard deviation of arr, when axis = 1 : ", np.std(arr, axis = 1)) 
 ```
 
 **Output:**
