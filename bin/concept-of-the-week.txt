@@ -1,1 +1,1 @@
-content/general/concepts/bot/bot.md
+content/lua/concepts/tables/tables.md
