@@ -39,7 +39,7 @@ Set the position of `.box` element `40px` off the right edge of the nearest rela
   width: 100px;
   background-color: blue;
   position: absolute;
-  top: 40px;
+  right: 40px;
 }
 ```
 
@@ -53,6 +53,6 @@ Set the position of `.box` element `40px` from the elements right edge.
   width: 100px;
   background-color: blue;
   position: relative;
-  top: 40px;
+  right: 40px;
 }
 ```
