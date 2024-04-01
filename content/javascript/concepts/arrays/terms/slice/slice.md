@@ -7,7 +7,6 @@ Subjects:
 Tags:
   - 'Arrays'
   - 'Methods'
-  - 'Elements'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
