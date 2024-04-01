@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.slice()`** [method](https://www.codecademy.com/resources/docs/javascript/methods) in JavaScript is utilized to select a segment of an [array](https://www.codecademy.com/resources/docs/javascript/arrays) and generate a new array from that selection. Importantly, this method creates this partial copy of an array, otherwise known as a _shallow copy_, without altering the original array.
+The **`.slice()`** [method](https://www.codecademy.com/resources/docs/javascript/methods) in JavaScript returns a partial copy of an array, otherwise known as a shallow copy, without altering the original array.
 
 ## Understanding Shallow Copy
 
