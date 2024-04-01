@@ -15,13 +15,7 @@ CatalogContent:
 
 The **`.slice()`** [method](https://www.codecademy.com/resources/docs/javascript/methods) in JavaScript returns a partial copy of an array, otherwise known as a shallow copy, without altering the original array.
 
-## Understanding Shallow Copy
-
-When the `.slice()` method is used, a new array known as a shallow copy is generated. A shallow copy can be imagined as a photo of the original array. This photo (the new array) looks exactly like the original, but it's a separate entity.
-
-The key part is that, if the original array has primitive type elements like numbers or [strings](https://www.codecademy.com/resources/docs/javascript/strings), then changing these items in the new array or the shallow copy won't affect the original array at all, just as modifying a photo doesn't change the original scene.
-
-However, if the original array contains [objects](https://www.codecademy.com/resources/docs/javascript/objects) or arrays, then the shallow copy will reference them rather than duplicating them. Consequently, modifications to the elements in the shallow copy will impact the original array's elements. This happens because both the original and the new array are linked to the same elements, not separate copies of them.
+A shallow copy can be imagined as a photo of the original array. This photo (the new array) looks exactly like the original, but it's a separate entity.
 
 ## Syntax
 
