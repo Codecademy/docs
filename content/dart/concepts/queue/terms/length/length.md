@@ -1,5 +1,5 @@
 ---
-Title: '.length'
+Title: '.length()'
 Description: 'Returns the number of elements in a Dart queue'
 Subjects: 
   - 'Computer Science'
@@ -15,7 +15,15 @@ CatalogContent:
 
 The Dart queue method **`.length`** returns the number of elements in a Dart queue.
 
-## Syntax
+## Syntax 
+
+The syntax for using the `.length` method is:
+
+```psuedo
+queueName.length
+```
+
+## Example
 
 This Dart code creates a queue named `example_queue`, adds five integer elements, and then prints out its length using the print statement:
 
@@ -36,8 +44,8 @@ void main()
 }
 ```
 
-```shell
-The above code will output:
+The above code will give the following output:
 
-    The length of the first queue (example_queue) is: 5
+```shell
+The length of the first queue (example_queue) is: 5
 ```
