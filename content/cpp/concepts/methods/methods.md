@@ -29,10 +29,10 @@ class Person {
 
   public:
     // Defines the method
-    void get_name() {
+    string get_name() {
       return name;
     }
-}
+};
 
 int main() {
   Person robert;
@@ -52,11 +52,11 @@ class Person {
 
   public:
     void get_name();
-}
+};
 
 // Defines the method
 void Person::get_name() {
-  return name;
+  cout << name << endl;
 }
 
 int main() {
@@ -81,10 +81,10 @@ class Person {
       name = newName;
     }
 
-    void get_name() {
+    string get_name() {
       return name;
     }
-}
+};
 
 int main() {
   Person robert;
