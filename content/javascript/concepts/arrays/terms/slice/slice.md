@@ -1,6 +1,6 @@
 ---
 Title: '.slice()'
-Description: 'Creates a partial copy of an array without altering the original array.'
+Description: 'Returns a shallow copy of a part of an array without altering the original array.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
