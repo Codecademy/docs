@@ -1,1 +1,1 @@
-content/general/concepts/geolocation/geolocation.md
+content/lua/concepts/tables/tables.md
