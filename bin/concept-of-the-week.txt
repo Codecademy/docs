@@ -1,1 +1,1 @@
-content/swift/concepts/sets/sets.md
+content/lua/concepts/tables/tables.md
