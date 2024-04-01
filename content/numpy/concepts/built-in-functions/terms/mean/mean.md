@@ -16,11 +16,7 @@ CatalogContent:
 
 ## Definition
 
-The **`.mean()`** function computes the arithmetic mean along the specified axis.
-
-The arithmetic mean is the sum of the elements along the axis divided by the number of elements.
-
-`.mean()` returns the average of the array elements. The average is taken over the flattened array by default, otherwise over the specified axis. [float64](https://numpy.org/doc/stable/reference/arrays.scalars.html#numpy.float64) intermediate and return values are used for integer inputs.
+The **`.mean()`** function calculates and returns the arithmetic mean, i.e. average, of an array of numbers. If the axis are specified, the average is taken over ha axis, and if not the mean is calculated across the flattened array.
 
 ## Syntax
 
@@ -30,12 +26,12 @@ numpy.mean(a, axis=None, dtype=None, out=None, keepdims=<no value>, *, where=<no
 
 `.mean()` provides the following arguments:
 
-- `a`: Array containing numbers whose mean is desired. If a is not an array, a conversion is attempted. The `a` argument is required. All other arguments are optional.
-- `axis`: Axis or axes along which the means are computed. The default is to compute the mean of the flattened array. If this is a tuple of ints, a mean is performed over multiple axes, instead of a single axis or all the axes as before.
-- `dtype`: Type to use in computing the mean. For integer inputs, the default is [float64](https://numpy.org/doc/stable/reference/arrays.scalars.html#numpy.float64); for floating point inputs, it is the same as the input `dtype`.
-- `out`: Alternate output array in which to place the result. The default is **None**; if provided, it must have the same shape as the expected output, but the type will be cast if necessary.
-- `keepdims`: If this is set to **True**, the axes which are reduced are left in the result as dimensions with size one. With this option, the result will broadcast correctly against the input array.
-- `where`: Elements to include in the mean.
+- `a`: It is the array of numbers for which the mean is wanted. This argument is mandatory, but all others are optional. If `a` is not a list, an error will be raised.
+- `axis`: If the axis is given, the mean is computed over the given axis or axes. Otherwise, it is calculated over the flattened array.
+- `dtype`: It is the type which used when the mean is calculated. By default, [float64](https://numpy.org/doc/stable/reference/arrays.scalars.html#numpy.float64) is used for integers, and for floating point inputs, it is the same as the input `dtype`.
+- `out`: This option allows to store the calculated mean directly in an already existing array, instead of creating a new array to hold the result. Also, this optional argument must have the same shape that is expected of the resulted mean.
+- `keepdims`: This argument is **False** by default. Setting it to **True** specifies whether the dimensions that are reduced should be kept in the result.
+- `where`: It clarifies which elements should be included in the mean calcultion.
 
 ## Example
 
