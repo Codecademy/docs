@@ -22,7 +22,10 @@ The `.var()` [function](https://www.codecademy.com/resources/docs/numpy/built-in
 numpy.var(array, axis=None)
 ```
 
-Where `array` is the input array for which the variance needs to be calculated. `axis (optional)` specifies the axis along which the variance is calculated. If `axis` is not provided, the variance is calculated for the entire array. If `axis` is specified,then the variance is calculated along that axis. For a 2D array, if axis=0, the variance is calculated column-wise, and if axis=1, the variance is calculated row-wise.
+- `array`: The array for which the variance is to be calculated.
+- `axis`: An optional parameter that specifies the axis along which the variance is to be calculated.
+
+If `axis` is not provided, the variance is calculated for the entire array. If `axis` is specified, then the variance is calculated along that axis. For a 2D array, if `axis=0`, the variance is calculated column-wise and if `axis=1`, the variance is calculated row-wise.
 
 ## Example
 
