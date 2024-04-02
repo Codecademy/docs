@@ -11,7 +11,6 @@ Tags:
 CatalogContent:
 - 'learn-python-3'
 - 'paths/data-science'
-- 'paths/computer-science'
 ---
  
 
