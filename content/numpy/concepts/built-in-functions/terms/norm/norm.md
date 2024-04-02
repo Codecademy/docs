@@ -26,7 +26,6 @@ CatalogContent:
 
 Description:'The **.norm( )** function in NumPy measures the size of a matrix, aiding in understanding its magnitude. It helps identify differences between matrices, pinpoint predictive errors, manage model complexity, and validate numerical algorithms.'
 =======
-Description: '**Matrix norm**, in statistical analysis, is a mathematical measure that quantifies the size or magnitude of a matrix. It provides a way to evaluate the distance between matrices, assess error in predictive models, regulate model complexity, and analyze convergence properties of numerical algorithms.'
 >>>>>>> 7da0ffe91207dc4e72811838cf35584a5f2ee387
 
 ## Syntax
