@@ -4,9 +4,10 @@ Description: 'The Matrix Norm entry explains a mathematical measure used to quan
 Subjects:
 - 'Computer Science'
 - 'Data Science'
-Tags
+Tags:
+- 'Arrays'
+- 'Functions'
 - 'NumPy'
-- 'Machine Learning'
 CatalogContent:
 - 'learn-python-3'
 - 'paths/data-science'
