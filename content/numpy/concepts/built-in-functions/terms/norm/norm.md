@@ -46,7 +46,7 @@ print("Frobenius norm of the matrix:", frobenius_norm)
 ```
 This produces the following output:
 
-```py
+```shell
 Frobenius norm of the matrix: 5.477225575051661
 ```
 
