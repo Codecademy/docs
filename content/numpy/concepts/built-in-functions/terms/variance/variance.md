@@ -15,7 +15,7 @@ CatalogContent:
   - paths/data-science
 ---
 
-The `.var()` function compute the variance of the given data (array elements) along the specified axis(if any). This value represents the average of the squared differences from the mean and provides a measure of how spread out the values are in the array.
+The `.var()` [function](https://www.codecademy.com/resources/docs/numpy/built-in-functions) computes the variance of the elements of an array along the specified axis (if any). This value represents the average of the squared differences from the mean and provides a measure of how spread out the elements are in the array.
 
 ## Syntax
 
