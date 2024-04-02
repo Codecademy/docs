@@ -1,5 +1,5 @@
 ---
-Title: 'Matrix Norm'
+Title: '.norm()'
 Description: 'The Matrix Norm entry explains a mathematical measure used to quantify matrix size and its role in statistical analysis.'
 Subjects:
 - 'Computer Science'
