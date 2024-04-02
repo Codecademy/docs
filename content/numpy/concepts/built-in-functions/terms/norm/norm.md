@@ -75,7 +75,3 @@ print("1-norm of the vector:", l1_norm)
 print("2-norm of the vector:", l2_norm)
 print("Infinity norm of the vector:", infinity_norm)
 ```
-
-
-
-
