@@ -62,17 +62,17 @@ import numpy as np
 # Define a sample vector
 vector = np.array([3, -4, 5])
 
-# Compute the L1 (Manhattan) norm of the vector
+# Compute the 1-norm of the vector
 l1_norm = np.linalg.norm(vector, ord=1)
 
-# Compute the L2 (Euclidean) norm of the vector
+# Compute the 2-norm of the vector
 l2_norm = np.linalg.norm(vector, ord=2)
 
 # Compute the infinity norm of the vector
 infinity_norm = np.linalg.norm(vector, ord=np.inf)
 
-print("L1 norm of the vector:", l1_norm)
-print("L2 norm of the vector:", l2_norm)
+print("1-norm of the vector:", l1_norm)
+print("2-norm of the vector:", l2_norm)
 print("Infinity norm of the vector:", infinity_norm)
 ```
 
