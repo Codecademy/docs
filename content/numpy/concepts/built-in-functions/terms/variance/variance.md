@@ -45,7 +45,7 @@ print(variance_all)
 variance_axis_0 = np.var(arr, axis=0)
 print(variance_axis_0)
 
-# the variance along axis=1 (row-wise)
+# Calculating the row-wise variance (axis=1)
 variance_axis_1 = np.var(arr, axis=1)
 print(variance_axis_1)
 ```
