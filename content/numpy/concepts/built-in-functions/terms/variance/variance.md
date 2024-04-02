@@ -29,7 +29,7 @@ If `axis` is not provided, the variance is calculated for the entire array. If `
 
 ## Example
 
-The example below creates a 2D array and calculates the overall variance, column-wise variance, and row-wise variance.
+The below example creates a 2D array and calculates the overall variance, column-wise variance, and row-wise variance of the array using the `.var()` function:
 
 ```py
 import numpy as np
