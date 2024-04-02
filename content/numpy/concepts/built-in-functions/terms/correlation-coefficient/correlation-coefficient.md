@@ -1,5 +1,5 @@
 ---
-Title: 'numpy.corrcoef()' 
+Title: 'numpy.correcoef()' 
 Description: 'Calculates the correlation coefficient between 2 one dimentional data points.' 
 Subjects: 
   - 'Data Science'
@@ -16,40 +16,25 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-The `numpy.corrcoef()` function returns a two dimentional array of Pearson correlation coefficients. 
+The `numpy.correcoef()` function returns a two dimentional array of Pearson correlation coefficients. 
 
 ## Syntax
 
 ```psuedo
-numpy.corrcoef(arr1, arr2, mode = 'valid')
+numpy.correcoef(arr1, arr2, mode = 'valid')
 ```
 
-The `numpy.corrcoef()` accepts 3 parameters.  arr1 and arr2 represent the 2 mandatory arrays necessary for calculating the matrix coefficient. Mode is an optional parameter that represents the convolution that happens during the calculation of coefficient variables.  By default it is sent to 'valid', but has 2 other modes of 'same' and 'full'.
-
-## Example
-
-To find the correlation coefficient between 2 arrays:
+The `numpy.correcoef()` accepts 3 parameters.  arr1 and arr2 represent the 2 mandatory arrays necessary for calculating the matrix coefficient. Mode is an optional parameter that represents the convolution that happens during the calculation of coefficient variables.  By default it is sent to 'valid', but has 2 other modes of 'same' and 'full'.
 
 ## Codebyte Example 
 
 ```py
-import numpy as np
+from numpy import correcoef
+cor = correcoef(x, y)
+```
 
-# Importing NumPy Library
-import numpy as np
+Where x and y are two numpy array.  Where cor is an array of 4 values containing correlation coefficients between x and y.
 
-# Input array 1
-arr1 = np.arange(17,54)
-
-# input array 2
-arr2 = np.array([6,14,28,33,54,47,19,43,77,96])
-
-# Using the NumPy corrcoeff() function
-# To calculate Pearson's correlation coefficient
-x = np.corrcoef(arr1,arr2)
-
-# Printing the correlation coefficients:
-print(x)
 
 
 
