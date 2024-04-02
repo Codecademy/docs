@@ -1,18 +1,17 @@
 ---
-Title: .var()
-Description: Computes the variance of the array elements
+Title: '.var()'
+Description: 'Computes the variance of the elements of an array.'
 Subjects:
-  - Computer Science
-  - Data Science
-tags:
-  - Data
-  - Structures
-  - Arrays
-  - Functions
-  - NumPy
+  - 'Computer Science'
+  - 'Data Science'
+Tags:
+  - 'Data Structures'
+  - 'Arrays'
+  - 'Functions'
+  - 'NumPy'
 CatalogContent:
-  - learn-python-3
-  - paths/data-science
+  - 'learn-python-3'
+  - 'paths/data-science'
 ---
 
 The `.var()` [function](https://www.codecademy.com/resources/docs/numpy/built-in-functions) computes the variance of the elements of an array along the specified axis (if any). This value represents the average of the squared differences from the mean and provides a measure of how spread out the elements are in the array.
