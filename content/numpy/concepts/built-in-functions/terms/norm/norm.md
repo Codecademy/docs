@@ -32,11 +32,6 @@ numpy.linalg.norm(a, ord=None, axis=None, keepdims=False)
 
 The following example demonstrates a straightforward usage of the `numpy.linalg.norm()` method to compute the Frobenius norm of a matrix:
 
-- The NumPy library is np.
-- We define a sample matrix matrix using NumPy's array function.
-- We compute the Frobenius norm of the matrix using numpy.linalg.norm function and store the result in the variable frobenius_norm.
-- Finally, we print the computed Frobenius norm of the matrix.
-
 ```py
 import numpy as np
 
