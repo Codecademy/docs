@@ -53,7 +53,7 @@ print(variance_axis_1)
 This produces the following output:
 
 ```shell
-6.666666666666667  
-[6. 6. 6.]  
+6.666666666666667
+[6. 6. 6.]
 [0.66666667 0.66666667 0.66666667]
 ```
