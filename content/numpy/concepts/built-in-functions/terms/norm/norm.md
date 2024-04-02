@@ -13,9 +13,6 @@ CatalogContent:
 - 'paths/data-science'
 ---
  
-
-# Matrix Norm
-
 Description: '**Matrix norm**, in statistical analysis, is a mathematical measure that quantifies the size or magnitude of a matrix. It provides a way to evaluate the distance between matrices, assess error in predictive models, regulate model complexity, and analyze convergence properties of numerical algorithms.'
 
 ## Syntax
