@@ -20,11 +20,13 @@ Description: '**Matrix norm**, in statistical analysis, is a mathematical measur
 ```pseudo
 numpy.linalg.norm(a, ord=None, axis=None, keepdims=False)
 ```
-Parameters of numpy.linalg.norm function:
-- a: The input array for which the norm is computed.
-- ord=None: (Optional) Specifies the order of the norm to compute. Default is None, which computes the Frobenius norm.
-- axis=None: (Optional) Specifies the axis or axes along which to compute the norm. Default is None, which computes the norm over the entire array.
-- keepdims=False: (Optional) Specifies whether to keep the dimensions of the original array in the result. Default is False.
+
+### Parameters
+
+- `a`: The input array for which the norm is computed.
+- `ord=None` (Optional): Specifies the order of the norm to compute. Default is `None`, which computes the _Frobenius norm_ for matrices and _2-norm_ for vectors.
+- `axis=None` (Optional): Specifies the axis or axes along which to compute the norm. Default is `None`, which computes the norm over the entire array.
+- `keepdims=False` (Optional): Specifies whether to keep the dimensions of the original array in the result. Default is `False`.
 
 ## Example
 
