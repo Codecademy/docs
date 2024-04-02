@@ -41,7 +41,7 @@ arr = np.array([[1, 2, 3],[4, 5, 6],[7, 8, 9]])
 variance_all = np.var(arr)
 print(variance_all)
 
-# the variance along axis=0 (column-wise)
+# Calculating the column-wise variance (axis=0)
 variance_axis_0 = np.var(arr, axis=0)
 print(variance_axis_0)
 
