@@ -15,7 +15,11 @@ CatalogContent:
 
 A **user story** is a concise, informal statement that describes an interaction between a [user](https://www.codecademy.com/resources/docs/uiux/user-and-end-user) and a product or service. User stories typically consist of a single sentence, are written in the first person, and use non-technical language to convey the user’s goals and desired outcomes.
 
-Generally, a user story is formatted as follows:  As a [type of user], I [want to], [so that].
+Generally, a user story is formatted as follows:
+
+```plaintext
+As a [type of user], I [want to], [so that].
+```
 
 ## Components and Examples
 
