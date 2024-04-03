@@ -27,11 +27,17 @@ Effective user stories use clear terms to outline the _who_, _what_, and _why_ o
 
 Here are some examples of user stories:
 
-"As a student (who), I want to find available books by subject (what), so that I can study in an effective manner (why).”
+```plaintext
+As a student (who), I want to find available books by subject (what), so that I can study in an effective manner (why).
+```
 
-"As an online shopper (who), I want to filter items by sale price (what), so that I can save money (why).”
+```plaintext
+As an online shopper (who), I want to filter items by sale price (what), so that I can save money (why).
+```
 
-"As a subscriber to a movie portal (who), I want to search for shows by genre (what), so that I can watch what excites me (why)."
+```plaintext
+As a subscriber to a movie portal (who), I want to search for shows by genre (what), so that I can watch what excites me (why).
+```
 
 ## Benefits of User Stories
 
