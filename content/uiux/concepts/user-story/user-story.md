@@ -1,6 +1,6 @@
 ---
 Title: 'User Story'
-Description: 'A user story is a concise, informal statement that describes an interaction between a user and a product or service. '
+Description: 'A user story is a concise, informal statement that describes an interaction between a user and a product or service.'
 Subjects:
   - 'Web Design'
 Tags:
@@ -17,13 +17,14 @@ A **user story** is a concise, informal statement that describes an interaction 
 Generally, a user story is formatted as follows:  As a [type of user], I [want to], [so that].
 
 ## Components and Examples
+
 Effective user stories use clear terms to outline the who, what, and why of an interaction between a user and a product or system. The process begins with identifying an individual user or user group (who). Secondly, a specific action the user expects to complete is detailed (what). Finally, the desired outcome of the interaction is stated (why).
 
-“As a student (who), I want to search for available courses by subject (what), so that I can create an effective study plan (why).”
+“As a student (who), I want to find available books by subject (what), so that I can study in an effective manner (why).”
 
 “As an online shopper (who), I want to filter items by sale price (what), so that I can save money (why).”
 
-“As a subscriber to a news website (who), I want a way to personalize my feed according to my local area (what), so that I can find news most relevant to me (why).”
+“As a subscriber to an entertainment platform (who), I want to search for shows by genre (what), so that I can watch what excites me (why).”
 
 
 ## Benefits of User Stories
