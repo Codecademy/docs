@@ -2,6 +2,7 @@
 Title: 'User Story'
 Description: 'A user story is a concise, informal statement that describes an interaction between a user and a product or service.'
 Subjects:
+  - 'Computer Science'
   - 'Web Design'
 Tags:
   - 'UI'
