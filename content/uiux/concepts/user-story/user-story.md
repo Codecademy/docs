@@ -20,12 +20,11 @@ Generally, a user story is formatted as follows:  As a [type of user], I [want t
 
 Effective user stories use clear terms to outline the who, what, and why of an interaction between a user and a product or system. The process begins with identifying an individual user or user group (who). Secondly, a specific action the user expects to complete is detailed (what). Finally, the desired outcome of the interaction is stated (why).
 
-“As a student (who), I want to find available books by subject (what), so that I can study in an effective manner (why).”
+"As a student (who), I want to find available books by subject (what), so that I can study in an effective manner (why).”
 
-“As an online shopper (who), I want to filter items by sale price (what), so that I can save money (why).”
+"As an online shopper (who), I want to filter items by sale price (what), so that I can save money (why).”
 
-“As a subscriber to an entertainment platform (who), I want to search for shows by genre (what), so that I can watch what excites me (why).”
-
+"As a subscriber to a movie portal (who), I want to search for shows by genre (what), so that I can watch what excites me (why)."
 
 ## Benefits of User Stories
 
