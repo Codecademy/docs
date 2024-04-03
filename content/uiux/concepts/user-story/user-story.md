@@ -23,7 +23,9 @@ As a [type of user], I [want to], [so that].
 
 ## Components and Examples
 
-Effective user stories use clear terms to outline the who, what, and why of an interaction between a user and a product or system. The process begins with identifying an individual user or user group (who). Secondly, a specific action the user expects to complete is detailed (what). Finally, the desired outcome of the interaction is stated (why).
+Effective user stories use clear terms to outline the _who_, _what_, and _why_ of an interaction between a user and a product or system. Here, _who_ indicates an individual user or user group, _what_ points to a specific action that the user or user group expects to complete, and _why_ specifies the desired outcome of the interaction.
+
+Here are some examples of user stories:
 
 "As a student (who), I want to find available books by subject (what), so that I can study in an effective manner (why).”
 
