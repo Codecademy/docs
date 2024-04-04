@@ -13,12 +13,7 @@ CatalogContent:
 - 'paths/data-science'
 ---
  
-<<<<<<< HEAD
-# .norm( )
-
-Description:'The **.norm( )** function in NumPy measures the size of a matrix, aiding in understanding its magnitude. It helps identify differences between matrices, pinpoint predictive errors, manage model complexity, and validate numerical algorithms.'
-=======
->>>>>>> 7da0ffe91207dc4e72811838cf35584a5f2ee387
+The **`.norm( )`** function in NumPy measures the size of a matrix, aiding in understanding its magnitude. It helps identify differences between matrices, pinpoint predictive errors, manage model complexity, and validate numerical algorithms.
 
 ## Syntax
 
