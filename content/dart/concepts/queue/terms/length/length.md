@@ -1,51 +1,51 @@
 ---
 Title: '.length'
-Description: 'Returns the number of elements in a Dart queue'
-Subjects: 
+Description: 'Returns the number of elements in a queue.'
+Subjects:
   - 'Computer Science'
   - 'Code Foundations'
-Tags: 
+Tags:
   - 'Dart'
-  - 'Classes'
   - 'Queues'
-CatalogContent: 
+  - 'Properties'
+CatalogContent:
   - 'learn-dart'
   - 'paths/computer-science'
 ---
 
-The Dart queue method **`.length`** returns the number of elements in a Dart queue.
+In Dart, the **`.length`** property returns the number of elements in a queue.
 
-## Syntax 
-
-The syntax for using the `.length` method is:
+## Syntax
 
 ```psuedo
 queueName.length
 ```
 
+- `queueName`: The name of the queue to be checked.
+
 ## Example
 
-This Dart code creates a queue named `example_queue`, adds five integer elements, and then prints out its length using the print statement:
+The below example creates a queue named `example_queue`, appends five integer elements to it, and calculates its length using the `.length` property:
 
 ```dart
 import 'dart:convert';
 import 'dart:collection';
 
-void main() 
+void main()
 {
-    // Initializing the queue
-    Queue<int> example_queue = Queue<int>();
+  // Initializing a queue
+  Queue<int> example_queue = Queue<int>();
 
-    // Appending elements to the queue
-    example_queue.addAll([1, 3, 5, 2, 0]);
+  // Appending elements to the queue
+  example_queue.addAll([1, 3, 5, 2, 0]);
 
-    // Displaying the queue's length
-    print("The length of the first queue (example_queue) is: ${example_queue.length}");
+  // Calculating the length of the queue
+  print("The length of the queue is: ${example_queue.length}");
 }
 ```
 
 The above code will give the following output:
 
 ```shell
-The length of the first queue (example_queue) is: 5
+The length of the queue is: 5
 ```
