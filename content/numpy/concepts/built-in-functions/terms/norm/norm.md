@@ -41,6 +41,7 @@ frobenius_norm = np.linalg.norm(matrix)
 
 print("Frobenius norm of the matrix:", frobenius_norm)
 ```
+
 This produces the following output:
 
 ```shell
