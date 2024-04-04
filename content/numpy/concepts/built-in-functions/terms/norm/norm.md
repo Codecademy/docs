@@ -20,20 +20,6 @@ The **`.norm( )`** function in NumPy measures the size of a matrix, aiding in un
 ```pseudo
 numpy.linalg.norm(a, ord=None, axis=None, keepdims=False)
 ```
-<<<<<<< HEAD
-### Parameters
-
-
-- `a`: The input array for which the norm is computed.
-- `ord=None` (Optional) Specifies the order of the norm to compute. Default is `None`, which computes the Frobenius norm.
-- `axis=None` (Optional) Specifies the axis or axes along which to compute the norm. Default is `None`, which computes the norm over the entire array.
-- `keepdims=False` (Optional) Specifies whether to keep the dimensions of the original array in the result. Default is `False`.
-
-## Example
-
-The following example demonstrates a straightforward usage of `numpy.linalg.norm` to compute the Frobenius norm of a matrix:
-
-=======
 
 ### Parameters
 
