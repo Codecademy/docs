@@ -57,12 +57,6 @@ import numpy as np
 # Define a sample vector
 vector = np.array([3, -4, 5])
 
-<<<<<<< HEAD
-# Compute the 1-norm (Manhattan) norm of the vector
-l1_norm = np.linalg.norm(vector, ord=1)
-
-# Compute the 2-norm (Euclidean) norm of the vector
-=======
 # Compute the 1-norm of the vector
 l1_norm = np.linalg.norm(vector, ord=1)
 
