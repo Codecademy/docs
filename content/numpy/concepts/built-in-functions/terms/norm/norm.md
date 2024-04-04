@@ -1,13 +1,6 @@
 ---
 Title: '.norm()'
-<<<<<<< HEAD
 Description: 'Computes the magnitude of a matrix, either across the entire array or along a specified axis.'
-Subjects:
-- 'Computer Science'
-- 'Data Science'
-Tags
-=======
-Description: 'The Matrix Norm entry explains a mathematical measure used to quantify matrix size and its role in statistical analysis.'
 Subjects:
 - 'Computer Science'
 - 'Data Science'
