@@ -50,7 +50,6 @@ Frobenius norm of the matrix: 5.477225575051661
 ## Codebyte Example
 
 The following example computes different norms for a vector using `numpy.linalg.norm()` method with various values of the `ord` parameter, including 1-norm (Manhattan), 2-norm (Euclidean), and infinity norm.
->>>>>>> 7da0ffe91207dc4e72811838cf35584a5f2ee387
 
 ```codebyte/python
 import numpy as np
