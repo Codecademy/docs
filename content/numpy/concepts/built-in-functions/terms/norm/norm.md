@@ -5,7 +5,6 @@ Subjects:
 - 'Computer Science'
 - 'Data Science'
 Tags:
->>>>>>> 7da0ffe91207dc4e72811838cf35584a5f2ee387
 - 'Arrays'
 - 'Functions'
 - 'NumPy'
