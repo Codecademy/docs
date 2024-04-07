@@ -1,19 +1,19 @@
 ---
 Title: '.norm()'
-Description: 'Computes the magnitude of a matrix, either across the entire array or along a specified axis.'
+Description: 'Computes the norm of a matrix, either across the entire array or along a specified axis.'
 Subjects:
-- 'Computer Science'
-- 'Data Science'
+  - 'Computer Science'
+  - 'Data Science'
 Tags:
-- 'Arrays'
-- 'Functions'
-- 'NumPy'
+  - 'Arrays'
+  - 'Functions'
+  - 'NumPy'
 CatalogContent:
-- 'learn-python-3'
-- 'paths/data-science'
+  - 'learn-python-3'
+  - 'paths/data-science'
 ---
- 
-The **`.norm( )`** function in NumPy measures the size of a matrix, aiding in understanding its magnitude. It helps identify differences between matrices, pinpoint predictive errors, manage model complexity, and validate numerical algorithms.
+
+In NumPy, the **`.norm()`** [function](https://www.codecademy.com/resources/docs/numpy/built-in-functions) computes the norm of a matrix, either across the entire array or along a specified axis. It helps identify differences between matrices, pinpoint predictive errors, manage model complexity, and validate numerical algorithms.
 
 ## Syntax
 
@@ -21,16 +21,14 @@ The **`.norm( )`** function in NumPy measures the size of a matrix, aiding in un
 numpy.linalg.norm(a, ord=None, axis=None, keepdims=False)
 ```
 
-### Parameters
-
 - `a`: The input array for which the norm is computed.
-- `ord=None` (Optional): Specifies the order of the norm to compute. Default is `None`, which computes the _Frobenius norm_ for matrices and _2-norm_ for vectors.
-- `axis=None` (Optional): Specifies the axis or axes along which to compute the norm. Default is `None`, which computes the norm over the entire array.
-- `keepdims=False` (Optional): Specifies whether to keep the dimensions of the original array in the result. Default is `False`.
+- `ord=None` (Optional): Specifies the order of the norm to compute. The default is `None`, which computes the _Frobenius norm_ for matrices and _2-norm_ for vectors.
+- `axis=None` (Optional): Specifies the axis or axes along which to compute the norm. The default is `None`, which computes the norm over the entire array.
+- `keepdims=False` (Optional): Specifies whether to keep the dimensions of the original array in the result. The default is `False`.
 
 ## Example
 
-The following example demonstrates a straightforward usage of the `numpy.linalg.norm()` method to compute the Frobenius norm of a matrix:
+The following example demonstrates a straightforward usage of the `.norm()` function to compute the _Frobenius norm_ of a matrix:
 
 ```py
 import numpy as np
@@ -50,7 +48,7 @@ Frobenius norm of the matrix: 5.477225575051661
 
 ## Codebyte Example
 
-The following example computes different norms for a vector using `numpy.linalg.norm()` method with various values of the `ord` parameter, including 1-norm (Manhattan), 2-norm (Euclidean), and infinity norm.
+The following example computes different norms for a vector using the `.norm()` function with various values of the `ord` parameter, including _1-norm (Manhattan)_, _2-norm (Euclidean)_, and _infinity norm_:
 
 ```codebyte/python
 import numpy as np
@@ -62,7 +60,6 @@ vector = np.array([3, -4, 5])
 l1_norm = np.linalg.norm(vector, ord=1)
 
 # Compute the 2-norm of the vector
->>>>>>> 7da0ffe91207dc4e72811838cf35584a5f2ee387
 l2_norm = np.linalg.norm(vector, ord=2)
 
 # Compute the infinity norm of the vector
