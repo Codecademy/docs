@@ -1,19 +1,20 @@
 ---
 Title: 'Strings'
-Description: 'This entry covers creating, manipulating and referencing strings (encodings of UTF-8 sequences) in Rust.'
+Description: 'Strings in Rust are encodings of UTF-8 sequences, which can be created, manipulated and referenced.'
 Subjects:
-
-- 'Computer Science'
-- 'Code Foundations'
-  CatalogContent:
-- 'learn-rust'
-- 'paths/computer-science'
-
+  - 'Computer Science'
+  - 'Code Foundations'
+Tags:
+  - 'A tag'
+  - 'A second tag'
+  - 'An nth tag'
+CatalogContent:
+  - 'learn-rust'
+  - 'paths/computer-science'
 ---
 
 **`Strings`** in Rust diverge a little bit from conventional programming languages. The approach to string manipulation
-in Rust is influenced by its systems-focused design. This concept entry will provide insights into creating and
-manipulating strings in Rust, offering practical examples to illustrate key aspects.
+in Rust is influenced by its systems-focused design. There are two types of strings that differ for example in modification, performance of operations and ownership rules.
 
 Tackling data structures of variable size, such as strings, can get a bit tricky, and Rust has its spin on it. In Rust,
 a string is essentially a sequence of Unicode characters encoded in UTF-8. As an example - the string "Codecademy Rust
@@ -44,9 +45,7 @@ In Rust, there are two main types related to strings, each serving a specific pu
      let string_literal: &str = "Hello, Rust!";
      ```
 
-> **Note:** These string types cover various scenarios, from dynamic and mutable strings `String` to static and
-> immutable string slices `&str`. The type of string should be chosen depending on the specific requirements and the
-> characteristics of the data being manipulated.
+> **Note:** These string types cover various scenarios, from dynamic and mutable strings `String` to static and immutable string slices `&str`. The type of string should be chosen depending on the specific requirements and the characteristics of the data being manipulated.
 
 ## Creating Strings
 
@@ -68,30 +67,27 @@ In Rust, there are two main types related to strings, each serving a specific pu
 
 ## String Manipulation
 
-1. **Concatenation**
+### 1. Concatenation
 
-   In Rust, there are multiple ways to concatenate strings depending on the given strings. Here is a list of
-   concatenation operators including examples:
+  In Rust, there are multiple ways to concatenate strings. Here is a list of concatenation operators including examples:
 
-   > **`+` Operator:**
+   **`+` Operator:**
 
-   - **Usage:** concatenating two strings
-   - **Ownership:** takes ownership of the left operand
-   - **Borrowing:** To concatenate with a borrowed string (sliced out of another string using `&str`), it is necessary
-     to explicitly borrow it using the `&` operator.
+   - **Usage:** Concatenating two strings.
+   - **Ownership:** Consumes the left operand.
+   - **Borrowing:** To concatenate with a borrowed string (sliced out of another string using `&str`), it is necessary to explicitly borrow it using the `&` operator.
    - **Example:**
-
      ```rust
      let hello = String::from("Hello, ");
      let world = String::from("World!");
-     let hello_world = hello + &world;  // here takes ownership of 'hello'
+     let hello_world = hello + &world;  // Ownership of 'hello' is moved, 'world' is borrowed
      ```
 
-   > **`+=` Operator:**
+   **`+=` Operator:**
 
-   - **Usage:** in-place concatenation operation
-   - **Ownership:** appends to the existing string
-   - **Borrowing:** It works directly with the mutable reference of the left operand.
+   - **Usage:** In-place concatenation operation.
+   - **Ownership:** Consumes the existing string on the left operand and appends to it.
+   - **Borrowing:** It works directly with the mutable reference of the left operand, but the ownership of the left operand is transferred to the result.
    - **Example:**
 
      ```rust
@@ -101,25 +97,18 @@ In Rust, there are two main types related to strings, each serving a specific pu
      ```
 
    > **`format!` Macro:**
-
-   - **Usage:** creates a new string by formatting text, allowing string interpolation.
+   - **Usage:** Creates a new string by formatting text, allowing string interpolation.
    - **Ownership:** It does not involve ownership transfer and is a convenient way to create strings without borrowing
      or ownership concerns.
    - **Example:**
-
      ```rust
      let hello = String::from("Hello, ");
      let world = String::from("World!");
      let hello_world = format!("{}{}", hello, world);  // Creates a new string without ownership issues
      ```
+   > **Note:** When working with strings in Rust, it's crucial to be mindful of ownership and borrowing semantics, especially when using operators like `+`. The operator `+` is used to create a new string while `+=` is used to modify an existing string in place. To concatenate strings with interpolation the `format!` macro provides a flexible and ownership-friendly way.
 
-   > **Note:** When working with strings in Rust, it's crucial to be mindful of ownership and borrowing semantics,
-   > especially when using operators like `+`. The operator `+` is
-   > used to create a new string while `+=` is used to modify an existing string in place. To concatenate strings with
-   > interpolation the `format!` macro provides a flexible
-   > and ownership-friendly way.
-
-2. **Slicing & Appending with `push_str` and `push`**:
+### 2. Slicing & Appending with `push_str` and `push`:
 
    ```rust
    let mut message = String::from("Rust");
@@ -128,8 +117,7 @@ In Rust, there are two main types related to strings, each serving a specific pu
    let part_of_message = &message[0..5];
    ```
 
-   In the example above, `push_str` is utilized to append a string slice to the existing string `message`, and `push` is
-   used to add the character `!` to the end of the concatenated string.
+   In the example above, `push_str` is used to append a string slice to the existing string `message`, and `push` is used to add the character `!` to the end of the concatenated string.
 
 ## Referencing Strings
 
