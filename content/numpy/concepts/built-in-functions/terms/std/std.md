@@ -25,7 +25,7 @@ numpy.std(a, axis, dtype, out, ddof, keepdims, where)
 
 - `a`: Array of elements used to find the standard deviation.
 
-### Optional Parameters:
+### Optional Parameters
 
 - `axis`: Specifies the axis along which the standard deviation will be computed. By default, the array is flattened before computation.
 
