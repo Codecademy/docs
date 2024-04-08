@@ -55,8 +55,6 @@ numpy.std(a, axis, dtype, out, ddof, keepdims, where)
 
 The following examples demonstrate the use of `.std()` with different parameters.
 
-**Example**
-
 ```py
 import numpy as np 
     
