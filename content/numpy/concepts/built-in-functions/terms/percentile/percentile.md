@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.percentile()`** function returns the Xth percentile of data along a specified axis. 
+The **`.percentile()`** function returns the Xth percentile of data along a specified axis. Percentiles are used in statistics to measure the distribution of data. The Xth percentile is the value below which X percent of the data falls. As an example, the 95th percentile is the value that is greater than exactly 95 percent of the data.
 
 ## Syntax
 
@@ -52,9 +52,9 @@ import numpy as np
 a = np.array([[1,2,3],[4,5,6]])
 
 print(np.percentile(a,50))
-print(np.percentile(b,50,axis=0))
-print(np.percentile(b,[50,75]))
-print(np.percentile(b,[50,75],axis=1))
+print(np.percentile(a,50,axis=0))
+print(np.percentile(a,[50,75]))
+print(np.percentile(a,[50,75],axis=1))
 ```
 
 This prints the following output:
@@ -65,3 +65,34 @@ This prints the following output:
 [3.5 , 4.75]
 [[2. , 5. ],[2.5, 5.5]]
 ```
+
+
+## Codebyte Example
+
+The following example calculates different percentile values for the given array, `a`:
+
+```codebyte/python
+import numpy as np
+
+# Define the array
+a = np.array([[1,2,3],[4,5,6]])
+
+# Compute the 50th percentile over all values
+percentile_50 = np.percentile(a,50)
+
+# Compute the 75th percentile along each row
+percentile_75_row = np.percentile(a,75,axis=1)
+
+# Compute the 75th percentile along each column
+percentile_75_column = np.percentile(a,75,axis=0)
+
+# Compute the 50th, 75th and 90th percentile for all the data
+percentile_multiple = np.percentile(a,[50,75,90])
+
+print("The 50th percentile of all the data is:", percentile_50)
+print("The 75th percentile along each row is:", percentile_75_row)
+print("The 75th percentile along each column is:", percentile_75_column)
+print("The the 50th, 75th and 90th percentiles are:", percentile_multiple)
+
+```
+
