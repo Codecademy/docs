@@ -26,7 +26,7 @@ array.slice(start, end);
 - `start` (optional): The index at which the method will begin copying. If omitted, the process of copying elements starts with the array's first element.
 - `end` (optional): The index before which the method will stop copying. The element located at this index is not copied to the new array.
 
-## Examples
+## Example
 
 ### With Two Arguments
 
