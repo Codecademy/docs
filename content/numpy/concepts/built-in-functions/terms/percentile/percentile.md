@@ -44,7 +44,7 @@ Returns:
 
 ## Example
 
-The following example creates a numpy array and then uses `.percentile()` to calculate various percentiles from the data.
+The following example creates a numpy array and then uses `.percentile()` to calculate various percentiles from the data:
 
 ```py
 import numpy as np
