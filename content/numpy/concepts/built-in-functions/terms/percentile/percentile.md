@@ -23,7 +23,9 @@ The **`.percentile()`** function returns the Xth percentile of data along a spec
 ```pseudo
 numpy.percentile(a, X, axis, out, overwrite_input, method, keepdims)
 ```
+
 Required Parameters:
+
 - `a`: the input data from which the percentile is calculated
 - `X`: a single number of list of numbers representing the percentiles to be calculated
 
