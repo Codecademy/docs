@@ -26,6 +26,7 @@ arrayListInstance.forEach(Consumer<? super E> action);
 ```
 
 This method takes an action of type `Consumer<? super E>` as an input. `Consumer<T>` is a functional interface representing an operation that accepts a single input argument and does not return any value. As a functional interface, it can be used as the assignment target for a lambda expression or method reference.
+
 For this reason, a lambda expression or method reference is often seen to represent the action to be performed inside the `.forEach()` method.
 
 ## Example:
@@ -101,7 +102,7 @@ public class Main {
 
 This code will throw an error:
 
-```
+```shell
 Main.java:13: error: 'void' type not allowed here
     	students.forEach(System.out.println(students.get(0)));
     	                                   ^
