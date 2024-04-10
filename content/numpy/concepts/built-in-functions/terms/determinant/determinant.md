@@ -2,19 +2,19 @@
 Title: '.det()'
 Description: 'Computes the determinant of a square matrix'
 Subjects:
-  -  Computer Science
-  -  Data Science
+  -  'Computer Science'
+  -  'Data Science'
 Tags:
-  -  Linear Algebra
-  -  Arrays
-  -  NumPy
-  -  Functions
+  -  'Linear Algebra'
+  -  'Arrays'
+  -  'NumPy'
+  -  'Functions'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
 ---
 
-The **`.linalg.det()`** function returns the determinant of a given matrix. The `.linalg.det()` function can only be used on square matricies. A determinant of 0 indicates that a matrix does not have an inverse.
+In NumPy, the **`.det()`** [function](https://www.codecademy.com/resources/docs/numpy/built-in-functions) returns the determinant of a given matrix. It's worth noting that this function is specifically intended for use with square matrices, which have an equal number of rows and columns.
 
 ## Syntax
 
@@ -50,6 +50,7 @@ Determinant of 3 x 3 matrix: 0.9999999999999964
 ```
 
 ## Codebyte Example
+
 The following examples demonstrate the use of the `.det()` method.
 
 ```codebyte/python
