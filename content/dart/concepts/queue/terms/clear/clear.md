@@ -16,10 +16,7 @@ CatalogContent:
 
 In Dart, the **`.clear()`** method in Queue removes all elements in the queue. The size of the queue becomes zero.
 
-A brief description of the features of the `.clear()` method:
-- removes all elements in the queue;
-- the method doesn't return anything (`void`);
-- the method doesn't take any arguments.
+The `.clear()` method is a (`void`) method that doesn't return anything and doesn't take any arguments.
 
 ## Syntax
 
