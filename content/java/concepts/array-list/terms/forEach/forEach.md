@@ -1,6 +1,6 @@
 ---
 Title: '.forEach()'
-Description: 'Performs an action on each element of the ArrayList.'
+Description: 'Performs a specified action on each element in an ArrayList.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -9,29 +9,26 @@ Tags:
   - 'Elements'
   - 'Iterators'
   - 'Loops'
-  - 'Functional Programming'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
 ---
 
-The **`.forEach()`** method performs a specified action on each element in an `ArrayList`.
-
-This method traverses each element of the `Iterable` of `ArrayList` until all the elements have been processed or an exception is raised from the action. It only iterates through the elements without modifying the ArrayList. This method does not return any value.
+The **`.forEach()`** [method](https://www.codecademy.com/resources/docs/java/methods) performs a specified action on each element in an `ArrayList`. This method traverses each element in the `ArrayList` until all the elements have been processed or an exception is raised from the action. It only iterates through the elements without modifying the `ArrayList` and does not return any value.
 
 ## Syntax
 
 ```pseudo
-arrayListInstance.forEach(Consumer<? super E> action);
+arrayListInstance.forEach(Consumer<E> action);
 ```
 
-This method takes an action of type `Consumer<? super E>` as an input. `Consumer<T>` is a functional interface representing an operation that accepts a single input argument and does not return any value. As a functional interface, it can be used as the assignment target for a lambda expression or method reference.
+- `arrayListInstance`: The name of the `ArrayList` to be iterated.
+- `Consumer`: A functional [interface](https://www.codecademy.com/resources/docs/java/interfaces) representing an operation to be performed. It can be used as the assignment target for a lambda expression or method reference.
+- `action`: The operation that accepts an element of type `E` in the `ArrayList` as its only argument and does not return any value.
 
-For this reason, a lambda expression or method reference is often seen to represent the action to be performed inside the `.forEach()` method.
+## Example
 
-## Example:
-
-The following example code prints out each element in an `ArrayList` called `students` by calling `.forEach()` on `students` and using the lambda expression `(s) -> System.out.println(s)` as `action`, where the input parameter `s` represents each element in the ArrayList `students`
+The following example uses the `.forEach()` method with a lambda expression to print out the elements in an `ArrayList` called `students`:
 
 ```java
 // Import the ArrayList class from the java.util package
@@ -39,7 +36,7 @@ import java.util.ArrayList;
 
 public class Main {
   public static void main(String[] args) {
-    // Create an ArrayList of strings called "students"
+    // Create an ArrayList of strings called 'students'
     ArrayList<String> students = new ArrayList<>();
 
     students.add("Anna");
@@ -52,7 +49,7 @@ public class Main {
 }
 ```
 
-This will print each student's name in a separate line:
+The above example produces the following output:
 
 ```shell
 Anna
@@ -61,33 +58,43 @@ Chris
 Donna
 ```
 
-Apart from using a lambda expression, each student in the ArrayList can also be printed using a method reference `System.out::println`:
+Apart from using a lambda expression, each student in the `ArrayList` can also be printed out using a method reference:
 
 ```java
-students.forEach(System.out::println);
-```
-
-and the same result is achieved:
-
-```shell
-Anna
-Bailey
-Chris
-Donna
-```
-
-
-The action passed into `forEach()` is meant to be performed on each element of the ArrayList, not the ArrayList itself. Therefore, if an operation is passed into `.forEach()` to be performed on the ArrayList, an error occurs.
-
-For example, in the following code, suppose `.get()` operation is to be performed on `students` to retrieve a student name from the ArrayList and pass this action into `.forEach()`
-
-```java
-// Import the ArrayList class from the java.util package
 import java.util.ArrayList;
 
 public class Main {
   public static void main(String[] args) {
-    // Create an ArrayList of strings called "students"
+    ArrayList<String> students = new ArrayList<>();
+
+    students.add("Anna");
+    students.add("Bailey");
+    students.add("Chris");
+    students.add("Donna");
+
+    students.forEach(System.out::println);
+  }
+}
+```
+
+The output matches with the previous one:
+
+```shell
+Anna
+Bailey
+Chris
+Donna
+```
+
+The operation passed into `.forEach()` is meant to be performed on each element of the `ArrayList`, not the `ArrayList` itself. Therefore, if an operation to be performed on the `ArrayList` is passed into `.forEach()`, an [error](https://www.codecademy.com/resources/docs/java/errors) occurs.
+
+In the following example, the `.get()` operation passed into `.forEach()` is to be performed on `students` to retrieve a student name from the `ArrayList`:
+
+```java
+import java.util.ArrayList;
+
+public class Main {
+  public static void main(String[] args) {
     ArrayList<String> students = new ArrayList<>();
 
     students.add("Anna");
@@ -100,11 +107,11 @@ public class Main {
 }
 ```
 
-This code will throw an error:
+The above code will throw an error:
 
 ```shell
-Main.java:13: error: 'void' type not allowed here
-    	students.forEach(System.out.println(students.get(0)));
-    	                                   ^
+Main.java:12: error: 'void' type not allowed here
+      students.forEach(System.out.println(students.get(0)));
+                                         ^
 1 error
 ```
