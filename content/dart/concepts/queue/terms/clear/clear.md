@@ -13,7 +13,8 @@ CatalogContent:
   - 'learn-dart'
   - 'paths/computer-science'
 ---
-In [`Dart`](<[url](https://www.codecademy.com/resources/docs/dart)>), the **`.clear()`** method in [`Queue`](<[url](https://www.codecademy.com/resources/docs/dart/queue)>) removes all elements in the queue. The size of the queue becomes zero.
+
+In Dart, the **`.clear()`** method in Queue removes all elements in the queue. The size of the queue becomes zero.
 
 A brief description of the features of the `.clear()` method:
 - removes all elements in the queue;
