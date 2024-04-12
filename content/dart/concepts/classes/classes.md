@@ -100,7 +100,7 @@ Following is an example that demonstrates the usage of an abstract method:
 
 ```dart
 abstract class Pet {
-  // Abstract method
+  // Defining an abstract method
   void feed();
 }
 
@@ -119,7 +119,6 @@ class Cat extends Pet {
 }
 
 void main() {
- 
   Dog dog = Dog();
   dog.feed();
 
