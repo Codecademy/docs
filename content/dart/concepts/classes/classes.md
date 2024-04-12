@@ -70,16 +70,12 @@ void main() {
 }
 ```
 
-The output of above example:
+The output for the above example is as follows:
 
-```Shell
-House color: White.
-Number of rooms: 5.
+```shell
+House color: White
+Number of rooms: 5
 ```
-
- - the `House` class has two properties `color` and `numberOfRooms`.
- - the class also has a method called `houseInfo` which will print out the values of the two properties.
- - the `house` object in the main method is an instance of the `House` class.
 
 ## Abstract Classes
 
