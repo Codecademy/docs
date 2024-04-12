@@ -127,13 +127,9 @@ void main() {
 }
 ```
 
-The output of above example:
+The above code will produce the following output:
 
-```Shell
+```shell
 Feeding dog...
 Feeding cat...
 ```
-
- - In the example, the abstract class `Pet` has an abstract method called `feed()`. 
- - The non-abstract subclasses `Dog` and `Cat` inherit the abstract method and overrides it to print a message.
-   
