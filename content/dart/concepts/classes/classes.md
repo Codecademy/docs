@@ -79,7 +79,7 @@ Number of rooms: 5
 
 ## Abstract Classes
 
-In Dart, a class can be declared an abstract class by using the `abstract` keyword. If a class is declared abstract, new objects cannot be instantiated from that class. An abstract class' purpose is to allow other classes to inherit from it.
+In Dart, a class can be declared as an abstract class using the `abstract` keyword. If a class is declared abstract, new objects cannot be instantiated from that class. The purpose of an abstract class is to allow other classes to inherit from it.
 
 A class can be declared abstract using the following syntax:
 
