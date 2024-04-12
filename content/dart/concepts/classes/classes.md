@@ -1,18 +1,16 @@
 ---
 Title: 'Classes'
-Description: 'A class is a blueprint for creating objects'
+Description: 'A class is a blueprint for creating objects.'
 Subjects:
   - 'Computer Science'
+  - 'Code Foundations'
 Tags:
+  - 'Dart'
   - 'Classes'
-  - 'Constructors'
-  - 'Data Types'
-  - 'Inheritance'
-  - 'Methods'
   - 'Objects'
-  - 'OOP'
+  - 'Methods'
 CatalogContent:
-  - 'learn/intro-to-flutter'
+  - 'learn-dart'
   - 'paths/computer-science'
 --- 
 
