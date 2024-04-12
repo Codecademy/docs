@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/computer-science'
 --- 
 
-In Dart, **classes** are blueprints for creating objects. Classes are an integral part of [object-oriented programming](https://www.codecademy.com/resources/docs/general/programming-paradigms/object-oriented-programming) (OOP). They define the methods, properties, and behavior of objects. A Phone class for example, may have properties like color and brand as well as methods like call or text. 
+In Dart, **classes** are a blueprint for creating objects. They are an integral part of [object-oriented programming (OOP)](https://www.codecademy.com/resources/docs/general/programming-paradigms/object-oriented-programming). They define the methods, properties, and behavior of objects. For example, a class named `Phone` may have properties like `.color` and `.brand` as well as methods like `.call()` and `.text()`.
 
 ## Syntax
 
