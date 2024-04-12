@@ -96,7 +96,9 @@ abstract class ClassName {
 In Dart, an abstract method is defined as a method that is declared without implementation. Instead of a method body, an abstract method is declared using a semicolon (;).
 A non-abstract subclass that inherits from an abstract class must implement and overide all of its abstract methods.
 
-## Example
+### Example
+
+Following is an example that demonstrates the usage of an abstract method:
 
 ```dart
 abstract class Pet {
