@@ -20,17 +20,16 @@ In Dart, **classes** are a blueprint for creating objects. They are an integral 
 
 ## Syntax
 
-```dart
+```pseudo
 class ClassName {
-  // class body
-  // properties
-  // methods
+  // Class body
+  // Properties
+  // Methods
 }
 ```
 
- - The `class` keyword is used to create a class.
- - The class body encompasses the properties and methods of a class.
- - The name of the class "`ClassName`" comes after the keyword followed by braces. **Note:** Class names must start with a capital letter.
+- `class`: The keyword that is used to create a class.
+- `ClassName`: The name of the class to be defined. It always starts with a capital letter.
 
 ## Class Instances
 
