@@ -34,15 +34,15 @@ class ClassName {
 
 ## Class Instances
 
-In Dart, an object is an instance of class. An object is comprised of methods and properties. Objects are instantiated in the main method and can only be created after creating a class. 
+In Dart, an object is an instance of a class that consists of properties and methods. It can only be created after creating a class.
 
-A new object can be created by using the following syntax below:
+A new object of a particular class can be created using the following syntax:
 
-## Syntax
-
-```dart
+```pseudo
 ClassName objectName = ClassName();
 ```
+
+- `objectName`: The name of the object to be created.
 
 ## Example
 
