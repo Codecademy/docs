@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-In NumPy, the **`.det()`** [function](https://www.codecademy.com/resources/docs/numpy/built-in-functions) computes the determinant of a square matrix. It's worth noting that this function is specifically intended to be used with square matrices, which have an equal number of rows and columns.
+In NumPy, the **`.det()`** function computes the determinant of a square matrix. It's worth noting that this function is specifically intended to be used with square matrices, which have an equal number of rows and columns.
 
 ## Syntax
 
