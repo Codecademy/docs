@@ -50,19 +50,19 @@ Here is an example that creates an object of a specific class:
 
 ```dart
 class House {
-// properties
+// Defining properties
   String? color;
   int? numberOfRooms;
 
-// method
+// Defining a method
 void houseInfo() {
-  print("House color: $color.");
-  print("Number of rooms: $numberOfRooms.");
+  print("House color: $color");
+  print("Number of rooms: $numberOfRooms");
   }
 }
 
 void main() {
-  // object
+  // Creating an object of the `House` class
   House house = House();
   house.color = "White";
   house.numberOfRooms = 5;
