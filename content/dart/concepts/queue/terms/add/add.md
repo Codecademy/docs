@@ -1,31 +1,55 @@
 ---
-Title: '.add()' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'A Dart method to append or concatenate two strings.' 
-Subjects: 
-  - 'Developer Tools'
+Title: '.add()'
+Description: 'Inserts a specified element to the end of a queue.'
+Subjects:
+  - 'Computer Science'
   - 'Code Foundations'
 Tags:
-  - 'Dart Operators'
+  - 'Dart'
   - 'Queues'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+  - 'Methods'
+CatalogContent:
   - 'learn-dart'
-  - 'paths/dart'
+  - 'paths/computer-science'
 ---
 
-Dart allows the user to append or concatenate a string and add it to the end of an existing string using the **.add()** method. Since Dart strings are immutable (unable to be changed once created), the .add() method creates a new string rather than modifying the original string.
+In Dart, the **`.add()`** method is used to insert a specified element to the end of a queue. This method is part of the `Queue` class under the `dart:collection` library.
 
 ## Syntax
 
-The .add() syntax within Dart is specifically related to the 'String' class.
+```pseudo
+queue.add(element);
+```
+
+- `queue`: The name of the queue to which a value is to be inserted.
+- `element`: The value to be inserted.
 
 ## Example
-In this example we are attempting to create a standard "Hello, World!" message. Unfortunately we forgot the second part of the message and will need to append the original string so it is correct. We can do this using the following code example.
 
-```dart 
+The following example demonstrates the usage of the `.add()` method:
+
+```dart
+import 'dart:collection';
+
 void main() {
-  String startingString = "Hello, ";
-  String fogottenString = "World!";
-  String correctString = startingString.add(forgottenString);
-  print(combinedString); // Output = intended  "Hello, World!" instead of the orignal mistake of "Hello, "
+  Queue values = new Queue();
+
+  values.add(12);
+  values.add(24);
+  values.add(36);
+  values.add(48);
+
+  for(var num in values) {
+    print(num);
+  }
 }
+```
+
+The output for the above code is as follows:
+
+```shell
+12
+24
+36
+48
 ```
