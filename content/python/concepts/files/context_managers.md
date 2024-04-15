@@ -50,3 +50,61 @@ class bonus:
 with bonus('John', 'Smith', 3789,100000,5) as john_smith_bonus:
   print('Letter printed!')
   ```
+
+Result:
+```py
+FROM: HR DEPT. 
+TO: John Smith 
+Emp. ID: 3789
+
+Dear John!
+
+We value all our employees and are committed to their growth and well-being. We would like to thank you for your amazing work throughout this whole year.
+You will receive in addition to your December salary a yearly bonus that amounts to $5000.
+Again, allow us to thank you for all your efforts and to wish you all the best, for you and your family.
+
+Sincerely yours, 
+Your HR department
+```
+  
+### Decorator-based approach
+
+In this approach, rather than a class we define a generator function (i.e. a function performing a *yield* and not a *return*). This function should be *decorated* using **@contextmanager** from the built-in module **contextlib**:
+
+```py
+from contextlib import contextmanager
+```
+
+A decorator-based context manager is also using the user input in the form of parameters provided at the instantiation. It follows the syntax *try-except-finally*, *try* being the part where the *yield* statement is and the core operations are done, *except* the exceptions handling part, and *finally* the part where the resources are closed, essentially.
+
+The below code shows an implementation of a decorator-based context manager thanks to which interview proposals are sent to pre-selected candidates. We also can (but don't have to) introduce some personalized element in the indented block. If doing so this element will be placed just before the timeslot proposal.
+
+```py
+@contextmanager
+def interview_proposal(title_name, position, date, time):
+  proposal_letter = open(title_name+'_interview_proposal.txt','w')
+  try:
+    proposal_letter.write('Dear '+title_name + ',\n\n')
+    proposal_letter.write('Thanks a lot for being interested in working with us! We reviewed your application for the '+position+ ' role and we want to schedule a first visio interview with you.')
+    yield proposal_letter
+  except:
+    print('Exception handled!')
+  finally:
+    proposal_letter.write('Would you be available on '+date+ ' at '+time+'?\n\n')
+    proposal_letter.write('We look forward for hearing from you again! \nThe HR dept.')
+    proposal_letter.close()
+    
+  
+with interview_proposal('Mr. Smith', 'Software Developer', 'Monday the 10th of June', '2 pm') as proposal_smith:
+  proposal_smith.write(' We are especially interested by your latest experience as a project leader for a wealth management software. ')
+```
+
+Result:
+```py
+Dear Mr. Smith,
+
+Thanks a lot for being interested in working with us! We reviewed your application for the Software Developer role and we want to schedule a first visio interview with you. We are especially interested by your latest experience as a project leader for a wealth management software. Would you be available on Monday the 10th of June at 2 pm?
+
+We look forward for hearing from you again! 
+The HR dept.
+```
