@@ -63,7 +63,7 @@ Two matrices:
 
 ## Codebyte Example
 
-Here is a codebyte example for the `.inv()` function:
+Run the following codebyte example of the `.inv()` function, to better understand its working:
 
 ```codebyte/py
 import numpy as np
