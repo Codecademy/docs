@@ -122,8 +122,8 @@ def interview_proposal(title_name, position, date, time):
     proposal_letter.close()
 
 with interview_proposal('Mr. Smith', 'Software Developer', 'Monday the 10th of June', '2 pm') as proposal_smith:
-  proposal_smith.write(' We are especially interested by your latest experience as a project leader 
-  \for a wealth management software. ')
+  proposal_smith.write(' We are especially interested by your latest experience as a project leader \
+  for a wealth management software. ')
 ```
 
 Result:
