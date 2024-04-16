@@ -75,4 +75,4 @@ array =  np.array([[2., 4.], [1., 2.]])
 print(np.linalg.inv(array))
 ```
 
-> **Note:** The [function](https://www.codecademy.com/resources/docs/numpy/built-in-functions) raises an `LinAlgError` as a singular matrix can't be inverted.
+> **Note:** The `.inv()` function raises an `LinAlgError` when a singular matrix is passed for inversion, as it can't be inverted.
