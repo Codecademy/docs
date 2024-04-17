@@ -29,7 +29,7 @@ WHERE {
 
 As seen above, variables in SPARQL begin with the character `?`.
 
-A query pattern either matches or does not match any given RDF triple. There is a match if, and only if, there is a triple within the query pattern that shares all the same terms with the other triple, with the exception of any variables. Examples to illustrate this concept are given below.
+A query pattern either matches or does not match any given RDF triple. There is a match if, and only if, there is a triple within the query pattern that shares all the same terms with the other triple, with the exception of any variables.
 
 The following triple matches the example query pattern given above:
 
