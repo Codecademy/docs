@@ -1,5 +1,5 @@
 ---
-Title: 'Length'
+Title: '.length'
 Description: 'Returns an integer specifying the number of characters in a string.'
 Subjects:
   - 'Web Development'
@@ -15,7 +15,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.length`** property in Dart returns an integer specifying the number of characters in a string (including spaces).
+The `.length` property in Dart strings returns the number of characters, including emojis and special symbols. Characters are measured in Unicode _UTF-16 code units_.
+
+> **Note:** The _UTF-16 code units_ refer to the number of 16-bit values used to encode the characters in the string.
 
 ## Syntax
 
@@ -23,21 +25,18 @@ The **`.length`** property in Dart returns an integer specifying the number of c
 String.length;
 ```
 
-## Example
+## Examples
 
-Here is an example of how to use `length` in Dart:
+The following example demonstrates the use of `.length` property:
 
 ```dart
 void main() {
-
-   // Declaring a string variable called "str"
-   String str = "I love Codecademy";
-   
-   // String length
-   int codecademy = str.length;
-
-   // Print length
-   print(codecademy);
+  String firstString = "I love Codecademy";
+  String secondString = "I love Codecademy😍";
+  int lengthOfFirstString = firstString.length;
+  int lengthOfSecondString = secondString.length;
+  print(lengthOfFirstString);
+  print(lengthOfSecondString);
 }
 ```
 
@@ -45,17 +44,24 @@ The above code gives the following output:
 
 ```shell
 17
+19
 ```
 
-## Empty string
+> **Note:** The emoji `😍` takes 2 UTF-16 units.
 
-The `length` of an empty string will always be zero:
+The following example computes the length of an empty string:
 
 ```dart
 void main() {
 
-   String str = "";
-   int len = str.length;
-   print(len); // Output: 0
+   String emptyString = "";
+   int lengthOfEmptyString = emptyString.length;
+   print(lengthOfEmptyString);
 }
+```
+
+The above code gives the following output:
+
+```shell
+0
 ```
