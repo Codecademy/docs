@@ -162,8 +162,10 @@ print(resultDynamic);  // Outcome: Error
 print(resultStatic);   // Output: 52
 ```
 
-## Comparison of Data Types in different Languages
-This is a table of Data Types to compare different Types in different languages with Dart.
+## Comparison of Data Types in Different Languages
+
+The following table compares the data types in Dart with the data types in other languages:
+
 | Data Type  | Dart | Kotlin | Java | Swift |
 |:-:|:-:|:-:|:-:|:-:|
 | Integers | ```int``` | ```Int``` | ```int, byte, short, long``` |  ```Int, Int8, Int16, Int32, Int64``` |
