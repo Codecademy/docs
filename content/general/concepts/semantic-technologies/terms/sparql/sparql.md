@@ -2,6 +2,7 @@
 Title: 'SPARQL'
 Description: 'A language for querying RDF data.'
 Subjects:
+  - 'Computer Science'
   - 'Data Science'
 Tags:
   - 'Data'
