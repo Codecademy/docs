@@ -209,9 +209,9 @@ A **solution modifier** is a clause that changes the final output of a SPARQL qu
 
 Some important types of solution modifiers are given below.
 
-- `ORDER BY`: alters the order of a solution. `DESC` can be used to place solutions in a descending order based on a given variable, otherwise the default order is ascending.
+- `ORDER BY`: Alters the order of a solution. `DESC` can be used to place solutions in a descending order based on a given variable, otherwise the default order is ascending.
   - Example: `ORDER BY DESC(?x)`
-- `LIMIT`: limits the number of values returned for a solution.
+- `LIMIT`: Limits the number of values returned for a solution.
   - Example: `LIMIT 15`
-- `OFFSET`: skips a certain number of values for a solution (only used together with `ORDER BY`).
+- `OFFSET`: Skips a certain number of values for a solution (only used together with `ORDER BY`).
   - Example: `OFFSET 5`
