@@ -1,6 +1,6 @@
 ---
 Title: 'Julia'
-Description: 'Julia stands out as an advanced programming language tailored for technical computing, boasting both high-level functionality and top-notch performance. Its inception aimed to bridge the gap between the user-friendliness of dynamic languages like Python and the swiftness found in statically-typed languages such as C or Fortran.'
+Description: 'Julia distinguishes itself as an advanced programming language designed for technical computing, featuring high-level functionality and top-notch performance. Its creation aimed to bridge the gap between the user-friendliness of dynamic languages like Python and the speed found in statically-typed languages such as C or Fortran.'
 ---
 
-Julia stands out as an advanced programming language tailored for technical computing, boasting both high-level functionality and top-notch performance. Its inception aimed to bridge the gap between the user-friendliness of dynamic languages like Python and the swiftness found in statically-typed languages such as C or Fortran.
+Julia is an advanced programming language tailored for technical computing, offering high-level functionality and top-notch performance. Its creation aimed to bridge the gap between the user-friendliness of dynamic languages like Python and the speed found in statically-typed languages such as C or Fortran.
