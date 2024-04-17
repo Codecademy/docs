@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science-nlp'
 ---
 
-**SPARQL Protocol and RDF Query Language (SPARQL)** is a language used to retrieve and manipulate data stored in [RDF](https://www.codecademy.com/resources/docs/general/semantic-technologies/rdf). Below is a summary of some central of the central features of SPARQL.
+**SPARQL Protocol and RDF Query Language (SPARQL)** is a language used to retrieve and manipulate data stored in [RDF](https://www.codecademy.com/resources/docs/general/semantic-technologies/rdf).
 
 ## Query Patterns
 
