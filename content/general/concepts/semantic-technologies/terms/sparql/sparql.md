@@ -21,7 +21,7 @@ A **query pattern** is a set of RDF triples with one or more terms in each tripl
 
 A query pattern is introduced with the keyword `WHERE`. The following is an example of a query pattern with a variable as the object term:
 
-```
+```pseudo
 WHERE {
   <http://books.com/books#pachinko> <http://document-ontology.org/ontology#hasAuthor> ?x
 }
