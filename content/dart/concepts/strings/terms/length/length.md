@@ -1,12 +1,12 @@
 ---
 Title: '.length'
-Description: 'Returns an integer specifying the number of characters in a string.'
+Description: 'Returns the number of characters within the string'
 Subjects:
   - 'Web Development'
+  - 'Mobile Development'
   - 'Computer Science'
   - 'Code Foundations'
 Tags:
-  - 'Length'
   - 'Dart'
   - 'Strings'
   - 'Properties'
@@ -33,34 +33,37 @@ The following example demonstrates the use of `.length` property:
 void main() {
   String firstString = "I love Codecademy";
   String secondString = "I love Codecademy😍";
+
   int lengthOfFirstString = firstString.length;
   int lengthOfSecondString = secondString.length;
+
   print(lengthOfFirstString);
   print(lengthOfSecondString);
 }
 ```
 
-The above code gives the following output:
+The above code produces the following output:
 
 ```shell
 17
 19
 ```
 
-> **Note:** The emoji `😍` takes 2 UTF-16 units.
+> **Note:** The emoji `😍` takes 2 _UTF-16 code units_.
 
 The following example computes the length of an empty string:
 
 ```dart
 void main() {
-
    String emptyString = "";
+
    int lengthOfEmptyString = emptyString.length;
+
    print(lengthOfEmptyString);
 }
 ```
 
-The above code gives the following output:
+The above code produces the following output:
 
 ```shell
 0
