@@ -7,4 +7,4 @@ CatalogContent:
   - 'paths/design-databases-with-postgresql'
 ---
 
-PostgreSQL, otherwise known as Postgres, is an advanced [relational database](https://www.codecademy.com/resources/docs/general/database/relational-database) management system that emphasizes flexibility and [SQL](https://www.codecademy.com/resources/docs/sql) compliance. It is available for use on all major operating systems, including Windows, Linux, macOS, OpenBSD, and FreeBSD. It is capable of handling a variety of workloads, ranging from single computers to data warehouses with numerous concurrent users.
+PostgreSQL, alternatively known as Postgres, stands as an advanced [relational database](https://www.codecademy.com/resources/docs/general/database/relational-database) management system that prioritizes flexibility and [SQL](https://www.codecademy.com/resources/docs/sql) compliance. It's accessible across all major operating systems, encompassing Windows, Linux, macOS, OpenBSD, and FreeBSD. The system adeptly manages diverse workloads, from single computers to data warehouses supporting numerous concurrent users.
