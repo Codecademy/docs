@@ -190,7 +190,7 @@ WHERE {
 
 The query will first match the data to the pattern above the `FILTER` clause, and then further restrict those matches based on the content of the filter.
 
-### Functions and Operators within Filters
+### Functions and Operators Within Filters
 
 SPARQL includes many functions and operators that can be used within a `FILTER` clause to create boolean expressions. Some examples are given below.
 
