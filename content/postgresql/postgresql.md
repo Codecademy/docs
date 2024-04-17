@@ -1,6 +1,6 @@
 ---
 Title: 'PostgreSQL'
-Description: 'PostgreSQL is an advanced, open-source relational database management system.'
+Description: 'PostgreSQL represents an advanced open-source relational database management system.'
 Codecademy Hub Page: 'https://www.codecademy.com/catalog/language/postgresql'
 CatalogContent:
   - 'getting-started-off-platform-for-data-science'
