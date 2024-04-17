@@ -207,7 +207,7 @@ SPARQL includes many functions and operators that can be used within a `FILTER` 
 
 A **solution modifier** is a clause that changes the final output of a SPARQL query. Solution modifiers are applied outside of the query pattern to the set of matching solutions from that query pattern, altering the final data returned to the user.
 
-Some important types of solution modifiers are given below.
+Some important types of solution modifiers are given below:
 
 - `ORDER BY`: Alters the order of a solution. `DESC` can be used to place solutions in a descending order based on a given variable, otherwise the default order is ascending.
   - Example: `ORDER BY DESC(?x)`
