@@ -194,13 +194,13 @@ The query will first match the data to the pattern above the `FILTER` clause, an
 
 SPARQL includes many functions and operators that can be used within a `FILTER` clause to create boolean expressions. Some examples are given below:
 
-- Arithmetic functions and logical operators: for example `=`, `!=` (inequality), `>`, `>=`, `+`, `*`, `||` (logical OR), and `&&` (logical AND).
+- Arithmetic functions and logical operators: For example, `=`, `!=` (inequality), `>`, `>=`, `+`, `*`, `||` (logical OR), and `&&` (logical AND).
   - Example: `FILTER (?x >= ?y * ?z)`
-- `IN` and `NOT IN`: test whether a value is contained within a list of other values.
+- `IN` and `NOT IN`: Tests whether a value is contained within a list of other values.
   - Example: `FILTER (?x IN (13, 14, 15))
-- `CONTAINS`: tests whether a string is contained within another string.
+- `CONTAINS`: Tests whether a string is contained within another string.
   - Example: `FILTER (CONTAINS("gmail.com", ?x))`
-- `CONCAT`: concatenates multiple strings together.
+- `CONCAT`: Concatenates multiple strings together.
   - Example: `FILTER (CONTAINS(CONCAT(?x , ".com"), ?y))`
 
 ## Solution Modifiers
