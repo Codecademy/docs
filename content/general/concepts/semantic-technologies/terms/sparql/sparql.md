@@ -192,7 +192,7 @@ The query will first match the data to the pattern above the `FILTER` clause, an
 
 ### Functions and Operators Within Filters
 
-SPARQL includes many functions and operators that can be used within a `FILTER` clause to create boolean expressions. Some examples are given below.
+SPARQL includes many functions and operators that can be used within a `FILTER` clause to create boolean expressions. Some examples are given below:
 
 - Arithmetic functions and logical operators: for example `=`, `!=` (inequality), `>`, `>=`, `+`, `*`, `||` (logical OR), and `&&` (logical AND).
   - Example: `FILTER (?x >= ?y * ?z)`
