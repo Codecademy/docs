@@ -142,7 +142,7 @@ WHERE {
 
 This results in the following output:
 
-```
+```shell
 @base <http://books.com/books#>.
 @prefix doc: <http://document-ontology.org/ontology#>.
 
