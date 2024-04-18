@@ -93,7 +93,7 @@ This results in the below output:
 
 The special character `*` can be used to return the values matching all variables in the query pattern:
 
-```
+```sparql
 PREFIX doc: <http://document-ontology.org/ontology#>
 SELECT *
 WHERE {
