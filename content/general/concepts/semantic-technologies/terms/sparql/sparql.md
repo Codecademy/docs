@@ -33,7 +33,7 @@ A query pattern either matches or does not match any given RDF triple. There is 
 
 For instance, the following triple matches the example query pattern given above:
 
-```
+```pseudo
 <http://books.com/books#pachinko> <http://document-ontology.org/ontology#hasAuthor> <https://www.minjinlee.com/about>.
 ```
 
