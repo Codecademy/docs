@@ -101,7 +101,7 @@ WHERE {
 }
 ```
 
-This results in the output:
+The above query produces the following output:
 
 |?x|?y|
 |:-:|:-:|
