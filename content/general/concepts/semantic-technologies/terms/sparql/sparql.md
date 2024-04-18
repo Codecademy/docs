@@ -109,7 +109,7 @@ The above query produces the following output:
 |doc:title|"A Gesture Life"|
 |doc:soldCopies|87740|
 
-### `ASK`
+### ASK
 
 An **`ASK`** query returns a value of `true` or `false`. If there are triples in the RDF data matching the query pattern, `true` will be returned. Otherwise, `false` will be returned.
 
