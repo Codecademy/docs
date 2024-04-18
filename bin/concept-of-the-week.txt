@@ -1,1 +1,1 @@
-content/c-sharp/concepts/inheritance/inheritance.md
+content/uiux/concepts/visual-design/visual-design.md
