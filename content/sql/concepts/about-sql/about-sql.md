@@ -71,7 +71,8 @@ CREATE TABLE cars (
 
 ## Different Databases and Query Languages
 
-Different Database Management Systems (DBMS) use different variations of standard SQL, and each DBMS offers different advantages over other DBMS for different use cases. The Most common DBMS in use today is Microsfoft SQL Server (MSSQL), which utilizes Transact-SQL (T-SQL), Microsoft's proprietary SQL  variant.
+Different Database Management Systems (DBMS) use different variations of standard SQL, and each DBMS offers different advantages over other DBMS for different use cases. The Most common DBMS in use today is Microsfoft SQL Server (MSSQL), which utilizes Transact-SQL (T-SQL), Microsoft's proprietary SQL variant.
+
 - SQL Server (T-SQL)
 - MySQL (Standard SQL)
 - SQLite (Nonstandard SQL Variant)
