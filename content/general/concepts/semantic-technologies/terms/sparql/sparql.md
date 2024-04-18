@@ -130,7 +130,7 @@ A **`CONSTRUCT`** query returns a set of triples based on the query pattern and 
 
 For example, the following `CONSTRUCT` query would return a set of triples asserting that each object in the RDF data is a book:
 
-```
+```sparql
 PREFIX doc: <http://document-ontology.org/ontology#>
 CONSTRUCT {
   ?x rdf:type doc:isBook
