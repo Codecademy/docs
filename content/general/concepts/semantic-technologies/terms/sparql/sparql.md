@@ -39,7 +39,7 @@ For instance, the following triple matches the example query pattern given above
 
 Conversely, the following triple does not not match the example query pattern, since it contains a non-matching subject term:
 
-```
+```pseudo
 <http://books.com/books#mosquitoCoast> <http://document-ontology.org/ontology#hasAuthor> <https://www.paultheroux.com/bio>.
 ```
 
