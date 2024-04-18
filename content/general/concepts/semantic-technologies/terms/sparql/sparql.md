@@ -47,7 +47,7 @@ Conversely, the following triple does not not match the example query pattern, s
 
 The following keywords are used to implement different types of queries or **query forms**. Query forms differ in what information they return based on a collection of RDF data.
 
-For the example queries below, assume that the RDF data to be queried is as follows:
+Here is an example that specifies the RDF data to be queried for the given example queries:
 
 ```
 @base <http://books.com/books#>.
