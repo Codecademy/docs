@@ -45,7 +45,7 @@ Conversely, the following triple does not not match the example query pattern, s
 
 ## Query Forms
 
-The following keywords are used to implement different types of queries, or **query forms**. Query forms differ in what information they return based on a collection of RDF data.
+The following keywords are used to implement different types of queries or **query forms**. Query forms differ in what information they return based on a collection of RDF data.
 
 For the example queries below, assume that the RDF data to be queried is as follows:
 
