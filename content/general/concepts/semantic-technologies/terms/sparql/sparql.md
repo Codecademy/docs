@@ -49,7 +49,7 @@ The following keywords are used to implement different types of queries or **que
 
 Here is an example that specifies the RDF data to be queried for the given example queries:
 
-```
+```sparql
 @base <http://books.com/books#>.
 @prefix doc: <http://document-ontology.org/ontology#>.
 
