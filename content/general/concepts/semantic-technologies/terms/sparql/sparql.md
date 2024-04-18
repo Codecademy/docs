@@ -151,7 +151,7 @@ This results in the following output:
 <gesture-life> rdf:type doc:isBook.
 ```
 
-### `DESCRIBE`
+### DESCRIBE
 
 A **`DESCRIBE`** query returns a set of triples that describe either an entire set of RDF data or particular terms within that data. The exact information returned by a `DESCRIBE` query is not guaranteed, but rather depends on the implementation of specific SPARQL query processers.
 
