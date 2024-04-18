@@ -75,7 +75,7 @@ A **`SELECT`** query returns some of the values of the terms in the RDF data tha
 
 For example, the following query will return the values matching `?title` in the query pattern:
 
-```
+```sparql
 PREFIX doc: <http://document-ontology.org/ontology#>
 SELECT ?title
 WHERE {
