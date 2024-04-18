@@ -124,7 +124,13 @@ ASK {
 }
 ```
 
-### `CONSTRUCT`
+Here is the output:
+
+```shell
+true
+```
+
+### CONSTRUCT
 
 A **`CONSTRUCT`** query returns a set of triples based on the query pattern and a template provided in the `CONSTRUCT` clause. The query will take the terms that match the query pattern and insert them into the template to create a new set of triples.
 
