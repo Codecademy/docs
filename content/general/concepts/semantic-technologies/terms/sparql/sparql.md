@@ -71,7 +71,7 @@ Here is an example that specifies the RDF data to be queried for the given examp
 
 ### `SELECT`
 
-A **`SELECT`** query returns some of the values of the terms in the RDF data that match with the variables of the query pattern defined within the query. Which of these values will be returned is specified in the `SELECT` clause.
+A **`SELECT`** query returns some of the values of the terms in the RDF data that match with the variables of the query pattern defined within the query. The ones that will be returned among these values are specified in the `SELECT` clause.
 
 For example, the following query will return the values matching `?title` in the query pattern:
 
