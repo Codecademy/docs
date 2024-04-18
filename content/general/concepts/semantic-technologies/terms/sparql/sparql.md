@@ -69,7 +69,7 @@ Here is an example that specifies the RDF data to be queried for the given examp
   doc:soldCopies 87740.
 ```
 
-### `SELECT`
+### SELECT
 
 A **`SELECT`** query returns some of the values of the terms in the RDF data that match with the variables of the query pattern defined within the query. The ones that will be returned among these values are specified in the `SELECT` clause.
 
