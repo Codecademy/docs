@@ -115,7 +115,7 @@ An **`ASK`** query returns a value of `true` or `false`. If there are triples in
 
 > **Note:** Query patterns within `ASK` queries do not need to be introduced with a `WHERE` clause.
 
-The following query returns `true`:
+The following is an example of an `ASK` query:
 
 ```sparql
 PREFIX doc: <http://document-ontology.org/ontology#>
