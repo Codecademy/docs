@@ -83,7 +83,7 @@ WHERE {
 }
 ```
 
-This results in the output:
+This results in the below output:
 
 | ?title |
 |:-:|
