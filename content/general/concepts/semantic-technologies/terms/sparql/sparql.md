@@ -113,7 +113,7 @@ The above query produces the following output:
 
 An **`ASK`** query returns a value of `true` or `false`. If there are triples in the RDF data matching the query pattern, `true` will be returned. Otherwise, `false` will be returned.
 
-Note that query patterns within `ASK` queries do not need to be introduced with a `WHERE` clause.
+> **Note:** Query patterns within `ASK` queries do not need to be introduced with a `WHERE` clause.
 
 The following query returns `true`:
 
