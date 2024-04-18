@@ -1,7 +1,7 @@
 ---
 Title: '.percentile()'
-Description: 'Calculates the X-th percentile of the data'
-Subjects: 
+Description: 'Calculates the Xth percentile of the given data.'
+Subjects:
   - 'Data Science'
   - 'Computer Science'
 Tags:
@@ -13,38 +13,38 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
-  - 'paths/computer-science'
 ---
 
-The **`.percentile()`** function returns the Xth percentile of data along a specified axis. Percentiles are used in statistics to measure the distribution of data. The Xth percentile is the value below which X percent of the data falls. For example, the 95th percentile is the value greater than exactly 95 percent of the data.
+The **`.percentile()`** function returns the Xth percentile of the given data along a specified axis. Percentiles are used in statistics to measure the distribution of data. The Xth percentile is the value below which X percent of the data falls. For example, the 95th percentile is the value greater than exactly 95 percent of the data.
 
 ## Syntax
 
 ```pseudo
-numpy.percentile(a, X, axis, out, overwrite_input, method, keepdims)
+numpy.percentile(a, X, axis=None, out=None, overwrite_input=False, method='Linear', keepdims=False)
 ```
 
 Required Parameters:
 
-- `a`: the input data from which the percentile is calculated
-- `X`: a single list of numbers representing the percentiles to be calculated
+- `a`: The input data from which the percentile is to be calculated.
+- `X`: The list of numbers representing the percentiles to be calculated.
 
-Optional Parameters include:
-- `axis`: The axis along which the percentile is calculated. If not specified, the percentile is calculated along a flattened version of `a`. Default: None
-- `out`: Optional output array that has the same shape as the output of the function. Default: None
-- `overwrite_input`: If True, this allows calculations to be performed on the input array, a. Default: False
-- `method`: defines the method used to calculate the percentile. Default: 'Linear'. Other options: 'inverted_cdf', 'averaged_inverted_cdf',
-           'closest_observation', 'interpolated_inverted_cdf', 'hazen', 'weibull', 'median_unbiased', 'normal_unbiased'
-- `keepdims`: If True, the axes that are reduced when calculating the percentile are kept in the result with dimensions of size one. Default: False
+Optional Parameters:
+
+- `axis`: The axis along which the percentile is to be calculated. If not specified, the percentile is calculated along a flattened version of `a`.
+- `out`: The output array that has the same shape as the output of the function.
+- `overwrite_input`: If `True`, this allows calculations to be performed on the input array, `a`.
+- `method`: Defines the method used to calculate the percentile. Other than 'Linear', it can be set to 'inverted_cdf', 'averaged_inverted_cdf', 'closest_observation', 'interpolated_inverted_cdf', 'hazen', 'weibull', 'median_unbiased' and 'normal_unbiased'.
+- `keepdims`: If `True`, the axes that are reduced when calculating the percentile are kept in the result with dimensions of size one.
 
 Returns:
-- If `X` is a single value and `axis`=None, the function returns a single value representing the Xth percentile of all the values in `a`.
+
+- If `X` is a single value and `axis=None`, the function returns a single value representing the Xth percentile of all the values in `a`.
 - If `X` is an array, the function returns an array where each element contains a percentile corresponding to the values specified in `X`.
 - If `axis` is given, the function calculates the percentiles of the values along the specified axes.
 
 ## Example
 
-The following example creates a numpy array and then uses `.percentile()` to calculate various percentiles from the data:
+The following example creates an array and then uses `.percentile()` to calculate various percentiles from the data:
 
 ```py
 import numpy as np
@@ -61,11 +61,11 @@ This prints the following output:
 
 ```shell
 3.5
-[2.5, 3.5, 4.5]
-[3.5 , 4.75]
-[[2. , 5. ],[2.5, 5.5]]
+[2.5 3.5 4.5]
+[3.5  4.75]
+[[2.  5. ]
+ [2.5 5.5]]
 ```
-
 
 ## Codebyte Example
 
@@ -84,6 +84,5 @@ percentile_multiple = np.percentile(a,[50,75,90])
 print("The 50th percentile of all the data is:", percentile_50)
 print("The 75th percentile along each row is:", percentile_75_row)
 print("The 75th percentile along each column is:", percentile_75_column)
-print("The the 50th, 75th and 90th percentiles are:", percentile_multiple)
+print("The 50th, 75th and 90th percentiles are:", percentile_multiple)
 ```
-
