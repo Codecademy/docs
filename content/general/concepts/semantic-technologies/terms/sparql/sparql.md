@@ -117,7 +117,7 @@ An **`ASK`** query returns a value of `true` or `false`. If there are triples in
 
 The following query returns `true`:
 
-```
+```sparql
 PREFIX doc: <http://document-ontology.org/ontology#>
 ASK {
   ?x ?y "Pachinko"
