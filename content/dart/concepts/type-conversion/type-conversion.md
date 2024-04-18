@@ -28,7 +28,7 @@ void main() {
   int intValue = 10;
   double doubleValue = .5;
 
-  // Implicit type conversion in arithmetic operation
+  // Demonstrating implicit type conversion during arithmetic operation
   double result = intValue + doubleValue;
 
   print(result);
