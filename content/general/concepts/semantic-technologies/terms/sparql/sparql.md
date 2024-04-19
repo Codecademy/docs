@@ -159,19 +159,19 @@ This results in the following output:
 
 ### DESCRIBE
 
-A **`DESCRIBE`** query returns a set of triples that describe either an entire set of RDF data or particular terms within that data. The exact information returned by a `DESCRIBE` query is not guaranteed, but rather depends on the implementation of specific SPARQL query processers.
+A **`DESCRIBE`** query returns a set of triples that describe either an entire set of RDF data or particular terms within that data. The exact information returned by a `DESCRIBE` query is not guaranteed, but rather depends on the implementation of specific SPARQL query processors.
 
 An example of a `DESCRIBE` query for an entire set of RDF data is as follows:
 
-```
+```pseudo
 DESCRIBE <http://books.com/books#>
 ```
 
-This query would return some triples describing the data located the IRI within the query.
+This query would return some triples describing the data located in the IRI within the query.
 
 To create a query that describes a particular term within this data, a query pattern within a `WHERE` clause would be used:
 
-```
+```sparql
 PREFIX doc: <http://document-ontology.org/ontology#>
 DESCRIBE ?x
 WHERE {
@@ -185,16 +185,16 @@ This query would return some triples describing the term `<gesture-life>` within
 
 **Filters** are clauses containing boolean expressions that can be used to restrict the space of matches for a given query pattern. Specifically, a filter eliminates triples that contain terms which, when substituted into the filter clause, result in the expression evaluating as `false` or throwing an error.
 
-Filters are specified in a query pattern within a `WHERE` clause by using the keyword `FILTER`, as follows:
+Filters are specified in a query pattern within a `WHERE` clause by using the keyword `FILTER`:
 
-```
+```pseudo
 WHERE {
-	# some query pattern goes here
-	FILTER ()
+  # A query pattern is defined here
+  FILTER ()
 }
 ```
 
-The query will first match the data to the pattern above the `FILTER` clause, and then further restrict those matches based on the content of the filter.
+The query will first match the data to the pattern above the `FILTER` clause and then further restrict those matches based on the content of the filter.
 
 ### Functions and Operators Within Filters
 
