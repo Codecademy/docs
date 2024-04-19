@@ -1,1 +1,1 @@
-content/lua/concepts/tables/tables.md
+content/uiux/concepts/visual-design/visual-design.md
