@@ -2,14 +2,14 @@
 Title: 'Type Conversion'
 Description: 'The process of changing the data type of a value from one type to another.'
 Subjects:
+  - 'Code Foundations'
   - 'Computer Science'
   - 'Mobile Development'
-  - 'Code Foundations'
 Tags:
+  - 'Arithmetic'
   - 'Dart'
   - 'Dart Operators'
   - 'Data Types'
-  - 'Arithmetic'
 CatalogContent:
   - 'learn-dart'
   - 'paths/computer-science'
