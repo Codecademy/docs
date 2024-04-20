@@ -68,7 +68,10 @@ Original Test Results:
 Doric forgot to insert the alignment of each person tested.  She uses `insert()` to add the alignment of each person as follows:
 
 ```
+#insert new column
 testResults.insert(3, 'alignment', ['Lawful Good','Neutral Evil','Chaotic Good','Chaotic Good'])
+
+#print  the updated DataFrame
 print("Updated Test Results:")
 print(testResults)
 ```
@@ -82,6 +85,27 @@ Updated Test Results:
 1     76              Sofina          Thay  Neutral Evil
 2     64        Edgin Darvis  Icewind Dale  Chaotic Good
 3     83  Simon the Sorcerer       Triboar  Chaotic Good
+```
+
+Szass Tam used *scrying* to learn Doric's password.  To confuse Doric, Szass decided to add an identical *grade* column as follows:
+
+```
+#insert the 'new' column
+testResults.insert(1, 'grade', [54,100,26,70],allow_duplicates=True)
+
+#print  the updated DataFrame
+print("Further updated Test Results:")
+print(testResults)
+```
+
+Output:
+
+```
+   grade  grade                name          home     alignment
+0     99     54           Jarnathan     Frozenfar   Lawful Good
+1     76    100              Sofina          Thay  Neutral Evil
+2     64     26        Edgin Darvis  Icewind Dale  Chaotic Good
+3     83     70  Simon the Sorcerer       Triboar  Chaotic Good
 ```
 
 ## Codebyte Example (if applicable)
@@ -105,5 +129,4 @@ print(testResults)
 testResults.insert(3, 'alignment', ['Lawful Good','Neutral Evil','Chaotic Good','Chaotic Good'])
 print("Updated Test Results:")
 print(testResults)
-
 ```
