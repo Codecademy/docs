@@ -19,6 +19,7 @@ APIs
 Arguments
 Arithmetic
 Arrays
+ASCII
 ASP.NET
 Assert
 Assignment
@@ -333,6 +334,7 @@ Types
 Type Guard
 Type Narrowing
 Typography
+UUEncode
 UI
 Unary
 Union
