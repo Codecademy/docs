@@ -61,6 +61,7 @@ void main() {
   var stringValue = intValue.toString(); // Explicit toString() call
 
   print(stringValue);
+}
 ```
 
 The output is:
