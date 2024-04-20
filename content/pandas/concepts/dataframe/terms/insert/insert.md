@@ -13,11 +13,18 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-[A brief definition - make sure first mention of term is in **bold**.]
+The **`insert()`** method is used to insert into the DataFrame the provided column at the specified location.
 
 ## Syntax
 
-[Text, code, images, parameters, etc. about the syntax]
+```pseudo
+DataFrame.insert(loc, column, value, allow_duplicates=_NoDefault.no_default)
+```
+
+- `loc` is the integer representation of the insertion index.  This value must be greater than or equal to 0 and less or equal to the number of columns currently in the DataFrame.
+- `column` is the label associated with the inserted column.
+- `value` is the content of the inserted column.
+- `allow_duplicates` is a boolean that allows duplicate column labels if set to *True*.
 
 ## Example
 
