@@ -24,9 +24,9 @@ DataFrame.insert(loc, column, value, allow_duplicates=_NoDefault.no_default)
 - `loc` is the integer representation of the insertion index.  This value must be greater than or equal to 0 and less or equal to the number of columns currently in the DataFrame.
 - `column` is the label associated with the inserted column.
 - `value` is the content of the inserted column.
-- `allow_duplicates` is a boolean that allows duplicate column labels if set to *True*.
+- `allow_duplicates` is a boolean that allows duplicate column labels if set to `True`.
 
-More details about `DataFrame.apply()`'s parameters:
+More details about `DataFrame.insert()`'s parameters:
 
 |   Parameter   | Define                                                | Usage                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | :-----------: | ----------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
