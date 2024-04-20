@@ -94,7 +94,7 @@ Szass Tam used *scrying* to learn Doric's password.  To confuse Doric, Szass dec
 testResults.insert(1, 'grade', [54,100,26,70],allow_duplicates=True)
 
 #print  the updated DataFrame
-print("Further updated Test Results:")
+print("Further Updated Test Results:")
 print(testResults)
 ```
 
