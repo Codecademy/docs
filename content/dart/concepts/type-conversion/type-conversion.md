@@ -35,17 +35,17 @@ void main() {
 }
 ```
 
-The `Shell` output:
+This produces the following output:
 
 ```shell
 10.5
 ```
 
-In the example, the `int` intValue (10) is implicitly converted to a `double` (10.0) to perform the addition with doubleValue. The resulting value is 10.5, as shown in the Shell output.
+In the example, the `int` intValue (10) is implicitly converted to a `double` (10.0) to perform the addition with doubleValue. The resulting value is 10.5, as shown in the output.
 
 ## Explicit Type Conversion
 
-Explicit type conversion is done by the programmer using predefined functions or methods to convert values from one type to another. The following are the methods for Explicit type conversion:
+Explicit type conversion or `type-casting` is done by programmers using predefined functions or methods to convert values from one type to another. The following are the methods for Explicit type conversion:
 
 - `toString()`: Converts a value to a string.
 - `toDouble()`: Converts a value to a double.
@@ -63,8 +63,10 @@ void main() {
   print(stringValue);
 ```
 
-The `Shell` output:
+The output is:
 
 ```shell
 42
 ```
+
+In this example, the `toString()` method is explicitly called on `intValue` to convert the default integer type to a string.
