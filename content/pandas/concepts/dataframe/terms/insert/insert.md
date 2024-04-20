@@ -37,23 +37,73 @@ More details about `DataFrame.insert()`'s parameters:
 
 ## Example
 
-[Text, code, images, etc. about example 1]
+In the following examples, the `.insert()` method is used with different parameters on the testResults DataFrame:
+
+```
+import pandas as pd
+ 
+# Create the DataFrame representing test results administered by Doric
+data = {'grade': [99, 76, 64, 83],
+        'name': ['Jarnathan', 'Sofina', 'Edgin Darvis', 'Simon the Sorcerer'],
+        'home': ['Frozenfar', 'Thay', 'Icewind Dale','Triboar']}
+ 
+testResults = pd.DataFrame(data)
+ 
+# Print the original DataFrame
+print("Original Test Results:")
+print(testResults)
+```
+
+Output:
+
+```
+Original Test Results:
+   grade                name          home
+0     99           Jarnathan     Frozenfar
+1     76              Sofina          Thay
+2     64        Edgin Darvis  Icewind Dale
+3     83  Simon the Sorcerer       Triboar
+```
+
+Doric forgot to insert the alignment of each person tested.  She uses `insert()` to add the alignment of each person as follows:
+
+```
+testResults.insert(3, 'alignment', ['Lawful Good','Neutral Evil','Chaotic Good','Chaotic Good'])
+print("Updated Test Results:")
+print(testResults)
+```
+
+Output:
+
+```
+Updated Test Results:
+   grade                name          home     alignment
+0     99           Jarnathan     Frozenfar   Lawful Good
+1     76              Sofina          Thay  Neutral Evil
+2     64        Edgin Darvis  Icewind Dale  Chaotic Good
+3     83  Simon the Sorcerer       Triboar  Chaotic Good
+```
 
 ## Codebyte Example (if applicable)
 
-We can currently support:
-
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
-
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
+Feel free to play around with Doric's `testResults` DataFrame and add your own column.  Some suggestions include: test date(s), each person's class (such as 'Rogue' or 'Barbarian'), or known associates.
 
 ```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
+import pandas as pd
+ 
+# Create the DataFrame representing test results administered by Doric
+data = {'grade': [99, 76, 64, 83],
+        'name': ['Jarnathan', 'Sofina', 'Edgin Darvis', 'Simon the Sorcerer'],
+        'home': ['Frozenfar', 'Thay', 'Icewind Dale','Triboar']}
+ 
+testResults = pd.DataFrame(data)
+ 
+# Print the original DataFrame
+print("Original Test Results:")
+print(testResults)
+
+testResults.insert(3, 'alignment', ['Lawful Good','Neutral Evil','Chaotic Good','Chaotic Good'])
+print("Updated Test Results:")
+print(testResults)
+
 ```
