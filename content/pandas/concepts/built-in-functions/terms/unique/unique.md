@@ -29,7 +29,7 @@ The `data_series` parameter represents a 1-dimensional array-like data structure
 
 ## Example
 The following example demonstrates the use of the `.unique()` function:
-```
+```py
 import pandas as pd
 
 series = pd.Series([3, -1, 5, -1, 2, 1, 3, 2, 1, 5, -2, 1, 2])
@@ -38,7 +38,7 @@ print(f"The unique elements in series {list(series)} are\n {unique_elements}")
 ```
 
 The above code outputs the following:
-```
+```shell
 The unique elements in series [3, -1, 5, -1, 2, 1, 3, -2, 1, 5, 2, 1, 2] are
 [3 -1 5 2 1 3 -2]
 ```
