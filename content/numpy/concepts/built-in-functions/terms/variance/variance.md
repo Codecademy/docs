@@ -5,7 +5,6 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Data Structures'
   - 'Arrays'
   - 'Functions'
   - 'NumPy'
