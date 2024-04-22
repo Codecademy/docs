@@ -80,7 +80,7 @@ print(testResults)
 
 Output:
 
-```
+```shell
 Updated Test Results:
    grade                name          home     alignment
 0     99           Jarnathan     Frozenfar   Lawful Good
