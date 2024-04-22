@@ -28,7 +28,7 @@ If `axis` is not specified, the variance is calculated for the entire (flattened
 
 ## Example
 
-The below example creates a 2D array and calculates the overall variance, column-wise variance, and row-wise variance of the array using the `.var()` function:
+The following example creates a 2D array and calculates the overall variance (variance of the flattened array), column-wise variance, and row-wise variance of the array using the `.var()` function:
 
 ```py
 import numpy as np
