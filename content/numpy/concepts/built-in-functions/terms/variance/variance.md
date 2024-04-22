@@ -34,19 +34,19 @@ The below example creates a 2D array and calculates the overall variance, column
 import numpy as np
 
 # Creating a 2D array
-arr = np.array([[1, 2, 3],[4, 5, 6],[7, 8, 9]])
+array_2d = np.array([[1, 2, 3],[4, 5, 6],[7, 8, 9]])
 
 # Calculating the overall variance
-variance_all = np.var(arr)
-print(variance_all)
+overall_variance = np.var(array_2d)
+print(overall_variance)
 
 # Calculating the column-wise variance (axis=0)
-variance_axis_0 = np.var(arr, axis=0)
-print(variance_axis_0)
+column_variance = np.var(array_2d, axis=0)
+print(column_variance)
 
 # Calculating the row-wise variance (axis=1)
-variance_axis_1 = np.var(arr, axis=1)
-print(variance_axis_1)
+row_variance = np.var(array_2d, axis=1)
+print(row_variance)
 ```
 
 This produces the following output:
