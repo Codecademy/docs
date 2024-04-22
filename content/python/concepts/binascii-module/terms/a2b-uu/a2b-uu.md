@@ -40,5 +40,5 @@ print(decoded_data)
 The example produces the following output:
 
 ```shell
-b'Codecademy
+b'Codecademy'
 ```
