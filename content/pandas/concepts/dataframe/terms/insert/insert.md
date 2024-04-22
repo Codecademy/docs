@@ -23,10 +23,10 @@ The **`insert()`** method is used to insert into the DataFrame the provided colu
 DataFrame.insert(loc, column, value, allow_duplicates=False)
 ```
 
-- `loc` defines the index at which the new column will be inserted. This value must be greater than or equal to 0 and less or equal to the number of columns currently in the DataFrame.
-- `column` sets the string description of the label associated with the inserted column.
-- `value` is the content of the inserted column.  `value` can be Scalar, Series, or array-like.  Note that passing a single value will set that same value for all rows.
-- `allow_duplicates` is a boolean controlling whether duplicate column labels are allowed.  If `allow_duplicates` is set to `True`, the new column is allowed to have the same `column` value as a preexisting column. If `allow duplicates` is set to `False`, passing a column name that is associated with a preexisting column will throw a `ValueError`.
+- `loc`: Specifies the index at which the new column will be inserted. It should be a non-negative integer and must not exceed the current number of columns in the DataFrame.
+- `column`: Provides a string label that describes the newly inserted column.
+- `value`: Represents the content of the inserted column, which can be a scalar, a pandas Series, or an array-like object. Note that if a single value is passed, it will be set for all rows in the new column.
+- `allow_duplicates`: A boolean flag that determines whether duplicate column labels are allowed. When set to True, duplicate column labels are permitted, allowing the new column to have the same label as an existing one. Conversely, setting allow_duplicates to False will raise a ValueError if the provided column label matches an existing one.
 
 ## Example
 
