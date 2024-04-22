@@ -114,7 +114,7 @@ Output:
 
 Feel free to play around with Doric's `testResults` DataFrame and add your own column.  Some suggestions include: test date(s), each person's class (such as 'Rogue' or 'Barbarian'), or known associates.
 
-```codebyte/js
+```codebyte/python
 import pandas as pd
  
 # Create the DataFrame representing test results administered by Doric
