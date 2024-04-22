@@ -1,6 +1,6 @@
 ---
 Title: '.insert()'
-Description: Inserts into the DataFrame the provided column at the specified location.  
+Description: Inserts a new column into the DataFrame at the specified location.
 Subjects:
   - 'Data Science'
   - 'Computer Science'
