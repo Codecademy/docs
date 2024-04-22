@@ -41,3 +41,4 @@ The example produces the following output:
 
 ```shell
 b'Codecademy
+```
