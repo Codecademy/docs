@@ -112,7 +112,7 @@ Output:
 
 ## Codebyte Example
 
-Feel free to play around with Doric's `testResults` DataFrame and add your own column.  Some suggestions include: test date(s), each person's class (such as 'Rogue' or 'Barbarian'), or known associates.
+The following example demonstrates the use of the .insert() method in pandas to add a new column named 'alignment' to a DataFrame, representing alignment information for test results.```
 
 ```codebyte/python
 import pandas as pd
