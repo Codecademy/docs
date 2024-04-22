@@ -58,7 +58,7 @@ print(testResults)
 
 Output:
 
-```
+```shell
 Original Test Results:
    grade                name          home
 0     99           Jarnathan     Frozenfar
