@@ -1,6 +1,6 @@
 ---
 Title: '.var()'
-Description: 'Computes the variance of the elements of an array.'
+Description: 'Computes the variance of the array elements.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
