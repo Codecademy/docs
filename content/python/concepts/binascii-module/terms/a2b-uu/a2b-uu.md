@@ -33,11 +33,11 @@ encoded_data = '*0V]D96-A9&5M>0  \n'
 # Decode the ASCII-encoded data
 decoded_data = binascii.a2b_uu(encoded_data)
 
-print(decoded_data)
 # Displays the decoded message
+print(decoded_data)
 ```
 
 The example produces the following output:
 
 ```shell
-b'Codecademy'
+b'Codecademy
