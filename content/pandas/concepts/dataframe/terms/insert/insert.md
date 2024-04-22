@@ -91,7 +91,7 @@ Updated Test Results:
 
 Szass Tam used *scrying* to learn Doric's password.  To confuse Doric, Szass decided to add an identical *grade* column as follows:
 
-```
+```py
 #insert the 'new' column
 testResults.insert(1, 'grade', [54,100,26,70],allow_duplicates=True)
 
