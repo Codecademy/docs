@@ -10,7 +10,9 @@ Tags:
   - 'Pandas'
 CatalogContent:
   - 'learn-python-3'
+  - 'paths/computer-science'
   - 'paths/data-science'
+  - 'paths/data-science-foundations'
 ---
 
 The **`insert()`** method is used to insert into the DataFrame the provided column at the specified location, shifting all existing columns at or above the specified index to the right.
