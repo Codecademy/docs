@@ -2,8 +2,8 @@
 Title: '.insert()'
 Description: Inserts a new column into the DataFrame at the specified location.
 Subjects:
-  - 'Data Science'
   - 'Computer Science'
+  - 'Data Science'
   - 'Web Development'
 Tags:
   - 'Data Structures'
