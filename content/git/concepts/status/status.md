@@ -16,7 +16,7 @@ In Git, the `status` command shows the state of the working directory, staging a
 
 ## Example
 
-Below is a short example of how the `git status` command works. Running `git status` will show the below, assuming a change was saved in a text file **example.txt** (but not added to the staging area), and **README.txt** is a new file that was added to the staging area:
+Below is a short example of how the `git status` command works. Running `git status` will show the following, assuming a change was saved in a text file _example.txt_ (but not added to the staging area) and _README.txt_ is a new file that was added to the staging area:
 
 ```shell
 $ git status
@@ -30,5 +30,4 @@ Changes to be committed:
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
   example.txt
-
 ```
