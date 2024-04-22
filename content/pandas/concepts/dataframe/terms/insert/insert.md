@@ -39,7 +39,7 @@ More details about `DataFrame.insert()`'s parameters:
 
 ## Example
 
-In the following examples, the `.insert()` method is used with different parameters on the testResults DataFrame:
+In the following example, the `.insert()` method is used with different parameters on the testResults DataFrame:
 
 ```
 import pandas as pd
