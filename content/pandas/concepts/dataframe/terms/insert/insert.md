@@ -110,7 +110,7 @@ Output:
 3     83     70  Simon the Sorcerer       Triboar  Chaotic Good
 ```
 
-## Codebyte Example (if applicable)
+## Codebyte Example
 
 Feel free to play around with Doric's `testResults` DataFrame and add your own column.  Some suggestions include: test date(s), each person's class (such as 'Rogue' or 'Barbarian'), or known associates.
 
