@@ -24,7 +24,7 @@ numpy.var(array, axis=None)
 - `array`: The array for which the variance is to be calculated.
 - `axis`: An optional parameter that specifies the axis along which the variance is to be calculated.
 
-If `axis` is not provided, the variance is calculated for the entire array. If `axis` is specified, then the variance is calculated along that axis. For a 2D array, if `axis=0`, the variance is calculated column-wise and if `axis=1`, the variance is calculated row-wise.
+If `axis` is not specified, the variance is calculated for the entire (flattened) array. If `axis` is specified, then the variance is calculated along that axis. For a 2D array, if `axis=0`, the variance is calculated column-wise, and if `axis=1`, the variance is calculated row-wise.
 
 ## Example
 
