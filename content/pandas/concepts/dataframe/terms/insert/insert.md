@@ -23,19 +23,10 @@ The **`insert()`** method is used to insert into the DataFrame the provided colu
 DataFrame.insert(loc, column, value, allow_duplicates=False)
 ```
 
-- `loc` is the integer representation of the insertion index.  This value must be greater than or equal to 0 and less or equal to the number of columns currently in the DataFrame.
-- `column` is the label associated with the inserted column.
-- `value` is the content of the inserted column.
-- `allow_duplicates` is a boolean that allows duplicate column labels if set to `True`.
-
-More details about `DataFrame.insert()`'s parameters:
-
-|   Parameter   | Define                                                | Usage                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| :-----------: | ----------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|    `loc`     | int. Insertion index                                 | Defines the index at which the new column will be inserted.                                                                                                                                                                                                                                                                           |
-|    `column`     | str.                        | Sets the label for the new column.                                                                                                                                                                                                                                                                                          |
-|     `value`     | Scalar, Series, or array-like.                        | Content to be inserted as the new column.  Note that passing a single value will set that same value for all rows.                                                                                                                                                 |
-| `allow_duplicates` | bool. Default `False` | If `allow_duplicates` is set to `True`, the new column is allowed to have the same `column` value as a preexisting column. If `allow duplicates` is set to `False`, passing a column name that is associated with a preexisting column will throw a `ValueError`. |
+- `loc` defines the index at which the new column will be inserted. This value must be greater than or equal to 0 and less or equal to the number of columns currently in the DataFrame.
+- `column` sets the string description of the label associated with the inserted column.
+- `value` is the content of the inserted column.  `value` can be Scalar, Series, or array-like.  Note that passing a single value will set that same value for all rows.
+- `allow_duplicates` is a boolean controlling whether duplicate column labels are allowed.  If `allow_duplicates` is set to `True`, the new column is allowed to have the same `column` value as a preexisting column. If `allow duplicates` is set to `False`, passing a column name that is associated with a preexisting column will throw a `ValueError`.
 
 ## Example
 
@@ -103,6 +94,7 @@ print(testResults)
 Output:
 
 ```shell
+Further Updated Test Results:
    grade  grade                name          home     alignment
 0     99     54           Jarnathan     Frozenfar   Lawful Good
 1     76    100              Sofina          Thay  Neutral Evil
@@ -112,7 +104,7 @@ Output:
 
 ## Codebyte Example
 
-The following example demonstrates the use of the .insert() method in pandas to add a new column named 'alignment' to a DataFrame, representing alignment information for test results.```
+The following example demonstrates the use of the .insert() method in pandas to add a new column named 'alignment' to a DataFrame, representing alignment information for test results.
 
 ```codebyte/python
 import pandas as pd
