@@ -102,7 +102,7 @@ print(testResults)
 
 Output:
 
-```
+```shell
    grade  grade                name          home     alignment
 0     99     54           Jarnathan     Frozenfar   Lawful Good
 1     76    100              Sofina          Thay  Neutral Evil
