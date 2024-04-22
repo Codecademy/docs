@@ -41,7 +41,7 @@ More details about `DataFrame.insert()`'s parameters:
 
 In the following example, the `.insert()` method is used with different parameters on the testResults DataFrame:
 
-```
+```py
 import pandas as pd
  
 # Create the DataFrame representing test results administered by Doric
