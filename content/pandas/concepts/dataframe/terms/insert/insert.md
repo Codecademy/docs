@@ -69,7 +69,7 @@ Original Test Results:
 
 Doric forgot to insert the alignment of each person tested.  She uses `insert()` to add the alignment of each person as follows:
 
-```
+```py
 #insert new column
 testResults.insert(3, 'alignment', ['Lawful Good','Neutral Evil','Chaotic Good','Chaotic Good'])
 
