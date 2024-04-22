@@ -20,7 +20,7 @@ The **`insert()`** method is used to insert into the DataFrame the provided colu
 ## Syntax
 
 ```pseudo
-DataFrame.insert(loc, column, value, allow_duplicates=_NoDefault.no_default)
+DataFrame.insert(loc, column, value, allow_duplicates=False)
 ```
 
 - `loc` is the integer representation of the insertion index.  This value must be greater than or equal to 0 and less or equal to the number of columns currently in the DataFrame.
