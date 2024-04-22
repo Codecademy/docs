@@ -1,30 +1,30 @@
 ---
 Title: '.a2b_uu()'
-Description: 'Returns a new object with decoded binary data from ASCII-encoded data in the UUEncode format.'
+Description: 'Returns a new object containing the decoded binary data from ASCII-encoded data in the UUEncode format.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'ASCII'
+  - 'Encoding'
+  - 'Functions'
   - 'Unicode'
-  - 'UUEncode'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-The `.a2b_uu()` function converts a single line of UUEncoded data back to binary and return the binary data.
+The **`.a2b_uu()`** function converts a single line of UUEncoded data back to binary and returns the binary data.
 
 ## Syntax
 
 ```pseudo
 binascii.a2b_uu(string)
 ```
-The function accepts Unicode strings containing only ASCII characters.
+The `string` parameter represents the UUEncoded data intended for decoding back into binary format. Specifically, it should be a Unicode string containing only ASCII characters and conforming to the UUEncode format.
 
-## Codebyte Example
+## Example
 
-```codebyte/python
+```python
 import binascii
 
 # Example ASCII-encoded data in uuencode format
@@ -37,5 +37,7 @@ print(decoded_data)
 # Displays the decoded message
 ```
 
+The example produces the following output:
 
-
+```shell
+b'Codecademy'
