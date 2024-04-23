@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-  ## Syntax
+## Syntax
  ```js
 Object.create(proto)
 Object.create(proto, propertiesObject)
