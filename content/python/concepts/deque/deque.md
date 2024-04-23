@@ -5,95 +5,64 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Stacks'
   - 'Queues'
+  - 'Data Structures'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
+
 ---
 
-The deque, short for "double-ended queue," is a data structure in Python that allows for the addition and removal of elements from both ends with high efficiency. It is part of the collections module and is an alternative to the list when frequent insertions and deletions are required at both ends. Deques are particularly useful when you need a queue that allows for fast appends and pops from both sides, or when you need a stack that also supports the same operations.
+The `deque`, short for _double-ended queue_," is a [Python](https://www.codecademy.com/resources/docs/python) data structure that allows for the efficient addition and removal of elements from both ends. It is a component of the [collections module](https://www.codecademy.com/resources/docs/python/collections-module) and serves as an alternative to the list where frequent insertions and deletions occur at both ends. Deques are notably advantageous when a queue is needed to enable fast appends and pops from both ends, or when a stack is required to support the same operations efficiently.
 
-### Syntax
+## Syntax
 
-## Initialize a deque with optional iterable and maxlen
+Initialize a deque with optional parameters `iterable` and `maxlen`.
 
+```pseudo
 d = deque(iterable=[], maxlen=None)
-
-## Add elements to the right end
-
-d.append(item)
-
-## Add elements to the left end
-
-d.appendleft(item)
-
-## Remove and return the rightmost item
-
-item = d.pop()
-
-## Remove and return the leftmost item
-
-item = d.popleft()
-
-## Rotate the deque n steps to the right
-
-d.rotate(n)
 
 In this syntax, deque() creates a new deque object, which can be initialized with an optional iterable and a maximum length. The append() and appendleft() methods add items to the right and left ends, respectively.
 The pop() and popleft() methods remove items from the corresponding ends. The rotate() method moves elements from one end to the other, effectively rotating the deque.
 
-## Using deque
+## Example
 
 ```py
-class BrowserHistory:
-    def __init__(self):
-        self.history = deque()
-        self.forward_stack = deque()
+from collections import deque
 
-    def visit(self, url):
-        print(f"Visiting: {url}")
-        self.history.append(url)
-        # Clear the forward stack because new page is visited
-        self.forward_stack.clear()
+# Create a deque variable
+numbers_deque = deque([1, 2, 3, 4, 5])
 
-    def back(self):
-        if len(self.history) > 1:
-            # Move the current page to the forward stack
-            self.forward_stack.appendleft(self.history.pop())
-            print(f"Back to: {self.history[-1]}")
-        else:
-            print("No more history to go back to.")
+# Append a number to the right end
+numbers_deque.append(6)
 
-    def forward(self):
-        if self.forward_stack:
-            # Move the next page from forward stack to history
-            self.history.append(self.forward_stack.popleft())
-            print(f"Forward to: {self.history[-1]}")
-        else:
-            print("No more forward history.")
+# Append a number to the left end
+numbers_deque.appendleft(0)
+
+# Pop a number from the right end
+numbers_deque.pop()
+
+# Pop a number from the left end
+numbers_deque.popleft()
+
+# Print the deque
+print(numbers_deque)
+
+Output:
+deque([0, 1, 2, 3, 4])
+
 ```
 
-## Example usage
 
-browser = BrowserHistory()
-browser.visit("home.html")
-browser.visit("about.html")
-browser.visit("products.html")
-browser.back() # Outputs: Back to: about.html
-browser.back() # Outputs: Back to: home.html
-browser.forward() # Outputs: Forward to: about.html
+Start by importing the deque class from the collections module. Then, create a deque variable called numbers_deque containing a list of numbers [1, 2, 3, 4, 5].
 
-```Popping
-from the left
-left_item = d.popleft()  # returns 0, deque becomes [1, 2, 3]
-```
+Append the number 6 to the right end of the deque using the append() method, and then append 0 to the left end using the appendleft() method.
 
-In this example, we have a BrowserHistory class that uses two deques: one for the main history and another as a stack for the forward history. When a new page is visited, it is appended to the history deque, and the forward history is cleared.
+Next, pop a number from the right end of the deque using the pop() method, and pop a number from the left end using the popleft() method.
 
-The back() method pops from the history and pushes onto the forward stack, while the forward() method does the opposite.
+Finally, print the contents of the deque, which should be [0, 1, 2, 3, 4].
 
 ## Equivalent Methods for Stacks and Queues
 
-- Stacks: To implement a stack using a deque, you would use the append() method to push items onto the stack and the pop() method to remove them.
-- Queues: To implement a queue, you would use the append() method to enqueue items at the back and the popleft() method to dequeue items from the front.
+- Stacks: To implement a stack using a deque, use the append() method to push items onto the stack and the pop() method to remove them.
+- Queues: To implement a queue, use the append() method to enqueue items at the back and the popleft() method to dequeue items from the front.
