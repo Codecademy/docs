@@ -13,7 +13,9 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `.var()` [function](https://www.codecademy.com/resources/docs/numpy/built-in-functions) computes the variance of the elements of an array along the specified axis (if any). This value represents the average of the squared differences from the mean and provides a measure of how spread out the elements are in the array.
+The `.var()` [function](https://www.codecademy.com/resources/docs/numpy/built-in-functions) computes the variance of the elements in an array, either across all elements or along a specified axis (if provided). Variance is a statistical measurement that shows how far each number in the array is spread out from the _mean_. In other words, it measures the dispersion or spread in the data.
+
+A high variance indicates that the numbers in the array are far from the _mean_, while a low variance indicates that they are close to the _mean_.
 
 ## Syntax
 
