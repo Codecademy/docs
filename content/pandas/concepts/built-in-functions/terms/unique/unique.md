@@ -1,17 +1,17 @@
 ---
 Title: '.unique()'
 Description: 'Returns an array containing all the unique elements in the data series, with no specific order.'
-Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
+Subjects: 
   - 'Computer Science'
   - 'Data Science'
   - 'Data Visualization'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
+Tags:
   - 'Arrays'
   - 'Data'
   - 'Encoding'
   - 'Functions'
   - 'Pandas'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+CatalogContent:
  - 'learn-python-3'
  - 'paths/computer-science'
  - 'paths/data-science'
@@ -49,7 +49,6 @@ The code below shows off the effects of `unique()` on different kinds of data ty
 ```codebyte/python
 import pandas as pd
 
-# Defining an Index object with Timestamps
 index = pd.Index([
             pd.Timestamp("20160101", tz="US/Eastern"),
             pd.Timestamp("20160101", tz="US/Eastern"),
@@ -57,28 +56,21 @@ index = pd.Index([
             pd.Timestamp("20160101", tz="US/Central"),
         ])
 
-# Print unique elements of the Index object
 print("Unique elements in Index:")
 print(pd.unique(index))
 
-# Define a Categorical object with grades
 grades = pd.Categorical(['A', 'B', 'B+', 'C-', 'D', 'A', 'B', 'A', 'B-', 'F'], categories=['A', 'A-', 'B+', 'B', 'B-', 'C+', 'C', 'C-', 'D+', 'D', 'F'], ordered=True)
 
-# Print unique elements of the Categorical object
 print("\nUnique elements in Categorical:")
 print(pd.unique(grades))
 
-# Define a Series object with strings
 string_series = pd.Series(['John', 'Jack', 'Ellen', 'Kirsten', 'Jack', 'John Jr', 'Kristen', 'Ellen'])
 
-# Print unique elements of the string Series
 print("\nUnique elements in String Series:")
 print(pd.unique(string_series))
 
-# Define a Series object with integers
-int_series = pd.Series([2n for n in range(10)] + [3n for n in range(5)])
+int_series = pd.Series([2 * n for n in range(10)] + [3 * n for n in range(5)])
 
-# Print unique elements of the integer Series
 print("\nUnique elements in Integer Series:")
 print(pd.unique(int_series))
 ```
