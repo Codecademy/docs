@@ -56,9 +56,9 @@ class House {
   int? numberOfRooms;
 
 // Defining a method
-void houseInfo() {
-  print("House color: $color");
-  print("Number of rooms: $numberOfRooms");
+  void houseInfo() {
+    print("House color: $color");
+    print("Number of rooms: $numberOfRooms");
   }
 }
 
