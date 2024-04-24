@@ -45,8 +45,6 @@ A new object of a particular class can be created using the following syntax:
 ClassName objectName = ClassName();
 ```
 
-- `objectName`: The name of the object to be created.
-
 ### Example
 
 Here is an example that creates an object of a specific class:
