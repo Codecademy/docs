@@ -32,8 +32,8 @@ class ClassName {
 }
 ```
 
-- `class`: The keyword that is used to create a class.
-- `ClassName`: The name of the class to be defined. It always starts with a capital letter.
+- `class`: The keyword used to create a class.
+- `ClassName`: The name of the class. It follows the UpperCamelCase convention.
 
 ## Class Instances
 
