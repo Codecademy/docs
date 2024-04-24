@@ -21,8 +21,14 @@ In Dart, **classes** are a blueprint for creating objects. They are an integral 
 ```pseudo
 class ClassName {
   // Class body
+  
   // Properties
+  type propertyName;
+  
   // Methods
+  returnType methodName() {
+    // Method body
+  }
 }
 ```
 
