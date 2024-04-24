@@ -21,7 +21,10 @@ CatalogContent:
   - Understanding these methods empowers practitioners to leverage the full potential of NumPy for their numerical computing tasks.
 ## Syntax
 
- numpy. <math_method>
+The generic syntax for the NumPy math methods is as follows:
+ 
+ ```pseudo 
+ numpy.<math_method>
 
 ## Example
 ```py
