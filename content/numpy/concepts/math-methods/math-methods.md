@@ -1,4 +1,17 @@
-
+---
+Title: 'Math Methods'
+Description: 'Performs mathematical operations on arrays'
+Subjects:
+  - 'Computer Science'
+Tags:
+  - 'NumPy'
+  - 'Math'
+  - 'Methods'
+  - 'Arrays'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/computer-science'
+---
 
 # Math Methods
   - Numerical Python abreviated as numPy, used for numerical computing.
