@@ -47,7 +47,7 @@ ClassName objectName = ClassName();
 
 ### Example
 
-Here is an example that creates an object of a specific class:
+The following example demonstrates how to create an object in Dart:
 
 ```dart
 class House {
