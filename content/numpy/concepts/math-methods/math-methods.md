@@ -11,7 +11,13 @@
  numpy. <math_method>
 
 ## Example
-![image](https://github.com/gitsoft145/docs/assets/78934620/7f0cf44a-f91d-4ef2-95e5-7cb065387980)
+```py
+import numpy as np
+
+//add two scalar numbers using numpy.add() method
+result = np.add(5, 3)
+
+print("Result of addition:", result)
 
 
 ## Output
