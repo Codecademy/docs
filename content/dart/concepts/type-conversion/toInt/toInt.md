@@ -1,6 +1,6 @@
 ---
 Title: '.toInt()'
-Description: 'Turns numberic values into integers and returns them.'
+Description: 'Turns numeric values into integers and returns them.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
@@ -26,7 +26,7 @@ number.toInt()
 
 ## Example
 
-In the following example, the `.toInt()` method is used to turn `myNumber` (10.4) into an integer value.
+In the following example, the `.toInt()` method is used to turn `myNumber` into an integer value.
 
 ```dart
 void main() {
