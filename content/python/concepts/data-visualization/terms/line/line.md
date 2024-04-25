@@ -10,7 +10,7 @@ The syntax for the `.line()` method in Plotly is straightforward and highly cust
 
 ```python
 plotly.express.line(data_frame, x, y, color=None, title=None, labels=None, ...)
-
+```
 - data_frame: The dataset containing the variables that will be plotted.
 - x: The data for the x-axis, typically time or a continuous variable.
 - y: The data for the y-axis, representing the measured variables.
