@@ -15,6 +15,7 @@ CatalogContent:
 
 # Numpy Math Methods
 ** Description: **
+
 NumPy, short for Numerical Python, is a powerhouse for numerical computing, offering many mathematical functions and operations on scalars, arrays, and matrices. It plays a pivotal role in scientific computing, data analysis, and machine learning, serving as an essential tool in various fields like scientific research, engineering, finance, and data analysis. NumPy's mathematical methods streamline complex computations, making it an indispensable asset. Mastering these methods empowers users to harness NumPy's full potential for their numerical computing endeavors.
 
 ## Syntax
