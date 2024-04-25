@@ -53,17 +53,6 @@ In Rust, there are two main types related to strings, each serving a specific pu
 
    ```rust
    let mut empty_string = String::new();
-   ```
-
-   This creates a new, mutable, empty `String` that can be later modified and or assigned to a variable.
-
-2. **Using String Literals with `String::from`**:
-
-   ```rust
-   let greeting = String::from("Hello, World!");
-   ```
-
-   `String::from` allocates memory on the heap and initializes a new string with the specified string literal.
 
 ## String Manipulation
 
