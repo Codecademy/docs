@@ -1,6 +1,6 @@
 ---
 Title: '.toInt()'
-Description: 'Turns numeric values into integers and returns them.'
+Description: 'Converts numeric values into integers and returns them.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
