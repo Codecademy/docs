@@ -12,25 +12,22 @@ CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
-
-# Numpy Math Methods
-** Description: **
-
-NumPy, short for Numerical Python, is a powerhouse for numerical computing, offering many mathematical functions and operations on scalars, arrays, and matrices. It plays a pivotal role in scientific computing, data analysis, and machine learning, serving as an essential tool in various fields like scientific research, engineering, finance, and data analysis. NumPy's mathematical methods streamline complex computations, making it an indispensable asset. Mastering these methods empowers users to harness NumPy's full potential for their numerical computing endeavors.
+  NumPy, short for Numerical Python, is a powerhouse for numerical computing, offering many mathematical functions and operations on scalars, arrays, and matrices. It plays a pivotal role in scientific computing, data analysis, and machine learning, serving as an essential tool in various fields like scientific research, engineering, finance, and data analysis. NumPy's mathematical methods streamline complex computations, making it an indispensable asset. Mastering these methods empowers users to harness NumPy's full potential for their numerical computing endeavors.
+NumPy offers an extensive range of mathematical methods known as **Math Methods**. These methods cover arithmetic operations, trigonometric functions, linear algebra, statistics, and more. They are essential in scientific computing, data analysis, and machine learning, making NumPy indispensable across scientific research, engineering, finance, and data analysis. Mastering NumPy's Math Methods empowers users to streamline complex computations effectively.
 
 ## Syntax
 
 The generic syntax for the NumPy math methods is as follows:
  
  ```pseudo 
- numpy.<math_method>
+ numpy.math_method()
 
 ## Example
 
 ```py
 import numpy as np
 
-//add two scalar numbers using numpy.add() method
+# add two scalar numbers using numpy.add() method
 result = np.add(5, 3)
 print("Result of addition:", result)
 
