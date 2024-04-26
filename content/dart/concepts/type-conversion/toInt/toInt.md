@@ -32,8 +32,9 @@ In the following example, the `.toInt()` method is used to turn `myNumber` into 
 ```dart
 void main() {
   var myNumber = 10.4;
-  myNumber = myNumber.toInt();
-  print(myNumber);
+  var result = myNumber.toInt();
+  print(result);
+}
 ```
 
 The code will return the following output
