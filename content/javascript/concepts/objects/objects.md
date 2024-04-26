@@ -167,7 +167,7 @@ Person {
 } 
 */
 
-person.greeting();
+console.log(person.greeting());
 // Output: "Hi, I am Elizabeth Harmon"
 ```
 
