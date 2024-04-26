@@ -23,7 +23,7 @@ In Dart, the **`.toInt()`** method converts numeric values into integers. This m
 number.toInt()
 ```
 
-- `number`: Chosen numeric value that needs to be converted into an integer value.
+- `number`: It is the chosen numeric value that needs to be converted into an integer value.
 
 ## Example
 
