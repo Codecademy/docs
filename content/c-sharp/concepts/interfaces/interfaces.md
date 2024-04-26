@@ -20,7 +20,7 @@ An **interface** in C# is a contract that defines a set of methods, properties, 
 
 An interface in C# is created using the `interface` keyword. The syntax for defining an interface in C# is:
 
-```
+```cs
 interface MyInterface
 {
     void MyMethod();
@@ -31,7 +31,7 @@ interface MyInterface
 
 To implement an interface in C#, you use the `:` symbol, followed by the name of the interface. The syntax for implementing an interface is as follows:
 
-```
+```cs
 class MyClass : MyInterface
 {
     public void MyMethod()
