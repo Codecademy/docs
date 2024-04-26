@@ -20,7 +20,7 @@ The **`.line()`** method in Plotly is specifically designed for creating line ch
 The syntax for the `.line()` method in Plotly is straightforward and highly customizable. Here is a general structure:
 
 ```pseudo
-plotly.express.line(data_frame, x, y, color=None, title=None, labels=None, ...)
+plotly.express.line(data_frame=None, x=None, y=None, color=None, title=None, labels=None, ...)
 ```
 - data_frame: The dataset containing the variables that will be plotted.
 - x: The data for the x-axis, typically time or a continuous variable.
