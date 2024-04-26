@@ -29,6 +29,7 @@ plotly.express.line(data_frame=None, x=None, y=None, color=None, title=None, lab
 - `title`: (Optional) The title of the chart.
 - `labels`: (Optional) Custom labels for different axes or legend items.
 
+> Note: The ellipsis (...) indicates that there can be additional optional arguments beyond those listed here.
 
 ## Example
 
