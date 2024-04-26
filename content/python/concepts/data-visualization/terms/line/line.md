@@ -41,7 +41,7 @@ import plotly.express as px
 # Load an example dataset
 df = px.data.gapminder().query("continent == 'Oceania'")
 
-# Create a line chart
+# Create a line chart visualizing economic growth over time
 fig = px.line(df, x='year', y='gdpPercap', color='country', title='Economic Growth in Oceania')
 
 # Show the plot
