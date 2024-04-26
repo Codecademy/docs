@@ -5,10 +5,11 @@ Subjects:
   - 'Computer Science'
   - 'Web Development'
 Tags:
-  - 'Methods'
   - 'Dart'
+  - 'Data Types'
+  - 'Integers'
+  - 'Methods'
   - 'Numbers'
-  - 'Types'
 CatalogContent:
   - 'learn-dart'
   - 'paths/computer-science'
