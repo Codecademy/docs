@@ -22,12 +22,12 @@ The syntax for the `.line()` method in Plotly is straightforward and highly cust
 ```pseudo
 plotly.express.line(data_frame=None, x=None, y=None, color=None, title=None, labels=None, ...)
 ```
-- data_frame: The dataset containing the variables that will be plotted.
-- x: The data for the x-axis, typically time or a continuous variable.
-- y: The data for the y-axis, representing the measured variables.
-- color: (Optional) A column name in the dataframe that will determine the color of the lines, useful for distinguishing different groups or categories.
-- title: (Optional) The title of the chart.
-labels: (Optional) Custom labels for different axes or legend items.
+- `data_frame`: The dataset containing the variables that will be plotted.
+- `x`: The data for the x-axis, typically time or a continuous variable.
+- `y`: The data for the y-axis, representing the measured variables.
+- `color`: (Optional) A column name in the data frame that will determine the color of the lines, useful for distinguishing different groups or categories.
+- `title`: (Optional) The title of the chart.
+- `labels`: (Optional) Custom labels for different axes or legend items.
 
 
 ## Example
