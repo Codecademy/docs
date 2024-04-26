@@ -27,7 +27,7 @@ number.toInt()
 
 ## Example
 
-In the following example, the `.toInt()` method is used to turn `myNumber` into an integer value.
+In the following example, the `.toInt()` method is used to convert `myNumber` into an integer value.
 
 ```dart
 void main() {
