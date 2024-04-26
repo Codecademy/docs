@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.line()` method in Plotly is specifically designed for creating line charts, which effectively illustrate changes and trends over time. Line charts are invaluable in data visualization for depicting the progression of numerical data points connected by line segments. This method simplifies the visualization of relationships between elements in datasets, highlighting trends and changes across continuous or categorical axes.
+The **`.line()`** method in Plotly is specifically designed for creating line charts, which effectively illustrate changes and trends over time. Line charts are invaluable in data visualization for depicting the progression of numerical data points connected by lines. This method simplifies the visualization of relationships between the elements in datasets, highlighting trends and changes across continuous or categorical axes.
 
 ## Syntax
 
