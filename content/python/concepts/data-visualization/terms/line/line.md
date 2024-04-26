@@ -51,5 +51,6 @@ fig.show()
 
 In this example, the economic growth (GDP per capita) of countries in Oceania from the Gapminder dataset is plotted. The x parameter is set to 'year', and the y parameter to 'gdpPercap'. The color parameter differentiates the lines by country, providing clear visual distinctions between each country's economic trajectory.
 
-## Conclusion
-Utilizing the `.line()` method in Plotly allows for the efficient creation of dynamic and informative line charts. This tool is especially useful in data analysis for identifying trends, making comparisons across categories, and illustrating changes over time, making it a cornerstone of data visualization tasks.
+## Output
+
+![Output of the example previously exposed](https://raw.githubusercontent.com/Codecademy/docs/main/media/Output_plotly_line().png)
