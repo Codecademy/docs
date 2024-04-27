@@ -20,7 +20,6 @@ The generic syntax for the NumPy math methods is as follows:
  
  ```pseudo 
  numpy.math_method()
-
 ## Example
 
 ```py
