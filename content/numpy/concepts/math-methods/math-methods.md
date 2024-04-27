@@ -20,6 +20,8 @@ The generic syntax for the NumPy math methods is as follows:
  
  ```pseudo 
  numpy.math_method()
+```
+
 ## Example
 
 ```py
@@ -28,10 +30,12 @@ import numpy as np
 # add two scalar numbers using numpy.add() method
 result = np.add(5, 3)
 print("Result of addition:", result)
-## Output
+```
 
 ```shell
 Result of addition: 8
+```
+
 ## Basic Categories of Math Methods
 
 ### 1. Basic Arithmetic Operations
