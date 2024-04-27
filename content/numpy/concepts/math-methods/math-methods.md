@@ -29,8 +29,9 @@ import numpy as np
 result = np.add(5, 3)
 print("Result of addition:", result)
 ## Output
-![image](https://github.com/gitsoft145/docs/assets/78934620/cb0b3d5b-7c91-45a5-b301-3d56cce64bb0)
 
+```shell
+Result of addition: 8
 ## Basic Categories of Math Methods
 
 ### 1. Basic Arithmetic Operations
