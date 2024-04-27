@@ -39,6 +39,6 @@ void main() {
 
 The code will return the following output
 
-```dart
+```shell
 10
 ```
