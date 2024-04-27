@@ -28,7 +28,6 @@ import numpy as np
 # add two scalar numbers using numpy.add() method
 result = np.add(5, 3)
 print("Result of addition:", result)
-
 ## Output
 ![image](https://github.com/gitsoft145/docs/assets/78934620/cb0b3d5b-7c91-45a5-b301-3d56cce64bb0)
 
