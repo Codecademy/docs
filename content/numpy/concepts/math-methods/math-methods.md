@@ -40,45 +40,45 @@ Result of addition: 8
 
 ### 1. Basic Arithmetic Operations
   
-  - Addition numpy.add(): Element-wise addition of arrays and scalar values.
-  - Subtraction numpy.subtract(): Element-wise subtraction of arrays.
-  - Multiplication numpy.multiply(): Element-wise multiplication of arrays.
-  - Division numpy.divide(): Element-wise division of arrays.
-  - Power numpy.power(): Element-wise exponentiation of arrays.
+  - Addition `numpy.add()`: Performs element-wise addition of arrays and scalar values.
+  - Subtraction `numpy.subtract()`: Performs element-wise subtraction of arrays.
+  - Multiplication `numpy.multiply()`: Performs element-wise multiplication of arrays.
+  - Division `numpy.divide()`: Performs element-wise division of arrays.
+  - Power `numpy.power()`: Performs element-wise exponentiation of arrays.
 
 ### 2. Trigonometric Functions
   
-  - Sine numpy.sin(): Computes the sine of each element in the array.
-  - Cosine numpy.cos(): Computes the cosine of each element in the array.
-  - Tangent numpy.tan(): Computes the tangent of each element in the array.
-  - Inverse Sine numpy.arcsin(): Computes the inverse sine of each element in the array.
-  - Inverse Cosine numpy.arccos(): Computes the inverse cosine of each element in the array.
-  - Inverse Tangent numpy.arctan(): Computes the inverse tangent of each element in the array.
+  - Sine `numpy.sin()`: Computes the sine of each element in the array.
+  - Cosine `numpy.cos()`: Computes the cosine of each element in the array.
+  - Tangent `numpy.tan()`: Computes the tangent of each element in the array.
+  - Inverse Sine `numpy.arcsin()`: Computes the inverse sine of each element in the array.
+  - Inverse Cosine `numpy.arccos()`: Computes the inverse cosine of each element in the array.
+  - Inverse Tangent `numpy.arctan()`: Computes the inverse tangent of each element in the array.
       
 ### 3. Exponential and Logarithmic Functions
   
-  - Exponential numpy.exp(): Computes the exponential of each element in the array.
-  - Natural Logarithm numpy.log(): Computes the natural logarithm of each element in the array.
-  - Base-10 Logarithm numpy.log10(): Computes the base-10 logarithm of each element in the array.
-  - Logarithm with Base b numpy.log(): Computes the logarithm with specified base of each element in the array.
+  - Exponential `numpy.exp()`: Computes the exponential of each element in the array.
+  - Natural Logarithm `numpy.log()`: Computes the natural logarithm of each element in the array.
+  - Base-10 Logarithm `numpy.log10()`: Computes the base-10 logarithm of each element in the array.
+  - Logarithm with Base b `numpy.log()`: Computes the logarithm with specified base of each element in the array.
       
 ### 4. Miscellaneous Functions
   
-  - Absolute Value numpy.abs(): Computes the absolute value of each element in the array.
-  - Square Root numpy.sqrt(): Computes the square root of each element in the array.
-  - Ceiling numpy.ceil(): Rounds each element of the array to the nearest integer greater than or equal to that element.
-  - Floor numpy.floor(): Rounds each element of the array to the nearest integer less than or equal to that element.
-  - Rounding numpy.round(): Rounds each element of the array to the nearest integer.
+  - Absolute Value `numpy.abs()`: Computes the absolute value of each element in the array.
+  - Square Root `numpy.sqrt()`: Computes the square root of each element in the array.
+  - Ceiling `numpy.ceil()`: Rounds each element of the array to the nearest integer greater than or equal to that element.
+  - Floor `numpy.floor()`: Rounds each element of the array to the nearest integer less than or equal to that element.
+  - Rounding `numpy.round()`: Rounds each element of the array to the nearest integer.
 
 ### 5. Statistical Functions
   
-  - Mean numpy.mean(): Computes the arithmetic mean along the specified axis.
-  - Median numpy.median(): Computes the median along the specified axis.
-  - Standard Deviation numpy.std(): Computes the standard deviation along the specified axis.
-  - Variance numpy.var(): Computes the variance along the specified axis.
+  - Mean `numpy.mean()`: Computes the arithmetic mean along the specified axis.
+  - Median `numpy.median()`: Computes the median along the specified axis.
+  - Standard Deviation `numpy.std()`: Computes the standard deviation along the specified axis.
+  - Variance `numpy.var()`: Computes the variance along the specified axis.
   
 ### 6. Linear Algebra
   
-  - Matrix Multiplication numpy.matmul(): Performs matrix multiplication between two arrays.
-  - Dot Product numpy.dot(): Computes the dot product of two arrays.
-  - Transpose numpy.transpose(): Computes the transpose of an array.
+  - Matrix Multiplication `numpy.matmul()`: Performs matrix multiplication between two arrays.
+  - Dot Product `numpy.dot()`: Computes the dot product of two arrays.
+  - Transpose `numpy.transpose()`: Computes the transpose of an array.
