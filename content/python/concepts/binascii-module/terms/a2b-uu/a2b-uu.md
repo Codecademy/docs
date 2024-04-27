@@ -13,31 +13,32 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.a2b_uu()`** function converts a single line of UUEncoded data back to binary and returns the binary data.
+The **`.a2b_uu()`** [function](https://www.codecademy.com/resources/docs/python/functions) converts a single line of UUEncoded data back to binary and returns the binary data.
 
 ## Syntax
 
 ```pseudo
 binascii.a2b_uu(string)
 ```
-The `string` parameter represents the UUEncoded data intended for decoding back into binary format. Specifically, it should be a Unicode string containing only ASCII characters and conforming to the UUEncode format.
+
+- `string`: This parameter represents the UUEncoded data intended for decoding back into binary format. Specifically, it should be a Unicode [string](https://www.codecademy.com/resources/docs/python/strings) containing only ASCII characters and conforming to the UUEncode format.
 
 ## Example
 
-```python
+```py
 import binascii
 
-# Example ASCII-encoded data in uuencode format
+# Inserting ASCII-encoded data in UUEncode format
 encoded_data = '*0V]D96-A9&5M>0  \n'
 
-# Decode the ASCII-encoded data
+# Decoding the ASCII-encoded data
 decoded_data = binascii.a2b_uu(encoded_data)
 
-# Displays the decoded message
+# Printing the decoded message
 print(decoded_data)
 ```
 
-The example produces the following output:
+The above example produces the following output:
 
 ```shell
 b'Codecademy'
