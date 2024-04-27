@@ -22,6 +22,7 @@ The syntax for the `.line()` method in Plotly is straightforward and highly cust
 ```pseudo
 plotly.express.line(data_frame=None, x=None, y=None, color=None, title=None, labels=None, ...)
 ```
+
 - `data_frame`: The dataset containing the variables that will be plotted.
 - `x`: The data for the x-axis, typically time or a continuous variable.
 - `y`: The data for the y-axis, representing the measured variables.
@@ -53,4 +54,4 @@ In this example, the economic growth (GDP per capita) of countries in Oceania fr
 
 ## Output
 
-![Output of the example previously exposed](https://raw.githubusercontent.com/Codecademy/docs/main/media/Output_plotly_line().png)
+![Output of the example previously exposed](<https://raw.githubusercontent.com/Codecademy/docs/main/media/Output_plotly_line().png>)
