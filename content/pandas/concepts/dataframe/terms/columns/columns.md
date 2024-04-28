@@ -23,7 +23,7 @@ Dataframe.columns
 
 ## Example
 
-In the following example, the `.columns` attribute is used to view and then modify the column labels of the `studentGrades` DataFrame:
+In the following example, the `.columns` attribute is used to modify the column labels of the `studentGrades` DataFrame:
 
 ```py
 import pandas as pd
@@ -70,7 +70,6 @@ print(studentGrades)
 The above code produces the following output:
 
 ```shell
-Updated Student Grades:
    Algebra  Biology  Literature
 0       88       94          89
 1       92       77          80

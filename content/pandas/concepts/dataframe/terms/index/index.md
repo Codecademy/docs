@@ -23,13 +23,13 @@ Dataframe.index
 
 ## Example
 
-In the following example, the `.index` attribute is used to view and then modify the row labels of the `monthlyCost` DataFrame:
+In the following example, the `.index` attribute is used to modify the row labels of the `monthlyCost` DataFrame:
 
 ```py
 
 import pandas as pd
 
-# Creating the DataFrame representing monthyly cost of 4 items
+# Creating the DataFrame representing monthly cost of 4 items
 
 data = {'April': [88, 92, 79, 85],
 'May': [94, 77, 90, 78],
@@ -49,16 +49,16 @@ The output for the above code is as follows:
 0    88       94       89
 1    92       77       80
 2    79       90       95
-2    85       78       81
+3    85       78       81
 ```
 
-Now, let’s say the owner decides to create more descriptive names for the products and change the index to reflect the new names. The `.index` attribute can be used to update the row labels accordingly:
+The owner decides to create more descriptive names for the products and wants to change the row labels to reflect the new names. The `.index` attribute can be used to update the row labels accordingly:
 
 ```py
 
 import pandas as pd
 
-# Creating the DataFrame representing monthyly cost of 4 items
+# Creating the DataFrame representing monthly cost of 4 items
 
 data = {'April': [88, 92, 79, 85],
 'May': [94, 77, 90, 78],
@@ -83,7 +83,7 @@ onions   85       78       81
 ```
 
 Codebyte Example
-The following Codebyte demonstrates how to view and update the row labels (index) of a DataFrame using the `.index` attribute:
+The following Codebyte demonstrates how to view and update a DataFrame using the `.index` attribute:
 
 ```codebyte/python
 import pandas as pd
@@ -95,6 +95,6 @@ df = pd.DataFrame(data)
 print(df)
 
 df.index = ['r1', 'r2']
-print("Updated index:")
+print("Updated DataFrame:")
 print(df)
 ```
