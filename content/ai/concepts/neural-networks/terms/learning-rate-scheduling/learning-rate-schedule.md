@@ -27,7 +27,7 @@ A **Learning Rate Schedule** is a method which determines routine modifications 
 
 - A small learning rate allows a neural network to converge to a relative maxima or minima. But, it may also give an unwelcome introduction to the vanishing gradient problem, in which changes made in backpropagation are exceedingly small, paralyzing the network.
 
-Because of the inflexibility of constant learning rates, many developers choose to implement Learning Rate Schedules that modify the network as training progresses.
+Because of the inflexibility of constant learning rates, many developers implement learning rate schedules that modify the learning rates as model training progresses.
 
 ## Types of Learning Rate Scheduling
 
