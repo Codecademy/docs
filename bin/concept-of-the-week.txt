@@ -1,1 +1,1 @@
-content/general/concepts/middleware/middleware.md
+content/general/concepts/framework/framework.md
