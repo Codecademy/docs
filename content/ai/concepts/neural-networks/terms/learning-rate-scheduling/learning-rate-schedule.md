@@ -94,4 +94,3 @@ lr = keras.callbacks.LearningRateScheduler(exponential_decay)
 > **Note:** Use of each method depends on the demands of your model and the level of complexity required. Make sure to try out each before settling on one.
 
 
-
