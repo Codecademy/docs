@@ -31,7 +31,7 @@ Because of the inflexibility of constant learning rates, many developers impleme
 
 ## Types of Learning Rate Scheduling
 
-## Constant
+### Constant Learning Rate Schedule
 
 - Surprise, surprise! You can choose a constant learning rate for the entire duration of training. This isn't very complex, and is a simple approach that many higher-level developers also use. 
 ## Example:
