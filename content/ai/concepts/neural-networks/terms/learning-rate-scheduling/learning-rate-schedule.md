@@ -17,7 +17,7 @@ CatalogContent:
   - 'machine-learning'
 ---
 
-A **Learning Rate Schedule** is a method which determines routine modifications to the learning rate of a neural network at specified times in between epochs or iterations. These schedules can be Constant, Time-Based, Step-Based, or Exponential, depending on the needs of the programmer. Choosing your learning rate schedule, similar to choosing any other hyperparameter, will impact the efficiency of your neural network significantly.
+**Learning rate schedule** is an approach that determines routine modifications to the learning rate of a neural network at specified times in between epochs or iterations. Depending on the programmers' needs, these schedules can be constant, time-based, step-based, or exponential. Choosing the learning rate schedule, similar to choosing any other hyperparameter, significantly impacts the efficiency of the neural network training process.
 
 ## Review: What are Learning Rates?
 
