@@ -1,6 +1,6 @@
 ---
 Title: 'Learning Rate Scheduling'
-Description: 'Learning rate scheduling involves planned changes to the learning rate of a neural network, allowing the function to avoid oscillations and learn more efficiently.'
+Description: 'Learning rate scheduling involves planned changes to the learning rate of a neural network while training, allowing the function to avoid oscillations and learn more efficiently.'
 Subjects:
   - 'Machine Learning'
   - 'Data Science'
