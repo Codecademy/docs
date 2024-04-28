@@ -25,7 +25,7 @@ A **Learning Rate Schedule** is a method which determines routine modifications 
 
 - A large learning rate causes a neural network to make larger adjustments. This can be more time-efficient but tends to be volatile and unpredictable. Thus, a high learning rate causes the predictions of a neural network model to oscillate without converging to a desired maxima or minima for any optimization problem.
 
-- Lower Learning Rates will allow your network to converge to a relative maxima or minima, but may also give you an unwelcome introduction to the Vanishing Gradient Problem, in which changes made in [Backpropagation](https://www.codecademy.com/resources/docs/ai/neural-networks/backpropagation) are exceedingly small, paralyzing the network.
+- A small learning rate allows a neural network to converge to a relative maxima or minima. But, it may also give an unwelcome introduction to the vanishing gradient problem, in which changes made in backpropagation are exceedingly small, paralyzing the network.
 
 Because of the inflexibility of constant learning rates, many developers choose to implement Learning Rate Schedules that modify the network as training progresses.
 
