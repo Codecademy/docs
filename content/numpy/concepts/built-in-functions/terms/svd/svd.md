@@ -1,6 +1,6 @@
 ---
 Title: '.svd()'
-Description: 'Singular Value Decomposition'
+Description: 'The `.svd()` built-in function performs the Singular Value Decomposition (SVD) on a matrix, breaking it down into singular vectors and values.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -16,78 +16,67 @@ CatalogContent:
   - 'paths/data-science-foundaions'
 ---
 
-The **`.svd()`** is a mathematical technique that decomposes a matrix into three simpler matrices.Factorizes the matrix `a` into two unitary matrices `U` and `Vh`, 
-along with a 1-D array `s` of singular values (real and non-negative), such that `a` equals `U @ S @ Vh`, where `S` is a suitably shaped matrix of zeros with `s` as 
-its main diagonal.
-
-
+The **`.svd()`** function is a mathematical technique that decomposes a matrix into three simpler matrices: it factorizes the matrix `a` into two unitary matrices `U` and `Vh`, along with a 1-D array `s` of singular values (real and non-negative). This decomposition satisfies the equation `a = U @ S @ Vh`, where `S` is a suitably shaped matrix of zeros with `s` as its main diagonal.
 ## Syntax
 
 ```pseudo
 numpy.linalg.svd(a, full_matrices=True, compute_uv=True, hermitian=False)
 ```
-
 `.svd()` provides the following arguments:
 
-- `a`: This is the input matrix to be decomposed with a.ndim >= 2. It is the matrix you want to perform Singular Value Decomposition on.
-- `full_matrices`:This parameter determines whether to compute the full-sized or reduced-sized matrices U and VT. If full_matrices is set to True, the function 
-computes the full-sized matrices. If set to False, it computes only the essential parts of U and VT. By default, it's set to True.
-- `compute_uv`: This parameter specifies whether to compute the left-singular vectors (U) and right-singular vectors (transpose of V) in addition to the singular 
-values. If compute_uv is set to True, the function computes U and VT. If set to False, it only computes the singular values. By default, it's set to True.
-- `hermitian':This parameter indicates whether the input matrix a is Hermitian (equal to its conjugate transpose). If hermitian is set to True, the function assumes 
-that a is Hermitian and uses a more efficient algorithm tailored for Hermitian matrices. If set to False, it uses a general algorithm. By default, it's set to 
-False.
+- `a`: This parameter represents the input matrix to be decomposed, where `a.ndim>=2`. It is the matrix on which Singular Value Decomposition will be performed.
+- `full_matrices`: This parameter determines whether the function computes full-sized or reduced-sized matrices `U` and `Vh`. If `full_matrices` is set to `True`, the function computes the full-sized matrices. If set to `False`, it computes only the essential parts of `U` and `Vh`. The default value is `True`.
+- `compute_uv`: This parameter specifies whether the function computes the left-singular vectors (`U`) and right-singular vectors (transpose of `V`) in addition to the singular values. When `compute_uv` is set to `True`, the function computes `U` and `Vh`. If set to `False`, it only computes the singular values. The default value is `True`.
+- `hermitian': This parameter indicates whether the input matrix `a` is Hermitian, meaning it is equal to its conjugate transpose. When `hermitian` is set to `True`, the function assumes that a is Hermitian and uses a more efficient algorithm tailored for such matrices. If set to `False`, it uses a general algorithm. The default value is `False`.
 
 ## Example
 The following example demonstrates various scenarios of Singular Value Decomposition (SVD) and uses `.svd()` using NumPy:
 
-
 ```py
 # The following example demonstrates various scenarios of Singular Value Decomposition (SVD) using NumPy:
 
-a = np.random.randn(9, 6) + 1j*np.random.randn(9, 6)
-b = np.random.randn(2, 7, 8, 3) + 1j*np.random.randn(2, 7, 8, 3)
+import numpy as np
 
-## Reconstruction based on full SVD, 2D case:
-
-U, S, Vh = np.linalg.svd(a, full_matrices=True)
-U.shape, S.shape, Vh.shape
-((9, 9), (6,), (6, 6))
-np.allclose(a, np.dot(U[:, :6] * S, Vh))
+# Example 1: Full SVD, 2D Case
+A = np.random.randn(5, 3)
+U, S, Vt = np.linalg.svd(A, full_matrices=True)
+U.shape, S.shape, Vt.shape
+((5, 5), (3,), (3, 3))
+np.allclose(A, np.dot(U[:, :3] * S, Vt))
 True
-smat = np.zeros((9, 6), dtype=complex)
-smat[:6, :6] = np.diag(S)
-np.allclose(a, np.dot(U, np.dot(smat, Vh)))
-True
-
-## Reconstruction based on reduced SVD, 2D case:
-
-U, S, Vh = np.linalg.svd(a, full_matrices=False)
-U.shape, S.shape, Vh.shape
-((9, 6), (6,), (6, 6))
-np.allclose(a, np.dot(U * S, Vh))
-True
-smat = np.diag(S)
-np.allclose(a, np.dot(U, np.dot(smat, Vh)))
+Sigma = np.zeros((5, 3))
+Sigma[:3, :3] = np.diag(S)
+np.allclose(A, np.dot(U, np.dot(Sigma, Vt)))
 True
 
-## Reconstruction based on full SVD, 4D case:
-
-U, S, Vh = np.linalg.svd(b, full_matrices=True)
-U.shape, S.shape, Vh.shape
-((2, 7, 8, 8), (2, 7, 3), (2, 7, 3, 3))
-np.allclose(b, np.matmul(U[..., :3] * S[..., None, :], Vh))
+# Example 2: Reduced SVD, 2D Case
+B = np.random.randn(4, 6)
+U, S, Vt = np.linalg.svd(B, full_matrices=False)
+U.shape, S.shape, Vt.shape
+((4, 4), (4,), (4, 6))
+np.allclose(B, np.dot(U * S, Vt))
 True
-np.allclose(b, np.matmul(U[..., :3], S[..., None] * Vh))
+Sigma = np.diag(S)
+np.allclose(B, np.dot(U, np.dot(Sigma, Vt)))
 True
 
-## Reconstruction based on reduced SVD, 4D case:
-
-U, S, Vh = np.linalg.svd(b, full_matrices=False)
-U.shape, S.shape, Vh.shape
-((2, 7, 8, 3), (2, 7, 3), (2, 7, 3, 3))
-np.allclose(b, np.matmul(U * S[..., None, :], Vh))
+# Example 3: Full SVD, 3D Case
+C = np.random.randn(3, 4, 5)
+U, S, Vt = np.linalg.svd(C, full_matrices=True)
+U.shape, S.shape, Vt.shape
+((3, 3, 3), (3,), (3, 4, 5))
+np.allclose(C, np.matmul(U[..., :3] * S[..., None, :], Vt))
 True
-np.allclose(b, np.matmul(U, S[..., None] * Vh))
+np.allclose(C, np.matmul(U, np.matmul(np.diag(S), Vt)))
+True
+
+# Example 4: Reduced SVD, 3D Case
+D = np.random.randn(2, 2, 3)
+U, S, Vt = np.linalg.svd(D, full_matrices=False)
+U.shape, S.shape, Vt.shape
+((2, 2, 2), (2,), (2, 2, 3))
+np.allclose(D, np.matmul(U * S[..., None, :], Vt))
+True
+np.allclose(D, np.matmul(U, np.matmul(np.diag(S), Vt)))
 True
 ```
