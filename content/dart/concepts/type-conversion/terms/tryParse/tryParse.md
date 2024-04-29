@@ -1,5 +1,5 @@
 ---
-Title: '.tryParse()
+Title: '.tryParse()'
 Description: 'Parses a string and converts it to a specific data type'
 Subjects: 
   - 'Web Development'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Dart, .tryParse() is a static method available on several data types, such as int, for example. the .tryParse method returns a nullable value of the target data type if the parsing is successful. If parsing fails, the returned value is null.  
+In Dart, .tryParse() is a static method available on several data types, such as int, for example. The .tryParse() method returns a nullable value of the target data type if the parsing is successful. If parsing fails, the returned value is null.  
 
 ## Syntax
 
