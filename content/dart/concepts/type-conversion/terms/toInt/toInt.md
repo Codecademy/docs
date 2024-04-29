@@ -1,14 +1,15 @@
 ---
 Title: '.toInt()'
-Description: 'Turns numeric values into integers and returns them.'
+Description: 'Converts numeric values into integers and returns them.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
 Tags:
-  - 'Methods'
   - 'Dart'
+  - 'Data Types'
+  - 'Integers'
+  - 'Methods'
   - 'Numbers'
-  - 'Types'
 CatalogContent:
   - 'learn-dart'
   - 'paths/computer-science'
@@ -22,21 +23,22 @@ In Dart, the **`.toInt()`** method converts numeric values into integers. This m
 number.toInt()
 ```
 
-- `number`: Chosen numeric value that needs to be converted into an integer value.
+- `number`: It is the chosen numeric value that needs to be converted into an integer value.
 
 ## Example
 
-In the following example, the `.toInt()` method is used to turn `myNumber` into an integer value.
+In the following example, the `.toInt()` method is used to convert `myNumber` into an integer value.
 
 ```dart
 void main() {
   var myNumber = 10.4;
-  myNumber = myNumber.toInt();
-  print(myNumber);
+  var result = myNumber.toInt();
+  print(result);
+}
 ```
 
 The code will return the following output
 
-```dart
+```shell
 10
 ```
