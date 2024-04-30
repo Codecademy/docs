@@ -51,5 +51,3 @@ The above code will return the following output:
 ```dart
 //Parsed integer: 42
 ```
-
-
