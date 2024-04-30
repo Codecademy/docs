@@ -26,9 +26,9 @@ plotly.express.line(data_frame=None, x=None, y=None, color=None, title=None, lab
 - `data_frame`: The dataset containing the variables that will be plotted.
 - `x`: The data for the x-axis, typically time or a continuous variable.
 - `y`: The data for the y-axis, representing the measured variables.
-- `color`: (Optional) A column name in the data frame that will determine the color of the lines, useful for distinguishing different groups or categories.
-- `title`: (Optional) The title of the chart.
-- `labels`: (Optional) Custom labels for different axes or legend items.
+- `color`: A column name in the data frame that will determine the color of the lines, useful for distinguishing different groups or categories. This parameter is optional.
+- `title`: The title of the chart. This parameter is optional.
+- `labels`: Custom labels for different axes or legend items. This parameter is optional.
 
 > **Note:** The ellipsis (...) indicates that there can be additional optional arguments beyond those listed here.
 
