@@ -45,7 +45,7 @@ For example, as shown below, you can choose a learning rate of `0.05` for an SGD
 Decaying learning rate scheduling involves progressively **decaying** or lowering the learning rate as the neural network training progresses. Because of this decay, the function can start with high learning rates but eventually settle into a lower learning rate as it approaches the optimal solution for its optimization function. This "best-of-both-worlds" approach combines the advantages of high and low constant learning rates. It can often involve the specification of a decay constant hyperparameter. 
 Let's look at common forms of decaying learning rates and their implementations using Stochastic Gradient Descent Optimizer in Keras. Keras also offers a LearningRateScheduler function, which can systematize the process of modifying your learning rates.
 #### Time-Based Decaying Learning Rate
-- This approach modifies the current rate based on the previous iteration. The current rate thus varies inversely with the progression of time. Here is a very basic implementation of time-based learning rate scheduling.
+This approach modifies the learning rate based on the previous iteration. The current learning rate thus varies inversely with the progression of time. The following is an implementation of time-based learning rate scheduling in Python.
 ## Example 
 ```py
 current_epoch=0
