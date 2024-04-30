@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\content\\matplotlib",
+    "\\content\\matplotlib\\concepts",
+    "\\content\\matplotlib\\concepts\\pyplot",
+    "\\content\\matplotlib\\concepts\\pyplot\\terms",
+    "\\content\\matplotlib\\concepts\\pyplot\\terms\\scatter",
+    "\\content\\plotly\\concepts",
+    "\\content\\plotly\\concepts\\express",
+    "\\content\\plotly\\concepts\\express\\terms",
+    "\\content\\plotly\\concepts\\express\\terms\\scatter",
+    "\\documentation"
+  ],
+  "SelectedNode": "\\documentation\\tags.md",
+  "PreviewInSolutionExplorer": false
+}
