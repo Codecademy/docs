@@ -28,12 +28,6 @@ dataType.tryParse(stringToParse)
 
 ## Example
 
-1. value = num.tryParse('5'); // 5
-2. value = num.tryParse('five'); // null
-
-
-## Codebyte Example (if applicable)
-
 ```dart
 void main() {
   String input = '42';
