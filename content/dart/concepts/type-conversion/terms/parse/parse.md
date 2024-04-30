@@ -1,19 +1,19 @@
-
 ---
-Title: 'parse()'
-Description: 'Converting a value from a string to a specified data type.'
+Title: '.parse()'
+Description: 'Converts a value from a string to a specified data type.'
 Subjects:
   - 'Computer Science'
+  - 'Code Foundations'
 Tags:
+  - 'Dart'
+  - 'Data Types'
   - 'Methods'
-  - 'Type Conversion'
 CatalogContent:
   - 'learn-dart'
-  - 'Dart Fundamentals'
-  - 'Data Type Conversion'
-  - 'String Manipulation'
+  - 'paths/computer-science'
 ---
-The **`parse()`** method in Dart is used to convert a string into a numeric value, such as an integer or a double.
+
+In Dart, the **`.parse()`** method is used to convert a value from a string to a specified [data type](https://www.codecademy.com/resources/docs/dart/data-types), such as an `int` or a `double`.
 
 ## Syntax
 
