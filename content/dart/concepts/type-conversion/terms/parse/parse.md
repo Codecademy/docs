@@ -19,14 +19,13 @@ In Dart, the **`.parse()`** method is used to convert a value from a string to a
 
 ```pseudo
 int.parse(string)
-double.parse(string)
 ```
 
-The `int.parse()` method converts a string to an integer, while `double.parse()` converts a string to a double.
+- `string`: The string to be converted into an `int`.
 
 ## Example
 
-The following example demonstrates the usage of `int.parse()` and `double.parse()` to convert strings into numeric values:
+In the following example, the `.parse()` method is used to convert the string `42` into an `int` and another string `3.14` into a `double`:
 
 ```dart
 void main() {
@@ -36,12 +35,10 @@ void main() {
   int number = int.parse(numberAsString);
   double doubleNumber = double.parse(doubleAsString);
 
-  print(number); // Output: 42
-  print(doubleNumber); // Output: 3.14
+  print(number);
+  print(doubleNumber);
 }
 ```
-
-In this example, we use `int.parse()` to convert the string `'42'` into an integer and `double.parse()` to convert the string `'3.14'` into a double.
 
 This results in the following output:
 
