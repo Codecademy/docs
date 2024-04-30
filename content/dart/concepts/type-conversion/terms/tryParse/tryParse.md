@@ -13,7 +13,7 @@ Tags:
   - 'Strings'
 CatalogContent: 
  - 'learn-dart'
-  - 'paths/computer-science'
+ - 'paths/computer-science'
 ---
 
 In Dart, .tryParse() is a static method available on several data types, such as int, for example. The .tryParse() method returns a nullable value of the target data type if the parsing is successful. If parsing fails, the returned value is null.  
