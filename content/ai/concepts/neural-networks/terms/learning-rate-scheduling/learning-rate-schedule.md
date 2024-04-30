@@ -35,7 +35,6 @@ Because of the inflexibility of constant learning rates, many developers impleme
 
 - Surprise, surprise! You can choose a constant learning rate for the entire duration of training. This isn't very complex and is a simple approach many higher-level developers use.
 For example, as shown below, you can choose a learning rate of `0.05` for an SGD neural network in Keras.
-## Example:
     ```py
     import keras
     keras.optimizers.SGD(lr=0.05, momentum=0.0, decay=0.0, nesterov=False)
