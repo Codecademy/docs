@@ -78,7 +78,7 @@ def step_decayer(epoch):
 learning_rate=keras.callbacks.LearningRateScheduler(step_decayer)
 ```
 #### Exponential Learning Rate Schedule
-- This implementation is a separate form of the step-based decay method, with the initial level of decay set as a variant of Euler's constant e. Here is an intuitive implementation of exponential scheduling using keras. 
+The exponential learning rate scheduling is a separate form of the step-based decay method, with the initial level of decay set as a variant of Euler's constant e. The following is an intuitive implementation of exponential scheduling using Keras.
 ```py
 import tensorflow.keras as keras
 def exponential_decay(epoch):
