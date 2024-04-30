@@ -63,7 +63,7 @@ decay_rate = lr / num_epochs
 momentum = 0.7
 sgd = keras.optimizers.SGD(lr=learning_rate, momentum=momentum, decay=decay_rate, nesterov=False)
 ```
-## Step-Based: 
+#### Step-Based Learning Rate Schedule
 - This method is a second-order implementation of decay in which the learning rate decays by a set constant hyperparameter after a manually-set number of epochs. Thus, the level at which the learning rate decays each epoch will decay itself. Here is a very basic implementation of step-based scheduling which halves the learning rate every 10 epochs.
 ##Example 
 ```py
