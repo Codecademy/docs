@@ -23,8 +23,8 @@ In Dart, **`.tryParse()`** is a static method available on several data types, s
 ```pseudo
 dataType.tryParse(stringValue)
 ```
-1. stringValue is the string one wishes to convert into a specific data type.
-2. dataType is the data type that one wishes to convert stringValue to.
+- `stringToParse` - Represents the `string` to be converted into the desired data type.
+- `dataType` - Represents the data type to be converted to stringValue.
 
 ## Example
 
