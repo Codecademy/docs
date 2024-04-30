@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Dart, the **`.toInt()`** method is used to convert numeric values, like doubles or strings representing numbers, into integers.
+In Dart, the **`.toInt()`** method is used to convert numeric values, like doubles or strings representing numbers, to integers.
 
 ## Syntax
 
@@ -38,7 +38,7 @@ void main() {
 }
 ```
 
-The code will return the following output:
+The above code will generate the following output:
 
 ```shell
 10
