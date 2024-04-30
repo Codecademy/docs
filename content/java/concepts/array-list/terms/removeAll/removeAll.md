@@ -7,12 +7,13 @@ Subjects:
 Tags:
   - 'Arrays'
   - 'Data Types'
+  - 'Java'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
 ---
 
-The `.removeAll()` method is used for removing multiple elements from instances of the `ArrayList` class.
+The **`.removeAll()`** method is used for removing multiple elements from instances of the `ArrayList` class.
 
 ## Syntax
 
@@ -24,7 +25,7 @@ arrayListInstance.removeAll(Collection c);
 
 ## Example
 
-In the example below, two `ArrayList` instance `fallMonths` and `monthsToRemove` are created and can hold `String`-type elements. Next, elements are added with [the `.add()` method](https://www.codecademy.com/resources/docs/java/array-list/add). Then, `monthsToRemove` is utilized to remove the months August and September from `fallMonths` using `.removeAll()`. Finally, all elements are removed from `fallMonths` by invoking `.removeAll()` with a reference to itself.
+In the example below, two `ArrayList` instances, `fallMonths` and `monthsToRemove`, are created to hold `String`-type elements. Elements are added to the `fallMonths` using the [`.add()`] method (https://www.codecademy.com/resources/docs/java/array-list/add). Then, `monthsToRemove` is utilized to remove the months - August and September from `fallMonths` using `.removeAll()`. Finally, all elements are removed from `fallMonths` by invoking `.removeAll()` with a reference to itself.
 
 ```java
 import java.util.ArrayList;
@@ -48,12 +49,12 @@ public class RemoveFallMonths{
     // Remove August and December from fallMonths using monthsToRemove
     fallMonths.removeAll(monthsToRemove);
 
-    System.out.println(fallMonths);
+    System.out.println("After removing specified months: " + fallMonths);```
     
     // Remove all elements from fallMonths
     fallMonths.removeAll(fallMonths);
 
-    System.out.println(fallMonths);
+System.out.println("After removing all elements: " + fallMonths);```
   }
 }
 ```
