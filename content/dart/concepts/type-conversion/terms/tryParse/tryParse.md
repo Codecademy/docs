@@ -7,9 +7,10 @@ Subjects:
   - 'Mobile Development'
   - 'Web Development'
 Tags:
-  - 'Methods'
   - 'Dart'
-  - 'Integers'
+  - 'Data Types'
+  - 'Methods'
+  - 'Strings'
 CatalogContent: 
  - 'learn-dart'
   - 'paths/computer-science'
