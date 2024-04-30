@@ -55,7 +55,6 @@ lr*=(1/(1+decay_rate*current_epoch))
 current_epoch+=1
 ```
 > **Note:** Momentum is another hyperparameter involved in scheduling, which speeds up learning when the gradient hasn't changed much and can 'roll over' local minima. Keras automatically implements momentum for you in SGDOptimizer.
-## Example 2
 ```py
 import tensorflow.keras as keras
 num_epochs=500
