@@ -2,9 +2,10 @@
 Title: '.tryParse()'
 Description: 'Parses a string and converts it to a specific data type'
 Subjects: 
-  - 'Web Development'
+  - 'Computer Science'
   - 'Developer Tools'
   - 'Mobile Development'
+  - 'Web Development'
 Tags:
   - 'Methods'
   - 'Dart'
