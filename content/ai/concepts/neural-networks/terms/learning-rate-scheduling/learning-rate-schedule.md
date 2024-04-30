@@ -46,7 +46,6 @@ Decaying learning rate scheduling involves progressively **decaying** or lowerin
 Let's look at common forms of decaying learning rates and their implementations using Stochastic Gradient Descent Optimizer in Keras. Keras also offers a LearningRateScheduler function, which can systematize the process of modifying your learning rates.
 #### Time-Based Decaying Learning Rate
 This approach modifies the learning rate based on the previous iteration. The current learning rate thus varies inversely with the progression of time. The following is an implementation of time-based learning rate scheduling in Python.
-## Example 
 ```py
 current_epoch=0
 num_epochs=500
