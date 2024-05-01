@@ -59,7 +59,7 @@ This produces the following output:
 
 ## Codebyte Example
 
-The following example creates a 2-dimensional array of random integers (between 1 and 20) and calculates the median using `.median()`, demonstrating different uses of the `axis` parameter.
+The following example creates a 2-dimensional array of random integers (between 1 and 20) and calculates the median using `.median()`, demonstrating different uses of the `axis` parameter:
 
 ```codebyte/python
 import numpy as np
