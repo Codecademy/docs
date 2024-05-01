@@ -71,12 +71,12 @@ print(randarr)
 print("The median along the flattened array is:")
 print(np.median(randarr))
 
-print("The median along the vertical axis (axis = 0) is:")
+print("The median along the vertical axis (axis=0) is:")
 print(np.median(randarr, axis=0))
 
-print("The median along the horizontal axis (axis = 1) is:")
+print("The median along the horizontal axis (axis=1) is:")
 print(np.median(randarr, axis=1))
 
-print("The median along the horizontal axis (axis = 1) with keepdims = True is:")
+print("The median along the horizontal axis (axis=1) with 'keepdims=True' is:")
 print(np.median(randarr, axis=1, keepdims=True))
 ```
