@@ -15,19 +15,19 @@ The **`forEach()`** method in Dart serves as a mechanism for iterating through e
 
 ## Syntax
 
-```
+```pseudo
 collection.forEach((element) {
   // Code to be executed for each element on the collection
 });
 ```
 
-- `collection`: The list, map or set to iterate over.
+- `collection`: The list, map, or set to iterate over.
 - `element`: A variable representing the current element on each iteration.
 - `{}` function to execute on each iteration.
 
 ## Example
 
-A list of numbers is declared. Each number is multiplied by 2 and printed utilizing the forEach method.
+In the example below, a list of numbers is declared. Each number is multiplied by 2 and printed utilizing the `forEach` method:
 
 ```dart
 void main() {
@@ -42,7 +42,7 @@ void main() {
 - Declare a list of integers named `numbers`.
 - The `forEach` method is applied to `numbers`, with an anonymous function that takes each `number` from the list and prints its value multiplied by 2.
 
-The above code gives the following output:
+The above code returns the following output:
 
 ```shell
 2
