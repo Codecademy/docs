@@ -19,17 +19,16 @@ The **`.median()`** function calculates the median value of elements in an array
 ## Syntax
 
 ```pseudo
-numpy.median(a, axis, out, keepdims)
+numpy.median(a, axis=None, out=None, overwrite_input=False, keepdims=False)
 ```
 
-The `a` parameter is required and represents the array of elements to calculate the median from. All other parameters are optional.
+- `a`: The array of elements to calculate the median from.
+- `axis`: The axis or axes along which to calculate the median. By default, it considers the array to be flattened (works on all axes). `axis=0` works along the column and `axis=1` works along the row.
+- `out`: A different array to place the result. It must have the same shape as the expected result.
+- `overwrite_input`: A parameter which, if `True`, allows memory usage of the array for calculations.
+- `keepdims`: A parameter which, if `True`, keeps reduced axes in the result as dimensions with size one.
 
-Parameters of the `.median()` function:
-
-- `a`: (Input) The array of elements to calculate the median from.
-- `axis`: (Default = None) An int or tuple of ints specifying the axis/axes along which to calculate the median. By default, it considers the array to be flattened (works on all axes). `axis = 0` works along the column, and `axis = 1` works along the row.
-- `out`: (Default = None) A different array to place the result. It must have the same shape as the expected result.
-- `keepdims`: (Default = False) A boolean; if `True` will keep reduced axes in the result as dimensions with size one.
+> **Note:** The `a` parameter is the only required parameter for this function. All other parameters are optional.
 
 ## Example
 
