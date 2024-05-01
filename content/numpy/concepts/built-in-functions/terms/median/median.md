@@ -32,7 +32,7 @@ numpy.median(a, axis=None, out=None, overwrite_input=False, keepdims=False)
 
 ## Example
 
-The following example creates an array then applies a few `.median()` operations, and returns each result to the console.
+The following example creates an array, then applies a few `.median()` operations, and returns each result to the console:
 
 ```py
 import numpy as np
