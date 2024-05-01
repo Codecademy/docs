@@ -3,6 +3,7 @@ Title: 'Math Methods'
 Description: 'Performs mathematical operations on arrays.'
 Subjects:
   - 'Computer Science'
+  - 'Data Science'
 Tags:
   - 'NumPy'
   - 'Math'
