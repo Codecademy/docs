@@ -40,13 +40,13 @@ import numpy as np
 a = np.array([[0,1,2],[3,4,5]])
 
 print(np.median(a))
-#computes the median of the entire array
+# Computes the median of the entire array
 
 print(np.median(a, axis=0))
-#computes the median along the vertical axis (column) of the array
+# Computes the median along the vertical axis (column) of the array
 
 print(np.median(a, axis=1))
-#computes the median along the horizontal axis (row) of the array
+# Computes the median along the horizontal axis (row) of the array
 ```
 
 This produces the following output:
