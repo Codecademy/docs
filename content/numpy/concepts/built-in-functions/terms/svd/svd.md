@@ -1,6 +1,6 @@
 ---
 Title: '.svd()'
-Description: 'The `.svd()` built-in function performs the Singular Value Decomposition (SVD) on a matrix, breaking it down into singular vectors and values.'
+Description: 'Performs the Singular Value Decomposition (SVD) on a matrix, breaking it down into singular vectors and values.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -17,11 +17,13 @@ CatalogContent:
 ---
 
 The **`.svd()`** function is a mathematical technique that decomposes a matrix into three simpler matrices: it factorizes the matrix `a` into two unitary matrices `U` and `Vh`, along with a 1-D array `s` of singular values (real and non-negative). This decomposition satisfies the equation `a = U @ S @ Vh`, where `S` is a suitably shaped matrix of zeros with `s` as its main diagonal.
+
 ## Syntax
 
 ```pseudo
 numpy.linalg.svd(a, full_matrices=True, compute_uv=True, hermitian=False)
 ```
+
 `.svd()` provides the following arguments:
 
 - `a`: This parameter represents the input matrix to be decomposed, where `a.ndim>=2`. It is the matrix on which Singular Value Decomposition will be performed.
@@ -49,3 +51,28 @@ U, S, V = np.linalg.svd(A)
 print("\nFactor of the given array by Singular Value Decomposition:") 
 print("\nU=", U, "\n\ns=", S, "\n\nV=", V)
 ```
+
+This produces the following output:
+
+```shell
+Original 2D matrix:
+[[ 0.24802525  0.08222177 -1.08276458]
+ [ 1.69668935  0.4094856  -0.23407198]
+ [ 0.40216763  2.30735008 -0.33489652]
+ [-1.00632881  0.43372609 -1.97297003]
+ [ 1.44445438  2.76595846  0.08637226]]
+
+Factor of the given array by Singular Value Decomposition:
+
+U= [[-0.06608409 -0.31521528  0.48785517 -0.65606804 -0.47733037]
+ [-0.28695698  0.23340955  0.79622903  0.47670088  0.04417332]
+ [-0.56145359 -0.20509892 -0.32859417  0.36975665 -0.63088049]
+ [-0.01794366 -0.88995149  0.09929954  0.22345786  0.3845394 ]
+ [-0.77313419  0.10990942 -0.10090663 -0.39456001  0.47362822]] 
+
+s= [4.01680091 2.5291219  1.49878361] 
+
+V= [[-0.45503019 -0.88743457  0.07353512]
+ [ 0.50994021 -0.19198956  0.83851117]
+ [ 0.73000582 -0.41904641 -0.53989962]]
+ ```
