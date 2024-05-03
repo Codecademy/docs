@@ -1,6 +1,6 @@
 ---
 Title: '.toLocaleTimeString()'
-Description: 'Returns a modified string from a given Date object, usually for events. 
+Description: 'Returns a string representing the time portion of a Date object.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -12,94 +12,56 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **.toLocaleTimeString()** date method returns a modified string of a given [`Date` object](https://www.codecademy.com/resources/docs/javascript/dates), usually for events. It is translated to a specific language according to an event's `locale` and other options.
+The **`.toLocaleTimeString()`** date method returns a string representation of a given [`Date`](https://www.codecademy.com/resources/docs/javascript/dates) object according to an event's `locale` and other options.
 
 ## Syntax
 
 ```pseudo
-const myEventDate = new Date('December 31, 2021 15:00:00');
-
-const locale = 'en-US';
-
-const options = {
-	hour: 'numeric',
-	minute: 'numeric'
-    	second: 'numeric',
-};
-
-myEventDate.toLocaleTimeString(locale, options);
+dateObject.toLocaleTimeString([locales [, options]])
 ```
+- `locales`: A string representing a BCP 47 language tag, such as 'en-US' for US English or an array of BCP 47 language tags.
+- `options`: An object containing properties that control how the time string is formatted.
 
-## Example Without Parameters
+## Example 1
 
-When used without any parameters, 'toLocaleTimeString()' returns a string with the `hour`, `minute`, and `second` options defaulted to `numeric`. How they're arranged and formatted depends on the default `locale` in which the method was used.
-
-In the example below, `.toLocaleTimeString()` is being used in the `en-US` locale (more specifically, in the `America/Los_Angeles` timezone).
+In the following example, a Date object representing August 3, 2003, is created, and then formatted it using the `.toLocaleTimeString()` method:
 
 ```js
-const date = new Date(2021, 11, 31, 15, 0, 0);
-console.log(date.toLocaleTimeString());
+const date = new Date('2003-08-03T00:00:00');
+const timeString = date.toLocaleTimeString();
+console.log(timeString);
 ```
+
+The output of the above code is:
 
 ```shell
- 3:00:00 PM
+12:00:00 AM
 ```
 
-## Format Based on Language/Region
+## Example 2
 
-Dates with a specific language format can be returned by passing a country or region's short-code (string) as the `locale` parameter, as shown in the example below:
+In the following example, a `Date` object representing a specific date and time is created and then formatted into time strings using both English and Chinese locales:
 
 ```js
-const date = new Date(2021, 11, 31 15,0,0);
+const randomDate = new Date(1995, 11, 17, 3, 24, 0); 
 
-// US English - hour:min:seconds
-console.log(date.toLocaleTimeString('en-US'));
+const options = {
+  hour12: true,
+  hour: 'numeric',
+  minute: 'numeric',
+  second: 'numeric'
+};
 
-// Korean - displying PM in Korean language followed by time
-console.log(date.toLocaleTimeString('ko-KR'));
+const timeStringEnglish = randomDate.toLocaleTimeString('en-US', options);
+const timeStringChinese = randomDate.toLocaleTimeString('zh-CN', options);
+
+console.log("English (en-US):", timeStringEnglish); 
+console.log("Chinese (zh-CN):", timeStringChinese);
 ```
 
 The output of the following code is as follows:
 
 ```shell
-03:00:00 PM
-오후 3:00:00
-```
-
-## Format with Options
-
-The `options` parameter can be used to provide limit formatting to the returned time string:
-
-```js
-const birthtime = new Date(2022, 3, 11 15,0);
-
-const options = {
-	hour: 'numeric',
-        minute: 'numeric'
-};
-
-console.log(birthtime.toLocaleTimeString('en-US', options));
-```
-
-The output of the following code is as follows:
-
-```shell
-03:00 PM
-```
-
-## Codebyte Example
-
-In the following example the variables `region` and `options` can be modified, to print the Date in a custom format:
-
-```codebyte/javascript
-const currentTime = new Date(Date.now());
-
-const region = 'de-DE';
-const options = {
- 	 hour: 'numeric',
-	 minute: 'numeric'
-    	 second: 'numeric',
-};
-
-console.log(currentTime.toLocaleTimeString(region, options));
+English (en-US): 3:24:00 AM
+Chinese (zh-CN): 上午3:24:00
 ```
