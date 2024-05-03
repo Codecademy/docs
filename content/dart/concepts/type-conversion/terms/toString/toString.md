@@ -2,17 +2,17 @@
 Title: '.toString()'
 Description: 'Converts the object into a string representation.'
 Subjects:
- - 'Computer Science'
- - 'Mobile Development'
- - 'Code Foundations'
+  - 'Computer Science'
+  - 'Mobile Development'
+  - 'Code Foundations'
 Tags:
- - 'Dart'
- - 'Data Types'
- - 'Strings'
- - 'Method'
+  - 'Dart'
+  - 'Data Types'
+  - 'Strings'
+  - 'Method'
 CatalogContent:
- - 'learn-dart'
- - paths/computer-science'
+  - 'learn-dart'
+  - paths/computer-science'
 ---
 
 In Dart, the **`.toString()`** method converts the object into a string representation.
@@ -20,14 +20,14 @@ In Dart, the **`.toString()`** method converts the object into a string represen
 ## Syntax
 
 ```pseudo
-val.toString()
+typeObject.toString()
 ```
 
-Above, `typeObject.toString()` is calling the `toString()` method on the object `val`. This method returns a string representation of the object.
+Above, `typeObject.toString()` calls the `toString()` method on the object `typeObject`.
 
 ## Example
 
-The following example demonstrates the usage of the `.toString()` method is used to convert numbers to a string:
+The following example demonstrates how the `.toString()` method is used to convert numbers to a string:
 
 ```dart
 void main() {
@@ -37,10 +37,10 @@ void main() {
 }
 ```
 
-The code shown above will generate the output:
+The code shown above will generate the following output:
 
 ```shell
 123
 ```
 
-**Note:** The output '123' is a string. This can be confirmed by checking 'result is String' and 'result.runtimeType'.
+**Note:** The output `123` is a string. This can be confirmed by checking `result is String` and `result.runtimeType`.
