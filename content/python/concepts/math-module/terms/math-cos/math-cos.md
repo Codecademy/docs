@@ -30,13 +30,17 @@ Use `math.cos()` to return the cosine of a `90` degree angle:
 import math
 
 print(math.cos(90))
+```
 
-# Output: -0.4480736161291702
+The above code gives the following output:
+
+```shell
+-0.4480736161291702
 ```
 
 ## Codebyte Example
 
-The following example is runnable and uses the `math.cos()` function to return the cosine of a number:
+Run the following example that uses the `math.cos()` function to understand its working:
 
 ```codebyte/python
 import math
