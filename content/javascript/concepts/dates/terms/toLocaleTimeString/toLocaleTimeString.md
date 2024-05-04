@@ -19,6 +19,7 @@ The **`.toLocaleTimeString()`** date method returns a string representation of a
 ```pseudo
 dateObject.toLocaleTimeString([locales [, options]])
 ```
+
 - `locales`: A string representing a BCP 47 language tag, such as 'en-US' for US English or an array of BCP 47 language tags.
 - `options`: An object containing properties that control how the time string is formatted.
 
@@ -43,20 +44,20 @@ The output of the above code is:
 In the following example, a `Date` object representing a specific date and time is created and then formatted into time strings using both English and Chinese locales:
 
 ```js
-const randomDate = new Date(1995, 11, 17, 3, 24, 0); 
+const randomDate = new Date(1995, 11, 17, 3, 24, 0);
 
 const options = {
   hour12: true,
   hour: 'numeric',
   minute: 'numeric',
-  second: 'numeric'
+  second: 'numeric',
 };
 
 const timeStringEnglish = randomDate.toLocaleTimeString('en-US', options);
 const timeStringChinese = randomDate.toLocaleTimeString('zh-CN', options);
 
-console.log("English (en-US):", timeStringEnglish); 
-console.log("Chinese (zh-CN):", timeStringChinese);
+console.log('English (en-US):', timeStringEnglish);
+console.log('Chinese (zh-CN):', timeStringChinese);
 ```
 
 The output of the following code is as follows:
