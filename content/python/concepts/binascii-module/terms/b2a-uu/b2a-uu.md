@@ -1,44 +1,46 @@
 ---
-Title: 'The Title' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'A brief description.' # Required; ideally under 150 characters and starts with a present-tense verb (used in search engine results and content previews)
-Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
-  - 'A subject name'
-  - 'A second subject name'
-  - 'An nth subject name'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
-  - 'A tag'
-  - 'A second tag'
-  - 'An nth tag'
+Title: '.a2b_uu()'
+Description: 'Returns UUEncode formatted ASCII data from binary data.'
+Subjects:
+  - 'Computer Science'
+Tags:
+  - 'Encoding'
+  - 'Unicode'
 CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
   - 'learn-example-course'
   - 'paths/example-path'
+# links for me while writing
+# https://github.com/Codecademy/docs/blob/main/documentation/subjects.md
+# https://github.com/Codecademy/docs/blob/main/documentation/tags.md
 ---
 
-[A brief definition - make sure first mention of term is in **bold**.]
+The **.b2a_uu()** function returns ASCII data in the UUEncode format from binary data.
 
 ## Syntax
 
-[Text, code, images, parameters, etc. about the syntax]
+```pseudo
+binascii.b2a_uu(data, *, backtick=false)
+```
+
+- data: The binary data to be converted.
+- backtick: If true, replaces 0's with `.
 
 ## Example
 
-[Text, code, images, etc. about example 1]
+```py
+import binascii
 
-## Codebyte Example (if applicable)
+# Create binary data to encode
+binaryData = b"some text"
 
-We can currently support:
+# Encode the binary data to ASCII in the UUEncode format
+encodedData = binascii.b2a_uu(binaryData)
 
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
+print(encodedData)
+```
 
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
+This example outputs:
 
-```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
+```shell
+b')<V]M92!T97AT\n'
 ```
