@@ -1,6 +1,6 @@
 ---
 Title: '.index'
-Description: 'Represents the index labels of the DataFrame.'
+Description: 'Represents the row labels of the DataFrame.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -13,20 +13,19 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.index`** attribute represents the row labels (index) of the DataFrame. It is an Index object and can be used to view or assign new values to the row labels.
+The **`.index`** attribute represents the row labels (index) of the DataFrame. It returns an Index object and can be used to view or assign new values to the row labels.
 
 ## Syntax
 
 ```pseudo
-Dataframe.index
+pandas.DataFrame.index
 ```
 
 ## Example
 
-In the following example, the `.index` attribute is used to modify the row labels of the `monthlyCost` DataFrame:
+In the following example, the `.index` attribute is used to view and modify the row labels of the `monthlyCost` DataFrame:
 
 ```py
-
 import pandas as pd
 
 # Creating the DataFrame representing monthly cost of 4 items
@@ -37,53 +36,40 @@ data = {'April': [88, 92, 79, 85],
 
 monthlyCost = pd.DataFrame(data)
 
-# Printing the DataFrame
+# Print the DataFrame
+print(f'{monthlyCost} \n')
 
-print(monthlyCost)
+# modify the row labels
+monthlyCost.index = ['bread', 'milk', 'apples', 'onions']
+
+# print the modified monthlyCost Dataframe
+print(f'{monthlyCost} \n')
+
+# print the row label or index of monthlyCost DataFrame
+print(monthlyCost.index)
 ```
 
 The output for the above code is as follows:
 
 ```shell
-    April    May    June
-0    88       94       89
-1    92       77       80
-2    79       90       95
-3    85       78       81
+  April  May  June
+0     88   94    89
+1     92   77    80
+2     79   90    95
+3     85   78    81 
+
+        April  May  June
+bread      88   94    89
+milk       92   77    80
+apples     79   90    95
+onions     85   78    81 
+
+Index(['bread', 'milk', 'apples', 'onions'], dtype='object')
 ```
 
-The owner decides to create more descriptive names for the products and wants to change the row labels to reflect the new names. The `.index` attribute can be used to update the row labels accordingly:
+## Codebyte Example
 
-```py
-
-import pandas as pd
-
-# Creating the DataFrame representing monthly cost of 4 items
-
-data = {'April': [88, 92, 79, 85],
-'May': [94, 77, 90, 78],
-'June': [89, 80, 95, 81]}
-
-monthlyCost = pd.DataFrame(data)
-
-# Updating the names of the items
-monthlyCost.index = ['bread', 'milk', 'apples', 'onions']
-
-print(monthlyCost)
-```
-
-The above code produces the following output:
-
-```shell
-        April    May      June
-bread    88       94       89
-milk     92       77       80
-apples   79       90       95
-onions   85       78       81
-```
-
-Codebyte Example
-The following Codebyte demonstrates how to view and update a DataFrame using the `.index` attribute:
+The following Codebyte Example demonstrates how to view and update a DataFrame using the `.index` attribute:
 
 ```codebyte/python
 import pandas as pd
@@ -94,6 +80,7 @@ df = pd.DataFrame(data)
 
 print(df)
 
+# updating the row label
 df.index = ['r1', 'r2']
 print("Updated DataFrame:")
 print(df)
