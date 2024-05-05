@@ -18,10 +18,10 @@ CatalogContent:
 
 ## Sintax
 
-A general sintax for any kind of graph is as follow:
+A general Plotly syntax is shown below:
 
 ```pseudo
-# Import the Plotly librarie
+# Import the Plotly library
 import plotly.graph_objects as go
 
 # Define the data for the graph
@@ -31,7 +31,7 @@ y_data = [...]  # List of y-axis values
 # Create the graph object
 fig = go.Figure(...) # parameters depend of the kind of graph
 
-# Add tags and title
+# Add title and labels
 fig.update_layout(
     title='Graph title',
     xaxis_title='X-axis Label',
@@ -45,9 +45,27 @@ fig.show()
 
 > **Note:** The ellipsis (...) indicates that there are values and parameters to be filled in.
 
-## Subsection 2
+## Example
 
-[Text about subsection 2]
+See how to use the Plotly library with a bar graph example below:
+
+```python
+# Import the Plotly library
+import plotly.graph_objects as go
+
+# Define the data for the graph
+x = ['Apples', 'Pears', 'Grapes']
+y = [10, 5, 3]
+
+# Create the bar graph
+fig = go.Figure(data=go.Bar(x=x, y=y))
+
+# Add title and labels
+fig.update_layout(title='Bar graph', xaxis_title='Fruit', yaxis_title='Quantity')
+
+# Display the graph
+fig.show()
+```
 
 ## Subsection n
 
