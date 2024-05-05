@@ -37,7 +37,7 @@ void main() {
 }
 ```
 
-The output of the above is:
+The output of the above code is:
 
 ```shell
 true
