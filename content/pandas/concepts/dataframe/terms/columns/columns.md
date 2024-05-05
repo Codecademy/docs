@@ -59,7 +59,7 @@ Index(['Math', 'Science', 'English'], dtype='object')
 0    88       94       89
 1    92       77       80
 2    79       90       95
-3    85       78       81 
+3    85       78       81
 
 Index(['Algebra', 'Biology', 'Literature'], dtype='object')
    Algebra  Biology  Literature
