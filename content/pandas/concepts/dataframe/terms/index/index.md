@@ -56,13 +56,13 @@ The output for the above code is as follows:
 0     88   94    89
 1     92   77    80
 2     79   90    95
-3     85   78    81 
+3     85   78    81
 
         April  May  June
 bread      88   94    89
 milk       92   77    80
 apples     79   90    95
-onions     85   78    81 
+onions     85   78    81
 
 Index(['bread', 'milk', 'apples', 'onions'], dtype='object')
 ```
