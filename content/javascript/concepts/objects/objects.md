@@ -168,7 +168,7 @@ Person {
 */
 
 console.log(person.greeting());
-// Output: "Hi, I am Elizabeth Harmon"
+// Output: Hi, I am Elizabeth Harmon.
 ```
 
 ## Video Walkthrough
