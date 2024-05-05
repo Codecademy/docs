@@ -1,41 +1,40 @@
 ---
 Title: '.scatter()'
 Description: Creates a scatter plot by plotting markers on the plane
-Subjects: 
+Subjects:
   - 'Data Science'
   - 'Data Visualization'
-Tags: 
+Tags:
   - 'Graphs'
   - 'Libraries'
   - 'Plotly'
-CatalogContent: 
+CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
 ---
+
 The scatter function **scatter()** in the Plotly library that creates a scatter plot to visualize the relationship between variables using markers on the Cartesian plane.
 
 ## Syntax
 
-
 ```pseudo
-plotly.express.scatter(data_frame, x, y, color, symbol, size, hover_name, hover_data, custom_data, text, facet_row, facet_col, 
+plotly.express.scatter(data_frame, x, y, color, symbol, size, hover_name, hover_data, custom_data, text, facet_row, facet_col,
 facet_col_wrap, facet_row_spacing, facet_col_spacing, error_x, error_x_minus, error_y, error_y_minus, animation_frame, animation_group,
 category_orders, labels, orientation, color_discrete_sequence, color_discrete_map, color_continuous_scale, range_color, color_continous_midpoint,
-symbol_sequence, symbol_map, opacity, size_max, marginal_x, marginal_y, trendline, trendline_options, trendline_color_override, 
+symbol_sequence, symbol_map, opacity, size_max, marginal_x, marginal_y, trendline, trendline_options, trendline_color_override,
 trendline_scope, log_x, log_y, range_x, range_y
 render_mode, title, template, width, height)
 ```
 
 Both 'x' and 'y' parameters are required, and represent str or int or Series or array-like objects. Other parameters are optional and modify plot features like marker size and/or color.
-If data_frame is mising, a DataFrame gets constructed using other arguments. 
-
+If data_frame is mising, a DataFrame gets constructed using other arguments.
 
 `.scatter()` takes the following arguments:
 
 - `data_frame`: Pandas DataFrame holding the data to visualize.
 - `x` : Column name in `data_frame`, Series or array_like object for x-axis data.
-- `y` :  Column name in `data_frame`, Series or array_like object for y-axis data.
-- `color`:  Column name in `data_frame`, Series or array_like object specifying marker colors.
+- `y` : Column name in `data_frame`, Series or array_like object for y-axis data.
+- `color`: Column name in `data_frame`, Series or array_like object specifying marker colors.
 - `symbol`: Column in `data_frame`, Series or array_like object assigning marker symbols.
 - `size`: Column in `data_frame`, Series or array_like object assgining marker sizes.
 - `hover_name`: A column in `data_frame` or a Series or array_like object. Values from this column appear bold in hover tooltip.
@@ -50,14 +49,14 @@ If data_frame is mising, a DataFrame gets constructed using other arguments.
 - `error_x`: The column name or array_like object used to size error bars on x-axis.
 - `error_x_minus`: The column name in `data_frame`, Series or array_like object used to size x-axis bars in negative direction.
 - `error_y` : The column name or array_like object used to size error bars on y-axis.
-- `error_y_minus` :  The column name in `data_frame`, Series or array_like object used to size y-axis bars in negative direction.
+- `error_y_minus` : The column name in `data_frame`, Series or array_like object used to size y-axis bars in negative direction.
 - `animation_frame` : The column name or index of the data frame used to group data points in the animated scatter plots.
 - `animation_group` : Further control animation grouping (advanced)
 - `category_orders` : Define custom order for categorical values.
 - `labels` : Override default axis titles, legend entries and hover text.
-- `orientation` : Set scatter plot layout to "v" (vertical) or "h" (horizontal) 
+- `orientation` : Set scatter plot layout to "v" (vertical) or "h" (horizontal)
 - `color_discrete_sequence` : Define color sequences for discrete data.
-- `color_discrete_map` :  Define color maps for discrete data.
+- `color_discrete_map` : Define color maps for discrete data.
 - `color_continous_scale` : Color scale for continuous data.
 - `range_color` : Data range for continuous data.
 - `color_continuous_midpoint` : Set midpoint in color scale for continuous data.
@@ -84,6 +83,7 @@ If data_frame is mising, a DataFrame gets constructed using other arguments.
 ## Example
 
 The example below demonstrates the use of `scatter()` to plot values.
+
 ```py
 # x and y are array_like objects
 import plotly.express as px
@@ -93,15 +93,13 @@ y = [4, 6, 5, 8, 2]
 # Create a scatter plot
 fig = px.scatter(x = x ,y = y)
 
-# Display the plot 
+# Display the plot
 fig.show()
 ```
 
 Output:
 
 ![Output of plotly scatter() example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/plotlyScatterOutput1.png)
-
-
 
 ```py
 import plotly.express as px
