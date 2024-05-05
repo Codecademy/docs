@@ -17,7 +17,6 @@ The **`.contains()`** method in Dart checks if a specified element is present in
 
 ## Syntax
 
-
 ```pseudo
 bool contains(Object element)
 ```
@@ -25,6 +24,8 @@ bool contains(Object element)
 - `element`: It is the object that needs to be checked in the queue.
 
 ## Example 1
+
+In the following example, the code checks whether the `queue` contains an element `3` or not:
 
 ```dart
 import 'dart:collection';
@@ -36,9 +37,15 @@ void main() {
 }
 ```
 
-This method returns `true` if the element is found in the queue, otherwise it returns `false`.
+The output of the above is:
+
+```shell
+true
+```
 
 ## Example 2
+
+The following example uses the '.contains()' method to check if the name 'Bob' is present in the queue:
 
 ```dart
 import 'dart:collection';
@@ -49,10 +56,3 @@ void main() {
   print(names.contains('Bob')); 
 }
 ```
-In this example, we first add a collection of names to the queue and then use the '.contains()' method to check if the name 'Bob' is present in the queue. The method will return `true` in this case because 'Bob' is indeed present in the queue.
-
-
-
-
-
-
