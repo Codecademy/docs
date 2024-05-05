@@ -18,6 +18,7 @@ The scatter function **scatter()** in the Plotly library that creates a scatter 
 ## Syntax
 
 ```pseudo
+
 plotly.express.scatter(data_frame, x, y, color, symbol, size, hover_name, hover_data, custom_data, text, facet_row, facet_col,
 facet_col_wrap, facet_row_spacing, facet_col_spacing, error_x, error_x_minus, error_y, error_y_minus, animation_frame, animation_group,
 category_orders, labels, orientation, color_discrete_sequence, color_discrete_map, color_continuous_scale, range_color, color_continous_midpoint,
