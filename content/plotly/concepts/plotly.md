@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Plotly** is a Python data visualization library for creating interactive charts and graphics. Provides a variety of options for creating amazing visualizations, including line and bar graphs, heat maps or scatter plots.
+**`Plotly`** is a Python library for interactive charts and graphics, offering a variety of visualization options like `line graphs`, `bar charts`, `heatmaps`, and `scatter plots`.
 
 ## Sintax
 
