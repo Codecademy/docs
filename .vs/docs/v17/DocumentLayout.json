@@ -1,17 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ACCOUNTS3\\Desktop\\code_docs\\docs\\",
+  "WorkspaceRootPath": "C:\\Users\\ACCOUNTS3\\source\\repos\\docs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACCOUNTS3\\Desktop\\code_docs\\docs\\content\\matplotlib\\concepts\\pyplot\\terms\\scatter\\scatter.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:content\\matplotlib\\concepts\\pyplot\\terms\\scatter\\scatter.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACCOUNTS3\\Desktop\\code_docs\\docs\\content\\plotly\\concepts\\express\\terms\\scatter\\scatter.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACCOUNTS3\\source\\repos\\docs\\content\\plotly\\concepts\\express\\terms\\scatter\\scatter.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:content\\plotly\\concepts\\express\\terms\\scatter\\scatter.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACCOUNTS3\\Desktop\\code_docs\\docs\\documentation\\tags.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACCOUNTS3\\source\\repos\\docs\\content\\matplotlib\\concepts\\pyplot\\terms\\scatter\\scatter.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:content\\matplotlib\\concepts\\pyplot\\terms\\scatter\\scatter.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACCOUNTS3\\source\\repos\\docs\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACCOUNTS3\\source\\repos\\docs\\documentation\\tags.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:documentation\\tags.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     }
   ],
@@ -22,49 +26,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "scatter.md",
+              "DocumentMoniker": "C:\\Users\\ACCOUNTS3\\source\\repos\\docs\\content\\matplotlib\\concepts\\pyplot\\terms\\scatter\\scatter.md",
+              "RelativeDocumentMoniker": "content\\matplotlib\\concepts\\pyplot\\terms\\scatter\\scatter.md",
+              "ToolTip": "C:\\Users\\ACCOUNTS3\\source\\repos\\docs\\content\\matplotlib\\concepts\\pyplot\\terms\\scatter\\scatter.md",
+              "RelativeToolTip": "content\\matplotlib\\concepts\\pyplot\\terms\\scatter\\scatter.md",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAuwCEAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-04-30T06:43:43.516Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\ACCOUNTS3\\source\\repos\\docs\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\ACCOUNTS3\\source\\repos\\docs\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-05-05T10:37:37.614Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "tags.md",
-              "DocumentMoniker": "C:\\Users\\ACCOUNTS3\\Desktop\\code_docs\\docs\\documentation\\tags.md",
-              "RelativeDocumentMoniker": "documentation\\tags.md",
-              "ToolTip": "C:\\Users\\ACCOUNTS3\\Desktop\\code_docs\\docs\\documentation\\tags.md",
-              "RelativeToolTip": "documentation\\tags.md",
-              "ViewState": "AQIAALoAAAAAAAAAAAAAAPkAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-04-30T07:34:14.606Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "scatter.md",
-              "DocumentMoniker": "C:\\Users\\ACCOUNTS3\\Desktop\\code_docs\\docs\\content\\matplotlib\\concepts\\pyplot\\terms\\scatter\\scatter.md",
-              "RelativeDocumentMoniker": "content\\matplotlib\\concepts\\pyplot\\terms\\scatter\\scatter.md",
-              "ToolTip": "C:\\Users\\ACCOUNTS3\\Desktop\\code_docs\\docs\\content\\matplotlib\\concepts\\pyplot\\terms\\scatter\\scatter.md",
-              "RelativeToolTip": "content\\matplotlib\\concepts\\pyplot\\terms\\scatter\\scatter.md",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAuwCEAAABVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-04-30T06:43:43.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "scatter.md",
-              "DocumentMoniker": "C:\\Users\\ACCOUNTS3\\Desktop\\code_docs\\docs\\content\\plotly\\concepts\\express\\terms\\scatter\\scatter.md",
+              "DocumentMoniker": "C:\\Users\\ACCOUNTS3\\source\\repos\\docs\\content\\plotly\\concepts\\express\\terms\\scatter\\scatter.md",
               "RelativeDocumentMoniker": "content\\plotly\\concepts\\express\\terms\\scatter\\scatter.md",
-              "ToolTip": "C:\\Users\\ACCOUNTS3\\Desktop\\code_docs\\docs\\content\\plotly\\concepts\\express\\terms\\scatter\\scatter.md",
+              "ToolTip": "C:\\Users\\ACCOUNTS3\\source\\repos\\docs\\content\\plotly\\concepts\\express\\terms\\scatter\\scatter.md",
               "RelativeToolTip": "content\\plotly\\concepts\\express\\terms\\scatter\\scatter.md",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAgAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2024-04-30T06:43:23.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "tags.md",
+              "DocumentMoniker": "C:\\Users\\ACCOUNTS3\\source\\repos\\docs\\documentation\\tags.md",
+              "RelativeDocumentMoniker": "documentation\\tags.md",
+              "ToolTip": "C:\\Users\\ACCOUNTS3\\source\\repos\\docs\\documentation\\tags.md",
+              "RelativeToolTip": "documentation\\tags.md",
+              "ViewState": "AQIAALoAAAAAAAAAAAAAAPkAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-04-30T07:34:14.606Z",
               "EditorCaption": ""
             }
           ]
