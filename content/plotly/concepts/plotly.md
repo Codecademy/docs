@@ -1,6 +1,6 @@
 ---
 Title: 'Plotly'
-Description: 'A Python data visualization library for creating interactive charts and graphics.'
+Description: 'Plotly is a Python library for creating interactive visualizations and charts.'
 Subjects:
   - 'Data Visualization'
   - 'Data Science'
