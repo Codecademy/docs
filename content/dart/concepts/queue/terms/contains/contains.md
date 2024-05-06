@@ -1,19 +1,16 @@
 ---
 Title: '.contains()'
 Description: 'Checks if a specified element is present in the queue.'
-Subjects:
- -'Code foundations'
- -'Computer science'
-Tags:
- -'Dart'
- -'Concepts'
- -'Queue'
-CatalogContent:
- -'learn-dart'
- -'paths/computer-science'
+Subjects: -'Code foundations'
+  -'Computer science'
+Tags: -'Dart'
+  -'Concepts'
+  -'Queue'
+CatalogContent: -'learn-dart'
+  -'paths/computer-science'
 ---
 
-The **`.contains()`** method in Dart checks if a specified element is present in the given queue. 
+The **`.contains()`** method in Dart checks if a specified element is present in the given queue.
 
 ## Syntax
 
@@ -33,7 +30,7 @@ import 'dart:collection';
 void main() {
   var queue = Queue();
   queue.addAll([1, 2, 3, 4, 5]);
-  print(queue.contains(3)); 
+  print(queue.contains(3));
 }
 ```
 
@@ -53,6 +50,12 @@ import 'dart:collection';
 void main() {
   var names = Queue<String>();
   names.addAll(['Alice', 'Bob', 'Charlie', 'David']);
-  print(names.contains('Bob')); 
+  print(names.contains('Bob'));
 }
+```
+
+The output of the above is:
+
+```shell
+false
 ```
