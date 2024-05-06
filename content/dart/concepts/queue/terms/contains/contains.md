@@ -1,13 +1,16 @@
 ---
 Title: '.contains()'
 Description: 'Checks if a specified element is present in the queue.'
-Subjects: -'Code foundations'
-  -'Computer science'
-Tags: -'Dart'
-  -'Concepts'
-  -'Queue'
-CatalogContent: -'learn-dart'
-  -'paths/computer-science'
+Subjects: 
+  - 'Code foundations'
+  - 'Computer science'
+Tags: 
+  - 'Dart'
+  - 'Concepts'
+  - 'Queue'
+CatalogContent: 
+  - 'learn-dart'
+  - 'paths/computer-science'
 ---
 
 The **`.contains()`** method in Dart checks if a specified element is present in the given queue.
