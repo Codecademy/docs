@@ -6,8 +6,8 @@ Subjects:
   - 'Data Science'
   - 'Data Visualization'
 Tags:
-  - 'Graphs'
   - 'Data'
+  - 'Graphs'
   - 'Libraries'
 CatalogContent:
   - 'learn-python-3'
