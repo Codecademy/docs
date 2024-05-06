@@ -19,7 +19,7 @@ CatalogContent:
 
 ## Syntax  
 ```javascript {copy} 
-+dateObj.toLocaleString(locales, options)
+dateObj.toLocaleString(locales, options)
 ```
 - `dateObj`: The `Date` object used to format as a string based on the locale.
 - `locales`: A `string` or an `array of strings` that specifies one or more `locales` or language tags for formatting the date. 
