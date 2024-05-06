@@ -29,7 +29,7 @@ x_data = [...]  # List of x-axis values
 y_data = [...]  # List of y-axis values
 
 # Create the graph object
-fig = go.Figure(...) # parameters depend of the kind of graph
+fig = go.Figure(...) # parameters depend on the kind of graph
 
 # Add title and labels
 fig.update_layout(
@@ -47,7 +47,7 @@ fig.show()
 
 ## Example
 
-See how to use the Plotly library with a bar graph example below:
+See how to use the Plotly library with a bar chart representing fruits and their quantities in the example below.
 
 ```python
 # Import the Plotly library
@@ -67,25 +67,6 @@ fig.update_layout(title='Bar graph', xaxis_title='Fruit', yaxis_title='Quantity'
 fig.show()
 ```
 
-## Subsection n
+The previous code produces the following output:
 
-[Text about subsection n]
-
-## Codebyte Example (if applicable)
-
-We can currently support:
-
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
-
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
-
-```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
-```
+![Example output](<https://raw.githubusercontent.com/Codecademy/docs/main/media/plotly-output.png>)
