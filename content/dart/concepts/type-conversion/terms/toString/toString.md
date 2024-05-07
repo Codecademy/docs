@@ -2,17 +2,17 @@
 Title: '.toString()'
 Description: 'Converts the object into a string representation.'
 Subjects:
+  - 'Code Foundations'
   - 'Computer Science'
   - 'Mobile Development'
-  - 'Code Foundations'
 Tags:
   - 'Dart'
   - 'Data Types'
-  - 'Strings'
   - 'Method'
+  - 'Strings'
 CatalogContent:
   - 'learn-dart'
-  - paths/computer-science'
+  - 'paths/computer-science'
 ---
 
 In Dart, the **`.toString()`** method converts the object into a string representation.
@@ -43,4 +43,4 @@ The code shown above will generate the following output:
 123
 ```
 
-**Note:** The output `123` is a string. This can be confirmed by checking `result is String` and `result.runtimeType`.
+> **Note:** The output `123` is a string. This can be confirmed by checking `result is String` and `result.runtimeType`.
