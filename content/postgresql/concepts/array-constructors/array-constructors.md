@@ -23,7 +23,7 @@ Array constructor [***syntax*** ](https://www.postgresql.org/docs/current/arrays
 column_name datatype []
 ```
 
-### Example 1
+## Example 1
 
 To create an array with specific element, you can use the `ARRAY` keyword, or you could write arrays as string litrals by using the curely braces `{}`.
 
@@ -47,7 +47,7 @@ when the example above is run it would create a a table name called `example1` w
 | 2  | {5,6,7,8} | 
 
 
-### Example 2
+## Example 2
 
 Now lets create a naw table called  `example 2` with `team` column and add  two-dimensional values of type `text`:
 
@@ -68,7 +68,7 @@ INSERT INTO example2 (team) VALUES ('{{"Kim","Tayo"},{"Achur","Timi"}}');
 | 2  |  {{Kim,Tayo},{Achur,Timi}}  |
 
 
-### Example 3
+## Example 3
 
 We have now successfully learn how to insert arrays into our postgres table, now lets learn
 how to access our array element using the `example3` table below:
