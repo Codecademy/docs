@@ -247,7 +247,6 @@ Parameters
 Perceptrons
 Phaser
 Physics
-Plotly
 Pointers
 Positioning
 PostgreSQL
