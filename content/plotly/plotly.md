@@ -20,7 +20,7 @@ CatalogContent:
 
 The guidelines for installing the Plotly library can be found [here](https://plotly.com/python/getting-started/). The official release of plotly can be installed with [pip](https://www.codecademy.com/resources/docs/python/pip):
 
-The descriptions of the Plotly modules are shown below:
+Plotly comprises several modules, each serving distinct purposes within the realm of data visualization. Below is an overview of these modules:
 
 ### plotly.express
 
