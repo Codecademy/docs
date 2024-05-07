@@ -28,7 +28,7 @@ The `plotly.express` module, typically imported as `px`, provides an easy way to
 
 ### plotly.graph_objects
 
-The `plotly.graph_objects` module, often imported as `go`, contains objects like `Figure`, `layout`, and data that define the plots, e.g. `line charts` and `scatter plots`. `plotly.express` uses this module internally, however, `plotly.graph_objects` offers a finer degree of control over the visualization.
+The `plotly.graph_objects` module, commonly imported as `go`, includes objects like `Figure`, `layout`, and `data` that define plots such as `line charts` and `scatter plots`. While `plotly.express` internally uses this module, `plotly.graph_objects` provides a higher degree of control over visualization elements.
 
 ### plotly.figure_factory
 
