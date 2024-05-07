@@ -24,7 +24,7 @@ Plotly comprises several modules, each serving distinct purposes within the real
 
 ### plotly.express
 
-The `plotly.express` module, usually imported as `px`, provides an easy way of creating different types of figures. Offers over 30 functions for creating various types of plots and they are intended to be straightforward and easy to learn. In essence, plotly express simplifies the creation of interactive and visually appealing plots in Python such as `bar charts`, `histograms`, `line graphs`, and more.
+The `plotly.express` module, typically imported as `px`, provides an easy way to create various types of figures. It offers over 30 functions for generating different plot types, such as `bar charts`, `histograms`, `line graphs`, and more. These functions are designed to be straightforward and easy to learn, simplifying the creation of interactive and visually appealing plots in Python.
 
 ### plotly.graph_objects
 
