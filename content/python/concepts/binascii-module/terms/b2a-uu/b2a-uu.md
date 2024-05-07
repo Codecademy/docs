@@ -39,6 +39,6 @@ print(encodedData)
 
 This outputs:
 
-```py
+```shell
 b')<V]M92!T97AT\n'
 ```
