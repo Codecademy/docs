@@ -32,4 +32,4 @@ The `plotly.graph_objects` module, commonly imported as `go`, includes objects l
 
 ### plotly.figure_factory
 
-The `plotly.figure_factory` module, commonly imported as `ff`, contains specialized functions to create special types of graphs that are difficult to create using the standard `plotly.graph_objects` or `plotly.express`, such as `dendrograms`, `quiver plots`, `hexagonal binning`, `tile maps`, `streamline plots`, and others.
+The `plotly.figure_factory` module, often imported as `ff`, features specialized functions for creating complex graphs that may be challenging to build using standard `plotly.graph_objects` or `plotly.express` methods. Examples of such graphs include `dendrograms`, `quiver plots`, `hexagonal binning`, `tile maps`, `streamline plots`, and others.
