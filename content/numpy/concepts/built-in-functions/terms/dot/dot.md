@@ -1,19 +1,15 @@
 ---
 Title: '.dot()'
-
-Description: 'Dot product of two arrays.' 
-
+Description: 'Computes the dot product of two arrays.' 
 Subjects: 
-  - 'Data Science'
   - 'Computer Science'
-
+  - 'Data Science'
 Tags: 
-  - 'Data Structures'
   - 'Arrays'
-  - 'Linear Algebra'
+  - 'Data Structures'
   - 'Functions'
+  - 'Linear Algebra'
   - 'NumPy'
-
 CatalogContent: 
   - 'learn-python-3'
   - 'paths/computer-science'
