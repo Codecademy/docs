@@ -119,7 +119,9 @@ In the following example, a particular set of styles are applied to all the `h1`
 ### Example
 
 ```css
-h1, h2, p {
+h1,
+h2,
+p {
   text-align: center;
   color: red;
 }
