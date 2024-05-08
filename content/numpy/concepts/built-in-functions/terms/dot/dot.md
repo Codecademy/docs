@@ -24,10 +24,10 @@ The **`np.dot()`** function computes the dot product of two arrays `a` and `b`, 
 ```pseudo
 numpy.dot(a, b, out=None)
 ```
-Parameters:
-- 'a: array_like, first argument'
-- 'b: array_like, second argument'
-- 'out: ndarray, optional'
+
+- `a`: The first array (or scalar) to be multiplied.
+- `b`: The second array (or scalar) to be multiplied.
+- `out`: Optional parameter that specifies the output array where the result is stored. If not provided, a new array is created.
 
 Returns:
 - output:ndarray 
