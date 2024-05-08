@@ -38,8 +38,19 @@ from PIL import Image
 # Original image is 2000x2000 pixels.
 img = Image.open('image_path.jpg')
 
-# Now the image is resized to 1000x1000 pixels.
+# Will resize the image to 1000x1000 pixels.
 img_resized = img.resized((1000, 1000))
+
+# Will open the picture
+img_resized.show()
+ 
+print(img_resized.height, img_resized.width)
+```
+
+The output will show the new dimensions of the image in pixels.
+
+```shell
+1000 1000
 ```
 
 ## Example 2
@@ -50,8 +61,16 @@ from PIL import Image
 # Original image is 2000x2000 pixels.
 img = Image.open('image_path.jpg')
 
-# Now the image is resized to 4000x4000 pixels.
+# Will resize the image to 4000x4000 pixels.
 img_resized = img.resized((img.height*2, img.width*2))
+
+img_resized.show()
+```
+
+The output will show the new dimensions of the image in pixels.
+
+```shell
+4000 4000
 ```
 
 ## Example 3
@@ -62,8 +81,20 @@ from PIL import Image
 # Original image is 2000x2000 pixels.
 img = Image.open('image_path.jpg')
 
-# Now the image is resized to 1000x1000 pixels.
+# Will resize the image is to 1000x1000 pixels.
 img_resized = img.resized((1000, 1000), Image.Resampling.LANCZOS, box=(1000, 1000, 2000, 2000), reducing_gap=2.0)
+
+img_resized.show()
 ```
 
-## Codebyte Example (if applicable)
+The output will show the new dimensions of the image in pixels.
+
+```shell
+1000 1000
+```
+
+## Codebyte Example
+
+```codebyte/python
+
+```
