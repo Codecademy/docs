@@ -50,7 +50,6 @@ print(np.dot(array_a, array_b))
 ```codebyte/python
 import numpy as np
 
-# creating two matrices 
 m = [[3, 5], [1, 4], [5, 4]] 
 n = [[7, 3, 1], [2, 7, 2]] 
 print("Matrix m :") 
