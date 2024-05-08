@@ -1,1 +1,1 @@
-content/lua/concepts/tables/tables.md
+content/javascript/concepts/sort/sort.md
