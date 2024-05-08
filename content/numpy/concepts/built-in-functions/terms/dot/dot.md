@@ -29,9 +29,6 @@ numpy.dot(a, b, out=None)
 - `b`: The second array (or scalar) to be multiplied.
 - `out`: Optional parameter that specifies the output array where the result is stored. If not provided, a new array is created.
 
-Returns:
-- output:ndarray 
-
 ## Example
 
 ```py
