@@ -57,7 +57,6 @@ print(m)
 print("Matrix n :") 
 print(n) 
   
-# computing product 
 result = np.dot(m, n) 
   
 # printing the result 
