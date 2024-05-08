@@ -1,17 +1,19 @@
 ---
 Title: '.b2a_uu()'
-Description: 'Returns UUEncode formatted ASCII data from binary data.'
+Description: 'Returns UUEncoded ASCII data from binary data.'
 Subjects:
   - 'Computer Science'
+  - 'Data Science'
 Tags:
   - 'Encoding'
+  - 'Functions'
   - 'Unicode'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-The **.b2a_uu()** function returns ASCII data in the UUEncode format from binary data.
+The **`.b2a_uu()`** [function](https://www.codecademy.com/resources/docs/python/functions) returns ASCII data in the UUEncode format from binary data.
 
 ## Syntax
 
@@ -19,9 +21,9 @@ The **.b2a_uu()** function returns ASCII data in the UUEncode format from binary
 binascii.b2a_uu(data, *, backtick=false)
 ```
 
-- data: The binary data to be converted.
-- \*: Any arguments to the right must use a keyword for entry.
-- backtick: If true, replaces 0's with `.
+- `data`: The binary data to be UUEncoded.
+- `*`: This indicates that any arguments following it must be passed using keyword syntax.
+- `backtick`: When set to True, it replaces zero bytes in the UUEncoded data with a backtick character `` (`) ``.
 
 ## Example
 
@@ -31,7 +33,7 @@ import binascii
 # Create binary data to encode
 binaryData = b"some text"
 
-# Encode the binary data to ASCII in the UUEncode format
+# Encode the binary data to UUEncoded ASCII format
 encodedData = binascii.b2a_uu(binaryData)
 
 print(encodedData)
