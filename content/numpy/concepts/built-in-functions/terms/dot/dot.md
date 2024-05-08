@@ -41,9 +41,9 @@ array_b = [1,2,3]
 # computing and printing the product
 print(np.dot(array_a, array_b))
 ```
+
 ```shell
 26
-```
 
 ## Codebyte Example
 ```py
