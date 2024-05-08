@@ -46,7 +46,8 @@ print(np.dot(array_a, array_b))
 26
 
 ## Codebyte Example
-```py
+
+```codebyte/python
 import numpy as np
 
 # creating two matrices 
