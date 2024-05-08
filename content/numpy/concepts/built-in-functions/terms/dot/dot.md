@@ -59,7 +59,6 @@ print(n)
   
 result = np.dot(m, n) 
   
-# printing the result 
 print("The matrix multiplication is :") 
 print(result) 
 ```
