@@ -31,6 +31,8 @@ numpy.dot(a, b, out=None)
 
 ## Example
 
+The usage of the .dot() method is demonstrated in the following example:
+
 ```py
 import numpy as np
 
