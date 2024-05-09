@@ -21,8 +21,8 @@ The **`.issubset()`** method returns `True` if all elements in a set exist withi
 set.issubset(set1)
 ```
 
-- set: The set whose elements are being checked for existence within `set1`.
-- set1: The set being searched for the presence of elements from the `set`.
+- `set`: The set whose elements are being checked for existence within `set1`.
+- `set1`: The set being searched for the presence of elements from the `set`.
 
 ## Example
 
