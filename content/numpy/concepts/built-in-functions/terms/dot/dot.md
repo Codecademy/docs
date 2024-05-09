@@ -25,8 +25,8 @@ In NumPy, the **`.dot()`** method computes the dot product of two arrays. For 1-
 numpy.dot(a, b, out=None)
 ```
 
-- `a`: The first array (or scalar) to be multiplied.
-- `b`: The second array (or scalar) to be multiplied.
+- `a`: The first array, which could be 1-D, 2-D, or higher dimensional.
+- `b`: The second array, having compatible dimensions with `a`, and also could be 1-D, 2-D, or higher dimensional.
 - `out`: Optional parameter that specifies the output array where the result is stored. If not provided, a new array is created.
 
 ## Example
