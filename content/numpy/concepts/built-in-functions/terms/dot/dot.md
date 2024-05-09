@@ -64,6 +64,6 @@ print(n)
   
 result = np.dot(m, n) 
   
-print("The matrix multiplication is :") 
+print("The dot product of matrix m and n is :") 
 print(result) 
 ```
