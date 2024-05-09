@@ -1,6 +1,6 @@
 ---
 Title: '.issubset()'
-Description: 'Returns True if all elements in a set exist in another; otherwise, it returns False.'
+Description: 'Checks whether all elements in one set exist within another specified set.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -13,18 +13,20 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.issubset()`** method returns `True` if all elements in a set exist within another specified set. If any elements are not contained within the specified set, it returns `False`.
+The **`.issubset()`** method checks whether all elements in one set exist within another specified set. It returns `True` if this condition is met; otherwise, it returns `False`.
 
 ## Syntax
 
 ```pseudo
-set.issubset(set1)
+set1.issubset(set2)
 ```
 
-- `set`: The set whose elements are being checked for existence within `set1`.
-- `set1`: The set being searched for the presence of elements from the `set`.
+- `set1`: The set whose elements are being checked for existence within `set2`.
+- `set2`: The set being searched for the presence of elements from the `set1`.
 
 ## Example
+
+The following example demonstrate the usage of `.issubset()` method:
 
 ```py
 set_A = {"red", "blue", "green"}
