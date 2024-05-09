@@ -26,7 +26,7 @@ set1.issubset(set2)
 
 ## Example
 
-The following example demonstrate the usage of `.issubset()` method:
+The following example demonstrates the usage of the `.issubset()` method:
 
 ```py
 set_A = {"red", "blue", "green"}
