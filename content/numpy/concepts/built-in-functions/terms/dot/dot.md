@@ -44,6 +44,7 @@ print(np.dot(array_a, array_b))
 
 ```shell
 26
+```
 
 ## Codebyte Example
 
@@ -62,14 +63,3 @@ result = np.dot(m, n)
 print("The matrix multiplication is :") 
 print(result) 
 ```
-
-```shell
-Matrix m :
-[[3, 5], [1, 4], [5, 4]]
-Matrix n :
-[[7, 3, 1], [2, 7, 2]]
-The matrix multiplication is :
-[[31 44 13]
- [15 31  9]
- [43 43 13]]
- ```
