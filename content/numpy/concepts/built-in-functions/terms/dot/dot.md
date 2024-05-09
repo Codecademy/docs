@@ -17,7 +17,7 @@ CatalogContent:
   - 'paths/data-science-foundations'  
 ---
 
-The **`np.dot()`** function computes the dot product of two arrays `a` and `b`, with the result varying based on the input. The function returns an [`ndarray`](https://www.codecademy.com/resources/docs/numpy/ndarray), and if both `a` and `b` are either scalars or 1-D arrays, a scalar is returned. Otherwise, an array is returned.
+In NumPy, the **`.dot()`** method computes the dot product of two arrays. For 1-D arrays, it provides a scalar value. When both arrays are 2-D, it performs matrix multiplication, resulting in a new 2-D array. Further details about various scenarios, including arrays with more than two dimensions, can be found in the NumPy [`.dot()` documentation](https://numpy.org/doc/stable/reference/generated/numpy.dot.html). This method is widely utilized in linear algebra and numerical computations.
 
 ## Syntax
 
