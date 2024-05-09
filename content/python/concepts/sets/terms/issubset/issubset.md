@@ -1,6 +1,6 @@
 ---
 Title: '.issubset()'
-Description: 'Returns `True` if all elements in a set exist in another; otherwise, it returns `False`.'
+Description: 'Returns True if all elements in a set exist in another; otherwise, it returns False.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -21,8 +21,8 @@ The **`.issubset()`** method returns `True` if all elements in a set exist withi
 set.issubset(set1)
 ```
 
-- set: The set that contains the elements that will be searched for in the specified `set1`.
-- set1: The set where the elements of `set` will be searched in.
+- set: The set whose elements are being checked for existence within `set1`.
+- set1: The set being searched for the presence of elements from the `set`.
 
 ## Example
 
