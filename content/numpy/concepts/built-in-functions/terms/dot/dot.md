@@ -42,6 +42,8 @@ array_b = [1,2,3]
 print(np.dot(array_a, array_b))
 ```
 
+This produces the following output:
+
 ```shell
 26
 ```
