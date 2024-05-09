@@ -23,7 +23,7 @@ binascii.b2a_uu(data, *, backtick=false)
 
 - `data`: The binary data to be UUEncoded.
 - `*`: This indicates that any arguments following it must be passed using keyword syntax.
-- `backtick`: When set to True, it replaces zero bytes in the UUEncoded data with a backtick character `` (`) ``.
+- `backtick`: When set to True, it replaces zero bytes in the UUEncoded data with a backtick character `(`)`.
 
 ## Example
 
@@ -39,7 +39,7 @@ encodedData = binascii.b2a_uu(binaryData)
 print(encodedData)
 ```
 
-This outputs:
+This produces the following output:
 
 ```shell
 b')<V]M92!T97AT\n'
