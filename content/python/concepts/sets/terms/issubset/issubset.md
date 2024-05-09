@@ -1,29 +1,28 @@
 ---
-Title: ".issubset()"
-Description: "Returns True if all elements in a set exist in another; otherwise, it returns False."
+Title: '.issubset()'
+Description: 'Returns `True` if all elements in a set exist in another; otherwise, it returns `False`.'
 Subjects:
-  - "Code Foundations"
-  - "Computer Science"
+  - 'Code Foundations'
+  - 'Computer Science'
 Tags:
-  - "Collections"
-  - "Functions"
-  - "Methods"
-  - "Sets"
+  - 'Collections'
+  - 'Methods'
+  - 'Sets'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/computer-science"
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
-The **`issubset()`** method returns True if all of the elements in a set exist within another given set. If all of the elements are not contained within the given set, it will return False instead.
+The **`.issubset()`** method returns `True` if all elements in a set exist within another specified set. If any elements are not contained within the specified set, it returns `False`.
 
 ## Syntax
 
 ```pseudo
-set_A.issubset(set_B)
-
-# Alternatively, a shorter syntax version can be used to do the same thing.
-set_A <= set_B
+set.issubset(set1)
 ```
+
+- set: The set that contains the elements that will be searched for in the specified `set1`.
+- set1: The set where the elements of `set` will be searched in.
 
 ## Example
 
@@ -34,9 +33,9 @@ set_B = {"pink", "yellow", "red", "blue", "green"}
 print(set_A.issubset(set_B))
 ```
 
-This would print `True`, because `set_B` contains all of the elements in `set_B`:
+This would print `True`, because `set_B` contains all of the elements in `set_A`. It produces the following output:
 
-```py
+```shell
 True
 ```
 
@@ -47,6 +46,6 @@ x = {"cat", "dog", "fish"}
 y = {"eagle", "dog", "mouse", "fish", "gorilla", "cat"}
 z = {"apple", "banana", "cherry"}
 
-print(x.issubset(y)) # True, because y contains all of the elements in x.
-print(x.issubset(z)) # False, because z doesn't contain all of the elements in x.
+print(x.issubset(y))
+print(x.issubset(z))
 ```
