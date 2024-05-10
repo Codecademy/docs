@@ -37,7 +37,7 @@ multi-line comment
 
 ## Example
 
-Here's an example of how you can use comments in PostgreSQL:
+Here's an example of how comments are used in PostgreSQL:
 
 `-- Selects employee IDs and their names from the employees table.
 SELECT id, 'name'  -- 'name' is enclosed in single quotes to represent a string literal
