@@ -39,6 +39,8 @@ multi-line comment
 
 Here's an example of how comments are used in PostgreSQL:
 
+```sql
+
 `-- Selects employee IDs and their names from the employees table.
 SELECT id, 'name'  -- 'name' is enclosed in single quotes to represent a string literal
 FROM employees; 
@@ -49,5 +51,6 @@ FROM employees;
 */
 SELECT *
 FROM departments;
+```
 
 > **Note:** In the above example, comments are used to describe what the following SQL statement does. The PostgreSQL compiler will ignore these comments when executing the SQL code.
