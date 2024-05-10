@@ -114,7 +114,7 @@ elm1, elm2, elm3 {
 }
 ```
 
-In the following example, a particular set of styles are applied to all the `h1`, `h2`, and `p` elements:
+In the following example, a particular set of styles is applied to all the `h1`, `h2`, and `p` elements:
 
 ### Example
 
