@@ -1,6 +1,6 @@
 ---
 Title: 'Comments'
-Description: 'Comments in PostgreSQL are explanatory lines that are ignored by the compiler. They are used to describe the functionality of SQL statements, or to temporarily disable a piece of SQL code. Adding comments to your SQL scripts is considered a best practice, as it makes your code easier to understand and maintain.'
+Description: 'Comments in PostgreSQL are explanatory lines ignored by the compiler, enhancing code clarity and maintenance.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -14,19 +14,19 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Comments** are text placed inside code that is not executed. They are intended as documentation or explanation of the code they are a part of.
+In PostgreSQL, **comments** are annotations added to SQL code to provide information about the code without affecting its execution. They are primarily used for documentation purposes and enhancing code readability. Comments in PostgreSQL can be single-line or multi-line and are initiated with `--` for single-line comments and `/* */` for multi-line comments.  
 
 ## Syntax
 
 In PostgreSQL, you can use either single-line or multi-line comments.
 
-- Single-line comments start with `--` and end at the end of the line.
+- Single-line comment:
 
 ```sql
 -- This is a single-line comment
 ```
 
-- Multi-line comments start with `/*` and end with `*/`.
+- Multi-line comment:
 
 ```sql
 /*
@@ -39,17 +39,15 @@ multi-line comment
 
 Here's an example of how you can use comments in PostgreSQL:
 
-```sql
--- This is a single-line comment
-SELECT *
-FROM employees; -- This comment is at the end of the line
+`-- Selects employee IDs and their names from the employees table.
+SELECT id, 'name'  -- 'name' is enclosed in single quotes to represent a string literal
+FROM employees; 
 
 /*
-This is a multi-line comment
-that spans multiple lines
+  Selects all columns from the departments table.
+  This query retrieves detailed information about departments.
 */
 SELECT *
 FROM departments;
-```
 
-In the above example, comments are used to describe what the following SQL statement does. The PostgreSQL compiler will ignore these comments when executing the SQL code.
+> **Note:** In the above example, comments are used to describe what the following SQL statement does. The PostgreSQL compiler will ignore these comments when executing the SQL code.
