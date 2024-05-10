@@ -88,7 +88,7 @@ Python evaluates an expression in order of precedence as follows:
 - `and`
 - `or`
 
-## Membership operator
+## Membership operators
 - The `in` operator returns `True` if the element in the right CONTAINS the element in the left
 - The `not in` operator returns `False` if the element in the right NOT CONTAINS the element in the left
 
