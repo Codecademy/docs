@@ -1,20 +1,20 @@
 ---
 Title: '.dot()'
-Description: 'Computes the dot product of two arrays.' 
-Subjects: 
+Description: 'Computes the dot product of two arrays.'
+Subjects:
   - 'Computer Science'
   - 'Data Science'
-Tags: 
+Tags:
   - 'Arrays'
   - 'Data Structures'
   - 'Functions'
   - 'Linear Algebra'
   - 'NumPy'
-CatalogContent: 
+CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
   - 'paths/data-science'
-  - 'paths/data-science-foundations'  
+  - 'paths/data-science-foundations'
 ---
 
 In NumPy, the **`.dot()`** method computes the dot product of two arrays. For 1-D arrays, it provides a scalar value. When both arrays are 2-D, it performs matrix multiplication, resulting in a new 2-D array. Further details about various scenarios, including arrays with more than two dimensions, can be found in the NumPy [`.dot()` documentation](https://numpy.org/doc/stable/reference/generated/numpy.dot.html). This method is widely utilized in linear algebra and numerical computations.
@@ -31,20 +31,20 @@ numpy.dot(a, b, out=None)
 
 ## Example
 
-The usage of the .dot() method is demonstrated in the following example:
+The usage of the `.dot()` method is demonstrated in the following example:
 
 ```py
 import numpy as np
 
-# defining 2 arrays
+# Define two arrays
 array_a = [3,4,5]
 array_b = [1,2,3]
 
-# computing and printing the product
+# Compute the dot product and print the result
 print(np.dot(array_a, array_b))
 ```
 
-This produces the following output:
+The above code will produce the following output:
 
 ```shell
 26
@@ -55,15 +55,17 @@ This produces the following output:
 ```codebyte/python
 import numpy as np
 
-m = [[3, 5], [1, 4], [5, 4]] 
-n = [[7, 3, 1], [2, 7, 2]] 
-print("Matrix m :") 
-print(m) 
-print("Matrix n :") 
-print(n) 
-  
-result = np.dot(m, n) 
-  
-print("The dot product of matrix m and n is :") 
-print(result) 
+m = [[3, 5], [1, 4], [5, 4]]
+n = [[7, 3, 1], [2, 7, 2]]
+
+print("Matrix m :")
+print(m)
+
+print("Matrix n :")
+print(n)
+
+result = np.dot(m, n)
+
+print("The dot product of matrix m and n is :")
+print(result)
 ```
