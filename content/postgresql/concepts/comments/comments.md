@@ -6,7 +6,8 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Comments'
-  - 'Documentation'
+  - 'Database'
+  - 'PostgreSQL'
 CatalogContent:
   - 'getting-started-off-platform-for-data-science'
   - 'paths/design-databases-with-postgresql'
