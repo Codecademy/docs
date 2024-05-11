@@ -21,10 +21,9 @@ In Python, the **`.discard()`** method in [sets](https://www.codecademy.com/reso
 ```pseudo
 set.discard(value)
 ```
-- This method takes exactly one argument;
 
-- It differs from the `.remove()` method because it **will not raise a KeyError** if the specified item doesn't exist in the set.
-
+- `set`: This refers to the set from which the specified element is to be removed.
+- `value`: This denotes the element that should be removed from the set.
 
 ## Example
 
@@ -62,3 +61,4 @@ print(coffee_beans)
 coffee_beans.discard('Vietnam')
 coffee_beans.discard('Brazil')
 print(coffee_beans)
+```
