@@ -18,7 +18,7 @@ In Python, the **`.discard()`** method in [sets](https://www.codecademy.com/reso
 
 ## Syntax
 
-```
+```pseudo
 set_name.discard(value)
 ```
 - This method takes exactly one argument;
