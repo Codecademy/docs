@@ -22,7 +22,7 @@ In Python, the **`.discard()`** method in [sets](https://www.codecademy.com/reso
 set.discard(value)
 ```
 
-- `set`: This refers to the set from which the specified element is to be removed.
+- `set`: Refers to the set from which the specified element is to be removed.
 - `value`: This denotes the element that should be removed from the set.
 
 ## Example
@@ -37,8 +37,8 @@ print(coffee_set)
 coffee_set.discard('espresso') 
 print(coffee_set)
 
-# removing 'aeropress' from the set 
-coffee_set.discard('aeropress') 
+# removing 'latte' from the set 
+coffee_set.discard('latte') 
 print(coffee_set)
 ```
 
@@ -50,9 +50,9 @@ The code above produces  the following output:
 {'flat_white', 'cappuccino', 'filter'}
 ```
 
-## Codebyte Example
+In the example, our code continues to execute without errors even though we attempt to remove the element 'latte' which doesn't even exist in the set.
 
-In the example, our code continues to execute without errors even though we attempt to remove elements ('Vietnam' and 'Brazil') from the set coffee_beans that are not present in the set.
+## Codebyte Example
 
 ```codebyte/python
 coffee_beans = {'Brazil', 'Ethiopia', 'Kenya', 'Columbia'}
