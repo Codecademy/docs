@@ -34,10 +34,12 @@ The example below shows possible usage of the method:
 coffee_set = {'espresso', 'flat_white', 'cappuccino', 'filter'}
 print(coffee_set)
 
-coffee_set.discard('espresso')
+# removing 'espresso' from the set 
+coffee_set.discard('espresso') 
 print(coffee_set)
 
-coffee_set.discard('aeropress')
+# removing 'aeropress' from the set 
+coffee_set.discard('aeropress') 
 print(coffee_set)
 ```
 
