@@ -45,7 +45,7 @@ print(coffee_set)
 
 The code above produces  the following output:
 
-```py
+```shell
 {'espresso', 'flat_white', 'cappuccino', 'filter'}
 {'flat_white', 'cappuccino', 'filter'}
 {'flat_white', 'cappuccino', 'filter'}
