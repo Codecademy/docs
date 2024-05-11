@@ -27,7 +27,7 @@ set.discard(value)
 
 ## Example
 
-The example below shows possible usage of the method:
+The example below shows the usage of the `.discard()` method:
 
 ```py
 coffee_set = {'espresso', 'flat_white', 'cappuccino', 'filter'}
