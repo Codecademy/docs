@@ -53,7 +53,7 @@ The code above produces  the following output:
 
 ## Codebyte Example
 
-In the example, we see that our code continues to execute though there are already no coffee beans from Vietnam in our set.
+In the example, our code continues to execute without errors even though we attempt to remove elements ('Vietnam' and 'Brazil') from the set coffee_beans that are not present in the set.
 
 ```codebyte/python
 coffee_beans = {'Brazil', 'Ethiopia', 'Kenya', 'Columbia'}
