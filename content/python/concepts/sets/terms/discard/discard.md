@@ -43,7 +43,7 @@ coffee_set.discard('aeropress')
 print(coffee_set)
 ```
 
-The output would be the following:
+The code above produces  the following output:
 
 ```py
 {'espresso', 'flat_white', 'cappuccino', 'filter'}
