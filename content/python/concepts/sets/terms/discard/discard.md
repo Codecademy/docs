@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.discard()` method removes the specified item from the set of objects. 
+In Python, the **`.discard()`** method in [sets](https://www.codecademy.com/resources/docs/python/sets) removes a specified element if present; however, if the element is not found, it takes no action and does not raise an error.
 
 ## Syntax
 
