@@ -9,9 +9,12 @@ Tags:
   - 'Graphs'
   - 'Libraries'
   - 'Methods'
+  - 'Plotly'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
+  - 'paths/data-science'
+  - 'paths/data-science-foundations'
 ---
 
 In Plotly, the **`.bar()`** method is part of the high-level interface named `plotly.express`. It generates charts representing categorical data with vertical bars. 
@@ -22,12 +25,12 @@ In Plotly, the **`.bar()`** method is part of the high-level interface named `pl
 plotly.express.bar(x, y, labels, title, width, height, ...)
 ```
 
-- x: A string, integer, series, or array-like object designating the x-axis data.
-- y: A string, integer, series, or array-like object designating the y-axis data.
-- labels: A dictionary with string keys and string values designating column names and labels for axis titles, hovers, and legend entries.
-- title: A string designating the chart title.
-- width: An integer designating the chart width in pixels.
-- height: An integer designating the chart height in pixels.
+- `x`: A string, integer, series, or array-like object designating the x-axis data.
+- `y`: A string, integer, series, or array-like object designating the y-axis data.
+- `labels`: A dictionary used for customizing labels, including column names, axis titles, hover labels, and legend entries.
+- `title`: A string designating the chart title.
+- `width`: An integer designating the chart width in pixels.
+- `height`: An integer designating the chart height in pixels.
 
 > **Note:** The ellipsis (...) indicates that there can be additional optional parameters beyond those listed here.
 
