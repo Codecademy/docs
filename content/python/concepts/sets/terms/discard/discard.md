@@ -18,8 +18,6 @@ In Python, the **`.discard()`** method in [sets](https://www.codecademy.com/reso
 
 ## Syntax
 
-The syntax is the following:
-
 ```
 set_name.discard(value)
 ```
