@@ -1,14 +1,14 @@
 ---
 Title: '.discard()'
-Description: 'Removes a passing element from the set if it's present.'
-Subjects: 
+Description: 'Removes a specified element from the set if it exists.'
+Subjects:
+  - 'Code Foundations'
   - 'Computer Science'
-  - 'Data Science'
-Tags: 
+Tags:
   - 'Collections'
-  - 'Functions'
   - 'Methods'
   - 'Sets'
+  - 'Strings'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
