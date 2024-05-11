@@ -62,4 +62,3 @@ print(coffee_beans)
 coffee_beans.discard('Vietnam')
 coffee_beans.discard('Brazil')
 print(coffee_beans)
-```
