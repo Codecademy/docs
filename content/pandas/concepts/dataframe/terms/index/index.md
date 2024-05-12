@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.index`** attribute represents the row labels (index) of the DataFrame. It returns an Index object and can be used to view or assign new values to the row labels.
+The **`.index`** attribute represents the row labels (index) of the DataFrame. It returns an `Index` object and can be used to view or assign new values to the row labels.
 
 ## Syntax
 

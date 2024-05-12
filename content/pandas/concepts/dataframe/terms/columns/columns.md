@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.columns`** attribute represents the column labels of the DataFrame. It returns an Index object and can be used to view or assign new values to the column labels.
+The **`.columns`** attribute represents the column labels of the DataFrame. It returns an `Index` object and can be used to view or assign new values to the column labels.
 
 ## Syntax
 
