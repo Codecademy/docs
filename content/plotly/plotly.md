@@ -1,5 +1,5 @@
 ---
-Title: 'Plotly'
+Title: 'Python:Plotly'
 Description: 'Plotly is a Python library for creating interactive visualizations and charts.'
 Subjects:
   - 'Computer Science'
@@ -14,22 +14,22 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**`Plotly`** is a Python library for interactive charts and graphics, offering a variety of visualization options like `line graphs`, `bar charts`, `heatmaps`, and `scatter plots`.
+**Plotly** is a Python library for creating interactive visualizations and charts, offering a variety of visualization options like _line graphs_, _bar charts_, _heatmaps_, and _scatter plots_.
 
 ## Installation
 
-The guidelines for installing the Plotly library can be found [here](https://plotly.com/python/getting-started/). The official release of plotly can be installed with [pip](https://www.codecademy.com/resources/docs/python/pip):
+The official release of Plotly can be installed with [pip](https://www.codecademy.com/resources/docs/python/pip). The guidelines for installing it can be found [here](https://plotly.com/python/getting-started/).
 
-Plotly comprises several modules, each serving distinct purposes within the realm of data visualization. Below is an overview of these modules:
+Plotly comprises several modules, each serving distinct purposes within the realm of data visualization.
 
-### plotly.express
+### Plotly Express
 
-The `plotly.express` module, typically imported as `px`, provides an easy way to create various types of figures. It offers over 30 functions for generating different plot types, such as `bar charts`, `histograms`, `line graphs`, and more. These functions are designed to be straightforward and easy to learn, simplifying the creation of interactive and visually appealing plots in Python.
+The `plotly.express` module, typically imported as `px`, provides an easy way to create various types of figures. It offers over 30 functions for generating different plot types, such as bar charts, line graphs, _histograms_, and more. These functions are designed to be straightforward and easy to learn, simplifying the creation of interactive and visually appealing plots in Python.
 
-### plotly.graph_objects
+### Plotly Graph Objects
 
-The `plotly.graph_objects` module, commonly imported as `go`, includes objects like `Figure`, `layout`, and `data` that define plots such as `line charts` and `scatter plots`. While `plotly.express` internally uses this module, `plotly.graph_objects` provides a higher degree of control over visualization elements.
+The `plotly.graph_objects` module, commonly imported as `go`, includes objects like `Figure`, `layout`, and `data` that define plots such as line charts and scatter plots. While `plotly.express` internally uses this module, `plotly.graph_objects` provides a higher degree of control over visualization elements.
 
-### plotly.figure_factory
+### Plotly Figure Factory
 
-The `plotly.figure_factory` module, often imported as `ff`, features specialized functions for creating complex graphs that may be challenging to build using standard `plotly.graph_objects` or `plotly.express` methods. Examples of such graphs include `dendrograms`, `quiver plots`, `hexagonal binning`, `tile maps`, `streamline plots`, and others.
+The `plotly.figure_factory` module, often imported as `ff`, features specialized functions for creating complex graphs that may be challenging to build using `plotly.express` or `plotly.graph_objects` modules. Examples of such graphs include _dendrograms_, _quiver plots_, _hexagonal binning_, _tile maps_, _streamline plots_, and others.
