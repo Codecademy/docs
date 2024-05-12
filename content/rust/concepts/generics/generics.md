@@ -94,7 +94,7 @@ mixed_coord: (10, 5.9)
 
 ## Trait Bounds in Generics
 
-In Rust, a **trait** is a collecton of methods that define behaviour. **Trait bounds** specify that a type must implement a given trait which will be used in a particular context. They help to ensure type safety, enable polymorphism and clearly states the capabilities of the generic type, thereby improving code readability.
+In Rust, a **trait** is a collection of methods that define behaviour. **Trait bounds** specify that a type must implement a given trait which will be used in a particular context. They help to ensure type safety, enable polymorphism and clearly states the capabilities of the generic type, thereby improving code readability.
 
 The following is an example of a generic function that returns the sum of two integers using trait bounds:
 
