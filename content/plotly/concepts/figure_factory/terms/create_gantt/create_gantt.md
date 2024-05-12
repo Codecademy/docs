@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.create_gantt`** method in the `plotly.figure_factory` module is a function used in `Plotly` to generate Gantt charts. Gantt charts are graphical representations of project schedules that illustrate tasks, their durations, and dependencies. This method allows users to create interactive Gantt charts within their Plotly figures, providing a visual overview of project timelines and progress.
+The **`.create_gantt`** method in the `plotly.figure_factory` module is a function used in `Plotly` to generate Gantt charts. Gantt charts are graphical representations of project schedules that illustrate tasks, their durations, dependencies, etc. This method allows users to create interactive Gantt charts within their Plotly figures, providing a visual overview of project timelines and progress.
 
 ## Syntax
 
