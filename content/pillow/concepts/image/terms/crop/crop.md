@@ -46,3 +46,4 @@ with Image.open('Photo.jpeg') as photo:
     croppedVarName.show()
     
 ```
+![Crop Results](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-crop.png)
