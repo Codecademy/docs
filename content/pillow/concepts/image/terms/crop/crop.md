@@ -36,7 +36,9 @@ from PIL import Image
 # The original image has a size of 1024x768 pixels.
 with Image.open('Photo.jpeg') as photo:
 
-    # 
+    # Displays the original image in a new window.
+    photo.show()
+    
     # Assigning the desired crop region. This can be envisioned as (x1, y1, x2, y2).
     (left, upper, right, lower) = (100, 100, 600, 600)
 
@@ -47,4 +49,11 @@ with Image.open('Photo.jpeg') as photo:
     croppedVarName.show()
     
 ```
+
+The code above produces the following output:
+```
+![Original](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-original.png)
+
 ![Crop Results](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-crop.png)
+
+```
