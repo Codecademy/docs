@@ -1,1 +1,1 @@
-content/general/concepts/framework/framework.md
+content/css/concepts/variables/variables.md
