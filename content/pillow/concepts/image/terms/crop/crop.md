@@ -52,7 +52,7 @@ with Image.open('Photo.jpeg') as photo:
 
 The code above produces the following output:
 ```
-![Original](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-original.png)
+![Original](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-original.jpeg)
 
 ![Crop Results](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-crop.png)
 
