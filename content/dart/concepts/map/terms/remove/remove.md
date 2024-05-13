@@ -21,7 +21,7 @@ In Dart, the `.remove()` method removes an entry from a map using a specified ke
 map_name.remove(key)
 ```
 
-- `key`: The key of the entry to be removed from the map.
+- `key`: The entry key to be removed from the map.
 
 ## Example
 
