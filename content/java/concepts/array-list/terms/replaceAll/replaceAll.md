@@ -1,6 +1,6 @@
 ---
 Title: '.replaceAll()'
-Description: 'Replaces all occurences of a given value ArrayList.'
+Description: 'Replaces all occurrences of a given value ArrayList.'
 Subjects:
   - 'A subject name'
   - 'A second subject name'
@@ -8,17 +8,16 @@ Subjects:
 Tags:
   - 'Computer Science'
   - 'Information Technology'
-  - 'An nth tag'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
 ---
 
-The **`.replaceAll()`** method of the `ArrayList` class takes an Operator as argument and applies it on every element in the List
+The **`.replaceAll()`** method of the `ArrayList` class takes an Operator as argument and applies it to every element in the List
 
 ## Syntax
 
-Applies `operator` on each element in ArrayList `myArrayList` and replaces it with a new value
+Applies `operator` to each element in ArrayList `myArrayList` and replaces the element with a new value
 ```pseudo
 myArrayList.replaceAll(operator);
 ```
