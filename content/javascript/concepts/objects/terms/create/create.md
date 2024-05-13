@@ -1,38 +1,18 @@
-<<<<<<< HEAD
-Title: 'Object.create() in JavaScript'
-
-Description: 'object.create() method creates a new object, using an existing object as the prototype of the newly created object.It basically allows you to create a new object that inherits properties and methods from a specified prototype object. It's not about making a copy of an existing object, but rather establishing a prototype chain.'
-
+---
+Title: 'Object.create()'
+Description: 'It is a static method that creates a new object, using an existing object as the prototype of the newly created object. It allows you to create a new object that inherits properties and methods from a specified prototype object. It's not about making a copy of an existing object, but rather establishing a prototype chain.'
 Subjects:
-
-  - 'Web Development'
-
-  - 'Computer Science'
-
-  - 'javascript'
-
-  - 'objects'
-
-  - 'prototype'
-
- Tags:
-
-  - 'javascript'
-
-  -  'objects'
-
-  - 'inheritance'
-
-  - 'prototype'
-
-  - 'Documentation'
-
+    - 'Code Foundations'
+    - 'Computer Science'
+Tags:
+    - 'Algorithms'
+    - 'Inheritance'
+    - 'Methods'
+    - Objects'
+    - 'OOP'
 CatalogContent:
-
-	  - 'introduction-to-javascript
-
-	  - 'paths/front-end-engineer-career-path'
-=======
+    - 'introduction-to-javascript'
+    - 'paths/front-end-engineer-career-path'
 ---
 Title: 'Object.create()'
 Description: 'It is a static method that creates a new object, using an existing object as the prototype of the newly created object. It allows you to create a new object that inherits properties and methods from a specified prototype object. It's not about making a copy of an existing object, but rather establishing a prototype chain.'
