@@ -14,31 +14,45 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'paths/computer-science'
 ---
 
-The **`.replaceAll()`** method of the `ArrayList` class takes one operator as argument and applies it on every element in the ArrayList
+The **`.replaceAll()`** method of the `ArrayList` class takes an Operator as argument and applies it on every element in the List
 
 ## Syntax
 
-[Text, code, images, parameters, etc. about the syntax]
+Applies `operator` on each element in ArrayList `myArrayList` and replaces it with a new value
+```pseudo
+myArrayList.replaceAll(operator);
+```
 
 ## Example
 
-[Text, code, images, etc. about example 1]
+```java
+import java.util.ArrayList;
 
-## Codebyte Example (if applicable)
+public class Main {
+    public static void main(String[] args) {
+        // Create an ArrayList for different cities
+        ArrayList<String> cities = new ArrayList<>();
 
-We can currently support:
+        // Add cities to the ArrayList
+        cities.add("STOCKHOLM");
+        cities.add("LONDON");
+        cities.add("PARIS");
+        cities.add("BERLIN");
+        System.out.println("Cities in uppercase: " + cities);
 
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
+        // Call replaceAll() to make every String element lowercase
+        cities.replaceAll(String::toLowerCase);
+        System.out.println("Updated cities in lowercase: " + cities);
 
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
+    }
+}
+```
 
-```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
+The output for this code would look like this:
+
+```shell
+Cities in uppercase: 
+[STOCKHOLM, LONDON, PARIS, BERLIN]
+Updated cities in lowercase: 
+[stockholm, london, paris, berlin]
 ```
