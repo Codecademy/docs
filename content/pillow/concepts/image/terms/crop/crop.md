@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-In the Pillow library, the **.crop()** method is used to return a rectangular area from an image. Pillow is a fork the Python Imaging Library that has extensive file format support and additional image processing methods. Pillow can be installed locally using **pip**
+In the Pillow library, the **`.crop()`** method is used to return a cropped rectangular area from an image. Pillow, a fork of the Python Imaging Library (PIL), offers extensive file format support and additional image processing methods. The Pillow library can be installed locally with [pip](https://www.codecademy.com/resources/docs/python/pip).
 
 ## Syntax
 
