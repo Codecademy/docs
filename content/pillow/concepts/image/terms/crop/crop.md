@@ -36,8 +36,8 @@ from PIL import Image
 # The original image has a size of 1024x768 pixels.
 with Image.open('Photo.jpeg') as photo:
 
-    # Assigns the desired crop region.
-    # This can be envisioned as (x1, y1, x2, y2).
+    # 
+    # Assigning the desired crop region. This can be envisioned as (x1, y1, x2, y2).
     (left, upper, right, lower) = (100, 100, 600, 600)
 
     # "croppedVarName" will be the variable that holds our new cropped image.
