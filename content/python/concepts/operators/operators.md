@@ -89,6 +89,7 @@ Python evaluates an expression in order of precedence as follows:
 - `or`
 
 ## Membership operators
+
 - The `in` operator returns `True` if the element on the right _contains_ the element in the left. Here, the element on the right side of the `in` operator must be an iterable object like a list, string, dictionary, etc.
 - The `not in` operator returns `False` if the element on the right _does not contain_ the element on the left. Again, the element on the right side of the ` not in` operator must be an iterable object.
 
