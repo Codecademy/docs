@@ -32,9 +32,7 @@ CatalogContent:
 
 ## Syntax
  ```js
-Object.create(prototype)
-Object.create(prototype, propertiesObject)
- ```
+Object.create(prototype[, propertiesObject])
 
 The `prototype` is the properties newly created object will have from the old object. if the prototype is not specified  the newly created object will not inherit any properties or methods from any other object.
 
