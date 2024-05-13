@@ -24,7 +24,7 @@ In the Pillow library, the **`.crop()`** method is used to return a cropped rect
 Image.crop(box=None)
 ```
 
-`box`:  A 4-tuple that determines the crop region. The first two int arguements are the upper left x and y coordinates, while the last two are the lower right x and y coordinates.
+- `box`:  It is a 4-tuple representing the rectangular area to be cropped. This tuple comprises four integer values `(left, upper, right, lower)` that signify the coordinates of the left, upper, right, and lower edges of the area to be cropped.
 
 Returns an **Image** object.
 
