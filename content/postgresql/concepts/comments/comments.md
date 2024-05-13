@@ -14,11 +14,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In PostgreSQL, **comments** are annotations added to SQL code to provide information about the code without affecting its execution. They are primarily used for documentation purposes and enhancing code readability. Comments in PostgreSQL can be single-line or multi-line and are initiated with `--` for single-line comments and `/* */` for multi-line comments.  
+In PostgreSQL, **comments** are annotations added to SQL code to provide information about the code without affecting its execution. They are primarily used for documentation purposes and enhancing code readability. Comments in PostgreSQL can be single-line or multi-line and are initiated with `--` for single-line comments and `/* */` for multi-line comments.
 
 ## Syntax
-
-In PostgreSQL, you can use either single-line or multi-line comments.
 
 - Single-line comment:
 
@@ -40,10 +38,9 @@ multi-line comment
 Here's an example of how comments are used in PostgreSQL:
 
 ```sql
-
-`-- Selects employee IDs and their names from the employees table.
-SELECT id, 'name'  -- 'name' is enclosed in single quotes to represent a string literal
-FROM employees; 
+-- Selects employee IDs and their names from the employees table.
+SELECT id, name
+FROM employees;
 
 /*
   Selects all columns from the departments table.
