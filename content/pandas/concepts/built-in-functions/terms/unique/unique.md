@@ -25,7 +25,7 @@ The **`.unique()`**  function returns unique values from a data series using a h
 pd.unique(data_series)
 ```
 
-The `data_series` parameter represents a 1-dimensional array-like data structure from which unique elements will be returned by the function. The dtype of the return matches that of the input, which can be of Index, Categorical, or Series type. The function lists the unique elements in the order they appear in the input data series, and it does *NOT* sort them.
+The `data_series` parameter represents a 1-dimensional array-like data structure from which unique elements will be returned by the function. The `dtype` of the return matches that of the input, which can be of Index, Categorical, or Series type. The function lists the unique elements in the order they appear in the input data series, and it does *NOT* sort them.
 
 ## Example
 The following example demonstrates the use of the `.unique()` function:
@@ -44,6 +44,7 @@ The unique elements in series [3, -1, 5, -1, 2, 1, 3, -2, 1, 5, 2, 1, 2] are
 ```
 
 ## Codebyte Example
+
 The code below shows off the effects of `unique()` on different kinds of data types: Index, Categorical, and Series. After defining the array-like objects, the `unique()` method is applied to list out the unique elements of each object, and the resulting data is printed out to the console.
 
 ```codebyte/python
