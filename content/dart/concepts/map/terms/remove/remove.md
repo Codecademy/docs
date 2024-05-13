@@ -46,4 +46,4 @@ Map after removing entry with key "c": {a: 1, b: 2}
 
 With this approach, the `.remove()` method removes the entry with the key `'c'` from the map and prints the updated map.
 
-> **Note** If the specified key is not found in the map, the method returns `null`, and the map remains unchanged.
+> **Note** If the specified key is not found in the map, it returns `null`, and the map remains unchanged.
