@@ -26,8 +26,6 @@ Image.crop(box=None)
 
 - `box`:  It is a 4-tuple representing the rectangular area to be cropped. This tuple comprises four integer values `(left, upper, right, lower)` that signify the coordinates of the left, upper, right, and lower edges of the area to be cropped.
 
-Returns an **Image** object.
-
 ## Example
 
 The following example uses `.crop()` to return an area within the provided image:
