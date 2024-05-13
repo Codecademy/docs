@@ -1,15 +1,18 @@
 ---
 Title: '.crop()'
-Description: 'Returns a cropped image to a variable using four provided coordinates.'
+Description: 'Returns an image cropped to a specified rectangular area.'
 Subjects: 
   - 'Computer Science'
   - 'Web Design'
   - 'Web Development'
 Tags:
+  - 'Computer Vision'
   - 'Images'
   - 'Pillow'
 CatalogContent:
   - 'learn-python-3'
+  - 'paths/computer-science'
+  - 'paths/data-science'
   - 'paths/data-science-foundations'
 ---
 
