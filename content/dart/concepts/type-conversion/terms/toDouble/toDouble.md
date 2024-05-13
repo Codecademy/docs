@@ -1,6 +1,6 @@
 ---
 Title: '.toDouble()'
-Description: 'Returns the double representation of the number's value'
+Description: 'Returns the double representation of the numerical value.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -43,4 +43,4 @@ The above code produces the following output:
 Output = 3.0
 ```
 
-> **Note:** The output 3.0 is a double. This can be confirmed by checking value.runtimeType.
+> **Note:** The output 3.0 is a double. This can be confirmed by checking `value.runtimeType`.
