@@ -1,7 +1,7 @@
 ---
 Title: '.unique()'
 Description: 'Returns an array containing all the unique elements in the data series, with no specific order.'
-Subjects: 
+Subjects:
   - 'Computer Science'
   - 'Data Science'
   - 'Data Visualization'
@@ -12,23 +12,26 @@ Tags:
   - 'Functions'
   - 'Pandas'
 CatalogContent:
- - 'learn-python-3'
- - 'paths/computer-science'
- - 'paths/data-science'
- - 'paths/data-science-foundations'
+  - 'learn-python-3'
+  - 'paths/computer-science'
+  - 'paths/data-science'
+  - 'paths/data-science-foundations'
 ---
 
-The **`.unique()`**  function returns unique values from a data series using a hash table. It operates similarly to `numpy.unique()` but is notably faster, especially with large datasets, and it also includes NA values.
+The **`.unique()`** function returns unique values from a data series using a hash table. It operates similarly to `numpy.unique()` but is notably faster, especially with large datasets, and it also includes NA values.
 
 ## Syntax
+
 ```pseudo
 pd.unique(data_series)
 ```
 
-The `data_series` parameter represents a 1-dimensional array-like data structure from which unique elements will be returned by the function. The `dtype` of the return matches that of the input, which can be of Index, Categorical, or Series type. The function lists the unique elements in the order they appear in the input data series, and it does *NOT* sort them.
+The `data_series` parameter represents a 1-dimensional array-like data structure from which unique elements will be returned by the function. The `dtype` of the return matches that of the input, which can be of Index, Categorical, or Series type. The function lists the unique elements in the order they appear in the input data series, and it does _NOT_ sort them.
 
 ## Example
+
 The following example demonstrates the use of the `.unique()` function:
+
 ```py
 import pandas as pd
 
@@ -38,6 +41,7 @@ print(f"The unique elements in series {list(series)} are\n {unique_elements}")
 ```
 
 The above code outputs the following:
+
 ```shell
 The unique elements in series [3, -1, 5, -1, 2, 1, 3, -2, 1, 5, 2, 1, 2] are
 [3 -1 5 2 1 3 -2]
