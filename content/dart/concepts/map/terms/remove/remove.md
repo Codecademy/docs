@@ -29,14 +29,11 @@ In the following example, the `.remove()` method is used to remove en entry with
 
 ```dart
 void main() {
-  Map<String, ing> myMap = {'a': 1, 'b': 2, 'c': 3};
+  Map<String, int> myMap = {'a': 1, 'b': 2, 'c': 3};
   print('Original Map: $myMap');
-
   // Removing an entry from the map
   myMap.remove('c');
-
   print('Map after removing entry with key "c": $myMap');
-
 }
 ```
 
