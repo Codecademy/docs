@@ -13,7 +13,7 @@ Tags:
 CatalogContent:
     - 'introduction-to-javascript'
     - 'paths/front-end-engineer-career-path'
---
+---
 
 In JavaScript, the **`.create()`** method creates a new object with the specified prototype object and optional additional properties. It essentially allows you to create an object that inherits properties from another object.
 
