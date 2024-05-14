@@ -32,8 +32,8 @@ for(initialization; condition; increment/decrement){
 ```dart
 void main()
 {
-    for (int num = 0; num <= 5; num++) {
-        print(num);
+    for (int n = 0; n <= 5; n++) {
+        print(n);
     }
 }
 ```
@@ -67,8 +67,8 @@ for (var in expression) {
 void main()
 {
     var nums = [ 1, 2, 3, 4, 5 ];
-    for (int num in nums) {
-        print(num);
+    for (int n in nums) {
+        print(n);
     }
 }
 ```
@@ -101,7 +101,7 @@ f(value) is a parameter which is used to call the function "f" for each value in
 void main()
 {
   var nums = [1,2,3,4,5];
-  nums.forEach((var num)=> print(num)); 
+  nums.forEach((var n)=> print(n)); 
 }
 ```
 
@@ -132,9 +132,9 @@ while(condition) {
 ```dart
 void main()
 {
-    var num = 4;
+    var n = 4;
     int i = 1;
-    while (i <= num) {
+    while (i <= n) {
         print('Hello there');
         i++;
     }
@@ -167,12 +167,12 @@ do {
 ```dart
 void main()
 {
-    var num = 4;
+    var n = 4;
     int i = 1;
     do {
         print('Hello there');
         i++;
-    } while (i <= num);
+    } while (i <= n);
 }
 ```
 
