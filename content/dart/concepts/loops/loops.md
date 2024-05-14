@@ -87,7 +87,7 @@ The above code gives the following output:
 
 The forEach loop iterates over all elements in a container or collection and invokes a specified function for each element.
 
-#### Syntax
+### Syntax
 
 ```pseudo
 collection.forEach(void f(value))
