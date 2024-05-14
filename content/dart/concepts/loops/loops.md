@@ -150,7 +150,7 @@ Hello there
 Hello there
 ```
 
-## do...while Loop
+## do-while Loop
 
 The do…while loop is similar to the while loop but only difference is that it executes the loop statement and then check the given condition. Hence the block of code inside the loop gets executed atleast once for do...while loop.
 
