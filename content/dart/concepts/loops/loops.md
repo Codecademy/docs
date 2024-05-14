@@ -53,7 +53,7 @@ The above code produces the following output:
 
 The `for-in` loop is slightly different from the `for` loop. It iterates over each element of a Dart object or expression, one at a time. It's preferred when there's no need for counter iteration.
 
-#### Syntax
+### Syntax
 
 ```pseudo
 for (var in expression) {
