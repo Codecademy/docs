@@ -154,7 +154,7 @@ Hello there
 
 The do-while loop is similar to the `while` loop, with the key difference being that it executes the loop statement before checking the given condition. Therefore, the block of code inside the loop is guaranteed to execute at least once
 
-#### Syntax
+### Syntax
 
 ```pseudo
 do {  
