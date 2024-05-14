@@ -24,20 +24,12 @@ In Pillow, the **`.resize()`** method is used to change the size of an image. Pi
 Image.resize(size, resample=None, box=None, reducing_gap=None)
 ```
 
-| Parameter Name | Data Type   | Usage                                                     |
-| -------------- | ----------- | --------------------------------------------------------- |
-| `size`         | tuple       | Decides the resize dimentions.                            |
-| `resample`     | int         | Specifies the resampling filter to be used when resizing. |
-| `box`          | tuple, None | A 4-tuple defining the region of the image to resize.     |
-| `reducing_gap` | float, None | Used for large scale reduction to help preserve quality.  |
-
-- resample filters available
-  - Image.Resampling.NEAREST or Image.NEAREST
-  - Image.Resampling.BOX
-  - Image.Resampling.BILINEAR or Image.BILINEAR
-  - Image.Resampling.HAMMING
-  - Image.Resampling.BICUBIC or Image.BICUBIC
-  - Image.Resampling.LANCZOS or Image.LANCZOS
+| Parameter Name | Description                                               |
+| -------------- | --------------------------------------------------------- |
+| `size`         | Decides the resize dimentions.                            |
+| `resample`     | Specifies the resampling filter to be used when resizing. |
+| `box`          | A 4-tuple defining the region of the image to resize.     |
+| `reducing_gap` | Used for large scale reduction to help preserve quality.  |
 
 Returns an **image** **object**.
 
@@ -49,10 +41,10 @@ The following example demonstrates the use of the `.resize()` method to change t
 from PIL import Image
 
 # Original image is 2000x2000 pixels.
-img = Image.open('image_path.jpg')
+img = Image.open('image-path.png')
 
 # Will resize the image to 1000x1000 pixels.
-img_resized = img.resized((1000, 1000))
+img_resized = img.resize((1000, 1000))
 
 # Will open the image.
 img_resized.show()
@@ -65,3 +57,11 @@ The output will show the new dimensions of the image in pixels.
 ```shell
 1000 1000
 ```
+
+The original image is 2000x2000 pixels.
+
+![This image is 2000x2000 pixels](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-resize-earth.png)
+
+The resized image will now be 1000x1000 pixels.
+
+![This image is 1000x1000 pixels](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-resize-earth-resized.png)
