@@ -117,7 +117,7 @@ The above code gives the following output:
 
 ## while Loop
 
-The while loop executes a block of code until the given condition is false. It is more beneficial when we don't know the number of executions.
+The while loop executes a block of code until the given condition is false. It is more beneficial when the number of executions is not known.
 
 #### Syntax
 
