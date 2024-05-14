@@ -38,7 +38,7 @@ void main()
 }
 ```
 
-The above code gives the following output:
+The above code produces the following output:
 
 ```shell
 0
