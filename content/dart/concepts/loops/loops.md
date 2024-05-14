@@ -1,6 +1,6 @@
 ---
 Title: 'Loops'  
-Description: 'Repeats a particular set of commands until certain conditions are not completed.'
+Description: 'Repeats a particular set of commands until certain conditions are met.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
