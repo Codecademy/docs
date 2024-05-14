@@ -85,7 +85,7 @@ The above code gives the following output:
 
 ## forEach Loop
 
-The for-each loop iterates over all elements in some container/collectible and passes the elements to some specific function.
+The forEach loop iterates over all elements in a container or collection and invokes a specified function for each element.
 
 #### Syntax
 
