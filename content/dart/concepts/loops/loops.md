@@ -51,8 +51,7 @@ The above code produces the following output:
 
 ## for...in Loop
 
-The "for…in" loop is slightly different from the "for" loop. It takes dart object or expression as an iterator and iterates the element one at a time. The 
-value of the element is bound to var, which is valid and available for the loop body. The loop will execute until no element is left in the iterator.  
+The `for-in` loop is slightly different from the `for` loop. It iterates over each element of a Dart object or expression, one at a time. It's preferred when there's no need for counter iteration.
 
 #### Syntax
 
