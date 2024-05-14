@@ -2,8 +2,9 @@
 Title: 'Comments'
 Description: 'Comments in PostgreSQL are explanatory lines ignored by the compiler, enhancing code clarity and maintenance.'
 Subjects:
-  - 'Web Development'
+  - 'Code Foundations'
   - 'Computer Science'
+  - 'Web Development'
 Tags:
   - 'Comments'
   - 'Database'
@@ -14,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In PostgreSQL, **comments** are annotations added to SQL code to provide information about the code without affecting its execution. They are primarily used for documentation purposes and enhancing code readability. Comments in PostgreSQL can be single-line or multi-line and are initiated with `--` for single-line comments and `/* */` for multi-line comments.
+In PostgreSQL, **comments** are annotations added to SQL code to provide information about the code without affecting its execution. They are primarily used for documentation purposes and to enhance code readability. Comments in PostgreSQL can be single-line or multi-line and are initiated with `--` for single-line comments and, `/* */` for multi-line comments.
 
 ## Syntax
 
