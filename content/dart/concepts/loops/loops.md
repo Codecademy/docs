@@ -13,7 +13,8 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Loops** in Dart are used to iterate a Dart iterable like list, map, etc. and perform operations for multiple times. Dart supports the following kinds of loops.
+**Loops** in Dart are used to iterate over iterables such as lists, maps, etc., allowing operations to be performed repeatedly. 
+Dart supports the following types of loops:
 
 ## for Loop 
 The "for" loop is used when we know how many times a block of code will execute. It is similar to the C, C++ or Java "for" loop. 
