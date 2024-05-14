@@ -119,7 +119,7 @@ The above code gives the following output:
 
 The while loop executes a block of code until the given condition is false. It is more beneficial when the number of executions is not known.
 
-#### Syntax
+### Syntax
 
 ```pseudo
 while(condition) {  
