@@ -95,7 +95,7 @@ collection.forEach(void f(value))
 
 f(value) is a parameter which is used to call the function "f" for each value in the collection.
 
-#### Example
+### Example
 
 ```dart
 void main()
