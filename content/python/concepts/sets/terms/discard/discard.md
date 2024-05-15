@@ -1,12 +1,12 @@
 ---
 Title: '.discard()'
-Description: 'Removes a specified element from the set if it exists.'
+Description: 'Removes a specified element from a set.'
 Subjects:
-  - 'Code Foundations'
   - 'Computer Science'
+  - 'Code Foundations'
 Tags:
-  - 'Collections'
   - 'Methods'
+  - 'Collections'
   - 'Sets'
   - 'Strings'
 CatalogContent:
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Python, the **`.discard()`** method in [sets](https://www.codecademy.com/resources/docs/python/sets) removes a specified element if present; however, if the element is not found, it takes no action and does not raise an error.
+In Python, the **`.discard()`** method removes a specified element from a [set](https://www.codecademy.com/resources/docs/python/sets). If the element is not found, it takes no action and does not raise an [error](https://www.codecademy.com/resources/docs/python/errors) either.
 
 ## Syntax
 
@@ -23,26 +23,26 @@ set.discard(value)
 ```
 
 - `set`: Refers to the set from which the specified element is to be removed.
-- `value`: This denotes the element that should be removed from the set.
+- `value`: Denotes the element to be removed from the set.
 
 ## Example
 
-The example below shows the usage of the `.discard()` method:
+The below example shows the usage of the `.discard()` method:
 
 ```py
 coffee_set = {'espresso', 'flat_white', 'cappuccino', 'filter'}
 print(coffee_set)
 
-# removing 'espresso' from the set 
-coffee_set.discard('espresso') 
+# Removing 'espresso' from the set
+coffee_set.discard('espresso')
 print(coffee_set)
 
-# removing 'latte' from the set 
-coffee_set.discard('latte') 
+# Removing 'latte' from the set
+coffee_set.discard('latte')
 print(coffee_set)
 ```
 
-The code above produces  the following output:
+The above code produces the following output:
 
 ```shell
 {'espresso', 'flat_white', 'cappuccino', 'filter'}
@@ -50,9 +50,11 @@ The code above produces  the following output:
 {'flat_white', 'cappuccino', 'filter'}
 ```
 
-In the example, our code continues to execute without errors even though we attempt to remove the element 'latte' which doesn't even exist in the set.
+In the above example, the code continues to get executed without any errors despite the attempt to remove the element `latte`, which doesn't even exist in the set.
 
 ## Codebyte Example
+
+Here is a codebyte example demonstrating the use of the `.discard()` method:
 
 ```codebyte/python
 coffee_beans = {'Brazil', 'Ethiopia', 'Kenya', 'Columbia'}
