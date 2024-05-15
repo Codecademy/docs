@@ -1,1 +1,1 @@
-content/sql/concepts/aggregate-functions/aggregate-functions.md
+content/css/concepts/variables/variables.md
