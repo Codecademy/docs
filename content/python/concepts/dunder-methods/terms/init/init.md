@@ -22,7 +22,7 @@ The **`__init__()`** method initializes a newly created object. It is called eac
 
 ```pseudo
 class ClassName:
-  __init__(self, param1, param2, ..., paramN):
+  def __init__(self, param1, param2, ..., paramN):
     self.param1 = param1
     self.param2 = param2
     self.paramN = paramN
