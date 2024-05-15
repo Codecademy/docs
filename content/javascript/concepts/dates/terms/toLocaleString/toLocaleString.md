@@ -47,18 +47,20 @@ Monday, May 6, 2024
 
 ## Codebyte Example
 
-In the following example the variables `locale` and `options` can be modified, to print the `Date` in a custom format:
+In the following example, `.toLocaleString()` formats the current date and time with the full `weekday`, `year`, `month`, `day`, `hour`, `minute`, and `second` in French (Morocco) locale (fr-MA).
 
 ```codebyte/javascript
-const date = new Date(Date.now());
+const currentDate = new Date();
 
 const locale = 'fr-MA';
-const options = {
-  year: 'numeric',
-  month: 'long',
-  day: 'numeric',
-  weekday: 'long',
-};
-
-console.log(date.toLocaleString(locale, options));
+const options = { 
+  weekday: 'long', 
+  year: 'numeric', 
+  month: 'long', 
+  day: 'numeric', 
+  hour: 'numeric', 
+  minute: 'numeric', 
+  second: 'numeric' 
+  };
+console.log(currentDate.toLocaleString(locale, options));
 ```
