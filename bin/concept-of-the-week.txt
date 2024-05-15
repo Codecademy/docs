@@ -1,1 +1,1 @@
-content/ruby/concepts/functions/functions.md
+content/css/concepts/variables/variables.md
