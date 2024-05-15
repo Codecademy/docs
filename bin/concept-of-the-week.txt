@@ -1,1 +1,1 @@
-content/javascript/concepts/iterators/iterators.md
+content/css/concepts/variables/variables.md
