@@ -51,6 +51,7 @@ Buttons
 Calendar
 Catch
 Characters
+Charts
 Chatbots
 Cryptocurrency
 Classes
@@ -86,6 +87,7 @@ Data Structures
 Data Types
 Database
 Date
+Dart Operators
 Debugging
 Decorators
 Deep Learning
@@ -246,6 +248,8 @@ Parameters
 Perceptrons
 Phaser
 Physics
+Pillow
+Plotly
 Pointers
 Positioning
 PostgreSQL
@@ -255,6 +259,7 @@ Primary Key
 Print
 Probability
 Promise
+Programming
 Properties
 Protocols
 Queries
