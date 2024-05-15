@@ -22,7 +22,7 @@ type name = value;
 - `type`: It can be any data type like `Int`, `String` or can also take the value `var`, `const`.
 - `value`: This is what the variable `name` represents. It corresponds to the data type `type`.
 
->**Note:** The default type 'var' is inferred to be a `string`.
+> **Note:** The default type 'var' is inferred to be a `string`.
 
 If an object isn't restricted to a single type, specify the Object type (or dynamic if necessary):
 
