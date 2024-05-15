@@ -25,7 +25,7 @@ dateObj.toLocaleString(locales, options)
 - `locales`: A `string` or an `array of strings` that specifies one or more `locales` or language tags for formatting the date. 
 - `options`: An object that allows customizing the formatting behavior, such as specifying the format for `date`, `time`, `numeric values`, and more.
 
-**Note:** Both the `locales` and `options` parameters in the `.toLocaleString()` method are optional. If the parameters are not provided, the method will use `default` values based on the runtime environment.
+> **Note:** Both the `locales` and `options` parameters in the `.toLocaleString()` method are optional. If the parameters are not provided, the method will use `default` values based on the runtime environment.
 
 
 ## Example  
