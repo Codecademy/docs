@@ -13,15 +13,15 @@ CatalogContent:
    - 'paths/front-end-engineer-career-path'
 ---
 
-# toLocaleString() Method :
-
--The `.toLocaleString()` method in JavaScript formats a [Date](https://www.codecademy.com/resources/docs/javascript/dates) object as a string according to the specified locale, considering cultural settings such as `language` and `date/time` formatting preferences specific to the chosen region or country.
+The `.toLocaleString()` method in JavaScript formats a [Date](https://www.codecademy.com/resources/docs/javascript/dates) object as a string according to the specified locale, considering cultural settings such as `language` and `date/time` formatting preferences specific to the chosen region or country.
 
 ## Syntax  
-```javascript {copy} 
+
+```js
 dateObj.toLocaleString(locales, options)
 ```
-- `dateObj`: The `Date` object used to format as a string based on the locale.
+
+- `dateObj`: A `Date` object representing the date and time to be formatted as a string based on the specified locale.
 - `locales`: A `string` or an `array of strings` that specifies one or more `locales` or language tags for formatting the date. 
 - `options`: An object that allows customizing the formatting behavior, such as specifying the format for `date`, `time`, `numeric values`, and more.
 
@@ -30,25 +30,26 @@ dateObj.toLocaleString(locales, options)
 
 ## Example  
 
+In the example below, `toLocaleString()` formats the current `date` and `time` according to the long date format with the full `weekday`, `month`, `day`, and `year` in English (United States) `locale`.
+
 ```javascript {copy}
 const currentDate = new Date(); 
 const locale = 'en-US';
 const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
 console.log(currentDate.toLocaleDateString(locale, options));
 ```
-In this example, `toLocaleString()` formats the current `date` and `time` according to the long date format with the full `weekday`, `month`, `day`, and `year` in English (United States) `locale`.
-The output could be something like: 
-```shell {copy}
-// Output : "Monday, May 6, 2024"
-```
-Depending on the current `date` and `time` when the code is executed.
 
+The code above produces the following output:
+
+```shell
+Monday, May 6, 2024
+```
 
 ## Codebyte Example
 
 In the following example the variables `locale` and `options` can be modified, to print the `Date` in a custom format:
 
-```codebyte/javascript {copy}
+```codebyte/javascript
 const date = new Date(Date.now());
 
 const locale = 'fr-MA';
@@ -61,5 +62,3 @@ const options = {
 
 console.log(date.toLocaleString(locale, options));
 ```
-
-
