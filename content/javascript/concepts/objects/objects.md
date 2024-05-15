@@ -1,12 +1,12 @@
 ---
 Title: 'Objects'
-Description: 'A JavaScript object can be created or defined with an object literal: js const person = { firstName: Elizabeth, lastName: Harmon, age: 22, eyeColor: Hazel,'
+Description: 'A data type for organizing a set of custom properties and behaviors.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
 Tags:
   - 'Dictionary'
-  - 'Objects'
+  - 'Methods'
   - 'Classes'
   - 'OOP'
 CatalogContent:
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-A JavaScript object can be created or defined with an object literal:
+A JavaScript **object** is a non-primitive data type that can assume the properties and behaviors required for a given programming need. An object can be created or defined with an object literal:
 
 ```js
 const person = {
@@ -100,11 +100,11 @@ Hi, I am Elizabeth Harmon.
 
 ## Object Classes
 
-Classes are essentially boilerplate object templates. If a car was an object, then a car factory is an object class.
+Classes are essentially boilerplate object templates. If a car is an object, then a car factory is an object class.
 
 A class can be constructed with the following notation. The person object example will be used.
 
-**Note:** Anonymous functions can't be used in classes.
+> **Note:** Anonymous functions can't be used in classes.
 
 ```js
 class Person {
@@ -134,7 +134,8 @@ Person {
 */
 ```
 
-An additional step can be made to optimize this procedure through the use of a _constructor_.
+An additional step can be made to optimize this procedure through the use of [constructors](https://www.codecademy.com/resources/docs/javascript/constructors).
+
 A constructor function initializes a set of variables at the creation of a class. Thanks to constructors, object properties can be defined when a new instance is made. This makes code precise and concise.
 
 ```js
@@ -149,7 +150,7 @@ class Person {
 }
 ```
 
-To summarize what's been done, when making a new instance, the constructor assigns the new object the two new properties 'firstName' and 'lastName' whose values are inputted at the time of creating the instance.
+To summarize what's been done, when making a new instance, the constructor assigns the new object the two new properties `firstName` and `lastName` whose values are inputted at the time of creating the instance.
 
 ```js
 const person = new Person('Elizabeth', 'Harmon');
