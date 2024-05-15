@@ -1,5 +1,5 @@
 ---
-Title: 'toLocaleString()'
+Title: '.toLocaleString()'
 Description: 'Returns a string formatted based on the locale for a Date object in JavaScript.'
 Subjects:
   - 'Computer Science'
