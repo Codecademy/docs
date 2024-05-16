@@ -18,7 +18,7 @@ Dart supports the following types of loops:
 
 ## for Loop
 
-The `for` loop is utilized when the number of iterations for a block of code is predetermined. It shares similarities with the `for` loop syntax in languages such as C, C++, Java, etc.
+The `for` loop is utilized when the number of iterations for a block of code is predetermined. It shares similarities with the `for` loop syntax in languages such as [C](https://www.codecademy.com/resources/docs/c), [C++](https://www.codecademy.com/resources/docs/cpp), [Java](https://www.codecademy.com/resources/docs/java), etc.
 
 ### Syntax
 
@@ -86,7 +86,7 @@ The above code gives the following output:
 
 ## forEach Loop
 
-The forEach loop iterates over all elements in a container or collection and invokes a specified function for each element.
+The `forEach` loop iterates over all elements in a container or collection and invokes a specified function for each element.
 
 ### Syntax
 
@@ -94,7 +94,7 @@ The forEach loop iterates over all elements in a container or collection and inv
 collection.forEach(void f(value))
 ```
 
-f(value) is a parameter which is used to call the function "f" for each value in the collection.
+`f(value)` is a parameter which is used to call the function `f` for each value in the collection.
 
 ### Example
 
@@ -118,7 +118,7 @@ The above code gives the following output:
 
 ## while Loop
 
-The while loop executes a block of code until the given condition is false. It is more beneficial when the number of executions is not known.
+The `while` loop executes a block of code until the given condition is false. It is more beneficial when the number of executions is not known.
 
 ### Syntax
 
@@ -142,7 +142,7 @@ void main()
 }
 ```
 
-The output of the above code is,
+The output of the above code is:
 
 ```shell
 Hello there
@@ -153,7 +153,7 @@ Hello there
 
 ## do-while Loop
 
-The do-while loop is similar to the `while` loop, with the key difference being that it executes the loop statement before checking the given condition. Therefore, the block of code inside the loop is guaranteed to execute at least once
+The `do-while` loop is similar to the `while` loop, with the key difference being that it executes the loop statement before checking the given condition. Therefore, the block of code inside the loop is guaranteed to execute at least once.
 
 ### Syntax
 
@@ -177,7 +177,7 @@ void main()
 }
 ```
 
-The output of the above code is,
+The output of the above code is:
 
 ```shell
 Hello there
