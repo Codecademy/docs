@@ -19,65 +19,78 @@ In PostgreSQL, **column references** is an important concept that allows develop
 
 The process for referencing columns in PostgreSQL matches a lot with that of SQL (Structured Query Language) as they share some attributes and patterns. Specifically, there are some statements that can be used to reference columns in PostgreSQL.
 
-  1. SELECT Statement: 
-  To get data from specific columns in a table:
-  
-    
-            SELECT column3, column2, ...
-            FROM table_name;
-    
-  2. INSERT Statement:
-  To specify the columns in which data would be executed:
+### SELECT
 
- 
-            INSERT INTO table_name (column3, column7, ...)
-            VALUES (value3, value7, ...);
- 
-  3. UPDATE Statement:
-  To indicate which columns will be updated and their new values:
+The `SELECT` statement is used to get data from specific columns in a table:
 
-            UPDATE table_name
-            SET column4 = value4, column9 = value9, ...
-            WHERE condition;
+```pseudo
+SELECT column3, column2, ...
+FROM table_name;
+```
 
-  4. DELETE Statement:
-  To specify the columns in deleting roles:
+### INSERT
 
+The `INSERT` statement is used to specify the columns to which data is to be inserted:
 
-            DELETE FROM table_name
-            WHERE condition;
+```pseudo
+INSERT INTO table_name (column3, column7, ...)
+VALUES (value3, value7, ...);
+```
 
- 
- 5. ALTER TABLE Statement:
-    To add, modify, or remove columns in a table.
+### UPDATE
 
-    a. Add a new column
+The `UPDATE` statement is used to specify the columns to be updated with new data:
 
-            ALTER TABLE table_name
-            ADD column_name data_type;
-   
-b. Modify an existing column.
- 
- 
-           ALTER TABLE table_name
-           ALTER COLUMN column_name TYPE new_data_type;
- 
- c. Drop a column
- 
-           ALTER TABLE table_name
-           DROP COLUMN column_name;
+```pseudo
+UPDATE table_name
+SET column4 = value4, column9 = value9, ...
+WHERE condition;
+```
 
- 
- 
- 6. CREATE TABLE Statement:
-    To define columns when creating a table.
+### DELETE
 
-    
-           CREATE TABLE table_name (
-             column1 data_type,
-             column2 data_type,
-    
-            );
+The `DELETE` statement is used to specify the columns to be deleted:
+
+```pseudo
+DELETE FROM table_name
+WHERE condition;
+```
+
+### ALTER TABLE
+
+The `ALTER TABLE` statement is used to add, modify or remove columns from a table.
+
+Here is the syntax for adding a column to a table:
+
+```pseudo
+ALTER TABLE table_name
+ADD column_name data_type;
+```
+
+The following syntax shows how to modify a column in a table:
+
+```pseudo
+ALTER TABLE table_name
+ALTER COLUMN column_name TYPE new_data_type;
+```
+
+The syntax for removing a column from a table is following:
+
+```pseudo
+ALTER TABLE table_name
+DROP COLUMN column_name;
+```
+
+### CREATE TABLE
+
+The `CREATE TABLE` statement is used to define columns while creating a table:
+
+```pseudo
+CREATE TABLE table_name (
+column1 data_type,
+column2 data_type,
+);
+```
 
   
 ## Example
