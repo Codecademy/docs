@@ -97,85 +97,44 @@ column2 data_type,
 
 The following example demonstrates the usage of column references in PostgreSQL:
 
-```
-// Create a table to store information about some passengers in a bus.
+```sql
+-- Creating a table
 
-CREATE TABLE bus(
-    first_name VARCHAR(80),
-  	last_name VARCHAR(80),
-  	occupation VARCHAR(80),
-  	starting_point VARCHAR(80),
-  	destination_point VARCHAR(80),
-  	ticket_price INTEGER,
-  	duration_in_minutes BIGINT,
-  	type_of_payment VARCHAR(90),
-  	age INTEGER,
-  	next_of_kin VARCHAR(100),
-  	date_of_payment DATE  
-  );
+CREATE TABLE bus (
+  first_name VARCHAR(80),
+  last_name VARCHAR(80),
+  occupation VARCHAR(80),
+  starting_point VARCHAR(80),
+  destination_point VARCHAR(80),
+  ticket_price INTEGER,
+  duration_in_minutes BIGINT,
+  type_of_payment VARCHAR(90),
+  age INTEGER,
+  next_of_kin VARCHAR(100),
+  date_of_payment DATE  
+);
 
-// To update information to the column names given.
-    
-INSERT INTO bus (first_name, last_name, occupation, starting_point, destination_point, ticket_price, duration_in_minutes, type_of_payment, age, next_of_kin, date_of_payment )
+-- Inserting data
+
+INSERT INTO bus (first_name, last_name, occupation, starting_point, destination_point, ticket_price, duration_in_minutes, type_of_payment, age, next_of_kin, date_of_payment)
+
 VALUES 
-    ('Ikechukwu', 'Ogumba', 'Student', 'Dei-Dei', 'Kubwa', 200, 15, 'Card Payment', 22, 'William Ogumba', '2024-04-20'),
-    ('John', 'Snow', 'Plumber', 'Dei-Dei', 'Wuse Junction', 500, 40, 'Card Payment', 30, 'Micheal Bolton', '2024-04-20'),
- 	('Barry', 'Hickler', 'Banker', 'Dei-Dei', 'Berger', 700, 60, 'Cash Payment', 39, 'James Rashford', '2024-04-20'),
-    ('Jenny', 'Simpson', 'Therapist', 'Dei-Dei', 'Maitama', 800, 80, 'Card Payment', 30, 'Julie Simpson', '2024-04-20'),
-    ('Junior', 'Kelechukwu', 'Student', 'Dei-Dei', 'Kubwa', 200, 15, 'Card Payment', 40, 'Matthew Kelechukwu', '2024-04-20'),
-    ('Folakemi', 'Abimbola', 'Pastor', 'Dei-Dei', 'Wuse Junction', 500, 40, 'Cash', 30, 'Kehinde Abimbola', '2024-04-20'),
- 	('Tochukwu', 'Okafor', 'Athlete', 'Dei-Dei', 'Berger', 700, 60, 'Card Payment', 39, 'Duru Okafor', '2024-04-20'),
-    ('Taiwo', 'Kehinde', 'Trader', 'Dei-Dei', 'Kubwa', 200, 15, 'Card Payment', 50, 'Adebayo Kehinde', '2024-04-20');
-    
- // Showing concept in use.
- // We forgot to add the gender of the passengers in the bus.
- // To add data to the gender column, we can reference it and assign different string value to it.
- 
-ALTER TABLE bus
-ADD gender VARCHAR(10);
+  ('Ikechukwu', 'Ogumba', 'Student', 'Dei-Dei', 'Kubwa', 200, 15, 'Card Payment', 22, 'William Ogumba', '2024-04-20'),
+  ('John', 'Snow', 'Plumber', 'Dei-Dei', 'Wuse Junction', 500, 40, 'Card Payment', 30, 'Micheal Bolton', '2024-04-20'),
+  ('Barry', 'Hickler', 'Banker', 'Dei-Dei', 'Berger', 700, 60, 'Cash Payment', 39, 'James Rashford', '2024-04-20'),
+  ('Jenny', 'Simpson', 'Therapist', 'Dei-Dei', 'Maitama', 800, 80, 'Card Payment', 30, 'Julie Simpson', '2024-04-20'),
+  ('Junior', 'Kelechukwu', 'Student', 'Dei-Dei', 'Kubwa', 200, 15, 'Card Payment', 40, 'Matthew Kelechukwu', '2024-04-20'),
+  ('Folakemi', 'Abimbola', 'Pastor', 'Dei-Dei', 'Wuse Junction', 500, 40, 'Cash', 30, 'Kehinde Abimbola', '2024-04-20'),
+  ('Tochukwu', 'Okafor', 'Athlete', 'Dei-Dei', 'Berger', 700, 60, 'Card Payment', 39, 'Duru Okafor', '2024-04-20'),
+  ('Taiwo', 'Kehinde', 'Trader', 'Dei-Dei', 'Kubwa', 200, 15, 'Card Payment', 50, 'Adebayo Kehinde', '2024-04-20');
 
-// We have now created a new column named gender.
-//We can update multiple rows at once with a CASE expression.
+SELECT
+  first_name,
+  last_name,
+  age
 
-
-UPDATE bus
-SET gender = 'Male'
-WHERE first_name = 'Ikechukwu';
-
-
-
-// This will update the gender column.
-UPDATE bus
-SET gender = 
-    CASE
-        WHEN last_name = 'Snow' THEN 'Male'
-        WHEN last_name = 'Hickler' THEN 'Male'
-        WHEN last_name = 'Kelechukwu' THEN 'Male'
-        WHEN last_name = 'Okafor' THEN 'Male'
-        WHEN last_name = 'Kehinde' THEN 'Male'
-        ELSE 'Female'
-    END;
-
-// We can sum up a column name data if we are looking for more details.
-
-SELECT SUM(ticket_price)
-FROM bus;
- 
-//This will give the output of the total sum of the ticket_price sold.
-
+FROM
+  bus;
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+The above code lists the first name, last name and age of all the passengers in the bus.
