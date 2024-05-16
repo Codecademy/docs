@@ -19,6 +19,7 @@ In a simple syntax,  a window function can be performed over a given column, as 
 
 ``` pseudo
 SELECT employee_id, row_number() OVER (ORDER BY employee_id) AS row_num FROM employees;`
+```
 
 This query uses the `employee_id` to calculate a unique row number for each employee, `ORDER BY` within `OVER` controls the order in which rows are processed by the window function. The generated row number is assigned the column name `row_num` by the `AS row_num` part of the syntax.
 
@@ -54,6 +55,7 @@ From the above `_staff_ table`, to rank the employees using the `Rank()` functio
 
 ```sql
 SELECT id, salary, address, Rank() OVER (PARTITION BY address ORDER BY salary DESC) FROM staff;`
+```
 
 Breaking down the syntax:
 - The clause `SELECT`, selects the id, salary, and address columns from the staff table.
@@ -78,6 +80,7 @@ In PostgreSQL, the `row_number` window function plays a useful role by defining 
 
 ```sql
 SELECT id, salary, address, row_number() OVER (PARTITION BY address ORDER BY salary DESC) FROM staff`
+```
 
 Breaking down the syntax:
 - The clause `SELECT`, selects the `id`, `salary`, and `address` columns from the `_staff_` table.
