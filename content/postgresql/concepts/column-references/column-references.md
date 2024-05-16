@@ -95,7 +95,7 @@ column2 data_type,
   
 ## Example
 
-This is an example showing how to use column references in PostgreSQL. A table is initially created and column names are given together with data types to input the right data. It also shows how to update data through column references.
+The following example demonstrates the usage of column references in PostgreSQL:
 
 ```
 // Create a table to store information about some passengers in a bus.
