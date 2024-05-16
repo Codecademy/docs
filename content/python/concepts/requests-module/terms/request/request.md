@@ -24,7 +24,7 @@ import requests
 requests.request("method", "url", **kwargs)
 ```
 
-`**kwargs` are any number of [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries) items (named arguments) that are passed in as parameters. Many different named parameters can be passed in to a request. For example, they can be used to include cookies in the request, set proxies, set user-agents, or set a page timeout.
+`**kwargs` are any number of [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries) items (named arguments) that are passed in as parameters. Many different named parameters can be passed into a request. For example, they can be used to include cookies in the request, set proxies, set user-agents, or set a page timeout.
 
 The `requests` module comes with some commonly used convenience methods such as [`.get()`](https://www.codecademy.com/resources/docs/python/requests-module/get), [`.post()`](https://www.codecademy.com/resources/docs/python/requests-module/post), and etc. Using one of these convenience methods has the same effect as calling the `.request()` method directly.
 
