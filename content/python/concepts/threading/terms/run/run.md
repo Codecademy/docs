@@ -38,7 +38,7 @@ custom_thread = CustomThread()
 custom_thread.start()
 ```
 
-After the `.start()` method is called against the `custom_thread`, the overriden `.run()` method is executed and the following is printed:
+After the `.start()` method is called against the `custom_thread`, the overridden `.run()` method is executed and the following is printed:
 
 ```shell
 This is my custom run!

@@ -1,6 +1,6 @@
 ---
 Title: 'Interviewer Bias'
-Description: 'Bias due to the way a participant percieves the interviewer.'
+Description: 'Bias due to the way a participant perceives the interviewer.'
 Subjects:
   - 'Web Design'
 Tags:
