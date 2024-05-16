@@ -13,10 +13,7 @@ CatalogContent:
   - 'paths/design-databases-with-postgresql'
 ---
 
-In PostgreSQL, **"column-reference"** simply means the referencing of a column within a table. It is a very important **concept** in relational databases. As we are aware that a table consists of rows and columns, and each column symbolizes a particular element of data/information that can be manipulated to get results. Understanding column reference is a very useful skill for data scientists, analysts and administrators to efficiently query and analyse data.
-
-
-
+In PostgreSQL, **column references** is an important concept that allows developers to retrieve column names and relevant data from a table. Understanding this concept can be useful for data scientists, analysts and administrators as it helps them to query and analyze data efficiently.
 
 ## Syntax
 
