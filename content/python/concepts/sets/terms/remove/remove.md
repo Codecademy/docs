@@ -21,8 +21,8 @@ In Python, the **`.remove()`** method removes a specified element from a [set](h
 set.remove(element)
 ```
 
-- `set`:Refers to the set from which the specified element is to be removed.
-- `element`: Denotes the element to be removed from the set.
+- `set`: The set from which the element will be removed.
+- `element`: The element to be removed from the set. If the element is not present in the set, a `KeyError` will be raised.
 
 ## Example
 
