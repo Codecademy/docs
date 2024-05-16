@@ -1,24 +1,16 @@
 ---
-Title: Column-References
-
-Description: Column reference is used widely by developers to handle retrieval of column names and relevant data from a table.
-
-**Subjects**:
-    - 'Data Science'
-    - 'Developer Tools'
-    - 'Web Development'
-    - 'Tables'
-
-**Tags**: 
-    - 'Open Source'
-    - 'Database'
-    - 'Column'
-    - 'Budget friendly'
-
-**CatalogContent**:
-  - 'learn-postgresql'
-  - 'paths/back-end-engineer-career-path'
-  - 'paths/resources/docs/postgresql/Concept/column-references'
+Title: 'Column References'
+Description: 'Allow developers to retrieve column names and relevant data from a table.'
+Subjects:
+  - 'Computer Science'
+  - 'Data Science'
+Tags: 
+  - 'PostgreSQL'
+  - 'Database'
+  - 'Data'
+CatalogContent:
+  - 'getting-started-off-platform-for-data-science'
+  - 'paths/design-databases-with-postgresql'
 ---
 
 In PostgreSQL, **"column-reference"** simply means the referencing of a column within a table. It is a very important **concept** in relational databases. As we are aware that a table consists of rows and columns, and each column symbolizes a particular element of data/information that can be manipulated to get results. Understanding column reference is a very useful skill for data scientists, analysts and administrators to efficiently query and analyse data.
