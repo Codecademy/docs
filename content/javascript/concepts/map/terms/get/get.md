@@ -16,7 +16,7 @@ Retrieves a value associated with a given key in a `Map` object.
 
 ## Syntax
 
-The `.get()` method accepts a `key` parameter and checks it against a `Map` object. If the `key` exists in the map, the accosiated value is returned. If not, `undefined` is returned.
+The `.get()` method accepts a `key` parameter and checks it against a `Map` object. If the `key` exists in the map, the associated value is returned. If not, `undefined` is returned.
 
 ```js
 map.get(key);
