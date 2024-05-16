@@ -49,7 +49,7 @@ except KeyError:
 The above code produces the following output:
 
 ```shell
-{1, 2, 4, 5}
+{1, 2, 3, 5}
 Element 6 is not present in the set
 ```
 
