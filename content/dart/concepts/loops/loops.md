@@ -1,5 +1,5 @@
 ---
-Title: 'Loops'  
+Title: 'Loops'
 Description: 'Repeats a particular set of commands until certain conditions are met.'
 Subjects:
   - 'Code Foundations'
@@ -13,11 +13,12 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Loops** in Dart are used to iterate over iterables such as lists, maps, etc., allowing operations to be performed repeatedly. 
+In Dart, **Loops** are used to iterate over iterables such as lists, maps, etc., allowing operations to be performed repeatedly.
 Dart supports the following types of loops:
 
-## for Loop 
-The `for` loop is utilized when the number of iterations for a block of code is predetermined. It shares similarities with the `for` loop syntax in languages such as C, C++, or Java. 
+## for Loop
+
+The `for` loop is utilized when the number of iterations for a block of code is predetermined. It shares similarities with the `for` loop syntax in languages such as C, C++, Java, etc.
 
 ### Syntax
 
@@ -101,7 +102,7 @@ f(value) is a parameter which is used to call the function "f" for each value in
 void main()
 {
   var nums = [1,2,3,4,5];
-  nums.forEach((var n)=> print(n)); 
+  nums.forEach((var n)=> print(n));
 }
 ```
 
@@ -122,9 +123,9 @@ The while loop executes a block of code until the given condition is false. It i
 ### Syntax
 
 ```pseudo
-while(condition) {  
-   // loop body  
-}  
+while(condition) {
+   // loop body
+}
 ```
 
 #### Example
@@ -157,9 +158,9 @@ The do-while loop is similar to the `while` loop, with the key difference being 
 ### Syntax
 
 ```pseudo
-do {  
-    // loop body  
-} while(condition);  
+do {
+    // loop body
+} while(condition);
 ```
 
 ### Example
