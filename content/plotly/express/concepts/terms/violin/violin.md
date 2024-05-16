@@ -1,6 +1,6 @@
 ---
-Title: '.violin()'
-Description: 'A violin plot is a method of plotting numeric data.'
+Title: '.Violin()'
+Description: 'Method of plotting numeric data.'
 Subjects:
   - 'Data Visualization'
   - 'Computer Science'
@@ -16,7 +16,7 @@ CatalogContent:
 - 'paths/data-science'
 - 'paths/data-science-foundations'
 ---
-The function .violin() generates a violin plot. Numeric data is plotted into a violin plot similar to a box plot however using kernel density estimation (KDE) to display its distribution, providing a more in-depth view of the dataset, including the density of the data at different values.
+The function **`.violin()`** generates a violin plot. Numeric data is plotted into a violin plot similar to a box plot however using kernel density estimation (KDE) to display its distribution, providing a more in-depth view of the dataset, including the density of the data at different values.
 
 ## Syntax
 
