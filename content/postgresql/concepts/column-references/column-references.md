@@ -17,7 +17,7 @@ In PostgreSQL, **column references** is an important concept that allows develop
 
 ## Syntax
 
-The syntax for declaring column reference for Postgresql is almost alike with that of SQL(Structured Query Language) as they share some attributes and patterns. Kindly go through the list below to be able to access a column reference in PostgreSQL:
+The process for referencing columns in PostgreSQL matches a lot with that of SQL (Structured Query Language) as they share some attributes and patterns. Specifically, there are some statements that can be used to reference columns in PostgreSQL.
 
   1. SELECT Statement: 
   To get data from specific columns in a table:
