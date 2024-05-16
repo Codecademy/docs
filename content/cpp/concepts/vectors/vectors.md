@@ -41,7 +41,7 @@ std::vector<double> order = {3.99, 12.99, 2.49};
 
 ## Getting Information
 
-Since a vector is dynamic and can grow and shrink it's size to accomodate new elements, the language gives us a few methods to get information from the vector.
+Since a vector is dynamic and can grow and shrink it's size to accommodate new elements, the language gives us a few methods to get information from the vector.
 
 ### Index
 

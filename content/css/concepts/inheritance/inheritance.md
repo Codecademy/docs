@@ -31,7 +31,7 @@ Inherited properties apply to the element and its children.
 | [`line-height`](https://www.codecademy.com/resources/docs/css/typography/line-height)       | Set the vertical spacing between lines of text.                                              |
 | [`text-align`](https://www.codecademy.com/resources/docs/css/typography/text-align)         | To set the text alignment of inline contents.                                                |
 | [`text-indent`](https://www.codecademy.com/resources/docs/css/typography/text-indent)       | Indents (leaves empty space) the first line in a text-block.                                 |
-| [`text-justify`](https://www.codecademy.com/resources/docs/css/typography/text-justify)     | Sets the justifcation method of text when `text-align: justify;` is applied to an element.   |
+| [`text-justify`](https://www.codecademy.com/resources/docs/css/typography/text-justify)     | Sets the justification method of text when `text-align: justify;` is applied to an element.  |
 | [`text-shadow`](https://www.codecademy.com/resources/docs/css/typography/text-shadow)       | Adds shadow to text.                                                                         |
 | [`text-transform`](https://www.codecademy.com/resources/docs/css/typography/text-transform) | Specifies how to capitalize an element’s text.                                               |
 | [`visibility`](https://www.codecademy.com/resources/docs/css/visibility)                    | Hides or reveals an element without affecting its placement within the page.                 |

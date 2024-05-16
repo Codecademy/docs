@@ -40,4 +40,4 @@ In the example below, the [`<p>`](https://www.codecademy.com/resources/docs/html
 
 The example above results in the following output:
 
-![Style Attribute Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/media/style-atttribute-example.png)
+![Style Attribute Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/media/style-attribute-example.png)
