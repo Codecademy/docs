@@ -1,13 +1,12 @@
 ---
 Title: '.replaceAll()'
-Description: 'Replaces all occurrences of a given value ArrayList.'
+Description: 'Replaces all occurrences of a given value in an ArrayList.'
 Subjects:
-  - 'A subject name'
-  - 'A second subject name'
-  - 'An nth subject name'
-Tags:
   - 'Computer Science'
-  - 'Information Technology'
+  - 'Code Foundations'
+Tags:
+  - 'Arrays'
+  - 'Data Types'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
