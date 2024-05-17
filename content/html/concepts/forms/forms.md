@@ -50,7 +50,7 @@ The following is an example of an HTML form that features `<input>` elements:
 </html>
 ```
 
-The renderd output of above looks like this:
+The rendered output of above looks like this:
 
 ![Rendered output of above snippet](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-form-code-output.png)
 

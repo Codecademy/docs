@@ -19,7 +19,7 @@ The **`truncate()`** method rounds a `Double` or `Float` argument to the next wh
 
 ## Syntax
 
-```psuedo
+```pseudo
 truncate(arg)
 ```
 

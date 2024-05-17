@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **smart pointer** is a class that holds and manages a [pointer](https://www.codecademy.com/resources/docs/cpp/pointers) through a popular C++ technique called "Resource Acquisiton is Initialization" (RAII). It allows developers to not worry about freeing a pointer, and it also allows pointers to be exception-safe.
+A **smart pointer** is a class that holds and manages a [pointer](https://www.codecademy.com/resources/docs/cpp/pointers) through a popular C++ technique called "Resource Acquisition is Initialization" (RAII). It allows developers to not worry about freeing a pointer, and it also allows pointers to be exception-safe.
 
 ## Ownership
 
