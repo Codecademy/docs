@@ -28,8 +28,8 @@ Image.convert(mode=None, matrix=None, dither=None, palette=0, ...)
 - `Image`: The image object to be converted.
 - `mode`: The string that represents the mode to which the image is to be converted. The available modes depend on the image type and the version of the library being used.
 - `matrix`: An optional conversion matrix for color space transformations.
-- `dither`: Specifies the dithering method to use during conversion from mode "RGB" to "P" or from "RGB" or "L" to "1". The default is `None`. Note that this is not used when `matrix` is provided.
-- `palette`: Palette used when converting from mode "RGB" to "P".
+- `dither`: Specifies the dithering method to use during conversion from mode `RGB` to `P` or from `RGB` or `L` to `1`. The default is `None`. This parameter is not used when a `matrix` is provided.
+- `palette`: The palette used when converting from mode `RGB` to `P`.
 
 > **Note**: The ellipsis (...) indicates that there can be additional optional parameters beyond those listed here.
 
