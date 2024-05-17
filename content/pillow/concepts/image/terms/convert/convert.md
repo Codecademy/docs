@@ -10,7 +10,7 @@ Tags:
   - 'Images'
 CatalogContent:
   - 'learn-python-3'
-  - 'paths/computer-science''
+  - 'paths/computer-science'
   - 'paths/data-science'
   - 'paths/data-science-foundations'
 ---
