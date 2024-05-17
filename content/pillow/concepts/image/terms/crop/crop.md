@@ -1,10 +1,9 @@
 ---
 Title: '.crop()'
-Description: 'Returns an image cropped to a specified rectangular area.'
-Subjects: 
+Description: 'Returns a given image cropped to a specified rectangular area.'
+Subjects:
   - 'Computer Science'
   - 'Web Design'
-  - 'Web Development'
 Tags:
   - 'Computer Vision'
   - 'Images'
@@ -12,11 +11,9 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/data-science'
-  - 'paths/data-science-foundations'
 ---
 
-In the Pillow library, the **`.crop()`** method is used to return a cropped rectangular area from an image. Pillow, a fork of the Python Imaging Library (PIL), offers extensive file format support and additional image processing methods. The Pillow library can be installed locally with [pip](https://www.codecademy.com/resources/docs/python/pip).
+In the Pillow library, the **`.crop()`** method returns a given image cropped to a specified rectangular area.
 
 ## Syntax
 
@@ -24,7 +21,9 @@ In the Pillow library, the **`.crop()`** method is used to return a cropped rect
 Image.crop(box=None)
 ```
 
-- `box`:  It is a 4-tuple representing the rectangular area to be cropped. This tuple comprises four integer values `(left, upper, right, lower)` that signify the coordinates of the left, upper, right, and lower edges of the area to be cropped.
+- `box`: It is a 4-tuple representing the rectangular area of the image to be cropped.
+
+This tuple comprises four integer values, i.e., `(left, upper, right, lower)`. They signify the coordinates of the left, upper, right, and lower edges of the area to be cropped, respectively.
 
 ## Example
 
@@ -33,27 +32,26 @@ The following example uses `.crop()` to return an area within the provided image
 ```py
 from PIL import Image
 
-# The original image has a size of 1024x768 pixels.
+# The original image has a size of 1024x768 pixels
 with Image.open('Photo.jpeg') as photo:
 
-    # Displays the original image in a new window.
-    photo.show()
-    
-    # Assigning the desired crop region. This can be envisioned as (x1, y1, x2, y2).
-    (left, upper, right, lower) = (100, 100, 600, 600)
+  # Displaying the original image
+  photo.show()
 
-    # "croppedVarName" will be the variable that holds our new cropped image.
-    croppedVarName = photo.crop((left, upper, right, lower))
+  # Assigning the desired crop region, which can be envisioned as (x1, y1, x2, y2)
+  (left, upper, right, lower) = (100, 100, 600, 600)
 
-    # Displays the cropped image in a new window.
-    croppedVarName.show()
-    
+  # Saving the cropped image to the 'croppedVarName' variable
+  croppedVarName = photo.crop((left, upper, right, lower))
+
+  # Displaying the cropped image
+  croppedVarName.show()
 ```
 
-The code above produces the following output:
-```
-![Original](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-original.jpeg)
+The above code displays two images as the output. Here is the first one, which is the original image:
 
-![Crop Results](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-crop.png)
+![Original Image](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-original.jpeg)
 
-```
+Here is the second one, which is the cropped image:
+
+![Cropped Image](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-crop.png)
