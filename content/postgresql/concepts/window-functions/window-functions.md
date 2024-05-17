@@ -38,7 +38,7 @@ Below is a table of window functions in PostgreSQL:
 
 ## Example
 
-To understand the `Rank()` and `Row_number()` functions, let's consider the following ` staff ` tableas an example to demonstrate how these window functions work:
+To understand the `Rank()` and `Row_number()` functions, let's consider the following ` staff ` table as an example to demonstrate how these window functions work:
 
 | ` id ` | ` employee ` | ` address ` | ` contact ` | ` salary`  | 
 |--- | -----    | -----   | -----   | ----   |
