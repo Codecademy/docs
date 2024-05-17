@@ -63,6 +63,8 @@ Breaking down the syntax:
 - The `(PARTITION BY address ORDER BY salary DESC)` clause actively defines how the window function partitions the data.
 - The statement ends with `FROM staff`, signifying that it operates on the `_staff _` table.
 
+This is the output of the above query:
+
 ## Output
 
 | `id` | `salary`| `address` | `rank` | 
