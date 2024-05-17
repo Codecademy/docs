@@ -22,7 +22,7 @@ The usage of classes are a key element of [object-oriented programming](https://
 
 ## Creating a Class
 
-In Python, classes are defined using the [`class`](https://www.codecademy.com/resources/docs/python/keywords/class) keyword. The first letter of the name of the class is always capitalized. For instance the 'Home' class below the h is always capitalized.
+In Python, classes are defined using the [`class`](https://www.codecademy.com/resources/docs/python/keywords/class) keyword. The first letter of the name of the class is always capitalized. For instance, the first letter of the `Home` class in the below example, i.e., 'H', is capitalized:
 
 ```py
 class Home:
