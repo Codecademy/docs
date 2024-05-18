@@ -1,1 +1,1 @@
-content/cybersecurity/concepts/social-engineering/social-engineering.md
+content/css/concepts/variables/variables.md
