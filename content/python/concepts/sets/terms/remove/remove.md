@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Python, the **`.remove()`** method removes a specified element from a [set](https://www.codecademy.com/resources/docs/python/sets). If the element is not found, it raises a [KeyError](https://www.codecademy.com/resources/docs/python/errors).
+In Python, the **`.remove()`** method removes a specified element from a [set](https://www.codecademy.com/resources/docs/python/sets). If the element is not found, it raises a [`KeyError`](https://www.codecademy.com/resources/docs/python/errors).
 
 ## Syntax
 
@@ -21,26 +21,27 @@ In Python, the **`.remove()`** method removes a specified element from a [set](h
 set.remove(element)
 ```
 
-- `set`: The set from which the element will be removed.
-- `element`: The element to be removed from the set. If the element is not present in the set, a `KeyError` will be raised.
+- `set`: The set from which the element is to be removed.
+- `element`: The element to be removed from the set.
 
 ## Example
 
 The below example shows the usage of the `.remove()` method:
 
 ```py
+# Creating a set
 my_set = {1, 2, 3, 4, 5}
 
-# Remove element 4 from the set
+# Removing '4' from the set
 my_set.remove(4)
 
-# Print the set after removing the element 4
-print(my_set)  
+# Printing the modified set
+print(my_set)
 
-# Try to remove element 6 which is not present in the set
+# Removing '6' from the set
 my_set.remove(6)
 
-# Print the set after removing the element 6, which is not present in the set
+# Printing the modified set
 print(my_set)
 ```
 
@@ -51,17 +52,16 @@ The above code produces the following output:
 KeyError: 6
 ```
 
-In the example above, it is demonstrated how the `.remove()` method can raise a `KeyError` when attempting to remove an element that doesn't exist in the set. The `KeyError` occurs because the `.remove()` method expects the specified element to be present in the set, and it cannot remove an element that is not there. Therefore, when trying to remove the element `6`, which was not present in the set, it resulted in the `KeyError` being raised.
+In the above example, the `.remove()` method raises a `KeyError` since the element `6` doesn't exist in `my_set`.
 
 ## Codebyte Example
 
 Below is a codebyte example demonstrating the use of the `.remove()` method:
 
 ```codebyte/python
-# create a set A
-my_set= {'a', 'e', 'i'}
+my_set = {'a', 'e', 'i'}
 
-# Remove element e from the set
-my_set.remove("e")
+my_set.remove('e')
+
 print(my_set)
 ```
