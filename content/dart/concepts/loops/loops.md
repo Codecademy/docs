@@ -18,7 +18,7 @@ Dart supports the following types of loops:
 
 ## for Loop
 
-The `for` loop is utilized when the number of iterations for a block of code is predetermined. It shares similarities with the `for` loop syntax in languages such as [C](https://www.codecademy.com/resources/docs/c), [C++](https://www.codecademy.com/resources/docs/cpp), [Java](https://www.codecademy.com/resources/docs/java), etc.
+The `for` loop is utilized when the number of iterations for a code block is predetermined. It shares similarities with the `for` loop syntax in languages such as [C](https://www.codecademy.com/resources/docs/c), [C++](https://www.codecademy.com/resources/docs/cpp), [Java](https://www.codecademy.com/resources/docs/java), etc.
 
 ### Syntax
 
