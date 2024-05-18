@@ -1,63 +1,67 @@
 ---
 Title: '.difference_update()'
-Description: 'Modifys a given set of objects to be unique when compared to other set or sets.'
+Description: 'Modify a given set of objects to be unique when compared to other sets.'
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - 'Computer Science'
+  - 'Data Science'
 Tags:
-  - 'Collections'
-  - 'Functions'
-  - 'Methods'
-  - 'Sets'
+  - 'Collections'
+  - 'Functions'
+  - 'Methods'
+  - 'Sets'
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
-The `.difference_unique()` method modifys a given set of objects to be unique when compared to another set or sets; it returns NONE.
+The **`.difference_unique()`** method modifies a given set of objects to be unique when compared to another set or sets. 
+
+Things to note about this method:
+- the original set is modified by discarding any of the content that appears in the sets it is compared with
+- the return value is `None`
+- as no new set is created, this method is more resource-efficient than using the [.difference()](https://www.codecademy.com/resources/docs/python/sets/difference) method, which returns a new set
 
 ## Syntax
 
 The following syntaxes can be used:
 
 ```pseudo
-set.difference_update(set1, set2, ..., setN)
+set1.difference_update(set2, set3, setN)
 
-setA -= setB - setC
+set1 -= set2 | set3 | setN
 ```
 
-- The `.difference_update()` method can be called directly against `set` with multiple sets passed as arguments.
-- Optionally, the `-=` [operator](https://www.codecademy.com/resources/docs/python/operators) can be used between sets `setA`, `setB`, and `setC` where it will produce the same result as the `.difference_update()` method.
+- The `.difference_update()` method can be called directly against `set1` with multiple sets passed as arguments.
+- Optionally, the `-=` [operator](https://www.codecademy.com/resources/docs/python/operators) can be used between the original and the comparative sets where it will produce the same result as the `.difference_update()` method.
 
 ## Example
 
-The following example uses the `-=` operator to create a new set of activities unique to `summercamp_activities` when compared with the sets `school_activities` and `afterschool_activities`:
+This example calls the `.difference_update()` method to find out which ingredients need to be bought for the `salad`:
 
 ```py
-summercamp_activities = {'fishing', 'bouldering', 'tennis', 'swimming', 'chess'}
-school_activities = {'swimming', 'football', 'art', 'chess', 'choir'}
-afterschool_activities = {'badminton', 'tennis', 'rugby', 'football', 'yoga'}
+salad = {'lettuce', 'beetroot', 'walnuts', 'cheese', 'seeds'}
+larder = {'tomatoes', 'lettuce', 'cheese', 'seeds', 'celery'}
 
-summercamp_activities -= school_activities, afterschool_activities
-print(summercamp_activities)
+salad.difference_update(larder)
 ```
 
-This modifies the origina set of summercamp_activities so will print just the items unique to the first set:
+The set `salad` has been modified and when it is printed it displays only the items that are not in `larder`:
 
 ```shell
-{'fishing', 'bouldering'}
+{'beetroot', 'walnuts'}
 ```
 
 ## Codebyte Example
 
-In the example, all afterschool activities are cancelled, but the teachers have tried to incorporate them into school and summercamp so let's find which activities are unique to summercamp now, using the `.difference_update()` method:
+In the example, we went shopping in a couple of our favorite shops but forgot to take a shopping list. This time we use the -= operator to see if we bought everything needed for the `salad`:
 
 ```codebyte/python
-summercamp_activities = set(['fishing', 'bouldering', 'tennis', 'swimming', 'chess', 'yoga'])
-school_activities = set(['swimming', 'football', 'badminton', 'art', 'chess', 'choir'])
+salad = set(['lettuce', 'beetroot', 'walnuts', 'cheese', 'seeds'])
+larder = set(['tomatoes', 'lettuce', 'cheese', 'seeds', 'celery'])
+shopping1 = set(['scallions', 'beetroot'])
+shopping2 = set(['stilton', 'green beans'])
 
+salad -= larder | shopping1 | shopping2
 
-summercamp_activities.difference_update(school_activities)
-
-print(summercamp_activities)
+print(salad)
 ```
