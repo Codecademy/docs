@@ -7,6 +7,7 @@ Feel free to add suggestions for new tags to the list as part of your PR! Be sur
 ```
 Abstraction
 Accessibility
+Aggregate Expressions
 AI
 Algorithms
 Alias
