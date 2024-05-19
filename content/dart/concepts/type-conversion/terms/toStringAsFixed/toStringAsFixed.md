@@ -33,7 +33,7 @@ The following example demonstrates how the `.toStringAsFixed()` method is used t
 
 ```dart
 void main() {
-  double number = 3.14159; 
+  double number = 3.14159;
   String stringNumber = number.toStringAsFixed(2);
   print("Output = ${stringNumber}");
 }
