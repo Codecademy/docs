@@ -54,6 +54,6 @@ fig.show()
 ```
 **Output:**
 
-The code above produces the following output:
+The code depicted above produces the following output:
 
 ![Output of plotly.figure_factory.create_gantt() function example](https://raw.githubusercontent.com/Codecademy/docs/main/media/plotly-figure-factory-create-gantt-output.png)
