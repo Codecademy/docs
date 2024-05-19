@@ -1,16 +1,13 @@
 ---
 Title: 'Column References'
 Description: 'Allow developers to retrieve column names and relevant data from a table.'
-
 Subjects:
   - 'Computer Science'
   - 'Data Science'
-    
 Tags: 
   - 'PostgreSQL'
   - 'Database'
   - 'Data'
-    
 CatalogContent:
   - 'getting-started-off-platform-for-data-science'
   - 'paths/design-databases-with-postgresql'
@@ -19,9 +16,11 @@ CatalogContent:
 In PostgreSQL, **column references** is an important concept that allows developers to retrieve column names and relevant data from a table. Understanding this concept can be useful for data scientists, analysts and administrators as it helps them to query and analyze data efficiently.
 
 ## Syntax
+
 The process for referencing columns in PostgreSQL matches a lot with that of SQL (Structured Query Language) as they share some attributes and patterns. Specifically, there are some statements that can be used to reference columns in PostgreSQL.
 
 ### SELECT
+
 The `SELECT` statement is used to get data from specific columns in a table:
 
 ```pseudo
@@ -30,6 +29,7 @@ FROM table_name;
 ```
 
 ### INSERT
+
 The `INSERT` statement is used to specify the columns to which data is to be inserted:
 
 ```pseudo
@@ -38,6 +38,7 @@ VALUES (value3, value7, ...);
 ```
 
 ### UPDATE
+
 The `UPDATE` statement is used to specify the columns to be updated with new data:
 
 ```pseudo
@@ -56,7 +57,9 @@ WHERE condition;
 ```
 
 ### ALTER TABLE
+
 The `ALTER TABLE` statement is used to add, modify or remove columns from a table.
+
 Here is the syntax for adding a column to a table:
 
 ```pseudo
