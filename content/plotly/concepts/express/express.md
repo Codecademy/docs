@@ -1,18 +1,20 @@
 ---
-Title: 'Express.md/Plotly express library'
-
-Description: Plotly Express is a built-in part of the plotly library, and it is the starting point for creating most common figures. Every Plotly Express function uses graph objects. 
-
-Codecademy Hub page: https://www.codecademy.com/docs/content/plotly/concepts/express/express.md
-
-CatalogContent: 
-- 'docs/content/python'
-- 'docs/content'
-
+Title: 'express'
+Description: 'The express module in Plotly is a high-level interface that simplifies the creation of interactive and visually appealing plots with minimal code.'
+Subjects:
+  - 'Computer Science'
+  - 'Data Science'
+  - 'Data Visualization'
 Tags:
-- 'Python'
-- 'Functions'
-- 'keywords'
+  - 'Graphs'
+  - 'Modules'
+  - 'Plotly'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/computer-science'
+  - 'paths/data-science'
+  - 'paths/data-science-foundations'
+---
 
 In Plotly, the **express** module is a high-level interface designed to simplify the creation of interactive and visually appealing plots by providing easy-to-use functions for a wide range of chart types, including line charts, scatter plots, bar charts, and more, allowing users to generate complex visualizations with minimal code.
 
