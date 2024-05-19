@@ -23,3 +23,4 @@ In Plotly, the **express** module is a high-level interface designed to simplify
 ## Syntax
 ```pseudo
 import plotly.express as px
+```
