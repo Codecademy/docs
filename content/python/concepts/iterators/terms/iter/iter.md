@@ -22,7 +22,7 @@ iter(object, sentinel)
 ```
 
 - `object`: A required object parameter. The `iter()` function returns an iterator object for this.
-- `sentinel`: An optional paramater. If set, the iterator will call the object with no arguments for each call to its `__next__()` method. If the value returned is equal to `sentinel`; `StopIteration` will be raised, otherwise the value will be returned.
+- `sentinel`: An optional parameter. If set, the iterator will call the object with no arguments for each call to its `__next__()` method. If the value returned is equal to `sentinel`; `StopIteration` will be raised, otherwise the value will be returned.
 
 ## Example
 
