@@ -1,8 +1,8 @@
 name: Entry Request
 description: Request for a single new topic, concept, or term entry.
-title: "[Entry] Subject: Entry Name"
-labels: ["new entry"]
-assignees: "Name here"
+title: '[Entry] Subject: Entry Name'
+labels: ['new entry']
+assignees: 'Name here'
 body:
   - type: textarea
     id: description

@@ -1,8 +1,8 @@
 name: Entry Edit
 description: Request for edits to a single existing topic, concept, or term entry.
-title: "[Edit] Subject: Entry Name"
-labels: ["enhancement", "typo"]
-assignees: "Name here"
+title: '[Edit] Subject: Entry Name'
+labels: ['enhancement', 'typo']
+assignees: 'Name here'
 body:
   - type: dropdown
     id: edits
@@ -19,8 +19,8 @@ body:
     id: desc
     attributes:
       label: Description (optional)
-      description: "Additional context behind edits."
-      placeholder: "Please provide any additional context/reasoning behind the edits here."
+      description: 'Additional context behind edits.'
+      placeholder: 'Please provide any additional context/reasoning behind the edits here.'
   - type: markdown
     attributes:
       value: |

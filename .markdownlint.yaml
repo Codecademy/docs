@@ -1,18 +1,18 @@
 default: true,
 fenced-code-language: false
 heading-style:
-  style: "atx"
+  style: 'atx'
 line-length: false
 single-h1:
-  front_matter_title: "Title"
+  front_matter_title: 'Title'
 no-bare-urls: false
 no-duplicate-heading:
   siblings_only: true
 no-inline-html: false
 ul-style:
-  style: "dash"
+  style: 'dash'
 ol-prefix:
-  style: "ordered"
+  style: 'ordered'
 code-fence-style:
-  style: "backtick"
+  style: 'backtick'
 emphasis-style: false

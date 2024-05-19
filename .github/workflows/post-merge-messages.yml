@@ -37,11 +37,11 @@ jobs:
             You have contributed to Codecademy Docs, and we would like to know more about you and your experience.
             Please take a minute to fill out [this four question survey](https://codecademyready.typeform.com/to/O3hzYoBB) to help us better understand Docs contributions and how we can improve the experience for you and our learners.
             Thank you for your help!
-            
+
             🎉 Your contribution(s) can be seen here:
-            
+
             ${{ env.urls }}
-            
+
             Please note it may take a little while for changes to become visible.
             If you're appearing as anonymous and want to be credited, see [here](https://discuss.codecademy.com/t/my-contribution-is-live-but-im-not-being-shown-as-a-contributor-why-is-this/758036).
           issuesClosed: |

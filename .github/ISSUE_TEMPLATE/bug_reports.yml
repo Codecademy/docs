@@ -1,8 +1,8 @@
 name: Bug Report
 description: Brief description of bug in code/codebytes in a single topic, concept, or term entry.
-title: "[Bug/Error] Subject: Entry Name"
-labels: ["bug"]
-assignees: "Name here"
+title: '[Bug/Error] Subject: Entry Name'
+labels: ['bug']
+assignees: 'Name here'
 body:
   - type: markdown
     attributes:
