@@ -1,6 +1,6 @@
 ---
 Title: '.toStringAsFixed()'
-Description: 'Converts a numeric value into a string representation'
+Description: 'Converts a number to a string with a fixed number of decimal places.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -16,20 +16,20 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Dart, **`.toStringAsFixed()`** is a method used to convert numeric [data types](https://www.codecademy.com/resources/docs/dart/data-types), typically used with `double`, to a string representation with a fixed number of decimal places. If the number is an integer it will be converted to a `double` before computing the string representation.
+In Dart, **`.toStringAsFixed()`** is a method used to convert numeric [data types](https://www.codecademy.com/resources/docs/dart/data-types), typically used with `double`, to a string representation with a fixed number of decimal places. If the input number is an integer, it will first be converted to a `double` before computing the string representation.
 
 ## Syntax
 
 ```pseudo
-doubleNumber.toStringAsFixed(fractionDigits);
+numericValue.toStringAsFixed(fractionDigits);
 ```
 
-- `doubleNumber`: Represents the number that we want to convert to `string`.
-- `fractionDigits`: is the number of digits to the right of the decimal point in the resulting string.
+- `numericValue`: Represents the numeric value to convert to a `string`. It can be either an `int` or a `double` data type.
+- `fractionDigits`: An integer indicating the decimal places in the resulting string. It must be non-negative and will pad with zeros if greater than the actual decimal places in the number.
 
 ## Example
 
-The following example demonstrates how the `.toStringAsFixed()` method is used to convert a number to a string:
+The following example illustrates how the `.toStringAsFixed()` method is utilized to convert a number into a string with the specified decimal digits:
 
 ```dart
 void main() {
