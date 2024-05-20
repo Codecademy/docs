@@ -39,7 +39,7 @@ encodedData = binascii.b2a_uu(binaryData)
 print(encodedData)
 ```
 
-This outputs:
+This produces the following output:
 
 ```shell
 b')<V]M92!T97AT\n'

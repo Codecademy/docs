@@ -4,7 +4,7 @@ Description: 'Hexadecimal(hex, hex numbers, or base-16) is a numeral system that
 Subjects:
   - 'Web Development'
   - 'Web Design'
-  - 'Computer Engeneering'
+  - 'Computer Engineering'
 Tags:
   - 'colors'
 CatalogContent:
