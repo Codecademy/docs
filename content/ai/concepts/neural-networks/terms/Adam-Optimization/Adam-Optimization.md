@@ -1,10 +1,10 @@
 ---
 Title: 'adam-optimization' 
 Description: 'Adam is a momentum-based optimization algorithm used to iteratively update network weights based in training data.' 
-Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
-  - 'A subject name'
-  - 'A second subject name'
-  - 'An nth subject name'
+Subjects: 
+  - 'AI'
+  - 'Machine Learning'
+  - 'Computer Science'
 Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
   - 'A tag'
   - 'A second tag'
