@@ -1,6 +1,6 @@
 ---
 Title: 'adam-optimization' 
-Description: 'A brief description.' # Required; ideally under 150 characters and starts with a present-tense verb (used in search engine results and content previews)
+Description: 'Adam is a momentum-based optimization algorithm used to iteratively update network weights based in training data.' 
 Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
   - 'A subject name'
   - 'A second subject name'
