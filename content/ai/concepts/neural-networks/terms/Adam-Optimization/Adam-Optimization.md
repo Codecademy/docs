@@ -12,9 +12,9 @@ Tags:
   - 'Neural Networks'
   - 'Deep Learning'
   - 'Wegith & Bias'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
-  - 'learn-example-course'
-  - 'paths/example-path'
+CatalogContent: 
+  - 'machine-learning'
+  - 'paths/machine-learning-engineer'
 ---
 
 [A brief definition - make sure first mention of term is in **bold**.]
