@@ -50,10 +50,7 @@ b')<V]M92!T97AT\n'
 ```codebyte/python
 import binascii
 
-# Create binary data to encode
 binaryData = b"some text"
-
-# Encode the binary data to UUEncoded ASCII format
 encodedData = binascii.b2a_uu(binaryData)
 
 print(encodedData)
