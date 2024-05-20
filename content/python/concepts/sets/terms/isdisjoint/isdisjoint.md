@@ -52,7 +52,7 @@ In the above example, the `.isdisjoint()` method returns `True` for `set1` and `
 
 ## Codebyte Example
 
-Below is a codebyte example demonstrating the use of the **`.isdisjoint()`** method:
+Below is a codebyte example demonstrating the use of the `.isdisjoint()` method:
 
 ```codebyte/python
 set_a = {'a', 'b', 'c'}
