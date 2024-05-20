@@ -17,7 +17,7 @@ CatalogContent:
   - 'paths/machine-learning-engineer'
 ---
 
-[A brief definition - make sure first mention of term is in **bold**.]
+[**Adam Optimization** is second-order optimization method that utilize momentum-based algorithms that adapt the learning rate for each parameter based on the first and second moments of the gradent. Adam optimization addresses the limitations of first-order optimization methods such as stochastic gradient decent (SDG), Root Mean Square Propagation (RMSprop), Adagrad, and Adadelta. Ultimately, Adam optimization seeks to achieve faster convergence and better perfromance of deep learning models.]
 
 ## Syntax
 
