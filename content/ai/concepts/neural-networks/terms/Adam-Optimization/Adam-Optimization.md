@@ -5,10 +5,13 @@ Subjects:
   - 'AI'
   - 'Machine Learning'
   - 'Computer Science'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
-  - 'A tag'
-  - 'A second tag'
-  - 'An nth tag'
+Tags: 
+  - 'Optimization'
+  - 'AI'
+  - 'Machine Learning'
+  - 'Neural Networks'
+  - 'Deep Learning'
+  - 'Wegith & Bias'
 CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
   - 'learn-example-course'
   - 'paths/example-path'
