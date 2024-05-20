@@ -48,7 +48,7 @@ True
 False
 ```
 
-In the above Example, the **`.isdisjoint()`** method returns `True` for set1 and set2 since they have no elements in common, and `False` for set1 and set3 since they share the element `3`.
+In the above example, the `.isdisjoint()` method returns `True` for `set1` and `set2` since they have no elements in common and `False` for `set1` and `set3` since they share the element `3`.
 
 ## Codebyte Example
 
