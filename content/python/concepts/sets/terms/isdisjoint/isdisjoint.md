@@ -26,7 +26,7 @@ set.isdisjoint(other_set)
 
 ## Example
 
-The below example shows the usage of the **`.isdisjoint()`** method:
+The below example shows the usage of the `.isdisjoint()` method:
 
 ```py
 # Creating Three sets
