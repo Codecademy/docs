@@ -29,16 +29,16 @@ set.isdisjoint(other_set)
 The below example shows the usage of the `.isdisjoint()` method:
 
 ```py
-# Creating Three sets
+# Creating three sets
 set1 = {1, 2, 3}
 set2 = {4, 5, 6}
 set3 = {3, 4, 5}
 
-# Checking if set1 and set2 are disjoint
-print(set1.isdisjoint(set2))  # Output: True
+# Checking if 'set1' and 'set2' are disjoint
+print(set1.isdisjoint(set2))
 
-# Checking if set1 and set3 are disjoint
-print(set1.isdisjoint(set3))  # Output: False
+# Checking if 'set1' and 'set3' are disjoint
+print(set1.isdisjoint(set3))
 ```
 
 The above code produces the following output:
