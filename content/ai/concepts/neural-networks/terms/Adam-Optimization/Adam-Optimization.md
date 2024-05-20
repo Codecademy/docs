@@ -23,15 +23,15 @@ CatalogContent:
 
 [Below is an example of the pytorch adam optimizer syntax that is used to reduce the rate of error during the training of the target neural network. 
 
-[torch.optim.Adam(params,lr=0.005,betas=0.9,0.999,eps=1e-08,weight_decay=0,amsgrad=False)]
+[torch.optim.Adam(params,lr=0.005,betas=0.9,0.999,eps=1e-08,weight_decay=0)]
 
 The parameters used in the syntax include:
 - Adam is used as the replacement optimizer for gradient decent.
 - params: used as a parameter that helps in the optimization.
 - lr: learning rate helping the optimizer.
-- betas: parameter that calculates the average of the gradient.
-- eps: episodes or epochs used to improve numerical stability
-- weight_delay: adds a l2 penality to the loss function with a default value of 0.]
+- betas: parameter that calculates the running average of the gradient and its square.
+- eps: term added to denominator used to improve numerical stability.
+- weight_delay: adds a L2 penality to the loss function with a default value of 0.]
 
 ## Example
 
