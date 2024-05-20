@@ -1,6 +1,6 @@
 ---
 Title: '.isdisjoint()'
-Description: 'Checks whether two sets contains a common Element in it.'
+Description: 'Checks whether two sets contain a common element in them.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
