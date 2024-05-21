@@ -86,6 +86,7 @@ Data
 Data Structures
 Data Types
 Database
+Data Science
 Date
 Dart Operators
 Debugging
@@ -151,6 +152,7 @@ Ggplot2
 Git
 GitHub
 Graphics
+Graph Objects
 Graphs
 Graph Search
 Grid
@@ -180,6 +182,7 @@ Interface
 iOS
 Iterators
 Java
+Javascript
 Join
 jQuery
 JRuby
