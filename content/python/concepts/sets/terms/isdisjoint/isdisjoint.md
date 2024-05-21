@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.isdisjoint()`** method checks whether two [sets](https://www.codecademy.com/resources/docs/python/sets) have any common elements. If no common elements exist, it returns `True`; otherwise, it returns `False`.
+In Python, the **`.isdisjoint()`** method checks whether two [sets](https://www.codecademy.com/resources/docs/python/sets) have any common elements. If no common elements exist, it returns `True`; otherwise, it returns `False`.
 
 ## Syntax
 
