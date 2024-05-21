@@ -16,7 +16,7 @@ In Dart, **data types** are stored in variables, just like in other languages li
 
 ## What is Static Typing?
 
-Static typing refers to the property of the programming language where variables are bound to their types at compile-time. It means that the type of a variable is known and checked by the compiler before the code is executed, allowing for early detection of type-related errors. In the example below all variables (myInteger, myDouble, myBoolean, and myString) are declared with an explicit data type (int, double, bool, and String, respectively):
+Static typing refers to the property of the programming language where variables are bound to their types at compile-time. It means that the type of a variable is known and checked by the compiler before the code is executed, allowing for early detection of type-related errors. In the example below all variables (`myInteger`, `myDouble`, `myBoolean`, and `myString`) are declared with an explicit data type (`int`, `double`, `bool`, and `String`, respectively):
 
 ```dart
 int myInteger = 42;
@@ -57,7 +57,7 @@ print(inheritedNumber);      // Output: 7
 
 ## Strings
 
-Strings `string` are used to represent a sequence of characters, and they are embedded in either single ('...') or double-quotes ("..."):
+Strings `String` represent a sequence of characters and are enclosed in either single quotes (`'...'`) or double quotes (`"..."`):
 
 ```dart
 String greeting = "Double quotes work!";
@@ -69,7 +69,7 @@ print(anotherString);  // Output: Single quotes work too!
 
 ## Booleans
 
-Booleans `bool` represents values true or false:
+Booleans `bool` represent values that can be either `true` or `false`:
 
 ```dart
 bool isDartFun = true;
@@ -116,7 +116,7 @@ print(studentScores['Bob']);    // Output: 87
 
 ## Nulls
 
-Nulls `Null` is a type that represents the absence of a value in a variable. This type can only have one possible value, which is null. Dart uses a sound null safety system, meaning that variables are non-nullable by default, and they have to be explicitly declared as nullable if they need to be able to hold a null value:
+Nulls `Null` is a type that represents the absence of a value in a variable. This type can only have one possible value, which is `null`. Dart uses a sound null safety system, meaning that variables are non-nullable by default, and they have to be explicitly declared as nullable if they need to be able to hold a null value:
 
 ```dart
 int? nullableInt;  // Nullable integer
@@ -166,12 +166,12 @@ print(resultStatic);   // Output: 52
 
 The following table compares the data types in Dart with the data types in other languages:
 
-| Data Type  | Dart | Kotlin | Java | Swift |
-|:-:|:-:|:-:|:-:|:-:|
-| Integers | ```int``` | ```Int``` | ```int, byte, short, long``` |  ```Int, Int8, Int16, Int32, Int64``` |
-|  Floating-Point |  ```double, float``` |  ```Double, Float``` |  ```double, float``` | ```Double, Float```  |
-| Boolean | ```bool``` |  ```Boolean``` | ```boolean```  | ```Bool```  |
-| Character  |  ```String``` |  ```String``` |  ```String```  |  ```String``` |
-| Arrays  |  ```List<T>``` (generic) |  ```Array<T>``` (generic) |  ```T[]``` (specific types) |  ```Array<T>``` (generic) |
-| Maps  | ```Map<K, V>``` (generic)  |  ```Map<K, V>``` (generic) |  ```HashMap<Key, Value>``` | ```Dictionary<Key, Value>``` (generic)  |
-| Null Safety  | Implicit nulls, ```?``` for optional |  Nullable by default, ```!``` for non null |  Primitive types not nullable, objects can be null  | Implicit nulls, ```!``` for forced unwrapping |
+|   Data Type    |                   Dart                    |                 Kotlin                 |                       Java                        |                                Swift                                 |
+| :------------: | :---------------------------------------: | :------------------------------------: | :-----------------------------------------------: | :------------------------------------------------------------------: |
+|    Integers    |                   `int`                   |        `Int, Byte, Short, Long`        |             `int, byte, short, long`              |                   `Int, Int8, Int16, Int32, Int64`                   |
+| Floating-Point |                 `double`                  |            `Double, Float`             |                  `double, float`                  |                           `Double, Float`                            |
+|    Boolean     |                  `bool`                   |               `Boolean`                |                     `boolean`                     |                                `Bool`                                |
+|     String     |                 `String`                  |                `String`                |                     `String`                      |                               `String`                               |
+|     Arrays     |            `List<T>` (generic)            |          `Array<T>` (generic)          |              `T[]` (specific types)               |                         `Array<T>` (generic)                         |
+|      Maps      |           `Map<K, V>` (generic)           |         `Map<K, V>` (generic)          |               `HashMap<Key, Value>`               |                  `Dictionary<Key, Value>` (generic)                  |
+|  Null Safety   | Non-nullable by default, `?` for nullable | Nullable by default, `!!` for non-null | Primitive types not nullable, objects can be null | Non-nullable by default, `?` for optional, `!` for forced unwrapping |
