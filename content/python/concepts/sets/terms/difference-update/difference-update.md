@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Python, the **`difference_update`** method modifies a set by removing all elements that are also present in another set, updating the original set to include only elements not found in the specified set. Unlike the [difference()](https://www.codecademy.com/resources/docs/python/sets/difference) method, which returns a new set, `.difference_update()` changes the original set in place.
+In Python, the **`difference_update`** method modifies a set by removing all elements that are also present in another set, updating the original set to include only elements not found in the specified set. Unlike the [difference](https://www.codecademy.com/resources/docs/python/sets/difference) method, which returns a new set, `.difference_update()` changes the original set in place.
 
 ## Syntax
 
