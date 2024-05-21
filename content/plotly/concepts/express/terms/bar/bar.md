@@ -17,7 +17,7 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-In Plotly, the **`.bar()`** method is part of the high-level interface named `plotly.express`. It generates charts representing categorical data with vertical bars. 
+In Plotly, the **`.bar()`** method is part of the high-level interface named `plotly.express`. It generates charts representing categorical data with vertical bars.
 
 ## Syntax
 
