@@ -20,7 +20,7 @@ The **`.removeAll()`** method is used for removing multiple elements from instan
 A collection of elements, specified by `Collection c`, can be removed from an `ArrayList` instance using the `.removeAll()` method:
 
 ```pseudo
-arrayListInstance.removeAll(Collection c);
+ArrayList1.removeAll(ArrayList2);
 ```
 
 ## Example
