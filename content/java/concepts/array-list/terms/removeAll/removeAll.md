@@ -1,6 +1,6 @@
 ---
 Title: '.removeAll()'
-Description: 'Removes multiple elements from an ArrayList.'
+Description: 'Removes multiple elements from an ArrayList that are also contained in the specified collection.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
