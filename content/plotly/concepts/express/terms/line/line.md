@@ -39,18 +39,18 @@ Below is an example demonstrating how to use the `.line()` method to create a li
 ```python
 import plotly.express as px
 
-# Load an example dataset
+# Loading an example dataset
 df = px.data.gapminder().query("continent == 'Oceania'")
 
-# Create a line chart visualizing economic growth over time
+# Creating a line chart visualizing economic growth over time
 fig = px.line(df, x='year', y='gdpPercap', color='country', title='Economic Growth in Oceania')
 
-# Show the plot
+# Showing the plot
 fig.show()
 ```
 
-In the above example, the economic growth (GDP per capita) of countries in Oceania from the Gapminder dataset is plotted. The x parameter is set to 'year' and the y parameter to 'gdpPercap'. The color parameter differentiates the lines by country, providing clear visual distinctions between each country's economic trajectory.
+In the above example, the economic growth (GDP per capita) of countries in Oceania from the `Gapminder` dataset is plotted. The `x` parameter is set to `year` and the `y` parameter to `gdpPercap`. The color parameter differentiates the lines by country, providing clear visual distinctions between each country's economic trajectory.
 
 The above code produces the following output:
 
-![Output of the above example](<https://raw.githubusercontent.com/Codecademy/docs/main/media/Output_plotly_line().png>)
+![Output for the above example](<https://raw.githubusercontent.com/Codecademy/docs/main/media/Output_plotly_line().png>)
