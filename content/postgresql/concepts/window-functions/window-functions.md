@@ -1,6 +1,6 @@
 ---
 Title: 'Window Functions'
-Description: A window function performs various calculations across sets of rows related to the current query row. Unlike aggregate functions, window functions do not cause rows to become grouped into a single output row. They maintain the individual row identities when performing calculations. Window functions are defined using an OVER clause that specifies the partitioning and ordering of rows for the function to operate on.
+Description: 'A window function performs various calculations across sets of rows related to the current query row. Unlike aggregate functions, window functions do not cause rows to become grouped into a single output row. They maintain the individual row identities when performing calculations. Window functions are defined using an OVER clause that specifies the partitioning and ordering of rows for the function to operate on.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
