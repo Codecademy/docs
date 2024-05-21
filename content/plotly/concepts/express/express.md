@@ -18,9 +18,8 @@ CatalogContent:
 
 In Plotly, the **express** module is a high-level interface designed to simplify the creation of interactive and visually appealing plots by providing easy-to-use functions for a wide range of chart types, including line charts, scatter plots, bar charts, and more, allowing users to generate complex visualizations with minimal code.
 
----
-
 ## Syntax
+
 ```pseudo
 import plotly.express as px
 ```
