@@ -38,6 +38,7 @@ larder = {'tomatoes', 'lettuce', 'cheese', 'seeds', 'celery'}
 
 salad.difference_update(larder)
 print(salad)
+print(salad)
 ```
 
 The above example produces the following output:
