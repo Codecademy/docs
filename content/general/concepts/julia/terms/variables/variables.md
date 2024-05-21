@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Variables are a fundamental concept in any programming language, and Julia is no exception. In Julia, variables are used to store data that can be manipulated and referenced throughout your code.
+In Julia, **variables** are used to store data. They can hold various data types and are mutable by default, allowing their values to be changed after assignment.
 
 ```julia
 x = 13                # x is an integer
