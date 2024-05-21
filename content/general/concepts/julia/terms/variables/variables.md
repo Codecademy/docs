@@ -1,8 +1,15 @@
 ---
 Title: 'Variables'
-Description: 'Variables store data that can be manipulated and referenced throughout the code.'
+Description: Stores data that can be manipulated and referenced throughout the code.'
+Subjects:
+  - 'Computer Science'
+  - 'Data Visualization'
 Tags:
-  - 'Variables'
+  - 'Programming'
+  - 'Dynamic Programming'
+CatalogContent:
+  - paths/code-foundations'
+  - 'paths/computer-science'
 ---
 
 Variables are a fundamental concept in any programming language, and Julia is no exception. In Julia, variables are used to store data that can be manipulated and referenced throughout your code.
