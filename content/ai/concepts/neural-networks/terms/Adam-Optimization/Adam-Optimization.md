@@ -1,6 +1,6 @@
 ---
 Title: 'adam-optimization' 
-Description: 'Adam is a momentum-based optimization algorithm used to iteratively update network weights based in training data.' 
+Description: 'Adam is a momentum-based optimization algorithm that iteratively updates the training learning rate weights within a deep neural network.' 
 Subjects: 
   - 'AI'
   - 'Machine Learning'
@@ -17,7 +17,43 @@ CatalogContent:
   - 'paths/machine-learning-engineer'
 ---
 
-[**Adam Optimization** is second-order optimization method that utilize momentum-based algorithms that adapt the learning rate for each parameter based on the first and second moments of the gradent. Adam optimization addresses the limitations of first-order optimization methods such as stochastic gradient decent (SDG), Root Mean Square Propagation (RMSprop), Adagrad, and Adadelta. Ultimately, Adam optimization seeks to achieve faster convergence and better perfromance of deep learning models.]
+## Adam Optimization 
+
+[**Adam Optimization** is first-order, momentum-based optimization algorithm that computes adaptive learning rates for each parameter and is an extention of stochasic gradient decent. Adam optimizes the parameter learning rate based on the mean and uncentered variance of the gradient by calculating the exponential moving average of the gradient, the exponential moving squared average of the gradeint, and control the decay rates of the moving averages. Adam optimization is used to address large-scale high-dimensional machine learning problems.]
+
+## Basic Concept
+[**Traditional Gradient Descent:**
+An optimization method used to minimize the loss fucntion of a deep neural network by interively progressing toward the steepest decent defined by the negative of the gradient to compare training predications with actual test data. Gradient descent calculates the gradient of the loss function across the entire dataset and makes a single update the loss function paramters. This is computationally expensive and time consuming for large datasets. 
+
+**Stochasic Gradient Descent:**
+An optimization method that implements small batch or single data point from the loss function gradient dataset that is stochastically gathered and calculates the gradient decent and update training parameters.
+
+**Root Mean Square Propigation (RMSprop):**
+An optimization method that is related to Adam optimization. RMSprop with momentum generates parameter updates using momentum on the rescaled gradient. Additionally, RMSprop lacks the bias-correction term which impacts the training prediction calculations of the loss function for sparse gradients.
+
+**AdaGrad:**
+An optimization method related to Adam that generates larger updates for infrequent parameters and smaller updates for frequent parameters. Gradient updates provide a scaling indicator.]
+
+## How It Works
+[1. Initilization: the mean and uncentered variance of the initial two momentum gradients are calculated using initial parameters (i.e. - neural network weights).
+2. Update exponential moving average: Exponential moving average of the first-order and second-order moments are updated.
+3. Unbiased average calculation:  the first-order and second-order unbiased averages are calculated, respectively. 
+4. Calcuate weight update: divide the first-order unbiased average by the square root of the second-order unbiased average and scale by learning rate
+5. Parameter Update: apply updated weights to network parameters.]
+
+## Advantages
+[Adam optimiziation has several advantages compaired with other gradient decent algorithms for deep learning projects.
+1. The Adam optimizer is straightforward to implement,
+2. Computationally effiecient,
+3. Has very small memory requirements,
+4. Adam is invariant to diagonal rescale of the gradients,
+5. Is well suited for projects with large amounts of data and/or parameters,
+6. Useful for non-stationary objectives, and for very noisy and/or sparse gradients,
+8. Intuitive hyper-parameter interpretation,
+9. Rquires little tuning.]
+
+## Challenges
+Initialization bias: the mean and uncenter variance are initialized as vectors of zeros that causes Adam optimization to be bias toward zero during initial set up and when decay rates are small.
 
 ## Syntax
 
@@ -25,8 +61,8 @@ CatalogContent:
 
 [torch.optim.Adam(params,lr=0.005,betas=0.9,0.999,eps=1e-08,weight_decay=0)]
 
-The parameters used in the syntax include:
-- Adam is used as the replacement optimizer for gradient decent.
+The class statement and the required arguments used in the syntax are outlined below:
+- class torch.optim.Adam identifies Adam as the specific optimizer for gradient decent.
 - params: used as a parameter that helps in the optimization.
 - lr: learning rate helping the optimizer.
 - betas: parameter that calculates the running average of the gradient and its square.
@@ -35,7 +71,7 @@ The parameters used in the syntax include:
 
 ## Example
 
-[Text, code, images, etc. about example 1]
+[Adam optiminization]
 
 ## Codebyte Example (if applicable)
 
