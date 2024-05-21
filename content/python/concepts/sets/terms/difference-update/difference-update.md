@@ -19,8 +19,6 @@ In Python, the **`difference_update`** method modifies a set by removing all ele
 
 ## Syntax
 
-The following syntaxes can be used:
-
 ```pseudo
 set.difference_update(set1, set2, ..., setN)
 ```
