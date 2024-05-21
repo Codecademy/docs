@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-Window functions in PostgreSQL provide an amazing feature that enables computing calculations across sets of rows related to the current row in query. These functions empower you to define rows to operate on based on specific criteria, such as a specific range or grouping.
+**`Window functions`** in PostgreSQL provide an amazing feature that enables computing calculations across sets of rows related to the current row in query. These functions empower you to define rows to operate on based on specific criteria, such as a specific range or grouping.
 
 Window functions are defined using an `OVER` clause that specifies how to partition and order rows for the function to operate on, this clause is what makes the window function different from the normal aggregate function.
 
