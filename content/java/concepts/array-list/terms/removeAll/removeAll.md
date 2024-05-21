@@ -43,19 +43,19 @@ public class RemoveFallMonths{
     fallMonths.add("December");
 
     ArrayList<String> monthsToRemove = new ArrayList<String>();
-    
+
     monthsToRemove.add("August");
     monthsToRemove.add("December");
 
     // Remove August and December from fallMonths using monthsToRemove
     fallMonths.removeAll(monthsToRemove);
 
-    System.out.println("After removing specified months: " + fallMonths);```
-    
+    System.out.println("After removing specified months: " + fallMonths);
+
     // Remove all elements from fallMonths
     fallMonths.removeAll(fallMonths);
 
-System.out.println("After removing all elements: " + fallMonths);```
+System.out.println("After removing all elements: " + fallMonths);
   }
 }
 ```
