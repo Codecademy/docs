@@ -63,6 +63,6 @@ System.out.println("After removing all elements: " + fallMonths);
 The `RemoveFallMonths` output should look like this:
 
 ```shell
-[September, October, November]
-[]
+After removing specified months: [September, October, November]
+After removing all elements: []
 ```
