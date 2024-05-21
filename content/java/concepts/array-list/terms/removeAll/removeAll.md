@@ -26,7 +26,7 @@ The **`.removeAll()`** method is used for removing multiple elements from instan
 
 ## Example
 
-In the example below, two `ArrayList` instances, `fallMonths` and `monthsToRemove`, are created to hold `String`-type elements. Elements are added to the `fallMonths` using the [`.add()`]
+In the example below, two `ArrayList` instances, `fallMonths` and `monthsToRemove`, are created to hold `String` type elements. Elements are added to the `fallMonths` using the [`.add()`]
 (https://www.codecademy.com/resources/docs/java/array-list/add) method. Then, `monthsToRemove` is utilized to remove the months - August and September from `fallMonths` using `.removeAll()`. Finally, all elements are removed from `fallMonths` by invoking `.removeAll()` with a reference to itself.
 
 ```java
