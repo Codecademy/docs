@@ -1,6 +1,6 @@
 ---
 Title: '.b2a_uu()'
-Description: 'Returns UUEncoded ASCII data from binary data.'
+Description: 'Converts binary data into a bytes object containing a string of ASCII characters in UUEncoded format.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.b2a_uu()`** [function](https://www.codecademy.com/resources/docs/python/functions) returns a bytes object containing a string of ASCII characters in UUencoded format derived from the input binary data.
+The **`.b2a_uu()`** [function](https://www.codecademy.com/resources/docs/python/functions) converts binary data into a bytes object containing a string of ASCII characters in UUEncoded format.
 
 ## Syntax
 
@@ -44,6 +44,8 @@ This produces the following output:
 ```shell
 b')<V]M92!T97AT\n'
 ```
+
+> **Note:** To learn how to convert back to binary format, visit [`.a2b_uu()`](https://www.codecademy.com/resources/docs/python/binascii-module/a2b-uu).
 
 ## Codebyte Example
 
