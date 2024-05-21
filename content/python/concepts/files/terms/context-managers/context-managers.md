@@ -1,6 +1,6 @@
 ---
-Title: 'Context Managers and Files'
-Description: 'This document introduces context managers and in particular how they can be used to work with files. It details the two approaches, class-based and decorator-based, thanks to which the user can customize this experience to fit the needs of a given use case.'
+Title: 'Context Managers'
+Description: 'Context managers allow users to perform operations within a certain overarching context.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,27 +14,33 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-## Definition of a context managers
+## Definition
 
-One might want to perform some operation within a certain overarching context, be it in the form of a time counter or a database connection or the use of a [file](https://www.codecademy.com/resources/docs/python/files). This is what **context managers** allow to do by implementing a **runtime context**, within which can be perform the wanted code and that closes automatically just after, sparing to the user the hassle of doing so. Regardless of the many different use cases a context manager can be used for, the **context manager protocol** always articulates those four functionalities: open the resource, implement the runtime context, handle the possible [exceptions](https://www.codecademy.com/resources/docs/python/errors), close the resource. The user input finds its place once the runtime context is started.
+**Context managers** allow users to perform operations within a certain overarching context, be it in the form of a time counter or a database connection or the use of a file. They manage to do it by implementing a **runtime context**. In this context, the specified operation is first performed and then, the context automatically gets closed. This prevents the users from the hassle of closing it manually.
 
-## Manipulate files with context managers
+Regardless of the many different use cases that context managers can be used for, the **context manager protocol** always articulates four functionalities:
 
-The `open()` function is the standard context manager to open, perform operations on and close files.
+- Opening the resource
+- Implementing the runtime context
+- Handling the possible [exceptions](https://www.codecademy.com/resources/docs/python/errors)
+- Closing the resource
+
+Once the runtime context is started, the user input finds its place.
+
+## File Manipulation
+
+The `open()` function is the standard context manager for opening, performing operations on and closing files:
 
 ```py
-# this code will print the first four lines of the poem "L'albatros"
-with open('albatros.txt','r') as poem:
+# Printing the first four lines of the poem "L'albatros"
+with open('albatros.txt', 'r') as poem:
   for i in range(4):
     print(poem.readline())
-
-# this code will however create an error as we are already outside of the indented block and therefore no longer within the context that had been setup
-print(albatros.readline())
 ```
 
-Output:
+The above code produces the following output:
 
-```md
+```shell
 Souvent, pour s'amuser, les hommes d'équipage
 
 Prennent des albatros, vastes oiseaux des mers,
@@ -44,15 +50,26 @@ Qui suivent, indolents compagnons de voyage,
 Le navire glissant sur les gouffres amers.
 ```
 
-## Customized context managers for files
+## Customized Context Managers
 
-While `open()` is at the core of context managers working with files, it is still possible to implement context managers with additional capabilities, for example, to personalize files written using them. It can be done via two approaches: the **class-based approach**, and the **decorator-based approach**. Follow the links for more on [classes](https://www.codecademy.com/resources/docs/python/classes) and [decorators](https://www.codecademy.com/resources/docs/python/decorators).
+While `open()` is at the core of using context managers with files, it is still possible to implement context managers with additional capabilities, e.g., personalizing files written using them. It can be done via two approaches:
 
-### Class-based approach
+- [Class](https://www.codecademy.com/resources/docs/python/classes)-based approach
+- [Decorator](https://www.codecademy.com/resources/docs/python/decorators)-based approach
 
-It rests on the three class methods `__init__()`, `__enter__()` and `__exit__()`. The context manager is invoked using the _with...as_ syntax and an instantiation of the class with needed parameters. The instantiation mobilizes a file thanks to the `__open__()` method and this file is in turn handled by the `__enter__()` method, allowing the operations indented in the _with_ block to be performed. Whatever the `__enter__()` method does a _return_ on can be then referred to in the indented block as the class instance created. Then the `__exit__()` method puts the final touch, closes the file, and handles any potential exception (_return True_ allows to close the file and go ahead in the script even if an exception occurs).
+### Class-Based Approach
 
-The below code exemplifies the class-based approach applied to a HR department sending automated yearly bonus notifications to employees. It's then quite easy to combine this context manager together with a [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries) that contains all employees' records, loop through it, and have all the letters ready in no time.
+Class-based approach rests on three class methods:
+
+- `__init__()`
+- `__enter__()`
+- `__exit__()`
+
+The context manager is invoked using the `_with...as_` syntax and an instantiation of the class with needed parameters. The instantiation mobilizes a file thanks to the `__open__()` method and the file is in turn handled by the `__enter__()` method, allowing the operations indented in the `_with_` block to be performed. Whatever the `__enter__()` method does a `_return_` on can then be referred to in the indented block. Lastly, the `__exit__()` method puts the final touch by closing the file and handling any potential exceptions.
+
+> **Note:** `_return True_` allows the users to close the file and go ahead in the script even if an exception occurs.
+
+The below code exemplifies the class-based approach applied to a HR department sending automated yearly bonus notifications to employees. Here, the context manager prepares all the letters by looping through a [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries) that contains records for all employees:
 
 ```py
 class bonus:
@@ -82,9 +99,9 @@ with bonus('John',3789,100000,5) as john_smith_bonus:
   print('Letter printed!')
 ```
 
-Result:
+The output for the above code is as follows:
 
-```md
+```shell
 Dear John!
 
 We value all our employees and are committed to their growth and well-being. We would like to thank you for your amazing work throughout this whole year.
@@ -95,17 +112,17 @@ Sincerely yours,
 Your HR department
 ```
 
-### Decorator-based approach
+### Decorator-Based Approach
 
-In this approach, rather than a class is defined a [generator](https://www.codecademy.com/resources/docs/python/generators) function (i.e. a function performing a _yield_ and not a _return_). This function should be _decorated_ using `@contextmanager` from the built-in module `contextlib`:
+In decorator-based approach, a [generator](https://www.codecademy.com/resources/docs/python/generators) function (i.e., a function performing a `_yield_` and not a `_return_`) is defined rather than a class. This function is _decorated_ using `@contextmanager` from the built-in module `contextlib`:
 
-```py
+```pseudo
 from contextlib import contextmanager
 ```
 
-A decorator-based context manager is also using the user input in the form of parameters provided at the instantiation. It follows the syntax _try-except-finally_, _try_ being the part where the _yield_ statement is and the core operations are done, _except_ the exceptions handling part, and _finally_ the part where the resources are closed, essentially.
+A decorator-based context manager also uses the user input in the form of parameters provided at the instantiation. It follows the syntax `_try-except-finally_`, where `_try_` being the part where the `_yield_` statement is and the core operations are done, `_except_` being the part where the exceptions are handled and `_finally_` being the part where the resources are closed.
 
-The below code shows an implementation of a decorator-based context manager thanks to which interview proposals are sent to pre-selected candidates. It is also possible (but not mandatory) to introduce some personalized elements in the indented block. If doing so this element will be placed just before the timeslot proposal.
+The below code shows an implementation of a decorator-based context manager thanks to which interview proposals are sent to pre-selected candidates. It is also possible (but not mandatory) to introduce some personalized elements in the indented block. Doing so places this element just before the timeslot proposal:
 
 ```py
 @contextmanager
@@ -127,9 +144,9 @@ with interview_proposal('Mr. Smith', 'Software Developer', 'Monday the 10th of J
   for a wealth management software. ')
 ```
 
-Result:
+Here is the output:
 
-```md
+```shell
 Dear Mr. Smith,
 
 Thanks a lot for being interested in working with us! We reviewed your application for the Software Developer role and we want to schedule a first visio interview with you. We are especially interested by your latest experience as a project leader for a wealth management software. Would you be available on Monday the 10th of June at 2 pm?
