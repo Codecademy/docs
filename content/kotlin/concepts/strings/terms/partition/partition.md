@@ -19,7 +19,7 @@ A predicate takes an argument and returns a boolean `true` or `false`. If `true`
 
 ## Syntax
 
-```psuedo
+```pseudo
 xString.partition(xPredicate)
 ```
 
