@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-In PostgreSQL, **Type Casts** can be used to convert a value from one datatype to another. This can be done with either the `CAST()` function or the cast operator (`::`).
+In PostgreSQL, **Type Casts** can be used to convert a value from one datatype to another. This can be done with either the `CAST()` function or the Cast operator (`::`).
 
 ## Syntax
 
