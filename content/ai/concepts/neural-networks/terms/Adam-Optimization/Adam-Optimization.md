@@ -80,9 +80,9 @@ AdaGrad optimizes the learning rate for each parameter whcih helps increases the
 Adam optimization is used for sparse and noisy datasets like those found in large language models or image processing models.]
 
 ## Codebyte Example (if applicable)
-[Codebyte example is provided in numpy to better show adam ]
+[Codebyte example is provided in numpy to better show steps in optimization. Source code is from deeplearning.ai]
 
 ```codebyte/python
 # Example runnable code block.
-  https://www.codecademy.com/workspaces/664e05e18948c76448d270d9;
+  [# import libraries](https://www.codecademy.com/workspaces/664e05e18948c76448d270d9);
 ```
