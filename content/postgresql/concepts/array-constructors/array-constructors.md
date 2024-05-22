@@ -25,7 +25,7 @@ column_name datatype []
 
 ## Example 1
 
-To create an array with a specific element, you can use the `ARRAY` keyword, or you can write arrays as string literals by using curly braces  `{}`.
+To create an array with a specific element, you can use the `ARRAY` keyword, or you can write arrays as string literals by using curly braces `{}`.
 
 ```sql
 -- This creates a table named 'example1' with two columns: 'id' and 'numbers'.
@@ -59,6 +59,7 @@ INSERT INTO example2 (team) VALUES (ARRAY[['Tolu','Sophie'],['Chloe','Kemi']]);
 -- using string literals to insert integer arrays into the number column
 INSERT INTO example2 (team) VALUES ('{{"Kim","Tayo"},{"Achur","Timi"}}');
 ```
+
 122
 `example2` table:
 
@@ -69,7 +70,7 @@ INSERT INTO example2 (team) VALUES ('{{"Kim","Tayo"},{"Achur","Timi"}}');
 
 ## Example 3
 
-We have now successfully learned how to insert arrays into our postgres table, now let's learn 
+We have now successfully learned how to insert arrays into our postgres table, now let's learn
 how to access our array element using the `example3` table below:
 
 ```sql
