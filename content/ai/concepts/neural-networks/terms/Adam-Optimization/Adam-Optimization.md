@@ -19,7 +19,7 @@ CatalogContent:
 
 ## Adam Optimization 
 
-[**Adam Optimization** is first-order, momentum-based optimization algorithm that computes adaptive learning rates for each parameter and is an extention of stochasic gradient decent. Adam optimizes the parameter learning rate based on the mean and uncentered variance of the gradient by calculating the exponential moving average of the gradient, the exponential moving squared average of the gradeint, and control the decay rates of the moving averages. Adam optimization is used to address large-scale high-dimensional machine learning problems.]
+[**Adam Optimization** is a gradient decsent optimization algorithm that computes adaptive learning rates for each parameter of a neural network to compare predicted and actual model outcomes. Adam is an extention of stochasic gradient decsent, and is closely related to Root Square Mean Propigation (RMSprop) along with AdaGrad. The parameter learning rates are optimized using Adam based on the mean and uncentered variance of the gradient by calculating the exponential moving average of the gradient, the exponential moving squared average of the gradeint, and control of the decay rates of the moving averages. This makes Adam optimization very robust and efficent for use in large-scale high-dimensional machine learning problems.]
 
 ## Basic Concept
 [**Traditional Gradient Descent:**
@@ -53,7 +53,7 @@ An optimization method related to Adam that generates larger updates for infrequ
 9. Rquires little tuning.]
 
 ## Challenges
-Initialization bias: the mean and uncenter variance are initialized as vectors of zeros that causes Adam optimization to be bias toward zero during initial set up and when decay rates are small.
+Initialization bias: the mean and uncentered variance are initialized as vectors of zeros which causes Adam optimization to be bias toward zero during initial set up and when decay rates are small.
 
 ## Syntax
 
