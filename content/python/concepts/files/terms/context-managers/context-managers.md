@@ -16,7 +16,7 @@ CatalogContent:
 
 ## Definition
 
-**Context managers** allow users to perform operations within a certain overarching context, be it in the form of a time counter or a database connection or the use of a file. They manage to do it by implementing a **runtime context**. In this context, the specified operation is first performed and then, the context automatically gets closed. This prevents the users from the hassle of closing it manually.
+**`Context managers`** allow users to perform operations within a certain overarching context, be it in the form of a time counter or a database connection or the use of a file. They manage to do it by implementing a **runtime context**. In this context, the specified operation is first performed and then, the context automatically gets closed. This prevents the users from the hassle of closing it manually.
 
 Regardless of the many different use cases that context managers can be used for, the **context manager protocol** always articulates four functionalities:
 
