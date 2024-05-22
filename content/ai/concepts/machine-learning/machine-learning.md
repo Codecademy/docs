@@ -1,10 +1,9 @@
 ---
 Title: 'Machine Learning'
-Description: 'Machine learning (ML) is a discipline of computer science that relates to the use of data and algorithms to develop computer programs that improve their performance at tasks without being explicitly programmed to do so. Machine Learning is considered a branch of Artificial Intelligence as some machine learning algorithms are designed to imitate the way that humans learn and interact with their environment.'
+Description: 'Machine learning (ML) is a discipline of computer science that relates to using data and algorithms to develop computer programs that improve their performance at tasks without being explicitly programmed to do so.'
 Subjects:
   - 'Machine Learning'
   - 'Data Science'
-  - 'Computer Science'
 Tags:
   - 'AI'
   - 'Deep Learning'
@@ -17,7 +16,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-**Machine learning (ML)** is a discipline of computer science that relates to the use of data and algorithms to develop computer programs that improve their performance at tasks without being explicitly programmed to do so. Machine Learning is considered a branch of Artificial Intelligence as some machine learning algorithms are designed to imitate the way that humans learn and interact with their environment.
+**Machine learning (ML)** is a discipline of computer science that relates to using data and algorithms to develop computer programs that improve their performance at tasks without being explicitly programmed to do so. Machine Learning is considered a branch of Artificial Intelligence as some machine learning algorithms are designed to imitate the way that humans learn and interact with their environment.
 
 ## Branches of Machine Learning
 
@@ -31,7 +30,7 @@ Machine Learning algorithms that receive labeled data as input and produce a pre
 - Classification: Categorizes data points into discrete groups.
   - Naïve-Bayes classifier: Uses Bayes' theorem of probability to perform classification of elements.
   - Support vector machine (SVM): Margin classifiers that define hyperplanes to separate data points into discrete categories.
-  - Artificial Neural Networks (ANN): Classifiers modeled after biological neural networks with relatively high performance capabilities in regression and classification tasks.
+  - Artificial Neural Networks (ANN): Classifiers modeled after biological neural networks with relatively high-performance capabilities in regression and classification tasks.
 
 ### Unsupervised Learning
 
@@ -40,8 +39,8 @@ Machine Learning algorithms that receive unlabeled data as input and produce a g
 - Clustering: Recognize patterns and structures in unlabeled data by grouping them into clusters.
   - K-Means: Categorizes data points into clusters based on their proximity to cluster centroids.
   - Hierarchical Agglomerative Clustering: Groups data points into clusters based on various measures of similarity such as smallest average distance between all points, minimal variance between data points, or smallest maximum distance between data points.
-- Dimensionality Reduction: Scale down the amount of dimensions in the dataset from a high-dimensional space into a low-dimensional space, while maintaining the maximum amount of relevant information.
-  - Principal Component Analysis (PCA): Reduces the dimensionality of a dataset to the 'n' number of principal dimensions that contain the most valuables information.
+- Dimensionality Reduction: Scale down the dimensions in the dataset from a high-dimensional space into a low-dimensional space, while maintaining the maximum amount of relevant information.
+  - Principal Component Analysis (PCA): Reduces the dimensionality of a dataset to the 'n' number of principal dimensions that contain the most valuable information.
 
 ### Reinforcement Learning
 
@@ -60,7 +59,14 @@ Some methods used in reinforcement learning include:
 
 Deep Learning is the subset of machine learning that focuses on artificial neural networks. The "deep" component of the name is in reference to the many hidden layers that typically are embedded within neural networks that simulate the function of a biological brain.
 
-The relatively high performance of neural networks in human-like tasks such as speech and object recognition distinguish deep learning from other machine learning algorithms.
+The relatively high performance of neural networks in human-like tasks such as speech and object recognition distinguishes deep learning from other machine learning algorithms.
+
+## Model Development
+
+Based on the evaluation results, the model's user might modify the model's hyperparameters or adjust the model architecture to improve its performance. There are several methods to further refine models that may include strategies such as:
+
+- Hyperparameter Tuning: Hyperparameters are configuration settings for a machine learning model that are not learned during training but are set before training begins. These settings can significantly impact a model's performance.
+- Model Architecture Adjustments: There are several methods to accurately adjust the architecture of ML algorithms. There are techniques such as feature engineering, model selection, and ensemble methods.
 
 ## Evaluation
 

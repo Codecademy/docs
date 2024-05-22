@@ -64,4 +64,4 @@ This will display:
 
 ![SwiftUI ViewModifier Background](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-viewmodifier-background.png)
 
-> **Note**: Keep in mind that the `.background()` modifier can only be applied to a single view. If a background is required for a group of views, it is recommended to use a container view, such as [`ZStack`](https://www.codecademy.com/resources/docs/swiftui/views/zstack). Additionaly, the `.opacity()` modifier can be used along with `.background()` to adjust the transparency of the background.
+> **Note**: Keep in mind that the `.background()` modifier can only be applied to a single view. If a background is required for a group of views, it is recommended to use a container view, such as [`ZStack`](https://www.codecademy.com/resources/docs/swiftui/views/zstack). Additionally, the `.opacity()` modifier can be used along with `.background()` to adjust the transparency of the background.

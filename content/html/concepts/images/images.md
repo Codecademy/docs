@@ -32,6 +32,9 @@ Below is an example of how an image is commonly inserted into a page using the H
 <img src="logo.png" alt="Codecademy logo" />
 ```
 
+The above code will render this:
+![image example](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-image-example.png)
+
 It is recommended to specify the image's [width and height](https://www.codecademy.com/resources/docs/uiux/width-height) using the percent of the current screen size to best support both smaller mobile devices as well as larger workstations. The image below would take up the top half of any screen, regardless of its size:
 
 ```html
@@ -88,3 +91,6 @@ The semantic [`<figure>`](https://www.codecademy.com/resources/docs/html/semanti
   <figcaption>The Codecademy logo</figcaption>
 </figure>
 ```
+
+The figcaption looks like this:
+![figcaption example](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-image-figcaption-example.png)

@@ -41,7 +41,7 @@ std::vector<double> order = {3.99, 12.99, 2.49};
 
 ## Getting Information
 
-Since a vector is dynamic and can grow and shrink it's size to accomodate new elements, the language gives us a few methods to get information from the vector.
+Since a vector is dynamic and can grow and shrink it's size to accommodate new elements, the language gives us a few methods to get information from the vector.
 
 ### Index
 
@@ -68,6 +68,24 @@ Due to the dynamic nature of vectors, it can be hard to keep track of the number
 std::cout << order.size();
 ```
 
+### `.capacity()`
+
+`.capacity()` is used to retrieve the current capacity of a `std::vector`. The capacity of a vector represents the number of elements it can hold without needing to allocate additional memory. The vector may have more capacity than its current size to reduce the need for frequent reallocations and copying when elements are added.
+
+Initially, the capacity is likely to be small, but as elements are added using `.push_back()`, the capacity will grow to accommodate the added elements. The exact growth behavior may vary depending on the C++ implementation, but it's typically designed to minimize reallocations and copying.
+
+```cpp
+// Check the initial capacity
+std::cout << "Initial capacity: " << order.capacity() << std::endl;
+
+// Add elements to the vector
+for (int i = 0; i < 10; ++i) {
+    order.push_back(i);
+}
+// Check the capacity after adding elements
+std::cout<< "Capacity after adding elements: "<< order.capacity()<< std::endl;
+```
+
 ### `.at()`
 
 The `.at()` function provides a safer way of accessing elements in a vector. It performs bounds checking on the vector and will throw an [error](https://www.codecademy.com/resources/docs/cpp/errors) if there is an attempt to access an element that is out of bounds:
@@ -91,6 +109,26 @@ what():  vector::_M_range_check: __n (which is 100) >= this->size() (which is 3)
 Aborted (core dumped)
 ```
 
+Alternatives to the `.at()` method include dedicated methods for retrieving the first or the last element of a vector.
+
+### `.front()`
+
+The `.front()` returns a reference to the first element of the vector:
+
+```cpp
+// The first element of a vector
+std::cout << order.front();
+```
+
+### `.back()`
+
+The `.back()` returns a reference to the last element of the vector:
+
+```cpp
+// The last element of a vector
+std::cout << order.back();
+```
+
 ## Adding Elements
 
 There are two different ways to insert elements into the vector.
@@ -103,6 +141,21 @@ This method pushes elements to the back of a vector:
 std::vector<int> v = {1,2,3,4};
 
 v.push_back(5);
+
+int n = v.size();
+
+std::cout << "The last element is: " << v[n - 1];
+// Output: The last element is: 5
+```
+
+### `.emplace_back()`
+
+This method also pushes elements to the back of a vector, but instead of creating a temporary object it directly creates an object in the vector itself.
+
+```cpp
+std::vector<int> v = {1,2,3,4};
+
+v.emplace_back(5);
 
 int n = v.size();
 

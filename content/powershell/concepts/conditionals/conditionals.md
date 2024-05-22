@@ -50,10 +50,12 @@ The `else` clause always follows the `if` statement.
 ```shell
 $my_num = 2
 if($my_num -gt 0) {
-  Write-Host "A positive number" # Prints if $my_num is more than 0
+  # Prints if $my_num is more than 0
+  Write-Host "A positive number"
 }
 else {
-  Write-Host "A negative number" # Prints if $my_num is less than or equal to 0
+  # Prints if $my_num is less than or equal to 0
+  Write-Host "A negative number"
 }
 ```
 
@@ -64,13 +66,16 @@ One or more `elseif` statements can be added between `if` and `else` to test mul
 ```shell
 $my_num = 2
 if($my_num -gt 0) {
-  Write-Host "A positive number" # Prints if $my_num is more than 0
+  # Prints if $my_num is more than 0
+  Write-Host "A positive number"
 }
 elseif ($my_num -lt 0) {
-  Write-Host "A negative number" # Prints if $my_num is less than 0
+  # Prints if $my_num is less than 0
+  Write-Host "A negative number"
 }
 else {
-  Write-Host "Zero"              # Prints if both of the previous conditions fail
+  # Prints if both of the previous conditions fail
+  Write-Host "Zero"
 }
 ```
 

@@ -24,11 +24,18 @@ This section describes some important features of the Vim editor.
 
 - It has text completion for faster editing.
 - It is able to compare differences between files and merge them.
-- It can search for regular expressions.
-- Users can perform complicated tasks using commands.
+- It can search with regular expressions.
+- Users can perform a wide range of tasks such as navigating to specific locations within a document, or replacing specific text, using a suite of commands.
 - Users can open files in multiple tabs.
-- Users can create macros of a sequence of commands.
-- Users can save sessions to start where you left off last time.
+- Users can create macros to execute a sequence of commands.
+
+## Vim Modes
+
+Vim has three modes of operation:
+
+- `COMMAND MODE` : Execute commands like undo, redo, find, replace, quit, etc.
+- `INSERT MODE` : Type and edit text.
+- `VISUAL MODE` : Highlight, select and edit text.
 
 ## Launching Vim
 

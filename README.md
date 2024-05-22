@@ -12,7 +12,7 @@
 
 ## What stage of development are we in right now?
 
-Docs is live with over 1000 high-quality entries. Now that the MVP is out, our goal is to transition some ownership of Docs content to the Codecademy community, since maintaining a resource of this type at-scale is only possible if it's open-contribution. That means we need your help, whether it's contributing, reviewing, or evangelizing!
+Docs is live with over 2000 high-quality entries. Now that the MVP is out, our goal is to transition some ownership of Docs content to the Codecademy community, since maintaining a resource of this type at-scale is only possible if it's open-contribution. That means we need your help, whether it's contributing, reviewing, or evangelizing!
 
 ### 📝 Content Team
 
@@ -35,17 +35,19 @@ We are currently building a team of community volunteers and educators to mainta
 
 ## How do I contribute?
 
-There are many ways to contribute to Docs:
+Here's how you can contribute to Codecademy Docs:
 
-- Submit a Pull Request to edit an existing entry.
-- Submit a Pull Request to create a new entry.
-- Submit a typo/bug in [GitHub Issues](https://github.com/Codecademy/docs/issues).
-- Reply to the thread on [Possible Content Discussion](https://discuss.codecademy.com/t/find-a-starting-point-possible-content-discussion/745868) to share ideas and collaborate with other contributors, maintainers, or super users to determine good future issues.
-- Share your thoughts in this [Docs feedback form](https://codecademyready.typeform.com/to/hzVIWDgz) to tell us how we can improve Docs!
+1. Get assigned to an Issue of your interest.
+   - Ask to be assigned to one of the [available Issues](https://github.com/Codecademy/docs/issues?q=is%3Aissue+is%3Aopen+-label%3Aclaimed).
+   - Submit a typo/bug in [GitHub Issues](https://github.com/Codecademy/docs/issues).
+2. Write a new entry or make changes to an existing entry, based on the requirement of your Issue.
+3. Submit a Pull Request of your entry for your assigned Issue.
+4. Reply to the thread on [Possible Content Discussion](https://discuss.codecademy.com/t/find-a-starting-point-possible-content-discussion/745868) to share ideas and collaborate with other contributors, maintainers, or super users to determine good future issues.
+5. Share your thoughts in this [Docs feedback form](https://codecademyready.typeform.com/to/hzVIWDgz) to tell us how we can improve Docs!
 
 Whether you are a code newbie or a seasoned hacker, there's something for you!
 
-Please read through the [Contribution Guide](https://www.codecademy.com/resources/docs/contribution-guide) ✨. There you'll find a write-up of our content standards and style guide, as well as templates for creating your entries.
+Please read through the [Contributing Guide](https://github.com/Codecademy/docs/blob/main/CONTRIBUTING.md). There, you'll find a write-up of our content standards and style guide, as well as templates for creating your entries.
 
 ## Additional Notes
 

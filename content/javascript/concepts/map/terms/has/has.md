@@ -39,3 +39,18 @@ console.log(fruits.has('Bananas')); // Output: false
 ```
 
 The first `.has()` statement checks that there are `'Apples'` in `fruits`, which returns `true`. The second statement finds that there are no `'Bananas'` in `fruits` and `false` is returned.
+
+## Codebyte Example
+
+The following example checks if there is a known abbreviation for the strings `Typescript` and `Rust`.
+
+```codebyte/js
+const languageAbbreviation = new Map([
+  ['JavaScript', 'JS'],
+  ['Golang', 'Go'],
+  ['Typescript', 'TS']
+]);
+
+console.log(languageAbbreviation.has('Typescript'));
+console.log(languageAbbreviation.has('Rust'));
+```

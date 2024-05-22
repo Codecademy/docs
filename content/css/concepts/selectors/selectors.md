@@ -39,7 +39,7 @@ The `element-type` must be a valid HTML element.
 
 ### Example
 
-In the following example, all `<p>` elements on the page will be center-aligned, with a red text color:
+In the following example, all of the `<p>` elements on the page will be centered with a red text color:
 
 ```css
 p {
@@ -50,7 +50,7 @@ p {
 
 ## Selecting by Attribute
 
-Most commonly, the `class` and `id` attributes are assigned to elements for styling purposes. An `id` cannot start with a number.
+The `class` selector selects elements that are assigned a class attribute, it can be used across multiple elements, and begins with a period, `.`. Similarly, the `id` selector selects an HTML element that has an `id` attribute. In contrast, the `id` selector can **only** be applied once and begins with the hashtag symbol, `#`.
 
 ### Syntax
 
@@ -97,6 +97,31 @@ It can also be specified that only certain HTML elements with a given class shou
 
 ```css
 p.center {
+  text-align: center;
+  color: red;
+}
+```
+
+## The CSS Grouping Selector
+
+The grouping selector selects a group of HTML elements and applies a specific set of styles to each one of them, helping in minimizing the codebase.
+
+### Syntax
+
+```pseudo
+elm1, elm2, elm3 {
+  /* Declarations are inserted here */
+}
+```
+
+In the following example, a particular set of styles is applied to all the `h1`, `h2`, and `p` elements:
+
+### Example
+
+```css
+h1,
+h2,
+p {
   text-align: center;
   color: red;
 }

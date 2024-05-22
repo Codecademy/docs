@@ -44,7 +44,7 @@ Below is some markup with the classes `header-1` and `P1` and `P2`. Elements wit
         font-size: 25px;
       }
       .P2 {
-        background-color: blue;
+        background-color: yellow;
         font-size: 20px;
       }
     </style>
@@ -52,14 +52,6 @@ Below is some markup with the classes `header-1` and `P1` and `P2`. Elements wit
   </head>
   <body>
     <!--HEADER-->
-    <p>
-      <img
-        src="images/android-chrome-512x512.png"
-        width="360px"
-        height="240px"
-      />
-    </p>
-
     <div class="title">
       <h1 class="header-1">PIZZA MAN</h1>
     </div>
@@ -73,6 +65,10 @@ Below is some markup with the classes `header-1` and `P1` and `P2`. Elements wit
 </html>
 ```
 
+The code above will result in an output in a browser similar to:
+
+![Browser window with different text blocks formatted according to their class attribute](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-classes-example-1.jpg)
+
 ## For JavaScript
 
 The `class` attribute is used to perform [JavaScript](https://www.codecademy.com/resources/docs/javascript) operations on HTML elements. Through the Document Object Model ("DOM") there are various JavaScript methods built for selecting elements via their class.
@@ -80,8 +76,12 @@ The `class` attribute is used to perform [JavaScript](https://www.codecademy.com
 Assuming the markup from the last example is linked to a JavaScript file:
 
 ```js
-const innerDiv = document.getElementsByClassName('header-1');
-console.log(innerDiv);
+const innerDiv = document.getElementsByClassName('header-1')[0];
+console.log(innerDiv.textContent);
 ```
 
-The code above gets an element with a class property and prints it to the console.
+The code above selects the first element of a given class, and prints its content to the console.
+
+```shell
+'PIZZA MAN'
+```

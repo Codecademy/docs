@@ -18,13 +18,13 @@ An **array** is a data structure used in [C#](https://www.codecademy.com/resourc
 There are several ways to create an array in C#:
 
 ```pseudo
-// Create a variable of type "type[]" without initalizing it:
+// Create a variable of type "type[]" without initializing it:
 type[] arrayName;
 
-// Create the array variable and initalize it with an array of N items:
+// Create the array variable and initialize it with an array of N items:
 type[] arrayName = new type[N];
 
-// Create the array variable and intalize it by specifying the contents:
+// Create the array variable and initialize it by specifying the contents:
 type[] arrayName = new type[] { value1, value2, value3, ... valueN };
 
 // Alternative way of creating the array and specifying the contents:

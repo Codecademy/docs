@@ -1,6 +1,6 @@
 # Catalog Content
 
-The [metadata](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md#standards-metadata) which go at the top of the file, should include **two** slugs. Preferably:
+The [metadata](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md#standards-metadata), located at the top of the file, should include **two** slugs. Preferably:
 
 - A free course
 - A Pro course/Path
@@ -51,6 +51,13 @@ Feel free to add suggestions for new slugs to the lists as part of your PR! Be s
 - 'paths/fundamentals-of-cybersecurity'
 ```
 
+### Dart
+
+```
+- 'learn-dart'
+- 'paths/computer-science'
+```
+
 ### Emojicode
 
 ```
@@ -93,6 +100,13 @@ Feel free to add suggestions for new slugs to the lists as part of your PR! Be s
 ```
 - 'introduction-to-javascript'
 - 'paths/front-end-engineer-career-path'
+```
+
+### JavaScript:D3
+
+```
+- 'learn-d3'
+- 'paths/data-science'
 ```
 
 ### Kotlin
@@ -164,6 +178,24 @@ Feel free to add suggestions for new slugs to the lists as part of your PR! Be s
 - 'paths/data-science-foundations'
 ```
 
+### Python:Pillow
+
+```
+- 'learn-python-3'
+- 'paths/computer-science'
+- 'paths/data-science'
+- 'paths/data-science-foundations'
+```
+
+### Python:Plotly
+
+```
+- 'learn-python-3'
+- 'paths/computer-science'
+- 'paths/data-science'
+- 'paths/data-science-foundations'
+```
+
 ### Python:Seaborn
 
 ```
@@ -195,6 +227,13 @@ Feel free to add suggestions for new slugs to the lists as part of your PR! Be s
 - 'learn-rails'
 - 'learn-ruby'
 - 'paths/full-stack-engineer-career-path'
+```
+
+### Rust
+
+```
+- 'rust-for-programmers'
+- 'paths/computer-science'
 ```
 
 ### SQL
