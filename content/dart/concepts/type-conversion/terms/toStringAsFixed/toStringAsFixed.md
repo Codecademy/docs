@@ -45,4 +45,4 @@ The above code produces the following output:
 Output = 3.14
 ```
 
-> **Note:** The output 3.14 is a string. This can be confirmed by checking value.runtimeType.
+> **Note:** The output 3.14 is a string. This can be confirmed by checking `value.runtimeType`.
