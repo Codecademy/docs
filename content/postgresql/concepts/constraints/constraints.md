@@ -1,6 +1,6 @@
 ---
-Title: 'Constraints'
-Description: 'Constraints are defined for tables or columns in PostgreSQL. Constraints can be used to control data in order to define limits for inserting, updating and deleting data.
+Title: 'constraints'
+Description: 'Constraints are defined for tables or columns in PostgreSQL. Constraints can be used to control data in order to define limits for inserting, updating and deleting data.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -14,7 +14,6 @@ CatalogContent:
   - 'paths/design-databases-with-postgresql'
   - 'paths/computer-science'
 ---
-
 In PostgreSQL, **constraints** are conditions applied to database tables and/or columns. Contraints help to ensure data integrity, consistency and accuracy as well as quality and reliability of the stored data. The constraint rules define limits for insertion, updating and deleting of data. There are different constraint types.
 ## Check Constraints
 - A check constraint is a condition that must be fulfilled in all rows of the table.
