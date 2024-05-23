@@ -1,14 +1,7 @@
 ---
 Title: 'Python:Pillow'
 Description: 'Pillow is a Python library used for image processing and manipulation.'
-Subjects:
-  - 'Computer Science'
-  - 'Data Science'
-Tags:
-  - 'Data'
-  - 'Images'
-  - 'Libraries'
-  - 'Pillow'
+Codecademy Hub Page: 'https://www.codecademy.com/catalog/language/python'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
