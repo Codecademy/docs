@@ -13,20 +13,16 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-
 In Python, the **`.isdisjoint()`** method checks whether two [sets](https://www.codecademy.com/resources/docs/python/sets) have any common elements. If no common elements exist, it returns `True`; otherwise, it returns `False`.
-
 
 ## Syntax
 
 ```pseudo
-
 set1.isdisjoint(set2)
 ```
 
 - `set1`: Represents the set to be compared.
 - `set2`: Represents the second set to be compared with `set1` to check for common elements.
-
 
 ## Example
 
@@ -56,17 +52,12 @@ In the above example, the `.isdisjoint()` method returns `True` for `set1` and `
 
 ## Codebyte Example
 
-
 Below is a code byte example demonstrating the use of the `.isdisjoint()` method:
-
 
 ```codebyte/python
 set_a = {'a', 'b', 'c'}
 set_b = {'x', 'y', 'z'}
 set_c = {'b', 'y'}
-
 print(set_a.isdisjoint(set_b))
-
 print(set_a.isdisjoint(set_c))
-
 ```
