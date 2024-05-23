@@ -58,6 +58,8 @@ Below is a code byte example demonstrating the use of the `.isdisjoint()` method
 set_a = {'a', 'b', 'c'}
 set_b = {'x', 'y', 'z'}
 set_c = {'b', 'y'}
+
 print(set_a.isdisjoint(set_b))
+
 print(set_a.isdisjoint(set_c))
 ```
