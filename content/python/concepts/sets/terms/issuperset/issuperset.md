@@ -21,10 +21,10 @@ In Python, the **`.issuperset()`** method is used to determine if the original s
 set1.issuperset(set2)
 ```
 
-**Note**: In Python, the `>=` operator can be used to check if one set is a superset of another, functioning equivalently to the `.issuperset()` method.
-
 - `set1`: The set that is being examined to determine if its elements are all present in `set2`.  
 - `set2`: The set that is being checked to see if it contains all elements from `set1`.
+
+> **Note**: In Python, the `>=` operator also can be used to check if one set is a superset of another, its functioning is equivalent to the `.issuperset()` method.
 
 ## Example
 
@@ -32,7 +32,7 @@ The following example demonstrates the usage of the `.issuperset()` method:
 
 ```py
 set_A ={"pink", "yellow", "red", "blue", "green"}
-set_B ={"red", "blue", "green"} 
+set_B ={"red", "blue", "green"}
 
 print(set_A.issuperset(set_B))
 ```
