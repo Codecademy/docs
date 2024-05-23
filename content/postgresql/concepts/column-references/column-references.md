@@ -4,7 +4,7 @@ Description: 'Allow developers to retrieve column names and relevant data from a
 Subjects:
   - 'Computer Science'
   - 'Data Science'
-Tags: 
+Tags:
   - 'PostgreSQL'
   - 'Database'
   - 'Data'
@@ -91,7 +91,7 @@ column1 data_type,
 column2 data_type,
 );
 ```
-  
+
 ## Example
 
 The following example demonstrates the usage of column references in PostgreSQL:
@@ -110,14 +110,14 @@ CREATE TABLE bus (
   type_of_payment VARCHAR(90),
   age INTEGER,
   next_of_kin VARCHAR(100),
-  date_of_payment DATE  
+  date_of_payment DATE
 );
 
 -- Inserting data
 
 INSERT INTO bus (first_name, last_name, occupation, starting_point, destination_point, ticket_price, duration_in_minutes, type_of_payment, age, next_of_kin, date_of_payment)
 
-VALUES 
+VALUES
   ('Ikechukwu', 'Ogumba', 'Student', 'Dei-Dei', 'Kubwa', 200, 15, 'Card Payment', 22, 'William Ogumba', '2024-04-20'),
   ('John', 'Snow', 'Plumber', 'Dei-Dei', 'Wuse Junction', 500, 40, 'Card Payment', 30, 'Micheal Bolton', '2024-04-20'),
   ('Barry', 'Hickler', 'Banker', 'Dei-Dei', 'Berger', 700, 60, 'Cash Payment', 39, 'James Rashford', '2024-04-20'),
