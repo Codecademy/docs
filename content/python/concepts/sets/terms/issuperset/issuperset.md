@@ -1,6 +1,6 @@
 ---
 Title: '.issuperset()'
-Description: 'Checks whether all elements in specified set exist in the original set.'
+Description: 'Checks whether all elements of the specified set exist in the original set.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.issuperset()`** method returns `True` if all the items in the specified set exists in the original set,otherwise it returns `False`.
+In Python, the **`.issuperset()`** method is used to determine if the original set contains all elements of the specified set. It returns `True` if every element of the specified set is also an element of the original set, and `False` otherwise.
 
 ## Syntax
 
@@ -21,14 +21,10 @@ The **`.issuperset()`** method returns `True` if all the items in the specified 
 set1.issuperset(set2)
 ```
 
-## Another Syntax
+**Note**: In Python, the `>=` operator can be used to check if one set is a superset of another, functioning equivalently to the `.issuperset()` method.
 
-```pseudo
-set1 >= set2
-```
-
-- `set1`: The set whose elements are being checked for existence within `set2`.
-- `set2`: The set being searched for the presence of elements from the `set1`.
+- `set1`: The set that is being examined to determine if its elements are all present in `set2`.  
+- `set2`: The set that is being checked to see if it contains all elements from `set1`.
 
 ## Example
 
@@ -53,6 +49,7 @@ True
 x = {"eagle", "dog", "mouse", "fish", "gorilla", "cat"}
 y = {"cat", "dog", "fish"}
 z = {"apple", "banana", "cherry"}
+
 print(x.issuperset(y))
 print(x >= z)
 ```
