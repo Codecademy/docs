@@ -25,3 +25,25 @@ Number.parseFloat(value);
 ```
 
 - `value` (required): The value to parse, which is [coerced to a string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#string_coercion). Leading whitespaces in this value are ignored.
+
+## Examples
+
+Converting a value to a floating point number:
+
+```js
+
+console.log(Number.parseFloat(3.14));
+// Output: 3.14
+
+console.log(Number.parseFloat("6.271"));
+// Output: 6.271
+
+console.log(Number.parseFloat("  2.59  "));
+// Output: 2.59
+
+console.log(Number.parseFloat("1.49some non-digit characters"));
+// Output: 1.49
+
+console.log(Number.parseFloat("ABC32"));
+// Output: NaN
+```
