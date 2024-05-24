@@ -6,7 +6,7 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'PostgreSQL'
-  - `Aggregate Expressions`
+  - `Aggregate Functions`
 CatalogContent:
   - 'learn-postgresql'
   - 'paths/analyze-data-with-sql'
