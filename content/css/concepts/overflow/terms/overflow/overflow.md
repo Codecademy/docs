@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Defines how a block level element should handle content that goes beyond its boundaries.
+Defines how a block-level element should handle content that goes beyond its boundaries. This is shorthand for [`overflow-x`](https://www.codecademy.com/resources/docs/css/overflow/overflow-x) and [`overflow-y`](https://www.codecademy.com/resources/docs/css/overflow/overflow-y).
 
 ## Syntax
 
@@ -30,11 +30,11 @@ where `<value>` can be one of the following:
 
 ## Example 1
 
-Clip any content that overflows without providing a scrollbar to view overflow content.
+Any content that overflows will be visible outside of its containing element.
 
 ```css
 .view-box {
-  overflow: hidden;
+  overflow: visible;
 }
 ```
 
@@ -50,10 +50,14 @@ Provide a scrollbar and clip any content that overflows.
 
 ## Example 3
 
-Provide a scrollbar only if overflow contents exists.
+Any Content that overflows will not be visible and no scrollbar will appear.
 
 ```css
 .view-box {
-  overflow: auto;
+  overflow: hidden;
 }
 ```
+
+The following image demonstrates the three `overflow` properties described above:
+
+![Three div elements with overflow properties of visible, scroll, and hidden](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-overflow.png)

@@ -16,7 +16,7 @@ CatalogContent:
 
 **Conditional Proof** is a technique used in mathematical proofs to prove a conditional statement.
 
-A conditional statment is a statement of the form 'if..., then...'. The **antecedent** (also called the hypothesis or premise) is the condition of the conditional statement: the part following 'if'. The **consequent** (also called the conclusion) is what is claimed to follow from the condition: the part following 'then'.
+A conditional statement is a statement of the form 'if..., then...'. The **antecedent** (also called the hypothesis or premise) is the condition of the conditional statement: the part following 'if'. The **consequent** (also called the conclusion) is what is claimed to follow from the condition: the part following 'then'.
 
 Conditional proof works by assuming the antecedent of the conditional, and then showing that the consequent follows. By assuming the antecedent and then proving that the consequent follows, given that assumption, the entire conditional is shown to be true.
 
