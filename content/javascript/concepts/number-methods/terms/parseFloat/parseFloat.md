@@ -47,3 +47,13 @@ console.log(Number.parseFloat("1.49some non-digit characters"));
 console.log(Number.parseFloat("ABC32"));
 // Output: NaN
 ```
+
+## Codebyte Example
+
+```codebyte/js
+# Before executing the code, what do you believe the result will be?
+
+const value = "  5.42c4ke3";
+
+console.log(Number.parseFloat(value));
+```
