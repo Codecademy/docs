@@ -15,6 +15,6 @@ Pillow consists of a lot of modules, each catering to different aspects of image
 
 The official release of Pillow can be installed with [pip](https://www.codecademy.com/resources/docs/python/pip):
 
-```py
+```shell
 pip install pillow
 ```
