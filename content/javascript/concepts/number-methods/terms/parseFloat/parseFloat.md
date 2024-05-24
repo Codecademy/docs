@@ -17,3 +17,11 @@ The **`.parseFloat()`** method is a part of the `Number` class in JavaScript.
 It accepts a single argument, `value` and returns a [number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) or [NaN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN) when the first non-whitespace character cannot be converted to a number.
 
 Note: JavaScript does not have the distinction of "floating point numbers" and "integers" on the language level.
+
+## Syntax
+
+```js
+Number.parseFloat(value);
+```
+
+- `value` (required): The value to parse, which is [coerced to a string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#string_coercion). Leading whitespaces in this value are ignored.
