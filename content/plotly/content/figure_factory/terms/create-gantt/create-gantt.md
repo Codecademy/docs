@@ -1,7 +1,7 @@
 ---
 Title: '.create_gantt()'
 Description: 'Creates a Gantt chart, a type of bar chart that delineates a project schedule by illustrating task durations, dependencies, and timelines.'
-Subjects: 
+Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
@@ -9,7 +9,7 @@ Tags:
   - 'Data'
   - 'Graphs'
   - 'Libraries'
-CatalogContent: 
+CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
@@ -18,7 +18,7 @@ The **`.create_gantt`** method in the `plotly.figure_factory` module is a functi
 
 ## Syntax
 
-The syntax for the .create_gantt() method in Plotly is customizable. Below is a general structure of it: 
+The syntax for the .create_gantt() method in Plotly is customizable. Below is a general structure of it:
 
 ```pseudo
 
@@ -35,23 +35,26 @@ The `.create_gantt` method takes the following arguments:
 - `reverse_colors`: A `boolean` parameter enabling the reversal of selected colors in the chart.
 - `title`: Sets a descriptive title for the Gantt chart.
 
->**Note:** The ellipsis (...) indicates that there can be additional optional arguments beyond those listed here.
+> **Note:** The ellipsis (...) indicates that there can be additional optional arguments beyond those listed here.
 
 ## Example
 
 The example below demonstrates the use of `.create_gantt()` to plot a Gantt chart for a simple project with three tasks (A, B and C) that take place in the same year:
 
 ```py
-import plotly.figure_factory as ff 
+import plotly.figure_factory as ff
 
-df = [dict(Task="Task A", Start='2024-01-01', Finish='2024-02-02'), 
-	dict(Task="Task B", Start='2024-03-01', Finish='2024-11-11'), 
-	dict(Task="Task C", Start='2024-08-06', Finish='2024-09-21')] 
+df = [
+    dict(Task="Task A", Start='2024-01-01', Finish='2024-02-02'),
+    dict(Task="Task B", Start='2024-03-01', Finish='2024-11-11'),
+    dict(Task="Task C", Start='2024-08-06', Finish='2024-09-21')
+]
 
-fig = ff.create_gantt(df) 
+fig = ff.create_gantt(df)
 fig.show()
 
 ```
+
 **Output:**
 
 The code depicted above produces the following output:
