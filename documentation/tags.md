@@ -58,6 +58,7 @@ Classes
 Cloud Computing
 Code Editors
 Conditionals
+Collations
 Collections
 Colors
 Combinators
