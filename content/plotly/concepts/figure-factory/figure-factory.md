@@ -1,5 +1,5 @@
 ---
-Title: 'figure-factory'
+Title: 'figure_factory'
 Description: 'The figure_factory module in Plotly makes it easy to create complex charts like heatmaps and dendrograms with simple, high-level functions.'
 Subjects:
   - 'Computer Science'
@@ -16,10 +16,10 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-In Plotly, the figure_factory module simplifies creating advanced charts such as heatmaps, candlestick charts, and dendrograms by providing high-level functions that manage the intricate details of these visualizations.
+In Plotly, the **figure_factory** module simplifies creating advanced charts such as heatmaps, candlestick charts, and dendrograms by providing high-level functions that manage the intricate details of these visualizations.
 
 ## Syntax
 
 ```pseudo 
-import plotly.figure-factory as ff
+import plotly.figure_factory as ff
 ```
