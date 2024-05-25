@@ -9,6 +9,7 @@ Tags:
   - 'Database'
   - 'PostgreSQL'
 CatalogContent:
+  - 'learn-sql'
   - 'paths/analyze-data-with-sql'
 ---
 
@@ -18,14 +19,14 @@ In PostgreSQL, **Type Casts** can be used to convert a value from one datatype t
 
 - CAST() function
 
-```sql
-CAST(value AS type)
+```pseudo
+SELECT CAST(value AS type)
 ```
 
 - Cast operator
 
-```sql
-value::type
+```pseudo
+SELECT value::type
 ```
 
 ## Example
@@ -38,12 +39,9 @@ SELECT CAST(37.8 AS INTEGER);
 
 Output:
 
-```
- int4
-------
-   38
-(1 row)
-```
+| int4   |
+| ------ |
+| 38     |   
 
 To cast a string to a date using the CAST() function:
 
@@ -53,12 +51,9 @@ SELECT CAST('Wed 22 May 2024 18:33:55' AS DATE);
 
 Output:
 
-```
-    date
-------------
- 2024-05-22
-(1 row)
-```
+| date     |
+| -------- |
+|2024-05-22| 
 
 To cast a string to a floating-point number using the Cast operator:
 
@@ -68,9 +63,6 @@ SELECT '22.5'::FLOAT;
 
 Output:
 
-```
- float8
---------
-   22.5
-(1 row)
-```
+|float8  |
+| ------ |
+|22.5    | 
