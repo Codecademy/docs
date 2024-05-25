@@ -13,7 +13,7 @@ CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
   - 'paths/data-science'
-  - 'paths/data-science-foundaions'
+  - 'paths/data-science-foundations'
 ---
 
 The **`.svd()`** function is a mathematical technique that decomposes a matrix into three simpler matrices: it factorizes the matrix `a` into two unitary matrices `U` and `Vh`, along with a 1-D array `s` of singular values (real and non-negative). This decomposition satisfies the equation `a = U @ S @ Vh`, where `S` is a suitably shaped matrix of zeros with `s` as its main diagonal.
@@ -76,3 +76,19 @@ V= [[-0.45503019 -0.88743457  0.07353512]
  [ 0.50994021 -0.19198956  0.83851117]
  [ 0.73000582 -0.41904641 -0.53989962]]
  ```
+
+ ## Codebyte Example
+ 
+ The following codebyte example shows the usage of the `.svd()` function:
+
+```codebyte/python
+import numpy as np
+
+A = np.random.randn(5, 3)  # Creating a random 2D matrix
+print("Original 2D matrix:") 
+print(A) 
+
+U, S, V = np.linalg.svd(A)  
+print("\nFactor of the given array by Singular Value Decomposition:") 
+print("\nU=", U, "\n\ns=", S, "\n\nV=", V)
+```
