@@ -1,6 +1,6 @@
 ---
 Title: 'figure_factory'
-Description: 'The figure_factory module in Plotly makes it easy to create complex charts like heatmaps and dendrograms with simple, high-level functions.'
+Description: 'The figure_factory module in Plotly makes it easy to create complex charts, like heatmaps and dendrograms with simple, high-level functions.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
