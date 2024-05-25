@@ -35,7 +35,7 @@ The following codebyte example inserts different mammals and their average lifes
 #include <map>
 
 int main() {
-  // Initializing  map
+  // Initializing map
   std::map<std::string, int> lifeSpan;
 
   // Adding elements

@@ -1,6 +1,6 @@
 ---
 Title: 'text-justify'
-Description: 'Sets the justifcation method of text when text-align: justify; is applied to an element.'
+Description: 'Sets the justification method of text when text-align: justify; is applied to an element.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Sets the justifcation method of text when `text-align: justify;` is applied to an element.
+Sets the justification method of text when `text-align: justify;` is applied to an element.
 
 ## Syntax
 
@@ -21,7 +21,7 @@ Sets the justifcation method of text when `text-align: justify;` is applied to a
 text-justify: <value>;
 ```
 
-The following values can be be appplied to the `text-justify` property:
+The following values can be applied to the `text-justify` property:
 
 - `none`: Disables justification methods.
 - `inter-word`: Adjusts the spacing between words.
@@ -30,7 +30,7 @@ The following values can be be appplied to the `text-justify` property:
 
 ## Example
 
-Setting a `p` element with a justifaction of `inter-word`:
+Setting a `p` element with a justification of `inter-word`:
 
 ```css
 p {

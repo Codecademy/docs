@@ -100,7 +100,7 @@ Hi, I am Elizabeth Harmon.
 
 ## Object Classes
 
-Classes are essentially boilerplate object templates. If a car was an object, then a car factory is an object class.
+Classes are essentially boilerplate object templates. If a car is an object, then a car factory is an object class.
 
 A class can be constructed with the following notation. The person object example will be used.
 
@@ -134,7 +134,7 @@ Person {
 */
 ```
 
-An additional step can be made to optimize this procedure through the use of a [constructor](https://www.codecademy.com/resources/docs/javascript/constructor).
+An additional step can be made to optimize this procedure through the use of [constructors](https://www.codecademy.com/resources/docs/javascript/constructors).
 
 A constructor function initializes a set of variables at the creation of a class. Thanks to constructors, object properties can be defined when a new instance is made. This makes code precise and concise.
 
@@ -167,8 +167,8 @@ Person {
 } 
 */
 
-person.greeting();
-// Output: "Hi, I am Elizabeth Harmon"
+console.log(person.greeting());
+// Output: Hi, I am Elizabeth Harmon.
 ```
 
 ## Video Walkthrough
