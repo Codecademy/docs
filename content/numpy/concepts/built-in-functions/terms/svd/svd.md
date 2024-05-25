@@ -1,6 +1,6 @@
 ---
 Title: '.svd()'
-Description: 'Performs the Singular Value Decomposition (SVD) on a matrix, breaking it down into singular vectors and values.'
+Description: 'Performs the Singular Value Decomposition (SVD) on a matrix, breaking it down into singular vectors and singular values.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-The **`.svd()`** function is a mathematical technique that decomposes a matrix into three simpler matrices: it factorizes the matrix `a` into two unitary matrices `U` and `Vh`, along with a 1-D array `s` of singular values (real and non-negative). This decomposition satisfies the equation `a = U @ S @ Vh`, where `S` is a suitably shaped matrix of zeros with `s` as its main diagonal.
+The **`.svd()`** function is a mathematical technique that decomposes a matrix into three simpler matrices. This means it factorizes the matrix `a` into two unitary matrices `U` and `Vh`, along with a 1-D array `s` containing singular values (real and non-negative). This decomposition satisfies the equation `a = U @ S @ Vh`, where `S` is a diagonal matrix formed from the singular values in `s`.
 
 ## Syntax
 
@@ -24,18 +24,18 @@ The **`.svd()`** function is a mathematical technique that decomposes a matrix i
 numpy.linalg.svd(a, full_matrices=True, compute_uv=True, hermitian=False)
 ```
 
-`.svd()` provides the following arguments:
+Parameters:
 
-- `a`: This parameter represents the input matrix to be decomposed, where `a.ndim>=2`. It is the matrix on which Singular Value Decomposition will be performed.
+- `a`: The input matrix to be decomposed, with at least two dimensions.
 - `full_matrices`: This parameter determines whether the function computes full-sized or reduced-sized matrices `U` and `Vh`. If `full_matrices` is set to `True`, the function computes the full-sized matrices. If set to `False`, it computes only the essential parts of `U` and `Vh`. The default value is `True`.
-- `compute_uv`: This parameter specifies whether the function computes the left-singular vectors (`U`) and right-singular vectors (transpose of `V`) in addition to the singular values. When `compute_uv` is set to `True`, the function computes `U` and `Vh`. If set to `False`, it only computes the singular values. The default value is `True`.
-- `hermitian`: This parameter indicates whether the input matrix `a` is Hermitian, meaning it is equal to its conjugate transpose. When `hermitian` is set to `True`, the function assumes that a is Hermitian and uses a more efficient algorithm tailored for such matrices. If set to `False`, it uses a general algorithm. The default value is `False`.
+- `compute_uv`: If set to `True`, both singular values and singular vectors (`U` and `Vh`) are computed. If set to `False`, only the singular values are computed. The default value is `True`.
+- `hermitian`: This parameter indicates whether the input matrix `a` is Hermitian, meaning it is equal to its conjugate transpose. When `hermitian` is set to `True`, the function assumes that `a` is Hermitian and uses a more efficient algorithm tailored for such matrices. If set to `False`, it uses a general algorithm. The default value is `False`.
 
 ## Example
-The following example demonstrates various scenarios of Singular Value Decomposition (SVD) and uses `.svd()` using `NumPy`:
+
+ The following example demonstrates how to perform Singular Value Decomposition (SVD) on a 2D matrix using NumPy:
 
 ```py
-# The following example demonstrates a scenario of Singular Value Decomposition (SVD) for a 2D matrix using NumPy:
 import numpy as np
 
 # Create a 2D array
@@ -47,34 +47,33 @@ print(A)
 # Compute the factor by Singular Value Decomposition
 U, S, V = np.linalg.svd(A)  
 
-# Print the result 
-print("\nFactor of the given array by Singular Value Decomposition:") 
-print("\nU=", U, "\n\ns=", S, "\n\nV=", V)
-```
+ # Print the result
+ print("\nDecomposed matrices by Singular Value Decomposition:")
+ print("\nU =")
+ print(U)
+ print("\nSingular values (S) =")
+ print(S)
+ print("\nVh =")
+ print(Vh)
+ ```
 
 This produces the following output:
 
 ```shell
 Original 2D matrix:
-[[ 0.24802525  0.08222177 -1.08276458]
- [ 1.69668935  0.4094856  -0.23407198]
- [ 0.40216763  2.30735008 -0.33489652]
- [-1.00632881  0.43372609 -1.97297003]
- [ 1.44445438  2.76595846  0.08637226]]
-
-Factor of the given array by Singular Value Decomposition:
-
-U= [[-0.06608409 -0.31521528  0.48785517 -0.65606804 -0.47733037]
- [-0.28695698  0.23340955  0.79622903  0.47670088  0.04417332]
- [-0.56145359 -0.20509892 -0.32859417  0.36975665 -0.63088049]
- [-0.01794366 -0.88995149  0.09929954  0.22345786  0.3845394 ]
- [-0.77313419  0.10990942 -0.10090663 -0.39456001  0.47362822]] 
-
-s= [4.01680091 2.5291219  1.49878361] 
-
-V= [[-0.45503019 -0.88743457  0.07353512]
- [ 0.50994021 -0.19198956  0.83851117]
- [ 0.73000582 -0.41904641 -0.53989962]]
+ Decomposed matrices by Singular Value Decomposition:
+ U =
+ [[-0.39547748 -0.30734324  0.18467604 -0.12939098 -0.83563774]
+  [-0.32938153  0.89028382  0.27923366 -0.11112592 -0.09263976]
+  [ 0.35928965  0.32049879 -0.75033282 -0.00508631 -0.45295283]
+  [-0.18426076  0.05109289 -0.02026444  0.97743833 -0.08741364]
+  [-0.75634932 -0.08720604 -0.56966072 -0.1244887   0.2834079 ]]
+ Singular values (S) =
+ [3.82330204 2.02338927 0.8344531 ]
+ Vh =
+ [[ 0.13152151 -0.73103199  0.66954785]
+  [-0.71548554  0.39748513  0.57453113]
+  [ 0.68613595  0.55461501  0.47076497]]
  ```
 
  ## Codebyte Example
