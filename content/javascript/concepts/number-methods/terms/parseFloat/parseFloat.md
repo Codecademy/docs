@@ -31,20 +31,19 @@ Number.parseFloat(value);
 Converting a value to a floating point number:
 
 ```js
-
 console.log(Number.parseFloat(3.14));
 // Output: 3.14
 
-console.log(Number.parseFloat("6.271"));
+console.log(Number.parseFloat('6.271'));
 // Output: 6.271
 
-console.log(Number.parseFloat("  2.59  "));
+console.log(Number.parseFloat('  2.59  '));
 // Output: 2.59
 
-console.log(Number.parseFloat("1.49some non-digit characters"));
+console.log(Number.parseFloat('1.49some non-digit characters'));
 // Output: 1.49
 
-console.log(Number.parseFloat("ABC32"));
+console.log(Number.parseFloat('ABC32'));
 // Output: NaN
 ```
 
