@@ -25,7 +25,7 @@ The shadow is created with a combination of x and y offsets from the element, bl
 
 - value 1 (required): Offsets the x-axis.
 - Value 2 (required): Offsets the y-axis.
-- Value 3 (optional): Sets the blur radious.
+- Value 3 (optional): Sets the blur radius.
 - Value 4 (optional): Sets the color of the shadow.
 
 **Note:** We can add multiple text shadows by comma separating.
