@@ -33,26 +33,23 @@ Parameters:
 
 ## Example
 
- The following example demonstrates how to perform Singular Value Decomposition (SVD) on a 2D matrix using NumPy:
+The following example demonstrates how to perform Singular Value Decomposition (SVD) on a 2D matrix using NumPy:
 
 ```py
-import numpy as np
-
-# Create a random 2D matrix
 A = np.random.randn(5, 3)
 
-print(f"Original 2D matrix A (shape: {A.shape}): ") 
-print(A) 
+print(f"Original 2D matrix A (shape: {A.shape}): ")
+print(A)
 
 # Compute the factor by Singular Value Decomposition
-U, S, Vh = np.linalg.svd(A)  
+U, s, Vh = np.linalg.svd(A)
 
 # Print the result
 print("\nFactor of the given array by Singular Value Decomposition:")
 print(f"\nU (shape {U.shape}):")
 print(U)
-print(f"\nSingular values (S) (length {len(S)}):")
-print(S)
+print(f"\nSingular values (s) (length {len(s)}):")
+print(s)
 print(f"\nVh (shape {Vh.shape}):")
 print(Vh)
 ```
@@ -60,7 +57,7 @@ print(Vh)
 This produces the following output:
 
 ```shell
-Original 2D matrix A (shape: (5, 3)): 
+Original 2D matrix A (shape: (5, 3)):
 [[ 0.59796872 -1.38507085  0.03524285]
  [ 1.28932701  0.81797526 -1.69122659]
  [ 0.23620894 -0.94818582  1.59777167]
@@ -76,17 +73,17 @@ U (shape (5, 5)):
  [-0.45505181 -0.43538359  0.63541079  0.44567257 -0.03159222]
  [-0.68557556 -0.07386184 -0.29991051 -0.30306796  0.58543495]]
 
-Singular values (S) (length 3):
+Singular values (s) (length 3):
 [3.25448644 2.86930282 1.35462929]
 
 Vh (shape (3, 3)):
 [[-0.51832291  0.47198441  0.71314239]
  [ 0.11219578  0.864227   -0.49043225]
  [-0.84779329 -0.17419071 -0.50090332]]
- ```
+```
 
- ## Codebyte Example
- 
+## Codebyte Example
+
 The following codebyte example shows the usage of the `.svd()` function:
 
 ```codebyte/python
@@ -95,11 +92,11 @@ import numpy as np
 # Create a random 2D matrix
 A = np.random.randn(6, 4)
 
-print("Original 2D matrix:") 
-print(A) 
+print("Original 2D matrix:")
+print(A)
 
-U, S, Vh = np.linalg.svd(A)
+U, s, Vh = np.linalg.svd(A)
 
-print("\nFactor of the given array by Singular Value Decomposition:") 
-print("\nU =", U, "\n\ns =", S, "\n\nV =", Vh)
+print("\nFactor of the given array by Singular Value Decomposition:")
+print("\nU =", U, "\n\ns =", s, "\n\nVh =", Vh)
 ```
