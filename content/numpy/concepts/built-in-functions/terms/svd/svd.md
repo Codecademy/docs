@@ -36,6 +36,9 @@ Parameters:
 The following example demonstrates how to perform Singular Value Decomposition (SVD) on a 2D matrix using NumPy:
 
 ```py
+import numpy as np
+
+# Create a random 2D matrix
 A = np.random.randn(5, 3)
 
 print(f"Original 2D matrix A (shape: {A.shape}): ")
