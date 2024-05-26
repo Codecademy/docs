@@ -38,56 +38,68 @@ Parameters:
 ```py
 import numpy as np
 
-# Create a 2D array
-A = np.random.randn(5, 3)  # Creating a random 2D matrix
+# Create a random 2D matrix
+A = np.random.randn(5, 3)
 
-print("Original 2D matrix:") 
+print(f"Original 2D matrix A (shape: {A.shape}): ") 
 print(A) 
 
 # Compute the factor by Singular Value Decomposition
-U, S, V = np.linalg.svd(A)  
+U, S, Vh = np.linalg.svd(A)  
 
- # Print the result
- print("\nDecomposed matrices by Singular Value Decomposition:")
- print("\nU =")
- print(U)
- print("\nSingular values (S) =")
- print(S)
- print("\nVh =")
- print(Vh)
- ```
+# Print the result
+print("\nFactor of the given array by Singular Value Decomposition:")
+print(f"\nU (shape {U.shape}):")
+print(U)
+print(f"\nSingular values (S) (length {len(S)}):")
+print(S)
+print(f"\nVh (shape {Vh.shape}):")
+print(Vh)
+```
 
 This produces the following output:
 
 ```shell
-Original 2D matrix:
- Decomposed matrices by Singular Value Decomposition:
- U =
- [[-0.39547748 -0.30734324  0.18467604 -0.12939098 -0.83563774]
-  [-0.32938153  0.89028382  0.27923366 -0.11112592 -0.09263976]
-  [ 0.35928965  0.32049879 -0.75033282 -0.00508631 -0.45295283]
-  [-0.18426076  0.05109289 -0.02026444  0.97743833 -0.08741364]
-  [-0.75634932 -0.08720604 -0.56966072 -0.1244887   0.2834079 ]]
- Singular values (S) =
- [3.82330204 2.02338927 0.8344531 ]
- Vh =
- [[ 0.13152151 -0.73103199  0.66954785]
-  [-0.71548554  0.39748513  0.57453113]
-  [ 0.68613595  0.55461501  0.47076497]]
+Original 2D matrix A (shape: (5, 3)): 
+[[ 0.59796872 -1.38507085  0.03524285]
+ [ 1.28932701  0.81797526 -1.69122659]
+ [ 0.23620894 -0.94818582  1.59777167]
+ [-0.10227955 -1.92855728 -0.87461468]
+ [ 1.47713324 -1.16547922 -1.28372167]]
+
+Factor of the given array by Singular Value Decomposition:
+
+U (shape (5, 5)):
+[[-0.28838331 -0.39982197 -0.20916472 -0.43801489 -0.72205993]
+ [-0.45730765  0.58585849 -0.28673931  0.48902595 -0.35535015]
+ [ 0.17498222 -0.54945226 -0.61671509  0.52775216  0.09286329]
+ [-0.45505181 -0.43538359  0.63541079  0.44567257 -0.03159222]
+ [-0.68557556 -0.07386184 -0.29991051 -0.30306796  0.58543495]]
+
+Singular values (S) (length 3):
+[3.25448644 2.86930282 1.35462929]
+
+Vh (shape (3, 3)):
+[[-0.51832291  0.47198441  0.71314239]
+ [ 0.11219578  0.864227   -0.49043225]
+ [-0.84779329 -0.17419071 -0.50090332]]
  ```
 
  ## Codebyte Example
  
- The following codebyte example shows the usage of the `.svd()` function:
+The following codebyte example shows the usage of the `.svd()` function:
 
 ```codebyte/python
 import numpy as np
 
-A = np.random.randn(5, 3)  # Creating a random 2D matrix
+# Create a random 2D matrix
+A = np.random.randn(6, 4)
+
 print("Original 2D matrix:") 
 print(A) 
 
-U, S, V = np.linalg.svd(A)  
+U, S, Vh = np.linalg.svd(A)
+
 print("\nFactor of the given array by Singular Value Decomposition:") 
-print("\nU=", U, "\n\ns=", S, "\n\nV=", V)
+print("\nU =", U, "\n\ns =", S, "\n\nV =", Vh)
 ```
