@@ -2,13 +2,14 @@
 Title: 'Data Types'
 Description: 'Data types provide categories for values we store in tables.'
 Subjects:
-  - 'Computer Science'
   - 'Data Science'
+  - 'Information Technology'
 Tags:
   - 'Data Types'
   - 'MySQL'
+ <!--Documentation does not provide CatalogContent for mySQL https://github.com/Codecademy/docs/blob/main/documentation/catalog-content.md --> 
 CatalogContent:
-  - 'learn-sql'
+  - 'learn-MySQL'
   - 'paths/database-administration'
 ---
 
