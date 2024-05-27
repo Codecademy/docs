@@ -50,7 +50,7 @@ img_resized = img.resize((500, 500))
 print(img_resized.height, img_resized.width)
 ```
 
-The output will show the new dimensions of the image in pixels.
+The code snippet will display the new dimensions of the image and also showcase the image in the output as follows:
 
 ```shell
 500 500
