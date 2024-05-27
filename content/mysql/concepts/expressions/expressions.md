@@ -1,0 +1,71 @@
+---
+title: "Expressions in MySQL"
+description: "Learn about expressions in MySQL, which are combinations of values, operators, and SQL functions that evaluate to a value."
+subjects:
+  - SQL
+  - Databases
+  - MySQL
+tags:
+  - expressions
+  - SQL functions
+  - MySQL queries
+  - database operations
+CatalogContent:
+  - 'mysql'
+---
+
+# Expressions in MySQL
+
+## Introduction
+
+In MySQL, expressions are combinations of one or more values, operators, and SQL functions that evaluate to a value. Expressions are used in various parts of SQL queries to compute values, filter records, and perform operations. They are fundamental building blocks for constructing meaningful queries and performing calculations within the database.
+
+## Syntax
+
+The syntax for expressions in MySQL varies depending on the type of expression being used. Here are some common types of expressions:
+
+### Arithmetic Expressions
+
+Arithmetic expressions involve numerical calculations and use arithmetic operators such as `+`, `-`, `*`, and `/`.
+
+```sql
+SELECT 1 + 2;
+SELECT price * quantity;
+
+
+## Examples
+
+The following example create table with columns name, price, and quantity_in_stock:
+
+CREATE TABLE products (
+    name VARCHAR(50),
+    price DECIMAL(10, 2),
+    quantity_in_stock INT
+);
+
+INSERT INTO products (name, price, quantity_in_stock) VALUES
+('Product A', 19.99, 10),
+('Product B', 5.99, 20),
+('Product C', 49.99, 5);
+
+We can use expressions to calculate the total value of products in stock:
+
+SELECT
+    name,
+    price,
+    quantity_in_stock,
+    price * quantity_in_stock AS total_value
+FROM
+    products;
+    
+This example results in the following output:
+
+```shell
++-----------+-------+------------------+-------------+
+| name      | price | quantity_in_stock| total_value |
++-----------+-------+------------------+-------------+
+| Product A | 19.99 | 10               | 199.90      |
+| Product B | 5.99  | 20               | 119.80      |
+| Product C | 49.99 | 5                | 249.95      |
++-----------+-------+------------------+-------------+
+```
