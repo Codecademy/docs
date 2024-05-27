@@ -1,6 +1,6 @@
 ---
 Title: '↪️ Conditionals'
-Description: 'Conditionals take an expression, which is code that evaluates to determine a value, and checks if it is 👍 or 👎. If it’s 👍, we can tell our program to do one thing — we can even account for 👎 to do another. As we write more complex programs, conditionals allow us to address multiple scenarios and make our programs more robust. The ↪️ statement is very important. It allows for conditional execution of a code block. The whole syntax is: - If the condition evaluates to 👍, the code block will be executed. - And if it evaluates to 👎, itll be ignored. This example will display "a is greater than b" if the content for variable a is greater than b: shell'
+Description: 'Conditionals take an expression, which is code that evaluates to determine a value, and checks if it is 👍 or 👎. If it’s 👍, we can tell our program to do one thing — we can even account for 👎 to do another. As we write more complex programs, conditionals allow us to address multiple scenarios and make our programs more robust. The ↪️ statement is very important. It allows for conditional execution of a code block. The whole syntax is: - If the condition evaluates to 👍, the code block will be executed. - And if it evaluates to 👎, it’ll be ignored. This example will display "a is greater than b" if the content for variable a is greater than b: shell'
 Subjects:
   - 'Computer Science'
 Tags:
