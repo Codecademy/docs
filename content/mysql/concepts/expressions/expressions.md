@@ -1,15 +1,14 @@
 ---
-title: "Expressions in MySQL"
-description: "Learn about expressions in MySQL, which are combinations of values, operators, and SQL functions that evaluate to a value."
-subjects:
-  - SQL
-  - Databases
-  - MySQL
-tags:
-  - expressions
-  - SQL functions
-  - MySQL queries
-  - database operations
+Title: "Expressions in MySQL"
+Description: "Learn about expressions in MySQL, which are combinations of values, operators, and SQL functions that evaluate to a value."
+Subjects:
+  - 'Code Foundations'
+  - 'Computer Science'
+Tags:
+  - 'Arithmetic'
+  - 'Concatenation'
+  - 'MySQL'
+  - 'Values'
 CatalogContent:
   - 'mysql'
 ---
