@@ -60,7 +60,7 @@ Relational operators compare two arguments numerically (greater than, equal to, 
 |        `==`         |                    Returns `true` if the two arguments are equal; otherwise returns `false`                     |
 |        `~=`         |                  Returns `true` if the two arguments are not equal; otherwise returns `false`                   |
 |         `>`         |       Returns `true` if the first argument is greater than the second argument; otherwise returns `false`       |
-|         `<`         |      Returns `true` if the first argument is less than the the second argument; otherwise returns `false`       |
+|         `<`         |        Returns `true` if the first argument is less than the second argument; otherwise returns `false`         |
 |        `>=`         | Returns `true` if the first argument is greater than or equal to the second argument; otherwise returns `false` |
 |        `<=`         |  Returns `true` if the first argument is less than or equal to the second argument; otherwise returns `false`   |
 
@@ -130,7 +130,7 @@ Several operators can be combined with `=` to form a compound operator that upda
 |       `*=`        |                Multiplies argument by initial value                |
 |       `/=`        |                 Divides initial value by argument                  |
 |       `%=`        | Variable updated to remainder of initial value divided by argument |
-|       `^=`        |   Variable updated to intial value to the power of the argument    |
+|       `^=`        |   Variable updated to initial value to the power of the argument   |
 |       `..=`       |              Concatenates initial value with argument              |
 
 ### Examples

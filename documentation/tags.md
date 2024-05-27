@@ -51,6 +51,7 @@ Buttons
 Calendar
 Catch
 Characters
+Charts
 Chatbots
 Cryptocurrency
 Classes
@@ -252,6 +253,8 @@ Parameters
 Perceptrons
 Phaser
 Physics
+Pillow
+Plotly
 Pointers
 Positioning
 PostgreSQL
@@ -363,6 +366,7 @@ WebRTC
 Weight & Bias
 While
 Whiteboarding
+Window Functions
 WordPress
 World Wide Web
 Xcode
