@@ -39,9 +39,9 @@ SELECT CAST(37.8 AS INTEGER);
 
 Output:
 
-| int4   |
-| ------ |
-| 38     |   
+| int4 |
+| ---- |
+| 38   |
 
 To cast a string to a date using the CAST() function:
 
@@ -51,9 +51,9 @@ SELECT CAST('Wed 22 May 2024 18:33:55' AS DATE);
 
 Output:
 
-| date     |
-| -------- |
-|2024-05-22| 
+| date       |
+| ---------- |
+| 2024-05-22 |
 
 To cast a string to a floating-point number using the Cast operator:
 
@@ -63,6 +63,6 @@ SELECT '22.5'::FLOAT;
 
 Output:
 
-|float8  |
+| float8 |
 | ------ |
-|22.5    | 
+| 22.5   |
