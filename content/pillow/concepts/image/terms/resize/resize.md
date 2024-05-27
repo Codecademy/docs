@@ -30,7 +30,7 @@ Image.resize(size, resample=None, box=None, reducing_gap=None)
 - `box`: A 4-tuple defining the region of the image to resize.
 - `reducing_gap`: A float to optimize downscaling by resizing in multiple steps.
 
->**Note:** The `.resize()` method requires the `size` parameter, while `resample`, `box`, and `reducing_gap` are optional parameters for additional control over the resizing process.
+> **Note:** The `.resize()` method requires the `size` parameter, while `resample`, `box`, and `reducing_gap` are optional parameters for additional control over the resizing process.
 
 ## Example
 
