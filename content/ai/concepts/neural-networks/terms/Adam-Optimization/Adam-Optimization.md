@@ -18,7 +18,6 @@ CatalogContent:
 ---
 
 ## Adam Optimization 
-
 [**Adam Optimization** is an adaptive gradient descent optimization algorithm that computes adaptive learning rates for each parameter of a neural network by calculating the exponential moving average of the gradient, the exponential moving squared average of the gradient, and incorporating the control of the decay rates of the moving averages. Further, Adam is an extension of stochastic gradient descent that incorporates the advantages of Root Square Mean Propagation (RMSprop) and Adaptive Gradient Algorithm (AdaGrad) which makes Adam optimization very robust for large-scale high-dimensional machine learning problems.]
 
 ## Basic Concept
