@@ -10,10 +10,11 @@ Tags:
   - 'MySQL'
   - 'Values'
 CatalogContent:
-  - 'mysql'
+  - 'learn-sql'
+  - 'paths/analyze-data-with-sql'
 ---
 
-# Expressions in MySQL
+## Expressions in MySQL
 
 ## Introduction
 
@@ -27,28 +28,33 @@ The syntax for expressions in MySQL varies depending on the type of expression b
 
 Arithmetic expressions involve numerical calculations and use arithmetic operators such as `+`, `-`, `*`, and `/`.
 
-```sql
+``` sql
 SELECT 1 + 2;
 SELECT price * quantity;
-
+```
 
 ## Examples
 
 The following example create table with columns name, price, and quantity_in_stock:
 
+``` sql
 CREATE TABLE products (
     name VARCHAR(50),
     price DECIMAL(10, 2),
     quantity_in_stock INT
 );
+```
 
+``` sql
 INSERT INTO products (name, price, quantity_in_stock) VALUES
 ('Product A', 19.99, 10),
 ('Product B', 5.99, 20),
 ('Product C', 49.99, 5);
+```
 
 We can use expressions to calculate the total value of products in stock:
 
+``` sql
 SELECT
     name,
     price,
@@ -56,6 +62,7 @@ SELECT
     price * quantity_in_stock AS total_value
 FROM
     products;
+```
     
 This example results in the following output:
 
