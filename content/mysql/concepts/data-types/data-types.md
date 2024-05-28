@@ -7,7 +7,6 @@ Subjects:
 Tags:
   - 'Data Types'
   - 'MySQL'
- <!--Documentation does not provide CatalogContent for mySQL https://github.com/Codecademy/docs/blob/main/documentation/catalog-content.md --> 
 CatalogContent:
   - 'learn-MySQL'
   - 'paths/database-administration'
