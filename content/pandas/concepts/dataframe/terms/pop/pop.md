@@ -65,4 +65,4 @@ DataFrame after pop:
 2      3       Green      Bitter
 3      4       Pink       Salty
 ```
-The code above creates a pandas DataFrame from a dictionary, prints the DataFrame, uses the .pop() method to remove the column 'col 3' and return it as a Pandas Series object, and then prints the popped data and the modified DataFrame. 
+The code above creates a pandas DataFrame from a dictionary, prints the DataFrame, uses the `.pop()` method to remove the column 'col 3' and return it as a Pandas Series object, and then prints the popped data and the modified DataFrame. 
