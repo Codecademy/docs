@@ -1,6 +1,6 @@
 ---
 Title: 'Type Casts'
-Description: 'PostgreSQL Type Casts can be used to convert a value to another datatype.'
+Description: 'Type Casts converts a value from one data type to another specified data type.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -9,29 +9,31 @@ Tags:
   - 'Database'
   - 'PostgreSQL'
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
+  - 'getting-started-off-platform-for-data-science'
+  - 'paths/design-databases-with-postgresql'
 ---
 
-In PostgreSQL, **Type Casts** can be used to convert a value from one datatype to another. This can be done with either the `CAST()` function or the Cast operator (`::`).
+In PostgreSQL, **Type Casts** converts a value from one data type to another specified data type. This can be done explicitly using the `CAST()` function and the `::` operator.
 
 ## Syntax
 
-- CAST() function
+`CAST()` function:
 
 ```pseudo
-SELECT CAST(value AS type)
+CAST(value AS target_data_type)
 ```
 
-- Cast operator
+`::` operator:
 
 ```pseudo
-SELECT value::type
+value::target_data_type
 ```
 
-## Example
+## Examples
 
-To cast a floating-point number to an integer using the CAST() function:
+### Example 1
+
+Casting a floating-point number to an integer using the `CAST()` function:
 
 ```sql
 SELECT CAST(37.8 AS INTEGER);
@@ -43,7 +45,9 @@ Output:
 | ---- |
 | 38   |
 
-To cast a string to a date using the CAST() function:
+### Example 2
+
+Casting a string to a date using the `CAST()` function:
 
 ```sql
 SELECT CAST('Wed 22 May 2024 18:33:55' AS DATE);
@@ -55,7 +59,9 @@ Output:
 | ---------- |
 | 2024-05-22 |
 
-To cast a string to a floating-point number using the Cast operator:
+### Example 3
+
+Casting a string to a floating-point number using the `::` operator:
 
 ```sql
 SELECT '22.5'::FLOAT;
