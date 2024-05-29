@@ -1,6 +1,6 @@
 ---
 Title: '.pop()'
-Description: 'Removes a specified column from a DataFrame object, and returns the removed column.'
+Description: 'Removes a specified column from a DataFrame.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.pop()`** method removes a single specified column from a [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) object. The original `DataFrame` object is modifed, and the removed column is returned as a Pandas Series object.
+In Pandas, the **`.pop()`** method removes a single specified column from a [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) object. The original `DataFrame` object is modifed, and the removed column is returned as a Pandas Series object.
 
 ## Syntax
 
@@ -21,7 +21,8 @@ The **`.pop()`** method removes a single specified column from a [`DataFrame`](h
 DataFrame.pop(column_label)
 ```
 
-`DataFrame.pop()` takes a single parameter, the label of the column to be removed and returned.
+- `DataFrame`: The DataFrame object from which a column is removed.
+- `column_label`: The label of the column to remove. This should be a string representing the column name.
 
 ## Example
 
@@ -64,3 +65,4 @@ DataFrame after pop:
 2      3       Green      Bitter
 3      4       Pink       Salty
 ```
+The code above creates a pandas DataFrame from a dictionary, prints the DataFrame, uses the .pop() method to remove the column 'col 3' and return it as a Pandas Series object, and then prints the popped data and the modified DataFrame. 
