@@ -1,6 +1,6 @@
 ---
 Title: 'Variables'
-Description: Stores data that can be manipulated and referenced throughout the code.'
+Description: 'Stores data that can be manipulated and referenced throughout the code.'
 Subjects:
   - 'Computer Science'
   - 'Data Visualization'
@@ -8,7 +8,7 @@ Tags:
   - 'Programming'
   - 'Dynamic Programming'
 CatalogContent:
-  - paths/code-foundations'
+  - 'paths/code-foundations'
   - 'paths/computer-science'
 ---
 
@@ -37,7 +37,7 @@ println("String variable: ", string_variable)
 println("Boolean variable: ", boolean_variable)
 ```
 
-Output would be as following:
+The output for the above code is as follows:
 
 ```shell
 Integer variable: 10
@@ -46,15 +46,15 @@ String variable: Julia
 Boolean variable: true
 ```
 
-## Variable Nomenclature in Julia
+## Variable Nomenclature
 
-When declaring a variable in Julia, the variable name goes first, optionally followed by a type annotation, and then the value.
+When declaring a variable in Julia, the variable name goes first, optionally followed by a type annotation and then the value.
 
-If a variable does not need a value assigned immediately, it can be declared without a type, and a value can be assigned later.
+If a variable does not need a value to be assigned immediately, it can be declared without a type and a value can be assigned later:
 
-```julia
-name = value  # without type annotation
-name::Type = value  # with type annotation
+```pseudo
+name = value # Without type annotation
+name::Type = value # With type annotation
 ```
 
-> **Variables** in Julia are dynamic and can hold values of different types, but you can optionally declare the type for performance optimization and type-checking.
+> **Note:** Variables in Julia are dynamic and can hold values of different types, but you can optionally declare the type for performance optimization and type-checking.
