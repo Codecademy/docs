@@ -144,6 +144,7 @@ with interview_proposal('Mr. Smith', 'Software Developer', 'Monday the 10th of J
   for a wealth management software. ')
 ```
 
+##Output
 Here is the output:
 
 ```shell
