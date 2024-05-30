@@ -40,7 +40,7 @@ In the above query:
 Column-level collation, unlike database-level collation we mentioned earlier, allows you to define specific sorting and comparison rules for individual columns within a table. This provides more internal control over how text data is handled. 
 When you define a column-level collation, it actively overrides the database-level collation for that specific column. This allows you to tailor the sorting rules for each column based on its content and needs.  
 
-Say we create a table `novel` where the `name` column might contain product names with accented characters and we want these names to be sorted correctly, considering the accents. below is a query on how to define a column-level collation for this scenario:
+Say we create a table `novels` where the `name` column might contain product names with accented characters and we want these names to be sorted correctly, considering the accents. below is a query on how to define a column-level collation for this scenario:
 
 ``` sql
 CREATE TABLE novels (
@@ -98,10 +98,11 @@ From the above query:
 ## Collation options
 
 Collation options dictate the settings or attributes you can choose and apply at the different levels of collation mentioned above. These options define the rules for comparing and sorting strings. They act like a set of rules that determine the order of characters, considering factors like case sensitivity and accent.
+
 For example, if you have a database with different regional content, you might use different collation options for different columns or tables to ensure that text is sorted and compared correctly based on language-specific rules.
 
 Below is a table of commonly used options:
--
+
 | Option | Syntax | Description |
 | ---- | ---- | ---- |
 | Case sensitive | `_CS` | Uppercase and lowercase letters are treated differently. "Castle" would come before "castle" during sorting. |
