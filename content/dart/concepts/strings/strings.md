@@ -18,7 +18,8 @@ A **String** is a sequence of characters (such as letters, numbers, and symbols)
 
 ## Syntax
 
-Here is the syntax for single, double and triple quoted strings in dart:
+Here is the syntax for single, double, and triple quoted strings in Dart:
+
 ```psuedo
   String singleQuoteString = 'This is a Dart string with a single quote.';
   String doubleQuoteString = "This is a Dart string with double quotes."
@@ -47,13 +48,4 @@ The code gives the following output:
 
 ```shell
 Hello, my name is Alice and I am 30 years old.
-```
-
-It\'s important to escape single quotes in a string.
-
-```
-void main() {
-  String variable_name = 'It\'s important to escape single quotes in a string.';
-  print(variable_name);
-}
 ```
