@@ -21,15 +21,13 @@ the **`.style()`** method is used to set or get the inline style properties of s
 selection.style("property", "value");
 ```
 
-`.style()` funtion takes two arguements,
-
-- `property`: name of the property or style name.
-- `value`: value of property to set to it.
+- `property`: It is the name of the property or style name.
+- `value`: The value of property to set to it.
 
 ## Example
+
+In the given example above, the `color` property of `text` is set to `red`:
 
 ```js
 d3.select('text').style('color', 'red');
 ```
-
-In the given example above, the `color` property of `text` is set to `red`.
