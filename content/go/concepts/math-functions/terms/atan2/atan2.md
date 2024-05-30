@@ -24,7 +24,7 @@ result := math.Atan2(y,x)
 Notes on `Atan2()`:
 
 - The ratio of the two arguments `(y/x)` is used to calculate the value of the arctangent.
-- The `result` will be between between -π/2 to π/2 radians.
+- The `result` will be between -π/2 to π/2 radians.
 - The value returned will be of type `float64`.
 
 ### Special Cases
