@@ -1,6 +1,6 @@
 ---
-Title: '.Violin()'
-Description: 'Method of plotting numeric data.'
+Title: '.violin()'
+Description: 'Generates a chart to show the distribution of numerical values.'
 Subjects:
   - 'Data Visualization'
   - 'Computer Science'
@@ -8,7 +8,7 @@ Subjects:
 Tags:
   - 'Graphs'
   - 'Data'
-  - 'Display'
+  - 'Plotly'
   - 'Express'
 CatalogContent:
   - 'learn-python-3'
@@ -17,13 +17,13 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-The function **`.violin()`** generates a violin plot. Numeric data is plotted into a violin plot similar to a box plot however using kernel density estimation (KDE) to display its distribution, providing a more in-depth view of the dataset, including the density of the data at different values.
+The function **`.violin()`** generates a violin plot. Numeric data is plotted into a violin plot similar to a box plot however, it uses kernel density estimation (KDE) to display its distribution, providing a more in-depth view of the dataset, including the data density at different values.
 
 ## Syntax
 
 The syntax for creating a violin plot using Plotly Express is as follows:
 
-```py
+```pseudo
 import plotly.express as px
 
 px.violin(data, x, y, color, facet_row, facet_col, hover_name, hover_data, custom_data, animation_frame, animation_group, category_orders, labels, color_discrete_sequence, color_continuous_scale, range_color, range_x, range_y, title, template, width, height)
@@ -50,11 +50,11 @@ From this code a violin plot is created showing the distribution of the Value co
 
 ## Datasets
 
-To work from a specific set of data you can import a dataset for `px.violin()`. Various methods are utilized, depending on the format of the dataset. Here are a few examples:
+To work with a specific set of data you can import a dataset for `px.violin()`. Various methods are utilized, depending on the format of the dataset. Here are a few examples:
 
 How to import from a CSV file:
 
-```py
+```pseudo
 import pandas as pd
 
 df = pd.read_csv('your_data.csv')
@@ -62,15 +62,15 @@ df = pd.read_csv('your_data.csv')
 
 How to import from a JSON file:
 
-```py
+```pseudo
 import pandas as pd
 
 df = pd.read_json('your_data.json')
 ```
 
-How to import from a Excel file:
+How to import from an Excel file:
 
-```py
+```pseudo
 import pandas as pd
 
 df = pd.read_excel('your_data.xlsx')
@@ -78,7 +78,7 @@ df = pd.read_excel('your_data.xlsx')
 
 How to import an online dataset:
 
-```py
+```pseudo
 import pandas as pd
 
 url = 'URL' # Paste the url and path to the dataset
