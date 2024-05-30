@@ -14,75 +14,21 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **String** is a sequence of characters \(such as letters, numbers, and symbols) that is used to represent text. It is a data type designed specifically for handling textual data. Strings are enclosed in single \(') or double \(") quotes.
-
-Single-line strings are represented using single or double quotes.
-Triple quotes are used to represent multi-line strings.
+A **String** is a sequence of characters (such as letters, numbers, and symbols) that is used to represent text. It is a data type designed specifically for handling textual data. Strings are enclosed in single (') or double (") quotes. Single-line strings are represented using single or double quotes. Triple quotes are used to represent multi-line strings.
 
 ## Syntax
 
-```dart
-void main() {
-  String singleQuoteString = 'This is a Dart string with single quote.';
+Here is the syntax for single, double and triple quoted strings in dart:
+```psuedo
+  String singleQuoteString = 'This is a Dart string with a single quote.';
   String doubleQuoteString = "This is a Dart string with double quotes."
-  print(singleQuoteString);
-  print(doubleQuoteString);
-}
-```
-
-The output is:
-
-```shell
-This is a Dart string with single quote.
-This is a Dart string with double quotes.
-```
-
-```dart
-void main() {
   String multiLineString = '''
     This is a multi-line
-    string in Dart using single quote.
+    string in Dart using a single quote.
     It allows you to write
     text across multiple lines.
   ''';
-  print(multiLineString);
-}
 ```
-
-The output is:
-
-```shell
-This is a multi-line
-string in Dart using single quote.
-It allows you to write
-text across multiple lines.
-```
-
-```dart
-void main() {
-  String multiLineString = """
-    This is a multi-line
-    string in Dart using double quotes.
-    It allows you to write
-    text across multiple lines.
-  """;
-  print(multiLineString);
-}
-```
-
-The output is:
-
-```shell
-This is a multi-line
-string in Dart using double quotes.
-It allows you to write
-text across multiple lines.
-```
-
-- `void`: Indicates that the `main` function does not return any value. In Dart, a function's return type can be specified, and `void` means the function does not return anything.
-- `main()`: This is the name of the function. main is the standard name for the entry point in Dart programs.
-- `\`: Use to escape characters like quotes within a string.
-- `$`: Use to embed expressions within a string \(String interpolation).
 
 ## Example
 
@@ -97,7 +43,7 @@ void main() {
 }
 ```
 
-The output is:
+The code gives the following output:
 
 ```shell
 Hello, my name is Alice and I am 30 years old.
