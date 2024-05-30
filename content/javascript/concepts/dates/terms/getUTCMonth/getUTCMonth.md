@@ -1,6 +1,6 @@
 ---
 Title: '.getUTCMonth()'
-Description: 'This method returns the month of the specified date according to the UTC time zone (0 for January through 11 for December).'
+Description: 'This method returns the month of the specified date according to the UTC zone (0 for January through 11 for December).'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -21,11 +21,13 @@ const today = new Date();
 const month = today.getUTCMonth();
 ```
 
-Example above assigns the month portion of the current `Date` to the variable `month`.
+The example above assigns the month portion of the current `Date` to the variable `month`.
 
 ## Example
 
-```codebyte/js
+The following example demonstrates how time zones affect date calculations. It creates two Date objects with the same local time but different time zones. Using `getUTCMonth`, it logs the UTC month for each date:
+
+```js
 
 const date1 = new Date('December 31, 1975, 23:15:30 GMT+11:00');
 const date2 = new Date('December 31, 1975, 23:15:30 GMT-11:00');
@@ -43,10 +45,11 @@ This results in the following output:
 ```
 
 
-## Example with a specific date and formatting
-This function help you to get the month for the specific date provided.
+### Example with a specific date and formatting
 
-```codebyte/js
+This function helps you to get the month for the specific date provided:
+
+```js
 
 const specificDate = new Date('2023-06-15T18:45:00Z');
 const specificMonth = specificDate.getUTCMonth();
@@ -54,18 +57,19 @@ const specificMonth = specificDate.getUTCMonth();
 console.log(`Month for June 15, 2023: ${specificMonth}`); 
 
 ```
- Output:
+
+ The above code gives the following output:
  
 ```shell
 Month for June 15, 2023: 5
 ``` 
 
 
-## Example with an array of dates
-This example shows how to apply getUTCMonth() function inside loop.
-You can get months on iterating the array of date data.
+### Example with an array of dates
 
-```codebyte/js
+This example shows how to apply the `getUTCMonth()` function inside the loop:
+
+```js
 
 const datesArray = [
   new Date('2022-01-15T12:30:00Z'),
@@ -78,7 +82,7 @@ for (const date of datesArray) {
 }
 ```
 
-Output:
+The above code gives the following output:
 
 ```shell
 Month: 0
@@ -86,11 +90,11 @@ Month: 3
 Month: 7
 ```
 
-## Example using getUTCMonth() in a function
-This example helps to understand how to get month number and month name from a date provided.
-Try running the code and analyse the output.
+### Example using getUTCMonth() in a function
 
-```codebyte/js
+The following example helps to understand how to get the month number and month name from a date provided:
+
+```js
 
 function displayMonthInfo(date) {
   const month = date.getUTCMonth();
@@ -102,7 +106,8 @@ const sampleDate = new Date('2022-11-10T08:00:00Z');
 displayMonthInfo(sampleDate);
 
 ```
-Output:
+
+The above code gives the following output:
 
 ```shell
 Month: 10 (November)
