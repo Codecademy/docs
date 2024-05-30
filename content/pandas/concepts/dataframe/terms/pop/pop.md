@@ -8,10 +8,10 @@ Tags:
   - 'Data Structures'
   - 'Pandas'
 CatalogContent:
-- 'learn-python-3'
-- 'paths/computer-science'
-- 'paths/data-science'
-- 'paths/data-science-foundations'
+  - 'learn-python-3'
+  - 'paths/computer-science'
+  - 'paths/data-science'
+  - 'paths/data-science-foundations'
 ---
 
 In Pandas, the **`.pop()`** method removes a single specified column from a [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) object. In the process, the original `DataFrame` object gets modified and the removed column is returned as a Pandas Series object.
@@ -77,4 +77,4 @@ The code above creates a pandas `DataFrame` `df` from a [dictionary](https://www
 
 > **Note:** If the specified column label is not found in the `DataFrame`, a `KeyError` will be raised.
 
-To remove multiple [columns](https://www.codecademy.com/resources/docs/pandas/dataframe/columns at once, use the [`.drop()`](https://www.codecademy.com/resources/docs/pandas/dataframe/drop) method.
+To remove multiple [columns](https://www.codecademy.com/resources/docs/pandas/dataframe/columns) at once, use the [`.drop()`](https://www.codecademy.com/resources/docs/pandas/dataframe/drop) method.
