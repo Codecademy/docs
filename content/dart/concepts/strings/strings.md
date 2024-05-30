@@ -1,6 +1,6 @@
 ---
 Title: 'Strings'
-Description: 'A "String" is the text enclosed in quotes, such as "Hello, Dart". It represents words or sentences and is used for handling and manipulating text in coding.'
+Description: 'A string represents words or sentences and is used for handling and manipulating text in coding.'
 Subjects: 
   - 'Developer Tools'
   - 'Code Foundations'
