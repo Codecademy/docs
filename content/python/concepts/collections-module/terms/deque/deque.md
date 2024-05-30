@@ -27,7 +27,7 @@ my_deque = deque(iterable, maxlen)
 
 ## Example
 
-**Instantiate using a string object, and print the `deque`.**
+Instantiate using a string object, and print the `deque`:
 
 ```python
 fruit = 'apple'
@@ -41,7 +41,7 @@ The above code will give the following output:
 deque(['a', 'p', 'p', 'l', 'e'])
 ```
 
-**Instantiate using a string, and print the `deque`.**
+Instantiate using a string, and print the `deque`:
 
 ```python
 fruit_slices = deque('mango')
@@ -54,7 +54,7 @@ The above code will give the following output:
 deque(['m', 'a', 'n', 'g', 'o'])
 ```
 
-**Instantiate using a list, and print the `deque`.**
+Instantiate using a list, and print the `deque`:
 
 ```python
 cart = ['wood', 'metal', 'plastic']
@@ -68,7 +68,7 @@ The above code will give the following output:
 deque(['wood', 'metal', 'plastic'])
 ```
 
-**Instantiate using a list and a maximum length, and print the `deque` and its `maxlen` value.**
+Instantiate using a list and a maximum length, and print the `deque` and its `maxlen` value:
 
 ```python
 friends = ['Dave', 'Mary', 'Luis', 'Zachary']
