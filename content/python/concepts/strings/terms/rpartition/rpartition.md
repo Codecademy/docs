@@ -44,7 +44,7 @@ This results in the following output:
 
 ## Example 2
 
-When specified `seperator` is not found, `.rpartition()` returns tuple containing: (1) an empty string, (2) an empty string, and (3) the given string.
+When specified `separator` is not found, `.rpartition()` returns tuple containing: (1) an empty string, (2) an empty string, and (3) the given string.
 
 ```py
 text = "example"
