@@ -33,7 +33,7 @@ import random
 print(random.randint(0, 50))
 ```
 
-## Codebtye Example
+## Codebyte Example
 
 The `.randint()` method can also be applied to negative `int` values, as shown in the example below:
 
