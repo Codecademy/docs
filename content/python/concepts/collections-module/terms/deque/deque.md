@@ -35,7 +35,7 @@ fruit_slices = deque(fruit)
 print(fruit_slices)
 ```
 
-Output:
+The above code will give the following output:
 
 ```
 deque(['a', 'p', 'p', 'l', 'e'])
@@ -48,7 +48,7 @@ fruit_slices = deque('mango')
 print(fruit_slices)
 ```
 
-Output:
+The above code will give the following output:
 
 ```
 deque(['m', 'a', 'n', 'g', 'o'])
@@ -62,7 +62,7 @@ cart_deque = deque(cart)
 print(cart_deque)
 ```
 
-Output:
+The above code will give the following output:
 
 ```
 deque(['wood', 'metal', 'plastic'])
@@ -76,19 +76,20 @@ car_five_seater = deque(friends, 5)
 print(car_five_seater)
 ```
 
-Output:
+The above code will give the following output:
 
 ```
 deque(['Dave', 'Mary', 'Luis', 'Zachary'], maxlen=5)
 ```
 
-**Codebyte Example**
+## Codebyte
 
-```codebyte/python
+The following snippet demonstrates using the `deque` from the `collections module` where it converts a list of tools into a deque, which is a double-ended queue allowing fast appends and pops from both ends:
+
+```codebyte/py
 from collections import deque
 # Example deque() method
 tools = ['screwdriver', 'wrench', 'pliers']
 toolbox = deque(tools)
 print(toolbox)
 ```
-
