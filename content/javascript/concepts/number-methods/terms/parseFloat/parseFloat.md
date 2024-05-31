@@ -23,7 +23,7 @@ parseFloat(value);
 
 - `value`: Refers to the input string that the function converts into a floating-point number.
 
-## Examples
+## Example
 
 Converting a value to a floating point number:
 
