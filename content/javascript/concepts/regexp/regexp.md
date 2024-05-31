@@ -230,7 +230,7 @@ Quantifiers specify the number of characters or expressions to match.
 | <code>x{<i>n</i>,}</code>         | Matches the preceding item `x` <code><i>n</i></code> or more times, where <code><i>n</i></code> is a positive integer.                                                                                                                                |
 | <code>x{<i>n</i>,<i>m</i>}</code> | Matches the preceding item `x` at least <code><i>n</i></code> times and at most <code><i>m</i></code> times where <code><i>n</i></code> and <code><i>m</i></code> are positive integers and <code><i>n</i></code> is less than <code><i>m</i></code>. |
 
-By default, these quatifiers are greedy, matching as much of the string as possible. By following the quantifer with `?` (`x*?`) the match will stop at its first occurrence.
+By default, these quantifiers are greedy, matching as much of the string as possible. By following the quantifier with `?` (`x*?`) the match will stop at its first occurrence.
 
 #### Examples
 

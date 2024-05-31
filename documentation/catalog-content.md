@@ -51,6 +51,13 @@ Feel free to add suggestions for new slugs to the lists as part of your PR! Be s
 - 'paths/fundamentals-of-cybersecurity'
 ```
 
+### Dart
+
+```
+- 'learn-dart'
+- 'paths/computer-science'
+```
+
 ### Emojicode
 
 ```
@@ -163,6 +170,24 @@ Feel free to add suggestions for new slugs to the lists as part of your PR! Be s
 ```
 
 ### Python:Pandas
+
+```
+- 'learn-python-3'
+- 'paths/computer-science'
+- 'paths/data-science'
+- 'paths/data-science-foundations'
+```
+
+### Python:Pillow
+
+```
+- 'learn-python-3'
+- 'paths/computer-science'
+- 'paths/data-science'
+- 'paths/data-science-foundations'
+```
+
+### Python:Plotly
 
 ```
 - 'learn-python-3'

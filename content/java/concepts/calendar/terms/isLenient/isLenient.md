@@ -33,7 +33,7 @@ public class CalendarIsLenientExample {
     // Creating a calendar object
     Calendar cal = Calendar.getInstance();
 
-    // Displaying the calenda
+    // Displaying the calendar
     System.out.println("Current Calendar: " + cal.getTime());
 
     // Checking the leniency

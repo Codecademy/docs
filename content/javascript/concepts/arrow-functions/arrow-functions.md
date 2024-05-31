@@ -37,7 +37,7 @@ Arrow functions with a single expression have no curly brackets (`{ }`) and can 
 
 ## Limitations
 
-Arrow functions functions are limited and can't be used in all situations:
+Arrow functions are limited and can't be used in all situations:
 
 - They do not have their own bindings to [`this`](https://www.codecademy.com/resources/docs/javascript/this) or `super`, and should not be used as [methods](https://www.codecademy.com/resources/docs/javascript/methods).
 - They cannot be used as [constructors](https://www.codecademy.com/resources/docs/javascript/constructors).
