@@ -1,5 +1,5 @@
 ---
-Title: 'parseInt()'
+Title: '.parseInt()'
 Description: 'Converts a string into an integer.'
 Subjects:
   - 'Web Development'
@@ -12,12 +12,12 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-In JavaScript, the **`parseInt()`** function converts a string into an integer. This function parses a string argument and returns an integer of the specified radix (the base in mathematical numeral systems).
+In JavaScript, the **`.parseInt()`** function converts a string into an integer. This function parses a string argument and returns an integer of the specified radix (the base in mathematical numeral systems).
 
 ## Syntax
 
 ```pseudo code
-parseInt(string, radix);
+Number.parseInt(string, radix);
 ```
 
 - `string` (required): The string to be parsed. The leading whitespace in the string is ignored.
@@ -28,25 +28,25 @@ parseInt(string, radix);
 The following examples demonstrate some of the use cases of the `parseInt()` function:
 
 ```js
-const x = parseInt('100');
+const x = Number.parseInt('100');
 console.log(x);
 
 // converting binary to decimal
-const y = parseInt('101', 2);
+const y = Number.parseInt('101', 2);
 console.log(y);
 
 //converting hexadecimal to decimal
-const z = parseInt('7F', 16);
+const z = Number.parseInt('7F', 16);
 console.log(z);
 
 // unintended uses of parseInt() function:
 
 // radix must be between 2 and 36 inclusive
-const invalidRadix = parseInt('123', 1);
+const invalidRadix = Number.parseInt('123', 1);
 console.log(invalidRadix);
 
 // first character of string must be a numeric digit
-const firstChar = parseInt('*123');
+const firstChar = Number.parseInt('*123');
 console.log(firstChar);
 ```
 
@@ -66,17 +66,17 @@ NaN
 
 ```codebyte/js
 // convert the string into an integer
-console.log(parseInt('10'));
+console.log(Number.parseInt('10'));
 
 // parses '101' as a binary number since the radix is specified as 2
-console.log(parseInt('101', 2));
+console.log(Number.parseInt('101', 2));
 
 // parses 'B' as a hexadecimal number since the radix is specified as 16
-console.log(parseInt('B', 16));
+console.log(Number.parseInt('B', 16));
 
 // only parses the valid integer portion
-console.log(parseInt('123abc'));
+console.log(Number.parseInt('123abc'));
 
 // If the first character can't be converted to a number, it returns NaN.
-console.log(parseInt('abc123'));
+console.log(Number.parseInt('abc123'));
 ```
