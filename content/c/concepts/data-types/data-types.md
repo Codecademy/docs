@@ -79,7 +79,7 @@ int hundreds2 = 12000; // This is correct
 
 ### Float and Double
 
-Floating-point values are non-whole numbers that contain decimal places. They can have up to 6 decimal digits of precision and can be expressd in scientific notation.
+Floating-point values are non-whole numbers that contain decimal places. They can have up to 6 decimal digits of precision and can be expressed in scientific notation.
 
 > **Note:** Scientific notation is a form of expressing numbers that are too large or too small to be conveniently written in decimal form (e.g., `6.022E23`).
 

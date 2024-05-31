@@ -108,7 +108,7 @@ Component updated. Count is now 2.
 
 Prior to React 16, there were no features that handled errors being thrown during the component tree's "rendering" phase. When this occurred, the following would happen:
 
-- The entire app would crash and all components would ummount.
+- The entire app would crash and all components would unmount.
 - A trace report of the error would replace the UI.
 
 This prompted the creation of the following lifecycle methods for handling errors in React class components:
