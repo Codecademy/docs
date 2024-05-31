@@ -101,8 +101,8 @@ This basic XOR operation example illustrates a bit level comparison of two integ
 -> 5;
 ```
 Comparison of each bit position:
- If he bits are different, the resulting bit is 1
- If the bits are the same, the resulting bit is 0
+If he bits are different, the resulting bit is 1
+If the bits are the same, the resulting bit is 0
 
  5 in binary is represented as 101 and 0 in binary is represented as 000:
 ------------- ---------
