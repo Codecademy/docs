@@ -22,7 +22,7 @@ The `Random` class can be accessed by importing it as follows:
 import java.util.Random;
 ```
 
-When an instance of the `Random` class is created, either a `seed` value is passed to the constructor or no values are passed at all.
+When an instance of the `Random` class is created, either a `seed` value is passed to the constructor or no values are passed at all. 
 
 The `seed` is a value that gets manipulated (using a linear congruential formula) to produce a stream of pseudorandom values. The `Random` class uses a 48-bit `seed`.
 
