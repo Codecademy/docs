@@ -1,12 +1,13 @@
 ---
-Title: '.parseFloat()'
-Description: 'Parses a string argument and returns a floating point number.'
+Title: 'parseFloat()'
+Description: 'Converts a string to a floating-point number.'
 Subjects:
-  - 'Web Development'
   - 'Computer Science'
+  - 'Web Development'
 Tags:
-  - 'Numbers'
   - 'Methods'
+  - 'Numbers'
+  - 'Strings'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
