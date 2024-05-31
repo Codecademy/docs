@@ -17,7 +17,7 @@ The **`parseFloat()`** method in JavaScript parses a given string and returns th
 
 ## Syntax
 
-```js
+```pseudo
 Number.parseFloat(value);
 ```
 
