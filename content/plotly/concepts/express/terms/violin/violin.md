@@ -1,15 +1,15 @@
 ---
 Title: '.violin()'
-Description: 'Generates a chart to show the distribution of numerical values.'
+Description: 'Generates a violin plot that displays the distribution of numeric data across different categories.'
 Subjects:
-  - 'Data Visualization'
   - 'Computer Science'
   - 'Data Science'
+  - 'Data Visualization'
 Tags:
-  - 'Graphs'
   - 'Data'
-  - 'Plotly'
   - 'Express'
+  - 'Graphs'
+  - 'Plotly'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
@@ -17,19 +17,26 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-The function **`.violin()`** generates a violin plot. Numeric data is plotted into a violin plot similar to a box plot however, it uses kernel density estimation (KDE) to display its distribution, providing a more in-depth view of the dataset, including the data density at different values.
+In Plotly, the **`.violin()`** method generates a violin plot. This plot uses kernel density estimation (KDE) to display the distribution of numeric data, providing a detailed view of data density across different values.
 
 ## Syntax
 
-The syntax for creating a violin plot using Plotly Express is as follows:
-
 ```pseudo
-import plotly.express as px
-
-px.violin(data, x, y, color, facet_row, facet_col, hover_name, hover_data, custom_data, animation_frame, animation_group, category_orders, labels, color_discrete_sequence, color_continuous_scale, range_color, range_x, range_y, title, template, width, height)
+plotly.express.violin(data_frame=None, x=None, y=None, color=None, facet_row=None, facet_col=None, ...)
 ```
 
-Here is an example of creating a violin plot using Plotly Express:
+- `data_frame`: It is the input data as a Pandas DataFrame.
+- `x`: It specifies the column name for the x-axis categories.
+- `y`: It specifies the column name for the y-axis numeric data.
+- `color`: It specifies the column name for color-coding categories.
+- `facet_row`: It specifies the column name to create row-wise subplots.
+- `facet_col`: It specifies the column name to create column-wise subplots.
+
+> **Note:** The ellipsis (...) indicates that there can be additional optional parameters beyond those listed here.
+
+## Example
+
+Here is an example of creating a violin plot using the `.violin()` method of Plotly Express:
 
 ```py
 # Import necessary libraries
@@ -46,41 +53,4 @@ fig = px.violin(df, x="Category", y="Value")  # Use Plotly Express to create a v
 fig.show()  # Display the plot
 ```
 
-From this code a violin plot is created showing the distribution of the Value column for each category in the Category column.
-
-## Datasets
-
-To work with a specific set of data you can import a dataset for `px.violin()`. Various methods are utilized, depending on the format of the dataset. Here are a few examples:
-
-How to import from a CSV file:
-
-```pseudo
-import pandas as pd
-
-df = pd.read_csv('your_data.csv')
-```
-
-How to import from a JSON file:
-
-```pseudo
-import pandas as pd
-
-df = pd.read_json('your_data.json')
-```
-
-How to import from an Excel file:
-
-```pseudo
-import pandas as pd
-
-df = pd.read_excel('your_data.xlsx')
-```
-
-How to import an online dataset:
-
-```pseudo
-import pandas as pd
-
-url = 'URL' # Paste the url and path to the dataset
-df = pd.read_csv(url)
-```
+The above code imports necessary libraries, creates a sample dataset, and generates a violin plot using the `.violin()` method to show the distribution of 'Value' across 'Category' levels, then displays the plot.
