@@ -12,12 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `parseInt()` method parses a string variable and returns an integer according to the specified radix (base).
-
-It accepts up to two arguments: the string to be parsed, `string`, and the radix. The radix is optional, and if unprovided, Javascript will adhere to the following:
-
-- If `string` starts with `0x` or `0X`, the radix will be default to 16, and the remaining part of the string will be interpreted as a hexadecimal number.
-- The radix will default to 10 (decimal) for any other input string.
+In JavaScript, the **`parseInt()`** function converts a string into an integer. This function parses a string argument and returns an integer of the specified radix (the base in mathematical numeral systems).
 
 ## Syntax
 
@@ -25,12 +20,12 @@ It accepts up to two arguments: the string to be parsed, `string`, and the radix
 parseInt(string, radix);
 ```
 
-- `string` (required): The string to be parsed. Leading whitespace in the string is ignored.
-- `radix` (optional): An integer between 2 and 36 that represents the base of the numeral system to be used. If not provided, the `radix` defaults to 10, except when the string starts with `0x` or `0X` (indicating a hexadecimal number).
+- `string` (required): The string to be parsed. The leading whitespace in the string is ignored.
+- `radix` (optional): It accepts an integer between 2 and 36 that represents the base of the numeral system. If not provided, the `radix` defaults to 10, except when the string starts with `0x` or `0X` (indicating a hexadecimal number).
 
 ## Examples
 
-The following examples demonstrate some of the use cases of the `parseInt()` function.
+The following examples demonstrate some of the use cases of the `parseInt()` function:
 
 ```js
 const x = parseInt('100');
@@ -82,6 +77,6 @@ console.log(parseInt('B', 16));
 // only parses the valid integer portion
 console.log(parseInt('123abc'));
 
-// string does not start with a numeric value
+// If the first character can't be converted to a number, it returns NaN.
 console.log(parseInt('abc123'));
 ```
