@@ -13,11 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.parseFloat()`** method is a part of the `Number` class in JavaScript.
-
-It accepts a single argument, `value` and returns a [number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) or [NaN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN) when the first non-whitespace character cannot be converted to a number.
-
-Note: JavaScript does not have the distinction of "floating point numbers" and "integers" on the language level.
+The **`parseFloat()`** method in JavaScript parses a given string and returns the first floating-point number found in the string, stopping at the first character that is not part of a valid number. It returns `NaN` when the input string cannot be converted to a valid floating-point number format, and it is a method of the `Number` class in JavaScript.
 
 ## Syntax
 
