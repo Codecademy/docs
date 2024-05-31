@@ -22,8 +22,8 @@ The **`.toStringAsExponential()`** method is a Dart type conversion method that 
 number.toStringAsExponential([int fractionDigits])
 ```
 
-- `number`: an integer or double
-- `fractionDigits`: The number of digits to appear after the decimal point. If not specified, the default is as many digits as necessary.
+- `number`: An integer or double
+- `fractionDigits`: An integer ranging from 0 to 20 that appears after the decimal point. If not specified, the default is as many digits as necessary.
 
 ## Example
 
