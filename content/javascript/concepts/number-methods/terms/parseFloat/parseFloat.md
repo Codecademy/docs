@@ -21,7 +21,7 @@ The **`parseFloat()`** method in JavaScript parses a given string and returns th
 parseFloat(value);
 ```
 
-- `value` (required): The value to parse, which is [coerced to a string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#string_coercion). Leading whitespaces in this value are ignored.
+- `value`: Refers to the input string that the function converts into a floating-point number.
 
 ## Examples
 
