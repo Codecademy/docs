@@ -29,19 +29,19 @@ The example below denotes the use of the `parseFloat` method to convert a value 
 
 ```js
 // Parses the number 3.14 as a floating-point number.
-console.log(Number.parseFloat(3.14)); 
+console.log(parseFloat(3.14)); 
 
 // Parses the string '6.271' as a floating-point number.
-console.log(Number.parseFloat('6.271'));
+console.log(parseFloat('6.271'));
 
 // Parses the string '  2.59  ' as a floating-point number after trimming leading and trailing whitespace.
-console.log(Number.parseFloat('  2.59  ')); 
+console.log(parseFloat('  2.59  ')); 
 
 // Attempts to parse the string '1.49some non-digit characters' as a floating-point number until it encounters non-numeric characters.
-console.log(Number.parseFloat('1.49some non-digit characters'));
+console.log(parseFloat('1.49some non-digit characters'));
 
 // Attempts to parse the string 'ABC32' as a floating-point number, but since it contains non-numeric characters, it returns NaN (Not a Number).
-console.log(Number.parseFloat('ABC32')); 
+console.log(parseFloat('ABC32')); 
 ```
 
 The above code produces the following output in the console:
