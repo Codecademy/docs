@@ -47,7 +47,6 @@ console.log(Number.parseFloat('ABC32'));
 ## Codebyte Example
 
 ```codebyte/js
-# Before executing the code, what do you believe the result will be?
 
 const value = "  5.42c4ke3";
 
