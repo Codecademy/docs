@@ -29,19 +29,24 @@ The example below denotes the use of the `parseFloat` method to convert a value 
 
 ```js
 console.log(Number.parseFloat(3.14));
-// Output: 3.14
 
 console.log(Number.parseFloat('6.271'));
-// Output: 6.271
 
 console.log(Number.parseFloat('  2.59  '));
-// Output: 2.59
 
 console.log(Number.parseFloat('1.49some non-digit characters'));
-// Output: 1.49
 
 console.log(Number.parseFloat('ABC32'));
-// Output: NaN
+```
+
+The expected output to the console is shown below:
+
+```shell
+3.14
+6.271
+2.59
+1.49
+NaN
 ```
 
 ## Codebyte Example
