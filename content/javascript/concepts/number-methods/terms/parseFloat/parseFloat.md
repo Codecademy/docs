@@ -25,7 +25,7 @@ parseFloat(value);
 
 ## Example
 
-Converting a value to a floating point number:
+The example below denotes the use of the `parseFloat` method to convert a value to a floating point number:
 
 ```js
 console.log(Number.parseFloat(3.14));
