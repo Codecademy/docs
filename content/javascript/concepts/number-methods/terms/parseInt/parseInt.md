@@ -2,11 +2,12 @@
 Title: '.parseInt()'
 Description: 'Converts a string into an integer.'
 Subjects:
-  - 'Web Development'
   - 'Computer Science'
+  - 'Web Development'
 Tags:
   - 'Numbers'
   - 'Methods'
+  - 'Strings'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
@@ -20,14 +21,16 @@ In JavaScript, the **`.parseInt()`** function converts a string into an integer.
 Number.parseInt(string, radix);
 ```
 
-- `string` (required): The string to be parsed. The leading whitespace in the string is ignored.
-- `radix` (optional): It accepts an integer between 2 and 36 that represents the base of the numeral system. If not provided, the `radix` defaults to 10, except when the string starts with `0x` or `0X` (indicating a hexadecimal number).
+- `Number`: The JavaScript built-in object that serves as a namespace for numerical-related functions and constants.
+- `string`: The string to be parsed. The leading whitespace in the string is ignored.
+- `radix`: An optional parameter that specifies the base of the numeral system to be used for parsing. It is an integer between 2 and 36. If not provided, the `radix` defaults to 10, except when the string starts with `0x` or `0X`, which indicates a hexadecimal number.
 
-## Examples
+## Example
 
-The following examples demonstrate some of the use cases of the `parseInt()` function:
+The following example demonstrates some of the use cases of the `.parseInt()` function:
 
 ```js
+// converting string to decimal
 const x = Number.parseInt('100');
 console.log(x);
 
@@ -50,7 +53,7 @@ const firstChar = Number.parseInt('*123');
 console.log(firstChar);
 ```
 
-The above examples will give the following output:
+The above code will give the following output:
 
 ```shell
 100
@@ -60,23 +63,18 @@ NaN
 NaN
 ```
 
-> **Note:** The above examples do not cover all possible situations or options. They are just a few examples that help illustrate the concept.
+> **Note:** The above example does not cover all possible situations or options. They are just a few examples that help illustrate the concept.
 
 ## Codebyte Example
 
 ```codebyte/js
-// convert the string into an integer
 console.log(Number.parseInt('10'));
 
-// parses '101' as a binary number since the radix is specified as 2
 console.log(Number.parseInt('101', 2));
 
-// parses 'B' as a hexadecimal number since the radix is specified as 16
 console.log(Number.parseInt('B', 16));
 
-// only parses the valid integer portion
 console.log(Number.parseInt('123abc'));
 
-// If the first character can't be converted to a number, it returns NaN.
 console.log(Number.parseInt('abc123'));
 ```
