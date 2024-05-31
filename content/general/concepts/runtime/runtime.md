@@ -1,6 +1,6 @@
 ---
 Title: 'Runtime'
-Description: 'Runtime is the period of time during which a program is running.'
+Description: 'Runtime is the period when a program runs.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
@@ -13,8 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Runtime** is the period during which a program is running, executing the specific instructions that make up the software.
-It begins when the program is started or launched and ends when it completes its execution or is terminated.
+**Runtime** is the period during which a program runs, executing the specific instructions that make up the software. It begins when the program is started or launched and ends when it completes its execution or is terminated.
 
 Runtime errors are common types of errors in software development. A runtime error is any error a program has while it is running.
 
