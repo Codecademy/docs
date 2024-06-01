@@ -1,20 +1,19 @@
 ---
 Title: 'Strings'
-Description: 'A string represents words or sentences and is used for handling and manipulating text in coding.'
-Subjects: 
-  - 'Developer Tools'
+Description: 'Represents words or sentences and is used for handling and manipulating text.'
+Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
   - 'Methods'
   - 'Functions'
   - 'Strings'
-CatalogContent: 
+CatalogContent:
   - 'learn-dart'
   - 'paths/computer-science'
 ---
 
-A **String** is a sequence of characters (such as letters, numbers, and symbols) that is used to represent text. It is a data type designed specifically for handling textual data. Strings are enclosed in single (') or double (") quotes. Single-line strings are represented using single or double quotes. Triple quotes are used to represent multi-line strings.
+A **`String`** is a sequence of characters (such as letters, numbers, and symbols) that is used to represent text. It is a [data type](https://www.codecademy.com/resources/docs/dart/data-types) designed specifically for handling and manipulating textual data. Single-line strings are enclosed in single (') or double (") quotes, whereas triple quotes (''') are used to represent multi-line strings.
 
 ## Syntax
 
@@ -22,18 +21,18 @@ Here is the syntax for single, double, and triple quoted strings in Dart:
 
 ```psuedo
   String singleQuoteString = 'This is a Dart string with a single quote.';
-  String doubleQuoteString = "This is a Dart string with double quotes."
+  String doubleQuoteString = "This is a Dart string with double quotes.";
   String multiLineString = '''
     This is a multi-line
     string in Dart using a single quote.
-    It allows you to write
+    It allows to write
     text across multiple lines.
   ''';
 ```
 
 ## Example
 
-In the following example, the `string` statement is used to determine and print a message based on the value of the `String` variable `name` and `int` variable `age`:
+The following example determines and prints a message based on the value of the `String` variable `name` and the `int` variable `age`:
 
 ```dart
 void main() {
@@ -44,7 +43,7 @@ void main() {
 }
 ```
 
-The code gives the following output:
+The above code gives the following output:
 
 ```shell
 Hello, my name is Alice and I am 30 years old.
