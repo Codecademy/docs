@@ -1,5 +1,5 @@
 ---
-Title: 'MySQL bit-functions'
+Title: 'Bit Functions'
 Description: 'Commonly used MySql bit-functions'
 Subjects:
   - 'Data Science'
