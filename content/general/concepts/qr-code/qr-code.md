@@ -36,6 +36,6 @@ One of the most common uses for QR codes is an URL for a web page. Instead of re
 
 QR codes are also used as entry passes. When purchasing a movie ticket online, the user will be sent a QR code. The user retrieves the QR code on a mobile device, and at the movie theater, the user has the QR code scanned and is admitted.
 
-But QR codes can also be used to point a user to a malicious web site, just like a phishing email. One should be careful about scanning and clicking on a QR code. A QR code passed out at a conference, enabling the attendees to log into the local Wi-Fi is going to be safe to scan and click. On the other hand, a QR code on a flyer stuck to a lamppost might be suspect. Just like emails, use good judgment before scanning and clicking.
+But QR codes can also be used to point a user to a malicious web site, just like a phishing email. One should be careful about scanning and clicking on a QR code. A QR code passed out at a conference, enabling the attendees to log into the local Wi-Fi is going to be safe to scan and click. On the other hand, a QR code on a flyer stuck to a lamppost might be suspect. Just like emails, use good judgement before scanning and clicking.
 
 QR codes are easy to create and use. They make it easy for users to use their mobile devices without the need to type in data. QR codes are used by the QR code’s creator, allowing the creator to track how the QR code is used.
