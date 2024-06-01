@@ -14,7 +14,7 @@ CatalogContent:
 
 In Git, the **`revert`** command is used to create a new commit that will undo any changes made in a previous commit. This can be considered as the safe undo command because it keeps previous history. The command is best used when working with others and there's a need to preserve the commit history.
 
-> **Note:** This command can be mistaken for the [`reset`](https://www.codecademy.com/resources/docs/git/reset) command, which is a more dangerous undo command because it alters existing hitory.
+> **Note:** This command can be mistaken for the [`reset`](https://www.codecademy.com/resources/docs/git/reset) command, which is a more dangerous undo command because it alters existing history.
 
 ## Syntax
 
