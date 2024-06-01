@@ -15,6 +15,7 @@ CatalogContent:
 MySQL bit-functions are used to perform operations on binary data at the bit level. These functions are used for tasks that require binary data organization or manipulation based on bitwise logic.
 
 ## Syntax
+
 These are some commonly used bit-functions in MySQL:
 
 `Bitwise AND &()` takes two integer operands and compares them bit by bit. The result is 1 if the bits of both operands are 1, otherwise the result is 0.
@@ -57,12 +58,6 @@ In this basic example mySQL performs the bitwise AND operation on the two litera
 The bitwise AND operation between 45 and 25 is in binary 001001. 
 001001 in decimal is represented as 9.
 
-  101101 (45)
-& 011001 (25)
-  -------
-  001001 (result)
-
-
 In this example the function XOR is used to compare and manipulate the label values within a database.
 The query uses this function to select rows based on the results of the operation.
 
@@ -74,11 +69,13 @@ WHERE (labels ^ 3) > 5;
 
 From this table bellow, a query takes rows from the name where the XOR compraison of the labels column value with 3 results in a value greater than 5.
 
-id | name  | labels 
----|-------|-------
- 1 | post1 | 5     
- 2 | post2 | 3     
- 3 | post3 | 12    
+id|name  |labels
+--|------|-----
+1  post1  5
+--|------|-----
+2  post2  3
+--|------|-----
+3  post3  12
 
 Performed XOR operations are explained bellow.
 
@@ -104,16 +101,17 @@ This basic XOR operation example illustrates a bit level comparison of two integ
 > SELECT 5 ^ 0;
 -> 5;
 ```
+
 Comparison of each bit position:
 If he bits are different, the resulting bit is 1
 If the bits are the same, the resulting bit is 0
 
 5 in binary is represented as 101 and 0 in binary is represented as 000:
-------------- -------
-Bit Position | 2 1 0 
-5 (decimal)  | 1 0 1
-0 (decimal)  | 0 0 0
-------------- -------
-XOR Result     1 0 1
+------------|------
+Bit Position 2 1 0
+5 (decimal)  1 0 1
+0 (decimal)  0 0 0
+------------|------
+  XOR Result 1 0 1
 
 When comparing these two integer literals, the result is 5.
