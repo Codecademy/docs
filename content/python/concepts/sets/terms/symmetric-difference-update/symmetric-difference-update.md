@@ -1,6 +1,6 @@
 ---
 Title: '.symmetric_difference_update()'
-Description: 'updates the original set by removing items that are present in both sets, and inserting the other items'
+Description: 'Updates the original set by removing items that are present in both sets and adding items unique to each set.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
@@ -9,44 +9,42 @@ Tags:
   - 'Functions'
   - 'Methods'
   - 'Sets'
-Catalog:
+CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-Content:
 ---
 
-The __`.symmetric_difference_update()`__ method updates the original set by removing items that are present in both sets, and inserting the other items.
+In Python, the **`.symmetric_difference_update()`** method updates the original set by removing items that are present in both sets and adding unique to each set.
 
 
 ## Syntax
 
-The following syntaxes can be used:
+The syntax for using this method is:
 
 ```pseudo
-set.symettrc_difference_update(set1)
+set1.symettrc_difference_update(set2)
 
 ```
 
-- `set`: Refers to the original set.
-- `set1`: The set to check for matches in.
-
-
 ## Shorter Sytax
 
-Optional shorter syntax :
+Or in a more compact form :
 
 ```pseudo 
-set ^= set1
+set1 ^= set2
+
+- `set1`: Refers to the original set.
+- `set2`: The set to check for matches in.
 
 ``` 
 ## Example
 
-The following example removes items that are both present in `store1` and `store2` and adds unique items from `store2` to `store1` set:
+The following example removes items that are present in both `store1` and `store2` and adds unique items from `store2` to `store1` set:
 
 ```py
 store1 = {'apple', 'mango', 'lichi', 'orange', 'banana'}
 store2 = {'strawberry', 'banana', 'pear', 'raspberry'}
-store1 ^= store2
+store1.symmetric_difference_update(store2)
 print(store1)
 ```
 
@@ -56,13 +54,14 @@ This would result in modified `store1` set:
 {'apple', 'mango', 'lichi', 'orange', 'strawberry', 'pear', 'raspberry'}
 ```
 
-## Codebyte Example
+> **Note:** A set in Python is unordered. This means that the order of items can change in the above output.
 
+## Codebyte Example
 
 ```codebyte/python
 sweet_drawer_1 = set(['lollipops', 'cheescake', 'gummy bears', 'chocolate', 'lemon bars'])
 sweet_drawer_2 = set(['waffles', 'brownie', 'gummy bears', 'jelly beans', 'chocolate'])
 
-sweet_drawer_1.symmetric_difference_update(sweet_drawer_2)
+sweet_drawer_1 ^= sweet_drawer_2
 print(sweet_drawer_1)
 ```
