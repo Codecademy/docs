@@ -25,7 +25,7 @@ date.setMonth(monthValue, dateValue);
 
 If either `monthValue` or `dateValue` is outside the expected range, the other date information in the `Date` object is updated to account for the underflow or overflow. For example, when given 14 as the parameter for a `monthValue`, the year is incremented by 1, and the month is set to 2 (March).
 
-If no value is provided for the `dateValue` parameter, the date value will not change unless there is an overflow. For example, calling `.setMonth(1)` to set the month to Feruary on a Date object that was `1/31/2023` will result in overflow, and the date will be set to `3/3/2023`. This is because February only has 28 days.
+If no value is provided for the `dateValue` parameter, the date value will not change unless there is an overflow. For example, calling `.setMonth(1)` to set the month to February on a Date object that was `1/31/2023` will result in overflow, and the date will be set to `3/3/2023`. This is because February only has 28 days.
 
 The return value of `.setMonth()` is the new timestamp given after changing the `Date` object in place. If a given parameter is `NaN`, `undefined`, or otherwise invalid, the date object will return `NaN` (if printed, it will display `Invalid Date`).
 
