@@ -30,12 +30,6 @@ Stochastic Gradient Descent optimizes an objective function in the presence of r
 ### Stochastic Gradient Descent with Momentum (SGD with Momentum):
 Stochastic Gradient Descent with Momentum (SGD with Momentum) is an enhancement of stochastic gradient descent that includes a momentum term to accelerate convergence and improve optimization. SGD with Momentum incorporates gradients from previous updates to help navigate the optimization landscape more effectively. The algorithm calculates an exponentially weighted average of the gradients (moving average) and uses this average to update the network parameters. This approach helps to dampen oscillations and can lead to faster convergence, especially in the presence of noisy gradients.
 
-**Root Mean Square Propagation (RMSprop):**
-RMSprop is used to speed up mini-batch learning by adapting the network learning rate based on the moving average of the magnitudes of the recent gradients. This generates parameter updates using momentum on the rescaled gradient. The RMSprop optimization algorithm works well on large, noisy datasets.
-
-**AdaGrad:**
-AdaGrad optimizes the learning rate for each parameter which helps increase the learning rate for sparser parameters. This makes AdaGrad ideal for large language and image processing neural network models.]
-
 ## How It Works
 [1. Initialization: the mean and uncentered variance of the initial two momentum gradients are calculated using initial parameters (i.e. - neural network weights).
 2. Update exponential moving average: The exponential moving average of the first-order and second-order moments are updated.
