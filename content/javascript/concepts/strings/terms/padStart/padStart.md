@@ -20,9 +20,9 @@ In JavaScript, the **`.padStart()`** method returns a new string of a specified 
 string.padStart(targetLength, padString);
 ```
 
-- `originalString` starting string value before padding.
-- `targetLength` indicates the length the resulting string should be.
-- `padString`, (optional) character or string value to pad the original string.
+- `string`: The original string to be padded.
+- `targetLength`: The desired length of the resulting string after padding.
+- `padString`: The string to pad the original string with. If not provided, it defaults to a space (' ').
 
 ## Examples
 
