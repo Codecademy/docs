@@ -68,11 +68,14 @@ While very robust Adam does have a few challenges:
 
 ### Syntax
 
- '''py
-# Import required libraries
+ '''python
+
+#### Import required libraries
+
 import torch.optim as optim
 
-# example code
+#### example code
+
 optimizer = torch.optim.Adam(params,lr=0.005,betas=0.9,0.999,eps=1e-08,weight_decay=0)
 '''
 
