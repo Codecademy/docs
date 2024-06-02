@@ -24,55 +24,38 @@ string.padStart(targetLength, padString);
 - `targetLength`: The desired length of the resulting string after padding.
 - `padString`: The string to pad the original string with. If not provided, it defaults to a space (' ').
 
-## Examples
+## Example
 
-
-Pad a string with spaces:
+The following example demonstrates the `.padStart()` method:
 
 ```js
-const string = `Hi There!`;
+const originalString = 'Hi There!';
+const padString = '12345';
 
-const paddedString = string.padStart(15);
+// Case 1: Pad a string with spaces
+console.log(originalString.padStart(15));
 
-console.log(paddedString);
-// Output:       Hi There!
+// Case 2: Pad a string with 0s
+console.log(originalString.padStart(14, 0));
+
+// Case 3: Pad a string with a string less than the target length
+console.log(originalString.padStart(11, padString));
+
+// Case 4: Pad a string with a string more than the target length
+console.log(originalString.padStart(21, padString));
+
 ```
 
-Pad a string with 0s:
+This will produce the following output:
 
-```js
-const numString = `4457`;
+```shell
+      Hi There!
 
-const paddedNumString = numString.padStart(9, 0);
+00000Hi There!
 
-console.log(paddedNumString);
-// Output: 000004457
-```
+12Hi There!
 
-Pad a string with a string less than the target length:
-
-```js
-const string = 'help!';
-const targetLength = 21;
-const padString = 'Can you '
-
-const paddedString = string.padStart(targetLength, padString);
-
-console.log(paddedString);
-// Output: Can you Can you help!
-```
-
-Pad a string with a string more than the target length:
-
-```js
-const string = 'help!';
-const targetLength = 9
-const padString = 'Can you '
-
-const paddedString = string.padStart(targetLength, padString);
-
-console.log(paddedString);
-// Output: Can help!
+123451234512Hi There!
 ```
 
 ## Codebyte Example
