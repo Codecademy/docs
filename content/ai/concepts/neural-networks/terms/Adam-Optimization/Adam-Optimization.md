@@ -44,15 +44,16 @@ AdaGrad optimizes the learning rate for each parameter which helps increase the 
 5. Parameter Update: apply updated weights to network parameters.]
 
 ## Advantages
-[Adam optimization has several advantages compared with other gradient decent algorithms for deep learning projects.
-1. The Adam optimizer is straightforward to implement,
-2. Computationally efficient,
-3. Has very small memory requirements,
-4. Adam is invariant to diagonal rescale of the gradients,
-5. Is well suited for projects with large amounts of data and/or parameters,
-6. Useful for non-stationary objectives, and very noisy and/or sparse gradients,
-8. Intuitive hyper-parameter interpretation,
-9. Requires little tuning.]
+
+Adam optimization has several advantages compared with other gradient decent algorithms for deep learning projects.
+1. The Adam optimizer is straightforward to implement.
+2. It is computationally efficient.
+3. It has very small memory requirements.
+4. Adam is invariant to the diagonal rescale of the gradients.
+5. It is well-suited for projects with large amounts of data and/or parameters.
+6. It is useful for non-stationary objectives, and very noisy and/or sparse gradients.
+7. It offers an intuitive hyper-parameter interpretation.
+8. It requires little tuning.
 
 ## Challenges
 [While very robust Adam does have a few challenges.
