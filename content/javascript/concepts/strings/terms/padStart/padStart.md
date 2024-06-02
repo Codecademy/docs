@@ -77,7 +77,7 @@ console.log(paddedString);
 
 ## Codebyte Example
 
-The following is runnable, and demonstrates the use of the `.padStart()` method:
+The following example demonstrates the use of the `.padStart()` method:
 
 ```codebyte/javascript
 // Declare a string, target length of the resulting string, and pad string
