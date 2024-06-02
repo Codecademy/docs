@@ -56,10 +56,10 @@ Adam optimization has several advantages compared with other gradient decent alg
 8. It requires little tuning.
 
 ## Challenges
-[While very robust Adam does have a few challenges.
-1. Adam does not always converge to an optimal solution
-2. Adam does suffer from some weight decay
-3. Newer optimization algorithms are faster and provide improved calculations]
+While very robust Adam does have a few challenges:
+1. Adam does not always converge to an optimal solution.
+2. Adam can suffer from weight decay issues.
+3. Newer optimization algorithms can be faster and provide improved performance.
 
 ## Example
 
