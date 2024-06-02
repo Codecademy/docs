@@ -17,7 +17,7 @@ In JavaScript, the **`.padStart()`** method returns a new string of a specified 
 ## Syntax
 
 ```pseudo
-originalString.padStart(targetLength, padString);
+string.padStart(targetLength, padString);
 ```
 
 - `originalString` starting string value before padding.
