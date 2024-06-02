@@ -22,7 +22,7 @@ CatalogContent:
 
 ## Basic Concept
 ### Traditional Gradient Descent
-Traditional Gradient Descent is an optimization method used to minimize the loss function of a deep neural network by iteratively progressing toward the steepest descent defined by the negative of the gradient to compare training predictions with actual results. The Traditional Gradient Descent algorithm calculates the gradient across the entire dataset and makes a single update to the network parameters. This makes Traditional Gradient Descent computationally expensive and time-consuming for large datasets. 
+Traditional Gradient Descent is an optimization method used to minimize the loss function of a deep neural network by iteratively progressing toward the steepest descent defined by the negative of the gradient. It calculates the gradient using the entire dataset and makes a single update to the network parameters. This makes Traditional Gradient Descent computationally expensive and time-consuming for large datasets.
 
 **Stochastic Gradient Descent (SGD):**
 Stochastic Gradient Descent optimizes an objective function in the presence of randomness. At each step, SGD calculates an estimate of the gradient from a random subset of that data, called a mini-batch. By using mini-batches instead of the whole dataset, SGD is useful for calculating gradient descent over large datasets with many parameters. 
