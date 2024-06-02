@@ -1,12 +1,12 @@
 ---
 Title: '.padStart()'
-Description: 'Takes an original string and returns a second string to the front in order to change the original string to a specified length.'
+Description: 'Returns a new string of a specified length with the original string padded from the start with a given string.'
 Subjects:
-  - 'Web Development'
   - 'Computer Science'
+  - 'Web Development'
 Tags:
-  - 'Strings'
   - 'Methods'
+  - 'Strings'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
