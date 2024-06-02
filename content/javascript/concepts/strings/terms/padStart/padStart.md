@@ -43,7 +43,6 @@ console.log(originalString.padStart(11, padString));
 
 // Case 4: Pad a string with a string more than the target length
 console.log(originalString.padStart(21, padString));
-
 ```
 
 This will produce the following output:
