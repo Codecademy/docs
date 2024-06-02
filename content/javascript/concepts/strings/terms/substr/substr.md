@@ -12,11 +12,11 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `.substr()` method in JavaScript extracts a portion of a string, starting from a specified index position up to a given number of characters. The index count begins with zero.
+The **`.substr()`** method in JavaScript extracts a portion of a string, starting from a specified index position up to a given number of characters. The index count begins with zero.
 
 ## Syntax
 
-```js
+```pseudo
 string.substr(startingIndex, length);
 ```
 
@@ -43,15 +43,26 @@ console.log('The Intro to JavaScript is fun to learn.'.substr(4));
 // Output: Intro to JavaScript is fun to learn.
 ```
 
+The `.substr()` can also extract from the end of the string when provided with a negative starting index position.
+
+## Example 3
+
+Extracting from the end of a string.
+
+```js
+console.log('The Intro to JavaScript is fun to learn.'.substr(-27, 10));
+// Output: JavaScript
+```
+
 ## Codebyte Example
 
-The `.substr()` method does not change the original string. Also, it can extract from the end of the string when provided with a negative starting index position.
+Important Note: The `.substr()` method does not change the original string.
 
-```codebyte/js
+```codebyte/javascript
 const text = 'The Intro to JavaScript is fun to learn.';
 
-// Extracting from the end of the string
-console.log(text.substr(-27, 10));
+// Extracting from the end of a string up to a given length
+console.log(text.substr(-27, 17));
 
 // Original string
 console.log(text);
