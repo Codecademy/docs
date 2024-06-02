@@ -21,7 +21,7 @@ CatalogContent:
 **Adam Optimization** is an adaptive gradient descent algorithm that computes adaptive learning rates for each parameter of a [neural network](https://www.codecademy.com/resources/docs/ai/neural-networks). It calculates the exponential moving average of the gradient and the exponential moving average of the squared gradient, incorporating control over the decay rates of these moving averages. Adam extends stochastic gradient descent by incorporating the advantages of Root Mean Square Propagation (RMSprop) and the Adaptive Gradient Algorithm (AdaGrad), making it robust for large-scale, high-dimensional machine learning problems.
 
 ## Basic Concept
-[**Traditional Gradient Descent:**
+### Traditional Gradient Descent
 Traditional Gradient Descent is an optimization method used to minimize the loss function of a deep neural network by iteratively progressing toward the steepest descent defined by the negative of the gradient to compare training predictions with actual results. The Traditional Gradient Descent algorithm calculates the gradient across the entire dataset and makes a single update to the network parameters. This makes Traditional Gradient Descent computationally expensive and time-consuming for large datasets. 
 
 **Stochastic Gradient Descent (SGD):**
