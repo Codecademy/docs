@@ -31,11 +31,11 @@ Stochastic Gradient Descent optimizes an objective function in the presence of r
 Stochastic Gradient Descent with Momentum (SGD with Momentum) is an enhancement of stochastic gradient descent that includes a momentum term to accelerate convergence and improve optimization. SGD with Momentum incorporates gradients from previous updates to help navigate the optimization landscape more effectively. The algorithm calculates an exponentially weighted average of the gradients (moving average) and uses this average to update the network parameters. This approach helps to dampen oscillations and can lead to faster convergence, especially in the presence of noisy gradients.
 
 ## Working of Adam Optimization
-[1. Initialization: the mean and uncentered variance of the initial two momentum gradients are calculated using initial parameters (i.e. - neural network weights).
-2. Update exponential moving average: The exponential moving average of the first-order and second-order moments are updated.
-3. Unbiased average calculation: the first-order and second-order unbiased averages are calculated, respectively. 
-4. Calculate weight update: divide the first-order unbiased average by the square root of the second-order unbiased average and scale by the learning rate
-5. Parameter Update: apply updated weights to network parameters.]
+1. **Initialization:** The initial parameters (i.e., neural network weights) are used to calculate the mean and uncentered variance of the initial two momentum gradients.
+2. **Update Exponential Moving Average:** The exponential moving averages of the first-order moment (mean of gradients) and second-order moment (mean of squared gradients) are updated using their respective decay rates.
+3. **Unbiased Average Calculation:** The first-order and second-order moments are biased towards zero initially. To correct this, the unbiased averages are calculated by adjusting the moving averages to account for their respective biases.
+4. **Calculate Weight Update:** The weight update value is computed by dividing the first-order unbiased average by the square root of the second-order unbiased average, and then scaling by the learning rate.
+5. **Parameter Update:** The network parameters (weights) are updated by applying the calculated weight update.
 
 ## Advantages
 
