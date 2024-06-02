@@ -25,7 +25,7 @@ CatalogContent:
 Traditional Gradient Descent is an optimization method used to minimize the loss function of a deep neural network by iteratively progressing toward the steepest descent defined by the negative of the gradient. It calculates the gradient using the entire dataset and makes a single update to the network parameters. This makes Traditional Gradient Descent computationally expensive and time-consuming for large datasets.
 
 ### Stochastic Gradient Descent (SGD):
-Stochastic Gradient Descent optimizes an objective function in the presence of randomness. At each step, SGD calculates an estimate of the gradient from a random subset of that data, called a mini-batch. By using mini-batches instead of the whole dataset, SGD is useful for calculating gradient descent over large datasets with many parameters. 
+Stochastic Gradient Descent optimizes an objective function in the presence of randomness. At each step, SGD calculates an estimate of the gradient using a random subset of the data, often called a mini-batch. By using mini-batches instead of the entire dataset, SGD is more efficient for large datasets with many parameters, allowing for faster and more scalable computations. However, the randomness can introduce noise into the optimization process, requiring careful tuning of hyperparameters.
 
 **Stochastic Gradient Descent with Momentum (SGD with Momentum):** 
 This is stochastic gradient descent with a momentum term included in the algorithm. SGD with Momentum incorporates gradients from previously updated parameter steps to speed up gradient descent. The algorithm calculates the moving average (A.K.A. - exponentially weighted averages) of the gradient and uses the average to update network parameters.
