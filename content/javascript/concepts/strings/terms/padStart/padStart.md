@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Takes an original string and returns a second string to the front in order to change the original string to a specified length.
+In JavaScript, the **`.padStart()`** method returns a new string of a specified length, with the original string padded at the beginning with a given string (repeated if necessary) until the desired length is reached.
 
 ## Syntax
 
