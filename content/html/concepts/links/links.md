@@ -14,14 +14,14 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**Links** are used in HTML to add features to a web page including styling, functionality, hyperlinks, and navigation. ![Links image](/docs/media/links.png)
+**Links** are used in HTML to add features to a web page including styling, functionality, hyperlinks, and navigation. ![Links image](https://raw.githubusercontent.com/Codecademy/docs/main/media/links.png)
 
 
-## Hyperlinks ![Hyperlink image](/docs/media/hyperlink.png)
+## Hyperlinks ![Hyperlink image](https://raw.githubusercontent.com/Codecademy/docs/main/media/hyperlink.png)
 
 The [`<a>`](https://www.codecademy.com/resources/docs/html/elements/a) anchor tag is used to create hyperlinks in an HTML document. The hyperlinks can point to other webpages, files on the same server, a location on the same page, or any other URL using the hyperlink reference `href` attribute.
 
-### Text Links ![Text link image](/docs/media/textlink.png)
+### Text Links ![Text link image](https://raw.githubusercontent.com/Codecademy/docs/main/media/textlink.png)
 
 Text wrapped in a linked anchor tag becomes a hyperlink to another page:
 
@@ -31,7 +31,7 @@ Text wrapped in a linked anchor tag becomes a hyperlink to another page:
 <a href="http://www.codecademy.com">Visit this site</a>
 ```
 
-### Internal Links ![Internal link example image](/docs/media/internal.png)
+### Internal Links ![Internal link example image](https://raw.githubusercontent.com/Codecademy/docs/main/media/internal.png)
 
 Anchor tags can be used to link to certain parts of a page with a matching `id` attribute:
 
@@ -41,7 +41,7 @@ Anchor tags can be used to link to certain parts of a page with a matching `id` 
 <a href="#about">About</a>
 ```
 
-### Image Links ![Codecademy logo](/docs/media/codecademy.png)
+### Image Links ![Codecademy logo](https://raw.githubusercontent.com/Codecademy/docs/main/media/codecademy.png)
 
 Anything that is inside the anchor tag will be treated as a link. In this case, the Codecademy logo will take the user to the Codecademy home page.
 
@@ -51,7 +51,7 @@ Anything that is inside the anchor tag will be treated as a link. In this case, 
 <a href="http://www.codecademy.com"> <img src="logo.jpg" />Click this image </a>
 ```
 
-### Email and Phone Links ![Mailto image](/docs/media/mailto.png)
+### Email and Phone Links ![Mailto image](https://raw.githubusercontent.com/Codecademy/docs/main/media/mailto.png)
 
 Special strings can be passed to the `href` attribute to link email accounts (`"mailto:exmail@address.com"`) or phone numbers (`"tel:###-###-####"`):
 
