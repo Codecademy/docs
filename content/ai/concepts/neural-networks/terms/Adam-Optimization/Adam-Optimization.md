@@ -1,20 +1,20 @@
 ---
-Title: 'adam-optimization' 
-Description: 'Adam is a momentum-based optimization algorithm that iteratively updates the weights and learning rates in a deep neural network during training.' 
-Subjects: 
+Title: 'Adam Optimization'
+Description: 'Adam is a momentum-based optimization algorithm that iteratively updates the weights and learning rates in a deep neural network during training.'
+Subjects:
   - 'AI'
-  - 'Computer Science'
-  - 'Machine Learning'
-Tags: 
-  - 'AI'
-  - 'Deep Learning'
-  - 'Machine Learning'
-  - 'Neural Networks'
+  - 'Computer Science'
+  - 'Machine Learning'
+Tags:
+  - 'AI'
+  - 'Deep Learning'
+  - 'Machine Learning'
+  - 'Neural Networks'
   - 'Optimization'
-  - 'Weights & Bias'
-CatalogContent: 
-  - 'paths/machine-learning-engineer'
-  - 'machine-learning'
+  - 'Weights & Bias' 
+CatalogContent:
+  - 'paths/machine-learning-engineer'
+  - 'machine-learning'
 ---
 
 ## Adam Optimization
