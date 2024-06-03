@@ -2,8 +2,8 @@
 Title: '.symmetric_difference_update()'
 Description: 'Updates the original set by removing items present in both sets and adding items unique to each set.'
 Subjects:
-  - 'Computer Science'
   - 'Code Foundations'
+  - 'Computer Science'
 Tags:
   - 'Collections'
   - 'Functions'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Python, the **`.symmetric_difference_update()`** method updates the original set by removing items present in both sets and adding items unique to each set.
+In Python, the **`.symmetric_difference_update()`** method updates the original set by removing the items present in both sets and adding items unique to each set.
 
 ## Syntax
 
@@ -46,7 +46,7 @@ store1.symmetric_difference_update(store2)
 print(store1)
 ```
 
-This would result in modified `store1` set:
+The above code will produce a modified `store1` set as follows:
 
 ```shell
 {'apple', 'mango', 'lichi', 'orange', 'strawberry', 'pear', 'raspberry'}
