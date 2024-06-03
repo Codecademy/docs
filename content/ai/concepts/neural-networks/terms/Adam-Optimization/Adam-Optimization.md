@@ -86,10 +86,10 @@ The below syntax is for implementing Adam Optimization using `PyTorch`:
 ```psuedo
 torch.optim.Adam(params, lr=0.01, betas=(0.9, 0.999), eps=1e-8, weight_decay=0, amsgrad=False)
 ```
-- `params`: Iterable of parameters to optimize or dictionaries defining parameter groups.
+- `params`: An iterable containing the parameters that need optimization or dictionaries that define groups of parameters to optimize.
 - `lr`: A float, the learning rate (default: 1e-3).
 - `betas`: A tuple of two floats, coefficients used for computing running averages of gradient and its square (default: (0.9, 0.999)).
-- `eps`: A float, a term added to the denominator to improve numerical stability (default: 1e-8).
+- `eps`: floating-point value used to enhance numerical stability by adding it to the denominator (default value: 1e-8).
 - `weight_decay`: A float, weight decay (L2 penalty) (default: 0).
 - `amsgrad`: A boolean, whether to use the AMSGrad variant of this algorithm (default: False).
 
@@ -116,7 +116,7 @@ def initalize_Adam(parameters):
   return m, v
 
 # Define Adam update parameters for neural network
-def Adam_update_parameters(parameters,grads, m, v, t, learning_rate = 0.01, beta1 = 0.9, beta2 = 0.999, epsilon = 1e-8):
+def Adam_updating_parameters(parameters,grads, m, v, t, learning_rate = 0.01, beta1 = 0.9, beta2 = 0.999, epsilon = 1e-8):
   L = len(parameters) // 2 # number of layers within the neural network
   m_corrected = [] # Initialized first momentum vector
   v_corrected = [] # Initialized second momentum vector
@@ -135,7 +135,7 @@ def Adam_update_parameters(parameters,grads, m, v, t, learning_rate = 0.01, beta
     v["dW" + str(l+1)] = beta2 * v["dW" + str(l+1)] + (1 - beta2) * np.power(grads["dW" + str(l+1)],2)
     v["db" + str(l+1)] = beta2 * v["db" + str(l+1)] + (1 - beta2) * np.power(grads["db" + str(l+1)],2)
 
-    # Compute bias-corrected second raw moment estimate.
+    # Computing bias-corrected second raw moment estimate.
     v_corrected["dW" + str(l+1)] = v["dW" + str(l+1)] / (1 - np.power(beta2,t))
     v_corrected["db" + str(l+1)] = v["db" + str(l+1)] / (1 - np.power(beta2,t))
 
