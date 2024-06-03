@@ -92,6 +92,53 @@ torch.optim.Adam(params, lr=0.01, betas=(0.9, 0.999), eps=1e-8, weight_decay=0, 
 - `eps`: floating-point value used to enhance numerical stability by adding it to the denominator (default value: 1e-8).
 - `weight_decay`: A float, weight decay (L2 penalty) (default: 0).
 - `amsgrad`: A boolean, whether to use the AMSGrad variant of this algorithm (default: False).
+ 
+## Example
+
+Below is an example code snippet demonstrating how to use the Adam optimizer in PyTorch:
+
+```py
+import torch
+import torch.nn as nn
+import torch.optim as optim
+
+# Define a simple neural network
+class SimpleNet(nn.Module):
+    def __init__(self):
+        super(SimpleNet, self).__init__()
+        self.fc1 = nn.Linear(10, 5)
+        self.relu = nn.ReLU()
+        self.fc2 = nn.Linear(5, 1)
+
+    def forward(self, x):
+        x = self.relu(self.fc1(x))
+        x = self.fc2(x)
+        return x
+
+# Create an instance of the neural network
+model = SimpleNet()
+
+# Define dummy input and target data
+input_data = torch.randn(32, 10)  # batch_size=32, input_size=10
+target_data = torch.randn(32, 1)  # batch_size=32, output_size=1
+
+# Define the Adam optimizer
+optimizer = optim.Adam(model.parameters(), lr=0.01, betas=(0.9, 0.999), eps=1e-8)
+
+# Define the loss function
+criterion = nn.MSELoss()
+
+# Training loop
+num_epochs = 10
+for epoch in range(num_epochs):
+    optimizer.zero_grad()  # Clear gradients
+    output = model(input_data)  # Forward pass
+    loss = criterion(output, target_data)  # Calculate loss
+    loss.backward()  # Backward pass
+    optimizer.step()  # Update parameters
+
+    print(f'Epoch [{epoch + 1}/{num_epochs}], Loss: {loss.item()}')
+```
 
 ## Codebyte Example
 
