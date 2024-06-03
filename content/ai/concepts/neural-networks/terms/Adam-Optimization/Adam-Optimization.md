@@ -7,7 +7,7 @@ Subjects:
  - 'Machine Learning'
 Tags: 
  - 'AI'
- - 'Deep Learning"
+ - 'Deep Learning'
  - 'Machine Learning'
  - 'Neural Networks'
  - 'Optimization'
@@ -25,7 +25,7 @@ CatalogContent:
 
 ### Traditional Gradient Descent
 
-**Traditional Gradient Descent** is an optimization method used to minimize the loss function of a deep neural network by iteratively progressing toward the steepest descent defined by the negative of the gradient. It calculates the gradient using the entire dataset and makes a single update to the network parameters. This makes Traditional Gradient Descent computationally expensive and time-consuming for large datasets.
+**Traditional Gradient Descent** is an optimization technique for minimizing the loss function in a deep neural network by iteratively moving in the direction of the steepest descent, as determined by the negative gradient. It calculates the gradient using the entire dataset and makes a single update to the network parameters. This makes Traditional Gradient Descent computationally expensive and time-consuming for large datasets.
 
 ### Stochastic Gradient Descent
 
@@ -64,48 +64,50 @@ While very robust Adam does have a few challenges:
 2. Adam can suffer from weight decay issues
 3. Newer optimization algorithms can be faster and provide improved preformance.
 
-## Example
+## Syntax
 
-### Syntax
+The Adam optimization algorithm can be conveniently implemented using two popular deep learning libraries: `TensorFlow` and `PyTorch`. 
 
- '''python
+The below syntax is for implementing Adam Optimization using `TensorFlow`:
 
-#### Import required libraries
+```pseudo
+tensorflow.keras.optimizers.Adam(learning_rate=0.01, beta_1=0.9, beta_2=0.999, epsilon=1e-8, amsgrad=False, name='Adam')
+```
 
-import torch.optim as optim
+- `learning_rate`: A float or a tf.keras.optimizers.schedules.LearningRateSchedule, the learning rate.
+- `beta_1`: A float, the exponential decay rate for the first moment estimates.
+- `beta_2`: A float, the exponential decay rate for the second moment estimates.
+- `epsilon`: A float, a small constant for numerical stability.
+- `amsgrad`: A boolean, whether to apply the AMSGrad variant of this algorithm.
+- `name`: A string, the name for operations created when applying gradients.
 
-#### example code
+The below syntax is for implementing Adam Optimization using `PyTorch`:
 
-optimizer = torch.optim.Adam(params,lr=0.005,betas=0.9,0.999,eps=1e-08,weight_decay=0)
-'''
+```psuedo
+torch.optim.Adam(params, lr=0.01, betas=(0.9, 0.999), eps=1e-8, weight_decay=0, amsgrad=False)
+```
+- `params`: Iterable of parameters to optimize or dictionaries defining parameter groups.
+- `lr`: A float, the learning rate (default: 1e-3).
+- `betas`: A tuple of two floats, coefficients used for computing running averages of gradient and its square (default: (0.9, 0.999)).
+- `eps`: A float, a term added to the denominator to improve numerical stability (default: 1e-8).
+- `weight_decay`: A float, weight decay (L2 penalty) (default: 0).
+- `amsgrad`: A boolean, whether to use the AMSGrad variant of this algorithm (default: False).
 
-The class statement and the required arguments used in the syntax are outlined below:
+## Codebyte Example
 
-- class: 'torch.optim.Adam' identifies Adam as the specific optimizer for gradient descent.
-- params: used as a parameter that helps in the optimization.
-- lr: learning rate helping the optimizer.
-- betas: decay parameter that calculates the running average of the gradient and its square.
-- eps: epsilon term added to denominator used to improve numerical stability.
-- weight_delay: adds an L2 penalty to the loss function with a default value of 0.
-
-## Codebyte Example (if applicable)
-
-Codebyte example is provided in numpy to better show steps in optimization. The source code is from deeplearning.ai
+The following Codebyte example, implemented in NumPy, demonstrates the steps involved in the Adam optimization algorithm in detail.
 
 ```codebyte/python
-# Example runnable code block.
-# SOURCE: https://www.deeplearning.ai/deep-learning-specailization
-
 # Import required libaries.
 import numpy as np
 
-# Define initailization neural network parameters.
+# Define initialization function for Adam optimizer
 def initalize_Adam(parameters):
-  L = len(parameters) // num_layers # number of layers within the neural network(s)
+  L = len(parameters) // 2 # number of layers within the neural network
   m = [] # first momentum vector
   v = [] # second momentum vector
 
-# Initialize m, v. Input: "parameters", outputs: "v, s"
+# Initialize m, v. Input: "parameters", outputs: "m, v"
   for l in range(L):
     m["dW" + str(1+1)] = np.zeros_like(parameters["W" + str(1+1)])
     m["db" + str(1+1)] = np.zeros_like(parameters["b" + str(1+1)])
@@ -115,31 +117,31 @@ def initalize_Adam(parameters):
 
 # Define Adam update parameters for neural network
 def Adam_update_parameters(parameters,grads, m, v, t, learning_rate = 0.01, beta1 = 0.9, beta2 = 0.999, epsilon = 1e-8):
-  L = len(parameters) // num_layers # number of layers within the neural network(s)
+  L = len(parameters) // 2 # number of layers within the neural network
   m_corrected = [] # Initialized first momentum vector
   v_corrected = [] # Initialized second momentum vector
 
   # Preform Adam update on all parameters.
   for l in range(L):
-    # Moving average of the gradients. Inputs: "m, grads, beta1", output: "m".
+    # Moving average of the gradients. 
     m["dW" + str(1+1)] = beta1 * m["dW" + str(1+1)] + (1 - beta1) * grads["dW" + str(1+1)]
     m["db" + str(1+1)] = beta1 * m["db" + str(1+1)] + (1 - beta1) * grads["db" + str(1+1)]
     
-    # Compute bias-corrected first moment estimate. Inputs: "m, beta1, t". Output: "m_corrected".
+    # Compute bias-corrected first moment estimate. 
     m_corrected["dW" + str(l+1)] = m["dW" + str(l+1)] / (1 - np.power(beta1,t))
     m_corrected["db" + str(l+1)] = m["db" + str(l+1)] / (1 - np.power(beta1,t))
 
-    # Moving average of the squared gradients. Inputs: "v, grads, beta2". Output: "v".
+    # Moving average of the squared gradients. 
     v["dW" + str(l+1)] = beta2 * v["dW" + str(l+1)] + (1 - beta2) * np.power(grads["dW" + str(l+1)],2)
     v["db" + str(l+1)] = beta2 * v["db" + str(l+1)] + (1 - beta2) * np.power(grads["db" + str(l+1)],2)
 
-    # Compute bias-corrected second raw moment estimate. Inputs: "v, beta2, t". Output: "v_corrected".
+    # Compute bias-corrected second raw moment estimate.
     v_corrected["dW" + str(l+1)] = v["dW" + str(l+1)] / (1 - np.power(beta2,t))
     v_corrected["db" + str(l+1)] = v["db" + str(l+1)] / (1 - np.power(beta2,t))
 
-    # Update parameters. Inputs: "parameters, learning_rate, m_corrected, v_corrected, epsilon". Output: "parameters".
+    # Update parameters.
     parameters["W" + str(l+1)] = parameters["W" + str(l+1)] - learning_rate * m_corrected["dW" + str(l+1)] / (np.sqrt(v_corrected["dW" + str(l+1)]) + epsilon)
     parameters["b" + str(l+1)] = parameters["b" + str(l+1)] - learning_rate * m_corrected["db" + str(l+1)] / (np.sqrt(v_corrected["db" + str(l+1)]) + epsilon)
 
-    return parameters, m, v
+return parameters, m, v
 ```
