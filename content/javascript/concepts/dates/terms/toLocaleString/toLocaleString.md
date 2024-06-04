@@ -42,7 +42,7 @@ console.log(specificDate.toLocaleDateString(locale, options));
 The code above produces the following output:
 
 ```shell
-Monday, May 6, 2024
+Thursday, May 16, 2024
 ```
 
 ## Codebyte Example
