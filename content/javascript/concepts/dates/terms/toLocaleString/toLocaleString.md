@@ -17,7 +17,7 @@ In JavaScript, the **`.toLocaleString()`** method formats a [`Date`](https://www
 
 ## Syntax  
 
-```js
+```pseudo
 dateObj.toLocaleString(locales, options)
 ```
 
