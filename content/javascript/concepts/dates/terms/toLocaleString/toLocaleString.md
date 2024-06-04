@@ -9,8 +9,8 @@ Tags:
   - 'Methods'
   - 'Strings'
 CatalogContent:
-   - 'introduction-to-javascript'
-   - 'paths/front-end-engineer-career-path'
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 In JavaScript, the `.toLocaleString()` method formats a [Date](https://www.codecademy.com/resources/docs/javascript/dates) object as a string according to the specified locale, considering cultural settings such as `language` and `date/time` formatting preferences specific to the chosen region or country.
