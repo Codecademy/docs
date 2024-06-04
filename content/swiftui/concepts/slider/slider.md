@@ -55,7 +55,7 @@ The optional parameters include:
 
 ## Example
 
-The following example code will display a gray [circle](https://www.codecademy.com/resources/docs/swiftui/views/circle) that can be overlayed with a mint-colored circle using the slider above it:
+The following example code will display a gray [circle](https://www.codecademy.com/resources/docs/swiftui/views/circle) that can be overlaid with a mint-colored circle using the slider above it:
 
 ```swift
 import SwiftUI
