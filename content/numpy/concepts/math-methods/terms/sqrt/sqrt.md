@@ -1,10 +1,18 @@
 ---
-Title: 'Python:NumPy - sqrt'
-Description: 'Use numpy.sqrt() to determine a positive square-root of a number or array'
-Codecademy Hub Page: 'https://www.codecademy.com/catalog/language/python'
+Title: '.sqrt()'
+Description: 'Calculates the square root of each element in an array.'
+Subjects:
+  - 'Computer Science'
+  - 'Data Science'
+Tags:
+  - 'Arrays'
+  - 'Functions'
+  - 'NumPy'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
+  - 'paths/data-science'
+  - 'paths/data-science-foundations'
 ---
 
 **numpy.sqrt()** is used to determine a positive square-root of a number or array.
