@@ -18,29 +18,27 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-**`.fromarray()`** is a function from the Image module that is used to process images for more clarity, it creates a new image derived from a specified array.
+**`.fromarray()`** is a function from the Image module that is used to process images for more clarity. It creates a new image derived from a specified array.
 
 ## Syntax
 
 ```pseudo
 Image.fromarray(obj_array, mode="CMYK")
-
 ```
 
 `.fromarray()` takes two parameters:
 
-- `obj_array`: It represent a defined array
+- `obj_array`: It represents a defined array
 - `mode`: It is an optional parameter that defines the type and depth of a pixel in the image that will be created. If `mode` is not used, the new image will be stored as is.
 
-There are values of `mode` that can be used, like:
-
-- `CMYK`: It represent color plates of Cyan, Magenta, Yellow, and Key(black). Each color has 8-bit pixel to store its value, which mean `CMYK` have 4x8-bit pixels to store the values.
-- `RGB` : It represent Red, Green, and Blue color plates. It has 3x8-bit pixels to store the values.
-- `L` : It represent grayscale or shade of gray from white to black. It only has 8-bit pixel to store its value.
+The `mode` parameter can take the following values:
+- `CMYK`: It represents the color palette made from base colors Cyan, Magenta, Yellow, and Key(black). Each color has an 8-bit pixel to store its value, which means `CMYK` has 4x8-bit pixels to store the values.
+- `RGB`: It represents the color palette made from Red, Green, and Blue colors. It has 3x8-bit pixels available to store the values.
+- `L`: It represents grayscale or shade of gray from white to black. It only has an 8-bit pixel to store its value.
 
 ## Example
 
-The example below shows the value of a pixel in coordinate (0,0) after parameter `mode` is used with `CMYK` as the value.
+The example below shows the value of a pixel in coordinate (0,0) after the parameter `mode` is used with `CMYK` as the value.
 
 ```py
 # Import Image module from Pillow library
@@ -59,7 +57,6 @@ new_imageA.show()
 
 # Show the pixel value by the coordinate
 print(new_imageA.getpixel((0,0)))
-
 ```
 
 The result proves that the obj_array has been successfully generated as new_imageA, and the pixel at coordinate (0,0) is stored as a CMYK color combination with the values shown below.
@@ -68,15 +65,13 @@ The result proves that the obj_array has been successfully generated as new_imag
 
 ```shell
 (200, 0, 0, 0)
-
 ```
 
 ## Codebyte Example
 
-The following Codebyte example demonstrates how to create a new image from the array and stored it in an `RGB` color format.
+Run the following Codebyte example to understand how a new image is created from the specified array in the `RGB` color format.
 
 ```codebyte/python
-
 import numpy as np
 from PIL import Image
 
@@ -86,7 +81,9 @@ obj_array = np.full((3, 3, 3), 200)
 # Create an image from the array
 new_imageB = Image.fromarray(obj_array, mode="RGB")
 
+# Show the image generated using .fromarray()
+new_imageB.show()
+
 # Show the pixel value by the coordinate
 print(new_imageB.getpixel((0,0)))
-
 ```
