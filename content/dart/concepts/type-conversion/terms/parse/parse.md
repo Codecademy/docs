@@ -21,7 +21,7 @@ In Dart, the **`.parse()`** method is used to convert a value from a string to a
 dataType.parse(string)
 ```
 
-- `string`: The string to be converted into an `int`.
+The above syntax `dataType.parse(string)` represents a method call in Dart that converts the string `string` into the specified data type `dataType`.
 
 ## Example
 
