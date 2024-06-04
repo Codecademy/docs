@@ -27,7 +27,6 @@ dateObj.toLocaleString(locales, options)
 
 > **Note:** Both the `locales` and `options` parameters in the `.toLocaleString()` method are optional. If the parameters are not provided, the method will use `default` values based on the runtime environment.
 
-
 ## Example  
 
 In the example below, `toLocaleString()` formats the current `date` and `time` according to the long date format with the full `weekday`, `month`, `day`, and `year` in English (United States) `locale`:
