@@ -33,7 +33,11 @@ Like all global attributes, the `style` attribute supports all HTML tags and can
 In the example below, the [`<p>`](https://www.codecademy.com/resources/docs/html/elements/p) element is given a `style` attribute to specify its color, text alignment, and font size:
 
 ```html
-<p style="color:green; font-size:12px; text-align:center;">
+<p style="color:green; font-size:20px; text-align:center;">
   Here's some text that is being styled using the style attribute.
 </p>
 ```
+
+The example above results in the following output:
+
+![Style Attribute Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/style-attribute-example.png)

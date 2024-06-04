@@ -35,7 +35,7 @@ Explanation:
 
 - The notation $$a \equiv b \pmod{m}$$ says that _a_ is congruent to _b_ modulo _m_.
 - _m_ stands for modulus.
-- Two integers are congruent mod _m_ if and only if they have the same remainder remainder on being divided by _m_.
+- Two integers are congruent `mod _m_` if and only if they have the same remainder on being divided by `_m_`.
 - If _a_ is not congruent to _b_ modulo _m_ then it is denoted by $$a \not\equiv b \pmod{m}$$.
 
 ### Example
@@ -78,5 +78,5 @@ A congruence relation is symmetric if for any integers:
 A congruence relation is transitive if for any integers:
 
 ```tex
-\text{If } a \equiv b \pmod{m} \text{ and } b \equiv c \pmod{m}, \text{ then } a \equiv c \pmod{m} \text{ for any integers } a, b, c \text{ and positive integer } m.\
+\text{If } a \equiv b \pmod{m} \text{ and } b \equiv c \pmod{m}, \text{ then } a \equiv c \pmod{m} \text{ for any integers } a, b, c \text{ and positive integer } m.
 ```
