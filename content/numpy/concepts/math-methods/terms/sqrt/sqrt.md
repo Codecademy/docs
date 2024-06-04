@@ -15,9 +15,7 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-**numpy.sqrt()** is used to determine a positive square-root of a number or array.
-
-The numpy.sqrt() function is useful for mathematical calculations such as the quadratic equation, Pythagorean Theorem, normal distributions, and more.
+The **`.sqrt()`** function is used to calculate the positive square root of a number or array. It is commonly employed in mathematical computations such as solving the quadratic equation, applying the Pythagorean Theorem, modeling normal distributions, and other mathematical operations.
 
 ## How to use numpy.sqrt()
 
