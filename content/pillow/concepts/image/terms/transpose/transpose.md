@@ -1,5 +1,5 @@
 ---
-Title: '.Transpose()'
+Title: '.transpose()'
 Description: 'Method in the Pillow library used to flip or rotate an image.'
 Subjects:
   - 'Code foundation'
