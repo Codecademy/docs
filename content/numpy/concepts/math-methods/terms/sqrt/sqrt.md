@@ -19,23 +19,27 @@ The **`.sqrt()`** function is used to calculate the positive square root of a nu
 
 ## Syntax
 
-numpy.sqrt(array, out=None, where=True)
+`numpy.sqrt(array, out=None, where=True)`
 
-***x: array_like***
-The values whose square-roots are required.
+***array***
+A number or array to apply a square root.
 
-***out: ndarray, None, or tuple of ndarray and None, optional***
-A location into which the result is stored. If provided, it must have a shape that the inputs broadcast to. If not provided or None, a freshly-allocated array is returned. A tuple (possible only as a keyword argument) must have length equal to the number of outputs.
+***out***
+This is an optional parameter that specifies a location to store the result. If provided, the `out` array must be the same shape and datatype as the input array. If not provided, the default value is `out=None` and a new array is returned.
 
-***where: array_like, optional***
-This condition is broadcast over the input. At locations where the condition is True, the out array will be set to the ufunc result. Elsewhere, the out array will retain its original value. Note that if an uninitialized out array is created via the default out=None, locations within it where the condition is False will remain uninitialized.
-
-*** **kwargs ***
-For other keyword-only arguments, see the [ufunc docs.](https://numpy.org/doc/stable/reference/ufuncs.html#ufuncs-kwargs)
+***where***
+This is an optional parameter to specify a condition under which a square root should be applied. If the condition is `True`, the square root is computed; where the condition is `False`, the original value is retained. If not provided, the default value is `where=True`.
 
 ### Example
-`>>> np.sqrt([9, 4, 25])
-array([3., 2., 5.])`
 
-`>>> np.sqrt([-1, 4, 7])
-array([ nan, 2., 2.64575131])`
+This example `.sqrt()`  in use:
+
+```py
+import numpy as np
+np.sqrt([9,-4,25], where=np.array([9,-4,25]) >= 5)
+```
+The output is shown below:
+
+```shell
+array([3., nan, 5.])
+```
