@@ -30,7 +30,7 @@ dateObj.toLocaleString(locales, options)
 
 ## Example  
 
-In the example below, `toLocaleString()` formats the current `date` and `time` according to the long date format with the full `weekday`, `month`, `day`, and `year` in English (United States) `locale`.
+In the example below, `toLocaleString()` formats the current `date` and `time` according to the long date format with the full `weekday`, `month`, `day`, and `year` in English (United States) `locale`:
 
 ```javascript {copy}
 const currentDate = new Date(); 
