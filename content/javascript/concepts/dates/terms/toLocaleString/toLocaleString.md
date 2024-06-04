@@ -47,7 +47,7 @@ Thursday, May 16, 2024
 
 ## Codebyte Example
 
-In the following example, `.toLocaleString()` formats the current date and time with the full `weekday`, `year`, `month`, `day`, `hour`, `minute`, and `second` in French (Morocco) locale (fr-MA).
+In the following example, `.toLocaleString()` formats the current date and time with the full `weekday`, `year`, `month`, `day`, `hour`, `minute`, and `second` in French (Morocco) locale (fr-MA):
 
 ```codebyte/javascript
 const currentDate = new Date();
