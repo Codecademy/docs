@@ -1,6 +1,6 @@
 ---
 Title: '.parse()'
-Description: 'Converts a value from a string to a specified data type.'
+Description: 'Converts a string representation of data into a specified data type.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
