@@ -40,7 +40,7 @@ void main() {
 }
 ```
 
-This results in the following output:
+The above code will produce the following output:
 
 ```shell
 42
