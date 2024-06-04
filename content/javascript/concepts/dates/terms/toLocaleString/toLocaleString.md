@@ -33,10 +33,10 @@ dateObj.toLocaleString(locales, options)
 In the example below, `toLocaleString()` formats the current `date` and `time` according to the long date format with the full `weekday`, `month`, `day`, and `year` in English (United States) `locale`:
 
 ```javascript {copy}
-const currentDate = new Date(); 
+const specificDate = new Date('2024-05-16'); 
 const locale = 'en-US';
 const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-console.log(currentDate.toLocaleDateString(locale, options));
+console.log(specificDate.toLocaleDateString(locale, options));
 ```
 
 The code above produces the following output:
