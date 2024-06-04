@@ -167,8 +167,8 @@ Person {
 } 
 */
 
-person.greeting();
-// Output: "Hi, I am Elizabeth Harmon"
+console.log(person.greeting());
+// Output: Hi, I am Elizabeth Harmon.
 ```
 
 ## Video Walkthrough
