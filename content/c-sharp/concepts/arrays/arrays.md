@@ -24,7 +24,7 @@ type[] arrayName;
 // Create the array variable and initialize it with an array of N items:
 type[] arrayName = new type[N];
 
-// Create the array variable and intalize it by specifying the contents:
+// Create the array variable and initialize it by specifying the contents:
 type[] arrayName = new type[] { value1, value2, value3, ... valueN };
 
 // Alternative way of creating the array and specifying the contents:
