@@ -15,26 +15,31 @@ CatalogContent:
 
 In JavaScript, the **`.toLocaleString()`** method formats a [`Date`](https://www.codecademy.com/resources/docs/javascript/dates) object as a string according to the specified locale, considering cultural settings such as `language` and `date/time` formatting preferences specific to the chosen region or country.
 
-## Syntax  
+## Syntax
 
 ```pseudo
 dateObj.toLocaleString(locales, options)
 ```
 
 - `dateObj`: A `Date` object representing the date and time to be formatted as a string based on the specified locale.
-- `locales`: A `string` or an `array of strings` that specifies one or more `locales` or language tags for formatting the date. 
+- `locales`: A `string` or an `array of strings` that specifies one or more `locales` or language tags for formatting the date.
 - `options`: An object that allows customizing the formatting behavior, such as specifying the format for `date`, `time`, `numeric values`, and more.
 
 > **Note:** Both the `locales` and `options` parameters in the `.toLocaleString()` method are optional. If the parameters are not provided, the method will use `default` values based on the runtime environment.
 
-## Example  
+## Example
 
 In the example below, `toLocaleString()` formats the current `date` and `time` according to the long date format with the full `weekday`, `month`, `day`, and `year` in English (United States) `locale`:
 
 ```js
-const specificDate = new Date('2024-05-16'); 
+const specificDate = new Date('2024-05-16');
 const locale = 'en-US';
-const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+const options = {
+  weekday: 'long',
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+};
 console.log(specificDate.toLocaleDateString(locale, options));
 ```
 
@@ -52,14 +57,14 @@ In the following example, `.toLocaleString()` formats the current date and time 
 const currentDate = new Date();
 
 const locale = 'fr-MA';
-const options = { 
-  weekday: 'long', 
-  year: 'numeric', 
-  month: 'long', 
-  day: 'numeric', 
-  hour: 'numeric', 
-  minute: 'numeric', 
-  second: 'numeric' 
+const options = {
+  weekday: 'long',
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+  hour: 'numeric',
+  minute: 'numeric',
+  second: 'numeric'
   };
 console.log(currentDate.toLocaleString(locale, options));
 ```
