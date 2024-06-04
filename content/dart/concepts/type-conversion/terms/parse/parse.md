@@ -18,7 +18,7 @@ In Dart, the **`.parse()`** method is used to convert a value from a string to a
 ## Syntax
 
 ```pseudo
-int.parse(string)
+dataType.parse(string)
 ```
 
 - `string`: The string to be converted into an `int`.
