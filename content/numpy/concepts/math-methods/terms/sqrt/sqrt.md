@@ -19,6 +19,8 @@ The **`.sqrt()`** function is used to calculate the positive square root of a nu
 
 ## Syntax
 
+numpy.sqrt(array, out=None, where=True)
+
 ***x: array_like***
 The values whose square-roots are required.
 
