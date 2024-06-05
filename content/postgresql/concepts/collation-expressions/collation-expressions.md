@@ -6,14 +6,13 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'PostgreSQL'
-  - `Collation`
+  - `Collations`
 CatalogContent:
-  - 'learn-postgresql'
+  - 'learn-sql'
   - 'paths/analyze-data-with-sql'
 ---
 
-Collation is a feature in Postgresql that set rules which defines how data characters are stored, compared and sorted out in database. This feature allow you specify the sort order and character classification behavior of data per-column, or even per-operation.
-A collation expression in PostgreSQL is a way to explicitly specify the collation to be used for sorting and comparing text data.
+Collation is a feature in PostgreSQL that sets rules that define how data characters are stored, compared, and sorted out in the database. This feature allows you to specify the sort order and character classification behavior of data per column, or even per operation.
 
 Collation can be set at different levels which reflects on different aspect of the database. These levels are:
 - Database-level
@@ -22,8 +21,10 @@ Collation can be set at different levels which reflects on different aspect of t
 
 ## Database-Level
 
-Database level collation determines how the system sorts and compares string data within a database, Seting the collation at the database level establishes a consistent foundation for text handling, ensuring all text data follows the same rules unless explicitly overridden. This approach simplifies configuration and maintains consistency across your database.
+The database-level collation determines how the system sorts and compares string data within a database. Setting the collation at the database level establishes a consistent foundation for text handling, ensuring all text data follows the same rules unless explicitly overridden. This approach simplifies configuration and maintains consistency across your database.
 When creating a new database, you can specify the collation settings using the `CREATE DATABASE` clause with `LC_COLLATE` and `LC_CTYPE` which defines the sort order and character classification respectively.
+
+### Example
 
 ``` sql
 CREATE DATABASE zion
@@ -40,12 +41,14 @@ In the above query:
 Column-level collation, unlike database-level collation we mentioned earlier, allows you to define specific sorting and comparison rules for individual columns within a table. This provides more internal control over how text data is handled. 
 When you define a column-level collation, it actively overrides the database-level collation for that specific column. This allows you to tailor the sorting rules for each column based on its content and needs.  
 
+### Example
+
 Say we create a table `novels` where the `name` column might contain product names with accented characters and we want these names to be sorted correctly, considering the accents. below is a query on how to define a column-level collation for this scenario:
 
 ``` sql
 CREATE TABLE novels (
   product_id INT PRIMARY KEY,
-  name VARCHAR(50) COLLATE "fr_FR.ci",
+  name VARCHAR(50) COLLATE "fr_FR.CI",
   price DECIMAL,
   description TEXT
 );
@@ -66,7 +69,7 @@ MODIFY COLUMN name VARCHAR(50) COLLATE "de_DE";
 ```
 From the query above:
 
-- `ALTER TABLE novels` initiates the modification of the `novel` table.
+- `ALTER TABLE novels` initiates the modification of the `novels` table.
 - `MODIFY COLUMN name` specifies that we're modifying the `name` column.
 - `VARCHAR(50) COLLATE "de_DE"` defines the new data type for name as varchar(50) alongside the German collation `"de_DE"`.
 
@@ -82,16 +85,18 @@ Expression-level collation allows temporary overrides without affecting the unde
 
 Let's consider a table named `novels` with columns for `book_title` and `publication_year` where the `book_title` column might have titles with mixed cases. We want to sort them alphabetically, ignoring case differences, using US English rules. 
 
+### Example
+
 Below is an expression-level collation query:
 
 ``` sql
-SELECT book_title COLLATE "en_US.ci"
+SELECT book_title COLLATE "en_US.CI"
 FROM books
 ORDER BY book_title;
 ```
 From the above query:
 
-- `book_title COLLATE "en_US.ci"` applies the `COLLATE` clause to the book_title column, specifying the collation `"en_US.ci"` which defines US English sorting rules (en_US) while ignoring case.
+- `book_title COLLATE "en_US.CI"` applies the `COLLATE` clause to the book_title column, specifying the collation `"en_US.CI"` which defines US English sorting rules (en_US) while ignoring the case.
 - `ci` for case-insensitive.
 - `ORDER BY book_title` clause uses the already collated title expression for sorting, ensuring case-insensitive alphabetical order.
 
@@ -107,8 +112,8 @@ Below is a table of commonly used options:
 | ---- | ---- | ---- |
 | Case sensitive | `_CS` | Uppercase and lowercase letters are treated differently. "Castle" would come before "castle" during sorting. |
 | Case insensitive | `_CI` | Lower case and upper case are treated as identical, "Ban" and "ban" will be considered equal and might appear in order of other sorting rules. |
-| Accent sensitive | `_AS` |  used to consider accented and non accented letter separately. for example ‘a’ and ’ ấ’are not treated identical. |
-| Accent insensitive | `_AI` | used to consider accented and non accented letter identical. for example ‘a’ and ’ ấ’are treated identical. |
-| Width sensitive | `_WS` | Differentiates full width and half width characters present, if `_WS` wasn't mentioned then it is width-insensitive and hence full and half width characters will be considered as identical. |
+| Accent sensitive | `_AS` |  used to consider accented and non-accented letters separately. for example ‘a’ and ’ ấ’are not treated identically. |
+| Accent insensitive | `_AI` | used to consider accented and non-accented letters identical. for example ‘a’ and ’ ấ’are treated identically. |
+| Width sensitive | `_WS` | Differentiates full-width and half-width characters present, if `_WS` wasn't mentioned then it is width-insensitive, and hence full and half-width characters will be considered identical. |
 
 By understanding the available collation options and choosing the appropriate ones for your data, you can ensure your database delivers accurate and meaningful results that meet your specific requirements.
