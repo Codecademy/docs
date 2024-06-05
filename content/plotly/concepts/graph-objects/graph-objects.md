@@ -56,10 +56,10 @@ fig.add_trace(scatter)
 
 ## Layout
 The layout defines the appearance of the plot, including titles, axes, and annotations.
+
 ## Example
 ```py
 fig.update_layout(title='Sample Plot', xaxis_title='X Axis', yaxis_title='Y Axis')
-```
 
 ## Elaborate Example
 Here's an elaborate example demonstrating how to create a line chart with customized layout and multiple traces:
