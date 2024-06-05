@@ -28,7 +28,7 @@ SELECT (expression1 & expression2);
 
 `Bitwise XOR ^()`: It takes two integer values and executes a bitwise exclusive OR operation on them.
 
-```mysql
+```psuedo
 SELECT (expression1 ^ expression2);
 ```
 
