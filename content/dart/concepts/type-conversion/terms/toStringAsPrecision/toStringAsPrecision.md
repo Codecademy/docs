@@ -34,7 +34,7 @@ void main() {
   print(1234567.toStringAsPrecision(9));
 }
 
-The above code produces the following outputs:
+The above code produces the following output:
 
 ```shell
 Output = 1.0
