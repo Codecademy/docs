@@ -31,7 +31,7 @@ Image.convert(mode=None, matrix=None, dither=None, palette=0, ...)
 - `dither`: Specifies the dithering method to use during conversion from mode `RGB` to `P` or from `RGB` or `L` to `1`. The default is `None`. This parameter is not used when a `matrix` is provided.
 - `palette`: The palette used when converting from mode `RGB` to `P`.
 
-> **Note**: The ellipsis (...) indicates that there can be additional optional parameters beyond those listed here.
+> Note: The ellipsis (...) indicates that there can be additional optional parameters beyond those listed here.
 
 The most common modes include:
 
