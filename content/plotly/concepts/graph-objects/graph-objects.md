@@ -63,6 +63,7 @@ fig.update_layout(title='Sample Plot', xaxis_title='X Axis', yaxis_title='Y Axis
 
 ## Elaborate Example
 Here's an elaborate example demonstrating how to create a line chart with customized layout and multiple traces:
+
 ```py
 import plotly.graph_objects as go
 
@@ -84,7 +85,6 @@ fig.update_layout(
 
 # Display the figure
 fig.show()
-```
 
 ## Official Documentation
 For more detailed information, examples, and tutorials, visit the official Plotly Graph Objects documentation: [Graph Objects in Python](https://plotly.com/python/graph-objects/)
