@@ -11,7 +11,6 @@ Tags:
   - 'Javascript'
   - 'Classes'
   - 'Graphs'
-  - 'JSON'
   - 'Objects'
   - 'Structure'
 CatalogContent:
