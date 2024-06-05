@@ -47,11 +47,12 @@ fig.show()
 
 ## Traces
 Traces are objects that represent individual visual elements in a plot (e.g., lines, bars, markers).
+
 ## Example
+
 ```py
 scatter = go.Scatter(x=[1, 2, 3], y=[4, 5, 6])
 fig.add_trace(scatter)
-```
 
 ## Layout
 The layout defines the appearance of the plot, including titles, axes, and annotations.
