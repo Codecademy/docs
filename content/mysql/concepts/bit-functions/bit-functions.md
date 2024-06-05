@@ -41,7 +41,7 @@ SELECT (expression1 | expression2);
 
 `BIT_COUNT`: This function is used to return the number of bits that are set to 1 in the operand's binary representation.
 
-```mysql
+```psuedo
 SELECT BIT_COUNT(expression);
 ```
 
