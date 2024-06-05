@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-The **`.sqrt()`** function is used to calculate the positive square root of a number or array. It is commonly employed in mathematical computations such as solving the quadratic equation, applying the Pythagorean Theorem, modeling normal distributions, and other mathematical operations.
+In NumPy, the **`.sqrt()`** function is used to calculate the positive square root of a number or array. It is commonly employed in mathematical computations such as solving the quadratic equation, applying the Pythagorean Theorem, modeling normal distributions, and other mathematical operations. It returns the non-negative square root of the input, which can be a single number or an array. If the input is an array, it returns an array of the square roots of each element in the input.
 
 ## Syntax
 
@@ -55,5 +55,6 @@ In this example, an array value is given with a condition to only process number
 
 ```codebyte/python
 import numpy as np
-np.sqrt([144,-10,16], where=np.array([144,-10,16]) >= 0)
+result = np.sqrt([144,-10,16], where=np.array([144,-10,16]) >= 0)
+print(result)
 ```
