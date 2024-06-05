@@ -24,7 +24,7 @@ String toStringAsPrecision(int precision);
 
 ## Example
 
-The following examples illustrates how the `.toStringAsPrecision()` method is utilized to convert this number to a double and returns a string representation of that value:
+The following example illustrates how the `.toStringAsPrecision()` method is utilized to convert this number to a double and returns a string representation of that value:
 
 ```dart
 void main() {
