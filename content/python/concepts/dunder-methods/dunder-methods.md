@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Double-underscore**, **"dunder", or **"magic"** ** methods** use a special syntax to perform [class](https://www.codecademy.com/resources/docs/python/classes)-specific operations in Python, including the following:
+**Dunder Methods**, alternatively known as **magic methods**, use a special syntax to perform [class](https://www.codecademy.com/resources/docs/python/classes)-specific operations in Python. Here, "dunder" is the short for "double underscores". The operations that it performs include the following:
 
 - Performing arithmetic operations on numeric-type attributes.
 - Initializing a new class instance and binding any necessary attributes.
