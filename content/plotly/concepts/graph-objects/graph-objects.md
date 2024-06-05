@@ -10,7 +10,6 @@ Tags:
   - 'Data Science'
   - 'Javascript'
   - 'Classes'
-  - 'Graphs'
   - 'Structure'
 CatalogContent:
 - 'learn-python-3'
