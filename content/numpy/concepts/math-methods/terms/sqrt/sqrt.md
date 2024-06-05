@@ -19,31 +19,36 @@ The **`.sqrt()`** function is used to calculate the positive square root of a nu
 
 ## Syntax
 
-`numpy.sqrt(array, out=None, where=True)`
+```pseudo
+numpy.sqrt(array, out=None, where=True)
+```
 
-***array***
-A number or array to apply a square root.
+- `array`: A number or array-like structure containing the elements to which the square root function will be applied.
 
-***out***
-This is an optional parameter that specifies a location to store the result. If provided, the `out` array must be the same shape and datatype as the input array. If not provided, the default value is `out=None` and a new array is returned.
+- `out`: An optional parameter that specifies the location where the result will be stored. If provided, it must be an array that matches the shape and data type of the input array. If not provided, the default value is `None`, and a new array is created to store the results.
 
-***where***
-This is an optional parameter to specify a condition under which a square root should be applied. If the condition is `True`, the square root is computed; where the condition is `False`, the original value is retained. If not provided, the default value is `where=True`.
+- `where`: An optional parameter to specify a condition (array of boolean values) that determines where the square root operation should be applied. If the condition is `True` at a given position, the square root is computed for that element; where the condition is `False`, the original value is retained. If not provided, the default value is `True`, meaning the square root is computed for all elements.
 
-### Example
+## Example
 
-This example `.sqrt()`  in use:
+This example below shows `.sqrt()` method in use:
 
 ```py
+# Import the NumPy library as 'np'
 import numpy as np
-np.sqrt([9,-4,25], where=np.array([9,-4,25]) >= 5)
+
+# Compute the square root of elements in the array [9, -4, 25]
+# Only compute the square root where the element is greater than or equal to 5
+result = np.sqrt([9,-4,25], where=np.array([9,-4,25]) >= 5)
+
+print(result)
 ```
-The output is shown below:
+
+The output of the above code is shown below:
 
 ```shell
-array([3., nan, 5.])
+[3.00000000e+000 6.50227506e-310 5.00000000e+000]
 ```
-
 ## Codebyte Example
 
 In this example, an array value is given with a condition to only process numbers above 0.
@@ -51,4 +56,3 @@ In this example, an array value is given with a condition to only process number
 ```codebyte/python
 import numpy as np
 np.sqrt([144,-10,16], where=np.array([144,-10,16]) >= 0)
-```
