@@ -22,8 +22,6 @@ In Dart, **`.toStringAsPrecision()`** is an abstract method used to convert this
 
 ```pseudo
 String toStringAsPrecision(int precision);
-```
-The parameter `precision` must be an integer satisfying: 1 <= precision <= 21.
 
 ## Example
 
