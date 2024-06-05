@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-In JavaScript, the **charCodeAt()** method used with javascript strings returns a positive integer representing the UTF-16 code unit of the character at a specified index in a string. This integer corresponds to the Unicode point of the character.
+In JavaScript, the **`.charCodeAt()`** method, used with strings, returns a positive integer representing the UTF-16 code unit of the character at a specified index in the string. This integer represents the Unicode value of the character.
 
 ## Syntax
 
@@ -20,7 +20,8 @@ In JavaScript, the **charCodeAt()** method used with javascript strings returns 
 string.charCodeAt(index)
 ```
 
-The string is a given variable containing a sentence. The index specified in the `charCodeAt()` method is a number tied to a character in the string.
+- `string:` The string to get the character code from.
+- `index`: The position of the character in the string whose UTF-16 code unit is to be retrieved.
 
 ## Example
 
@@ -39,8 +40,7 @@ This results in the following output:
 
 ## Codebyte Example
 
-```codebyte/js
-# Example runnable code block.
+```codebyte/javascript
 let myStr = 'An example string to show how this works'
-console.log(myStr.charCodeAt(0));
+console.log(myStr.charCodeAt(5));
 ```
