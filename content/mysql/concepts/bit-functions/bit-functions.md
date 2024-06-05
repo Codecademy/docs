@@ -35,7 +35,7 @@ SELECT (expression1 ^ expression2);
 `Bitwise OR |`: It takes two operands and compares them by the bit. If at least one
 of the corresponding bits is 1, result is 1. If both bits are 0, the result is 0.
 
-```mysql
+```psuedo
 SELECT (expression1 | expression2);
 ```
 
