@@ -9,7 +9,6 @@ Tags:
   - 'Graph Objects'
   - 'Data Science'
   - 'Classes'
-  - 'Structure'
 CatalogContent:
 - 'learn-python-3'
 - 'paths/computer-science'
