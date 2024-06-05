@@ -4,7 +4,6 @@ Description: 'Converts this number to a double and returns a string representati
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-  - 'Mobile Development'
 Tags:
   - 'Dart'
   - 'Data Types'
