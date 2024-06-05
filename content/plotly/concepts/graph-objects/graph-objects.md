@@ -11,7 +11,6 @@ Tags:
   - 'Javascript'
   - 'Classes'
   - 'Graphs'
-  - 'Objects'
   - 'Structure'
 CatalogContent:
 - 'learn-python-3'
