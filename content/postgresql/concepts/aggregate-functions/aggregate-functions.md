@@ -16,14 +16,21 @@ In PostgreSQL, aggregate functions calculate values across sets of data and retu
 
 PostgreSQL offers the following aggregate functions:
 
+<<<<<<< HEAD
 - `MAX()` - Computes the maximum of input values of selected. 
 - `MIN()` - Computes the minimum of input values of selected.
 - `SUM()` - Computes the sum of input values. 
+=======
+- `MAX()` - Computes the maximum of input values of selected.
+- `MIN()` - Computes the minimum of input values of selected.
+- `SUM()` - Computes the sum of input values.
+>>>>>>> b7dae76846101ebcc31117da9ab3b4bc945ef46a
 - `COUNT()` - Computes the number of input rows.
 - `AVG()` - Computes the average (arithmetic mean) of all the input values.
 
 ## Example
 
+<<<<<<< HEAD
 Consider the following `sales` table as an example to demonstrate how these aggregate functions work.
 
 | `Transaction_ID` | `Customer` | `Product` | `Quantity` | `Cost` |
@@ -109,26 +116,56 @@ Consider the following `sales` tables as an example to demonstrate how these agg
 | 001 | Kalu | Iphone X | 1 | 44000 |
 | 456 | Isujah | HP Laptop | 1 | 65000 |
 | 026 | Zion | MacBook Air | 3 | 250000 |
+=======
+Consider the following `sales` tables as an example to demonstrate how these aggregate functions work.
+
+| `Transaction_ID` | `Customer` | `Product`   | `Quantity` | `Cost` |
+| ---------------- | ---------- | ----------- | ---------- | ------ |
+| 041              | Varrick    | Iphone Xr   | 2          | 88000  |
+| 021              | Tolf       | Samsung S8  | 2          | 75000  |
+| 033              | Kuvira     | Airpods     | 3          | 4000   |
+| 001              | Kalu       | Iphone X    | 1          | 44000  |
+| 456              | Isujah     | HP Laptop   | 1          | 65000  |
+| 026              | Zion       | MacBook Air | 3          | 250000 |
+>>>>>>> b7dae76846101ebcc31117da9ab3b4bc945ef46a
 
 Let's use this table to explain different PostgreSQL aggregate functions.
 
 ## Max
 
+<<<<<<< HEAD
 ``` sql
 SELECT MAX(Quantity * Cost) AS Max_Spent FROM sales;
 ```
+=======
+```sql
+SELECT MAX(Quantity * Cost) AS Max_Spent FROM sales;
+```
+
+>>>>>>> b7dae76846101ebcc31117da9ab3b4bc945ef46a
 This query calculates the maximum amount spent on a single comodity in the `sales` table by multiplying the `Quantity` column with the `cost` column and then determines the maximum value.
 
 ## Min
 
+<<<<<<< HEAD
 ``` sql
 SELECT MIN(Quantity * Cost) AS Min_Spent FROM sales;
 ```
+=======
+```sql
+SELECT MIN(Quantity * Cost) AS Min_Spent FROM sales;
+```
+
+>>>>>>> b7dae76846101ebcc31117da9ab3b4bc945ef46a
 The minimum amount spent on a single product in the `sales` table is calculated by this query, which multiplies the `Quantity` column with the `Cost` column and then finds the minimum value.
 
 ## Sum
 
+<<<<<<< HEAD
 ``` sql
+=======
+```sql
+>>>>>>> b7dae76846101ebcc31117da9ab3b4bc945ef46a
 SELECT SUM(Quantity * cost) AS Total_Spent FROM sales;
 ```
 
@@ -136,16 +173,30 @@ Calculating the total amount spent on all sales in the sales table involves mult
 
 ## Count
 
+<<<<<<< HEAD
 ``` sql
 SELECT COUNT(*) FROM consumer;
 ```
+=======
+```sql
+SELECT COUNT(*) FROM consumer;
+```
+
+>>>>>>> b7dae76846101ebcc31117da9ab3b4bc945ef46a
 This query returns the total count of records in the `sales` table.
 
 ## Avg
 
+<<<<<<< HEAD
 ``` sql
 SELECT AVG(Quantity * Cost) AS Average_Spent FROM sales;
 ```
+=======
+```sql
+SELECT AVG(Quantity * Cost) AS Average_Spent FROM sales;
+```
+
+>>>>>>> b7dae76846101ebcc31117da9ab3b4bc945ef46a
 This query finds the average amount spent per sale in the sales table by calculating the product of the `Quantity` and `cost` columns for each sale and then averaging these values.
 
 ## GROUP BY
@@ -154,17 +205,28 @@ The `GROUP BY` clause in Postgresql is used to arrange identical data into group
 
 Let's use the `sales` table to find out how much each customer spent in total.
 
+<<<<<<< HEAD
 ``` pseudo
+=======
+```pseudo
+>>>>>>> b7dae76846101ebcc31117da9ab3b4bc945ef46a
 SELECT Customer, SUM(Quantity * cost) AS Total_Spent
 FROM sales
 GROUP BY Customer;
 ```
+<<<<<<< HEAD
 Breaking down the query:
+=======
+
+Breaking down the query:
+
+>>>>>>> b7dae76846101ebcc31117da9ab3b4bc945ef46a
 - `SELECT Customer` specifies the column name to retrieve from the table.
 - `SUM(Quantity * cost) AS Total_Spent` multiplies the `Quantity` and `cost` columns for each sale to calculate the total amount spent by the customer, and names the result column `Total_Spent`.
 - `FROM sales` specifies the table from which the query retrieves the data.
 - `GROUP BY Customer` clause groups the results by the `Customer` column.
 
+<<<<<<< HEAD
 This is the out put of the above query: 
 
 | Customer | Total_Spent |
@@ -175,3 +237,15 @@ This is the out put of the above query:
 | Kalu | 88000 |
 | Isujah | 130000 |
 | Zion | 750000 |
+=======
+This is the out put of the above query:
+
+| Customer | Total_Spent |
+| -------- | ----------- |
+| Varrick  | 176000      |
+| Tolf     | 150         |
+| Kuvira   | 8000        |
+| Kalu     | 88000       |
+| Isujah   | 130000      |
+| Zion     | 750000      |
+>>>>>>> b7dae76846101ebcc31117da9ab3b4bc945ef46a
