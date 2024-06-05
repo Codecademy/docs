@@ -43,3 +43,12 @@ The output is shown below:
 ```shell
 array([3., nan, 5.])
 ```
+
+## Codebyte Example
+
+In this example, an array value is given with a condition to only process numbers above 0.
+
+```codebyte/python
+import numpy as np
+np.sqrt([144,-10,16], where=np.array([144,-10,16]) >= 0)
+```
