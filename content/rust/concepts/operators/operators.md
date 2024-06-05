@@ -1,6 +1,6 @@
 ---
 Title: 'Rust Operators'
-Description: 'Operators in rust perform these operations; arithmetics, comparisons, logical, bitwise, assignment, and range operations on data, instructing compilers and interpreters how to compute specific mathematical or logical operations. 
+Description: 'Rust operators handle arithmetic, comparison, logical, bitwise, assignment, and range operations, guiding compilers and interpreters in computing specific mathematical or logical operations.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -13,12 +13,13 @@ CatalogContent:
 
 ## Rust Operators
 
-In the world of programming and computing, **operators** play a crucial role in instructing compilers and interpreters how to compute specific mathematical or logical operations. Rust categorizes operators by their precedence and associativity, operators are standard symbols used for the purpose of logical and arithmetic operations performed on values and variables. Understanding Rust's operator precedence and associativity helps you write clear and predictable code by ensuring operations are performed in the intended order.
+In programming and computing, **operators** are crucial for instructing compilers and interpreters on specific mathematical or logical operations. Rust categorizes operators by their precedence and associativity, using standard symbols for logical and arithmetic operations on values and variables. Understanding Rust's operator precedence and associativity ensures clear and predictable code, as operations are performed in the intended order.
 
-In this article, we will look into the precedence of operators and the different types of Rust operators and how they are used in code blocks.
+In this article, we will explore operator precedence and the various types of Rust operators, examining their use in code blocks.
 
-Operator precedence determines the order in which a program evaluates different operations in an expression, as operators with higher precedence get evaluated before those with lower precedence. 
-For example, multiplication has higher precedence than addition. Thus, the expression 3 + 2 × 3 is interpreted to have the value 3 + (2 × 3) = 9, and not (3 + 2) × 3 = 15. When exponent is used in the expression, it has precedence over both addition and multiplication.
+Operator precedence dictates the order in which operations in an expression are evaluated. Operators with higher precedence are evaluated before those with lower precedence.
+
+For example, multiplication takes precedence over addition. Therefore, the expression 3 + 2 × 3 is calculated as 3 + (2 × 3) = 9, not (3 + 2) × 3 = 15. The exponent operator takes precedence over both addition and multiplication.
 
 The following table lists the precedence of Rust operators. Operators are listed top to bottom, in descending order:
 
@@ -102,15 +103,14 @@ The following are the types of operators in Rust:
 
 ## Arithmetic Operators
 
-Rust supports several arithmetic operators for performing basic mathematical arithmetic operations like addition, subtraction, multiplication, and division.
-Below is a code block example of Rust's arithmetic operators that perform and print the result of various calculations:
+Rust supports arithmetic operators for basic mathematical operations: addition, subtraction, multiplication, and division.
 
 ``` rust
 fn main() {
   let x = 8;
   let y = 4;
 
-  println!("x = {}, b = {}\n", x, b);
+  println!("x = {}, y = {}\n", x, y);
 
   // Addition
   let result_add = x + y;
@@ -195,7 +195,7 @@ Understanding and using comparison operators correctly is essential in programmi
 
 ## Logical Operators
 
-Logical operators are used to combine or modify two or more boolean expressions, and returns true only when all conditions are true, otherwise returns false.
+Logical operators are used to combine or modify two or more boolean expressions, and return true only when all conditions are true, otherwise return false.
 Rust provides three main logical operators:
 
 - `&&`
@@ -214,7 +214,7 @@ fn main() {
     let z = 18;
 
     // Check if x is less than y and, if y is less than z
-    let result = x < y && y < z;  // true
+    let result_1 = x < y && y < z;  // true
     println!("Result_1: {}", result_1);
 
     // Check if x is greater than y or, if y is greater than z
@@ -222,7 +222,7 @@ fn main() {
     println!("Result_2: {}", result_2);
 
     // Check if x is not equal to y
-    let result3 = x != y;  // true
+    let result_3 = x != y;  // true
     println!("Result_3: {}", result_3);
 }
 ```
@@ -236,7 +236,7 @@ Result_3: true
 
 ## Bitwise Operators
 
-Bitwise operators in Rust perform operations at binary level, manipulating the individual bits of integer values. Bitwise operations involves working with individual bits, which are the smallest units of data in a computer. 
+Bitwise operators in Rust perform operations at binary level, manipulating the individual bits of integer values. Bitwise operations involve working with individual bits, which are the smallest units of data in a computer. 
 Each bit has a single binary value: 0 or 1.
 
 List of available bitwise operators in Rust:
@@ -249,7 +249,7 @@ List of available bitwise operators in Rust:
 - `!`
     Bitwise NOT: It is a unary operator and operates by reversing all the bits in the operand.
 - `>>`
-    Bitwise Rigth shift: The left operand’s value is moved right by the number of bits specified by the right operand.
+    Bitwise Right shift: The left operand’s value is moved right by the number of bits specified by the right operand.
 - `<<`
   Bitwise Left shift: It moves all the bits in its first operand to the left by the number of places specified in the second operand. New bits are filled with zeros. 
 
@@ -259,8 +259,8 @@ These operators are useful in low-level programming, such as when you need to ma
 
 ``` rust
 fn main() {
-  let x = 1100;	// 12 in binary
-  let y = 1010;	// 10 in binary
+  let x = 0b1100;	// 12 in binary
+  let y = 0b1010;	// 10 in binary
 
   // Bitwise AND
   let result_and = x & y;  
@@ -280,11 +280,11 @@ fn main() {
 
   // Left Shift
   let result_left_shift = x << 2;
-  println!("{} << 2 = {}", x, result_left-shift);
+  println!("{} << 2 = {}", x, result_left_shift);
 
   // Right Shift
   let result_right_shift = x >> 2;
-  println!("{} >> 2 = {}", x, result_right-shift);
+  println!("{} >> 2 = {}", x, result_right_shift);
 }
 ```
 
@@ -292,14 +292,15 @@ Output of the bitwise code block operators:
 ``` rust
 x & y = 1000
 x | y = 1110
-x ^ y = 0111
+x ^ y = 0110
 !1100 = 11111111111111111111111111110011
 x << 2 = 110000
 x >> 2 = 0011
 ```
 
 ## Compound Assignment Operators
-Compound assignment operators in Rust combine an arithmetic or bitwise operation with assignment, streamlining the process of modifying the value of a variable. In programming, Instead of separating the operation and assignment, you can use these operators to perform both actions in a single step.
+
+Compound assignment operators in Rust combine an arithmetic or bitwise operation with assignment, streamlining the process of modifying the value of a variable. Instead of separating the operation and assignment, you can use these operators to perform both actions in a single step.
 
 Here are the main compound assignment operators in Rust:
 - `+=`
@@ -351,12 +352,12 @@ fn main() {
   println!("x %= y: {}", x);
 
   // Reset x and y for bitwise operations
-  x = 1010; // 10 in binary
-  y = 1100; // 12 in binary
+  x = 0b1010; // 10 in binary
+  y = 0b1100; // 12 in binary
 
   // Bitwise AND Assignment
   x &= y;  // x = x & y
-  println!("x &= y: {}", x);
+  println!("x &= y: {:b}", x);
 }
 ```
 
@@ -372,4 +373,4 @@ x %= y: 0
 x &= y: 8
 ```
 
-In conclusion, Rust operators play a crucial role in functionality and efficiency, providing a wide array of operations that cater to various programming needs. From arithmetic and comparison to logical and bitwise operators,It ensures developers can perform complex calculations, make decisions, and manipulate data effectively. Understanding and utilizing these operators proficiently empowers developers to write more robust, efficient, and readable code, ultimately enhancing their ability to tackle sophisticated programming challenges.
+In conclusion, Rust operators play a crucial role in functionality and efficiency, providing a wide array of operations that cater to various programming needs. From arithmetic and comparison to logical and bitwise operators, they ensure developers can perform complex calculations, make decisions, and manipulate data effectively. Understanding and utilizing these operators proficiently empowers developers to write more robust, efficient, and readable code, ultimately enhancing their ability to tackle sophisticated programming challenges.
