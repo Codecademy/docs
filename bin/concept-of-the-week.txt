@@ -1,1 +1,1 @@
-content/general/concepts/bot/bot.md
+content/markdown/concepts/links/links.md
