@@ -8,7 +8,6 @@ Tags:
   - 'Plotly'
   - 'Graph Objects'
   - 'Data Science'
-  - 'Javascript'
   - 'Classes'
   - 'Structure'
 CatalogContent:
