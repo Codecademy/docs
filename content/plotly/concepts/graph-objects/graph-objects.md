@@ -1,6 +1,6 @@
 ---
 Title: 'Graph Objects'
-Description: 'Classes in the Plotly library for creating and manipulating complex plots and visualizations.'
+Description: 'Classes in the Plotly library are used for creating and manipulating complex plots and visualizations.'
 Subjects:
   - 'Data Visualization'
   - 'Data Science'
