@@ -1,14 +1,14 @@
 ---
 Title: '.inv()'
 Description: 'Inverts a given matrix and returns the inverted matrix.'
-Subjects: 
+Subjects:
   - 'Computer Science'
   - 'Data Science'
-Tags: 
+Tags:
   - 'Arrays'
   - 'Functions'
   - 'NumPy'
-CatalogContent: 
+CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
 ---
@@ -33,7 +33,7 @@ The following example demonstrates the usage of the `.inv()` function:
 
 ```py
 import numpy as np
- 
+
 array =  np.array([[2., 3.], [1., 4.]])
 array2 = np.array([[[2., 3.], [1., 4.]], [[6., 4.], [10., 10.]]])
 
@@ -49,11 +49,11 @@ print(np.linalg.inv(array2))
 The output for the above code is as follows:
 
 ```shell
-One matrix: 
+One matrix:
 [[ 0.8 -0.6]
  [-0.2  0.4]]
 
-Two matrices: 
+Two matrices:
 [[[ 0.8 -0.6]
   [-0.2  0.4]]
 
@@ -68,7 +68,7 @@ Run the following codebyte example of the `.inv()` function, to better understan
 ```codebyte/py
 import numpy as np
 
-array =  np.array([[2., 4.], [1., 2.]]) 
+array =  np.array([[2., 4.], [1., 2.]])
 
 # The determinant is zero since the above matrix is singular
 
