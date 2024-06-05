@@ -33,9 +33,12 @@ In Python, the **`graph_objects`** module in Plotly is used for creating and man
 - Figures
 - Traces
 - Layout
+
 ## Figures
 The central object in `graph_objects` is the `Figure`, which contains both data (traces) and layout.
+
 ## Example
+
 ```py
 import plotly.graph_objects as go
 
