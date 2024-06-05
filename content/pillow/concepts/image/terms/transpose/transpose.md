@@ -8,6 +8,7 @@ Tags:
   - 'Methods'
   - 'Functions'
   - 'Libraries'
+  - 'Pillow'
 CatalogContent:
   - 'learn-Python-3'
   - 'paths/computer-science'
