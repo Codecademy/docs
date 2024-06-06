@@ -2,5 +2,5 @@ In Python, the Pillow library is an advanced image processing tool designed to s
 
 ## Syntax
 ```
-from PIL import Imageg
+from PIL import Image
 ```
