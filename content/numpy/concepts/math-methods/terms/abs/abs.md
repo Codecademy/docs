@@ -16,12 +16,12 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-The **`.abs()`** function is used to calculate the absolute value of a number or the absolute value of all of the elements in an array. The absolute value of a number is the number but without a sign, or the number's distance from zero. `.abs()` can also compute the absolute value of complex numbers in the form of $a + bi$ by computing $\sqrt{a^2 + b^2}$. Additionally, `.absolute()` can be used instead of `.abs()`.
+The **`.abs()`** function calculates the absolute value of a number or the absolute value of all of the elements in an array. The absolute value of a number is the number but without a sign, or the number's distance from zero. `.abs()` can also compute the absolute value of complex numbers in the form of $a + bi$ by computing $\sqrt{a^2 + b^2}$. Additionally, `.absolute()` can be used instead of `.abs()`.
 
 ## Syntax
 
 ```psuedo
-numpy.absolute(array, out=None, where=True)
+`numpy.absolute(array, out=None, where=True)`
 ```
 
 - `array`: The number or an array containing the elements to which the absolute value will be computed.
@@ -62,7 +62,7 @@ Output:
 
 ## Example 3
 
-This example shows the `out` parameter of `.abs()` being used to specifiy the variable that the result is sent to:
+This example shows how the `out` parameter of `.abs()` is used to specifiy the variable that the result is sent to:
 
 ```py
 import numpy as np
@@ -76,11 +76,11 @@ Output:
 ```shell
 [1. 1.5 0. 3.]
 ```
-> **Note:** The `out` variable must be the same size and type as the input array.
+> **Note:** The `out` variable must be the same size and type as the input array to avoid unexpected errors.
 
 ## Example 4
 
-This example shows the `where` parameter of `.abs()` being used to specifiy which elements of the array undergo the absolute value function:
+This example shows how the `where` parameter of `.abs()` is used to specfiy which elements of the array undergo the absolute value function:
 
 ```py
 import numpy as np
