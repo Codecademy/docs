@@ -1,4 +1,22 @@
-In Python, the Pillow library is an advanced image processing tool designed to simplify the manipulation and editing of images by providing a wide range of easy-to-use functions for tasks such as opening, saving, filtering, enhancing, and transforming images, allowing users to perform complex image processing with minimal code.
+---
+Title: 'Image'
+Description: 'The Image module in Pillow is used for image processing tasks in Python, offering functionalities like opening, editing, and saving images in different formats, as well as applying filters, resizing, and accessing pixel data.'
+Subjects:
+  - 'Computer Science'
+  - 'Data Science'
+  - 'Data Visualization'
+Tags:
+  - 'Images'
+  - 'Modules'
+  - 'Pilow'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/computer-science'
+  - 'paths/data-science'
+  - 'paths/data-science-foundations'
+---
+
+The **Image** module in Pillow, a popular Python library for image processing, provides a comprehensive suite of tools for opening, creating, manipulating, and saving images in various formats. It allows users to perform a wide range of operations such as resizing, cropping, rotating, and flipping images. Additionally, the module supports converting images between different modes (e.g., RGB to grayscale) and accessing or modifying individual pixels, making it a powerful and versatile tool for handling image data in Python applications.
 
 ## Syntax
 ```
