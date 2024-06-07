@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.exp()`** function in NumPy calculates the exponential of all elements in the input array. The exponential function, `.exp(𝑥)`, returns `e^x` , where `𝑒` is Euler's number, approximately 2.71828. As a part of the NumPy library, which is widely used for numerical computing in Python, this function is particularly useful in scientific computations where exponential functions are common.
+The **`.exp()`** function in NumPy calculates the exponential of all elements in the input array. The exponential function, `.exp(𝑥)`, returns `e^x` , where `e` is Euler's number, approximately 2.71828. As a part of the NumPy library, which is widely used for numerical computing in Python, this function is particularly useful in scientific computations where exponential functions are common.
 
 ## Syntax
 
