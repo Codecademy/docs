@@ -1,12 +1,12 @@
 ---
 Title: '.padEnd()'
-Description: 'Pads a string with a given string several times until it reaches the given length.'
+Description: 'Pads a string with a given string several times until the resulting string reaches the specified length.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
 Tags:
-  - 'Strings'
   - 'Methods'
+  - 'Strings'
 CatalogContent: 
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
@@ -17,14 +17,14 @@ In JavaScript, the **`padEnd()`** method is used with javascript strings to pad 
 ## Syntax
 
 ```pseudo
-string.padEnd(length, padStr)
+string.padEnd(targetLength, padString)
 ```
 
-The string is a given variable containing a sentence, the length parameter is the value the string needs to reach and padStr is the string character to add to the given string until it reaches the desired length. >**Note** if you wish to use this method with a number, you must convert to a string.
+The string is a given variable containing a sentence, the `targetLength` parameter is the number of character the string needs to reach. `padString` is the string character to add to the given string until it reaches the desired length. >**Note** if you wish to use this method with a number, you must convert to a string.
 
 ## Example
 
-In the following example, a string variable called `text` contains a sentence. The `padEnd()` method is used to pad the text out to the specified length.
+In the following example, a string variable called `text` contains the sentence 'hello world'. The `.padEnd()` method is used to append more characters (in this example exclamation marks) to the end of the text, until it reaches the specified length of 15 characters.
 
 ```js
 let text = 'hello world'
@@ -39,8 +39,7 @@ This results in the following output:
 
 ## Codebyte Example
 
-```codebyte/js
-##Example runnable code block.
+```codebyte/javascript
 let myStr = 'This is a testing string'
-console.log(myStr.padEnd(30, '!'));
+console.log(myStr.padEnd(30, 'x'));
 ```
