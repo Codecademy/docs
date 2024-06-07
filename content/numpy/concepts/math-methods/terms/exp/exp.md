@@ -13,22 +13,22 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.exp`** function in NumPy calculates the exponential of all elements in the input array. As a part of the NumPy library, which is widely used for numerical computing in Python, this function is particularly useful in scientific computations where exponential functions are common.
+The **`.exp()`** function in NumPy calculates the exponential of all elements in the input array. The exponential function, `.exp(𝑥)`, returns `e^x` , where `𝑒` is Euler's number, approximately 2.71828. As a part of the NumPy library, which is widely used for numerical computing in Python, this function is particularly useful in scientific computations where exponential functions are common.
 
 ## Syntax
 
 ```pseudo
-numpy.exp(arr, out = None, where = True, casting = ‘same_kind’, order = ‘K’, dtype = None)
+numpy.exp(arr, out=None, where=True, casting=‘same_kind’, order=‘K’, dtype=None)
 ```
 
-- `arr`: Input array. The elements of the array can be any real numbers. Type - (`array_like`)
-- `out`: A location to store the result. Must be broadcastable to the shape of `arr`. Type - (`ndarray` or None, optional)
-- `where`: Condition to apply the exponential. `True` values will be computed. Type - (`array_like`, optional)
-- `casting`: Rules for casting data types. Type - (`{'no', 'equiv', 'safe', 'same_kind', 'unsafe'}`, optional)
-- `order`: Memory layout order for the output. Type - (`{'C', 'F', 'A', 'K'}`, optional)
-- `dtype`: Desired output data type. Type - (`data-type`, optional)
+- `arr`: Input values, which can be an array or list for computing the exponential.
+- `out`: A location to store the result. Must be broadcastable to the shape of `arr`. 
+- `where`: Condition to apply the function where `True`, retaining original values where `False`.
+- `casting`: Controls the type of data casting that may occur. Default is `same_kind`.
+- `order`: Defines the memory layout order of the result: `C` for C-order, `F` for Fortran-order, `A` for automatic, `K` for input layout.
+- `dtype`: Overrides the data type of the result array.
 
->**Note:** The `.exp()` function computes the exponential of each element in the input array array. The exponential function, `.exp(𝑥)`, returns `e^x` , where `𝑒` is Euler's number, approximately 2.71828. 
+> Note: In the `.exp()` function, the only mandatory parameter is `arr`. All other parameters, including `out`, `where`, `casting`, `order`, and `dtype`, are optional and have default values. 
 
 ## Example
 
@@ -49,7 +49,7 @@ print("Exponential of input array:", result)
 
 The code above produces the following output:
 
-```
+```shell
 Exponential of input array: [  1.    2.71828183   7.3890561   20.08553692]
 ```
 
@@ -62,11 +62,9 @@ Here is a working code snippet demonstrating the `exp` function in action:
 ```codebyte/python
 import numpy as np
 
-# Create and print an input array
 in_array = [1, 3, 5]
 print ("Input array : ", in_array)
  
-# Calculate and print the result 
 out_array = np.exp(in_array)
 print ("Output array : ", out_array)
 ```
