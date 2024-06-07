@@ -55,7 +55,7 @@ Exponential of input array: [  1.    2.71828183   7.3890561   20.08553692]
 
 In this example, the `exp` function is used to compute the exponential of each element in the array `[0, 1, 2, 3]`. The output shows the result of applying the exponential function to each element of the array.
 
-## Python Codebyte
+## Codebyte Example
 
 Here is a working code snippet demonstrating the `exp` function in action:
 
