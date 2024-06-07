@@ -40,7 +40,7 @@ import numpy as np
 # Create an input array
 arr = np.array([0, 1, 2, 3])
 
-# Calculate the exponential of each element in the array
+# Compute the exponential of each element in the array
 result = np.exp(arr)
 
 # Print the result
