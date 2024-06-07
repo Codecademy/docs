@@ -1,4 +1,17 @@
-# `exp`
+---
+Title: '.exp()'
+Description: 'Computes the exponential of all elements in the input array'
+Subjects:
+  - 'Computer Science'
+  - 'Data Science'
+Tags:
+  - 'Arrays'
+  - 'Functions'
+  - 'NumPy'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/data-science'
+---
 
 ## Introduction
 
