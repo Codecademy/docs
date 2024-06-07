@@ -28,9 +28,7 @@ numpy.exp(arr, out = None, where = True, casting = ‘same_kind’, order = ‘K
 - `order`: Memory layout order for the output. Type - (`{'C', 'F', 'A', 'K'}`, optional)
 - `dtype`: Desired output data type. Type - (`data-type`, optional)
 
-### Explanation
-
-The `exp` function computes the exponential of each element in the input array `arr`. The exponential function, \(\exp(x)\), returns \(e^x\), where \(e\) is Euler's number (approximately 2.71828).
+>**Note:** The `.exp()` function computes the exponential of each element in the input array array. The exponential function, `.exp(𝑥)`, returns `e^x` , where `𝑒` is Euler's number, approximately 2.71828. 
 
 ## Example
 
