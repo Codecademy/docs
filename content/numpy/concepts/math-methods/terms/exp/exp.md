@@ -47,7 +47,7 @@ result = np.exp(arr)
 print("Exponential of input array:", result)
 ```
 
-### Output
+The code above produces the following output:
 
 ```
 Exponential of input array: [  1.    2.71828183   7.3890561   20.08553692]
