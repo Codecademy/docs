@@ -32,7 +32,7 @@ numpy.exp(arr, out = None, where = True, casting = ‘same_kind’, order = ‘K
 
 ## Example
 
-Here is an example demonstrating the use of the `exp` method:
+Here is an example demonstrating the use of the `.exp()` function:
 
 ```py
 import numpy as np
