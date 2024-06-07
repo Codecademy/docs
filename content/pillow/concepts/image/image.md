@@ -22,3 +22,5 @@ The **Image** module in Pillow, a popular Python library for image processing, p
 ```
 from PIL import Image
 ```
+
+This statement imports the Image module specifically from the Pillow library, which is a fork of the Python Imaging Library (PIL).
