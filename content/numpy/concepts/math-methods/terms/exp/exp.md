@@ -13,8 +13,6 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-## Introduction
-
 The `exp` function in NumPy is used to calculate the exponential of all elements in the input array. This function is a part of the NumPy library, which is widely used for numerical computing in Python. The `exp` function is particularly useful in scientific computations where exponential functions are common.
 
 ## Syntax
