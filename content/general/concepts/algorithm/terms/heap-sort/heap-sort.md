@@ -20,7 +20,7 @@ The reason of its efficiency lies in using the Heap structure. The Heap is actua
 You may wonder how the heap can be represented in an array. Basically the root node is the first element (where index = 0) and the last element of a heap is also the last element of the array. In a simplified way all levels of the heap are piled up to the array by their order from the top to the ground. Each node is followed by its right neighbour and at the end of a level it jumps down one row to the first left node in the row.
 
 <!-- ![heap in an array](https://raw.githubusercontent.com/Codecademy/docs/main/media/heap_in_array.jpg) -->
-![heap in an array](https://raw.githubusercontent.com/janprovaznik4/docs/main/media/heap_in_array.jpg)
+![heap in an array](https://github.com/janprovaznik4/docs/blob/alghoritms-heap-sort/media/heap_in_array.jpg)
 
 ## Explanation
 
@@ -47,7 +47,7 @@ A brief explanation of the Heap Sort algorithm steps:
 **Animation of Heap Sort:**
 
 <!-- ![Heap Sort](https://raw.githubusercontent.com/Codecademy/docs/main/media/heap_sort_animation.gif) -->
-![Heap Sort](https://raw.githubusercontent.com/janprovaznik4/docs/main/media/heap_sort_animation.gif)
+![Heap Sort](https://github.com/janprovaznik4/docs/blob/alghoritms-heap-sort/media/heap_sort_animation.gif)
 
 ## Example
 
