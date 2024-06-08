@@ -46,5 +46,5 @@ im = Image.open("docs/content/pillow/concepts/image/bird-thumbnail.jpg")
 
 # Flip image
 out = im.transpose(PIL.Image.FLIP_LEFT_RIGHT)
-out.save('docs/content/pillow/concepts/image/output.png')
+out.save("docs/content/pillow/concepts/image/output.png")
 ```
