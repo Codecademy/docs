@@ -1,6 +1,6 @@
 ---
 Title: '.padEnd()'
-Description: 'Pads a string with a given string several times until the resulting string reaches the specified length.'
+Description: 'Pads a string with a given string until the resulting string reaches the specified length.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-In JavaScript, the **`padEnd()`** method is used with javascript strings to pad the end of a string with another string, until it reaches a specified length. It was introduced with ECMAScript 2017.
+In JavaScript, the **`.padEnd()`** method is used with JavaScript strings to pad the end of a string with another string, until it reaches a specified length. It was introduced with ECMAScript 2017.
 
 ## Syntax
 
@@ -20,7 +20,9 @@ In JavaScript, the **`padEnd()`** method is used with javascript strings to pad 
 string.padEnd(targetLength, padString)
 ```
 
-The string is a given variable containing a sentence, the `targetLength` parameter is the number of character the string needs to reach. `padString` is the string character to add to the given string until it reaches the desired length. >**Note** if you wish to use this method with a number, you must convert to a string.
+- `string`: The original string to be padded.
+- `targetLength`: The desired length of the resulting string after padding.
+- `padString`: The string to pad the original string with, defaulting to a space if not provided.
 
 ## Example
 
