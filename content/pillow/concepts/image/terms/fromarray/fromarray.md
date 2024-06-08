@@ -32,6 +32,7 @@ Image.fromarray(obj_array, mode="CMYK")
 - `mode`: It is an optional parameter that defines the type and depth of a pixel in the image that will be created. If `mode` is not used, the new image will be stored as is.
 
 The `mode` parameter can take the following values:
+
 - `CMYK`: It represents the color palette made from base colors Cyan, Magenta, Yellow, and Key(black). Each color has an 8-bit pixel to store its value, which means `CMYK` has 4x8-bit pixels to store the values.
 - `RGB`: It represents the color palette made from Red, Green, and Blue colors. It has 3x8-bit pixels available to store the values.
 - `L`: It represents grayscale or shade of gray from white to black. It only has an 8-bit pixel to store its value.
