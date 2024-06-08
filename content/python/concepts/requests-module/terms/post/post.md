@@ -24,7 +24,7 @@ import requests
 requests.post("url", **kwargs)
 ```
 
-`**kwargs` are any number of [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries) items (named arguments) that are passed in as parameters. Many different named parameters can be passed in to a `POST` request. For example, they can be used to include cookies in the request, set proxies, set headers, or set a page timeout.
+`**kwargs` are any number of [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries) items (named arguments) that are passed in as parameters. Many different named parameters can be passed into a `POST` request. For example, they can be used to include cookies in the request, set proxies, set headers, or set a page timeout.
 
 ## Example
 

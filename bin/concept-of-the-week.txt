@@ -1,1 +1,1 @@
-content/uiux/concepts/visual-design/visual-design.md
+content/markdown/concepts/links/links.md
