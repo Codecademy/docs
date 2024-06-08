@@ -19,7 +19,8 @@ The reason of its efficiency lies in using the Heap structure. The Heap is actua
 
 You may wonder how the heap can be represented in an array. Basically the root node is the first element (where index = 0) and the last element of a heap is also the last element of the array. In a simplified way all levels of the heap are piled up to the array by their order from the top to the ground. Each node is followed by its right neighbour and at the end of a level it jumps down one row to the first left node in the row.
 
-![heap in an array](https://raw.githubusercontent.com/Codecademy/docs/main/media/heap_in_array.jpg)
+<!-- ![heap in an array](https://raw.githubusercontent.com/Codecademy/docs/main/media/heap_in_array.jpg) -->
+![heap in an array](https://raw.githubusercontent.com/janprovaznik4/docs/main/media/heap_in_array.jpg)
 
 ## Explanation
 
@@ -30,8 +31,6 @@ A brief explanation of the Heap Sort algorithm steps:
 - The Heapify process rests upon building a structure of parents and descendants where parent can be calculated as **(i - 1) / 2** where _i_ is an index of a descendant and simultaneously the left descendant can be calculated as **(2\*j + 1)** and the right descendant as **(2\*j + 2)** where _j_ is the index of the parent.
 
 - Building of the heap itself is usually written in an **up** method which checks each node if it doesn't violate the rule mentioned in the point above (if it isn't greater than its parent). To prevent from transferring the problem just a level up the check has to be called in a cycle for each node. When the checking cycle reach the end of the array we can be sure it's heapified.
-
-_image of heapify_
 
 - Heap sort is an in-place comparison sorting algorithm: This means that it doesn't require additional memory beyond the input array and elements are compared to determine their relative order.
 
@@ -47,7 +46,8 @@ _image of heapify_
 
 **Animation of Heap Sort:**
 
-![Heap Sort](https://raw.githubusercontent.com/Codecademy/docs/main/media/heap_sort_animation.gif)
+<!-- ![Heap Sort](https://raw.githubusercontent.com/Codecademy/docs/main/media/heap_sort_animation.gif) -->
+![Heap Sort](https://raw.githubusercontent.com/janprovaznik4/docs/main/media/heap_sort_animation.gif)
 
 ## Example
 
@@ -64,7 +64,7 @@ public class HeapSort {
                 System.out.print(i + " ");
             }
     }
-    //the main method of the algorithm
+    
     public static void heapSort(int[] list) {
         heapify(list);
         int index = list.length - 1; //index of the last element
