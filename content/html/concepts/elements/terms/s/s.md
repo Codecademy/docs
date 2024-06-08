@@ -19,7 +19,7 @@ The **`<s>`** element represents strike-through text that is no longer needed, a
 
 ```pseudo
 <s>
-  <!-- Incorrect, inaccurate, and unneccesary text here -->
+  <!-- Incorrect, inaccurate, and unnecessary text here -->
 </s>
 ```
 

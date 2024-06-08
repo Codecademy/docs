@@ -150,7 +150,7 @@ Program exited.
 ## Anonymous Functions
 
 Anonymous functions are similar to normal functions, but do not have a name. They can be called immediately after being defined.
-Anyonymous functions can be passed as parameters to another function.
+Anonymous functions can be passed as parameters to another function.
 They are also called closure/function literals.
 
 Below is an example of an anonymous function:
@@ -232,7 +232,7 @@ func Println(a ...any) (n int, err error) {
 
 **Implicit dereferencing** refers to the automatic process of taking the address of a value and passing a pointer to a method when a method with a pointer receiver is called on that value.
 
-In Go, the complier does this automatically.
+In Go, the compiler does this automatically.
 
 Below is an example of methods in Go:
 
