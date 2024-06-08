@@ -7,7 +7,7 @@ Subjects:
 Tags:
   - 'Methods'
   - 'Strings'
-CatalogContent: 
+CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
@@ -29,8 +29,8 @@ string.padEnd(targetLength, padString)
 In the following example, a string variable called `text` contains the sentence 'hello world'. The `.padEnd()` method is used to append more characters (in this example exclamation marks) to the end of the text, until it reaches the specified length of 15 characters.
 
 ```js
-let text = 'hello world'
-console.log(text.padEnd(15, '!'))
+let text = 'hello world';
+console.log(text.padEnd(15, '!'));
 ```
 
 This results in the following output:
