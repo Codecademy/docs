@@ -41,7 +41,7 @@ import (
   "fmt"
 )
 
-// Parentheses can be omitted if there is only one parameter
+// Parentheses can be omitted in returnValue space "string" if there is only one parameter
 func Hello(name string) string {
   return "This is being returned with no parentheses. " + name
 }
