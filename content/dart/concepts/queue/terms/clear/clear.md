@@ -1,32 +1,33 @@
 ---
 Title: '.clear()'
-Description: 'A method that removes all elements in a queue.'
+Description: 'A method that removes all elements in the queue.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
-  - 'Methods'
+  - 'Collections'
   - 'Dart'
-  - 'Classes'
+  - 'Data Structures'
+  - 'Methods'
   - 'Queues'
 CatalogContent:
   - 'learn-dart'
   - 'paths/computer-science'
 ---
 
-In Dart, the **`.clear()`** method in Queue removes all elements in the queue. The size of the queue becomes zero.
+In Dart, the **`.clear()`** method removes all elements in the queue. After invoking this method, the queue will be empty, and its size will be zero.
 
-The `.clear()` method is a (`void`) method that doesn't return anything and doesn't take any arguments.
+The `.clear()` method is a (`void`) method that does not return any value and does not accept any arguments.
 
 ## Syntax
 
-Calling the `.clear()` method to clear the queue `myQueue`:
-
-> **Note:** To use a queue in a Dart program, we have to import the `dart:collection` module.
+To call the `.clear()` method and clear a queue named `myQueue`, the syntax is as follows:
 
 ```pseudo
 myQueue.clear();
 ```
+
+> **Note:** To use a queue in a Dart program, it is necessary to import the `dart:collection` module.
 
 ## Example
 
@@ -40,11 +41,11 @@ void main()
   // Creating a queue
   Queue<int> myQueue = new Queue<int>();
 
-  // Adding elements to myQueue
+  // Inserting elements in the myQueue
   myQueue.addAll([1, 2, 3, 4, 5, 6]);
   print("Queue before clearing: $myQueue");
 
-  // Clear the myQueue
+  // removing all elements in the myQueue
   myQueue.clear();
   print("Queue after clearing: $myQueue");
 }
