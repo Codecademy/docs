@@ -13,41 +13,39 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Heap sort** belongs among smart algorithms and is way faster than simple sorting algorithms like Bubble Sort, Insertion Sort or Selection Sort. It evolves an idea of the Selection Sort thus tears away _an extreme_ (let's consider only a maximum in this explanation but it works analogous to a minimum) and moves it to the end of an array. After integrating of all maximums to the end the array is sorted for sure. The main advantage of the Heap sort over the Selection Sort is just in a search of the extreme.
+**Heap sort** belongs among smart algorithms and is way faster than simple sorting algorithms like Bubble Sort, Insertion Sort or Selection Sort. It evolves an idea of the Selection Sort thus tears away _an extreme_ (let's consider only a maximum in this explanation but it works analogously to a minimum) and moves it to the end of an array. After integrating of all maximums to the end the array is sorted for sure. The main advantage of the Heap sort over the Selection Sort is just in search of the extreme.
 
-The reason of its efficiency lies in using the Heap structure. The Heap is actually a binary tree. It means all levels of such tree are fully occupied except for the last one which can be filled only partially and is always filled from the left side. Each node has just 2 descendants and that is called "balanced binary tree". Finally the descendants must be less or equal to its parent node. From these attributes emerges a fact that the root node has to be the maximum.
+The reason for its efficiency lies in using the Heap structure. The Heap is a binary tree. It means all levels of such tree are fully occupied except for the last one which can be filled only partially and is always filled from the left side. Each node has just 2 descendants and that is called a "balanced binary tree". Finally, the descendants must be less or equal to its parent node. From these attributes emerges the fact that the root node has to be the maximum.
 
-You may wonder how the heap can be represented in an array. Basically the root node is the first element (where index = 0) and the last element of a heap is also the last element of the array. In a simplified way all levels of the heap are piled up to the array by their order from the top to the ground. Each node is followed by its right neighbour and at the end of a level it jumps down one row to the first left node in the row.
+You may wonder how the heap can be represented in an array. The root node is the first element (where index = 0) and the last element of a heap is also the last element of the array. In a simplified way all levels of the heap are piled up to the array by their order from the top to the ground. Each node is followed by its right neighbor and at the end of a level it jumps down one row to the first left node in the row.
 
-<!-- ![heap in an array](https://raw.githubusercontent.com/Codecademy/docs/main/media/heap_in_array.jpg) -->
-![heap in an array](https://github.com/janprovaznik4/docs/blob/alghoritms-heap-sort/media/heap_in_array.jpg)
+![heap in an array](https://raw.githubusercontent.com/Codecademy/docs/main/media/heap_in_array.jpg)
 
 ## Explanation
 
 A brief explanation of the Heap Sort algorithm steps:
 
-- Initially the input array needs to be heapified. That means we need to build a heap from the unsorted array. What is the heap and how can it be represented by an array is explained above. Remind that the heapified array is not sorted yet!
+- Initially, the input array needs to be heapified. That means we need to build a heap from the unsorted array. What is the heap and how can it be represented by an array is explained above. Remind that the heapified array is not sorted yet!
 
-- The Heapify process rests upon building a structure of parents and descendants where parent can be calculated as **(i - 1) / 2** where _i_ is an index of a descendant and simultaneously the left descendant can be calculated as **(2\*j + 1)** and the right descendant as **(2\*j + 2)** where _j_ is the index of the parent.
+- The Heapify process rests upon building a structure of parents and descendants where a parent can be calculated as **(i - 1) / 2** where _i_ is an index of a descendant and simultaneously the left descendant can be calculated as **(2\*j + 1)** and the right descendant as **(2\*j + 2)** where _j_ is the index of the parent.
 
-- Building of the heap itself is usually written in an **up** method which checks each node if it doesn't violate the rule mentioned in the point above (if it isn't greater than its parent). To prevent from transferring the problem just a level up the check has to be called in a cycle for each node. When the checking cycle reach the end of the array we can be sure it's heapified.
+- Building of the heap itself is usually written in an **up** method which checks each node if it doesn't violate the rule mentioned in the point above (if it isn't greater than its parent). To prevent transferring the problem just a level up the check has to be called in a cycle for each node. When the checking cycle reaches the end of the array we can be sure it's heapified.
 
 - Heap sort is an in-place comparison sorting algorithm: This means that it doesn't require additional memory beyond the input array and elements are compared to determine their relative order.
 
-- Sorting of the heap is basically made by Selection sort. The array is divided into two parts (two subarrays): the unsorted subarray at the beginning and the sorted subarray at the end. Initially, the sorted subarray is empty, and the unsorted subarray contains all the elements. The sorted subarray gradually grows and the unsorted subarray shrinks until no elements remain in the unsorted part. The main advantage compared to Selection sort is finding of the maximum which takes a constant time because it lies on the index "0". Swapping of the last node to the root (mentioned below) is also constant.
+- The sorting of the heap is basically made by the Selection sort. The array is divided into two parts (two subarrays): the unsorted subarray at the beginning and the sorted subarray at the end. Initially, the sorted subarray is empty, and the unsorted subarray contains all the elements. The sorted subarray gradually grows and the unsorted subarray shrinks until no elements remain in the unsorted part. The main advantage compared to Selection sort is finding the maximum which takes a constant time because it lies on the index "0". Swapping of the last node to the root (mentioned below) is also constant.
 
-- Heap sort run on a heap tears away the maximum (the root node) and puts it to the end of the sorted subarray. Then it moves the last node to the root (as mentioned above). After such swapping the heap becomes "broken" and needs to be heapified again. For this purpose is usually used a **down** method which repairs the heap. The method is analogous to the **up** method. It is called on the root node and when it finds a descendant greater than the root it swaps it (if both descendant are greater it chooses the greater one). Again to prevent from transferring the problem just a level down the check has to be called. This time we check if descendant nodes aren't greater than parents (how to find them is explained above). If they don't pass the check the swap must be made. We repeat that in each level if necessary but not for each node as in the **up** method so that is the point where the complexity is reduced.
+- Heap sort run on a heap tears away the maximum (the root node) and puts it to the end of the sorted subarray. Then it moves the last node to the root (as mentioned above). After such swapping the heap becomes "broken" and needs to be heapified again. For this purpose is usually used a **down** method which repairs the heap. The method is analogous to the **up** method. It is called on the root node and when it finds a descendant greater than the root it swaps it (if both descendants are greater it chooses the greater one). Again to prevent transferring the problem just a level down the check has to be called. This time we check if descendant nodes aren't greater than parents (how to find them is explained above). If they don't pass the check the swap must be made. We repeat that in each level if necessary but not for each node as in the **up** method so that is the point where the complexity is reduced.
 
-- Given that the algorithm has a time complexity of _O(n*log n)_ in all cases, where _n_ is the number of elements in the array. It performs _n_ iterations of the **up** method (to build a heap) and _log n_ factor comes from the height of the binary heap (a count of its levels). 
+- Given that the algorithm has a time complexity of _O(n*log n)_ in all cases, where _n_ is the number of elements in the array. It performs _n_ iterations of the **up** method (to build a heap) and the _log n_ factor comes from the height of the binary heap (a count of its levels). 
 
-- This makes the algorithm efficient for large input sizes. Compared to other smart sorting algorithms Heap Sort might be better understandable because there is no need for using more advanced concepts such as recursions. Memory requirements can be also minimal (compared to Merge Sort which needs additonal memory).
+- This makes the algorithm efficient for large input sizes. Compared to other smart sorting algorithms Heap Sort might be better understandable because there is no need for using more advanced concepts such as recursions. Memory requirements can also be minimal (compared to Merge Sort which needs additional memory).
 
-- On the other hand it is unstable (it may rearrange the relative order) and slower than the other smart sorting algorithms. Typically 2-3 times slower than well-implemented QuickSort.
+- On the other hand, it is unstable (it may rearrange the relative order) and slower than the other smart sorting algorithms. Typically 2-3 times slower than well-implemented QuickSort.
 
 **Animation of Heap Sort:**
 
-<!-- ![Heap Sort](https://raw.githubusercontent.com/Codecademy/docs/main/media/heap_sort_animation.gif) -->
-![Heap Sort](https://github.com/janprovaznik4/docs/blob/alghoritms-heap-sort/media/heap_sort_animation.gif)
+![Heap Sort](https://raw.githubusercontent.com/Codecademy/docs/main/media/heap_sort_animation.gif)
 
 ## Example
 
