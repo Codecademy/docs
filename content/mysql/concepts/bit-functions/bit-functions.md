@@ -9,7 +9,7 @@ Tags:
   - 'bit functions'
 CatalogContent:
   - 'getting-started-off-platform-for-data-science'
-  - 'paths/design-databases-with-mysql'  
+  - 'paths/design-databases-with-mysql'
 ---
 
 MySQL bit-functions are used to perform operations on binary data at the bit level.
@@ -72,12 +72,12 @@ SELECT *
 ```
 
 From the table, a query takes rows from the name where the XOR comparison of labels with 3 results in a value greater than 5.
-id|name  |labels
+id|name |labels
 --|------|-----
 1 | post1| 5
-  |      |
+| |
 2 | post2| 3
-  |      |
+| |
 3 | post3| 12
 
 Performed XOR operations are explained bellow:
@@ -96,10 +96,10 @@ Labels value 12 is represented by 1100 and XOR comparison is:
 
 The result looks like:
 
-id | name  | labels
----|-------|-------
- 1 | post1 | 5
- 3 | post3 | 12
+| id  | name  | labels |
+| --- | ----- | ------ |
+| 1   | post1 | 5      |
+| 3   | post3 | 12     |
 
 This basic XOR operation example illustrates a bit level comparison of two integer literals (5 and 0):
 
@@ -120,12 +120,12 @@ Comparison of each bit position:
 
 When comparing these two integer literals, the result is 5:
 
-Bit Position| 2 1 0
-------------|------
-5 (decimal) | 1 0 1
-0 (decimal) | 0 0 0
-XOR Result  | 1 0 1
-  
+| Bit Position | 2 1 0 |
+| ------------ | ----- |
+| 5 (decimal)  | 1 0 1 |
+| 0 (decimal)  | 0 0 0 |
+| XOR Result   | 1 0 1 |
+
 In next example is needed to perform the bitwise OR operation between the decimal integers 9 and 5 retrieved from a table.
 
 ```mysql
@@ -134,19 +134,20 @@ SELECT (9 | 5) AS result;
 
 - 9 in binary: 1001
 - 5 in binary: 0101
-The result of the bitwise OR operation is 1101 in binary, which is equivalent to the decimal number 13.
+  The result of the bitwise OR operation is 1101 in binary, which is equivalent to the decimal number 13.
 
 In this example we have a table called customers which contains a list of customers IDs as integers.
 Each customer ID is associated with a number of orders.
 We need to find out how many bits are set to '1' in the binary representation of each customer's ordering activity.
 
-customer_ID| number_of_orders
------------|-----------------
-102        |       5
-102        |       7
-103        |       10
-104        |       12
------------------------------
+| customer_ID | number_of_orders |
+| ----------- | ---------------- |
+| 102         | 5                |
+| 102         | 7                |
+| 103         | 10               |
+| 104         | 12               |
+
+---
 
 BIT_COUNT(number_of_orders) function returns the number of '1' bits in the binary representation of the number_of_orders column.
 
@@ -164,12 +165,13 @@ FROM
 - For value 10 (binary 1010), the number of '1' bits is 2.
 - For value 12 (binary 1100), the number of '1' bits is 2.
 
-customer_ID|number_of_orders|bits_set_to_1
------------|----------------|--------------
-102        |       5        |         2
-102        |       7        |         3
-103        |       10       |         2
-104        |       12       |         2
------------------------------
+| customer_ID | number_of_orders | bits_set_to_1 |
+| ----------- | ---------------- | ------------- |
+| 102         | 5                | 2             |
+| 102         | 7                | 3             |
+| 103         | 10               | 2             |
+| 104         | 12               | 2             |
+
+---
 
 The result returns how many bits are set to '1' in the binary representation of each customer's number of orders.
