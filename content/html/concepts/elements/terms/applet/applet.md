@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`<applet>`** element was historically used to embed Java applets into an HTML page, allowing for interactive content such as games, animations, and utilities directly within web browsers. It has since been deprecated and removed from the [HTML specification](https://html.spec.whatwg.org/), as browsers have phased out support for Java applets due to security and compatibility concerns.
+The **`<applet>`** element was used to embed Java applets into an HTML page. It has since been deprecated and removed from the [HTML specification](https://html.spec.whatwg.org/). This tag should no longer be used as browsers no longer support it.
 
 ## Why Was `<applet>` Deprecated?
 
