@@ -1,6 +1,6 @@
 ---
 Title: '<applet>'
-Description: 'The <applet> element was used to embed Java applets in HTML documents but is no longer supported in HTML5. This document explores its history, reasons for deprecation, and modern alternatives.'
+Description: 'Used to embed Java applets in HTML documents but is no longer supported.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
