@@ -13,13 +13,13 @@ In NumPy, the **.arctan()** method computes the element-wise inverse tangent (ar
 numpy.arctan(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature, extobj])
 ```
 
-Parameters:
+#### Parameters:
 + 'x': Input array or scalar. The tangent values whose arc tangents are to be computed.
 + 'out': A location where the result is stored (optional).
 + 'where': This condition is broadcast over the input. At locations where the condition is True, the out array will be set to the ufunc result. Elsewhere, the out array will retain its original value (optional).
 + 'casting', 'order', 'dtype', 'subok', 'signature', 'extobj': Various parameters that affect casting, memory layout, output data type, and additional options for advanced users.
 
-Returns:
+#### Returns:
 + An array with the arc tangent of each element of 'x'. If 'x' is a scalar, a scalar is returned.
 
 ---
