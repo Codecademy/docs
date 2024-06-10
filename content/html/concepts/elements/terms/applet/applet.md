@@ -50,7 +50,7 @@ The `<applet>` element could include one or more [`<param>`](https://www.codecad
 
 ## Modern Alternatives
 
-With the deprecation of `<applet>`, developers are encouraged to use the [`<object>`](https://www.codecademy.com/resources/docs/html/elements/object) or [`<embed>`](https://www.codecademy.com/resources/docs/html/elements/embed) tags as modern alternatives for embedding content:
+> **Note:** The `<applet>` element is deprecated due to security and compatibility concerns. The [`<object>`](https://www.codecademy.com/resources/docs/html/elements/object) or [`<embed>`](https://www.codecademy.com/resources/docs/html/elements/embed) tags can be used as modern alternatives.
 
 ### `<object>` Tag Example
 
