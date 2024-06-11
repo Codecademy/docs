@@ -1,6 +1,6 @@
 ---
 Title: '.selectAll()'
-Description: 'A brief definition and examples of using selectAll()'
+Description: 'A D3 function that selects all elements matching the provided parameter.'
 Subjects: 
   - 'Data Visualization'
   - 'Web Design'
@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.selectAll()`** is a function within the d3 library that selects all elements matching the provided parameter. selectAll() will match against all elements that meet the parameter, as opposed to `.select()`, which only matches the first element.
+The **`.selectAll()`** is a function within the d3 library that selects all elements matching the provided parameter. The `selectAll()` function will match against all elements that meet the parameter, as opposed to [`.select()`](https://www.codecademy.com/resources/docs/d3/selection/select), which only matches the first element.
 
 ## Syntax
 
@@ -19,7 +19,7 @@ The **`.selectAll()`** is a function within the d3 library that selects all elem
 d3.selectAll(selector)
 ```
 
-- `selector`: Its a string version of an element, a saved node, or an array of nodes.
+- `selector`: It's a string version of an element, a saved node, or an array of nodes.
 
 ## Example
 
