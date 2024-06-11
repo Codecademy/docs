@@ -33,7 +33,7 @@ numpy.round(array/number, decimal place, out)
 >
 > **Note:** `numpy.round()` will round to the nearest even number when exactly halfway between two numbers. 
 
-## Example 1 
+## Example 1
 
 `np.round()` returns 0 decimal places by default
 
