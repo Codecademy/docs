@@ -65,7 +65,7 @@ array_rounded = numpy.round(array_unrounded)
 print(array_rounded)
 ```
 
-Output: 
+Output:
 ```shell
 [5. 3. 10.]
 ```
