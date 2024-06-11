@@ -27,9 +27,9 @@ numpy.round(array/number, decimal place, out)
 - `decimal place` is the number of decimal places the number or elements in the array will be rounded to. The defualt value is 0. This parameter is optional and will accept negative integers as well as positive ones. 
 - `Out` is an optional output array which the result will feed into. 
 
-> **Note:** Numpy is commonly imported as `import nympy as np`. This allows us to refer to `numpy` as `np`. 
+> **Note:** Numpy is commonly imported as `import numpy as np`. This allows us to refer to `numpy` as `np`.
 > 
-> **Note:** `numpy.round()` will return an array without commas seperating the elements. To see the output with commas use [`.repr()`](https://github.com/Codecademy/docs/blob/main/content/python/concepts/built-in-functions/terms/repr/repr.md).
+> **Note:** `numpy.round()` will return an array without commas separating the elements. To see the output with commas use [`.repr()`](https://github.com/Codecademy/docs/blob/main/content/python/concepts/built-in-functions/terms/repr/repr.md).
 >
 > **Note:** `numpy.round()` will round to the nearest even number when exactly halfway between two numbers. 
 
