@@ -17,7 +17,7 @@ The **`rtrim()`** function removes whitespace or other predefined characters fro
 
 ## Syntax
 
-```psuedo
+```pseudo
 rtrim($string, $charlist)
 ```
 
