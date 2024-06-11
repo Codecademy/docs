@@ -47,7 +47,7 @@ rounded_number = np.round(number)
 print(rounded_number)
 
 ```
-Output: 
+Output:
 ```shell
 6.0
 ```
