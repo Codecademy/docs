@@ -24,9 +24,8 @@ string.toUpperCase();
 
 Converting lowercase letters to uppercase:
 
-```codebyte/js
-hello = 'hello world'.toUpperCase()
-console.log(hello);
+```js
+console.log(hello.toUpperCase());
 ```
 
 ## Example 2
@@ -40,4 +39,13 @@ state.toUpperCase()
 console.log(state)
 
 console.log(state.toUpperCase());
+```
+
+## Codebyte example
+```codebyte/js
+var lower = "and this way, i became uppercase"
+
+var upper = lower.toUpperCase()
+
+print(upper)
 ```
