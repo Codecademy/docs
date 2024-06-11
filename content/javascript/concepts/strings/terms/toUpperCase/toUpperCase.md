@@ -63,5 +63,5 @@ var lower = "and this way, i became uppercase"
 
 var upper = lower.toUpperCase()
 
-print(upper)
+console.log(upper)
 ```
