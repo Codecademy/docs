@@ -108,7 +108,7 @@ Output:
  ```
 
 ## Example 5
-`np.round()` will round to the nearest even number. When exactly halfway between two numbers.  
+`np.round()` will round to the nearest even number. When exactly halfway between two numbers.
 
 ```py
 import numpy as np
