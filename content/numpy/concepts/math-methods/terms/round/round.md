@@ -1,5 +1,5 @@
 ---
-Title: '.round()'
+Title: '.round()' 
 Description: 'Rounds a number or an array of numbers to a specified number of decimal places.'
 Subjects:
   - 'Computer Science'
@@ -45,9 +45,10 @@ number = 5.64
 rounded_number = np.round(number)
 
 print(rounded_number)
-
 ```
+
 Output:
+
 ```shell
 6.0
 ```
@@ -66,6 +67,7 @@ print(array_rounded)
 ```
 
 Output:
+
 ```shell
 [5. 3. 10.]
 ```
@@ -85,6 +87,7 @@ print(repr(rounded_list))
 ```
 
 Output:
+
 ```shell
 [4.57, 19.35, 56.39]
 ```
@@ -102,12 +105,15 @@ rounded_list = np.round(unrounded_list, -3)
 
 print(rounded_list)
 ```
+
 Output:
+
 ```shell
- [10000. 76000. 24000.]
+[10000. 76000. 24000.]
  ```
 
 ## Example 5
+
 `np.round()` will round to the nearest even number. When exactly halfway between two numbers.
 
 ```py
@@ -119,14 +125,16 @@ rounded_list = np.round(unrounded_list)
 
 print(rounded_list)
 ```
+
 Output:
+
 ```shell
- [2. 2. 4]
+[2. 2. 4]
 ```
 
 ## Example 6
 
-`np.round()` accepts a third optional parameter. This parameter is where the output of `np.round()` will go.
+`np.round()` accepts a third optional parameter. This parameter is where the output of `np.round()` will go. 
 
 ```py
 import numpy as np
@@ -139,7 +147,9 @@ np.round(unrounded, 1, rounded)
 
 print(rounded)
 ```
+
 Output:
+
 ```shell
 [ 5.4 19.8 13.3]
 ```
