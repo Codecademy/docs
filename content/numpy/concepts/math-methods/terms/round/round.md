@@ -125,7 +125,8 @@ Output:
 ```
 
 ## Example 6
-`np.round()` accepts a third optional parameter. This parameter is where the output of `np.round()` will go. 
+
+`np.round()` accepts a third optional parameter. This parameter is where the output of `np.round()` will go.
 
 ```py
 import numpy as np
