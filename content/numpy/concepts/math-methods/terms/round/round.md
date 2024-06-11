@@ -7,7 +7,7 @@ Subjects:
 Tags:
   - 'NumPy'
   - 'Math'
-  - 'Arrays' 
+  - 'Arrays'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
