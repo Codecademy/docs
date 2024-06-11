@@ -23,9 +23,9 @@ CatalogContent:
 numpy.round(array/number, decimal place, out)
 ```
 
-- `array/number` is the number or array, whose elements (either a float or integer) will be rounded. 
-- `decimal place` is the number of decimal places the number or elements in the array will be rounded to. The defualt value is 0. This parameter is optional and will accept negative integers as well as positive ones. 
-- `Out` is an optional output array which the result will feed into. 
+- `array/number` is the number or array, whose elements (either a float or integer) will be rounded.
+- `decimal place` is the number of decimal places the number or elements in the array will be rounded to. The default value is 0. This parameter is optional and will accept negative integers as well as positive ones.
+- `out` is an optional output array which the result will feed into.
 
 > **Note:** Numpy is commonly imported as `import numpy as np`. This allows us to refer to `numpy` as `np`.
 > 
