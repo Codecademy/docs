@@ -89,7 +89,7 @@ Output:
 [4.57, 19.35, 56.39]
 ```
 
-## Example 4 
+## Example 4
 
 `np.round()` can accept a negative integer as its second parameter.
 
