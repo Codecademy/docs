@@ -24,32 +24,35 @@ The direct function mentioned above refers to a function that is available direc
 fun UtcOffset.asTimeZone(): FixedOffsetTimeZone
 ```
 
+- `UtcOffset`: Represents the UTC offset for which the fixed-offset time zone is created.
+- `FixedOffsetTimeZone`: The return type of the function, representing the fixed-offset time zone with the specified UTC offset.
+
 ## Example
 
 ``` kotlin
+// Importing the kotlinx.datetime library, which provides a modern date and time API for Kotlin.
 import kotlinx.datetime.*
 
 fun main() {
-	 // Converting a UtcOffset to a fixed-offset TimeZone.
-  val timeZone = UtcOffset(hours = 5, minutes = 25).asTimeZone()
-  println("Converted Time Zone:")
-  println("  ID: ${timeZone.id}")
-  println("  Offset: ${timeZone.offset}")
+    
+    // Converting a UtcOffset to a fixed-offset TimeZone.
+    val timeZone = UtcOffset(hours = 5, minutes = 25).asTimeZone()
+    
+    // Printing a header to indicate information about the converted time zone will follow.
+    println("Converted Time Zone:")
+    
+    // Printing the ID (name/identifier) of the converted time zone.
+    println("  ID: ${timeZone.id}")
+    
+    // Printing the offset of the converted time zone from UTC.
+    println("  Offset: ${timeZone.offset}")
 }
 ```
 
-This code block is a conversion of an `UtcOffset` to a `fixed-offset TimeZone` using Kotlin's kotlinx datetime library, it sets the offset to 5 hours and 25 minutes then prints the information about the converted time zone.
+This code block converts an `UtcOffset` to a `fixed-offset TimeZone` using Kotlin's `kotlinx.datetime` library, it sets the offset to 5 hours and 25 minutes then prints the information about the converted time zone. It produces the following output:
 
-Output:
-```
+```shell
 Converted Time Zone:
-	ID: +05:25
-	Offset: 05:25:00
+  ID: +05:25
+  Offset: +05:25
 ```
-From the above Code block:
--  `import kotlinx.datetime.*`: This line imports all classes and functions from the kotlinx-datetime library, which provides a modern date and time API for Kotlin.
-- `UtcOffset(hours = 5, minutes = 25)`: This part creates a UtcOffset object representing an offset of +5 hours and +25 minutes from UTC.
-- `.asTimeZone()`: This calls the `asTimeZone()` extension function on the UtcOffset object. This function then converts the `UtcOffset` to a `FixedOffsetTimeZone`, which represents a time zone with a fixed offset from UTC.
-- `println`: These lines print information about the converted timeZone object.
-
-`.asTimeZone` is useful for converting time zone ids into TimeZone objects, making it easier to handle zone-specific date and time operations in applications that need to support multiple time zones or perform time zone-aware calculations.
