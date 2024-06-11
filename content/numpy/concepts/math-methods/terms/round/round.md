@@ -84,7 +84,7 @@ rounded_list = np.round(unrounded_list, 2)
 print(repr(rounded_list))
 ```
 
-Output: 
+Output:
 ```shell
 [4.57, 19.35, 56.39]
 ```
