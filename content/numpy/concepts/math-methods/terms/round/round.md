@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-`Numpy.round()` is a function from the NumPy Python library. `NumPy.round()` rounds a number or an array of numbers to a specified number of decimal places.
+**`.round()`** is a function from the NumPy Python library. It rounds a number or an array of numbers to a specified number of decimal places.
 
 ## Syntax
 
