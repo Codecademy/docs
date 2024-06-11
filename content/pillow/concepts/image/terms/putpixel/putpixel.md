@@ -48,7 +48,6 @@ red_color = (255, 0, 0)
 green_pixel_position = (150, 150)
 green_color = (0, 255, 0)
 
-
 img.putpixel(red_pixel_position, red_color)
 img.putpixel(green_pixel_position, green_color)
 img.putpixel(blue_pixel_position, blue_color)
