@@ -1,5 +1,5 @@
 ---
-Title: 'NumPy.round()' 
+Title: '.round()'
 Description: 'Rounds a number or an array of numbers to a specified number of decimal places.'
 Subjects:
   - 'Computer Science'
