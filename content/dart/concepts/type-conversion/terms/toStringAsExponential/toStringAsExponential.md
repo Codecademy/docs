@@ -2,9 +2,9 @@
 Title: '.toStringAsExponential()'
 Description: 'Converts a number to its exponential notation in a string format.'
 Subjects:
+  - 'Code Foundations'
   - 'Computer Science'
   - 'Mobile Development'
-  - 'Code Foundations'
 Tags:
   - 'Dart'
   - 'String'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.toStringAsExponential()`** method is a Dart type conversion method that first converts a number to its exponential notation, then changes it to a string format. It can be used on integers and doubles.
+The **`.toStringAsExponential()`** method in Dart is used for type conversion, converting a number to exponential notation and then converting it to a string format. It can be applied to both integers and doubles.
 
 ## Syntax
 
@@ -22,8 +22,8 @@ The **`.toStringAsExponential()`** method is a Dart type conversion method that 
 number.toStringAsExponential([int fractionDigits])
 ```
 
-- `number`: An integer or double
-- `fractionDigits`: An integer ranging from 0 to 20 that appears after the decimal point. If not specified, the default is as many digits as necessary.
+- `number`: This refers to a numeric value, either an integer or a double, on which the `toStringAsExponential()` method is called.
+- `fractionDigits`: An integer ranging from 0 to 20 indicating the digits after the decimal point. If not specified, it defaults to as many digits as needed for accuracy.
 
 ## Example
 
@@ -38,7 +38,7 @@ void main() {
   print("With fraction digits: ${result2}");
 }
 ```
-`toStringAsExponential(5)` specifies that we want 5 digits after the decimal point.
+This Dart example uses `toStringAsExponential()` on a double to show both default and customized exponential notation with 5 fraction digits specified. This generates the following output:
 
 ```shell
 Without fraction digits: 2.3625585e+4
