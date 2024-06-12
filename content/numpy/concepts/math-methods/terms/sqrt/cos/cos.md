@@ -65,3 +65,11 @@ cos_values = np.cos(angles)
 print("Angles (radians):", angles)
 print("Cosine values:", cos_values)
 ```
+### All Trigonometric NumPy Functions
+
+- Sine `numpy.sin()`: Computes the sine of each element in the array.
+- Cosine `numpy.cos()`: Computes the cosine of each element in the array.
+- Tangent `numpy.tan()`: Computes the tangent of each element in the array.
+- Inverse Sine `numpy.arcsin()`: Computes the inverse sine of each element in the array.
+- Inverse Cosine `numpy.arccos()`: Computes the inverse cosine of each element in the array.
+- Inverse Tangent `numpy.arctan()`: Computes the inverse tangent of each element in the array.
