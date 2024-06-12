@@ -1,13 +1,13 @@
 ---
 Title: '.selectAll()'
 Description: 'A D3 function that selects all elements matching the provided parameter.'
-Subjects: 
+Subjects:
   - 'Data Visualization'
   - 'Web Design'
 Tags:
   - 'D3'
 CatalogContent:
-  - 'learn-d3' 
+  - 'learn-d3'
   - 'paths/data-science'
 ---
 
@@ -27,10 +27,30 @@ In this example, we have an HTML document as shown in the below code block:
 
 ```html
 <h1>Lorem, ipsum.</h1>
-<p>Lorem ipsum dolor sit amet, <span>consectetur adipisicing elit.</span> Tempore repellendus sed dignissimos eveniet quam. Nostrum.</p>
+<p>
+  Lorem ipsum dolor sit amet, <span>consectetur adipisicing elit.</span> Tempore
+  repellendus sed dignissimos eveniet quam. Nostrum.
+</p>
 
 <h2>Lorem ipsum dolor sit amet.</h2>
-<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea harum saepe alias quae beatae quis corporis ratione <span>laudantium reprehenderit labore</span> fuga numquam, aperiam dicta facere earum non unde laboriosam, similique debitis qui soluta possimus obcaecati voluptates asperiores. Natus cumque ratione porro eveniet excepturi rem similique nam reiciendis debitis, itaque <span>pariatur dolores</span> perferendis beatae praesentium amet nulla? Repellendus a voluptatem sed id porro quia earum molestiae quidem tenetur accusamus ratione illo aut <span>similique inventore non voluptate, doloremque consectetur dignissimos beatae ipsum temporibus tempore?</span> Voluptatum accusamus non distinctio nesciunt quis suscipit, sequi, necessitatibus, ut delectus praesentium iusto? Nisi sequi itaque voluptatem dolor!</p>
+<p>
+  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea harum saepe alias
+  quae beatae quis corporis ratione
+  <span>laudantium reprehenderit labore</span> fuga numquam, aperiam dicta
+  facere earum non unde laboriosam, similique debitis qui soluta possimus
+  obcaecati voluptates asperiores. Natus cumque ratione porro eveniet excepturi
+  rem similique nam reiciendis debitis, itaque
+  <span>pariatur dolores</span> perferendis beatae praesentium amet nulla?
+  Repellendus a voluptatem sed id porro quia earum molestiae quidem tenetur
+  accusamus ratione illo aut
+  <span
+    >similique inventore non voluptate, doloremque consectetur dignissimos
+    beatae ipsum temporibus tempore?</span
+  >
+  Voluptatum accusamus non distinctio nesciunt quis suscipit, sequi,
+  necessitatibus, ut delectus praesentium iusto? Nisi sequi itaque voluptatem
+  dolor!
+</p>
 ```
 
 The document gives the following output:
@@ -41,7 +61,7 @@ The following code selects all `span` elements within the above page using the `
 
 ```html
 <script>
-  d3.selectAll("span").style("color", "red");
+  d3.selectAll('span').style('color', 'red');
 </script>
 ```
 
