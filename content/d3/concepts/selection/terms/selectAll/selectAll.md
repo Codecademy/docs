@@ -23,20 +23,30 @@ d3.selectAll(selector)
 
 ## Example
 
-The following code selects all paragraph elements within the document using the `.selectAll()` method.
+In this example, we have an HTML document as shown in the below code block:
 
-```js
-    // Select all elements with class 'example'
-    const selectedElements = d3.selectAll('.example');
+```html
+<h1>Lorem, ipsum.</h1>
+<p>Lorem ipsum dolor sit amet, <span>consectetur adipisicing elit.</span> Tempore repellendus sed dignissimos eveniet quam. Nostrum.</p>
 
-    // Modify the style of the selected elements
-    selectedElements
-      .style('color', 'blue')
-      .style('font-size', '18px');
-
-    // Add text to the selected elements
-    selectedElements.text((d, i) => `Modified Element ${i + 1}`);
-
-    // Log success message to console
-    console.log('D3.js code executed successfully.');
+<h2>Lorem ipsum dolor sit amet.</h2>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea harum saepe alias quae beatae quis corporis ratione <span>laudantium reprehenderit labore</span> fuga numquam, aperiam dicta facere earum non unde laboriosam, similique debitis qui soluta possimus obcaecati voluptates asperiores. Natus cumque ratione porro eveniet excepturi rem similique nam reiciendis debitis, itaque <span>pariatur dolores</span> perferendis beatae praesentium amet nulla? Repellendus a voluptatem sed id porro quia earum molestiae quidem tenetur accusamus ratione illo aut <span>similique inventore non voluptate, doloremque consectetur dignissimos beatae ipsum temporibus tempore?</span> Voluptatum accusamus non distinctio nesciunt quis suscipit, sequi, necessitatibus, ut delectus praesentium iusto? Nisi sequi itaque voluptatem dolor!</p>
 ```
+
+The document gives the following output:
+
+![HTML page before adding `.selectAll()` d3 query.](https://raw.githubusercontent.com/Codecademy/docs/main/media/d3-selectall-before.png)
+
+The following code selects all `span` elements within the above page using the `.selectAll()` method:
+
+```html
+<script>
+  d3.selectAll("span").style("color", "red");
+</script>
+```
+
+This gives the following output:
+
+![HTML page before adding `.selectAll()` d3 query.](https://raw.githubusercontent.com/Codecademy/docs/main/media/d3-selectall-after.png)
+
+> **Note:** When using d3 within an HTML page, it is required to add `<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>` inside the `head` tag.
