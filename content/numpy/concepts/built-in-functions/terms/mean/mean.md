@@ -27,7 +27,7 @@ numpy.mean(a, axis=None, dtype=None, out=None, keepdims=<no value>, *, where=<no
 `.mean()` provides the following arguments:
 
 - `a`: This is the array of numbers for which the mean is wanted. This argument is mandatory. If `a` is not a list, an error will be raised.
-- `axis`: If the axis is given, the mean is computed over the given axis or axes. Otherwise, it is calculated over the flattened array.
+- `axis`: This attribute is optional; if given, the mean is computed over the given axis or axes. Otherwise, it is calculated over the flattened array.
 - `dtype`: It is the data type for which the mean is calculated. By default, `float64` is used for integers, and for floating point inputs, it is the same as the input `dtype`.
 - `out`: It is an optional argument that allows storing the calculated mean in an existing array instead of creating a new array to hold the result. It must have the same shape that is expected of the resulting mean. The default value for `out` is `None`.
 - `keepdims`: This argument is **False** by default. Setting it to **True** specifies whether the dimensions that are reduced should be kept in the result.
