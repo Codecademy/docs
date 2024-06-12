@@ -44,18 +44,21 @@ The below example shows the `.arcsin()` method in use:
 import numpy as np
 
 # Defined input array
-a_input = [1, 0.5, 0, -0.5, -1]
+a_input = np.array([1, 0.5, 0, -0.5, -1])
 
 # Computing the arcsin of all elements in an array
-result_all = np.arcsin(a_input)
+result_all = a_input.copy()
+np.arcsin(a_input, out=result_all)
 print("result_all:", result_all)
 
 # Computing the arcsin of specific elements in the array
-result_spec = np.arcsin(a_input, where=np.array([True, True, False, True, False]))
+result_spec = a_input.copy()
+np.arcsin(a_input, out=result_spec, where=np.array([True, True, False, True, False]), dtype=float)
 print("result_spec:", result_spec)
 
 # Computing the arcsin of all elements greater than 0
-result_gt0 = np.arcsin(a_input, where=list(map(lambda x: x>0, a_input)))
+result_gt0 = a_input.copy()
+np.arcsin(a_input, out=result_gt0, where=list(map(lambda x: x>0, a_input)), dtype=float)
 print("result_gt0:", result_gt0)
 
 ```
@@ -67,3 +70,12 @@ result_all:  [ 1.57079633  0.52359878  0.         -0.52359878 -1.57079633]
 result_spec: [ 1.57079633  0.52359878  0.         -0.52359878 -1.        ]
 result_gt0: [ 1.57079633  0.52359878  0.         -0.5        -1.        ]
 ```
+
+Codebyte Example:
+
+```codebyte/python
+import numpy as np
+result = np.arcsin(0.4)
+print(result)
+```
+
