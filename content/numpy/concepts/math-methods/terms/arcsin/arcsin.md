@@ -26,15 +26,12 @@ numpy.arcsin(x, out=None, where=True)
 
 Parameters:
 
-- `x`: array
-  - y-coordinate on the unit circle which makes input in the range from -1 to 1.
-  - If input is outside range, then nan is returned as a result.
-- `out` (Optional):
-  - Array for result. If not provided or None, a freshly allocated array is returned.
-- `where` (Optional): array_like
-  - The condition (array of boolean values) that determines the elements on which the method is to be applied.
-  - Output that corresponds to `False` for a particular element will be returned as is.
-  - If not provided, the arcsin is calculated for all elements in the input array.
+- `x`: This is the input array. Elements must be in the range [-1, 1] for valid results. Returns NaN if values are outside this range.
+- `out`: This is an optional parameter. It specifies an array to store the result. If not provided or set to None, a new array is created for the result.
+- `where`: Condition (array of boolean values) that specifies where the method is applied.
+  - If the condition is `True` for an element, the arcsin operation is applied to that element in the input array.
+  - If the condition is `False` for an element, the corresponding element in the output array remains unchanged.
+  - If not provided, arcsin is calculated for all elements in the input array.
 
 Returns: radian: array
 
