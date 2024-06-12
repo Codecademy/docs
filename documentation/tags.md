@@ -248,6 +248,7 @@ Parameters
 Perceptrons
 Phaser
 Physics
+Pillow
 Plotly
 Pointers
 Positioning
