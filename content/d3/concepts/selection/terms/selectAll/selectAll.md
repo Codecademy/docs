@@ -34,22 +34,7 @@ In this example, we have an HTML document as shown in the below code block:
 
 <h2>Lorem ipsum dolor sit amet.</h2>
 <p>
-  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea harum saepe alias
-  quae beatae quis corporis ratione
-  <span>laudantium reprehenderit labore</span> fuga numquam, aperiam dicta
-  facere earum non unde laboriosam, similique debitis qui soluta possimus
-  obcaecati voluptates asperiores. Natus cumque ratione porro eveniet excepturi
-  rem similique nam reiciendis debitis, itaque
-  <span>pariatur dolores</span> perferendis beatae praesentium amet nulla?
-  Repellendus a voluptatem sed id porro quia earum molestiae quidem tenetur
-  accusamus ratione illo aut
-  <span
-    >similique inventore non voluptate, doloremque consectetur dignissimos
-    beatae ipsum temporibus tempore?</span
-  >
-  Voluptatum accusamus non distinctio nesciunt quis suscipit, sequi,
-  necessitatibus, ut delectus praesentium iusto? Nisi sequi itaque voluptatem
-  dolor!
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea harum saepe alias quae beatae quis corporis ratione <span>laudantium reprehenderit labore</span> fuga numquam, aperiam dicta facere earum non unde laboriosam, similique debitis qui soluta possimus obcaecati voluptates asperiores. Natus cumque ratione porro eveniet excepturi rem similique nam reiciendis debitis, itaque <span>pariatur dolores</span> perferendis beatae praesentium amet nulla? Repellendus a voluptatem sed id porro quia earum molestiae quidem tenetur accusamus ratione illo aut <span>similique inventore non voluptate, doloremque consectetur dignissimos beatae ipsum temporibus tempore?</span> Voluptatum accusamus non distinction nesciunt quis suscipit, sequi, necessitatibus, ut delectus praesentium iusto? Nisi sequi itaque voluptatem dolor!
 </p>
 ```
 
