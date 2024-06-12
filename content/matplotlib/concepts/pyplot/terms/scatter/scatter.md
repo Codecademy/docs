@@ -18,7 +18,6 @@ The **`.scatter()`** method in the matplotlib library is used to draw a scatter 
 ## Syntax
 
 ```pseudo
-
 matplotlib.pyplot.scatter(x, y, s, c, marker, cmap, norm, vmin, vmax, alpha, linewidths, edgecolors, plotnonfinite)
 ```
 
