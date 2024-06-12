@@ -1,12 +1,14 @@
 ---
 Title: '.arcsin()'
-Description: 'Calculate the inverse sine of each element in an array.'
+Description: 'Calculates the inverse sine of each element in an array.'
 Subjects: 
   - 'Computer Science'
+  - 'Data Science'
 Tags: 
+  - 'Arrays'
   - 'Methods'
-  - 'Trigonometry'
   - 'NumPy'
+  - 'Trigonometry'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
