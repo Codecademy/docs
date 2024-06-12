@@ -33,8 +33,6 @@ Parameters:
   - If the condition is `False` for an element, the corresponding element in the output array remains unchanged.
   - If not provided, arcsin is calculated for all elements in the input array.
 
-Returns: radian: array
-
 ## Example
 
 The below example shows the `.arcsin()` method in use:
