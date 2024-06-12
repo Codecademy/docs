@@ -18,8 +18,6 @@ CatalogContent:
 
 The **`.arcsin()`** method is used to calculate the inverse sine of the elements in an array. It is commonly employed when solving trigonometry problems where an angle of a right triangle is unknown, but two of the sides are known. The result is always in the range of -π/2 to π/2 radians.
 
-Conversion of radians to degrees is done by the formula $r*180/\pi$.
-
 ## Syntax
 
 ```pseudo
