@@ -16,7 +16,7 @@ CatalogContent:
 
 ## Definition
 
-The **`.mean()`** function calculates and returns the arithmetic mean, i.e. average, of an array of numbers. If the axis are specified, the average is taken over ha axis, and if not the mean is calculated across the flattened array.
+The **`.mean()`** function calculates and returns the arithmetic mean, i.e. average, of an array of numbers. If the axis is specified, the average is taken over that axis, and if not the mean is calculated across the flattened array.
 
 ## Syntax
 
