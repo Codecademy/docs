@@ -6,10 +6,12 @@ Subjects:
 Tags: 
   - 'Methods'
   - 'Trigonometry'
-  - 'Python'
-  - 'Numpy'
+  - 'NumPy'
 CatalogContent:
-  - 'Using_Linux'
+  - 'learn-python-3'
+  - 'paths/computer-science'
+  - 'paths/data-science'
+  - 'paths/data-science-foundations'
 ---
 
 The **'.arcsin()'** method is used to calculate the inverse sine of the elements in an array. It is commonly employed when solving trigonometry problems where an angle of a right sided triangle is unknow, but two of the sides are known. The result should always be in the range -pi/2 to pi/2 (radians).
