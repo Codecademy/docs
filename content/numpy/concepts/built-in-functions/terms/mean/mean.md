@@ -35,7 +35,7 @@ numpy.mean(a, axis=None, dtype=None, out=None, keepdims=<no value>, *, where=<no
 
 ## Example
 
-The following example creates an array then uses a few `.mean()` operations to compute the mean of the elements.
+The following example creates an array and then uses the `.mean()` operation with different attributes to compute the mean of the elements.
 
 ```py
 import numpy as np
