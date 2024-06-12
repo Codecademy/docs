@@ -51,6 +51,7 @@ Buttons
 Calendar
 Catch
 Characters
+Charts
 Chatbots
 Cryptocurrency
 Classes
@@ -359,6 +360,7 @@ WebRTC
 Weight & Bias
 While
 Whiteboarding
+Window Functions
 WordPress
 World Wide Web
 Xcode
