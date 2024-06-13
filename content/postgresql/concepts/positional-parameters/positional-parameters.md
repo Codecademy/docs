@@ -53,7 +53,6 @@ Now, we can execute the prepared statement with a specific value for the age par
 
 ```sql
 EXECUTE get_older_employees(25);
-
 ```
 This will return all employees whose age is greater than 25.
 
