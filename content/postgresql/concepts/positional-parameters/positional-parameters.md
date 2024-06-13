@@ -33,7 +33,6 @@ INSERT INTO employees (name, age) VALUES
 ('John', 30),
 ('Alice', 25),
 ('Bob', 35);
-
 ```
 Now, let's write a query using positional parameters to retrieve employees older than a specified age:
 ```sql
