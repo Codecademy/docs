@@ -16,7 +16,8 @@ CatalogContent:
 Positional parameters in PostgreSQL are used within prepared statements and dynamic SQL queries to represent placeholders for values that will be supplied later during execution.These placeholders are denoted by `$1`, `$2`, etc., indicating their position in the parameter list. When the query or prepared statement is executed, the positional parameters are replaced with actual values based on their order and the supplied values.
 
 ## Example
-Here's an example of positional parameters in PostgreSQL:
+
+Here's an example of using positional parameters in PostgreSQL:
 
 Suppose we have a table called employees with columns id, name, and age. We want to retrieve employees whose age is greater than a specified value, and we want to make this value dynamic using positional parameters.
 
