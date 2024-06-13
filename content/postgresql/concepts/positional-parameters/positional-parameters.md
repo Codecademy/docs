@@ -21,7 +21,8 @@ Here's an example of using positional parameters in PostgreSQL:
 
 Suppose we have a table called employees with columns id, name, and age. We want to retrieve employees whose age is greater than a specified value, and we want to make this value dynamic using positional parameters.
 
-First, let's create a simple table:
+First, create a simple table:
+
 ```sql
 CREATE TABLE employees (
     id SERIAL PRIMARY KEY,
