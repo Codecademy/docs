@@ -1,16 +1,17 @@
-Title: 'Postional parameters in sql'
-Description: 'positional parameters are placeholders used in SQL statements for passing values dynamically to queries or functions. '
+---
+Title: 'Postional Parameters'
+Description: 'Positional Parameters in PostgreSQL are used within prepared statements and dynamic SQL queries to represent placeholders for values that will be supplied later during execution.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
-  - 'postgresql'
-  Tags:
-  - 'positional-parameters'
-  - 'Documentation'
-  CatalogContent:
+Tags:
+  - 'PostgreSQL'
+  - 'Database'
+  - 'Data'
+CatalogContent:
   - 'getting-started-off-platform-for-data-science'
   - 'paths/design-databases-with-postgresql'
-  - 'paths/computer-science'
+---
 
 ## Syntax
 
