@@ -54,6 +54,7 @@ Execute the prepared statement with a specific value for the age parameter:
 ```sql
 EXECUTE get_older_employees(25);
 ```
+
 This will return all employees whose age is greater than 25.
 
 ## Benefits of Using Positional Parameters:
