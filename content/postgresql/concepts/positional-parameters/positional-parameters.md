@@ -1,6 +1,6 @@
 ---
 Title: 'Postional Parameters'
-Description: 'Positional Parameters in PostgreSQL are used within prepared statements and dynamic SQL queries to represent placeholders for values that will be supplied later during execution.'
+Description: 'Represent placeholders denoted by `$1`, `$2`, etc., and are commonly used within prepared statements and dynamic SQL queries.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/design-databases-with-postgresql'
 ---
 
-Positional parameters in PostgreSQL are used within prepared statements and dynamic SQL queries to represent placeholders for values that will be supplied later during execution.These placeholders are denoted by `$1`, `$2`, etc., indicating their position in the parameter list. When the query or prepared statement is executed, the positional parameters are replaced with actual values based on their order and the supplied values.
+In PostgreSQL, **Positional Parameters** are placeholders denoted by `$1`, `$2`, etc., and are commonly used within prepared statements and dynamic SQL queries. During execution, these placeholders are replaced with actual values according to their specified order.
 
 ## Example
 
@@ -55,9 +55,16 @@ Execute the prepared statement with a specific value for the age parameter:
 EXECUTE get_older_employees(25);
 ```
 
-This will return all employees whose age is greater than 25.
+This will return all employees whose age is greater than 25:
 
-## Benefits of Using Positional Parameters:
+| id  | name | age |
+| --- | ---- | --- |
+| 1   | John | 30  |
+| 3   | Bob  | 35  |
+
+(2 rows)
+
+## Benefits
 
 - Reusability: The prepared statement can be reused with different parameter values without needing to rewrite the entire query.
 - Security: Positional parameters help prevent SQL injection attacks by separating the query logic from the input values.
