@@ -39,7 +39,6 @@ Now, let's write a query using positional parameters to retrieve employees older
 ```sql
 PREPARE get_older_employees (INTEGER) AS
 SELECT * FROM employees WHERE age > $1;
-
 ```
 In this query:
 
