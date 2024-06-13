@@ -49,7 +49,7 @@ In the above query:
 - `(INTEGER)` specifies the data type of the positional parameter.
 - `$1` is the positional parameter reference.
 
-Now, we can execute the prepared statement with a specific value for the age parameter:
+Execute the prepared statement with a specific value for the age parameter:
 
 ```sql
 EXECUTE get_older_employees(25);
