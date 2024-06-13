@@ -24,14 +24,12 @@ In NumPy, the **`.arcsin()`** method is used to calculate the inverse sine of th
 numpy.arcsin(x, out=None, where=True)
 ```
 
-Parameters:
-
-- `x`: This is the input array. Elements must be in the range [-1, 1] for valid results. Returns NaN if values are outside this range.
-- `out`: This is an optional parameter. It specifies an array to store the result. If not provided or set to None, a new array is created for the result.
+- `x`: This is the input array. Elements must be in the range [-1, 1] for valid results. Returns `NaN` if values are outside this range.
+- `out`: This is an optional parameter. It specifies an array to store the result. If not provided or set to `None`, a new array is created for the result.
 - `where`: Condition (array of boolean values) that specifies where the method is applied.
   - If the condition is `True` for an element, the arcsin operation is applied to that element in the input array.
   - If the condition is `False` for an element, the corresponding element in the output array remains unchanged.
-  - If not provided, arcsin is calculated for all elements in the input array.
+  - If not provided, `.arcsin()` method is applied to all elements in the input array.
 
 ## Example
 
