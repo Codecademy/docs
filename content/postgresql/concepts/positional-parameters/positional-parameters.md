@@ -42,11 +42,13 @@ Next, write a query using positional parameters to retrieve employees older than
 PREPARE get_older_employees (INTEGER) AS
 SELECT * FROM employees WHERE age > $1;
 ```
-In this query:
 
-PREPARE creates a prepared statement named get_older_employees.
-(INTEGER) specifies the data type of the positional parameter.
-$1 is the positional parameter reference.
+In the above query:
+
+- `PREPARE` creates a prepared statement named `get_older_employees`.
+- `(INTEGER)` specifies the data type of the positional parameter.
+- `$1` is the positional parameter reference.
+
 Now, we can execute the prepared statement with a specific value for the age parameter:
 
 ```sql
