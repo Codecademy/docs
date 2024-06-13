@@ -29,7 +29,7 @@ The **`.abs()`** function calculates the absolute value of a number or the absol
 - `where`: An array of boolean values used to determine which elements of the array the absolute value function should be applied.
   - If the condition is `True` at a given position, the absolute value is computed for that element.
   - If the condition is `False`, the original value is retained.
-  - If no value is provided, the absolute value is computed for all of the elements.
+  - If no value is provided, the absolute value is computed for every element.
 
 ## Example 1
 
