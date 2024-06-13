@@ -56,4 +56,7 @@ EXECUTE get_older_employees(25);
 ```
 This will return all employees whose age is greater than 25.
 
-The benefit of using positional parameters is that you can reuse the prepared statement with different parameter values without needing to rewrite the entire query. It also helps prevent SQL injection attacks by separating the query logic from the input values.
+## Benefits of Using Positional Parameters:
+
+- Reusability: The prepared statement can be reused with different parameter values without needing to rewrite the entire query.
+- Security: Positional parameters help prevent SQL injection attacks by separating the query logic from the input values.
