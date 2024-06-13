@@ -19,7 +19,7 @@ Positional parameters in PostgreSQL are used within prepared statements and dyna
 
 Here's an example of using positional parameters in PostgreSQL:
 
-Suppose we have a table called employees with columns id, name, and age. We want to retrieve employees whose age is greater than a specified value, and we want to make this value dynamic using positional parameters.
+Consider a table called `employees` with columns `id`, `name`, and `age`. To retrieve employees whose age is greater than a specified value using positional parameters, the following SQL statements can be used:
 
 First, create a simple table:
 
