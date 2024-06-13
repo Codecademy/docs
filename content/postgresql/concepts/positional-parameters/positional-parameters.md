@@ -13,8 +13,7 @@ CatalogContent:
   - 'paths/design-databases-with-postgresql'
 ---
 
-**Positional parameters** are often utilized in prepared statements or in dynamic SQL queries.They must always appear first in a parameter set. In access method services, positional parameters are never optional.They serve as placeholders for dynamic values that will be supplied later when executing the query or prepared statement.
-When a query or prepared statement is executed, the positional parameters are replaced with actual values based on the order in which they appear and the values provided during execution.
+Positional parameters in PostgreSQL are used within prepared statements and dynamic SQL queries to represent placeholders for values that will be supplied later during execution.These placeholders are denoted by `$1`, `$2`, etc., indicating their position in the parameter list. When the query or prepared statement is executed, the positional parameters are replaced with actual values based on their order and the supplied values.
 
 ## Example
 Here's an example of positional parameters in PostgreSQL:
