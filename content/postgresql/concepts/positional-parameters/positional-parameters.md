@@ -35,7 +35,9 @@ INSERT INTO employees (name, age) VALUES
 ('Alice', 25),
 ('Bob', 35);
 ```
-Now, let's write a query using positional parameters to retrieve employees older than a specified age:
+
+Next, write a query using positional parameters to retrieve employees older than a specified age:
+
 ```sql
 PREPARE get_older_employees (INTEGER) AS
 SELECT * FROM employees WHERE age > $1;
