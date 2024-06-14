@@ -83,7 +83,7 @@ If data_frame is mising, a DataFrame gets constructed using other arguments.
 
 ## Example
 
-The example below demonstrates the use of `scatter()` to plot values.
+The example below demonstrates the use of the `.scatter()` method to plot values:
 
 ```py
 # x and y are array_like objects
