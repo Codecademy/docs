@@ -1,62 +1,53 @@
 ---
 Title: '.substr()'
-Description: 'Extracts a portion of a string, starting from a specified position up to a given number of characters.'
+Description: 'Extracts a portion of a string starting from a specified position extending up to a specified number of characters.'
 Subjects:
-  - 'Web Development'
   - 'Computer Science'
+  - 'Web Development'
 Tags:
-  - 'Strings'
   - 'Methods'
+  - 'Strings'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.substr()`** method in JavaScript extracts a portion of a string, starting from a specified index position up to a given number of characters. The index count begins with zero.
+The **`.substr()`** method in JavaScript extracts a portion of a string, starting from a specified index position and extending for a specified number of characters. Indexing begins at zero.
 
 ## Syntax
 
 ```pseudo
-string.substr(startingIndex, length);
+string.substr(start, length);
 ```
 
-- `startingIndex`: determines the index from which the substring will begin.
-- `length`: (optional) is the number of characters to extract.
+- `start`: The index position in the string where extraction begins. If negative, it counts from the end of the string.
+- `length`: The number of characters to extract. It is an optional parameter. If omitted, the extraction continues to the end of the string.
 
-If `length` is not provided, `.substr()` will extract the rest of the characters until the end of the string.
-
-## Example 1
-
-Extracting a portion of a string with a specified `length`.
+## Example
 
 ```js
-console.log('The Intro to JavaScript is fun to learn.'.substr(4, 19));
-// Output: Intro to JavaScript
+// Extracting a portion of a string with a specified length.
+var sentence1 = 'The Intro to JavaScript is fun to learn.';
+console.log(sentence1.substr(4, 19));
+
+// Extracting a portion of a string _without_ a specified length.
+var sentence2 = 'The Intro to JavaScript is fun to learn.';
+console.log(sentence2.substr(4));
+
+// Extracting from the end of a string.
+var sentence3 = 'The Intro to JavaScript is fun to learn.';
+console.log(sentence3.substr(-27, 10));
 ```
 
-## Example 2
+The example above will print the following to the console:
 
-Extracting a portion of a string _without_ a specified `length`.
-
-```js
-console.log('The Intro to JavaScript is fun to learn.'.substr(4));
-// Output: Intro to JavaScript is fun to learn.
-```
-
-The `.substr()` can also extract from the end of the string when provided with a negative starting index position.
-
-## Example 3
-
-Extracting from the end of a string.
-
-```js
-console.log('The Intro to JavaScript is fun to learn.'.substr(-27, 10));
-// Output: JavaScript
+```shell
+Intro to JavaScript
+Intro to JavaScript is fun to learn.
+JavaScript
 ```
 
 ## Codebyte Example
-
-Important Note: The `.substr()` method does not change the original string.
 
 ```codebyte/javascript
 const text = 'The Intro to JavaScript is fun to learn.';
@@ -67,3 +58,5 @@ console.log(text.substr(-27, 17));
 // Original string
 console.log(text);
 ```
+
+> Note: The `.substr()` method does not change the original string.
