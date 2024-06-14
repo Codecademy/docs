@@ -15,8 +15,8 @@ CatalogContent:
 
 **Query attributes** are client-defined attributes that apply to the next statement sent to the server for execution.
 
-- attributes are defined prior to sending the statement.
-- attributes exist until statement execution ends, at which point the attribute set is cleared.
+- Attributes are defined prior to sending the statement.
+- Attributes exist until statement execution ends, at which point the attribute set is cleared.
 - While attributes exist, they can be accessed on the server side.
 
 Examples of common uses for query attributes:
@@ -28,7 +28,7 @@ Examples of common uses for query attributes:
 
 ### Defining Query attributes
 
-The mysql client has a `query_attributes` command that enables defining up to 32 pairs of attribute names and values.
+The `query_attributes` command enables defining up to 32 pairs of attribute names and values.
 
 ```sql
 mysql> query_attributes name1 value1 name2 value2 name3 value3;
@@ -36,7 +36,7 @@ mysql> query_attributes name1 value1 name2 value2 name3 value3;
 
 ### Accessing Query Attributes
 
-To access query attributes within SQL statements for which attributes have been defined, the `mysql_query_attributes_string()` loadable function is implemented. It takes an attribute name argument and returns an attribute value as a string, or `NULL` if the attribute does not exist.
+To access query attributes within SQL statements for which attributes have been defined, the `mysql_query_attributes_string()` loadable function is implemented. It takes an attribute-name argument and returns an attribute value as a string, or `NULL` if the attribute does not exist.
 
 ```sql
 mysql> query_attributes name1 value1 name2 value2;
@@ -60,23 +60,23 @@ mysql> SELECT
 +-------------+-------------+-------------+
 ```
 
-As shown by the second `SELECT` statement, attributes defined prior to a given statement are available only to that statement and are cleared after the statement executes. To use an attribute value across multiple statements, assign it to a variable.
+As shown by the second `SELECT` statement, attributes defined prior to a given statement are available only to that statement. After the statement executes, the defined attributes are cleared. To use an attribute value across multiple statements, assign it to a variable.
 
 ### Using an attribute value across multiple statements
 
-The following example shows how to do this, and illustrates that attribute values are available in subsequent statements by means of the variables, but not by calling `mysql_query_attribute_string()`:
+The following example shows how to use an attribute value across multiple statements, and illustrates that attribute values are available in subsequent statements by means of the variables, but not by calling `mysql_query_attribute_string()`:
 
 ```sql
 mysql> query_attributes name1 value1 name2 value2;
 mysql> SET
-         @attr1 = mysql_query_attribute_string('name1'),
-         @attr2 = mysql_query_attribute_string('name2');
+         @a1 = mysql_query_attribute_string('name1'),
+         @a2 = mysql_query_attribute_string('name2');
 
 mysql> SELECT
-         @attr1, mysql_query_attribute_string('name1') AS 'attribute 1',
-         @attr2, mysql_query_attribute_string('name2') AS 'attribute 2';
+         @a1, mysql_query_attribute_string('name1') AS 'attribute 1',
+         @a2, mysql_query_attribute_string('name2') AS 'attribute 2';
 +--------+-------------+--------+-------------+
-| @attr1 | attribute 1 | @attr2 | attribute 2 |
+| @a1    | attribute 1 | @a2    | attribute 2 |
 +--------+-------------+--------+-------------+
 | value1 | NULL        | value2 | NULL        |
 +--------+-------------+--------+-------------+
