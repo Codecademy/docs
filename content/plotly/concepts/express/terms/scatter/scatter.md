@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The scatter function **scatter()** in the Plotly library that creates a scatter plot to visualize the relationship between variables using markers on the Cartesian plane.
+The **`scatter()`** function in the Plotly library creates a scatter plot to visualize the relationship between variables using markers on a Cartesian plane, with data points plotted based on their values on the x and y axes.
 
 ## Syntax
 
