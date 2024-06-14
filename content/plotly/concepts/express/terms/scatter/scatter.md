@@ -114,7 +114,7 @@ color = ['red', 'green', 'blue', 'purple', 'orange']
 symbol = ['circle', 'square', 'diamond', 'star', 'triangle-up']
 
 # Create a scatter plot with color and symbol customization
-fig = px.scatter(x, y, color=color, symbol=symbol, title = "Scatter Plot with Colors and Symbols")
+fig = px.scatter(x=x, y=y, color=color, symbol=symbol, title = "Scatter Plot with Colors and Symbols")
 
 # Display the plot
 fig.show()
