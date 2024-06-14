@@ -1,6 +1,6 @@
 ---
 Title: '.substr()'
-Description: 'Extracts a portion of a string starting from a specified position extending up to a specified number of characters.'
+Description: 'Extracts a portion of a string beginning at a specified position and continues for a specified number of characters.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
@@ -41,7 +41,7 @@ var sentence3 = 'The Intro to JavaScript is fun to learn.';
 console.log(sentence3.substr(-27, 10));
 ```
 
-The example above will print the following on the console:
+The above example prints the following output on the console:
 
 ```shell
 Intro to JavaScript
