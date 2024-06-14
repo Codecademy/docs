@@ -118,6 +118,6 @@ fig = px.scatter(x, y, color=color, symbol=symbol, title = "Scatter Plot with Co
 fig.show()
 ```
 
-Output:
+The code above produces the following output:
 
 ![Output of plotly scatter() example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/plotlyScatterOutput2.png)
