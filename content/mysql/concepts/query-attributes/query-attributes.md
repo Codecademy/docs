@@ -1,6 +1,6 @@
 ---
 Title: 'Query Attributes'
-Description: 'Query attributes are attributes that can be defined by clients that apply to the next statement sent to the server for execution.'
+Description: 'Query attributes client-defined attributes that apply to the next statement sent to the server for execution.'
 Subjects:
   - 'Computer Science'
   - 'Information Technology'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer'
 ---
 
-**Query attributes** are attributes that can be defined by clients that apply to the next statement sent to the server for execution.
+**Query attributes** are client-defined attributes that apply to the next statement sent to the server for execution.
 
 - attributes are defined prior to sending the statement.
 - attributes exist until statement execution ends, at which point the attribute set is cleared.
@@ -31,7 +31,7 @@ Examples of common uses for query attributes:
 The mysql client has a `query_attributes` command that enables defining up to 32 pairs of attribute names and values.
 
 ```sql
-    mysql> query_attributes name1 value1 name2 value2 name3 value3;
+mysql> query_attributes name1 value1 name2 value2 name3 value3;
 ```
 
 ### Accessing Query Attributes
@@ -56,7 +56,7 @@ mysql> SELECT
 +-------------+-------------+-------------+
 | attribute 1 | attribute 2 | attribute 3 |
 +-------------+-------------+-------------+
-| value1      | value2      | NULL        |
+| NULL        | NULL        | NULL        |
 +-------------+-------------+-------------+
 ```
 
@@ -82,7 +82,7 @@ mysql> SELECT
 +--------+-------------+--------+-------------+
 ```
 
-## Exammples
+## Example
 
 ### MySQL Statements
 ```sql
@@ -91,13 +91,17 @@ mysql> SELECT
         mysql_query_attribute_string('weapon1') AS 'gandalf',
         mysql_query_attribute_string('weapon2') AS 'aragorn',
         mysql_query_attribute_string('weapon3') AS 'gollum';
-```
-
-### Output
-```sql
 +-----------+---------+--------+
 | gandalf   | aragorn | gollum |
 +-----------+---------+--------+
 | glamdring | anduril | NULL   |
 +-----------+---------+--------+
+mysql> SELECT
+        mysql_query_attribute_string('weapon1') AS 'gandalf',
+        mysql_query_attribute_string('weapon2') AS 'aragorn';
++---------+---------+
+| gandalf | aragorn |
++---------+---------+
+| NULL    | NULL    |
++---------+---------+
 ```
