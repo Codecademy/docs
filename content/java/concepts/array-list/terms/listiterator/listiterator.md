@@ -64,7 +64,7 @@ you
 
 ### Example 2
 
-In this example, we create a ListIterator at a specified index.
+In this example, we create a `ListIterator` at a specified index.
 
 ```java
 import java.util.ArrayList;
@@ -100,7 +100,7 @@ you
 
 ### Example 3
 
-In this example, we create a ListIterator at a specified index. Note that if the index is larger than the size of the arraylist, the method will return an `IndexOutOfBounds` exception.
+In this example, we create a `ListIterator` at a specified index. Note that if the index is larger than the size of the arraylist, the method will return an `IndexOutOfBounds` exception.
 
 ```java
 import java.util.ArrayList;
