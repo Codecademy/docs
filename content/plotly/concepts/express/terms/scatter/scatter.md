@@ -1,6 +1,6 @@
 ---
 Title: '.scatter()'
-Description: Creates a scatter plot by plotting markers on the plane
+Description: 'Creates a scatter plot, which displays data points based on their values on the x and y axes.'
 Subjects:
   - 'Data Science'
   - 'Data Visualization'
@@ -10,7 +10,9 @@ Tags:
   - 'Plotly'
 CatalogContent:
   - 'learn-python-3'
+  - 'paths/computer-science'
   - 'paths/data-science'
+  - 'paths/data-science-foundations'
 ---
 
 The **`scatter()`** function in the Plotly library creates a scatter plot to visualize the relationship between variables using markers on a Cartesian plane, with data points plotted based on their values on the x and y axes.
