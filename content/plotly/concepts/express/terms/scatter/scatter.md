@@ -60,6 +60,8 @@ The above code produces the following output:
 
 ![Output of plotly scatter() example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/plotlyScatterOutput1.png)
 
+Let's customize the scatter plot created above by adding colors and symbols to each data point:
+
 ```py
 import plotly.express as px
 
