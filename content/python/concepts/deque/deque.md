@@ -17,8 +17,6 @@ The `deque`, short for _double-ended queue_," is a [Python](https://www.codecade
 
 ## Syntax
 
-Initialize a deque with optional parameters `iterable` and `maxlen`.
-
 ```pseudo
 d = deque(iterable=[], maxlen=None)
 
