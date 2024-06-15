@@ -56,7 +56,7 @@ fig = px.scatter(x = x ,y = y)
 fig.show()
 ```
 
-Output:
+The above code produces the following output:
 
 ![Output of plotly scatter() example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/plotlyScatterOutput1.png)
 
