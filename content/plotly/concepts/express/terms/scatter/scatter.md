@@ -37,6 +37,7 @@ If data_frame is mising, a DataFrame gets constructed using other arguments.
 - `symbol`: Column in `data_frame`, Series or array_like object assigning marker symbols.
 - `size`: Column in `data_frame`, Series or array_like object assgining marker sizes.
 
+> Note: The ellipsis (...) indicates that there can be additional optional parameters beyond those listed here to customize the scatter plot.
 
 ## Example
 
