@@ -16,9 +16,9 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-In Numpy, the **`.abs()`** function calculates the absolute value of a given number or each elements in an array. The absolute value of a number is its non-negative value or the number's distance from zero. This function can be applied to both real and complex numbers.
+In NumPy, the **`.abs()`** function calculates the absolute value of a given number or each element in an array. The absolute value of a number is its non-negative value or the number's distance from zero. This function can be applied to both real and complex numbers.
 
-> **Note:** `.abs()` is identical to `numpy.absolute()`, and they can be used interchangeably.
+> **Note:** `numpy.abs()` is identical to `numpy.absolute()`, and they can be used interchangeably.
 
 ## Syntax
 
@@ -85,7 +85,7 @@ The above example code results in the following output:
 [-1 -2  3  4]
 ```
 
-> **Note:** The `where` array must be the same length as the input array. Additionally, when using the `where` parameter, the `out` parameter should also be used to avoid errors with uninitialized memory.
+> **Note:** The `where` array must be broadcastable to the shape of the input array. Additionally, when using the `where` parameter, it is recommended to use the `out` parameter to specify where the result should be stored, which helps avoid errors with uninitialized memory.
 
 ## Codebyte Example
 
