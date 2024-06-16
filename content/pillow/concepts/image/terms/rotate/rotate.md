@@ -11,7 +11,7 @@ Tags:
   - 'Images'
   - 'Pillow'
 CatalogContent:
- - 'learn-python-3'
+  - 'learn-python-3'
   - 'paths/computer-science'
   - 'paths/data-science'
   - 'paths/data-science-foundations'
