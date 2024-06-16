@@ -47,9 +47,10 @@ img = Image.open('pillow-rotate-earth.png')
 # Showcasing the original image
 img.show()
 
-pillow-rotate-earth-rotated = img.rotate(30)
+# Rotating the image by 30 degrees
+image_rotated = img.rotate(30)
 
-#Showcasing the rotated image
+# Showcasing the rotated image
 img_rotated.show()
 ```
 
