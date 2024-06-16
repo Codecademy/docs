@@ -1,14 +1,14 @@
 ---
 Title: '.abs()'
-Description: 'Calculates the absolute value of a number or each element in an array.'
+Description: 'Calculates the absolute value of a given number or each element in an array.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'NumPy'
   - 'Arrays'
   - 'Functions'
   - 'Math'
+  - 'NumPy'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
@@ -16,24 +16,32 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-The **`.abs()`** function calculates the absolute value of a number or the absolute value of all of the elements in an array. The absolute value of a number is the number but without a sign, or the number's distance from zero. `.abs()` can also compute the absolute value of complex numbers. Additionally, `.absolute()` can be used instead of `.abs()`.
+In Numpy, the **`.abs()`** function calculates the absolute value of a given number or each elements in an array. The absolute value of a number is its non-negative value or the number's distance from zero. This function can be applied to both real and complex numbers.
+
+> **Note:** `.abs()` is identical to `numpy.absolute()`, and they can be used interchangeably.
 
 ## Syntax
 
-```psuedo
-`numpy.abs(array, out=None, where=True)`
+```pseudo
+numpy.abs(input_value, out=None, where=True)
 ```
 
-- `array`: The number or an array containing the elements to which the absolute value will be computed.
-- `out`: The location where the result of the absolute value will be stored. If no value is provided, the default value of `None` is used and a new array is returned.
-- `where`: An array of boolean values used to determine which elements of the array the absolute value function should be applied.
+or alternatively,
+
+```pseudo
+numpy.absolute(input_value, out=None, where=True)
+```
+
+- `input_value`: The input number or array for which the absolute value will be computed.
+- `out` (optional): A location where the result of the absolute value will be stored. If no value is provided, the default value of `None` is used and a new array is returned.
+- `where` (optional): A boolean array that determines which elements of the input array should have the absolute value function applied:
   - If the condition is `True` at a given position, the absolute value is computed for that element.
   - If the condition is `False`, the original value is retained.
   - If no value is provided, the absolute value is computed for every element.
 
 ## Example 1
 
-This example shows `.abs()` being used to calculate the absolute value of an array:
+This example demonstrates using `.abs()` function to calculate the absolute value of an array:
 
 ```py
 # Importing the 'numpy' library as 'np'
@@ -48,14 +56,15 @@ arr = np.abs(arr)
 print(arr)
 ```
 
-Output:
+The above example code results in the following output:
+
 ```shell
 [1. 1.5 0. 3.]
 ```
 
 ## Example 2
 
-This example shows how the `where` parameter of `.abs()` is used to specfiy which elements of the array undergo the absolute value function:
+This example shows how the `where` parameter of `.abs()` function is used to specify which elements of the array undergo the absolute value function:
 
 ```py
 # Importing the 'numpy' library as 'np'
@@ -70,15 +79,17 @@ np.abs(arr, out=arr, where=arr<-2)
 print(arr)
 ```
 
-Output:
+The above example code results in the following output:
+
 ```shell
 [-1 -2  3  4]
 ```
-> **Note:** The `where` variable must be the same length as the input array. Additionally, when using the `where` parameter, the `out` parameter should also be used to avoid errors with uninitialized memory.
+
+> **Note:** The `where` array must be the same length as the input array. Additionally, when using the `where` parameter, the `out` parameter should also be used to avoid errors with uninitialized memory.
 
 ## Codebyte Example
 
-In this codebyte example, the `.abs()` method computes the absolute value of the elements of the array that are greater than -100:
+In this codebyte example, the `.abs()` method computes the absolute value of the elements in the array that are greater than `-100`:
 
 ```codebyte/python
 import numpy as np
