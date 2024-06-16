@@ -16,9 +16,7 @@ CatalogContent:
 
 In MySQL, **Expressions** are combinations of one or more values, operators, and functions that evaluate to produce a result. Expressions are used in various parts of SQL queries to compute values, filter records, and perform operations. They are fundamental building blocks for constructing meaningful queries and performing calculations within the database.
 
-## Syntax
-
-The syntax for expressions in MySQL varies depending on the type of expression being used. Here are some common types of expressions:
+## Types of MySQL Expressions
 
 ### Arithmetic Expressions
 
