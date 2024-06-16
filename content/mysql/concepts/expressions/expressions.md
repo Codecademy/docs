@@ -24,9 +24,8 @@ Arithmetic expressions involve numerical calculations and use arithmetic operato
 
 ### Syntax
 
-``` sql
-SELECT 1 + 2;
-SELECT price * quantity;
+``` pseudo
+SELECT price * quantity FROM products;
 ```
 
 ## Examples
