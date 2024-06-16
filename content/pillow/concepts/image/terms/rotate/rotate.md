@@ -32,7 +32,7 @@ Image.rotate(angle, resample=Resampling.NEAREST, expand=0, center=None, translat
 - `translate`: Moves the image after rotation.
 - `fillcolor`: Color to fill areas outside the rotated image.
 
-> **Note:\*** The `.rotate()` method requires the `angle` parameter, while `resample`, `expand`, `center`, `translate` and `fillcolor` are optional parameters for additional control over teh rotating process.
+> Note: The `.rotate()` method requires the `angle` parameter, while `resample`, `expand`, `center`, `translate`, and `fillcolor` are optional parameters for additional control over the rotating process.
 
 ## Example
 
