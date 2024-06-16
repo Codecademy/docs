@@ -1,6 +1,6 @@
 ---
 Title: "Expressions"
-Description: "Learn about expressions in MySQL, which are combinations of values, operators, and SQL functions that evaluate to a value."
+Description: "Combinations of one or more values, operators, and functions that evaluate to produce a result."
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
