@@ -17,7 +17,7 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-In Pillow, the **`.rotate()`** method is used to change the rotation of an image. Pillow is a widely used Python library for image processing and manipulation, supporting formats such as JPEG, PNG, PPM, TIFF, GIF and BMP. It can be easily installed on a local PC using [pip](https://www.codecademy.com/resources/docs/python/pip).
+In Pillow, the **`.rotate()`** method is used to rotate an image by a specified number of degrees counterclockwise. Pillow is a popular Python library for image processing and manipulation, with support for formats like JPEG, PNG, PPM, TIFF, GIF, and BMP. It can be easily installed on a local PC using [pip](https://www.codecademy.com/resources/docs/python/pip).
 
 ## Syntax
 
