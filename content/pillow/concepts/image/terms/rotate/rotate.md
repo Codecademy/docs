@@ -53,7 +53,7 @@ pillow-rotate-earth-rotated = img.rotate(30)
 img_rotated.show()
 ```
 
-The code snippet showcase the image in the output as follows:
+The code snippet showcases the following output:
 
 ![The Original Image](https://raw.githubusercontent.com/Codecademy/docs/main/media/pillow-rotate-earth.png)
 
