@@ -22,6 +22,8 @@ In MySQL, **Expressions** are combinations of one or more values, operators, and
 
 Arithmetic expressions involve numerical calculations and use arithmetic operators such as `+`, `-`, `*`, and `/`.
 
+### Syntax
+
 ``` sql
 SELECT 1 + 2;
 SELECT price * quantity;
