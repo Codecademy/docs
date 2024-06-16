@@ -28,7 +28,7 @@ Arithmetic expressions involve numerical calculations and use arithmetic operato
 SELECT price * quantity FROM products;
 ```
 
-## Examples
+### Example
 
 The following example create table with columns name, price, and quantity_in_stock:
 
