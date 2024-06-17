@@ -20,7 +20,7 @@ In the NumPy library, the **`.round()`** method rounds a number or an array of n
 ## Syntax
 
 ```psuedo
-numpy.round(array/number, decimal place, out)
+numpy.round(array, decimals=0, out=None)
 ```
 
 - `array/number` is the number or array, whose elements (either a float or integer) will be rounded.
