@@ -13,12 +13,14 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In NumPy, the **`.degrees()`** function converts angle radians to degrees.
+In NumPy, the **`.degrees()`** function converts an angle measure from radians to degrees.
 
 ## Syntax
 
 ```pseudo
 numpy.degrees(x)
+
+numpy.degrees([x, x, x])
 ```
 
 - `x`: The number or array of numbers in radians that must be converted.
@@ -29,16 +31,16 @@ numpy.degrees(x)
 # Importing the 'numpy' library as 'np'
 import numpy as np
 
-# Convert a single number from radians to desgrees
-result = 
-
+# Convert a single number from radians to degrees
+radNum = 4
+result = np.degrees(radNum)
 print(result)
 ```
 
 The output of the above code is shown below:
 
 ```shell
-[3]
+229.1831180523293
 ```
 
 
@@ -49,15 +51,15 @@ The output of the above code is shown below:
 import numpy as np
 
 # Convert an array of numbers from radians to degrees
-result = 
-
+radArray = [ 2, 4, 5, 8]
+result = np.degrees(radArray)
 print(result)
 ```
 
 The output of the above code is shown below:
 
 ```shell
-[3, 5, 6]
+[114.59155903 229.18311805 286.47889757 458.3662361 ]
 ```
 
 
@@ -69,7 +71,7 @@ In this codebyte example, the `.degree()` method converts
 ```codebyte/python
 import numpy as np
 
-result = 
-
+radArray = [ 1, 32, 100]
+result = np.degrees(radArray)
 print(result)
 ```
