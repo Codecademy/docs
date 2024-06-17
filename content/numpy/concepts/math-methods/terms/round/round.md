@@ -23,9 +23,9 @@ In the NumPy library, the **`.round()`** method rounds a number or an array of n
 numpy.round(array, decimals=0, out=None)
 ```
 
-- `array/number` is the number or array, whose elements (either a float or integer) will be rounded.
-- `decimal place` is the number of decimal places the number or elements in the array will be rounded to. The default value is 0. This parameter is optional and will accept negative integers as well as positive ones.
-- `out` is an optional output array which the result will feed into.
+- `array`: Represents either a single number or an array of numbers. Each element, whether a float or integer, will be rounded.
+- `decimal`: Optional parameter that specifies the number of decimal places to which the numbers or elements in the array will be rounded. The default value is 0, and it accepts both positive and negative integers.
+- `out`: Optional parameter that allows specifying an output array where the rounded results will be stored. If not provided, a new array will be created to store the rounded values.
 
 > **Note:** Numpy is commonly imported as `import numpy as np`. This allows us to refer to `numpy` as `np`.
 > 
