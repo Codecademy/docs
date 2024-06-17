@@ -17,8 +17,9 @@ The `.len()` function returns the complete number of characters contained in a s
 ## Syntax
 
 ```shell
-string.len(string)
+string.len(s)
 ```
+Replace `s` with your string.
 
 ## Example
 
