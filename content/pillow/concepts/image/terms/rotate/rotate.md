@@ -17,7 +17,7 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-In Pillow, the **`.rotate()`** method is used to rotate an image by a specified number of degrees counterclockwise. Pillow is a popular Python library for image processing and manipulation, with support for formats like JPEG, PNG, PPM, TIFF, GIF, and BMP. It can be easily installed on a local PC using [pip](https://www.codecademy.com/resources/docs/python/pip).
+In Pillow, the **`.rotate()`** method is used to rotate an image by a specified number of degrees counterclockwise. Pillow is a popular Python library for image processing and manipulation, with support for formats like JPEG, PNG, PPM, TIFF, GIF, and BMP. The Pillow library can be easily installed on a local PC using [pip](https://www.codecademy.com/resources/docs/python/pip).
 
 ## Syntax
 
@@ -25,18 +25,18 @@ In Pillow, the **`.rotate()`** method is used to rotate an image by a specified 
 Image.rotate(angle, resample=Resampling.NEAREST, expand=0, center=None, translate=None, fillcolor=None)
 ```
 
-- `angle`: Degrees to rotate the image counterclockwise.
-- `resample`: Choose from Resampling.NEAREST (default), Resampling.BILINEAR (linear interpolation), or Resampling.BICUBIC (cubic interpolation).
-- `expand`: If true, the output image is large enough to include the entire rotated image. If false, it remains the same size as the input image.
-- `center`: Sets the center of rotation with a 2-tuple. The origin is the upper-left corner.
-- `translate`: Moves the image after rotation.
-- `fillcolor`: Color to fill areas outside the rotated image.
+- `angle`: The angle to rotate the image by, in degrees counterclockwise.
+- `resample`: The resampling filter to use. Options include `Resampling.NEAREST`, `Resampling.BILINEAR`, `Resampling.BICUBIC`, and `Resamplinge.LANCZOS`. The default is `Resampling.NEAREST`.
+- `expand`: A boolean that, if `True`, expands the output image to make sure the whole rotated image fits. The default is `False`.
+- `center`: A tuple `(x, y)` representing the center of rotation. The origin is the upper-left corner.
+- `translate`: A tuple `(x, y)` representing post-rotate translation. The default is `None`.
+- `fillcolor`: The color to use for areas outside the rotated image. The default is `None`.
 
-> Note: The `.rotate()` method requires the `angle` parameter, while `resample`, `expand`, `center`, `translate`, and `fillcolor` are optional parameters for additional control over the rotating process.
+> **Note:** The `.rotate()` method requires the `angle` parameter, while `resample`, `expand`, `center`, `translate`, and `fillcolor` are optional parameters for additional control over the rotating process.
 
 ## Example
 
-The following example demostrates the use of the '.rotate()' method to change the angle of the image:
+The following example demostrates the use of the `.rotate()` method to change the angle of the image:
 
 ```py
 from PIL import Image
@@ -51,7 +51,7 @@ img.show()
 image_rotated = img.rotate(30)
 
 # Showcasing the rotated image
-img_rotated.show()
+image_rotated.show()
 ```
 
 The code snippet showcases the following output:
