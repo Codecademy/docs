@@ -21,6 +21,8 @@ string.len(s)
 ```
 Replace `s` with your string.
 
+An empty string `""` would output `0`.
+
 ## Example
 
 ```lua
