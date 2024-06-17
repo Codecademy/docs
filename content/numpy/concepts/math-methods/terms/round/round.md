@@ -27,7 +27,6 @@ numpy.round(array, decimals=0, out=None)
 - `decimal`: Optional parameter that specifies the number of decimal places to which the numbers or elements in the array will be rounded. The default value is 0, and it accepts both positive and negative integers.
 - `out`: Optional parameter that allows specifying an output array where the rounded results will be stored. If not provided, a new array will be created to store the rounded values.
 
-> **Note:** Numpy is commonly imported as `import numpy as np`. This allows us to refer to `numpy` as `np`.
 > 
 > **Note:** `numpy.round()` will return an array without commas separating the elements. To see the output with commas use [`.repr()`](https://github.com/Codecademy/docs/blob/main/content/python/concepts/built-in-functions/terms/repr/repr.md).
 >
