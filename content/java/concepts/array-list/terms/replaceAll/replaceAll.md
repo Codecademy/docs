@@ -1,25 +1,28 @@
 ---
 Title: '.replaceAll()'
-Description: 'Replaces all occurrences of a given value in an ArrayList.'
+Description: 'Replaces all occurrences of elements in the ArrayList with a specified new value..'
 Subjects:
-  - 'Computer Science'
   - 'Code Foundations'
+  - 'Computer Science'
 Tags:
   - 'Arrays'
   - 'Data Types'
+  - 'Java'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
 ---
 
-The **`.replaceAll()`** method of the `ArrayList` class takes an Operator as argument and applies it to every element in the List
+The **`.replaceAll()`** method in Java is used for transforming all elements of a list according to a specified unary operation, effectively updating each element in place with the result of the operation applied to it.
 
 ## Syntax
 
-Applies `operator` to each element in ArrayList `myArrayList` and replaces the element with a new value
 ```pseudo
-myArrayList.replaceAll(operator);
+arrayList.replaceAll(UnaryOperator<E> operator)
 ```
+
+- `arrayListInstance`: The `ArrayList` on which the `.replaceAll()` method is called.
+- `UnaryOperator<E> operator`: The `UnaryOperator` that is applied to all elements in the list and replaces them with elements of the same type.
 
 ## Example
 
@@ -49,8 +52,6 @@ public class Main {
 The output for this code would look like this:
 
 ```shell
-Cities in uppercase: 
-[STOCKHOLM, LONDON, PARIS, BERLIN]
-Updated cities in lowercase: 
-[stockholm, london, paris, berlin]
+Cities in uppercase: [STOCKHOLM, LONDON, PARIS, BERLIN]
+Updated cities in lowercase: [stockholm, london, paris, berlin]
 ```
