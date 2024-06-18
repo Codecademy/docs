@@ -1,16 +1,14 @@
 ---
 Title: '.transpose()'
-Description: 'Method in the Pillow library used to flip or rotate an image.'
+Description: 'Flips or rotates an image according to the specified operation.'
 Subjects:
-  - 'Code foundation'
+  - 'Code foundations'
   - 'Computer science'
 Tags:
   - 'Methods'
-  - 'Functions'
-  - 'Libraries'
   - 'Pillow'
 CatalogContent:
-  - 'learn-Python-3'
+  - 'learn-python-3'
   - 'paths/computer-science'
   - 'paths/data-science'
   - 'paths/data-science-foundations'
