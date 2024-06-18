@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-The **.transpose()** method is used to flip or rotate an image in 90-degree steps.
+In Pillow, The **`.transpose()`** method is used to flip or rotate an image in 90-degree steps.
 
 ## Syntax
 
