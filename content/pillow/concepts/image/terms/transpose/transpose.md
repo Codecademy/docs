@@ -20,29 +20,31 @@ In Pillow, The **`.transpose()`** method is used to flip or rotate an image in 9
 
 ```pseudo
 Image.transpose(method)
-
-# Where possible values of the method are
-
-PIL.Image.FLIP_LEFT_RIGHT
-PIL.Image.FLIP_TOP_BOTTOM
-PIL.Image.ROTATE_90
-PIL.Image.ROTATE_180
-PIL.Image.ROTATE_270
-PIL.Image.TRANSPOSE or PIL.Image.TRANSVERSE.
 ```
+
+- `Image`: Refers to the image object to which the transpose operations are to be applied.
+- `method`: Specifies the type of transpose operation to perform. It can take one of the following values:
+  - `Image.FLIP_LEFT_RIGHT`: Flips the image horizontally (left to right).
+  - `Image.FLIP_TOP_BOTTOM`: Flips the image vertically (top to bottom).
+  - `Image.ROTATE_90`: Rotates the image by 90 degrees clockwise.
+  - `Image.ROTATE_180`: Rotates the image by 180 degrees.
+  - `Image.ROTATE_270`: Rotates the image by 270 degrees clockwise.
 
 ## Example
 
-```python
 Here’s an example of how to use the '.transpose()' method to flip an image:
 
+```py
 import PIL
 from PIL import Image
 
 # Read the image
 im = Image.open("docs/content/pillow/concepts/image/bird-thumbnail.jpg")
+# Display the original image
+im.show()
 
 # Flip image
 out = im.transpose(PIL.Image.FLIP_LEFT_RIGHT)
-out.save("docs/content/pillow/concepts/image/output.png")
+# Display the flipped image
+out.show()
 ```
