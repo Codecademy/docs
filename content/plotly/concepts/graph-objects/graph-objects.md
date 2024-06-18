@@ -24,7 +24,7 @@ In Python, the **`graph_objects`** module in Plotly is used for creating and man
 - **Interactivity**: Plots created with `graph_objects` are interactive, allowing for features such as zooming, panning, and tooltips.
 - **Integration**: Works seamlessly with various data sources and can be integrated into web applications using frameworks like Dash.
 
-##  Use `graph_objects' for
+##  Applications of `graph_objects`:
  - 3D trace types like mesh or isosurface 
  - Subplots of different types, dual-axis plots
  - Faceted plots with multiple different types of traces
