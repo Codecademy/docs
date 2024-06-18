@@ -27,7 +27,7 @@ numpy.cos(argument)
 
 ## Example
 
-The below example shows the `np.cos()` method in use:
+The below example shows the `.cos()` function in use:
 
 ```py
 import numpy as np
