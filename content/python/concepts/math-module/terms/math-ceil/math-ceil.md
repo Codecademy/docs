@@ -30,20 +30,22 @@ Use `math.ceil()` to return the ceiling of `134.2`:
 import math
 
 print(math.ceil(134.2))
+```
 
-# Output: 135
+The above code gives the following output:
+
+```shell
+135
 ```
 
 ## Codebyte Example
 
-The following example is runnable and uses the `math.ceil()` function to return the ceiling of a number:
+Run the following example that uses the `math.ceil()` function to understand its working:
 
 ```codebyte/python
 import math
 
 print(math.ceil(4.2))
-# Output: 5
 
 print(math.ceil(9.7))
-# Output: 10
 ```
