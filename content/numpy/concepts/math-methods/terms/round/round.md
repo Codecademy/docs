@@ -5,9 +5,9 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'NumPy'
-  - 'Math'
   - 'Arrays'
+  - 'Math'
+  - 'NumPy'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-In the NumPy library, the **`.round()`** method rounds a number or an array of numbers to a specified number of decimal places. It method returns an array without commas separating the elements. To view the output with commas, use [`.repr()`](https://www.codecademy.com/resources/docs/python/built-in-functions/repr). Additionally, the `.round()` method rounds to the nearest even number when it is exactly halfway between two numbers.
+In the NumPy library, the **`.round()`** method rounds a number or an array of numbers to a specified number of decimal places. It returns an array without commas separating the elements. To view the output with commas, use [`.repr()`](https://www.codecademy.com/resources/docs/python/built-in-functions/repr). Additionally, the `.round()` method rounds to the nearest even number when it is exactly halfway between two numbers.
 
 ## Syntax
 
