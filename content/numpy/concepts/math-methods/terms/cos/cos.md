@@ -10,6 +10,8 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
+  - 'paths/data-science'
+  - 'paths/data-science-foundations'
 ---
 
 In NumPy, the **`.cos()`** function computes the cosine of each element in an array. This trigonometric function is essential for various mathematical computations, especially in physics, engineering, computer graphics, signal processing, and more.
@@ -17,12 +19,12 @@ In NumPy, the **`.cos()`** function computes the cosine of each element in an ar
 ## Syntax
 
 ```pseudo
-numpy.cos(argument)
+numpy.cos(array, out = None, dtype = None)
 ```
 
-- `numpy`: The Python library that provides support for large, multi-dimensional arrays and matrices, along with a large collection of mathematical functions to operate on these arrays.
-- `cos`: The trigonometric cosine function provided by NumPy, which computes the cosine of each element in the input array.
-- `argument`: The array of angles (in radians) on which the cos function is applied to compute the cosine values.
+- `array`: The input array or scalar containing angles in radians for which cosine values are computed.
+- `out`: An array or array-like object where the output cosine values are stored. If not provided, a new array is created. It is an optional parameter
+- `dtype`: Specifies the data type of the output array. If not provided, the data type is inferred from the input array. It is an optional parameter
 
 
 ## Example
@@ -41,6 +43,7 @@ cos_value = np.cos(angle)
 print("Angle (radians):", angle)
 print("Cosine value:", cos_value)
 ```
+
 The above code generates the output as below:
 
 ```shell
@@ -62,11 +65,3 @@ cos_values = np.cos(angles)
 print("Angles (radians):", angles)
 print("Cosine values:", cos_values)
 ```
-### All Trigonometric NumPy Functions
-
-- Sine `numpy.sin()`: Computes the sine of each element in the array.
-- Cosine `numpy.cos()`: Computes the cosine of each element in the array.
-- Tangent `numpy.tan()`: Computes the tangent of each element in the array.
-- Inverse Sine `numpy.arcsin()`: Computes the inverse sine of each element in the array.
-- Inverse Cosine `numpy.arccos()`: Computes the inverse cosine of each element in the array.
-- Inverse Tangent `numpy.arctan()`: Computes the inverse tangent of each element in the array.
