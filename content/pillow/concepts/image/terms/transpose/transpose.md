@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-In Pillow, The **`.transpose()`** method is used to flip or rotate an image in 90-degree steps.
+In Pillow, the **`.transpose()`** method is used to flip or rotate an image in 90-degree steps.
 
 ## Syntax
 
@@ -32,7 +32,7 @@ Image.transpose(method)
 
 ## Example
 
-Here’s an example of how to use the '.transpose()' method to flip an image:
+Here’s an example of how to use the `.transpose()` method to flip an image:
 
 ```py
 import PIL
