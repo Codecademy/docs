@@ -39,7 +39,7 @@ The boolean logical methods available in Java are described in the following tab
 | ---------------------------------- | ---------------------------------- | --------------------------- |
 | `logicalAnd(boolean A, boolean B)` | Returns the result of `(A && B)`   | AND / Conjunction           |
 | `logicalOr(boolean A, boolean B)`  | Returns the result of `(A \|\| B)` | OR / Inclusive disjunction  |
-| `logicalXor(boolean A, boolean B)` | Returns the result of `(A ^ B)`    | XOR / Exculsive disjunction |
+| `logicalXor(boolean A, boolean B)` | Returns the result of `(A ^ B)`    | XOR / Exclusive disjunction |
 
 ### Use in Conditionals
 

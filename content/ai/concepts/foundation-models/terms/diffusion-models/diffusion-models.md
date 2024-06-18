@@ -27,7 +27,7 @@ The three fundamental mathematical frameworks that support the science behind di
 
 - **DDPMs** : Denoising Diffusion Probabilistic Models are generative models mainly used to remove noise from visual or audio data.
 
-- **SGMs** : Noise-Conditioned Score-Based Generative Models can generate new samples from a given distribution. They work by learning an estimation score function that can estimate the log density of the target distribution. This means buiding an estimate based on observed data to be sampled.
+- **SGMs** : Noise-Conditioned Score-Based Generative Models can generate new samples from a given distribution. They work by learning an estimation score function that can estimate the log density of the target distribution. This means building an estimate based on observed data to be sampled.
 
 - **SDEs** : Stochastic Differential Equations describe changes in random processes concerning time. Widely used in physics and financial markets involving random factors that significantly impact market outcomes.
 
