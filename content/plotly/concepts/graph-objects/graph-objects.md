@@ -23,15 +23,17 @@ In Python, the **`graph_objects`** module in Plotly is used for creating and man
 3. `Layout`: Control the overall appearance and arrangement of the visualization, including axes, titles, annotations, and more.
 
 ## Key Features
+
 - Object-Oriented Approach: Allows for detailed customization and fine-grained control over plot attributes.
 - Composability: Different plot types and layout elements can be composed together to create intricate and layered visualizations.
 - Interactivity: Plots created with `graph_objects` are interactive, allowing for features such as zooming, panning, and tooltips.
 - Integration: Works seamlessly with various data sources and can be integrated into web applications using frameworks like Dash.
 
-##  Applications of `graph_objects`:
- - Creating 3D trace types like mesh or isosurface.
- - Generating subplots of different types and dual-axis plots.
- - Faceting plots with multiple different types of traces.
+## Applications
+
+- Creating 3D trace types like mesh or isosurface.
+- Generating subplots of different types and dual-axis plots.
+- Faceting plots with multiple different types of traces.
 
 ## Syntax
 
