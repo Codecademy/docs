@@ -41,7 +41,7 @@ cos_value = np.cos(angle)
 print("Angle (radians):", angle)
 print("Cosine value:", cos_value)
 ```
-The output of the above code is shown below:
+The above code generates the output as below:
 
 ```shell
 Angle (radians): 0.7853981633974483
