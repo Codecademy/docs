@@ -14,8 +14,6 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-[Introduction - make sure first mention of concept is in **bold**.] (The first 160 characters of this section will appear as the description of the page when it shows up on search engines. It's important!)
-
 [**`add()`** function for Python sets. The `add()` function will insert a new element into a set.]
 
 ## Syntax
