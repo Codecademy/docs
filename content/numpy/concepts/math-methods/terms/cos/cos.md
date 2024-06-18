@@ -16,7 +16,6 @@ In NumPy, the **`.cos()`** function computes the cosine of each element in an ar
 
 ## Syntax
 
-The generic syntax for the NumPy math methods is as follows:
 ```pseudo
 numpy.cos(argument)
 ```
