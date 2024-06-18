@@ -2,8 +2,8 @@
 Title: '.transpose()'
 Description: 'Flips or rotates an image according to the specified operation.'
 Subjects:
-  - 'Code foundations'
-  - 'Computer science'
+  - 'Code Foundations'
+  - 'Computer Science'
 Tags:
   - 'Methods'
   - 'Pillow'
