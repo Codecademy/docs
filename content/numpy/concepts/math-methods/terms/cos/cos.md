@@ -1,14 +1,12 @@
 ---
-Title: 'NumPy cos'
-Description: 'Returns the cos of the argument.'
+Title: '.cos()'
+Description: 'Computes the cosine of each element in an array or a single value.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
+  - 'Arrays'
   - 'NumPy'
-  - 'Trig'
-  - 'Math'
-  - 'Methods'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
