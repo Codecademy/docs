@@ -1,1 +1,1 @@
-content/python/concepts/scope/scope.md
+content/general/concepts/jsp/jsp.md
