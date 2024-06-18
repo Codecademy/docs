@@ -34,7 +34,7 @@ Below is a table describing some of the animation type properties and methods.
 | `.easeIn(duration:)`    | Same as `.easeIn`, but with a duration specified in seconds.                                                                                                   |
 | `.easeOut`              | Animation starts fast then slows down.                                                                                                                         |
 | `.easeOut(duration:)`   | Same as `.easeOut`, but with a duration specified in seconds.                                                                                                  |
-| `.easeInOut`            | Amimation starts slow, speeds up, then slows down.                                                                                                             |
+| `.easeInOut`            | Animation starts slow, speeds up, then slows down.                                                                                                             |
 | `.easeInOut(duration:)` | Same as `.easeInOut`, but with a duration specified in seconds.                                                                                                |
 | `.linear`               | Animation has a constant speed.                                                                                                                                |
 | `.linear(duration:)`    | Same as `.linear`, but with a duration specified in seconds.                                                                                                   |
