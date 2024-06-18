@@ -21,7 +21,7 @@ LAG (expression [, offset] [, default])
 OVER ( [ partition_by ] order_by )
 ```
 
-`LAG()` accepts the following paramteres:
+`LAG()` accepts the following parameters:
 
 - `expression` - The column value which will be referenced.
 - `offset` - A positive numeric indicator of the previous row to access that is relative to the current row. If not specified the default is 1.

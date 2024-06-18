@@ -16,7 +16,7 @@ CatalogContent:
 
 For example, in the United States a citizen must be 18 years old by election day to be eligible to vote. In this case, the condition would be if a given person is 18 or older that determines if they are eligible to vote (assuming they meet all other requirements). Such decision-making can be accomplished programmatically with conditionals.
 
-All programming languages support conditonals in various ways, but there are two main conditionals: `if`-`else` and `switch`.
+All programming languages support conditionals in various ways, but there are two main conditionals: `if`-`else` and `switch`.
 
 > **Note:** The following pseudo code blocks are not written in any particular language.
 

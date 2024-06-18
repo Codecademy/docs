@@ -131,7 +131,7 @@ fixedLengthList[2] = 3; // Sets the 3rd item in the list as 3
 
 Removing items of data from lists utilizes the following methods:
 
-- `(listname).remove(item);` - This removes the first occurance of the specified item
+- `(listname).remove(item);` - This removes the first occurrence of the specified item
 - `(listname).removeAt(1);` - This removes the item at the specified index
 - `(listname).removeLast();` - This removes the last item in the list
 
