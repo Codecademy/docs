@@ -1,19 +1,19 @@
 ---
-Title: 'Graph Objects'
-Description: 'Classes in the Plotly library are used for creating and manipulating complex plots and visualizations.'
+Title: 'graph_objects'
+Description: 'Creates and customizes interactive plots by defining data and layout attributes.'
 Subjects:
+  - 'Computer Science'
+  - 'Data Science'
   - 'Data Visualization'
-  - 'Data Science'
 Tags:
+  - 'Graphs'
+  - 'Modules'
   - 'Plotly'
-  - 'Graph Objects'
-  - 'Data Science'
-  - 'Classes'
 CatalogContent:
-- 'learn-python-3'
-- 'paths/computer-science'
-- 'paths/data-science'
-- 'paths/data-science-foundations'
+  - 'learn-python-3'
+  - 'paths/computer-science'
+  - 'paths/data-science'
+  - 'paths/data-science-foundations'
 ---
 
 In Python, the **`graph_objects`** module in Plotly is used for creating and manipulating complex plots and visualizations. It provides a structured way to build a wide variety of plot types using a declarative syntax.
