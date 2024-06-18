@@ -1,1 +1,1 @@
-content/css/concepts/variables/variables.md
+content/general/concepts/jsp/jsp.md

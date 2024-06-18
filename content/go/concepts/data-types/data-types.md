@@ -90,7 +90,7 @@ isValid = false
 Arrays are list with static capacity. They can't change their capacity after the declaration.
 
 ```golang
-// Declare and initialize an arraz of capacity 5 and fill it with elements
+// Declare and initialize an array of capacity 5 and fill it with elements
 someArray := [5]int{0, 2, 3, 4, 5}
 ```
 
@@ -99,7 +99,7 @@ someArray := [5]int{0, 2, 3, 4, 5}
 Slices can change their capacity dynamically even after their declaration. Under the hood a slice references an array. If the array changes, so does the slice.
 
 ```golang
-// Copy the elements from index 0 until (excluding) index 3 into a slace
+// Copy the elements from index 0 until (excluding) index 3 into a slice
 var slice []int = someArary[0:3]
 ```
 
