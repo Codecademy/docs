@@ -73,7 +73,7 @@ print("# Case 6")
 print(rounded)
 ```
 
-Output:
+The above use cases produce the following output:
 
 ```shell
 # Case 1
