@@ -1,46 +1,48 @@
 ---
 Title: '.at()'
-Description: 'Returns the character at a given index, supporting positive and negative integers.'
+Description: 'Returns the character at a particular index in a string.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
 Tags:
   - 'Methods'
   - 'Strings'
+  - 'Index'
+  - 'Characters'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
 
-In JavaScript, the **`.at()`** method allows direct access to the string's character at the specified position. Unlike the [`.charAt()` method](https://www.codecademy.com/resources/docs/javascript/strings/charAt), `.at()` allows both positive and negative integers as an argument. Positive integers count indices from the start of the string, while negative integers count from the back.
+In JavaScript, the **`.at()`** [method](https://www.codecademy.com/resources/docs/javascript/methods) allows direct access to a character at a specified position in a string. Unlike the [`.charAt()`](https://www.codecademy.com/resources/docs/javascript/strings/charAt) method, `.at()` allows both positive and negative integers as an argument, which makes the operation much simpler. Positive integers count indices from the start of the string, while negative integers count from the back.
 
 ## Syntax
 
-```pseudo code
+```pseudo
 string.at(idx);
 ```
 
-- `string`: The string from which the character will be accessed.
-- `idx`: An integer representing the position of the character to be accessed. Positive integers start from the front of the string, while negative integers start from the back.
+- `string`: The string from which the character is to be accessed.
+- `idx`: An integer representing the position of the character to be accessed.
 
 ## Example
 
-The following example demonstrates the use of the `.at()` function to access characters at various positions:
+The following example demonstrates the use of the `.at()` method:
 
 ```js
 const word = 'Codecademy is fun!';
 
-// accessing the first character
+// Accessing the first character in the string
 console.log(word.at(0));
 
-// accessing the last character with negative indexing
+// Accessing the last character using a negative index
 console.log(word.at(-1));
 
-// attempting to access a character beyond the string's length
+// Accessing a character at a position that's beyond the string length
 console.log(word.at(100));
 ```
 
-The above code will give the following output:
+The above code produces the following output:
 
 ```shell
 C
@@ -48,11 +50,13 @@ C
 undefined
 ```
 
-> **Note:** The `.at()` method provides easy access of characters from the back using negative indexing, which is much simpler when compared to the `.charAt()` method. It also returns `undefined` for out-of-bound indices, unlike `.charAt()` which returns an empty string.
+> Note: The `.at()` method returns `undefined` for out-of-bound indices, unlike `.charAt()`, which returns an empty string.
 
 ## Codebyte Example
 
-```codebyte/js
+Here is a codebyte example that shows the usage of the `.at()` method:
+
+```codebyte/javascript
 console.log('Data Structures'.at(0));
 
 console.log('Sofware Development'.at(-2));
