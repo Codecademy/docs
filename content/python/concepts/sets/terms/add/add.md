@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-[**`add()`** function for Python sets. The `add()` function will insert a new element into a set.]
+In Python, the **`.add()`** method adds an element to a set if it is not already present, maintaining the set's unique element property.
 
 ## Syntax
 
