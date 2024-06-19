@@ -23,7 +23,21 @@ Table objects are created using a constructor expression, in this case, a pair o
 t = {}
 ```
 
-To add values to the table, use square brackets to set the key that's associated with the value:
+To initialize a table with predefined elements, insert values inside the curly braces and separated with commas:
+
+```lua
+t = {"element1", "element2", "element3"}
+```
+
+To initialize values with assigned keys, define the keys using square brackets and an equal sign `=`:
+
+```lua
+t = {["key1"] = "element1",
+     ["key2"] = "element2",
+     ["key2"] = "element3"}
+```
+
+To add values later in code, use square brackets again to set the key that's associated with the value:
 
 ```pseudo
 t[mykey] = myvalue
@@ -45,6 +59,13 @@ Values can also be accessed using dot notation:
 
 ```lua
 print(t.a) -- Output: 1
+```
+
+If no key was defined, use a numeric index:
+
+```lua
+t = {"a", "b", "c"}
+print(t[1]) -- Output: a
 ```
 
 ## Table Functions
