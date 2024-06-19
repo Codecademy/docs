@@ -27,7 +27,7 @@ string.at(index);
 
 ## Example
 
-The following example demonstrates the use of the `.at()` method:
+Below is an example showcasing the functionality of the `.at()` method:
 
 ```js
 const word = 'Codecademy is fun!';
