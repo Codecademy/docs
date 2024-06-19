@@ -5,25 +5,25 @@ Subjects:
   - 'Computer Science'
   - 'Web Development'
 Tags:
+  - 'Characters'
+  - 'Index'
   - 'Methods'
   - 'Strings'
-  - 'Index'
-  - 'Characters'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
 
-In JavaScript, the **`.at()`** [method](https://www.codecademy.com/resources/docs/javascript/methods) allows direct access to a character at a specified position in a string. Unlike the [`.charAt()`](https://www.codecademy.com/resources/docs/javascript/strings/charAt) method, `.at()` allows both positive and negative integers as an argument, which makes the operation much simpler. Positive integers count indices from the start of the string, while negative integers count from the back.
+In JavaScript, the **`.at()`** [method](https://www.codecademy.com/resources/docs/javascript/methods) allows direct access to a character at a specified position in a string. Unlike the [`.charAt()`](https://www.codecademy.com/resources/docs/javascript/strings/charAt) method, `.at()` allows both positive and negative integers as an argument, simplifying the operation. Positive integers count indices from the start of the string, while negative integers count from the back. For example, `-1` refers to the last character, `-2` to the second last, and so on.
 
 ## Syntax
 
 ```pseudo
-string.at(idx);
+string.at(index);
 ```
 
 - `string`: The string from which the character is to be accessed.
-- `idx`: An integer representing the position of the character to be accessed.
+- `index`: An integer representing the position of the character to be accessed.
 
 ## Example
 
@@ -50,11 +50,11 @@ C
 undefined
 ```
 
-> Note: The `.at()` method returns `undefined` for out-of-bound indices, unlike `.charAt()`, which returns an empty string.
+> **Note:** The `.at()` method returns `undefined` for out-of-bound indices, unlike `.charAt()`, which returns an empty string.
 
 ## Codebyte Example
 
-Here is a codebyte example that shows the usage of the `.at()` method:
+Run the following code to understand how the `.at()` method works:
 
 ```codebyte/javascript
 console.log('Data Structures'.at(0));
