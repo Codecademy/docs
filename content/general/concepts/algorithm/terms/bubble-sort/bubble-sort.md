@@ -2,12 +2,13 @@
 Title: 'Bubble Sort Algorithm'
 Description: 'Illustrates a simple sorting algorithm using repeated swapping of adjacent elements.'
 Subjects:
+  - 'Code Foundations'
   - 'Computer Science'
   - 'Interview Prep'
-  - 'Code Foundations'
 Tags:
-  - 'Sorting Algorithms'
   - 'Algorithms'
+  - 'Bubble Sort'
+  - 'Sorting Algorithms'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
@@ -49,13 +50,13 @@ This pseudocode outlines the logic of the Bubble Sort algorithm without being ti
 
 ## Time Complexity
 
-**Overall Time Complexity: O(n^2)**
+Overall Time Complexity: O(n^2)
 
 - **Iterative Comparison**: Each pair of adjacent elements is compared, leading to n-1 comparisons in the first pass, n-2 in the second, and so on.
 - **Best Case Scenario**: O(n) when the array is already sorted, as only one pass will be needed.
 - **Worst and Average Case**: O(n^2) due to the nested loops for comparing and swapping elements.
 
-> **Note**: The overall time complexity of Bubble Sort is predominantly influenced by the number of passes through the array and the comparisons within each pass.
+> **Note:** The overall time complexity of Bubble Sort is predominantly influenced by the number of passes through the array and the comparisons within each pass.
 
 ## Characteristics of Bubble Sort
 
@@ -68,6 +69,6 @@ This pseudocode outlines the logic of the Bubble Sort algorithm without being ti
 
 The following animation visually demonstrates the Bubble Sort Algorithm in action:
 
-![Bubble Sort Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/bubble-sort.png)  
+![Bubble Sort Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/bubble-sort.png)
 
 In this example, the numbers in the array are visually represented. With each pass through the array, the largest number in the unsorted part bubbles up to its correct position at the end of the array. This process repeats, with the range of unsorted elements shrinking each time, until the entire array is sorted.
