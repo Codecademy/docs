@@ -8,11 +8,10 @@ Tags:
   - 'Graphs'
   - 'Libraries'
   - 'Plotly'
+  - 'Data'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/data-science'
-  - 'paths/data-science-foundations'
 ---
 
 The **`.scatter()`** method in the Plotly library creates a scatter plot to visualize the relationship between variables using markers on a Cartesian plane, with data points plotted based on their values on the `x` and `y` axes.
@@ -23,56 +22,56 @@ The **`.scatter()`** method in the Plotly library creates a scatter plot to visu
 plotly.express.scatter(data_frame=None, x=None, y=None, color=None, symbol=None, size=None, ...)
 ```
 
-- `data_frame`: Pandas DataFrame holding the data to visualize.
-- `x` : Column name in `data_frame`, Series or array_like object for x-axis data.
-- `y` : Column name in `data_frame`, Series or array_like object for y-axis data.
-- `color`: Column name in `data_frame`, Series or array_like object specifying marker colors.
-- `symbol`: Column in `data_frame`, Series or array_like object assigning marker symbols.
-- `size`: Column in `data_frame`, Series or array_like object assgining marker sizes.
+- `data_frame`: The Pandas [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) holding the data to visualize.
+- `x`: The column name in `data_frame`, `Series` or array_like object for x-axis data.
+- `y`: The column name in `data_frame`, `Series` or array_like object for y-axis data.
+- `color`: The column name in `data_frame`, `Series` or array_like object specifying marker colors.
+- `symbol`: The column name in `data_frame`, `Series` or array_like object assigning marker symbols.
+- `size`: The column name in `data_frame`, `Series` or array_like object assgining marker sizes.
 
-Both the `x` and `y` parameters are required and represent either a string, integer, Series, or array-like objects. Other parameters are optional and can modify plot features such as marker size and/or color. If `data_frame` is missing, a `DataFrame` will be constructed using the other arguments.
+Both the `x` and `y` parameters are required and represent either a string, integer, `Series`, or array-like object. Other parameters are optional and can modify plot features such as marker sizes and/or colors. If `data_frame` is missing, a `DataFrame` is constructed using the other arguments.
 
-> **Note:** The ellipsis in the syntax (...) indicates that there can be additional optional parameters beyond those listed here to customize the scatter plot.
+> Note: The ellipsis in the syntax (...) indicates that there can be additional optional parameters beyond those listed here to customize the scatter plot.
 
 ## Example
 
-The example below demonstrates the use of the `.scatter()` method to plot values:
+The below example demonstrates the use of the `.scatter()` method:
 
 ```py
-# x and y are array_like objects
+# Defining 'x' and 'y' as array_like objects
 import plotly.express as px
 x = [1, 3, 5, 7, 9]
 y = [4, 6, 5, 8, 2]
 
-# Create a scatter plot
-fig = px.scatter(x = x ,y = y)
+# Creating a scatter plot
+fig = px.scatter(x = x, y = y)
 
-# Display the plot
+# Displaying the plot
 fig.show()
 ```
 
-Output:
+The output for the above code is as follows:
 
-![Output of plotly scatter() example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/plotlyScatterOutput1.png)
+![The output for the above example](https://raw.githubusercontent.com/Codecademy/docs/main/media/plotlyScatterOutput1.png)
 
-Customizing the scatter plot created above by adding colors and symbols to each data point:
+Here is another example that customizes the previously created scatter plot by adding colors and symbols for each data point:
 
 ```py
 import plotly.express as px
 
-# Sample data with additional columns for color and symbol
+# Adding 'color' and 'symbol' columns to the already existing 'x' and 'y' columns
 x = [1, 3, 5, 7, 9]
 y = [4, 6, 5, 8, 2]
 color = ['red', 'green', 'blue', 'purple', 'orange']
 symbol = ['circle', 'square', 'diamond', 'star', 'triangle-up']
 
-# Create a scatter plot with color and symbol customization
+# Creating a scatter plot
 fig = px.scatter(x=x, y=y, color=color, symbol=symbol, title = "Scatter Plot with Colors and Symbols")
 
-# Display the plot
+# Displaying the plot
 fig.show()
 ```
 
-The code above produces the following output:
+The above code produces the following output:
 
-![Output of plotly scatter() example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/plotlyScatterOutput2.png)
+![The output for the above example](https://raw.githubusercontent.com/Codecademy/docs/main/media/plotlysampleOutput2.png)
