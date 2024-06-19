@@ -36,3 +36,15 @@ Output:
 ```shell
 58
 ```
+
+## Codebyte Example
+
+```codebyte/lua
+v1 = "Hi"
+v2 = "Hello!"
+v3 = "How are you doing!?"
+
+print(string.len(v1))
+print(string.len(v2))
+print(string.len(v3))
+```
