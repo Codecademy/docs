@@ -1,6 +1,6 @@
 ---
 Title: '.toUpperCase()'
-Description: 'Converts a string to uppercase letters.'
+Description: 'Converts the lowercase letters of a string to uppercase.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
@@ -12,22 +12,22 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-In JavaScript, the **`.toUpperCase()`** method converts a string to uppercase letters.
+In JavaScript, the **`.toUpperCase()`** [method](https://www.codecademy.com/resources/docs/javascript/methods) converts the lowercase letters of a string to uppercase.
 
 ## Syntax
 
-```js
+```pseudo
 string.toUpperCase();
 ```
 
-- `string`: The original string to be converted into uppercase format.
+- `string`: The string to be used for conversion.
 
 ## Example 1
 
-Converting lowercase letters to uppercase:
+Here is an example that demonstrates the usage of the `.toUpperCase()` method:
 
 ```js
-console.log("hello world".toUpperCase());
+console.log('hello world'.toUpperCase());
 ```
 
 The output of the above code is as follows:
@@ -38,30 +38,32 @@ HELLO WORLD
 
 ## Example 2
 
-It is important to note that `.toUpperCase()` doesn't modify the original string. Here is an example of the same:
+The `.toUpperCase()` method doesn't modify the original string, as shown below:
 
 ```js
-var state = "ny"
+var state = 'ny';
 
-state.toUpperCase()
-console.log(state)
+state.toUpperCase();
 
+console.log(state);
 console.log(state.toUpperCase());
 ```
 
-The output of the above code is as follows:
+The above code produces the following output:
 
 ```shell
 ny
 NY
 ```
 
-## Codebyte example
+## Codebyte Example
+
+Here is a codebyte example that shows the use of the `.toUpperCase()` method:
 
 ```codebyte/javascript
-var lower = "and this way, i became uppercase"
+var lower = "and this way, i became uppercase";
 
-var upper = lower.toUpperCase()
+var upper = lower.toUpperCase();
 
-console.log(upper)
+console.log(upper);
 ```
