@@ -15,20 +15,13 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-The **`scatter()`** function in the Plotly library creates a scatter plot to visualize the relationship between variables using markers on a Cartesian plane, with data points plotted based on their values on the x and y axes.
+The **`.scatter()`** method in the Plotly library creates a scatter plot to visualize the relationship between variables using markers on a Cartesian plane, with data points plotted based on their values on the `x` and `y` axes.
 
 ## Syntax
 
 ```pseudo
-
 plotly.express.scatter(data_frame=None, x=None, y=None, color=None, symbol=None, size=None, ...)
-
 ```
-
-Both 'x' and 'y' parameters are required, and represent str or int or Series or array-like objects. Other parameters are optional and modify plot features like marker size and/or color.
-If data_frame is mising, a DataFrame gets constructed using other arguments.
-
-`.scatter()` takes the following arguments:
 
 - `data_frame`: Pandas DataFrame holding the data to visualize.
 - `x` : Column name in `data_frame`, Series or array_like object for x-axis data.
@@ -37,7 +30,9 @@ If data_frame is mising, a DataFrame gets constructed using other arguments.
 - `symbol`: Column in `data_frame`, Series or array_like object assigning marker symbols.
 - `size`: Column in `data_frame`, Series or array_like object assgining marker sizes.
 
-> Note: The ellipsis (...) indicates that there can be additional optional parameters beyond those listed here to customize the scatter plot.
+Both the `x` and `y` parameters are required and represent either a string, integer, Series, or array-like objects. Other parameters are optional and can modify plot features such as marker size and/or color. If `data_frame` is missing, a `DataFrame` will be constructed using the other arguments.
+
+> **Note:** The ellipsis in the syntax (...) indicates that there can be additional optional parameters beyond those listed here to customize the scatter plot.
 
 ## Example
 
@@ -59,6 +54,8 @@ fig.show()
 Output:
 
 ![Output of plotly scatter() example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/plotlyScatterOutput1.png)
+
+Customizing the scatter plot created above by adding colors and symbols to each data point:
 
 ```py
 import plotly.express as px
