@@ -10,8 +10,6 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/data-science'
-  - 'paths/data-science-foundations'
 ---
 
 In NumPy, the **`.cos()`** function computes the cosine of each element in an array. This trigonometric function is essential for various mathematical computations, especially in physics, engineering, computer graphics, signal processing, and more.
@@ -22,9 +20,9 @@ In NumPy, the **`.cos()`** function computes the cosine of each element in an ar
 numpy.cos(array, out = None, dtype = None)
 ```
 
-- `array`: The input array or scalar containing angles in radians for which cosine values are computed.
-- `out`: An array or array-like object where the output cosine values are stored. If not provided, a new array is created. It is an optional parameter
-- `dtype`: Specifies the data type of the output array. If not provided, the data type is inferred from the input array. It is an optional parameter
+- `array`: The Python library that provides support for large, multi-dimensional arrays and matrices, along with a large collection of mathematical functions to operate on these arrays.
+- `out`: Optional. This is an alternative output array in which to place the result. It must have the same shape as the expected output. If not provided, a new array is returned.
+- `dtype`: Optional. The desired data type for the output array. If not provided, the data type of the input array is used.
 
 
 ## Example
@@ -43,7 +41,6 @@ cos_value = np.cos(angle)
 print("Angle (radians):", angle)
 print("Cosine value:", cos_value)
 ```
-
 The above code generates the output as below:
 
 ```shell
@@ -53,7 +50,9 @@ Cosine value: 0.7071067811865476
 
 ## Codebyte Example
 
-```codebyte/python
+Run the following code to understand how the `.cos()` function works:
+
+```py
 import numpy as np
 
 # Example array of angles in radians
