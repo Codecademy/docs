@@ -26,6 +26,8 @@ CatalogContent:
 - The `clear()` method does not return any values.
 - The `clear()` method does not delete the set, it only removes elements inside the set.
 
+[!NOTE:] To editors: Should this description under syntax be removed? It kind of repeats the description above, but I thought this emphasize made it even clearer.
+
 ## Example
 In the example below, the `clear()` method is used to clear all elements in the set `pets` resulting in the removal of all listed elements in the set:
 ```py
