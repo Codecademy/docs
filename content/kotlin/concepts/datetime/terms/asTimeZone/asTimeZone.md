@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.asTimeZone()`** method in Kotlin Convert a UtcOffset object to a time zone with a fixed offset(FixedOffsetTimeZone). This function is part of the `kotlinx.datetime` library. It is particularly useful in scenarios where working with fixed time zones is required within applications that handle multiple time zones.
+The **`.asTimeZone()`** method in Kotlin converts a `UtcOffset` object to a time zone with a fixed offset(`FixedOffsetTimeZone` object). This function is part of the `kotlinx.datetime` library. It is particularly useful in scenarios where working with fixed time zones is required within applications that handle multiple time zones.
 
 ## Syntax
 
@@ -48,7 +48,7 @@ fun main() {
 }
 ```
 
-The above example code block converts an `UtcOffset` to a `fixed-offset TimeZone` using Kotlin's `kotlinx.datetime` library, it sets the offset to `5` hours and `25` minutes and then prints the information about the converted time zone. It produces the following output:
+The above example code block converts an `UtcOffset` to a `FixedOffsetTimeZone` using Kotlin's `kotlinx.datetime` library, it sets the offset to `5` hours and `25` minutes and then prints the information about the converted time zone. It produces the following output:
 
 ```shell
 Converted Time Zone:
