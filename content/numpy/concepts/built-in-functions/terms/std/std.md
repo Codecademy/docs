@@ -1,6 +1,6 @@
 ---
 Title: '.std()'
-Description: 'Calculates the standard deviation of given data along a specified axis'
+Description: 'Calculates the standard deviation of given data along a specified axis.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -47,7 +47,7 @@ numpy.std(a, axis, dtype, out, ddof, keepdims, where)
 
 - `where`: It accepts boolean arrays or conditions where `True` values indicate the indices, or elements within the array for which the standard deviation should be calculated.
 
-**Returns:** If `out` is `None`, it returns a new array containing the standard deviation. Otherwise, it assigns the result to the specified output array and returns its reference.
+If the `out` parameter is `None`, the `.std()` function returns a new array containing the standard deviation. Otherwise, it assigns the result to the specified output array and returns its reference.
 
 > **Note** For complex numbers, `std` takes the absolute value before squaring for a real, nonnegative result.
 
@@ -69,7 +69,7 @@ print("\nStandard deviation of arr (float32) : ", np.std(arr, dtype=np.float32))
 print("\nStandard deviation of arr (float64) : ", np.std(arr, dtype=np.float64))
 ```
 
-**Output:**
+Given below is the output for the above code block:
 
 ```shell
 arr :  [23, 54, 19, 45, 34]
@@ -82,6 +82,8 @@ Standard deviation of arr (float64) : 13.130118049735882
 ```
 
 ## Codebyte Example
+
+Run the below codebyte to better understand the `.std()` function:
 
 ```codebyte/python
 import numpy as np 
