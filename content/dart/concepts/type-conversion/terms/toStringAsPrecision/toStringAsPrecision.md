@@ -27,7 +27,7 @@ The parameter `precision` must be an integer satisfying: 1 <= precision <= 21.
 
 ## Example
 
-The following examples illustrates how the `.toStringAsPrecision()` method is utilized to convert this number to a double and returns a string representation of that value:
+The following examples illustrate how the `.toStringAsPrecision()` method is utilized to convert this number to a double and returns a string representation of that value:
 
 ```dart
 1.toStringAsPrecision(2);
