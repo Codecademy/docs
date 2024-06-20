@@ -54,8 +54,8 @@ If the `out` parameter is `None`, the `.std()` function returns a new array cont
 The following examples demonstrate the use of `.std()` with different parameters.
 
 ```py
-import numpy as np 
-    
+import numpy as np
+
 arr = np.array([23, 54, 19, 45, 34])
 
 print("arr : ", arr)
@@ -84,19 +84,19 @@ Standard deviation of arr (float64) : 13.130118049735882
 Run the below codebyte to better understand the `.std()` function:
 
 ```codebyte/python
-import numpy as np 
-    
-arr = [[8, 8, 8, 8, 8],   
-       [15, 10, 32, 9, 8],  
-       [27, 6, 63, 4, 8, ],  
-       [23, 54, 41, 9, 8]]  
-    
-# flattened array  
-print("\nStandard deviation of arr, when axis = None : ", np.std(arr))  
-    
-# along the axis = 0  
-print("\nStandard deviation of arr, when axis = 0 : ", np.std(arr, axis = 0))  
-   
-# along the axis = 1  
-print("\nStandard deviation of arr, when axis = 1 : ", np.std(arr, axis = 1)) 
+import numpy as np
+
+arr = [[8, 8, 8, 8, 8],
+       [15, 10, 32, 9, 8],
+       [27, 6, 63, 4, 8, ],
+       [23, 54, 41, 9, 8]]
+
+# flattened array
+print("\nStandard deviation of arr, when axis = None : ", np.std(arr))
+
+# along the axis = 0
+print("\nStandard deviation of arr, when axis = 0 : ", np.std(arr, axis = 0))
+
+# along the axis = 1
+print("\nStandard deviation of arr, when axis = 1 : ", np.std(arr, axis = 1))
 ```
