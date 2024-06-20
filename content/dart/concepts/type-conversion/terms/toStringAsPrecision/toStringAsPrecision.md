@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Dart, **`.toStringAsPrecision()`** is an abstract method used to convert this number to a `double`. This method returns a string representation of that value with exactly precision significant digits.
+In Dart, **`.toStringAsPrecision()`** is an abstract method used to convert this number to a `double`. This method returns a string representation of that value with exact precision significant digits.
 
 ## Syntax
 
