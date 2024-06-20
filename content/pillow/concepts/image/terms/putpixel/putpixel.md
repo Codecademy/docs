@@ -13,10 +13,10 @@ Tags:
 CatalogContent: 
   - 'learn-python-3'
   - 'paths/computer-science'
+  - 'paths/data-science'
+  - 'paths/data-science-foundations'
 ---
-## .putpixel() Method
-
-The **.putpixel()** method is used to insert pixels onto an image. While it is mostly used to set the color of an individual pixel, it can also be used for other purposes such as changing pixel transparency or creating different shapes within the image.
+The **`.putpixel()`** method in pillow is used to insert pixels onto an image. It is primarily used to set the color of an individual pixel, but it can also be used for other purposes such as changing pixel transparency or creating different shapes within the image.
 
 
 ## Syntax
@@ -24,17 +24,19 @@ The **.putpixel()** method is used to insert pixels onto an image. While it is m
 ```pseudo
 Image.putpixel(xy, color)
 ```
-**xy:** Specifies the coordinates of the pixel where the color will be placed, x representing the horizontal position, and y representing the vertical position.
-
-**color:** Specify the color that you want the pixel to be set as. This can be in various forms inside a tuple such as RGB or an integar that specifies the color index.
-## Example
+- `xy`: Specifies the coordinates of the pixel where the color will be placed, x representing the horizontal position, and y representing the vertical position.
+- `color`: Specifies the color for the pixel, which can be:
+  - RGB tuple (3 integers) for true color.
+  - RGBA tuple (4 integers) for true color with transparency.
+  - Integer for color index in indexed color images ("P" mode).
+  - Single integer or tuple with a single integer for grayscale images.
+  
 
 ```py
 from PIL import Image
 
 width, height = 200, 200
 img = Image.new('RGB', (width, height), color='black')
-
 
 #Adds the blue pixel on image
 blue_pixel_position = (50, 50)
@@ -52,10 +54,10 @@ img.putpixel(red_pixel_position, red_color)
 img.putpixel(green_pixel_position, green_color)
 img.putpixel(blue_pixel_position, blue_color)
 
-
-img.save("output_image.png")
+img.show()
 ```
 
 ```shell
 python putpixel.py
 ```
+"The above code generates the output image as follows:"
