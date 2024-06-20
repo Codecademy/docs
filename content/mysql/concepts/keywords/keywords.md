@@ -24,6 +24,8 @@ Using keywords ensures that your SQL queries are standarized, this enhances read
 
 ## Syntax
 
+### CREATE
+
 ```SQL
 CREATE TABLE table_name (
     column1 datatype,
@@ -32,46 +34,82 @@ CREATE TABLE table_name (
 );
 ```
 
-### Example
+### INSERT
+
 ```SQL
-SELECT column1, column2 FROM table_name;
-```
-```SQL
-INSERT INTO table_name (column1, column2) VALUES (value1, value2);
+INSERT INTO table_name (column1, column2, ...)
+VALUES (value1, value2, ...);
 ```
 
-## Common Keywords
+### SELECT
 
-**SELECT** : Used to retrieve data from one or more tables.
-### Example:
 ```SQL
-SELECT column1, column2 FROM table_name;
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
 ```
-**INSERT** : Used to add new records to a table.
-### Example:
+
+### UPDATE
+
 ```SQL
-INSERT INTO table_name (column1, column2) VALUES (value1, value2);
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
 ```
-**UPDATE** : Used to modify existing records in a table.
-### Example:
+
+### DELETE
+
 ```SQL
-UPDATE table_name SET column1 = value1 WHERE condition;
+DELETE FROM table_name
+WHERE condition;
 ```
-**DELETE** : Used to remove records from a table.
-### Example:
+
+
+## Example
+
+### CREATE
+
 ```SQL
-DELETE FROM table_name WHERE condition;
+CREATE TABLE employees (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    position VARCHAR(100),
+    salary DECIMAL(10, 2),
+    hire_date DATE
+);
 ```
-**CREATE** : Used to create new tables or databases.
-### Example:
+
+### INSERT
+
 ```SQL
-CREATE TABLE table_name (column1 datatype, column2 datatype);
+INSERT INTO employees (first_name, last_name, position, salary, hire_date)
+VALUES ('John', 'Doe', 'Software Engineer', 75000.00, '2024-05-25');
 ```
-**CREATE** : Used to delete tables or databases.
-### Example:
+
+### SELECT
+
 ```SQL
-DROP TABLE table_name;
+SELECT first_name, last_name
+FROM employees
+WHERE position = 'Software Engineer';
 ```
+
+### UPDATE
+
+```SQL
+UPDATE employees
+SET salary = 80000.00
+WHERE id = 1;
+```
+
+### DELETE
+
+```SQL
+DELETE FROM employees
+WHERE id = 1;
+```
+
 
 ## Best Practices
 
