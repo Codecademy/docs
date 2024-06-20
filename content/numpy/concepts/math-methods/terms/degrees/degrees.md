@@ -24,6 +24,8 @@ numpy.degrees(x, out=None, where=True)
 ```
 
 - `x`: The number or array of numbers in radians that must be converted.
+- `out`: An optional parameter specifying where the result is stored.
+- `where`: An optional parameter specifiying a condition to filter the result.
 
 ## Example 1
 
