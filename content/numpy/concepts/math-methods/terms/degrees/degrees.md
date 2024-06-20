@@ -68,7 +68,7 @@ The output of the above code is shown below:
 
 ## Codebyte Example
 
-In this codebyte example, the `.degree()` method converts
+Run the following code to understand how the `.degrees()` function works:
 
 ```codebyte/python
 import numpy as np
