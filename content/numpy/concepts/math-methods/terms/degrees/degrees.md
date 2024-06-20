@@ -43,7 +43,6 @@ The output of the above code is shown below:
 229.1831180523293
 ```
 
-
 ## Example 2
 
 ```py
