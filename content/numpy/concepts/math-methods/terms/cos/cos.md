@@ -24,7 +24,6 @@ numpy.cos(array, out = None, dtype = None)
 - `out`: Optional. This is an alternative output array in which to place the result. It must have the same shape as the expected output. If not provided, a new array is returned.
 - `dtype`: Optional. The desired data type for the output array. If not provided, the data type of the input array is used.
 
-
 ## Example
 
 The below example shows the `.cos()` function in use:
@@ -41,6 +40,7 @@ cos_value = np.cos(angle)
 print("Angle (radians):", angle)
 print("Cosine value:", cos_value)
 ```
+
 The above code generates the output as below:
 
 ```shell
