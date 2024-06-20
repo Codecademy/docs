@@ -1,6 +1,6 @@
 ---
 Title: '.degrees()'
-Description: 'Converts radians to degrees.'
+Description: 'Converts angles expressed in radians into degrees.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -11,6 +11,8 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
+  - 'paths/data-science'
+  - 'paths/data-science-foundations'
 ---
 
 In NumPy, the **`.degrees()`** function converts an angle measure from radians to degrees.
