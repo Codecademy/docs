@@ -25,7 +25,7 @@ The **`.putpixel()`** method in Pillow is used to insert pixels onto an image. I
 Image.putpixel(xy, color)
 ```
 
-- `Image`: The image on which the pixel color is to be set. 
+- `Image`: The image on which the pixel color is to be set.
 - `xy`: Specifies the coordinates of the pixel where the color will be placed, `x` representing the horizontal position, and `y` representing the vertical position.
 - `color`: Specifies the color for the pixel, which can be:
   - An RGB tuple (3 integers) for true color images.
@@ -64,4 +64,4 @@ img.show()
 
 The above code generates the output image as follows:
 
-![Output Image](https://raw.githubusercontent.com/Codecademy/docs/main/media/putpixel().png)
+![Output Image](<https://raw.githubusercontent.com/Codecademy/docs/main/media/putpixel().png>)
