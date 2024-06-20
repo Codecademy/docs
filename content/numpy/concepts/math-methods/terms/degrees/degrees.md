@@ -20,9 +20,7 @@ In NumPy, the **`.degrees()`** function converts an angle measure from radians t
 ## Syntax
 
 ```pseudo
-numpy.degrees(x)
-
-numpy.degrees([x, x, x])
+numpy.degrees(x, out=None, where=True)
 ```
 
 - `x`: The number or array of numbers in radians that must be converted.
