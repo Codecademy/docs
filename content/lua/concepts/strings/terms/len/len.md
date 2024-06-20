@@ -28,7 +28,7 @@ An empty string `""` would output `0`.
 ```lua
 town = "Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch"
 lenExample = string.len(town)
-print(townLength)
+print(lenExample)
 ```
 
 Output:
