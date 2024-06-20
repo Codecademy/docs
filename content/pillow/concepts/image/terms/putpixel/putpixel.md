@@ -33,6 +33,10 @@ Image.putpixel(xy, color)
   - An Integer for a color index in indexed color images (`P` mode).
   - A Single integer or a tuple with a single integer for grayscale images (`M` mode).
 
+## Example
+
+The example below demonstrates the use of the `.putpixel()` method:
+
 ```py
 from PIL import Image
 
