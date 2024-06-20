@@ -2,13 +2,13 @@
 Title: '.transpose()'
 Description: 'Flips or rotates an image according to the specified operation.'
 Subjects:
-  - 'Code foundation'
-  - 'Computer science'
+  - 'Code Foundations'
+  - 'Computer Science'
 Tags:
   - 'Methods'
   - 'Functions'
 CatalogContent:
-  - 'learn-Python-3'
+  - 'learn-python-3'
   - 'paths/computer-science'
   - 'paths/data-science'
   - 'paths/data-science-foundations'
@@ -31,7 +31,17 @@ method: PIL.Image.FLIP_LEFT_RIGHT
  PIL.Image.TRANSVERSE provides the python interpreter with image editing capabilities.
 ```
 
+- `Image`: Refers to the image object to which the transpose operations are to be applied.
+- `method`: Specifies the type of transpose operation to perform. It can take one of the following values:
+  - `Image.FLIP_LEFT_RIGHT`: Flips the image horizontally (left to right).
+  - `Image.FLIP_TOP_BOTTOM`: Flips the image vertically (top to bottom).
+  - `Image.ROTATE_90`: Rotates the image by 90 degrees clockwise.
+  - `Image.ROTATE_180`: Rotates the image by 180 degrees.
+  - `Image.ROTATE_270`: Rotates the image by 270 degrees clockwise.
+
 ## Example
+
+```
 
 import PIL
 from PIL import Image
@@ -45,7 +55,5 @@ Flip image
 
 out = im.transpose(PIL.Image.FLIP_LEFT_RIGHT)
 out.show(docs/media/"output.jpg")
-
-```
 
 ```
