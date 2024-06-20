@@ -1,14 +1,12 @@
 ---
 Title: '.transpose()'
-Description: 'Method in the Pillow library used to flip or rotate an image.'
+Description: 'Flips or rotates an image according to the specified operation.'
 Subjects:
   - 'Code foundation'
   - 'Computer science'
 Tags:
   - 'Methods'
   - 'Functions'
-  - 'Libraries'
-  - 'Pillow'
 CatalogContent:
   - 'learn-Python-3'
   - 'paths/computer-science'
@@ -16,35 +14,38 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-The **.transpose()** method is used to flip or rotate an image in 90-degree steps.
+In Pillow, the **`.transpose()`** method is used to flip or rotate an image in 90-degree steps.
 
 ## Syntax
 
 ```pseudo
 Image.transpose(method)
 
-# Where possible values of the method are
-
-PIL.Image.FLIP_LEFT_RIGHT
-PIL.Image.FLIP_TOP_BOTTOM
-PIL.Image.ROTATE_90
-PIL.Image.ROTATE_180
-PIL.Image.ROTATE_270
-PIL.Image.TRANSPOSE or PIL.Image.TRANSVERSE.
+method: PIL.Image.FLIP_LEFT_RIGHT
+ FLIP_LEFT_RIGHT: Flips the image horizontally.
+ FLIP_TOP_BOTTOM: Flips the image vertically.
+ ROTATE_90: Flips the image in 90-degree steps.
+ ROTATE_180: Flips the image in 180-degree steps.
+ ROTATE_270: Flips the image in 270-degree steps.
+ PIL.Image.TRANSPOSE: rotate and flip images with necessary keywords as parameters
+ PIL.Image.TRANSVERSE provides the python interpreter with image editing capabilities.
 ```
 
 ## Example
 
-```python
-Here’s an example of how to use the '.transpose()' method to flip an image:
-
 import PIL
 from PIL import Image
 
-# Read the image
-im = Image.open("docs/content/pillow/concepts/image/bird-thumbnail.jpg")
+Read the image
 
-# Flip image
+im = Image.open("bird-thumbnail.jpg")
+im.show(docs/media/"bird-thumbnail.jpg")
+
+Flip image
+
 out = im.transpose(PIL.Image.FLIP_LEFT_RIGHT)
-out.save("docs/content/pillow/concepts/image/output.png")
+out.show(docs/media/"output.jpg")
+
+```
+
 ```
