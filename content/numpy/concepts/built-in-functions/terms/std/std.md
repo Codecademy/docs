@@ -13,9 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.std()`** function returns the standard deviation of the array elements. The standard deviation is calculated for the flattened array by default, otherwise over the specified axis.
-
-A standard deviation is a statistical measure indicating the spread of a distribution of data, represented by an array, along a specified axis.
+The **`.std()`** function calculates the standard deviation of given data along a specified axis. A standard deviation is a statistical measure indicating the spread of a distribution of data, represented by an array, along a specified axis.
 
 ## Syntax
 
