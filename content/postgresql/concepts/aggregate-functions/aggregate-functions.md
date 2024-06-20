@@ -1,5 +1,5 @@
 ---
-Title: 'Aggregate Functions in PostgreSQL'
+Title: 'Aggregate Functions'
 Description: 'Performs calculations on a data set and returns a single result.'
 Subjects:
   - 'Computer Science'
@@ -8,12 +8,15 @@ Tags:
   - 'PostgreSQL'
   - 'Aggregate Functions'
   - 'Functions'
+  - 'Data'
 CatalogContent:
-  - 'learn-postgresql'
+  - 'learn-sql'
   - 'paths/analyze-data-with-sql'
 ---
 
-In PostgreSQL, **aggregate functions** perform calculations on a data set and return a single result. These functions include counting, adding, finding the average, and searching the maximum or minimum value(s) using the `SELECT` statement and the `GROUP BY` clause.
+In PostgreSQL, **aggregate functions** perform calculations on a data set and return a single result. These functions use the `SELECT` statement and the `GROUP BY` clause to execute operations such as counting, adding, finding the average, and searching the maximum or minimum value(s).
+
+The `GROUP BY` clause is used to arrange identical data into groups. In other words, this clause summarizes data by grouping rows that have the same values in the specified columns.
 
 PostgreSQL offers the following aggregate functions:
 
@@ -23,18 +26,18 @@ PostgreSQL offers the following aggregate functions:
 - `COUNT()`: Computes the number of input rows.
 - `AVG()`: Computes the average of all the input values.
 
-### Example
+## Syntax
 
-Here is a `sales` table that is to be used as an example to understand how the above aggregate functions work:
+Here is a `sales` table to be used as an example to understand how the above aggregate functions work:
 
-|  Transaction_ID   |  Customer    |  Product    |  Quantity  |  Cost  |
-|  ---------------- | ------------ | ----------- | ---------- | ------ |
-| 041               | Varrick      | Iphone Xr   | 2          | 88000  |
-| 021               | Tolf         | Samsung S8  | 2          | 75000  |
-| 033               | Kuvira       | Airpods     | 3          | 4000   |
-| 001               | Kalu         | Iphone X    | 1          | 44000  |
-| 456               | Isujah       | HP Laptop   | 1          | 65000  |
-| 026               | Zion         | MacBook Air | 3          | 250000 |
+| Transaction_ID | Customer | Product     | Quantity | Cost   |
+| -------------- | -------- | ----------- | -------- | ------ |
+| 041            | Varrick  | Iphone Xr   | 2        | 88000  |
+| 021            | Tolf     | Samsung S8  | 2        | 75000  |
+| 033            | Kuvira   | Airpods     | 3        | 4000   |
+| 001            | Kalu     | Iphone X    | 1        | 44000  |
+| 456            | Isujah   | HP Laptop   | 1        | 65000  |
+| 026            | Zion     | MacBook Air | 3        | 250000 |
 
 Using this table, all the aggregate functions mentioned above are explained below.
 
@@ -44,7 +47,7 @@ Using this table, all the aggregate functions mentioned above are explained belo
 SELECT MAX(Quantity * Cost) AS Max_Spent FROM sales;
 ```
 
-This query calculates the maximum amount spent on a single commodity in the `sales` table by multiplying the `Quantity` column with the `Cost` column. Then it determines the maximum among all the calculated values.
+This query calculates the maximum amount spent on a single commodity in the `sales` table by multiplying the `Quantity` column with the `Cost` column. Then, it determines the maximum among all the calculated values.
 
 ### MIN()
 
@@ -52,7 +55,7 @@ This query calculates the maximum amount spent on a single commodity in the `sal
 SELECT MIN(Quantity * Cost) AS Min_Spent FROM sales;
 ```
 
-This query calculates the minimum amount spent on a single commodity in the `sales` table by multiplying the `Quantity` column with the `Cost` column. Then it determines the minimum among all the calculated values.
+This query calculates the minimum amount spent on a single commodity in the `sales` table by multiplying the `Quantity` column with the `Cost` column. Then, it determines the minimum among all the calculated values.
 
 ### SUM()
 
@@ -60,7 +63,7 @@ This query calculates the minimum amount spent on a single commodity in the `sal
 SELECT SUM(Quantity * Cost) AS Total_Spent FROM sales;
 ```
 
-This query calculates the total amount spent on all the sales in the `sales` table by multiplying the `Quantity` column with the `Cost` column for each sale. Then it sums all the calculated values.
+This query calculates the total amount spent on all the sales in the `sales` table by multiplying the `Quantity` column with the `Cost` column for each sale. Then, it sums all the calculated values.
 
 ### COUNT()
 
@@ -76,13 +79,11 @@ This query returns the total number of records in the `sales` table.
 SELECT AVG(Quantity * Cost) AS Average_Spent FROM sales;
 ```
 
-This query finds the average amount spent per sale in the `sales` table by calculating the product of the `Quantity` and `Cost` columns for each sale. Then find the average of all the calculated values.
+This query finds the average amount spent per sale in the `sales` table by calculating the product of the `Quantity` and `Cost` columns for each sale. Then, it finds the average of all the calculated values.
 
-### GROUP BY
+## Example
 
-The `GROUP BY` clause in PostgreSQL is used to arrange identical data into groups. This clause is often combined with aggregate functions to perform operations on each group of data. Essentially, `GROUP BY` summarizes data by grouping rows that have the same values in the specified columns.
-
-Let's use the `sales` table to find out how much each customer spent in total.
+Here is an example that demonstrates the usage of aggregate functions:
 
 ```sql
 SELECT Customer, SUM(Quantity * Cost) AS Total_Spent
@@ -90,11 +91,7 @@ FROM sales
 GROUP BY Customer;
 ```
 
-The `GROUP BY` clause groups the set of results, including the total amount spent by each customer, by the `Customer` column.
-- `SELECT Customer` specifies the column name to retrieve from the table.
-- `SUM(Quantity * cost) AS Total_Spent` multiplies the `Quantity` and `cost` columns for each sale to calculate the total amount spent by the customer, and names the result column `Total_Spent`.
-- `FROM sales` specifies the table from which the query retrieves the data.
-- `GROUP BY Customer` clause groups the results by the `Customer` column.
+This query calculates the total amount spent by each customer and groups the results by the `Customer` column.
 
 This is the output of the above query:
 
