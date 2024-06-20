@@ -25,31 +25,12 @@ Parent components can pass props to their child components, but not the other wa
 ```jsx
 import React from 'react';
 
-class ParentComponent extends React.Component {
-  render() {
-    return <ChildComponent prop1="Mike" prop2="piza">
-  }
+function ParentComponent(props) {
+  return <ChildComponent prop1="Mike" prop2="piza">
 }
 
 function ChildComponent(props) {
   return <h2>This is prop1: {props.prop1}. This is prop2: {props.prop2}.</h2>
-}
-```
-
-## `this.props`
-
-Every component has something called `props`.
-
-A component’s `props` is an object. It holds information about that component.
-
-To see a component’s `props` object, you use the expression `this.props`. Here’s an example of `this.props` being used inside of a render method:
-
-```jsx
-render() {
-  // Printing the props object
-  console.log(this.props);
-
-  return <h1>Hello world</h1>;
 }
 ```
 
@@ -90,16 +71,14 @@ You will often want a component to display the information that you pass.
 Here’s how to make a component display passed-in information:
 
 1. Find the component class that is going to receive that information.
-2. Include `this.props.name-of-information` in that component class’s render method’s `return` statement.
+2. Include `props.name-of-information` in that component class’s render method’s `return` statement.
 
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-class Greeting extends React.Component {
-  render() {
-    return <h1>Hi there, {this.props.firstName}!</h1>;
-  }
+class Greeting(props) {
+  return <h1>Hi there, {props.firstName}!</h1>;
 }
 
 ReactDOM.render(<Greeting firstName="Rybu" />, document.getElementById('app'));
