@@ -1,29 +1,35 @@
 ---
-Title: 'deque()'
-Description: 'A deque data structure in Python.'
+Title: 'deque'
+Description: 'The deque is a Python data structure that allows efficient oppend and pop operations from both ends.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Queues'
   - 'Data Structures'
+  - 'Queues'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 
 ---
 
-The `deque`, short for _double-ended queue_," is a [Python](https://www.codecademy.com/resources/docs/python) data structure that allows for the efficient addition and removal of elements from both ends. It is a component of the [collections module](https://www.codecademy.com/resources/docs/python/collections-module) and serves as an alternative to the list where frequent insertions and deletions occur at both ends. Deques are notably advantageous when a queue is needed to enable fast appends and pops from both ends, or when a stack is required to support the same operations efficiently.
+The **deque**, short for Double-ended queue, is a [Python](https://www.codecademy.com/resources/docs/python) data structure that efficiently adds and removes elements from both ends. It is a component of the [collections module](https://www.codecademy.com/resources/docs/python/collections-module) and serves as an alternative to the list for scenarios where frequent insertions and deletions occur at both ends. Deques are notably advantageous when a queue is needed to enable fast appends and pops from both ends or when a stack is required to support the same operations efficiently.
 
 ## Syntax
 
 ```pseudo
-d = deque(iterable=[], maxlen=None)
-
-In this syntax, deque() creates a new deque object, which can be initialized with an optional iterable and a maximum length. The append() and appendleft() methods add items to the right and left ends, respectively.
-The pop() and popleft() methods remove items from the corresponding ends. The rotate() method moves elements from one end to the other, effectively rotating the deque.
+from collections import deque
+d = deque([iterable[, maxlen]])
+```
 
 ## Example
+
+In this syntax, deque() creates a new deque object, which can be initialized with an optional iterable and a maximum length. The append() and appendleft() methods add items to the right and left ends, respectively.
+
+**numbers_deque = deque([1, 2, 3, 4, 5])**
+
+The pop() and popleft() methods remove items from the corresponding ends. The rotate() method moves elements from one end to the other, effectively rotating the deque.
+
 
 ```py
 from collections import deque
@@ -45,6 +51,8 @@ numbers_deque.popleft()
 
 # Print the deque
 print(numbers_deque)
+
+The pop() and popleft() methods remove items from the corresponding ends. The rotate() method moves elements from one end to the other, effectively rotating the deque.
 
 Output:
 deque([0, 1, 2, 3, 4])
