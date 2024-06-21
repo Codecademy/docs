@@ -43,3 +43,27 @@ public class Main {
     }
 }
 ```
+## Codebyte Example
+
+The example below shows `clear()` being used to clear an `ArrayList` called `participant_ages`.
+
+```codebyte/java
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String[] args) {
+        // Create an ArrayList and add ages
+        ArrayList<String> participant_ages = new ArrayList<>();
+        participant_ages.add("15");
+        participant_ages.add("22");
+        participant_ages.add("21");
+        
+        System.out.println("Ages of participants are: " + participant_ages);  // Output: Fruits: [15, 22, 21]
+        
+        // Clear the ArrayList
+        participant_ages.clear();
+        
+        System.out.println("Ages of participants after clear(): " + participant_ages);  // Output: Ages of participants after clear: []
+    }
+}
+```
