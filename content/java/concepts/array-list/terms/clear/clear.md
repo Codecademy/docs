@@ -36,7 +36,7 @@ public class Main {
         
         System.out.println("Fruits: " + fruits);  // Output: Fruits: [Apple, Banana, Cherry]
         
-        // Clear the **ArrayList**
+        // Clear the ArrayList
         fruits.clear();
         
         System.out.println("Fruits after clear(): " + fruits);  // Output: Fruits after clear(): []
