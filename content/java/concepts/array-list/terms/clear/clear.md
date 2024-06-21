@@ -13,10 +13,10 @@ CatalogContent:
   - 'paths/java-developer'
 ---
 
-The **`.clear()`** method removes all elements from an **ArrayList** in Java. After invoking this method, the list will be empty, but the ArrayList instance remains with its current capacity unchanged. It does not return anything but rather empties the list.
+The **`.clear()`** method removes all elements from an **ArrayList** in Java. After invoking this method, the list will be empty, but the **ArrayList** instance remains with its current capacity unchanged. It does not return anything but rather empties the list.
 
 ## Syntax
-All elements of an instance of ArrayList can be cleared by passing the .clear method:
+All elements of an instance of **ArrayList** can be cleared by passing the **`.clear()`** method:
 
 ```pseudo
 arrayListInstance.clear();
@@ -36,7 +36,7 @@ public class Main {
         
         System.out.println("Fruits: " + fruits);  // Output: Fruits: [Apple, Banana, Cherry]
         
-        // Clear the ArrayList
+        // Clear the **ArrayList**
         fruits.clear();
         
         System.out.println("Fruits after clear(): " + fruits);  // Output: Fruits after clear(): []
