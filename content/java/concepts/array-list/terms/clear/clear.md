@@ -16,7 +16,7 @@ CatalogContent:
 The **`.clear()`** method removes all elements from an [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list) in Java. 
 
 ## Syntax
-All elements of an instance of `ArrayList` can be cleared by passing the **`.clear()`** method. After invoking this method, the list will be empty, but the `ArrayList` instance remains with its current capacity unchanged. It does not return anything but rather empties the list.
+All elements of an instance of `ArrayList` can be cleared by passing the `.clear()` method. After invoking this method, the list will be empty, but the `ArrayList` instance remains with its current capacity unchanged. It does not return anything but rather empties the list.
 
 ```pseudo
 arrayListInstance.clear();
@@ -45,7 +45,7 @@ public class Main {
 ```
 ## Codebyte Example
 
-The example below shows `clear()` being used to clear an `ArrayList` called `participant_ages`.
+The example below shows the `.clear()` method being used to clear an `ArrayList` called `participant_ages`.
 
 ```codebyte/java
 import java.util.ArrayList;
