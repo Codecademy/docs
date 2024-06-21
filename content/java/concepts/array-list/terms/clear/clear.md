@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/java-developer'
 ---
 
-The **`clear()`** method removes all elements from an **ArrayList** in Java. After invoking this method, the list will be empty, but the ArrayList instance remains with its current capacity unchanged. It does not return anything but rather empties the list.
+The **`.clear()`** method removes all elements from an **ArrayList** in Java. After invoking this method, the list will be empty, but the ArrayList instance remains with its current capacity unchanged. It does not return anything but rather empties the list.
 
 ## Syntax
 
