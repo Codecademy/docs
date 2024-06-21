@@ -1,5 +1,5 @@
 ---
-Title: 'clear()'
+Title: '.clear()'
 Description: 'Removes all elements from an ArrayList.' 
 Subjects:
   - 'Java'
