@@ -23,7 +23,7 @@ arrayListInstance.clear();
 ```
 
 ## Example
-```java
+```codebyte/java
 import java.util.ArrayList;
 
 public class Main {
