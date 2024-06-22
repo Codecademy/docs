@@ -13,6 +13,8 @@ CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
+The `.update()` method updates the current [set](https://www.codecademy.com/resources/docs/python/sets), by adding items from another iterable(set, list, tuple or dictionary), removing any duplicates.
+
 ## Syntax
 
 The following syntaxes can be used:
