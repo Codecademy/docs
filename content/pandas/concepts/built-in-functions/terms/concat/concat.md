@@ -16,7 +16,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'paths/data-science'
 ---
 
-The `.concat()` function is used to concatenate and combine multiple [`DataFrames`](https://www.codecademy.com/resources/docs/pandas/dataframe) or [`Series`] along a particular axis.
+The `.concat()` function is used to concatenate and combine multiple [`DataFrames`](https://www.codecademy.com/resources/docs/pandas/dataframe) or `Series` along a particular axis.
 
 ## Syntax
 
