@@ -13,20 +13,22 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `ArrayList` [class](https://www.codecademy.com/resources/docs/java/classes) in Java implements the **`ListIterator`** interface using the **`.listiterator()`** [method](https://www.codecademy.com/resources/docs/java/methods). The default method returns a `ListIterator` that points to the first element in the `ArrayList`. The iterator can be used to traverse the list in either direction and modify the list concurrently.
+The `ArrayList` [class](https://www.codecademy.com/resources/docs/java/classes) in Java provides the `.listIterator()` [method](https://www.codecademy.com/resources/docs/java/methods) to obtain a `ListIterator` for its elements. The default method returns a `ListIterator` that points to the first element in the `ArrayList`. This iterator allows for traversing the list in both forward and backward directions and supports modifications to the list during iteration.
 
 ## Syntax
 
 ```pseudo
 public ListIterator<T> it = list.listiterator();
+public ListIterator<T> it = list.listiterator(int index);
 ```
-This creates a ListIterator on the given `list` [collection](https://www.codecademy.com/resources/docs/java/collection). `T` represents the type of the elements in `list`.
 
-## Examples
+- This creates a `ListIterator` on the given `ArrayList` [collection](https://www.codecademy.com/resources/docs/java/collection).
+- `T`: The type of elements in the `ArrayList`.
+- `index`: The starting position of the iterator in the list. It must be a valid index in the list (0 ≤ `index` ≤ size of the list). This is an optional parameter.
 
-### Example 1
+## Example 1
 
-In this example, the `.listiterator()` method is called on the `ArrayList` instance named `arrayList` to obtain a `ListIterator` for its elements:
+In this example, the `.listiterator()` method is called on an `ArrayList` instance named `arrayList` to obtain a `ListIterator` for its elements:
 
 ```java
 import java.util.ArrayList;
@@ -43,10 +45,10 @@ public class ArrayListListIteratorExample {
     arrayList.add("you");
 
     // Creating a ListIterator from ArrayList
-    ListIterator<String> it = arrayList.listiterator();
+    ListIterator<String> it = arrayList.listIterator();
 
     // Iterating through the elements and printing them
-    while (it.hasNext) {
+    while (it.hasNext()) {
         System.out.println(it.next());
     }
   }
@@ -81,10 +83,10 @@ public class ArrayListListIteratorExample {
     arrayList.add("you");
 
     // Creating a ListIterator from ArrayList at index 2
-    ListIterator<String> it = arrayList.listiterator(2);
+    ListIterator<String> it = arrayList.listIterator(2);
 
     // Iterating through the remaining elements and printing them
-    while (it.hasNext) {
+    while (it.hasNext()) {
         System.out.println(it.next());
     }
   }
@@ -116,11 +118,11 @@ public class ArrayListListIteratorExample {
     arrayList.add("meet");
     arrayList.add("you");
 
-    System.out.println("Arraylist size:" + arraylist.size());
+    System.out.println("ArrayList size: " + arrayList.size());
 
     try {
         // Attempting to create a ListIterator at index 5
-        ListIterator<String> it = arrayList.listiterator(5);
+        ListIterator<String> it = arrayList.listIterator(5);
     } catch (IndexOutOfBoundsException e){
         System.out.println("Exception: " + e);
     }
@@ -131,6 +133,6 @@ public class ArrayListListIteratorExample {
 The output of the mentioned code is as follows:
 
 ```shell
-Arraylist size: 4
-Exception thrown : java.lang.IndexOutOfBoundsException: Index: 5
+ArrayList size: 4
+Exception: java.lang.IndexOutOfBoundsException: Index: 5, Size: 4
 ```
