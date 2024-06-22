@@ -15,7 +15,7 @@ CatalogContent:
 
 In Lua, **tables** are associative [Arrays](https://www.codecademy.com/resources/docs/lua/arrays). Values that are stored in a table can be referenced with numbers and keys.
 
-## Creating Tables
+## Syntax
 
 Table objects are created using a constructor expression, in this case, a pair of curly braces:
 
@@ -45,8 +45,6 @@ t[mykey] = myvalue
 
 Any data type other than `nil` can be used as a key.
 
-## Accessing Table Values
-
 After creating a table with a key-value pair(s), values are indexed through the associated keys using square brackets:
 
 ```lua
@@ -66,6 +64,30 @@ If no key was defined, use a numeric index:
 ```lua
 t = {"a", "b", "c"}
 print(t[1]) -- Output: a
+```
+
+## Example
+
+```lua
+letters = {a, b, c}
+print(letters[3]) -- Output: c
+```
+
+## Codebyte Example
+
+```codebyte/lua
+cities = {
+  ["USA"] = "New York City",
+  ["Spain"] = "Barcelona",
+  ["Argentina"] = "Buenos Aires"
+}
+
+cities["UK"] = "Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch"
+
+print(cities["USA"])
+print(cities["Spain"])
+print(cities["Argentina"])
+print(cities["UK"])
 ```
 
 ## Table Functions
