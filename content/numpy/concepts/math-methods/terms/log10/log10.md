@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In NumPy, the **`.log10()`** method is used to calculate base 10 logarithm of each element in an array. It is primarily used in scientific computations and mathematical applications where logarithmic scaling is required.
+In NumPy, the **`.log10()`** method is used to calculate the base 10 logarithm of each element in an array. It is primarily used in scientific computations and mathematical applications where logarithmic scaling is required.
 
 ## Syntax
 
