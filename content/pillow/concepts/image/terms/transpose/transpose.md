@@ -26,9 +26,9 @@ Image.transpose(method)
 - `method`: Specifies the type of transpose operation to perform. It can take one of the following values:
   - `Image.FLIP_LEFT_RIGHT`: Flips the image horizontally (left to right).
   - `Image.FLIP_TOP_BOTTOM`: Flips the image vertically (top to bottom).
-  - `Image.ROTATE_90`: Rotates the image by 90 degrees counterclockwise.
+  - `Image.ROTATE_90`: Rotates the image by 90 degrees anticlockwise.
   - `Image.ROTATE_180`: Rotates the image by 180 degrees.
-  - `Image.ROTATE_270`: Rotates the image by 270 degrees counterclockwise.
+  - `Image.ROTATE_270`: Rotates the image by 270 degrees anticlockwise.
   - `Image.TRANSPOSE`: Transposes the image, which swaps the image's rows and columns.
   - `Image.TRANSVERSE`: Performs a diagonal flip from the bottom-left to the top-right of the image.
 
