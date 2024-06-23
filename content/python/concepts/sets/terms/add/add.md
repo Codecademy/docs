@@ -1,7 +1,7 @@
 ---
-Title: '.add()' 
-Description: 'Adds a specified element to a set, ensuring no duplicates.' 
-Subjects: 
+Title: '.add()'
+Description: 'Adds a specified single element to a set.'
+Subjects:
   - 'Code Foundations'
   - 'Computer Science'
   - 'Data Science'
@@ -14,52 +14,59 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Python, the **`.add()`** method adds an element to a set if it is not already present, thus maintaining its unique element property. However, if no value is provided in the parenthesis, it will cause an error or, if the element is already present in the set, the set remains unchanged.
+In Python, the **`.add()`** method adds a specified single element to a set if it is not already present, thus maintaining its unique elements property. If the element is already present in the set, the operation has no effect. The method modifies the set in-place.
+
+> **Note:** If no argument is provided to `.add()` method, it raises an error.
 
 ## Syntax
 
 ```pseudo
-set.add(elem)
+set.add(element)
 ```
 
-- `set`: The name of the set to add an element to.
-- `elem`: The element to be added to the set. Only one element can be added at a time.
+- `set`: The set to which an element will be added.
+- `element`: The element to be added to the set. Only one element can be added per method call.
 
 ## Example
 
-The following example denotes the `.add()` method in use:
+The following example demonstrates the use of the `.add()` method:
 
 ```py
-# Make a set
+# Create a set
 set_1={1,2,4,5}
 
-# Using .add() to add the number 3 to set_1. 3 doesn't exist in set_1.
+# Using .add() method to add a new unique element to set_1
 set_1.add(3)
 
 # Print the set with the additional element.
 print(set_1)
 
-# Using .add to add the number 2 to set_1. Since 2 already exists in set_1, there will be no change.
+# Using .add() method to add an existing element 2 to set_1
 set_1.add(2)
 
-# Print the unchanged set
+# Print the set with no changes
 print(set_1)
 ```
 
-The code above generates the output as follows:
+The code example above will produce the following output:
 
 ```shell
 {1, 2, 3, 4, 5}
 {1, 2, 3, 4, 5}
 ```
 
-> **Note:** Initialize an empty set using `{}` before adding elements to ensure error-free operations.
-
-## Codebyte Example 
+## Codebyte Example
 
 ```codebyte/python
-numbers={1,2,3}
+# create empty set
+numbers = set()
+
+numbers.add(1)
+numbers.add(2)
+numbers.add(3)
 numbers.add(5)
 
 print(numbers)
 ```
+
+> **Note:** To create an empty set, use `set()` instead of `{}`, as the latter creates an empty [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries).
