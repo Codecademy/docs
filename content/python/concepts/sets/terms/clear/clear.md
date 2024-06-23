@@ -26,7 +26,7 @@ In Python, the **`.clear()`** method removes all elements from a set and does no
 [!NOTE:] To editors: Should this description under syntax be removed? It kind of repeats the description above, but I thought this emphasize made it even clearer.
 
 ## Example
-In the example below, the `clear()` method is used to clear all elements in the set `pets` resulting in the removal of all listed elements in the set:
+In the example below, the `.clear()` method is used to remove all elements from the `pets` set, leaving it empty:
 ```py
  pets ={"cats","dogs","hamsters","lizards","turtles"}
  pets.clear()
