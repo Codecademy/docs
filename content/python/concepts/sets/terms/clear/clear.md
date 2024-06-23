@@ -34,7 +34,7 @@ print(pets)
 ```
 The resulting output will look like this:
 ```py
- pets()
+ set()
 ```
 
 ## Codebyte Example (if applicable)
