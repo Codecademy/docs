@@ -1,16 +1,13 @@
 ---
-Title: 'clear()' 
-Description: 'Removes all elements in the set.'
+Title: '.clear()' 
+Description: 'Removes all elements from the set.'
 Subjects: 
-  - 'Code Foundation'
+  - 'Code Foundations'
   - 'Computer Science'
   - 'Data Science'
-  
 Tags:
  - 'Methods'
  - 'Sets'
- - 'Functions'
-  
 CatalogContent: 
   - 'learn-python-3'
   - 'paths/computer-science'
