@@ -24,7 +24,7 @@ d = deque([iterable[, maxlen]])
 
 ## Example
 
-In this syntax, deque() creates a new deque object, which can be initialized with an optional iterable and a maximum length. The append() and appendleft() methods add items to the right and left ends, respectively.
+In this syntax, deque() creates a new deque object, which can be initialized with an optional iterable and a maximum length.
 
 **numbers_deque = deque([1, 2, 3, 4, 5])**
 **a = deque(maxlen=3)**
@@ -36,26 +36,30 @@ from collections import deque
 
 # Create a deque variable containing a list of numbers.
 a = deque([1, 2, 3, 4, 5])
+print(a)
 
-# Append the number 6 to the right end of the deque using the append() method.
-b.append(6)
+# Create a deque string variable.
+b = ('Hello')
+print(b)
 
-# Append a number to the left end using the appendleft() method.
-j.appendleft(0)
+# Create a integer deque variable.
+j = (645)
+print(j)
 
-# Pop a number from the right end of the deque using the pop() method.
-e.pop()
+# Create a deque range variable.
+e = deque(range(7,21,27))
+print(e)
 
-# Pop a number from the left end using the popleft() method.
-m.popleft()
+# Create a deque float variable.
+m = (100.56)
+print(m)
 
 # Print the contents of the deque variable.
 print(a)
 
-The pop() and popleft() methods remove items from the corresponding ends. The rotate() method moves elements from one end to the other, effectively rotating the deque.
 
 Output:
-deque([0, 1, 2, 3, 4])
+deque([1, 2, 3, 4, 5])
 
 ```
 
