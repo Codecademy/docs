@@ -38,7 +38,7 @@ The resulting output will look like this:
 ```
 
 ## Codebyte Example (if applicable)
-```py 
+```codebyte/python
  #Specify set of pets
  pets ={"cats","dogs","hamsters","lizards","turtles"}
  print("pets:", pets)
