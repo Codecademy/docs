@@ -33,7 +33,7 @@ pets.clear()
 print(pets)
 ```
 The resulting output will look like this:
-```py
+```shell
  set()
 ```
 
