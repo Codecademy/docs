@@ -28,9 +28,9 @@ In Python, the **`.clear()`** method removes all elements from a set and does no
 ## Example
 In the example below, the `.clear()` method is used to remove all elements from the `pets` set, leaving it empty:
 ```py
- pets ={"cats","dogs","hamsters","lizards","turtles"}
- pets.clear()
- print(pets)
+pets ={"cats", "dogs", "hamsters", "lizards", "turtles"}
+pets.clear()
+print(pets)
 ```
 The resulting output will look like this:
 ```py
