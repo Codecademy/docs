@@ -1,1 +1,1 @@
-content/general/concepts/jsp/jsp.md
+content/python/concepts/classes/classes.md
