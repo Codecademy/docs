@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-[The **clear()** method removes all elements in a python set and does not return any values. When using the `clear()` method, the set remains even after all elements in it are removed.]
+In Python, the **`.clear()`** method removes all elements from a set and does not return any value. After using the `.clear()` method, the set itself remains, but it is empty.
 
 ## Syntax
 
