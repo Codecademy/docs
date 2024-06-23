@@ -37,7 +37,7 @@ set()
 #Specify cat breeds in a set
 cats ={"American shortbob", "Bengal cat", "British shorthair", "Egyptian mau", "Russian blue","Siamese"}
 print("cats:", cats)
-#Remove elements in cats
-pets.clear()
+#Remove elements from cats set
+cats.clear()
 print(cats)
 ```
