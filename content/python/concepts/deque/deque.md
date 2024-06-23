@@ -27,9 +27,7 @@ d = deque([iterable[, maxlen]])
 In this syntax, deque() creates a new deque object, which can be initialized with an optional iterable and a maximum length. The append() and appendleft() methods add items to the right and left ends, respectively.
 
 **numbers_deque = deque([1, 2, 3, 4, 5])**
-
-The pop() and popleft() methods remove items from the corresponding ends. The rotate() method moves elements from one end to the other, effectively rotating the deque.
-
+**a = deque(maxlen=3)**
 
 ```py
 
