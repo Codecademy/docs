@@ -30,31 +30,33 @@ In this syntax, deque() creates a new deque object, which can be initialized wit
 **a = deque(maxlen=3)**
 
 ```py
-
-# Start by importing the deque class from the collections module.
+# Use different iterables to create deques
 from collections import deque
 
-# Create a deque variable containing a list of numbers.
-a = deque([1, 2, 3, 4, 5])
+# Create a deque variable.
+a = deque((8, 7, 9, 6))
 print(a)
 
-# Create a deque string variable.
-b = ('Hello')
+b = deque([45, 845, 65])
 print(b)
 
-# Create a integer deque variable.
-j = (645)
-print(j)
+c = deque(range(5, 10))
+print(c)
 
-# Create a deque range variable.
-e = deque(range(7,21,27))
+d = deque("wxyz")
+print(d)
+
+numbers = {"firstname": "John", "Smith", "age":25}
+e = deque(nubmers.keys())
 print(e)
 
-# Create a deque float variable.
-m = (100.56)
-print(m)
+f = deque(numbers.values())
+print(f)
 
-# Print the contents of the deque variable.
+g = deque(numbers.items())
+print(g)
+
+# Print the contents of a deque variable.
 print(a)
 
 
