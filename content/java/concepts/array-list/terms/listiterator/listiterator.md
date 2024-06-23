@@ -6,8 +6,9 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Arrays'
-  - 'Methods'
+  - 'Collections'
   - 'Elements'
+  - 'Methods'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
@@ -55,7 +56,7 @@ public class ArrayListListIteratorExample {
 }
 ```
 
-The output of the mentioned code is as follows:
+The output of the above example code is as follows:
 
 ```shell
 Nice
@@ -64,9 +65,9 @@ meet
 you
 ```
 
-### Example 2
+## Example 2
 
-In this example, we create a `ListIterator` at a specified index.
+The following example demonstrates the creation of a `ListIterator` at a specified index in an ArrayList:
 
 ```java
 import java.util.ArrayList;
@@ -93,16 +94,16 @@ public class ArrayListListIteratorExample {
 }
 ```
 
-The output of the mentioned code is as follows:
+The output of the above example code is as follows:
 
 ```shell
 meet
 you
 ```
 
-### Example 3
+## Example 3
 
-In this example, we create a `ListIterator` at a specified index. Note that if the index is larger than the size of the arraylist, the method will return an `IndexOutOfBounds` exception.
+This example showcases exception handling when attempting to create an iterator at an invalid index:
 
 ```java
 import java.util.ArrayList;
@@ -130,7 +131,7 @@ public class ArrayListListIteratorExample {
 }
 ```
 
-The output of the mentioned code is as follows:
+The output of the above example code is as follows:
 
 ```shell
 ArrayList size: 4
