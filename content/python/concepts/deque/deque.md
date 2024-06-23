@@ -32,25 +32,27 @@ The pop() and popleft() methods remove items from the corresponding ends. The ro
 
 
 ```py
+
+# Start by importing the deque class from the collections module.
 from collections import deque
 
-# Create a deque variable
-numbers_deque = deque([1, 2, 3, 4, 5])
+# Create a deque variable containing a list of numbers.
+a = deque([1, 2, 3, 4, 5])
 
-# Append a number to the right end
-numbers_deque.append(6)
+# Append the number 6 to the right end of the deque using the append() method.
+b.append(6)
 
-# Append a number to the left end
-numbers_deque.appendleft(0)
+# Append a number to the left end using the appendleft() method.
+j.appendleft(0)
 
-# Pop a number from the right end
-numbers_deque.pop()
+# Pop a number from the right end of the deque using the pop() method.
+e.pop()
 
-# Pop a number from the left end
-numbers_deque.popleft()
+# Pop a number from the left end using the popleft() method.
+m.popleft()
 
-# Print the deque
-print(numbers_deque)
+# Print the contents of the deque variable.
+print(a)
 
 The pop() and popleft() methods remove items from the corresponding ends. The rotate() method moves elements from one end to the other, effectively rotating the deque.
 
@@ -59,16 +61,7 @@ deque([0, 1, 2, 3, 4])
 
 ```
 
-
-Start by importing the deque class from the collections module. Then, create a deque variable called numbers_deque containing a list of numbers [1, 2, 3, 4, 5].
-
-Append the number 6 to the right end of the deque using the append() method, and then append 0 to the left end using the appendleft() method.
-
-Next, pop a number from the right end of the deque using the pop() method, and pop a number from the left end using the popleft() method.
-
-Finally, print the contents of the deque, which should be [0, 1, 2, 3, 4].
-
 ## Equivalent Methods for Stacks and Queues
 
-- Stacks: To implement a stack using a deque, use the append() method to push items onto the stack and the pop() method to remove them.
-- Queues: To implement a queue, use the append() method to enqueue items at the back and the popleft() method to dequeue items from the front.
+- Stacks: A stack operates on the Last In, First Out (LIFO) principle, where pushing (adding an item) is done with `.append()` to the right end, and popping (removing the most recent item) is performed using `.pop()` from the right end.
+- Queues: A queue, based on the First In, First Out (FIFO) principle, utilizes `.append()` at the right end for adding (enqueueing) and `.popleft()` from the left end for removing (dequeuing).
