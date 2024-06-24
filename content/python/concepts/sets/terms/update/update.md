@@ -17,12 +17,14 @@ The `.update()` method updates the current [set](https://www.codecademy.com/reso
 
 ## Syntax
 
-The following syntaxes can be used:
+```pseudo
+set.update(iterable)
+```
+
+Or, the alternative syntax is:
 
 ```pseudo
-set.update(iterable1, iterable2 ...)
-
-set |= iterable1 | iterable2 ...
+set |= iterable
 ```
 
 - The `.update()` method can be called directly against `set` with multiple `iterable` passed as arguments.
@@ -36,6 +38,7 @@ In the example below, two sets of `set1`, `set2` are created. Then, the `update(
 ```py
 set1 = {1, 2, 3}
 set2 = {3, 4, 5}
+
 set1.update(set2)
 print(set1)
 ```
