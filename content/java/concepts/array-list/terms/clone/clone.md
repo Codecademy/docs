@@ -2,13 +2,13 @@
 Title: '.clone()'
 Description: 'Returns a cloned version of the given ArrayList.'
 Subjects:
-  - 'Computer Science'
   - 'Code Foundations'
+  - 'Computer Science'
 Tags:
-  - 'Java'
-  - 'Methods'
   - 'Arrays'
   - 'Data Types'
+  - 'Methods'
+  - 'Java'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
@@ -26,7 +26,7 @@ arrayList.clone();
 
 ## Example
 
-The following example demonstrates the use of the `.clone()` method:
+The following example illustrates how to use the `.clone()` method.
 
 ```java
 import java.util.ArrayList;
@@ -53,7 +53,7 @@ class Main {
 }
 ```
 
-Since the method returns an `Object`, `ArrayList<Integer>` is used to convert it into an integer `ArrayList`.
+Since the `.clone()` method returns an `Object`, it needs to be cast to `ArrayList<Integer>` to convert it into an `ArrayList` of integers.
 
 The above example produces the following output:
 
