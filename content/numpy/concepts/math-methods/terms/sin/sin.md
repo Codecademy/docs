@@ -6,26 +6,31 @@ Subjects:
   - 'Data Science'
 Tags:
   - 'Arrays'
-  - 'Functions'
+  - 'Methods'
   - 'NumPy'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-In NumPy, the **`.sin()`** method calculates the trigonometric sine of each element in an array. This function operates element-wise on an array and returns a new array containing the sine values of the input array's elements. It is beneficial in mathematical computations involving trigonometric operations.
+In NumPy, the **`.sin()`** method calculates the trigonometric sine of each element in an array. This method operates element-wise on an array and returns a new array containing the sine values of the input array's elements. It is beneficial in mathematical computations involving trigonometric operations.
 
 ## Syntax
 
 ```pseudo
-numpy.sin(array)
+numpy.sin(x, out=None, where=True)
 ```
 
 - `array`: An array-like structure containing the elements for which the sine is computed. The elements should be in radians, not degrees.
+- `out` (Optional): The array where the result is to be stored. If not provided, a new array is created to store the results.
+- `where` (Optional): The condition (array of boolean values) that determines the elements where the sine function is applied.
+  - If the condition is `True` for a particular element, the sine is computed for that element.
+  - If the condition is `False` for a particular element, the sine of the element will not be computed and the original element is retained.
+  - If not provided, the sine is computed for all elements.
 
 ## Example
 
-The below example demonstrates the use of the `.sin()` method to calculate the sine of elements in an array:
+Run the following code to understand how the `.sin()` method works:
 
 ```py
 # Importing the 'numpy' library as 'np'
