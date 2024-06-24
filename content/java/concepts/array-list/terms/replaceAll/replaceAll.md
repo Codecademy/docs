@@ -1,6 +1,6 @@
 ---
 Title: '.replaceAll()'
-Description: 'Replaces all occurrences of elements in the ArrayList with a specified new value..'
+Description: 'Replaces each element in the ArrayList with the result of applying a specified unary operator to it.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.replaceAll()`** method in Java is used for transforming all elements of a list according to a specified unary operation, effectively updating each element in place with the result of the operation applied to it.
+The **`.replaceAll()`** method in Java is used for transforming all elements of a list according to a specified unary operation, effectively updating each element in place with the result of the operation applied to it. It does not return any value.
 
 ## Syntax
 
@@ -21,8 +21,8 @@ The **`.replaceAll()`** method in Java is used for transforming all elements of 
 arrayList.replaceAll(UnaryOperator<E> operator)
 ```
 
-- `arrayListInstance`: The `ArrayList` on which the `.replaceAll()` method is called.
-- `UnaryOperator<E> operator`: The `UnaryOperator` that is applied to all elements in the list and replaces them with elements of the same type.
+- `arrayList`: The `ArrayList` on which the `.replaceAll()` method is called.
+- `operator`: Represents the unary operator that will be applied to each element in the `ArrayList`. It is of type `UnaryOperator<E>`, where `E` is the type of elements in the ArrayList.
 
 ## Example
 
