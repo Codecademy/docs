@@ -22,7 +22,7 @@ set.clear()
 ```
 
 - `set`: The set from which all elements will be removed.
-- 
+  
 ## Example
 
 In the example below, the `.clear()` method is used to remove all elements from the `pets` set, leaving it empty:
@@ -47,4 +47,4 @@ print("Cat Breeds:", cat_breeds)
 
 cat_breeds.clear()
 print(cat_breeds)
- ```
+```
