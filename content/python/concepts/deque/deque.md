@@ -22,47 +22,58 @@ from collections import deque
 d = deque([iterable[, maxlen]])
 ```
 
+- `iterable`: An optional parameter representing an iterable object (like a list, tuple, or string) whose elements will be used to initialize the deque. If no iterable is provided, an empty deque is created.
+- `maxlen`: An optional parameter that specifies the maximum length of the deque.
+
 ## Example
 
-In this syntax, deque() creates a new deque object, which can be initialized with an optional iterable and a maximum length.
-
-**numbers_deque = deque([1, 2, 3, 4, 5])**
-**a = deque(maxlen=3)**
+The following example demonstrates the usage of `deque`:
 
 ```py
-# Use different iterables to create deques
 from collections import deque
 
-# Create a deque variable.
+# Create a deque using a tuple of integers
 a = deque((8, 7, 9, 6))
 print(a)
 
+# Create a deque using a list of integers
 b = deque([45, 845, 65])
 print(b)
 
+# Create a deque using a range of integers from 5 to 9
 c = deque(range(5, 10))
 print(c)
 
+# Create a deque using a string, which will be split into individual characters
 d = deque("wxyz")
 print(d)
 
-numbers = {"firstname": "John", "Smith", "age":25}
-e = deque(nubmers.keys())
+# Create a dictionary with some key-value pairs
+numbers = {"firstname": "John", "age":25}
+
+# Create a deque containing the keys of the dictionary
+e = deque(numbers.keys())
 print(e)
 
+# Create a deque containing the values of the dictionary
 f = deque(numbers.values())
 print(f)
 
+# Create a deque containing the items (key-value pairs) of the dictionary
 g = deque(numbers.items())
 print(g)
+```
 
-# Print the contents of a deque variable.
-print(a)
+The above code produces the output as follows:
 
-
-Output:
-deque([1, 2, 3, 4, 5])
-
+```
+deque([8, 7, 9, 6])
+deque([45, 845, 65])
+deque([5, 6, 7, 8, 9])
+deque(['w', 'x', 'y', 'z'])
+deque(['firstname', 'age'])
+deque(['John', 25])
+deque([('firstname', 'John'), ('age', 25)])
 ```
 
 ## Equivalent Methods for Stacks and Queues
