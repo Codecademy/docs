@@ -22,7 +22,7 @@ arrayList.replaceAll(UnaryOperator<E> operator)
 ```
 
 - `arrayList`: The `ArrayList` on which the `.replaceAll()` method is called.
-- `operator`: Represents the unary operator that will be applied to each element in the `ArrayList`. It is of type `UnaryOperator<E>`, where `E` is the type of elements in the ArrayList.
+- `operator`: Represents the unary operator that will be applied to each element in the `ArrayList`.
 
 ## Example
 
