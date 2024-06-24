@@ -26,6 +26,8 @@ arrayList.replaceAll(UnaryOperator<E> operator)
 
 ## Example
 
+In this example, an `ArrayList` named `cities` is created and populated with city names using [`.add()`](https://www.codecademy.com/resources/docs/java/array-list/add). Then, `.replaceAll()` is used to transform all city names to lowercase, updating each element in place.
+
 ```java
 import java.util.ArrayList;
 
