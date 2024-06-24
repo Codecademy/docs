@@ -19,12 +19,6 @@ In Python, the **`.clear()`** method removes all elements from a set and does no
 
 `set.clear()`
 
-- The `clear()` method does not have any parameters.
-- The `clear()` method does not return any values.
-- The `clear()` method does not delete the set, it only removes elements inside the set.
-
-[!NOTE:] To editors: Should this description under syntax be removed? It kind of repeats the description above, but I thought this emphasize made it even clearer.
-
 ## Example
 In the example below, the `.clear()` method is used to remove all elements from the `pets` set, leaving it empty:
 ```py
