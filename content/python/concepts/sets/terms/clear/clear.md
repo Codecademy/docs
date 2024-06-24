@@ -33,6 +33,7 @@ set()
 ```
 
 ## Codebyte Example (if applicable)
+
 ```codebyte/python
 #Specify cat breeds in a set
 cats ={"American shortbob", "Bengal cat", "British shorthair", "Egyptian mau", "Russian blue","Siamese"}
