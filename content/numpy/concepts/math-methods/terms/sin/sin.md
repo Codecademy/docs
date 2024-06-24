@@ -59,7 +59,7 @@ In this codebyte example, the `.sin()` method computes the sine of the elements 
 import numpy as np
 
 array = np.array([np.pi/6, np.pi/4, np.pi/2, np.pi])
-np.sin(array)
+result = np.sin(array)
 
 print(result)
 ```
