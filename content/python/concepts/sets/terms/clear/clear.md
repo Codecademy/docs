@@ -28,7 +28,7 @@ set.clear()
 In the example below, the `.clear()` method is used to remove all elements from the `pets` set, leaving it empty:
 
 ```py
-pets ={"cats", "dogs", "hamsters", "lizards", "turtles"}
+pets = {"cats", "dogs", "hamsters", "lizards", "turtles"}
 pets.clear()
 print(pets)
 ```
@@ -42,7 +42,7 @@ The resulting output will look like this:
 ## Codebyte Example
 
 ```codebyte/python
-cat_breeds ={"Persian", "Sphynx", "Siamese", "Maine Coon", "Bengal"}
+cat_breeds = {"Persian", "Sphynx", "Siamese", "Maine Coon", "Bengal"}
 print("Cat Breeds:", cat_breeds)
 
 cat_breeds.clear()
