@@ -57,3 +57,19 @@ The example will result in a new `DataFrame` created by concatenating `df1` and 
 0  5   7
 1  6   8
 ```
+
+## Codebyte Example
+
+The code below shows the effects of `.concat()` on two different DataFrames. After creating two DataFrames the method `.concat()` concatenates df1 and df2 horizontally (column-wise) because axis=1. The keys parameter is used to create a hierarchical index for the columns, adding a higher level of column labels.
+
+```codebyte/python
+import pandas as pd
+
+df1 = pd.DataFrame({'A' : [1,2,3,4,5], 'B' : [6,7,8,9,10]})
+df2 = pd.DataFrame({'C' : [11,12,13,14,15], 'D' : [16,17,18,19,20]})
+
+result = pd.concat([df1, df2], axis=1, keys = ['df1', 'df2'])
+
+print(result)
+
+```
