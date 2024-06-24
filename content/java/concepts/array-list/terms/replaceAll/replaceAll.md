@@ -41,7 +41,7 @@ public class Main {
         cities.add("BERLIN");
         System.out.println("Cities in uppercase: " + cities);
 
-        // Call replaceAll() to make every String element lowercase
+        // Call replaceAll() on ArrayList to make every String element lowercase
         cities.replaceAll(String::toLowerCase);
         System.out.println("Updated cities in lowercase: " + cities);
 
