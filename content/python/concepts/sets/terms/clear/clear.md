@@ -36,10 +36,12 @@ print(pets)
 The resulting output will look like this:
 
 ```shell
- set()
+set()
 ```
 
 ## Codebyte Example
+
+Run the following code to understand how the `.clear()` method works:
 
 ```codebyte/python
 cat_breeds = {"Persian", "Sphynx", "Siamese", "Maine Coon", "Bengal"}
