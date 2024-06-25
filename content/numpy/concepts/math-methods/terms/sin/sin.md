@@ -22,7 +22,7 @@ numpy.sin(x, out=None, where=True)
 ```
 
 - `array`: An array-like structure containing the elements for which the sine is computed. The elements should be in radians, not degrees.
-- `out` (Optional): The array where the result is to be stored. If not provided, a new array is created to store the results.
+- `out` (Optional): Specifies the array where the result of the operation should be stored. If not provided, a new array is created to store the results.
 - `where` (Optional): The condition (array of boolean values) that determines the elements where the sine function is applied.
   - If the condition is `True` for a particular element, the sine is computed for that element.
   - If the condition is `False` for a particular element, the sine of the element will not be computed and the original element is retained.
@@ -44,16 +44,22 @@ result1 = np.sin(array1)
 array2 = np.array((0, 30, 45, 90, 180))
 result2 = np.sin(array2 * np.pi/180) # convert to radians
 
+# using the where parameter
+array3 = np.array([np.pi/6, np.pi/4, np.pi/2, np.pi])
+result3 = np.sin(array3, where=array3 >= np.pi/2)
+
 print(result1)
 print(result2)
+print(result3)
 ```
 
-The output of the above code is shown below:
+The output of the above code is as shown below:
 
 ```shell
 [ 0.0000000e+00  1.0000000e+00  1.2246468e-16 -1.0000000e+00]
 [0.00000000e+00 5.00000000e-01 7.07106781e-01 1.00000000e+00
  1.22464680e-16]
+[0.0000000e+00 0.0000000e+00 1.0000000e+00 1.2246468e-16]
 ```
 
 ## Codebyte Example
