@@ -126,3 +126,39 @@ In the example above, the first `ForEach` loop displays a sequence of [`Circle`]
 This will display:
 
 ![SwiftUI Color](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-color.png)
+
+
+### Using and Defining Custom Colors in SwiftUI 
+
+Although you can adjust color in your SwiftUI using Component Values and RBG numbers as shown above, what if you wanted to use a color consistently throughout your app? A good way to do this is by creating a custom color under the Assets Folder in XCode. 
+
+A few things can be stored in your Assets Catalog folder such as logo files, images, icons and colors. 
+
+If you want to ensure the color is cohesive you should consider adding a Hex Number under the Color Set Tab within the Assets folder as shown below. First, you must add a color set, and give it a name. You can call your new Color anything you want. It can be “lightGreen”, “appleGreen" or in my case “brandPrimary” as it will be the brand’s main color used             throughout the app.  
+
+![SwiftUI Color](https://github.com/AlexandraMasson/docs/content/swiftui/concepts/colors/SwiftUIColors-AssetsFolder.png?raw=true)
+
+
+Defining custom colors is helpful because even when the user changes from light to dark mode on their device, the color will be the consistent throughout.
+
+You can use your custom color by using a modifier that can take in color as an argument such as *.foregroundStyle* or *.tint* \
+
+```swift
+
+import SwiftUI
+
+struct ContentView: View {
+  var body: some View {
+      VStack {
+        Image(systemName: "leaf")
+              .imageScale(.large)
+              .foregroundStyle(.brandPrimary)
+        Text("Hello, world!")
+              .padding()
+      }
+   }
+}
+```
+The code above results in the view below. Where the leaf system image below takes up the  brandPrimary color using the *.foregroundStyle* modifier. 
+
+![SwiftUI Color](https://github.com/AlexandraMasson/docs/content/swiftui/concepts/colors/SwiftUIColors-ColorExample.png?raw=true)
