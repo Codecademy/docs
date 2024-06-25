@@ -15,7 +15,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'paths/data-science'
 ---
 
-The **`.tolist()`** function in NumPy is used to convert a NumPy array to a Python list. It returns the array as a nested list.
+The **`.tolist()`** function in NumPy converts a NumPy array to a Python list. It returns the array as a nested list.
 
 ## Syntax
 
@@ -23,19 +23,19 @@ The **`.tolist()`** function in NumPy is used to convert a NumPy array to a Pyth
 ndarray.tolist()
 ```
 
-Return a copy of the array data as a (nested) Python list. Data items are converted to the nearest compatible builtin Python type, via the **`item`** function.
+Return a copy of the array data as a (nested) Python list. Data items are converted to the nearest compatible built-in Python type via the **`item`** function.
 
-If `a.ndim` is 0, then since the depth of the nested list is 0, it will not be a list at all, but a simple Python scalar.
+If `a.ndim` is 0, then since the depth of the nested list is 0, it will not be a list at all but a simple Python scalar.
 
 ## Examples
 
-The following examples create an `ndarray` named `arr` and converts it into a nested Python list `arr_list` using `.tolist()`. We give examples for a 1D array and a 2D array.
+The following examples create a `ndarray` named `arr` and convert it into a nested Python list `arr_list` using `.tolist()`. We give examples of a 1D array and a 2D array.
 
 ### 1D Array
 
 For a 1D array, `arr.tolist()` is almost the same as `list(arr)`, except that `.tolist()` changes numpy scalars to Python scalars:
 
-```python
+``` python
 import numpy as np
 
 # Creating Numpy array
@@ -60,8 +60,9 @@ arr_tolist
 type(arr_tolist[0])
 ```
 
-This produces the following output:
-```python
+This produces the following Output:
+
+``` python
 [1, 2]
 
 <class 'numpy.uint32'>
@@ -70,13 +71,14 @@ This produces the following output:
 
 <class 'int'>
 ```
+
 As we can see, although the resulting lists are similar, the outputs' type differ.
 
 ### 2D Array
 
 For a 2D array, `.tolist()` applies recursively:
 
-```python
+``` python
 import numpy as np
 
 # Creating a NumPy array
@@ -88,10 +90,8 @@ arr_list = arr.tolist()
 print(arr_list)
 ```
 
-This produces the following output:
-```python
+This produces the following Output:
+
+``` python
 [[1, 2, 3], [4, 5, 6]]
-
 ```
-
-
