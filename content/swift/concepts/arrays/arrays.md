@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-**Arrays** are ordered lists of values, all of the same [data type](https://www.codecademy.com/resources/docs/swift/data-types) and contained in the same [structure](https://www.codecademy.com/resources/docs/swift/structures). Swift, a very type-safe language, will throw compiler errors if values of different types are stored in a single array (e.g., a `String` in an `Int` array). However, values can be repeated; every occurence of the same value gets stored in a different location.
+**Arrays** are ordered lists of values, all of the same [data type](https://www.codecademy.com/resources/docs/swift/data-types) and contained in the same [structure](https://www.codecademy.com/resources/docs/swift/structures). Swift, a very type-safe language, will throw compiler errors if values of different types are stored in a single array (e.g., a `String` in an `Int` array). However, values can be repeated; every occurrence of the same value gets stored in a different location.
 
 ## Creating Arrays
 
