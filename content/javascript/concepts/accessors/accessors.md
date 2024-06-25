@@ -56,3 +56,30 @@ This example results in the following output:
 ```shell
 eddythefreedy9876@gmail.com
 ```
+
+## Codebyte Example
+
+```codebyte/js
+class Movie {
+  constructor(title, director) {
+    this._title = title;
+    this._director = director;
+  }
+
+  get movieTitle() {
+    return this._title;
+  }
+
+  get movieDirector() {
+    return this._director;
+  }
+}
+
+const movie = new Movie('A Boy and His Dog', 'L.Q. Jones');
+
+// Accessing the movie title using the . accessor
+console.log(movie.movieTitle);
+
+// Accessing the movie director using the [] syntax
+console.log(movie['movieDirector']);
+```
