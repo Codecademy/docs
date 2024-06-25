@@ -12,17 +12,17 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.removeRange()` method is used for removing all elements inside a specified range from an instance of the ArrayList class.
+The `.removeRange()` method is used for removing all elements inside a specified range from an instance of the `ArrayList` class.
 
 ## Syntax
 
-`Elements` within a range can be removed from an `ArrayList` object by passing the range as int parameters to the `.removeRange()` method:
+Elements within a range can be removed from an `ArrayList` object by passing the range as `int` parameters to the `.removeRange()` method:
 
 ```pseudo
 arrayListInstance.removeRange(int fromIndex, int toIndex);
 ```
 
-**Note:**`fromIndex` and `toIndex` are both inclusive in the elements removed from the `ArrayList`.
+> **Note:** `fromIndex` and `toIndex` are both inclusive in the elements removed from the `ArrayList`.
 
 ## Example
 
@@ -56,7 +56,7 @@ public class Tasks extends ArrayList<String> {
 }
 ```
 
-The output would look like this:
+The output will look like this:
 
 ```shell
 Original list: [Grab lunch, Check mail, Pick up Sammy, Project review, Java terms research]
