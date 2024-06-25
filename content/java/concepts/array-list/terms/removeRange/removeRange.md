@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.removeRange()` method is used for removing all elements inside a specified range from an instance of the `ArrayList` class.
+The `.removeRange()` method removes all elements inside a specified range from an instance of the `ArrayList` class.
 
 ## Syntax
 
@@ -21,6 +21,9 @@ Elements within a range can be removed from an `ArrayList` object by passing the
 ```pseudo
 arrayListInstance.removeRange(int fromIndex, int toIndex);
 ```
+
+- `fromIndex`: It is the starting index of the element in the range that is to be removed from the `ArrayList`.
+- `toIndex`: It is the ending index of the element in the range that is to be removed from the `ArrayList`.
 
 > **Note:** `fromIndex` and `toIndex` are both inclusive in the elements removed from the `ArrayList`.
 
