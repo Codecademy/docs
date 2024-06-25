@@ -1,48 +1,97 @@
 ---
-Title: 'The Title' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'A brief description.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
+Title: '.tolist()' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
+Description: 'Return the array as an a.ndim-levels deep nested list of Python scalars.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
 Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
-  - 'A subject name'
-  - 'A second subject name'
-  - 'An nth subject name'
+  - 'Data Science'
+  - 'Computer Science'
+  - 'Web Development'
 Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
-  - 'A tag'
-  - 'A second tag'
-  - 'An nth tag'
+  - 'Data Structures'
+  - 'Arrays'
+  - 'Functions'
+  - 'NumPy'
 CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
-  - 'learn-example-course'
-  - 'paths/example-path'
+  - 'learn-python-3'
+  - 'paths/data-science'
 ---
 
-[Introduction - make sure first mention of concept is in **bold**.] (The first 160 characters of this section will appear as the description of the page when it shows up on search engines. It's important!)
+The **`.tolist()`** function in NumPy is used to convert a NumPy array to a Python list. It returns the array as a nested list.
 
-## Subsection 1
+## Syntax
 
-[Text about subsection 1]
-
-## Subsection 2
-
-[Text about subsection 2]
-
-## Subsection n
-
-[Text about subsection n]
-
-## Codebyte Example (if applicable)
-
-We can currently support:
-
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
-
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
-
-```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
+``` python
+ndarray.tolist()
 ```
+
+Return a copy of the array data as a (nested) Python list. Data items are converted to the nearest compatible builtin Python type, via the **`item`** function.
+
+If `a.ndim` is 0, then since the depth of the nested list is 0, it will not be a list at all, but a simple Python scalar.
+
+## Examples
+
+The following examples create an `ndarray` named `arr` and converts it into a nested Python list `arr_list` using `.tolist()`. We give examples for a 1D array and a 2D array.
+
+### 1D Array
+
+For a 1D array, `arr.tolist()` is almost the same as `list(arr)`, except that `.tolist()` changes numpy scalars to Python scalars:
+
+```python
+import numpy as np
+
+# Creating Numpy array
+arr = np.uint32([1, 2])
+
+# Converting the NumPy array to a Python list using list()
+arr_list = list(arr)
+
+#Checking Output
+arr_list
+
+# Checking Output's type 
+type(arr_list[0])
+
+# Converting the NumPy array to a Python list using .tolist()
+arr_tolist = arr.tolist()
+
+#Checking Output
+arr_tolist
+
+# Checking Output's type 
+type(arr_tolist[0])
+```
+
+This produces the following output:
+```python
+[1, 2]
+
+<class 'numpy.uint32'>
+
+[1, 2]
+
+<class 'int'>
+```
+As we can see, although the resulting lists are similar, the outputs' type differ.
+
+### 2D Array
+
+For a 2D array, `.tolist()` applies recursively:
+
+```python
+import numpy as np
+
+# Creating a NumPy array
+arr = np.array([[1, 2, 3], [4, 5, 6]])
+
+# Converting the NumPy array to a Python list
+arr_list = arr.tolist()
+
+print(arr_list)
+```
+
+This produces the following output:
+```python
+[[1, 2, 3], [4, 5, 6]]
+
+```
+
+
