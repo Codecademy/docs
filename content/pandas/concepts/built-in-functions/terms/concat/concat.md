@@ -1,6 +1,6 @@
 ---
 Title: '.concat()'
-Description: 'Concatenates multiple Dataframes or Series along a particular axis'
+Description: 'Concatenates multiple Dataframes or Series along a particular axis.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -34,6 +34,8 @@ pandas.concat(objs, axis=0, join='outer', ignore_index=False, keys=None, levels=
 - `sort`: If `True`, sorts the resulting `Series` or `Dataframe` by the keys. Default value is `False`.
 - `copy`: If `False`, avoids copying data unnecessarily. Default value is `True`.
 
+> **Note:** Only the `objs` parameter is required; all other parameters are optional.
+
 ## Example
 
 The example below demonstrates the use of `.concat()` method:
@@ -60,7 +62,7 @@ The example will result in a new `DataFrame` created by concatenating `df1` and 
 
 ## Codebyte Example
 
-The code below shows the effects of `.concat()` on two different DataFrames. After creating two DataFrames the method `.concat()` concatenates df1 and df2 horizontally (column-wise) because axis=1. The keys parameter is used to create a hierarchical index for the columns, adding a higher level of column labels.
+The code demonstrates the `.concat()` function on two DataFrames, concatenating `df1` and `df2` column-wise (`axis=1`) and using `keys` to create a hierarchical column index:
 
 ```codebyte/python
 import pandas as pd
