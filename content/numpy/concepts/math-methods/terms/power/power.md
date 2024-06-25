@@ -51,7 +51,7 @@ print ("\nOutput array : ", np.power(array1, array2))
 ```shell
 2^3 is equal to 8
 
-Output array :  [ 64 243 256  25  36]
+Output array : [64 243 256  25  36]
 ```
 
 ## Codebyte Example
