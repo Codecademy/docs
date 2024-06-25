@@ -47,6 +47,8 @@ console.log('Car 2 is a ' + car2.year + ' ' + car2.make + ' ' + car2.model);
 
 ### Codebyte Example
 
+Here is a codebyte example that demonstrates the usage of the constructor function:
+
 ```codebyte/js
 function Movie(title, director, yearReleased) {
   this.title = title;
@@ -57,11 +59,11 @@ function Movie(title, director, yearReleased) {
 var movie1 = new Movie('A Boy and His Dog', 'L.Q. Jones', 1975);
 var movie2 = new Movie('Mad Max', 'George Miller', 1979);
 
-console.log('Movie 1 is ' + movie1.title + ', directed by ' + movie1.director + ', released in ' + movie1.yearReleased);
-// Output: Movie 1 is A Boy and His Dog, directed by L.Q. Jones, released in 1975
+console.log('Movie 1: ' + movie1.title + ', directed by ' + movie1.director + ', released in ' + movie1.yearReleased);
+// Output: Movie 1: A Boy and His Dog, directed by L.Q. Jones, released in 1975
 
-console.log('Movie 2 is ' + movie2.title + ', directed by ' + movie2.director + ', released in ' + movie2.yearReleased);
-// Output: Movie 2 is Mad Max, directed by George Miller, released in 1979
+console.log('Movie 2: ' + movie2.title + ', directed by ' + movie2.director + ', released in ' + movie2.yearReleased);
+// Output: Movie 2: Mad Max, directed by George Miller, released in 1979
 ```
 
 ## The Class `constructor` Method
@@ -93,6 +95,8 @@ console.log('Car 2 is a ' + car2.year + ' ' + car2.make + ' ' + car2.model);
 
 ### Codebyte Example
 
+Here is a codebyte example that demonstrates the use of the `constructor` method:
+
 ```codebyte/js
 class Movie {
   constructor(title, director, yearReleased) {
@@ -105,9 +109,9 @@ class Movie {
 var movie1 = new Movie('A Boy and His Dog', 'L.Q. Jones', 1975);
 var movie2 = new Movie('Mad Max', 'George Miller', 1979);
 
-console.log('Movie 1 is "' + movie1.title + '", directed by ' + movie1.director + ', released in ' + movie1.yearReleased);
-// Output: Movie 1 is "A Boy and His Dog", directed by L.Q. Jones, released in 1975
+console.log('Movie 1: "' + movie1.title + '", directed by ' + movie1.director + ', released in ' + movie1.yearReleased);
+// Output: Movie 1: "A Boy and His Dog", directed by L.Q. Jones, released in 1975
 
-console.log('Movie 2 is "' + movie2.title + '", directed by ' + movie2.director + ', released in ' + movie2.yearReleased);
-// Output: Movie 2 is "Mad Max", directed by George Miller, released in 1979
+console.log('Movie 2: "' + movie2.title + '", directed by ' + movie2.director + ', released in ' + movie2.yearReleased);
+// Output: Movie 2: "Mad Max", directed by George Miller, released in 1979
 ```
