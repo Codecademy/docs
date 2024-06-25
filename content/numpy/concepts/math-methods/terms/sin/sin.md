@@ -30,7 +30,7 @@ numpy.sin(x, out=None, where=True)
 
 ## Example
 
-Run the following code to understand how the `.sin()` method works:
+The following example illustrates the usage of the `.sin()` method:
 
 ```py
 # Importing the 'numpy' library as 'np'
