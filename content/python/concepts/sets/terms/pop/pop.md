@@ -47,7 +47,7 @@ Beta
 
 ## Codebyte Example
 
-Run the following code to understand how the `.pop()` metthod works:
+Run the following code to understand how the `.pop()` method works:
 
 ```codebyte/python
 set = {"Alpha", "Beta", "Gamma", "Delta", "Epsilon"}
