@@ -30,18 +30,22 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        // Create an ArrayList and add some elements
+        // Create an ArrayList
         ArrayList<String> fruits = new ArrayList<>();
+
+        // Adding elements to the ArrayList
         fruits.add("Apple");
         fruits.add("Banana");
         fruits.add("Cherry");
+
+        // printing the original ArrayList
+        System.out.println("Fruits: " + fruits);  
         
-        System.out.println("Fruits: " + fruits);  // Output: Fruits: [Apple, Banana, Cherry]
-        
-        // Clear the ArrayList
+        // Clearing the ArrayList
         fruits.clear();
-        
-        System.out.println("Fruits after clear(): " + fruits);  // Output: Fruits after clear(): []
+
+        // Printing the cleared ArrayList
+        System.out.println("Fruits after clear(): " + fruits);
     }
 }
 ```
