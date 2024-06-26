@@ -1,6 +1,6 @@
 ---
 Title: '.tolist()' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'Return the array as an a.ndim-levels deep nested list of Python scalars.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
+Description: 'Converts the array into a nested list of Python scalars.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
 Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
   - 'Data Science'
   - 'Computer Science'
@@ -23,9 +23,9 @@ The **`.tolist()`** function in NumPy converts a NumPy array to a Python list, r
 ndarray.tolist()
 ```
 
-Return a copy of the array data as a (nested) Python list. Data items are converted to the nearest compatible built-in Python type via the **`item`** function.
+The function generates a copy of the array data as a (nested) Python list. Each element in the array is converted to the closest compatible built-in Python type using the **`item`** function.
 
-If `a.ndim` is 0, then since the depth of the nested list is 0, it will not be a list at all but a simple Python scalar.
+When `a.ndim` is 0, the result of the operation is a simple scalar, as the depth of the nested list is 0. 
 
 ## Example
 
