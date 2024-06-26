@@ -15,7 +15,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'paths/data-science'
 ---
 
-The **`.tolist()`** function in NumPy converts a NumPy array to a Python list. It returns the array as a nested list.
+The **`.tolist()`** function in NumPy converts a NumPy array to a Python list, returning the array as a nested list.
 
 ## Syntax
 
