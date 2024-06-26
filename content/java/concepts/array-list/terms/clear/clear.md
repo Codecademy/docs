@@ -2,24 +2,24 @@
 Title: '.clear()'
 Description: 'Removes all elements from an ArrayList.' 
 Subjects:
-  - 'Java'
-  - 'Data Structures'
+  - 'Code Foundations'
+  - 'Computer Science'
 Tags:
-  - 'Method'
-  - 'ArrayList'
+  - 'Arrays'
+  - 'Methods'
   - 'Java'
 CatalogContent:
   - 'learn-java'
-  - 'paths/java-developer'
+  - 'paths/computer-science'
 ---
 
-The **`.clear()`** method removes all elements from an [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list) in Java. 
-
-## Syntax
+The **`.clear()`** method in Java removes all elements from the [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list). 
 All elements of an instance of `ArrayList` can be cleared by passing the `.clear()` method. After invoking this method, the list will be empty, but the `ArrayList` instance remains with its current capacity unchanged. It does not return anything but rather empties the list.
 
+## Syntax
+
 ```pseudo
-arrayListInstance.clear();
+myArrayList.clear();
 ```
 
 ## Example
@@ -43,6 +43,29 @@ public class Main {
     }
 }
 ```
+
+echo 'import java.util.ArrayList;
+
+public class Main {
+    public static void main(String[] args) {
+        // Create an ArrayList
+        ArrayList<String> fruits = new ArrayList<>();
+        fruits.add("Apple");
+        fruits.add("Banana");
+        fruits.add("Cherry");
+
+        // Clear the ArrayList
+        fruits.clear();
+
+        // Print the ArrayList after clearing
+        System.out.println("Fruits after clear(): " + fruits);  // Output: Fruits after clear(): []
+    }
+}' > Main.java
+
+javac Main.java
+java Main
+
+
 ## Codebyte Example
 
 The example below shows the `.clear()` method being used to clear an `ArrayList` called `participant_ages`.
@@ -67,3 +90,4 @@ public class Main {
     }
 }
 ```
+
