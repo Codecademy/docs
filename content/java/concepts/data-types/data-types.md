@@ -19,16 +19,18 @@ In Java, each variable has a property known as its data type which determines wh
 
 Java’s most basic data types are known as primitive data types and are in the system by default.
 
-The available types are as follows:
+The primitive data types in java are listed in the table below:
 
-- `int`
-- `char`
-- `boolean`
-- `byte`
-- `long`
-- `short`
-- `double`
-- `float`
+| Data Type | Size | Desription |
+| --- | --- | --- |
+|`int`| 32 bits | stores whole numbers (integers) using 32 bits of memory |
+|`char`| 16 bits | Character |
+|`boolean`| 8 bits | stores only two possible values: True and False |
+|`byte`| 8 bits | smallest whole number type, using only 8 bits memory |
+|`short`| 16 bits | Stores smaller whole numbers, saving memory compared to `int` |
+|`long`| 64 bits | Stores extremely large whole numbers that wouldn't fit in an `int` |
+|`double`| 64 bits | Stores decimal point numbers |
+|`float`| 32 bits | Similar to double but uses 32 bits of memory  |
 
 `null` is another, but it can only ever store the value null.
 
