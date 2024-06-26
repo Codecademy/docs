@@ -61,7 +61,7 @@ eddythefreedy9876@gmail.com
 
 Here is a codebyte example that demonstrates dot and bracket notation of property accessors:
 
-```codebyte/js
+```codebyte/javascript
 class Movie {
   constructor(title, director) {
     this._title = title;
