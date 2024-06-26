@@ -44,6 +44,7 @@ public class Main {
 }
 ```
 
+```sh
 echo 'import java.util.ArrayList;
 
 public class Main {
@@ -64,6 +65,7 @@ public class Main {
 
 javac Main.java
 java Main
+```
 
 
 ## Codebyte Example
