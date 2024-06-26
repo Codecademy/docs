@@ -72,7 +72,7 @@ This produces the following Output:
 
 As we can see, although the resulting lists are similar, the outputs' type differ.
 
-### 2D Array
+## Codebyte Example
 
 Run the following code to understand the working of the `.tolist()` method for converting a 2D NumPy array to a Python list:
 
