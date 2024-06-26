@@ -31,8 +31,6 @@ If `a.ndim` is 0, then since the depth of the nested list is 0, it will not be a
 
 The following examples create a `ndarray` named `arr` and convert it into a nested Python list `arr_list` using `.tolist()`. We give examples of a 1D array and a 2D array.
 
-### 1D Array
-
 For a 1D array, `arr.tolist()` is almost the same as `list(arr)`, except that `.tolist()` changes numpy scalars to Python scalars:
 
 ``` python
