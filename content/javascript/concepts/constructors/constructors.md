@@ -47,7 +47,7 @@ console.log('Car 2 is a ' + car2.year + ' ' + car2.make + ' ' + car2.model);
 
 ### Codebyte Example
 
-Here is a codebyte example that demonstrates the usage of the constructor function:
+Here is a codebyte example that demonstrates the usage of the `constructor` function:
 
 ```codebyte/js
 function Movie(title, director, yearReleased) {
