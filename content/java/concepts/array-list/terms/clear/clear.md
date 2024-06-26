@@ -13,8 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.clear()`** method in Java removes all elements from the [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list). 
-All elements of an instance of `ArrayList` can be cleared by passing the `.clear()` method. After invoking this method, the list will be empty, but the `ArrayList` instance remains with its current capacity unchanged. It does not return anything but rather empties the list.
+The **`.clear()`** method in Java removes all elements from an [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list). After invoking this method, the `ArrayList` will be empty, but its capacity remains unchanged. The method does not return a value; it simply empties the list.
 
 ## Syntax
 
@@ -23,6 +22,9 @@ myArrayList.clear();
 ```
 
 ## Example
+
+The example below shows the use of the `.clear()` method:
+
 ```java
 import java.util.ArrayList;
 
@@ -43,38 +45,10 @@ public class Main {
     }
 }
 ```
+
 Here is the output for the code above:
 
-```sh
-#output before array.clear function
-Output: Fruits: [Apple, Banana, Cherry]
-
-#output after array.clear function
+```shell
+Fruits: [Apple, Banana, Cherry]
 Fruits after clear(): []
 ```
-
-## Codebyte Example
-
-The example below shows the `.clear()` method being used to clear an `ArrayList` called `participant_ages`.
-
-```codebyte/java
-import java.util.ArrayList;
-
-public class Main {
-    public static void main(String[] args) {
-        // Create an ArrayList and add ages
-        ArrayList<String> participant_ages = new ArrayList<>();
-        participant_ages.add("15");
-        participant_ages.add("22");
-        participant_ages.add("21");
-        
-        System.out.println("Ages of participants are: " + participant_ages);  // Output: Fruits: [15, 22, 21]
-        
-        // Clear the ArrayList
-        participant_ages.clear();
-        
-        System.out.println("Ages of participants after clear(): " + participant_ages);  // Output: Ages of participants after clear: []
-    }
-}
-```
-
