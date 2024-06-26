@@ -90,8 +90,3 @@ arr_list = arr.tolist()
 print(arr_list)
 ```
 
-This produces the following Output:
-
-``` python
-[[1, 2, 3], [4, 5, 6]]
-```
