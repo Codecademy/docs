@@ -76,7 +76,7 @@ As we can see, although the resulting lists are similar, the outputs' type diffe
 
 For a 2D array, `.tolist()` applies recursively:
 
-``` python
+```codebyte/python
 import numpy as np
 
 # Creating a NumPy array
