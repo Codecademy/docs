@@ -15,7 +15,7 @@ CatalogContent:
 
 In Lua, **tables** are associative [Arrays](https://www.codecademy.com/resources/docs/lua/arrays). Values that are stored in a table can be referenced with numbers and keys.
 
-## Creating Tables
+## Syntax
 
 Table objects are created using a constructor expression, in this case, a pair of curly braces:
 
@@ -23,15 +23,27 @@ Table objects are created using a constructor expression, in this case, a pair o
 t = {}
 ```
 
-To add values to the table, use square brackets to set the key that's associated with the value:
+To initialize a table with predefined elements, insert values inside the curly braces and separated with commas:
+
+```lua
+t = {"element1", "element2", "element3"}
+```
+
+To initialize values with assigned keys, define the keys using square brackets and an equal sign `=`:
+
+```lua
+t = {["key1"] = "element1",
+     ["key2"] = "element2",
+     ["key2"] = "element3"}
+```
+
+To add values later in code, use square brackets again to set the key that's associated with the value:
 
 ```pseudo
 t[mykey] = myvalue
 ```
 
 Any data type other than `nil` can be used as a key.
-
-## Accessing Table Values
 
 After creating a table with a key-value pair(s), values are indexed through the associated keys using square brackets:
 
@@ -45,6 +57,37 @@ Values can also be accessed using dot notation:
 
 ```lua
 print(t.a) -- Output: 1
+```
+
+If no key was defined, use a numeric index:
+
+```lua
+t = {"a", "b", "c"}
+print(t[1]) -- Output: a
+```
+
+## Example
+
+```lua
+letters = {a, b, c}
+print(letters[3]) -- Output: c
+```
+
+## Codebyte Example
+
+```codebyte/lua
+cities = {
+  ["USA"] = "New York City",
+  ["Spain"] = "Barcelona",
+  ["Argentina"] = "Buenos Aires"
+}
+
+cities["UK"] = "Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch"
+
+print(cities["USA"])
+print(cities["Spain"])
+print(cities["Argentina"])
+print(cities["UK"])
 ```
 
 ## Table Functions
