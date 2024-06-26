@@ -74,7 +74,7 @@ As we can see, although the resulting lists are similar, the outputs' type diffe
 
 ### 2D Array
 
-For a 2D array, `.tolist()` applies recursively:
+Run the following code to understand the working of the `.tolist()` method for converting a 2D NumPy array to a Python list:
 
 ```codebyte/python
 import numpy as np
