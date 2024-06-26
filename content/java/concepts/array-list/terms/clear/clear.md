@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.clear()`** method in Java removes all elements from an [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list). After invoking this method, the `ArrayList` will be empty, but its capacity remains unchanged. The method does not return a value; it simply empties the list.
+The **`.clear()`** method in Java removes all elements from an [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list). After invoking this method, the `ArrayList` will be empty, but its capacity remains unchanged. The method does not return a value, it simply empties the list.
 
 ## Syntax
 
