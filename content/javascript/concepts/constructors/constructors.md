@@ -49,7 +49,7 @@ console.log('Car 2 is a ' + car2.year + ' ' + car2.make + ' ' + car2.model);
 
 Here is a codebyte example that demonstrates the usage of the `constructor` function:
 
-```codebyte/js
+```codebyte/javascript
 function Movie(title, director, yearReleased) {
   this.title = title;
   this.director = director;
@@ -97,7 +97,7 @@ console.log('Car 2 is a ' + car2.year + ' ' + car2.make + ' ' + car2.model);
 
 Here is a codebyte example that demonstrates the use of the `constructor` method:
 
-```codebyte/js
+```codebyte/javascript
 class Movie {
   constructor(title, director, yearReleased) {
     this.title = title;
