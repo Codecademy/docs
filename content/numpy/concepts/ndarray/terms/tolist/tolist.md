@@ -43,10 +43,10 @@ arr = np.uint32([1, 2])
 arr_list = list(arr)
 
 #Checking Output
-arr_list
+print(arr_list)
 
 # Checking Output's type 
-type(arr_list[0])
+print(type(arr_list[0]))
 
 # Converting the NumPy array to a Python list using .tolist()
 arr_tolist = arr.tolist()
