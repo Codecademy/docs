@@ -43,28 +43,14 @@ public class Main {
     }
 }
 ```
+Here is the output for the code above:
 
 ```sh
-echo 'import java.util.ArrayList;
+#output before array.clear function
+Output: Fruits: [Apple, Banana, Cherry]
 
-public class Main {
-    public static void main(String[] args) {
-        // Create an ArrayList
-        ArrayList<String> fruits = new ArrayList<>();
-        fruits.add("Apple");
-        fruits.add("Banana");
-        fruits.add("Cherry");
-
-        // Clear the ArrayList
-        fruits.clear();
-
-        // Print the ArrayList after clearing
-        System.out.println("Fruits after clear(): " + fruits);  // Output: Fruits after clear(): []
-    }
-}' > Main.java
-
-javac Main.java
-java Main
+#output after array.clear function
+Fruits after clear(): []
 ```
 
 ## Codebyte Example
