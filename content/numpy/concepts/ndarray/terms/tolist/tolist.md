@@ -52,10 +52,10 @@ print(type(arr_list[0]))
 arr_tolist = arr.tolist()
 
 #Checking Output
-arr_tolist
+print(arr_tolist)
 
 # Checking Output's type 
-type(arr_tolist[0])
+print(type(arr_tolist[0]))
 ```
 
 This produces the following Output:
