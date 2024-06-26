@@ -45,7 +45,7 @@ console.log('Car 2 is a ' + car2.year + ' ' + car2.make + ' ' + car2.model);
 // Output: Car 2 is a 2018 Ford Taurus
 ```
 
-## Codebyte Example
+### Codebyte Example
 
 Here is a codebyte example that demonstrates the usage of the `constructor` function:
 
