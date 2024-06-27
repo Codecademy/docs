@@ -48,6 +48,8 @@ array2 = [6, 5, 4, 2, 2]
 print ("\nOutput array : ", np.power(array1, array2))
 ```
 
+The code above generates the following output:
+
 ```shell
 2^3 is equal to 8
 
