@@ -87,8 +87,7 @@ Output:
 Using that same table, here is another operator invocation example.
 
 ```sql
-SELECT * from animals
-WHERE NOT species = 'lion'; 
+SELECT * FROM animals WHERE NOT species = 'lion';
 ```
 
 Output:
