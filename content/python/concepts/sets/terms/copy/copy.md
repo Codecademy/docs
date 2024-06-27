@@ -26,7 +26,7 @@ set.copy()
 
 ## Example
 
-This example creates a shallow copy of a simple set. 
+The following example demonstrates the usage of the `.copy()` method:
 
 ```py
 original_set = { 'First', 'Second', 'Third' }
