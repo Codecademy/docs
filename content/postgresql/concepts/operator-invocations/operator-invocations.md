@@ -71,8 +71,7 @@ Here's an example of operator invocations on data in the table `animals`.
 
 
 ```sql
-SELECT * from animals
-WHERE gender = 'female' AND age >= 4;
+SELECT * FROM animals WHERE gender = 'female' AND age >= 4;
 ```
 
 Output:
