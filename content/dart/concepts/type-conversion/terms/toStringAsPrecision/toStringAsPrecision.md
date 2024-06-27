@@ -16,18 +16,20 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Dart, **`.toStringAsPrecision()`** is an abstract method used to convert this number to a `double`. This method returns a string representation of that value with exact precision significant digits.
+In Dart, **`.toStringAsPrecision()`** is a method used to convert a number to a `double`. It returns a `string` representation of that value with a specified precision of significant digits.
 
 ## Syntax
 
 ```pseudo
-String toStringAsPrecision(int precision);
+number.toStringAsPrecision(int precision)
 ```
-The parameter `precision` must be an integer satisfying: 1 <= precision <= 21.
+
+- `number`: A double-precision floating-point number to be converted to a string representation.
+- `precision`: Specifies the number of significant digits in the resulting string representation of the double-precision floating-point number. It must be an integer between 1 and 21, inclusive.
 
 ## Example
 
-The following examples illustrate how the `.toStringAsPrecision()` method is utilized to convert this number to a double and returns a string representation of that value:
+The following example illustrates how the `.toStringAsPrecision()` method is utilized to convert this number to a double and returns a string representation of that value:
 
 ```dart
 void main() {
@@ -47,3 +49,5 @@ Output = 1.0
 Output = 1.00e+15
 Output = 1234567.00
 ```
+
+> **Note:**: To determine the type of the output at runtime, use the `.runtimeType` property.
