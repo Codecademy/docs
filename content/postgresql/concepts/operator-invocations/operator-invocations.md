@@ -15,7 +15,7 @@ CatalogContent:
 
 In PostgreSQL, **operator invocations** allow operations to be excuted on data in one or multiple tables in a database. They can be used to but are not limited to calculations, comparisons, joining and filtering. 
 
-Note: These are common operators, but there are many others avaiable to use. 
+> **Note:** These are common operators, but many others are available to use.
 
 ## Syntax
 
