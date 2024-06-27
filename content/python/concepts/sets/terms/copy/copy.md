@@ -37,7 +37,7 @@ new_set.add('Fourth')
 print(new_set)
 ```
 
-This would output the result:
+The above code produces the following output:
 
 ```shell
 # original_set
