@@ -44,16 +44,16 @@ WHERE column1 < 1000;
 ### Logical Operators
 
 ```pseudo
--- And
-SELECT * from table_name
+// AND
+SELECT * FROM table_name
 WHERE column1 >= 10 AND  column1 <= 1000;
 
--- Or
-SELECT * from table_name
+// OR
+SELECT * FROM table_name
 WHERE column1 = 'North' OR 'WEST';
 
--- Not
-SELECT * from table_name
+// NOT
+SELECT * FROM table_name
 WHERE NOT column1 = 'SOUTH';
 ```
 
