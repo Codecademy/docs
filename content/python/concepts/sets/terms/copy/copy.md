@@ -40,10 +40,7 @@ print(new_set)
 The above code produces the following output:
 
 ```shell
-# original_set
 {'First', 'Second', 'Third'}
-
-# new_set
 {'First', 'Second', 'Third', 'Fourth'}
 ```
 
