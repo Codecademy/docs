@@ -66,7 +66,7 @@ The following example creates a `namedtuple` instance from an iterable, then cha
 from collections import namedtuple
 
 numbers = [0, 1, 2]
-myNamedTuple = namedtuple('myNamedTuple', ['a', 'b', 'c'], defaults=[0, 2, 4])
+myNamedTuple = namedtuple('myNamedTuple', ['a', 'b', 'c'])
 myNamedTuple_numbers = myNamedTuple._make(numbers)
 
 print(myNamedTuple_numbers._fields)
@@ -76,6 +76,4 @@ print(myNamedTuple_numbers.c)
 print(myNamedTuple_numbers._asdict())
 print("---")
 print(myNamedTuple_numbers._replace(c=3))
-print("---")
-print(myNamedTuple._field_defaults)
 ```
