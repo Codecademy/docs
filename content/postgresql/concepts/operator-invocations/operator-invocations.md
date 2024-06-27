@@ -11,6 +11,8 @@ Tags:
 CatalogContent:
   - 'learn-sql'
   - 'paths/data-science-foundations'
+  - 'paths/analyze-data-with-sql'
+  - 'paths/design-databases-with-postgresql'
 ---
 
 In PostgreSQL, **operator invocations** allow operations to be executed on data in one or multiple tables in a database. They can be used for calculations, comparisons, joining, filtering, etc.
