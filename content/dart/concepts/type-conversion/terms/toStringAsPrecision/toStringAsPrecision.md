@@ -1,6 +1,6 @@
 ---
 Title: '.toStringAsPrecision()'
-Description: 'Converts a number to a double and returns a string representation with the given precision significant digits.'
+Description: 'Converts a number to a double and returns a string representation with the specified number of significant digits.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
