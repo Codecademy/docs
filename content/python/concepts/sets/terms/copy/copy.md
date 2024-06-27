@@ -1,6 +1,6 @@
 ---
 Title: '.copy()'
-Description: 'Returns a copy of a specified set.'
+Description: 'Returns a shallow copy of a specified set.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
