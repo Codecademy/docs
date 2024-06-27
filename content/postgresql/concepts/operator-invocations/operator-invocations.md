@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-In PostgreSQL, **operator invocations** allow operations to be excuted on data in one or multiple tables in a database. They can be used to but are not limited to calculations, comparisons, joining and filtering. 
+In PostgreSQL, **operator invocations** allow operations to be executed on data in one or multiple tables in a database. They can be used for calculations, comparisons, joining, filtering, etc.
 
 > **Note:** These are common operators, but many others are available to use.
 
