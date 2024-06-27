@@ -22,7 +22,7 @@ The **`.copy()`** method returns a shallow copy of a specified set. The shallow 
 set.copy()
 ```
 
-- The `.copy()` method has no arguments.
+- `set`: The set to be copied.
 
 ## Example
 
