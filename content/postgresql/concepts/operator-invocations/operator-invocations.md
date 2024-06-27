@@ -1,6 +1,6 @@
 ---
 Title: 'Operator Invocations'
-Description: 'The execution of operations on data.'
+Description: 'Used to perform operations on the data using operators.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
