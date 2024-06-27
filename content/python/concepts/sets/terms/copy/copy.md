@@ -48,7 +48,7 @@ The above code produces the following output:
 
 ## Codebyte Example
 
-Run the following code to understand how the **`.copy()`** method works:
+The following codebyte example demonstrates the usage of the `.copy()` method:
 
 ```codebyte/python
 original_set = {'apple', 'banana', 'cherry'}
