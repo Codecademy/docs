@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.copy()`** method returns a copy of an original set. It references the elements in the original set and can be used when it is important to work with the new set and not modify the original set.
+The **`.copy()`** method returns a shallow copy of a specified set. The shallow copy is a new set that contains references to the elements in the original set, not the elements themselves. It can be used when it is important to work with the new set without modifying the original set.
 
 ## Syntax
 
