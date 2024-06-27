@@ -44,7 +44,7 @@ The above code produces the following output:
 {'First', 'Second', 'Third', 'Fourth'}
 ```
 
-Note: Unlike lists, a set element has no order or index. The ouput of this result is shown in order, but the result can be different. 
+> Note: Unlike [lists](https://www.codecademy.com/resources/docs/python/lists), a set element has no order or index. Hence, though the elements in the output are shown in order, they can be placed differently in other cases.
 
 ## Codebyte Example
 
