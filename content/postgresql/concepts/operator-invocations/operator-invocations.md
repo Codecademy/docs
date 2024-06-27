@@ -24,20 +24,20 @@ In PostgreSQL, **operator invocations** allow operations to be executed on data 
 ### Comparison Operators
 
 ```pseudo
---Equal
-SELECT * from table_name
+// Equal to
+SELECT * FROM table_name
 WHERE column1 = 'North';
 
---Not Equal
-SELECT * from table_name
-WHERE column1 = column2;
+// Not Equal to
+SELECT * FROM table_name
+WHERE column1 != column2;
 
--- Greater Than (or Equal To)
-SELECT * from table_name
+// Greater than
+SELECT * FROM table_name
 WHERE column1 > 10;
 
--- Less Than (or Equal To)
-SELECT * from table_name
+// Less than
+SELECT * FROM table_name
 WHERE column1 < 1000;
 ```
 
