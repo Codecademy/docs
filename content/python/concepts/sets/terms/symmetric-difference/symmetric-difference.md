@@ -5,10 +5,10 @@ Subjects:
   - 'Discrete Math'
   - 'Data Visualization'
 Tags:
-  - 'elements'
-  - 'methods'
-  - 'sets'
-  - 'math'
+  - 'Elements'
+  - 'Methods'
+  - 'Sets'
+  - 'Math'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/finance-python'
@@ -24,7 +24,6 @@ set1.symmetric_difference(set2)
 
 - `set1`: The set on which the method is applied.
 - `set2`: The set to be compared to `set1`.
-
 
 The `^` [operator](https://www.codecademy.com/resources/docs/python/operators) can also be used instead of the `.symmetric_difference()` method:
 
@@ -44,6 +43,7 @@ shorthair_cat_breeds = {'bengal', 'british shorthair', 'chartreux', 'russian blu
 lazy_cat_breeds = {'british shorthair', 'chartreux', 'persian', 'ragdoll', 'russian blue'}
 
 unique_cat_breeds = shorthair_cat_breeds.symmetric_difference(lazy_cat_breeds)
+
 print(unique_cat_breeds)
 ```
 
@@ -53,11 +53,9 @@ The above code produces the following output:
 {'bengal', 'siamese', 'persian', 'ragdoll'}
 ```
 
-
 ## Codebyte Example
 
-Suppose Jaya and Denise have a collection of teas in their apartment. Since both of them are now moving out, they want to take some teas with them.
-Here, the `.symmetric_difference()` method can be used to compare their teas and get a list of the ones that are only loved by either of them:
+Suppose Jaya and Denise have a collection of teas in their apartment. Since both of them are now moving out, they want to take some teas with them. Here, the `.symmetric_difference()` method can be used to compare their teas and get a list of the ones that are only loved by either of them:
 
 ```codebyte/python
 jaya_teas = {'earl grey', 'rooibos', 'peppermint', 'english breakfast'}
