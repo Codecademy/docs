@@ -25,10 +25,9 @@ Or, the alternative syntax is:
 ```pseudo
 set |= iterable
 ```
-
-- The `.update()` method can be called directly against `set` with multiple `iterable` passed as arguments.
-- `iterable` can be a `set`, `tuple`, `list` or `dictionary`.
-- Optionally,the `|=` can be used as a shortcut of `update()` and the `|` [operator](https://www.codecademy.com/resources/docs/python/operators) can be used between `iterable1`, `iterable2` where it will return the same result as the `.update()` method.
+```pseudo
+Note: The .update() method in Python allows updating a set directly with multiple iterable objects passed as arguments.
+```
 
 ## Example
 
