@@ -70,11 +70,9 @@ function canEdit(userRole) {
   return userRole === UserRoles.ADMIN || userRole === UserRoles.EDITOR;
 }
 
-
 console.log(canEdit(UserRoles.ADMIN));  
 console.log(canEdit(UserRoles.EDITOR)); 
 console.log(canEdit(UserRoles.VIEWER)); 
-
 
 Object.keys(UserRoles).forEach((role) =>
   console.log('role:', role)
