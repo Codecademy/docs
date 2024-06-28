@@ -59,7 +59,7 @@ eddythefreedy9876@gmail.com
 
 ## Codebyte Example
 
-Here is a codebyte example that demonstrates dot and bracket notation of property accessors:
+Here is a codebyte example that demonstrates the dot and bracket notation of property accessors:
 
 ```codebyte/javascript
 class Movie {
