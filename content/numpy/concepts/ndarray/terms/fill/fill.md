@@ -1,6 +1,6 @@
 ---
 Title: '.fiil()' 
-Description: 'Fill the NumPy array with a scalar value.' 
+Description: 'Fills the NumPy array with a specified scalar value.' 
 Subjects: 
   - 'Code Foundations'
   - 'Computer Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`ndarray.fill()`** method in Python is used to fill the NumPy array with a scalar value.
+The **`.fill()`** method in Python is used to fill a NumPy array with a scalar value.
 
 ## Syntax
 ```pseudo
@@ -22,12 +22,12 @@ ndarray.fill(value)
 ```
 ## Parameters
 
-value : *scalar* All elements of array are assigned this value.
+- `value`: The scalar value to assign to all elements of the array
 
 
 ## Example 1
 
-- assuming we imported `numpy` and created one dimenson `numpy` array with the following code snippet:
+In this example, the `.fill()` method sets all elements of the one-dimensional array `nf` to 27980:
 
 ```py
 # import NumPy 
@@ -37,51 +37,19 @@ import numpy as a
 nf = a.arange(12)
   
 # Use fill() method
-nf.fill(100)
+nf.fill(27980)
 
 print(nf)
 ```
 
 we will get the following result;
 ```shell
-[100 100 100 100 100 100 100 100 100 100 100 100]
+[27980 27980 27980 27980 27980 27980 27980 27980 27980 27980 27980 27980]
 ```
 
-## Example 2
--  We can also create a NumPy array for 2 dimensions as show below;
+## Codebyte Example
 
-```py
-import numpy as a
-
-# For two dimension array
-nf = a.array([[5,6], [7,8]])
-
-print (nf)
-```
-
-and the following outcome will be printed;
-```shell
-[[5 6]
-[7 8]]
-```
- 
- ## Example 3
-
-- Then to fill all the array with the same value, this is where `.fill()` comes into picture as in shown below
-
-```py
-import numpy as a
-
-nf = a.array([[5,6], [7,8]])
-
+import numpy as np
+nf = np.array([[5,6], [7,8]])
 nf.fill(985)
-
-print(nf)
-```
-
-The following result will be shown.
-```shell
-[[985 985]
-[985 985]]
-```
-
+print (nf)
