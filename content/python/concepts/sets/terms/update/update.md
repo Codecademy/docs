@@ -1,12 +1,11 @@
 ---
 Title: '.update()'
-Description: 'Updates the current set, by adding items from another iterable(set, list, tuple or dictionary), removing any duplicates.'
+Description: 'Updates the original set by adding elements from another set.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
   - 'Collections'
-  - 'Functions'
   - 'Methods'
   - 'Sets'
 CatalogContent:
