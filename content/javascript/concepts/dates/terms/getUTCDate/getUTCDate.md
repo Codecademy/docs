@@ -35,3 +35,4 @@ This results in the following output:
 ```shell
 1
 ```
+.
