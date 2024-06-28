@@ -32,7 +32,7 @@ set |= iterable
 
 ## Example
 
-In the example below, two sets of `set1`, `set2` are created. Then, the `update()` method is called on `set1` with `set2` as the argument:
+In the example below, two sets, `set1` and `set2`, are created. The `.update()` method is then called on `set1`, with `set2` as the argument:
 
 ```py
 set1 = {1, 2, 3}
