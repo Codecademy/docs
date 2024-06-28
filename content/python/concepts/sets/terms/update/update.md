@@ -25,9 +25,7 @@ Or, the alternative syntax is:
 ```pseudo
 set |= iterable
 ```
-```pseudo
-Note: The `.update()` method in Python allows updating a set directly with multiple iterable objects passed as arguments.
-```
+> **Note**: The `.update()` method in Python allows updating a set directly with multiple iterable objects passed as arguments.
 
 ## Example
 
