@@ -128,7 +128,7 @@ public class HelloWorld
         StringComparison strCmp = StringComparison.InvariantCultureIgnoreCase;
 
         int result = baseString.LastIndexOf(compareStr, startIndex, strCmp);
-        Console.WriteLine("Search using starting position & string comparision: {0}", result.ToString());
+        Console.WriteLine("Search using starting position & string comparison: {0}", result.ToString());
     }
 }
 ```

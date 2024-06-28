@@ -49,4 +49,4 @@ Suppose that an article with a long and important quote is being written for a w
 </html>
 ```
 
-![Output of the blockquoate tag example](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-block-quote-tag.png)
+![Output of the blockquote tag example](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-block-quote-tag.png)

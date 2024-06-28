@@ -37,7 +37,7 @@ It will be ignored by the compiler.
 
 ## Example
 
-Here's a whole Emojicode programe with comments:
+Here's a whole Emojicode program with comments:
 
 ```shell
 💭🔜

@@ -96,7 +96,7 @@ modelY.drive()
 
 ### Accessing Superclass Method After Override
 
-If the superclass version of the method needs to be accessed in the overidden version, the `super` keyword can be used:
+If the superclass version of the method needs to be accessed in the overridden version, the `super` keyword can be used:
 
 ```swift
 class Tesla: Car {

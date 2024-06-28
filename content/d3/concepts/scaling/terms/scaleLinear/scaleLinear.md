@@ -23,7 +23,7 @@ d3.scaleLinear()
   .range([minOutput, maxOutput]);
 ```
 
-- `.scaleLinear()`: The method that creates a linear scale for continious mapping.
+- `.scaleLinear()`: The method that creates a linear scale for continuous mapping.
 - `.domain()`: Requires the `minValue` and `maxValue` arguments to set the accepted range.
 - `.range()`: The second step in defining a scale, the arguments `minOutput` and `maxOutput` are used to specify the output range of the scale.
 

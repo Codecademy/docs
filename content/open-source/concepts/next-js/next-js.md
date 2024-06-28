@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-[**Next.js**](https://nextjs.org) is an open-source development [framework](https://www.codecademy.com/resources/docs/general/framework) that brings the best of [React's](https://www.codecademy.com/resources/docs/react) client-side functionality to the [server-side](https://www.codecademy.com/resources/docs/general/server-side-rendering) when building web applicatons.
+[**Next.js**](https://nextjs.org) is an open-source development [framework](https://www.codecademy.com/resources/docs/general/framework) that brings the best of [React's](https://www.codecademy.com/resources/docs/react) client-side functionality to the [server-side](https://www.codecademy.com/resources/docs/general/server-side-rendering) when building web applications.
 
 Additionally, Next.js comes with built-in features including the following:
 
