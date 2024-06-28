@@ -40,3 +40,4 @@ This results in the following output:
 const myDate = new Date('2024-06-12');
 console.log(myDate.getUTCDate());
 ```
+.
