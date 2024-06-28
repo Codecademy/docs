@@ -1,79 +1,69 @@
 ---
 Title: '.symmetric_difference()'
-Description: 'Returns elements which occur in only one set and are not shared by two sets.'
-Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
+Description: 'Returns elements that occur in either of the two sets provided.'
+Subjects:
   - 'Discrete Math'
   - 'Data Visualization'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
+Tags:
+  - 'elements'
   - 'methods'
   - 'sets'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
-  - 'learn-python-2'
+  - 'math'
+CatalogContent:
   - 'learn-python-3'
   - 'paths/finance-python'
 ---
 
-The **.symmetric_difference()** method is a mathematical method from the branch of set theory. From two sets it returns a set of the values which occur in one and only one set. This method can be used on finite sets.
+In Python, the **`.symmetric_difference()`** method is a mathematical method from the branch of set theory. This method, used on finite sets, compares one set to another and returns a set of values that occur in either of those two sets.
 
 ## Syntax
 
-Start with two sets.
-
-```
-set 1 = {4, 5, 6, 7}
-
-set 2 = {2, 6, 7, 8}
+```pseudo
+set1.symmetric_difference(set2)
 ```
 
-Return the method to a variable and print it. The method takes only one argument.
+- `set1`: The set on which the method is applied.
+- `set2`: The set to be compared to `set1`.
 
-```
-sd = set2.symmetric_difference(set1)
-print(sd)
-```
 
-The output shows the integers that occur in either set 1 or set 2 but not in both sets.
+The `^` [operator](https://www.codecademy.com/resources/docs/python/operators) can also be used instead of the `.symmetric_difference()` method:
 
-```
-{2, 4, 5, 8}
-```
-
-Alternatively, use the operator `^` instead of `.symmetric_difference()`
-
-### Shorthand Syntax
-
-```
-sd= set 1 ^ set 2
+```pseudo
+set1 ^ set2
 ```
 
 ## Example
 
-To use a real-world example, imagine that someone wants to get a cat. They want to make time to brush the cat or play with the cat, but not both. 
+Suppose John wants to get a cat. However, he only wants to make time to brush the cat or play with the cat. Therefore, the cat should either be short-haired or lazy.
 
-Therefore the cat should either be shorthair or lazy. They have the following lists of cat breeds.
-```
+In this case, the `.symmetric_difference()` method can be used to compare the cat breeds that come under each category and retrieve a list of the ones that only fall under either of these categories:
+
+```py
 shorthair_cat_breeds = {'bengal', 'british shorthair', 'chartreux', 'russian blue', 'siamese'}
 
 lazy_cat_breeds = {'british shorthair', 'chartreux', 'persian', 'ragdoll', 'russian blue'}
+
+unique_cat_breeds = shorthair_cat_breeds.symmetric_difference(lazy_cat_breeds)
+print(unique_cat_breeds)
 ```
 
-Using the symmetric difference method, the prospective cat owner can consider the following breeds.
+The above code produces the following output:
 
-```
+```shell
 {'bengal', 'siamese', 'persian', 'ragdoll'}
 ```
 
+
 ## Codebyte Example
 
-Try it yourself!
-
-Jaya and Denise have a collection of teas at their apartment. They are both moving out and would like to take some teas with them. They can only take the teas that the other person doesn't like.
+Suppose Jaya and Denise have a collection of teas in their apartment. Since both of them are now moving out, they want to take some teas with them.
+Here, the `.symmetric_difference()` method can be used to compare their teas and get a list of the ones that are only loved by either of them:
 
 ```codebyte/python
 jaya_teas = {'earl grey', 'rooibos', 'peppermint', 'english breakfast'}
 denise_teas = {'jasmine', 'chamomile', 'rooibos', 'peppermint'}
 
-teas_to_go = jaya_teas ^ denise_teas
+teas_to_go = jaya_teas.symmetric_difference(denise_teas)
 
 print(teas_to_go)
 ```
