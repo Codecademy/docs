@@ -54,7 +54,7 @@ direction: west
 
 ## Codebyte Example
 
-This Codebyte example demonstrates the creation of an enum using `Object.freeze()`, how to use the enum values, and how to list all possible enum values.
+This codebyte example demonstrates the creation of an `enum` using `Object.freeze()`, how to use the enum values, and list all possible enum values:
 
 ```codebyte/javascript
 const UserRoles = Object.freeze({ 
