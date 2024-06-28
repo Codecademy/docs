@@ -37,4 +37,6 @@ In this example, we create a 2D array `arr` using NumPy. Then, we use the `flatt
 
 ## Conclusion
 
-The `flatten()` function in NumPy is a useful tool for reshaping multi-dimensional arrays into one-dimensional arrays. It simplifies complex arrays and makes them easier to work with. By understanding the syntax and usage of this function, you can effectively manipulate and analyze multi-dimensional arrays in your NumPy projects.
+1. The `flatten()` function in NumPy is a useful tool for reshaping multi-dimensional arrays into one-dimensional arrays.
+2. It simplifies complex arrays and makes them easier to work with.
+3. By understanding the syntax and usage of this function, you can effectively manipulate and analyze multi-dimensional arrays in your NumPy projects.
