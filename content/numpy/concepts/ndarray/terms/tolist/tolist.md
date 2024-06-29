@@ -1,10 +1,9 @@
 ---
 Title: '.tolist()'
-Description: 'Converts the array into a nested list of Python scalars.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
+Description: 'Converts an array into a nested list of Python scalars.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
-  - 'Web Development'
 Tags:
   - 'Arrays'
   - 'Data Structures'
@@ -15,66 +14,69 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.tolist()`** function in NumPy converts a NumPy array to a Python list, returning the array as a nested list. The function generates a copy of the array data as a (nested) Python list. Each element in the array is converted to the closest compatible built-in Python type using the `item` function. The attribute `a.ndim` represents the number of dimensions (axes) of the array. When `a.ndim` is 0, the result of the operation is a simple scalar, as the depth of the nested list is 0. 
+The **`.tolist()`** [function](https://www.codecademy.com/resources/docs/numpy) in NumPy converts an array into a nested Python [list](https://www.codecademy.com/resources/docs/python/lists) and returns it. Each element in the array is converted into the closest compatible built-in [Python](https://www.codecademy.com/resources/docs/python) type using the `.item()` function. The attribute `a.ndim` represents the number of dimensions (axes) of the array. When `a.ndim` is 0, the result of the operation is a simple scalar, as the depth of the nested list is 0.
 
 ## Syntax
 
-``` python
+```pseudo
 ndarray.tolist()
 ```
 
+- `ndarray`: The array to be converted.
+
 ## Example
 
-The following examples create an `ndarray` named `arr` and convert it into a nested Python list `arr_list` using `.tolist()`:
+The following example creates an `ndarray` named `arr` and converts it into a nested Python list `arr_list` using `.tolist()`:
 
-``` python
+```py
 import numpy as np
 
-# Creating Numpy array
+# Creating an array
 arr = np.uint32([1, 2])
 
-# Converting the NumPy array to a Python list using list()
+# Converting the array into a Python list using list()
 arr_list = list(arr)
 
-#Checking Output
+# Checking the output
 print(arr_list)
 
-# Checking Output's type 
+# Checking the output type
 print(type(arr_list[0]))
 
-# Converting the NumPy array to a Python list using .tolist()
+# Converting the array into a Python list using .tolist()
 arr_tolist = arr.tolist()
 
-#Checking Output
+# Checking the output
 print(arr_tolist)
 
-# Checking Output's type 
+# Checking the output type
 print(type(arr_tolist[0]))
 ```
 
-This produces the following Output:
+This produces the following output:
 
-``` python
+```shell
 [1, 2]
 <class 'numpy.uint32'>
 [1, 2]
 <class 'int'>
 ```
 
-As observed, although the resulting lists `[1, 2]` are similar, the types of their elements differ when using `.list()` versus `.tolist()`.
+As observed, although the resulting lists are similar, i.e., `[1, 2]`, the types of their elements differ when using `list()` versus `.tolist()`.
 
 ## Codebyte Example
 
-Run the following code to understand the working of the `.tolist()` function for converting a 2D NumPy array to a Python list:
+Here is a codebyte example to understand the working of the `.tolist()` function for converting a 2D array into a Python list:
 
 ```codebyte/python
 import numpy as np
 
-# Creating a NumPy array
+# Creating an array
 arr = np.array([[1, 2, 3], [4, 5, 6]])
 
-# Converting the NumPy array to a Python list
+# Converting the array into a Python list using .tolist()
 arr_list = arr.tolist()
 
+# Checking the output
 print(arr_list)
 ```
