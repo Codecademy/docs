@@ -20,7 +20,6 @@ The **`.fill()`** method in Python is used to fill a NumPy array with a scalar v
 ```pseudo
 ndarray.fill(value)
 ```
-## Parameters
 
 - `value`: The scalar value to assign to all elements of the array
 
@@ -37,14 +36,14 @@ import numpy as a
 nf = a.arange(12)
   
 # Use fill() method
-nf.fill(27980)
+nf.fill(2798)
 
 print(nf)
 ```
 
 we will get the following result;
 ```shell
-[27980 27980 27980 27980 27980 27980 27980 27980 27980 27980 27980 27980]
+[2798 2798 2798 2798 2798 2798 2798 2798 2798 2798 2798 2798]
 ```
 
 ## Codebyte Example
