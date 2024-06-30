@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.len()` function returns the complete number of characters contained in a string.
+The **`.len()`** method returns the number of characters that exist in a specific string.
 
 ## Syntax
 
