@@ -27,6 +27,8 @@ An empty string `""` would output `0`.
 
 ## Example
 
+The following example demonstrates the usage of the `.len()` method:
+
 ```lua
 town = "Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch"
 lenExample = string.len(town)
