@@ -63,25 +63,30 @@ Here is a codebyte example that demonstrates the dot and bracket notation of pro
 
 ```codebyte/javascript
 class Movie {
+// Constructor to initialize the movie object with a title and director
   constructor(title, director) {
     this._title = title;
     this._director = director;
   }
 
+
+  // Getter method to access the movie title
   get movieTitle() {
     return this._title;
   }
 
+  // Getter method to access the movie director
   get movieDirector() {
     return this._director;
   }
 }
 
+// Creating a new Movie instance
 const movie = new Movie('A Boy and His Dog', 'L.Q. Jones');
 
-// Accessing the movie title using the . accessor
+// Accessing the movie title using the dot(.) notation
 console.log(movie.movieTitle);
 
-// Accessing the movie director using the [] syntax
+// Accessing the movie director using the bracket [] notation
 console.log(movie['movieDirector']);
 ```
