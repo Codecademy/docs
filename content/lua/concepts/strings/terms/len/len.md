@@ -30,6 +30,8 @@ string.len(s)
 
 The following example demonstrates the usage of the `.len()` method:
 
+The following example demonstrates the usage of the `.len()` method:
+
 ```lua
 town = "Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch"
 lenExample = string.len(town)
