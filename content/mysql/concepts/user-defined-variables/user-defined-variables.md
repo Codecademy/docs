@@ -1,46 +1,48 @@
 ---
-Title: 'User Defined Variables'
-Description: 'Create variables that can be stored and retrieved during a session.'
+Title: 'User-Defined Variables'
+Description: 'Enables users to store and retrieve values during a specific session.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
+  - 'Database'
   - 'MySQL'
+  - 'Values'
   - 'Variables'
 CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
 ---
 
-In MySQL, **User-Defined Variables** are used to store and retrieve values during a specific session. They can be used to store intermediate results, pass data between statements, and enhance the functionality of MySQL queries. User-defined variables are **session-specific**, meaning that their values can only be used within the current session and will not be available in future sessions or stored in the database.
+In MySQL, **user-defined variables** can be used to store a value in a specific statement and later retrieve it in another statement. These variables can be useful for storing intermediate results, passing data between statements, and enhancing the functionality of MySQL queries. They are also _session-specific_, meaning that their values can only be used within the current session and will not be available in future sessions or stored in the database.
 
 ## Syntax
 
-To declare and use a user-defined variable in MySQL, follow the syntax below:
+The `SET` statement is used to declare a user-defined variable and assign a value to it. Then, the `SELECT` statement is used to retrieve the value of the variable:
 
 ```pseudo
 SET @variable_name = value;
 SELECT @variable_name;
 ```
 
-- `@variable_name`: the name of the variable defined by the user.
-
-The `SET` statement assigns a value to the user-defined variable, and the `SELECT` statement retrieves the value of the variable.
+- `variable_name`: The name of the variable defined by the user.
+- `value`: The value assigned to the variable.
 
 ## Example
 
 The following example demonstrates the use of a user-defined variable in MySQL:
 
 ```sql
--- Create a stocks table
+-- Create a table named 'stocks_table'
 CREATE TABLE stocks_table (
-        name VARCHAR(50),
-        price DECIMAL(10, 2)
+        name VARCHAR(30),
+        price DECIMAL(8, 2)
 );
 ```
 
+Then, some stocks are inserted into the table:
+
 ```sql
--- Insert stocks into the table
 INSERT INTO stocks_table (name, price)
 VALUES
 ('Alphabet', 589.45),
@@ -49,15 +51,14 @@ VALUES
 ('Tesla', 1089.25);
 ```
 
-```sql
--- Declare a variable to store the total number of stocks
-SET @total_products = (SELECT COUNT(*) FROM stocks_table);
+Next, a user-defined variable is declared to store the total number of stocks and then used to retrieve the stored result:
 
--- Retrieve the value of the variable
+```sql
+SET @total_products = (SELECT COUNT(*) FROM stocks_table);
 SELECT @total_products;
 ```
 
-The output of the SELECT statement will be:
+The output of the `SELECT` statement will be:
 
 | @total_products |
 | --------------- |
