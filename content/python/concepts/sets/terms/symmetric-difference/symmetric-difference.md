@@ -1,20 +1,21 @@
 ---
 Title: '.symmetric_difference()'
-Description: 'Returns elements that occur in either of the two sets provided.'
+Description: 'Returns elements that occur in either of the two sets but not in both.'
 Subjects:
+  - 'Code Foundations'
   - 'Discrete Math'
   - 'Data Visualization'
 Tags:
   - 'Elements'
   - 'Methods'
-  - 'Sets'
   - 'Math'
+  - 'Sets'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/finance-python'
 ---
 
-In Python, the **`.symmetric_difference()`** method is a mathematical method from the branch of set theory. This method, used on finite sets, compares one set to another and returns a set of values that occur in either of those two sets.
+In Python, the **`.symmetric_difference()`** method is a set operation that returns a new set containing elements that are in either of the two sets but not in both.
 
 ## Syntax
 
