@@ -36,7 +36,7 @@ lenExample = string.len(town)
 print(lenExample)
 ```
 
-Output:
+The above code produces the following output:
 
 ```shell
 58
