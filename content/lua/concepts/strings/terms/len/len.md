@@ -18,12 +18,13 @@ The **`.len()`** method returns the number of characters that exist in a specifi
 
 ## Syntax
 
-```shell
+```pseudo
 string.len(s)
 ```
-Replace `s` with your string.
 
-An empty string `""` would output `0`.
+- `s`: The string to be checked.
+
+> Note: If an empty string is inserted, the method returns `0`.
 
 ## Example
 
