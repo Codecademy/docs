@@ -1,4 +1,5 @@
-ACTUAL FILE:
+NEW ENTRY:
+
 ---
 Title: '.getUTCDate()'
 Description: 'Returns the day of the month for the provided date.'
@@ -36,3 +37,9 @@ This results in the following output:
 ```shell
 1
 ```
+
+```codebyte/javascript
+const myDate = new Date('2024-06-12');
+console.log(myDate.getUTCDate());
+```
+.
