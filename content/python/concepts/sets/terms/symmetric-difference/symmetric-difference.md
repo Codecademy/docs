@@ -12,7 +12,7 @@ Tags:
   - 'Sets'
 CatalogContent:
   - 'learn-python-3'
-  - 'paths/finance-python'
+  - 'paths/computer-science'
 ---
 
 In Python, the **`.symmetric_difference()`** method is a set operation that returns a new set containing elements that are in either of the two sets but not in both.
