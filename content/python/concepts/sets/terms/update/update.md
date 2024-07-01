@@ -12,7 +12,8 @@ CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
-The **`.update()`** [method](https://www.codecademy.com/resources/docs/java/methods) updates the current [set](https://www.codecademy.com/resources/docs/python/sets), by adding items from another iterable(set, list, tuple or dictionary), removing any duplicates.
+
+In Python, the **`.update()`** [method](https://www.codecademy.com/resources/docs/java/methods) updates the current [set](https://www.codecademy.com/resources/docs/python/sets), by adding items from another iterable(set, list, tuple or dictionary), removing any duplicates.
 
 ## Syntax
 
@@ -25,6 +26,7 @@ Or, the alternative syntax is:
 ```pseudo
 set |= iterable
 ```
+
 > **Note**: The `.update()` method in Python allows updating a set directly with multiple iterable objects passed as arguments.
 
 ## Example
@@ -48,6 +50,7 @@ print(set1)
 The output would be the following:
 
 ```shell
+{1, 2, 3, 4, 5}
 {1, 2, 3, 4, 5}
 ```
 
