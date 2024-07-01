@@ -27,6 +27,9 @@ Or, the alternative syntax is:
 set |= iterable
 ```
 
+- `set`: The set to which elements are to be added.
+- `iterable`: The collection of elements to be added to the `set`.
+
 > **Note**: The `.update()` method in Python allows updating a set directly with multiple iterable objects passed as arguments.
 
 ## Example
