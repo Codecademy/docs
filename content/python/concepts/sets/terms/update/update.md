@@ -40,7 +40,6 @@ In the example below, two sets, `set1` and `set2`, are created. The `.update()` 
 set1 = {1, 2, 3}
 set2 = {3, 4, 5}
 
-
 # Using the .update method to update set1 with set2
 set1.update(set2)
 print(set1)
