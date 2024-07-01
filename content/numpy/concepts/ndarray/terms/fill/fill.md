@@ -49,7 +49,11 @@ We will get the following result:
 
 ## Codebyte Example
 
+In the following code, a two-dimensional NumPy array `nf` is created with specified values and filled entirely with 985, then printed:
+
+```codebyte/python
 import numpy as np
 nf = np.array([[5,6], [7,8]])
 nf.fill(985)
 print (nf)
+```
