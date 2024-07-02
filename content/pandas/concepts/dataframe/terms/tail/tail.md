@@ -20,31 +20,22 @@ In Pandas, **`.tail()`** is a method that returns the last `n` rows of a [DataFr
 ```pseudo
 DataFrame.tail(n=5)
 ```
-
-The parameter `n` specifies the number of rows to return. The default value is `n=5`.
++ **DataFrame**: The Pandas data structure on which the method is called.
++ **n**: Number of rows to return from the end of the DataFrame. The default value is 5.
 
 ## Example
 
 ```py
 import pandas as pd
 
-# Create a DataFrame
-df = pd.DataFrame({'A': [1, 2, 3, 4, 5, 6], 'B': [7, 8, 9, 10, 11, 12]})
+# Create a sample DataFrame
+data = {
+    'Name': ['Alice', 'Bob', 'Charlie', 'David', 'Eve', 'Frank', 'Grace'],
+    'Age': [24, 30, 22, 40, 35, 23, 29]
+}
 
-# View the last 3 rows of the DataFrame
-last_three_rows = df.tail(3)
+df = pd.DataFrame(data)
 
-# Print the last 3 rows
-print(last_three_rows)
+# Get the last 2 rows of the DataFrame
+df.tail(2)
 ```
-
-The output of the code above will be:
-
-```shell
-   A   B
-3  4  10
-4  5  11
-5  6  12
-```
-
-By using the `.tail()` method, the end of a DataFrame can be previewed, which can be useful for inspecting the most recent data in a dataset.
