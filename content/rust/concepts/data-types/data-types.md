@@ -1,11 +1,10 @@
 ---
-Title: 'Data Types in Rust'
-Description: 'An overview of data types in Rust, including scalar and compound types.'
+Title: 'Data Types'
+Description: 'Data types specify the kind of data variables can hold.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
-  - 'Rust'
   - 'Data Types'
 CatalogContent:
   - 'rust-for-programmers'
