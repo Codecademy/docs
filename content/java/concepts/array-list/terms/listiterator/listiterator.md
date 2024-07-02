@@ -1,6 +1,6 @@
 ---
 Title: '.listIterator()'
-Description: 'Returns a ListIterator over the elements in ArrayList.'
+Description: 'Iterates over the elements in an ArrayList in both directions.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
