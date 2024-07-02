@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-In Pandas, **`.tail()`** is a method that returns the last n rows of a DataFrame. By default, it returns the last 5 rows, but the number of rows can be adjusted by passing an integer argument to the method.
+In Pandas, **`.tail()`** is a method that returns the last `n` rows of a [DataFrame](https://www.codecademy.com/resources/docs/pandas/dataframe). By default, it returns the last 5 rows, but the number of rows can be adjusted by passing an integer argument to the method.
 
 ## Syntax
 
