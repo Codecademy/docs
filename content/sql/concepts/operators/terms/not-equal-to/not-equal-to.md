@@ -1,6 +1,6 @@
 ---
 Title: 'Not Equal To Operator'
-Description: 'The Not Equal To operator in SQL is used to compare two values and returns true if they are not equal.'
+Description: 'Compares two values and returns true if they are not equal.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
