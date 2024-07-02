@@ -6,6 +6,7 @@ Subjects:
   - 'Data Science'
 Tags:
   - 'Collections'
+  - 'Elements'
   - 'Methods'
   - 'Sets'
 CatalogContent:
@@ -13,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Python, the **`.update()`** [method](https://www.codecademy.com/resources/docs/java/methods) updates the current [set](https://www.codecademy.com/resources/docs/python/sets), by adding items from another iterable(set, list, tuple or dictionary), removing any duplicates.
+In Python, the **`.update()`** method updates the current set by adding items from another iterable, such as a set, [list](https://www.codecademy.com/resources/docs/python/lists), [tuple](https://www.codecademy.com/resources/docs/python/tuples), or [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries). It also removes any duplicates, ensuring that all the elements in the original set occur only once.
 
 ## Syntax
 
@@ -28,9 +29,9 @@ set |= iterable
 ```
 
 - `set`: The set to which elements are to be added.
-- `iterable`: The collection of elements to be added to the `set`.
+- `iterable`: The collection of elements to be added to `set`.
 
-> **Note**: The `.update()` method in Python allows updating a set directly with multiple iterable objects passed as arguments.
+> Note: The `.update()` method in Python allows updating a set directly with multiple iterable objects passed as arguments.
 
 ## Example
 
@@ -40,11 +41,11 @@ In the example below, two sets, `set1` and `set2`, are created. The `.update()` 
 set1 = {1, 2, 3}
 set2 = {3, 4, 5}
 
-# Using the .update method to update set1 with set2
+# Using the '.update()' method to update 'set1' with 'set2'
 set1.update(set2)
 print(set1)
 
-# Using the alternative syntax to update set1 with set2
+# Using the alternative syntax to update 'set1' with 'set2'
 set1 |= set2
 print(set1)
 ```
@@ -58,7 +59,7 @@ The output would be the following:
 
 ## Codebyte Example
 
-In this example, when updating a set `set1` with a dictionary `dict1`, only the `keys` of the dictionary are added to the set:
+In this example, when updating a set `set1` with a dictionary `dict1`, only the keys of the dictionary are added to the set:
 
 ```codebyte/python
 set1 = {1, 2, 3}
