@@ -1,5 +1,5 @@
 ---
-Title: '.copy()'
+Title: '.tail()'
 Description: 'Returns the last n rows of a DataFrame.'
 Subjects:
   - 'Computer Science'
