@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Rust, data types classify the types of values that can be used and manipulated within a program. Rust's type system ensures that data types are known at compile time, which helps catch errors early.
+In Rust, **data types** classify the types of values that can be used and manipulated within a program. Rust's type system ensures that data types are known at compile time, which helps catch errors early.
 
 ## Scalar Types
 
