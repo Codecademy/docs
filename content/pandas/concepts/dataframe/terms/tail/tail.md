@@ -18,7 +18,7 @@ In Pandas, **`.tail()`** is a method that returns the last `n` rows of a [DataFr
 ## Syntax
 
 ```pseudo
-df_tail = df.tail(n=5)
+DataFrame.tail(n=5)
 ```
 
 The parameter `n` specifies the number of rows to return. The default value is `n=5`.
