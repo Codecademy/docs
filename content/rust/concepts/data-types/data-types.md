@@ -17,7 +17,7 @@ In Rust, data types classify the types of values that can be used and manipulate
 ## Scalar Types
 
 Rust has four primary scalar types:
-- **Integers**: Represent whole numbedata-types.mdrs. Examples include `i32`, `u32`, `i64`, etc.
+- **Integers**: Represent whole numbers. Examples include `i32`, `u32`, `i64`, etc.
 - **Floating-Point Numbers**: Represent numbers with fractional components. Examples include `f32`, `f64`.
 - **Booleans**: Represent true or false values, using the `bool` type.
 - **Characters**: Represent single Unicode characters, using the `char` type.
