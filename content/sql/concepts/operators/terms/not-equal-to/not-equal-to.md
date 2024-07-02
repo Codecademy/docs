@@ -26,6 +26,7 @@ WHERE column_name <> value;
 SELECT column1, column2, ...
 FROM table_name
 WHERE column_name != value;
+```
 
 ## Example
 
@@ -35,3 +36,4 @@ The given query will select all employees who are not in the 'Sales' department 
 SELECT *
 FROM employees
 WHERE department <> 'Sales';
+```
