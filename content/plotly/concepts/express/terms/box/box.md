@@ -17,7 +17,7 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-A box plot is a statistical representation of the distribution of a variable through its quartiles. The ends of the box represent the lower and upper quartiles, while the median(second quartile) is marked by a line inside the box. In Plotly, the **`.box()`** method is part of the high-level interface named `plotly.express`. It can create a box plot for one as well as two variables.
+A box plot is a visual representation of the distribution of numeric data through quartiles. It uses boxes and lines to depict the distributions of one or more groups of numeric data. The box limits indicate the range of the central 50% of the data, with a central line marking the median value. In Plotly, the **`.box()`** method is present in the `plotly.express` high-level interface, is used to make box plots with one or two variables.
 
 ## Syntax
 
@@ -39,7 +39,7 @@ plotly.express.box(data_frame=None, x=None, y=None, color=None, labels=None, tit
 Below are two examples that show how to use the `.box()` method to create box plots.
 
 ```py
-# Importing plot.express as px
+# Importing plotly.express as px
 import plotly.express as px
 
 # Loading a built-in data frame
