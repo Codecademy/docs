@@ -23,33 +23,26 @@ The syntax for using the `.flatten()` function is as follows:
 ```pseudo
 ndarray.flatten(order='C')
 ```
+Parameters in pseudo:
+    ndarray: The input array to be flattened.
+    order: The order in which the array is flattened. It can be:
+    'C': Row-major (C-style) order.
+    'F': Column-major (Fortran-style) order.
+    'A': Flatten in column-major order if the array is Fortran contiguous in memory, row-major order otherwise.
+    'K': Flatten the array in the order the elements occur in memory (keep the order).
 
-Here, `array` refers to the multi-dimensional array that you want to flatten. The `order` parameter is optional and specifies the order in which the elements of the array should be flattened. The default value is `'C'`, which means the elements are flattened in row-major (C-style) order.
+Here, `ndarray` refers to the multi-dimensional array that you want to flatten. The `order` parameter is optional and specifies the order in which the elements of the array should be flattened. The default value is `'C'`, which means the elements are flattened in row-major (C-style) order.
 
-## Example
+## Codebyte Example
+  import numpy as np
 
-Let's take a look at an example to understand how the `.flatten()` function works:
+  #Creating a 2D array
+  array_2d = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 
-```python
-import numpy as np
+  #Flattening the 2D array to a 1D array
+  flattened_array = array_2d.flatten()
 
-# Create a 2D array
-arr = np.array([[1, 2, 3], [4, 5, 6]])
+  print(flattened_array)
 
-# Flatten the array
-flattened_arr = arr.flatten()
 
-print(flattened_arr)
-```
 
-The code above produces the following output:
-
-```shell
-[1 2 3 4 5 6]
-```
-
-In this example, a 2D array `arr` is created using NumPy. The `.flatten()` function is then used to convert the array into a one-dimensional array `flattened_arr`. The output of the flattened array is then printed.
-
-## Conclusion
-
-The `flatten()` function in NumPy is a useful tool for reshaping multi-dimensional arrays into one-dimensional arrays. It simplifies complex arrays and makes them easier to work with. By understanding the syntax and usage of this function, you can effectively manipulate and analyze multi-dimensional arrays in your NumPy projects.
