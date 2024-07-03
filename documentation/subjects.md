@@ -18,6 +18,8 @@ iOS
 Machine Learning
 Mobile Development
 Networking
+Technical writing
+UX Writing for software
 Web Design
 Web Development
 AI
