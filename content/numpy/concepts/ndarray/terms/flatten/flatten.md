@@ -20,7 +20,7 @@ The **`.flatten()`** function in NumPy is a powerful tool for reshaping multi-di
 
 The syntax for using the `.flatten()` function is as follows:
 
-```python
+```pseudo
 array.flatten(order='C')
 ```
 
