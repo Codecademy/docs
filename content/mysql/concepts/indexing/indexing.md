@@ -27,7 +27,7 @@ Indexes are created on columns in a table. When an index is created on a column,
 2. **Unique Index**: Ensures that all values in a column are unique.
 3. **Regular Index**: Speeds up retrieval but allows duplicate values.
 4. **Full-text Index**: Used for full-text searches.
-5. **Spatial Index**: Used for spatial data types.
+5. **Composite Index**: Optimizes queries involving multiple columns.
 
 ## Creating Indexes
 
@@ -44,6 +44,7 @@ CREATE TABLE employees (
     INDEX (last_name)
 );
 ```
+
 In this example, an index is created on the `last_name` column.
 
 ### Creating Indexes on an Existing Table
@@ -132,7 +133,11 @@ CREATE TABLE products (
 INSERT INTO products (name, category, price, stock) VALUES
 ('Laptop', 'Electronics', 999.99, 50),
 ('Smartphone', 'Electronics', 699.99, 100),
-('Desk', 'Furniture', 199.99, 20);
+('Desk', 'Furniture', 199.99, 20),
+('Tablet', 'Electronics', 299.99, 75),
+('Headphones', 'Electronics', 199.99, 150),
+('Monitor', 'Electronics', 179.99, 80),
+('Sofa', 'Furniture', 499.99, 10);
 ```
 
 ### Querying with Index
@@ -140,6 +145,16 @@ INSERT INTO products (name, category, price, stock) VALUES
 ```sql
 SELECT * FROM products WHERE category = 'Electronics' AND price < 800;
 ```
+#### Expected Output
+
+Based on the inserted sample data, the query will return the rows where the category is 'Electronics' and the price is less than 800. Here is the expected output:
+
+| product_id | name       | category    | price  | stock |
+|------------|------------|-------------|--------|-------|
+| 2          | Smartphone | Electronics | 699.99 | 100   |
+| 4          | Tablet     | Electronics | 299.99 | 75    |
+| 5          | Headphones | Electronics | 199.99 | 150   |
+| 6          | Monitor    | Electronics | 179.99 | 80    |
 
 With the `idx_category_price` composite index, this query will be faster as MySQL uses the index to quickly locate relevant rows.
 
