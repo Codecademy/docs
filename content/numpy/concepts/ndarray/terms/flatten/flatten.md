@@ -48,7 +48,7 @@ The code above produces the following output:
 [1 2 3 4 5 6]
 ```
 
-In this example, we create a 2D array `arr` using NumPy. Then, we use the `flatten()` function to flatten the array into a one-dimensional array `flattened_arr`. Finally, we print the flattened array, which gives us `[1 2 3 4 5 6]`.
+In this example, a 2D array `arr` is created using NumPy. The `.flatten()` function is then used to convert the array into a one-dimensional array `flattened_arr`. The output of the flattened array is then printed.
 
 ## Conclusion
 
