@@ -22,12 +22,12 @@ Increase or decrease the color intensity of an element.
 filter: saturate(<value>);
 ```
 
-where a required `<value>` can be one of the following:
+where a required `<value>` can be either a positive decimal number or positive percentage number, such as (but not limited to):
 
-- Number value: `0`, `0.5`, `1.0`, `1.5`
-- Percentage value: `0%`, `50%`, `100%`, `150%`
+- Decimal value: `0`, `0.5`, `1.0`, `1.5`, ...
+- Percentage value: `0%`, `50%`, `100%`, `150%`, ...
 
-**Note:** The value defaults to `1` or `100%`, leaving element unchanged. Higher values will increase saturation. A value of `0` and `0%` will remove all color leaving the element completely unsaturated. Negative values are not allowed.
+**Note:** The value defaults to `1` or `100%`, leaving element unchanged. Higher values will increase the saturation. A value of `0` and `0%` will remove all color leaving the element completely unsaturated. Negative values are not allowed.
 
 ## Example
 
