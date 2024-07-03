@@ -18,7 +18,7 @@ The **`.flatten()`** function in NumPy is a powerful tool for reshaping multi-di
 
 ## Syntax
 
-The syntax for using the `flatten()` function is as follows:
+The syntax for using the `.flatten()` function is as follows:
 
 ```python
 array.flatten(order='C')
