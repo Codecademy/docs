@@ -44,7 +44,7 @@ print(flattened_arr)
 
 The code above produces the following output:
 
-```
+```shell
 [1 2 3 4 5 6]
 ```
 
