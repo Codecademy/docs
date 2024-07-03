@@ -23,26 +23,46 @@ The syntax for using the `.flatten()` function is as follows:
 ```pseudo
 ndarray.flatten(order='C')
 ```
-Parameters in pseudo:
-    ndarray: The input array to be flattened.
-    order: The order in which the array is flattened. It can be:
-    'C': Row-major (C-style) order.
-    'F': Column-major (Fortran-style) order.
-    'A': Flatten in column-major order if the array is Fortran contiguous in memory, row-major order otherwise.
-    'K': Flatten the array in the order the elements occur in memory (keep the order).
 
-Here, `ndarray` refers to the multi-dimensional array that you want to flatten. The `order` parameter is optional and specifies the order in which the elements of the array should be flattened. The default value is `'C'`, which means the elements are flattened in row-major (C-style) order.
+- `ndarray`: Refers to the multi-dimensional array that is to be flattened.
+- `order`: The order in which the array is flattened. Default is `C`, but it can have other values as follows:
+  - `C`: To flatten in row-major (C-style) order.
+  - `F`: To flatten in column-major (Fortran-style) order.
+  - `A`: To flatten in column-major order if the array is Fortran contiguous in memory, otherwise in row-major order.
+  - `K`: To flatten the array in the order the elements occur in memory.
+
+## Example
+
+```py
+import numpy as np
+
+# Create a 2D array
+arr = np.array([[1, 2, 3], [4, 5, 6]])
+
+# Flatten the array
+flattened_arr = arr.flatten()
+
+print(flattened_arr)
+```
+
+The above code generates the output as follows:
+
+```shell
+[1 2 3 4 5 6]
+```
+
+In this example, we first create a 2D array `arr` using NumPy. Then, we use the `.flatten()` function to flatten the array into a one-dimensional array `flattened_arr`. Finally, we print the flattened array.
 
 ## Codebyte Example
-  import numpy as np
 
-  #Creating a 2D array
-  array_2d = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+```codebyte/python
+import numpy as np
 
-  #Flattening the 2D array to a 1D array
-  flattened_array = array_2d.flatten()
+# Creating a 2D array
+array_2d = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12]])
 
-  print(flattened_array)
+# Flattening the 2D array to a 1D array
+flattened_array = array_2d.flatten()
 
-
-
+print(flattened_array)
+```
