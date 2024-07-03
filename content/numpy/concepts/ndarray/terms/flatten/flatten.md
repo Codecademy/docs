@@ -28,7 +28,7 @@ Here, `array` refers to the multi-dimensional array that you want to flatten. Th
 
 ## Example
 
-Let's take a look at an example to understand how the `flatten()` function works:
+Let's take a look at an example to understand how the `.flatten()` function works:
 
 ```python
 import numpy as np
