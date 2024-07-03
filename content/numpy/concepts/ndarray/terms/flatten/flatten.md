@@ -21,7 +21,7 @@ The **`.flatten()`** function in NumPy is a powerful tool for reshaping multi-di
 The syntax for using the `.flatten()` function is as follows:
 
 ```pseudo
-array.flatten(order='C')
+ndarray.flatten(order='C')
 ```
 
 Here, `array` refers to the multi-dimensional array that you want to flatten. The `order` parameter is optional and specifies the order in which the elements of the array should be flattened. The default value is `'C'`, which means the elements are flattened in row-major (C-style) order.
