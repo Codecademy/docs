@@ -66,7 +66,7 @@ int another_year = *(pointer_to_year) - 33; // Value of another_year: 1953
 Like other data types, pointers can be passed to and returned from [functions](https://www.codecademy.com/resources/docs/c/functions). One scenario in which this might be useful is "returning" two values from a function.
 
 ```c
-bool divide(int a, int b, bool *d) {
+int divide(int a, int b, bool *d) {
   int c = a / b;
 
   if (c * b == a) {
