@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `flatten()` function in NumPy is a powerful tool for reshaping multi-dimensional arrays into one-dimensional arrays. This function allows you to simplify complex arrays and make them easier to work with.
+The **`.flatten()`** function in NumPy is a powerful tool for reshaping multi-dimensional arrays into one-dimensional arrays. This function simplifies complex arrays and makes them easier to work with.
 
 ## Syntax
 
