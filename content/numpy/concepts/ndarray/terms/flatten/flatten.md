@@ -42,7 +42,8 @@ flattened_arr = arr.flatten()
 print(flattened_arr)
 ```
 
-Output:
+The code above produces the following output:
+
 ```
 [1 2 3 4 5 6]
 ```
