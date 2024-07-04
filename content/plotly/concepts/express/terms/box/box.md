@@ -24,8 +24,8 @@ plotly.express.box(data_frame=None, x=None, y=None, color=None, labels=None, tit
 ```
 
 - `data_frame`: The dataset containing the variables to be plotted.
-- `y`: The data for the y-axis.
-- `x` (Optional): The data for the x-axis
+- `x`: The data for the x-axis.
+- `y` (Optional): The data for the y-axis.
 - `color` (Optional): A column name in the data frame that determines the color of the boxes.
 - `labels` (Optional): Key-value pairs with the original column names as the key and the custom column names as the value.
 - `title` (Optional): The title of the box plot.
