@@ -15,17 +15,17 @@ In Rust, **data types** classify the types of values that can be used and manipu
 
 ## Scalar Types
 
-Scalar types represent single values. 
-Rust has four primary scalar types:
+Scalar types represent single values. Rust has four primary scalar types:
+
 - **Integers**: Represent whole numbers. The signed integer types start with `i` followed by the bit number (e.g., `i32`, `i64`). The unsigned integer types start with `u` followed by the bit number (e.g., `u32`, `u64`). The built-in integer types in Rust include 8-bit (`i8`, `u8`), 16-bit (`i16`, `u16`), 32-bit (`i32`, `u32`), 64-bit (`i64`, `u64`), and 128-bit (`i128`, `u128`).
 
-- **Floating-Point Numbers**: Represent numbers with fractional components. Rust has two floating-point types: `f32` and `f64`, which are 32-bit and 64-bit floating-point numbers, respectively. These types follow the IEEE-754 standard for floating-point arithmetic.
+- **Floating-Point Numbers**: Represent numbers with fractional components. Rust has two floating-point types: `f32` and `f64`, which are 32-bit and 64-bit floating-point numbers, respectively. These types adhere to the IEEE-754 standard for floating-point arithmetic.
 
-- **Booleans**: Represent true or false values, using the `bool` type. This type can hold one of two values: `true` or `false`. Booleans are useful in control flow structures such as conditionals and loops.
+- **Booleans**: Represent true or false values, using `bool`. This can hold one of two values: `true` or `false`. Booleans are useful in control flow structures such as conditionals and loops.
 
-- **Characters**: Represent single Unicode characters, using the `char` type. A `char` in Rust is 4 bytes in size and represents a Unicode Scalar Value, which means it can represent more than just ASCII characters, including accented letters, Chinese/Japanese/Korean characters, emoji, and more.
+- **Characters**: Represent single Unicode characters, using `char`. A `char` in Rust is 4 bytes in size and represents a Unicode Scalar Value, which means it can represent more than just ASCII characters, including accented letters, Chinese/Japanese/Korean characters, emoji, and more.
 
-## Example
+## Example 1
 
 ```rust
 fn main() {
@@ -41,7 +41,7 @@ fn main() {
 }
 ```
 
-## Output
+The above code produces the following output:
 
 ```shell
 Integer: 42
@@ -51,10 +51,13 @@ Character: R
 ```
 
 ## Compound Types
-Compound types represent multiple values and can be grouped.
 
-- **Tuples**: Group multiple values of different types into one compound type.
-- **Arrays**: Store multiple values of the same type.
+Compound types represent multiple values and can be grouped. It consists of the following:
+
+- **Tuples**: A tuple groups multiple values of different types into one compound type with a fixed length that cannot change once declared.
+- **Arrays**: An array also holds multiple values, but all elements must be of the same type, and arrays in Rust have a fixed length.
+
+## Example 2
 
 ```rust
 fn main() {
@@ -65,6 +68,14 @@ fn main() {
     println!("Array: {:?}", array);
 }
 ```
+
+The above code produces the output as follows:
+
+```shell
+Tuple: (42, 3.14, true)
+Array: [1, 2, 3]
+```
+
 The GIF below demonstrates running a Rust program that illustrates the use of compound types, specifically tuples and arrays.
 
 ![Rust Data Types](../../../media/rust_data-types.gif)
