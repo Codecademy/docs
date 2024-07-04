@@ -1,6 +1,6 @@
 ---
 Title: 'saturate()'
-Description: 'Increase or decrease the color intensity of an element.'
+Description: 'Increases or decreases the color intensity of an element.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -8,40 +8,43 @@ Tags:
   - 'Images'
   - 'Functions'
   - 'Colors'
+  - 'Elements'
 CatalogContent:
   - 'learn-css'
   - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
 ---
 
-Increase or decrease the color intensity of an element.
+In CSS, the `saturate()` function increases or decreases the [color](https://www.codecademy.com/resources/docs/css/colors) intensity of an element.
 
 ## Syntax
 
-```css
+```pseudo
 filter: saturate(<value>);
 ```
 
-where a required `<value>` can be either a positive decimal number or positive percentage number, such as (but not limited to):
+The required `<value>` can either be a positive decimal number or a positive percentage number, such as (but not limited to):
 
 - Decimal value: `0`, `0.5`, `1.0`, `1.5`, ...
 - Percentage value: `0%`, `50%`, `100%`, `150%`, ...
 
-**Note:** The value defaults to `1` or `100%`, leaving element unchanged. Higher values will increase the saturation. A value of `0` and `0%` will remove all color leaving the element completely unsaturated. Negative values are not allowed.
+> Note: The value defaults to `1` or `100%`, leaving the target element unchanged. Higher values will increase the saturation. A value of `0` or `0%` will remove all the colors, leaving the element completely unsaturated. Negative values are not allowed.
 
 ## Example
 
-Set the saturation of a color to `50%`and `150%`:
+The following example sets the saturation of a color to `50%` and `1.5` (or `150%`):
 
 ```css
 .logo-image-2 {
   filter: saturate(50%);
 }
+
 .logo-image-3 {
   filter: saturate(1.5);
 }
 ```
 
-![CSS saturate filter example](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-filterfunctions-saturate-example.png)
+Here is the output for the above example:
 
-Here, the first image shows the original saturation at `saturate(100%)`. The second image is less saturated with `saturate(50%)`, and the last image is more saturated with `saturate(1.5)`.
+![Output for the above example on saturate()](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-filterfunction-saturate-example.png)
+
+Here, the first image shows the original saturation at `saturate(100%)`, the second image is less saturated at `saturate(50%)`, and the last image is more saturated with `saturate(1.5)`.
