@@ -1,20 +1,20 @@
 ---
-Title: '.fiil()' 
-Description: 'Fills the NumPy array with a specified scalar value.' 
-Subjects: 
+Title: '.fiil()'
+Description: 'Fills a NumPy array with a specified scalar value.'
+Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-  - 'Machine Learning'
-Tags: 
+Tags:
   - 'NumPy'
   - 'Methods'
-  - 'Sets'
-CatalogContent: 
+  - 'Arrays'
+  - 'Elements'
+CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-
 ---
-The **`.fill()`** method in Python is used to fill a NumPy array with a scalar value.
+
+The **`.fill()`** method is used to fill a NumPy array with a specified scalar value.
 
 ## Syntax
 
@@ -22,20 +22,21 @@ The **`.fill()`** method in Python is used to fill a NumPy array with a scalar v
 ndarray.fill(value)
 ```
 
-- `value`: The scalar value to assign to all elements of the array.
+- `ndarray`: The NumPy array to be filled.
+- `value`: The scalar value to assign to all the elements in the array.
 
-## Example 
+## Example
 
-In this example, the `.fill()` method sets all elements of the one-dimensional array `nf` to 2798:
+In this example, the `.fill()` method assigns the scalar value `2798` to all the elements in the one-dimensional NumPy array `nf`:
 
 ```py
-# import NumPy 
+# Import NumPy
 import numpy as a
 
-# Create an array 
+# Create a NumPy array
 nf = a.arange(12)
-  
-# Use fill() method
+
+# Use the '.fill()' method
 nf.fill(2798)
 
 print(nf)
@@ -49,11 +50,14 @@ We will get the following result:
 
 ## Codebyte Example
 
-In the following code, a two-dimensional NumPy array `nf` is created with specified values and filled entirely with 985, then printed:
+In the following codebyte example, a two-dimensional NumPy array `nf` is created with specific values and then filled entirely with `985`:
 
 ```codebyte/python
 import numpy as np
+
 nf = np.array([[5,6], [7,8]])
+
 nf.fill(985)
-print (nf)
+
+print(nf)
 ```
