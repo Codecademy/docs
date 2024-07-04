@@ -34,7 +34,7 @@ plotly.express.box(data_frame=None, x=None, y=None, color=None, labels=None, tit
 
 ## Example
 
-Below are two examples that show how to use the `.box()` method to create box plots.
+The below example shows how to use the `.box()` method to create box plots:
 
 ```py
 # Importing plotly.express as px
