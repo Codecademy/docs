@@ -14,8 +14,6 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-## Pointers
-
 Pointers in Go are an essential feature that allows working directly with a program's memory. A pointer stores the memory address of another variable. This can be useful for accessing and modifying the value stored at that specific memory address.
 
 ## Pointer Declaration
@@ -26,7 +24,13 @@ In Go, a pointer is declared using the `*` operator before the type of data to i
 var x int = 7
 var ptr *int = &x
 
-fmt.Println(ptr) // Output: 0xc000096068
+fmt.Println(ptr)
+```
+
+The output for the above code is:
+
+```shell
+0xc000096068
 ```
 
 In this example, `ptr` is a pointer to an integer (`*int`) that stores the memory address of the variable `x`.
@@ -36,7 +40,13 @@ In this example, `ptr` is a pointer to an integer (`*int`) that stores the memor
 To access the value stored at the memory address pointed to by a pointer, you use the `*` operator (`dereferencing operator`).
 
 ```go
-fmt.Println(*ptr) // Output: 7
+fmt.Println(*ptr)
+```
+
+The output for the above code is:
+
+```shell
+7
 ```
 
 This will print the value stored at the memory address pointed to by `ptr`.
@@ -57,7 +67,13 @@ In Go, pointers are automatically initialized with the null value (nil). It's im
 
 ```go
   var ptr *int
-  fmt.Println(ptr) // Output: <nil>
+  fmt.Println(ptr)
+```
+
+The output for the above code is:
+
+```shell
+<nil>
 ```
 
 Dereference a null pointer:
@@ -67,7 +83,7 @@ Dereference a null pointer:
   fmt.Println(*ptr) // panic: runtime error: invalid memory address or nil pointer dereference
 ```
 
-### Practical Example
+## Example
 
 Here's a comprehensive example that demonstrates the declaration, initialization, accessing, and modifying of values through pointers in Go.
 
@@ -80,10 +96,20 @@ func main() {
     x := 7
     var ptr *int = &x
 
-    fmt.Println("Value of x:", x) // Output: 7
-    fmt.Println("Memory address of x:", ptr) // Output: 0xc00000a0f8 
-    fmt.Println("Value pointed by ptr:", *ptr) // Output: 7
+    fmt.Println("Value of x:", x)
+    fmt.Println("Memory address of x:", ptr)
+    fmt.Println("Value pointed by ptr:", *ptr)
 
     *ptr = 10
-    fmt.Println("New value of x:", x) // Output: 10
+    fmt.Println("New value of x:", x)
 }
+```
+
+The output for the above code is:
+
+```shell
+Value of x: 7
+Memory address of x: 0xc00000a0f8
+Value pointed by ptr: 7
+New value of x: 10
+```
