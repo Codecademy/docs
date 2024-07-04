@@ -50,7 +50,7 @@ fig = px.box(data_frame=df, x="time", y="total_bill", title="The Total Bill Spen
 fig.show()
 ```
 
-In the above example, a plot of the total bill spent on meals (in $) is plotted from the data frame. The `x` parameter is set to the `time` variable of the data frame, and the `y` parameter is set to the `total_bill` variable of the data frame. In the `time` variable of the data frame, there are two distinct data points: Dinner and Lunch. Therefore, the output has two box plots.
+In the example, a plot of total meal expenses ($) is generated from the data frame. The `x` axis corresponds to the `time` variable, which categorizes data into two distinct points: Dinner and Lunch. The `y` axis represents the `total_bill` variable, showing the distribution of expenses for each mealtime. Consequently, the output includes two box plots, each depicting the variability in total bills between Dinner and Lunch.
 
 The above code produces the following output:
 
