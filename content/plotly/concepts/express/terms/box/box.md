@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A box plot is a visual representation of the distribution of numeric data through quartiles. It uses boxes and lines to depict the distributions of one or more groups of numeric data. The box limits indicate the range of the central 50% of the data, with a central line marking the median value. In Plotly, the **`.box()`** method is present in the `plotly.express` high-level interface, is used to make box plots with one or two variables.
+In Plotly, the **`.box()`** method is present in the `plotly.express` high-level interface, is used to make box plots with one or two variables. A box plot is a visual representation of the distribution of numeric data through quartiles. It uses boxes and lines to depict the distributions of one or more groups of numeric data. The box limits indicate the range of the central 50% of the data, with a central line marking the median value.
 
 ## Syntax
 
@@ -25,10 +25,12 @@ plotly.express.box(data_frame=None, x=None, y=None, color=None, labels=None, tit
 
 - `data_frame`: The dataset containing the variables to be plotted.
 - `x`: The data for the x-axis.
-- `y` (Optional): The data for the y-axis.
-- `color` (Optional): A column name in the data frame that determines the color of the boxes.
-- `labels` (Optional): Key-value pairs with the original column names as the key and the custom column names as the value.
-- `title` (Optional): The title of the box plot.
+- `y`: The data for the y-axis.
+- `color`: A column name in the data frame that determines the color of the boxes.
+- `labels`: Key-value pairs with the original column names as the key and the custom column names as the value.
+- `title`: The title of the box plot.
+
+Tthe only required parameter is `data_frame`, while all others are optional and used to customize the plot.
 
 > **Note:** The ellipsis (...) indicates that there can be additional optional arguments beyond those listed here.
 
