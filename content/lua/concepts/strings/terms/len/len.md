@@ -22,7 +22,7 @@ The **`.len()`** method returns the total number of characters present in a spec
 string.len(s)
 ```
 
-- `s`: The string to be checked.
+- `s`: The input string whose length is to be determined.
 
 > Note: Calling `string.len()` without any arguments will result in an error.
 
