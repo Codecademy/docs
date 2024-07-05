@@ -1,6 +1,6 @@
 ---
 Title: 'ImageFilter'
-Description: 'Used to apply filters on an image'
+Description: 'Provides various image filters such as blur, contour, sharpen, and edge enhancement, allowing image enhancement and manipulation.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -9,19 +9,19 @@ Tags:
   - 'Effects'
   - 'Filter'
   - 'Images'
-  - 'Pillow
+  - 'Pillow'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/data-science'
+
 ---
 
-The **ImageFilter** module helps add different filters to an image. This is used with the `image.filter()` method
+The **ImageFilter** module helps add different filters to an image. This is used with the `image.filter()` method. This statement imports the `ImageFilter` module from the Pillow library, which is a fork of the Python Imaging Library (PIL). 
 
 ## Syntax
 
 ```pseudo
-Image.filter(filter)
+from PIL import ImageFilter
 
 `filter`: A filter that will be applied to the image.
 
@@ -42,13 +42,5 @@ filtered_image.save("example_blur.jpg")
 # show the filtered image
 filtered_image.show()
 
-The code will show a blurred image.
 
-image= Image.open(pexels-pixabay-349758.jpg)
-
-filtered_image = image.filter(ImageFilter.SHARPEN)
-
-filtered_image.save("pexels-pixabay-349758_blur.jpg")
-
-filtered_image.show()
 
