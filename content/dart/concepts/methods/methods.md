@@ -7,7 +7,7 @@ Tags:
   - 'Functions'
   - 'Arithmetic'
   - 'Methods'
-CatelogContent:
+CatalogContent:
   - 'learn-dart'
   - 'paths/computer-science'
 ---
