@@ -1,6 +1,6 @@
 ---
 Title: '.len()'
-Description: 'Returns the number of characters that exist in a specific string.'
+Description: 'Returns the total number of characters present in a specified string.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
