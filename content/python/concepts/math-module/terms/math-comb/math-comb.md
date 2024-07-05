@@ -14,7 +14,7 @@ CatalogContent:
 ---
 
 
-'**Math.comb()** function allows you to find out how many unordered choices can be possibly made in order to choose 'k' amount of items from 'n' number of items.'
+**Math.comb()** function allows you to find out how many unordered choices can be possibly made in order to choose 'k' amount of items from 'n' number of items.
 
 ## Syntax
 
