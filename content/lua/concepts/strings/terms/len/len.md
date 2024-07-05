@@ -24,7 +24,7 @@ string.len(s)
 
 - `s`: The string to be checked.
 
-> Note: If an empty string is inserted, the method returns `0`.
+> Note: Calling `string.len()` without any arguments will result in an error.
 
 ## Example
 
