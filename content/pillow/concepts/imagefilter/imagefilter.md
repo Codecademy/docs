@@ -4,7 +4,7 @@ Description: 'Provides various image filters such as blur, contour, sharpen, and
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-Tags: 
+Tags:
   - 'Computer Vision'
   - 'Effects'
   - 'Filter'
