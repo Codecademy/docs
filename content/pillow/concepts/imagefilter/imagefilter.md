@@ -13,37 +13,14 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-
 ---
 
-The **ImageFilter** module helps add different filters to an image. This is used with the `image.filter()` method. This statement imports the `ImageFilter` module from the Pillow library, which is a fork of the Python Imaging Library (PIL). 
+The **ImageFilter** module in the Pillow library provides a variety of predefined filters to enhance images, such as blurring, sharpening, and edge detection. These filters can be easily applied to images using the `filter` method of the `Image` class, enabling quick and effective image processing.
 
 ## Syntax
 
 ```pseudo
 from PIL import ImageFilter
+```
 
 This statement imports the `ImageFilter` module from the Pillow library, which is a fork of the Python Imaging Library (PIL).
-
-
-`filter`: A filter that will be applied to the image.
-
-## Example
-
-```py
-from PIL import Image, ImageFilter
-
-# Open an image file
-image = Image.open('example.jpg')
-
-# Apply a filter to the image
-filtered_image = image.filter(ImageFilter.SHARPEN)
-
-# Save the filtered image
-filtered_image.save("example_blur.jpg")
-
-# show the filtered image
-filtered_image.show()
-
-
-
