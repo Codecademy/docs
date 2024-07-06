@@ -23,6 +23,9 @@ The **ImageFilter** module helps add different filters to an image. This is used
 ```pseudo
 from PIL import ImageFilter
 
+This statement imports the `ImageFilter` module from the Pillow library, which is a fork of the Python Imaging Library (PIL).
+
+
 `filter`: A filter that will be applied to the image.
 
 ## Example
