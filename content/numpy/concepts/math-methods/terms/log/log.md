@@ -49,7 +49,7 @@ The code above will generate the following output:
 
 ## Codebyte Example
 
-In this codebyte example, the `.log10()` method only computes the natural logarithm of positive elements in the array:
+In this codebyte example, the `.log()` method only computes the natural logarithm of positive elements in the array:
 
 ```codebyte/python
 import numpy as np
