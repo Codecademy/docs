@@ -46,7 +46,6 @@ The code above will generate the following output:
 [0.         1.         2.30258509 4.60517019]
 ```
 
-> **Note:** Running the above code will result in a `RuntimeWarning` due to attempting to calculate the logarithm of a negative number, which is not a valid operation.
 
 ## Codebyte Example
 
