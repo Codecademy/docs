@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-In MySQL, **user-defined variables** can be used to store a value in a specific statement and later retrieve it in another statement. These variables can be useful for storing intermediate results, passing data between statements, and enhancing the functionality of MySQL queries. They are also _session-specific_, meaning that their values can only be used within the current session and will not be available in future sessions or stored in the database.
+In MySQL, **user-defined variables** can be used to store a value in a specific statement and later retrieve it in another statement. These variables can be useful for storing intermediate results, passing data between statements, and enhancing the functionality of MySQL queries. They are also session-specific, meaning their values can only be used within the current session and will not be available in future sessions or stored in the database.
 
 ## Syntax
 
