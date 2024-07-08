@@ -1,28 +1,29 @@
 ---
 Title: '.tail()'
-Description: 'Returns the last n rows of a dataframe.'
+Description: 'Returns the last n rows of a DataFrame.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
-  - 'Web Development'
 Tags:
+  - 'Data'
   - 'Data Structures'
+  - 'Methods'
   - 'Pandas'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
 ---
 
-In Pandas, **`.tail()`** is a method that returns the last `n` rows of a [DataFrame](https://www.codecademy.com/resources/docs/pandas/dataframe). By default, it returns the last 5 rows, but the number of rows can be adjusted by passing an integer argument to the method.
+In Pandas, **`.tail()`** is a method that returns the last _n_ rows of a `DataFrame`. By default, it returns the last 5 rows, but the number of rows can be adjusted by passing an integer argument to the method.
 
 ## Syntax
 
 ```pseudo
-DataFrame.tail(n=5)
+df.tail(n=5)
 ```
 
-- `DataFrame`: The Pandas data structure on which the method is called.
-- `n`: Number of rows to return from the end of the DataFrame. The default value is 5.
+- `df`: The Pandas `DataFrame` on which the method is called.
+- `n`: The number of rows to return from the end of the `DataFrame`.
 
 ## Example
 
@@ -52,15 +53,15 @@ The output of the code above will be:
 
 ## Codebyte Example
 
-Run the code below to understand how the `.tail()` method works:
+The codebyte example below shows how the `.tail()` method works:
 
 ```codebyte/python
 import pandas as pd
 
 # Create a sample DataFrame
 data = {
-    'Name': ['Alice', 'Bob', 'Charlie', 'David', 'Eve', 'Frank', 'Grace'],
-    'Age': [24, 30, 22, 40, 35, 23, 29]
+  'Name': ['Alice', 'Bob', 'Charlie', 'David', 'Eve', 'Frank', 'Grace'],
+  'Age': [24, 30, 22, 40, 35, 23, 29]
 }
 
 df = pd.DataFrame(data)
