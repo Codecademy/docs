@@ -45,8 +45,6 @@ An image that has a starting width of 200 pixels:
   flex-basis: 200px;
 }
 ```
-<!-- Beginning of Issue -->
-<!-- Add a output image for the example already given in the entry. -->
 The output of the above codeblock is shown below:
 
 ![Image demonstrating example 1 code alongside other flex elements with default properties.](../../../../../../media/css-flex-basis-example-output.png)
