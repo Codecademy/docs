@@ -47,11 +47,11 @@ A new array with the specified data type.
 1. **Convert Float Array to Integer Array**
 
    ```py
-   import numpy as np
+import numpy as np
 
-   arr = np.array([1.2, 3.4, 5.6])
-   arr_int = arr.astype(int)
-   print(arr_int)
+arr = np.array([1.2, 3.4, 5.6])
+arr_int = arr.astype(int)
+print(arr_int)
    ```
 
    Output:
