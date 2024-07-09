@@ -42,7 +42,7 @@ ndarray.astype(dtype, order='K', casting='unsafe', subok=True, copy=True)
 **Returns**
 A new array with the specified data type.
 
-## Examples
+## Example
 
 1. **Convert Float Array to Integer Array**
 
