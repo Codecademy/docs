@@ -1,6 +1,6 @@
 ---
 Title: 'Framework'
-Description: 'Frameworks are softwares that provide reusable boilerplate code and functionality for building applications.'
+Description: 'Frameworks are software that provide reusable boilerplate code and functionality for building applications.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'

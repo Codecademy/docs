@@ -1,6 +1,6 @@
 ---
 Title: 'Dictionaries'
-Description: 'A dictionary is an unordered collection of paired data referred to as a key and value pair, where the key is used to access its corresponsing value.'
+Description: 'A dictionary is an unordered collection of paired data referred to as a key and value pair, where the key is used to access its corresponding value.'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'

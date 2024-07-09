@@ -38,7 +38,7 @@ The function accepts a maximum of seven parameters, and it is advisable to expli
 The following example shows how to use the `.DateTimePeriod()` function to add two weeks to a given date.
 
 ```kotlin
-import kotlinx.datetime.* // import all classes from datime package
+import kotlinx.datetime.* // import all classes from datetime package
 
 fun main() {
   //Create an Instant for 2023-12-25 12:00 UTC zone from an ISO 8601 String

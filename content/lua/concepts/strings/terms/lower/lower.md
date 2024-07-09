@@ -17,7 +17,7 @@ The **`string.lower()`** function receives a string and returns a transformed co
 
 ## Syntax
 
-```psuedo
+```pseudo
 string.lower( s )
 ```
 

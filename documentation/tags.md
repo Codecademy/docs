@@ -7,6 +7,7 @@ Feel free to add suggestions for new tags to the list as part of your PR! Be sur
 ```
 Abstraction
 Accessibility
+Aggregate Functions
 AI
 Algorithms
 Alias
@@ -51,12 +52,14 @@ Buttons
 Calendar
 Catch
 Characters
+Charts
 Chatbots
 Cryptocurrency
 Classes
 Cloud Computing
 Code Editors
 Conditionals
+Collations
 Collections
 Colors
 Combinators
@@ -247,6 +250,8 @@ Parameters
 Perceptrons
 Phaser
 Physics
+Pillow
+Plotly
 Pointers
 Positioning
 PostgreSQL
@@ -358,6 +363,7 @@ WebRTC
 Weight & Bias
 While
 Whiteboarding
+Window Functions
 WordPress
 World Wide Web
 Xcode
