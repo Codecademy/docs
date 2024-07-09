@@ -56,7 +56,7 @@ A new array with the specified data type.
 
    Output:
 
-   ```py
+```shell
    [1 3 5]
    ```
 
