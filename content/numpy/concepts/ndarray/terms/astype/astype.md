@@ -70,10 +70,3 @@ arr_str = arr.astype(str)
 print(arr_str)
    ```
 
-   Output:
-
-   ```py
-   ['1' '2' '3']
-   ```
-
-
