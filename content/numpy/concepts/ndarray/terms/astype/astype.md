@@ -25,19 +25,20 @@ ndarray.astype(dtype, order='K', casting='unsafe', subok=True, copy=True)
 
 ## Parameters
 
-- **dtype**: The new data type for the array elements (e.g., **int**, **float**, **str**).
-- **order**: Specifies the memory layout order:
-  - **`'C'`** for row-major (C-style) order.
-  - **`'F'`** for column-major (Fortran-style) order.
-  - **`'A'`** (default) or 'K' to keep the current order.
-- **casting**: Controls allowed data conversions:
-  - **'no'** to prevent any conversion.
-  - **'equiv'** to allow only byte-order changes.
-  - **'safe'** to ensure no data loss during conversion.
-  - **'same_kind'** to allow safe conversions within similar types.
-  - **'unsafe'** (default) to allow any conversion, even if data might be lost.
-- **subok**: If **`True`** (default), subclasses of the array will be preserved. If **`False`**, the result will always be a base-class array.
-- **copy**: If **`True`** (default), always makes a new copy of the array. If **`False`**, reuses the input array if possible.
+- `dtype`: The desired data type for the array elements.
+- `order`: Specifies the memory layout order. It can take the following values:
+  - `C`: C-style (row-major) order.
+  - `F`: Fortran-style (column-major) order.
+  - `A`: When A is specified, NumPy prioritizes Fortran ('F') order if all arrays are Fortran contiguous; otherwise, it defaults to 'C' order.
+  - `K`: This is the default value, it keeps the order of the input array.
+- `casting`: Specifies how casting should be handled if the desired data type is different from the current data type. It can take the following values:
+  - `no`: The data type will not be cast.
+  - `equiv`: To allow only byte-order changes.
+  - `safe`: To ensure no data loss during conversion.
+  - `same_kind`: to allow safe conversions within similar types.
+  - `unsafe`: This is the default value, it allows any conversion, even if data might be lost.
+- `subok`: If `True` (default), subclasses of the array will be preserved. If `False`, the result will always be a base-class array.
+- `copy`: If `True` (default), a copy of the array is made. If `False`, reuse the input array if possible.
 **Returns**
 A new array with the specified data type.
 
