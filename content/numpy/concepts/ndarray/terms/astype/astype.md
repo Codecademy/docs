@@ -1,6 +1,6 @@
 ---
 Title: '.astype()'
-Description: 'Converts data types of ndarray elements.'
+Description: 'Converts a NumPy ndarray to a specified data type.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
