@@ -21,12 +21,12 @@ In NumPy, the **`.log()`** method is used to calculate the natural logarithm (ba
 numpy.log(array, out=None, where=True)
 ```
 
-- `array`: An array-like structure containing the elements for which the base-10 algorithm will be applied.
-- `out` (Optional): The array where the result is to be stored. If not provided, a new array is created to store the results.
-- `where` (Optional): The condition (array of boolean values) that determines which elements the method will be applied on.
-  - If the condition is `True` for a particular element, the logarithm is computed for that element.
-  - If the condition is `False` for a particular element, the logarithm is not computed for that element and the original element is retained.
-  - If not provided, the logarithm is computed for all elements.
+- `array`: A similar structure to an array with the elements for which the natural algorithm will be applied.
+- `out` (Optional): The array where the resulting logarithms are stored. If not provided, a new array is created to hold the results.
+- `where` (Optional): An array of boolean values that specifies the conditions under which the logaritm is computed.
+  - For the elements where condition is `True`, the natural logarithm is calculated.
+  - For the elements where condition is `False` the original element is retained without computing the logarithm.
+  - If `where` is not specified, the natural logarithm is computed for all elements in the input.
 
 ## Example
 
@@ -45,7 +45,6 @@ The code above will generate the following output:
 ```shell
 [0.         1.         2.30258509 4.60517019]
 ```
-
 
 ## Codebyte Example
 
