@@ -63,9 +63,11 @@ A new array with the specified data type.
 2. **Convert Array to String Array**
 
    ```py
-   arr = np.array([1, 2, 3])
-   arr_str = arr.astype(str)
-   print(arr_str)
+import numpy as np
+
+arr = np.array([1, 2, 3])
+arr_str = arr.astype(str)
+print(arr_str)
    ```
 
    Output:
