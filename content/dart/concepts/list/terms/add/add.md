@@ -21,7 +21,7 @@ The **`.add()`** method in Dart is used to append a single element to the end of
 listName.add(element);
 ```
 
-- `element`: The element to be added to the list.
+- `element`: The element to be appended to the list.
 
 ## Example
 
