@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.astype()`** function in NumPy allows changing the data type of elements in an array. This is useful for ensuring data is in the correct format, such as converting floating-point numbers to integers or changing integers to strings.
+The **`.astype()`** function in NumPy allows changing the data type of elements in an array. It is beneficial for tasks such as converting floating-point numbers to integers or changing integers to strings, ensuring data is in the desired format.
 
 ## Syntax
 
