@@ -62,6 +62,8 @@ A new array with the specified data type.
 
 2. **Convert Array to String Array**
 
+Run the following code to understand the use of `.astype()` function:
+
    ```py
 import numpy as np
 
