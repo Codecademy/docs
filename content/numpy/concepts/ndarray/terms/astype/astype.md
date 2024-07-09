@@ -54,7 +54,7 @@ arr_int = arr.astype(int)
 print(arr_int)
    ```
 
-   Output:
+The code above generates the following output:
 
 ```shell
    [1 3 5]
