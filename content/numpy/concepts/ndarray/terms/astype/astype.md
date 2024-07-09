@@ -60,7 +60,7 @@ The code above generates the following output:
    [1 3 5]
    ```
 
-2. **Convert Array to String Array**
+## Codebyte Example
 
 Run the following code to understand the use of `.astype()` function:
 
