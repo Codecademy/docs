@@ -44,7 +44,7 @@ A new array with the specified data type.
 
 ## Example
 
-1. **Convert Float Array to Integer Array**
+The following example shows the use of the `.astype()` function to convert the elements of an array from float data type to integer data type:
 
    ```py
 import numpy as np
