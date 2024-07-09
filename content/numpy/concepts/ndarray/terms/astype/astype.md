@@ -6,8 +6,8 @@ Subjects:
   - 'Data Science'
   - 'Web Development'
 Tags:
-  - 'Data Structures'
   - 'Arrays'
+  - 'Data Structures'
   - 'Functions'
   - 'NumPy'
 CatalogContent:
