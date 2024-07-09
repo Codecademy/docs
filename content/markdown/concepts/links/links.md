@@ -60,3 +60,6 @@ The rendered output looks like this:
 
 - <https://www.codecademy.com/resources/docs>
 - <hotmale@hotmail.com>
+
+## Internal Linking
+
