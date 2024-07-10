@@ -1,6 +1,6 @@
 ---
 Title: 'Comments'
-Description: 'Comments are text within a program that are not executed by the compiler and interpreter and may aid in describing what is happening in the code.'
+Description: 'Comments are text within a program that are not executed by the compiler or interpreter. They may aid in describing what is happening in the code.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**Comments** are text within a program that are not executed by the compiler and interpreter and may aid in describing what is happening in the code.
+**Comments** are text within a program that are not executed by the compiler or interpreter. They may aid in describing what is happening in the code.
 
 ## Single-line Comments
 
