@@ -20,8 +20,7 @@ CatalogContent:
 ## How Indexes Work
 
 Indexes are created on columns in a table. When an index is created on a column, MySQL organizes and stores information about that column in a sorted manner, typically using a structure called a B-tree. This allows MySQL to quickly locate rows based on the indexed column's values.
-
-## Types of Indexes
+The commonly used types of indexes are:
 
 1. **Primary Key Index**: Automatically created when a primary key is defined.
 2. **Unique Index**: Ensures that all values in a column are unique.
