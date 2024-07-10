@@ -1,6 +1,6 @@
 ---
 Title: '.log()'
-Description: 'Calculates the natural logarithm (base-e) of each element in an array.'
+Description: 'Calculates the natural logarithm of each element in an array.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -21,11 +21,11 @@ In NumPy, the **`.log()`** method is used to calculate the natural logarithm (ba
 numpy.log(array, out=None, where=True)
 ```
 
-- `array`: A similar structure to an array with the elements for which the natural algorithm will be applied.
-- `out` (Optional): The array where the resulting logarithms are stored. If not provided, a new array is created to hold the results.
-- `where` (Optional): An array of boolean values that specifies the conditions under which the logaritm is computed.
-  - For the elements where condition is `True`, the natural logarithm is calculated.
-  - For the elements where condition is `False` the original element is retained without computing the logarithm.
+- `array`: An array-like structure containing the elements for which the natural logarithm will be applied.
+- `out` (Optional): An array where the resulting logarithms are stored. If not provided, a new array is created to hold the results.
+- `where` (Optional): An array of boolean values that specifies the conditions under which the logarithm is computed.
+  - For elements where the condition is `True`, the natural logarithm is calculated.
+  - For elements where the condition is `False`, the original element is retained without computing the logarithm.
   - If `where` is not specified, the natural logarithm is computed for all elements in the input.
 
 ## Example
