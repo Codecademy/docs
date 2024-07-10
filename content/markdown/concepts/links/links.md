@@ -63,3 +63,14 @@ The rendered output looks like this:
 
 ## Internal Linking
 
+To create links to navigate to other sections within the same document, or sections within other documents on the same website, use a link with the `#` symbol, followed by the section's title. Ensure the title is in lowercase, omit any punctuation and replace spaces with hyphens.
+
+For example, to link to the "Accessibility: Link Titles" section above:
+
+```md
+[Accessibility: Link Titles](#accessibility-link-titles)
+```
+
+The output would look like:
+
+[Accessibility: Link Titles](#accessibility-link-titles)
