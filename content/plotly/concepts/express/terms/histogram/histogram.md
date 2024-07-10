@@ -1,9 +1,10 @@
 ---
 Title: '.histogram()'
-Description: 'Creates histogram - a a graphical representation of the distribution of data in the form of bars, that represent the frequency of occurrence of individual values in a data set.
-  - 'Computer Science'
-  - 'Data Science'
-Tags:
+Description: 'Creates histogram - a graphical representation of the distribution of data in the form of bars, that represent the frequency of occurrence of individual values in a data set.'
+Subjects: 
+  - 'Computer science'
+  - 'Data scinence'
+Tags: 
   - 'Data'
   - 'Graphs'
   - 'Methods'
@@ -12,9 +13,11 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
+  - 'paths/data-science'
+  - 'paths/data-science-foundations'
 ---
 
-In Plotly, the **`.histogram()`** method as a part of the `plotly.express` interface, is used to make a accumulated bar chart where each stocked data is counted and represented. This method offers several  functions like sum, average, count, and more, which can be used to visualize data on categorical and date axes or linear axes.
+In Plotly, the **`.histogram()`** method as a part of the `plotly.express` interface, is used to make a graphical representation of data as an accumulated bar chart where, each stocked data is counted and represented. This method offers several functions like sum, average, count and more, which can be used to visualize data on categorical and date axes or linear axes.
 
 ## Syntax
 
