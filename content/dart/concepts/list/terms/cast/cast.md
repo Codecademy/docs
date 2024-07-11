@@ -4,11 +4,11 @@ Description: 'Changes a list type.'
 Subjects:
   - 'Computer Science'
   - 'Mobile Development'
-  - 'Code Foundations'
 Tags:
   - 'Dart'
   - 'Arithmetic'
   - 'Lists'
+  - 'Methods'
 CatalogContent:
   - 'learn-dart'
   - 'paths/computer-science'
