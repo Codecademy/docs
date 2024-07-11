@@ -62,10 +62,7 @@ void main() {
 The code above will print `dynamicList` in the output. However, `dynamicList` will not change to `intList` as a `String` can't be changed to an `int`. Hence, the method returns an error:
 
 ```shell
-//DynamicList
 [1, Two, Three, 4, 5]
-
-//Trying to cast DynamicList to intList
 DartPad caught unhandled _TypeError:
 TypeError: "Two": type 'String' is not a subtype of type 'int'
 ```
