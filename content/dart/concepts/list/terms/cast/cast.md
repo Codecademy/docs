@@ -22,9 +22,9 @@ The **`.cast()`** method in Dart is used to change a list type and is used when 
 List<R> newList = originalList.cast<R>();
 ```
 
-- `R`: List type, the most common list type for a typed list is int, double, string, bool.  Lists can also be a dynamic type.
+- `R`: Refers to the list type. The most common list types for a typed list are `int`, `double`, [`String`](https://www.codecademy.com/resources/docs/dart/strings), and `bool`. Besides that, it can also be `dynamic`.
 - `newList`: The new list of elements after conforming to a specific type.
-- `originalList`: The original List of elements needing to be changed.
+- `originalList`: The original list of elements that need to be changed.
 
 ## Examples
 
