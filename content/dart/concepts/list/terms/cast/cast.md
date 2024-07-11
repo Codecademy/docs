@@ -43,11 +43,8 @@ void main() {
 The output of the above code is the same for both `intList` and `numList` because `num` is a type that all numbers conform to, whether they are `int` or `double`:
 
 ```shell
-//intList
-[1, 2, 3, 4, 5];
-
-//numList
-[1, 2, 3, 4, 5];
+[14, 25, 36, 47, 58]
+[14, 25, 36, 47, 58]
 ```
 
 ## Example 2
