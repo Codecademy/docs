@@ -59,7 +59,7 @@ void main() {
 }
 ```
 
-The output of the code above will print DynamicList but DynamicList will not change to intList and instead returns an error.
+The code above will print `dynamicList` in the output. However, `dynamicList` will not change to `intList` as a `String` can't be changed to an `int`. Hence, the method returns an error:
 
 ```shell
 //DynamicList
