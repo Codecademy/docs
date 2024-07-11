@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.cast()`** method in Dart is used to change a list type and is used when all elements in a list need to be a specific type.  It ensures type safety in collections, but all list elements must conform to the specific type that the list is changing to or a TypeError will be thrown at runtime.
+The **`.cast()`** method in Dart is used to change a list type and is used when all elements in a list need to be of a specific [data type](https://www.codecademy.com/resources/docs/dart/data-types). It ensures type safety in collections, but all list elements must conform to the specific type that the list is changing to or a `TypeError` will be thrown at runtime.
 
 ## Syntax
 
