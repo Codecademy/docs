@@ -1,1 +1,1 @@
-content/c-sharp/concepts/loops/loops.md
+content/java/concepts/math-methods/math-methods.md
