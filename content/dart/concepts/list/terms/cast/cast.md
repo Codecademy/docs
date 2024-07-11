@@ -47,8 +47,7 @@ The output of the above code is the same for both `intList` and `numList` becaus
 [14, 25, 36, 47, 58]
 ```
 
-## Example 2
-List elements are different types.
+Here is another example that uses the `.cast()` method to cast a `dynamic` list containing elements of different types to an `int` list:
 
 ```dart
 void main() {
