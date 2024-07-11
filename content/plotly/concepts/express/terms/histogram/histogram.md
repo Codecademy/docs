@@ -47,13 +47,12 @@ import plotly.express as px
 df = px.data.tips()
 
 # Creating the histogram with the variable time as the x variable and the variable total_bill as the y variable
-fig = px.histogram(data_frame=df, x="time", y="total_bill", title="The Total Bill Spent On Meals")
+fig = px.histogram(df, x="total_bill", nbins=20)
 
 # Showing the histogram plot
 fig.show()
 ```
-
-In the example, a plot of total meal expenses ($) is generated from the data frame. The `x` axis corresponds to the `time` variable, which categorizes data into two distinct points: Dinner and Lunch. The `y` axis represents the `total_bill` variable, showing the distribution of expenses for each mealtime. Consequently, the output includes two box plots, each depicting the variability in total bills between Dinner and Lunch.
+By default, the number of bins is chosen so that this number is comparable to the typical number of samples in a bin. In this example the number of bins can be customized.
 
 The above code produces the following output:
 
