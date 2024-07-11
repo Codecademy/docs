@@ -26,8 +26,9 @@ List<R> newList = originalList.cast<R>();
 - `newList`: The new list of elements after conforming to a specific type.
 - `originalList`: The original List of elements needing to be changed.
 
-## Example 1
-All list elements are of the same type. 
+## Examples
+
+In the following example, the `.cast()` method is used to cast a list containing elements of the same type (`int`) to a `num` list:
 
 ```dart
 void main() {
