@@ -32,7 +32,7 @@ In the following example, the `.cast()` method is used to cast a list containing
 
 ```dart
 void main() {
-  List<int> intList = [1, 2, 3, 4, 5];
+  List<int> intList = [14, 25, 36, 47, 58];
   print(intList);
 
   List<num> numList = intList.cast<num>();
