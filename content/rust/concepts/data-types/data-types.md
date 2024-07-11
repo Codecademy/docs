@@ -33,7 +33,7 @@ fn main() {
   let float: f64 = 3.14;
   let boolean: bool = true;
   let character: char = 'R';
-  
+
   println!("Integer: {}", int);
   println!("Float: {}", float);
   println!("Boolean: {}", boolean);
@@ -63,7 +63,7 @@ Compound types represent multiple values and can be grouped. It consists of the 
 fn main() {
   let tuple: (i32, f64, bool) = (42, 3.14, true);
   let array: [i32; 3] = [1, 2, 3];
-  
+
   println!("Tuple: ({}, {}, {})", tuple.0, tuple.1, tuple.2);
   println!("Array: {:?}", array);
 }
