@@ -24,20 +24,25 @@ Class components contain a state and use a `render()` function to return [JSX](h
 import React from 'react';
 
 class ClassComponent extends React.Component {
-  this.state = {
-    property1: "A string",
-    property2: 1,
-    property3: true
+  constructor(props) {
+    super(props);
+    this.state = {
+      property1: "A string",
+      property2: 1,
+      property3: true
+    };
   }
 
   render() {
     return (
       <div>
         ...
-      <div>
-    )
-  };
-};
+      </div>
+    );
+  }
+}
+
+export default ClassComponent;
 ```
 
 ## Function Components
