@@ -40,7 +40,7 @@ void main() {
 }
 ```
 
-The output of the above code is the same for both intList and numList because `num` is a type that all numbers conform to whether they are `int` or `double`.
+The output of the above code is the same for both `intList` and `numList` because `num` is a type that all numbers conform to, whether they are `int` or `double`:
 
 ```shell
 //intList
