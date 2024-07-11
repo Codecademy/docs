@@ -46,14 +46,14 @@ import plotly.express as px
 # Loading a built-in data frame
 df = px.data.tips()
 
-# Creating the histogram with the total_boll as the x variable and integer "20" as nbins.
+# Creating the histogram with the total_boll as the x variable and integer "20" as nbins
 fig = px.histogram(df, x="total_bill", nbins=20)
 
 # Showing the histogram plot
 fig.show()
 ```
-By default, the number of bins is chosen so that this number is comparable to the typical number of samples in a bin. In this example the number of bins can be customized.
+By default, the number of bins is chosen so, that this number is comparable to the typical number of samples in a bin. In this example the number of bins can be customized.
 
 The above code produces the following output:
 
-![The output for the above example](<https://raw.githubusercontent.com/Codecademy/docs/main/media/plotly-express-box()-example.png>)
+![The output for the above example](<https://raw.githubusercontent.com/Codecademy/docs/main/media/plotly-express-histogram-example.png>)
