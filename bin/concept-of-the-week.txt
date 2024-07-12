@@ -1,1 +1,1 @@
-content/general/concepts/jsp/jsp.md
+content/java/concepts/math-methods/math-methods.md
