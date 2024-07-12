@@ -12,8 +12,7 @@ CatalogContent:
   - 'paths/design-databases-with-mysql'
 ---
 
-MySQL bit-functions are used to perform operations on binary data at the bit level.
-These functions are used for tasks that require binary data organization or manipulation based on bitwise logic.
+MySQL **bit-functions** are used to perform operations on binary data at the bit level. These functions are used for tasks that require binary data organization or manipulation based on bitwise logic.
 
 ## Syntax
 
@@ -22,33 +21,31 @@ These are some commonly used bit-functions in MySQL:
 `Bitwise AND &()`: It takes two integer operands and compares them bit by bit.
 The result is 1 if the bits of both operands are 1, otherwise, the result is 0.
 
-```mysql
+```pseudo
 SELECT (expression1 & expression2);
 ```
 
 `Bitwise XOR ^()`: It takes two integer values and executes a bitwise exclusive OR operation on them.
 
-```psuedo
+```pseudo
 SELECT (expression1 ^ expression2);
 ```
 
-`Bitwise OR |`: It takes two operands and compares them by the bit. If at least one
-of the corresponding bits is 1, result is 1. If both bits are 0, the result is 0.
+`Bitwise OR |`: It takes two operands and compares them by the bit. If at least one of the corresponding bits is 1, the result is 1. If both bits are 0, the result is 0.
 
-```psuedo
+```pseudo
 SELECT (expression1 | expression2);
 ```
 
 `BIT_COUNT`: This function is used to return the number of bits that are set to 1 in the operand's binary representation.
 
-```psuedo
+```pseudo
 SELECT BIT_COUNT(expression);
 ```
 
 ## Examples
 
-Next are a few examples of some of the MySQL concepts described. In this basic example,
-mySQL performs the bitwise AND operation on the two literal integer values 45 and 25:
+Next are a few examples of some of the MySQL concepts described. In this basic example, mySQL performs the bitwise AND operation on the two literal integer values 45 and 25:
 
 ```mysql
 > SELECT 45 & 25;
@@ -62,8 +59,7 @@ In the above example:
 - The bitwise AND operation between 45 and 25 is in binary 001001.
 - 001001 in decimal is represented as 9.
 
-In this example, the function `XOR` is used to compare and manipulate the label values within a database.
-The query uses this function to select rows based on the results of the operation:
+In the example below, the function `XOR` is used to compare and manipulate the label values within a database. The query uses this function to select rows based on the results of the operation:
 
 ```mysql
 SELECT *
@@ -83,15 +79,12 @@ id|name |labels
 Performed XOR operations are explained bellow:
 
 Labels value 5 is represented by 0101 and XOR comparison is:
-
 - 0101 ^ 0011 = 0110 (6 in decimal, which is greater than 5)
 
 Labels value 3 is represented by 0011 and XOR comparison is:
-
 - 0011 ^ 0011 = 0000 (0 in decimal, which is not greater than 5)
 
 Labels value 12 is represented by 1100 and XOR comparison is:
-
 - 1100 ^ 0011 = 1111 (15 in decimal, which is greater than 5)
 
 The result looks like:
@@ -101,7 +94,7 @@ The result looks like:
 | 1   | post1 | 5      |
 | 3   | post3 | 12     |
 
-This basic XOR operation example illustrates a bit level comparison of two integer literals (5 and 0):
+This basic `XOR` operation example illustrates a bit-level comparison of two integer literals (5 and 0):
 
 ```mysql
 > SELECT 5 ^ 0;
@@ -136,9 +129,7 @@ SELECT (9 | 5) AS result;
 - 5 in binary: 0101
   The result of the bitwise OR operation is 1101 in binary, which is equivalent to the decimal number 13.
 
-In this example we have a table called customers which contains a list of customers IDs as integers.
-Each customer ID is associated with a number of orders.
-We need to find out how many bits are set to '1' in the binary representation of each customer's ordering activity.
+In this example, we have a table called customers which contains a list of customers IDs as integers. Each customer ID is associated with a number of orders. We need to find out how many bits are set to '1' in the binary representation of each customer's ordering activity.
 
 | customer_ID | number_of_orders |
 | ----------- | ---------------- |
@@ -149,7 +140,7 @@ We need to find out how many bits are set to '1' in the binary representation of
 
 ---
 
-BIT_COUNT(number_of_orders) function returns the number of '1' bits in the binary representation of the number_of_orders column.
+The `BIT_COUNT(number_of_orders)` function returns the number of '1' bits in the binary representation of the number_of_orders column.
 
 ```mysql
 SELECT
