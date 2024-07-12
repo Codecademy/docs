@@ -311,6 +311,7 @@ Strings
 Structure
 Style
 Subqueries
+Supervised Learning
 SwiftUI
 SwiftUI Views
 SwiftUI ViewModifiers
@@ -344,6 +345,7 @@ Union
 Unicode
 Units
 Unix
+Unsupervised Learning
 URL
 UX
 Validation
