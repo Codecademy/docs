@@ -71,7 +71,7 @@ CREATE TABLE example_table (
 
 ### JSON Data Types
 
-- ‘JSON’: allows storing and querying semi-structured JSON data in a relational database environment being useful in cases that requires dynamic and flexible data storage (e-commerce platforms, product catalogs)
+- ‘JSON’: allows storing and querying semi-structured JSON data in a relational database environment being useful in cases that requires dynamic and flexible data storage (e-commerce platforms, product catalogs).
 
 ## Examples
 
@@ -99,13 +99,8 @@ VALUES
 Numeric, date and time data types used in above scenario makes it possible to have recorded information stored in the database like for example:
 first payment was made by the user with ID 10000000001, for the order 50000000001, and they paid 999999999999 (imagine it's in cents, so that's $9999999.99) on July 10, 2024, at 12:00 PM.
 
-CREATE TABLE biometric_data (
-user_id INT AUTO_INCREMENT PRIMARY KEY,
-fingerprint_template BINARY(512) -- Assume the fingerprint template is 512 bytes
-);
-
-In this example, we make use of MySql to create and store fingerprint templates for biometric authentication in a security system.
-A table biometric_data is created:
+In this example, we use MySql to create and store fingerprint templates for biometric authentication in a security system.
+The table biometric_data is created:
 
 CREATE TABLE biometric_data (
 user_id INT AUTO_INCREMENT PRIMARY KEY,
@@ -121,4 +116,4 @@ Next when someone scans their fingerprint, a special code is created and stored 
 INSERT INTO biometric_data (fingerprint_template)
 VALUES (UNHEX('AABBCCDDEEFF00112233445566778899AABBCCDDEEFF00112233445566778899...'));
 
-By using BINARY and INT data types MySQL enables fingerprint templates to be stored in their original binary format, useful in authentication systems.
+By using BINARY and INT data types MySQL stores fingerprint templates in their original binary format, useful in authentication systems.
