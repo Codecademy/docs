@@ -94,9 +94,9 @@ red
 black
 ```
 
-- Range operator `..`: Print all items between two indexes (exclusive).
+- Range operator `..`: Print all items between two indexes (inclusive).
 
-> **Note:** This syntax is exclusive since the stop index `3` is not included.
+> **Note:** This syntax is inclusive since the stop index `3` is included.
 
 ```shell
 PS > $colors[1..3]
