@@ -47,4 +47,4 @@ An image that has a starting width of 200 pixels:
 ```
 The output of the above codeblock is shown below:
 
-![Image demonstrates the use of 200px `flex-basis` on `#img_one` alongside other images in the flex with default properties.](../../../../../../media/css-flex-basis-example-output.png)
+![Image demonstrates the use of 200px `flex-basis` on `#img_one` alongside other images in the flex with default properties.](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-flex-basis-example-output.png)
