@@ -5,9 +5,8 @@ Subjects:
   - 'Computer Science'
   - 'Machine Learning'
 Tags:
-  - 'TensorFlow'
   - 'Deep Learning'
-  - 'An nth tag'
+  - 'TensorFlow'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
@@ -17,9 +16,9 @@ CatalogContent:
 
 ## Foundations of Keras
 
-The base of Keras is layers and models. It allows to perform every step in building a model. That includes loading and cleaning the dataset, stacking layers to create models, evaluating model output, etc.
+The foundation of Keras revolves around its core components: layers and models. It facilitates every step of the model-building process, from loading and preprocessing datasets to stacking layers to form complete models, and evaluating the output of these models.
 
-To start building with functions within keras, the following is used:
+To begin building with functions within Keras, the following syntax is used:
 
 ```pseudo
 tf.keras.relevantFunction()
