@@ -1,6 +1,6 @@
 ---
 Title: '.containsValue()'
-Description: 'Checks if a particular value is present in a Map.'
+Description: 'Checks if a particular value is present in a map.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
