@@ -39,3 +39,11 @@ p {
 ```
 
 Above code indicating that the text in `p` tag will be underlined.
+
+**Output**:
+
+![Output of text styled using CSS in Markdown.](/media/css-typography-decoration-output.png)
+
+**Markdown syntax**:
+
+![CSS code used to style paragraph text in a Markdown document.](/media/css-typography-decoration.png)
