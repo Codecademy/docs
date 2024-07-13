@@ -21,7 +21,6 @@ In Python, the **`.comb()`** function from the `math` module determines how many
 ```pseudo
 math.comb(n, k)
 ```
-where: 
 
 - `n`: A non-negative integer that represents the total number of items.
 - `k`: A non-negative integer that represents the number of items to choose.
