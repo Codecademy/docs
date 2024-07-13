@@ -1,6 +1,6 @@
 ---
-Title: 'math.comb()'
-Description: 'Finds out how many unordered choices can be made in order to choose "k" amount of items from "n" number of items.'
+Title: '.comb()'
+Description: 'Calculates the number of ways to choose `k` items from `n` items without regard to order.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
@@ -10,7 +10,7 @@ Tags:
   - 'Combinations'
 CatalogContent:
   - 'learn-python-3'
-  - 'paths/analyze-data-with-python'
+  - 'paths/computer-science'
 ---
 
 
