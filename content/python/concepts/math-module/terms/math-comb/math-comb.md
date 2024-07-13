@@ -29,7 +29,7 @@ where:
 
 ## Example 
 
-We use 'math.comb(n,k)' to find the number of unordered choices made to choose 'k' items from 'n' items. 
+The following example shows the use of `.comb()` function:
 
 ```py
 import math 
