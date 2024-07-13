@@ -14,7 +14,7 @@ CatalogContent:
 ---
 
 
-**Math.comb()** function allows you to find out how many unordered choices can be possibly made in order to choose 'k' amount of items from 'n' number of items.
+In Python, the **`.comb()`** function from the `math` module determines how many unordered choices can be made to select `k` items from `n` items.
 
 ## Syntax
 
