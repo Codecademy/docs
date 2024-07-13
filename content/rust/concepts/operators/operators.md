@@ -124,7 +124,7 @@ fn main() {
   println!("x / y = {}", result_div);
 
   let result_modulo = x % y;
-  println!("x % y = {}", result_modulo);
+   println!("x % y = {}\n", result_modulo);
 
 // Comparison Operators
   let is_equal = x == y;
@@ -143,7 +143,7 @@ fn main() {
   println!("{} >= {} is {}", x, y, is_greater_or_equal);
 
   let is_less_or_equal = x <= y;
-  println!("{} <= {} is {}", x, y, is_less_or_equal);
+  println!("{} <= {} is {}\n", x, y, is_less_or_equal);
 
 // Logical Operators
     let result_1 = x < y && y < z;  // true
@@ -153,7 +153,7 @@ fn main() {
     println!("Result_2: {}", result_2);
 
     let result_3 = x != y;
-    println!("Result_3: {}", result_3);
+     println!("Result_3: {}\n", result_3);
 
 // Bitwise Operators
   let result_and = x & y;
@@ -172,7 +172,7 @@ fn main() {
   println!("{} << 2 = {}", x, result_left_shift);
 
   let result_right_shift = x >> 2;
-  println!("{} >> 2 = {}", x, result_right_shift);
+   println!("{} >> 2 = {}\n", x, result_right_shift);
 
 // Compound Assignment Operators
   x += y;
@@ -188,7 +188,7 @@ fn main() {
   println!("x /= y: {}", x);
 
   x %= y;
-  println!("x %= y: {}", x);
+  println!("x %= y: {}\n", x);
 
   // Reset x and y for bitwise operations
   x = 0b1010; // 10 in binary
@@ -203,6 +203,7 @@ Here is the output of the above code:
 
 ```
 x = 8, y = 4, z = 10
+
 x + y = 12
 x - y = 4
 x * y = 32
@@ -232,7 +233,6 @@ x -= y: 8
 x *= y: 32
 x /= y: 8
 x %= y: 0
+
 x &= y: 0b1000
 ```
-
-Operators play a crucial role in functionality and efficiency, providing a wide array of operations that cater to various programming needs. From arithmetic and comparison to logical and bitwise operators, they ensure developers can perform complex calculations, make decisions, and manipulate data effectively.
