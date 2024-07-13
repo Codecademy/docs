@@ -48,7 +48,7 @@ Total ways to choose: 210
 
 ## Codebyte Example
 
-Run the example given below that uses 'math.comb()' in order to find out in how many ways can someone choose 'k' number of flowers from 'n' number of flowers. 
+Run the example given below that uses `comb()` in order to find out in how many ways can someone choose `k` number of flowers from `n` number of flowers. 
 
 ```codebyte/python
 import math
