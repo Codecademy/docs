@@ -23,7 +23,8 @@ math.comb(n, k)
 ```
 where: 
 
-    n, k - non-negative integers
+- `n`: A non-negative integer that represents the total number of items.
+- `k`: A non-negative integer that represents the number of items to choose.
 
   The result returned is a non-negative integer value that represents the number of ways in which we can make k number of choices out of n number of items without any repetition or order.
 
