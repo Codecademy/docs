@@ -23,7 +23,7 @@ Understanding the different values of the `display` property is crucial for buil
 display: <value>;
 ```
 
-The following values can be appplied to the `display` property:
+The following values can be applied to the `display` property:
 
 - `inline`
 - `block`

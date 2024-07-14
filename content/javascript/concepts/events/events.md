@@ -1,6 +1,6 @@
 ---
 Title: 'Events'
-Description: 'Events are things that happen in HTML objects that can trigger scripting code. JavaScript can be executed by events in HTML via two methods: - The JavaScript code can appear within the appropriate HTML attribute in the HTML object. - Or a separate script can define an event handler on the object that executes when the event is fired. You can assign JavaScript code to an event attribute in an HTML object. html  Click Me!'
+Description: 'Events are things that happen in HTML objects that can trigger scripting code. JavaScript can be executed by events in HTML via two methods: - The JavaScript code can appear within the appropriate HTML attribute in the HTML object. - Or a separate script can define an event handler on the object that executes when the event is fired. You can assign JavaScript code to an event attribute in an HTML object.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'

@@ -58,7 +58,7 @@ The algorithm concludes when the goal node **G** is removed from the open list a
 
 Consider the following example of trying to find the shortest path from **S** to **G** in the following graph:
 
-![Example Graph](https://raw.githubusercontent.com/Codecademy/docs/main/media/a-star-example-graph.png)
+![Example Graph](https://raw.githubusercontent.com/Codecademy/docs/main/media/a-star-example-graph_corrected.png)
 
 Each edge has an associated weight, and each node has a heuristic cost (in parentheses).
 

@@ -1,6 +1,6 @@
 ---
 Title: '🔁 Repeat While'
-Description: 'The 🔁 statment repeats a code block while as long as the given condition is 👍 (true). And if the condition is never 👍 (false), the code block will be ignored and skipped. Due to the ease of use of the 🔂 (for-in) statement, 🔁 is only used seldomly. emojic 🏁 🍇 🔁 👍 🍇 😀 🔤It goes on and on and on🔤❗️ 🍉'
+Description: 'The 🔁 statement repeats a code block while as long as the given condition is 👍 (true). And if the condition is never 👍 (false), the code block will be ignored and skipped. Due to the ease of use of the 🔂 (for-in) statement, 🔁 is only used seldomly. emojic 🏁 🍇 🔁 👍 🍇 😀 🔤It goes on and on and on🔤❗️ 🍉'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The 🔁 statment repeats a code block while as long as the given condition is 👍 (true). And if the condition is never 👍 (false), the code block will be ignored and skipped.
+The 🔁 statement repeats a code block while as long as the given condition is 👍 (true). And if the condition is never 👍 (false), the code block will be ignored and skipped.
 
 Due to the ease of use of the 🔂 (for-in) statement, 🔁 is only used seldomly.
 

@@ -59,7 +59,7 @@ The `htmlentities()` function has one required parameter and three optional para
     |UTF-8||htmlentities() function works with ASCII compatible multi-byte 8-bit Unicode charset.|
     |cp866|ibm866, 866|htmlentities() function works with DOS-specific Cyrillic charset.|
     |cp1251|Windows-1251, win-1251, 1251|htmlentities() function works with Windows-specific Cyrillic charset.|
-    |cp1252|Windows-1252, 1252|htmlentities() function works with Windows specific charset for Western European chatset.|
+    |cp1252|Windows-1252, 1252|htmlentities() function works with Windows specific charset for Western European charset.|
     |MacRoman||htmlentities() function works with charset that was used by Mac OS.|
 
     > **Note:** Any other character sets are not recognized. The default encoding will be used instead and a warning will be emitted.

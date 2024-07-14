@@ -14,7 +14,7 @@ CatalogContent:
 
 JSX is a syntax extension of JavaScript that combines the JavaScript and HTML-like syntax to provide highly functional, reusable markup. It's used to create DOM elements which are then rendered in the React DOM.
 
-While not required in React, JSX provides a neat visual reqresentation of the application's UI.
+While not required in React, JSX provides a neat visual representation of the application's UI.
 
 A JavaScript file containing JSX will have to be compiled before it reaches a web browser.
 

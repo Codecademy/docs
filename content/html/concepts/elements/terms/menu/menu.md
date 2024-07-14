@@ -24,7 +24,7 @@ The **`<menu>`** element represents an unordered list of items with more semanti
 </menu>
 ```
 
-Each item is user-interative content such as a [link](https://www.codecademy.com/resources/docs/html/links) and [buttons](https://www.codecademy.com/resources/docs/uiux/button).
+Each item is user-interactive content such as a [link](https://www.codecademy.com/resources/docs/html/links) and [buttons](https://www.codecademy.com/resources/docs/uiux/button).
 
 ## Example
 
