@@ -53,7 +53,7 @@ Here is another example that uses the `.cast()` method to cast a `dynamic` list 
 void main() {
   List<dynamic> dynamicList = [1, 'Two', 'Three', 4, 5];
   print(dynamicList);
-  
+
   List<int> intList = dynamicList.cast<int>();
   print(intList);
 }
