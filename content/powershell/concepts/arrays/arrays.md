@@ -94,7 +94,7 @@ red
 black
 ```
 
-- Range operator `..`: Print all items between two indexes (inclusive).
+- Range operator `..`: Prints all items between two indexes (inclusive).
 
 > **Note:** This syntax is inclusive since the stop index `3` is included.
 
