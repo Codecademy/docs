@@ -27,18 +27,14 @@ class ClassComponent extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      property1: "A string",
+      property1: 'A string',
       property2: 1,
-      property3: true
+      property3: true,
     };
   }
 
   render() {
-    return (
-      <div>
-        ...
-      </div>
-    );
+    return <div>...</div>;
   }
 }
 
@@ -51,11 +47,7 @@ Function components are stateless and only use the `return` statement. No import
 
 ```jsx
 function FunctionComponent(props) {
-  return (
-    <div>
-      ...
-    </div>
-  )
+  return <div>...</div>;
 }
 ```
 
@@ -65,10 +57,6 @@ The [arrow function](https://www.codecademy.com/resources/docs/javascript/arrow-
 
 ```jsx
 const FunctionComponent = (props) => {
-  return (
-    <div>
-      ...
-    </div>
-  )
-}
+  return <div>...</div>;
+};
 ```
