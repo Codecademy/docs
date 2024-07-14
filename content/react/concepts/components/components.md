@@ -54,7 +54,7 @@ function FunctionComponent(props) {
   return (
     <div>
       ...
-    <div>
+    </div>
   )
 }
 ```
@@ -68,7 +68,7 @@ const FunctionComponent = (props) => {
   return (
     <div>
       ...
-    <div>
+    </div>
   )
 }
 ```
