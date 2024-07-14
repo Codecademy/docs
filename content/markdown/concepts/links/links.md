@@ -31,35 +31,35 @@ We just updated our [Docs Contribution Guide](https://www.codecademy.com/pages/c
 
 ## Accessibility: Link Titles
 
-A title for a link can be optionally added. This will appear as a tooltip when the user hovers over the link. To add a title, enclose it in parentheses `()` after the URL.
+A title for a link can be optionally added. This will appear as a tooltip when the user hovers over the link. To add a title, enclose it in quotation marks `""` after the URL inside the parentheses.
 
-Links should have link titles so that screenreaders can narrate them as well as a user can <kbd>Tab</kbd> through the page.
+Including link titles improves accessibility by providing additional context for screen readers and users navigating with the keyboard.
 
 ```md
-[Link text](https://website-name.com 'Link title')
+[Link text](https://website-name.com "Link title")
 ```
 
 For example:
 
 ```md
-My favorite Craigslist category is [Missed Connections](https://newyork.craigslist.org/d/missed-connections/search/mis 'The best place on the internet').
+My favorite Craigslist category is [Missed Connections](https://newyork.craigslist.org/d/missed-connections/search/mis "The best place on the internet").
 ```
 
 The output would look like:
 
-My favorite Craigslist category is [Missed Connections](https://newyork.craigslist.org/d/missed-connections/search/mis 'The best place on the internet').
+My favorite Craigslist category is [Missed Connections](https://newyork.craigslist.org/d/missed-connections/search/mis "The best place on the internet").
 
 ## URLs and Email Addresses
 
-To quickly turn a URL or email address into a link, enclose it in angle brackets `<` `>`.
+To turn a URL or email address into a clickable link, enclose it in angle brackets `<URL or email>`.
 
 - `<https://www.codecademy.com/resources/docs>`
-- `<hotmale@hotmail.com>`
+- `<foo42@hotmail.com>`
 
 The rendered output looks like this:
 
 - <https://www.codecademy.com/resources/docs>
-- <hotmale@hotmail.com>
+- <foo42@hotmail.com>
 
 ## Internal Linking
 
