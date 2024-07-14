@@ -5,8 +5,8 @@ Subjects:
   - 'Computer Science'
   - 'Mobile Development'
 Tags:
-  - 'Dart'
   - 'Arithmetic'
+  - 'Dart'
   - 'Lists'
   - 'Methods'
 CatalogContent:
@@ -22,7 +22,7 @@ The **`.cast()`** method in Dart is used to change a list type and is used when 
 List<R> newList = originalList.cast<R>();
 ```
 
-- `R`: Refers to the list type. The most common list types for a typed list are `int`, `double`, [`String`](https://www.codecademy.com/resources/docs/dart/strings), and `bool`. Besides that, it can also be `dynamic`.
+- `R`: Refers to the list type. The most common list types for a typed list are `int`, `double`, [`string`](https://www.codecademy.com/resources/docs/dart/strings), and `bool`. Besides that, it can also be `dynamic`.
 - `newList`: The new list of elements after conforming to a specific type.
 - `originalList`: The original list of elements that need to be changed.
 
@@ -59,7 +59,7 @@ void main() {
 }
 ```
 
-The code above will print `dynamicList` in the output. However, `dynamicList` will not change to `intList` as a `String` can't be changed to an `int`. Hence, the method returns an error:
+The code above will print `dynamicList` in the output. However, `dynamicList` will not be successfully cast to `intList` because a `string` cannot be changed to an `int`. Hence, the method returns an error:
 
 ```shell
 [1, Two, Three, 4, 5]
