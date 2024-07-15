@@ -37,7 +37,7 @@ We are currently building a team of community volunteers and educators to mainta
 
 Here's how you can contribute to Codecademy Docs:
 
-- Get assigned to an Issue of your interest.
+- Get assigned to an Issue of your interest:
   - Ask to be assigned to one of the [available Issues](https://github.com/Codecademy/docs/issues?q=is%3Aissue+is%3Aopen+-label%3Aclaimed).
   - Submit a typo/bug in [GitHub Issues](https://github.com/Codecademy/docs/issues).
 - Prepare your contribution:
@@ -46,9 +46,7 @@ Here's how you can contribute to Codecademy Docs:
   - Create a new branch for your contributions:
 
     ```shell
-
     git checkout -b branch_name
-
     ```
 
   - Write a new entry or make changes to an existing entry, based on the requirement of your Issue.
