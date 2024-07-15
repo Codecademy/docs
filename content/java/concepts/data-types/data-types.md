@@ -21,16 +21,16 @@ Java’s most basic data types are known as primitive data types and are in the 
 
 The primitive data types in Java are listed in the table below:
 
-| Data Type |  Size   | Description                                                        |
-| --------- | ------- | ------------------------------------------------------------------ |
-|`int`      | 32 bits | stores whole numbers (integers) using 32 bits of memory            |
-|`char`     | 16 bits | Character                                                          |
-|`boolean`  | 8 bits  | stores only two possible values: True and False                    |
-|`byte`     | 8 bits  | smallest whole number type, using only 8 bits memory               |
-|`short`    | 16 bits | Stores smaller whole numbers, saving memory compared to `int`      |
-|`long`     | 64 bits | Stores extremely large whole numbers that wouldn't fit in an `int` |
-|`double`   | 64 bits | Stores decimal point numbers                                       |
-|`float`    | 32 bits | Similar to double but uses 32 bits of memory                       |
+| Data Type | Default Value | Size (bits) | Description                                                                          |
+| --------- |----| ------- | --------------------------------------------------------------------------------------------------- |
+|`int`      | 0 | 32 | Represents whole numbers between -2,147,483,648 and 2,147,483,647                                         |
+|`char`     | null | 16 | Stores a single character, letters or ASCII values                                                     |
+|`boolean`  | False | 8 | Holds only two possible values: True and False                                                         |
+|`byte`     | 0  | 8 | Represents whole numbers ranging from -128 to 127                                                         |
+|`short`    | 0 | 16 |Stores smaller whole numbers, from -32,768 to 32,767                                                       |
+|`long`     | 0 | 64 | Represents very large whole numbers, ranging from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 |
+|`double`   | 0.0 | 64 | Stores decimal numbers with a precision of at least 15 digits                                           |
+|`float`    | 0.0 | 32 | Stores decimal point numbers with a precision of around 6 to 7 digits                                   |
 
 `null` is another, but it can only ever store the value null.
 
