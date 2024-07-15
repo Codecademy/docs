@@ -104,9 +104,9 @@ Here is a simple code block that demonstrates the use of various operators in ru
 
 ``` rust
 fn main() {
-  let x = 8;
-  let y = 4;
-  let z = 10
+  let mut x = 8;
+  let mut y = 4;
+  let mut z = 10;
 
 // Arithmetic Operators
   println!("x = {}, y = {}, z = {}\n", x, y, z);
