@@ -41,14 +41,15 @@ Here's how you can contribute to Codecademy Docs:
   - Ask to be assigned to one of the [available Issues](https://github.com/Codecademy/docs/issues?q=is%3Aissue+is%3Aopen+-label%3Aclaimed).
   - Submit a typo/bug in [GitHub Issues](https://github.com/Codecademy/docs/issues).
 - Prepare your contribution:
+
   - Fork the Codecademy docs repository on your GitHub account.
   - Create a new branch for your contributions:
-  
-     ```shell
 
-     git checkout -b branch_name
+    ```shell
 
-     ```
+    git checkout -b branch_name
+
+    ```
 
   - Write a new entry or make changes to an existing entry, based on the requirement of your Issue.
 
