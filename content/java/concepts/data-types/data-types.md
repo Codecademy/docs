@@ -23,14 +23,14 @@ The primitive data types in Java are listed in the table below:
 
 | Data Type | Size (bits)           | Default Value(for fields) | Description                                                               |
 | --------- | --------------------- | ------------------------- | ------------------------------------------------------------------------- |
-| `byte`    | 8                     | `0`                         | Represents whole numbers ranging from -128 to 127.                        |
-| `short`   | 16                    | `0`                         | Stores smaller whole numbers, from -32,768 to 32,767.                     |
-| `int`     | 32                    | `0`                         | Represents whole numbers from -2,147,483,648 to 2,147,483,647.            |
-| `long`    | 64                    | `0L`                        | Represents very large whole numbers, ranging from -2^63 to 2^63-1.        |
-| `float`   | 32                    | `0.0f`                      | Stores floating-point numbers with up to 7 decimal digits of precision.   |
-| `double`  | 64                    | `0.0d`                      | Stores floating-pointl numbers with up to 15 decimal digits of precision. |
-| `boolean` | Not precisely defined | `false`                     | Holds only two possible values: `true` and `false`.                            |
-| `char`    | 16                    | `'\u0000'`                  | Stores a single character, including letters and ASCII values.                        |
+| `byte`    | 8                     | `0`                       | Represents whole numbers ranging from -128 to 127.                        |
+| `short`   | 16                    | `0`                       | Stores smaller whole numbers, from -32,768 to 32,767.                     |
+| `int`     | 32                    | `0`                       | Represents whole numbers from -2,147,483,648 to 2,147,483,647.            |
+| `long`    | 64                    | `0L`                      | Represents very large whole numbers, ranging from -2^63 to 2^63-1.        |
+| `float`   | 32                    | `0.0f`                    | Stores floating-point numbers with up to 7 decimal digits of precision.   |
+| `double`  | 64                    | `0.0d`                    | Stores floating-pointl numbers with up to 15 decimal digits of precision. |
+| `boolean` | Not precisely defined | `false`                   | Holds only two possible values: `true` and `false`.                       |
+| `char`    | 16                    | `'\u0000'`                | Stores a single character, including letters and ASCII values.            |
 
 Here's an example demonstrating the usage of these primitive data types:
 
