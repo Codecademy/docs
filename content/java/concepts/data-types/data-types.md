@@ -21,28 +21,28 @@ Java’s most basic data types are known as primitive data types and are in the 
 
 The primitive data types in Java are listed in the table below:
 
-| Data Type | Default Value | Size (bits) | Description                                                                          |
-| --------- |----| ------- | --------------------------------------------------------------------------------------------------- |
-|`int`      | 0 | 32 | Represents whole numbers between -2,147,483,648 and 2,147,483,647                                         |
-|`char`     | null | 16 | Stores a single character, letters or ASCII values                                                     |
-|`boolean`  | False | 8 | Holds only two possible values: True and False                                                         |
-|`byte`     | 0  | 8 | Represents whole numbers ranging from -128 to 127                                                         |
-|`short`    | 0 | 16 |Stores smaller whole numbers, from -32,768 to 32,767                                                       |
-|`long`     | 0 | 64 | Represents very large whole numbers, ranging from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 |
-|`double`   | 0.0 | 64 | Stores decimal numbers with a precision of at least 15 digits                                           |
-|`float`    | 0.0 | 32 | Stores decimal point numbers with a precision of around 6 to 7 digits                                   |
+| Data Type | Size (bits)           | Default Value(for fields) | Description                                                               |
+| --------- | --------------------- | ------------------------- | ------------------------------------------------------------------------- |
+| `byte`    | 8                     | `0`                         | Represents whole numbers ranging from -128 to 127.                        |
+| `short`   | 16                    | `0`                         | Stores smaller whole numbers, from -32,768 to 32,767.                     |
+| `int`     | 32                    | `0`                         | Represents whole numbers from -2,147,483,648 to 2,147,483,647.            |
+| `long`    | 64                    | `0L`                        | Represents very large whole numbers, ranging from -2^63 to 2^63-1.        |
+| `float`   | 32                    | `0.0f`                      | Stores floating-point numbers with up to 7 decimal digits of precision.   |
+| `double`  | 64                    | `0.0d`                      | Stores floating-pointl numbers with up to 15 decimal digits of precision. |
+| `boolean` | Not precisely defined | `false`                     | Holds only two possible values: `true` and `false`.                            |
+| `char`    | 16                    | `'\u0000'`                  | Stores a single character, including letters and ASCII values.                        |
 
-`null` is another, but it can only ever store the value null.
+Here's an example demonstrating the usage of these primitive data types:
 
 ```java
-int age = 28;
-char grade = 'A';
-boolean late = true;
-byte b = 20;
-long num1 = 1234567;
-short no = 10;
-float k = (float)12.5;
-double pi = 3.14;
+byte smallNumber = 100;
+short mediumNumber = 30000;
+int largeNumber = 2000000000;
+long veryLargeNumber = 9223372036854775807L;
+float decimalNumber = 3.14f;
+double preciseDecimal = 3.14159265359;
+boolean isJavaFun = true;
+char letter = 'A';
 ```
 
 ## Reference Data Types
