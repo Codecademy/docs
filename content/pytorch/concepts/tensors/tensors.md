@@ -56,6 +56,7 @@ If the values within a tensor do matter, use the following methods:
 
 - For all zeros: `torch.zeros()`
 - For all ones: `torch.ones()`
+- For specified values: `torch.tensor()`
 - For all randomly-generated values: `torch.rand()`
 
 The following examples demonstrate creating data-specific tensors:
@@ -63,9 +64,10 @@ The following examples demonstrate creating data-specific tensors:
 ```python
 import torch
 
-print(torch.zeros(3,2))
-print(torch.ones(1,4))
-print(torch.rand(2,2,2))
+print(torch.zeros(3,2),"\n")
+print(torch.ones(1,4),"\n")
+print(torch.tensor([[1,0,1.56],[3.24, 0.5, 6]]),"\n")
+print(torch.rand(2,2,2),"\n")
 ```
 
 Output:
@@ -74,7 +76,12 @@ Output:
 tensor([[0., 0.],
         [0., 0.],
         [0., 0.]])
+
 tensor([[1., 1., 1., 1.]])
+
+tensor([[1.0000, 0.0000, 1.5600],
+        [3.2400, 0.5000, 6.0000]])
+
 tensor([[[0.2608, 0.5454],
          [0.2085, 0.7901]],
 
@@ -84,3 +91,35 @@ tensor([[[0.2608, 0.5454],
 
 ## Tensor Datatypes
 
+The datatype of a tensor determines the types of values that it can contain. By default, tensors contain 32-bit floats. However, tensors can also contain the following datatypes:
+
+- Floats (floating point numbers)
+  - 8-bit
+  - 16-bit
+  - 32-bit (default)
+  - 64-bit
+- Complex numbers
+  - 32-bit
+  - 64-bit
+  - 128-bit
+- Signed and unsigned integers
+  - 8-bit
+  - 16-bit
+  - 32-bit
+  - 64-bit
+- Booleans
+
+Tensor datatypes can be declared at the creation of a datatype, and can be changed with the method `.to()`:
+
+```python
+import torch
+
+myFloat16Tensor = torch.rand((2,2), dtype=torch.float16)
+myInt64Tensor = torch.rand((2,2), dtype=torch.int64)
+myComplex128Tensor = torch.rand((2,2), dtype=torch.complex128)
+myBoolTensor = torch.rand((2,2), dtype=torch.bool)
+
+print(myFloat16Tensor)
+print(myInt64Tensor)
+print(myComplex128Tensor)
+print(myBoolTensor)
