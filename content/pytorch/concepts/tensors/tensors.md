@@ -111,6 +111,8 @@ The datatype of a tensor determines the types of values that it can contain. By 
   - 32-bit: `dtype=torch.qint32`
 - Booleans: `dtype=torch.bool`
 
+### Declaring and Altering Tensor Datatypes
+
 Tensor datatypes can be declared at the creation of a datatype, and can be changed with the method `.to()`:
 
 ```python
@@ -140,3 +142,25 @@ tensor([[3, 0],
 ```
 
 Notice that when printing a tensor with a numerical datatype other than the default `torch.float32`, the datatype will be specified in the output.
+
+## Tensor Shapes
+
+The shape of a tensor is determined by its number of dimensions and the size of each dimension. To illustrate, the tensor `torch.rand(2, 6, 4)` has the same shape as the tensor `torch.ones(2, 6, 4)`, whereas these have different shapes from the tensors `torch.rand(2, 6)` and `torch.ones(3, 6, 5)`.
+
+Tensor shapes can be accessed via the `.shape` method:
+
+```python
+myTensor = torch.zeros(2, 4, 6, 7)
+print(myTensor.shape)
+```
+
+Output:
+
+```shell
+torch.Size([2, 4, 6, 7])
+```
+
+Operations with multiple tensors, like adding or multiplying tensors, often require the tensors involved to have the same shapes. This is discussed in further in the sections below.
+
+### Altering Tensor Shapes
+
