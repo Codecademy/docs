@@ -67,7 +67,7 @@ import torch
 print(torch.zeros(3,2),"\n")
 print(torch.ones(1,4),"\n")
 print(torch.tensor([[1,0,1.56],[3.24, 0.5, 6]]),"\n")
-print(torch.rand(2,2,2),"\n")
+print(torch.rand(2,2,2))
 ```
 
 Output:
@@ -94,32 +94,49 @@ tensor([[[0.2608, 0.5454],
 The datatype of a tensor determines the types of values that it can contain. By default, tensors contain 32-bit floats. However, tensors can also contain the following datatypes:
 
 - Floats (floating point numbers)
-  - 8-bit
-  - 16-bit
-  - 32-bit (default)
-  - 64-bit
+  - 16-bit: `dtype=torch.float16`
+  - 32-bit: `dtype=torch.float32` (default)
+  - 64-bit: `dtype=torch.float64`
 - Complex numbers
-  - 32-bit
-  - 64-bit
-  - 128-bit
+  - 32-bit: `dtype=torch.complex32
+  - 64-bit: `dtype=torch.complex64`
+  - 128-bit: `dtype=torch.complex128`
 - Signed and unsigned integers
-  - 8-bit
-  - 16-bit
-  - 32-bit
-  - 64-bit
-- Booleans
+  - 8-bit: `dtype=torch.int8` and `dtype=torch.uint8`
+  - 16-bit: `dtype=torch.int16` and `dtype=torch.uint16`
+  - 32-bit: `dtype=torch.int32` and `dtype=torch.uint32`
+  - 64-bit: `dtype=torch.int64` and `dtype=torch.uint64`
+- Quantized integers
+  - 8-bit: `dtype=torch.qint8`
+  - 32-bit: `dtype=torch.qint32`
+- Booleans: `dtype=torch.bool`
 
 Tensor datatypes can be declared at the creation of a datatype, and can be changed with the method `.to()`:
 
 ```python
 import torch
 
-myFloat16Tensor = torch.rand((2,2), dtype=torch.float16)
-myInt64Tensor = torch.rand((2,2), dtype=torch.int64)
-myComplex128Tensor = torch.rand((2,2), dtype=torch.complex128)
-myBoolTensor = torch.rand((2,2), dtype=torch.bool)
+#Create a boolean tensor by explicit declaration
+myBoolTensor = torch.tensor([[1, 0],[0,0]], dtype=torch.bool)
 
-print(myFloat16Tensor)
-print(myInt64Tensor)
-print(myComplex128Tensor)
-print(myBoolTensor)
+#Create a float16 tensor by explicit declaration
+myExFloat16Tensor = torch.tensor([[3.4, 0.9], [2.3, 1.3]])
+
+#Convert the float16 tensor to an int16 tensor using .to()
+myExFloat16Tensor = myExFloat16Tensor.to(torch.int16)
+
+print(myBoolTensor,"\n")
+print(myExFloat16Tensor)
+```
+
+Output:
+
+```shell
+tensor([[ True, False],
+        [False, False]]) 
+
+tensor([[3, 0],
+        [2, 1]], dtype=torch.int16)
+```
+
+Notice that when printing a tensor with a numerical datatype other than the default `torch.float32`, the datatype will be specified in the output.
