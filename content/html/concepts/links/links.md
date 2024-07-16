@@ -20,7 +20,7 @@ CatalogContent:
 ## Hyperlinks
 
 The [`<a>`](https://www.codecademy.com/resources/docs/html/elements/a) anchor tag is used to create hyperlinks in an HTML document. The hyperlinks can point to other webpages, files on the same server, a location on the same page, or any other URL using the hyperlink reference `href` attribute.
-![Hyperlink](https://raw.githubusercontent.com/Codecademy/docs/main/media/hyperlinkexample.png)
+
 
 ### Text Links
 
@@ -31,7 +31,7 @@ Text wrapped in a linked anchor tag becomes a hyperlink to another page:
 
 <a href="http://www.codecademy.com">Visit this site</a>
 ```
-![Codecademy](https://raw.githubusercontent.com/Codecademy/docs/main/media/codecademy.png)
+
 
 ### Internal Links
 
@@ -52,7 +52,7 @@ Anything that is inside the anchor tag will be treated as a link. In this case, 
 
 <a href="http://www.codecademy.com"> <img src="logo.jpg" />Click this image </a>
 ```
-![CodecademyLogo](https://raw.githubusercontent.com/Codecademy/docs/main/media/codecademylogo.png)
+
 
 ### Email and Phone Links
 
@@ -62,19 +62,18 @@ Special strings can be passed to the `href` attribute to link email accounts (`"
 <!-- This link will try to create a new email to foo@codecademy.com. -->
 <a href="mailto:foo@codecademy.com">foo@codecademy.com</a>
 ```
-![Mailto](https://raw.githubusercontent.com/Codecademy/docs/main/media/mailto.png)
+
 ```html
 <!-- This link will try to call phone number 234-555-1212. -->
 <a href="tel:234-555-1212">234-555-1212</a>
 ```
-![Phonelink](https://raw.githubusercontent.com/Codecademy/docs/main/media/phonelink.png)
+
 
 The actions defined by these links will be completed depending on the user's device and settings. For example, clicking a phone link while on a cell phone may use the built in dialer to complete the call.
 
 ## `<link>` Element
 
-The [`<link>`](https://www.codecademy.com/resources/docs/html/elements/link) ![Link](https://raw.githubusercontent.com/Codecademy/docs/main/media/link.png) element is used to connect the document to an outside resource, most commonly stylesheets, via the [`<head>`](https://www.codecademy.com/resources/docs/html/elements/head)
- ![Head](https://raw.githubusercontent.com/Codecademy/docs/main/media/head.png) element. Unlike most elements, which come as opening and closing tags, the `<link />` is self-closing and only contains attributes.
+The [`<link>`](https://www.codecademy.com/resources/docs/html/elements/link) element is used to connect the document to an outside resource, most commonly stylesheets, via the [`<head>`](https://www.codecademy.com/resources/docs/html/elements/head) element. Unlike most elements, which come as opening and closing tags, the `<link />` is self-closing and only contains attributes.
 
 The two primary attributes are:
 
@@ -93,3 +92,4 @@ The two primary attributes are:
   </body>
 </html>
 ```
+![Rendered HTML code](https://raw.githubusercontent.com/Codecademy/docs/main/media/links-screenshot.png)
