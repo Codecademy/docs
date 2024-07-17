@@ -76,8 +76,6 @@ The output of the above query is:
 
 ## Best Practices
 
-**Consistent formatting**: Always write keywords in uppercase for better readability
-
-**Proper naming conventions**: Avoid using keywords as names for tables or coumns. If necessary use, use backticks to avoid syntax errors.
-
-**Comprehensive understanding**: Familiarize yourself with the list of reserved keywors to avoid unintentional errors in SQL queries.
+- **Consistent formatting**: Always write keywords in uppercase for better readability.
+- **Proper naming conventions**: Avoid using keywords as names for tables or coumns. If necessary, use backticks to avoid syntax errors.
+- **Comprehensive understanding**: Familiarize yourself with the list of reserved keywors to avoid unintentional errors in SQL queries.
