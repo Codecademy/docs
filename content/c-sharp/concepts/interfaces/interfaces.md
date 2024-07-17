@@ -51,61 +51,155 @@ class MyClass : MyInterface
 
 ## Example
 
-The following example shows implementation of an interface:
+The following example defines the interface with default implementations. This feature is available from C# 8.0 version onwards:
 
 ```cs
-using System;
-
-// Create an interface called IAnimal
-interface IAnimal
+public interface IAnimal
 {
-    // Define a method called Speak()
-    void Speak();
-}
-
-// Create a class called Dog that implements the IAnimal interface
-class Dog : IAnimal
-{
-    public void Speak()
+    void MakeSound();
+    
+    string Name { get; set; }
+    
+    // Default implementation
+    void Move()
     {
-        Console.WriteLine("Woof!");
+        Console.WriteLine("This is a default animal action.");
+    }
+    
+    // Default implementation
+    void Eat()
+    {
+        Console.WriteLine("Also a default animal action.");
     }
 }
 
-// Create a class called Cat that implements the IAnimal interface
-class Cat : IAnimal
-{
-    public void Speak()
-    {
-        Console.WriteLine("Meow!");
-    }
-}
-
-// Create a main method to test the program
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        // Create a Dog object
-        Dog dog = new Dog();
-
-        // Call the Speak() method on the Dog object
-        dog.Speak();
-
-        // Create a Cat object
-        Cat cat = new Cat();
-
-        // Call the Speak() method on the Cat object
-        cat.Speak();
-    }
-}
 ```
 
 The output for the above code is:
 
 ```shell
-Woof!
-Meow!
+This is a default animal action.
+Also a default animal action.
+```
+
+## Implementing the Interface
+
+The following code implements the above interface in a class named Dog:
+
+```cs
+public class Dog : IAnimal
+{
+    public string Name { get; set; }
+
+    public Dog(string name)
+    {
+        Name = name;
+    }
+
+    public void MakeSound()
+    {
+        Console.WriteLine("Woof!");
+    }
+
+    public void Move()
+    {
+        Console.WriteLine("The dog runs quickly.");
+    }
+}
+
+public class Cat : IAnimal
+{
+    public string Name { get; set; }
+
+    public Cat(string name)
+    {
+        Name = name;
+    }
+
+    public void MakeSound()
+    {
+        Console.WriteLine("Meow!");
+    }
+    
+    // Uses default implementations for Move and Eat
+}
+
+```
+## Codebyte
+
+```cs
+using System;
+
+public interface IAnimal
+{
+    void MakeSound();
+    string Name { get; set; }
+    
+    void Move()
+    {
+        Console.WriteLine("This is a default animal action.");
+    }
+    
+    void Eat()
+    {
+        Console.WriteLine("Also a default animal action.");
+    }
+}
+
+public class Dog : IAnimal
+{
+    public string Name { get; set; }
+
+    public Dog(string name)
+    {
+        Name = name;
+    }
+
+    public void MakeSound()
+    {
+        Console.WriteLine("Woof!");
+    }
+
+    public void Move()
+    {
+        Console.WriteLine("The dog runs quickly.");
+    }
+}
+
+public class Cat : IAnimal
+{
+    public string Name { get; set; }
+
+    public Cat(string name)
+    {
+        Name = name;
+    }
+
+    public void MakeSound()
+    {
+        Console.WriteLine("Meow!");
+    }
+}
+
+public class Program
+{
+    public static void Main()
+    {
+        IAnimal dog = new Dog("Buddy");
+        IAnimal cat = new Cat("Whiskers");
+
+        Console.WriteLine($"{dog.Name} says:");
+        dog.MakeSound();
+        dog.Move();
+        dog.Eat();
+
+        Console.WriteLine($"{cat.Name} says:");
+        cat.MakeSound();
+        cat.Move(); // Uses default implementation
+        cat.Eat();  // Uses default implementation
+    }
+}
+
 ```
 
 ## Use of Interfaces
