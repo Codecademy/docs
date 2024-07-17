@@ -180,7 +180,7 @@ Watch this video to learn how to create JavaScript objects containing different 
 
 ## Codebyte Example
 
-The following example showcases how object properties are defined and applied in Javascript:
+The following example showcases how object properties are defined and applied in JavaScript:
 
 ```codebyte/javascript
 const book = {
