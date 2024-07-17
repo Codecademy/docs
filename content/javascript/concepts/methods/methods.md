@@ -58,3 +58,30 @@ method = car.printOut.bind(car);
 method();
 // Output: 2020 Honda Civic
 ```
+
+## Codebyte Example
+
+```codebyte/javascript
+const person = {
+  firstName: 'John',
+  lastName: 'Doe',
+  fullName: function() {
+    return this.firstName + ' ' + this.lastName;
+  },
+};
+
+console.log(person.fullName());
+// Output: John Doe
+
+// Assigning method to a variable
+const getFullName = person.fullName;
+
+console.log(getFullName());
+// Output: undefined undefined
+
+// Using bind to set context
+const getBoundFullName = person.fullName.bind(person);
+
+console.log(getBoundFullName());
+// Output: John Doe
+```
