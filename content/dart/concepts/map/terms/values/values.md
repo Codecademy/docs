@@ -1,6 +1,6 @@
 ---
 Title: '.values'
-Description: 'Returns an iterable object including all the values in a specified Map.'
+Description: 'Returns an iterable object containing all the values in a specified Map.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Dart, the **`.values`** property is used to return an [iterable](https://www.codecademy.com/resources/docs/dart/iterable) object including all the values in a specified `Map`.
+In Dart, the **`.values`** property is used to return an [iterable](https://www.codecademy.com/resources/docs/dart/iterable) object containing all the values in a specified `Map`.
 
 ## Syntax
 
