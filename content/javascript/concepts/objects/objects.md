@@ -177,7 +177,6 @@ Watch this video to learn how to create JavaScript objects containing different 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MsvR9zVM8dI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-
 ## Codebyte Example
 
 The following example showcases how object properties are defined and applied in JavaScript:
