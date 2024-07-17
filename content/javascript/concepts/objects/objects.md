@@ -195,7 +195,7 @@ const book = {
     pages: 340,
     language: 'English'
   },
-  getSummary: function() {
+  getSummary() {
     return `${this.title} by ${this.author.firstName} ${this.author.lastName} is a ${this.genres.join(', ')} novel published in ${this.publicationYear}.`;
   }
 };
