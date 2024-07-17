@@ -98,7 +98,7 @@ The datatype of a tensor determines the types of values that it can contain. By 
   - 32-bit: `dtype=torch.float32` (default)
   - 64-bit: `dtype=torch.float64`
 - Complex numbers
-  - 32-bit: `dtype=torch.complex32
+  - 32-bit: `dtype=torch.complex32`
   - 64-bit: `dtype=torch.complex64`
   - 128-bit: `dtype=torch.complex128`
 - Signed and unsigned integers
@@ -122,7 +122,7 @@ import torch
 myBoolTensor = torch.tensor([[1, 0],[0,0]], dtype=torch.bool)
 
 #Create a float16 tensor by explicit declaration
-myExFloat16Tensor = torch.tensor([[3.4, 0.9], [2.3, 1.3]])
+myExFloat16Tensor = torch.tensor([[3.4, 0.9], [2.3, 1.3]], dtype=torch.float16)
 
 #Convert the float16 tensor to an int16 tensor using .to()
 myExFloat16Tensor = myExFloat16Tensor.to(torch.int16)
@@ -150,6 +150,8 @@ The shape of a tensor is determined by its number of dimensions and the size of 
 Tensor shapes can be accessed via the `.shape` method:
 
 ```python
+import torch
+
 myTensor = torch.zeros(2, 4, 6, 7)
 print(myTensor.shape)
 ```
@@ -160,7 +162,7 @@ Output:
 torch.Size([2, 4, 6, 7])
 ```
 
-Operations with multiple tensors, like adding or multiplying tensors, often require the tensors involved to have the same shapes. This is discussed in further in the sections below.
+Operations with multiple tensors, like adding or multiplying tensors, generally require the tensors involved to have the same shapes.
 
 ### Altering Tensor Shapes
 
@@ -171,6 +173,8 @@ Since dimensions of with a size of 1 do not alter the total number of elements i
 The following demonstrates the effects of `.unsqueeze_()` and `.squeeze_()` on tensor shapes:
 
 ```python
+import torch
+
 myTensor1 = torch.empty(8, 2, 8, 1)
 print(myTensor1.shape)
 
@@ -194,6 +198,8 @@ One can also create new tensors by squeezing or unsqueezing other tensors. To do
 Tensor shapes can also be changed arbitrarily using `.reshape()`, provided that the total number of elements remains constant:
 
 ```python
+import torch
+
 myTensor = torch.empty(8, 2, 8, 1)
 print(myTensor.shape)
 
@@ -214,3 +220,10 @@ torch.Size([64, 2])
 
 ## Operations with Tensors
 
+Arithmetic operations can be performed between tensors and numbers (e.g. multiplying a tensor by 4) or between multiple tensors.
+
+To perform operations between multiple tensors, all tensors must be of the same shape or they must be **broadcastable**. Tensors that have different shapes are broadcastable when the only differences in tensor shape between the tensors, when comparing dimensions from right-to-left, are either: (a) missing dimensions (one tensor has a dimension that another lacks); or (b) mismatches with dimensions of size 1 (one tensor has a dimension with a different size than another, but that size is 1).
+
+To illustrate, tensors with shapes [2, 3, 4] and [2, 3, 5] are not mutually broadcastable, because the last dimension has a difference that is not covered by either (a) or (b). By contrast, all of the following are mutually broadcastable shapes: [2, 3, 4], [3, 4], [1, 1, 1], and [1, 4]. Relative to the original shape [2, 3, 4], the shape [3, 4] is covered by (a), the shape [1, 1, 1] is covered by (b), and the shape [1, 4] is covered by both (a) for missing dimension 0, and (b) for the mismatch between the sizes dimension 1.
+
+PyTorch contains hundreds of operations for tensors. Details for some important ones are covered on the page [Pytorch Tensor Operations](https://www.codecademy.com/resources/docs/pytorch/tensor-operations).
