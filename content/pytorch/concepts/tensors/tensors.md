@@ -164,3 +164,53 @@ Operations with multiple tensors, like adding or multiplying tensors, often requ
 
 ### Altering Tensor Shapes
 
+PyTorch provides methods for altering the shape of a tensor, provided that the total number of elements in the tensor remains the same. The total number of elements in a tensor is equal to the product of all dimension sizes. So, for example, a tensor with shape [4, 1, 6] contains 4 x 1 x 6 = 24 elements.
+
+Since dimensions of with a size of 1 do not alter the total number of elements in a tensor, PyTorch provides methods for adding and removing dimensions of size 1. The method `.unsqueeze_(n)` adds a dimension of size 1 at the nth place, shifting displiced dimension sizes to the right. Conversely, the method `.squeeze_(n)` removes a dimension of size 1 at the nth place, shifting displaced dimension sizes to the left. Note that the numbering of dimensions begins at 0.
+
+The following demonstrates the effects of `.unsqueeze_()` and `.squeeze_()` on tensor shapes:
+
+```python
+myTensor1 = torch.empty(8, 2, 8, 1)
+print(myTensor1.shape)
+
+myTensor1.unsqueeze_(1)
+print(myTensor1.shape)
+
+myTensor1.squeeze_(4)
+print(myTensor1.shape)
+```
+
+Output:
+
+```shell
+torch.Size([8, 2, 8, 1])
+torch.Size([8, 1, 2, 8, 1])
+torch.Size([8, 1, 2, 8])
+```
+
+One can also create new tensors by squeezing or unsqueezing other tensors. To do so, use the methods `.squeeze()` and `.unsqueeze()` (no underlines) respectively.
+
+Tensor shapes can also be changed arbitrarily using `.reshape()`, provided that the total number of elements remains constant:
+
+```python
+myTensor = torch.empty(8, 2, 8, 1)
+print(myTensor.shape)
+
+myTensor = myTensor.reshape(128)
+print(myTensor.shape)
+
+myTensor = myTensor.reshape(64,2)
+print(myTensor.shape)
+```
+
+Output:
+
+```shell
+torch.Size([8, 2, 8, 1])
+torch.Size([128])
+torch.Size([64, 2])
+```
+
+## Operations with Tensors
+
