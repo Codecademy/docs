@@ -2,8 +2,8 @@
 Title: 'LLM'
 Description: 'Large Language Models (LLMs) are advanced AI systems trained on vast amounts of text data to understand and generate human-like text.'
 Subjects:
-  - 'Artificial Intelligence'
-  - 'Natural Language Processing'
+  - 'Machine Learning'
+  - 'Data Science'
 Tags:
   - 'Machine Learning'
   - 'Deep Learning'
