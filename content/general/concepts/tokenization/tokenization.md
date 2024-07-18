@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-**`Tokenization`** is a fundamental process in natural language processing (NLP) involving breaking down text into smaller units called tokens. These tokens can be words, characters, or even punctuation marks, depending on the specific tokenization approach used. This process is crucial for preparing text data for various NLP tasks and machine learning models.
+**Tokenization** is a fundamental process in natural language processing (NLP) involving breaking down text into smaller units called tokens. These tokens can be words, characters, or even punctuation marks, depending on the specific tokenization approach used. This process is crucial for preparing text data for various NLP tasks and machine learning models.
 
 ## Types of Tokenization
 
