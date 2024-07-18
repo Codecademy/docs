@@ -22,7 +22,7 @@ CatalogContent:
 There are several approaches to tokenization, including:
 
 - **Word Tokenization**: Splits text into individual words, typically using whitespace or punctuation as delimiters.
-- **Subword Tokenization**:Breaks text into smaller units than words, such as prefixes, suffixes, or other subword segments, useful for handling rare or unknown words.
+- **Subword Tokenization**: Breaks text into smaller units than words, such as prefixes, suffixes, or other subword segments, useful for handling rare or unknown words.
 - **Character Tokenization**: Splits text into individual characters, which can be useful for certain tasks or languages.
 - **Sentence Tokenization**: Divides text into sentences, which is often a preliminary step before word tokenization.
 
