@@ -98,12 +98,12 @@ public class Dog : IAnimal
 
     public void MakeSound()
     {
-        Console.WriteLine("Woof!");
+        Console.WriteLine("The dog barks when he is happy to see me.");
     }
 
     public void Move()
     {
-        Console.WriteLine("The dog runs quickly.");
+        Console.WriteLine("The dog moves when he sees his best friend.");
     }
 }
 
@@ -118,16 +118,19 @@ public class Cat : IAnimal
 
     public void MakeSound()
     {
-        Console.WriteLine("Meow!");
+        Console.WriteLine("The cat purrs when I scratch his head.");
     }
-    
-    // Uses default implementations for Move and Eat
+    public void Move()
+    {
+        Console.WriteLine("The cat only moves when there is food in his bowl.");
+    }
+    // Uses default implementations for MakeSound and Move
 }
 
 ```
 ## Codebyte
 
-```cs
+```codebyte/csharp
 using System;
 
 public interface IAnimal
@@ -137,13 +140,9 @@ public interface IAnimal
     
     void Move()
     {
-        Console.WriteLine("This is a default animal action.");
-    }
-    
-    void Eat()
-    {
-        Console.WriteLine("Also a default animal action.");
-    }
+        Console.WriteLine("This is a default animal movement.");
+    }    
+   
 }
 
 public class Dog : IAnimal
@@ -157,12 +156,12 @@ public class Dog : IAnimal
 
     public void MakeSound()
     {
-        Console.WriteLine("Woof!");
+        Console.WriteLine("The dog barks when he is happy to see me.");
     }
 
     public void Move()
     {
-        Console.WriteLine("The dog runs quickly.");
+        Console.WriteLine("The dog moves when he sees his best friend.");
     }
 }
 
@@ -177,26 +176,31 @@ public class Cat : IAnimal
 
     public void MakeSound()
     {
-        Console.WriteLine("Meow!");
+        Console.WriteLine("The cat purrs when I scratch his head");
     }
+    public void Move()
+    {
+        Console.WriteLine("The cat only moves when there is food in his bowl.");
+    }
+    
 }
 
 public class Program
 {
     public static void Main()
     {
-        IAnimal dog = new Dog("Buddy");
-        IAnimal cat = new Cat("Whiskers");
+        IAnimal dog = new Dog("Spot");
+        IAnimal cat = new Cat("Mittens");
 
-        Console.WriteLine($"{dog.Name} says:");
+        Console.WriteLine($"{dog.Name} actions:");
         dog.MakeSound();
         dog.Move();
-        dog.Eat();
+        
 
-        Console.WriteLine($"{cat.Name} says:");
+        Console.WriteLine($"{cat.Name} actions:");
         cat.MakeSound();
         cat.Move(); // Uses default implementation
-        cat.Eat();  // Uses default implementation
+        
     }
 }
 
