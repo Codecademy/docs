@@ -1,65 +1,48 @@
-# Matplotlib Pie Charts
+# Plotly Pie Charts
 
 ## .pie()
 
-In python, we can use *.pie()* from the Pyplot module to display data in the form of a pie chart.
+In python, we can use *.pie()* from the *plotly library* to display data in the form of a pie chart.
 This is such a simple tool to use and can transform data into visually apealing ways for readers
 to get a better idea about the relationships between variables.
 
 ## Example
 ```
-import matplotlib.pyplot as plt
+import plotly.express as px
+import numpy
 
 # Example data
 data = [45, 55, 30, 15]
+names = ['A', 'B', 'C', 'D']
 
 # Create a plot
-plt.pie(data)
+fig = px.pie(values=data, names=names)
 
 # Display the plot
-plt.show() 
+fig.show() 
 ```
 
 1. First, you need to make sure that you have the relevant modules imported:
 ```
-import matplotlib.pyplot as plt
+import plotly.express as px
 ```
-Here we import the *pyplot* module from the *matplotlib* library and to give it the alias plt.
-**Matplotlib** *is a comprehensive library for creating static, animated, and interactive visualizations in Python.*
+Here we import the *plotly* library and to give it the alias px.
 
-2. We of course then, need to define our data that we want to include in the pie chart:
+2. We of course then, need to define our data that we want to include in the pie chart as well as the names to match:
 ```
 data = [45, 55, 30, 15]
+names = ['A', 'B', 'C', 'D']
 ```
 
-3. Next, we need to tell our program how we would like to visualise our data, this is where .pie() comes along and we pass the variable name of our data as an arguement:
+3. Next, we need to use .pie() on px and pass our data as the arguement for the values and names as the value for names. We create a variable called fig to hold this for later:
 ```
-plt.pie(data)
-```
-
-4. Finally, we need to show our data visualization, we can do this by using .show() on plt:
-```
-plt.show()
+fig = px.pie(values=data, names=names)
 ```
 
-## Adding titles & Labeling Axes
-We can also, add titles to our charts and label the axes to better visualise the data for our readers.
-
+4. Finally, we need to show our data visualization, we can do this by using .show() on the fig variable we created earlier:
 ```
-import matplotlib.pyplot as plt
-
-# Example data
-y = [2, 3, 5, 7, 11]
-
-# Add title and labels
-plt.title('Example Plot')
-plt.xlabel('X-axis Label')
-plt.ylabel('Y-axis Label')
-
-
-# Create a plot
-plt.pie(y)
-
-# Display the plot
-plt.show()
+fig.show()
 ```
+
+## Here is the output:
+![alt text](newplot.png)
