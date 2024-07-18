@@ -16,12 +16,14 @@ Docs is live with over 2000 high-quality entries. Now that the MVP is out, our g
 
 ### 📝 Content Team
 
-- [@aherman91](https://github.com/aherman91), Curriculum Developer
-- [@caupolicandiaz](https://github.com/caupolicandiaz), Content Contributor
-- [@HishamT](https://github.com/HishamT), Content Contributor
-- [@KTom101](https://github.com/KTom101), Content Contributor
-- [@sswiniarski](https://github.com/sswiniarski), Content Contributor
-- [@yangc95](https://github.com/yangc95), Content Contributor
+- [@HishamT](https://github.com/HishamT), Instructional Designer
+- [@avdhoottt](https://github.com/avdhoottt), Content Contributor
+- [@dakshdeepHERE](https://github.com/dakshdeepHERE), Content Contributor
+- [@mamtawardhani](https://github.com/mamtawardhani), Content Contributor
+- [@SaviDahegaonkar](https://github.com/SaviDahegaonkar), Content Contributor
+- [@Sriparno08](https://github.com/Sriparno08), Content Contributor
+- [@cigar-galaxy82](https://github.com/cigar-galaxy82), Content Contributor
+- [@letsbuildanything](https://github.com/letsbuildanything), Content Contributor
 
 We are currently building a team of community volunteers and educators to maintain Docs. Let us know if you are interested.
 
