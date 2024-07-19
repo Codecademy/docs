@@ -69,33 +69,33 @@ Below is a table showing the associativity of rust operators:
 
 ## Types of Operators
 
-| Category                      | Operator | Description               |
-| ----------------------------- | -------- | ------------------------- | ---------- | ---------- |
-| Arithmetic Operators          | `+`      | Addition                  |
-|                               | `-`      | Subtraction               |
-|                               | `*`      | Multiplication            |
-|                               | `/`      | Division                  |
-|                               | `%`      | Modulo                    |
-| Comparison Operators          | `==`     | Is equal to               |
-|                               | `!=`     | Not equal to              |
-|                               | `>`      | Greater than              |
-|                               | `<`      | Less than                 |
-|                               | `>=`     | Greater than or equal to  |
-|                               | `<=`     | Less than or equal to     |
-| Logical Operators             | `&&`     | Logical AND               |
-|                               | `        |                           | `          | Logical OR |
-|                               | `!`      | Logical NOT               |
-| Bitwise Operators             | `&`      | Bitwise AND               |
-|                               | `        | `                         | Bitwise OR |
-|                               | `^`      | Bitwise XOR               |
-|                               | `!`      | Bitwise NOT               |
-|                               | `<<`     | Left shift                |
-|                               | `>>`     | Right shift               |
-| Compound Assignment Operators | `+=`     | Addition assignment       |
-|                               | `-=`     | Subtraction assignment    |
-|                               | `*=`     | Multiplication assignment |
-|                               | `/=`     | Division assignment       |
-|                               | `%=`     | Modulo assignment         |
+|            Category           | Operator |        Description        |
+|:-----------------------------:|:--------:|:-------------------------:|
+| Arithmetic Operators          | +        | Addition                  |
+|                               | -        | Subtraction               |
+|                               | *        | Multiplication            |
+|                               | /        | Division                  |
+|                               | %        | Modulo                    |
+| Comparison Operators          | ==       | Is equal to               |
+|                               | !=       | Not equal to              |
+|                               | >        | Greater than              |
+|                               | <        | Less than                 |
+|                               | >=       | Greater than or equal to  |
+|                               | <=       | Less than or equal to     |
+| Logical Operators             | &&       | Logical AND               |
+|                               | `        |                           |
+|                               | !        | Logical NOT               |
+| Bitwise Operators             | &        | Bitwise AND               |
+|                               | `        | `                         |
+|                               | ^        | Bitwise XOR               |
+|                               | !        | Bitwise NOT               |
+|                               | <<       | Left shift                |
+|                               | >>       | Right shift               |
+| Compound Assignment Operators | +=       | Addition assignment       |
+|                               | -=       | Subtraction assignment    |
+|                               | *=       | Multiplication assignment |
+|                               | /=       | Division assignment       |
+|                               | %=       | Modulo assignment         |
 
 ## Example
 
