@@ -79,12 +79,15 @@ id|name |labels
 Performed XOR operations are explained bellow:
 
 Labels value 5 is represented by 0101 and XOR comparison is:
+
 - 0101 ^ 0011 = 0110 (6 in decimal, which is greater than 5)
 
 Labels value 3 is represented by 0011 and XOR comparison is:
+
 - 0011 ^ 0011 = 0000 (0 in decimal, which is not greater than 5)
 
 Labels value 12 is represented by 1100 and XOR comparison is:
+
 - 1100 ^ 0011 = 1111 (15 in decimal, which is greater than 5)
 
 The result looks like:
