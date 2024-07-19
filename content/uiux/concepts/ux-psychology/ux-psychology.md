@@ -1,8 +1,6 @@
 ---
-# This file is used to populate the hub page for the language whose folder it's in. Be sure to create a new version if you create a folder for a new language!
-
 Title: 'UX Psychology'
-Description: 'A brief description.'
+Description: 'UX Psychology is a crucial aspect of UX design that brings design and technology together through understanding of human behaviour.'
 Subjects:
   - 'Web Design'
 Tags:
@@ -14,4 +12,6 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-[Text description - make sure first mention of the topic is in **bold**.] <!-- # Write up an introductory description of the language/framework here! -->
+**UX Psychology** is a crucial aspect of UX design that brings design and technology together through understanding of human behaviour. Applying principles of psychology when building applications ensures that the experience is designed to be intuitive.
+
+Psychology in UX aids in the decision making related to the every aspect of UX desing such as element placement, spacing, hierarchy, etc.
