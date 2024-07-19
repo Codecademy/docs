@@ -1,18 +1,18 @@
 ---
-Title: 'Heatmap'
-Description: Creates a plot with data visualized as colored tiles.
+Title: '.Heatmap()'
+Description: 'Creates a plot with data visualized as colored tiles.'
 Subjects:
   - 'Data Science'
   - 'Data Visualization'
 Tags:
   - 'Plotly'
   - 'Graphs'
-  - 'Heatmaps'
 CatalogContent: 
-  - 
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
-The **.heatmap()** function in Plotly is utilized to generate heatmap visualizations, which are graphical representations of data where the individual values contained in a matrix are represented as colors.
+The **`.Heatmap()`** function in Plotly is utilized to generate heatmap visualizations, which are graphical representations of data where the individual values contained in a matrix are represented as colors.
 
 ## Syntax
 
