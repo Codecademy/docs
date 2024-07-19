@@ -57,3 +57,7 @@ fig.show()
 ```
 
 This example creates a heatmap representing hypothetical activity levels during different times of the day across three days of the week. `None` values can be used to create gaps in the data, and `colorscale` is used to customize the color scheme of the heatmap.
+
+Output:
+
+![Plotly Heatmap example](https://raw.githubusercontent.com/Codecademy/docs/main/media/plotly-heatmap-example.png)
