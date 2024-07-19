@@ -50,44 +50,49 @@ After creating a table with a key-value pair(s), values are indexed through the 
 ```lua
 t = {}
 t["a"] = 1 -- New table entry where key="a" and value=1
-print(t["a"]) -- Output: 1
+print(t["a"])
+```
+
+Output for the above code is:
+
+```shell
+1
 ```
 
 Values can also be accessed using dot notation:
 
 ```lua
-print(t.a) -- Output: 1
+print(t.a)
+```
+
+Output for the above code is:
+
+```shell
+1
 ```
 
 If no key was defined, use a numeric index:
 
 ```lua
 t = {"a", "b", "c"}
-print(t[1]) -- Output: a
+print(t[1])
 ```
 
-## Example
+Output for the above code is:
+
+```shell
+a
+```
 
 ```lua
 letters = {a, b, c}
-print(letters[3]) -- Output: c
+print(letters[3])
 ```
 
-## Codebyte Example
+Output for the above code is:
 
-```codebyte/lua
-cities = {
-  ["USA"] = "New York City",
-  ["Spain"] = "Barcelona",
-  ["Argentina"] = "Buenos Aires"
-}
-
-cities["UK"] = "Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch"
-
-print(cities["USA"])
-print(cities["Spain"])
-print(cities["Argentina"])
-print(cities["UK"])
+```shell
+c
 ```
 
 ## Table Functions
