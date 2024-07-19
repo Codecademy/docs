@@ -17,37 +17,37 @@ Operator precedence dictates the order in which operations in an expression are 
 
 Below is a table of rust operators precedence, operators are listed top to bottom, in descending order:
 
-| Precedence | Operator                            | Description                                                                                                                   |
-| ---------- | ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- | ---------- |
-| 19         | `Paths`                             | The specific location of a field or element                                                                                   |
-| 18         | `Method calls`                      | Performs specific operations or calculations on data                                                                          |
-| 17         | `Field Expressions`                 | Used to access individual fields or attributes of a data                                                                      |
-| 16         | `Function calls`, `Arrays indexing` | Used to execute user-defined or built-in functions while array index allows you to access individual elements within an array |
-| 15         | `?`                                 | Question mark operator                                                                                                        |
-| 14         | `-a`                                | Unary minus                                                                                                                   |
-|            | `!`                                 | Bitwise or Logical NOT                                                                                                        |
-|            | `*`                                 | Difference operator                                                                                                           |
-|            | `&`                                 | Shared borrow operator                                                                                                        |
-|            | `&mut`                              | Mutable borrow                                                                                                                |
-| 13         | `as`                                | Type casting keyword                                                                                                          |
-|            | `:`                                 | Multiple uses                                                                                                                 |
-| 12         | `* / %`                             | Multiplication, Division, Remainder                                                                                           |
-| 11         | `+ -`                               | Addition, Subtraction                                                                                                         |
-| 10         | `<< >>`                             | Bitwise left shift and right shift                                                                                            |
-| 9          | `&`                                 | Bitwise or Logical AND                                                                                                        |
-| 8          | `^`                                 | Bitwise or Logical XOR                                                                                                        |
-| 7          | `                                   | `                                                                                                                             | Bitwise or Logical OR                          |
-| 6          | `== !==`                            | Equality, Inequality                                                                                                          |
-|            | `< <= > >=`                         | Less than, Less than or equal, Greater than, Greater than or eqaul                                                            |
-| 5          | `&&`                                | Logical AND                                                                                                                   |
-| 4          | `                                   |                                                                                                                               | `                                              | Logical OR |
-| 3          | `.. ..=`                            | Range literal, Assignment by range literal                                                                                    |
-| 2          | `=`                                 | Direct assignment                                                                                                             |
-|            | `+= -= *= /= %=`                    | Compound assignment by sum, difference, product, quotient and remainder                                                       |
-|            | `<<= >>=`                           | Compound assignment by Bitwise left shift and right shift                                                                     |
-|            | `&= ^=` `                           | =`                                                                                                                            | Compound assignment by Bitwise AND, XOR and OR |
-| 1          | `return`                            | Return statement                                                                                                              |
-|            | `break`                             | Break statement                                                                                                               |
+| Precedence |             Operator            |                                                          Description                                                          |
+|:----------:|:-------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|
+| 19         | Paths                           | The specific location of a field or element                                                                                   |
+| 18         | Method calls                    | Performs specific operations or calculations on data                                                                          |
+| 17         | Field Expressions               | Used to access individual fields or attributes of a data                                                                      |
+| 16         | Function calls, Arrays indexing | Used to execute user-defined or built-in functions while array index allows you to access individual elements within an array |
+| 15         | ?                               | Question mark operator                                                                                                        |
+| 14         | -a                              | Unary minus                                                                                                                   |
+|            | !                               | Bitwise or Logical NOT                                                                                                        |
+|            | *                               | Difference operator                                                                                                           |
+|            | &                               | Shared borrow operator                                                                                                        |
+|            | &mut                            | Mutable borrow                                                                                                                |
+| 13         | as                              | Type casting keyword                                                                                                          |
+|            | :                               | Multiple uses                                                                                                                 |
+| 12         | * / %                           | Multiplication, Division, Remainder                                                                                           |
+| 11         | + -                             | Addition, Subtraction                                                                                                         |
+| 10         | << >>                           | Bitwise left shift and right shift                                                                                            |
+| 9          | &                               | Bitwise or Logical AND                                                                                                        |
+| 8          | ^                               | Bitwise or Logical XOR                                                                                                        |
+| 7          | \|                              | Bitwise or Logical OR                                                                                                         |
+| 6          | == !==                          | Equality, Inequality                                                                                                          |
+|            | < <= > >=                       | Less than, Less than or equal, Greater than, Greater than or equal                                                            |
+| 5          | &&                              | Logical AND                                                                                                                   |
+| 4          | \|\|                            | Logical OR                                                                                                                    |
+| 3          | .. ..=                          | Range literal, Assignment by range literal                                                                                    |
+| 2          | =                               | Direct assignment                                                                                                             |
+|            | += -= *= /= %=                  | Compound assignment by sum, difference, product, quotient and remainder                                                       |
+|            | <<= >>=                         | Compound assignment by Bitwise left shift and right shift                                                                     |
+|            | &= ^= \| =                      | Compound assignment by Bitwise AND, XOR and OR                                                                                |
+| 1          | return                          | Return statement                                                                                                              |
+|            | break                           | Break statement                                                                                                               |
 
 Operators with higher precedence are evaluated before operators with lower precedence but when operators have the same precedence, the associativity of the operators determines the order in which the operation is performed.
 Below is a table showing the associativity of rust operators:
@@ -70,7 +70,7 @@ Below is a table showing the associativity of rust operators:
 ## Types of Operators
 
 | Category                      | Operator | Description               |
-| ----------------------------- | -------- | ------------------------- | ---------- | ---------- |
+| ----------------------------- | -------- | ------------------------- |
 | Arithmetic Operators          | `+`      | Addition                  |
 |                               | `-`      | Subtraction               |
 |                               | `*`      | Multiplication            |
@@ -83,10 +83,10 @@ Below is a table showing the associativity of rust operators:
 |                               | `>=`     | Greater than or equal to  |
 |                               | `<=`     | Less than or equal to     |
 | Logical Operators             | `&&`     | Logical AND               |
-|                               | `        |                           | `          | Logical OR |
+|                               | `||`     | Logical OR                |
 |                               | `!`      | Logical NOT               |
 | Bitwise Operators             | `&`      | Bitwise AND               |
-|                               | `        | `                         | Bitwise OR |
+|                               | `|`      | Bitwise OR                |
 |                               | `^`      | Bitwise XOR               |
 |                               | `!`      | Bitwise NOT               |
 |                               | `<<`     | Left shift                |
