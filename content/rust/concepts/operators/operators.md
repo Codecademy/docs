@@ -83,10 +83,10 @@ Below is a table showing the associativity of rust operators:
 |                               | >=       | Greater than or equal to  |
 |                               | <=       | Less than or equal to     |
 | Logical Operators             | &&       | Logical AND               |
-|                               | `        |                           |
+|                               | `\|\|`   | Logical OR                |
 |                               | !        | Logical NOT               |
 | Bitwise Operators             | &        | Bitwise AND               |
-|                               | `        | `                         |
+|                               | `\|`     | Bitwise OR                |
 |                               | ^        | Bitwise XOR               |
 |                               | !        | Bitwise NOT               |
 |                               | <<       | Left shift                |
