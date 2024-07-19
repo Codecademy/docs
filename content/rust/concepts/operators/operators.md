@@ -11,11 +11,10 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-## Rust Operators
-
 **Operators** are symbols that perform operations on values or variables (operands) which are crucial for instructing compilers and interpreters on specific mathematical or logical operations. Rust categorizes operators by their precedence and associativity, understanding the precedence and associativity of operators make it possible to write clear and predictable code, as operations are performed in the intended order.
 
 Operator precedence dictates the order in which operations in an expression are evaluated. Operators with higher precedence are evaluated before those with lower precedence. In an instance, multiplication takes precedence over addition. Therefore this expression `3 + 2 × 3` is calculated as `3 + (2 × 3) = 9` not `(3 + 2) × 3 = 15`.
+
 Below is a table of rust operators precedence, operators are listed top to bottom, in descending order:
 
 | Precedence | Operator                            | Description                                                                                                                   |
@@ -146,14 +145,14 @@ fn main() {
   println!("{} <= {} is {}\n", x, y, is_less_or_equal);
 
 // Logical Operators
-    let result_1 = x < y && y < z;  // true
-    println!("Result_1: {}", result_1);
+  let result_1 = x < y && y < z;  // true
+  println!("Result_1: {}", result_1);
 
-    let result_2 = x > y || y > z;
-    println!("Result_2: {}", result_2);
+  let result_2 = x > y || y > z;
+  println!("Result_2: {}", result_2);
 
-    let result_3 = x != y;
-     println!("Result_3: {}\n", result_3);
+  let result_3 = x != y;
+  println!("Result_3: {}\n", result_3);
 
 // Bitwise Operators
   let result_and = x & y;
