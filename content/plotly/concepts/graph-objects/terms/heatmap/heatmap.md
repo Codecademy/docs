@@ -19,16 +19,21 @@ The **`.Heatmap()`** function in Plotly is utilized to generate heatmap visualiz
 The basic syntax for creating a heatmap in Plotly is:
 
 ```python
-import plotly.graph_objects as go
-
-fig = go.Figure(data=go.Heatmap(
-    z=[[1, 20, 30],
-    [20, 1, 60],
-    [30, 60, 1]])
+plotly.graph_objects.Heatmap(
+    x=None,
+    y=None,
+    z=None,
+    colorscale=None,
 )
-
-fig.show()
 ```
+
+- `x`: A list of values to be used as the x-axis labels.
+- `y`: A list of values to be used as the y-axis labels.
+- `z`: The data to be visualized as a heatmap.
+- `colorscale`: The color scale to be used for the heatmap. This can be an array of colors mapped to normalized values or a string representing a built-in color scale.
+
+For a full list of parameters that can be used with the `.Heatmap()` function, refer to the [API documentation](https://plotly.github.io/plotly.py-docs/generated/plotly.graph_objects.Heatmap.html).
+
 
 ## Example
 
