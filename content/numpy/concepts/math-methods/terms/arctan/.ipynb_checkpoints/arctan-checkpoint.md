@@ -3,7 +3,7 @@ Description: 'Calculates the inverse of tan'
 
 ---
 
-In NumPy, the **.arctan()** method computes the element-wise inverse tangent (arc tangent) of the input array. It returns an array of angles in radians, with values ranging from -π/2 to π/2. This function is useful for transforming tangent values back to their corresponding angles. If the input is a scalar, the function returns a scalar; If the input is a scalar, the function returns a scalar; if the input is an array, it returns an array of the same shape with the arc tangent of each element.
+In NumPy, the **.arctan()** method computes the input array's element-wise inverse tangent (arc tangent). It returns a variety of angles in radians, with values ranging from -π/2 to π/2. This function is useful for transforming tangent values back to their corresponding angles. If the input is a scalar, the function returns a scalar if the input is an array, it returns an array of the same shape with the arc tangent of each element.
 
 ---
 
