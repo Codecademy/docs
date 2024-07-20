@@ -51,9 +51,7 @@ This example demonstrates how a variable can be declared after it is used. Try c
 
 ```codebyte/javascript
 name = 'Brandon'
-
 console.log(`My name is ${name} and I am logging a hoisted variable!`);
-
 var name;
 ```
 
