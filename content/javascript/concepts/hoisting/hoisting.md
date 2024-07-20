@@ -47,7 +47,7 @@ var myName = 'Brandon';
 
 ### Codebyte Example
 
-This example demonstrates how a variable can be declared after it is used. Try changing the placement of the variable declaration (`var name;`) and initialization (`name = 'Brandon';`) to see how it affects the output (hint: move the initialization to after the `console.log` - what does it output? Do you get an error? What about if you remove the declaration entirely?).
+This example demonstrates how a variable can be declared after it is used. Try changing the placement of the variable declaration (`var name;`) and initialization (`name = 'Brandon';`) to see how it affects the output.
 
 ```codebyte/javascript
 name = 'Brandon'
