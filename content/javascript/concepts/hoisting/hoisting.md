@@ -137,7 +137,8 @@ First, we logged the type of `greetings` just to remind what the type for the ho
 How is that possible? Again, at this point in the execution phase, the hoisted `greetings` variable is of type `undefined`. The definition of greetings as a function doesn't happen until the _next_ line. Therefore, JavaScript threw the `TypeError`.
 
 ### Codebyte Example
-This is a very simple example of how a function declaration can be hoisted. Try changing the function declaration to a function expression to see how that affects the output.
+
+This is an example of how a function declaration can be hoisted. Try changing the function declaration to a function expression to see how that affects the output.
 
 ```codebyte/javascript
 console.log(hoistedFunction());
