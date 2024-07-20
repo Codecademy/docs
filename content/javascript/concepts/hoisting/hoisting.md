@@ -217,7 +217,7 @@ Accessing variables and functions before they are declared is bad practice becau
 
 ### Codebyte Example
 
-This is a simple example of hoisting with a `let` variable declaration. Try running it and notice that no error is thrown. What about if you move the declaration to after the `console.log` statement? How does this compare with using `var`?
+This is an example of hoisting with a `let` variable declaration. Try running it and notice that no error is thrown.
 
 ```codebyte/javascript
 let myName;
