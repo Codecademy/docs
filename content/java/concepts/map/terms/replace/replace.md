@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.replaceAll()` method of the HashMap class replaces each value in the map with the result of the applied function. After the ends executes every key is linked to a new value.
+The `.replaceAll()` method of the HashMap class replaces each value in the map with the result of the applied function. After the function executes every key is linked to a new value.
 
 ## Syntax
 
