@@ -59,7 +59,7 @@ To turn a URL or email address into a clickable link, enclose it in angle bracke
 The rendered output looks like this:
 
 - <https://www.codecademy.com/resources/docs>
-- <foo42@hotmail.com>
+- <demoemail@hotmail.com>
 
 ## Internal Linking
 
