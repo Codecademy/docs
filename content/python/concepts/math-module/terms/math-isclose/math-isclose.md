@@ -22,8 +22,8 @@ math.isclose(x, y, rel_tol=1e-09, abs_tol=0.0)
 
 - `a`: the first float value to be compared.
 - `b`: the second float value to be compared.
-- `rel_tol`: Relative tolerance is the maximum allowed relative difference between `a` and `b`. The default value is `1e-09`, which means the values are considered close if their relative difference is within 9 decimal places. This can be specified using exponential notation, as in the default value, or as a decimal to represent a percentage. For example, a 1% tolerance would be represented as `rel_tol=0.01`. The tolerance value must be zero or positive.
-- `abs_tol`: The absolute tolerance is the minimum absolute difference allowed between `a` and `b`. The default value is `0.0`, which means no absolute tolerance is applied. This parameter can be set to any non-negative number. Absolute tolerance is particularly useful for comparisons involving values near zero.
+- `rel_tol`: Relative tolerance is the maximum allowed relative difference between `a` and `b`. The default value is `1e-09`, which means the values are considered close if their relative difference is within 9 decimal places. The tolerance value must be greater than zero.
+- `abs_tol`: Absolute tolerance is the minimum absolute difference allowed between `a` and `b`. The default value is `0.0`, which means no absolute tolerance is applied. This parameter can be set to any non-negative number. Absolute tolerance is particularly useful for comparisons involving values near zero.
 
 > Note: The required parameters for `.isclose()` are `a` and `b`; all other parameters are optional.
 
