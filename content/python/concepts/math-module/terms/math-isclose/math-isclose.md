@@ -20,21 +20,16 @@ The **`.isclose()`** function returns `True` when two floating-point numbers are
 math.isclose(x, y, rel_tol=1e-09, abs_tol=0.0)
 ```
 
-The `math.isclose()` function takes four arguments. 
+- `a`: the first float value to be compared.
+- `b`: the second float value to be compared.
+- `rel_tol`: Relative tolerance is the maximum allowed relative difference between `a` and `b`. The default value is `1e-09`, which means the values are considered close if their relative difference is within 9 decimal places. This can be specified using exponential notation, as in the default value, or as a decimal to represent a percentage. For example, a 1% tolerance would be represented as `rel_tol=0.01`. The tolerance value must be zero or positive.
+- `abs_tol`: The absolute tolerance is the minimum absolute difference allowed between `a` and `b`. The default value is `0.0`, which means no absolute tolerance is applied. This parameter can be set to any non-negative number. Absolute tolerance is particularly useful for comparisons involving values near zero.
 
-`x`: the first float value to be compared (required)
-
-`y`: the second float value to be compared (required)
-
-`rel_tol`: Relative tolerance is the maximum difference between x and y. The default is `rel_tol=1e-09`, which returns True when the two values are the same within 9 decimal digits. This can be defined with the exponetial format used by the default value, or as a decimal to represent percentage. A 1% tolerance would be defined as `rel_tol=0.01`. The tolerance used must be at or above zero.
-
-`abs_tol`: The minimum absolute tolerance default is `abs_tol=0.0`. This can be defined by any number at or above 0. Absolute tolerance is best used for near zero comparisons.
-
-
+> Note: The required parameters for `.isclose()` are `a` and `b`; all other parameters are optional.
 
 ## Example
 
-Here is an example of `math.isclose()` to return True:
+Here is an example of `.isclose()`:
 
 ```py
 import math
@@ -61,23 +56,18 @@ False
 
 ## Codebyte Example
 
-The following example is runnable and uses the `math.isclose()` function to return True or False of the closeness of two float numbers:
+Run the following code to understand how the `.isclose()` function works:
 
 ```codebyte/python
 import math
 
-#returns True
 print(math.isclose(0.1 + 0.2, 0.3))
 
-#returns False with default rel_tol
 print(math.isclose(567.34, 566.25))
 
-#returns True with 10% rel_tol
 print(math.isclose(567.34, 566.25, rel_tol=0.1))
 
-#returns True
 print(math.isclose(0.0000000001, 0.0000000002, abs_tol=0.0000000001))
 
-#returns False
 print(math.isclose(0.0000000001, 0.0000000012, abs_tol=0.0000000001))
 ```
