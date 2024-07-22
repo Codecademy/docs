@@ -54,7 +54,7 @@ My favorite Craigslist category is [Missed Connections](https://newyork.craigsli
 To turn a URL or email address into a clickable link, enclose it in angle brackets `<URL or email>`.
 
 - `<https://www.codecademy.com/resources/docs>`
-- `<foo42@hotmail.com>`
+- `<demoemail@hotmail.com>`
 
 The rendered output looks like this:
 
