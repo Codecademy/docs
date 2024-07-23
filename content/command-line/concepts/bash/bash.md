@@ -46,7 +46,7 @@ Bash is not the default shell for Windows operating systems, but it can be enabl
 
 
 
-## Bash Terminal Commands
+## **Bash Terminal Commands**
 
 The basic terminal commands for Bash allow the user to navigate and manipulate directories and files.
 
@@ -71,20 +71,20 @@ this is because the `cat` command above has been entered without any arguments; 
 
 this is because the `cat` command above has been entered without any arguments; as a result the command cannot complete
 
-to escape this, we can use ctrl-c.
-to escape this, we can use ctrl-c.
+to return to the command line, use ctrl-c.
+to return to the command line, use ctrl-c.
 
 user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject/docs/content/command-line/concepts/bash (main)
 
 $
 ```
   
-### Navigation Commands  
+### **Navigation Commands**  
 
 #### Print Working Directory 
 
-We can locate the current directory we are working in with 
-`pwd`.
+The current directory can be located with `pwd`.
+
 ```bash
 user@DESKTOP-16ES0TO MINGW64 /e
 $ cd coding/docProject/docs
@@ -96,7 +96,7 @@ $ pwd
 
 #### List
 
-To list the contents of the current folder, we can use `ls`. 
+To list the contents of the current folder, `ls` can be used. 
 
 ```bash
 user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject/docs (BashCommands)
@@ -126,15 +126,14 @@ drwxr-xr-x 1 user 197121      0 Jul 22 15:16 media/
 ```
 
 
-
 If `ls` is used with a `-a` argument, it shows hidden files.  
 
 
 #### Change Directory
 
-We can change directory by writing `cd` followed by an argument.
+The directory can be changed by writing `cd` followed by an argument.
 
-To Access a directory directly, we can give it's filepath as an argument:
+To access a directory directly, its filepath can be given as an argument:
 
 ```bash
 $ cd directoryPath
@@ -160,7 +159,7 @@ $ pwd
 ```
 
 
-We can return to the previously accessed directory by giving `-` as an argument:
+The previously accessed directory can be returned to by giving `-` as an argument:
 
 ```bash
 $ cd -
@@ -180,7 +179,7 @@ $ cd -
 /e/coding
 ```
 
-We can go up one directory one level by giving a `..` argument:
+Giving a `..` argument allows the user to go up one directory level:
 
 ```bash
 $ cd ..
@@ -196,11 +195,11 @@ $ pwd
 ```
 
 
-### Directory Management
+### **Directory Management**
 
 #### Make a New Directory
 
-We can creat a new directory in the current folder with the command `mkdir`, giving the new directory's name as an argument:
+A new directory can be created in the current folder with the command `mkdir`, by giving the new directory's name as an argument:
 
 ```bash$ 
 $ mkdir newDirectoryName
@@ -221,7 +220,7 @@ docs/  newDirectory/
 
 #### Remove a directory
 
-We can delete directories with `rmdir` with the target directory's name given as an argument.
+Directories can be deleted with `rmdir` with the target directory's name given as an argument.
 
 ```bash
 $ rmdir directoryName
@@ -244,7 +243,7 @@ docs/
 
 #### Create a new file
 
-We can make new files with `touch` with the new file's name given as an argument.
+New files can be made with `touch` by giving the new file's name as an argument.
 
 ```bash
 $ touch filename.txt
@@ -281,7 +280,7 @@ docs/
 
 #### Rename or move a file
 
-`mv` can be used to rename a file. Navigate to the file's folder, then give the original name as the first argument, followed by the new filename as the second argument.
+`mv` can be used to rename a file by giving the original name as the first argument, followed by the new filename as the second argument.
 
 ```bash
 $ mv oldFileName.txt newFileName.txt
