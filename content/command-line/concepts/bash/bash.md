@@ -59,13 +59,13 @@ user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject/docs/content/command-line/conc
 
 $ cat
 
-a new line has appeared, but this line doesn't have a $ at the start.
+a new line has appeared, but this line does not have a $ at the start.
 
-a new line has appeared, but this line doesn't have a $ at the start.
+a new line has appeared, but this line does not have a $ at the start.
 
-instead, it repeats everything I type.
+instead, it repeats everything.
 
-instead, it repeats everything I type.
+instead, it repeats everything.
 
 this is because the `cat` command above has been entered without any arguments; as a result the command cannot complete
 
@@ -78,12 +78,13 @@ user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject/docs/content/command-line/conc
 
 $
 ```
+  
+### Navigation Commands  
 
-### Navigation Commands
+#### Print Working Directory 
 
-- pwd - Print Working Directory 
-
-We can locate the current directory we are working in with `pwd`.
+We can locate the current directory we are working in with 
+`pwd`.
 ```bash
 user@DESKTOP-16ES0TO MINGW64 /e
 $ cd coding/docProject/docs
@@ -93,12 +94,9 @@ $ pwd
 /e/coding/docProject/docs
 ```
 
-- ls - List
+#### List
 
-To list the contents of the current folder, we can use ```bash
-ls
-```
-. Directories are shown in blue. 
+To list the contents of the current folder, we can use `ls`. 
 
 ```bash
 user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject/docs (BashCommands)
@@ -108,11 +106,7 @@ README.md        content.test.ts  media/          yarn.lock
 bin/             documentation/   package.json
 ```
 
-las -l
-```bash
-ls -l
-```
- gives a list with more information.
+Giving the `-l` argument gives a list with more information.
 
 ```bash
 user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject/docs (BashCommands)
@@ -131,19 +125,19 @@ drwxr-xr-x 1 user 197121      0 Jul 22 15:16 media/
 -rw-r--r-- 1 user 197121 189173 Jul 22 15:16 yarn.lock
 ```
 
+
+
+If `ls` is used with a `-a` argument, it shows hidden files.  
+
+
+#### Change Directory
+
+We can change directory by writing `cd` followed by an argument.
+
+To Access a directory directly, we can give it's filepath as an argument:
+
 ```bash
-ls -a
-```
-shows hidden files.
-
-- cd - Change Directory
-
-We can change directory by writing ```bash cd``` followed by an argument.
-
-Accessing a directory directly via path:
-
-```bash
-cd directoryPath
+$ cd directoryPath
 ```
 
 ```bash
@@ -166,10 +160,10 @@ $ pwd
 ```
 
 
-Return to previous directory:
+We can return to the previously accessed directory by giving `-` as an argument:
 
 ```bash
- cd -
+$ cd -
  ```
 
 
@@ -186,10 +180,10 @@ $ cd -
 /e/coding
 ```
 
-Go back up the directory one level:
+We can go up one directory one level by giving a `..` argument:
 
 ```bash
-cd ..
+$ cd ..
 ```
 
 ```bash
@@ -204,9 +198,13 @@ $ pwd
 
 ### Directory Management
 
-- mkdir - Make a new Directory
+#### Make a New Directory
 
-```bash$ mkdir directoryName```
+We can creat a new directory in the current folder with the command `mkdir`, giving the new directory's name as an argument:
+
+```bash$ 
+$ mkdir newDirectoryName
+```
 
 ```bash
 user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject (master)
@@ -221,7 +219,10 @@ $ ls
 docs/  newDirectory/
 ```
 
-- rmdir - Remove a directory
+#### Remove a directory
+
+We can delete directories with `rmdir` with the target directory's name given as an argument.
+
 ```bash
 $ rmdir directoryName
 ```
@@ -241,9 +242,12 @@ docs/
 
 ### File Management
 
-- touch - Create a new file
+#### Create a new file
+
+We can make new files with `touch` with the new file's name given as an argument.
+
 ```bash
-touch filename.txt
+$ touch filename.txt
 ```
 
 ```bash
@@ -255,7 +259,9 @@ $ ls
 docs/  newfile.txt
 ```
 
-- rm - Remove a file
+#### Remove a file
+
+We can delete files by using the `rm` command with the target file's name or filepath given as an argument.
 ```bash
 rm filename.txt
 ```
@@ -273,28 +279,30 @@ $ ls
 docs/
 ```
 
-- mv - Rename or move a file
+#### Rename or move a file
 
-Renaming:
+`mv` can be used to rename a file. Navigate to the file's folder, then give the original name as the first argument, followed by the new filename as the second argument.
 
-```bashmv filename.txt newfilename.txt```
+```bash
+$ mv oldFileName.txt newFileName.txt
+```
 
 ```bash
 user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject (master)
 $ ls
-docs/  newfile.txt
+docs/  oldfile.txt
 
 user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject (master)
-$ mv newfile.txt newName.txt
+$ mv oldfile.txt newName.txt
 
 user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject (master)
 $ ls
 docs/  newName.txt
 ```
 
-Moving
+`mv` can also move a file to a different directory, by giving the file name as the first argument and the new filepath as the second argument. 
 ```bash
-mv <source> <destination>
+$ mv sourceDirectory/filename.txt destinationDirectory/filename.txt
 ```
 
 ```bash
