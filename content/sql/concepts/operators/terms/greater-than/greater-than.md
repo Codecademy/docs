@@ -47,5 +47,5 @@ Return rows where `order_date` is greater than or equal to (after) `2020-01-01`.
 ```sql
 SELECT *
 FROM coffee
-WHERE order_date >= "2020-01-01";
+WHERE order_date >= '2020-01-01';
 ```
