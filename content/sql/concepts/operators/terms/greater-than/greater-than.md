@@ -27,8 +27,7 @@ FROM table
 WHERE column > condition;
 ```
 
-The `column` must exist in `table`, and must be either a numeric or date type column. The values in `column` will then be compared to the `condition`. 
-
+The `column` must exist in `table`, and must be either a numeric or date type column. The values in `column` will then be compared to the `condition`.
 
 ## Example 1
 
