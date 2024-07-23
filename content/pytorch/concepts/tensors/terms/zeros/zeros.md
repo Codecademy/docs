@@ -17,7 +17,7 @@ CatalogContent:
 ---
 
 
-The `.zeros()` method returns a [Tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) of a specified shape with zeros. Optionally, the output tensor, datatype, layout, device, and whether autograd records operations can be specified. 
+The `.zeros()` method returns a [Tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) of a specified shape with zeros. Optionally, the output tensor, datatype, layout, device, and whether autograd records operations can be specified.
 
 ## Syntax
 
