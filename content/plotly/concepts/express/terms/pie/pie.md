@@ -18,21 +18,25 @@ In Python, the **`pie()`** method from the Plotly library is used to create a pi
 
 ## Syntax
 
+```
+plotly.express.pie(values=None, names=None, title=None, hole=None, color_discrete_sequence=None, hover_data=None, labels=None, ...)
+```
 
+- `values` - The values that will define the pie slices
+- `names` - The labels for each pie slice
+- `title` - The title of the chart
+- `hole` - Creates a donut chart if value is between 0 and 1
+- `color_discrete_sequence` - The color sequence for the pie slices
+- `hover_data` - The column name for additional data to show on hover
+- `labels` - Custom labels
 
-- values - The values that will define the pie slices
-- names - The labels for each pie slice
-- title - Title of the chart
-- hole - Creates a donut chart if value is between 0 and 1
-- color_discrete_sequence - Color sequence for the pie slices
-- hover_data - Column name for additional data to show on hover
-- labels - Custom labels
+> Note: The ellipsis in the syntax (...) indicates that there can be additional optional parameters beyond those listed here to customize the scatter plot.
 
 ## Example
 
 The example below shows the usage of the `.pie()` method as follows:
 
-```
+```py
 # Import necessary libraries
 import plotly.express as px
 import pandas as pd
