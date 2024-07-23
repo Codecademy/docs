@@ -54,39 +54,15 @@ class MyClass : MyInterface
 The following example defines the interface with default implementations. This feature is available from C# 8.0 version onwards:
 
 ```cs
+using System;
+
 public interface IAnimal
 {
-    void MakeSound();
-    
     string Name { get; set; }
-    
-    // Default implementation
-    void Move()
-    {
-        Console.WriteLine("This is a default animal action.");
-    }
-    
-    // Default implementation
-    void Eat()
-    {
-        Console.WriteLine("Also a default animal action.");
-    }
+    void MakeSound();
+    void Move();
 }
 
-```
-
-The output for the above code is:
-
-```shell
-This is a default animal action.
-Also a default animal action.
-```
-
-## Implementing the Interface
-
-The following code implements the above interface in a class named Dog:
-
-```cs
 public class Dog : IAnimal
 {
     public string Name { get; set; }
@@ -120,14 +96,42 @@ public class Cat : IAnimal
     {
         Console.WriteLine("The cat purrs when I scratch his head.");
     }
+
     public void Move()
     {
         Console.WriteLine("The cat only moves when there is food in his bowl.");
     }
-    // Uses default implementations for MakeSound and Move
 }
 
+public class Program
+{
+    public static void Main()
+    {
+        IAnimal myDog = new Dog("Spot");
+        IAnimal myCat = new Cat("Mittens");
+
+        Console.WriteLine($"Dog's name: {myDog.Name}");
+        myDog.MakeSound();
+        myDog.Move();
+
+        Console.WriteLine($"Cat's name: {myCat.Name}");
+        myCat.MakeSound();
+        myCat.Move();
+    }
+}
 ```
+
+The code above results in the following output.
+
+```shell
+Dog's name: Spot
+The dog barks when he is happy to see me.
+The dog moves when he sees his best friend.
+Cat's name: Mittens
+The cat purrs when I scratch his head.
+The cat only moves when there is food in his bowl.
+```
+
 ## Codebyte
 
 ```codebyte/csharp
