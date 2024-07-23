@@ -1,5 +1,5 @@
 ---
-Title: EQUAL TO
+Title: 'EQUAL TO'
 Description: 'Queries for items that are equal to a specified condition.'
 Subjects:
   - 'Data Science'
@@ -28,6 +28,7 @@ WHERE column = condition;
 ```
 
 The equal to operator `=` can be combined with other comparison operators to check for the following:
+
 - `>=`: Greater than or equal to
 - `<=`: Less than or equal to
 - `!=`: Not equal
