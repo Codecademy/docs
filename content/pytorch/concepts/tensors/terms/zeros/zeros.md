@@ -22,15 +22,16 @@ The **`.zeros()`** method returns a tensor of a specified shape filled with zero
 ## Syntax
 
 ```pseudo
-torch.zeros(shape, out=None, dtype=torch.float32, layout=torch.strided, device=torch.device('cpu'), requires_grad=False)
+torch.zeros(size, out=None, dtype=None, layout=torch.strided, device=None, requires_grad=False)
 ```
 
-The shape is specified as a variable, tuple, or list of integers. Optional parameters are as follows:
+The parameters are as follows:
 
+- `size`: The shape, specified as a variable, tuple, or list of integers.
 - `out`: The output Tensor, defaults to None.
-- `dtype`: Datatype (`torch.dtype`) of the zeros, defaults to the global default.
+- `dtype`: Datatype (`torch.dtype`) of the zeros, defaults to None.
 - `layout`: Layout (`torch.layout`) of the output Tensor, defaults to `torch.strided`.
-- `device`: Device (`torch.device`) of the output Tensor, defaults to the global default.
+- `device`: Device (`torch.device`) of the output Tensor, defaults to None.
 - `requires_grad`: Boolean of whether autograd will record operations on the output Tensor, defaults to False.
 
 ## Example
@@ -38,7 +39,10 @@ The shape is specified as a variable, tuple, or list of integers. Optional param
 ```python
 import torch
 
+# Define a tensor with three values in one row
 t0 = torch.zeros(3)
+
+# Define a tensor with four rows, two values per row. All values have the datatype torch.int16
 t1 = torch.zeros((4, 2), dtype=torch.int16)
 
 print(t0)
