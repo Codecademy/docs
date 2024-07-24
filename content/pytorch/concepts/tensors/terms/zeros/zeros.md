@@ -1,32 +1,27 @@
 ---
-Title: 'ZEROS'
-Description: 'Initializing a new tensor with zeros.'
+Title: '.zeros()'
+Description: 'Initializes a new tensor filled with zeros, with a specified shape.'
 Subjects:
+  - 'AI'
   - 'Data Science'
   - 'Machine Learning'
-  - 'AI'
 Tags:
   - 'AI'
-  - 'Data Structures'
   - 'Arrays'
+  - 'Data Structures'
   - 'Deep Learning'
 CatalogContent:
   - 'intro-to-py-torch-and-neural-networks'
   - 'py-torch-for-classification'
-  - 'paths/machine-learning'
+  - 'paths/data-science'
 ---
 
 
-The `.zeros()` method returns a [Tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) of a specified shape with zeros. Optionally, the output tensor, datatype, layout, device, and whether autograd records operations can be specified.
+The **`.zeros()`** method returns a tensor of a specified shape filled with zeros. Optionally, the output tensor, its datatype, layout, device, and whether autograd records operations can be selected.
 
 ## Syntax
 
-```py
-import torch
-
-torch.zeros(shape)
-
-# with defaults explicitly stated
+```pseudo
 torch.zeros(shape, out=None, dtype=torch.float32, layout=torch.strided, device=torch.device('cpu'), requires_grad=False)
 ```
 
@@ -53,10 +48,9 @@ print(t1)
 The returned tensors are as follows:
 
 ```shell
-tensor([ 0.,  0., 0.])
-
-tensor([[ 0,  0],
-        [ 0,  0],
-        [ 0,  0],
-        [ 0,  0]])
+tensor([0., 0., 0.])
+tensor([[0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0]], dtype=torch.int16)
 ```
