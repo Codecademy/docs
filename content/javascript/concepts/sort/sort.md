@@ -85,3 +85,28 @@ numbers.sort(function compareFn(A, B) {
 console.log(numbers);
 // Output: [2, 5, 9, 10, 16, 33, 156]
 ```
+
+## Codebyte Example
+
+This codebyte example uses a comparison function with `.sort()` in order to sort the array alphabetically, while ignoring case:
+
+```codebyte/javascript
+//Comparison Function
+function compareFn(A, B) {
+  if (A.toLowerCase() > B.toLowerCase()) {
+    return 1;
+  }
+  if (A.toLowerCase() < B.toLowerCase()) {
+    return -1;
+  }
+  return 0;
+}
+
+let array = ["alpha","Beta", "gamma", "delta", "epsilon", "Zeta", "Eta", "theta"];
+
+//The output without using the comparison function
+console.log(array.sort());
+
+//The output with using the comparison function
+console.log(array.sort(compareFn));
+```
