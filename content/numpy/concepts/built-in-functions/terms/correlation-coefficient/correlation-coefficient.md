@@ -55,7 +55,7 @@ The above code produces the following output:
 
 ## Codebyte Example
 
-The following codebyte example shows the use of the `.corrcoef()` method:
+Run the following codebyte example to understand the use of the `.corrcoef()` method:
 
 ```codebyte/python
 # Importing the NumPy library
