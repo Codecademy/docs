@@ -17,14 +17,14 @@ CatalogContent:
   - 'paths/design-databases-with-postgresql'
 ---
 
-The **`EQUAL TO (=)`** operator is used to select rows in a table where a value is equal to some condition(s), usually placed in the `WHERE` clause.
+The **`EQUAL TO`** operator is used to compare the equality of two expressions, used with `WHERE` clause.
 
 ## Syntax
 
 ```pseudo
 SELECT column1, column2, ...
 FROM table_name
-WHERE column = condition;
+WHERE column1 = condition;
 ```
 
 The equal to operator `=` can be combined with other comparison operators to check for the following:
@@ -33,32 +33,20 @@ The equal to operator `=` can be combined with other comparison operators to che
 - `<=`: Less than or equal to
 - `!=`: Not equal
 
-## Example 1
+## Example
 
 Return values that are equal to `Hello` in the table `Greetings`:
 
 ```sql
-SELECT *
-FROM Greetings
-WHERE greeting = 'Hello';
-```
+# Create a table named 'employ'
+CREATE TABLE employ (employ_name VARCHAR(30), employ_id INT PRIMARY KEY);
 
-## Example 2
+# Insert some stocks into the table
+INSERT INTO employ (employ_name, employ_id) VALUES
+('John', 100),
+('Janet', 101),
+('Joe', 102)
 
-Return rows with a count equal to `3` in the table `pets`:
-
-```sql
-SELECT *
-FROM pets
-WHERE count = 3;
-```
-
-## Example 3
-
-Return rows where cups are not equal to `0` in the table `coffee`:
-
-```sql
-SELECT *
-FROM coffee
-WHERE count != 0;
+# Use the EQUAL TO operator to find employ with a specific ID
+SELECT employ_name, employ_id FROM employ WHERE employ_id = '100';
 ```
