@@ -1,6 +1,6 @@
 ---
 Title: 'footnotes'
-Description: 'Footnotes are subscript numbers that appears at the end of a word or phrase. This is used in documentation to add notes and references in a way that does not clutter the files.'
+Description: 'Footnotes are subscript numbers that appear at the end of a word or phrase. This is used in documentation to add notes and references in a way that does not clutter the files.'
 Subjects:
   - 'Developer Tools'
   - 'Web Development'
