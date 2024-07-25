@@ -56,6 +56,7 @@ Charts
 Chatbots
 Cryptocurrency
 Classes
+Classification
 Cloud Computing
 Code Editors
 Conditionals
@@ -277,6 +278,7 @@ Rectangle
 Recursion
 Redux
 References
+Regression
 Regular Expressions
 Requests
 Responsive
