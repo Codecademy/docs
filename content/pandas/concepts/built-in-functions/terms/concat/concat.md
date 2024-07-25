@@ -73,5 +73,4 @@ df2 = pd.DataFrame({'C' : [11,12,13,14,15], 'D' : [16,17,18,19,20]})
 result = pd.concat([df1, df2], axis=1, keys = ['df1', 'df2'])
 
 print(result)
-
 ```
