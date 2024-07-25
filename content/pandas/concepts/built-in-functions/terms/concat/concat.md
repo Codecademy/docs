@@ -30,7 +30,7 @@ pandas.concat(objs, axis=0, join='outer', ignore_index=False, keys=None, levels=
 - `names`: Names for the levels generated in the hierarchical index. The default value is `None`.
 - `verify_integrity`: If `True`, checks whether the new concatenated axis contains duplicates. The default value is `False`.
 - `sort`: If `True`, sorts the resulting `Series` or `Dataframe` by the keys. The default value is `False`.
-- `copy`: If `False`, avoids copying data unnecessarily. Default value is `True`.
+- `copy`: If `False`, avoid copying data unnecessarily. The default value is `True`.
 
 > **Note:** Only the `objs` parameter is required; all other parameters are optional.
 
