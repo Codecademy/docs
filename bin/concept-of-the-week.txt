@@ -1,1 +1,1 @@
-content/general/concepts/data-structures/data-structures.md
+content/markdown/concepts/lists/lists.md
