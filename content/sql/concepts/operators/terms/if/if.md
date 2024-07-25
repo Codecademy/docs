@@ -1,14 +1,13 @@
 ---
 Title: 'IF'
-Description: 'The IF function in SQL applies conditional logic to queries and returns a value.'
+Description: 'Applies conditional logic to queries and returns a value.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-  - 'Data Science'
 Tags:
   - 'Operators'
   - 'Database'
-  - 'MySQL'
+  - 'Data'
   - 'Conditionals'
 CatalogContent:
   - 'learn-sql'
@@ -29,7 +28,7 @@ IF(condition, value_if_true, value_if_false)
 
 ## Example
 
-The following example demonstrates the use of the `IF` function to label stock prices as 'High' or 'Low':
+The following example demonstrates the use of the `IF` function to label stock prices as `High` or `Low`:
 
 ```sql
 # Create a table named 'stocks'
@@ -55,4 +54,4 @@ The output of the `SELECT` statement will be:
 | Nvidia    | 1237.78 | High           |
 | Tesla     | 1089.25 | High           |
 
-The `IF` function checks if the price of the stock is greater than 500. If true, it assigns 'High' to the `price_category` otherwise, it assigns 'Low'.
+The `IF` function checks if the price of the stock is greater than `500`. If true, it assigns `High` to the `price_category`. Otherwise, it assigns `Low`.
