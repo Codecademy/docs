@@ -35,7 +35,7 @@ The equal to operator `=` can be combined with other comparison operators to che
 
 ## Example
 
-Return values that are equal to `Hello` in the table `Greetings`:
+Return employees that have employee IDs equal to 100 in the table `Employ`:
 
 ```sql
 # Create a table named 'employ'
@@ -49,4 +49,9 @@ INSERT INTO employ (employ_name, employ_id) VALUES
 
 # Use the EQUAL TO operator to find employ with a specific ID
 SELECT employ_name, employ_id FROM employ WHERE employ_id = '100';
+```
+
+```shell
+employ_name, employ_id
+'John', 100 
 ```
