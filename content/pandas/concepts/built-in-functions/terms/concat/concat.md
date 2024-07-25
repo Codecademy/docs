@@ -1,6 +1,6 @@
 ---
 Title: '.concat()'
-Description: 'Concatenates multiple Dataframes or Series along a particular axis.'
+Description: 'Concatenates multiple dataframes or series along a particular axis.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
