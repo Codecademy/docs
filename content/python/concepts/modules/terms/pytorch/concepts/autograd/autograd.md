@@ -16,7 +16,7 @@ CatalogContent:
   - 'https://www.codecademy.com/resources/docs/pytorch'
 ---
 
-`Autograd` is a PyTorch library that is important for automatically computing derivatives (also known as automatic differentiation). This can save engineers a lot of time from manually computing gradients for large numbers of model parameters in machine learning models. Autograd is often used as a method in machine learning to optimize loss functions to assess how well a machine learning model fits the data and optimizes tasks.  
+`Autograd` is a built-in PyTorch library that is important for automatically computing derivatives (also known as automatic differentiation). This can save engineers a lot of time from manually computing gradients for large numbers of model parameters in machine learning models. Autograd is often used as a method in machine learning to optimize loss functions to assess how well a machine learning model fits the data and optimizes tasks.  
 
 So how does autograd speed up complex derivative computations in PyTorch? To do this, autograd first traces all possible decision branches, automatically calculates derivatives, and tracks all calculations made in the `Tensor`. 
 
