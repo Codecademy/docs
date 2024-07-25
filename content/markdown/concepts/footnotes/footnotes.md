@@ -38,11 +38,9 @@ Think of Pieces as a technical Tinkerbell from Peter Pan[^2]
 [^2]: This is a fairytale about a forever young boy would takes a group of British children to his home island, Neverland
 
 When rendered, it looks like this
-
+```md
 > Think of Pieces as a technical Tinkerbell from Peter Pan[^2]
-
-## Example #2
-
+```
 ## Things to consider when using Footnotes
 
 When writing documentation, consider the following strategies to use footnotes effectively:
