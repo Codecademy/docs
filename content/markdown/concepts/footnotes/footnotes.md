@@ -34,7 +34,7 @@ For footnotes that are more than a sentence, use the following syntax:
 
 ## Example #1
 
-In below example, the sentence uses compares the tool, Pieces to Tinkerbell and its footnotes elaborates on who Tinkerbell is. This is done to make the correlation clearer for a user who might not be familiar with this character.
+In the below example, the sentence compares the tool, Pieces to Tinkerbell, and its footnotes elaborate on who Tinkerbell is. This is done to make the correlation clearer for a user who might not be familiar with this character.
 Think of Pieces as a technical Tinkerbell from Peter Pan[^2]
 
 [^2]: This is a fairytale about a forever young boy would takes a group of British children to his home island, Neverland
