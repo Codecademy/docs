@@ -22,7 +22,7 @@ pandas.concat(objs, axis=0, join='outer', ignore_index=False, keys=None, levels=
 ```
 
 - `objs`: Denotes the objects to concatenate, which can be a sequence or mapping of pandas `Series` or `DataFrame` objects. It must be specified and can be passed as a list, tuple, dictionary, Series, or DataFrame.
-- `axis`: Specifies the axis along which to concatenate the objects. The default value is 0 for rows, while 1 represents columns.
+- `axis`: Specifies the axis to concatenate the objects. The default value is 0 for rows, while 1 represents columns.
 - `join`: Determines how to handle indexes on other axes. Options include "outer" (default), "inner," "left," or "right."
 - `ignore_index`: If `True`, resets the index in the resulting DataFrame. The new axis will be labeled 0, ..., n-1. Default value is `False`.
 - `keys`: Constructs a hierarchical index using the provided keys as the outermost level. Default value is `None`.
