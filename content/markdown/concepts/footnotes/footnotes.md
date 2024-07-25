@@ -49,5 +49,5 @@ When rendered, it looks like this
 
 When writing documentation, consider the following strategies to use footnotes effectively:
 
-- **Don't add a space between the word and the number that has the caret next to it and is encased in brackets:** It'll make the footnote not appear.
-- **Use them sporadically:** Footnotes can make it difficult for users to navigate documentation so determine if the sentence can be easily comprehended.
+- Don't add a space between the word and the number that has the caret next to it and is encased in brackets  It'll make the footnote not appear.
+- Using them sporadically as footnotes can make it difficult for users to navigate documentation to determine if the sentence can be easily comprehended.
