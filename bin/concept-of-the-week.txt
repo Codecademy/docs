@@ -1,1 +1,1 @@
-content/python/concepts/classes/classes.md
+content/markdown/concepts/lists/lists.md
