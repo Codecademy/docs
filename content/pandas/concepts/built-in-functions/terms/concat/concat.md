@@ -24,12 +24,12 @@ pandas.concat(objs, axis=0, join='outer', ignore_index=False, keys=None, levels=
 - `objs`: Denotes the objects to concatenate, which can be a sequence or mapping of pandas `Series` or `DataFrame` objects. It must be specified and can be passed as a list, tuple, dictionary, Series, or DataFrame.
 - `axis`: Specifies the axis to concatenate the objects. The default value is 0 for rows, while 1 represents columns.
 - `join`: Determines how to handle indexes on other axes. Options include "outer" (default), "inner," "left," or "right."
-- `ignore_index`: If `True`, resets the index in the resulting DataFrame. The new axis will be labeled 0, ..., n-1. Default value is `False`.
-- `keys`: Constructs a hierarchical index using the provided keys as the outermost level. Default value is `None`.
-- `levels`: Specific levels to use for constructing a MultiIndex if keys are provided. Default value is `None`.
-- `names`: Names for the levels generated in the hierarchical index. Default value is `None`.
-- `verify_integrity`: If `True`, checks whether the new concatenated axis contains duplicates. Default value is `False`.
-- `sort`: If `True`, sorts the resulting `Series` or `Dataframe` by the keys. Default value is `False`.
+- `ignore_index`: If `True`, reset the index in the resulting DataFrame. The new axis will be labeled 0, ..., n-1. The default value is `False`.
+- `keys`: Constructs a hierarchical index using the provided keys as the outermost level. The default value is `None`.
+- `levels`: Specific levels to use for constructing a MultiIndex if keys are provided. The default value is `None`.
+- `names`: Names for the levels generated in the hierarchical index. The default value is `None`.
+- `verify_integrity`: If `True`, checks whether the new concatenated axis contains duplicates. The default value is `False`.
+- `sort`: If `True`, sorts the resulting `Series` or `Dataframe` by the keys. The default value is `False`.
 - `copy`: If `False`, avoids copying data unnecessarily. Default value is `True`.
 
 > **Note:** Only the `objs` parameter is required; all other parameters are optional.
