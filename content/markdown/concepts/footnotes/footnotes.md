@@ -27,9 +27,7 @@ This is a text[^1]
 For footnotes that are more than a sentence, use the following syntax:
 
 ```md
-[^bignote]:
-    This is a reference that is used to correlate it to the document.
-    It is It is best to read it alongside the paragraph it is used to help users gain a better understanding the docuemntation.
+[^bignote]: This is a reference that is used to correlate it to the document. It is best to read it alongside the paragraph it is used to help users gain a better understanding of the documentation.
 ```
 
 ## Example #1
