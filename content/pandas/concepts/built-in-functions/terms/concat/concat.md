@@ -9,10 +9,8 @@ Tags:
   - 'Functions'
   - 'Pandas'
 CatalogContent:
-  - 'paths/data-science'
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/data-science-foundations'
 ---
 
 The **`.concat()`** function is used to concatenate and combine multiple [`DataFrames`](https://www.codecademy.com/resources/docs/pandas/dataframe) or `Series` along a particular axis.
