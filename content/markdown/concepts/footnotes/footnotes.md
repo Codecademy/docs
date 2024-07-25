@@ -30,7 +30,7 @@ For footnotes that are more than a sentence, use the following syntax:
 [^bignote]: This is a reference that is used to correlate it to the document. It is best to read it alongside the paragraph it is used to help users gain a better understanding of the documentation.
 ```
 
-## Example #1
+## Example 1
 
 In the below example, the sentence compares the tool, Pieces to Tinkerbell, and its footnotes elaborate on who Tinkerbell is. This is done to make the correlation clearer for a user who might not be familiar with this character.
 Think of Pieces as a technical Tinkerbell from Peter Pan[^2]
