@@ -73,6 +73,7 @@ class TestRest {
   }
 }
 
+
 let tr = new TestRest()
 
 function getUsers(...param) {
