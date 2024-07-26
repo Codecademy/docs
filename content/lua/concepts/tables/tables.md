@@ -85,7 +85,7 @@ a
 ```
 
 ```lua
-letters = {a, b, c}
+letters = {"a", "b", "c'}
 print(letters[3])
 ```
 
