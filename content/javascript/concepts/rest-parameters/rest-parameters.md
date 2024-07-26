@@ -79,7 +79,7 @@ function getUsers(...param) {
   let response = { status: [200, 201, 404, 500] }
   let randomI = Math.floor(Math.random() * response.status.length)
 
-  if (response.status[randomI] == 200) {
+  if (response.status[randomI] === 200) {
     return param[0]
   } else if (response.status[randomI] === 201) {
     return param[1]
