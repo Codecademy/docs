@@ -34,6 +34,8 @@ Indexes can be created when the table is first created with the `CREATE TABLE` s
 
 ### Creating Indexes When Creating a Table
 
+In this example, an index is created on the `last_name` column.
+
 ```sql
 CREATE TABLE employees (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -44,15 +46,13 @@ CREATE TABLE employees (
 );
 ```
 
-In this example, an index is created on the `last_name` column.
-
 ### Creating Indexes on an Existing Table
+
+This statement adds an index to the `last_name` column of the `employees` table.
 
 ```sql
 CREATE INDEX idx_lastname ON employees(last_name);
 ```
-
-This statement adds an index to the `last_name` column of the `employees` table.
 
 ## Using Indexes
 
@@ -60,21 +60,21 @@ When a query is executed, MySQL's query optimizer decides whether to use an inde
 
 ### Example Without Index
 
+Without an index on `last_name`, MySQL has to scan every row in the `employees` table to find the rows where `last_name` is 'Taylor'.
+
 ```sql
 SELECT * FROM employees WHERE last_name = 'Taylor';
 ```
 
-Without an index on `last_name`, MySQL has to scan every row in the `employees` table to find the rows where `last_name` is 'Taylor'.
-
 ### Example With Index
+
+With an index on `last_name`, MySQL can quickly locate all rows where `last_name` is 'Taylor' using the index.
 
 ```sql
 CREATE INDEX idx_lastname ON employees(last_name);
 
 SELECT * FROM employees WHERE last_name = 'Taylor';
 ```
-
-With an index on `last_name`, MySQL can quickly locate all rows where `last_name` is 'Taylor' using the index.
 
 ## Viewing Indexes
 
@@ -121,9 +121,10 @@ CREATE TABLE products (
     name VARCHAR(100),
     category VARCHAR(50),
     price DECIMAL(10, 2),
-    stock INT,
-    INDEX idx_category_price (category, price)
+    stock INT
 );
+
+CREATE INDEX idx_category_price ON products(category, price);
 ```
 
 ### Inserting Data
@@ -144,7 +145,7 @@ INSERT INTO products (name, category, price, stock) VALUES
 ```sql
 SELECT * FROM products WHERE category = 'Electronics' AND price < 800;
 ```
-#### Expected Output
+**Expected Output**
 
 Based on the inserted sample data, the query will return the rows where the category is 'Electronics' and the price is less than 800. Here is the expected output:
 
@@ -155,7 +156,6 @@ Based on the inserted sample data, the query will return the rows where the cate
 | 5          | Headphones | Electronics | 199.99 | 150   |
 | 6          | Monitor    | Electronics | 179.99 | 80    |
 
-With the `idx_category_price` composite index, this query will be faster as MySQL uses the index to quickly locate relevant rows.
 
 ## Conclusion
 
