@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-**Indexing** in MySQL is like creating a shortcut to find data in a database quickly. Just as an index in a book helps locate topics without flipping through every page, a database index helps MySQL locate rows faster without scanning the entire table. This improves the speed of search queries, making data retrieval much more efficient.
+**Indexing** in MySQL is like creating a shortcut to quickly find data in a database. Just as an index in a book helps locate topics without flipping through every page, a database index helps MySQL locate rows faster without scanning the entire table. This improves the speed of search queries, making data retrieval much more efficient.
 
 ## How Indexes Work
 
