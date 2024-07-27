@@ -138,7 +138,7 @@ Flask
 Flexbox
 Flutter
 Fonts
-Footnotes 
+Footnotes
 For
 ForEach
 Foreign Key
