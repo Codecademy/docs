@@ -88,7 +88,7 @@ console.log(numbers);
 
 ## Codebyte Example
 
-This codebyte example uses a comparison function with `.sort()` in order to sort the array alphabetically, while ignoring case:
+The below Codebyte example uses a comparison function with `.sort()` in order to sort the array alphabetically while ignoring the case:
 
 ```codebyte/javascript
 //Comparison Function
