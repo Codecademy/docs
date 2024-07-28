@@ -9,18 +9,20 @@ Tags:
   - 'Algorithms'
   - 'Sorting Algorithms'
 CatalogContent:
-  - 'learn-java'
+  - 'learn-c-plus-plus'
   - 'paths/computer-science'
 ---
 
-**Insertion Sort** is a simple sorting algorithm which divides an array into two parts one is sorted and another is unsorted then interates throught the unsorted array and places each element in the correct place in the sorted array.
+**Insertion Sort** is a simple sorting algorithm that divides an array into two parts one is sorted and another is unsorted then iterates through the unsorted array and places each element in the correct place in the sorted array.
 
 ## Explanation
 
-- Assume that the first element (index 0) in the array is already sorted.
-- Iterate throught the array starting from the element at the second position and compare it with the first element which is already sorted if the first element greater then the second then swap them.
-- Next, compare the third element with the two before it and if its smaller then again swap.
+- Assume that the first element in the array is already sorted.
+- Iterate through the array starting from the element at the second position and compare it with the first element which is already sorted if the first element is greater than the second then swap them.
+- Next, compare the third element with the two before it, and if it's smaller then again swap.
 - Continue this process till the whole array is sorted.
+
+## Implementation
 
 ```cpp
 #include <iostream>
