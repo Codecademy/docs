@@ -1,22 +1,23 @@
 ---
 Title: 'Support Vector Machines'
-Description: 'Support Vector Machines are a supervised learning algorithm used to classify data by finding a separation line between categories.'
+Description: 'A supervised learning algorithm used to classify data by finding a separation line between categories.'
 Subjects:
   - 'Data Science'
   - 'Machine Learning'
 Tags:
-  - 'Supervised Learning'
-  - 'Sci-kit Learn'
+  - 'Machine Learning'
 CatalogContent:
   - 'getting-started-with-python-for-data-science'
   - 'paths/data-science'
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
-**Support Vector Machines**(SVMs) are a supervised learning algorithm excelling at classification tasks. They work by finding the optimal hyperplane that maximizes the margin between different classes in your data. The margin is the distance between the hyperplane and the closest data points from each class, called support vectors. SVMs are particularly effective for high-dimensional datasets, and handle complex data while promoting good generalization and reducing the risk of overfitting.
+**Support Vector Machines**(SVMs) are a supervised learning algorithm excelling at classification tasks. They work by finding the optimal hyperplane that maximizes the margin between different classes in your data. The margin is the distance between the hyperplane and the closest data points from each class, called support vectors. SVMs are particularly effective for high-dimensional datasets and handle complex data while promoting good generalization and reducing the risk of overfitting.
 
-## Example
+## Syntax
 
-Scikit-learn provides the SVC class for implementing SVMs. Here's the basic syntax for using SVC:
+Scikit-learn provides the `SVC` class for implementing SVMs. Here's the basic syntax for using SVC:
 
 ```py
 from sklearn.svm import SVC
@@ -35,10 +36,10 @@ The example syntax defines a new SVM model, fits the model to training set X and
 
 The kernel defines the type of hyperplane used for separation. The options are:
 
-- 'linear': linear kernel, default option that is suitable for linearly separable datasets.
-- 'poly': polynomial kernel, allows for complex decision boundaries but is prone to overfitting. Hypertune the 'degree' parameter to avoid overfitting.
-- 'rbf': Radial Basis Function(RBF) Kernel, creates smooth, circular decision boundaries.
-- 'sigmoid': Sigmoid Kernel, similar to RBF in that it creates non-linear decision boundaries, but is less commonly used.
+- `linear`: linear kernel is the default option suitable for linearly separable datasets.
+- `poly`: polynomial kernel allows for complex decision boundaries but is prone to overfitting. Hypertune the 'degree' parameter to avoid overfitting.
+- `rbf`: Radial Basis Function(RBF) Kernel creates smooth and circular decision boundaries.
+- `sigmoid`: Sigmoid Kernel is similar to RBF in that it creates non-linear decision boundaries but is less commonly used.
 
 The C parameter in SVC controls the trade-off between maximizing the margin and reducing training error. 
 
@@ -51,7 +52,9 @@ Choosing the optimal C value often involves experimentation and techniques like 
 - For moderately complex, non-linear data, consider 'rbf' or a low-degree 'poly' kernel with a moderate C value.
 - For highly complex data, experiment with different kernels and C values using techniques like grid search.
 
-## Codebyte Example
+## Example
+
+This example generates a synthetic dataset of 500 samples with two classes using the `make-blobs` function. Then, it defines a SVM model with a linear kernel and C value of 1. After training, the model is used to predict the class of a new data point [5, 1.5], and the predicted class in printed in the console. The output will be either 0 or 1, depending on which side of the decision boundary the point falls on.
 
 ```py
 from sklearn.svm import SVC

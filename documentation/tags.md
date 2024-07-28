@@ -282,7 +282,6 @@ Requests
 Responsive
 Rest Parameter
 Schema Design
-Scikit-learn
 Scope
 Script
 Seaborn
@@ -311,7 +310,6 @@ Strings
 Structure
 Style
 Subqueries
-Supervised Learning
 SwiftUI
 SwiftUI Views
 SwiftUI ViewModifiers
