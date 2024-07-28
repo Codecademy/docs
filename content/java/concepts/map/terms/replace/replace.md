@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.replaceAll()` method of the HashMap class replaces each value in the map with the result of the applied function. After the function executes every key is linked to a new value.
+The `.replaceAll()` method of the [HashMap](https://www.codecademy.com/resources/docs/java/hashmap) class replaces each value in the map with the result of the applied function. After the function executes every key is linked to a new value.
 
 ## Syntax
 
@@ -21,10 +21,10 @@ The `.replaceAll()` method of the HashMap class replaces each value in the map w
 map.replaceAll((K, V) -> function)
 ```
 
-- `map`: The name of the map.
+- `map`: The instance of `HashMap` or any `Map`.
 - `K`: The key in the map.
 - `V`: The value in the map that will be replaced.
-- `function`: The function to perform on the Map.
+- `function`: The operation applied to each key-value pair will produce a new value.
 
 ## Example
 
@@ -35,19 +35,19 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ReplaceAllLambdaExample {
-    public static void main(String[] args) {
-        Map<String, Double> productPrices = new HashMap<>();
-        productPrices.put("Laptop", 1200.00);
-        productPrices.put("Smartphone", 800.00);
-        productPrices.put("Tablet", 400.00);
+  public static void main(String[] args) {
+    Map<String, Double> productPrices = new HashMap<>();
+    productPrices.put("Laptop", 1200.00);
+    productPrices.put("Smartphone", 800.00);
+    productPrices.put("Tablet", 400.00);
 
-        // Apply a 10% discount to all prices using lambda expression
-        productPrices.replaceAll((key, value) -> value * 0.9);
+    // Apply a 10% discount to all prices using lambda expression
+    productPrices.replaceAll((key, value) -> value * 0.9);
 
-        // Print the modified map
-        productPrices.forEach((product, price) ->
-            System.out.println(product + ": $" + price));
-    }
+    // Print the modified map
+    productPrices.forEach(
+        (product, price) -> System.out.println(product + ": $" + price));
+  }
 }
 ```
 
