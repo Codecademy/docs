@@ -71,6 +71,8 @@ For example, to link to the `Accessibility: Link Titles` section above:
 [Accessibility: Link Titles](#accessibility-link-titles)
 ```
 
+```pseudo
 The output would look like:
 
 [Accessibility: Link Titles](#accessibility-link-titles)
+```
