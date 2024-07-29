@@ -1,7 +1,7 @@
 ---
 Title: 'Python:Sklearn Decision Trees'
 Description: 'Sklearn is a free, open-source machine learning library for Python. This computer program implements decision trees which are used to make possible decisions based on certain conditions'
-Codecademy Hub Page: 'https://www.codecademy.com/catalog/language/python' 'https://www.codecademy.com/learn/paths/intermediate-machine-learning-skill-path'
+Codecademy Hub Page: 'https://www.codecademy.com/catalog/language/python' 
 
 CatalogContent:
   - 'getting-started-with-python-for-data-science'
@@ -26,3 +26,4 @@ To install Sklearn, use [`pip`](https://www.codecademy.com/resources/docs/python
 ```shell
 pip install scikit-learn
 ```
+
