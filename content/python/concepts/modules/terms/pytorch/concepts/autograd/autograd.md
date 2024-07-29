@@ -176,7 +176,7 @@ tensor([[[27., 27., 27.],
          [27., 27., 27.]]], grad_fn=<MulBackward0>)
 ```
 
-###Backpropogate with random numbers. 
+Backpropogate with random numbers. 
 >**Note**
 >This function will fail if the retained variables are not specified in earlier steps,.
 
