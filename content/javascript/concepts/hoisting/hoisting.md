@@ -45,9 +45,9 @@ console.log(`My name is ${name}.`); // --> ReferenceError
 var myName = 'Brandon';
 ```
 
-### Codebyte Example
+### Codebyte Example 1
 
-This example demonstrates how a variable can be declared after it is used. Try changing the placement of the variable declaration (`var name;`) and initialization (`name = 'Brandon';`) to see how it affects the output.
+This example demonstrates how a variable can be declared after it is used. Try changing the placement of the variable declaration and initialization to see how it affects the output:
 
 ```codebyte/javascript
 name = 'Brandon'
@@ -136,9 +136,9 @@ First, we logged the type of `greetings` just to remind what the type for the ho
 
 How is that possible? Again, at this point in the execution phase, the hoisted `greetings` variable is of type `undefined`. The definition of greetings as a function doesn't happen until the _next_ line. Therefore, JavaScript threw the `TypeError`.
 
-### Codebyte Example
+### Codebyte Example 2
 
-This is an example of how a function declaration can be hoisted. Try changing the function declaration to a function expression to see how that affects the output.
+This is an example of how a function declaration can be hoisted. Try changing the function declaration to a function expression to see how that affects the output:
 
 ```codebyte/javascript
 console.log(hoistedFunction());
@@ -215,9 +215,9 @@ For a given variable declared with `let` or `const`, TDZ is the scope which is f
 
 Accessing variables and functions before they are declared is bad practice because it is hard to understand and confusing for people who read your code. With `var`, you may read or change the variable unintentionally before initialization, but JavaScript doesn't give you an error that you may be doing something wrong. Thanks to `let`, `const`, and TDZ, we can avoid and catch many potential bugs.
 
-### Codebyte Example
+### Codebyte Example 3
 
-This is an example of hoisting with a `let` variable declaration. Try running it and notice that no error is thrown.
+This is an example of hoisting with a `let` variable declaration. Try running it and notice that no error is thrown:
 
 ```codebyte/javascript
 let myName;
