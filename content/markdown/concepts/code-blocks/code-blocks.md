@@ -33,17 +33,27 @@ This is a code block.
 
 An alternative way to create a code block is by adding four `spaces` before each line of code:
 
-    [space][space][space][space]This is a line of code.
-    [space][space][space][space]This is a line of code.
+````md
+```
+{
+[space][space][space][space]This is a line of code.
+[space][space][space][space]This is a line of code.
+}
+```
+````
 
 The result will look like this:
 
+```
+{
     This is a line of code.
     This is a line of code.
+}
+```
 
 ## Syntax Highlighting
 
-Optionally, a language can be specified for a code block to enable syntax highlighting. This can be done by appending the language to the starting backticks. The indent lines method(four `spaces`) does not support syntax highlighting, so using three backticks(` ``` `) is preferred:
+Optionally, a language can be specified for a code block to enable syntax highlighting. This can be done by appending the language to the starting backticks. The indent lines method (four `spaces`) does not support syntax highlighting, so using the former method is preferred:
 
 ````md
 ```js
