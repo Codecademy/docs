@@ -67,4 +67,4 @@ The output of the `SELECT` statement will be:
 |  Diana    |  30000  | Moderate Salary |
 |  Edward   |  85000  | High Salary     |
 
-The `IF` function checks if the salary is greater than `60000`. If true, it assigns `High Salary` to the `salary_category`. Otherwise, it assigns `Moderate Salary`.
+The `IIF` function checks if the salary is greater than `60000`. If true, it assigns `High Salary` to the `salary_category`. Otherwise, it assigns `Moderate Salary`.
