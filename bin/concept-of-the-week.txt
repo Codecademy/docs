@@ -1,1 +1,1 @@
-content/java/concepts/math-methods/math-methods.md
+content/java/concepts/collections/collections.md
