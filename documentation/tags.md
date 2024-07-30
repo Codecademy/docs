@@ -56,7 +56,6 @@ Charts
 Chatbots
 Cryptocurrency
 Classes
-Classification
 Cloud Computing
 Code Editors
 Conditionals
@@ -139,6 +138,7 @@ Flask
 Flexbox
 Flutter
 Fonts
+Footnotes
 For
 ForEach
 Foreign Key
@@ -278,7 +278,6 @@ Rectangle
 Recursion
 Redux
 References
-Regression
 Regular Expressions
 Requests
 Responsive
@@ -326,6 +325,7 @@ Technical Interviews
 Templates
 TensorFlow
 Text-To-Image
+Text Processing
 Threads
 Tidyr
 Time
