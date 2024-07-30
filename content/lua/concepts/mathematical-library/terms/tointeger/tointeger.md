@@ -16,7 +16,7 @@ CatalogContent:
 
 In Lua, the **`math.tointeger()`** function is a standard function that is part of the Lua `math` library. It is used to convert a given value to an integer, if the given value _is convertible_ to an integer.
 
-> **Note:** `math.tointeger()` was introduced in Lua 5.3. Earlier verisons of Lua will not have this function as a standard part of their `math` library.
+> **Note:** `math.tointeger()` was introduced in Lua 5.3. Earlier versions of Lua will not have this function as a standard part of their `math` library.
 
 ## Syntax
 

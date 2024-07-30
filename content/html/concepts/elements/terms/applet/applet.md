@@ -14,35 +14,27 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`<applet>`** element was used to embed Java applets into an HTML page. It has since been deprecated and removed from the [HTML specification](https://html.spec.whatwg.org/). This tag should no longer be used as browsers no longer support it.
+The **`<applet>`** element was used to embed Java applets into an HTML page. It has since been deprecated and removed from the HTML specification. This tag should no longer be used as browsers no longer support it.
 
 ## Syntax
 
+The original syntax for the `<applet>` element looked like this:
+
 ```html
 <!-- This is no longer supported -->
-<applet code="url of Java class file">
+<applet code="url of Java class file" width="300" height="300">
   Text displayed when no Java runtime is available.
 </applet>
 ```
 
-A `code` attribute supplied the URL for a given Java class file. It could also use common attributes like `width` and `height`.
+- `code`: This attribute specifies the URL for the Java class file.
 
-The `<applet>` element included zero or more [`<param>`](https://www.codecademy.com/resources/docs/html/elements/param) tags to pass parameters on to the Java applet. Its functionality is now incorporated into the [`<object>`](https://www.codecademy.com/resources/docs/html/elements/object) tag.
+> **Note:** The `<applet>` element could also use common attributes like `width` and `height` to define its dimensions on the page. It could also include one or more [`<param>`](https://www.codecademy.com/resources/docs/html/elements/param) tags to pass parameters to the Java applet.
 
-```html
-<!-- This is no longer supported -->
-<applet code="url of Java class file">
-  <param name="name of parameter" value="value of parameter" />
-  Text displayed when no Java runtime is available.
-</applet>
-```
+The `<applet>` element is deprecated due to security and compatibility concerns. The [`<object>`](https://www.codecademy.com/resources/docs/html/elements/object) or [`<embed>`](https://www.codecademy.com/resources/docs/html/elements/embed) tags can be used as modern alternatives.
 
 ## Example
 
-```html
-<!-- This is no longer supported -->
-<applet code="myApplet.class" height="300" width="300">
-  <param name="input" value="This is deprecated HTML" />
-  This browser doesn't support Java applets.
-</applet>
-```
+The following image shows an example applet:
+
+![An image showing an example of a Java applet in a historical web context](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-elements-applet.gif)

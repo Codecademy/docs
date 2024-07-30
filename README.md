@@ -16,12 +16,14 @@ Docs is live with over 2000 high-quality entries. Now that the MVP is out, our g
 
 ### 📝 Content Team
 
-- [@aherman91](https://github.com/aherman91), Curriculum Developer
-- [@caupolicandiaz](https://github.com/caupolicandiaz), Content Contributor
-- [@HishamT](https://github.com/HishamT), Content Contributor
-- [@KTom101](https://github.com/KTom101), Content Contributor
-- [@sswiniarski](https://github.com/sswiniarski), Content Contributor
-- [@yangc95](https://github.com/yangc95), Content Contributor
+- [@HishamT](https://github.com/HishamT), Instructional Designer
+- [@avdhoottt](https://github.com/avdhoottt), Content Contributor
+- [@dakshdeepHERE](https://github.com/dakshdeepHERE), Content Contributor
+- [@mamtawardhani](https://github.com/mamtawardhani), Content Contributor
+- [@SaviDahegaonkar](https://github.com/SaviDahegaonkar), Content Contributor
+- [@Sriparno08](https://github.com/Sriparno08), Content Contributor
+- [@cigar-galaxy82](https://github.com/cigar-galaxy82), Content Contributor
+- [@letsbuildanything](https://github.com/letsbuildanything), Content Contributor
 
 We are currently building a team of community volunteers and educators to maintain Docs. Let us know if you are interested.
 
@@ -37,13 +39,25 @@ We are currently building a team of community volunteers and educators to mainta
 
 Here's how you can contribute to Codecademy Docs:
 
-1. Get assigned to an Issue of your interest.
-   - Ask to be assigned to one of the [available Issues](https://github.com/Codecademy/docs/issues?q=is%3Aissue+is%3Aopen+-label%3Aclaimed).
-   - Submit a typo/bug in [GitHub Issues](https://github.com/Codecademy/docs/issues).
-2. Write a new entry or make changes to an existing entry, based on the requirement of your Issue.
-3. Submit a Pull Request of your entry for your assigned Issue.
-4. Reply to the thread on [Possible Content Discussion](https://discuss.codecademy.com/t/find-a-starting-point-possible-content-discussion/745868) to share ideas and collaborate with other contributors, maintainers, or super users to determine good future issues.
-5. Share your thoughts in this [Docs feedback form](https://codecademyready.typeform.com/to/hzVIWDgz) to tell us how we can improve Docs!
+- Get assigned to an Issue of your interest:
+  - Ask to be assigned to one of the [available Issues](https://github.com/Codecademy/docs/issues?q=is%3Aissue+is%3Aopen+-label%3Aclaimed).
+  - Submit a typo/bug in [GitHub Issues](https://github.com/Codecademy/docs/issues).
+- Prepare your contribution:
+
+  - Fork the Codecademy docs repository on your GitHub account.
+  - Create a new branch for your contributions:
+
+    ```shell
+    git checkout -b branch_name
+    ```
+
+  - Write a new entry or make changes to an existing entry, based on the requirement of your Issue.
+
+- Submit your work:
+  - Submit a Pull Request of your entry for your assigned Issue.
+- Collaborate and provide feedback:
+  - Reply to the thread on [Possible Content Discussion](https://discuss.codecademy.com/t/find-a-starting-point-possible-content-discussion/745868) to share ideas and collaborate with other contributors, maintainers, or super users to determine good future issues.
+  - Share your thoughts in this [Docs feedback form](https://codecademyready.typeform.com/to/hzVIWDgz) to tell us how we can improve Docs!
 
 Whether you are a code newbie or a seasoned hacker, there's something for you!
 

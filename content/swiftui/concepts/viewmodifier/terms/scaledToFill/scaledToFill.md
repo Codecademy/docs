@@ -2,7 +2,7 @@
 Title: '.scaledToFill()'
 Description: 'Scales the view to fill its parent view while maintaining the original aspect ratio.'
 Subjects:
-  - 'Mobile Devolopment'
+  - 'Mobile Development'
   - 'iOS'
 Tags:
   - 'SwiftUI'

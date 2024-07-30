@@ -7,6 +7,7 @@ Feel free to add suggestions for new tags to the list as part of your PR! Be sur
 ```
 Abstraction
 Accessibility
+Aggregate Functions
 AI
 Algorithms
 Alias
@@ -58,6 +59,7 @@ Classes
 Cloud Computing
 Code Editors
 Conditionals
+Collations
 Collections
 Colors
 Combinators
@@ -136,6 +138,7 @@ Flask
 Flexbox
 Flutter
 Fonts
+Footnotes
 For
 ForEach
 Foreign Key
@@ -322,6 +325,7 @@ Technical Interviews
 Templates
 TensorFlow
 Text-To-Image
+Text Processing
 Threads
 Tidyr
 Time
@@ -361,6 +365,7 @@ WebRTC
 Weight & Bias
 While
 Whiteboarding
+Window Functions
 WordPress
 World Wide Web
 Xcode

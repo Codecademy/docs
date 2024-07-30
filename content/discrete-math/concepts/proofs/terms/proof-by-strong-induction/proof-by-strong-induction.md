@@ -44,7 +44,7 @@ Inductive Step:
 
 In the inductive step, it must be shown that if, for any value _x_ between _2_ and _k_ (inclusive), _2(x - 1) - (x - 2) = x_, then at _x = k + 1, 2(x - 1) - (x - 2) = x_.
 
-This conditional will be proven by assuming the antecendent (this assumption is called the inductive hypothesis) and showing the consequent:
+This conditional will be proven by assuming the antecedent (this assumption is called the inductive hypothesis) and showing the consequent:
 
 ```plaintext
 Inductive Hypothesis: Suppose that for all x such that 2 ≤ x ≤ k, 2(x - 1) - (x - 2) = x.
@@ -58,7 +58,7 @@ First, we will rearrange the left-hand of the expression above:
            = 2(k - 1) - (k - 2) + 1  [adding numerical terms]
 
 Now, by the Inductive Hypothesis, 2(k - 1) - (k - 2) = k. We therefore substitute 'k' for '2(k-1) - (k-2)' in the rearranged expression above:
- 2((k + 1) - 1) - ((k + 1) - 2) = k + 1    [substition from Inductive Hypothesis]
+ 2((k + 1) - 1) - ((k + 1) - 2) = k + 1    [substitution from Inductive Hypothesis]
 
 Having shown that 2((k + 1) - 1) - ((k + 1) - 2) = k + 1, this completes the inductive step and the proof.
 ```

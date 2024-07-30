@@ -19,7 +19,7 @@ The **`.complete()`** method of the `Calendar` class is used to fill in any empt
 someCalendar.complete()
 ```
 
-> **Note:** If the time value has not been calculated from the calender field values, the `.computeTime()` method is called. Then to calculate all calendar field values, the `.computeFields()` method is called.
+> **Note:** If the time value has not been calculated from the calendar field values, the `.computeTime()` method is called. Then to calculate all calendar field values, the `.computeFields()` method is called.
 
 ## Example
 

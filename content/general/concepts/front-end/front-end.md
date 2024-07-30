@@ -36,7 +36,7 @@ Front-end web development can involve a variety of tasks, including:
 
 ## Front-End Technologies
 
-The following are the three core techologies used in front-end development:
+The following are the three core technologies used in front-end development:
 
 - [HTML](https://www.codecademy.com/resources/docs/html), the "skeleton" of a webpage, is used to structure the content's layout and general behavior on the browser.
 - [CSS](https://www.codecademy.com/resources/docs/css), the "skin and clothes" of the webpage, gives browsers more specific information on styling content, like the size and color of text or the look and layout of a group of elements.

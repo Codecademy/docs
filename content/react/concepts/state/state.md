@@ -96,7 +96,7 @@ class Car extends React.Component {
     year: 1998,
   };
 
-  // Same renderd JSX
+  // Same rendered JSX
 }
 ```
 

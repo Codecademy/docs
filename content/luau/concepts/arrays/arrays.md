@@ -21,7 +21,7 @@ Arrays are versatile data structures capable of storing various data types, and 
 Luau allows for the creation of arrays using curly braces `{}`. Unlike some programming languages that start array indexing from `0`, in Luau, by default, the first element in an array is designated as index `1`. However, Luau provides the flexibility to create arrays with custom indices as needed.
 
 ```lua
-a = {5};  -- An array with single elemnent
+a = {5};  -- An array with single element
 
 print(a[1]) -- This will return 5
 print(a[2]) -- This will return nil because the index is out of range

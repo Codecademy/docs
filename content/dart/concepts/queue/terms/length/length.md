@@ -17,7 +17,7 @@ In Dart, the **`.length`** property returns the number of elements in a queue.
 
 ## Syntax
 
-```psuedo
+```pseudo
 queueName.length
 ```
 

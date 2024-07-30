@@ -88,12 +88,12 @@ void main() {
 
   String wishList = resolutions.join(", No ");
 
-  print('In 2024 I will defenitely stick to these simple rules: No ${wishList}.');
+  print('In 2024 I will definitely stick to these simple rules: No ${wishList}.');
 }
 ```
 
 The output of the above code is:
 
 ```shell
-In 2024 I will defenitely stick to these simple rules: No takeaways, No overtime at work, No binge watching, No cigarettes, No comparing to others, No all-night parties.
+In 2024 I will definitely stick to these simple rules: No takeaways, No overtime at work, No binge watching, No cigarettes, No comparing to others, No all-night parties.
 ```
