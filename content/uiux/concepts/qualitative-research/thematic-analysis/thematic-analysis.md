@@ -18,8 +18,3 @@ Codes are used to identify common topics of interest, functioning as tags for ca
 
 ## Themes
 Once the data has been categorized, themes can be determined within the created codes. A theme is a core idea obtained by observing similar concepts within a code, indicating something about user needs or preferences, and providing meaningful insights.
-
-## Resources
-
-- [How to perform thematic analysis to extract meaningful UX insights](https://maze.co/blog/thematic-analysis/)
-- [Thematic Analysis in UX Research](https://atlasti.com/guides/thematic-analysis/thematic-analysis-ux-research)
