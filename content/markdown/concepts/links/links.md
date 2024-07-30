@@ -72,7 +72,5 @@ For example, to link to the `Accessibility: Link Titles` section above:
 ```
 
 ```pseudo
-The output would look like:
-
 [Accessibility: Link Titles](#accessibility-link-titles)
 ```
