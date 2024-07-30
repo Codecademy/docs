@@ -17,7 +17,7 @@ CatalogContent:
 Codes are used to identify common topics of interest, functioning as tags for categorizing data. For example, a thematic analysis of feedback for a messaging app may include codes such as "interface," "functionality," and "accessibility," documenting the comments made about each aspect of the application.
 
 ## Themes
-Once the data has been categorized, themes can be determined within the created codes. A theme is a core idea that is obtained through observing similar concepts within a code, indicating something about user needs or preferences, and providing meaningful insights.
+Once the data has been categorized, themes can be determined within the created codes. A theme is a core idea obtained by observing similar concepts within a code, indicating something about user needs or preferences, and providing meaningful insights.
 
 ## Resources
 
