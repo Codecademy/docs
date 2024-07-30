@@ -1,6 +1,6 @@
 ---
 Title: 'Thematic Analysis'
-Description: 'Thematic analysis is centered around examining patterns and themes within qualitative data, identifying and tagging items of analytic interest.'
+Description: 'Thematic analysis examines patterns and themes within qualitative data, identifying and tagging items of analytic interest.'
 Subjects:
   - 'Web Design'
 Tags:
