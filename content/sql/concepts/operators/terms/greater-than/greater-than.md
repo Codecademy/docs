@@ -29,20 +29,27 @@ The `column` must exist in the `table` and be either a numeric or date-type colu
 
 ## Example 1
 
-Return rows where `cups` is strictly greater than 3.
+The table `Coffee` tracks the number of cups ordered. Return rows where the column `cups` has a value strictly greater than `(>)` 3.
 
 ```sql
+CREATE TABLE Coffee (
+    name varchar(255), 
+    drink varchar(255), 
+    order_date date,
+    cups int
+);
+
 SELECT *
-FROM coffee
+FROM Coffee
 WHERE cups > 3;
 ```
 
 ## Example 2
 
-Return rows where `order_date` is greater than or equal to (after) `2020-01-01`.
+Using the same table above, we make a comparison on the date column. Return rows where `order_date` is greater than or equal to `(>=)` `2020-01-01`.
 
 ```sql
 SELECT *
-FROM coffee
+FROM Coffee
 WHERE order_date >= '2020-01-01';
 ```
