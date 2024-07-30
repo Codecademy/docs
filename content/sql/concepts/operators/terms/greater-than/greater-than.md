@@ -15,9 +15,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-The **`GREATER THAN (>)`** operator selects rows with values strictly greater than a given condition. It can be applied to numeric values and dates.
-
-This operator can be combined with the equality operator `=` to be inclusive of the condition.
+The **`GREATER THAN (>)`** operator selects rows with values strictly greater than a given condition. It can be applied to numeric values and dates. This operator can be combined with the equality operator `=` as a `GREATER THAN OR EQUAL TO (>=)` to be inclusive of the condition.
 
 ## Syntax
 
@@ -27,7 +25,7 @@ FROM table
 WHERE column > condition;
 ```
 
-The `column` must exist in `table`, and must be either a numeric or date type column. The values in `column` will then be compared to the `condition`.
+The `column` must exist in the `table` and be either a numeric or date-type column. The values in `column` will then be compared to the `condition`.
 
 ## Example 1
 
