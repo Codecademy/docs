@@ -36,18 +36,18 @@ A title for a link can be optionally added. This will appear as a tooltip when t
 Including link titles improves accessibility by providing additional context for screen readers and users navigating with the keyboard.
 
 ```md
-[Link text](https://website-name.com "Link title")
+[Link text](https://website-name.com 'Link title')
 ```
 
 For example:
 
 ```md
-My favorite Craigslist category is [Missed Connections](https://newyork.craigslist.org/d/missed-connections/search/mis "The best place on the internet").
+My favorite Craigslist category is [Missed Connections](https://newyork.craigslist.org/d/missed-connections/search/mis 'The best place on the internet').
 ```
 
 The output would look like:
 
-My favorite Craigslist category is [Missed Connections](https://newyork.craigslist.org/d/missed-connections/search/mis "The best place on the internet").
+My favorite Craigslist category is [Missed Connections](https://newyork.craigslist.org/d/missed-connections/search/mis 'The best place on the internet').
 
 ## URLs and Email Addresses
 
