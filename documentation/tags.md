@@ -138,6 +138,7 @@ Flask
 Flexbox
 Flutter
 Fonts
+Footnotes
 For
 ForEach
 Foreign Key
@@ -324,6 +325,7 @@ Technical Interviews
 Templates
 TensorFlow
 Text-To-Image
+Text Processing
 Threads
 Tidyr
 Time
