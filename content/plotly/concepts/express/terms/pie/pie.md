@@ -30,7 +30,6 @@ plotly.express.pie(values=None, names=None, title=None, hole=None, color_discret
 - `hover_data` - The column name for additional data to show on hover
 - `labels` - Custom labels
 
-> Note: The ellipsis in the syntax (...) indicates that there can be additional optional parameters beyond those listed here to customize the scatter plot.
 
 ## Example
 
