@@ -23,9 +23,9 @@ The `.empty()` method requires no parameters and can be called on a vector using
 myVector.empty();
 ```
 
-## Codebyte Example (if applicable)
+## Codebyte Example
 
-The following example initializes a vector containing a sequence of numbers from 1 to 10. It then pops each element one by one until it's **empty**, accumulating their values in the variable `sum` and printing it.
+The following example initializes a vector containing a sequence of numbers from 1 to 10. It then pops each element one by one until it's **empty**, accumulating their values in the variable `sum` and finally printing it.
 
 ```codebyte/cpp
 #include <iostream>
