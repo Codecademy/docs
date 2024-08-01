@@ -1,6 +1,6 @@
 ---
-Title: ‘Data-Types’
-Description: 'Commonly used MySQL data-types'
+Title: `Data Types`
+Description: 'Commonly used MySQL data types'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
@@ -11,15 +11,16 @@ CatalogContent:
   - 'learn-sql'
   - 'getting-started-off-platform-for-data-science'
   - 'paths/analyze-data-with-sql'
+  - 'paths/design-databases-with-mysql'
 ---
 
-**`Data types`** provide categories for values stored in tables. Types are assigned to fields through table creation and are responsible for determining some of the attributes and constraints (such as the amount of memory allocated) of data stored within a given table.
+**`Data types`** defines the types of data formats that can be stored in tables. Types are assigned to columns while creating a table.
 
 MySQL data types contain categories like: numeric, date and time, character, byte, spatial, and the Json data type.
 
-## Syntax
+## Different Data Types
 
-This entry is a summarised list of the data types in each category.
+Below is the list of data types.
 
 ### Numeric Data Types
 
@@ -46,74 +47,95 @@ CREATE TABLE example_table (
 
 ### Date and Time Data Types
 
-- ‘DATE’ : is used to store date values in the standard SQL format YYYY-MM-DD wishing the range 1000-01-01 to 9999-12-31. It needs 3 bytes of storage.
-- ‘DATETIME’(fsp): is used to store date and time together in the standard format: YYYY-MM-DD HH:MM:SS [.fraction]. Is useful to keep records of the exact date and time when an event occurred, like transaction history. It holds values within range 1000-01-01 00:00:00 to 9999-12-31 23:59:59 needing in general 8 bytes of storage but in case fsp (fractional seconds precision) is mentioned than more storage is required.
-- ‘TIMESTAMP’(fsp): in the format YYYY-MM-DD HH:MM:SS[.fraction] within range for TIMESTAMP values from 1970-01-01 00:00:01 UTC to 2038-01-19 03:14:07 UTC with a storage needed between 4-7 bytes: all these depending on MYSQL version, configuration and storage factors. Is useful for example when applications need SQL to handle time zone conversions automatically.
-- ‘YEAR’: is used to store year values within range 1901 to 2155 and needs 1 or 2 bytes for storage depending how SQL mode is enabled. Is useful for applications that need to analyze data based on years without a need for granularity.
+- ‘DATE’: Used to store date values in the standard SQL format YYYY-MM-DD wishing the range 1000-01-01 to 9999-12-31. It needs 3 bytes of storage.
+- ‘DATETIME’(fsp): Used to store date and time together in the standard format: YYYY-MM-DD HH:MM:SS. It is useful to keep records of the exact date and time when an event occurred, like transaction history. It holds values within the range 1000-01-01 00:00:00 to 9999-12-31 23:59:59 needing in general 8 bytes of storage but in case fsp (fractional seconds precision) is mentioned then more storage is required.
+- ‘TIMESTAMP’(fsp): Stored in the format YYYY-MM-DD HH:MM:SS within the range from  1970-01-01 00:00:01 UTC to 2038-01-19 03:14:07 UTC,  storage needed between 4-7 bytes. Is useful for example when applications need SQL to handle time zone conversions automatically.
+- ‘YEAR’: Used to store year values within the range 1901 to 2155 and needs 1 or 2 bytes for storage depending on how SQL mode is enabled. It is useful for applications that need to analyze data based on years without a need for granularity.
+
+Note: ‘fsp’ parameter stands for Fractional Seconds Precision. It defines the number of digits to store for fractional seconds in data types like DATETIME and TIMESTAMP, with values ranging from 0 (no fractional seconds) to 6 (means microseconds precision up to six decimals). Because this parameter defines the precision level, its specifications affect the storage size (higher precision requiring more storage space).
 
 ### String Data Types
 
-- ‘BINARY’(size): is used to store binary strings as fixed-length strings. Is suitable for exact binary operations like for instance when data columns of binary data need exact length and content requirements (cryptographic hashes or binary encoded data).
-- ‘BLOB’: is used to store large binary data, like images, audio/video files, or other binary data files based on storage and database configuration. Is useful for variable data saving scenarios, back-ups.
-- ‘CHAR’(size): is used to store predefined fixed-length strings of characters being useful in cases when the database holds strings of known length like postal codes, abbreviations.
-- ‘ENUM’: is used to store a list of possible values that were predefined with a required storage dependant on enumerated values (1, 2 or 4 bytes). Is useful when a database needs to prevent invalid data entries.
-- ‘LONGBLOB’: is used to store binary data that is beyond the capacity of other options. It can store up to 4GB and is an efficient storage option for handling complex binary objects.
-- ‘LONGTEXT’: is used to store text data that us very large, up to 4 GB of data being suitable for applications, document repositories that handle large textual content
-- ‘MEDIUMBLOB’: is used for storing large binary object data type like medium-sized images of up to 16 MB.
-- ‘MEDIUMTEXT’: is used for storing medium-sized text data of up to 16 MB and it uses more storage space than smaller text types like ’TINYTEXT’.
-- ‘SET’(val1, val2, …): is used for storing a set of values chosen from a predefined list of possible values where each ‘set’ value is stored as an integer.
-- ‘TEXT’: is used for storing medium to large text strings up to 64 KB of text data
-- ‘VARCHAR’: is used for storing variable-length strings with a maximum size specified and it gives flexibility in cases when user input to a database are needed.
+ `BINARY(size)`: Used to store binary strings of fixed length. Is suitable for exact binary operations for instance when data columns of binary data need exact length and content requirements (cryptographic hashes or binary encoded data).
+- `BLOB(size)`: Used to store large binary data, like images, audio/video files, or other binary data files based on storage and database configuration. It's useful for variable data-saving scenarios, and back-ups.
+- `CHAR(size)`: Used to store predefined fixed-length strings of characters, useful in cases when the database holds strings of known length like postal codes and abbreviations.
+- `ENUM(val1, val2, val3, ...) `: is used to store a list of possible values that were predefined with required storage dependent on enumerated values (1, 2, or 4 bytes). Is useful when a database needs to prevent invalid data entries.
+- `LONGBLOB`: Used to store binary data that is beyond the capacity of other options. It can store up to 4GB and is an efficient storage option for handling complex binary objects.
+- `LONGTEXT`: Used to store text data that is very large, up to 4 GB of data being suitable for applications, and document repositories that handle large textual content
+- `MEDIUMBLOB`: Used for storing large binary object data types like medium-sized images of up to 16 MB.
+- `MEDIUMTEXT`: Used for storing medium-sized text data of up to 16 MB and it uses more storage space than smaller text types like ’TINYTEXT’.
+- `SET(val1, val2, …)`: Used for storing a set of values chosen from a predefined list of possible values where each ‘set’ value is stored as an integer.
+- `TEXT(size)`: Used for storing medium to large text strings up to 64 KB of text data.
+- `TINYBLOB`: Used for storing very small binary objects, like images or files with a minimal storage requirement.
+- `TINYTEXT`: Used for storing short texts like descriptions or comments within the defined data size limits (up to 255 bytes).
+- `VARBINARY (size)`: Used for storing variable-length binary data, like encryptions. The maximum number of bytes to be stored are defined by the 'size' parameter.
+- `VARCHAR(size)`: Used for storing variable-length strings with a maximum size specified and it gives flexibility in cases when user input to a database is needed.
+
+Note: the size parameter defines the maximum number of characters or length a column can store, with the var prefix indicating a variable length up to a defined size. It will use storage proportional to the specified size and length of data entered.
 
 ### Spatial Data Types
+- `GEOMETRY`: Uses any type of geometry spatial data in the database like points, lines and polygons. It is a flexible, general base type for other more specific data space types.
+- `GEOMCOLLECTION`: A collection of zero or different types geometric classes like points, polygons and lines that are in the same coordinate system.
+- `LINESTRING`: Is used to define a points connected by lines on maps like paths, roads or rivers.
+- `MULTILINESTRING`: Uses a collection of LineString objects as part of a single dataset, like various mappings of road routes or transportation systems.
+- `MULTIPOINT`: Uses a collection of point data objects linked to a specific entity, but not interconnected. On a map, it can represent multiple addresses within the same restaurant chain.
+- `POINT`: Uses two-dimensional space coordinates (X, Y) to store a single point within it. Is useful when MSQL needs to query geographical coordinates.
+- `POLYGON`: Uses a two-dimmensinal surface defined by several geometries ranging from a single exterior limit and zero or more interior limits within the shape. It can map objects like countries, forests or another defined region.
+- `SURFACE`: Is used for storing two-dimmensional data used when mapping complex elevations, shapes or terrains.
 
-- ‘POINT’: is using a two-dimensional space coordinates (X,Y) to store a single point within it. Is useful when MSQL needs to query geographical coordinates.
 
 ### JSON Data Types
 
-- ‘JSON’: allows storing and querying semi-structured JSON data in a relational database environment being useful in cases that requires dynamic and flexible data storage (e-commerce platforms, product catalogs).
+- `JSON`: Allows storing and querying semi-structured JSON data in a relational database environment being useful in cases that require dynamic and flexible data storage (e-commerce platforms, product catalogs).
 
 ## Examples
 
-Next are examples of some data-types from above categories.
+Next are examples of some data-types from the above categories.
 
-In this example we use MySql for handling large values for user IDs, order IDs, and payment amounts on a database.
-Data is gathered in a payment table in order keep track of all transactions made by customers:
+In this example, we use MySQL for handling large values for user IDs, order IDs, and payment amounts on a database.
+Data is gathered in a payment table in order to keep track of all transactions made by customers:
 
+```sql
 CREATE TABLE payments (
-payment_id BIGINT AUTO_INCREMENT PRIMARY KEY,
-user_id BIGINT,
-order_id BIGINT,
-payment_amount BIGINT(20),
-payment_date DATETIME
+    payment_id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    user_id BIGINT,
+    order_id BIGINT,
+    payment_amount BIGINT(20),
+    payment_date DATETIME
 );
 
 Next, MySQL extracts the data and keeps record of the payments:
 
 INSERT INTO payments (user_id, order_id, payment_amount, payment_date)
 VALUES
-(10000000001, 50000000001, 999999999999, '2024-07-10 12:00:00'),
-(10000000002, 50000000002, 150000000000, '2024-07-10 12:30:00'),
-(10000000003, 50000000003, 200000000000, '2024-07-10 13:00:00');
+    (10000000001, 50000000001, 999999999999, '2024-07-10 12:00:00'),
+    (10000000002, 50000000002, 150000000000, '2024-07-10 12:30:00'),
+    (10000000003, 50000000003, 200000000000, '2024-07-10 13:00:00');
 
-Numeric, date and time data types used in above scenario makes it possible to have recorded information stored in the database like for example:
-first payment was made by the user with ID 10000000001, for the order 50000000001, and they paid 999999999999 (imagine it's in cents, so that's $9999999.99) on July 10, 2024, at 12:00 PM.
+Numeric, date and time data types used in the above scenario make it possible to have recorded payment details stored in the database like:
 
-In this example, we use MySql to create and store fingerprint templates for biometric authentication in a security system.
-The table biometric_data is created:
+| User ID       | Order ID       | Payment Amount (in cents) | Payment Amount (in dollars)  | Payment Date & Time      |
+|---------------|----------------|----------------------------|-----------------------------|--------------------------|
+| 10000000001   | 50000000001    | 999999999999               | $9,999,999.99               | July 10, 2024, 12:00 PM  |
+------------------------------------------------------------------------------------------------------------------------
 
+In this example, we use MySQL to create and store fingerprint templates for biometric authentication in a security system.
+
+```sql
 CREATE TABLE biometric_data (
-user_id INT AUTO_INCREMENT PRIMARY KEY,
-fingerprint_template BINARY(512)
+    user_id INT AUTO_INCREMENT PRIMARY KEY,
+    fingerprint_template BINARY(255)
 );
 
-Each person will get a unique number called user_id that is increased automatically: user_id INT AUTO_INCREMENT PRIMARY KEY
+Each person will get a unique number called user_id that is increased automatically.
 
-The fingerprint code is stored in this template, and it’s always 512 bytes long: fingerprint_template BINARY(512)
+The fingerprint code is stored in this template, and it’s always 255 bytes long.
 
-Next when someone scans their fingerprint, a special code is created and stored in the database by means of converting converting the hexadecimal (base-16) string representation into its binary (base-2) equivalent:
+Next, when someone scans their fingerprint, a special code is created and stored in the database by means of converting the hexadecimal (base-16) string representation into its binary (base-2) equivalent:
 
+```sql
 INSERT INTO biometric_data (fingerprint_template)
 VALUES (UNHEX('AABBCCDDEEFF00112233445566778899AABBCCDDEEFF00112233445566778899...'));
 
 By using BINARY and INT data types MySQL stores fingerprint templates in their original binary format, useful in authentication systems.
+
