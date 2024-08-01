@@ -22,6 +22,8 @@ Below is a list of some of the standard `Font` type properties:
 
 - `.largeTitle` a large, title font style.
 - `.title` a title font style.
+  -`.title2` a smaller title font style.
+  -`.title3` the smallest title font style.
 - `.headline` a headline font style.
 - `.body` the default font style.
 - `.footnote` a footnote font style.
