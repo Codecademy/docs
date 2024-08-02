@@ -39,7 +39,7 @@ torch.ones(size, out=None, dtype=None, layout=torch.strided, device=None, requir
 
 ## Example
 
-The following example shows the use of the `.ones()` function.
+The following example shows how to use the `.ones()` function:
 
 ```py
 import torch
@@ -53,7 +53,7 @@ print(tensor_sizes)
 
 The code above generates the following output:
 
-```
+```shell
 tensor([1., 1., 1.])
 
 tensor([[1., 1., 1., 1., 1.],
