@@ -1,5 +1,5 @@
 ---
-Title: 'Python:Sklearn Decision Trees'
+Title: 'Python:sklearn-decision-trees'
 Description: 'Sklearn is a free, open-source machine learning library for Python. This computer program implements decision trees which are used to make possible decisions based on certain conditions'
 Subjects: 
 - 'Computer Science' 
