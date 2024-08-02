@@ -31,7 +31,7 @@ Sklearn is an open-source library that contains tools for machine learning. For 
 
 ## Sklearn Decision tree
 
-You can find information about Sklearn's decision trees at https://scikit-learn.org/stable/modules/tree.html:
+You can find information about Sklearn's decision trees at https://scikit-learn.org/stable/modules/tree.html.
 
 ## Sklearn Installation
 
