@@ -20,7 +20,7 @@ CatalogContent:
 
 ## Computer Science
 
-Sklearn demonstrates machine learning by using computer science languages such as Python. Python is a type of computer science language that is very popular in the computer science world.  Machine learning is also a branch of computer science and it ideally falls under the same category.
+Sklearn demonstrates machine learning by using programming languages such as Python. Python is a type of language that is very popular in the computer science world.  Machine learning is a branch of computer science and it ideally falls under the same category.
 
 ## Machine Learning
 
