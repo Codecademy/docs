@@ -39,7 +39,7 @@ torch.ones(size, out=None, dtype=None, layout=torch.strided, device=None, requir
 
 ## Example
 
-The following example shows the use of the `.ones()` function.
+The following example shows how to use the `.ones()` function:
 
 ```py
 import torch
