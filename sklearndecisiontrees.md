@@ -24,7 +24,7 @@ Sklearn demonstrates machine learning by using programming languages such as Pyt
 
 ## Machine Learning
 
-Sklearn is a open learn library that contains tools on machine learning. For example, a type of tool is a decision tree. Decision trees are  models that can chart decisions, consequences, event outcomes, resource costs, and utilities.
+Sklearn is an open-source library that contains tools for machine learning. For example, one type of tool is a decision tree. Decision trees are models that can chart decisions, consequences, event outcomes, resource costs, and utilities.
 
 
 
