@@ -17,9 +17,6 @@ Tags:
 CatalogContent:
   - 'intro-to-py-torch-and-neural-networks'
   - 'py-torch-for-classification'
-  - 'machine-learning'
-  - 'generative-ai-models-generating-data-using-generative-adversarial-networks'
-  - 'generative-ai-models-getting-started-with-autoencoders'
 ---
 
 The **`.ones()`** function in PyTorch creates a tensor of a specified shape, where each element is initialized to the scalar value 1. It is used in machine learning and deep learning for tasks such as preparing data, creating masks, or starting with default values for neural network weights. Knowing how to use `.ones()` is valuable for building models and handling data efficiently.
