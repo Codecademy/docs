@@ -33,6 +33,11 @@ Sklearn is an open-source library that contains tools for machine learning. For 
 
 You can find information about Sklearn's decision trees at https://scikit-learn.org/stable/modules/tree.html.
 
+## Example
+
+[alt text](![image](https://github.com/user-attachments/assets/4dd9b12f-a7a8-4306-9d8d-bd3fb9b631fc)
+)
+
 ## Sklearn Installation
 
 To install Sklearn, use [`pip`](https://www.codecademy.com/resources/docs/python/pip):
