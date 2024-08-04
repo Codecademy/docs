@@ -1,6 +1,6 @@
 ---
 Title: '.empty()'
-Description: 'Returns a boolean representing whether the vector is empty (i.e. whether its size is 0)'
+Description: 'Returns a boolean indicating whether the vector is empty (i.e. whether its size is 0)'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.empty()`** method returns `true` if the size of the vector is 0. Otherwise, if it has at least one element, returns `false`.
+The **`.empty()`** method returns `true` if the size of the vector is 0. Otherwise, if it has at least one element, it returns `false`. Besides this, it is used to check if the vector contains any elements. It is mostly used in conditional statements.
 
 ## Syntax
 
@@ -23,11 +23,11 @@ The `.empty()` method requires no parameters and can be called on a vector using
 myVector.empty();
 ```
 
-## Codebyte Example
+## Example
 
 The following example initializes a vector containing a sequence of numbers from 1 to 10. It then pops each element one by one until it's **empty**, accumulating their values in the variable `sum` and finally printing it.
 
-```codebyte/cpp
+```cpp
 #include <iostream>
 #include <vector>
 
