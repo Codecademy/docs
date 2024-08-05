@@ -58,3 +58,15 @@ tensor([[0, 0],
         [0, 0],
         [0, 0]], dtype=torch.int16)
 ```
+
+## Codebyte Example
+```codebyte/python
+import torch
+
+# Guess what this tensor looks like!
+t0 = torch.zeros((4, 1, 3), dtype=torch.int16)
+
+print(t0)
+```
+
+
