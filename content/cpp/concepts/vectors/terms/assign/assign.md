@@ -7,7 +7,7 @@ Subjects:
 Tags:
     - 'Vectors'
     - 'Methods'
-    - 'Data Structures
+    - 'Data Structures'
 CatalogContent:
     - 'learn-c-plus-plus'
     - 'paths/computer-science'
@@ -46,7 +46,7 @@ int main() {
     // Replacing current elements with 4 copies of the value 8
     numbers.assign(4, 8);
     cout << "After assigning 4 copies of 8: ";
-    for (int num: numbers) {
+    for (int num : numbers) {
         cout << num << " ";
     }
     cout << endl;
@@ -54,7 +54,7 @@ int main() {
     // Replacing current elements with elements from newNumbers
     numbers.assign(newNumbers.begin(), newNumbers.end());
     cout << "After assigning elements from newNumbers: ";
-    for (int num: numbers) {
+    for (int num : numbers) {
         cout << num << " ";
     }
     cout << endl;
@@ -70,4 +70,4 @@ After assigning 4 copies of 8: 8 8 8 8
 After assigning elements from newNumbers: 4 5 6 7 
 ```
 
-> **Note:** The `.assign()` method completely replaces the existing contents of the vector, resizing it if necessary. The method can be particularly useful when you need to reset or fill a vector with specific values or elements from another collection.
+> **Note:** The `.assign()` method completely replaces the existing contents of the vector, resizing it if necessary. This method is particularly useful for resetting a vector or filling it with specific values or elements from another collection.
