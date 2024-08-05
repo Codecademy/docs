@@ -13,8 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.size()`** method returns the number of elements in the vector.
-`.size()` is there to follow the consistency of other standard library containers (e.g., [maps](https://www.codecademy.com/resources/docs/cpp/maps) and [strings](https://www.codecademy.com/resources/docs/cpp/strings)).
+The **`.size()`** method returns the number of elements in the vector. It follows the consistency of other standard library containers, such as [maps](https://www.codecademy.com/resources/docs/cpp/maps) and [strings](https://www.codecademy.com/resources/docs/cpp/strings).
 
 ## Syntax
 
@@ -22,13 +21,13 @@ The **`.size()`** method returns the number of elements in the vector.
 vector.size();
 ```
 
-The `vector` must be defined with `std::vector` prior to using with the `.size()` method.
+The `vector` must be defined using `std::vector` before the `.size()` method can be used.
 
-## Codebyte Example
+## Example
 
 In the example below, `.size()` is called on the `numbers` vector:
 
-```codebyte/cpp
+```cpp
 #include <iostream>
 #include <vector>
 
@@ -39,4 +38,10 @@ int main() {
     // Print out vector size
     std::cout << numbers.size();
 }
+```
+
+The output of the above code is:
+
+```shell
+4
 ```
