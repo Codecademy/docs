@@ -5,7 +5,7 @@ Subjects:
     - 'Computer Science'
     - 'Code Foundations'
 Tags:
-    - 'Vectors
+    - 'Vectors'
     - 'Methods'
     - 'Data Structures
 CatalogContent:
@@ -32,5 +32,42 @@ vector.assign(first, last);
 
 ## Example
 
+In the following example, the `.assign()` method is used to replace the elements of a vector with a range of elements from another container:
 
-//NOTE: I am referencing cppreference.com and cplusplus.com for info on this topic.
+```cpp
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+    vector<int> numbers{1, 2, 3};
+    vector<int> newNumbers{4, 5, 6, 7};
+
+    // Replacing current elements with 4 copies of the value 8
+    numbers.assign(4, 8);
+    cout << "After assigning 4 copies of 8: ";
+    for (int num: numbers) {
+        cout << num << " ";
+    }
+    cout << endl;
+
+    // Replacing current elements with elements from newNumbers
+    numbers.assign(newNumbers.begin(), newNumbers.end());
+    cout << "After assigning elements from newNumbers: ";
+    for (int num: numbers) {
+        cout << num << " ";
+    }
+    cout << endl;
+
+    return 0;
+}
+```
+
+The output for the above code is:
+
+```shell
+After assigning 4 copies of 8: 8 8 8 8  
+After assigning elements from newNumbers: 4 5 6 7 
+```
+
+> **Note:** The `.assign()` method completely replaces the existing contents of the vector, resizing it if necessary. The method can be particularly useful when you need to reset or fill a vector with specific values or elements from another collection.
