@@ -1,1 +1,1 @@
-content/java/concepts/math-methods/math-methods.md
+content/python/concepts/glob-module/glob-module.md
