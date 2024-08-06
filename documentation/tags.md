@@ -282,6 +282,7 @@ Requests
 Responsive
 Rest Parameter
 Schema Design
+Scikit-learn
 Scope
 Script
 Seaborn

@@ -7,8 +7,6 @@ Subjects:
 Tags:
   - 'Machine Learning'
 CatalogContent:
-  - 'getting-started-with-python-for-data-science'
-  - 'paths/data-science'
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
@@ -19,7 +17,7 @@ CatalogContent:
 
 Scikit-learn provides the `SVC` class for implementing SVMs. Here's the basic syntax for using SVC:
 
-```py
+```pseudo
 from sklearn.svm import SVC
 
 # Define the model with desired parameters
@@ -41,9 +39,9 @@ The kernel defines the type of hyperplane used for separation. The options are:
 - `rbf`: Radial Basis Function(RBF) Kernel creates smooth and circular decision boundaries.
 - `sigmoid`: Sigmoid Kernel is similar to RBF in that it creates non-linear decision boundaries but is less commonly used.
 
-The C parameter in SVC controls the trade-off between maximizing the margin and reducing training error. 
+The C parameter in SVC controls the trade-off between maximizing the margin and reducing training error.
 
-- A higher C value prioritizes a larger margin, potentially leading to overfitting on the training data. 
+- A higher C value prioritizes a larger margin, potentially leading to overfitting on the training data.
 - A lower C value prioritizes reducing training error, but might result in a smaller margin and poorer generalization on unseen data.
 
 Choosing the optimal C value often involves experimentation and techniques like grid search or cross-validation. In terms of choosing the best combination of kernel and C value, here are a few general guidelines:
@@ -74,4 +72,10 @@ new_data = [[5, 1.5]]  # Example data point
 prediction = model.predict(new_data)
 
 print("Predicted class:", prediction[0])
+```
+
+The output of the above code will be:
+
+```shell
+Predicted class: 1
 ```
