@@ -33,8 +33,8 @@ The table `Coffee` tracks the number of cups ordered. Return rows where the colu
 
 ```sql
 CREATE TABLE Coffee (
-    name varchar(255), 
-    drink varchar(255), 
+    name varchar(255),
+    drink varchar(255),
     order_date date,
     cups int
 );
