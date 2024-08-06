@@ -16,7 +16,6 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-
 The **`.zeros()`** method returns a tensor of a specified shape filled with zeros. Optionally, the output tensor, its datatype, layout, device, and whether autograd records operations can be selected.
 
 ## Syntax
@@ -27,16 +26,16 @@ torch.zeros(size, out=None, dtype=None, layout=torch.strided, device=None, requi
 
 The parameters are as follows:
 
-- `size`: The shape, specified as a variable, tuple, or list of integers.
-- `out`: The output Tensor, defaults to None.
-- `dtype`: Datatype (`torch.dtype`) of the zeros, defaults to None.
-- `layout`: Layout (`torch.layout`) of the output Tensor, defaults to `torch.strided`.
-- `device`: Device (`torch.device`) of the output Tensor, defaults to None.
-- `requires_grad`: Boolean of whether autograd will record operations on the output Tensor, defaults to False.
+- `size`: The shape of the tensor, specified as a variable, tuple, or list of integers.
+- `out`: The output Tensor, defaults to `None`.
+- `dtype`: The datatype (`torch.dtype`) of the zeros, defaults to `None`.
+- `layout`: The layout (`torch.layout`) of the output tensor, defaults to `torch.strided`.
+- `device`: The device (`torch.device`) of the output tensor, defaults to `None`.
+- `requires_grad`: A boolean indicating whether autograd will record operations on the output tensor, defaults to `False`.
 
 ## Example
 
-```python
+```py
 import torch
 
 # Define a tensor with three values in one row
@@ -60,13 +59,13 @@ tensor([[0, 0],
 ```
 
 ## Codebyte Example
+
+Run the following code to know how the `.zeros()` method works:
+
 ```codebyte/python
 import torch
 
-# Guess what this tensor looks like!
 t0 = torch.zeros((4, 1, 3), dtype=torch.int16)
 
 print(t0)
 ```
-
-
