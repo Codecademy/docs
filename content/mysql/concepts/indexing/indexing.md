@@ -146,7 +146,7 @@ INSERT INTO products (name, category, price, stock) VALUES
 SELECT * FROM products WHERE category = 'Electronics' AND price < 800;
 ```
 
-**Expected Output**
+Expected Output:
 
 Based on the inserted sample data, the query will return the rows where the category is 'Electronics' and the price is less than 800. Here is the expected output:
 
