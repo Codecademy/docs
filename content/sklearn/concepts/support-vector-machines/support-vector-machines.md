@@ -46,8 +46,8 @@ The C parameter in SVC controls the trade-off between maximizing the margin and 
 
 Choosing the optimal C value often involves experimentation and techniques like grid search or cross-validation. In terms of choosing the best combination of kernel and C value, here are a few general guidelines:
 
-- For linearly separable data, use the 'linear' kernel.
-- For moderately complex, non-linear data, consider 'rbf' or a low-degree 'poly' kernel with a moderate C value.
+- For linearly separable data, use the `linear` kernel.
+- For moderately complex, non-linear data, consider `rbf` or a low-degree `poly` kernel with a moderate C value.
 - For highly complex data, experiment with different kernels and C values using techniques like grid search.
 
 ## Example
