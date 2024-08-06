@@ -1,1 +1,1 @@
-content/java/concepts/collections/collections.md
+content/python/concepts/glob-module/glob-module.md
