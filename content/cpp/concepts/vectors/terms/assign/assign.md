@@ -2,15 +2,15 @@
 Title: '.assign()'
 Description: 'Assigns new values to the elements of a vector, replacing its current contents.'
 Subjects:
-    - 'Computer Science'
-    - 'Code Foundations'
+  - 'Computer Science'
+  - 'Code Foundations'
 Tags:
-    - 'Vectors'
-    - 'Methods'
-    - 'Data Structures'
+  - 'Vectors'
+  - 'Methods'
+  - 'Data Structures'
 CatalogContent:
-    - 'learn-c-plus-plus'
-    - 'paths/computer-science'
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
 In C++, the **`.assign()`** method is used with [`vectors`](https://www.codecademy.com/resources/docs/cpp/vectors) to replace existing elements or add new values. This method can either fill the vector with a specified number of copies of a value or replace the vector's contents with elements from a range, modifying its size if necessary.
@@ -66,8 +66,8 @@ int main() {
 The output for the above code is:
 
 ```shell
-After assigning 4 copies of 8: 8 8 8 8  
-After assigning elements from newNumbers: 4 5 6 7 
+After assigning 4 copies of 8: 8 8 8 8
+After assigning elements from newNumbers: 4 5 6 7
 ```
 
 > **Note:** The `.assign()` method completely replaces the existing contents of the vector, resizing it if necessary. This method is particularly useful for resetting a vector or filling it with specific values or elements from another collection.
