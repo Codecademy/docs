@@ -84,5 +84,3 @@ The following table lists the equivalent methods for `Queue` and `Stack`:
 |   `.pollFirst()`   |         `.poll()`         |             -             |
 |  `.removeFirst()`  |        `.remove()`        |         `.pop()`          |
 
-
-
