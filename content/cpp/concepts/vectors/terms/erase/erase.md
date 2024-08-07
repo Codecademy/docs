@@ -20,12 +20,13 @@ The position of the elements to remove are identified with `.begin()` and/or `.e
 ## Syntax
 
 ```  
-std::vector <type> name
-name.erase(position);  
-name.erase(starting_position, ending_position);   
+vector.erase(position);  
+vector.erase(starting_position, ending_position);   
 ```
 The firsr syntax removes a single element.
 The second syntax removes a range of elements.
+
+To use `.erase()`, must first defined the `vector` using `std::vector`.
 
 ## Example 1
 
@@ -92,3 +93,5 @@ The output of the above code is :
 ```shell
 Rooms available: 1 2 4 5 6 7
 ```
+
+
