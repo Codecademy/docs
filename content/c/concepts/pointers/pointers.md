@@ -86,9 +86,9 @@ bool divisible;
 
 int main() {
   int result = divide(numerator, denominator, &divisible);
-  
+
   printf("%d", result);
-  
+
   return 0;
 }
 ```
