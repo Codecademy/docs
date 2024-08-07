@@ -28,7 +28,7 @@ Where [`DataType`](https://www.codecademy.com/resources/docs/java/data-types) is
 
 ## Example
 
-The following is an example of the `Deque` interface implemented by an `ArrayDeque`.
+The following is an example of the `Deque` interface implemented by an `ArrayDeque`:
 
 ```java
 import java.util.Deque;
