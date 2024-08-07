@@ -312,6 +312,7 @@ Strings
 Structure
 Style
 Subqueries
+Supervised Learning
 SwiftUI
 SwiftUI Views
 SwiftUI ViewModifiers
