@@ -45,6 +45,16 @@ console.log(`My name is ${name}.`); // --> ReferenceError
 var myName = 'Brandon';
 ```
 
+### Codebyte Example 1
+
+This example demonstrates how a variable can be declared after it is used. Try changing the placement of the variable declaration and initialization to see how it affects the output:
+
+```codebyte/javascript
+name = 'Brandon'
+console.log(`My name is ${name} and I am logging a hoisted variable!`);
+var name;
+```
+
 ### Functions
 
 In addition to variables, functions can be hoisted in JavaScript. This is mainly because they are "first-class objects" and they can be stored as variables. The declarations for functions, like the ones for variables, are hoisted during the execution phase:
@@ -126,6 +136,18 @@ First, we logged the type of `greetings` just to remind what the type for the ho
 
 How is that possible? Again, at this point in the execution phase, the hoisted `greetings` variable is of type `undefined`. The definition of greetings as a function doesn't happen until the _next_ line. Therefore, JavaScript threw the `TypeError`.
 
+### Codebyte Example 2
+
+This is an example of how a function declaration can be hoisted. Try changing the function declaration to a function expression to see how that affects the output:
+
+```codebyte/javascript
+console.log(hoistedFunction());
+
+function hoistedFunction() {
+  return 'I am hoisting a function!';
+}
+```
+
 ### `let` and `const`
 
 Hoisting is a great way of understanding how the execution context in JavaScript affects variable and function declarations. However, with the introduction of new syntax in ES2015 (ES6), hoisting treats variables declared with `let` or `const` differently.
@@ -135,13 +157,13 @@ As of ES6, `let` and `const` are recommended for replacing `var` when declaring 
 ```js
 // Before hoisting
 
-console.log(`My name is ${myName}.`);
+console.log(`My name is ${myName}.`); // ReferenceError: Cannot access 'myName' before initialization
 let myName = 'Brandon';
 
 // After hoisting
 
 let myName;
-console.log(`My name is ${myName}.`); // ReferenceError: Cannot access 'myName' before initialization
+console.log(`My name is ${myName}.`);
 myName = 'Brandon';
 ```
 
@@ -192,3 +214,13 @@ For a given variable declared with `let` or `const`, TDZ is the scope which is f
 ```
 
 Accessing variables and functions before they are declared is bad practice because it is hard to understand and confusing for people who read your code. With `var`, you may read or change the variable unintentionally before initialization, but JavaScript doesn't give you an error that you may be doing something wrong. Thanks to `let`, `const`, and TDZ, we can avoid and catch many potential bugs.
+
+### Codebyte Example 3
+
+This is an example of hoisting with a `let` variable declaration. Try running it and notice that no error is thrown:
+
+```codebyte/javascript
+let myName;
+console.log(`My name is ${myName}.`);
+myName = 'Brandon';
+```
