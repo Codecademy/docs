@@ -66,8 +66,8 @@ The following list contains a selection of methods provided by the `Deque` inter
 - `.addLast(item)`: Adds `item` at the end of the `Deque` if possible, otherwise it throws an exception.
 - `.getFirst()`: Returns, without removal, the first item of the `Deque`. It throws an exception if the Deque is empty.
 - `.offerLast(item)`: Adds `item` at the end of the `Deque` if possible, otherwise it returns `false`.
-- - `.peekFirst()`: Returns, without removal, the first element of the `Deque`. Returns `null` if the `Deque` is empty.
-- - `.pollFirst()`: Returns and removes the first item of the `Deque`. Returns `null` if the `Deque` is empty.
+- `.peekFirst()`: Returns, without removal, the first element of the `Deque`. Returns `null` if the `Deque` is empty.
+- `.pollFirst()`: Returns and removes the first item of the `Deque`. Returns `null` if the `Deque` is empty.
 - `.removeFirst()`: Returns and removes the first item of the `Deque`. Throws an exception if the `Deque` is empty.
 
 ### Equivalent methods Stack and Queue
