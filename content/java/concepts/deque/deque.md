@@ -14,9 +14,7 @@ CatalogContent:
 - 'paths/computer-science'
 ---
 
-A **Deque** extends the [`Queue`](https://www.codecademy.com/resources/docs/java/queue) interface and is a double-ended queue. It provides methods to add, access, and remove items at the top and end of the deque. Thereby, it can be used as a queue or stack.
-
-The `Deque` interface is included in the `java.util` package.
+A **Deque** extends the [`Queue`](https://www.codecademy.com/resources/docs/java/queue) interface and is a double-ended queue. It provides methods to add, access, and remove items at the top and end of the deque. Thereby, it can be used as a queue or stack. The `Deque` interface is included in the `java.util` package.
 
 ## Syntax
 
