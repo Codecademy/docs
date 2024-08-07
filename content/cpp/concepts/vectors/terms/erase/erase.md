@@ -26,7 +26,7 @@ vector.erase(starting_position, ending_position);
 The firsr syntax removes a single element.
 The second syntax removes a range of elements.
 
-To use `.erase()`, must first defined the `vector` using `std::vector`.
+To use `.erase()`, the `vector` must be defined using `std::vector`.
 
 ## Example 1
 
