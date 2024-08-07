@@ -2,16 +2,16 @@
 Title: 'Deque'
 Description: 'A Deque extends the Queue interface and offers additional methods to access and manipulate items at the top and end of the deque.'
 Subjects:
-- 'Code Foundations'
-- 'Computer Science'
+  - 'Code Foundations'
+  - 'Computer Science'
 Tags:
-- 'Queues'
-- 'Stacks'
-- 'Collections'
-- 'Interface'
+  - 'Queues'
+  - 'Stacks'
+  - 'Collections'
+  - 'Interface'
 CatalogContent:
-- 'learn-java'
-- 'paths/computer-science'
+  - 'learn-java'
+  - 'paths/computer-science'
 ---
 
 A **Deque** extends the [`Queue`](https://www.codecademy.com/resources/docs/java/queue) interface and is a double-ended queue. It provides methods to add, access, and remove items at the top and end of the deque. Thereby, it can be used as a queue or stack. The `Deque` interface is included in the `java.util` package.
@@ -75,7 +75,7 @@ The following list contains a selection of methods provided by the `Deque` inter
 The following table lists the equivalent methods for `Queue` and `Stack`:
 
 |   `Deque` method   | Equivalent `Queue` method | Equivalent `Stack` method |
-|:------------------:|:-------------------------:|:-------------------------:|
+| :----------------: | :-----------------------: | :-----------------------: |
 | `.addFirst(item)`  |             -             |       `.push(item)`       |
 |  `.addLast(item)`  |       `.add(item)`        |             -             |
 |   `.getFirst()`    |       `.element()`        |             -             |
@@ -83,4 +83,3 @@ The following table lists the equivalent methods for `Queue` and `Stack`:
 |   `.peekFirst()`   |         `.peek()`         |         `.peek()`         |
 |   `.pollFirst()`   |         `.poll()`         |             -             |
 |  `.removeFirst()`  |        `.remove()`        |         `.pop()`          |
-
