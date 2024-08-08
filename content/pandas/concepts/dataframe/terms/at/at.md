@@ -35,13 +35,6 @@ df = pd.DataFrame({'A': [1, 2], 'B': [3, 4]})
 element = df.at[0, 'B']
 
 print(element)  # Output: 3
-```
-
-This bit of code gives out the following output:
-
-```shell
-3
-``` 
 
 ## Codebyte Example
 
