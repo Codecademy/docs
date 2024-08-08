@@ -6,14 +6,17 @@ Subjects:
   - 'Machine Learning'
 Tags:
   - 'Machine Learning'
+  - 'Supervised Learning'
+  - 'Unsupervised Learning'
+  - 'Scikit-learn'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-**Naive Bayes** algorithms are supervised learning methods that calculate the probability of an outcome based on input data and prior knowledge, assuming all inputs are equal and independent of each other. These "naive" assumptions are often violated in real-world scenarios. For example, a response to an email depends on someone else emailing first, and a person is more likely to have freckles if their sister has freckles. Despite their simplicity, Naive Bayes algorithms often perform well in practice.
+**Naive Bayes** algorithms are supervised learning methods that calculate the probability of an outcome based on input data and prior knowledge, assuming all inputs are equal and independent of each other. These _naive_ assumptions are often violated in real-world scenarios. For example, a response to an email depends on someone else emailing first and a person is more likely to have freckles if his/her sister has freckles. Despite their simplicity, Naive Bayes algorithms often perform well in practice.
 
-Typically, a preprocessed dataset is divided into training and testing sets. The training set is used to train the model, while the testing set is used to evaluate the model’s accuracy. Scikit-Learn provides several Naive Bayes classifiers, each suited for different types of supervised classification:
+Typically, a preprocessed dataset is divided into training and testing sets. The training set is used to train the model, while the testing set is used to evaluate the model’s accuracy. Scikit-learn provides several Naive Bayes classifiers, each suited for different types of supervised classification:
 
 - **Multinomial Naive Bayes**: Designed for occurrence counts (e.g., predicting book genre based on the frequency of each word in the text). The multinomial distribution requires discrete features represented as integers.
 - **Bernoulli Naive Bayes**: Designed for binary (yes/no) and boolean (true/false) features (e.g., predicting sales emails based on the presence of common sales phrases).
