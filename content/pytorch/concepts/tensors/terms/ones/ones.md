@@ -2,34 +2,30 @@
 Title: '.ones()'
 Description: 'Creates a tensor of a given shape where every element is the number 1.'
 Subjects:
- - 'Data Science'
- - 'Machine Learning'
- - 'AI'
+  - 'Data Science'
+  - 'Machine Learning'
+  - 'AI'
 Tags:
- - 'AI'
- - 'Data Types'
- - 'Deep Learning' 
- - 'Functions'
- - 'Libraries'
- - 'Machine Learning' 
- - 'Neural Networks'
- - 'Syntax'
+  - 'AI'
+  - 'Data Types'
+  - 'Deep Learning' 
+  - 'Functions'
+  - 'Libraries'
+  - 'Machine Learning' 
+  - 'Neural Networks'
+  - 'Syntax'
 CatalogContent:
- - 'intro-to-py-torch-and-neural-networks'
- - 'py-torch-for-classification'
+  - 'intro-to-py-torch-and-neural-networks'
+  - 'py-torch-for-classification'
 ---
-
 
 The **`.ones()`** function in PyTorch creates a tensor of a specified shape, where each element is initialized to the scalar value 1. It is used in machine learning and deep learning for tasks such as preparing data, creating masks, or starting with default values for neural network weights. Knowing how to use `.ones()` is valuable for building models and handling data efficiently.
 
-
 ## Syntax
-
 
 ```
 torch.ones(size, out=None, dtype=None, layout=torch.strided, device=None, requires_grad=False)
 ```
-
 
 - `size`: This parameter is required and specifies tensor shape.
 - `out`: This optional parameter is the output tensor. Default: `None`
@@ -38,34 +34,25 @@ torch.ones(size, out=None, dtype=None, layout=torch.strided, device=None, requir
 - `device`: This optional parameter specifies the desired device of the returned tensor (e.g. `torch.device('cpu')` or `torch.device('cuda')`). Default: `None`
 - `requires_grad`: This optional parameter determines if autograd should record the operations on the returned tensor. Default: `False`
 
-
 ## Example
 
-
 The following example shows how to use the `.ones()` function:
-
 
 ```py
 import torch
 
-
 tensor_simple = torch.ones(3)
 print(tensor_simple)
-
 
 tensor_sizes = torch.ones((2,5))
 print(tensor_sizes)
 ```
 
-
 The code above generates the following output:
-
 
 ```shell
 tensor([1., 1., 1.])
 
-
 tensor([[1., 1., 1., 1., 1.],
  [1., 1., 1., 1., 1.]])
 ```
-
