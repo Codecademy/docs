@@ -22,7 +22,7 @@ dataframe.at[position, label]
 -`position`:The label of the row to be accessed.
 -`label`:Name of the column to be accessed.
 
-The result returned is a single element located at the specified position within the dataframe.
+The result returned is a single element located at the specified position within the DataFrame.
 
 ## Example
 
