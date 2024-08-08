@@ -45,7 +45,7 @@ This bit of code gives out the following output:
 
 ## Codebyte Example
 
-The below codebyte example uses the .at[] accessor to access a specific element in a dataframe at a given position and column label:
+The below codebyte example uses the .at[] accessor to access a specific element in a DataFrame at a given position and column label:
 
 
 ```at/python
