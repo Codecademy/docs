@@ -51,77 +51,77 @@ class MyClass : MyInterface
 
 ## Example
 
-The following example defines the interface with default implementations. This feature is available from C# 8.0 version onwards:
+The following example defines an interface with default implementations. This feature is available from C# 8.0 version onwards:
 
 ```cs
 using System;
 
 public interface IAnimal
 {
-    string Name { get; set; }
-    void MakeSound();
-    void Move();
+  string Name { get; set; }
+  void MakeSound();
+  void Move();
 }
 
 public class Dog : IAnimal
 {
-    public string Name { get; set; }
+  public string Name { get; set; }
 
-    public Dog(string name)
-    {
-        Name = name;
-    }
+  public Dog(string name)
+  {
+    Name = name;
+  }
 
-    public void MakeSound()
-    {
-        Console.WriteLine("The dog barks when he is happy to see me.");
-    }
+  public void MakeSound()
+  {
+    Console.WriteLine("The dog barks when he is happy to see me.");
+  }
 
-    public void Move()
-    {
-        Console.WriteLine("The dog moves when he sees his best friend.");
-    }
+  public void Move()
+  {
+    Console.WriteLine("The dog moves when he sees his best friend.");
+  }
 }
 
 public class Cat : IAnimal
 {
-    public string Name { get; set; }
+  public string Name { get; set; }
 
-    public Cat(string name)
-    {
-        Name = name;
-    }
+  public Cat(string name)
+  {
+    Name = name;
+  }
 
-    public void MakeSound()
-    {
-        Console.WriteLine("The cat purrs when I scratch his head.");
-    }
+  public void MakeSound()
+  {
+    Console.WriteLine("The cat purrs when I scratch his head.");
+  }
 
-    public void Move()
-    {
-        Console.WriteLine("The cat only moves when there is food in his bowl.");
-    }
+  public void Move()
+  {
+    Console.WriteLine("The cat only moves when there is food in his bowl.");
+  }
 }
 
 public class Program
 {
-    public static void Main()
-    {
-        IAnimal myDog = new Dog("Spot");
-        IAnimal myCat = new Cat("Mittens");
+  public static void Main()
+  {
+    IAnimal myDog = new Dog("Spot");
+    IAnimal myCat = new Cat("Mittens");
 
-        Console.WriteLine($"Dog's name: {myDog.Name}");
-        myDog.MakeSound();
-        myDog.Move();
+    Console.WriteLine($"Dog's name: {myDog.Name}");
+    myDog.MakeSound();
+    myDog.Move();
 
-        Console.WriteLine($"Cat's name: {myCat.Name}");
-        myCat.MakeSound();
-        myCat.Move();
-    }
+    Console.WriteLine($"Cat's name: {myCat.Name}");
+    myCat.MakeSound();
+    myCat.Move();
+  }
 }
 ```
 
-The code above results in the following output.
+The code above results in the following output:
 
 ```shell
 Dog's name: Spot
@@ -132,82 +132,79 @@ The cat purrs when I scratch his head.
 The cat only moves when there is food in his bowl.
 ```
 
-## Codebyte
+## Codebyte Example
+
+Here is a codebyte example that defines an interface with default implementations:
 
 ```codebyte/csharp
 using System;
 
 public interface IAnimal
 {
-    void MakeSound();
-    string Name { get; set; }
-    
-    void Move()
-    {
-        Console.WriteLine("This is a default animal movement.");
-    }    
-   
+  void MakeSound();
+  string Name { get; set; }
+
+  void Move()
+  {
+      Console.WriteLine("This is a default animal movement.");
+  }
 }
 
 public class Dog : IAnimal
 {
-    public string Name { get; set; }
+  public string Name { get; set; }
 
-    public Dog(string name)
-    {
-        Name = name;
-    }
+  public Dog(string name)
+  {
+    Name = name;
+  }
 
-    public void MakeSound()
-    {
-        Console.WriteLine("The dog barks when he is happy to see me.");
-    }
+  public void MakeSound()
+  {
+    Console.WriteLine("The dog barks when he is happy to see me.");
+  }
 
-    public void Move()
-    {
-        Console.WriteLine("The dog moves when he sees his best friend.");
-    }
+  public void Move()
+  {
+    Console.WriteLine("The dog moves when he sees his best friend.");
+  }
 }
 
 public class Cat : IAnimal
 {
-    public string Name { get; set; }
+  public string Name { get; set; }
 
-    public Cat(string name)
-    {
-        Name = name;
-    }
+  public Cat(string name)
+  {
+    Name = name;
+  }
 
-    public void MakeSound()
-    {
-        Console.WriteLine("The cat purrs when I scratch his head");
-    }
-    public void Move()
-    {
-        Console.WriteLine("The cat only moves when there is food in his bowl.");
-    }
-    
+  public void MakeSound()
+  {
+    Console.WriteLine("The cat purrs when I scratch his head");
+  }
+  public void Move()
+  {
+    Console.WriteLine("The cat only moves when there is food in his bowl.");
+  }
 }
 
 public class Program
 {
-    public static void Main()
-    {
-        IAnimal dog = new Dog("Spot");
-        IAnimal cat = new Cat("Mittens");
+  public static void Main()
+  {
+    IAnimal dog = new Dog("Spot");
+    IAnimal cat = new Cat("Mittens");
 
-        Console.WriteLine($"{dog.Name} actions:");
-        dog.MakeSound();
-        dog.Move();
-        
+    Console.WriteLine($"{dog.Name} actions:");
+    dog.MakeSound();
+    dog.Move();
 
-        Console.WriteLine($"{cat.Name} actions:");
-        cat.MakeSound();
-        cat.Move(); // Uses default implementation
-        
-    }
+    Console.WriteLine($"{cat.Name} actions:");
+    cat.MakeSound();
+    cat.Move(); // Uses default implementation
+  }
 }
-
 ```
 
 ## Use of Interfaces
