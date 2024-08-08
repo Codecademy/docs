@@ -35,3 +35,13 @@ This results in the following output:
 ```shell
 1
 ```
+
+## Codebyte Example
+
+The following code demonstrates how the `.getUTCDate()` method works:
+
+```codebyte/javascript
+const myDate = new Date('2024-06-12');
+
+console.log(myDate.getUTCDate());
+```
