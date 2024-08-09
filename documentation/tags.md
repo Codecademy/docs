@@ -56,6 +56,7 @@ Charts
 Chatbots
 Cryptocurrency
 Classes
+Classification
 Cloud Computing
 Code Editors
 Conditionals
@@ -220,6 +221,8 @@ Methods
 Middleware
 Models
 Modules
+Multitask Learning
+MultiTaskLasso
 MySQL
 Naive Bayes
 Natural Language Processing
