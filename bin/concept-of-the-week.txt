@@ -1,1 +1,1 @@
-content/python/concepts/glob-module/glob-module.md
+content/general/concepts/jsp/jsp.md
