@@ -9,6 +9,7 @@ Computer Science
 Cybersecurity
 Data Science
 Data Visualization
+Data Tools
 Developer Tools
 Discrete Math
 Game Development
