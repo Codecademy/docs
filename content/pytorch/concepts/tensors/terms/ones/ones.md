@@ -8,10 +8,10 @@ Subjects:
 Tags:
   - 'AI'
   - 'Data Types'
-  - 'Deep Learning' 
+  - 'Deep Learning'
   - 'Functions'
   - 'Libraries'
-  - 'Machine Learning' 
+  - 'Machine Learning'
   - 'Neural Networks'
   - 'Syntax'
 CatalogContent:
