@@ -25,9 +25,8 @@ String functions allow operations to be performed on string data.
 
 `CONCAT()`: Concatenates two or more strings.
 
-### Concat function
 ```pseudo
-`CONCAT(string1, string2, ...)`
+CONCAT(string1, string2, ...)
 ```
 
 ### Example
@@ -57,9 +56,8 @@ This example results in the following output:
 
 `LENGTH()`: Returns the length of a string.
 
-### Length function
 ```pseudo
-`LENGTH(string)`
+LENGTH(string)
 ```
 
 ### Example
@@ -95,9 +93,8 @@ The example results in the following output:
 
 `UPPER()`: Converts a string to upper-case.
 
-### Upper function
 ```pseudo
-`UPPER(string)`
+UPPER(string)
 ```
 
 ### Example
@@ -135,9 +132,8 @@ Numeric functions allow to perform operations on numeric data.
 
 `ABS()`: Returns the absolute value of a number.
 
-### Abs function
 ```pseudo
-`ABS(value)`
+ABS(value)
 ```
 
 ### Example
@@ -171,9 +167,8 @@ The example results in the output below:
 
 `CEIL()`: Returns the smallest integer value that is greater than or equal to a number.
 
-### Ceil function
 ```pseudo
-`CEIL(value)`
+CEIL(value)
 ```
 
 ### Example
@@ -207,9 +202,8 @@ The example results in the output below:
 
 `ROUND()`: Rounds a number to a specific number of decimal places.
 
-### Round function
 ```pseudo
-`ROUND(number, decimals)`
+ROUND(number, decimals)
 ```
 
 ### Example
@@ -246,9 +240,8 @@ Date and Time functions allow to perform operations on date and time data.
 
 `NOW()`: Returns the current date and time.
 
-### Now function
 ```pseudo
-`NOW()`
+NOW()
 ```
 
 ### Example
@@ -279,9 +272,8 @@ The example results in the output below (at the time it was consulted):
 
 `DATE_ADD()`: Adds a time interval to a date.
 
-### DATE_ADD() Function
 ```pseudo
-`DATE_ADD(date, INTERVAL value unit)`
+DATE_ADD(date, INTERVAL value unit)
 ```
 
 ### Example
@@ -310,9 +302,8 @@ The example results in the output below (at the time it was consulted):
 
 `DATEDIFF()`: Returns the number of days between two dates.
 
-### DATEDIFF function
 ```pseudo
-`DATEDIFF(date1, date2)`
+DATEDIFF(date1, date2)
 ```
 
 ### Example
@@ -347,9 +338,8 @@ Aggregate functions allow to perform calculations on a set of values and return 
 
 `SUM()`: Returns the sum of a set of values.
 
-### SUM function
 ```pseudo
-`SUM(expression)`
+SUM(expression)
 ```
 
 ### Example
@@ -384,9 +374,8 @@ The example results in the following output:
 
 `AVG()`: Returns the average value of a set of values.
 
-### AVG function
 ```pseudo
-`AVG(expression)`
+AVG(expression)
 ```
 
 ### Example
@@ -421,9 +410,8 @@ The example results in the following output:
 
 `COUNT()`: Returns the number of rows in a table.
 
-### COUNT function
 ```pseudo
-`COUNT(expression)`
+COUNT(expression)
 ```
 
 ### Example
@@ -461,9 +449,8 @@ Control Flow functions return different values based on different conditions.
 
 `IF()`: Returns a value if a condition is true, and another value if it is false.
 
-### IF function
 ```pseudo
-`IF(condition, true_value, false_value)`
+IF(condition, true_value, false_value)
 ```
 
 ### Example
@@ -567,9 +554,8 @@ JSON functions are used to manipulate [JSON](https://www.codecademy.com/resource
 
 More about JSON can be learned [here](https://www.json.org/json-en.html)
 
-### JSON_EXTRACT function
 ```pseudo
-`JSON_EXTRACT(json_doc, path)`
+JSON_EXTRACT(json_doc, path)
 ```
 
 ### Example
@@ -601,9 +587,8 @@ As a result, the query will return the names stored in the JSON documents in the
 
 `JSON_ARRAY()`: Creates a JSON array from a list of values.
 
-### JSON_ARRAY function
 ```pseudo
-`JSON_ARRAY(value1, value2, ...)`
+JSON_ARRAY(value1, value2, ...)
 ```
 
 ### Example
@@ -639,9 +624,8 @@ These functions provide encryption and compression utilities.
 
 `AES_ENCRYPT()`: Encrypts a string using AES (Advanced Encryption Standard) encryption, and returns the original (binary) in [hexadecimal format](https://www.codecademy.com/resources/docs/general/hexadecimal).
 
-### AES_ENCRYPT function
 ```pseudo
-`AES_ENCRYPT(str, key_str)`
+AES_ENCRYPT(str, key_str)
 ```
 
 ### Example
@@ -679,9 +663,8 @@ The example results in the following output:
 
 `MD5()`: Calculates the MD5 (message-digest algorithm) hash of a string. This means that the value is returned as a string of 32 hexadecimal digits, or NULL if the argument was NULL.
 
-### MD5 function
 ```pseudo
-`MD5(string)`
+MD5(string)
 ```
 
 ### Example
