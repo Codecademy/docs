@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.replaceAll()` method of the [HashMap](https://www.codecademy.com/resources/docs/java/hashmap) class replaces each value in the map with the result of the applied function. After the function executes every key is linked to a new value.
+The `.replaceAll()` method of the [HashMap](https://www.codecademy.com/resources/docs/java/hashmap) class replaces each value in the map with the result of the applied function. After the function executes every key is linked to a new value. This method was introduced in JAVA 8. This method is efficient in terms of space method as it modifies the existing values directly within the HashMap. It doesn't create a new HashMap or duplicate the existing one, which means it operates with constant space overhead relative to the number of entries.
 
 ## Syntax
 
@@ -50,6 +50,8 @@ public class ReplaceAllLambdaExample {
   }
 }
 ```
+
+> **Note:** Time complexity is O(n\*f), where n is the number of entries in the HashMap, and f is the time complexity of the function applied to each entry. In practice using simple functions is preferred
 
 The above code returns the following output:
 
