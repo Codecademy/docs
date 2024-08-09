@@ -31,9 +31,9 @@ We just updated our [Docs Contribution Guide](https://www.codecademy.com/pages/c
 
 ## Accessibility: Link Titles
 
-A title for a link can be optionally added. This will appear as a tooltip when the user hovers over the link. To add a title, enclose it in quotation marks `""` after the URL inside the parentheses.
+A title for a link can be optionally added. This will appear as a tooltip when the user hovers over the link. To add a title, enclose it in parentheses `()` after the URL.
 
-Including link titles improves accessibility by providing additional context for screen readers and users navigating with the keyboard.
+Links should have link titles so that screenreaders can narrate them as well as a user can <kbd>Tab</kbd> through the page.
 
 ```md
 [Link text](https://website-name.com 'Link title')
@@ -51,28 +51,12 @@ My favorite Craigslist category is [Missed Connections](https://newyork.craigsli
 
 ## URLs and Email Addresses
 
-To turn a URL or email address into a clickable link, enclose it in angle brackets `<URL or email>`.
+To quickly turn a URL or email address into a link, enclose it in angle brackets `<` `>`.
 
 - `<https://www.codecademy.com/resources/docs>`
-- `<demoemail@hotmail.com>`
+- `<hotmale@hotmail.com>`
 
 The rendered output looks like this:
 
 - <https://www.codecademy.com/resources/docs>
-- <demoemail@hotmail.com>
-
-## Internal Linking
-
-An internal link can be used to navigate to other sections within the same document, or sections within other documents on the same website. To add an internal link, use a relative path (when linking to sections in other documents) with the `#` symbol, followed by the section's title. Ensure the title is in lowercase, omit any punctuation and replace spaces with hyphens.
-
-For example, to link to the `Accessibility: Link Titles` section above:
-
-```md
-[Accessibility: Link Titles](#accessibility-link-titles)
-```
-
-The output would look like:
-
-```pseudo
-[Accessibility: Link Titles](#accessibility-link-titles)
-```
+- <hotmale@hotmail.com>

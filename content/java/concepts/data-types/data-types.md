@@ -19,30 +19,28 @@ In Java, each variable has a property known as its data type which determines wh
 
 Java’s most basic data types are known as primitive data types and are in the system by default.
 
-The primitive data types in Java are listed in the table below:
+The available types are as follows:
 
-| Data Type | Size (bits)           | Default Value(for fields) | Description                                                               |
-| --------- | --------------------- | ------------------------- | ------------------------------------------------------------------------- |
-| `byte`    | 8                     | `0`                       | Represents whole numbers ranging from -128 to 127.                        |
-| `short`   | 16                    | `0`                       | Stores smaller whole numbers, from -32,768 to 32,767.                     |
-| `int`     | 32                    | `0`                       | Represents whole numbers from -2,147,483,648 to 2,147,483,647.            |
-| `long`    | 64                    | `0L`                      | Represents very large whole numbers, ranging from -2^63 to 2^63-1.        |
-| `float`   | 32                    | `0.0f`                    | Stores floating-point numbers with up to 7 decimal digits of precision.   |
-| `double`  | 64                    | `0.0d`                    | Stores floating-pointl numbers with up to 15 decimal digits of precision. |
-| `boolean` | Not precisely defined | `false`                   | Holds only two possible values: `true` and `false`.                       |
-| `char`    | 16                    | `'\u0000'`                | Stores a single character, including letters and ASCII values.            |
+- `int`
+- `char`
+- `boolean`
+- `byte`
+- `long`
+- `short`
+- `double`
+- `float`
 
-Here's an example demonstrating the usage of these primitive data types:
+`null` is another, but it can only ever store the value null.
 
 ```java
-byte smallNumber = 100;
-short mediumNumber = 30000;
-int largeNumber = 2000000000;
-long veryLargeNumber = 9223372036854775807L;
-float decimalNumber = 3.14f;
-double preciseDecimal = 3.14159265359;
-boolean isJavaFun = true;
-char letter = 'A';
+int age = 28;
+char grade = 'A';
+boolean late = true;
+byte b = 20;
+long num1 = 1234567;
+short no = 10;
+float k = (float)12.5;
+double pi = 3.14;
 ```
 
 ## Reference Data Types

@@ -176,28 +176,3 @@ console.log(person.greeting());
 Watch this video to learn how to create JavaScript objects containing different types of data and functions, and access their properties.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MsvR9zVM8dI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-## Codebyte Example
-
-The following example showcases how object properties are defined and applied in JavaScript:
-
-```codebyte/javascript
-const book = {
-  title: 'The Queen\'s Gambit',
-  author: {
-    firstName: 'Walter',
-    lastName: 'Tevis'
-  },
-  publicationYear: 1983,
-  genres: ['Fiction', 'Drama'],
-  details: {
-    pages: 340,
-    language: 'English'
-  },
-  getSummary() {
-    return `${this.title} by ${this.author.firstName} ${this.author.lastName} is a ${this.genres.join(', ')} novel published in ${this.publicationYear}.`;
-  }
-};
-
-console.log(book.getSummary());
-```

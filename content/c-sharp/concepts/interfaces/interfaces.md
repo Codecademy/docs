@@ -51,160 +51,61 @@ class MyClass : MyInterface
 
 ## Example
 
-The following example defines an interface with default implementations. This feature is available from C# 8.0 version onwards:
+The following example shows implementation of an interface:
 
 ```cs
 using System;
 
-public interface IAnimal
+// Create an interface called IAnimal
+interface IAnimal
 {
-  string Name { get; set; }
-  void MakeSound();
-  void Move();
+    // Define a method called Speak()
+    void Speak();
 }
 
-public class Dog : IAnimal
+// Create a class called Dog that implements the IAnimal interface
+class Dog : IAnimal
 {
-  public string Name { get; set; }
-
-  public Dog(string name)
-  {
-    Name = name;
-  }
-
-  public void MakeSound()
-  {
-    Console.WriteLine("The dog barks when he is happy to see me.");
-  }
-
-  public void Move()
-  {
-    Console.WriteLine("The dog moves when he sees his best friend.");
-  }
+    public void Speak()
+    {
+        Console.WriteLine("Woof!");
+    }
 }
 
-public class Cat : IAnimal
+// Create a class called Cat that implements the IAnimal interface
+class Cat : IAnimal
 {
-  public string Name { get; set; }
-
-  public Cat(string name)
-  {
-    Name = name;
-  }
-
-  public void MakeSound()
-  {
-    Console.WriteLine("The cat purrs when I scratch his head.");
-  }
-
-  public void Move()
-  {
-    Console.WriteLine("The cat only moves when there is food in his bowl.");
-  }
+    public void Speak()
+    {
+        Console.WriteLine("Meow!");
+    }
 }
 
+// Create a main method to test the program
 public class Program
 {
-  public static void Main()
-  {
-    IAnimal myDog = new Dog("Spot");
-    IAnimal myCat = new Cat("Mittens");
+    public static void Main(string[] args)
+    {
+        // Create a Dog object
+        Dog dog = new Dog();
 
-    Console.WriteLine($"Dog's name: {myDog.Name}");
-    myDog.MakeSound();
-    myDog.Move();
+        // Call the Speak() method on the Dog object
+        dog.Speak();
 
-    Console.WriteLine($"Cat's name: {myCat.Name}");
-    myCat.MakeSound();
-    myCat.Move();
-  }
+        // Create a Cat object
+        Cat cat = new Cat();
+
+        // Call the Speak() method on the Cat object
+        cat.Speak();
+    }
 }
 ```
 
-The code above results in the following output:
+The output for the above code is:
 
 ```shell
-Dog's name: Spot
-The dog barks when he is happy to see me.
-The dog moves when he sees his best friend.
-Cat's name: Mittens
-The cat purrs when I scratch his head.
-The cat only moves when there is food in his bowl.
-```
-
-## Codebyte Example
-
-Here is a codebyte example that defines an interface with default implementations:
-
-```codebyte/csharp
-using System;
-
-public interface IAnimal
-{
-  void MakeSound();
-  string Name { get; set; }
-
-  void Move()
-  {
-      Console.WriteLine("This is a default animal movement.");
-  }
-}
-
-public class Dog : IAnimal
-{
-  public string Name { get; set; }
-
-  public Dog(string name)
-  {
-    Name = name;
-  }
-
-  public void MakeSound()
-  {
-    Console.WriteLine("The dog barks when he is happy to see me.");
-  }
-
-  public void Move()
-  {
-    Console.WriteLine("The dog moves when he sees his best friend.");
-  }
-}
-
-public class Cat : IAnimal
-{
-  public string Name { get; set; }
-
-  public Cat(string name)
-  {
-    Name = name;
-  }
-
-  public void MakeSound()
-  {
-    Console.WriteLine("The cat purrs when I scratch his head");
-  }
-  public void Move()
-  {
-    Console.WriteLine("The cat only moves when there is food in his bowl.");
-  }
-}
-
-public class Program
-{
-  public static void Main()
-  {
-    IAnimal dog = new Dog("Spot");
-    IAnimal cat = new Cat("Mittens");
-
-    Console.WriteLine($"{dog.Name} actions:");
-    dog.MakeSound();
-    dog.Move();
-
-    Console.WriteLine($"{cat.Name} actions:");
-    cat.MakeSound();
-    cat.Move(); // Uses default implementation
-  }
-}
+Woof!
+Meow!
 ```
 
 ## Use of Interfaces

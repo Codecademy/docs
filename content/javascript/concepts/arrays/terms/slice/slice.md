@@ -1,6 +1,6 @@
 ---
 Title: '.slice()'
-Description: 'Returns a shallow copy of a part of an array. It contains references to the sliced elements in the original array, not the elements themselves.'
+Description: 'Returns a shallow copy of a part of an array without altering the original array.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
