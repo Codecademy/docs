@@ -5,19 +5,19 @@ Subjects:
   - 'Computer Science'
   - 'Game Development'
 Tags:
-  - 'Vectors'
   - 'Arrays'
   - 'Data Structures'
+  - 'Vectors'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
 ---
 
-The **.capacity()** method returns the storage space allocated for a vector. This is different from .size(). Capacity can be equal or greater than size. It is the total number of elements that a vector can hold without reallocation. This is automatically assigned at initialization.
+The **`.capacity()`** method returns the storage space currently allocated for a vector. This is differs from [`.size()`](https://www.codecademy.com/resources/docs/cpp/vectors/size), which represents the number of elements currently in the vector. Capacity can be equal to or greater than size. It indicates the total number of elements the vector can hold without requiring reallocation. This value is automatically assigned when the vector is initialized.
 
 ## Syntax
 
-The `.capacity()` method requires no parameters and can be called as follows
+The `.capacity()` method requires no parameters and can be used as:
 
 ```pseudo
 myvector.capacity()
@@ -27,33 +27,32 @@ myvector.capacity()
 
 The following code initializes the vectors and returns its capacity
 
-```codebyte/cpp
-// comparing vectors of two different capacity 
-
+```cpp
+// Comparing vectors with different capacities
 #include <iostream>
 #include <vector>
 
 int main ()
 {
-// initialize vectors
-std::vector<int> vector_1={1,2,3};
-std::vector<int> vector_2;
+  // Initialize vectors
+  std::vector<int> vector_1 = {1, 2, 3};
+  std::vector<int> vector_2;
 
-// set some content in vector_2:
-for (int i=0; i<6; i++) vector_2.push_back(i);
+  // Add elements to vector_2:
+  for (int i = 0; i < 6; i++) 
+    vector_2.push_back(i);
 
-//publish the capacity of each vector
-std::cout << "capacity of vector_1: " << (int) vector_1.capacity() << '\n';
-std::cout << "capacity of vector_2: " << (int) vector_2.capacity() << '\n';
-  
-return 0;
+  //Print the capacity of each vector
+  std::cout << "Capacity of vector_1: " <<  vector_1.capacity() << '\n';
+  std::cout << "Capacity of vector_2: " <<  vector_2.capacity() << '\n';
+    
+  return 0;
 }
 ```
 
-The output of the above code is
-```
+
+```shell
 capacity of vector_1: 3
 capacity of vector_2: 8
-
 ```
 
