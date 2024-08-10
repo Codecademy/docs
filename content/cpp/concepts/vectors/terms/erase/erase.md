@@ -35,7 +35,7 @@ vector.erase(starting_position, ending_position);
   
 ## Example 1
 
-In the example below *.erase()* removes a single element:
+In the example below `.erase()` removes a single element:
 
 ```cpp
 #include <iostream>
