@@ -13,9 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **.erase()** function removes a single element or a range of elements from a specific position of the `vector`.
-When an element is remove with *.erase()* method, the size of the `vector` decrease. Therefore the elements after the ones deleted are moved to a new position.
-The position of the elements to remove are identified with `.begin()` and/or `.end()` functions.
+The **`.erase()`** function removes a single element or a range of elements from a specific position in the `vector`. When an element is removed with the `.erase()` function, the size of the `vector` decreases, and the elements after the deleted ones are shifted to fill the gap. The positions of the elements to remove are identified with `.begin()` and/or `.end()` functions.
 
 ## Syntax
 
