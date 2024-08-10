@@ -17,12 +17,6 @@ The **`.erase()`** function removes a single element or a range of elements from
 
 ## Syntax
 
-```  
-vector.erase(position);  
-vector.erase(starting_position, ending_position);   
-```
-The firsr syntax removes a single element.
-The second syntax removes a range of elements.
 
 To use `.erase()`, the `vector` must be defined using `std::vector`.
 
