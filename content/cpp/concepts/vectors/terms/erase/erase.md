@@ -70,7 +70,7 @@ Rooms available: 1 2 4 5 6 7 8 9 10
 
 ## Example 2
 
-In the example below *.erase()* removes a range of element:
+In the example below `.erase()` removes a range of element:
 
 ```cpp
 #include <iostream>
