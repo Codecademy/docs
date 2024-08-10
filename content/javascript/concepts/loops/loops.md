@@ -262,7 +262,7 @@ The output would be:
 The `continue` keyword may be used to exit a specific iteration of the loop and continue with the next iteration. 
 
 In the example below, the `continue` keyword is used to exit when a `i` is divisible by `3`. 
-
+## Example
 ```js
 for (let i = 0; i < 12; i++) {
   if (i % 3 === 0) {
