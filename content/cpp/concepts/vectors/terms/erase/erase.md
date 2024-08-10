@@ -52,7 +52,7 @@ int main ()
     // Remove the 3rd element
     room.erase (room.begin()+2);  
     
-    // Print out element left in the vector
+    // Print out elements left in the vector
     std::cout << "Rooms available:";
     for (unsigned i=0; i<room.size(); ++i)
       std::cout << ' ' << room[i];
