@@ -5,9 +5,9 @@ Subjects:
   - 'Computer Science'
   - 'Game Development'
 Tags:
-  - 'Vectors'
   - 'Arrays'
   - 'Data Structures'
+  - 'Vectors'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
