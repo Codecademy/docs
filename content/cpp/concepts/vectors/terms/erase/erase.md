@@ -96,6 +96,7 @@ int main ()
 }
 ```
 The output of the above code is :
+
 ```shell
 Rooms available: 1 2 4 5 6 7
 ```
