@@ -1,19 +1,14 @@
 ---
 Title: '.ones()'
-Description: 'Creates a tensor of a given shape where every element is the number 1.'
+Description: 'Creates a tensor of a given shape, where every element is set to 1.'
 Subjects:
   - 'Data Science'
   - 'Machine Learning'
-  - 'AI'
 Tags:
   - 'AI'
   - 'Data Types'
   - 'Deep Learning'
   - 'Functions'
-  - 'Libraries'
-  - 'Machine Learning'
-  - 'Neural Networks'
-  - 'Syntax'
 CatalogContent:
   - 'intro-to-py-torch-and-neural-networks'
   - 'py-torch-for-classification'
