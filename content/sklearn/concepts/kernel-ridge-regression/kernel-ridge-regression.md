@@ -14,9 +14,9 @@ CatalogContent:
 
 **Kernel ridge regression** is a regression model that combines ridge regression with the kernel trick.
 
-## Ridge Regression 
+## Ridge Regression
 
-Ridge regression is a linear regression model with a least square loss function and L2 regularization. The loss function, equivalent to the sum of the coefficients squared, allows the linear regression model to find the best fit line on the training data as shown in the example below:
+**Ridge regression** is a linear regression model with a least square loss function and L2 regularization. The loss function, equivalent to the sum of the coefficients squared, allows the linear regression model to find the best fit line on the training data as shown in the example below:
 
 ![Linear regression](https://raw.githubusercontent.com/Codecademy/docs/main/media/linear-regression-least-squares.png)
 
