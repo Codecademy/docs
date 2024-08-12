@@ -28,6 +28,7 @@ let month = 'May 30th';
 let displayText = 'Your ' + service + ' bill is due on ' + month + '.';
 
 console.log(displayText);
+// Output: Your credit card bill is due on May 30th.
 ```
 
 ## Interpolation
@@ -39,14 +40,11 @@ let age = 7;
 
 // String concatenation
 console.log('Tommy is ' + age + ' years old.');
-// Output:
-// Tommy is 7 years old.
-
+// Output: Tommy is 7 years old.
 
 // String interpolation
 console.log(`Tommy is ${age} years old.`);
-// Output:
-// Tommy is 7 years old.
+// Output: Tommy is 7 years old.
 ```
 
 ## Escaping Characters
