@@ -22,12 +22,12 @@ The **`.ones()`** function in PyTorch creates a tensor of a specified shape, whe
 torch.ones(size, out=None, dtype=None, layout=torch.strided, device=None, requires_grad=False)
 ```
 
-- `size`: This parameter is required and specifies tensor shape.
-- `out`: This optional parameter is the output tensor. Default: `None`
-- `dtype`: This optional parameter denotes the desired type for the returned tensor. Default: `None`
-- `layout`: This optional parameter designates the layout desired for the returned tensor. Default: `torch.strided`
-- `device`: This optional parameter specifies the desired device of the returned tensor (e.g. `torch.device('cpu')` or `torch.device('cuda')`). Default: `None`
-- `requires_grad`: This optional parameter determines if autograd should record the operations on the returned tensor. Default: `False`
+- `size`: This required parameter specifies the tensor shape.
+- `out`: This optional parameter is the output tensor. The default value is `None`.
+- `dtype`: This optional parameter denotes the desired type for the returned tensor. The default value is `None`.
+- `layout`: This optional parameter designates the layout desired for the returned tensor. The default value is `torch.strided`.
+- `device`: This optional parameter specifies the desired device of the returned tensor (e.g., `torch.device('cpu')` or `torch.device('cuda')`). The default value is `None`.
+- `requires_grad`: This optional parameter determines if autograd should record the operations on the returned tensor. The default value is `False`.
 
 ## Example
 
