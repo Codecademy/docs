@@ -18,7 +18,7 @@ The **`.ones()`** function in PyTorch creates a tensor of a specified shape, whe
 
 ## Syntax
 
-```
+```pseudo
 torch.ones(size, out=None, dtype=None, layout=torch.strided, device=None, requires_grad=False)
 ```
 
