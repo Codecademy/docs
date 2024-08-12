@@ -61,7 +61,7 @@ console.log("Wayne's World");
 // Output: Wayne's World
 ```
 
-## Codebyte Practice
+## Codebyte Example
 
 Now let's practice the three topics above.
 
