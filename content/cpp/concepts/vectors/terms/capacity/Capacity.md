@@ -25,7 +25,7 @@ myvector.capacity()
 
 ## Example
 
-The following code initializes the vectors and returns its capacity
+The following code initializes the vectors and returns its capacity:
 
 ```cpp
 // Comparing vectors with different capacities
@@ -50,9 +50,7 @@ int main ()
 }
 ```
 
-
 ```shell
 capacity of vector_1: 3
 capacity of vector_2: 8
 ```
-
