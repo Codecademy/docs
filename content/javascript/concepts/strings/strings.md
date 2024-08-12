@@ -22,7 +22,7 @@ In JavaScript, multiple strings can be concatenated or joined together using the
 
 In the example below, multiple strings and variables containing string values have been concatenated. After the code block is run, the `displayText` variable will contain the concatenated string:
 
-```codebyte/javascript
+```js
 let service = 'credit card';
 let month = 'May 30th';
 let displayText = 'Your ' + service + ' bill is due on ' + month + '.';
