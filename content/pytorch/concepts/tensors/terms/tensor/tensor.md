@@ -30,7 +30,7 @@ torch.tensor(data, dtype=None, device=None, requires_grad=False, pin_memory=Fals
 
 ## Example
 
-The following example shows how to use the `.tensors()` function:
+The following example shows how to use the `.tensor()` function:
 
 ```py
 import torch
