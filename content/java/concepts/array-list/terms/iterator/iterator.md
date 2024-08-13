@@ -28,7 +28,7 @@ The method returns an [`Iterator`](https://www.codecademy.com/resources/docs/jav
 
 ## Example
 
-The following example creates an `ArrayList`, inserts some elements using the [`.add()`](https://www.codecademy.com/resources/docs/java/array-list/add) method and then iterates over it using a loop.
+The following example creates an `ArrayList`, inserts some elements using the [`.add()`](https://www.codecademy.com/resources/docs/java/array-list/add) method and then iterates over it using a [loop](https://www.codecademy.com/resources/docs/java/loops):
 
 ```java
 import java.util.ArrayList;
