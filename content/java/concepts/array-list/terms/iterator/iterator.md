@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.iterator()`** method is used to iterate over the elements of a collection (such as an [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list)) one by one. 
+The **`.iterator()`** [method](https://www.codecademy.com/resources/docs/java/methods) is used to iterate over the elements of a [collection](https://www.codecademy.com/resources/docs/java/collection) (such as an `ArrayList`) one by one.
 
 ## Syntax
 
