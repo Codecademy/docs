@@ -1,3 +1,5 @@
+Error: the image says 'Framworks' instead of 'Frameworks'
+
 ---
 Title: 'rowspan'
 Description: 'Specifies the number of rows a cell should span. '
