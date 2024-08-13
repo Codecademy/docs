@@ -1,12 +1,14 @@
 ---
 Title: '.iterator()'
-Description: 'Returns an iterator over the elements in an ArrayList'
+Description: 'Returns an iterator over the elements in an ArrayList.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
   - 'Arrays'
-  - 'Array List'
+  - 'Elements'
+  - 'Iterators'
+  - 'Java'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
