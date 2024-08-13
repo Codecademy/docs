@@ -42,10 +42,10 @@ public class Main {
     list.add("Apple");
     list.add("Banana");
     list.add("Cherry");
-  
+
     // Get an iterator for the list
     Iterator<String> iterator = list.iterator();
-  
+
     // Use the iterator to traverse the list
     while (iterator.hasNext()) {
         String element = iterator.next();
