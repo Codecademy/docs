@@ -12,12 +12,11 @@ Tags:
   - 'Deep Learning'
 CatalogContent:
   - 'intro-to-py-torch-and-neural-networks'
-  - 'py-torch-for-classification'
+  - 'paths/computer-science'
   - 'paths/data-science'
 ---
 
-
-The **`.zeros()`** method returns a tensor of a specified shape filled with zeros. Optionally, the output tensor, its datatype, layout, device, and whether autograd records operations can be selected.
+The **`.zeros()`** method returns a tensor filled with zeros that has a specified shape. The output tensor, its datatype, layout, device, and whether autograd records operations can me specified.
 
 ## Syntax
 
