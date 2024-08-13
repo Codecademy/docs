@@ -19,7 +19,7 @@ The quadratic equation is a polynomial equation of the second degree, which can 
 
 ![The quadratic equation](https://raw.githubusercontent.com/Codecademy/docs/main/media/quadratic-equation.png)
 
-The goal of quadratic regression is to fit this equation to the observed data, providing a more refined, non-linear model of the data than linear regression. 
+The goal of quadratic regression is to fit this equation to the observed data, providing a more refined, non-linear model of the data than linear regression.
 
 ## Syntax
 
