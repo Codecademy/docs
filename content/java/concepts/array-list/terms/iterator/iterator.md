@@ -22,7 +22,7 @@ The **`.iterator()`** [method](https://www.codecademy.com/resources/docs/java/me
 arrayListInstance.iterator();
 ```
 
-`arrayListInstance`: The `ArrayList` to be iterated.
+- `arrayListInstance`: The `ArrayList` to be iterated.
 
 The method returns an [`Iterator`](https://www.codecademy.com/resources/docs/java/iterator) object, which must be of the same [data type](https://www.codecademy.com/resources/docs/java/data-types) as `arrayListInstance`.
 
