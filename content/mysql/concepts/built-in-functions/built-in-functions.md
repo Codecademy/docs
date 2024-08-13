@@ -1,14 +1,14 @@
 ---
-Title: 'Built-in Functions' 
-Description: 'Built-in functions are predefined functions that can be used to perform operations on data at any time.' 
-Subjects: 
+Title: 'Built-in Functions'
+Description: 'Built-in functions are predefined functions that can be used to perform operations on data at any time.'
+Subjects:
   - 'Code Foundations'
   - 'Data Science'
   - 'Data Visualization'
-Tags: 
+Tags:
   - 'MySQL'
   - 'Data'
-CatalogContent: 
+CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
   - 'paths/data-science'
@@ -31,7 +31,7 @@ CONCAT(string1, string2, ...)
 
 ### Example
 
-In the following example, how to use `CONCAT()` is shown: 
+In the following example, how to use `CONCAT()` is shown:
 
 The table **greeting** below will **concatenate** the strings and will show the value **Hello world** as a Greeting.
 
@@ -45,11 +45,11 @@ id INT AUTO_INCREMENT PRIMARY KEY,
 INSERT INTO greetings (string1, string2, string3) VALUES
 ('Hello', ' ', 'world');
 ```
- 
+
 This example results in the following output:
 
 | string1 | string2 | string3 | Greeting    |
-|---------|---------|---------|-------------|
+| ------- | ------- | ------- | ----------- |
 | Hello   |         | world   | Hello world |
 
 ### Length function
@@ -59,8 +59,6 @@ This example results in the following output:
 ```pseudo
 LENGTH(string)
 ```
-
-### Example
 
 In the following example, how to use `LENGTH()` is shown:
 
@@ -83,11 +81,10 @@ SELECT word, LENGTH(word) AS Length FROM words;
 The example results in the following output:
 
 | word     | Length |
-|----------|--------|
+| -------- | ------ |
 | MySQL    | 5      |
 | Database | 8      |
 | Example  | 7      |
-
 
 ### Upper function
 
@@ -96,8 +93,6 @@ The example results in the following output:
 ```pseudo
 UPPER(string)
 ```
-
-### Example
 
 In the following example, how to use `UPPER()` is shown:
 
@@ -118,11 +113,10 @@ INSERT INTO uppercases (lowercases) VALUES
 The example results in the output below:
 
 | lowercases | Uppercase |
-|------------|-----------|
+| ---------- | --------- |
 | Nelson     | NELSON    |
 | Joao       | JOAO      |
 | Ana        | ANA       |
-
 
 ## Numeric Functions
 
@@ -157,11 +151,10 @@ SELECT digit, ABS(digit) AS AbsoluteValue FROM digits;
 The example results in the output below:
 
 | digit | AbsoluteValue |
-|-------|---------------|
+| ----- | ------------- |
 | -5    | 5             |
 | 10    | 10            |
 | -15   | 15            |
-
 
 ### Ceil function
 
@@ -171,9 +164,7 @@ The example results in the output below:
 CEIL(value)
 ```
 
-### Example
-
-In the following example, there are two columns (one of them is an auto_increment) that correspond to three queues. The table **digits1** below will take the numbers and return the closest integer value that is greater than or equal to each. 
+In the following example, there are two columns (one of them is an auto_increment) that correspond to three queues. The table **digits1** below will take the numbers and return the closest integer value that is greater than or equal to each.
 
 ```pseudo
 CREATE TABLE digits1 (
@@ -193,7 +184,7 @@ SELECT digit1, CEIL(digit1) AS CeilingValue FROM digits1;
 The example results in the output below:
 
 | digit1 | CeilingValue |
-|--------|--------------|
+| ------ | ------------ |
 | 21.6   | 22           |
 | 10.3   | 11           |
 | 15.9   | 16           |
@@ -205,8 +196,6 @@ The example results in the output below:
 ```pseudo
 ROUND(number, decimals)
 ```
-
-### Example
 
 In the following example, there are two columns (one of them is an auto_increment) that correspond to three queues. The table **digits2** will take the numbers and round them to the number of decimal places inserted into the second `ROUND()` argument. In this case, the numbers are rounded to two decimal places.
 
@@ -227,7 +216,7 @@ SELECT digit2, ROUND(digit2, 2) AS RoundedValue FROM digits2;
 The example results in the output below:
 
 | digit2    | RoundedValue |
-|-----------|--------------|
+| --------- | ------------ |
 | 3.1437896 | 3.14         |
 | 2.71828   | 2.72         |
 | 1.234567  | 1.23         |
@@ -264,9 +253,8 @@ SELECT event_name, event_time, now() AS CurrentDateTime FROM events;
 The example results in the output below (at the time it was consulted):
 
 | event_name       | event_time          | CurrentDateTime     |
-|------------------|---------------------|---------------------|
+| ---------------- | ------------------- | ------------------- |
 | Codecademy Party | 2024-06-21 15:02:14 | 2024-06-21 15:02:14 |
-
 
 ### DATE_ADD() Function
 
@@ -275,8 +263,6 @@ The example results in the output below (at the time it was consulted):
 ```pseudo
 DATE_ADD(date, INTERVAL value unit)
 ```
-
-### Example
 
 In the following example, there are two columns (one of them is an auto_increment) that correspond to one queue. The table **events2** below will take the value (to count the number of unit) and the unit (DAY in this case, but can also be MONTH, or YEAR) to calculate the **INTERVAL** between the event_date and NextWeek. The result are seven days in this case.
 
@@ -295,7 +281,7 @@ SELECT event_date, DATE_ADD(event_date, INTERVAL 7 DAY) AS NextWeek FROM events;
 The example results in the output below (at the time it was consulted):
 
 | event_date | NextWeek   |
-|------------|------------|
+| ---------- | ---------- |
 | 2024-06-21 | 2024-06-28 |
 
 ### DATEDIFF function
@@ -305,8 +291,6 @@ The example results in the output below (at the time it was consulted):
 ```pseudo
 DATEDIFF(date1, date2)
 ```
-
-### Example
 
 In the following example, there are two columns (one of them is an auto_increment) that correspond to one queue. The table **events3** below will take the value of **start_date** as well as the value of **end_date** as arguments in the `DATEDIFF()` and will return the number of days between the two dates.
 
@@ -326,9 +310,8 @@ SELECT start_date, end_date, DATEDIFF(end_date, start_date) AS DaysDifference FR
 The example results in the following output:
 
 | start_date | end_date   | DaysDifference |
-|------------|------------|----------------|
+| ---------- | ---------- | -------------- |
 | 2024-06-01 | 2024-06-21 | 20             |
-
 
 ## Aggregate Functions
 
@@ -342,9 +325,7 @@ Aggregate functions allow to perform calculations on a set of values and return 
 SUM(expression)
 ```
 
-### Example
-
-In the following example, there are three columns (one of them is an auto_increment) that correspond to one queue. The table **payments** below will take the values of the **amount** column and *sum* them up resulting in a total amount.
+In the following example, there are three columns (one of them is an auto_increment) that correspond to one queue. The table **payments** below will take the values of the **amount** column and _sum_ them up resulting in a total amount.
 
 ```pseudo
 CREATE TABLE payments (
@@ -366,9 +347,8 @@ SELECT SUM(amount) AS TotalAmount FROM payments;
 The example results in the following output:
 
 | TotalAmount |
-|-------------|
+| ----------- |
 | 800.00      |
-
 
 ### AVG function
 
@@ -378,9 +358,7 @@ The example results in the following output:
 AVG(expression)
 ```
 
-### Example
-
-In the following example, there are three columns (one of them is an auto_increment) that correspond to one queue. The table **exams** below will take the values from *score* column and calculate the *average* of those values.
+In the following example, there are three columns (one of them is an auto_increment) that correspond to one queue. The table **exams** below will take the values from _score_ column and calculate the _average_ of those values.
 
 ```pseudo
 CREATE TABLE exams (
@@ -402,9 +380,8 @@ SELECT AVG(score) AS AverageScore FROM exams;
 The example results in the following output:
 
 | AverageScore |
-|--------------|
+| ------------ |
 | 83.4000      |
-
 
 ### COUNT function
 
@@ -414,9 +391,7 @@ The example results in the following output:
 COUNT(expression)
 ```
 
-### Example
-
-In the following example, there are two columns (one of them is an auto_increment) that correspond to one queue. The table **users** below will count the number of row inserted and will return the total. 
+In the following example, there are two columns (one of them is an auto_increment) that correspond to one queue. The table **users** below will count the number of row inserted and will return the total.
 
 ```pseudo
 CREATE TABLE users (
@@ -437,9 +412,8 @@ SELECT COUNT(username) AS NumberOfUsers FROM users;
 The example results in the following output:
 
 | NumberOfUsers |
-|---------------|
+| ------------- |
 | 5             |
-
 
 ## Control Flow Functions
 
@@ -453,9 +427,7 @@ Control Flow functions return different values based on different conditions.
 IF(condition, true_value, false_value)
 ```
 
-### Example
-
-In the following example, there are three columns (one of them is an auto_increment) that correspond to five queues. The table **exams2** below will take the values from *student_name* and from *score* and make a comparison. IF the students' score is higher than 60, the corresponding students pass, otherwise they fail. 
+In the following example, there are three columns (one of them is an auto_increment) that correspond to five queues. The table **exams2** below will take the values from _student_name_ and from _score_ and make a comparison. IF the students' score is higher than 60, the corresponding students pass, otherwise they fail.
 
 ```pseudo
 CREATE TABLE exams2 (
@@ -477,13 +449,12 @@ SELECT student_name, score, IF(score > 60, 'Pass', 'Fail') AS Result FROM exams2
 The example results in the following output:
 
 | student_name | score | Result |
-|--------------|-------|--------|
+| ------------ | ----- | ------ |
 | Nelson       | 85    | Pass   |
 | Ana          | 58    | Fail   |
 | Joao         | 92    | Pass   |
 | Lidia        | 45    | Fail   |
 | Afonso       | 74    | Pass   |
-
 
 ### CASE Expression
 
@@ -501,9 +472,7 @@ CASE
 END
 ```
 
-### Example
-
-In the following example, there are three columns (one of them is an auto_increment) that correspond to five queues. The table **exams3** below will take the values from *student_name* and from *score* and make a comparison.
+In the following example, there are three columns (one of them is an auto_increment) that correspond to five queues. The table **exams3** below will take the values from _student_name_ and from _score_ and make a comparison.
 **When** the score is higher or equal than 90, **then** the Grade is A.
 **When** the score is higher or equal than 80, **then** the Grade is B.
 **When** the score is higher or equal than 70, **then** the Grade is C.
@@ -536,13 +505,12 @@ FROM exams3;
 The example results in the following output:
 
 | student_name | score | Grade |
-|--------------|-------|-------|
+| ------------ | ----- | ----- |
 | Nelson       | 85    | B     |
 | Ana          | 78    | C     |
 | Joao         | 92    | A     |
 | Lidia        | 65    | F     |
 | Afonso       | 88    | B     |
-
 
 ## JSON Functions
 
@@ -558,9 +526,7 @@ More about JSON can be learned [here](https://www.json.org/json-en.html)
 JSON_EXTRACT(json_doc, path)
 ```
 
-### Example
-
-In the following example, there are two columns (one of them is an auto_increment) that correspond to two queues. The following table **people** will return the *name* extracted from the **person_info** and solicited in the second argument of `JSON_EXTRACT()`.
+In the following example, there are two columns (one of them is an auto_increment) that correspond to two queues. The following table **people** will return the _name_ extracted from the **person_info** and solicited in the second argument of `JSON_EXTRACT()`.
 
 ```pseudo
 CREATE TABLE people (
@@ -577,11 +543,10 @@ SELECT JSON_EXTRACT(person_info, '$.name') AS Name FROM people;
 
 As a result, the query will return the names stored in the JSON documents in the 'person_info' column:
 
-| Name      |
-|-----------|
-| "Nelson"  |
+| Name       |
+| ---------- |
+| "Nelson"   |
 | "Santiago" |
-
 
 ### JSON_ARRAY function
 
@@ -590,8 +555,6 @@ As a result, the query will return the names stored in the JSON documents in the
 ```pseudo
 JSON_ARRAY(value1, value2, ...)
 ```
-
-### Example
 
 In the following example, there are five columns (one of them is an auto_increment) that correspond to one queue. The table **example_data** below will take these different data type values from the columns and compress them in a list of values as JSONArray.
 
@@ -613,7 +576,7 @@ SELECT JSON_ARRAY(value1, value2, value3, value4) AS JSONArray FROM example_data
 The example results in the following output:
 
 | JSONArray          |
-|--------------------|
+| ------------------ |
 | [1, 2, "three", 4] |
 
 ## Encryption and Compression Functions
@@ -628,9 +591,7 @@ These functions provide encryption and compression utilities.
 AES_ENCRYPT(str, key_str)
 ```
 
-### Example
-
-In the following example, there are 3 columns (one of them is an auto_increment) that correspond to one queue. The table **secrets** below will take the value *SecretText* from **plain_text** and will represent it in a binary code of [hexadecimal encrypted message](https://www.codecademy.com/resources/docs/general/hexadecimal).
+In the following example, there are 3 columns (one of them is an auto_increment) that correspond to one queue. The table **secrets** below will take the value _SecretText_ from **plain_text** and will represent it in a binary code of [hexadecimal encrypted message](https://www.codecademy.com/resources/docs/general/hexadecimal).
 
 ```pseudo
 CREATE TABLE secrets (
@@ -648,7 +609,7 @@ SELECT plain_text, AES_ENCRYPT(plain_text, 'key') AS EncryptedText FROM secrets;
 The example results in the following output:
 
 | plain_text | EncryptedText                   |
-|------------|---------------------------------|
+| ---------- | ------------------------------- |
 | SecretText | (encrypted text representation) |
 
 > **Note** When dealing with encrypted data, we usually store the result in a 'VARBINARY' column because the encrypted data is binary. For display purposes, we might convert it to a readable format.
@@ -656,7 +617,7 @@ The example results in the following output:
 ### Example
 
 | plain_text   | EncryptedText                    |
-|--------------|----------------------------------|
+| ------------ | -------------------------------- |
 | MySecretText | 48ACB92DB61B99F84CFF35B2DEC31350 |
 
 ### MD5 function
@@ -666,8 +627,6 @@ The example results in the following output:
 ```pseudo
 MD5(string)
 ```
-
-### Example
 
 In the following example, there are 3 columns (one of them is an auto_increment) that correspond to two queues. The table **users2** below will take the values from username and from password and then `MD5(string)` will convert the password's value into a **message-digest algorithm** as HashValue.
 
@@ -686,12 +645,11 @@ SELECT username, password, MD5(password) AS HashValue FROM users2;
 ```
 
 The output will be a 32-character hexadecimal string:
- 
+
 | username | password  | HashValue                        |
-|----------|-----------|----------------------------------|
+| -------- | --------- | -------------------------------- |
 | user1    | password1 | 7c6a180b36896a0a8c02787eeafb0e4c |
 | user2    | password2 | 6cb75f652a9b52798eb6cf2201057c73 |
-
 
 > **Note** The HashValues are the 32-character hexadecimal string, which represents the MD5 hash of the input string. The hashed password can also be stored in the database instead of the plain text revealing the password.
 
@@ -714,15 +672,12 @@ SELECT username, hashed_password FROM users3;
 The output would be:
 
 | username | hashed_password                  |
-|----------|----------------------------------|
+| -------- | -------------------------------- |
 | user1    | 7c6a180b36896a0a8c02787eeafb0e4c |
 | user2    | 6cb75f652a9b52798eb6cf2201057c73 |
-
 
 With this approach, it is possible to make sure that passwords are stored securely in the database. During user login, it is possible to compare the MD5 hash of the entered password with the stored hashed password.
 
 ## Conclusion
 
 These are some examples of primary built-in functions in MySQL across various categories, illustrating its usage with examples. Each function serves a specific purpose which allows making data manipulation and querying in MySQL in a more efficient and powerful way.
-
-
