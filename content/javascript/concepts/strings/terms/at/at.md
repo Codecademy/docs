@@ -51,15 +51,3 @@ undefined
 ```
 
 > **Note:** The `.at()` method returns `undefined` for out-of-bound indices, unlike `.charAt()`, which returns an empty string.
-
-## Codebyte Example
-
-Run the following code to understand how the `.at()` method works:
-
-```codebyte/javascript
-console.log('Data Structures'.at(0));
-
-console.log('Sofware Development'.at(-2));
-
-console.log('2024'.at(3));
-```
