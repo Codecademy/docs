@@ -49,5 +49,5 @@ The code above generates the following output:
 tensor([1., 1., 1.])
 
 tensor([[1., 1., 1., 1., 1.],
- [1., 1., 1., 1., 1.]])
+      [1., 1., 1., 1., 1.]])
 ```
