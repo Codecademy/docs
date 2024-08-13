@@ -62,4 +62,3 @@ Apple
 Banana
 Cherry
 ```
-
