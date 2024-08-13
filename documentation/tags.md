@@ -59,6 +59,7 @@ Classes
 Cloud Computing
 Code Editors
 Conditionals
+Collations
 Collections
 Colors
 Combinators
@@ -137,6 +138,7 @@ Flask
 Flexbox
 Flutter
 Fonts
+Footnotes
 For
 ForEach
 Foreign Key
@@ -310,6 +312,7 @@ Strings
 Structure
 Style
 Subqueries
+Supervised Learning
 SwiftUI
 SwiftUI Views
 SwiftUI ViewModifiers
@@ -323,6 +326,7 @@ Technical Interviews
 Templates
 TensorFlow
 Text-To-Image
+Text Processing
 Threads
 Tidyr
 Time
@@ -343,6 +347,7 @@ Union
 Unicode
 Units
 Unix
+Unsupervised Learning
 URL
 UX
 Validation
