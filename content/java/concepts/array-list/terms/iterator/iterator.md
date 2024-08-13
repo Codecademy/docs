@@ -55,7 +55,7 @@ public class Main {
 }
 ```
 
-The previous example will print the following in the console:
+The above example will print the following in the console:
 
 ```shell
 Apple
