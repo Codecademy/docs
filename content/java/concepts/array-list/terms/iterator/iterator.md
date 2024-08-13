@@ -35,23 +35,23 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class Main {
-    public static void main(String[] args) {
-        // Create an ArrayList of String
-        ArrayList<String> list = new ArrayList<>();
-        // Add items to the ArrayList
-        list.add("Apple");
-        list.add("Banana");
-        list.add("Cherry");
-
-        // Get an iterator for the list
-        Iterator<String> iterator = list.iterator();
-
-        // Use the iterator to traverse the list
-        while (iterator.hasNext()) {
-            String element = iterator.next();
-            System.out.println(element);
-        }
+  public static void main(String[] args) {
+    // Create an ArrayList of strings
+    ArrayList<String> list = new ArrayList<>();
+    // Add items to the ArrayList
+    list.add("Apple");
+    list.add("Banana");
+    list.add("Cherry");
+  
+    // Get an iterator for the list
+    Iterator<String> iterator = list.iterator();
+  
+    // Use the iterator to traverse the list
+    while (iterator.hasNext()) {
+        String element = iterator.next();
+        System.out.println(element);
     }
+  }
 }
 ```
 
