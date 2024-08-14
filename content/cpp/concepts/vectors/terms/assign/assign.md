@@ -5,9 +5,10 @@ Subjects:
   - 'Computer Science'
   - 'Code Foundations'
 Tags:
+  - 'Data Structures'
+  - 'Functions'
   - 'Vectors'
   - 'Methods'
-  - 'Data Structures'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
@@ -15,7 +16,7 @@ CatalogContent:
 
 In C++, the **`.assign()`** method is used with [`vectors`](https://www.codecademy.com/resources/docs/cpp/vectors) to replace existing elements or add new values. This method can either fill the vector with a specified number of copies of a value or replace the vector's contents with elements from a range, modifying its size if necessary.
 
-> **Note:** To use vectors, it is necessary to `#include` the `vector` library.
+> **Note:** To use vectors, including the `vector` library is necessary.
 
 ## Syntax
 
@@ -32,7 +33,7 @@ vector.assign(first, last);
 
 ## Example
 
-In the following example, the `.assign()` method is used to replace the elements of a vector with a range of elements from another container:
+In the following example, the `.assign()` method demonstrates two different ways of using it: the first, to fill the vector with a specified number of copies of a value, and the second, to replace the vector's elements with values from a specific range.
 
 ```cpp
 #include <iostream>
@@ -40,26 +41,27 @@ In the following example, the `.assign()` method is used to replace the elements
 using namespace std;
 
 int main() {
-    vector<int> numbers{1, 2, 3};
-    vector<int> newNumbers{4, 5, 6, 7};
+  vector<int> numbers{1, 2, 3};
+  vector<int> newNumbers{4, 5, 6, 7};
 
-    // Replacing current elements with 4 copies of the value 8
-    numbers.assign(4, 8);
-    cout << "After assigning 4 copies of 8: ";
-    for (int num : numbers) {
-        cout << num << " ";
-    }
-    cout << endl;
+  // Replacing current elements with 4 copies of the value 8
+  numbers.assign(4, 8);
+  cout << "After assigning 4 copies of 8: ";
+  for (int num : numbers) {
+      cout << num << " ";
+  }
 
-    // Replacing current elements with elements from newNumbers
-    numbers.assign(newNumbers.begin(), newNumbers.end());
-    cout << "After assigning elements from newNumbers: ";
-    for (int num : numbers) {
-        cout << num << " ";
-    }
-    cout << endl;
+  cout << endl;
 
-    return 0;
+  // Replacing current elements with elements from newNumbers
+  numbers.assign(newNumbers.begin(), newNumbers.end());
+  cout << "After assigning elements from newNumbers: ";
+  for (int num : numbers) {
+      cout << num << " ";
+  }
+  cout << endl;
+
+  return 0;
 }
 ```
 
