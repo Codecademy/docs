@@ -1,0 +1,51 @@
+---
+Title: 'math.copysign()'
+Description: 'Takes two numeric data types and returns the value of the first data type with the sign of the second data type.'
+Subjects:
+  - 'Computer Science'
+  - 'Data Science'
+Tags:
+  - 'Functions'
+  - 'Arithmetic'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/computer-science'
+---
+
+Takes two numeric data types and returns the value of the first data type with the sign of the second data type.
+
+## Syntax
+
+```pseudo
+math.copysign(x, y)
+```
+
+The value that is returned by **`math.copysign()`** will have the value of `x` and the sign (+ or -) of `y`. This value will be a float.
+
+## Example
+
+Use `math.copysign()` to return `10` with the same sign as `-5`:
+
+```py
+import math
+
+print(math.copysign(10, -5))
+```
+
+The above code gives the following output:
+
+```shell
+-10.0
+```
+
+## Codebyte Example
+
+Run the following example that uses the `math.copysign()` function to understand its working:
+
+```codebyte/python
+import math
+
+print(math.copysign(-40, 5.5))
+
+print(math.copysign(7, -7))
+```
