@@ -56,8 +56,8 @@ Anything that is inside the anchor tag will be treated as a link. In this case, 
 <!-- Creating an image link -->
 
 <a href="http://www.codecademy.com">
-  <img src="logo.jpg" alt="Codecademy Logo"
-/></a>
+  <img src="logo.jpg" alt="Codecademy Logo" />
+</a>
 ```
 
 The output of the example code above will look like this:
