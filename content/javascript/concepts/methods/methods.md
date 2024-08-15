@@ -1,6 +1,6 @@
 ---
 Title: 'Methods'
-Description: 'In JavaScript methods are object properties containing a function definition. Within the function definition, this can be used to refer to the containing object as long as the function is defined within the object. Note: If a function is assigned to a property later, any reference to this will reflect the context of the new function. Also, if the objects function is assigned to a variable and executed via the variable, this will reflect the variables execution context. A method of an object is called via the following syntax: js objectName.methodName();  If a method is called without parenthesis, it is being called as a property, which means it will return the function definition, not execute the method.'
+Description: 'In JavaScript, methods are object properties containing a function definition. Within the function definition, this can be used to refer to the containing object as long as the function is defined within the object. Note: If a function is assigned to a property later, any reference to this will reflect the context of the new function. Also, if the objects function is assigned to a variable and executed via the variable, this will reflect the variable's execution context. A method of an object is called via the following syntax: js objectName.methodName();  If a method is called without parenthesis, it is being called as a property, which means it will return the function definition, not execute the method.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/create-a-back-end-app-with-javascript'
 ---
 
-In JavaScript methods are object properties containing a function definition. Within the function definition, `this` can be used to refer to the containing object as long as the function is defined within the object.
+In JavaScript, methods are object properties containing a function definition. Within the function definition, `this` can be used to refer to the containing object as long as the function is defined within the object.
 
 **Note:** If a function is assigned to a property later, any reference to `this` will reflect the context of the new function. Also, if the object's function is assigned to a variable and executed via the variable, `this` will reflect the variable's execution context.
 
@@ -30,6 +30,8 @@ If a method is called without parenthesis, it is being called as a property, whi
 
 ## Example
 
+The following code snippet demonstrates how object methods work and how the context of `this` can affect the behavior of those methods when called in different ways:
+
 ```javascript
 const car = {
   make: 'Honda',
@@ -41,7 +43,6 @@ const car = {
 };
 
 car.printOut();
-// Output: 2019 Honda Civic
 
 // Referenced as a property
 var method = car.printOut;
@@ -49,17 +50,25 @@ var method = car.printOut;
 car.year = 2020;
 
 method();
-// Output: undefined undefined undefined;
 // 'this' is being referenced outside an object context
 // can be fixed by explicitly setting the object context with 'bind()'
 
 method = car.printOut.bind(car);
 
 method();
-// Output: 2020 Honda Civic
+```
+
+The above example returns the following output:
+
+```shell
+2019 Honda Civic
+undefined undefined undefined
+2020 Honda Civic
 ```
 
 ## Codebyte Example
+
+The following code snippet illustrates how the context of `this` affects the behavior of methods within an object, and how it can be controlled using `bind()`:
 
 ```codebyte/javascript
 const person = {
@@ -71,17 +80,12 @@ const person = {
 };
 
 console.log(person.fullName());
-// Output: John Doe
 
-// Assigning method to a variable
 const getFullName = person.fullName;
 
 console.log(getFullName());
-// Output: undefined undefined
 
-// Using bind to set context
 const getBoundFullName = person.fullName.bind(person);
 
 console.log(getBoundFullName());
-// Output: John Doe
 ```
