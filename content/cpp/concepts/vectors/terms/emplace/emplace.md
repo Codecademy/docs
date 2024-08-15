@@ -5,27 +5,30 @@ Subjects:
     - 'Computer Science'
     - 'Programming'
 Tags:
-    - 'C++'
+    - 'Data Types'
+    - 'Functions'
     - 'Vectors'
     - 'Methods'
 CatalogContent:
-    - 'learn-cpp'
+    - 'learn-c-plus-plus'
     - 'paths/computer-science'
 ---
 
-# .emplace()
-
 ## Introduction
+
 The `.emplace()` function is a member of the `std::vector` class in C++. It allows for the direct construction of an element within the vector at a specified position. Introduced in C++11, `.emplace()` enhances performance by avoiding unnecessary copying of elements.
 
 ## Syntax
+
 ```cpp
 vector.emplace(position, args...);
 ```
-- **`position`**: An iterator to the position where the new element will be inserted.
-- **`args...`**: The arguments to be forwarded to the constructor of the element being emplaced.
+
+- `position`: An iterator to the position where the new element will be inserted.
+- `element `: Elements to be inserted in the vector container.
 
 ## Example
+
 ```cpp
 #include <iostream>
 #include <vector>
@@ -46,4 +49,9 @@ int main() {
     return 0;
 }
 ```
-In this example, an object of `MyClass` is directly constructed at the beginning of the vector using `.emplace()`, with arguments `10` and `20`. This method is more efficient than `.push_back()` because it constructs the object in place, avoiding the overhead of creating a temporary object.
+
+```shell
+MyClass constructed with x=10 and y=20
+```
+
+In this example, an object of `MyClass` is directly constructed at the beginning of the vector using `.emplace()`, with the arguments `10` and `20`. This method is more efficient than `.push_back()` because it constructs the object in place, avoiding the overhead of creating a temporary object.
