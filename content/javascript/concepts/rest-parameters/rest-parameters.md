@@ -92,11 +92,11 @@ function getUsers(...param) {
 }
 
 console.log(getUsers(
-  tr.successUpdate, 
-  tr.successInsert, 
-  tr.error, 
-  tr.errorNotFound, 
-  tr.errorNotAvaliable, 
+  tr.successUpdate,
+  tr.successInsert,
+  tr.error,
+  tr.errorNotFound,
+  tr.errorNotAvaliable,
   tr.errorAction
   ))
 
