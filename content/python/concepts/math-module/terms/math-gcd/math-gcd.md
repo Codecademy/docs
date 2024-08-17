@@ -1,13 +1,13 @@
 ---
 Title: 'math.gcd()' 
-Description: 'Calculates the Greatest Common Divisor (GCD) of two integers.' 
+Description: 'Returns the Greatest Common Divisor (GCD) of two integers.' 
 Subjects: 
   - 'Computer Science'
   - 'Data Science'
   - 'Discrete Math'
 Tags:
-  - 'Functions'
   - 'Algorithms'
+  - 'Functions'
   - 'Integers'
 CatalogContent: 
   - 'learn-python-3'
