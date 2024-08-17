@@ -21,14 +21,14 @@ The **`math.radians()`** function takes an angle measured in degrees and returns
 math.radians(x)
 ```
 
-`math.radians()` takes in a numeric value or expression `x`, which represents an angle measured in degrees, and returns a floating point value representing the radian equivalent to `x`.
+The `math.radians()` function takes a numeric value or expression `x`, representing an angle measured in degrees, and returns a floating-point value representing the radian equivalent of `x`.
 
 !["45 degree rotations expressed in radian measure" by Adrignola is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/deed.en?ref=openverse.](https://raw.githubusercontent.com/Codecademy/docs/main/media/radian-measure-45-degree-rotations-256.png)
 _Some common degree-radian equivalencies._
 
 ## Example 1
 
-In the example below, `math.radians()` returns the radian equivalent of *180* degrees:
+In the example below, `math.radians()` returns the radian equivalent of _180_ degrees:
 
 ```py
 import math
@@ -44,12 +44,12 @@ The above code gives the following output:
 
 ## Example 2
 
-In the example below, `math.radians()` returns the radian equivalent of *57.29577951308232* degrees:
+In the example below, `math.radians()` returns the radian equivalent of _57.29577951308232_ degrees:
 
 ```py
 import math
 
-print(math.degrees(57.29577951308232))
+print(math.radians(57.29577951308232))
 ```
 
 The above code gives the following output:
