@@ -44,7 +44,7 @@ The above code gives the following output:
 
 ## Example 2
 
-Use `math.degrees()` to return the radian equivalent to 57.29577951308232 degrees:
+In the example below, `math.radians()` returns the radian equivalent of *57.29577951308232* degrees:
 
 ```py
 import math
