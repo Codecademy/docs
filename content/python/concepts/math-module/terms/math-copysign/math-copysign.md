@@ -20,7 +20,6 @@ The `math.copysign()` function in Python takes two numeric values and returns a 
 math.copysign(x, y)
 ```
 
-The value that is returned by **`math.copysign()`** will have the value of `x` and the sign (+ or -) of `y`. This value will be a float.
 
 ## Example
 
