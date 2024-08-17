@@ -26,7 +26,7 @@ math.radians(x)
 !["45 degree rotations expressed in radian measure" by Adrignola is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/deed.en?ref=openverse.](https://raw.githubusercontent.com/Codecademy/docs/main/media/radian-measure-45-degree-rotations-256.png)
 _Some common degree-radian equivalencies._
 
-## Example
+## Example 1
 
 Use `math.radians()` to return the radian equivalent to 180 degrees:
 
