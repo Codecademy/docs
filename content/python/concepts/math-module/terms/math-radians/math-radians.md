@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **math.radians()** function takes in an angle measured in degrees and returns its radian equivalent.
+The **`math.radians()`** function takes an angle measured in degrees and returns its radian equivalent.
 
 ## Syntax
 
