@@ -17,7 +17,7 @@ The **`math.radians()`** function takes an angle measured in degrees and returns
 
 ## Syntax
 
-```shell
+```pseudo
 math.radians(x)
 ```
 
