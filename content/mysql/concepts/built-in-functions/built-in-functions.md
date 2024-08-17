@@ -33,9 +33,9 @@ CONCAT(string1, string2, ...)
 
 In the following example, how to use `CONCAT()` is shown:
 
-The table **greeting** below will **concatenate** the strings and will show the value **Hello world** as a Greeting.
+The table `greeting` below will concatenate the strings and show the value `Hello world` as a Greeting.
 
-```pseudo
+```mysql
 CREATE TABLE greetings (
 id INT AUTO_INCREMENT PRIMARY KEY,
     string1 VARCHAR(50),
@@ -62,9 +62,9 @@ LENGTH(string)
 
 In the following example, how to use `LENGTH()` is shown:
 
-The table **words** below will count the number of characters on each string and return the **length** of the correspondent string.
+The table `words` below will count the number of characters on each string and return the `length` of the corresponding string.
 
-```pseudo
+```mysql
 CREATE TABLE words (
     id INT AUTO_INCREMENT PRIMARY KEY,
     word VARCHAR(50)
@@ -96,9 +96,9 @@ UPPER(string)
 
 In the following example, how to use `UPPER()` is shown:
 
-The table **uppercases** will take the values ('Nelson', 'Joao', and 'Ana') and convert each lower-case character of the string into an upper-case character.
+The table `uppercases` will take the values ('Nelson', 'Joao', and 'Ana') and convert each lower-case character of the string into an upper-case character.
 
-```pseudo
+```mysql
 CREATE TABLE uppercases (
     id INT AUTO_INCREMENT PRIMARY KEY,
     lowercases VARCHAR(50)
@@ -134,7 +134,7 @@ ABS(value)
 
 In the following example, how to use `ABS()` is shown:
 
-```pseudo
+```mysql
 CREATE TABLE digits (
     id INT AUTO_INCREMENT PRIMARY KEY,
     digit INT
@@ -164,21 +164,21 @@ The example results in the output below:
 CEIL(value)
 ```
 
-In the following example, there are two columns (one of them is an auto_increment) that correspond to three queues. The table **digits1** below will take the numbers and return the closest integer value that is greater than or equal to each.
+In the following example, there are two columns (one of them is an auto_increment) that correspond to three queues. The table `digits1` below will take the numbers and return the closest integer value greater than or equal to each.
 
-```pseudo
-CREATE TABLE digits1 (
+```mysql
+CREATE TABLE digits (
     id INT AUTO_INCREMENT PRIMARY KEY,
     digit1 FLOAT
 );
 
 
-INSERT INTO digits1 (digit1) VALUES
+INSERT INTO digits (digit) VALUES
 (21.6),
 (10.3),
 (15.9);
 
-SELECT digit1, CEIL(digit1) AS CeilingValue FROM digits1;
+SELECT digit, CEIL(digit) AS CeilingValue FROM digits;
 ```
 
 The example results in the output below:
@@ -197,20 +197,20 @@ The example results in the output below:
 ROUND(number, decimals)
 ```
 
-In the following example, there are two columns (one of them is an auto_increment) that correspond to three queues. The table **digits2** will take the numbers and round them to the number of decimal places inserted into the second `ROUND()` argument. In this case, the numbers are rounded to two decimal places.
+In the following example, there are two columns (one of them is an auto_increment) that correspond to three queues. The table `digits2` will take the numbers and round them to the number of decimal places inserted into the second `ROUND()` argument. In this case, the numbers are rounded to two decimal places.
 
-```pseudo
-CREATE TABLE digits2 (
+```mysql
+CREATE TABLE digits (
     id INT AUTO_INCREMENT PRIMARY KEY,
     digit2 FLOAT
 );
 
-INSERT INTO digits2 (digit2) VALUES
+INSERT INTO digits (digit) VALUES
 (3.1437896),
 (2.71828),
 (1.234567);
 
-SELECT digit2, ROUND(digit2, 2) AS RoundedValue FROM digits2;
+SELECT digit, ROUND(digit, 2) AS RoundedValue FROM digits;
 ```
 
 The example results in the output below:
@@ -235,16 +235,16 @@ NOW()
 
 ### Example
 
-In the following example, there are three columns (one of them is an auto_increment) that correspond to one queue. The table **events1** below takes the name of the event as **event_name** as well as the time of the event as **event_time**, and returns the current date and time which usually are different from the time of the event. For the sake of this example, both are the same.
+In the following example, there are three columns (one of them is an auto_increment) that correspond to one queue. The table `events1` below takes the name of the event as `event_name` as well as the time of the event as `event_time`, and returns the current date and time which usually are different from the time of the event. For the sake of this example, both are the same.
 
-```pseudo
-CREATE TABLE events1 (
+```mysql
+CREATE TABLE events (
     id INT AUTO_INCREMENT PRIMARY KEY,
     event_name VARCHAR(50),
     event_time DATETIME
 );
 
-INSERT INTO events1 (event_name, event_time) VALUES
+INSERT INTO events (event_name, event_time) VALUES
 ('Sample Event', now());
 
 SELECT event_name, event_time, now() AS CurrentDateTime FROM events;
@@ -264,15 +264,15 @@ The example results in the output below (at the time it was consulted):
 DATE_ADD(date, INTERVAL value unit)
 ```
 
-In the following example, there are two columns (one of them is an auto_increment) that correspond to one queue. The table **events2** below will take the value (to count the number of unit) and the unit (DAY in this case, but can also be MONTH, or YEAR) to calculate the **INTERVAL** between the event_date and NextWeek. The result are seven days in this case.
+In the following example, there are two columns (one of them is an auto_increment) that correspond to one queue. The table `events2` below will take the value (to count the number of units) and the unit (DAY in this case, but can also be MONTH, or YEAR) to calculate the **INTERVAL** between the event_date and `NextWeek`. The result is seven days in this case.
 
-```pseudo
-CREATE TABLE events2 (
+```mysql
+CREATE TABLE events (
     id INT AUTO_INCREMENT PRIMARY KEY,
     event_date DATE
 );
 
-INSERT INTO events2 (event_date) VALUES
+INSERT INTO events (event_date) VALUES
 ('2024-06-21');
 
 SELECT event_date, DATE_ADD(event_date, INTERVAL 7 DAY) AS NextWeek FROM events;
@@ -292,10 +292,10 @@ The example results in the output below (at the time it was consulted):
 DATEDIFF(date1, date2)
 ```
 
-In the following example, there are two columns (one of them is an auto_increment) that correspond to one queue. The table **events3** below will take the value of **start_date** as well as the value of **end_date** as arguments in the `DATEDIFF()` and will return the number of days between the two dates.
+In the following example, there are two columns (one of them is an auto_increment) that correspond to one queue. The table `events3` below will take the value of `start_date` as well as the value of `end_date` as arguments in the `DATEDIFF()` and will return the number of days between the two dates.
 
-```pseudo
-CREATE TABLE events3 (
+```mysql
+CREATE TABLE events (
     id INT AUTO_INCREMENT PRIMARY KEY,
     start_date DATE,
     end_date DATE
@@ -325,9 +325,9 @@ Aggregate functions allow to perform calculations on a set of values and return 
 SUM(expression)
 ```
 
-In the following example, there are three columns (one of them is an auto_increment) that correspond to one queue. The table **payments** below will take the values of the **amount** column and _sum_ them up resulting in a total amount.
+In the following example, there are three columns (one of them is an auto_increment) that correspond to one queue. The table `payments` below will take the values of the `amount` column and sum them up resulting in a total amount.
 
-```pseudo
+```mysql
 CREATE TABLE payments (
     id INT AUTO_INCREMENT PRIMARY KEY,
     customer_name VARCHAR(50),
@@ -358,9 +358,9 @@ The example results in the following output:
 AVG(expression)
 ```
 
-In the following example, there are three columns (one of them is an auto_increment) that correspond to one queue. The table **exams** below will take the values from _score_ column and calculate the _average_ of those values.
+In the following example, there are three columns (one of them is an auto_increment) that correspond to one queue. The table `exams` below will take the values from the score column and calculate the average of those values.
 
-```pseudo
+```mysql
 CREATE TABLE exams (
     id INT AUTO_INCREMENT PRIMARY KEY,
     student_name VARCHAR(50),
@@ -391,9 +391,9 @@ The example results in the following output:
 COUNT(expression)
 ```
 
-In the following example, there are two columns (one of them is an auto_increment) that correspond to one queue. The table **users** below will count the number of row inserted and will return the total.
+In the following example, there are two columns (one of them is an auto_increment) that correspond to one queue. The table `users` below will count the number of rows inserted and will return the total.
 
-```pseudo
+```mysql
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(50)
@@ -427,23 +427,23 @@ Control Flow functions return different values based on different conditions.
 IF(condition, true_value, false_value)
 ```
 
-In the following example, there are three columns (one of them is an auto_increment) that correspond to five queues. The table **exams2** below will take the values from _student_name_ and from _score_ and make a comparison. IF the students' score is higher than 60, the corresponding students pass, otherwise they fail.
+In the following example, there are three columns (one of them is an auto_increment) that correspond to five queues. The table `exams` below will take the values from `student_name` and from the `score` and make a comparison. If the student's score is higher than 60, the corresponding students pass, otherwise they fail.
 
-```pseudo
-CREATE TABLE exams2 (
+```mysql
+CREATE TABLE exams (
     id INT AUTO_INCREMENT PRIMARY KEY,
     student_name VARCHAR(50),
     score INT
 );
 
-INSERT INTO exams2 (student_name, score) VALUES
+INSERT INTO exams (student_name, score) VALUES
 ('Nelson', 85),
 ('Ana', 58),
 ('Joao', 92),
 ('Lidia', 45),
 ('Afonso', 74);
 
-SELECT student_name, score, IF(score > 60, 'Pass', 'Fail') AS Result FROM exams2;
+SELECT student_name, score, IF(score > 60, 'Pass', 'Fail') AS Result FROM exams;
 ```
 
 The example results in the following output:
@@ -458,7 +458,7 @@ The example results in the following output:
 
 ### CASE Expression
 
-CASE is a statement that goes through conditions and returns a value when the first condition is met and closes with a END clause.
+CASE is a statement that goes through conditions and returns a value when the first condition is met and closes with an END clause.
 Once a condition is true, it will stop reading and return the result.
 If no conditions are true, it returns the value in the ELSE clause.
 If there is no ELSE part and no conditions are true, it returns NULL.
@@ -472,20 +472,20 @@ CASE
 END
 ```
 
-In the following example, there are three columns (one of them is an auto_increment) that correspond to five queues. The table **exams3** below will take the values from _student_name_ and from _score_ and make a comparison.
+In the following example, there are three columns (one of them is an auto*increment) that correspond to five queues. The table **exams3** below will take the values from \_student_name* and from _score_ and make a comparison.
 **When** the score is higher or equal than 90, **then** the Grade is A.
 **When** the score is higher or equal than 80, **then** the Grade is B.
 **When** the score is higher or equal than 70, **then** the Grade is C.
 Otherwise, the grade is F.
 
-```pseudo
-CREATE TABLE exams3 (
+```mysql
+CREATE TABLE exams (
     id INT AUTO_INCREMENT PRIMARY KEY,
     student_name VARCHAR(50),
     score INT
 );
 
-INSERT INTO exams3 (student_name, score) VALUES
+INSERT INTO exams (student_name, score) VALUES
 ('Nelson', 85),
 ('Ana', 78),
 ('Joao', 92),
@@ -499,7 +499,7 @@ SELECT student_name, score,
            WHEN score >= 70 THEN 'C'
            ELSE 'F'
        END AS Grade
-FROM exams3;
+FROM exams;
 ```
 
 The example results in the following output:
@@ -526,9 +526,9 @@ More about JSON can be learned [here](https://www.json.org/json-en.html)
 JSON_EXTRACT(json_doc, path)
 ```
 
-In the following example, there are two columns (one of them is an auto_increment) that correspond to two queues. The following table **people** will return the _name_ extracted from the **person_info** and solicited in the second argument of `JSON_EXTRACT()`.
+In the following example, there are two columns (one of them is an auto_increment) that correspond to two queues. In the following table `people` will return the name extracted from the `person_info` and solicited in the second argument of `JSON_EXTRACT()`.
 
-```pseudo
+```mysql
 CREATE TABLE people (
     id INT AUTO_INCREMENT PRIMARY KEY,
     person_info JSON
@@ -556,9 +556,9 @@ As a result, the query will return the names stored in the JSON documents in the
 JSON_ARRAY(value1, value2, ...)
 ```
 
-In the following example, there are five columns (one of them is an auto_increment) that correspond to one queue. The table **example_data** below will take these different data type values from the columns and compress them in a list of values as JSONArray.
+In the following example, there are five columns (one of them is an auto_increment) that correspond to one queue. The table `example_data` below will take these different data type values from the columns and compress them into a list of values as JSON Array.
 
-```pseudo
+```mysql
 CREATE TABLE example_data (
     id INT AUTO_INCREMENT PRIMARY KEY,
     value1 INT,
@@ -591,9 +591,9 @@ These functions provide encryption and compression utilities.
 AES_ENCRYPT(str, key_str)
 ```
 
-In the following example, there are 3 columns (one of them is an auto_increment) that correspond to one queue. The table **secrets** below will take the value _SecretText_ from **plain_text** and will represent it in a binary code of [hexadecimal encrypted message](https://www.codecademy.com/resources/docs/general/hexadecimal).
+In the following example, there are 3 columns (one of them is an auto_increment) that correspond to one queue. The table `secrets` below will take the value SecretText from `plain_text` and will represent it in a binary code of [hexadecimal encrypted message](https://www.codecademy.com/resources/docs/general/hexadecimal).
 
-```pseudo
+```mysql
 CREATE TABLE secrets (
     id INT AUTO_INCREMENT PRIMARY KEY,
     plain_text VARCHAR(50),
@@ -612,7 +612,7 @@ The example results in the following output:
 | ---------- | ------------------------------- |
 | SecretText | (encrypted text representation) |
 
-> **Note** When dealing with encrypted data, we usually store the result in a 'VARBINARY' column because the encrypted data is binary. For display purposes, we might convert it to a readable format.
+> **Note:** When dealing with encrypted data, we usually store the result in a 'VARBINARY' column because the encrypted data is binary. For display purposes, we might convert it to a readable format.
 
 ### Example
 
@@ -628,10 +628,10 @@ The example results in the following output:
 MD5(string)
 ```
 
-In the following example, there are 3 columns (one of them is an auto_increment) that correspond to two queues. The table **users2** below will take the values from username and from password and then `MD5(string)` will convert the password's value into a **message-digest algorithm** as HashValue.
+In the following example, there are 3 columns (one of them is an auto_increment) that correspond to two queues. The table `users2` below will take the values from username and password and then `MD5(string)` will convert the password's value into a binary string of 32 hexadecimal digits.
 
-```pseudo
-CREATE TABLE users2 (
+```mysql
+CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(50),
     password VARCHAR(50)
@@ -641,7 +641,7 @@ INSERT INTO users (username, password) VALUES
 ('user1', 'password1'),
 ('user2', 'password2');
 
-SELECT username, password, MD5(password) AS HashValue FROM users2;
+SELECT username, password, MD5(password) AS HashValue FROM users;
 ```
 
 The output will be a 32-character hexadecimal string:
@@ -651,22 +651,22 @@ The output will be a 32-character hexadecimal string:
 | user1    | password1 | 7c6a180b36896a0a8c02787eeafb0e4c |
 | user2    | password2 | 6cb75f652a9b52798eb6cf2201057c73 |
 
-> **Note** The HashValues are the 32-character hexadecimal string, which represents the MD5 hash of the input string. The hashed password can also be stored in the database instead of the plain text revealing the password.
+> **Note:** The HashValues are the 32-character hexadecimal string, which represents the MD5 hash of the input string. The hashed password can also be stored in the database instead of the plain text revealing the password.
 
 Here is how it is possible to modify the table and insertion process to store hashed passwords:
 
-```pseudo
-CREATE TABLE users3 (
+```mysql
+CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(50),
     hashed_password CHAR(40)
 );
 
-INSERT INTO users3 (username, hashed_password) VALUES
+INSERT INTO users (username, hashed_password) VALUES
 ('user1', MD5('password1')),
 ('user2', MD5('password2'));
 
-SELECT username, hashed_password FROM users3;
+SELECT username, hashed_password FROM users;
 ```
 
 The output would be:
