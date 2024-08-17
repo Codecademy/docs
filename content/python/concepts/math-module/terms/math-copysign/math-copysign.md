@@ -25,7 +25,7 @@ math.copysign(x, y)
 
 ## Example
 
-In the example below, `math.copysign()` is used to return `10` with the same sign as `-5`:
+In the example below, `math.copysign()` is used to return *10* with the same sign as *-5*:
 
 ```py
 import math
