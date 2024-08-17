@@ -41,7 +41,7 @@ The above code gives the following output:
 
 ## Codebyte Example
 
-Run the following example that uses the `math.copysign()` function to understand its working:
+Run the following example that uses the `math.copysign()` function to understand how it works:
 
 ```codebyte/python
 import math
