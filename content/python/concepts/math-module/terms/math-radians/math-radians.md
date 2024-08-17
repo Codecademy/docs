@@ -1,12 +1,12 @@
 ---
 Title: 'math.radians()'
-Description: 'Returns the radian equivalent of an input angle given in degress.'
+Description: 'Returns the radian equivalent of an input angle given in degrees.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Functions'
   - 'Arithmetic'
+  - 'Functions'
   - 'Geometry'
 CatalogContent:
   - 'learn-python-3'
