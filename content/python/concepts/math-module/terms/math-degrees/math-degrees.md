@@ -6,14 +6,14 @@ Subjects:
   - 'Data Science'
 Tags:
   - 'Arithmetic'
-  - 'Functions''
+  - 'Functions'
   - 'Geometry'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-The **`math.degrees()`** function takes in an angle measured in radians and returns its degree equivalent.
+The **`math.degrees()`** function takes an angle measured in radians and returns its degree equivalent.
 
 ## Syntax
 
@@ -21,9 +21,9 @@ The **`math.degrees()`** function takes in an angle measured in radians and retu
 math.degrees(x)
 ```
 
-The `math.degrees()` fucntion takes in a numeric value or expression `x`, representing an angle measured in radians, and returns a floating-point value representing the degree equivalent of `x`.
+The `math.degrees()` function accepts a numeric value or expression `x`, representing an angle in radians and returns the equivalent angle in degrees as a floating-point value. If the input is not a number, the function will raise a `TypeError`.
 
-!["45 degree rotations expressed in radian measure" by Adrignola is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/deed.en?ref=openverse.](https://raw.githubusercontent.com/Codecademy/docs/main/media/radian-measure-45-degree-rotations-256.png)
+!["45 degree rotations expressed in radian measure" by Adrignola](https://raw.githubusercontent.com/Codecademy/docs/main/media/radian-measure-45-degree-rotations-256.png)
 _Some common degree-radian equivalencies._
 
 ## Example 1
@@ -61,7 +61,7 @@ The above code gives the following output:
 
 ## Codebyte Example
 
-Run the following example using the `math.degrees()` function to understand its working:
+Run the following codebyte having the `math.degrees()` function to understand its working:
 
 ```codebyte/python
 import math
