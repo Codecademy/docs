@@ -28,7 +28,7 @@ _Some common degree-radian equivalencies._
 
 ## Example 1
 
-Use `math.radians()` to return the radian equivalent to 180 degrees:
+In the example below, `math.radians()` returns the radian equivalent of *180* degrees:
 
 ```py
 import math
