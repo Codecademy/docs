@@ -42,7 +42,7 @@ The above code gives the following output:
 3.141592653589793
 ```
 
-<br>
+## Example 2
 
 Use `math.degrees()` to return the radian equivalent to 57.29577951308232 degrees:
 
