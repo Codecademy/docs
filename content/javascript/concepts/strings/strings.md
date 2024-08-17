@@ -48,7 +48,7 @@ console.log(`Tommy is ${age} years old.`);
 
 ## Escaping Characters
 
-On occasion it may be necessary to include characters in a string that may have reserved meanings or to apply additional formatting. Characters, such as quotes, can be included by prepending a `\`. There are a number of predefined escape sequences such as `\n` or `\t` to add formatting such as a line break or tab respectively.
+On occasion, it may be necessary to include characters in a string that may have reserved meanings or to apply additional formatting. Characters, such as quotes, can be included by prepending a `\`. There are a number of predefined escape sequences such as `\n` or `\t` to add formatting such as a line break or tab respectively:
 
 ```js
 // Line break
@@ -58,13 +58,13 @@ console.log('Hello\nWorld');
 // World
 
 // Including quotes
-console.log("\"Wayne's World\"");
+console.log('"Wayne\'s World"');
 // Output: "Wayne's World"
 ```
 
 ## Codebyte Example
 
-Run the following code to understand how the above three topics work:
+The following codebyte example demonstrates how the above concepts work:
 
 ```codebyte/javascript
 let year = '2024';
@@ -74,7 +74,7 @@ console.log(displayText);
 
 let Mary = 'Mary';
 let Joe = 'Joe';
-console.log(`${Mary} has the bananas, and ${Joe} has the apples.`);
+console.log(`${Mary} has the bananas and ${Joe} has the apples.`);
 
 console.log('Hello\tWorld');
 ```
