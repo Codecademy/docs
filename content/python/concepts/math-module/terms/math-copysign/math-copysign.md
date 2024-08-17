@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Takes two numeric data types and returns the value of the first data type with the sign of the second data type.
+The `math.copysign()` function in Python takes two numeric values and returns a float with the magnitude of the first value and the sign of the second value.
 
 ## Syntax
 
