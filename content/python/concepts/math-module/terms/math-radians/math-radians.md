@@ -23,7 +23,7 @@ math.radians(x)
 
 The `math.radians()` function takes a numeric value or expression `x`, representing an angle measured in degrees, and returns a floating-point value representing the radian equivalent of `x`.
 
-!["45 degree rotations expressed in radian measure" by Adrignola is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/deed.en?ref=openverse.](https://raw.githubusercontent.com/Codecademy/docs/main/media/radian-measure-45-degree-rotations-256.png)
+!["45 degree rotations expressed in radian measure" by Adrignola](https://raw.githubusercontent.com/Codecademy/docs/main/media/radian-measure-45-degree-rotations-256.png)
 _Some common degree-radian equivalencies._
 
 ## Example 1
@@ -60,7 +60,7 @@ The above code gives the following output:
 
 ## Codebyte Example
 
-Run the following example using the `math.radians()` function to understand its working:
+Run the following codebyte having the `math.radians()` function to understand its working:
 
 ```codebyte/python
 import math
