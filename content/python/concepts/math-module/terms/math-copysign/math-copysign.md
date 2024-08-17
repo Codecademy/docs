@@ -1,12 +1,12 @@
 ---
 Title: 'math.copysign()'
-Description: 'Takes two numeric data types and returns the value of the first data type with the sign of the second data type.'
+Description: 'Returns a float with the magnitude (absolute value) of the first value and the sign of the second value.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Functions'
   - 'Arithmetic'
+  - 'Functions'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
