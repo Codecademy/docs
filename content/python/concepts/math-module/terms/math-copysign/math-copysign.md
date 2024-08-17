@@ -1,18 +1,20 @@
 ---
 Title: 'math.copysign()'
-Description: 'Returns a float with the magnitude (absolute value) of the first value and the sign of the second value.'
+Description: 'Takes two numeric values and returns a float with the magnitude (absolute value) of the first value and the sign of the second value.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
   - 'Arithmetic'
   - 'Functions'
+  - 'Values'
+  - 'Elements'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-The `math.copysign()` function in Python takes two numeric values and returns a float with the magnitude of the first value and the sign of the second value.
+The **`math.copysign()`** [function](https://www.codecademy.com/resources/docs/python/functions) in Python takes two numeric values and returns a `float` with the magnitude (absolute value) of the first value and the sign of the second value.
 
 ## Syntax
 
@@ -20,12 +22,12 @@ The `math.copysign()` function in Python takes two numeric values and returns a 
 math.copysign(x, y)
 ```
 
-- `x`: A numeric value (int or float) whose magnitude is used in the result.
-- `y`: A numeric value (int or float) whose sign is used in the result.
+- `x`: A numeric value (`int` or `float`) whose magnitude is used in the result.
+- `y`: A numeric value (`int` or `float`) whose sign is used in the result.
 
 ## Example
 
-In the example below, `math.copysign()` is used to return *10* with the same sign as *-5*:
+In the example below, the `math.copysign()` function is used to return `10` with the same sign as `-5`:
 
 ```py
 import math
@@ -41,7 +43,7 @@ The above code gives the following output:
 
 ## Codebyte Example
 
-Run the following example that uses the `math.copysign()` function to understand how it works:
+The following codebyte example demonstrates how the `math.copysign()` function works:
 
 ```codebyte/python
 import math
