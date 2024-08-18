@@ -1,6 +1,6 @@
 ---
 Title: .getrandbits()' 
-Description: 'Returns an integer with a specified number of bits.' 
+Description: 'Returns a pseudo-random integer with a specified number of bits.' 
 Subjects: 
   - 'Computer Science'
   - 'Data Science'
@@ -19,10 +19,10 @@ In the Python `random` module, the `.getrandbits()` method is used to create a p
 ## Syntax
 
 ```pseudo
-random.getrandbits(value)
+random.getrandbits(k)
 ```
 
-Where `value` is the size of the number in bits. The `value` must be a non-negative number.
+Where `k` is the size of the number in bits. The `k` must be a non-negative number. The result will range from 0 —2<sup>k</sup> - 1.
 
 ## Example
 
