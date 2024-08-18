@@ -1,6 +1,6 @@
 ---
 Title: .getrandbits()' 
-Description: 'Returns an integer with a specified number random of bits.' 
+Description: 'Returns an integer with a specified number of bits.' 
 Subjects: 
   - 'Computer Science'
   - 'Data Science'
