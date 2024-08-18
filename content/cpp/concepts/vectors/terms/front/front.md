@@ -22,6 +22,7 @@ The **`.front()`** method returns a reference to the first element in the vector
 ```pseudo
 vector.front();
 ```
+
 Before using vectors, you must first `#include` the `vector` library.
 
 ## Example
@@ -68,7 +69,7 @@ int main() {
 
   //Printing out the first element again
   std::cout << numbers.front() << std::endl;
-   
+
   return 0;
 }
 ```
