@@ -1,6 +1,6 @@
 ---
 Title: 'Field Selection'
-Description: 'Allow user to select specific columns or field from a database.'
+Description: 'Allow user to select specific columns or fields from a database.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
