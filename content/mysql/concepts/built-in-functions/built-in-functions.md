@@ -164,12 +164,12 @@ The example results in the output below:
 CEIL(value)
 ```
 
-In the following example, there are two columns (one of them is an auto_increment) that correspond to three queues. The table `digits1` below will take the numbers and return the closest integer value greater than or equal to each.
+In the following example, there are two columns (one of them is an auto_increment) that correspond to three queues. The table `digits` below will take the numbers and return the closest integer value greater than or equal to each.
 
 ```mysql
 CREATE TABLE digits (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    digit1 FLOAT
+    digit FLOAT
 );
 
 
@@ -183,11 +183,11 @@ SELECT digit, CEIL(digit) AS CeilingValue FROM digits;
 
 The example results in the output below:
 
-| digit1 | CeilingValue |
-| ------ | ------------ |
-| 21.6   | 22           |
-| 10.3   | 11           |
-| 15.9   | 16           |
+| digit | CeilingValue |
+| ----- | ------------ |
+| 21.6  | 22           |
+| 10.3  | 11           |
+| 15.9  | 16           |
 
 ### Round function
 
@@ -197,12 +197,12 @@ The example results in the output below:
 ROUND(number, decimals)
 ```
 
-In the following example, there are two columns (one of them is an auto_increment) that correspond to three queues. The table `digits2` will take the numbers and round them to the number of decimal places inserted into the second `ROUND()` argument. In this case, the numbers are rounded to two decimal places.
+In the following example, there are two columns (one of them is an auto_increment) that correspond to three queues. The table `digits` will take the numbers and round them to the number of decimal places inserted into the second `ROUND()` argument. In this case, the numbers are rounded to two decimal places.
 
 ```mysql
 CREATE TABLE digits (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    digit2 FLOAT
+    digit FLOAT
 );
 
 INSERT INTO digits (digit) VALUES
@@ -215,7 +215,7 @@ SELECT digit, ROUND(digit, 2) AS RoundedValue FROM digits;
 
 The example results in the output below:
 
-| digit2    | RoundedValue |
+| digit     | RoundedValue |
 | --------- | ------------ |
 | 3.1437896 | 3.14         |
 | 2.71828   | 2.72         |
@@ -235,7 +235,7 @@ NOW()
 
 ### Example
 
-In the following example, there are three columns (one of them is an auto_increment) that correspond to one queue. The table `events1` below takes the name of the event as `event_name` as well as the time of the event as `event_time`, and returns the current date and time which usually are different from the time of the event. For the sake of this example, both are the same.
+In the following example, there are three columns (one of them is an auto_increment) that correspond to one queue. The table `events` below takes the name of the event as `event_name` as well as the time of the event as `event_time`, and returns the current date and time which usually are different from the time of the event. For the sake of this example, both are the same.
 
 ```mysql
 CREATE TABLE events (
@@ -264,7 +264,7 @@ The example results in the output below (at the time it was consulted):
 DATE_ADD(date, INTERVAL value unit)
 ```
 
-In the following example, there are two columns (one of them is an auto_increment) that correspond to one queue. The table `events2` below will take the value (to count the number of units) and the unit (DAY in this case, but can also be MONTH, or YEAR) to calculate the **INTERVAL** between the event_date and `NextWeek`. The result is seven days in this case.
+In the following example, there are two columns (one of them is an auto_increment) that correspond to one queue. The table `events` below will take the value (to count the number of units) and the unit (DAY in this case, but can also be MONTH, or YEAR) to calculate the `INTERVAL` between the event_date and `NextWeek`. The result is seven days in this case.
 
 ```mysql
 CREATE TABLE events (
@@ -292,7 +292,7 @@ The example results in the output below (at the time it was consulted):
 DATEDIFF(date1, date2)
 ```
 
-In the following example, there are two columns (one of them is an auto_increment) that correspond to one queue. The table `events3` below will take the value of `start_date` as well as the value of `end_date` as arguments in the `DATEDIFF()` and will return the number of days between the two dates.
+In the following example, there are two columns (one of them is an auto_increment) that correspond to one queue. The table `events` below will take the value of `start_date` as well as the value of `end_date` as arguments in the `DATEDIFF()` and will return the number of days between the two dates.
 
 ```mysql
 CREATE TABLE events (
@@ -472,10 +472,10 @@ CASE
 END
 ```
 
-In the following example, there are three columns (one of them is an auto*increment) that correspond to five queues. The table **exams3** below will take the values from \_student_name* and from _score_ and make a comparison.
-**When** the score is higher or equal than 90, **then** the Grade is A.
-**When** the score is higher or equal than 80, **then** the Grade is B.
-**When** the score is higher or equal than 70, **then** the Grade is C.
+In the following example, there are three columns (one of them is an auto_increment) that correspond to five queues. The table `exams` below will take the values from `student_name` and from `score` and make a comparison.
+`When` the score is higher or equal than 90, `then` the Grade is A.
+`When` the score is higher or equal than 80, `then` the Grade is B.
+`When` the score is higher or equal than 70, `then` the Grade is C.
 Otherwise, the grade is F.
 
 ```mysql
@@ -628,7 +628,7 @@ The example results in the following output:
 MD5(string)
 ```
 
-In the following example, there are 3 columns (one of them is an auto_increment) that correspond to two queues. The table `users2` below will take the values from username and password and then `MD5(string)` will convert the password's value into a binary string of 32 hexadecimal digits.
+In the following example, there are 3 columns (one of them is an auto_increment) that correspond to two queues. The table `users` below will take the values from username and password and then `MD5(string)` will convert the password's value into a binary string of 32 hexadecimal digits.
 
 ```mysql
 CREATE TABLE users (
