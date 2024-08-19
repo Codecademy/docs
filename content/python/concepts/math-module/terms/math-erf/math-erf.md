@@ -1,6 +1,6 @@
 ---
 Title: 'math.erf()' 
-Description: 'returns the error function of a number.' 
+Description: 'Returns the error function of a number.' 
 Subjects: 
   - 'Computer Science'
   - 'Data Science'
