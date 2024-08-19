@@ -31,7 +31,7 @@ The `math.gcd()` function returns an integer value that represents the greatest 
 
 ## Example
 
-Use `math.gcd()` to return the greatest common divisor of _54_ and _24_:
+The example below uses the `math.gcd()` function to return the greatest common divisor of _54_ and _24_:
 
 ```py
 import math
@@ -39,7 +39,7 @@ import math
 print(math.gcd(54, 24))
 ```
 
-The GCD of 54 and 24 is: 
+The GCD of _54_ and _24_ is: 
 
 ```shell
 6
