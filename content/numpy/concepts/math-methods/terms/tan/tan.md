@@ -1,6 +1,6 @@
 ---
 Title: '.tan()'
-Description: 'Calculates tangent of an angle.'
+Description: 'Calculates the tangent of an angle.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In NumPy, `**.tan()**` method calculates the tangent of an angle. Used to find mathematical computations involving trigonometric operations.
+In NumPy, the **`.tan()`** method calculates the tangent of an angle. Used to find mathematical computations involving trigonometric operations.
 
 ## Syntax
 
@@ -22,7 +22,7 @@ numpy.tan(array, out = None, where=True)
 ```
 
 - `array`: An array passed containing the elements for which tan is computed.
-- `out` : An optional field specifies the array where the result of the operation is stored.
+- `out`: An optional field specifies the array where the result of the operation is stored.
 - `where`: The condition that determines for which elements in the given array tangent is calculated.
 
 ## Example
