@@ -73,7 +73,6 @@ class TestRest {
   }
 }
 
-
 let tr = new TestRest()
 
 function getUsers(...param) {
@@ -99,5 +98,4 @@ console.log(getUsers(
   tr.errorNotAvaliable,
   tr.errorAction
   ))
-
 ```
