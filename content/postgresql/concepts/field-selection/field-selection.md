@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-In PostgreSQL, **Field Selection** allows the user to fetch a specific column or field from the database. This `SELECT` statement is used with the column name to retrieve the data.
+In PostgreSQL, **Field Selection** allows the user to fetch a specific column or field from the database. The `SELECT` statement is used with the column name to retrieve the data.
 
 ## Syntax
 
