@@ -31,7 +31,7 @@ The `math.erf()` function accepts any real number from negative infinity to posi
 
 ## Example
 
-Use `math.erf()` to return the error function of 1:
+In the example below, `math.erf()` returns the error function of *1*:
 
 ```py
 import math
