@@ -25,7 +25,7 @@ WHERE condition;
 
 ## Example
 
-For example, take this `students_marks` table with the following data:
+For example, consider this `students_marks` table with the following data:
 
 | student_id | name    | grade |
 | ---------- | ------- | ----- |
@@ -39,7 +39,7 @@ For example, take this `students_marks` table with the following data:
 SELECT name from students_marks
 ```
 
-The above query will return just the `name` column:
+The above query will return only the `name` column:
 
 | name    |
 | ------- |
