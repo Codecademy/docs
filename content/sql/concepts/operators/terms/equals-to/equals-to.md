@@ -50,9 +50,10 @@ INSERT INTO employ (employ_name, employ_id) VALUES
 # Use the EQUAL TO operator to find employees with a specific ID
 SELECT employ_name, employ_id FROM employ WHERE employ_id = '100';
 ```
+
 The query results with the following result:
 
 ```shell
 employ_name, employ_id
-'John', 100 
+'John', 100
 ```
