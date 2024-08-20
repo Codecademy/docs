@@ -1,6 +1,6 @@
 ---
-Title: 'Built-in Functions'
-Description: 'Built-in functions are predefined functions that can be used to perform operations on data at any time.'
+Title: 'Built in Functions'
+Description: 'Built in functions are predefined functions that can be used to perform operations on data at any time.'
 Subjects:
   - 'Code Foundations'
   - 'Data Science'
@@ -8,6 +8,7 @@ Subjects:
 Tags:
   - 'MySQL'
   - 'Data'
+  - 'Database'
 CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
