@@ -1,6 +1,6 @@
 ---
-Title: 'EQUAL TO'
-Description: 'Queries for items that are equal to a specified condition.'
+Title: 'Equals To'
+Description: 'Queries for items equal to a specified condition.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
@@ -17,7 +17,7 @@ CatalogContent:
   - 'paths/design-databases-with-postgresql'
 ---
 
-The **`EQUAL TO`** operator is used to compare the equality of two expressions, used with `WHERE` clause.
+The **`EQUAL TO`** operator is used to compare the equality of two expressions, used with the `WHERE` clause.
 
 ## Syntax
 
@@ -47,9 +47,10 @@ INSERT INTO employ (employ_name, employ_id) VALUES
 ('Janet', 101),
 ('Joe', 102)
 
-# Use the EQUAL TO operator to find employ with a specific ID
+# Use the EQUAL TO operator to find employees with a specific ID
 SELECT employ_name, employ_id FROM employ WHERE employ_id = '100';
 ```
+The query results with the following result:
 
 ```shell
 employ_name, employ_id
