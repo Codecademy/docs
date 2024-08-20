@@ -20,7 +20,7 @@ The `math.factorial()` method returns the factorial of a non-negative number.
 math.factorial(n)
 ```
 
-- `n` is required and needs to be a positive integer.
+- `n`: A positive number whose factorial is calculated.
 - The `math.factorial()` function returns a positive `int` value.
 
 If `n` is negative, or not an integer, `math.factorial(n)` returns a ValueError.
