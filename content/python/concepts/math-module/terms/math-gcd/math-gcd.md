@@ -1,6 +1,6 @@
 ---
 Title: 'math.gcd()' 
-Description: 'Returns the Greatest Common Divisor (GCD) of two integers.' 
+Description: 'Returns the Greatest Common Divisor (GCD) of two or more integers.' 
 Subjects: 
   - 'Computer Science'
   - 'Data Science'
@@ -14,36 +14,41 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`math.gcd()`** function in Python is used to calculate the Greatest Common Divisor (GCD) of two integers. 
+The **`math.gcd()`** function in Python returns the Greatest Common Divisor (GCD) of two or more integers. The GCD is the largest positive integer that divides all of the given numbers without leaving a remainder.
 
 ## Syntax
 
 ```pseudo
-math.gcd(x, y)
+math.gcd(*integers)
 ```
 
-The `math.gcd()` function takes the following parameters:
-
-- `x`: This is the first integer whose greatest common divisor is to be computed.
-- `y`: This is the second integer whose greatest common divisor is to be computed.
-
-The `math.gcd()` function returns an integer value that represents the greatest common divisor of the two integers `x` and `y`. If either `x` or `y` is zero, the GCD is the absolute value of the non-zero number. If both `x` and `y` are zero, the GCD is zero.
+- `*integers`: This represents the integers for which to compute the GCD.
 
 ## Example
 
-The example below uses the `math.gcd()` function to return the greatest common divisor of _54_ and _24_:
+The example below uses the `math.gcd()` function to return the greatest common divisor of the specified integers:
 
 ```py
 import math
 
+# GCD of two integers.
 print(math.gcd(54, 24))
+
+# GCD of more than two integers.
+print(math.gcd(54, 108, 216))
+
+# GCD of zero and non-zero integers.
+print(math.gcd(54, 0))
 ```
 
-The GCD of _54_ and _24_ is: 
+The output of the example code above is: 
 
 ```shell
 6
+54
+54
 ```
+> Note: If `math.gcd()` function is called with no arguments or if all arguments are zero (`0`), it will return `0`.
 
 ## Codebyte Example
 
@@ -52,8 +57,8 @@ Run the following example that uses the `math.gcd()` function to understand how 
 ```codebyte/python
 import math
 
-x = 48
-y = 18
+x = 0
+y = 0
 
 result = math.gcd(x, y)
 
