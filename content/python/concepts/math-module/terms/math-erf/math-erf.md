@@ -6,7 +6,6 @@ Subjects:
   - 'Data Science'
   - 'Discrete Math'
   - 'Machine Learning'
-
 Tags: 
   - 'Arithmetic'
   - 'Functions'
@@ -27,7 +26,7 @@ math.erf(n)
 
 - `n`: A real number for which the error function is to be computed.
 
-The `math.erf()` function accepts any real number from negative infinity to positive infinity as input and returns a value between -1 and 1, representing the error function of that number.
+The `math.erf()` function accepts any real number from negative infinity to positive infinity as input and returns a value between *-1* and *1*, representing the error function of that number.
 
 ## Example
 
