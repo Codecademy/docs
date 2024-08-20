@@ -1,6 +1,6 @@
 ---
 Title: 'math.fsum()'
-Description: 'This function takes an iterable (like a list or numbers) as an argument and return an accurate floating-point sum. This function avoids loss of precision by tracking intermediate partial sums.'
+Description: 'Takes an iterable (like a list of numbers) as an argument and returns an accurate floating-point sum.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -12,15 +12,13 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-This function takes an iterable (like a list or numbers) as an argument and return an accurate floating-point sum. This function avoids loss of precision by tracking intermediate partial sums.
+This function takes an iterable (like a list of numbers) as an argument and returns an accurate floating-point sum. This function avoids loss of precision by tracking intermediate partial sums.
 
 ## Syntax
 
-```python
+```pseudo
 math.fsum(iterable)
 ```
-
-The **`math.fsum()`** function takes in an iterable parameter (as a list of numbers) and returns the accurate floating-point sum.
 
 ## Example
 
@@ -35,7 +33,7 @@ print(math.fsum(numbers_list))
 
 The above code gives the following output:
 
-```python
+```shell
 1.1111
 ```
 
