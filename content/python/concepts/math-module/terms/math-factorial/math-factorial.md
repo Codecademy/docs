@@ -28,7 +28,7 @@ If `n` is not a number, `math.factorial(n)` returns a TypeError.
 
 ## Example
 
-Use `math.factorial()` to returns the factorial of `6`:
+In the example we are using `math.factorial()` to return the factorial of `6`:
 
 ```py
 import math
