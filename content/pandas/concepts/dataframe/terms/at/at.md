@@ -23,7 +23,7 @@ dataframe.at[position, label]
 - `position`: The label (index) of the row where the specific value is located.
 - `label`: The label (column name) of the column where the specific value is located.
 
-The result returned is a single element located at the specified position within the DataFrame.
+The result returned is a single element located at the specified position within the `DataFrame`.
 
 ## Example
 
@@ -40,6 +40,12 @@ element = df.at[0, 'B']
 
 # Print the accessed element
 print(element)  
+```
+
+The output of the code is as follows:
+
+```shell
+3
 ```
 
 ## Codebyte Example
