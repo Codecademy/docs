@@ -13,13 +13,15 @@ CatalogContent:
  - 'paths/computer-science'
 ---
 
-The **`math.isfinite()`** function returns `True` when a number is finite and `False` otherwise. The number should neither be infinite nor `NaN`. 
+The **`math.isfinite()`** function returns `True` when a number is finite and `False` otherwise. A finite number cannot be infinite or `NaN`. 
 
 ## Syntax
 
 ```psuedo
-math.infinite(x)
+math.isfinite(x)
 ```
+
+- `x`: The number to be checked. It can be an integer, float, or any numerical value.
 
 ## Example
 
@@ -31,7 +33,7 @@ import math
 print(math.isfinite(0.1))
 ```
 
-The output is generated as follows:
+The output generated is as follows:
 
 ```shell
 True
@@ -39,7 +41,7 @@ True
 
 ## Codebyte Example
 
-Run the following example that uses the `math.isfinite()` function to understand its working:
+Run the following example that uses the `math.isfinite()` function to understand it works:
 
 ```codebyte/python
 import math
@@ -55,4 +57,4 @@ print(math.isfinite(float("NaN")))
 print(math.isfinite(-math.inf))
 ```
 
-> **Note:** 0.0 is considererd finite.
+> **Note:** *0.0* is considererd as a finite number.
