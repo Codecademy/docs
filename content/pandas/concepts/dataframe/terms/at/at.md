@@ -19,8 +19,9 @@ In Pandas, the **`.at[]`** function is used as an accessor to fetch a specific v
 ```pseudo
 dataframe.at[position, label]
 ```
--`position`:The label of the row to be accessed.
--`label`:Name of the column to be accessed.
+
+- `position`: The label (index) of the row where the specific value is located.
+- `label`: The label (column name) of the column where the specific value is located.
 
 The result returned is a single element located at the specified position within the DataFrame.
 
