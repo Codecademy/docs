@@ -30,13 +30,26 @@ The following example uses `math.isfinite()` to check whether a specific value i
 ```py
 import math
 
-print(math.isfinite(0.1))
+# Check if 0.1 is a finite number
+print(math.isfinite(0.1))  
+
+# Check if positive infinity is a finite number
+print(math.isfinite(math.inf))  
+
+# Check if the float representation of infinity is a finite number
+print(math.isfinite(float("inf")))  
+
+# Check if the float representation of NaN (Not a Number) is a finite number
+print(math.isfinite(float("NaN"))) 
 ```
 
 The output generated is as follows:
 
 ```shell
 True
+False
+False
+False
 ```
 
 ## Codebyte Example
@@ -51,10 +64,6 @@ print(math.isfinite(-45.34))
 print(math.isfinite(+45.34))
 print(math.isfinite(math.sqrt(8)))
 print(math.isfinite(0.00001))
-print(math.isfinite(math.inf))
-print(math.isfinite(float("inf")))
-print(math.isfinite(float("NaN")))
 print(math.isfinite(-math.inf))
+print(math.isfinite(0.0))
 ```
-
-> **Note:** *0.0* is considererd as a finite number.
