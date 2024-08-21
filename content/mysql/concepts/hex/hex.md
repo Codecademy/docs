@@ -40,7 +40,7 @@ The result looks like this:
 
 | HEX('codecademy')   |
 | ------------------- |
-| 636F6465636164656D7 |
+| 636F6465636164656D79 |
 
 This next example instead passes a numeric value to the function.
 
