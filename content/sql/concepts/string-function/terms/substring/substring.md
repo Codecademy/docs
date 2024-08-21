@@ -18,7 +18,7 @@ CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
 ---
-<br />
+
 
 ## Definition
 
@@ -32,13 +32,13 @@ As you can see the substring you take in SQL is similar to the slice of string y
 
 ## Syntax
 ```
-SUBSTRING (string, start, length )
+SUBSTRING (string, start, length)
 ```
-<br />
 
 - `string`: string to extract from.
 - `start`: starting index from which the substring will start, minimum possible value is 1.
 - `length`: number of characters to extract.
+  
 > **Note:** Be aware that not all services support this function, Oracle and SQLite use a different one to accomplish the same goal, and the function is written as SUBSTR.
 
 ## Examples
@@ -55,5 +55,3 @@ This is a correct and functional code using `SUBSTRING` for this table:
 
 As you can see we selected the CustomerID column, and the CustomerName column but in this one we used the `SUBSTRING` function slicing it since the fourth character and taking a total of five characters from LEFT to RIGHT, notice that blank spaces are included and we named this column “alias”, we used `SUBSTRING` with the City column taking the first three characters of each row, but we did not use the AS function so it does not have a column_name, be aware to always name your column when using the `SUBSTRING`.
 <br />
-
-
