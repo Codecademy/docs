@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-The **HEX()** function in MySQL takes an input and returns its equivalent hexadecimal representation. This input can be either a string or numeric value.
+The **`HEX()`** function in MySQL takes an input and returns its equivalent hexadecimal representation. This input can be either a string or a numeric value.
 
 When the input is a string, the resulting hexadecimal representation will, by default, be a binary string. In the output, each byte of each character in the original string argument is represented by a corresponding pair of hexadecimal digits. The resulting hexadecimal string can also be converted back into the original string by using the `UNHEX()` function.
 
