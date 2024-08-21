@@ -30,7 +30,7 @@ HEX(99);
 
 ## Examples
 
-The following example uses the `HEX()` function to convert the 'codecademy' string to hexadecimal.
+The following example uses the `HEX()` function to convert the `codecademy` string to hexadecimal.
 
 ```sql
 SELECT HEX('codecademy');
