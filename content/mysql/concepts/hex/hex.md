@@ -84,7 +84,7 @@ To verify the data was inserted correctly, run the following.
 SELECT * FROM employees;
 ```
 
-The resulting table looks like:
+The resulting table looks like this:
 
 | last_name | employee_id |
 | --------- | ----------- |
