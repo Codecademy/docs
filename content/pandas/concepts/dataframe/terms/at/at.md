@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-In Pandas, the **`.at[]`** function is used as an accessor to fetch a specific value located in a DataFrame with the aid of row/column pairs. 
+In Pandas, the **`.at[]`** function is used as an accessor to fetch a specific value from a [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) using row/column pairs.
 
 ## Syntax
 
