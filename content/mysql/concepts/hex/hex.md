@@ -1,6 +1,6 @@
 ---
 Title: 'Hex()'
-Description: 'Returns a hexidecimal string representation of a given string or numeric argument.' 
+Description: 'Returns a hexadecimal string representation of a given string or numeric argument.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
