@@ -6,10 +6,11 @@ Subjects:
   - 'Code Foundations'
   - 'Data Science'
 Tags:
-  - 'MySQL'
   - 'Functions'
-  - 'Strings'
   - 'Database'
+  - 'MySQL'
+  - 'Strings'
+  - 'Numbers'
 CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
