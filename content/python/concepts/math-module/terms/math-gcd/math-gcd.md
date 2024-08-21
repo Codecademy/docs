@@ -1,15 +1,15 @@
 ---
-Title: 'math.gcd()' 
-Description: 'Returns the Greatest Common Divisor (GCD) of two or more integers.' 
-Subjects: 
+Title: 'math.gcd()'
+Description: 'Returns the Greatest Common Divisor (GCD) of two or more integers.'
+Subjects:
   - 'Computer Science'
   - 'Data Science'
   - 'Discrete Math'
 Tags:
-  - 'Algorithms'
   - 'Functions'
   - 'Integers'
-CatalogContent: 
+  - 'Math'
+CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
@@ -41,14 +41,15 @@ print(math.gcd(54, 108, 216))
 print(math.gcd(54, 0))
 ```
 
-The output of the example code above is: 
+The output of the example code above is:
 
 ```shell
 6
 54
 54
 ```
-> Note: If `math.gcd()` function is called with no arguments or if all arguments are zero (`0`), it will return `0`.
+
+> Note: If `math.gcd()` function is called with no arguments or if all arguments are zero (`0`), it will return zero (`0`).
 
 ## Codebyte Example
 
