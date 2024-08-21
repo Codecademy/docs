@@ -32,10 +32,14 @@ The following example shows the use of the `.at[]` accessor function:
 ```py
 import pandas as pd
 
+# Create a DataFrame with two columns 'A' and 'B'
 df = pd.DataFrame({'A': [1, 2], 'B': [3, 4]})
+
+# Use .at[] to access the element at row 0, column 'B'
 element = df.at[0, 'B']
 
-print(element)  # Output: 3
+# Print the accessed element
+print(element)  
 ```
 
 ## Codebyte Example
