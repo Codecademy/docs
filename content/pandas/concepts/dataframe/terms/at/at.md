@@ -50,7 +50,6 @@ The below codebyte example uses the .at[] accessor to access a specific element 
 ```codebyte/python
 import pandas as pd
 
-# Creating a sample dataframe
 data = {
     'Name': ['Alice', 'Bob', 'Charlie'],
     'Age': [25, 30, 35],
@@ -59,8 +58,7 @@ data = {
 
 df = pd.DataFrame(data)
 
-# Accessing a single element using .at[]
 element = df.at[1, 'City']
 
-print(element)  # Output: Los Angeles
+print(element)  
 ```
