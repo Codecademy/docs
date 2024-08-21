@@ -56,7 +56,7 @@ The resulting output is this:
 
 ## Detailed Example
 
-The `HEX()` function can also be used with data columns in a table.
+The `HEX()` function can also be used with columns in a table.
 
 ### Creating the Table
 
