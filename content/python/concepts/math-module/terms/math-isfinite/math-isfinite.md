@@ -13,7 +13,7 @@ CatalogContent:
  - 'paths/computer-science'
 ---
 
-The **`math.isfinite()`** function returns `True` when a number is finite and `False` otherwise. A finite number cannot be infinite or `NaN`. 
+The **`math.isfinite()`** function returns `True` when a number is finite and `False` otherwise. A finite number is neither infinite nor `NaN`. 
 
 ## Syntax
 
