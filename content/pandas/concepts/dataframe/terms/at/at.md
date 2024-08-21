@@ -1,6 +1,6 @@
 ---
 Title: '.at[]'
-Description: 'Access a specific value in row/column pairs in a dataset.' 
+Description: 'Returns a specific value in row/column pairs in a dataset.' 
 Subjects: 
   - 'Computer Science'
   - 'Data Science'
@@ -9,7 +9,7 @@ Tags:
   - 'Pandas'
 CatalogContent: 
   - 'learn-python-3'
-  - 'paths/data-science'
+  - 'paths/computer-science'
 ---
 
 In Pandas, the **`.at[]`** function is used as an accessor to fetch a specific value from a [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) using row/column pairs.
