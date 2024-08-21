@@ -13,9 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Quadratic regression analysis**, also known as second-order regression analysis, is a supervised learning technique that models non-linear behaviors such as a parabolic shape with a quadratic equation.
-
-The quadratic equation is a polynomial equation of the second degree, which can be written in the form:
+**Quadratic Regression Analysis**, also known as second-order regression analysis, is a supervised learning technique that models non-linear behaviors, such as a parabolic shape, using a quadratic equation. The quadratic equation is a polynomial of the second degree, which can be written in the form:
 
 ![The quadratic equation](https://raw.githubusercontent.com/Codecademy/docs/main/media/quadratic-equation.png)
 
@@ -26,11 +24,31 @@ The goal of quadratic regression is to fit this equation to the observed data, p
 In Scikit-Learn, quadratic regression is performed using the combination of PolynomialFeatures and LinearRegression.
 
 ```pseudo
+poly = PolynomialFeatures(degree=2, interaction_only=True, include_bias=False)
+model = LinearRegression(fit_intercept=True, copy_X=True, n_jobs=None, positive=False)
+```
+
+PolynomialFeatures has parameters for:
+
+- `degree`: Specifies the degree of polynomial features to generate, determining how high the polynomial terms should go (e.g., 2 for quadratic).
+- `interaction_only`: When set to `True`, generates only interaction features, excluding individual polynomial terms.
+- `include_bias`: If `True`, includes a bias column with all ones to represent the constant term; otherwise, the bias term is omitted.
+
+LinearRegression has parameters for:
+
+- `fit_intercept`: Determines whether the model should calculate an intercept term; if `False`, the model is forced through the origin.
+- `copy_X`: If `True`, creates a deep copy of the input data to avoid modifying the original; otherwise, the input data might be overwritten.
+- `n_jobs`: Specifies the number of CPU cores to use for parallel computations; -1 uses all available cores.
+- `positive`: If `True`, ensures that all coefficients are constrained to be positive values.
+
+## Example
+
+```pseudo
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.linear_model import LinearRegression
 
 # Define the model for the quadratic equation and create an instance of linear regression
-poly = PolynomialFeatures(degree=2, interaction_only=True, include_bias=False)
+poly = PolynomialFeatures(interaction_only=True, include_bias=False)
 model = LinearRegression()
 
 # Fit the quadratic equation into the linear regression model with the training data and labels
@@ -41,20 +59,7 @@ model.fit(poly_features, labels)
 predictions = model.predict(test_data)
 ```
 
-PolynomialFeatures has parameters for:
-
-- `degree`: In this case, for a quadratic equation, it is 2 by default.
-- `interaction_only`: If True, only interaction features are produced; this includes only features that are products of single degree input features, terms with power of 2 or more are not included.
-- `include bias`: If True, the function will include a bias column in which all polynomial powers are 0 (the value of `c` in the quadratic equation above). We turn this off since we are plugging the poly features into a linear regression model which will take this into consideration by default.
-
-LinearRegression has parameters for:
-
-- `fit_intercept`: If True, the function will calculate the intercept for the model.
-- `copy_X`: If True, the function will create a deep copy of X, otherwise it may be overwritten.
-- `n_jobs`: Specifies the number of parallel jobs to compute the model if more than 1 is needed for larger problems.
-- `positive`: If True, forces the coefficients to be positive. This may help identify a more correct model in the presence of noisy data but introduces potential bias.
-
-## Codebyte Example
+Run the following codebyte to understand quadratic regression by fitting a linear model to polynomial features:
 
 ``` codebyte/python
 import numpy as np
