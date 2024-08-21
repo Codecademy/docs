@@ -49,5 +49,5 @@ The output will be:
 ```shell
 Hello Code true
 Hello Codecademy false
-Hello Codecademy false
+Hello Codecademy true
 ```
