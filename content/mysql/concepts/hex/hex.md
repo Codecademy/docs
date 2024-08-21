@@ -5,7 +5,7 @@ Subjects:
   - 'Computer Science'
   - 'Code Foundations'
   - 'Data Science'
-  Tags:
+Tags:
   - 'MySQL'
   - 'Functions'
   - 'Strings'
