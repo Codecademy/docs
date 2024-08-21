@@ -22,7 +22,7 @@ When the input is a string, the resulting hexadecimal representation will, by de
 
 When the input is a decimal number, HEX(N) and CONV(N, 10, 16) produce the same hexadecimal output. The hexadecimal result from HEX(N) can be converted back to the original number using CONV(HEX(N), 16, 10).
 
- ## Syntax
+## Syntax
 
 ```pseudo
 HEX('string');
