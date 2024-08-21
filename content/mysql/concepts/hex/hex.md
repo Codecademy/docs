@@ -17,7 +17,7 @@ CatalogContent:
 
 The **HEX()** function in MySQL takes an input and returns its equivalent hexadecimal representation. This input can be either a string or numeric value.
 
-If the input is a string, the resulting hexadecimal representation will, by default, be a binary string. Each byte of each character in the original string argument is represented by a corresponding pair of hexadecimal digits in the output. The resulting hexadecimal string can also be converted back into the original string by using the `UNHEX()` function.
+When the input is a string, the resulting hexadecimal representation will, by default, be a binary string. In the output, each byte of each character in the original string argument is represented by a corresponding pair of hexadecimal digits. The resulting hexadecimal string can also be converted back into the original string by using the `UNHEX()` function.
 
 On the other hand, if the input is a decimal number, the resulting hexadecimal will be treated as a longlong (BIGINT) number.  In this scenario where N is a decimal number, the function `HEX(N)` produces the same output as the `CONVERT()` function, `CONV(N, 10, 16)`. This means that the hexadecimal output of `HEX(N)` can also be converted back to its original number by running `CONV(HEX(N), 16, 10)`.
 
