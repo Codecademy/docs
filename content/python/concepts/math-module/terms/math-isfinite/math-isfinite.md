@@ -25,7 +25,7 @@ math.isfinite(x)
 
 ## Example
 
-The following example uses `math.isfinite()` to check whether a specific value is finite or not:
+The following example uses `math.isfinite()` to check whether the specified values are finite or not:
 
 ```py
 import math
