@@ -59,29 +59,22 @@ The resulting output is this:
 
 The `HEX()` function can also be used with columns in a table.
 
-### Creating the Table
-
 ```sql
+-- Create a table named 'employees'
 CREATE TABLE employees (
   last_name VARCHAR(50),
   employee_id INT
 );
-```
 
-### Inserting Data
-
-```sql
+-- Insert data
 INSERT INTO employees (last_name, employee_id) VALUES
 ('Smith', 40388),
 ('Jones', 80666),
 ('Brown', 64695),
 ('Miller', 23088),
 ('Williams', 15312);
-```
 
-To verify the data was inserted correctly, run the following.
-
-```sql
+-- Verify the data was inserted correctly
 SELECT * FROM employees;
 ```
 
