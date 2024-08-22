@@ -21,43 +21,59 @@ The goal of quadratic regression is to fit this equation to the observed data, p
 
 ## Syntax
 
-In Scikit-Learn, quadratic regression is performed using the combination of PolynomialFeatures and LinearRegression.
+In Scikit-Learn, quadratic regression is performed using the combination of `PolynomialFeatures` and `LinearRegression`.
 
 ```pseudo
-poly = PolynomialFeatures(degree=2, interaction_only=True, include_bias=False)
+sklearn.preprocessing.PolynomialFeatures(degree=2, *, interaction_only=False, include_bias=True, order='C')
 model = LinearRegression(fit_intercept=True, copy_X=True, n_jobs=None, positive=False)
 ```
 
-PolynomialFeatures has parameters for:
+`PolynomialFeatures` has the following parameters:
 
-- `degree`: Specifies the degree of polynomial features to generate, determining how high the polynomial terms should go (e.g., 2 for quadratic).
-- `interaction_only`: When set to `True`, generates only interaction features, excluding individual polynomial terms.
-- `include_bias`: If `True`, includes a bias column with all ones to represent the constant term; otherwise, the bias term is omitted.
+- `degree` (int, default=2): The degree of the polynomial features. For quadratic regression, this is set to `2`.
+- `interaction_only` (bool, default=False): If `True`, only interaction features are produced (no powers of features).
+- `include_bias` (bool, default=True): If `True`, includes a bias column (constant term) in the output features.
+- `order` (str, default='C'): Order of the output array. 'C' means row-major (C-style), and 'F' means column-major (Fortran-style).
 
-LinearRegression has parameters for:
+`LinearRegression` has the following parameters:
 
-- `fit_intercept`: Determines whether the model should calculate an intercept term; if `False`, the model is forced through the origin.
+- `fit_intercept`: Determines whether the model should calculate an intercept term. If `False`, the model is forced through the origin.
 - `copy_X`: If `True`, creates a deep copy of the input data to avoid modifying the original; otherwise, the input data might be overwritten.
-- `n_jobs`: Specifies the number of CPU cores to use for parallel computations; -1 uses all available cores.
+- `n_jobs`: Specifies the number of CPU cores to use for parallel computations. `-1` uses all available cores.
 - `positive`: If `True`, ensures that all coefficients are constrained to be positive values.
 
 ## Example
 
-```pseudo
+The example below shows quadratic regression analysis by generating polynomial features with `PolynomialFeatures`, fitting a `LinearRegression` model, and making predictions.
+
+```py
+import numpy as np
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.linear_model import LinearRegression
 
-# Define the model for the quadratic equation and create an instance of linear regression
+# Define sample training data and labels
+training_data = np.array([[1], [2], [3], [4]])
+labels = np.array([1, 4, 9, 16])  # Example quadratic relationship: y = x^2
+
+# Define polynomial features for interaction terms only and without bias term
 poly = PolynomialFeatures(interaction_only=True, include_bias=False)
 model = LinearRegression()
 
-# Fit the quadratic equation into the linear regression model with the training data and labels
+# Transform training data to include polynomial features and fit the model
 poly_features = poly.fit_transform(training_data)
 model.fit(poly_features, labels)
 
-# Predict labels for test data
-predictions = model.predict(test_data)
+# Define sample test data
+test_data = np.array([[5], [6]])
+
+# Transform test data with the same PolynomialFeatures instance and predict labels
+test_poly_features = poly.transform(test_data)
+predictions = model.predict(test_poly_features)
+
+print(predictions)
 ```
+
+## Codebyte Example
 
 Run the following codebyte to understand quadratic regression by fitting a linear model to polynomial features:
 
@@ -75,7 +91,8 @@ y = X_train**2 + 2*X_train + 3 + np.random.rand(n,1)
 # Convert original training and testing data to polynomial features
 poly = PolynomialFeatures(degree=2, include_bias=False)
 X_train_poly = poly.fit_transform(X_train)
-X_test_poly = poly.fit_transform(X_test)
+
+X_test_poly = poly.transform(X_test)
 
 # Fit the polynomial features into the linear regression model
 model = LinearRegression()
@@ -83,4 +100,7 @@ model.fit(X_train_poly, y)
 
 # Predict test data
 y_prediction = model.predict(X_test_poly)
+print(y_prediction)
 ```
+
+**Note:** The output predictions will vary due to the random generation of training data and noise in the model.
