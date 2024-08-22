@@ -8,27 +8,29 @@ Tags:
   - 'Arithmetic'
   - 'Functions'
   - 'Geometry'
+  - 'Values'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-The **`math.degrees()`** function takes an angle measured in radians and returns its degree equivalent.
+In Python, the **`math.degrees()`** [function](https://www.codecademy.com/resources/docs/python/functions) takes an angle measured in radians and returns its degree equivalent as a floating-point value.
 
 ## Syntax
 
-```psudeo
+```pseudo
 math.degrees(x)
 ```
 
-The `math.degrees()` function accepts a numeric value or expression `x`, representing an angle in radians and returns the equivalent angle in degrees as a floating-point value. If the input is not a number, the function will raise a `TypeError`.
+- `x`: A numeric value or expression representing an angle in radians. If it is not a number, the function will raise a `TypeError`.
+
+Here is an image that illustrates some common degree-radian equivalencies:
 
 !["45 degree rotations expressed in radian measure" by Adrignola](https://raw.githubusercontent.com/Codecademy/docs/main/media/radian-measure-45-degree-rotations-256.png)
-_Some common degree-radian equivalencies._
 
 ## Example 1
 
-In the example below, `math.degrees()` returns the degree equivalent of `π`:
+In the example below, the `math.degrees()` function returns the degree equivalent of `π`:
 
 ```py
 import math
@@ -45,7 +47,7 @@ The above code gives the following output:
 
 ## Example 2
 
-In the example below, `math.degrees()` returns the degree equivalent of 1 radian:
+In the following example, the `math.degrees()` function returns the degree equivalent of `1` radian:
 
 ```py
 import math
@@ -53,7 +55,7 @@ import math
 print(math.degrees(1.0))
 ```
 
-The above code gives the following output:
+The above code produces the following output:
 
 ```shell
 57.29577951308232
@@ -61,7 +63,7 @@ The above code gives the following output:
 
 ## Codebyte Example
 
-Run the following codebyte having the `math.degrees()` function to understand its working:
+The following codebyte example demonstrates how the `math.degrees()` function works:
 
 ```codebyte/python
 import math
