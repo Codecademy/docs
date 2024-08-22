@@ -23,7 +23,7 @@ numpy.tan(array, out = None, where=True)
 
 - `array`: An array-like or scalar containing angles in radians. The function computes the tangent of each element.
 - `out`: An optional parameter specifying an array where the result will be stored. If not provided, a new array is created.
-- `where`: A condition or boolean array that determines which elements of `array` are used to compute the tangent. The tangent is computed only for elements where the condition is `True`.
+- `where`: A condition or boolean array that determines which elements of `array` are used to compute the tangent. The tangent is computed only for elements where the condition is `True`, other elements remain unchanged.
 
 ## Example
 
