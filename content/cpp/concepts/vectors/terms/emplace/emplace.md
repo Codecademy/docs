@@ -2,16 +2,16 @@
 Title: '.emplace()'
 Description: 'Directly constructs an element in place within a C++ vector at a specified position.'
 Subjects:
-    - 'Computer Science'
-    - 'Programming'
+  - 'Computer Science'
+  - 'Programming'
 Tags:
-    - 'Data Types'
-    - 'Functions'
-    - 'Vectors'
-    - 'Methods'
+  - 'Data Types'
+  - 'Functions'
+  - 'Vectors'
+  - 'Methods'
 CatalogContent:
-    - 'learn-c-plus-plus'
-    - 'paths/computer-science'
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
 ## Introduction
