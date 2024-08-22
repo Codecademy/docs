@@ -34,19 +34,19 @@ vector.emplace(position, element);
 #include <vector>
 
 class MyClass {
-public:
-    MyClass(int x, int y) : x(x), y(y) {
-        std::cout << "MyClass constructed with x=" << x << " and y=" << y << std::endl;
-    }
-private:
-    int x, y;
+ public:
+  MyClass(int x, int y) : x(x), y(y) {
+    std::cout << "MyClass constructed with x=" << x << " and y=" << y << std::endl;
+  }
+
+ private:
+  int x, y;
 };
 
 int main() {
-    std::vector<MyClass> myVector;
-    myVector.emplace(myVector.begin(), 10, 20);
-
-    return 0;
+  std::vector<MyClass> myVector;
+  myVector.emplace(myVector.begin(), 10, 20);
+  return 0;
 }
 ```
 
