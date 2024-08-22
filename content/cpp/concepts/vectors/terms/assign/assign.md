@@ -33,7 +33,7 @@ vector.assign(first, last);
 
 ## Example
 
-In the following example, the `.assign()` method demonstrates two different ways of using it: the first, to fill the vector with a specified number of copies of a value, and the second, to replace the vector's elements with values from a specific range.
+In the following example, the .assign() method is demonstrated in two distinct ways. First, it fills the vector with a specified number of copies of a given value. Second, it replaces the vector's elements with values from a specified range.\
 
 ```cpp
 #include <iostream>
@@ -59,6 +59,7 @@ int main() {
   for (int num : numbers) {
       cout << num << " ";
   }
+
   cout << endl;
 
   return 0;
