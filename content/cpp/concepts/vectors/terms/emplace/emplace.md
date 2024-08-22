@@ -20,12 +20,12 @@ The `.emplace()` function is a member of the `std::vector` class in C++. It allo
 
 ## Syntax
 
-```cpp
-vector.emplace(position, args...);
+```pseudo
+vector.emplace(position, element);
 ```
 
 - `position`: An iterator to the position where the new element will be inserted.
-- `element `: Elements to be inserted in the vector container.
+- `element`: Elements to be inserted in the vector container.
 
 ## Example
 
