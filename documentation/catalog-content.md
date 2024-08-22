@@ -205,14 +205,6 @@ Feel free to add suggestions for new slugs to the lists as part of your PR! Be s
 - 'paths/data-science-foundations'
 ```
 
-### PyTorch
-
-```
-- 'paths/data-science'
-- 'intro-to-py-torch-and-neural-networks'
-- 'py-torch-for-classification'
-```
-
 ### R
 
 ```
