@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In NumPy, the **`.tan()`** method calculates the tangent of an angle. Used to find mathematical computations involving trigonometric operations.
+In NumPy, the **`.tan()`** function calculates the tangent of each element in an array, where the elements are interpreted as angles in radians. It is used for mathematical computations involving trigonometric operations.
 
 ## Syntax
 
