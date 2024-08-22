@@ -9,15 +9,16 @@ Tags:
   - 'Data'
   - 'Objects'
   - 'OOP'
-  - 'Classes'
 CatalogContent:
   - 'learn-dart'
   - 'paths/computer-science'
 ---
 
-Inheritance is an integral part of [object-oriented programming (OOP)](https://www.codecademy.com/resources/docs/general/programming-paradigms/object-oriented-programming). It allows a class to derive properties and characteristics from another class.
+Inheritance is an integral part of [object-oriented programming (OOP)](https://www.codecademy.com/resources/docs/general/programming-paradigms/object-oriented-programming). It allows a [class](https://www.codecademy.com/resources/docs/dart/classes) to derive properties and characteristics from another class.
 
 ## Example
+
+The following example demonstrates the usage of inheritance in Dart:
 
 ```dart
 class Animal {
@@ -45,8 +46,8 @@ class Dog extends Animal {
 
 void main() {
   Dog dog = Dog('Buddy');
-  dog.makeSound(); // Buddy barks.
-  dog.fetch(); // Buddy is fetching!
+  dog.makeSound();
+  dog.fetch();
 }
 ```
 
@@ -59,9 +60,11 @@ Buddy is fetching!
 
 ## Types of Inheritance
 
+There are different types of inheritance that can be implemented in Dart. These types are discussed one-by-one below.
+
 ### Single Inheritance
 
-Single inheritance is when a class inherits from one base (or super) class. This is the most common form of inheritance.
+Single inheritance is when a class inherits from a base (or super) class. This is the most common form of inheritance:
 
 ```dart
 class Animal {
@@ -78,12 +81,12 @@ class Dog extends Animal {
 
 void main() {
   Dog dog = Dog();
-  dog.eat(); // Animal is eating
-  dog.bark(); // Dog is barking
+  dog.eat();
+  dog.bark();
 }
 ```
 
-The output would be:
+The output would be the following:
 
 ```shell
 Animal is eating
@@ -92,7 +95,7 @@ Dog is barking
 
 ### Multilevel Inheritance
 
-Multilevel inheritance is when a class inherits from another derived class, forming a chain of inheritance
+Multilevel inheritance is when a class inherits from another derived class, forming a chain of inheritance:
 
 ```dart
 class Animal {
@@ -115,13 +118,13 @@ class Dog extends Mammal {
 
 void main() {
   Dog dog = Dog();
-  dog.eat(); // Animal is eating
-  dog.walk(); // Mammal is walking
-  dog.bark(); // Dog is barking
+  dog.eat();
+  dog.walk();
+  dog.bark();
 }
 ```
 
-The output would be:
+The below would be the output:
 
 ```shell
 Animal is eating
@@ -131,7 +134,7 @@ Dog is barking
 
 ### Hierarchical Inheritance
 
-Hierarchical inheritance occurs when multiple classes inherit from the same base class.
+Hierarchical inheritance occurs when multiple classes inherit from the same base class:
 
 ```dart
 class Animal {
@@ -156,15 +159,15 @@ void main() {
   Dog dog = Dog();
   Cat cat = Cat();
 
-  dog.eat(); // Animal is eating
-  dog.bark(); // Dog is barking
+  dog.eat();
+  dog.bark();
 
-  cat.eat(); // Animal is eating
-  cat.meow(); // Cat is meowing
+  cat.eat();
+  cat.meow();
 }
 ```
 
-The output would be:
+Here is the output:
 
 ```shell
 Animal is eating
