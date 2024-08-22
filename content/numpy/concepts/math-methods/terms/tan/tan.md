@@ -35,6 +35,7 @@ import numpy as np
 # Array of angles in radians
 angles_in_radians = np.array([0, np.pi/6, np.pi/4, np.pi/3])
 
+# Create an empty array to store the results
 out = np.empty_like(angles_in_radians)
 
 # Compute the tangent of each angle
