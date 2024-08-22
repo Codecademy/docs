@@ -29,7 +29,7 @@ torch.randn(*size, out=None, dtype=None, layout=torch.strided, device=None, requ
 
 ## Example
 
-The following example uses `.randn()` to create a 4x4 tensor with random values from a normal distribution:
+The following example uses `.randn()` to create a *4x4* tensor with random values from a normal distribution:
 
 ```py
 import torch
