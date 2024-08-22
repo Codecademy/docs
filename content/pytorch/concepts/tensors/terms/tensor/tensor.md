@@ -1,6 +1,6 @@
 ---
 Title: '.tensor()'
-Description: 'Creates a tensor of a given shape, and given values.'
+Description: 'Creates a tensor of a given shape and given values.'
 Subjects:
   - 'Data Science'
   - 'Machine Learning'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.tensor()`** function creates a tensor from given data input.
+The **`.tensor()`** function creates a tensor from a given data input.
 
 ## Syntax
 
@@ -22,7 +22,7 @@ The **`.tensor()`** function creates a tensor from given data input.
 torch.tensor(data, dtype=None, device=None, requires_grad=False, pin_memory=False)
 ```
 
-- `data`: This parameter is the input data for the tensor. The data must be array-like or scalar.
+- `data`: This required parameter is the input data for the tensor. The data must be array-like or scalar.
 - `dtype`: This optional parameter denotes the desired type for the returned tensor. The default value is `None`.
 - `device`: This optional parameter specifies the desired device of the returned tensor (e.g., `torch.device('cpu')` or `torch.device('cuda')`). The default value is `None`.
 - `requires_grad`: This optional parameter determines if autograd should record the operations on the returned tensor. The default value is `False`.
@@ -36,9 +36,9 @@ The following example shows how to use the `.tensor()` function:
 import torch
 
 t1 = torch.tensor(3)
-print(t1)
+print(t1, '\n')
 
-t2 = torch.tensor([1.0, 3.0, 5.0], [2.0, 6.0, 0.0])
+t2 = torch.tensor([[1.0, 3.0, 5.0], [2.0, 6.0, 0.0]])
 print(t2)
 ```
 
