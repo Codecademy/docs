@@ -1,12 +1,12 @@
 ---
 Title: '.tan()'
-Description: 'Calculates the tangent of an angle.'
+Description: 'Calculates the tangent of each element in an array or a single value in radians.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
   - 'Arrays'
-  - 'Methods'
+  - 'Functions'
   - 'NumPy'
 CatalogContent:
   - 'learn-python-3'
