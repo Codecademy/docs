@@ -42,7 +42,7 @@ class NeuralNetwork(nn.Module):
 
 ## Example
 
-The following example demonstrates how to define a simple neural network model using the `nn.Module`:
+The following example demonstrates how to define a simple neural network model using the `nn.Module` with two fully connected layers, apply a ReLU activation function to the first layer's output, and create an instance of the model:
 
 ```python
 import torch
