@@ -86,7 +86,7 @@ const requiredUser: Required<User> = {
 Readonly<T>;
 ```
 
-where properties of `T` is marked as readonly.
+Where properties of `T` is marked as `Readonly`.
 
 ## Readonly Example
 
