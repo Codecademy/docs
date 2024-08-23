@@ -47,7 +47,7 @@ func main() {
 The output will be:
 
 ```shell
-Hello Code true
+Hello Codec true
 Hello Codecademy false
 Hello Codecademy true
 ```
