@@ -46,7 +46,7 @@ const partialUser: Partial<User> = {
 
 ## Required
 
-Required is used to create a type with all properties of `T` marked as required. It is the opposite of `Partial`.
+`Required` is used to create a type with all properties of `T` marked as `Required`. It is the opposite of `Partial`.
 
 ### Syntax
 
