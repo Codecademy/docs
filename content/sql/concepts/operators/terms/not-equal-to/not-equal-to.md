@@ -5,8 +5,11 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'SQL'
   - 'Operators'
+  - 'Database'
+  - 'MySQL'
+  - 'PostgreSQL'
+  - 'SQLite'
 CatalogContent:
   - 'learn-sql'
   - 'paths/data-science'
