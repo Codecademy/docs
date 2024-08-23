@@ -3,6 +3,8 @@ Title: 'Utility Types'
 Description: 'Helps in working with data types more efficiently.'
 Subjects:
   - 'Web Development'
+  - 'Code Foundations'
+  - 'Computer Science'
 Tags:
   - 'Utility Types'
 CatalogContent:
