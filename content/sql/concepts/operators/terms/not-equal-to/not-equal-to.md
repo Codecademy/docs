@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-In SQL, the **Not Equal To** operator is used to compare two values. It returns true if the values are not equal and false if they are equal. The operator can be represented in two ways: `<>` or `!=`.
+In SQL, the **`NOT EQUAL TO`** operator is used to compare two values. It returns true if the values are not equal and false if they are equal. The operator can be represented in two ways: `<>` or `!=`.
 
 ## Syntax
 
