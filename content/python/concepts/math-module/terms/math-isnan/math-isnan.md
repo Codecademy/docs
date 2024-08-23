@@ -47,7 +47,7 @@ Using a NaN value from type float:
 ```py
 import math
 
-nan = float('string')
+nan = float('nan')
 print(math.isnan(nan))
 ```
 
@@ -67,6 +67,6 @@ import math
 is_number = 7
 print(math.isnan(is_number))
 
-not_a_number = float('This is not a number')
+not_a_number = float('nan')
 print(math.isnan(not_a_number))
 ```
