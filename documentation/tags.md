@@ -349,6 +349,7 @@ Units
 Unix
 Unsupervised Learning
 URL
+Utility Types
 UX
 Validation
 Values

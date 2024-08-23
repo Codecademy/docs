@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Typescript consists of some predefined generic types known as **`Utility Types`**. These utility types are useful for manipulating or creating new types more efficiently. 
+Typescript consists of some predefined generic types known as **`Utility Types`**. These utility types are useful for manipulating or creating new types more efficiently.
 
 ## Partial
 
@@ -22,7 +22,7 @@ Partial is used to create a type with all properties marked as optional.
 
 A partial is written as:
 
-```ts
+```pseudo
 Partial<T>;
 ```
 
@@ -32,7 +32,7 @@ Where `T` is the typo you want to make all the properties optional.
 
 In this example, all the properties of the `User` interface are optional:
 
-```ts
+```pseudo
 interface User {
   name: string;
   age: number;
@@ -52,7 +52,7 @@ const partialUser: Partial<User> = {
 
 `Required` in Typescript is written as:
 
-```ts
+```pseudo
 Required<T>;
 ```
 
@@ -62,7 +62,7 @@ Where `T` is the typo you want to make all the properties mandatory.
 
 In this example, all the properties of the `User` interface (including the optional properties) are made mandatory:
 
-```ts
+```pseudo
 interface User {
   name: string;
   age?: number;
@@ -82,7 +82,7 @@ const requiredUser: Required<User> = {
 
 `Readonly` is written as:
 
-```ts
+```pseudo
 Readonly<T>;
 ```
 
@@ -92,7 +92,7 @@ Where properties of `T` is marked as `Readonly`.
 
 In this example, attempting to reassign the value of `readonlyUser.age` generates an error:
 
-```ts
+```pseudo
 interface User {
   name: string;
   age: number;
@@ -114,7 +114,7 @@ Pick allows you to create a new type by selecting a set of properties `K` from a
 
 Pick is written as:
 
-```ts
+```pseudo
 Pick<T, K>;
 ```
 
@@ -124,7 +124,7 @@ where `K` are the properties you want to include from `T`.
 
 In this example, `Pick` is used to create a type from `User` that includes only the `name` and `email` fields, omitting `age`, without needing to declare a new interface:
 
-```ts
+```pseudo
 interface User {
   name: string;
   age: number;
@@ -145,7 +145,7 @@ Omit allows you to create a new type by excluding a set of properties `K` from a
 
 Omit is written as:
 
-```ts
+```pseudo
 Omit<T, K>;
 ```
 
@@ -155,7 +155,7 @@ where `K` properties are omitted from `T`.
 
 In this example, we removed the `age` property from the `User` interface:
 
-```ts
+```pseudo
 interface User {
   name: string;
   age: number;
@@ -176,7 +176,7 @@ Record helps you give cleaner type to `objects`.
 
 Record is written as:
 
-```ts
+```pseudo
 Record<K, T>;
 ```
 
@@ -186,7 +186,7 @@ where `K` represents the keys and `T` represents the values.
 
 In this example, it ensures that the keys are `strings` and the values are `numbers`.
 
-```ts
+```pseudo
 type Users = Record<string, number>;
 
 const userRoles: Users = {
@@ -204,7 +204,7 @@ Excludes from `T` those types that are assignable to `U`.
 
 Exclude is written as:
 
-```ts
+```pseudo
 Exclude<T, U>;
 ```
 
@@ -214,7 +214,7 @@ where `U` are the properties you want to exclude from `T`.
 
 In this example, we exclude `apple` and `banana` from the union type, resulting in just `orange`:
 
-```ts
+```pseudo
 type fruits = 'apple' | 'banana' | 'orange';
 type ExcludedFruits = Exclude<T, 'apple' | 'banana'>; // "orange"
 ```
