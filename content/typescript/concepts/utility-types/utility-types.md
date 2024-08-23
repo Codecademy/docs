@@ -80,7 +80,7 @@ const requiredUser: Required<User> = {
 
 ### Syntax
 
-Readonly is written as:
+`Readonly` is written as:
 
 ```ts
 Readonly<T>;
