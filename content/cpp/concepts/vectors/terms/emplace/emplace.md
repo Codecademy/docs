@@ -1,6 +1,6 @@
 ---
 Title: '.emplace()'
-Description: 'Constructs and inserts an element in place at a specified position'
+Description: 'Constructs and inserts an element in place at a specified position.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -27,7 +27,7 @@ vector.emplace(position, Args&&... args);
 
 ## Example
 
-In the example below, an object of `MyClass` is directly constructed at the beginning of the vector using `.emplace()` with the arguments *10* and *20*. This function enhances efficiency by constructing the object in place, eliminating the need for any unnecessary temporary object creation.
+In the example below, an object of `MyClass` is directly constructed at the beginning of the vector using `.emplace()` with the arguments _10_ and _20_. This function enhances efficiency by constructing the object in place, eliminating the need for any unnecessary temporary object creation.
 
 ```cpp
 #include <iostream>
