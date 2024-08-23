@@ -41,7 +41,7 @@ The code above produces the following output:
 395
 ```
 
-**Note**: The output value will vary with each execution because `.triangular()` generates a random number within the specified distribution.
+> **Note**: The output value will vary with each execution because `.triangular()` generates a random number within the specified distribution.
 
 ## Codebyte Example
 
