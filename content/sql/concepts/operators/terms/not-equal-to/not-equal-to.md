@@ -1,5 +1,5 @@
 ---
-Title: 'Not Equal To Operator'
+Title: 'NOT EQUAL TO'
 Description: 'Compares two values and returns true if they are not equal.'
 Subjects:
   - 'Computer Science'
