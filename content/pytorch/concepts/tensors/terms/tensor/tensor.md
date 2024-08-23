@@ -14,19 +14,18 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.tensor()`** function creates a tensor from a given data input.
+The **`.tensor()`** function in PyTorch creates a tensor from a given data input.
 
 ## Syntax
 
 ```pseudo
-torch.tensor(data, dtype=None, device=None, requires_grad=False, pin_memory=False)
+torch.tensor(data, dtype=None, device=None, requires_grad=False)
 ```
 
-- `data`: This required parameter is the input data for the tensor. The data must be array-like or scalar.
-- `dtype`: This optional parameter denotes the desired type for the returned tensor. The default value is `None`.
-- `device`: This optional parameter specifies the desired device of the returned tensor (e.g., `torch.device('cpu')` or `torch.device('cuda')`). The default value is `None`.
+- `data`: This required parameter represents the input data for the tensor. The data must be array-like (e.g., list, tuple) or scalar.
+- `dtype`: This optional parameter specifies the desired type for the returned tensor. If not provided, the data type is inferred from the `data`.
+- `device`: This optional parameter specifies the desired device of the returned tensor. Common values are `'cpu'` or `'cuda'`. If not specified, the tensor is created on the default device.
 - `requires_grad`: This optional parameter determines if autograd should record the operations on the returned tensor. The default value is `False`.
-- `pin_memory`: This optional parameter puts the output tensor in the allocated pinned memory. It only works for CPU tensors. The default value is `False`.
 
 ## Example
 
@@ -47,6 +46,6 @@ The code above generates the following output:
 ```shell
 tensor(3)
 
-tensor([[1.0, 3.0, 5.0],
-        [2.0, 6.0, 0.0]])
+tensor([[1., 3., 5.],
+        [2., 6., 0.]])
 ```
