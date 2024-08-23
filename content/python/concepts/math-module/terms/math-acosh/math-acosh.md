@@ -1,9 +1,9 @@
 ---
 Title: 'math.acosh()'
-Description: 'Returns the arccosh (inverse of the hyperbolic cosine) of a number.'
+Description: 'Computes the inverse hyperbolic cosine of a number.'
 Subjects:
-  - 'Data Science'
   - 'Computer Science'
+  - 'Data Science'
   - 'Discrete Math'
 Tags:
   - 'Functions'
@@ -14,17 +14,15 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`math.acosh()`** function in Python returns the inverse of the hyperbolic cosine, also known as the hyperbolic arccosine of a number.
+The **`math.acosh()`** function in Python returns the inverse hyperbolic cosine (also known as the hyperbolic arccosine) of a given number.
 
 ## Syntax
 
 ```pseudo
-math.acosh(*number)
+math.acosh(x)
 ```
 
-- `*number`: This represents the number for which to compute the hyperbolic arccosine.
-
-The `number` can be an `int` or `float` but must be greater than or equal to 1. If `number` is less than 1, it returns a `ValueError`.
+- `x`: The value for which the inverse hyperbolic cosine is computed. The input `x` must be a real number greater than or equal to *1*.
 
 ## Example
 
@@ -48,7 +46,7 @@ The output of the example code above is:
 ```shell
 0.0
 1.3169578969248166
-2.8287527602640226
+3.0422471120933285
 ```
 
 > Note: If `math.acosh()` function is called with an argument less than one (`1`), it will return a `ValueError`.
@@ -62,7 +60,7 @@ import math
 
 n = 0
 
-result = math.acosh(n)
+result = math.acosh(5)
 
 print(f"The Hyperbolic arccosine of {n} is {result}")
 ```
