@@ -49,7 +49,7 @@ The output of the example code above is:
 3.0422471120933285
 ```
 
-> Note: If `math.acosh()` function is called with an argument less than one (`1`), it will return a `ValueError`.
+> **Note:** If `math.acosh()` function is called with an argument less than one (`1`), it will return a `ValueError`.
 
 ## Codebyte Example
 
