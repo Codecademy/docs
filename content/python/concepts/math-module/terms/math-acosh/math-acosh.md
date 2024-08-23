@@ -22,7 +22,7 @@ The **`math.acosh()`** function in Python returns the inverse hyperbolic cosine 
 math.acosh(x)
 ```
 
-- `x`: The value for which the inverse hyperbolic cosine is computed. The input `x` must be a real number greater than or equal to *1*.
+- `x`: The value for which the inverse hyperbolic cosine is computed. The input `x` must be a real number greater than or equal to _1_.
 
 ## Example
 
