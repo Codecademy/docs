@@ -25,15 +25,17 @@ import torch.nn as nn
 
 # Define a neural network model
 class NeuralNetwork(nn.Module):
-  def __init__(self):
-    super(NeuralNetwork, self).__init__()
-    # Define layers, activations, and other components
+    def __init__(self):
+        super(NeuralNetwork, self).__init__()
+        # Define layers, activations, and other components here
+        # For example: self.layer1 = nn.Linear(in_features, out_features)
 
-  def forward(self, x):
-    # Implement forward pass of model
-    return output
+    def forward(self, x):
+        # Implement the forward pass of the model
+        # For example: x = self.layer1(x)
+        return x  # Replace 'x' with the final output after applying all layers
 
-  # Define other methods where necessary
+    # Define other methods if necessary
 ```
 
 - `NetworkNeural`: A custom neural network class that subclasses the `nn.Module`.
