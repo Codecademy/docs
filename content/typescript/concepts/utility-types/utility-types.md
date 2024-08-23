@@ -32,7 +32,7 @@ Where `T` is the typo you want to make all the properties optional.
 
 In this example, all the properties of the `User` interface are optional:
 
-```pseudo
+```ts
 interface User {
   name: string;
   age: number;
@@ -62,7 +62,7 @@ Where `T` is the typo you want to make all the properties mandatory.
 
 In this example, all the properties of the `User` interface (including the optional properties) are made mandatory:
 
-```pseudo
+```ts
 interface User {
   name: string;
   age?: number;
@@ -92,7 +92,7 @@ Where properties of `T` is marked as `Readonly`.
 
 In this example, attempting to reassign the value of `readonlyUser.age` generates an error:
 
-```pseudo
+```ts
 interface User {
   name: string;
   age: number;
@@ -124,7 +124,7 @@ where `K` are the properties you want to include from `T`.
 
 In this example, `Pick` is used to create a type from `User` that includes only the `name` and `email` fields, omitting `age`, without needing to declare a new interface:
 
-```pseudo
+```ts
 interface User {
   name: string;
   age: number;
@@ -155,7 +155,7 @@ where `K` properties are omitted from `T`.
 
 In this example, we removed the `age` property from the `User` interface:
 
-```pseudo
+```ts
 interface User {
   name: string;
   age: number;
@@ -186,7 +186,7 @@ where `K` represents the keys and `T` represents the values.
 
 In this example, it ensures that the keys are `strings` and the values are `numbers`.
 
-```pseudo
+```ts
 type Users = Record<string, number>;
 
 const userRoles: Users = {
@@ -214,7 +214,7 @@ where `U` are the properties you want to exclude from `T`.
 
 In this example, we exclude `apple` and `banana` from the union type, resulting in just `orange`:
 
-```pseudo
+```ts
 type fruits = 'apple' | 'banana' | 'orange';
 type ExcludedFruits = Exclude<T, 'apple' | 'banana'>; // "orange"
 ```
