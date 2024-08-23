@@ -33,7 +33,7 @@ WHERE column_name != value;
 
 ## Example
 
-The given query will select all employees who are not in the `Sales` department using the `NOT EQUAL TO`  operator.
+The given query will select all employees who are not in the `Sales` department using the `NOT EQUAL TO` operator.
 
 ```sql
 SELECT *
