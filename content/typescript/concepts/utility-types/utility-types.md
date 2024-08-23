@@ -50,7 +50,7 @@ const partialUser: Partial<User> = {
 
 ### Syntax
 
-Required in Typescript is written as:
+`Required` in Typescript is written as:
 
 ```ts
 Required<T>;
