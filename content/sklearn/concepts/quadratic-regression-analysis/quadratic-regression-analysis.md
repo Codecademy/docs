@@ -7,21 +7,22 @@ Subjects:
 Tags:
   - 'Machine Learning'
   - 'Supervised Learning'
+  - 'Unsupervised Learning'
   - 'Scikit-learn'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-**Quadratic Regression Analysis**, also known as second-order regression analysis, is a supervised learning technique that models non-linear behaviors, such as a parabolic shape, using a quadratic equation. The quadratic equation is a polynomial of the second degree, which can be written in the form:
+**Quadratic Regression Analysis**, also known as **Second-Order Regression Analysis**, is a supervised learning technique that models non-linear behaviors, such as a parabolic shape, using a quadratic equation. The quadratic equation is a polynomial of the second degree, which can be written in the following form:
 
-![The quadratic equation](https://raw.githubusercontent.com/Codecademy/docs/main/media/quadratic-equation.png)
+![The Quadratic Equation](https://raw.githubusercontent.com/Codecademy/docs/main/media/quadratic-equation.png)
 
-The goal of quadratic regression is to fit this equation to the observed data, providing a more refined, non-linear model of the data than linear regression.
+The goal of quadratic regression analysis is to fit this equation to the observed data, providing a more refined, non-linear model of the data than linear regression.
 
 ## Syntax
 
-In Scikit-Learn, quadratic regression is performed using the combination of `PolynomialFeatures` and `LinearRegression`.
+In Scikit-Learn, quadratic regression analysis is performed using the combination of `PolynomialFeatures` and `LinearRegression` classes:
 
 ```pseudo
 sklearn.preprocessing.PolynomialFeatures(degree=2, *, interaction_only=False, include_bias=True, order='C')
@@ -30,21 +31,21 @@ model = LinearRegression(fit_intercept=True, copy_X=True, n_jobs=None, positive=
 
 `PolynomialFeatures` has the following parameters:
 
-- `degree` (int, default=2): The degree of the polynomial features. For quadratic regression, this is set to `2`.
+- `degree` (int, default=2): The degree of the polynomial features.
 - `interaction_only` (bool, default=False): If `True`, only interaction features are produced (no powers of features).
 - `include_bias` (bool, default=True): If `True`, includes a bias column (constant term) in the output features.
-- `order` (str, default='C'): Order of the output array. 'C' means row-major (C-style), and 'F' means column-major (Fortran-style).
+- `order` (str, default='C'): The order of the output array. `C` means row-major (C-style) and `F` means column-major (Fortran-style).
 
 `LinearRegression` has the following parameters:
 
 - `fit_intercept`: Determines whether the model should calculate an intercept term. If `False`, the model is forced through the origin.
-- `copy_X`: If `True`, creates a deep copy of the input data to avoid modifying the original; otherwise, the input data might be overwritten.
+- `copy_X`: If `True`, creates a deep copy of the input data to avoid modifying the original. Otherwise, the input data might be overwritten.
 - `n_jobs`: Specifies the number of CPU cores to use for parallel computations. `-1` uses all available cores.
 - `positive`: If `True`, ensures that all coefficients are constrained to be positive values.
 
 ## Example
 
-The example below shows quadratic regression analysis by generating polynomial features with `PolynomialFeatures`, fitting a `LinearRegression` model, and making predictions.
+The example below shows quadratic regression analysis by generating polynomial features with `PolynomialFeatures`, fitting a `LinearRegression` model, and making predictions:
 
 ```py
 import numpy as np
@@ -66,18 +67,24 @@ model.fit(poly_features, labels)
 # Define sample test data
 test_data = np.array([[5], [6]])
 
-# Transform test data with the same PolynomialFeatures instance and predict labels
+# Transform test data with the same 'PolynomialFeatures' instance and predict labels
 test_poly_features = poly.transform(test_data)
 predictions = model.predict(test_poly_features)
 
 print(predictions)
 ```
 
+Here is the output for the above example:
+
+```shell
+[20. 25.]
+```
+
 ## Codebyte Example
 
-Run the following codebyte to understand quadratic regression by fitting a linear model to polynomial features:
+The following codebyte example demonstrates quadratic regression analysis by fitting a linear model to polynomial features:
 
-``` codebyte/python
+```codebyte/python
 import numpy as np
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import PolynomialFeatures
@@ -103,4 +110,4 @@ y_prediction = model.predict(X_test_poly)
 print(y_prediction)
 ```
 
-**Note:** The output predictions will vary due to the random generation of training data and noise in the model.
+> Note: The output predictions will vary due to the random generation of training data and noise in the model.
