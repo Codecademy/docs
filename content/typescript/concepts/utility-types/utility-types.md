@@ -1,6 +1,6 @@
 ---
 Title: 'Utility Types'
-Description: 'TypeScript provides several Utility Types that help in working with types in a more efficient way.'
+Description: 'Helps in working with data types more efficiently.'
 Subjects:
   - 'Web Development'
 Tags:
