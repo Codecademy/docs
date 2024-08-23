@@ -16,7 +16,7 @@ In SQL, the **Not Equal To** operator is used to compare two values. It returns 
 
 ## Syntax
 
-```sql
+```pseudo
 -- Using the <> operator
 SELECT column1, column2, ...
 FROM table_name
