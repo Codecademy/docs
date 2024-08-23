@@ -26,7 +26,7 @@ A partial is written as:
 Partial<T>;
 ```
 
-where `T` is the typo you want to make all the properties optional.
+Where `T` is the typo you want to make all the properties optional.
 
 ## Partial Example
 
