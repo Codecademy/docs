@@ -27,7 +27,7 @@ vector.emplace(position, Args&&... args);
 
 ## Example
 
-In the example below, an object of `MyClass` is directly constructed at the beginning of the vector using `.emplace()` with the arguments *10* and *20*. This method enhances efficiency by constructing the object in place, eliminating the need for any unnecessary temporary object creation.
+In the example below, an object of `MyClass` is directly constructed at the beginning of the vector using `.emplace()` with the arguments *10* and *20*. This function enhances efficiency by constructing the object in place, eliminating the need for any unnecessary temporary object creation.
 
 ```cpp
 #include <iostream>
