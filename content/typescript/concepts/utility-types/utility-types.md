@@ -56,7 +56,7 @@ Required in Typescript is written as:
 Required<T>;
 ```
 
-where `T` is the typo you want to make all the properties mandatory.
+Where `T` is the typo you want to make all the properties mandatory.
 
 ## Required Example
 
