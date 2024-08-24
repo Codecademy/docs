@@ -20,36 +20,26 @@ Ordinal scales are mostly used for names and categorical data where there is a d
 
 ## Syntax
 
-
-D3.scaleOrdinal() generally takes the following form:
+`D3.scaleOrdinal()` generally takes the following form:
 
 ```pseudo
 d3.scaleOrdinal([[domain, ]range]);               
 ```
 
-* **domain**
+1. **domain**
 
     This domain is the input value that will be mapped. it defines the minimum and maximum values for the scale.
     
-* **range**
+2.  **range**
 
     The range is the output value that will be mapped. Every value in domain synchronize with value in the range.
-    
-* **return value**
-
-    This function does not return anything.
-    
-    
+        
 ## Example
 
 The code snippet is paricularly useful in data visualization tasks when you need to map specific categories (like numbers to positions). In the java script code snippet below, it shows three runners who are competiting in a race, the first person finishes the race in five minutes and thirty-three seconds while the second person finishes the race in five minutes and forty-five seconds. The third person finishes the race in six minutes and three seconds. From the code snippet, we can deduct the different positions and differences from the value of the range. Without the range, it would be impossible to get more data about the domain.
-
 
 ```js
 const positionScale = d3.scaleOrdinal()
                     .domain(['First', 'Second', 'Third'])
                     .range([5.33, 5.45, 6.03]);      
 ```
-
-
-
