@@ -1,17 +1,17 @@
 ---
-Title: 'math.erf()' 
-Description: 'Returns the error function of a number.' 
-Subjects: 
+Title: 'math.erf()'
+Description: 'Returns the error function of a number.'
+Subjects:
   - 'Computer Science'
   - 'Data Science'
   - 'Discrete Math'
   - 'Machine Learning'
-Tags: 
+Tags:
   - 'Arithmetic'
   - 'Functions'
   - 'Math'
   - 'Statistics'
-CatalogContent: 
+CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
@@ -26,11 +26,11 @@ math.erf(n)
 
 - `n`: A real number for which the error function is to be computed.
 
-The `math.erf()` function accepts any real number from negative infinity to positive infinity as input and returns a value between *-1* and *1*, representing the error function of that number.
+The `math.erf()` function accepts any real number from negative infinity to positive infinity as input and returns a value between _-1_ and _1_, representing the error function of that number.
 
 ## Example
 
-In the example below, `math.erf()` returns the error function of *`1`*:
+In the example below, `math.erf()` returns the error function of _`1`_:
 
 ```py
 import math
@@ -38,13 +38,13 @@ import math
 print(math.erf(1))
 ```
 
-The above code gives the following output: 
+The above code gives the following output:
 
 ```shell
 0.8427007929497149
 ```
 
-## Codebyte Example 
+## Codebyte Example
 
 Run the following example that uses the `math.erf()` function to understand its working:
 
