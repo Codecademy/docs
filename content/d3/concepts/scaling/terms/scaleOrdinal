@@ -1,6 +1,6 @@
 ---
 Title: 'D3.scaleOrdinal()'
-Description: Using scaleordinal() to build ordinal scale with identified domain and range values.  
+Description: Used to build an ordinal scale with identified domain and range values.  
 Subjects: 
   - 'Data Visualization'
   - 'Data Science'
