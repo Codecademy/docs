@@ -61,7 +61,7 @@ If the values within a tensor do matter, use the following methods:
 
 The following examples demonstrate creating data-specific tensors:
 
-```python
+```py
 import torch
 
 print(torch.zeros(3,2),"\n")
