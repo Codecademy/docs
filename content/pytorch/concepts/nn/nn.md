@@ -2,19 +2,18 @@
 Title: 'PyTorch nn'
 Description: 'Build and train neural network models with a range of layers, activations, loss functions and optimisation algorithms.'
 Subjects:
+  - 'AI'
   - 'Machine Learning'
   - 'Computer Science'
-  - 'AI'
 Tags:
   - 'AI'
   - 'Neural Networks'
 CatalogContent:
-  - 'paths/data-science'
+  - 'intro-to-py-torch-and-neural-networks'
+  - 'py-torch-for-classification'
 ---
 
-## Introduction
-
-The `**torch.nn**` module in PyTorch provides the foundation for building and training neural network models. It includes a wide range of pre-built layers, activation functions, loss functions, and other components necessary for creating complex deep-learning models. The `torch.nn` module is highly flexible and customizable, allowing developers to design and implement neural network architectures tailored to specific tasks.
+The **`torch.nn`** module in PyTorch provides the foundation for building and training neural network models. It includes a wide range of pre-built layers, activation functions, loss functions, and other components necessary for creating complex deep learning models. The `torch.nn` module is highly flexible and customizable, allowing developers to design and implement neural network architectures tailored to specific tasks.
 
 ## Syntax
 
@@ -44,7 +43,7 @@ class NeuralNetwork(nn.Module):
 
 The following example demonstrates how to define a simple neural network model using the `nn.Module` with two fully connected layers, apply a ReLU activation function to the first layer's output, and create an instance of the model:
 
-```python
+```py
 import torch
 import torch.nn as nn
 
