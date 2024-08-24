@@ -58,7 +58,7 @@ import numpy as np
 # Cosine values within the range [-1, 1]
 cos_values = np.array([1, 0.5, 0, -0.5, -1])
 
-# Create an empty array to store the results
+# Calculate the arccosine and let NumPy handle the output array
 out = np.arccos(cos_values)
 
 np.arccos(cos_values, out=out)
