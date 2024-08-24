@@ -34,7 +34,7 @@ This creates a tensor, `myTensor`, with whatever data values happen to already b
 
 The following demonstrates creating a matrix (2-dimensional tensor) with dimension sizes of 2 and 3:
 
-```python
+```py
 import torch
 
 myTensor = torch.empty(2,3)
