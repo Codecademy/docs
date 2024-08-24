@@ -41,7 +41,7 @@ myTensor = torch.empty(2,3)
 print(myTensor)
 ```
 
-Output:
+This results in the following output:
 
 ```shell
 tensor([[0., 0., 0.],
@@ -70,7 +70,7 @@ print(torch.tensor([[1,0,1.56],[3.24, 0.5, 6]]),"\n")
 print(torch.rand(2,2,2))
 ```
 
-Output:
+This results in the following output:
 
 ```shell
 tensor([[0., 0.],
@@ -131,7 +131,7 @@ print(myBoolTensor,"\n")
 print(myExFloat16Tensor)
 ```
 
-Output:
+This results in the following output:
 
 ```shell
 tensor([[ True, False],
@@ -156,7 +156,7 @@ myTensor = torch.zeros(2, 4, 6, 7)
 print(myTensor.shape)
 ```
 
-Output:
+This results in the following output:
 
 ```shell
 torch.Size([2, 4, 6, 7])
@@ -185,7 +185,7 @@ myTensor1.squeeze_(4)
 print(myTensor1.shape)
 ```
 
-Output:
+This results in the following output:
 
 ```shell
 torch.Size([8, 2, 8, 1])
@@ -210,7 +210,7 @@ myTensor = myTensor.reshape(64,2)
 print(myTensor.shape)
 ```
 
-Output:
+This results in the following output:
 
 ```shell
 torch.Size([8, 2, 8, 1])
