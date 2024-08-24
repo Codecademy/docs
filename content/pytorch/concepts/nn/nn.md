@@ -14,7 +14,7 @@ CatalogContent:
 
 ## Introduction
 
-The **`nn module`** in PyTorch provides the foundation to build and train neural network models. It contains various layers, activation functions, loss functions, and optimization algorithms that enable the creation of complex deep-learning models. The `nn module` is highly customizable, enabling developers to construct neural network architectures.
+The `**torch.nn**` module in PyTorch provides the foundation for building and training neural network models. It includes a wide range of pre-built layers, activation functions, loss functions, and other components necessary for creating complex deep-learning models. The `torch.nn` module is highly flexible and customizable, allowing developers to design and implement neural network architectures tailored to specific tasks.
 
 ## Syntax
 
