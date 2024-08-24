@@ -149,7 +149,7 @@ The shape of a tensor is determined by its number of dimensions and the size of 
 
 Tensor shapes can be accessed via the `.shape` method:
 
-```python
+```py
 import torch
 
 myTensor = torch.zeros(2, 4, 6, 7)
@@ -172,7 +172,7 @@ Since dimensions of with a size of 1 do not alter the total number of elements i
 
 The following demonstrates the effects of `.unsqueeze_()` and `.squeeze_()` on tensor shapes:
 
-```python
+```py
 import torch
 
 myTensor1 = torch.empty(8, 2, 8, 1)
@@ -197,7 +197,7 @@ One can also create new tensors by squeezing or unsqueezing other tensors. To do
 
 Tensor shapes can also be changed arbitrarily using `.reshape()`, provided that the total number of elements remains constant:
 
-```python
+```py
 import torch
 
 myTensor = torch.empty(8, 2, 8, 1)
