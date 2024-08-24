@@ -115,7 +115,7 @@ The datatype of a tensor determines the types of values that it can contain. By 
 
 Tensor datatypes can be declared at the creation of a datatype, and can be changed with the method `.to()`:
 
-```python
+```py
 import torch
 
 #Create a boolean tensor by explicit declaration
