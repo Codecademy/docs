@@ -28,7 +28,7 @@ SUBSTRING(string, start, length)
 - `string`: string to extract from.
 - `start`: starting index from which the substring will start, minimum possible value is 1.
 - `length`: number of characters to extract.
-  
+
 > **Note:** Be aware that not all services support this function, Oracle and SQLite use a different one to accomplish the same goal, and the function is written as `SUBSTR`.
 
 ## Examples
