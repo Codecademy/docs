@@ -44,7 +44,7 @@ A method named `.helloWorld()` that prints the statement `Hello World` is define
 ```dart
 class Hello {
   void helloWorld() {
-    print("Hello World!");  
+    print("Hello World!");
   }
 }
 
@@ -70,7 +70,7 @@ A method can return a value when it reaches the end of its execution. A `return`
   // Code statements are placed before the return statement
   ...
   ...
-  return <value>       
+  return <value>
 }
 ```
 
@@ -109,8 +109,8 @@ In the following example, a method called `.returnAnyType()` has no specified re
 ```dart
 class AnyDataType {
   returnAnyType(int number) {
-    if (number == 1) { 
-      return 2 + 2;       
+    if (number == 1) {
+      return 2 + 2;
     } else if (number == 2) {
       return 2.5 - 1;
     } else if (number == 3) {
@@ -124,16 +124,20 @@ class AnyDataType {
 void main() {
   AnyDataType data = new AnyDataType();
 
-  int integer = data.returnAnyType(1);               // returns an int value
+  // returns an int value
+  int integer = data.returnAnyType(1);
   print(integer);
 
-  double decimal = data.returnAnyType(2);            // returns a double value
+  // returns a double value
+  double decimal = data.returnAnyType(2);
   print(decimal);
 
-  String string = data.returnAnyType(3);             // returns a String object
+  // returns a String object
+  String string = data.returnAnyType(3);
   print(string);
 
-  bool boolean = data.returnAnyType(4);              // returns a bool value
+  // returns a bool value
+  bool boolean = data.returnAnyType(4);
   print(boolean);
 }
 ```
@@ -220,7 +224,7 @@ void main() {
   // Error: There are only 2 arguments in a method call that requires 3 arguments.
   Measure.volume(arg1, arg2);
 
-                                                                                                                                                     jm  j// Error: The third argument's data type doesn't match that of the method's third parameter.
+  // Error: The third argument's data type doesn't match that of the method's third parameter.
   Measure.volume(arg1, arg2, "abc");
 }
 ```
@@ -290,7 +294,7 @@ class Math {
   // The second and third parameters are named optional parameters that both have a default value of 1: {int width = 1}, {int height = 1}
   static void measure(int length, {int width = 1, int height = 1}) {
     int measurement = length * width * height;
-    print(measurement); 
+    print(measurement);
   }
 }
 
@@ -329,8 +333,9 @@ class Hello {
 }
 
 void main() {
-  Hello hi = new Hello();    // A Hello object must be instatiated first
-  hi.helloWorld();           // and then it can invoke a Hello instance method
+  // A Hello object must be instantiated first and then it can invoke a Hello instance method
+  Hello hi = new Hello();
+  hi.helloWorld();
 }
 ```
 
@@ -363,7 +368,7 @@ void main() {
 }
 ```
 
-> **Note:** This type of method requires a `static` keyword at the beginning of its declaration header for the program to indicate that it is a static method otherwise, it will cause a compliation error.
+> **Note:** This type of method requires a `static` keyword at the beginning of its declaration header for the program to indicate that it is a static method otherwise, it will cause a compilation error.
 
 Output:
 
@@ -381,7 +386,7 @@ In the below example, a short-hand instance method called `.divide()` and a shor
 
 ```dart
 class Math {
-  // A short-hand method can be either a instance or static type and is defined on a single line of code
+  // A short-hand method can be either an instance or static type and is defined on a single line of code
   double divide(int number1, int number2) => (number1 / number2);
   static int multiply(int number1, int number2) => (number1 * number2);
 }
