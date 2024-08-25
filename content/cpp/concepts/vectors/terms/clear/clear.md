@@ -25,9 +25,9 @@ The `vector` must be defined using `std::vector` before the `.clear()` method ca
 
 ## Example
 
-In the example below, `.clear()` is called on the `numbers` vector:
+In the example below, `.clear()` method is called on the `numbers` vector:
 
-````cpp
+```cpp
 #include <iostream>
 #include <vector>
 
@@ -44,6 +44,7 @@ int main() {
   // Print out the size after clear method is called
   std::cout << "After: " << numbers.size()<<"\n";
 }
+```
 
 The output of the above code is:
 
