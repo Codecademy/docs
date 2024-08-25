@@ -59,7 +59,7 @@ Which yields:
 40
 ```
 
-The following example creates the function getUsers to simulate a response.status. Each status returns a different message, and for this, we use the `...` rest operator to pass all the possible messages that can be presented. All the messages are grouped into the params array and later selected to appear in the console.log output:
+The following example creates the function `getUsers` to simulate a `response.status`. Each status returns a different message, and for this, we use the `...` rest operator to pass all the possible messages that can be presented. All the messages are grouped into the params array and later selected to appear in the console.log output:
 
 ```codebyte/js
 class TestRest {
