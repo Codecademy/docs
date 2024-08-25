@@ -307,6 +307,7 @@ void main() {
   Math.measure(height: 6, width: 3, 5);
 }
 ```
+
 > **Note:** A named argument in a method call doesn't have to be in the same position as its named parameter is in a method declaration, only as long as they are not mixed up with positioned parameters. Also, a named parameter's value will default to `null` if no default value is set for it in the method definition.
 
 ## Method Types
