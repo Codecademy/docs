@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-The **`size()`** method returns a `torch-size` object containing the size information. 
+The **`size()`** method returns a `torch-size` object containing the size information of a Pytorch tensor. It is a fundamental function used in PyTorch to obtain the tensor's shape and is specifically used for dynamic operations. You can also access specific dimensions using tuples. 
 
 ## Syntax
 
