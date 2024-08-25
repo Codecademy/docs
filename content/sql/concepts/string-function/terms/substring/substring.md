@@ -1,7 +1,7 @@
 ---
 Title: '.SUBSTRING()'
-Description: 'Extracts a part of a string.' 
-Subjects: 
+Description: 'Extracts a part of a string.'
+Subjects:
   - 'Data Science'
   - 'Data Visualization'
 Tags:
