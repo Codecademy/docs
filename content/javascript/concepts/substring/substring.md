@@ -68,3 +68,15 @@ const str = 'Codecademy';
 console.log(str.substring(str.length - 6));
 // Output: cademy
 ```
+
+## Example 3
+
+Using `.substring()` to display the last charecters from a given string based on another string's length.
+
+```javascript
+const str1 = 'Code';
+const str2 = 'Codecademy';
+
+console.log(str2.substring(str1.length, str2.length));
+// Output: cademy
+```
