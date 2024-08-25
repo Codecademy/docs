@@ -68,6 +68,8 @@ predictions = model.predict(np.array([[6], [7]]))
 print(f"Predictions for 6 and 7 hours studied: {predictions}")
 ```
 
+Here is the output for the above example:
+
 ```py#Output
 Predictions for 6 and 7 hours studied: [12. 14.]
 ```
