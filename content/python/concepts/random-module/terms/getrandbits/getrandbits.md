@@ -14,14 +14,13 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-In the Python `random` module, the `.getrandbits()` method is used to generate a pseudo-random integer with a specified number of bits
+In the Python `random` module, the **`.getrandbits()`** method is used to generate a pseudo-random integer with a specified number of bits
 
 ## Syntax
 
 ```pseudo
 random.getrandbits(k)
 ```
-
 Where `k` is the number of bits in the generated integer. The `k` must be a non-negative integer. The result will range from 0 —2<sup>k</sup> - 1.
 
 ## Example
