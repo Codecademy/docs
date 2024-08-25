@@ -4,7 +4,7 @@ Description: 'A reusable set of code instructions defined in a class and invoked
 Subjects:
   - 'Computer Science'
   - 'Data Science'
-Tags: 
+Tags:
   - 'Dart'
   - 'Arithmetic'
   - 'Functions'
