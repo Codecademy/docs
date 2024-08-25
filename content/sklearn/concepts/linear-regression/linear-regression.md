@@ -16,14 +16,14 @@ CatalogContent:
 
 **Linear Regression** is a technique which is used to predict an unknown data(a.k.a unknown variable) using the known data. The unknown variable is known as dependent variable and the known data is called as independent variable. For instance, You have the data about savings and income of last few years. Linear regression can be used to predict your future unknown savings based on your future known income.
 
-**Linear Regression equation : y=mx+b**
+## Linear Regression equation : y=mx+b
 
 - `y` is the value you want to predict (like test savings).
 - `x` is the value you have (like income).
 - `m` is the slope of the line, showing how much `𝑦` changes for each unit change in `𝑥`.
 - `b` is the intercept, the point where the line crosses the y-axis.
 
-**Implementing Linear Regression with scikit-learn**
+## Implementing Linear Regression with scikit-learn
 
 Let's dive into how to perform linear regression using scikit-learn with a step-by-step example.
 
