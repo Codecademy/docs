@@ -7,8 +7,8 @@ Subjects:
 Tags:
   - 'Data Structures'
   - 'Functions'
-  - 'Vectors'
   - 'Methods'
+  - 'Vectors'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
@@ -21,19 +21,25 @@ In C++, the **`.assign()`** method is used with [`vectors`](https://www.codecade
 ## Syntax
 
 ```pseudo
-vector.assign(n, value);
-vector.assign(first, last);
+vector.assign(size, value);
 ```
 
 - `vector`: The instance of the `std::vector` class where the elements will be assigned.
-- `n`: The number of elements to be assigned.
-- `value`: The value to be assigned to each element.
+- `count`: The number of elements to assign to the vector.
+- `value`: The value to be assigned to each of the `count` elements.
+
+Alternatively, the other syntax is:
+
+```pseudo
+vector.assign(first, last);
+```
+
 - `first`: The iterator pointing to the beginning of the range to be copied.
-- `last`: The iterator pointing to the end of the range to be copied.
+- `last`: The iterator pointing just past the end of the range to be copied. This element is excluded from the range.
 
 ## Example
 
-In the following example, the .assign() method is demonstrated in two distinct ways. First, it fills the vector with a specified number of copies of a given value. Second, it replaces the vector's elements with values from a specified range.\
+In the following example, the `.assign()` method is demonstrated in two distinct ways. First, it fills the vector with a specified number of copies of a given value. Second, it replaces the vector's elements with values from a specified range:
 
 ```cpp
 #include <iostream>
