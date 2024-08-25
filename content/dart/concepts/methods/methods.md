@@ -278,7 +278,7 @@ Optional parameters can also be set to **named optional** parameters, by wrappin
 }
 ```
 
-To pass a value to a named parameter, the value must be referenced by the same name as the parameter it is being passed to in the method call. 
+To pass a value to a named parameter, the value must be referenced by the same name as the parameter it is being passed to in the method call.
 
 #### Example
 
@@ -305,7 +305,7 @@ void main() {
   Math.measure(width: 3, 5, height: 6);
   // Error: Position of 'height: 6' overlaps with positioned parameter 'int length'
   Math.measure(height: 6, width: 3, 5);
-} 
+}
 ```
 > **Note:** A named argument in a method call doesn't have to be in the same position as its named parameter is in a method declaration, only as long as they are not mixed up with positioned parameters. Also, a named parameter's value will default to `null` if no default value is set for it in the method definition.
 
@@ -341,7 +341,7 @@ Hello World!
 
 ### Static Method
 
-It is possible to invoke a class method without instantiating an object firsthand, which is known as a **static** method. This type of method is invoked with its class name instead of a class object. 
+It is possible to invoke a class method without instantiating an object firsthand, which is known as a **static** method. This type of method is invoked with its class name instead of a class object.
 
 #### Example
 
