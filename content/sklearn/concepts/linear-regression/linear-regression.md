@@ -23,8 +23,7 @@ CatalogContent:
 - `m` is the slope of the line, showing how much `𝑦` changes for each unit change in `𝑥`.
 - `b` is the intercept, the point where the line crosses the y-axis.
 
-
-##Implementing Linear Regression with scikit-learn
+**Implementing Linear Regression with scikit-learn**
 
 Let's dive into how to perform linear regression using scikit-learn with a step-by-step example.
 
@@ -73,4 +72,3 @@ Here is the output for the above example:
 ```py#Output
 Predictions for 6 and 7 hours studied: [12. 14.]
 ```
-
