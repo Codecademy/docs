@@ -46,4 +46,3 @@ The result would be:
 | ExtractString |
 | ------------- |
 |Code           |
-
