@@ -1,6 +1,6 @@
 ---
 Title: '.size()'
-Description: 'Returns the size of the self tensor.'
+Description: 'Returns the size of the self tensor as a tuple of integers.'
 Subjects:
   - 'Machine Learning'
   - 'Data Science'
@@ -9,14 +9,14 @@ Tags:
   - 'Data Structures'
   - 'Deep Learning'
   - 'Methods'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+CatalogContent: 
   - 'learn-python-3'
   - 'paths/computer-science'
   - 'paths/data-science'
   - 'paths/data-science-foundations'
 ---
 
-The **`size()`** method returns a `torch.Size` object containing the size information. 
+The **`size()`** method returns a `torch-size` object containing the size information. 
 
 ## Syntax
 
@@ -46,4 +46,15 @@ The code above generates the following output:
 ```shell
 torch.Size([3, 4, 5])
 4
+```
+
+## Codebyte Example
+
+```codebyte/python
+import torch
+
+t = torch.empty(3, 4, 5)
+
+print(t.size())
+print(t.size(dim=1))
 ```
