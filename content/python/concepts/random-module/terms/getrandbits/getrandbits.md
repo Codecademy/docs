@@ -36,7 +36,7 @@ random_bits = random.getrandbits(256)
 
 ## Codebyte Example (if applicable)
 
-In the example below, the `.getrandbits()` method is used to generate a pseudo-random integer that takes up 8 bits in binary. 
+In the example below, the `.getrandbits()` method is used to create a 
 
 ```codebyte/python
 import random 
