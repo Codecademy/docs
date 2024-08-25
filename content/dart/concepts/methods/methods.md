@@ -41,12 +41,24 @@ class ClassName {
 
 A method named `.helloWorld()` that prints the statement `Hello World` is defined in a `Hello` class:
 
-```pseudo
+```dart
 class Hello {
   void helloWorld() {
     print("Hello World!");  
   }
 }
+
+void main(){
+   // Create an instance of the Hello class
+   var hello = Hello();
+
+   // Call the helloWorld method
+   hello.helloWorld();
+}
+```
+
+```shell
+Hello World!
 ```
 
 ## Return Value
@@ -61,6 +73,8 @@ A method can return a value when it reaches the end of its execution. A `return`
   return <value>       
 }
 ```
+
+### Example 1
 
 In the following example, the method `.subtraction()` finds the difference of two numbers and returns the calculated result as an `int` value:
 
@@ -86,7 +100,11 @@ Output:
 3
 ```
 
-By default, a method without a specified return type can return a value of any data type. In the following example, a method called `.returnAnyType()` has no specified return type in its declaration and thus can return a value or object of any type:
+By default, a method without a specified return type can return a value of any data type.
+
+### Example 2
+
+In the following example, a method called `.returnAnyType()` has no specified return type in its declaration and thus can return a value or object of any type:
 
 ```dart
 class AnyDataType {
@@ -129,22 +147,15 @@ String
 false
 ```
 
-A method can also be explicitly stated to not return a value at all by using the `void` return type:
-
-```pseudo
-// The 'void' keyword indicates this method is not intended to return a value
-void methodName() {
-  print("This void method is not allowed to return a value");
-}
-```
+> **Note:** A method can also be explicitly stated to not return a value at all by using the `void` return type
 
 ## Parameters
 
-A **parameter** enables a method to pass in a value that is defined outside its local scope as an argument. A method can have any number of parameters and they are all placed within the `( )` parentheses that are next to its declaration name:
+A **parameter** enables a method to pass in a value defined outside its local scope as an argument. A method can have any number of parameters and they are all placed within the `()` parentheses that are next to its declaration name:
 
 ```pseudo
 <return_type> methodName(<data_type> parameter1, <data_type> parameter2, ...) {
- 
+
 }
 ```
 
@@ -154,6 +165,8 @@ A method call with arguments that get passed into the method itself:
 ClassName classObject = new ClassName();
 classObject.methodName(argument1, argument2, ...);
 ```
+
+### Example
 
 In the following example, the method `.helloThere()` uses a parameter (`String` *name*) to pass in a `String` object ("Ben") as an argument from outside its scope and prints a statement using that argument:
 
@@ -182,7 +195,9 @@ There are two types of parameters that can be used in defining a method: **Requi
 
 ### Required Parameters
 
-When a method with a required parameter is invoked, its method call will require an argument that matches the parameter's type. For example, in the `.volume()` method it uses three required parameters (*length*, *width*, and *height*) that are all `int` types. When the `.volume()` method is invoked, it's method call needs 3 `int` arguments within its `( )` parentheses for the method to run properly:
+When a method with a required parameter is invoked, its method call will require an argument that matches the parameter's type. For example, in the `.volume()` method it uses three required parameters (**length**, **width**, and **height**) that are all `int` types. When the `.volume()` method is invoked, it's method call needs 3 `int` arguments within its `( )` parentheses for the method to run properly:
+
+#### Example
 
 ```dart
 class Measure {
@@ -205,7 +220,7 @@ void main() {
   // Error: There are only 2 arguments in a method call that requires 3 arguments.
   Measure.volume(arg1, arg2);
 
-  // Error: The third argument's data type doesn't match that of the method's third parameter.
+                                                                                                                                                     jm  j// Error: The third argument's data type doesn't match that of the method's third parameter.
   Measure.volume(arg1, arg2, "abc");
 }
 ```
@@ -226,7 +241,9 @@ An optional parameter can be set as a **positioned optional** parameter. The par
 }
 ```
 
-For example, the `.greetings()` method takes two parameters, a required parameter (`String` *firstName*) and a positional parameter [`String?` *lastName*], and prints a greeting message with a person's first name and last name:
+#### Example
+
+In the below example, the `.greetings()` method takes two parameters, a required parameter (`String` **firstName**) and a positional parameter (`String?` **lastName**), and prints a greeting message with a person's first name and last name:
 
 ```dart
 class Hello {
@@ -248,6 +265,7 @@ Output:
 Greetings. My name is George null
 Greetings. My name is George Washington
 ```
+
 > **Note:** If a value is not passed in as an argument for a positioned optional parameter during a method call, then that parameter's value will default to `null` instead. Therefore, it is best to set a positioned parameter equal to a default value within its `[ ]` brackets, and without appending the `?` symbol to that parameter's data type.
 
 ### Named Optional Parameters
@@ -260,7 +278,11 @@ Optional parameters can also be set to **named optional** parameters, by wrappin
 }
 ```
 
-To pass a value to a named parameter, the value must be referenced by the same name as the parameter it is being passed to in the method call. For example, the `.measure()` method uses two named optional parameters, {`int?` *width*} and {`int?` *height*}, along with a required parameter (`int` *length*), and calculates a measurement:
+To pass a value to a named parameter, the value must be referenced by the same name as the parameter it is being passed to in the method call. 
+
+#### Example
+
+In the below example, the `.measure()` method uses two named optional parameters, {`int?` *width*} and {`int?` *height*}, along with a required parameter (`int` *length*), and calculates a measurement:
 
 ```dart
 class Math {
@@ -291,7 +313,11 @@ void main() {
 
 ### Instance Method
 
-An **instance** method is a function that runs only when it is invoked with a class instance object. For example, the `.helloWorld()` instance method runs only when it is invoked with an instantiated `Hello` object:
+An **instance** method is a function that runs only when it is invoked with a class instance object.
+
+#### Example
+
+In the below example `.helloWorld()` instance method runs only when it is invoked with an instantiated `Hello` object:
 
 ```dart
 class Hello {
@@ -315,7 +341,11 @@ Hello World!
 
 ### Static Method
 
-It is possible to invoke a class method without instantiating an object firsthand, which is known as a **static** method. This type of method is invoked with its class name instead of a class object. For example, a static method called `.addition()` is called by invoking it with the `Math` class it was defined in:
+It is possible to invoke a class method without instantiating an object firsthand, which is known as a **static** method. This type of method is invoked with its class name instead of a class object. 
+
+#### Example
+
+In the below example, a static method called `.addition()` is called by invoking it with the `Math` class it was defined in:
 
 ```dart
 class Math {
@@ -331,6 +361,7 @@ void main() {
   Math.addition(5, 7);
 }
 ```
+
 > **Note:** This type of method requires a `static` keyword at the beginning of its declaration header for the program to indicate that it is a static method otherwise, it will cause a compliation error.
 
 Output:
@@ -341,7 +372,11 @@ Output:
 
 ### Short-Hand Method
 
-A method, whether it is an instance or a static type, can be written in a **short-hand** expression. It uses a shorthand arrow `=>` instead of `{ }` brackets to define the functionality all on a single instruction line. For example, a short-hand instance method called `.divide()` and a short-hand static method called `.multiply()` are both defined and invoked:
+A method, whether it is an instance or a static type, can be written in a **short-hand** expression. It uses a shorthand arrow `=>` instead of `{ }` brackets to define the functionality all on a single instruction line.
+
+#### Example
+
+In the below example, a short-hand instance method called `.divide()` and a short-hand static method called `.multiply()` are both defined and invoked:
 
 ```dart
 class Math {
@@ -360,6 +395,7 @@ void main() {
   print(product);
 }
 ```
+
 > **Note:** In the case of a short-hand method, a `return` keyword is not used in it's expression and will thus return the specified result by default.
 
 Output:
