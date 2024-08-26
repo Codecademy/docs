@@ -23,15 +23,17 @@ numpy.arccos(array, out = None, where=True)
 
 - `array`: An array-like or scalar containing cosine values. The function computes the inverse cosine of each element.
 - `out`: An optional parameter specifying an array where the result will be stored. If not provided, a new array is created.
-- `where`: A condition or boolean array that determines which elements of `array` are used to compute the tangent. The tangent is computed only for elements where the condition is `True`, other elements remain unchanged.
+- `where`: A condition or boolean array that determines which elements of `array` are used to compute the inverse cosine. The inverse cosine is computed only for elements where the condition is `True`; other elements remain unchanged.
 
 ## Example
+
+In the example below, the `.arccos()` function calculates the inverse cosine of each element in a NumPy array and prints the resulting angles in radians:
 
 ```py
 import numpy as np
 
 # Array of cosine values within the range [-1, 1]
-cos_values = x = np.array([1, 0, -1])
+cos_values = np.array([1, 0, -1])
 
 # Compute the arccosine of each element
 angles_in_radians = np.arccos(cos_values)
