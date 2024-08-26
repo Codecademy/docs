@@ -22,7 +22,7 @@ math.acos(x)
 
 - `x`: A number between `-1` and `1` representing the cosine value for which the arc cosine is to be calculated.
 
-The `math.acos()` function returns a numeric value between 0 and π, which represents the inverse cosine of the value `n`.
+The `math.acos()` function returns a numeric value between 0 and π, which represents the inverse cosine of the value `x`
 
 ## Example
 
