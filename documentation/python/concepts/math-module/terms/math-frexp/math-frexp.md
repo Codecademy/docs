@@ -26,7 +26,7 @@ import math
 print(math.frexp(10))
 ```
 The above code gives the following output:
-```py
+```shell
 (0.625, 4)
 ```
 
