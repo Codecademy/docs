@@ -59,21 +59,27 @@ Which yields:
 40
 ```
 
-The following example creates the function `getUsers` to simulate a `response.status`. Each status returns a different message, and for this, we use the `...` rest operator to pass all the possible messages that can be presented. All the messages are grouped into the params array and later selected to appear in the console.log output:
+## Codebyte Example
 
-```codebyte/js
+The following codebyte example creates the function `getUsers` to simulate a `response.status`. Each status returns a different message and for this, the `...` rest operator is used to pass all the possible messages that can be presented. All the messages are grouped into the `param` array and later selected to appear in the output:
+
+```codebyte/javascript
 class TestRest {
   constructor() {
-    this.successUpdate = 'Success update!'this.successInsert = 'Success insert!'this.error = 'Error!'this.errorNotFound = 'Data not found!'this.errorNotAvaliable = 'Process not avaliable!'this.errorAction = 'You will be redirect!'
+    this.successUpdate = 'Successful update!'
+    this.successInsert = 'Successful insert!'
+    this.error = 'Error!'
+    this.errorNotFound = 'Data not found!'
+    this.errorNotAvaliable = 'Process not avaliable!'
+    this.errorAction = 'You will be redirected!'
   }
 }
 
 let tr = new TestRest()
 
 function getUsers(...param) {
-  let response = {
-    status: [200, 201, 404, 500]
-  }
+  let response = { status: [200, 201, 404, 500] }
+
   let randomI = Math.floor(Math.random() * response.status.length)
 
   if (response.status[randomI] === 200) {
@@ -81,21 +87,18 @@ function getUsers(...param) {
   } else if (response.status[randomI] === 201) {
     return param[1]
   } else if (response.status[randomI] === 404) {
-    return`$ {
-      param[2]
-    },
-    $ {
-      param[3]
-    }`
+    return `${param[2]} ${param[3]}`
   } else if (response.status[randomI] === 500) {
-    return`$ {
-      param[4]
-    },
-    $ {
-      param[5]
-    }`
+    return `${param[4]} ${param[5]}`
   }
 }
 
-console.log(getUsers(tr.successUpdate, tr.successInsert, tr.error, tr.errorNotFound, tr.errorNotAvaliable, tr.errorAction))
+console.log(getUsers(
+  tr.successUpdate,
+  tr.successInsert,
+  tr.error,
+  tr.errorNotFound,
+  tr.errorNotAvaliable,
+  tr.errorAction
+))
 ```
