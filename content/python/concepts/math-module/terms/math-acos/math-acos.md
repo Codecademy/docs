@@ -17,7 +17,7 @@ In Python, the **`math.acos()`** function returns the arc cosine (inverse cosine
 ## Syntax
 
 ```pseudo
-math.acos(n)
+math.acos(x)
 ```
 
 The `math.acos()` function returns a numeric value between 0 and π, which represents the inverse cosine of the value `n`.
