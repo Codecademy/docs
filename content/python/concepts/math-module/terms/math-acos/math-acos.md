@@ -26,7 +26,7 @@ The `math.acos()` function returns a numeric value between 0 and π, which repre
 
 ## Example
 
-Use `math.acos()` to return the inverse cosine of a numeric value between 0 and π:
+The example below demonstrates the use of `math.acos()` function to return the inverse cosine of a numeric value:
 
 ```py
 import math
