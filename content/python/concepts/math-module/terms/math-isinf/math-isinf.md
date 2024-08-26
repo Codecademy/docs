@@ -20,35 +20,49 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-[Introduction - make sure first mention of concept is in **bold**.] (The first 160 characters of this section will appear as the description of the page when it shows up on search engines. It's important!)
+The **`math.isinf()`** [function](https://www.codecademy.com/resources/docs/python/functions) in Python checks whether a given value is infinite. It returns `True` if the value is positive or negative infinity, and `False` otherwise. This function is part of the `math` module and is useful when dealing with calculations that may result in infinite values.
 
-## Subsection 1
+## Syntax
 
-[Text about subsection 1]
-
-## Subsection 2
-
-[Text about subsection 2]
-
-## Subsection n
-
-[Text about subsection n]
-
-## Codebyte Example (if applicable)
-
-We can currently support:
-
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
-
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
-
-```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
+```pseudo
+math.isinf(value)
 ```
+
+- `value`: The number to be checked for infinity.
+
+The function returns a Boolean value: `True` if `value` is infinite, `False` otherwise.
+
+## Example
+
+The following example demonstrates how to use the `math.isinf()` function:
+
+```py
+import math
+
+print(math.isinf(float('inf')))  # Positive infinity
+print(math.isinf(float('-inf'))) # Negative infinity
+print(math.isinf(1000))          # Finite number
+```
+
+This code outputs:
+
+```shell
+True
+True
+False
+```
+
+## Codebyte Example
+
+Here’s a practical example using `math.isinf()`:
+
+```codebyte/python
+import math
+
+print(math.isinf(1e309))  # Very large number, close to infinity
+print(math.isinf(-1e309))  # Very large negative number, close to negative infinity
+print(math.isinf(float('inf')))  # Explicit positive infinity
+print(math.isinf(1000))  # A finite number
+```
+
+This code illustrates how `math.isinf()` detects infinite values in various scenarios.
