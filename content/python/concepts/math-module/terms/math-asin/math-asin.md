@@ -1,6 +1,6 @@
 ---
-Title: 'math-asin()'
-Description: 'Returns the arcsine or angle measured in radians between -pi/2 and pi/2 of input values ranging between -1 and 1.'
+Title: '.asin()'
+Description: 'Returns the arcsine of a value, giving an angle in radians between `-π/2` and `π/2` for inputs ranging from `-1` to `1`'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -15,17 +15,19 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Returns the **arcsine** or angle measured in radians of input values ranging between -1 and 1.
+Returns the **arcsine** of a value, giving an angle in radians between `-π/2` and `π/2` for inputs ranging from `-1` to `1`.
 
 ## Syntax
 
-```py
+To return the arcsine of an input value `x` ranging from `-1` to `1` the following syntax is used.
+
+```pseudo
 math.asin(x)
 ```
 
 ## Example 1
 
-Use `math.asin()` to return arcsine of `1`:
+In the following example, the `math.asin()` function is used to return the arcsine of `1`:
 
 ```py
 import math
@@ -41,7 +43,7 @@ The above code gives the following output measured in radians:
 
 ## Example 2
 
-Use `math.asin()` to return arcsine of `-0.5`:
+In the following code block, the `math.asin()` is used to return the arcsine of `-0.5`:
 
 ```py
 import math
