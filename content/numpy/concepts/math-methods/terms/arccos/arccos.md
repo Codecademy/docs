@@ -1,6 +1,6 @@
 ---
 Title: '.arccos()'
-Description: 'Calculates the inverse cosine or arccosine of each element in an array or a single value.'
+Description: 'Calculates the inverse cosine of each element in an array or a single value.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In NumPy, the **`.arccos()`** function calculates the inverse cosine or arccosine, of each element in an array. The elements in the array should be cosine values, which must lie within the range [-1, 1]. The function returns the corresponding angle in radians for each cosine value.
+In NumPy, the **`.arccos()`** function calculates the inverse cosine (arccosine), of each element in an array. The elements in the array should be cosine values, which must lie within the range [-1, 1]. The function returns the corresponding angle in radians for each cosine value.
 
 ## Syntax
 
