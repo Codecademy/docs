@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`math.acos()`** function returns the inverse cosine (in radians) of a value between -1 and 1.
+In Python, the **`math.acos()`** function returns the arc cosine (inverse cosine) in radians of a value between `-1` and `1`.
 
 ## Syntax
 
