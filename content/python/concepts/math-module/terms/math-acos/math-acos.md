@@ -1,12 +1,12 @@
 ---
 Title: 'math.acos()'
-Description: 'Returns the inverse cosine (in radians) of a value between -1 and 1.'
+Description: 'Returns the arc cosine (inverse cosine) of a number.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Functions'
   - 'Arithmetic'
+  - 'Functions'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
