@@ -25,8 +25,8 @@ RMSprop modifies the learning rate for each parameter individually by taking int
 - **Update Rule**: For each parameter $\theta_i$, RMSprop updates the exponentially decaying average of the squared gradients $E[g^2]_t$ and then uses it to adjust the parameter:
   ![RMSprop update rule](https://raw.githubusercontent.com/Codecademy/docs/main/media/rmsprop-update.png)
   where:
-  - $g_t$ refers to the gradient at time
-  - $t$, $\rho$ refers to the decay rate (which is typically around 0.9)
+  - $g_t$ refers to the gradient at time $t$
+  - $\rho$ refers to the decay rate (which is typically around 0.9)
   - $\eta$ refers to the learning rate
   - $\epsilon$ refers to a small constant (around $10^{-8}$) to prevent any division by zero errors.
 
