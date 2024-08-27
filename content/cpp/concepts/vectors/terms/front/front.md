@@ -50,9 +50,9 @@ The output of the above code is:
 1
 ```
 
-This codebyte example uses `.front()` to both access and modify the first element of the vector.
-
 ## Codebyte Example
+
+This codebyte example uses `.front()` to both access and modify the first element of the vector.
 
 ```codebyte/cpp
 #include <iostream>
