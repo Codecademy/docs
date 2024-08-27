@@ -34,13 +34,13 @@ In the example below, `.front()` is used to print the first element of the `numb
 #include <vector>
 
 int main() {
-    // Declaring a vector of integers
-    std::vector<int> numbers = {1, 2, 3, 4};
+  // Declaring a vector of integers
+  std::vector<int> numbers = {1, 2, 3, 4};
 
-    // Print out first element
-    std::cout << numbers.front();
+  // Print out first element
+  std::cout << numbers.front();
 
-    return 0;
+  return 0;
 }
 ```
 
