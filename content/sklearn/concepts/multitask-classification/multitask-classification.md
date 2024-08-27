@@ -1,12 +1,10 @@
 ---
 Title: 'Multitask Classification'
-Description: 'A machine learning technique that involves training a single model to predict multiple related labels for each data point, potentially improving overall performance.'
+Description: 'A machine learning technique that involves training a single model to predict multiple related labels for each data point.'
 Subjects:
   - 'Data Science'
   - 'Machine Learning'
 Tags:
-  - 'Machine Learning'
-  - 'Supervised Learning'
   - 'Multitask Learning'
   - 'Classification'
   - 'Scikit-learn'
