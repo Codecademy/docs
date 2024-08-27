@@ -6,18 +6,19 @@ CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
-The function[function](https://www.codecademy.com/resources/docs/python/functions) `math.frexp()` in Python returns mantissa and exponent as a pair _(m, e)_ value of a given number _x_. 
 
----
+The function[function](https://www.codecademy.com/resources/docs/python/functions) `math.frexp()` in Python returns mantissa and exponent as a pair _(m, e)_ value of a given number _x_. 
 
 ##Sytax
 
 ```pseudo
 math.frexp(x)
 ```
-_x_: Any valid number. 
-Exception: If _x_ is not a number, function will return `TypeError`.
+
+_x_ must be a valid number, or the function will return `TypeError`.
+
 ##Example
+
 Use `math.frexp()` to return the mantissa and exponent of 10: 
 
 ```py
@@ -25,13 +26,17 @@ import math
 
 print(math.frexp(10))
 ```
+
 The above code gives the following output:
+
 ```shell
 (0.625, 4)
 ```
 
 ##Codebyte Example
+
 Run the following codes for better understanding: 
+
 ```codebyte/python
 import math
 print(math.frexp(0))
