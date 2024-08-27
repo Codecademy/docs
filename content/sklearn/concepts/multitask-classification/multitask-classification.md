@@ -18,16 +18,18 @@ In Sklearn, **multitask classification** is a machine learning technique where a
 
 ## Example
 
-**Scenario:** Imagine you're working for a manufacturing company that produces various types of electronics. The company is interested in predicting two key aspects for each product:
+Performing multitask classification with Sklearn involves using a classifier that can handle multiple outputs. Though Sklearn doesn't have a specific class called `MultiTaskClassifier` in this case like it does for regression (i.e., `MultiTaskLasso`), classifiers that support multiple outputs can be used. A common example is the `RandomForestClassifier` or `GradientBoostingClassifier` with the `multioutput` parameter.
 
-- **Product Quality (High, Medium, Low)**: This represents how good the product is, based on factors like durability, functionality, and customer satisfaction.
-- **Market Demand (High, Medium, Low)**: This indicates how well the product is expected to sell in the market.
+In case of a real-world example, suppose there's a manufacturing company that produces various types of electronics. The company is interested in predicting two key aspects for each product:
+
+- _Product Quality (High, Medium, Low)_: This represents how good the product is, based on factors like durability, functionality, and customer satisfaction.
+- _Market Demand (High, Medium, Low)_: This indicates how well the product is expected to be sold in the market.
 
 The company wants to use a machine learning model to predict these two aspects simultaneously for each product based on several features like production cost, material quality, manufacturing time, and more.
 
-To achieve this, we can use a 'RandomForestClassifier' that predicts both the product quality and market demand at the same time.
+To achieve this, a `RandomForestClassifier` can be used, which predicts both the product quality and market demand at the same time.
 
-Here’s how you can set it up:
+Here’s how the model can be set up:
 
 ```py
 from sklearn.ensemble import RandomForestClassifier
