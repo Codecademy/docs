@@ -1,6 +1,6 @@
 ---
 Title: '.every()'
-Description: 'Returns a boolean value based on wheater all the elements satisfies the given condition or not.'
+Description: 'Returns a boolean value based on whether all the elements satisfy the given condition or not.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.every()`** method iterates throught every element in the [list](https://www.codecademy.com/resources/docs/dart/list) and returns a boolean value checking all the elements in the list satisfying the given condition or not.
+The **`.every()`** method iterates through every element in the [list](https://www.codecademy.com/resources/docs/dart/list) and returns a boolean value checking all the elements in the list satisfying the given condition or not.
 
 ## Syntax
 
@@ -23,13 +23,13 @@ The **`.every()`** method iterates throught every element in the [list](https://
 list.every((e) => condition)
 ```
 
-- `list`: The list that will be checked againt the condition given.
+- `list`: The list that will be checked against the condition given.
 - `e`: Each individual element in the list.
-- `condition`: The condition againt which every element is test.
+- `condition`: The condition against which every element is tested.
 
 ## Example
 
-The following example show how `every()` works:
+The following example shows how `every()` works:
 
 ```dart
 void main() {
