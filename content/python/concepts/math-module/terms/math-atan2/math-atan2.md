@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`math.atan2()`** [function](https://www.codecademy.com/resources/docs/python/functions) in Python takes two numeric values representing a point `(x, y)` and returns a `float` with the arc tangent of `y` divided by `x`. The resulting value will be in radians, between `\pi` and `-\pi`.
+The **`math.atan2()`** [function](https://www.codecademy.com/resources/docs/python/functions) in Python takes two numeric values representing a point `(x, y)` and returns a float that represents the arc tangent of `y` divided by `x`. The resulting value is in radians and ranges from `-π` to `π`.
 
 ## Syntax
 
