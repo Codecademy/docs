@@ -7,7 +7,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The function[function](https://www.codecademy.com/resources/docs/python/functions) `math.frexp()` in Python returns mantissa and exponent as a pair _(m, e)_ value of a given number _x_. 
+The function[function](https://www.codecademy.com/resources/docs/python/functions) **`math.frexp()`** in Python returns mantissa and exponent as a pair _(m, e)_ value of a given number _x_. 
 
 ##Sytax
 
