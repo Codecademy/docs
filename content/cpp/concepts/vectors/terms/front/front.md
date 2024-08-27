@@ -23,7 +23,7 @@ The **`.front()`** method returns a reference to the first element in the [vecto
 vector.front();
 ```
 
-Before using vectors, you must first `#include` the `vector` library.
+> **Note:** To use vectors, including the `vector` library is necessary.
 
 ## Example
 
