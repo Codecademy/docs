@@ -2,6 +2,12 @@
 Title: 'math.frexp()'
 Description: 'The function math.frexp() returns mantissa and exponent as a pair (m, e) value of a given number x'
 Codecademy Hub Page: 'https://www.codecademy.com/catalog/language/python'
+Subjects:
+  - 'Computer Science'
+  - 'Data Science'
+Tags:
+  - 'Arithmetic'
+  - 'Functions'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
