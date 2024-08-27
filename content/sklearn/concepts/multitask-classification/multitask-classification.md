@@ -36,7 +36,6 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.datasets import make_multilabel_classification
 
 # Generate example data for multitask classification
-# Each product has several features, and we predict both quality and demand (2 tasks)
 X, y = make_multilabel_classification(n_samples=100, n_features=10, n_classes=2, n_labels=1, random_state=42)
 
 # Create and train the model
