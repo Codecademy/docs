@@ -20,8 +20,8 @@ The **`math.atan2()`** [function](https://www.codecademy.com/resources/docs/pyth
 math.atan2(y, x)
 ```
 
-- `y`: A numeric value (`int` or `float`) representing the `y` coordinate of a point `(x, y)`.
-- `x`: A numeric value (`int` or `float`) representing the `x` coordinate of a point `(x, y)`.
+- `y`: A numeric value (`int` or `float`) representing the `y` coordinate of the point.
+- `x`: A numeric value (`int` or `float`) representing the `x` coordinate of the point.
 
 ## Example
 
