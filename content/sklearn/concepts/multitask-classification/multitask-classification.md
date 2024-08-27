@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-**Multitask Classification in sklearn** is a technique in machine learning where a model is designed to predict multiple related outputs (tasks) for each input data point. Instead of building separate models for each task, a single model is trained to handle all the tasks at once. This approach allows the model to learn from the shared information between tasks, which can lead to better performance.
+In Sklearn, **multitask classification** is a machine learning technique where a model is designed to predict multiple related outputs (tasks) for each input data point. Instead of building separate models for each task, a single model is trained to handle all the tasks at once. This approach allows the model to learn from the shared information between tasks, which can lead to better performance.
 
 ## Syntax
 
