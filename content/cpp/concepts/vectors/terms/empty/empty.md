@@ -49,5 +49,6 @@ int main ()
   return 0;
 }
 ```
-
-**Output:** `55`
+```shell
+total: 55
+```
