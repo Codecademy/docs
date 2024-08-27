@@ -51,29 +51,12 @@ predictions = model.predict(new_product)
 print("Predicted labels (Quality, Demand):", predictions)
 ```
 
-### Breakdown of the Example:
+Here are the parameters used in the above example:
 
-#### Data Generation:
-
-- We use 'make_multilabel_classification' to create a synthetic dataset. Each product is described by 10 features, and we have 2 tasks (quality and demand) to predict.
-- The 'n_labels=1' parameter means each product can have only one label for each task (e.g., high quality or medium demand).
-
-#### Model Creation:
-
-- We create a 'RandomForestClassifier', which is a powerful model for handling multiple outputs (multitask classification).
-
-#### Training:
-
-- The model is trained on the synthetic data to learn the relationship between the features and the tasks (product quality and market demand).
-
-#### Prediction:
-
-- We provide the model with new product data (features) and ask it to predict both the quality and demand simultaneously.
-
-#### Output:
-
-- The model returns a set of predictions: one for product quality and one for market demand. For example, the output could be '[1, 0]' where '1' might correspond to "High Quality" and '0' to "Low Demand."
-
+- `n_samples`: The number of samples in the dataset.
+- `n_features`: The number of features in each sample.
+- `n_classes`: The number of classes (tasks) to predict. In this case, there are 2 classes (quality and demand) to predict.
+- `n_labels`: The average number of labels per sample.
 
 The output will be an array containing two predicted labels, like:
 
