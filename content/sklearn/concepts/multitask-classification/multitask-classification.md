@@ -64,4 +64,4 @@ The output will be an array containing two predicted labels, like:
 Predicted labels (Quality, Demand): [[0 1]]
 ```
 
-
+In the above output, `0` indicates _low quality_ and `1` indicates _high demand_.
