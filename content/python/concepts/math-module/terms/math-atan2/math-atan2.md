@@ -1,6 +1,6 @@
 ---
 Title: 'math.atan2()'
-Description: 'Takes two numeric values representing a point (x, y) and returns a float with the arc tangent of y divided by x. The resulting value will be in radians, between \pi and -\pi.'
+Description: 'Returns the arc tangent of y/x in radians.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
