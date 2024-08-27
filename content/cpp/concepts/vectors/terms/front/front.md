@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.front()`** method returns a reference to the first element in the vector. This allows you to access or modify the first element in the vector without needing to create another variable or removing it from the vector.
+The **`.front()`** method returns a reference to the first element in the [vector](https://www.codecademy.com/resources/docs/cpp/vectors). This allows you to access or modify the first element in the vector without needing to create another variable or remove it from the vector.
 
 ## Syntax
 
