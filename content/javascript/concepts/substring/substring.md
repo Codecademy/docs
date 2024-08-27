@@ -71,7 +71,7 @@ console.log(str.substring(str.length - 6));
 
 ## Example 3
 
-Using `.substring()` to display the last charecters from a given string based on another string's length.
+Using `.substring()` to display the last characters from a given string based on another string's length.
 
 ```javascript
 const str1 = 'Code';
