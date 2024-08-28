@@ -1,6 +1,6 @@
 ---
 Title: '.at[]'
-Description: 'Returns a specific value in row/column pairs in a dataset.' 
+Description: 'Returns a specific value at a row/column in a DataFrame.' 
 Subjects: 
   - 'Computer Science'
   - 'Data Science'
