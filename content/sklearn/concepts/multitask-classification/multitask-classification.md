@@ -5,16 +5,16 @@ Subjects:
   - 'Data Science'
   - 'Machine Learning'
 Tags:
-  - 'Multitask Learning'
   - 'Classification'
-  - 'Scikit-learn'
+  - 'Multitask Learning'
   - 'MultiTaskLasso'
+  - 'Scikit-learn'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
 ---
 
-In Sklearn, **multitask classification** is a machine learning technique where a model is designed to predict multiple related outputs (tasks) for each input data point. Instead of building separate models for each task, a single model is trained to handle all the tasks at once. This approach allows the model to learn from the shared information between tasks, which can lead to better performance.
+In Sklearn, **multitask classification** is a machine learning technique where a single model is trained to predict multiple related outputs (tasks) for each input data point. Instead of building separate models for each task, the model is designed to handle all tasks simultaneously. This approach allows the model to learn from the shared information between tasks, potentially leading to better performance.
 
 ## Example
 
@@ -51,7 +51,7 @@ predictions = model.predict(new_product)
 print("Predicted labels (Quality, Demand):", predictions)
 ```
 
-Here are the parameters used in the above example:
+The parameters used in the above example are as follows:
 
 - `n_samples`: The number of samples in the dataset.
 - `n_features`: The number of features in each sample.
