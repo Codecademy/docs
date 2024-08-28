@@ -1,19 +1,20 @@
 ---
 Title: '.triangular()'
 Description: 'Returns a random floating number from a triangular distribution.'
-Subjects: 
+Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
   - 'Functions'
   - 'Methods'
   - 'Random'
-Catalog Content: 
+  - 'Values'
+CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-The **`.triangular()`** method returns a random floating-point number from a triangular distribution. The input parameters are `low`, `high`, and `mode`. If `mode` is not provided, it defaults to the midpoint between `low` and `high`.
+In Python, the **`.triangular()`** method returns a random floating-point number from a triangular distribution. The input parameters are `low`, `high`, and `mode`. If `mode` is not provided, it defaults to the midpoint between `low` and `high`.
 
 ## Syntax
 
@@ -21,13 +22,13 @@ The **`.triangular()`** method returns a random floating-point number from a tri
 random.triangular(low, high, mode)
 ```
 
-- `low`: Lower limit of the distribution (optional; defaults to 0.0).
-- `high`: Upper limit of the distribution (optional; defaults to 1.0).
-- `mode`: Peak of the distribution (optional; defaults to the midpoint between low and high).
+- `low`: The lower limit of the distribution (optional; defaults to _0.0_).
+- `high`: The upper limit of the distribution (optional; defaults to _1.0_).
+- `mode`: The peak of the distribution (optional; defaults to the midpoint between `low` and `high`).
 
 ## Example
 
-In the example below, `.triangular()` is used to return a random integer between *50* and *500*, biased towards *400*.
+In the example below, the `.triangular()` method is used to return a random integer between _50_ and _500_, biased towards _400_:
 
 ```py
 import random
@@ -41,11 +42,11 @@ The code above produces the following output:
 395
 ```
 
-> **Note**: The output value will vary with each execution because `.triangular()` generates a random number within the specified distribution.
+> Note: The output value will vary with each execution because `.triangular()` generates a random number within the specified distribution.
 
 ## Codebyte Example
 
-Run the following code to see how `.triangular()` generates random values with different biases:
+The following codebyte example demonstrates how the `.triangular()` method generates random values with different biases:
 
 ```codebyte/python
 import random
