@@ -2,18 +2,18 @@
 Title: 'math.isfinite()'
 Description: 'Checks whether a given number is finite or not.'
 Subjects:
- - 'Computer Science'
- - 'Data Science'
+  - 'Computer Science'
+  - 'Data Science'
 Tags:
- - 'Arithmetic'
- - 'Boolean'
- - 'Functions'
+  - 'Arithmetic'
+  - 'Boolean'
+  - 'Functions'
 CatalogContent:
- - 'learn-python-3'
- - 'paths/computer-science'
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
-The **`math.isfinite()`** function returns `True` when a number is finite and `False` otherwise. A finite number is neither infinite nor `NaN`. 
+The **`math.isfinite()`** function returns `True` when a number is finite and `False` otherwise. A finite number is neither infinite nor `NaN`.
 
 ## Syntax
 
@@ -31,16 +31,16 @@ The following example uses `math.isfinite()` to check whether the specified valu
 import math
 
 # Check if 0.1 is a finite number
-print(math.isfinite(0.1))  
+print(math.isfinite(0.1))
 
 # Check if positive infinity is a finite number
-print(math.isfinite(math.inf))  
+print(math.isfinite(math.inf))
 
 # Check if the float representation of infinity is a finite number
-print(math.isfinite(float("inf")))  
+print(math.isfinite(float("inf")))
 
 # Check if the float representation of NaN (Not a Number) is a finite number
-print(math.isfinite(float("NaN"))) 
+print(math.isfinite(float("NaN")))
 ```
 
 The output generated is as follows:
