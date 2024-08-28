@@ -4,17 +4,17 @@ Description: 'Computes the inverse hyperbolic cosine of a number.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
-  - 'Discrete Math'
 Tags:
   - 'Functions'
   - 'Integers'
   - 'Math'
+  - 'Values'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-The **`math.acosh()`** function in Python returns the inverse hyperbolic cosine (also known as the hyperbolic arccosine) of a given number.
+In Python, the **`math.acosh()`** [function](https://www.codecademy.com/resources/docs/python/functions) returns the inverse hyperbolic cosine (also known as the hyperbolic arccosine) of a given number.
 
 ## Syntax
 
@@ -22,26 +22,26 @@ The **`math.acosh()`** function in Python returns the inverse hyperbolic cosine 
 math.acosh(x)
 ```
 
-- `x`: The value for which the inverse hyperbolic cosine is computed. The input `x` must be a real number greater than or equal to _1_.
+- `x`: The value for which the inverse hyperbolic cosine is to be computed. It must be a real number greater than or equal to _1_.
 
 ## Example
 
-The example below uses the `math.acosh()` funtion to return the hyperbolic arccosine of the specified numbers:
+The example below uses the `math.acosh()` function to return the hyperbolic arccosine of the specified numbers:
 
 ```py
 import math
 
-# Hyperbolic Arccosine of 1.
+# Hyperbolic arccosine of 1
 print(math.acosh(1))
 
-# Hyperbolic Arccosine of 2.
+# Hyperbolic arccosine of 2
 print(math.acosh(2))
 
-# Hyperbolic Arccosine of 10.5.
+# Hyperbolic arccosine of 10.5
 print(math.acosh(10.5))
 ```
 
-The output of the example code above is:
+The output for the above code is:
 
 ```shell
 0.0
@@ -49,11 +49,11 @@ The output of the example code above is:
 3.0422471120933285
 ```
 
-> **Note:** If `math.acosh()` function is called with an argument less than one (`1`), it will return a `ValueError`.
+> Note: If the input value is less than _1_, the function will return a `ValueError`.
 
 ## Codebyte Example
 
-Run the following example that uses the `math.acosh()` function to understand how it works:
+The following codebyte example demonstrates how the `math.acosh()` function works:
 
 ```codebyte/python
 import math
@@ -62,5 +62,5 @@ n = 0
 
 result = math.acosh(5)
 
-print(f"The Hyperbolic arccosine of {n} is {result}")
+print(f"The hyperbolic arccosine of {n} is {result}")
 ```
