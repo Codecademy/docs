@@ -1,1 +1,1 @@
-content/java/concepts/collections/collections.md
+content/java/concepts/constructors/constructors.md
