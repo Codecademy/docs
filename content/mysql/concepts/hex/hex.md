@@ -16,11 +16,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-The **`HEX()`** function in MySQL takes an input and returns its equivalent hexadecimal representation. This input can be either a string or a numeric value.
-
-When the input is a string, the resulting hexadecimal representation will, by default, be a binary string. In the output, each byte of each character in the original string argument is represented by a corresponding pair of hexadecimal digits. The resulting hexadecimal string can also be converted back into the original string by using the `UNHEX()` function.
-
-When the input is a decimal number, HEX(N) and CONV(N, 10, 16) produce the same hexadecimal output. The hexadecimal result from HEX(N) can be converted back to the original number using CONV(HEX(N), 16, 10).
+The **`HEX()`** function in MySQL takes an input and returns its equivalent hexadecimal representation. This input can be either a string or a numeric value. When the input is a string, the resulting hexadecimal representation will, by default, be a binary string. In the output, each byte of each character in the original string argument is represented by a corresponding pair of hexadecimal digits. The resulting hexadecimal string can also be converted back into the original string by using the `UNHEX()` function. When the input is a decimal number, HEX(N) and CONV(N, 10, 16) produce the same hexadecimal output. The hexadecimal result from HEX(N) can be converted back to the original number using CONV(HEX(N), 16, 10).
 
 ## Syntax
 
@@ -39,11 +35,11 @@ SELECT HEX('codecademy');
 
 The result looks like this:
 
-| HEX('codecademy')   |
-| ------------------- |
+| HEX('codecademy')    |
+| -------------------- |
 | 636F6465636164656D79 |
 
-This next example instead passes a numeric value to the function.
+Instead, this next example passes a numeric value to the function.
 
 ```sql
 SELECT HEX(123456789);
@@ -88,8 +84,6 @@ The resulting table looks like this:
 | Miller    | 23088       |
 | Williams  | 15312       |
 
-### Using Hex() on a Data Column
-
 Now, to retrieve the data in the last_name column as hexadecimal, use the `HEX()` function.
 
 ```sql
@@ -98,7 +92,7 @@ SELECT last_name, HEX(last_name) FROM employees;
 
 The expected output would then be:
 
-| last_name | HEX(last name)   |
+| last_name | HEX(last_name)   |
 | --------- | ---------------- |
 | Smith     | 536D697468       |
 | Jones     | 4A6F6E6573       |
