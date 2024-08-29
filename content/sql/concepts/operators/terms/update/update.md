@@ -17,7 +17,7 @@ CatalogContent:
   - 'paths/design-databases-with-PostgreSQL'
 ---
 
-The **`UPDATE`** operator changes data entries  .
+The **`UPDATE`** operator changes data entries. It is used to modify the existing records in a database table.
 
 ## Syntax
 
