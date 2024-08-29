@@ -1,6 +1,6 @@
 ---
 Title: 'Built in Functions'
-Description: 'Built in functions are predefined functions that can be used to perform operations on data at any time.'
+Description: 'Built-in functions are predefined functions that can be used to perform operations on data at any time.'
 Subjects:
   - 'Code Foundations'
   - 'Data Science'
@@ -15,13 +15,13 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-**Built-in functions** are predefined functions that can be used to perform operations on data at any time. They are usually categorized according to the data types (strings, date, numeric, and other built-in functions) that they operate on, and are used to simplify complex calculations and data manipulations by reusing code blocks for common tasks.
+**`Built-in functions`** are predefined functions that can be used to perform operations on data at any time. They are usually categorized according to the data types (strings, date, numeric, and other built-in functions) that they operate on, and are used to simplify complex calculations and data manipulations by reusing code blocks for common tasks.
 
 ## String Functions
 
 String functions allow operations to be performed on string data.
 
-### Concat function
+### Concat Function
 
 `CONCAT()`: Concatenates two or more strings.
 
@@ -29,7 +29,7 @@ String functions allow operations to be performed on string data.
 CONCAT(string1, string2, ...)
 ```
 
-### Length function
+### Length Function
 
 `LENGTH()`: Returns the length of a string.
 
@@ -37,7 +37,7 @@ CONCAT(string1, string2, ...)
 LENGTH(string)
 ```
 
-### Upper function
+### Upper Function
 
 `UPPER()`: Converts a string to upper-case.
 
@@ -49,7 +49,7 @@ UPPER(string)
 
 Numeric functions allow to perform operations on numeric data.
 
-### Abs function
+### Abs Function
 
 `ABS()`: Returns the absolute value of a number.
 
@@ -57,7 +57,7 @@ Numeric functions allow to perform operations on numeric data.
 ABS(value)
 ```
 
-### Ceil function
+### Ceil Function
 
 `CEIL()`: Returns the smallest integer value that is greater than or equal to a number.
 
@@ -93,7 +93,7 @@ NOW()
 DATE_ADD(date, INTERVAL value unit)
 ```
 
-### DATEDIFF function
+### DATEDIFF Function
 
 `DATEDIFF()`: Returns the number of days between two dates.
 
@@ -105,7 +105,7 @@ DATEDIFF(date1, date2)
 
 Aggregate functions allow to perform calculations on a set of values and return a single value.
 
-### SUM function
+### SUM Function
 
 `SUM()`: Returns the sum of a set of values.
 
@@ -113,7 +113,7 @@ Aggregate functions allow to perform calculations on a set of values and return 
 SUM(expression)
 ```
 
-### AVG function
+### AVG Function
 
 `AVG()`: Returns the average value of a set of values.
 
@@ -121,7 +121,7 @@ SUM(expression)
 AVG(expression)
 ```
 
-### COUNT function
+### COUNT Function
 
 `COUNT()`: Returns the number of rows in a table.
 
@@ -133,7 +133,7 @@ COUNT(expression)
 
 Control Flow functions return different values based on different conditions.
 
-### IF function
+### IF Function
 
 `IF()`: Returns a value if a condition is true, and another value if it is false.
 
@@ -143,10 +143,7 @@ IF(condition, true_value, false_value)
 
 ### CASE Expression
 
-CASE is a statement that goes through conditions and returns a value when the first condition is met and closes with an END clause.
-Once a condition is true, it will stop reading and return the result.
-If no conditions are true, it returns the value in the ELSE clause.
-If there is no ELSE part and no conditions are true, it returns NULL.
+CASE is a statement that goes through conditions and returns a value when the first condition is met and closes with an END clause. Once a condition is true, it will stop reading and return the result. If no conditions are true, it returns the value in the ELSE clause. If there is no ELSE part and no conditions are true, it returns NULL.
 
 ```pseudo
 CASE
@@ -161,7 +158,7 @@ END
 
 JSON functions are used to manipulate [JSON](https://www.codecademy.com/resources/docs/general/json) data.
 
-### JSON_EXTRACT function
+### JSON_EXTRACT Function
 
 `JSON_EXTRACT()`: Extracts data from a JSON document.
 
@@ -171,7 +168,7 @@ More about JSON can be learned [here](https://www.json.org/json-en.html)
 JSON_EXTRACT(json_doc, path)
 ```
 
-### JSON_ARRAY function
+### JSON_ARRAY Function
 
 `JSON_ARRAY()`: Creates a JSON array from a list of values.
 
@@ -183,7 +180,7 @@ JSON_ARRAY(value1, value2, ...)
 
 These functions provide encryption and compression utilities.
 
-### AES_ENCRYPT function
+### AES_ENCRYPT Function
 
 `AES_ENCRYPT()`: Encrypts a string using AES (Advanced Encryption Standard) encryption, and returns the original (binary) in [hexadecimal format](https://www.codecademy.com/resources/docs/general/hexadecimal).
 
@@ -191,7 +188,7 @@ These functions provide encryption and compression utilities.
 AES_ENCRYPT(str, key_str)
 ```
 
-### MD5 function
+### MD5 Function
 
 `MD5()`: Calculates the MD5 (message-digest algorithm) hash of a string. This means that the value is returned as a string of 32 hexadecimal digits, or NULL if the argument was NULL.
 
@@ -201,4 +198,4 @@ MD5(string)
 
 ## Conclusion
 
-These are some examples of primary built-in functions in MySQL across various categories, illustrating its usage with examples. Each function serves a specific purpose which allows making data manipulation and querying in MySQL in a more efficient and powerful way.
+These are some examples of primary built-in functions in MySQL across various categories, illustrating its usage with examples. Each function serves a specific purpose which allows data manipulation and querying in MySQL more efficiently and powerfully.
