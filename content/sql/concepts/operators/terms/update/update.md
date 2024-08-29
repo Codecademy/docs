@@ -1,6 +1,6 @@
 ---
 Title: UPDATE
-Description: 'Changes/Updates data row entries.'
+Description: 'Updates data row entries.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
