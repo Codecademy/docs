@@ -69,14 +69,16 @@ console.log(str.substring(str.length - 6));
 // Output: cademy
 ```
 
-## Example 3
+## Codebyte Example
 
-Using `.substring()` to display the last characters from a given string based on another string's length.
+Run the following code to understand how the `.substring()` function works:
 
-```javascript
-const str1 = 'Code';
-const str2 = 'Codecademy';
+```codebyte/javascript
+const sentence = 'Hello, world!';
 
-console.log(str2.substring(str1.length, str2.length));
-// Output: cademy
+const greeting = sentence.substring(0, 5);
+const exclamation = sentence.substring(7, 12);
+
+console.log(greeting);      //Output: Hello
+console.log(exclamation);   // Output: world
 ```
