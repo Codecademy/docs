@@ -23,9 +23,8 @@ The **`UPDATE`** operator changes data entries. It is used to modify the existin
 
 ```pseudo
 UPDATE table_name
-SET column_name = ... ;
-WHERE item_name = ...
-```
+SET column_name = ... 
+WHERE item_name = ... ;
 
 Update an entry if the where condition is matching. If there are no where condition, all rows are changed.
 
