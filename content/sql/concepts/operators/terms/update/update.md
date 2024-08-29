@@ -14,7 +14,7 @@ Tags:
 CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
-  - 'paths/design-databases-with-postgresql'
+  - 'paths/design-databases-with-PostgreSQL'
 ---
 
 The **`UPDATE`** operator changes data entries  .
