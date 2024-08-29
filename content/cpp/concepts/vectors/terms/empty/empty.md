@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.empty()`** method returns `true` if the size of the vector is _0_. Otherwise, if the vector has at least one element, it returns `false`. It is used to check if the vector contains any elements and is commonly used in conditional statements.
+The **`.empty()`** method returns `true` if the size of the [vector](https://www.codecademy.com/resources/docs/cpp/vectors) is _0_. Otherwise, if the vector has at least one element, it returns `false`. It is used to check if the vector contains any elements and is commonly used in conditional statements.
 
 ## Syntax
 
