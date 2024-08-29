@@ -85,6 +85,6 @@ tensor([[[0.7478, 0.4375, 0.9769, 0.3897, 0.9407],
          [0.9316, 0.5449, 0.4706, 0.1604, 0.7445]]])
 ```
 
-> Note: The result may not be exactly the same as the one displayed above, due to random number generation.
+> **Note**: The result may not be the same as the one displayed above, due to random number generation.
 
 Though one and two-dimensional tensors are well-known, there are instances in machine learning where a three-dimensional tensor is essential.
