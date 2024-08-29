@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-To add lines on the text.
+To add lines to the text.
 
 ## Syntax
 
@@ -21,7 +21,7 @@ To add lines on the text.
 text-decoration: <text-align-value>;
 ```
 
-The `text-decoration-value` can be the following:
+The `text-decoration` value can be the following:
 
 - `none`
 - `underline`
@@ -38,12 +38,12 @@ p {
 }
 ```
 
-Above code indicating that the text in `p` tag will be underlined.
+The above code indicates that the text in the `p` tag will be underlined.
 
-**Output**:
+Output:
 
-![Output of text styled using CSS in Markdown.](/media/css-typography-decoration-output.png)
+![Output of text styled using CSS in Markdown.](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-typography-decoration-output.png)
 
-**Markdown syntax**:
+Markdown syntax:
 
-![CSS code used to style paragraph text in a Markdown document.](/media/css-typography-decoration.png)
+![CSS code used to style paragraph text in a Markdown document.](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-typography-decoration.png)
