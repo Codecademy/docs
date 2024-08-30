@@ -1,6 +1,6 @@
 ---
 Title: '.back()'
-Description: 'The `back()` method in c++ provides the reference to the most last element in vector.'
+Description: 'Provides the reference to the last element in the vector.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
