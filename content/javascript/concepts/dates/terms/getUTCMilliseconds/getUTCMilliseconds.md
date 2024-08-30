@@ -11,7 +11,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.getUTCMilliseconds()`** method returns the milliseconds for the provided `Date` object, according to universal time (not be be confused with the [`.getMilliseconds()`](https://www.codecademy.com/resources/docs/javascript/dates/getMilliseconds) method).
+The **`.getUTCMilliseconds()`** method returns the milliseconds for the provided `Date` object, according to universal time (not to be confused with the [`.getMilliseconds()`](https://www.codecademy.com/resources/docs/javascript/dates/getMilliseconds) method).
 
 ## Syntax
 

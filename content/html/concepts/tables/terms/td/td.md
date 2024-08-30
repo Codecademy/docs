@@ -50,4 +50,4 @@ Defining data cells in a table.
 | Company | Phone  |
 | ------- | ------ |
 | Apple   | iPhone |
-| Samsun  | Galaxy |
+| Samsung | Galaxy |

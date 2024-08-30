@@ -109,7 +109,7 @@ public class MiniBusTaxiRequest extends TaxiRequest<String> {
     this.destination = destination;
     this.distance = distance;
     this.estimatedPrice = distance * FARE_MULTIPLIER;
-    System.out.println("A minibus is on it's way. The estimated fare is £" + estimatedPrice + ".");
+    System.out.println("A minibus is on its way. The estimated fare is £" + estimatedPrice + ".");
   }
 }
 ```

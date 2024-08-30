@@ -34,7 +34,7 @@ HTTP requests are stateless, meaning that all requests are independent and have 
 - The requested URL along with any queries or parameters.
 - The HTTP version, such as 1.1 or 2.0.
 - Any header information such as:
-  - The referer that tells the URL where the request came from.
+  - The referrer that tells the URL where the request came from.
   - Any user agent information about the requesting client.
   - A unique host name that is ideal for many pages on one server.
   - Cookie data about the request.

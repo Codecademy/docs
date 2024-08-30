@@ -1,6 +1,6 @@
 ---
 Title: 'flex-flow'
-Description: 'A shorthand for specifying the  flex-direction and flex-wrap properties. Defining flex-flow provides the parameters for child elements to be organized across the horizontal and vertical axes.'
+Description: 'A shorthand for specifying the flex-direction and flex-wrap properties. Defining flex-flow provides the parameters for child elements to be organized across the horizontal and vertical axes.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
