@@ -20,7 +20,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`math.isinf()`** [function](https://www.codecademy.com/resources/docs/python/functions) in Python checks whether a given value is infinite. It returns `True` if the value is positive or negative infinity, and `False` otherwise. This function is part of the `math` module and is useful when dealing with calculations that may result in infinite values.
+The **`math.isinf()`** [function](https://www.codecademy.com/resources/docs/python/functions) in Python checks whether a given value is infinite. It returns `True` if the value is positive or negative infinity, and `False` otherwise. This function is part of the `math` [module](https://www.codecademy.com/resources/docs/python/modules) and is useful when dealing with calculations that may result in infinite values.
 
 ## Syntax
 
