@@ -45,7 +45,7 @@ The tensor `size` has a shape of `(2, 2)`, meaning it has 4 elements in total. B
 Run the following codes to understand how the `torch.reshape(input, shape)` method works:
 
 ```codebyte/python
-dimension = torch.tensor(10.)
+dimension = torch.tensor(10., 20., 30., 40.)
 print(dimension)
 reshaped_dimension = torch.reshape(dimension, (2, 2))
 print(reshaped_dimension)
