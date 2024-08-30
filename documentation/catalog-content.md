@@ -1,6 +1,6 @@
 # Catalog Content
 
-The [metadata](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md#standards-metadata) which go at the top of the file, should include **two** slugs. Preferably:
+The [metadata](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md#standards-metadata), located at the top of the file, should include **two** slugs. Preferably:
 
 - A free course
 - A Pro course/Path
@@ -51,6 +51,13 @@ Feel free to add suggestions for new slugs to the lists as part of your PR! Be s
 - 'paths/fundamentals-of-cybersecurity'
 ```
 
+### Dart
+
+```
+- 'learn-dart'
+- 'paths/computer-science'
+```
+
 ### Emojicode
 
 ```
@@ -95,11 +102,32 @@ Feel free to add suggestions for new slugs to the lists as part of your PR! Be s
 - 'paths/front-end-engineer-career-path'
 ```
 
+### JavaScript:D3
+
+```
+- 'learn-d3'
+- 'paths/data-science'
+```
+
+### Kotlin
+
+```
+- 'learn-kotlin'
+- 'paths/computer-science'
+```
+
 ### Markdown
 
 ```
 - 'learn-html'
 - 'paths/front-end-engineer-career-path'
+```
+
+### Open Source
+
+```
+- 'introduction-to-open-source'
+- 'paths/code-foundations'
 ```
 
 ### PHP
@@ -109,10 +137,89 @@ Feel free to add suggestions for new slugs to the lists as part of your PR! Be s
 - 'paths/computer-science'
 ```
 
+### PowerShell
+
+```
+- 'learn-powershell'
+- 'paths/computer-science'
+```
+
 ### Python
 
 ```
 - 'learn-python-3'
+- 'paths/computer-science'
+```
+
+### Python:Matplotlib
+
+```
+- 'learn-python-3'
+- 'paths/computer-science'
+- 'paths/data-science'
+- 'paths/data-science-foundations'
+```
+
+### Python:Numpy
+
+```
+- 'learn-python-3'
+- 'paths/computer-science'
+- 'paths/data-science'
+- 'paths/data-science-foundations'
+```
+
+### Python:Pandas
+
+```
+- 'learn-python-3'
+- 'paths/computer-science'
+- 'paths/data-science'
+- 'paths/data-science-foundations'
+```
+
+### Python:Pillow
+
+```
+- 'learn-python-3'
+- 'paths/computer-science'
+- 'paths/data-science'
+- 'paths/data-science-foundations'
+```
+
+### Python:Plotly
+
+```
+- 'learn-python-3'
+- 'paths/computer-science'
+- 'paths/data-science'
+- 'paths/data-science-foundations'
+```
+
+### Python:Pytorch
+
+```
+- 'intro-to-py-torch-and-neural-networks'
+- 'learn-python-3'
+- 'paths/computer-science'
+- 'paths/data-science'
+```
+
+### Python:Seaborn
+
+```
+- 'learn-python-3'
+- 'paths/computer-science'
+- 'paths/data-science'
+- 'paths/data-science-foundations'
+```
+
+### R
+
+```
+- 'learn-r'
+- 'paths/data-science'
+- 'paths/data-science-foundations'
 - 'paths/computer-science'
 ```
 
@@ -131,14 +238,30 @@ Feel free to add suggestions for new slugs to the lists as part of your PR! Be s
 - 'paths/full-stack-engineer-career-path'
 ```
 
+### Rust
+
+```
+- 'rust-for-programmers'
+- 'paths/computer-science'
+```
+
 ### SQL
 
 ```
 - 'learn-sql'
 - 'paths/analyze-data-with-sql'
+- 'paths/data-science'
+- 'paths/data-science-foundations'
 ```
 
 ### Swift
+
+```
+- 'learn-swift'
+- 'paths/build-ios-apps-with-swiftui'
+```
+
+### SwiftUI
 
 ```
 - 'learn-swift'

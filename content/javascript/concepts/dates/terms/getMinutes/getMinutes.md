@@ -37,3 +37,16 @@ if (today.getMinutes() >= 15) {
 
 // Output: Hurry up, it has been 15 minutes!
 ```
+
+## Codebyte Example
+
+The example below defines a new `Date` object `dateTimeNow`, and stores the result of the `getMinutes()` method in a new variable `minutes`. Finally, the current date\time, minutes, and the minutes remaining in the hour are all logged to the console.
+
+```codebyte/javascript
+let dateTimeNow = new Date();
+let minutes = dateTimeNow.getMinutes();
+
+console.log(`Date\\Time Now: ${dateTimeNow}\n`);
+console.log(`Minutes past the current hour: ${minutes}`);
+console.log(`Minutes remaining in the current hour: ${60 - minutes}`);
+```

@@ -31,7 +31,7 @@ console.log('HELLO WORLD'.toLowerCase());
 
 ## Example 2
 
-Don't forget that `.toLowerCase()` doesn't actually change the original string.
+Don't forget that `.toLowerCase()` doesn't change the original string.
 
 ```codebyte/js
 var message = "sPoNgEbOb mEmE!"
@@ -40,4 +40,15 @@ message.toLowerCase()
 console.log(message)
 
 console.log(message.toLowerCase());
+```
+
+## Codebyte Example
+
+The `.toLowerCase()` method will convert upper-case alphabet characters to lower-case in a string with other character types such as digits and special characters. Use the below code block to try the method:
+
+```codebyte/js
+const string = 'What a COMPLEX string !1@2#3'
+
+const newString = string.toLowerCase()
+console.log(newString)
 ```

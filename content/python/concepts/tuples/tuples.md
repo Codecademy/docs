@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **tuple** is a data structure of comma-separated values. Unlike [dictionaries](https://www.codecademy.com/resources/docs/python/dictionaries), which are unordered and mutable, tuples are immutable and their elements are ordered by insertion (similar to [lists](https://www.codecademy.com/resources/docs/python/lists). Tuple elements can be of different [data types](https://www.codecademy.com/resources/docs/python/data-types).
+A **tuple** is a data structure comprised of comma-separated values. Unlike [dictionaries](https://www.codecademy.com/resources/docs/python/dictionaries), which are unordered and mutable, tuples are immutable and their elements are ordered by insertion (similar to [lists](https://www.codecademy.com/resources/docs/python/lists)). Tuple elements can be of different [data types](https://www.codecademy.com/resources/docs/python/data-types).
 
 Tuples also support built-in sequence functions such as [`len()`](https://www.codecademy.com/resources/docs/python/built-in-functions/len), [`min()`](https://www.codecademy.com/resources/docs/python/built-in-functions/min), and [`max()`](https://www.codecademy.com/resources/docs/python/built-in-functions/max).
 
@@ -54,10 +54,10 @@ The built-in [`tuple()`](https://www.codecademy.com/resources/docs/python/built-
 When values are assigned to a tuple, it is "packed." When those same values are utilized later on in a program, the tuple is "unpacked."
 
 ```py
-# packed tuple
+# Packed tuple
 my_tuple = (1, 2, 3)
 
-# unpacked tuple
+# Unpacked tuple
 (one, two, three) = my_tuple
 
 print(one)
@@ -75,10 +75,10 @@ Output:
 > **Note:** The number of variables must be equal to the number of values in the tuple. Otherwise, an asterisk (`*`) must be used to gather the remaining values in a list:
 >
 > ```py
-> # packed tuple
+> # Packed tuple
 > my_tuple = (1, 2, 3, 4, 5)
 >
-> # unpacked tuple
+> # Unpacked tuple
 > (one, two, *three) = my_tuple
 >
 > print(one)
@@ -142,15 +142,21 @@ streaming_platforms = (list_1, list_2)
 print(f"Original tuple: {streaming_platforms}\n")
 
 streaming_platforms[0].append("YouTube")
-# this is allowed
+# This is allowed
 
 print(f"After appending to list: {streaming_platforms}\n")
 
 streaming_platforms[0][-1] = "YT"
-# this is also allowed
+# This is also allowed
 
 print(f"After reassigning list item: {streaming_platforms}\n")
 
 streaming_platforms[1] = "Twitch"
-# reassignment of list to string will throw an error
+# Reassignment of list to string will throw an error
 ```
+
+## Video Walkthrough
+
+Watch this video which illustrates the characteristics of Python tuples.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qM7Iz_DRDH8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

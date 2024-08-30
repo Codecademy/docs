@@ -20,7 +20,7 @@ Most Java compilers do little to no optimization of the code, leaving that task 
 
 ## Compiling a Java File
 
-The Java compiler is executed on the [command line](https://www.codecademy.com/resources/docs/general/terminal) in [Unix](https://www.codecademy.com/resources/docs/general/unix) or DOS shells as follows:
+The Java compiler is executed on the [command line](https://www.codecademy.com/resources/docs/command-line/terminal) in [Unix](https://www.codecademy.com/resources/docs/general/unix) or DOS shells as follows:
 
 ```pseudo
 javac ProgramName.java
@@ -46,4 +46,4 @@ set CLASSPATH=path\to\file
 
 ## Online Java Compilers
 
-Several sites offer online Java compilers, allowing the entry of small Java programs in a web-based [IDE](https://www.codecademy.com/resources/docs/general/ide) and running them on the fly. [JDoodle](https://www.jdoodle.com/online-java-compiler/) is one such site that offers this ability.
+Several sites offer online Java compilers, allowing the entry of small Java programs in a web-based [IDE](https://www.codecademy.com/resources/docs/general/developer-tools/ide) and running them on the fly. [JDoodle](https://www.jdoodle.com/online-java-compiler/) is one such site that offers this ability.

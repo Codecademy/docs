@@ -44,3 +44,14 @@ myPromise.then(
   }
 );
 ```
+
+## Codebyte Example
+
+The following example shows a .then() method executed for a successful result only by passing the resolve argument as the callback function.
+
+```codebyte/javascript
+let person = new Promise(function(resolve){
+    resolve('I am a gamer');
+});
+person.then(console.log);
+```

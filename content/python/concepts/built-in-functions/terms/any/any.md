@@ -22,7 +22,7 @@ The `any()` built-in function takes in an iterable object such as a list or tupl
 any(iterable)
 ```
 
-The `iterable` is any sequence or collection that can be traversed, such as a [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries) or [list](https://www.codecademy.com/resources/docs/python/list).
+The `iterable` is any sequence or collection that can be traversed, such as a [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries) or [list](https://www.codecademy.com/resources/docs/python/lists).
 
 The inside of the pseudocode can be broken down in the following way:
 

@@ -35,3 +35,22 @@ const fruits = new Map([
 
 console.log(fruits.size); // Output: 2
 ```
+
+## Codebyte Example
+
+The following example uses the `size` property to confirm the number of elements in a map after deleting a key-value pair.
+
+```codebyte/js
+const personAge = new Map([
+  ['John', 19],
+  ['Mary', 54],
+  ['Mark', 70],
+  ['Gary', 44]
+]);
+
+console.log(personAge.size);
+
+personAge.delete('Mary');
+
+console.log(personAge.size);
+```

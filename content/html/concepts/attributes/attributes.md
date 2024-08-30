@@ -13,53 +13,39 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Attributes can be added to the opening tag of an HTML element to change its default behavior or provide additional data about it.
+HTML **attributes** are data that can be added to the opening tag of an HTML element. These attributes modify the default behavior of the element or provide additional information about it.
 
-Attributes consist of a name and a value in the format `name="value"`:
+Attributes consist of a name and are usually set equal to a value. Values are enclosed in double or single quotation marks.
 
-```pseudo
-<tag name="value"></tag>
-```
+## Syntax
 
-So for example, the `<img>` image element has a mandatory `src` attribute that contains the image file path/URL:
+The syntax for adding attributes to an HTML element is as follows:
 
 ```html
-<img src="codecademy_logo.png" />
+<tagname attribute="value"></tagname>
 ```
 
-- `src` is the attribute name.
-- `codecademy_logo.png` is the attribute value.
+> **Note:** Attribute names are not case-sensitive, but it is good practice to write HTML markup in lowercase.
 
-HTML elements can have any number of attributes.
+## Examples
 
-The example below displays an image element with three attributes:
+### Image Attributes
+
+Using an [`<img>`](https://www.codecademy.com/resources/docs/html/elements/img) element, which is commonly used to display images, reveals several attributes, such as `src`, `width`, and `height`. These attributes exert significant influence over the manner in which the image appears on the web page. The dimensions of the particular element, once specified, enable precise control over the end result.
 
 ```html
-<img src="nyan_cat.gif" width="500" height="600" />
+<img src="source_of_image.png" width="500" height="600" />
 ```
 
-These declare its source, width, and height.
+![GIF showcasing effect of height attribute on an img element](https://raw.githubusercontent.com/Codecademy/docs/main/media/Changing-height-attribute-of-html-element.gif)
 
-**Note:** Attribute names are not case-sensitive, but it is good practice to write HTML markup in lowercase.
+### `disabled` Attribute
 
-## Unique ID Attributes
-
-Specific and unique `id` attributes can be assigned to elements to differentiate them, and `id` values can be referenced in CSS and JavaScript to manipulate, format, and perform specific instructions on a single element alone, without affecting others of the same type.
-
-Valid `id` attribute values begin with a letter and must comprise only letters (`a`-`Z`), digits (`0`-`9`), hyphens (`-`), underscores (`_`), and periods (`.`).
+The `disabled` attribute is applied to form elements like buttons and inputs to make them nonfunctional:
 
 ```html
-<h1 id="th1s_is.v4lid">Hello World</h1>
+<button disabled>Submit</button>
 ```
 
-**Note:** While `th1s_is.v4lid` is indeed a valid `id` value, it's best to use a consistent naming scheme such as camel case (`thisIsValid`), dash case (`this-is-valid`), or snake case (`this_is_valid`).
-
-## Example
-
-In the example below, the `<p>` (paragraph) element is given a unique identifier in its `id` attribute, and the text color is set using the `style` attribute:
-
-```html
-<p id="my-paragraph" style="color: aqua;">
-  Here's some text that is being altered by the HTML attributes
-</p>
-```
+This is the output of the above code snippet:
+![Disable attribute on a <button> element](https://raw.githubusercontent.com/Codecademy/docs/main/media/button-disabled-attribute.gif)

@@ -43,4 +43,4 @@ This will output:
 ["Sophia", "Liam", "Riley", "Olivia", "Noah"]
 ```
 
-> **Note:** [Big-O](https://www.codecademy.com/resources/docs/general/big-o-notation) of this method is O(1).
+> **Note:** [Big-O](https://www.codecademy.com/resources/docs/general/big-o-notation) of this method is **O(1)**.

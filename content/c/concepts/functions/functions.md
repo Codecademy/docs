@@ -36,7 +36,7 @@ void greet(void) {
 }
 ```
 
-The `greet()` function uses a [`void`](https://www.codecademy.com/resources/docs/general/void) type to indicate that no output is returned after execution.
+The `greet()` function uses a [`void`](https://www.codecademy.com/resources/docs/general/data-types/void) type to indicate that no output is returned after execution.
 
 ## Calling a Function
 

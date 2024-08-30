@@ -37,3 +37,23 @@ int main() {
   // Output: 1.5708 radians
 }
 ```
+
+## Codebyte Example
+
+The following example is runnable and outputs the inverse cosine of `-0.5`:
+
+```codebyte/cpp
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+  double x = -0.5;
+  double result = acos(x);
+
+  cout << result << " radians" << endl;
+
+  return 0;
+}
+```

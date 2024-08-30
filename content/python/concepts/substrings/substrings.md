@@ -19,7 +19,7 @@ A substring is a sequence of characters that are part of an original [string](ht
 
 A slice is made by using the open `[` and closed `]` square brackets next to a string variable. Inside the brackets, the position can be given:
 
-```psuedo
+```pseudo
 string[start:end:step]
 ```
 

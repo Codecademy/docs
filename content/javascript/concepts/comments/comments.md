@@ -6,7 +6,7 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Comments'
-  - 'Documenation'
+  - 'Documentation'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'

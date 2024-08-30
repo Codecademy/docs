@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `hsla()` color function defines the color value by providing three comma separated values with an optional fourth value.
+The **`hsla()`** color function defines the color value by providing three comma-separated values with an optional fourth value.
 
 - The first value represents the hue value, the base of the color.
 - The second represents the saturation value.
@@ -26,8 +26,8 @@ The `hsla()` color function defines the color value by providing three comma sep
 ```
 
 - `hue`: A unitless number value. The base of the color. Represents an angle in the color wheel from `0` to `360`.
-- `saturation`: A percentage value. Represents the saturation of the base color. `0%` represents a color with no saturation at all and it shows gray. `100%` means the base color is full.
-- `luminance`: A percentage value. Represents the brightness of the base color. `0%` represents a color with no luminance at all and it shows black. `100%` means full lightness and it shows white. `50%` means the base color is full.
+- `saturation`: A percentage value. Represents the saturation of the base color. `0%` represents a color with no saturation, showing gray. `100%` means the base color is visible as it is.
+- `luminance`: A percentage value. Represents the brightness of the base color. `0%` represents a color with no luminance, showing black. `100%` means complete lightness and it shows white. `50%` means the base color is visible as it is.
 - `alpha`: A numeric value between `0` and `1`. A `1` value will make the color fully opaque, while a `0` value will make the color fully transparent.
 
 ## Example 1
@@ -40,6 +40,10 @@ h1 {
 }
 ```
 
+The following image demonstrates the above `hsla()` color on an h1 element over a background image:
+
+![Demonstrates an h1 heading with 50% opacity over a patterned background image](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-color-hsla-example-1.png)
+
 ## Example 2
 
 Set the font color of the `h2` element:
@@ -49,3 +53,7 @@ h1 {
   color: hsla(211, 60%, 10%, 0.8);
 }
 ```
+
+The following image demonstrates the above `hsla()` color on an h1 element over a background image:
+
+![Demonstrates an h1 heading with 80% opacity over a patterned background image](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-color-hsla-example-2.png)

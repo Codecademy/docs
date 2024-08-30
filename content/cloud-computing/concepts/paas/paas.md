@@ -35,7 +35,7 @@ Since it is a web service, PaaS allows a team of developers to collaborate on a 
 
 ## Disadvantages of PaaS
 
-When using a PaaS, developers are limited to the use of the software technologies (langauges, frameworks, libraries, etc...) that are available from the vendor. Before selecting a vendor for PaaS, developers should make sure that they are comfortable using what the vendor provides. Another disadvantage of PaaS is migration. It is possible for a vendor's technology stack to not be compatible with another vendor's technology stack; therefore if a team of developers wishes to change vendor, they may be required to completely rework everything for things to work on the new vendor's platform.
+When using a PaaS, developers are limited to the use of the software technologies (languages, frameworks, libraries, etc...) that are available from the vendor. Before selecting a vendor for PaaS, developers should make sure that they are comfortable using what the vendor provides. Another disadvantage of PaaS is migration. It is possible for a vendor's technology stack to not be compatible with another vendor's technology stack; therefore if a team of developers wishes to change vendor, they may be required to completely rework everything for things to work on the new vendor's platform.
 
 ## Providers of PaaS
 

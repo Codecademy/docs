@@ -72,7 +72,7 @@ switch (rating) {
 }
 ```
 
-- If `rating` is 5, print `"Execellent 👏"`.
+- If `rating` is 5, print `"Excellent 👏"`.
 - If `rating` is 4, print `"Good 👍"`.
 - If `rating` is 3, print `"Fair 👌"`.
 - Else, print `"Poor 👎"`.

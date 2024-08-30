@@ -1,6 +1,6 @@
 ---
 Title: 'Constructors'
-Description: 'A constructor is a function that does initialization of an object when the object is created. Arguments are passed to the constructor function when you use the new keyword. There are two types of constructors, one defined as a function, and one defined with the constructor method in a class. To use a constructor function to create objects, simply define a JavaScript function with any number of arguments. Inside the function, the keyword this is used as a placeholder for the object being created. If the constructor function is used by itself, without the new statement, this will have no value. Its preferred to capitalize a constructor function.'
+Description: 'A constructor is a function that initializes an object when the object is created.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/create-a-back-end-app-with-javascript'
 ---
 
-A constructor is a function that does initialization of an object when the object is created.
+A **constructor** is a function that executes the initialization of an object when the object is created.
 Arguments are passed to the constructor function when you use the `new` keyword. There are two types of constructors,
 one defined as a `function`, and one defined with the `constructor` method in a `class`.
 
@@ -28,7 +28,7 @@ It's preferred to capitalize a constructor function.
 
 ### Example
 
-```javascript
+```js
 function Car(make, model, year) {
   this.make = make;
   this.model = model;
@@ -45,15 +45,36 @@ console.log('Car 2 is a ' + car2.year + ' ' + car2.make + ' ' + car2.model);
 // Output: Car 2 is a 2018 Ford Taurus
 ```
 
+### Codebyte Example
+
+Here is a codebyte example that demonstrates the usage of the `constructor` function:
+
+```codebyte/javascript
+function Movie(title, director, yearReleased) {
+  this.title = title;
+  this.director = director;
+  this.yearReleased = yearReleased;
+}
+
+var movie1 = new Movie('A Boy and His Dog', 'L.Q. Jones', 1975);
+var movie2 = new Movie('Mad Max', 'George Miller', 1979);
+
+console.log('Movie 1: ' + movie1.title + ', directed by ' + movie1.director + ', released in ' + movie1.yearReleased);
+// Output: Movie 1: A Boy and His Dog, directed by L.Q. Jones, released in 1975
+
+console.log('Movie 2: ' + movie2.title + ', directed by ' + movie2.director + ', released in ' + movie2.yearReleased);
+// Output: Movie 2: Mad Max, directed by George Miller, released in 1979
+```
+
 ## The Class `constructor` Method
 
-When defining a `class` in javascript, there is a special `constructor` method defined within it.
+When defining a `class` in JavaScript, there is a special `constructor` method defined within it.
 Like the object constructor function, the `constructor` method can be defined with any number of arguments,
 and the `this` keyword can be used as a placeholder for the object being created.
 
 ### Example
 
-```javascript
+```js
 class Car {
   constructor(make, model, year) {
     this.make = make;
@@ -70,4 +91,27 @@ console.log('Car 1 is a ' + car1.year + ' ' + car1.make + ' ' + car1.model);
 
 console.log('Car 2 is a ' + car2.year + ' ' + car2.make + ' ' + car2.model);
 // Output: Car 2 is a 2018 Ford Taurus
+```
+
+### Codebyte Example
+
+Here is a codebyte example that illustrates the use of the `constructor` method:
+
+```codebyte/javascript
+class Movie {
+  constructor(title, director, yearReleased) {
+    this.title = title;
+    this.director = director;
+    this.yearReleased = yearReleased;
+  }
+}
+
+var movie1 = new Movie('A Boy and His Dog', 'L.Q. Jones', 1975);
+var movie2 = new Movie('Mad Max', 'George Miller', 1979);
+
+console.log('Movie 1: "' + movie1.title + '", directed by ' + movie1.director + ', released in ' + movie1.yearReleased);
+// Output: Movie 1: "A Boy and His Dog", directed by L.Q. Jones, released in 1975
+
+console.log('Movie 2: "' + movie2.title + '", directed by ' + movie2.director + ', released in ' + movie2.yearReleased);
+// Output: Movie 2: "Mad Max", directed by George Miller, released in 1979
 ```

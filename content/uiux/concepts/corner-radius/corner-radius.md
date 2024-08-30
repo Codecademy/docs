@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **corner radius** indicates the amount of rounding on the cornders of a shape. If the corner radius is zero, then there is no rounding, meaning that the corners are completely squared off. Increasing the value of the corner radius adds more rounding to the corners.
+The **corner radius** indicates the amount of rounding on the corners of a shape. If the corner radius is zero, then there is no rounding, meaning that the corners are completely squared off. Increasing the value of the corner radius adds more rounding to the corners.
 
 In [design software](https://www.codecademy.com/resources/docs/uiux/design-software), corner radius is a property of any shape that includes two straight lines joined together, such as rectangles, polygons, stars, and custom shapes made with the pen tool.
 

@@ -57,7 +57,7 @@ print(var)
 # Output: x
 ```
 
-By default, `replace()` will replace all occurances in the string. However, you can add an integer to specifiy how many strings should be replaced.
+By default, `replace()` will replace all occurrences in the string. However, you can add an integer to specify how many strings should be replaced.
 
 ```py
 var = "I like cats and cats like me"

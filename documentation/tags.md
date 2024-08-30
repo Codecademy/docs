@@ -5,7 +5,9 @@ Tags in Docs are used for recommending related entries and for the home page sea
 Feel free to add suggestions for new tags to the list as part of your PR! Be sure to insert them alphabetically.
 
 ```
+Abstraction
 Accessibility
+Aggregate Functions
 AI
 Algorithms
 Alias
@@ -13,11 +15,14 @@ Anchor
 Android
 Angular
 Animation
+Anonymous Functions
 APIs
 Arguments
 Arithmetic
 Arrays
 ASP.NET
+Assert
+Assignment
 Asymptotic Notation
 Async Await
 Attributes
@@ -39,17 +44,23 @@ Bootstrap
 Borders
 Box Model
 Box Plot
+Break
 Browser Compatibility
 Browsers
 Bubble Sort
 Buttons
+Calendar
 Catch
 Characters
+Charts
 Chatbots
 Cryptocurrency
 Classes
+Classification
 Cloud Computing
 Code Editors
+Conditionals
+Collations
 Collections
 Colors
 Combinators
@@ -58,24 +69,34 @@ Comments
 Comparison
 Compilation
 Components
+Composition
 Computer Vision
+CMS
 Concatenation
 Conceptual
 Const
 Constructors
+Continue
+Counting Sort
 Control Flow
 CRUD
+CSS
 CSV
 Cybersecurity
 D3
+Dart
+Data
 Data Structures
 Data Types
 Database
 Date
+Dart Operators
 Debugging
 Decorators
 Deep Learning
+Denoising
 Dependency
+Design
 Developer Tools
 Development
 DFS
@@ -98,6 +119,8 @@ Else
 Encapsulation
 Encoding
 Enum
+Environment Variables
+Equality
 Error Handling
 Errors
 ES6
@@ -106,20 +129,28 @@ Events
 Exceptions
 Expo
 Express
+Extensions
+Favicon
 Files
+Filter
 Finance
 Firebase
 Flask
 Flexbox
 Flutter
 Fonts
+Footnotes
 For
+ForEach
 Foreign Key
 Form
 Formatting
 Frameworks
 Functions
 Functional Programming
+Functors
+Generics
+Geometry
 Ggplot2
 Git
 GitHub
@@ -141,19 +172,26 @@ Id
 IDE
 If
 Images
+Image Generation Model
 Index
+Information Technology
 Infrastructure
 Inheritance
 Input
+Instant
 Integers
 Interface
 iOS
 Iterators
+Java
 Join
 jQuery
+JRuby
 JSON
 JSK
+Justice
 K-Nearest Neighbors
+Knowledge Graphs
 Kotlin
 Kubernetes
 Laravel
@@ -170,9 +208,12 @@ Logical
 Logistic Regression
 Loops
 Map
+Machine Learning
 Margin
+Math
 MATLAB
 Matplotlib
+Matrices
 Media Queries
 Memory
 Metadata
@@ -180,11 +221,14 @@ Methods
 Middleware
 Models
 Modules
+Multitask Learning
+MultiTaskLasso
 MySQL
 Naive Bayes
 Natural Language Processing
 Netlify
 Networking
+Neural Networks
 NLP
 Node
 NPM
@@ -192,10 +236,13 @@ Numbers
 NumPy
 Objects
 Obsolete
+Ontologies
 OOP
+Opacity
 Open Source
 Operating Systems
 Operators
+Optimization
 Optionals
 Output
 p5
@@ -204,16 +251,23 @@ Padding
 Pandas
 Paragraph
 Parameters
+Perceptrons
 Phaser
 Physics
+Pillow
+Plotly
 Pointers
 Positioning
 PostgreSQL
+Precedence
+Preprocessor
 Primary Key
 Print
 Probability
 Promise
+Programming
 Properties
+Protocols
 Queries
 Queues
 Quicksort
@@ -237,6 +291,7 @@ Scope
 Script
 Seaborn
 Search
+Search Algorithms
 Selectors
 Semantic
 Servers
@@ -245,6 +300,7 @@ Sets
 Slices
 Socket.IO
 Sort
+Sorting Algorithms
 Span
 Specificity
 Spread
@@ -253,10 +309,13 @@ SQL Server
 Stacks
 Static Site
 Statistics
+Storage
 Stringr
 Strings
 Structure
 Style
+Subqueries
+Supervised Learning
 SwiftUI
 SwiftUI Views
 SwiftUI ViewModifiers
@@ -269,12 +328,16 @@ Target
 Technical Interviews
 Templates
 TensorFlow
+Text-To-Image
+Text Processing
+Threads
 Tidyr
 Time
 Title
 Transitions
 Transpilation
 Trees
+Trigonometry
 Try
 Tuples
 Types
@@ -282,10 +345,12 @@ Type Guard
 Type Narrowing
 Typography
 UI
+Unary
 Union
 Unicode
 Units
 Unix
+Unsupervised Learning
 URL
 UX
 Validation
@@ -302,8 +367,11 @@ VR
 Vue
 Web3
 WebRTC
+Weight & Bias
 While
 Whiteboarding
+Window Functions
+WordPress
 World Wide Web
 Xcode
 ```

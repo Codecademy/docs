@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **smart pointer** is a class that holds and manages a [pointer](https://www.codecademy.com/resources/docs/cpp/pointers) through a popular C++ technique called "Resource Acquisiton is Initialization" (RAII). It allows developers to not worry about freeing a pointer, and it also allows pointers to be exception-safe.
+A **smart pointer** is a class that holds and manages a [pointer](https://www.codecademy.com/resources/docs/cpp/pointers) through a popular C++ technique called "Resource Acquisition is Initialization" (RAII). It allows developers to not worry about freeing a pointer, and it also allows pointers to be exception-safe.
 
 ## Ownership
 
@@ -32,6 +32,9 @@ Both `unique_ptr` and `shared_ptr` have a corresponding function to create their
 ## Unique Pointers
 
 ```cpp
+#include <iostream>
+#include <memory>
+
 int main() {
   auto ptr = std::make_unique<int>(10);
 } // The ptr reaches end of scope, no memory leaks
@@ -40,12 +43,15 @@ int main() {
 ## Shared Pointers
 
 ```cpp
+#include <iostream>
+#include <memory>
+
 int main() {
   auto ptr = std::make_shared<int>(10);
 
   std::cout << ptr.use_count() << "\n"; // Prints the reference count (1)
   {
-    auto ptr2 = ptr1; // Reference count is now 2
+    auto ptr2 = ptr; // Reference count is now 2
     std::cout << ptr2.use_count() << '\n'; // Prints the reference count (2)
   } // The ptr2 reaches end of scope, reference count is 1 so resource not freed
 
@@ -56,6 +62,9 @@ int main() {
 ## Exception Safety
 
 ```cpp
+#include <iostream>
+#include <memory>
+
 void unsafe_pointer() {
   int* ptr = new int(10);
 

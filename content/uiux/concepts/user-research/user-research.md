@@ -6,6 +6,7 @@ Subjects:
 Tags:
   - 'UI'
   - 'UX'
+  - 'Design'
 CatalogContent:
   - 'intro-to-ui-ux'
   - 'paths/front-end-engineer-career-path'

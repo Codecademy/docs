@@ -29,7 +29,7 @@ The example below assumes there is a `grades` table with a column `test_scores` 
 
 ```sql
 SELECT names,
-ROUND(AVG(test_scores), 2)) AS semster_avg
+ROUND(AVG(test_scores), 2) AS semester_avg
 FROM grades
 GROUP BY names;
 ```

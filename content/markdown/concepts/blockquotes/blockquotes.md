@@ -15,7 +15,7 @@ CatalogContent:
 
 Blockquotes indicate that the enclosed text is an extended quotation. They can also be used to bring attention to a thought-provoking quote. Any quotation that is 50 words or longer should be formatted as a blockquote.
 
-To create a blockquote, add a right angle bracket `>` in front of a paragraph.
+To create a blockquote, a right angle bracket `>` is added in front of a paragraph.
 
 ```md
 > Context and memory play powerful roles in all the truly great meals in one's life.
@@ -51,9 +51,15 @@ Blockquotes can also be nested by adding two chevrons `>>` in front of it:
 > > The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
 ```
 
+The output would be:
+
+> Dorothy followed her through many of the beautiful rooms in her castle.
+>
+> > The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+
 ## Blockquotes with Other Elements
 
-Blockquotes can contain other Markdown formatted elements, though, not all elements can be used — you’ll need to experiment to see which ones work with your .md processor.
+Blockquotes can contain other Markdown formatted elements, though not all elements can be used.
 
 ```md
 > ### The quarterly results look great

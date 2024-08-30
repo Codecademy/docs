@@ -40,12 +40,20 @@ h1 {
 }
 ```
 
+This will display:
+
+![CSS border-top Example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/border-top-example-1.png)
+
 ## Example 2
 
 Set the top border of the `h1` element to be 4 pixels thick, dashed, and blue:
 
 ```css
 h1 {
-  border-top: 4px dashed blue;
+  border-top: 4px solid blue;
 }
 ```
+
+This will display:
+
+![CSS border-top Example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/border-top-example-2.png)

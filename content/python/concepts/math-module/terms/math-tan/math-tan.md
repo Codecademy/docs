@@ -1,6 +1,6 @@
 ---
 Title: 'math.tan()'
-Description: 'Returns the tangent of input numeric x, measured in radian value.'
+Description: 'Returns the tangent of input numeric x, measured in radians.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -12,34 +12,50 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Returns the tangent of input numeric x, measured in radian value.
+Returns the tangent of input numeric _x_, measured in radians.
 
 ## Syntax
 
-```py
+```pseudo
 math.tan(x)
 ```
 
 ## Example 1
 
-Use `math.tan()` to return the tangent of the integer `5` measured in radian value:
+Use `math.tan()` to return the tangent of the integer `5` measured in radians:
 
 ```python
 import math
 
 print(math.tan(5))
-
-# Output: -3.380515006246586
 ```
 
-## Example 2
+The above code gives the following output:
 
-Use `math.tan()` to return the tangent of the float `5.5` measured in radian value:
+```shell
+-3.380515006246586
+```
+
+Use `math.tan()` to return the tangent of the float `5.5` measured in radians:
 
 ```python
 import math
 
 print(math.tan(5.5))
+```
 
-# Output: -0.995584052213885
+The above code gives the following output:
+
+```shell
+-0.995584052213885
+```
+
+## Codebyte Example
+
+Run the following example that uses the `math.tan()` function to understand its working:
+
+```codebyte/python
+import math
+tangent = math.tan(1.5)
+print(tangent)
 ```

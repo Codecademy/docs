@@ -181,7 +181,7 @@ After closure call
 
 ## Capturing Values
 
-Closures can capture values from the context surrounding them. Swift stores the external values alongside the closure so they can easily be refered to and modified.
+Closures can capture values from the context surrounding them. Swift stores the external values alongside the closure so they can easily be referred to and modified.
 
 Take the following code for example, which is a simple counter function that increments the count by one when it's called.
 
@@ -211,4 +211,4 @@ In the first instance of `counter()`, assigned to the variable `countUp`, the cl
 
 ## Why Use Closures?
 
-Closures make code easier to read and shorter without losing any intentions to the code. It allows for the removal of any unneccessary parts of code to make it clear and precise. It also gives code greater flexibility, by allowing the passing around of functional code in variables and constants.
+Closures make code easier to read and shorter without losing any intentions to the code. It allows for the removal of any unnecessary parts of code to make it clear and precise. It also gives code greater flexibility, by allowing the passing around of functional code in variables and constants.

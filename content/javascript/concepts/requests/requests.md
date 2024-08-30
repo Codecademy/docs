@@ -1,6 +1,6 @@
 ---
 Title: 'Requests'
-Description: 'XMLHttpRequest is a built-in browser object that allows to make HTTP requests in JavaScript. It is basically used to fetch data from APIs. There’s another, modern method fetch, that somewhat deprecates XMLHttpRequest but the focus of this post will be on XMLHttpRequest only. XMLHttpRequest can be used in two modes: synchronous and asynchronous. There are 4 steps to do this: 1. Create XMLHttpRequest: js'
+Description: 'XMLHttpRequest is a built-in browser object that allows HTTP requests to be made in JavaScript. It is basically used to fetch data from APIs.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -11,11 +11,9 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-`XMLHttpRequest` is a built-in browser object that allows to make HTTP requests in JavaScript.
+`XMLHttpRequest` is a built-in browser object that allows HTTP requests to be made in JavaScript. It is used to fetch data from API's.
 
-It is basically used to fetch data from API's.
-
-There’s another, modern method `fetch`, that somewhat deprecates `XMLHttpRequest` but the focus of this post will be on `XMLHttpRequest` only.
+> **Note:** Use of synchronous `XMLHttpRequest` is not recommended. It is recommended to use the Fetch API instead, which includes the asynchronous `fetch()` method.
 
 ## Getting Started
 
@@ -72,7 +70,7 @@ xhr.onload = function () {
 };
 
 xhr.onerror = function () {
-  alert(`Network Error Occured`);
+  alert(`Network Error Occurred`);
 };
 
 xhr.onprogress = function (event) {

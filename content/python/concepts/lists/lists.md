@@ -79,3 +79,9 @@ print(queue_example)
 ```
 
 While using a list as a queue is possible, it is not efficient because applying `.pop()` to the first item requires shifting all remaining items by one spot and reassigning indices. Instead, a `deque` object from the [`collections`](https://www.codecademy.com/resources/docs/python/collections-module) module should be used to efficiently add/remove from a queue.
+
+## Video Walkthrough
+
+Watch this video for a step-by-step demonstration on how to create and edit Python lists.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mZdNLYYJNis" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

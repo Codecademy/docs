@@ -24,7 +24,7 @@ The **`<input>`** element creates an interactive element, usually used within a 
 <input />
 ```
 
-The `<input>` element that has no closing tag, meaning that it cannot have elements inside of it.
+The `<input>` element has no closing tag, meaning that it cannot have elements inside of it.
 
 ### Attributes
 
@@ -44,7 +44,7 @@ Some common attributes used to set properties for the `<input>` element are show
 
 ## Example
 
-The following examples uses a `<form>` element that features `<input>` elements:
+The following example uses `<form>` input elements. Within these elements, the `for` attribute is used to link the [`<label>`](https://www.codecademy.com/resources/docs/html/elements/label) to the `id` of the `<input>` element:
 
 ```html
 <html>
@@ -52,15 +52,18 @@ The following examples uses a `<form>` element that features `<input>` elements:
   <body>
     <form>
       <!-- This input type requires the user to enter a valid email address -->
-      <label>Email Address</label>
-      <input type="email" />
+      <label for="email">Email Address</label>
+      <input type="email" id="email" />
 
       <!-- This input hides the typed password with ****s -->
-      <label>Password</label>
-      <input type="password" />
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" />
 
       <!-- This input provides a checkbox -->
-      <input type="checkbox" /><label>Remember Me</label>
+      <input type="checkbox" id="remember" value="remember" /><label
+        for="remember"
+        >Remember Me</label
+      >
 
       <!-- This input provides a radio button group -->
       <label>

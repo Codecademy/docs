@@ -40,6 +40,8 @@ h1 {
 }
 ```
 
+![Shows h1 element with green background over an aquamarine background](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-background-color-example-1.png)
+
 ## Example 2
 
 Set the background color of the `h1` element to be `transparent`:
@@ -49,3 +51,5 @@ h1 {
   background-color: transparent;
 }
 ```
+
+![Shows h1 element with transparent background over an aquamarine background](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-background-color-example-2.png)

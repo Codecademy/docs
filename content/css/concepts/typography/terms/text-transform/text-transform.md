@@ -21,7 +21,7 @@ Specifies how to capitalize an element's text.
 text-transform: <value>;
 ```
 
-The following values can be be appplied to the `text-transform` property:
+The following values can be applied to the `text-transform` property:
 
 - `none` (default): The text renders as is.
 - `capitalize`: Transforms the first character of every word to uppercase.

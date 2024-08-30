@@ -51,4 +51,4 @@ num = input("Please enter a number: ")
 print(num ** 2)
 ```
 
-The [`input()` function](https://www.codecademy.com/resources/docs/python/built-in-functions/input) takes input from the user and stores it in a variable as a string. However, the `**` operator takes two numbers and returns the first number to the power of the second. In order to make the code work, the input variable must be cast to a number type. Try to edit the code above to successfully square a number inputted by the user.
+The [`input()` function](https://www.codecademy.com/resources/docs/python/built-in-functions/input) takes input from the user and stores it in a variable as a string. However, the `**` operator takes two numbers and returns the first number to the power of the second. In order to make the code work, the input variable must be cast to a number type.

@@ -1,6 +1,6 @@
 ---
 Title: 'left'
-Description: 'Specifies the distance of an element from the left of its current location if the element has position: relative declared or from the left of its nearest ancestor when the ancestor has position: relative and the element has position: absolute declared.'
+Description: 'Specifies the distance of an element from the left of the specified position.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -43,6 +43,8 @@ Set the position of `.box` element `40px` off the left edge of the nearest relat
 }
 ```
 
+![Example of position being absolute](<(https://raw.githubusercontent.com/Codecademy/docs/main/media/example-css-left()-absolute.png)>)
+
 ## Example 2
 
 Set the position of `.box` element `40px` from the elements left edge.
@@ -56,3 +58,5 @@ Set the position of `.box` element `40px` from the elements left edge.
   left: 40px;
 }
 ```
+
+![Example of position being relative](<(https://raw.githubusercontent.com/Codecademy/docs/main/media/example-css-left()-relative.png)>)

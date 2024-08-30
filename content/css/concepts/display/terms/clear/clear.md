@@ -14,15 +14,15 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Species whether an element coming after a floated element should be moved down or not.
+Specifies whether an element coming after a floated element should be moved down or not.
 
 ## Syntax
 
 ```css
-clear: <value>;
+clear: value;
 ```
 
-The following values can be be appplied:
+The `value` for the `clear` attribute can be:
 
 - `none`: The element is not moved down to clear past floating elements (the default).
 - `left`: The element is moved down to clear past _left_ floated elements.
@@ -42,3 +42,7 @@ Making an `img` element move down a _left_ floated `h1` element.
   clear: left;
 }
 ```
+
+The image below matches the code example. The `h1` element is floated to the left due to `float: left`. The `img` element is then moved under the `h1` element due to `clear: left`.
+
+![css-display-clear-example](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-display-clear-example.png)

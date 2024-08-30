@@ -36,6 +36,8 @@ body {
 }
 ```
 
+![A background image of an ocean that is not repeated](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-background-repeat1.png)
+
 ## Example 2
 
 Set `star.gif` to repeat along x-axis:
@@ -46,6 +48,8 @@ body {
   background-repeat: repeat-x, no-repeat;
 }
 ```
+
+![Star gif repeated across the x-axis](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-background-repeat2.png)
 
 ## Example 3
 
@@ -58,6 +62,8 @@ body {
 }
 ```
 
+![Star gif repeated evenly across x-axis without cropping](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-background-repeat3.png)
+
 ## Example 4
 
 Scale the star gif to fit the element:
@@ -68,3 +74,5 @@ body {
   background-repeat: round, no-repeat;
 }
 ```
+
+![Star gif stretched and repeated to fit element](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-background-repeat4.png)

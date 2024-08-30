@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-**Arrays** are ordered lists of values, all of the same [data type](https://www.codecademy.com/resources/docs/swift/data-types) and contained in the same [structure](https://www.codecademy.com/resources/docs/swift/structures). Swift, a very type-safe language, will throw compiler errors if values of different types are stored in a single array (e.g., a `String` in an `Int` array). However, values can be repeated; every occurence of the same value gets stored in a different location.
+**Arrays** are ordered lists of values, all of the same [data type](https://www.codecademy.com/resources/docs/swift/data-types) and contained in the same [structure](https://www.codecademy.com/resources/docs/swift/structures). Swift, a very type-safe language, will throw compiler errors if values of different types are stored in a single array (e.g., a `String` in an `Int` array). However, values can be repeated; every occurrence of the same value gets stored in a different location.
 
 ## Creating Arrays
 
@@ -84,7 +84,7 @@ for name in topBabyNames {
 }
 // Output:
 // Liam is the coolest name.
-// Jackson is the coolest.
+// Jackson is the coolest name.
 ```
 
 > **Note:** Alternatively, the [`.forEach()`](https://www.codecademy.com/resources/docs/swift/arrays/forEach) method can be used to iterate over an array.
@@ -104,6 +104,6 @@ print("To make life interesting, next week I'll fly to \(statesVisited.randomEle
 
 ### Methods
 
-There are many array manipulation methods available in the Swift Standard Library, including generic Collection based methods. Some of these include testing the contents of arrays (e.g. `contains()` and `.isEmpty`) while others can modify or manipulate the array entirely (e.g., `map()`, `reduce()`, and `sort()`).
+There are many array manipulation methods available in the Swift Standard Library, including generic collection-based methods. Some of these include testing the contents of arrays (e.g. `contains()` and `.isEmpty`) while others can modify or manipulate the array entirely (e.g., `map()`, `reduce()`, and `sort()`).
 
 Below are some methods available for arrays:

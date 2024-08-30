@@ -46,3 +46,7 @@ Give the image a drop shadow offset horizontally `-12px`, vertically `-12px` wit
   filter: drop-shadow(-12px -12px 2em purple);
 }
 ```
+
+![Comparison between a original image and the image with the drop-shadow filter](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-filterfunction-drop-shadow.png)
+
+The first image on the left is the original, and the image on the right has the `drop-shadow` filter set at `(12px 12px 5px red)`.

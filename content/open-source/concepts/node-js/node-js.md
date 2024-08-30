@@ -38,7 +38,7 @@ Node provides access to several important global objects for use with Node progr
 
 ### Modules
 
-Node has many built-in modules to aid in interactions with the [terminal](https://www.codecademy.com/resources/docs/general/terminal), the computer file system, and the Internet. These include:
+Node has many built-in modules to aid in interactions with the [terminal](https://www.codecademy.com/resources/docs/command-line/terminal), the computer file system, and the Internet. These include:
 
 - [HTTP](https://nodejs.org/dist/latest/docs/api/http.html) and [HTTPS](https://nodejs.org/dist/latest/docs/api/https.html) for creating web servers.
 - [File System](https://nodejs.org/dist/latest/docs/api/fs.html), [OS](https://nodejs.org/dist/latest/docs/api/os.html), and [Path](https://nodejs.org/dist/latest/docs/api/path.html) for interacting with the file system, operating system, and [file/directory paths](https://www.codecademy.com/resources/docs/general/file-paths).

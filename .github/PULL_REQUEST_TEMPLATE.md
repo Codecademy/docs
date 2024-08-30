@@ -1,5 +1,5 @@
 <!--
-👋 Hi, thanks for sending a PR to Codecademy Docs! 💖
+👋 Hi, thanks for submitting a PR to Codecademy Docs! 💖
 Please fill out all fields below to ensure your PR is reviewed quickly.
 
 **IMPORTANT**
@@ -18,6 +18,13 @@ Of course, you can opt not to do this and be listed as an "Anonymous contributor
 ### Description
 
 <!-- Please write a summary of the change, such as which topic(s) and file(s) that you have edited or created. Please also include relevant motivation and context: -->
+
+### Issue Solved
+
+<!--
+Please use the following format(s) to link the issue numbers that your contribution addresses:
+Closes #issue-number (where `issue-number` corresponds to the PRs' respective issue)
+-->
 
 ### Type of Change
 
@@ -39,7 +46,7 @@ Of course, you can opt not to do this and be listed as an "Anonymous contributor
 - [ ] I have made corresponding changes to the documentation if needed.
 - [ ] I have confirmed my changes are not being pushed from my forked `main` branch.
 - [ ] I have confirmed that I'm pushing from a new branch named after the changes I'm making.
-- [ ] Under "Development" on the right, I have linked any issues that are relevant to this PR (write "Closes #<issue number> in the "Description" above).
+- [ ] I have linked any issues that are relevant to this PR in the `Issues Solved` section.
 
 <!--
 Having trouble with the PR checker? Here are some common issues and resolutions:

@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.findall()` method iterates over a string to find a subset of characters that match a specified pattern. It will return a list of every pattern match that occurs in a given string.
+The **`.findall()`** method iterates over a string to find a subset of characters that match a specified pattern. It will return a list of every pattern match that occurs in a given string.
 
 ## Syntax
 

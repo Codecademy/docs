@@ -1,6 +1,6 @@
 ---
 Title: 'Root User'
-Description: 'The root user of a cloud computing account is the identity that has access to all services and settings avalible to that account.'
+Description: 'The root user of a cloud computing account is the identity that has access to all services and settings available to that account.'
 Subjects:
   - 'Computer Science'
 Tags:

@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Replace matching substrings with a new string for all occurrences, or a specified number.
+The **`re.sub()`** function replaces matching substrings with a new string for all occurrences, or a specified number.
 
 ## Syntax
 
@@ -24,7 +24,7 @@ re.sub(<pattern>, <replacement>, string, <count>, <flags>)
 A `<pattern>` is a [regular expression](https://www.codecademy.com/resources/docs/general/regular-expressions) that can include any of the following:
 
 - A string: `Jane Smith`
-- A character class code: `/w`, `/s` , `/d`
+- A character class code: `/w`, `/s`, `/d`
 - A regex symbol: `$`, `|`, `^`
 
 The other arguments include:
@@ -44,7 +44,7 @@ blurb = '''The analytics firm uses a range of BI tools to  visualize data. Their
 bi tools may be their most valuable resource.'''
 
 match = re.sub(r'bi','business intelligence',blurb,flags=re.IGNORECASE)
-# The ignorecase flag allows for matches regardless of case
+# The IGNORECASE flag allows for matches regardless of the case
 
 print(match)
 ```
@@ -66,7 +66,7 @@ import re
 confidential_str = '''The suspect's bank account (#333344444) and pin (#9999) were found in his cell'''
 
 redacted = re.sub(r'\d+', 'REDACTED', confidential_str)
-# \d mathes any numerical character
+# \d matches any numerical character
 
 print(redacted)
 ```

@@ -12,7 +12,6 @@ Tags:
 CatalogContent:
   - 'learn-css'
   - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
 ---
 
 The **`hsl()`** function defines the hue, saturation, and luminance of an [element's](https://www.codecademy.com/resources/docs/html/elements) color value.
@@ -29,20 +28,24 @@ The **`hsl()`** function defines the hue, saturation, and luminance of an [eleme
 
 ## Example 1
 
-Set the font color of the `h1` element to `yellow`:
-
 ```css
 h1 {
   color: hsl(60, 100%, 50%);
 }
 ```
 
-## Example 2
+Sets the font color of the `h1` element to `yellow`:
 
-Set the font color of the `h1` element to a shade of purple:
+![hsl() Example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-colors-hsl-example-1.png)
+
+## Example 2
 
 ```css
 h1 {
   color: hsl(270, 50%, 40%);
 }
 ```
+
+Sets the font color of the `h1` element to a shade of purple:
+
+![hsl() Example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-colors-hsl-example-2.png)

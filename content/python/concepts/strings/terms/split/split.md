@@ -10,6 +10,7 @@ Tags:
   - 'Methods'
   - 'Functions'
   - 'Formatting'
+  - 'Lists'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/analyze-data-with-python'
@@ -20,17 +21,17 @@ The **`.split()`** method returns a new [list](https://www.codecademy.com/resour
 ## Syntax
 
 ```pseudo
-string.split(delimiter, number_of_items)
+string.split(delimiter, maxsplit)
 ```
 
 The `.split()` method takes the following optional parameters:
 
-- A `delimiter` that is a either a [regular expression](https://www.codecademy.com/resources/docs/python/regex) or a string that is composed of one or more characters.
-- A maximum `number_of_items` for the returned list.
+- A `delimiter` that is either a [regular expression](https://www.codecademy.com/resources/docs/python/regex) or a string that is composed of one or more characters.
+- The value `maxsplit` specifies the total number of splits that can occur, and the remainder of the string is returned as the final element of the list. The default value is `-1`, which means an unlimited number of splits.
 
 If no parameters are passed to the `.split()` method, a list is returned with the `string` as the sole element.
 
-**Note**: An empty string (`""`) cannot be used as a `delimiter` to return a list of single characters from a given `string`. Using the built-in `list()` method can achieve this.
+> **Note**: An empty string (`""`) cannot be used as a `delimiter` to return a list of single characters from a given `string`. Using the built-in `list()` method can achieve this.
 
 ## Examples
 
@@ -48,7 +49,7 @@ print(my_list)
 The next example shows the following:
 
 - It is possible to use escape characters (tab `\t`, newline `\n`, etc.) as delimiters (in `list_a`).
-- The `number_of_items` can control the size of the returned `list_b`.
+- The `maxsplit` can control the size of the returned `list_b`.
 
 ```py
 multiline_string = """

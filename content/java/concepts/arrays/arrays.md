@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Java, an array is used for storing elements of the same data type in a fixed-sized collection, ordered by insertion. Being fixed in size means that unlike with [ArrayList](https://www.codecademy.com/resources/docs/java/array-list), elements cannot be removed or added after the array has been created. They can only be modified.
+In Java, an array is used for storing elements of the same data type in a fixed-sized collection, ordered by insertion. Arrays are classified as a [reference data type](https://www.codecademy.com/resources/docs/java/data-types#reference-data-types). Being fixed in size means that unlike with an [ArrayList](https://www.codecademy.com/resources/docs/java/array-list), elements cannot be removed or added after the array has been created. They can only be modified.
 
 ## Syntax
 
@@ -26,7 +26,7 @@ dataType[] varName = {elemOne, elemTwo, elemThree, elemN};
 Alternatively, an array can be defined with the `new` keyword, the `arrayLength` integer defined, and each of the elements defined afterward:
 
 ```pseudo
-dataType[] varName = dataType[arrayLength];
+dataType[] varName = new dataType[arrayLength];
 
 varName[0] = valueOne;
 varName[1] = valueTwo;
@@ -84,4 +84,4 @@ Gym: 50
 
 ## The `Arrays` Class
 
-Java includes an `Arrays` class in `java.util` that provides a number of static methods for manipulating arrays. Prominent ones are listed below.
+Java includes an `Arrays` class in `java.util` that provides a number of static methods for manipulating arrays. Prominent ones are listed below:

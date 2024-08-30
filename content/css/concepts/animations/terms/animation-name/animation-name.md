@@ -55,6 +55,8 @@ div {
 }
 ```
 
+![Example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-animation-name-disappear.gif)
+
 ## Example 2
 
 Give the `animation-name` a second comma-separated value `slideleft`:
@@ -89,3 +91,5 @@ div {
   }
 }
 ```
+
+![Example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-animation-name-fade-slide.gif)

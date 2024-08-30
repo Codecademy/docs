@@ -50,10 +50,14 @@ Provide a scrollbar and clip any content that overflows.
 
 ## Example 3
 
-Provide a scrollbar only if overflow contents exists.
+Any overflowing content will be visible outside its container.
 
 ```css
 .view-box {
-  overflow-x: auto;
+  overflow-x: visible;
 }
 ```
+
+The following image demonstrates each of the `overflow-x` properties described above:
+
+![Three examples of a div with a fixed width, each with a different overflow-x property](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-overflow-x.png)

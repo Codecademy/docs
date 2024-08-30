@@ -22,7 +22,7 @@ The usage of classes are a key element of [object-oriented programming](https://
 
 ## Creating a Class
 
-In Python, classes are defined using the [`class`](https://www.codecademy.com/resources/docs/python/keywords/class) keyword.
+In Python, classes are defined using the [`class`](https://www.codecademy.com/resources/docs/python/keywords/class) keyword. The first letter of the name of the class is always capitalized. For instance, the first letter of the `Home` class in the below example, i.e., 'H', is capitalized:
 
 ```py
 class Home:
@@ -54,7 +54,7 @@ Objects can be created or instantiated from classes. These objects are known as 
 my_home = Home()
 ```
 
-Here, the instance name is `my_home`, which derives from the `Home` class. Calling this line implicitly calls the `Home` class's [`__init__()`](https://www.codecademy.com/resources/docs/python/dunder-methods/__init__) method.
+Here, the instance name is `my_home`, which derives from the `Home` class. Calling this line implicitly calls the `Home` class's [`__init__()`](https://www.codecademy.com/resources/docs/python/dunder-methods/init) method.
 
 ### Attributes
 

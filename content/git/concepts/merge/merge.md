@@ -12,7 +12,7 @@ CatalogContent:
   - 'learn-the-command-line'
 ---
 
-In Git, completed changes made to a branch can be merged to the `main` branch. When collaborating on a remote repository, a pull request will need to be opened in order to do this. Anyone with push access to the repository can complete the merge.
+In Git, completed changes made to a [branch](https://www.codecademy.com/resources/docs/git/branch) can be merged to the `main` branch. When collaborating on a remote repository, a [pull request](https://www.codecademy.com/resources/docs/git/pull-requests) will need to be opened in order to do this. Anyone with push access to the repository can complete the merge.
 
 ## Git Command
 

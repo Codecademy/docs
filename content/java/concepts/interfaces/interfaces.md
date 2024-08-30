@@ -12,9 +12,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Interfaces** are abstract types describing [methods](https://www.codecademy.com/resources/docs/java/methods) and [variables](https://www.codecademy.com/resources/docs/java/variables) that should exist in any [class](https://www.codecademy.com/resources/docs/java/classes) that implements the interface. The use of an interface is similar to class [inheritance](https://www.codecademy.com/resources/docs/java/inheritance) in that the class implementing the interface "inherits" its methods, but unlike class inheritance, a given class can implement multiple interfaces at once.
+**Interfaces** are abstract types describing [methods](https://www.codecademy.com/resources/docs/java/methods) and [variables](https://www.codecademy.com/resources/docs/java/variables) that should exist in any [class](https://www.codecademy.com/resources/docs/java/classes) that implements the interface. The use of an interface is similar to class [inheritance](https://www.codecademy.com/resources/docs/java/inheritance) in that the class implementing the interface "inherits" its methods. But, unlike class inheritance, a given class can implement multiple interfaces at once.
 
-When a variable is defined as having the [data type](https://www.codecademy.com/resources/docs/java/data-types) of an interface, it means it can hold any instance of a class implementing that interface, the interface itself can not be instantiated directly.
+When a variable is defined as having the [data type](https://www.codecademy.com/resources/docs/java/data-types) of an interface, it means it can hold any instance of a class implementing that interface, the interface itself can not be instantiated directly. Interfaces are classified as a [reference data type](https://www.codecademy.com/resources/docs/java/data-types#reference-data-types).
 
 The following items are allowed in an interface definition:
 

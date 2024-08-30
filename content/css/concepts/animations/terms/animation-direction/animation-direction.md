@@ -51,6 +51,8 @@ div {
 }
 ```
 
+![Animation with reverse animation-direction](https://raw.githubusercontent.com/Codecademy/docs/main/media/animation-direction-example1.gif)
+
 ## Example 2
 
 Set the first direction to `alternate` and the second direction to `alternate-reverse`:
@@ -84,3 +86,5 @@ div {
   }
 }
 ```
+
+![Animation with animation-direction as alternate and alternate-reverse](https://raw.githubusercontent.com/Codecademy/docs/main/media/animation-direction-example2.gif)

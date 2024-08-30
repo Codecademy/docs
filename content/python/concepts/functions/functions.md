@@ -17,7 +17,7 @@ Some tasks need to be performed multiple times within a program. Rather than rew
 
 ## Syntax
 
-```pseudo
+```py
 def my_function(value):
   return value + 1
 
@@ -25,7 +25,7 @@ print(my_function(2))
 print(my_function(3 + 5))
 ```
 
-Functions may return a value using the `return` keyword followed by a `value`. They can then be called, or invoked, elsewhere in the program. The output from the snippet above would look similar to this:
+Functions may return a value using the `return` keyword followed by a `value`. They can then be called, or invoked, elsewhere in the program. The output from the snippet above would look like this:
 
 ```shell
 3

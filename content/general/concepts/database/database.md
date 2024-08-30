@@ -20,7 +20,7 @@ There are many different ways for database systems to structure and organize dat
 
 ### Relational Databases
 
-[Relational databases](https://www.codecademy.com/resources/docs/general/relational-database) structure their data in tables made up of rows and columns. Multiple tables can have relationships to each other based on the values in key columns. They provide an efficient and flexible way to access structured information. Data is typically queried and manipulated through some form of [Structured Query Language (SQL)](https://www.codecademy.com/resources/docs/sql) implemented by the DBMS.
+[Relational databases](https://www.codecademy.com/resources/docs/general/database/relational-database) structure their data in tables made up of rows and columns. Multiple tables can have relationships to each other based on the values in key columns. They provide an efficient and flexible way to access structured information. Data is typically queried and manipulated through some form of [Structured Query Language (SQL)](https://www.codecademy.com/resources/docs/sql) implemented by the DBMS.
 
 ### Object Databases
 

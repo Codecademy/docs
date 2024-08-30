@@ -17,7 +17,7 @@ Takes a string, and returns a copy of that string in which all letters are lower
 
 ## Syntax
 
-```python
+```pseudo
 string.lower()
 ```
 
@@ -66,4 +66,18 @@ if my_string.lower() == "amazing!":
   print("Isn't that just " + my_string)
 
 # Output: "Isn't that just AMAZING!""
+```
+
+## Codebyte Example
+
+The example below compares `color_entry_a` to `color_entry_b` using `.lower()`. Note `color_entry_a` remains capitalized even after the `.lower()` method is used on it.
+
+```codebyte/python
+color_entry_a = "Blue"
+color_entry_b = "blue"
+
+if color_entry_a.lower() == color_entry_b.lower():
+  print("We both like the color " + color_entry_a + "!")
+else:
+  print("We like different colors.")
 ```

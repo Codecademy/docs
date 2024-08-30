@@ -32,3 +32,18 @@ int main() {
   // Output: 6.5
 }
 ```
+
+## Codebyte Example
+
+The following code example returns the absolute value of a decimal with the `fabs()` method.
+
+```codebyte/cpp
+#include <iostream>
+#include <cmath> // For the fabs method
+
+int main() {
+    double x = -3.14;
+    std::cout << "The absolute value of " << x << " is " << fabs(x) << std::endl;
+    return 0;
+}
+```

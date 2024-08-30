@@ -39,3 +39,15 @@ console.log(currentDateString);
 // Output: Thu Jul 15 2021 11:48:57 GMT-0700 (Pacific Daylight Time)
 // Note: Timezone may vary
 ```
+
+## Codebyte Example
+
+The following is runnable, and demonstrates the use of the `.toString()` method.
+
+```codebyte/javascript
+const exampleDate = new Date('May 29, 2023 20:29:31');
+const exampleDateString = exampleDate.toString();
+
+console.log(typeof exampleDate);
+console.log(typeof exampleDateString);
+```

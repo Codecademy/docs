@@ -24,7 +24,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        In addition to the [Contributing Guide](https://github.com/Codecademy/docs/blob/main/.github/CONTRIBUTING.md), we recommend checking out the following before submtting a PR:
+        In addition to the [Contributing Guide](https://github.com/Codecademy/docs/blob/main/CONTRIBUTING.md), we recommend checking out the following before submtting a PR:
         - [Entry templates](https://github.com/Codecademy/docs/blob/main/documentation/)
         - [Content standards](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md)
         - [Markdown style guide](https://curriculum-documentation.codecademy.com/content-guidelines/markdown-style-guide/)

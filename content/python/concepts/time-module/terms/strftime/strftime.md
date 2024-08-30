@@ -30,7 +30,7 @@ A few common codes are:
 | :--: | ---------------------------------------------------- | --------------------- |
 | `%a` | The abbreviated day of the week.                     | Mon, Tues, etc.       |
 | `%A` | The day of the week (full name).                     | Monday, Tuesday, etc. |
-| `%d` | The day of of the month in two decimals.             | 01 - 31               |
+| `%d` | The day of the month in two decimals.                | 01 - 31               |
 | `%Y` | The calendar year represented as four decimals.      | 2020                  |
 | `%H` | The hour of a 24-hour clock in two decimals.         | 00 - 23               |
 | `%I` | The hour of a 12-hour clock in two decimals.         | 00 - 12               |

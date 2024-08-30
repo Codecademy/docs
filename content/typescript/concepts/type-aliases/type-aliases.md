@@ -17,7 +17,7 @@ In TypeScript, **type aliases** create type definitions that can be reused throu
 
 Type aliases require the `type` keyword and a name. They can be created in two ways.
 
-- THey can be set as an object that describes the members and their respective types.
+- They can be set as an object that describes the members and their respective types.
 
 ```ts
 type myType = {

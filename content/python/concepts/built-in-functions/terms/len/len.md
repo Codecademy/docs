@@ -24,7 +24,7 @@ len(object)
 An `object` passed to the `len()` function is commonly one of the following:
 
 - It can be a sequence such as a [string](https://www.codecademy.com/resources/docs/python/strings) or [tuple](https://www.codecademy.com/resources/docs/python/tuples).
-- It can also be a collection such as a [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries) or [set](https://www.codecademy.com/resources/docs/python/set).
+- It can also be a collection such as a [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries) or [set](https://www.codecademy.com/resources/docs/python/sets).
 
 ## Example
 

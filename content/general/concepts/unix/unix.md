@@ -18,7 +18,7 @@ CatalogContent:
 
 Originally developed for internal use at Bell Labs in the late 1970s, AT&T licensed Unix to a variety of outside parties, leading to a number of academic and commercial Unix variants. These include:
 
-- [Berkely Software Distribution](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution#External_links) from the University of California, Berkeley (now discontinued).
+- [Berkeley Software Distribution](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution#External_links) from the University of California, Berkeley (now discontinued).
 - [SunOS/Solaris](https://www.oracle.com/solaris/solaris11/) from Sun Microsystems (now Oracle).
 - [Advanced Interactive eXecutive (AIX)](https://www.ibm.com/it-infrastructure/power/os/aix) from IBM.
 

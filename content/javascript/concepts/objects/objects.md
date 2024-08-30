@@ -1,12 +1,12 @@
 ---
 Title: 'Objects'
-Description: 'A JavaScript object can be created or defined with an object literal: js const person = { firstName: Elizabeth, lastName: Harmon, age: 22, eyeColor: Hazel,'
+Description: 'A data type for organizing a set of custom properties and behaviors.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
 Tags:
   - 'Dictionary'
-  - 'Objects'
+  - 'Methods'
   - 'Classes'
   - 'OOP'
 CatalogContent:
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-A JavaScript object can be created or defined with an object literal:
+A JavaScript **object** is a non-primitive data type that can assume the properties and behaviors required for a given programming need. An object can be created or defined with an object literal:
 
 ```js
 const person = {
@@ -59,14 +59,14 @@ objectName.propertyName
 person.lastName;
 ```
 
-Bracket notation must be used if the property name has numbers, spaces, or special characters:
+Bracket notation must be used if the property name has spaces, special characters, or begins with a number:
 
 ```pseudo
-objectName["propertyName"]
+objectName['property Name']
 ```
 
 ```js
-person['lastName'];
+person['last Name'];
 ```
 
 ## Object Methods
@@ -100,11 +100,11 @@ Hi, I am Elizabeth Harmon.
 
 ## Object Classes
 
-Classes are essentially boilerplate object templates. If a car was an object, then a car factory is an object class.
+Classes are essentially boilerplate object templates. If a car is an object, then a car factory is an object class.
 
 A class can be constructed with the following notation. The person object example will be used.
 
-**Note:** Anonymous functions can't be used in classes.
+> **Note:** Anonymous functions can't be used in classes.
 
 ```js
 class Person {
@@ -134,7 +134,8 @@ Person {
 */
 ```
 
-An additional step can be made to optimize this procedure through the use of a _constructor_.
+An additional step can be made to optimize this procedure through the use of [constructors](https://www.codecademy.com/resources/docs/javascript/constructors).
+
 A constructor function initializes a set of variables at the creation of a class. Thanks to constructors, object properties can be defined when a new instance is made. This makes code precise and concise.
 
 ```js
@@ -149,7 +150,7 @@ class Person {
 }
 ```
 
-To summarize what's been done, when making a new instance, the constructor assigns the new object the two new properties 'firstName' and 'lastName' whose values are inputted at the time of creating the instance.
+To summarize what's been done, when making a new instance, the constructor assigns the new object the two new properties `firstName` and `lastName` whose values are inputted at the time of creating the instance.
 
 ```js
 const person = new Person('Elizabeth', 'Harmon');
@@ -166,6 +167,37 @@ Person {
 } 
 */
 
-person.greeting();
-// Output: "Hi, I am Elizabeth Harmon"
+console.log(person.greeting());
+// Output: Hi, I am Elizabeth Harmon.
+```
+
+## Video Walkthrough
+
+Watch this video to learn how to create JavaScript objects containing different types of data and functions, and access their properties.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MsvR9zVM8dI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Codebyte Example
+
+The following example showcases how object properties are defined and applied in JavaScript:
+
+```codebyte/javascript
+const book = {
+  title: 'The Queen\'s Gambit',
+  author: {
+    firstName: 'Walter',
+    lastName: 'Tevis'
+  },
+  publicationYear: 1983,
+  genres: ['Fiction', 'Drama'],
+  details: {
+    pages: 340,
+    language: 'English'
+  },
+  getSummary() {
+    return `${this.title} by ${this.author.firstName} ${this.author.lastName} is a ${this.genres.join(', ')} novel published in ${this.publicationYear}.`;
+  }
+};
+
+console.log(book.getSummary());
 ```

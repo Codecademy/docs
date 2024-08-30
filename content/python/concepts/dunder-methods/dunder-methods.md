@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Double-underscore**, or **"dunder", methods** use a special syntax to perform [class](https://www.codecademy.com/resources/docs/python/classes)-specific operations in Python, including the following:
+**Dunder Methods**, alternatively known as **magic methods**, use a special syntax to perform [class](https://www.codecademy.com/resources/docs/python/classes)-specific operations in Python. Here, "dunder" is the short for "double underscores". The operations that it performs include the following:
 
 - Performing arithmetic operations on numeric-type attributes.
 - Initializing a new class instance and binding any necessary attributes.
@@ -34,7 +34,7 @@ The `methodname` is all lowercase even if there is more than one word in the nam
 
 ## Example
 
-The following example showcases the [`__init__()`](https://www.codecademy.com/resources/docs/python/dunder-methods/__init__) dunder method used for the `Home` class. This particular method will be called each time a new instance of `Home` is created, binding the values of any attributes that were passed:
+The following example showcases the [`__init__()`](https://www.codecademy.com/resources/docs/python/dunder-methods/init) dunder method used for the `Home` class. This particular method will be called each time a new instance of `Home` is created, binding the values of any attributes that were passed:
 
 ```py
 class Home:
