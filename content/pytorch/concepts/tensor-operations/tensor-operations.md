@@ -45,26 +45,8 @@ Reduction operations compute a single result from multiple tensor elements. Thes
 
 ## Advanced Operations
 
-Advanced tensor operations include `matrix multiplication`, `transposition`, `reshaping`, and `concatenation` that basically deals with 2D tensors.
-
-### Matrix Multiplication
-
-We can perform Matrix multiplication using the `torch.mm()` function or the `@` operator.
-
-### Transposition
-
-Transposition in tensor operations is the process of flipping the axes of a tensor. It involves exchanging the rows and columns of a 2D tensor or more generally, the axes of a tensor of any dimension.
-
-We can perform Transposition using the `torch.t()` function.
-
-### Reshaping
-
-Reshaping in tensor operations is the process of changing the shape or dimensions of a tensor while preserving its underlying data. It involves rearranging the elements of a tensor to fit a new shape, without changing the total number of elements.
-
-We can perform Reshaping using the `torch.reshape()` function or the `.view()` method.
-
-### Concatenation
-
-Concatenation in tensor operations is the process of joining two or more tensors along a specific dimension to form a larger tensor. The resulting tensor has a new dimension that is the concatenation of the original dimensions of the input tensors.
-
-It can be performed using the `torch.cat()` function.
+Advanced tensor operations include the following:
+- Matrix Multiplication:  Performed using `torch.mm()` or the `@` operator.
+- Transposition: Flips the dimensions of a tensor. For 2D tensors, it exchanges rows and columns. Achieved using `torch.t()`.
+- Reshaping: Changes the shape of a tensor while preserving its data. This can be done using `torch.reshape()` or the `.view()` method.
+- Concatenation Joins two or more tensors along a specified dimension. This can be performed using `torch.cat()`.
