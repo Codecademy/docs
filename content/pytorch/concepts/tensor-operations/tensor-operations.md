@@ -14,7 +14,7 @@ CatalogContent:
 
 In PyTorch, **Tensor Operations** are fundamentals for performing various tensor computations. Tensors are multi-dimensional arrays that can be manipulated using a wide range of operations.
 
-## Some Base Operations
+## Fundamental Tensor Operations
 
 - `expand()`: Expands the tensor along specified dimensions, creating a larger tensor with repeated values. 
 - `permute()`: Reorders the dimensions of the tensor according to a specified order.
