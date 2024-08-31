@@ -13,10 +13,10 @@ The <kbd>count</kbd> property returns the total amount of elements in the set.
 
 Example:
 
-	var employees: Set = ["Ranjy", "Sabby", "Pally"]``
+	var friends: Set = ["Venumadhav", "Ahmed", "John"]``
 
 
-	var result = employees.count
+	var result = friends.count
 
 	print(result)
 
