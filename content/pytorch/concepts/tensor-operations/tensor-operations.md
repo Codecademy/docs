@@ -37,7 +37,11 @@ Element-wise operations are operations that are applied to each element of a ten
 
 ## Reduction Operations
 
-Reduction operations are operations that reduce the number of elements in a tensor by performing a computation across the tensor. These operations include `sum`, `mean`, `maximum`, `minimum`, among others. 
+Reduction operations compute a single result from multiple tensor elements. These operations include:
+- `sum()`: Calculates the sum of all elements.
+- `mean()`: Computes the mean of elements.
+- `max()`: Finds the maximum value.
+- `min()`: Finds the minimum value.
 
 ## Advanced Operations
 
