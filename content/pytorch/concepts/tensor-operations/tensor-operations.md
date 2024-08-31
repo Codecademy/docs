@@ -1,16 +1,15 @@
 ---
-Title: 'PyTorch Tensor Operations'
+Title: 'Tensor Operations'
 Description: 'Operations that can be performed on tensors to manipulate and transform their values.'
 Subjects:
-  - 'Artificial Intelligence'
-  - 'Deep Learning'
+  - 'AI'
+  - 'Data Science'
 Tags:
   - 'Deep Learning'
   - 'TensorFlow'
 CatalogContent:
   - 'intro-to-py-torch-and-neural-networks'
   - 'py-torch-for-classification'
-  - 'paths/data-science'
 ---
 
 **Pytorch Tensor Operations** are fundamentals for performing various computations on tensors. Tensors are multi-dimensional arrays that can be manipulated using a wide range of operations.
