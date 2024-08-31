@@ -12,7 +12,7 @@ CatalogContent:
   - 'py-torch-for-classification'
 ---
 
-**Pytorch Tensor Operations** are fundamentals for performing various computations on tensors. Tensors are multi-dimensional arrays that can be manipulated using a wide range of operations.
+In PyTorch, **Tensor Operations** are fundamentals for performing various tensor computations. Tensors are multi-dimensional arrays that can be manipulated using a wide range of operations.
 
 ## Some Base Operations
 
