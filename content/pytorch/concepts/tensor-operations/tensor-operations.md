@@ -16,15 +16,11 @@ In PyTorch, **Tensor Operations** are fundamentals for performing various tensor
 
 ## Some Base Operations
 
-The `expand()` operation is used to expand the tensor into a number of tensors, a number of rows in tensors, and a number of columns in tensors.
-
-The `permute()` operation is used to reorder the tensor using row and column.
-
-The `tolist()` method is used to return a list or nested list from the given tensor.
-
-This `narrow()` function is used to narrow the tensor. in other words, it will extend the tensor based on the input dimensions.
-
-The `where()` function is used to return the new tensor by checking the existing tensors conditionally.
+- `expand()`: Expands the tensor along specified dimensions, creating a larger tensor with repeated values. 
+- `permute()`: Reorders the dimensions of the tensor according to a specified order.
+- `tolist()`: Converts the tensor to a Python list or nested list.
+- `narrow()`: Returns a tensor that is a narrowed view of the original tensor based on specified dimensions.
+- `where()`: Returns a new tensor by applying a condition to the existing tensor.
 
 ## Arithmetic Operations
 
