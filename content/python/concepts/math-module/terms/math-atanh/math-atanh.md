@@ -33,10 +33,9 @@ The following example shows the use of the `.atanh()`:
 ```python
 import math
 
-output_signal_amplitude = 0.7
-
-input_signal_amplitude = math.atanh(output_signal_amplitude)
-print("Input Signal's Amplitude = ", input_signal_amplitude)
+x = 0.5
+result = math.atanh(x)
+print("Inverse hyperbolic tangent of 0.5 =",str(result))
 
 ```
 
