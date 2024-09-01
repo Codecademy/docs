@@ -36,7 +36,6 @@ import math
 x = 0.5
 result = math.atanh(x)
 print("Inverse hyperbolic tangent of 0.5 =",str(result))
-
 ```
 
 The above code produces the following output:
