@@ -21,8 +21,9 @@ math.atanh(x)
 ```
 
 Since it is used to reverse the effect of a hyperbolic tangent function, the parameter `x` is always a number between -1 and 1. A `ValueError` will occur if:
+
 - `x` is greater than or equal to 1.
-- `x` is  less than or equal to -1.
+- `x` is less than or equal to -1.
 
 
 ## Example
