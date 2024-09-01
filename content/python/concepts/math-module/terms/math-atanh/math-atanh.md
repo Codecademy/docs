@@ -54,9 +54,9 @@ import math
 print(math.atanh(-0.3))
 
 
-# Practical: Normalize a value between -1 and 1 using atanh
-value = 0.6
-normalized_value = math.atanh(value)
-print(f"Normalized value: {normalized_value}")
+# Signal compression and reconstruction example
+output_signal_amplitude = 0.7
+input_signal_amplitude = math.atanh(output_signal_amplitude)
+print("Input Signal's Amplitude = ", input_signal_amplitude)
 
 ```
