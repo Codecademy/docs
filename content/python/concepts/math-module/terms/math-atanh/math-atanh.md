@@ -41,7 +41,7 @@ print("Inverse hyperbolic tangent of 0.5 =",str(result))
 The above code produces the following output:
 
 ```shell
-Input Signal's Amplitude =  0.8673005276940532
+Inverse hyperbolic tangent of 0.5 = 0.5493061443340549
 ```
 
 ## Codebyte Example
