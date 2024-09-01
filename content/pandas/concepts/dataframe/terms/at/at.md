@@ -1,13 +1,13 @@
 ---
 Title: '.at[]'
-Description: 'Returns a specific value at a row/column in a DataFrame.' 
-Subjects: 
+Description: 'Returns a specific value in a DataFrame using the row and column labels.'
+Subjects:
   - 'Computer Science'
   - 'Data Science'
-Tags: 
+Tags:
   - 'Data Structures'
   - 'Pandas'
-CatalogContent: 
+CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
@@ -17,11 +17,11 @@ In Pandas, the **`.at[]`** function is used as an accessor to fetch a specific v
 ## Syntax
 
 ```pseudo
-dataframe.at[position, label]
+dataframe.at[index, label]
 ```
 
-- `position`: The label (index) of the row where the specific value is located.
-- `label`: The label (column name) of the column where the specific value is located.
+- `index`: The index (or row label) where the specific value is located or where you want to set the value.
+- `label`: The label (or column name) where the specific value is located or where you want to set the value.
 
 The result returned is a single element located at the specified position within the `DataFrame`.
 
@@ -39,7 +39,7 @@ df = pd.DataFrame({'A': [1, 2], 'B': [3, 4]})
 element = df.at[0, 'B']
 
 # Print the accessed element
-print(element)  
+print(element)
 ```
 
 The output of the code is as follows:
@@ -51,7 +51,6 @@ The output of the code is as follows:
 ## Codebyte Example
 
 Run the following codebyte to understand how the `.at[]` accessor is used to access a specific element in a `DataFrame` at a given row and column label:
-
 
 ```codebyte/python
 import pandas as pd
@@ -66,5 +65,5 @@ df = pd.DataFrame(data)
 
 element = df.at[1, 'City']
 
-print(element)  
+print(element)
 ```
