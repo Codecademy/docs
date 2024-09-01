@@ -45,7 +45,7 @@ Inverse hyperbolic tangent of 0.5 = 0.5493061443340549
 
 ## Codebyte Example
 
-More Examples of `math.atanh()`:
+Run the following code to understand how the `.atanh()` function works:
 
 ```codebyte/python
 import math
