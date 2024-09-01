@@ -58,5 +58,4 @@ print(math.atanh(-0.3))
 output_signal_amplitude = 0.7
 input_signal_amplitude = math.atanh(output_signal_amplitude)
 print("Input Signal's Amplitude = ", input_signal_amplitude)
-
 ```
