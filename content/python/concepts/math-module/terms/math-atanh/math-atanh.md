@@ -1,6 +1,6 @@
 ---
-Title: 'math.atanh()'
-Description: 'Returns the inverse hyperbolic tangent of a number'
+Title: '.atanh()'
+Description: 'Returns the inverse hyperbolic tangent of a number.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
