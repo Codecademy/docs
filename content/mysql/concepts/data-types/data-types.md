@@ -42,17 +42,19 @@ Below is the list of data types.
 
 - `DATE`: Used to store date values in the standard SQL format YYYY-MM-DD wishing the range 1000-01-01 to 9999-12-31. It needs 3 bytes of storage.
 - `DATETIME(fsp)`: Used to store date and time together in the standard format: YYYY-MM-DD HH:MM:SS. It is useful to keep records of the exact date and time when an event occurred, like transaction history. It holds values within the range 1000-01-01 00:00:00 to 9999-12-31 23:59:59 needing in general 8 bytes of storage but in case fsp (fractional seconds precision) is mentioned then more storage is required.
-- `TIMESTAMP(fsp)`: Used to store timestamp in the format YYYY-MM-DD HH:MM:SS within the range from  1970-01-01 00:00:01 UTC to 2038-01-19 03:14:07 UTC,  storage needed between 4-7 bytes. Is useful for example when applications need SQL to handle time zone conversions automatically.
+- `TIMESTAMP(fsp)`: Used to store timestamp in the format YYYY-MM-DD HH:MM:SS within the range from 1970-01-01 00:00:01 UTC to 2038-01-19 03:14:07 UTC, storage needed between 4-7 bytes. Is useful for example when applications need SQL to handle time zone conversions automatically.
 - `YEAR`: Used to store year values within the range 1901 to 2155 and needs 1 or 2 bytes for storage depending on how SQL mode is enabled. It is useful for applications that need to analyze data based on years without a need for granularity.
 
-> **Note**: `fsp` parameter stands for Fractional Seconds Precision. It defines the number of digits to store for fractional seconds in data types like  `DATETIME` and `TIMESTAMP`, with values ranging from 0 (no fractional seconds) to 6 (means microseconds precision up to six decimals). Because this parameter defines the precision level, its specifications affect the storage size (higher precision requires more storage space).
+> **Note**: `fsp` parameter stands for Fractional Seconds Precision. It defines the number of digits to store for fractional seconds in data types like `DATETIME` and `TIMESTAMP`, with values ranging from 0 (no fractional seconds) to 6 (means microseconds precision up to six decimals). Because this parameter defines the precision level, its specifications affect the storage size (higher precision requires more storage space).
 
 ### String Data Types
 
- `BINARY(size)`: Used to store binary strings of fixed length. Is suitable for exact binary operations for instance when data columns of binary data need exact length and content requirements (cryptographic hashes or binary encoded data).
+`BINARY(size)`: Used to store binary strings of fixed length. Is suitable for exact binary operations for instance when data columns of binary data need exact length and content requirements (cryptographic hashes or binary encoded data).
+
 - `BLOB(size)`: Used to store large binary data, like images, audio/video files, or other binary data files based on storage and database configuration. It's useful for variable data-saving scenarios, and back-ups.
+
 - `CHAR(size)`: Used to store predefined fixed-length strings of characters, useful in cases when the database holds strings of known length like postal codes and abbreviations.
-- `ENUM(val1, val2, val3, ...) `: Used to store a list of possible values that were predefined with required storage dependent on enumerated values (1, 2, or 4 bytes). Is useful when a database needs to prevent invalid data entries.
+- `ENUM(val1, val2, val3, ...)`: Used to store a list of possible values that were predefined with required storage dependent on enumerated values (1, 2, or 4 bytes). Is useful when a database needs to prevent invalid data entries.
 - `LONGBLOB`: Used to store binary data that is beyond the capacity of other options. It can store up to 4GB and is an efficient storage option for handling complex binary objects.
 - `LONGTEXT`: Used to store text data that is very large, up to 4 GB of data being suitable for applications, and document repositories that handle large textual content
 - `MEDIUMBLOB`: Used for storing large binary object data types like medium-sized images of up to 16 MB.
@@ -77,7 +79,6 @@ Note: the size parameter defines the maximum number of characters or length a co
 - `POLYGON`: Uses a two-dimensional surface defined by several geometries ranging from a single exterior limit and zero or more interior limits within the shape. It can map objects like countries, forests, or other defined regions.
 - `SURFACE`: Used for storing two-dimensional data used when mapping complex elevations, shapes, or terrains.
 
-
 ### JSON Data Types
 
 - `JSON`: Allows storing and querying semi-structured JSON data in a relational database environment being useful in cases that require dynamic and flexible data storage (e-commerce platforms, product catalogs).
@@ -89,7 +90,7 @@ Next are examples of some data types from the above categories.
 In this example, we use MySQL for handling large values for user IDs, order IDs, and payment amounts on a database.
 Data is gathered in a payment table in order to keep track of all transactions made by customers:
 
-```sql
+````sql
 CREATE TABLE payments (
     payment_id BIGINT AUTO_INCREMENT PRIMARY KEY,
     user_id BIGINT,
@@ -128,5 +129,4 @@ Next, when someone scans their fingerprint, a special code is created and stored
 ```sql
 INSERT INTO biometric_data (fingerprint_template)
 VALUES (UNHEX('AABBCCDDEEFF00112233445566778899AABBCCDDEEFF00112233445566778899...'));
-
-By using BINARY and INT data types MySQL stores fingerprint templates in their original binary format, useful in authentication systems.
+````
