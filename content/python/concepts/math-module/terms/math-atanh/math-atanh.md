@@ -25,7 +25,6 @@ Since it is used to reverse the effect of a hyperbolic tangent function, the par
 - `x` is greater than or equal to 1.
 - `x` is less than or equal to -1.
 
-
 ## Example
 
 The following example shows the use of the `.atanh()`:
