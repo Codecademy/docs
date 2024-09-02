@@ -48,5 +48,5 @@ if you run this code, this will be the output:
 ```shell
 There are 3 apples.
 There are 2 bananas.
-There are 5 cherrys.
+There are 5 cherries.
 ```
