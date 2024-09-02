@@ -1,6 +1,6 @@
 ---
-Title: 'math.acos()'
-Description: 'Returns the arc cosine of a number.'
+Title: 'math.cos()'
+Description: 'Returns the cosine of an angle.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
