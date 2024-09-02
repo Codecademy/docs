@@ -49,7 +49,7 @@ Output:
 > Note: If the input value is not a real number, a `TypeError` is raised.
 
 
-## Codebyte Example (if applicable)
+## Codebyte Example:
 
 The following codebyte example demonstrates how the `math.erfc()` function works:
 
