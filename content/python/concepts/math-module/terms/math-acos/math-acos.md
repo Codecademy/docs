@@ -1,6 +1,6 @@
 ---
-Title: 'math.cos()'
-Description: 'Returns the cosine of an angle.'
+Title: 'math.acos()'
+Description: 'Returns the arc cosine of a number.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -23,7 +23,7 @@ math.acos(x)
 
 - `x`: A number between `-1` and `1` representing the cosine value for which the arc cosine is to be calculated.
 
-The `math.acos()` function returns a numeric value between `0` and `π`, which represents the inverse cosine of the value `x`.
+The `math.acos()` function returns a numeric value in the range [0, π] radians, which represents the inverse cosine of the value `x`.
 
 ## Example
 
