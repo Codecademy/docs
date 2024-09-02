@@ -7,12 +7,13 @@ Subjects:
 Tags:
   - 'Dictionary'
   - 'Properties'
+  - 'Arrays'
 CatalogContent:
   - 'learn-swift'
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.contains()`** method returns `true` if an array contains a specified element, `false` otherwise.
+The **`.contains()`** method returns `true` if an array contains a specified element, and `false` otherwise.
 
 ## Syntax
 
