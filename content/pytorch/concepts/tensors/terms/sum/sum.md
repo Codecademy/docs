@@ -28,7 +28,7 @@ The `.sum()` function takes one required parameter `input`, which represents the
 - `keepdim`: If set to `True`, the output tensor will have the same number of dimensions as the input tensor.
 - `out`: Stores the output into existing tensor (if there is any).
 
-## Example
+## Example 1
 
 ```python
 import torch
