@@ -79,7 +79,7 @@ This query returns the total number of records in the `sales` table.
 ### AVG()
 
 ```sql
-SELECT Customer,  AS Average_Spent FROM sales;
+SELECT AVG(Quantity * Cost) AS Average_Spent FROM sales;
 ```
 
 This query finds the average amount spent per sale in the `sales` table by calculating the product of the `Quantity` and `Cost` columns for each sale. Then, it finds the average of all the calculated values.
@@ -113,7 +113,7 @@ This is the output of the above query:
 SELECT Customer, SUM(Quantity * Cost) AS Total_Spent
 FROM sales
 GROUP BY Customer
-HAVING (SUM(Quantity * Cost)) > 140000;
+HAVING SUM(Quantity * Cost) > 140000;
 ```
 
 This query is a modified version of the example query. 
