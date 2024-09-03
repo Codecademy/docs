@@ -22,7 +22,7 @@ The **`math.fabs()`** function takes in a numeric data type and returns the abso
 math.fabs(n)
 ```
 
-The `math.fabs()` function takes in a number value and returns its absolute value as a float. A non-negative number is returned and thus, a negative number is first negated. Unlike math.abs(), the value is always converted to a float value. Any other data type except a number will return a TypeError.
+The `math.fabs()` function takes in a numeric value and returns its absolute value as a float. Unlike `math.abs()`, the value is always converted to a float value. Any other data type except a number will return a TypeError.
 
 ## Example
 
