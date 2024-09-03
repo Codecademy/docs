@@ -1,6 +1,6 @@
 ---
 Title: '.sum()'
-Description: 'Returns a tensor of a desired size, filled with random values generated from a uniform distribution in the range [0,1).'
+Description: 'Computes the sum of all elements in a tensor.'
 Subjects:
   - 'AI'
   - 'Data Science'
