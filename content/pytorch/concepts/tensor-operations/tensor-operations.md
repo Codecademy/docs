@@ -33,7 +33,7 @@ PyTorch provides a set of arithmetic operations that can be performed on tensors
 
 ## Element-wise Operations
 
-Element-wise operations are operations that are applied to each element of a tensor individually. These operations include `exponentiation`, `square root`, `absolute value`, among others as follows:
+Element-wise operations are operations that are applied to each element of a tensor individually. These operations include exponentiation, square root, absolute value, among others as follows:
 - `torch.pow`: Computes the power of each element in the tensor, raising each element to the specified exponent.
 - `torch.sqrt`: Calculates the square root of each element in the tensor.
 - `torch.abs`: Returns the absolute value of each element in the tensor.
