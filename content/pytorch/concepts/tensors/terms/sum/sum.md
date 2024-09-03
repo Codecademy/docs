@@ -50,7 +50,6 @@ tensor(10)
 
 In this example, the sum of all elements in the input tensor `[[1, 2], [3, 4]]` is computed, resulting in a tensor with a single element `10`. The sum is calculated as `1 + 2 + 3 + 4 = 10`.
 
-The `.sum()` function can also be used to compute the sum along a specific dimension of the tensor. For example, to compute the sum along the rows of a 2D tensor, you can specify the `dim` parameter as `0` or `1` depending on the desired dimension.
 
 ```python
 import torch
