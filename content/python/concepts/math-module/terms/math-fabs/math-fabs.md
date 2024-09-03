@@ -42,7 +42,7 @@ The above code prints the following output:
 
 ## Codebyte Example
 
-The following examples run and use the `math.fabs()` function to return the absolute value of a number as a float:
+Run the following code to understand how the `math.fabs()` function works:
 
 ```codebyte/python
 import math
