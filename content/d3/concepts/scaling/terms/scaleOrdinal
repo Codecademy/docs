@@ -19,7 +19,6 @@ The **`d3.scaleOrdinal()`** function is used to build an ordinal scale that has 
 Ordinal scales are mostly used for names and categorical data where there is a distinct set of values (e.g: categories, colors, or labels), however, the output values can be anything including strings or numbers. The scale portrays a set of discrete input values which is the **domain** to compatible batch of output values which is called the **range**. Please note that the order of the data matters.
 
 ## Syntax
-
 `D3.scaleOrdinal()` generally takes the following form:
 
 ```pseudo
