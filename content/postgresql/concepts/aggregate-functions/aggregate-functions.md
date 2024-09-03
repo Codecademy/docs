@@ -18,6 +18,8 @@ In PostgreSQL, **aggregate functions** perform calculations on a data set and re
 
 The `GROUP BY` clause is used to arrange identical data into groups. In other words, this clause summarizes data by grouping rows that have the same values in the specified columns.
 
+Additionally, the `HAVING` clause can be used with `GROUP BY` to further filter groups based on specific conditions applied to the aggregated data.
+
 PostgreSQL offers the following aggregate functions:
 
 - `MAX()`: Computes the maximum among all the input values.
@@ -25,6 +27,7 @@ PostgreSQL offers the following aggregate functions:
 - `SUM()`: Computes the sum of all the input values.
 - `COUNT()`: Computes the number of input rows.
 - `AVG()`: Computes the average of all the input values.
+- `HAVING()`: Filters groups on a condition applied after the GROUP BY clause.
 
 ## Syntax
 
@@ -76,7 +79,7 @@ This query returns the total number of records in the `sales` table.
 ### AVG()
 
 ```sql
-SELECT AVG(Quantity * Cost) AS Average_Spent FROM sales;
+SELECT Customer,  AS Average_Spent FROM sales;
 ```
 
 This query finds the average amount spent per sale in the `sales` table by calculating the product of the `Quantity` and `Cost` columns for each sale. Then, it finds the average of all the calculated values.
@@ -102,4 +105,23 @@ This is the output of the above query:
 | Kuvira   | 8000        |
 | Kalu     | 88000       |
 | Isujah   | 130000      |
+| Zion     | 750000      |
+
+### HAVING
+
+```sql
+SELECT Customer, SUM(Quantity * Cost) AS Total_Spent
+FROM sales
+GROUP BY Customer
+HAVING (SUM(Quantity * Cost)) > 140000;
+```
+
+This query is a modified version of the example query. 
+It uses the HAVING clause to filter the results, showing only customers who spent over 140,000
+
+This is the output of the above query:
+
+| Customer | Total_Spent |
+| -------- | ----------- |
+| Varrick  | 176000      |
 | Zion     | 750000      |
