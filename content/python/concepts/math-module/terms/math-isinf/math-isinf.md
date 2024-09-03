@@ -1,6 +1,6 @@
 ---
-Title: 'math.isinf()' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'Returns True if value is a positive or negative infinity, and False otherwise.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
+Title: 'math.isinf()'
+Description: 'Returns True if value is a positive or negative infinity, and False otherwise.'
 Subjects: 
   - 'Computer Science'
   - 'Data Science'
@@ -8,19 +8,15 @@ Subjects:
   - 'Machine Learning'
 Tags: 
   - 'Algorithms'
-  - 'Computer Science'
   - 'Data Structures'
   - 'Error Handling'
-  - 'Functions'
   - 'Math'
-  - 'Mathematics'
-  - 'Programming'
 CatalogContent: 
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-The **`math.isinf()`** [function](https://www.codecademy.com/resources/docs/python/functions) in Python checks whether a given value is infinite. It returns `True` if the value is positive or negative infinity, and `False` otherwise. This function is part of the `math` [module](https://www.codecademy.com/resources/docs/python/modules) and is useful when dealing with calculations that may result in infinite values.
+The **`math.isinf()`** [function](https://www.codecademy.com/resources/docs/python/functions) in Python checks whether a given value is infinite. It returns `True` if the value is positive or negative infinity, and `False` otherwise. This function is part of the `math` module and is useful when dealing with calculations that may result in infinite values.
 
 ## Syntax
 
@@ -55,6 +51,7 @@ False
 ## Codebyte Example
 
 Here’s a practical example using `math.isinf()`:
+This code illustrates how `math.isinf()` detects infinite values in various scenarios.
 
 ```codebyte/python
 import math
@@ -65,4 +62,3 @@ print(math.isinf(float('inf')))  # Explicit positive infinity
 print(math.isinf(1000))  # A finite number
 ```
 
-This code illustrates how `math.isinf()` detects infinite values in various scenarios.
