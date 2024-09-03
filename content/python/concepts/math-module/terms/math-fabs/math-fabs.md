@@ -1,6 +1,6 @@
 ---
 Title: 'math.fabs()'
-Description: 'Function takes in a numeric data type and returns the absolute value as a float.'
+Description: 'Takes in a numeric data type and returns the absolute value as a float.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
