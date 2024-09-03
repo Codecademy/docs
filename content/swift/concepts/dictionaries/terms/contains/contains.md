@@ -6,7 +6,8 @@ Subjects:
   - 'Mobile Development'
   - 'Computer Science'
 Tags:
-  - 'Dictionaries'
+  - 'Dictionary'
+
   - 'Properties'
 CatalogContent:
   - 'learn-swift'
