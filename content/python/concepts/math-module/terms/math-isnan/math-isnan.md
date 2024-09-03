@@ -15,8 +15,6 @@ CatalogContent:
 
 **`Math-isnan`** method belongs to the group of Number-theoretic and representation functions in the [math-module](https://www.codecademy.com/resources/docs/python/math-module) and is used to handle simple (not complex) numbers. Except when explicitly noted otherwise, this function expects a float-type numeric value.
 
-In the following examples, how to use `math.isnan(x)` is shown:
-
 ## Syntax
 
 `math.isnan(x)`: Returns **True** if `x` is a NaN (not a number) and **False** if `x` is a number. The parameter `x` is required.
