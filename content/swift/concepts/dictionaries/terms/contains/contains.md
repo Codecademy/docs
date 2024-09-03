@@ -7,7 +7,6 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Dictionary'
-
   - 'Properties'
 CatalogContent:
   - 'learn-swift'
