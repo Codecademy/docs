@@ -37,6 +37,7 @@ var fruitStand = [
 print(fruitStand.contains(where: { key, value in
   return key == "Apples" && value == 12
 }))
+
 // Output: true 
 
 print(fruitStand.contains(where: { key, value in
