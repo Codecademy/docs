@@ -33,7 +33,10 @@ PyTorch provides a set of arithmetic operations that can be performed on tensors
 
 ## Element-wise Operations
 
-Element-wise operations are operations that are applied to each element of a tensor individually. These operations include `exponentiation`, `square root`, `absolute value`, among others.
+Element-wise operations are operations that are applied to each element of a tensor individually. These operations include `exponentiation`, `square root`, `absolute value`, among others as follows:
+- `torch.pow`: Computes the power of each element in the tensor, raising each element to the specified exponent.
+- `torch.sqrt`: Calculates the square root of each element in the tensor.
+- `torch.abs`: Returns the absolute value of each element in the tensor.
 
 ## Reduction Operations
 
@@ -46,7 +49,7 @@ Reduction operations compute a single result from multiple tensor elements. Thes
 ## Advanced Operations
 
 Advanced tensor operations include the following:
-- Matrix Multiplication:  Performed using `torch.mm()` or the `@` operator.
-- Transposition: Flips the dimensions of a tensor. For 2D tensors, it exchanges rows and columns. Achieved using `torch.t()`.
-- Reshaping: Changes the shape of a tensor while preserving its data. This can be done using `torch.reshape()` or the `.view()` method.
-- Concatenation Joins two or more tensors along a specified dimension. This can be performed using `torch.cat()`.
+- **Matrix Multiplication**:  Performed using `torch.mm()` or the `@` operator.
+- **Transposition**: Flips the dimensions of a tensor. For 2D tensors, it exchanges rows and columns. Achieved using `torch.t()`.
+- **Reshaping**: Changes the shape of a tensor while preserving its data. This can be done using `torch.reshape()` or the `.view()` method.
+- **Concatenation**: Joins two or more tensors along a specified dimension. This can be performed using `torch.cat()`.
