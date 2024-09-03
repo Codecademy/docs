@@ -18,17 +18,29 @@ In PyTorch, the **`.sum()`** function is used to compute the sum of all elements
 
 ## Syntax
 
+To calculate the sum of all elements, the following syntax is used:
+
+```pseudo
+torch.sum(input, *, dtype=None)
+```
+
+- `input`: The input tensor.
+- `dtype` (optional): The data type of the output tensor.
+
+To calculate the sum along specific dimensions, the following syntax is used:
+
 ```pseudo
 torch.sum(input, *, dim=None, keepdim=False, out=None)
 ```
 
-The `.sum()` function takes one required parameter `input`, which represents the input tensor whose elements are to be summed. It also has four other optional parameters that can be used to customize the output tensor if needed:
-
-- `dim`: Specifies the dimension along which the sum is to be computed. If `dim` is not specified, the sum is computed over all elements of the input tensor.
-- `keepdim`: If set to `True`, the output tensor will have the same number of dimensions as the input tensor.
-- `out`: Stores the output into existing tensor (if there is any).
+- `input`: The input tensor.
+- `dim` (optional): Specifies the dimension(s) along which the sum is computed. If not specified, the sum is computed over all elements.
+- `keepdim` (optional): If set to `True`, the output tensor retains dimensions of size one for the reduced dimensions. The default is `False`.
+- `out` (optional): A tensor to store the output into. If not provided, a new tensor is created.
 
 ## Example 1
+
+In this example, the sum of all elements in the input tensor `[[1, 2], [3, 4]]` is computed, resulting in a tensor with a single element `10`. The sum is calculated as `1 + 2 + 3 + 4 = 10`.
 
 ```python
 import torch
@@ -48,9 +60,9 @@ Here is the output for the above example:
 tensor(10)
 ```
 
-In this example, the sum of all elements in the input tensor `[[1, 2], [3, 4]]` is computed, resulting in a tensor with a single element `10`. The sum is calculated as `1 + 2 + 3 + 4 = 10`.
-
 ## Example 2
+
+In this example, the sum is computed along the columns of the input tensor `[[1, 2], [3, 4]]`, resulting in a tensor with two elements `[4, 6]`. The sum along the columns is calculated as `[1 + 3, 2 + 4] = [4, 6]`.
 
 ```python
 import torch
@@ -70,6 +82,4 @@ Here is the output for the above example:
 tensor([4, 6])
 ```
 
-In this example, the sum is computed along the rows of the input tensor `[[1, 2], [3, 4]]`, resulting in a tensor with two elements `[4, 6]`. The sum along the rows is calculated as `[1 + 3, 2 + 4] = [4, 6]`.
-
-By specifying the `dim` parameter, you can customize the dimension along which the sum is computed, allowing for more flexibility in handling multi-dimensional tensors.
+Specifying the `dim` parameter customizes the dimension along which the sum is computed, providing flexibility in handling multi-dimensional tensors.
