@@ -5,8 +5,10 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Functions'
   - 'Arithmetic'
+  - 'Functions'
+  - 'Integers'
+  - 'Math'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
