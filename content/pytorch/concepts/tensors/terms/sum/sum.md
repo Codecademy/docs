@@ -50,6 +50,7 @@ tensor(10)
 
 In this example, the sum of all elements in the input tensor `[[1, 2], [3, 4]]` is computed, resulting in a tensor with a single element `10`. The sum is calculated as `1 + 2 + 3 + 4 = 10`.
 
+## Example 2
 
 ```python
 import torch
