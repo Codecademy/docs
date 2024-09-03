@@ -1,6 +1,7 @@
 ---
 Title: '.contains'
-Description: 'a Boolean value that indicates whether a dictionary contains a specified key-value pair.'
+Description: 'A Boolean value that indicates whether a dictionary contains a specified key.'
+
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'
