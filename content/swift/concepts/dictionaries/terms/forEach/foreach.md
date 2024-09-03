@@ -1,43 +1,42 @@
 ---
-Title: 'forEach Method for Dictionaries in Swift'
+Title: 'forEach'
 Description: 'The forEach method allows iteration over each key-value pair in a Swift dictionary.'
 Subjects:
-  - 'Swift Programming'
-  - 'iOS Development'
-  - 'Programming Languages'
+  - 'iOS'
 Tags:
-  - 'Dictionaries'
-  - 'Iteration'
-  - 'Swift'
+  - 'ForEach'
+  - 'Dictionary'
+  - 'Loops'
+  - 'Collections'
+  - 'iOS'
   - 'Methods'
 CatalogContent:
   - 'learn-swift'
-  - 'paths/swift'
+  - 'paths/build-ios-apps-with-swiftui'
 ---
 
 
-# `forEach` in Swift Dictionaries
 
-The `forEach` method is used to iterate over each key-value pair in a Swift dictionary.
+The **`forEach`** method is used to iterate over each key-value pair in a Swift dictionary.
 It applies a specified closure to each element in the dictionary.
 This method is particularly useful for performing actions or computations on each element
-without needing to manually handle indexing.
+without needing to manually handle key access.
 
 ## Syntax
 
-```swift
+```pseudo
 dictionary.forEach { (key, value) in 
     // Code to execute for each key-value pair
 }
 ```
-## Parameters
+
 - dictionary:  This is the Swift dictionary you want to iterate over. It contains key-value pairs that you want to process.
 - foreach: This is the method called on the dictionary object. It takes a closure as its argument.
 - { (key, value) in: This is the closure syntax used with forEach. Think of it as a placeholder for each key-value pair in the dictionary.
 
 ## Example
 Here's an example of using 'forEach' with a dictionary:
-```codebyte/swift
+```swift
 let fruits = ["apple": 3, "banana": 2, "cherry": 5]
 
 fruits.forEach { (key, value) in
@@ -48,5 +47,5 @@ if you run this code, this will be the output:
 ```shell
 There are 3 apples.
 There are 2 bananas.
-There are 5 cherries.
+There are 5 cherrys.
 ```
