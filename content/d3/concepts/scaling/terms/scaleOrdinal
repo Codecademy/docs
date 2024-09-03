@@ -35,7 +35,7 @@ d3.scaleOrdinal([[domain, ]range]);
         
 ## Example
 
-The code snippet is paricularly useful in data visualization tasks when you need to map specific categories (like numbers to positions). In the java script code snippet below, it shows three runners who are competiting in a race, the first person finishes the race in five minutes and thirty-three seconds while the second person finishes the race in five minutes and forty-five seconds. The third person finishes the race in six minutes and three seconds. From the code snippet, we can deduct the different positions and differences from the value of the range. Without the range, it would be impossible to get more data about the domain.
+The code snippet helps in mapping categories to values for data visualization. In this JavaScript example, runner's finish times are mapped to their positions in a race. This mapping allows for easy comparison of the times:
 
 ```js
 const positionScale = d3.scaleOrdinal()
