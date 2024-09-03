@@ -7,12 +7,14 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Utility Types'
+  - 'Data Types'
+  - 'TypeScript'
 CatalogContent:
   - 'learn-typescript'
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Typescript consists of some predefined generic types known as **`Utility Types`**. These utility types are useful for manipulating or creating new types more efficiently.
+TypeScript consists of several predefined generic types known as Utility Types. These utility types are useful for manipulating or creating new types more efficiently.
 
 ## Partial
 
@@ -28,7 +30,7 @@ Partial<T>;
 
 Where `T` is the typo you want to make all the properties optional.
 
-## Partial Example
+### Partial Example
 
 In this example, all the properties of the `User` interface are optional:
 
@@ -58,7 +60,7 @@ Required<T>;
 
 Where `T` is the typo you want to make all the properties mandatory.
 
-## Required Example
+### Required Example
 
 In this example, all the properties of the `User` interface (including the optional properties) are made mandatory:
 
@@ -88,7 +90,7 @@ Readonly<T>;
 
 Where properties of `T` is marked as `Readonly`.
 
-## Readonly Example
+### Readonly Example
 
 In this example, attempting to reassign the value of `readonlyUser.age` generates an error:
 
@@ -120,7 +122,7 @@ Pick<T, K>;
 
 where `K` are the properties you want to include from `T`.
 
-## Pick Example
+### Pick Example
 
 In this example, `Pick` is used to create a type from `User` that includes only the `name` and `email` fields, omitting `age`, without needing to declare a new interface:
 
@@ -151,7 +153,7 @@ Omit<T, K>;
 
 where `K` properties are omitted from `T`.
 
-## Omit Example
+### Omit Example
 
 In this example, we removed the `age` property from the `User` interface:
 
@@ -182,7 +184,7 @@ Record<K, T>;
 
 where `K` represents the keys and `T` represents the values.
 
-## Record Example
+### Record Example
 
 In this example, it ensures that the keys are `strings` and the values are `numbers`.
 
@@ -210,7 +212,7 @@ Exclude<T, U>;
 
 where `U` are the properties you want to exclude from `T`.
 
-## Exclude Example
+### Exclude Example
 
 In this example, we exclude `apple` and `banana` from the union type, resulting in just `orange`:
 
@@ -219,4 +221,4 @@ type fruits = 'apple' | 'banana' | 'orange';
 type ExcludedFruits = Exclude<T, 'apple' | 'banana'>; // "orange"
 ```
 
-These utility types make it easier to manage and transform types, helping you write cleaner and safer code.
+These utility types make managing and transforming types easier, helping you write cleaner and safer code.
