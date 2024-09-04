@@ -53,6 +53,10 @@ let threeTimesTable = TimesTable(multiplier: 3)
 print("Six times three is \(threeTimesTable[6])")
 ```
 
+The above code produces the following output:
+
+```shell
+Six times three is 18
 This example creates a `TimesTable` struct with a subscript that returns the product of the `multiplier` and the `index`. The subscript is accessed using the `[]` syntax to compute the result.
 
 ## Summary
