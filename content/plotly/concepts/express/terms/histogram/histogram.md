@@ -20,10 +20,10 @@ CatalogContent:
 In Plotly, the `**.histogram()**` method in the `plotly.express` module is used to create a graphical representation of data as a bar chart that shows the distribution of a dataset. The bars represent the count of data points within specified ranges (bins). This method also allows for aggregation functions like sum, average, and count, which can be applied to visualize data on categorical, date, or linear axes. 
 
 The elements of the histogram graph are:
- - The title: describes the information represented in the histogram.
- - X-axis: intervals that show the scale of values which measures all fall under.
- - Y-axis: the number of times that the values occurred within the intervals set by the X-axis.
- - The bars: The height of the bar shows the number of times that the values occurred within the interval, width of the bar shows the interval that is covered.
+ - Title: Describes the information represented in the histogram.
+ - X-axis: Displays the intervals (bins) that represent the range of values in the data.
+ - Y-axis: Shows the frequency or count of data points that fall within each interval (bin) on the X-axis.
+ - The bars: The height of each bar represents the frequency or count of data points within that interval. The width of each bar corresponds to the interval's range on the X-axis.
 
 ## Syntax
 
