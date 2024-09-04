@@ -1,6 +1,6 @@
 ---
 Title: 'math.isinf()'
-Description: 'Returns True if value is a positive or negative infinity, and False otherwise.'
+Description: 'Returns a boolean indicating whether the given value is infinite or not.'
 Subjects: 
   - 'Computer Science'
   - 'Data Science'
@@ -16,17 +16,15 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`math.isinf()`** [function](https://www.codecademy.com/resources/docs/python/functions) in Python checks whether a given value is infinite. It returns `True` if the value is positive or negative infinity, and `False` otherwise. This function is part of the `math` module and is useful when dealing with calculations that may result in infinite values.
+The **`math.isinf()`** [function](https://www.codecademy.com/resources/docs/python/functions) in Python checks whether a given value is infinite. It returns `True` if the value is positive or negative infinity, and `False` otherwise. This function is part of the [`math`](https://www.codecademy.com/resources/docs/python/math-module) module and is useful when dealing with calculations that may result in infinite values.
 
 ## Syntax
 
 ```pseudo
-math.isinf(value)
+math.isinf(x)
 ```
 
-- `value`: The number to be checked for infinity.
-
-The function returns a Boolean value: `True` if `value` is infinite, `False` otherwise.
+- `x`: The number to be checked for infinity.
 
 ## Example
 
@@ -50,8 +48,7 @@ False
 
 ## Codebyte Example
 
-Here’s a practical example using `math.isinf()`:
-This code illustrates how `math.isinf()` detects infinite values in various scenarios.
+Run the following codebyte to understand how the `math.isinf()` works in various scenarios:
 
 ```codebyte/python
 import math
@@ -61,4 +58,3 @@ print(math.isinf(-1e309))  # Very large negative number, close to negative infin
 print(math.isinf(float('inf')))  # Explicit positive infinity
 print(math.isinf(1000))  # A finite number
 ```
-
