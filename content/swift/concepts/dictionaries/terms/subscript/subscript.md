@@ -29,6 +29,9 @@ subscript(index: Int) -> Int {
 ```
 
 
+- `subscript(index: Int) -> Int`: This defines a subscript that takes an `Int` parameter (index) and returns an `Int` value.
+- `get`: The getter block should return the value corresponding to the `index`.
+- `set`: The setter block should set a new value at the specified `index`. 
 ## Example
 
 Here is an example of a subscript in Swift:
