@@ -13,8 +13,6 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/data-science'
-  - 'paths/data-science-foundations'
 ---
 
 In Plotly, the `**.histogram()**` method in the `plotly.express` module is used to create a graphical representation of data as a bar chart that shows the distribution of a dataset. The bars represent the count of data points within specified ranges (bins). This method also allows for aggregation functions like sum, average, and count, which can be applied to visualize data on categorical, date, or linear axes. 
