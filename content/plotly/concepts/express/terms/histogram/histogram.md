@@ -1,6 +1,6 @@
 ---
 Title: '.histogram()'
-Description: 'Creates histogram - a graphical representation of the distribution of data in the form of bars, that represent the frequency of occurrence of individual values in a data set.'
+Description: 'Creates a histogram which is a graphical representation of the distribution of a dataset.'
 Subjects: 
   - 'Computer science'
   - 'Data scinence'
