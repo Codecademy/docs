@@ -22,7 +22,7 @@ CatalogContent:
 
 The syntax for defining a subscript in Swift is as follows:
 
-```swift
+```pseudo
 subscript(index: Int) -> Int {
     // return value
 }
