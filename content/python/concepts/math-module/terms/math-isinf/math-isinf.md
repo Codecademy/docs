@@ -1,17 +1,17 @@
 ---
 Title: 'math.isinf()'
 Description: 'Returns a boolean indicating whether the given value is infinite or not.'
-Subjects: 
+Subjects:
   - 'Computer Science'
   - 'Data Science'
   - 'Developer Tools'
   - 'Machine Learning'
-Tags: 
+Tags:
   - 'Algorithms'
   - 'Data Structures'
   - 'Error Handling'
   - 'Math'
-CatalogContent: 
+CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
