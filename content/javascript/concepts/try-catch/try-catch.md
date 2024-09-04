@@ -33,6 +33,24 @@ try {
 }
 ```
 
+The following example shows the `try...catch...finally` statement in action:
+
+```codebyte/javascript
+try {
+  let num = 5;
+  if(num == 5)
+  console.log("thank you!");
+} catch(error){
+  console.log("Error: " + error.message);
+} finally{
+  console.log("The number has to be 5.");
+}
+
+/* Output: 
+   thank you!
+   The number has to be 5. */
+```
+
 ## The Error Object
 
 In the above, `err` is an optional variable that holds an error object for the associated `catch` block.
@@ -57,7 +75,7 @@ The `throw` statement can be used to throw user-defined exceptions. The custom e
 
 This can be useful for things like validating input:
 
-```javascript
+```codebyte/javascript
 var input = 25;
 
 try {
