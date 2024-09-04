@@ -1,6 +1,6 @@
 ---
 Title: 'math.atan2()'
-Description: 'Returns the arc tangent of y/x in radians.'
+Description: 'Returns the arc tangent of the quotient of its two arguments in radians.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
