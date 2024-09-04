@@ -64,7 +64,7 @@ import plotly.express as px
 # Loading a built-in data frame
 df = px.data.tips()
 
-# Creating the histogram with the total_boll as the x variable and integer "20" as nbins
+# Creating the histogram with "total_bill" as the x variable and integer 20 as nbins
 fig = px.histogram(df, x="total_bill", nbins=20)
 
 # Showing the histogram plot
