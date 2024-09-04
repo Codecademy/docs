@@ -17,7 +17,9 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-In Plotly, the **`.histogram()`** method as a part of the `plotly.express` interface, is used to make a graphical representation of data as an accumulated bar chart where, each stocked data is counted and represented. This method offers several functions like sum, average, count and more, which can be used to visualize data on categorical and date axes or linear axes. The elements of histogram graph are:
+In Plotly, the `**.histogram()**` method in the `plotly.express` module is used to create a graphical representation of data as a bar chart that shows the distribution of a dataset. The bars represent the count of data points within specified ranges (bins). This method also allows for aggregation functions like sum, average, and count, which can be applied to visualize data on categorical, date, or linear axes. 
+
+The elements of the histogram graph are:
  - The title: describes the information represented in the histogram.
  - X-axis: intervals that show the scale of values which measures all fall under.
  - Y-axis: the number of times that the values occurred within the intervals set by the X-axis.
