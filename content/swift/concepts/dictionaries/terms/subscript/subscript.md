@@ -28,9 +28,6 @@ subscript(index: Int) -> Int {
 }
 ```
 
-Subscripts can be used to provide a convenient way to access the elements of a collection, list, or sequence. They can also be used to provide a shortcut to access the elements of a collection using the subscript syntax `[]`.
-
-For more information, you can refer to the [Swift documentation on subscripts](https://docs.swift.org/swift-book/LanguageGuide/Subscripts.html).
 
 ## Example
 
