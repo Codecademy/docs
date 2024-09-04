@@ -24,7 +24,12 @@ The syntax for defining a subscript in Swift is as follows:
 
 ```pseudo
 subscript(index: Int) -> Int {
-    // return value
+    get {
+        // Return an appropriate subscript value here.
+    }
+    set(newValue) {
+        // Perform a suitable setting action here.
+    }
 }
 ```
 
