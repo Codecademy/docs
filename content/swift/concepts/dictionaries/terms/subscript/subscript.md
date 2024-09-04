@@ -1,18 +1,19 @@
 ---
 Title: 'Subscript'
-Description: 'Accesses the elements of a collection, list or sequence.'
+Description: 'Accesses or modifies the value associated with a specific key in a dictionary.'
 Subjects:
-  - 'Mobile Development'
-  - 'iOS'
   - 'Computer Science'
+  - 'iOS'
+  - 'Mobile Development'
 Tags:
   - 'Dictionary'
-  - 'Properties'
   - 'Methods'
+  - 'Properties'
 CatalogContent:
   - 'learn-swift'
   - 'paths/build-ios-apps-with-swiftui'
 ---
+
 
 **`Subscript`** in Swift is a shortcut to access the elements of a collection, list or sequence. It is a syntactic sugar that allows you to access the elements of a collection using the subscript syntax `[]`. You can define subscripts in your own custom types, and the syntax is similar to computed properties. You can define multiple subscripts with different input parameters and return types.
 
