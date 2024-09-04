@@ -59,10 +59,3 @@ The above code produces the following output:
 Six times three is 18
 This example creates a `TimesTable` struct with a subscript that returns the product of the `multiplier` and the `index`. The subscript is accessed using the `[]` syntax to compute the result.
 
-## Summary
-
-- **Subscript** in Swift is a shortcut to access the elements of a collection, list, or sequence.  
-- You can define subscripts in your own custom types, and the syntax is similar to computed properties.
-- Subscripts can be used with different types, such as classes, structures, and enumerations.  
-- Subscripts can be used to provide a convenient way to access the elements of a collection, list, or sequence.
-- For more information, you can refer to the [Swift documentation on subscripts](https://docs.swift.org/swift-book/LanguageGuide/Subscripts.html).
