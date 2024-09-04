@@ -1,5 +1,5 @@
 ---
-Title: '.SUBSTRING()'
+Title: 'SUBSTRING()'
 Description: 'Extracts a part of a string.'
 Subjects:
   - 'Data Science'
@@ -8,16 +8,13 @@ Tags:
   - 'Data'
   - 'Database'
   - 'Functions'
-  - 'MySQL'
-  - 'Strings'
+  - 'SQL'
 CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
 ---
 
-## Definition
-
-The **`.SUBSTRING()`** function in [SQL](https://www.codecademy.com/resources/docs/sql) takes a slice from a string, the string could be from text and image data and allows you to `SELECT` this substring and manipulate it according to the data type. The data type is the same as the original input except for the next expressions.
+In SQL, the **`SUBSTRING()`** function takes a slice from a string containing data in binary, character, text, or image format. Upon extraction, the [`SELECT`](https://www.codecademy.com/resources/docs/sql/commands/select) statement can be used to select and manipulate the extracted substring according to the [data type](https://www.codecademy.com/resources/docs/sql/data-types). The data type is the same as the original string except for the next expressions.
 
 ## Syntax
 
@@ -25,15 +22,15 @@ The **`.SUBSTRING()`** function in [SQL](https://www.codecademy.com/resources/do
 SUBSTRING(string, start, length)
 ```
 
-- `string`: string to extract from.
-- `start`: starting index from which the substring will start, minimum possible value is 1.
-- `length`: number of characters to extract.
+- `string`: The string to extract a substring from.
+- `start`: The `string` index from which the substring starts. The minimum possible value is 1.
+- `length`: The number of characters to extract from `string`.
 
-> **Note:** Be aware that not all services support this function, Oracle and SQLite use a different one to accomplish the same goal, and the function is written as `SUBSTR`.
+> Note: Not all services support this function. Oracle and SQLite use `SUBSTR()` to accomplish the same goal.
 
-## Examples
+## Example
 
-The below example shows how to use `.SUBSTRING()`:
+The below example shows how to use `SUBSTRING()`:
 
 ```sql
 SELECT SUBSTRING('Codecademy', 1, 4) AS ExtractString;
@@ -41,8 +38,6 @@ SELECT SUBSTRING('Codecademy', 1, 4) AS ExtractString;
 
 The code above generates the following output:
 
-The result would be:
-
 | ExtractString |
 | ------------- |
-|Code           |
+| Code          |
