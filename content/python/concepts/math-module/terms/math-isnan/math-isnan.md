@@ -17,8 +17,6 @@ In Python, the **`math.isnan()`** function returns `True` if the given value is 
 
 This method belongs to the group of number-theoretic and representation functions in the [math module](https://www.codecademy.com/resources/docs/python/math-module) and is used to handle simple (not complex) numbers. Except when explicitly noted otherwise, this function expects a float-type numeric value.
 
-In the following examples, how to use `math.isnan(x)` is shown:
-
 ## Syntax
 
 ```pseudo
