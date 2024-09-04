@@ -49,7 +49,7 @@ plotly.express.histogram(
 The parameters recommended to learn are:
 - `data_frame`: The dataset containing the variables to be plotted.
 - `x`: The data for the x-axis.
-- `nbins`: The number of bins in the histogram (i.e., the number of bars). The argument of this parameter should be an positive integer.
+- `nbins`: The number of bins (bars) in the histogram. This parameter should be a positive integer.
 - `color_discrete_sequence`: The color of histogram. It changes the color of the bars. The argument of this parameter can be a string like ‘red‘, ‘yellow‘, or ‘blue‘, or hexadecimal colors.
 - `title`: The title of the figure.
 
