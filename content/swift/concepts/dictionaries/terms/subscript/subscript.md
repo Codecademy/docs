@@ -15,7 +15,8 @@ CatalogContent:
 ---
 
 
-**`Subscript`** in Swift is a shortcut to access the elements of a collection, list or sequence. It is a syntactic sugar that allows you to access the elements of a collection using the subscript syntax `[]`. You can define subscripts in your own custom types, and the syntax is similar to computed properties. You can define multiple subscripts with different input parameters and return types.
+**Subscript** in Swift is a shortcut for accessing elements of a collection, list, or sequence. It is syntactic sugar that allows the use of the subscript syntax `[]` to access elements. Subscripts can also be defined in custom types, with syntax similar to computed properties. Multiple subscripts can be defined with different input parameters and return types.
+
 
 ## Syntax
 
