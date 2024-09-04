@@ -70,7 +70,7 @@ fig = px.histogram(df, x="total_bill", nbins=20)
 # Showing the histogram plot
 fig.show()
 ```
-By default, the number of bins is chosen so, that this number is comparable to the typical number of samples in a bin. In this example the number of bins can be customized.
+By default, the number of bins is chosen so, that this number is comparable to the typical number of samples in a bin. In this example, the number of bins can be customized.
 
 The above code produces the following output:
 
