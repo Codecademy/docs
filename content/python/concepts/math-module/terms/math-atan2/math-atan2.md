@@ -23,6 +23,8 @@ math.atan2(y, x)
 - `y`: A numeric value representing the `y` coordinate of the point.
 - `x`: A numeric value representing the `x` coordinate of the point.
 
+> Note: The function takes the y-coordinate (`y`) as the first parameter and the x-coordinate (`x`) as the second.
+
 ## Example
 
 In the example below, the `math.atan2()` function is used to return the arc tangent of a point:
