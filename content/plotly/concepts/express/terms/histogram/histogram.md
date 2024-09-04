@@ -28,7 +28,23 @@ The elements of the histogram graph are:
 ## Syntax
 
 ```pseudo
-plotly.express.histogram(data_frame=None, x=None, y=None, color=None, pattern_shape=None, facet_row=None, facet_col=None, facet_col_wrap=0, facet_row_spacing=None, facet_col_spacing=None, hover_name=None, hover_data=None, animation_frame=None, animation_group=None, category_orders=None, labels=None, color_discrete_sequence=None, color_discrete_map=None, pattern_shape_sequence=None, pattern_shape_map=None, marginal=None, opacity=None, orientation=None, barmode='relative', barnorm=None, histnorm=None, log_x=False, log_y=False, range_x=None, range_y=None, histfunc=None, cumulative=None, nbins=None, text_auto=False, title=None, template=None, width=None, height=None)
+plotly.express.histogram(
+    data_frame,    # Your DataFrame containing the data
+    x,             # Column name for the x-axis (required)
+    y=None,        # Optional column name for the y-axis
+    color=None,    # Optional column name for color grouping
+    facet_row=None,# Optional column name to split data into rows
+    facet_col=None,# Optional column name to split data into columns
+    hover_data=None,# Optional list of column names for hover info
+    marginal=None, # Optional to add marginal plots (e.g., 'rug', 'box')
+    opacity=None,  # Optional opacity for bars
+    orientation=None,# 'v' or 'h' for vertical or horizontal bars
+    barmode='relative', # Bar stacking mode: 'relative', 'overlay', etc.
+    title=None,    # Optional title for the plot
+    template=None, # Optional Plotly template (e.g., 'plotly_dark')
+    width=None,    # Optional plot width
+    height=None    # Optional plot height
+)
 ```
 The parameters recommended to learn are:
 - `data_frame`: The dataset containing the variables to be plotted.
