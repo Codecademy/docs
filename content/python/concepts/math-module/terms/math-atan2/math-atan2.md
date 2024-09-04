@@ -27,7 +27,7 @@ math.atan2(y, x)
 
 ## Example
 
-In the example below, the `math.atan2()` function is used to return the arc tangent of a point:
+In the example below, the `math.atan2()` function is used to return the arc tangent of a point `(5, 6)`:
 
 ```py
 import math
