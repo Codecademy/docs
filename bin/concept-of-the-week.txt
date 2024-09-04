@@ -1,1 +1,1 @@
-content/d3/concepts/interactivity/interactivity.md
+content/mysql/concepts/keywords/keywords.md
