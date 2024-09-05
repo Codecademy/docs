@@ -5,14 +5,14 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Functions'
   - 'Arithmetic'
+  - 'Functions'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-The `math.factorial()` method returns the factorial of a non-negative number.
+The `math.factorial()` method returns the factorial of a positive number.
 
 ## Syntax
 
@@ -21,10 +21,8 @@ math.factorial(n)
 ```
 
 - `n`: A positive number whose factorial is calculated.
-- The `math.factorial()` function returns a positive `int` value.
 
-If `n` is negative, or not an integer, `math.factorial(n)` returns a ValueError.
-If `n` is not a number, `math.factorial(n)` returns a TypeError.
+> **Note:** If `n` is negative or non-integer, `math.factorial(n)` raises a `ValueError`. If `n` is not a number, it raises a `TypeError`.
 
 ## Example
 
