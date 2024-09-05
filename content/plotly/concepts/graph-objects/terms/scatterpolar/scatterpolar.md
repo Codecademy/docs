@@ -1,6 +1,6 @@
 ---
 Title: '.Scatterpolar()'
-Description: 'Creates a plot with data visualized as colored tiles.'
+Description: 'Creates a scatter plot on polar axes.'
 Subjects:
   - 'Data Science'
   - 'Data Visualization'
@@ -59,8 +59,3 @@ The above code generates the following output:
 ![Output of the above example on scatter plots on polar axes in Plotly](https://raw.githubusercontent.com/Codecademy/docs/main/media/plotly-scatterpolar-example.png)
 
 In the output, the scatter plot is displayed on polar axes with the specified data points and radial axis range. The circular layout of the polar axes provides a unique way to visualize data points in a circular or periodic manner. 
-
-The `.Scatterpolar()` function is useful for creating scatter plots on polar axes, which can be particularly effective for visualizing cyclic or periodic data patterns. It is a versatile tool for data visualization in Plotly.  
-
-The `.Scatterpolar()` function is available in Plotly for Python. 
-
