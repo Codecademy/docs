@@ -34,10 +34,10 @@ In the example below, `.front()` is used to print the first element of the `numb
 #include <vector>
 
 int main() {
-  // Declaring a vector of integers
+  // Initialize a vector with integers
   std::vector<int> numbers = {1, 2, 3, 4};
 
-  // Print out first element
+  // Print the first element of the vector using the front() method
   std::cout << numbers.front();
 
   return 0;
@@ -57,6 +57,7 @@ This codebyte example uses `.front()` to both access and modify the first elemen
 ```codebyte/cpp
 #include <iostream>
 #include <vector>
+
 int main() {
   // Declaring a vector of integers
   std::vector<int> numbers = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
