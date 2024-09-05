@@ -30,7 +30,7 @@ private int ReturnNumber()
   return 7;
 }
 
-// Declare a public method which returns an object and takes an input parameter:
+// Declare a public method which returns an integer and takes an input parameter:
 public int CalculateWithParameter(int x)
 {
   return ReturnNumber() - x;
