@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Python, the **`pie()`** method from the Plotly library is used to create a pie chart, which visually represents data proportions. This method helps transform data into an appealing visual format, making it easier for readers to understand the relationships between variables.
+In Python, the **`.pie()`** method from the Plotly library is used to create a pie chart, which visually represents data proportions. This method helps transform data into an appealing visual format, making it easier for readers to understand the relationships between variables.
 
 ## Syntax
 
@@ -29,6 +29,8 @@ plotly.express.pie(values=None, names=None, title=None, hole=None, color_discret
 - `color_discrete_sequence` - The color sequence for the pie slices
 - `hover_data` - The column name for additional data to show on hover
 - `labels` - Custom labels
+
+> **Note:** The ellipsis (...) indicates that there can be additional optional parameters beyond those listed here.
 
 ## Example
 
@@ -65,4 +67,4 @@ fig.show()
 
 The code above generates the following output:
 
-![alt text](newplot.png)
+![Output for the above example](https://raw.githubusercontent.com/Codecademy/docs/media/pieplot.png)
