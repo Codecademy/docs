@@ -30,7 +30,6 @@ plotly.express.pie(values=None, names=None, title=None, hole=None, color_discret
 - `hover_data` - The column name for additional data to show on hover
 - `labels` - Custom labels
 
-
 ## Example
 
 The example below shows the usage of the `.pie()` method as follows:
