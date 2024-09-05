@@ -1,1 +1,1 @@
-content/java/concepts/collections/collections.md
+content/mysql/concepts/keywords/keywords.md
