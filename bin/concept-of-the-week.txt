@@ -1,1 +1,1 @@
-content/java/concepts/constructors/constructors.md
+content/mysql/concepts/keywords/keywords.md
