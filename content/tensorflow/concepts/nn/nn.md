@@ -1,20 +1,19 @@
 ---
-Title: 'Neural Network' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'A neural network is a model that can be trained to learn and make decisions from data. It is inspired by the human brain and particularly powerful for solving complex problems that are hard to systematize.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
-Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
+Title: 'Neural Network'
+Description: 'A neural network is a model that can be trained to learn and make decisions from data. It is inspired by the human brain and particularly powerful for solving complex problems that are hard to systematize.'
+Subjects:
   - 'AI'
   - 'Machine Learning'
   - 'Computer Science'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
+Tags:
   - 'AI'
   - 'Deep Learning'
   - 'Machine Learning'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+  - 'Neural Networks'
+CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
-
-<!-- [Introduction - make sure first mention of concept is in **bold**.] (The first 160 characters of this section will appear as the description of the page when it shows up on search engines. It's important!) -->
 
 In TensorFlow, a **neural network** is a specific type of model that consists of a combination of interconnected nodes (neurons) organized into different numbers and types of layers.
 
@@ -34,7 +33,7 @@ A neural network in TensorFlow includes the following layers:
 
 ## Build a Neural Network with TensorFlow
 
-The basic steps in the process of implementing a neural network with TensorFlowinclude:
+The basic steps in the process of implementing a neural network with TensorFlow include:
 
 1. Collect and load data. TensorFlow provides the [`tf.data.Dataset` API](https://www.tensorflow.org/api_docs/python/tf/data/Dataset) to create and prepocess a dataset from your input data.
 
