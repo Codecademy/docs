@@ -41,7 +41,7 @@ print(petAges1)
 
 Output:
 
-```shell
+```swift
 ["Aurora": 10, "Jodi": 8, "Benny": 12]
 ```  
 
