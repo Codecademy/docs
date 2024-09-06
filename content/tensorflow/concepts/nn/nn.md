@@ -25,11 +25,11 @@ In a neural network, each neuron or node in a layer is connected to every neuron
 
 A neural network in TensorFlow includes the following layers:
 
-- Input Layers: The initial layer that receives the data used to train the model. The input can be represented by one or more tensors, and the output can also consist of one or more tensors.
+- **Input Layer**: The initial layer that receives the data used to train the model. The input can be represented by one or more tensors, and the output can also consist of one or more tensors.
 
-- Hidden Layers: These layers configure the model and allow it to process and learn from the input data. The number and type of hidden layers can vary depending on the model's complexity. Neural networks in TensorFlow include at least one hidden layer.
+- **Hidden Layers**: These layers configure the model and allow it to process and learn from the input data. The number and type of hidden layers can vary depending on the model's complexity. Neural networks in TensorFlow include at least one hidden layer.
 
-- Output Layer: The final layer that generates the predictions of the trained model.
+- **Output Layer**: The final layer that generates the predictions of the trained model.
   
 ## Build a Neural Network with TensorFlow
 
