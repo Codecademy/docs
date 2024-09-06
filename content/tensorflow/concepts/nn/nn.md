@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In TensorFlow, a **neural network** is a specific type of model that consists of a combination of interconnected nodes (neurons) organized into different numbers and types of layers.
+In TensorFlow, a **Neural Network** is a specific type of model that consists of a combination of interconnected nodes (neurons) organized into different numbers and types of layers.
 
 A neural network is a computing technique for creating programs that can process and learn from data, imitating the behavior of the human brain. Neural networks can find patterns and relations in data to train themselves and make predictions. Their potential relies on their capacity to provide solutions for complex, hard-to-systematize problems, such as image and speech recognition.
 
@@ -30,7 +30,7 @@ A neural network in TensorFlow includes the following layers:
 - **Hidden Layers**: These layers configure the model and allow it to process and learn from the input data. The number and type of hidden layers can vary depending on the model's complexity. Neural networks in TensorFlow include at least one hidden layer.
 
 - **Output Layer**: The final layer that generates the predictions of the trained model.
-  
+
 ## Build a Neural Network with TensorFlow
 
 The basic steps in the process of implementing a neural network with TensorFlow include:
