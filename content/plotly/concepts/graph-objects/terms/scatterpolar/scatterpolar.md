@@ -25,7 +25,7 @@ plotly.graph_objects.Scatterpolar(x=None, y=None, ...)
 - `x`: A list of values to be used as the x-coordinates of the data points.  
 - `y`: A list of values to be used as the y-coordinates of the data points.  
 
-> Note: The ellipsis in the syntax (...) indicates that there are additional optional parameters beyond those listed here to customize the scatter plot on polar axes.   
+> **Note:** The ellipsis in the syntax (...) indicates that there are additional optional parameters beyond those listed here to customize the scatter plot on polar axes.   
 
 ## Example
 
