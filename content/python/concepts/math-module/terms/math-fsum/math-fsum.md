@@ -1,6 +1,6 @@
 ---
 Title: 'math.fsum()'
-Description: 'Takes an iterable as an argument and returns an accurate floating point sum.'
+Description: 'Computes the precise floating-point sum of an iterable of numbers.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Python, the **`math.fsum()`** [function](https://www.codecademy.com/resources/docs/python/functions) takes an iterator as an argument and returns a floating point sum of all the items in the iterator. This function avoids loss of precision by tracking intermediate partial sums.
+In Python, the **`math.fsum()`** [function](https://www.codecademy.com/resources/docs/python/functions) takes an iterator as an argument and returns the floating-point sum of all the items in the iterator. This function avoids loss of precision by tracking intermediate partial sums.
 
 ## Syntax
 
@@ -21,13 +21,13 @@ In Python, the **`math.fsum()`** [function](https://www.codecademy.com/resources
 math.fsum(iterable)
 ```
 
-- `iterable`: A list, tuple, or array to sum.
+- `iterable`: An iterable (e.g., list, tuple) containing numeric values. This is the sequence of numbers whose sum is to be calculated.
 
 ## Example
 
-Use `math.fsum()` to return the accurate floating point sum of `[1e-2, 1e-3, 1e-4]`:
+The following example uses `math.fsum()` to return the accurate floating point sum of the given list:
 
-```python
+```py
 import math
 
 numbers_list = [1, 1e-1, 1e-2, 1e-3, 1e-4]
