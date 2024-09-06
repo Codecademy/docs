@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.Scatterpolar()`** function in Plotly is used to create scatter plots on polar axes. Scatter plots are used to visualize data points in a two-dimensional space, and polar axes are circular axes that are often used to represent periodic data. 
+The **`.Scatterpolar()`** function in Plotly creates scatter plots on polar axes. Scatter plots are used to visualize data points in a two-dimensional space, and polar axes are circular axes often used to represent periodic data. 
 
 ## Syntax
 
