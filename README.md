@@ -3,6 +3,7 @@
   <h1>📕 Docs</h1>
   <strong>Documentation for popular programming languages and frameworks.</strong><br>
   <strong>Built by the community. Maintained by Codecademy.</strong>
+  <p>By Experts and assosiative of codeacademy that able to build this community</p>
 </div>
 <br>
 
