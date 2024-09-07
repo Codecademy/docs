@@ -14,9 +14,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-
 **Subscript** in Swift is a shortcut for accessing elements of a collection, list, or sequence. It is syntactic sugar that allows the use of the subscript syntax `[]` to access elements. Subscripts can also be defined in custom types, with syntax similar to computed properties. Multiple subscripts can be defined with different input parameters and return types.
-
 
 ## Syntax
 
@@ -33,13 +31,13 @@ subscript(index: Int) -> Int {
 }
 ```
 
-
 - `subscript(index: Int) -> Int`: This defines a subscript that takes an `Int` parameter (index) and returns an `Int` value.
 - `get`: The getter block should return the value corresponding to the `index`.
-- `set`: The setter block should set a new value at the specified `index`. 
+- `set`: The setter block should set a new value at the specified `index`.
+
 ## Example
 
-Here is an example of a subscript in Swift:
+This example creates a `TimesTable` struct with a subscript that returns the product of the `multiplier` and the `index`. The subscript is accessed using the `[]` syntax to compute the result:
 
 ```swift
 struct TimesTable {
@@ -57,5 +55,4 @@ The above code produces the following output:
 
 ```shell
 Six times three is 18
-This example creates a `TimesTable` struct with a subscript that returns the product of the `multiplier` and the `index`. The subscript is accessed using the `[]` syntax to compute the result.
-
+```
