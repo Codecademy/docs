@@ -1,6 +1,6 @@
 ---
 Title: 'Deque'
-Description: 'A deque is a type of data structure that allows insert and delete elements at both end.'
+Description: 'A deque is a type of data structure that allows insert and delete elements at both ends.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-An **deque** is a data structure that allows elements to be added or removed from both ends, making it more versatile than a traditional queue or stack. In `C#` there is no build-in `deque` but it can be impleted using `LinkedList` and `List` classes `C#`.
+A **deque** is a data structure that allows elements to be added or removed from both ends, making it more versatile than a traditional queue or stack. In `C#` there is no build-in `deque` but it can be impleted using `LinkedList` and `List` classes `C#`.
 
 ## Implementing using LinkedList Class
 
@@ -25,7 +25,7 @@ LinkedList<T> deque = new LinkedList<T>();
 
 ## Example 1
 
-Below example show how to implement deque using `LinkedList`.
+The below example shows how to implement deque using `LinkedList`.
 
 ```cs
 using System;
@@ -75,7 +75,7 @@ List<T> deque = new List<T>();
 
 ## Example 2
 
-Below example show to implement deque using `List`.
+The below example shows how to implement deque using `List`.
 
 ```cs
 using System;
