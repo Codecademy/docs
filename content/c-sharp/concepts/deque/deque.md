@@ -23,7 +23,7 @@ LinkedList<T> deque = new LinkedList<T>();
 
 - `T`: Specifies the element type.
 
-## Example
+## Example 1
 
 Below example show how to implement deque using `LinkedList`.
 
@@ -73,7 +73,7 @@ List<T> deque = new List<T>();
 
 - `T`: Specifies the element type.
 
-## Example
+## Example 2
 
 Below example show to implement deque using `List`.
 
