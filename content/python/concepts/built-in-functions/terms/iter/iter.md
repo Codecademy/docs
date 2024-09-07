@@ -22,28 +22,50 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 iter(object)
 iter(object, sentinel)
 ```
-- `object` is the parameter on which the iterator will be run. It must be an iterable collections object if the sentinel parameter is not given (some types that can be used are: list, str, tuple, dict and file objects). These types can also include your own classes given that they have been defined with the **\_\_iter\_\_()** method or the **\_\_getitem\_\_()** method. If the sentinel parameter is given, then it must be a callable object.
-- `sentinel` is the parameter that stores the value which represents the end of the sequence 
+- `object` parameter supplies the object on which the iter() method will return the iterator. The type of this parameter depends on the presence of the optional second `sentinel` parameter. In the case where the sentinel parameter is not given, the object parameter type must be one that supports iteration or a sequence. These types include: list, str, and tuple. You may also pass in objects that you've defined with either **\_\_iter\_\_()** or **\_\_getitem\_\_()** methods. When the sentinel parameter is present, the object parameter must be callable.
+
+- `sentinel` is the parameter that stores the value which represents the end of the sequence. When the callable object returns this value, the iterator will terminate. 
 
 ## Example
 
-[Text, code, images, etc. about example 1]
+```py
+from functools import partial
+import random
+
+## example one iter() with no sentinel parameter
+fruits = ['apples', 'bananas', 'oranges']
+
+my_iterator = iter(fruits)
+print(my_iterator)
+
+## example two iter() with a sentinel parameter
+func_iterator = iter(partial(random.randint, 1, 10), 7)
+print(func_iterator)
+```
+
+```shell
+<list_iterator object at 0x000001CCFDCAA470>
+<callable_iterator object at 0x000001CCFDE37910>
+```
 
 ## Codebyte Example (if applicable)
 
-We can currently support:
+```codebyte/python
+import randint from random
 
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
 
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
+technologies = ['next.js', 'react', 'node.js', 'postgreSql', 'firebase', 'tailwindcss']
 
-```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
+def callback_fn():
+  return randint(1,10)
+
+tech_iterator = iter(technologies)
+
+call_iterator = iter(callback_fn, 7)
+
+for tech in tech_iterator:
+  print(tech)
+
+for val in call_iterator:
+  print(val)
 ```
