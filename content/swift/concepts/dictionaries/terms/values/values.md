@@ -14,21 +14,21 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.Values`** method is used to loop through a stored collection of values within a **key-value dictionary**. 
+The **`.Values`** method is used to loop through a stored collection of values within a key-value dictionary. 
 
 ## Syntax
 
-```
+```pseudo
 print(dictionaryName.values)
 ```
 - `dictionaryName` is the argument for the name of the dictionary you are wanting to pull the values from.
-- `.value` is used to call the collection of values within the dictionary named within the argument,
+- `.value` is used to call the collection of values within the dictionary named within the argument.
 
 ## Examples
 
-// The below code creates a populated dictionary, and then calls only the values of the dictionary to be printed. 
+The below code creates a populated dictionary, and then calls only the values of the dictionary to be printed. 
 
-```
+```swift
 var worldCupWinners = [
   "Argentine": 2022,
   "France": 2018,
