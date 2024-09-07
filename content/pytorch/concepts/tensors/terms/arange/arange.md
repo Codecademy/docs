@@ -28,7 +28,7 @@ The parameters are as follows:
 
 - `start`: The beginning of the range, inclusive, defaults to `0`.
 - `end`: The end of the range, exclusive. Required.
-- `step`: The step size between each tensor value. Default: `1`. 
+- `step`: The step size between each tensor value. Default: `1`.
 - `out`: The output Tensor, defaults to `None`.
 - `dtype`: The datatype (`torch.dtype`) of the zeros, defaults to `None`.
 - `layout`: The layout (`torch.layout`) of the output tensor, defaults to `torch.strided`.
