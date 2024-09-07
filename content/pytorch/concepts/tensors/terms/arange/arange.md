@@ -13,10 +13,9 @@ Tags:
 CatalogContent:
   - 'intro-to-py-torch-and-neural-networks'
   - 'paths/computer-science'
-  - 'paths/data-science'
 ---
 
-The **`.arange()`** method returns a tensor created from a given interval `[start, end)`, with a specified `step` size. Note: when the step size is not an integer, there may be floating point rounding errors, and therefore it is recommended to subtract a small epsilon from the end for consistency.
+The **`.arange()`** method returns a tensor containing values from a given interval `[start, end)` with a specified `step` size. When the step size is not an integer, floating-point rounding errors may occur, so it is recommended to subtract a small epsilon from the `end` value for consistency.
 
 ## Syntax
 
@@ -26,14 +25,14 @@ torch.arange(start=0, end, step=1, out=None, dtype=None, layout=torch.strided, d
 
 The parameters are as follows:
 
-- `start`: The beginning of the range, inclusive, defaults to `0`.
-- `end`: The end of the range, exclusive. Required.
-- `step`: The step size between each tensor value. Default: `1`.
-- `out`: The output Tensor, defaults to `None`.
-- `dtype`: The datatype (`torch.dtype`) of the zeros, defaults to `None`.
-- `layout`: The layout (`torch.layout`) of the output tensor, defaults to `torch.strided`.
-- `device`: The device (`torch.device`) of the output tensor, defaults to `None`.
-- `requires_grad`: A boolean indicating whether autograd will record operations on the output tensor, defaults to `False`.
+- `start`: The starting value of the range, inclusive. Defaults to `0`.
+- `end`: The ending value of the range, exclusive. This parameter is required.
+- `step`: The difference between each consecutive value in the range. Default value is `1`.
+- `out`: A tensor in which to store the output. If `None`, a new tensor is created. Default value is `None`.
+- `dtype`: The desired data type of the output tensor (`torch.dtype`). If `None`, the data type will be inferred from other input arguments. Default value is `None`.
+- `layout`: The desired layout of the output tensor. Default: `torch.strided`.
+- `device`: The device on which the tensor will be allocated (`torch.device`). Default: `None`.
+- requires_grad: A boolean indicating whether autograd should track operations on the output tensor. Default: `False`.
 
 ## Example
 
