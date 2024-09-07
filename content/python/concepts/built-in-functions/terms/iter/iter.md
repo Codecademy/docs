@@ -63,9 +63,11 @@ tech_iterator = iter(technologies)
 
 call_iterator = iter(callback_fn, 7)
 
+# this is loop will print out all elements of the technologies list
 for tech in tech_iterator:
   print(tech)
 
+# this loop will print numbers until it hits the number 7
 for val in call_iterator:
   print(val)
 ```
