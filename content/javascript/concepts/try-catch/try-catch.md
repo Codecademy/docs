@@ -16,8 +16,7 @@ CatalogContent:
   - 'paths/create-a-back-end-app-with-javascript'
 ---
 
-The `try...catch...finally` statement defines one block of code to execute and test for possible errors, a second block of code to handle errors that may be present in the try block,
-and a third block of code to be executed regardless of the error status.
+The `try...catch...finally` statement defines one block of code to execute and test for possible errors, a second block of code to handle errors that may be present in the try block, and a third block of code to be executed regardless of the error status.
 
 The `catch` and `finally` blocks of code are optional, but any `try` blocks must be followed by one or the other.
 
@@ -45,10 +44,6 @@ try {
 } finally{
   console.log("The number has to be 5.");
 }
-
-/* Output: 
-   thank you!
-   The number has to be 5. */
 ```
 
 ## The Error Object
@@ -75,7 +70,7 @@ The `throw` statement can be used to throw user-defined exceptions. The custom e
 
 This can be useful for things like validating input:
 
-```codebyte/javascript
+```js
 var input = 25;
 
 try {
@@ -95,7 +90,7 @@ try {
 
 The `throw` statement can also re-throw an error object caught by a `catch` block. This can be useful if only certain types of error should be handled:
 
-```javascript
+```js
 try {
   // Series of statements
 } catch (e) {
