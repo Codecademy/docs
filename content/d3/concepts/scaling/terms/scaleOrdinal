@@ -25,11 +25,11 @@ Ordinal scales are mostly used for names and categorical data where there is a d
 d3.scaleOrdinal([[domain, ]range]);               
 ```
 
-1. **domain**
+* **domain**
 
     This domain is the input value that will be mapped. it defines the minimum and maximum values for the scale.
     
-2.  **range**
+*  **range**
 
     The range is the output value that will be mapped. Every value in domain synchronize with value in the range.
         
