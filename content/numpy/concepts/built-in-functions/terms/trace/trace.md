@@ -16,7 +16,7 @@ CatalogContent:
 
 The **`.trace()`** function returns sum of the elements along the main diagonal of an array. The array must have atleast two dimentions. If the array used has more then two dimenions then axes need to be specified to determine 2D sub array whose traces are returned.
 
-## Syntax 
+## Syntax
 
 ```pseudo
 numpy.trace(a, offset=0, axis1=0, axis2=1, out=None)
