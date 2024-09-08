@@ -17,6 +17,7 @@ CatalogContent:
 ---
 
 **User input** is a fundamental aspect of interaction between users and software. In Dart, it varies depending on the type of application being used. It can be a web application, a Flutter application, or a console application. Dart provides a variety of tools and libraries to manage user input effectively.
+
 ## Syntax
 
 ```pseudo
