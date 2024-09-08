@@ -43,8 +43,7 @@ The code above will output:
 ```
 
 ## Number Type Coercion
-
-To explicitly coerce a value into a number, the `Number()` function is used. A value can be coerced implicitly by using it in a mathematical operation, such as subtracting 0 from it or multiplying it by 1 to not change its value. Implicit coercion will also occur if the value is used with a comparison operator such as `<`, a bitwise operator such as `|`, the unary `+` operator, or with any of the arithmatic operators.
+To explicitly coerce a value into a number, the `Number()` function is used. A value can be coerced implicitly by using it in a mathematical operation, such as subtracting 0 from it or multiplying it by 1 to not change its value. Implicit coercion will also occur if the value is used with a comparison operator such as `<`, a bitwise operator such as `|`, the unary `+` operator, or with any of the arithmetic operators. It's important to note that using a comparison operator to coerce a value to a number depends on the type of the operands. For example, if two strings are compared with a comparison operator, they will simply be compared lexicographically, and no type coercion will occur. 
 
 Using `Number()` on booleans gives the expected results of `true` becoming `1` and `false` becoming `0`. When using `Number()` on a string, if the string's value is a valid number, it will successfully be converted into a number. If the string contains any non-numeric characters, the result will be `NaN`. An empty string returns `0`.
 
