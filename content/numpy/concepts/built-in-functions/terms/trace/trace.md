@@ -1,6 +1,6 @@
 ---
 Title: '.trace()'
-Description: 'Calculates sum of the elements along the main diagonal of an array.'
+Description: 'Calculates the sum of the elements along the main diagonal of an array.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.trace()`** function returns sum of the elements along the main diagonal of an array. The array must have atleast two dimentions. If the array used has more then two dimenions then axes need to be specified to determine 2D sub array whose traces are returned.
+The **`.trace()`** function returns the sum of the elements along the main diagonal of an array. The array must have at least two dimensions. If the array used has more than two dimensions then axes need to be specified to determine the 2D sub-array whose traces are returned.
 
 ## Syntax
 
@@ -22,10 +22,10 @@ The **`.trace()`** function returns sum of the elements along the main diagonal 
 numpy.trace(a, offset=0, axis1=0, axis2=1, out=None)
 ```
 
-- `a`: An array for which the sum of element along main diagonal is calculated.
+- `a`: An array for which the sum of elements along the main diagonal is calculated.
 - `offset`: An optional parameter can be both negative and positive. It is offset of diagonalform the main diagonal. Default is 0.
-- `axis1`: An optional parameter used as the first axis of the 2D sub-arrays from which the diagonals should be taken. Default is 0.
-- `axis2`: An optional parameter used as the second axis of the 2D sub-arrays from which the diagonals should be taken. Default is 1.
+- `axis1`: An optional parameter used as the first axis of the 2D sub-arrays from which the diagonals should be taken. The default is 0.
+- `axis2`: An optional parameter used as the second axis of the 2D sub-arrays from which the diagonals should be taken. The default is 1.
 - `out`: An optional parameter specifying an array where the result will be stored. If not provided, a new array is created.
 
 ## Example
