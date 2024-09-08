@@ -1,23 +1,22 @@
 ---
-Title: 'user-input'
-Description: 'User input in Dart is used to read the data from console and interact with the web applications.'
+Title: 'User Input'
+Description: 'User input in Dart is used to read the data from the console and interact with the web applications.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-  - 'Mobilr Development'
+  - 'Mobile Development'
 Tags:
   - 'Dart'
   - 'Input'
   - 'Flutter'
   - 'Console'
-  - 'Forms'
+  - 'Form'
 CatalogContent:
   - 'learn-dart'
   - 'paths/computer-science'
 ---
 
-**User input** is the most basic aspect of intearction between the user and the software. In Dart it varied depending on the type of application being used. It can be a web application, a Flutter or a console application. Dart provides varitey of tools and libraried to manage the user input effectively.
-
+**User input** is a fundamental aspect of interaction between users and software. In Dart, it varies depending on the type of application being used. It can be a web application, a Flutter application, or a console application. Dart provides a variety of tools and libraries to manage user input effectively.
 ## Syntax
 
 ```pseudo
@@ -28,22 +27,20 @@ void main(){
 }
 ```
 
-
 ## Example
 
-The below code shows the implementation of user input in dart. It inputs a value as an age from the user and generates it as output:
+The below code shows the implementation of user input in Dart. It inputs a value as an age from the user and generates an output:
 
 ```dart
 import 'dart:io';
-void main(){
+void main() {
   stdout.write('Enter your age: ');
-  String? input=stdin.readLineSync();
-  
-  if(input !=null){
-  int age=int.parse(input);
-  print('Dear Friend, You are $age years old.');
-  }else{
-  print('Invalid input.');
+  String? input = stdin.readLineSync();
+  if (input != null) {
+    int age = int.parse(input);
+    print('Dear Friend, You are $age years old.');
+  } else {
+    print('Invalid input.');
   }
 }
 ```
