@@ -73,3 +73,19 @@ This will output:
 4
 6
 ```
+
+## Codebyte Example
+
+Run the below codebyte example to see how an iterator works with a string:
+
+```codebyte/javascript
+const str = "Hello";
+const iterator = str[Symbol.iterator]();
+
+console.log(iterator.next());
+console.log(iterator.next());
+console.log(iterator.next());
+console.log(iterator.next());
+console.log(iterator.next());
+console.log(iterator.next());
+```
