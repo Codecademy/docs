@@ -37,7 +37,6 @@ The code above will output:
 ```shell
 "54.1"
 "54.1"
-
 "true"
 "null"
 ```
