@@ -16,7 +16,7 @@ CatalogContent:
 
 **Type coercion** is the process of converting a value from one data type to another (such as string to number). Type coercion works on both primitive data types and objects, although type coercion always results in a primitive data type.
 
-Type coercion can be done both implicitly and explicitly. Explicit Type Coercion is the intentional conversion of a value from one data type to another and is typically done using native constructors such as `String()` without the `new` keyword in front of them. There is also implicit type casting, which is when values are converted from one data type to another automatically.
+Type coercion can be done both implicitly and explicitly. Explicit Type Coercion is the intentional conversion of a value from one data type to another and is typically done using native constructors such as `String()` without the `new` keyword in front of them. There is also implicit type coercion, which is when values are converted from one data type to another by JavaScript.
 
 ## String Type Coercion
 
