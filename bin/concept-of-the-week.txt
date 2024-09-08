@@ -1,1 +1,1 @@
-content/mysql/concepts/keywords/keywords.md
+content/typescript/concepts/assignability/assignability.md
