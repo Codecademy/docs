@@ -33,14 +33,14 @@ plotly.graph_objects.Surface(
 )
 ```
 
-- z: 2D array-like, required. The Z coordinates for the surface plot.
-- x: 1D array-like, optional. The X coordinates. Defaults to the range of the number of columns in z if not provided.
-- y: 1D array-like, optional. The Y coordinates. Defaults to the range of the number of rows in z if not provided.
-- colorscale: list of tuples, optional. Colorscale for the surface.
-- cmin: float, optional. Minimum value for the color scale.
-- cmax: float, optional. Maximum value for the color scale.
-- opacity: float, optional. Opacity of the surface.
-- surfacecolor: array-like, optional. An array of values to color the surface.
+- `z` : 2D array-like, required. The Z coordinates for the surface plot.
+- `x` : 1D array-like, optional. The X coordinates. Defaults to the range of the number of columns in z if not provided.
+- `y` : 1D array-like, optional. The Y coordinates. Defaults to the range of the number of rows in z if not provided.
+- `colorscale` : list of tuples, optional. Colorscale for the surface.
+- `cmin` : float, optional. Minimum value for the color scale.
+- `cmax` : float, optional. Maximum value for the color scale.
+- `opacity` : float, optional. Opacity of the surface.
+- `surfacecolor` : array-like, optional. An array of values to color the surface.
 
 ## Example
 
@@ -72,4 +72,4 @@ This example allows for a visual representation of a mathematical function, with
 
 The above code generates the following output:
 
-![Output from above code]()
+![Output from above code](https://github.com/saldanhad/codeacademy-docs/blob/dev/media/3d-surface-example-plotly.png)
