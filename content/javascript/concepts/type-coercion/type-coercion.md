@@ -16,7 +16,7 @@ CatalogContent:
 
 **Type coercion** is the process of converting a value from one data type to another (such as string to number). Type coercion works on both primitive data types and objects, although type coercion always results in a primitive data type.
 
-Type coercion can be done both implicitly and explicitly. Explicit Type Coercion is the intentional conversion of a value from one data type to another and is typically done using native constructors such as `String()` without the `new` keyword in front of them. There is also implicit type casting, which is when values are converted from one data type to another automatically.
+Type coercion can be done both implicitly and explicitly. Explicit Type Coercion is the intentional conversion of a value from one data type to another and is typically done using native constructors such as `String()` without the `new` keyword in front of them. There is also implicit type coercion, which is when values are converted from one data type to another by JavaScript.
 
 ## String Type Coercion
 
@@ -37,7 +37,6 @@ The code above will output:
 ```shell
 "54.1"
 "54.1"
-
 "true"
 "null"
 ```
@@ -73,7 +72,7 @@ NaN
 
 ## Boolean Type Coercion
 
-To explicitly coerce a value into a boolean, the `Boolean()` function is used. A value undergoes implict coercion when used in a test expression for a `if` statement, `for` loop, `while` loop, or ternary expression. A value can also undergo implict coercion when used as the left-hand operand to the logical operators (`||`, `&&`, and `!`).
+To explicitly coerce a value into a boolean, the `Boolean()` function is used. A value undergoes implicit coercion when used in a test expression for an `if` statement, `for` loop, `while` loop, or a ternary expression. A value can also undergo implict coercion when used as the left-hand operand to the logical operators (`||`, `&&`, and `!`).
 
 Nearly all possible values will convert into a `true`, but only a handlful will convert into `false`. The values that will become false are:
 
