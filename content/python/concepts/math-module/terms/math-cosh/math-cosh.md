@@ -29,7 +29,7 @@ Use `math.cosh()` to return the hyperbolic cosine of integer `1`:
 ```py
 import math
 
-print(math.sqrt(1))
+print(math.cosh(1))
 ```
 
 The above code gives the following output:
@@ -43,7 +43,7 @@ Use `math.cosh()` to return the hyperbolic cosine of the float `8.9`:
 ```py
 import math
 
-print(math.sqrt(8.9))
+print(math.cosh(8.9))
 ```
 
 The above code gives the following output:
