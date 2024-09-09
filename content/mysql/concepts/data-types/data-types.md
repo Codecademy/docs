@@ -5,8 +5,8 @@ Subjects:
   - 'Data Science'
   - 'Computer Science'
 Tags:
+  - 'Data Types'
   - 'MySQL'
-  - 'data-types'
 CatalogContent:
   - 'learn-sql'
   - 'getting-started-off-platform-for-data-science'
