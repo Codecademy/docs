@@ -47,10 +47,10 @@ In MySQL, data types are categorized into several groups, including numeric, dat
 
 ### String Data Types
 
-`BINARY(size)`: Used to store binary strings of fixed length. Is suitable for exact binary operations for instance when data columns of binary data need exact length and content requirements (cryptographic hashes or binary encoded data).
+- `BINARY(size)`: Used to store binary strings of fixed length. It is suitable for exact binary operations for instance when data columns of binary data need exact length and content requirements (cryptographic hashes or binary encoded data).
 - `BLOB(size)`: Used to store large binary data, like images, audio/video files, or other binary data files based on storage and database configuration. It's useful for variable data-saving scenarios, and back-ups.
 - `CHAR(size)`: Used to store predefined fixed-length strings of characters, useful in cases when the database holds strings of known length like postal codes and abbreviations.
-- `ENUM(val1, val2, val3, ...)`: Used to store a list of possible values that were predefined with required storage dependent on enumerated values (1, 2, or 4 bytes). Is useful when a database needs to prevent invalid data entries.
+- `ENUM(val1, val2, val3, ...)`: Used to store a list of possible values that were predefined with required storage dependent on enumerated values (1, 2, or 4 bytes). It is useful when a database needs to prevent invalid data entries.
 - `LONGBLOB`: Used to store binary data that is beyond the capacity of other options. It can store up to 4GB and is an efficient storage option for handling complex binary objects.
 - `LONGTEXT`: Used to store text data that is very large, up to 4 GB of data being suitable for applications, and document repositories that handle large textual content
 - `MEDIUMBLOB`: Used for storing large binary object data types like medium-sized images of up to 16 MB.
