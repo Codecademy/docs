@@ -215,7 +215,7 @@ console.log(obj.someProperty);
 
 ## Codebyte Example
 
-The following codebyte example creates the function `getInfo` to demonstrate how to use `this`. First we create Class Student, and then we call the constructor passing the parameters, and finally using `this` we can create global objects. Later, inside the function we call this objects to obtain the value and return a string object:
+The following codebyte example creates the function `getInfo` to demonstrate how to use `this`. First, we create Class Student, and then we call the constructor passing the parameters, and finally using `this` we can create global objects. Later, inside the function, we call these objects to obtain the value and return a string object:
 
 ```codebyte/javascript
 class Student {
