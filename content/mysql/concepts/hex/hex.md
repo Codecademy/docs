@@ -4,30 +4,33 @@ Description: 'Returns a hexadecimal string representation of a given string or n
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
-  - 'Data Science'
 Tags:
   - 'Functions'
   - 'Database'
   - 'MySQL'
   - 'Strings'
-  - 'Numbers'
 CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
 ---
 
-The **`HEX()`** function in MySQL takes an input and returns its equivalent hexadecimal representation. This input can be either a string or a numeric value. When the input is a string, the resulting hexadecimal representation will, by default, be a binary string. In the output, each byte of each character in the original string argument is represented by a corresponding pair of hexadecimal digits. The resulting hexadecimal string can also be converted back into the original string by using the `UNHEX()` function. When the input is a decimal number, HEX(N) and CONV(N, 10, 16) produce the same hexadecimal output. The hexadecimal result from HEX(N) can be converted back to the original number using CONV(HEX(N), 16, 10).
+The **`HEX()`** [function](https://www.codecademy.com/resources/docs/mysql/built-in-functions) in MySQL takes an input and returns its equivalent hexadecimal representation. This input can be either a string or a numeric value.
+
+When the input is a string, the resulting hexadecimal representation will, by default, be a binary string. In the output, each byte of each character in the original string argument is represented by a corresponding pair of hexadecimal digits. The resulting hexadecimal string can also be converted back into the original string by using the **`UNHEX()`** function.
+
+When the input is a decimal number, `HEX(N)` and `CONV(N, 10, 16)` produce the same hexadecimal output. The hexadecimal result from `HEX(N)` can be converted back to the original number using `CONV(HEX(N), 16, 10)`.
 
 ## Syntax
 
 ```pseudo
-HEX('string');
-HEX(99);
+HEX(val);
 ```
+
+- `val`: The value to be represented as a hexadecimal string.
 
 ## Examples
 
-The following example uses the `HEX()` function to convert the `codecademy` string to hexadecimal.
+The following example uses the `HEX()` function to convert the `codecademy` string to hexadecimal:
 
 ```sql
 SELECT HEX('codecademy');
@@ -39,21 +42,19 @@ The result looks like this:
 | -------------------- |
 | 636F6465636164656D79 |
 
-Instead, this next example passes a numeric value to the function.
+The next example passes a numeric value instead of a string to the function:
 
 ```sql
 SELECT HEX(123456789);
 ```
 
-The resulting output is this:
+The resulting output is the following:
 
 | HEX(123456789) |
 | -------------- |
 | 75BCD15        |
 
-## Detailed Example
-
-The `HEX()` function can also be used with columns in a table.
+Below is a more detailed example, where the `HEX()` function is used with a column in a table:
 
 ```sql
 -- Create a table named 'employees'
@@ -70,7 +71,7 @@ INSERT INTO employees (last_name, employee_id) VALUES
 ('Miller', 23088),
 ('Williams', 15312);
 
--- Verify the data was inserted correctly
+-- Verify that the data is inserted correctly
 SELECT * FROM employees;
 ```
 
@@ -84,13 +85,13 @@ The resulting table looks like this:
 | Miller    | 23088       |
 | Williams  | 15312       |
 
-Now, to retrieve the data in the last_name column as hexadecimal, use the `HEX()` function.
+Now, the `HEX()` function is used to retrieve the data in the `last_name` column as hexadecimal strings:
 
 ```sql
 SELECT last_name, HEX(last_name) FROM employees;
 ```
 
-The expected output would then be:
+Here is the expected output:
 
 | last_name | HEX(last_name)   |
 | --------- | ---------------- |
