@@ -9,9 +9,9 @@ Tags:
   - 'MySQL'
 CatalogContent:
   - 'learn-sql'
-  - 'getting-started-off-platform-for-data-science'
   - 'paths/analyze-data-with-sql'
-  - 'paths/design-databases-with-mysql'
+  - 'paths/data-science'
+  - 'paths/data-science-foundations'
 ---
 
 **`Data types`** defines the types of data formats that can be stored in tables. Types are assigned to columns while creating a table.
