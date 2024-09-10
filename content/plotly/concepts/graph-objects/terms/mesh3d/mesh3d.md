@@ -62,7 +62,7 @@ showscale=True
 fig.show()
 ```
 
-This example creates a 3D mesh representing a simple triangular surface. The mesh is defined using three vertices forming a triangular shape, each associated with `x, y,` and `z` coordinates. The `colorscale` is applied to the surface, giving it a smooth gradient from yellow to magenta, representing changes in elevation or value along the `z-axis`.
+This example creates a 3D mesh plot representing a triangular surface using Plotly. The mesh is defined with vertices specified by `x`, `y`, and `z` coordinates, forming triangular faces through the indices provided by `i`, `j`, and `k`. The `colorscale` parameter is used to apply a gradient from gold to magenta, representing the `intensity` values of each vertex, which are interpolated across the surface. The `colorbar_title` and `showscale` parameters control the appearance of the color bar and its display.
 
 The above code generates the following output:
   
