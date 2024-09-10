@@ -20,17 +20,15 @@ The **`.Mesh3d()`** function in Plotly's graph-objects module is used to create 
 ```pseudo
 plotly.graph_objects.Mesh3d(x=None, y=None, z=None, i=None, j=None, k=None, color=None, opacity=None, ...)
 ```
--  `x, y, z`: These are the coordinates of the vertices of the mesh in 3D space.
 
--  `i, j, k`: These specify how the vertices should be connected to form triangles. Each triangle is defined by a triplet of indices `(i[j], j[j], k[j]),` where each index refers to a vertex in the `x, y, z` arrays.
-
--  `color`: Specifies the color of the mesh.
-
--  `opacity`: Controls the transparency of the mesh (ranges from 0 to 1, where 1 is fully opaque and 0 is fully transparent).
-
--  `lighting`: Adds 3D lighting effects, making the mesh appear more realistic.
-
--  `intensity`: This can be used to apply a color scale to the mesh based on a data array, similar to a heatmap on the mesh surface
+- `x`: An array of X-coordinates of the vertices in 3D space.
+- `y`: An array of Y-coordinates of the vertices in 3D space.
+- `z`: An array of Z-coordinates of the vertices in 3D space.
+- `i`: An array that defines the first vertex of each triangle by its index in the `x`, `y`, and `z` arrays.
+- `j`: An array that defines the second vertex of each triangle by its index in the `x`, `y`, and `z` arrays.
+- `k`: An array that defines the third vertex of each triangle by its index in the `x`, `y`, and `z` arrays.
+- `color`: The color of the mesh surface.
+- `opacity`: A float value between 0 and 1 that sets the transparency of the mesh surface.
 
 > Note: The ellipsis in the syntax (...) indicates that there are additional optional parameters beyond those listed here to customize the 3D mesh.
 
