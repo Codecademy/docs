@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`math.fabs()`** function takes in a numeric data type and returns the absolute value as a float.
+The `math.fabs()` function takes in a numeric value and returns its absolute value as a float. Unlike [math.abs()](https://www.codecademy.com/resources/docs/numpy/math-methods/abs), the value is always converted to a float value. Any other data type except a number will return a TypeError.
 
 ## Syntax
 
@@ -22,7 +22,7 @@ The **`math.fabs()`** function takes in a numeric data type and returns the abso
 math.fabs(n)
 ```
 
-The `math.fabs()` function takes in a numeric value and returns its absolute value as a float. Unlike `math.abs()`, the value is always converted to a float value. Any other data type except a number will return a TypeError.
+- `n`: A numeric value whose absolute value is returned.
 
 ## Example
 
