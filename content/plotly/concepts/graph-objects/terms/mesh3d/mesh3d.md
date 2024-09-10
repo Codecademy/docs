@@ -1,27 +1,16 @@
 ---
 Title: '.Mesh3d()'
-Description: 'A brief description.'
+Description: 'Creates 3D triangular mesh plots for visualizing 3D surfaces or volumetric data.'
 Subjects:
+- 'Data Science'
 - 'Data Visualization'
-- 'Data Visualization'
-- '3D Graphing'
-- 'Plotly'
 Tags:
-- 'plotly'
-- 'mesh'
-- '3D-plotting'
-
+- 'Charts'
+- 'Data'
+- 'Plotly'
 CatalogContent:
-
-- 'https://www.codecademy.com/learn/paths/computer-science'
-
-- 'https://www.codecademy.com/learn/learn-python-3'
-
-- 'https://plotly.com/python/getting-started/'
-
-- 'https://plotly.github.io/plotly.py-docs/generated/plotly.graph_objects.Mesh3d.html'
-
-
+- 'learn-python-3'
+- 'paths/computer-science'
 ---
 
 The **`.Mesh3d()`** is a function in Plotly's graph-objects module used to create 3D mesh plots. The surface is constructed from a set of vertices in 3D space `(x,y,z)` and triangles that are defined by three points(vertices). These triangles are specified using index arrays `(i, j, k)`, where each index refers to a vertex.
