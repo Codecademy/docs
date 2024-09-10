@@ -13,7 +13,7 @@ CatalogContent:
 - 'paths/computer-science'
 ---
 
-The **`.Mesh3d()`** is a function in Plotly's graph-objects module used to create 3D mesh plots. The surface is constructed from a set of vertices in 3D space `(x,y,z)` and triangles that are defined by three points(vertices). These triangles are specified using index arrays `(i, j, k)`, where each index refers to a vertex.
+The **`.Mesh3d()`** function in Plotly's graph-objects module is used to create 3D mesh plots. The surface is constructed from a set of vertices in 3D space `(x, y, z)` and triangles defined by three vertices. These triangles are specified using index arrays `(i, j, k)`, where each index refers to a vertex.
 
 ## Syntax
 
