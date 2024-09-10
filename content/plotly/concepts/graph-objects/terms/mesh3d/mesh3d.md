@@ -18,10 +18,7 @@ The **`.Mesh3d()`** function in Plotly's graph-objects module is used to create 
 ## Syntax
 
 ```pseudo
-
 plotly.graph_objects.Mesh3d(x=None, y=None, z=None, i=None, j=None, k=None, color=None, opacity=None, ...)
-
-
 ```
 -  `x, y, z`: These are the coordinates of the vertices of the mesh in 3D space.
 
