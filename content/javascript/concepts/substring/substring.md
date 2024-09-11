@@ -71,7 +71,7 @@ console.log(str.substring(str.length - 6));
 
 ## Codebyte Example
 
-Run the following code to understand how the `.substring()` function works:
+Run the following code to understand how the `.substring()` method works:
 
 ```codebyte/javascript
 const sentence = 'Hello, world!';
@@ -79,6 +79,6 @@ const sentence = 'Hello, world!';
 const greeting = sentence.substring(0, 5);
 const exclamation = sentence.substring(7, 12);
 
-console.log(greeting);      //Output: Hello
-console.log(exclamation);   // Output: world
+console.log(greeting);
+console.log(exclamation); 
 ```
