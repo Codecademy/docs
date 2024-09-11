@@ -1,6 +1,6 @@
 ---
 Title: 'math.fabs()'
-Description: 'Takes in a numeric data type and returns the absolute value as a float.'
+Description: 'Computes the absolute value of a number and returns it as a floating-point value.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `math.fabs()` function takes in a numeric value and returns its absolute value as a float. Unlike [math.abs()](https://www.codecademy.com/resources/docs/numpy/math-methods/abs), the value is always converted to a float value. Any other data type except a number will return a TypeError.
+The **`math.fabs()`** function takes a numeric value and returns its absolute value as a float. Unlike [math.abs()](https://www.codecademy.com/resources/docs/numpy/math-methods/abs), which can return the absolute value in the same type as the input, `math.fabs()` always converts the result to a float. Passing any non-numeric data type will raise a `TypeError`.
 
 ## Syntax
 
@@ -22,11 +22,11 @@ The `math.fabs()` function takes in a numeric value and returns its absolute val
 math.fabs(n)
 ```
 
-- `n`: A numeric value whose absolute value is returned.
+- `n`: A numeric value for which the absolute value is to be computed.
 
 ## Example
 
-This is an example of `math.fabs()` to return the fabs of `-154.2`:
+Below is an example of `math.fabs()` to return the fabs of the given value:
 
 ```py
 import math
