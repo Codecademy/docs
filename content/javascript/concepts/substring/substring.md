@@ -80,5 +80,5 @@ const greeting = sentence.substring(0, 5);
 const exclamation = sentence.substring(7, 12);
 
 console.log(greeting);
-console.log(exclamation); 
+console.log(exclamation);
 ```
