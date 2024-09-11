@@ -23,7 +23,7 @@ The **`.front()`** method returns a reference to the first element in the [vecto
 vector_name.front();
 ```
 
-- `vector_name`: A placeholder representing the name of the vector on which the .front() method is called.
+- `vector_name`: A placeholder representing the name of the vector on which the `.front()` method is called.
 
 > **Note:** To use vectors, including the `vector` library is necessary.
 
@@ -39,7 +39,7 @@ int main() {
   // Initialize a vector with integers
   std::vector<int> numbers = {1, 2, 3, 4};
 
-  // Print the first element of the vector using the front() method
+  // Print the first element of the vector using the .front() method
   std::cout << numbers.front();
 
   return 0;
