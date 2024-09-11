@@ -15,13 +15,15 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.front()`** method returns a reference to the first element in the [vector](https://www.codecademy.com/resources/docs/cpp/vectors). This allows you to access or modify the first element in the vector without needing to create another variable or remove it from the vector.
+The **`.front()`** method returns a reference to the first element in the [vector](https://www.codecademy.com/resources/docs/cpp/vectors), allowing direct access or modification of the element without creating a separate variable or removing it from the vector.
 
 ## Syntax
 
 ```pseudo
-vector.front();
+vector_name.front();
 ```
+
+- `vector_name`: A placeholder representing the name of the vector on which the .front() method is called.
 
 > **Note:** To use vectors, including the `vector` library is necessary.
 
@@ -52,7 +54,7 @@ The output of the above code is:
 
 ## Codebyte Example
 
-This codebyte example uses `.front()` to both access and modify the first element of the vector.
+Run the following codebyte example to understand how the `.front` works:
 
 ```codebyte/cpp
 #include <iostream>
