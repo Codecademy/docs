@@ -56,31 +56,70 @@ Given table_1 contains this data:
 | 1 | 11/16/2001 | Jolly Old Chap |
 | 2 | 1/12/2000 | Jolly Young Chap |
 ```sql
---Create a savepoint
-SAVEPOINT theBeginning
 --Fix Young Chap's birthday to be younger than Old Chap
 UPDATE table_1
     SET dob = "1/21/2024";
 SELECT * FROM table_1;
 ```
-This prints the following:
+This gives the following:
 | id | dob | name |
 | --- | --- | --- |
 | 1 | 1/21/2024 | Jolly Old Chap |
 | 2 | 1/21/2024 | Jolly Young Chap |
 
 Oops! We accidentally set everyone's birthday to 1/21/2024!
-Let's rollback to our savepoint and try again.
 ```sql
-ROLLBACK TO SAVEPOINT theBeginning;
+--Rollback the transaction
+ROLLBACK;
+--Try again, adding WHERE statement to update the correct chap
 UPDATE table_1
     SET dob = "1/21/2024"
     WHERE id = 2;
 SELECT * FROM table_1;
 ```
 
-This prints the following:
+This gives the following:
 | id | dob | name |
 | --- | --- | --- |
 | 1 | 11/16/2001 | Jolly Old Chap |
-| 2 | 1/12/2024 | Jolly Young Chap |
+| 2 | 1/21/2024 | Jolly Young Chap |
+
+You get a request to add another chap.
+```sql
+--Create a savepoint, in case we make another error
+SAVEPOINT first;
+
+--Add new chap
+INSERT INTO table_1 (name,dob)
+  VALUES ("Jolly Medium Chap","3/22/2012");
+SELECT name FROM table_1 WHERE id=3;
+
+--gives "Jolly Medium Chap"
+
+--Create new savepoint
+SAVEPOINT second;
+
+--Change name
+UPDATE table_1
+  SET name = "Jolly Rancher"
+  WHERE id=3;
+SELECT name FROM table_1 WHERE id=3;
+
+--gives "Jolly Rancher"
+
+--Hmm...the original name was better. Let's rollback.
+ROLLBACK TO SAVEPOINT second;
+SELECT name FROM table_1 WHERE id=3;
+
+--gives "Jolly Medium Chap"
+
+--But what is medium age anyway? Let's just go back to our save with just two chaps.
+ROLLBACK TO SAVEPOINT first;
+SELECT * FROM table_1;
+
+```
+This would get us back to the table below:
+| id | dob | name |
+| --- | --- | --- |
+| 1 | 11/16/2001 | Jolly Old Chap |
+| 2 | 1/21/2024 | Jolly Young Chap |
