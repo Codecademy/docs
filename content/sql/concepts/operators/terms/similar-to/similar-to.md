@@ -1,15 +1,15 @@
 ---
-Title: 'SIMILAR TO' 
+Title: 'SIMILAR TO'
 Description: 'Similar to `LIKE` operator in SQL'
-Subjects: 
+Subjects:
   - 'Data Science'
   - 'Computer Science'
-Tags: 
+Tags:
   - 'Operators'
   - 'Database'
   - 'Queries'
   - 'PostgreSQL'
-CatalogContent: 
+CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
 ---
@@ -30,7 +30,6 @@ The `pattern` here constitutes a string that includes the following wildcards:
 
 - `%` Matches zero or more arbitrary characters.
 - `_` Matches exactly one arbitrary character.
-
 
 ## Example 1
 
@@ -57,6 +56,7 @@ SELECT *
 FROM employees
 WHERE name SIMILAR TO '(John|Jane)%';
 ```
+
 Explanation:
 
 - `(John|Jane)`: The name must start with either "John" or "Jane".
@@ -74,6 +74,7 @@ SELECT *
 FROM employees
 WHERE name SIMILAR TO '(John|Jane)_[A-Z].%';
 ```
+
 Explanation:
 
 - `(John|Jane)`: The name must start with either "John" or "Jane".
