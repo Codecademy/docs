@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-**Stochastic Gradient Descent** (SGD) is one of the optimization algorithms. It is varient of gradient descent optimizer. The SGD minimize the loss function of machine learning algorithms and deep learning algorithms during backpropogation to update the weight and bias in Artificial Neural Networks. 
+**Stochastic Gradient Descent** (SGD) is a optimization algorithm. It is variant of gradient descent optimizer. The SGD minimize the loss function of machine learning algorithms and deep learning algorithms during backpropagation to update the weight and bias in Artificial Neural Networks. 
 
 The term stochastic mean randomness on which algorithm based upon. In this algorithm instead of taking whole dataset like grdient descent we take single randomly selected data point or small batch of data.suppose if the data set contains 500 rows SGD update the model parameters 500 times in one cycle or one epoch.
 
@@ -43,8 +43,8 @@ Where:
 - ∇J(θ;xi,yi)  is the gradient of the cost or loss function J with respect to the model parameter θ, computed based on a single training sample (xi,yi).
 
 ## Advantages
-- **Faster convergence:** SGD updates parameters more frequently that hence it takes less time to converge especially for large datasets.
-- **Reduced Computation Time:** SDD takes only subset of dataset or batch for each updates. This make it easy to handle large datasets and compute faster.
+- **Faster convergence:** SGD updates parameters more frequently hence it takes less time to converge especially for large datasets.
+- **Reduced Computation Time:** SDD takes only subset of dataset or batch for each update. This makes it easy to handle large datasets and compute faster.
 - **Avoid Local Minima:** The noise introduced by updating parameters with individual data points or small batches can help escape local minima.This can potentially lead to better solutions in complex, non-convex optimization problems.
 - **Online Learning:** SGD can be used in scenarios where data is arriving sequentially (online learning).- It allows models to be updated continuously as new data comes in.
 
