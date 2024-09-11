@@ -26,7 +26,7 @@ math.fabs(n)
 
 ## Example
 
-Below is an example of `math.fabs()` to return the fabs of the given value:
+Below is an example of `math.fabs()` to return the floating-point absolute of the given value:
 
 ```py
 import math
