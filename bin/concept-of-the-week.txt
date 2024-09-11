@@ -1,1 +1,1 @@
-content/general/concepts/routing/routing.md
+content/typescript/concepts/assignability/assignability.md
