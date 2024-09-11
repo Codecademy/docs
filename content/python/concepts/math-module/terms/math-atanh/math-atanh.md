@@ -20,14 +20,14 @@ In Python, the **`math.atanh()`** function returns the inverse hyperbolic tangen
 math.atanh(x)
 ```
 
-Since it is used to reverse the effect of a hyperbolic tangent function, the parameter `x` is always a number between -0.99 and 0.99. A `ValueError` will occur if:
+Since it is used to reverse the effect of a hyperbolic tangent function, the parameter `x` must always a number between -0.99 and 0.99. A `ValueError` will occur if:
 
 - `x` is greater than or equal to 1.
 - `x` is less than or equal to -1.
 
 ## Example
 
-The following example shows the use of the `.atanh()`:
+The following example shows the use of the `math.atanh()`:
 
 ```py
 import math
@@ -45,7 +45,7 @@ Inverse hyperbolic tangent of 0.5 = 0.5493061443340549
 
 ## Codebyte Example
 
-Run the following code to understand how the `.atanh()` function works:
+Run the following code to understand how the `math.atanh()` function works:
 
 ```codebyte/python
 import math
