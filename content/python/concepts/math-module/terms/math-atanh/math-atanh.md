@@ -1,5 +1,5 @@
 ---
-Title: '.atanh()'
+Title: 'math.atanh()'
 Description: 'Returns the inverse hyperbolic tangent of a number.'
 Subjects:
   - 'Computer Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.atanh()`** returns the inverse hyperbolic tangent of a number.
+In Python, the **`math.atanh()`** function returns the inverse hyperbolic tangent of a number.
 
 ## Syntax
 
@@ -20,7 +20,7 @@ The **`.atanh()`** returns the inverse hyperbolic tangent of a number.
 math.atanh(x)
 ```
 
-Since it is used to reverse the effect of a hyperbolic tangent function, the parameter `x` is always a number between -1 and 1. A `ValueError` will occur if:
+Since it is used to reverse the effect of a hyperbolic tangent function, the parameter `x` is always a number between -0.99 and 0.99. A `ValueError` will occur if:
 
 - `x` is greater than or equal to 1.
 - `x` is less than or equal to -1.
@@ -29,7 +29,7 @@ Since it is used to reverse the effect of a hyperbolic tangent function, the par
 
 The following example shows the use of the `.atanh()`:
 
-```python
+```py
 import math
 
 x = 0.5
@@ -50,11 +50,8 @@ Run the following code to understand how the `.atanh()` function works:
 ```codebyte/python
 import math
 
-# Compute the inverse hyperbolic tangent of -0.3
 print(math.atanh(-0.3))
 
-
-# Signal compression and reconstruction example
 output_signal_amplitude = 0.7
 input_signal_amplitude = math.atanh(output_signal_amplitude)
 print("Input Signal's Amplitude = ", input_signal_amplitude)
