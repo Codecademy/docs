@@ -67,7 +67,7 @@ This gives the following:
 | 1 | 1/21/2024 | Jolly Old Chap |
 | 2 | 1/21/2024 | Jolly Young Chap |
 
-Oops! We accidentally set everyone's birthday to 1/21/2024!
+Oops! you accidentally set everyone's birthday to 1/21/2024!
 ```sql
 --Rollback the transaction
 ROLLBACK;
@@ -86,7 +86,7 @@ This gives the following:
 
 You get a request to add another chap.
 ```sql
---Create a savepoint, in case we make another error
+--Create a savepoint, in case you make another error
 SAVEPOINT first;
 
 --Add new chap
@@ -107,18 +107,18 @@ SELECT name FROM table_1 WHERE id=3;
 
 --gives "Jolly Rancher"
 
---Hmm...the original name was better. Let's rollback.
+--Hmm...the original name was better. Go ahead and rollback.
 ROLLBACK TO SAVEPOINT second;
 SELECT name FROM table_1 WHERE id=3;
 
 --gives "Jolly Medium Chap"
 
---But what is medium age anyway? Let's just go back to our save with just two chaps.
+--But what is medium age anyway? Just go back to your save with just two chaps.
 ROLLBACK TO SAVEPOINT first;
 SELECT * FROM table_1;
 
 ```
-This would get us back to the table below:
+This would get you back to the table below:
 | id | dob | name |
 | --- | --- | --- |
 | 1 | 11/16/2001 | Jolly Old Chap |
