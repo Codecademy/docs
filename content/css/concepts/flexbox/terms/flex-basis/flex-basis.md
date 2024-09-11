@@ -30,7 +30,7 @@ The `<flex-value>` can be any of the following:
 - Pixel value: `300px`
 - Percent value: `25%`
 
-## Example 1
+## Example
 
 An image that has a starting width of 200 pixels:
 
@@ -45,3 +45,7 @@ An image that has a starting width of 200 pixels:
   flex-basis: 200px;
 }
 ```
+
+The output of the above code block is shown below:
+
+![Image demonstrates the use of 200px flex-basis on #img_one alongside other images in the flex container with default properties.](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-flex-basis-example-output.png)
