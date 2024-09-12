@@ -1,7 +1,6 @@
 ---
 Title: '.values'
-
-Description: '.value is used to loop through a collection of values within a dictionary.'
+Description: 'Returns a collection containing all the values of the dictionary.'
 Subjects:
   - 'Computer Science'
   - 'iOS'
@@ -15,7 +14,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.Values`** method is used to loop through a stored collection of values within a key-value dictionary. 
+The **`.values`** property in Swift is used to access a collection of all the values stored in a key-value dictionary.
 
 ## Syntax
 
@@ -44,4 +43,3 @@ print(worldCupWinners.values)
 ```
 
 > **Note:** The print-out of the values will be in a random order. 
-
