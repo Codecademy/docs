@@ -25,7 +25,7 @@ torch.sum(input, *, dtype=None)
 ```
 
 - `input`: The input tensor.
-- `dtype` (optional): The data type of the output tensor.
+- `dtype` (Optional): The data type of the output tensor.
 
 To calculate the sum along specific dimensions, the following syntax is used:
 
@@ -34,15 +34,15 @@ torch.sum(input, *, dim=None, keepdim=False, out=None)
 ```
 
 - `input`: The input tensor.
-- `dim` (optional): Specifies the dimension(s) along which the sum is computed. If not specified, the sum is computed over all elements.
-- `keepdim` (optional): If set to `True`, the output tensor retains dimensions of size one for the reduced dimensions. The default is `False`.
-- `out` (optional): A tensor to store the output into. If not provided, a new tensor is created.
+- `dim` (Optional): Specifies the dimension(s) along which the sum is computed. If not specified, the sum is computed over all elements.
+- `keepdim` (Optional): If set to `True`, the output tensor retains dimensions of size _1_ for the reduced dimensions. The default is `False`.
+- `out` (Optional): A tensor to store the output into. If not provided, a new tensor is created.
 
 ## Example 1
 
-In this example, the sum of all elements in the input tensor `[[1, 2], [3, 4]]` is computed, resulting in a tensor with a single element `10`. The sum is calculated as `1 + 2 + 3 + 4 = 10`.
+In this example, the sum of all elements in the input tensor `[[1, 2], [3, 4]]` is computed, resulting in a tensor with a single element `10`. The sum is calculated as `1 + 2 + 3 + 4 = 10`:
 
-```python
+```py
 import torch
 
 # Create a tensor
@@ -62,9 +62,9 @@ tensor(10)
 
 ## Example 2
 
-In this example, the sum is computed along the columns of the input tensor `[[1, 2], [3, 4]]`, resulting in a tensor with two elements `[4, 6]`. The sum along the columns is calculated as `[1 + 3, 2 + 4] = [4, 6]`.
+In this example, the sum is computed along the columns of the input tensor `[[1, 2], [3, 4]]`, resulting in a tensor with two elements `[4, 6]`. The sum along the columns is calculated as `[1 + 3, 2 + 4] = [4, 6]`:
 
-```python
+```py
 import torch
 
 # Create a tensor
