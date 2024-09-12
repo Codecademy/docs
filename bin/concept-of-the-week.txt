@@ -1,1 +1,1 @@
-content/d3/concepts/interactivity/interactivity.md
+content/typescript/concepts/assignability/assignability.md

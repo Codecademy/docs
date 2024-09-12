@@ -38,15 +38,17 @@ String interpolation is the process of evaluating string literals containing one
 let age = 7;
 
 // String concatenation
-'Tommy is ' + age + ' years old.';
+console.log('Tommy is ' + age + ' years old.');
+// Output: Tommy is 7 years old.
 
 // String interpolation
-`Tommy is ${age} years old.`;
+console.log(`Tommy is ${age} years old.`);
+// Output: Tommy is 7 years old.
 ```
 
 ## Escaping Characters
 
-On occasion in may be necessary to include characters in a string that may have reserved meanings or to apply additional formatting. Characters, such as quotes, can be included by prepending a `\`. There are a number of predefined escape sequences such as `\n` or `\t` to add formatting such as a line break or tab respectively.
+On occasion, it may be necessary to include characters in a string that may have reserved meanings or to apply additional formatting. Characters, such as quotes, can be included by prepending a `\`. There are a number of predefined escape sequences such as `\n` or `\t` to add formatting such as a line break or tab respectively:
 
 ```js
 // Line break
@@ -55,7 +57,24 @@ console.log('Hello\nWorld');
 // Hello
 // World
 
-// Escaping a quote
-console.log("Wayne's World");
-// Output: Wayne's World
+// Including quotes
+console.log('"Wayne\'s World"');
+// Output: "Wayne's World"
+```
+
+## Codebyte Example
+
+The following codebyte example demonstrates how the above concepts work:
+
+```codebyte/javascript
+let year = '2024';
+let sport = 'soccer';
+let displayText = 'In ' + year + ', the sport ' + sport + ' is going to be played in the Olympics.';
+console.log(displayText);
+
+let Mary = 'Mary';
+let Joe = 'Joe';
+console.log(`${Mary} has the bananas and ${Joe} has the apples.`);
+
+console.log('Hello\tWorld');
 ```
