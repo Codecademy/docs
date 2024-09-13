@@ -16,7 +16,9 @@ The **math.atan()** returns the inverse tangent where the result will coincide w
 
 ## Syntax
 
-[Text, code, images, parameters, etc. about the syntax]
+```pseudo
+math.atan(n)
+```
 
 ## Example
 
