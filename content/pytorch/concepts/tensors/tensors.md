@@ -135,7 +135,7 @@ This results in the following output:
 
 ```shell
 tensor([[ True, False],
-        [False, False]]) 
+        [False, False]])
 
 tensor([[3, 0],
         [2, 1]], dtype=torch.int16)
