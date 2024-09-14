@@ -1,20 +1,18 @@
 ---
-Title: 'ADAM Optimization'
+Title: 'Adam Optimization'
 Description: 'Adam is optimization algorithms that compute adaptive learning rates for each parameter basically is combination of SGD with momentum and RMSprop and also consider extension of AdaDelta.'
 Subjects:
   - 'Machine Learning'
-  - 'Deep Learning'
   - 'Computer Science'
 Tags:
   - 'AI'
   - 'Neural Network'
-  - 'Optimizer'
 CatalogContent:
   - 'paths/computer-science'
   - 'paths/data-science'
 ---
 
-**Adam** (Adaptive Moment Estimation) is a popular optimization algorithm frequently used in deep learning. It Combine the momentum techiques from Stochastic Geadient Desent (SGD) and the adaptive learning rate of RMSprop (Root Mean Square Propagation). It is also cossidered as extension of AdaDelta becuase it refine the learning rate adjusted per parameters.
+**Adam** (Adaptive Moment Estimation) is a popular optimization algorithm frequently used in deep learning. It combines the momentum techniques from stochastic gradient descent (SGD) and the adaptive learning rate of RMSprop (Root Mean Square Propagation). It is also considered an extension of AdaDelta because it refines the learning rate adjusted per parameter.
 
 It adapts the learning rate for each parameter, making the training process faster and more efficient, especially for large datasets. Adam's ability to handle sparse gradients and adapt dynamically to different scenarios makes it highly efficient for training deep neural networks.
 
