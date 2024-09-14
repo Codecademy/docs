@@ -1,18 +1,18 @@
 ---
-Title: 'math.atan()' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'Returns the inverse tangent where the result will coincide whithin -π/2 and π/2 radians.' # Required; ideally under 150 characters and starts with a present-tense verb (used in search engine results and content previews)
-Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
+Title: 'math.atan()'
+Description: 'Returns the inverse tangent of a number.'
+Subjects:
   - 'Computer Science'
   - 'Data Science'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
+Tags: 
   - 'Functions'
   - 'Arithmetic'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+CatalogContent: 
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-The **math.atan()** returns the inverse tangent where the result will coincide whithin -π/2 and π/2 radians.
+The **`math.atan()`** returns the inverse tangent of a number.
 
 ## Syntax
 
@@ -20,25 +20,31 @@ The **math.atan()** returns the inverse tangent where the result will coincide w
 math.atan(n)
 ```
 
+The `math.atan()` function returns the inverse tangent where the result will coincide whithin -π/2 and π/2 radians (the angle), which represents the inverse tangent or arctangent of the value `n`.
+
 ## Example
 
-[Text, code, images, etc. about example 1]
+Use `math.atan()` to return the arctangent of a slope of `1` in radians:
 
-## Codebyte Example (if applicable)
+```py
+import math
 
-We can currently support:
-
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
-
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
-
-```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
+print(math.atan(1))
 ```
+
+
+The above code gives the following output:
+
+```shell
+0.7853981633974483
+```
+## Codebyte Example
+
+Run the following example that uses the `math.atan()` function to understand its working:
+
+```codebyte/python
+import math
+
+print("The arc tangent of sqrt(3) is ", math.atan(math.sqrt(3)))
+```
+
