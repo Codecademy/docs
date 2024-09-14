@@ -1,22 +1,20 @@
 ---
-Title: 'Stochastic Gradient Desent'
-Description: 'Stochastic Gradient Desent is optimizer algorithm that minimizes the loss functions in machine learning and deep learning models.'
+Title: 'Stochastic Gradient Descent'
+Description: 'Stochastic Gradient Descent is an optimizer algorithm that minimizes the loss functions in machine learning and deep learning models.'
 Subjects:
   - 'Machine Learning'
-  - 'Deep Learning'
   - 'Computer Science'
 Tags:
   - 'AI'
   - 'Neural Network'
-  - 'Optimizer'
 CatalogContent:
   - 'paths/computer-science'
   - 'paths/data-science'
 ---
 
-**Stochastic Gradient Descent** (SGD) is a optimization algorithm. It is variant of gradient descent optimizer. The SGD minimize the loss function of machine learning algorithms and deep learning algorithms during backpropagation to update the weight and bias in Artificial Neural Networks. 
+**Stochastic Gradient Descent** (SGD) is an optimization algorithm. It is variant of gradient descent optimizer. The SGD minimizes the loss function of machine learning algorithms and deep learning algorithms during backpropagation to update the weights and biases in Artificial Neural Networks. 
 
-The term stochastic mean randomness on which algorithm based upon. In this algorithm instead of taking whole dataset like grdient descent we take single randomly selected data point or small batch of data.suppose if the data set contains 500 rows SGD update the model parameters 500 times in one cycle or one epoch.
+The term `stochastic` means randomness on which the algorithm is based. In this algorithm, instead of taking whole datasets like `gradient descent`, we take single randomly selected data points or small batches of data. Suppose if the data set contains 500 rows SGD updates the model parameters 500 times in one cycle or one epoch.
 
 This approach significantly reduces computation time, especially for large datasets, making SGD faster and more scalable.SGD is used for training models like neural networks, support vector machines (SVMs), and logistic regression. However, it introduces more noise into the learning process, which can lead to less stable convergence but also helps escape local minima, making it suitable for non-convex problems. 
 
@@ -33,7 +31,7 @@ This approach significantly reduces computation time, especially for large datas
 ## Formula 
 
 $$ 
-\large \theta = \theta - \alpha  * \nabla J((\theta ; x_iy_i))
+\large \theta = \theta - \alpha  \cdot  \nabla J(\theta ; x_i, y_i)
 $$
 
 Where:
@@ -44,7 +42,7 @@ Where:
 
 ## Advantages
 - **Faster convergence:** SGD updates parameters more frequently hence it takes less time to converge especially for large datasets.
-- **Reduced Computation Time:** SDD takes only subset of dataset or batch for each update. This makes it easy to handle large datasets and compute faster.
+- **Reduced Computation Time:** SGD takes only a subset of dataset or batch for each update. This makes it easy to handle large datasets and compute faster.
 - **Avoid Local Minima:** The noise introduced by updating parameters with individual data points or small batches can help escape local minima.This can potentially lead to better solutions in complex, non-convex optimization problems.
 - **Online Learning:** SGD can be used in scenarios where data is arriving sequentially (online learning).- It allows models to be updated continuously as new data comes in.
 
@@ -57,5 +55,52 @@ Where:
 - Shuffle data before training 
 - Use mini batches(batch size 32)
 - Normalize input
-- Choose suitable learning rate (0.01)
+- Choose a suitable learning rate (0.01)
 
+## Syntax
+- Learning Rate (α): A hyperparameter that controls the size of the update step.
+- Number of Iterations: The number of times the algorithm will iterate over the dataset.
+- Loss Function: The function that measures the error of the model predictions.
+- Gradient Calculation: The method for computing gradients based on the loss function.
+
+## Example
+
+Here’s a Python code snippet demonstrating how to implement SGD for linear regression:
+
+```codebyte/python
+import numpy as np
+
+# Generate synthetic data
+np.random.seed(42)
+X = 2 * np.random.rand(100, 1)
+y = 4 + 3 * X + np.random.randn(100, 1)
+
+# Initialize parameters
+m, n = X.shape
+theta = np.random.randn(n, 1)  # Initial weights
+learning_rate = 0.01
+n_iterations = 1000
+
+# Stochastic Gradient Descent function
+def stochastic_gradient_descent(X, y, theta, learning_rate, n_iterations):
+    m = len(y)
+    for iteration in range(n_iterations):
+        # Shuffle the data
+        indices = np.random.permutation(m)
+        X_shuffled = X[indices]
+        y_shuffled = y[indices]
+        
+        # Update weights for each sample
+        for i in range(m):
+            xi = X_shuffled[i:i+1]
+            yi = y_shuffled[i:i+1]
+            gradient = 2 * xi.T.dot(xi.dot(theta) - yi)
+            theta -= learning_rate * gradient
+            
+    return theta
+
+# Perform SGD
+theta_final = stochastic_gradient_descent(X, y, theta, learning_rate, n_iterations)
+
+print("Optimized weights:", theta_final)
+```
