@@ -20,7 +20,7 @@ The **`math.atan()`** returns the inverse tangent of a number.
 math.atan(n)
 ```
 
-The `math.atan()` function returns the inverse tangent where the result will coincide whithin -π/2 and π/2 radians (the angle), which represents the inverse tangent or arctangent of the value `n`.
+The `math.atan()` function returns the inverse tangent where the result will coincide whithin -π/2 and π/2 radians (the angle), representing the inverse tangent or arctangent of the value `n`.
 
 ## Example
 
