@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.removeRange()` method removes all elements inside a specified range from an instance of the `ArrayList` class.
+The **`.removeRange()`** method removes all elements inside a specified range from an instance of the `ArrayList` class.
 
 ## Syntax
 
