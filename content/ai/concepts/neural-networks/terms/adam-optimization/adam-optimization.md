@@ -1,6 +1,6 @@
 ---
 Title: 'Adam Optimization'
-Description: 'Adam is optimization algorithms that compute adaptive learning rates for each parameter basically is combination of SGD with momentum and RMSprop and also consider extension of AdaDelta.'
+Description: 'Adam is an optimization algorithm that computes adaptive learning rates for each parameter basically is combination of SGD with momentum and RMSprop and also considers an extension of AdaDelta.'
 Subjects:
   - 'Machine Learning'
   - 'Computer Science'
