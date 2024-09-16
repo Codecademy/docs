@@ -21,13 +21,12 @@ The SQL **`rollback`** command undoes work performed in the current **`transacti
 
 > **Note:** For info on how to start and commit a transaction, see the [MySQL documentation](https://dev.mysql.com/doc/refman/8.4/en/commit.html).
 
-Therefore, the rollback procedure allows a user to reset the work to a previous point without applying these statements to the database.
+Therefore, the rollback procedure allows a user to undo the work to a previous point without applying these statements to the database.
 
 ## Syntax
 
 ```sql
-ROLLBACK [WORK] CLAUSE;
-```
+ROLLBACK [WORK] [TO SAVEPOINT savepoint_name];
 
 | CLAUSE                      | Description                                                                                                                                                                                 |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -52,7 +51,7 @@ ROLLBACK [WORK] TO SAVEPOINT savepoint_name;
 ```
 
 > [!CAUTION]  
-> Certain statements cannot be rolled back once performed, such as creating, dropping, or altering tables and databases. For more info see the [MySQL documentation](https://dev.mysql.com/doc/refman/8.4/en/cannot-roll-back.html).
+> **Note:** Certain statements cannot be rolled back once performed, such as creating, dropping, or altering tables and databases. For more info see the [MySQL documentation](https://dev.mysql.com/doc/refman/8.4/en/cannot-roll-back.html).
 
 ## Example
 
@@ -82,10 +81,9 @@ Oops! you accidentally set everyone's birthday to 1/21/2024!
 ROLLBACK;
 --Try again, adding WHERE statement to update the correct chap
 UPDATE table_1
-    SET dob = "1/21/2024"
-    WHERE id = 2;
+SET dob = "1/21/2024"
+WHERE id = 2;
 SELECT * FROM table_1;
-```
 
 This gives the following:
 | id | dob | name |
