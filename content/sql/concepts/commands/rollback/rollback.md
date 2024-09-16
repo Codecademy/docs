@@ -17,7 +17,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-The SQL **rollback** command undoes work performed in the current **transaction** to a **savepoint** or to the last **commit** to the database. An SQL transaction is a series of one or more SQL statements in the current session.
+The SQL **`rollback`** command undoes work performed in the current **`transaction`** to a **`savepoint`** or to the last **`commit`** to the database. An SQL transaction is a series of one or more SQL statements in the current session.
 
 > **Note:** For info on how to start and commit a transaction, see the [MySQL documentation](https://dev.mysql.com/doc/refman/8.4/en/commit.html).
 
