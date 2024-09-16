@@ -27,7 +27,6 @@ PostgreSQL offers the following aggregate functions:
 - `SUM()`: Computes the sum of all the input values.
 - `COUNT()`: Computes the number of input rows.
 - `AVG()`: Computes the average of all the input values.
-- `HAVING()`: Filters groups on a condition applied after the GROUP BY clause.
 
 ## Syntax
 
@@ -84,7 +83,7 @@ SELECT AVG(Quantity * Cost) AS Average_Spent FROM sales;
 
 This query finds the average amount spent per sale in the `sales` table by calculating the product of the `Quantity` and `Cost` columns for each sale. Then, it finds the average of all the calculated values.
 
-## Example
+## Examples
 
 Here is an example that demonstrates the usage of aggregate functions:
 
@@ -107,7 +106,7 @@ This is the output of the above query:
 | Isujah   | 130000      |
 | Zion     | 750000      |
 
-### HAVING
+Here is another example that shows the use of aggregate functions:
 
 ```sql
 SELECT Customer, SUM(Quantity * Cost) AS Total_Spent
@@ -116,8 +115,7 @@ GROUP BY Customer
 HAVING SUM(Quantity * Cost) > 140000;
 ```
 
-This query is a modified version of the example query. 
-It uses the HAVING clause to filter the results, showing only customers who spent over 140,000
+This query filters the results by showing only those customers who spent over 1,40,000.
 
 This is the output of the above query:
 
