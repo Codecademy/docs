@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`math.cosh()`** method returns the hyperbolic cosine of a number.
+The **`math.cosh()`** method returns the hyperbolic cosine of a number. This method is equivalent to _(exp(number) + exp(-number)) / 2_.
 
 ## Syntax
 
@@ -20,9 +20,9 @@ The **`math.cosh()`** method returns the hyperbolic cosine of a number.
 math.cosh(x)
 ```
 
-The `math.cosh()` method is equivalent to _(exp(number) + exp(-number)) / 2_.
+Input `x` is a numeric value to find the hyperbolic cosine of. If the value is not a number, it returns a `TypeError: must be real number`.
 
-## Example
+## Example 1
 
 Use `math.cosh()` to return the hyperbolic cosine of integer `1`:
 
@@ -37,6 +37,8 @@ The above code gives the following output:
 ```shell
 1.5430806348152437
 ```
+
+## Example 2
 
 Use `math.cosh()` to return the hyperbolic cosine of the float `8.9`:
 
