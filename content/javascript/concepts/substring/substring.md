@@ -68,3 +68,17 @@ const str = 'Codecademy';
 console.log(str.substring(str.length - 6));
 // Output: cademy
 ```
+
+## Codebyte Example
+
+Run the following code to understand how the `.substring()` method works:
+
+```codebyte/javascript
+const sentence = 'Hello, world!';
+
+const greeting = sentence.substring(0, 5);
+const exclamation = sentence.substring(7, 12);
+
+console.log(greeting);
+console.log(exclamation);
+```
