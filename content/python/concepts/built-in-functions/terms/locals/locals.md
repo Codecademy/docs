@@ -15,7 +15,7 @@ Catalog-content:
 
 ---
 
-The `locals()`function returns a dictionary with all the data necessary to run the program.
+The **`locals()`** built-in function in Python returns a dictionary containing the current local symbol table, which maps variable names to their values in the current scope.
 
 ## Syntax
 
