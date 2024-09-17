@@ -1,12 +1,12 @@
 ---
 Title: 'math.erfc()'
 Description: 'Finds the complementary error function of a number.'
-Subjects: 
+Subjects:
   - 'Computer Science'
   - 'Data Science'
-Tags: 
-  - 'Math'
+Tags:
   - 'Functions'
+  - 'Math'
   - 'Numbers'
   - 'Values'
 CatalogContent:
@@ -50,7 +50,7 @@ The above example produces the following output:
 
 ## Codebyte Example
 
-The following codebyte example demonstrates how the `math.erfc()` function works:
+The following codebyte example demonstrates how the `math.erfc()` method works:
 
 ```codebyte/python
 import math
