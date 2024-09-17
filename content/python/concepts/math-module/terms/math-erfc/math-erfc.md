@@ -53,7 +53,6 @@ The above example produces the following output:
 The following codebyte example demonstrates how the `math.erfc()` function works:
 
 ```codebyte/python
-
 import math
 
 print(math.erfc(0))
