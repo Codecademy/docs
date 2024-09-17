@@ -22,6 +22,23 @@ console.log(currency + userIncome + ' is more than the average income.');
 // Output: $85000 is more than the average income.
 ```
 
+```js
+let name = "John";
+let age = 25;
+let city = "Berlin";
+
+// Using the variables multiple times in the program
+console.log("Name: " + name);
+// Output: Name: John
+console.log("Age: " + age);
+//Output: Age: 25
+console.log("City: " + city);
+//Output: City: Berlin
+
+// Reusing the variables
+console.log(name + " is " + age + " years old and lives in " + city + ".");
+```
+
 ## Declaring a Variable
 
 To declare a variable in JavaScript, any of these three keywords can be used along with a variable name:
@@ -36,6 +53,34 @@ let weight;
 const numberOfFingers = 20;
 ```
 
+```js
+// Using `var`
+var animal = "giraffe";
+console.log(animal);
+//Output: giraffe
+
+animal = "elephant";
+console.log(animal);
+// Output: elephant
+
+// Using `let`
+let spaceship = "Falcon";
+console.log(spaceship);
+//Output: Falcon
+
+spaceship = "Starship";
+console.log(spaceship);
+//Output: Starship
+
+//Using `const`
+const favoritePlanet = "Earth";
+console.log(favoritePlanet);
+//Output: Earth
+
+favoritePlanet = "Mars";
+// Error! The variable "favoritePlanet" cannot be changed because it is a const.
+```
+
 ## Dynamic Typing
 
 Unlike many programming languages, JavaScript doesn't require the user to specify a variable's [data type](https://www.codecademy.com/resources/docs/javascript/data-types). It assumes the data type based on the value. The example below assigns a string to a variable by enclosing some numbers in single quotation marks. Without them, JavaScript reads the value as a number.
@@ -43,6 +88,14 @@ Unlike many programming languages, JavaScript doesn't require the user to specif
 ```js
 let movieTitle = '300'; // String
 let audienceNumber = 300; // Number
+```
+
+```js
+let magicNumber = "42";
+// The variable is a "string"
+
+magicNumber = 42;
+//Now the variable is a "number"
 ```
 
 ## Video Walkthrough
