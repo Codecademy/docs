@@ -38,7 +38,7 @@ petAges1.merge(petAges2)
 print(petAges1)
 ```
 
-Output:
+The above code produces the following output:
 
 ```shell
 ["Aurora": 10, "Jodi": 8, "Benny": 12]
