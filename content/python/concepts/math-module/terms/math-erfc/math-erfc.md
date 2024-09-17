@@ -48,8 +48,7 @@ The above example produces the following output:
 
 > Note: If the input value is not a real number, a `TypeError` is raised.
 
-
-## Codebyte Example:
+## Codebyte Example
 
 The following codebyte example demonstrates how the `math.erfc()` function works:
 
