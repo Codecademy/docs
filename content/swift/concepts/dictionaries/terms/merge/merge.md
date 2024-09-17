@@ -30,14 +30,12 @@ dictionary1.merge(dictionary2)
 In the example below, two dictionaries are merged. The key `Jodi` is found in both dictionaries and the value from `petAges2` is used. The key `Benny` only exists in `petAges2`, so it is added to the resulting dictionary:
 
 ```swift
-
 var petAges1 = ["Aurora": 10, "Jodi": 7] 
 var petAges2 = ["Jodi": 8, "Benny": 12]  
 
 petAges1.merge(petAges2)
 
 print(petAges1)
-
 ```
 
 Output:
