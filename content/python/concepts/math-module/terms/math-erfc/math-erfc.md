@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **math.erfc()** method returns the complementary error function of a number. This method accepts a value between - inf and + inf, and returns a value between 0 and 2.
+The **`math.erfc()`** method returns the complementary error [function](https://www.codecademy.com/resources/docs/python/functions) of a number. This method accepts a value between _-inf_ and _+inf_ and returns a floating-point value between _0_ and _2_.
 
 ## Syntax
 
