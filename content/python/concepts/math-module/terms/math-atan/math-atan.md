@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`math.atan()`** returns the inverse tangent of a number.
+The **`math.atan()`** returns the arctangent of a number. If the tangent of a number x gives you n, then the arctangent of n gives you the number x. The number n can be is all real numbers. You can think of n as the slope of the line (opposite over adjacent or y/x) and x to be the degrees.
 
 ## Syntax
 
