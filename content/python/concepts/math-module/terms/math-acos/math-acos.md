@@ -8,12 +8,13 @@ Tags:
   - 'Functions'
   - 'Math'
   - 'Trigonometry'
+  - 'Values'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-In Python, the **`math.acos()`** function returns the arc cosine (inverse cosine) of a number, expressed in radians.
+In Python, the **`math.acos()`** [function](https://www.codecademy.com/resources/docs/python/functions) returns the arc cosine (inverse cosine) of a number, expressed in radians.
 
 ## Syntax
 
@@ -23,7 +24,7 @@ math.acos(x)
 
 - `x`: A number between `-1` and `1` representing the cosine value for which the arc cosine is to be calculated.
 
-The `math.acos()` function returns a numeric value in the range [0, π] radians, which represents the inverse cosine of the value `x`.
+The `math.acos()` function returns a numeric value in the range `[0, π]` in radians, which represents the inverse cosine of the value `x`.
 
 ## Example
 
@@ -35,7 +36,7 @@ import math
 print(math.acos(0))
 ```
 
-The above example code gives the following output:
+The above example gives the following output:
 
 ```shell
 1.5707963267948966
@@ -43,7 +44,7 @@ The above example code gives the following output:
 
 ## Codebyte Example
 
-Run the following example that uses the `math.acos()` function to understand its working:
+The following codebyte example shows how the `math.acos()` function works:
 
 ```codebyte/python
 import math
