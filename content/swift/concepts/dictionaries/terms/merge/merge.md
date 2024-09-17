@@ -44,8 +44,8 @@ The above code produces the following output:
 ["Aurora": 10, "Jodi": 8, "Benny": 12]
 ```  
 
-In the output, the key-value pairs from `petAges2` have been merged into `petAges1`. The key `Jodi` has a value of `8`, and the key `Benny` has a value of `12`.  
+In the output, the key-value pairs from `petAges2` have been merged into `petAges1`. The key `Jodi` has a value of `8` and the key `Benny` has a value of `12`.  
 
 The `.merge()` method is useful when you want to combine the key-value pairs of two dictionaries, updating the values of keys that are found in both dictionaries and adding new key-value pairs to the resulting dictionary.  
 
-The `.merge()` method is available in Swift 4.0 and later.
+This method is available in Swift 4.0 and later.
