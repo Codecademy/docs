@@ -1,10 +1,6 @@
 ---
 Title: 'math.erfc()'
-<<<<<<< HEAD
 Description: 'Finds the complementary error function of a number.'
-=======
-Description: 'Finds the complementary error function of a number.' 
->>>>>>> f81fbef67e39942f4b5cae4424ae461201172de5
 Subjects: 
   - 'Computer Science'
   - 'Data Science'
@@ -12,11 +8,7 @@ Tags:
   - 'Math'
   - 'Functions'
   - 'Numbers'
-<<<<<<< HEAD
-  - 'Value'
-=======
   - 'Values'
->>>>>>> f81fbef67e39942f4b5cae4424ae461201172de5
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
@@ -29,14 +21,6 @@ The **`math.erfc()`** method returns the complementary error [function](https://
 ```pseudo
 math.erfc(x)
 ```
-<<<<<<< HEAD
-Parameter Value
-
-- `x`: A required parameter that should be a real number.
-
-The function returns a floating point value which is the value of the error function at x. 
-=======
->>>>>>> f81fbef67e39942f4b5cae4424ae461201172de5
 
 - `x`: A required parameter that should be a real number.
 
@@ -64,10 +48,6 @@ The above example produces the following output:
 
 > Note: If the input value is not a real number, a `TypeError` is raised.
 
-<<<<<<< HEAD
-
-=======
->>>>>>> f81fbef67e39942f4b5cae4424ae461201172de5
 ## Codebyte Example
 
 The following codebyte example demonstrates how the `math.erfc()` function works:
