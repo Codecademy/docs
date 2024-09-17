@@ -1,18 +1,16 @@
 ---
-
 Title: 'locals()'
-Description: 'The `locals()` function returns a dictionary with all the data necessary to run the program.'
+Description: 'Returns a dictionary containing the current local symbol table.'
 Subjects: 
-- 'Devloper tools'
-- 'Computer science'
+- 'Developer Tools'
+- 'Computer Science'
 Tags:
 - 'Dictionary' 
 - 'Metadata' 
 - 'Symbol'
 Catalog-content: 
-- 'learn python 3'
+- 'learn-python 3'
 - 'paths/computer-science'
-
 ---
 
 The **`locals()`** built-in function in Python returns a dictionary containing the current local symbol table, which maps variable names to their values in the current scope.
