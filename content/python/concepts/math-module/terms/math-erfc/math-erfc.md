@@ -29,13 +29,13 @@ math.erfc(x)
 The following example demonstrates the usage of the `math.erfc()` method:
 
 ```py
-# Import math Library
+# Import the 'math' library
 import math
 
-# Print complementary error function for different numbers
-print (math.erfc(0.67))
-print (math.erfc(1.34))
-print (math.erfc(-6))
+# Print the complementary error functions of different numbers
+print(math.erfc(0.67))
+print(math.erfc(1.34))
+print(math.erfc(-6))
 ```
 
 Output:
