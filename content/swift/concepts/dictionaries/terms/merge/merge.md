@@ -25,9 +25,9 @@ dictionary1.merge(dictionary2)
 - `dictionary1`: The dictionary that will be updated with the key-value pairs from `dictionary2`.  
 - `dictionary2`: The dictionary whose key-value pairs will be merged into `dictionary1`.
 
-## Examples
+## Example
 
-In the example below, two dictionaries are merged. The key `Jodi` is found in both dictionaries, and the value from `petAges2` is used. The key `Benny` only exists in `petAges2`, so it is added to the resulting dictionary:
+In the example below, two dictionaries are merged. The key `Jodi` is found in both dictionaries and the value from `petAges2` is used. The key `Benny` only exists in `petAges2`, so it is added to the resulting dictionary:
 
 ```swift
 
