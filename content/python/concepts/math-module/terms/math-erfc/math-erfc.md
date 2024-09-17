@@ -1,12 +1,14 @@
 ---
 Title: 'math.erfc()'
-Description: 'Aims to find the complementary error function of the specified parameter.' 
+Description: 'Finds the complementary error function of a number.' 
 Subjects: 
   - 'Computer Science'
   - 'Data Science'
 Tags: 
   - 'Math'
   - 'Functions'
+  - 'Numbers'
+  - 'Values'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
