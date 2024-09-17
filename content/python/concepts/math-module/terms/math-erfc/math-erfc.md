@@ -38,7 +38,7 @@ print(math.erfc(1.34))
 print(math.erfc(-6))
 ```
 
-Output:
+The above example produces the following output:
 
 ```shell
 0.3433722976996949
