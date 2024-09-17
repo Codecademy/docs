@@ -1,6 +1,6 @@
 ---
 Title: 'math.erfc()'
-Description: 'Finds the complementary error function of a number.' 
+Description: 'Finds the complementary error function of a number.'
 Subjects: 
   - 'Computer Science'
   - 'Data Science'
