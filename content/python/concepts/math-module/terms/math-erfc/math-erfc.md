@@ -46,11 +46,11 @@ The above example produces the following output:
 2.0
 ```
 
-> Note: If the input value is not a real number, a `TypeError` is raised.
+> **Note:** If the input value is not a real number, a `TypeError` is raised.
 
 ## Codebyte Example
 
-The following codebyte example demonstrates how the `math.erfc()` method works:
+Run the following codebyte example to understand how the `math.erfc()` method works:
 
 ```codebyte/python
 import math
