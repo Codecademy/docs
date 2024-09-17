@@ -1,18 +1,20 @@
 ---
 Title: 'math.erfc()'
-Description: 'Aims to find the complementary error function of the specified parameter.' 
+Description: 'Finds the complementary error function of a number.'
 Subjects: 
   - 'Computer Science'
   - 'Data Science'
 Tags: 
   - 'Math'
   - 'Functions'
+  - 'Numbers'
+  - 'Value'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-The **math.erfc()** method returns the complementary error function of a number. This method accepts a value between - inf and + inf, and returns a value between 0 and 2.
+The **`math.erfc()`** method returns the complementary error [function](https://www.codecademy.com/resources/docs/python/functions) of a number. This method accepts a value between _-inf_ and _+inf_ and returns a floating-point value between _0_ and _2_.
 
 ## Syntax
 
@@ -21,24 +23,26 @@ math.erfc(x)
 ```
 Parameter Value
 
-- `x`: Required. Parameter x is a real number.
+- `x`: A required parameter that should be a real number.
 
 The function returns a floating point value which is the value of the error function at x. 
 
 
 ## Example
 
+The following example demonstrates the usage of the `math.erfc()` method:
+
 ```py
-# Import math Library
+# Import the 'math' library
 import math
 
-# Print complementary error function for different numbers
-print (math.erfc(0.67))
-print (math.erfc(1.34))
-print (math.erfc(-6))
+# Print the complementary error functions of different numbers
+print(math.erfc(0.67))
+print(math.erfc(1.34))
+print(math.erfc(-6))
 ```
 
-Output:
+The above example produces the following output:
 
 ```shell
 0.3433722976996949
@@ -49,12 +53,11 @@ Output:
 > Note: If the input value is not a real number, a `TypeError` is raised.
 
 
-## Codebyte Example:
+## Codebyte Example
 
 The following codebyte example demonstrates how the `math.erfc()` function works:
 
 ```codebyte/python
-
 import math
 
 print(math.erfc(0))
