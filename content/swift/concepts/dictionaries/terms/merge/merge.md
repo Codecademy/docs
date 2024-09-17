@@ -22,8 +22,8 @@ The **`.merge()`** method in Swift is used to combine the elements of two dictio
 dictionary1.merge(dictionary2)
 ```
 
-- `dictionary1` is the dictionary that will be updated with the key-value pairs from `dictionary2`.  
-- `dictionary2` is the dictionary whose key-value pairs will be merged into `dictionary1`.
+- `dictionary1`: The dictionary that will be updated with the key-value pairs from `dictionary2`.  
+- `dictionary2`: The dictionary whose key-value pairs will be merged into `dictionary1`.
 
 ## Examples
 
