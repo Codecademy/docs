@@ -1,34 +1,33 @@
 ---
 Title: '.values'
-Description: '.value is used to loop through a collection of values within a dictionary.'
+Description: 'Returns a collection containing all the values of the dictionary.'
 Subjects:
-  - 'Mobile Development'
-  - 'iOS'
   - 'Computer Science'
+  - 'iOS'
+  - 'Mobile Development'
 Tags:
   - 'Dictionary'
-  - 'Properties'
   - 'Methods'
+  - 'Properties'
 CatalogContent:
   - 'learn-swift'
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.Values`** method is used to loop through a stored collection of values within a **key-value dictionary**. 
+The **`.values`** property in Swift is used to access a collection of all the values stored in a key-value dictionary.
 
 ## Syntax
 
+```pseudo
+dictionaryName.values
 ```
-print(dictionaryName.values)
-```
-- `dictionaryName` is the argument for the name of the dictionary you are wanting to pull the values from.
-- `.value` is used to call the collection of values within the dictionary named within the argument,
+- `dictionaryName`: Refers to the dictionary instance from which the values are accessed using the `.values` property.
 
-## Examples
+## Example
 
-// The below code creates a populated dictionary, and then calls only the values of the dictionary to be printed. 
+The code below creates a dictionary with key-value pairs and then uses the `.values` property to print only the values from the dictionary:
 
-```
+```swift
 var worldCupWinners = [
   "Argentine": 2022,
   "France": 2018,
@@ -37,8 +36,10 @@ var worldCupWinners = [
 ]
 
 print(worldCupWinners.values)
-
-// prints : [2010, 2022, 2018, 2014] 
-
-// Note: The print-out of the values will be in a random order. 
 ```
+
+```shell
+// prints : [2010, 2022, 2018, 2014] 
+```
+
+> **Note:** The print-out of the values will be in a random order. 
