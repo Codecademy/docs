@@ -26,6 +26,8 @@ math.erfc(x)
 
 ## Example
 
+The following example demonstrates the usage of the `math.erfc()` method:
+
 ```py
 # Import math Library
 import math
