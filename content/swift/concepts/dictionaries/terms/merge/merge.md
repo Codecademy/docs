@@ -7,6 +7,7 @@ Subjects:
 Tags:
   - 'Dictionary'
   - 'Properties'
+  - 'Methods'
   - 'Arrays'
 CatalogContent:
   - 'learn-swift'
