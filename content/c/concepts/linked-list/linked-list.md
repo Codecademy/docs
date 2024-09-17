@@ -7,8 +7,8 @@ Subjects:
 Tags:
   - 'Data Structures'
   - 'Linked Lists'
-  - 'Pointers'
   - 'Memory'
+  - 'Pointers'
   - 'Variables'
 CatalogContent:
   - 'learn-c'
@@ -37,7 +37,7 @@ A linked list consists of two key components:
 
 There are four types of linked list:
 
-- Singly Linked List
-- Doubly Linked List
-- Circular Linked List
-- Doubly Circular linked list
+- Singly Linked List: Each node points to the next node and the last node points to NULL.
+- Doubly Linked List: Each node has two pointers, one to the next node and one to the previous node.
+- Circular Linked List: The last node points back to the first node, forming a circular structure.
+- Doubly Circular Linked List: Combines the features of both doubly and circular linked lists, where each node has two pointers and the last node points back to the first node, forming a circular structure.
