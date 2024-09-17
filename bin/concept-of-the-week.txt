@@ -1,1 +1,1 @@
-content/general/concepts/data-structures/data-structures.md
+content/ruby/concepts/sets/sets.md

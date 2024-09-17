@@ -52,7 +52,7 @@ Cosine value: 0.7071067811865476
 
 Run the following code to understand how the `.cos()` function works:
 
-```py
+```codebyte/python
 import numpy as np
 
 # Example array of angles in radians
