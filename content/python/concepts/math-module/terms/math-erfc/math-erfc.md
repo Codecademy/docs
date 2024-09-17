@@ -21,12 +21,8 @@ The **`math.erfc()`** method returns the complementary error [function](https://
 ```pseudo
 math.erfc(x)
 ```
-Parameter Value
 
-- `x`: Required. Parameter x is a real number.
-
-The function returns a floating point value which is the value of the error function at x. 
-
+- `x`: A required parameter that should be a real number.
 
 ## Example
 
