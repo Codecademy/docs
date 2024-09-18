@@ -141,7 +141,7 @@ class Library
     return print_r($info);
   }
 
-  // This is our first method; it is simple, just registers a new book and adds it to the array.
+  // This is our second method; it is simple, just registers a new book and adds it to the array.
   public function registerBook(
     string $author,
     string $bookTitle,
