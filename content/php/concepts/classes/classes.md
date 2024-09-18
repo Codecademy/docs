@@ -108,3 +108,50 @@ The `instanceof` operator returns `true` when the operand on the left belongs to
   // Output: It is a Car!
 ?>
 ```
+
+## Codebyte Example
+
+The following code defines a `Library` class with attributes for library details, methods to display library information and register books with associated data. Try executing it:
+
+```codebyte/PHP
+<?php
+class Library
+{
+  private $libraryName;
+  private $ranking;
+  private $country;
+
+  // The constructor to initialize the class
+  public function __construct(string $libraryName, int $ranking, string $country)
+  {
+    $this->libraryName = $libraryName;
+    $this->ranking = $ranking;
+    $this->country = $country;
+  }
+
+  // Method to get information about the library
+  public function getInfoLibrary()
+  {
+    $info = $this->libraryName . ' is the number ' . $this->ranking . ' in the world ranking. Located in ' . $this->country . '.<br><br>';
+    echo $info;
+  }
+
+  // Method to register a new book
+  public function registerBook(string $author, string $bookTitle, int $publishYear)
+  {
+    $portfolio = [
+      'author' => $author,
+      'bookTitle' => $bookTitle,
+      'publishYear' => $publishYear
+    ];
+
+    print_r($portfolio); // print array for debugging or return $portfolio for further use
+  }
+}
+
+// Create a new Library instance and call methods
+$libraryOne = new Library('The British Library', 1, 'United Kingdom');
+$libraryOne->getInfoLibrary();
+$libraryOne->registerBook('J.R.R. Tolkien', 'The Silmarillion', 1977);
+?>
+```
