@@ -7,6 +7,8 @@ Subjects:
 Tags:
   - 'Arithmetic'
   - 'Functions'
+  - 'Methods'
+  - 'Values'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
@@ -43,7 +45,7 @@ The above code gives the following output:
 
 ## Codebyte Example
 
-Run the following codebyte example to understand how the `math.atan2()` function works:
+The following codebyte example demonstrates how the `math.atan2()` function works:
 
 ```codebyte/python
 import math
