@@ -14,28 +14,24 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`d3.scaleOrdinal()`** function is used to build an ordinal scale that has identified range with input values and domain with output values. If none of these values are given for the domain or range, then both are moved to an empty array. 
+The **`d3.scaleOrdinal()`** function creates an ordinal scale with a defined domain (input values) and range (output values). If no values are provided for the domain or range, both default to an empty array.
 
-Ordinal scales are mostly used for names and categorical data where there is a distinct set of values (e.g: categories, colors, or labels), however, the output values can be anything including strings or numbers. The scale portrays a set of discrete input values which is the **domain** to compatible batch of output values which is called the **range**. Please note that the order of the data matters.
+Ordinal scales are primarily used for names and categorical data with a distinct set of values (e.g., categories, colours, or labels). The output values can be strings, numbers, or other types. The scale maps a discrete set of input values (the **domain**) to corresponding output values (the **range**). The order of the data is significant.
 
 ## Syntax
+
 `D3.scaleOrdinal()` generally takes the following form:
 
 ```pseudo
 d3.scaleOrdinal([[domain, ]range]);               
 ```
 
-* **domain**
-
-    This domain is the input value that will be mapped. it defines the minimum and maximum values for the scale.
-    
-*  **range**
-
-    The range is the output value that will be mapped. Every value in domain synchronize with value in the range.
+- **domain**: The input values to be mapped, defining the minimum and maximum values for the scale.
+- **range**: The output values that correspond to the domain. Each value in the domain matches a value in the range.
         
 ## Example
 
-The code snippet helps in mapping categories to values for data visualization. In this JavaScript example, runner's finish times are mapped to their positions in a race. This mapping allows for easy comparison of the times:
+This example demonstrates how to map categories to values for data visualization. Runner's finish times are mapped to their race positions:
 
 ```js
 const positionScale = d3.scaleOrdinal()
