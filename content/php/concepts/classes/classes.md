@@ -108,3 +108,65 @@ The `instanceof` operator returns `true` when the operand on the left belongs to
   // Output: It is a Car!
 ?>
 ```
+
+## Codebyte Example
+
+Now, with the above understanding, we can create any class together, defining attributes and methods for various contexts. In the following code snippet, we create the class Library, and you can experiment with the `__construct()` method by creating global attributes, methods and then test all the implementation:
+
+```codebyte/PHP
+class Library
+{
+  private $libraryName;
+
+  private $ranking;
+
+  private $country;
+
+  // The constructor plays an important role in creating and instantiating the class.
+  public function __construct(
+    string $libraryName,
+    int $ranking,
+    string $country
+  )
+  {
+    $this->libraryName = $libraryName;
+    $this->ranking = $ranking;
+    $this->country = $country;
+  }
+
+  // Here we create a variable to concatenate the global attributes created earlier.
+  public function getInfoLibrary()
+  {
+    $info = $this->libraryName . ' is the number ' . $this->ranking . ' in the world ranking. Located in ' . $this->country . '.<br><br>';
+    return print_r($info);
+  }
+
+  // This is our first method; it is simple, just registers a new book and adds it to the array.
+  public function registerBook(
+    string $author,
+    string $bookTitle,
+    int $publishYear
+  )
+  {
+    // Here we create an array to store the books our library has!
+    $portfolio = [
+    'author' => $author,
+    'bookTitle' => $bookTitle,
+    'publishYear' => $publishYear
+  ];
+    $portfolio['author'] = $author;
+    $portfolio['bookTitle'] = $bookTitle;
+    $portfolio['publishYear'] = $publishYear;
+
+    return print_r($portfolio);
+  }
+}
+
+$libraryOne = new Library('The British Library', 1, 'United Kingdom');
+
+$libraryOne->getInfoLibrary();
+
+$libraryOne->registerBook('J.R.R. Tolkien', 'The Silmarillion', 1977);
+```
+
+Now, it's your turn!
