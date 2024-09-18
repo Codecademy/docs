@@ -215,19 +215,17 @@ console.log(obj.someProperty);
 
 ## Codebyte Example
 
-To demonstrate the use of `this`, the following codebyte example creates the function `getInfo`. First, the class `Student` is created, and the constructor is called with the necessary parameters. Using `this`, global objects are created, which are then accessed within the function to retrieve values and return a string object:
+To demonstrate `this`, the following codebyte example creates the function `getInfo`. First, the class `Student` is created, and the constructor is called with the necessary parameters. Using `this`, global objects are created, which are then accessed within the function to retrieve values and return a string object:
 
 ```codebyte/javascript
 class Student {
 
-  // When created a Class we can define global objects on the constructor using 'this'
   constructor(name, lastName, bornYear) {
     this.name = name;
     this.lastName = lastName;
     this.bornYear = bornYear;
   }
 
-  // Notice that 'this' helps to get the global objects created on constructor
   getInfo() {
     const randomArr = [
       'Mary and John',
