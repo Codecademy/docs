@@ -190,22 +190,3 @@ Tensor([[[ 3.9394,  5.6904,  3.2610],
          [ 1.6439,  2.6008, -1.2971],
          [ 3.6977,  2.7832,  1.4368]]])
 ```
-
-
-## Codebyte example
-The following codebyte example adds weight parameters to the autograd gradient calculations. 
-
-```codebyte/python
-import torch
-x = torch.tensor([2.0, 4.0, 6.0, 8.0], requires_grad=True) 
-y_true = torch.tensor([3.0, 6.0, 9.0, 12.0])
-A = torch.tensor(4.0, requires_grad=True)
-b = torch.tensor(6.0, requires_grad=True)
-w =torch.tensor(1.0, requires_grad=True)
-y_pred = w * x * b
-loss = torch.mean((y_pred - y_true)**4)
-loss.backward()
-print("Gradient of A:", A.grad)
-print("Gradient of b:", b.grad)
-```
-
