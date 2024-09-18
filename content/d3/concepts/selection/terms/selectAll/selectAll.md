@@ -47,7 +47,7 @@ In this example, we have an HTML document as shown in the below code block:
     >similique inventore non voluptate, doloremque consectetur dignissimos
     beatae ipsum temporibus tempore?</span
   >
-  Voluptatum accusamus non distinctio nesciunt quis suscipit, sequi,
+  Voluptatum accusamus non distinction nesciunt quis suscipit, sequi,
   necessitatibus, ut delectus praesentium iusto? Nisi sequi itaque voluptatem
   dolor!
 </p>
