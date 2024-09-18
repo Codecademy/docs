@@ -1,5 +1,5 @@
 ---
-Title: 'Markdown'
+Title: 'Markdwn'
 Description: 'Markdown is a lightweight markup language for creating formatted text using a plain-text editor.'
 Codecademy Hub Page: 'https://www.codecademy.com/catalog/language/bash' # If codecademy.com doesn't have a hub page for this language, that's okay too. You can leave this field as `null`
 CatalogContent:
