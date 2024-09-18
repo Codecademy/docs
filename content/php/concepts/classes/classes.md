@@ -114,59 +114,46 @@ The `instanceof` operator returns `true` when the operand on the left belongs to
 The following code defines a `Library` class with attributes for library details, methods to display library information and register books with associated data. Try executing it:
 
 ```codebyte/PHP
+<?php
 class Library
 {
   private $libraryName;
-
   private $ranking;
-
   private $country;
 
-  // The constructor plays an important role in creating and instantiating the class.
-  public function __construct(
-    string $libraryName,
-    int $ranking,
-    string $country
-  )
+  // The constructor to initialize the class
+  public function __construct(string $libraryName, int $ranking, string $country)
   {
     $this->libraryName = $libraryName;
     $this->ranking = $ranking;
     $this->country = $country;
   }
 
-  // Here we create a variable to concatenate the global attributes created earlier.
+  // Method to get information about the library
   public function getInfoLibrary()
   {
     $info = $this->libraryName . ' is the number ' . $this->ranking . ' in the world ranking. Located in ' . $this->country . '.<br><br>';
-    return print_r($info);
+    echo $info;
   }
 
-  // This is our second method; it is simple, just registers a new book and adds it to the array.
-  public function registerBook(
-    string $author,
-    string $bookTitle,
-    int $publishYear
-  )
+  // Method to register a new book
+  public function registerBook(string $author, string $bookTitle, int $publishYear)
   {
-    // Here we create an array to store the books our library has!
     $portfolio = [
-    'author' => $author,
-    'bookTitle' => $bookTitle,
-    'publishYear' => $publishYear
-  ];
-    $portfolio['author'] = $author;
-    $portfolio['bookTitle'] = $bookTitle;
-    $portfolio['publishYear'] = $publishYear;
-
-    return print_r($portfolio);
+      'author' => $author,
+      'bookTitle' => $bookTitle,
+      'publishYear' => $publishYear
+    ];
+    
+    print_r($portfolio); // print array for debugging or return $portfolio for further use
   }
 }
 
+// Create a new Library instance and call methods
 $libraryOne = new Library('The British Library', 1, 'United Kingdom');
-
 $libraryOne->getInfoLibrary();
-
 $libraryOne->registerBook('J.R.R. Tolkien', 'The Silmarillion', 1977);
+?>
 ```
 
 Now, it's your turn!
