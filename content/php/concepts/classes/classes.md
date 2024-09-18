@@ -156,4 +156,3 @@ $libraryOne->registerBook('J.R.R. Tolkien', 'The Silmarillion', 1977);
 ?>
 ```
 
-Now, it's your turn!
