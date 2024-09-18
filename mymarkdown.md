@@ -24,4 +24,5 @@ Siti Web come GitHub renderebbero quel codice markdown più o meno in questo mod
 **Apple**: Malus domestica
 **Banana**: Musa acuminata
 **Cherry**: Prunus cerasus
+
 Markdown è popolare tra i progetti open source perché consente la formattazione del testo RTF in grado di visualizzare correttamente bit di codice. Altre alternative, come l'HTML, tendono ad avere opzioni di formattazione del testo più potenti, ma sono molto più impegnative da codificare e molto meno leggibili.
