@@ -48,8 +48,8 @@ try {
 
 ## The Error Object
 
-In the above, `err` is an optional variable that holds an error object for the associated `catch` block.
-This object contains information about the exception that was thrown, and is only available in the scope of the `catch` block.
+In the above, `err` is an optional variable with an error object for the associated `catch` block.
+This object contains information about the thrown exception and is only available in the scope of the `catch` block.
 
 The error object has two properties:
 
@@ -66,7 +66,7 @@ The following types of error can be returned by the `name` property:
 
 ## The `throw` Statement
 
-The `throw` statement can be used to throw user-defined exceptions. The custom exception can be any of the JavaScript types including `String`, `Number`, `Boolean` or `Object` which will be caught by the next outer catch block.
+The `throw` statement can be used to throw user-defined exceptions. The custom exception can be any JavaScript type, including `String`, `Number`, `Boolean` or `Object`, which will be caught by the next outer catch block.
 
 This can be useful for things like validating input:
 
@@ -84,8 +84,6 @@ try {
 } catch (e) {
   console.log('Input was ' + e);
 }
-
-// Output: Input was too big!
 ```
 
 The `throw` statement can also re-throw an error object caught by a `catch` block. This can be useful if only certain types of error should be handled:
@@ -95,9 +93,9 @@ try {
   // Series of statements
 } catch (e) {
   if (e instanceof RangeError) {
-    // Here any instance of a RangeError exception is handled
+    // Here, any instance of a RangeError exception is handled
   } else {
-    // We re-throw any other exceptions
+    // Re-throw any other exceptions
     throw e;
   }
 }
