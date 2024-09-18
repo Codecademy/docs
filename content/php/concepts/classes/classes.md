@@ -111,7 +111,7 @@ The `instanceof` operator returns `true` when the operand on the left belongs to
 
 ## Codebyte Example
 
-Now, with the above understanding, we can create any class together, defining attributes and methods for various contexts. In the following code snippet, we create the class Library, and you can experiment with the `__construct()` method by creating global attributes, and methods and then test all the implementation:
+The following code defines a `Library` class with attributes for library details, methods to display library information and register books with associated data. Try executing it:
 
 ```codebyte/PHP
 class Library
