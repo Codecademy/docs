@@ -144,7 +144,7 @@ class Library
       'bookTitle' => $bookTitle,
       'publishYear' => $publishYear
     ];
-    
+
     print_r($portfolio); // print array for debugging or return $portfolio for further use
   }
 }
@@ -155,4 +155,3 @@ $libraryOne->getInfoLibrary();
 $libraryOne->registerBook('J.R.R. Tolkien', 'The Silmarillion', 1977);
 ?>
 ```
-
