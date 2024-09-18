@@ -1,20 +1,20 @@
 ---
 Title: '.values'
-Description: 'Returns a collection containing all the values of the dictionary.'
+Description: 'Returns a collection containing all the values in a dictionary.'
 Subjects:
   - 'Computer Science'
   - 'iOS'
-  - 'Mobile Development'
 Tags:
   - 'Dictionary'
   - 'Methods'
   - 'Properties'
+  - 'Values'
 CatalogContent:
   - 'learn-swift'
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.values`** property in Swift is used to access a collection of all the values stored in a key-value dictionary.
+The **`.values`** property in Swift is used to access a [collection](https://www.codecademy.com/resources/docs/swift/collections) of all the values stored in a key-value dictionary.
 
 ## Syntax
 
@@ -22,7 +22,7 @@ The **`.values`** property in Swift is used to access a collection of all the va
 dictionaryName.values
 ```
 
-- `dictionaryName`: Refers to the dictionary instance from which the values are accessed using the `.values` property.
+- `dictionaryName`: Refers to the dictionary instance from which the values are accessed.
 
 ## Example
 
@@ -30,7 +30,7 @@ The code below creates a dictionary with key-value pairs and then uses the `.val
 
 ```swift
 var worldCupWinners = [
-  "Argentine": 2022,
+  "Argentina": 2022,
   "France": 2018,
   "Germany": 2014,
   "Spain": 2010,
@@ -42,7 +42,7 @@ print(worldCupWinners.values)
 The code above generates the following output:
 
 ```shell
-[2010, 2022, 2018, 2014] 
+[2010, 2022, 2018, 2014]
 ```
 
-> **Note:** The print-out of the values will be in a random order. 
+> Note: The values will be printed in a random order.
