@@ -17,13 +17,13 @@ The **`.forEach()`** method is used to iterate over each key-value pair in a Swi
 ## Syntax
 
 ```pseudo
-dictionary.forEach { (key, value) in 
+dictionary.forEach { (key, value) in
     // Code to execute for each key-value pair
 }
 ```
 
 - `dictionary`: The variable name for the dictionary instance.
-- `{ (key, value) in ... }`: Defines a closure where key and value are parameters representing each key-value pair from the `dictionary`. 
+- `{ (key, value) in ... }`: Defines a closure where key and value are parameters representing each key-value pair from the `dictionary`.
 
 ## Example
 
@@ -44,4 +44,4 @@ There are 2 bananas.
 There are 5 cherrys.
 ```
 
-> **Note:**  The order of key-value pairs iterated over in a Swift dictionary using forEach is not guaranteed and may vary between executions.
+> **Note:** The order of key-value pairs iterated over in a Swift dictionary using forEach is not guaranteed and may vary between executions.
