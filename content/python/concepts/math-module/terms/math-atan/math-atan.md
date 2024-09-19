@@ -12,11 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-<<<<<<< HEAD
-The **`math.atan()`** returns the arctangent of a number. If the tangent of a number x gives you n, then the arctangent of n gives you the number x. The number n can be is all real numbers. You can think of n as the slope of the line (opposite over adjacent or y/x) and x to be the radians.
-=======
-The **`math.atan()`** returns the arctangent of a number. If the tangent of a number x gives you n, then the arctangent of n gives you the number x. The number n can be all real numbers. You can think of n as the slope of the line (opposite over adjacent or y/x) and x to be the degrees. 
->>>>>>> 8bac621b4ff147d5f2750edbef0c67522c808bda
+The **`math.atan()`** returns the arctangent of a number. If the tangent of a number x gives you n, then the arctangent of n gives you the number x. The number n can be all real numbers. You can think of n as the slope of the line (opposite over adjacent or y/x) and x to be the radians.
 
 ## Syntax
 
