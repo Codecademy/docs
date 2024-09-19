@@ -1,0 +1,35 @@
+---
+Title: 'REPLACE()'
+Description: 'Replace all matching parts of a string with a specified new substring.'
+Subjects:
+  - 'Data Science'
+Tags:
+  - 'Database'
+  - 'Queries'
+  - 'PostgreSQL'
+  - 'MySQL'
+  - 'SQLite'
+CatalogContent:
+  - 'learn-sql'
+  - 'paths/analyze-data-with-sql'
+---
+
+The **`Replace()`** function replaces all matching parts of a string with a specified new substring.
+
+## Syntax
+
+```pseudo
+Replace("string_expression", "old_substring", "new_substring");
+```
+
+The `Replace()` function searches for all occurrences of the `old_substring` in the `string_expression` and replaces it with `new_substring`.
+
+> **Note:** All parameters are required.
+
+## Example
+
+In this example, we replace "cool" with "amazing":
+
+```sql
+SELECT REPLACE("SQL is cool", "cool", "amazing");
+```
