@@ -1,5 +1,5 @@
 ---
-Title: 'Surface'
+Title: '.Surface()'
 Description: 'Creates a 3d plot using the `Surface` class of the `graph_objects` module in Plotly'
 
 Subjects:
