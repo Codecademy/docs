@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-The **`UNHEX()`** [function](https://www.codecademy.com/resources/docs/mysql/built-in-functions) is a build-in function in MySQL that converts a hexadecimal string to its corresponding binary string. Useful when we have data stored in hexadecimal format we can use `UNHEX()` function to convert it to original binary form making it usable and understandable.
+The **`UNHEX()`** [function](https://www.codecademy.com/resources/docs/mysql/built-in-functions) is a build-in function in MySQL that converts a hexadecimal string to its corresponding binary string. Useful when we have data stored in hexadecimal format we can use `UNHEX()` function to convert it to the original binary form making it usable and understandable.
 
 ## Syntax
 
