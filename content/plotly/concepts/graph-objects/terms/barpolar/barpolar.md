@@ -1,6 +1,6 @@
 ---
 Title: '.Barpolar()'
-Description: 'Used to create polar charts using Plotly'
+Description: 'Used to create polar bar charts using Plotly.'
 Subjects:
   - 'Data Science'
   - 'Data Visualization'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.Barpolar()`** class is used to plot charts on the polar coordinate system, where each point on the system is defined by two values:
+The **`.Barpolar()`** class is used to plot bar charts on the polar coordinate system, where each point on the system is defined by two values:
 
 1. Radial distance - distance from the center/origin.
 
@@ -60,8 +60,8 @@ fig.show()
 
 ```
 
-This example creates a simple polar bar chart using `Barpolar` from Plotly. The bars are positioned using radial distances and angular values, with each bar styled using custom colors and slight transparency
+This example creates a simple polar bar chart using `Barpolar` from Plotly. The bars are positioned using radial distances and angular values, with each bar styled using custom colors and slight transparency.
 
 The above code generates the following output:
 
-![Output of the above example in Plotly](https://github.com/saldanhad/codeacademy-docs/blob/b5c5b4e309e5c6fa8f206133f17db977c6eb058f/my_examples/plotly-barpolar-example.png)
+![Barpolar example Plotly](https://github.com/saldanhad/codeacademy-docs/blob/59ebf4e1f2834c71f2a0cb3392639ab2ae332ee3/media/plotly-barpolar-example.png)
