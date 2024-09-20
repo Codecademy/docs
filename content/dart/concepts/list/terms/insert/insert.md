@@ -27,7 +27,7 @@ list.insert(int index, E element);
 
 ## Example
 
-In the following example, the `.insert()` method is used to insert the number 3 at the second index:
+In the following example, the `.insert()` method is used to insert the number `3` at the second index:
 
 ```dart
 void main() {
