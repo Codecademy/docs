@@ -40,7 +40,7 @@ void main() {
 }
 ```
 
-The output of the above code is as follows:
+The output of the above example code is as follows:
 
 ```shell
 Original list: [1, 2, 4, 5]
