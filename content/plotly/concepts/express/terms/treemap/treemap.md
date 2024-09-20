@@ -61,8 +61,6 @@ figure.show()
 
 The example above results in the following output:
 
-![alt text](image.png)
-
 An example combining a `Data Frame` with the `.treemap()`:
 
 ```py
@@ -94,5 +92,3 @@ figure.show()
 ```
 
 The example above results in the following output:
-
-![alt text](image-1.png)
