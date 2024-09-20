@@ -1,1 +1,1 @@
-content/java/concepts/collections/collections.md
+content/ruby/concepts/sets/sets.md
