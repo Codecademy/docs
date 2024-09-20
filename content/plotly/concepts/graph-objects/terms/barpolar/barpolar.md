@@ -64,4 +64,4 @@ This example creates a simple polar bar chart using `Barpolar` from Plotly. The 
 
 The above code generates the following output:
 
-![Barpolar example Plotly](https://github.com/saldanhad/codeacademy-docs/blob/59ebf4e1f2834c71f2a0cb3392639ab2ae332ee3/media/plotly-barpolar-example.png)
+![Barpolar example Plotly](https://raw.githubusercontent.com/Codecademy/docs/main/media/plotly-barpolar-example.png)
