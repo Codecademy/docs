@@ -19,13 +19,14 @@ The **`.trace()`** function returns the sum of the elements along the main diago
 ## Syntax
 
 ```pseudo
-numpy.trace(a, offset=0, axis1=0, axis2=1, out=None)
+numpy.trace(a, offset=0, axis1=0, axis2=1, dtype=None, out=None)
 ```
 
 - `a`: An array for which the sum of elements along the main diagonal is calculated.
-- `offset`: An optional parameter can be both negative and positive. It is offset of diagonalform the main diagonal. Default is 0.
+- `offset`: An optional parameter can be both negative and positive. It is offset of diagonal from the main diagonal. The default is 0.
 - `axis1`: An optional parameter used as the first axis of the 2D sub-arrays from which the diagonals should be taken. The default is 0.
 - `axis2`: An optional parameter used as the second axis of the 2D sub-arrays from which the diagonals should be taken. The default is 1.
+- `dtype`: An optional parameter used as the return type of sum returned if not provided then data type of the input array `a` is used.
 - `out`: An optional parameter specifying an array where the result will be stored. If not provided, a new array is created.
 
 ## Example
