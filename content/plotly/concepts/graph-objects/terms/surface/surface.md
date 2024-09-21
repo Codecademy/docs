@@ -1,7 +1,6 @@
 ---
 Title: '.Surface()'
 Description: 'Creates a 3d plot using the `Surface` class of the `graph_objects` module in Plotly'
-
 Subjects:
   - 'Data Science'
   - 'Data Visualization'
@@ -17,39 +16,30 @@ CatalogContent:
 
 The **`Surface`** class creates a 3D surface plot using Plotly's `graph_objects` module. It allows for the visualization of data in three dimensions.
 
-
 ## Syntax
 
 ```pseudo
 plotly.graph_objects.Surface(
-    z=None,
-    x=None,
-    y=None,
-    colorscale=None,
-    cmin=None,
-    cmax=None,
-    opacity=None,
-    surfacecolor=None,
+    z=None,           # 2D array-like, required.
+    x=None,           # 1D array-like, optional.
+    y=None,           # 1D array-like, optional.
+    colorscale=None,  # list of tuples or named color scale, optional.
+    cmin=None,        # float, optional.
+    cmax=None,        # float, optional.
+    opacity=None,     # float between 0 and 1, optional.
+    surfacecolor=None, # 2D array-like, optional.
     **kwargs
 )
 ```
 
-- `z` : 2D array-like, required. The Z coordinates for the surface plot.
-
-- `x` : 1D array-like, optional. The X coordinates. Defaults to the range of the number of columns in z if not provided.
-
-- `y` : 1D array-like, optional. The Y coordinates. Defaults to the range of the number of rows in z if not provided.
-
-- `colorscale` : list of tuples, optional. Colorscale for the surface.
-
-- `cmin` : float, optional. Minimum value for the color scale.
-
-- `cmax` : float, optional. Maximum value for the color scale.
-
-- `opacity` : float, optional. Opacity of the surface.
-
-- `surfacecolor` : array-like, optional. An array of values to color the surface.
-
+- `z`: A 2D array-like object (required), which defines the surface's Z coordinates (height/depth).
+- `x`: 1D array-like (optional), representing the X coordinates. If not provided, it defaults to the range of the number of columns in `z`.
+- `y`: 1D array-like (optional), representing the Y coordinates. If not provided, it defaults to the range of the number of rows in `z`.
+- `colorscale`: Can be a named colour scale (e.g., `'Viridis'`) or a list of tuples that define custom colour mapping (optional).
+- `cmin`: Minimum value of the colorscale range (optional).
+- `cmax`: Maximum value of the colorscale range (optional).
+- `opacity`: A float between 0 (completely transparent) and 1 (fully opaque), defining surface opacity (optional).
+- `surfacecolor`: A 2D array of values used to colour the surface independent of the Z axis (optional).
 
 ## Example
 
@@ -62,7 +52,7 @@ import numpy as np
 x = np.linspace(-5, 5, 50)
 y = np.linspace(-5, 5, 50)
 x, y = np.meshgrid(x, y)
-z = x**2 + y**2 
+z = x**2 + y**2
 
 fig = go.Figure(data=[go.Surface(z=z, x=x, y=y)])
 
@@ -81,4 +71,4 @@ This example allows for a visual representation of a mathematical function, with
 
 The above code generates the following output:
 
-![Output from above code](https://github.com/saldanhad/codeacademy-docs/blob/dev/media/3d-surface-example-plotly.png)
+![Output from above code](https://raw.githubusercontent.com/Codecademy/docs/main/media/3d-surface-example-plotly.png)
