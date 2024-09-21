@@ -36,8 +36,6 @@ print(math.cosh(1))
 
 > **Note:** `math.cosh(x)` is equivalent to `(math.exp(x) + math.exp(-x))/2`
 
-
-
 The above code gives the following output:
 
 ```shell
