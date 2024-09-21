@@ -1,6 +1,7 @@
 ---
-Title: 'Surface'
-Description: 'Creates a 3d plot using the Surface class of the graph_object module in Plotly'
+Title: '.Surface()'
+Description: 'Creates a 3d plot using the `Surface` class of the `graph_objects` module in Plotly'
+
 Subjects:
   - 'Data Science'
   - 'Data Visualization'
