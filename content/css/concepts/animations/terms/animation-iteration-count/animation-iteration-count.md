@@ -23,7 +23,7 @@ animation-iteration-count: <value>;
 where `<value>` can be one of the following:
 
 - Number value: `3`, `300`
-- `inifinite` will run animation on endless loop
+- `infinite` will run animation on endless loop
 
 **Note:** providing one value will apply to all `animation-name` values. Additional comma separated values will apply correspondingly.
 

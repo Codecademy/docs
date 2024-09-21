@@ -28,10 +28,10 @@ Therefore, there is a distinction between the format of the codec used to encode
 
 `MP4` is not only the most widely supported container format, but also supports the largest number of codecs, so it is the default option for containers. The situation for audio codecs is similar, with `AAC` being the default due to its good compression and widespread use. For video codecs, there are two main options or media stacks:
 
-| Container Format | Video Codec | Audio Codec | Use Case                                                                                                                         |
-| ---------------- | ----------- | ----------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| MP4              | H.264       | AAC         | Compatible with most every browser and used if support is of the utmost concern.                                                 |
-| MP4              | AV1         | AAC         | Useed for streaming the absolute smallest files at a given quality. Better compression with better quality, but less compatible. |
+| Container Format | Video Codec | Audio Codec | Use Case                                                                                                                        |
+| ---------------- | ----------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| MP4              | H.264       | AAC         | Compatible with most every browser and used if support is of the utmost concern.                                                |
+| MP4              | AV1         | AAC         | Used for streaming the absolute smallest files at a given quality. Better compression with better quality, but less compatible. |
 
 ## Inserting a Video
 

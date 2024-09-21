@@ -1,6 +1,6 @@
 ---
 Title: 'Framing Effect'
-Description: 'Occurs when select the more positivly worded option.'
+Description: 'Occurs when select the more positively worded option.'
 Subjects:
   - 'Web Design'
 Tags:

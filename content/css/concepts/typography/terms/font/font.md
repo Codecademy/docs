@@ -34,7 +34,7 @@ Optional values:
 - `font-weight`
 - `font-stretch`
 - `font-style`
-- `font-varient`
+- `font-variant`
 
 > **Note:** Some edge cases to keep in mind:
 >
@@ -68,7 +68,7 @@ Setting an `h2` font with all seven properties in one declaration.
 
 ```css
 h2 {
-  /* font-stretch | font-style | font-varient | font-weight | font-size | line-height | font-family */
+  /* font-stretch | font-style | font-variant | font-weight | font-size | line-height | font-family */
   font: expanded italic small-caps bolder 20px/30px cursive;
 }
 ```

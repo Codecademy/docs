@@ -18,7 +18,7 @@ CatalogContent:
 
 **JavaScript Object Notation (JSON)** is a language-independent data format that is readable, writable, and parsable for both humans and machines. JSON is based on the syntax of the third edition of a [JavaScript](https://www.codecademy.com/resources/docs/javascript) standard known as ([ECMAScript](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)). Many programming languages, such as [Python](https://www.codecademy.com/resources/docs/python), have implemented [libraries](https://www.codecademy.com/resources/docs/python/json-module) to parse and generate JSON-formatted data. JavaScript can parse JSON directly with the [`JSON` object](https://www.codecademy.com/resources/docs/javascript/json).
 
-In addition to JavaScript, JSON uses some conventions from the [C](https://www.codecademy.com/resources/docs/c)-descendent languages, including C , [C++](https://www.codecademy.com/resources/docs/cpp), and [Java](https://www.codecademy.com/resources/docs/java).
+In addition to JavaScript, JSON uses some conventions from the [C](https://www.codecademy.com/resources/docs/c)-descendant languages, including C , [C++](https://www.codecademy.com/resources/docs/cpp), and [Java](https://www.codecademy.com/resources/docs/java).
 
 JSON is commonly used for transferring data between clients and [servers](https://www.codecademy.com/resources/docs/general/server) for tasks such as web browsing or form submission. Some companies also use JSON to allow their data to be accessed in other applications via [API](https://www.codecademy.com/resources/docs/general/api). Some examples include:
 
@@ -72,7 +72,7 @@ Multiple JSON objects can be collected in an array-like sequence:
 
 A few important points to note about JSON syntax:
 
-- While it is derived from from the JavaScript language, JSON itself is not JavaScript.
+- While it is derived from the JavaScript language, JSON itself is not JavaScript.
 - Trailing commas are forbidden.
 - Although JavaScript names are not this strict, JSON property names must be in double quotes.
 
