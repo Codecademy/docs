@@ -20,7 +20,7 @@ Shorthand property that sets the animations for an element.
 animation: <value>;
 ```
 
-where `<value>` can be and of the following keywords:
+where `<value>` can be any of the following keywords:
 
 - `animation-fill-mode`: `forwards`
 - `animation-delay`: `2s`
