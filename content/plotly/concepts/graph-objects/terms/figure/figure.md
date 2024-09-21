@@ -56,4 +56,4 @@ This example creates a graph representing the inflation for the last five years,
 
 The above code generates the following code
 
-![Example for Figure() on Plotly output](plotly_figure_example.png)
+![Example for Figure() on Plotly output](https://raw.githubusercontent.com/Codecademy/docs/main/media/plotly_figure_example.png)
