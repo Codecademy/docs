@@ -1,6 +1,6 @@
 ---
 Title: '.insert()'
-Description: 'Inserts multiple elements into a list at a specified index.'
+Description: 'Inserts an element at a specified index in a list.'
 Subjects:
   - 'Mobile Development'
   - 'Web Development'
