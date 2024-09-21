@@ -22,8 +22,6 @@ math.cosh(x)
 
 - `x`: A numeric value whose hyperbolic cosine is calculated.
 
-> **Note:** If the value is not a number it returns `TypeError: must be real number`
-
 ## Example 1
 
 Use `math.cosh()` to return the hyperbolic cosine of integer `1`:
