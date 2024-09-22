@@ -1,6 +1,6 @@
 ---
 Title: '.Barpolar()'
-Description: 'Used to create polar bar charts using Plotly.'
+Description: 'Creates a polar bar chart using .Barpolar() class of graph_objects module in Plotly.'
 Subjects:
   - 'Data Science'
   - 'Data Visualization'
@@ -16,11 +16,11 @@ CatalogContent:
 
 The **`.Barpolar()`** class is used to plot bar charts on the polar coordinate system, where each point on the system is defined by two values:
 
-1. Radial distance - distance from the center/origin.
+1. Radial distance - This is the distance from the center or origin.
 
-2. Angle - The position of the bar around the circle.
+2. Angle - This indicates the position of the bar around the circle.
 
-Example use case: Visualizing activity or events over a repeating time period, such as time-of-day patterns, day-of-week activity, or seasonal trends.
+An example use case is visualizing activity or events over a repeating time period. This includes patterns like time-of-day activity, day-of-week trends, or seasonal variations.
 
 ## Syntax
 
@@ -28,19 +28,15 @@ Example use case: Visualizing activity or events over a repeating time period, s
 plotly.graph_objects.Barpolar(arg=None, r=None, theta=None, width=None, marker=None)
 ```
 
-- `arg`: (Optional) This can be used to pass an existing figure configuration (e.g., copying another polar chart). It’s generally not needed for most cases.
-
-- `r`: List of values, representing the length of each bar from the center.
-
-- `theta`: List of values angular positions for each bar. Angles can be in degrees or radians.
-
-- `width`: Specifies the angular width of each bar in degrees or radians
-
-- `marker`: A dictionary that controls the color, opacity, and other styling elements of the plot.
+- `arg`: (Optional) A dictionary of keyword arguments that can be passed to customize the bar polar chart.
+- `r`: (Required) A list or array of radial distances.
+- `theta`: (Required) A list or array of angles corresponding to the bar's positions around the polar coordinate system.
+- `width`: (Optional) The width of each bar. This defines how thick the bars will appear on the chart.
+- `marker`: (Optional) A dictionary specifying the appearance of the bars, such as color, line properties, and other styling options.
 
 ## Example
 
-The following example showcases the use of the `.Barpolar` class:
+The following example showcases the use of the `.Barpolar()` class:
 
 ```py
 import plotly.graph_objects as go
@@ -60,7 +56,7 @@ fig.show()
 
 ```
 
-This example creates a simple polar bar chart using `Barpolar` from Plotly. The bars are positioned using radial distances and angular values, with each bar styled using custom colors and slight transparency.
+This example creates a simple polar bar chart using `.Barpolar()` class. The bars are positioned using radial distances and angular values. Each bar is styled using custom colors and slight a slight opacity for a visually appealing effect.
 
 The above code generates the following output:
 
