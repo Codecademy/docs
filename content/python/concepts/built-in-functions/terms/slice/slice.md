@@ -28,7 +28,7 @@ slice(start, stop, step)
 
 ## Example
 
-The following example shows the use of the `.slice()' function:
+The following example shows the use of the `slice()` function:
 
 ```py
 # Create a tuple with some values in it
