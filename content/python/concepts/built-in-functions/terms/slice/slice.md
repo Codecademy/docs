@@ -22,11 +22,9 @@ In Python, the **`slice()`** function is used to create a slice object from a gi
 slice(start, stop, step)
 ```
 
-where it takes three parameters:
-- `start:` This integer indicates where the slicing of the object begins and is optional. Default value is None if not provided. 
-- `stop:` This integer indicates up to where the slicing takes place. It stops at index stop-1 (the last element of the sequence). 
-- `step:` This integer value is used to fix the increment between each index for slicing and is optional. Its default value is null if not provided. 
-
+- `start`: This optional integer indicates where the slicing of the object begins. The default value is `None` if not provided.
+- `stop`: This integer indicates up to where the slicing takes place. It stops at index `stop-1` (the last element of the sequence).
+- `step`: This optional integer fixes the increment between each index for slicing. The default value is `None` if not provided.
 
 ## Example
 
