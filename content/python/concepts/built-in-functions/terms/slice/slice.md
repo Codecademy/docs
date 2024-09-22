@@ -47,20 +47,16 @@ The output of the code is as follows:
 ('Apple', 'Banana', 'Orange')
 ```
 
-## Codebyte Example (if applicable)
+## Codebyte Example
 
-Run the following codebyte to understand how the `.slice()` is used to create a slice object from a given sequence(here, a string) between a defined range:
+The following codebyte example demonstrates how the `slice()` function is used to create a slice object from a given sequence (here, a string) between a defined range:
 
 ```codebyte/python
-
-# Example runnable code block.
-#string slicing
-my_string = 'CompetetiveProgramming'
+my_string = 'CompetitiveProgramming'
 slice_obj1 = slice(5)
 slice_obj2 = slice(1, 8, 2)
 
 print("Resulting slices:")
 print(my_string[slice_obj1])
 print(my_string[slice_obj2])
-
 ```
