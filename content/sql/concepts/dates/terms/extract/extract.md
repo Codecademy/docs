@@ -21,7 +21,7 @@ EXTRACT(part FROM date)
 ```
 
 - `part`: Part of the date we want to extract. It can be `YEAR`, `MONTH`, or any other part of the date.
-- `date`: the date from which specific parts are extracted.
+- `date`: The date from which specific parts are extracted.
 
 ## Example
 
