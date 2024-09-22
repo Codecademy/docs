@@ -1,12 +1,15 @@
 ---
-Title: '.slice()'
-Description: 'Returns a slice object from a tuple.'
+Title: 'slice()'
+Description: 'Returns a slice object from a given sequence such as a string, tuple, list, etc.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags: 
   - 'Data Structures'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+  - 'Functions'
+  - 'Properties'
+  - 'Methods'
+CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
