@@ -40,11 +40,11 @@ a = slice(3)
 # Return the resultant slice object
 print(fruits[a])
 ```
+
 The output of the code is as follows:
 
 ```shell
 ('Apple', 'Banana', 'Orange')
-
 ```
 
 ## Codebyte Example (if applicable)
