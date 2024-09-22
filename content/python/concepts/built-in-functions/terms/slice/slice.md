@@ -31,15 +31,14 @@ slice(start, stop, step)
 The following example shows the use of the `.slice()' function:
 
 ```py
-#create a tuple with some values in it
+# Create a tuple with some values in it
 fruits = ("Apple", "Banana", "Orange", "Kiwi", "Strawberry", "Plum", "Watermelon")
 
-#create a slice object
+# Create a slice object
 a = slice(3)
 
-#return the slice result
+# Return the resultant slice object
 print(fruits[a])
-
 ```
 The output of the code is as follows:
 
