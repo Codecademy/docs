@@ -1,1 +1,1 @@
-content/ruby/concepts/sets/sets.md
+content/open-source/concepts/bootstrap/bootstrap.md
