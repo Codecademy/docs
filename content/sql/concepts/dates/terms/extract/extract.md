@@ -1,6 +1,6 @@
 ---
 Title: 'EXTRACT()'
-Description: 'Used to extract a specific part from date such as year, month etc.'
+Description: 'Used to extract a specific part from the date such as year, month, etc.'
 Subjects:
   - 'Data Science'
 Tags:
@@ -20,31 +20,31 @@ The `EXTRACT()` function in SQL is used to extract a specific part from a date. 
 EXTRACT(part FROM date)
 ```
 
-- `part`: Part of date we want to extract. It can be `YEAR`, `MONTH` or any other part of the date.
+- `part`: Part of the date we want to extract. It can be `YEAR`, `MONTH`, or any other part of the date.
 - `date`: the date from which specific parts are extracted.
 
 ## Example
 
-The following example show how to extract different parts from a datetime:
+The following example shows how to extract different parts from a date:
 
 ```sql
 SELECT
-    -- Extract the year from the datetime
+    -- Extract the year from the date
     EXTRACT(YEAR FROM '2024-09-22 15:30:45') AS YearPart,
     
-    -- Extract the month from the datetime
+    -- Extract the month from the date
     EXTRACT(MONTH FROM '2024-09-22 15:30:45') AS MonthPart,
     
-    -- Extract the day of the month from the datetime
+    -- Extract the day of the month from the date
     EXTRACT(DAY FROM '2024-09-22 15:30:45') AS DayPart,
     
-    -- Extract the hour from the datetime
+    -- Extract the hour from the date
     EXTRACT(HOUR FROM '2024-09-22 15:30:45') AS HourPart,
     
-    -- Extract the minute from the datetime
+    -- Extract the minute from the date
     EXTRACT(MINUTE FROM '2024-09-22 15:30:45') AS MinutePart,
     
-    -- Extract the second from the datetime
+    -- Extract the second from the date
     EXTRACT(SECOND FROM '2024-09-22 15:30:45') AS SecondPart;
 ```
 
