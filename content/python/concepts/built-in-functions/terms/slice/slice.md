@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Python, the .slice() function is used to create a slice object, used to slice any sequence( e.g. - string, tuple, list, etc).
+In Python, the **`slice()`** function is used to create a slice object from a given sequence (e.g., a string, tuple, list, etc.).
 
 ## Syntax
 
