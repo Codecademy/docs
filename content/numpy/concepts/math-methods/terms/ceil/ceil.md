@@ -18,7 +18,7 @@ CatalogContent:
 
 In NumPy, the **`.ceil()`** function rounds each element in an array to the nearest integer that is greater than or equal to the element.
 
-This function can be applied to both real and complex numbers. When applied to complex numbers, the real and imaginary parts are treated separately.
+This function is applied to real numbers.
 
 ## Syntax
 
@@ -58,7 +58,7 @@ The above example code results in the following output:
 
 ## Example 2
 
-This example shows how the `where` parameter of `.ceil()` can be used to apply rounding selectively.
+This example shows how the `where` parameter of `.ceil()` can be used to apply rounding only to certain elements of the array. In this case, only the positive numbers are rounded.
 
 ```py
 # Importing the 'numpy' library as 'np'
@@ -76,12 +76,12 @@ print(arr)
 The above example code results in the following output:
 
 ```shell
-[ 2.  3. -0. -3.]
+[ 2.  3. -0.2 -3.1]
 ```
 
 ## Codebyte Example
 
-In this Codebyte example, the `.ceil`() method rounds the elements in an array of floating-point numbers:
+In this Codebyte example, the `.ceil()` method rounds the elements in an array of floating-point numbers:
 
 ```codebyte/python
 import numpy as np
