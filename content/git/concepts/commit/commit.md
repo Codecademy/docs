@@ -1,4 +1,15 @@
 ---
+Title: 'git commit'
+Description: 'Records changes to the repository.'
+Subjects:
+  - 'Version Control'
+Tags:
+  - 'Git'
+  - 'Version Control'
+CatalogContent:
+  - 'learn-git'
+---
+---
 Title: 'Commit'
 Description: 'Commits are used as snapshots of a given branch in a repository. They serve as the growth history of all the branches in a Git repository.'
 Subjects:
