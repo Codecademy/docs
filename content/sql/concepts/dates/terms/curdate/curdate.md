@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-The `CURDATE()` function returns the current date in the format `YYYY-MM-DD` unlike [DATETIME()](https://www.codecademy.com/resources/docs/sql/dates/datetime) which returns date as well as time.
+The `CURDATE()` function returns the current date in the format `YYYY-MM-DD` unlike [DATETIME()](https://www.codecademy.com/resources/docs/sql/dates/datetime) which returns the date as well as time.
 
 ## Syntax
 
@@ -22,7 +22,7 @@ CURDATE()
 
 ## Example
 
-The below example show how `curdate` functions works:
+The below example shows how `curdate` functions work:
 
 ```sql
 SELECT CURDATE();
