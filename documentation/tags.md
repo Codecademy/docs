@@ -304,6 +304,7 @@ Sorting Algorithms
 Span
 Specificity
 Spread
+SQL
 SQLite
 SQL Server
 Stacks
