@@ -48,8 +48,9 @@ print(unwrapped)
 The above example code results in the following output:
 
 ```shell
-[ 0.   1.57  3.14 -1.57 -3.14]
+[0.         1.57079633 3.14159265 4.71238898 3.14159265]
 ```
+> **Note:** NumPy outputs phase angles with high precision. For clarity, these examples use rounded values.
 
 ## Example 2
 
@@ -71,12 +72,12 @@ print(unwrapped)
 The above example code results in the following output:
 
 ```shell
-[ 0.   1.57  3.14  3.14 -1.57]
+[0.         1.57079633 3.14159265 3.14159265 4.71238898]
 ```
 
 ## Codebyte Example
 
-In this Codebyte example, the `.unwrap()` method is used to adjust phase angles with discontinuities in a simple array:
+In this Codebyte example, the `.unwrap()` method corrects discontinuities in an array of phase angles:
 
 ```codebyte/python
 import numpy as np
@@ -86,4 +87,3 @@ angles = np.array([0, np.pi, 2*np.pi, -np.pi])
 unwrapped = np.unwrap(angles)
 
 print(unwrapped)
-```
