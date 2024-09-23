@@ -17,26 +17,24 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-The **.funnel()** method in Plotly Express creates a chart showing the progressive reduction, or "funneling," of data as it moves through sequential stages. The chart is composed of stacked horizontal bars, with the length of each bar representing a value at each stage in the process. This helps visualize how the values change as they move through each stage, and can highlight bottlenecks or drop-offs in values.
+The **.funnel()** method in Plotly Express creates a chart showing the progressive reduction, or "funneling," of data as it moves through sequential stages. The chart is composed of stacked horizontal bars, with the length of each bar representing a value at each stage in the process. This helps visualize how the values change as they move through each stage and can highlight bottlenecks or drop-offs in values.
 
 ## Syntax
 
 ```pseudo
-plotly.express.funnel(data_frame=None, x=None, y=None, color=None, facet_row=None, facet_col=None,...)
+plotly.express.funnel(data_frame=None, x=None, y=None, color=None, facet_row=None, facet_col=None, ...)
 ```
 
-- `data_frame`: The dataset (typically a [Pandas dataframe](https://www.codecademy.com/resources/docs/pandas/dataframe)) to be plotted.
+- `data_frame`: The dataset (typically a [Pandas dataframe](https://www.codecademy.com/resources/docs/pandas/dataframe)) to be plotted. If this is not provided, Plotly Express will construct a dataframe using the other arguments.
 - `x`: The column in the dataframe that specifies the length of the bars, plotted along the x-axis in cartesian coordinates. 
 - `y`: The column in the dataframe that represents the stages of the funnel, plotted along the y-axis.
-
-> **Note:** The ellipsis (...) indicates there are additional optional parameters beyond those listed in the example syntax.
-
-Some optional parameters:
 - `color`: The column in the dataframe that assigns colors to the bars of the funnel.
 - `facet_row`: Splits the funnel chart into vertically-stacked subplots based on a specified column from the dataframe.
 - `facet_col`: Splits the funnel chart into horizontally-arranged subplots based on a specified column from the dataframe.
 - `title`: The title of the chart.
 - `labels`: Custom labels for different axes or legend items.
+
+> **Note:** The ellipsis (...) indicates there can be additional optional parameters beyond those listed here.
 
 ## Examples
 
@@ -84,7 +82,7 @@ data = {
 # Convert the dictionary into a DataFrame
 df = pd.DataFrame(data)
 
-# Create the funnel chart with title "Job Search"
+# Create the funnel chart with title "Job Search Comparison"
 fig = px.funnel(df, x='Job Applications', y='Stage', facet_col='Applicants', title='Job Search Comparison')
 
 # Show the chart
