@@ -27,8 +27,8 @@ Ordinal scales are primarily used for names and categorical data with a distinct
 d3.scaleOrdinal([[domain, ]range]);               
 ```
 
-- **domain**: The input values to be mapped, defining the minimum and maximum values for the scale.
-- **range**: The output values that correspond to the domain. Each value in the domain matches a value in the range.
+- `domain`: The input values to be mapped, defining the minimum and maximum values for the scale.
+- `range`: The output values that correspond to the domain. Each value in the domain matches a value in the range.
         
 ## Example
 
