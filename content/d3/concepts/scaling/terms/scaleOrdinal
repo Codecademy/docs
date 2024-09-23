@@ -22,7 +22,6 @@ Ordinal scales are primarily used for names and categorical data with a distinct
 
 ## Syntax
 
-`D3.scaleOrdinal()` generally takes the following form:
 
 ```pseudo
 d3.scaleOrdinal([[domain, ]range]);               
