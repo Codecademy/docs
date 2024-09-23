@@ -19,7 +19,7 @@ The **`.treemap()`** method in the express module from Plotly library allows the
 ## Syntax
 
 ```pseudo
-plotly.express.treemap(
+fig=px.treemap(
     names = ["element1", "element2". "element3", "element4"]
     parents = ["", "element1", "element1", "element1"] # Note: the empty element `""` also counts
 )
@@ -31,7 +31,7 @@ show()
 
 - `plotly.express.treemap()`: Usually used as `px`, and thus `px.treemap()`, this is the way to call the method in full.
 - `names`: The column which contains four rows - `element1`, `element2`, `element3`, `element4`.
-- `parents`: The column which containf four rows, each one corresponding to the rows of `names` - `""` for `element1`, `element5` for `element2`, `element6` for `element3`, `element7` for `element4`.
+- `parents`: The column which contains four rows, each one corresponding to the rows of `names` - `""` for `element1`, `element1` for `element2`, `element1` for `element3`, `element1` for `element4`.
 - `update_traces()`: is used to update the treemap's root color. It can take arguments that allow to modify attributes such as colors, shapes, and styles.
 - `update_layout()`: this method updates the layout chart, allowing to tailor the appearence and visualization style, including margins, colors, and others.
 - `show()`: Is used to run and show the chart.
@@ -61,7 +61,9 @@ figure.show()
 
 The example above results in the following output:
 
-An example combining a `Data Frame` with the `.treemap()`:
+![The output for the example above](http://127.0.0.1:60957/)
+
+Combining a `Data Frame` with the `.treemap()`:
 
 ```py
 # Creating an alias for plotly.express library
@@ -92,3 +94,5 @@ figure.show()
 ```
 
 The example above results in the following output:
+
+![The output for the example above](http://127.0.0.1:60988/)
