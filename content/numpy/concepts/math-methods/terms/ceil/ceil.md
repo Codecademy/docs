@@ -23,7 +23,7 @@ This function is applied to real numbers.
 ## Syntax
 
 ```pseudo
-numpy.ceil(input_value, out=None, where=True)
+numpy.ceil(input_value)
 ```
 
 - `input_value`: The input array or scalar that contains the elements to be rounded up.
