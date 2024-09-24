@@ -212,3 +212,40 @@ let obj = new Obj();
 console.log(obj.someProperty);
 // Output = 25;
 ```
+
+## Codebyte Example
+
+To demonstrate `this`, the following codebyte example creates the function `getInfo`. First, the class `Student` is created, and the constructor is called with the necessary parameters. Using `this`, global objects are created, which are then accessed within the function to retrieve values and return a string object:
+
+```codebyte/javascript
+class Student {
+
+  constructor(name, lastName, bornYear) {
+    this.name = name;
+    this.lastName = lastName;
+    this.bornYear = bornYear;
+  }
+
+  getInfo() {
+    const randomArr = [
+      'Mary and John',
+      'Rose and Leonard',
+      'Lucy and Joshua',
+      'Lyla and James'
+    ];
+
+    const idx = Math.floor(Math.random() * randomArr.length);
+
+    const info = {
+      "fullName": `${this.name} ${this.lastName}`,
+      "bornYear": this.bornYear,
+      "parents": randomArr[idx]
+    };
+
+    return info;
+  }
+}
+
+let studentOne = new Student('Marcy', 'Alano', 1999);
+console.log(studentOne.getInfo())
+```
