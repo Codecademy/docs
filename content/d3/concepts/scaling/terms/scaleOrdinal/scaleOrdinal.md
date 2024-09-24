@@ -1,7 +1,7 @@
 ---
-Title: 'D3.scaleOrdinal()'
+Title: 'd3.scaleOrdinal()'
 Description: 'Used to build an ordinal scale with identified domain and range values.'
-Subjects: 
+Subjects:
   - 'Data Visualization'
   - 'Data Science'
   - 'Web Development'
@@ -15,6 +15,7 @@ CatalogContent:
 ---
 
 The d3.scaleOrdinal() function creates an ordinal scale with a defined domain (input values) and range (output values). If no values are provided:
+
 - The domain defaults to an empty array.
 - The range defaults to a set of categorical colours (`d3.schemeCategory10`).
 
@@ -22,20 +23,20 @@ Ordinal scales are primarily used for names and categorical data with a distinct
 
 ## Syntax
 
-
 ```pseudo
-d3.scaleOrdinal([[domain, ]range]);               
+d3.scaleOrdinal([[domain, ]range]);
 ```
 
 - `domain`: The input values to be mapped, defining the minimum and maximum values for the scale.
 - `range`: The output values that correspond to the domain. Each value in the domain matches a value in the range.
-        
+
 ## Example
 
 The following code example demonstrates how to map discrete categories (race positions) to specific values (runner's finish times) using `d3.scaleOrdinal()`:
 
 ```js
-const positionScale = d3.scaleOrdinal()
-                    .domain(['First', 'Second', 'Third'])
-                    .range([5.33, 5.45, 6.03]);      
+const positionScale = d3
+  .scaleOrdinal()
+  .domain(['First', 'Second', 'Third'])
+  .range([5.33, 5.45, 6.03]);
 ```
