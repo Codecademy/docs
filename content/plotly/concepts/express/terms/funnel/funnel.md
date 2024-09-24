@@ -31,8 +31,6 @@ plotly.express.funnel(data_frame=None, x=None, y=None, color=None, facet_row=Non
 - `color`: The column in the dataframe that assigns colors to the bars of the funnel.
 - `facet_row`: Splits the funnel chart into vertically-stacked subplots based on a specified column from the dataframe.
 - `facet_col`: Splits the funnel chart into horizontally-arranged subplots based on a specified column from the dataframe.
-- `title`: The title of the chart.
-- `labels`: Custom labels for different axes or legend items.
 
 > **Note:** The ellipsis (...) indicates there can be additional optional parameters beyond those listed here.
 
