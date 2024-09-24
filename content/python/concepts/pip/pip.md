@@ -80,19 +80,19 @@ Managing dependencies effectively is crucial when working on multiple Python pro
 
 ### Setting Up a Virtual Environment
 
-You can set up a virtual enviroment with the following steps:
+You can set up a virtual environment with the following steps:
 
 
-1. **Create a virtual enviroment**:
+1. **Create a virtual environment**:
 
 ```shell
 python -m venv venv_name
 ```
 
-This creates a new directory (`venv_name`) that contains astandalone Python installation and a local copy of `pip`.
+This creates a new directory (`venv_name`) that contains a standalone Python installation and a local copy of `pip`.
 
 
-2. **Activate the virtual enviroment**:
+2. **Activate the virtual environment**:
 
 ```shell
 # Windows
@@ -102,7 +102,7 @@ venv_name\Scripts\activate
 source venv_name/bin/activate
 ```
 
-After activation, any `pip` commands will install packages only within the virtual enviroment, ensuring isolation.
+After activation, any `pip` commands will install packages only within the virtual environment, ensuring isolation.
 
 
 3. **Install dependencies**:
@@ -115,7 +115,7 @@ pip install -r requirements.txt
 
 4. **Deactivating the virtual environment**:
 
-When you're done, you can deactivate the environment by sinmply running:
+When you're done, you can deactivate the environment by simply running:
 ```shell
 deactivate
 ```
