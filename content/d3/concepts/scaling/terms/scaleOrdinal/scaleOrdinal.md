@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The d3.scaleOrdinal() function creates an ordinal scale with a defined domain (input values) and range (output values). If no values are provided:
+The `**d3.scaleOrdinal()**` function creates an ordinal scale with a defined domain (input values) and range (output values). If no values are provided:
 
 - The domain defaults to an empty array.
 - The range defaults to a set of categorical colours (`d3.schemeCategory10`).
