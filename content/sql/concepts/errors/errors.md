@@ -37,7 +37,7 @@ Logical errors arise when the query executes successfully but produces an incorr
 The below syntax shows the demonstration of how a syntactical error occurs in SQL. Here the word `FORM` causes a syntactical error.
 
 ```pseudo 
-SELECT * FORM users; 
+SELECT * FORM users;
 ```
 ### Example
 
