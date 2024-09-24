@@ -20,7 +20,7 @@ In NumPy, the **`.unwrap()`** function is used to unwrap a phase angle array. Th
 
 ## Syntax
 ```pseudo
-numpy.unwrap(input_value, discont=pi, axis=-1, period=2*pi)
+numpy.unwrap(input_value, discont=pi, axis=-1, period=2*numpy.pi)
 ```
 
 - `input_value`: The input array of phase angles to be unwrapped.
