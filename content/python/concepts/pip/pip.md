@@ -78,9 +78,10 @@ py -m pip install ACoolPackage
 
 Managing dependencies effectively is crucial when working on multiple Python projects. Without isolation, different projects might require different versions of the same package, which can lead to conflicts. This is where virtual environments come in. They allow you to create isolated environments for each project, ensuring that dependencies do not interfere with one another.
 
-# Setting Up a Virtual Environment
+### Setting Up a Virtual Environment
 
 You can set up a virtual enviroment with the following steps:
+
 
 1. **Create a virtual enviroment**:
 
@@ -89,6 +90,7 @@ python -m venv venv_name
 ```
 
 This creates a new directory (`venv_name`) that contains astandalone Python installation and a local copy of `pip`.
+
 
 2. **Activate the virtual enviroment**:
 
@@ -102,12 +104,14 @@ source venv_name/bin/activate
 
 After activation, any `pip` commands will install packages only within the virtual enviroment, ensuring isolation.
 
+
 3. **Install dependencies**:
 
 Once the environment is activated, you can install your project's dependencies:
 ```shell
 pip install -r requirements.txt
 ```
+
 
 4. **Deactivating the virtual environment**:
 
@@ -116,7 +120,8 @@ When you're done, you can deactivate the environment by sinmply running:
 deactivate
 ```
 
-# Generating a `requirements.txt` File
+
+### Generating a `requirements.txt` File
 
 To help others reproduce your environment, you can generate a `requirements.txt` file that lists all the installed packages and their versions:
 ```shell
