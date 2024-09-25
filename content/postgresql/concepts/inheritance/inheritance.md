@@ -24,6 +24,7 @@ Some common use cases for using inheritance are:
 - Specialized Data with Shared Attributes
 
 ## Syntax
+
 If one is to create a table that inherits the columns of another table, the `INHERITS` clause is used.
 
 ```sql
