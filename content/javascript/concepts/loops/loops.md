@@ -257,12 +257,15 @@ The output would be:
 4
 5
 ```
+
 ## Continue Keyword
 
-The `continue` keyword may be used to exit a specific iteration of the loop and continue with the next iteration. 
+The `continue` keyword may be used to exit a specific iteration of the loop and continue with the next iteration.
 
-In the example below, the `continue` keyword is used to exit when a `i` is divisible by `3`. 
 ## Example
+
+In the example below, the `continue` keyword is used to exit when a `i` is divisible by `3`.
+
 ```js
 for (let i = 0; i < 12; i++) {
   if (i % 3 === 0) {
@@ -271,7 +274,8 @@ for (let i = 0; i < 12; i++) {
   console.log(i);
 }
 ```
-The output would be: 
+
+The output will be:
 
 ```shell
 1
@@ -283,6 +287,7 @@ The output would be:
 10
 11
 ```
+
 ## Nested For Loop
 
 A nested `for` loop is when a `for` loop runs inside another `for` loop.
