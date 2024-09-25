@@ -1,6 +1,6 @@
 ---
 Title: 'Heap Sort Algorithm'
-Description: 'Returns sorted array understandably smart way.'
+Description: 'An efficient sorting algorithm that uses a binary heap to sort an array in O(n log n) time.'
 Subjects:
   - 'Computer Science'
 Tags:
