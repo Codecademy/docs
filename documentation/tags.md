@@ -56,6 +56,7 @@ Charts
 Chatbots
 Cryptocurrency
 Classes
+Classification
 Cloud Computing
 Code Editors
 Conditionals
@@ -138,6 +139,7 @@ Flask
 Flexbox
 Flutter
 Fonts
+Footnotes
 For
 ForEach
 Foreign Key
@@ -219,6 +221,8 @@ Methods
 Middleware
 Models
 Modules
+Multitask Learning
+MultiTaskLasso
 MySQL
 Naive Bayes
 Natural Language Processing
@@ -300,6 +304,7 @@ Sorting Algorithms
 Span
 Specificity
 Spread
+SQL
 SQLite
 SQL Server
 Stacks
@@ -311,6 +316,7 @@ Strings
 Structure
 Style
 Subqueries
+Supervised Learning
 SwiftUI
 SwiftUI Views
 SwiftUI ViewModifiers
@@ -324,6 +330,7 @@ Technical Interviews
 Templates
 TensorFlow
 Text-To-Image
+Text Processing
 Threads
 Tidyr
 Time
@@ -344,6 +351,7 @@ Union
 Unicode
 Units
 Unix
+Unsupervised Learning
 URL
 UX
 Validation
