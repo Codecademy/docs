@@ -30,9 +30,7 @@ CatalogContent:
 - Designers and researchers should also keep participant selection in mind when planning a user study. User surveys, focus groups, and similar methodologies will always be subject to **selection bias**, a phenomenon in which the population of users willing to participate in the study are not representative of the userbase as a whole. Concerns around participant selection will also include scaling and privacy. Generally, the more participants a study has, the more representative it will be of the whole userbase, and the better it will be at predicting future behavior; however, the more participants a study has, the more resources it will require, and researchers often find themselves working around time and funding limitations. Privacy becomes a sliding concern with today's advanced tracking tools. Cookies may provide detailed user demographics, or heatmap plugins might give insights into granular cursor behaviors, but some users find these tools invasive. Researchers will find themselves having to balance their organization's data requirements with its values and ethics.
 
 ##User Research Results and Products
-- Data Reporting and Visualization
-- User Personas
-- User Stories
+An important skill for user researchers to cultivate is the ability to translate raw data into easily-digestible information and actionable insights. **Data visualization** is a major part of that skillset, in which the research team uses visual design tools like charts and graphs to communicate this information at varying levels of depth. Research teams may also generate user [personas](https://www.codecademy.com/resources/docs/uiux/persona) and [user stories](https://www.codecademy.com/resources/docs/user-story), tools that serve as useful shorthand references for designers, developers, and marketers.
 
 <!-- Insert illustration of data visualization, user personas, and user stories -->
 
