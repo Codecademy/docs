@@ -20,8 +20,6 @@ CatalogContent:
 3. **Analysis:** After gathering large quantities of raw data, the user research team will evaluate the data for actionable insights, keeping in mind the goals established during planning. Researchers will first check the quality of the data: "Does it appear the users understood this survey question? Did this focus group stay on topic? Did this tracking tool function as expected?" They will then examine the data for trends or groupings that can be reasonably applied to the userbase at large: "Enterprise decision-makers among the userbase express ABC preference; X% of daily users exit the site at XYZ page." 
 4. **Reporting:** Finally, researchers will translate their analyzed data into an easily-understandable [research-report](https://www.codecademy.com/resources/docs/uiux/research-report). This report should also include a high-level summary of the execution process, and it should tie both the research findings and the research execution to the initial research plan. 
 
-<!-- Insert high-level conceptual illustration of user research process -->
-
 ##User Research Considerations
 
 - Designers must consider whether they working with **qualitative** or **quantitative** data. [Quantitative research](https://www.codecademy.com/resources/docs/uiux/quantitative-research) data can be expressed numerically, such as "75% of users who reach this page exit the site" or "65% of survey respondents are men aged 30-45." Quantitative research can take the form of site tracking, closed-ended survey questions, or behavioral assessment, among other methodologies. [Qualitative research](https://www.codecademy.com/resources/docs/uiux/qualitative-research) data typically expresses judgment or evaluation from individual respondents. A qualitative report might read "User expressed difficulty discerning text from background with color combination A" or "researcher observed user frustration trying to access feature B." Designers seeking qualitative data can utilize interviews, open-ended survey questions, or a number of other methodologies. Quantitative research paints a clearer, more reliable picture of a userbase and its behaviors, while qualitative research allows for more in-depth explanation of those behaviors. Effective researchers will use a variety of methodologies to identify and solve user problems.
@@ -31,8 +29,6 @@ CatalogContent:
 
 ##User Research Results and Products
 An important skill for user researchers to cultivate is the ability to translate raw data into easily-digestible information and actionable insights. **Data visualization** is a major part of that skillset, in which the research team uses visual design tools like charts and graphs to communicate this information at varying levels of depth. Research teams may also generate user [personas](https://www.codecademy.com/resources/docs/uiux/persona) and [user stories](https://www.codecademy.com/resources/docs/user-story), tools that serve as useful shorthand references for designers, developers, and marketers.
-
-<!-- Insert illustration of data visualization, user personas, and user stories -->
 
 ##Benefits and Shortcomings of User Research
 - User research is a critical tool in identifying [user pain points](https://www.codecademy.com/resources/docs/uiux/user-pain-points) and can directly help teams ease those problems. 
