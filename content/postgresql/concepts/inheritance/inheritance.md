@@ -12,7 +12,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'learn-sql'
 ---
   
-**Inheritance** is a feature in PostgreSQL that allows a table to inherit the structure and behavior or one or more parent tables.
+**`Inheritance`** is a feature in PostgreSQL that allows a table to inherit the structure and behavior or one or more parent tables.
 
 ## The Concept
 Inheritance in PostgreSQL allows for a table to inherit the columns and constraints of one or more tables. This allows for a table to have a common set of columns, and then to add additional columns to the table.
