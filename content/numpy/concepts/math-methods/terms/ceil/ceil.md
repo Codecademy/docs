@@ -29,9 +29,9 @@ numpy.ceil(input_value)
 - `input_value`: The input array or scalar that contains the elements to be rounded up.
 - `out` (optional): A location where the result of the rounding will be stored. If no value is provided, the default is `None`, and a new array is returned.
 - `where` (optional): A boolean array that specifies the condition for rounding:
-	- If the condition is `True` at a given position, the element will be rounded.
-	- If the condition is `False`, the original value is retained.
-	- If no value is provided, the `.ceil()` function is applied to all elements.
+  - If the condition is `True` at a given position, the element will be rounded.
+  - If the condition is `False`, the original value is retained.
+  - If no value is provided, the `.ceil()` function is applied to all elements.
 
 ## Example
 
