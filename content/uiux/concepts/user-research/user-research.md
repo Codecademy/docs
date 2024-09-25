@@ -12,14 +12,26 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**User research** is the systematic study of target users of a product or interface to understand their behaviors, needs, and motivations. User research can happen at every stage of the design process to inform decisions.
+**User research** is the identification, observation, and study of target users and their behaviors. User research can affect decisions across an organization: which products are developed, what they look like, and how they are sold. Regular user research is also part of a robust [iterative design process](https://www.codecademy.com/resources/docs/uiux/iterative-process), helping designers test and evaluate UI/UX changes.
 
-![Illustrations of three tools used by user researchers to communicate their research findings: personas, storyboards, and journey maps.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/key-methodologies/ux-research.png)
+<!-- Insert high-level conceptual illustration of user research -->
 
-It's important to combine multiple research methods for a full understanding of user behavior.
+##User Research Considerations
 
-Some researchers specialize in [quantitative research](https://www.codecademy.com/resources/docs/uiux/quantitative-research) methods that can be measured numerically. Others specialize in [qualitative research](https://www.codecademy.com/resources/docs/uiux/qualitative-research) methods that examine why users behave the way they do in depth. [Attitudinal methods](https://www.codecademy.com/resources/docs/uiux/attitudinal-research) focus on what users say, while [behavioral methods](https://www.codecademy.com/resources/docs/uiux/behavioral-research) observe user behavior.
+- Qualitative and Quantitative Data
+- Attitudinal or Behavioral Research
+- Observed or Prompted Behavior
+- Participant Selection Considerations
 
-While generative user research, such as interviews and surveys, is done as part of the discovery process to get to know users better, evaluation methods like user testing and A/B testing assess how a design or prototype performs once it's complete. Research can happen either in-person or remotely &mdash; remote UX research can help increase inclusivity, free up monetary resources that would be spent on travel, and increase convenience for research participants (source: [Nielsen Norman Group](https://www.nngroup.com/articles/remote-ux/)).
+##User Research Results and Products
+- Data Reporting and Visualization
+- User Personas
+- User Stories
 
-User researchers use visual tools like personas, user journey maps, and storyboards to advocate for the user and circulate key points from user research across an organization.
+<!-- Insert illustration of data visualization, user personas, and user stories -->
+
+##Benefits and Shortcomings
+- Usability/accessibility improvements at user pain points
+- Explicitly documented common goals across teams
+- Conversion focus versus value focus confuses product vision
+- User feedback limitations (Henry Ford's "If I had asked my customers what they wanted, they would have said a faster horse.")
