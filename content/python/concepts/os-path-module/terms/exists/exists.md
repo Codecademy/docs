@@ -1,6 +1,6 @@
 ---
 Title: '.exists()'
-Description: 'Checks whether a given file or folder exists in the diretory of an operating system.'
+Description: 'Checks whether a given file or folder exists in the directory of an operating system.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'

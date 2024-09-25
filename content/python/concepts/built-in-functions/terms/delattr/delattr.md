@@ -54,13 +54,13 @@ class Travel:
 
 my_holiday = Travel()
 
-print("My first destinantion for my holiday is ", my_holiday.first_stop)
-print("My second destinantion for my holiday is ", my_holiday.second_stop)
-print("My third destinantion for my holiday is ", my_holiday.third_stop)
+print("My first destination for my holiday is ", my_holiday.first_stop)
+print("My second destination for my holiday is ", my_holiday.second_stop)
+print("My third destination for my holiday is ", my_holiday.third_stop)
 
 delattr(Travel, "third_stop")
-print("My first destinantion for my holiday is ", my_holiday.first_stop)
-print("My second destinantion for my holiday is ", my_holiday.second_stop)
+print("My first destination for my holiday is ", my_holiday.first_stop)
+print("My second destination for my holiday is ", my_holiday.second_stop)
 
-# print("My third destinantion for my holiday is ", my_holiday.third_stop)
+# print("My third destination for my holiday is ", my_holiday.third_stop)
 ```

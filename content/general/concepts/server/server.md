@@ -23,4 +23,4 @@ Large groups of servers can be referred to as data centers. As data center level
 
 ## Virtualization and Beyond
 
-In the early days of computing, a single server could be used to provide data to a client resource. Things developed naturally so that a single server could serve several clients and one client could communicate with several servers. These days server technology has advanced so that multiple servers can be placed on a single physical servers using hypervisors. The ability to host multiple servers on a single device is known as virtualization, and has led to exponential leaps in computing power, and efficiency in application deployment.
+In the early days of computing, a single server could be used to provide data to a client resource. Eventually, a single server could serve several clients and one client could communicate with several servers. These days server technology has advanced so that multiple servers can be placed on a single physical server using hypervisors. The ability to host multiple servers on a single device is known as virtualization, and has led to exponential leaps in computing power, and efficiency in application deployment.

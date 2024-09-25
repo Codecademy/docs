@@ -65,7 +65,7 @@ var body: some View {
     }
 ```
 
-`ScrollView()` displays the content within the scrollable region and adjusts what portion of the content is visible. Here, the axis is set to `.horizontal`, which allows for horizontal scrolling. `ScrollView()` natively will scroll vertically and the paramenter inside the brackets can be omitted.
+`ScrollView()` displays the content within the scrollable region and adjusts what portion of the content is visible. Here, the axis is set to `.horizontal`, which allows for horizontal scrolling. `ScrollView()` natively will scroll vertically and the parameter inside the brackets can be omitted.
 
 This will display the following:
 

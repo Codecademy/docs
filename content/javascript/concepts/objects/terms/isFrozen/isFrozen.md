@@ -27,9 +27,9 @@ The following example checks if an object is frozen.
 
 ```js
 const avgAnnualTemps = {
-  Sydney: '18.7 celcius',
-  Reykjavik: '5.3 celcius',
-  Tokyo: '16.66 celcius',
+  Sydney: '18.7 celsius',
+  Reykjavik: '5.3 celsius',
+  Tokyo: '16.66 celsius',
 };
 
 console.log(Object.isFrozen(avgAnnualTemps));

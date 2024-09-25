@@ -27,7 +27,7 @@ Special cases include the following:
 
 - If `num` is `NaN`, `NaN` will be returned.
 - If `num` is positive or negative zero, then the return value will be `Double.MIN_VALUE` or `Float.MIN_VALUE` which is the lowest number a `float` or `double` can represent.
-- If `num` is positive or negative infinity, then the return value will be postive infinity.
+- If `num` is positive or negative infinity, then the return value will be positive infinity.
 - If `num` is a number, then `num` will have the same return value as `-num`.
 - If `num` is `Double.MAX_VALUE` or `Float.MAX_VALUE`, then the return value will be 2<sup>971</sup> for `double` and 2<sup>104</sup> for `float`.
 

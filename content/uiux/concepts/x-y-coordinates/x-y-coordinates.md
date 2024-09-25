@@ -29,4 +29,4 @@ Because design software assigns X and Y coordinates for every layer, designers c
 
 For example, if a [button](https://www.codecademy.com/resources/docs/uiux/button) should appear in the same position across multiple website pages, a designer can check the X and Y coordinates of the button to ensure that they are the same on every frame.
 
-Figma, a prototyping tool and graphics editor, has [more information](https://help.figma.com/hc/en-us/articles/360039956914-Adjust-alignment-rotation-and-position#Position) on X and Y coordinations including alignment, rotation, and postiion.
+Figma, a prototyping tool and graphics editor, has [more information](https://help.figma.com/hc/en-us/articles/360039956914-Adjust-alignment-rotation-and-position#Position) on X and Y coordinations including alignment, rotation, and position.

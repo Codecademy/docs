@@ -30,7 +30,7 @@ Parameters of the `.amin()` function:
 - `axis`: An int or a tuple of ints specifying the axis/axes along which to choose the minimum. By default it is set as `axis=None`.
 - `out`: An [`ndarray`](https://www.codecademy.com/resources/docs/numpy/ndarray) to receive result. Must have the same shape as expected output.
 - `keepdims`: A boolean; if `True` will keep reduced axes in the result as dimensions with size one.
-- `inital`: The maximum value of an output element.
+- `initial`: The maximum value of an output element.
 - `where`: A boolean array that maps to `array` and selects which elements to compare for the minimum.
 
 Returns:
