@@ -92,9 +92,3 @@ result = np.ceil(arr)
 
 print(result)
 ```
-
-The output of this Codebyte will be:
-
-```shell
-[ 2.  3. -0. -1.  4.]
-```
