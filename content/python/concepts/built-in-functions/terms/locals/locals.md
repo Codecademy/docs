@@ -24,25 +24,52 @@ locals()
 ## Example
 
 ```py
-{'In': ['', 'locals()'],
- 'Out': {},
- '_': '',
- '__': '',
- '___': '',
- '__builtin__': ,
- '__builtins__': ,
- '__name__': '__main__',
- '_dh': ['/home/repl'],
- '_i': '',
- '_i1': 'locals()',
- '_ih': ['', 'locals()'],
- '_ii': '',
- '_iii': '',
- '_oh': {},
- '_sh': ,
- 'exit': ,
- 'get_ipython': >,
- 'quit': }
+def example():
+ print( "No local variables." ,locals() )
+
+def example2():
+ ex= "A"
+ print( "One local variable." , locals() )
+
+#example result
+
+No local variables. {}
+
+#example2 result
+
+One local variables. {ex:A}
 ```
 
-Attempting to edit an active variable by changing `locals()` does not work.
+
+`locals()` cannot change the local symbol table. It only allows you to see it.
+
+```py
+
+def example2a():
+ ex="A"
+ print("One local variable.", locals())
+ print("Before updateing ex is :", ex)
+
+ locals()["ex"]= "B"
+
+ print("After updateing ex is :", ex)
+
+*example2a result
+
+One local variable, {ex:A}
+Before updating ex is : A
+After updateing ex is : A
+```
+
+In the `global` scope `locals()` is the same as `globals()`
+
+```py
+
+print("Locals", locals())
+
+print("Globals", globals())
+
+{'__name__': '__main__', '__doc__': None, '__package__': None, '__loader__': <_frozen_importlib_external.SourceFileLoader object at 0x7fabf35f3d70>, '__spec__': None, '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, '__file__': '/home/ccuser/workspace/learn-python-control-flow-sals-shipping/shipping.py', '__cached__': None, 'weight': 41.5}
+
+```
+
