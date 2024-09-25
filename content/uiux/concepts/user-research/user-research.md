@@ -34,9 +34,8 @@ An important skill for user researchers to cultivate is the ability to translate
 
 <!-- Insert illustration of data visualization, user personas, and user stories -->
 
-##Benefits and Shortcomings
-- Usability/accessibility improvements at user pain points
-- Explicitly documented common goals across teams
-- Conversion focus versus value focus confuses product vision
-- User feedback limitations (Henry Ford's "If I had asked my customers what they wanted, they would have said a faster horse."
-)
+##Benefits and Shortcomings of User Research
+- User research is a critical tool in identifying [user pain points](https://www.codecademy.com/resources/docs/uiux/user-pain-points) and can directly help teams ease those problems. 
+- When user research delivers clear user personas, preferences, and stories, it provides a clear, documented goal that can serve as a uniting reference point for disparate teams across an organization. 
+- User research tends to favor quantitative over qualitative data, sometimes leading to features that favor engagement and conversion over user value or organizational goals.
+- User research can limit scope to improving existing product features, making it harder to find new, innovative solutions. 
