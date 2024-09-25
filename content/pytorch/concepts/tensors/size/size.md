@@ -22,7 +22,6 @@ The **`size()`** method returns a `torch.Size` object containing the size inform
 
 ```psuedo
 t.size(dim=None)
-```
 
 - `dim`: (`int`) This optional parameter specifies the dimension for which to retrieve the size. The default value is `None`. 
     - If `dim` is not provided, the returned value is a `torch.Size`, a subclass of __tuple__. 
