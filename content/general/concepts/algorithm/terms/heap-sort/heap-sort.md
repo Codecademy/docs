@@ -19,7 +19,7 @@ The efficiency of Heap Sort comes from using a binary heap structure, a complete
 
 A heap can be easily represented in an array. The root node is the first element, and the rest of the tree is stored level by level, from left to right. For any node at index `i`, its left child is at `2*i + 1` and its right child is at `2*i + 2`.
 
-![heap in an array](https://raw.githubusercontent.com/Codecademy/docs/main/media/heap_in_array.jpg)
+![Heap in an Array](https://raw.githubusercontent.com/Codecademy/docs/main/media/heap_in_array.jpg)
 
 ## Explanation
 
