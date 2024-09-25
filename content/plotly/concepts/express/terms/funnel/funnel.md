@@ -17,7 +17,7 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-The **.funnel()** method in Plotly Express creates a chart showing the progressive reduction, or "funneling," of data as it moves through sequential stages. The chart is composed of stacked horizontal bars, with the length of each bar representing a value at each stage in the process. This helps visualize how the values change as they move through each stage and can highlight bottlenecks or drop-offs in values.
+The **`.funnel()`** method in Plotly Express creates a chart showing the progressive reduction, or "funneling," of data as it moves through sequential stages. The chart is composed of stacked horizontal bars, with the length of each bar representing a value at each stage in the process. This helps visualize how the values change as they move through each stage and can highlight bottlenecks or drop-offs in values.
 
 ## Syntax
 
