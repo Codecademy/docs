@@ -85,11 +85,11 @@ WHERE {
 
 This results in the below output:
 
-| ?title |
-|:-:|
-| "Pachinko" |
+|        ?title        |
+| :------------------: |
+|      "Pachinko"      |
 | "The Mosquito Coast" |
-| "A Gesture Life" |
+|   "A Gesture Life"   |
 
 The special character `*` can be used to return the values matching all variables in the query pattern:
 
@@ -103,11 +103,11 @@ WHERE {
 
 The above query produces the following output:
 
-|?x|?y|
-|:-:|:-:|
-|doc:authoredBy|https://en.wikipedia.org/wiki/Chang-Rae_Lee|
-|doc:title|"A Gesture Life"|
-|doc:soldCopies|87740|
+|       ?x       |                     ?y                      |
+| :------------: | :-----------------------------------------: |
+| doc:authoredBy | https://en.wikipedia.org/wiki/Chang-Rae_Lee |
+|   doc:title    |              "A Gesture Life"               |
+| doc:soldCopies |                    87740                    |
 
 ### ASK
 
