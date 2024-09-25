@@ -13,11 +13,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Heap sort** belongs among smart algorithms and is way faster than simple sorting algorithms like Bubble Sort, Insertion Sort or Selection Sort. It evolves an idea of the Selection Sort thus tears away _an extreme_ (let's consider only a maximum in this explanation but it works analogously to a minimum) and moves it to the end of an array. After integrating of all maximums to the end the array is sorted for sure. The main advantage of the Heap sort over the Selection Sort is just in search of the extreme.
+**Heap Sort** is an efficient comparison-based sorting algorithm that outperforms simple algorithms like Bubble Sort, Insertion Sort, or Selection Sort. It builds upon the idea of Selection Sort but improves it by leveraging a binary heap to quickly find the maximum (or minimum) value. This significantly speeds up the process of sorting an array by moving the maximum element to the end in each iteration.
 
-The reason for its efficiency lies in using the Heap structure. The Heap is a binary tree. It means all levels of such tree are fully occupied except for the last one which can be filled only partially and is always filled from the left side. Each node has just 2 descendants and that is called a "balanced binary tree". Finally, the descendants must be less or equal to its parent node. From these attributes emerges the fact that the root node has to be the maximum.
+The efficiency of Heap Sort comes from using a binary heap structure, a complete binary tree where every level is filled except possibly the last. In this structure, each parent node is greater than or equal to its children (max-heap). This property ensures that the root node always contains the largest element, which can then be moved to the end of the array.
 
-You may wonder how the heap can be represented in an array. The root node is the first element (where index = 0) and the last element of a heap is also the last element of the array. In a simplified way all levels of the heap are piled up to the array by their order from the top to the ground. Each node is followed by its right neighbor and at the end of a level it jumps down one row to the first left node in the row.
+A heap can be easily represented in an array. The root node is the first element, and the rest of the tree is stored level by level, from left to right. For any node at index `i`, its left child is at `2*i + 1` and its right child is at `2*i + 2`.
 
 ![heap in an array](https://raw.githubusercontent.com/Codecademy/docs/main/media/heap_in_array.jpg)
 
