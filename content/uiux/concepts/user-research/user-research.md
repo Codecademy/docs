@@ -14,7 +14,13 @@ CatalogContent:
 
 **User research** is the identification, observation, and study of target users and their behaviors. User research can affect decisions across an organization: which products are developed, what they look like, and how they are sold. Regular user research is also part of a robust [iterative design process](https://www.codecademy.com/resources/docs/uiux/iterative-process), helping designers test and evaluate UI/UX changes.
 
-<!-- Insert high-level conceptual illustration of user research -->
+##User Research Process
+- Planning
+- Execution
+- Analysis
+- Reporting
+
+<!-- Insert high-level conceptual illustration of user research process -->
 
 ##User Research Considerations
 
