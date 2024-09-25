@@ -29,7 +29,7 @@ There are several kinds of software testing with varying degrees of specificity,
 - Integration testing aims to figure out how well different components of the app work with each other.
 - [Unit testing](https://www.codecademy.com/resources/docs/general/unit-testing) attempts to see how different units of code perform in isolation from the rest of the program.
 - Through functional testing, engineers can see how software accomplishes specific, intended purposes.
-- Stress tests accesses the performance of programs during worst-case scenarios to understand if and how it breaks.
+- Stress tests assess the performance of programs during worst-case scenarios to understand if and how they break.
 - Performance testing reveals how the program will perform in more common, real-world scenarios.
 
 ## Testing Strategies
