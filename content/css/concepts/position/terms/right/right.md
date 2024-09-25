@@ -42,6 +42,7 @@ Set the position of `.box` element `40px` off the right edge of the nearest rela
   right: 40px;
 }
 ```
+
 ![Shows result of CSS right property with a position attribute of absolute](https://raw.githubusercontent.com/Codecademy/docs/main/media/css_position_right_absolute.png)
 
 The box element is taken out of the normal DOM flow and positioned 40px away from the right edge of its parent container.
@@ -59,6 +60,7 @@ Set the position of `.box` element `40px` from the elements right edge.
   right: 40px;
 }
 ```
+
 ![Shows result of CSS right property with a position attribute of relative](https://raw.githubusercontent.com/Codecademy/docs/main/media/css_position_right_relative.png)
 
 The box element is moved 40px to the left of its normal position relative to its right edge.
