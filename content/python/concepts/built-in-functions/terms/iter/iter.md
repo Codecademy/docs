@@ -6,68 +6,87 @@ Subjects:
   - 'data science'
 Tags:
   - 'Iterators'
+  - 'Functions'
+  - 'Methods'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
+  - 'paths/data-science'
 ---
 
-**iter()** function is a built-in function in python that returns an [iterator](https://www.codecademy.com/resources/docs/python/iterators)
+**iter()** function is a built-in function in Python that returns an [iterator](https://www.codecademy.com/resources/docs/python/iterators) from an object such as a list, tuple, string or any object that follows iterator protocol.
 
 ## Syntax
 
 ```pseudo
 iter(object)
-```
-
-```pseudo
 iter(object, sentinel)
 ```
 
-- `object` parameter supplies the object on which the iter() method will return the iterator. The type of this parameter depends on the presence of the optional second `sentinel` parameter. In the case where the sentinel parameter is not given, the object parameter type must be one that supports iteration or a sequence. These types include: list, str, and tuple among others. You may also pass in objects that you've defined with either **\_\_iter\_\_()** or **\_\_getitem\_\_()** methods. When the sentinel parameter is present, the object parameter must be callable.
+- `object`: A required argument represents an object such as a list, tuple, string, or any object that follows iterator or sequence protocol.
+- `sentinel`: An optional argument represents the end of the sequence.
 
-- `sentinel` is the parameter that stores the value which represents the end of the sequence. When the callable object returns this value, the iterator will terminate.
-
-## Example
+## Examples
 
 ```py
 from functools import partial
 import random
 
-## example one iter() with no sentinel parameter
+# iter() method with no sentinel argument
 fruits = ['apples', 'bananas', 'oranges']
 
 my_iterator = iter(fruits)
-print(my_iterator)
+print('fruits Iterator')
+print(next(my_iterator))
+print(next(my_iterator))
+print(next(my_iterator))
 
-## example two iter() with a sentinel parameter
-func_iterator = iter(partial(random.randint, 1, 10), 7)
-print(func_iterator)
+# iter() method with a callable object and a sentinel argument
+def get_random_num(a, b):
+  return random.randint(a, b)
+
+another_iterator = iter(partial(get_random_num, 1, 10), 7)
+print('\nNumbers: ')
+for i in another_iterator:
+  print(i)
 ```
 
 ```shell
-<list_iterator object at 0x000001CCFDCAA470>
-<callable_iterator object at 0x000001CCFDE37910>
+fruits Iterator
+apples
+bananas
+oranges
+
+Numbers:
+2
+4
+2
+4
+1
+2
+1
+9
+9
+9
+1
+6
 ```
 
 ## Codebyte Example (if applicable)
 
 ```codebyte/python
-technologies = ['next.js', 'react', 'node.js', 'postgreSql', 'firebase', 'tailwindcss']
+import randint from random
 
+technologies = ['next.js', 'react', 'node.js', 'postgreSql', 'firebase', 'tailwindcss']
 tech_iterator = iter(technologies)
 
 for tech in tech_iterator:
   print(tech)
-```
-
-```codebyte/python
-import randint from random
 
 def callback_fn():
   return randint(1,10)
 
 call_iterator = iter(callback_fn, 7)
-
 for val in call_iterator:
   print(val)
 ```
