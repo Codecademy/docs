@@ -1,6 +1,6 @@
 ---
 Title: 'Inheritance' 
-Description: 'Inheriting the columns of another table' 
+Description: 'A feature which enables tables to inherit structure and behavior from parent tables.' 
 Subjects:
   - 'Computer Science'
   - 'Data Science'
