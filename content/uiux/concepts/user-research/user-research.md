@@ -15,10 +15,10 @@ CatalogContent:
 **User research** is the identification, observation, and study of target users and their behaviors. User research can affect decisions across an organization: which products are developed, what they look like, and how they are sold. Regular user research is also part of a robust [iterative design process](https://www.codecademy.com/resources/docs/uiux/iterative-process), helping designers test and evaluate UI/UX changes.
 
 ##User Research Process
-- Planning
-- Execution
-- Analysis
-- Reporting
+1. **Planning:** The first step in performing user research should be to establish a [research plan](https://www.codecademy.com/resources/docs/uiux/research-plan). Here, the team will determine and document what information they need, why the team needs this data, and how it will be obtained. Organizational considerations like scope, timelines, and deliverables should also be established during this phase, and all stakeholders should be identified and informed. 
+2. **Execution:** Here, the research team will use the appropriate methodologies determined in the planning phase to gather data on target users. These methodologies might include [user surveys](https://codecademy.com/resources/docs/uiux/surveys), used to send question sets to large groups of users, [focus groups](https://www.codecademy.com/resources/docs/uiux/focus-groups), in which a moderator leads in-depth conversations with small groups of users, or any number of other avenues of data collection.
+3. **Analysis:** After gathering large quantities of raw data, the user research team will evaluate the data for actionable insights, keeping in mind the goals established during planning. Researchers will first check the quality of the data: "Does it appear the users understood this survey question? Did this focus group stay on topic? Did this tracking tool function as expected?" They will then examine the data for trends or groupings that can be reasonably applied to the userbase at large: "Enterprise decision-makers among the userbase express ABC preference; X% of daily users exit the site at XYZ page." 
+4. **Reporting:** Finally, researchers will translate their analyzed data into an easily-understandable [research-report](https://www.codecademy.com/resources/docs/uiux/research-report). This report should also include a high-level summary of the execution process, and it should tie both the research findings and the research execution to the initial research plan. 
 
 <!-- Insert high-level conceptual illustration of user research process -->
 
