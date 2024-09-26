@@ -15,6 +15,7 @@ CatalogContent:
 ---
 
 The **`.Barpolar()`** method in the `graph_objects` module in Plotly is used to plot bar charts in a polar coordinate system, where each point is defined by two values:
+
 1. Radial distance - This is the distance from the center or origin.
 2. Angle - This indicates the position of the bar around the circle.
 
