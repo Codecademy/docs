@@ -1,6 +1,6 @@
 ---
 Title: '.Barpolar()'
-Description: 'Creates a polar bar chart using .Barpolar() class of graph_objects module in Plotly.'
+Description: 'Creates a polar bar chart in Plotly.'
 Subjects:
   - 'Data Science'
   - 'Data Visualization'
@@ -14,10 +14,8 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.Barpolar()`** class is used to plot bar charts on the polar coordinate system, where each point on the system is defined by two values:
-
+The **`.Barpolar()`** method in the `graph_objects` module in Plotly is used to plot bar charts in a polar coordinate system, where each point is defined by two values:
 1. Radial distance - This is the distance from the center or origin.
-
 2. Angle - This indicates the position of the bar around the circle.
 
 An example use case is visualizing activity or events over a repeating time period. This includes patterns like time-of-day activity, day-of-week trends, or seasonal variations.
@@ -25,7 +23,7 @@ An example use case is visualizing activity or events over a repeating time peri
 ## Syntax
 
 ```pseudo
-plotly.graph_objects.Barpolar(arg=None, r=None, theta=None, width=None, marker=None)
+plotly.graph_objects.Barpolar(arg=None, r=None, theta=None, width=None, marker=None, ...)
 ```
 
 - `arg`: (Optional) A dictionary of keyword arguments that can be passed to customize the bar polar chart.
@@ -36,7 +34,7 @@ plotly.graph_objects.Barpolar(arg=None, r=None, theta=None, width=None, marker=N
 
 ## Example
 
-The following example showcases the use of the `.Barpolar()` class:
+The following example showcases the use of the `.Barpolar()` method:
 
 ```py
 import plotly.graph_objects as go
@@ -56,7 +54,7 @@ fig.show()
 
 ```
 
-This example creates a simple polar bar chart using `.Barpolar()` class. The bars are positioned using radial distances and angular values. Each bar is styled using custom colors and slight a slight opacity for a visually appealing effect.
+This example creates a simple polar bar chart using `.Barpolar()`. The bars are positioned using radial distances and angular values. Each bar is styled using custom colors and slight a slight opacity for a visually appealing effect.
 
 The above code generates the following output:
 
