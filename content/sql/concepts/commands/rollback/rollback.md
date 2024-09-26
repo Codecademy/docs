@@ -38,7 +38,7 @@ The command can be entered alone to end and undo any changes in the current tran
 
 ```sql
 ROLLBACK;
---Or, for compatability with some SQL standards:
+--Or, for compatibility with some SQL standards:
 ROLLBACK WORK;
 ```
 
