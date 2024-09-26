@@ -4,7 +4,7 @@ Description: 'Returns a slice object, which can be used to slice a sequence such
 Subjects:
   - 'Computer Science'
   - 'Data Science'
-Tags: 
+Tags:
   - 'Data Structures'
   - 'Functions'
   - 'Properties'
