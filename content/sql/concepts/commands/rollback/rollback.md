@@ -65,7 +65,7 @@ Given table_1 contains this data:
 ```sql
 --Fix Young Chap's birthday to be younger than Old Chap
 UPDATE table_1
-    SET dob = "1/21/2024";
+SET dob = "1/21/2024";
 SELECT * FROM table_1;
 ```
 
