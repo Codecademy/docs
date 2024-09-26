@@ -17,59 +17,49 @@ The **`locals()`** built-in function in Python returns a dictionary containing t
 
 ## Syntax
 
-```py
+```pseudo
 locals()
 ```
 
 ## Example
 
 ```py
-def example():
+def example1():
  print( "No local variables." ,locals() )
 
 def example2():
  ex= "A"
  print( "One local variable." , locals() )
 
-#example result
 
-No local variables. {}
-
-#example2 result
-
-One local variables. {ex:A}
+example1()
+example2()
 ```
 
+The code above generates the following output:
 
-`locals()` cannot change the local symbol table. It only allows you to see it.
+```shell
+No local variables. {}
+One local variable. {'ex': 'A'}
+```
 
-```py
+> Note: `locals()` cannot change the local symbol table. It only allows seeing it.
+
+## Codebyte Example
+
+Run the following code to understand how the `locals()` work:
+
+```codebyte/python
 
 def example2a():
- ex="A"
- print("One local variable.", locals())
- print("Before updateing ex is :", ex)
+    ex = "A"
+    print("One local variable:", locals())
+    print("Before updating ex is:", ex)  
 
- locals()["ex"]= "B"
+    ex = "B"  
 
- print("After updateing ex is :", ex)
+    print("After updating ex is:", ex)   
 
-*example2a result
-
-One local variable, {ex:A}
-Before updating ex is : A
-After updateing ex is : A
-```
-
-In the `global` scope `locals()` is the same as `globals()`
-
-```py
-
-print("Locals", locals())
-
-print("Globals", globals())
-
-{'__name__': '__main__', '__doc__': None, '__package__': None, '__loader__': <_frozen_importlib_external.SourceFileLoader object at 0x7fabf35f3d70>, '__spec__': None, '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, '__file__': '/home/ccuser/workspace/learn-python-control-flow-sals-shipping/shipping.py', '__cached__': None, 'weight': 41.5}
+example2a()
 
 ```
-
