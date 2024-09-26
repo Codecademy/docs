@@ -25,8 +25,9 @@ Therefore, the rollback procedure allows a user to undo the work to a previous p
 
 ## Syntax
 
-```sql
+```pseudo
 ROLLBACK [WORK] [TO SAVEPOINT savepoint_name];
+```
 
 | CLAUSE                      | Description                                                                                                                                                                                 |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -36,7 +37,7 @@ ROLLBACK [WORK] [TO SAVEPOINT savepoint_name];
 
 The command can be entered alone to end and undo any changes in the current transaction.
 
-```sql
+```pseudo
 ROLLBACK;
 --Or, for compatibility with some SQL standards:
 ROLLBACK WORK;
@@ -46,7 +47,7 @@ ROLLBACK WORK;
 
 To rollback to a specific savepoint, follow the syntax below.
 
-```sql
+```pseudo
 ROLLBACK [WORK] TO SAVEPOINT savepoint_name;
 ```
 
@@ -76,7 +77,7 @@ This gives the following:
 
 Oops! you accidentally set everyone's birthday to 1/21/2024!
 
-```sql
+````sql
 --Rollback the transaction
 ROLLBACK;
 --Try again, adding WHERE statement to update the correct chap
@@ -125,7 +126,7 @@ SELECT name FROM table_1 WHERE id=3;
 ROLLBACK TO SAVEPOINT first;
 SELECT * FROM table_1;
 
-```
+````
 
 This would get you back to the table below:
 | id | dob | name |
