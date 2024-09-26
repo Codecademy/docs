@@ -1,16 +1,14 @@
 ---
-Title: 'Errors' 
-Description: 'In SQL, an error refers to a problem that prevents the successful execution of a query or generates incorrect results.' 
+Title: 'Errors'
+Description: 'An error refers to a problem that prevents the successful execution of a query or generates incorrect results.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
-  - 'Machine Learning'
 Tags:
   - 'Aggregate Functions'
   - 'Alias'
-  - 'Arithematic'
+  - 'Arithmetic'
   - 'CRUD'
-  - 'Database'
 CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
@@ -18,34 +16,37 @@ CatalogContent:
 
 **Errors** in SQL occur when a query or operation fails to execute properly or generates incorrect results.
 
-There are mainly three types of SQL errors:
+There are mainly three types of SQL errors. Each of them are discussed below.
 
 ## Syntax Errors
 
-A syntax error occurs when the SQL query does not follow any correct syntax or linguistic rules like the use of wrong keywords, or wrong clauses.
+A syntax error occurs when a SQL query does not follow the correct syntax or violate any linguistic rules, like the use of wrong keywords or wrong clauses.
 
 ## Runtime Errors
 
-A runtime error occurs when the execution of a query takes place which is why it is named as runtime error. These errors can occur due to performing illegal operations like division by zero or.
+A runtime error occurs when the execution of a query takes place. This is why it is named as runtime error. These errors can occur due to performing inapplicable operations, like division by zero.
 
 ## Logical Errors
 
-Logical errors arise when the query executes successfully but produces an incorrector unintended results due to logical flaws in the query. 
+Logical errors arise when a query executes successfully, but produces an incorrect or unintended result due to the existence of logical flaws in it.
 
 ## Syntax
 
-The below syntax shows the demonstration of how a syntactical error occurs in SQL. Here the word `FORM` causes a syntactical error.
+The below syntax demonstrates how a syntactical error occurs in SQL. Here the word `FORM` causes a syntactical error:
 
-```pseudo 
-SELECT * FORM users; 
+```pseudo
+SELECT * FORM users;
 ```
-### Example
+
+## Example
+
+The following example shows how different errors arise in SQL:
 
 ```sql
--- Create table with a UNIQUE constraint
+-- Create a table with a UNIQUE constraint
 CREATE TABLE users (
-    id INT PRIMARY KEY,
-    email VARCHAR(100) UNIQUE
+  id INT PRIMARY KEY,
+  email VARCHAR(100) UNIQUE
 );
 
 -- Insert data with syntax error
@@ -56,11 +57,4 @@ INSERT INTO users (id, email) VALUES (2, 'alice@example.com'); -- Error: Duplica
 
 -- Data type mismatch
 INSERT INTO users (id, email) VALUES ('three', 'bob@example.com'); -- Error: 'id' should be an integer
-
-
 ```
-
-
-  
-
-
