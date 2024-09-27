@@ -5,14 +5,14 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Functions'
   - 'Arithmetic'
+  - 'Methods'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-The **`math.cosh()`** method returns the hyperbolic cosine of a number.
+In Python, the **`math.cosh()`** method returns the hyperbolic cosine of a number which is equivalent to `(math.exp(x) + math.exp(-x)) / 2`.
 
 ## Syntax
 
@@ -20,11 +20,11 @@ The **`math.cosh()`** method returns the hyperbolic cosine of a number.
 math.cosh(x)
 ```
 
-- `x`: A numeric value whose hyperbolic cosine is calculated.
+- `x`: A numeric value whose hyperbolic cosine is to be calculated.
 
 ## Example 1
 
-Use `math.cosh()` to return the hyperbolic cosine of integer `1`:
+The following example uses `math.cosh()` to return the hyperbolic cosine of integer *1*:
 
 ```py
 import math
@@ -38,11 +38,11 @@ The above code gives the following output:
 1.5430806348152437
 ```
 
-> **Note:** If the value is not a number it returns `TypeError: must be real number`
+> **Note:** If the input is not a number, a `TypeError` is raised.
 
 ## Example 2
 
-Use `math.cosh()` to return the hyperbolic cosine of the float `8.9`:
+The following example uses `math.cosh()` to return the hyperbolic cosine of the float *8.9*:
 
 ```py
 import math
@@ -56,11 +56,9 @@ The above code gives the following output:
 3665.986837772461
 ```
 
-> **Note:** `math.cosh(x)` is equivalent to `(math.exp(x) + math.exp(-x))/2`
-
 ## Codebyte Example
 
-Run the following example that uses the `math.cosh()` function to understand its working:
+Run the following example to understand the working of `math.cosh()` method:
 
 ```codebyte/python
 import math
