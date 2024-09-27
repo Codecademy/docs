@@ -1,6 +1,6 @@
 ---
 Title: '.map()'
-Description: 'map() is a Kotlin method that transforms elements in a collection.'
+Description: 'map() is a Kotlin method that transforms elements in a collection and returns a new collection of the transformed elements.'
 Subjects: 
   - 'Code Foundations'
   - 'Mobile Development'
