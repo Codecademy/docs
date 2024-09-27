@@ -24,7 +24,7 @@ math.cosh(x)
 
 ## Example 1
 
-The following example uses `math.cosh()` to return the hyperbolic cosine of integer *1*:
+The following example uses `math.cosh()` to return the hyperbolic cosine of integer _1_:
 
 ```py
 import math
@@ -42,7 +42,7 @@ The above code gives the following output:
 
 ## Example 2
 
-The following example uses `math.cosh()` to return the hyperbolic cosine of the float *8.9*:
+The following example uses `math.cosh()` to return the hyperbolic cosine of the float _8.9_:
 
 ```py
 import math
