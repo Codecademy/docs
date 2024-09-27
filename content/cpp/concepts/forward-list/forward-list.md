@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Like vectors and arrays, a **forward list** is a lightweight  data structure capable of storing a sequential list of elements in C++. The main difference between an array and a forward list is that an array is index based, while a forward list is not.
+Like vectors and arrays, a **forward list** is a lightweight data structure capable of storing a sequential list of elements in C++. The main difference between an array and a forward list is that an array is index based, while a forward list is not.
 
 A forward list works by storing a memory address to the first element of the list, and by having each element store data and a pointer to the memory location of the next element. Compared to arrays, forward lists offers quicker insertions and deletions at the start of the list, at the cost of direct access to elements by index.
 
@@ -23,6 +23,7 @@ To use `foward_list`, the header `<forward_list>` must be included.
 ```cpp
 #include <forward_list>
 ```
+
 To create an empty `forward_list`, all that is needed is the data type. Here is an example using the `int` data type:
 
 ```cpp
@@ -49,9 +50,10 @@ for(auto it = list.begin(); it != list.end(); ++it) {
 }
 std::cout << std::endl;
 ```
+
 ```shell
 Output:
-1 2 3 4 5 
+1 2 3 4 5
 ```
 
 A simpler and more modern approach introduced in C++11 can also be used to iterate through a forward list:
@@ -66,9 +68,10 @@ for (const auto& element : list) {
 }
 std::cout << std::endl;
 ```
+
 ```shell
 Output:
-1 2 3 4 5 
+1 2 3 4 5
 ```
 
 ## Useful Functions
@@ -103,11 +106,12 @@ std::cout << std::endl;
 std::cout << "list.empty(): ";
 std::cout << list.empty() << std::endl;
 ```
+
 ```shell
-Elements of list: 1 2 3 4 5 
+Elements of list: 1 2 3 4 5
 list.empty(): 0
 Calling list.clear()
-Elements of list: 
+Elements of list:
 list.empty(): 1
 ```
 
@@ -119,6 +123,7 @@ std::forward_list<int> list = {1,2,3,4,5};
 std::cout << "Output: " << list.front() << endl;
 
 ```
+
 ```shell
 Output: 1
 ```
@@ -137,9 +142,10 @@ for (const auto& element : list) {
 }
 std::cout << std::endl;
 ```
+
 ```shell
 Output:
-0 1 2 3 4 5 
+0 1 2 3 4 5
 ```
 
 `.pop_front()` removes the first element from the list.
@@ -156,9 +162,10 @@ for (const auto& element : list) {
 }
 std::cout << std::endl;
 ```
+
 ```shell
 Output:
-2 3 4 5 
+2 3 4 5
 ```
 
 `.insert_after()` inserts an element after an iterator pointer.
@@ -197,12 +204,13 @@ for (const auto& element : list) {
 }
 std::cout << std::endl;
 ```
+
 ```shell
-Elements of list: 2 5 8 10 12 
+Elements of list: 2 5 8 10 12
 Calling list.insert_after(iter, 6) while iter points to 5
-Elements of list: 2 5 6 8 10 12 
+Elements of list: 2 5 6 8 10 12
 Calling list.erase_after(iter) while iter points to 6
-Elements of list: 2 5 6 10 12 
+Elements of list: 2 5 6 10 12
 ```
 
 `.assign()` replaces the current list with a new list.
@@ -226,8 +234,9 @@ for (const auto& element : list) {
 }
 std::cout << std::endl;
 ```
+
 ```shell
-Elements: 1 2 3 4 5 
+Elements: 1 2 3 4 5
 Calling list.assign({6, 7})
-Elements: 6 7 
+Elements: 6 7
 ```
