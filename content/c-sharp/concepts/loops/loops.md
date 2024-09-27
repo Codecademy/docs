@@ -88,10 +88,10 @@ This example outputs the following:
 2
 3
 ```
-## Nested Loops
 
-A loop can be placed inside another loop; this concept is known as **nested loops**. For every iteration of the outer loop, all iterations of the inner loop are executed. 
+## Nested Loop
 
+`Nested loop` is a concept where one loop is put inside another. For every iteration of the outer loop, all iterations of the inner loop are executed.
 
 ```cs
 // Outer loop
@@ -116,7 +116,7 @@ i = 2, j = 0
 i = 2, j = 1
 ```
 
-Inner and outer loops do not require being the same type. For instance, A `while` loop can be placed inside a `for` loop, or a `do-while` loop inside a `foreach` loop. 
+Inner and outer loops do not require being the same type. For instance, A `while` loop can be placed inside a `for` loop, or a `do-while` loop inside a `foreach` loop.
 
 ```cs
 int[] numbersArray = { 0, 1, 2, 3 };
@@ -144,4 +144,4 @@ number = 3, k = 0
 number = 3, k = 1
 ```
 
-There is no upper limit on nesting levels. The examples above used two loops, but one can nest even more loops. However, it's a good practice to avoid deep nesting, as it complicates programs. 
+There is no upper limit on nesting levels. The examples above used two loops, but one can nest even more loops. However, it's a good practice to avoid deep nesting, as it complicates programs.
