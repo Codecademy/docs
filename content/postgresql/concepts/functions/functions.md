@@ -29,7 +29,7 @@ RETURNS return_type AS $$
    BEGIN
       < function_body >
       [...]
-      RETURN { variable_name | value }
+      RETURN { variable_name | value } ;
    END; 
    $$ LANGUAGE lang_name;
 ```
