@@ -1,6 +1,6 @@
 ---
 Title: 'SIMILAR TO'
-Description: 'Similar to `LIKE` operator in SQL'
+Description: 'Used to compare a string to a regular expression'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-The **`SIMILAR TO`** operator is primarily found in `PostgreSQL`. The `SIMILAR TO` operator returns true if its pattern matches the given string otherwise returns false. It is similar to `LIKE` operator that is used in other database like SQL Server, MySQL, Oracle SQL, and supports pattern matching via the use of [wildcards](https://www.codecademy.com/resources/docs/sql/wildcards).
+The **`SIMILAR TO`** operator is primarily found in `PostgreSQL`. The `SIMILAR TO` operator returns `TRUE` if its pattern matches the given string otherwise, it returns `FALSE`. It is similar to the `LIKE` operator that is used in other databases like SQL Server, MySQL, and Oracle SQL, and supports pattern matching via the use of [wildcards](https://www.codecademy.com/resources/docs/sql/wildcards).
 
 ## Syntax
 
@@ -28,10 +28,12 @@ WHERE column_name SIMILAR TO pattern;
 
 The `pattern` here constitutes a string that includes the following wildcards:
 
-- `%` Matches zero or more arbitrary characters.
-- `_` Matches exactly one arbitrary character.
+- `%`: Matches zero or more arbitrary characters.
+- `_`: Matches exactly one arbitrary character.
 
 ## Example 1
+
+Selects all countries whose names start with "M".
 
 ```sql
 SELECT *
@@ -51,6 +53,8 @@ Example Matches:
 
 ## Example 2
 
+Selects employees whose names start with "John" or "Jane".
+
 ```sql
 SELECT *
 FROM employees
@@ -68,6 +72,8 @@ Example Matches:
 - John Smith
 
 ## Example 3
+
+Selects employees named "John" or "Jane" followed by a middle initial and a period.
 
 ```sql
 SELECT *
