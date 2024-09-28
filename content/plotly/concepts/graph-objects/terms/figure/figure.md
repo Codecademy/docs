@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`graph_objects.Figure()`** class in Plotly is used to create and manipulate figures. It provides a high-level interface for creating complex visualizations.
+The **`graph_objects.Figure()`** class in [Plotly](https://www.codecademy.com/resources/docs/plotly) is used to create and manipulate figures. It provides a high-level interface for creating complex visualizations.
 
 ## Syntax
 
