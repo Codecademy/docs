@@ -72,7 +72,7 @@ Numbers:
 6
 ```
 
-## Codebyte Example (if applicable)
+## Codebyte Example
 
 ```codebyte/python
 import randint from random
