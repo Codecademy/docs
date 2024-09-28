@@ -1,6 +1,6 @@
 ---
 Title: 'REPLACE()'
-Description: 'Replace all matching parts of a string with a specified new substring.'
+Description: 'Replace all matching string parts with a specified new substring.'
 Subjects:
   - 'Data Science'
 Tags:
@@ -14,15 +14,15 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-The **`Replace()`** function replaces all matching parts of a string with a specified new substring.
+The **`REPLACE()`** function replaces all matching parts of a string with a specified new substring.
 
 ## Syntax
 
 ```pseudo
-Replace("string_expression", "old_substring", "new_substring");
+REPLACE("string_expression", "old_substring", "new_substring");
 ```
 
-The `Replace()` function searches for all occurrences of the `old_substring` in the `string_expression` and replaces it with `new_substring`.
+The `REPLACE()` function searches for all occurrences of the `old_substring` in the `string_expression` and replaces it with `new_substring`.
 
 > **Note:** All parameters are required.
 
