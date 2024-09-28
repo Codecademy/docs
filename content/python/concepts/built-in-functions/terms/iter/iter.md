@@ -2,8 +2,8 @@
 Title: 'iter()'
 Description: 'Create an iterator object.'
 Subjects:
-  - 'computer science'
-  - 'data science'
+  - 'Computer Science'
+  - 'Data Science'
 Tags:
   - 'Iterators'
   - 'Functions'
