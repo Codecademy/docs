@@ -23,8 +23,8 @@ plotly.graph_objects.Figure(data=None, layout=None, frames=None)
 ```
 
 - `data`: A list or tuple of trace instances (e.g., [Scatter(...), Bar(...)]).
-- `layout`: An instance of plotly.graph_objects.Layout or a dictionary of layout properties.
-- `frames`: A list of frames, each frame being a dictionary of properties.
+- `layout`: Dictionary of layout properties applied to the figure like title, axis labels, etc.
+- `frames`: Individual frames used for animations.
 
 ## Example
 
