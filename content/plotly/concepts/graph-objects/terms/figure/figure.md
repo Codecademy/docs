@@ -52,7 +52,7 @@ fig = go.Figure(data=data, layout=layout, frames=frames)
 fig.show()
 ```
 
-This example creates a graph representing the inflation for the last five years, creating the values for data, layout and frames before given them to `Figure()`.
+This example creates a graph representing the inflation for the last five years, creating the values for data, layout, and frames before giving them to `Figure()`.
 
 The above code generates the following code
 
