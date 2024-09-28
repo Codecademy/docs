@@ -11,7 +11,6 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/data-science'
 ---
 
 **iter()** function is a built-in function in Python that returns an [iterator](https://www.codecademy.com/resources/docs/python/iterators) from an object such as a list, tuple, string, or any object that follows iterator protocol.
