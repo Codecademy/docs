@@ -68,7 +68,7 @@ another_iterator = iter(partial(get_random_num, 1, 10), 7)
 
 print('\nNumbers: ')
 
-# Loop will run till 7 is returned 
+# Loop will run till 7 is returned
 for i in another_iterator:
   print(i)
 ```
