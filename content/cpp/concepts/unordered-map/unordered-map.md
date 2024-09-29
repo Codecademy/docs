@@ -44,7 +44,6 @@ int main() {
     myMap["banana"] = 5;
     myMap["orange"] = 3;
 
-
     // Iterating over elements
     for (const std::pair<const std::string, int>& x : myMap) {
         std::cout << x.first << " " << x.second << std::endl;
