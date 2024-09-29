@@ -1,19 +1,19 @@
 ---
-Title: '.keys()'
+Title: '.keys'
 Description: 'Returns a collection containing the keys of a dictionary.'
 Subjects:
+  - 'Code Foundations'
   - 'Computer Science'
   - 'iOS'
-  - 'Code Foundations'
 Tags:
-  - 'Swift'
   - 'Dictionary'
+  - 'Swift'
 CatalogContent:
   - 'learn-swift'
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-In Swift, the `keys` property of a [dictionary](https://www.codecademy.com/resources/docs/swift/dictionaries) returns an unordered collection containing all the keys within the dictionary. Since this collection is unordered, the order of the keys may vary each time they are accessed. This property is part of the `Dictionary` structure and is useful when iterating through or manipulating just the keys of a dictionary.
+In Swift, the **`.keys`** property of a [dictionary](https://www.codecademy.com/resources/docs/swift/dictionaries) returns an unordered collection containing all the keys within the dictionary. Since this collection is unordered, the order of the keys may vary each time they are accessed. This property is part of the `Dictionary` structure and is useful when iterating through or manipulating only the keys of a dictionary.
 
 ## Syntax
 
@@ -21,10 +21,9 @@ In Swift, the `keys` property of a [dictionary](https://www.codecademy.com/resou
 dictionaryName.keys
 ```
 
-- `dictionaryName`: The instance of a `Dictionary` whose keys you want to access.
-- `keys`: A build-in property returns all the keys in the dictionary.
+- `dictionaryName`: The instance of a dictionary from which the keys are to be accessed.
 
-> **Note:** The `keys` property returns a collection, not an array, but it can be converted to an array if needed using [Array](https://www.codecademy.com/resources/docs/swift/arrays).
+> **Note:** The `keys` property returns a collection, not an array, however, it can be converted to an array using the [Array()](https://www.codecademy.com/resources/docs/swift/arrays) initializer if needed.
 
 ## Example
 
