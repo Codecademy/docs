@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `math.factorial()` method returns the factorial of a positive number.
+The **`math.factorial()`** method returns the factorial of a positive number.
 
 ## Syntax
 
