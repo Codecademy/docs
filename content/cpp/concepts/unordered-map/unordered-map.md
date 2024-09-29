@@ -113,7 +113,7 @@ The output would be:
 apple: 2
 ```
 
-## Codebyte Example 
+## Codebyte Example
 
 ```codebyte/cpp
 #include <iostream>
