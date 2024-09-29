@@ -48,7 +48,6 @@ int main() {
     for (const std::pair<const std::string, int>& x : myMap) {
         std::cout << x.first << " " << x.second << std::endl;
     }
-    
     return 0;
 }
 ```
@@ -71,9 +70,7 @@ In the below example keys are treated as `case-insensitive`.
 
 ```cpp
 #include <iostream>
-
 #include <unordered_map>
-
 #include <string>
 
 struct CustomHash {
@@ -106,7 +103,6 @@ int main() {
   for (const auto & pair: myMap) {
     std::cout << pair.first << ": " << pair.second << std::endl;
   }
-
   return 0;
 }
 ```
@@ -137,7 +133,6 @@ int main() {
     for (const auto& pair : myMap) {
         std::cout << pair.first << ": " << pair.second << std::endl;
     }
-
     return 0;
 }
 ```
