@@ -71,38 +71,43 @@ In the below example keys are treated as `case-insensitive`.
 
 ```cpp
 #include <iostream>
+
 #include <unordered_map>
+
 #include <string>
 
 struct CustomHash {
-    std::size_t operator()(const std::string& key) const {
-        // Custom hash: hash based on the length of the string
-        return key.length();
-    }
+  std::size_t operator()(const std::string & key) const {
+    // Custom hash: hash based on the length of the string
+    return key.length();
+  }
 };
 
 struct CustomEqual {
-    bool operator()(const std::string& lhs, const std::string& rhs) const {
-        // Custom equality: compare strings ignoring case
-        return std::equal(lhs.begin(), lhs.end(), rhs.begin(), rhs.end(),
-                          [](char a, char b) { return tolower(a) == tolower(b); });
-    }
+  bool operator()(const std::string & lhs,
+    const std::string & rhs) const {
+    // Custom equality: compare strings ignoring case
+    return std::equal(lhs.begin(), lhs.end(), rhs.begin(), rhs.end(),
+      [](char a, char b) {
+        return tolower(a) == tolower(b);
+      });
+  }
 };
 
 int main() {
-    // Unordered map with custom hash and equality functions
-    std::unordered_map<std::string, int, CustomHash, CustomEqual> myMap;
+  // Unordered map with custom hash and equality functions
+  std::unordered_map < std::string, int, CustomHash, CustomEqual > myMap;
 
-    myMap["apple"] = 1;
+  myMap["apple"] = 1;
 
-    // Will be treated as the same key as "apple"
-    myMap["APPLE"] = 2;
+  // Will be treated as the same key as "apple"
+  myMap["APPLE"] = 2;
 
-    for (const auto& pair : myMap) {
-        std::cout << pair.first << ": " << pair.second << std::endl;
-    }
+  for (const auto & pair: myMap) {
+    std::cout << pair.first << ": " << pair.second << std::endl;
+  }
 
-    return 0;
+  return 0;
 }
 ```
 
