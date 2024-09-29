@@ -134,3 +134,89 @@ The above code will produce the following output:
 Feeding dog...
 Feeding cat...
 ```
+
+## Mixin Class
+
+In dart, an `mixins` are classes that are intended to be used for reusable method which can be used by other classes.
+
+## Syntax
+
+```pseudo
+mixin MixinName {
+  // Mixin body
+  ...
+}
+
+class ClassName with MixinName {
+  // Class body
+  ...
+}
+```
+
+### Example
+
+Following is an example that demonstrates the usage of an mixin class:
+
+```dart
+// Define mixins for specific behaviors
+mixin Swim {
+  void swim() {
+    print('Swim');
+  }
+}
+
+mixin Fly {
+  void fly() {
+    print('Fly');
+  }
+}
+
+mixin Walk {
+  void walk() {
+    print('Walk');
+  }
+}
+
+// Define classes that use these mixins
+
+// The Duck class can swim, fly, and walk
+class Duck with Swim, Fly, Walk {
+  void display() {
+    print('Ducks can:');
+  }
+}
+
+// The Human class can swim and walk but cannot fly
+class Human with Swim, Walk {
+  void display() {
+    print('Humans can:');
+  }
+}
+
+void main() {
+  // Create a Duck instance
+  Duck duck = Duck();
+  duck.display();
+  duck.swim();
+  duck.fly();
+  duck.walk();
+
+  // Create a Human instance
+  Human human = Human();
+  human.display();
+  human.swim();
+  human.walk(); 
+}
+```
+
+The above code will produce the following output:
+
+```shell
+Ducks can:
+Swim
+Fly
+Walk
+Humans can:
+Swim
+Walk
+```
