@@ -31,7 +31,7 @@ CREATE TABLE students (
     marks DECIMAL(10, 2)
 );
 
-INSERT INTO students (id, name, marks) VALUES 
+INSERT INTO students (id, name, marks) VALUES
 (1, 'Alice', 96),
 (2, 'Bob', 80),
 (3, 'Charlie', 85),
