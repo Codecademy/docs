@@ -32,7 +32,6 @@ import random
 
 random_bits = random.getrandbits(256)
 
-```
 
 ## Codebyte Example (if applicable)
 
