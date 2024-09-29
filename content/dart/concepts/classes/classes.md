@@ -205,7 +205,7 @@ void main() {
   Human human = Human();
   human.display();
   human.swim();
-  human.walk(); 
+  human.walk();
 }
 ```
 
