@@ -1,6 +1,6 @@
 ---
 Title: 'Identifier'
-Description: 'Refers to the name given to databases object such as tables, columns, indexes, etc.'
+Description: 'Refers to the name given to database objects such as tables, columns, indexes, etc.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
@@ -12,13 +12,12 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-In PostgreSQL, identifiers refer to the names given to database objects such as tables, columns, indexes, views, sequences, and other database components.
+In PostgreSQL, **Identifiers** refer to the names given to database objects such as tables, columns, indexes, views, sequences, and other database components.
 
 ## Identifier Types
 
-`Identifier Types` refers to names given to objects in a database like tables, columns, indexes, and other components of a database. These names help **PostgreSQL** to interact with the database. The are different types of Identifier that are used.
-
-- Table Identifier
+`Identifier Types` refers to names given to objects in a database like tables, columns, indexes, and other components of a database. These names help **PostgreSQL** to interact with the database. There are different types of identifiers that are used.
+- Table Identifiers
 - Column Identifiers
 - Index Identifiers
 - View Identifiers
@@ -34,7 +33,7 @@ In PostgreSQL, identifiers refer to the names given to database objects such as 
 
 ### Table Identifier
 
-Table Identifier refers to the name given to a table in the database. These names are used for interacting with the tables, they must follow certain rules like each table must have a unique name, using only characters in the name that are allowed, etc.
+A Table Identifier refers to the name given to a table in the database. These names are used for interacting with the tables, and must follow certain rules such as each table must have a unique name, using only characters in the name that are allowed, etc.
 
 #### Example
 
@@ -133,11 +132,11 @@ CREATE TABLE employees (
 
 ### Schema Identifiers
 
-Schema Identifiers refers to name given to schemas, which are logical container for building relation between tables, views, indexes and other database objects. It helps in organizing database object and avoid conflicts.
+Schema Identifiers refer to names given to schemas, which are a logical container for building relations between tables, views, indexes, and other database objects. It helps organize database objects and avoid conflicts.
 
 #### Example
 
-In the below example we use different kinds of constraint
+In the below example, we use different kinds of constraint
 
 ```sql
 CREATE TABLE employees (
@@ -151,7 +150,7 @@ CREATE TABLE employees (
 
 ### Sequence Identifiers
 
-Sequence Identifiers refer to names assigned to sequences which are used to generate unique integer values and can be used in scenarios when the purpose is to make sure each row has a distinct value, typically used for auto-incrementing primary key columns.
+Sequence Identifiers refer to names assigned to sequences that are used to generate unique integer values and can be used in scenarios when the purpose is to make sure each row has a distinct value, typically used for auto-incrementing primary key columns.
 
 #### Example
 
@@ -170,7 +169,7 @@ Function Identifiers are names assigned to custom functions, these functions are
 
 #### Example
 
-In the below example a custom function `add_numbers` used to add numbers passed to it:
+In the below example a custom function `add_numbers` is used to add numbers passed to it:
 
 ```sql
 CREATE FUNCTION add_numbers (a INT, b INT) RETURNS INT AS $$
@@ -215,7 +214,7 @@ EXECUTE FUNCTION update_last_updated();
 
 ### Role Identifiers
 
-Role Identifiers refer to names given to roles which are used to manage roles within the database. They are fundamental parts of security and permission systems They can be used to give certain access to a user like reading all the tables, writing to all tables, etc.
+Role Identifiers refer to names given to roles that are used to manage roles within the database. They are fundamental parts of security and permission systems They can be used to give certain access to a user like reading all the tables, writing to all tables, etc.
 
 #### Example
 
@@ -257,7 +256,7 @@ Aggregate Type Identifiers refer to names given to aggregate functions, these fu
 
 #### Example
 
-In the below example, a build-in `SUM` aggregate function is used and a custom aggregate function `my_sum` is created and used.
+In the below example, a built-in `SUM` aggregate function is used and a custom aggregate function `my_sum` is created and used.
 
 ```sql
 SELECT SUM(salary) FROM employees;
