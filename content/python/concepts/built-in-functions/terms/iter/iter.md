@@ -1,9 +1,9 @@
 ---
 Title: 'iter()'
-Description: 'Create an iterator object.'
+Description: 'Returns an iterator object from an iterable.'
 Subjects:
-  - 'computer science'
-  - 'data science'
+  - 'Computer Science'
+  - 'Data Science'
 Tags:
   - 'Iterators'
   - 'Functions'
@@ -11,35 +11,32 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/data-science'
 ---
 
-**iter()** function is a built-in function in Python that returns an [iterator](https://www.codecademy.com/resources/docs/python/iterators) from an object such as a list, tuple, string, or any object that follows iterator protocol.
+The **`iter()`** function is a built-in function in Python that returns an [iterator](https://www.codecademy.com/resources/docs/python/iterators) from an iterable object, such as a list, tuple, string, or any object that implements the iterator protocol.
 
 ## Syntax
 
 ```pseudo
-iter(object)
 iter(object, sentinel)
 ```
 
-- `object`: A required argument represents an object such as a list, tuple, string, or any object that follows iterator or sequence protocol.
-- `sentinel`: An optional argument represents the end of the sequence.
+- `object`: A required argument that represents an iterable object such as a list, tuple, string, or any object that follows iterator or sequence protocol.
+- `sentinel`: An optional argument that represents the end of the sequence.
 
 > **Note:** `sentinel` parameter is used to repeatedly call a function until a specific value is returned, which stops the iteration.
 
-## Examples 1
+## Example 1
 
-The following examples show how to use `iter()` function.
+This example demonstrates the use of the `iter()` function to create an iterator from a list and retrieve its elements one by one using the [`next()`](https://www.codecademy.com/resources/docs/python/built-in-functions/next) function:
 
 ```py
-from functools import partial
-import random
-
-# iter() method with no sentinel argument
+# Example of iter() function without sentinel
 fruits = ['apples', 'bananas', 'oranges']
 
+# Creating an iterator from the list
 my_iterator = iter(fruits)
+
 print('Fruits:')
 print(next(my_iterator))
 print(next(my_iterator))
@@ -55,15 +52,15 @@ bananas
 oranges
 ```
 
-## Examples 2
+## Example 2
 
-The below example shows how to use `iter()` function with the `sentinel` parameter.
+This example demonstrates the use of the `iter()` function with a callable and a `sentinel` value, repeatedly calling the function until the `sentinel` is returned:
 
 ```py
 from functools import partial
 import random
 
-# iter() method with a callable object and a sentinel argument as 7
+# iter() method with a callable and a sentinel argument os 7
 def get_random_num(a, b):
   return random.randint(a, b)
 
@@ -71,7 +68,7 @@ another_iterator = iter(partial(get_random_num, 1, 10), 7)
 
 print('\nNumbers: ')
 
-# Loop will run till 7 is returned by get_random_num
+# Loop will run till 7 is returned 
 for i in another_iterator:
   print(i)
 ```
@@ -94,6 +91,8 @@ Numbers:
 9
 4
 ```
+
+> **Note**: The output varies with each execution due to random integer generation, continuing until the sentinel value is encountered.
 
 ## Codebyte Example
 
