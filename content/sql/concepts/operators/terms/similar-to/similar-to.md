@@ -33,7 +33,7 @@ The `pattern` here constitutes a string that includes the following wildcards:
 
 ## Example 1
 
-Selects all countries whose names start with "M".
+The below example will select every country from the `countries` starting with `M`.
 
 ```sql
 SELECT *
@@ -53,7 +53,7 @@ Example Matches:
 
 ## Example 2
 
-Selects employees whose names start with "John" or "Jane".
+The below example selects every `employee` from the `employees` table whose names start with "John" or "Jane".
 
 ```sql
 SELECT *
@@ -73,7 +73,7 @@ Example Matches:
 
 ## Example 3
 
-Selects employees named "John" or "Jane" followed by a middle initial and a period.
+The below example selects `employees` named "John" or "Jane" followed by a middle initial and a period.
 
 ```sql
 SELECT *
