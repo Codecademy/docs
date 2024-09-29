@@ -135,11 +135,11 @@ Feeding dog...
 Feeding cat...
 ```
 
-## Mixin Class
+## Mixin Classes
 
-In dart, an `mixins` are classes that are intended to be used for reusable method which can be used by other classes.
+In Dart, `mixins` are classes intended to be used for reusable methods that other classes can use.
 
-## Syntax
+## Syntax for Mixin Class
 
 ```pseudo
 mixin MixinName {
@@ -155,7 +155,7 @@ class ClassName with MixinName {
 
 ### Example
 
-Following is an example that demonstrates the usage of an mixin class:
+Following is an example that demonstrates the usage of a mixin class:
 
 ```dart
 // Define mixins for specific behaviors
