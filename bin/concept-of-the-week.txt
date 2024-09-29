@@ -1,1 +1,1 @@
-content/mysql/concepts/keywords/keywords.md
+content/open-source/concepts/bootstrap/bootstrap.md
