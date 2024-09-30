@@ -1,18 +1,18 @@
 ---
 Title: 'Stochastic Gradient Descent'
-Description: 'Stochastic Gradient Descent is an optimizer algorithm that minimizes the loss functions in machine learning and deep learning models.'
+Description: 'Stochastic Gradient Descent is an optimizer algorithm that minimizes the loss function in machine learning and deep learning models.'
 Subjects:
   - 'Machine Learning'
   - 'Computer Science'
 Tags:
   - 'AI'
-  - 'Neural Network'
+  - 'Neural Networks'
 CatalogContent:
   - 'paths/computer-science'
   - 'paths/data-science'
 ---
 
-**Stochastic Gradient Descent** (SGD) is an optimization algorithm. It is variant of gradient descent optimizer. The SGD minimizes the loss function of machine learning algorithms and deep learning algorithms during backpropagation to update the weights and biases in Artificial Neural Networks. 
+**Stochastic Gradient Descent** (SGD) is an optimization algorithm. It is a variant of gradient descent optimizer. The SGD minimizes the loss function of machine learning algorithms and deep learning algorithms during backpropagation to update the weights and biases in Artificial Neural Networks. 
 
 The term `stochastic` means randomness on which the algorithm is based. In this algorithm, instead of taking whole datasets like `gradient descent`, we take single randomly selected data points or small batches of data. Suppose if the data set contains 500 rows SGD updates the model parameters 500 times in one cycle or one epoch.
 
@@ -23,7 +23,7 @@ This approach significantly reduces computation time, especially for large datas
 
 ## Algorithms Step
 
-- At each iteration, a random sample  is selected from the training dataset.
+- At each iteration, a random sample is selected from the training dataset.
 - The gradient of the cost function with respect to the model parameters is computed based on the selected sample.
 - The model parameters are updated using the computed gradient and the learning rate.
 - The process is repeated for multiple iterations until convergence or a specified number of epochs.
@@ -58,12 +58,25 @@ Where:
 - Choose a suitable learning rate (0.01)
 
 ## Syntax
+
+ ``SGD(learning_rate, n_iterations, loss_function, gradient_calculation)``
+
 - Learning Rate (α): A hyperparameter that controls the size of the update step.
 - Number of Iterations: The number of times the algorithm will iterate over the dataset.
 - Loss Function: The function that measures the error of the model predictions.
 - Gradient Calculation: The method for computing gradients based on the loss function.
 
 ## Example
+```python
+  def stochastic_gradient_descent(X, y, theta, learning_rate, n_iterations):
+      for iteration in range(n_iterations):
+      for i in range(len(y)):
+      gradient = compute_gradient(X[i], y[i], theta)
+      theta -= learning_rate * gradient
+      return theta
+```
+
+## codebyte Example
 
 Here’s a Python code snippet demonstrating how to implement SGD for linear regression:
 
