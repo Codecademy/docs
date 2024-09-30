@@ -61,7 +61,7 @@ DELIMITER ;
 SELECT calculate_age('1990-05-15') AS Age;
 ```
 
-The output would be:
+The above query will return the following output:
 
 | Age |
 | --- |
