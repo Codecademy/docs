@@ -27,12 +27,12 @@ The parameters are as follows:
 
 - `start`: The starting value of the range, inclusive. Defaults to `0`.
 - `end`: The ending value of the range, exclusive. This parameter is required.
-- `step`: The difference between each consecutive value in the range. Default value is `1`.
-- `out`: A tensor in which to store the output. If `None`, a new tensor is created. Default value is `None`.
-- `dtype`: The desired data type of the output tensor (`torch.dtype`). If `None`, the data type will be inferred from other input arguments. Default value is `None`.
+- `step`: The difference between each consecutive value in the range. The default value is `1`.
+- `out`: A tensor in which to store the output. If `None`, a new tensor is created. The default value is `None`.
+- `dtype`: The desired data type of the output tensor (`torch.dtype`). If `None`, the data type will be inferred from other input arguments. The default value is `None`.
 - `layout`: The desired layout of the output tensor. Default: `torch.strided`.
 - `device`: The device on which the tensor will be allocated (`torch.device`). Default: `None`.
-- requires_grad: A boolean indicating whether autograd should track operations on the output tensor. Default: `False`.
+- `requires_grad`: A boolean indicating whether autograd should track operations on the output tensor. Default: `False`.
 
 ## Example
 
