@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-**`Custom Function`** are function created to perform some certain taks. These function contain logic in a set of SQL statement, they help in improving reusability and simplify complex queries.
+**`Custom Function`** are function created to perform some certain tasks. These functions contain logic in a set of SQL statements, they help in improving reusability and simplify complex queries.
 
 ## Syntax
 
@@ -31,7 +31,7 @@ END //
 DELIMITER;
 ```
 
-- `function_name` : Name of the function that is declared.
+- `function_name`: Name of the function that is declared.
 - `return_type`: Type of value returned by the function.
 - `parameters`: Parameters that are passed to the function.
 - `logic`: The operation performed by the function
