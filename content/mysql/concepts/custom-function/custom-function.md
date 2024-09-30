@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-**`Custom Function`** are function created to perform some certain tasks. These functions contain logic in a set of SQL statements, they help in improving reusability and simplify complex queries.
+**`Custom Functions`** are created to perform specific tasks. These functions contain logic within a set of SQL statements, improving reusability and simplifying complex queries.
 
 ## Syntax
 
@@ -25,10 +25,11 @@ CREATE FUNCTION function_name(parameters)
 RETURNS return_type
 DETERMINISTIC
 BEGIN
-    logic
+    -- logic goes here
+    RETURN
 END //
 
-DELIMITER;
+DELIMITER ;
 ```
 
 - `function_name`: Name of the function that is declared.
@@ -38,7 +39,7 @@ DELIMITER;
 
 ## Example
 
-The below example creates a custom function as `calculate_age` which is used to calculate age of a person.
+The below example creates a custom function called `calculate_age,` which is used to calculate a person's age.
 
 ```sql
 DELIMITER //
