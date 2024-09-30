@@ -47,4 +47,4 @@ The output would be:
 
 | Sample standard deviation |
 | ------------------------- |
-|9.453041838477178          |
+| 9.453041838477178         |
