@@ -1,6 +1,6 @@
 ---
 Title: 'Unordered Maps'
-Description: 'Unordered Maps are associative containers that have elements with key-value pairs.'
+Description: 'Unordered Maps are associative containers with elements with key-value pairs.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Unordered Maps** are associative containers that have elements with key-value pairs. Unlike Maps the pairs in Unordered Maps are not sorted by there keys. Each mapped value must have a unique key value.
+**`Unordered Maps`** are associative containers that have elements with key-value pairs. Unlike Maps, the pairs in Unordered Maps are not sorted by their keys. Each mapped value must have a unique key value.
 
 ## Syntax
 
@@ -28,9 +28,9 @@ std::unordered_map<type1, type2> mapName;
 
 > **Note:** To use unordered_map, including the `unordered_map` library is necessary.
 
-## Example 1
+## Examples
 
-The below example show how to use `unordered_map`.
+The below example shows how to use `unordered_map`.
 
 ```cpp
 #include <iostream>
@@ -52,7 +52,7 @@ int main() {
 }
 ```
 
-The output would be:
+The output will be:
 
 ```shell
 orange 3
@@ -60,13 +60,9 @@ banana 5
 apple 2
 ```
 
-## Overiding Functions
+### Overriding Functions
 
-By default, key are treated as `case-sensitive`, but this can be overided so they are treated as `case-insensitive`.
-
-## Example 2
-
-In the below example keys are treated as `case-insensitive`.
+By default, keys are treated as `case-sensitive`, but this can be avoided, so they can be treated as `case-insensitive`. In the example below, the keys are treated as `case-insensitive`.
 
 ```cpp
 #include <iostream>
@@ -107,7 +103,7 @@ int main() {
 }
 ```
 
-The output would be:
+The above code snippet will return the following output:
 
 ```shell
 apple: 2
