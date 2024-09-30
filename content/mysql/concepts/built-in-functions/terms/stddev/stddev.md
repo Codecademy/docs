@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-The **`STDDEV()`** is a build-in function that is used to calculate sample standard deviation for a set of values.
+The **`STDDEV()`** is a built-in function for calculating the sample standard deviation for a set of values.
 
 ## Syntax
 
@@ -20,9 +20,11 @@ The **`STDDEV()`** is a build-in function that is used to calculate sample stand
 STDDEV(column_name)
 ```
 
-- `column_name`: column name for which the standard deviation is calculated.
+- `column_name`: column name for calculating the standard deviation.
 
 ## Example
+
+The following SQL snippet creates a `students` table, inserts data, and uses the `STDDEV()` function to calculate the sample standard deviation of `marks`.
 
 ```sql
 CREATE TABLE students (
