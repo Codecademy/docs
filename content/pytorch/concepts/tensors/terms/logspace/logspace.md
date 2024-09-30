@@ -21,7 +21,7 @@ The function is useful for generating logarithmically spaced values for various 
 ## Syntax
 
 ```pseudo
-torch.logspace(start, end, steps, dtype=None)
+torch.logspace(start, end, steps, base, dtype=None)
 ```
 
 - `start` is the base-10 logarithm of the first element in the tensor.
