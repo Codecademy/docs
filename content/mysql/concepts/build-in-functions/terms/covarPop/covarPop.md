@@ -1,5 +1,5 @@
 ---
-Title: 'MySQL: COVAR_POP() function' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
+Title: 'MySQL: COVAR_POP() function' 
 Description: 'Covariance built-in function comparing the population of two cells in a table.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
 Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
   - 'Built-In Function'
