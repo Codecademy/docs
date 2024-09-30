@@ -12,8 +12,8 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'learn-MySQL-course'
 ---
 
-The **COVAR_POP** function is the way we get a full covariance in MySQL as opposed to the COVAR_SAMP function. This takes two variables
-and returns the covariance in a decimal format. 
+The **`COVAR_POP`** function in MYSQL calculates the full covariance between two variables, which returns the result in decimal format. This function is different from `COVAR_SAMP`, which calculates the sample covariance.
+
 
 ## Subsection 1
 
