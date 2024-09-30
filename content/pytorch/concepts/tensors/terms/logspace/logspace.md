@@ -24,10 +24,11 @@ The function is useful for generating logarithmically spaced values for various 
 torch.logspace(start, end, steps, base, dtype=None)
 ```
 
-- `start` is the base-10 logarithm of the first element in the tensor.
-- `end` is the base-10 logarithm of the last element in the tensor.
-- `steps` is the number of elements in the tensor.
-- `dtype` is the data type of the tensor.
+- `start`: The first number in the range expressed as a logarithm.
+- `end`: The last number in the range expressed as a logarithm.
+- `steps`: Number of elements to be returned in the tensor.
+- `base`: The base of the logarithm used for calculating the values default value is 10.
+- `dtype`: Specifies the data type of the returned tensor.
 
 ## Example
 
