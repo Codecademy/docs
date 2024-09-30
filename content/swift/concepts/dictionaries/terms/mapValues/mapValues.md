@@ -13,25 +13,25 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-In Swift, the `mapValues()` method is used to transform the values of a dictionary while keeping the keys unchanged. This method is part of the `Dictionary` structure and is useful for modifying or mapping only the values without altering the keys.
+In Swift, the **`mapValues()`** method is used to transform the values of a dictionary while keeping the keys unchanged. This method is part of the [Dictionary](https://www.codecademy.com/resources/docs/swift/dictionaries) structure and is useful for modifying or mapping only the values without altering the keys.
 
 ## Syntax
 
-```swift
+```pseudo
 dictionaryName.mapValues { transformation }
 ```
 
-- `dictionaryName`: The instance of a `Dictionary` whose values you want to transform.
-- The `mapValues` method returns a new dictionary with the same keys, but with the values transformed based on the provided closure.
+- `dictionaryName`: The instance of a `Dictionary` whose values are transformed.
+- `mapValues`: The method returns a new dictionary with the same keys, but with the values transformed based on the provided closure.
 - `transformation`: A closure that defines how each value in the dictionary should be transformed.
 
-The result of `mapValues()` is a new dictionary with the same keys, but the values are transformed based on the provided closure.
+The `mapValues()` function return a new dictionary with the same keys, but the values are transformed based on the provided closure.
 
-> **Note:** `mapValues()` does not modify the original dictionary; instead, it returns a new dictionary with the transformed values.
+> **Note:** `mapValues()` does not modify the original dictionary but returns a new dictionary with the same keys and values that are transformed based on the provided closure.
 
 ## Example
 
-In the following example, the `mapValues()` method is used to increase each student's grade by 10 points in the `studentGrades` dictionary:
+In the following example, the `mapValues()` method is used to increase each student's grade by `10` points while keeping the keys unchanged in the `studentGrades` dictionary:
 
 ```swift
 var studentGrades = ["Jon": 65, "Nic": 77, "Mary": 80]
