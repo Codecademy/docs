@@ -14,7 +14,7 @@ CatalogContent:
   - 'py-torch-for-classification'
 ---
 
-The **`.logspace()`** function returns a one-dimensional tensor with values logarithmically spaced between `start` and `end` with `steps` elements. The values are generated in the range `[start, end]` with the specified number of `steps`.
+The **`.logspace()`** function returns a one-dimensional tensor with values logarithmically spaced.
 
 The function is useful for generating logarithmically spaced values for various applications, such as plotting data on a logarithmic scale or creating logarithmic scales for neural network hyperparameters.
 
