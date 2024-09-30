@@ -65,4 +65,4 @@ The above query will return the following output:
 
 | Age |
 | --- |
-|34   |
+| 34  |
