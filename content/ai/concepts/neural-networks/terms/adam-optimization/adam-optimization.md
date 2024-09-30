@@ -6,7 +6,7 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'AI'
-  - 'Neural Network'
+  - 'Neural Networks'
 CatalogContent:
   - 'paths/computer-science'
   - 'paths/data-science'
