@@ -44,4 +44,4 @@ Containers are designed to be lightweight, and they are typically faster and mor
 
 ## Containerization Uses
 
-Many software companies use containers and other virtualization technology. Containerization is a fundamental part of [cloud computing](https://www.codecademy.com/resources/docs/cloud-computing), [data science](https://www.codecademy.com/resources/docs/general/data-science), [cybersecurity](https://www.codecademy.com/resources/docs/cybersecurity), and more.
+Many software companies use containers and other virtualization technology. Containerization is a fundamental part of [cloud computing](https://www.codecademy.com/resources/docs/cloud-computing), [data science](https://www.codecademy.com/resources/docs/data-science), [cybersecurity](https://www.codecademy.com/resources/docs/cybersecurity), and more.

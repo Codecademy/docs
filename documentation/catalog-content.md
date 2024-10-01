@@ -196,6 +196,15 @@ Feel free to add suggestions for new slugs to the lists as part of your PR! Be s
 - 'paths/data-science-foundations'
 ```
 
+### Python:Pytorch
+
+```
+- 'intro-to-py-torch-and-neural-networks'
+- 'learn-python-3'
+- 'paths/computer-science'
+- 'paths/data-science'
+```
+
 ### Python:Seaborn
 
 ```

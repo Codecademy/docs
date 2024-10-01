@@ -1,1 +1,1 @@
-content/java/concepts/collections/collections.md
+content/general/concepts/machine-code/machine-code.md
