@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-The **`SIMILAR TO`** operator is primarily found in `PostgreSQL`. The `SIMILAR TO` operator returns `TRUE` if its pattern matches the given string otherwise, it returns `FALSE`. It is similar to the `LIKE` operator that is used in other databases like SQL Server, MySQL, and Oracle SQL, and supports pattern matching via the use of [wildcards](https://www.codecademy.com/resources/docs/sql/wildcards).
+The **`SIMILAR TO`** operator is primarily found in `PostgreSQL`. It returns `TRUE` if its pattern matches the given string; otherwise, it returns `FALSE`. This operator is similar to the `LIKE` operator used in other databases, such as SQL Server, MySQL, and Oracle SQL, and supports pattern matching via the use of [wildcards](https://www.codecademy.com/resources/docs/sql/wildcards).
 
 ## Syntax
 
@@ -33,7 +33,7 @@ The `pattern` here constitutes a string that includes the following wildcards:
 
 ## Example 1
 
-The below example will select every country from the `countries` starting with `M`.
+The following example selects every country from the `countries` table where the name starts with "M":
 
 ```sql
 SELECT *
@@ -53,7 +53,7 @@ Example Matches:
 
 ## Example 2
 
-The below example selects every `employee` from the `employees` table whose names start with "John" or "Jane".
+The following example selects every `employee` from the `employees` table whose name starts with either `John` or `Jane`:
 
 ```sql
 SELECT *
@@ -73,7 +73,8 @@ Example Matches:
 
 ## Example 3
 
-The below example selects `employees` named "John" or "Jane" followed by a middle initial and a period.
+
+The following example selects `employees` whose name is either `John` or `Jane`, followed by a middle initial and a period:
 
 ```sql
 SELECT *
