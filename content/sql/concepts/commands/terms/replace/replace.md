@@ -33,3 +33,9 @@ In this example, we replace "cool" with "amazing":
 ```sql
 SELECT REPLACE("SQL is cool", "cool", "amazing");
 ```
+
+The above query will give the following output:
+
+```shell
+SQL is amazing
+```
