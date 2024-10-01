@@ -31,7 +31,7 @@ The syntax for adding attributes to an HTML element is as follows:
 
 ### Image Attributes
 
-Using an [`<img>`](https://www.codecademy.com/resources/docs/html/elements/img) tag, which is commonly used to display images, reveals several attributes, such as 'src`, `width`, and `height`. These attributes exert significant influence over the manner in which the image appears on the web page. For example, when the dimensions of an element are specified, its size will be maintained when rendered by a browser.
+Using an [`<img>`](https://www.codecademy.com/resources/docs/html/elements/img) tag, which is commonly used to display images, reveals several attributes, such as 'src`,`width`, and`height`. These attributes exert significant influence over the manner in which the image appears on the web page. For example, when the dimensions of an element are specified, its size will be maintained when rendered by a browser.
 
 ```html
 <img src="source_of_image.png" width="500" height="600" />
