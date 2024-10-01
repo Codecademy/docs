@@ -73,7 +73,6 @@ Example Matches:
 
 ## Example 3
 
-
 The following example selects `employees` whose name is either `John` or `Jane`, followed by a middle initial and a period:
 
 ```sql
