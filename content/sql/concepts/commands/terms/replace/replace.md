@@ -28,7 +28,7 @@ The `REPLACE()` function searches for all occurrences of the `old_substring` in 
 
 ## Example
 
-In this example, we replace "cool" with "amazing":
+In this example, "cool" is replaced with "amazing":
 
 ```sql
 SELECT REPLACE("SQL is cool", "cool", "amazing");
