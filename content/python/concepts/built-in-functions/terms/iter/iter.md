@@ -97,7 +97,7 @@ Numbers:
 ## Codebyte Example
 
 ```codebyte/python
-import randint from random
+import random
 
 technologies = ['next.js', 'react', 'node.js', 'postgreSql', 'firebase', 'tailwindcss']
 tech_iterator = iter(technologies)
@@ -106,7 +106,7 @@ for tech in tech_iterator:
   print(tech)
 
 def callback_fn():
-  return randint(1,10)
+  return random.randint(1,10)
 
 call_iterator = iter(callback_fn, 7)
 for val in call_iterator:
