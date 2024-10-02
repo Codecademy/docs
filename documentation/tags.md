@@ -269,6 +269,7 @@ Promise
 Programming
 Properties
 Protocols
+Python
 Queries
 Queues
 Quicksort
@@ -318,6 +319,7 @@ Structure
 Style
 Subqueries
 Supervised Learning
+Swift
 SwiftUI
 SwiftUI Views
 SwiftUI ViewModifiers
