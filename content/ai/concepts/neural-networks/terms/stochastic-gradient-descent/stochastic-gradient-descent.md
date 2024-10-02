@@ -70,9 +70,9 @@ Where:
 ```python
   def stochastic_gradient_descent(X, y, theta, learning_rate, n_iterations):
       for iteration in range(n_iterations):
-      for i in range(len(y)):
-      gradient = compute_gradient(X[i], y[i], theta)
-      theta -= learning_rate * gradient
+        for i in range(len(y)):
+          gradient = compute_gradient(X[i], y[i], theta)
+          theta -= learning_rate * gradient
       return theta
 ```
 
