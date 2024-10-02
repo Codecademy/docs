@@ -19,11 +19,11 @@ The **`.Scatterpolar()`** function in Plotly creates scatter plots on polar axes
 ## Syntax
 
 ```pseudo
-plotly.graph_objects.Scatterpolar(r=None, θ=None, ...)
+plotly.graph_objects.Scatterpolar(r=None, theta=None, ...)
 ```
 
 - `r`: It is a list of values representing the radial coordinates of the data points.
-- `θ`: It is a list of values representing the angular coordinates of the data points.
+- `theta`: It is a list of values representing the angular coordinates of the data points.
 
 > **Note:** The ellipsis in the syntax (...) indicates that there are additional optional parameters beyond those listed here to customize the scatter plot on polar axes.
 
