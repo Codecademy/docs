@@ -1,6 +1,6 @@
 ---
 Title: 'User Research'
-Description: 'User research is the systematic study of target users of a product or interface to understand their behaviours, needs, and motivations. User research can inform decisions at every stage of the design process.
+Description: 'User research is the systematic study of target users of a product or interface to understand their behaviours, needs, and motivations. User research can inform decisions at every stage of the design process.'
 Subjects:
   - 'Web Design'
 Tags:
