@@ -38,6 +38,14 @@ show()
 
 > Note: parameter beyond `names` and `parents` can be added to the `.treemap()` method.
 
+Overall, a treemap plot represents hierarchial data as nested rectangular sectors. Beyond `names` and `parents` some examples of its parameters are:
+
+- `data_frame` (DataFrame or array-like or dict): This argument should be passed for column (not keyword) `names` to be used. Arrays and dictionaries are transformed internally into a pandas DataFrame. If the `data_frame` is missing, the data can be passed directly as arrays or dictionaries to the px.treemap() function using other arguments.
+
+- `values` (str or int or Series or array-like): Either a name of a column in a data_frame, or a panda Series or array-like object, `values` paramenters or array-like are used as labors for sectors and determine the size of each sector in the treemap. Each sector can occupies a range of space based on the data provided.
+
+- `ids` (str or int or Series or array-like): Either a name of a column in a data_frame, or a panda Series or array-like object, `ids` parameters or array-like are used to set ids of sectors, uniquely identify each sector in the treemap.
+
 ## Example
 
 The following examples show the usage of the `.treemap()` method.
