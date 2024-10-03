@@ -214,6 +214,12 @@ Feel free to add suggestions for new slugs to the lists as part of your PR! Be s
 - 'paths/data-science-foundations'
 ```
 
+### Python:Sklearn
+
+```
+- 'paths/intermediate-machine-learning-skill-path'
+```
+
 ### R
 
 ```
