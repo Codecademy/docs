@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`deque.push_back()`** method adds an element to the end of the `deque`.
+The **`.push_back()`** method adds an element to the end of the `deque`.
 
 ## Syntax
 
