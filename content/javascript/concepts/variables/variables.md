@@ -98,14 +98,6 @@ let movieTitle = '300'; // String
 let audienceNumber = 300; // Number
 ```
 
-```js
-let magicNumber = "42";
-// The variable is a "string"
-
-magicNumber = 42;
-//Now the variable is a "number"
-```
-
 ## Video Walkthrough
 
 Watch this video for a description on what JavaScript variables are and how to use them to store values.
