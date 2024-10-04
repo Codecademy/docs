@@ -55,7 +55,7 @@ figure.show()
 
 The example above results in the following output:
 
-![The output for the example above](http://127.0.0.1:60957/)
+![The output for the example above](/docs/media/treemap_plot.png)
 
 ## Example 2
 
@@ -91,4 +91,4 @@ figure.show()
 
 The example above results in the following output:
 
-![The output for the example above](http://127.0.0.1:60988/)
+![The output for the example above](/docs/media/dataset_plot_treemap.png)
