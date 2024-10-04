@@ -2,8 +2,8 @@
 Title: 'Adam Optimization'
 Description: 'Adam is an optimization algorithm that calculates adaptive learning rates for each individual parameter.'
 Subjects:
-  - 'Machine Learning'
   - 'Computer Science'
+  - 'Machine Learning'
 Tags:
   - 'AI'
   - 'Neural Networks'
@@ -17,18 +17,21 @@ CatalogContent:
 It adapts the learning rate for each parameter, making the training process faster and more efficient, especially for large datasets. Adam's ability to handle sparse gradients and adapt dynamically to different scenarios makes it highly efficient for training deep neural networks.
 
 ## Working of Adam Optimization
+
 Adam works by computing adaptive learning rates for each parameter, which helps in adjusting the step size during optimization. It maintains two moving averages for each parameter: one for the gradients (momentum), and the other for the squared gradients (similar to RMSProp). These moving averages help to smooth out noisy updates and ensure consistent progress towards the minimum.
 
 One of Adam’s key features is bias correction, which adjusts the moving averages at the start of training to prevent initial values from being too small. This adjustment enhances Adam's stability during the initial stages of training. Furthermore, Adam adapts to different problem structures and works well with non-stationary data, such as datasets that change over time or have dynamic properties.
 
 Finally, because Adam adjusts learning rates individually for each parameter, it excels in problems where gradients vary widely or parameters have differing levels of importance.
 
-## Key Advantages 
+## Key Advantages
+
 - **Adaptive Learning Rates**: Adam adapts learning rates for each parameter, leading to more efficient training, especially in complex models.
 - **Bias Correction**: This feature is significant in the early stages of training, as it adjusts the moving averages to prevent them from being too small, enhancing stability.
 - **Robustness**: Adam performs well with noisy gradients and varying data distributions, making it suitable for real-world applications.
 
 ## Example
+
 ### MNIST Classification with Adam Optimizer
 
 This example shows how to train a neural network using the Adam optimizer with TensorFlow/Keras on the MNIST dataset, which consists of 70,000 grayscale images of handwritten digits (0-9) commonly used for benchmarking machine learning algorithms:
