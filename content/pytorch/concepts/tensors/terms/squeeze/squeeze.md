@@ -1,18 +1,16 @@
 ---
 Title: '.squeeze()'
-Description: 'Returns a tensor with all specified dimensions of input of size 1 removed.'
+Description: 'Removes input of size one dimensions from tensors.'
 Subjects: 
 - 'Data Science'
 Tags:
 - 'Data Science'
 - 'Squeeze Tensor Pytorch'
-- 'Methods, Functions'
-CatalogContent:
-- 'how-to-squeeze-tensor'
-- 'pytorch-squeeze-and-excitation'
+- 'Functions'
+
 ---
 
-The **`.squeeze()`** function removes all dimensions of size 1 from a tensor. If a dimension has a size greater than 1, will not be squeezed.
+The **`.squeeze()`** function removes all dimensions of size one from a tensor. A dimension with length greater than one will not be squeezed.
 
 ## Syntax
 
@@ -25,22 +23,21 @@ tensor.squeeze() OR tensor.squeeze([dim])
 
 ## Example
 
-Using the tensor with shape of (1, 3, 1, 5)
+The tensor with shape of (1, 3, 1, 5) will print (3, 5) after using the function .squeeze()
 
 ```py
 import torch
 
-  tensor = (1, 3, 1, 5)
-  ```
-    Output: (1, 3, 1, 5)
+tensor = (1, 3, 1, 5)
 
-If calling squeeze():
+print(tensor.shape) # Output [1, 3, 1, 5]
 
-```shell
-tensor.squeeze()
+# Squeeze to remove size one dimensions
+
+squeezedTensor = tensor.squeeze()
+
+print(squeezeTensor.shape) #Output [3, 5]
 ```
-All dimensions with size 1 are removed:
-    Output: (3, 5)
 
 
 
