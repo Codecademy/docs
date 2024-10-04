@@ -6,12 +6,11 @@ Subjects: # Please only use Subjects in the subjects.md file (https://github.com
   - 'Constructing it'
   - 'Per-parameter options'
 Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
-  - 'A tag'
-  - 'A second tag'
-  - 'An nth tag'
+  - 'PyTorch'
+  - 'Optimizers'
 CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
-  - 'learn-example-course'
-  - 'paths/example-path'
+  - 'Concept Entry'
+  - 'content/pytorch'
 ---
 
 **torch.optim** is a package implementing various optimization algorithms.
@@ -57,22 +56,3 @@ optim.SGD([
             ], weight_decay=1e-2, lr=1e-2)
 ```
 In this manner, bias terms are isolated from non-bias terms, and a weight_decay of 0 is set specifically for the bias terms, as to avoid any penalization for this group.
-
-## Codebyte Example (if applicable)
-
-We can currently support:
-
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
-
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
-
-```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
-```
