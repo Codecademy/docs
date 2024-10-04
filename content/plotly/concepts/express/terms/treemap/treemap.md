@@ -19,34 +19,20 @@ The **`.treemap()`** method in the express module from Plotly library allows the
 ## Syntax
 
 ```pseudo
-fig=px.treemap(
-    names = ["element1", "element2". "element3", "element4"]
-    parents = ["", "element1", "element1", "element1"] # Note: the empty element `""` also counts
-)
-
-update_traces()
-update_layout()
-show()
+plotly.express.treemap(data_frame = None, names = None, values=None, parents = None, color=None, title=None, labels=None, ...)
 ```
 
-- `plotly.express.treemap()`: Usually used as `px`, and thus `px.treemap()`, this is the way to call the method in full.
-- `names`: The column which contains four rows - `element1`, `element2`, `element3`, `element4`.
-- `parents`: The column which contains four rows, each one corresponding to the rows of `names` - `""` for `element1`, `element1` for `element2`, `element1` for `element3`, `element1` for `element4`.
-- `update_traces()`: is used to update the treemap's root color. It can take arguments that allow to modify attributes such as colors, shapes, and styles.
-- `update_layout()`: this method updates the layout chart, allowing to tailor the appearence and visualization style, including margins, colors, and others.
-- `show()`: Is used to run and show the chart.
+- `data_frame`: The Pandas DataFrame containing the hierarchical data for the treemap; can also accept array-like or dictionary inputs, which will be converted to a DataFrame.
+- `names`: Specifies the column name, Series, or array-like object used as labels for the rectangles in the treemap.
+- `values`: Specifies the column name, Series, or array-like object whose values are used to determine the size of each rectangle.
+- `parents`: Specifies the column name, Series, or array-like object used to define the parent-child relationships for the rectangles in the hierarchy.
+- `color`: Specifies the column name, Series, or array-like object whose values are used to assign colors to the rectangles.
+- `title`: An optional title for the treemap chart.
+- `labels`: A dictionary that overrides default column names for axis titles, legend entries, and hover information.
 
-> Note: parameter beyond `names` and `parents` can be added to the `.treemap()` method.
+> Note: The ellipsis in the syntax (...) indicates that there are additional optional parameters beyond those listed here to customize the 3D mesh.
 
-Overall, a treemap plot represents hierarchial data as nested rectangular sectors. Beyond `names` and `parents` some examples of its parameters are:
-
-- `data_frame` (DataFrame or array-like or dict): This argument should be passed for column (not keyword) `names` to be used. Arrays and dictionaries are transformed internally into a pandas DataFrame. If the `data_frame` is missing, the data can be passed directly as arrays or dictionaries to the px.treemap() function using other arguments.
-
-- `values` (str or int or Series or array-like): Either a name of a column in a data_frame, or a panda Series or array-like object, `values` paramenters or array-like are used as labors for sectors and determine the size of each sector in the treemap. Each sector can occupies a range of space based on the data provided.
-
-- `ids` (str or int or Series or array-like): Either a name of a column in a data_frame, or a panda Series or array-like object, `ids` parameters or array-like are used to set ids of sectors, uniquely identify each sector in the treemap.
-
-## Example
+## Example 1
 
 The following examples show the usage of the `.treemap()` method.
 
@@ -71,7 +57,9 @@ The example above results in the following output:
 
 ![The output for the example above](http://127.0.0.1:60957/)
 
-Combining a `Data Frame` with the `.treemap()`:
+## Example 2
+
+The following example combines a `Data Frame` with the `.treemap()`:
 
 ```py
 # Creating an alias for plotly.express library
