@@ -9,7 +9,7 @@ Tags:
   - 'Metadata'
   - 'Symbol'
   - 'Functions'
-Catalog-content:
+CatalogContent:
   - 'learn-python 3'
   - 'paths/computer-science'
 ---
