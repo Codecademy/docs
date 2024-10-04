@@ -30,7 +30,7 @@ The `.empty()` function takes no parameters and returns either a boolean true or
 
 ## Example
 
-The following example calls the map class `.empty()` member function, stores it's return value in a boolean variable, and uses it to display whether or not the map is empty.
+The following example calls the map class' `.empty()` member function, stores it's return value in a boolean variable, and uses it to display whether or not the map is empty.
 
 ```cpp
   #include <map>
@@ -44,7 +44,7 @@ The following example calls the map class `.empty()` member function, stores it'
   //Store the return value of the .empty() member function in a boolean variable, 'isEmpty'.
   bool isEmpty = emptyMap.empty();
 
-  //Use the value in 'isEmpty' to display whether the map is empty or not.
+  //Use the value stored in 'isEmpty' to display whether the map is empty or not.
   isEmpty ? printf("The map is empty.") : printf("The map is not empty");
 
   return 0;
@@ -54,18 +54,17 @@ The following example calls the map class `.empty()` member function, stores it'
 Running the code above produces the following output:
 
 ```shell
-  'The map is empty.
+  The map is empty.
 ```
 
 ## Codebyte Example (if applicable)
 
-The following code creates two STL map class objects, leaving one empty and initializing the other with a number of elements. The `.empty()` member function is then called on both objects, and it's return value is used to display whether or not the map is empty.
+The following code creates two STL map class objects, leaving one empty and initializing the other with a number of elements. The `.empty()` member function is then called on both objects, and it's return value is used in each case to display whether or not the map being considered is empty.
 
 ```codebyte/cpp
-  #include <map> //The 'map' header file must be included to use the C++ Standard Template Library map class
+  #include <map> //The 'map' header file must be included to use the C++ Standard Template Library map class.
 
-  //We can use the standard namespace so we can simply type 'map' instead of specifying 'std::map' every time
-  using namespace std; 
+  using namespace std; //We specify we are using the standard namespace, so we can just type 'map' instead of 'std::map'.
 
   int main() {
   //Create an empty map
@@ -74,10 +73,9 @@ The following code creates two STL map class objects, leaving one empty and init
   //Create a non-empty map using an initializer list
   map<int, char> notEmptyMap{{1, 'a'}, {2, 'b'}, {3, 'c'}};
 
-  //Calling the .empty() function on an empty map:
-  printf("Testing if emptyMap is empty:\n");
-	
+  //Calling the .empty() function on an empty map.
   //The function returns true if the map is empty, and false otherwise
+  printf("Testing if emptyMap is empty:\n");
   if (emptyMap.empty()) {
     printf("The map is empty.\n");
   }
