@@ -19,7 +19,7 @@ The C++ Standard Template Library (STL) [map](https://www.codecademy.com/resourc
 
 ## Syntax
 
-The STL map class' `.empty()` member function can be called using the dot (.) operator, as shown below. 
+The STL map class' `.empty()` member function can be called using the dot (.) operator, as shown below.
 
 ```pseudo
   //If myMap is an STL map object, this statement calls the map class' empty() function.
