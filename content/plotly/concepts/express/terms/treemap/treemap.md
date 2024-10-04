@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.treemap()`** method in the express module from Plotly library allows the creation of charts in a hierarchy defined mainly by `labels` (`names` for `plotly.express treemap()`) and `parents` attributes. With `plotly.express treemap()` each row of the DataFrame is represented as a sector of the treemap. The number of elements in the list of `names` must be the same as the list of `parents`, and both must always be strings. If it is a dictionary, the number of elements in a given list taken as a value for the key `names` must be the same number of elements in a given list taken as a value for the key `parents`.
+The **`.treemap()`** method in the Plotly express module creates treemap charts representing hierarchical data. The hierarchy is defined using `names` (for sector labels) and `parents` (for parent-child relationships). Each row in the DataFrame corresponds to a sector, and the lengths of `names` and `parents` must match. Both can be strings, integers, Series, or array-like objects. If using a dictionary for the `data_frame`, the lists for `names` and `parents` must also have equal lengths.
 
 ## Syntax
 
