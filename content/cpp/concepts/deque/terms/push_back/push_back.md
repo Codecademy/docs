@@ -24,13 +24,45 @@ The `.push_back()` method is called on a `deque` using the following syntax:
 dequeName.push_back(value);
 ```
 
-`value`: The element to be added to the back of the deque. It can be of any [data type](https://www.codecademy.com/resources/docs/cpp/data-types) that the `dequeName` holds.
+- `value`: The element to be added to the back of the deque. It can be of any [data type](https://www.codecademy.com/resources/docs/cpp/data-types) that the `dequeName` holds.
 
-<!-- > **Note:** Each `value` in `dequeName` must be of the same [data type](https://www.codecademy.com/resources/docs/cpp/data-types). -->
+## Example
+
+The example below showcases the use of the `.push_back()` method:
+
+```cpp
+#include <iostream>
+#include <deque>
+
+int main() {
+    // Create a deque of integers
+    std::deque<int> numbers;
+
+    // Use push_back() to add elements to the deque
+    numbers.push_back(10);
+    numbers.push_back(20);
+    numbers.push_back(30);
+
+    // Display the elements of the deque
+    std::cout << "Deque contents: ";
+    for (int num : numbers) {
+        std::cout << num << " ";
+    }
+    std::cout << std::endl;
+
+    return 0;
+}
+```
+
+The above code generates the following output:
+
+```shell
+Deque contents: 10 20 30
+```
 
 ## Codebyte Example
 
-The following example adds several values to `myDeque` with the `.push_back()` method:
+The following codebyte adds several values to `myDeque` with the `.push_back()` method:
 
 ```codebyte/cpp
 #include <iostream>
