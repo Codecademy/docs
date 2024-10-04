@@ -1,6 +1,6 @@
 ---
 Title: 'Adam Optimization'
-Description: 'Adam is an optimization algorithm that computes adaptive learning rates for each parameter'
+Description: 'Adam is an optimization algorithm that calculates adaptive learning rates for each individual parameter.'
 Subjects:
   - 'Machine Learning'
   - 'Computer Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-**Adam** (Adaptive Moment Estimation) widely used optimization algorithm in deep learning. It combines the momentum technique from Stochastic Gradient Descent (SGD) with the adaptive learning rate of RMSprop (Root Mean Square Propagation). Adam can also be viewed as an extension of AdaDelta, refining the learning rate adjustments for each parameter.
+**Adam** (Adaptive Moment Estimation) is a widely used optimization algorithm in deep learning. It combines the momentum technique from Stochastic Gradient Descent (SGD) with the adaptive learning rate of RMSprop (Root Mean Square Propagation). Adam can also be viewed as an extension of AdaDelta, refining the learning rate adjustments for each parameter.
 
 It adapts the learning rate for each parameter, making the training process faster and more efficient, especially for large datasets. Adam's ability to handle sparse gradients and adapt dynamically to different scenarios makes it highly efficient for training deep neural networks.
 
@@ -31,9 +31,9 @@ Finally, because Adam adjusts learning rates individually for each parameter, it
 ## Example
 ### MNIST Classification with Adam Optimizer
 
-This example demonstrates how to train a neural network on the MNIST dataset using the Adam optimizer with TensorFlow/Keras.
+This example shows how to train a neural network using the Adam optimizer with TensorFlow/Keras on the MNIST dataset, which consists of 70,000 grayscale images of handwritten digits (0-9) commonly used for benchmarking machine learning algorithms:
 
-```python
+```py
 import tensorflow as tf
 from tensorflow.keras.datasets import mnist
 from tensorflow.keras.models import Sequential
@@ -69,3 +69,11 @@ model.fit(x_train, y_train, epochs=5, batch_size=32, validation_split=0.2)
 test_loss, test_acc = model.evaluate(x_test, y_test)
 print(f'Test Accuracy: {test_acc:.4f}')
 ```
+
+The above code generates the following output:
+
+```shell
+Test Accuracy: 0.9731
+```
+
+> Note: The output will change with each run due to random weight initialization, data shuffling, and the stochastic nature of the Adam optimizer.
