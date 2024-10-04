@@ -97,6 +97,7 @@ Deep Learning
 Denoising
 Dependency
 Design
+Deques
 Developer Tools
 Development
 DFS
@@ -268,6 +269,7 @@ Promise
 Programming
 Properties
 Protocols
+Python
 Queries
 Queues
 Quicksort
