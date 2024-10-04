@@ -22,7 +22,11 @@ console.log(currency + userIncome + ' is more than the average income.');
 // Output: $85000 is more than the average income.
 ```
 
-```js
+## Codebyte Example
+
+The following codebyte example demonstrates the usage of variables in JavaScript:
+
+```codebyte/javascript
 let name = "John";
 let age = 25;
 let city = "Berlin";
