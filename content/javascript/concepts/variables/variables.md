@@ -57,7 +57,11 @@ let weight;
 const numberOfFingers = 20;
 ```
 
-```js
+## Codebyte Example
+
+The following codebyte example shows how to declare variables in JavaScript:
+
+```codebyte/javascript
 // Using `var`
 var animal = "giraffe";
 console.log(animal);
