@@ -24,8 +24,8 @@ torch.cat(tensors, dim=0)
 
 ## Parameters
 
-- **tensors** (sequence of Tensors) – The tensors to concatenate.
-- **dim** (int) – The dimension along which the tensors are concatenated.
+- `tensors`: A sequence of tensors to be concatenated. All tensors must have the same shape in all dimensions except for the specified dimension.
+- `dim`: An integer specifying the dimension along which the tensors will be concatenated. The default value is 0, which means concatenation will occur along the first dimension.
 
 ## Example 1
 
