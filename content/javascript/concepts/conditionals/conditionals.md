@@ -1,6 +1,6 @@
 ---
 Title: 'Conditionals'
-Description: 'Conditionals take an expression, which is code that evaluates to determine a value, and checks if it is true or false. If it’s true, we can tell our program to do one thing — we can even account for false to do another. An if statement accepts an expression with a set of parentheses: - If the expression evaluates to a truthy value, then the code within its code body executes. - If the expression evaluates to a falsy value, its code body will not execute. js const isMailSent = true; if (isMailSent) {'
+Description: 'Conditionals take an expression (code that evaluates to determine a value) and check if it's true or false.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Conditionals take an expression, which is code that evaluates to determine a value, and checks if it is `true` or `false`. If it’s `true`, we can tell our program to do one thing — we can even account for `false` to do another.
+Conditionals take an expression, which is code that evaluates to determine a value, and checks if it is `true` or `false`. If it’s `true`, we can tell our program to do one thing and if it's `false` we can tell the program to do another thing.
 
 ## If Statement
 
