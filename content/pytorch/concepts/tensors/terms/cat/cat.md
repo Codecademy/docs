@@ -69,7 +69,9 @@ tensor([[ 1,  2,  3],
         [10, 11, 12]])
 ```
 
-## 2. Concatenating tensors along the second dimension
+## Example 2
+
+The example below showcases concatenating tensors along the second dimension using the `.cat()` function:
 
 ```py
 import torch
