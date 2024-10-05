@@ -29,7 +29,7 @@ torch.cat(tensors, dim=0)
 
 ## Example 1
 
-## 1. Concatenating tensors along the first dimension
+The example below showcases concatenating tensors along the first dimension using the `.cat()` function:
 
 ```py
 import torch
