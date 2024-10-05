@@ -38,7 +38,6 @@ let city = "Berlin";
 
 // Using the variables multiple times in the program
 console.log("Name: " + name);
-
 console.log("Age: " + age);
 console.log("City: " + city);
 
