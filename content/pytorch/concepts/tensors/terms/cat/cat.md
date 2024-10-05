@@ -14,7 +14,7 @@ CatalogContent:
   - 'py-torch-for-classification'
 ---
 
-The **`.cat()`** function in PyTorch is used for concatenating two or more tensors in the same dimension. The tensors must have the same shape in all dimensions except the one in which they are concatenated.
+The **`.cat()`** function in PyTorch concatenates two or more tensors along a specified dimension. The tensors must have the same shape in all dimensions except for the dimension along which they are concatenated.
 
 ## Syntax
 
