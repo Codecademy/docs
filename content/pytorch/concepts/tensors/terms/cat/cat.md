@@ -109,7 +109,9 @@ tensor([[ 1,  2,  3,  7,  8,  9],
         [ 4,  5,  6, 10, 11, 12]])
 ```
 
-## 3. Concatenating tensors along the third dimension
+## Example 3
+
+The example below showcases concatenating tensors along the third dimension using the `.cat()` function:
 
 ```py
 import torch
