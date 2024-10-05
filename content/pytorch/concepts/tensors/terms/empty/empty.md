@@ -1,6 +1,6 @@
 ---
 Title: '.empty()'
-Description: 'Creates a new tensor of a specified shape, with uninitialized data.'
+Description: 'Creates a new tensor of a specified shape with uninitialized data.'
 Subjects:
   - 'AI'
   - 'Data Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.empty()`** method creates a tensor that has uninitialized data. This means that the tensor is created where there is free data, which may include NaNs or other values. The shape of the tensor must be specified.
+The **`.empty()`** method creates a tensor with uninitialized data. This means that the tensor is allocated memory without setting its values, which may contain arbitrary data (such as NaNs or other undefined values). The shape of the tensor must be specified as an argument.
 
 ## Syntax
 
@@ -23,16 +23,18 @@ torch.empty(size, out=None, dtype=None, layout=torch.strided, device=None, requi
 
 The parameters are as follows:
 
-- `size`: The shape of the tensor, specified as a variable, tuple, or list of integers.
+- `size`: Specifies the shape of the tensor. It can be an integer or a tuple of integers representing the dimensions
 - `out`: The output Tensor, defaults to `None`.
-- `dtype`: The datatype (`torch.dtype`) of the zeros, defaults to `None`.
-- `layout`: The layout (`torch.layout`) of the output tensor, defaults to `torch.strided`.
-- `device`: The device (`torch.device`) of the output tensor, defaults to `None`.
+- `dtype`: Specifies the desired data type of the tensor.
+- `layout`: Specified the layout (`torch.layout`) of the output tensor, defaults to `torch.strided`.
+- `device`: Specifies the device (`torch.device`) of the output tensor, defaults to `None`.
 - `requires_grad`: A boolean indicating whether autograd will record operations on the output tensor, defaults to `False`.
 - `pin_memory`: A boolean indicating whether the tensor is allocated in pinned memory. This only works for CPU tensors. Defaults to `False`.
-- `memory_format`: Memory format (`torch.memory_format`) of the output tensor, defaults to `torch.contiguous_format`.
+- `memory_format`: Specifies the memory format (`torch.memory_format`) of the output tensor, defaults to `torch.contiguous_format`.
 
 ## Example
+
+The example below uses the `.empty()` method:
 
 ```py
 import torch
@@ -49,7 +51,7 @@ tensor([1.245e+11, NaN, -2.956e-52])
 
 ## Codebyte Example
 
-Run the following code to see how the `.empty()` method works.
+Run the following code to see how the `.empty()` method works:
 
 ```codebyte/python
 import torch
