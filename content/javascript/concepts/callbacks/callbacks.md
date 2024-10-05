@@ -1,6 +1,6 @@
 ---
 Title: 'Callbacks'
-Description: 'Callback functions are functions that are passed as arguments in other functions. A callback function can then be invoked during the execution of that higher order function (that it is an argument of). In JavaScript, functions can be passed as arguments because functions are objects. Suppose there are two functions, functionA() and functionB(): js function functionA(num1, num2) { return num1 + num2; }'
+Description: 'A callback is a function passed as an argument to another function. In JavaScript, functions are objects, so they can be passed as arguments and called later.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -11,9 +11,11 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Callback functions are functions that are passed as arguments in other functions. A callback function can then be invoked during the execution of that higher order function (that it is an argument of).
+A callback is a function passed as an argument to another function. In JavaScript, functions can be passed as arguments because functions are objects.
 
-In JavaScript, functions can be passed as arguments because functions are objects.
+A callback function gets invoked during the execution of the higher order function (that it is an argument of).
+
+## Example
 
 Suppose a function is created which makes a calculation and doubles the results of that calculation:
 
