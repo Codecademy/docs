@@ -27,7 +27,7 @@ The code above produces the following output:
 $85000 is more than the average income.
 ```
 
-## Codebyte Example
+## Codebyte Example 1
 
 Run the following codebyte example to understand the usage of variables in JavaScript:
 
@@ -59,7 +59,7 @@ let weight;
 const numberOfFingers = 20;
 ```
 
-## Codebyte Example
+## Codebyte Example 2
 
 Run the following codebyte example to understand how to declare variables in JavaScript:
 
