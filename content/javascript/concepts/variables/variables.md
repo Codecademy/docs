@@ -19,12 +19,17 @@ const currency = '$';
 let userIncome = 85000;
 
 console.log(currency + userIncome + ' is more than the average income.');
-// Output: $85000 is more than the average income.
+```
+
+The code above produces the following output:
+
+```shell
+$85000 is more than the average income.
 ```
 
 ## Codebyte Example
 
-The following codebyte example demonstrates the usage of variables in JavaScript:
+Run the following codebyte example to understand the usage of variables in JavaScript:
 
 ```codebyte/javascript
 let name = "John";
@@ -33,11 +38,9 @@ let city = "Berlin";
 
 // Using the variables multiple times in the program
 console.log("Name: " + name);
-// Output: Name: John
+
 console.log("Age: " + age);
-//Output: Age: 25
 console.log("City: " + city);
-//Output: City: Berlin
 
 // Reusing the variables
 console.log(name + " is " + age + " years old and lives in " + city + ".");
@@ -59,31 +62,26 @@ const numberOfFingers = 20;
 
 ## Codebyte Example
 
-The following codebyte example shows how to declare variables in JavaScript:
+Run the following codebyte example to understand how to declare variables in JavaScript:
 
 ```codebyte/javascript
 // Using `var`
 var animal = "giraffe";
 console.log(animal);
-//Output: giraffe
 
 animal = "elephant";
 console.log(animal);
-// Output: elephant
 
 // Using `let`
 let spaceship = "Falcon";
 console.log(spaceship);
-//Output: Falcon
 
 spaceship = "Starship";
 console.log(spaceship);
-//Output: Starship
 
 //Using `const`
 const favoritePlanet = "Earth";
 console.log(favoritePlanet);
-//Output: Earth
 
 favoritePlanet = "Mars";
 // Error! The variable "favoritePlanet" cannot be changed because it is a const.
