@@ -27,7 +27,7 @@ torch.cat(tensors, dim=0)
 - **tensors** (sequence of Tensors) – The tensors to concatenate.
 - **dim** (int) – The dimension along which the tensors are concatenated.
 
-## Example
+## Example 1
 
 ## 1. Concatenating tensors along the first dimension
 
