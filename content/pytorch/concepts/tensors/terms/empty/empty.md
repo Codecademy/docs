@@ -26,7 +26,7 @@ The parameters are as follows:
 - `size`: Specifies the shape of the tensor. It can be an integer or a tuple of integers representing the dimensions
 - `out`(Optional): The output Tensor, defaults to `None`.
 - `dtype`(Optional): Specifies the desired data type of the tensor.
-- `layout`(Optional): Specified the layout (`torch.layout`) of the output tensor, defaults to `torch.strided`.
+- `layout`(Optional): Specifies the layout (`torch.layout`) of the output tensor, defaults to `torch.strided`.
 - `device`(Optional): Specifies the device (`torch.device`) of the output tensor, defaults to `None`.
 - `requires_grad`(Optional): A boolean indicating whether autograd will record operations on the output tensor, defaults to `False`.
 - `pin_memory`(Optional): A boolean indicating whether the tensor is allocated in pinned memory. This only works for CPU tensors. Defaults to `False`.
