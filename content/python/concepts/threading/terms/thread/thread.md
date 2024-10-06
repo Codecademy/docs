@@ -12,12 +12,12 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.Thread()` method is a class constructor which returns a thread object that can run a function with zero or more arguments.
+The `.Thread()` method is a class constructor that returns a thread object that can run a function with zero or more arguments.
 
 ## Syntax
 
 ```pseudo
-threading.Thread(target=object, args=())
+threading.Thread(target=callable, args=())
 ```
 
 [Functions](https://www.codecademy.com/resources/docs/python/functions) are commonly passed as the `target` argument, but without parentheses. If any items are listed in the `args` tuple, they are passed as positional arguments to the `target`.
@@ -84,7 +84,7 @@ thread_2.start()
 thread_1.join()
 thread_2.join()
 
-print("Both downloads completed!")
+print("Both downloads completed!")  # Output: Both downloads completed!
 ```
 
 - Explanation:
