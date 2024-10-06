@@ -87,24 +87,6 @@ thread_2.join()
 print("Both downloads completed!")  # Output: Both downloads completed!
 ```
 
-- Explanation:
-
-download_file(filename, duration): This function simulates downloading a file by printing the start message, pausing execution for the given duration (time.sleep()), and then printing the finish message.
-
-filename: The name of the file being "downloaded".
-duration: The time it takes to "download" the file (simulated using time.sleep()).
-Creating Threads:
-
-thread_1: This thread targets the download_file() function, passing "file1.txt" as the filename and 2 seconds as the download duration.
-thread_2: This thread targets the download_file() function, passing "file2.txt" and 4 seconds.
-Starting the Threads:
-
-Both threads are started using .start(), meaning the file downloads begin concurrently.
-Joining the Threads:
-
-.join() ensures that the main program waits for both threads to finish before continuing. Without this, the main program might end before both downloads are complete.
-
-
 ## Codebyte Example 3
 
 In the example below, two threads, coffee_thread and toast_thread, target the make_coffee() and toast_bread() functions, respectively. Each thread simulates the preparation of coffee and toast concurrently. After the threads are created, the targeted functions are executed when the .start() method is run.
@@ -138,19 +120,3 @@ toast_thread.join()
 print("Breakfast is ready!")
 ```
 
-- Explanation:
-
-make_coffee(): This function simulates making coffee by printing a message, pausing for 3 seconds (using time.sleep()), and then printing that the coffee is ready.
-
-toast_bread(): This function simulates toasting bread by printing a message, pausing for 2 seconds, and then printing that the bread is toasted.
-
-Creating Threads:
-
-coffee_thread: This thread targets the make_coffee() function.
-toast_thread: This thread targets the toast_bread() function.
-Starting the Threads:
-
-Both threads are started using .start(), meaning the coffee and toast preparations begin concurrently.
-Joining the Threads:
-
-.join() ensures that the main program waits for both threads to finish before printing that breakfast is ready.
