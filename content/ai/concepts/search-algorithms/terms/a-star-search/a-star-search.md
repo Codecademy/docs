@@ -99,3 +99,86 @@ The next node to be explored is the goal node **G**, meaning the shortest path t
 ## Using the A\* Algorithm
 
 This algorithm is guaranteed to find a shortest path if one exists. One of the main uses of this algorithm is route planning. However, there are many other uses.
+
+## Example Code
+
+Here is an example of the A\* algorithm implemented in Python that solves the above example graph:
+
+```python
+from heapq import *
+
+
+def a_star_search(graph: dict, start: str, goal: str, heuristic_values: dict) -> int:
+    '''
+    A* search algorithm implementation.
+    @param graph: The graph to search.
+    @param start: The starting node.
+    @param goal: The goal node.
+    @param heuristic_values: The heuristic values for each node. Must be admissible, and the heuristic value for the goal node must be 0.
+    @return: The cost of the path from the start node to the goal node.
+    '''
+    '''A min heap is used to implement the priority queue for the open list.
+    We use the heapq module from Python's standard library. Entries in the heap are tuples of the form (cost, node). So when we compare two entries, the entry with the lowest cost always smaller. Note we don't need to implement the heapify operation as the heapq module maintains the heap invariant after every push and pop operation.
+
+    The closed list is implemented as a set for fast membership checking.
+    '''
+    open_list, closed_list = [(heuristic_values[start], start)], set()
+    while open_list:
+        cost, node = heappop(open_list)
+        # As noted in the last section, the algorithm ends when the goal node G has been explored, NOT when it is added to the open list.
+        if node == goal:
+            return cost
+        if node in closed_list:
+            continue
+        closed_list.add(node)
+        # Overcounted the heuristic value, so we subtract it
+        cost -= heuristic_values[node]
+        for neighbor, edge_cost in graph[node]:
+            if neighbor in closed_list:
+                continue
+            # The crucial step: f(x) = g(x) + h(x)
+            neighbor_cost = cost + edge_cost + heuristic_values[neighbor]
+            heappush(open_list, (neighbor_cost, neighbor))
+    return -1 # No path found
+
+
+EXAMPLE_GRAPH = {
+    'S': [('A', 4), ('B', 10), ('C', 11)],
+    'A': [('B', 8), ('D', 5)],
+    'B': [('D', 15)],
+    'C': [('D', 8), ('E', 20), ('F', 2)],
+    'D': [('F', 1), ('I', 20), ('H', 16)],
+    'E': [('G', 19)],
+    'F': [('G', 13)],
+    'H': [('J', 2), ('I', 1)],
+    'I': [('K', 13), ('G', 5), ('J', 5)],
+    'J': [('K', 7)],
+    'K': [('G', 16)]
+}
+
+# Node values (possibly heuristic values or other parameters)
+EXAMPLE_HEURISTIC_VALUES = {
+    'S': 7,
+    'A': 8,
+    'B': 6,
+    'C': 5,
+    'D': 5,
+    'E': 3,
+    'F': 3,
+    'G': 0,
+    'H': 7,
+    'I': 4,
+    'J': 5,
+    'K': 3
+}
+
+EXAMPLE_RESULT = a_star_search(EXAMPLE_GRAPH, 'S', 'G', EXAMPLE_HEURISTIC_VALUES)
+print(EXAMPLE_RESULT)  # Output: 23
+```
+
+
+## Complexity Analysis
+
+For time complexity, one might notice that each heappush corresponds to an edge, which would be the dominating complexity for most cases. Indeed, A* is equivalent to Dijkstra's algorithm when the heuristic function is 0, and A* is equivalent to Dijkstra's algorithm with reduced cost when the heuristic function is admissible i.e. ```tex O(V+Elog(V))``` time complexity.
+
+In practice, however, a good heuristc function can drastically decrease A*'s complexity. The idea here is we need to look at exponentially fewer nodes with a better heuristic. So the time and space complexity are actually ```tex O(b1^d)``` where b1 is the effective branching factor i.e. an empirical average of neighboring nodes not in the closed list, and d is the search depth i.e. length of the optimal path. The large space complexity is the biggest disadvantage of A* search, giving rise to other variations of this algorithm.
