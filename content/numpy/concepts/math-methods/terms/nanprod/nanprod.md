@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-In NumPy, the **`.nanprod()`** function calculates the product of array elements over a specified axis, treating NaN (Not a Number) values as 1. This function is particularly useful when working with arrays that may contain missing or undefined values represented as NaN.
+In NumPy, the **`.nanprod()`** function calculates the product of array elements over a specified axis, treating `NaN` (Not a Number) values as 1. This function is particularly useful when working with arrays that may contain missing or undefined values represented as `NaN`.
 
 ## Syntax
 
