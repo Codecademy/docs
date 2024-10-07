@@ -37,9 +37,9 @@ The below example show a table `transactions` that has three columns: `customer_
 
 ```sql
 SELECT 
-  customer_name, 
-  scifi, 
-  romance 
+  customer_name,
+  scifi,
+  romance
 FROM 
   transactions PIVOT (
     SUM(price) FOR book_genre IN (scifi, romance)
