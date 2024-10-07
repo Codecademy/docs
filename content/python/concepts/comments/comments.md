@@ -1,6 +1,6 @@
 ---
 Title: 'Comments'
-Description: 'A comment is a piece of text in a program used to explain code. Python uses the # character to start a comment, which extends to the end of the line.'
+Description: 'A comment is a piece of text in a program used to explain code.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -11,7 +11,8 @@ CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
-A comment is a piece of text within a program that is not executed. It is used to provide additional information or context to help understand the code.
+
+A comment is a piece of text within a program that is not executed. It is used to provide additional information or context to help understand the code. Python uses the `#` character to start a comment, which extends to the end of the line.
 
 ## Single-line Comments
 
@@ -47,9 +48,9 @@ print("Hello, World!")
 
 ## Codebyte Example
 
-Here are some examples of comments in a Python program:
+Run the following codebyte to understand how comments work in Python:
 
-```codebyte/py
+```codebyte/python
 """
 Tip Calculator
 Written by Sonny
