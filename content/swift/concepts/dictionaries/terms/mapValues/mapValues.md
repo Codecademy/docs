@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-In Swift, the **`.mapValues()`** method transforms the values of a dictionary while keeping the keys unchanged. This method is part of the [Dictionary](https://www.codecademy.com/resources/docs/swift/dictionaries) structure and is useful for modifying or mapping only the values without altering the keys.  This method returns a new dictionary with the same keys but with values transformed based on the provided closure, leaving the original dictionary unmodified.
+In Swift, the **`.mapValues()`** method transforms the values of a dictionary while keeping the keys unchanged. This method is part of the [Dictionary](https://www.codecademy.com/resources/docs/swift/dictionaries) structure and is useful for modifying or mapping only the values without altering the keys. This method returns a new dictionary with the same keys but with values transformed based on the provided closure, leaving the original dictionary unmodified.
 
 ## Syntax
 
