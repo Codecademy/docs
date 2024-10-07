@@ -36,7 +36,7 @@ PIVOT
 The below example show a table `transactions` that has three columns: `customer_name`, `book_genre`, `price`. Each row represents a transaction at a bookstore. The query below creates a temporary pivot table `pivot_table` with columns `customer_name`, `scifi`, and `romance` where each row now represents the aggregate price that the customers paid for books in each of these genres.
 
 ```sql
-SELECT 
+SELECT
   customer_name,
   scifi,
   romance
