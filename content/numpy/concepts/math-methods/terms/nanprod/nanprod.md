@@ -24,11 +24,11 @@ In NumPy, the **`.nanprod()`** function calculates the product of array elements
 numpy.nanprod(a, axis=None, dtype=None, out=None, keepdims=False)
 ```
 
-- `a`: The input array.
-- `axis` (optional): The axis along which the product is computed. If not specified, the product of all elements is calculated.
-- `dtype` (optional): The data type of the output. If not specified, the dtype of the input is used.
-- `out` (optional): An array to store the result. If not provided, a new array is created.
-- `keepdims` (optional): If set to True, the axes which are reduced are left in the result as dimensions with size one.
+- `a`: An array for which the product is calculated.
+- `axis`: An optional parameter used as the axis along which the product is computed. If not specified, the product of all elements is calculated.
+- `dtype` : An optional parameter used as the data type of the output. If not specified, then the data type the input is used.
+- `out`: An optional parameter specifying the array to store the result. If not provided, a new array is created.
+- `keepdims`: An optional parameter if set to True, the axes that are reduced are left in the result as dimensions with size one.
 
 ## Example 1
 
