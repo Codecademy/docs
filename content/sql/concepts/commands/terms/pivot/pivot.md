@@ -40,7 +40,7 @@ SELECT
   customer_name,
   scifi,
   romance
-FROM 
+FROM
   transactions PIVOT (
     SUM(price) FOR book_genre IN (scifi, romance)
   ) AS pivot_table;
