@@ -1,6 +1,7 @@
 ---
 Title: 'Modules'
-Description: 'As the program grows bigger, it may contain many lines of code. Instead of putting everything in a single file, modules can be used to separate codes in separate files as per their functionality. This makes the code more organized and easier to maintain. A module is a file that contains code that performs a specific task. A module may contain variables, functions, classes, etc. Suppose, a file named greetPerson.js contains the following code: js // Exporting a function export function greetPerson(name) { return Hi, ${name};'
+Description: 'As programs grow larger, using modules to separate code into different files improves organization and maintainability. A module, like `greetPerson.js`, can contain variables, functions, and classes, such as the exported function `greetPerson(name)` that returns a greeting.'
+
 Subjects:
   - 'Web Development'
   - 'Computer Science'
