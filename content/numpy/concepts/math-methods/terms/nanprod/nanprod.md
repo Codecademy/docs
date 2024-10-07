@@ -1,6 +1,6 @@
 ---
 Title: '.nanprod()'
-Description: 'Calculates the product of array elements over a given axis, treating NaN (Not a Number) values as 1.'
+Description: 'Calculates the product of array elements.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
