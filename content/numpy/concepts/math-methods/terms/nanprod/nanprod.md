@@ -32,7 +32,7 @@ numpy.nanprod(a, axis=None, dtype=None, out=None, keepdims=False)
 
 ## Example 1
 
-This example demonstrates using `.nanprod()` function to calculate the product of an array containing NaN values:
+This example demonstrates using `.nanprod()` function to calculate the product of an array containing `NaN` values:
 
 ```py
 import numpy as np
