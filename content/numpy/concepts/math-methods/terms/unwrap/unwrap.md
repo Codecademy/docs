@@ -1,6 +1,6 @@
 ---
 Title: '.unwrap()'
-Description: 'Unwraps a phase angle array by changing deltas greater than a threshold (default: π) to their 2π complement.'
+Description: 'Unwraps a phase angle array by changing deltas greater than a threshold to their 2*pi complement.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,12 +14,12 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In NumPy, the **`.unwrap()`** function is used to unwrap a phase angle array. This function adjusts the phase angles by changing any absolute difference between consecutive angles greater than the specified threshold (default: π) by their 2π complement. It is commonly used in signal processing to correct phase angle discontinuities in wrapped data.
+In NumPy, the **`.unwrap()`** function is used to unwrap a phase angle array. This function adjusts the phase angles by changing any absolute difference between consecutive angles greater than the specified threshold (default: `pi`) by their `2*pi` complement. It is commonly used in signal processing to correct phase angle discontinuities in wrapped data.
 
 ## Syntax
 
 ```pseudo
-numpy.unwrap(p, discont=pi, axis=-1, period=2*numpy.pi)
+numpy.unwrap(p, discont=pi, axis=-1, period=6.283185307179586)
 ```
 
 - `p`: The input array of phase angles to be unwrapped.
@@ -63,7 +63,7 @@ import numpy as np
 # Creating an array of phase angles with large discontinuities
 angles = np.array([0, np.pi/2, np.pi, 3*np.pi, -np.pi/2])
 
-# Unwrapping with a custom discontinuity threshold of 2π
+# Unwrapping with a custom discontinuity threshold of 2*pi
 unwrapped = np.unwrap(angles, discont=2*np.pi)
 
 print(unwrapped)
