@@ -63,14 +63,13 @@ This produces the following output:
 
 ## Codebyte Example
 
-The following codebyte example demonstrates the usage of the `.reshape()` method:
+Run the following codebyte example to understand the usage of the `.reshape()` method:
 
 ```codebyte/python
 import numpy as np
 
 arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
-
 new_arr = arr.reshape(4, 3)
 
-print(new_arr) 
+print(new_arr)
 ```
