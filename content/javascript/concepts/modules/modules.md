@@ -1,6 +1,11 @@
 ---
 Title: 'Modules'
+<<<<<<< HEAD
 Description: 'Modules organize large programs by separating code into files by functionality. They are files that contain code for specific tasks, like variables and functions.'
+=======
+Description: 'As programs grow larger, using modules to separate code into different files improves organization and maintainability. A module, like `greetPerson.js`, can contain variables, functions, and classes, such as the exported function `greetPerson(name)` that returns a greeting.'
+
+>>>>>>> 4bb8367fac9c569fb274e503d07080fec36f79d6
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -11,7 +16,11 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
+<<<<<<< HEAD
 A module is a file containing code for a specific task, including variables, functions, and classes. Using modules enhances maintainability in larger programs.
+=======
+As programs expand, using modules to separate code into different files enhances organization and maintainability, with each module handling specific tasks.
+>>>>>>> 4bb8367fac9c569fb274e503d07080fec36f79d6
 
 Suppose, a file named **greetPerson.js** contains the following code:
 
