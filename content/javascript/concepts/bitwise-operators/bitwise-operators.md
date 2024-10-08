@@ -1,6 +1,6 @@
 ---
 Title: 'Bitwise Operators'
-Description: 'Bitwise operators in JavaScript operate on 32-bit operands. Internally, JavaScript converts 64-bit floating point numbers into 32-bit signed integers before performing the operation, it then converts back to 64-bit numbers to return the result. JavaScript uses the following bitwise operators: &, |, ^, ~, <<, >>, >>>.'
+Description: 'Bitwise operators in JavaScript perform operations on binary representations of integers. They manipulate bits directly using AND, OR, XOR, NOT, shifts, etc.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/create-a-back-end-app-with-javascript'
 ---
 
-Bitwise operators in JavaScript operate on 32-bit operands. Internally, JavaScript converts 64-bit floating point numbers into 32-bit signed integers before performing the operation, it then converts back to 64-bit numbers to return the result.
+Bitwise operators in JavaScript perform operations on binary representations of integers. They manipulate bits directly using AND, OR, XOR, NOT, shifts, etc.
 
 JavaScript uses the following bitwise operators:
 
@@ -29,6 +29,8 @@ JavaScript uses the following bitwise operators:
 
 ### AND
 
+The `&` operator performs a bitwise AND on two numbers. The result is 1 only where both bits are 1.
+
 ```javascript
 console.log(19 & 7); // Output: 3
 
@@ -38,6 +40,8 @@ console.log(19 & 7); // Output: 3
 ```
 
 ### OR
+
+The `|` operator performs a bitwise OR on two numbers. The result is 1 if either bit is 1.
 
 ```javascript
 console.log(19 | 7); // Output: 23
@@ -49,6 +53,8 @@ console.log(19 | 7); // Output: 23
 
 ### XOR
 
+The `^` operator performs a bitwise XOR on two numbers. The result is 1 if the bits are different.
+
 ```javascript
 console.log(19 ^ 7); // Output: 20
 
@@ -59,9 +65,7 @@ console.log(19 ^ 7); // Output: 20
 
 ### NOT
 
-Because integers are stored in two's complement
-(to change the sign, invert the binary digits and add one)
-a `~` operation will change the sign of the number and change the absolute value by one.
+Because integers are stored in two's complement (to change the sign, invert the binary digits and add one), a `~` operation will change the sign of the number and change the absolute value by one.
 
 ```javascript
 console.log(~19); // Output: -20
@@ -72,16 +76,23 @@ console.log(~19); // Output: -20
 
 ### Zero fill left shift
 
+The `<<` operator shifts the bits of a number to the left, pushing zeros in from the right. The leftmost bits fall off and are discarded.
+
 ```javascript
 console.log(19 << 3); // Output: 152
 
 // 00000000000000000000000000010011 =  19
 // 00000000000000000000000010011000 = 152
+
+console.log(5 << 2);
+
+// 00000000000000000000000000000101 = 5
+// 00000000000000000000000000010100 = 20
 ```
 
 ### Signed right shift
 
-The `>>` operator preserves the sign of the operand by pushing copies of the leftmost bit in from the left.
+The `<<` operator shifts the bits of a number to the right, pushing zeros in from the left. The rightmost bits fall off and are discarded.
 
 ```javascript
 console.log(19 >> 3); // Output: 2
