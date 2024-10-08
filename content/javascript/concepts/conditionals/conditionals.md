@@ -1,6 +1,6 @@
 ---
 Title: 'Conditionals'
-Description: 'Conditionals take an expression (code that evaluates to determine a value) and checks if it is true or false.'
+Description: 'Conditionals evaluate an expression (a piece of code that produces a value) to determine whether it is true or false.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
