@@ -73,3 +73,61 @@ Finally, it is now possible to start installing packages from PyPI. In the follo
 ```shell
 py -m pip install ACoolPackage
 ```
+
+## Virtual Environments with `pip`
+
+Managing dependencies effectively is crucial when working on multiple Python projects. Without isolation, different projects might require different versions of the same package, which can lead to conflicts. This is where virtual environments come in. They allow users to create isolated environments for each project, ensuring that dependencies do not interfere with one another.
+
+### Setting Up a Virtual Environment
+
+The step-by-step process of setting up a virtual environment is described below.
+
+Step 1: Create a virtual environment
+
+```shell
+python -m venv venv_name
+```
+
+This creates a new directory (`venv_name`) that contains a standalone Python installation and a local copy of `pip`.
+
+Step 2: Activate the virtual environment
+
+```shell
+# Windows
+venv_name\Scripts\activate
+
+# Linux/macOS
+source venv_name/bin/activate
+```
+
+After activation, any `pip` commands will install packages only within the virtual environment, ensuring isolation.
+
+Step 3: Install dependencies
+
+Once the environment is activated, the project's dependencies can be installed:
+
+```shell
+pip install -r requirements.txt
+```
+
+Step 4: Deactivate the virtual environment
+
+When the usage is complete, the virtual environment can be deactivated by simply running:
+
+```shell
+deactivate
+```
+
+### Generating a `requirements.txt` File
+
+To help others reproduce the environment, a `requirements.txt` file can be generated. This file lists all the installed packages and their versions:
+
+```shell
+pip freeze > requirements.txt
+```
+
+This file can then be used to create the same environment by running:
+
+```shell
+pip install -r requirements.txt
+```
