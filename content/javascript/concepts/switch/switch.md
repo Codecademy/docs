@@ -1,6 +1,6 @@
 ---
 Title: 'Switch'
-Description: 'The switch statement evaluates an expression and allows different blocks of code to execute depending on the result of that expression. It contains any number of case clauses marking code to execute based on values returned by the expression, and an optional default statement marking code that executes if none of the case clauses are true. The code following a matching case clause will execute until it encounters a break statement, a return statement, or the end of the switch block. This means that if a break is omitted at the end of one case block, subsequent case blocks and/or the default block will be executed regardless of the value of the original expression. javascript switch (expression) { case value1: // Statements executed when expression = value1'
+Description: 'The switch statement evaluates an expression and allows different blocks of code to execute depending on the result of that expression.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
