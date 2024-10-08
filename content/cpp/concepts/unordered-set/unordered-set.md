@@ -1,17 +1,17 @@
 ---
- Title: 'Unordered Sets' 
- Description: 'Unordered sets are associative containers that store unique elements in no specific order, offering fast retrieval through a hash-based implementation.' 
- Subjects: 
-    - 'Computer Science'
-    - 'Game Development'
-    - 'Developer Tools'
- Tags:
-    - 'Data Types'
-    - 'Hash Maps'
-    - 'Sets'
-  CatalogContent: 
-    - 'learn-c-plus-plus'
-    - 'paths/computer-science'
+Title: 'Unordered Sets'
+Description: 'Unordered sets are associative containers that store unique elements in no specific order, offering fast retrieval through a hash-based implementation.'
+Subjects: 
+  - 'Computer Science'
+  - 'Game Development'
+  - 'Developer Tools'
+Tags:
+  - 'Data Types'
+  - 'Hash Maps'
+  - 'Sets'
+CatalogContent: 
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
 **Unordered sets** are associative containers that store unique elements in no particular order offering fast look-ups, insertions & deletions through a hash table. Unlike `std::set`, which maintain elements in a sorted order and uses a binary tree, unordered sets are good for performance, offering consistent time complexity for key operations. If you need elements in a sorted order, please have a look at [Sets](https://www.codecademy.com/resources/docs/cpp/sets), though it has a higher overhead for operations as a result of its tree-based structure.
