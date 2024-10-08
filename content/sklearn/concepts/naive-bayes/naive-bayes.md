@@ -51,7 +51,6 @@ y_prediction = model.predict(X_test)
 
 # Print predicted values
 print("Predicted Labels: ", y_prediction)
-
 ```
 
 Here is the output for the above example:
