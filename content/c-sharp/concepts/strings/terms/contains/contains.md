@@ -95,9 +95,9 @@ public class Example
 
         // Default culture comparison (typically en-US)
         bool defaultResult = turkishString.Contains(searchText, StringComparison.CurrentCultureIgnoreCase);
-        
+
         // Turkish culture comparison
-        bool turkishResult = turkishString.Contains(searchText, 
+        bool turkishResult = turkishString.Contains(searchText,
             StringComparison.CurrentCultureIgnoreCase, turkishCulture);
 
         Console.WriteLine($"Default culture result: {defaultResult}");
