@@ -1,1 +1,1 @@
-content/typescript/concepts/assignability/assignability.md
+content/uiux/concepts/logo/logo.md
