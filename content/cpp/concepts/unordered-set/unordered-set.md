@@ -51,7 +51,7 @@ A set is created using the `unordered_set` keyword and declaring a [Data Type](h
 
 ## Example
 
-In this example, an unordered set is initiated and values are inserted using the [.insert()](https://www.codecademy.com/resources/docs/cpp/sets/insert) method. The elements are printed, and then an element is checked to see if it exists:
+In this example, an unordered set is initiated and elements are inserted using the [.insert()](https://www.codecademy.com/resources/docs/cpp/sets/insert) method. The elements are then printed:
 
 ```cpp
 
@@ -59,7 +59,7 @@ In this example, an unordered set is initiated and values are inserted using the
 #include <unordered_set>
 
 int main() {
-  // Initiate an unordered set of integers
+  // Initiate an unordered set of elements, (in this example - integers)
   std::unordered_set<int> numSet;
 
   // Insert elements
@@ -68,32 +68,70 @@ int main() {
   numSet.insert(30);
   numSet.insert(40);
 
-  // Print out set
+  // Print out set elements
+  std::unordered_set<int> :: iterator iter;
+  for (iter = numSet.begin(); iter != numSet.end(); iter++) {
+  std::cout<< *iter << " ";
+
+}
+
+```
+The output would be:
+
+```shell
+
+20 40 30 10 
+
+```
+
+As you can see, the order of elements is not guaranteed.
+
+## Ordered vs Unordered Sets
+
+| Feature | Ordered Set (`std::set`)  | Unordered Set (`std::unordered_set`) |
+| --- | --- | --- |
+| Order | Elements in sorted order | No particular order |
+| Structure | Tree-based | Hash table |
+| Time | O(log n) | O(1) |
+| Memory | More efficient memory usage | Higher memory usage as a result of hashing |
+| Performance | Consistent performance across all cases | Can degrade to O(n) if hashing is poor |
+| Usage | Use when element ordering is useful or required | Use when efficiency is required and ordering is not important |
+
+Note: neither set includes duplicates
+
+## Codebyte Example
+
+This example builds on the previous example, adding a duplicate element to show it won't be included, and then checking if an element exists:
+
+```cpp
+
+#include <iostream>
+#include <unordered_set>
+
+int main() {
+  // Initiate an unordered set of elements, (in this example - integers)
+  std::unordered_set<int> numSet = {10, 20, 30, 40};
+
+  // Add duplicate element
+  numSet.insert(20);
+  
+
+  // Print out set elements
   std::unordered_set<int> :: iterator iter;
   for (iter = numSet.begin(); iter != numSet.end(); iter++) {
   std::cout<< *iter << " ";
 
   }
+  // New line
+  std::cout << "\n";
 
   // Check if an element exists
   if (numSet.find(20) != numSet.end()) {
-  std::cout << "20 is in the set.\n";
-
+  std::cout << "20 is in the set.";
+  } else {
+    std::cout << "20 is not in the set.";
 
   }
-
-return 0; 
-
 }
 
 ```
-
-
-
-
-## Subsection n
-
-[Text about subsection n]
-
-## Codebyte Example (if applicable)
-
