@@ -84,7 +84,7 @@ thread_2.start()
 thread_1.join()
 thread_2.join()
 
-print("Both downloads completed!")  
+print("Both downloads completed!")
 ```
 
 ## Codebyte Example 3
@@ -119,4 +119,3 @@ toast_thread.join()
 
 print("Breakfast is ready!")
 ```
-
