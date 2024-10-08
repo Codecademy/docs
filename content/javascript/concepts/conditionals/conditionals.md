@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Conditionals take an expression, which is code that evaluates to determine a value, and checks if it is `true` or `false`. If it’s `true`, we can tell our program to do one thing and if it's `false` we can tell the program to do another thing.
+Conditionals take an expression, which is code that evaluates to determine a value, and checks if it is `true` or `false`. If it’s `true`, the program can be told to do one thing and if it's `false`, the program can be told to do another thing.
 
 ## If Statement
 
