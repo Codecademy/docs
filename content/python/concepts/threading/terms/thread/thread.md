@@ -61,7 +61,7 @@ hello_thread.start()
 
 ## Codebyte Example 2
 
-In the example below, two threads, thread_1 and thread_2, target the download_file() function with supplied arguments. Each thread simulates downloading a file concurrently by running the download_file() function in the background. After the threads are created, the targeted download_file() functions are executed when the .start() method is run.
+In the example below, two threads, `thread_1` and `thread_2`, target the `download_file()` function with supplied arguments. Each thread simulates downloading a file concurrently by running the `download_file()` function in the background. After the threads are created, the targeted `download_file()` functions are executed when the `.start()` method is run.
 
 ```codebyte/python
 import threading
@@ -89,7 +89,7 @@ print("Both downloads completed!")  # Output: Both downloads completed!
 
 ## Codebyte Example 3
 
-In the example below, two threads, coffee_thread and toast_thread, target the make_coffee() and toast_bread() functions, respectively. Each thread simulates the preparation of coffee and toast concurrently. After the threads are created, the targeted functions are executed when the .start() method is run.
+In the example below, two threads, `coffee_thread` and `toast_thread`, target the `make_coffee()` and `toast_bread()` functions, respectively. Each thread simulates the preparation of coffee and toast concurrently. After the threads are created, the targeted functions are executed when the `.start()` method is run.
 
 ```codebyte/python
 import threading
@@ -119,4 +119,3 @@ toast_thread.join()
 
 print("Breakfast is ready!")
 ```
-
