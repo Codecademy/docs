@@ -74,16 +74,15 @@ Finally, it is now possible to start installing packages from PyPI. In the follo
 py -m pip install ACoolPackage
 ```
 
-## Best Practices for Using Virtual Environments with `pip`
+## Virtual Environments with `pip`
 
-Managing dependencies effectively is crucial when working on multiple Python projects. Without isolation, different projects might require different versions of the same package, which can lead to conflicts. This is where virtual environments come in. They allow you to create isolated environments for each project, ensuring that dependencies do not interfere with one another.
+Managing dependencies effectively is crucial when working on multiple Python projects. Without isolation, different projects might require different versions of the same package, which can lead to conflicts. This is where virtual environments come in. They allow users to create isolated environments for each project, ensuring that dependencies do not interfere with one another.
 
 ### Setting Up a Virtual Environment
 
-You can set up a virtual environment with the following steps:
+The step-by-step process of setting up a virtual environment is described below.
 
-
-1. **Create a virtual environment**:
+Step 1: Create a virtual environment
 
 ```shell
 python -m venv venv_name
@@ -91,8 +90,7 @@ python -m venv venv_name
 
 This creates a new directory (`venv_name`) that contains a standalone Python installation and a local copy of `pip`.
 
-
-2. **Activate the virtual environment**:
+Step 2: Activate the virtual environment
 
 ```shell
 # Windows
@@ -104,32 +102,32 @@ source venv_name/bin/activate
 
 After activation, any `pip` commands will install packages only within the virtual environment, ensuring isolation.
 
+Step 3: Install dependencies
 
-3. **Install dependencies**:
+Once the environment is activated, the project's dependencies can be installed:
 
-Once the environment is activated, you can install your project's dependencies:
 ```shell
 pip install -r requirements.txt
 ```
 
+Step 4: Deactivate the virtual environment
 
-4. **Deactivating the virtual environment**:
+When the usage is complete, the virtual environment can be deactivated by simply running:
 
-When you're done, you can deactivate the environment by simply running:
 ```shell
 deactivate
 ```
 
-
 ### Generating a `requirements.txt` File
 
-To help others reproduce your environment, you can generate a `requirements.txt` file that lists all the installed packages and their versions:
+To help others reproduce the environment, a `requirements.txt` file can be generated. This file lists all the installed packages and their versions:
+
 ```shell
 pip freeze > requirements.txt
 ```
 
 This file can then be used to create the same environment by running:
+
 ```shell
 pip install -r requirements.txt
 ```
-
