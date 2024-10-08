@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.Thread()` method is a class constructor that returns a thread object that can run a function with zero or more arguments.
+The **`.Thread()`** method is a class constructor that returns a thread object that can run a function with zero or more arguments.
 
 ## Syntax
 
