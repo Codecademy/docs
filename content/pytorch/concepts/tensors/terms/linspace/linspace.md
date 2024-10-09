@@ -14,9 +14,7 @@ CatalogContent:
   - 'py-torch-for-classification'
 ---
 
-The **`.linspace()`** function in Pytorch is used to create a one-dimensional tensor of steps equally spaced points between the start and end values. It takes three arguments: the start value, the end value, and the number of steps.
-
-The function returns a one-dimensional tensor of equally spaced points between the start and end values.
+The **`.linspace()`** function in PyTorch is used to return a one-dimensional tensor of the specified size, whose values are equally spaced from the given starting and ending values.
 
 ## Syntax
 
