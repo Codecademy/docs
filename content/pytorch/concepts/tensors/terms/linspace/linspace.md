@@ -1,6 +1,6 @@
 ---
 Title: '.linspace()'
-Description: 'Returns a one-dimensional tensor of steps equally spaced points between start and end.'
+Description: 'Returns a one-dimensional tensor of the specified size, whose values are equally spaced from the given starting and ending values.'
 Subjects:
   - 'Data Science'
   - 'Machine Learning'
