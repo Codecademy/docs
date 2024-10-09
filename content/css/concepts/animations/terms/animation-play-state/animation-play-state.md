@@ -49,6 +49,8 @@ div {
 }
 ```
 
+![animation-play-state-1](https://raw.githubusercontent.com/Codecademy/docs/main/media/animation-play-state-1.gif)
+
 ## Example 2
 
 Pause the animation on `div` click:
@@ -81,3 +83,5 @@ box.addEventListener('click', () => {
   box.style.animationPlayState = 'paused';
 });
 ```
+
+![animation-play-state-two](https://raw.githubusercontent.com/Codecademy/docs/main/media/animation-play-state-two.gif)
