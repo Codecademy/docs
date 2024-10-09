@@ -44,9 +44,5 @@ print(x)
 The code above generates the following output:
 
 ```shell
-tensor([0.0000, 0.1111, 0.2222, 0.3333, 0.4444, 0.5556, 0.6667, 0.7778, 0.8889, 1.0000])
+tensor([0.0000, 0.2500, 0.5000, 0.7500, 1.0000])
 ```
-
-In this example, we created a tensor `x` containing 10 equally spaced points between 0 and 1 using the `.linspace()` function. The tensor `x` contains the values `[0.0000, 0.1111, 0.2222, 0.3333, 0.4444, 0.5556, 0.6667, 0.7778, 0.8889, 1.0000]`.
-
-The `.linspace()` function is a convenient way to create a tensor of equally spaced points for various numerical computations in PyTorch.
