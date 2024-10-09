@@ -30,7 +30,7 @@ This function is particularly useful when there is a need to create a tensor of 
 
 ## Example
 
-Let's see an example of how to use the `.linspace()` function in PyTorch:
+The following example shows how to use the `.linspace()` function in PyTorch:
 
 ```py
 import torch
