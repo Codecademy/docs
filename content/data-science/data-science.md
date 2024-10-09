@@ -22,7 +22,7 @@ Since the beginning of the 21st century, data science has been used in almost ev
 - Data Use
   - Data Visualization
   - Data Analytics
-    - [Data Mining](https://wwww.codecademy.com/resources/docs/data-science/data-mining)
+    - [Data Mining](https://www.codecademy.com/resources/docs/data-science/data-mining)
     - Business Intelligence and Strategy
 - [Artificial Intelligence](https://www.codecademy.com/resources/docs/ai)
   - [Machine Learning](https://www.codecademy.com/resources/docs/ai/machine-learning)
