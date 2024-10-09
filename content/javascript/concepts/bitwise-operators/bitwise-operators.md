@@ -8,7 +8,7 @@ Tags:
   - 'Operators'
 CatalogContent:
   - 'introduction-to-javascript'
-  - 'paths/create-a-back-end-app-with-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 Bitwise operators in JavaScript perform operations on binary representations of integers. They manipulate bits directly using AND, OR, XOR, NOT, shifts, etc.
@@ -25,13 +25,13 @@ JavaScript uses the following bitwise operators:
 | `>>`     | Signed right shift    | Pushes copies of leftmost bit in from left, rightmost bit falls off (preserves sign). |
 | `>>>`    | Zero fill right shift | Pushes zeros in from left, rightmost bits fall off.                                   |
 
-## Examples
-
-### AND
+## AND
 
 The `&` operator performs a bitwise AND on two numbers. The result is 1 only where both bits are 1.
 
-```javascript
+### Examples
+
+```js
 console.log(19 & 7); // Output: 3
 
 // 10011 = 19
@@ -39,11 +39,13 @@ console.log(19 & 7); // Output: 3
 // 00011 =  3
 ```
 
-### OR
+## OR
 
 The `|` operator performs a bitwise OR on two numbers. The result is 1 if either bit is 1.
 
-```javascript
+### Examples
+
+```js
 console.log(19 | 7); // Output: 23
 
 // 10011 = 19
@@ -51,11 +53,13 @@ console.log(19 | 7); // Output: 23
 // 10111 = 23
 ```
 
-### XOR
+## XOR
 
 The `^` operator performs a bitwise XOR on two numbers. The result is 1 if the bits are different.
 
-```javascript
+### Examples
+
+```js
 console.log(19 ^ 7); // Output: 20
 
 // 10011 = 19
@@ -63,22 +67,26 @@ console.log(19 ^ 7); // Output: 20
 // 10100 = 20
 ```
 
-### NOT
+## NOT
 
 Because integers are stored in two's complement (to change the sign, invert the binary digits and add one), a `~` operation will change the sign of the number and change the absolute value by one.
 
-```javascript
+### Examples
+
+```js
 console.log(~19); // Output: -20
 
 // 00000000000000000000000000010011 =  19
 // 11111111111111111111111111101100 = -20
 ```
 
-### Zero fill left shift
+## Zero fill left shift
 
 The `<<` operator shifts the bits of a number to the left, pushing zeros in from the right. The leftmost bits fall off and are discarded.
 
-```javascript
+### Examples
+
+```js
 console.log(19 << 3); // Output: 152
 
 // 00000000000000000000000000010011 =  19
@@ -90,11 +98,13 @@ console.log(5 << 2);
 // 00000000000000000000000000010100 = 20
 ```
 
-### Signed right shift
+## Signed right shift
 
-The `<<` operator shifts the bits of a number to the right, pushing zeros in from the left. The rightmost bits fall off and are discarded.
+The `>>` operator shifts the bits of a number to the right, pushing zeros in from the left. The rightmost bits fall off and are discarded.
 
-```javascript
+### Examples
+
+```js
 console.log(19 >> 3); // Output: 2
 
 // 00000000000000000000000000010011 =  19
@@ -106,11 +116,13 @@ console.log(-20 >> 3); // Output: -3
 // 11111111111111111111111111111101 =  -3
 ```
 
-### Zero fill right shift
+## Zero fill right shift
 
 The `>>>` operator does not preserve the sign. It pushes zeros in from the left, pushing the sign bit out of its leftmost position.
 
-```javascript
+### Examples
+
+```js
 console.log(19 >>> 3); // Output: 2
 
 // 00000000000000000000000000010011 =  19
