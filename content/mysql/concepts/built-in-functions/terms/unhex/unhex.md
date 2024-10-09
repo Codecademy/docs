@@ -40,9 +40,3 @@ SELECT HEX(content) AS hex_content, CAST(content AS CHAR) AS readable_content
 FROM documents
 WHERE id = 1;
 ```
-
-Here is the expected output:
-
-| hex_content          | readable_content   |
-| ----------------------------------------- |
-| 636F6465636164656D79 | codecademy         |
