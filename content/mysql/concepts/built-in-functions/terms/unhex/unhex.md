@@ -36,7 +36,13 @@ CREATE TABLE documents (
 
 INSERT INTO documents (id, content) VALUES (1, UNHEX('636F6465636164656D79'));
 
-SELECT HEX(content) AS hex_content, CAST(content AS CHAR) AS readable_content
+SELECT HEX(content) AS 'hex-content', CAST(content AS CHAR) AS readable_content
 FROM documents
 WHERE id = 1;
 ```
+
+The output of the above code will be:
+
+| hex-content          | readable-content |
+| -------------------- | ---------------- |
+| 636F6465636164656D79 | codecademy       |
