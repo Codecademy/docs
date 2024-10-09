@@ -26,7 +26,7 @@ torch.mm(ten1, ten2, *, out=None)
 - `ten2`: The second tensor to be multiplied.
 - `out` (Optional): The output tensor to be used. The default value is `None`.
 
-If `ten1` is a `(m x n)` tensor and `ten2` is a `(n x p)` tensor, then `out` will be a `(m x p)` tensor.
+> **Note:** If `ten1` is a `(m x n)` tensor and `ten2` is a `(n x p)` tensor, then `out` will be a `(m x p)` tensor.
 
 ## Example
 
