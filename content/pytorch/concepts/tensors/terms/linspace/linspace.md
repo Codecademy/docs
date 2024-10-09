@@ -26,7 +26,7 @@ torch.linspace(start, end, steps)
 - `end`: The ending value to be used.
 - `steps`: The number of steps to be taken between the starting and ending values.
 
-This function is particularly useful when you need to create a tensor of equally spaced points for plotting graphs or for other numerical computations.
+This function is particularly useful when there is a need to create a tensor of equally spaced points for plotting graphs or for performing other numerical computations.
 
 ## Example
 
