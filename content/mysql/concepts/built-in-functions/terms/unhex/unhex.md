@@ -43,6 +43,6 @@ WHERE id = 1;
 
 Here is the expected output:
 
-| hex_content          | readable_content |
-|-----------------------------------------|
-| 636F6465636164656D79 | codecademy       |
+| hex_content          | readable_content   |
+| ----------------------------------------- |
+| 636F6465636164656D79 | codecademy         |
