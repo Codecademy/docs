@@ -35,8 +35,9 @@ The following example shows how to use the `.linspace()` function in PyTorch:
 ```py
 import torch
 
-# Create a tensor of 10 equally spaced points between 0 and 1
-x = torch.linspace(0, 1, 10)
+# Create a tensor of 5 equally spaced points between 0 and 1
+x = torch.linspace(0, 1, 5)
+
 print(x)
 ```
 
