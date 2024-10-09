@@ -22,9 +22,9 @@ The **`.linspace()`** function in PyTorch is used to return a one-dimensional te
 torch.linspace(start, end, steps)
 ```
 
-- `start` is the starting value of the sequence.
-- `end` is the ending value of the sequence.
-- `steps` is the number of steps to be taken between the start and end values.
+- `start`: The starting value to be used.
+- `end`: The ending value to be used.
+- `steps`: The number of steps to be taken between the starting and ending values.
 
 This function is particularly useful when you need to create a tensor of equally spaced points for plotting graphs or for other numerical computations.
 
