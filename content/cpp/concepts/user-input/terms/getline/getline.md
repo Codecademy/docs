@@ -91,3 +91,27 @@ int main() {
   // Output: My pet's name is Nimbus!
 }
 ```
+
+## Example 3
+
+Sometimes we want to read a whole line from the input/file possibly containing spaces/tabs. In such cases, `getline()` comes handy.
+
+```cpp
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+  string myString;
+
+  cout << "Enter your input: \n";
+  // Input: Codeacademy is awesome
+  getline(cin, myString);
+
+  cout << myString << "!";
+  // Output: Codeacademy is awesome!
+}
+```
+In the above example, using a traditional `cin >> myString` will result in `Codeacademy` only.
+To avoid this, we've to use `getline(cin, myString)`.
