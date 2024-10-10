@@ -1,6 +1,6 @@
 ---
 Title: '.linspace()'
-Description: 'Returns a one-dimensional tensor of the specified size, whose values are equally spaced from the given starting and ending values.'
+Description: 'Returns a one-dimensional tensor with a specified number of evenly spaced values between the given start and end points.'
 Subjects:
   - 'Data Science'
   - 'Machine Learning'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'py-torch-for-classification'
 ---
 
-The **`.linspace()`** function in PyTorch is used to return a one-dimensional tensor of the specified size, whose values are equally spaced from the given starting and ending values.
+The **`.linspace()`** function in PyTorch is used to return a one-dimensional tensor with a specified number of evenly spaced values between the given start and end points.
 
 ## Syntax
 
