@@ -18,13 +18,13 @@ CatalogContent:
 
 **C#** is a type-safe language, and has different types. The following are some examples:
 
-| Name          | Description                                                                                                                       |
-| ------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| `int`         | represents a 32-bit signed integer. It can store whole numbers from `-2,147,483,648` to `2,147,483,647`.                          |
-| `double`      | represents a 64-bit floating-point number. It can store both whole numbers and decimals from `±5.0 × 10^−324` to `±1.7 × 10^308`. |
-| `char`        | represents a single 16-bit Unicode character. It is used to store a single letter, digit, or symbol.                              |
-| `string`      | represents a sequence of characters and is used to store text. It is immutable, meaning that once created, it cannot be changed.  |
-| `bool`        | represents a Boolean value, which can be either `true` or `false`. Used for conditional statements and logical operations.        |
+| Name     | Description                                                                                                                       |
+| -------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| `int`    | represents a 32-bit signed integer. It can store whole numbers from `-2,147,483,648` to `2,147,483,647`.                          |
+| `double` | represents a 64-bit floating-point number. It can store both whole numbers and decimals from `±5.0 × 10^−324` to `±1.7 × 10^308`. |
+| `char`   | represents a single 16-bit Unicode character. It is used to store a single letter, digit, or symbol.                              |
+| `string` | represents a sequence of characters and is used to store text. It is immutable, meaning that once created, it cannot be changed.  |
+| `bool`   | represents a Boolean value, which can be either `true` or `false`. Used for conditional statements and logical operations.        |
 
 ## Syntax
 
