@@ -29,7 +29,7 @@ If possible, the `ndarray` returned will be a view of the original `ndarray`'s d
 
 ## Example
 
-The below example creates an `ndarray` and then uses `.transpose()` on it.
+The below example creates an `ndarray` and then uses `.transpose()` on it:
 
 ```py
 import numpy as np
@@ -51,9 +51,9 @@ This produces the following output:
  [3 6]]
 ```
 
-## Using `axes` argument
+## Codebyte Example
 
-The `axes` argument lets you control the exact reordering of dimensions. Run the below codebyte example to see how `.transpose()` can be used to reorder the three dimensions of a 3D array.
+The `axes` argument allows control over the specific reordering of dimensions in a tensor. Run the below codebyte example to see how `.transpose()` can be used to rearrange the three dimensions of a 3D array:
 
 ```codebyte/python
 import numpy as np
