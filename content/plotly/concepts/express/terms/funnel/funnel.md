@@ -62,7 +62,7 @@ The above example produces the following output:
 
 ## Example 2
 
-As a variation on the previous example, the next example adds subplots using the `facet_col` parameter to compare two different job applicants side by side:
+As a variation of the previous example, this example adds subplots using the `facet_col` parameter to compare two different job applicants side by side:
 
 ```py
 import plotly.express as px
