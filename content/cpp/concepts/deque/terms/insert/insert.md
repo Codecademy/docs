@@ -14,18 +14,37 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.insert()`** method inserts an element at a specified position in the `deque`.
+The **`.insert()`** method inserts an element at a specified position in the [Deque](https://www.codecademy.com/resources/docs/cpp/deque).
 
 ## Syntax
 
 The `.insert()` method is called on a `deque` using the following syntax:
 
 ```pseudo
-dequeName.insert(position, value);
+dequeName.insert (iterator position, const value_type& val)
 ```
 
-- `position`: An iterator pointing to the **location** where the new element should be inserted.
-- `value`: The element to be added to the deque. It can be of any [data type](https://www.codecademy.com/resources/docs/cpp/data-types) that the `dequeName` holds.
+alternatively:
+
+```pseudo
+deque_name.insert (iterator position, size_type n, const value_type& val)
+```
+
+alternatively:
+
+```pseudo
+deque_name.insert (iterator position, InputIterator first, InputIterator last)
+```
+
+- **`position`**: An iterator pointing to the **location** where the new element should be inserted.
+
+- **`value`**: The element to be added to the deque. It can be of any [data type](https://www.codecademy.com/resources/docs/cpp/data-types) that the `dequeName` holds.
+
+- **`n`**: Specifies the number of elements to insert into the deque, each initialized to a copy of `val`.
+
+- **`first`**: An iterator pointing to the beginning of a range of elements to be inserted into the deque.
+
+- **`last`**: An iterator pointing to one past the last element in the range to be inserted, indicating that all elements from `first` (inclusive) to `last` (exclusive) will be added.
 
 ## Example
 
@@ -65,7 +84,7 @@ Deque contents: 10 20 30
 
 The following codebyte inserts several values into `myDeque` at specified positions using the `.insert()` method:
 
-```cpp
+```codebyte/cpp
 #include <iostream>
 #include <deque>
 #include <string>
