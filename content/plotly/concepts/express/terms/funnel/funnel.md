@@ -13,11 +13,9 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/data-science'
-  - 'paths/data-science-foundations'
 ---
 
-The **`.funnel()`** method in Plotly Express creates a chart showing the progressive reduction, or "funneling," of data as it moves through sequential stages. The chart is composed of stacked horizontal bars, with the length of each bar representing a value at each stage in the process. This helps visualize how the values change as they move through each stage and can highlight bottlenecks or drop-offs in values.
+The **`.funnel()`** method in Plotly Express creates a funnel chart, which visualizes the progressive reduction of data as it moves through sequential stages. The chart is composed of stacked horizontal bars, with each bar's length representing a value at a specific stage. This helps highlight changes, bottlenecks, or drop-offs in the process.
 
 ## Syntax
 
@@ -25,18 +23,18 @@ The **`.funnel()`** method in Plotly Express creates a chart showing the progres
 plotly.express.funnel(data_frame=None, x=None, y=None, color=None, facet_row=None, facet_col=None, ...)
 ```
 
-- `data_frame`: The dataset (typically a [Pandas dataframe](https://www.codecademy.com/resources/docs/pandas/dataframe)) to be plotted. If this is not provided, Plotly Express will construct a dataframe using the other arguments.
-- `x`: The column in the dataframe that specifies the length of the bars, plotted along the x-axis in cartesian coordinates.
-- `y`: The column in the dataframe that represents the stages of the funnel, plotted along the y-axis.
-- `color`: The column in the dataframe that assigns colors to the bars of the funnel.
-- `facet_row`: Splits the funnel chart into vertically-stacked subplots based on a specified column from the dataframe.
-- `facet_col`: Splits the funnel chart into horizontally-arranged subplots based on a specified column from the dataframe.
+- `data_frame`: The dataset (typically a [Pandas DataFrame](https://www.codecademy.com/resources/docs/pandas/dataframe)) to be plotted. If this is not provided, Plotly Express will construct a DataFrame using the other arguments.
+- `x`: The column in the DataFrame that specifies the values to determine the length of the bars, plotted along the x-axis.
+- `y`: The column in the DataFrame that represents the stages of the funnel, plotted along the y-axis.
+- `color`: The column in the DataFrame that assigns colors to the bars of the funnel.
+- `facet_row`: Splits the funnel chart into vertically-stacked subplots based on a specified column from the DataFrame.
+- `facet_col`: Splits the funnel chart into horizontally-arranged subplots based on a specified column from the DataFrame.
 
 > **Note:** The ellipsis (...) indicates there can be additional optional parameters beyond those listed here.
 
-## Examples
+## Example 1
 
-The example below generates a funnel chart representing the job search process for an applicant.
+The example below generates a funnel chart representing the job search process for an applicant:
 
 ```py
 import plotly.express as px
@@ -62,7 +60,9 @@ The above example produces the following output:
 
 ![Funnel Chart Illustrating Job Search](https://raw.githubusercontent.com/Codecademy/docs/main/media/plotly-express-funnel-example1.png)
 
-As a variation on the previous example, the next example adds subplots using the `facet_col` parameter to compare two different job applicants side by side.
+## Example 2
+
+As a variation on the previous example, the next example adds subplots using the `facet_col` parameter to compare two different job applicants side by side:
 
 ```py
 import plotly.express as px
