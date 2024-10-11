@@ -89,7 +89,8 @@ public class BankAccount {
 
 ## Static Classes
 
-Static classes are defined using the `static` keyword and exclusively contain static members, such as methods, properties, and fields. Unlike regular classes, static classes cannot be instantiated with the `new` keyword. Instead, their members are accessed using the class name itself. These classes are commonly used for utility functions or to group related functionality.
+Static classes are defined using the `static` keyword and exclusively contain static members, such as methods, properties, and fields. Unlike regular classes, static classes cannot be instantiated with the `new` keyword. Instead, their members are accessed using the class name itself. These classes are commonly used for utility functions or to group related functionality. 
+The `static` keyword forces all fields, methods and properties to require the static keyword. This means that if you try to create any of these without the static keyword the code will not run and will produce a compile-time error. The reason behind this is that becuase you can not create an instance of a static class any methods, properties and fields that are not marked as static would be unreachable. 
 
 ## Partial classes
 
