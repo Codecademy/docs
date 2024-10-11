@@ -106,6 +106,7 @@ Here is an example of the A\* algorithm implemented in Python that solves the ab
 
 from heapq import heappop, heappush
 
+```py
 def a_star_search(graph: dict, start: str, goal: str, heuristic_values: dict) -> int:
     '''
     A* search algorithm implementation.
