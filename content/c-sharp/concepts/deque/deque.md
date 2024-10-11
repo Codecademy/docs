@@ -1,6 +1,6 @@
 ---
 Title: 'Deque'
-Description: 'A deque is a type of data structure that allows insert and delete elements at both ends.'
+Description: 'A Deque (Double-Ended Queue) allows insertion and removal of elements from both the front and rear. In C#, it can be implemented using LinkedList<T>.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
@@ -13,19 +13,19 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **deque** is a data structure that allows elements to be added or removed from both ends, making it more versatile than a traditional queue or stack. In `C#` there is no build-in `deque` but it can be impleted using `LinkedList` and `List` classes `C#`.
+A `Deque` (Double-Ended Queue) allows insertion and removal of elements from both the front and rear. In `C#`, it can be implemented using `LinkedList<T>`.
 
-## Implementing using LinkedList Class
+## Creating a Deque in `C#`
+
+To create a deque in `C#`, use `LinkedList<T>`, where `T` defines the type of elements stored.
 
 ```pseudo
 LinkedList<T> deque = new LinkedList<T>();
 ```
 
-- `T`: Specifies the element type.
+## Examples
 
-## Example 1
-
-The below example shows how to implement deque using `LinkedList`.
+The below examples shows how to implement deque using `LinkedList`.
 
 ```cs
 using System;
@@ -55,54 +55,38 @@ class Program {
       Console.WriteLine(value);
     }
   }
+
+  // Output:
+  // 1
+  // 3
 }
 ```
 
-Output:
+Use this example to experiment with implementing a `Deque` using `LinkedList`. Enjoy coding!
 
-```shell
-1
-3
-```
-
-## Implementing using List Class
-
-```pseudo
-List<T> deque = new List<T>();
-```
-
-- `T`: Specifies the element type.
-
-## Example 2
-
-The below example shows how to implement deque using `List`.
-
-```cs
+```codebyte/csharp
 using System;
 using System.Collections.Generic;
 
-class Program {
-  static void Main() {
-    List<int> deque = new List<int>();
+public class Example
+{
+  public static void Main()
+  {
+    LinkedList<int> deque = new LinkedList<int>();
 
-    // Adding elements to the front
-    deque.Insert(0, 1);
-    deque.Insert(0, 2);
+    // Add elements to the front and rear
+    deque.AddLast(10); // Rear
+    deque.AddFirst(5); // Front
+    deque.AddLast(15); // Rear
 
-    // Adding elements to the back
-    deque.Add(3);
-    deque.Add(4);
+    // Remove elements from front and rear
+    deque.RemoveFirst(); // Removes 5 (Front)
+    deque.RemoveLast();  // Removes 15 (Rear)
 
-    // Removing elements from the front
-    int front = deque[0];
-    deque.RemoveAt(0);
-
-    // Removing elements from the back
-    int back = deque[deque.Count - 1];
-    deque.RemoveAt(deque.Count - 1);
-
-    foreach (int value in deque) {
-      Console.WriteLine(value);
+    // Display the remaining element
+    foreach (var item in deque)
+    {
+      Console.WriteLine(item); // Output: 10
     }
   }
 }
