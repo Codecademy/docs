@@ -10,25 +10,21 @@ Tags:
 CatalogContent:
   - 'learn-css'
   - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
 
-**Sticky Position** in CSS allows an element to toggle between relative and fixed positioning based on the user's scroll position. It's commonly used to keep certain elements, such as headers or navigation menus, in view when scrolling through content.
+Sticky Position in CSS allows an element to toggle between relative and fixed positioning based on the user's scroll position. It's commonly used to keep certain elements, such as headers or navigation menus, in view when scrolling through content.
 
 ## Syntax
 
 ```css
-.element {
-  position: sticky;
-  top: <length> | <percentage>;
-  /* You can also use bottom, left, or right */
-}
-
+position: sticky;
 ```
 where `<value>` and `<percentage>` can be one of the following:
-*   **Length value**: `25px`  
+- Length value : `25px`  
     Specifies a fixed length, such as pixels or any other unit of measure (e.g., `em`, `rem`, `vh`).
     
-*   **Percentage value**: `5%`  
+- Percentage value : `5%`  
     Defines a percentage of the containing block's size. For example, a percentage of the width or height of the nearest positioned ancestor.
     
 **Note:**  
@@ -48,4 +44,4 @@ Make the `.header` element sticky, so it remains visible at the top when scrolli
 }
 ```
 
-![Animation with reverse animation-direction](https://raw.githubusercontent.com/Codecademy/docs/main/media/StickyHeaderExample.gif)
+![This behavior is clearly shown in the GIF.](https://raw.githubusercontent.com/Codecademy/docs/main/media/StickyHeaderExample.gif)
