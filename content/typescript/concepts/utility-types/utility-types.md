@@ -70,7 +70,7 @@ interface User {
   age?: number;
 }
 
-const requiredUser: Required<User> = {
+const requiredUser: Required<{ name: string; age: number}> = {
   name: 'John',
   age: 25,
 };
