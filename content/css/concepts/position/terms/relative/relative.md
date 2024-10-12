@@ -1,17 +1,15 @@
 ---
-Title: 'Relative Positioning in CSS' 
-Description: 'Positions element relative to its normal document flow placement for improved styling control.' 
+Title: 'relative' 
+Description: 'Positions an element relative to its normal document flow placement, allowing for improved styling control.' 
 Subjects: 
   - 'Web Design'
   - 'Web Development'
-  - 'CSS'
 Tags:
-  - 'positioning'
   - 'CSS'
-  
+  - 'Positioning'
 CatalogContent:
   - 'learn-css'
-  - 'paths/css'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 The **relative** value of the `position` property allows an element to be positioned relative to its normal position in the document flow. This positioning method provides a way to adjust an element's position without affecting the layout of surrounding elements.
