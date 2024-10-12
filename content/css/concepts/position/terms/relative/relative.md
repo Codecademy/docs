@@ -63,7 +63,8 @@ Here's what the above examples look like:
 ![CSS Position Relative Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-position-relative-ex1.png)
 
 In this example, the blue box is moved 50 pixels down and 100 pixels to the right from its original position within the container.
-## Example 2:Advanced Relative Positioning
+
+## Example 2
 
 This example covers additional aspects of relative positioning, including z-index and percentage-based positioning.
 ```html
