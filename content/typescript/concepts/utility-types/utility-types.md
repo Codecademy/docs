@@ -210,7 +210,7 @@ Exclude is written as:
 Exclude<T, U>;
 ```
 
-where `U` are the properties you want to exclude from `T`.
+where `U` represents the types you want to exclude from the union type`T`.
 
 ### Exclude Example
 
