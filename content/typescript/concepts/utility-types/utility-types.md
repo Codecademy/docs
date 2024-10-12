@@ -78,7 +78,7 @@ const requiredUser: Required<User> = {
 
 ## Readonly
 
-`Readonly` is to mark all the properties in `T` as `Readonly`, which prevents any reassignment.
+`Readonly`  is a utility type that marks all the properties in `T` as `readonly`, preventing any reassignment.
 
 ### Syntax
 
