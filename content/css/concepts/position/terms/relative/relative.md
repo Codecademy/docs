@@ -15,7 +15,7 @@ CatalogContent:
 The **`relative`** value of the `position` property allows an element to be positioned relative to its normal position in the document flow, enabling adjustments without affecting the layout of surrounding elements.
 
 ## Syntax
-```css
+```pseudo
 position: relative;
 ```
 When an element is set to `position: relative`, the `top`, `right`, `bottom`, and `left` properties can be used to offset it from its normal position as follows:
