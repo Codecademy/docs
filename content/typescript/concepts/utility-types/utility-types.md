@@ -218,7 +218,7 @@ In this example, we exclude `apple` and `banana` from the union type, resulting 
 
 ```ts
 type fruits = 'apple' | 'banana' | 'orange';
-type ExcludedFruits = Exclude<T, 'apple' | 'banana'>; // "orange"
+type ExcludedFruits = Exclude<fruits, 'apple' | 'banana'>; // "orange"
 ```
 
 These utility types make managing and transforming types easier, helping you write cleaner and safer code.
