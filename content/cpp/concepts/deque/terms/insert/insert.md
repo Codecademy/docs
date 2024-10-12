@@ -18,33 +18,29 @@ The **`.insert()`** method inserts an element at a specified position in the [De
 
 ## Syntax
 
-The `.insert()` method is called on a `deque` using the following syntax:
+The `.insert()` method is called on a `deque` using the following syntaxes:
 
 ```pseudo
-dequeName.insert (iterator position, const value_type& val)
+dequeName.insert(iterator position, const value_type& val)
 ```
 
-alternatively:
+Oralternatively:
 
 ```pseudo
-deque_name.insert (iterator position, size_type n, const value_type& val)
+deque_name.insert(iterator position, size_type n, const value_type& val)
 ```
 
-alternatively:
+Or alternatively:
 
 ```pseudo
-deque_name.insert (iterator position, InputIterator first, InputIterator last)
+deque_name.insert(iterator position, InputIterator first, InputIterator last)
 ```
 
-- **`position`**: An iterator pointing to the **location** where the new element should be inserted.
-
-- **`value`**: The element to be added to the deque. It can be of any [data type](https://www.codecademy.com/resources/docs/cpp/data-types) that the `dequeName` holds.
-
-- **`n`**: Specifies the number of elements to insert into the deque, each initialized to a copy of `val`.
-
-- **`first`**: An iterator pointing to the beginning of a range of elements to be inserted into the deque.
-
-- **`last`**: An iterator pointing to one past the last element in the range to be inserted, indicating that all elements from `first` (inclusive) to `last` (exclusive) will be added.
+- `position`: An iterator pointing to the location where the new element(s) should be inserted.
+- `val`: The element to be added to the deque. It can be of any [data type](https://www.codecademy.com/resources/docs/cpp/data-types) that the `deque_name` holds.
+- `n`: Specifies the number of elements to insert into the deque, each initialized to a copy of `val`.
+- `first`: An iterator pointing to the beginning of a range of elements to be inserted into the deque.
+- `last`: An iterator pointing to one past the last element in the range to be inserted, indicating that all elements from `first` (inclusive) to `last` (exclusive) will be added.
 
 ## Example
 
@@ -82,7 +78,7 @@ Deque contents: 10 20 30
 
 ## Codebyte Example
 
-The following codebyte inserts several values into `myDeque` at specified positions using the `.insert()` method:
+Run the following codebyte example to understand the use of `.insert()` method:
 
 ```codebyte/cpp
 #include <iostream>
