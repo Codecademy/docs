@@ -31,7 +31,7 @@ selector {
 
 - `<length>`: Can be specified in pixels (px), ems (em), rems (rem), percentages (%), or other CSS units. Positive values move the element away from the specified edge and negative values move it towards the specified edge.
 
-## Example 1:Simple Relative Positioning
+## Example 1
 
 This example demonstrates basic relative positioning of a single element.
 
