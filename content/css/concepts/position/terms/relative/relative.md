@@ -116,5 +116,5 @@ This advanced example demonstrates:
 3. Negative values for top positioning to move elements upwards.
 4. How relatively positioned elements interact with each other in the same container.
 
-The green box (Box 3) appears on top due to its higher z-index, despite being declared last in the HTML. The orange box (Box 2) is positioned 50% from the left edge of the container, while the green box is 25% from the left.
+The green box (Box 3) appears on top due to its higher` z-index`, even though it is declared last in the HTML. The orange box (Box 2) is positioned 50% from the left edge of the container, while the green box is 25% from the left.
 
