@@ -17,7 +17,7 @@ The **relative** value of the `position` property allows an element to be positi
 ```css
 position: relative;
 ```
-When an element is set to `position: relative`, you can use the `top`, `right`, `bottom`, and `left` properties to offset it from its normal position:
+When an element is set to `position: relative`, the `top`, `right`, `bottom`, and `left` properties can be used to offset it from its normal position as follows:
 
 ```css
 selector {
