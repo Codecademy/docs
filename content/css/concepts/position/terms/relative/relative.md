@@ -118,5 +118,3 @@ This advanced example demonstrates:
 
 The green box (Box 3) appears on top due to its higher z-index, despite being declared last in the HTML. The orange box (Box 2) is positioned 50% from the left edge of the container, while the green box is 25% from the left.
 
-``
-
