@@ -1,6 +1,6 @@
 ---
 Title: 'this'
-Description: 'In JavaScript, the this keyword can have several meanings depending on the execution context. Most often it is used within a method of an object to return the instance of the object whose function is being executed, but what this returns can vary depending on the context.'
+Description: 'The **`this`** keyword can have several meanings. Most often used within an object method what it returns will vary depending on the execution context.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
