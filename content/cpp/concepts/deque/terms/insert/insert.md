@@ -5,10 +5,10 @@ Subjects:
   - 'Computer Science'
   - 'Game Development'
 Tags:
-  - 'Containers'
-  - 'OOP'
   - 'Classes'
+  - 'Containers'
   - 'Deques'
+  - 'OOP'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
