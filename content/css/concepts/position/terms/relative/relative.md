@@ -12,7 +12,8 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **relative** value of the `position` property allows an element to be positioned relative to its normal position in the document flow. This positioning method provides a way to adjust an element's position without affecting the layout of surrounding elements.
+The **`relative`** value of the `position` property allows an element to be positioned relative to its normal position in the document flow, enabling adjustments without affecting the layout of surrounding elements.
+
 ## Syntax
 ```css
 position: relative;
