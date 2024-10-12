@@ -4,12 +4,12 @@ Description: 'Returns the size of the self tensor as a tuple of integers.'
 Subjects:
   - 'Data Science'
   - 'Machine Learning'
-Tags: 
+Tags:
   - 'AI'
   - 'Data Structures'
   - 'Deep Learning'
   - 'Methods'
-CatalogContent: 
+CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
@@ -23,13 +23,13 @@ tensor.size(dim=None)
 ```
 
 - `tensor`: The PyTorch tensor on which the `.size()` method is called.
-- `dim` (Optional): Specifies the dimension for which to retrieve the size. The default value is `None`. 
+- `dim` (Optional): Specifies the dimension for which to retrieve the size. The default value is `None`.
     - If `dim` is not provided, the returned value is a `torch.Size` object representing the size of all dimensions.
-    - If `dim` is specified, the returned value is an `int` representing the size of the given dimension. 
+    - If `dim` is specified, the returned value is an `int` representing the size of the given dimension.
 
 ## Example
 
-The following example shows how to use the `.size()` method: 
+The following example shows how to use the `.size()` method:
 
 ```py
 import torch
