@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-TypeScript consists of several predefined generic types known as Utility Types. These utility types are useful for manipulating or creating new types more efficiently.
+TypeScript consists of several predefined generic types known as **Utility Types**. These utility types are useful for manipulating or creating new types more efficiently.
 
 ## Partial
 
