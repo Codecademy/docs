@@ -18,7 +18,7 @@ TypeScript consists of several predefined generic types known as **Utility Types
 
 ## Partial
 
-Partial is used to create a type with all properties marked as optional.
+Partial is  a utility type that is used to create a type where all properties are marked as optional.
 
 ### Syntax
 
