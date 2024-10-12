@@ -104,52 +104,52 @@ This algorithm is guaranteed to find the shortest path if one exists. One of the
 
 Here is an example of the A\* algorithm implemented in Python that solves the above example graph:
 
+```py
 from heapq import heappop, heappush
 
-```py
 def a_star_search(graph: dict, start: str, goal: str, heuristic_values: dict) -> int:
     '''
     A* search algorithm implementation.
-    
+
     @param graph: The graph to search.
     @param start: The starting node.
     @param goal: The goal node.
     @param heuristic_values: The heuristic values for each node. The goal node must be admissible, and the heuristic value must be 0.
     @return: The path cost from the start node to the goal node.
     '''
-    
+
     # A min heap is used to implement the priority queue for the open list.
-    # The heapq module from Python's standard library is utilized. 
+    # The heapq module from Python's standard library is utilized.
     # Entries in the heap are tuples of the form (cost, node), ensuring that the entry with the lowest cost is always smaller during comparisons.
     # The heapify operation is not required, as the heapq module maintains the heap invariant after every push and pop operation.
 
     # The closed list is implemented as a set for efficient membership checking.
-    
+
     open_list, closed_list = [(heuristic_values[start], start)], set()
-    
+
     while open_list:
         cost, node = heappop(open_list)
-        
+
         # The algorithm ends when the goal node has been explored, NOT when it is added to the open list.
         if node == goal:
             return cost
-        
+
         if node in closed_list:
             continue
-        
+
         closed_list.add(node)
-        
+
         # Subtract the heuristic value as it was overcounted.
         cost -= heuristic_values[node]
-        
+
         for neighbor, edge_cost in graph[node]:
             if neighbor in closed_list:
                 continue
-            
+
             # f(x) = g(x) + h(x), where g(x) is the path cost and h(x) is the heuristic.
             neighbor_cost = cost + edge_cost + heuristic_values[neighbor]
             heappush(open_list, (neighbor_cost, neighbor))
-    
+
     return -1  # No path found
 
 EXAMPLE_GRAPH = {
@@ -183,12 +183,17 @@ EXAMPLE_HEURISTIC_VALUES = {
 }
 
 EXAMPLE_RESULT = a_star_search(EXAMPLE_GRAPH, 'S', 'G', EXAMPLE_HEURISTIC_VALUES)
-print(EXAMPLE_RESULT)  # Output: 23
+print(EXAMPLE_RESULT)
 ```
 
+The code above produces the following output:
+
+```shell
+23
+```
 
 ## Complexity Analysis
 
-For time complexity, one might notice that each heappush corresponds to an edge, which would be the dominating complexity for most cases. Indeed, A* is equivalent to Dijkstra's algorithm when the heuristic function is 0, and A* is equivalent to Dijkstra's algorithm with reduced cost when the heuristic function is admissible i.e. `tex O(V+Elog(V))` time complexity.
+For time complexity, one might notice that each heappush corresponds to an edge, which would be the dominating complexity for most cases. Indeed, A\* is equivalent to Dijkstra's algorithm when the heuristic function is 0, and A\* is equivalent to Dijkstra's algorithm with reduced cost when the heuristic function is admissible i.e. `O(V+Elog(V))` time complexity.
 
-However, a good heuristic function can drastically decrease A*'s complexity. The idea here is we need to look at exponentially fewer nodes with a better heuristic. So the time and space complexity are actually ```tex O(b1^d)``` where b1 is the effective branching factor, i.e., an empirical average of neighbouring nodes not in the closed list, and d is the search depth, i.e., optimal path length. The large space complexity is the biggest disadvantage of the A* search, giving rise to other algorithm variations.
+However, a good heuristic function can drastically decrease A*'s complexity. The idea here is we need to look at exponentially fewer nodes with a better heuristic. So the time and space complexity are actually `O(b1^d)`, where b1 is the effective branching factor, i.e., an empirical average of neighboring nodes not in the closed list, and d is the search depth, i.e., optimal path length. The large space complexity is the biggest disadvantage of the A* search, giving rise to other algorithm variations.
