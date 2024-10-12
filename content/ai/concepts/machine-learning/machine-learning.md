@@ -1,6 +1,6 @@
 ---
 Title: 'Machine Learning'
-Description: 'Machine learning (ML) is a discipline of computer science that relates to using data and algorithms to develop computer programs that improve their performance at tasks without being explicitly programmed to do so.'
+Description: 'Machine learning is a branch of computer science that uses data and algorithms to create programs that enhance performance at tasks without explicit programming.'
 Subjects:
   - 'Machine Learning'
   - 'Data Science'
