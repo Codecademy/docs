@@ -92,6 +92,39 @@ public class BankAccount {
 Static classes are defined using the `static` keyword and exclusively contain static members, such as methods, properties, and fields. Unlike regular classes, static classes cannot be instantiated with the `new` keyword. Instead, their members are accessed using the class name itself. These classes are commonly used for utility functions or to group related functionality. 
 The `static` keyword forces all fields, methods and properties to require the static keyword. This means that if you try to create any of these without the static keyword the code will not run and will produce a compile-time error. The reason behind this is that becuase you can not create an instance of a static class any methods, properties and fields that are not marked as static would be unreachable. 
 
+### Example 
+In the example below, a static class called `MyStaticClass` is created. The commented out code shows what you can not do with static classes. If these commented out pieces of code were to be uncommented the code would not compile. Take note on how we create properties and methods in the class and how we use it in the `CallingClass` class. 
+
+```cs
+using System;
+					
+public class Main
+{
+	public static void Main()
+	{
+		//The following will produce a compile time error
+		//MyStaticClass NonStaticError = new MyStaticClass():
+		
+		//
+		int DoubleFive = MyStaticClass.GetDouble(5);
+		Console.WriteLine(DoubleFive);
+	}
+}
+
+public static class MyStaticClass
+{
+	//The folowing will produce a compile time error
+	//public int NonStaticField = 5;
+	
+	public static int StaticField = 10; 
+	
+    //Returns double of the value given
+	public static int GetDouble(int value) {
+	    return value * 2;
+	}
+}
+```
+
 ## Partial classes
 
 Partial classes in C# enable class definitions to be split across multiple files. Each part of the class is defined in a separate file and combined at compile time to create a single class. This is valuable for scenarios where a class becomes too large or complex, or when multiple developers need to work on different aspects of the class simultaneously.
