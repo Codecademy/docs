@@ -93,7 +93,11 @@ Static classes are defined using the `static` keyword and exclusively contain st
 The `static` keyword forces all fields, methods and properties to require the static keyword. This means that if you try to create any of these without the static keyword the code will not run and will produce a compile-time error. The reason behind this is that becuase you can not create an instance of a static class any methods, properties and fields that are not marked as static would be unreachable. 
 
 ### Example 
+<<<<<<< HEAD
 In the example below, a static class called `MyStaticClass` is created. The commented out code shows what you can't do with static classes. If these commented out pieces of code were to be uncommented the code would not compile. Take note on how we create fields and methods in the class and how we use our static class in other classes. 
+=======
+In the example below, a static class called `MyStaticClass` is created. The commented out code shows what you can not do with static classes. If these commented out pieces of code were to be uncommented the code would not compile. Take note on how we create properties and methods in the class and how we use it in the `CallingClass` class. 
+>>>>>>> ffb4726d (Example for static classes added)
 
 ```cs
 using System;
