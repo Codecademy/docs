@@ -1,1 +1,1 @@
-content/general/concepts/machine-code/machine-code.md
+content/java/concepts/priorityqueue/priorityqueue.md
