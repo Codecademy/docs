@@ -92,11 +92,11 @@ int main() {
 }
 ```
 
-## Example 3
+## Codebyte Example
 
-Sometimes we want to read a whole line from the input/file possibly containing spaces/tabs. In such cases, `getline()` comes handy.
+Sometimes we want to read a whole line from the input, possibly containing spaces/tabs. In such cases, `getline()` comes handy.
 
-```cpp
+```codebyte/cpp
 #include <iostream>
 #include <string>
 
