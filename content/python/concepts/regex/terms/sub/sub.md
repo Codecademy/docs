@@ -47,7 +47,7 @@ blurb = '''The analytics firm uses a range of BI tools to visualize data. Their 
 bi tools may be their most valuable resource.'''
 
 # Use the function `replace_bussines_intelligence` as the replacement argument in re.sub()
-match = re.sub(r'bi', replace_func, blurb, flags=re.IGNORECASE)
+match = re.sub(r'bi', replace_business_intelligence, blurb, flags=re.IGNORECASE)
 print(match)
 ```
 
