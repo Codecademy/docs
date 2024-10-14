@@ -13,26 +13,38 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
+# Comments
+
 A **comment** is a piece of text within a program that is not executed. It can be used to provide additional information to aid in understanding the code.
 
-### Single-line Comments
+## Why Use Comments?
 
-For single-line comments, the compiler ignores any text after two consecutive forward slashes (`//`) on the same line.
+1. **Documentation**: Help document what specific parts of the code do, making it easier for others (or yourself) to understand when revisiting the code later.
+2. **Debugging**: Temporarily disable code without removing it, making debugging easier.
+3. **Clarity**: Improve the readability of the code, especially in complex sections.
+
+## Single-line Comments
+
+A **single-line comment** is a comment that occupies a single line. It starts with two forward slashes (`//`), and everything after those slashes on that line is ignored by the compiler.
+
+### Example
 
 ```cs
-// Comment goes here
-executing code // Comment goes here
+// This is a single-line comment
+Console.WriteLine("This code will execute."); // Inline comment explaining the code
+
 ```
 
 ### Multi-line Comments
 
-Multi-line comments begin with `/*` and end with `*/`. The compiler ignores any text in between.
+A **multi-line comment** is used for comments that span multiple lines. It begins with /* and ends with */. The compiler ignores everything in between.
 
 ```cs
 /*
-This is all commented out.
-None of it is going to run!
+This is a multi-line comment.
+It can span multiple lines.
 */
+Console.WriteLine("This code will also execute.");
 ```
 
 ### Example
@@ -40,12 +52,15 @@ None of it is going to run!
 The following examples show various comment styles:
 
 ```cs
-// This line will denote a comment in C-sharp.
-Console.WriteLine("Hello World!"); // This is a comment.
+// This line is a single-line comment.
+Console.WriteLine("Hello, World!"); // This comment explains the line of code
+
 /*
-This is a multi-line
-comment.
+This is a multi-line comment
+that provides additional context
+for the code below.
 */
+Console.WriteLine("This code runs after the comment.");
 ```
 
 ### XML Comments
@@ -57,7 +72,9 @@ comment.
 The following is a single-line XML comment, which uses three forward slashes (`///`):
 
 ```cs
-/// XML Comment goes here
+/**
+XML Comments go here
+*/
 ```
 
 Multi-line XML comments are similar to regular multi-line comments, except that an extra asterisk `*` is used in the opening:
@@ -77,4 +94,17 @@ XML tags embedded in XML comments are used to signal a specific functionality of
 ///  This class performs an important function.
 /// </summary>
 public class MyClass {}
+```
+
+```cs
+// Another XML comment example
+/// <summary>
+/// This method calculates the sum of two integers.
+/// </summary>
+/// <param name="a">The first integer</param>
+/// <param name="b">The second integer</param>
+/// <returns>The sum of a and b</returns>
+public int Add(int a, int b) {
+    return a + b;
+}
 ```
