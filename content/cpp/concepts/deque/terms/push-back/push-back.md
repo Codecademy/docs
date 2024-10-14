@@ -14,11 +14,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.push_back()`** method adds an element to the end of the `deque`.
+In C++, the **`.push_back()`** [method](https://www.codecademy.com/resources/docs/cpp/methods) adds an element to the end of the deque.
 
 ## Syntax
-
-The `.push_back()` method is called on a `deque` using the following syntax:
 
 ```pseudo
 dequeName.push_back(value);
@@ -35,22 +33,24 @@ The example below showcases the use of the `.push_back()` method:
 #include <deque>
 
 int main() {
-    // Create a deque of integers
-    std::deque<int> numbers;
+  // Create a deque of integers
+  std::deque<int> numbers;
 
-    // Use push_back() to add elements to the deque
-    numbers.push_back(10);
-    numbers.push_back(20);
-    numbers.push_back(30);
+  // Use .push_back() to add elements to the deque
+  numbers.push_back(10);
+  numbers.push_back(20);
+  numbers.push_back(30);
 
-    // Display the elements of the deque
-    std::cout << "Deque contents: ";
-    for (int num : numbers) {
-        std::cout << num << " ";
-    }
-    std::cout << std::endl;
+  // Display the elements of the deque
+  std::cout << "Deque contents: ";
 
-    return 0;
+  for (int num : numbers) {
+    std::cout << num << " ";
+  }
+
+  std::cout << std::endl;
+
+  return 0;
 }
 ```
 
