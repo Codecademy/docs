@@ -14,26 +14,23 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Unordered sets** are associative containers that store unique elements in no particular order offering fast look-ups, insertions & deletions through a hash table. Unlike `std::set`, which maintain elements in a sorted order and uses a binary tree, unordered sets are good for performance, offering consistent time complexity for key operations. If you need elements in a sorted order, please have a look at [Sets](https://www.codecademy.com/resources/docs/cpp/sets), though it has a higher overhead for operations as a result of its tree-based structure.
+**Unordered sets** are associative containers that store unique elements in no particular order, offering fast look-ups, insertions, and deletions through a hash table. Unlike `std::set`, which maintains elements in sorted order using a binary tree, unordered sets provide better performance with average constant time complexity for key operations. If elements are needed in a sorted order, consider using [`std::set`](https://www.codecademy.com/resources/docs/cpp/sets), although it comes with higher overhead due to its tree-based structure.
 
 ## Syntax
 
-```cpp
-
+```pseudo
 #include <unordered_set>
-
-std::unordered_set<DataType> SetName;
-
+std::unordered_set<data_type> set_name;
 ```
 
-A set is created using the `unordered_set` keyword and declaring a [Data Type](https://www.codecademy.com/resources/docs/cpp/data-types) (int, bool, float, etc.) and the name of the set. The `DataType` for the comparison function must match the data type of the `set`
+- `data_type`: The data type of the elements to be stored in the unordered set (e.g., `int`, `string`). Each element in the unordered set will be of this type.
+- `set_name`: The name of the unordered set being defined.
 
 ## Example
 
-In this example, an unordered set is initiated and elements are inserted using the [.insert()](https://www.codecademy.com/resources/docs/cpp/sets/insert) method. The elements are then printed:
+In this example, an unordered set is initiated and elements are inserted using the [`.insert()`](https://www.codecademy.com/resources/docs/cpp/sets/insert) method. The elements are then printed:
 
 ```cpp
-
 #include <iostream>
 #include <unordered_set>
 
@@ -51,20 +48,17 @@ int main() {
   std::unordered_set<int> :: iterator iter;
   for (iter = numSet.begin(); iter != numSet.end(); iter++) {
   std::cout<< *iter << " ";
-
+  }
 }
-
 ```
 
 The output would be:
 
 ```shell
-
 20 40 30 10
-
 ```
 
-As you can see, the order of elements is not guaranteed.
+> **Note**: Element order is not guaranteed to be consistent across executions.
 
 ## Ordered vs Unordered Sets
 
@@ -77,14 +71,13 @@ As you can see, the order of elements is not guaranteed.
 | Performance | Consistent performance across all cases         | Can degrade to O(n) if hashing is poor                        |
 | Usage       | Use when element ordering is useful or required | Use when efficiency is required and ordering is not important |
 
-Note: neither set includes duplicates
+> **Note**: Neither `std::set` nor `std::unordered_set` allows duplicate elements.
 
 ## Codebyte Example
 
 This example builds on the previous example, adding a duplicate element to show it won't be included, and then checking if an element exists:
 
 ```codebyte/cpp
-
 #include <iostream>
 #include <unordered_set>
 
@@ -113,5 +106,4 @@ int main() {
 
   }
 }
-
 ```
