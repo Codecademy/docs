@@ -15,9 +15,11 @@ CatalogContent:
 The **`relative`** value of the `position` property allows an element to be positioned relative to its normal position in the document flow, enabling adjustments without affecting the layout of surrounding elements.
 
 ## Syntax
+
 ```pseudo
 position: relative;
 ```
+
 When an element is set to `position: relative`, the `top`, `right`, `bottom`, and `left` properties can be used to offset it from its normal position as follows:
 
 ```css
@@ -34,7 +36,7 @@ selector {
 
 ## Example 1
 
-This example demonstrates basic relative positioning of a single element.
+This example demonstrates basic relative positioning of a single element:
 
 ```html
 <div class="container">
@@ -56,10 +58,9 @@ This example demonstrates basic relative positioning of a single element.
     width: 200px;
     height: 200px;
 }
-
 ```
 
-Here's what the above examples look like:
+Here's what the above example's output looks like:
 
 ![CSS Position Relative Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-position-relative-ex1.png)
 
@@ -67,7 +68,8 @@ In this example, the blue box is moved 50 pixels down and 100 pixels to the righ
 
 ## Example 2
 
-This example covers additional aspects of relative positioning, including z-index and percentage-based positioning.
+This example covers additional aspects of relative positioning, including `z-index` and percentage-based positioning:
+
 ```html
 <div class="container">
     <div id="box1" class="box">Z-index: 2</div>
@@ -107,14 +109,15 @@ This example covers additional aspects of relative positioning, including z-inde
 
 ```
 
+The above code produces the following output:
+
 ![z-index and percentage-based positioning.](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-position-relative-ex2.png)
 
 This advanced example demonstrates:
 
-1. Z-index usage to control stacking order of relatively positioned elements.
+1. The `z-index` usage to control stacking order of relatively positioned elements.
 2. Percentage-based positioning (50% and 25% left).
 3. Negative values for top positioning to move elements upwards.
 4. How relatively positioned elements interact with each other in the same container.
 
 The green box (Box 3) appears on top due to its higher` z-index`, even though it is declared last in the HTML. The orange box (Box 2) is positioned 50% from the left edge of the container, while the green box is 25% from the left.
-
