@@ -18,7 +18,7 @@ CatalogContent:
 
 ## Syntax
 
-```cpp
+```pseudo
 #include <unordered_set>
 std::unordered_set<data_type> set_name;
 ```
@@ -28,7 +28,7 @@ std::unordered_set<data_type> set_name;
 
 ## Example
 
-In this example, an unordered set is initiated and elements are inserted using the [.insert()](https://www.codecademy.com/resources/docs/cpp/sets/insert) method. The elements are then printed:
+In this example, an unordered set is initiated and elements are inserted using the [`.insert()`](https://www.codecademy.com/resources/docs/cpp/sets/insert) method. The elements are then printed:
 
 ```cpp
 #include <iostream>
@@ -51,13 +51,14 @@ int main() {
   }
 }
 ```
+
 The output would be:
 
 ```shell
 20 40 30 10 
 ```
 
-> **Note**: Element order is not guaranteed to be consistent across executions;
+> **Note**: Element order is not guaranteed to be consistent across executions.
 
 ## Ordered vs Unordered Sets
 
