@@ -71,7 +71,7 @@ The output would be:
 | Performance | Consistent performance across all cases | Can degrade to O(n) if hashing is poor |
 | Usage | Use when element ordering is useful or required | Use when efficiency is required and ordering is not important |
 
-> **Note**: Neither std::set nor std::unordered_set allows duplicate elements.
+> **Note**: Neither `std::set` nor `std::unordered_set` allows duplicate elements.
 
 ## Codebyte Example
 
