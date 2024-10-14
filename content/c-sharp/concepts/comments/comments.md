@@ -13,8 +13,6 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-# Comments
-
 A **comment** is a piece of text within a program that is not executed. It can be used to provide additional information to aid in understanding the code.
 
 ## Why Use Comments?
@@ -37,7 +35,7 @@ Console.WriteLine("This code will execute."); // Inline comment explaining the c
 
 ### Multi-line Comments
 
-A **multi-line comment** is used for comments that span multiple lines. It begins with /* and ends with */. The compiler ignores everything in between.
+A **multi-line comment** is used for comments that span multiple lines. It begins with `/*` and ends with `*/`. The compiler ignores everything in between.
 
 ```cs
 /*
@@ -45,22 +43,6 @@ This is a multi-line comment.
 It can span multiple lines.
 */
 Console.WriteLine("This code will also execute.");
-```
-
-### Example
-
-The following examples show various comment styles:
-
-```cs
-// This line is a single-line comment.
-Console.WriteLine("Hello, World!"); // This comment explains the line of code
-
-/*
-This is a multi-line comment
-that provides additional context
-for the code below.
-*/
-Console.WriteLine("This code runs after the comment.");
 ```
 
 ### XML Comments
