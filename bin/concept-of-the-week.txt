@@ -1,1 +1,1 @@
-content/uiux/concepts/logo/logo.md
+content/java/concepts/priorityqueue/priorityqueue.md
