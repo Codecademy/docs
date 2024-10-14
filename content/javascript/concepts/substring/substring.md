@@ -1,6 +1,6 @@
 ---
 Title: 'Substring'
-Description: 'The .substring() method extracts a portion of a string between two given indices and returns a new string. If only one index is given, it goes to the end.'
+Description: 'Extracts a portion of a string between two given indices and returns a new string. If only one index is given, it goes to the end.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -13,14 +13,18 @@ CatalogContent:
   - 'paths/create-a-back-end-app-with-javascript'
 ---
 
-The `substring(start, end)` method extracts a portion of a string from `start` to `end` (exclusive) and returns a new string. If `end` is omitted, it returns characters from `start` to the end of the string.
+The **`substring()`** method in JavaScript extracts a portion of a string from one position to another (exclusive) and returns a new string. If the second position is omitted, it returns characters from the first position to the end of the string.
 
 ## Syntax
 
-```javascript
+```pseudo
 // Returns characters from startIndex to end of string
 string.substring(startIndex);
+```
 
+Or alternatively:
+
+```pseudo
 // Returns characters from startIndex to endIndex
 string.substring(startIndex, endIndex);
 ```
@@ -43,7 +47,7 @@ string.substring(startIndex, endIndex);
 
 Using `.substring()` to display characters from a given string.
 
-```javascript
+```js
 const str = 'Codecademy';
 
 console.log(str.substring(0, 4));
@@ -60,7 +64,7 @@ console.log(str.substring(4, 99));
 
 Using `.substring()` to display the last `6` characters from a given string.
 
-```javascript
+```js
 const str = 'Codecademy';
 
 console.log(str.substring(str.length - 6));
