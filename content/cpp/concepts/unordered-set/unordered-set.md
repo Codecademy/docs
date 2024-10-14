@@ -1,7 +1,7 @@
 ---
 Title: 'Unordered Sets'
 Description: 'Unordered sets are associative containers that store unique elements in no specific order, offering fast retrieval through a hash-based implementation.'
-Subjects: 
+Subjects:
   - 'Computer Science'
   - 'Game Development'
   - 'Developer Tools'
@@ -9,7 +9,7 @@ Tags:
   - 'Data Types'
   - 'Hash Maps'
   - 'Sets'
-CatalogContent: 
+CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
 ---
@@ -27,7 +27,6 @@ std::unordered_set<DataType> SetName;
 ```
 
 A set is created using the `unordered_set` keyword and declaring a [Data Type](https://www.codecademy.com/resources/docs/cpp/data-types) (int, bool, float, etc.) and the name of the set. The `DataType` for the comparison function must match the data type of the `set`
-
 
 ## Example
 
@@ -56,11 +55,12 @@ int main() {
 }
 
 ```
+
 The output would be:
 
 ```shell
 
-20 40 30 10 
+20 40 30 10
 
 ```
 
@@ -68,14 +68,14 @@ As you can see, the order of elements is not guaranteed.
 
 ## Ordered vs Unordered Sets
 
-| Feature | Ordered Set (`std::set`)  | Unordered Set (`std::unordered_set`) |
-| --- | --- | --- |
-| Order | Elements in sorted order | No particular order |
-| Structure | Tree-based | Hash table |
-| Time | O(log n) | O(1) |
-| Memory | More efficient memory usage | Higher memory usage as a result of hashing |
-| Performance | Consistent performance across all cases | Can degrade to O(n) if hashing is poor |
-| Usage | Use when element ordering is useful or required | Use when efficiency is required and ordering is not important |
+| Feature     | Ordered Set (`std::set`)                        | Unordered Set (`std::unordered_set`)                          |
+| ----------- | ----------------------------------------------- | ------------------------------------------------------------- |
+| Order       | Elements in sorted order                        | No particular order                                           |
+| Structure   | Tree-based                                      | Hash table                                                    |
+| Time        | O(log n)                                        | O(1)                                                          |
+| Memory      | More efficient memory usage                     | Higher memory usage as a result of hashing                    |
+| Performance | Consistent performance across all cases         | Can degrade to O(n) if hashing is poor                        |
+| Usage       | Use when element ordering is useful or required | Use when efficiency is required and ordering is not important |
 
 Note: neither set includes duplicates
 
@@ -94,7 +94,7 @@ int main() {
 
   // Add duplicate element
   numSet.insert(20);
-  
+
 
   // Print out set elements
   std::unordered_set<int> :: iterator iter;
