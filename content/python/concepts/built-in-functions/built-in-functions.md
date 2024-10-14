@@ -1,6 +1,6 @@
 ---
 Title: 'Built-in Functions'
-Description: 'Python includes 68 pre-defined built-in functions and types, which can be used without importing libraries. They are listed alphabetically.'
+Description: 'Python includes 68 pre-defined built-in functions and types, which can be used without importing libraries.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
