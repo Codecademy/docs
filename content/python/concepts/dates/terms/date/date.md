@@ -39,3 +39,29 @@ meeting_date = datetime.date(2021, 10, 5)
 
 print(meeting_date)
 ```
+
+## Example
+
+Here's a more detailed example of using datetime.date() to create a date object and access its components:
+
+```python
+from datetime import date
+
+example_date = date(2024, 10, 15)
+
+year = example_date.year
+month = example_date.month
+day = example_date.day
+
+print("Complete Date:", example_date)
+print("Year:", year)
+print("Month:", month)
+print("Day:", day)
+```
+
+```Output:
+Complete Date: 2024-10-15
+Year: 2024
+Month: 10
+Day: 15
+```
