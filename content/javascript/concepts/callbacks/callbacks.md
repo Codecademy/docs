@@ -1,6 +1,6 @@
 ---
 Title: 'Callbacks'
-Description: 'A callback is a function passed as an argument to another function. In JavaScript, functions are objects, so they can be passed as arguments and called later.'
+Description: 'A callback is a function passed as an argument to another function.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -77,9 +77,11 @@ console.log(createNewArray(array, increment));
 
 ## Callbacks in Asynchronous JavaScript
 
-Callbacks are often used in asynchronous operations like fetching data from an API or listening for a DOM Event, where you don’t want to block the main thread while waiting for the response.
+Callbacks are often used in asynchronous operations like fetching data from an API or listening for a DOM Event, where users don’t want to block the main thread while waiting for the response.
 
-## Example for API Call using Callbacks
+### Example
+
+The following example demonstrates how to make an API call using callbacks:
 
 ```js
 function fetchData(url, callback) {
@@ -116,9 +118,11 @@ var url = 'https://jsonplaceholder.typicode.com/posts/1'; // Sample API endpoint
 fetchData(url, handleResponse); // Call the fetch function and pass the callback
 ```
 
+In the code above, the `fetchData` function takes two arguments `url` and `handleResponse`. `url` is the API url from which we have to get the data. `handleResponse` is the callback funtion that gets executed when the network request returns either data or an error.
+
 The output will look like this:
 
-```pesudo
+```shell
 Data received: {
   "userId": 1,
   "id": 1,
@@ -127,9 +131,9 @@ Data received: {
 }
 ```
 
-In the code above, `fetchData` function takes two arguments `url` and `handleResponse`. `url` is the API url from which we have to get the data. `handleResponse` is the callback funtion that gets executed when the network request returns either data or an error.
+### Codebyte Example
 
-## Codebyte Example for API Call using Callbacks
+The following codebyte example shows how to make an API call using callbacks:
 
 ```codebyte/javascript
 const https = require('https');
@@ -165,7 +169,7 @@ fetchData(url, handleResponse);  // Call the fetch function and pass the callbac
 
 ## Callback Hell
 
-When multiple asynchronous operations are nested using callbacks, it can lead to complex code and might lead to errors and difficult to debug, often referred to as `callback hell`.
+When multiple asynchronous operations are nested using callbacks, it can lead to complex code and might lead to errors and difficult to debug, often referred to as _callback hell_:
 
 ```js
 doSomethingFirst(function () {
@@ -177,4 +181,4 @@ doSomethingFirst(function () {
 });
 ```
 
-To avoid this, you can use `Promises` or `async/await`, which make the code more readable and maintainable.
+To avoid this, **promises** or **async/await** can be used, which make the code more readable and maintainable.
