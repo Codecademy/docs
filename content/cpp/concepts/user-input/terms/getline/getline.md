@@ -94,7 +94,7 @@ int main() {
 
 ## Codebyte Example
 
-Sometimes we want to read a whole line from the input, possibly containing spaces/tabs. In such cases, `getline()` comes handy.
+Run the following codebyte to understand how the `getline()` function works:
 
 ```codebyte/cpp
 #include <iostream>
@@ -113,5 +113,5 @@ int main() {
   // Output: Codeacademy is awesome!
 }
 ```
-In the above example, using a traditional `cin >> myString` will result in `Codeacademy` only.
-To avoid this, we've to use `getline(cin, myString)`.
+
+In the above example, using traditional `cin >> myString` would result in only capturing the first word, "Codeacademy." This is because `cin >>` reads input until it encounters a space or newline. To read an entire line, including spaces and tabs, we use `getline(cin, myString)`, which captures the full input line as a single string.
