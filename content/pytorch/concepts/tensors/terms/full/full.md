@@ -1,6 +1,6 @@
 ---
 Title: '.full()' 
-Description: 'In PyTorch, the `.full()` function creates a tensor filled with a specified value and shape according according to the dimensions provided.' 
+Description: 'Creates a tensor filled with a specified value and shape according according to the dimensions provided.' 
 Subjects:
   - 'Data Science'
   - 'Machine Learning'
@@ -42,18 +42,3 @@ tensor = torch.full((2, 3), 5)
 print(tensor)
 
 ```
-## Codebyte Example
-
-```codebyte/python
-import torch
-
-# Create a 2x3 tensor filled with the value 10
-tensor = torch.full((2, 3), 10)
-
-print(tensor)  
-```
-
-
-  
-
-
