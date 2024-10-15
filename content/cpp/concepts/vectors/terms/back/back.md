@@ -23,9 +23,8 @@ vectorName.back();
 ```
 To use vectors, it is necessary to `#include` the `vector` library as the vector is a part of STL library.
 
-The below example shows the use of `.back()` method in c++ vectors, here `numbers` is a vector which has 5 elements in it and it displays the last element in the vector with the help of the `.back()` method, then the last element in the vector is modifies and the modified value is displayed. 
-
 ## Example
+The below example shows the use of `.back()` method in c++ vectors, here `numbers` is a vector which has 5 elements in it and it displays the last element in the vector with the help of the `.back()` method, then the last element in the vector is modifies and the modified value is displayed. 
 
 ```cpp
 #include <iostream>
@@ -40,14 +39,15 @@ int main(){
   return 0;
   }
 ```
+The above code outputs:
 ```shell
-The last element in the vector us: 60
+The last element in the vector is: 60
 The last element in the vector after modification is: 80
 ```
 
-This codebyte example shows that how a last element in the vector in accessed and modified using the `back()` method.
-
 ## Codebyte Example
+
+This codebyte example shows that how a last element in the vector in accessed and modified using the `back()` method.
 
 ```codebyte/cpp
 #include <iostream>
