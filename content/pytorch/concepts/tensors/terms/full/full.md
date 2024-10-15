@@ -22,12 +22,13 @@ The **`.full()`** function is used to create a tensor of a specified shape fille
 ```pseudo 
 torch.full(size, fill_value, *, out=None, dtype=None, layout=torch.strided, device=None, requires_grad=False)
 ```
-- `size`: A list that specifies the desired shape.
-- `fill_value`: The value that is used to fill the tensor.
-- `dtype`: Data type of the tensor.
-- `layout`: Layout of the tensor. This parameter is optional
-- `device`: The device on which the tensor is to be allocated. This parameter is optional.
-- `requires_grad`: It is a boolean value that indicates whether to track the operations of the tensor for gradient computation or not. By defaukt this is `False`.
+- `size`: A list or tuple that specifies the desired shape of the output tensor.
+- `fill_value`: A scalar value that fills the tensor.
+- `out` (optional): An existing tensor where the result will be stored; must have the same shape as the output. 
+- `dtype` (optional): The desired data type of the output tensor.
+- `layout` (optional): Desired layout of the returned tensor.
+- `device` (optional): The device on which the tensor is to be allocated. 
+- `requires_grad (optional)`: It is a boolean value that indicates whether to track the operations of the tensor for gradient computation or not. By default this is `False`.
 
 ### Example
 
