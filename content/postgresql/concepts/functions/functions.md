@@ -8,7 +8,6 @@ Tags:
   - 'PostgreSQL'
   - 'Functions'
 CatalogContent:
-  - 'learn-postgresql'
   - 'paths/analyze-data-with-sql'
 ---
 
