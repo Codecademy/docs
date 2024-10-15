@@ -14,21 +14,25 @@ CatalogContent:
 
 **Variables** are used to store and manipulate data. In C#, each variable has a type that determines the values it can store.
 
-## Types
+## Types of variables
 
-**C#** is a type-safe language, and has different types. The following are some examples:
+In **C#**, there are five distinct types of variables:
 
-| Name     | Description                                                                                                                       |
-| -------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| `int`    | represents a 32-bit signed integer. It can store whole numbers from `-2,147,483,648` to `2,147,483,647`.                          |
-| `double` | represents a 64-bit floating-point number. It can store both whole numbers and decimals from `±5.0 × 10^−324` to `±1.7 × 10^308`. |
-| `char`   | represents a single 16-bit Unicode character. It is used to store a single letter, digit, or symbol.                              |
-| `string` | represents a sequence of characters and is used to store text. It is immutable, meaning that once created, it cannot be changed.  |
-| `bool`   | represents a Boolean value, which can be either `true` or `false`. Used for conditional statements and logical operations.        |
+| Name               | Description                                                                                                               |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------- |
+| Local variables    | are variables that are declared within a method, constructor, or block of code.                                           |
+| Instance variables | are non-static fields in a class. They store data unique to each instance of a class.                                     |
+| Static Variables   | are shared across all instances of a class. They belong to the class itself rather than any instance.                     |
+| Constant Variables | are immutable after declaration and must be initialized at the time of declaration. They are typically static by default. |
+| Readonly Variables | can only be assigned during declaration or within the constructor of the class.                                           |
 
 ## Syntax
 
-A variable is declared by specifying a data **type**, a **name** and a **value** (if it is to be initialized):
+A variable is declared by specifying a **type**, a **name** and a **value** (if it is to be initialized):
+
+- **Type**: The data type of a variable, defining the kind of data it can hold.
+- **Name**: The identifier for the variable, used to reference it in the code.
+- **Value**: The data assigned to the variable, representing the information it stores.
 
 ```pseudo
 type name = value;
@@ -36,71 +40,136 @@ type name = value;
 
 ## Examples
 
-### Integer (`int`)
+### Local variables
 
-The `int` type is commonly used when you don't need decimal values and the number fits within the defined range.
+In this example, `localVariable` can only be used within the `MyMethod()` function.
 
 ```cs
-int x = 25;
-int y = 100;
-int z = x - y; // z = -75
+void MyMethod()
+{
+  int localVariable = 10;  // This variable is only accessible inside MyMethod
+}
 ```
 
-### Floating-point number (`double`)
+### Instance variables
 
-The `double` type is commonly used to store decimal numbers or perform calculations that require a high degree of precision.
+In this example, `name` is an instance variable, and each `Person` instance created will have its own `name` value.
 
 ```cs
-double temperature = 36.5;
-double distance = 12345.6789;
+class Person
+{
+  public string name;  // Instance variable
+
+  public Person(string personName)
+  {
+    name = personName;  // Initialize instance variable
+  }
+}
 ```
 
-### Unicode character (`char`)
+### Static Variables
 
-The `char` type is commonly used in tasks like processing text, handling user input, or representing specific values in a program.
+In this example, the `wheels` variable is static, meaning that all instances share the same value for `wheels`, which cannot be modified afterward.
 
 ```cs
-char grade = 'A';
-char symbol = '#';
+class Car {
+  public static int wheels = 4;  // Static variable
+}
 ```
 
-### Sequence of characters (`string`)
+### Constant Variables
 
-The type `string` is commonly used for storing and manipulating text data, such as user input, messages, file paths, and formatted output.
+In this example, `Pi` is a constant variable, meaning its value cannot be changed.
 
 ```cs
-string greeting = "Hello, World!";
-string name = "Alice";
-string fullName = name + " Smith"; // "Alice Smith"
+class Circle
+{
+  public const double Pi = 3.14159;  // Constant variable
+
+  public double CalculateArea(double radius)
+  {
+    return Pi * radius * radius;  // Using the constant variable
+  }
+}
 ```
 
-### Boolean (`bool`)
+### Readonly Variables
 
-The `bool` type is commonly used for conditional statements (like `if` statements) and to represent flags or states in logical operations.
+In this example, `length` and `width` are readonly variables assigned in the `Rectangle` constructor. Their values cannot be changed after the instance is created.
 
 ```cs
-bool isActive = true;
-bool isComplete = false;
+class Rectangle
+{
+  public readonly double length;  // Readonly variable
+  public readonly double width;   // Readonly variable
+
+  public Rectangle(double l, double w)
+  {
+    length = l;  // Assigning value in the constructor
+    width = w;   // Assigning value in the constructor
+  }
+}
 ```
 
 ## Codebyte Example
 
-Feel free to play around with the values of `x` and `y`, experiment with different operations, or even add more variables. Observe how changes affect the output and enhance your understanding of variable types in C#. Happy coding!
+Here’s an example showcasing the use of various types of variables. Feel free to experiment with it. Happy coding!
 
 ```codebyte/csharp
 using System;
 
-public class Example
+class Car
 {
-  public static void Main(string[] args)
+  // Instance variable
+  public string model;
+
+  // Static variable
+  public static int wheels = 4; // Shared across all instances
+
+  // Constant variable
+  public const string fuelType = "Gasoline"; // Cannot be changed
+
+  // Readonly variable
+  public readonly string vin; // Must be assigned in constructor
+
+  // Constructor to initialize instance and readonly variables
+  public Car(string model, string vin)
   {
-    int x = 1;
-    int y = x + 5;
-    long z = y;
+    this.model = model;
+    this.vin = vin; // Assigning the readonly variable
+  }
 
-    Console.WriteLine("The int {0} can be implicitly converted to the long {1}.", y, z);
+  public void DisplayInfo()
+  {
+    // Local variable
+    string message = $"Car Model: {model}, VIN: {vin}, Wheels: {wheels}, Fuel Type: {fuelType}";
 
-    // Output: "The int 6 can be implicitly converted to the long 6."
+    // Displaying the message
+    Console.WriteLine(message);
+  }
+}
+
+class Factory
+{
+  static void Main()
+  {
+    // Creating instances of Car
+    Car car1 = new Car("Toyota Camry", "1HGCM82633A123456");
+    Car car2 = new Car("Honda Accord", "1HGCM82633A654321");
+
+    // Displaying info for each car
+    car1.DisplayInfo();  // Output: Car Model: Toyota Camry, VIN: 1HGCM82633A123456, Wheels: 4, Fuel Type: Gasoline
+    car2.DisplayInfo();  // Output: Car Model: Honda Accord, VIN: 1HGCM82633A654321, Wheels: 4, Fuel Type: Gasoline
+
+    // Modifying static variable
+    Car.wheels = 5; // All instances will see this change
+
+    // Displaying info again to see the updated static variable
+    car1.DisplayInfo();  // Output: Car Model: Toyota Camry, VIN: 1HGCM82633A123456, Wheels: 5, Fuel Type: Gasoline
+    car2.DisplayInfo();  // Output: Car Model: Honda Accord, VIN: 1HGCM82633A654321, Wheels: 5, Fuel Type: Gasoline
+
+    // Trying to modify readonly variable (will cause compile-time error)
+    // car1.vin = "1HGCM82633A111111"; // Uncommenting this line will cause an error
   }
 }
 ```
