@@ -52,5 +52,3 @@ gp_classifier.fit(X, y)
 y_prob = gp_classifier.predict_proba(X)
 
 
-```
-
