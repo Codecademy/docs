@@ -1,6 +1,6 @@
 ---
 Title: 'List' 
-Description: 'In C++, list is a doubly linked list from the STL. It allows efficient insertions and deletions of data' 
+Description: 'List is a sequential container that stores elements non-contiguous memory locations.' 
 Subjects:
   - 'Game Development'
   - 'Mobile Development'
