@@ -19,7 +19,7 @@ By introducing non-linearity into the network, activation functions enable the m
 
 ## ReLU (Rectified Linear Unit)
 
-ReLU is a popular activation function that returns the input if it is positive, and zero otherwise. It is defined as:
+ReLU is a popular activation function that returns the input if it is positive, and zero otherwise. It is mathematically defined as:
 
 ```pseudo
 f(x) = max(0, x)
