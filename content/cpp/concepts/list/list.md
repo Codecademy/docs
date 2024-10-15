@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **List** in C++ is a part of the Standard Template Library (STL) and represents a doubly linked list. It allows proficient insertion and deletion of elelments at any position with constant time complexity.
+**List** in C++ is a sequential container and a part of the Standard Template Library (STL) that stores elements in non-contiguous memory locations. The list is implemented using a doubly linked list. It allows proficient insertion and deletion of elements at any known position with constant time complexity.
 
 ## Syntax
 
