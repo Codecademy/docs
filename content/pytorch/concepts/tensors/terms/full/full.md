@@ -32,7 +32,7 @@ torch.full(size, fill_value, *, out=None, dtype=None, layout=torch.strided, devi
 
 ## Example
 
-The below example code created a 2x3 tensor where all elements are set to 5.
+The below example code creates a *2x3* tensor where all elements are set to *5*.
 
 ```py
 import torch
