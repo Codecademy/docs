@@ -79,7 +79,7 @@ model = SimpleNN()
 
 ## Leaky ReLU
 
-Leaky ReLU is a variation of the ReLU activation function that returns the input if it is positive, and a small fraction of the input otherwise. It is defined as:
+Leaky ReLU is a variation of the ReLU activation function that returns the input if it is positive, and a small fraction of the input otherwise. It is mathematically defined as:
 
 ```pseudo
 f(x) = max(0.01x, x)
