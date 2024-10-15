@@ -8,7 +8,7 @@ Tags:
   - 'Operators'
   - 'Database'
   - 'Data'
-  - 'Conditionals'˜
+  - 'Conditionals'
 CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
