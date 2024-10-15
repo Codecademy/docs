@@ -169,7 +169,7 @@ model = SimpleNN()
 
 ## Softmax
 
-Softmax is an activation function that returns a probability distribution over multiple classes. It is defined as:
+Softmax is an activation function that returns a probability distribution over multiple classes. It is mathematically defined as:
 
 ```pseudo
 f(x_i) = e^(x_i) / sum(e^(x_j)) for j = 1 to n
