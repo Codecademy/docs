@@ -85,7 +85,7 @@ Leaky ReLU is a variation of the ReLU activation function that returns the input
 f(x) = max(0.01x, x)
 ```
 
-Leaky ReLU helps prevent the dying ReLU problem, where neurons can become inactive and stop learning. By allowing a small gradient for negative inputs, Leaky ReLU ensures that all neurons in the network continue to learn.
+Leaky ReLU helps prevent the dying ReLU problem, where neurons can become inactive and stop learning. By allowing a small gradient for negative inputs, Leaky ReLU ensures that all neurons in the network continue to learn, promoting better training and performance.
 
 ```py
 import torch.nn as nn
