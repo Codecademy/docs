@@ -1,6 +1,6 @@
 ---
 Title: 'IIF'
-Description: 'Inline conditional checks within SELECT statements to return different values based on a condition.'
+Description: ' Performs inline conditional checks within SELECT statements to return different values based on a condition.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
