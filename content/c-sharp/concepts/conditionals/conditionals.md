@@ -132,3 +132,25 @@ string getInput1(int input1) => input1 === 10 ? "I returned true" : "I returned 
 Console.WriteLine(getInput1(10)); // Output: "I returned true"
 Console.WriteLine(getInput1(5)); // Output: "I returned false"
 ```
+
+### Using Conditionals in C++
+
+Conditionals allow you to execute certain blocks of code based on specific conditions. The most common conditional statements are `if`, `else if`, and `else`. Here’s an example:
+
+```cpp
+#include <iostream>
+
+int main() {
+    int number = 10;
+
+    // Using if-else conditional statements
+    if (number > 0) {
+        std::cout << "The number is positive." << std::endl;
+    } else if (number < 0) {
+        std::cout << "The number is negative." << std::endl;
+    } else {
+        std::cout << "The number is zero." << std::endl;
+    }
+
+    return 0;
+}
