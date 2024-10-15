@@ -30,7 +30,7 @@ torch.full(size, fill_value, *, out=None, dtype=None, layout=torch.strided, devi
 - `device` (optional): The device on which the tensor is to be allocated. 
 - `requires_grad (optional)`: It is a boolean value that indicates whether to track the operations of the tensor for gradient computation or not. By default this is `False`.
 
-### Example
+## Example
 
 The below example code created a 2x3 tensor where all elements are set to 5.
 
