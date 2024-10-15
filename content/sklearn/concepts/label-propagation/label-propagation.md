@@ -1,6 +1,6 @@
 ---
 Title: 'Label Propagation'
-Description: 'A a semi-supervised learning algorithm that spreads labels from a small set of labeled data points to the unlabeled data using a graph-based approach.'
+Description: 'A  semi-supervised learning algorithm that spreads labels from a small set of labeled data points to the unlabeled data using a graph-based approach.'
 Subjects:
   - 'Data Science'
   - 'Machine Learning'
