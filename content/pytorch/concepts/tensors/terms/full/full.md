@@ -15,7 +15,7 @@ CatalogContent:
   - 'intro-to-py-torch-and-neural-networks'
 ---
 
-The **`.full()`** function is used to create a tensor of a specified shape filled with a constant value.This function is more useful for efficient tensor management in machine learning and data science.This function also accepts various parameters for defining the desired shape and fill value.
+The **`.full()`** function is used to create a tensor of a specified shape filled with a constant value. This function is particularly useful for efficient tensor management in machine learning and data science, as it allows for the creation of tensors with predefined values. Additionally, it accepts various parameters for defining the desired shape and fill value.
 
 ## Syntax
 
