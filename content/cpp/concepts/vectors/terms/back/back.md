@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The C++ **`.back()`** method is responsible for accessing the last element in the vector. It allows you to modify the data or element in the vector without actually removing it from the vector. It is mostly used to access the recently element added.
+The C++ `**.back()**` method is used to access the last element in a vector. It allows you to view or modify the element without removing it from the vector. This method is primarily used to access the most recently added element.
 
 ## Syntax
 
