@@ -25,7 +25,7 @@ ReLU is a popular activation function that returns the input if it is positive, 
 f(x) = max(0, x)
 ```
 
-ReLU is widely used in deep learning models due to its simplicity and efficiency. It helps the model learn complex patterns in the data by introducing non-linearity.
+ReLU (Rectified Linear Unit) is widely used in deep learning models due to its simplicity and efficiency. It enables the model to learn complex patterns in the data by introducing non-linearity.
 
 ```py
 import torch.nn as nn
