@@ -1,15 +1,15 @@
 ---
 Title: '.map()'
 Description: 'Transforms elements in a collection by applying a specified transformation function, resulting in a new collection with the transformed values.'
-Subjects: 
+Subjects:
   - 'Code Foundations'
   - 'Mobile Development'
-Tags: 
+Tags:
   - 'Android'
   - 'Arrays'
   - 'Map'
   - 'Kotlin'
-CatalogContent: 
+CatalogContent:
   - 'learn-kotlin'
   - 'paths/computer-science'
 ---
@@ -43,7 +43,7 @@ fun main() {
     // Initialize an Array of numbers.
     val numbers = arrayOf(4, 12, 14, 17, 8)
 
-    // Use map() to multiply each element by 2
+    // Use .map() to multiply each element by 2
     val doubledNumbers = numbers.map { it * 2 } // Transforms each element by multiplying it by 2
 
     // Print the transformed array
