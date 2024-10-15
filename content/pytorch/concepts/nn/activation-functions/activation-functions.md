@@ -1,6 +1,6 @@
 ---
-Title: 'PyTorch nn Activation Functions'
-Description: 'Set of pre-built activation functions that are essential for building neural networks.'
+Title: 'Activation Functions'
+Description: 'Activation funcstions are mathematical functions that introduce non-linearity into the model, enabling neural networks to learn complex patterns from data.'
 Subjects:
   - 'AI'
   - 'Machine Learning'
