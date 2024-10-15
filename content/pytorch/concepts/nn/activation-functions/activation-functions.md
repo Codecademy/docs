@@ -145,7 +145,7 @@ Tanh (hyperbolic tangent) is an activation function that returns a value between
 f(x) = (e^x - e^(-x)) / (e^x + e^(-x))
 ```
 
-Tanh is similar to the Sigmoid function but returns values between -1 and 1. It is commonly used in the hidden layers of neural networks to introduce non-linearity.
+Tanh is similar to the Sigmoid function but differs in that it outputs values within the range of -1 to 1. This property makes it particularly useful in the hidden layers of neural networks, as it helps introduce non-linearity and can lead to improved convergence during training.
 
 ```py
 import torch.nn as nn
