@@ -50,5 +50,5 @@ gp_classifier.fit(X, y)
 
 # Predict class probabilities for new data points
 y_prob = gp_classifier.predict_proba(X)
-
+```
 
