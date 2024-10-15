@@ -20,8 +20,7 @@ The **`.full()`** function is used to create a tensor of a specified shape fille
 ## Syntax
 
 ```pseudo 
-torch.full(size, fill_value, dtype=None, layout=torch.strided, device=None, requires_grad=False)
-
+torch.full(size, fill_value, *, out=None, dtype=None, layout=torch.strided, device=None, requires_grad=False)
 ```
 - `size`: A list that specifies the desired shape.
 - `fill_value`: The value that is used to fill the tensor.
