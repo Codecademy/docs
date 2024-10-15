@@ -1,24 +1,25 @@
 ---
-Title: 'Absolute Positioning in CSS' 
-Description: 'Places an element exactly where you want, relative to its nearest positioned ancestor or the browser window.' 
+Title: 'absolute' 
+Description: 'Places an element relative to its nearest positioned ancestor or the browser window. 
 Subjects: 
   - 'Web Design'
   - 'Web Development'
-  - 'CSS'
 Tags:
-  - 'positioning'
+  - 'Positioning'
   - 'CSS'
 CatalogContent:
   - 'learn-css'
-  - 'paths/css'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-The **absolute** value of the position property allows an element to be positioned exactly where you want it, relative to its nearest positioned ancestor or the browser window. This method removes the element from the normal document flow, so it does not affect the layout of surrounding elements.
+Places an element relative to its nearest positioned ancestor or the browser window if an element has `position: absolute`  declared then the element is removed from the normal document flow, so it does not affect the layout of surrounding elements.
 
 ## Syntax
+
 ```css
 position: absolute;
 ```
+
 When an element is set to `position: absolute`, you can use the `top`, `right`, `bottom`, and `left` properties to offset it from its normal position:
 
 ```css
@@ -32,16 +33,18 @@ selector {
 ```
 
 - `<length>`: Can be specified in pixels (px), ems (em), rems (rem), percentages (%), or other CSS units.
-- Positive values move the element away from the specified edge.
-- Negative values move the element towards the specified edge.
 
-## Example 1 : Positioned Relative to its Parent
+> Positive values move the element away from the specified edge.
+>
+> Negative values move the element towards the specified edge.
+
+## Example 1 : 
 
 This example shows how absolute positioning works when the element is positioned relative to its parent container. By setting top: 0 and left: 0, the .box sticks to the top-left corner of its parent. You can adjust top, left, right, or bottom to move it anywhere within the parent.
 
 ```html
 <div class="container">
-    <div class="box"></div>
+    <div class="box">Absolutely Positioned</div>
 </div>
 ```
 
@@ -77,19 +80,19 @@ This example shows how absolute positioning works when the element is positioned
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     }
 ```
+
 Here's what the above examples look like:
 
 ![Box at top-left of parent](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-position-absolute-ex1.png)
 
 
-## Example 2: Positioned Relative to the Browser Window
+## Example 2 : 
 
-
-If the parent container doesn’t have position: relative (or any positioning), the element with position: absolute will stick to the browser window. This example demonstrates how the .box is now positioned relative to the window instead of its parent. 
+In the below example the parent container doesn't have `position: relative` (or any positioning),  so the element with `position: absolute` will stick to the browser window.
 
 ```html
 <div class="container">
-    <div class="box"></div>
+    <div class="box">Absolutely Positioned</div>
 </div>
 ```
 
@@ -125,6 +128,7 @@ If the parent container doesn’t have position: relative (or any positioning), 
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     }
 ```
+
 Here's what the above examples look like:
 
 ![Box at top-left of window.](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-position-absolute-ex2.png)
