@@ -18,7 +18,8 @@ CatalogContent:
 
 ## Syntax
 
-To implement std::list in C++, you need to include the following header:
+>**Note**: To implement std::list in C++, you need to include the following header:
+Include the standard library for using list
 
 ```pseudo 
 #include <list>
@@ -27,6 +28,7 @@ To implement std::list in C++, you need to include the following header:
 
 ```cpp
 #include <iostream>
+
 #include <list>
 int main() {
 // Declare a list of integers
@@ -46,6 +48,7 @@ std::cout << std::endl;
 // Removing an element
 myList.remove(10);  // Removes the element with value 10
 // Displaying the updated list
+
 std::cout << "Updated list elements after deletion: ";
 for (const auto& value : myList) {
   std::cout << value << " ";  // Output: 5 20
@@ -53,12 +56,9 @@ for (const auto& value : myList) {
 std::cout << std::endl;
   return 0;
 }
-
 ```
 The output for the above code is:
-
 Here `5`,`10`,and `20` are the numbers that are inserted in the list and also printed the updated list after deletion of `10`.
-
 ```shell
 List elements: 5 10 20 
 Updated list elements after deletion: 5 20 
@@ -66,7 +66,7 @@ Updated list elements after deletion: 5 20
 ```
 ## Codebyte Example
 
-```codenyte/cpp
+```codebyte/cpp
 #include <iostream>
 #include <list>
 #include <string>
@@ -87,7 +87,3 @@ int main() {
 }
 
 ```
-
-  
-
-
