@@ -13,9 +13,9 @@ CatalogContent:
   - 'py-torch-for-classification'
 ---
 
-The **`nn Activation Functions`** in Pytorch are a set of pre-built activation functions that are essential for building neural networks. Activation functions are mathematical equations that determine the output of a neural network. The function is attached to each neuron in the network and determines whether it should be activated or not, based on whether each neuron's input is relevant for the model's prediction. Activation functions also help normalize the output of each neuron to a range between 1 and 0 or between -1 and 1.
+The **Activation Functions** in PyTorch are a collection of pre-built functions essential for constructing neural networks. These mathematical functions determine the output of each neuron by assessing whether its input is relevant for the model's prediction, effectively deciding whether the neuron should be activated. Activation functions also help normalize neuron outputs, typically constraining them to a range between 0 and 1 or -1 and 1.
 
-Activation functions are used to introduce non-linearity to the neural network. Common activation functions include `ReLU`, `ReLU6`, `Leaky ReLU`, `Sigmoid`, `Tanh`, and `Softmax`. Activation functions are applied to the output of each neuron in the network.
+By introducing non-linearity into the network, activation functions enable the model to learn complex patterns in the data. Common activation functions include `ReLU`, `ReLU6`, `Leaky ReLU`, `Sigmoid`, `Tanh`, and `Softmax`, which are applied to the outputs of neurons throughout the network.
 
 ## ReLU (Rectified Linear Unit)
 
