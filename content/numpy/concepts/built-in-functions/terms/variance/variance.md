@@ -58,3 +58,4 @@ This produces the following output:
 [6. 6. 6.]
 [0.66666667 0.66666667 0.66666667]
 ```
+
