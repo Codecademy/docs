@@ -16,12 +16,12 @@ The **`remove()`** function in Lua removes the value of the specified index and 
 
 ## Syntax
 
-```pseudo
-table.remove(tableName,pos)
+```lua
+table.remove(tableName, pos)
 
 ```
 
-`remove()` returns the value that was removed from the `tableName`. The `pos` parameter has a default value of `n`, which is the length of the table. This causes the last element of the table to be removed if the `pos` parameter is not provided.
+The `remove()` method returns the value that was removed from `tableName`. If the `pos` parameter is not specified, it defaults to the length of the table (n). This means that the last element of the table will be removed by default if no position is provided.
 
 ## Example
 
@@ -45,8 +45,10 @@ print(table.concat(fruit,", "))
 
 This example results in the following output:
 
-```shell
+```lua
 🍌
 
  🍎, 🍇, 🍓, 🍉
 ```
+
+> **Note:** In Lua, indices start from 1. Therefore the banana was removed from the table as it was at index 2.
