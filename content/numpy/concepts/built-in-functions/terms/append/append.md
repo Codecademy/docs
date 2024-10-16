@@ -52,3 +52,26 @@ This produces the following output:
  [4 5 6]
  [7 8 9]]
 ```
+
+## Codebyte Example
+
+This codebyte example will create two arrays and then append them together, illustrating the append with no axis as well as along one axis.
+
+```codebyte/python
+import numpy as np
+
+nd1 = np.array([[0,0,0,0], [1,1,1,1]])
+print("First array: \n", nd1)
+
+nd2 = np.arange(8).reshape(2, 4)
+print("Second array: \n", nd2)
+
+nd3 = np.append(nd1, nd2)
+print("Appended array with no axis specified:\n", nd3);
+
+nd4 = np.append(nd1, nd2, axis = 0) 
+print("Appended array on axis 0:\n", nd4);
+
+nd5 = np.append(nd1, nd2, axis = 1) 
+print("Appended array on axis 1:\n", nd5);
+```
