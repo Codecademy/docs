@@ -90,23 +90,3 @@ int main() {
   std::cout << "Tip is" << tip;
 }
 ```
-
-## Codebyte Example 2
-
-```codebyte/cpp
-#include <iostream>
-
-int main() {
-  int age = 25;
-  double temperature = 36.6;
-  char initial = 'R';
-  bool isSunny = true;
-
-  std::cout << "Age: " << age << std::endl;
-  std::cout << "Temperature: " << temperature << "°C" << std::endl;
-  std::cout << "Initial: " << initial << std::endl;
-  std::cout << "Is it sunny? " << (isSunny ? "Yes" : "No") << std::endl;
-
-  return 0;
-
-```
