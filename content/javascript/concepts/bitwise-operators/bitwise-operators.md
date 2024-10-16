@@ -29,7 +29,7 @@ JavaScript uses the following bitwise operators:
 
 The `&` operator performs a bitwise AND on two numbers. The result is 1 only where both bits are 1.
 
-### Examples
+### Example
 
 ```js
 console.log(19 & 7); // Output: 3
@@ -43,7 +43,7 @@ console.log(19 & 7); // Output: 3
 
 The `|` operator performs a bitwise OR on two numbers. The result is 1 if either bit is 1.
 
-### Examples
+### Example
 
 ```js
 console.log(19 | 7); // Output: 23
@@ -57,7 +57,7 @@ console.log(19 | 7); // Output: 23
 
 The `^` operator performs a bitwise XOR on two numbers. The result is 1 if the bits are different.
 
-### Examples
+### Example
 
 ```js
 console.log(19 ^ 7); // Output: 20
@@ -71,7 +71,7 @@ console.log(19 ^ 7); // Output: 20
 
 Because integers are stored in two's complement (to change the sign, invert the binary digits and add one), a `~` operation will change the sign of the number and change the absolute value by one.
 
-### Examples
+### Example
 
 ```js
 console.log(~19); // Output: -20
@@ -84,7 +84,7 @@ console.log(~19); // Output: -20
 
 The `<<` operator shifts the bits of a number to the left, pushing zeros in from the right. The leftmost bits fall off and are discarded.
 
-### Examples
+### Example
 
 ```js
 console.log(19 << 3); // Output: 152
@@ -102,7 +102,7 @@ console.log(5 << 2);
 
 The `>>` operator shifts the bits of a number to the right, pushing zeros in from the left. The rightmost bits fall off and are discarded.
 
-### Examples
+### Example
 
 ```js
 console.log(19 >> 3); // Output: 2
@@ -120,7 +120,7 @@ console.log(-20 >> 3); // Output: -3
 
 The `>>>` operator does not preserve the sign. It pushes zeros in from the left, pushing the sign bit out of its leftmost position.
 
-### Examples
+### Example
 
 ```js
 console.log(19 >>> 3); // Output: 2
