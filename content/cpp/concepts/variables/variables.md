@@ -90,8 +90,6 @@ int main() {
   std::cout << "Tip is" << tip;
 }
 ```
-<<<<<<< HEAD
-=======
 
 ## Codebyte Example 2
 
@@ -112,4 +110,3 @@ int main() {
   return 0;
 }
 ```
->>>>>>> 89b96d3f (Fixed Documentation for cpp variables)
