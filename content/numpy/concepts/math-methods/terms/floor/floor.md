@@ -31,7 +31,7 @@ The below example shows different use cases of the `.floor()` method:
 ```py
 import numpy as np
 
-# Case 1: np.floor() returns a single number rounded down
+# Case 1: np.floor() returns a single number rounded down.
 number = 5.64
 rounded_number = np.floor(number)
 print("# Case 1")
