@@ -138,20 +138,27 @@ Console.WriteLine(getInput1(5)); // Output: "I returned false"
 Run the following codebyte example to understand how conditionals work in C#:
 
 ```codebyte/csharp
-#include <iostream>
+using System;
 
-int main() {
-    int number = 10;
+class Program
+{
+    static void Main()
+    {
+        int number = 10;
 
-    // Using if-else conditional statements
-    if (number > 0) {
-        std::cout << "The number is positive." << std::endl;
-    } else if (number < 0) {
-        std::cout << "The number is negative." << std::endl;
-    } else {
-        std::cout << "The number is zero." << std::endl;
+        // Using if-else conditional statements
+        if (number > 0)
+        {
+            Console.WriteLine("The number is positive.");
+        }
+        else if (number < 0)
+        {
+            Console.WriteLine("The number is negative.");
+        }
+        else
+        {
+            Console.WriteLine("The number is zero.");
+        }
     }
-
-    return 0;
 }
 ```
