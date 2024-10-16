@@ -133,11 +133,11 @@ Console.WriteLine(getInput1(10)); // Output: "I returned true"
 Console.WriteLine(getInput1(5)); // Output: "I returned false"
 ```
 
-### Using Conditionals in C++
+## Codebyte Example
 
-Conditionals allow you to execute certain blocks of code based on specific conditions. The most common conditional statements are `if`, `else if`, and `else`. Here’s an example:
+Run the following codebyte example to understand how conditionals work in C#:
 
-```cpp
+```codebyte/csharp
 #include <iostream>
 
 int main() {
