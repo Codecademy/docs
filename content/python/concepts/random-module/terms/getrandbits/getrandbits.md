@@ -1,27 +1,27 @@
 ---
-Title: .getrandbits()' 
-Description: 'Returns a pseudo-random integer with a specified number of bits.' 
-Subjects: 
+Title: '.getrandbits()'
+Description: 'Generates an integer with a specified number of random bits.'
+Subjects:
   - 'Computer Science'
   - 'Data Science'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
+Tags:
   - 'Functions'
   - 'Methods'
   - 'Random'
-CatalogContent: 
+CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/data-science'
 ---
 
-In the Python `random` module, the **`.getrandbits()`** method is used to generate a pseudo-random integer with a specified number of bits
+The Python random module generates an integer with a specified number of random bits using the **`.getrandbits()`** method. This method produces an integer value that is uniformly distributed across the range of possible values that can be represented with the specified number of bits.
 
 ## Syntax
 
 ```pseudo
 random.getrandbits(k)
 ```
-Where `k` is the number of bits in the generated integer. The `k` must be a non-negative integer. The result will range from 0 —2<sup>k</sup> - 1.
+
+- `k`: The number of bits in the generated integer, which must be a non-negative integer. The result will range from 0 to 2<sup>k</sup> - 1.
 
 ## Example
 
@@ -32,17 +32,24 @@ import random
 
 random_bits = random.getrandbits(256)
 
+print(random_bits)
+```
 
-## Codebyte Example (if applicable)
+The above code generates the following output:
 
-In the example below, the `.getrandbits()` method is used to create a 
+```shell
+10657559295629545859200648092091505165182082957984693304497110910582120092295
+```
+
+> **Note:** The output will change every time the code is run because `.getrandbits()` generates a new random integer each time it's called.
+
+## Codebyte Example 
+
+Run the following codebyte to understand how the `.getrandbits()` method works:
 
 ```codebyte/python
 import random 
 
 get_random = random.getrandbits(8)
 print(get_random)
-
-
 ```
-
