@@ -1,6 +1,6 @@
 ---
 Title: '.floor()'
-Description: 'Rounds down a number or an array of numbers to the nearest smallest integer.'
+Description: 'Rounds down a number or an array of numbers to the nearest smallest integer that is less than or equal to the original value.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -11,11 +11,9 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/data-science'
-  - 'paths/data-science-foundations'
 ---
 
-In the NumPy library, the **`.floor()`** method rounds down a number or an array of numbers to the nearest smallest integer. It returns an array without commas separating the elements. To view the output with commas, use [`.repr()`](https://www.codecademy.com/resources/docs/python/built-in-functions/repr).
+In the NumPy library, the **`.floor()`** method rounds down a number or an array of numbers to the nearest smallest integer. It returns an array without commas separating the elements. To view the output with commas, use the [`.repr()`](https://www.codecademy.com/resources/docs/python/built-in-functions/repr) function.
 
 ## Syntax
 
@@ -23,17 +21,17 @@ In the NumPy library, the **`.floor()`** method rounds down a number or an array
 numpy.floor(array, out=None)
 ```
 
-- `array`: Represents either a single number or an array of numbers. Each element, wheather a float or integer, will be rounded down.
-- `out`: Optional parameter that allows specifying an output array where the rounded results will be stored. If not provided, a new array will be created to store the rounded down values.
+- `array`: Represents either a single number or an array of numbers. Each element, weather a float or integer, will be rounded down.
+- `out` (Optional): An output array where the rounded results will be stored. If not provided, a new array will be created to store the rounded-down values.
 
 ## Example
 
 The below example shows different use cases of the `.floor()` method:
 
 ```py
-# Case 1: np.floor() returns a single number rounded down
 import numpy as np
 
+# Case 1: np.floor() returns a single number rounded down
 number = 5.64
 rounded_number = np.floor(number)
 print("# Case 1")
@@ -51,7 +49,6 @@ array_rounded = np.zeros_like(array_unrounded)
 np.floor(array_unrounded, out=array_rounded)
 print("# Case 3")
 print(array_rounded)
-
 ```
 
 The above use cases produce the following output:
