@@ -42,3 +42,10 @@ import torch
 tensor = torch.full((2, 3), 5)
 print(tensor)
 ```
+
+The code above produces the following output:
+
+```shell
+tensor([[5, 5, 5],
+        [5, 5, 5]])
+```
