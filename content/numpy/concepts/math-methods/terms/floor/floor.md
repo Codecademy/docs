@@ -1,6 +1,6 @@
 ---
 Title: '.floor()'
-Description: 'Rounds down a number or an array of numbers to the nearest smallest integer that is less than or equal to the original value.'
+Description: 'Rounds down a number or an array of numbers to the nearest smallest integer.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
