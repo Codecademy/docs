@@ -69,9 +69,9 @@ print("Second array: \n", nd2)
 nd3 = np.append(nd1, nd2)
 print("Appended array with no axis specified:\n", nd3);
 
-nd4 = np.append(nd1, nd2, axis = 0) 
+nd4 = np.append(nd1, nd2, axis = 0)
 print("Appended array on axis 0:\n", nd4);
 
-nd5 = np.append(nd1, nd2, axis = 1) 
+nd5 = np.append(nd1, nd2, axis = 1)
 print("Appended array on axis 1:\n", nd5);
 ```
