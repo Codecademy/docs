@@ -25,10 +25,10 @@ random.getrandbits(k)
 
 ## Example
 
-In the example below, `.getrandbits()` returns an integer with 256 bits: 
+In the example below, `.getrandbits()` returns an integer with 256 bits:
 
-```py 
-import random 
+```py
+import random
 
 random_bits = random.getrandbits(256)
 
@@ -43,12 +43,12 @@ The above code generates the following output:
 
 > **Note:** The output will change every time the code is run because `.getrandbits()` generates a new random integer each time it's called.
 
-## Codebyte Example 
+## Codebyte Example
 
 Run the following codebyte to understand how the `.getrandbits()` method works:
 
 ```codebyte/python
-import random 
+import random
 
 get_random = random.getrandbits(8)
 print(get_random)
