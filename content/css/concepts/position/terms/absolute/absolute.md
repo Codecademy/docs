@@ -41,7 +41,7 @@ This example shows how absolute positioning works when the element is positioned
 
 ```html
 <div class="container">
-    <div class="box">Absolutely Positioned</div>
+  <div class="box">Absolutely Positioned</div>
 </div>
 ```
 
@@ -56,7 +56,7 @@ This example shows how absolute positioning works when the element is positioned
   border-radius: 8px;
   border: 1px solid #dee2e6;
   margin: 100px auto;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .box {
@@ -74,7 +74,7 @@ This example shows how absolute positioning works when the element is positioned
   align-items: center;
   font-size: 18px;
   border-radius: 4px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 ```
 
@@ -84,11 +84,11 @@ Here's what the above example's output would look like:
 
 ## Example 2
 
-In the below example the parent container doesn't have `position: relative` (or any positioning),  so the element with `position: absolute` will stick to the browser window.
+In the below example the parent container doesn't have `position: relative` (or any positioning), so the element with `position: absolute` will stick to the browser window.
 
 ```html
 <div class="container">
-    <div class="box">Absolutely Positioned</div>
+  <div class="box">Absolutely Positioned</div>
 </div>
 ```
 
@@ -101,16 +101,16 @@ In the below example the parent container doesn't have `position: relative` (or 
   height: 300px;
   background-color: #e9ecef;
   border-radius: 8px;
-  border: 1px solid #dee2e6; 
+  border: 1px solid #dee2e6;
   margin: 100px auto;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .box {
   position: absolute;
   top: 0px;
   left: 0px;
-      
+
   /* Optional styles for the example */
   width: 200px;
   height: 120px;
@@ -121,7 +121,7 @@ In the below example the parent container doesn't have `position: relative` (or 
   align-items: center;
   font-size: 18px;
   border-radius: 4px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 ```
 
