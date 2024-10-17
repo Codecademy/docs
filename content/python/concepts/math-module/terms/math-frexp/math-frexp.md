@@ -28,9 +28,9 @@ Use `math.frexp()` to return the mantissa and exponent of 10:
 
 ```py
 import math
-	 
+
 mantissa, exponent = math.frexp(10)
-	
+
 print("Mantissa of 10: ", mantissa)
 print("Exponent of 10: ", exponent)
 ```
