@@ -2,15 +2,14 @@
 Title: 'absolute'
 Description: 'Places an element relative to its nearest positioned ancestor or the browser window.'
 Subjects:
-  - 'Web Development'
   - 'Web Design'
+  - 'Web Development'
 Tags:
-  - 'Positioning'
   - 'CSS'
+  - 'Positioning'
 CatalogContent:
   - 'learn-css'
   - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
 ---
 
 Places an element relative to its nearest positioned ancestor or the browser window. If an element has `position: absolute`; declared, it is removed from the normal document flow, so it does not affect the layout of surrounding elements.
