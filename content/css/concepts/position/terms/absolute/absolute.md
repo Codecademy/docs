@@ -1,5 +1,5 @@
 ---
-Title: 'Absolute'
+Title: 'absolute'
 Description: 'Places an element relative to its nearest positioned ancestor or the browser window.'
 Subjects:
   - 'Web Development'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Places an element relative to its nearest positioned ancestor or the browser window if an element has `position: absolute`  declared then the element is removed from the normal document flow, so it does not affect the layout of surrounding elements.
+Places an element relative to its nearest positioned ancestor or the browser window. If an element has `position: absolute`; declared, it is removed from the normal document flow, so it does not affect the layout of surrounding elements.
 
 ## Syntax
 
@@ -21,7 +21,7 @@ Places an element relative to its nearest positioned ancestor or the browser win
 position: absolute;
 ```
 
-When an element is set to `position: absolute`, you can use the `top`, `right`, `bottom`, and `left` properties to offset it from its normal position:
+When an element is set to `position: absolute`, the `top`, `right`, `bottom`, and `left` properties can be used to offset it from its normal position:
 
 ```css
 selector {
@@ -37,7 +37,7 @@ selector {
 
 ## Example 1
 
-This example shows how absolute positioning works when the element is positioned relative to its parent container. By setting top: 0 and left: 0, the .box sticks to the top-left corner of its parent. You can adjust the top, left, right, or bottom to move it anywhere within the parent.
+This example shows how absolute positioning works when the element is positioned relative to its parent container. By setting `top: 0` and `left: 0`, the `.box` sticks to the top-left corner of its parent. The `top`, `left`, `right`, or `bottom` can be adjusted to move it anywhere within the parent.
 
 ```html
 <div class="container">
@@ -78,7 +78,7 @@ This example shows how absolute positioning works when the element is positioned
 }
 ```
 
-Here's what the above examples look like:
+Here's what the above example's output would look like:
 
 ![Box at top-left of parent](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-position-absolute-ex1.png)
 
