@@ -1,7 +1,6 @@
 ---
 Title: 'math.frexp()'
-Description: 'The function math.frexp() returns mantissa and exponent as a pair (m, e) value of a given number x'
-Codecademy Hub Page: 'https://www.codecademy.com/catalog/language/python'
+Description: 'Returns mantissa and exponent as a pair (m, e) value of a given number x.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -13,35 +12,39 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The function[function](https://www.codecademy.com/resources/docs/python/functions) **`math.frexp()`** in Python returns mantissa and exponent as a pair _(m, e)_ value of a given number _x_. 
+The **`math.frexp()`** [function](https://www.codecademy.com/resources/docs/python/functions) in Python returns mantissa and exponent as a pair _(m, e)_ value of a given number `x`.
 
-##Sytax
+## Syntax
 
 ```pseudo
 math.frexp(x)
 ```
 
-_x_ must be a valid number, or the function will return `TypeError`.
+- `x`: A valid number whose mantissa and exponent are returned.
 
-##Example
+## Example
 
-Use `math.frexp()` to return the mantissa and exponent of 10: 
+Use `math.frexp()` to return the mantissa and exponent of 10:
 
 ```py
 import math
-
-print(math.frexp(10))
+	 
+mantissa, exponent = math.frexp(10)
+	
+print("Mantissa of 10: ", mantissa)
+print("Exponent of 10: ", exponent)
 ```
 
 The above code gives the following output:
 
 ```shell
-(0.625, 4)
+Mantissa of 10:  0.625
+Exponent of 10:  4
 ```
 
-##Codebyte Example
+## Codebyte Example
 
-Run the following codes for better understanding: 
+Run the following codes for better understanding:
 
 ```codebyte/python
 import math
