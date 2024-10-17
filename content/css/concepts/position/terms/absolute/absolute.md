@@ -127,4 +127,4 @@ In the below example the parent container doesn't have `position: relative` (or 
 
 Here's what the above examples look like:
 
-![Box at top-left of window.](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-position-absolute-ex2.png)
+![Box at top-left of the window](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-position-absolute-ex2.png)
