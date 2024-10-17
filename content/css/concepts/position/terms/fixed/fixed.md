@@ -99,7 +99,7 @@ This will render in the browser as shown in the image (below).
 
 Here (above) we see that the nav element has been taken out of the flow of the document and as with our **CSS** example (above), the nav element has been moved 50px from the top (which will move the nav element down 50px) and 100px from the left (which will move the nav element to the right 100px). 
 
->Note: Even though we have set our width property to 100%, the nav element is now out of the normal flow of the document and is overflowing the right side of the viewport.
+> **Note**: Although the `width` property is set to 100%, the nav element is removed from the normal flow of the document and positioned 100px from the left, which may cause it to extend beyond the right side of the viewport depending on the viewport width and the element's total width (including padding and borders).
 
 If the `nav` element had the `position` property set to [`static`](https://www.codecademy.com/resources/docs/css/position/static) (the default value), it would remain in its default position, flush against the top-left corner of the viewport.
 
