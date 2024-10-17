@@ -34,7 +34,7 @@ Parameters accepted:
 
 ## Example
 
-Here is an example of a one dimensional tensor with 10 elements, which is split into 4 chunks. 
+Here is an example of a one dimensional tensor with 6 elements, which is split into 3 chunks. 
 
 ```python
 import torch
