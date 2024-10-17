@@ -1,6 +1,6 @@
 ---
-Title: 'absolute' 
-Description: 'Places an element relative to its nearest positioned ancestor or the browser window. 
+Title: 'Absolute'
+Description: 'Places an element relative to its nearest positioned ancestor or the browser window.
 Subjects:
   - 'Web Design'
   - 'Web Development'
