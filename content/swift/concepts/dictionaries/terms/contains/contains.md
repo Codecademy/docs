@@ -24,7 +24,7 @@ dictionaryInstance.contains(where: { key, value in
 
 ## Example
 
-In the below example, the `fruitStand` dictionary contains key-value pairs for apples, bananas, and oranges. The first `print` statement checks if the dictionary contains the key-value pair "Apples": 12, which is true. The second `print` statement checks for the key-value pair "Grapes": 10, which is false.
+In the below example, the `fruitStand` dictionary contains key-value pairs for apples, bananas, and oranges. The first `print` statement checks if the dictionary contains the key-value pair `"Apples": 12`, which is true. The second `print` statement checks for the key-value pair `"Grapes": 10`, which is false.
 
 ```swift
 var fruitStand = [
