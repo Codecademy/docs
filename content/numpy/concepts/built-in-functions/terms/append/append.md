@@ -55,7 +55,7 @@ This produces the following output:
 
 ## Codebyte Example
 
-This codebyte example will create two arrays and then append them together, illustrating the append with no axis as well as along one axis.
+The following example creates two arrays and demonstrates appending them using `.append()`, both without specifying an axis (resulting in a 1D array) and along specified axes (rows and columns):
 
 ```codebyte/python
 import numpy as np
