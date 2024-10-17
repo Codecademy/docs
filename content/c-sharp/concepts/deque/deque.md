@@ -23,6 +23,8 @@ To create a deque in `C#`, use `LinkedList<T>`, where `T` defines the type of el
 LinkedList<T> deque = new LinkedList<T>();
 ```
 
+- `T`: Specifies the element type.
+
 ### Example
 
 The below example shows how to implement deque using `LinkedList`.
@@ -65,7 +67,7 @@ Output:
 3
 ```
 
-## Implementing using List Class
+## Creating a Deque using List Class
 
 To create a deque in `C#`, use `List<T>`, where `T` defines the type of elements stored.
 
