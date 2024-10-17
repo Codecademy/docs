@@ -90,5 +90,3 @@ print(arr)
 print("\nResult:")
 print(result)
 ```
-
-This example showcases how `.nanprod()` handles NaN values and maintains the dimensions of the output when `keepdims=True`.
