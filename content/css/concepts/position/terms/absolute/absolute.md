@@ -35,12 +35,11 @@ selector {
 - `<length>`: Can be specified in pixels (px), ems (em), rems (rem), percentages (%), or other CSS units.
 
 > Positive values move the element away from the specified edge.
->
-> Negative values move the element towards the specified edge.
+> Negative values move the element toward the specified edge.
 
-## Example 1 : 
+## Example 1
 
-This example shows how absolute positioning works when the element is positioned relative to its parent container. By setting top: 0 and left: 0, the .box sticks to the top-left corner of its parent. You can adjust top, left, right, or bottom to move it anywhere within the parent.
+This example shows how absolute positioning works when the element is positioned relative to its parent container. By setting top: 0 and left: 0, the .box sticks to the top-left corner of its parent. You can adjust the top, left, right, or bottom to move it anywhere within the parent.
 
 ```html
 <div class="container">
@@ -49,36 +48,36 @@ This example shows how absolute positioning works when the element is positioned
 ```
 
 ```css
-    .container {
-      position: relative; /* Important: This makes .box position relative to .container */
+.container {
+  position: relative; /* Important: This makes .box position relative to .container */
 
-      /* Optional styles for the example */
-      width: 500px;
-      height: 300px;
-      background-color: #e9ecef;
-      border-radius: 8px;
-      border: 1px solid #dee2e6; 
-      margin: 100px auto;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
-    }
+  /* Optional styles for the example */
+  width: 500px;
+  height: 300px;
+  background-color: #e9ecef;
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+  margin: 100px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+}
 
-    .box {
-      position: absolute;
-      top: 0px;
-      left: 0px;
+.box {
+  position: absolute;
+  top: 0px;
+  left: 0px;
 
-      /* Optional styles for the example */
-      width: 200px;
-      height: 120px;
-      background-color: #495057;
-      color: #f8f9fa;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 18px;
-      border-radius: 4px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-    }
+  /* Optional styles for the example */
+  width: 200px;
+  height: 120px;
+  background-color: #495057;
+  color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
 ```
 
 Here's what the above examples look like:
@@ -86,7 +85,7 @@ Here's what the above examples look like:
 ![Box at top-left of parent](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-position-absolute-ex1.png)
 
 
-## Example 2 : 
+## Example 2
 
 In the below example the parent container doesn't have `position: relative` (or any positioning),  so the element with `position: absolute` will stick to the browser window.
 
@@ -97,36 +96,36 @@ In the below example the parent container doesn't have `position: relative` (or 
 ```
 
 ```css
-    .container {
-      /* position: relative; */
+.container {
+  /* position: relative; */
 
-      /* Optional styles for the example */
-      width: 500px;
-      height: 300px;
-      background-color: #e9ecef;
-      border-radius: 8px;
-      border: 1px solid #dee2e6; 
-      margin: 100px auto;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
-    }
+  /* Optional styles for the example */
+  width: 500px;
+  height: 300px;
+  background-color: #e9ecef;
+  border-radius: 8px;
+  border: 1px solid #dee2e6; 
+  margin: 100px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+}
 
-    .box {
-      position: absolute;
-      top: 0px;
-      left: 0px;
+.box {
+  position: absolute;
+  top: 0px;
+  left: 0px;
       
-      /* Optional styles for the example */
-      width: 200px;
-      height: 120px;
-      background-color: #495057;
-      color: #f8f9fa;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 18px;
-      border-radius: 4px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-    }
+  /* Optional styles for the example */
+  width: 200px;
+  height: 120px;
+  background-color: #495057;
+  color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
 ```
 
 Here's what the above examples look like:
