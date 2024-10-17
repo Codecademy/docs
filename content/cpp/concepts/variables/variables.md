@@ -1,6 +1,6 @@
 ---
 Title: 'Variables'
-Description: 'A variable refers to a storage location in the computer’s memory that one can set aside to save, retrieve, and manipulate data. Variables are fundamental in programming as they enable dynamic data handling.'
+Description: 'A variable refers to a storage location in the computer’s memory that one can set aside to save, retrieve, and manipulate data.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -80,20 +80,11 @@ char letter = 'A';
 bool isAdmin = true;
 ```
 
-## Codebyte Example 1
+## Example
 
-```codebyte/cpp
-#include <iostream>
+The below example shows the usage of variables:
 
-int main() {
-  double tip = 3.85;
-  std::cout << "Tip is" << tip;
-}
-```
-
-## Codebyte Example 2
-
-```codebyte/cpp
+```cpp
 #include <iostream>
 
 int main() {
@@ -110,4 +101,17 @@ int main() {
   return 0;
 }
 
+```
+
+## Codebyte Example
+
+Run the codebyte to understand how variables work:
+
+```codebyte/cpp
+#include <iostream>
+
+int main() {
+  double tip = 3.85;
+  std::cout << "Tip is" << tip;
+}
 ```
