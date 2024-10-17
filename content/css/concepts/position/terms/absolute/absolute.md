@@ -33,7 +33,7 @@ selector {
 }
 ```
 
-- `<length>`: A measurable property it can have values such as `2px`, `30em`, and `10pt`.
+- A `<length>` is a measurable property it can have values such as `2px`, `30em`, and `10pt`.
 
 ## Example 1
 
