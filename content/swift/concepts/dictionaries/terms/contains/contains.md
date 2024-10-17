@@ -15,7 +15,6 @@ CatalogContent:
 
 The **`.contains`** method returns a Boolean value that indicates whether a dictionary contains a specified key. The method takes a single argument, which is a key. If the dictionary contains the specified key, the method returns `true`; otherwise, it returns `false`.
 
-
 ## Syntax
 
 ```pseudo
@@ -47,6 +46,4 @@ print(fruitStand.contains(where: { key, value in
 
 In the example above, the `fruitStand` dictionary contains key-value pairs for apples, bananas, and oranges. The first `print` statement checks if the dictionary contains the key-value pair "Apples": 12, which is true. The second `print` statement checks for the key-value pair "Grapes": 10, which is false.
 
-
 The `.contains` method is useful for checking the presence of specific key-value pairs in a dictionary.
-

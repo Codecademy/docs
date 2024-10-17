@@ -97,6 +97,7 @@ Deep Learning
 Denoising
 Dependency
 Design
+Deques
 Developer Tools
 Development
 DFS
@@ -268,6 +269,7 @@ Promise
 Programming
 Properties
 Protocols
+Python
 Queries
 Queues
 Quicksort
@@ -304,6 +306,7 @@ Sorting Algorithms
 Span
 Specificity
 Spread
+SQL
 SQLite
 SQL Server
 Stacks
@@ -316,6 +319,7 @@ Structure
 Style
 Subqueries
 Supervised Learning
+Swift
 SwiftUI
 SwiftUI Views
 SwiftUI ViewModifiers
