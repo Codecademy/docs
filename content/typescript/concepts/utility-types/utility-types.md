@@ -18,7 +18,7 @@ TypeScript consists of several predefined generic types known as **Utility Types
 
 ## Partial
 
-Partial is  a utility type that is used to create a type where all properties are marked as optional.
+Partial is a utility type that is used to create a type where all properties are marked as optional.
 
 ### Syntax
 
@@ -70,7 +70,7 @@ interface User {
   age?: number;
 }
 
-const requiredUser: Required<{ name: string; age: number}> = {
+const requiredUser: Required<{ name: string; age: number }> = {
   name: 'John',
   age: 25,
 };
@@ -78,7 +78,7 @@ const requiredUser: Required<{ name: string; age: number}> = {
 
 ## Readonly
 
-`Readonly`  is a utility type that marks all the properties in `T` as `readonly`, preventing any reassignment.
+`Readonly` is a utility type that marks all the properties in `T` as `readonly`, preventing any reassignment.
 
 ### Syntax
 
