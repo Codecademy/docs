@@ -100,7 +100,15 @@ int main() {
 
   return 0;
 }
+```
 
+The code above generates the following output:
+
+```shell
+Age: 25
+Temperature: 36.6°C
+Initial: R
+Is it sunny? Yes
 ```
 
 ## Codebyte Example
