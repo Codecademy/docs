@@ -18,6 +18,8 @@ The **`.scatter_3d()`** method in the ![Plotly Express module](https://www.codec
 
 ## Syntax
 
+The parameters `x`, `y`, and `z` parameters are required and represent either a string, integer, `Series`, or array-like object. Other parameters such as `color`, `symbol`, and `size` are optional and can customize the appearance of the markers. If `data_frame` is missing, a `DataFrame` is constructed using the other arguments.
+
 ```pseudo
 plotly.express.scatter_3d(data_frame=None, x=None, y=None, z=None, color=None, symbol=None, size=None, ...)
 ```
@@ -29,8 +31,6 @@ plotly.express.scatter_3d(data_frame=None, x=None, y=None, z=None, color=None, s
 - `color`: The column name in `data_frame`, `Series` or array_like object specifying marker colors.
 - `symbol`: The column name in `data_frame`, `Series` or array_like object assigning marker symbols.
 - `size`: The column name in `data_frame`, `Series`, or array_like object assigning marker sizes.
-- 
-The parameters `x`, `y`, and `z` parameters are required and represent either a string, integer, `Series`, or array-like object. Other parameters such as `color`, `symbol`, and `size` are optional and can customize the appearance of the markers. If `data_frame` is missing, a `DataFrame` is constructed using the other arguments.
 
 > **Note:** The ellipsis in the syntax (...) indicates additional optional parameters that can be used to customize the plot further.
 
