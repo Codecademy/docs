@@ -101,7 +101,7 @@ Here (above) we see that the nav element has been taken out of the flow of the d
 
 >Note: Even though we have set our width property to 100%, the nav element is now out of the normal flow of the document and is overflowing the right side of the viewport.
 
- If the nav element were to have the **position** property set to a value of [static](https://www.codecademy.com/resources/docs/css/position/static) (default position value), the nav element would be in situ (within its original default position) and it would be flush against the top/left corner of the viewport (as seen in the example below).
+If the `nav` element had the `position` property set to [`static`](https://www.codecademy.com/resources/docs/css/position/static) (the default value), it would remain in its default position, flush against the top-left corner of the viewport.
 
 ![Image of a static nav element in the browser window/viewport.]("https://raw.githubusercontent.com/Codecademy/docs/main/media/"position-static-example.png "CSS for the Fixed property")
 
