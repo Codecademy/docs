@@ -95,7 +95,7 @@ nav.fixed {
 In the code block (above) the nav element with the *class of fixed* has its position property set to **fixed** in [CSS](https://www.codecademy.com/resources/docs/css) as well as its **top** and **left** properties with values of 50px and 100px respectively.
 This will render in the browser as shown in the image (below).
 
-![Image of a fixed nav element in the browser window/viewport.]("https://raw.githubusercontent.com/Codecademy/docs/main/media/"position-fixed-example.png "CSS for the Fixed property")
+![Image of a fixed nav element in the browser window/viewport.](https://raw.githubusercontent.com/Codecademy/docs/main/media/position-fixed-example.png)
 
 Here (above) we see that the nav element has been taken out of the flow of the document and as with our **CSS** example (above), the nav element has been moved 50px from the top (which will move the nav element down 50px) and 100px from the left (which will move the nav element to the right 100px). 
 
