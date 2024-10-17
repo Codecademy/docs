@@ -58,15 +58,13 @@ As with **absolute** and **relative** positioning, once we have positioned our *
   <head>
     <meta lang="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fixed Postion</title>
+    <title>Fixed Position</title>
     <link rel="stylesheet" href="style.css" type="text/css">
-
   </head>
   <body>
     <nav class="fixed">
       <h1 class="content">Hello World!</h1>
     </nav>
-  </nav>
   </body>    
 </html>
 ```
