@@ -19,7 +19,7 @@ A **variable** refers to a storage location in the computer’s memory that one 
 To create a variable, the type must be specified and a value must be assigned to it:
 
 ```pseudo
-type name = value;
+data_Type name = value;
 ```
 
 So to create a variable called `score` of type `int` and assign it the value 0:
@@ -35,7 +35,7 @@ The `std::cout` object is used together with the `<<` operator to display variab
 To combine both text and a variable, separate them with the `<<` operator:
 
 ```cpp
-int myAge = 30;
+int my_Age = 30;
 
 std::cout << "I am " << myAge << " years old.";
 ```
@@ -52,7 +52,8 @@ I am 30 years old.
 #include <iostream>
 
 int main() {
-  double tip = 3.85;
-  std::cout << "Tip is" << tip;
+  float tip = 3.85;
+  std::cout << "Tip is"<<" " << tip;
+return 0;
 }
 ```
