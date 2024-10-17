@@ -85,7 +85,6 @@ Here's what the above examples look like:
 
 ![Box at top-left of parent](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-position-absolute-ex1.png)
 
-
 ## Example 2
 
 In the below example the parent container doesn't have `position: relative` (or any positioning),  so the element with `position: absolute` will stick to the browser window.
