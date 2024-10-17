@@ -82,3 +82,28 @@ The output of the above code will be:
 ```shell
 Predicted class: 1
 ```
+
+## Codebyte Example
+
+This codebyte example demonstrates the use of a Support Vector Classifier (SVC) with a
+linear kernel on a synthetic two-class dataset and predicts the class of a new data point:
+
+```codebyte/python
+from sklearn.svm import SVC
+from sklearn.datasets import make_blobs
+
+# Generate sample data with two classes
+X, y = make_blobs(n_samples=500, centers=2, random_state=0, cluster_std=0.6)
+
+# Define and train the SVC model
+model = SVC(kernel='linear', C=1.0)
+model.fit(X, y)
+
+# New data point to predict
+new_data = [[5, 1.5]]
+
+# Predict the class of the new data
+prediction = model.predict(new_data)
+
+print("Predicted class:", prediction[0])
+```
