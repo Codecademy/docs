@@ -64,12 +64,12 @@ The above use cases produce the following output:
 
 ## Codebyte Example
 
+Run the following codebyte example to understand how the `.floor()` method works:
+
 ```codebyte/python
 import numpy as np
 
 unrounded_list = [23.89, 54.843, 17.478]
-
 rounded_list = np.floor(unrounded_list)
-
 print(rounded_list)
 ```
