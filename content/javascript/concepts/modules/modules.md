@@ -99,7 +99,7 @@ export { function1 as newName1, function2 as newName2 };
 import { newName1, newName2 } from './module.js';
 ```
 
-When exporting from module.js, new names (newName1, newName2) are assigned to functions. The new names must be used when importing and referencing them.
+When exporting from module.js, new names (`newName1`, `newName2`) are assigned to functions, the new names must be used when importing and referencing them.
 
 ### Rename in the import file (the main file)
 
