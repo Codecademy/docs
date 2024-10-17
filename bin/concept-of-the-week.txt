@@ -1,1 +1,1 @@
-content/mysql/concepts/keywords/keywords.md
+content/java/concepts/priorityqueue/priorityqueue.md
