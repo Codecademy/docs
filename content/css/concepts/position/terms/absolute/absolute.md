@@ -1,7 +1,7 @@
 ---
 Title: 'absolute' 
 Description: 'Places an element relative to its nearest positioned ancestor or the browser window. 
-Subjects: 
+Subjects:
   - 'Web Design'
   - 'Web Development'
 Tags:
