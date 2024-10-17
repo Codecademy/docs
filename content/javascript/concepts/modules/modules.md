@@ -13,7 +13,7 @@ CatalogContent:
 
 Modules split large programs into separate files based on tasks, containing related functions, variables, or classes for easier management and reuse.
 
-Suppose a file named **greetPerson.js** contains the following code:
+Suppose a file named `greetPerson.js` contains the following code:
 
 ```js
 // Exporting a function
