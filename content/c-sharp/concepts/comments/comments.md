@@ -15,34 +15,37 @@ CatalogContent:
 
 A **comment** is a piece of text within a program that is not executed. It can be used to provide additional information to aid in understanding the code.
 
-## Why Use Comments?
+### Single-line Comments
 
-1. **Documentation**: Help document what specific parts of the code do, making it easier for others (or yourself) to understand when revisiting the code later.
-2. **Debugging**: Temporarily disable code without removing it, making debugging easier.
-3. **Clarity**: Improve the readability of the code, especially in complex sections.
-
-## Single-line Comments
-
-A **single-line comment** is a comment that occupies a single line. It starts with two forward slashes (`//`), and everything after those slashes on that line is ignored by the compiler.
-
-### Example
+For single-line comments, the compiler ignores any text after two consecutive forward slashes (`//`) on the same line.
 
 ```cs
-// This is a single-line comment
-Console.WriteLine("This code will execute."); // Inline comment explaining the code
-
+// Comment goes here
+executing code // Comment goes here
 ```
 
 ### Multi-line Comments
 
-A **multi-line comment** is used for comments that span multiple lines. It begins with `/*` and ends with `*/`. The compiler ignores everything in between.
+Multi-line comments begin with `/*` and end with `*/`. The compiler ignores any text in between.
 
 ```cs
 /*
-This is a multi-line comment.
-It can span multiple lines.
+This is all commented out.
+None of it is going to run!
 */
-Console.WriteLine("This code will also execute.");
+```
+
+### Example
+
+The following examples show various comment styles:
+
+```cs
+// This line will denote a comment in C-sharp.
+Console.WriteLine("Hello World!"); // This is a comment.
+/*
+This is a multi-line
+comment.
+*/
 ```
 
 ### XML Comments
@@ -54,9 +57,7 @@ Console.WriteLine("This code will also execute.");
 The following is a single-line XML comment, which uses three forward slashes (`///`):
 
 ```cs
-/**
-XML Comments go here
-*/
+/// XML Comment goes here
 ```
 
 Multi-line XML comments are similar to regular multi-line comments, except that an extra asterisk `*` is used in the opening:
@@ -76,17 +77,4 @@ XML tags embedded in XML comments are used to signal a specific functionality of
 ///  This class performs an important function.
 /// </summary>
 public class MyClass {}
-```
-
-```cs
-// Another XML comment example
-/// <summary>
-/// This method calculates the sum of two integers.
-/// </summary>
-/// <param name="a">The first integer</param>
-/// <param name="b">The second integer</param>
-/// <returns>The sum of a and b</returns>
-public int Add(int a, int b) {
-    return a + b;
-}
 ```
