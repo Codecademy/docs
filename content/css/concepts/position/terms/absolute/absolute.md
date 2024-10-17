@@ -33,10 +33,7 @@ selector {
 }
 ```
 
-- `<length>`: Can be specified in pixels (px), ems (em), rems (rem), percentages (%), or other CSS units.
-
-> Positive values move the element away from the specified edge.
-> Negative values move the element toward the specified edge.
+- `<length>`: A measurable property it can have values such as `2px`, `30em`, and `10pt`.
 
 ## Example 1
 
