@@ -88,7 +88,7 @@ ls -l
 To change the directory `cd` command is used.
 
 ```bash
-// To go to a specific directory 
+// To go to a specific directory
 cd directoryPath
 
 // To go to the Previous Directory
