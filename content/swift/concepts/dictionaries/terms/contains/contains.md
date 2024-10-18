@@ -14,24 +14,12 @@ CatalogContent:
 
 The **`.contains`** method returns a Boolean value that indicates whether a dictionary contains a specified key. The method takes a single argument, which is a key. If the dictionary contains the specified key, the method returns `true` otherwise, it returns `false`.
 
-## Example
+## Syntax
 
-In the below example, the `fruitStand` dictionary contains key-value pairs for apples, bananas, and oranges.
-
-```swift
-var fruitStand = [
-  "Apples": 12,
-  "Bananas": 20,
-  "Oranges": 17
-]
-
-print(fruitStand.contains(where: { key, value in
-  return key == "Apples" && value == 12
-}))
-
-print(fruitStand.contains(where: { key, value in
-  return key == "Grapes" && value == 10
-}))
+```pseudo
+dictionaryInstance.contains(where: { key, value in
+  return key == "key" && value == "value"
+})
 ```
 
 This will output:
