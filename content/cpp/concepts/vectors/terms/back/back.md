@@ -47,7 +47,7 @@ The last element in the vector after modification is: 80
 
 ## Codebyte Example
 
-This codebyte example shows that how a last element in the vector in accessed and modified using the `back()` method.
+This codebyte example shows how a last element in the vector is accessed and modified using the `back()` method:
 
 ```codebyte/cpp
 #include <iostream>
