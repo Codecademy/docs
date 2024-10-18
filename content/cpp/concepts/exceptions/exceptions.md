@@ -1,6 +1,6 @@
 ---
 Title: 'Exceptions'
-Description: 'In C++, an Exception is a runtime error that occurs during the execution of a program. If not handled, it stops the program execution.'
+Description: 'Exception is a runtime error that occurs during the execution of a program. If not handled, it stops the program execution.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C++, an **`Exception`** is a runtime error that occurs during the execution of a program. If not handled, it stops the program execution. The computer will create an `exception`, and if the code does not have a way to handle it, then the program will stop executing due to the error.
+In C++, an **exception** is a runtime error that occurs during the execution of a program. If not handled, it stops the program execution. The computer will create an `exception`, and if the code does not have a way to handle it, then the program will stop executing due to the error.
 
 ## Catching an Exception
 
