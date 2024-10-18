@@ -14,14 +14,6 @@ CatalogContent:
 
 The **`.contains`** method returns a Boolean value that indicates whether a dictionary contains a specified key. The method takes a single argument, which is a key. If the dictionary contains the specified key, the method returns `true` otherwise, it returns `false`.
 
-## Syntax
-
-```pseudo
-dictionaryInstance.contains(where: { key, value in
-  return key == "key" && value == "value"
-})
-```
-
 ## Example
 
 In the below example, the `fruitStand` dictionary contains key-value pairs for apples, bananas, and oranges.
