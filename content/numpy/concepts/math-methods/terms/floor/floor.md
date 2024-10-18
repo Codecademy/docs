@@ -21,8 +21,8 @@ In the NumPy library, the **`.floor()`** method rounds down a number or an array
 numpy.floor(array, out=None)
 ```
 
-- `array`: Represents either a single number or an array of numbers. Each element, weather a float or integer, will be rounded down.
-- `out` (Optional): An output array where the rounded results will be stored. If not provided, a new array will be created to store the rounded-down values.
+- `array`: Represents a single number or an array of numbers. Each element, whether a float or integer, will be rounded down.
+- `out` (Optional): An output array where the rounded results will be stored. A new array will be created to store the rounded-down values if not provided.
 
 ## Example
 
