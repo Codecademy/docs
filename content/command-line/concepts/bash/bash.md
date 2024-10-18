@@ -43,3 +43,110 @@ Apple macOS featured Bash as the default from 2003 with OS X Panther (version 10
 ### Windows
 
 Bash is not the default shell for Windows operating systems, but it can be enabled through the Windows Subsystem for Linux (WSL). This runs a Linux environment without the need for a [virtual machine](https://www.codecademy.com/resources/docs/general/virtual-machines).
+
+### Bash Terminal Commands
+
+The basic terminal commands for Bash allow the user to navigate and manipulate directories and files. It is important to note the symbol `$` at the start of the line. The `$` indicates that Bash is ready to execute a new command. Some circumstances, such as giving a command without arguments, may prevent Bash from running new commands.
+
+```shell
+// A new line has appeared, but this line does not have a $ at the start as this command needs arguments
+$ cat
+
+// Add arguments
+
+// To return to the command line, use ctrl-c.
+$
+```
+
+### Navigation Commands
+
+In Bash, **navigation commands** are used to move through directories and the file system efficiently.
+
+#### Print Working Directory Command
+
+To get the current directory use `pwd` command.
+
+```shell
+pwd
+```
+
+#### List Command
+
+To list the contents of the current folder, `ls` command can be used.
+
+```shell
+// To get the list of contents of the current folder
+ls
+
+// -l argument gives a list with more information
+ls -l
+```
+
+> **Note:** If `ls` is used with a `-a` argument, it shows hidden files.
+
+#### Change Directory
+
+To change the directory `cd` command is used.
+
+```shell
+// To go to a specific directory
+cd directoryPath
+
+// To go to the Previous Directory
+cd -
+
+// To go up one directory level
+cd ..
+```
+
+### Directory Management
+
+In Bash, **directory management** is used for creating, deleting, moving, copying, and manipulating directories within the file system.
+
+#### Make a New Directory
+
+To create a new directory `mkdir` command is used with the new directory name as an argument.
+
+```shell
+mkdir newDirectoryName
+```
+
+#### Remove a directory
+
+To delete a directory `rmdir` command can be used with the directory's name given as an argument.
+
+```shell
+rmdir directoryName
+```
+
+### File Management
+
+In Bash, **file management** is used for creating, deleting, moving, copying, and manipulating files within the file system.
+
+#### Create a new file
+
+To create a new file `touch` command can be used with new file name as an argument.
+
+```shell
+touch filename.txt
+```
+
+#### Remove a file
+
+To delete a file `rm` command can be used with the file name or file path given as an argument.
+
+```shell
+rm filename.txt
+```
+
+#### Rename or move a file
+
+To rename a file or change file location `mv` command can be used with arguments.
+
+```shell
+// original name is used as the first argument, followed by the new filename as the second argument.
+$ mv oldFileName.txt newFileName.txt
+
+// current path of the file is given as the first argument, followed by the new file path as the second argument 
+$ mv sourceDirectory/filename.txt destinationDirectory/filename.txt
+```
