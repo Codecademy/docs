@@ -1,6 +1,6 @@
 ---
 Title: 'Modules'
-Description: 'Modules help keep code organized by putting related code, like functions, classes, and variables, into separate files. This makes it easier to manage and reuse in larger projects.'
+Description: 'Modules organize code by separating related functions, classes, and variables into distinct files, making management and reuse easier in larger projects.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -11,9 +11,9 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Modules split large programs into separate files based on tasks, containing related functions, variables, or classes for easier management and reuse.
+Modules divide large programs into separate files based on tasks, grouping related functions, variables, or classes for easier management and reuse."
 
-Suppose a file named `greetPerson.js` contains the following code:
+Suppose a file named **greetPerson.js** contains the following code:
 
 ```js
 // Exporting a function
