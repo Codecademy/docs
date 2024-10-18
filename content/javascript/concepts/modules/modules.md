@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Modules divide large programs into separate files based on tasks, grouping related functions, variables, or classes for easier management and reuse."
+Modules divide large programs into separate files based on tasks, grouping related functions, variables, or classes for easier management and reuse.
 
 Suppose a file named **greetPerson.js** contains the following code:
 
@@ -85,7 +85,7 @@ Here, both the `name` variable and the `difference()` function from the **module
 
 ## Renaming Imports and Exports
 
-To prevent naming conflicts, rename variables or functions when exporting or importing. This ensures the program uses the correct values from the intended file.
+To prevent naming conflicts, it is important to rename variables or functions when exporting or importing. This ensures the program uses the correct values from the intended file.
 
 ### Rename in the export file (the module)
 
