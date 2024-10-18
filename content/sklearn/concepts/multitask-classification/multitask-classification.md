@@ -65,3 +65,28 @@ Predicted labels (Quality, Demand): [[0 1]]
 ```
 
 In the above output, `0` indicates _low quality_ and `1` indicates _high demand_.
+
+## Codebyte Example
+
+The following codebyte example trains a Random Forest classifier for multilabel classification on synthetic data and
+predicts the quality and demand for a new product.
+
+```codebyte/python
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.datasets import make_multilabel_classification
+
+# Generate example data for multitask classification
+X, y = make_multilabel_classification(n_samples=100, n_features=10, n_classes=2, n_labels=1, random_state=42)
+
+# Create and train the model
+model = RandomForestClassifier(random_state=42)
+model.fit(X, y)
+
+# New product data to predict
+new_product = [[0.6, 1.5, -0.2, 0.9, 2.0, -1.1, 1.3, 0.6, 1.2, -0.8]]
+
+# Predict the quality and demand for the new product
+predictions = model.predict(new_product)
+
+print("Predicted labels (Quality, Demand):", predictions)
+```
