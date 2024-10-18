@@ -12,23 +12,21 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/data-science'
-  - 'paths/data-science-foundations'
 ---
 
-In NumPy, the **`.nanprod()`** function calculates the product of array elements over a specified axis, treating `NaN` (Not a Number) values as 1. This function is particularly useful when working with arrays that may contain missing or undefined values represented as `NaN`.
+In NumPy, the **`.nanprod()`** function calculates the product of array elements over a specified axis, treating `NaN` (Not a Number) values as 1. This is useful when working with arrays that contain missing or undefined values represented as `NaN`.
 
 ## Syntax
 
 ```pseudo
-numpy.nanprod(a, axis=None, dtype=None, out=None, keepdims=False)
+numpy.nanprod(a, axis=None, dtype=None, out=None, keepdims=<no value>)
 ```
 
 - `a`: An array for which the product is calculated.
-- `axis`: An optional parameter used as the axis along which the product is computed. If not specified, the product of all elements is calculated.
-- `dtype` : An optional parameter used as the data type of the output. If not specified, then the data type the input is used.
+- `axis`: An optional parameter used to specify the axis along which the product is computed. If not specified, the product of all elements in the array is calculated.
+- `dtype` : An optional parameter used to specify the data type of the result. If not specified, it defaults to the data type of the input array, or the default platform integer if the input contains integers.
 - `out`: An optional parameter specifying the array to store the result. If not provided, a new array is created.
-- `keepdims`: An optional parameter if set to True, the axes that are reduced are left in the result as dimensions with size one.
+- `keepdims`: An optional parameter. If set to `True`, the reduced axes are retained in the result as dimensions with size one, allowing the result to broadcast correctly.
 
 ## Example 1
 
