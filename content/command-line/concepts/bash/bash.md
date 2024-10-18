@@ -51,12 +51,6 @@ The basic terminal commands for Bash allow the user to navigate and manipulate d
 ```shell
 // A new line has appeared, but this line does not have a $ at the start as this command needs arguments
 $ cat
-
-// Add arguments
-
-// To return to the command line, use ctrl-c.
-
-$
 ```
 
 ### Navigation Commands
