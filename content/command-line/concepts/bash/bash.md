@@ -44,282 +44,104 @@ Apple macOS featured Bash as the default from 2003 with OS X Panther (version 10
 
 Bash is not the default shell for Windows operating systems, but it can be enabled through the Windows Subsystem for Linux (WSL). This runs a Linux environment without the need for a [virtual machine](https://www.codecademy.com/resources/docs/general/virtual-machines).
 
+### Bash Terminal Commands
 
+The basic terminal commands for Bash allow the user to navigate and manipulate directories and files. It is important to note the symbol `$` at the start of the line. The `$` indicates that Bash is ready to execute a new command. Some circumstances, such as giving a command without arguments, may prevent Bash from running new commands.
 
-## **Bash Terminal Commands**
-
-The basic terminal commands for Bash allow the user to navigate and manipulate directories and files.
-
-It is important to note the symbol '$' at the start of line. The '$' indicates that Bash is ready to execute a new command.
-Some circumstances, such as giving a command without arguments, may prevent Bash from running new commands. For example:
-
-
-```bash
-user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject/docs/content/command-line/concepts/bash (main)
-
+```shell
+// A new line has appeared, but this line does not have a $ at the start as this command needs arguments
 $ cat
 
-a new line has appeared, but this line does not have a $ at the start.
+// Add arguments
 
-a new line has appeared, but this line does not have a $ at the start.
-
-instead, it repeats everything.
-
-instead, it repeats everything.
-
-this is because the `cat` command above has been entered without any arguments; as a result the command cannot complete
-
-this is because the `cat` command above has been entered without any arguments; as a result the command cannot complete
-
-to return to the command line, use ctrl-c.
-to return to the command line, use ctrl-c.
-
-user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject/docs/content/command-line/concepts/bash (main)
+// To return to the command line, use ctrl-c.
 
 $
 ```
   
-### **Navigation Commands**  
+### Navigation Commands  
 
-#### Print Working Directory 
+#### Print Working Directory Command
 
-The current directory can be located with `pwd`.
+To get the current directory use `pwd` command.  
 
-```bash
-user@DESKTOP-16ES0TO MINGW64 /e
-$ cd coding/docProject/docs
-
-user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject/docs
-$ pwd
-/e/coding/docProject/docs
+```shell
+pwd
 ```
 
-#### List
+#### List Command
 
-To list the contents of the current folder, `ls` can be used. 
+To list the contents of the current folder, `ls` command can be used. 
 
-```bash
-user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject/docs (BashCommands)
-$ ls
-CONTRIBUTING.md  content/         jest.config.js  tsconfig.json
-README.md        content.test.ts  media/          yarn.lock
-bin/             documentation/   package.json
+```shell
+// To get the list of contents of the current folder
+ls
+
+// -l argument gives a list with more information
+ls -l
 ```
 
-Giving the `-l` argument gives a list with more information.
-
-```bash
-user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject/docs (BashCommands)
-$ ls -l
-total 362
--rw-r--r-- 1 user 197121  13648 Jul 22 15:16 CONTRIBUTING.md
--rw-r--r-- 1 user 197121   3786 Jul 22 15:16 README.md
-drwxr-xr-x 1 user 197121      0 Jul 22 15:16 bin/
-drwxr-xr-x 1 user 197121      0 Jul 22 15:16 content/
--rw-r--r-- 1 user 197121   4661 Jul 22 15:16 content.test.ts
-drwxr-xr-x 1 user 197121      0 Jul 22 15:16 documentation/
--rw-r--r-- 1 user 197121    195 Jul 22 15:16 jest.config.js
-drwxr-xr-x 1 user 197121      0 Jul 22 15:16 media/
--rw-r--r-- 1 user 197121   1304 Jul 22 15:16 package.json
--rw-r--r-- 1 user 197121    396 Jul 22 15:16 tsconfig.json
--rw-r--r-- 1 user 197121 189173 Jul 22 15:16 yarn.lock
-```
-
-
-If `ls` is used with a `-a` argument, it shows hidden files.  
-
+> **Note:** If `ls` is used with a `-a` argument, it shows hidden files.
 
 #### Change Directory
 
-The directory can be changed by writing `cd` followed by an argument.
-
-To access a directory directly, its filepath can be given as an argument:
+To change the directory `cd` command is used.
 
 ```bash
-$ cd directoryPath
+// To go to a specific directory 
+cd directoryPath
+
+// To go to the Previous Directory
+cd -
+
+// To go up one directory level
+cd ..
 ```
 
-```bash
-user@DESKTOP-16ES0TO MINGW64 ~
-$ cd e:/
-
-user@DESKTOP-16ES0TO MINGW64 /e
-$ cd coding
-
-user@DESKTOP-16ES0TO MINGW64 /e/coding
-$ pwd
-/e/coding
-
-user@DESKTOP-16ES0TO MINGW64 /e/coding
-$ cd docProject/Docs/content
-
-user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject/Docs/content (BashCommands)
-$ pwd
-/e/coding/docProject/Docs/content
-```
-
-
-The previously accessed directory can be returned to by giving `-` as an argument:
-
-```bash
-$ cd -
- ```
-
-
-```bash
-user@DESKTOP-16ES0TO MINGW64 /e/coding
-$ cd docProject/Docs/content
-
-user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject/Docs/content (BashCommands)
-$ pwd
-/e/coding/docProject/Docs/content
-
-user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject/Docs/content (BashCommands)
-$ cd -
-/e/coding
-```
-
-Giving a `..` argument allows the user to go up one directory level:
-
-```bash
-$ cd ..
-```
-
-```bash
-user@DESKTOP-16ES0TO MINGW64 /e/coding
-$ cd ..
-
-user@DESKTOP-16ES0TO MINGW64 /e
-$ pwd
-/e
-```
-
-
-### **Directory Management**
+### Directory Management
 
 #### Make a New Directory
 
-A new directory can be created in the current folder with the command `mkdir`, by giving the new directory's name as an argument:
+To create a new directory `mkdir` command is used with the new directory name as an argument
 
-```bash$ 
-$ mkdir newDirectoryName
-```
-
-```bash
-user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject (master)
-$ ls
-docs/
-
-user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject (master)
-$ mkdir newDirectory
-
-user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject (master)
-$ ls
-docs/  newDirectory/
+```shell 
+mkdir newDirectoryName
 ```
 
 #### Remove a directory
 
-Directories can be deleted with `rmdir` with the target directory's name given as an argument.
+To delete a directory `rmdir` command can be used with the directory's name given as an argument
 
-```bash
-$ rmdir directoryName
-```
-
-```bash
-user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject (master)
-$ ls
-docs/  newDirectory/
-
-user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject (master)
-$ rmdir newDirectory
-
-user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject (master)
-$ ls
-docs/
+```shell
+rmdir directoryName
 ```
 
 ### File Management
 
 #### Create a new file
 
-New files can be made with `touch` by giving the new file's name as an argument.
+To create a new file `touch` command can be used with new file name as an argument.
 
-```bash
-$ touch filename.txt
-```
-
-```bash
-user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject (master)
-$ touch newfile.txt
-
-user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject (master)
-$ ls
-docs/  newfile.txt
+```shell
+touch filename.txt
 ```
 
 #### Remove a file
 
-We can delete files by using the `rm` command with the target file's name or filepath given as an argument.
-```bash
+To delete a file `rm` command can be used with the file name or file path given as an argument.
+
+```shell
 rm filename.txt
-```
-
-```bash
-user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject (master)
-$ ls
-docs/  newfile.txt
-
-user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject (master)
-$ rm newfile.txt
-
-user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject (master)
-$ ls
-docs/
 ```
 
 #### Rename or move a file
 
-`mv` can be used to rename a file by giving the original name as the first argument, followed by the new filename as the second argument.
+To rename a file or change file location `mv` command can be used with arguments
 
-```bash
+```shell
+// original name is used as the first argument, followed by the new filename as the second argument.
 $ mv oldFileName.txt newFileName.txt
-```
 
-```bash
-user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject (master)
-$ ls
-docs/  oldfile.txt
-
-user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject (master)
-$ mv oldfile.txt newName.txt
-
-user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject (master)
-$ ls
-docs/  newName.txt
-```
-
-`mv` can also move a file to a different directory, by giving the file name as the first argument and the new filepath as the second argument. 
-```bash
+// current path of the file is given as the first argument, followed by the new file path as the second argument 
 $ mv sourceDirectory/filename.txt destinationDirectory/filename.txt
-```
-
-```bash
-user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject (master)
-$ ls
-docs/  newName.txt
-
-user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject (master)
-$ mv newName.txt e:/newFolder/newName.txt
-
-user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject (master)
-$ ls
-docs/
-
-user@DESKTOP-16ES0TO MINGW64 /e/coding/docProject (master)
-$ cd e:/newFolder
-
-user@DESKTOP-16ES0TO MINGW64 /e/newFolder
-$ ls
-newName.txt
 ```
