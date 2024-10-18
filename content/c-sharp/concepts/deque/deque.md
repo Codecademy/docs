@@ -145,7 +145,7 @@ public class Example
     // Display the remaining element
     foreach (var item in deque)
     {
-      Console.WriteLine(item); // Output: 10
+      Console.WriteLine(item);
     }
   }
 }
