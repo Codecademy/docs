@@ -1,1 +1,1 @@
-content/python/concepts/classes/classes.md
+content/java/concepts/priorityqueue/priorityqueue.md

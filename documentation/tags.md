@@ -56,9 +56,11 @@ Charts
 Chatbots
 Cryptocurrency
 Classes
+Classification
 Cloud Computing
 Code Editors
 Conditionals
+Collations
 Collections
 Colors
 Combinators
@@ -95,6 +97,7 @@ Deep Learning
 Denoising
 Dependency
 Design
+Deques
 Developer Tools
 Development
 DFS
@@ -137,6 +140,7 @@ Flask
 Flexbox
 Flutter
 Fonts
+Footnotes
 For
 ForEach
 Foreign Key
@@ -218,6 +222,8 @@ Methods
 Middleware
 Models
 Modules
+Multitask Learning
+MultiTaskLasso
 MySQL
 Naive Bayes
 Natural Language Processing
@@ -263,6 +269,7 @@ Promise
 Programming
 Properties
 Protocols
+Python
 Queries
 Queues
 Quicksort
@@ -299,6 +306,7 @@ Sorting Algorithms
 Span
 Specificity
 Spread
+SQL
 SQLite
 SQL Server
 Stacks
@@ -310,6 +318,8 @@ Strings
 Structure
 Style
 Subqueries
+Supervised Learning
+Swift
 SwiftUI
 SwiftUI Views
 SwiftUI ViewModifiers
@@ -323,6 +333,7 @@ Technical Interviews
 Templates
 TensorFlow
 Text-To-Image
+Text Processing
 Threads
 Tidyr
 Time
@@ -343,6 +354,7 @@ Union
 Unicode
 Units
 Unix
+Unsupervised Learning
 URL
 UX
 Validation
