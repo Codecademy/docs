@@ -55,6 +55,8 @@ $ cat
 
 ### Navigation Commands
 
+In Bash, **navigation commands** are used to move through directories and the file system efficiently.
+
 #### Print Working Directory Command
 
 To get the current directory use `pwd` command.
@@ -94,9 +96,11 @@ cd ..
 
 ### Directory Management
 
+In Bash, **directory management** is used for creating, deleting, moving, copying, and manipulating directories within the file system.
+
 #### Make a New Directory
 
-To create a new directory `mkdir` command is used with the new directory name as an argument
+To create a new directory `mkdir` command is used with the new directory name as an argument.
 
 ```shell
 mkdir newDirectoryName
@@ -104,13 +108,15 @@ mkdir newDirectoryName
 
 #### Remove a directory
 
-To delete a directory `rmdir` command can be used with the directory's name given as an argument
+To delete a directory `rmdir` command can be used with the directory's name given as an argument.
 
 ```shell
 rmdir directoryName
 ```
 
 ### File Management
+
+In Bash, **file management** is used for creating, deleting, moving, copying, and manipulating files within the file system.
 
 #### Create a new file
 
@@ -130,7 +136,7 @@ rm filename.txt
 
 #### Rename or move a file
 
-To rename a file or change file location `mv` command can be used with arguments
+To rename a file or change file location `mv` command can be used with arguments.
 
 ```shell
 // original name is used as the first argument, followed by the new filename as the second argument.
