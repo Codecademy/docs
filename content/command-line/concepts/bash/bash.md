@@ -58,12 +58,12 @@ $ cat
 
 $
 ```
-  
-### Navigation Commands  
+
+### Navigation Commands
 
 #### Print Working Directory Command
 
-To get the current directory use `pwd` command.  
+To get the current directory use `pwd` command.
 
 ```shell
 pwd
