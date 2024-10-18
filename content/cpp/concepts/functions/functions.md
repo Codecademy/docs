@@ -183,3 +183,32 @@ This will output:
 When add function is called with integer parameters: 20
 When add function is called with string parameters: HelloWorld!
 ```
+
+## Recursion
+
+Recursion is a technique that allows a function to call itself. In C++, the function that calls the same function is called a recursive funciton.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int sum(int m){
+  if (m > 0){
+    return m + sum(m-1);
+    } else{
+    return 0;
+    }
+}
+
+int main(){
+  int result = sum(5);
+  cout << result;
+  return 0;
+}
+```
+
+This will output the below result.
+
+```shell
+15
+```
