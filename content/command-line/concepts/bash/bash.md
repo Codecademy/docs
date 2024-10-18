@@ -71,7 +71,7 @@ pwd
 
 #### List Command
 
-To list the contents of the current folder, `ls` command can be used. 
+To list the contents of the current folder, `ls` command can be used.
 
 ```shell
 // To get the list of contents of the current folder
@@ -104,7 +104,7 @@ cd ..
 
 To create a new directory `mkdir` command is used with the new directory name as an argument
 
-```shell 
+```shell
 mkdir newDirectoryName
 ```
 
