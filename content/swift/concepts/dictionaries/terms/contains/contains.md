@@ -1,5 +1,5 @@
 ---
-Title: '.contains'
+Title: 'contains'
 Description: 'A Boolean value that indicates whether a dictionary contains a specified key.'
 Subjects:
   - 'Mobile Development'
@@ -20,6 +20,26 @@ The **`.contains`** method returns a Boolean value that indicates whether a dict
 dictionaryInstance.contains(where: { key, value in
   return key == "key" && value == "value"
 })
+```
+
+## Example
+
+In the below example, the `fruitStand` dictionary contains key-value pairs for apples, bananas, and oranges.
+
+```swift
+var fruitStand = [
+  "Apples": 12,
+  "Bananas": 20,
+  "Oranges": 17
+]
+
+print(fruitStand.contains(where: { key, value in
+  return key == "Apples" && value == 12
+}))
+
+print(fruitStand.contains(where: { key, value in
+  return key == "Grapes" && value == 10
+}))
 ```
 
 This will output:
