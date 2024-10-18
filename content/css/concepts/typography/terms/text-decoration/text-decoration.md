@@ -20,7 +20,7 @@ The line can also be styled to be wavy, dotted or have a customer colour.
 ## Syntax
 
 ```css
-text-decoration: <text-align-value>;
+text-decoration: <text-decoration-value>;
 ```
 
 The `text-decoration-value` can be the following:
