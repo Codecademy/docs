@@ -1,6 +1,6 @@
 ---
 Title: '.back()'
-Description: 'Provides the reference to the last element in the vector.'
+Description: 'Used to access the last element in a vector.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -14,21 +14,21 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The C++ `**.back()**` method is used to access the last element in a vector. It allows you to view or modify the element without removing it from the vector. This method is primarily used to access the most recently added element.
+The C++ **`.back()`** method is used to access the last element in a vector. It views or modifies the element without removing it from the vector. This method is primarily used to access the most recently added element.
 
 ## Syntax
 
 ```pseudo
 vectorName.back();
 ```
-To use vectors, it is necessary to `#include` the `vector` library as the vector is a part of STL library.
 
 ## Example
-The below example shows the use of `.back()` method in c++ vectors, here `numbers` is a vector which has 5 elements in it and it displays the last element in the vector with the help of the `.back()` method, then the last element in the vector is modifies and the modified value is displayed. 
+
+The below example shows the use of `.back()` method in c++ vectors, here `numbers` is a vector which has 5 elements in it and it displays the last element in the vector with the help of the `.back()` method, then the last element in the vector is modifies and the modified value is displayed.
 
 ```cpp
 #include <iostream>
-#include<vector> 
+#include<vector>
 //This is compulsory to include vectors while using vectors.
 
 int main(){
@@ -39,7 +39,9 @@ int main(){
   return 0;
   }
 ```
-The above code outputs:
+
+The output of the above code:
+
 ```shell
 The last element in the vector is: 60
 The last element in the vector after modification is: 80
@@ -54,9 +56,9 @@ This codebyte example shows how a last element in the vector is accessed and mod
 #include <vector>
 int main() {
   std::vector<int> numbers = {100, 90, 80, 70, 60};
-  std::cout << numbers.back() << std::endl; 
+  std::cout << numbers.back() << std::endl;
   numbers.back() = 10;
-  std::cout << numbers.back() << std::endl; 
+  std::cout << numbers.back() << std::endl;
   return 0;
 }
 ```
