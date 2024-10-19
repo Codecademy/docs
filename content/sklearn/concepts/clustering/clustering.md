@@ -40,21 +40,20 @@ Several methods can be used to evaluate clusters, including visual inspection, S
 Sklearn provides the `KMeans` class for implementing clustering.
 
 ```psuedo
-KMeans(n_clusters=8, init=’k-means++’, n_init=10, max_iter=300, tol=0.0001, precompute_distances=’auto’, verbose=0, random_state=None, copy_x=True, n_jobs=1, algorithm=’auto’) 
+KMeans(n_clusters=8, *, init='k-means++', n_init= 'auto', max_iter=300, tol=0.0001, verbose=0, random_state=None, copy_x=True, algorithm=’lloyd’) 
 ```
 
 `KMeans` has the following parameters:
 
-- `n_clusters` (int, default=8): The number of clusters.
-- `init` (array, default=k-means++): It chooses the method of initialization. If `k-means++`, then a random point is choosen for the initial centroid and for the remaining centroids each data point is weighed according to the distance squared from the initial centroid. If `random`, then random points are choosen for the initial centroid. If `array`, then specific set of points are used as initial centroids.
-- `n_init` (int, default=auto): The number of times the algorithm will run with different initial centroid positions. If `1`, the algorithm runs only once with one random initialization of centroids.
+- `n_clusters` (int, default=8): The number of clusters to form, and hence, the number of centroids to generate.
+- `init` (str, array-like, default='k-means++'): Chooses the method for initializing centroids. If `'k-means++'`, the algorithm selects the first centroid randomly, then selects subsequent centroids with a probability proportional to the square of the distance from the nearest existing centroid. If `'random'`, the centroids are chosen randomly from the data points. If an array is provided, it must specify the initial centroids.
+- `n_init` (int, default='auto'): The number of times the KMeans algorithm is run with different centroid seeds. The final output will be the best result based on the lowest inertia (sum of squared distances). In `'auto'`, this is set to 1 if `init='k-means++'` and 10 if `init='random'`.
 - `max_iter` (int, default=300): Maximum number of iterations of the KMeans algorithm for a single run.
-- `tol` (float, default:1e-4): The tolerance for stopping the algorithm when the change in centroids is smaller than this value between iterations.
+- `tol` (float, default:1e-4): The relative tolerance for convergence. If the change in inertia between consecutive iterations is smaller than this value, the algorithm will stop.
 - `verbose` (int, default=0): Controls the amount of output information printed during the K-Means fitting process, useful for debugging. Higher values show more details.
-- `random_state` (int, default=None): Determines random number generation for centroid initialization.
-- `copy_x` (bool, default=True): If `True`, then original data is copied before processing and if `false`, then it modifies the input data by subtracting and then adding the data mean, can save memory.
-- `algorithm` (default=lloyd): If `lloyd`, then the traditional algorithm is used, and if `elkan`, then triangle inequality is used on datasets with well-defined 
-clusters. 
+- `random_state` (int, default=None): Determines random number generation for centroid initialization. It is used for reproducibility, so setting this parameter ensures that running the algorithm multiple times on the same data yields the same results.
+- `copy_x` (bool, default=True): If `True`, the input data is copied before processing. If `False`, the input data is modified in place to avoid copying, which can save memory but might alter the original data.
+- `algorithm` (str, default='lloyd'): Specifies the algorithm to use for computing the clusters. `'lloyd'` is the standard EM-style algorithm for KMeans. `'elkan'` uses the triangle inequality to speed up convergence, especially for datasets with well-defined clusters and lower-dimensional spaces.
 
 ## Example
 
@@ -88,6 +87,8 @@ clusters = pd.unique(y)
 # Print the unique clusters
 print("Clusters:", clusters)
 ```
+
+The code above produces the following output:
 
 ```shell
 Index(['sepal length (cm)', 'sepal width (cm)', 'petal length (cm)',
