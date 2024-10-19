@@ -1,18 +1,17 @@
-
 ---
 Title: '.hstack()'
 Description: 'The `.hastack(tensors)` is a function used to concetante two or more tensors along horizontal axis.'
 Subjects:
- - 'AI'
- - 'Data Science'
+  - 'AI'
+  - 'Data Science'
 Tags:
- - 'AI'
- - 'Data Types'
- - 'Deep Learning'
- - 'Functions'
+  - 'AI'
+  - 'Data Types'
+  - 'Deep Learning'
+  - 'Functions'
 CatalogContent:
- - 'intro-to-py-torch-and-neural-networks'
- - 'paths/data-science'
+  - 'intro-to-py-torch-and-neural-networks'
+  - 'paths/data-science'
 ---
 
 In PyTorch, **`.hastack()`** (short for horizontal stack)is a function used to concatenate two or more tensors along the horizontal axis (axis1). This operation is useful for combining data with the same number of rows but differing in the number of columns. It acts similarly to numpy's 'np.hastack()' and is particulary handy when you're working with data that needs to be concatenated side by side before being fed into a model for training or inference.
