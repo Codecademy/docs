@@ -57,7 +57,7 @@ KMeans(n_clusters=8, *, init='k-means++', n_init= 'auto', max_iter=300, tol=0.00
 
 ## Example
 
-This example uses the Iris dataset to form the clusters.
+This example uses the Iris dataset to form the clusters:
 
 ```py
 #import all the necessary libraries
