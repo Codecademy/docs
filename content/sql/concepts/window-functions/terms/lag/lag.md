@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-The **`LAG()`** window function facilitates access to previous rows based on the offset argument. It can be particularly useful when a comparison of a previous value is necessary without the use of a self join. There is a similarity to the `LEAD()` function with the difference being the accessible rows. `LEAD()` accesses subsequent rows while `LAG()` accesses previous rows.
+The **`LAG()`** window function facilitates access to previous rows based on the offset argument. It can be particularly useful when a comparison of a previous value is necessary without using self-join. There is a similarity to the `LEAD()` function, with the difference being the accessible rows. `LEAD()` accesses subsequent rows, while `LAG()` accesses previous rows.
 
 ## Syntax
 
@@ -34,7 +34,7 @@ OVER (
 
 ## Examples
 
-The examples below uses the table Sales which contains orders of different products that are sold on a particular date and their price that they are sold to. 
+The examples below use the table Sales, which contains orders of different products that are sold on a particular date and their price that they are sold to.
 
 Sales Table
 
@@ -63,7 +63,7 @@ FROM
     sales;
 ```
 
-The output is a table with a new column `previous_order_date`, which contains previous entries of `order_date` in the table when ordered by `order_date`. The offset is set to 1 by default and NULL is displayed when offset is out of range.
+The output is a table with a new column `previous_order_date`, which contains previous entries of `order_date` in the table when ordered by `order_date`. The offset is set to 1 by default, and NULL is displayed when the offset is out of range.
 
 Output
 
@@ -93,7 +93,7 @@ FROM
     sales;
 ```
 
-The output is a table that features a new column `previously_sold_price`, which holds the sold price of the product on the previous sold date. The first record of every `product_id` is NULL because a default was not specified as the previous date is out of range for first sale of the product.
+The output is a table that features a new column `previously_sold_price`, which holds the sold price of the product on the previous sold date. The first record of every `product_id` is NULL because a default was not specified as the previous date is out of range for the first sale of the product.
 
 Output
 
@@ -123,7 +123,7 @@ FROM
   
 ```
 
-This outputs column `previous_sold_product`, which contains the previous sold product for each sale ordered by `order_date`. As there is no previous sale for first entry, the default is set to "First Sale".
+This outputs column `previous_sold_product`, which contains the previous sold product for each sale ordered by `order_date`. As there is no previous sale for the first entry, the default is set to "First Sale".
 
 #### Output
 
