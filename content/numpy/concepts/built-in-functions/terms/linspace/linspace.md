@@ -69,7 +69,7 @@ This results in the following output:
 
 ## Codebyte Example
 
-The following codebyte example illustrates the usage of the `linspace()` function with different inputs and flags.
+Run the following codebyte example to understand the usage of the `linspace()` function with different inputs and flags:
 
 ```codebyte/python
 import numpy as np
