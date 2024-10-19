@@ -88,7 +88,7 @@ The two primary attributes are:
 - An `href` that contains the filepath to the external source.
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <title>Links in HTML</title>

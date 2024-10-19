@@ -31,7 +31,7 @@ The `<main>` can be placed anywhere inside of the `<body>`:
 Below is an example of the `<main>` tag being used to display a list of notable lines from works by Shakespeare:
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head> </head>
   <body>

@@ -35,7 +35,7 @@ The `<dl>` tag also supports nesting `<dt>`-`<dd>` pairs inside a [`<div>`](http
 In the example below, this technique is used inside the `<dl>` tag. Additionally, some default styling is in place to highlight the list itself:
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <!-- Styles are omitted in this example. -->

@@ -21,8 +21,8 @@ The `@font-face` rule allows us to use custom fonts instead of just using "web-s
 
 ```css
 @font-face {
-  font-family: /* Font name */ ;
-  src: url(' ') /* Link to font */;
+  font-family:   /* Font name *;
+  src: url(' ') /* Link to font ;
 }
 ```
 

@@ -51,8 +51,8 @@ const value =
   Math.random() > 0.5
     ? false
     : Math.random() > 0.5
-    ? 'Leela'
-    : ['Durandal', 'Thoth'];
+      ? 'Leela'
+      : ['Durandal', 'Thoth'];
 
 value.toString(); // Ok: exists on all three
 

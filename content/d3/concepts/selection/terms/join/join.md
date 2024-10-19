@@ -35,7 +35,7 @@ selection.join(
 Here's a simple `HTML` code that demonstrates the use of `.join()`:
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />

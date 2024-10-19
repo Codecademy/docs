@@ -23,7 +23,7 @@ binascii.b2a_uu(data, *, backtick=false)
 
 - `data`: A bytes object containing the binary data to be encoded.
 - `*`: This indicates that any arguments following it must be passed using keyword syntax.
-- `backtick`: When set to True, it replaces zero bytes in the UUEncoded data with a backtick character `` (`) ``.
+- `backtick`: When set to True, it replaces zero bytes in the UUEncoded data with a backtick character ``(`)``.
 
 ## Example
 

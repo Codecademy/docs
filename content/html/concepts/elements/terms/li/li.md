@@ -26,7 +26,7 @@ Content is required to be between the opening and closing `<li>` tags. It can ho
 ## Example
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head> </head>
   <body>

@@ -31,7 +31,7 @@ In order to render correctly, the `<dd>` tag must be placed inside a `<dl>` tag.
 In the example below, the `<dd>` is used (and highlighted with some styling):
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <!-- Styles are omitted in this example. -->

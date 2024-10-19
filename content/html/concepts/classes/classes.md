@@ -31,7 +31,7 @@ A class selector is a name preceded by a period (`.`).
 Below is some markup with an outer `wrapper-div`, containing a level 1 `heading` and three level 2 `sub-heading`s. The styling for the `heading` will be unique. However, all elements with the `sub-heading` class name received the same styling.
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <style>

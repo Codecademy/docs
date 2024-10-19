@@ -26,7 +26,7 @@ The paragraph element is enclosed by an opening `<p>` tag and a closing `</p>` t
 ## Example
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <body>
     <div style="width: 50%; margin: auto; border: 2px solid black;">

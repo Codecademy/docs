@@ -38,7 +38,7 @@ selection.transition([name])
 Consider an HTML document with an SVG element containing a circle with the specified ID `circle`. Here's a simple HTML structure with D3.js code to create the transition animation:
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />

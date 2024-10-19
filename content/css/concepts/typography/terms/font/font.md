@@ -47,7 +47,9 @@ Setting an `h1` elements font to Georgia italic, size of 10px, and line height o
 
 ```css
 h1 {
-  font: italic 10px/40px Georgia, sans-serif;
+  font:
+    italic 10px/40px Georgia,
+    sans-serif;
 }
 ```
 

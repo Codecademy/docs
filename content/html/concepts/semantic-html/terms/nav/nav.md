@@ -33,7 +33,7 @@ It is important to note that `<nav>` can be used inside of the `<header>` elemen
 Take a look at the navigation bar at the top of this Codecademy Docs page. It should look something like this in semantic HTML:
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head> </head>
   <body>

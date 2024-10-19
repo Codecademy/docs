@@ -85,7 +85,9 @@ Position multiple images:
 .hero {
   background-image: url('squirrel'), url('forrest.png');
   background-repeat: no-repeat;
-  background-position: top left, bottom right;
+  background-position:
+    top left,
+    bottom right;
 }
 ```
 

@@ -31,7 +31,7 @@ The `<summary>` element can only be used as a first child element of the `<detai
 ## Example
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head> </head>
   <body>

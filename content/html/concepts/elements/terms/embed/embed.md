@@ -40,7 +40,7 @@ The `<embed>`element is self-closing and accepts at least four properties:
 The following example showcases the `<embed>` element:
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <title>Learning about HTML</title>

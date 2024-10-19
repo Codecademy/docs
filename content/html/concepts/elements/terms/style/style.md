@@ -37,7 +37,7 @@ The following attributes are available to the `<style>` element:
 The following example showcases the `<style>` element applying CSS rules to elements in the document:
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <style>

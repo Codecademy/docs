@@ -80,7 +80,7 @@ Here are the official themes built or reviewed by Bootstrap's creators: https://
 In the example below, Bootstrap is linked into an HTML document via CDN and used with [jQuery](https://www.codecademy.com/resources/docs/javascript/jquery) to provide a button for positive actions.
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />

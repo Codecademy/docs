@@ -44,7 +44,7 @@ Some of the commonly used built-in easing functions include:
 Consider an HTML document with an SVG element containing a circle with the specified ID `myCircle`. Here's a simple HTML structure with D3.js code to create the transition animation:
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />

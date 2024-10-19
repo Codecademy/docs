@@ -55,7 +55,7 @@ In the samples below, there are 3 `div` elements with classes `divA`, `divB`, an
 - `divC` is a child of `divB` (and a grand-child of `divA`)
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <link rel="stylesheet" href="./csspractice.css" />

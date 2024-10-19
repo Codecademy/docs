@@ -30,7 +30,7 @@ selection.data(data[, key]);
 Consider an HTML file with an empty list of items:
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <head>
   <h1>D3 Example Page</h1>
 </head>

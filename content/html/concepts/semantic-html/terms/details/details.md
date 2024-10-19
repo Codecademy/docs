@@ -36,7 +36,7 @@ The `<details>` element must contain a `<summary>` element which will provide a 
 ## Example
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head> </head>
   <body>

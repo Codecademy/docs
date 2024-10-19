@@ -50,7 +50,7 @@ There are many HTML entities. The following are some common ones:
 | Ampersand `&`         | `&amp;`    | `&#38;`   | `&#x00026;` |
 | Quote `"`             | `&quot;`   | `&#34;`   | `&#x00022;` |
 | Apostrophe `'`        | `&apos;`   | `&#39;`   | `&#x00027;` |
-| Copyright `©`         | `&copy;`   | `&#169;`  | `&#x000A9;` |
+| Copyright `©`        | `&copy;`   | `&#169;`  | `&#x000A9;` |
 | Degree `°`            | `&deg;`    | `&#176;`  | `&#x000B0;` |
 | Euro `€`              | `&euro;`   | `&#8364;` | `&#x020AC;` |
 | Bullet character `•`  | `&bullet;` | `&#8226;` | `&#x02022;` |

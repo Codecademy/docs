@@ -41,7 +41,7 @@ In the following code, we created a `<section>` element to encapsulate the code.
 Suppose the current page wants to add two sections:
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head> </head>
   <body>

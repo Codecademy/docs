@@ -39,7 +39,7 @@ For example:
 Suppose the current page wants to include an image and a image caption:
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head> </head>
   <body>

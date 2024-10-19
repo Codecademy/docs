@@ -38,7 +38,7 @@ It is best practice that the `<link>` element is always defined inside the [`<he
 The following example shows how the `<link>` element can also be used to make icons for the page, including Apple [PWA](https://www.codecademy.com/resources/docs/general/progressive-web-application) home screen icons:
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <title>Links in HTML</title>

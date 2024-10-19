@@ -29,7 +29,7 @@ selection.append(type);
 Here's a simple `HTML` code that demonstrates the use of `.append()`:
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />

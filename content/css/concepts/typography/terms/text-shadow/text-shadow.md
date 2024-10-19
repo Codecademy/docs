@@ -59,6 +59,8 @@ Adding multiple text-shadows.
 ```css
 h1 {
   /* x-offset | y-offset | blur-radius | color */
-  text-shadow: 2px 4px 10px #00e9ec, 3px 6px 5px green;
+  text-shadow:
+    2px 4px 10px #00e9ec,
+    3px 6px 5px green;
 }
 ```

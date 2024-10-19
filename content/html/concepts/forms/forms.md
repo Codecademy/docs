@@ -31,7 +31,7 @@ In HTML, **forms** are used for gathering and sending user input to an external 
 The following is an example of an HTML form that features `<input>` elements:
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head> </head>
   <body>

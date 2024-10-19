@@ -31,7 +31,7 @@ A class selector is a name preceded by a period (`.`).
 Below is some markup with the classes `header-1` and `P1` and `P2`. Elements with the `header-1`, `P1` and `P2` class names receive different styling.
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <style>
