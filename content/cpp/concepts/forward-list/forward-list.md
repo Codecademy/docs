@@ -1,6 +1,6 @@
 ---
 Title: 'Forward List'
-Description: 'Like vectors and arrays, a forward list is a data structure capable of storing a sequential list of elements in C++.'
+Description: 'Forward List is a sequence container that allows efficient insertions and deletions from the front of the list.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -12,62 +12,68 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Like vectors and arrays, a **forward list** is a lightweight data structure capable of storing a sequential list of elements in C++. The main difference between an array and a forward list is that an array is index based, while a forward list is not.
+A **`Forward List`** is a sequence container that allows efficient insertions and deletions from the front of the list. Forward lists work by storing a memory address to the first element of the list and having each element store data and a pointer to the memory location of the next element. Compared to arrays, forward lists offer quicker insertions and deletions at the start of the list, at the cost of direct access to elements by index.
 
-A forward list works by storing a memory address to the first element of the list, and by having each element store data and a pointer to the memory location of the next element. Compared to arrays, forward lists offers quicker insertions and deletions at the start of the list, at the cost of direct access to elements by index.
+## Syntax
 
-## Creating a Forward List
-
-To use `foward_list`, the header `<forward_list>` must be included.
-
-```cpp
+```pseudo
 #include <forward_list>
+
+std::forward_list<type> forwardlist;
 ```
 
-To create an empty `forward_list`, all that is needed is the data type. Here is an example using the `int` data type:
+> **Note:** To use `foward_list`, the header `<forward_list>` must be included.
+
+## Example 1
+
+The following example shows how to create a forward list and iterate over it.
 
 ```cpp
-std::forward_list<int> list;
-```
+#include <iostream>
+#include <forward_list>
 
-The list can also be initialized with values:
-
-```cpp
-std::forward_list<int> list = {1,2,3,4,5};
-```
-
-## Iterating a Forward List
-
-Unlike arrays, forward lists do not support direct access to elements through indices. This means that in order to access a certain element, all elements before that element must be iterated over. To iterate through a forward list, an iterator must be used:
-
-```cpp
-std::forward_list<int> list = {1,2,3,4,5};
-
-std::cout << "Output:" << std::endl;
-
-for(auto it = list.begin(); it != list.end(); ++it) {
-  std::cout << *it << " ";
+int main() {
+  std::forward_list<int> list = {1,2,3,4,5};
+  
+  std::cout << "Output:" << std::endl;
+  
+  for(auto it = list.begin(); it != list.end(); ++it) {
+    std::cout << *it << " ";
+  }
+  std::cout << std::endl;
 }
-std::cout << std::endl;
 ```
+
+The output of the above program will be:
 
 ```shell
 Output:
 1 2 3 4 5
 ```
 
-A simpler and more modern approach introduced in C++11 can also be used to iterate through a forward list:
+> **Note:** Unlike arrays, forward lists do not support direct access to elements through indices so to access a certain element, all elements before that element must be iterated over.
+
+## Example 2
+
+The example below shows how to iterate a forward list using a more modern approach introduced in C++11.
 
 ```cpp
-std::forward_list<int> list = {1,2,3,4,5};
+#include <iostream>
+#include <forward_list>
 
-std::cout << "Output:" << std::endl;
-
-for (const auto& element : list) {
-  std::cout << element << " ";
+int main() {
+  std::forward_list<int> list = {1,2,3,4,5};
+  
+  std::cout << "Output:" << std::endl;
+  
+  for (const auto& element : list) {
+    std::cout << element << " ";
+  }
+  std::cout << std::endl;
 }
-std::cout << std::endl;
 ```
+
+The output of the above program will be:
 
 ```shell
 Output:
@@ -76,7 +82,7 @@ Output:
 
 ## Useful Functions
 
-Forward lists includes a number of useful functions to access and modify the list:
+Forward lists include a number of useful functions to access and modify the list:
 
 `.empty()` returns true (1) if the list is empty, false (0) otherwise.
 
