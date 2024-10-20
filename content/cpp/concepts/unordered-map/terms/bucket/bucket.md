@@ -3,7 +3,6 @@ Title: 'bucket'
 Description: 'Returns the bucket number where an element is located in a C++ unordered map.'
 Subjects:
 - 'C++'
-- 'Data Structures'
 Tags:
 - 'unordered-map'
 - 'hashing'
