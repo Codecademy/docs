@@ -89,3 +89,52 @@ The output would be:
 Today is the greatest
 Day I've ever known
 ```
+
+## Appending to a File
+
+In some cases, you may want to append text to an existing file instead of overwriting its content. To do this, you can open the file in append mode using the std::ios::app flag with `ofstream` or `fstream`. Here's an example:
+
+```cpp
+#include <iostream>
+#include <fstream>
+
+int main() {
+  // Open the file in append mode
+  std::ofstream MyFile("journal.txt", std::ios::app);
+
+  // Append text to the file
+  MyFile << "\nSmashing Pumpkins lyrics\n";
+
+  // Close the file
+  MyFile.close();
+}
+```
+
+The output would be:
+
+```shell
+Smashing Pumpkins lyrics
+```
+
+## Checking if a File Exists
+
+Before opening a file, it is a good practice to check if the file exists. This can prevent issues like reading a file that doesn't exist. You can use the .is_open() function for this:
+
+```cpp
+#include <iostream>
+#include <fstream>
+
+int main() {
+  std::ifstream MyFile("journal.txt");
+
+  // Check if the file exists
+  if (MyFile.is_open()) {
+    std::cout << "File opened successfully.\n";
+  } else {
+    std::cout << "File does not exist.\n";
+  }
+
+  // Close the file
+  MyFile.close();
+}
+```
