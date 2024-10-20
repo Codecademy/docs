@@ -1,6 +1,6 @@
 ---
 Title: 'bucket'
-Description: 'A function in C++ unordered_map that returns the bucket number for a given element, helping to inspect how elements are distributed in buckets.'
+Description: 'Returns the bucket number where an element is located in a C++ unordered map.'
 Subjects:
 - 'C++'
 - 'Data Structures'
@@ -12,7 +12,7 @@ CatalogContent:
 - 'cpp-for-programmers'
 ---
 
-**`bucket()`** is a member function of the C++ `unordered_map` container that returns the bucket number where a specified element resides. This function helps in understanding how elements are distributed within the hash table underlying the unordered map. Each element is assigned to a specific bucket based on its hash value.
+The **`bucket()`** function is part of the C++ `unordered_map` container. It returns the bucket number where a specified element is located within the unordered map. Each element in the unordered map is assigned to a bucket based on its hash value, and this function helps to determine which bucket a given key belongs to.
 
 ## Syntax
 
