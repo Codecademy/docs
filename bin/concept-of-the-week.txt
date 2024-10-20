@@ -1,1 +1,1 @@
-content/java/concepts/priorityqueue/priorityqueue.md
+content/general/concepts/jit-compilation/jit-compilation.md
