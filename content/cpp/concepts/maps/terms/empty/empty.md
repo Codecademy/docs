@@ -4,7 +4,7 @@ Description: 'Checks to see if an STL map object is empty (contains elements) or
 Subjects: 
   - 'Computer Science'
 Tags:
-  - 'C++'
+  - 'Cpp'
   - 'Data Structures'
   - 'Documentation'
   - 'Functions'
