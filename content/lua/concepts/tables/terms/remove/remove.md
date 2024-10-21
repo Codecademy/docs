@@ -45,7 +45,7 @@ print(table.concat(fruit,", "))
 
 This example results in the following output:
 
-```lua
+```shell
 🍌
 
  🍎, 🍇, 🍓, 🍉
