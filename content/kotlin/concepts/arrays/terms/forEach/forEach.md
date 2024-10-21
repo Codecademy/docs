@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Kotlin, the **`.forEach()`** method iterates over elements in a collection (Array, List, or Set) and performs the provided action on each element. It does not modify the original collection and does not return a new collection, making it useful for operations that have side effects like printing or logging.
+In Kotlin, the **`.forEach()`** method iterates over elements in a collection (Array, List, or Set) and performs the provided action on each element. It does not modify the original collection or return a new one, making it useful for operations with side effects like printing or logging.
 
 ## Syntax
 
@@ -29,11 +29,11 @@ fun <T> Array<T>.forEach(action: (T) -> Unit)
 ```
 
 - `T`: The type of the elements in the collection (or array).
-- `action`: A function that takes an element of type T and performs an action.
+- `action`: A function that takes an element of type `T` and performs an action on it.
 
-## Codebyte Example
+## Example
 
-The following example demonstrates the usage of the `.forEach()` function:
+The following example demonstrates the usage of the `.forEach()` method:
 
 ```kotlin
 fun main() {
