@@ -16,7 +16,7 @@ The **`remove()`** function in Lua removes the value of the specified index and 
 
 ## Syntax
 
-```lua
+```pseudo
 table.remove(tableName, pos)
 
 ```
