@@ -23,6 +23,41 @@ mapName.upper_bound(key);
 
 `key`: The key whose upper bound is needed.
 
+## Example 1
+
+Imagine you have a list of students sorted by their roll numbers, and you want to find the first student who has a roll number greater than a certain number.
+
+```cpp
+#include <iostream>
+#include <map>
+
+int main() {
+    // Map with roll numbers as keys and student names as values
+    std::map<int, std::string> students;
+
+    students[101] = "John";
+    students[103] = "Alice";
+    students[105] = "Bob";
+
+    // Find the first student with roll number greater than 102
+    auto it = students.upper_bound(102);
+
+    if (it != students.end()) {
+        std::cout << "The student with roll number greater than 102 is: " << it->second << " (Roll No: " << it->first << ")" << std::endl;
+    } else {
+        std::cout << "No student found with roll number greater than 102." << std::endl;
+    }
+
+    return 0;
+}
+```
+
+The map contains roll numbers 101, 103, and 105. Calling **`.upper_bound(102)`** returns the next higher roll number, 103 (for Alice). If no higher number exists, it reaches the end of the map.
+
+```pseudo
+The student with roll number greater than 102 is: Alice (Roll No: 103)
+```
+
 ## Codebyte Example
 
 The following codebyte example demonstrates how **`.upper_bound()`** works by returning iterators to keys greater than 11, 13, and 17 in a map of integers.
