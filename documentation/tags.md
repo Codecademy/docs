@@ -49,7 +49,7 @@ Browser Compatibility
 Browsers
 Bubble Sort
 Buttons
-C++
+Cpp
 Calendar
 Catch
 Characters
