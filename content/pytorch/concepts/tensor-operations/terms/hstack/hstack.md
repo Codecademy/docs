@@ -24,16 +24,14 @@ The basic syntax of `.hstack()` in PyTorch is as falows:
 torch.hstack(tensors) -> Tensor
 ```
 
-Where:
+- `tensors`: A sequence of tensors with the same number of rows. All tensors must have the same number of dimensions and the same size in all dimensions except for the dimension corresponding to the horizontal stacking.
+The function returns a new tensor containing the horizontal concatenation of the input tensors.
 
-  - `tensors`: A sequence of tensors with the same number of rows. All tensors must have the same number of dimensions and the same size in all dimensions except for the dimension corresponding to the horizontal stacking.
- - The function returns a new tensor containing the horizontal concatenation of the input tensors.
-
-# Exemple
+# Example
 
 Here's an example demonstrating how `.hstack()` can be used to concatenate tensors:
 
-```python
+```py
 import torch
 
 # Create two tensors
@@ -44,16 +42,13 @@ b = torch.tensor([[5, 6],[7, 8]])
 c = torch.hstack((a, b))
 
 print(c)
-
 ```
-Output:
+
+The above code generates the output as follows:
 
 ```
 tensor([[1, 2, 5, 6],
-     [3, 4, 7, 8]])
-
+        [3, 4, 7, 8]])
 ```
-This example demonstrates concatenating two 2x2 tensors horizontally resulting in 2x4 tensor.
 
-
-
+This example demonstrates concatenating two *2x2* tensors horizontally, resulting in *2x4* tensor.
