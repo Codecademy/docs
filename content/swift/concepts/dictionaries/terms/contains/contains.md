@@ -1,47 +1,50 @@
 ---
-Title: '.contains()'
-Description: 'Returns a Boolean value indicating whether the sequence contains the given element.'
+Title: 'contains'
+Description: 'A Boolean value that indicates whether a dictionary contains a specified key.'
 Subjects:
-  - 'Computer Science'
   - 'Mobile Development'
+  - 'Computer Science'
 Tags:
   - 'Dictionary'
   - 'Properties'
-  - 'Arrays'
 CatalogContent:
   - 'learn-swift'
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.contains()`** method returns `true` if an array contains a specified element, and `false` otherwise.
+The **`.contains`** method returns a Boolean value that indicates whether a dictionary contains a specified key. The method takes a single argument, which is a key. If the dictionary contains the specified key, the method returns `true` otherwise, it returns `false`.
 
 ## Syntax
 
 ```pseudo
-dictionaryInstance.contains(element)
+dictionaryInstance.contains(where: { key, value in
+  return key == "key" && value == "value"
+})
 ```
-
-- `element`: The item to check for in the array. It returns `true` if the item is present, and `false` otherwise.
-
-To check if a dictionary contains a specific key-value pair, the following is used:
-
-```pseudo
-dictionaryInstance.contains{check}
-```
-
-- `check`: A closure that takes a key-value pair `(key, value)` and returns `true` if the pair satisfies the specified condition, and `false` otherwise.
 
 ## Example
 
-In the example below, `.contains()` is checking if a particular actor is in an array storing a movie’s cast:
+In the below example, the `fruitStand` dictionary contains key-value pairs for apples, bananas, and oranges.
 
 ```swift
-let cast = ["Vivien", "Marlon", "Kim", "Karl"]
-print(cast.contains("Marlon"))
+var fruitStand = [
+  "Apples": 12,
+  "Bananas": 20,
+  "Oranges": 17
+]
+
+print(fruitStand.contains(where: { key, value in
+  return key == "Apples" && value == 12
+}))
+
+print(fruitStand.contains(where: { key, value in
+  return key == "Grapes" && value == 10
+}))
 ```
 
-This example results in the following output:
+This will output:
 
 ```shell
 true
+false
 ```
