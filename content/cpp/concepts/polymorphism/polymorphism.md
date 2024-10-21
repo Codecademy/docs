@@ -1,6 +1,6 @@
 ---
 Title: 'Polymorphism'
-Description: 'Polymorphism allows a single function or operator to behave differently based on the context'
+Description: 'Polymorphism allows a single function or operator to behave differently based on the context.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
