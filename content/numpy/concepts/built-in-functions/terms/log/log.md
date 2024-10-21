@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `.log()` function returns an element-wise natural logarithm of an array.
+The **`.log()`** function returns an element-wise natural logarithm of an array.
 
 ## Syntax
 
@@ -50,7 +50,7 @@ This produces the following output:
 
 ## Codebyte Example
 
-The following examples cretes different arrays and demonstrates the results of executing `.log()` to each array.
+The following codebyte creates different arrays and demonstrates applying `np.log()` to each array, calculating the natural logarithm of all elements:
 
 ```codebyte/python
 import numpy as np
@@ -75,25 +75,4 @@ print("\nHigher-dimensional array:")
 print(higher_dimensional_array)
 print("Log of higher-dimensional array:")
 print(np.log(higher_dimensional_array))
-```
-
-This produces the following output:
-
-```shell
-Single element array:
-[10]
-Log of single element array:
-[2.30258509]
-
-Multiple elements array:
-[  1  10 100]
-Log of multiple elements array:
-[0.         2.30258509 4.60517019]
-
-Higher-dimensional array:
-[[1 2]
- [3 4]]
-Log of higher-dimensional array:
-[[0.         0.69314718]
- [1.09861229 1.38629436]]
 ```
