@@ -1,6 +1,6 @@
 ---
 Title: 'Built-in Functions'
-Description: 'Python includes 68 pre-defined built-in functions and types, which can be used without importing libraries.'
+Description: 'Python includes over 60 pre-defined built-in functions and types, which can be used without importing libraries.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -13,24 +13,25 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Built-in functions** in Python are a set of pre-defined functions that are readily available to use without the need to import any external libraries. These functions provide essential functionality for performing common tasks, such as manipulating data types, handling input/output, and more. Python includes 68 built-in functions, which are categorized and listed alphabetically for easy reference.
+**Built-in functions** in Python are a collection of pre-defined functions readily available for use without requiring the import of any external libraries. These functions provide essential functionality for performing common tasks, such as manipulating data types, handling input/output, and more. Python includes over 60 built-in functions, which are categorized and listed alphabetically for easy reference.
 
 ## Example
 
-The below build-in function `len()` in Python returns the length of an object.
+The example below uses a built-in function `len()` that returns the length of an object:
 
-```python
-# Example of len() in a list
+```py
+# Creating a list of states
 states = ["Idaho", "Kansas", "Louisiana"]
 
-# Example of len() in a string
+# A string
 text = "Hello, World!"
 
+# Calculating the length using len()
 print(len(states))
 print(len(text))
 ```
 
-The output of the above code:
+The output of the above code is as follows:
 
 ```shell
 3
