@@ -2,14 +2,14 @@
 Title: '.bucket()'
 Description: 'Returns the bucket number where an element is located in a C++ unordered map.'
 Subjects:
-- 'Computer Science'
-- 'Game Development'
+  - 'Computer Science'
+  - 'Game Development'
 Tags:
-- 'Map'
-- 'Objects'
+  - 'Map'
+  - 'Objects'
 CatalogContent:
-- 'learn-c-plus-plus'
-- 'paths/computer-science'
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
 The **`.bucket()`** function is part of the C++ [`unordered_map`](https://www.codecademy.com/resources/docs/cpp/unordered-map) container. It returns the bucket number where a specified element is located within the unordered map. Each element in the unordered map is assigned to a bucket based on its hash value, and this function helps determine which bucket a given key belongs to.
@@ -21,7 +21,7 @@ size_type bucket(const key_type& k) const;
 ```
 
 - `key`: The key whose bucket number needs to be found in the unordered map.
-- This function returns the bucket number (zero-indexed) of the provided key. It retreturns a `size_t` value, indicating the index of the bucket in the unordered map where the specified key is stored.
+- This function returns the bucket number (zero-indexed) of the provided key. It returns a `size_t` value, indicating the index of the bucket in the unordered map where the specified key is stored.
 
 ## Example
 
@@ -40,6 +40,10 @@ int main() {
 
     return 0;
 }
+```
+
+```shell
+The bucket for key 'banana' is: 4
 ```
 
 In this example, the `bucket()` function is used to find the bucket number for the key `"banana"` in the unordered map.
@@ -63,7 +67,5 @@ int main() {
     return 0;
 }
 ```
-```shell
-
 
 In this Codebyte, we are using the `bucket()` function to find the bucket for the key `"cherry"` in the unordered map.
