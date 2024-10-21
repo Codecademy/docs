@@ -1,26 +1,27 @@
 ---
-Title: 'bucket'
+Title: '.bucket()'
 Description: 'Returns the bucket number where an element is located in a C++ unordered map.'
 Subjects:
-- 'C++'
+- 'Computer Science'
+- 'Game Development'
 Tags:
-- 'unordered-map'
-- 'hashing'
-- 'containers'
+- 'Map'
+- 'Objects'
 CatalogContent:
-- 'cpp-for-programmers'
+- 'learn-c-plus-plus'
+- 'paths/computer-science'
 ---
 
-The **`bucket()`** function is part of the C++ `unordered_map` container. It returns the bucket number where a specified element is located within the unordered map. Each element in the unordered map is assigned to a bucket based on its hash value, and this function helps to determine which bucket a given key belongs to.
+The **`.bucket()`** function is part of the C++ [`unordered_map`](https://www.codecademy.com/resources/docs/cpp/unordered-map) container. It returns the bucket number where a specified element is located within the unordered map. Each element in the unordered map is assigned to a bucket based on its hash value, and this function helps determine which bucket a given key belongs to.
 
 ## Syntax
 
-```cpp
-size_t bucket(const key_type& key) const;
+```psuedo
+size_type bucket(const key_type& k) const;
 ```
 
-- `key`: The key whose bucket number needs to be found.
-- Returns: The bucket number (zero-indexed) of the provided key.
+- `key`: The key whose bucket number needs to be found in the unordered map.
+- This function returns the bucket number (zero-indexed) of the provided key. It retreturns a `size_t` value, indicating the index of the bucket in the unordered map where the specified key is stored.
 
 ## Example
 
@@ -31,11 +32,11 @@ size_t bucket(const key_type& key) const;
 int main() {
     std::unordered_map<std::string, int> umap;
     umap["apple"] = 1;
-    umap["banana] = 2;
+    umap["banana"] = 2;
     umap["cherry"] = 3;
 
     std::string key = "banana";
-    std::cout << "The bucket for key '" << key << "' is: " << umap.bucket(key) << std::end1;
+    std::cout << "The bucket for key '" << key << "' is: " << umap.bucket(key) << std::endl;
 
     return 0;
 }
@@ -62,5 +63,7 @@ int main() {
     return 0;
 }
 ```
+```shell
+
 
 In this Codebyte, we are using the `bucket()` function to find the bucket for the key `"cherry"` in the unordered map.
