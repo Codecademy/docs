@@ -29,11 +29,12 @@ mapName.count(key)
 
 ## Codebyte Examples
 
-In the following example, the `count()` function is used to check whether the keys `"coconuts"` and `"strawberries"` exist in the `fruits` map. If the key exists, it will print the corresponding integer value.
+In the following example, the `count()` function is used to check whether the keys `"coconuts"` and `"strawberries"` exist in the `fruits` map.
 
 ```codebyte/cpp
 #include <iostream>
 #include <map>
+#include <string>
 
 int main() {
   // Initializing map with items
@@ -42,20 +43,20 @@ int main() {
   // Checking if "coconuts" exists
   std::string key = "coconuts";
 
-  if ( fruits.count("coconuts") > 0) {
-    std::cout << " There are " << fruits[key] << " " << key << ".\n";
+  if (fruits.count(key) > 0) {
+    std::cout << "There are " << fruits[key] << " " << key << ".\n";
   } else {
-    std::cout << " There are no " << key << ".\n";
+    std::cout << "There are no " << key << ".\n";
   }
 
   // Checking if "strawberries" exists
 
   key = "strawberries";
 
-  if ( fruits.count("strawberries") > 0) {
-    std::cout << " There are " << fruits[key] << " " << key << ".\n";
+  if (fruits.count(key) > 0) {
+    std::cout << "There are " << fruits[key] << " " << key << ".\n";
   } else {
-    std::cout << " There are no " << key << ".\n";
+    std::cout << "There are no " << key << ".\n";
   }
 
   return 0;
@@ -67,11 +68,11 @@ The example below illustrates a scenario where the count function is used to che
 ```codebyte/cpp
 #include <iostream>
 #include <map>
+#include <string>
 
 int main() {
   // Initializing map with items
   std::map<std::string, int> zoo_animals {{"hippos", 2}, {"lions", 4},  {"zebras", 6}, {"gorillas", 8}};
-  std::string animals;
   
   // Creating array of animals
   std::string animals_to_check[] = {"bats", "giraffes", "gorillas", "hippos", "zebras"};
@@ -79,9 +80,9 @@ int main() {
   // Loop through the animals and check if each one exists in the map
   for (const auto& animals : animals_to_check) {
         if (zoo_animals.count(animals) > 0) {
-            std::cout << " The zoo has " << zoo_animals[animals] << " " << animals << ".\n";
+            std::cout << "The zoo has " << zoo_animals[animals] << " " << animals << ".\n";
         } else {
-            std::cout << " The zoo does not have " << animals << ".\n";
+            std::cout << "The zoo does not have " << animals << ".\n";
         }
     }
 
