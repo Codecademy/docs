@@ -1,6 +1,6 @@
 ---
 Title: 'Errors'
-Description: 'The JavaScript Error object represents an error that occurs during runtime. It contains information about the error and can be used to throw exceptions or handle them in a try-catch block'
+Description: 'The JavaScript Error object represents runtime errors, providing information for throwing exceptions and handling them with try-catch blocks.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -15,9 +15,9 @@ CatalogContent:
   - 'paths/create-a-back-end-app-with-javascript'
 ---
 
-The JavaScript `Error` object represents an error that occurs during runtime. It contains information about the error and can be used to throw exceptions or handle them in a `try-catch` block.
+**Errors** in JavaScript are issues that occur during runtime, represented by the `Error` object. This object provides information about the error type and message and can be used to throw exceptions or handle them in a `try-catch` block.
 
-When JavaScript throws an error it throws an error object that consists of a `name` and a `message` property. The `name` is the general type of the error, and the `message` is a human-readable description of the specific error that happened.
+When JavaScript throws an error, it throws an error object that consists of a `name` and a `message` property. The `name` is the general type of the error, and the `message` is a human-readable description of the specific error that happened.
 
 Thrown errors are caught by the next outer `catch` block of a `try...catch...finally` statement. They can also be thrown intentionally by the `throw` statement.
 
