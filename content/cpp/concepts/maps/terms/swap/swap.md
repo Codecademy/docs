@@ -21,13 +21,13 @@ The **`.swap()`** function exchanges the content of two maps of the same type.
 map1.swap(map2);
 ```
 
-> **Note:** If `map1` and `map2` are not of the same type then a compilation error will occur.
+The `map1` is the map whose contents are exchanged with the contents of `map2`.
 
-The `map1` is the map whose contents are exchanged with contents of `map2`.
+> **Note:** If `map1` and `map2` are not of the same type then a compilation error will occur.
 
 ## Example
 
-The following example show how the `swap()` method works.
+The following example shows how the `swap()` method works.
 
 ```cpp
 #include <iostream>
