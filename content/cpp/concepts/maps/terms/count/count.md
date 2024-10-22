@@ -26,7 +26,7 @@ mapName.count(key)
 - `mapName`: Refers to the specific map being accessed.
 - `key`: Represents the value that will be searched for in `mapName`.
 
-## Codebyte Examples
+## Example
 
 In the following example, the `count()` function is used to check whether the keys `"coconuts"` and `"strawberries"` exist in the `fruits` map.
 
