@@ -13,11 +13,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Elements can be checked in a map using the **`.count()`** method, which returns 1 if the key exists and 0 if it does not.
+The **`.count()`** method checks if a key exists in an [unordered map](https://www.codecademy.com/resources/docs/cpp/unordered-map) it returns 1 if the key exists and 0 if it does not.
 
 ## Syntax
 
-The .count() method is called on an unordered map object using the following syntax:
+The `.count()` method is called on an unordered map object using the following syntax:
 
 ```pseudo
 mapName.count(key);
@@ -26,11 +26,11 @@ mapName.count(key);
 - `mapName`: The name of the unordered map.
 - `key`: The key to check for existence in the map.
 
-## Codebyte Example 1
+## Example
 
-The following codebyte example demonstrates the use of the .count() method with an unordered_map to check for mammals and display their lifespans:
+The following example demonstrates the use of the `.count()` method with an unordered map to check for mammals and display their lifespans:
 
-```codebyte/cpp
+```cpp
 #include <iostream>
 #include <unordered_map>
 
@@ -58,9 +58,9 @@ int main() {
 }
 ```
 
-## Codebyte Example 2
+## Codebyte Example
 
-The following codebyte example demonstrates the use of the .count() method with an unordered_map to check for the presence of various fruits and their prices:
+The following codebyte example demonstrates the use of the `.count()` method with an unordered map to check for the presence of various fruits and their prices:
 
 ```codebyte/cpp
 #include <iostream>
