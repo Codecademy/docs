@@ -20,7 +20,6 @@ A `RegExp` object can also have flags set along with a pattern to change how mat
 
 There are two ways to create a `RegExp` object:
 
-<<<<<<< HEAD
 1. Literal Notation: Use slashes to delimit the pattern, followed by any flags.
 ```js
 let re1 = /foo?/i;
@@ -28,15 +27,6 @@ let re1 = /foo?/i;
 
 2. Constructor Function: Use the `RegExp` constructor, passing the pattern as the first argument and any flags as the second. 
 ```js
-=======
-1. **Literal Notation**: Use slashes to delimit the pattern, followed by any flags.
-```pseudo
-let re1 = /foo?/i;
-```
-
-2. **Constructor Function**: Use the `RegExp` constructor, passing the pattern as the first argument and any flags as the second. 
-```pseudo
->>>>>>> 12d45dfe7506f08fa0049a326ad151b642613808
 let re2 = new RegExp('foo?', 'i');
 ```
 
