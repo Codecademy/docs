@@ -62,7 +62,7 @@ int main() {
 }
 ```
 
-The result will look like this:
+The above code produces the following output:
 
 ```shell
 There are 20 coconuts.
