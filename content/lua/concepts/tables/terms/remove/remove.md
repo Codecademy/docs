@@ -1,5 +1,5 @@
 ---
-Title: 'remove()'
+Title: '.remove()'
 Description: 'Removes and returns the element at a specified position from a table (array).'
 Subjects:
   - 'Computer Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`remove()`** function in Lua removes the value of the specified index and clears the index from the table (reducing the length of the table by 1).
+The **`.remove()`** function in Lua removes the value of the specified index and clears the index from the table (reducing the length of the table by 1).
 
 ## Syntax
 
@@ -24,7 +24,7 @@ The `.remove()` method removes and returns the element at the specified position
 
 ## Example
 
-In the following example `remove()` is used to remove the element at the `pos` position from the table. This causes other elements to shift down:
+In the following example `.remove()` is used to remove the element at the `pos` position from the table. This causes other elements to shift down:
 
 ```lua
 local fruit = {
