@@ -14,12 +14,12 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
- In PyTorch, **`.hstack()`** (short for horizontal stack) is a function used to
- concatenate two or more tensors along the horizontal axis (`axis=1`).
- This operation is helpful in combining data with the same number of rows
- but differing in the number of columns. It acts similarly to NumPy's `np.
+In PyTorch, **`.hstack()`** (short for horizontal stack) is a function used to
+concatenate two or more tensors along the horizontal axis (`axis=1`).
+This operation is helpful in combining data with the same number of rows
+but differing in the number of columns. It acts similarly to NumPy's `np.
  hstack()` and is particularly handy for data that needs to be concatenated side
- by side before being fed into a model for training or inference.
+by side before being fed into a model for training or inference.
 
 ## Syntax
 
@@ -34,11 +34,11 @@ torch.hstack(tensors) -> Tensor
 Where:
 
 - `tensors`: A sequence of tensors with the same number of rows.
- All tensors must have the same number of dimensions and the same
- size in all dimensions except for the dimension corresponding to
- the horizontal stacking.
+  All tensors must have the same number of dimensions and the same
+  size in all dimensions except for the dimension corresponding to
+  the horizontal stacking.
 - The function returns a new tensor containing the horizontal concatenation of the
- input tensors.
+  input tensors.
 
 ## Exemple
 
