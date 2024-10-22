@@ -62,7 +62,10 @@ int main() {
 }
 ```
 
-The example below illustrates a scenario where the count function is used to check if an array of elements exists in a map.
+
+## Codebyte Example
+
+The example below illustrates a scenario in which the count function is used to check whether an array of elements exists in a map:
 
 ```codebyte/cpp
 #include <iostream>
