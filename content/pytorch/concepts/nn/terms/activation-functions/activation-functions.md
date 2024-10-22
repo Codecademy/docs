@@ -1,6 +1,6 @@
 ---
 Title: 'Activation Functions'
-Description: 'Activation funcstions are mathematical functions that introduce non-linearity into the model, enabling neural networks to learn complex patterns from data.'
+Description: 'Activation functions are mathematical functions that introduce non-linearity into the model, enabling neural networks to learn complex patterns from data.'
 Subjects:
   - 'AI'
   - 'Machine Learning'
@@ -17,15 +17,15 @@ The **Activation Functions** in PyTorch are a collection of pre-built functions 
 
 By introducing non-linearity into the network, activation functions enable the model to learn complex patterns in the data. Common activation functions include `ReLU`, `ReLU6`, `Leaky ReLU`, `Sigmoid`, `Tanh`, and `Softmax`, which are applied to the outputs of neurons throughout the network.
 
-## ReLU (Rectified Linear Unit)
+## ReLU
 
-ReLU is a popular activation function that returns the input if it is positive, and zero otherwise. It is mathematically defined as:
+ReLU (Rectified Linear Unit) is a popular activation function that returns the input if it is positive, and zero otherwise. It is mathematically defined as:
 
 ```pseudo
 f(x) = max(0, x)
 ```
 
-ReLU (Rectified Linear Unit) is widely used in deep learning models due to its simplicity and efficiency. It enables the model to learn complex patterns in the data by introducing non-linearity.
+ReLU is widely used in deep learning models due to its simplicity and efficiency. It enables the model to learn complex patterns in the data by introducing non-linearity.
 
 ```py
 import torch.nn as nn
