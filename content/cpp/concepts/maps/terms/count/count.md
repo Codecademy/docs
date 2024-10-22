@@ -1,6 +1,6 @@
 ---
-Title: 'count()'
-Description: 'Checks if a given key occurs in the map container.'
+Title: '.count()'
+Description: 'Checks whether a specified key exists in the map and returns the number of occurrences'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -11,10 +11,8 @@ Tags:
   - 'Classes'
   - 'Map'
 CatalogContent:
-  - 'learn-c-plus-plus-functions'
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
-  - 'paths/c'
 ---
 
 The **`count()`** method checks if a map contains any elements with a specified `key`. As all keys in a map are unique, the function will return 1 if the element exists in the container and 0 if it does not.
