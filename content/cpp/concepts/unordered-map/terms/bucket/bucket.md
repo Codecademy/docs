@@ -21,6 +21,7 @@ size_type bucket(const key_type& k) const;
 ```
 
 - `key`: The key whose bucket number needs to be found in the unordered map.
+  
 The function returns a `size_type` value, representing the zero-indexed bucket number where the specified key is stored.
 
 ## Example
