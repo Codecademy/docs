@@ -28,7 +28,7 @@ mapName.count(key)
 
 ## Example
 
-In the following example, the `count()` function is used to check whether the keys `"coconuts"` and `"strawberries"` exist in the `fruits` map.
+In the following example, the `.count()` method is used to check whether the keys `"coconuts"` and `"strawberries"` exist in the `fruits` map:
 
 ```codebyte/cpp
 #include <iostream>
