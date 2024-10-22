@@ -1,1 +1,1 @@
-content/general/concepts/machine-code/machine-code.md
+content/general/concepts/jit-compilation/jit-compilation.md

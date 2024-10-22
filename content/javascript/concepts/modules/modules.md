@@ -1,6 +1,6 @@
 ---
 Title: 'Modules'
-Description: 'As the program grows bigger, it may contain many lines of code. Instead of putting everything in a single file, modules can be used to separate codes in separate files as per their functionality. This makes the code more organized and easier to maintain. A module is a file that contains code that performs a specific task. A module may contain variables, functions, classes, etc. Suppose, a file named greetPerson.js contains the following code: js // Exporting a function export function greetPerson(name) { return Hi, ${name};'
+Description: 'Modules organize code by separating related functions, classes, and variables into distinct files, making management and reuse easier in larger projects.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -11,11 +11,9 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-As the program grows bigger, it may contain many lines of code. Instead of putting everything in a single file, modules can be used to separate codes in separate files as per their functionality. This makes the code more organized and easier to maintain.
+Modules divide large programs into separate files based on tasks, grouping related functions, variables, or classes for easier management and reuse.
 
-A module is a file that contains code that performs a specific task. A module may contain variables, functions, classes, etc.
-
-Suppose, a file named **greetPerson.js** contains the following code:
+Suppose a file named **greetPerson.js** contains the following code:
 
 ```js
 // Exporting a function
@@ -87,9 +85,7 @@ Here, both the `name` variable and the `difference()` function from the **module
 
 ## Renaming Imports and Exports
 
-If the objects (variables, functions, etc.) that you want to import are already present in your main file, the program may not behave as you want. In this case, the program takes value from the main file instead of the imported file.
-
-To avoid naming conflicts, you can rename these objects during the export or during the import.
+To prevent naming conflicts, it is important to rename variables or functions when exporting or importing. This ensures the program uses the correct values from the intended file.
 
 ### Rename in the export file (the module)
 
@@ -103,7 +99,7 @@ export { function1 as newName1, function2 as newName2 };
 import { newName1, newName2 } from './module.js';
 ```
 
-Here, while exporting the function from **module.js** file, new names (here, `newName1` & `newName2`) are given to the function. Hence, when importing that function, the new name is used to reference that function.
+When exporting from module.js, new names (`newName1`, `newName2`) are assigned to functions, the new names must be used when importing and referencing them.
 
 ### Rename in the import file (the main file)
 
@@ -117,7 +113,7 @@ export { function1, function2 };
 import { function1 as newName1, function2 as newName2 } from './module.js';
 ```
 
-Here, while importing the function, the new names (here, `newName1` & `newName2`) are used for the function name. Now you use the new names to reference these functions.
+When importing the function, new names (`newName1`, `newName2`) are used. These new names are then used to reference the functions in the code.
 
 ## Default Export
 
