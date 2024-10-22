@@ -21,12 +21,12 @@ A `RegExp` object can also have flags set along with a pattern to change how mat
 There are two ways to create a `RegExp` object:
 
 1. Literal Notation: Use slashes to delimit the pattern, followed by any flags.
-```pseudo
+```js
 let re1 = /foo?/i;
 ```
 
 2. Constructor Function: Use the `RegExp` constructor, passing the pattern as the first argument and any flags as the second. 
-```pseudo
+```js
 let re2 = new RegExp('foo?', 'i');
 ```
 
