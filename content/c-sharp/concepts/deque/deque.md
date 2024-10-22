@@ -1,6 +1,6 @@
 ---
 Title: 'Deque'
-Description: 'A deque is a type of data structure that allows insert and delete elements at both ends.'
+Description: 'Deque is a type of data structure that allows insertion and removal of elements from both the front and rear.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
@@ -13,9 +13,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **deque** is a data structure that allows elements to be added or removed from both ends, making it more versatile than a traditional queue or stack. In `C#` there is no build-in `deque` but it can be impleted using `LinkedList` and `List` classes `C#`.
+`Deque` (Double-Ended Queue) is a type of data structure that allows insertion and removal of elements from both the front and rear. In `C#`, it can be implemented using `LinkedList<T>` and `List<T>`.
 
-## Implementing using LinkedList Class
+## Creating a Deque using LinkedList Class
+
+To create a deque in `C#`, use `LinkedList<T>`, where `T` defines the type of elements stored.
 
 ```pseudo
 LinkedList<T> deque = new LinkedList<T>();
@@ -23,7 +25,7 @@ LinkedList<T> deque = new LinkedList<T>();
 
 - `T`: Specifies the element type.
 
-## Example 1
+### Example
 
 The below example shows how to implement deque using `LinkedList`.
 
@@ -65,7 +67,9 @@ Output:
 3
 ```
 
-## Implementing using List Class
+## Creating a Deque using List Class
+
+To create a deque in `C#`, use `List<T>`, where `T` defines the type of elements stored.
 
 ```pseudo
 List<T> deque = new List<T>();
@@ -73,7 +77,7 @@ List<T> deque = new List<T>();
 
 - `T`: Specifies the element type.
 
-## Example 2
+### Example
 
 The below example shows how to implement deque using `List`.
 
@@ -103,6 +107,45 @@ class Program {
 
     foreach (int value in deque) {
       Console.WriteLine(value);
+    }
+  }
+}
+```
+
+Output:
+
+```shell
+1
+3
+```
+
+## Codebyte Example
+
+Use this example to experiment with implementing a `Deque` using `LinkedList`. Enjoy coding!
+
+```codebyte/csharp
+using System;
+using System.Collections.Generic;
+
+public class Example
+{
+  public static void Main()
+  {
+    LinkedList<int> deque = new LinkedList<int>();
+
+    // Add elements to the front and rear
+    deque.AddLast(10); // Rear
+    deque.AddFirst(5); // Front
+    deque.AddLast(15); // Rear
+
+    // Remove elements from front and rear
+    deque.RemoveFirst(); // Removes 5 (Front)
+    deque.RemoveLast();  // Removes 15 (Rear)
+
+    // Display the remaining element
+    foreach (var item in deque)
+    {
+      Console.WriteLine(item);
     }
   }
 }
