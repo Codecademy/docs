@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`count()`** method checks if a map contains any elements with a specified `key`. As all keys in a map are unique, the function will return 1 if the element exists in the container and 0 if it does not.
+The **`.count()`** method checks if a map contains an element with a specified key. Since all keys in a map are unique, the function returns 1 if the key exists in the container and 0 if it does not.
 
 ## Syntax
 
