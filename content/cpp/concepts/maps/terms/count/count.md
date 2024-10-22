@@ -23,7 +23,8 @@ The **`.count()`** method checks if a map contains an element with a specified k
 mapName.count(key)
 ```
 
-`key` is the value that will be searched for in `mapName`.
+- `mapName`: Refers to the specific map being accessed.
+- `key`: Represents the value that will be searched for in `mapName`.
 
 ## Codebyte Examples
 
