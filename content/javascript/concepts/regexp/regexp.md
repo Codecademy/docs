@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/create-a-back-end-app-with-javascript'
 ---
 
-The `RegExp` object defines patterns for matching and manipulating strings in JavaScript. Regular Expressions are used to perform pattern-based searches, replacements, or any other operations on strings.
+The `RegExp` object defines patterns for matching and manipulating strings in JavaScript. Regular Expressions perform pattern-based searches, replacements, or any other operations on strings.
 
 A `RegExp` object can also have flags set along with a pattern to change how matches are performed.
 
@@ -20,6 +20,7 @@ A `RegExp` object can also have flags set along with a pattern to change how mat
 
 There are two ways to create a `RegExp` object:
 
+<<<<<<< HEAD
 1. Literal Notation: Use slashes to delimit the pattern, followed by any flags.
 ```js
 let re1 = /foo?/i;
@@ -27,12 +28,21 @@ let re1 = /foo?/i;
 
 2. Constructor Function: Use the `RegExp` constructor, passing the pattern as the first argument and any flags as the second. 
 ```js
+=======
+1. **Literal Notation**: Use slashes to delimit the pattern, followed by any flags.
+```pseudo
+let re1 = /foo?/i;
+```
+
+2. **Constructor Function**: Use the `RegExp` constructor, passing the pattern as the first argument and any flags as the second. 
+```pseudo
+>>>>>>> 12d45dfe7506f08fa0049a326ad151b642613808
 let re2 = new RegExp('foo?', 'i');
 ```
 
-There is a difference between the methods. Literal notation compiles when the expression is evaluated. It should be used when the pattern will remain constant, so it won't be recompiled unnecessarily, such as in a loop.
+There is a difference between the methods. Literal notation compiles when the expression is evaluated. It should be used when the pattern will remain constant so it won't be recompiled unnecessarily, such as in a loop.
 
-Using the object constructor means the expression will be compiled at runtime. It should be used when the pattern of the `RegExp` object would be subject to change, or the pattern is obtained during runtime, such as from user input.
+Using the object constructor means the expression will be compiled at runtime. It should be used when the pattern of the `RegExp` object is subject to change or is obtained during runtime, such as from user input.
 
 ### Properties
 
@@ -41,22 +51,22 @@ Using the object constructor means the expression will be compiled at runtime. I
 | `.flags`      | Returns a string containing the flags of the `RegExp` object.                                                                    |
 | `.dotAll`     | Indicates if `.` matches newlines.                                                                                               |
 | `.global`     | Indicates if the `RegExp` searches for all matches.                                                                              |
-| `.hasIndices` | Does the Regular Expression result expose the start and end indices of captured substrings?                                      |
+| `.hasIndices` | Does the Regular Expression result expose captured substrings' start and end indices?                                      |
 | `.ignoreCase` | Indicates if the `RegExp` is case-insensitive.                                                                                   |
-| `.multiline`  | Indicates if the `RegExp` perform multiline matches.                                                                             |
+| `.multiline`  | Indicates if the `RegExp` performs multiline matches.                                                                             |
 | `.source`     | The text of the pattern used by the `RegExp` object.                                                                             |
 | `.sticky`     | Indicates if the `RegExp` only matches from `lastIndex`.                                                                         |
 | `.unicode`    | Indicates if the `RegExp` treats patterns as Unicode sequences.                                                                  |
-| `.lastIndex`  | The index at which to start the next match.                                                                                      |
+| `.lastIndex`  | The index to start the next match.                                                                                      |
 
 ### Methods
 
 - `.exec(str)`: Executes a search for a match in the given string and returns an array of results.
-- `.test(str)` Tests wheter a pattern is found in the given string and returns `true` or `false`.
+- `.test(str)` Tests whether a pattern is found in the given string and returns `true` or `false`.
 
 ### String Methods Supporting RegExp
 
-In the following `re` is a `RegExp` object.
+In the following, `re` is a `RegExp` object.
 
 | Method                 | Description                                                        |
 | ---------------------- | ------------------------------------------------------------------ |
@@ -70,7 +80,7 @@ In the following `re` is a `RegExp` object.
 
 ### RegExp Flags
 
-`RegExp` flags modify the default matching behavior.
+`RegExp` flags modify the default matching behaviour.
 
 | Flag | Description                                                              |
 | ---- | ------------------------------------------------------------------------ |
@@ -101,9 +111,9 @@ The following match the boundaries between characters, not the characters themse
 | Characters | Meaning                                                                                                                                                                  |
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | `^`        | Matches the beginning of input. In multiline search, matches immediately after a line break character.                                                                   |
-| `$`        | Matches the end of input. In multiline search matches immediately before a line break character.                                                                         |
-| `\b`       | Matches a word boundary. Point where a word character is not followed by a word character, or the point where a word character is not preceded by another word character |
-| `\B`       | Matches a non-word boundary. Point where preceding and following character are of the same type.                                                                         |
+| `$`        | Matches the end of input. In multiline search, matches immediately before a line breaks character.                                                                         |
+| `\b`       | Matches a word boundary. The point where a word character is not followed by a word character or the point where a word character is not preceded by another word character |
+| `\B`       | Matches a non-word boundary. The point where preceding and following characters are of the same type.                                                                         |
 
 The following match a character or expression based on what follows or precedes it.
 
