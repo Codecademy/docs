@@ -62,6 +62,12 @@ int main() {
 }
 ```
 
+The result will look like this:
+
+```shell
+There are 20 coconuts.
+There are no strawberries.
+```
 
 ## Codebyte Example
 
