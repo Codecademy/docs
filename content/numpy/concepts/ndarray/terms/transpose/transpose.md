@@ -52,3 +52,13 @@ This produces the following output:
  [2 5]
  [3 6]]
 ```
+
+## Codebyte example
+
+```codebyte/python
+import numpy as np
+
+a = np.ones((2, 3, 4, 5))
+np.transpose(a).shape
+(5, 4, 3, 2)
+```
