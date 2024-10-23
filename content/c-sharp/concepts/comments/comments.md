@@ -13,13 +13,20 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **comment** is a piece of text within a program that is not executed. It can be used to provide additional information to aid in understanding the code.
+A **comment** is non-executable text in a program, used to explain code, enhance readability, and provide context for developers.
+
+### Why Use Comments
+
+- **Improve readability**: Explain complex code, making it easier to understand.
+- **Provide context**: Clarify the intent behind code decisions for future reference.
+- **Aid in debugging**: Temporarily disable parts of the code during testing.
+- **Documentation**: Describe the behavior of functions, methods, or classes for generating documentation.
 
 ### Single-line Comments
 
 For single-line comments, the compiler ignores any text after two consecutive forward slashes (`//`) on the same line.
 
-```cs
+```csharp
 // Comment goes here
 executing code // Comment goes here
 ```
@@ -28,7 +35,7 @@ executing code // Comment goes here
 
 Multi-line comments begin with `/*` and end with `*/`. The compiler ignores any text in between.
 
-```cs
+```csharp
 /*
 This is all commented out.
 None of it is going to run!
@@ -70,7 +77,7 @@ XML Comments go here
 
 #### Example
 
-XML tags embedded in XML comments are used to signal a specific functionality of the XML comment to the compiler. The `<summary>` tag in the following example describes a type or a member, in this case, the public class `MyClass`:
+XML tags in comments signal functionality to the compiler. The <summary> tag describes a type or member, like in the public class `MyClass`.
 
 ```cs
 /// <summary>
