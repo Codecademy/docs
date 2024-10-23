@@ -36,7 +36,8 @@
     "lint:md": "markdownlint \"./content/**/*.md\"",
     "lint": "yarn lint:md && yarn lint:js",
     "test": "jest",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "validate-content-tree": "node .github/scripts/validate-content-tree.js"
   },
   "license": "UNLICENSED",
   "version": "1.0.0"
