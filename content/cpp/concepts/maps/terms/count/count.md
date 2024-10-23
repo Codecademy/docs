@@ -15,8 +15,10 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.count()`** method checks if a map contains an element with a specified key. Since all keys in a map are unique, the function returns 1 if the key exists in the container and 0 if it does not.
-
+The **`.count()`** method in C++ for `std::map` is used to determine the presence of a specific key in the map. Since all keys in a map are unique, the function returns:
+- *1* if the key exists in the container.
+- *0* if the key does not exist.
+  
 ## Syntax
 
 ```pseudo
@@ -37,25 +39,24 @@ In the following example, the `.count()` method is used to check whether the key
 
 int main() {
   // Initializing map with items
-  std::map<std::string, int> fruits {{"apples", 50}, {"bananas", 100},  {"coconuts", 20}, {"dates", 500}};
+  std::map<std::string, int> fruits {{"apples", 50}, {"bananas", 100}, {"coconuts", 20}, {"dates", 500}};
 
   // Checking if "coconuts" exists
   std::string key = "coconuts";
 
   if (fruits.count(key) > 0) {
-    std::cout << "There are " << fruits[key] << " " << key << ".\n";
+    std::cout << "There are " << fruits[key] << " " << key << ".\n"; // If key exists, print the count
   } else {
-    std::cout << "There are no " << key << ".\n";
+    std::cout << "There are no " << key << ".\n"; // If key does not exist, print a message
   }
 
   // Checking if "strawberries" exists
-
   key = "strawberries";
 
   if (fruits.count(key) > 0) {
-    std::cout << "There are " << fruits[key] << " " << key << ".\n";
+    std::cout << "There are " << fruits[key] << " " << key << ".\n"; // If key exists, print the count
   } else {
-    std::cout << "There are no " << key << ".\n";
+    std::cout << "There are no " << key << ".\n"; // If key does not exist, print a message
   }
 
   return 0;
@@ -71,7 +72,7 @@ There are no strawberries.
 
 ## Codebyte Example
 
-The example below illustrates a scenario in which the count function is used to check whether an array of elements exists in a map:
+The example below illustrates a scenario in which the `.count()` method is used to check whether an array of elements exists in a map:
 
 ```codebyte/cpp
 #include <iostream>
@@ -79,13 +80,10 @@ The example below illustrates a scenario in which the count function is used to 
 #include <string>
 
 int main() {
-  // Initializing map with items
   std::map<std::string, int> zoo_animals {{"hippos", 2}, {"lions", 4},  {"zebras", 6}, {"gorillas", 8}};
   
-  // Creating array of animals
   std::string animals_to_check[] = {"bats", "giraffes", "gorillas", "hippos", "zebras"};
      
-  // Loop through the animals and check if each one exists in the map
   for (const auto& animals : animals_to_check) {
         if (zoo_animals.count(animals) > 0) {
             std::cout << "The zoo has " << zoo_animals[animals] << " " << animals << ".\n";
