@@ -17,45 +17,61 @@ CatalogContent:
 
 **Optimizers** help adjust the model parameters during training to minimize the error between the predicted output and the actual output. They use the gradients calculated through backpropagation to update the model in a direction that reduces this error, improving the model's performance over time.
 
-## How to use an optimizer
+## Syntax 
 
-To use ```torch.optim``` you have to construct an optimizer object that will hold the current state and will update the parameters based on the computed gradients.
-
-## Constructing it
-
-To construct an Optimizer you have to give it an iterable containing the parameters (all should be Variable s) to optimize. Then, you can specify optimizer-specific options such as the learning rate, weight decay, etc.
-
-Example:
-
-```codebyte/python
-optimizer = optim.SGD(model.parameters(), lr=0.01, momentum=0.9)
-optimizer = optim.Adam([var1, var2], lr=0.0001)
+```pseudo
+torch.optim.optimizer_type(model_parameters, learning_rate)
 ```
 
-## Per-parameter options
+- `optimizer_type`: The type of optimizer that will be used.
+- `model_parameter`: Parameter of the model that will adjust during training.
+- `learning_rate`: Parameter that controls how the optimizer adjusts the model weight.  
 
-Optimizers also support specifying per-parameter options. To do this, instead of passing an iterable of Variables, pass in an iterable of dicts. Each of them will define a separate parameter group and should contain a ```params``` key, containing a list of parameters belonging to it. Other keys should match the keyword arguments accepted by the optimizers and will be used as optimization options for this group.
+## Example
 
-For example, this is very useful when one wants to specify per-layer learning rates:
+```py
+import torch
+import torch.nn as nn
+import torch.optim as optim
 
-```codebyte/python
-optim.SGD([
-                {'params': model.base.parameters(), 'lr': 1e-2},
-                {'params': model.classifier.parameters()}
-            ], lr=1e-3, momentum=0.9)
+# Input and target data (simple linear relationship y = 2x)
+x = torch.tensor([[1.0], [2.0], [3.0], [4.0]])
+y = torch.tensor([[2.0], [4.0], [6.0], [8.0]])
+
+# Simple model: 1 linear layer
+model = nn.Linear(1, 1)
+
+# Adam optimizer and Mean Squared Error (MSE) loss
+optimizer = optim.Adam(model.parameters(), lr=0.01)
+criterion = nn.MSELoss()
+
+# Training loop
+for epoch in range(50):
+    predictions = model(x)
+    loss = criterion(predictions, y)
+    optimizer.zero_grad()
+    loss.backward()
+    optimizer.step()
+    
+    if (epoch+1) % 10 == 0:  # Print loss every 10 epochs
+        print(f'Epoch {epoch+1}, Loss: {loss.item():.4f}')
+
+# Test the model by making a prediction for x = 5
+with torch.no_grad():
+    test_input = torch.tensor([[5.0]])
+    test_output = model(test_input)
+    print(f'The Predicted value for input 5: {test_output.item():.4f}')
 ```
 
-This means that ```model.base```’s parameters will use a learning rate of ```1e-2```, whereas ```model.classifier```’s parameters will stick to the default learning rate of ```1e-3```. Finally a momentum of ```0.9``` will be used for all parameters.
+The output of the above code is:
 
-Also, consider the following example related to the distinct penalization of parameters. Remember that parameters() return an iterable that contains all learnable parameters, including biases and other parameters that may prefer distinct penalization. To address this, one can specify individual penalization weights for each parameter group:
-
-```codebyte/python
-bias_params = [p for name, p in self.named_parameters() if 'bias' in name]
-others = [p for name, p in self.named_parameters() if 'bias' not in name]
-
-optim.SGD([
-                {'params': others},
-                {'params': bias_params, 'weight_decay': 0}
-            ], weight_decay=1e-2, lr=1e-2)
+```shell
+Epoch 10, Loss: 9.0166
+Epoch 20, Loss: 7.0211
+Epoch 30, Loss: 5.3501
+Epoch 40, Loss: 3.9961
+Epoch 50, Loss: 2.9324
+The predicted value for input 5: 6.4472
 ```
-In this manner, bias terms are isolated from non-bias terms, and a weight_decay of 0 is set specifically for the bias terms, as to avoid any penalization for this group.
+
+> **Note:** Optimizers also support specifying per-parameter options like learning rate allowing.
