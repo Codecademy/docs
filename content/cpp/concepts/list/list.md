@@ -80,7 +80,7 @@ Updated list elements after deletion: 5 20
 
 int main() {
   // Create a list of strings
-  std::list < std::string > fruits = {
+  std::list <std::string> fruits = {
     "apple",
     "banana",
     "cherry"
