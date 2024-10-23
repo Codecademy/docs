@@ -8,7 +8,7 @@ function checkPath(path, i) {
   for (const entry of readdirSync(path)) {
     const entryDir = readdirSync(`${path}/${entry}`);
     if (!entryDir.includes(`${entry}.md`)) {
-      console.error(`${path}/${entry} should contain a ${entry}.md file`);
+      console.error(`\n${path}/${entry} should contain a ${entry}.md file\n`);
       exitCode = 1;
     }
     if (i < 2 && entryDir.includes(next[i])) {
