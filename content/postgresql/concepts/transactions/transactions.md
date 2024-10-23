@@ -1,18 +1,18 @@
 ---
-Title: 'Transactions' 
+Title: 'Transactions'
 Description: Transactions bundle one or more steps into a single unit of work; an all-or-nothing operation where all statements succeed or all statements fail.'
-Subjects: 
+Subjects:
   - 'Computer Science'
   - 'Data Science'
   - 'An nth subject name'
-Tags: 
+Tags:
   - 'PostgreSQL'
   - 'Database'
   - 'Finance'
-CatalogContent: 
-    - 'paths/design-databases-with-postgresql'
-    - 'getting-started-off-platform-for-data-science'
-    - 'ext-courses/google-associate-cloud-engineer-configuring-google-cloud'
+CatalogContent:
+  - 'paths/design-databases-with-postgresql'
+  - 'getting-started-off-platform-for-data-science'
+  - 'ext-courses/google-associate-cloud-engineer-configuring-google-cloud'
 ---
 
 **Transactions** are a fundamental concept in PostgreSQL that bundles one or more steps into a single unit of work. It is an all-or-nothing operation where all statements succeed or all statements fail. The intermediate states between the steps are not visible to other concurrent transactions, and if a failure occurs that prevents the transaction from completing, it does not affect the database.
@@ -29,9 +29,9 @@ There are three main commands in a transaction. These are the `BEGIN`, `COMMIT`,
 BEGIN;
 ```
 
-If you do *not* issue a `BEGIN` command, each individual statement has an implicit `BEGIN`. If successful, it will have a `COMMIT` wrapped around it.
+If you do _not_ issue a `BEGIN` command, each individual statement has an implicit `BEGIN`. If successful, it will have a `COMMIT` wrapped around it.
 
-`COMMIT`  permanently saves the changes made within the transaction block to the database.
+`COMMIT` permanently saves the changes made within the transaction block to the database.
 
 ```sql
 COMMIT;
@@ -44,10 +44,11 @@ ROLLBACK;
 ```
 
 Putting it all together, here is the general syntax for the three commands:
+
 ```sql
 BEGIN;
 -- set of statements
-COMMIT; 
+COMMIT;
 ```
 
 or
@@ -55,7 +56,7 @@ or
 ```sql
 BEGIN;
 -- set of statements
-ROLLBACK; 
+ROLLBACK;
 ```
 
 ## Example 1
@@ -73,6 +74,7 @@ COMMIT;
 The transaction is set up by surrounding the SQL commands with `BEGIN` and `COMMIT` commands.
 
 ## Example 2
+
 Customers Alice, Bob, and Carol each have bank accounts.
 
 To have more control over statements in a transaction, the use of the `SAVEPOINT` command allows a savepoint to be defined. After defining a savepoint, if needed, the transaction can be rolled back to the savepoint with the `ROLLBACK TO` command.
