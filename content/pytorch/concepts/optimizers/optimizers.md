@@ -63,6 +63,8 @@ with torch.no_grad():
     print(f'The Predicted value for input 5: {test_output.item():.4f}')
 ```
 
+> **Note:** Optimizers also support specifying per-parameter options like learning rate allowing.
+
 The output of the above code is:
 
 ```shell
@@ -73,5 +75,3 @@ Epoch 40, Loss: 3.9961
 Epoch 50, Loss: 2.9324
 The predicted value for input 5: 6.4472
 ```
-
-> **Note:** Optimizers also support specifying per-parameter options like learning rate allowing.
