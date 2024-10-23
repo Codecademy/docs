@@ -1,1 +1,1 @@
-content/d3/concepts/interactivity/interactivity.md
+content/general/concepts/jit-compilation/jit-compilation.md
