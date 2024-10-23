@@ -35,7 +35,7 @@ std::list<type> myList;
 
 int main() {
   // Declare a list of integers
-  std::list < int > myList;
+  std::list <int> myList;
 
   // Adding elements to the list
   myList.push_back(10);
