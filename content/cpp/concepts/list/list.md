@@ -18,7 +18,7 @@ CatalogContent:
 
 ## Syntax
 
-```pseudo 
+```pseudo
 #include <list>
 
 std::list<type> myList;
