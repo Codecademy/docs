@@ -36,6 +36,8 @@ console.log(Array.isArray(new Array(5)));
 // Output: true
 ```
 
+> **Note**: The expression `Array.isArray(new Array(5))` returns `true` because `new Array(5)` creates an array with a length of 5. This array initially contains empty (or `undefined`) elements, but it is still a valid array object. The `Array.isArray` method confirms this by checking the type of the object, thus returning `true`.
+
 ## Codebyte Example
 
 In the examples below, the `.isArray()` method is used to check if values of various types are considered arrays:
