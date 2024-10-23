@@ -30,33 +30,34 @@ std::list<type> myList;
 
 ```cpp
 #include <iostream>
+
 #include <list>
 
 int main() {
-// Declare a list of integers
-std::list<int> myList;
+  // Declare a list of integers
+  std::list < int > myList;
 
-// Adding elements to the list
-myList.push_back(10);
-myList.push_back(20);
-myList.push_front(5);
+  // Adding elements to the list
+  myList.push_back(10);
+  myList.push_back(20);
+  myList.push_front(5);
 
-// Displaying elements in the list
-std::cout << "List elements: ";
-for (const auto& value : myList) {
-  std::cout << value << " ";
+  // Displaying elements in the list
+  std::cout << "List elements: ";
+  for (const auto & value: myList) {
+    std::cout << value << " ";
   }
-std::cout << std::endl;
+  std::cout << std::endl;
 
-// Removing an element
-myList.remove(10);
+  // Removing an element
+  myList.remove(10);
 
-// Displaying the updated list
-std::cout << "Updated list elements after deletion: ";
-for (const auto& value : myList) {
-  std::cout << value << " ";
+  // Displaying the updated list
+  std::cout << "Updated list elements after deletion: ";
+  for (const auto & value: myList) {
+    std::cout << value << " ";
   }
-std::cout << std::endl;
+  std::cout << std::endl;
   return 0;
 }
 ```
@@ -65,28 +66,34 @@ The output for the above code is:
 
 ```shell
 List elements: 5 10 20
-Updated list elements after deletion: 5 20 
+Updated list elements after deletion: 5 20
 ```
 
 ## Codebyte Example
 
 ```codebyte/cpp
 #include <iostream>
+
 #include <list>
+
 #include <string>
 
 int main() {
-    // Create a list of strings
-    std::list<std::string> fruits = {"apple", "banana", "cherry"};
+  // Create a list of strings
+  std::list < std::string > fruits = {
+    "apple",
+    "banana",
+    "cherry"
+  };
 
-    // Add a fruit to the list
-    fruits.push_back("orange");
+  // Add a fruit to the list
+  fruits.push_back("orange");
 
-    // Access elements in the list using an iterator
-    for (const auto& fruit : fruits) {
-        std::cout << fruit << std::endl;
-    }
+  // Access elements in the list using an iterator
+  for (const auto & fruit: fruits) {
+    std::cout << fruit << std::endl;
+  }
 
-    return 0;
+  return 0;
 }
 ```
