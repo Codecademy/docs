@@ -1,6 +1,6 @@
 ---
 Title: 'List'
-Description: 'List is a sequential container that stores elements non-contiguous memory locations.' 
+Description: 'List is a sequential container that stores elements non-contiguous memory locations.'
 Subjects:
   - 'Game Development'
   - 'Mobile Development'
