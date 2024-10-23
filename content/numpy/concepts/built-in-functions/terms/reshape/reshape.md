@@ -23,18 +23,20 @@ The `.reshape()` function rearranges the data in an [`ndarray`](https://www.code
 numpy.reshape(array, newshape, order = 'C')
 ```
 
-- `array` is the array to be reshaped.
-- `newshape` can be an integer or a [`tuple`](https://www.codecademy.com/resources/docs/python/tuples) representing the size of the new array. If a dimension is `-1`, that dimension will be inferred from the size of the original array.
-- `order` reads the elements from `array` in the current index order and places the elements into the reshaped array using the same index order. It can be set to `'C'`, `'F'`, or `'A'`.
-  - `C` means to read/write the elements using C-like index order, or in other words, the elements are placed row by row. The last axis index (columns) changes first (fastest), and the first axis index (rows) changes afterward (slowest).
-  - `F` means to read/write the elements using Fortran-like index order, where the elements are placed column by column. Here, the first axis index (rows) changes faster while the last axis index (columns) changes slower. Using `C` or `F` in `.reshape()` means that the function is only reshaping the way that indexes are placed in the array, and not like data physically stored in the computer memory (memory layout).
-  - `A` means to read/write the elements in Fortran-like index order if `array` is Fortran contiguous in memory, meaning, in a sequencial and continuous manner without gaps between elements, or in C-like index order otherwise.
+- `array`: The input array to be reshaped.
+- `newshape`: An integer or a [`tuple`](https://www.codecademy.com/resources/docs/python/tuples) representing the desired shape of the new array. If one dimension is set to -1, that dimension will be inferred based on the size of the original array.
+- `order`: Specifies how elements should be read from the original array and placed into the reshaped array. It can be set to `'C'`, `'F'`, or `'A'`:
+  - `C`: Read/write elements in row-major order (C-like), where the last axis (columns) changes fastest, and the first axis (rows) changes slowest. The elements are placed row by row.
+  - `F`: Read/write elements in column-major order (Fortran-like), where the first axis (rows) changes fastest, and the last axis (columns) changes slowest. The elements are placed column by column.
+  - `A`: Use Fortran-like index order if the array is Fortran contiguous in memory (i.e., stored sequentially without gaps), or C-like order otherwise.
 
-If possible, the `ndarray` returned will be a view of the original `ndarray`'s data.
+Using `'C'` or `'F'` in `.reshape()` affects the indexing order but does not alter the physical layout of the data in memory.
+
+If possible, the `ndarray` returned will be a view of the data from the original `ndarray`.
 
 ## Example
 
-The following example creates an `ndarray` then uses `.reshape()` to change its dimensions.
+The following example creates an `ndarray` then uses `.reshape()` to change its dimensions:
 
 ```py
 import numpy as np
@@ -66,7 +68,7 @@ This produces the following output:
 
 ## Codebyte Example
 
-The following example creates an `ndarray` then uses `order` as an optional parameter for `.reshape()` to change its dimensions.
+The following example creates an `ndarray` then uses `order` as an optional parameter for `.reshape()` to change its dimensions:
 
 ```codebyte/python
 import numpy as np
