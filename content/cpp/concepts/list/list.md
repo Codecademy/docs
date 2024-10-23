@@ -34,23 +34,22 @@ std::list<type> myList;
 
 int main() {
 // Declare a list of integers
-
 std::list<int> myList;
-// Adding elements to the list
 
-myList.push_back(10);  // Adds 10 to the back
-myList.push_back(20);  // Adds 20 to the back
-myList.push_front(5);  // Adds 5 to the front
+// Adding elements to the list
+myList.push_back(10);
+myList.push_back(20);
+myList.push_front(5);
 
 // Displaying elements in the list
 std::cout << "List elements: ";
 for (const auto& value : myList) {
-  std::cout << value << " ";  // Output: 5 10 20
+  std::cout << value << " ";
   }
 std::cout << std::endl;
 
 // Removing an element
-myList.remove(10);  // Removes the element with value 10
+myList.remove(10);
 
 // Displaying the updated list
 std::cout << "Updated list elements after deletion: ";
@@ -65,7 +64,7 @@ std::cout << std::endl;
 The output for the above code is:
 
 ```shell
-List elements: 5 10 20 
+List elements: 5 10 20
 Updated list elements after deletion: 5 20 
 ```
 
