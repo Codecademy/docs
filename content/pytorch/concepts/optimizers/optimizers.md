@@ -17,7 +17,7 @@ CatalogContent:
 
 **Optimizers** help adjust the model parameters during training to minimize the error between the predicted output and the actual output. They use the gradients calculated through backpropagation to update the model in a direction that reduces this error, improving the model's performance over time.
 
-## Syntax 
+## Syntax
 
 ```pseudo
 torch.optim.optimizer_type(model_parameters, learning_rate)
