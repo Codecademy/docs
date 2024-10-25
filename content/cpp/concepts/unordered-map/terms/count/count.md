@@ -17,8 +17,6 @@ The **`.count()`** method checks if a key exists in an [unordered map](https://w
 
 ## Syntax
 
-The `.count()` method is called on an unordered map object using the following syntax:
-
 ```pseudo
 mapName.count(key);
 ```
