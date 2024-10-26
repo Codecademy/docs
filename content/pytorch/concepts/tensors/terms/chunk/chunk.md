@@ -32,7 +32,7 @@ Parameters accepted:
 
 ## Example
 
-Here is an example of a one-dimensional tensor with 6 elements, which is split into 3 chunks. 
+Here is an example of a one-dimensional tensor with 6 elements, which is split into 3 chunks.
 
 ```python
 import torch
@@ -50,7 +50,7 @@ for i, chunk in enumerate(chunks):
     print(f"Chunk {i}:", chunk)
 ```
 
-The output of this will be printed below. 
+The output of this will be printed below.
 
 ```
 Original tensor: tensor([1, 2, 3, 4, 5, 6])
