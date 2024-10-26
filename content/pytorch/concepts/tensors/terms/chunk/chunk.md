@@ -1,5 +1,5 @@
 ---
-Title: '.chunk()' 
+Title: '.chunk()'
 Description: 'Splits a tensor with a specified dimension into chunks.'
 Subjects:
   - 'Data Science'
