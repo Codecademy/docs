@@ -1,7 +1,7 @@
 ---
 Title: '.chunk()' 
 Description: 'Splits a tensor with a specified dimension into chunks.' 
-  - 'AI'
+Subjects:
   - 'Data Science'
   - 'Machine Learning'
 Tags:
