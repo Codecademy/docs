@@ -23,9 +23,9 @@ mapName.upper_bound(key);
 
 `key`: The key whose upper bound is needed.
 
-## Example 1
+## Example
 
-Imagine you have a list of students sorted by their roll numbers, and you want to find the first student who has a roll number greater than a certain number.
+Imagine you have a list of students sorted by their roll numbers, to find the first student who has a roll number greater than a certain number.
 
 ```cpp
 #include <iostream>
@@ -39,7 +39,7 @@ int main() {
     students[103] = "Alice";
     students[105] = "Bob";
 
-    // Find the first student with roll number greater than 102
+    // Find the first student with a roll number greater than 102
     auto it = students.upper_bound(102);
 
     if (it != students.end()) {
@@ -52,15 +52,13 @@ int main() {
 }
 ```
 
-The map contains roll numbers 101, 103, and 105. Calling **`.upper_bound(102)`** returns the next higher roll number, 103 (for Alice). If no higher number exists, it reaches the end of the map.
-
-```pseudo
-The student with roll number greater than 102 is: Alice (Roll No: 103)
+```shell
+The student with a roll number greater than 102 is: Alice (Roll No: 103)
 ```
 
 ## Codebyte Example
 
-The following codebyte example demonstrates how **`.upper_bound()`** works by returning iterators to keys greater than 11, 13, and 17 in a map of integers.
+The following codebyte example demonstrates how `.upper_bound()` works by returning iterators to keys greater than 11, 13, and 17 in a map of integers.
 
 ```codebyte/cpp
 #include <iostream>
@@ -76,11 +74,11 @@ int main() {
   mp.insert({15, 50});
   mp.insert({14, 40});
 
-  // Upper bound when key is present
+  // Upper bound when the key is present
   auto it = mp.upper_bound(11);
   std::cout << "The upper bound of key 11 is " << it->first << " " << it->second << std::endl;
 
-  // Upper bound when key is absent
+  // Upper bound when the key is absent
   it = mp.upper_bound(13);
   std::cout << "The upper bound of key 13 is " << it->first << " " << it->second << std::endl;
 
