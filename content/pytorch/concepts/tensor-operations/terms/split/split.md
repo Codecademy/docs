@@ -20,7 +20,6 @@ In PyTorch, the **`.split()`** function is used to split a tensor into chunks of
 ```pseudo
 torch.split(tensor, split_size_or_sections, dim=0)
 ```
-#### Parameters
 
 - `tensor`: A required parameter represents the tensor to be split.
 - `split_size_or_sections`: A required parameter specifying the size of a chunk. This can be an integer, specifying the maximum number of elements in each chunk, or a list of integers, specifying the exact size of each chunk.
