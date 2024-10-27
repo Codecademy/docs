@@ -1,39 +1,34 @@
 ---
 Title: '.split()'
-Description: 'Splits a tensor into sub-tensors of specified sizes along a given dimension.' # Required; ideally under 150 characters and starts with a present-tense verb (used in search engine results and content previews)
+Description: 'Splits a tensor into chunks of specified sizes along a given dimension.'
 Subjects:
   - 'Computer Science'
   - 'Machine Learning'
   - 'Data Science'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
+Tags:
   - 'Python'
   - 'Machine Learning'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+CatalogContent:
   - 'intro-to-py-torch-and-neural-networks'
-  - 'learn-python-3'
-  - 'py-torch-for-classification'
   - 'paths/computer-science'
-  - 'paths/data-science'
-  - 'paths/machine-learning'
 ---
 
-In PyTorch, the **`.split()`** function is used to split a tensor into multiple sub-tensors of specified sizes along a specified dimension. It is useful for processing smaller segments of data independently. 
-It returns a tuple of tensors.
+In PyTorch, the **`.split()`** function is used to split a tensor into chunks of specified sizes along a specified dimension and returns a tuple of tensors. It is useful for processing smaller segments of data independently.
 
 ## Syntax
+
 ```pseudo
 torch.split(tensor, split_size_or_sections, dim=0)
 ```
 #### Parameters
-- `tensor`: The input tensor to be split.
-- `split_size_or_sections`: The size of each chunk. This can be an integer, specifying the maximum number of elements in each chunk, or a list of integers, specifying the exact size of each chunk.
-- `dim`: The dimension along which to split the tensor. This is an optional parameter with a default value 0, representing row.
 
-#### Return Type
-- Returns a tuple of tensors.
+- `tensor`: A required parameter represents the tensor to be split.
+- `split_size_or_sections`: A required parameter specifying the size of a chunk. This can be an integer, specifying the maximum number of elements in each chunk, or a list of integers, specifying the exact size of each chunk.
+- `dim`: An optional parameter that specifies the dimension along which split is performed. The default value is 0.
 
 ## Example
-The following example illustrates the usage of `.split()` in various scenarios
+
+The following example illustrates the usage of `.split()` in various scenarios.
 
 ```python
 import torch
@@ -96,6 +91,7 @@ except RuntimeError as e:
 ```
 
 The above program gives the following output:
+
 ```shell
 Input 1D Tensor - tensor([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12])
 
