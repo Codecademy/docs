@@ -1,6 +1,6 @@
 ---
 Title: '.count()'
-Description: 'Checks if a key exists in an unordered map.'
+Description: 'Returns the number of elements with the specified key.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.count()`** method checks if a key exists in an [unordered map](https://www.codecademy.com/resources/docs/cpp/unordered-map) it returns 1 if the key exists and 0 if it does not.
+The **`.count()`** method checks if a key exists in an [unordered map](https://www.codecademy.com/resources/docs/cpp/unordered-map). It returns *1* if the key exists and *0* if it does not.
 
 ## Syntax
 
@@ -54,6 +54,15 @@ int main() {
 
     return 0;
 }
+```
+
+The code above produces the output as follows:
+
+```shell
+Giraffe exists in the map with an average lifespan of 26 years.
+Elephant does not exist in the map.
+Lion exists in the map with an average lifespan of 10 years.
+Zebra does not exist in the map.
 ```
 
 ## Codebyte Example
