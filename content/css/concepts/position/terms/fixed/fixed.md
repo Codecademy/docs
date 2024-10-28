@@ -95,7 +95,7 @@ This will render in the browser as shown in the image (below).
 
 ![Image of a fixed nav element in the browser window/viewport.](https://raw.githubusercontent.com/Codecademy/docs/main/media/position-fixed-example.png)
 
-Here (above) we see that the nav element has been taken out of the flow of the document and as with our **CSS** example (above), the nav element has been moved 50px from the top (which will move the nav element down 50px) and 100px from the left (which will move the nav element to the right 100px). 
+In the code above, we see that the `nav` element has been taken out of the document flow. As shown in our CSS example, the nav element has been moved 50px from the top (moving it down by 50px) and 100px from the left (moving it right by 100px).
 
 > **Note**: Although the `width` property is set to 100%, the nav element is removed from the normal flow of the document and positioned 100px from the left, which may cause it to extend beyond the right side of the viewport depending on the viewport width and the element's total width (including padding and borders).
 
