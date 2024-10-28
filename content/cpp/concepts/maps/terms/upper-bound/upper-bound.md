@@ -21,11 +21,11 @@ The **`.upper_bound()`** function in a map returns an iterator pointing to the f
 mapName.upper_bound(key);
 ```
 
-`key`: The key whose upper bound is needed.
+- `key`: The key whose upper bound is needed.
 
 ## Example
 
-Imagine you have a list of students sorted by their roll numbers, to find the first student who has a roll number greater than a certain number.
+The example below demonstrates using `.upper_bound()` to find the first student with a roll number greater than a specified value:
 
 ```cpp
 #include <iostream>
@@ -52,13 +52,15 @@ int main() {
 }
 ```
 
+The code above produces the following output:
+
 ```shell
 The student with a roll number greater than 102 is: Alice (Roll No: 103)
 ```
 
 ## Codebyte Example
 
-The following codebyte example demonstrates how `.upper_bound()` works by returning iterators to keys greater than 11, 13, and 17 in a map of integers.
+The following codebyte example demonstrates how `.upper_bound()` works by returning iterators to keys greater than 11, 13, and 17 in a map of integers:
 
 ```codebyte/cpp
 #include <iostream>
