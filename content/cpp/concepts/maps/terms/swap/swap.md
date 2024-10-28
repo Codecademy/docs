@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.swap()`** function exchanges the content of two maps of the same type.
+In C++, **`.swap()`** function exchanges the contents of two maps in constant time, provided the maps are of the same type, though their sizes may differ.
 
 ## Syntax
 
@@ -23,11 +23,14 @@ The `map1` is the map whose contents are exchanged with the contents of `map2`.
 map1.swap(map2);
 ```
 
-> **Note:** If `map1` and `map2` are not of the same type then a compilation error will occur.
+- `map1`: The first map whose contents will be swapped.
+- `map2`: The second map to exchange contents with map1.
+
+> **Note:** If `map1` and `map2` are not of the same type (i.e., they do not have the same key and value types), a compilation error will occur because `std::map::swap()` requires both maps to have the same type.
 
 ## Example
 
-The following example shows how the `swap()` method works:
+The following example shows how the `swap()` funcrion works:
 
 ```cpp
 #include <iostream>
@@ -42,7 +45,7 @@ int main() {
     for(map<int, string>::iterator it = map1.begin();it != map1.end();++it) {
         cout << "Key: " << it->first<< ", Value: " << it->second << endl;
     }
-    
+
     cout << "Before swap Map2:\n";
     for(map<int, string>::iterator it = map2.begin();it != map2.end();++it) {
         cout << "Key: " << it->first<< ", Value: " << it->second << endl;
@@ -50,17 +53,17 @@ int main() {
 
     // Swapping the contents of map1 and map2
     map1.swap(map2);
-    
+
     cout << "After swap Map1:\n";
     for(map<int, string>::iterator it = map1.begin();it != map1.end();++it) {
         cout << "Key: " << it->first<< ", Value: " << it->second << endl;
     }
-    
+
     cout << "After swap Map2:\n";
     for(map<int, string>::iterator it = map2.begin();it != map2.end();++it) {
         cout << "Key: " << it->first<< ", Value: " << it->second << endl;
     }
-    
+
     return 0;
 }
 ```
@@ -88,7 +91,7 @@ Key: 3, Value: three
 
 ## Codebyte Example
 
-Running the below codebyte example shows how the `swap()` function works:
+Run the below codebyte example to know how the `.swap()` function works:
 
 ```codebyte/cpp
 #include <iostream>
@@ -103,7 +106,7 @@ int main() {
     for(map<string, int>::iterator it = map1.begin(); it != map1.end(); ++it) {
         cout << "Key: " << it->first << ", Value: " << it->second << endl;
     }
-    
+
     cout << "Before swap Map2:\n";
     for(map<string, int>::iterator it = map2.begin(); it != map2.end(); ++it) {
         cout << "Key: " << it->first << ", Value: " << it->second << endl;
@@ -111,17 +114,17 @@ int main() {
 
     // Swapping the contents of map1 and map2
     map1.swap(map2);
-    
+
     cout << "After swap Map1:\n";
     for(map<string, int>::iterator it = map1.begin(); it != map1.end(); ++it) {
         cout << "Key: " << it->first << ", Value: " << it->second << endl;
     }
-    
+
     cout << "After swap Map2:\n";
     for(map<string, int>::iterator it = map2.begin(); it != map2.end(); ++it) {
         cout << "Key: " << it->first << ", Value: " << it->second << endl;
     }
-    
+
     return 0;
 }
 ```
