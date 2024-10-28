@@ -17,14 +17,12 @@ In C++, **`.swap()`** function exchanges the contents of two maps in constant ti
 
 ## Syntax
 
-The `map1` is the map whose contents are exchanged with the contents of `map2`.
-
 ```pseudo
 map1.swap(map2);
 ```
 
 - `map1`: The first map whose contents will be swapped.
-- `map2`: The second map to exchange contents with map1.
+- `map2`: The second map to exchange contents with `map1`.
 
 > **Note:** If `map1` and `map2` are not of the same type (i.e., they do not have the same key and value types), a compilation error will occur because `std::map::swap()` requires both maps to have the same type.
 
