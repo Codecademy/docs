@@ -21,15 +21,15 @@ In PyTorch, the **`.split()`** function is used to split a tensor into chunks of
 torch.split(tensor, split_size_or_sections, dim=0)
 ```
 
-- `tensor`: A required parameter represents the tensor to be split.
-- `split_size_or_sections`: A required parameter specifying the size of a chunk. This can be an integer, specifying the maximum number of elements in each chunk, or a list of integers, specifying the exact size of each chunk.
-- `dim`: An optional parameter that specifies the dimension along which split is performed. The default value is 0.
+- `tensor`: The tensor to be split. This is a required parameter.
+- `split_size_or_sections`: Specifies the size of each chunk. If an integer, it defines the number of elements in each chunk. If a list of integers, it specifies the exact size of each chunk in order.
+- `dim`(Optional): The dimension along which to split the tensor. The default value is 0.
 
 ## Example
 
-The following example illustrates the usage of `.split()` in various scenarios.
+The following example illustrates the usage of `.split()` in various scenarios:
 
-```python
+```py
 import torch
 
 # a 1D tensor and a 2D tensor
