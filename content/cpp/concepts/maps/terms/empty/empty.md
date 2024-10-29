@@ -1,7 +1,7 @@
 ---
 Title: '.empty()'
 Description: 'Checks if the map is empty and returns true if it has no elements, otherwise it returns false.'
-Subjects: 
+Subjects:
   - 'Computer Science'
 Tags:
   - 'Data Structures'
