@@ -26,7 +26,7 @@ The variable `a_local_variable` is local to the `local_variable` function in whi
 
 ## Example
 
-In the following example, the `a_local_variable` of integer data type is defined inside the function `local_variable()`.
+In the following example, the `a_local_variable` of integer data type is defined inside the function `local_variable()`:
 
 ```cpp
 #include <iostream>
