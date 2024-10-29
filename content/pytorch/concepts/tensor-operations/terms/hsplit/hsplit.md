@@ -1,6 +1,6 @@
 ---
 Title: '.hsplit()'
-Description: 'Splits a tensor into multiple sub-tensors horizontally.'
+Description: 'Splits a tensor horizontally into multiple sub-tensors.'
 Subjects:
   - 'AI'
   - 'Data Science'
