@@ -1,6 +1,6 @@
 ---
 Title: 'fixed'
-Description: 'Positions an HTML element of a webpage by taking that element out of the normal flow of the document and pinning it to a specified position where it will remain fixed in place, even while scrolling the page.'
+Description: 'Positions an element relative to the viewport, removing it from the document flow and keeping it fixed during page scrolling.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
