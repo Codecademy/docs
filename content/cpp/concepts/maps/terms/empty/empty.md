@@ -1,6 +1,6 @@
 ---
-Title: 'empty'
-Description: 'Checks to see if an STL map object is empty (contains elements) or not and returns a boolean true or false value, respectively'
+Title: '.empty()'
+Description: 'Checks if the map is empty and returns true if it has no elements, otherwise it returns false.'
 Subjects: 
   - 'Computer Science'
 Tags:
@@ -15,83 +15,75 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The C++ Standard Template Library (STL) [map](https://www.codecademy.com/resources/docs/cpp/maps) class **.empty()** function is a member function of the STL map class. This function checks to see if an STL map object is empty (contains no key-value pairs) or not and returns a boolean true or false value, respectively
+The C++ Standard Template Library (STL) [map](https://www.codecademy.com/resources/docs/cpp/maps) class **`.empty()`** function is a member function that checks if an STL map object contains no key-value pairs. It returns a boolean `true` if the map is empty and `false` otherwise.
 
 ## Syntax
 
-The STL map class' `.empty()` member function can be called using the dot (.) operator, as shown below.
-
 ```pseudo
-  //If myMap is an STL map object, this statement calls the map class' empty() function.
-  myMap.empty();
+myMap.empty();
 ```
 
-The `.empty()` function takes no parameters and returns either a boolean true or false value. A returned true value indicates that the map is indeed empty, while a false value indicates that the map contains one or more elements.
+The `.empty()` function takes no parameters and returns a boolean value: `true` if the map is empty, and `false` if it contains one or more elements.
 
 ## Example
 
-The following example calls the map class' `.empty()` member function, stores it's return value in a boolean variable, and uses it to display whether or not the map is empty.
+The following example calls the `.empty()` member function of the `map` class, stores its return value in a boolean variable, and uses this value to display whether the map is empty or not:
 
 ```cpp
-  #include <map>
+#include <map>
+using namespace std;
 
-  using namespace std;
-
-  int main(){
-  //Create an empty STL map class object.
+int main(){
+  // Create an empty STL map object.
   map<int, char> emptyMap;
-  
-  //Store the return value of the .empty() member function in a boolean variable, 'isEmpty'.
+
+  // Check if the map is empty using the .empty() member function and store the result in 'isEmpty'.
   bool isEmpty = emptyMap.empty();
 
-  //Use the value stored in 'isEmpty' to display whether the map is empty or not.
-  isEmpty ? printf("The map is empty.") : printf("The map is not empty");
+  // Use the value stored in 'isEmpty' to display whether the map is empty or not.
+  isEmpty ? printf("The map is empty.") : printf("The map is not empty.");
 
   return 0;
-  }
+}
 ```
 
-Running the code above produces the following output:
+The code above produces the following output:
 
 ```shell
-  The map is empty.
+The map is empty.
 ```
 
-## Codebyte Example (if applicable)
+## Codebyte Example
 
-The following code creates two STL map class objects, leaving one empty and initializing the other with a number of elements. The `.empty()` member function is then called on both objects, and it's return value is used in each case to display whether or not the map being considered is empty.
+The following code creates two `STL` map objects, with one left empty and the other initialized with elements. The `.empty()` member function is then called on each map, returning a boolean indicating if the map is empty:
 
 ```codebyte/cpp
-  #include <map> //The 'map' header file must be included to use the C++ Standard Template Library map class.
+#include <map>
+using namespace std;
 
-  using namespace std; //We specify we are using the standard namespace, so we can just type 'map' instead of 'std::map'.
-
-  int main() {
-  //Create an empty map
+int main() {
+  // Create an empty map
   map<int, char> emptyMap;
 
-  //Create a non-empty map using an initializer list
+  // Create a non-empty map using an initializer list
   map<int, char> notEmptyMap{{1, 'a'}, {2, 'b'}, {3, 'c'}};
 
-  //Calling the .empty() function on an empty map.
-  //The function returns true if the map is empty, and false otherwise
+  // Calling the .empty() function on an empty map.
   printf("Testing if emptyMap is empty:\n");
   if (emptyMap.empty()) {
     printf("The map is empty.\n");
-  }
-  else {
+  } else {
     printf("The map is not empty.\n");
   }
 
-  //Calling the .empty() function on a map containing elements:
+  // Calling the .empty() function on a map containing elements
   printf("Testing if notEmptyMap is empty:\n");
   if (notEmptyMap.empty()) {
     printf("The map is empty.\n");
-  }
-  else {
+  } else {
     printf("The map is not empty.\n");
   }
 
   return 0;
-  }
+}
 ```
