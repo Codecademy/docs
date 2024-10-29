@@ -24,60 +24,33 @@ Tags:
 CatalogContent:
   - 'learn-css'
   - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
 ---
 
 Positions an [html](https://www.codecademy.com/resources/docs/html) element of a webpage by taking that element out of the normal flow of the document and pinning it to a specified [position](https://www.codecademy.com/resources/docs/css/position) where it will remain **fixed** in place, even while scrolling the page.
 
 ## Syntax
-## `position: fixed;`
+
+```pseudo
+position: fixed;
+```
 
 An element with a **fixed** position will be positioned relative to the viewport or the html element. In other words, it is fixed relative to the document it self. 
 
->Note: This differs from [absolute](https://www.codecademy.com/resources/docs/css/position/absolute) positioning which is positioned relative to its closest ancestor/parent element whose position is also set to a value of [relative](https://www.codecademy.com/resources/docs/css/position/relative) or **absolute** (a non-static position).
-
-### Bottom, Left, Right, and Top
-As with **absolute** and **relative** positioning, once we have positioned our **fixed** element relative to the viewport, we can manipulate its location using the position properties: 
-
-* [bottom](https://www.codecademy.com/resources/docs/css/position/bottom)
-
-* [left](https://www.codecademy.com/resources/docs/css/position/left)
-
-* [right](https://www.codecademy.com/resources/docs/css/position/right)
-
-* [top](https://www.codecademy.com/resources/docs/css/position/top)
-
-
+> **Note**: This differs from [absolute](https://www.codecademy.com/resources/docs/css/position/absolute) positioning which is positioned relative to its closest ancestor/parent element whose position is also set to a value of [relative](https://www.codecademy.com/resources/docs/css/position/relative) or **absolute** (a non-static position).
 
 ## Example
  
-### HTML
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta lang="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fixed Position</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
-  </head>
-  <body>
-    <nav class="fixed">
-      <h1 class="content">Hello World!</h1>
-    </nav>
-  </body>    
-</html>
-```
-In the code block (above) the nav element with the is given the fixed class in **HTML**.
+This example demonstrates the fixed positioning. Here is the HTML code:
 
-### CSS
+```html
+<nav class="fixed">
+  <h1 class="content">Hello World!</h1>
+</nav>
+```
+
+The CSS code:
 
 ```css
-html {
-  box-sizing: border-box;
-  background-color: black;
-}
-
 nav.fixed {
   display: inline-block;
   height: 80px;
@@ -90,57 +63,14 @@ nav.fixed {
 }
 ```
 
-In the code block (above) the nav element with the *class of fixed* has its position property set to **fixed** in [CSS](https://www.codecademy.com/resources/docs/css) as well as its **top** and **left** properties with values of 50px and 100px respectively.
-This will render in the browser as shown in the image (below).
+In the code block above, the `nav` element with the class `fixed` has its position property set to fixed in CSS, along with its `top` and `left` properties set to values of `50px` and `100px`, respectively.
+
+This configuration means that the navigation bar will remain fixed in place relative to the viewport, appearing 50 pixels from the top and 100 pixels from the left of the browser window. As a result, when the user scrolls, the `nav` element will stay visible at that position. This will render in the browser as shown in the image:
 
 ![Image of a fixed nav element in the browser window/viewport.](https://raw.githubusercontent.com/Codecademy/docs/main/media/position-fixed-example.png)
 
-In the code above, we see that the `nav` element has been taken out of the document flow. As shown in our CSS example, the nav element has been moved 50px from the top (moving it down by 50px) and 100px from the left (moving it right by 100px).
+The `nav` element is taken out of the document flow and positioned `50px` from the top and `100px` from the left. Although the `width` property is set to `100%`, its position may cause it to extend beyond the right side of the viewport, depending on the viewport width and the element's total width (including padding and borders).
 
-> **Note**: Although the `width` property is set to 100%, the nav element is removed from the normal flow of the document and positioned 100px from the left, which may cause it to extend beyond the right side of the viewport depending on the viewport width and the element's total width (including padding and borders).
+If the `nav` element had the `position` property set to [`static`](https://www.codecademy.com/resources/docs/css/position/static) (the default value), it would remain in its default position, flush against the top-left corner of the viewport:
 
-If the `nav` element had the `position` property set to [`static`](https://www.codecademy.com/resources/docs/css/position/static) (the default value), it would remain in its default position, flush against the top-left corner of the viewport.
-
-![Image of a static nav element in the browser window/viewport.]("https://raw.githubusercontent.com/Codecademy/docs/main/media/"position-static-example.png "CSS for the Fixed property")
-
-## Codebyte Example 
-
-
-### HTML
-```codebyte/html
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta lang="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Fixed Postion</title>
-        <link rel="stylesheet" href="static-style.css" type="text/css">
-    </head>
-    <body>
-        <nav class="fixed">
-            <h1 class="content">Hello World!</h1>
-        </nav>
-    </nav>
-    </body>    
-</html>
-```
-
-### CSS
-```codebyte/css
-html {
-    box-sizing: border-box;
-    background-color: black;
-}
-
-nav.fixed {
-    display: inline-block;
-    height: 80px;
-    width: 100%;
-    position: fixed;
-    top: 50px;
-    left: 100px;
-    background-color: white;
-    z-index: 3;
-    border: 4px solid red;
-}
-```
+![Image of a static nav element in the browser window/viewport.](https://raw.githubusercontent.com/Codecademy/docs/main/media/"position-static-example.png)
