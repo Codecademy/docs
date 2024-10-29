@@ -26,7 +26,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Positions an [html](https://www.codecademy.com/resources/docs/html) element of a webpage by taking that element out of the normal flow of the document and pinning it to a specified [position](https://www.codecademy.com/resources/docs/css/position) where it will remain **fixed** in place, even while scrolling the page.
+Positions an [html](https://www.codecademy.com/resources/docs/html) element of a webpage by taking that element out of the normal flow of the document and pinning it to a specified [position](https://www.codecademy.com/resources/docs/css/position) where it will remain fixed in place, even while scrolling the page.
 
 ## Syntax
 
@@ -34,9 +34,9 @@ Positions an [html](https://www.codecademy.com/resources/docs/html) element of a
 position: fixed;
 ```
 
-An element with a **fixed** position will be positioned relative to the viewport or the html element. In other words, it is fixed relative to the document it self. 
+An element with a `fixed` position will be positioned relative to the viewport or the html element. In other words, it is fixed relative to the document it self. 
 
-> **Note**: This differs from [absolute](https://www.codecademy.com/resources/docs/css/position/absolute) positioning which is positioned relative to its closest ancestor/parent element whose position is also set to a value of [relative](https://www.codecademy.com/resources/docs/css/position/relative) or **absolute** (a non-static position).
+> **Note**: This differs from [absolute](https://www.codecademy.com/resources/docs/css/position/absolute) positioning which is positioned relative to its closest ancestor/parent element whose position is also set to a value of [relative](https://www.codecademy.com/resources/docs/css/position/relative) or absolute (a non-static position).
 
 ## Example
  
@@ -73,4 +73,4 @@ The `nav` element is taken out of the document flow and positioned `50px` from t
 
 If the `nav` element had the `position` property set to [`static`](https://www.codecademy.com/resources/docs/css/position/static) (the default value), it would remain in its default position, flush against the top-left corner of the viewport:
 
-![Image of a static nav element in the browser window/viewport.](https://raw.githubusercontent.com/Codecademy/docs/main/media/"position-static-example.png)
+![Image of a static nav element in the browser window/viewport.](https://raw.githubusercontent.com/Codecademy/docs/main/media/position-static-example.png)
