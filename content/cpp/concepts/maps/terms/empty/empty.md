@@ -4,7 +4,6 @@ Description: 'Checks if the map is empty and returns true if it has no elements,
 Subjects: 
   - 'Computer Science'
 Tags:
-  - 'Cpp'
   - 'Data Structures'
   - 'Documentation'
   - 'Functions'
