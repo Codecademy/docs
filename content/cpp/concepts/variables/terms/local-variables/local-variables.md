@@ -2,17 +2,17 @@
 Title: 'Local Variables'
 Description: 'A variable defined inside a function body between braces is called a local variable.'
 Subjects:
-  - 'Game Development'
   - 'Computer Science'
+  - 'Game Development'
 Tags:
-  - 'Variables'
   - 'Data Types'
+  - 'Variables'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
 ---
 
-**Local Variable** is a variable whose scope is only limited to the function where it is defined. It exists and can only be accessed inside a function.
+A **local variable** is a variable whose scope is limited to the function or block where it is defined. It exists only within that function and can only be accessed from there.
 
 ## Syntax
 
@@ -22,7 +22,7 @@ void local_variable(){
 }
 ```
 
-The variable `a_local_variable` is local to the `local_variable` function in which it is defined. It can only be used inside that function and the life of the variable ends when the function exits. 
+The variable `a_local_variable` is local to the `local_variable` function in which it is defined. It can only be accessed and used within that function. When the function `local_variable` exits, the life of `a_local_variable` ends, and its memory is released.
 
 ## Example
 
@@ -62,7 +62,6 @@ void local(){
 
 int main() 
 {
-    local();
-    
+    local();  
 }
 ```
