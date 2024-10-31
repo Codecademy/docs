@@ -1,6 +1,6 @@
 ---
 Title: '.empty()'
-Description: 'Checks if the Deque container is empty or not.'
+Description: 'Returns true if the deque container is empty and false if it contains elements.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
