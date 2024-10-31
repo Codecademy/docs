@@ -22,8 +22,8 @@ In C++, the **`.clear()`** [method](https://www.codecademy.com/resources/docs/cp
 dequeName.clear();
 ```
 
-- Has no parameters passed.
-
+- `dequeName`: The name of the deque container from which all elements will be removed.
+  
 ## Example
 
 The example below showcases the use of the `.clear()` method:
@@ -42,17 +42,19 @@ int main() {
   numbers.push_back(150);
   numbers.push_back(200);
 
-  // Display the elements of the deque
+  // Display the elements of the deque before clearing
   std::cout << "My deque contains: ";
   for (int num : numbers) {
     std::cout << num << " ";
   }
 
+  // Clear all elements from the deque
   numbers.clear();
   std::cout << std::endl;
 
   numbers.push_back(200);
 
+  // Display the elements of the deque after clearing and adding a new element
   std::cout << "My deque contains: ";
   for (int num : numbers) {
     std::cout << num << " ";
@@ -73,8 +75,7 @@ My deque contains: 200
 
 ## Codebyte Example
 
-The following codebyte removes all values prior to calling the `.clear()` method.
-Run the following example to understand the use of the `.clear()` method:
+The following codebyte demonstrates the use of the `.clear()` method, which removes all elements from the deque before adding a new element:
 
 ```codebyte/cpp
 #include <iostream>
