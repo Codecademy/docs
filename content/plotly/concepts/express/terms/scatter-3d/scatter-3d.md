@@ -1,6 +1,6 @@
 ---
 Title: '.scatter_3d()'
-Description: 'Creates a 3D scatter plot to visualize data points across three dimensions (x, y, z) with options for color, size, and hover data.
+Description: 'Creates a 3D scatter plot to visualize data points across three dimensions (x, y, z) with options for color, size, and hover data.'
 Subjects:
   - 'Data Science'
   - 'Data Visualization'
