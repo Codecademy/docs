@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C++, the **`.empty()`** [method](https://www.codecademy.com/resources/docs/cpp/methods) checks if the deque container is empty (size is 0) or not.
+In C++, the **`.empty()`** [method](https://www.codecademy.com/resources/docs/cpp/methods) checks if the deque container is empty (i.e., if its size is 0) and returns `true` if it is empty or `false` otherwise.
 
 ## Syntax
 
@@ -22,8 +22,7 @@ In C++, the **`.empty()`** [method](https://www.codecademy.com/resources/docs/cp
 dequeName.empty();
 ```
 
-- Has no parameters passed.
-- Returns `true` if empty and returns `false` if not empty.
+- `dequeName`: The variable name of the deque being checked for emptiness.
 
 ## Example
 
@@ -63,8 +62,7 @@ Deque is empty: False
 
 ## Codebyte Example
 
-The following codebyte removes all values prior to calling the `.clear()` method.
-Run the following example to understand the use of the `.clear()` method:
+The following codebyte uses the `.clear()` method on a deque and checks its emptiness by outputting a boolean value using the `.empty()` method:
 
 ```codebyte/cpp
 #include <iostream>
@@ -78,14 +76,19 @@ int main() {
   myDeque.push_back("Bus");
   myDeque.push_back("Train");
   
-  if (myDeque.empty()) {
-    std::cout << "Deque is empty";
+  // Displaying vehicles before clearing the deque
+  std::cout << "Vehicles before clearing:";
+  for (const auto& value : myDeque) {
+    std::cout << ' ' << value;
   }
-  else {
-    std::cout << "Vehicles:";
-    for (const auto& value : myDeque) {
-      std::cout << ' ' << value;
-    }
-  }
+  std::cout << std::endl;
+
+  // Clear all elements from the deque
+  myDeque.clear();
+
+  // Boolean output indicating if the deque is empty after clearing
+  std::cout << "Deque is empty after clearing: " << std::boolalpha << myDeque.empty() << std::endl;
+
+  return 0;
 }
 ```
