@@ -16,7 +16,7 @@ The **`.Substring()`** method is a string method that returns a substring of a s
 
 ## Syntax
 
-```psuedo
+```pseudo
 Substring(int startIndex);
 Substring(int startIndex, int Length)
 ```
