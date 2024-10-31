@@ -1,6 +1,6 @@
 ---
 Title: 'List'
-Description: 'List is a sequential container that stores elements non-contiguous memory locations.'
+Description: 'List in C++ is a sequential container that stores elements in non-contiguous memory locations, allowing for efficient insertion and deletion at any position.'
 Subjects:
   - 'Game Development'
   - 'Mobile Development'
@@ -14,17 +14,18 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**List** in C++ is a sequential container and a part of the Standard Template Library (STL) that stores elements in non-contiguous memory locations. The list is implemented using a doubly linked list. It allows proficient insertion and deletion of elements at any known position with constant time complexity.
+**List** in C++ is a sequential container and part of the Standard Template Library (STL) that stores elements in non-contiguous memory locations. It is implemented as a doubly linked list, allowing efficient insertion and deletion of elements at any known position with average constant time complexity.
 
 ## Syntax
 
 ```pseudo
 #include <list>
 
-std::list<type> myList;
+std::list<data-type> name_of_list;
 ```
 
->**Note**: To use `list` in C++, include the `list` library is necessary.
+- `data-type`: Specifies the type of elements stored in the list, which can be any valid C++ type (e.g., `int`, `double`, or user-defined types).
+- `name_of_list`: The variable name for the list instance, used to reference and manipulate the list within the code.
 
 ## Example
 
@@ -70,6 +71,8 @@ Updated list elements after deletion: 5 20
 ```
 
 ## Codebyte Example
+
+Run the following codebyte example to understand how List works in C++:
 
 ```codebyte/cpp
 #include <iostream>
