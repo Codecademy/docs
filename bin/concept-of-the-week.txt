@@ -1,1 +1,1 @@
-content/general/concepts/jit-compilation/jit-compilation.md
+content/git/concepts/reset/reset.md
