@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.Substring()`** method is a string method that returns a substring of a string starting at a given index number, it will return all characters past the index unless a length is given. This method returns `Empty` if the index is greater than the length of the string instance.
+The **`.Substring()`** method is a string method that returns a substring of a string starting at the given index number, it will return all characters unless a maximum length is given. This method returns `Empty` if the index is greater than the length of the string instance.
 
 ## Syntax
 
@@ -22,16 +22,16 @@ Substring(int startIndex, int Length)
 ```
 
 - `startIndex`: The index from where the substring starts.
-- `Length`: The length of the substring - (Optional).
+- `Length`: The maximum length of the substring - (Optional).
 
 ## Example
 
-In this example, `.Substring()` is used to return the substring of "Codecademy" starting at, but not including, index "3".
+In this example, `.Substring()` is used to return the substring of "Codecademy" starting at, and including, index "4".
 
 ```cs
 string str = "Codecademy";
 
-Console.WriteLine(str.Substring(3));
+Console.WriteLine(str.Substring(4));
 ```
 
 It returns the following output.
@@ -42,12 +42,12 @@ It returns the following output.
 
 ## Example 2
 
-Here, `.Substring()` is used with the optional "Length" value so that it returns a string composed of the 6 characters after index 1.
+Here, `.Substring()` is used with the optional "Length" value so that it returns a string composed of the 6 characters from index 2.
 
 ```cs
 string str = "Codecademy";
 
-Console.WriteLine(str.Substring(1, 6));
+Console.WriteLine(str.Substring(2, 6));
 ```
 
 It returns the following output.
@@ -69,8 +69,8 @@ public class Example
         string Name1 = "Brad";
         string Name2 = "Angelina";
 
-        Console.WriteLine(Name1.Substring(0));
-        Console.WriteLine(Name2.Substring(0));
+        Console.WriteLine(Name1.Substring(1));
+        Console.WriteLine(Name2.Substring(1));
     }
 }
 ```
