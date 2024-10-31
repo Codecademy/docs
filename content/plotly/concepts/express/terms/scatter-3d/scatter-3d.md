@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.scatter_3d()`** method in the ![Plotly Express module](https://www.codecademy.com/resources/docs/plotly/express) creates a 3D scatter plot to visualize the relationships between three variables using markers in a three-dimensional space. The data points are plotted based on their values on the `x`, `y`, and `z` axes. It also allows customizing marker colors, sizes, and symbols.
+The **`.scatter_3d()`** method in the [Plotly Express module](https://www.codecademy.com/resources/docs/plotly/express) creates a 3D scatter plot to visualize the relationships between three variables using markers in a three-dimensional space. The data points are plotted based on their values on the `x`, `y`, and `z` axes. It also allows customizing marker colors, sizes, and symbols.
 
 ## Syntax
 
