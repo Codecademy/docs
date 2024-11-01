@@ -26,10 +26,14 @@ import torch
 import torch.nn as nn
 
 # Define the model for the neural network
-# Example: model = sequential()
-   # Define layers and activation functions here
-   # Example: nn.linear(in_features, out_features)
+model = nn.Sequential(
+    # Define layers and activation functions here
+    nn.Linear(in_features, out_features)
+    nn.ReLU()
+    nn.Linear(in_features, out_features)
+)
 ```
+
 ## Example
 
 Below is an example of a basic Multi-**Layer** sequential neural network where data flows down through the specified sequence of layers and activation functions:
@@ -38,7 +42,7 @@ Below is an example of a basic Multi-**Layer** sequential neural network where d
 import torch
 import torch.nn as nn
 
-model = sequential(
+model = nn.Sequential(
     nn.Linear(56,128),
     nn.ReLU(),
     nn.Linear(128,26),
