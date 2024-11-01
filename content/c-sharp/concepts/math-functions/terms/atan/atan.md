@@ -23,6 +23,32 @@ Math.Atan(x);
 - The `Math.Atan()` method takes one double as an argument and returns a double.
 - Using this method requires the `System` namespace.
 
+## Example
+
+This example returns the angle itself.
+
+```Example
+using System;
+
+class sample
+{
+    public static void Main()
+    {
+        double value = 1.0; // tangent of an angle
+        double angleInRadians = Math.Atan(value);
+        Console.WriteLine("The arctangent of the angle in radians: {0}",angleInRadians);  // angle in radians (π/4 radians) 
+        double angleInDegrees = angleInRadians * (180 / Math.PI);
+        Console.WriteLine("The arctangent of the angle in degrees: {0}",angleInDegrees);  // angle in degrees
+    }
+}
+
+```
+
+```shell
+The arctangent of the angle in radians: 0.785398163397448
+The arctangent of the angle in degrees: 45
+```
+
 ## Codebyte Example
 
 The following example uses `Math.Atan()` to return the arctangent of a right angled triangle, where the side opposite the angle is equal to 7, and the side adjacent is 5.
