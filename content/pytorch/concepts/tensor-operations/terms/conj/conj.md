@@ -25,7 +25,7 @@ torch.conj(tensor)
 
 ## Example
 
-The following example illustrates the usage of `.conj()` in various scenarios:
+The following example illustrates the usage of `.conj()`:
 
 ```py
 import torch
