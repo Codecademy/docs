@@ -21,27 +21,34 @@ CatalogContent:
 
 ## Syntax
 
-[Text, code, images, parameters, etc. about the syntax]
+
+
+By using PyTorch's sequential() method to build a neural network, we can specify **layers** and activation functions in sequence from input to output as show below:
+
+```pseudo
+import torch
+import torch.nn as nn
+
+# Define the model for the neural network
+# Example: model = sequential()
+   # Define layers and activation functions here
+   # Example: nn.linear(in_features, out_features)
+
+```
 
 ## Example
 
-[Text, code, images, etc. about example 1]
+Below is an example of a basic Multi-**Layer** sequential neural network where data flows down through the specified sequence of layers and activation functions:
 
-## Codebyte Example (if applicable)
+```py
+import torch
+import torch.nn as nn
 
-We can currently support:
-
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
-
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
-
-```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
+model = sequential(
+    nn.Linear(56,128),
+    nn.ReLU(),
+    nn.Linear(128,26),
+    nn.ReLU(),
+    nn.Linear(26,1)
+)
 ```
