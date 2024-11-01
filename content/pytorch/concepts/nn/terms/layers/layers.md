@@ -17,11 +17,7 @@ CatalogContent:
 
 **Layers** are higher-level constructs built from **Tensors**, used to define the architecture of neural networks in PyTorch. Neural networks are created by stacking layers in specific patterns to transform input data into outputs, such as image classifications or predictions. PyTorch offers various layers, including **Linear**, **Convolutional**, **Recurrent**, **Pooling**, and **Transformer layers**, each optimized for tasks like image recognition or natural language processing. By stacking multiple layers, neural networks can learn complex patterns, making them effective for a variety of AI applications.
 
-
-
 ## Syntax
-
-
 
 By using PyTorch's sequential() method to build a neural network, we can specify **layers** and activation functions in sequence from input to output as show below:
 
@@ -33,9 +29,7 @@ import torch.nn as nn
 # Example: model = sequential()
    # Define layers and activation functions here
    # Example: nn.linear(in_features, out_features)
-
 ```
-
 ## Example
 
 Below is an example of a basic Multi-**Layer** sequential neural network where data flows down through the specified sequence of layers and activation functions:
