@@ -55,21 +55,21 @@ The following codebyte creates different arrays and demonstrates applying `np.lo
 ```codebyte/python
 import numpy as np
 
-# Single element array
+# Create an array containing a single element
 single_element_array = np.array([10])
 print("Single element array:")
 print(single_element_array)
 print("Log of single element array:")
 print(np.log(single_element_array))
 
-# Multiple elements array
+# Create an array containing multiple elements
 multiple_elements_array = np.array([1, 10, 100])
 print("\nMultiple elements array:")
 print(multiple_elements_array)
 print("Log of multiple elements array:")
 print(np.log(multiple_elements_array))
 
-# Higher-dimensional array
+# Create an array having more than 1 dimension
 higher_dimensional_array = np.array([[1, 2], [3, 4]])
 print("\nHigher-dimensional array:")
 print(higher_dimensional_array)
