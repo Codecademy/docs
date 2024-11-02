@@ -186,26 +186,25 @@ When add function is called with string parameters: HelloWorld!
 
 ## Recursion
 
-Recursion is a technique that allows a function to call itself. In C++, the function that calls itself is called a recursive function.
+Recursion is a technique that allows a function to call itself. In C++, the function that calls itself is called a recursive function:
 
 ```cpp
 #include <iostream>
 using namespace std;
 
 int sum(int m) {
-    if (m > 0) {
-        return m + sum(m - 1); // Recursive call
-    } else {
-        return 0; // Base case
-    }
+  if (m > 0) {
+    return m + sum(m - 1); // Recursive call
+  } else {
+    return 0; // Base case
+  }
 }
 
 int main() {
-    int result = sum(5);
-    cout << result; // Output: 15
-    return 0;
+  int result = sum(5);
+  cout << result;
+  return 0;
 }
-
 ```
 
 This program will output the following result:
