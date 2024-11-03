@@ -1,6 +1,6 @@
 ---
 Title: '.narrow()'
-Description: 'Selects a narrow subsection of a tensor along the specified dimension.'
+Description: 'Returns a narrow subsection of a tensor along the specified dimension.'
 Subjects:
   - 'Computer Science'
   - 'Machine Learning'
@@ -13,22 +13,22 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In PyTorch, the **`.narrow()`** function is used to select a subsection of a tensor along a specified dimension. It returns a narrowed view without copying data. It is useful for extracting specific sections of large tensors without creating new memory allocations.
+In PyTorch, the **`.narrow()`** method selects a subsection of a tensor along a specified dimension. It returns a narrowed view without copying the underlying data, making it efficient for extracting specific sections of large tensors without incurring additional memory allocations.
 
 ## Syntax
 
 ```pseudo
-torch.narrow(tensor, dim, start, length)
+torch.narrow(input, dim, start, length)
 ```
 
-- `tensor`: The tensor to be narrowed.
+- `input`: The tensor to be narrowed.
 - `dim`: The dimension along which the input tensor is narrowed.
 - `start`: The starting index where the narrowing begins. This can be a positive integer, a negative integer (to index from the end of `dim`), or a 0-dimensional integer tensor.
 - `length`: The number of elements to include from the starting position.
 
 ## Example
 
-The following example illustrates the usage of `.narrow()` function in various scenarios:
+The following example illustrates the usage of `.narrow()` method in various scenarios:
 
 ```py
 import torch
