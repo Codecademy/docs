@@ -130,7 +130,7 @@ class Circle {
 };
 
 int main() {
-  Circle circle2(11);
+  Circle circle2(10);
   std::cout << "The radius of the circle2 is " << circle2.radius << std::endl;
 }
 ```
