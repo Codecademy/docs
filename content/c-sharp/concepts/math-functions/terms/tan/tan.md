@@ -55,7 +55,7 @@ public class Example {
 The example will result in the following output:
 
 ```shell
-The tangent of 30 degrees is: 0.577350269189626
+The tangent of 30 degrees is: 0.5773502691896257
 ```
 
 ## Codebyte Example
