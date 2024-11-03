@@ -73,7 +73,7 @@ Case 3: 'Codecademy'
 
 ## Codebyte Example
 
-The following runnable example demonstrates different use cases for `.PadLeft()`, including padding with spaces by default and padding with a specified character
+The following runnable example demonstrates different use cases for `.PadLeft()`, including padding with spaces by default and padding with a specified character:
 
 ```codebyte/csharp
 using System;
@@ -85,7 +85,7 @@ class Program {
         char padChar = '.';
 
         Console.WriteLine($"Original string: '{str}'");
-        
+
         // Default padding with spaces to reach the specified total length
         string paddingDefault = str.PadLeft(totalLength);
         Console.WriteLine($"Padded with spaces to length {totalLength}: '{paddingDefault}'");
