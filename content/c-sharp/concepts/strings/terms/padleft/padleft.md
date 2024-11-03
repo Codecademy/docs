@@ -1,6 +1,6 @@
 ---
 Title: '.PadLeft()'
-Description: 'Pads the beginning of a string with spaces or a specified character until it reaches the given total length.'
+Description: 'Pads the beginning of a string with spaces or a specified character to reach a specified total length.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -13,17 +13,23 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C#, the **`.PadLeft()`** method adds padding to the start of a string until it reaches the specified total length. If a padding character is not specified, a space is used by default.
-This method returns a new string and does not modify the original string.
+In C#, the **`.PadLeft()`** method adds padding to the start of a string until it reaches the specified total length. If a padding character is not specified, it defaults to spaces. This method returns a new string, leaving the original string unchanged.
 
 ## Syntax
 
 ```pseudo
-string.PadLeft(int totalWidth)
-string.PadLeft(int totalWidth, char paddingChar)
+// Pads the string with spaces to reach the specified total width.
+string.PadLeft(int totalWidth);
 ```
 
-- `totalWidth`: Total length of the string after padding.
+Or, alternatively:
+
+```pseudo
+// Pads the string with a specified character to reach the specified total width.
+string.PadLeft(int totalWidth, char paddingChar);
+```
+
+- `totalWidth`: The desired total length of the string after padding.
 - `paddingChar` (Optional): The character used for padding. If not specified, a space is used by default.
 
 ## Example
