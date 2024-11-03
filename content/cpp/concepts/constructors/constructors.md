@@ -50,14 +50,14 @@ int main() {
 }
 ```
 
-The result of following code:
+The result of the following code:
 
 ```cpp
 The constructor was executed!
 ```
 
 - Parameterized Constructor
-  A parameterized constructor is one that accepts arguments, allowing initial values to be set for an object's attrubutes at the time of creation. This constructor is useful for initializing objects with custom data or values that differ between instances.
+  A parameterized constructor is one that accepts arguments, allowing initial values to be set for an object's attributes at the time of creation. This constructor is useful for initializing objects with custom data or values that differ between instances.
 
 ```cpp
 class Rectangle {
@@ -83,7 +83,7 @@ int main() {
 }
 ```
 
-The result of following code:
+The result of the following code:
 
 ```cpp
 Rectangle 1: Width = 10, Height = 20
@@ -92,7 +92,7 @@ Rectangle 2: Width = 5, Height = 15
 
 ## Codebyte Example
 
-Run the following codebyte example below to see how constructors work:
+Run the codebyte example below to see how constructors work:
 
 - Basic Constructor
 
