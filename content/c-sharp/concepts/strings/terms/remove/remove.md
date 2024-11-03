@@ -1,6 +1,6 @@
 ---
 Title: '.Remove()'
-Description: 'Removes a certain number of characters from a string at a defined index.'
+Description: 'Removes a specified number of characters from a string starting at a defined index and returns the modified string.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -13,24 +13,28 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **Remove()** method removes characters from a specific position in a string. The original string remains unchanged, and the modified string is returned
+In C#, the **`.Remove()`** method removes characters from a specific position in a string, starting at a given index. The original string remains unchanged, and the modified string is returned.
 
 ## Syntax
 
 ```pseudo
-// Removes characters from StartIndex to the end.
-Remove(int StartIndex);
-
-// Removes characters starting from StartIndex, equal to the number specified by count.
-Remove(int StartIndex, int count);
+// Removes characters from startIndex to the end of the string.
+string.Remove(int startIndex);
 ```
 
-- `StartIndex` is the specified position from where the removal should start.
-- `int count` is the number of characters to be removed.
+Or, alternatively:
+
+```pseudo
+// Removes a specified number of characters starting at startIndex.
+string.Remove(int startIndex, int count);
+```
+
+- `startIndex`: The zero-based position in the string where removal begins.
+- `int count` (Optional): The number of characters to remove from the specified `startIndex`.
 
 ## Example
 
-The following example shows how to use the `.Remove()` method.
+The following example shows how to use the `.Remove()` method:
 
 ```cs
 using System;
@@ -53,12 +57,14 @@ public class RemoveExample
 
 The output of the following code:
 
-```cs
+```pseudo
 New string1: ABCDE
 New string2: ABHIJ
 ```
 
 ## Codebyte Example
+
+Run the following codebyte example to understand how the `.Remove()` method works:
 
 ```codebyte/csharp
 using System;
