@@ -1,6 +1,6 @@
 ---
 Title: 'Functions'
-Description: 'A function is a set of statements that are executed together when the function is called. Every function has a name, which is used to call the respective function. C++ has many built-in functions.'
+Description: 'Functions are self-contained blocks of code designed to perform specific tasks, allowing for code reuse and modularity.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -182,4 +182,33 @@ This will output:
 ```shell
 When add function is called with integer parameters: 20
 When add function is called with string parameters: HelloWorld!
+```
+
+## Recursion
+
+Recursion is a technique that allows a function to call itself. In C++, the function that calls itself is called a recursive function:
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int sum(int m) {
+  if (m > 0) {
+    return m + sum(m - 1); // Recursive call
+  } else {
+    return 0; // Base case
+  }
+}
+
+int main() {
+  int result = sum(5);
+  cout << result;
+  return 0;
+}
+```
+
+This program will output the following result:
+
+```shell
+15
 ```
