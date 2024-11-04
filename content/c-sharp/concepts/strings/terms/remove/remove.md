@@ -30,7 +30,7 @@ string.Remove(int startIndex, int count);
 ```
 
 - `startIndex`: The zero-based position in the string where removal begins.
-- `int count` (Optional): The number of characters to remove from the specified `startIndex`.
+- `count` (Optional): The number of characters to remove from the specified `startIndex`.
 
 ## Example
 
