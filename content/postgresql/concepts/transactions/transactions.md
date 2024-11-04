@@ -4,15 +4,14 @@ Description: Transactions bundle one or more steps into a single unit of work; a
 Subjects:
   - 'Computer Science'
   - 'Data Science'
-  - 'An nth subject name'
+  - 'Developer Tools'
 Tags:
   - 'PostgreSQL'
   - 'Database'
   - 'Finance'
 CatalogContent:
-  - 'paths/design-databases-with-postgresql'
-  - 'getting-started-off-platform-for-data-science'
-  - 'ext-courses/google-associate-cloud-engineer-configuring-google-cloud'
+  - 'paths/data-science'
+  - 'paths/data-science-foundations'
 ---
 
 **Transactions** are a fundamental concept in PostgreSQL that bundles one or more steps into a single unit of work. It is an all-or-nothing operation where all statements succeed or all statements fail. The intermediate states between the steps are not visible to other concurrent transactions, and if a failure occurs that prevents the transaction from completing, it does not affect the database.
@@ -21,7 +20,7 @@ Examples for when to use transactions would be in finance, such as a bank databa
 
 ## Syntax
 
-There are three main commands in a transaction. These are the `BEGIN`, `COMMIT`, and `ROLLBACK` statements.
+There are three main commands in a transaction. These are `BEGIN`, `COMMIT`, and `ROLLBACK`.
 
 `BEGIN` starts a transaction block.
 
@@ -61,7 +60,7 @@ ROLLBACK;
 
 ## Example 1
 
-A customer named Alice has a bank account. Here is an oversimplified example that demonstrates the usage of a transaction block using the `BEGIN` and `COMMIT` commands:
+A customer named Alice has an initial balance of $500.00 in their bank account. Here is an example that demonstrates the usage of a transaction block using the `BEGIN` and `COMMIT` commands:
 
 ```sql
 BEGIN;
@@ -71,29 +70,53 @@ UPDATE accounts SET balance = balance - 100.00
 COMMIT;
 ```
 
+After the transaction, $100 has been deducted from Alice's balance. To verify Alice's updated balance, run a query on the `accounts` table to see the output:
+
+```sql
+SELECT balance FROM accounts WHERE name = 'Alice';
+-- Output: 400.00
+```
+
 The transaction is set up by surrounding the SQL commands with `BEGIN` and `COMMIT` commands.
 
 ## Example 2
 
-Customers Alice, Bob, and Carol each have bank accounts.
+Customers Alice, Bob, and Carol each start with $500.00 in their bank accounts.
 
 To have more control over statements in a transaction, the use of the `SAVEPOINT` command allows a savepoint to be defined. After defining a savepoint, if needed, the transaction can be rolled back to the savepoint with the `ROLLBACK TO` command.
 
-Here is an oversimplified example that demonstrates the usage of a transaction block, implementing the `SAVEPOINT` and `ROLLBACK TO` commands, giving more control over the statements within the transaction block:
+Here is an example that demonstrates the usage of a transaction block, implementing the `SAVEPOINT` and `ROLLBACK TO` commands, giving more control over the statements within the transaction block:
 
 ```sql
 BEGIN;
 UPDATE accounts SET balance = balance - 100.00
   WHERE name = 'Alice';
+-- Output: Alice's account was deducted by 100.00 and now has 400.00
 -- add a savepoint for Alice's account
 SAVEPOINT my_savepoint;
 UPDATE accounts SET balance = balance + 100.00
   WHERE name = 'Bob';
+-- Output: Bob's account was increased by 100.00 and now Bob has 600.00
 -- oops ... this wasn't for Bob, use Carol's account
 ROLLBACK TO my_savepoint;
+-- No Output: Bob's account reverts back to 500.00
 UPDATE accounts SET balance = balance + 100.00
   WHERE name = 'Carol';
+  -- Output: Carol's account was increased by 100.00 and now Carol has 600.00
 COMMIT;
+```
+
+To verify the balances after the transaction, query the `accounts` table to get each person's balance:
+
+```sql
+SELECT balance FROM accounts WHERE name = 'Alice';
+-- Output: 400.00
+
+SELECT balance FROM accounts WHERE name = 'Bob';
+-- Output: 500.00
+
+SELECT balance FROM accounts WHERE name = 'Carol';
+-- Output: 600.00
 ```
 
 Using the `SAVEPOINT` selectively discards parts of the transaction, while committing the rest.
