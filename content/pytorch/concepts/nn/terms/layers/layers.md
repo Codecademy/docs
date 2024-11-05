@@ -20,7 +20,7 @@ Layers are modules that perform operations on input data to build neural network
 
 ## Syntax
 
-By using PyTorch's sequential() method to build a neural network, we can specify **layers** and activation functions in sequence from input to output as show below:
+By using PyTorch's `.Sequential()` method to build a neural network, we can specify layers and activation functions in sequence from input to output as shown below:
 
 ```pseudo
 import torch
