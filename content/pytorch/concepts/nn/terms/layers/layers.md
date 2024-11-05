@@ -29,8 +29,8 @@ import torch.nn as nn
 # Define the model for the neural network
 model = nn.Sequential(
     # Define layers and activation functions here
-    nn.Linear(in_features, out_features)
-    nn.ReLU()
+    nn.Linear(in_features, out_features),
+    nn.ReLU(),
     nn.Linear(in_features, out_features)
 )
 ```
