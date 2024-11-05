@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.contains`** method returns a Boolean value that indicates whether a dictionary contains a specified key. The method takes a single argument, which is a key. If the dictionary contains the specified key, the method returns `true` otherwise, it returns `false`.
+The **.contains()** method returns a Boolean value that indicates whether a dictionary contains a specified key. The method takes a single argument, which is a key. If the dictionary contains the specified key, the method returns `true` otherwise, it returns `false`.
 
 ## Syntax
 
