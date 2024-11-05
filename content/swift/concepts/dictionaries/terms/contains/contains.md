@@ -1,5 +1,5 @@
 ---
-Title: 'contains'
+Title: '.contains()'
 Description: 'A Boolean value that indicates whether a dictionary contains a specified key.'
 Subjects:
   - 'Mobile Development'
