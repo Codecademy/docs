@@ -18,7 +18,7 @@ The **.contains()** method returns a Boolean value that indicates whether a dict
 ## Syntax
 
 ```pseudo
-dictionaryInstance.contains(where: { key, value in
+dictionaryInstance.contains(where: { (key, value) in
   return key == "key" && value == "value"
 })
 ```
