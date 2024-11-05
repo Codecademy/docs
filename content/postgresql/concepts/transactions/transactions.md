@@ -24,7 +24,7 @@ There are three main commands in a transaction. These are `BEGIN`, `COMMIT`, and
 
 `BEGIN` starts a transaction block.
 
-```sql
+```pseudo
 BEGIN;
 ```
 
