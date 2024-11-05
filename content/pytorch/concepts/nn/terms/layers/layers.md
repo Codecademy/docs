@@ -1,5 +1,5 @@
 ---
-Title: 'layers'
+Title: 'Layers'
 Description: 'Layers and their role in PyTorch neural networks.' 
 Subjects:
   - 'AI'
