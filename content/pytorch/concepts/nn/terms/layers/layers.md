@@ -1,6 +1,6 @@
 ---
 Title: 'Layers'
-Description: 'Layers and their role in PyTorch neural networks.' 
+Description: 'Layers are modules that perform operations on input data to build neural networks.' 
 Subjects:
   - 'AI'
   - 'Machine Learning'
