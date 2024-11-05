@@ -12,6 +12,7 @@ Tags:
   - 'Models'
 CatalogContent:
   - 'learn-intro-to-py-torch-and-neural-networks'
+  - 'py-torch-for-classification'
   - 'paths/machine-learning'
 ---
 
