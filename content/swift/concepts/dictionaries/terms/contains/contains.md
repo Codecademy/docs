@@ -38,7 +38,7 @@ print(fruitStand.contains(where: { (key, value) in
   return key == "Apples" && value == 12
 }))
 
-print(fruitStand.contains(where: { key, value in
+print(fruitStand.contains(where: { (key, value) in
   return key == "Grapes" && value == 10
 }))
 ```
