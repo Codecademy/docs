@@ -7,7 +7,7 @@ Subjects:
   - 'iOS'
 Tags:
   - 'Dictionary'
-  - 'Properties'
+  - 'Methods'
 CatalogContent:
   - 'learn-swift'
   - 'paths/build-ios-apps-with-swiftui'
