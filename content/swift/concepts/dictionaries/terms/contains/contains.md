@@ -34,7 +34,7 @@ var fruitStand = [
   "Oranges": 17
 ]
 
-print(fruitStand.contains(where: { key, value in
+print(fruitStand.contains(where: { (key, value) in
   return key == "Apples" && value == 12
 }))
 
