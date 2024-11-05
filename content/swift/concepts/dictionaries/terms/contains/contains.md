@@ -43,7 +43,7 @@ print(fruitStand.contains(where: { (key, value) in
 }))
 ```
 
-This will output:
+This example returns in the following output:
 
 ```shell
 true
