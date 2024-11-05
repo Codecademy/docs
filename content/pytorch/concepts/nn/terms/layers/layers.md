@@ -37,7 +37,7 @@ model = nn.Sequential(
 
 ## Example
 
-Below is an example of a basic Multi-**Layer** sequential neural network where data flows down through the specified sequence of layers and activation functions:
+Below is an example of a basic multi-layer neural network defined using PyTorch's `nn.Sequential()` method, where the data is processed through a specified sequence of layers and activation functions:
 
 ```py
 import torch
