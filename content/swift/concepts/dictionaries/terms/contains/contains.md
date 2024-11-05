@@ -4,6 +4,7 @@ Description: 'A Boolean value that indicates whether a dictionary contains a spe
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'
+  - 'iOS'
 Tags:
   - 'Dictionary'
   - 'Properties'
