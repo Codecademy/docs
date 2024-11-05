@@ -1,4 +1,3 @@
-
 ---
 Title: '.gather()'
 Description: 'Retrieves specific elements from a tensor along a defined axis, ideal for selecting values based on indices in data processing and machine learning.'
