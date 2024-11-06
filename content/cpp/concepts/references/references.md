@@ -61,7 +61,7 @@ This saves the computational cost of making a copy of the argument.
 
 ```cpp
 int triple(int const &i) {
-return i \* 3;
+  return i * 3;
 }
 ```
 
