@@ -45,7 +45,7 @@ fun main() {
 }
 ```
 
-The code above generates the following output:
+This example results in the following output:
 
 ```shell
 [2, 4, null, null, null]
