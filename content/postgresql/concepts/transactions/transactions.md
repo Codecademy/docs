@@ -24,7 +24,7 @@ There are three main commands in a transaction. These are `BEGIN`, `COMMIT`, and
 
 `BEGIN` starts a transaction block.
 
-```sql
+```pseudo
 BEGIN;
 ```
 
@@ -32,19 +32,19 @@ If you do _not_ issue a `BEGIN` command, each individual statement has an implic
 
 `COMMIT` permanently saves the changes made within the transaction block to the database.
 
-```sql
+```pseudo
 COMMIT;
 ```
 
 `ROLLBACK` is used to undo a transaction. It cancels all changes made in the current transaction block. This can also be used if partway through the transaction, there is no need to commit these changes.
 
-```sql
+```pseudo
 ROLLBACK;
 ```
 
 Putting it all together, here is the general syntax for the three commands:
 
-```sql
+```pseudo
 BEGIN;
 -- set of statements
 COMMIT;
@@ -52,7 +52,7 @@ COMMIT;
 
 or
 
-```sql
+```pseudo
 BEGIN;
 -- set of statements
 ROLLBACK;
