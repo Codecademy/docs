@@ -1,6 +1,6 @@
 ---
 Title: 'References'
-Description: "A reference variable is an alias for another object. It is created using the & sign. Two things to note: Anything done to the reference also happens to the original and aliases cannot be changed to alias something else."
+Description: "A reference variable is an alias for another object."
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -13,12 +13,12 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **reference** variable is an alias for another object. It is created using the '&' sign.
+A **reference** variable is an alias for another object. It is created using the '&' sign. It is created using the `&` sign. Two things to note, anything done to the reference also happens to the original and aliases cannot be changed to alias something else.
 
 Two things to note:
 
 - Anything done to the reference also happens to the original.
-- Aliases cannot be changed to alias something else.
+- Aliases cannot be changed to alias or something else.
 
 ## Syntax
 
@@ -89,25 +89,6 @@ std::cout << "The new speed is: " << myCar.speed << "\n";
 }
 int triple(int const &i) {
 return i * 3;
-}
-```
-
-## Reference vs Pointer
-
-References and pointers are similar in their usage but have key differences:
-References are aliases for variables and cannot be reseated (i.e., they cannot be made to refer to another object after initialization).
-Pointers, on the other hand, store the memory address of variables and can be reassigned to point to different memory locations.
-
-```cpp
-int main() {
-int a = 10;
-int b = 20;
-int &ref = a; // Reference to 'a'
-int *ptr = &a; // Pointer to 'a'
-ref = b; // This modifies 'a' (not the reference itself)
-ptr = &b; // This changes the pointer to point to 'b'
-std::cout << "Reference points to: " << a << "\n"; // 20
-std::cout << "Pointer now points to: " << *ptr << "\n"; // 20
 }
 ```
 
