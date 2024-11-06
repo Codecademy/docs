@@ -23,8 +23,8 @@ torch.gather(input, dim, index)
 ```
 
 - `input`: The source tensor from which values are gathered.
-- `dim`: The dimension along which the gather operation is performed.
-- `index`: A tensor of indices specifying which values to gather from each row (or column) along the specified dimension.
+- `dim`: The dimension along which to gather values. This is the axis in the `input` tensor where the selection occurs.
+- `index`: A tensor of indices specifying which values to gather from the `input` tensor along the specified `dim`.
 
 The function returns a tensor of the same shape as `index`, where each value is gathered from the `input` tensor based on the specified `index`.
 
