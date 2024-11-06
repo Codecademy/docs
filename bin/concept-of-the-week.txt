@@ -1,1 +1,1 @@
-content/general/concepts/jit-compilation/jit-compilation.md
+content/sql/concepts/data-types/data-types.md
