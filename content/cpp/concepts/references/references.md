@@ -5,10 +5,9 @@ Subjects:
   - 'Computer Science'
   - 'Game Development'
 Tags:
-  - "References"
-  - "Pointers"
-  - "Parameters"
-  - "Memory"
+  - 'Memory'
+  - 'Parameters'
+  - 'References'
 CatalogContent:
   - "learn-c-plus-plus"
   - "paths/computer-science"
