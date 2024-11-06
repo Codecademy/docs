@@ -46,7 +46,7 @@ int main() {
   int a = 100;
   int b = 200;
 
-swap_num(a, b);
+  swap_num(a, b);
 
 std::cout << "A is " << a << "\n";
 std::cout << "B is " << b << "\n";
