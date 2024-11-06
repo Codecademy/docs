@@ -37,9 +37,9 @@ It allows the ability to:
 
 ```cpp
 void swap_num(int &i, int &j) {
-int temp = i;
-i = j;
-j = temp;
+  int temp = i;
+  i = j;
+  j = temp;
 }
 
 int main() {
