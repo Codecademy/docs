@@ -118,7 +118,7 @@ Passing arrays by reference is also useful for avoiding unnecessary copies, espe
 ```cpp
 void modifyArray(int (&arr)[5]) {
 for (int i = 0; i < 5; i++) {
-arr[i] = arr[i] \* 2;
+arr[i] = arr[i] * 2;
 }
 }
 
