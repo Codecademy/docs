@@ -43,8 +43,8 @@ void swap_num(int &i, int &j) {
 }
 
 int main() {
-int a = 100;
-int b = 200;
+  int a = 100;
+  int b = 200;
 
 swap_num(a, b);
 
