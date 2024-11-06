@@ -14,7 +14,8 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.gather()`** function in PyTorch is a tensor operation that enables the retrieval of specific elements from a tensor along a specified axis. This function is particularly useful for selecting values based on a set of indices, making it ideal for applications in machine learning and data processing where efficient data selection is critical.
+The **`.gather()`** function in PyTorch is a tensor operation that retrieves specific elements from a tensor along a specified axis. It is beneficial for selecting values based on a set of indices, making it ideal for applications in machine learning and data processing, where efficient data selection is critical.
+
 ## Syntax
 
 ```pseudo
