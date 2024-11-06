@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In PyTorch, the **`.hsplit()`** method splits a tensor into multiple sub-tensors horizontally (column-wise) along the specified dimension (axis). 
+In PyTorch, the **`.hsplit()`** method splits a [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) into multiple sub-tensors horizontally (column-wise) along the specified dimension (axis).
 
 ## Syntax
 
@@ -23,15 +23,17 @@ torch.hsplit(tensor, indices_or_sections)
 ```
 
 - `tensor`: The tensor to be split.
-- `split_size_or_sections`: This can be an integer or a list of integers:
-  - If it’s an integer, it specifies the number of equal-sized sub-tensors to split the tensor into.
-  - If it’s a list of integers, it specifies the sizes of each sub-tensor along the specified dimension.
+- `indices_or_sections`: This can be an integer or a list of integers.
+  - If it's an integer, it specifies the number of equal-sized sub-tensors to split the tensor into.
+  - If it's a list of integers, it specifies the sizes of each sub-tensor along the specified dimension.
 
 ## Example
 
 The following example demonstrates the usage of the `.hsplit()` method:
 
 ```py
+import torch
+
 # Define a tensor
 tensor = torch.tensor([[1, 2, 3, 4],
                        [5, 6, 7, 8],
