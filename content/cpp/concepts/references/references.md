@@ -48,8 +48,8 @@ int main() {
 
   swap_num(a, b);
 
-std::cout << "A is " << a << "\n";
-std::cout << "B is " << b << "\n";
+  std::cout << "A is " << a << "\n";
+  std::cout << "B is " << b << "\n";
 }
 ```
 
