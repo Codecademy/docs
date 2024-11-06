@@ -1,8 +1,8 @@
 ---
-Title: 'Constant Variables'
+Title: 'constant_variables'
 Description: 'Defines variables in C++ whose values cannot be altered after they are set.'
 Subjects:
-  - 'Code Foundations
+  - 'Code Foundations'
   - 'Computer Science'
 Tags:
   - 'Const'
@@ -50,6 +50,8 @@ This example results in the following output:
 Maximum allowed attempts: 5
 ```
 In this example, `max_attempts` is declared as a constant integer. Attempting to modify it later in the code would result in a compilation error, ensuring that its value remains consistent.
+
+## Codebyte Example
 
 ```codebyte/cpp
 #include <iostream>
