@@ -88,7 +88,7 @@ myCar.setSpeed(newSpeed);
 std::cout << "The new speed is: " << myCar.speed << "\n";
 }
 int triple(int const &i) {
-return i \* 3;
+return i * 3;
 }
 ```
 
