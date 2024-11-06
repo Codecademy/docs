@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **reference** variable is an alias for another object. It is created using the `&` sign. It is created using the `&` sign. Two things to note, anything done to the reference also happens to the original and aliases cannot be changed to alias something else.
+A **reference** variable is an alias for another object. It is created using the `&` sign. It is created using the `&` sign. Two things to note, anything done to the reference also happens to the original and aliases cannot be changed to alias or something else.
 
 Two things to note:
 
