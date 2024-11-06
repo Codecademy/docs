@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Kotlin, the **`arrayOfNulls()`** function creates an array of a specified size with all elements initialized as `null`. This method is useful when you need to create an array of a specific size but don't yet have the values to initialize it with. This allows you to assign values at a later point.
+In Kotlin, the **`arrayOfNulls()`** function creates an array of a specified size with all elements initialized as `null`. This method is useful for creating an array with a defined size when the initial values are not yet available, allowing for value assignment at a later point.
 
 ## Syntax
 
