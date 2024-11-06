@@ -25,7 +25,7 @@ fun <T> arrayOfNulls(size: Int): Array<T?>
 - `T`: Represents the type of elements in the array.
 - `size`: An integer specifying the size of the array to create.
 
-It returns an `Array<T?>` of the specified size, initialized with nulls.
+It returns an `Array<T?>` of the specified size, initialized with `null`.
 
 ## Example
 
