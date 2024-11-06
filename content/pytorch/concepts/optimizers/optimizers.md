@@ -1,21 +1,20 @@
 ---
 Title: 'Optimizers'
-Description: 'Helps adjust the model parameters during training to minimize the error between the predicted output and the actual output.'
+Description: 'Help adjust the model parameters during training to minimize the error between the predicted output and the actual output.'
 Subjects:
   - 'Data Science'
   - 'Machine Learning'
-  - 'AI'
 Tags:
   - 'Deep Learning'
   - 'Libraries'
+  - 'Python'
   - 'TensorFlow'
 CatalogContent:
   - 'intro-to-py-torch-and-neural-networks'
   - 'paths/data-science'
-  - 'paths/machine-learning'
 ---
 
-**Optimizers** help adjust the model parameters during training to minimize the error between the predicted output and the actual output. They use the gradients calculated through backpropagation to update the model in a direction that reduces this error, improving the model's performance over time.
+In PyTorch, **optimizers** help adjust the model parameters during training to minimize the error between the predicted output and the actual output. They use the gradients calculated through backpropagation to update the model in a direction that reduces this error, improving the model's performance over time.
 
 ## Syntax
 
@@ -24,10 +23,12 @@ torch.optim.optimizer_type(model_parameters, learning_rate)
 ```
 
 - `optimizer_type`: The type of optimizer that will be used.
-- `model_parameter`: Parameter of the model that will adjust during training.
-- `learning_rate`: Parameter that controls how the optimizer adjusts the model weight.  
+- `model_parameter`: The parameter of the model that will adjust during training.
+- `learning_rate`: The parameter that controls how the optimizer adjusts the model weight.
 
 ## Example
+
+The following example demonstrates the usage of optimizers in PyTorch:
 
 ```py
 import torch
@@ -41,26 +42,26 @@ y = torch.tensor([[2.0], [4.0], [6.0], [8.0]])
 # Simple model: 1 linear layer
 model = nn.Linear(1, 1)
 
-# Adam optimizer and Mean Squared Error (MSE) loss
+# Adam Optimizer and Mean Squared Error (MSE) Loss
 optimizer = optim.Adam(model.parameters(), lr=0.01)
 criterion = nn.MSELoss()
 
 # Training loop
 for epoch in range(50):
-    predictions = model(x)
-    loss = criterion(predictions, y)
-    optimizer.zero_grad()
-    loss.backward()
-    optimizer.step()
-    
-    if (epoch+1) % 10 == 0:  # Print loss every 10 epochs
-        print(f'Epoch {epoch+1}, Loss: {loss.item():.4f}')
+  predictions = model(x)
+  loss = criterion(predictions, y)
+  optimizer.zero_grad()
+  loss.backward()
+  optimizer.step()
+
+  if (epoch+1) % 10 == 0:  # Print loss every 10 epochs
+    print(f'Epoch {epoch+1}, Loss: {loss.item():.4f}')
 
 # Test the model by making a prediction for x = 5
 with torch.no_grad():
-    test_input = torch.tensor([[5.0]])
-    test_output = model(test_input)
-    print(f'The Predicted value for input 5: {test_output.item():.4f}')
+  test_input = torch.tensor([[5.0]])
+  test_output = model(test_input)
+  print(f'The predicted value for input 5: {test_output.item():.4f}')
 ```
 
 > **Note:** Optimizers also support specifying per-parameter options like learning rate allowing.
