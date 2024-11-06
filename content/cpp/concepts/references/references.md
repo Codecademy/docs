@@ -22,7 +22,7 @@ Two things to note:
 
 ## Syntax
 
-pseudo
+```pseudo
 int &alias = varname;
 
 
