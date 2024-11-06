@@ -4,9 +4,9 @@ Description: 'Forward List is a sequence container that allows efficient inserti
 Subjects:
   - 'Computer Science'
 Tags:
+  - 'Collections'
   - 'Lists'
-  - 'Vectors'
-  - 'Arrays'
+  - 'Memory'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
