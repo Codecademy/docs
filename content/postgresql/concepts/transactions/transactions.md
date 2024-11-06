@@ -70,7 +70,7 @@ UPDATE accounts SET balance = balance - 100.00
 COMMIT;
 ```
 
-## Example 1 Output:
+## Example 1 Output
 
 After the transaction, $100 has been deducted from Alice's balance. To verify Alice's updated balance, run a query on the `accounts` table to see the output:
 
@@ -108,7 +108,7 @@ UPDATE accounts SET balance = balance + 100.00
 COMMIT;
 ```
 
-## Example 2 Output:
+## Example 2 Output
 
 To verify the balances after the transaction, query the `accounts` table to get each person's balance:
 
