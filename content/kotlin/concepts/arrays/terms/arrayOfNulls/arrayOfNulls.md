@@ -22,7 +22,7 @@ In Kotlin, the **`arrayOfNulls()`** function creates an array of a specified siz
 fun <T> arrayOfNulls(size: Int): Array<T?>
 ```
 
-- `T`: The type of the elements in the array.
+- `T`: Represents the type of elements in the array.
 - `size`: An integer specifying the size of the array to create.
 
 It returns an `Array<T?>` of the specified size, initialized with nulls.
