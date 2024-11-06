@@ -44,9 +44,11 @@ fun main() {
     println(nullArray.contentToString())
 }
 ```
-## Output
+
 This example results in the following output:
+
 ## Output
+
 ```shell
 [2, 4, null, null, null]
 ```
