@@ -97,7 +97,7 @@ int main() {
 
 The result of the following code:
 
-```cpp
+```shell
 X=5, Y=5, radius=10
 X=0, Y=0, radius=5
 ```
