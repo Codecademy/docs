@@ -38,7 +38,7 @@ public class Example
     double a = Math.Asin(0.5);
     double b = Math.Asin(1);
     double c = Math.Asin(-2);
-    
+
     Console.WriteLine(a);
     Console.WriteLine(b);
     Console.WriteLine(c);
