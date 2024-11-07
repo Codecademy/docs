@@ -4,10 +4,11 @@ Description: 'Computes the complex conjugate of each element in a given tensor.'
 Subjects:
   - 'Computer Science'
   - 'Machine Learning'
-  - 'Data Science'
 Tags:
   - 'Python'
   - 'Machine Learning'
+  - 'Functions'
+  - 'Values'
 CatalogContent:
   - 'intro-to-py-torch-and-neural-networks'
   - 'paths/computer-science'
@@ -37,7 +38,7 @@ print(complex_tensor)
 # Applying .conj() on a complex tensor
 complex_conj = torch.conj(complex_tensor)
 print(f"\nReturn type of .conj() - {type(complex_conj)}")
-print("Complex Conjugate:")
+print("\nComplex Conjugate:")
 print(complex_conj)
 ```
 
@@ -48,6 +49,7 @@ Original Complex Tensor:
 tensor([1.+2.j, 3.-4.j, 5.+0.j])
 
 Return type of .conj() - <class 'torch.Tensor'>
+
 Complex Conjugate:
 tensor([1.-2.j, 3.+4.j, 5.-0.j])
 ```
