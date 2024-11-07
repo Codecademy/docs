@@ -55,7 +55,7 @@ public class RemoveExample
 }
 ```
 
-The output of the following code:
+This example results in the following output:
 
 ```pseudo
 New string1: ABCDE
