@@ -5,9 +5,9 @@ Subjects:
   - 'Computer Science'
   - 'Game Development'
 Tags:
+  - 'Classes'
   - 'Objects'
   - 'OOP'
-  - 'Classes'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
