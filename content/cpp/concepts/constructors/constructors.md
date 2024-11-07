@@ -21,7 +21,7 @@ A **constructor** is a specially defined method in a C++ class that is automatic
 A constructor method is defined within a class by using the `ClassName` followed by parentheses. It does not have a return type.
 
 ```cpp
-class  ClassName {
+class ClassName {
   public:
     ClassName() {
       // Constructor code
@@ -31,21 +31,66 @@ class  ClassName {
 
 ## Examples
 
-- Basic Constructor
+### Basic Constructor
 
-A basic constructor, also known as a default constructor, is a special type of constructor in C++ that takes no parameters. The compiler will automatically provide a default constructor if there is no constructor explicitly defined for a class. This constructor is used for initializing an object when no specific values are needed, and it also initializes member variables to default values.
+A basic constructor, also known as a default constructor, is a special type of constructor in C++ that takes no parameters.
+
+The compiler will automatically provide a default constructor if there is no constructor explicitly defined for a class.
+
+This constructor is used for initializing an object when no specific values are needed, and it also initializes member variables to default values.
 
 ```cpp
 class MyClass {
   public:
     // Define a basic constructor
-    MyClass () {
-      std::cout << "The constructor was executed!" << std::endl;
+    MyClass() {
+      std::cout << "The constructor was executed!";
     }
 };
 
 int main() {
-  MyClass myObject;
+  MyClass myObject;   // This calls the constructor
+  return 0;
+}
+```
+
+The result of the following code:
+
+```shell
+The constructor was executed!
+```
+
+### Parameterized Constructor
+
+A parameterized constructor is one that accepts arguments, allowing initial values to be set for an object's attributes at the time of creation. This constructor is useful for initializing objects with custom data or values that differ between instances.
+
+```cpp
+class Circle {
+  public:
+    int X;
+    int Y;
+    int radius;
+
+    Circle (int a, int b, int c) {
+      X = a;
+      Y = b;
+      radius = c;
+    }
+};
+
+int main() {
+  // Call the constructor using arguments
+  Circle myCircle1(5,5,10);
+  Circle myCircle2(0,0,5);
+
+  // Print out the attribute values set for each object
+
+  std::cout << "X=" << myCircle1.X << ", Y=" << myCircle1.Y << ", radius=" << myCircle1.radius << "\n";
+  // Output: X=5, Y=5, radius=10
+
+  std::cout << "X=" << myCircle2.X << ", Y=" << myCircle2.Y << ", radius=" << myCircle2.radius << "\n";
+  // Output: X=0, Y=0, radius=5
+
   return 0;
 }
 ```
@@ -53,67 +98,34 @@ int main() {
 The result of the following code:
 
 ```cpp
-The constructor was executed!
+X=5, Y=5, radius=10
+X=0, Y=0, radius=5
 ```
 
-- Parameterized Constructor
-  A parameterized constructor is one that accepts arguments, allowing initial values to be set for an object's attributes at the time of creation. This constructor is useful for initializing objects with custom data or values that differ between instances.
+Like member functions, once declared in the class, the constructor can be defined outside the class:
 
 ```cpp
-class Rectangle {
+class Circle {
   public:
-    int width;
-    int height;
+    int X;
+    int Y;
+    int radius;
 
     // Declare the constructor
-    Rectangle (int w, int h) {
-      width = w;
-      height = h;
-    }
+    Circle (int a, int b, int c);
 };
 
-int main() {
-  // Declare implicitly
-  Rectangle rect1(10, 20);
-  // Declare explicitly
-  Rectangle rect2 = Rectangle(5, 15);
-
-  std::cout << "Rectangle 1: Width = " << rect1.width << ", Height = " << rect1.height << std::endl;
-  std::cout << "Rectangle 2: Width = " << rect2.width << ", Height = " << rect2.height << std::endl;
-}
-```
-
-The result of the following code:
-
-```cpp
-Rectangle 1: Width = 10, Height = 20
-Rectangle 2: Width = 5, Height = 15
+// Define constructor outside the class
+Circle::Circle(int a, int b, int c) {
+  X = a;
+  Y = b;
+  radius = c;
+};
 ```
 
 ## Codebyte Example
 
-Run the codebyte example below to see how constructors work:
-
-- Basic Constructor
-
-```codebyte/cpp
-#include <iostream>
-
-class Circle {
-  public:
-    int radius;
-
-  Circle() {
-    radius = 5;
-  }
-};
-
-int main() {
-  Circle circle1;
-
-  std::cout << "The radius of the circle1 is " << circle1.radius << std::endl;
-}
-```
+The following example defines a simple class called Circle that has a single public attribute, radius, and a default constructor that initializes this attribute.
 
 - Parameterized Constructor
 
