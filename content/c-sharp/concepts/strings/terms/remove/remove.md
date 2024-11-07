@@ -57,7 +57,7 @@ public class RemoveExample
 
 This example results in the following output:
 
-```pseudo
+```shell
 New string1: ABCDE
 New string2: ABHIJ
 ```
