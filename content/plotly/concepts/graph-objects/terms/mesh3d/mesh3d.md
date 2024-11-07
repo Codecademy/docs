@@ -1,17 +1,17 @@
 ---
-Title: `.Mesh3d()`
-Description: Creates a 3D mesh plot in Plotly using the `.graph_objects` module.
+Title: '`.Mesh3d()`'
+Description: 'Creates a 3D mesh plot in Plotly using the `.graph_objects` module.'
 Subjects:
- - Data Science
- - Data Visualization
+ - 'Data Science'
+ - 'Data Visualization'
 Tags:
- - Graphics
- - Graphs
- - Plotly
- - Python
+ - 'Graphics'
+ - 'Graphs'
+ - 'Plotly'
+ - 'Python'
 CatalogContent:
- - paths/data-analyst
- - paths/bi-data-analyst
+ - 'paths/data-analyst'
+ - 'paths/bi-data-analyst'
 ---
 
 **`.Mesh3d()`** is a method in Plotly's `.graph_objects` module that generates 3D mesh plots by defining vertices and connecting faces (triangles).
