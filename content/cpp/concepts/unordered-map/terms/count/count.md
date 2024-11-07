@@ -56,7 +56,7 @@ int main() {
 }
 ```
 
-The code above produces the output as follows:
+This example results in the following output:
 
 ```shell
 Giraffe exists in the map with an average lifespan of 26 years.
