@@ -26,7 +26,7 @@ Returns an angle measured in radians, of type `double`, whose sine is `value`. I
 
 ## Example
 
-The following example prints the results of the `Math.Asin()` method for three different values.
+The following example prints the results of the `Math.Asin()` method for three different values:
 
 ```cs
 using System;
