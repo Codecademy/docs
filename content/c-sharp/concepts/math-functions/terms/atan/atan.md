@@ -25,23 +25,22 @@ Math.Atan(x);
 
 ## Example
 
-This example returns the angle itself.
+This example first uses the `Math.Atan()` method to compute the arctangent of an angle in radians and then converts it to degrees:
 
-```Example
+```cs
 using System;
 
 class sample
 {
-    public static void Main()
-    {
-        double value = 1.0; // tangent of an angle
-        double angleInRadians = Math.Atan(value);
-        Console.WriteLine("The arctangent of the angle in radians: {0}",angleInRadians);  // angle in radians (π/4 radians) 
-        double angleInDegrees = angleInRadians * (180 / Math.PI);
-        Console.WriteLine("The arctangent of the angle in degrees: {0}",angleInDegrees);  // angle in degrees
-    }
+  public static void Main()
+  {
+    double value = 1.0; // The tangent of an angle
+    double angleInRadians = Math.Atan(value);
+    Console.WriteLine("The arctangent of the angle in radians: {0}",angleInRadians); 
+    double angleInDegrees = angleInRadians * (180 / Math.PI);
+    Console.WriteLine("The arctangent of the angle in degrees: {0}",angleInDegrees);
+  }
 }
-
 ```
 
 ```shell
