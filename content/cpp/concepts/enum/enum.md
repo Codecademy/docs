@@ -120,7 +120,7 @@ int main() {
 
 Converting an `enum` to `int` is easy, but converting `int` to `enum` is risky as no bounds check is done, leading to undefined behavior if the value is out of range.
 
-## Custom Underlying Type for Enums
+## Custom underlying type for Enums
 
 By default, an enum's type is int, but you can specify a smaller type like unsigned char to optimize memory usage.
 
