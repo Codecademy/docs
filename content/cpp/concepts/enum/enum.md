@@ -125,6 +125,7 @@ Converting an `enum` to `int` is easy, but converting `int` to `enum` is risky a
 By default, an enum's type is `int`, but you can specify a smaller type like `unsigned char` to optimize memory usage.
 
 ```cpp
+#include <iostream>
 enum class Permission : unsigned char {
     Read = 1,
     Write = 2,
