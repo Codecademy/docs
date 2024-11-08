@@ -33,7 +33,7 @@ using System;
 
 public class ConcatMethod
 {
-  public static void Main(string[] args)
+  public static void Main()
   {
     string firstString = "Hello";
     string secondString = "World!";
@@ -62,12 +62,21 @@ public class ConcatMethod
     public static void Main()
     {
         List<string> usernames = new List<string> { "Alice", "Bob", "Charlie" };
-
         foreach (string user in usernames)
         {
             string greeting = string.Concat("Hi there ", user, ", how can I help you?");
             Console.WriteLine(greeting);
         }
     }
+}
+```
+
+```cs
+using System;
+using System.Collections.Generic;
+
+public class ConcatMethod
+{
+  public static void Main()
 }
 ```
