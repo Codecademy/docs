@@ -57,6 +57,8 @@ In the above output, the original array is a 2x3 matrix, and the transposed arra
 
 ## Codebyte example
 
+This codebyte example demonstrates how to create and manipulate a multi-dimensional array in Python using NumPy’s `transpose` function.
+
 ```codebyte/python
 import numpy as np
 
