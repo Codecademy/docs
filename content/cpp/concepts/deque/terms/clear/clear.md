@@ -1,6 +1,6 @@
 ---
 Title: '.clear()'
-Description: 'Removes all elements from the deque.'
+Description: 'Removes all elements from a given deque.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C++, the **`.clear()`** [method](https://www.codecademy.com/resources/docs/cpp/methods) removes all elements from the deque container, leaving the container with a size of 0.
+In C++, the **`.clear()`** [method](https://www.codecademy.com/resources/docs/cpp/methods) removes all elements from a given deque container, leaving the container with a size of 0.
 
 ## Syntax
 
@@ -23,7 +23,7 @@ dequeName.clear();
 ```
 
 - `dequeName`: The name of the deque container from which all elements will be removed.
-  
+
 ## Example
 
 The example below showcases the use of the `.clear()` method:
@@ -69,8 +69,8 @@ int main() {
 The above code generates the following output:
 
 ```shell
-My deque contains: 50 100 150 200 
-My deque contains: 200 
+My deque contains: 50 100 150 200
+My deque contains: 200
 ```
 
 ## Codebyte Example
@@ -88,10 +88,10 @@ int main() {
   myDeque.push_back("A");
   myDeque.push_back("B");
   myDeque.push_back("C");
-  
+
   myDeque.clear();
   myDeque.push_back("D");
-  
+
   for (const auto& value : myDeque) {
     std::cout << ' ' << value;
   }
