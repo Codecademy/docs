@@ -1,6 +1,6 @@
 ---
 Title: 'Transactions'
-Description: Transactions bundle one or more steps into a single unit of work; an all-or-nothing operation where all statements succeed or all statements fail.'
+Description: 'Transactions bundle one or more steps into a single unit of work; an all-or-nothing operation where all statements succeed or all statements fail.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
