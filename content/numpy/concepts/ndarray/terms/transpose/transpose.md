@@ -53,6 +53,8 @@ This produces the following output:
  [3 6]]
 ```
 
+In the above output, the original array is a 2x3 matrix, and the transposed array is a 3x2 matrix.
+
 ## Codebyte example
 
 ```codebyte/python
