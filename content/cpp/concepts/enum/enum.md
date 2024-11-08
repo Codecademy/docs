@@ -122,7 +122,7 @@ Converting an `enum` to `int` is easy, but converting `int` to `enum` is risky a
 
 ## Custom underlying type for Enums
 
-By default, an enum's type is int, but you can specify a smaller type like unsigned char to optimize memory usage.
+By default, an enum's type is `int`, but you can specify a smaller type like `unsigned char` to optimize memory usage.
 
 ```cpp
 enum class Permission : unsigned char {
