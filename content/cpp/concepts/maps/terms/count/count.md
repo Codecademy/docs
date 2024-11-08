@@ -16,9 +16,10 @@ CatalogContent:
 ---
 
 The **`.count()`** method in C++ for `std::map` is used to determine the presence of a specific key in the map. Since all keys in a map are unique, the function returns:
-- *1* if the key exists in the container.
-- *0* if the key does not exist.
-  
+
+- _1_ if the key exists in the container.
+- _0_ if the key does not exist.
+
 ## Syntax
 
 ```pseudo
@@ -81,9 +82,9 @@ The example below illustrates a scenario in which the `.count()` method is used 
 
 int main() {
   std::map<std::string, int> zoo_animals {{"hippos", 2}, {"lions", 4},  {"zebras", 6}, {"gorillas", 8}};
-  
+
   std::string animals_to_check[] = {"bats", "giraffes", "gorillas", "hippos", "zebras"};
-     
+
   for (const auto& animals : animals_to_check) {
         if (zoo_animals.count(animals) > 0) {
             std::cout << "The zoo has " << zoo_animals[animals] << " " << animals << ".\n";
