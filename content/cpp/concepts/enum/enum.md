@@ -105,7 +105,7 @@ if (logger_result == LogResult::Success) {} // Because Success is scoped to LogR
 
 ## Enum to Int Conversion
 
-In C++, enums can be implicitly converted to integers, useful for numeric contexts like array indexing or bitwise operations.
+In C++, `enum` can be implicitly converted to integers, useful for numeric contexts like array indexing or bitwise operations.
 
 ```cpp
 enum color { red, green, blue };
