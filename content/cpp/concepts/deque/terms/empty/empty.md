@@ -1,6 +1,6 @@
 ---
 Title: '.empty()'
-Description: 'Returns true if the deque container is empty and false if it contains elements.'
+Description: 'Checks if a given deque container is empty.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C++, the **`.empty()`** [method](https://www.codecademy.com/resources/docs/cpp/methods) checks if the deque container is empty (i.e., if its size is 0) and returns `true` if it is empty or `false` otherwise.
+In C++, the **`.empty()`** [method](https://www.codecademy.com/resources/docs/cpp/methods) checks if a given deque container is empty (i.e., if its size is 0). The method returns `true` if it is empty and `false` otherwise.
 
 ## Syntax
 
@@ -22,7 +22,7 @@ In C++, the **`.empty()`** [method](https://www.codecademy.com/resources/docs/cp
 dequeName.empty();
 ```
 
-- `dequeName`: The variable name of the deque being checked for emptiness.
+- `dequeName`: The [variable](https://www.codecademy.com/resources/docs/cpp/variables) name of the deque being checked for emptiness.
 
 ## Example
 
@@ -57,12 +57,12 @@ int main() {
 The above code generates the following output:
 
 ```shell
-Deque is empty: False 
+Deque is empty: False
 ```
 
 ## Codebyte Example
 
-The following codebyte uses the `.clear()` method on a deque and checks its emptiness by outputting a boolean value using the `.empty()` method:
+The following codebyte uses the **`.clear()`** method on a deque and checks its emptiness by outputting a boolean value using the `.empty()` method:
 
 ```codebyte/cpp
 #include <iostream>
@@ -75,8 +75,8 @@ int main() {
   myDeque.push_back("Car");
   myDeque.push_back("Bus");
   myDeque.push_back("Train");
-  
-  // Displaying vehicles before clearing the deque
+
+  // Display vehicles before clearing the deque
   std::cout << "Vehicles before clearing:";
   for (const auto& value : myDeque) {
     std::cout << ' ' << value;
