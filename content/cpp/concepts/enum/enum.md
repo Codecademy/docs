@@ -138,7 +138,7 @@ int main() {
 }
 ```
 
-Here, the underlying type of Permission is unsigned char. The constants Read, Write, and Execute are stored using only 1 byte of memory.
+Here, the underlying type of Permission is `unsigned char`. The constants `Read`, `Write`, and `Execute` are stored using only 1 byte of memory.
 
 ## Best Practices for Using Enums
 
