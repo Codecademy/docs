@@ -31,7 +31,7 @@ If possible, the `ndarray` returned will be a view of the original `ndarray`'s d
 
 ## Example
 
-The below example creates an `ndarray` and then uses `.transpose()` on it.
+The example below creates a `ndarray` and then uses `.transpose()`.
 
 ```py
 import numpy as np
