@@ -80,7 +80,7 @@ using System;
 
 class Program {
     static void Main() {
-        string str = "Codecademy";
+        string str = "Hello World";
         int totalLength = 15;
         char padChar = '.';
 
