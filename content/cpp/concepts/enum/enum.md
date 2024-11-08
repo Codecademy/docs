@@ -108,6 +108,7 @@ if (logger_result == LogResult::Success) {} // Because Success is scoped to LogR
 In C++, `enum` can be implicitly converted to integers, useful for numeric contexts like array indexing or bitwise operations.
 
 ```cpp
+#include <iostream>
 enum color { red, green, blue };
 
 int main() {
