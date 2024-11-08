@@ -70,13 +70,3 @@ public class ConcatMethod
     }
 }
 ```
-
-```cs
-using System;
-using System.Collections.Generic;
-
-public class ConcatMethod
-{
-  public static void Main()
-}
-```
