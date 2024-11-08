@@ -1,1 +1,1 @@
-content/git/concepts/reset/reset.md
+content/sql/concepts/data-types/data-types.md
