@@ -1,6 +1,6 @@
 ---
 Title: 'Enum'
-Description: 'In C++, an enum defines a variable with a limited set of predefined values.'
+Description: 'Defines a variable with a limited set of predefined values.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
