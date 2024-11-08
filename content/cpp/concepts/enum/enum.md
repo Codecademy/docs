@@ -143,6 +143,6 @@ Here, the underlying type of Permission is `unsigned char`. The constants `Read`
 ## Best practices for using Enums
 
 1. Use enum class for strong typing: Scoped enums (C++11) prevent implicit int conversions, ensuring better type safety.
-2. Explicit Casting: Use static_cast<int>(enum_value) for safe conversions.
+2. Explicit casting: Use `static_cast<int>(enum_value)` for safe conversions.
 3. Avoid Magic Numbers: Enums replace hardcoded numbers, improving readability.
 4. Use Underlying Types Wisely: Choose the underlying type carefully in memory-constrained environments.
