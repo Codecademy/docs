@@ -118,7 +118,7 @@ int main() {
 }
 ```
 
-Converting an enum to int is easy, but converting int to enum is risky as no bounds check is done, leading to undefined behavior if the value is out of range.
+Converting an `enum` to `int` is easy, but converting `int` to `enum` is risky as no bounds check is done, leading to undefined behavior if the value is out of range.
 
 ## Custom Underlying Type for Enums
 
