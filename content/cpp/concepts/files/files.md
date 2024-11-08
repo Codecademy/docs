@@ -91,7 +91,7 @@ Day I've ever known
 ```
 
 ## Appending to a File
-In some cases, you may want to append text to an existing file instead of overwriting its content. To do this, you can open the file in append mode using the std::ios::app flag with ofstream or fstream. Here's an example:
+In some cases, you may want to append text to an existing file instead of overwriting its content. To do this, you can open the file in append mode using the `std::ios::app` flag with `ofstream` or `fstream`. Here's an example:
 
 ```cpp
 #include <iostream>
