@@ -131,13 +131,13 @@ int main() {
 }
 ```
 
-If the file journal.txt exists, the output will be:
+If the file `journal.txt` exists, the output will be:
 
 ```shell
 File opened successfully.
 ```
 
-If the file journal.txt does not exist, the output will be:
+If the `file journal.txt` does not exist, the output will be:
 
 ```shell
 File does not exist.
