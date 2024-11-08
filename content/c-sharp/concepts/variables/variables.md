@@ -2,8 +2,8 @@
 Title: 'Variables'
 Description: 'Variables are used to store and manipulate data. In C#, each variable has a type that determines the values it can store.'
 Subjects:
-  - 'Computer Science'
   - 'Code Foundations'
+  - 'Computer Science'
 Tags:
   - 'Variables'
   - 'Data Types'
