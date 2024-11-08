@@ -1,6 +1,6 @@
 ---
 Title: 'Files'
-Description: 'Computers use file systems to store and retrieve data. The fstream library, short for file stream, enables working with files in C++. The fstream library has three classes that are used to create, write, and read files: ofstream, ifstream, and fstream.'
+Description: 'Computers use file systems to store and retrieve data. The fstream library, short for file stream, enables working with files in C++.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -137,7 +137,7 @@ If the file `journal.txt` exists, the output will be:
 File opened successfully.
 ```
 
-If the `file journal.txt` does not exist, the output will be:
+If the file `journal.txt` does not exist, the output will be:
 
 ```shell
 File does not exist.
