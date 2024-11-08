@@ -140,7 +140,7 @@ int main() {
 
 Here, the underlying type of Permission is `unsigned char`. The constants `Read`, `Write`, and `Execute` are stored using only 1 byte of memory.
 
-## Best Practices for Using Enums
+## Best practices for using Enums
 
 1. Use enum class for Strong Typing: Scoped enums (C++11) prevent implicit int conversions, ensuring better type safety.
 2. Explicit Casting: Use static_cast<int>(enum_value) for safe conversions.
