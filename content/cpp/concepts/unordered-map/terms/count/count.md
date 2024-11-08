@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.count()`** method checks if a key exists in an [unordered map](https://www.codecademy.com/resources/docs/cpp/unordered-map). It returns *1* if the key exists and *0* if it does not.
+The **`.count()`** method checks if a key exists in an [unordered map](https://www.codecademy.com/resources/docs/cpp/unordered-map). It returns _1_ if the key exists and _0_ if it does not.
 
 ## Syntax
 
