@@ -140,6 +140,12 @@ int main() {
 
 Here, the underlying type of Permission is `unsigned char`. The constants `Read`, `Write`, and `Execute` are stored using only 1 byte of memory.
 
+This example results in the following output:
+
+```shell
+2
+```
+
 ## Best practices for using Enums
 
 1. Use enum class for strong typing: Scoped enums (C++11) prevent implicit int conversions, ensuring better type safety.
