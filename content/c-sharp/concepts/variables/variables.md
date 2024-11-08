@@ -19,7 +19,7 @@ CatalogContent:
 In C#, there are five distinct types of variables:
 
 | Name               | Description                                                                                                                      |
-| ------------------ | -------------------------------------------------------------------------------------------------------------------------        |
+| ------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
 | Local variables    | Variables declared within a method, constructor, or code block, accessible only within that scope.                               |
 | Instance variables | Non-static fields in a class, storing data unique to each instance of the class.                                                 |
 | Static Variables   | Variables shared across all instances of a class, belonging to the class itself.                                                 |
@@ -156,15 +156,15 @@ class Factory
     Car car2 = new Car("Honda Accord", "1HGCM82633A654321");
 
     // Displaying info for each car
-    car1.DisplayInfo();  
-    car2.DisplayInfo(); 
+    car1.DisplayInfo();
+    car2.DisplayInfo();
 
     // Modifying static variable
     Car.wheels = 5; // All instances will see this change
 
     // Displaying info again to see the updated static variable
-    car1.DisplayInfo();  
-    car2.DisplayInfo(); 
+    car1.DisplayInfo();
+    car2.DisplayInfo();
 
     // Trying to modify readonly variable (will cause compile-time error)
     // car1.vin = "1HGCM82633A111111"; // Uncommenting this line will cause an error
