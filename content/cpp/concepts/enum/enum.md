@@ -1,5 +1,5 @@
 ---
-Title: 'Enums'
+Title: 'Enum'
 Description: 'In C++, an enum defines a variable with a limited set of predefined values.'
 Subjects:
   - 'Computer Science'
