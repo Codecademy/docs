@@ -113,7 +113,7 @@ Smashing Pumpkins lyrics
 ```
 
 ## Checking if a file exists
-Before opening a file, it is a good practice to check if the file exists. This can prevent issues like reading a file that doesn't exist. You can use the .is_open() function for this:
+Before opening a file, it is a good practice to check if the file exists. This can prevent issues like reading a file that doesn't exist. You can use the `.is_open()` function for this:
 
 ```cpp
 #include <iostream>
