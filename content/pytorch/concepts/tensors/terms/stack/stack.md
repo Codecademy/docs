@@ -23,6 +23,7 @@ torch.stack(tensors, dim=0, out=None)
 ```
 
 The parameters are as follows:
+
 - `tensors`: The list of tensors to be stacked.
 - `dim`: the dimension of which the tensors will be appended to each other. Defaults to 0.
 - `out`: The output tensor, if specified. Defaults to None.
