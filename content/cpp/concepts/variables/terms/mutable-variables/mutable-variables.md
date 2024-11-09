@@ -66,7 +66,7 @@ Here, even though `displayData` is a const member function, `accessCount` can be
 
 ## Codebyte Example
 
-Use this example to experiment with mutable variables in C++. Enjoy coding!
+The following codebyte example demonstrates the usage of mutable variables:
 
 ```codebyte/cpp
 #include <iostream>
