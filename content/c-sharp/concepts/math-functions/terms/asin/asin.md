@@ -24,6 +24,36 @@ Math.Asin(value);
 
 Returns an angle measured in radians, of type `double`, whose sine is `value`. If an invalid value is passed to the function, or no value is passed at all, `NaN` is returned.
 
+## Example
+
+The following example prints the results of the `Math.Asin()` method for three different values:
+
+```cs
+using System;
+
+public class Example
+{
+  static void Main()
+  {
+    double a = Math.Asin(0.5);
+    double b = Math.Asin(1);
+    double c = Math.Asin(-2);
+
+    Console.WriteLine(a);
+    Console.WriteLine(b);
+    Console.WriteLine(c);
+  }
+}
+```
+
+This results in the following output:
+
+```shell
+0.523598775598299
+1.5707963267949
+NaN
+```
+
 ## Codebyte Example
 
 ```codebyte/csharp
