@@ -24,7 +24,7 @@ const data_type variable_name = value;
 - `data_type`: The type of the variable.
 - `variable_name`: The name of the constant variable.
 - `value`: The initial value assigned to the variable. Once set, this value cannot change.
-  
+
 ## Example
 
 This example demonstrates how to declare and use a constant variable in C++:
