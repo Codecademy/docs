@@ -18,7 +18,7 @@ In C++, mutable variables are variables that can be modified even within constan
 
 ## Syntax
 
-To declare a variable as `mutable`, simply place the `mutable` keyword before the variable type:
+To declare a variable as mutable, the `mutable` keyword needs to be placed before the variable type:
 
 ```pseudo
 mutable type name;
