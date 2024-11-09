@@ -1,6 +1,6 @@
 ---
 Title: '.view()'
-Description: 'Reshapes a tensor to a specified shape without changing data, ideal for adjusting tensor dimensions to fit model requirements while preserving element count.'
+Description: 'Reshapes a tensor to a specified shape without changing its data, as long as the total number of elements remains the same.'
 Subjects:
   - 'AI'
   - 'Data Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.view()`** method in PyTorch reshapes a tensor without changing its data. This is useful for preparing tensors for operations that require specific dimensions, such as feeding data into a neural network. It can change the tensor’s shape, but the total number of elements must remain the same.
+The **`.view()`** method in PyTorch reshapes a tensor without altering its underlying data, provided the total number of elements remains the same. This method is useful when preparing tensors for operations requiring specific dimensions, such as neural network inputs.
 
 ## Syntax
 
@@ -28,7 +28,7 @@ The function returns a tensor with the specified shape, sharing the same data as
 
 ## Example
 
-This example reshapes a tensor from a shape of `(2, 3)` to `(3, 2)` using `.view()`.
+This example reshapes a tensor from a shape of *(2, 3)* to *(3, 2)* using `.view()`:
 
 ```py
 import torch
