@@ -62,7 +62,7 @@ Data: Sample, Access count: 1
 Data: Sample, Access count: 2
 ```
 
-Here, even though `displayData` is a const member function, `accessCount` can be incremented due to its `mutable` declaration.
+Here, even though `displayData()` is a constant member function, `accessCount` can be incremented due to its `mutable` declaration.
 
 ## Codebyte Example
 
