@@ -28,7 +28,7 @@ The function returns a tensor with the specified shape, sharing the same data as
 
 ## Example
 
-This example reshapes a tensor from a shape of *(2, 3)* to *(3, 2)* using `.view()`:
+This example reshapes a tensor from a shape of _(2, 3)_ to _(3, 2)_ using `.view()`:
 
 ```py
 import torch
