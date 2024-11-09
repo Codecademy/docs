@@ -14,31 +14,29 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.scatter_3d()`** method in the [Plotly Express module](https://www.codecademy.com/resources/docs/plotly/express) creates a 3D scatter plot to visualize the relationships between three variables using markers in a three-dimensional space. The data points are plotted based on their values on the `x`, `y`, and `z` axes. It also allows customizing marker colors, sizes, and symbols.
+The **`.scatter_3d()`** method in the `plotly.express` module creates a 3D scatter plot to visualize the relationships between three variables using markers in a three-dimensional space. The data points are plotted based on their values on the `x`, `y`, and `z` axes. It also allows customizing marker colors, sizes, and symbols.
 
 ## Syntax
 
-The `x`, `y`, and `z` parameters are required and accept values as a string, integer, `Series`, or array-like object, representing the data for each axis. Optional parameters, such as `color`, `symbol`, and `size`, customize the markers' appearance. If `data_frame` is not provided, a DataFrame will be constructed from other arguments.
-
+The `x`, `y`, and `z` parameters are required and accept values as a string, integer, `Series`, or array-like object, representing the data for each axis. Optional parameters, such as `color`, `symbol`, and `size`, customize the markers' appearance. If `data_frame` is not provided, a `DataFrame` will be constructed from other arguments.
 
 ```pseudo
 plotly.express.scatter_3d(data_frame=None, x=None, y=None, z=None, color=None, symbol=None, size=None, ...)
 ```
 
 - `data_frame`: The Pandas [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) containing the data to visualize.
-- `x`: The column name in `data_frame`, `Series` or array-like object for x-axis data.
-- `y`: The column name in `data_frame`, `Series` or array-like object for y-axis data.
-- `z`: The column name in `data_frame`, `Series` or array-like object for z-axis data.
-- `color`: The column name in `data_frame`, `Series` or array-like object to specify marker colors.
-- `symbol`: The column name in `data_frame`, `Series` or array-like object for assigning marker symbols.
+- `x`: The column name in `data_frame`, `Series`, or array-like object for x-axis data.
+- `y`: The column name in `data_frame`, `Series`, or array-like object for y-axis data.
+- `z`: The column name in `data_frame`, `Series`, or array-like object for z-axis data.
+- `color`: The column name in `data_frame`, `Series`, or array-like object to specify marker colors.
+- `symbol`: The column name in `data_frame`, `Series`, or array-like object for assigning marker symbols.
 - `size`: The column name in `data_frame`, `Series`, or array-like object to assign marker sizes.
 
 > **Note:** The ellipsis in the syntax (...) indicates additional optional parameters that can be used to customize the plot further.
 
 ## Examples
 
-
-The examples below demonstrate how the `.scatter()` method creates a 2D scatter plot, while the `.scatter_3d()` method provides a more complex visualization in three dimensions, utilizing additional parameters for color and symbol customization.
+The examples below demonstrate how the [`.scatter()`](https://www.codecademy.com/resources/docs/plotly/express/scatter) method creates a 2D scatter plot, while the `.scatter_3d()` method provides a more complex visualization in three dimensions, utilizing additional parameters for color and symbol customization.
 
 ### Example 1
 
