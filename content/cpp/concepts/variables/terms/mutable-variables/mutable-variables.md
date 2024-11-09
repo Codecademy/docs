@@ -29,7 +29,7 @@ mutable type name;
 
 ## Example
 
-In the example below, `accessCount` is marked `mutable`, allowing it to be modified within the const `displayData` function:
+In the example below, `accessCount` is marked `mutable`, allowing it to be modified within the constant `displayData()` function:
 
 ```cpp
 #include <iostream>
