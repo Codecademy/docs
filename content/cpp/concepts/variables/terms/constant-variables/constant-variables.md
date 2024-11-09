@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Constant variables** in C++ are variables whose values cannot be altered after they are set. By using the `const` keyword, a variable becomes read-only, preventing accidental modification. Constants are especially useful for defining values that should remain consistent throughout the program, such as mathematical constants(e.g., `PI`) or configuration settings.
+**Constant variables** in C++ are variables whose values cannot be altered after they are set. By using the `const` keyword, a variable becomes read-only, preventing accidental modification. Constants are especially useful for defining values that should remain consistent throughout the program, such as mathematical constants (e.g., `PI`) or configuration settings.
 
 ## Syntax
 
