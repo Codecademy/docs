@@ -1,10 +1,13 @@
 ---
-Title: 'Mutable variables'
-Description: 'In C++, the `mutable` keyword in C++ allows certain class variables to be modified even within const functions, useful for managing internal state flexibly.'
+Title: 'Mutable Variables'
+Description: 'Mutable variables are variables that can be modified even within constant functions.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
 Tags:
+  - 'Functions'
+  - 'Values'
+  - 'Variable Types'
   - 'Variables'
 CatalogContent:
   - 'learn-c-plus-plus'
