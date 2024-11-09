@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C++, the `mutable` keyword in C++ allows certain class variables to be modified even within const functions, useful for managing internal state flexibly.
+In C++, mutable variables are variables that can be modified even within constant functions, useful for managing internal state flexibly.
 
 ## Syntax
 
