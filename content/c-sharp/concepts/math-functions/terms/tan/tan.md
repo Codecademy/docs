@@ -30,7 +30,7 @@ The `Math.Tan()` method takes only one parameter, `angle`, an angle in radians o
 
 ## Example
 
-The following example converts 30 degrees to radians, then uses the `Math.Tan()` method to calculate the tangent of that angle. Finally, `Console.WriteLine()` outputs the result to the console:
+The following example converts 30 degrees to radians and then uses the `Math.Tan()` method to calculate the tangent of that angle. Finally, `Console.WriteLine()` outputs the result to the console:
 
 ```cs
 using System;
@@ -46,13 +46,13 @@ public class Example {
     // Calculate the tangent of the angle
     double tangent = Math.Tan(radians);
 
-    // Display result
+    // Display the result
     Console.WriteLine("The tangent of " + degrees + " degrees is: " + tangent);
   }
 }
 ```
 
-The example will result in the following output:
+The above example will result in the following output:
 
 ```shell
 The tangent of 30 degrees is: 0.5773502691896257
