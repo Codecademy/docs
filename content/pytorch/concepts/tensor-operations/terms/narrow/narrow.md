@@ -1,19 +1,20 @@
 ---
 Title: '.narrow()'
-Description: 'Returns a narrow subsection of a tensor along the specified dimension.'
+Description: 'Returns a narrow subsection of a tensor along a specified dimension.'
 Subjects:
   - 'Computer Science'
   - 'Machine Learning'
-  - 'Data Science'
 Tags:
   - 'Python'
   - 'Machine Learning'
+  - 'Methods'
+  - 'Functions'
 CatalogContent:
   - 'intro-to-py-torch-and-neural-networks'
   - 'paths/computer-science'
 ---
 
-In PyTorch, the **`.narrow()`** method selects a subsection of a tensor along a specified dimension. It returns a narrowed view without copying the underlying data, making it efficient for extracting specific sections of large tensors without incurring additional memory allocations.
+In PyTorch, the **`.narrow()`** method selects a subsection of a [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) along a specified dimension. It returns a narrowed view without copying the underlying data, making it efficient for extracting specific sections of large tensors without incurring additional memory allocations.
 
 ## Syntax
 
@@ -22,13 +23,13 @@ torch.narrow(input, dim, start, length)
 ```
 
 - `input`: The tensor to be narrowed.
-- `dim`: The dimension along which the input tensor is narrowed.
-- `start`: The starting index where the narrowing begins. This can be a positive integer, a negative integer (to index from the end of `dim`), or a 0-dimensional integer tensor.
+- `dim`: The dimension along which the input tensor is to be narrowed.
+- `start`: The index where the narrowing begins. This can be a positive integer, a negative integer (to index from the end of `dim`) or a 0-dimensional integer tensor.
 - `length`: The number of elements to include from the starting position.
 
 ## Example
 
-The following example illustrates the usage of `.narrow()` method in various scenarios:
+The following example illustrates the usage of the `.narrow()` method in various scenarios:
 
 ```py
 import torch
@@ -55,11 +56,11 @@ print(single_col)
 # Case 4: Narrow with length extending beyond tensor's dimension
 # In this case, .narrow() raises an error because the sub-tensor's length exceeds the tensor's dimension
 try:
-    error_narrow = torch.narrow(tensor_2d, 0, 1, 5)
-    print("\nCase 4: Narrow With Length Exceeding Dimension Size")
-    print(error_narrow)
+  error_narrow = torch.narrow(tensor_2d, 0, 1, 5)
+  print("\nCase 4: Narrow With Length Exceeding Dimension Size")
+  print(error_narrow)
 except RuntimeError as e:
-    print("\nCase 4: RuntimeError -", e)
+  print("\nCase 4: RuntimeError -", e)
 
 # Case 5: Using a negative start index (dim=1, start=-3, length=2)
 negative_start_narrow = torch.narrow(tensor_2d, 1, -3, 2)
