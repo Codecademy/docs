@@ -37,23 +37,23 @@ In the example below, `accessCount` is marked `mutable`, allowing it to be modif
 
 class Data {
 public:
-    Data(std::string value) : data(value), accessCount(0) {}
-
-    void displayData() const {
-        ++accessCount; // Allowed modification due to `mutable`
-        std::cout << "Data: " << data << ", Access count: " << accessCount << std::endl;
-    }
+  Data(std::string value) : data(value), accessCount(0) {}
+  
+  void displayData() const {
+    ++accessCount; // Modification allowed due to 'mutable'
+    std::cout << "Data: " << data << ", Access count: " << accessCount << std::endl;
+  }
 
 private:
-    std::string data;
-    mutable int accessCount; // Can be modified in const methods
+  std::string data;
+  mutable int accessCount; // Can be modified in constant methods
 };
 
 int main() {
-    Data d("Sample");
-    d.displayData();
-    d.displayData();
-    return 0;
+  Data d("Sample");
+  d.displayData();
+  d.displayData();
+  return 0;
 }
 ```
 
