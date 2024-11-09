@@ -22,7 +22,7 @@ In PyTorch, the **`.conj()`** function is used to compute the complex conjugate 
 torch.conj(tensor)
 ```
 
-- `tensor`: The input tensor.
+- `tensor`: The input tensor for which the complex conjugate will be computed.
 
 ## Example
 
