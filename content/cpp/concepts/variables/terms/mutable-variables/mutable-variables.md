@@ -73,25 +73,25 @@ Use this example to experiment with mutable variables in C++. Enjoy coding!
 
 class Counter {
 public:
-    Counter() : count(0) {}
-
-    void increment() const {
-        ++count;  // count is mutable, so this modification is allowed in const method
-    }
-
-    int getCount() const {
-        return count;
-    }
+  Counter() : count(0) {}
+  
+  void increment() const {
+    ++count;  // 'count' is mutable, so this modification is allowed in this constant method
+  }
+  
+  int getCount() const {
+    return count;
+  }
 
 private:
-    mutable int count;
+  mutable int count;
 };
 
 int main() {
-    Counter counter;
-    counter.increment();
-    counter.increment();
-    std::cout << "Count: " << counter.getCount() << std::endl;
-    return 0;
+  Counter counter;
+  counter.increment();
+  counter.increment();
+  std::cout << "Count: " << counter.getCount() << std::endl;
+  return 0;
 }
 ```
