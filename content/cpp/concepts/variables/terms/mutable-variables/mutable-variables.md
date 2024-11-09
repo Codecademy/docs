@@ -24,8 +24,8 @@ To declare a variable as `mutable`, simply place the `mutable` keyword before th
 mutable type name;
 ```
 
-- **type** - The type of the variable (e.g., `int`, `char`).
-- **name** - The name of the variable.
+- `type`: The type of the variable (e.g., `int`, `char`).
+- `name`: The name of the variable.
 
 ## Example
 
