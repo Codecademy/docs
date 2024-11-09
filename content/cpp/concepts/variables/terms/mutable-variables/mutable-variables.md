@@ -57,6 +57,8 @@ int main() {
 }
 ```
 
+The above code produces the following output:
+
 ```shell
 Data: Sample, Access count: 1
 Data: Sample, Access count: 2
