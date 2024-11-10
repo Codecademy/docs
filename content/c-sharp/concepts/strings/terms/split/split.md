@@ -1,6 +1,6 @@
 ---
 Title: '.Split()'
-Description: 'Used to break string into substrings by specifying a delimeter.'
+Description: 'Divides a string into an array of substrings based on specified delimeter(s).'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -12,30 +12,38 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.Split()`** method breaks a string into substrings based on a delimeter which can be a character or another string and returns an array of strings
+The **`.Split()`** method breaks a string into substrings based on specified delimiter(s), which can be a character, an array of characters, or a string. It returns an array of strings containing the split substrings.
 
 ## Syntax
 
+
+Using a single character as a delimeter:
 ```pseudo
-// Splits a string using a character as a delimeter
 string[] subs = String.Split(char)
+```
 
-// Splits a string using a string as a delimeter
+Using a string as a delimeter:
+```pseudo
 string[] subs = String.Split(string)
+```
 
-// Splits a string using a character as a delimeter into maximum substrings of the number specified in the second argument.
-string[] subs =  String.Split(char, Int)
+Using a character as a delimeter and breaking into maximum N substrings
+```pseudo
+string[] subs =  String.Split(char, Int N)
+```
 
-// Splits a string using a character as a delimeter into maximum substrings of the number specified in the second argument.
-string[] subs =  String.Split(string, Int)
+Using a character as a delimeter and breaking into maximum N substrings
+```pseudo
+string[] subs =  String.Split(string, Int N)
 ```
 
 `.Split()` is a method of class `String`. This method can take upto 3 parameters:
-1. The first parameter is the delimeter and it can be a `Char`, an array of characters `Char[]`, or a `String`
-2. The second parameter is optional and could be the manximum number of desired substrings which is specified as an integer of type `Int32`
-3. The third parameter which is also optional could contain the split options `StringSplitOptions`
-
-This method returns a boolean value of `true` or `false`.
+1. The first parameter is the delimeter:
+  * `Char`: a single character
+  * `Char[]`: an array of characters
+  * `String`: a string
+2. `Int32`: The second parameter is optional and could be the manximum number of desired substrings which is specified as an integer.
+3. `StringSplitOptions`: The third parameter which is also optional could contain the split options `StringSplitOptions`
 
 ## Example
 
