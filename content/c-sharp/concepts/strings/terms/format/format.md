@@ -17,8 +17,8 @@ The **`.Format()`** method creates a new string by replacing placeholders in a f
 
 The string representation of each value can also be based on:
 
-- any additional format information embedded in the corresponding placeholder;
-- a specific culture.
+- Additional format details specified in each placeholder, such as specific number or date formats, or alignment settings.
+- A specific culture or regional style, which affects how numbers and dates are formatted.
 
 ## Syntax
 
@@ -30,11 +30,11 @@ String.Format(culture, formatString, value_1, value_2, ..., value_n);
 
 The `.Format()` method is a static method of the `String` class that defines the following parameters:
 
-- `formatString`: a **composite format string** that contains plain text and **format items**, which are placeholders to be replaced by the specified values.
-- `value_1`, `value_2`, ..., `value_n`: the values that replace the format items in `formatString`. They can be objects of any type. Each format item requires a corresponding value argument.
-- `culture`: an object implementing the `IFormatProvider` interface (usually a `CultureInfo` object), which specifies how to format numeric and date values according to a specific culture. If not passed, the conventions of the current culture are used (i.e., `CultureInfo.CurrentCulture`).
+- `formatString`: A string containing plain text and placeholders to be replaced by the specified values. For example, `"My name is {0}."` where `{0}` is a placeholder to be replaced by a value representing the name.
+- `value_1`, `value_2`, ..., `value_n`: The values that replace the placeholders in `formatString`. They can be objects of any type. Each placeholder requires a corresponding value argument.
+- `culture`: This specifies how numbers and dates should be formatted based on the rules of a specific culture (like language or region). If not provided, it will use the default settings of your system.
 
-Each format item in the composite format string must be enclosed in curly braces and follow this syntax:
+Each placeholder in the format string must be enclosed in curly braces and follow this syntax:
 
 ```pseudo
 {parameter_specifier[,alignment_specifier][:format_specifier]}
@@ -42,24 +42,74 @@ Each format item in the composite format string must be enclosed in curly braces
 
 Where:
 
-- a **parameter specifier** (mandatory) is a number starting from `0` which indicates the position of the replacing value among those passed to the method. For example, `{0}` for the first value, `{1}` for the second, etc..
-- an **alignment specifier** (optional) is a number, separated by a comma, that indicates the minimum number of characters for the value's string representation, which is padded with spaces only if too short. The padding occurs on the right if the specifier is negative (left alignment), or on the left if positive (right alignment). For example, `{0, 15}` right-aligns the first passed value taking up at least 15 characters.
-- a **format specifier** (optional) is a string, separated by a colon, that applies a specific format to the value. It is only allowed for types implementing the `IFormattable` interface, essentially numeric, date, and enum values. If missing, it defaults to `G`.
+- A **parameter specifier** (mandatory) is a number starting from `0` which indicates the position of the replacing value among those passed to the method. For example, `{0}` for the first value, `{1}` for the second, etc..
+- An **alignment specifier** (optional) is a number, separated by a comma, that indicates the minimum number of characters for the value's string representation, which is padded with spaces only if too short. The padding occurs on the right if the specifier is negative (left alignment), or on the left if positive (right alignment). For example, `{0, 15}` right-aligns the first passed value taking up at least 15 characters.
+- A **format specifier** (optional) is a character, or a group of characters, preceded by a colon, that applies a specific format to the value. It is only supported by numeric, date, and enum values and defaults to the general format (`G`) if not provided. It depends on the value type and indicates either:
+  - A standard format that consists of a single character corresponding to a predefined format (e.g., `C` for currency, `D` for a long date or a decimal, depending on the value type).
+  - A custom format that consists of multiple characters that define specific formatting rules for the value (e.g., `yyyy-MM-dd` for dates).
 
 To display a literal curly brace in the result string, you need to double it (`{{`).
 
-The same parameter specifier can be used multiple times in the composite format string if the same value needs to appear more than once.
+The same parameter specifier can be used multiple times in the format string if the same value needs to appear more than once.
 
-### Format Specifiers
+## Example 1
 
-Format specifiers vary by value type and indicate either:
+The following example uses two values (a string and a date) to create a new string by applying the `.Format()` method to a format string. The string value (`name`) is inserted into the `{0}` placeholder. The date value (`loginDate`) is used in two placeholders with the same parameter specifier (`{1:d}` and `{1:t}`) to display the date and time parts separately. Here, `d` and `t` specify standard short date and short time formats, respectively. Since no culture argument is provided, the date and the time are formatted according to the rules of the current culture (`en-US`, in this case).
 
-- a **standard format**, when consisting of a single character corresponding to a predefined format,
-- or a **custom format**, when consisting of multiple **custom format specifiers**, each of which is a character with a specific formatting meaning.
+```cs
+using System;
 
-Formatting data related to a format specifier (such as which character to use as the decimal separator or the date separator) are usually taken from the `NumberFormat` and `DateTimeFormat` properties of the `CultureInfo` object currently used by the formatting procedure. Changes to these data allow for format customization.
+public class Example {
+  public static void Main (string[] args)
+  {
+    string name = "John";
+    DateTime loginDate = new DateTime(2024, 9, 2, 17, 45, 0);
 
-### Numeric Formats
+    // Using String.Format to create the message based on the current culture:
+    string message = String.Format("Hi {0}, your last login was on {1:d} at {1:t}.", name, loginDate);
+
+    Console.WriteLine(message);
+  }
+}
+```
+
+The previous example outputs:
+
+```shell
+Hi John, your last login was on 9/2/24 at 5:45 PM.
+```
+
+## Example 2
+
+The following example is a variation of the previous one which shows how to format `loginDate` using the rules of the British culture (`en-GB`).
+
+```cs
+using System;
+using System.Globalization;
+
+public class Example {
+
+  public static void Main (string[] args)
+  {
+    string name = "John";
+    DateTime loginDate = new DateTime(2024, 9, 2, 17, 45, 0);
+
+    // Using String.Format to create the message based on the British culture:
+    CultureInfo culture = CultureInfo.CreateSpecificCulture("en-GB");
+    string message = String.Format(culture, "Hi {0}, your last login was on {1:d} at {1:t}.", name, loginDate);
+
+    Console.WriteLine(message);
+ }
+}
+```
+
+The previous example outputs:
+
+```shell
+Hi John, your last login was on 02/09/2024 at 17:45.
+```
+
+## Numeric Formats
 
 The following table shows some of the commonly used standard formats for numeric values and how they would format the value of `12345` with the US culture.
 
@@ -82,36 +132,40 @@ A standard numeric format can be followed by a **precision specifier**, a number
 
 If missing, a default precision based on the format specifier is applied.
 
-A custom numeric format can be defined using **custom numeric format specifiers**. The following table lists some of them and shows examples of formatting the value `1234.5` using the US culture. Note how some formats round the result.
+Numbers can also be rounded when formatting. For example, `F2` formats `12345` to `12345.00` and `12.345` to `12.35`;
 
-| Specifier | Description                                                                                                                                                         | Example                 |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
-| `0`       | Digit placeholder replaced by the digit of the formatted value at the same position, or by a `0` if there is no digit.                                              | `00000` >> `01235`      |
-| `#`       | Digit placeholder replaced by the digit of the formatted value at the same position, or by nothing if there is no digit.                                            | `#` >> `12345`          |
-| `.`       | Decimal separator, based on the culture. Digit placeholders on the right decide how to format the decimal part.                                                     | `0.00` >> `1234.50`     |
-| `,`       | A comma between two digit placeholders in the integral part indicates to split the integral digits into groups. The actual group separator is based on the culture. | `#,#.#` >> `1,234.5`    |
-| `;`       | A semicolon separates the different sections of the format for positive, zero, and negative values ​​(in that order). The zero section can be skipped.              | `-(-#);#` >> `-(-1235)` |
-| `\`       | Escape character to display characters otherwise interpreted as specifiers. It must be doubled in quoted string literals.                                           | `\##` >> `#1235`        |
-| any other | Displayed as is.                                                                                                                                                    | `≈#` >> `≈1235`         |
+A custom numeric format can be created using custom numeric format specifiers. The table below lists some common specifiers and provides examples of formatting the value `1234.5` using US culture settings.
 
-### Date Formats
+| Specifier | Description                                                                                                                                            | Example                 |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------- |
+| `0`       | Digit placeholder replaced by the digit of the formatted value at the same position, or by a `0` if there is no digit.                                 | `00000` >> `01235`      |
+| `#`       | Digit placeholder replaced by the digit of the formatted value at the same position, or by nothing if there is no digit.                               | `#` >> `12345`          |
+| `.`       | Decimal separator. Digit placeholders on the right decide how to format the fractional part. If missing, the fractional part is cut (and rounded).     | `0.00` >> `1234.50`     |
+| `,`       | A comma between two digit placeholders in the integer part specifies that the integer part should be split into groups of digits.                      | `#,#.#` >> `1,234.5`    |
+| `;`       | A semicolon separates the different sections of the format for positive, zero, and negative values ​​(in that order). The zero section can be skipped. | `-(-#);#` >> `-(-1235)` |
+| `\`       | Escape character to display characters otherwise interpreted as specifiers. It must be doubled in quoted string literals.                              | `\##` >> `#1235`        |
+| any other | Displayed as is.                                                                                                                                       | `≈#` >> `≈1235`         |
+
+The formatted number is rounded at the rightmost digit placeholder `0` or `#`. The characters used as separators and other symbols depend on the culture.
+
+## Date Formats
 
 The following table shows some of the commonly used standard formats for date values and how they would format a date and time value corresponding to June 7, 2009, at 8:05:09 PM, with the US culture.
 
-| Specifier | Description                  | Example                           |
-| --------- | ---------------------------- | --------------------------------- |
-| `d`       | Short date.                  | `6/7/09`                          |
-| `D`       | Long date.                   | `Sunday, June 7, 2009`            |
-| `f`       | Full date and short time.    | `Sunday, June 7, 2009 8:05 PM`    |
-| `F`       | Full date and long time.     | `Sunday, June 7, 2009 8:05:09 PM` |
-| `g`       | General date and short time. | `6/7/09 8:05 PM`                  |
-| `G`       | General date and long time.  | `6/7/09 8:05:09 PM`               |
-| `M`       | Month and day.               | `June 7`                          |
-| `t`       | Short time.                  | `8:05 PM`                         |
-| `T`       | Long time.                   | `8:05:09 PM`                      |
-| `Y`       | Month and year.              | `June 2009`                       |
+| Specifier | Description                 | Example                           |
+| --------- | --------------------------- | --------------------------------- |
+| `d`       | Short date                  | `6/7/09`                          |
+| `D`       | Long date                   | `Sunday, June 7, 2009`            |
+| `f`       | Full date and short time    | `Sunday, June 7, 2009 8:05 PM`    |
+| `F`       | Full date and long time     | `Sunday, June 7, 2009 8:05:09 PM` |
+| `g`       | General date and short time | `6/7/09 8:05 PM`                  |
+| `G`       | General date and long time  | `6/7/09 8:05:09 PM`               |
+| `M`       | Month and day               | `June 7`                          |
+| `t`       | Short time                  | `8:05 PM`                         |
+| `T`       | Long time                   | `8:05:09 PM`                      |
+| `Y`       | Month and year              | `June 2009`                       |
 
-A custom date format can be defined using **custom date format specifiers**. The following table lists some of them and shows examples of formatting the value corresponding to June 7, 2009, at 8:05:09 PM using the US culture.
+A custom date format can be defined using custom date format specifiers. The following table lists some of them and shows examples of formatting the value corresponding to June 7, 2009, at 8:05:09 PM using the US culture.
 
 | Specifier        | Description                                                                                                               | Example                            |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
@@ -132,106 +186,49 @@ A custom date format can be defined using **custom date format specifiers**. The
 | `\`              | Escape character to display characters otherwise interpreted as specifiers. It must be doubled in quoted string literals. | `\da\y: d` >> `day: 7`             |
 | any other        | Displayed as is.                                                                                                          | `MM-dd-yyyy` >> `06-07-2009`       |
 
-For example, `MMM dd, yyyy` applied to `new DateTime(2024, 6, 1)` returns `Jun 01, 2024`.
+The characters used as separators and other symbols in the formatted date or time depend on the culture specified.
 
-### Enum Formats
+## Enum Formats
 
-There are only standard formats available to format enum values. Some of these are:
+There are only standard formats available to format enum values, namely `G`, `F`, `D`, and `X`.
 
-- `G`: An enum value is displayed as its enum name. A binary OR (`\|`) combination of enum values ​​is displayed as a comma-separated list of matching names. An integer (cast to an enum type) is displayed as the name of the matching enum value if found. Otherwise, an attempt is made to find a list of matching names, but only with the enum type defined with the `Flags` attribute. If no match is found, the integer is displayed.
-- `F`: Like `G`, but attempts to display a list of names even if the enum type is not defined with the `Flags`attribute.
-- `D`: Displays the integer corresponding to the enum value.
-
-## Example
-
-The following example shows how to compose a message using the `.Format()` method and how the result is affected by the culture involved in the formatting procedure. The message is generated twice: once with the current culture (in this case, `en-US`) and once with the British culture (`en-GB`). The example also shows how to use the same parameter specifier in different format items to format the same value (`loginDate`), once as a date and once as a time.
+For example, let the `Access` type be defined as:
 
 ```cs
-using System;
-using System.Globalization;
-
-public class Example {
-
-  public static void Main (string[] args)
- {
-    string name = "John";
-    DateTime loginDate = new DateTime(2024, 9, 2, 17, 45, 0);
-    string formatString = "Hi {0}, your last login was on {1:d} at {1:t}.";
-
- // Displaying a message using the current culture:
-
-    string message = String.Format(formatString, name, loginDate);
-    Console.WriteLine(message);          
-
- // Displaying the same message but using an Italian culture:
-
-    CultureInfo culture = CultureInfo.CreateSpecificCulture("en-GB");
-    message = String.Format(culture, formatString, name, loginDate);
-
-    Console.WriteLine(message);
- }
-}
+public enum Access { Read = 1, Write = 2};
 ```
 
-The previous example outputs:
+With the `G` specifier:
 
-```shell
-Hi John, your last login was on 9/2/24 at 5:45 PM.
-Hi John, your last login was on 02/09/2024 at 17:45.
-```
+- An enum value is displayed as its enum name. For example `Access.Read` is displayed as `Read`.
+- A combination of enum values ​​using the bitwise OR operator (`|`) is displayed as a comma-separated list of matching names. For example `Access.Read | Access.Write` is displayed as `Read, Write`.
+- An integer (cast to an enum type) is displayed as the name of the matching enum value if found. For example `((Access)1)` is displayed as `Read` while `((Access)3)` is displayed as `3` since there is no matching enum name. But if the enum type is defined with a `[Flags]` attribute (e.g., `[Flags] public enum Access { ... };`), an attempt is made to find a list of matching names. In that case, `((Access)3)` would be displayed as `Read, Write` since `1 | 2 = 3`.
+
+> **Note:** To understand why `1 | 2 = 3`, convert the operands in binary format (`1` becomes `01` and `2` becomes `10`), then apply the `|` operator bit by bit using the following rules `0 | 0 = 0`, `0 | 1 = 1`, `1 | 0 = 0`, and `1 | 1 = 1`. The result of the operation `10 | 01` is `11` which corresponds to `3`.
+
+The `F` specifier works like `G`, but it attempts to display an integer as a list of matching names even if the enum type is not defined with the `Flags`attribute. For example, in our case `((Access)3)` is displayed as `Read, Write` even if the `Access` type is defined without the `[Flags]` attribute.
+
+The `D` displays the enum value as the corresponding integer, and `X` as the corresponding hexadecimal value. For example, `Access.Write` is displayed as `2` with `D`, and as `00000002` with `X`.
 
 ## Codebyte Example
 
-The following runnable example defines a `User` class to populate a list of `User` objects and display them on the console. The user class uses the `.Format()` method to define a property (`FullName`) that returns a combination of two other fields (`firstName` and `lastName`). The `.Format()` method is also used to create the rows of user data to be displayed. Custom format specifiers are used to format the `Rank` (numeric) and `LastLogin` (date) properties of each user. The default format specifier `G` is used to format the enum property `Type`, since no format specifier is indicated.
+The following example uses the `.Format()` method to create a string with a name, a date, and a number, where the date displays only the month and day, and the number is rounded to a single digit after the decimal point.
 
 ```codebyte/csharp
 using System;
 
-public enum UserType {None, Student, Teacher, Parent};
-
-public class User
-{
-   private readonly string firstName;
-   private readonly string lastName;
-   private readonly UserType type;
-   private readonly float rank;
-   private readonly DateTime lastLogin;
-
-   public User (string firstName, string lastName, UserType type, float rank, DateTime lastLogin)
-   {
-     this.firstName = firstName;
-     this.lastName = lastName;
-     this.type = type;
-     this.rank = rank;
-     this.lastLogin = lastLogin;
-   }
-
-   public string FirstName { get { return firstName; } }
-   public string LastName { get { return lastName; } }
-   public string FullName { get { return String.Format("{0}, {1}", lastName, firstName); } }
-   public UserType Type { get { return type; } }
-   public float Rank { get { return rank; } }
-   public DateTime LastLogin { get { return lastLogin; } }
-}
-
 public class Example {
-
- static User[] UserList = new User[]
- {
-   new User("Alice", "Apple", UserType.Student, 3.456f, new DateTime(2024, 9, 5, 14, 5, 34)),
-   new User("Robert", "Blue", UserType.Teacher, 2.453f, new DateTime(2024, 10, 15, 10, 20, 48)),
-   new User("John", "Green", UserType.Student, 4.63f, new DateTime(2024, 10, 31, 9, 5, 6)),
-   new User("Amelia", "Orange", UserType.Parent, 1.4f, new DateTime(2024, 11, 3, 17, 10, 24))
- };
 
  static void Main()
  {
-    foreach(User user in UserList)
-    {
-      string line = String.Format("{0} ({1}). Rank: {2:0.00}. Last login on {3:MMM d, yyyy h:mm:ss tt}.",
-      user.FullName, user.Type, user.Rank, user.LastLogin);
-      Console.WriteLine(line);
-    }
+    DateTime date = new DateTime(2024, 8, 4);
+    string name = "John";
+    double temperature = 102.68;
+
+    // Using String.Format to create a formatted string
+    string formattedString = String.Format("On {0:M}, {1} recorded a temperature of {2:0.0}°F.",  date, name, temperature);
+
+    Console.WriteLine(formattedString);
   }
 }
 ```
