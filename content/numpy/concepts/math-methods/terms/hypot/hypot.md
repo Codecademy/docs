@@ -43,7 +43,7 @@ The code above generates the following output:
 
 
 ```shell
-If the first leg is 3 and the second is 4, the hypotenuse is 5
+If the first leg is 3 and the second is 4, the hypotenuse is  5.0
 ```
 
 ## Example 2
