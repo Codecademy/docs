@@ -22,6 +22,7 @@ The **`Concat()`** method combines strings together by appending one string to t
 ```pseudo
 string.Concat(string1, string2,...)
 ```
+
 `string1` and `string2` are the string objects to be concatenated.
 
 ## Example
