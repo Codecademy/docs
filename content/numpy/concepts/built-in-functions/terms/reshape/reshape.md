@@ -76,6 +76,6 @@ import numpy as np
 nd1 = np.array([[10, 20, 30], [40, 50, 60]])
 
 print(nd1)
-print(np.reshape(nd1, (3, 2), order='C'))  
-print(np.reshape(nd1, (3, 2), order='F'))  
+print(np.reshape(nd1, (3, 2), order='C'))
+print(np.reshape(nd1, (3, 2), order='F'))
 ```
