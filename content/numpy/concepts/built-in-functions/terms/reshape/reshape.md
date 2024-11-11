@@ -1,6 +1,6 @@
 ---
 Title: '.reshape()'
-Description: 'Rearranges the data of an ndarray into a new shape.'
+Description: 'Rearranges the data of a ndarray into a new shape.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -68,7 +68,7 @@ This produces the following output:
 
 ## Codebyte Example
 
-The following example creates an `ndarray` then uses `order` as an optional parameter for `.reshape()` to change its dimensions:
+The following example creates a `ndarray` and then uses `order` as an optional parameter for `.reshape()` to change its dimensions:
 
 ```codebyte/python
 import numpy as np
@@ -76,6 +76,6 @@ import numpy as np
 nd1 = np.array([[10, 20, 30], [40, 50, 60]])
 
 print(nd1)
-print(np.reshape(nd1, (3, 2), order='C')) # row by row
-print(np.reshape(nd1, (3, 2), order='F')) # column by column
+print(np.reshape(nd1, (3, 2), order='C'))  
+print(np.reshape(nd1, (3, 2), order='F'))  
 ```
