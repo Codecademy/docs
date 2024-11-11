@@ -2,18 +2,18 @@
 Title: '`.Mesh3d()`'
 Description: 'Creates a 3D mesh plot in Plotly using the `graph_objects` module.'
 Subjects:
- - 'Data Science'
- - 'Data Visualization'
+  - 'Data Science'
+  - 'Data Visualization'
 Tags:
- - 'Graphics'
- - 'Graphs'
- - 'Plotly'
- - 'Python'
+  - 'Graphics'
+  - 'Graphs'
+  - 'Plotly'
+  - 'Python'
 CatalogContent:
-- 'learn-python-3'
-- 'paths/computer-science'
-- 'paths/data-science'
-- 'paths/data-science-foundations'
+  - 'learn-python-3'
+  - 'paths/computer-science'
+  - 'paths/data-science'
+  - 'paths/data-science-foundations'
 ---
 
 **`.Mesh3d()`** is a method in Plotly's `graph_objects` module that generates 3D mesh plots by defining vertices and connecting faces (triangles).
@@ -79,7 +79,7 @@ fig = go.Figure(data=[mesh])
 fig.show()
 ```
 
->Note: If you don't specify the triangle indices, the mesh will automatically be generated using algorithms like Delaunay triangulation. You can also use the `alphahull` parameter to control the generation without the indices: `alphahull = -1` - Uses Delauney triangulation; `alphahull = 0` - Computes the convex hull of the point set; `alphahull > 0` - Uses the alpha shape algorithm with the specified alpha value.
+> Note: If you don't specify the triangle indices, the mesh will automatically be generated using algorithms like Delaunay triangulation. You can also use the `alphahull` parameter to control the generation without the indices: `alphahull = -1` - Uses Delauney triangulation; `alphahull = 0` - Computes the convex hull of the point set; `alphahull > 0` - Uses the alpha shape algorithm with the specified alpha value.
 
 This example results in the following output:
 
