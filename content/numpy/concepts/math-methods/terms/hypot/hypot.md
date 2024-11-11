@@ -24,9 +24,9 @@ In [Numpy](https://www.codecademy.com/resources/docs/numpy), given the "legs" of
 numpy.hypot(x1, x2, out=None, where=True)
 ```
 
-- `x1`, `x2`: Leg of the triangle(s), respectively. If both shapes are not indentical, they must be broadcastable to a common shape.
-- `out`: An optional parameter that allows us to store the output array if the location is specified. If provided, it must have a shape that the inputs broadcast to. If not provided or None, a new array will be allocated for the result.
-- `where`: An array-like optional parameter that determines the elements on which the method is to be applied. At locations where the condition is True, the _out_ array will be set to the ufunc result.
+- `x1`, `x2`: These are the "legs" of the triangle(s). If the shapes of `x1` and `x2` are not identical, they must be broadcastable to a common shape.
+- `out` (Optional): This parameter specifies an array where the result will be stored. The shape of `out` must match the shape of the output. If not provided, a new array will be allocated for the result.
+- `where` (Optional): An optional condition that can be applied element-wise on the input arrays. The result will only be computed where the condition is `True`. If the condition is `False` for an element, that element’s result will be ignored.
 
  ## Example 1
 
