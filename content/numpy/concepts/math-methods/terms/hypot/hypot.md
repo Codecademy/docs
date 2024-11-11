@@ -1,6 +1,7 @@
 ---
 Title: '.hypot()'
-Description: 'Returns the hypotenuse, given the "legs" of a triangle or triangles.'
+Description: 'Returns the hypotenuse of a right triangle, given the "legs".'
+
 Subjects:
   - 'Computer Science'
   - 'Data Science'
