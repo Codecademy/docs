@@ -72,10 +72,10 @@ mesh = go.Mesh3d(
     opacity=0.5
 )
 
-# Generate figure
+# Generate figure.
 fig = go.Figure(data=[mesh])
 
-# Display plot
+# Display plot.
 fig.show()
 ```
 
@@ -109,6 +109,7 @@ fig = go.Figure(data=go.Mesh3d(
 
 fig.show()
 ```
+
 This example results in the following output:
 
 ![Example 2 Output]("https://raw.githubusercontent.com/Codecademy/docs/main/media/mesh3d-dataset-sphere.png")
