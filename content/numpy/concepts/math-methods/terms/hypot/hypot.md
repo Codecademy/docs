@@ -75,7 +75,7 @@ The hypotenuses are 5.0, 13.0 and 10.0, respectively.
 
 ## Codebyte Example
 
-In this codebyte, `hypot()` computes the hypotenuses for two triangles. The first one has legs of 2 and 3, and the second one legs of 8 and 15.
+In this codebyte, `.hypot()` computes the hypotenuses for two triangles. The first triangle has legs of *2* and *3*, and the second triangle has legs of *8* and *15*.
 
 ```codebyte/python
 import numpy as np
