@@ -1,6 +1,6 @@
 ---
-Title: 'contains'
-Description: 'A Boolean value that indicates whether a dictionary contains a specified key.'
+Title: '.contains()'
+Description: 'Returns a boolean value that indicates whether a dictionary contains a specified key.'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'
@@ -12,19 +12,20 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.contains`** method returns a Boolean value that indicates whether a dictionary contains a specified key. The method takes a single argument, which is a key. If the dictionary contains the specified key, the method returns `true` otherwise, it returns `false`.
+The **`.contains()`** method returns a boolean value that indicates whether a dictionary contains a specified key. The method takes a single argument, which is a key. If the dictionary contains the specified key, the method returns `true` otherwise, it returns `false`.
 
 ## Syntax
 
 ```pseudo
-dictionaryInstance.contains(where: { key, value in
-  return key == "key" && value == "value"
-})
+dictionary.contains{check}
 ```
+
+- `dictionary`: An instance of the Dictionary type in Swift.
+- `check`: A closure that evaluates whether a specific key or value exists within the dictionary.
 
 ## Example
 
-In the below example, the `fruitStand` dictionary contains key-value pairs for apples, bananas, and oranges.
+The below example shows the usage of `.contains()` method:
 
 ```swift
 var fruitStand = [
