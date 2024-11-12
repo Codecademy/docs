@@ -53,7 +53,7 @@ int main() {
 }
 ```
 
-## 'const' Reference
+## `const` Reference
 
 In C++, pass-by-reference with `const` can be used for a function where the parameter(s) won’t change inside the function.
 
