@@ -37,7 +37,7 @@ void local_variable(){
     cout <<a_local_variable;
 }
 
-int main() 
+int main()
 {
     local_variable();
 }
@@ -60,8 +60,8 @@ void local(){
     cout<<var;
 }
 
-int main() 
+int main()
 {
-    local();  
+    local();
 }
 ```
