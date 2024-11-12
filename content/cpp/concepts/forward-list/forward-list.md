@@ -1,5 +1,5 @@
 ---
-Title: 'Forward List'
+Title: 'forward_list'
 Description: 'Forward List is a sequence container that allows efficient insertions and deletions from the front of the list.'
 Subjects:
   - 'Computer Science'
@@ -12,21 +12,24 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **`Forward List`** is a sequence container that allows efficient insertions and deletions from the front of the list. Forward lists work by storing a memory address to the first element of the list and having each element store data and a pointer to the memory location of the next element. Compared to arrays, forward lists offer quicker insertions and deletions at the start of the list, at the cost of direct access to elements by index.
+A **`forward_list`** is a sequence container in C++ that allows efficient insertions and deletions at the front of the list. It stores a memory address to the first element, with each element containing data and a pointer to the next element. Compared to arrays, `forward_list` offers faster insertions and deletions at the front but lacks direct access to elements by index.
 
 ## Syntax
 
 ```pseudo
 #include <forward_list>
 
-std::forward_list<type> forwardlist;
+std::forward_list<type> list_name;
 ```
 
-> **Note:** To use `foward_list`, the header `<forward_list>` must be included.
+- `type`: The type of the elements in the `forward_list`. This can be any data type, such as `int`, `std::string`, or user-defined types.
+- `list_name`: The name of the `forward_list` object being declared.
 
-## Example 1
+> **Note:** To use `std::forward_list`, the header `<forward_list>` must be included.
 
-The following example shows how to create a forward list and iterate over it.
+## Example
+
+The following example shows how to create a `forward_list` and iterate over it:
 
 ```cpp
 #include <iostream>
@@ -34,9 +37,9 @@ The following example shows how to create a forward list and iterate over it.
 
 int main() {
   std::forward_list<int> list = {1,2,3,4,5};
-  
+
   std::cout << "Output:" << std::endl;
-  
+
   for(auto it = list.begin(); it != list.end(); ++it) {
     std::cout << *it << " ";
   }
@@ -51,11 +54,11 @@ Output:
 1 2 3 4 5
 ```
 
-> **Note:** Unlike arrays, forward lists do not support direct access to elements through indices so to access a certain element, all elements before that element must be iterated over.
+> **Note:** Unlike arrays, `forward_list` does not support direct access to elements through indices. To access a specific element, all preceding elements must be iterated over.
 
 ## Codebyte Example
 
-The following codebyte example demonstrates the use of `forward_list` in C++ by initializing a list, inserting an element at the front, and removing an element.
+The following codebyte example demonstrates the use of `forward_list` in C++ by initializing a list with elements, inserting an element at the front, removing an element from the front, and iterating over the list to print the remaining elements:
 
 ```codebyte/cpp
 #include <iostream>
