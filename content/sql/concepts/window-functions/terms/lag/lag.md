@@ -34,7 +34,7 @@ OVER (
 
 ## Examples
 
-The examples below use the table Sales, which contains orders of different products that are sold on a particular date and their price that they are sold to.
+The examples below use the Sales table, which contains orders for different products sold on specific dates, along with their prices.
 
 Sales Table
 
@@ -49,7 +49,7 @@ Sales Table
 
 Example 1 : 
 
-The below example uses `LAG()` on column `order_date` with Order By `order_date`.
+The below example uses `LAG()` on column `order_date`, ordered by `order_date`.
 
 ```sql
 SELECT
@@ -63,7 +63,7 @@ FROM
     sales;
 ```
 
-The output is a table with a new column `previous_order_date`, which contains previous entries of `order_date` in the table when ordered by `order_date`. The offset is set to 1 by default, and NULL is displayed when the offset is out of range.
+The output is a table with a new column `previous_order_date`, which contains previous entries of `order_date` in the table when ordered by `order_date`. The default offset is set to 1, meaning the previous row’s order_date will be displayed. When there is no previous row (such as for the first entry in the table), NULL will be displayed.
 
 Output
 
@@ -78,7 +78,7 @@ Output
 
 Example 2 :
 
-The below example uses `LAG()` with offset of 1, partitioned by `product_id` and Order by `order_date`.
+The below example uses `LAG()` with offset of 1, partitioned by `product_id` and ordered by `order_date`.
 
 ```sql
 SELECT
@@ -93,7 +93,7 @@ FROM
     sales;
 ```
 
-The output is a table that features a new column `previously_sold_price`, which holds the sold price of the product on the previous sold date. The first record of every `product_id` is NULL because a default was not specified as the previous date is out of range for the first sale of the product.
+The output is a table that features a new column `previously_sold_price`, which holds the sale price of the product on the previous sale date. For the first record of each product_id, NULL is displayed because there is no previous sale for that product.
 
 Output
 
@@ -115,7 +115,7 @@ SELECT
     product_id,
     order_date,
     sold_price,
-    LAG(product_id,1,"First Sale") OVER (
+    LAG(product_id, 1, 'First Sale') OVER (
       ORDER BY order_date
       ) AS previous_sold_product
 FROM
@@ -123,7 +123,7 @@ FROM
   
 ```
 
-This outputs column `previous_sold_product`, which contains the previous sold product for each sale ordered by `order_date`. As there is no previous sale for the first entry, the default is set to "First Sale".
+This query outputs a new column, `previous_sold_product`, which contains the product ID from the previous sale for each row ordered by order_date. If there is no previous sale (for the first entry), the default value "First Sale" is used.
 
 #### Output
 
