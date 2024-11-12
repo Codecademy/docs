@@ -48,8 +48,8 @@ int main() {
 
   swap_num(a, b);
 
-  std::cout << "A is " << a << "\n";
-  std::cout << "B is " << b << "\n";
+  std::cout << "A is " << a << "\n"; // Expected output: A is 200
+  std::cout << "B is " << b << "\n"; // Expected output: B is 100
 }
 ```
 
@@ -70,6 +70,8 @@ int triple(int const &i) {
 References can also be used with objects of classes. This allows object properties to be modified directly by passing them as reference parameters.
 
 ```cpp
+#include <iostream>
+
 class Car {
  public:
   int speed;
@@ -78,14 +80,18 @@ class Car {
   void setSpeed(int &newSpeed) { speed = newSpeed; }
 };
 
+int triple(const int &i) { return i * 3; }
+
 int main() {
   Car myCar(100);
   int newSpeed = 200;
   myCar.setSpeed(newSpeed);
 
-  std::cout << "The new speed is: " << myCar.speed << "\n";
+  std::cout << "The new speed is: " << myCar.speed << "\n";  // The new speed is: 200
+  std::cout << "Triple the speed: " << triple(myCar.speed) << "\n";  // Triple the speed: 600
+
+  return 0;
 }
-int triple(int const &i) { return i * 3; }
 ```
 
 ## Modifying Arrays Using References
@@ -104,7 +110,7 @@ int main() {
   modifyArray(myArr);
 
   for (int i = 0; i < 5; i++) {
-    std::cout << myArr[i] << " ";
+    std::cout << myArr[i] << " ";  // 2 4 6 8 10
   }
 }
 ```
