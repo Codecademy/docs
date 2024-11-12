@@ -11,10 +11,10 @@ Tags:
  - 'Python'
  - 'Seaborn'
 CatalogContent:
-- 'learn-python-3'
-- 'paths/computer-science'
-- 'paths/data-science'
-- 'paths/data-science-foundations'
+ - 'learn-python-3'
+ - 'paths/computer-science'
+ - 'paths/data-science'
+ - 'paths/data-science-foundations'
 ---
 
 The **`.create_distplot()`** function is part of Plotly's `.figure_factory` module. It is used to create distribution plots, which are visual representations that combine histograms and kernel density estimates (KDE) to display the distribution of a dataset.
