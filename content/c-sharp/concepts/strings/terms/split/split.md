@@ -16,38 +16,50 @@ The **`.Split()`** method breaks a string into substrings based on specified del
 
 ## Syntax
 
+The various overloads of the `.Split()` method in C# are as follows:
 
-Using a single character as a delimeter:
 ```pseudo
-string[] subs = String.Split(char)
+Split(String[], Int32, StringSplitOptions)
 ```
 
-Using a string as a delimeter:
+Splits a string into a maximum number of substrings using the strings in an array as delimiters.
+
 ```pseudo
-string[] subs = String.Split(string)
+Split(Char[], Int32, StringSplitOptions)
 ```
 
-Using a character as a delimeter and breaking into maximum N substrings
+Splits a string into a maximum number of substrings using the characters in an array as delimiters.
+
 ```pseudo
-string[] subs =  String.Split(char, Int N)
+Split(String[], StringSplitOptions)
 ```
 
-Using a character as a delimeter and breaking into maximum N substrings
+Splits a string into substrings based on the strings in an array.
+
 ```pseudo
-string[] subs =  String.Split(string, Int N)
+Split(Char[])
 ```
 
-`.Split()` is a method of class `String`. This method can take upto 3 parameters:
-1. The first parameter is the delimeter:
-  * `Char`: a single character
-  * `Char[]`: an array of characters
-  * `String`: a string
-2. `Int32`: The second parameter is optional and could be the manximum number of desired substrings which is specified as an integer.
-3. `StringSplitOptions`: The third parameter which is also optional could contain the split options `StringSplitOptions`
+Splits a string into substrings based on the characters in an array.
+
+```pseudo
+Split(Char[], StringSplitOptions)
+```
+
+Splits a string into substrings based on the characters in an array.
+
+```pseudo
+Split(Char[], Int32)
+```
+
+Splits a string into a maximum number of substrings based on the characters in an array. 
+
+- `StringSplitOptions`: Represents an enumeration that defines whether to include empty substrings `(StringSplitOptions.None)` or exclude them `(StringSplitOptions.RemoveEmptyEntries)`.
+- `int count`: Represents the maximum number of substrings to return.
 
 ## Example
 
-The following examples demonstrates the various uses of `.Split()` method.
+The following examples demonstrates the use of `.Split()` method:
 
 ```cs
 using System;
@@ -64,14 +76,14 @@ class EqualsMethod {
           Console.WriteLine($"Substring: {sub}");
         }
 
-        // To remove spaces too, we can specify ', ' as the delimeter
+       // To remove spaces, specify ', ' as the delimiter.
         subs = s1.Split(", ");
         foreach (var sub in subs)
         {
           Console.WriteLine($"Substring: {sub}");
         }
 
-        // To limit our substring to 2 we can specify the optional parameter
+        // To limit the number of substrings to 2, specify the optional parameter
         subs = s1.Split(", ", 2);
         foreach (var sub in subs)
         {
@@ -96,7 +108,7 @@ Substring: Mountains, Oceans
 
 ## Codebyte Example
 
-In this executable example, the string variable and the delimeter can be modified to observe the program output.
+Run the following example to understand how the `.String()` method works:
 
 ```codebyte/csharp
 using System;
