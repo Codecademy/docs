@@ -1,6 +1,6 @@
 ---
 Title: 'References'
-Description: "A reference variable is an alias for another object."
+Description: 'A reference variable is an alias for another object.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **reference** variable is an alias for another object. It is created using the `&` sign. It is created using the `&` sign. Two things to note, anything done to the reference also happens to the original and aliases cannot be changed to alias or something else.
+A **reference** variable is an alias for another object. It is created using the `&` sign.
 
 Two things to note:
 
@@ -24,7 +24,7 @@ Two things to note:
 
 ```pseudo
 int &alias = varname;
-
+```
 
 ## Pass-By-Reference
 
@@ -55,7 +55,7 @@ int main() {
 
 ## 'const' Reference
 
-In C++, pass-by-reference with 'const' can be used for a function where the parameter(s) won’t change inside the function.
+In C++, pass-by-reference with `const` can be used for a function where the parameter(s) won’t change inside the function.
 
 This saves the computational cost of making a copy of the argument.
 
@@ -67,29 +67,25 @@ int triple(int const &i) {
 
 ## References with Classes
 
-References can also be used with objects of classes. This allows modifying object properties directly by passing them as reference parameters.
+References can also be used with objects of classes. This allows object properties to be modified directly by passing them as reference parameters.
 
 ```cpp
 class Car {
-public:
-int speed;
-Car(int spd) : speed(spd) {}
+ public:
+  int speed;
+  Car(int spd) : speed(spd) {}
 
-void setSpeed(int &newSpeed) {
-speed = newSpeed;
-}
+  void setSpeed(int &newSpeed) { speed = newSpeed; }
 };
 
 int main() {
-Car myCar(100);
-int newSpeed = 200;
-myCar.setSpeed(newSpeed);
+  Car myCar(100);
+  int newSpeed = 200;
+  myCar.setSpeed(newSpeed);
 
-std::cout << "The new speed is: " << myCar.speed << "\n";
+  std::cout << "The new speed is: " << myCar.speed << "\n";
 }
-int triple(int const &i) {
-return i * 3;
-}
+int triple(int const &i) { return i * 3; }
 ```
 
 ## Modifying Arrays Using References
@@ -98,17 +94,17 @@ Passing arrays by reference is also useful for avoiding unnecessary copies, espe
 
 ```cpp
 void modifyArray(int (&arr)[5]) {
-for (int i = 0; i < 5; i++) {
-arr[i] = arr[i] * 2;
-}
+  for (int i = 0; i < 5; i++) {
+    arr[i] = arr[i] * 2;
+  }
 }
 
 int main() {
-int myArr[5] = {1, 2, 3, 4, 5};
-modifyArray(myArr);
+  int myArr[5] = {1, 2, 3, 4, 5};
+  modifyArray(myArr);
 
-for (int i = 0; i < 5; i++) {
-std::cout << myArr[i] << " ";
-}
+  for (int i = 0; i < 5; i++) {
+    std::cout << myArr[i] << " ";
+  }
 }
 ```
