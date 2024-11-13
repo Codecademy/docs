@@ -72,6 +72,5 @@ print(result)
 
 In this example, the number 3.14159 is rounded to three decimal places, resulting in 3.142.
 
-```
 
 ```
