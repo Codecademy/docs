@@ -21,13 +21,13 @@ A `RegExp` object can also have flags set along with a pattern to change how mat
 There are two ways to create a `RegExp` object:
 
 1. Literal Notation: Use slashes to delimit the pattern, followed by any flags.
-   
+
 ```js
 let re1 = /foo?/i;
 ```
 
 2. Constructor Function: Use the `RegExp` constructor, passing the pattern as the first argument and any flags as the second.
-   
+
 ```js
 let re2 = new RegExp('foo?', 'i');
 ```
@@ -38,18 +38,18 @@ Using the object constructor means the expression will be compiled at runtime. I
 
 ### Properties
 
-| Property      | Description                                                                                                                      |
-| ------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| `.flags`      | Returns a string containing the flags of the `RegExp` object.                                                                    |
-| `.dotAll`     | Indicates if `.` matches newlines.                                                                                               |
-| `.global`     | Indicates if the `RegExp` searches for all matches.                                                                              |
-| `.hasIndices` | Does the Regular Expression result expose captured substrings' start and end indices?                                      |
-| `.ignoreCase` | Indicates if the `RegExp` is case-insensitive.                                                                                   |
-| `.multiline`  | Indicates if the `RegExp` performs multiline matches.                                                                             |
-| `.source`     | The text of the pattern used by the `RegExp` object.                                                                             |
-| `.sticky`     | Indicates if the `RegExp` only matches from `lastIndex`.                                                                         |
-| `.unicode`    | Indicates if the `RegExp` treats patterns as Unicode sequences.                                                                  |
-| `.lastIndex`  | The index to start the next match.                                                                                      |
+| Property      | Description                                                                           |
+| ------------- | ------------------------------------------------------------------------------------- |
+| `.flags`      | Returns a string containing the flags of the `RegExp` object.                         |
+| `.dotAll`     | Indicates if `.` matches newlines.                                                    |
+| `.global`     | Indicates if the `RegExp` searches for all matches.                                   |
+| `.hasIndices` | Does the Regular Expression result expose captured substrings' start and end indices? |
+| `.ignoreCase` | Indicates if the `RegExp` is case-insensitive.                                        |
+| `.multiline`  | Indicates if the `RegExp` performs multiline matches.                                 |
+| `.source`     | The text of the pattern used by the `RegExp` object.                                  |
+| `.sticky`     | Indicates if the `RegExp` only matches from `lastIndex`.                              |
+| `.unicode`    | Indicates if the `RegExp` treats patterns as Unicode sequences.                       |
+| `.lastIndex`  | The index to start the next match.                                                    |
 
 ### Methods
 
@@ -74,14 +74,14 @@ In the following, `re` is a `RegExp` object.
 
 `RegExp` flags modify the default matching behaviour.
 
-| Flag | Description                                                              |
-| ---- | ------------------------------------------------------------------------ |
-| `g`  | Finds all matches, not just the first one. |
-| `i`  | Makes matches case-insensitive. Matches both uppercase and lowercase.    |
-| `m`  | Performs multiline matches. (Changes behavior of `^`,`$`)                |
-| `s`  | Allows `.` to match newline characters.                                  |
-| `u`  | Enables Unicode support.                                                 |
-| `y`  | Matches are sticky, looking only at exact position in the text.          |
+| Flag | Description                                                           |
+| ---- | --------------------------------------------------------------------- |
+| `g`  | Finds all matches, not just the first one.                            |
+| `i`  | Makes matches case-insensitive. Matches both uppercase and lowercase. |
+| `m`  | Performs multiline matches. (Changes behavior of `^`,`$`)             |
+| `s`  | Allows `.` to match newline characters.                               |
+| `u`  | Enables Unicode support.                                              |
+| `y`  | Matches are sticky, looking only at exact position in the text.       |
 
 #### Example 1
 
@@ -100,12 +100,12 @@ The following characters are used to define a Regular Expression string.
 
 The following match the boundaries between characters, not the characters themselves.
 
-| Characters | Meaning                                                                                                                                                                  |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `^`        | Matches the beginning of input. In multiline search, matches immediately after a line break character.                                                                   |
-| `$`        | Matches the end of input. In multiline search, matches immediately before a line breaks character.                                                                         |
+| Characters | Meaning                                                                                                                                                                     |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `^`        | Matches the beginning of input. In multiline search, matches immediately after a line break character.                                                                      |
+| `$`        | Matches the end of input. In multiline search, matches immediately before a line breaks character.                                                                          |
 | `\b`       | Matches a word boundary. The point where a word character is not followed by a word character or the point where a word character is not preceded by another word character |
-| `\B`       | Matches a non-word boundary. The point where preceding and following characters are of the same type.                                                                         |
+| `\B`       | Matches a non-word boundary. The point where preceding and following characters are of the same type.                                                                       |
 
 The following match a character or expression based on what follows or precedes it.
 
