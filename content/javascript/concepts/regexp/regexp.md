@@ -21,11 +21,13 @@ A `RegExp` object can also have flags set along with a pattern to change how mat
 There are two ways to create a `RegExp` object:
 
 1. Literal Notation: Use slashes to delimit the pattern, followed by any flags.
+   
 ```js
 let re1 = /foo?/i;
 ```
 
-2. Constructor Function: Use the `RegExp` constructor, passing the pattern as the first argument and any flags as the second. 
+2. Constructor Function: Use the `RegExp` constructor, passing the pattern as the first argument and any flags as the second.
+   
 ```js
 let re2 = new RegExp('foo?', 'i');
 ```
@@ -81,7 +83,7 @@ In the following, `re` is a `RegExp` object.
 | `u`  | Enables Unicode support.                                                 |
 | `y`  | Matches are sticky, looking only at exact position in the text.          |
 
-Example:
+#### Example 1
 
 ```js
 let re1 = /foo?/gim;
@@ -114,7 +116,7 @@ The following match a character or expression based on what follows or precedes 
 | `(?<=y)x`  | Match `x` only if `x` is immediately preceded by `y`. `y` is not part of the match results.     |
 | `(?<!y)x`  | Match `x` only if `x` is not immediately preceded by `y`. `y` is not part of the match results. |
 
-#### Examples
+#### Example 2
 
 ```js
 let str = 'Sally sells seashells by the seashore';
@@ -160,7 +162,7 @@ Character classes specify a given type of character to match.
 | <code>\\u<i>nnnn</i></code> | Matches a UTF-16 code unit with the value <code><i>nnnn</i></code> (four hexadecimal digits).       |
 | `\`                         | Followed by a special character, means that the character should be matched literally.              |
 
-#### Examples
+#### Example 3
 
 ```js
 let str = '2001: A Space Odyssey';
@@ -197,7 +199,7 @@ Indicate groups and ranges of characters to match.
 
 \* If the hyphen falls at the start or end of the sequence in brackets, it is treated as a literal hyphen.
 
-#### Examples
+#### Example 4
 
 ```js
 let str = 'Peter Piper picked a peck of pickled peppers.';
@@ -230,7 +232,7 @@ Quantifiers specify the number of characters or expressions to match.
 
 By default, these quantifiers are greedy, matching as much of the string as possible. By following the quantifier with `?` (`x*?`) the match will stop at its first occurrence.
 
-#### Examples
+#### Example 5
 
 ```js
 let str = 'Billy bought a bushel of blue balloons.';
