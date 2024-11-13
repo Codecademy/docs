@@ -18,7 +18,7 @@ The **`.Format()`** method creates a new string by replacing placeholders in a f
 The string representation of each value is also based on:
 
 - Additional format details specified in each placeholder, such as specific number or date formats, or alignment settings.
-- A specific culture or regional style, which affects how numbers and dates are formatted.
+- A specific culture or regional style which affects how numbers and dates are formatted.
 
 ## Syntax
 
@@ -42,10 +42,10 @@ Each placeholder in the format string must be enclosed in curly braces and follo
 
 Where:
 
-- A **parameter specifier** (mandatory) is a number starting from `0` which indicates the position of the replacing value among those passed to the method. For example, `{0}` for the first value, `{1}` for the second, etc..
-- An **alignment specifier** (optional) is a number, separated by a comma, that indicates the minimum number of characters for the value's string representation, which is padded with spaces only if too short. The padding occurs on the right if the specifier is negative (left alignment), or on the left if positive (right alignment). For example, `{0, 15}` right-aligns the first passed value taking up at least 15 characters.
-- A **format specifier** (optional) is a character, or a group of characters, preceded by a colon, that applies a specific format to the value. It is only supported by numeric, date, and enum values and defaults to the general format (`G`) if not provided. It depends on the value type and indicates either:
-  - A standard format that consists of a single character corresponding to a predefined format (e.g., `C` for currency, `D` for a long date or a decimal, depending on the value type).
+- A **parameter specifier** (mandatory) is a number starting from `0`, which indicates the position of the replacing value among those passed to the method. For example, `{0}` for the first value, `{1}` for the second, etc..
+- An **alignment specifier** (optional) is a number, separated by a comma, that indicates the minimum number of characters for the value's string representation, which is padded with spaces only if too short. The padding occurs on the right if the specifier is negative (left alignment) or on the left if positive (right alignment). For example, `{0, 15}` right-aligns the first passed value taking up at least 15 characters.
+- A **format specifier** (optional) is a character or a group of characters preceded by a colon that applies a specific format to the value. It is only supported by numeric, date, and enum values and defaults to the general format (`G`) if not provided. It depends on the value type and indicates either:
+  - A standard format that consists of a single character corresponding to a predefined format (e.g., `C` for currency, `D` for a long date, or a decimal, depending on the value type).
   - A custom format that consists of multiple characters that define specific formatting rules for the value (e.g., `yyyy-MM-dd` for dates).
 
 To display a literal curly brace in the result string, you need to double it (`{{`).
