@@ -27,14 +27,14 @@ OVER (
 `LAG()` accepts the following parameters:
 
 - `expression` - The column value which will be referenced.
-- `offset` - A positive numeric indicator of the previous row to access that is relative to the current row. If not specified the default is 1.
+- `offset` - A positive numeric indicator of the previous row to access relative to the current row. If not specified, the default is 1.
 - `default` - The value that will be returned if the `offset` is out of range. This is an optional argument, if not specified NULL will be returned.
 - `partition_by` - Allows the result set to be grouped based on a column. This is an optional argument, if not specified the result set will be treated as a single group.
 - `order_by` - Determines the order of the result set. If `partition_by` is specified, it will order the grouped data instead.
 
-## Examples
+## Example 1
 
-The examples below use the Sales table, which contains orders for different products sold on specific dates, along with their prices.
+The examples below use the Sales table, which contains orders for different products sold on specific dates and their prices.
 
 Sales Table
 
@@ -47,9 +47,7 @@ Sales Table
 |          2 | 2024-02-01 |       60 |
 |          2 | 2024-02-02 |       60 |
 
-Example 1 : 
-
-The below example uses `LAG()` on column `order_date`, ordered by `order_date`.
+The example uses `LAG()` on column `order_date`, ordered by `order_date`.
 
 ```sql
 SELECT
@@ -63,9 +61,9 @@ FROM
     sales;
 ```
 
-The output is a table with a new column `previous_order_date`, which contains previous entries of `order_date` in the table when ordered by `order_date`. The default offset is set to 1, meaning the previous row’s order_date will be displayed. When there is no previous row (such as for the first entry in the table), NULL will be displayed.
+The output is a table with a new column `previous_order_date`, which contains previous entries of `order_date` in the table when ordered by `order_date`. The default offset is set to 1, meaning the previous row’s order_date will be displayed. NULL will be displayed when there is no previous row (such as for the first entry in the table).
 
-Output
+```shell
 
 | product_id | order_date | sold_price | previous_order_date |
 | ---------- | ---------- | ---------- | ------------------- |
@@ -75,10 +73,11 @@ Output
 |          2 | 2024-02-01 |         60 | 2024-02-01          |
 |          2 | 2024-02-02 |         60 | 2024-02-01          |
 |          1 | 2024-03-01 |         80 | 2024-02-02          |
+```
 
-Example 2 :
+## Example 2
 
-The below example uses `LAG()` with offset of 1, partitioned by `product_id` and ordered by `order_date`.
+The below example uses `LAG()` with offset of 1, partitioned by `product_id` and ordered by `order_date`:
 
 ```sql
 SELECT
@@ -93,7 +92,7 @@ FROM
     sales;
 ```
 
-The output is a table that features a new column `previously_sold_price`, which holds the sale price of the product on the previous sale date. For the first record of each product_id, NULL is displayed because there is no previous sale for that product.
+The output is a table that features a new column `previously_sold_price`, which holds the product's sale price on the previous sale date. For the first record of each product_id, NULL is displayed because there was no previous sale for that product.
 
 Output
 
@@ -106,7 +105,7 @@ Output
 |          2 | 2024-02-01 |         60 |                    50 |
 |          2 | 2024-02-02 |         60 |                    60 |
 
-Example 3:
+## Example 3
 
 The below example uses `LAG()` with offset of 1 and with default value "First Sale".
 
