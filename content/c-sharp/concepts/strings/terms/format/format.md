@@ -15,7 +15,7 @@ CatalogContent:
 
 The **`.Format()`** method creates a new string by replacing placeholders in a format string with the string representation of specified values. Non-string values are converted to strings by calling their `.ToString()` method.
 
-The string representation of each value can also be based on:
+The string representation of each value is also based on:
 
 - Additional format details specified in each placeholder, such as specific number or date formats, or alignment settings.
 - A specific culture or regional style, which affects how numbers and dates are formatted.
