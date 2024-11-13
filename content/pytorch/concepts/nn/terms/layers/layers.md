@@ -5,11 +5,11 @@ Subjects:
   - 'AI'
   - 'Machine Learning'
 Tags:
-  - 'Machine Learning'
-  - 'Neural Networks'
   - 'AI'
   - 'Deep Learning'
+  - 'Machine Learning'
   - 'Models'
+  - 'Neural Networks'
 CatalogContent:
   - 'learn-intro-to-py-torch-and-neural-networks'
   - 'py-torch-for-classification'
