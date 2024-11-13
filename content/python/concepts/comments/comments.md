@@ -1,6 +1,6 @@
 ---
 Title: 'Comments'
-Description: 'A comment is a piece of text within a program that is not executed. It can be used to provide additional information to aid in understanding the code. In Python, the # character is used to start a comment. The comment continues after the # until the end of the line. py name = "Pied Piper" # Comment after code  Python does not have a specific syntax for multi-line comments, unlike some other languages. Instead, multiple # characters can be used:'
+Description: 'A comment is a piece of text in a program used to explain code.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A comment is a piece of text within a program that is not executed. It can be used to provide additional information to aid in understanding the code.
+A comment is a piece of text within a program that is not executed. It is used to provide additional information or context to help understand the code. Python uses the `#` character to start a comment, which extends to the end of the line.
 
 ## Single-line Comments
 
@@ -21,14 +21,12 @@ In Python, the `#` character is used to start a comment. The comment continues a
 ```py
 # Comment on a single line
 
-name = "Pied Piper" # Comment after code
+name = "Pied Piper"  # Comment after code
 ```
 
 ## Multi-line Comments
 
-Python does not have a specific syntax for multi-line comments, unlike some other languages.
-
-Instead, multiple `#` characters can be used:
+Python does not have a specific syntax for multi-line comments, unlike some other languages. Instead, multiple `#` characters can be used:
 
 ```py
 # This is a comment written over
@@ -37,7 +35,7 @@ Instead, multiple `#` characters can be used:
 print("Hello, World!")
 ```
 
-Another, less official way of writing comments in Python is to use a multi-line string. Python will ignore string literals that are not assigned to a variable, so multi-line strings (created by surrounding text with triple quotes `"""`) can be used as de facto comments:
+Alternatively, multi-line strings (with triple quotes `"""`) can also be used as de facto comments. These are ignored by Python if not assigned to a variable:
 
 ```py
 """
@@ -50,9 +48,9 @@ print("Hello, World!")
 
 ## Codebyte Example
 
-Here are some examples of comments in a Python program:
+Run the following codebyte to understand how comments work in Python:
 
-```codebyte/py
+```codebyte/python
 """
 Tip Calculator
 Written by Sonny

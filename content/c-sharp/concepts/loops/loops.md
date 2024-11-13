@@ -88,3 +88,60 @@ This example outputs the following:
 2
 3
 ```
+
+## Nested Loop
+
+`Nested loop` is a concept where one loop is put inside another. For every iteration of the outer loop, all iterations of the inner loop are executed.
+
+```cs
+// Outer loop
+for (int i = 0; i < 3; i++)
+{
+  // Inner loop
+  for (int j = 0; j < 2; j++)
+  {
+    System.Console.WriteLine("i = " + i + ", j = " + j);
+  }
+}
+```
+
+This example outputs the following:
+
+```shell
+i = 0, j = 0
+i = 0, j = 1
+i = 1, j = 0
+i = 1, j = 1
+i = 2, j = 0
+i = 2, j = 1
+```
+
+Inner and outer loops do not require being the same type. For instance, A `while` loop can be placed inside a `for` loop, or a `do-while` loop inside a `foreach` loop.
+
+```cs
+int[] numbersArray = { 0, 1, 2, 3 };
+// Outer loop
+foreach (int number in numbersArray)
+{
+  // Inner loop
+  for (int k = 0; k < 2; k++)
+  {
+    System.Console.WriteLine("number = " + number + ", k = " + k);
+  }
+}
+```
+
+This example outputs the following:
+
+```shell
+number = 0, k = 0
+number = 0, k = 1
+number = 1, k = 0
+number = 1, k = 1
+number = 2, k = 0
+number = 2, k = 1
+number = 3, k = 0
+number = 3, k = 1
+```
+
+There is no upper limit on nesting levels. The examples above used two loops, but one can nest even more loops. However, it's a good practice to avoid deep nesting, as it complicates programs.
