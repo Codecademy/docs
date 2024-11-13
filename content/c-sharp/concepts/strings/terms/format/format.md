@@ -73,7 +73,7 @@ public class Example {
 }
 ```
 
-The previous example outputs:
+This example results in the following output::
 
 ```shell
 Hi John, your last login was on 9/2/24 at 5:45 PM.
