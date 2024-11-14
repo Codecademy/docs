@@ -91,6 +91,7 @@ Day I've ever known
 ```
 
 ## Appending to a File
+
 In some cases, you may want to append text to an existing file instead of overwriting its content. To do this, you can open the file in append mode using the `std::ios::app` flag with `ofstream` or `fstream`. Here's an example:
 
 ```cpp
@@ -106,21 +107,24 @@ int main() {
 }
 ```
 
-The output would be:
+The file `journal.txt` will now contain:
 
 ```shell
+Today is the greatest
+Day I've ever known
 Smashing Pumpkins lyrics
 ```
 
 ## Checking if a file exists
-Before opening a file, it is a good practice to check if the file exists. This can prevent issues like reading a file that doesn't exist. You can use the `.is_open()` function for this:
+
+Before opening a file, checking if the file exists is a good practice. This can prevent issues like reading a file that doesn't exist. You can use the `.is_open()` function for this:
 
 ```cpp
 #include <iostream>
 #include <fstream>
 int main() {
   std::ifstream MyFile("journal.txt");
-  // Check if the file exists
+  // Check if the file opened successfully
   if (MyFile.is_open()) {
     std::cout << "File opened successfully.\n";
   } else {
