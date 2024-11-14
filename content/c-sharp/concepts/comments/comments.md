@@ -13,28 +13,32 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **comment** is a piece of text within a program that is not executed. It can be used to provide additional information to aid in understanding the code.
+A **comment** is a non-executable text segment within code. It is used to provide explanations, improve readability, and offer context for developers.
+
 
 ### Single-line Comments
 
-For single-line comments, the compiler ignores any text after two consecutive forward slashes (`//`) on the same line.
+Single-line comments start with `//` and continue to the end of the line. They can appear on an empty line or on the same line as executable code. They are ignored by the compiler.
 
 ```cs
-// Comment goes here
-executing code // Comment goes here
+// This is a single-line comment
+int number = 10; // Explains the variable
 ```
 
 ### Multi-line Comments
 
-Multi-line comments begin with `/*` and end with `*/`. The compiler ignores any text in between.
+Multi-line comments begin with `/*` and end with `*/`. The compiler ignores any text in between, and they can span multiple lines.
 
 ```cs
-/*
-This is all commented out.
-None of it is going to run!
-*/
+/* This is a
+   multi-line comment */
 ```
+Multi-line comments can also be inserted within a line of code, allowing for additional executable code after the comment, as they are explicitly closed with `*/`.
 
+```cs
+int number = 10; /* Multi-line comment */ int anotherNumber = 20;
+```
+<!--
 ### Example
 
 The following examples show various comment styles:
@@ -47,6 +51,7 @@ This is a multi-line
 comment.
 */
 ```
+-->
 
 ### XML Comments
 
