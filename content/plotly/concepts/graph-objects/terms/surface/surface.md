@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Surface`** class creates a 3D surface plot using Plotly's `graph_objects` module. It allows for the visualization of data in three dimensions.
+The **`Surface`** class creates a 3D surface plot using Plotly's `graph_objects` module. It allows for the visualization of data in three dimensions. This class enables the rendering of surfaces defined by `x`, `y`, and `z` coordinates, and can be customized with various parameters like colors, scales, and more to represent complex datasets.
 
 ## Syntax
 
@@ -32,9 +32,9 @@ plotly.graph_objects.Surface(
 )
 ```
 
-- `z`: A 2D array-like object (required), which defines the surface's Z coordinates (height/depth).
-- `x`: 1D array-like (optional), representing the X coordinates. If not provided, it defaults to the range of the number of columns in `z`.
-- `y`: 1D array-like (optional), representing the Y coordinates. If not provided, it defaults to the range of the number of rows in `z`.
+- `z`: It defines the surface's `Z` coordinates (height/depth).
+- `x`: It represents the `X` coordinates. If not provided, it defaults to the range of the number of columns in `z`.
+- `y`: It represents the `Y` coordinates. If not provided, it defaults to the range of the number of rows in `z`.
 - `colorscale`: Can be a named colour scale (e.g., `'Viridis'`) or a list of tuples that define custom colour mapping (optional).
 - `cmin`: Minimum value of the colorscale range (optional).
 - `cmax`: Maximum value of the colorscale range (optional).
@@ -43,7 +43,7 @@ plotly.graph_objects.Surface(
 
 ## Example
 
-The following example showcases the use of the `Surface` class:
+This code creates a 3D surface plot using Plotly's `Surface` class from the `graph_objects` module. It defines a mathematical function $f(x, y) = x^2 + y^2$, where `x` and `y` form a mesh grid, and `z` represents the height of the surface:
 
 ```py
 import plotly.graph_objects as go
@@ -62,12 +62,8 @@ fig.update_layout(title='3D Surface Plot of f(x, y) = x^2 + y^2',
                       yaxis_title='Y',
                       zaxis_title='f(x, y)'
                   ))
-
-
 fig.show()
 ```
-
-This example allows for a visual representation of a mathematical function, with customizable parameters like the color scale to highlight different levels on the surface. The z values create the height of the surface, while x and y form the base grid, enabling an intuitive understanding of how the function behaves across the input space.
 
 The above code generates the following output:
 
