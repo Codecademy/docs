@@ -105,40 +105,46 @@ if (logger_result == LogResult::Success) {} // Because Success is scoped to LogR
 
 ## Enum to Int Conversion
 
-In C++, `enum` can be implicitly converted to integers, useful for numeric contexts like array indexing or bitwise operations.
+In C++, `enum` can be implicitly converted to integers, useful for numeric contexts like array indexing or bitwise operations:
 
 ```cpp
 #include <iostream>
 enum color { red, green, blue };
 
 int main() {
-    color c = green;
-    int colorValue = c;  // Implicit conversion to int
-    std::cout << "Color value: " << colorValue; // Output: Color value: 1
+  color c = green;
+  int colorValue = c;  // Implicit conversion to int
+  std::cout << "Color value: " << colorValue;
 }
+```
+
+Here is the output:
+
+```shell
+Color value: 1
 ```
 
 Converting an `enum` to `int` is easy, but converting `int` to `enum` is risky as no bounds check is done, leading to undefined behavior if the value is out of range.
 
-## Custom underlying type for Enums
+## Custom Underlying Types
 
-By default, an enum's type is `int`, but you can specify a smaller type like `unsigned char` to optimize memory usage.
+By default, an enum's type is `int`, but a smaller type like `unsigned char` can be specified to optimize memory usage:
 
 ```cpp
 #include <iostream>
 enum class Permission : unsigned char {
-    Read = 1,
-    Write = 2,
-    Execute = 4
+  Read = 1,
+  Write = 2,
+  Execute = 4
 };
 
 int main() {
-    Permission p = Permission::Write;
-    std::cout << static_cast<int>(p);  // Explicit cast to int: Output: 2
+  Permission p = Permission::Write;
+  std::cout << static_cast<int>(p);  // Explicit cast to int
 }
 ```
 
-Here, the underlying type of Permission is `unsigned char`. The constants `Read`, `Write`, and `Execute` are stored using only 1 byte of memory.
+Here, the underlying type of `Permission` is `unsigned char`. The constants `Read`, `Write`, and `Execute` are stored using only 1 byte of memory.
 
 This example results in the following output:
 
@@ -146,9 +152,11 @@ This example results in the following output:
 2
 ```
 
-## Best practices for using Enums
+## Best Practices
 
-1. Use enum class for strong typing: Scoped enums (C++11) prevent implicit int conversions, ensuring better type safety.
+Here are some best practices for using enums:
+
+1. Use `enum class` for strong typing: Scoped enums (C++11) prevent implicit int conversions, ensuring better type safety.
 2. Explicit casting: Use `static_cast<int>(enum_value)` for safe conversions.
 3. Avoid magic numbers: Enums replace hardcoded numbers, improving readability.
 4. Use underlying types wisely: Choose the underlying type carefully in memory-constrained environments.
