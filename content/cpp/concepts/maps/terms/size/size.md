@@ -22,7 +22,7 @@ In C++, the **`.size()`** [method](https://www.codecademy.com/resources/docs/cpp
 mapName.size();
 ```
 
-- `mapName`: The map to be checked.
+- `mapName`: The map object for which the size is being checked.
 
 ## Example
 
@@ -50,7 +50,7 @@ The map contains 3 elements.
 
 ## Codebyte Example
 
-The below codebyte example demonstrates the usage of the `.size()` method:
+The below example demonstrates the usage of the `.size()` method with two maps, `vehicles` and `fruits`:
 
 ```codebyte/cpp
 #include <iostream>
