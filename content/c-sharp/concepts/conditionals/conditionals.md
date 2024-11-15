@@ -132,3 +132,33 @@ string getInput1(int input1) => input1 === 10 ? "I returned true" : "I returned 
 Console.WriteLine(getInput1(10)); // Output: "I returned true"
 Console.WriteLine(getInput1(5)); // Output: "I returned false"
 ```
+
+## Codebyte Example
+
+Run the following codebyte example to understand how conditionals work in C#:
+
+```codebyte/csharp
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int number = 10;
+
+        // Using if-else conditional statements
+        if (number > 0)
+        {
+            Console.WriteLine("The number is positive.");
+        }
+        else if (number < 0)
+        {
+            Console.WriteLine("The number is negative.");
+        }
+        else
+        {
+            Console.WriteLine("The number is zero.");
+        }
+    }
+}
+```
