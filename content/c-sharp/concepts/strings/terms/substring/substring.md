@@ -65,7 +65,8 @@ public class Program
 ```
 
 It returns the following output.
-```cs
+
+```pseudo
 "decade"
 ```
 
