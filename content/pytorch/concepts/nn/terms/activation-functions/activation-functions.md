@@ -115,7 +115,8 @@ Sigmoid is a popular activation function that returns a value between 0 and 1. I
 f(x) = 1 / (1 + e^(-x))
 ```
 
-The Sigmoid function is commonly used in binary classification problems where the output needs to be constrained between 0 and 1. It is also frequently utilized in the output layer of neural networks to predict probabilities, making it suitable for tasks that require a binary outcome.
+The Sigmoid function is commonly used in binary classification problems where the output needs to be constrained between `0` and `1`. It is also frequently utilized in the output layer of neural networks to predict probabilities, making it suitable for tasks that require a binary outcome.
+
 
 ```py
 import torch.nn as nn
