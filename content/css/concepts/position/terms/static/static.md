@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-In CSS, the **`static`** value of the `position` property allows an element to be positioned in accordance with the normal flow of the page, meaning it appears where it would naturally occur on the page without any adjustments. The elements won't affected by `top`, `bottom`, `left` and `right` properties.
+In CSS, the **`static`** value of the `position` property allows an element to be positioned following the normal flow of the page, meaning it appears where it would naturally occur on the page without any adjustments. The elements won't be affected by the `top`, `bottom`, `left`, and `right` properties.
 
 > **Note:** HTML elements are positioned `static` by default.
 
@@ -26,7 +26,7 @@ position: static;
 
 ## Example
 
-This example demonstrates static positioning of HTML elements.
+This example demonstrates the static positioning of HTML elements.
 
 Here is the HTML code:
 
@@ -64,6 +64,6 @@ Here's what the above example's output looks like:
 ![CSS Static Position Example Output](https://raw.githubusercontent.com/Codecademy/docs/main/media/css_position_static.png)
 
 In this example, the `box1` has no position property set, so it automatically uses `position: static`.
-The`box2` explicitly has `position: static` and `top: 50px` set to it. But both elements will follow the normal document flow, meaning they stack on top of each other, one after the other vertically.
+The `box2` explicitly has the `position: static` and `top: 50px` set. But both elements will follow the normal document flow, meaning they stack on top of each other, one after the other vertically.
 
-If you want to modify the position of the elements, you would use other position values like `relative` or `absolute`.
+Use other position values, such as ' relative ' or ' absolute, ' to modify the position of the elements.
