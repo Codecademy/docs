@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C++, mutable variables are variables that can be modified even within constant functions, useful for managing internal state flexibly.
+In C++, **mutable variables** are variables that can be modified even within constant functions, useful for managing internal state flexibly.
 
 ## Syntax
 
@@ -38,7 +38,7 @@ In the example below, `accessCount` is marked `mutable`, allowing it to be modif
 class Data {
 public:
   Data(std::string value) : data(value), accessCount(0) {}
-  
+
   void displayData() const {
     ++accessCount; // Modification allowed due to 'mutable'
     std::cout << "Data: " << data << ", Access count: " << accessCount << std::endl;
@@ -76,11 +76,11 @@ The following codebyte example demonstrates the usage of mutable variables:
 class Counter {
 public:
   Counter() : count(0) {}
-  
+
   void increment() const {
     ++count;  // 'count' is mutable, so this modification is allowed in this constant method
   }
-  
+
   int getCount() const {
     return count;
   }
