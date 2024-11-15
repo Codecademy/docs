@@ -35,19 +35,13 @@ $$ LANGUAGE lang_name;
 
 In this syntax:
 
-- `function_name` refers to the name of the function.
-
-- [OR REPLACE] option allows you to update an existing function.
-
-- In `parameters`, list out the parameters that the function takes in. A function can have zero or more parameters.
-
-- Define the datatype of the returned value after `returns`. The `return_type` could be a base, composite, domain type, or even reference a table column's type.
-
-- The `AS` keyword is used when defining a standalone function.
-
-- `function_body` contains the logic of the function that will be executed.
-
-- `language lang_name` defines the name of the language that the function is implemented in. Note that PostgreSQL supports many languages including  SQL, C, PL/pgSQL, or the name of a user-defined procedural language.
+- `function_name`: Refers to the name of the function.
+- `[OR REPLACE]`: This option allows you to update an existing function, with the same name. If the function doesn't exist, PostgreSQL will create a new one.
+- `parameters`: These are the input parameters that the function accepts. 
+- `RETURNS return_type`: Specifies the type of value that the function will return.
+- `AS`: It is used to introduce the function body. 
+- `function_body`: It contains the logic of the function that will be executed when the function is called.
+- `LANGUAGE lang_name` : Defines the name of the language in which the function is written.
 
 
 ## Example
