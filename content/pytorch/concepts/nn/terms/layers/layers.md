@@ -47,11 +47,12 @@ model = nn.Sequential(
     # First layer: Linear transformation from 56 input features to 128 output features
     nn.Linear(56, 128),  # This layer learns to transform input data
     nn.ReLU(),           # Activation function to introduce non-linearity
-    
+
     # Second layer: Linear transformation from 128 input features to 26 output features
     nn.Linear(128, 26),  # This layer continues to transform the data
     nn.ReLU(),           # Another activation function for non-linearity
-    
+
     # Third layer: Linear transformation from 26 input features to 1 output feature
     nn.Linear(26, 1)     # Final output layer that produces the model's prediction
 )
+```
