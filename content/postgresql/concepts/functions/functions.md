@@ -2,8 +2,8 @@
 Title: 'Functions'
 Description: 'A PostgreSQL function is a reusable SQL code block that performs operations and returns results.'
 Subjects:
-  - 'Data Science'
   - 'Computer Science'
+  - 'Data Science'
 Tags:
   - 'PostgreSQL'
   - 'Functions'
