@@ -20,17 +20,17 @@ PostgreSQL supports functions in various languages, such as SQL, PL/pgSQL, C, Py
 Here is the syntax for defining a PostgreSQL function:
 
 ```pseudo
-CREATE [OR REPLACE] FUNCTION function_name (parameters) 
+CREATE [OR REPLACE] FUNCTION function_name(parameters) 
 RETURNS return_type AS $$
-   DECLARE
-      < variable_declaration >
-      [...]
-   BEGIN
-      < function_body >
-      [...]
-      RETURN { variable_name | value } ;
-   END; 
-   $$ LANGUAGE lang_name;
+DECLARE
+    <variable_name> <data_type>;
+BEGIN
+   <function_logic>;
+   RETURN <value_or_variable>;
+END;
+$$ LANGUAGE lang_name;
+
+
 ```
 
 In this syntax:
