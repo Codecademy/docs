@@ -17,7 +17,7 @@ PostgreSQL supports functions in various languages, such as SQL, PL/pgSQL, C, Py
 
 ## Syntax
 
-Here is the syntax used to define a function:
+Here is the syntax for defining a PostgreSQL function:
 
 ```pseudo
 CREATE [OR REPLACE] FUNCTION function_name (parameters) 
