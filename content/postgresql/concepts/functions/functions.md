@@ -39,7 +39,6 @@ $$ LANGUAGE lang_name;
 - `function_body`: It contains the logic of the function that will be executed when the function is called.
 - `LANGUAGE lang_name` : Defines the name of the language in which the function is written.
 
-
 ## Example
 
 Suppose we have a table `employees` containing the employees' names and salaries, with the following records:
