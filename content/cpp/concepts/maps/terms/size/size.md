@@ -37,7 +37,7 @@ int main() {
   myMap[1] = "apple";
   myMap[2] = "banana";
   myMap[3] = "cherry";
-  
+
   std::cout << "The map contains " << myMap.size() << " elements.";
 }
 ```
@@ -62,7 +62,7 @@ int main() {
   // Initializing maps with items
   map<int, string> vehicles {{1, "Car"}, {2, "Motorcycle"}, {3, "Bicycle"}, {4, "Bus"}, {5, "Airplane"}};
   map<int, string> fruits{{1, "apple"}, {5, "banana"}, {6, "strawberry"}};
-  
+
   // Printing the size of each map
   cout << "The number of vehicles: " << vehicles.size() << endl;
   cout << "The number of fruits: " << fruits.size() << endl;
