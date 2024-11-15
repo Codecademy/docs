@@ -131,7 +131,7 @@ This will display:
 
 To define custom colors consistently throughout the app in SwiftUI a good way to do this is by creating a custom color under the Assets Folder in XCode.
 
-To ensure the color is cohesive add a Hex Number under the Color Set Tab within the Assets folder as shown below. First, add a color set, and give it a name. Call the new Color to use it. It can be `lightGreen`, `appleGreen`, or in our `brandPrimary` as it will be the brand’s main color used throughout the app.
+To ensure the color is cohesive, add a Hex Number under the Color Set Tab within the Assets folder, as shown below. First, add a color set and give it a name. Call the new Color to use it. It can be `lightGreen`, `appleGreen`, or in our `brandPrimary` as it will be the brand’s main color used throughout the app.
 
 ![SwiftUI Color](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-colors-assetsfolder.png)
 
