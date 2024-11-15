@@ -32,7 +32,7 @@ First, the number of centroids is selected. The algorithm consists of two steps.
 
 ## Clustering Performance Evaluation
 
-Evaluating the clusters is not as straightforward as counting errors, precision or recall, primarily because there is no ground truth. Instead of relying on labels, we can assess how similar the data points within a cluster are to each other based on some form of ground truth.
+Evaluating the clusters is not as straightforward as counting errors, precision, or recall, primarily because there is no ground truth. Instead of relying on labels, we can assess how similar the data points within a cluster are to each other based on some form of ground truth.
 
 Several methods can be used to evaluate clusters, including visual inspection, Silhouette Score, Rand Index, and Homogeneity.
 
