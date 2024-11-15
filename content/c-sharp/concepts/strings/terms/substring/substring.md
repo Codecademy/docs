@@ -72,7 +72,7 @@ It returns the following output.
 
 ## Codebyte Example
 
-In this Codebyte example, `.Substring()` is used to return a name without it's initial letter.
+Run the Codebyte example, to understand how the `.Substring()` method works:
 
 ```codebyte/csharp
 using System;
