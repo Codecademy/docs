@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-**Clustering** is an unsupervised machine learning technique that groups similar rows of unlabeled data. Various clustering algorithms (such as k-means, DBSCAN etc.) apply different type of clustering. 
+**Clustering** is an unsupervised machine learning technique that groups similar rows of unlabeled data. Various clustering algorithms, such as k-means, DBSCAN, etc., apply different types of clustering. 
 
 Clustering is primarily used for an exploratory data analysis. Each technique varies in understanding what constitutes a cluster and how to find them so that different algorithms may yield different clusters for the same dataset. Since there is no ground truth to verify against, it is essential to evaluate the results. Iterating to find satisfactory clusters is vital until the output quality meets expectations. 
 
