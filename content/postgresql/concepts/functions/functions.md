@@ -46,7 +46,16 @@ In this syntax:
 
 ## Example
 
-Supposed we have a table `employees` containing the employees' names and salaries, with the following records:
+Suppose we have a table `employees` containing the employees' names and salaries, with the following records:
+
+| employee | salary |
+|----------|--------|
+| Sarah    | 50000  |
+| Bailey   | 60000  |
+| Valeria  | 70000  |
+
+
+
 
 
 
