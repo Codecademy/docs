@@ -30,9 +30,6 @@ BEGIN
 END;
 $$ LANGUAGE lang_name;
 
-
-```
-
 In this syntax:
 
 - `function_name`: Refers to the name of the function.
