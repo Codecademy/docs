@@ -63,6 +63,4 @@ This codebyte example demonstrates how to create and manipulate a multi-dimensio
 import numpy as np
 
 a = np.ones((2, 3, 4, 5))
-np.transpose(a).shape
-(5, 4, 3, 2)
-```
+print(np.transpose(a).shape)
