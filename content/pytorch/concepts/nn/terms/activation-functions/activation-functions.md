@@ -109,7 +109,8 @@ model = SimpleNN()
 
 ## Sigmoid
 
-Sigmoid is a popular activation function that returns a value between 0 and 1. It is mathematically defined as:
+Sigmoid is a popular activation function that returns a value between `0` and `1`. It is mathematically defined as:
+
 
 ```pseudo
 f(x) = 1 / (1 + e^(-x))
