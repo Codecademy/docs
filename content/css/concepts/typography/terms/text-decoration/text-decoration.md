@@ -30,9 +30,9 @@ The `text-decoration-value` can be the following:
 - `overline`
 - `line-through`
 
-## Example 1
+## Examples
 
-Paragraph with an underline. 
+### Paragraph with an underline. 
 
 ```css
 p {
@@ -46,9 +46,7 @@ p {
 
 ![text decoration underline](image.png)
 
-## Example 2
-
-Paragraph with an overline. 
+### Paragraph with an overline. 
 
 ```css
 p {
@@ -62,30 +60,28 @@ p {
 
 ![text decoration overline](image-1.png)
 
-## Example 3
-
-Paragraph with a line through. 
+### Paragraph with a line through. 
 
 ```css
 p {
   text-decoration: line-through;
 }
 ```
+
 ```HTML
 <p>Example Paragraph</p>
 ```
 
 ![text decoration line through](image-2.png)
 
-## Example 4
-
-Paragraph with a wavy red underline. 
+### Paragraph with a wavy red underline. 
 
 ```css
 p {
   text-decoration: red wavy underline;
 }
 ```
+
 ```HTML
 <p>Example Paragraph</p>
 ```
