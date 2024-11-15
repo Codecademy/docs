@@ -17,8 +17,13 @@ The **`.Substring()`** method is a string method that returns a substring of a s
 ## Syntax
 
 ```pseudo
-Substring(int startIndex);
-Substring(int startIndex, int Length)
+.Substring(int startIndex)
+```
+
+Or, alternatively:
+
+```pseudo
+.Substring(int startIndex, int length)
 ```
 
 - `startIndex`: The index from where the substring starts.
@@ -44,7 +49,7 @@ public class Program
 It returns the following output.
 
 ```shell
-"cademy"
+cademy
 ```
 
 ## Example 2
@@ -67,7 +72,7 @@ public class Program
 It returns the following output.
 
 ```pseudo
-"decade"
+decade
 ```
 
 ## Codebyte Example
