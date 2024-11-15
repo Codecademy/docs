@@ -40,7 +40,7 @@ Several methods can be used to evaluate clusters, including visual inspection, S
 Sklearn provides the `KMeans` class for implementing clustering.
 
 ```psuedo
-KMeans(n_clusters=8, *, init='k-means++', n_init= 'auto', max_iter=300, tol=0.0001, verbose=0, random_state=None, copy_x=True, algorithm=’lloyd’) 
+KMeans(n_clusters=8, *, init='k-means++', n_init= 'auto', max_iter=300, tol=0.0001, verbose=0, random_state=None, copy_x=True, algorithm='lloyd') 
 ```
 
 `KMeans` has the following parameters:
