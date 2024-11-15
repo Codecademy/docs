@@ -66,3 +66,22 @@ This results in the following output:
  [3.4 4.4 5.4]
  [4.  5.  6. ]]
 ```
+
+## Codebyte Example
+
+Run the following codebyte example to understand the usage of the `linspace()` function with different inputs and parameters:
+
+```codebyte/python
+import numpy as np
+
+result, step_size = np.linspace(0, 20, num=5, retstep=True)
+print("Resulting array: ", result)
+print("Step size: ", step_size)
+
+result2, step_size2 = np.linspace(0, 20, num=5, endpoint=False, retstep=True)
+print("Resulting array (without endpoint): ", result2)
+print("Step size: ", step_size2)
+
+result3 = np.linspace([0, 10], [20, 100], num=8, axis=1)
+print(result3)
+```
