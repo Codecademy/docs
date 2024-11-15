@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/machine-learning'
 ---
 
-Layers are modules that perform operations on input data to build neural networks.
+**Layers** are modules that perform operations on input data to build neural networks.
 
 ## Syntax
 
