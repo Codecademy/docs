@@ -40,7 +40,7 @@ $$ LANGUAGE lang_name;
 
 ## Example
 
-Suppose we have a table `employees` containing the employees' names and salaries, with the following records:
+Suppose we have a table `employees` containing employees names and salaries, with the following records:
 
 | employee | salary |
 |----------|--------|
