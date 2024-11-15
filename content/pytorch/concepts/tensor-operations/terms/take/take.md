@@ -22,8 +22,8 @@ The **`.take()`** function returns a 1D tensor containing elements from the give
 torch.take(input,index)
 ```
 
--`input`: The input tensor from which the elements will be selected.
--`index`: A 1D tensor containing the indices of the elements to extract from `input`.
+- `input`: The input tensor from which the elements will be selected.
+- `index`: A 1D tensor containing the indices of the elements to extract from `input`.
 
 ## Example
 
@@ -35,15 +35,16 @@ import torch
 # Define a tensor
 data = torch.tensor([[4, 2, -1], [7, 8, 0]])
 
-# Use torch.take with data and indices
-result = torch.tensor(data, torch.take([0,2,5]))
+# Define indices as a tensor
+indices = torch.tensor([0, 2, 5])
 
+# Use torch.take with data and indices
+result = torch.take(data, indices)
 print(result)
 ```
+
+The code produces the following output:
 
 ```shell
 [4,-1,0]
 ```
-
-
-
