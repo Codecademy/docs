@@ -52,9 +52,16 @@ It returns the following output.
 In this example, `.Substring()` is used with the optional `length` parameter to return a substring of 6 characters starting from index `2` of the string `"Codecademy"`.
 
 ```cs
-string str = "Codecademy";
+using System;
 
-Console.WriteLine(str.Substring(2, 6));
+public class Program
+{
+    public static void Main()
+    {
+        string str = "Codecademy";
+        Console.WriteLine(str.Substring(2, 6)); 
+    }
+}
 ```
 
 It returns the following output.
