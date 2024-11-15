@@ -49,7 +49,8 @@ model = SimpleNN()
 
 ## ReLU6
 
-ReLU6 is a variation of the ReLU activation function that returns the input if it is positive and less than or equal to 6, and returns 0 if the input is negative or greater than 6. It is mathematically defined as:
+ReLU6 is a variation of the ReLU activation function that returns the input if it is positive and less than or equal to 6, and returns `0` if the input is negative or greater than 6. It is mathematically defined as:
+
 
 ```pseudo
 f(x) = min(max(0, x), 6)
