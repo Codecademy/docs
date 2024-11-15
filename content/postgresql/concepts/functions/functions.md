@@ -48,11 +48,6 @@ In this syntax:
 
 Supposed we have a table `employees` containing the employees' names and salaries, with the following records:
 
- `employee` | `salary` |
- ---------- | -------- |
- Sarah       | 50000     |
- Bailey       | 60000     |
- Valeria        | 70000     |
 
 
 We would like to create a function that calculates the average salary of all the employees in the table. Our function `avg_salary()` can be defined as follows:
