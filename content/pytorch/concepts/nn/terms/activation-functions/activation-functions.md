@@ -55,7 +55,8 @@ ReLU6 is a variation of the ReLU activation function that returns the input if i
 f(x) = min(max(0, x), 6)
 ```
 
-ReLU6 is useful when you want to limit the output of the activation function to a specific range, such as between 0 and 6.
+ReLU6 is useful when you want to limit the output of the activation function to a specific range, such as between `0` and `6`.
+
 
 ```py
 import torch.nn as nn
