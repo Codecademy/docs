@@ -43,7 +43,7 @@ public class Program
 
 It returns the following output.
 
-```cs
+```shell
 "cademy"
 ```
 
