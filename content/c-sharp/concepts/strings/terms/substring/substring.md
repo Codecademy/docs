@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.Substring()`** method is a string method that returns a substring of a string starting at the given index number, it will return all characters unless a maximum length is given. This method returns `Empty` if the index is greater than the length of the string instance.
+The **`.Substring()`** method is a string method that returns a substring of a string starting at the specified index. It will return all characters from that index to the end unless a maximum length is specified. If the starting index equals the string length, it returns an empty string (`""`). If the index is greater than the string length, it throws an `ArgumentOutOfRangeException`.
 
 ## Syntax
 
