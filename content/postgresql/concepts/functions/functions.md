@@ -50,7 +50,7 @@ Supposed we have a table `employees` containing the employees' names and salarie
 
 
 
-We would like to create a function that calculates the average salary of all the employees in the table. Our function `avg_salary()` can be defined as follows:
+We would like to create a function that calculates the average salary of all employees in the table. Our function `avg_salary()` , can be defined as follows:
 
 ```sql
 CREATE FUNCTION avg_salary() 
