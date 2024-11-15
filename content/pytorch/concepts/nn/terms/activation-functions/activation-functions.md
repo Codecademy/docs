@@ -51,13 +51,11 @@ model = SimpleNN()
 
 ReLU6 is a variation of the ReLU activation function that returns the input if it is positive and less than or equal to 6, and returns `0` if the input is negative or greater than 6. It is mathematically defined as:
 
-
 ```pseudo
 f(x) = min(max(0, x), 6)
 ```
 
 ReLU6 is useful when you want to limit the output of the activation function to a specific range, such as between `0` and `6`.
-
 
 ```py
 import torch.nn as nn
@@ -113,13 +111,11 @@ model = SimpleNN()
 
 Sigmoid is a popular activation function that returns a value between `0` and `1`. It is mathematically defined as:
 
-
 ```pseudo
 f(x) = 1 / (1 + e^(-x))
 ```
 
 The Sigmoid function is commonly used in binary classification problems where the output needs to be constrained between `0` and `1`. It is also frequently utilized in the output layer of neural networks to predict probabilities, making it suitable for tasks that require a binary outcome.
-
 
 ```py
 import torch.nn as nn
@@ -131,7 +127,7 @@ class SimpleNN(nn.Module):
     self.fc1 = nn.Linear(10, 5)
     self.fc2 = nn.Linear(5, 1)
     self.sigmoid = nn.Sigmoid()
-    
+
   def forward(self, x):
     x = self.sigmoid(self.fc1(x))
     x = self.fc2(x)
@@ -145,13 +141,11 @@ model = SimpleNN()
 
 Tanh (hyperbolic tangent) is an activation function that returns a value between `-1` and `1`. It is mathematically defined as:
 
-
 ```pseudo
 f(x) = (e^x - e^(-x)) / (e^x + e^(-x))
 ```
 
 Tanh is similar to the Sigmoid function but differs in that it outputs values within the range of `-1` to `1`. This property makes it particularly useful in the hidden layers of neural networks, as it helps introduce non-linearity and can lead to improved convergence during training.
-
 
 ```py
 import torch.nn as nn
@@ -163,7 +157,7 @@ class SimpleNN(nn.Module):
     self.fc1 = nn.Linear(10, 5)
     self.fc2 = nn.Linear(5, 1)
     self.tanh = nn.Tanh()
-    
+
   def forward(self, x):
     x = self.tanh(self.fc1(x))
     x = self.fc2(x)
@@ -183,7 +177,6 @@ f(x_i) = e^(x_i) / sum(e^(x_j)) for j = 1 to n
 
 Softmax is commonly used in the output layer of neural networks for multi-class classification problems. It ensures that the output values sum to `1`, allowing the model's predictions to be interpreted as probabilities for each class. This property makes it particularly useful for tasks with multiple classes, providing a clear way to identify the predicted class.
 
-
 ```py
 import torch.nn as nn
 
@@ -194,7 +187,7 @@ class SimpleNN(nn.Module):
     self.fc1 = nn.Linear(10, 5)
     self.fc2 = nn.Linear(5, 3)
     self.softmax = nn.Softmax(dim=1)
-    
+
   def forward(self, x):
     x = self.fc1(x)
     x = self.fc2(x)
