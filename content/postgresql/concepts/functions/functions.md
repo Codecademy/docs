@@ -67,13 +67,7 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 ```
-
-
-- The function name `avg_salary()` is declared following the command `CREATE FUNCTION`. It accepts zero parameters.
-- The data type of the returned value is `NUMERIC`
-- The code block containing the declaration and the logic of the function is placed between a pair of `$$`
-- In the declaration section, declare a variable `average_salary` that stores the number of films from the `employees` table.
-- In the body, use the `select into` statement to select the average salary of the employees and assign it to the `average_salary` variable. At the end, use the return statement to `average_salary`
+Here the `average_salary` variable is used to store the result of the AVG(salary) calculation, and the function will return the average salary.
 
 Call the function to get the average salary:
 
