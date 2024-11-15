@@ -5,10 +5,10 @@ Subjects:
   - 'Computer Science'
   - 'Game Development'
 Tags:
+  - 'Elements'
   - 'Map'
   - 'OOP'
   - 'Objects'
-  - 'Elements'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
@@ -22,7 +22,7 @@ In C++, the **`.size()`** [method](https://www.codecademy.com/resources/docs/cpp
 mapName.size();
 ```
 
-- `mapName`: The map object for which the size is being checked.
+- `mapName`: The map object for which the size is to be checked.
 
 ## Example
 
