@@ -5,8 +5,8 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'PostgreSQL'
   - 'Functions'
+  - 'PostgreSQL'
 CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
