@@ -26,7 +26,7 @@ Substring(int startIndex, int Length)
 
 ## Example
 
-In this example, `.Substring()` is used to return the substring of "Codecademy" starting at, and including, index "4".
+In this example, `.Substring()` is used to return the substring of "Codecademy" starting at index `4` and includes all characters from that position to the end of the string:
 
 ```cs
 string str = "Codecademy";
