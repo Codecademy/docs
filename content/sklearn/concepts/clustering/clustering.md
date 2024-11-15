@@ -66,7 +66,7 @@ import numpy as np
 from sklearn import datasets
 from sklearn.cluster import KMeans
 
-# Dataset
+# Load the Dataset
 df= datasets.load_iris()
 d = pd.DataFrame(df.data, columns=df.feature_names)
 print(d.columns)
