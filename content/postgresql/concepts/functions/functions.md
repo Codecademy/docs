@@ -86,6 +86,7 @@ SELECT avg_salary();
 
 Thie above code will call the `avg_salary( )` function and return the calculated average salary of all the emplyees in the `employee` table.
 
- average_salary | 
- ---------------- | 
-60000.0000        | 
+```shell
+| average_salary |
+|----------------|
+| 60000.0000     |
