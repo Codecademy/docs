@@ -22,7 +22,7 @@ Substring(int startIndex, int Length)
 ```
 
 - `startIndex`: The index from where the substring starts.
-- `Length`: The maximum length of the substring - (Optional).
+- `Length` (Optional): The number of characters to include in the substring..
 
 ## Example
 
