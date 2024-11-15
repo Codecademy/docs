@@ -13,9 +13,9 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The **text-decoration** CSS property allows you to add a line underneath the text, over the text or through the text. There is also the option to set this property to `none` should it need to be reset. 
+The **text-decoration** CSS property adds a line beneath, over, or through the text. To reset it, the property can be set to `none`.
 
-The line can also be styled to be wavy, dotted or have a custom colour. 
+The line can also be styled as wavy, dotted, or in a custom colour. 
 
 ## Syntax
 
