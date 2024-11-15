@@ -6,15 +6,15 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Methods'
-  - 'Strings'
   - 'Lists'
   - 'Loops'
+  - 'Strings'
 CatalogContent:
   - 'learn-c-sharp'
   - 'paths/computer-science'
 ---
 
-The **`.Concat()`** [method](https://www.codecademy.com/resources/docs/c-sharp/methods) combines strings together by appending one string to the end of the other string. This method is also called by the compiler when using the `+` or `+=` [operator](https://www.codecademy.com/resources/docs/c-sharp/operators) to combine strings.
+The **`.Concat()`** [method](https://www.codecademy.com/resources/docs/c-sharp/methods) combines strings by appending one string to the end of another. This method is similar in function to using the `+` or `+=` [operator](https://www.codecademy.com/resources/docs/c-sharp/operators) to concatenate strings, though the compiler handles those operators differently for optimization in certain scenarios.
 
 ## Syntax
 
@@ -22,7 +22,7 @@ The **`.Concat()`** [method](https://www.codecademy.com/resources/docs/c-sharp/m
 string.Concat(string1, string2, ...)
 ```
 
-- `string1, string2, ...`: The string objects to be concatenated.
+- `string1, string2, ...`: The strings that will be concatenated together.
 
 ## Example
 
