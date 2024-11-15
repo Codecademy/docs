@@ -30,7 +30,6 @@ BEGIN
 END;
 $$ LANGUAGE lang_name;
 
-In this syntax:
 
 - `function_name`: Refers to the name of the function.
 - `[OR REPLACE]`: This option allows you to update an existing function, with the same name. If the function doesn't exist, PostgreSQL will create a new one.
