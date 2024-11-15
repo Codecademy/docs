@@ -175,7 +175,8 @@ Softmax is an activation function that returns a probability distribution over m
 f(x_i) = e^(x_i) / sum(e^(x_j)) for j = 1 to n
 ```
 
-Softmax is commonly used in the output layer of neural networks for multi-class classification problems. It ensures that the output values sum to 1, allowing the model's predictions to be interpreted as probabilities for each class. This property makes it particularly useful for tasks where multiple classes are present, providing a clear way to identify the predicted class.
+Softmax is commonly used in the output layer of neural networks for multi-class classification problems. It ensures that the output values sum to `1`, allowing the model's predictions to be interpreted as probabilities for each class. This property makes it particularly useful for tasks with multiple classes, providing a clear way to identify the predicted class.
+
 
 ```py
 import torch.nn as nn
