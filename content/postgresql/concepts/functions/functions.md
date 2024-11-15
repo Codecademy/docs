@@ -78,7 +78,6 @@ END;
 $$ LANGUAGE plpgsql;
 ```
 
-Breaking down the syntax:
 
 - The function name `avg_salary()` is declared following the command `CREATE FUNCTION`. It accepts zero parameters.
 - The data type of the returned value is `NUMERIC`
