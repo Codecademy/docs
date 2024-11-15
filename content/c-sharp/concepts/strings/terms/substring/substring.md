@@ -29,9 +29,16 @@ Substring(int startIndex, int Length)
 In this example, `.Substring()` is used to return the substring of "Codecademy" starting at index `4` and includes all characters from that position to the end of the string:
 
 ```cs
-string str = "Codecademy";
+using System;
 
-Console.WriteLine(str.Substring(4));
+public class Program
+{
+    public static void Main()
+    {
+        string str = "Codecademy";
+        Console.WriteLine(str.Substring(4));
+    }
+}
 ```
 
 It returns the following output.
