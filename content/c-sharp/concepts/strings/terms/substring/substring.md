@@ -49,7 +49,7 @@ It returns the following output.
 
 ## Example 2
 
-Here, `.Substring()` is used with the optional "Length" value so that it returns a string composed of the 6 characters from index 2.
+In this example, `.Substring()` is used with the optional `length` parameter to return a substring of 6 characters starting from index `2` of the string `"Codecademy"`.
 
 ```cs
 string str = "Codecademy";
