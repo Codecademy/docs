@@ -1,6 +1,6 @@
 ---
 Title: '.Substring()'
-Description: 'Returns the substring of a string instance starting at a given index'
+Description: 'Returns the substring of a string instance starting at a given index.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
