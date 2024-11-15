@@ -45,15 +45,15 @@ KMeans(n_clusters=8, *, init='k-means++', n_init= 'auto', max_iter=300, tol=0.00
 
 `KMeans` has the following parameters:
 
-- `n_clusters` (int, default=8): The number of clusters to form, and hence, the number of centroids to generate.
-- `init` (str, array-like, default='k-means++'): Chooses the method for initializing centroids. If `'k-means++'`, the algorithm selects the first centroid randomly, then selects subsequent centroids with a probability proportional to the square of the distance from the nearest existing centroid. If `'random'`, the centroids are chosen randomly from the data points. If an array is provided, it must specify the initial centroids.
-- `n_init` (int, default='auto'): The number of times the KMeans algorithm is run with different centroid seeds. The final output will be the best result based on the lowest inertia (sum of squared distances). In `'auto'`, this is set to 1 if `init='k-means++'` and 10 if `init='random'`.
-- `max_iter` (int, default=300): Maximum number of iterations of the KMeans algorithm for a single run.
-- `tol` (float, default:1e-4): The relative tolerance for convergence. If the change in inertia between consecutive iterations is smaller than this value, the algorithm will stop.
-- `verbose` (int, default=0): Controls the amount of output information printed during the K-Means fitting process, useful for debugging. Higher values show more details.
-- `random_state` (int, default=None): Determines random number generation for centroid initialization. It is used for reproducibility, so setting this parameter ensures that running the algorithm multiple times on the same data yields the same results.
-- `copy_x` (bool, default=True): If `True`, the input data is copied before processing. If `False`, the input data is modified in place to avoid copying, which can save memory but might alter the original data.
-- `algorithm` (str, default='lloyd'): Specifies the algorithm to use for computing the clusters. `'lloyd'` is the standard EM-style algorithm for KMeans. `'elkan'` uses the triangle inequality to speed up convergence, especially for datasets with well-defined clusters and lower-dimensional spaces.
+- `n_clusters` (`int, default=8`): The number of clusters to form, and hence, the number of centroids to generate.
+- `init` (`str, array-like, default='k-means++'`): Chooses the method for initializing centroids. If `'k-means++'`, the algorithm selects the first centroid randomly, then selects subsequent centroids with a probability proportional to the square of the distance from the nearest existing centroid. If `'random'`, the centroids are chosen randomly from the data points. If an array is provided, it must specify the initial centroids.
+- `n_init` (`int, default='auto'`): The number of times the KMeans algorithm is run with different centroid seeds. The final output will be the best result based on the lowest inertia (sum of squared distances). In `'auto'`, this is set to 1 if `init='k-means++'` and 10 if `init='random'`.
+- `max_iter` (`int, default=300`): Maximum number of iterations of the KMeans algorithm for a single run.
+- `tol` (`float, default:1e-4`): The relative tolerance for convergence. If the change in inertia between consecutive iterations is smaller than this value, the algorithm will stop.
+- `verbose` (`int, default=0`): Controls the amount of output information printed during the K-Means fitting process, useful for debugging. Higher values show more details.
+- `random_state` (`int, default=None`): Determines random number generation for centroid initialization. It is used for reproducibility, so setting this parameter ensures that running the algorithm multiple times on the same data yields the same results.
+- `copy_x` (`bool, default=True`): If `True`, the input data is copied before processing. If `False`, the input data is modified in place to avoid copying, which can save memory but might alter the original data.
+- `algorithm` (`str, default='lloyd'`): Specifies the algorithm to use for computing the clusters. `'lloyd'` is the standard EM-style algorithm for KMeans. `'elkan'` uses the triangle inequality to speed up convergence, especially for datasets with well-defined clusters and lower-dimensional spaces.
 
 ## Example
 
