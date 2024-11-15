@@ -14,19 +14,19 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-**Clustering** is an unsupervised machine learning technique that groups similar rows of unlabeled data. Various clustering algorithms, such as k-means, DBSCAN, etc., apply different types of clustering. 
+**Clustering** is an unsupervised machine learning technique that groups similar rows of unlabeled data. Various clustering algorithms, such as k-means, DBSCAN, etc., apply different types of clustering.
 
-Clustering is primarily used for exploratory data analysis. Each technique varies in understanding what constitutes a cluster and how to find them so that different algorithms may yield different clusters for the same dataset. Since there is no ground truth to verify against, it is essential to evaluate the results. Iterating to find satisfactory clusters is vital until the output quality meets expectations. 
+Clustering is primarily used for exploratory data analysis. Each technique varies in understanding what constitutes a cluster and how to find them so that different algorithms may yield different clusters for the same dataset. Since there is no ground truth to verify against, it is essential to evaluate the results. Iterating to find satisfactory clusters is vital until the output quality meets expectations.
 
 Each cluster is formed based on the similarity of its members. The similarity measure becomes more complicated as the dataset contains more complex features. After clustering, each cluster is assigned a unique cluster ID.
 
-Each clustering algorithm is available in two forms: a class and a function. The class implements the fit method to learn the clusters from the training data, while the function returns an array of integer labels corresponding to different clusters. 
+Each clustering algorithm is available in two forms: a class and a function. The class implements the fit method to learn the clusters from the training data, while the function returns an array of integer labels corresponding to different clusters.
 
 The 12 algorithms that can be executed using `sklearn` for clustering are k-means, Affinity Propagation, Mean Shift, Spectral Clustering, Ward Hierarchical Clustering, Agglomerative Clustering, DBSCAN, HDBSCAN, OPTICS, Gaussian Mixtures, BIRCH, and Bisecting k-means.
 
 ## K-means
 
-The **K-means** algorithm is a popular clustering technique. Given a dataset with n points, the goal is to choose k centroids to minimize inertia. 
+The **K-means** algorithm is a popular clustering technique. Given a dataset with n points, the goal is to choose k centroids to minimize inertia.
 
 First, the number of centroids is selected. The algorithm consists of two steps. In the first step, each sample is assigned to its nearest centroid by measuring the distance between the data point and the current centroid using the Euclidean distance, for instance. In the second step, the mean of all data points assigned to each cluster is calculated, which becomes the new cluster center. These two steps are repeated until the difference between the old centroid and the new centroid is less than a predefined threshold.
 
@@ -37,10 +37,11 @@ Evaluating the clusters is not as straightforward as counting errors, precision,
 Several methods can be used to evaluate clusters, including visual inspection, Silhouette Score, Rand Index, and Homogeneity.
 
 ## Syntax
+
 Sklearn provides the `KMeans` class for implementing clustering.
 
 ```psuedo
-KMeans(n_clusters=8, *, init='k-means++', n_init= 'auto', max_iter=300, tol=0.0001, verbose=0, random_state=None, copy_x=True, algorithm='lloyd') 
+KMeans(n_clusters=8, *, init='k-means++', n_init= 'auto', max_iter=300, tol=0.0001, verbose=0, random_state=None, copy_x=True, algorithm='lloyd')
 ```
 
 `KMeans` has the following parameters:
