@@ -139,7 +139,8 @@ model = SimpleNN()
 
 ## Tanh
 
-Tanh (hyperbolic tangent) is an activation function that returns a value between -1 and 1. It is mathematically defined as:
+Tanh (hyperbolic tangent) is an activation function that returns a value between `-1` and `1`. It is mathematically defined as:
+
 
 ```pseudo
 f(x) = (e^x - e^(-x)) / (e^x + e^(-x))
