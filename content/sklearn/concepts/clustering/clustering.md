@@ -28,7 +28,7 @@ The 12 algorithms that can be executed using `sklearn` for clustering are k-mean
 
 The **K-means** algorithm is a popular clustering technique. Given a dataset with n points, the goal is to choose k centroids to minimize inertia. 
 
-First, the number of centroids is selected. The algorithm consists of two steps. In the first step, each sample is assigned to its nearest centroid by measuring the distance between the data point and the current centroid using the Euclidean distance, for instance. In the second step, the mean of all data points assigned to each cluster is calculated, which becomes the new cluster center. These two steps are continuously repeated until the difference between the old centroid and the new centroid is less than a predefined threshold.
+First, the number of centroids is selected. The algorithm consists of two steps. In the first step, each sample is assigned to its nearest centroid by measuring the distance between the data point and the current centroid using the Euclidean distance, for instance. In the second step, the mean of all data points assigned to each cluster is calculated, which becomes the new cluster center. These two steps are repeated until the difference between the old centroid and the new centroid is less than a predefined threshold.
 
 ## Clustering Performance Evaluation
 
