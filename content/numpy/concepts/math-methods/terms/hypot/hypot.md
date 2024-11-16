@@ -67,7 +67,7 @@ The code above generates the following output:
 Calculated hypotenuses: [ 5. 13. 10.]
 
 The hypotenuses are 5.0, 13.0 and 10.0, respectively.
-````
+```
 
 ## Codebyte Example
 
