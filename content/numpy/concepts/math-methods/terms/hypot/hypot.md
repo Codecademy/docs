@@ -16,7 +16,8 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-In [Numpy](https://www.codecademy.com/resources/docs/numpy), given the "legs" of a right triangle, the **`.hypot()`** function returns the hypotenuse.
+In [Numpy](https://www.codecademy.com/resources/docs/numpy), the **`.hypot()`** function returns the hypotenuse of a right triangle, given the legs.
+
 
 ## Syntax
 
