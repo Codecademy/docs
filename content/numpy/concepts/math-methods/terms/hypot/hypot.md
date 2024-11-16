@@ -47,7 +47,7 @@ If the first leg is 3 and the second is 4, the hypotenuse is  5.0
 
 The following example calculates the hypotenuses of three right triangles:
 
-````py
+```py
 import numpy as np
 
 # Creating the sides of three triangles
