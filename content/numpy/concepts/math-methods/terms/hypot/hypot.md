@@ -36,7 +36,8 @@ The below example calculates the hypotenuse of a right triangle:
 ```py
 import numpy as np
 
-print("If the first leg is 3 and the second is 4, the hypotenuse is ",np.hypot(3, 4))
+print("If the first leg is 3 and the second is 4, the hypotenuse is ", np.hypot(3, 4))
+
 ```
 
 The code above generates the following output:
