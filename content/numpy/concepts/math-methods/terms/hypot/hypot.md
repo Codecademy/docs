@@ -18,18 +18,17 @@ CatalogContent:
 
 In [Numpy](https://www.codecademy.com/resources/docs/numpy), the **`.hypot()`** function returns the hypotenuse of a right triangle, given the legs.
 
-
 ## Syntax
 
 ```pseudo
 numpy.hypot(x1, x2, out=None, where=True)
 ```
 
-- `x1`, `x2`: These are the "legs" of the triangle(s). If the shapes of `x1` and `x2` are not identical, they must be broadcastable to a common shape.
+- `x1`, `x2`: These are the legs of the triangle(s). If the shapes of `x1` and `x2` are not identical, they must be broadcastable to a common shape.
 - `out` (Optional): This parameter specifies an array where the result will be stored. The shape of `out` must match the shape of the output. If not provided, a new array will be allocated for the result.
 - `where` (Optional): An optional condition that can be applied element-wise on the input arrays. The result will only be computed where the condition is `True`. If the condition is `False` for an element, that element’s result will be ignored.
 
- ## Example 1
+## Example 1
 
 The below example calculates the hypotenuse of a right triangle:
 
@@ -37,11 +36,9 @@ The below example calculates the hypotenuse of a right triangle:
 import numpy as np
 
 print("If the first leg is 3 and the second is 4, the hypotenuse is ", np.hypot(3, 4))
-
 ```
 
 The code above generates the following output:
-
 
 ```shell
 If the first leg is 3 and the second is 4, the hypotenuse is  5.0
@@ -51,7 +48,7 @@ If the first leg is 3 and the second is 4, the hypotenuse is  5.0
 
 The following example calculates the hypotenuses of three right triangles:
 
-```py
+````py
 import numpy as np
 
 # Creating the sides of three triangles
@@ -70,12 +67,11 @@ The code above generates the following output:
 Calculated hypotenuses: [ 5. 13. 10.]
 
 The hypotenuses are 5.0, 13.0 and 10.0, respectively.
-
-```
+````
 
 ## Codebyte Example
 
-In this codebyte, `.hypot()` computes the hypotenuses for two triangles. The first triangle has legs of *2* and *3*, and the second triangle has legs of *8* and *15*.
+In this codebyte, `.hypot()` computes the hypotenuses for two triangles. The first triangle has legs of _2_ and _3_, and the second triangle has legs of _8_ and _15_.
 
 ```codebyte/python
 import numpy as np
