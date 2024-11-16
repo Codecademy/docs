@@ -44,7 +44,7 @@ p {
 <p>Example Paragraph</p>
 ```
 
-![text decoration underline](image.png)
+![text decoration underline](https://raw.githubusercontent.com/Codecademy/docs/main/media/text-decoration-underline.png)
 
 ### Paragraph with an overline
 
@@ -58,7 +58,7 @@ p {
 <p>Example Paragraph</p>
 ```
 
-![text decoration overline](image-1.png)
+![text decoration overline](https://raw.githubusercontent.com/Codecademy/docs/main/media/text-decoration-overline.png)
 
 ### Paragraph with a line through
 
@@ -72,7 +72,7 @@ p {
 <p>Example Paragraph</p>
 ```
 
-![text decoration line through](image-2.png)
+![text decoration line through](https://raw.githubusercontent.com/Codecademy/docs/main/media/text-decoration-line-through.png)
 
 ### Paragraph with a wavy red underline
 
@@ -86,4 +86,4 @@ p {
 <p>Example Paragraph</p>
 ```
 
-![text decoration red wavy underline](image-3.png)
+![text decoration red wavy underline](https://raw.githubusercontent.com/Codecademy/docs/main/media/text-decoration-red-wavy-underline.png)
