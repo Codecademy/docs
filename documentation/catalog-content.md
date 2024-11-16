@@ -196,11 +196,16 @@ Feel free to add suggestions for new slugs to the lists as part of your PR! Be s
 - 'paths/data-science-foundations'
 ```
 
-### Python:Pytorch
+### Python:PyTorch
 
 ```
-- 'intro-to-pytorch-and-neural-networks'
+- 'intro-to-py-torch-and-neural-networks'
+- 'learn-python-3'
+- 'py-torch-for-classification'
 - 'paths/build-a-machine-learning-model'
+- 'paths/computer-science'
+- 'paths/data-science'
+- 'paths/machine-learning'
 ```
 
 ### Python:Seaborn
@@ -210,6 +215,12 @@ Feel free to add suggestions for new slugs to the lists as part of your PR! Be s
 - 'paths/computer-science'
 - 'paths/data-science'
 - 'paths/data-science-foundations'
+```
+
+### Python:Sklearn
+
+```
+- 'paths/intermediate-machine-learning-skill-path'
 ```
 
 ### R
