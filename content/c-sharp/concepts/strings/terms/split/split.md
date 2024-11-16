@@ -1,8 +1,9 @@
 ---
 Title: '.Split()'
-Description: 'Divides a string into an array of substrings based on specified delimeter(s).'
+Description: 'Divides a string into an array of substrings based on specified delimiter(s).'
 Subjects:
   - 'Computer Science'
+  - 'Code Foundations'
 Tags:
   - 'Strings'
   - 'Libraries'
@@ -12,11 +13,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.Split()`** method breaks a string into substrings based on specified delimiter(s), which can be a character, an array of characters, or a string. It returns an array of strings containing the split substrings.
+The **`.Split()`** method divides a string into an array of substrings based on specified delimiter(s), which can be a character, an array of characters, or a string.
 
 ## Syntax
 
-The various overloads of the `.Split()` method in C# are as follows:
+The `.Split()` method can be used in the following ways:
 
 ```pseudo
 Split(String[], Int32, StringSplitOptions)
@@ -76,7 +77,7 @@ class EqualsMethod {
           Console.WriteLine($"Substring: {sub}");
         }
 
-       // To remove spaces, specify ', ' as the delimiter.
+       // To remove spaces alongwith the comma, specify ', ' as the delimiter.
         subs = s1.Split(", ");
         foreach (var sub in subs)
         {
@@ -108,7 +109,7 @@ Substring: Mountains, Oceans
 
 ## Codebyte Example
 
-Run the following example to understand how the `.String()` method works:
+This example demonstrates how the `.Split()` method works in C# for splitting a string based on delimiters (in this case, commas and spaces).
 
 ```codebyte/csharp
 using System;
