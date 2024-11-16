@@ -55,15 +55,14 @@ The following example calculates the hypotenuses of three right triangles:
 import numpy as np
 
 # Creating the sides of three triangles
-array1 = [3,5,6]
-array2 = [4,12,8]
+triangle_leg1 = [3,5,6]  # First leg of each triangle
+triangle_leg2 = [4,12,8]  # Second leg of each triangle
 
 # Computing the hypotenuses
 hypotenuses = np.hypot(array1, array2)
 
-print("Output array:", hypotenuses)
+print("Calculated hypotenuses:", hypotenuses)
 print("\nThe hypotenuses are {}, {} and {}, respectively.".format(hypotenuses[0], hypotenuses[1], hypotenuses[2]))
-```
 
 The code above generates the following output:
 
