@@ -59,6 +59,7 @@ hypotenuses = np.hypot(array1, array2)
 
 print("Calculated hypotenuses:", hypotenuses)
 print("\nThe hypotenuses are {}, {} and {}, respectively.".format(hypotenuses[0], hypotenuses[1], hypotenuses[2]))
+```
 
 The code above generates the following output:
 
