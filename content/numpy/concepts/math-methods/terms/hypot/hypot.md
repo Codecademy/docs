@@ -80,11 +80,11 @@ In this codebyte, `.hypot()` computes the hypotenuses for two triangles. The fir
 ```codebyte/python
 import numpy as np
 
-# Input Array
-array1 = [2, 8]
-array2 = [3, 15]
+first_leg = [2, 8]  # First leg of each triangle
+second_leg = [3, 15]  # Second leg of each triangle
 
-result = np.hypot(array1, array2)
+# Calculate the hypotenuses for each triangle
+hypotenuses = np.hypot(first_leg, second_leg)
 
-print(result)
+print("The calculated hypotenuses are:", hypotenuses)
 ```
