@@ -34,7 +34,6 @@ numpy.hypot(x1, x2, out=None, where=True)
 The below example calculates the hypotenuse of a right triangle:
 
 ```py
-# Importing the numpy library
 import numpy as np
 
 print("If the first leg is 3 and the second is 4, the hypotenuse is ",np.hypot(3, 4))
