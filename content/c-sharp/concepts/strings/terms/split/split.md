@@ -17,7 +17,15 @@ The **`.Split()`** method divides a string into an array of substrings based on 
 
 ## Syntax
 
-The `.Split()` method can be used in the following ways:
+Splits a string into a maximum number of substrings based on the characters in an array.
+
+`.Split()` takes three parameters -
+
+- _separator_: Delimiters for splitting, which can be a character, an array of characters, or strings.
+- _count_: Maximum number of substrings to return.
+- _options_: Specifies whether to include empty substrings `(StringSplitOptions.None)` or exclude them `(StringSplitOptions.RemoveEmptyEntries)`.
+
+It can be used in the following ways:
 
 ```pseudo
 Split(String[], Int32, StringSplitOptions)
@@ -52,11 +60,6 @@ Splits a string into substrings based on the characters in an array.
 ```pseudo
 Split(Char[], Int32)
 ```
-
-Splits a string into a maximum number of substrings based on the characters in an array. 
-
-- `StringSplitOptions`: Represents an enumeration that defines whether to include empty substrings `(StringSplitOptions.None)` or exclude them `(StringSplitOptions.RemoveEmptyEntries)`.
-- `int count`: Represents the maximum number of substrings to return.
 
 ## Example
 
@@ -114,24 +117,24 @@ This example demonstrates how the `.Split()` method works in C# for splitting a 
 ```codebyte/csharp
 using System;
 
-class EqualsMethod {
-
+class SplitExample
+{
     public static void Main(string[] args)
     {
-        string s1 = "Rivers, Mountains, Oceans";
+        // A sample CSV string
+        string csv = "John,25,Developer,New York,,john@example.com";
 
-        string[] subs = s1.Split(',');
-        foreach (var sub in subs)
-        {
-          Console.WriteLine($"Substring: {sub}");
-        }
+        // Split by comma
+        string[] fields = csv.Split(',');
+        Console.WriteLine("Fields after splitting by comma:");
+        foreach (var field in fields)
+            Console.WriteLine($"'{field}'");
 
-        // To remove spaces too, we can specify ', ' as the delimeter
-        subs = s1.Split(", ");
-        foreach (var sub in subs)
-        {
-          Console.WriteLine($"Substring: {sub}");
-        }
+        // Split by comma and remove empty entries
+        string[] fieldsWithoutEmpty = csv.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
+        Console.WriteLine("\nFields after removing empty entries:");
+        foreach (var field in fieldsWithoutEmpty)
+            Console.WriteLine($"'{field}'");
     }
 }
 ```
