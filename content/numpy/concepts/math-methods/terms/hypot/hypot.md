@@ -67,9 +67,10 @@ print("\nThe hypotenuses are {}, {} and {}, respectively.".format(hypotenuses[0]
 The code above generates the following output:
 
 ```shell
-Output array: [ 5. 13. 10.]
+Calculated hypotenuses: [ 5. 13. 10.]
 
 The hypotenuses are 5.0, 13.0 and 10.0, respectively.
+
 ```
 
 ## Codebyte Example
