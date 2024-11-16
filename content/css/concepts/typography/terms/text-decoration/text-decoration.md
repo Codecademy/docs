@@ -1,6 +1,6 @@
 ---
 Title: 'text-decoration'
-Description: 'Style text to add a line to it, either under over or through it.'
+Description: 'Adds a line beneath, over, or through the text.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -15,7 +15,7 @@ CatalogContent:
 
 The **text-decoration** CSS property adds a line beneath, over, or through the text. To reset it, the property can be set to `none`.
 
-The line can also be styled as wavy, dotted, or in a custom colour. 
+The line can also be styled as wavy, dotted, or in a custom colour.
 
 ## Syntax
 
@@ -32,7 +32,7 @@ The `text-decoration-value` can be the following:
 
 ## Examples
 
-### Paragraph with an underline. 
+### Paragraph with an underline
 
 ```css
 p {
@@ -46,7 +46,7 @@ p {
 
 ![text decoration underline](image.png)
 
-### Paragraph with an overline. 
+### Paragraph with an overline
 
 ```css
 p {
@@ -60,7 +60,7 @@ p {
 
 ![text decoration overline](image-1.png)
 
-### Paragraph with a line through. 
+### Paragraph with a line through
 
 ```css
 p {
@@ -74,7 +74,7 @@ p {
 
 ![text decoration line through](image-2.png)
 
-### Paragraph with a wavy red underline. 
+### Paragraph with a wavy red underline
 
 ```css
 p {
