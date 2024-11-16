@@ -31,7 +31,7 @@ numpy.hypot(x1, x2, out=None, where=True)
 
  ## Example 1
 
-The below example calculates the hypotenuse of one right triangle:
+The below example calculates the hypotenuse of a right triangle:
 
 ```py
 # Importing the numpy library
