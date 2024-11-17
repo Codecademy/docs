@@ -5,7 +5,6 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Updates'
   - 'Data Structures'
   - 'Index'
 CatalogContent:
@@ -18,13 +17,15 @@ In Pytorch, the **.index_add()** function adds values to a tensor at specific in
 ## Syntax
 
 ```pseudo
-torch.index_add(input, dim, index, source)
+torch.index_add(input, dim, index, source, *, alpha=1, out=None)
 ```
 
 - `input`: The tensor to which values will be added.
 - `dim`: The dimension along which to index and add.
 - `index`: The indices of elements to add to.
 - `source`: The tensor containing values to add.
+- `alpha`: It is a scalar multiplier which is used before adding the source values. It is an optional parameter.
+- `out` : If provided, the result will be written to this tensor. It is also an optional parameter.
 
 ## Example
 
