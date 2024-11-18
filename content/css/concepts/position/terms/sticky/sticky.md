@@ -1,12 +1,12 @@
 ---
-Title: 'sticky'
-Description: 'Defines an element that toggles between relative and fixed position, depending on the scroll.'
+Title: 'Sticky'
+Description: 'Defines an element that toggles between relative and fixed positions depending on the scroll position.'
 Subjects:
   - 'Web Development'
-  - 'CSS'
+  - 'Web Design'
 Tags:
   - 'Positioning'
-  - 'Sticky'
+  - 'CSS'
 CatalogContent:
   - 'learn-css'
   - 'paths/front-end-engineer-career-path'
@@ -20,15 +20,9 @@ Sticky Position in CSS allows an element to toggle between relative and fixed po
 ```css
 position: sticky;
 ```
-where `<value>` and `<percentage>` can be one of the following:
-- Length value : `25px`  
-    Specifies a fixed length, such as pixels or any other unit of measure (e.g., `em`, `rem`, `vh`).
+The `position: sticky` property is often used with length or percentage values applied to `top`,` right`, `bottom`, or `left` to define the threshold for switching between relative and fixed positioning.
     
-- Percentage value : `5%`  
-    Defines a percentage of the containing block's size. For example, a percentage of the width or height of the nearest positioned ancestor.
-    
-**Note:**  
-The `position: sticky` property allows an element to switch between relative and fixed positioning based on the scroll position. It remains in its normal flow until a defined threshold (like `top` or `bottom`) is reached. For it to work, the containing block must have a defined height, and the sticky element should not be obscured by other positioned elements.
+> **Note:**  To ensure `position:sticky` works, the containing block must have a defined height, and the sticky element should not be covered by other positioned elements.
 
 ## Example 1
 
@@ -44,4 +38,4 @@ Make the `.header` element sticky, so it remains visible at the top when scrolli
 }
 ```
 
-![This behavior is clearly shown in the GIF.](https://raw.githubusercontent.com/Codecademy/docs/main/media/StickyHeaderExample.gif)
+![The GIF illustrates how the header element remains sticky at the top of the viewport during scrolling.](https://raw.githubusercontent.com/Codecademy/docs/main/media/sticky-header-example.gif)
