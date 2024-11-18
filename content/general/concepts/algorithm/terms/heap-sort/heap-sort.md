@@ -1,6 +1,6 @@
 ---
-Title: 'Heap Sort Algorithm'
-Description: 'An efficient sorting algorithm that uses a binary heap to sort an array in O(n log n) time.'
+Title: 'Heap Sort'
+Description: 'An efficient sorting algorithm that uses a binary heap to sort elements in O(n log n) time.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -54,72 +54,73 @@ The following example written in [Java](https://www.codecademy.com/learn/learn-j
 ```java
 public class HeapSort {
 
-    public static void main(String[] args) {
-            int[] array = {3, 100, 7, 25, 1, 36, 2, 19, 17};
-            heapSort(array);
-            System.out.println("Sorted array: ");
-            for (int i : array) {
-                System.out.print(i + " ");
-            }
+  public static void main(String[] args) {
+    int[] array = {3, 100, 7, 25, 1, 36, 2, 19, 17};
+    heapSort(array);
+    System.out.println("Sorted array: ");
+    for (int i : array) {
+      System.out.print(i + " ");
     }
+  }
 
-    public static void heapSort(int[] list) {
-        heapify(list);
-        int index = list.length - 1; //index of the last element
-        int temp;
-        while (index > 0) {
-            temp = list[0]; //swap the last element with the root
-            list[0] = list[index];
-            list[index] = temp;
-            index -= 1; //the new last element
-            down(list, index);
-        }
+  public static void heapSort(int[] list) {
+    heapify(list);
+    int index = list.length - 1; // index of the last element
+    int temp;
+    while (index > 0) {
+      temp = list[0]; // swap the last element with the root
+      list[0] = list[index];
+      list[index] = temp;
+      index -= 1; // the new last element
+      down(list, index);
     }
+  }
 
-    public static void heapify(int[] list) {
-        for (int i = 1; i < list.length; i++)
-            up(list, i);
-    }
+  public static void heapify(int[] list) {
+    for (int i = 1; i < list.length; i++)
+      up(list, i);
+  }
 
-    public static void up(int[] list, int i) {
-        int child = i; //index of a descendant
-        int parent, temp;
-        while (child != 0) {
-            parent = (child - 1) / 2; //index of a parent node
-            if (list[parent] < list[child]) { //swap if doesn't meet binary heap properties
-                temp = list[parent];
-                list[parent] = list[child];
-                list[child] = temp;
-                child = parent; //the new descendant
-            }
-            else
-                return;
-        }
+  public static void up(int[] list, int i) {
+    int child = i; // index of a descendant
+    int parent, temp;
+    while (child != 0) {
+      parent = (child - 1) / 2; // index of a parent node
+      if (list[parent] < list[child]) { // swap if doesn't meet binary heap properties
+        temp = list[parent];
+        list[parent] = list[child];
+        list[child] = temp;
+        child = parent; // the new descendant
+      } else {
+        return;
+      }
     }
+  }
 
-    public static void down(int[] list, int last) {
-        int parent = 0;
-        int child, temp;
-        while (parent * 2 + 1 <= last) {
-            child = parent * 2 + 1;
-            // selection of greater descendant
-            if ((child < last) && (list[child] < list[child + 1]))
-                child++;
-            if (list[parent] < list[child]) { //swap if doesn't meet binary heap properties
-                temp = list[parent];
-                list[parent] = list[child];
-                list[child] = temp;
-                parent = child; //the new parent
-            }
-            else
-                return;
-        }
+  public static void down(int[] list, int last) {
+    int parent = 0;
+    int child, temp;
+    while (parent * 2 + 1 <= last) {
+      child = parent * 2 + 1;
+      // selection of greater descendant
+      if ((child < last) && (list[child] < list[child + 1]))
+        child++;
+      if (list[parent] < list[child]) { // swap if doesn't meet binary heap properties
+        temp = list[parent];
+        list[parent] = list[child];
+        list[child] = temp;
+        parent = child; // the new parent
+      } else {
+        return;
+      }
     }
+  }
 }
 ```
 
 The output for the above code is:
 
 ```shell
-Sorted array: 1 2 3 7 17 19 25 36 100
+Sorted array:
+1 2 3 7 17 19 25 36 100
 ```
