@@ -20,7 +20,7 @@ A **constructor** is a specially defined method in a C++ class that is automatic
 
 A constructor method is defined within a class by using the `ClassName` followed by parentheses. It does not have a return type.
 
-```cpp
+```pseudo
 class ClassName {
   public:
     ClassName() {
@@ -33,7 +33,7 @@ class ClassName {
 
 ### Basic Constructor
 
-A basic constructor, also known as a default constructor, is a special type of constructor in C++ that takes no parameters.
+A **basic constructor**, also known as a **default constructor**, is a special type of constructor in C++ that takes no parameters.
 
 The compiler will automatically provide a default constructor if there is no constructor explicitly defined for a class.
 
@@ -62,7 +62,7 @@ The constructor was executed!
 
 ### Parameterized Constructor
 
-A parameterized constructor is one that accepts arguments, allowing initial values to be set for an object's attributes at the time of creation. This constructor is useful for initializing objects with custom data or values that differ between instances.
+A **parameterized constructor** is one that accepts arguments, allowing initial values to be set for an object's attributes at the time of creation. This constructor is useful for initializing objects with custom data or values that differ between instances.
 
 ```cpp
 class Circle {
@@ -125,9 +125,7 @@ Circle::Circle(int a, int b, int c) {
 
 ## Codebyte Example
 
-The following example defines a simple class called Circle that has a single public attribute, radius, and a default constructor that initializes this attribute.
-
-- Parameterized Constructor
+The following example defines a simple class called `Circle` that has a single public attribute `radius`, and a default constructor that initializes this attribute.
 
 ```codebyte/cpp
 #include <iostream>
