@@ -5,8 +5,8 @@ Subjects:
   - 'Web Design'
   - 'Web Development'
 Tags:
+  - 'CSS '
   - 'Positioning'
-  - 'CSS'
 CatalogContent:
   - 'learn-css'
   - 'paths/front-end-engineer-career-path'
