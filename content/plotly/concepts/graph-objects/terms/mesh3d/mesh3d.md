@@ -12,32 +12,20 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/data-science'
-  - 'paths/data-science-foundations'
 ---
 
-**`.Mesh3d()`** is a method in Plotly's `graph_objects` module that generates 3D mesh plots by defining vertices and connecting faces (triangles).
+**`.Mesh3d()`** is a method in Plotly's [`graph_objects`](https://www.codecademy.com/resources/docs/plotly/graph-objects) module that generates 3D mesh plots by defining vertices and connecting them with faces (typically triangles).
 
 ## Syntax
 
 ```pseudo
-Mesh3d(
-    x=x_values,
-    y=y_values,
-    z=x_values,
-    i=indices_i,    # Optional
-    j=indices_j,    # Optional
-    k=indices_k,    # Optional
-    color='color_value',    # Optional
-    opacity=opacity_value,  # Optional
-    (...)   # Optional
-)
+plotly.graph_objects.Mesh3d( x=None, y=None, z=None, i=None, j=None, k=None, color=None, opacity=None, ...)
 ```
 
-- `x`, `y`, `z`: Arrays of vertex coordinates
-- `i`, `j`, `k`: Arrays defining the triangles via indices pointing to the vertex arrays
-- `color`: Sets the mesh color
-- `opacity`: Sets the mesh transparency (0 to 1)
+- `x`, `y`, `z`: Coordinates of the vertices in 3D space (arrays or lists).
+- `i`, `j`, `k`: Indices that define the triangular faces, where each set of three indices corresponds to a triangle formed by the vertices defined by `x`, `y`, and `z`.
+- `Color`: The color of the mesh, which can be a single color or an array of colors for each face.
+- `opacity`: Controls the transparency of the mesh, ranging from 0 (fully transparent) to 1 (fully opaque).
 
 > Note: There are many additional, optional parameters that are not listed here, as indicated by the ellipsis (...) in the syntax.
 
@@ -79,7 +67,11 @@ fig = go.Figure(data=[mesh])
 fig.show()
 ```
 
-> Note: If you don't specify the triangle indices, the mesh will automatically be generated using algorithms like Delaunay triangulation. You can also use the `alphahull` parameter to control the generation without the indices: `alphahull = -1` - Uses Delauney triangulation; `alphahull = 0` - Computes the convex hull of the point set; `alphahull > 0` - Uses the alpha shape algorithm with the specified alpha value.
+> Note: If triangle indices (`i`, `j`, `k`) are not specified, the mesh will be automatically generated using algorithms like Delaunay triangulation. The `alphahull` parameter can be used to control the mesh generation process without the indices:
+
+- `alphahull = -1`: Uses Delaunay triangulation.
+- `alphahull = 0`: Computes the convex hull of the point set.
+- `alphahull > 0`: Uses the alpha shape algorithm with the specified alpha value.
 
 This example results in the following output:
 
@@ -87,7 +79,7 @@ This example results in the following output:
 
 ### Example 2
 
-Dataset information can also be used to create the mesh. This visualizes a sphere by using vertex and face data from a CSV file:
+The dataset information can be used to create a 3D mesh plot, as demonstrated in the example below, which visualizes a sphere using vertex and face data from a CSV file:
 
 ```python
 import plotly.graph_objects as go
