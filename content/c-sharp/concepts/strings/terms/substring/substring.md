@@ -5,8 +5,8 @@ Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
-  - 'Strings'
   - 'Methods'
+  - 'Strings'
 CatalogContent:
   - 'learn-c-sharp'
   - 'paths/computer-science'
