@@ -64,14 +64,14 @@ public class Program
     public static void Main()
     {
         string str = "Codecademy";
-        Console.WriteLine(str.Substring(2, 6)); 
+        Console.WriteLine(str.Substring(2, 6));
     }
 }
 ```
 
 The above code generates the following output:
 
-```shell
+````shell
 decade
 
 ## Codebyte Example
@@ -92,4 +92,4 @@ public class Example
         Console.WriteLine(Name2.Substring(1));
     }
 }
-```
+````
