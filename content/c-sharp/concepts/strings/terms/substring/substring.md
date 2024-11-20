@@ -69,7 +69,7 @@ public class Program
 }
 ```
 
-It returns the following output.
+The above code generates the following output:
 
 ```pseudo
 decade
