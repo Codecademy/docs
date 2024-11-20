@@ -1,6 +1,6 @@
 ---
 Title: '`.create_distplot()`'
-Description: '`.create_distplot()` creates interactive distribution plots combining histogram and KDE curves, ideal for visualization and comparing data distributions.'
+Description: 'Creates a distribution plot (histogram with a kernel density estimate) for visualizing the data distribution.'
 Subjects:
   - 'Data Science'
   - 'Data Visualization'
@@ -13,23 +13,18 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/data-science'
-  - 'paths/data-science-foundations'
 ---
 
-The **`.create_distplot()`** function is part of Plotly's `.figure_factory` module. It is used to create distribution plots, which are visual representations that combine histograms and kernel density estimates (KDE) to display the distribution of a dataset.
+The **`.create_distplot()`** function is part of Plotly's [`figure_factory`](https://www.codecademy.com/resources/docs/plotly/figure-factory) module. It creates distribution plots that combine histograms and kernel density estimates (KDE) to visually represent a dataset's distribution.
 
 ## Syntax
 
 ```pseudo
-fig = figure_factory.create_distplot(
-    hist_data,
-    group_labels,
-    (...)
+fig = figure_factory.create_distplot( hist_data, group_labels, ...)
 ```
 
-- `hist_data`: Contains numerical data for each dataset, entered as a list of lists or arrays.
-- `group_labels`: List of strings corresponding to each dataset in `hist_data`.
+- `hist_data`: A list of datasets to plot. Each dataset is represented as a separate group in the distribution plot.
+- `group_labels`: List of strings corresponding to each dataset in `hist_data`. These labels are used to distinguish the different groups in the plot.
 
 > Note: The ellipsis (...) in the syntax represents many parameters that are optional and automatically set to their default values, including `bin-size=None`, `curve_type='kde'`, `colors=None`, `histnorm=''`, `show_hist=True`, `show_curve=True`, and `show_rug=True`.
 
@@ -37,7 +32,7 @@ fig = figure_factory.create_distplot(
 
 This is a basic distribution plot that generates 2 datasets with normal distributions using default settings:
 
-```python
+```py
 import plotly.figure_factory as ff
 import numpy as np
 from scipy import stats
