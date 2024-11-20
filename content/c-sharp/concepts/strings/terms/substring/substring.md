@@ -71,9 +71,8 @@ public class Program
 
 The above code generates the following output:
 
-```pseudo
+```shell
 decade
-```
 
 ## Codebyte Example
 
