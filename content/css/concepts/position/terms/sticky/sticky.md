@@ -16,7 +16,7 @@ Sticky Position in CSS allows an element to toggle between relative and fixed po
 
 ## Syntax
 
-```css
+```pseudo
 position: sticky;
 ```
 The `position: sticky` property is often used with length or percentage values applied to `top`,` right`, `bottom`, or `left` to define the threshold for switching between relative and fixed positioning.
