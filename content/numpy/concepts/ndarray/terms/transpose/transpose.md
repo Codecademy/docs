@@ -31,7 +31,7 @@ If possible, the `ndarray` returned will be a view of the original `ndarray`'s d
 
 ## Example
 
-The below example creates an `ndarray` and then uses `.transpose()` on it.
+The example below creates a `ndarray` and then uses `.transpose()`.
 
 ```py
 import numpy as np
@@ -51,4 +51,17 @@ This produces the following output:
 [[1 4]
  [2 5]
  [3 6]]
+```
+
+In the above output, the original array is a 2x3 matrix, and the transposed array is a 3x2 matrix.
+
+## Codebyte example
+
+This codebyte example demonstrates how to create and manipulate a multi-dimensional array in Python using NumPy’s `.transpose()` function.
+
+```codebyte/python
+import numpy as np
+
+a = np.ones((2, 3, 4, 5))
+print(np.transpose(a).shape)
 ```
