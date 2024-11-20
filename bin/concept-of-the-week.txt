@@ -1,1 +1,1 @@
-content/typescript/concepts/assignability/assignability.md
+content/ruby/concepts/variables/variables.md
