@@ -24,7 +24,7 @@ The `position: sticky` property is often used with length or percentage values a
 
 ## Example
 
-Make the `.header` element sticky, so it remains visible at the top when scrolling past it.
+Make the `.header` element sticky so it remains visible at the top when scrolling past it.
 
 ```css
 .header {
