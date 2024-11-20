@@ -46,7 +46,7 @@ public class Program
 }
 ```
 
-It returns the following output.
+The above example results in the following output:
 
 ```shell
 cademy
