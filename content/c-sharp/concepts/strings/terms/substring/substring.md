@@ -76,7 +76,7 @@ decade
 
 ## Codebyte Example
 
-Run the Codebyte example, to understand how the `.Substring()` method works:
+The below code demonstrates how to use the Substring method:
 
 ```codebyte/csharp
 using System;
