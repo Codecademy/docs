@@ -2,8 +2,8 @@
 Title: 'Sticky'
 Description: 'Defines an element that toggles between relative and fixed positions depending on the scroll position.'
 Subjects:
-  - 'Web Development'
   - 'Web Design'
+  - 'Web Development'
 Tags:
   - 'Positioning'
   - 'CSS'
