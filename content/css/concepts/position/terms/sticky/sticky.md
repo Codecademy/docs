@@ -10,7 +10,6 @@ Tags:
 CatalogContent:
   - 'learn-css'
   - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
 ---
 
 Sticky Position in CSS allows an element to toggle between relative and fixed positioning based on the user's scroll position. It's commonly used to keep certain elements, such as headers or navigation menus, in view when scrolling through content.
