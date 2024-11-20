@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Sticky Position in CSS allows an element to toggle between relative and fixed positioning based on the person's scroll position. It commonly keeps certain elements, such as headers or navigation menus, in view when scrolling through content.
+**Sticky** Position in CSS allows an element to toggle between relative and fixed positioning based on the person's scroll position. It commonly keeps certain elements, such as headers or navigation menus, in view when scrolling through content.
 
 ## Syntax
 
