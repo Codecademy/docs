@@ -20,9 +20,9 @@ CatalogContent:
 position: sticky;
 ```
 
-- The `position: sticky` property is often used with length or percentage values applied to `top`,` right`, `bottom`, or `left` to define the threshold for switching between relative and fixed positioning.
-    
-> **Note:**  To ensure `position: sticky` works, the containing block must have a defined height, and the sticky element should not be covered by other positioned elements.
+- The `position: sticky` property is often used with length or percentage values applied to `top`,`right`, `bottom`, or `left` to define the threshold for switching between relative and fixed positioning.
+
+> **Note:** To ensure `position: sticky` works, the containing block must have a defined height, and the sticky element should not be covered by other positioned elements.
 
 ## Example
 
