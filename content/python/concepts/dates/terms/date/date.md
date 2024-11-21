@@ -28,26 +28,14 @@ All parameters passed to the `datetime.date()` method in the snippet above are r
 |   `MM`    | The month expressed in one or two digits.            |                    1 - 12                    |
 |   `DD`    | The day of the month expressed in one or two digits. | 1 - number of days in a given month and year |
 
-## Codebyte Example
-
-A date can be retrieved and stored in a variable as shown below:
-
-```codebyte/python
-import datetime
-
-meeting_date = datetime.date(2021, 10, 5)
-
-print(meeting_date)
-```
-
 ## Example
 
-Here's a more detailed example of using datetime.date() to create a date object and access its components:
+Here's a detailed example of using `datetime.date()` to create a date object and access its components:
 
-```python
-from datetime import date
+```py
+import datetime
 
-example_date = date(2024, 10, 15)
+example_date = datetime.date(2024, 10, 15)
 
 year = example_date.year
 month = example_date.month
@@ -59,9 +47,23 @@ print("Month:", month)
 print("Day:", day)
 ```
 
-```Output:
+The above code produces the following output:
+
+```shell
 Complete Date: 2024-10-15
 Year: 2024
 Month: 10
 Day: 15
+```
+
+## Codebyte Example
+
+The following codebyte example shows the usage of the `datetime.date()` method:
+
+```codebyte/python
+import datetime
+
+meeting_date = datetime.date(2021, 10, 5)
+
+print(meeting_date)
 ```
