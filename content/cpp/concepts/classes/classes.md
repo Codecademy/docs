@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **C++ class** is a blueprint for creating objects that combines data attributes and functions to define the behavior and state of an entity.
+A C++ **class** is a blueprint for creating objects that combines data attributes and functions to define the behavior and state of an entity.
 
 ```pseudo
 class Person {
