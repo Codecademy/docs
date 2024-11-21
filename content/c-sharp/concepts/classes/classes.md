@@ -89,40 +89,50 @@ public class BankAccount {
 
 ## Static Classes
 
-Static classes are defined using the `static` keyword and exclusively contain static members, such as methods, properties, and fields. Unlike regular classes, static classes cannot be instantiated with the `new` keyword. Instead, their members are accessed using the class name itself. These classes are commonly used for utility functions or to group related functionality. 
-The `static` keyword forces all fields, methods and properties to require the static keyword. This means that if you try to create any of these without the static keyword the code will not run and will produce a compile-time error. The reason behind this is that becuase you can not create an instance of a static class any methods, properties and fields that are not marked as static would be unreachable. 
+Static classes are defined using the `static` keyword and exclusively contain static members, such as methods, properties, and fields. Unlike regular classes, static classes cannot be instantiated with the `new` keyword. Instead, their members are accessed using the class name itself. These classes are commonly used for utility functions or to group related functionalities.
 
-## Example 
+The `static` keyword forces all fields, methods, and properties to require this keyword. This means that if a user tries to create any of these without the `static` keyword, the code will not run and will produce a compile-time error. The reason behind this is that the user can not create an instance of a static class without using this keyword. Any methods, properties and fields that are not marked as `static` would be unreachable.
 
-In the example below, a static class called `MyStaticClass` is created. The commented out code shows what you can not do with static classes. If these commented out pieces of code were to be uncommented the code would not compile. Take note on how we create properties and methods in the class and how we use it in the `CallingClass` class.
+### Example
+
+In the example below, a static class called `MyStaticClass` is created. The commented out code shows what a user can not do with static classes. If these commented out pieces of code were to be uncommented, the code would not compile. The example also shows how properties and methods in the `MyStaticClass` class are created and used in the `CallingClass` class:
 
 ```cs
 using System;
-	
-public class Program
+
+public class CallingClass
 {
-    public static void Main()
-    {
-        //The following will produce a compile-time error
-        //MyStaticClass NonStaticError = new MyStaticClass();
-		
-        int DoubleFive = MyStaticClass.GetDouble(5);
-        Console.WriteLine(DoubleFive);
-    }
+  public static void Main()
+  {
+    Console.WriteLine(MyStaticClass.StaticField);
+
+    // The following will produce a compile-time error
+    // MyStaticClass NonStaticError = new MyStaticClass();
+
+    int DoubleFive = MyStaticClass.GetDouble(5);
+    Console.WriteLine(DoubleFive);
+  }
 }
 
 public static class MyStaticClass
 {
-    //The following will produce a compile-time error
-    //public int NonStaticField = 5;
+  // The following will produce a compile-time error
+  // public int NonStaticField = 5;
 
-    public static int StaticField = 10; 
+  public static int StaticField = 20;
 
-    //Returns double of the value given
-    public static int GetDouble(int value) {
+  // Returns double of the value given
+  public static int GetDouble(int value) {
     return value * 2;
-    }
+  }
 }
+```
+
+The above code produces the following output:
+
+```shell
+20
+10
 ```
 
 ## Partial classes
