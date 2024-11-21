@@ -46,25 +46,30 @@ Bash is not the default shell for Windows operating systems, but it can be enabl
 
 ### Bash Terminal Commands
 
-The basic terminal commands for Bash allow the user to navigate and manipulate directories and files. It is important to note the symbol `$` at the start of the line. The `$` indicates that Bash is ready to execute a new command. Some circumstances, such as giving a command without arguments, may prevent Bash from running new commands.
+The basic terminal commands for navigating and manipulating directories and files are as follows -
+
+#### `cat` Command
+
+The `cat` (short for _concatenate_) command is used to display the contents of a file in the terminal. It can also be used to concatenate multiple files into one. By default, it outputs the contents of the file(s) to the terminal.
 
 ```shell
-// A new line has appeared, but this line does not have a $ at the start as this command needs arguments
-$ cat
+# Display the contents of a file
+cat filename.txt
 
-// Add arguments
+# Display the contents of multiple files
+cat file1.txt file2.txt
 
-// To return to the command line, use ctrl-c.
-$
+# You can also use redirection to concatenate files into a new file
+cat file1.txt file2.txt > combined.txt
 ```
 
 ### Navigation Commands
 
-In Bash, **navigation commands** are used to move through directories and the file system efficiently.
+In Bash, navigation commands are used to move through directories and the file system efficiently.
 
 #### Print Working Directory Command
 
-To get the current directory use `pwd` command.
+Use the `pwd` command to display the current directory -
 
 ```shell
 pwd
@@ -72,40 +77,40 @@ pwd
 
 #### List Command
 
-To list the contents of the current folder, `ls` command can be used.
+Use the `ls` command to list the contents of the current directory -
 
 ```shell
-// To get the list of contents of the current folder
+# To list the contents of the current directory
 ls
 
-// -l argument gives a list with more information
+# Use the -l argument to get a detailed list with more information
 ls -l
 ```
 
-> **Note:** If `ls` is used with a `-a` argument, it shows hidden files.
+> **Note:** If `ls` is used with the `-a` argument, it also shows hidden files.
 
 #### Change Directory
 
-To change the directory `cd` command is used.
+The `cd` command is used to change directories -
 
 ```shell
-// To go to a specific directory
+# To go to a specific directory
 cd directoryPath
 
-// To go to the Previous Directory
+# To go to the Previous Directory
 cd -
 
-// To go up one directory level
+# To go up one directory level
 cd ..
 ```
 
 ### Directory Management
 
-In Bash, **directory management** is used for creating, deleting, moving, copying, and manipulating directories within the file system.
+In Bash, directory management involves creating, deleting, moving, copying, and manipulating directories within the file system.
 
 #### Make a New Directory
 
-To create a new directory `mkdir` command is used with the new directory name as an argument.
+To create a new directory, use the `mkdir` command followed by the new directory name -
 
 ```shell
 mkdir newDirectoryName
@@ -113,7 +118,7 @@ mkdir newDirectoryName
 
 #### Remove a directory
 
-To delete a directory `rmdir` command can be used with the directory's name given as an argument.
+To delete a directory, use the `rmdir` command with the directory's name -
 
 ```shell
 rmdir directoryName
@@ -121,11 +126,11 @@ rmdir directoryName
 
 ### File Management
 
-In Bash, **file management** is used for creating, deleting, moving, copying, and manipulating files within the file system.
+In Bash, file management involves creating, deleting, moving, copying, and manipulating files within the file system.
 
 #### Create a new file
 
-To create a new file `touch` command can be used with new file name as an argument.
+To create a new empty file, use the `touch` command followed by the file name -
 
 ```shell
 touch filename.txt
@@ -133,7 +138,7 @@ touch filename.txt
 
 #### Remove a file
 
-To delete a file `rm` command can be used with the file name or file path given as an argument.
+To delete a file, use the `rm` command with the file name or file path -
 
 ```shell
 rm filename.txt
@@ -141,12 +146,12 @@ rm filename.txt
 
 #### Rename or move a file
 
-To rename a file or change file location `mv` command can be used with arguments.
+To rename a file or move it to a new location, use the `mv` command -
 
 ```shell
-// original name is used as the first argument, followed by the new filename as the second argument.
-$ mv oldFileName.txt newFileName.txt
+# Rename the file (original name is the first argument, new name is the second)
+mv oldFileName.txt newFileName.txt
 
-// current path of the file is given as the first argument, followed by the new file path as the second argument 
-$ mv sourceDirectory/filename.txt destinationDirectory/filename.txt
+# Move a file to a different directory (source path is the first argument, destination path is the second)
+mv sourceDirectory/filename.txt destinationDirectory/filename.txt
 ```
