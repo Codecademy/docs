@@ -22,7 +22,7 @@ In NumPy, the **`.arctan()`** method calculates the inverse tangent of the eleme
 numpy.arctan(arr, out=None, where=True)
 ```
 
-- `arr`: The array to be iterated.
+- `arr`: The array whose inverse tangent is to be calculated.
 - `out`: The array to be used for storing the result. If not provided or set to `None`, a new array is returned.
 - `where`: A boolean array or condition that specifies the elements for which the inverse tangent is to be calculated. If not provided, it defaults to `True` for all the elements.
   - If the condition is `True` for a specific element, the inverse tangent of that element is calculated.
