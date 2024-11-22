@@ -14,9 +14,9 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-In CSS, the **`static`** value of the `position` property allows an element to be positioned following the normal flow of the page, meaning it appears where it would naturally occur on the page without any adjustments. The elements won't be affected by the `top`, `bottom`, `left`, and `right` properties.
+In CSS, the **`static`** value of the `position` property allows an element to be positioned following the normal flow of the page, meaning it appears where it would naturally occur on the page without any adjustments. The element won't be affected by the [`top`](https://www.codecademy.com/resources/docs/css/position/top), [`bottom`](https://www.codecademy.com/resources/docs/css/position/bottom), [`left`](https://www.codecademy.com/resources/docs/css/position/left), and [`right`](https://www.codecademy.com/resources/docs/css/position/right) properties.
 
-> **Note:** HTML elements are positioned `static` by default.
+> **Note:** [HTML elements](https://www.codecademy.com/resources/docs/html/elements) are positioned `static` by default.
 
 ## Syntax
 
@@ -26,7 +26,7 @@ position: static;
 
 ## Example
 
-This example demonstrates the static positioning of HTML elements.
+This example demonstrates the static positioning of [HTML](https://www.codecademy.com/resources/docs/html) elements.
 
 Here is the HTML code:
 
@@ -61,9 +61,8 @@ div {
 
 Here's what the above example's output looks like:
 
-![CSS Static Position Example Output](https://raw.githubusercontent.com/Codecademy/docs/main/media/css_position_static.png)
+![CSS Static Positioning Example Output](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-position-static.png)
 
-In this example, the `box1` has no position property set, so it automatically uses `position: static`.
-The `box2` explicitly has the `position: static` and `top: 50px` set. But both elements will follow the normal document flow, meaning they stack on top of each other, one after the other vertically.
+In this example, `box1` has no `position` property set, so it automatically uses `position: static`. On the other hand, `box2` explicitly has `position: static` and `top: 50px` set. However, both elements will follow the normal document flow, meaning they will stack on top of each other, one after the other vertically.
 
-Use other position values, such as ' relative ' or ' absolute, ' to modify the position of the elements.
+> **Note:** Other `position` values, such as [`relative`](https://www.codecademy.com/resources/docs/css/position/relative) or [`absolute`](https://www.codecademy.com/resources/docs/css/position/absolute) can be used in this case to modify the position of the elements.
