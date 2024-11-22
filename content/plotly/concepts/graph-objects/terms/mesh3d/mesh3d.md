@@ -1,6 +1,6 @@
 ---
 Title: '.Mesh3d()'
-Description: 'Creates a 3D mesh plot in Plotly using the `graph_objects` module.'
+Description: 'Creates a 3D mesh plot in Plotly using the graph_objects module.'
 Subjects:
   - 'Data Science'
   - 'Data Visualization'
