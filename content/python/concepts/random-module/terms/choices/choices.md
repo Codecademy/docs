@@ -1,6 +1,6 @@
 ---
 Title: '.choices()'
-Description: 'Returns a list of randomly selected elements from a given sequence, allowing weighted probabilities and repetition.'
+Description: 'Returns a list of randomly selected elements from a given sequence, allowing for weighted probabilities and repetition.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
