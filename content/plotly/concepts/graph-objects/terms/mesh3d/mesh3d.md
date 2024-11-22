@@ -1,5 +1,5 @@
 ---
-Title: '`.Mesh3d()`'
+Title: '.Mesh3d()'
 Description: 'Creates a 3D mesh plot in Plotly using the `graph_objects` module.'
 Subjects:
   - 'Data Science'
@@ -27,15 +27,13 @@ plotly.graph_objects.Mesh3d( x=None, y=None, z=None, i=None, j=None, k=None, col
 - `Color`: The color of the mesh, which can be a single color or an array of colors for each face.
 - `opacity`: Controls the transparency of the mesh, ranging from 0 (fully transparent) to 1 (fully opaque).
 
-> Note: There are many additional, optional parameters that are not listed here, as indicated by the ellipsis (...) in the syntax.
+> **Note**: There are many additional, optional parameters that are not listed here, as indicated by the ellipsis (`...`) in the syntax.
 
-## Examples
-
-### Example 1
+## Example 1
 
 This code displays a 3D mesh plot by defining the triangles that connect the vertices:
 
-```python
+```py
 import plotly.graph_objects as go
 
 # Coordinates of vertices.
@@ -67,8 +65,7 @@ fig = go.Figure(data=[mesh])
 fig.show()
 ```
 
-> Note: If triangle indices (`i`, `j`, `k`) are not specified, the mesh will be automatically generated using algorithms like Delaunay triangulation. The `alphahull` parameter can be used to control the mesh generation process without the indices:
-
+> **Note**: If triangle indices (`i`, `j`, `k`) are not specified, the mesh will be automatically generated using algorithms like Delaunay triangulation. The `alphahull` parameter can be used to control the mesh generation process without the indices:
 - `alphahull = -1`: Uses Delaunay triangulation.
 - `alphahull = 0`: Computes the convex hull of the point set.
 - `alphahull > 0`: Uses the alpha shape algorithm with the specified alpha value.
@@ -77,11 +74,11 @@ This example results in the following output:
 
 ![Example 2 Output]("https://raw.githubusercontent.com/Codecademy/docs/main/media/mesh3d-example-results.png")
 
-### Example 2
+## Example 2
 
 The dataset information can be used to create a 3D mesh plot, as demonstrated in the example below, which visualizes a sphere using vertex and face data from a CSV file:
 
-```python
+```py
 import plotly.graph_objects as go
 import pandas as pd
 
