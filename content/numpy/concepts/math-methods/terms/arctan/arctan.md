@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In NumPy, the **`.arctan()`** method calculates the inverse tangent of the elements in an [array](https://www.codecademy.com/resources/docs/numpy/ndarray).
+In NumPy, the **`.arctan()`** method calculates the inverse tangent of the elements in an [array](https://www.codecademy.com/resources/docs/numpy/ndarray) and returns a new array containing the calculated values. The values are in radians and lie in the range `-pi/2` to `pi/2`. By understanding this method, developers can effectively work with trigonometric calculations and geometric problems in NumPy.
 
 ## Syntax
 
