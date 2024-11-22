@@ -30,7 +30,7 @@ random.choices(sequence, weights=None, *, cum_weights=None, k=1)
 
 ## Example 1
 
-The following example uses `.choices()` to randomly select 10 fruits from a predefined list, where the likelihood of each fruit being chosen is determined by their respective weights:
+The following example uses `.choices()` to randomly select 10 fruits from a predefined list, where the likelihood of each fruit being chosen is determined by its respective weights:
 
 ```py
 import random
