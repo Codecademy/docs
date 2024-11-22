@@ -25,7 +25,7 @@ tensor.mean(dim=None, keepdim=False)
 - `dim` (optional): The dimension along which the mean is computed. If not specified, the mean of all elements is calculated.
 - `keepdim` (optional): If `True`, retains the reduced dimension with size `1`. Defaults to `False`.
 
-The function returns a tensor containing the mean value(s)
+The function returns a tensor containing the mean value(s).
 
 ## Example
 
