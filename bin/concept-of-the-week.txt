@@ -1,1 +1,1 @@
-content/git/concepts/reset/reset.md
+content/ruby/concepts/variables/variables.md
