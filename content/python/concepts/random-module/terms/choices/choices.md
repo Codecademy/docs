@@ -57,7 +57,7 @@ The above code produces the following output:
 Randomly selected fruits: ['cherry', 'date', 'apple', 'cherry', 'cherry', 'cherry', 'cherry', 'cherry', 'date', 'date']
 ```
 
-The output changes with each execution as random.choices() generates random selections influenced by the weights.
+The output changes with each execution as `random.choices()` generates random selections influenced by the weights.
 
 ## Codebyte Example
 
