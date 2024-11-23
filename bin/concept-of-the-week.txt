@@ -1,1 +1,1 @@
-content/sql/concepts/data-types/data-types.md
+content/ruby/concepts/variables/variables.md
