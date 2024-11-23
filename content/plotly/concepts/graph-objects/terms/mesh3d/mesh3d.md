@@ -102,4 +102,4 @@ fig.show()
 
 This example results in the following output:
 
-![Example 2 Output]("https://raw.githubusercontent.com/Codecademy/docs/main/media/mesh3d-dataset-sphere.png")
+![The output will be a 3D sphere.]("https://raw.githubusercontent.com/Codecademy/docs/main/media/mesh3d-dataset-sphere.png")
