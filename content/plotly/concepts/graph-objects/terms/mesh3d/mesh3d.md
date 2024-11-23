@@ -65,7 +65,11 @@ fig = go.Figure(data=[mesh])
 fig.show()
 ```
 
-If triangle indices (`i`, `j`, `k`) are not specified, the mesh will be automatically generated using algorithms like Delaunay triangulation. The `alphahull` parameter can be used to control the mesh generation process without the indices:
+If triangle indices (`i`, `j`, `k`) are not specified, the mesh will be automatically generated using algorithms like **Delaunay triangulation**.
+
+_Delaunay triangulation_ is a method for dividing a set of points into non-overlapping triangles, ensuring that no points lie inside the circumcircle of any triangle.
+
+The `alphahull` parameter can be used to control the mesh generation process without the indices:
 
 - `alphahull = -1`: Uses Delaunay triangulation.
 - `alphahull = 0`: Computes the convex hull of the point set.
