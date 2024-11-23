@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.create_distplot()`** function is part of Plotly's [`figure_factory`](https://www.codecademy.com/resources/docs/plotly/figure-factory) module. 
+The **`.create_distplot()`** function is part of Plotly's [`figure_factory`](https://www.codecademy.com/resources/docs/plotly/figure-factory) module.
 
 It generates distribution plots that combine histograms and **Kernel Density Estimates (KDE)**, allowing for a clear visualization of a dataset's distribution.
 
