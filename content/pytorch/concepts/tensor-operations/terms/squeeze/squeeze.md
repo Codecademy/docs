@@ -15,64 +15,39 @@ CatalogContent:
 
 The PyTorch **'.squeeze()'** function removes dimensions of size 1 from a given tensor.
 
-
 ## Syntax
 
 ```pseudo
 torch.squeeze(input, dim=None)
 ```
 
-- `input`: tensor
-- `dim`: specified dimension to squeeze (if None, the entire tensor is squeezed)
-
-
-> **Note:** if the batch dimension is size 1, it will also be removed, which may result in errors.
+- `input`: The input tensor from which dimensions of size 1 will be removed.
+- `dim` (optional): A specific dimension to squeeze. If provided, only the dimension of size 1 at that index will be removed. If not provided, all dimensions with size 1 will be removed.
 
 ## Example
 
-The example below demonstrates the use of the `.squeeze` method. The tensor `x` is squeezed such that the resulting tensor, `y`, has any dimensions of size 1 removed:
+The following example demonstrates how the `.squeeze()` function removes dimensions of size 1 from the tensor `x`, resulting in a tensor `y` with reduced dimensions:
 
 ```py
 import torch
 
+# Create a tensor with dimensions (1, 1, 2, 1, 3)
 x = torch.rand(1, 1, 2, 1, 3)
-x.size()
+print("Original tensor size:", x.size())
 
+# Apply the squeeze operation to remove all dimensions of size 1
 y = torch.squeeze(x)
-y.size()
+print("Squeezed tensor (all dims) size:", y.size())  
 
+# Apply the squeeze operation with dim=1 to only remove the dimension at index 1
+z = torch.squeeze(x, dim=1)
+print("Squeezed tensor (dim=1) size:", z.size()) 
 ```
 
+The code generates the following output:
 
 ```shell
-torch.Size([1, 1, 2, 1, 3])
-
-torch.Size([2, 3])
-```
-
-If a dimension is specified, only that dimension will be removed if it is of size 1:
-```py
-z = torch.squeeze(x, dim = 1)
-z.size()
-```
-
-```shell
-torch.Size([1, 2, 1, 3])
-```
-
-## Codebyte Example
-
-The code demonstrates use of the `.squeeze()` function on a tensor, with and without specifying the `dim` parameter:
-
-```codebyte/python
-import torch
-
-x = torch.rand(1, 1, 2, 1, 3)
-x.size()
-
-y = torch.squeeze(x)
-y.size()
-
-z = torch.squeeze(x, dim = 1)
-z.size()
+Original tensor size: torch.Size([1, 1, 2, 1, 3])
+Squeezed tensor (all dims) size: torch.Size([2, 3])
+Squeezed tensor (dim=1) size: torch.Size([1, 2, 1, 3])
 ```
