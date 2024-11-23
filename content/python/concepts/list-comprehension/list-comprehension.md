@@ -88,7 +88,7 @@ In this example, the comprehension generates all possible pairs (tuples) from th
 
 ## Codebyte Example
 
-Imagine you're grading a class of students and want to create a list of students who passed. A list comprehension makes it easy to filter and label grades.
+Imagine we're grading a class of students and want to create a list of students who passed. A list comprehension makes it easy to filter and label grades.
 
 ```codebyte/python
 # List of student grades
