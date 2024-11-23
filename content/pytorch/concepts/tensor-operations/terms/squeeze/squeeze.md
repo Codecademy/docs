@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The PyTorch **'.squeeze()'** function removes dimensions of size 1 from a given tensor.
+The PyTorch **`.squeeze()`** function removes dimensions of size 1 from a given [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors).
 
 ## Syntax
 
