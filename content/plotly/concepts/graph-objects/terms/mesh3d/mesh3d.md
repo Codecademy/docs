@@ -73,7 +73,7 @@ If triangle indices (`i`, `j`, `k`) are not specified, the mesh will be automati
 
 This example results in the following output:
 
-![Example 2 Output]("https://raw.githubusercontent.com/Codecademy/docs/main/media/mesh3d-example-results.png")
+![The output will be a 3D triangular pyramid (tetrahedron) visualized using Plotly.]("https://raw.githubusercontent.com/Codecademy/docs/main/media/mesh3d-example-results.png")
 
 ## Example 2
 
