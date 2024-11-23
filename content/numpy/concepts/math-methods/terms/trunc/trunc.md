@@ -1,6 +1,6 @@
 ---
 Title: '.trunc()'
-Description: 'Truncate the decimal part of each element in an array, returning the integer part as a float.'
+Description: 'Returns the truncated value of each element in an array, removing the fractional part and leaving the integer part.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -17,7 +17,7 @@ CatalogContent:
   - 'paths/data-science-foundations'
 ---
 
-**`numpy.trunc()`** truncates the decimal part of each element in a NumPy array, returning the integer part of the number as a float. It is often used when you need to ignore the fractional part without rounding.
+In NumPy, the **`.trunc()`** function truncates the decimal part of each element in an array, returning the integer part as a float. It is used to discard the fractional part without rounding the number.
 
 ## Syntax
 
@@ -25,19 +25,17 @@ CatalogContent:
 numpy.trunc(x, /, out=None, *, where=True)
 ```
 
-- `x`: The input array whose elements you want to truncate.
-- `out`: (Optional) A location where the result is stored. If not provided, a new array is created.
-- `where`: (Optional) A boolean array that specifies which elements to compute for. Default is True for all elements.
+- `x`: The input array (or a single number) whose elements are to be truncated.
+- `out` (Optional): A location where the result will be stored. If not provided, a new array is created and returned.
+- `where` (Optional): A boolean array or condition that specifies which elements to compute for. The default is `True`, meaning the function operates on all elements of `x`.
 
-It returns a NumPy array containing the truncated values, where each element is the integer part of the input.
+It returns a new array (or a scalar if the input is a single value) with the decimal part truncated from each element, leaving the integer part as a float.
 
-## Example
-
-### Example 1: Truncating Decimal Values in an Array
+## Example 1
 
 The example demonstrates how `.trunc()` truncates the decimal values in a NumPy array:
 
-```python
+```py
 import numpy as np
 
 arr = np.array([3.14, -2.718, 1.618, -4.0])
@@ -53,31 +51,39 @@ The output will be as follows:
 
 The above example also shows that `.trunc()` does not round but it simply removes the fractional part.
 
-### Example 2: Truncating with Conditional Application
+## Example 2
 
-We can also selectively apply truncation using the `where` parameter.
+We can selectively apply truncation using the `where` parameter, which allows truncation only for elements that meet a specified condition while leaving other elements unchanged.
 
-```python
-arr = np.array([3.14, -2.718, 1.618, -4.0])
-truncated = np.trunc(arr, where=arr > 0)
-print(truncated)
+```py
+import numpy as np
+
+# Array of numbers
+numbers = np.array([3.14, -2.718, 1.618, -4.0])
+
+# Truncate only the positive numbers
+result = np.where(numbers > 0, np.trunc(numbers), numbers)
+
+# Print the original and modified arrays
+print("Original Numbers:", numbers)
+print("Conditionally Truncated Numbers:", result)
+
 ```
 
 The output will be as follows:
 
 ```shell
-[ 3. -2.718  1. -4. ]
+Original Numbers: [ 3.14  -2.718  1.618  -4.   ]
+Conditionally Truncated Numbers: [ 3.   -2.718  1.   -4.   ]
 ```
 
 Here, truncation is only applied to elements where the value is greater than `0`, leaving other elements unchanged.
 
 ## Codebyte Example
 
-Imagine you're working on a shopping app and want to display the approximate price of products without including decimal values. For instance, if a product costs $12.99, you might want to show it as $12 in certain parts.
-
 The example below demonstrates how to truncate the decimal part of product prices:
 
-```python
+```codebyte/python
 import numpy as np
 
 # List of product prices with decimal values
