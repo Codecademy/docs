@@ -39,7 +39,7 @@ A list comprehension includes an expression, a **for** clause, and optionally an
 
 The following list comprehension generates a list of squares for the numbers 0 through 4:
 
-```python
+```py
 squares = [x ** 2 for x in range(5)]
 print(squares)
 ```
@@ -56,7 +56,7 @@ In the above example, the expression `x ** 2` is applied to each number in the r
 
 This example generates a list of even squares for the numbers 0 through 9:
 
-```python
+```py
 even_squares = [x ** 2 for x in range(10) if x % 2 == 0]
 print(even_squares)
 ```
@@ -73,7 +73,7 @@ Here, the if `x % 2 == 0` condition filters out odd numbers, and only the square
 
 Multiple `for` loops can also be used in a list comprehension. The below example creates a list of pairs (tuples) from two lists -
 
-```python
+```py
 pairs = [(x, y) for x in range(3) for y in range(3)]
 print(pairs)
 ```
@@ -90,7 +90,7 @@ In this example, the comprehension generates all possible pairs (tuples) from th
 
 Imagine you're grading a class of students and want to create a list of students who passed. A list comprehension makes it easy to filter and label grades.
 
-```python
+```codebyte/python
 # List of student grades
 grades = [85, 62, 78, 90, 45, 55, 72]
 
