@@ -2,13 +2,13 @@
 Title: '.get()'
 Description: 'Returns the element located at a given position in an array.'
 Subjects:
-  - 'Computer Science'
   - 'Code Foundations'
+  - 'Computer Science'
 Tags:
-  - 'Kotlin'
-  - 'Functions'
   - 'Arrays'
   - 'Elements'
+  - 'Functions'
+  - 'Kotlin'
 CatalogContent:
   - 'learn-kotlin'
   - 'paths/computer-science'
@@ -22,8 +22,8 @@ In Kotlin, the **`.get()`** [function](https://www.codecademy.com/resources/docs
 arr.get(pos)
 ```
 
-- `arr`: The array to be iterated.
-- `pos`: The position in the array where the target element is located.
+- `arr`: The array from which an element is retrieved.
+- `pos`: The position (index) in the array where the target element is located.
 
 ## Example
 
