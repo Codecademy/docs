@@ -77,7 +77,7 @@ This example results in the following output:
 
 ## Example 2
 
-The dataset information can be used to create a 3D mesh plot, as demonstrated in the example below, which visualizes a sphere using vertex and face data from a CSV file:
+The dataset information can be used to create a 3D mesh plot, as demonstrated in the example below, which visualizes a sphere using vertex and face data from a [CSV file](https://raw.githubusercontent.com/plotly/datasets/master/ply/sphere-ply.csv):
 
 ```py
 import plotly.graph_objects as go
