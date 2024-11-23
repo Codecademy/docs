@@ -24,7 +24,7 @@ It allows you to perform base conversions between numeric systems like _binary_,
 
 ## Syntax
 
-```sql
+```pseudo
 CONV(number, from_base, to_base)
 ```
 
