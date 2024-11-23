@@ -28,7 +28,7 @@ fig = figure_factory.create_distplot( hist_data, group_labels, ...)
 - `hist_data`: A list of datasets to plot. Each dataset is represented as a separate group in the distribution plot.
 - `group_labels`: List of strings corresponding to each dataset in `hist_data`. These labels are used to distinguish the different groups in the plot.
 
-> **Note**: The ellipsis (...) in the syntax represents many parameters that are optional and automatically set to their default values, including `bin-size=None`, `curve_type='kde'`, `colors=None`, `histnorm=''`, `show_hist=True`, `show_curve=True`, and `show_rug=True`.
+> **Note**: The ellipsis (...) in the syntax represents several optional parameters, which are automatically set to their default values, such as `bin_size=None`, `curve_type='kde'`, `colors=None`, `histnorm=''`, `show_hist=True`, `show_curve=True`, and `show_rug=True`.
 
 ## Example
 
