@@ -55,4 +55,4 @@ fig.show()
 
 The resulting output looks as follows:
 
-![Example 1 Output]("https://raw.githubusercontent.com/Codecademy/docs/main/media/distplot-example.png")
+![Both datasets are displayed with their histograms and smoothed KDE curves overlaid, providing a clear visualization of the data's distribution.](https://raw.githubusercontent.com/Codecademy/docs/main/media/distplot-example.png)
