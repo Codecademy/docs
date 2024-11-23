@@ -2,13 +2,13 @@
 Title: '.size'
 Description: 'Calculates the number of elements in an array.'
 Subjects:
-  - 'Computer Science'
   - 'Code Foundations'
+  - 'Computer Science'
 Tags:
-  - 'Kotlin'
-  - 'Functions'
   - 'Arrays'
   - 'Elements'
+  - 'Functions'
+  - 'Kotlin'
 CatalogContent:
   - 'learn-kotlin'
   - 'paths/computer-science'
@@ -22,7 +22,7 @@ In Kotlin, the **`.size`** property calculates the number of elements in an arra
 arr.size
 ```
 
-- `arr`: The array to be iterated.
+- `arr`: The array whose size is to be accessed.
 
 ## Example
 
