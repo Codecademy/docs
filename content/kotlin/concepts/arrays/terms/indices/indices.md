@@ -2,13 +2,13 @@
 Title: '.indices'
 Description: 'Returns a range indicating the valid indices in an array.'
 Subjects:
-  - 'Computer Science'
   - 'Code Foundations'
+  - 'Computer Science'
 Tags:
-  - 'Kotlin'
-  - 'Functions'
   - 'Arrays'
   - 'Elements'
+  - 'Kotlin'
+  - 'Functions'
 CatalogContent:
   - 'learn-kotlin'
   - 'paths/computer-science'
@@ -22,7 +22,7 @@ In Kotlin, the **`.indices`** property returns a range indicating the valid indi
 arr.indices
 ```
 
-- `arr`: The array to be iterated.
+- `arr`: The array whose valid indices are to be accessed.
 
 ## Example
 
