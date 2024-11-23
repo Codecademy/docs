@@ -85,3 +85,18 @@ The output will be as follows -
 ```
 
 In this example, the comprehension generates all possible pairs (tuples) from the numbers `0`, `1`, and `2` by combining them.
+
+## Codebyte Example
+
+Imagine you're grading a class of students and want to create a list of students who passed. A list comprehension makes it easy to filter and label grades.
+
+```python
+# List of student grades
+grades = [85, 62, 78, 90, 45, 55, 72]
+
+# Get grades for students who passed (>= 60) and label them as "Pass"
+passed_students = [f"Pass: {grade}" for grade in grades if grade >= 60]
+
+# Print the results
+print("Passed Students:", passed_students)
+```
