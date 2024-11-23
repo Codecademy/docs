@@ -83,6 +83,7 @@ print('Loss after one optimization step:', loss.item())
 ```
 
 Sample output for this example:
+
 ```shell
 Initial Loss: 1.0875437259674072
 Loss after one optimiation step: 1.0775121450424194
@@ -208,21 +209,22 @@ Loss after one optimization step: 0.6932134628295898
 ## Common Loss Functions in `torch.nn`
 
 Some commonly used loss functions provided by PyTorch:
- - `nn.MSELoss`: Mean Squared Error Loss. Suitable for regression tasks.
- - `nn.CrossEntropyLoss`: Combines `nn.LogSoftmax` and `nn.NLLLoss`. Used for multi-class classification.
- - `nn.NLLLoss`: Negative Log Likelihood Loss. Often used with `nn.LogSoftmax`.
- - `nn.BCELoss`: Binary Cross Entropy Loss. Used for binary classification tasks.
- - `nn.BCEWithLogitsLoss`: Combines a **Sigmoid** layer and the BCELoss. More numerically stable.
- - `nn.L1Loss`: Mean Absolute Error Loss.
- - `nn.SmoothL1Loss`: A combination of `nn.L1Loss` and `nn.MSELoss`. Less sensitive to outliers.
- - `nn.HingeEmbeddingLoss`: Used for measuring similarity between samples.
+
+- `nn.MSELoss`: Mean Squared Error Loss. Suitable for regression tasks.
+- `nn.CrossEntropyLoss`: Combines `nn.LogSoftmax` and `nn.NLLLoss`. Used for multi-class classification.
+- `nn.NLLLoss`: Negative Log Likelihood Loss. Often used with `nn.LogSoftmax`.
+- `nn.BCELoss`: Binary Cross Entropy Loss. Used for binary classification tasks.
+- `nn.BCEWithLogitsLoss`: Combines a **Sigmoid** layer and the BCELoss. More numerically stable.
+- `nn.L1Loss`: Mean Absolute Error Loss.
+- `nn.SmoothL1Loss`: A combination of `nn.L1Loss` and `nn.MSELoss`. Less sensitive to outliers.
+- `nn.HingeEmbeddingLoss`: Used for measuring similarity between samples.
 
 _Sigmoid function_ is a mathematical function that has an "S" shaped curve (sigmoidal shape). It is widely used in machine learning, particularly in logistic regression and neural networks, as an activation function to introduce non-linearity into the model and to map any real-valued number into a value between 0 and 1.
 
 ## Notes
 
 - Input Requirements: Ensure that the shapes and data types of `predicted_outputs` and `target_values` match the expectations of the loss function.
-    - For `nn.CrossEntropyLoss`, `predicted_outputs` should contain raw scores (logits), and `target_values` should contain class indices (not one-hot encoded).
-    - For `nn.BCEWithLogitsLoss`, `predicted_values` should be raw scores; the loss function applies the Sigmoid function internally.
+  - For `nn.CrossEntropyLoss`, `predicted_outputs` should contain raw scores (logits), and `target_values` should contain class indices (not one-hot encoded).
+  - For `nn.BCEWithLogitsLoss`, `predicted_values` should be raw scores; the loss function applies the Sigmoid function internally.
 - Reduction Parameter: Most loss functions have a `reduction` parameter (`mean`, `sum`, or `none`) that specifies how the loss should be aggregated.
 - Class Imbalance: For datasets with class imbalance, consider using the `weight` parameter in the loss function to assign different weights to classes.
