@@ -13,17 +13,18 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.unsqueeze()`** method in PyTorch adds a new dimension of size one to a tensor at the specified position. It is often used to reshape tensors to align their dimensions for mathematical operations, such as broadcasting or feeding data into a neural network.
+The **`.unsqueeze()`** method in PyTorch adds a new dimension of size one at the specified position in a tensor. It is commonly used to reshape tensors for operations like broadcasting or to match input dimensions for neural networks.
 
 ## Syntax
 
 ```pseudo
-tensor.unsqueeze(dim)
+torch.unsqueeze(input, dim)
 ```
 
-- `dim`: The index at which to insert the new dimension. This must be a valid dimension for the tensor.
+- `input`: The input tensor to which a new dimension will be added.
+- `dim`: The index at which to insert the new dimension. This must be a valid dimension index for the tensor, including both positive and negative indices.
 
-The function returns a new tensor with the additional dimension.
+The method returns a new tensor with the additional dimension.
 
 ## Example
 
