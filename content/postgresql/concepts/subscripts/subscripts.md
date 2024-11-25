@@ -40,7 +40,7 @@ array_name[subscript_1][subscript_2]...[subscript_n]
 
 ## Example
 
-Suppose, we have a table `students` with columnname as `grades` that stores a multi-dimensional array of test scores:
+Suppose we have a table `students` with column name `grades` that stores a multi-dimensional array of test scores:
 
 ```sql
 CREATE TABLE students (
