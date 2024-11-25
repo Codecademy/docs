@@ -17,7 +17,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-In Python, the `statsmodels` library is used to estimate the statistical models, and perform statistical tests. It is built on top of `numpy`, `scipy`, and `pandas`. It provides classes and functions for the estimation of many different statistical models, as well as for conducting statistical tests, and statistical data exploration.
+In Python, the `statsmodels` library is used to estimate the statistical models and perform statistical tests. It is built on top of `numpy`, `scipy`, and `pandas`. 
 
 The same is widely used in the field of econometrics, and it is also used in other fields such as finance, marketing, and social sciences. It is a powerful tool for statistical analysis, and it provides a wide range of statistical models and tests.
 
