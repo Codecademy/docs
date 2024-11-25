@@ -36,7 +36,7 @@ It supports various models, including linear regression, generalized linear mode
 
 ## Installation
 
-You can install the `statsmodels` library using `pip` by running the following recommended command:
+The `statsmodels` library can be installed using pip by running the following command:
 
 ```shell
 pip install statsmodels
