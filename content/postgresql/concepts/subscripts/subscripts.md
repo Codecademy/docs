@@ -33,7 +33,7 @@ array_name[subscript]
 Alternatively, for multi-dimensional array the following syntax is used:
 
 ```pseudo
-array_name[subscript_1, subscript_2, ..., subscript_n]
+array_name[subscript_1][subscript_2]...[subscript_n]
 ```
 - `array_name`: The name of the array being accessed.
 - `subscript_1, subscript_2, ..., subscript_n`: The index positions for each dimension of the array to access the specific element.
