@@ -21,7 +21,7 @@ In Python, the `statsmodels` library is used to estimate the statistical models 
 
 It is widely used in econometrics and other fields such as finance, marketing, and social sciences.
 
-It provides classes and functions for the estimation of many different statistical models, such as linear regression, generalized linear models, time series analysis, and more. It also provides functions for conducting statistical tests, such as hypothesis tests, and for statistical data exploration.
+It supports various models, including linear regression, generalized linear models, time series analysis, and more.
 
 ## Key Features
 
