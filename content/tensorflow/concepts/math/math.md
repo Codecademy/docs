@@ -25,7 +25,7 @@ Here are some of the key mathematical operations available in TensorFlow:
 
 TensorFlow provides a wide range of arithmetic operations that can be performed on tensors. These operations include addition, subtraction, multiplication, division, and more. Here are some examples of arithmetic operations in TensorFlow:
 
-```python
+```py
 import tensorflow as tf
 
 a = tf.constant([1, 2, 3])
@@ -37,7 +37,6 @@ tf.math.add(a, b)  # Element-wise addition
 tf.math.subtract(a, b)  # Element-wise subtraction
 tf.math.multiply(a, b)  # Element-wise multiplication
 tf.math.divide(a, b)  # Element-wise division
-```
 
 ## Element-wise Operations
 
