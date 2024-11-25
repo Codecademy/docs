@@ -37,6 +37,7 @@ tf.math.add(a, b)  # Element-wise addition
 tf.math.subtract(a, b)  # Element-wise subtraction
 tf.math.multiply(a, b)  # Element-wise multiplication
 tf.math.divide(a, b)  # Element-wise division
+```
 
 ## Element-wise Operations
 
@@ -52,13 +53,13 @@ a = tf.constant([1, 2, 3])
 tf.math.pow(a, 2)  # Element-wise power
 tf.math.sqrt(a)  # Element-wise square root
 tf.math.abs(a)  # Element-wise absolute value
+```
 
 ## Trigonometric Functions
 
 TensorFlow supports trigonometric functions such as sine, cosine, tangent, and their inverses., which have domain constraints. These functions are useful for various mathematical computations. Here are some examples of trigonometric functions in TensorFlow:
 
-
-```python
+```py
 import tensorflow as tf
 
 a = tf.constant([0.0, 1.0, 2.0])   
@@ -78,7 +79,7 @@ tf.math.atan(a)  # Element-wise arctangent
 
 TensorFlow provides functions for computing exponentials and logarithms of tensor elements. These functions are commonly used in mathematical and scientific computations. Here are some examples of exponential and logarithmic functions in TensorFlow:
 
-```python
+```py
 import tensorflow as tf
 
 a = tf.constant([1.0, 2.0, 3.0])
@@ -95,7 +96,7 @@ tf.math.log1p(a)  # Element-wise natural logarithm of (1 + x)
 
 Reduction operations compute a single result from multiple tensor elements. These operations include sum, mean, maximum, minimum, and more. Here are some examples of reduction operations in TensorFlow:
 
-```python
+```py
 import tensorflow as tf
 
 a = tf.constant([[1, 2, 3], [4, 5, 6]])
@@ -112,7 +113,7 @@ tf.math.reduce_min(a)  # Minimum value
 
 TensorFlow supports comparison operations that can be used to compare tensor elements and return boolean values based on the comparison results. Here are some examples of comparison operations in TensorFlow:
 
-```python
+```py
 import tensorflow as tf
 
 a = tf.constant([1, 2, 3])
@@ -130,7 +131,7 @@ tf.math.not_equal(a, b)  # Element-wise inequality
 
 TensorFlow offers a variety of special mathematical functions such as Bessel functions, error functions, and gamma functions. These functions are useful for advanced mathematical computations. Here are some examples of special functions in TensorFlow:
 
-```python
+```py
 import tensorflow as tf
 
 a = tf.constant([1.0, 2.0, 3.0])
