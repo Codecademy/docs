@@ -1,6 +1,6 @@
 ---
 Title: 'Methods'
-Description: 'C++ class methods are functions defined within a class, using dot notation to access and manipulate class members and behavior.'
+Description: 'C++ class methods are functions defined within a class and can be accessed using dot notation to manipulate class members and behaviour.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
