@@ -57,7 +57,8 @@ tf.math.abs(a)  # Element-wise absolute value
 
 ## Trigonometric Functions
 
-TensorFlow supports trigonometric functions such as sine, cosine, tangent, and their inverses. These functions are useful for various mathematical computations. Here are some examples of trigonometric functions in TensorFlow:
+TensorFlow supports trigonometric functions such as sine, cosine, tangent, and their inverses., which have domain constraints. These functions are useful for various mathematical computations. Here are some examples of trigonometric functions in TensorFlow:
+
 
 ```python
 import tensorflow as tf
