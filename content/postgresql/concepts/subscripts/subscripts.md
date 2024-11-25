@@ -1,6 +1,6 @@
 ---
 Title: 'Subscripts'
-Description: 'In PostgreSQL, subscripts are used to perform various operations on arrays. They offer a concise way to handle and manage array data.'
+Description: 'Subscripts are used to access, update, or manipulate specific elements of an array by their position or index.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
