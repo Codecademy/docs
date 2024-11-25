@@ -72,6 +72,7 @@ tf.math.cos(a)  # Element-wise cosine
 tf.math.tan(a)  # Element-wise tangent
 tf.math.asin(a)  # Element-wise arcsine
 tf.math.acos(a)  # Element-wise arccosine
+
 tf.math.atan(a)  # Element-wise arctangent
 ```
 
