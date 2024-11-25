@@ -42,7 +42,7 @@ tf.math.divide(a, b)  # Element-wise division
 
 Element-wise operations are operations that are applied to each element of a tensor individually. These operations include computing the power of each element, calculating the square root of each element, and returning the absolute value of each element. Here are some examples of element-wise operations in TensorFlow:
 
-```python
+```py
 import tensorflow as tf
 
 a = tf.constant([1, 2, 3])
@@ -52,7 +52,6 @@ a = tf.constant([1, 2, 3])
 tf.math.pow(a, 2)  # Element-wise power
 tf.math.sqrt(a)  # Element-wise square root
 tf.math.abs(a)  # Element-wise absolute value
-```
 
 ## Trigonometric Functions
 
