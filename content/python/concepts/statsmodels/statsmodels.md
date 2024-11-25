@@ -44,7 +44,7 @@ pip install statsmodels
 
 ## Usage
 
-To use the `statsmodels` library in your Python code, you need to import the necessary modules and classes. 
+To use the `statsmodels` library in Python code, import the necessary modules and classes.
 
 ## Examples
 
