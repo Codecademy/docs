@@ -12,6 +12,7 @@ Tags:
 CatalogContent:
     - 'intro-to-tensorflow'
     - 'tensorflow-for-deep-learning'
+
 ---
 
 In TensorFlow, **math operations** are fundamental for performing various mathematical computations on tensors. Tensors are multi-dimensional arrays that can be manipulated using a wide range of operations.
