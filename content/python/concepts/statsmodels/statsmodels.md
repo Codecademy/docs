@@ -25,15 +25,14 @@ It supports various models, including linear regression, generalized linear mode
 
 ## Key Features
 
-- `Estimation of statistical models`: provides classes and functions for the estimation of many different statistical models, such as linear regression, generalized linear models, time series analysis, and more.
+- **Estimation of statistical models**: Provides classes and functions for estimating many different statistical models, such as linear regression, generalized linear models, time series analysis, and more.
 
-- `Statistical tests`: provides functions for conducting statistical tests, such as hypothesis tests, and for statistical data exploration.
+- **Statistical tests**: Provides functions for conducting statistical tests, such as hypothesis tests.
+- **Data exploration**: Provides functions for exploring and analyzing data, such as summary statistics, correlation analysis, and more.
 
-- `Data exploration`: provides functions for exploring and analyzing data, such as summary statistics, correlation analysis, and more.
+- **Visualization**: Provides functions for visualizing data, such as scatter plots, histograms, and more.
 
-- `Visualization`: provides functions for visualizing data, such as scatter plots, histograms, and more.
-
-- `Integration with other libraries`: built on top of `numpy`, `scipy`, and `pandas`, and it integrates well with other libraries in the Python ecosystem.
+- **Integration with other libraries**: Built on top of `numpy`, `scipy`, and `pandas`, it integrates well with other libraries in the Python ecosystem.
 
 ## Installation
 
