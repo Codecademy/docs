@@ -3,7 +3,8 @@ Title: 'Statsmodels'
 Description: 'The statsmodels library is used to estimate statistical models and perform statistical tests in Python.' 
 Subjects:
   - 'Data Science'
-  - 'Statistics'
+  - 'Data Visualization'
+  - 'Computer Science'
 Tags:
   - 'Python'
   - 'Statistics'
