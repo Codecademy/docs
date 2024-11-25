@@ -12,11 +12,9 @@ Tags:
 CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
-  - 'paths/data-science'
-  - 'paths/data-science-foundations'
 ---
 
-The **TRIM** command removes leading and trailing spaces or specified characters from a string.
+In SQL, the **`TRIM`** command removes leading and trailing spaces or specified characters from a string.
 
 ## Syntax
 
@@ -24,14 +22,12 @@ The **TRIM** command removes leading and trailing spaces or specified characters
 TRIM([remove_chars] FROM string)
 ```
 
-- `remove_chars`: (Optional) The characters to be removed. If omitted, the function removes spaces by default.
+- `remove_chars` (Optional): The characters to be removed. If omitted, the function removes spaces by default.
 - `string`: The string from which characters or spaces will be removed.
 
 ## Example
 
-Assume we have the following `users` and `products` table:
-
-`user` Table
+Here's a table `users` to be used in this example:
 
 | username      |
 | ------------- |
@@ -39,7 +35,7 @@ Assume we have the following `users` and `products` table:
 | ' alice_123 ' |
 | ' admin '     |
 
-`product` Table
+Here's another table `products` to be used in this example as well:
 
 | product_code |
 | ------------ |
@@ -47,14 +43,14 @@ Assume we have the following `users` and `products` table:
 | '##XY456##'  |
 | '#LM789#'    |
 
-The example below demonstrates how to remove leading and trailing spaces from the `username` column in the `users` table -
+The example below demonstrates how to remove leading and trailing spaces from the `username` column in the `users` table:
 
 ```sql
 SELECT username, TRIM(username) AS cleaned_username
 FROM users;
 ```
 
-In this example, the `TRIM` command will remove any spaces from the beginning and end of the `username` field, returning the cleaned string as `cleaned_username`. The output will be as follows -
+In this example, the `TRIM` command will remove any spaces from the beginning and end of the `username` field, returning the cleaned string as `cleaned_username`. The output will be as follows:
 
 | username      | cleaned_username |
 | ------------- | ---------------- |
@@ -62,14 +58,14 @@ In this example, the `TRIM` command will remove any spaces from the beginning an
 | ' alice_123 ' | 'alice_123'      |
 | ' admin '     | 'admin'          |
 
-If you want to remove a specific character, such as the hash symbol (`#`), from both ends of the string, use the following query:
+If a specific character needs to be removed, such as the hash symbol (`#`), from both ends of the string, the following query can be used:
 
 ```sql
 SELECT TRIM('#' FROM product_code) AS cleaned_product_code
 FROM products;
 ```
 
-This will remove any hash symbols (`#`) from the beginning and end of each `product_code` string. The output will be as follows -
+This will remove any hash symbols (`#`) from the beginning and end of each `product_code` string. The output will be as follows:
 
 | product_code | cleaned_product_code |
 | ------------ | -------------------- |
