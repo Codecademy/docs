@@ -16,7 +16,9 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-**Subscripts** are a fundamental concept in PostgreSQL, used to access and manipulate elements within an array. By using subscripts, it becomes easy to retrieve, update, or remove elements from an array by referring to their specific positions.
+**Subscripts** are used to access, update or manipulate elements of an array by their position or index.
+
+They provide a concise way to reference particular elements in one-dimensional or multi-dimensional arrays.
 
 ## Syntax
 
