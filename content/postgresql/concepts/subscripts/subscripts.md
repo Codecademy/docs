@@ -59,7 +59,7 @@ VALUES
 If we want to access Bryan's score, we will run the below query:
 
 ```sql
-SELECT grades[2, 2] AS second_subject_score
+SELECT grades[2][2] AS second_subject_score
 FROM students
 WHERE name = 'Bryan';
 ```
