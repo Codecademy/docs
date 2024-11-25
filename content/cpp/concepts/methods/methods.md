@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-C++ class methods are functions defined within a class, using dot notation to access and manipulate class members and behavior.
+C++ class **methods** are functions defined within a class, accessed via dot notation (`.`), and used to manipulate class members and behaviour.
 
 ## Class Methods
 
