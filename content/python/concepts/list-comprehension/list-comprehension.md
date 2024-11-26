@@ -17,7 +17,6 @@ CatalogContent:
 ---
 
 **List comprehensions** create lists concisely by applying an expression to each item in an iterable, with optional filtering based on a condition.
-
 They are often more readable and concise than traditional loops, making them a preferred method for list creation in Python.
 
 A list comprehension includes an expression, a **for** clause, and optionally an **if** clause for filtering elements.
