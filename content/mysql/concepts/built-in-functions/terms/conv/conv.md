@@ -46,7 +46,6 @@ Assume we have a `numbers` table with a `binary_value` column containing numbers
 | 1101         |
 | 1111         |
 
-
 The following example demonstrates how to convert the binary values in the `binary_value` column to their decimal equivalents:
 
 ```sql
