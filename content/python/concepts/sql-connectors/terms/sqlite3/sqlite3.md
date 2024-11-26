@@ -1,6 +1,6 @@
 ---
 Title: 'SQLite3'
-Description: 'The SQLite library provides an SQL database engine. The library is written in C.'
+Description: 'SQLite is an SQL database engine written in C, designed for embedding in applications and systems.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -8,13 +8,13 @@ Tags:
   - 'SQLite'
   - 'Documentation'
 CatalogContent:
-  - 'learn-advanced-python-3-database-operations'
+  - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-The **`sqlite3`** library is used to connect to a database and allows working with the database.
+The **`sqlite3`** library is used to connect to SQLite databases and provides functions to interact with them.
 
-It can also be used for prototyping while building an application.
+It can also be used for prototyping while developing an application.
 
 ## Syntax
 
@@ -22,11 +22,11 @@ It can also be used for prototyping while building an application.
 import sqlite3
 ```
 
-The **`sqlite3`** library handles the communication with the database.
+The **`sqlite3`** library handles the communication with the databases.
 
 ## Create a connection
 
-To work with database, first connect to database using **`.connect()`** function.
+To work with database, first connect to it using **`.connect()`** function.
 
 ```py
 import sqlite3
@@ -47,7 +47,7 @@ curs = connection.cursor()
 
 The **`.execute()`** function can be used to create a table.
 
-```python
+```py
 curs.execute('''CREATE TABLE persons(
             name TEXT,
             age INTEGER,
