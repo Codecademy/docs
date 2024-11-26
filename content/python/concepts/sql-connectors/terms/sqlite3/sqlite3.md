@@ -79,7 +79,7 @@ curs.executemany('''INSERT INTO persons VALUES(?, ?, ?)''', new_persons)
 
 ## Commit the Transaction
 
-The **``.commit()``** function persists the inserted values to the database.
+The **`.commit()`** function persists the inserted values to the database.
 
 ```py
 con.commit()
