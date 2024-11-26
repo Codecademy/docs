@@ -73,7 +73,6 @@ If you want to convert a hexadecimal value to decimal, assume the `hex_value` co
 You can convert the hexadecimal values to decimal with the following query:
 
 ```sql
-Copy code
 SELECT hex_value, CONV(hex_value, 16, 10) AS decimal_value
 FROM numbers;
 ```
