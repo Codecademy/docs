@@ -60,7 +60,7 @@ even_squares = [x ** 2 for x in range(10) if x % 2 == 0]
 print(even_squares)
 ```
 
-The output will be as follows -
+The output will be as follows :
 
 ```shell
 [0, 4, 16, 36, 64]
