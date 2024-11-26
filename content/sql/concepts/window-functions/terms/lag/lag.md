@@ -60,20 +60,21 @@ Output
 | chris      | smith     | 30  | 35           |
 | dave       | james     | 19  | 30           |
 
-## Example using partition by
+## Example 
+### Using partition by
 
 This example demonstrates how to use the `LAG()` function to create a new column, `previous_position`. The function retrieves the value from the previous row within the same `employee_id` group in the `Promotions` table. This is achieved by using the `PARTITION BY employee_id` clause.
 
-Promotions Table
+`Promotions` Table
 
 | employee_id | promotion_date | new_position |
 | ----------- | -------------- | ------------ |
-| 1      	  | 2020-01-01 	   | Junior Dev   |
-| 1      	  | 2021-06-01 	   |    Mid Dev	  |
-| 1      	  | 2024-03-01 	   | Senior Dev   |
-| 2      	  | 2019-05-01     |     Intern	  |
-| 2      	  | 2022-11-01 	   |    Analyst   |
-| 2      	  | 2024-11-20     |Data Analyst  |
+| 1           | 2020-01-01     | Junior Dev   |
+| 1           | 2021-06-01     |    Mid Dev   |
+| 1           | 2024-03-01     | Senior Dev   |
+| 2           | 2019-05-01     |     Intern   |
+| 2           | 2022-11-01     |    Analyst   |
+| 2           | 2024-11-20     |Data Analyst  |
 
 ```sql
 SELECT *,
@@ -86,13 +87,13 @@ FROM Promotions;
 
 The output is a table that features a new column `previous_position`, which holds the values by employee. The first record is null because a default was not specified and the previous row would be out of range.
 
-Output
+The above code generates the below output:
 
 | employee_id | promotion_date | new_position | previous_position |
 | ----------- | -------------- | ------------ | ----------------- |
-| 1      	  | 2020-01-01 	   | Junior Dev   |              NULL |
-| 1      	  | 2021-06-01 	   |    Mid Dev	  | 	   Junior Dev |
-| 1      	  | 2024-03-01 	   | Senior Dev   |		      Mid Dev |
-| 2      	  | 2019-05-01     |     Intern	  |				 NULL |
-| 2      	  | 2022-11-01 	   |    Analyst   |			   Intern |
-| 2      	  | 2024-11-20     |Data Analyst  |			  Analyst |
+| 1           | 2020-01-01     | Junior Dev   |              NULL |
+| 1           | 2021-06-01     |    Mid Dev   |        Junior Dev |
+| 1           | 2024-03-01     | Senior Dev   |           Mid Dev |
+| 2           | 2019-05-01     |     Intern   |              NULL |
+| 2           | 2022-11-01     |    Analyst   |            Intern |
+| 2           | 2024-11-20     |Data Analyst  |           Analyst |
