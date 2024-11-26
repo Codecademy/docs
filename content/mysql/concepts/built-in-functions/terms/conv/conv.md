@@ -50,7 +50,6 @@ Assume we have a `numbers` table with a `binary_value` column containing numbers
 The following example demonstrates how to convert the binary values in the `binary_value` column to their decimal equivalents:
 
 ```sql
-Copy code
 SELECT binary_value, CONV(binary_value, 2, 10) AS decimal_value
 FROM numbers;
 ```
