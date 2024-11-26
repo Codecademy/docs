@@ -32,7 +32,7 @@ CONV(number, from_base, to_base)
 - `from_base`: The base of the number to be converted.
 - `to_base`: The base to which the number should be converted.
 
-> **Note**: The `from_base` and `to_base` parameters define the numeric bases for the conversion and must range between _2_ and _36_. The function operates on _positive integers_ and returns the result as a string.
+> **Note**: The `from_base` and `to_base` parameters define the numeric bases for the conversion and must be between _2_ and _36_. The function operates on _positive integers_ and returns the result as a string.
 
 ## Example
 
