@@ -44,7 +44,7 @@ squares = [x ** 2 for x in range(5)]
 print(squares)
 ```
 
-The output will be as follows -
+The output will be as follows :
 
 ```shell
 [0, 1, 4, 9, 16]
