@@ -71,7 +71,7 @@ Here, the if `x % 2 == 0` condition filters out odd numbers, and only the square
 
 ### Example 3: List Comprehension with Multiple Loops
 
-Multiple `for` loops can also be used in a list comprehension. The below example creates a list of pairs (tuples) from two lists -
+Multiple `for` loops can also be used in a list comprehension. The below example creates a list of pairs (tuples) from two lists :
 
 ```py
 pairs = [(x, y) for x in range(3) for y in range(3)]
