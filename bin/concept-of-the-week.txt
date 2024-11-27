@@ -1,1 +1,1 @@
-content/ruby/concepts/variables/variables.md
+content/matplotlib/concepts/pyplot/pyplot.md
