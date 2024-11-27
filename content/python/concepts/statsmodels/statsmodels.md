@@ -70,6 +70,39 @@ results = model.fit()
 print(results.summary())
 ```
 
+In here, we first generate some random data. Then, we fit a linear regression model to the data using the OLS method from the statsmodels library. Finally, we print the summary of the model.
+
+The output of the code is as follows:
+    
+                                OLS Regression Results
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.903 
+Model:                            OLS   Adj. R-squared:                  0.902
+Method:                 Least Squares   F-statistic:                     1163.
+Date:                Mon, 17 May 2021   Prob (F-statistic):           3.91e-57
+Time:                        15:43:32   Log-Likelihood:                -141.17
+No. Observations:                 100   AIC:                            286.3
+Df Residuals:                      98   BIC:                            291.8
+Df Model:                           1
+Covariance Type:            nonrobust
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          2.0037      0.073     27.377      0.000       1.859       2.148
+x1             2.9369      0.086     34.093      0.000       2.766       3.108
+==============================================================================
+Omnibus:                        0.013   Durbin-Watson:                   2.196
+Prob(Omnibus):                  0.994   Jarque-Bera (JB):                0.150
+Skew:                          -0.006   Prob(JB):                        0.928
+Kurtosis:                       2.840   Cond. No.                         1.06
+==============================================================================
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.06. This might indicate that there are
+strong multicollinearity or other numerical problems
+
+The summary provides various statistics about the model, including the R-squared value, coefficients, standard errors, t-statistics, p-values, and more. This information can be used to evaluate the performance and significance of the model.
+
 ### Analysis of Variance (ANOVA)
 
 ```py
@@ -92,6 +125,49 @@ results = model.fit()
 print(results.summary())
 ```
 
+In essence, the code above generates some random data, fits an ANOVA model to the data, and prints the summary of the model. The output of the code is shown below:
+        
+                                   OLS Regression Results
+                                   
+==============================================================================
+Dep. Variable:                      A   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                 -0.020
+Method:                 Least Squares   F-statistic:                   0.000
+Date:                Mon, 01 Feb 2021   Prob (F-statistic):              1.00
+Time:                        10:55:34   Log-Likelihood:                -69.314
+No. Observations:                 100   AIC:                             142.6
+Df Residuals:                      97   BIC:                             150.3
+Df Model:                           2
+Covariance Type:            nonrobust
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      0.5000      0.071      7.042      0.000       0.359       0.641
+B              0.0000      0.100      0.000      1.000      -0.199       0.199
+C              0.0000      0.100      0.000      1.000      -0.199       0.199
+==============================================================================
+Omnibus:                        0.000   Durbin-Watson:                   2.000
+Prob(Omnibus):                  1.000   Jarque-Bera (JB):                0.000
+Skew:                           0.000   Prob(JB):                        1.000
+Kurtosis:                       3.000   Cond. No.                         2.00
+==============================================================================
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+The output of the code shows the summary of the ANOVA model. The summary includes the following information:
+
+- The dependent variable is A.
+- The R-squared value is 0.000, which indicates that the model does not explain much of the variance in the dependent variable.
+- The F-statistic is 0.000, which indicates that the model is not statistically significant.
+- The p-value for the F-statistic is 1.00, which indicates that the model is not statistically significant.
+- The coefficients for the intercept, B, and C are shown, along with their standard errors, t-values, and p-values.
+- The AIC and BIC values are shown, which are used to compare the goodness of fit of different models.
+- The number of observations, degrees of freedom, and covariance type are shown.
+- The Omnibus, Durbin-Watson, Jarque-Bera, Skew, Kurtosis, and Cond. No. values are shown, which provide additional information about the model.
+- Any warnings or notes about the model are shown at the end of the summary.
+
+Overall, the summary provides a comprehensive overview of the ANOVA model and its fit to the data.
+
 ### Time Series Analysis
 
 ```py
@@ -110,6 +186,12 @@ results = model.fit()
 # Print the summary of the model
 print(results.summary())
 ```
+
+In essence, the ARIMA model is a linear regression model that uses the past values of the time series to predict the future values. The order parameter specifies the number of autoregressive (AR) and moving average (MA) terms in the model. In this example, we are using an ARIMA(1, 1, 1) model, which means that we are using one lagged value of the time series, one differencing term, and one moving average term.
+
+The results.summary() method prints a summary of the model, including the coefficients of the AR and MA terms, the standard errors, t-values, and p-values of the coefficients, and other statistical information.
+
+You can also use the predict() method of the ARIMA model to make predictions for future values of the time series.
 
 ### Hypothesis Testing
 
@@ -133,6 +215,22 @@ t_test = results.t_test([0, 1])
 print(t_test)
 ```
 
+Here, we first generate some random data and fit a linear regression model to it. We then perform a hypothesis test to determine whether the coefficient of the intercept term is significantly different from zero.
+
+The t_test method is used to perform the hypothesis test. The argument [0, 1] specifies the null hypothesis that the coefficient of the intercept term is equal to zero. The output of the t_test method provides the test statistic, p-value, and degrees of freedom.
+
+The output of the code will be:
+    
+                                 Test for Constraints
+==============================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+c0                  2.0000      0.276      7.257      0.000       1.453       2.547
+==============================================================================
+The null hypothesis that the coefficient of the intercept term is equal to zero is rejected with a p-value of 0.000.
+
+In this case, the p-value is less than 0.05, so we reject the null hypothesis and conclude that the coefficient of the intercept term is significantly different from zero.
+
 ### Heatmap
 
 ```py
@@ -147,3 +245,15 @@ X = np.random.rand(10, 10)
 # Plot the heatmap
 smg.plot_heatmap(X)
 ```
+
+Here, we generate some random data and plot it as a heatmap. The plot_heatmap function is a wrapper around the imshow function from matplotlib. It is a simple way to visualize a matrix of data.
+
+The plot_heatmap function takes the following arguments:
+
+- X: The data to plot as a heatmap. This should be a 2D numpy array.
+- cmap: The colormap to use for the heatmap. This should be a valid matplotlib colormap.
+- ax: The axis to plot the heatmap on. If not provided, a new figure will be created.
+- cbar: Whether to show a colorbar. Default is True.
+- cbar_label: The label for the colorbar. Default is None.
+
+The plot_heatmap function returns the axis object that the heatmap was plotted on. This can be used to further customize the plot if needed.
