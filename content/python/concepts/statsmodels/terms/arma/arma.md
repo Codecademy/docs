@@ -10,8 +10,10 @@ Tags:
   - 'Models'
   - 'Data'
 CatalogContent:
-  - 'machine-learning'
+  - 'learn-python-3'
+  - 'paths/computer-science'
   - 'paths/data-science'
+  - 'paths/data-science-foundations'
 ---
 
 **The Autoregressive Moving Average (ARMA)** is a class of statistical models used for analyzing and forecasting time series data. It combines two components:
@@ -29,7 +31,7 @@ pip install statsmodels pandas
 ## Syntax
 
 ### ARIMA Model
-To impliment ARMA in python ARIMA (Autoregressive integrated moving average) model will be used 
+To implement ARMA in python ARIMA (Autoregressive integrated moving average) model will be used.
 ```python
 model = ARIMA(endog, order=(p, d, q))
 ```
@@ -72,7 +74,7 @@ plt.plot(future_dates, forecast, label="Forecast", color="red")
 | ```plt.plot()```	| Plots the time series data and forecast for visualization.| 
 
 ## Example
-In this example static data will be generated randomly and forecasted using ARMA model:
+In this example, static data will be generated randomly and forecasted using ARMA model:
 ```python
 import pandas as pd
 import numpy as np
