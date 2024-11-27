@@ -1,1 +1,1 @@
-content/rust/concepts/conditionals/conditionals.md
+content/matplotlib/concepts/pyplot/pyplot.md
