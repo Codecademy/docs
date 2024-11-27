@@ -70,10 +70,11 @@ results = model.fit()
 print(results.summary())
 ```
 
-In here, we first generate some random data. Then, we fit a linear regression model to the data using the OLS method from the statsmodels library. Finally, we print the summary of the model.
+In here, we first generate some random data. Then, we fit a linear regression model to the data using the `.OLS()` method from the `statsmodels` library. Finally, we print the summary of the model.
 
 The output of the code is as follows:
-    
+
+```shell
                                 OLS Regression Results
 ==============================================================================
 Dep. Variable:                      y   R-squared:                       0.903 
@@ -100,6 +101,7 @@ Warnings:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
 [2] The condition number is large, 1.06. This might indicate that there are
 strong multicollinearity or other numerical problems
+```
 
 The summary provides various statistics about the model, including the R-squared value, coefficients, standard errors, t-statistics, p-values, and more. This information can be used to evaluate the performance and significance of the model.
 
@@ -126,7 +128,8 @@ print(results.summary())
 ```
 
 In essence, the code above generates some random data, fits an ANOVA model to the data, and prints the summary of the model. The output of the code is shown below:
-        
+
+```shell
                                    OLS Regression Results
                                    
 ==============================================================================
@@ -153,6 +156,7 @@ Kurtosis:                       3.000   Cond. No.                         2.00
 ==============================================================================
 Warnings:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+```
 
 The output of the code shows the summary of the ANOVA model. The summary includes the following information:
 
@@ -166,7 +170,7 @@ The output of the code shows the summary of the ANOVA model. The summary include
 - The Omnibus, Durbin-Watson, Jarque-Bera, Skew, Kurtosis, and Cond. No. values are shown, which provide additional information about the model.
 - Any warnings or notes about the model are shown at the end of the summary.
 
-Overall, the summary provides a comprehensive overview of the ANOVA model and its fit to the data.
+Overall, the summary provides a comprehensive overview of the `ANOVA` model and its fit to the data.
 
 ### Time Series Analysis
 
@@ -187,11 +191,11 @@ results = model.fit()
 print(results.summary())
 ```
 
-In essence, the ARIMA model is a linear regression model that uses the past values of the time series to predict the future values. The order parameter specifies the number of autoregressive (AR) and moving average (MA) terms in the model. In this example, we are using an ARIMA(1, 1, 1) model, which means that we are using one lagged value of the time series, one differencing term, and one moving average term.
+In essence, the `ARIMA` model is a linear regression model that uses the past values of the time series to predict the future values. The order parameter specifies the number of autoregressive (AR) and moving average (MA) terms in the model. In this example, we are using an `ARIMA(1, 1, 1)` model, which means that we are using one lagged value of the time series, one differencing term, and one moving average term.
 
-The results.summary() method prints a summary of the model, including the coefficients of the AR and MA terms, the standard errors, t-values, and p-values of the coefficients, and other statistical information.
+The `results.summary()` method prints a summary of the model, including the coefficients of the AR and MA terms, the standard errors, t-values, and p-values of the coefficients, and other statistical information.
 
-You can also use the predict() method of the ARIMA model to make predictions for future values of the time series.
+You can also use the `.predict()` method of the `ARIMA` model to make predictions for future values of the time series.
 
 ### Hypothesis Testing
 
@@ -217,10 +221,11 @@ print(t_test)
 
 Here, we first generate some random data and fit a linear regression model to it. We then perform a hypothesis test to determine whether the coefficient of the intercept term is significantly different from zero.
 
-The t_test method is used to perform the hypothesis test. The argument [0, 1] specifies the null hypothesis that the coefficient of the intercept term is equal to zero. The output of the t_test method provides the test statistic, p-value, and degrees of freedom.
+The `t_test` method is used to perform the hypothesis test. The argument `[0, 1]` specifies the null hypothesis that the coefficient of the intercept term is equal to zero. The output of the `t_test` method provides the test statistic, p-value, and degrees of freedom.
 
 The output of the code will be:
-    
+
+```shell
                                  Test for Constraints
 ==============================================================================
                     coef    std err          t      P>|t|      [0.025      0.975]
@@ -228,6 +233,7 @@ The output of the code will be:
 c0                  2.0000      0.276      7.257      0.000       1.453       2.547
 ==============================================================================
 The null hypothesis that the coefficient of the intercept term is equal to zero is rejected with a p-value of 0.000.
+```
 
 In this case, the p-value is less than 0.05, so we reject the null hypothesis and conclude that the coefficient of the intercept term is significantly different from zero.
 
@@ -246,14 +252,14 @@ X = np.random.rand(10, 10)
 smg.plot_heatmap(X)
 ```
 
-Here, we generate some random data and plot it as a heatmap. The plot_heatmap function is a wrapper around the imshow function from matplotlib. It is a simple way to visualize a matrix of data.
+Here, we generate some random data and plot it as a heatmap. The `.plot_heatmap()` function is a wrapper around the `imshow` function from matplotlib. It is a simple way to visualize a matrix of data.
 
-The plot_heatmap function takes the following arguments:
+The `.plot_heatmap()` function takes the following arguments:
 
-- X: The data to plot as a heatmap. This should be a 2D numpy array.
-- cmap: The colormap to use for the heatmap. This should be a valid matplotlib colormap.
-- ax: The axis to plot the heatmap on. If not provided, a new figure will be created.
-- cbar: Whether to show a colorbar. Default is True.
-- cbar_label: The label for the colorbar. Default is None.
+- `X`: The data to plot as a heatmap. This should be a 2D numpy array.
+- `cmap`: The colormap to use for the heatmap. This should be a valid matplotlib colormap.
+- `ax`: The axis to plot the heatmap on. If not provided, a new figure will be created.
+- `cbar`: Whether to show a colorbar. Default is True.
+- `cbar_label`: The label for the colorbar. Default is None.
 
-The plot_heatmap function returns the axis object that the heatmap was plotted on. This can be used to further customize the plot if needed.
+The `.plot_heatmap()` function returns the axis object that the heatmap was plotted on. This can be used to further customize the plot if needed.
