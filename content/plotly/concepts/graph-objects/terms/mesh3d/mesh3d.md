@@ -77,7 +77,7 @@ The `alphahull` parameter can be used to control the mesh generation process wit
 
 This example results in the following output:
 
-![The output will be a 3D triangular pyramid (tetrahedron) visualized using Plotly.]("https://raw.githubusercontent.com/Codecademy/docs/main/media/mesh3d-example-results.png")
+![The output will be a 3D triangular pyramid (tetrahedron) visualized using Plotly.](https://raw.githubusercontent.com/Codecademy/docs/main/media/mesh3d-example-results.png)
 
 ## Example 2
 
@@ -106,4 +106,4 @@ fig.show()
 
 This example results in the following output:
 
-![The output will be a 3D sphere.]("https://raw.githubusercontent.com/Codecademy/docs/main/media/mesh3d-dataset-sphere.png")
+![The output will be a 3D sphere.](https://raw.githubusercontent.com/Codecademy/docs/main/media/mesh3d-dataset-sphere.png)
