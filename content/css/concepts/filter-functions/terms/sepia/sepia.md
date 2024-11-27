@@ -41,8 +41,8 @@ Set sepia to `100%`:
 
 This is the original image:
 
-![This is the Codecademy Logo](https://raw.githubusercontent.com/Codecademy/docs/main/media/sepia-original.png)
+![This is the Codecademy Logo](https://raw.githubusercontent.com/Codecademy/docs/main/media/sepia-example-original.jpg)
 
 This is the original image with the sepia filter applied:
 
-![Sepia-filtered Codecademy Logo](https://raw.githubusercontent.com/Codecademy/docs/main/media/sepia-filtered.png)
+![Sepia-filtered Codecademy Logo](https://raw.githubusercontent.com/Codecademy/docs/main/media/sepia-example-filtered.jpg)
