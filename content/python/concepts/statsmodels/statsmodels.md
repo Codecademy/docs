@@ -1,23 +1,20 @@
 ---
 Title: 'Statsmodels'
-Description: 'The statsmodels library is used to estimate statistical models and perform statistical tests in Python.' 
+Description: 'The statsmodels library is used to estimate statistical models and perform statistical tests in Python.'
 Subjects:
   - 'Data Science'
   - 'Data Visualization'
-  - 'Computer Science'
 Tags:
   - 'Python'
   - 'Statistics'
   - 'Data'
   - 'Models'
-  - 'Datasets'
-  - 'Machine Learning'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
 ---
 
-In Python, the `statsmodels` library is used to estimate the statistical models and perform statistical tests. It is built on top of `numpy`, `scipy`, and `pandas`. 
+In Python, the **`statsmodels`** library is used to estimate the statistical models and perform statistical tests. It is built on top of `numpy`, `scipy`, and `pandas`.
 
 It is widely used in econometrics and other fields such as finance, marketing, and social sciences.
 
@@ -25,30 +22,23 @@ It supports various models, including linear regression, generalized linear mode
 
 ## Key Features
 
-- **Estimation of statistical models**: Provides classes and functions for estimating many different statistical models, such as linear regression, generalized linear models, time series analysis, and more.
-
-- **Statistical tests**: Provides functions for conducting statistical tests, such as hypothesis tests.
-- **Data exploration**: Provides functions for exploring and analyzing data, such as summary statistics, correlation analysis, and more.
-
-- **Visualization**: Provides functions for visualizing data, such as scatter plots, histograms, and more.
-
-- **Integration with other libraries**: Built on top of `numpy`, `scipy`, and `pandas`, it integrates well with other libraries in the Python ecosystem.
+- _Estimation of Statistical Models_: Provides classes and functions for estimating many different statistical models, such as linear regression, generalized linear models, time series analysis, and more.
+- _Statistical Tests_: Provides functions for conducting statistical tests, such as hypothesis tests.
+- _Data Exploration_: Provides functions for exploring and analyzing data, such as summary statistics, correlation analysis, and more.
+- _Visualization_: Provides functions for visualizing data, such as scatter plots, histograms, and more.
+- _Integration with Other Libraries_: Built on top of `numpy`, `scipy`, and `pandas`, it integrates well with other libraries in the Python ecosystem.
 
 ## Installation
 
-The `statsmodels` library can be installed using pip by running the following command:
+The `statsmodels` library can be installed using `pip` by running the following command:
 
 ```shell
 pip install statsmodels
 ```
 
-## Usage
-
-To use the `statsmodels` library in Python code, import the necessary modules and classes.
-
 ## Examples
 
-Here are some examples of how to use the `statsmodels` library to estimate statistical models, perform statistical tests, and explore data.
+Here are some examples on how to use the `statsmodels` library to estimate statistical models, perform statistical tests, and explore data.
 
 ### Linear Regression
 
@@ -70,14 +60,12 @@ results = model.fit()
 print(results.summary())
 ```
 
-In here, we first generate some random data. Then, we fit a linear regression model to the data using the `.OLS()` method from the `statsmodels` library. Finally, we print the summary of the model.
-
-The output of the code is as follows:
+The output of the above code is as follows:
 
 ```shell
                                 OLS Regression Results
 ==============================================================================
-Dep. Variable:                      y   R-squared:                       0.903 
+Dep. Variable:                      y   R-squared:                       0.903
 Model:                            OLS   Adj. R-squared:                  0.902
 Method:                 Least Squares   F-statistic:                     1163.
 Date:                Mon, 17 May 2021   Prob (F-statistic):           3.91e-57
@@ -127,11 +115,11 @@ results = model.fit()
 print(results.summary())
 ```
 
-In essence, the code above generates some random data, fits an ANOVA model to the data, and prints the summary of the model. The output of the code is shown below:
+The output of the above code is shown below:
 
 ```shell
                                    OLS Regression Results
-                                   
+
 ==============================================================================
 Dep. Variable:                      A   R-squared:                       0.000
 Model:                            OLS   Adj. R-squared:                 -0.020
@@ -158,19 +146,19 @@ Warnings:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
 ```
 
-The output of the code shows the summary of the ANOVA model. The summary includes the following information:
+The above output shows the summary of the ANOVA model. The summary includes the following information:
 
-- The dependent variable is A.
-- The R-squared value is 0.000, which indicates that the model does not explain much of the variance in the dependent variable.
-- The F-statistic is 0.000, which indicates that the model is not statistically significant.
-- The p-value for the F-statistic is 1.00, which indicates that the model is not statistically significant.
+- The dependent variable is `A`.
+- The R-squared value is `0.000`, which indicates that the model does not explain much of the variance in the dependent variable.
+- The F-statistic is `0.000`, which indicates that the model is not statistically significant.
+- The p-value for the F-statistic is `1.00`, which indicates that the model is not statistically significant.
 - The coefficients for the intercept, B, and C are shown, along with their standard errors, t-values, and p-values.
 - The AIC and BIC values are shown, which are used to compare the goodness of fit of different models.
 - The number of observations, degrees of freedom, and covariance type are shown.
 - The Omnibus, Durbin-Watson, Jarque-Bera, Skew, Kurtosis, and Cond. No. values are shown, which provide additional information about the model.
 - Any warnings or notes about the model are shown at the end of the summary.
 
-Overall, the summary provides a comprehensive overview of the `ANOVA` model and its fit to the data.
+Overall, the summary provides a comprehensive overview of the ANOVA model and its fit to the data.
 
 ### Time Series Analysis
 
@@ -191,11 +179,11 @@ results = model.fit()
 print(results.summary())
 ```
 
-In essence, the `ARIMA` model is a linear regression model that uses the past values of the time series to predict the future values. The order parameter specifies the number of autoregressive (AR) and moving average (MA) terms in the model. In this example, we are using an `ARIMA(1, 1, 1)` model, which means that we are using one lagged value of the time series, one differencing term, and one moving average term.
+In essence, the ARIMA model is a linear regression model that uses the past values of the time series to predict the future values. The `order` parameter specifies the number of autoregressive (AR) and moving average (MA) terms in the model. In this example, an `ARIMA(1, 1, 1)` model is used, which means that one lagged value of the time series, one differencing term, and one moving average term is used.
 
 The `results.summary()` method prints a summary of the model, including the coefficients of the AR and MA terms, the standard errors, t-values, and p-values of the coefficients, and other statistical information.
 
-You can also use the `.predict()` method of the `ARIMA` model to make predictions for future values of the time series.
+The `.predict()` method of the ARIMA model can also be used to make predictions for future values of the time series.
 
 ### Hypothesis Testing
 
@@ -219,11 +207,11 @@ t_test = results.t_test([0, 1])
 print(t_test)
 ```
 
-Here, we first generate some random data and fit a linear regression model to it. We then perform a hypothesis test to determine whether the coefficient of the intercept term is significantly different from zero.
+Here, some random data is first generated and a linear regression model is fit to it. Then, a hypothesis test is performed to determine whether the coefficient of the intercept term is significantly different from zero.
 
 The `t_test` method is used to perform the hypothesis test. The argument `[0, 1]` specifies the null hypothesis that the coefficient of the intercept term is equal to zero. The output of the `t_test` method provides the test statistic, p-value, and degrees of freedom.
 
-The output of the code will be:
+The output of the above code will be:
 
 ```shell
                                  Test for Constraints
@@ -235,7 +223,7 @@ c0                  2.0000      0.276      7.257      0.000       1.453       2.
 The null hypothesis that the coefficient of the intercept term is equal to zero is rejected with a p-value of 0.000.
 ```
 
-In this case, the p-value is less than 0.05, so we reject the null hypothesis and conclude that the coefficient of the intercept term is significantly different from zero.
+In this case, the p-value is less than `0.05`, so the null hypothesis is rejected and it is concluded that the coefficient of the intercept term is significantly different from zero.
 
 ### Heatmap
 
@@ -252,14 +240,14 @@ X = np.random.rand(10, 10)
 smg.plot_heatmap(X)
 ```
 
-Here, we generate some random data and plot it as a heatmap. The `.plot_heatmap()` function is a wrapper around the `imshow` function from matplotlib. It is a simple way to visualize a matrix of data.
+Here, some random data is first generated and then plotted as a heatmap. The `.plot_heatmap()` function is a wrapper around the `imshow` function from Matplotlib. It is a simple way to visualize a matrix of data.
 
 The `.plot_heatmap()` function takes the following arguments:
 
-- `X`: The data to plot as a heatmap. This should be a 2D numpy array.
-- `cmap`: The colormap to use for the heatmap. This should be a valid matplotlib colormap.
+- `X`: The data to plot as a heatmap. This should be a 2D Numpy array.
+- `cmap`: The colormap to use for the heatmap. This should be a valid Matplotlib colormap.
 - `ax`: The axis to plot the heatmap on. If not provided, a new figure will be created.
 - `cbar`: Whether to show a colorbar. Default is True.
 - `cbar_label`: The label for the colorbar. Default is None.
 
-The `.plot_heatmap()` function returns the axis object that the heatmap was plotted on. This can be used to further customize the plot if needed.
+The `.plot_heatmap()` function returns the axis object that the heatmap was plotted on. This can be used to further customize the plot, if needed.
