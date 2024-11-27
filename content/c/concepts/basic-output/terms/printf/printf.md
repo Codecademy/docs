@@ -49,10 +49,11 @@ As seen above, the string given contains a `%` character followed by a letter to
 | Format Specifier(s) | Type(s)         |
 | ------------------- | --------------- |
 | `%c`                | char            |
-| `%f` or `%g`        | float or double |
-| `%d` or `%i`        | int             |
-| `%p`                | pointer         |
 | `%s`                | string          |
+| `%d` or `%i`        | int             |
+| `%f` or `%g`        | float           |
+| `%lf`               | double          |
+| `%p`                | pointer         |
 
 ## Decimal Precision
 
