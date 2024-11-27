@@ -13,8 +13,6 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/data-science'
-  - 'paths/data-science-foundations'
 ---
 
 In NumPy, the **`.trunc()`** function truncates the decimal part of each element in an array, returning the integer part as a float. It is used to discard the fractional part without rounding the number.
@@ -53,7 +51,7 @@ The above example also shows that `.trunc()` does not round but it simply remove
 
 ## Example 2
 
-We can selectively apply truncation using the `where` parameter, which allows truncation only for elements that meet a specified condition while leaving other elements unchanged.
+The example below demonstrates how to selectively apply truncation using the `where` parameter, allowing truncation only for elements meeting a specified condition while leaving others unchanged:
 
 ```py
 import numpy as np
@@ -67,7 +65,6 @@ result = np.where(numbers > 0, np.trunc(numbers), numbers)
 # Print the original and modified arrays
 print("Original Numbers:", numbers)
 print("Conditionally Truncated Numbers:", result)
-
 ```
 
 The output will be as follows:
@@ -81,7 +78,7 @@ Here, truncation is only applied to elements where the value is greater than `0`
 
 ## Codebyte Example
 
-The example below demonstrates how to truncate the decimal part of product prices:
+Run the following codebyte example to understand how the `.trunc()` works:
 
 ```codebyte/python
 import numpy as np
