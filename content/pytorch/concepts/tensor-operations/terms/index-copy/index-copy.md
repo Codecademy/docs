@@ -1,20 +1,20 @@
 ---
-Title: 'index_copy_()'
+Title: '.index_copy_()'
 Description: 'Copies values in-place into specified indices of a given tensor along the specified dimension.'
 Subjects:
   - 'Computer Science'
   - 'Machine Learning'
 Tags:
-  - 'Python'
+  - 'Functions'
   - 'Machine Learning'
   - 'Methods'
-  - 'Functions'
+  - 'Python'
 CatalogContent:
   - 'intro-to-py-torch-and-neural-networks'
   - 'paths/computer-science'
 ---
 
-The **`index_copy_()`** method in PyTorch is an in-place operation that copies values from a source tensor into the specified indices of an input tensor along the given dimension, modifying the input tensor directly.
+The **`.index_copy_()`** method in PyTorch is an in-place operation that copies values from a source tensor into the specified indices of an input tensor along the given dimension, modifying the input tensor directly.
 
 ## Syntax
 
@@ -25,11 +25,11 @@ input_tensor.index_copy_(dim, index, source_tensor)
 - `input_tensor`: The tensor to copy values into.
 - `dim`: The dimension along which to copy values.
 - `index`: A 1D tensor specifying the indices to copy the values to.
-- `source_tensor`: The tensor containing the values to be copied. Its size must match the size of `input_tensor` along the specified dimension.
+- `source_tensor`: The tensor containing the values to be copied. Its size along the specified dimension must match the size of the `index` tensor.
 
 ## Example
 
-The following example illustrates the usage of `index_copy_()` method:
+The following example illustrates the usage of `.index_copy_()` method:
 
 ```py
 import torch
