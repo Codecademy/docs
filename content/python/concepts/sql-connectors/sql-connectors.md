@@ -58,8 +58,8 @@ Once connected, use a cursor object to execute SQL queries. The cursor facilitat
 
 **Query Execution:**
 
-- Use `cursor.execute()` to run queries.
-- Use `cursor.fetchall()` to fetch data for SELECT queries.
+- Use `cursor.execute()` to execute SQL queries.
+- Use `cursor.fetchall()` to fetch all rows from a `SELECT` query.
 
 ```codebyte/python
 cursor = connection.cursor()
