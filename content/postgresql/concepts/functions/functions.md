@@ -66,7 +66,7 @@ $$ LANGUAGE plpgsql;
 ```
 Here the `average_salary` variable is used to store the result of the AVG(salary) calculation, where the function will return the average salary.
 
-To call the avg_salary() function and get the average salary, we can use the `SELECT` statement as follows:
+To call the `avg_salary()` function and get the average salary, use the `SELECT` statement as follows:
 
 ```sql
 SELECT avg_salary();
