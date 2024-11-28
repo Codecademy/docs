@@ -72,7 +72,7 @@ To call the `avg_salary()` function and get the average salary, use the `SELECT`
 SELECT avg_salary();
 ```
 
-Thie above code will call the `avg_salary( )` function and return the calculated average salary of all the emplyees in the `employee` table.
+The above code will call the `avg_salary()` function and return all the employees calculated average salaries in the `employee` table.
 
 ```shell
 | average_salary |
