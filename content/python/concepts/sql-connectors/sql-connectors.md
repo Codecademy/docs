@@ -20,12 +20,12 @@ CatalogContent:
 To use a SQL connector, you first need to set up your development environment. This includes installing the appropriate connector library for your database and ensuring that your database server is accessible. 
 1. Install the Connector:
 - For MySQL: Use ```pip install mysql-connector-python```.
-- For PostgreSQL: Use ```pip install psycopg2```
+- For PostgreSQL: Use ```pip install psycopg2```.
 - For SQLite: No installation is needed; it is built into Python's standard library.
 
 2. Set Up the Database
-- Make sure the database server is running and accessible. 
-- Create or access an exisiting database. 
+- Ensure the database server is running and accessible. 
+- Create or access an existing database. 
 
 3. Import the Connector Library
 Use the appropriate Python module to work with the database, such as ```mysql.connector``` for MySQL or ```sqlite3``` for SQLite. 
