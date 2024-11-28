@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-**`Functions`** in PostgreSQL are reusable sets of SQL and procedural commands stored on the database server. They are also referred to as Stored Procedures. They enable us to perform complex operations within the database within a single function that usually requires several commands and round trips.
+**`Functions`** in PostgreSQL are reusable sets of SQL and procedural commands stored on the database server. They are also referred to as *Stored Procedures*. They enable complex operations to be performed in a single function, reducing the need for multiple commands and database roundtrips
 
 PostgreSQL supports functions in various languages, such as SQL, PL/pgSQL, C, Python, and more.
 
