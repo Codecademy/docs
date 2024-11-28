@@ -26,9 +26,9 @@ The syntax for applying dropout in PyTorch is:
 torch.nn.Dropout(p=0.5)
 ```
 
- - `p`: The probability of dropping of a unit (default is `0.5`, meaning 50% dropout).
-    - A higher value increases regularization but may reduce model capacity.
- - Returns a module that applies dropout to the input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors).
+- `p`: The probability of dropping of a unit (default is `0.5`, meaning 50% dropout).
+  - A higher value increases regularization but may reduce model capacity.
+- Returns a module that applies dropout to the input [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors).
 
 ## Example
 
