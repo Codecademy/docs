@@ -17,7 +17,7 @@ CatalogContent:
 **SQL Connectors** are libraries that enable Python applications to connect to and interact with SQL databases. They serve as a bridge, allowing Python code to execute SQL commands for tasks like performing insert, delete, update, and read operations on a SQL Server database. By using SQL connectors, developers can dynamically interact with databases while maintaining the original database structure.
 
 ## Setting Up a SQL Connector 
-To use a SQL connector, you first need to set up your development environment. This includes installing the appropriate connector library for you database and making sure that youre database server is accessible. 
+To use a SQL connector, you first need to set up your development environment. This includes installing the appropriate connector library for your database and ensuring that your database server is accessible. 
 1. Install the Connector:
 - For MySQL: Use ```pip install mysql-connector-python```.
 - For PostgreSQL: Use ```pip install psycopg2```
