@@ -32,12 +32,12 @@ $$ LANGUAGE lang_name;
 ```
 
 - `function_name`: Refers to the name of the function.
-- `[OR REPLACE]`: This option allows you to update an existing function, with the same name. If the function doesn't exist, PostgreSQL will create a new one.
+- `[OR REPLACE]`: It allows you to update an existing function with the same name. If the function does not exist, PostgreSQL will create a new one.
 - `parameters`: These are the input parameters that the function accepts. 
 - `RETURNS return_type`: Specifies the type of value that the function will return.
 - `AS`: It is used to introduce the function body. 
-- `function_body`: It contains the logic of the function that will be executed when the function is called.
-- `LANGUAGE lang_name` : Defines the name of the language in which the function is written.
+- `function_body`: This field contains the function's logic that will be executed when called.
+- `LANGUAGE lang_name`: Defines the name of the language in which the function is written.
 
 ## Example
 
