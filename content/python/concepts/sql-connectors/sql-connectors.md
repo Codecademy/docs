@@ -38,10 +38,6 @@ The next step is to connect your database. Connections are established using the
 - Use the ```connect()``` method to establish a connection.
 - Handle connection errors with try-except blocks. 
 
-**General Workflow:**
-- Import the connector library.
-- Use the `connect()` method to establish a connection.
-- Handle connection errors with try-except blocks.
 
 ```codebyte/python
 import mysql.connector
