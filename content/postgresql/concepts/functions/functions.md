@@ -48,6 +48,7 @@ Suppose we have a table `employees` containing employees names and salaries, wit
 | Sarah    | 50000  |
 | Bailey   | 60000  |
 | Valeria  | 70000  |
+
 We want to create a function that calculates the average salary of all employees in the table. The function `avg_salary()` can be defined as follows:
 
 ```sql
