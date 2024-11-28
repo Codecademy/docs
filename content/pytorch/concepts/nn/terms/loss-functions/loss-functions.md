@@ -1,22 +1,26 @@
 ---
 Title: 'Loss Functions'
-Description: 'Represents a multi-dimensional array used for data storage and computation in PyTorch.'
+Description: 'Represents critical functions used to optimize neural network predictions in PyTorch'
 Subjects:
   - 'Machine Learning'
-  - 'Python'
+  - 'Data Science'
 Tags:
   - 'PyTorch'
-  - 'Tensors'
   - 'Deep Learning'
   - 'Data Structures'
 CatalogContent:
-  - 'learn-python-3'
+  - 'intro-to-py-torch-and-neural-networks'
+  - 'py-torch-for-classification'
   - 'paths/machine-learning'
 ---
 
-**`Loss Functions`**, also known as `cost functions`, are critical in [neural network](https://github.com/Codecademy/docs/blob/main/content/pytorch/concepts/nn/nn.md) training. They quanitfy how well the model's predictions align with the target values. By computing a scalar loss value, they enable optimization algorithms to adjust the model's weights to improve performance.
+**`Loss Functions`**, also known as **cost functions**, represent critical functions used to optimize [neural network](https://www.codecademy.com/resources/docs/pytorch/nn) predictions in PyTorch. 
 
-[PyTorch's](https://github.com/Codecademy/docs/blob/main/content/pytorch/pytorch.md) `nn` (neural network) module offers various built-in loss functions suitable for different tasks, such as regression and classification.
+They quanitfy how well the model's predictions align with the target values. 
+
+By computing a scalar loss value, they enable optimization algorithms to adjust the model's weights to improve performance.
+
+PyTorch's `nn` (neural network) module offers various built-in loss functions suitable for different tasks, such as regression and classification.
 
 ## Syntax
 
@@ -32,9 +36,13 @@ criterion = nn.LossFunctionName(*args, **kwargs)
 loss = criterion(predicted_outputs, target_values)
 ```
 
-- `LossFunctionName` = Replace with the specific loss function (e.g. `MSELoss` which is used for regression, `CrossEntropyLoss` which is used for classification).
-- `predicted_outputs` = The predicted outputs from your model.
-- `target_values` = The real data values.
+- Replace `LossFunctionName` with a specific function like `MSELoss` for regression or `CrossEntropyLoss` for classification.
+- Ensure that the shapes and types of `predicted_outputs` and `target_values` meet the loss function's requirements. For instance:
+  - For `nn.CrossEntropyLoss`, `predicted_outputs` should contain raw scores (logits), and `target_values` should hold class indices.
+  - For `nn.BCEWithLogitsLoss`, the function expects raw scores, applying the Sigmoid function internally.
+- Most loss functions include a `reduction` parameter (`mean`, `sum`, or `none`) that specifies how to aggregate the loss.
+
+These elements allow optimization algorithms to compute a scalar loss value, adjust model weights, and improve performance over iterations.
 
 ## Example 1
 
@@ -45,44 +53,44 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 
-# Hyperparameters.
+# Hyperparameters
 input_size = 10
 output_size = 1
 learning_rate = 0.01
 batch_size = 32
 
-# Sample data.
+# Sample data
 inputs = torch.randn(batch_size, input_size)
 targets = torch.randn(batch_size, output_size)
 
-# Define a simple linear regression model.
+# Define a simple linear regression model
 model = nn.Linear(input_size, output_size)
 
-# Define the loss function.
+# Define the loss function
 criterion = nn.MSELoss()
 
-# Define the optimizer.
+# Define the optimizer
 optimizer = optim.SGD(model.parameters(), lr=learning_rate)
 
-# Forward pass.
+# Forward pass
 outputs = model(inputs)
 
-# Compute Loss.
+# Compute Loss
 loss = criterion(outputs, targets)
 print('Initial Loss:', loss.item())
 
-# Backward pass and optimization.
+# Backward pass and optimization
 optimizer.zero_grad()
 loss.backward()
 optimizer.step()
 
-# Forward pass after optimization.
+# Forward pass after optimization
 outputs = model(inputs)
 loss = criterion(outputs, targets)
 print('Loss after one optimization step:', loss.item())
 ```
 
-Sample output for this example:
+The output for this example will be as follows:
 
 ```shell
 Initial Loss: 1.0875437259674072
@@ -140,7 +148,7 @@ loss = criterion(outputs, targets)
 print('Loss after one optimization step:', loss.item())
 ```
 
-Sample output for this example:
+The output for this example will be as follows:
 
 ```shell
 Initial Loss: 2.3014121055603027
@@ -197,7 +205,7 @@ loss = criterion(outputs, targets)
 print('Loss after one optimization step:', loss.item())
 ```
 
-Sample output for the example:
+The output for this example will be as follows:
 
 ```shell
 Initial Loss: 0.6937122344970703
@@ -206,25 +214,3 @@ Loss after one optimization step: 0.6932134628295898
 
 > **Note**: When running these examples, the exact numerical values of the losses will vary each time due to random initialization of model weights and input data. The important aspect is observing the trend of the loss decreasing after the optimization step, indicating that the model is learning.
 
-## Common Loss Functions in `torch.nn`
-
-Some commonly used loss functions provided by PyTorch:
-
-- `nn.MSELoss`: Mean Squared Error Loss. Suitable for regression tasks.
-- `nn.CrossEntropyLoss`: Combines `nn.LogSoftmax` and `nn.NLLLoss`. Used for multi-class classification.
-- `nn.NLLLoss`: Negative Log Likelihood Loss. Often used with `nn.LogSoftmax`.
-- `nn.BCELoss`: Binary Cross Entropy Loss. Used for binary classification tasks.
-- `nn.BCEWithLogitsLoss`: Combines a **Sigmoid** layer and the BCELoss. More numerically stable.
-- `nn.L1Loss`: Mean Absolute Error Loss.
-- `nn.SmoothL1Loss`: A combination of `nn.L1Loss` and `nn.MSELoss`. Less sensitive to outliers.
-- `nn.HingeEmbeddingLoss`: Used for measuring similarity between samples.
-
-_Sigmoid function_ is a mathematical function that has an "S" shaped curve (sigmoidal shape). It is widely used in machine learning, particularly in logistic regression and neural networks, as an activation function to introduce non-linearity into the model and to map any real-valued number into a value between 0 and 1.
-
-## Notes
-
-- Input Requirements: Ensure that the shapes and data types of `predicted_outputs` and `target_values` match the expectations of the loss function.
-  - For `nn.CrossEntropyLoss`, `predicted_outputs` should contain raw scores (logits), and `target_values` should contain class indices (not one-hot encoded).
-  - For `nn.BCEWithLogitsLoss`, `predicted_values` should be raw scores; the loss function applies the Sigmoid function internally.
-- Reduction Parameter: Most loss functions have a `reduction` parameter (`mean`, `sum`, or `none`) that specifies how the loss should be aggregated.
-- Class Imbalance: For datasets with class imbalance, consider using the `weight` parameter in the loss function to assign different weights to classes.
