@@ -28,7 +28,7 @@ numpy.nansum(a, axis=None, dtype=None, out=None, keepdims=False)
 - `out` (Optional): A location to store the result. If provided, the result will be stored in this array. It must have the same shape as the output.
 - `keepdims` (Optional): If set to `True`, the reduced axes are retained in the result as dimensions with size one. Otherwise, the axes are removed.
 
-## Example
+## Example 1
 
 The following example demonstrates the usage of the `.nansum()` function:
 
