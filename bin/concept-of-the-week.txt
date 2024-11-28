@@ -1,1 +1,1 @@
-content/sql/concepts/data-types/data-types.md
+content/matplotlib/concepts/pyplot/pyplot.md
