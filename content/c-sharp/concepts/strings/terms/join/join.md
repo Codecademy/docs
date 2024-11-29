@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.Join()`** method concatenates an array or a collection of strings into a single string, with a specified separator inserted between each element. 
+The **`.Join()`** method concatenates an array or a collection of strings into a single string, with a specified separator inserted between each element.
 
 This method is particularly useful for formatting lists, such as comma-separated values or readable sentences.
 
@@ -28,7 +28,7 @@ string.Join(string separator, IEnumerable<string> values)
 
 ## Example
 
-This example demonstrates how `.Join()` uses a comma and space (`, `) as the separator to create a formatted to-do list. 
+This example demonstrates how `.Join()` uses a comma and space (`, `) as the separator to create a formatted to-do list.
 
 ```cs
 using System;
