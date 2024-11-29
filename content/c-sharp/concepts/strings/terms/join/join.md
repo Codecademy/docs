@@ -15,7 +15,7 @@ CatalogContent:
 
 The **`.Join()`** method concatenates an array or a collection of strings into a single string, with a specified separator inserted between each element. 
 
-This is particularly useful for creating formatted strings from data collections, such as comma-separated lists.
+This method is particularly useful for formatting lists, such as comma-separated values or readable sentences.
 
 ## Syntax
 
