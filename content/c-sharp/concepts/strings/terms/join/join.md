@@ -55,7 +55,7 @@ Today's Codecademy study plan: Complete C# lesson, Review notes, Practice coding
 
 ## Codebyte Example
 
-The following example demonstrates how `.Join()` combines a collection of course names using an ampersand (&) to produce readable list.
+The following example demonstrates how `.Join()` combines a collection of course names using an ampersand (`&`) to produce a readable list.
 
 ```codebyte/csharp
 using System;
