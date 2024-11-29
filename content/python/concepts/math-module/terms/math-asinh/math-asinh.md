@@ -1,20 +1,20 @@
 ---
 Title: 'math.asinh()'
-Description: 'Prints the inverse hyperbolic sine of a given number.'
+Description: 'Returns the inverse hyperbolic sine of a given number.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
   - 'Math'
   - 'Methods'
-  - 'Values'
   - 'Numbers'
+  - 'Values'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-In Python, the **`math.asinh()`** method prints the inverse hyperbolic sine of a given number. If the input is not a number, the method returns a `TypeError`.
+In Python, the **`math.asinh()`** method returns the inverse hyperbolic sine of a given number. If the input is not a number, it raises a `TypeError`.
 
 ## Syntax
 
@@ -47,7 +47,7 @@ The above code produces the following output:
 
 ## Codebyte Example
 
-The following codebyte example shows the use of the `math.asinh()` method:
+Run the following codebyte example to understand the use of the `math.asinh()` method:
 
 ```codebyte/python
 import math
