@@ -1,6 +1,6 @@
 ---
 Title: '.Histogram2d()'
-Description: 'Generates a 2D histogram to show the relationship between two variables with color intensity.'
+Description: 'Generates a 2D histogram to show the distribution and relationship between two variables, with color intensity representing the frequency of data points.'
 Subjects:
   - 'Data Science'
   - 'Data Visualization'
@@ -17,24 +17,25 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.Histogram2d()`** method in Plotly's `graph_objects` module creates a 2D histogram to display the joint distribution of two variables. It uses a grid where color intensity represents the count or aggregated values within each cell, making it useful for examining relationships and density in bivariate data.
+The **`.Histogram2d()`** method in Plotly's [`graph_objects`](https://www.codecademy.com/resources/docs/plotly/graph-objects) module creates a 2D histogram to display the joint distribution of two variables. It uses a grid where color intensity represents the count or aggregated values within each cell, making it useful for visualizing relationships and density in bivariate data.
 
 ## Syntax
 
 ```pseudo
-plotly.graph_objects.Histogram2d(x=data_x, y=data_y, nbinsx=10, nbinsy=10, colorscale='Viridis')
-
+plotly.graph_objects.Histogram2d(x=None, y=None, nbinsx=None, nbinsy=None, colorscale=None, ...)
 ```
 
-- `x`: (Required) It represents the input data for the x-axis, representing the values plotted along the horizontal axis.
-- `y`: (Required) It represents the input data for the y-axis, representing the values plotted along the vertical axis. 
-- `nbinsx`: (Optional) Number of bins (intervals) for the x-axis. By default it is automatic.
-- `nbinsy`: (Optional) Number of bins (intervals) for the y-axis. By default it is automatic.
-- `colorscale`: (Optional) This parameter sets the color scale for bin intensities (e.g., 'Viridis', 'Blues') or allows custom mappings.
+- `x`: Input data for the x-axis, representing the values plotted along the horizontal axis.
+- `y`: Input data for the y-axis, representing the values plotted along the vertical axis. 
+- `nbinsx` (Optional): The number of bins (intervals) to use for the x-axis. If not specified (`None`), Plotly automatically calculates an appropriate number of bins based on the data.
+- `nbinsy` (Optional): The number of bins (intervals) to use for the y-axis. If not specified (`None`), Plotly automatically calculates an appropriate number of bins based on the data.
+- `colorscale` (Optional): Defines the color scale for bin intensities (e.g., `'Viridis'`, `'Blues'`). You can also define custom color scales.
+
+> **Note**: The ellipsis in the syntax (...) indicates that there are additional optional parameters beyond those listed here to customize the scatter plot on polar axes.
 
 ## Example
 
-The following example showcases the use of the `.histogram2d()`
+The following example showcases the use of the `.Histogram2d()`:
 
 ```py
 import numpy as np
@@ -52,14 +53,14 @@ plt.figure(figsize=(6, 5))
 plt.imshow(hist.T, origin='lower', aspect='auto', 
            extent=[x_edges[0], x_edges[-1], y_edges[0], y_edges[-1]], 
            cmap='Blues')
-plt.colorbar(label='Frequency')
+plt.colorbar(label='Frequency')  # Color bar represents the frequency
 plt.title('2D Histogram Example')
 plt.xlabel('X values')
 plt.ylabel('Y values')
 plt.show()
-
 ```
-This example demonstrates how to use numpy.histogram2d() to compute a two-dimensional histogram and visualize it as a heatmap.
+
+This example demonstrates how to use `.histogram2d()` to compute a two-dimensional histogram and visualize it as a heatmap.
 
 The above code generates the following output:
 
