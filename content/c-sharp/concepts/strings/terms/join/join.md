@@ -13,7 +13,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Join()`** method concatenates an array or a collection of strings into a single string, with a specified separator inserted between each element. This is particularly useful for creating formatted strings, such as comma-separated lists, from collections of data. data.
+The **`.Join()`** method concatenates an array or a collection of strings into a single string, with a specified separator inserted between each element. 
+
+This is particularly useful for creating formatted strings from data collections, such as comma-separated lists.
 
 ## Syntax
 
