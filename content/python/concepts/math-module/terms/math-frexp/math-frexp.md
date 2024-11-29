@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Python, the **`math.frexp()`** method calculates the mantissa and the exponent of a given number. The mathematical formula that is used in this method is `$n = m \times 2^e$`, where `n` is the given number, `m` is the mantissa, and `e` is the exponent. The method returns the mantissa and the exponent in a [tuple](https://www.codecademy.com/resources/docs/python/tuples) `(m, e)`.
+In Python, the **`math.frexp()`** method calculates the mantissa and the exponent of a given number. The mathematical formula that is used in this method is `n = m * 2^e`, where `n` is the given number, `m` is the mantissa, and `e` is the exponent. The method returns the mantissa and the exponent in a [tuple](https://www.codecademy.com/resources/docs/python/tuples) `(m, e)`.
 
 ## Syntax
 
