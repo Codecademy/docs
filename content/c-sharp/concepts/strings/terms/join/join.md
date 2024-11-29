@@ -28,7 +28,7 @@ string.Join(string separator, IEnumerable<string> values)
 
 ## Example
 
-In this example, `.Join()` uses a comma and space (`, `) as the separator to create a formatted to-do list. The output is a concise list of study activities for the day.
+This example demonstrates how `.Join()` uses a comma and space (`, `) as the separator to create a formatted to-do list. 
 
 ```cs
 using System;
