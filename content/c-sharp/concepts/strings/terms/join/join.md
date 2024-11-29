@@ -47,7 +47,7 @@ class Program
 }
 ```
 
-The above example gives the following output:
+This example results in the following output:
 
 ```shell
 Today's Codecademy study plan: Complete C# lesson, Review notes, Practice coding exercises, Read documentation
