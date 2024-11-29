@@ -38,29 +38,34 @@ plotly.graph_objects.Histogram2d(x=None, y=None, nbinsx=None, nbinsy=None, color
 The following example showcases the use of the `.Histogram2d()`:
 
 ```py
-import numpy as np
-import matplotlib.pyplot as plt
+import plotly.graph_objects as go
 
-# Generate sample data for X and Y
-x = np.random.normal(5, 1, 1000)  # X values (mean=5, std=1, 1000 samples)
-y = np.random.normal(3, 0.5, 1000)  # Y values (mean=3, std=0.5, 1000 samples)
+# Sample data
+x = [1, 2, 2, 3, 4, 5, 5, 5, 6, 7, 8, 9, 9, 10, 10]
+y = [10, 9, 8, 7, 6, 6, 5, 5, 4, 3, 2, 2, 1, 1, 0]
 
-# Compute the 2D histogram
-hist, x_edges, y_edges = np.histogram2d(x, y, bins=20)
+# Create the 2D histogram
+fig = go.Figure(
+    data=go.Histogram2d(
+        x=x,
+        y=y,
+        colorscale='Blues',  # Color scale
+        colorbar=dict(title="Frequency"),  # Customize the color bar
+    )
+)
 
-# Visualize the histogram
-plt.figure(figsize=(6, 5))
-plt.imshow(hist.T, origin='lower', aspect='auto', 
-           extent=[x_edges[0], x_edges[-1], y_edges[0], y_edges[-1]], 
-           cmap='Blues')
-plt.colorbar(label='Frequency')
-plt.title('2D Histogram Example')
-plt.xlabel('X values')
-plt.ylabel('Y values')
-plt.show()
+# Add layout details
+fig.update_layout(
+    title="Example of a 2D Histogram",
+    xaxis_title="X Axis",
+    yaxis_title="Y Axis",
+    template="plotly_white"  # Use a clean template
+)
 
+# Display the figure
+fig.show()
 ```
-This example demonstrates how to use numpy.histogram2d() to compute a two-dimensional histogram and visualize it as a heatmap.
+This example demonstrates how to use `plotly.graph_objects.Histogram2d` is used to create a two-dimensional histogram and visualize it as a heatmap.
 
 The above code generates the following output:
 
