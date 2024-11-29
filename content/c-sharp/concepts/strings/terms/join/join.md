@@ -1,6 +1,6 @@
 ---
 Title: '.Join()'
-Description: 'JJoins elements of a collection into a single string with a specified separator, ideal for creating formatted lists from arrays or enumerable types.'
+Description: 'Joins elements of a collection into a single string with a specified separator, ideal for creating formatted lists from arrays or enumerable types.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
