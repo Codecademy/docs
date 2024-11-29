@@ -23,8 +23,8 @@ This is particularly useful for creating formatted strings from data collections
 string.Join(string separator, IEnumerable<string> values)
 ```
 
-- `separator`: The string to insert between each element.
-- `values`: The array or collection of strings to join together.
+- `separator`: A string to insert between each element. If empty, elements are joined with no separator.
+- `values`: An array or collection of strings to concatenate. `null` values in the collection are replaced with empty strings.
 
 ## Example
 
