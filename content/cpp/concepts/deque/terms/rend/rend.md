@@ -13,15 +13,15 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.rend()`** function in C++ is part of the `std::deque` container. It gives access to a reverse iterator that represents the position before the first element in the container. This method is particularly useful when iterating over a deque in reverse, starting from the last element and moving toward the first.
+The **`.rend()`** function in C++ is part of the `std::deque` container. It returns a reverse iterator pointing to the position before the first element of the container, allowing reverse iteration from the last element toward the first.
 
 ## Syntax
 
 ```pseudo
-std::deque<T>::rend();
+deque_name.rend()
 ```
 
-It will return a reverse iterator that signifies the end of reverse traversal, located just before the deque's first element.
+- `deque_name`: This represents the specific `std::deque` container that holds the data and is used to call the `.rend()` function.
 
 ## Example
 
