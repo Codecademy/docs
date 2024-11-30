@@ -13,35 +13,95 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Volatile variables** in C++ will not be optimized and cached by the compiler. Marking a variable as volatile is useful when it's value may be subject to external changes outside of the program itself, by making the compiler read the latest value from memory instead of a previously cached version that may be out of date. However, volatile does not guarantee atomicity or memory synchronization between threads, only the prevention of compiler optimization.
+**Volatile variables** in C++ will not be optimized and cached by the compiler.
+Marking a variable as volatile is useful when its value may be subject to external changes outside of the program itself, by making the compiler read the latest value from memory instead of a previously cached version that may be out of date.
+However, volatile does not guarantee atomicity or memory synchronization between threads, only the prevention of compiler optimization, particularly important in multithreaded environments.
 
 ## Syntax
 
 To declare a variable as volatile, the `volatile` keyword needs to be placed before the variable type:
 
-```pseudo
+```cpp
 
-volatile datatype variablename;
+volatile dataType variableName;
 
 ```
 
 ## Example
 
-An Example section that provides an example demonstrating the concept in use
+In the following example, a volatile variable is used to signal a worker thread to stop running/doing tasks.
+`volatile` prevents the compiler from optimizing away continuously checking the variable while in the loop.
+The worker thread will keep running until the isRunning variable is set to false.
 
-[Text, code, images, etc. about example 1]
+```cpp
+#include <iostream>
+#include <thread>
+#include <chrono>
 
-## Codebyte Example (if applicable)
+class VolatileExample {
+private:
+    // 'volatile' tells the compiler not to optimize this variable, ensuring that each iteration of the following loop fetches the latest value.
+    volatile bool isRunning = true;
 
-A Codebyte Example section that provides a codebyte example demonstrating the concept in use
+public:
+    void runTask() {
+        while (isRunning) {
+            std::cout << "Task is running..." << std::endl;
+            std::this_thread::sleep_for(std::chrono::seconds(1));
+        }
+        std::cout << "Task has stopped." << std::endl;
+    }
 
-We can currently support:
+    void stopTask() {
+        isRunning = false; // Changing 'isRunning' to false to stop the task.
+    }
+};
 
-- C++
+int main() {
+    VolatileExample example;
+    std::thread workerThread(&VolatileExample::runTask, &example);
 
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
+    // Lets the task run for a while before stopping it.
+    std::this_thread::sleep_for(std::chrono::seconds(5));
+    example.stopTask(); // Stop the task
 
-```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
+    workerThread.join(); // Waits for the thread to finish.
+    return 0;
+}
+```
+
+## Codebyte Example
+
+Here `volatile` prevents the compiler from optimizing away reads or writes to the active variable, this ensures continuous checks of the most up-to-date value.
+
+```cpp
+#include <iostream>
+#include <thread>
+#include <chrono>
+
+class VolatileCodeByteExample {
+private:
+    volatile bool active = true;
+
+public:
+    void execute() {
+        // The loop continues as long as 'active' is true.
+        while (active) {
+            // Simulating processing.
+        }
+        std::cout << "Loop terminated due to 'active' being false." << std::endl;
+    }
+};
+
+int main() {
+    VolatileCodeByteExample example;
+    std::thread demoThread(&VolatileCodeByteExample::execute, &example);
+
+    // Changes 'active' to false after a short delay to stop the loop.
+    std::this_thread::sleep_for(std::chrono::seconds(2));
+    example.active = false; // Update the value of 'active'
+
+    demoThread.join(); // Waits for the thread to finish.
+    return 0;
+}
 ```
