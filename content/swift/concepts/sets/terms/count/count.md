@@ -6,8 +6,8 @@ Subjects:
   - 'Mobile Development'
 Tags:
   - 'Sets'
-  - 'Properties'
   - 'Elements'
+  - 'Properties'
   - 'Values'
 CatalogContent:
   - 'learn-swift'
@@ -22,7 +22,7 @@ In Swift, the **`.count`** property calculates the total number of existing elem
 setName.count
 ```
 
-- `setName`: The set to be searched.
+- `setName`: The name of the set whose elements are being counted.
 
 ## Example
 
