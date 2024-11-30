@@ -26,7 +26,7 @@ plotly.graph_objects.Histogram2d(x=None, y=None, nbinsx=None, nbinsy=None, color
 ```
 
 - `x`: Input data for the x-axis, representing the values plotted along the horizontal axis.
-- `y`: Input data for the y-axis, representing the values plotted along the vertical axis. 
+- `y`: Input data for the y-axis, representing the values plotted along the vertical axis.
 - `nbinsx` (Optional): The number of bins (intervals) to use for the x-axis. If not specified (`None`), Plotly automatically calculates an appropriate number of bins based on the data.
 - `nbinsy` (Optional): The number of bins (intervals) to use for the y-axis. If not specified (`None`), Plotly automatically calculates an appropriate number of bins based on the data.
 - `colorscale` (Optional): Defines the color scale for bin intensities (e.g., `'Viridis'`, `'Blues'`). You can also define custom color scales.
@@ -65,7 +65,8 @@ fig.update_layout(
 # Display the figure
 fig.show()
 ```
-This example demonstrates how to use `plotly.graph_objects.Histogram2d` is used to create a two-dimensional histogram and visualize it as a heatmap.
+
+This example demonstrates how to use `plotly.graph_objects.Histogram2d` to create a two-dimensional histogram and visualize it as a heatmap.
 
 The above code generates the following output:
 
