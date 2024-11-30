@@ -100,3 +100,24 @@ try {
   }
 }
 ```
+
+## Codebyte Example
+
+```codebyte/javascript
+function validateAge(age) {
+  try {
+    if (age < 18) {
+      throw "Age must be 18 or older.";
+    } else {
+      console.log("Valid age: " + age);
+    }
+  } catch (error) {
+    console.log("Error: " + error);
+  } finally {
+    console.log("Input validation completed.");
+  }
+}
+
+validateAge(17); // This will throw an error and print the error message
+validateAge(20); // This will log the valid age message
+```
