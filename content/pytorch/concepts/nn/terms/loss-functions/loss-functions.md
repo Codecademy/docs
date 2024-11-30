@@ -14,13 +14,9 @@ CatalogContent:
   - 'paths/machine-learning'
 ---
 
-**`Loss Functions`**, also known as **cost functions**, represent critical functions used to optimize [neural network](https://www.codecademy.com/resources/docs/pytorch/nn) predictions in PyTorch.
+**Loss Functions**, also known as cost functions, represent essential components that quantify the error or difference between a [neural network's]((https://www.codecademy.com/resources/docs/pytorch/nn)) predictions and the target values in PyTorch. They compute a scalar loss value, which optimization algorithms use to adjust the model's weights during training, improving its performance over time.
 
-They quantify how well the model's predictions align with the target values.
-
-By computing a scalar loss value, they enable optimization algorithms to adjust the model's weights to improve performance.
-
-PyTorch's `nn` (neural network) module offers various built-in loss functions suitable for different tasks, such as regression and classification.
+PyTorch's `nn` (neural network) module provides a variety of built-in loss functions designed for different tasks, such as regression and classification.
 
 ## Syntax
 
