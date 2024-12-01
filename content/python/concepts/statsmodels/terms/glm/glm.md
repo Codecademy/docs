@@ -33,6 +33,7 @@ results = model.fit()
 ```
 
 Available family distributions include:
+
 - [`sm.families.Family()`](https://www.statsmodels.org/stable/generated/statsmodels.genmod.families.family.Family.html): The parent class for one-parameter exponential families
 - [`sm.families.Gaussian()`](https://www.statsmodels.org/stable/generated/statsmodels.genmod.families.family.Gaussian.html): For continuous outcomes
 - [`sm.families.Binomial()`](https://www.statsmodels.org/stable/generated/statsmodels.genmod.families.family.Binomial.html): For binary outcomes (0/1 data)
@@ -41,7 +42,6 @@ Available family distributions include:
 - [`sm.families.InverseGaussian()`](https://www.statsmodels.org/stable/generated/statsmodels.genmod.families.family.InverseGaussian.html): For positive continuous data with inverse Gaussian distribution
 - [`sm.families.NegativeBinomial()`](https://www.statsmodels.org/stable/generated/statsmodels.genmod.families.family.NegativeBinomial.html): For overdispersed count data
 - [`sm.families.Tweedie()`](https://www.statsmodels.org/stable/generated/statsmodels.genmod.families.family.Tweedie.html): For compound Poisson distributions
-
 
 Source: [statsmodels GLM documentation](https://www.statsmodels.org/stable/_modules/statsmodels/genmod/generalized_linear_model.html#GLM)
 
@@ -78,7 +78,7 @@ print("\nPredicted petal length:", prediction[0])
 Here is the output of the above code:
 
 ```shell
-                 Generalized Linear Model Regression Results                  
+                 Generalized Linear Model Regression Results
 ==============================================================================
 Dep. Variable:                      y   No. Observations:                  150
 Model:                            GLM   Df Residuals:                      147
@@ -88,7 +88,7 @@ Method:                          IRLS   Log-Likelihood:                -145.89
 Date:                Sun, 01 Dec 2024   Deviance:                       61.437
 Time:                        19:50:30   Pearson chi2:                     61.4
 No. Iterations:                     3   Pseudo R-squ. (CS):             0.9984
-Covariance Type:            nonrobust                                         
+Covariance Type:            nonrobust
 ==============================================================================
                  coef    std err          z      P>|z|      [0.025      0.975]
 ------------------------------------------------------------------------------
@@ -142,6 +142,7 @@ print(f"${prediction[0]:,.2f}k")
 ```
 
 This example demonstrates:
+
 1. Creating realistic house data with square footage and number of bedrooms
 2. Generating prices based on: ($100k base + $200/sq ft + $50k/bedroom)
 3. Using GLM to predict house prices
