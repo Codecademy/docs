@@ -23,57 +23,68 @@ It combines the following two components:
   - **Moving Average (MA) Model**: Models relationships with past errors to correct forecasts and improve accuracy.
 
 ## Installation
+
 To run ARMA model, you need to install `statsmodels` and `pandas` libraries using `pip`:
+
 ```shell
 pip install statsmodels pandas
+```
 
 ## Syntax
 
 ### ARIMA Model
+
 To implement ARMA in Python, the **ARIMA(Autoregressive integrated moving average) model** will be used.
+
 ```py
 model = ARIMA(endog, order=(p, d, q))
 ```
+
 - `endog`: The time series data (y-axis).
 - `order`: A tuple (p, d, q) where:
   - `p`: Order of the autoregressive (AR) component.
   - `d`: Differencing order (set to 0 for ARMA).
   - `q`: Order of the moving average (MA) component.
+
 ### Fitting the Model
+
 Once the ARIMA model is initialized, the `.fit()` method trains it on the data.
+
 ```py
 model_fit = model.fit()
 ```
-The result, `model_fit`, contains:
 
+The result, `model_fit`, contains:
 - Parameters of the fitted ARMA model.
 - Methods for forecasting and evaluating the model.
+
 ### Forecasting
+
 The `.forecast()` method generates predictions for a specified number of future steps.
+
 ```py
 forecast = model_fit.forecast(steps=n)
 ```
-- steps: Number of future time steps to predict.
+
+- `steps`: Number of future time steps to predict.
 
 ### Visualizing
+
 Matplotlib is used to visualize the historical data and the forecast.
+
 ```py
 plt.plot(data.index, data["temperature"], label="Historical Data")
 plt.plot(future_dates, forecast, label="Forecast", color="red")
 ```
+
 - `data.index`: Dates for the historical data.
 - `forecast`: Forecasted values for the next steps days.
 - `future_dates`: Generated dates for the forecast period.
 
-| Function/Parameter | Purpose |
-| --- | --- |
-| `ARIMA(endog, order=(p, d, q))`	| Initializes the ARIMA (or ARMA when d=0) model. |
-| `.fit()`| Fits the ARIMA/ARMA model to the data. |
-| `.forecast(steps=n)` | Predicts the next n time points. |
-| `plt.plot()`	| Plots the time series data and forecast for visualization.| 
-
 ## Example
+
 In this example, static data will be generated randomly and forecasted using ARMA model:
+
 ```py
 import pandas as pd
 import numpy as np
@@ -108,5 +119,6 @@ plt.legend()
 plt.grid()
 plt.show()
 ```
+
 ## Output
 ![ARMA Forecast](https://raw.githubusercontent.com/Codecademy/docs/main/media/arma-forecast-example.png)
