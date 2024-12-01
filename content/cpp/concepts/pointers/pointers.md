@@ -1,6 +1,6 @@
 ---
 Title: 'Pointers'
-Description: 'A pointer is a special type of variable that stores the address of another variable in it. A pointer variable points to the same data type and is created with the * operator. Then the address of another variable is stored in it.'
+Description: 'A pointer in C++ is a variable that stores the memory address of another variable. Declared with `*`, it must point to a compatible data type.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
