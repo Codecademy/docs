@@ -33,7 +33,7 @@ This example code shows how to determine whether a set is empty using the `.isEm
 // Creating a set with elements
 var numbers: Set<Int> = [1, 2, 3]
 
-// Check if the set is empty 
+// Check if the set is empty
 if numbers.isEmpty {
     print("This set is empty.")
 } else {
