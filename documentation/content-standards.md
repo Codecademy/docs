@@ -115,4 +115,4 @@ Review the [Docs Style Guide](https://github.com/Codecademy/docs/blob/main/docum
 
 Check out the [concept entry template](https://github.com/Codecademy/docs/blob/main/documentation/concept-entry-template.md) and [term entry template](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md) in this folder. And take a look at [GitHub Issues](https://github.com/Codecademy/docs/issues) to see where help is needed!
 
-For a refresher on how to make a Pull Request, head back to the [Contribution Guide](https://github.com/Codecademy/docs/blob/main/.github/CONTRIBUTING.md). 🎒
+For a refresher on how to make a Pull Request, head back to the [Contribution Guide](https://github.com/Codecademy/docs/blob/main/CONTRIBUTING.md). 🎒

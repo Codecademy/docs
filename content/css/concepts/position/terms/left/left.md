@@ -43,7 +43,7 @@ Set the position of `.box` element `40px` off the left edge of the nearest relat
 }
 ```
 
-![Example of position being absolute](<(https://raw.githubusercontent.com/Codecademy/docs/main/media/example-css-left()-absolute.png)>)
+![Example of position being absolute](https://raw.githubusercontent.com/Codecademy/docs/main/media/example-css-left%28%29-absolute.png)
 
 ## Example 2
 
@@ -59,4 +59,4 @@ Set the position of `.box` element `40px` from the elements left edge.
 }
 ```
 
-![Example of position being relative](<(https://raw.githubusercontent.com/Codecademy/docs/main/media/example-css-left()-relative.png)>)
+![Example of position being relative](https://raw.githubusercontent.com/Codecademy/docs/main/media/example-css-left%28%29-relative.png)

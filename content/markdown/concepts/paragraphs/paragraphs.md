@@ -30,7 +30,7 @@ Lo. Lee. Ta.
 
 ## Line Breaks
 
-Line breaks in paragraphs can be created with double newlines or using a `\` symbol.
+Double line breaks separate text with a blank line and can be created by pressing the enter key twice at the end of a line. A single line breaks separate text by starting a new line directly below the previous and can be created by adding a `\` symbol or two spaces at the end of a line and then pressing the enter key.
 
 ```md
 Success seems to be connected with action. Successful people keep moving.
@@ -40,7 +40,7 @@ They make mistakes, but they don’t quit.
 
 ```md
 This is a\
-line break
+single line break
 ```
 
 ## Best Practices
