@@ -18,6 +18,8 @@ In PostgreSQL, **aggregate functions** perform calculations on a data set and re
 
 The `GROUP BY` clause is used to arrange identical data into groups. In other words, this clause summarizes data by grouping rows that have the same values in the specified columns.
 
+Additionally, the `HAVING` clause can be used with `GROUP BY` to further filter groups based on specific conditions applied to the aggregated data.
+
 PostgreSQL offers the following aggregate functions:
 
 - `MAX()`: Computes the maximum among all the input values.
@@ -81,7 +83,7 @@ SELECT AVG(Quantity * Cost) AS Average_Spent FROM sales;
 
 This query finds the average amount spent per sale in the `sales` table by calculating the product of the `Quantity` and `Cost` columns for each sale. Then, it finds the average of all the calculated values.
 
-## Example
+## Examples
 
 Here is an example that demonstrates the usage of aggregate functions:
 
@@ -102,4 +104,22 @@ This is the output of the above query:
 | Kuvira   | 8000        |
 | Kalu     | 88000       |
 | Isujah   | 130000      |
+| Zion     | 750000      |
+
+Here is another example that shows the use of aggregate functions:
+
+```sql
+SELECT Customer, SUM(Quantity * Cost) AS Total_Spent
+FROM sales
+GROUP BY Customer
+HAVING SUM(Quantity * Cost) > 140000;
+```
+
+This query filters the results by showing only those customers who spent over 1,40,000.
+
+This is the output of the above query:
+
+| Customer | Total_Spent |
+| -------- | ----------- |
+| Varrick  | 176000      |
 | Zion     | 750000      |

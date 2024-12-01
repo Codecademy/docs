@@ -88,14 +88,112 @@ Exploring **C**:
 
 ![a-star-6](https://raw.githubusercontent.com/Codecademy/docs/main/media/a-star-tree-6.png)
 
-The next node in the open list is again **B**. However, because **B** has already been explored, meaning a shortest path to **B** has been found, it is not explored again and the algorithm continues to the next candidate.
+The next node in the open list is again **B**. However, because **B** has already been explored, meaning the shortest path to **B** has been found, it is not explored again, and the algorithm continues to the next candidate.
 
 ![a-star-7](https://raw.githubusercontent.com/Codecademy/docs/main/media/a-star-tree-7.png)
 
-The next node to be explored is the goal node **G**, meaning the shortest path to **G** has been found! The path is constructed by tracing the graph backward from **G** to **S**:
+The next node to be explored is the goal node **G**, meaning the shortest path to **G** has been found! The path is constructed by tracing the graph backwards from **G** to **S**:
 
 ![a-star-8](https://raw.githubusercontent.com/Codecademy/docs/main/media/a-star-tree-8.png)
 
 ## Using the A\* Algorithm
 
-This algorithm is guaranteed to find a shortest path if one exists. One of the main uses of this algorithm is route planning. However, there are many other uses.
+This algorithm is guaranteed to find the shortest path if one exists. One of the main uses of this algorithm is route planning, but there are many other uses.
+
+## Example Code
+
+Here is an example of the A\* algorithm implemented in Python that solves the above example graph:
+
+```py
+from heapq import heappop, heappush
+
+def a_star_search(graph: dict, start: str, goal: str, heuristic_values: dict) -> int:
+    '''
+    A* search algorithm implementation.
+
+    @param graph: The graph to search.
+    @param start: The starting node.
+    @param goal: The goal node.
+    @param heuristic_values: The heuristic values for each node. The goal node must be admissible, and the heuristic value must be 0.
+    @return: The path cost from the start node to the goal node.
+    '''
+
+    # A min heap is used to implement the priority queue for the open list.
+    # The heapq module from Python's standard library is utilized.
+    # Entries in the heap are tuples of the form (cost, node), ensuring that the entry with the lowest cost is always smaller during comparisons.
+    # The heapify operation is not required, as the heapq module maintains the heap invariant after every push and pop operation.
+
+    # The closed list is implemented as a set for efficient membership checking.
+
+    open_list, closed_list = [(heuristic_values[start], start)], set()
+
+    while open_list:
+        cost, node = heappop(open_list)
+
+        # The algorithm ends when the goal node has been explored, NOT when it is added to the open list.
+        if node == goal:
+            return cost
+
+        if node in closed_list:
+            continue
+
+        closed_list.add(node)
+
+        # Subtract the heuristic value as it was overcounted.
+        cost -= heuristic_values[node]
+
+        for neighbor, edge_cost in graph[node]:
+            if neighbor in closed_list:
+                continue
+
+            # f(x) = g(x) + h(x), where g(x) is the path cost and h(x) is the heuristic.
+            neighbor_cost = cost + edge_cost + heuristic_values[neighbor]
+            heappush(open_list, (neighbor_cost, neighbor))
+
+    return -1  # No path found
+
+EXAMPLE_GRAPH = {
+    'S': [('A', 4), ('B', 10), ('C', 11)],
+    'A': [('B', 8), ('D', 5)],
+    'B': [('D', 15)],
+    'C': [('D', 8), ('E', 20), ('F', 2)],
+    'D': [('F', 1), ('I', 20), ('H', 16)],
+    'E': [('G', 19)],
+    'F': [('G', 13)],
+    'H': [('J', 2), ('I', 1)],
+    'I': [('K', 13), ('G', 5), ('J', 5)],
+    'J': [('K', 7)],
+    'K': [('G', 16)]
+}
+
+# Node heuristic values (admissible heuristic values for the nodes)
+EXAMPLE_HEURISTIC_VALUES = {
+    'S': 7,
+    'A': 8,
+    'B': 6,
+    'C': 5,
+    'D': 5,
+    'E': 3,
+    'F': 3,
+    'G': 0,
+    'H': 7,
+    'I': 4,
+    'J': 5,
+    'K': 3
+}
+
+EXAMPLE_RESULT = a_star_search(EXAMPLE_GRAPH, 'S', 'G', EXAMPLE_HEURISTIC_VALUES)
+print(EXAMPLE_RESULT)
+```
+
+The code above produces the following output:
+
+```shell
+23
+```
+
+## Complexity Analysis
+
+For time complexity, one might notice that each heappush corresponds to an edge, which would be the dominating complexity for most cases. Indeed, A\* is equivalent to Dijkstra's algorithm when the heuristic function is 0, and A\* is equivalent to Dijkstra's algorithm with reduced cost when the heuristic function is admissible i.e. `O(V+Elog(V))` time complexity.
+
+However, a good heuristic function can drastically decrease A*'s complexity. The idea here is we need to look at exponentially fewer nodes with a better heuristic. So the time and space complexity are actually `O(b1^d)`, where b1 is the effective branching factor, i.e., an empirical average of neighboring nodes not in the closed list, and d is the search depth, i.e., optimal path length. The large space complexity is the biggest disadvantage of the A* search, giving rise to other algorithm variations.

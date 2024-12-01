@@ -1,6 +1,6 @@
 ---
-Title: 'remove()'
-Description: 'Removes a value from a table.'
+Title: '.remove()'
+Description: 'Removes and returns the element at a specified position from a table (array).'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -12,20 +12,19 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`remove()`** function in Lua removes the value of the specified index and clears the index from the table (reducing the length of the table by 1).
+The **`.remove()`** function in Lua removes the value of the specified index and clears the index from the table (reducing the length of the table by 1).
 
 ## Syntax
 
 ```pseudo
-table.remove(tableName,pos)
-
+table.remove(tableName, pos)
 ```
 
-`remove()` returns the value that was removed from the `tableName`. The `pos` parameter has a default value of `n`, which is the length of the table. This causes the last element of the table to be removed if the `pos` parameter is not provided.
+The `.remove()` method removes and returns the element at the specified position `pos` from the given table `tableName`. If `pos` is not provided, it defaults to the length of the table, meaning the last element will be removed by default.
 
 ## Example
 
-In the following example `remove()` is used to remove the element at the `pos` position from the table. This causes other elements to shift down.
+In the following example `.remove()` is used to remove the element at the `pos` position from the table. This causes other elements to shift down:
 
 ```lua
 local fruit = {
@@ -50,3 +49,5 @@ This example results in the following output:
 
  🍎, 🍇, 🍓, 🍉
 ```
+
+> **Note:** In Lua, indices start from 1. Therefore the banana was removed from the table as it was at index 2.
