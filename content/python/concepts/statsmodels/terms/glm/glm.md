@@ -32,11 +32,16 @@ model = sm.GLM(y,                    # Dependent variable
 results = model.fit()
 ```
 
-Common family distributions include:
-- `sm.families.Gaussian()`: For continuous outcomes
-- `sm.families.Binomial()`: For binary outcomes
-- `sm.families.Poisson()`: For count data
-- `sm.families.Gamma()`: For positive continuous data
+Available family distributions include:
+- [`sm.families.Family()`](https://www.statsmodels.org/stable/generated/statsmodels.genmod.families.family.Family.html): The parent class for one-parameter exponential families
+- [`sm.families.Gaussian()`](https://www.statsmodels.org/stable/generated/statsmodels.genmod.families.family.Gaussian.html): For continuous outcomes
+- [`sm.families.Binomial()`](https://www.statsmodels.org/stable/generated/statsmodels.genmod.families.family.Binomial.html): For binary outcomes (0/1 data)
+- [`sm.families.Gamma()`](https://www.statsmodels.org/stable/generated/statsmodels.genmod.families.family.Gamma.html): For positive continuous data
+- [`sm.families.Poisson()`](https://www.statsmodels.org/stable/generated/statsmodels.genmod.families.family.Poisson.html): For count data
+- [`sm.families.InverseGaussian()`](https://www.statsmodels.org/stable/generated/statsmodels.genmod.families.family.InverseGaussian.html): For positive continuous data with inverse Gaussian distribution
+- [`sm.families.NegativeBinomial()`](https://www.statsmodels.org/stable/generated/statsmodels.genmod.families.family.NegativeBinomial.html): For overdispersed count data
+- [`sm.families.Tweedie()`](https://www.statsmodels.org/stable/generated/statsmodels.genmod.families.family.Tweedie.html): For compound Poisson distributions
+
 
 Source: [statsmodels GLM documentation](https://www.statsmodels.org/stable/_modules/statsmodels/genmod/generalized_linear_model.html#GLM)
 
