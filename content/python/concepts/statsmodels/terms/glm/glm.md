@@ -96,3 +96,48 @@ Predicted petal length: 1.6680197099857788
 ```
 
 Click here for more examples: [statsmodels GLM documentation](https://www.statsmodels.org/stable/glm.html)
+
+## Codebyte Example
+
+Here's a practical example using GLM to predict house prices:
+
+```codebyte/python
+import numpy as np
+import statsmodels.api as sm
+
+# Generate sample house data
+np.random.seed(42)
+n_samples = 100
+
+# Generate features: square footage (1000-3000 sq ft) and bedrooms (2-5)
+sq_footage = np.random.uniform(1000, 3000, n_samples)
+bedrooms = np.random.randint(2, 6, n_samples)
+
+# Combine features
+X = np.column_stack((sq_footage, bedrooms))
+X = sm.add_constant(X)  # Add intercept term
+
+# Generate house prices (in thousands)
+# Base price: 100k + (200 per sq ft) + (50k per bedroom) + some random noise
+y = 100 + 0.2 * X[:, 1] + 50 * X[:, 2] + np.random.normal(0, 25, n_samples)
+
+# Fit GLM with Gaussian family
+model = sm.GLM(y, X, family=sm.families.Gaussian())
+results = model.fit()
+
+# Print model summary
+print("House Price Prediction Model Summary:")
+print(results.summary())
+
+# Make a prediction for a 2000 sq ft house with 3 bedrooms
+new_house = np.array([1, 2000, 3])  # [constant, sq_footage, bedrooms]
+prediction = results.predict(new_house)
+print("\nPredicted price for a 2000 sq ft house with 3 bedrooms:")
+print(f"${prediction[0]:,.2f}k")
+```
+
+This example demonstrates:
+1. Creating realistic house data with square footage and number of bedrooms
+2. Generating prices based on: ($100k base + $200/sq ft + $50k/bedroom)
+3. Using GLM to predict house prices
+4. Making a practical prediction example for a specific house
