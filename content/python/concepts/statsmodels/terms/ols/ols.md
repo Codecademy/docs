@@ -76,6 +76,6 @@ plt.legend()
 # Show the plot
 plt.show()
 ```
-[Regression plot](https://raw.githubusercontent.com/Codecademy/docs/main/media/)
+[Regression plot](https://raw.githubusercontent.com/Codecademy/docs/main/media/ols-model-example.png)
 
 
