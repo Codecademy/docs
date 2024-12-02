@@ -38,11 +38,11 @@ The following example demonstrates the usage of the `.slice()` function with bot
 ```kotlin
 fun main() {
   val array = arrayOf(10, 20, 30, 40, 50)
-  
+
   // Using IntRange to slice the array
   val sliceRange = array.slice(1..3) // Includes elements at indices 1, 2, and 3
   println("Slice using IntRange: $sliceRange")
-  
+
   // Using List<Int> to slice the array
   val sliceList = array.slice(listOf(0, 2, 4))  // Selects elements at indices 0, 2, and 4
   println("Slice using List<Int>: $sliceList")
