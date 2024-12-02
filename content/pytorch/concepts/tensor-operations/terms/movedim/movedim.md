@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**`movedim()`** is used to move specific dimension of the input to a specified position. The other dimensions that are not explicitly mentioned remain in the original order.
+**`.movedim()`** is used to move specific dimension of the input to a specified position. The other dimensions that are not explicitly mentioned remain in the original order.
 
 ## Syntax
 
@@ -23,8 +23,8 @@ torch.movedim(input, source, destination)
 ```
 
 - `input`: The input tensor.
-- `source`: Original position of the dimensions that need to move. It must be unique
-- `destination`: Destination position for each of the original dimension. It must be unique
+- `source`: Original position of the dimensions that need to move. It must be unique.
+- `destination`: Destination position for each of the original dimension. It must be unique.
 
 ## Example
 
