@@ -1,1 +1,1 @@
-content/ruby/concepts/variables/variables.md
+content/general/concepts/url/url.md
