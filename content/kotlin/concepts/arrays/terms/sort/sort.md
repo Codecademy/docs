@@ -30,13 +30,13 @@ This example demonstrates the use of `.sort()` to sort the elements of an array 
 
 ```kotlin
 fun main() {
-    val array = arrayOf(5, 2, 9, 1, 4)
+  val array = arrayOf(5, 2, 9, 1, 4)
 
-    // Sort the array in ascending order
-    array.sort()
+  // Sort the array in ascending order
+  array.sort()
 
-    // Print the array contents
-    println(array.contentToString())
+  // Print the array contents
+  println(array.contentToString())
 }
 ```
 
