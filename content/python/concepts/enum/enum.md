@@ -1,5 +1,5 @@
 ---
-Title: `enum`
+Title: `Enum`
 Description: `Represents a set of unique, immutable constants in Python.`
 Subjects:
   - 'Code Foundations'
