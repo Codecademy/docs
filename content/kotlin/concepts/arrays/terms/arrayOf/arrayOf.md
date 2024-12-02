@@ -1,5 +1,5 @@
 ---
-Title: 'arrayOf'
+Title: 'arrayOf()'
 Description: 'Creates a new array containing the specified elements.'
 Subjects:
   - 'Code Foundations'
@@ -30,10 +30,10 @@ This example demonstrates the use of `arrayOf()` to create an array with a speci
 
 ```kotlin
 fun main() {
-    val array = arrayOf(10, 20, 30, 40, 50)
+  val array = arrayOf(10, 20, 30, 40, 50)
 
-    // Print the contents of the array
-    println(array.contentToString())
+  // Print the contents of the array
+  println(array.contentToString())
 }
 ```
 
