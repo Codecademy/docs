@@ -28,10 +28,11 @@ numpy.square(array, out = None, where = True, dtype = None)
 - `dtype`: The datatype of the output array. Optional.
 
 ## Modifying the output array
-The output array cannot simply be a python array, since python arrays are lists of pointers to
-objects. Numpy makes use of arrays composed of contiguous blocks of memory (like in C or Fortran)
+
+The output array cannot simply be a Python array since Python arrays are [lists](https://www.codecademy.com/resources/docs/python/built-in-functions/list) of pointers to
+objects. Numpy makes use of arrays composed of contiguous blocks of memory (like in C)
 for the purposes of optimization. Therefore, arrays supplied for this argument must be initialized
-with the numpy.array function like so...
+with the `numpy.array` function like so...
 
 ```python
 output_array = numpy.array([0, 0, 0, 0, 0])
