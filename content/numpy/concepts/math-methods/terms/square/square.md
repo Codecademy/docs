@@ -15,9 +15,7 @@ CatalogContent:
 ---
 
 
-In NumPy, the **`.square()`** method is used to calculate the square of a number or the square of
-the elements of an array. It is employed in mathematical computations common in machine learning,
-data analysis, engineering, and graphics.
+In NumPy, the **`.square()`** method computes the square of a number or the square of the elements in an array. It is commonly used in mathematical calculations in machine learning, data analysis, engineering, and graphics.
 
 ## General Syntax
 ```python
