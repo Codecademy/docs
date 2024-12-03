@@ -1,6 +1,6 @@
 ---
 Title: 'COVAR_POP()'
-Description: 'Calculates the population covariance of two sets of values in a dataset.'
+Description: 'Computes the population covariance of two sets of values in a dataset.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
@@ -9,18 +9,14 @@ Tags:
   - 'Queries'
   - 'MySQL'
   - 'SQL'
-  - 'Numbers'
-  - 'Output'
 CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
-  - 'paths/data-science'
-  - 'paths/data-science-foundations'
 ---
 
-The **`COVAR_POP()`** function in MySQL calculates the population covariance between two sets of numeric values. Covariance measures the degree to which two variables change together.
+The **`COVAR_POP()`** function in MySQL calculates the population covariance between two sets of numeric values. Covariance enables us to measure the degree to which two [variables](https://www.codecademy.com/resources/docs/mysql/user-defined-variables) modify together.
 
-This function is commonly used in statistical analysis to understand relationships between variables. A positive covariance indicates that both variables tend to increase together, while a negative covariance indicates an inverse relationship.
+This function is regularly used in statistical analysis to understand relationships between variables. A positive covariance indicates that both variables tend to increase together, while a negative covariance indicates an inverse relationship.
 
 ## Syntax
 
@@ -31,11 +27,11 @@ COVAR_POP(expression1, expression2)
 - `expression1`: The first numeric data set.
 - `expression2`: The second numeric data set.
 
-Both expressions must contain the same number of rows.
+Both [expressions](https://www.codecademy.com/resources/docs/mysql/expressions) must contain the same number of rows.
 
 ## Example
 
-Suppose we have a table `sales` that records the number of units sold and the corresponding revenue for different products.
+Suppose we have a table `sales` that records the number of units sold and the corresponding revenue for different products:
 
 | product_id | units_sold | revenue |
 | ---------- | ---------- | ------- |
@@ -44,7 +40,7 @@ Suppose we have a table `sales` that records the number of units sold and the co
 | 3          | 150        | 1500    |
 | 4          | 300        | 4000    |
 
-To calculate the population covariance between `units_sold` and `revenue`:
+To calculate the population covariance between `units_sold` and `revenue`, the following query including `COVAR_POP()`can be used:
 
 ```sql
 SELECT COVAR_POP(units_sold, revenue) AS population_covariance
