@@ -62,8 +62,7 @@ parameter is set equal to a single boolean value, the entire input array is eith
 '1' or 'True') or not suqared (if it is '0' or 'False).
 
 ## Changing types
-Sometimes it is important to increase or decrease the size of the datatype of the output array. This
-can be done by setting the 'dtype' parameter to an np datatype. Like so...
+Sometimes, it is important to increase or decrease the size of the datatype of the output array. This can be done by setting the 'dtype' parameter to an np datatype, like:
 
 ```python
 import numpy as np
