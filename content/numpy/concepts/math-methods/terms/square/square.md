@@ -46,7 +46,7 @@ print(output_array)
 ```
 
 ## Operating conditionally
-With the use of the "where" parameter, the function will execute conditionally. For instance...
+With the use of the "where" parameter, the function will execute conditionally. For instance:
 
 ```python
 import numpy as np
