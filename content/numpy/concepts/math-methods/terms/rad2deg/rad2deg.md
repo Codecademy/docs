@@ -81,7 +81,8 @@ import numpy as np
 angles = np.array([0, np.pi / 6, -np.pi / 4, -np.pi / 2, np.pi])
 
 # Convert only positive angles
-positive_degrees = np.rad2deg(angles, where=angles > 0)
+positive_degrees = np.where(angles > 0, np.rad2deg(angles), 0)
+
 print(positive_degrees)
 ```
 
@@ -92,6 +93,8 @@ The output of the above code will be as follows:
 ```
 
 ## Codebyte Example
+
+Run the following codebyte example to understand how the `.rad2deg()` function works:
 
 ```codebyte/python
 import numpy as np
