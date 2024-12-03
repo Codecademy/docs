@@ -38,7 +38,7 @@ Suppose there is a table `employees` with the following data:
 | Alice      | Smith     |
 | Mark       | Johnson   |
 
-To create a column with full names:
+To create a column with full names, the following query including `CONCAT()` can be used:
 
 ```sql
 SELECT CONCAT(first_name, ' ', last_name) AS full_name
@@ -55,7 +55,7 @@ The output of the above example will be as follows:
 | Mark Johnson     |
 ```
 
-Let's say that you need to create email addresses from the `first_name` and `last_name`, the `CONCAT` function can combine these columns with a domain name as follows:
+Let's say that there's a need to create email addresses from the `first_name` and `last_name`. In this case, the `CONCAT()` function can combine these columns with a domain name as follows:
 
 ```sql
 SELECT CONCAT(LOWER(first_name), '.', LOWER(last_name), '@company.com') AS email
