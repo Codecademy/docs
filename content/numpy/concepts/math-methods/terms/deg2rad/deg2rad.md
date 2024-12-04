@@ -50,3 +50,13 @@ The code above produces the following output:
 Angle in degrees: 45
 Angle in radians: 0.7853981633974483
 ```
+## Codebyte 
+The code byte below will assist you in having a deeper understanding of how the **deg2rad()** function works in NumPy.
+```python
+import numpy as np
+
+# Convert degrees to radians
+degrees = 180
+radians = np.deg2rad(180)
+
+print(f"{degrees} degrees is {radians} radians.")
