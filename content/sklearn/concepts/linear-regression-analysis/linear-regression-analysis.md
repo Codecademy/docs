@@ -85,7 +85,7 @@ Intercept (β₀): 0.0
 Coefficient (β₁): 1.0
 Predictions: [1. 2. 3. 4. 5.]
 ```
-![Simple Linear Regression]
+![A scatter plot showing the data points (red dots) and the corresponding regression line (green) representing the simple linear regression model.]
 (https://raw.githubusercontent.com/Codecademy/docs/main/media/linear-regressin-analysis.png)
 
 ## Codebyte Example
