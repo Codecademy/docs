@@ -1,6 +1,6 @@
 ---
-Title: 'Ordinary Least Squares' 
-Description: 'Uses Ordinary Least Squares (OLS) to perform linear regression in order to reduce prediction errors and evaluate associations between variables.' 
+Title: 'Ordinary Least Squares'
+Description: 'Uses Ordinary Least Squares (OLS) to perform linear regression in order to reduce prediction errors and evaluate associations between variables.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -10,12 +10,12 @@ Tags:
   - 'Data'
   - 'Linear Regression'
   - 'Machine Learning'
-CatalogContent: 
+CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science-foundations'
 ---
 
-**Ordinary least squares** (OLS) is a statistical method that reduces the sum of squared residuals to assess the correlation between independent and dependent variables. In linear regression, it is widely used to predict values and analyze correlations between variables.  
+**Ordinary least squares** (OLS) is a statistical method that reduces the sum of squared residuals to assess the correlation between independent and dependent variables. In linear regression, it is widely used to predict values and analyze correlations between variables.
 
 ## Syntax
 
@@ -48,7 +48,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Hours studied and corresponding test scores
-hours_studied = [1, 2, 3, 4, 5]  
+hours_studied = [1, 2, 3, 4, 5]
 test_scores = [50, 55, 60, 65, 70]
 
 # Add a constant to the independent variable
@@ -76,4 +76,5 @@ plt.legend()
 # Show the plot
 plt.show()
 ```
-[Regression plot](https://raw.githubusercontent.com/Codecademy/docs/main/media/ols-model-example.png)
+
+! [Regression plot](https://raw.githubusercontent.com/Codecademy/docs/main/media/ols-model-example.png)
