@@ -22,7 +22,6 @@ CatalogContent:
 Here's syntax to implement Ordinary Least Squares in Python:
 
 ```pseudo
-
 import statsmodels.api as sm  # Import the statsmodels library
 
 # Add a constant to the independent variable(s) for the intercept
