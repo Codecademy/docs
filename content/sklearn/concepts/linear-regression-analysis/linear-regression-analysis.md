@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/machine-learning'
 ---
 
-In sklearn,**Linear Regression Analysis** is a technique for simulating the relationship between a dependent variable and one or more independent variables. In simpler terms, it can use it to predict the value of one variable based on the value of another, assuming a linear relationship between them.
+In sklearn, **Linear Regression Analysis** is a machine learning technique used to predict a dependent variable based on one or more independent variables, assuming a linear relationship.
 
 In simple linear regression, we predict the dependent variable `Y` using a single independent variable `X`, fitting the data to a straight line, often called as the `regression line`. The equation for the line is:
 
