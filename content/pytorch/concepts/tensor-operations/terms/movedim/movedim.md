@@ -1,6 +1,6 @@
 ---
 Title: '.movedim()'
-Description: 'A function used to reorder the dimensions of a tensor.'
+Description: 'Returns a tensor with the dimensions moved from the positions specified in source to the positions specified in destination.'
 Subjects:
   - 'AI'
   - 'Data Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**`.movedim()`** is used to move specific dimension of the input to a specified position. The other dimensions that are not explicitly mentioned remain in the original order.
+In Pytorch, **`.movedim()`** is used to move specific dimensions of the input tensor to a specified positions, while the other dimensions that are not explicitly mentioned remain in their original order.
 
 ## Syntax
 
@@ -22,9 +22,9 @@ CatalogContent:
 torch.movedim(input, source, destination)
 ```
 
-- `input`: The input tensor.
-- `source`: Original position of the dimensions that need to move. It must be unique.
-- `destination`: Destination position for each of the original dimension. It must be unique.
+- `input`: The input tensor whose dimensions are to be rearranged.
+- `source`: The dimensions to be moved. Can be a single integer or a tuple of integers.
+- `destination`: The target positions for the dimensions specified in `source`. It should have the same length as `source`.
 
 ## Example
 
@@ -72,7 +72,7 @@ print("Three Dimensional tensor (Dim 2):")
 print(c2)
 print("\n")
 
-# Move dimensions [0, 1] to positions [2, 3]
+# Move dimensions [0, 1] to positions [2, 3] for 4D tensor
 d1 = torch.movedim(d, [0, 1], [2, 3])
 print("Four Dimensional tensor:")
 print(d1)
