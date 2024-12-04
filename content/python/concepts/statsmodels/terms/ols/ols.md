@@ -33,6 +33,7 @@ model = sm.OLS(y, X).fit()  # `OLS` function applied to y (dependent variable) a
 # Access the model summary
 model.summary()  # Method to get summary statistics
 ```
+
 - `sm.add_constant(x)`: Adds an intercept (constant term) to the independent variables X.
 - `sm.OLS(y, X)`: Creates the OLS model with y as the dependent variable and X as the independent variables.
 - `model.summary()`: Displays the model's results, including coefficients and `R-squared`values.
