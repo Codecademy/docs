@@ -91,8 +91,8 @@ Predictions: [1. 2. 3. 4. 5.]
 ## Codebyte Example
 
 ```codebyte/python
-
 import numpy as np
+import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
 # Example data: Hours studied (X) and scores (y)
