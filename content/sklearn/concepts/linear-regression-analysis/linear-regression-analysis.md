@@ -1,5 +1,5 @@
 ---
-Title: 'Linear Regresssion Analysis'
+Title: 'Linear Regression Analysis'
 Description: 'A machine learning technique that involves training a model to predict a dependent variable from one or more independent variables, assuming a linear relationship between them.'
 Subjects:
   - 'Data Science'
