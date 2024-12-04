@@ -1,6 +1,6 @@
 ---
 Title: '`enum`'
-Description: 'Represents a set of unique, immutable constants in Python.'
+Description: 'A class that defines a set of named values, providing a structured way to represent constant values in a readable manner.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -14,11 +14,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**`Enum`** (short for _enumeration_) is a data type in Python used to define a set of named, immutable constants.
+**`Enum`** (short for _enumeration_) is a class in Python used to define a set of named, immutable constants.
 
-Enumerations make code more readable and maintainable by replacing **magic numbers** or strings with meaningful names.
-
-Enums are part of Python's built in `enum` module, introduced in Python 3.4.
+Enumerations improve code readability and maintainability by replacing magic numbers or strings with meaningful names. Enums are part of Python's built-in `enum` module, introduced in Python 3.4.
 
 > **Note:** Magic numbers are unclear, hardcoded values in code. For example, `80` in a speed-checking program might be confusing. Replacing it with an enum constant, like `SpeedLimit.HIGHWAY`, makes the code easier to read and maintain.
 
@@ -38,19 +36,22 @@ class EnumName(Enum):
 
 ## `enum` Module
 
-The `enum` module provides the `Enum` class for creating enums. It also includes:
+The `enum` module provides the `Enum` class for creating enumerations. It also includes:
 
-- `IntEnum`: Ensures values are integers.
+- `IntEnum`: Ensures that the values of the enuemration are integers.
 - `Flag`: Allows combining constants with bitwise operations.
-- `Auto`: Automatically assigns values.
+- `Auto`: Automatically assigns values to the enumeration members.
 
-Enums provide methods like `.name` (the constant name) and `.value` (the assigned value).
+Enums also provide methods like:
+
+- `.name`: Returns the name of the enum member (as a string).
+- `.value`: Returns the value assigned to the enum member.
 
 ## Example
 
-This example shows how to create an enum for days of the week:
+This example demonstrates how to create an enum for days of the week with integer values:
 
-```python
+```py
 from enum import Enum
 
 class Weekday(Enum):
@@ -81,7 +82,7 @@ Weekday.WEDNESDAY
 
 ## Codebyte
 
-Here is how enums can represent traffic light states:
+This example demonstrates how enums can represent traffic light states and associate actions with each state:
 
 ```codebyte/python
 from enum import Enum
