@@ -1,6 +1,6 @@
 ---
 Title: 'Gaussian Processes'
-Description: 'Gaussian Processes is a supervised learning framework that predicts outcomes as distributions, assuming that any set of input points follows a joint Gaussian distribution.'
+Description: 'Gaussian Processes are a supervised learning framework that predicts outcomes as distributions, assuming any set of input points follows a joint Gaussian distribution.'
 
 Subjects:
   - 'Data Science'
