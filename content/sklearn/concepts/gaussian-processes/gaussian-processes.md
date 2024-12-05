@@ -31,13 +31,10 @@ from sklearn.gaussian_process.kernels import RBF
 
 # Define the Gaussian Process Regressor
 gp_regressor = GaussianProcessRegressor(kernel=RBF(), alpha=1e-10)
-
-# Fit the model on the training data (X) and labels (y)
-gp_regressor.fit(X, y)
-
-# Predict the mean and standard deviation for new data points
-y_pred, sigma = gp_regressor.predict(X_test, return_std=True)
 ```
+
+- `kernel`: Defines the covariance function of the Gaussian Process. For example, `RBF()` represents a radial basis function kernel, which measures similarity between points.
+- `alpha`: Adds noise to the diagonal of the covariance matrix, useful for handling numerical stability during regression.
 
 ### `GaussianProcessClassifier` 
 
@@ -46,13 +43,10 @@ from sklearn.gaussian_process import GaussianProcessClassifier
 
 # Define the Gaussian Process Classifier
 gp_classifier = GaussianProcessClassifier(kernel=None, n_restarts_optimizer=10)
-
-# Fit the model on the training data (X) and labels (y)
-gp_classifier.fit(X, y)
-
-# Predict class probabilities for new data points
-y_prob = gp_classifier.predict_proba(X_test)
 ```
+
+- `kernal`: Defines the covariance function of the Gaussian Process. If set to `None`, the classifier uses the default radial basis function (RBF) kernel.
+- `n_restarts_optimizer`: Specifies the number of restarts for the optimizer when finding the best hyperparameters. Increasing this value may improve performance at the cost of computation time.
 
 ## Example
 
