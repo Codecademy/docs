@@ -60,3 +60,18 @@ In this example, the cost is measured strictly using the heuristic value. In oth
 The total cost for the path (**P** -> **C** -> **U** -> **S**) evaluates to 11. The potential problem with a greedy best-first search is revealed by the path (**P** -> **R** -> **E** -> **S**) having a cost of 10, which is lower than (**P** -> **C** -> **U** -> **S**). Greedy best-first search ignored this path because it does not consider the edge weights.
 
 ![Greedy Best-first Search Final Example Graph](https://raw.githubusercontent.com/Codecademy/docs/main/media/greedy-best-first-search-final-example-graph.png)
+
+## Advantages
+
+- _Faster Exploration_: Expands nodes closer to the goal, often leading to faster solutions in large search spaces.
+- _Simple and Easy Implementation_: Simple to implement with only a heuristic function, making it quick to set up.
+- _Low Memory Usage_: Requires less memory since it stores only nodes close to the goal in the open list.
+- _Efficient for Certain Problems_: Works well when the heuristic is accurate and the goal is easily identified.
+
+## Disadvantages
+
+- _Non-optimal Solution_: Since the algorithm only considers the heuristic value and ignores edge weights, it may find a solution that is not the shortest or least costly. This can lead to suboptimal paths.
+- _Incomplete_: The search may fail to find a solution, especially if there are dead ends or if the goal node is unreachable. Greedy Best-First Search does not always explore all possible paths.
+- _Doesn't Consider Edge Weights_: By ignoring edge weights, the algorithm may miss paths that are less heuristic-optimal but ultimately cheaper in terms of cost. This can lead to inefficient pathfinding.
+- _Sensitive to Heuristic Quality_: The algorithm's effectiveness is heavily dependent on the accuracy of the heuristic function. A poorly designed heuristic can result in inefficient search or failure to find the goal.
+- _Can Get Stuck in Local Minima_: Greedy Best-First Search may get stuck in local minima, focusing too much on immediate low-cost paths and overlooking potentially better, longer paths that lead to the goal.
