@@ -1,13 +1,12 @@
 ---
-Title: 'GLM'
-Description: 'Generalized Linear Models (GLM) are a type of regression model that extends linear regression to include non-linear relationships between the independent and dependent variables.'
+Title: 'Generalized Linear Models'
+Description: 'GLM extends linear regression to handle non-linear relationships between variables.'
 Subjects:
   - 'Data Science'
   - 'Machine Learning'
 Tags:
   - 'Linear Regression'
   - 'Machine Learning'
-  - 'Mathematics'
   - 'Python'
   - 'Statistics'
   - 'Supervised Learning'
@@ -20,9 +19,9 @@ CatalogContent:
 
 ## Syntax
 
-GLMs in Python are typically implemented using the statsmodels library. Here's the basic syntax:
+GLMs in Python are typically implemented using the `statsmodels` library. Here's the basic syntax:
 
-```python
+```pseudo
 import statsmodels.api as sm
 
 # Fit the GLM model
@@ -47,9 +46,9 @@ Source: [statsmodels GLM documentation](https://www.statsmodels.org/stable/_modu
 
 ## Example
 
-Here's an example of fitting a GLM using the famous iris dataset to predict petal length.
+Here's an example of fitting a GLM using the famous `iris` dataset to predict petal length.
 
-```python
+```py
 import statsmodels.api as sm
 from sklearn.datasets import load_iris
 import numpy as np
@@ -75,7 +74,7 @@ prediction = results.predict(new_flower)
 print("\nPredicted petal length:", prediction[0])
 ```
 
-Here is the output of the above code:
+Here is the output of the code:
 
 ```shell
                  Generalized Linear Model Regression Results
@@ -100,11 +99,9 @@ x2            -1.3386      0.122    -10.940      0.000      -1.578      -1.099
 Predicted petal length: 1.6680197099857788
 ```
 
-Click here for more examples: [statsmodels GLM documentation](https://www.statsmodels.org/stable/glm.html)
-
 ## Codebyte Example
 
-Here's a practical example using GLM to predict house prices:
+Here's a codebyte example that demonstrates the use of GLM to predict house prices:
 
 ```codebyte/python
 import numpy as np
@@ -141,9 +138,9 @@ print("\nPredicted price for a 2000 sq ft house with 3 bedrooms:")
 print(f"${prediction[0]:,.2f}k")
 ```
 
-This example demonstrates:
+The example demonstrates:
 
-1. Creating realistic house data with square footage and number of bedrooms
-2. Generating prices based on: ($100k base + $200/sq ft + $50k/bedroom)
-3. Using GLM to predict house prices
-4. Making a practical prediction example for a specific house
+- Creating realistic house data with square footage and number of bedrooms.
+- Generating prices based on: ($100k base + $200/sq ft + $50k/bedroom).
+- Using GLM to predict house prices.
+- Making a practical prediction example for a specific house.
