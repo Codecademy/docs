@@ -31,7 +31,7 @@ $$
 
 ## Syntax
 
-Here's the basic syntax for implementing linear regression analysis in Python.
+Here's the basic syntax for implementing linear regression analysis in Python:
 
 ```pseudo
 from sklearn.linear_model import LinearRegression
