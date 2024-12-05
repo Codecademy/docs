@@ -13,17 +13,17 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Gaussian Processes** are a supervised learning framework that predicts outcomes as distributions, assuming any set of input points follows a joint Gaussian distribution. 
+**Gaussian Processes** are a supervised learning framework that predicts outcomes as distributions, assuming any set of input points follows a joint Gaussian distribution.
 
-They are beneficial for modeling complex relationships and estimating the confidence of predictions. 
+They are beneficial for modeling complex relationships and estimating the confidence of predictions.
 
 Gaussian Processes are implemented in Scikit-learn via **`GaussianProcessRegressor`** and **`GaussianProcessClassifier`**.
 
 ## Syntax
 
-[Scikit-learn](https://www.codecademy.com/resources/docs/sklearn) provides the general [`sklearn.gaussian_process`](https://scikit-learn.org/stable/modules/gaussian_process.html) class for implementing all the essential Gaussian Processes. 
+[Scikit-learn](https://www.codecademy.com/resources/docs/sklearn) provides the general [`sklearn.gaussian_process`](https://scikit-learn.org/stable/modules/gaussian_process.html) class for implementing all the essential Gaussian Processes.
 
-Under this class, you can use the [`GaussianProcessRegressor`](https://scikit-learn.org/stable/modules/generated/sklearn.gaussian_process.GaussianProcessRegressor.html#sklearn.gaussian_process.GaussianProcessRegressor) class for regression tasks, and the [`GaussianProcessClassifier`](https://scikit-learn.org/stable/modules/generated/sklearn.gaussian_process.GaussianProcessClassifier.html#sklearn.gaussian_process.GaussianProcessClassifier) class for classification tasks. 
+Under this class, you can use the [`GaussianProcessRegressor`](https://scikit-learn.org/stable/modules/generated/sklearn.gaussian_process.GaussianProcessRegressor.html#sklearn.gaussian_process.GaussianProcessRegressor) class for regression tasks, and the [`GaussianProcessClassifier`](https://scikit-learn.org/stable/modules/generated/sklearn.gaussian_process.GaussianProcessClassifier.html#sklearn.gaussian_process.GaussianProcessClassifier) class for classification tasks.
 
 Here is the basic syntax for using them:
 
@@ -40,7 +40,7 @@ gp_regressor = GaussianProcessRegressor(kernel=RBF(), alpha=1e-10)
 - `kernel`: Defines the covariance function of the Gaussian Process. For example, `RBF()` represents a radial basis function kernel, which measures similarity between points.
 - `alpha`: Adds noise to the diagonal of the covariance matrix, useful for handling numerical stability during regression.
 
-### `GaussianProcessClassifier` 
+### `GaussianProcessClassifier`
 
 ```pseudo
 from sklearn.gaussian_process import GaussianProcessClassifier
