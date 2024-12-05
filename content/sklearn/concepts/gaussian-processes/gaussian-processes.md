@@ -15,7 +15,7 @@ CatalogContent:
 
 **Gaussian Processes** are a supervised learning framework that predicts outcomes as distributions, assuming any set of input points follows a joint Gaussian distribution. 
 
-They are beneficial for modelling complex relationships and estimating the confidence of predictions. 
+They are beneficial for modeling complex relationships and estimating the confidence of predictions. 
 
 Gaussian Processes are implemented in Scikit-learn via **`GaussianProcessRegressor`** and **`GaussianProcessClassifier`**.
 
@@ -45,7 +45,7 @@ from sklearn.gaussian_process import GaussianProcessClassifier
 gp_classifier = GaussianProcessClassifier(kernel=None, n_restarts_optimizer=10)
 ```
 
-- `kernal`: Defines the covariance function of the Gaussian Process. If set to `None`, the classifier uses the default radial basis function (RBF) kernel.
+- `kernel`: Defines the covariance function of the Gaussian Process. If set to `None`, the classifier uses the default radial basis function (RBF) kernel.
 - `n_restarts_optimizer`: Specifies the number of restarts for the optimizer when finding the best hyperparameters. Increasing this value may improve performance at the cost of computation time.
 
 ## Example
