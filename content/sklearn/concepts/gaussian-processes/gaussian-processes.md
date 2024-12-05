@@ -1,6 +1,6 @@
 ---
 Title: 'Gaussian Processes'
-Description: 'Gaussian Processes are a supervised learning framework that predicts outcomes as distributions, assuming any set of input points follows a joint Gaussian distribution.'
+Description: 'Predicts outcomes as distributions, assuming any set of input points follows a joint Gaussian distribution.'
 Subjects:
   - 'Data Science'
   - 'Machine Learning'
@@ -21,7 +21,11 @@ Gaussian Processes are implemented in Scikit-learn via **`GaussianProcessRegress
 
 ## Syntax
 
-[Scikit-learn](https://www.codecademy.com/resources/docs/sklearn) provides the general [`sklearn.gaussian_process`](https://scikit-learn.org/stable/modules/gaussian_process.html) class for implementing all the essential Gaussian Processes. Under this class, you can use the [`GaussianProcessRegressor`](https://scikit-learn.org/stable/modules/generated/sklearn.gaussian_process.GaussianProcessRegressor.html#sklearn.gaussian_process.GaussianProcessRegressor) class for regression tasks, and the [`GaussianProcessClassifier`](https://scikit-learn.org/stable/modules/generated/sklearn.gaussian_process.GaussianProcessClassifier.html#sklearn.gaussian_process.GaussianProcessClassifier) class for classification tasks. Here is the basic syntax for using them:
+[Scikit-learn](https://www.codecademy.com/resources/docs/sklearn) provides the general [`sklearn.gaussian_process`](https://scikit-learn.org/stable/modules/gaussian_process.html) class for implementing all the essential Gaussian Processes. 
+
+Under this class, you can use the [`GaussianProcessRegressor`](https://scikit-learn.org/stable/modules/generated/sklearn.gaussian_process.GaussianProcessRegressor.html#sklearn.gaussian_process.GaussianProcessRegressor) class for regression tasks, and the [`GaussianProcessClassifier`](https://scikit-learn.org/stable/modules/generated/sklearn.gaussian_process.GaussianProcessClassifier.html#sklearn.gaussian_process.GaussianProcessClassifier) class for classification tasks. 
+
+Here is the basic syntax for using them:
 
 ### `GaussianProcessRegressor`
 
