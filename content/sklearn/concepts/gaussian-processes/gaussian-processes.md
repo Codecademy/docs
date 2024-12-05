@@ -13,7 +13,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Gaussian Processes** are a supervised learning framework for regression and classification. They predict outcomes while quantifying uncertainty, assuming that all input points follow a joint Gaussian distribution. This property makes them particularly useful for modeling complex relationships and estimating the confidence of predictions. Gaussian Processes are implemented in Scikit-learn via **GaussianProcessRegressor** and **GaussianProcessClassifier**.
+**Gaussian Processes** are a supervised learning framework that predicts outcomes as distributions, assuming any set of input points follows a joint Gaussian distribution. 
+
+They are beneficial for modelling complex relationships and estimating the confidence of predictions. 
+
+Gaussian Processes are implemented in Scikit-learn via **`GaussianProcessRegressor`** and **`GaussianProcessClassifier`**.
 
 ## Syntax
 
