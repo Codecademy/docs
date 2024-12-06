@@ -1,6 +1,6 @@
 ---
 Title: '.dstack()'
-Description: 'Stacks a set of tensors depthwise or along the third axis.'
+Description: 'Stacks a sequence of tensors depthwise along the third axis, creating a new tensor.'
 Subjects:
   - 'AI'
   - 'Data Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'py-torch-for-classification'
 ---
 
-In PyTorch, the **`.dstack()`** function stacks a set of tensors depthwise or along the third axis.
+In PyTorch, the **`.dstack()`** function stacks a sequence of tensors depthwise, i.e., along the third axis (axis=2), creating a new tensor.
 
 ## Syntax
 
@@ -22,8 +22,8 @@ In PyTorch, the **`.dstack()`** function stacks a set of tensors depthwise or al
 torch.dstack(tensors, *, out=None)
 ```
 
-- `tensors`: The set of tensors to be stacked depthwise.
-- `out`: The optional tensor to be used for storing the output.
+- `tensors`: A sequence (e.g., list or tuple) of tensors to be stacked depthwise along the third axis.
+- `out` (Optional): A tensor where the output will be stored, if provided.
 
 ## Example
 
