@@ -45,5 +45,9 @@ An optional title can also be added after the URL, still in the parentheses:
 To add a link to an image, enclose the Markdown for the image in brackets, and then add the link in parentheses.
 
 ```md
-[![A mushroom-head robot](/assets/images/codey.jpg 'Codey the Codecademy mascot')](https://codecademy.com)
+[![A mushroom-head robot drinking bubble tea](/assets/images/codey.jpg 'Codey the Codecademy mascot drinking bubble tea')](https://codecademy.com)
 ```
+
+The above example results in the following linked image:
+
+![A mushroom-head robot drinking bubble tea](https://raw.githubusercontent.com/Codecademy/docs/main/media/codey.jpg 'Codey the Codecademy mascot drinking bubble tea')
