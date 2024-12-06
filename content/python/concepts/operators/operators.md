@@ -74,6 +74,12 @@ Python has the following logical operators:
 - The `or` operator returns `True` if either statement is `True`.
 - The `not` operator returns `True` if its associated statement is `False`.
 
+## Ternary Operators
+
+Python has the following ternary operators:
+
+
+
 ## Order of Operations
 
 Python evaluates an expression in order of precedence as follows:
