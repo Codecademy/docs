@@ -50,4 +50,4 @@ To add a link to an image, enclose the Markdown for the image in brackets, and t
 
 The above example results in the following linked image:
 
-[![A mushroom-head robot drinking bubble tea](https://raw.githubusercontent.com/Codecademy/docs/main/media/codey.jpg 'Codey the Codecademy mascot drinking bubble tea')](https://codecademy.com)
+![A mushroom-head robot drinking bubble tea](https://raw.githubusercontent.com/Codecademy/docs/main/media/codey.jpg 'Codey the Codecademy mascot drinking bubble tea')
