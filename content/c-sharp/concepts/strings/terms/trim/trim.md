@@ -33,19 +33,25 @@ using System;
 
 public class Example
 {
-  public static void Main()
-  {
-    string str = " Codecademy ";
+    public static void Main()
+    {
+        string str = " Codecademy ";
 
-    Console.WriteLine(str);
-  }
+        // Using the Trim() method
+        string trimmedStr = str.Trim();
+
+        // Printing the results
+        Console.WriteLine($"Original: '{str}'");
+        Console.WriteLine($"Trimmed: '{trimmedStr}'");
+    }
 }
 ```
 
 The above code produces the following output:
 
 ```shell
-Codecademy
+Original: ' Codecademy '
+Trimmed: 'Codecademy'
 ```
 
 ## Codebyte Example
@@ -57,11 +63,16 @@ using System;
 
 public class CodebyteExample
 {
-  public static void Main()
-  {
-    string str = " Programming ";
+    public static void Main()
+    {
+        string str = " Programming ";
 
-    Console.WriteLine(str);
-  }
+        // Using the Trim() method
+        string trimmedStr = str.Trim();
+
+        // Printing the results
+        Console.WriteLine($"Original: '{str}'");
+        Console.WriteLine($"Trimmed: '{trimmedStr}'");
+    }
 }
 ```
