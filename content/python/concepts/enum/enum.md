@@ -1,5 +1,5 @@
 ---
-Title: '`enum`'
+Title: 'enum'
 Description: 'A class that defines a set of named values, providing a structured way to represent constant values in a readable manner.'
 Subjects:
   - 'Code Foundations'
@@ -14,9 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**`Enum`** (short for _enumeration_) is a class in Python used to define a set of named, immutable constants.
-
-Enumerations improve code readability and maintainability by replacing magic numbers or strings with meaningful names. Enums are part of Python's built-in `enum` module, introduced in Python 3.4.
+**`Enum`** (short for _enumeration_) is a class in Python used to define a set of named, immutable constants. Enumerations improve code readability and maintainability by replacing magic numbers or strings with meaningful names. Enums are part of Python's built-in `enum` module, introduced in Python 3.4.
 
 > **Note:** Magic numbers are unclear, hardcoded values in code. For example, `80` in a speed-checking program might be confusing. Replacing it with an enum constant, like `SpeedLimit.HIGHWAY`, makes the code easier to read and maintain.
 
