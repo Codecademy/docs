@@ -22,7 +22,7 @@ In Kotlin, the **`.reverse()`** [function](https://www.codecademy.com/resources/
 arr.reverse()
 ```
 
-- `arr`: The array in which the order of the elements is to be reversed.
+- `arr`: A mutable array whose elements will be reversed in place.
 
 ## Example
 
@@ -37,12 +37,12 @@ fun main() {
   arr.reverse()
 
   // Printing the modified array
-  println("$arr")
+  println(arr.contentToString())
 }
 ```
 
 The above code produces the following output:
 
 ```shell
-19,15,11,7,3
+[19, 15, 11, 7, 3]
 ```
