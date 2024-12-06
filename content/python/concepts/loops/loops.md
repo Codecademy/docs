@@ -118,6 +118,18 @@ for i in big_number_list:
   print(i)
 ```
 
+## Pass Keyword
+
+The `pass` keyword is used as a placeholder statement to allow empty functions or classes to be included in an executable code block without throwing an error. This is common when structuring future implementations.
+
+```py
+def my_function():
+  pass  # Placeholder for future implementation
+
+class MyClass:
+  pass  # Placeholder for an empty class
+```
+
 ## Video Walkthrough
 
 In this video, you will learn how to use the for and while loops in a Python script.
