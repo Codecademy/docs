@@ -33,8 +33,7 @@ def function_name(parameter_name: parameter_type) -> return_type:
 
 ### Commonly Used Type Hints
 
-- `int`, `float`, `str`, `bool`: These are basic data types.
--`List[ElementType]`: This is a list containing elements of `ElementType`.
+- `int`, `float`, `str`, `bool`: These are basic data types. -`List[ElementType]`: This is a list containing elements of `ElementType`.
 - `Dict[KeyType, ValueType]`: This is a dictionary with keys of `KeyType` and values of `ValueType`.
 - `Union[Type1, Type2]`: This is a value that can be of either `Type1` or `Type2`.
 - `Optional[Type]`: This indicates that a value can be of `Type` or `None`.
@@ -52,7 +51,7 @@ def process_data(data: List[Dict[str, Union[int,str]]]) -> List[str]:
 
     Args:
         data (List[Dict[str, Union[int,str]]]): A list of dictionaries with string keys and integer or string values.
-    
+
     Returns:
         List[str]: A list of string values extracted from the dictionaries.
     """
@@ -88,7 +87,7 @@ def greet(name: Optional[str] = None) -> str:
     """
     Args:
         name (Optional[str]): Name of the person to greet. Defaults to None.
-    
+
     Returns:
         str: A greeting message.
     """
