@@ -22,7 +22,7 @@ Enumerations improve code readability and maintainability by replacing magic num
 
 ## Syntax
 
-```python
+```pseudo
 from enum import Enum
 
 class EnumName(Enum):
