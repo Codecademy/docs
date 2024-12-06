@@ -45,4 +45,4 @@ This is the original image:
 
 This is the original image with the sepia filter applied:
 
-![Sepia-filtered road through the trees in fall](https://raw.githubusercontent.com/Codecademy/docs/main/media/sepia-example-filtered.jpg)
+![Sepia-filtered road through the trees in fall](https://raw.githubusercontent.com/Codecademy/docs/main/media/sepia-example-filtered.png)
