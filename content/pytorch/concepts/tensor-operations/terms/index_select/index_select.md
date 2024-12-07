@@ -1,6 +1,6 @@
 ---
 Title: '.index_select()'
-Description: 'Extract specific elements from a tensor and return a new tensor.'
+Description: 'Extract specific elements from a tensor based on indices and return a new tensor.'
 Subjects:
   - 'AI'
   - 'Data Science'
