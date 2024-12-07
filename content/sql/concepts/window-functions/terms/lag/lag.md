@@ -87,7 +87,7 @@ FROM Promotions;
 
 The output is a table that features a new column `previous_position`, which holds the values by employee. The first record is null because a default was not specified and the previous row would be out of range.
 
-The above code generates the below output:
+The above code generates the following output:
 
 | employee_id | promotion_date | new_position | previous_position |
 | ----------- | -------------- | ------------ | ----------------- |
