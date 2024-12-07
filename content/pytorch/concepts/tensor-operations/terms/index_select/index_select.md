@@ -27,7 +27,7 @@ torch.index_select(input, dim, index, out)
 - `index`: The 1-D tensor containing the indices to select.
 - `out` (optional): The output tensor where the result will be stored.
 
-Note: If the result is to be stored in an existing tensor, the output tensor can be specified using the optional out argument.
+>**Note:** If the result is to be stored in an existing tensor, the output tensor can be specified using the optional `out` argument.
 
 ## Example
 
