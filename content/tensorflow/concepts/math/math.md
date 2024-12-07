@@ -49,13 +49,14 @@ Element-wise operations are operations applied to each element of a tensor indiv
 ```py
 import tensorflow as tf
 
-a = tf.constant([1, 2, 3])
+a = tf.constant([1, 2, 3], dtype=tf.float32)
 
 # Element-wise operations
 
 tf.math.pow(a, 2)  # Element-wise power
 tf.math.sqrt(a)  # Element-wise square root
 tf.math.abs(a)  # Element-wise absolute value
+
 ```
 
 ## Trigonometric Functions
