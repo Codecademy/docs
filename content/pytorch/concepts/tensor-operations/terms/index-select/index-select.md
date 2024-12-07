@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**`Index_select()`** extracts specific elements (rows, columns) from a tensor tand returns a new tensor. 
+**`Index_select()`** extracts specific elements (rows, columns) from a tensor and returns a new tensor.
 
 ## Syntax
 
@@ -27,7 +27,7 @@ torch.index_select(input, dim, index, out)
 - `index`: The 1-D tensor containing the indices to select.
 - `out` (optional): The output tensor where the result will be stored.
 
->**Note:** If the result is to be stored in an existing tensor, the output tensor can be specified using the optional `out` argument.
+> **Note:** If the result is to be stored in an existing tensor, the output tensor can be specified using the optional `out` argument.
 
 ## Example
 
@@ -44,11 +44,11 @@ ten = torch.tensor([[1, 2, 3, -8],
 
 indices = torch.tensor([0, 2])
 
-#Define a new tensor using index_select 
+#Define a new tensor using index_select
 r = torch.index_select(ten, 0, indices)
 print(r)
 
-#Define a new tensor using index_select 
+#Define a new tensor using index_select
 c = torch.index_select(ten, 1, indices)
 print(c)
 ```
