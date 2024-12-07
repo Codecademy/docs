@@ -135,7 +135,8 @@ tf.math.not_equal(a, b)  # Element-wise inequality
 
 ## Special Functions
 
-TensorFlow offers a variety of special mathematical functions such as Bessel functions, error functions, and gamma functions. These functions are useful for advanced mathematical computations. Here are some examples of special functions in TensorFlow:
+TensorFlow offers a variety of special mathematical functions such as `Bessel` functions, `error` functions, and `gamma` functions. These functions are useful for advanced mathematical computations. Here are some examples of special functions in TensorFlow:
+
 
 ```py
 import tensorflow as tf
