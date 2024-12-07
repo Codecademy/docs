@@ -208,6 +208,13 @@ Feel free to add suggestions for new slugs to the lists as part of your PR! Be s
 - 'paths/machine-learning'
 ```
 
+### TensorFlow
+
+```
+- 'intro-to-tensorflow'
+- 'tensorflow-for-deep-learning'
+```
+
 ### Python:Seaborn
 
 ```
