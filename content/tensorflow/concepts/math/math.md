@@ -117,7 +117,7 @@ tf.math.reduce_min(a)  # Minimum value
 
 ## Comparison Operations
 
-TensorFlow supports comparison operations that can be used to compare tensor elements and return boolean values based on the comparison results. Here are some examples of comparison operations in TensorFlow:
+TensorFlow supports comparison operations that compare tensor elements and return boolean values based on the comparison results. Here are some examples of comparison operations in TensorFlow:
 
 ```py
 import tensorflow as tf
