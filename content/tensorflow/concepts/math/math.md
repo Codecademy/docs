@@ -19,7 +19,8 @@ CatalogContent:
 In TensorFlow, **math operations** are fundamental for performing various mathematical computations on tensors. Tensors are multi-dimensional arrays that can be manipulated using various operations.
 
 
-TensorFlow offers a rich set of mathematical operations under the `tf.math` module. These operations include arithmetic operations, trigonometric functions, exponential functions, and more.
+TensorFlow offers a rich set of mathematical operations under the `tf.math` module. These operations include including arithmetic, trigonometric and exponential functions, and more.
+
 
 Here are some of the key mathematical operations available in TensorFlow:
 
