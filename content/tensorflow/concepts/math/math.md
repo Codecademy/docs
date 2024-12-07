@@ -82,7 +82,8 @@ tf.math.atan(a)  # Element-wise arctangent
 
 ## Exponential and Logarithmic Functions
 
-TensorFlow provides functions for computing exponentials and logarithms of tensor elements. These functions are commonly used in mathematical and scientific computations. Here are some examples of exponential and logarithmic functions in TensorFlow:
+TensorFlow offers functions to compute exponentials and logarithms of tensor elements, widely used in mathematical and scientific computations. Here are some examples of exponential and logarithmic functions in TensorFlow:
+
 
 ```py
 import tensorflow as tf
