@@ -1,5 +1,6 @@
 ---
-Title: 'Math Operations'
+Title: 'Math'
+
 Description: 'Performing mathematical computations on tensors using TensorFlow.'
 Subjects:
     - 'AI'
