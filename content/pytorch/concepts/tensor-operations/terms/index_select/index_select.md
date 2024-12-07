@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**`Index_select()`** is used to extract specific elements (rows, columns) from the tensor to return a new tensor. 
+**`Index_select()`** extracts specific elements (rows, columns) from a tensor tand returns a new tensor. 
 
 ## Syntax
 
