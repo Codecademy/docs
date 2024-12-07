@@ -13,16 +13,16 @@ CatalogContent:
 ---
 
 **Decision Trees** are intuitive machine learning algorithms that can be used for classification and regression tasks. They work by recursively splitting data into subsets based on feature values, building a tree-like structure of decisions to predict an output. Decision trees are widely favored for their ease of use and clarity in interpretation.
-In scikit-learn, decision trees are implemented in the `DecisionTreeClassifier` and `DecisionTreeRegressor` classes. They can handle both numerical and categorical data, and support advanced features like pruning and handling missing values.
+In [sklearn](https://www.codecademy.com/resources/docs/sklearn), decision trees are implemented in the `DecisionTreeClassifier` and `DecisionTreeRegressor` classes. They can handle both numerical and categorical data, and support advanced features like pruning and handling missing values.
 
-## Advantages of Decision Trees:
+## Advantages of Decision Trees
 
 - Easy to understand and interpret.
 - Handles both numerical and categorical data.
 - Requires minimal data preprocessing (e.g., no need for feature scaling).
 - Can model non-linear relationships.
 
-## Limitations:
+## Limitations
 
 - Prone to overfitting without proper pruning.
 - Sensitive to small changes in the data, which can lead to different tree structures.
