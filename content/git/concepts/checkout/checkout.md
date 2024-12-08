@@ -23,7 +23,13 @@ Checkout with branches:
 ```pseudo
 git checkout [options] <branch-name>
 ```
-Checkout with a specific commit:
+- `<branch-name>` specifies the name of the branch to switch to or create.
+- `[options]` optional flags that can be used with the checkout command. Below, a couple of the most commonly used one:
+  - `-b` creates a new branch with the specified name and switches to it immediately. 
+  - `-` returns to the previously checked-out branch.
+  - `-f` (--force) forces the checkout, discarding any local changes in the working directory.
+
+Checkout to a specific commit:
 ```pseudo
 git checkout <commit-hash>
 ```
