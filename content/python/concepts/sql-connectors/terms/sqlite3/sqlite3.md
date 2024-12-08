@@ -97,7 +97,7 @@ result.fetchall()
 
 ## Close the connection
 
-After all transactions are completed, the connection should be closed with **`.close()`**.
+After completing all the transactions, connection can be closed with **`.close()`**.
 
 ```py
 connection.close()
