@@ -1,6 +1,6 @@
 ---
 Title: 'SQLite3'
-Description: 'SQLite is an SQL database engine written in C, designed for embedding in applications and systems.'
+Description: 'SQLite is a lightweight SQL database engine written in C, designed for embedding in applications and systems.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
