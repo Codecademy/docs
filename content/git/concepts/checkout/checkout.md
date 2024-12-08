@@ -34,9 +34,6 @@ The following command will switch to an already existing branch, created previou
 git checkout existing-branch
 ```
 > **Note**: From Git 2.23, the new specific `git switch` command has been introduced to switch branches, making it clearer and safer than `git checkout` because it avoids the ambiguity of the latter's multi-purpose nature.
-```pseudo
-git switch existing-branch
-```
 
 ## Create and switch to a new branch
 
