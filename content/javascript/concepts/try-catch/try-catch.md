@@ -1,6 +1,6 @@
 ---
 Title: 'Try/Catch'
-Description: 'The try...catch...finally statement defines one block of code to execute, a second block of code to be executed if the first block throws an exception, and a third block of code to be executed regardless of the error status. The catch and finally blocks of code are optional, but any try blocks must be followed by one or the other. javascript try { // Statements here are executed until an exception is thrown } catch (err) {'
+Description: 'The try...catch...finally statement aids in error testing and handling. All try blocks must be followed by either catch,  finally, or both. javascript try { // Statements here are executed until an exception is thrown } catch (err) {'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -16,9 +16,9 @@ CatalogContent:
   - 'paths/create-a-back-end-app-with-javascript'
 ---
 
-The `try...catch...finally` statement defines one block of code to execute and test for possible errors, a second block of code to handle errors that may be present in the try block, and a third block of code to be executed regardless of the error status.
+The `try...catch...finally` statement aids in error testing and handling. 
 
-The `catch` and `finally` blocks of code are optional, but any `try` blocks must be followed by one or the other.
+All `try` blocks must be followed by either `catch`,  `finally`, or both.
 
 ## Syntax
 
