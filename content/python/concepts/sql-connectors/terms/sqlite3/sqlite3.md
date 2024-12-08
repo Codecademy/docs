@@ -36,7 +36,7 @@ con = sqlite3.connect("mydb_db.db")
 
 ## Create a cursor
 
-A cursor is required to execute SQL statements. The function **`.cursor()`** creates one.
+A cursor is required to execute SQL statements, and the  **`.cursor()`** function creates one.
 
 ```py
 curs = connection.cursor()
