@@ -105,7 +105,7 @@ connection.close()
 
 ## Codebyte Example
 
-The complete example for tinkering.
+"An example showing how to connect to an `SQLite` database, `create a table`, `insert/query data`, and `close the connection.`"
 
 ```codebyte/python
 import sqlite3
