@@ -87,7 +87,7 @@ con.commit()
 
 ## Check the inserted rows
 
-In order to check all inserted rows, the function **`.fetchall()`** can be used.
+To check all inserted rows, the  **`.fetchall()`**  function can be used.
 
 ```py
 result = cursor.execute("SELECT * FROM persons")
