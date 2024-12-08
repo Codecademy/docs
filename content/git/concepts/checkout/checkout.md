@@ -1,6 +1,6 @@
 ---
 Title: 'Checkout'
-Description: 'The git checkout command switches branches or restores files in the working directory to a specific state.'
+Description: 'The git checkout command switches, creates and restores branches in the working directory to a specific state.'
 Subjects: 
   - 'Bash/Shell'
   - 'Developer Tools'
