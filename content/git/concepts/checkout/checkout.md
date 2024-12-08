@@ -8,9 +8,9 @@ Tags:
   - 'Git'
   - 'GitHub'
 CatalogContent:
-  - 'learn-the-command-line'
   - 'learn-git'
-  - 'learn-github-best-practices'
+  - 'learn-the-command-line'
+  - 'paths/computer-science'
 ---
 
 The git **`checkout`** command switches, create and restore branches in the working directory to a specific state. 
