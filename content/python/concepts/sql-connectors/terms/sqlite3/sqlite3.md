@@ -26,7 +26,7 @@ The **`sqlite3`** library handles the communication with the databases.
 
 ## Create a connection
 
-To work with database, first connect to it using **`.connect()`** function.
+To work with a database, first connect to it using **`.connect()`** function.
 
 ```py
 import sqlite3
