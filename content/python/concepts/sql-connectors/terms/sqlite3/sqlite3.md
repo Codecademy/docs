@@ -66,7 +66,7 @@ curs.execute('''INSERT INTO persons VALUES(
 
 ## Insert many values into the table
 
-In order to insert many values into the table, the SQL statement is executed with the **`.executemany()`** function and in addition with an array.
+ To insert multiple values into the table, execute the SQL statement using the **`.executemany()`** function with an array of values.
 
 ```py
 new_persons = [('Bob', 26, 'male'),
