@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The git **`checkout`** command switches, create and restore branches in the working directory to a specific state. 
+The git **`checkout`** command switches, creates and restores branches in the working directory to a specific state. 
 
 It is also possible to checkout to a specific commit without changing branches.
 
