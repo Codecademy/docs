@@ -15,7 +15,7 @@ CatalogContent:
 
 The git **`checkout`** command switches, creates and restores branches in the working directory to a specific state. 
 
-It is also possible to checkout to a specific commit without changing branches.
+The `git checkout` command also allows switching to a specific commit without changing branches.
 
 ## Syntax
 
@@ -54,7 +54,7 @@ Temporarily move to a specific commit without changing branches. This status is 
 ```pseudo
 git checkout <commit-hash>
 ```
-The detached HEAD state allow to:
+The detached HEAD state allows to:
 - Examine the state of the repository at that specified commit.
-- Create new branches if the develop needs to start from that point.
-- Any code changes on this state will not be associated with any existing branch unless one is created.
+- Create new branches if the developer needs to start from that point.
+- Any code changes made in this state will not be associated with any existing branch unless a new branch is created.
