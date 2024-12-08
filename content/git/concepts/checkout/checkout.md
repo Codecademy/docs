@@ -44,10 +44,6 @@ It is possible to create and switch to a new branch with a single command, using
 ```pseudo
 git checkout -b new-branch
 ```
-or, alternatively, from Git 2.23:
-```pseudo
-git switch -c new-branch
-```
 
 ## Restore a file from a specific commit
 
