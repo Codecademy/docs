@@ -48,10 +48,6 @@ Restore a file from a specific commit using its hash:
 ```pseudo
 git checkout <commit-hash> -- example.txt
 ```
-Please, note that from Git 2.23, the new specific `git restore` command has been introduced to restore files from a specific commit:
-```pseudo
-git restore --source <commit-hash> -- example.txt
-```
 
 ## Examine a Previous Commit
 Temporarily move to a specific commit without changing branches. This status is called `detached HEAD state`:
