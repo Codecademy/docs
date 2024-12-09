@@ -22,13 +22,13 @@ CatalogContent:
    - A simple baseline technique that removes features with variance below a predefined threshold.
    - Features with very low variance across samples typically contribute little to the predictive power of the model.
 
-2.  Univariate Feature Selection
-- Selects features based on univariate statistical tests.
-- Commonly used methods include `SelectKBest` and `SelectPercentile`.
-- Example tests:
-  - `f_classif`: For classification tasks, calculates the ANOVA F-value.
-  - `chi2`: For non-negative feature values in classification.
-  - `mutual_info_classif`: Captures non-linear dependencies for classification.
+2.  **Univariate Feature Selection**
+    - Selects features based on univariate statistical tests.
+    - Commonly used methods include `SelectKBest` and `SelectPercentile`.
+    - Example tests:
+        - `f_classif`: For classification tasks, calculates the ANOVA F-value.
+        - `chi2`: For non-negative feature values in classification.
+        - `mutual_info_classif`: Captures non-linear dependencies for classification.
 
 3. Recursive Feature Elimination (RFE)
 - Iteratively fits a model and removes the least important features, refining the subset with each iteration.
