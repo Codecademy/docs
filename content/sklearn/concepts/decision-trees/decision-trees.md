@@ -36,15 +36,21 @@ Below is an example syntax of decision tree classifier:
 ```pseudo
 from sklearn.tree import DecisionTreeClassifier
 
-# Initializing the Decision Tree Classifier
-model = DecisionTreeClassifier()
+# Initialize the Decision Tree Classifier with common parameters
+model = DecisionTreeClassifier(criterion='gini', max_depth=None, random_state=None, min_samples_split=2, min_samples_leaf=1)
 
-# Fitting the model to the training data
+# Fit the model to the training data
 model.fit(X_train, y_train)
 
-# Making predictions on test data
+# Make predictions on the test data
 y_pred = model.predict(X_test)
 ```
+
+- `criterion `: Specifies the metric to evaluate split quality (`'gini'` for Gini Impurity, `'entropy'` for Information Gain).
+- `max_depth`: Sets the maximum depth of the tree to control model complexity and prevent overfitting.
+- `random_state`: Ensures reproducibility by setting the random seed for consistent results.
+- `min_samples_split`: Minimum number of samples required to split an internal node, controlling when splitting occurs.
+- `min_samples_leaf`: Minimum number of samples required at a leaf node, ensuring leaves aren’t too small.
 
 ## Example
 
@@ -80,4 +86,4 @@ The code above generates an output as follows:
 Accuracy: 0.9333
 ```
 
-> **Note**: The output may vary based on dataset randomness, train-test split, hyperparameters, or changes in scikit-learn and execution environment.
+> **Note**: The output may change based on dataset randomness, train-test split, hyperparameters, or changes in sklearn and execution environment.
