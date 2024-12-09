@@ -18,9 +18,9 @@ CatalogContent:
 
 ## Types of Feature Selection in Sklearn
 
-1. Variance Threshold
-- A simple baseline technique that removes features with variance below a predefined threshold.
-- Features with very low variance across samples typically contribute little to the predictive power of the model.
+1. **Variance Threshold**
+   - A simple baseline technique that removes features with variance below a predefined threshold.
+   - Features with very low variance across samples typically contribute little to the predictive power of the model.
 
 2.  Univariate Feature Selection
 - Selects features based on univariate statistical tests.
