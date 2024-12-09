@@ -12,7 +12,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Feature Selection** is a critical step in machine learning pipelines that focuses on identifying the most significant features in a dataset. By removing irrelevant or redundant features, feature selection improves model performance, reduces overfitting, and decreases computation time. [Sklearn](https://www.codecademy.com/resources/docs/sklearn) offers a variety of methods for feature selection, including statistical tests, model-based selection, and iterative approaches.
+**Feature Selection** is a critical step in machine learning that helps identify a dataset's most relevant features, improving model performance, reducing overfitting, and decreasing computation time. 
+
+[Sklearn](https://www.codecademy.com/resources/docs/sklearn) offers various methods for feature selection, including statistical tests, model-based selection, and iterative approaches.
 
 ## Types of Feature Selection in Sklearn
 
