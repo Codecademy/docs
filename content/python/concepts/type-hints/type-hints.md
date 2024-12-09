@@ -1,12 +1,12 @@
 ---
 Title: 'Type Hints'
-Description: 'Specify expected data types for variables, function arguments, and return values, improving code readability and aiding static analysis'
+Description: 'Specify expected data types for variables, function arguments, and return values, improving code readability and aiding static analysis.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
   - 'Python'
-  - 'Type Guard'
+  - 'Types'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
@@ -14,7 +14,9 @@ CatalogContent:
 
 **Type hints** in Python are a feature that allows developers to specify the expected data types of variables, function arguments, and return values. It was introduced in Python 3.5.
 
-> **Note:** Type hints are part of the **`typing` module**, which provides a comprehensive set of tools for type annotations.
+> **Note**: Type hints are part of the **`typing` module**, which provides a comprehensive set of tools for type annotations.
+
+Type hints help developers write more robust code by allowing tools like linters and IDEs to catch type-related errors before runtime.
 
 ## Syntax
 
@@ -33,10 +35,13 @@ def function_name(parameter_name: parameter_type) -> return_type:
 
 ### Commonly Used Type Hints
 
-- `int`, `float`, `str`, `bool`: These are basic data types. -`List[ElementType]`: This is a list containing elements of `ElementType`.
+- `int`, `float`, `str`, `bool`: These are basic data types. 
+- `List[ElementType]`: This is a list containing elements of `ElementType`.
 - `Dict[KeyType, ValueType]`: This is a dictionary with keys of `KeyType` and values of `ValueType`.
 - `Union[Type1, Type2]`: This is a value that can be of either `Type1` or `Type2`.
 - `Optional[Type]`: This indicates that a value can be of `Type` or `None`.
+
+> **Note**: Starting with Python 3.7, PEP 563 allows type annotations to be stored as strings and evaluated only when needed, optimizing runtime performance. From Python 3.10 onwards, PEP 604 introduces the `|` operator as a concise alternative to `Union`, simplifying syntax for type annotations.
 
 ## Example
 
@@ -47,10 +52,13 @@ from typing import List, Dict, Union
 
 def process_data(data: List[Dict[str, Union[int,str]]]) -> List[str]:
     """
-    Processes a list of dictionaries, extracting string values.
+    Processes a list of dictionaries to extract string values.
 
     Args:
-        data (List[Dict[str, Union[int,str]]]): A list of dictionaries with string keys and integer or string values.
+        (data: List[Dict[str, Union[int,str]]]): A list of dictionaries with string keys and integer or string values.
+    
+    PEP 604 Args:
+        (data: List[Dict[str, int | str]]): A list of dictionaries with string keys and integer or string values as per PEP 604.
 
     Returns:
         List[str]: A list of string values extracted from the dictionaries.
@@ -64,7 +72,7 @@ def process_data(data: List[Dict[str, Union[int,str]]]) -> List[str]:
 
 # Example usage
 data = [
-    {"name": "Alice", "age": 25}
+    {"name": "Alice", "age": 25},
     {"name": "Bob", "city": "New York"}
 ]
 
@@ -100,4 +108,4 @@ print(greet("Dani"))
 print(greet())
 ```
 
-> **Note:** While type hints enhance code clarity and help during development, they do not change how Python executes the code.
+> **Note**: While type hints enhance code clarity and facilitate static analysis during development, they do not affect how Python executes the code.
