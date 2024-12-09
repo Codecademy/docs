@@ -52,7 +52,7 @@ Below is an example of using `SelectKBest` for univariate feature selection:
 ```pseudo
 from sklearn.feature_selection import SelectKBest, f_classif
 
-# Applying SelectKBest
+# Applying SelectKBest to select the top 5 features with the highest ANOVA F-values
 selector = SelectKBest(score_func=f_classif, k=5)
 X_new = selector.fit_transform(X, y)
 
