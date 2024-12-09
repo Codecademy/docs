@@ -7,6 +7,7 @@ Subjects:
 Tags:
   - 'Errors'
   - 'Exceptions'
+  - 'Custom Exceptions'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
