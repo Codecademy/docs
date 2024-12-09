@@ -25,7 +25,7 @@ The `.adjoint()` method returns a tensor that is the adjoint (conjugate transpos
 
 ## Example
 
-This example shows how to use `.adjoint()` to find the adjoint of a *2x2* complex tensor:
+This example shows how to use `.adjoint()` to find the adjoint of a _2x2_ complex tensor:
 
 ```py
 import torch
