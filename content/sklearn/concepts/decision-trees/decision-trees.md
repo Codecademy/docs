@@ -26,7 +26,7 @@ In [sklearn](https://www.codecademy.com/resources/docs/sklearn), decision trees 
 
 ## Limitations
 
-- Prone to overfitting without proper pruning.
+- Can be prone to overfitting without proper pruning.
 - Sensitive to small changes in the data, which can lead to different tree structures.
 
 ## Syntax
