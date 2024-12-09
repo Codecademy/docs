@@ -35,7 +35,7 @@ def function_name(parameter_name: parameter_type) -> return_type:
 
 ### Commonly Used Type Hints
 
-- `int`, `float`, `str`, `bool`: These are basic data types. 
+- `int`, `float`, `str`, `bool`: These are basic data types.
 - `List[ElementType]`: This is a list containing elements of `ElementType`.
 - `Dict[KeyType, ValueType]`: This is a dictionary with keys of `KeyType` and values of `ValueType`.
 - `Union[Type1, Type2]`: This is a value that can be of either `Type1` or `Type2`.
@@ -56,7 +56,7 @@ def process_data(data: List[Dict[str, Union[int,str]]]) -> List[str]:
 
     Args:
         (data: List[Dict[str, Union[int,str]]]): A list of dictionaries with string keys and integer or string values.
-    
+
     PEP 604 Args:
         (data: List[Dict[str, int | str]]): A list of dictionaries with string keys and integer or string values as per PEP 604.
 
