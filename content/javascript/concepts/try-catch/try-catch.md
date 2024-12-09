@@ -1,6 +1,6 @@
 ---
 Title: 'Try/Catch'
-Description: 'The try...catch...finally statement aids in error testing and handling. All try blocks must be followed by either catch, finally, or both. javascript try { // Statements here are executed until an exception is thrown } catch (err) {'
+Description: 'The `try...catch...finally` in JavaScript handles errors. try tests code, catch handles exceptions, and finally runs regardless of errors.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/create-a-back-end-app-with-javascript'
 ---
 
-The `try...catch...finally` statement aids in error testing and handling. 
+The **`try...catch...finally`** statement defines three blocks of code. The `try` block contains code that is tested for possible errors. If an error occurs, the `catch` block handles the exception. Finally, the `finally` block contains code that will execute regardless of whether an error occurred, ensuring that cleanup or final actions take place.
 
 All `try` blocks must be followed by either `catch`, `finally`, or both.
 
