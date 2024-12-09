@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.sunburst()`** method in the Plotly express module creates sunburst charts, which are circular charts that represent hierarchical data. The chart uses sectors to represent levels in the hierarchy, with the root level at the center and child levels radiating outward. Sunburst charts are particularly useful for visualizing nested data and their relationships.
+The **`.sunburst()`** method in the [Plotly](https://www.codecademy.com/resources/docs/plotly) `express` module creates sunburst charts, which are circular charts that represent hierarchical data. The chart uses sectors to represent levels in the hierarchy, with the root level at the centre and child levels radiating outward. Sunburst charts are particularly useful for visualizing nested data and their relationships.
 
 ## Syntax
 
