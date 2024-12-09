@@ -30,7 +30,7 @@ plotly.express.sunburst(data_frame = None, names = None, parents = None, values 
 - `title`: An optional title for the sunburst chart. If not provided, no title is displayed.
 - `labels`: A dictionary that can be used to override the default labels for axis titles, legend entries, and hover information. This helps to customize the chart's display.
 
-> **Note:** The ellipsis in the syntax (...) indicates that there are additional optional parameters beyond those listed here to customize the 3D mesh.
+> **Note:** The ellipsis in the syntax (...) indicates that there are additional optional parameters beyond those listed here to customize the appearance and behavior of the sunburst chart.
 
 ## Example
 
