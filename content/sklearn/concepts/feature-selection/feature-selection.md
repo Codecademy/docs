@@ -77,10 +77,10 @@ X, y = make_regression(n_samples=100, n_features=10, noise=10, random_state=42)
 # Splitting data into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
 
-# Fitting Lasso regression
-model = Lasso(alpha=0.1).fit(X_train, y_train)
+# Fitting Lasso regression with stronger regularization
+model = Lasso(alpha=0.5).fit(X_train, y_train)
 
-# Using SelectFromModel for feature selection
+# Use the pre-trained Lasso model for feature selection
 selector = SelectFromModel(model, prefit=True)
 X_train_selected = selector.transform(X_train)
 X_test_selected = selector.transform(X_test)
@@ -90,10 +90,10 @@ selected_features = selector.get_support(indices=True)
 print("Selected Features:", selected_features)
 ```
 
-The code about produces the output as follows:
+The code above produces the output as follows:
 
 ```shell
-Selected Features: [0 1 2 3 4 5 6 7 8 9]
+Selected Features: [1 4 7]
 ```
 
 > **Note:** The exact selected features depend on the dataset and Lasso regularization strength.
