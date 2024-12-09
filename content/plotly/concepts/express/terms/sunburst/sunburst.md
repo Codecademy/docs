@@ -67,4 +67,4 @@ fig.show()
 
 The example above results in the following output:
 
-![The output for the example above](https://raw.githubusercontent.com/Codecademy/docs/main/media/sunburst-plotly.png)
+![The output chart displays a circular hierarchy with the root at the centre and child nodes radiating outward. Each sector's size and color are proportional to its respective values and color attributes.](https://raw.githubusercontent.com/Codecademy/docs/main/media/sunburst-plotly.png)
