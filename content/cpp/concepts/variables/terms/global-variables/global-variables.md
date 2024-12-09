@@ -22,9 +22,9 @@ In C++, **global variables** are variables that are defined outside of all [func
 data_type global_variable = value;
 ```
 
-- `data_type`: The [data type](https://www.codecademy.com/resources/docs/cpp/data-types) of the global variable.
-- `global_variable`: The global variable that is defined.
-- `value`: The value that is assigned to the global variable.
+- `data_type`: Specifies the [data type](https://www.codecademy.com/resources/docs/cpp/data-types) of the global variable.
+- `global_variable`: The name of the global variable.
+- `value` (Optional): The initial value assigned to the global variable.
 
 ## Example
 
