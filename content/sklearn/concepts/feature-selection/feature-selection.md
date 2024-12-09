@@ -30,9 +30,9 @@ CatalogContent:
         - `chi2`: For non-negative feature values in classification.
         - `mutual_info_classif`: Captures non-linear dependencies for classification.
 
-3. Recursive Feature Elimination (RFE)
-- Iteratively fits a model and removes the least important features, refining the subset with each iteration.
-- Works best with models that provide feature importance, such as linear models or tree-based algorithms.
+3. **Recursive Feature Elimination (RFE)**
+    - Iteratively fits a model and removes the least important features, refining the subset with each iteration.
+    - Works best with models that provide feature importance, such as linear models or tree-based algorithms.
 
 4. Sequential Feature Selection (SFS)
 - Sequentially adds or removes features to optimize a performance metric (e.g., accuracy).
