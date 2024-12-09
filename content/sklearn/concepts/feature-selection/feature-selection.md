@@ -47,7 +47,7 @@ CatalogContent:
 
 ## Syntax
 
-Here’s an example syntax using `SelectKBest` for univariate selection:
+Below is an example of using `SelectKBest` for univariate feature selection:
 
 ```pseudo
 from sklearn.feature_selection import SelectKBest, f_classif
