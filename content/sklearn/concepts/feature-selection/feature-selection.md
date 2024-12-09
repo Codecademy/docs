@@ -34,11 +34,11 @@ CatalogContent:
     - Iteratively fits a model and removes the least important features, refining the subset with each iteration.
     - Works best with models that provide feature importance, such as linear models or tree-based algorithms.
 
-4. Sequential Feature Selection (SFS)
-- Sequentially adds or removes features to optimize a performance metric (e.g., accuracy).
-- Two approaches:
-  - **Forward Selection**: Starts with no features, adding one at a time.
-  - **Backward Elimination**: Starts with all features, removing one at a time.
+4. **Sequential Feature Selection (SFS)**
+    - Sequentially adds or removes features to optimize a performance metric (e.g., accuracy).
+    - Two approaches:
+        - **Forward Selection**: Starts with no features, adding one at a time.
+        - **Backward Elimination**: Starts with all features, removing one at a time.
  
 ## Advantages of Feature Selection:
 - Enhances model accuracy and efficiency.
