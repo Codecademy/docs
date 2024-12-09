@@ -1,5 +1,5 @@
 ---
-Title: 'adjoint()'
+Title: '.adjoint()'
 Description: 'Computes the adjoint of a 2D complex-valued tensor in PyTorch.'
 Subjects:
   - 'Computer Science'
@@ -13,8 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **.adjoint()** method in PyTorch calculates the adjoint of a 2D complex-valued tensor in PyTorch.
-The adjoint is derived by transposing the tensor and computing the complex conjugate of each element. This operation is vital in applications like quantum computing, signal processing, and complex linear algebra.
+The **`.adjoint()`** method in PyTorch calculates the adjoint (conjugate transpose) of a 2D complex-valued tensor. This operation involves transposing the tensor and computing the complex conjugate of each element. The adjoint operation is commonly used in applications like quantum computing, signal processing, and complex linear algebra.
 
 ## Syntax
 
@@ -22,11 +21,11 @@ The adjoint is derived by transposing the tensor and computing the complex conju
 tensor.adjoint()
 ```
 
-The method returns a tensor that is the adjoint of the input tensor.
+The `.adjoint()` method returns a tensor that is the adjoint (conjugate transpose) of the input tensor.
 
 ## Example
 
-This example shows how to use `.adjoint()` to find the adjoint of a 2x2 complex tensor:
+This example shows how to use `.adjoint()` to find the adjoint of a *2x2* complex tensor:
 
 ```py
 import torch
