@@ -34,7 +34,7 @@ plotly.express.sunburst(data_frame = None, names = None, parents = None, values 
 
 ## Example
 
-Below is an example that demonstrates how to use the `.sunburst()` method with a hierarchical dataset in a Pandas DataFrame:
+Below is an example that demonstrates how to use the `.sunburst()` method with a hierarchical dataset in a [Pandas](https://www.codecademy.com/resources/docs/pandas) `DataFrame`:
 
 ```py
 import plotly.express as px
