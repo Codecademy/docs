@@ -20,7 +20,7 @@ In [sklearn](https://www.codecademy.com/resources/docs/sklearn), decision trees 
 ## Advantages of Decision Trees
 
 - Easy to understand and interpret.
-- Handles both numerical and categorical data.
+- Can handle both numerical and categorical data.
 - Requires minimal data preprocessing (e.g., no need for feature scaling).
 - Can model non-linear relationships.
 
