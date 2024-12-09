@@ -1,6 +1,6 @@
 ---
 Title: 'Try/Catch'
-Description: 'The try...catch...finally statement aids in error testing and handling. All try blocks must be followed by either catch,  finally, or both. javascript try { // Statements here are executed until an exception is thrown } catch (err) {'
+Description: 'The try...catch...finally statement aids in error testing and handling. All try blocks must be followed by either catch, finally, or both. javascript try { // Statements here are executed until an exception is thrown } catch (err) {'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -18,7 +18,7 @@ CatalogContent:
 
 The `try...catch...finally` statement aids in error testing and handling. 
 
-All `try` blocks must be followed by either `catch`,  `finally`, or both.
+All `try` blocks must be followed by either `catch`, `finally`, or both.
 
 ## Syntax
 
