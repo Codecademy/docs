@@ -50,8 +50,8 @@ WHERE Name = 'Bob' AND Department = 'Sales';
 
 Now, the updated table will be as follows:
 
-| ID | Name  | Department | Salary |
-|----|-------|------------|--------|
-| 1  | John  | HR         | 50000  |
-| 2  | Alice | IT         | 60000  |
-| 3  | Bob   | Sales      | 47000  |
+| ID  | Name  | Department | Salary |
+| --- | ----- | ---------- | ------ |
+| 1   | John  | HR         | 50000  |
+| 2   | Alice | IT         | 60000  |
+| 3   | Bob   | Sales      | 47000  |
