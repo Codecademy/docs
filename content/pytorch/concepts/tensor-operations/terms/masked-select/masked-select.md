@@ -36,7 +36,7 @@ import torch
 # Create an input tensor
 input_tensor = torch.tensor([1, 2, 3, 4, 5])
 
-# Create a mask tensor
+# Create a mask tensor with boolean values
 mask = torch.tensor([True, False, True, False, True])
 
 # Use masked_select to select elements based on the mask
