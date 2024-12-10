@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.select()`** method in PyTorch returns a specific slice of a [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) along the specified dimension. The output tensor has dimensionality 1 less than the input tensor.
+The **`.select()`** method in PyTorch returns a specific slice of a [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) along a specified dimension, reducing the dimensionality of the output tensor by one compared to the input tensor.
 
 ## Syntax
 
