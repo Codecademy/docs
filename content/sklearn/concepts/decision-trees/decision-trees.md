@@ -12,9 +12,10 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Decision Trees** are intuitive machine learning algorithms that can be used for classification and regression tasks. They recursively split data into subsets based on feature values, creating a tree-like structure to make predictions. 
+**Decision Trees** are intuitive machine learning algorithms that can be used for classification and regression tasks. They recursively split data into subsets based on feature values, creating a tree-like structure to make predictions.
 
 Decision trees are widely favored for their ease of use and clarity in interpretation.
+
 In [sklearn](https://www.codecademy.com/resources/docs/sklearn), decision trees are implemented in the `DecisionTreeClassifier` and `DecisionTreeRegressor` classes. They can handle both numerical and categorical data, and support advanced features like pruning and handling missing values.
 
 ## Advantages of Decision Trees
@@ -31,7 +32,7 @@ In [sklearn](https://www.codecademy.com/resources/docs/sklearn), decision trees 
 
 ## Syntax
 
-Below is an example syntax of decision tree classifier:
+Below is an example of the syntax for using a decision tree classifier:
 
 ```pseudo
 from sklearn.tree import DecisionTreeClassifier
@@ -46,7 +47,7 @@ model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 ```
 
-- `criterion `: Specifies the metric to evaluate split quality (`'gini'` for Gini Impurity, `'entropy'` for Information Gain).
+- `criterion`: Specifies the metric to evaluate split quality (`gini` for Gini Impurity, `entropy` for Information Gain).
 - `max_depth`: Sets the maximum depth of the tree to control model complexity and prevent overfitting.
 - `random_state`: Ensures reproducibility by setting the random seed for consistent results.
 - `min_samples_split`: Minimum number of samples required to split an internal node, controlling when splitting occurs.
