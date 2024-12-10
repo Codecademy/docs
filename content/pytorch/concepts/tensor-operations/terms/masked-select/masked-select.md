@@ -23,7 +23,7 @@ torch.masked_select(input, mask, *, out=None) → Tensor
 ```
 
 - `input`: The input tensor from which elements will be selected.
-- `mask`: The mask tensor containing boolean values to determine which elements to select.
+- `mask`: A boolean tensor of the same shape as input, where `True` indicates the elements to be selected.
 - `out`: If provided, the result will be written to this tensor. It is an optional parameter.
 
 ## Example
