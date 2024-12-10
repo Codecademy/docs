@@ -46,7 +46,7 @@ selected_elements = torch.masked_select(input_tensor, mask)
 print(selected_elements)
 ```
 
-Output:
+The code above generates the output as follows:
 
 ```shell
 tensor([1, 3, 5])
