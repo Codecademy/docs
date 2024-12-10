@@ -28,7 +28,7 @@ torch.masked_select(input, mask, *, out=None) → Tensor
 
 ## Example
 
-Here's an example of using `masked_select()` in PyTorch:
+Here's an example of using `.masked_select()` in PyTorch:
 
 ```py
 import torch
