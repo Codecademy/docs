@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In PyTorch, **masked select** is a method that selects elements from a tensor based on a mask. The mask is a tensor of the same shape as the input tensor, containing boolean values. The `masked_select()` function returns a new tensor with elements from the input tensor where the corresponding mask value is `True`.
+In PyTorch, **`.masked_select()`** is a function that selects elements from an input tensor based on a boolean mask of the same shape. It returns a new 1D tensor containing the elements where the mask is `True`.
 
 ## Syntax
 
