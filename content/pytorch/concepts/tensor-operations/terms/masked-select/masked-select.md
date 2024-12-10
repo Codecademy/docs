@@ -1,5 +1,5 @@
 ---
-Title: 'masked_select()'
+Title: '.masked_select()'
 Description: 'Selects elements from a tensor, based on a boolean mask, and returns them as a 1D tensor.'
 Subjects:
   - 'Computer Science'
