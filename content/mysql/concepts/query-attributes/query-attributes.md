@@ -33,7 +33,7 @@ SET [GLOBAL|SESSION] query_attribute_name = 'value';
  
 ## Example
 
-In the following example we have have set a custom query attribute that sets a rule that says the query should not take longer than `10` seconds to run. If it does, MySQL will stop it
+In the following example, we have set a custom query attribute that sets a rule that limits the query execution time to `10` seconds. If takes longer to execute, MySQL will stop it.
 
 ```sql
 -- Set a query attribute 
