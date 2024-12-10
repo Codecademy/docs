@@ -12,35 +12,39 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Feature Selection** is a critical step in machine learning that helps identify a dataset's most relevant features, improving model performance, reducing overfitting, and decreasing computation time. 
+**Feature Selection** is a critical step in machine learning that helps identify a dataset's most relevant features, improving model performance, reducing overfitting, and decreasing computation time.
 
 [Sklearn](https://www.codecademy.com/resources/docs/sklearn) offers various methods for feature selection, including statistical tests, model-based selection, and iterative approaches.
 
 ## Types of Feature Selection in Sklearn
 
 1. **Variance Threshold**
+
    - A simple baseline technique that removes features with variance below a predefined threshold.
    - Features with very low variance across samples typically contribute little to the predictive power of the model.
 
-2.  **Univariate Feature Selection**
-    - Selects features based on univariate statistical tests.
-    - Commonly used methods include `SelectKBest` and `SelectPercentile`.
-    - Example tests:
-        - `f_classif`: For classification tasks, calculates the ANOVA F-value.
-        - `chi2`: For non-negative feature values in classification.
-        - `mutual_info_classif`: Captures non-linear dependencies for classification.
+2. **Univariate Feature Selection**
+
+   - Selects features based on univariate statistical tests.
+   - Commonly used methods include `SelectKBest` and `SelectPercentile`.
+   - Example tests:
+     - `f_classif`: For classification tasks, calculates the ANOVA F-value.
+     - `chi2`: For non-negative feature values in classification.
+     - `mutual_info_classif`: Captures non-linear dependencies for classification.
 
 3. **Recursive Feature Elimination (RFE)**
-    - Iteratively fits a model and removes the least important features, refining the subset with each iteration.
-    - Works best with models that provide feature importance, such as linear models or tree-based algorithms.
+
+   - Iteratively fits a model and removes the least important features, refining the subset with each iteration.
+   - Works best with models that provide feature importance, such as linear models or tree-based algorithms.
 
 4. **Sequential Feature Selection (SFS)**
-    - Sequentially adds or removes features to optimize a performance metric (e.g., accuracy).
-    - Two approaches:
-        - **Forward Selection**: Starts with no features, adding one at a time.
-        - **Backward Elimination**: Starts with all features, removing one at a time.
- 
-## Advantages of Feature Selection:
+   - Sequentially adds or removes features to optimize a performance metric (e.g., accuracy).
+   - Two approaches:
+     - **Forward Selection**: Starts with no features, adding one at a time.
+     - **Backward Elimination**: Starts with all features, removing one at a time.
+
+## Advantages of Feature Selection
+
 - Enhances model accuracy and efficiency.
 - Reduces overfitting by removing irrelevant features.
 - Simplifies model interpretability.
