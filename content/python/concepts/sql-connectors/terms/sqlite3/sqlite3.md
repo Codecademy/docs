@@ -36,7 +36,7 @@ con = sqlite3.connect("mydb_db.db")
 
 ## Create a cursor
 
-A cursor is required to execute SQL statements, and the  **`.cursor()`** function creates one.
+A cursor is required to execute SQL statements, and the **`.cursor()`** function creates one.
 
 ```py
 curs = connection.cursor()
@@ -66,7 +66,7 @@ curs.execute('''INSERT INTO persons VALUES(
 
 ## Insert many values into the table
 
- To insert multiple values into the table, execute the SQL statement using the **`.executemany()`** function with an array of values.
+To insert multiple values into the table, execute the SQL statement using the **`.executemany()`** function with an array of values.
 
 ```py
 new_persons = [('Bob', 26, 'male'),
@@ -87,7 +87,7 @@ con.commit()
 
 ## Check the inserted rows
 
-To check all inserted rows, the  **`.fetchall()`**  function can be used.
+To check all inserted rows, the **`.fetchall()`** function can be used.
 
 ```py
 result = cursor.execute("SELECT * FROM persons")
