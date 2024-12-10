@@ -1,6 +1,6 @@
 ---
 Title: '.column_stack()'
-Description: 'Creates a new tensor by stacking tensors as columns in a 2D tensor, converting 1D tensors to 2D.'
+Description: 'Creates a new tensor by stacking tensors as columns in a 2D tensor, converting 1D tensors into 2D.'
 Subjects:
   - 'AI'
   - 'Data Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'py-torch-for-classification'
 ---
 
-In PyTorch, the **`.column_stack()`** function creates a new tensor by stacking tensors as columns in a 2D tensor, converting 1D tensors into 2D if necessary. It is useful for combining feature vectors or aligning data along the column axis for machine learning models.
+In PyTorch, the **`.column_stack()`** function creates a new tensor by stacking tensors as columns in a 2D tensor, converting 1D tensors into 2D if necessary. It is useful for combining feature vectors or aligning data along the column axis for [machine learning](https://www.codecademy.com/resources/docs/ai/machine-learning) models.
 
 ## Syntax
 
@@ -36,8 +36,9 @@ import torch
 a = torch.tensor([10, 20, 30])
 b = torch.tensor([40, 50, 60])
 
-# Stack them as columns
+# Stack the tensors as columns
 result = torch.column_stack((a, b))
+
 print(result)
 ```
 
