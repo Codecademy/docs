@@ -16,7 +16,9 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-**Query attributes**, in MySQL allows you to add metadata to SQL queries. They help in passing custom information, debugging, and tracing query execution. These attributes do not change the behavior of the query but provide additional context for tools or services interacting with the database.
+In MySQL, **query attributes** allow you to add metadata to SQL queries. They help pass custom information, debug, and trace query execution. 
+ 
+These attributes do not change the behaviour of the query but provide additional context for tools or services interacting with the database.
 
 ## Syntax
 
