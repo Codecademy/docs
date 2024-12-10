@@ -36,7 +36,7 @@ SET [GLOBAL|SESSION] query_attribute_name = 'value';
 In the following example, we have set a custom query attribute that sets a rule that limits the query execution time to `10` seconds. If takes longer to execute, MySQL will stop it.
 
 ```sql
--- Set a query attribute 
+-- Set a session-level query attribute to limit execution time
 SET SESSION query_time_limit = '10s';
 -- Using the attribute in query
 SELECT * FROM orders WHERE order_date > '2024-01-01';
