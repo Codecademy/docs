@@ -39,7 +39,7 @@ input_tensor = torch.tensor([1, 2, 3, 4, 5])
 # Create a mask tensor with boolean values
 mask = torch.tensor([True, False, True, False, True])
 
-# Use masked_select to select elements based on the mask
+# Use masked_select to extract elements from the input tensor where the mask is True
 selected_elements = torch.masked_select(input_tensor, mask)
 
 # Print the selected elements
