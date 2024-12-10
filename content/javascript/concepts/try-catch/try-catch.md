@@ -1,6 +1,6 @@
 ---
 Title: 'Try/Catch'
-Description: 'The `try...catch...finally` in JavaScript handles errors. try tests code, catch handles exceptions, and finally runs regardless of errors.'
+Description: 'The `try...catch...finally` in JavaScript handles errors where `try` tests code, `catch` handles exceptions, and `finally` runs regardless of errors.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
