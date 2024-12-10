@@ -1,5 +1,5 @@
 ---
-Title: 'Query-Attributes'
+Title: 'Query Attributes'
 Description: 'Metadata associated with SQL queries in MySQL for plugins, debugging, or tracing without altering query behavior.'
 Subjects:
   - 'Attributes'
