@@ -1,5 +1,5 @@
 ---
-Title: 'Generalized Linear Models'
+Title: 'GLM'
 Description: 'GLM extends linear regression to handle non-linear relationships between variables.'
 Subjects:
   - 'Data Science'
