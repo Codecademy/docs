@@ -19,16 +19,18 @@ CatalogContent:
 
 ## Syntax
 
-GLMs in Python are typically implemented using the `statsmodels` library. Here's the basic syntax:
+GLMs in Python are commonly implemented using the `statsmodels` library. Here's the basic syntax:
 
 ```pseudo
 import statsmodels.api as sm
 
 # Fit the GLM model
-model = sm.GLM(y,                    # Dependent variable
-               X,                    # Independent variables
-               family=sm.families.Family())  # Distribution family
+model = sm.GLM(y, X, family=sm.families.Family())
 results = model.fit()
+
+- `y`: The dependent variable that needs to be predicted.
+- `X`: The independent variable that is used to model the relationship with the `y` variable.
+- `family=sm.families.Family()`: Specifies the distribution family for the GLM (e.g., Gaussian() for Poisson(), etc.)
 ```
 
 Available family distributions include:
