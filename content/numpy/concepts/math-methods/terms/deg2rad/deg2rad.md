@@ -1,4 +1,4 @@
-use---
+---
 Title: '.deg2rad()'
 Description: 'Converts angles from degrees to radians.'
 Subjects:
