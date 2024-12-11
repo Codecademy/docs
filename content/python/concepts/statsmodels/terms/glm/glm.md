@@ -136,6 +136,7 @@ print(results.summary())
 
 # Make a prediction for a 2000 sq ft house with 3 bedrooms
 new_house = np.array([1, 2000, 3])  # [constant, sq_footage, bedrooms]
+new_house = new_house.reshape(1, -1)  # Reshape to 2D array for prediction
 prediction = results.predict(new_house)
 print("\nPredicted price for a 2000 sq ft house with 3 bedrooms:")
 print(f"${prediction[0]:,.2f}k")
