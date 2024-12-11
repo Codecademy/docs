@@ -1,6 +1,6 @@
 ---
 Title: 'GLM'
-Description: 'GLM extends linear regression to handle non-linear relationships between variables.'
+Description: 'Extends linear regression to handle non-linear relationships between variables.'
 Subjects:
   - 'Data Science'
   - 'Machine Learning'
