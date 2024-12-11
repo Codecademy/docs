@@ -1,1 +1,1 @@
-content/matplotlib/concepts/pyplot/pyplot.md
+content/uiux/concepts/design-software/design-software.md
