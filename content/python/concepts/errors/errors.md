@@ -7,6 +7,7 @@ Subjects:
 Tags:
   - 'Errors'
   - 'Exceptions'
+  - 'Custom Exceptions'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
@@ -99,4 +100,44 @@ Traceback (most recent call last):
 File "script.py", line 1, in <module>
 ratio = 100 / 0
 ZeroDivisionError: division by zero
+```
+
+## Custom Exceptions
+
+Custom exceptions can be used to define and handle application-specific errors. This can be done by creating a sub-class of the built-in `Exception` class. Custom exceptions are useful for providing descriptive user feedback for unexpected behaviour. They can also help developers in debugging or be used elsewhere in the program. 
+
+### Defining Custom Exceptions
+
+To define a custom exception, create a new class that inherits from `Exception` and optionally override the constructor to provide additional information.
+
+```shell
+#Custom Exception for invalid age input
+class InvalidAgeError(Exception):
+    def __init__(self, message, age=None):
+        super().__init__(message)
+        self.age = age
+```
+
+### Using Custom Exceptions
+
+Once a custom exception has been created, it can be used to raise custom error messages for invalid inputs. For example, this function raises an error if the user inputs an age not between 0 and 130.
+
+```shell
+def validate_age(age):
+    if not isinstance(age, int):
+        raise InvalidAgeError("Age must be an integer.", age)
+    if age < 0 or age > 130:
+        raise InvalidAgeError(f"{age} is not a valid age. Please choose an age between 0 and 130.", age)
+```
+
+### Example Custom Exception Usage
+
+Once the custom exception has been used in a function, this function can be used to throw the custom error to the user.
+
+```shell
+try:
+    validate_age(-5)  
+except InvalidAgeError as e:
+    print(f"Error: {e}")
+# Prints: "Error: -5 is not a valid age. Please choose an age between 0 and 130".
 ```
