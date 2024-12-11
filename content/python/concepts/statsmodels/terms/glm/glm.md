@@ -72,6 +72,7 @@ print(results.summary())
 
 # Make a prediction for a flower with sepal length=5.0 and sepal width=3.5
 new_flower = np.array([1, 5.0, 3.5])  # include constant term
+new_flower = new_flower.reshape(1, -1)  # Reshape to 2D array for prediction
 prediction = results.predict(new_flower)
 print("\nPredicted petal length:", prediction[0])
 ```
