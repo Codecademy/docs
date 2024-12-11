@@ -48,7 +48,7 @@ Source: [statsmodels GLM documentation](https://www.statsmodels.org/stable/_modu
 
 ## Example
 
-Here's an example of fitting a GLM using the famous `iris` dataset to predict petal length.
+Here's an example of fitting a GLM using the famous `iris` dataset to predict petal length:
 
 ```py
 import statsmodels.api as sm
