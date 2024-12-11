@@ -50,13 +50,16 @@ The code above produces the following output:
 Angle in degrees: 45
 Angle in radians: 0.7853981633974483
 ```
-## Codebyte 
-The code byte below converts a value 170 degree to it equivalent in radian. 
-```python
+
+## Codebyte Example
+
+Run the codebyte example below to understand how the `.deg2rad()` function works:
+
+```codebyte/python
 import numpy as np
 
-# Convert degrees to radians
 degrees = 170
 radians = np.deg2rad(170)
 
 print(f"{degrees} degrees is {radians} radians.")
+```
