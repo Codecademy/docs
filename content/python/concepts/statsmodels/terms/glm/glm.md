@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-**Generalized Linear Model (GLM)** is a statistical tool that helps us understand relationships between variables. Specifically, it predicts the value of a dependent variable (the thing we’re trying to understand or forecast) based on one or more independent variables (the inputs or factors we think influence it). GLMs are an extension of regular linear regression, designed to handle more complex scenarios.
+**Generalized Linear Model (GLM)** is a statistical tool that helps us understand relationships between variables. Specifically, it predicts the value of a dependent variable (the target variable that needs to be predicted) based on one or more independent variables (the inputs or factors we think influence it). GLMs are an extension of regular linear regression, designed to handle more complex scenarios.
 
 ## Syntax
 
