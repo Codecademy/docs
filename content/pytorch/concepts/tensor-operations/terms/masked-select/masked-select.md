@@ -54,4 +54,4 @@ tensor([1, 3, 5])
 
 In this example, the `input_tensor` contains elements `[1, 2, 3, 4, 5]`, and the `mask` tensor contains boolean values `[True, False, True, False, True]`. The `masked_select()` function selects elements from the `input_tensor` where the corresponding mask value is `True`, resulting in the tensor `[1, 3, 5]`.
 
-The `.masked_select()` function is useful for filtering elements from a tensor based on conditions specified by the mask tensor. It can be applied in various scenarios, such as selecting specific elements for further processing, analysis, or model training."
+The `.masked_select()` function is useful for filtering elements from a tensor based on conditions specified by the mask tensor. It can be applied in various scenarios, such as selecting specific elements for further processing, analysis, or model training.
