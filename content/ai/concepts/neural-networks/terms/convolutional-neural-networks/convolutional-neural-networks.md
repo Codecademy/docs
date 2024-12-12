@@ -1,6 +1,6 @@
 ---
 Title: 'Convolutional Neural Networks'
-Description: 'Convolutional Neural Networks are a type of neural network that are primarily used for computer vision tasks, such as image classification, object detection, and semantic segmentation.'
+Description: 'Convolutional Neural Networks (CNNs) are neural networks primarily used for computer vision tasks like image classification, object detection, and segmentation.'
 Subjects:
   - 'Machine Learning'
   - 'Computer Science'
