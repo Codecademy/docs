@@ -58,7 +58,7 @@ FROM users;
 This example will generate the following output:
 
 ```shell
-| formatted_name | email_length | obfuscated_email          |
+| formatted_name | email_length | obfuscated_email           |
 |----------------|--------------|----------------------------|
 | J.DOE          | 21           | john.doe[at]example.com    |
 | A.JOHNSON      | 25           | alice.johnson[at]work.org  |
