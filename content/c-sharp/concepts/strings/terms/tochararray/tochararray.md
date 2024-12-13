@@ -79,12 +79,20 @@ d
 ### Converting a Substring to a Character Array
 
 ```cs
-string phrase = "Convert this string!";
-char[] partialArray = phrase.ToCharArray(8, 4);
+using System;
 
-foreach (char c in partialArray)
+class Program
 {
-    Console.WriteLine(c);
+    static void Main()
+    {
+        string phrase = "Convert this string!";
+        char[] partialArray = phrase.ToCharArray(8, 4);
+
+        foreach (char c in partialArray)
+        {
+            Console.WriteLine(c);
+        }
+    }
 }
 ```
 
