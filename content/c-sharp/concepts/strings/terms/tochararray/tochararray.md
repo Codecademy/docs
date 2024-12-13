@@ -25,7 +25,7 @@ char[] arrayName = stringName.ToCharArray();
 
 ### Optional Parameters
 
-The `.ToCharArray()` method also allows for optional parameters to specify a substring to convert:
+The `.ToCharArray()` method can also take optional parameters to convert a specific substring into a character array:
 
 ```pseudo
 char[] substringArray = stringName.ToCharArray(startIndex, length);
