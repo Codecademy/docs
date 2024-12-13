@@ -107,7 +107,7 @@ s
 
 ## Codebyte Example
 
-Try this example to see how `.ToCharArray()` works in C#:
+Run the following codebyte example to see how `.ToCharArray()` works in C#:
 
 ```codebyte/csharp
 using System;
