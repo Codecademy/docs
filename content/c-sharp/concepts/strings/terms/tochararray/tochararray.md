@@ -1,6 +1,6 @@
 ---
 Title: '.ToCharArray()'
-Description: 'Converts a string into a character array in C#. Each character in the string becomes an element in the array.'
+Description: 'Converts a string into an array of characters.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
