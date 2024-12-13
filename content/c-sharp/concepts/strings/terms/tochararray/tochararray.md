@@ -41,12 +41,20 @@ char[] substringArray = stringName.ToCharArray(startIndex, length);
 Here's an example of using `.ToCharArray()` to split a string into individual characters:
 
 ```cs
-string greeting = "Hello, World!";
-char[] charArray = greeting.ToCharArray();
+using System;
 
-foreach (char c in charArray)
+class Program
 {
-    Console.WriteLine(c);
+    static void Main()
+    {
+        string greeting = "Hello, World!";
+        char[] charArray = greeting.ToCharArray();
+
+        foreach (char c in charArray)
+        {
+            Console.WriteLine(c);
+        }
+    }
 }
 ```
 
