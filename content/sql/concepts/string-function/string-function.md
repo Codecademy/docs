@@ -5,10 +5,10 @@ Subjects:
   - 'Data Science'
   - 'Data Visualization'
 Tags:
-  - 'Strings'
+  - 'Database'
   - 'Functions'
   - 'SQL'
-  - 'Database'
+  - 'Strings'
 CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
