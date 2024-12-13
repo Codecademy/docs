@@ -1,5 +1,5 @@
 ---
-Title: 'SQL String Functions'
+Title: 'String Functions'
 Description: 'String functions in SQL allow for operations such as modifying, formatting, and extracting information from strings.'
 Subjects:
   - 'Data Science'
