@@ -89,6 +89,8 @@ Data
 Data Structures
 Data Types
 Database
+DataLoader
+Datasets
 Date
 Dart Operators
 Debugging
@@ -270,6 +272,7 @@ Programming
 Properties
 Protocols
 Python
+PyTorch
 Queries
 Queues
 Quicksort
