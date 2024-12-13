@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.ToCharArray()`** method in C# is used to convert a string into an array of characters. Each character in the string becomes an element in the resulting array, allowing for manipulation or iteration of individual characters.
+The **`.ToCharArray()`** method in C# converts a string into an array of characters, where each character in the string becomes an element in the resulting array. This allows for the manipulation or iteration of individual characters.
 
 ## Syntax
 
