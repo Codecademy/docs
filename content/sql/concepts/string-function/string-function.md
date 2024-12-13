@@ -55,7 +55,7 @@ SELECT
 FROM users;
 ```
 
-This example will generate the following output::
+This example will generate the following output:
 
 ```shell
 | formatted_name | email_length | obfuscated_email          |
