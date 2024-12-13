@@ -32,7 +32,7 @@ char[] substringArray = stringName.ToCharArray(startIndex, length);
 ```
 
 - `startIndex`: The zero-based index where the substring starts.
-- `length`: The number of characters to include in the resulting array.
+- `length`: The number of characters to include in the resulting array, starting from `startIndex`.
 
 ## Examples
 
