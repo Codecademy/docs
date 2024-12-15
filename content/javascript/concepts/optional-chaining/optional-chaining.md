@@ -1,11 +1,12 @@
 ---
 Title: 'Optional Chaining'
-Description: 'A brief description.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
+Description: 'The optional chanining operator' 
 Subjects: 
   - 'Web Development'
   - 'Computer Science'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
-  - 'A tag'
+Tags: 
+  - 'Data'
+  - 'Operators'
 CatalogContent: 
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
