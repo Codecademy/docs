@@ -91,7 +91,7 @@ SELECT
 FROM Promotions;
 ```
 
-The output is a table that features a new column `previous_position`, which holds the values by employee. The first record is null because a default was not specified and the previous row would be out of range.
+Within each group defined by `employee_id`, the `previous_position` column holds the value from the previous row based on `promotion_date`. The first record in each group is `NULL` because there is no preceding row.
 
 The above code generates the following output:
 
