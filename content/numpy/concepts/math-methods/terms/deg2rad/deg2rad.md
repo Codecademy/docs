@@ -15,7 +15,7 @@ CatalogContent:
 
 In NumPy, the **`.deg2rad()`** function converts an angle from degrees to radians.
 
-> **Note:** In NumPy, the default unit for angles is radians. Therefore, the `.deg2rad()` function converts degree inputs to radians when applied.
+> **Note:** In NumPy, the default unit for angles is radians. Therefore, the `.deg2rad()` function is used to convert angle values from degrees to radians.
 
 ## Syntax
 
