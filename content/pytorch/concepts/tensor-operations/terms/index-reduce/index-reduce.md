@@ -30,7 +30,7 @@ Tensor.index_reduce_(dim, index, source, reduce, *, include_self=True)
   - `'mean'`: Mean of elements with the same index.
   - `'amax'`: Maximum of elements with the same index.
   - `'amin'`: Minimum of elements with the same index.
-- `incluse_self` (Optional): Determines whether the existing values in the current tensor are included in the reduction operation.
+- `include_self` (Optional): Determines whether the existing values in the current tensor are included in the reduction operation.
   - If `True`, the values already present in the tensor are included.
   - If `False`, only the `source` tensor values contribute to the reduction.
 
