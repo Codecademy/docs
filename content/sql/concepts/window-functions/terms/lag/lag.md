@@ -66,7 +66,9 @@ Output
 
 ### Using `PARTITION BY` Clause
 
-This example demonstrates how to use the `LAG()` function to create a new column, `previous_position`. The function retrieves the value from the previous row within the same `employee_id` group in the `Promotions` table. This is achieved by using the `PARTITION BY employee_id` clause.
+This example demonstrates how to use the `LAG()` function to create a new column, `previous_position`. 
+
+The `PARTITION BY employee_id` clause ensures that the `LAG()` function operates within each group of rows that share the same `employee_id`. The `ORDER BY promotion_date` ensures the rows are processed in chronological order.
 
 `Promotions` Table
 
