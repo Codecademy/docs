@@ -53,9 +53,8 @@ SELECT
 FROM Users;
 ```
 
-The output is a table that features a new column `previous_age`, which holds the values from the previous records. The first record is null because a default was not specified and the previous row would be out of range.
+The output of the above code is a table that features a new column `previous_age`, which holds the values from the previous records. The first record is null because a default was not specified and the previous row would be out of range.
 
-Output
 
 | first_name | last_name | age | previous_age |
 | ---------- | --------- | --- | ------------ |
