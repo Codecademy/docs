@@ -50,7 +50,7 @@ source = torch.tensor([1.0, 2.0, 3.0, 4.0])
 # Indices mapping source to target
 index = torch.tensor([0, 1, 0, 1])
 
-# Perform in-place reduction using 'mean'
+# Perform in-place reduction using 'mean' along the 0th dimension (rows)
 target.index_reduce_(dim=0, index=index, source=source, reduce='mean')
 print(target)
 ```
