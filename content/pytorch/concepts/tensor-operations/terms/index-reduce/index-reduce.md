@@ -1,5 +1,5 @@
 ---
-Title: '.index_reduce()'
+Title: '.index_reduce_()'
 Description: 'Reduces a tensor along a specified dimension using a given reduction operation based on indices that map elements to the output tensor.'
 Subjects:
   - 'Computer Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In PyTorch, **`.index_reduce()`** performs a reduction operation (such as sum, prod, or mean) on a [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) along a specified dimension, using an index tensor to map input elements to positions in the output tensor, effectively aggregating values with the same index.
+In PyTorch, **`.index_reduce_()`** performs an in-place reduction operation (such as sum, product, or mean) on a [tensor](https://www.codecademy.com/resources/docs/pytorch/tensors) along a specified dimension. It uses an index tensor to map input elements to positions in the output tensor, effectively aggregating values with the same index.
 
 ## Syntax
 
@@ -58,7 +58,7 @@ print(target)
 The above code produces the following output:
 
 ```shell
-tensor([1.3333, 2.0000, 0.0000, 0.0000, 0.0000])
+tensor([1.3333, 2.0000])
 ```
 
 This code reduces the `source` tensor along dimension 0 by averaging (`'mean'` reduce) the values mapped to the same indices in the `index` tensor, updating the `target` tensor in place.
