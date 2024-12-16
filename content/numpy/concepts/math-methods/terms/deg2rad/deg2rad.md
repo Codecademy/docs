@@ -59,7 +59,7 @@ Run the codebyte example below to understand how the `.deg2rad()` function works
 import numpy as np
 
 degrees = 170
-radians = np.deg2rad(170)
+radians = np.deg2rad(degrees)
 
 print(f"{degrees} degrees is {radians} radians.")
 ```
