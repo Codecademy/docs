@@ -163,4 +163,4 @@ The code above generates output as follows:
  [ -59.54942557 -102.03957313]]
 ```
 
-> **Note:** The output will vary each time the code is run unless a fixed `random_state` is set in `make_regression()` to ensure reproducibility.
+> **Note:** The output will vary each time the code is run unless a fixed `random_state` is set in `make_regression()`, ensuring reproducibility as shown in the example.
