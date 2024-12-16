@@ -1,1 +1,1 @@
-content/ruby/concepts/variables/variables.md
+content/ruby/concepts/gems/gems.md

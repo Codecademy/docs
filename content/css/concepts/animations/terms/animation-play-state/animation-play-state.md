@@ -49,6 +49,10 @@ div {
 }
 ```
 
+The output will look like this:
+
+![The div will start with a blue background and gradually transition to a white background over the course of 2 seconds.](https://raw.githubusercontent.com/Codecademy/docs/main/media/animation-play-state-running.gif)
+
 ## Example 2
 
 Pause the animation on `div` click:
@@ -81,3 +85,7 @@ box.addEventListener('click', () => {
   box.style.animationPlayState = 'paused';
 });
 ```
+
+The output will look like this:
+
+![The animation can be paused when the div is clicked.](https://raw.githubusercontent.com/Codecademy/docs/main/media/animation-play-state-paused.gif)
