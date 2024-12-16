@@ -44,7 +44,7 @@ class Program
 }
 ```
 
-The output of the above code will be as follows:
+The above code generates the output as follows:
 
 ```shell
 'John      '
@@ -66,7 +66,7 @@ class NameFormatter
 }
 ```
 
-The output of the above code will be as follows:
+The output of the above code will be:
 
 ```shell
 'John------'
@@ -90,7 +90,7 @@ class NamePaddingExample
 }
 ```
 
-The output of the above code will be as follows:
+Here's what the output of this code will be:
 
 ```shell
 'John'
@@ -98,7 +98,7 @@ The output of the above code will be as follows:
 
 ## Codebyte Example
 
-Run the following example to see how the `.PadRight()` method works:
+Run the following example to understand how the `.PadRight()` method works:
 
 ```codebyte/csharp
 using System;
