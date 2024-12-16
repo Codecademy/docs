@@ -20,18 +20,20 @@ This function is commonly used in linear algebra operations and initializing neu
 ## Syntax
 
 ```pseudo
-torch.eye(n, m, dtype=None, device=None, out=None)
+torch.eye(n, m=None, *, out=None, dtype=None, layout=torch.strided, device=None, requires_grad=False)
 ```
 
-- `n`: The number of rows in the resulting identity matrix.
-- `m`: The number of columns in the resulting identity matrix.
-- `dtype`: The desired data type of the returned tensor (optional).
-- `device`: The device on which the tensor should be allocated (optional).
-- `out`: The output tensor (optional).
+- `n`: The number of rows in the resulting 2-D tensor. This is a required parameter.
+- `m` (Optional): The number of columns in the resulting tensor. If `None`, the tensor will have `m = n` columns, resulting in a square matrix. Defaults to `None`.
+- `out` (Optional): The output tensor to store the result. If specified, the result will be written into this tensor. Defaults to `None`.
+- `dtype` (Optional): The desired data type of the resulting tensor. If not provided, the default data type is used, which depends on the global PyTorch settings.
+- `layout` (Optional): The desired memory layout of the tensor. Defaults to `torch.strided`.
+- `device` (Optional): The desired device on which to create the tensor. If not specified, the tensor will be created on the current device.
+- `requires_grad` (Optional): If `True`, the resulting tensor will be created with gradient computation enabled. Defaults to `False`.
 
 ## Example
 
-Here is an example that demonstrates the use of `.eye()` to create a 3x3 identity matrix:
+Here is an example that demonstrates the use of `.eye()` to create a _3x3_ identity matrix:
 
 ```py
 import torch
@@ -52,7 +54,7 @@ tensor([[1., 0., 0.],
 
 ## Codebyte Example
 
-Here is an example that demonstrates the use of `.eye()` to create a 4x4 identity matrix:
+Here is an example that demonstrates the use of `.eye()` to create a _4x4_ identity matrix:
 
 ```codebyte/python
 import torch
