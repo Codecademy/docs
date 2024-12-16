@@ -1,6 +1,6 @@
 ---
 Title: '.PadRight()'
-Description: 'The .PadRight() method in C# adds spaces or specified characters to the right of a string to achieve a specified total length.'
+Description: 'Adds padding to the right side of a string to ensure it reaches a specified total length.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -18,13 +18,12 @@ The **`.PadRight()`** method in C# is used to add padding characters to the righ
 
 ## Syntax
 
-```cs
-string.PadRight(int totalWidth)
+```pseudo
 string.PadRight(int totalWidth, char paddingChar)
 ```
 
 - `totalWidth`: The desired total length of the string, including padding. If the specified width is less than the string's length, no padding is added.
-- `paddingChar`(Optional): The character to use for padding. Defaults to a space character (' ').
+- `paddingChar`(Optional): The character to use for padding. Defaults to a space character (`' '`).
 
 > **Note**: The `.PadRight()` method does not modify the original string. It generates and returns a new string with padding applied to achieve the specified total width.
 
@@ -33,9 +32,16 @@ string.PadRight(int totalWidth, char paddingChar)
 ### Default Padding with Spaces
 
 ```cs
-string name = "John";
-string paddedName = name.PadRight(10);
-Console.WriteLine($"'{paddedName}'");
+using System;
+class Program
+{
+    static void Main()
+    {
+        string name = "John";
+        string paddedName = name.PadRight(10);
+        Console.WriteLine($"'{paddedName}'");
+    }
+}
 ```
 
 The output of the above code will be as follows:
@@ -47,9 +53,17 @@ The output of the above code will be as follows:
 ### Custom Padding Character
 
 ```cs
-string name = "John";
-string paddedName = name.PadRight(10, '-');
-Console.WriteLine($"'{paddedName}'");
+using System;
+
+class NameFormatter
+{
+    public static void Main(string[] args)
+    {
+        string name = "John";
+        string paddedName = name.PadRight(10, '-');
+        Console.WriteLine($"'{paddedName}'");
+    }
+}
 ```
 
 The output of the above code will be as follows:
@@ -63,9 +77,17 @@ The output of the above code will be as follows:
 If the specified `totalWidth` is less than the length of the string, the original string is returned:
 
 ```cs
-string name = "John";
-string result = name.PadRight(3);
-Console.WriteLine($"'{result}'");
+using System;
+
+class NamePaddingExample
+{
+    public static void Main(string[] args)
+    {
+        string name = "John";
+        string result = name.PadRight(3);
+        Console.WriteLine($"'{result}'");
+    }
+}
 ```
 
 The output of the above code will be as follows:
@@ -76,7 +98,7 @@ The output of the above code will be as follows:
 
 ## Codebyte Example
 
-Try out the following example to see how `.PadRight()` works:
+Run the following example to see how the `.PadRight()` method works:
 
 ```codebyte/csharp
 using System;
