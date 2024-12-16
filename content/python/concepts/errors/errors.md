@@ -121,7 +121,7 @@ class InvalidAgeError(Exception):
 
 Once a custom exception has been created, it can be used to raise custom error messages for invalid inputs. For example, this function raises an error if the user inputs an age not between 0 and 130.
 
-```shell
+```pseudo
 def validate_age(age):
     if not isinstance(age, int):
         raise InvalidAgeError("Age must be an integer.", age)
