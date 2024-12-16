@@ -109,7 +109,7 @@ Custom exceptions can be used to define and handle application-specific errors. 
 
 To define a custom exception, create a new class that inherits from `Exception` and optionally override the constructor to provide additional information.
 
-```shell
+```pseudo
 #Custom Exception for invalid age input
 class InvalidAgeError(Exception):
     def __init__(self, message, age=None):
